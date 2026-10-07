@@ -1,0 +1,75 @@
+{
+ "vak": "Wiskunde basis",
+ "titel": "De tweedegraadsfunctie en haar parabool",
+ "onder": "De parabool met haar top en symmetrieas, wat je uit het voorschrift leest, de topvorm en de verschuivingen, en het onderzoek van de functie.",
+ "secties": [
+  {
+   "kop": "De parabool",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Het voorschrift is <strong>f(x) = ax² + bx + c</strong>, met a niet nul, en de grafiek heet <strong>een parabool</strong>. Ze ligt spiegelgelijk rond haar <strong>symmetrieas</strong>, de verticale rechte door de top; <strong>de top ligt dus altijd op de symmetrieas</strong>."
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>De top is het hoogste of het laagste punt.</strong> <strong>Bij een positieve a opent de parabool naar boven</strong> en is de top het laagste punt; <strong>bij een negatieve a is de top juist het hoogste punt</strong>."
+    },
+    {
+     "soort": "kader",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">wat je zoekt</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">waar je het leest</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">voorbeeld</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>de opening</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>het teken van a</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">bij min x² + 4 opent ze naar onder</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>het snijpunt met de y-as</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>de waarde van c</strong>, want f(0) = c</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>2x² − 8 snijdt de y-as in (0, min 8)</strong></td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>de x-waarde van de top</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>min b gedeeld door 2a</strong> (die formule staat in het formularium)</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>x² − 4x + 3 heeft top-x 2</strong>; <strong>x² − 6x heeft top-x 3</strong></td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>de y-waarde van de top</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">die top-x invullen</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>f(2) = 4 − 8 + 3 = min 1, dus de top is (2, min 1)</strong></td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>de nulwaarden</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>f(x) gelijk aan nul stellen</strong> en de vergelijking oplossen</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">de snijpunten met de x-as</td></tr></table>"
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>De top van f(x) = x² ligt in (0, 0)</strong>, de eenvoudigste parabool van allemaal."
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Een parabool heeft niet altijd twee snijpunten met de x-as</strong>: dat hangt van de discriminant af, dus twee, één of geen. <strong>Ligt de top op de x-as, dan is er precies één nulwaarde</strong> en is de discriminant nul. En <strong>f(x) = x² + 2 heeft er geen</strong>: haar top ligt in (0, 2) en ze opent naar boven, dus ze blijft boven de x-as."
+    },
+    {
+     "soort": "tekst",
+     "html": "Uit <strong>f(x) = min x² + 4</strong> lees je in één keer: <strong>de parabool opent naar onder</strong>, <strong>de top ligt in (0, 4)</strong> en <strong>er zijn twee nulwaarden</strong>, namelijk 2 en min 2."
+    }
+   ]
+  },
+  {
+   "kop": "De topvorm en de verschuivingen",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "<strong>In de topvorm a(x − p)² + q is de top het punt (p, q).</strong> Daarom is die vorm zo handig: je leest de top zonder te rekenen. <strong>De top van (x − 4)² + 1 is (4, 1)</strong>, en <strong>x² − 4x + 3 wordt in topvorm (x − 2)² − 1</strong>."
+    },
+    {
+     "soort": "kader",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">wat je verandert</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">wat er met de basisparabool gebeurt</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>x² + 3</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>ze schuift 3 omhoog</strong>: een getal buiten het kwadraat verschuift verticaal</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>(x − 2)²</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>ze schuift 2 naar rechts</strong>; dat voelt omgekeerd aan, maar de top ligt in x = 2</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>min x²</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>ze spiegelt om de x-as</strong>: elke y-waarde keert om, dus ze opent naar onder</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>a × x² met a groter dan 1</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>de parabool wordt smaller</strong>, dus steiler</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>a tussen 0 en 1</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>ze wordt breder</strong>, dus vlakker</td></tr></table>"
+    },
+    {
+     "soort": "tekst",
+     "html": "Uit <strong>f(x) = (x + 1)² − 2</strong> lees je dus: <strong>één naar links</strong>, <strong>twee omlaag</strong>, en <strong>de top ligt in (min 1, min 2)</strong>."
+    },
+    {
+     "soort": "tekst",
+     "html": "Twee dingen die je niet mag verwarren. <strong>De factor a verandert de plaats van de top niet</strong>: bij f(x) = a × x² blijft de top in de oorsprong, alleen de breedte verandert. En <strong>een verschuiving naar boven laat de nulwaarden niet onveranderd</strong>: de grafiek komt hoger te liggen, dus de snijpunten met de x-as verschuiven of verdwijnen. <strong>Bij een verschuiving naar rechts veranderen wél niet: de vorm</strong>, <strong>de breedte</strong> en <strong>de richting van de opening</strong> — alleen de plaats van de top verandert."
+    }
+   ]
+  },
+  {
+   "kop": "De functie onderzoeken",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Bij een functieonderzoek ga je na: <strong>de nulwaarden</strong>, <strong>waar de functie stijgt en daalt</strong>, <strong>het extremum</strong> en het teken. Een grafiek heeft geen lengte, dus die hoort er niet bij."
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Het extremum is de y-waarde van de top</strong>: <strong>een parabool die naar boven opent heeft een minimum</strong>, een die naar onder opent een maximum. En <strong>f(x) = x² stijgt rechts van de top</strong>; links daalt ze, want de top is het keerpunt."
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Een tekenonderzoek is nagaan waar f(x) positief is</strong>: boven de x-as positief, eronder negatief. <strong>f(x) = x² − 4 is negatief tussen min 2 en 2</strong>, want tussen de twee nulwaarden ligt de parabool onder de as."
+    }
+   ]
+  }
+ ],
+ "onthoud": []
+}

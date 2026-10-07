@@ -1,0 +1,83 @@
+{
+ "vak": "Wiskunde basis",
+ "titel": "Ruimtefiguren, vlakke voorstellingen en vectoren",
+ "onder": "De onderlinge ligging van rechten en vlakken, hoe je een ruimtefiguur plat tekent, en vectoren met hun richting, zin en grootte.",
+ "secties": [
+  {
+   "kop": "Rechten en vlakken in de ruimte",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "In de ruimte komt er één ligging bij die in het platte vlak niet bestaat: <strong>kruisend</strong>. Twee rechten zijn kruisend als <strong>ze niet snijden en niet evenwijdig lopen</strong>; ze liggen dan in geen enkel gemeenschappelijk vlak. <strong>Twee kruisende rechten liggen dus nooit in hetzelfde vlak</strong> — was er zo'n vlak, dan zouden ze snijden of evenwijdig zijn."
+    },
+    {
+     "soort": "kader",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">wat tegenover wat</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">welke liggingen</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>twee rechten</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>evenwijdig</strong>, samenvallend, <strong>snijdend</strong>, <strong>kruisend</strong> of loodrecht</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>twee vlakken</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>evenwijdig</strong>, <strong>samenvallend</strong>, <strong>snijdend of loodrecht</strong></td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>een rechte en een vlak</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>evenwijdig, erin, snijdend of loodrecht</strong> (loodrecht is een bijzonder geval van snijdend)</td></tr></table>"
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Twee vlakken kunnen niet kruisend zijn</strong>: dat begrip bestaat alleen voor rechten. Vlakken snijden, vallen samen of zijn evenwijdig."
+    },
+    {
+     "soort": "tekst",
+     "html": "De doorsnede zegt wat ze gemeen hebben. <strong>Twee snijdende vlakken hebben een rechte als doorsnede</strong>; <strong>twee snijdende rechten hebben een punt</strong>, en precies één, want met meer gemeenschappelijke punten zouden ze samenvallen."
+    },
+    {
+     "soort": "tekst",
+     "html": "De vakfiche gebruikt hierbij begrippen uit de verzamelingenleer: element, <strong>deelverzameling</strong>, <strong>doorsnede</strong>, <strong>unie en verschil</strong>. Een functie hoort bij een ander onderdeel."
+    }
+   ]
+  },
+  {
+   "kop": "Ruimtefiguren plat tekenen",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Een <strong>ruimtefiguur</strong> heeft <strong>hoogte, breedte én diepte</strong>; ze is driedimensionaal. <strong>Een balk</strong>, <strong>een kegel</strong> en <strong>een bol</strong> zijn ruimtefiguren, een vierkant niet — dat is vlak."
+    },
+    {
+     "soort": "kader",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">manier</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">wat ze doet</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>het cavalièreperspectief</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>een manier om ruimte te tekenen</strong>: de diepte komt onder een hoek en vaak verkort op papier</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>de aanzichten</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>vooraanzicht</strong>, <strong>zijaanzicht</strong> en <strong>bovenaanzicht</strong>; een binnenaanzicht bestaat niet</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>de ontwikkeling</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>de figuur uitgeplooid in het vlak</strong>, zoals het bouwplan van een doos</td></tr></table>"
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Men tekent drie aanzichten omdat ze samen alle maten tonen</strong>: hoogte, breedte en diepte."
+    },
+    {
+     "soort": "tekst",
+     "html": "Tel de onderdelen van een kubus goed uit elkaar: <strong>zes zijvlakken</strong> (en dus zes vlakken in haar ontwikkeling), <strong>twaalf ribben</strong> en <strong>acht hoekpunten</strong>. En pas op met te algemene uitspraken: <strong>de ribben van het bovenvlak en die van het ondervlak zijn niet allemaal kruisend</strong> — elke ribbe boven is evenwijdig met of kruisend met een ribbe onder."
+    }
+   ]
+  },
+  {
+   "kop": "Vectoren",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Een vector heeft <strong>drie</strong> kenmerken: <strong>richting</strong> (de stand van de lijn), <strong>zin</strong> (de kant waarop de pijl wijst) en <strong>grootte</strong> (de lengte). <strong>Twee vectoren zijn gelijk als die drie gelijk zijn</strong>; hun plaats in het vlak doet niet mee, en daarom mag je een vector verschuiven."
+    },
+    {
+     "soort": "tekst",
+     "html": "Over vectoren klopt dus: <strong>hun plaats doet niet mee</strong>, <strong>ze hebben richting, zin en grootte</strong> en <strong>ze beschrijven een verschuiving</strong>. Dat laatste is het verband dat de vakfiche legt: <strong>een vector beschrijft een verschuiving of translatie</strong> — zo veel die kant op."
+    },
+    {
+     "soort": "kader",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">begrip of bewerking</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">wat het betekent</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>de nulvector</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>een vector met grootte nul</strong>: begin- en eindpunt vallen samen, richting en zin zijn onbepaald</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>de tegengestelde vector</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>dezelfde grootte, de andere zin</strong>; <strong>samen met de vector zelf geeft ze de nulvector</strong></td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>optellen</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>kop aan staart zetten</strong>; de somvector loopt van het begin van de eerste naar het einde van de tweede</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>aftrekken</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>de tegengestelde erbij optellen</strong>: je keert de tweede pijl om en telt op</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>maal 3</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>drie keer zo lang</strong>, richting en zin blijven</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>maal min 2</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>dubbel zo lang en omgekeerd</strong> van zin</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>maal een half</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>de grootte wordt gehalveerd</strong>, dus korter en niet langer</td></tr></table>"
+    },
+    {
+     "soort": "tekst",
+     "html": "De vakfiche gebruikt vectoren bij <strong>krachten</strong>, <strong>verplaatsing</strong> en <strong>snelheid</strong>. <strong>Temperatuur is geen vectorgrootheid</strong>: ze heeft wel een grootte maar geen richting."
+    },
+    {
+     "soort": "kader",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">situatie</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">uitkomst</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>twee krachten van 5 newton in dezelfde zin</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>10 newton</strong>: de groottes tellen op</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>twee krachten van 5 newton in tegengestelde zin</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>de nulvector</strong>: ze heffen elkaar op, het voorwerp blijft in evenwicht</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>een boot vaart naar het noorden, de stroming duwt naar het oosten</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>tel de twee vectoren op</strong>: de somvector loopt schuin naar het noordoosten, en dat is de werkelijke koers</td></tr></table>"
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>De som van twee vectoren kan dus kleiner zijn dan elk van de twee afzonderlijk</strong>, namelijk als ze tegen elkaar in werken. Denk aan twee mensen die elk aan een kant van een touw trekken."
+    }
+   ]
+  }
+ ],
+ "onthoud": []
+}

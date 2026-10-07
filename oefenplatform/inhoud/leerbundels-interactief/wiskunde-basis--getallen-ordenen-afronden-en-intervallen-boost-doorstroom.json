@@ -1,0 +1,87 @@
+{
+ "vak": "Wiskunde basis",
+ "titel": "Getallen ordenen, afronden en intervallen",
+ "onder": "De ongelijkheidstekens en de getallenas, de afrondregel, en de drie soorten intervallen met hun notatie.",
+ "secties": [
+  {
+   "kop": "Ordenen op de getallenas",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Over de getallenas klopt: <strong>rechts is groter</strong>, <strong>elk reëel getal heeft er een plaats</strong> en <strong>ze loopt in beide richtingen door</strong>. Dat eerste punt beslist alles: <strong>hoe verder naar links, hoe kleiner</strong>."
+    },
+    {
+     "soort": "tekst",
+     "html": "Bij negatieve getallen keert je gevoel dus om. <strong>Min 10 is kleiner dan min 3</strong>, en <strong>min 0,5 is groter dan min 1,5</strong>. In een rij als min 5, min 2, min 0,5 is <strong>min 5 het kleinste</strong>: bij negatieve getallen is het getal met de grootste cijferwaarde net het kleinste. Van klein naar groot staat dus: <strong>min 2, min 0,5, 0, 1,5</strong>."
+    },
+    {
+     "soort": "kader",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">teken</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">wat het betekent</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">let op</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">&lt;</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">strikt kleiner dan</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">de grens doet niet mee</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>&gt;</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>strikt groter dan</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">het teken <strong>zonder streepje</strong> eronder</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">≤</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>kleiner dan of gelijk aan</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>het streepje eronder voegt de gelijkheid toe</strong>: 3 ≤ 3 is waar</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">≥</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">groter dan of gelijk aan</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">mét streepje, dus de grens doet mee</td></tr></table>"
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Vergelijk breuken door ze eerst naar de decimale vorm om te zetten, dan zie je de orde meteen</strong>: twee kommagetallen vergelijk je cijfer per cijfer. Van 0,8, 0,75, 0,7 en twee derde is <strong>0,8 het grootste</strong>. <strong>Twee derde is 0,6666…</strong>, en daarvan is <strong>0,67</strong> de beste benadering. Let wel: afronden maakt het minder exact."
+    },
+    {
+     "soort": "tekst",
+     "html": "Nog twee bakens. <strong>Het getal precies tussen 4 en 7 is 5,5</strong>, het gemiddelde van de twee. En tussen 1 en 2 liggen onder meer <strong>1,5</strong>, <strong>de wortel van 2</strong> (ongeveer 1,41) en <strong>zeven vijfden</strong> (1,4)."
+    },
+    {
+     "soort": "tekst",
+     "html": "Een breuk herken je ook terug in een kommagetal: <strong>0,375 is drie achtsten</strong>, want 375 duizendsten gedeeld door 125 boven en onder geeft 3/8."
+    }
+   ]
+  },
+  {
+   "kop": "Afronden",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "De regel is kort: <strong>je kijkt enkel naar het eerste cijfer dat wegvalt</strong>. <strong>Is dat 5 of meer, dan rond je naar boven af</strong>; <strong>is het minder dan 5, dan naar beneden</strong>. De cijfers daarachter spelen geen rol."
+    },
+    {
+     "soort": "kader",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">opgave</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">antwoord</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">waarom</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>3,476 op twee cijfers na de komma</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>3,48</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">het derde cijfer is een 6, dus de 7 gaat naar 8</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>12,3449 op één cijfer na de komma</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>12,3</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">het tweede cijfer is een 4, dus naar beneden; dat de cijfers erna groter zijn, doet niet mee</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>1 999 op honderdtallen</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>2 000</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">het tientalcijfer is 9, dus 19 honderdtallen worden er 20</td></tr></table>"
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Altijd naar boven afronden zou de resultaten systematisch te groot maken.</strong> Een winkel die elke prijs naar boven afrondt op 5 cent, komt dus telkens iets te hoog uit, en daarom bestaat de regel van 5 of meer."
+    }
+   ]
+  },
+  {
+   "kop": "Intervallen",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "De vakfiche noemt <strong>drie</strong> soorten. Een <strong>dubbel interval</strong> bestaat niet als begrip, en <strong>één enkel getal is geen interval</strong>: een interval is een aaneengesloten stuk van de getallenas met twee grenzen."
+    },
+    {
+     "soort": "kader",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">soort</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">de grenzen</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">haakjes</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">op de getallenas</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>open</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>horen er niet bij</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>ronde</strong> haakjes</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">open bolletjes</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>halfopen</strong> (of halfgesloten)</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>één grens hoort erbij, de andere niet</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">één rond en één vierkant</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">één open en één vol bolletje</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>gesloten</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>horen erbij</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">vierkante haakjes naar binnen</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>volle bolletjes aan de grenzen</strong></td></tr></table>"
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Aan de kant van oneindig staat een interval altijd open</strong>, want oneindig is geen getal en kan dus nooit tot de verzameling horen."
+    },
+    {
+     "soort": "kader",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">ongelijkheid of situatie</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">het interval</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">waarom</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>x &gt; 3</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>van 3 open tot plus oneindig</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">strikt groter, dus 3 zelf valt erbuiten</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>x ≤ 5</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>van min oneindig tot 5 gesloten</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">het isgelijkteken zit erin, dus 5 hoort erbij</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>een temperatuur tussen min 2 en 8 graden, grenzen meegerekend</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>gesloten van min 2 tot 8</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">grenzen meegerekend is gesloten aan beide zijden</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>een korting vanaf 50 euro</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>gesloten vanaf 50</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">vanaf 50 betekent dat 50 meedoet; <em>vanaf meer dan</em> 50 zou open zijn</td></tr></table>"
+    },
+    {
+     "soort": "tekst",
+     "html": "In het gesloten interval van 2 tot 5 horen <strong>2</strong>, <strong>3,5</strong> en <strong>5</strong> thuis, maar 5,5 niet. In het open interval van 0 tot 1 horen <strong>0,01</strong>, <strong>0,5</strong> en <strong>0,99</strong>, maar 0 en 1 zelf niet."
+    },
+    {
+     "soort": "tekst",
+     "html": "Daar zit ook het verschil dat het woordje <strong>strikt</strong> maakt: <strong>de grens valt weg</strong>. <strong>Bij x strikt groter dan 0 hoort nul dus niet bij de oplossingen</strong>; bij groter dan of gelijk aan 0 wel."
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>De oplossingenverzameling van een ongelijkheid mag je als interval noteren</strong>, en de vakfiche vraagt ook om ze op een getallenas voor te stellen. Dat is handig omdat <strong>een interval de oplossing in één blik toont</strong>: je ziet meteen waar ze begint en eindigt, en of de grenzen meedoen."
+    }
+   ]
+  }
+ ],
+ "onthoud": []
+}

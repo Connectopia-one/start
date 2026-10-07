@@ -5531,3 +5531,146 @@ def indifferentiemap(breedte=430, aantal=3):
         d.append(f'<polyline points="{" ".join(pts)}" fill="none" stroke="{kleur}" stroke-width="2.1"/>')
         d.append(_tekst(x(9.4) + 5, y(k / 9.4), f"IC{i+1}", 10, kleur, "start", True))
     return _svg(breedte, hoogte, "".join(d))
+
+
+# ---------------------------------------------------------------------------
+# 🚀 Boost — gegevens en verbanden
+# ---------------------------------------------------------------------------
+
+def _kwartielen(getallen):
+    """De vijf kengetallen van een reeks: min, Q1, mediaan, Q3, max.
+
+    De kwartielen zijn de medianen van de onderste en de bovenste helft, de
+    mediaan zelf niet meegerekend. Zo staat het in de vakfiche, en zo rekent
+    ook een rekenmachine het.
+    """
+    g = sorted(getallen)
+    n = len(g)
+
+    def mediaan(reeks):
+        m = len(reeks)
+        return reeks[m // 2] if m % 2 else (reeks[m // 2 - 1] + reeks[m // 2]) / 2
+
+    return g[0], mediaan(g[: n // 2]), mediaan(g), mediaan(g[(n + 1) // 2:]), g[-1]
+
+
+def _getal(waarde):
+    """Een getal zoals wij het schrijven: komma, en geen nullen achteraan."""
+    tekst = f"{waarde:.2f}".rstrip("0").rstrip(".")
+    return tekst.replace(".", ",")
+
+
+def boxplot(getallen, breedte=470, stap=2, vanaf=0):
+    """Een boxplot van de reeks, met de vijf kengetallen erbij.
+
+    Alles wordt uit de reeks zelf gerekend, zodat de tekening nooit iets
+    anders kan zeggen dan de getallen eronder.
+    """
+    laag, q1, med, q3, hoog = _kwartielen(getallen)
+    marge_l, marge_r = 34, 26
+    hoogte = 176
+    as_y = 136
+    bovengrens = stap * int(-(-(hoog + stap) // stap))
+    span = max(bovengrens - vanaf, 1)
+
+    def px(waarde):
+        return marge_l + (waarde - vanaf) / span * (breedte - marge_l - marge_r)
+
+    d = []
+    # de as met haar streepjes en getallen: zonder getallen valt een boxplot
+    # niet te lezen
+    d.append(f'<line x1="{marge_l}" y1="{as_y}" x2="{breedte-marge_r+6}" y2="{as_y}" '
+             f'stroke="{INK}" stroke-width="1.6"/>')
+    tik = vanaf
+    while tik <= bovengrens + 1e-9:
+        d.append(f'<line x1="{px(tik):.1f}" y1="{as_y}" x2="{px(tik):.1f}" y2="{as_y+5}" '
+                 f'stroke="{DIM}" stroke-width="1.2"/>')
+        d.append(_tekst(px(tik), as_y + 18, _getal(tik), 9.5, DIM))
+        tik += stap
+    # de snor van minimum tot maximum, met een streepje aan elk uiteinde
+    midden = 84
+    d.append(f'<line x1="{px(laag):.1f}" y1="{midden}" x2="{px(hoog):.1f}" y2="{midden}" '
+             f'stroke="{DIM}" stroke-width="1.6"/>')
+    for waarde in (laag, hoog):
+        d.append(f'<line x1="{px(waarde):.1f}" y1="{midden-13}" x2="{px(waarde):.1f}" '
+                 f'y2="{midden+13}" stroke="{DIM}" stroke-width="1.8"/>')
+    # de doos: de middelste helft van de gegevens
+    d.append(f'<rect x="{px(q1):.1f}" y="{midden-23}" width="{px(q3)-px(q1):.1f}" height="46" '
+             f'fill="{FOREST}" fill-opacity="0.16" stroke="{FOREST}" stroke-width="1.8" rx="3"/>')
+    d.append(f'<line x1="{px(med):.1f}" y1="{midden-23}" x2="{px(med):.1f}" y2="{midden+23}" '
+             f'stroke="{AMBER}" stroke-width="2.6"/>')
+    # de namen erboven, in twee rijen zodat ze elkaar niet raken
+    d.append(_tekst(px(med), 32, f"mediaan {_getal(med)}", 10.5, AMBER, "middle", True))
+    d.append(f'<line x1="{px(med):.1f}" y1="38" x2="{px(med):.1f}" y2="{midden-27}" '
+             f'stroke="{AMBER}" stroke-width="1.2" stroke-dasharray="4 3"/>')
+    d.append(_tekst(px(q1), 56, f"Q1 {_getal(q1)}", 10.5, FOREST, "middle", True))
+    d.append(_tekst(px(q3), 56, f"Q3 {_getal(q3)}", 10.5, FOREST, "middle", True))
+    d.append(_tekst(px(laag), 118, _getal(laag), 10, DIM, "middle", True))
+    d.append(_tekst(px(hoog), 118, _getal(hoog), 10, DIM, "middle", True))
+    return _svg(breedte, hoogte, "".join(d))
+
+
+def puntenwolk(punten, breedte=400, hoogte=250, xlabel="", ylabel="",
+               xstap=5, ystap=2, trend=True):
+    """Een spreidingsdiagram: één punt per meetpaar, met de trendlijn erbij.
+
+    De trendlijn wordt gerekend uit de punten (de kleinste-kwadratenrechte) en
+    loopt enkel over de gemeten x-waarden: buiten dat bereik weet je niet of
+    ze nog klopt, en dan hoort ze er ook niet te staan.
+    """
+    xs = [p[0] for p in punten]
+    ys = [p[1] for p in punten]
+    xmin = xstap * int(min(xs) // xstap)
+    xmax = xstap * int(-(-max(xs) // xstap))
+    ymin = ystap * int(min(ys) // ystap) - ystap
+    ymax = ystap * int(-(-max(ys) // ystap)) + ystap
+    links, onder, boven, rechts = 44, 40, 20, 14
+    vlak_b = breedte - links - rechts
+    vlak_h = hoogte - onder - boven
+
+    def px(v):
+        return links + (v - xmin) / max(xmax - xmin, 1) * vlak_b
+
+    def py(v):
+        return hoogte - onder - (v - ymin) / max(ymax - ymin, 1) * vlak_h
+
+    d = [f'<line x1="{links}" y1="{boven-6}" x2="{links}" y2="{hoogte-onder}" '
+         f'stroke="{INK}" stroke-width="1.8"/>',
+         f'<line x1="{links}" y1="{hoogte-onder}" x2="{breedte-rechts+6}" y2="{hoogte-onder}" '
+         f'stroke="{INK}" stroke-width="1.8"/>']
+    tik = ymin
+    while tik <= ymax + 1e-9:
+        d.append(f'<line x1="{links-5}" y1="{py(tik):.1f}" x2="{links}" y2="{py(tik):.1f}" '
+                 f'stroke="{DIM}" stroke-width="1.2"/>')
+        d.append(_tekst(links - 8, py(tik) + 3.5, _getal(tik), 9.5, DIM, "end"))
+        tik += ystap
+    tik = xmin
+    while tik <= xmax + 1e-9:
+        d.append(f'<line x1="{px(tik):.1f}" y1="{hoogte-onder}" x2="{px(tik):.1f}" '
+                 f'y2="{hoogte-onder+5}" stroke="{DIM}" stroke-width="1.2"/>')
+        d.append(_tekst(px(tik), hoogte - onder + 17, _getal(tik), 9.5, DIM))
+        tik += xstap
+    if trend and len(punten) > 1:
+        n = len(punten)
+        gx, gy = sum(xs) / n, sum(ys) / n
+        noemer = sum((x - gx) ** 2 for x in xs)
+        if noemer:
+            a = sum((x - gx) * (y - gy) for x, y in zip(xs, ys)) / noemer
+            b = gy - a * gx
+            uiteinden = []
+            for xq in (min(xs), max(xs)):
+                yq = a * xq + b
+                if yq < ymin and a:
+                    xq = (ymin - b) / a
+                elif yq > ymax and a:
+                    xq = (ymax - b) / a
+                uiteinden.append(xq)
+            x1, x2 = uiteinden
+            d.append(f'<line x1="{px(x1):.1f}" y1="{py(a*x1+b):.1f}" x2="{px(x2):.1f}" '
+                     f'y2="{py(a*x2+b):.1f}" stroke="{AMBER}" stroke-width="2.2"/>')
+            d.append(_tekst(px(x2) - 4, py(a * x2 + b) - 9, "trendlijn", 10, AMBER, "end", True))
+    for x, y in punten:
+        d.append(f'<circle cx="{px(x):.1f}" cy="{py(y):.1f}" r="4.2" fill="{FOREST}"/>')
+    d.append(_tekst(links - 2, boven - 8, ylabel, 10.5, DIM, "start", True))
+    d.append(_tekst(breedte - rechts + 6, hoogte - onder + 31, xlabel, 10.5, DIM, "end", True))
+    return _svg(breedte, hoogte, "".join(d))

@@ -1,0 +1,113 @@
+{
+ "vak": "Wiskunde basis",
+ "titel": "Eerstegraadsvergelijkingen en -ongelijkheden",
+ "onder": "Vergelijkingen oplossen en het aantal oplossingen herkennen, ongelijkheden met de omkeerregel, en de grafische betekenis van positief en negatief.",
+ "secties": [
+  {
+   "kop": "Een eerstegraadsvergelijking oplossen",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "In een <strong>eerstegraadsvergelijking in één onbekende staat de onbekende in de eerste macht</strong>: één letter, zonder kwadraat of hogere macht. Haar grafiek is een rechte."
+    },
+    {
+     "soort": "tekst",
+     "html": "Oplossen steunt op één eigenschap: <strong>aan beide kanten mag je hetzelfde doen</strong>. <strong>Aan beide kanten 5 bijtellen</strong>, <strong>aan beide kanten aftrekken</strong>, <strong>met 3 vermenigvuldigen</strong> of <strong>door 2 delen</strong> — altijd aan beide kanten tegelijk, want één kant veranderen breekt de gelijkheid."
+    },
+    {
+     "soort": "tekst",
+     "html": "De stappen: <strong>haakjes uitwerken</strong>, <strong>de onbekenden samenbrengen</strong> en <strong>delen door de coëfficiënt</strong>. Een grafiek hoeft niet voor een algebraïsche oplossing, al helpt ze bij de controle."
+    },
+    {
+     "soort": "kader",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">vergelijking</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">tussenstap</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">oplossing</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>3x + 5 = 20</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">20 − 5 = 15, dan : 3</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>x = 5</strong></td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>2x − 4 = 10</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">10 + 4 = 14, dan : 2</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>x = 7</strong></td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>5x = 2x + 12</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">2x naar links: 3x = 12</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>x = 4</strong></td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>4(x − 1) = 12</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">4x − 4 = 12, dus 4x = 16</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>x = 4</strong></td></tr></table>"
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Je noteert de oplossing als een oplossingenverzameling</strong>: bij een vergelijking een verzameling met één of enkele getallen. Een interval hoort bij een ongelijkheid."
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Controleer je oplossing in de oorspronkelijke vergelijking, want zo vind je rekenfouten</strong>: vul je antwoord in, en komen links en rechts hetzelfde uit, dan klopt het. Dat is de reflectiestap."
+    }
+   ]
+  },
+  {
+   "kop": "Niet altijd één oplossing",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "<strong>Een eerstegraadsvergelijking heeft niet altijd precies één oplossing.</strong>"
+    },
+    {
+     "soort": "kader",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">vergelijking</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">wat eruit komt</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">oplossingenverzameling</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>x = x + 1</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">0 = 1, en dat is vals</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>de lege verzameling</strong></td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>x = x + 5</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">0 = 5</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>geen enkele oplossing</strong></td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>2x + 2 = 2(x + 1)</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">links en rechts hetzelfde</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>alle reële getallen</strong></td></tr></table>"
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>De oplossing van een vergelijking van de vorm f(x) = 0 is de nulwaarde van f.</strong> Dat verband staat op de vakfiche; grafisch is het het snijpunt met de x-as."
+    }
+   ]
+  },
+  {
+   "kop": "Vraagstukken vertalen",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "<strong>Een vraagstuk naar een vergelijking vertalen hoort wél bij de leerstof</strong>; de vakfiche vraagt het uitdrukkelijk."
+    },
+    {
+     "soort": "kader",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">vraagstuk</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">de vergelijking</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">antwoord</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>een getal plus zijn dubbele is 21</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>x + 2x = 21</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">x = 7</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>drie opeenvolgende getallen met som 24</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">(x − 1) + x + (x + 1) = 3x = 24</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>het middelste is 8</strong></td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>twee getallen schelen 6, hun som is 20</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">x + (x + 6) = 20</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>het kleinste is 7</strong>, het andere 13</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>een abonnement van 20 euro plus 3 euro per uur, wanneer kost het 50 euro?</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">20 + 3x = 50</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>na 10 uur</strong></td></tr></table>"
+    }
+   ]
+  },
+  {
+   "kop": "Ongelijkheden",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Bijna alles blijft hetzelfde, op één regel na: <strong>deel of vermenigvuldig je met een negatief getal, dan keert het ongelijkheidsteken om</strong>. Dat is de klassieke valkuil. <strong>Bij optellen aan beide kanten blijft het teken gewoon staan.</strong>"
+    },
+    {
+     "soort": "kader",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">ongelijkheid</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">wat je doet</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">oplossing</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>2x &gt; 10</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">delen door 2, positief, teken blijft</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>x &gt; 5</strong></td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>x + 4 &gt; 9</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">4 aftrekken</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>x &gt; 5</strong>, de 5 zelf hoort er niet bij</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>3x − 2 &lt; 7</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">3x &lt; 9, delen door 3</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>x &lt; 3</strong></td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>min 3x &gt; 9</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">delen door min 3, <strong>teken omkeren</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>x &lt; min 3</strong></td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>min x &gt; min 4</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">maal min 1, <strong>teken omkeren</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>x &lt; 4</strong></td></tr></table>"
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Je mag dus niet zonder nadenken met min 1 vermenigvuldigen</strong>: vergeet je het teken om te keren, dan krijg je precies de verkeerde helft van de getallenas. <strong>Controleer daarom één getal uit je oplossing</strong>: klopt de ongelijkheid, dan koos je de juiste kant."
+    },
+    {
+     "soort": "tekst",
+     "html": "De stappen: <strong>de onbekende vrijmaken</strong>, <strong>het teken omkeren bij een negatieve deler</strong> en <strong>de oplossing als interval noteren</strong>. Een top hoort bij een parabool, niet hier."
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>De oplossing van x ≥ 2 is het interval vanaf 2 gesloten</strong>, want het isgelijkteken zit erin. Bij <strong>x &lt; 3</strong> zijn <strong>2</strong>, <strong>0</strong> en <strong>min 5</strong> oplossingen, maar 3 zelf niet. <strong>Een oplossing van een ongelijkheid bestaat meestal uit oneindig veel getallen</strong>, en daarom noteer je ze als interval en niet als lijst. <strong>Op een getallenas kan je ze ook voorstellen</strong>, met open of volle bolletjes aan de grens; de vakfiche vraagt dat."
+    },
+    {
+     "soort": "tekst",
+     "html": "Een voorbeeld uit het leven: <strong>een taxi kost 5 euro plus 2 euro per kilometer en je hebt 25 euro</strong>, dus 5 + 2x ≤ 25, 2x ≤ 20 en je kan <strong>ten hoogste 10 kilometer</strong>."
+    }
+   ]
+  },
+  {
+   "kop": "Grafisch lezen",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "<strong>Een vergelijking los je grafisch op door het snijpunt van de grafieken te zoeken</strong>: de x van dat punt is de oplossing. Bij f(x) = 0 is dat het snijpunt met de x-as."
+    },
+    {
+     "soort": "kader",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">uitspraak</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">waar de grafiek ligt</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>f(x) &gt; 0</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>boven de x-as</strong></td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>f(x) &lt; 0</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>onder de x-as</strong></td></tr></table>"
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Een stijgende rechte die de x-as snijdt in 4, is positief rechts van 4.</strong> <strong>Bij een dalende rechte is het net omgekeerd</strong>: ze komt van boven en duikt na haar nulpunt onder de as, dus links is ze positief."
+    }
+   ]
+  }
+ ],
+ "onthoud": []
+}

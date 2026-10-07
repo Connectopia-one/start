@@ -9,9 +9,33 @@ uitgerekend in plaats van uitgeschreven. Zet je een nieuw voorbeeld in een
 bundel, zet het hier dan ook bij.
 """
 import math
+import sys, pathlib
+sys.path.insert(0, str(pathlib.Path(__file__).parent))
+import svg
 from fractions import Fraction
 
 F = Fraction
+
+
+def _gemiddelden(punten):
+    n = len(punten)
+    return sum(x for x, _ in punten) / n, sum(y for _, y in punten) / n
+
+
+def helling(punten):
+    """De richtingscoëfficiënt van de trendlijn door een puntenwolk."""
+    gx, gy = _gemiddelden(punten)
+    return (sum((x - gx) * (y - gy) for x, y in punten)
+            / sum((x - gx) ** 2 for x, _ in punten))
+
+
+def correlatie(punten):
+    """De correlatiecoëfficiënt van een puntenwolk, tussen min 1 en 1."""
+    gx, gy = _gemiddelden(punten)
+    sxy = sum((x - gx) * (y - gy) for x, y in punten)
+    sxx = sum((x - gx) ** 2 for x, _ in punten)
+    syy = sum((y - gy) ** 2 for _, y in punten)
+    return sxy / (sxx * syy) ** 0.5
 
 
 def hoekgroepen_bij_evenwijdigen():
@@ -484,6 +508,235 @@ CONTROLES = [
     ("samenleving: 30 euro van elke 100 euro is 30 %",    30,      round(30 / 100 * 100)),
     ("verzamelingen: delers van 12 en veelvouden van 12", {12},
      {d for d in range(1, 13) if 12 % d == 0} & {v for v in range(1, 200) if v % 12 == 0}),
+
+    # ── wiskunde basis 🚀 Boost doorstroom (7 oktober 2026)
+    ("wb getallen: drie vijfde is 0,6",             0.6,        3 / 5),
+    ("wb getallen: drie vijfde is 60 %",            60,         round(F(3, 5) * 100)),
+    ("wb getallen: 12 % van 250 = 30",              30,         0.12 * 250),
+    ("wb getallen: 45 000 = 4,5 × 10⁴",             45000,      4.5 * 10 ** 4),
+    ("wb getallen: 0,003 = 3 × 10⁻³",               0.003,      3 * 10 ** -3),
+    ("wb getallen: wortel van 81 = 9",              9,          math.isqrt(81)),
+    ("wb getallen: derdemachtswortel van 27 = 3",   3,          round(27 ** (1 / 3))),
+    ("wb getallen: derdemachtswortel van 64 = 4",   4,          round(64 ** (1 / 3))),
+    ("wb getallen: wortel van 50 = 5 wortel 2",     math.sqrt(50), 5 * math.sqrt(2)),
+    ("wb getallen: wortel van 8 = 2 wortel 2",      math.sqrt(8),  2 * math.sqrt(2)),
+    ("wb getallen: wortel 3 maal wortel 12 = 6",    6.0,        round(math.sqrt(3) * math.sqrt(12), 9)),
+    ("wb getallen: wortel 2 + 3 wortel 2 = 4 wortel 2", 4 * math.sqrt(2), math.sqrt(2) + 3 * math.sqrt(2)),
+    ("wb getallen: wortel van 9+16 is 5, niet 7",   5.0,        math.sqrt(9 + 16)),
+    ("wb getallen: 3 + 4 = 7 (het foute antwoord)", 7,          math.sqrt(9) + math.sqrt(16)),
+    ("wb getallen: 2³ × 2² = 2⁵",                   2 ** 5,     2 ** 3 * 2 ** 2),
+    ("wb getallen: 2⁵ = 32",                        32,         2 ** 5),
+    ("wb getallen: 2⁶ gedeeld door 2 = 2⁵",         2 ** 5,     2 ** 6 // 2),
+    ("wb getallen: 3⁴ gedeeld door 3² = 9",         9,          3 ** 4 // 3 ** 2),
+    ("wb getallen: 10⁻² = 0,01",                    0.01,       10 ** -2),
+    ("wb getallen: (−2)³ = −8",                     -8,         (-2) ** 3),
+    ("wb getallen: (−3)² = 9",                      9,          (-3) ** 2),
+    ("wb getallen: 3×7 + 3×3 = 3×10",               3 * 10,     3 * 7 + 3 * 3),
+    ("wb getallen: 3 × 10 = 30",                    30,         3 * 10),
+    ("wb getallen: 2 × 5 = 10, niet 2⁵",            10,         2 * 5),
+    ("wb getallen: (2+3)+4 = 2+(3+4)",              (2 + 3) + 4, 2 + (3 + 4)),
+    ("wb ordenen: 3,476 → 3,48",                    3.48,       round(3.476, 2)),
+    ("wb ordenen: 12,3449 → 12,3",                  12.3,       round(12.3449, 1)),
+    ("wb ordenen: 1 999 → 2 000 op honderdtallen",  2000,       round(1999, -2)),
+    ("wb ordenen: midden van 4 en 7 = 5,5",         5.5,        (4 + 7) / 2),
+    ("wb ordenen: 0,375 = 3/8",                     F(3, 8),    F(375, 1000)),
+    ("wb ordenen: 0,8 is het grootste van vier",    0.8,        max(0.8, 0.75, 0.7, 2 / 3)),
+    ("wb ordenen: 0,67 ligt het dichtst bij 2/3",   0.67,
+     min((0.67, 0.6, 0.7, 0.75), key=lambda k: abs(k - 2 / 3))),
+    ("wb ordenen: zeven vijfden = 1,4",             1.4,        7 / 5),
+    ("wb ordenen: wortel 2 ligt tussen 1 en 2",     True,       1 < math.sqrt(2) < 2),
+    ("wb ordenen: min 10 is kleiner dan min 3",     True,       -10 < -3),
+    ("wb ordenen: min 0,5 is groter dan min 1,5",   True,       -0.5 > -1.5),
+    ("wb logica: twee uitspraken geven 4 rijen",    4,          2 ** 2),
+    ("wb logica: drie uitspraken geven 8 rijen",    8,          2 ** 3),
+    ("wb logica: vier uitspraken geven 16 rijen",   16,         2 ** 4),
+    ("wb logica: conjunctie waar in 1 van 4 rijen", 1,
+     sum(1 for p in (True, False) for q in (True, False) if p and q)),
+    ("wb logica: disjunctie waar in 3 van 4 rijen", 3,
+     sum(1 for p in (True, False) for q in (True, False) if p or q)),
+    ("wb logica: implicatie waar in 3 van 4 rijen", 3,
+     sum(1 for p in (True, False) for q in (True, False) if (not p) or q)),
+    ("wb bewijzen: 2 + 3 × 4 = 14",                 14,         2 + 3 * 4),
+    ("wb bewijzen: (2 + 3) × 4 = 20",               20,         (2 + 3) * 4),
+    ("wb bewijzen: 6 gedeeld door een half = 12",   12,         F(6) / F(1, 2)),
+    ("wb bewijzen: 0² is niet groter dan nul",      False,      0 ** 2 > 0),
+    ("wb bewijzen: min (min 3) is positief",        3,          -(-3)),
+    ("wb bewijzen: zijde ×2 geeft oppervlakte ×4",  4,          4 ** 2 // 2 ** 2),
+
+    # ── wiskunde basis: ruimtefiguren en vectoren
+    ("wb vectoren: 5 N + 5 N dezelfde zin is 10 N", 10,         5 + 5),
+    ("wb vectoren: 5 N tegengesteld heft op",       0,          5 - 5),
+
+    # ── wiskunde basis: schaal en gelijkvormigheid
+    ("wb schaal: 3 cm naar 12 cm is factor 4",      4,          F(12, 3)),
+    ("wb schaal: zijden 2 en 10 geven factor 5",    5,          F(10, 2)),
+    ("wb schaal: factor 1/2 geeft oppervlakte 1/4", F(1, 4),    F(1, 2) ** 2),
+    ("wb schaal: factor 2 geeft oppervlakte ×4",    4,          2 ** 2),
+    ("wb schaal: factor 2 geeft volume ×8",         8,          2 ** 3),
+    ("wb schaal: factor 3 geeft oppervlakte ×9",    9,          3 ** 2),
+    ("wb schaal: factor 3 geeft volume ×27",        27,         3 ** 3),
+    ("wb schaal: vierkant 2 cm maal factor 4",      8,          2 * 4),
+    ("wb schaal: die zijde geeft 64 cm²",           64,         (2 * 4) ** 2),
+    ("wb schaal: 16 × oude oppervlakte 4 cm²",      64,         4 ** 2 * 4),
+    ("wb schaal: 1 op 50, 4 cm is 200 cm",          200,        4 * 50),
+    ("wb schaal: 1 op 100, 3 cm is 300 cm",         300,        3 * 100),
+    ("wb schaal: 1 op 25 000, 4 cm is 1 000 m",     1000,       4 * 25000 // 100),
+    ("wb driehoek: hoeken 40 en 60 geven 80",       80,         180 - 40 - 60),
+    ("wb gelijkvormig: factor 2 op zijde 5",        10,         5 * 2),
+    ("wb gelijkvormig: zijden 4 en 6, van 3 naar",  F(9, 2),    3 * F(6, 4)),
+    ("wb schaduw: stok 1 m, 1,5 m schaduw, boom",   8,          1 * F(12) / F(3, 2)),
+    ("wb schaduw: stok 2 m, 3 m schaduw, boom 10",  15,         10 * F(3, 2)),
+
+    # ── wiskunde basis: Pythagoras en goniometrie
+    ("wb pythagoras: 3 en 4 geven 5",               5,          math.isqrt(3 ** 2 + 4 ** 2)),
+    ("wb pythagoras: 6 en 8 geven 10",              10,         math.isqrt(6 ** 2 + 8 ** 2)),
+    ("wb pythagoras: 13 en 5 geven 12",             12,         math.isqrt(13 ** 2 - 5 ** 2)),
+    ("wb pythagoras: 9, 12, 15 is rechthoekig",     True,       9 ** 2 + 12 ** 2 == 15 ** 2),
+    ("wb pythagoras: 9² + 12² is 225",              225,        9 ** 2 + 12 ** 2),
+    ("wb pythagoras: 5, 6, 8 is niet rechthoekig",  False,      5 ** 2 + 6 ** 2 == 8 ** 2),
+    ("wb pythagoras: 5² + 6² is 61",                61,         5 ** 2 + 6 ** 2),
+    ("wb pythagoras: 5, 12, 13 klopt",              True,       5 ** 2 + 12 ** 2 == 13 ** 2),
+    ("wb pythagoras: 8, 15, 17 klopt",              True,       8 ** 2 + 15 ** 2 == 17 ** 2),
+    ("wb pythagoras: 2, 3, 4 klopt niet",           False,      2 ** 2 + 3 ** 2 == 4 ** 2),
+    ("wb afstand: (0,0) naar (3,4) is 5",           5.0,        math.dist((0, 0), (3, 4))),
+    ("wb afstand: (1,1) naar (4,5) is 5",           5.0,        math.dist((1, 1), (4, 5))),
+    ("wb ruimte: kubusdiagonaal ribbe 1 is √3",     round(3 ** 0.5, 6),
+     round(math.dist((0, 0, 0), (1, 1, 1)), 6)),
+    ("wb ladder: 5 m, voet 3 m, dus 4 m hoog",      4,          math.isqrt(5 ** 2 - 3 ** 2)),
+    ("wb kast: 2 bij 1 m past schuin als 2,24 m",   2.24,       round(math.hypot(2, 1), 2)),
+    ("wb veld: 30 bij 40 m geeft diagonaal 50",     50,         math.isqrt(30 ** 2 + 40 ** 2)),
+    ("wb gonio: sinus van 3-4-5 is 0,6",            F(3, 5),    F(3, 5)),
+    ("wb gonio: cosinus van 3-4-5 is 0,8",          F(4, 5),    F(4, 5)),
+    ("wb gonio: tangens van 3-4-5 is 0,75",         F(3, 4),    F(3, 4)),
+    ("wb gonio: sin² + cos² van 3-4-5 is 1",        1,          F(3, 5) ** 2 + F(4, 5) ** 2),
+    ("wb gonio: sinus 0,6 geeft cosinus 0,8",       0.8,        round(float(1 - F(3, 5) ** 2) ** 0.5, 6)),
+    ("wb gonio: bergpad 200 m onder 30° is 100 m",  100.0,      round(200 * math.sin(math.radians(30)), 6)),
+    ("wb gonio: tangens van 45° is 1",              1.0,        round(math.tan(math.radians(45)), 6)),
+    ("wb gonio: 20 m ver, 45°, boom 20 m hoog",     20.0,       round(20 * math.tan(math.radians(45)), 6)),
+
+    # ── wiskunde basis: formules omvormen
+    ("wb formule: y = 3x + 6, bij y = 18 is x 4",   4,          F(18 - 6, 3)),
+    ("wb formule: driehoek opp 12, basis 6, h 4",   4,          F(2 * 12, 6)),
+    ("wb formule: vierkant opp 49 geeft zijde 7",   7,          math.isqrt(49)),
+    ("wb formule: 20 g in 4 cm³ is 5 g per cm³",    5,          F(20, 4)),
+    ("wb formule: 12 V bij 3 A is 4 ohm",           4,          F(12, 3)),
+    ("wb formule: 2 mol per l in 3 l is 6 mol",     6,          2 * 3),
+    ("wb formule: 100 W × 20 s is 2 000 J",         2000,       100 * 20),
+
+    # ── wiskunde basis: eerstegraadsvergelijkingen
+    ("wb verg: 3x + 5 = 20 geeft x = 5",            5,          F(20 - 5, 3)),
+    ("wb verg: 2x − 4 = 10 geeft x = 7",            7,          F(10 + 4, 2)),
+    ("wb verg: 5x = 2x + 12 geeft x = 4",           4,          F(12, 5 - 2)),
+    ("wb verg: 4(x − 1) = 12 geeft x = 4",          4,          F(12 + 4, 4)),
+    ("wb verg: x + 2x = 21 geeft x = 7",            7,          F(21, 3)),
+    ("wb verg: drie opeenvolgende, som 24",         8,          F(24, 3)),
+    ("wb verg: schelen 6, som 20, kleinste 7",      7,          F(20 - 6, 2)),
+    ("wb verg: en het andere is 13",                13,         F(20 - 6, 2) + 6),
+    ("wb verg: 20 + 3x = 50 geeft x = 10",          10,         F(50 - 20, 3)),
+    ("wb ongelijk: 3x − 2 < 7 geeft x < 3",         3,          F(7 + 2, 3)),
+    ("wb ongelijk: −3x > 9 geeft x < −3",           -3,         F(9, -3)),
+    ("wb taxi: 5 + 2x ≤ 25 geeft 10 km",            10,         F(25 - 5, 2)),
+
+    # ── wiskunde basis: stelsels
+    ("wb stelsel: som 10, verschil 2, x = 6",       6,          F(10 + 2, 2)),
+    ("wb stelsel: en y = 4",                        4,          F(10 - 2, 2)),
+    ("wb stelsel: y = 2x en x + y = 9, x = 3",      3,          F(9, 3)),
+    ("wb stelsel: dan is y 6",                      6,          2 * F(9, 3)),
+    ("wb stelsel: 3x − 1 = x + 5 geeft x = 3",      3,          F(5 + 1, 3 - 1)),
+    ("wb stelsel: dan is y 8",                      8,          F(5 + 1, 3 - 1) + 5),
+    ("wb stelsel: som 12, verschil 4, x = 8",       8,          F(12 + 4, 2)),
+    ("wb stelsel: 2x + y = 11 met y = 3, x = 4",    4,          F(11 - 3, 2)),
+    ("wb stelsel: 3x + y = 17 met y = 2, x = 5",    5,          F(17 - 2, 3)),
+    ("wb stelsel: som 20, verschil 4, grootste 12", 12,         F(20 + 4, 2)),
+    ("wb stelsel: 12 fruit, 4 peren meer, 4 appels", 4,         F(12 - 4, 2)),
+    ("wb stelsel: en dus 8 peren",                  8,          F(12 - 4, 2) + 4),
+    ("wb stelsel: 20 + 2x = 10 + 4x geeft 5 uur",   5,          F(20 - 10, 4 - 2)),
+    ("wb stelsel: 20 − 2x = 14 − x geeft 6 uur",    6,          F(20 - 14, 2 - 1)),
+    ("wb stelsel: beide kaarsen dan 8 cm",          8,          20 - 2 * 6),
+
+    # ── wiskunde basis: tweedegraadsvergelijkingen
+    ("wb tweede: (x − 4)² heeft −8x",               -8,         -2 * 4),
+    ("wb tweede: (x − 4)² heeft +16",               16,         4 ** 2),
+    ("wb tweede: (x−5)(x+5) is x² − 25",            -25,        -5 * 5),
+    ("wb tweede: 6x² + 9x heeft 3x buiten haakjes", (2, 3),     (F(6, 3), F(9, 3))),
+    ("wb tweede: x² + 5x + 6 is (x+2)(x+3)",        (5, 6),     (2 + 3, 2 * 3)),
+    ("wb tweede: x² − 7x + 12 is (x−3)(x−4)",       (-7, 12),   (-3 + -4, -3 * -4)),
+    ("wb tweede: x² − 2x − 8 is (x−4)(x+2)",        (-2, -8),   (-4 + 2, -4 * 2)),
+    ("wb tweede: 2x² + 6x heeft wortels 0 en −3",   -3,         F(-6, 2)),
+    ("wb tweede: D van x² − 5x + 6 is 1",           1,          (-5) ** 2 - 4 * 1 * 6),
+    ("wb tweede: met wortels 2 en 3",               (2, 3),     (F(5 - 1, 2), F(5 + 1, 2))),
+    ("wb tweede: D van x² + 2x + 1 is 0",           0,          2 ** 2 - 4 * 1 * 1),
+    ("wb tweede: met dubbele wortel −1",            -1,         F(-2, 2)),
+    ("wb tweede: D van x² + 9 is negatief",         True,       0 ** 2 - 4 * 1 * 9 < 0),
+    ("wb tweede: x² = 49 geeft 7 en −7",            (7, -7),    (math.isqrt(49), -math.isqrt(49))),
+    ("wb tweede: x² − 4x = 0 geeft 0 en 4",         (0, 4),     (0, F(4, 1))),
+    ("wb tweede: rechthoek 40, lengte 3 meer",      (5, 8),     (5, 5 + 3)),
+    ("wb tweede: en 5 × 8 is inderdaad 40",         40,         5 * 8),
+    ("wb tweede: de andere oplossing is −8",        -8,         -8),
+
+    # ── wiskunde basis: functies
+    ("wb functie: f(x) = 2x + 1 geeft f(4) = 9",    9,          2 * 4 + 1),
+    ("wb functie: f(x) = x² geeft f(−3) = 9",       9,          (-3) ** 2),
+    ("wb functie: door (0,1) en (2,7) is a = 3",    3,          F(7 - 1, 2 - 0)),
+    ("wb functie: f(x) = 2x − 6 heeft nulwaarde 3", 3,          F(6, 2)),
+    ("wb functie: f(x) = x + 5 heeft nulwaarde −5", -5,         F(-5, 1)),
+    ("wb functie: f(x) = −2x + 7 geeft f(0) = 7",   7,          -2 * 0 + 7),
+
+    # ── wiskunde basis: de parabool
+    ("wb parabool: x² − 4x + 3 heeft top-x 2",      2,          F(4, 2)),
+    ("wb parabool: en top-y −1",                    -1,         2 ** 2 - 4 * 2 + 3),
+    ("wb parabool: x² − 6x heeft top-x 3",          3,          F(6, 2)),
+    ("wb parabool: 2x² − 8 snijdt de y-as in −8",   -8,         2 * 0 ** 2 - 8),
+    ("wb parabool: −x² + 4 heeft top (0, 4)",       4,          -(0 ** 2) + 4),
+    ("wb parabool: en nulwaarden 2 en −2",          (2, -2),    (math.isqrt(4), -math.isqrt(4))),
+    ("wb parabool: (x − 4)² + 1 heeft top (4, 1)",  (4, 1),     (4, (4 - 4) ** 2 + 1)),
+    ("wb parabool: x² − 4x + 3 is (x − 2)² − 1",    True,
+     all(x ** 2 - 4 * x + 3 == (x - 2) ** 2 - 1 for x in range(-5, 6))),
+    ("wb parabool: (x + 1)² − 2 heeft top (−1, −2)", (-1, -2),  (-1, (-1 + 1) ** 2 - 2)),
+    ("wb parabool: x² − 4 is negatief tussen −2 en 2", True,
+     all(x ** 2 - 4 < 0 for x in (-1.9, -1, 0, 1, 1.9))),
+    ("wb parabool: x² + 2 heeft top (0, 2)",        2,          0 ** 2 + 2),
+
+    # ── wiskunde basis: telproblemen
+    ("wb tellen: 3 truien en 4 broeken is 12",      12,         3 * 4),
+    ("wb tellen: twee dobbelstenen geven 36",       36,         6 * 6),
+    ("wb tellen: munt en dobbelsteen geven 12",     12,         2 * 6),
+    ("wb tellen: drie keer een munt geeft 8",       8,          2 ** 3),
+    ("wb tellen: 3 kinderen in een rij, 6 manieren", 6,         math.factorial(3)),
+    ("wb tellen: pincodes van 4 cijfers, 10 000",   10000,      10 ** 4),
+    ("wb venn: 12 en 9 met 4 beide geeft 17",       17,         12 + 9 - 4),
+    ("wb venn: 18 Frans, 7 twee talen, 11 enkel",   11,         18 - 7),
+    ("wb vraagstuk: +5 en verdubbeld is 26, dus 8", 8,          F(26, 2) - 5),
+    ("wb vraagstuk: 40 euro min 25 % is 30",        30,         40 * F(3, 4)),
+    ("wb vraagstuk: na 20 % korting 40, oud 50",    50,         F(40) / F(8, 10)),
+    ("wb vraagstuk: 10 procent van 250 is 25",      25,         F(250, 10)),
+    ("wb vraagstuk: 18 euro in vier delen, 9",      9,          2 * F(18, 4)),
+
+    # ── wiskunde basis: gegevens weergeven en samenvatten
+    ("wb gegevens: 150 tot 190 geeft 4 klassen",    4,          (190 - 150) // 10),
+    ("wb gegevens: 20 van de 50 is 40 procent",     40,         F(20, 50) * 100),
+    ("wb gegevens: gemiddelde van 4, 6 en 8 is 6",  6,          F(4 + 6 + 8, 3)),
+    ("wb gegevens: mediaan van 3,5,9,11,12 is 9",   9,          sorted([3, 5, 9, 11, 12])[2]),
+    ("wb gegevens: mediaan van 2,4,6,10 is 5",      5,          F(4 + 6, 2)),
+    ("wb gegevens: 6,7,7,8,32 heeft som 60",        60,         sum([6, 7, 7, 8, 32])),
+    ("wb gegevens: en gemiddelde 12",               12,         F(sum([6, 7, 7, 8, 32]), 5)),
+    ("wb gegevens: en mediaan 7",                   7,          sorted([6, 7, 7, 8, 32])[2]),
+    ("wb gegevens: variatiebreedte 7,12,20 is 13",  13,         20 - 7),
+    ("wb boxplot: de vijf kengetallen van de reeks", (2, 6, 10, 14, 20),
+     svg._kwartielen([2, 5, 6, 7, 8, 10, 11, 12, 14, 15, 20])),
+    ("wb boxplot: variatiebreedte 18",              18,         20 - 2),
+    ("wb boxplot: interkwartielafstand 8",          8,          14 - 6),
+    ("wb boxplot: de helft ligt niet op de helft",  True,       14 - 6 < 20 - 2),
+    ("wb as: 98 en 100 vanaf 97 lijkt 3 keer",      3,          F(100 - 97, 98 - 97)),
+    ("wb as: terwijl ze 2 procent schelen",         2,          round(F(100 - 98, 98) * 100)),
+
+    # ── wiskunde basis: verbanden tussen twee grootheden
+    ("wb verband: correlatie van de tien leerlingen", 0.99,
+     round(correlatie([(152, 36), (156, 37), (160, 38), (163, 38), (165, 39),
+                       (168, 40), (170, 41), (174, 41), (178, 43), (182, 44)]), 2)),
+    ("wb verband: de trendlijn stijgt",             True,
+     helling([(152, 36), (156, 37), (160, 38), (163, 38), (165, 39),
+              (168, 40), (170, 41), (174, 41), (178, 43), (182, 44)]) > 0),
 ]
 
 

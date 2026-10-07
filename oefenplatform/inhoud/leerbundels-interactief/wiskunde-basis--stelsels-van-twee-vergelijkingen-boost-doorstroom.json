@@ -1,0 +1,88 @@
+{
+ "vak": "Wiskunde basis",
+ "titel": "Stelsels van twee vergelijkingen",
+ "onder": "De drie oplossingsmethodes, de drie soorten stelsels met hun grafische betekenis, en vraagstukken met twee onbekenden.",
+ "secties": [
+  {
+   "kop": "Wat een stelsel is, en hoe je het oplost",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Een stelsel zijn <strong>twee vergelijkingen die samen gelden</strong>: je zoekt de waarden die aan beide tegelijk voldoen. <strong>De oplossing noteer je niet als één getal maar als een koppel</strong>, eerst de x en dan de y; de vakfiche noemt dat de koppelvoorstelling."
+    },
+    {
+     "soort": "tekst",
+     "html": "De vakfiche noemt <strong>drie</strong> algebraïsche methodes. De discriminant hoort bij de tweedegraadsvergelijkingen en niet hier."
+    },
+    {
+     "soort": "kader",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">methode</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">wat je doet</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">voorbeeld</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>de combinatiemethode</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>optellen of aftrekken</strong>, zodat <strong>één onbekende wegvalt</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>x + y = 10 en x − y = 2</strong>: optellen geeft 2x = 12, dus <strong>x = 6 en y = 4</strong></td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>de substitutiemethode</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>een onbekende vervangen door een uitdrukking</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>y = 2x en x + y = 9</strong>: 3x = 9, dus <strong>x = 3 en y = 6</strong></td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>de gelijkstellingsmethode</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">beide keren staat dezelfde letter alleen, dus stel je de rechterleden gelijk</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>y = 3x − 1 en y = x + 5</strong>: 2x = 6, dus <strong>x = 3 en y = 8</strong></td></tr></table>"
+    },
+    {
+     "soort": "tekst",
+     "html": "Nog drie om zelf na te rekenen. <strong>x + y = 12 en x − y = 4 geeft x = 8</strong> (en y = 4). <strong>2x + y = 11 met y = 3 geeft x = 4.</strong> <strong>3x + y = 17 met y = 2 geeft x = 5.</strong>"
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Controleer je oplossing in beide vergelijkingen</strong>, want ze moet aan allebei voldoen: een koppel dat maar aan één vergelijking voldoet, is geen oplossing van het stelsel."
+    }
+   ]
+  },
+  {
+   "kop": "Drie soorten stelsels",
+   "blokken": [
+    {
+     "soort": "kader",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">soort</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">hoeveel oplossingen</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">grafisch</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">voorbeeld</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>bepaald</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>precies één</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>twee snijdende rechten</strong>, dus een <strong>verschillende richtingscoëfficiënt</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">x + y = 10 en x − y = 2</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>strijdig</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>geen enkele</strong>; <strong>de lege verzameling</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>twee evenwijdige rechten</strong> die niet samenvallen: <strong>nul snijpunten</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>x + y = 5 en x + y = 7</strong>: dezelfde som kan niet 5 én 7 zijn</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>onbepaald</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>oneindig veel</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>twee samenvallende rechten</strong>: dezelfde richtingscoëfficiënt én hetzelfde snijpunt met de y-as</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>x + y = 5 en 2x + 2y = 10</strong>: de tweede is het dubbele van de eerste</td></tr></table>"
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Een stelsel met precies één oplossing heet dus bepaald, niet strijdig</strong>; strijdig betekent juist dat er géén oplossing is. <strong>Twee rechten met dezelfde richtingscoëfficiënt zijn evenwijdig</strong>: verschilt ook hun snijpunt met de y-as, dan vallen ze niet samen en is het stelsel strijdig."
+    },
+    {
+     "soort": "tekst",
+     "html": "Over stelsels klopt dus: <strong>ze kunnen geen oplossing hebben</strong>, <strong>ze kunnen er oneindig veel hebben</strong> en <strong>ze kunnen er precies één hebben</strong>. Precies twee oplossingen bestaat niet bij een stelsel van eerstegraadsvergelijkingen."
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Het soort stelsel benoemen is nuttig omdat je dan weet wat je antwoord betekent</strong>: komt er 0 = 5 uit, dan is het stelsel strijdig en is dát je antwoord, geen rekenfout."
+    }
+   ]
+  },
+  {
+   "kop": "Grafisch oplossen",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "<strong>Grafisch is de oplossing het snijpunt van twee rechten</strong>: het punt dat op beide ligt, voldoet aan beide vergelijkingen. <strong>Grafisch oplossen mag met ICT</strong>; de vakfiche vraagt zelfs uitdrukkelijk om stelsels grafisch op te lossen, met en zonder ICT."
+    },
+    {
+     "soort": "tekst",
+     "html": "Maar <strong>grafisch oplossen is niet even nauwkeurig als algebraïsch oplossen</strong>: een snijpunt lees je af, en dat is zelden exact. Algebraïsch krijg je de precieze waarden."
+    }
+   ]
+  },
+  {
+   "kop": "Vraagstukken met twee onbekenden",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "<strong>Een vraagstuk met twee onbekenden los je niet op met één vergelijking</strong>: dan blijft het onbepaald. Je hebt evenveel vergelijkingen als onbekenden nodig."
+    },
+    {
+     "soort": "tekst",
+     "html": "De stappen: <strong>twee onbekenden benoemen</strong>, <strong>twee vergelijkingen opstellen</strong> en <strong>het stelsel oplossen</strong>. De vakfiche vraagt daarna het antwoord terug in de context te plaatsen."
+    },
+    {
+     "soort": "kader",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">vraagstuk</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">het stelsel</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">antwoord</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>twee getallen met som 20 en verschil 4</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">x + y = 20 en x − y = 4</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>het grootste is 12</strong></td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>twaalf stukken fruit, 4 peren meer dan appels</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">a + p = 12 en p = a + 4</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>4 appels</strong> (en 8 peren)</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>abonnement A: 20 euro plus 2 per uur; abonnement B: 10 euro plus 4 per uur</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">20 + 2x = 10 + 4x</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>na 5 uur kosten ze evenveel</strong></td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>een kaars van 20 cm die 2 cm per uur brandt, en een van 14 cm die 1 cm per uur brandt</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">20 − 2x = 14 − x</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>na 6 uur</strong>, beide zijn dan 8 cm</td></tr></table>"
+    },
+    {
+     "soort": "tekst",
+     "html": "Bij de abonnementen zegt het snijpunt waar de omslag ligt: <strong>bij veel uren is dat met het laagste uurtarief het voordeligst</strong>, want dan weegt het uurtarief het zwaarst."
+    }
+   ]
+  }
+ ],
+ "onthoud": []
+}

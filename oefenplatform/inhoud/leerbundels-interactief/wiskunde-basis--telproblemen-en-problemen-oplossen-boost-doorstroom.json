@@ -1,0 +1,83 @@
+{
+ "vak": "Wiskunde basis",
+ "titel": "Telproblemen en problemen oplossen",
+ "onder": "Het boomdiagram en het venndiagram, de som-, product- en complementregel, en de vierslag om een vraagstuk aan te pakken.",
+ "secties": [
+  {
+   "kop": "De drie telregels",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "De vakfiche noemt er <strong>drie</strong>: <strong>de somregel</strong>, <strong>de productregel</strong> en <strong>de complementregel</strong>. Een wortelregel bestaat hier niet."
+    },
+    {
+     "soort": "kader",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">regel</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">wanneer je ze gebruikt</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">voorbeeld</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>de productregel</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>bij keuzes na elkaar</strong>: vermenigvuldigen</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>3 truien en 4 broeken geven 12 combinaties</strong></td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>de somregel</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>bij keuzes die elkaar uitsluiten</strong>: het een of het ander, maar niet beide</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">de aantallen optellen</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>de complementregel</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>tel het tegendeel en trek het af</strong> van het totaal</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>het complement van minstens één keer kop is twee keer munt</strong></td></tr></table>"
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>De somregel mag je niet gebruiken als de twee gevallen kunnen samenvallen</strong>: dan tel je de overlap dubbel, en moet je ze aftrekken."
+    },
+    {
+     "soort": "kader",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">telprobleem</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">antwoord</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">rekenwijze</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>twee dobbelstenen</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>36 uitkomsten</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">6 × 6</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>een munt en een dobbelsteen</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>12 uitkomsten</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">2 × 6</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>drie keer een munt</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>8 uitkomsten</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">2 × 2 × 2</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>3 kinderen in een rij zetten</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>6 manieren</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">3 × 2 × 1: na elke keuze blijft er één kind minder over</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>pincodes van 4 cijfers</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>10 000</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">10 × 10 × 10 × 10: elk cijfer mag opnieuw</td></tr></table>"
+    }
+   ]
+  },
+  {
+   "kop": "Boomdiagram en venndiagram",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "<strong>Een boomdiagram is een schema van alle mogelijkheden</strong>: elke tak is een keuze, en door de takken te volgen tel je alles. Het is handig <strong>bij keuzes na elkaar</strong>, <strong>bij een klein aantal mogelijkheden</strong> en <strong>om geen geval te vergeten</strong>. Het telt mogelijkheden; gemiddelden berekent het niet."
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Een venndiagram toont overlappende groepen</strong>: twee of drie cirkels met hun overlap. <strong>In de overlap staat wat in beide verzamelingen zit</strong>, en net daarom zie je er dubbele tellingen in. <strong>Je telt die overlap niet twee keer mee</strong>: je telt de twee groepen op en trekt de overlap één keer af."
+    },
+    {
+     "soort": "kader",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">situatie</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">antwoord</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">rekenwijze</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>12 kinderen voetballen, 9 zwemmen, 4 doen beide</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>17 doen sport</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">12 + 9 = 21, min de 4 die je dubbel telde</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>van 30 leerlingen spreken er 18 Frans en 7 twee talen</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>11 spreken enkel Frans</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">18 − 7</td></tr></table>"
+    },
+    {
+     "soort": "tekst",
+     "html": "De fouten die je makkelijk maakt: <strong>gevallen dubbel tellen</strong>, <strong>een geval vergeten</strong> en <strong>optellen in plaats van vermenigvuldigen</strong>. Daarom helpt een schema zo: het maakt dubbels zichtbaar."
+    }
+   ]
+  },
+  {
+   "kop": "Een probleem aanpakken",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "De klassieke vierslag: <strong>begrijpen wat gevraagd is</strong>, <strong>een plan kiezen</strong>, <strong>het plan uitvoeren en controleren</strong>. <strong>De eerste stap is dus de vraag goed lezen</strong>: wat is gegeven en wat is gevraagd? En <strong>een vraagstuk heeft niet altijd maar één oplossingsweg</strong>; de fiche vraagt net dat je een weg kiest en verantwoordt."
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Een heuristiek is een hulpmiddel om te zoeken</strong>: geen recept, maar een manier van aanpakken."
+    },
+    {
+     "soort": "kader",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">heuristiek</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">wat ze doet</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>een tekening of schema maken</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>helpt ook zonder meetkunde</strong>: het maakt een verband zichtbaar dat in woorden verborgen zit</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>het probleem eerst vereenvoudigen</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>een eenvoudiger geval proberen</strong> met kleine getallen; het patroon werkt vaak ook groot</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>van achteren naar voren werken</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>terugwerken</strong>: je begint bij de gevraagde uitkomst en draait elke stap om</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>een tabel maken</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>handig om een patroon op het spoor te komen</strong>: de gevallen staan naast elkaar</td></tr></table>"
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Schatten vóór je rekent is je controle</strong>: wijkt je uitkomst er ver van af, dan zoek je de fout. Je merkt zo <strong>een rare uitkomst</strong> meteen."
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Op het einde controleer je.</strong> De vragen daarbij: <strong>is dit een antwoord op de vraag</strong>, <strong>klopt de grootteorde</strong> en <strong>staat de eenheid erbij</strong>? <strong>De eenheid mag je niet weglaten</strong>: 5 meter is niet hetzelfde als 5 seconden. En <strong>een onmogelijke uitkomst, zoals een negatieve leeftijd, wijst op een fout of op een oplossing die wegvalt</strong>."
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Je stappen opschrijven helpt je je fout te vinden</strong>, en de verbetering ziet hoe je gedacht hebt. Op het examen levert dat punten op."
+    },
+    {
+     "soort": "kader",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">vraagstuk</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">antwoord</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">rekenwijze</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>ik denk aan een getal, tel er 5 bij en verdubbel; ik krijg 26</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>8</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">terugwerken: 26 halveren is 13, min 5 is 8</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>een trui van 40 euro met 25 procent korting</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>30 euro</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">25 % van 40 is 10</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>een trui kost na 20 procent korting 40 euro</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>de oude prijs was 50 euro</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">40 is 80 % van de oude prijs, dus 40 : 0,8</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>10 procent van 250</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>25</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">tien procent nemen is delen door tien</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>drie vrienden delen 18 euro, één krijgt het dubbele van elk van de andere twee</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>hij krijgt 9 euro</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">samen vier gelijke delen: 18 : 4 = 4,5, en het dubbele is 9</td></tr></table>"
+    }
+   ]
+  }
+ ],
+ "onthoud": []
+}

@@ -1,0 +1,84 @@
+{
+ "vak": "Wiskunde basis",
+ "titel": "Redeneren, bewijzen en tegenvoorbeelden",
+ "onder": "Waarom voorbeelden geen bewijs zijn, hoe je met één tegenvoorbeeld weerlegt, hoe een bewijs eruitziet, en wat je op het examen mag gebruiken.",
+ "secties": [
+  {
+   "kop": "Voorbeeld tegenover bewijs",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "<strong>Voorbeelden bewijzen niets; ze maken een uitspraak enkel geloofwaardiger.</strong> Ze geven je een idee van de correctheid, maar <strong>honderd voorbeelden vormen geen bewijs</strong>. Wie uit twee voorbeelden besluit dat een eigenschap altijd geldt, maakt dus een fout: <strong>misschien bestaat er een derde geval dat ze wel schendt</strong>."
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Een bewijs moet voor alle gevallen gelden, niet enkel voor je voorbeeld.</strong> Daarom werk je <strong>met letters in plaats van met getallen</strong>: met a en b staat je redenering voor elk getal, met 3 en 5 enkel voor dat ene geval."
+    },
+    {
+     "soort": "tekst",
+     "html": "Dat loopt gelijk met de twee kwantoren. <strong>Voor elke</strong> betekent dat <strong>de uitspraak voor alle gevallen geldt</strong>, dus <strong>één tegenvoorbeeld maakt ze vals</strong>. <strong>Er bestaat</strong> betekent dat <strong>er minstens één geval is</strong>, dus <strong>om zo'n uitspraak te bewijzen volstaat één voorbeeld</strong>."
+    }
+   ]
+  },
+  {
+   "kop": "Het tegenvoorbeeld",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "<strong>Een foutieve wiskundige uitspraak weerleg je met een tegenvoorbeeld</strong>, en <strong>één volstaat</strong>. Maar het moet wel een tegenvoorbeeld bij díé uitspraak zijn: <strong>een tegenvoorbeeld dat buiten de uitspraak valt, zegt niets over de uitspraak</strong>. Een cirkel weerlegt niets over rechthoeken."
+    },
+    {
+     "soort": "kader",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">foutieve uitspraak</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">tegenvoorbeeld</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">waarom het werkt</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>de wortel van een som is de som van de wortels</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>de wortel van 9 plus 16</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">de wortel van 25 is 5, maar 3 + 4 is 7</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>elk kwadraat is groter dan nul</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>het getal 0</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">0² is 0, en dat is niet groter dan nul</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>min a is altijd negatief</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">a = min 3</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">min (min 3) is 3, dus positief</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>delen maakt altijd kleiner</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">delen door een half</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">6 gedeeld door een half is 12, dus groter</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>elke rechthoek is een vierkant</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>een rechthoek van 2 bij 5</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">ongelijke zijden, dus geen vierkant</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>dubbele lengte geeft dubbele oppervlakte</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een vierkant van 2 naar 4</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">de oppervlakte gaat van 4 naar 16, dus <strong>vier keer zo groot</strong>: de oppervlakte volgt het kwadraat van de factor</td></tr></table>"
+    },
+    {
+     "soort": "tekst",
+     "html": "De vakfiche laat je twee soorten fouten weerleggen: <strong>rekenregels die fout worden toegepast</strong> en <strong>uitspraken over schaalverandering</strong>, dus <strong>allebei</strong>. Een klassieker van het eerste soort: wie schrijft dat 2 + 3 × 4 gelijk is aan 20, miste <strong>de volgorde van de bewerkingen</strong> — eerst maal, dan plus, dus 3 × 4 = 12 en daarbij 2 geeft <strong>14</strong>. Met haakjes zou er wel 20 staan."
+    }
+   ]
+  },
+  {
+   "kop": "Hoe een bewijs eruitziet",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Drie stappen horen erbij: <strong>de gegevens benoemen</strong>, <strong>elke stap verantwoorden</strong> en <strong>het besluit formuleren</strong>. Raden hoort nergens in een bewijs. Het laatste deel heet <strong>het besluit</strong> of de conclusie; daar herneem je wat je wou aantonen."
+    },
+    {
+     "soort": "tekst",
+     "html": "Over bewijzen klopt dus: <strong>ze gelden voor alle gevallen</strong>, <strong>elke stap wordt verantwoord</strong> en <strong>ze eindigen met een besluit</strong>."
+    },
+    {
+     "soort": "tekst",
+     "html": "Verantwoorden betekent zeggen waarom een stap mag. Trek je bij een vergelijking aan beide kanten 3 af, dan steun je op <strong>een eigenschap van gelijkheden</strong>: wat je links doet, doe je rechts, en zo blijft de gelijkheid gelden. Wil je aantonen dat twee driehoeken gelijkvormig zijn, dan wijs je <strong>een gelijkvormigheidskenmerk</strong> aan: HH, ZHZ, ZZZ of het geval met een rechte hoek."
+    },
+    {
+     "soort": "tekst",
+     "html": "De vakfiche vraagt bij een aangereikte redenering om <strong>de redeneerstappen te beargumenteren</strong>, en <strong>redeneerstappen aan te vullen</strong> in de bewijzen uit de lijst met bewijzen. Ze vraagt ook <strong>een bewijs te reconstrueren in een gewijzigde situatie</strong>, en dat betekent: <strong>met andere symbolen of een andere tekening</strong>, of voor een specifiek geval."
+    }
+   ]
+  },
+  {
+   "kop": "Noteren, en wat mag mee op het examen",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Bij een correct genoteerde redenering hoort <strong>vaktaal gebruiken</strong>, <strong>de symbolen correct zetten</strong> en <strong>tussenstappen verklaren</strong>, met haakjes en bewerkingstekens op de juiste plaats. Enkel het antwoord volstaat niet. <strong>Je tussenstappen tellen mee omdat ze je redenering tonen</strong>: de fiche vraagt uitdrukkelijk je werkwijze en redenering volledig uit te schrijven, en <strong>de correcte notatie van begrippen en symbolen bepaalt mee je resultaat</strong>."
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Een berekening uitschrijven met de juiste symbolen is dus zelf al een wiskundige redenering</strong>; de fiche noemt dat uitdrukkelijk zo. Welke symbolen ze vraagt: <strong>en, of, niet</strong>, <strong>de pijl voor impliceert</strong> en <strong>de dubbele pijl</strong> voor de equivalentie, plus de twee kwantoren. Een sommatieteken staat er niet bij. <strong>De dubbele pijl moet je niet systematisch gebruiken bij het oplossen van vergelijkingen</strong>; dat zegt de fiche zelf. Waar je de symbolen gebruikt, moeten ze wel correct zijn."
+    },
+    {
+     "soort": "kader",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">bijlage</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">mag mee op het examen</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>het formularium</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>ja</strong>, als enige</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">de lijst met bewijzen</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>neen</strong></td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">de lijst met begrippen en notaties</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>neen</strong></td></tr></table>"
+    },
+    {
+     "soort": "weetje",
+     "html": "<strong>Reflectie over je oplossing hoort bij het werk</strong>, want <strong>zo controleer je of je antwoord klopt</strong>. De vier stappen zijn: begrijp het probleem, maak een plan, voer het uit, en reflecteer. Die vierde is volwaardig."
+    }
+   ]
+  }
+ ],
+ "onthoud": []
+}

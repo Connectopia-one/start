@@ -1,0 +1,84 @@
+{
+ "vak": "Wiskunde basis",
+ "titel": "Tweedegraadsvergelijkingen",
+ "onder": "De merkwaardige producten, ontbinden in factoren, de discriminant en wat ze zegt, en vraagstukken van de tweede graad.",
+ "secties": [
+  {
+   "kop": "De merkwaardige producten",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Er zijn er <strong>drie</strong>, en je moet ze in beide richtingen kunnen lezen: van product naar som om uit te werken, en van som naar product om te ontbinden."
+    },
+    {
+     "soort": "kader",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">product</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">uitgewerkt</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">voorbeeld</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>(a + b)²</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>a² + 2ab + b²</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>x² + 2x + 1 is het kwadraat van (x + 1)</strong></td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>(a − b)²</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">a² − 2ab + b²; <strong>het dubbele product is hier negatief</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>(x − 4)² = x² − 8x + 16</strong></td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>(a + b)(a − b)</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>a² − b²</strong>: de twee middelste termen vallen weg</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>x² − 25 = (x − 5)(x + 5)</strong></td></tr></table>"
+    },
+    {
+     "soort": "tekst",
+     "html": "Let dus op het teken: <strong>bij (a − b)² is het dubbele product niet positief</strong> maar negatief; het volgt het teken in de tweeterm."
+    }
+   ]
+  },
+  {
+   "kop": "Ontbinden in factoren",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "<strong>Ontbinden in factoren betekent een som als een product schrijven.</strong> Dat is handig omdat <strong>een product nul is zodra één factor nul is</strong>, en <strong>elke factor dus een oplossing geeft</strong>."
+    },
+    {
+     "soort": "tekst",
+     "html": "De stappen, in deze orde: <strong>eerst een gemeenschappelijke factor zoeken</strong>, dan <strong>een merkwaardig product herkennen</strong>, dan <strong>twee getallen zoeken met de juiste som en het juiste product</strong>. Letters vervangen door getallen is geen ontbinding."
+    },
+    {
+     "soort": "kader",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">veelterm</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">ontbonden</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">hoe je erop komt</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>6x² + 9x</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>3x</strong>(2x + 3)</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">3x staat in beide termen</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>3x² + 6x</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>3x(x + 2)</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">controle: 3x · x = 3x² en 3x · 2 = 6x</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>2x² + 6x</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>2x(x + 3)</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">de oplossingen zijn dan <strong>0 en min 3</strong></td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>x² + 5x + 6</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>(x + 2)(x + 3)</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">twee getallen met <strong>som 5</strong> en product 6</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>x² − 7x + 12</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">(x − 3)(x − 4)</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>som 7</strong> en product 12</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>x² − 2x − 8</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>(x − 4)(x + 2)</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">som min 2 en product min 8</td></tr></table>"
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Niet elke veelterm van de tweede graad is te ontbinden in reële factoren</strong>: dat lukt alleen als de discriminant niet negatief is. x² + 1 lukt dus niet in de reële getallen."
+    }
+   ]
+  },
+  {
+   "kop": "De vergelijking en haar discriminant",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "In een tweedegraadsvergelijking <strong>is de hoogste macht twee</strong>: de vorm is <strong>ax² + bx + c = 0</strong>, met <strong>a niet nul</strong> — <strong>anders blijft bx + c over, en dat is eerste graad</strong>."
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>De discriminant is b² − 4ac.</strong> Ze <strong>geeft niet de oplossingen zelf maar enkel het aantal</strong>; de oplossingen vind je daarna met de formule <strong>min b, plus of min de wortel van D, gedeeld door 2a</strong>."
+    },
+    {
+     "soort": "kader",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">discriminant</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">aantal reële oplossingen</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">grafisch</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">voorbeeld</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>positief</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>twee</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">de grafiek snijdt de x-as twee keer</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>x² − 5x + 6 heeft D = 1</strong> (25 − 24), met oplossingen 2 en 3</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>nul</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>één</strong> (een dubbele wortel)</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">de grafiek raakt de x-as</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>x² + 2x + 1 heeft D = 0</strong> (4 − 4), met x = min 1</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>negatief</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>geen</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>de grafiek snijdt de x-as niet</strong> en blijft er helemaal boven of onder</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>x² + 9 = 0 heeft geen reële oplossing</strong>: een kwadraat plus 9 is altijd groter dan nul</td></tr></table>"
+    },
+    {
+     "soort": "tekst",
+     "html": "Twee vergelijkingen die je zonder formule oplost. <strong>x² = 49 geeft x = 7 of x = min 7</strong> — de negatieve oplossing vergeten is een klassieke fout. En <strong>x² − 4x = 0 geeft x = 0 of x = 4</strong>: haal x buiten haakjes, want <strong>een product van twee factoren is nul als minstens één factor nul is</strong>."
+    },
+    {
+     "soort": "tekst",
+     "html": "Daarbij één waarschuwing: <strong>bij x² = 4x mag je niet door x delen, want x kan nul zijn</strong>. Je zou de oplossing x = 0 kwijtspelen. Ontbind liever in factoren."
+    }
+   ]
+  },
+  {
+   "kop": "Vraagstukken van de tweede graad",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "De stappen: <strong>de vergelijking opstellen</strong>, <strong>de discriminant berekenen</strong> en <strong>de oplossingen toetsen aan het vraagstuk</strong>. Dat laatste hoort er echt bij, want <strong>een vraagstuk van de tweede graad heeft niet altijd twee bruikbare antwoorden</strong>: een negatieve lengte of tijd valt weg, en je maakt ze niet positief."
+    },
+    {
+     "soort": "tekst",
+     "html": "Een voorbeeld: <strong>een rechthoek met oppervlakte 40 waarvan de lengte 3 meer is dan de breedte, heeft breedte 5</strong> (5 × 8 = 40). De andere oplossing is min 8, en die valt weg."
+    }
+   ]
+  }
+ ],
+ "onthoud": []
+}

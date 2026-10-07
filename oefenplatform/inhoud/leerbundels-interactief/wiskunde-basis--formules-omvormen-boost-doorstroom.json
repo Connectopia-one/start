@@ -1,0 +1,83 @@
+{
+ "vak": "Wiskunde basis",
+ "titel": "Formules omvormen",
+ "onder": "De eigenschappen van gelijkheden, een letter vrijmaken in de omgekeerde orde, en formules uit de wiskunde en de natuurwetenschappen omvormen.",
+ "secties": [
+  {
+   "kop": "Wat mag je met een gelijkheid doen",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Eén regel draagt het hele hoofdstuk: <strong>doe aan beide kanten hetzelfde</strong>. Optellen, aftrekken, vermenigvuldigen of delen aan beide kanten houdt de gelijkheid in stand; één kant veranderen breekt ze."
+    },
+    {
+     "soort": "tekst",
+     "html": "Met één voorbehoud: <strong>de deler mag niet nul zijn</strong>. <strong>Door nul mag je nooit delen</strong>, dus bij een letter ga je altijd na of ze nul kan worden."
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Een letter vrijmaken en een formule omvormen zijn hetzelfde</strong>: je zet die letter alleen aan één kant van het isgelijkteken. <strong>De betekenis van de formule verandert daarbij niet</strong>; je schrijft dezelfde samenhang anders op."
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Je maakt een formule vrij in de omgekeerde orde van de bewerkingen</strong>: wat het laatst bij de onbekende kwam, haal je eerst weg, net als bij het uitpakken van een doos. In <strong>y = 3x + 6</strong> trek je dus eerst 6 af en deel je dan door 3: <strong>x = (y − 6) : 3</strong>."
+    },
+    {
+     "soort": "tekst",
+     "html": "Let nog op één ding: <strong>bij maal min 1 keert er in een gelijkheid geen teken om</strong>, want er is geen ongelijkheidsteken. Bij een ongelijkheid gebeurt dat wel."
+    }
+   ]
+  },
+  {
+   "kop": "Formules uit de wiskunde",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "De vakfiche noemt als wiskundige voorbeelden <strong>de eerstegraadsfunctie</strong>, <strong>de vergelijking van een tweedegraadsfunctie</strong> en <strong>de formules voor omtrek en oppervlakte</strong>. De wet van Ohm staat bij de natuurwetenschappen."
+    },
+    {
+     "soort": "kader",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">formule</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">gevraagd</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">omgevormd</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">omtrek rechthoek = 2 × l + 2 × b</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">de lengte</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>omtrek gedeeld door 2, min de breedte</strong></td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">oppervlakte rechthoek = l × b</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">de breedte</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>oppervlakte gedeeld door de lengte</strong></td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">oppervlakte vierkant = z²</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">de zijde</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>de vierkantswortel</strong> van de oppervlakte</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">oppervlakte driehoek = basis × hoogte : 2</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">de hoogte</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>2 × oppervlakte, gedeeld door de basis</strong></td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">omtrek cirkel = 2 × π × r</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">de straal</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>omtrek gedeeld door 2π</strong></td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">y = a × x</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">a</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>y gedeeld door x</strong>, mits x niet nul is</td></tr></table>"
+    },
+    {
+     "soort": "tekst",
+     "html": "Reken twee gevallen na. <strong>Een driehoek met oppervlakte 12 en basis 6 heeft hoogte 4</strong> (2 × 12 = 24, gedeeld door 6). En <strong>een vierkant met oppervlakte 49 heeft zijde 7</strong>."
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Bij een zuiver kwadratische formule krijg je twee oplossingen</strong>: de wortel geeft een positieve en een negatieve waarde. <strong>Bij een lengte houd je enkel de positieve, want een lengte is nooit negatief.</strong> De wiskunde geeft twee antwoorden, de context sluit er één uit — dat heet demathematiseren."
+    }
+   ]
+  },
+  {
+   "kop": "Formules uit de natuurwetenschappen",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "De vakfiche noemt <strong>massadichtheid</strong>, <strong>de wet van Ohm</strong>, en <strong>veerkracht en druk</strong>. Pythagoras is wiskunde en geen natuurwetenschappelijke formule."
+    },
+    {
+     "soort": "kader",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">formule</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">gevraagd</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">omgevormd</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">voorbeeld</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">dichtheid = massa : volume</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">de massa</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>dichtheid × volume</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>20 g in 4 cm³ geeft 5 g per cm³</strong></td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">dezelfde formule</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">het volume</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>massa gedeeld door de dichtheid</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"></td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>de wet van Ohm: spanning = stroom × weerstand</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">de weerstand</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>spanning gedeeld door de stroom</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>12 volt bij 3 ampère geeft 4 ohm</strong></td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">zwaartekracht = massa × valversnelling</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">de massa</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>kracht gedeeld door de valversnelling</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"></td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">veerkracht = veerconstante × uitrekking</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">de uitrekking</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>kracht gedeeld door de veerconstante</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"></td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">concentratie = stofhoeveelheid : volume</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">de stofhoeveelheid</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>concentratie × volume</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>2 mol per liter in 3 liter is 6 mol</strong></td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">vermogen = energie : tijd</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">de energie</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>vermogen × tijd</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>100 watt gedurende 20 seconden is 2 000 joule</strong></td></tr></table>"
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Druk is kracht gedeeld door oppervlakte</strong>, dus <strong>bij een kleinere oppervlakte wordt de druk groter</strong>. Daarom prikt een speld zo goed. En omgekeerd: <strong>bij dezelfde kracht geeft een grotere oppervlakte minder druk</strong>, en daarom zakken brede sneeuwschoenen minder weg."
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Kinetische energie hangt af van het kwadraat van de snelheid</strong>, dus <strong>een auto die dubbel zo snel rijdt heeft vier keer zoveel kinetische energie</strong> — en daarom een veel langere remweg. Let op bij de potentiële energie: <strong>die hangt niet van de hoogte alleen af</strong>, maar van massa, valversnelling én hoogte samen."
+    },
+    {
+     "soort": "tekst",
+     "html": "Drie stappen bij het omvormen: <strong>bepaal welke letter je zoekt</strong>, <strong>werk met eigenschappen van gelijkheden</strong> en <strong>controleer de eenheden</strong>. Snel afronden is net wat de vakfiche afraadt."
+    },
+    {
+     "soort": "weetje",
+     "html": "<strong>Formules omvormen is buiten de wiskunde nuttig omdat je er elke grootheid mee berekent</strong> die erin staat, zolang je de andere kent. Eén formule, zoveel vragen als er letters in staan."
+    }
+   ]
+  }
+ ],
+ "onthoud": []
+}

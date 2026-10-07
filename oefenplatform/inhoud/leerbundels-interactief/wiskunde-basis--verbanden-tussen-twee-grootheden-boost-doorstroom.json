@@ -1,0 +1,125 @@
+{
+ "vak": "Wiskunde basis",
+ "titel": "Verbanden tussen twee grootheden",
+ "onder": "Het spreidingsdiagram en de puntenwolk, de trendlijn en wat je ermee mag voorspellen, de correlatiecoëfficiënt, en waarom samenhang nog geen oorzaak is.",
+ "secties": [
+  {
+   "kop": "Het spreidingsdiagram",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Tot nu ging het over één grootheid tegelijk. <strong>Wil je twee grootheden naast elkaar leggen, dan teken je een spreidingsdiagram: één punt per meetpaar.</strong> <strong>Elk punt heeft twee waarden</strong>, een op de x-as en een op de y-as. <strong>Er horen dus twee waarden bij elk punt</strong>, en die twee komen van dezelfde persoon of hetzelfde voorwerp."
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>De wolk punten noem je de puntenwolk</strong>, en haar vorm verraadt het verband. <strong>Je gebruikt een spreidingsdiagram net om een verband tussen twee grootheden te zien</strong>: je merkt meteen of de punten een richting hebben."
+    },
+    {
+     "soort": "figuur",
+     "html": "<svg viewBox=\"0 0 400 250\" width=\"400\" xmlns=\"http://www.w3.org/2000/svg\"><line x1=\"44\" y1=\"14\" x2=\"44\" y2=\"210\" stroke=\"#23291f\" stroke-width=\"1.8\"/><line x1=\"44\" y1=\"210\" x2=\"392\" y2=\"210\" stroke=\"#23291f\" stroke-width=\"1.8\"/><line x1=\"39\" y1=\"210.0\" x2=\"44\" y2=\"210.0\" stroke=\"#6b7260\" stroke-width=\"1.2\"/><text x=\"36.0\" y=\"213.5\" text-anchor=\"end\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"9.5\" fill=\"#6b7260\">34</text><line x1=\"39\" y1=\"178.3\" x2=\"44\" y2=\"178.3\" stroke=\"#6b7260\" stroke-width=\"1.2\"/><text x=\"36.0\" y=\"181.8\" text-anchor=\"end\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"9.5\" fill=\"#6b7260\">36</text><line x1=\"39\" y1=\"146.7\" x2=\"44\" y2=\"146.7\" stroke=\"#6b7260\" stroke-width=\"1.2\"/><text x=\"36.0\" y=\"150.2\" text-anchor=\"end\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"9.5\" fill=\"#6b7260\">38</text><line x1=\"39\" y1=\"115.0\" x2=\"44\" y2=\"115.0\" stroke=\"#6b7260\" stroke-width=\"1.2\"/><text x=\"36.0\" y=\"118.5\" text-anchor=\"end\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"9.5\" fill=\"#6b7260\">40</text><line x1=\"39\" y1=\"83.3\" x2=\"44\" y2=\"83.3\" stroke=\"#6b7260\" stroke-width=\"1.2\"/><text x=\"36.0\" y=\"86.8\" text-anchor=\"end\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"9.5\" fill=\"#6b7260\">42</text><line x1=\"39\" y1=\"51.7\" x2=\"44\" y2=\"51.7\" stroke=\"#6b7260\" stroke-width=\"1.2\"/><text x=\"36.0\" y=\"55.2\" text-anchor=\"end\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"9.5\" fill=\"#6b7260\">44</text><line x1=\"39\" y1=\"20.0\" x2=\"44\" y2=\"20.0\" stroke=\"#6b7260\" stroke-width=\"1.2\"/><text x=\"36.0\" y=\"23.5\" text-anchor=\"end\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"9.5\" fill=\"#6b7260\">46</text><line x1=\"44.0\" y1=\"210\" x2=\"44.0\" y2=\"215\" stroke=\"#6b7260\" stroke-width=\"1.2\"/><text x=\"44.0\" y=\"227.0\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"9.5\" fill=\"#6b7260\">150</text><line x1=\"92.9\" y1=\"210\" x2=\"92.9\" y2=\"215\" stroke=\"#6b7260\" stroke-width=\"1.2\"/><text x=\"92.9\" y=\"227.0\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"9.5\" fill=\"#6b7260\">155</text><line x1=\"141.7\" y1=\"210\" x2=\"141.7\" y2=\"215\" stroke=\"#6b7260\" stroke-width=\"1.2\"/><text x=\"141.7\" y=\"227.0\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"9.5\" fill=\"#6b7260\">160</text><line x1=\"190.6\" y1=\"210\" x2=\"190.6\" y2=\"215\" stroke=\"#6b7260\" stroke-width=\"1.2\"/><text x=\"190.6\" y=\"227.0\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"9.5\" fill=\"#6b7260\">165</text><line x1=\"239.4\" y1=\"210\" x2=\"239.4\" y2=\"215\" stroke=\"#6b7260\" stroke-width=\"1.2\"/><text x=\"239.4\" y=\"227.0\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"9.5\" fill=\"#6b7260\">170</text><line x1=\"288.3\" y1=\"210\" x2=\"288.3\" y2=\"215\" stroke=\"#6b7260\" stroke-width=\"1.2\"/><text x=\"288.3\" y=\"227.0\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"9.5\" fill=\"#6b7260\">175</text><line x1=\"337.1\" y1=\"210\" x2=\"337.1\" y2=\"215\" stroke=\"#6b7260\" stroke-width=\"1.2\"/><text x=\"337.1\" y=\"227.0\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"9.5\" fill=\"#6b7260\">180</text><line x1=\"386.0\" y1=\"210\" x2=\"386.0\" y2=\"215\" stroke=\"#6b7260\" stroke-width=\"1.2\"/><text x=\"386.0\" y=\"227.0\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"9.5\" fill=\"#6b7260\">185</text><line x1=\"63.5\" y1=\"182.5\" x2=\"356.7\" y2=\"55.3\" stroke=\"#c17f2b\" stroke-width=\"2.2\"/><text x=\"352.7\" y=\"46.3\" text-anchor=\"end\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"10\" font-weight=\"600\" fill=\"#c17f2b\">trendlijn</text><circle cx=\"63.5\" cy=\"178.3\" r=\"4.2\" fill=\"#2f5d50\"/><circle cx=\"102.6\" cy=\"162.5\" r=\"4.2\" fill=\"#2f5d50\"/><circle cx=\"141.7\" cy=\"146.7\" r=\"4.2\" fill=\"#2f5d50\"/><circle cx=\"171.0\" cy=\"146.7\" r=\"4.2\" fill=\"#2f5d50\"/><circle cx=\"190.6\" cy=\"130.8\" r=\"4.2\" fill=\"#2f5d50\"/><circle cx=\"219.9\" cy=\"115.0\" r=\"4.2\" fill=\"#2f5d50\"/><circle cx=\"239.4\" cy=\"99.2\" r=\"4.2\" fill=\"#2f5d50\"/><circle cx=\"278.5\" cy=\"99.2\" r=\"4.2\" fill=\"#2f5d50\"/><circle cx=\"317.6\" cy=\"67.5\" r=\"4.2\" fill=\"#2f5d50\"/><circle cx=\"356.7\" cy=\"51.7\" r=\"4.2\" fill=\"#2f5d50\"/><text x=\"42.0\" y=\"12.0\" text-anchor=\"start\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"10.5\" font-weight=\"600\" fill=\"#6b7260\">schoenmaat</text><text x=\"392.0\" y=\"241.0\" text-anchor=\"end\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"10.5\" font-weight=\"600\" fill=\"#6b7260\">lengte in cm</text></svg>",
+     "onderschrift": "Tien leerlingen: de kleinste meet 152 centimeter en heeft maat 36, de grootste meet 182 centimeter en heeft maat 44."
+    },
+    {
+     "soort": "kader",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">wat je ziet</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">wat het betekent</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>de punten stijgen</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>een positief verband</strong>: hoe hoger x, hoe hoger y</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>de punten dalen</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>een negatief verband</strong>: hoe hoger x, hoe lager y</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>geen richting</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>geen verband</strong>: de punten liggen verspreid</td></tr></table>"
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>In een spreidingsdiagram van lengte en schoenmaat stijgen de punten: grotere mensen hebben een grotere maat.</strong> Een dalend verband vind je bijvoorbeeld tussen schermtijd en uren slaap. <strong>Een spreidingsdiagram toont geen verloop in de tijd</strong>, dat doet een lijndiagram, uit het vorige hoofdstuk."
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Drie dingen lees je uit een spreidingsdiagram</strong>: <strong>de richting van het verband</strong>, <strong>hoe sterk het verband is</strong> en <strong>of er uitschieters zijn</strong>. Een percentage lees je er niet uit."
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Bij een goed spreidingsdiagram staat er een naam bij elke as, de eenheid erbij en een passende schaal.</strong> <strong>De punten verbinden hoort er niet bij</strong>: dan maak je er een lijndiagram van, en dat zegt iets anders."
+    }
+   ]
+  },
+  {
+   "kop": "De trendlijn",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "<strong>De trendlijn is de rechte die het patroon van de puntenwolk volgt.</strong> <strong>Ze loopt zo dicht mogelijk bij alle punten, zonder er per se door te gaan</strong>: <strong>een trendlijn hoeft niet door alle punten te gaan</strong>, en door alle punten gaan lukt meestal niet eens."
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Teken je ze met de hand, dan leg je ze zo dat er evenveel punten boven als onder liggen.</strong> Zo ligt ze zo dicht mogelijk bij de hele wolk. Op de grafische rekenmachine laat je ze berekenen; dan krijg je er meteen de vergelijking bij."
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Waarvoor dient ze? Om een voorspelling te doen.</strong> <strong>Met haar vergelijking schat je een y bij een x die je niet gemeten hebt.</strong> In de tekening hierboven lees je zo af welke maat je verwacht bij iemand van 172 centimeter."
+    },
+    {
+     "soort": "kader",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">valkuil</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">waarom</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>ver buiten de gemeten waarden voorspellen</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>het verband kan daar anders zijn</strong>: buiten het bereik van je metingen weet je niet of de rechte nog klopt</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>een uitschieter laten staan zonder te kijken</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>één punt ver weg kan de trendlijn flink doen kantelen</strong></td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>een rechte opleggen aan een kromme wolk</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>een trendlijn is niet altijd een rechte</strong>; vaak wel, maar een verband kan ook krom zijn</td></tr></table>"
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Kijk dus altijd eerst naar de wolk zelf</strong>, en pas daarna naar de rechte. Daarom begint elke oefening met tekenen en niet met rekenen."
+    },
+    {
+     "soort": "weetje",
+     "html": "Een trendlijn heet ook een regressielijn. Dat woord komt van een onderzoek uit 1886 over de lengte van ouders en kinderen, waarin de kinderen telkens naar het gemiddelde toe “terugkeerden”."
+    }
+   ]
+  },
+  {
+   "kop": "De correlatiecoëfficiënt",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "<strong>Correlatie is samenhang tussen twee grootheden</strong>, meer niet. <strong>De correlatiecoëfficiënt zet die samenhang in één getal</strong>, en <strong>dat getal ligt altijd tussen min 1 en 1</strong>."
+    },
+    {
+     "soort": "kader",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">waarde</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">wat ze zegt</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>1</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>een perfect stijgend verband</strong>: alle punten liggen precies op een stijgende rechte</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>0,9</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>een sterk stijgend verband</strong>: de punten liggen bijna op een stijgende rechte</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>0,1</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>bijna geen verband</strong>: de punten liggen bijna richtingloos</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>0</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>geen lineair verband</strong>: de punten liggen zonder richting verspreid</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>−0,8</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>een sterk dalend verband</strong></td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>−1</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>een perfect dalend verband</strong></td></tr></table>"
+    },
+    {
+     "soort": "tekst",
+     "html": "Onthoud de twee helften van dat getal: <strong>het teken geeft de richting, de grootte geeft de sterkte</strong>. <strong>Een correlatie van min 1 is dus niet zwakker dan een van 0,5, maar net het sterkst mogelijke verband</strong>; <strong>de sterkst mogelijke waarden zijn 1 en min 1</strong>. Kijk naar de grootte, niet naar het teken."
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Bij de tien leerlingen hierboven is de correlatiecoëfficiënt ongeveer 0,99</strong>: bijna 1, en inderdaad liggen de punten bijna op een rechte."
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Eén beperking telt altijd mee: de correlatiecoëfficiënt zegt enkel iets over een lineair verband.</strong> <strong>Een duidelijk krom verband kan toch een correlatie dicht bij nul geven</strong>, en dan is nul niet “geen verband” maar “geen rechte”. Opnieuw: eerst de wolk bekijken."
+    }
+   ]
+  },
+  {
+   "kop": "Correlatie is geen causaliteit",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "<strong>Dit is het hart van het hoofdstuk: correlatie is geen causaliteit.</strong> <strong>Samen bewegen is niet hetzelfde als elkaar veroorzaken</strong>, en <strong>een sterke correlatie bewijst dus niet dat het ene het andere veroorzaakt</strong>."
+    },
+    {
+     "soort": "kader",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">mogelijke verklaring</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">voorbeeld</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>het ene veroorzaakt het andere</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>meer uren studeren en een beter resultaat</strong></td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>een derde factor verklaart beide</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>ijsjes en zwemongevallen</strong>: de warmte duwt beide omhoog</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>het is toeval</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>twee reeksen die een tijdlang toevallig samen stijgen</strong></td></tr></table>"
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Een derde factor is iets dat beide verklaart</strong>, ook wel een <strong>verstorende factor</strong> genoemd. <strong>Het aantal ijsjes en het aantal zwemongevallen stijgen samen omdat het warm weer is</strong>, niet omdat ijsjes gevaarlijk zijn. <strong>Stijgen het aantal ooievaars en het aantal geboorten samen in een land, dan besluit je dus enkel dat er samenhang is</strong>: het bekendste schijnverband uit de handboeken."
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Hoe toon je een oorzakelijk verband dan wel aan? Met een opgezet experiment</strong>: je verandert één ding en houdt de rest gelijk. <strong>Dat kan een grafiek niet.</strong> En <strong>voor je uit een grafiek een oorzaak besluit, zoek je naar een verklaring</strong>: <strong>een verband zonder plausibele verklaring blijft een vermoeden</strong>."
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Uit een correlatiecoëfficiënt van 0,95 mag je drie dingen besluiten</strong>: <strong>de punten liggen dicht bij een rechte</strong>, <strong>het verband is stijgend</strong> en <strong>voorspellen lukt hier redelijk goed</strong>. <strong>Over oorzaak zegt dat getal niets.</strong>"
+    },
+    {
+     "soort": "weetje",
+     "html": "Er bestaan hele verzamelingen van zulke schijnverbanden, bijvoorbeeld tussen het aantal films met een bepaalde acteur en het aantal echtscheidingen in een staat. Zoek er lang genoeg, en je vindt altijd twee reeksen die samen bewegen."
+    }
+   ]
+  }
+ ],
+ "onthoud": []
+}

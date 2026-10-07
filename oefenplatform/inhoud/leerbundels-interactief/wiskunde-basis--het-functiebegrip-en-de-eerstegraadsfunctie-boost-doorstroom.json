@@ -1,0 +1,84 @@
+{
+ "vak": "Wiskunde basis",
+ "titel": "Het functiebegrip en de eerstegraadsfunctie",
+ "onder": "Wat een functie is, domein en bereik, wat je uit een grafiek leest, en de eerstegraadsfunctie met haar richtingscoëfficiënt.",
+ "secties": [
+  {
+   "kop": "Wat een functie is",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Een functie is een verband waarbij <strong>elke x precies één y krijgt</strong>: elk getal uit het domein heeft juist één beeld. <strong>Eén x-waarde kan dus geen twee verschillende beelden hebben</strong> — dan is het geen functie. Omgekeerd mag wel: <strong>twee verschillende x-waarden mogen hetzelfde beeld hebben</strong>, zoals 2 en min 2 bij f(x) = x², die allebei 4 geven."
+    },
+    {
+     "soort": "tekst",
+     "html": "Daarop steunt de <strong>verticale-lijntest</strong>: <strong>een verticale rechte mag de grafiek maar in één punt snijden</strong>."
+    },
+    {
+     "soort": "kader",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">woord</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">wat het betekent</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>het origineel</strong> (of het argument)</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>de x-waarde waarvan je het beeld neemt</strong></td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>het beeld</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">de bijhorende y-waarde; <strong>f(3) is het beeld van 3</strong>, en <strong>op de verticale as lees je de beelden af</strong></td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>het domein</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>alle x-waarden die mogen</strong></td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>het bereik</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>alle y-waarden die voorkomen</strong></td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>de nulwaarde</strong> (of het nulpunt)</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">de x-waarde waar de grafiek de x-as snijdt, dus waar f(x) = 0</td></tr></table>"
+    },
+    {
+     "soort": "tekst",
+     "html": "Rekenen met een voorschrift: <strong>voor f(x) = 2x + 1 is f(4) gelijk aan 9</strong>, en <strong>voor f(x) = x² is f(min 3) gelijk aan 9</strong>, want een kwadraat is nooit negatief. En <strong>als f(2) gelijk is aan 0, dan is 2 een nulwaarde</strong>: de grafiek gaat door het punt (2, 0)."
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Het domein van elke functie is niet heel de reële rechte</strong>: over het domein klopt dat <strong>het de x-waarden zijn</strong>, dat <strong>bij een breuk de noemer niet nul mag zijn</strong> en dat <strong>bij een wortel wat eronder staat niet negatief mag zijn</strong>."
+    }
+   ]
+  },
+  {
+   "kop": "Vier manieren om een functie voor te stellen",
+   "blokken": [
+    {
+     "soort": "kader",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">voorstelling</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">wat ze geeft</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>een woordelijke beschrijving</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">het verband in gewone taal</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>een tabel</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>een rij x-waarden met hun beeld</strong>: boven de x, onder de beelden. Handig, maar nooit volledig</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>een grafiek</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">het beeld in één oogopslag; punten noteer je als <strong>(1, 5)</strong>, <strong>eerst de x en dan de y</strong></td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>een voorschrift</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">de regel zelf; <strong>het voordeel boven een tabel is dat je er elke x in kan invullen</strong></td></tr></table>"
+    },
+    {
+     "soort": "tekst",
+     "html": "Uit een grafiek lees je rechtstreeks af: <strong>de nulwaarden</strong>, <strong>waar de functie stijgt</strong> en daalt, <strong>het hoogste punt</strong> en de andere extrema, en het teken."
+    }
+   ]
+  },
+  {
+   "kop": "De eerstegraadsfunctie",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Haar voorschrift is <strong>f(x) = ax + b</strong>, met a niet nul, en haar grafiek is <strong>altijd een rechte</strong>. Daarom <strong>teken je ze het snelst met twee punten en een lat</strong>; een derde punt is een handige controle. En <strong>een eerstegraadsfunctie kan geen twee nulwaarden hebben</strong>: een schuine rechte snijdt de x-as precies één keer."
+    },
+    {
+     "soort": "kader",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">letter</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">wat ze zegt</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>a, de richtingscoëfficiënt</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>hoe steil de rechte loopt</strong>: de stijging per stap van 1 naar rechts</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>b</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>het beeld van 0</strong>, dus f(0) en het snijpunt met de y-as</td></tr></table>"
+    },
+    {
+     "soort": "tekst",
+     "html": "Over de richtingscoëfficiënt klopt: <strong>positief betekent stijgend</strong>, <strong>negatief betekent dalend</strong> en <strong>nul geeft een horizontale rechte</strong>. Het snijpunt met de y-as is b en niet a; b schuift de rechte enkel op of neer."
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Uit twee punten bereken je a als het verschil in y gedeeld door het verschil in x.</strong> Voor de rechte door <strong>(0, 1) en (2, 7)</strong> is dat <strong>6 : 2 = 3</strong>."
+    },
+    {
+     "soort": "kader",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">functie</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">wat je meteen weet</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>f(x) = 3x − 2</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>de richtingscoëfficiënt is 3</strong>: per stap naar rechts 3 omhoog</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>f(x) = min 2x + 7</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>f(0) = 7</strong>; in nul blijft enkel b over</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>f(x) = min 3x + 4</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>de functie is dalend</strong>, <strong>de grafiek snijdt de y-as in 4</strong> en <strong>de rechte zakt 3 per stap</strong></td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>f(x) = 2x − 6</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>de nulwaarde is 3</strong>, want 2x = 6</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>f(x) = x + 5</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>de nulwaarde is min 5</strong></td></tr></table>"
+    }
+   ]
+  },
+  {
+   "kop": "Recht en omgekeerd evenredig",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "<strong>Een recht evenredig verband is f(x) = ax, met b gelijk aan nul.</strong> Dan <strong>gaat de grafiek door de oorsprong</strong>, want f(0) = 0, en dubbel zoveel x geeft dubbel zoveel y."
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Bij een omgekeerd evenredig verband is de grafiek geen rechte maar een hyperbool</strong>: daar blijft het product van x en y gelijk."
+    }
+   ]
+  }
+ ],
+ "onthoud": []
+}

@@ -1,0 +1,96 @@
+{
+ "vak": "Wiskunde basis",
+ "titel": "Schaalverandering en gelijkvormige figuren",
+ "onder": "De gelijkvormigheidsfactor en wat ze doet met lengte, oppervlakte en volume, werken met een schaal, en de vier gelijkvormigheidskenmerken van driehoeken.",
+ "secties": [
+  {
+   "kop": "De gelijkvormigheidsfactor",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Twee figuren zijn <strong>gelijkvormig</strong> als ze <strong>dezelfde vorm hebben in een andere grootte</strong>: alle hoeken zijn gelijk en alle zijden staan in dezelfde verhouding. <strong>De gelijkvormigheidsfactor is de verhouding van de lengtes</strong>: je deelt een lengte van de nieuwe figuur door de overeenkomstige lengte van de oude. <strong>Gaat een figuur van 3 cm naar 12 cm, dan is de factor 4</strong>; <strong>bij zijden 2 en 10 is de factor 5</strong>."
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Bij een factor kleiner dan 1 wordt de figuur kleiner</strong>: een factor van een half halveert elke lengte, en dan wordt de oppervlakte een vierde."
+    }
+   ]
+  },
+  {
+   "kop": "Lengte, oppervlakte en volume gaan niet gelijk op",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Dit is de kern van het hoofdstuk, en meteen de klassieke misvatting. <strong>Niet alles gaat met dezelfde factor.</strong>"
+    },
+    {
+     "soort": "kader",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">grootheid</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">hoe ze meegaat</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">bij factor 2</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">bij factor 3</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>de lengte</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>met de factor</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>verdubbelt</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">maal 3</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>de oppervlakte</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>met het kwadraat</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>vier keer zo groot</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>negen keer zo groot</strong></td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>het volume</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>met de derde macht</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>acht keer zo groot</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>27 keer zo groot</strong></td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>de hoeken</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>ze blijven gelijk</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">gelijk</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">gelijk</td></tr></table>"
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Bij een dubbele lengte wordt het volume dus niet dubbel zo groot maar acht keer zo groot.</strong> Dat is precies het soort uitspraak dat de vakfiche je laat weerleggen. <strong>Een blikje dat in alle richtingen dubbel zo groot wordt, heeft acht keer zoveel inhoud.</strong> En <strong>een foto op dubbele breedte, met dezelfde vorm, vraagt vier keer zoveel inkt</strong>, want de inkt volgt de oppervlakte."
+    },
+    {
+     "soort": "tekst",
+     "html": "Reken het na op een vierkant: <strong>een vierkant van 2 cm zijde, vergroot met factor 4, krijgt een zijde van 8 cm en dus een oppervlakte van 64 cm²</strong>. Of korter: 4 × 4 maal de oude oppervlakte van 4 cm²."
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Gelijkvormige driehoeken hebben dus ook niet dezelfde omtrek</strong>: die gaat gewoon met de factor mee. Alleen de hoeken blijven gelijk. En <strong>twee driehoeken met gelijke hoeken hebben niet automatisch dezelfde oppervlakte</strong>: ze zijn gelijkvormig, niet gelijk."
+    },
+    {
+     "soort": "weetje",
+     "html": "<strong>Grote dieren hebben dikkere botten omdat hun gewicht sneller groeit dan de doorsnede van hun botten</strong>: het gewicht gaat met de derde macht, de doorsnede met het kwadraat. Een mooi gevolg van schaalverandering."
+    }
+   ]
+  },
+  {
+   "kop": "Werken met een schaal",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "<strong>Bij een schaal hoort geen eenheid</strong>: het is een verhouding, en 1 op 50 geldt in welke eenheid je ook meet."
+    },
+    {
+     "soort": "kader",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">schaal</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">op papier</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">in het echt</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">rekenwijze</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>1 op 50</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">4 cm</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>2 meter</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">4 × 50 = 200 cm</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>1 op 100</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">3 cm</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>3 meter</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">3 × 100 = 300 cm</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>1 op 25 000</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">4 cm</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>1 kilometer</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">4 × 25 000 = 100 000 cm = 1 000 m</td></tr></table>"
+    }
+   ]
+  },
+  {
+   "kop": "De gelijkvormigheidskenmerken van driehoeken",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "De vakfiche noemt <strong>HH</strong>, <strong>ZHZ</strong>, <strong>ZZZ</strong> en het geval met een rechte hoek van 90 graden. Eén gelijke scherpe hoek volstaat niet."
+    },
+    {
+     "soort": "kader",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">kenmerk</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">wat je moet weten</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>HH</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>twee hoeken zijn gelijk</strong></td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>ZHZ</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>twee zijden in verhouding met de hoek ertussen</strong> gelijk; <strong>de hoek moet er echt tussen liggen</strong></td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>ZZZ</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>de drie zijden staan in verhouding</strong></td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">rechte hoek</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">beide driehoeken hebben een hoek van 90 graden, plus nog een gegeven</td></tr></table>"
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Twee gelijke hoeken volstaan omdat de derde hoek eruit volgt</strong>: <strong>de hoekensom van een driehoek is 180 graden</strong>, dus hij ligt vast. Heeft een driehoek hoeken van 40 en 60 graden, dan is de derde <strong>80 graden</strong>."
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Bij gelijkvormige driehoeken staan de overeenkomstige zijden in dezelfde verhouding</strong>, en daarmee bereken je de onbekende. Drie stappen: <strong>het kenmerk aanwijzen</strong>, <strong>de verhouding opstellen</strong> en <strong>de onbekende berekenen</strong>. De oppervlakte heb je er niet voor nodig."
+    },
+    {
+     "soort": "kader",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">opgave</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">antwoord</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">rekenwijze</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>factor 2, een zijde van 5 cm</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>10 cm</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">5 × 2</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>zijden 4 en 6, de tweede zijde van de kleine is 3</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>4,5 cm</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">de factor is 6 : 4 = 1,5, en 3 × 1,5 = 4,5</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>een stok van 1 m geeft 1,5 m schaduw, een boom 12 m schaduw</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>de boom is 8 m</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">12 : 1,5 = 8, en 1 × 8 = 8</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>een stok van 2 m geeft 3 m schaduw, hoeveel geeft een boom van 10 m?</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>15 m</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">de verhouding is 3 op 2, dus 10 × 1,5 = 15</td></tr></table>"
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>De twee driehoeken bij een schaduwmeting zijn gelijkvormig omdat de zonnestralen gelijk invallen</strong>: dezelfde hoek met de grond, en beide keren een rechte hoek. Dat is het kenmerk HH."
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>De vakfiche vraagt het kenmerk te benoemen en niet enkel te rekenen, want het kenmerk is de verantwoording.</strong> Zonder kenmerk weet je niet waarom je die verhouding mag opstellen."
+    }
+   ]
+  }
+ ],
+ "onthoud": []
+}

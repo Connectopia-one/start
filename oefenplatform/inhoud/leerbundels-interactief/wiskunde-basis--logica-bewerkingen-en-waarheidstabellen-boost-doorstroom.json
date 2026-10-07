@@ -1,0 +1,113 @@
+{
+ "vak": "Wiskunde basis",
+ "titel": "Logica: bewerkingen en waarheidstabellen",
+ "onder": "De vijf logische bewerkingen, de waarheidstabel met haar rijen, tautologie en contradictie, de kwantoren en de logische poorten.",
+ "secties": [
+  {
+   "kop": "Uitspraken en bewerkingen",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Een <strong>logische uitspraak</strong> is <strong>een bewering die waar of vals is</strong>. Ze heeft precies <strong>twee</strong> mogelijke waarheidswaarden, en een derde bestaat in deze logica niet. Een vraag of een bevel is dus geen uitspraak."
+    },
+    {
+     "soort": "tekst",
+     "html": "De vakfiche noemt <strong>vijf</strong> bewerkingen: <strong>negatie en conjunctie</strong>, <strong>disjunctie</strong>, <strong>implicatie en equivalentie</strong>. Substitutie is een methode bij stelsels en geen logische bewerking."
+    },
+    {
+     "soort": "kader",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">bewerking</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">het woord</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">wanneer ze waar is</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>de negatie</strong> (de ontkenning)</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">niet</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>ze keert de waarheidswaarde om</strong>: was de uitspraak waar, dan is de negatie vals</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>de conjunctie</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>en</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>als beide delen waar zijn</strong>; één vals deel maakt het geheel vals</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>de disjunctie</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">of</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>als minstens één deel waar is</strong>; <strong>ook als beide waar zijn</strong></td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>de implicatie</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">als … dan</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">altijd, <strong>behalve als het eerste waar en het tweede vals is</strong></td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>de equivalentie</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">dan en slechts dan als</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>als beide delen dezelfde waarde hebben</strong>: twee keer waar of twee keer vals</td></tr></table>"
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Het of van de logica sluit niet uit dat beide delen waar zijn.</strong> Daar verschilt het van het of in de omgangstaal, waar men vaak een keuze bedoelt."
+    },
+    {
+     "soort": "tekst",
+     "html": "Bij de implicatie zit nog een valstrik: <strong>een implicatie met een vals eerste deel is niet vals maar juist waar</strong>. Als het regent, dan draag ik een jas — regent het niet, dan is de belofte niet geschonden. Daar zit meteen het verschil met het als-dan van de omgangstaal: <strong>het logische als-dan zegt niets over een oorzaak</strong>."
+    },
+    {
+     "soort": "tekst",
+     "html": "Zo zet je een zin om in symbolen: <em>p is waar en q is vals</em> wordt <strong>p en de negatie van q</strong>."
+    }
+   ]
+  },
+  {
+   "kop": "Tautologie en contradictie",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Een <strong>tautologie</strong> is <strong>een uitspraak die altijd waar is</strong>: bij elke combinatie komt waar uit, dus haar kolom staat vol waar. Een <strong>contradictie</strong> is het omgekeerde: <strong>altijd vals</strong>."
+    },
+    {
+     "soort": "tekst",
+     "html": "Tautologieën zijn bijvoorbeeld <strong>p of niet p</strong>, <strong>p impliceert p</strong> en <strong>p is equivalent met p</strong>. <strong>Dat het regent of niet regent, is dus geen contradictie maar een tautologie</strong>; een contradictie zou zijn: het regent én het regent niet."
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Je bewijst een tautologie met een tabel waarin alle rijen waar geven.</strong> Eén rij met vals volstaat om haar te weerleggen."
+    }
+   ]
+  },
+  {
+   "kop": "Nodig en voldoende",
+   "blokken": [
+    {
+     "soort": "kader",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">soort voorwaarde</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">wat ze betekent</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">voorbeeld</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>nodig</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>zonder haar geldt het besluit niet</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een cijfer halen is nodig om te slagen, maar niet voldoende</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>voldoende</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>met haar geldt het besluit zeker</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>deelbaar zijn door 4 is voldoende om even te zijn</strong>, maar niet nodig: 6 is ook even</td></tr></table>"
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Bij een equivalentie is de voorwaarde zowel nodig als voldoende</strong>: de pijl gaat in beide richtingen, en daarom staat de equivalentie voor <em>dan en slechts dan als</em>."
+    },
+    {
+     "soort": "tekst",
+     "html": "De vakfiche noemt <strong>twee</strong> kwantoren: <strong>voor elke</strong> en <strong>er bestaat</strong>. <em>Precies één</em> staat er niet bij. Let op het omkeren: <strong>de negatie van <em>elk getal is positief</em> is <em>er bestaat een getal dat niet positief is</em></strong>. Niet-voor-elke keert de kwantor om naar er-bestaat."
+    }
+   ]
+  },
+  {
+   "kop": "De waarheidstabel",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Elke extra uitspraak <strong>verdubbelt</strong> het aantal rijen, want elke uitspraak kan waar of vals zijn."
+    },
+    {
+     "soort": "kader",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">aantal uitspraken</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">aantal rijen</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">rekenwijze</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">twee</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>vier</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">2 × 2</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">drie</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>acht</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">2 × 2 × 2</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">vier</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>16</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">2⁴</td></tr></table>"
+    },
+    {
+     "soort": "tekst",
+     "html": "In een tabel met twee uitspraken is <strong>de conjunctie in één rij waar</strong> (alleen als beide waar zijn), <strong>de disjunctie in drie rijen</strong> (overal behalve waar beide vals zijn) en <strong>de implicatie ook in drie rijen</strong> (ze is enkel vals bij waar-dan-vals)."
+    },
+    {
+     "soort": "tekst",
+     "html": "Het opstellen gaat in drie stappen: <strong>alle combinaties opschrijven</strong>, <strong>de deeluitdrukkingen uitwerken</strong> en <strong>de eindkolom bepalen</strong>. Over waarheidstabellen klopt: <strong>ze tonen alle gevallen</strong>, <strong>ze bewijzen een tautologie</strong> en <strong>hun aantal rijen verdubbelt per uitspraak</strong>. Ze werken met waar en vals, of met 1 en 0 bij poorten, niet met gewone getallen."
+    }
+   ]
+  },
+  {
+   "kop": "Logische poorten",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "<strong>De werking van een logische poort kan je wél in een waarheidstabel zetten</strong>, en de vakfiche vraagt dat ook uitdrukkelijk."
+    },
+    {
+     "soort": "kader",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">poort</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">bij welke bewerking</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">wanneer de uitgang 1 is</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>de en-poort</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">de conjunctie</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>enkel als beide ingangen 1 zijn</strong></td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>de of-poort</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>de disjunctie</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">zodra minstens één ingang 1 is</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>de niet-poort</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">de negatie</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>ze keert het signaal om</strong>: een 1 wordt 0 en een 0 wordt 1</td></tr></table>"
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Twee en-poorten op een rij geven 1 als alle ingangen 1 zijn</strong>, want elke en-poort eist dat al haar ingangen 1 zijn."
+    },
+    {
+     "soort": "tekst",
+     "html": "Zo herken je ze in het echt. <strong>Een lamp die enkel brandt als twee schakelaars samen aan staan, is een en-poort.</strong> <strong>Een lamp die brandt als minstens één schakelaar aan staat, is dus geen en-poort maar een of-poort.</strong> En <strong>een schakeling met drie ingangen vraagt een tabel van acht rijen</strong>."
+    }
+   ]
+  }
+ ],
+ "onthoud": []
+}
