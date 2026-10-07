@@ -1,0 +1,283 @@
+<title>Opladen Boost doorstroom</title>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700;800&family=Caveat:wght@600&display=swap">
+<style>
+  :root {
+    color-scheme: light;
+    --paper: #fbf6ea;
+    --paper-diep: #f3ebd8;
+    --kaart: #ffffff;
+    --inkt: #2f4a22;
+    --inkt-zacht: #5d6b50;
+    --groen: #2f4a22;
+    --paars: #5e2d91;
+    --paars-diep: #4d2478;
+    --oranje: #d96e25;
+    --rand: #e7dfcb;
+    --rand-sterk: #d6cab0;
+    --schaduw: 0 2px 10px rgba(47, 74, 34, .07);
+    --knop-tekst: #fbf6ea;
+    --hand: Caveat, Nunito, cursive;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root:not([data-theme="light"]) {
+      color-scheme: dark;
+      --paper: #1b2017;
+      --paper-diep: #242a1f;
+      --kaart: #242a1f;
+      --inkt: #ecebe2;
+      --inkt-zacht: #aeb5a2;
+      --groen: #a8c893;
+      --paars: #c4a3e8;
+      --paars-diep: #d7c0f2;
+      --oranje: #f0a05f;
+      --rand: #39412f;
+      --rand-sterk: #4b543e;
+      --schaduw: 0 2px 10px rgba(0, 0, 0, .3);
+      --knop-tekst: #1b2017;
+    }
+  }
+  :root[data-theme="dark"] {
+    color-scheme: dark;
+    --paper: #1b2017;
+    --paper-diep: #242a1f;
+    --kaart: #242a1f;
+    --inkt: #ecebe2;
+    --inkt-zacht: #aeb5a2;
+    --groen: #a8c893;
+    --paars: #c4a3e8;
+    --paars-diep: #d7c0f2;
+    --oranje: #f0a05f;
+    --rand: #39412f;
+    --rand-sterk: #4b543e;
+    --schaduw: 0 2px 10px rgba(0, 0, 0, .3);
+    --knop-tekst: #1b2017;
+  }
+
+  body {
+    background: var(--paper);
+    color: var(--inkt);
+    font-family: Nunito, system-ui, -apple-system, "Segoe UI", sans-serif;
+    font-size: 16px;
+    line-height: 1.55;
+    margin: 0;
+    padding: 16px;
+    padding-block: 28px 56px;
+  }
+  main { max-width: 780px; margin: 0 auto; display: flex; flex-direction: column; gap: 26px; }
+
+  header h1 { font-size: clamp(1.7rem, 5vw, 2.3rem); line-height: 1.15; margin: 0 0 6px; text-wrap: balance; }
+  header p { margin: 0; color: var(--inkt-zacht); max-width: 62ch; }
+  .krabbel { font-family: var(--hand); font-size: 1.4rem; color: var(--oranje); display: block; margin-bottom: 2px; }
+
+  .teller {
+    position: sticky; top: env(safe-area-inset-top, 0px); z-index: 5;
+    background: var(--kaart); border: 1px solid var(--rand); border-radius: 14px;
+    box-shadow: var(--schaduw); padding: 10px 16px;
+    display: flex; flex-wrap: wrap; gap: 6px 14px; align-items: baseline;
+    justify-content: space-between; font-weight: 700;
+  }
+  .teller .getal { font-variant-numeric: tabular-nums; color: var(--paars); }
+  .teller button {
+    background: none; border: 1px solid var(--rand-sterk); border-radius: 10px;
+    padding: 4px 11px; font-family: inherit; font-size: .85rem; font-weight: 700;
+    color: var(--inkt-zacht); cursor: pointer;
+  }
+
+  section { display: flex; flex-direction: column; gap: 12px; }
+  h2 { font-size: 1.15rem; margin: 0; display: flex; align-items: center; gap: 9px; text-wrap: balance; }
+  h2 .nr {
+    flex: none; width: 1.75rem; height: 1.75rem; border-radius: 50%;
+    background: var(--groen); color: var(--knop-tekst); font-size: .95rem;
+    display: inline-grid; place-items: center;
+  }
+  section > p { margin: 0; color: var(--inkt-zacht); max-width: 62ch; }
+
+  ol.stappen { margin: 0; padding-left: 1.3em; display: flex; flex-direction: column; gap: 6px; }
+  ol.stappen li { padding-left: 2px; }
+  .pad { color: var(--paars); font-weight: 700; }
+
+  .vakken { display: flex; flex-direction: column; gap: 18px; }
+  .vak {
+    background: var(--kaart); border: 1px solid var(--rand); border-radius: 18px;
+    box-shadow: var(--schaduw); padding: 18px;
+  }
+  .vak.af { opacity: .55; }
+  .vak.af .vaknaam h3 { text-decoration: line-through; }
+
+  .afvink {
+    display: inline-flex; gap: 8px; align-items: center; cursor: pointer; user-select: none;
+    font-size: .8rem; font-weight: 700; text-transform: uppercase; letter-spacing: .06em;
+    color: var(--inkt-zacht); margin-bottom: 10px;
+  }
+  .afvink input { width: 20px; height: 20px; accent-color: var(--oranje); margin: 0; cursor: pointer; }
+  .vak.af .afvink { color: var(--groen); }
+
+  .vakkop { display: flex; gap: 12px; align-items: center; flex-wrap: wrap; }
+  .vaknaam { min-width: 0; flex: 1 1 220px; }
+  .vaknaam h3 { font-size: 1.25rem; font-weight: 800; margin: 0; text-wrap: balance; }
+  .cat { margin: 0; font-size: .8rem; color: var(--inkt-zacht); text-transform: uppercase; letter-spacing: .06em; font-weight: 700; }
+  .etiket { flex: none; border-radius: 999px; padding: 3px 11px; font-size: .75rem; font-weight: 800; text-transform: uppercase; letter-spacing: .05em; }
+  .e-nieuw { background: var(--paars); color: var(--knop-tekst); }
+  .e-kijk { background: var(--paper-diep); color: var(--inkt); border: 1px solid var(--rand-sterk); }
+  .raad { margin: 10px 0 0; font-size: .92rem; color: var(--inkt-zacht); max-width: 60ch; }
+
+  dl.cijfers { display: flex; flex-wrap: wrap; gap: 9px; margin: 14px 0 0; padding: 0; }
+  dl.cijfers > div { flex: 1 1 100px; background: var(--paper-diep); border-radius: 12px; padding: 8px 12px; }
+  dl.cijfers dt { margin: 0; font-size: .72rem; text-transform: uppercase; letter-spacing: .05em; color: var(--inkt-zacht); font-weight: 700; }
+  dl.cijfers dd { margin: 0; font-size: 1.25rem; font-weight: 800; font-variant-numeric: tabular-nums; }
+
+  .knoppen { display: flex; flex-wrap: wrap; gap: 10px; margin-top: 14px; }
+  .kopieer, .zip {
+    flex: 1 1 230px;
+    display: flex; flex-wrap: wrap; gap: 3px 9px; align-items: baseline; justify-content: center;
+    border-radius: 14px; padding: 12px 16px;
+    font-family: inherit; font-size: 1rem; font-weight: 800; text-align: center;
+    text-decoration: none; cursor: pointer; border: 1px solid transparent;
+  }
+  .kopieer { background: var(--paars); color: var(--knop-tekst); }
+  .kopieer:hover { background: var(--paars-diep); }
+  .kopieer.klaar { background: var(--groen); }
+  .zip { background: transparent; color: var(--paars); border-color: var(--rand-sterk); }
+  .zip:hover { border-color: var(--oranje); color: var(--oranje); }
+  .kopieer:focus-visible, .zip:focus-visible { outline: 3px solid var(--oranje); outline-offset: 2px; }
+  .mee { font-size: .8rem; font-weight: 600; opacity: .85; }
+
+  .gelukt, .handmatig { margin: 10px 0 0; font-size: .9rem; font-weight: 700; }
+  .gelukt { color: var(--groen); }
+  .handmatig { color: var(--oranje); font-weight: 600; }
+  textarea.bak {
+    margin-top: 10px; width: 100%; min-width: 0; height: 90px;
+    font-family: ui-monospace, monospace; font-size: .75rem;
+    border: 1px solid var(--rand); border-radius: 10px; padding: 8px;
+    background: var(--paper-diep); color: var(--inkt);
+  }
+
+  .let { border-left: 4px solid var(--oranje); background: var(--kaart); border-radius: 0 14px 14px 0; padding: 12px 15px; }
+  .let p { margin: 0; }
+  .let p + p { margin-top: 7px; }
+
+  footer { color: var(--inkt-zacht); font-size: .85rem; text-align: center; }
+</style>
+
+<main>
+  <header>
+    <span class="krabbel">alles op één plek</span>
+    <h1>Opladen bij Boost</h1>
+    <p>Elf vakken, elk met zijn vragen en zijn leerbundels. De vragen kopieer je met één klik,
+      je hoeft geen bladzijde meer te openen. Vink af wat je gedaan hebt; de vinkjes blijven
+      staan als je de pagina later weer opent.</p>
+  </header>
+
+  <div class="teller">
+    <span><span class="getal" id="aantal">0</span> van de 11 gedaan</span>
+    <button type="button" id="wis">begin opnieuw</button>
+  </div>
+
+  <section>
+    <h2><span class="nr">1</span> Hoe het gaat</h2>
+    <ol class="stappen">
+      <li>Ga naar <span class="pad">Beheer</span>, dan <span class="pad">Vakken</span>, en kies de
+        categorie die bij het vak staat.</li>
+      <li>Bestaat het vak nog niet, maak het dan aan onderaan bij
+        <span class="pad">Een vak toevoegen</span>. Je komt meteen in het nieuwe vak terecht.</li>
+      <li>Klik hier op de paarse knop van dat vak. Open dan
+        <span class="pad">Vragen importeren</span>, klik in het grote vak en plak met ctrl+V.
+        Zet <span class="pad">Bestaande vragen vervangen</span> aan als het vak al bestond, en
+        laat het uit bij een gloednieuw vak.</li>
+      <li>Klik daarna op de tweede knop voor de leerbundels. Die zip pak je uit, en de pdf's
+        sleep je in één keer in <span class="pad">Beheer</span>, <span class="pad">Leerstof</span>:
+        het scherm zoekt zelf bij elke pdf het juiste hoofdstuk en zet ze meteen bij deel 1 én
+        deel 2.</li>
+    </ol>
+  </section>
+
+  <section>
+    <h2><span class="nr">2</span> De elf vakken</h2>
+    <div class="vakken"><!--RIJEN--></div>
+  </section>
+
+  <section>
+    <h2><span class="nr">3</span> Twee dingen om op te letten</h2>
+    <div class="let">
+      <p>Laad een vragenbestand nooit twee keer in zonder
+        <b>Bestaande vragen vervangen</b> aan. Zonder dat vinkje komt elke vraag een tweede keer
+        in de databank te staan.</p>
+      <p>Bovenaan Beheer bij Vakken staat een kader met de vakken die helemaal dicht staan, met
+        een knop die overal het eerste hoofdstuk gratis zet. Druk daarop als je klaar bent,
+        anders valt er bij een nieuw vak niets te proeven zonder account.</p>
+    </div>
+  </section>
+
+  <footer>Bijgewerkt op 7 oktober 2026 · Connectopia vzw</footer>
+</main>
+
+<script>
+  (function () {
+    var sleutel = "connectopia-opladen-boost-doorstroom";
+    var opgeslagen = {};
+    try { opgeslagen = JSON.parse(localStorage.getItem("" + sleutel) || "{}") || {}; }
+    catch (e) { opgeslagen = {}; }
+
+    function bewaar() {
+      try { localStorage.setItem(sleutel, JSON.stringify(opgeslagen)); } catch (e) {}
+    }
+
+    var vakken = Array.prototype.slice.call(document.querySelectorAll(".vak[data-sleutel]"));
+    var teller = document.getElementById("aantal");
+
+    function hertel() {
+      var n = vakken.filter(function (v) { return v.classList.contains("af"); }).length;
+      teller.textContent = n;
+    }
+
+    vakken.forEach(function (vak) {
+      var id = vak.dataset.sleutel;
+      var vinkje = vak.querySelector(".vinkje");
+      if (opgeslagen[id]) { vinkje.checked = true; vak.classList.add("af"); }
+      vinkje.addEventListener("change", function () {
+        vak.classList.toggle("af", vinkje.checked);
+        opgeslagen[id] = vinkje.checked;
+        bewaar();
+        hertel();
+      });
+
+      var knop = vak.querySelector(".kopieer");
+      var gelukt = vak.querySelector(".gelukt");
+      var handmatig = vak.querySelector(".handmatig");
+      var bak = vak.querySelector("textarea.bak");
+      var bron = document.getElementById(knop.dataset.bron);
+
+      knop.addEventListener("click", function () {
+        var tekst = bron.textContent;
+        gelukt.hidden = true;
+        handmatig.hidden = true;
+        bak.hidden = true;
+        function mislukt() {
+          handmatig.hidden = false;
+          bak.hidden = false;
+          bak.value = tekst;
+          bak.focus();
+          bak.select();
+        }
+        try {
+          navigator.clipboard.writeText(tekst).then(function () {
+            gelukt.hidden = false;
+            knop.classList.add("klaar");
+          }, mislukt);
+        } catch (e) { mislukt(); }
+      });
+    });
+
+    document.getElementById("wis").addEventListener("click", function () {
+      vakken.forEach(function (vak) {
+        vak.classList.remove("af");
+        vak.querySelector(".vinkje").checked = false;
+        opgeslagen[vak.dataset.sleutel] = false;
+      });
+      bewaar();
+      hertel();
+    });
+
+    hertel();
+  })();
+</script>
