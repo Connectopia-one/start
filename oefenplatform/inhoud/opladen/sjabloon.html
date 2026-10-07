@@ -116,9 +116,11 @@
   .vaknaam { min-width: 0; flex: 1 1 220px; }
   .vaknaam h3 { font-size: 1.25rem; font-weight: 800; margin: 0; text-wrap: balance; }
   .cat { margin: 0; font-size: .8rem; color: var(--inkt-zacht); text-transform: uppercase; letter-spacing: .06em; font-weight: 700; }
-  .etiket { flex: none; border-radius: 999px; padding: 3px 11px; font-size: .75rem; font-weight: 800; text-transform: uppercase; letter-spacing: .05em; }
-  .e-nieuw { background: var(--paars); color: var(--knop-tekst); }
-  .e-kijk { background: var(--paper-diep); color: var(--inkt); border: 1px solid var(--rand-sterk); }
+  .etiket {
+    flex: none; border-radius: 999px; padding: 3px 11px;
+    font-size: .75rem; font-weight: 800; text-transform: uppercase; letter-spacing: .05em;
+    background: var(--oranje); color: var(--knop-tekst);
+  }
   .raad { margin: 10px 0 0; font-size: .92rem; color: var(--inkt-zacht); max-width: 60ch; }
 
   dl.cijfers { display: flex; flex-wrap: wrap; gap: 9px; margin: 14px 0 0; padding: 0; }
@@ -161,59 +163,52 @@
 
 <main>
   <header>
-    <span class="krabbel">alles op één plek</span>
-    <h1>Opladen bij Boost</h1>
-    <p>Elf vakken, elk met zijn vragen en zijn leerbundels. De vragen kopieer je met één klik,
-      je hoeft geen bladzijde meer te openen. Vink af wat je gedaan hebt; de vinkjes blijven
-      staan als je de pagina later weer opent.</p>
+    <span class="krabbel">enkel wat er sinds vanmiddag bij kwam</span>
+    <h1>Nog op te laden</h1>
+    <p>Wat je vanmiddag via de plakpagina gedaan hebt, staat hier niet meer bij. Dit is
+      alleen wat er nadien is bijgekomen: de leerbundels van de vier vakken van dubbele
+      finaliteit, en één vragenbestand met een verbetering erin.</p>
   </header>
 
   <div class="teller">
-    <span><span class="getal" id="aantal">0</span> van de 11 gedaan</span>
+    <span><span class="getal" id="aantal">0</span> van de <!--AANTAL--> gedaan</span>
     <button type="button" id="wis">begin opnieuw</button>
   </div>
 
   <section>
-    <h2><span class="nr">1</span> Hoe het gaat</h2>
-    <ol class="stappen">
-      <li>Ga naar <span class="pad">Beheer</span>, dan <span class="pad">Vakken</span>, en kies de
-        categorie die bij het vak staat.</li>
-      <li>Bestaat het vak nog niet, maak het dan aan onderaan bij
-        <span class="pad">Een vak toevoegen</span>. Je komt meteen in het nieuwe vak terecht.</li>
-      <li>Klik hier op de paarse knop van dat vak. Open dan
-        <span class="pad">Vragen importeren</span>, klik in het grote vak en plak met ctrl+V.
-        Zet <span class="pad">Bestaande vragen vervangen</span> aan als het vak al bestond, en
-        laat het uit bij een gloednieuw vak.</li>
-      <li>Klik daarna op de tweede knop voor de leerbundels. Die zip pak je uit, en de pdf's
-        sleep je in één keer in <span class="pad">Beheer</span>, <span class="pad">Leerstof</span>:
-        het scherm zoekt zelf bij elke pdf het juiste hoofdstuk en zet ze meteen bij deel 1 én
-        deel 2.</li>
-    </ol>
+    <h2><span class="nr">1</span> De leerbundels van vier vakken</h2>
+    <p>Pak de zip uit. Ga dan naar <span class="pad">Beheer</span>,
+      <span class="pad">Leerstof</span>, en sleep de zestien pdf's er in één keer in: het
+      scherm zoekt zelf bij elke pdf het juiste hoofdstuk en zet ze meteen bij deel 1 én
+      deel 2.</p>
+    <div class="vakken"><!--BUNDELS--></div>
   </section>
 
   <section>
-    <h2><span class="nr">2</span> De elf vakken</h2>
-    <div class="vakken"><!--RIJEN--></div>
+    <h2><span class="nr">2</span> Eén vragenbestand opnieuw</h2>
+    <p>Klik op de knop, ga naar <span class="pad">Beheer</span>,
+      <span class="pad">Vakken</span>, open het vak en dan
+      <span class="pad">Vragen importeren</span>, en plak met ctrl+V. Zet hier
+      <span class="pad">Bestaande vragen vervangen</span> wél aan, anders staat elke vraag
+      een tweede keer in de databank.</p>
+    <div class="vakken"><!--VRAGEN--></div>
   </section>
 
   <section>
-    <h2><span class="nr">3</span> Twee dingen om op te letten</h2>
+    <h2><span class="nr">3</span> Eén ding om na te kijken</h2>
     <div class="let">
-      <p>Laad een vragenbestand nooit twee keer in zonder
-        <b>Bestaande vragen vervangen</b> aan. Zonder dat vinkje komt elke vraag een tweede keer
-        in de databank te staan.</p>
-      <p>Bovenaan Beheer bij Vakken staat een kader met de vakken die helemaal dicht staan, met
-        een knop die overal het eerste hoofdstuk gratis zet. Druk daarop als je klaar bent,
-        anders valt er bij een nieuw vak niets te proeven zonder account.</p>
+      <p>De leerbundels van sociale en gedragswetenschappen, kunstbeschouwing en filosofie
+        en wiskunde basis stonden al op de vorige pagina. Heb je die drie al opgeladen? Zo
+        niet, zeg het en ik zet ze er hier bij.</p>
     </div>
   </section>
 
-  <footer>Bijgewerkt op 7 oktober 2026 · Connectopia vzw</footer>
+  <footer>Bijgewerkt op 7 oktober 2026, 19.45 uur · Connectopia vzw</footer>
 </main>
 
 <script>
   (function () {
-    var sleutel = "connectopia-opladen-boost-doorstroom";
+    var sleutel = "connectopia-nog-op-te-laden-7-oktober";
     var opgeslagen = {};
     try { opgeslagen = JSON.parse(localStorage.getItem("" + sleutel) || "{}") || {}; }
     catch (e) { opgeslagen = {}; }
@@ -242,6 +237,7 @@
       });
 
       var knop = vak.querySelector(".kopieer");
+      if (!knop) return;
       var gelukt = vak.querySelector(".gelukt");
       var handmatig = vak.querySelector(".handmatig");
       var bak = vak.querySelector("textarea.bak");
