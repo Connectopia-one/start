@@ -5674,3 +5674,111 @@ def puntenwolk(punten, breedte=400, hoogte=250, xlabel="", ylabel="",
     d.append(_tekst(links - 2, boven - 8, ylabel, 10.5, DIM, "start", True))
     d.append(_tekst(breedte - rechts + 6, hoogte - onder + 31, xlabel, 10.5, DIM, "end", True))
     return _svg(breedte, hoogte, "".join(d))
+
+
+def productiecurven(marginaal, breedte=470, xlabel="aantal werkers"):
+    """De totale en de marginale productie onder elkaar, uit dezelfde reeks.
+
+    `marginaal` is wat elke extra werker erbij brengt. De totale productie is
+    de som daarvan, dus de twee tekeningen kunnen elkaar niet tegenspreken:
+    waar het marginale door nul gaat, ligt het hoogste punt van het totaal.
+    """
+    totaal = []
+    som = 0
+    for m in marginaal:
+        som += m
+        totaal.append(som)
+    n = len(marginaal)
+    links, rechts = 42, 22
+    breed = breedte - links - rechts
+
+    def px(i):
+        return links + (i - 1) / max(n - 1, 1) * breed
+
+    d = []
+
+    def paneel(boven, onder, waarden, kleur, naam, nullijn=False):
+        hoog = max(max(waarden), 1)
+        laag = min(min(waarden), 0)
+        span = hoog - laag
+        def py(v):
+            return onder - (v - laag) / span * (onder - boven)
+        # de as met een getal bij de uiterste waarden
+        d.append(f'<line x1="{links}" y1="{boven-6}" x2="{links}" y2="{onder+2}" '
+                 f'stroke="{INK}" stroke-width="1.6"/>')
+        d.append(f'<line x1="{links}" y1="{py(laag):.1f}" x2="{breedte-rechts+4}" '
+                 f'y2="{py(laag):.1f}" stroke="{INK}" stroke-width="1.6"/>')
+        if nullijn and laag < 0:
+            d.append(f'<line x1="{links}" y1="{py(0):.1f}" x2="{breedte-rechts+4}" '
+                     f'y2="{py(0):.1f}" stroke="{DIM}" stroke-width="1.2" stroke-dasharray="5 4"/>')
+            d.append(_tekst(links - 6, py(0) + 4, "0", 9.5, DIM, "end"))
+        d.append(_tekst(links - 6, py(hoog) + 4, _getal(hoog), 9.5, DIM, "end"))
+        d.append(_tekst(links - 2, boven - 10, naam, 10.5, kleur, "start", True))
+        punten = " ".join(f"{px(i+1):.1f},{py(v):.1f}" for i, v in enumerate(waarden))
+        d.append(f'<polyline points="{punten}" fill="none" stroke="{kleur}" stroke-width="2.2"/>')
+        for i, v in enumerate(waarden):
+            d.append(f'<circle cx="{px(i+1):.1f}" cy="{py(v):.1f}" r="3" fill="{kleur}"/>')
+        return py
+
+    paneel(30, 150, totaal, FOREST, "totale productie")
+    py2 = paneel(196, 300, marginaal, AMBER, "marginale productie", nullijn=True)
+    # het keerpunt: de laatste werker die meer bijbrengt dan de vorige
+    top = max(range(n), key=lambda i: marginaal[i])
+    d.append(f'<line x1="{px(top+1):.1f}" y1="190" x2="{px(top+1):.1f}" y2="306" '
+             f'stroke="{DIM}" stroke-width="1" stroke-dasharray="3 3"/>')
+    d.append(_tekst(px(top + 1), 186, "keerpunt", 9.5, DIM, "middle", True))
+    # de nummers van de werkers onder de onderste tekening
+    for i in range(1, n + 1):
+        d.append(_tekst(px(i), 322, str(i), 9.5, DIM))
+    d.append(_tekst(breedte - rechts + 4, 338, xlabel, 10.5, DIM, "end", True))
+    return _svg(breedte, 344, "".join(d))
+
+
+def organogram(afdelingen, breedte=470, staf=None):
+    """Een organogram met drie niveaus: de leiding boven, de afdelingen onder.
+
+    De verticale lijnen zijn gezagslijnen. Geef `staf` mee en die komt er met
+    een stippellijn naast te hangen: hij adviseert, hij beslist niet.
+    """
+    hoogte = 206
+    d = []
+    midden = breedte / 2
+
+    def vak(x, y, b, h, tekst, kleur=FOREST, stip=False):
+        s = ' stroke-dasharray="5 4"' if stip else ""
+        d.append(f'<rect x="{x:.1f}" y="{y}" width="{b:.1f}" height="{h}" fill="{PAPER}" '
+                 f'stroke="{kleur}" stroke-width="1.8" rx="5"{s}/>')
+        for i, regel in enumerate(tekst.split("|")):
+            d.append(_tekst(x + b / 2, y + h / 2 + 4 + (i - (len(tekst.split("|")) - 1) / 2) * 12,
+                            regel.strip(), 10, INK if not stip else DIM, "middle", i == 0))
+
+    # de leiding
+    top_b, top_h = 150, 34
+    vak(midden - top_b / 2, 14, top_b, top_h, "directie")
+    # de staf ernaast, met een stippellijn
+    if staf:
+        staf_b = 108
+        staf_x = midden + top_b / 2 + 40
+        vak(staf_x, 20, staf_b, 24, staf, DIM, True)
+        d.append(f'<line x1="{midden + top_b/2:.1f}" y1="32" x2="{staf_x:.1f}" y2="32" '
+                 f'stroke="{DIM}" stroke-width="1.4" stroke-dasharray="5 4"/>')
+        d.append(_tekst(midden + top_b / 2 + 20, 26, "advies", 9, DIM, "middle"))
+    # de balk waar de gezagslijnen aan hangen
+    marge = 14
+    n = len(afdelingen)
+    vak_b = (breedte - 2 * marge - (n - 1) * 10) / n
+    balk_y = 86
+    d.append(f'<line x1="{midden:.1f}" y1="{14 + top_h}" x2="{midden:.1f}" y2="{balk_y}" '
+             f'stroke="{INK}" stroke-width="1.6"/>')
+    eerste = marge + vak_b / 2
+    laatste = marge + (n - 1) * (vak_b + 10) + vak_b / 2
+    d.append(f'<line x1="{eerste:.1f}" y1="{balk_y}" x2="{laatste:.1f}" y2="{balk_y}" '
+             f'stroke="{INK}" stroke-width="1.6"/>')
+    for i, naam in enumerate(afdelingen):
+        x = marge + i * (vak_b + 10)
+        d.append(f'<line x1="{x + vak_b/2:.1f}" y1="{balk_y}" x2="{x + vak_b/2:.1f}" y2="112" '
+                 f'stroke="{INK}" stroke-width="1.6"/>')
+        vak(x, 112, vak_b, 48, naam)
+    d.append(_tekst(marge, 184, "de volle lijn is een gezagslijn, de stippellijn een adviesrelatie",
+                    9.5, DIM, "start"))
+    return _svg(breedte, hoogte, "".join(d))

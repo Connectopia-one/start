@@ -67,6 +67,16 @@ def hoekgroepen_bij_evenwijdigen():
     return groepen, samen
 
 
+# economie en bedrijfswetenschappen: de productie- en de kostenreeks
+MARG = [2, 5, 7, 8, 6, 4, 2, 0, -3]
+TOT = [sum(MARG[: i + 1]) for i in range(len(MARG))]
+
+
+def TKOST(q):
+    """De totale kosten uit het kostenhoofdstuk: 1200 + 4q + 0,0075q²."""
+    return 1200 + 4 * q + F(75, 10000) * q * q
+
+
 CONTROLES = [
     # (waar het staat, wat de bundel beweert, hoe je het narekent)
 
@@ -786,6 +796,64 @@ CONTROLES = [
     ("te rekenblad: =SOM(A1:A5) telt 5 cellen",     5,          len(range(1, 6))),
     # afdrukken
     ("te afdrukken: 20 bladzijden op 10 bladen",    10,         F(20, 2)),
+
+    # ─────────────────────────────── economie en bedrijfswetenschappen
+    # bedrijfskolom: elke schakel voegt verkoopprijs min inkoopprijs toe
+    ("eb kolom: de maalderij voegt 0,25 toe",       F(25, 100),  F(55, 100) - F(30, 100)),
+    ("eb kolom: de bakker voegt 1,05 toe",          F(105, 100), F(160, 100) - F(55, 100)),
+    ("eb kolom: de winkel voegt 1,20 toe",          F(120, 100), F(280, 100) - F(160, 100)),
+    ("eb kolom: alle toegevoegde waarden samen 2,80", F(280, 100),
+     F(30, 100) + F(25, 100) + F(105, 100) + F(120, 100)),
+    # productie: de totale productie is de som van de marginale
+    ("eb productie: eerste werker brengt er 2 bij", 2,          MARG[0]),
+    ("eb productie: vierde werker brengt er 8 bij", 8,          MARG[3]),
+    ("eb productie: zevende werker brengt er 2 bij", 2,         MARG[6]),
+    ("eb productie: achtste brengt er niets bij",   0,          MARG[7]),
+    ("eb productie: het totaal klimt tot 34",       34,         max(TOT)),
+    ("eb productie: 34 bij zeven werkers",          34,         TOT[6]),
+    ("eb productie: en nog 34 bij acht werkers",    34,         TOT[7]),
+    ("eb productie: met de negende zakt het naar 31", 31,       TOT[8]),
+    ("eb productie: de vierde brengt het meeste bij", 4,        MARG.index(max(MARG)) + 1),
+    # kosten: TK = 1200 + 4q + 0,0075q²
+    ("eb kosten: GCK is 6 euro bij 200 stuks",      6,          F(1200, 200)),
+    ("eb kosten: GCK is 2 euro bij 600 stuks",      2,          F(1200, 600)),
+    ("eb kosten: TK is 2 300 bij 200 stuks",        2300,       TKOST(200)),
+    ("eb kosten: TK is 3 075 bij 300 stuks",        3075,       TKOST(300)),
+    ("eb kosten: TK is 4 000 bij 400 stuks",        4000,       TKOST(400)),
+    ("eb kosten: TK is 5 075 bij 500 stuks",        5075,       TKOST(500)),
+    ("eb kosten: TK is 6 300 bij 600 stuks",        6300,       TKOST(600)),
+    ("eb kosten: GK is 11,50 bij 200 stuks",        F(1150, 100), TKOST(200) / 200),
+    ("eb kosten: GK is 10,25 bij 300 stuks",        F(1025, 100), TKOST(300) / 300),
+    ("eb kosten: GK is 10,00 bij 400 stuks",        10,         TKOST(400) / 400),
+    ("eb kosten: GK is 10,15 bij 500 stuks",        F(1015, 100), TKOST(500) / 500),
+    ("eb kosten: GK is 10,50 bij 600 stuks",        F(1050, 100), TKOST(600) / 600),
+    ("eb kosten: 400 stuks is het laagste gemiddelde", 400,
+     min(range(100, 801), key=lambda q: TKOST(q) / q)),
+    ("eb kosten: het 401ste stuk kost ongeveer 10 euro", 10,
+     round(float(TKOST(401) - TKOST(400)))),
+    # opbrengsten: prijs 13 euro, TO = 13q, winst = TO - TK
+    ("eb winst: TO is 5 200 bij 400 stuks",         5200,       13 * 400),
+    ("eb winst: TO is 7 800 bij 600 stuks",         7800,       13 * 600),
+    ("eb winst: TO is 10 400 bij 800 stuks",        10400,      13 * 800),
+    ("eb winst: winst 1 200 bij 400 stuks",         1200,       13 * 400 - TKOST(400)),
+    ("eb winst: winst 1 425 bij 500 stuks",         1425,       13 * 500 - TKOST(500)),
+    ("eb winst: winst 1 500 bij 600 stuks",         1500,       13 * 600 - TKOST(600)),
+    ("eb winst: winst 1 425 bij 700 stuks",         1425,       13 * 700 - TKOST(700)),
+    ("eb winst: winst 1 200 bij 800 stuks",         1200,       13 * 800 - TKOST(800)),
+    ("eb winst: TK is 7 675 bij 700 stuks",         7675,       TKOST(700)),
+    ("eb winst: TK is 9 200 bij 800 stuks",         9200,       TKOST(800)),
+    ("eb winst: 600 stuks geeft de hoogste winst",  600,
+     max(range(100, 1201), key=lambda q: 13 * q - TKOST(q))),
+    ("eb winst: het 601ste stuk kost ongeveer 13 euro", 13,
+     round(float(TKOST(601) - TKOST(600)))),
+    ("eb winst: bij 16 euro is het optimum 800 stuks", 800,
+     max(range(100, 1601), key=lambda q: 16 * q - TKOST(q))),
+    # loonberekening: bruto 2 400, RSZ 13,07 %, voorheffing 320 uit de tabel
+    ("eb loon: RSZ van 2 400 is 313,68",            F(31368, 100), 2400 * F(1307, 10000)),
+    ("eb loon: belastbaar loon 2 086,32",           F(208632, 100), 2400 - 2400 * F(1307, 10000)),
+    ("eb loon: nettoloon 1 766,32",                 F(176632, 100),
+     2400 - 2400 * F(1307, 10000) - 320),
+    ("eb loon: loonkost met een kwart erbij is 3 000", 3000,      2400 + F(2400, 4)),
 ]
 
 
