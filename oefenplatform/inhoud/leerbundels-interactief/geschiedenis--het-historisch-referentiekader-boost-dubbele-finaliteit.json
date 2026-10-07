@@ -95,7 +95,19 @@
    "blokken": [
     {
      "soort": "tekst",
-     "html": "Bij de ruimte horen begrippen als <strong>lokaal</strong>, <strong>regionaal</strong>, <strong>nationaal</strong>, <strong>continentaal</strong> en <strong>mondiaal</strong>, en daarnaast <strong>maritiem</strong>, <strong>ruraal</strong> en <strong>stedelijk</strong>, <strong>westers</strong> en <strong>niet-westers</strong> en de aanduiding van een <strong>wereldstreek</strong>. <strong>Mondiaal</strong> is het <strong>ruimtebegrip</strong> dat je gebruikt voor iets dat de hele wereld raakt, <strong>ruraal</strong> betekent <strong>op het platteland</strong>, en <strong>revolutie</strong> hoort hier níét bij: dat is een begrip van de tijd."
+     "html": "De <strong>ruimtebegrippen</strong> vallen in twee rijtjes uiteen. Het eerste gaat over de schaal: hoe groot is het gebied waarover je spreekt?"
+    },
+    {
+     "soort": "kader",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">begrip</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">waarover het gaat</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>lokaal</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">één plaats: een dorp, een stad, een slagveld</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>regionaal</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een streek of een gewest</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>nationaal</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een heel land</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>continentaal</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een werelddeel</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>mondiaal</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>iets dat de hele wereld raakt</strong></td></tr></table>"
+    },
+    {
+     "soort": "tekst",
+     "html": "Het tweede rijtje zegt niet hoe groot een gebied is, maar wat voor gebied het is: <strong>maritiem</strong> (aan zee), <strong>ruraal</strong> (<strong>op het platteland</strong>) en <strong>stedelijk</strong>, <strong>westers</strong> en <strong>niet-westers</strong>, en de aanduiding van een <strong>wereldstreek</strong>."
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Revolutie</strong> hoort hier níét bij: dat is een begrip van de tijd, geen ruimtebegrip. Let daarop, want het staat vaak tussen de ruimtebegrippen in een vraag."
     },
     {
      "soort": "tekst",

@@ -95,7 +95,11 @@
    "blokken": [
     {
      "soort": "tekst",
-     "html": "Tot de <strong>non-verbale communicatie</strong> rekent de fiche: <strong>lichaamstaal</strong>, <strong>mimiek</strong>, <strong>oogcontact</strong>, <strong>houding</strong>, <strong>afstand</strong> en <strong>bewegingen</strong>; <strong>intonatie</strong>, <strong>articulatie</strong>, <strong>tempo</strong> en <strong>volume</strong>; <strong>kleding en uiterlijk</strong>; en op een scherm zelfs <strong>emoji's</strong>. Spelling hoort er niet bij: dat is verbaal."
+     "html": "Tot de <strong>non-verbale communicatie</strong> rekent de fiche vier groepen signalen. Spelling hoort er niet bij: dat is verbaal."
+    },
+    {
+     "soort": "kader",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">groep</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">wat ertoe hoort</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">wat je lichaam doet</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>lichaamstaal</strong>, <strong>mimiek</strong>, <strong>oogcontact</strong>, <strong>houding</strong>, <strong>afstand</strong> en <strong>bewegingen</strong></td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">hoe je stem klinkt</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>intonatie</strong>, <strong>articulatie</strong>, <strong>tempo</strong> en <strong>volume</strong></td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">hoe je eruitziet</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>kleding en uiterlijk</strong></td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">op een scherm</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">zelfs <strong>emoji's</strong></td></tr></table>"
     },
     {
      "soort": "tekst",

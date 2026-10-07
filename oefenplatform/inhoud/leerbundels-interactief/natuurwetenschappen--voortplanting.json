@@ -66,7 +66,11 @@
     {
      "soort": "figuur",
      "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">mannelijk</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">vrouwelijk</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">teelballen: maken de zaadcellen</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">eierstokken: hierin rijpen de eicellen</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">bijballen: de zaadcellen rijpen er verder</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">eileiders met eitrechters: vangen de eicel op</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">zaadleiders: brengen ze naar de urinebuis</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">baarmoeder en baarmoederhals</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">prostaat en zaadblaasjes: maken het vocht</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">vagina</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">penis met eikel, voorhuid en zwellichamen; balzak</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">clitoris en schaamlippen</td></tr></table>",
-     "onderschrift": "Sperma is het mengsel van zaadcellen en het vocht van de prostaat en de zaadblaasjes; dat vocht voedt en beschermt de zaadcellen."
+     "onderschrift": "De onderdelen van het mannelijke en het vrouwelijke voortplantingsstelsel, naast elkaar."
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Sperma</strong> is het mengsel van <strong>zaadcellen</strong> en het vocht van de <strong>prostaat</strong> en de <strong>zaadblaasjes</strong>. Dat vocht is er niet voor niets: het <strong>voedt en beschermt de zaadcellen</strong> op hun weg."
     },
     {
      "soort": "tekst",

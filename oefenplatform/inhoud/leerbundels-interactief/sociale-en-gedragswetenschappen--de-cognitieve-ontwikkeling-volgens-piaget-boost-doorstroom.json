@@ -1,0 +1,151 @@
+{
+ "vak": "Sociale en gedragswetenschappen",
+ "titel": "De cognitieve ontwikkeling volgens Piaget",
+ "onder": "De vier stadia waarin het denken zich volgens Piaget ontwikkelt, met de kenmerken en de denkfouten van elk stadium.",
+ "secties": [
+  {
+   "kop": "Vier stadia",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Piaget onderscheidt <strong>vier</strong> stadia in de cognitieve ontwikkeling. Ze komen altijd in dezelfde orde, en elk stadium bouwt op het vorige. (Kohlberg, die je verderop tegenkomt, had er drie — verwar de twee niet.)"
+    },
+    {
+     "soort": "kader",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">stadium</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">ongeveer</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">het denken</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>sensomotorisch</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">0 tot 2 jaar</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">met de zintuigen en de bewegingen</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>pre-operationeel</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">2 tot 7 jaar</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">met symbolen, maar nog niet logisch</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>concreet-operationeel</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">7 tot 12 jaar</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">logisch, over dingen die je kan zien</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>formeel-operationeel</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">vanaf 12 jaar</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">logisch, ook over wat je niet ziet</td></tr></table>"
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Het sensomotorisch stadium komt eerst</strong>, en het <strong>formeel-operationeel stadium is het laatste</strong>. Formeel betekent daar dat de vorm van het denken losstaat van de inhoud."
+    }
+   ]
+  },
+  {
+   "kop": "Het sensomotorisch stadium: denken met zintuigen en bewegingen",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Van de geboorte tot ongeveer twee jaar denkt het kind met wat het ziet, hoort, voelt en doet. Drie kenmerken horen bij dit stadium: <strong>objectpermanentie</strong>, <strong>persoonspermanentie</strong> en <strong>intentioneel handelen</strong>. Hypothetisch denken hoort er niet bij; dat komt pas in het laatste stadium."
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Objectpermanentie</strong> is het weten dat iets blijft bestaan als je het niet ziet. Rond acht maanden gaat een baby zoeken naar een bal die onder een doek verdween; daarvoor niet. Een <strong>baby die niet zoekt naar een speeltje dat je wegstopt, mist die objectpermanentie</strong> nog: wat hij niet ziet, bestaat voor hem niet."
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Persoonspermanentie</strong> is hetzelfde, maar voor mensen: het kind weet dat <strong>mama blijft bestaan</strong> als ze de kamer uit is. Daarom begint de scheidingsangst net rond die tijd: het kind weet dat mama ergens is, maar niet hier."
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Intentioneel handelen</strong> is iets doen met een doel. Een <strong>baby die een rammelaar schudt om het geluid te horen</strong>, handelt intentioneel. Dat hoort bij het einde van dit stadium."
+    }
+   ]
+  },
+  {
+   "kop": "Het pre-operationeel stadium: symbolen, maar nog geen logica",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Het <strong>pre-operationeel</strong> stadium hoort bij de kleutertijd, ongeveer twee tot zeven jaar. Piaget noemt het zo omdat <strong>het logisch rekenen nog niet komt</strong>: operaties zijn logische bewerkingen in het hoofd, en die komen pas in het volgende stadium."
+    },
+    {
+     "soort": "tekst",
+     "html": "Wat er wel is, is het <strong>symbolisch denken</strong>: één ding staat voor een ander. Een <strong>kleuter die een stok als zwaard gebruikt</strong>, denkt symbolisch. Datzelfde vermogen maakt taal en doen-alsof-spel mogelijk."
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Fantasie en werkelijkheid zijn voor een kleuter niet altijd duidelijk gescheiden.</strong> Een kleuter kan echt bang zijn van een monster onder het bed, en dat hoort gewoon bij dit stadium."
+    }
+   ]
+  },
+  {
+   "kop": "De denkfouten van de kleutertijd",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Bij het pre-operationeel stadium horen een paar typische denkfouten: <strong>animisme</strong>, <strong>centratie</strong> en <strong>magisch denken</strong>. Abstract denken staat niet in dat rijtje: dat is geen fout, en het komt pas in het laatste stadium."
+    },
+    {
+     "soort": "kader",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">denkfout</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">wat ze is</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">voorbeeld</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>animisme</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">levenloze dingen gevoelens geven</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>de zon is boos</strong>, de pop heeft pijn, de auto is moe</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>magisch denken</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een verband leggen dat er niet is</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>het regent omdat ik stout was</strong></td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>centratie</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">op één kenmerk letten en de rest vergeten</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">bij <strong>twee glazen water alleen naar de hoogte kijken</strong></td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>egocentrisme</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">alleen het eigen standpunt kunnen innemen</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">hij denkt dat jij ziet wat hij ziet</td></tr></table>"
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Egocentrisme betekent bij Piaget niet dat een kleuter egoïstisch is.</strong> Het is geen karaktertrek maar een denkgrens: hij kan zich nog niet voorstellen hoe iets er van jouw plaats uitziet."
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Niet-reversibel denken</strong> betekent dat een kind <strong>een bewerking niet kan terugdraaien</strong> in zijn hoofd. Een kleuter die het water terug overgiet, begrijpt niet dat het dan weer gelijk is."
+    },
+    {
+     "soort": "tekst",
+     "html": "De <strong>conservatienotie</strong> is het <strong>weten dat de hoeveelheid blijft</strong> als de vorm verandert. Een kleuter heeft die notie nog niet: rol je <strong>een bol klei uit tot een worst</strong>, dan zegt hij dat er nu meer klei is. Het is de klassieke proef van Piaget — dezelfde klei, een andere vorm, en toch denkt hij meer."
+    }
+   ]
+  },
+  {
+   "kop": "Het concreet-operationeel stadium: logica met dingen erbij",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Het <strong>concreet-operationeel</strong> stadium hoort bij de lagereschoolkindfase, ongeveer zeven tot twaalf jaar. Het kind denkt nu logisch, maar nog over dingen die het kan zien of vastnemen."
+    },
+    {
+     "soort": "tekst",
+     "html": "Kenmerkend zijn <strong>seriatie</strong>, <strong>classificatie</strong> en <strong>reversibel denken</strong>. Magisch denken hoort niet in dat rijtje; dat is van de kleutertijd."
+    },
+    {
+     "soort": "kader",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">begrip</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">wat het is</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>seriatie</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>op grootte sorteren</strong>: stokjes van klein naar groot leggen</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>classificatie</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">verdelen in groepen volgens een kenmerk: alle rode blokken samen</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>reversibel denken</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een bewerking in gedachten terugdraaien: wie weet dat 3 + 4 = 7, weet ook dat 7 − 4 = 3</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>decentreren</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>op meer kenmerken letten</strong>, het tegengestelde van centratie: nu ziet het kind de hoogte én de breedte</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>transitieve interferentie</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">uit twee vergelijkingen de derde afleiden</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>perspectief nemen</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">kunnen uitleggen hoe iemand anders iets ziet</td></tr></table>"
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Transitieve interferentie</strong> herken je aan dit soort redenering: An is groter dan Bo, Bo is groter dan Cis, dus An is groter dan Cis — zonder An en Cis naast elkaar te zetten. En een <strong>kind dat kan uitleggen hoe zijn zus de kamer ziet</strong>, neemt perspectief: het egocentrisme van de kleutertijd is voorbij."
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Aandacht voor de begin- en de eindtoestand hoort bij dit stadium</strong>, niet bij het pre-operationele. Een kleuter ziet alleen hoe het nu is; een lagereschoolkind kan de weg ernaartoe meedenken."
+    },
+    {
+     "soort": "tekst",
+     "html": "De grens van dit stadium zit in het woord <em>concreet</em>. Een <strong>kind van negen kan nog moeilijk denken over iets dat het nooit zag</strong>: een stelling als <em>stel dat de zwaartekracht wegvalt</em> lukt nog niet. En een <strong>kind van elf dat breuken begrijpt met stukken pizza maar niet zonder</strong>, zit nog in het <strong>concreet-operationeel</strong> stadium: de logica werkt, maar ze heeft een concreet beeld nodig. Daarom werkt materiaal zo goed in de lagere school."
+    }
+   ]
+  },
+  {
+   "kop": "Het formeel-operationeel stadium: denken los van wat er ligt",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Vanaf ongeveer twaalf jaar, in de adolescentie, komt het <strong>formeel-operationeel</strong> stadium. Kenmerkend zijn <strong>abstract denken</strong>, <strong>logisch redeneren</strong> en <strong>experimenteel denken</strong>. Objectpermanentie hoort daar niet bij: dat is van een baby."
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Abstract denken</strong> is <strong>denken zonder iets te zien</strong>: over rechtvaardigheid, over x in een vergelijking, over een land dat je nooit bezocht. <strong>Hypothetisch denken is denken in als-dan</strong>: stel dat ik dit verander, wat gebeurt er dan. Precies dat heb je nodig om een proef op te zetten."
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Experimenteel denken</strong> zie je bij een <strong>adolescent die een proef opzet met één factor die hij verandert</strong>. Alles gelijk houden en één ding veranderen is de kern van wetenschappelijk werken."
+    },
+    {
+     "soort": "weetje",
+     "html": "Een <strong>adolescent kan over de toekomst piekeren en een kleuter niet</strong>, omdat <strong>hij denkt over wat nog niet is</strong>. Hypothetisch denken opent de toekomst, en dus ook de zorgen erover."
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Niet iedereen bereikt dit stadium volledig</strong>, en zeker niet in elk domein. In een vak dat je niet kent, denk je vaak nog concreet."
+    }
+   ]
+  },
+  {
+   "kop": "Waarom die stadia nuttig zijn",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "De fiche geeft er één reden voor: <strong>je weet wat een kind aankan</strong>. Wie weet in welk stadium een kind denkt, kan zijn uitleg daarop afstemmen. Kinderen met elkaar vergelijken is uitdrukkelijk niet het doel."
+    }
+   ]
+  }
+ ],
+ "onthoud": []
+}

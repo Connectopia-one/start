@@ -78,7 +78,11 @@
     {
      "soort": "figuur",
      "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">menselijke laag</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">wat je ziet</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>bebouwing</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">de huizen en gebouwen zelf, en hoe dicht ze bij elkaar staan</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>lijninfrastructuur</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een autosnelweg, een spoorlijn, een hoogspanningsleiding</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>nutsvoorzieningen</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">leidingen en kabels voor water, gas en stroom</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>ontginning</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">grondstoffen uit de bodem of ondergrond halen</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>recreatie en toerisme</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een camping, een skipiste, een provinciaal domein met wandelpaden</td></tr></table>",
-     "onderschrift": "Een woongebied en de bebouwing erin zijn niet precies hetzelfde: het woongebied is het gebied, de bebouwing is wat erin staat."
+     "onderschrift": "De menselijke lagen die de vakfiche noemt, met waaraan je ze op het terrein herkent."
+    },
+    {
+     "soort": "tekst",
+     "html": "Let op één woordenpaar dat makkelijk door elkaar loopt: een <strong>woongebied</strong> en de <strong>bebouwing</strong> erin zijn niet precies hetzelfde. Het woongebied is <strong>het gebied</strong>, de bebouwing is <strong>wat erin staat</strong>."
     },
     {
      "soort": "tekst",

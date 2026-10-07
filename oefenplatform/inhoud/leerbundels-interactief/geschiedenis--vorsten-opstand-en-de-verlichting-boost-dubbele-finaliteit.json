@@ -120,7 +120,15 @@
     },
     {
      "soort": "tekst",
-     "html": "Bij de wetenschappelijke ideeën horen het <strong>empirisme</strong>, dat van de <strong>waarneming</strong> vertrekt, en het <strong>rationalisme</strong>, dat van het <strong>redeneren</strong> vertrekt. Allebei verwerpen ze het argument van het gezag alleen. Het <strong>vooruitgangsoptimisme</strong> is het geloof dat kennis en rede de samenleving beter kunnen maken."
+     "html": "Bij de wetenschappelijke ideeën horen drie begrippen die je uit elkaar moet kunnen houden."
+    },
+    {
+     "soort": "kader",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">begrip</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">waar het van vertrekt</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>empirisme</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">van de <strong>waarneming</strong>: eerst kijken en meten, dan besluiten</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>rationalisme</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">van het <strong>redeneren</strong>: met de rede tot een besluit komen</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>vooruitgangsoptimisme</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">van het geloof dat kennis en rede de samenleving beter kunnen maken</td></tr></table>"
+    },
+    {
+     "soort": "tekst",
+     "html": "Empirisme en rationalisme verschillen dus in hun vertrekpunt, maar ze komen op één punt overeen: allebei verwerpen ze het argument van het gezag alleen. Dat iets waar is omdat een hooggeplaatst iemand het zegt, geldt voor geen van beide."
     }
    ]
   },

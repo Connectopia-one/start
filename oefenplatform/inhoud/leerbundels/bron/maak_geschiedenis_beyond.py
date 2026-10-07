@@ -196,12 +196,15 @@ BUNDELS["restauratie-revolutie-en-het-ontstaan-van-belgie-beyond"] = dict(
                   "waarbij <strong>alleen wie genoeg belasting betaalt mag stemmen</strong>, heet "
                   "<strong>cijnskiesrecht</strong> of censuskiesrecht."),
             ("p", "In het 19de-eeuwse <strong>nationalisme</strong> is een <strong>natie</strong> "
-                  "<strong>een groep met een gedeelde taal, cultuur en geschiedenis</strong>. "
-                  "<strong>Verbindend nationalisme</strong> wil <strong>losse staten van hetzelfde volk "
-                  "samenbrengen</strong>, zoals in Italië en Duitsland. <strong>Ontbindend "
-                  "nationalisme</strong> wil zich net losmaken uit een groter geheel: de <strong>Belgische "
-                  "afscheiding van Nederland</strong>, de <strong>Griekse opstand tegen het Ottomaanse "
-                  "Rijk</strong> en de <strong>Poolse opstand tegen Rusland</strong>."),
+                  "<strong>een groep met een gedeelde taal, cultuur en geschiedenis</strong>. Dat "
+                  "nationalisme werkt in twee richtingen, en die twee moet je uit elkaar kunnen houden."),
+            ("kader", tabel(["vorm", "wat ze wil", "voorbeelden"],
+                            [["<strong>verbindend nationalisme</strong>",
+                              "<strong>losse staten van hetzelfde volk samenbrengen</strong>",
+                              "de eenmaking van Italië en van Duitsland"],
+                             ["<strong>ontbindend nationalisme</strong>",
+                              "zich losmaken uit een groter geheel",
+                              "de <strong>Belgische afscheiding van Nederland</strong>, de <strong>Griekse opstand tegen het Ottomaanse Rijk</strong>, de <strong>Poolse opstand tegen Rusland</strong>"]])),
             ("p", "<strong>Liberalisme en nationalisme gingen in de 19de eeuw vaak hand in hand</strong> "
                   "tegen de orde van Wenen in: allebei keerden ze zich tegen vorsten die zonder grondwet en "
                   "zonder het volk regeerden."),

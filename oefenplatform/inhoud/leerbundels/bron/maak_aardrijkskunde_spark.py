@@ -302,8 +302,11 @@ BUNDELS["de-lagen-van-een-landschap"] = dict(
                 ["<strong>nutsvoorzieningen</strong>", "leidingen en kabels voor water, gas en stroom"],
                 ["<strong>ontginning</strong>", "grondstoffen uit de bodem of ondergrond halen"],
                 ["<strong>recreatie en toerisme</strong>", "een camping, een skipiste, een provinciaal domein met wandelpaden"],
-            ]), "Een woongebied en de bebouwing erin zijn niet precies hetzelfde: het woongebied is het gebied, "
-                "de bebouwing is wat erin staat."),
+            ]), "De menselijke lagen die de vakfiche noemt, met waaraan je ze op het terrein herkent."),
+            ("p", "Let op één woordenpaar dat makkelijk door elkaar loopt: een "
+                  "<strong>woongebied</strong> en de <strong>bebouwing</strong> erin zijn niet precies "
+                  "hetzelfde. Het woongebied is <strong>het gebied</strong>, de bebouwing is "
+                  "<strong>wat erin staat</strong>."),
             ("p", "Met de <strong>verspreiding</strong> van de bebouwing bedoelen we of de huizen dicht bijeen "
                   "of verspreid staan. Staan er langs een gewestweg huizen in één rij aan beide kanten, "
                   "kilometers ver, dan heet dat <strong>lintbebouwing</strong>."),
@@ -474,9 +477,11 @@ BUNDELS["de-aarde-beweegt-en-slijt"] = dict(
             ("p", "De aardkorst is geen geheel stuk: ze bestaat uit <strong>platen</strong> die traag bewegen. "
                   "Een <strong>aardbeving</strong> ontstaat door een <strong>plotse beweging</strong> van die "
                   "stukken aardkorst. Een scheur waarlangs ze bewegen heet een <strong>breuklijn</strong>."),
-            ("fig", svg.aardbeving(), "De beving begint in de diepte, in de haard. Het punt op het aardoppervlak "
-                                      "recht daarboven heet het <strong>epicentrum</strong>; daar is de schade "
-                                      "meestal het grootst."),
+            ("p", "Een beving begint niet aan de oppervlakte maar in de diepte, op de plek waar de "
+                  "aardkorst schiet. Die plek heet de <strong>haard</strong>. Het punt op het "
+                  "aardoppervlak recht daarboven heet het <strong>epicentrum</strong>, en daar is de "
+                  "schade meestal het grootst."),
+            ("fig", svg.aardbeving(), "De haard in de diepte, het epicentrum er recht boven."),
             ("p", "Het toestel dat de trillingen opmeet en optekent, heet een <strong>seismograaf</strong>. "
                   "Een aardbeving duurt meestal maar <strong>enkele seconden</strong>, ze komt vaker voor "
                   "<strong>langs de randen van platen</strong>, en ze kan gebouwen doen instorten. Ook in "
@@ -491,9 +496,11 @@ BUNDELS["de-aarde-beweegt-en-slijt"] = dict(
             ("p", "Ligt er op een ochtend een laag grijze as over de velden en de daken, dan is er in de buurt "
                   "een <strong>vulkaan uitgebarsten</strong>. Bij een uitbarsting komen "
                   "<strong>lava</strong>, <strong>as</strong> en <strong>gassen</strong> naar buiten."),
-            ("fig", svg.vulkaan(), "Onder de grond heet het gesmolten gesteente <strong>magma</strong>. Komt het "
-                                   "naar buiten, dan noemen we het <strong>lava</strong>. De trechtervormige "
-                                   "opening bovenaan heet de <strong>krater</strong>."),
+            ("p", "Hetzelfde gesmolten gesteente heeft twee namen, en welke je gebruikt, hangt af van "
+                  "waar het zit. Onder de grond heet het <strong>magma</strong>; komt het naar buiten, dan "
+                  "noemen we het <strong>lava</strong>. De trechtervormige opening bovenaan de berg, waar "
+                  "het uit komt, heet de <strong>krater</strong>."),
+            ("fig", svg.vulkaan(), "Een doorsnede van een vulkaan, met het magma, de lava en de krater."),
             ("p", "Op korte termijn is een uitbarsting een ramp: huizen en akkers verdwijnen onder lava en as, "
                   "mensen moeten hun dorp in allerijl verlaten, en de lucht raakt gevuld met as en gassen. Op "
                   "lange termijn is er ook een keerzijde: de bodem wordt er "

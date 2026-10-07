@@ -436,13 +436,18 @@ BUNDELS["bronnen-wegen-objectief-gekleurd-of-nep-boost-doorstroom"] = dict(
             ("p", "De talige middelen om subjectiviteit uit te drukken zijn <strong>beeldspraak</strong>, de "
                   "<strong>connotatie</strong> van woorden en <strong>modaliteit</strong>. De bladspiegel hoort "
                   "daar niet bij, dat is vormgeving."),
-            ("p", "<strong>Connotatie</strong> is de gevoelswaarde die aan een woord kleeft naast zijn "
-                  "letterlijke betekenis: 'goedkoop' en 'voordelig' betekenen hetzelfde, maar het eerste klinkt "
-                  "negatiever. Een <strong>eufemisme</strong> verzacht ('prijsaanpassing' voor "
-                  "'prijsverhoging'), een <strong>dysfemisme</strong> doet het omgekeerde ('belastinggeld "
-                  "verkwisten' voor 'overheidsuitgaven'). In een kop kleuren woorden als "
-                  "<em>schandalig</em>, <em>eindelijk</em> en <em>zogenaamd</em> het bericht; <em>dinsdag</em> "
-                  "is gewoon een gegeven."),
+            ("p", "Drie begrippen zeggen hoe een woord kleurt. Ze staan los van wat het woord "
+                  "letterlijk betekent."),
+            ("kader", tabel(["begrip", "wat het doet", "voorbeeld"],
+                            [["<strong>connotatie</strong>",
+                              "de gevoelswaarde die aan een woord kleeft naast zijn letterlijke betekenis",
+                              "'goedkoop' en 'voordelig' betekenen hetzelfde, maar het eerste klinkt negatiever"],
+                             ["<strong>eufemisme</strong>", "verzacht",
+                              "'prijsaanpassing' voor 'prijsverhoging'"],
+                             ["<strong>dysfemisme</strong>", "verscherpt, het omgekeerde dus",
+                              "'belastinggeld verkwisten' voor 'overheidsuitgaven'"]])),
+            ("p", "In een kop kleuren woorden als <em>schandalig</em>, <em>eindelijk</em> en "
+                  "<em>zogenaamd</em> het bericht; <em>dinsdag</em> is gewoon een gegeven."),
             ("p", "<strong>Modaliteit</strong> zit in kleine woordjes. <em>'Zwijg eens even!'</em> komt anders "
                   "over dan <em>'Zwijg!'</em>: het woordje <em>eens</em> maakt het bevel zachter, zonder de "
                   "inhoud te veranderen. Zulke woordjes heten <strong>modale partikels</strong>."),
@@ -543,12 +548,15 @@ BUNDELS["standaardtaal-tussentaal-en-register-boost-doorstroom"] = dict(
                   "strak formele standaardtaal."),
         ]),
         dict(kop="Non-verbale communicatie", blokken=[
-            ("p", "Tot de <strong>non-verbale communicatie</strong> rekent de fiche: "
-                  "<strong>lichaamstaal</strong>, <strong>mimiek</strong>, <strong>oogcontact</strong>, "
-                  "<strong>houding</strong>, <strong>afstand</strong> en <strong>bewegingen</strong>; "
-                  "<strong>intonatie</strong>, <strong>articulatie</strong>, <strong>tempo</strong> en "
-                  "<strong>volume</strong>; <strong>kleding en uiterlijk</strong>; en op een scherm zelfs "
-                  "<strong>emoji's</strong>. Spelling hoort er niet bij: dat is verbaal."),
+            ("p", "Tot de <strong>non-verbale communicatie</strong> rekent de fiche vier groepen "
+                  "signalen. Spelling hoort er niet bij: dat is verbaal."),
+            ("kader", tabel(["groep", "wat ertoe hoort"],
+                            [["wat je lichaam doet",
+                              "<strong>lichaamstaal</strong>, <strong>mimiek</strong>, <strong>oogcontact</strong>, <strong>houding</strong>, <strong>afstand</strong> en <strong>bewegingen</strong>"],
+                             ["hoe je stem klinkt",
+                              "<strong>intonatie</strong>, <strong>articulatie</strong>, <strong>tempo</strong> en <strong>volume</strong>"],
+                             ["hoe je eruitziet", "<strong>kleding en uiterlijk</strong>"],
+                             ["op een scherm", "zelfs <strong>emoji's</strong>"]])),
             ("p", "Die signalen zijn <strong>cultuurgebonden</strong>. Ze hebben geen vaste betekenis; ze "
                   "krijgen die van de cultuur waarin je ze gebruikt. In sommige culturen is je ogen neerslaan "
                   "een teken van respect, terwijl kinderen in de Vlaamse cultuur net leren dat ze hun "

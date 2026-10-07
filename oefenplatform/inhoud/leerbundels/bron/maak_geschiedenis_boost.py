@@ -137,14 +137,20 @@ BUNDELS["het-historisch-referentiekader-boost-doorstroom"] = dict(
                   "andere niet."),
         ]),
         dict(kop="Structuurbegrippen van de ruimte", blokken=[
-            ("p", "Bij de ruimte horen begrippen als <strong>lokaal</strong>, <strong>regionaal</strong>, "
-                  "<strong>nationaal</strong>, <strong>continentaal</strong> en <strong>mondiaal</strong>, "
-                  "en daarnaast <strong>maritiem</strong>, <strong>ruraal</strong> en "
-                  "<strong>stedelijk</strong>, <strong>westers</strong> en <strong>niet-westers</strong> en "
-                  "de aanduiding van een <strong>wereldstreek</strong>. <strong>Mondiaal</strong> is het <strong>ruimtebegrip</strong> "
-                  "dat je gebruikt voor iets dat de hele wereld raakt, <strong>ruraal</strong> betekent <strong>op het "
-                  "platteland</strong>, en <strong>revolutie</strong> hoort hier níét bij: dat is een begrip "
-                  "van de tijd."),
+            ("p", "De <strong>ruimtebegrippen</strong> vallen in twee rijtjes uiteen. Het eerste "
+                  "gaat over de schaal: hoe groot is het gebied waarover je spreekt?"),
+            ("kader", tabel(["begrip", "waarover het gaat"],
+                            [["<strong>lokaal</strong>", "één plaats: een dorp, een stad, een slagveld"],
+                             ["<strong>regionaal</strong>", "een streek of een gewest"],
+                             ["<strong>nationaal</strong>", "een heel land"],
+                             ["<strong>continentaal</strong>", "een werelddeel"],
+                             ["<strong>mondiaal</strong>", "<strong>iets dat de hele wereld raakt</strong>"]])),
+            ("p", "Het tweede rijtje zegt niet hoe groot een gebied is, maar wat voor gebied het is: "
+                  "<strong>maritiem</strong> (aan zee), <strong>ruraal</strong> (<strong>op het "
+                  "platteland</strong>) en <strong>stedelijk</strong>, <strong>westers</strong> en "
+                  "<strong>niet-westers</strong>, en de aanduiding van een <strong>wereldstreek</strong>."),
+            ("p", "<strong>Revolutie</strong> hoort hier níét bij: dat is een begrip van de tijd, geen "
+                  "ruimtebegrip. Let daarop, want het staat vaak tussen de ruimtebegrippen in een vraag."),
             ("p", "<strong>Westers</strong> verwijst niet louter naar een <strong>windstreek</strong> op de "
                   "kaart. Het slaat op een groep samenlevingen met een gedeelde geschiedenis, en waar die "
                   "groep precies ophoudt, is zelf een discussie. Hetzelfde geldt voor niet-westers: dat is "
@@ -1068,11 +1074,15 @@ BUNDELS["vorsten-opstand-en-de-verlichting-boost-doorstroom"] = dict(
             ("p", "Een <strong>grondwet</strong> is de tekst waarin de grondregels en de macht van een staat "
                   "vastgelegd zijn. Ze staat boven de gewone wetten. Het <strong>weerstandsrecht</strong> is "
                   "het recht om je te <strong>verzetten tegen een bestuur dat je rechten schendt</strong>."),
-            ("p", "Bij de wetenschappelijke ideeën horen het <strong>empirisme</strong>, dat van de "
-                  "<strong>waarneming</strong> vertrekt, en het <strong>rationalisme</strong>, dat van het "
-                  "<strong>redeneren</strong> vertrekt. Allebei verwerpen ze het argument van het gezag "
-                  "alleen. Het <strong>vooruitgangsoptimisme</strong> is het geloof dat kennis en rede de "
-                  "samenleving beter kunnen maken."),
+            ("p", "Bij de wetenschappelijke ideeën horen drie begrippen die je uit elkaar moet kunnen "
+                  "houden."),
+            ("kader", tabel(["begrip", "waar het van vertrekt"],
+                            [["<strong>empirisme</strong>", "van de <strong>waarneming</strong>: eerst kijken en meten, dan besluiten"],
+                             ["<strong>rationalisme</strong>", "van het <strong>redeneren</strong>: met de rede tot een besluit komen"],
+                             ["<strong>vooruitgangsoptimisme</strong>", "van het geloof dat kennis en rede de samenleving beter kunnen maken"]])),
+            ("p", "Empirisme en rationalisme verschillen dus in hun vertrekpunt, maar ze komen op één punt "
+                  "overeen: allebei verwerpen ze het argument van het gezag alleen. Dat iets waar is omdat "
+                  "een hooggeplaatst iemand het zegt, geldt voor geen van beide."),
         ]),
         dict(kop="Die ideeën vandaag", blokken=[
             ("p", "In de <strong>Belgische grondwet</strong> herken je de <strong>scheiding der "

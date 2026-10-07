@@ -436,7 +436,10 @@ BUNDELS["voortplanting"] = dict(
                 ["zaadleiders: brengen ze naar de urinebuis", "baarmoeder en baarmoederhals"],
                 ["prostaat en zaadblaasjes: maken het vocht", "vagina"],
                 ["penis met eikel, voorhuid en zwellichamen; balzak", "clitoris en schaamlippen"],
-            ]), "Sperma is het mengsel van zaadcellen en het vocht van de prostaat en de zaadblaasjes; dat vocht voedt en beschermt de zaadcellen."),
+            ]), "De onderdelen van het mannelijke en het vrouwelijke voortplantingsstelsel, naast elkaar."),
+            ("p", "<strong>Sperma</strong> is het mengsel van <strong>zaadcellen</strong> en het vocht "
+                  "van de <strong>prostaat</strong> en de <strong>zaadblaasjes</strong>. Dat vocht is er "
+                  "niet voor niets: het <strong>voedt en beschermt de zaadcellen</strong> op hun weg."),
             ("p", "De <strong>primaire geslachtskenmerken</strong> zijn de geslachtsorganen zelf, waarmee "
                   "je geboren wordt. De <strong>secundaire geslachtskenmerken</strong> komen er in de "
                   "puberteit bij, door de <strong>geslachtshormonen</strong>: schaamhaar, een zwaardere "
@@ -550,8 +553,13 @@ BUNDELS["ecologie-en-biodiversiteit"] = dict(
                   "betekent 'wordt gegeten door', dus hij wijst in de richting waarin de energie stroomt. "
                   "In het echt eet een dier meestal van verschillende soorten; al die ketens samen vormen "
                   "een <strong>voedselweb</strong>."),
+            ("p", "Zet je die lagen op elkaar, dan krijg je de <strong>voedselpiramide</strong>. Elke "
+                  "laag is smaller dan de laag eronder, en dat heeft een reden: bij elke stap "
+                  "<strong>gaat er energie verloren als warmte</strong>. Wat overblijft, kan dus maar een "
+                  "kleinere laag boven zich voeden. Daarom zijn er altijd veel meer planten dan "
+                  "planteneters, en veel meer planteneters dan roofdieren."),
             ("fig", svg.voedselpiramide(),
-             "Deze voorstelling heet de voedselpiramide: elke laag wordt smaller naar boven toe. Bij elke stap gaat er energie verloren als warmte, dus kan elke laag maar een kleinere laag boven zich voeden."),
+             "De voedselpiramide: elke laag wordt smaller naar boven toe."),
             ("p", "De <strong>voedselkringloop</strong> toont nog iets anders: stoffen draaien rond. "
                   "Planten nemen voedingsstoffen op, dieren eten, alles sterft, reducenten breken het af en "
                   "de voedingsstoffen komen weer in de bodem. <strong>Energie</strong> daarentegen stroomt "

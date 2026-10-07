@@ -37,7 +37,11 @@
     },
     {
      "soort": "tekst",
-     "html": "In het 19de-eeuwse <strong>nationalisme</strong> is een <strong>natie</strong> <strong>een groep met een gedeelde taal, cultuur en geschiedenis</strong>. <strong>Verbindend nationalisme</strong> wil <strong>losse staten van hetzelfde volk samenbrengen</strong>, zoals in Italië en Duitsland. <strong>Ontbindend nationalisme</strong> wil zich net losmaken uit een groter geheel: de <strong>Belgische afscheiding van Nederland</strong>, de <strong>Griekse opstand tegen het Ottomaanse Rijk</strong> en de <strong>Poolse opstand tegen Rusland</strong>."
+     "html": "In het 19de-eeuwse <strong>nationalisme</strong> is een <strong>natie</strong> <strong>een groep met een gedeelde taal, cultuur en geschiedenis</strong>. Dat nationalisme werkt in twee richtingen, en die twee moet je uit elkaar kunnen houden."
+    },
+    {
+     "soort": "kader",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">vorm</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">wat ze wil</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">voorbeelden</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>verbindend nationalisme</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>losse staten van hetzelfde volk samenbrengen</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">de eenmaking van Italië en van Duitsland</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>ontbindend nationalisme</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">zich losmaken uit een groter geheel</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">de <strong>Belgische afscheiding van Nederland</strong>, de <strong>Griekse opstand tegen het Ottomaanse Rijk</strong>, de <strong>Poolse opstand tegen Rusland</strong></td></tr></table>"
     },
     {
      "soort": "tekst",

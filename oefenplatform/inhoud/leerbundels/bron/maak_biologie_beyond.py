@@ -572,17 +572,24 @@ BUNDELS["immunisatie-bloedgroepen-en-falende-afweer-beyond"] = dict(
                   "je <strong>kant-en-klare antilichamen van buitenaf krijgt</strong>; die "
                   "<strong>bescherming werkt onmiddellijk</strong>."),
             ("p", "Daarnaast is ze <strong>natuurlijk</strong> of <strong>kunstmatig</strong>. "
-                  "<strong>Natuurlijk actief</strong> is <strong>de ziekte doormaken</strong>, "
-                  "bijvoorbeeld <strong>mazelen</strong>; <strong>kunstmatig actief</strong> is "
-                  "<strong>een vaccin krijgen</strong>, dus <strong>vaccinatie</strong>, "
-                  "<strong>inenting</strong> of <strong>vaccineren</strong>. <strong>Natuurlijk "
-                  "passief</strong> is <strong>antilichamen via de placenta of de "
-                  "moedermelk</strong>, <strong>kunstmatig passief</strong> is <strong>een "
-                  "inspuiting met antilichamen</strong>, bijvoorbeeld bij wie "
-                  "<strong>gebeten</strong> is en meteen antilichamen "
-                  "<strong>ingespoten</strong> krijgt. De bescherming die een baby via "
-                  "<strong>borstvoeding</strong> krijgt, <strong>verdwijnt na een "
-                  "tijd</strong>."),
+                  "Kruis je dat met actief en passief, dan krijg je vier vormen, elk met zijn "
+                  "eigen voorbeeld."),
+            ("kader", tabel(["vorm", "wat er gebeurt", "voorbeeld"],
+                            [["<strong>natuurlijk actief</strong>",
+                              "<strong>de ziekte doormaken</strong>",
+                              "<strong>mazelen</strong> krijgen en er weerstand aan overhouden"],
+                             ["<strong>kunstmatig actief</strong>",
+                              "<strong>een vaccin krijgen</strong>",
+                              "<strong>vaccinatie</strong>, <strong>inenting</strong> of <strong>vaccineren</strong>"],
+                             ["<strong>natuurlijk passief</strong>",
+                              "<strong>antilichamen via de placenta of de moedermelk</strong>",
+                              "een baby die via <strong>borstvoeding</strong> beschermd is"],
+                             ["<strong>kunstmatig passief</strong>",
+                              "<strong>een inspuiting met antilichamen</strong>",
+                              "wie <strong>gebeten</strong> is en meteen antilichamen <strong>ingespoten</strong> krijgt"]])),
+            ("p", "De bescherming die een baby via <strong>borstvoeding</strong> krijgt, "
+                  "<strong>verdwijnt na een tijd</strong>: ze is passief, dus het lichaam van "
+                  "de baby maakt zelf niets aan."),
             ("p", "Een <strong>vaccin</strong> bevat verzwakte of dode ziekteverwekkers of "
                   "alleen een stukje ervan, dus <strong>nooit levende, volledig besmettelijke "
                   "verwekkers</strong>, zodat je <strong>geheugencellen aanmaakt zonder ziek te "
@@ -1938,17 +1945,24 @@ BUNDELS["selectie-soortvorming-en-de-menswording-beyond"] = dict(
                   "scheiden ze zich <strong>door een verschil in gedrag, leefplek of "
                   "bloeitijd</strong>."),
             ("p", "<strong>Prezygotische</strong> isolatie werkt vóór de bevruchting, "
-                  "<strong>postzygotische</strong> erna. Kwaken twee kikkersoorten in hetzelfde "
-                  "<strong>moeras</strong> verschillend, zodat ze niet <strong>paren</strong>, "
-                  "dan is dat <strong>ethologische of gedragsisolatie</strong>. Bloeien twee "
-                  "<strong>plantensoorten</strong> in een ander deel van het jaar, dan is dat "
-                  "<strong>temporele isolatie</strong>. Bewonen twee soorten in hetzelfde "
-                  "gebied een andere leefplek of <strong>habitat</strong>, dan is dat "
-                  "<strong>ecologische isolatie</strong> of <strong>habitatisolatie</strong>. "
-                  "Kan een zaadcel de eicel van de andere soort niet bevruchten, dan is dat "
-                  "<strong>gametische isolatie</strong> of <strong>gameetisolatie</strong>. Een "
-                  "<strong>muildier</strong>, dat zelf onvruchtbaar is, is een voorbeeld van "
-                  "isolatie ná de bevruchting."),
+                  "<strong>postzygotische</strong> erna. De prezygotische vormen onderscheid je "
+                  "aan wat precies de paring of de bevruchting tegenhoudt."),
+            ("kader", tabel(["vorm", "wat de twee soorten scheidt", "voorbeeld"],
+                            [["<strong>ethologische of gedragsisolatie</strong>",
+                              "het gedrag: ze herkennen elkaar niet als partner",
+                              "twee kikkersoorten in hetzelfde <strong>moeras</strong> kwaken verschillend, zodat ze niet <strong>paren</strong>"],
+                             ["<strong>temporele isolatie</strong>",
+                              "de tijd: ze zijn niet tegelijk vruchtbaar",
+                              "twee <strong>plantensoorten</strong> bloeien in een ander deel van het jaar"],
+                             ["<strong>ecologische isolatie</strong> of <strong>habitatisolatie</strong>",
+                              "de plek: ze bewonen een ander <strong>habitat</strong> binnen hetzelfde gebied",
+                              "de ene soort leeft in de boomtoppen, de andere op de grond"],
+                             ["<strong>gametische isolatie</strong> of <strong>gameetisolatie</strong>",
+                              "de geslachtscellen zelf passen niet",
+                              "een zaadcel kan de eicel van de andere soort niet bevruchten"]])),
+            ("p", "Postzygotische isolatie werkt pas ná de bevruchting: er komt wel een "
+                  "nakomeling, maar die zet de lijn niet voort. Een <strong>muildier</strong>, "
+                  "dat zelf onvruchtbaar is, is daar het bekendste voorbeeld van."),
         ]),
         dict(kop="De menswording", blokken=[
             ("p", "De hele groep mensachtigen, <strong>waartoe ook de uitgestorven soorten "
