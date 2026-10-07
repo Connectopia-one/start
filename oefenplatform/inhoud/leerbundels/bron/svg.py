@@ -5782,3 +5782,432 @@ def organogram(afdelingen, breedte=470, staf=None):
     d.append(_tekst(marge, 184, "de volle lijn is een gezagslijn, de stippellijn een adviesrelatie",
                     9.5, DIM, "start"))
     return _svg(breedte, hoogte, "".join(d))
+
+
+# ---------------------------------------------------------------------------
+# 🚀 Boost dubbele finaliteit — gezondheid, zorg en welzijn
+# ---------------------------------------------------------------------------
+
+def oogdoorsnede(breedte=470):
+    """Een doorsnede van het oog, van het hoornvlies vooraan tot de oogzenuw
+    achteraan. Het licht komt van links binnen."""
+    hoogte = 250
+    cx, cy, r = 232, 118, 88
+    d = []
+    # de oogbol
+    d.append(f'<circle cx="{cx}" cy="{cy}" r="{r}" fill="{PAPER}" stroke="{INK}" stroke-width="1.8"/>')
+    # het netvlies: de binnenste laag achteraan
+    d.append(f'<path d="M{cx} {cy-r+6} A {r-6} {r-6} 0 0 0 {cx} {cy+r-6}" fill="none" '
+             f'stroke="{FOREST}" stroke-width="4"/>')
+    # het hoornvlies vooraan, als een bolling naar links
+    d.append(f'<path d="M{cx-r+14} {cy-34} A 40 40 0 0 0 {cx-r+14} {cy+34}" fill="none" '
+             f'stroke="{AMBER}" stroke-width="3.4"/>')
+    # de iris met de pupil ertussen
+    for teken in (-1, 1):
+        d.append(f'<line x1="{cx-r+16}" y1="{cy+teken*34}" x2="{cx-r+22}" y2="{cy+teken*13}" '
+                 f'stroke="{INK}" stroke-width="4"/>')
+    # de lens
+    d.append(f'<ellipse cx="{cx-r+34}" cy="{cy}" rx="11" ry="26" fill="{FOREST}" '
+             f'fill-opacity="0.18" stroke="{FOREST}" stroke-width="1.8"/>')
+    # het licht dat binnenvalt
+    for y in (cy - 16, cy, cy + 16):
+        d.append(f'<line x1="14" y1="{y}" x2="{cx-r+10}" y2="{cy}" stroke="{AMBER}" '
+                 f'stroke-width="1.2" stroke-dasharray="5 4"/>')
+    d.append(_tekst(16, cy - 26, "licht", 10, AMBER, "start", True))
+    # de oogzenuw achteraan
+    d.append(f'<path d="M{cx+r-4} {cy} q 30 0 46 18" fill="none" stroke="{DIM}" stroke-width="7"/>')
+    # de labels, elk met een streepje naar zijn plaats
+    def wijs(tx, ty, px, py, naam, anker="start"):
+        d.append(f'<line x1="{tx if anker=="start" else tx}" y1="{ty+3}" x2="{px}" y2="{py}" '
+                 f'stroke="{DIM}" stroke-width="1" stroke-dasharray="3 3"/>')
+        d.append(_tekst(tx, ty, naam, 10, INK, anker, True))
+    wijs(cx - r - 46, cy - 60, cx - r + 16, cy - 30, "hoornvlies")
+    wijs(cx - r - 30, cy + 74, cx - r + 18, cy + 24, "iris")
+    wijs(cx - 46, cy + 92, cx - r + 34, cy + 26, "lens")
+    wijs(cx + 18, cy - 100, cx + r - 12, cy - 44, "netvlies")
+    wijs(cx + r + 6, cy + 62, cx + r + 30, cy + 14, "oogzenuw")
+    wijs(cx - r - 54, cy + 10, cx - r + 18, cy + 2, "pupil")
+    d.append(_tekst(16, hoogte - 10,
+                    "het beeld valt omgekeerd op het netvlies; de hersenen zetten het recht",
+                    9.5, DIM, "start"))
+    return _svg(breedte, hoogte, "".join(d))
+
+
+def oordoorsnede(breedte=470):
+    """Het oor in zijn drie delen, met de weg van het geluid erdoor."""
+    hoogte = 218
+    d = []
+    for x, b, naam in ((10, 150, "buitenoor"), (160, 120, "middenoor"),
+                       (280, 180, "binnenoor")):
+        d.append(f'<rect x="{x}" y="28" width="{b}" height="130" fill="{PAPER}" '
+                 f'stroke="{BORDER}" stroke-width="1.4" rx="6"/>')
+        d.append(_tekst(x + b / 2, 20, naam, 10.5, FOREST, "middle", True))
+    # de oorschelp en de gehoorgang
+    d.append('<path d="M30 76 q 34 -34 54 0 q 10 22 -14 32 q -18 6 -22 -6" fill="none" '
+             f'stroke="{INK}" stroke-width="2"/>')
+    d.append(f'<line x1="84" y1="98" x2="160" y2="98" stroke="{INK}" stroke-width="2"/>')
+    d.append(f'<line x1="84" y1="78" x2="160" y2="78" stroke="{INK}" stroke-width="2"/>')
+    d.append(_tekst(28, 140, "oorschelp en gehoorgang", 9, DIM, "start"))
+    # het trommelvel tussen buiten- en middenoor
+    d.append(f'<line x1="161" y1="68" x2="161" y2="108" stroke="{AMBER}" stroke-width="3.4"/>')
+    d.append(_tekst(161, 60, "trommelvel", 9, AMBER, "middle", True))
+    # de drie gehoorbeentjes, met hun namen onder elkaar
+    for i, naam in enumerate(("hamer", "aambeeld", "stijgbeugel")):
+        x = 180 + i * 30
+        d.append(f'<rect x="{x}" y="76" width="21" height="16" rx="4" fill="{FOREST}" '
+                 f'fill-opacity="0.22" stroke="{FOREST}" stroke-width="1.4"/>')
+        d.append(_tekst(168, 116 + i * 13, f"\u2022 {naam}", 9, DIM, "start"))
+    # het slakkenhuis en de gehoorzenuw
+    d.append(f'<path d="M332 92 a 28 28 0 1 1 -2 -13 a 19 19 0 1 0 -6 9 a 10 10 0 1 0 8 -4" '
+             f'fill="none" stroke="{FOREST}" stroke-width="3"/>')
+    d.append(_tekst(322, 140, "slakkenhuis en evenwichtsorgaan", 9, FOREST, "middle", True))
+    d.append(f'<path d="M360 100 q 28 10 40 24" fill="none" stroke="{DIM}" stroke-width="5"/>')
+    d.append(_tekst(412, 142, "gehoorzenuw", 9, DIM, "middle"))
+    # de buis van Eustachius naar de keel
+    d.append(f'<path d="M198 100 q 8 46 -46 62" fill="none" stroke="{DIM}" stroke-width="2" '
+             f'stroke-dasharray="5 4"/>')
+    d.append(_tekst(150, 180, "buis van Eustachius, naar de keel", 9, DIM, "middle"))
+    d.append(_tekst(10, hoogte - 8,
+                    "het geluid gaat van links naar rechts: trilling, versterking, impuls",
+                    9.5, DIM, "start"))
+    return _svg(breedte, hoogte, "".join(d))
+
+
+def huidlagen(breedte=470):
+    """De drie lagen van de huid, met wat er in elke laag thuishoort."""
+    hoogte = 214
+    lagen = [("opperhuid", 20, 40, "de buitenste laag, zonder bloedvaten"),
+             ("lederhuid", 60, 76, "receptoren, bloedvaten en klieren"),
+             ("onderhuids vetweefsel", 136, 54, "isoleert en vangt stoten op")]
+    d = []
+    for naam, y, h, uitleg in lagen:
+        d.append(f'<rect x="12" y="{y}" width="260" height="{h}" fill="{FOREST}" '
+                 f'fill-opacity="{0.08 if naam == "opperhuid" else 0.16}" stroke="{FOREST}" '
+                 f'stroke-width="1.6"/>')
+        d.append(_tekst(280, y + 16, naam, 10.5, INK, "start", True))
+        for i, regel in enumerate(_regels(uitleg, 36)):
+            d.append(_tekst(280, y + 30 + i * 12, regel, 9, DIM, "start"))
+    # een zweetklier met haar kanaal naar buiten
+    d.append(f'<circle cx="80" cy="118" r="10" fill="{PAPER}" stroke="{AMBER}" stroke-width="1.8"/>')
+    d.append(f'<path d="M80 108 q 4 -36 -6 -48" fill="none" stroke="{AMBER}" stroke-width="1.8"/>')
+    d.append(_tekst(96, 122, "zweetklier", 8.5, AMBER, "start"))
+    # een bloedvat
+    d.append(f'<path d="M150 70 q 20 30 0 60" fill="none" stroke="{INK}" stroke-width="2.4"/>')
+    d.append(_tekst(160, 100, "bloedvat", 8.5, DIM, "start"))
+    # een receptor met zijn zenuw
+    d.append(f'<circle cx="222" cy="96" r="7" fill="{FOREST}"/>')
+    d.append(f'<line x1="222" y1="103" x2="222" y2="130" stroke="{FOREST}" stroke-width="1.8"/>')
+    d.append(_tekst(236, 100, "receptor", 8.5, FOREST, "start"))
+    d.append(_tekst(12, hoogte - 8, "van buiten naar binnen: opperhuid, lederhuid, vetweefsel",
+                    9.5, DIM, "start"))
+    return _svg(breedte, hoogte, "".join(d))
+
+
+def neuron(breedte=470):
+    """Een zenuwcel: dendrieten, cellichaam, axon met myelineschede en de
+    eindknoppen die aan de synaps komen."""
+    hoogte = 176
+    y = 84
+    d = []
+    # de dendrieten links
+    for hoek in (-34, -12, 12, 34):
+        import math
+        dx, dy = 44 * math.cos(math.radians(180 + hoek)), 44 * math.sin(math.radians(180 + hoek))
+        d.append(f'<line x1="86" y1="{y}" x2="{86+dx:.1f}" y2="{y+dy:.1f}" stroke="{FOREST}" '
+                 f'stroke-width="2.4" stroke-linecap="round"/>')
+    # het cellichaam met zijn kern
+    d.append(f'<circle cx="94" cy="{y}" r="24" fill="{FOREST}" fill-opacity="0.18" '
+             f'stroke="{FOREST}" stroke-width="2"/>')
+    d.append(f'<circle cx="94" cy="{y}" r="8" fill="{FOREST}"/>')
+    # het axon met de myelineschede in stukken, met knopen ertussen
+    d.append(f'<line x1="118" y1="{y}" x2="382" y2="{y}" stroke="{INK}" stroke-width="3"/>')
+    for i in range(5):
+        x = 130 + i * 50
+        d.append(f'<rect x="{x}" y="{y-11}" width="38" height="22" rx="11" fill="{AMBER}" '
+                 f'fill-opacity="0.26" stroke="{AMBER}" stroke-width="1.6"/>')
+    # de eindknoppen rechts
+    for dy in (-20, 0, 20):
+        d.append(f'<line x1="382" y1="{y}" x2="410" y2="{y+dy}" stroke="{INK}" stroke-width="2.2"/>')
+        d.append(f'<circle cx="414" cy="{y+dy}" r="6" fill="{INK}"/>')
+    # de labels
+    for tx, ty, px, py, naam, anker in (
+            (36, 28, 60, y - 26, "dendrieten", "start"),
+            (94, 150, 94, y + 26, "cellichaam", "middle"),
+            (232, 150, 232, y + 13, "axon", "middle"),
+            (300, 28, 300, y - 13, "myelineschede", "middle"),
+            (174, 36, 174, y - 6, "knoop van Ranvier", "middle"),
+            (420, 150, 414, y + 26, "eindknoppen", "end")):
+        d.append(f'<line x1="{tx if anker != "end" else tx - 50}" y1="{ty + (4 if ty < y else -10)}" '
+                 f'x2="{px}" y2="{py}" stroke="{DIM}" stroke-width="1" stroke-dasharray="3 3"/>')
+        d.append(_tekst(tx, ty, naam, 10, INK, anker, True))
+    d.append(_tekst(10, hoogte - 6,
+                    "de impuls loopt van links naar rechts en springt van knoop naar knoop",
+                    9.5, DIM, "start"))
+    return _svg(breedte, hoogte, "".join(d))
+
+
+def icfschema(breedte=470):
+    """Het ICF-schema: de gezondheidstoestand in drie delen, met het ik en de
+    omgeving eronder. De pijlen lopen in twee richtingen, want de drie
+    beïnvloeden elkaar."""
+    hoogte = 232
+    d = []
+    marge = 14
+    d.append(_tekst(breedte / 2, 18, "gezondheidstoestand", 11, FOREST, "middle", True))
+    delen = [("lichaam", "hoe werkt het lichaam?"),
+             ("doen", "wat doet iemand zelf?"),
+             ("samen", "doet iemand mee?")]
+    b = (breedte - 2 * marge - 2 * 10) / 3
+    for i, (naam, vraag) in enumerate(delen):
+        x = marge + i * (b + 10)
+        d.append(f'<rect x="{x:.1f}" y="28" width="{b:.1f}" height="54" fill="{FOREST}" '
+                 f'fill-opacity="0.12" stroke="{FOREST}" stroke-width="1.8" rx="6"/>')
+        d.append(_tekst(x + b / 2, 50, naam, 11, INK, "middle", True))
+        for j, regel in enumerate(_regels(vraag, int((b - 12) / 4.8))):
+            d.append(_tekst(x + b / 2, 66 + j * 11, regel, 9, DIM))
+    # het ik en de omgeving eronder
+    onder = [("het ik", "persoonlijke factoren: leeftijd, geslacht, karakter, achtergrond"),
+             ("de omgeving", "externe factoren: de woning, het gezin, de school, de buurt")]
+    b2 = (breedte - 2 * marge - 14) / 2
+    for i, (naam, uitleg) in enumerate(onder):
+        x = marge + i * (b2 + 14)
+        d.append(f'<rect x="{x:.1f}" y="140" width="{b2:.1f}" height="62" fill="{PAPER}" '
+                 f'stroke="{AMBER}" stroke-width="1.8" rx="6"/>')
+        d.append(_tekst(x + b2 / 2, 160, naam, 11, INK, "middle", True))
+        for j, regel in enumerate(_regels(uitleg, int((b2 - 14) / 4.8))):
+            d.append(_tekst(x + b2 / 2, 176 + j * 11, regel, 9, DIM))
+        # een pijl in twee richtingen naar de gezondheidstoestand
+        px = x + b2 / 2
+        d.append(f'<line x1="{px:.1f}" y1="92" x2="{px:.1f}" y2="130" stroke="{DIM}" stroke-width="1.6"/>')
+        d.append(f'<path d="M{px:.1f} 86 l-5 9 h10 z" fill="{DIM}"/>')
+        d.append(f'<path d="M{px:.1f} 136 l-5 -9 h10 z" fill="{DIM}"/>')
+    d.append(_tekst(breedte / 2, 118, "ze beïnvloeden elkaar in twee richtingen", 9.5, DIM))
+    d.append(_tekst(marge, hoogte - 6,
+                    "de omgeving kan helpen of hinderen: een lift helpt, een trap hindert",
+                    9.5, DIM, "start"))
+    return _svg(breedte, hoogte, "".join(d))
+
+
+def voedingsdriehoek(breedte=470):
+    """De voedingsdriehoek: op zijn kop, met het breedste deel bovenaan, en de
+    restgroep eronder, buiten de driehoek."""
+    hoogte = 248
+    top_y, punt_y = 24, 184
+    links, rechts = 16, 200
+    d = []
+    banden = [("water, groenten, fruit, granen, noten en peulvruchten", FOREST, 0.0, 0.40),
+              ("vis, eieren, melkproducten en kaas", "#6f8f4a", 0.40, 0.72),
+              ("rood vlees, bewerkt vlees en boter", AMBER, 0.72, 1.0)]
+    h = punt_y - top_y
+    mx = (links + rechts) / 2
+    for naam, kleur, van, tot in banden:
+        y1, y2 = top_y + van * h, top_y + tot * h
+        b1 = (rechts - links) * (1 - van) / 2
+        b2 = (rechts - links) * (1 - tot) / 2
+        d.append(f'<polygon points="{mx-b1:.1f},{y1:.1f} {mx+b1:.1f},{y1:.1f} '
+                 f'{mx+b2:.1f},{y2:.1f} {mx-b2:.1f},{y2:.1f}" fill="{kleur}" fill-opacity="0.22" '
+                 f'stroke="{kleur}" stroke-width="1.6"/>')
+        # het etiket staat naast de driehoek, want onderin is er geen plaats
+        ym = (y1 + y2) / 2
+        d.append(f'<rect x="216" y="{ym-9:.1f}" width="11" height="11" fill="{kleur}" '
+                 f'fill-opacity="0.5" stroke="{kleur}" stroke-width="1.2"/>')
+        for i, regel in enumerate(_regels(naam, 42)):
+            d.append(_tekst(234, ym + i * 12, regel, 9.5, INK, "start"))
+    # de pijl langs de driehoek: hoe lager, hoe minder
+    d.append(f'<line x1="{links-8}" y1="{top_y+4}" x2="{links-8}" y2="{punt_y}" stroke="{DIM}" '
+             f'stroke-width="1.4"/>')
+    d.append(f'<path d="M{links-8} {punt_y+6} l-5 -9 h10 z" fill="{DIM}"/>')
+    d.append(_tekst(links - 14, top_y - 6, "hoe lager, hoe minder", 9.5, DIM, "start", True))
+    # de restgroep, buiten de driehoek
+    d.append(f'<rect x="16" y="196" width="{breedte-32}" height="34" fill="{DIM}" '
+             f'fill-opacity="0.10" stroke="{DIM}" stroke-width="1.4" stroke-dasharray="6 4" rx="6"/>')
+    d.append(_tekst(28, 218, "restgroep", 10.5, INK, "start", True))
+    d.append(_tekst(100, 218, "snoep, frisdrank, alcohol, chips \u2014 staat buiten de driehoek: "
+                              "hoe minder, hoe beter", 9.5, DIM, "start"))
+    d.append(_tekst(16, hoogte - 6,
+                    "meer plantaardig dan dierlijk, en zo weinig mogelijk lege calorie\u00ebn",
+                    9.5, DIM, "start"))
+    return _svg(breedte, hoogte, "".join(d))
+
+
+def ladder(sporten, breedte=470, bovenaan="het best", onderaan="het slechtst"):
+    """Een rangorde als ladder: de beste keuze bovenaan, de slechtste onder.
+
+    `sporten` is de lijst van boven naar onder, elk (naam, uitleg).
+    """
+    rij_h = 36
+    hoogte = len(sporten) * rij_h + 44
+    d = []
+    for i, (naam, uitleg) in enumerate(sporten):
+        y = 26 + i * rij_h
+        d.append(f'<rect x="58" y="{y}" width="{breedte-74}" height="{rij_h-6}" fill="{FOREST}" '
+                 f'fill-opacity="{0.22 - i * 0.03:.2f}" stroke="{FOREST}" stroke-width="1.4" rx="5"/>')
+        d.append(_tekst(70, y + 20, naam, 10.5, INK, "start", True))
+        d.append(_tekst(70 + 9 * len(naam), y + 20, uitleg, 9, DIM, "start"))
+    # de pijl met het oordeel ernaast
+    d.append(f'<line x1="32" y1="30" x2="32" y2="{26 + len(sporten) * rij_h - 6}" stroke="{DIM}" '
+             f'stroke-width="1.6"/>')
+    d.append(f'<path d="M32 24 l-5 9 h10 z" fill="{DIM}"/>')
+    d.append(_tekst(44, 18, bovenaan, 9.5, DIM, "start", True))
+    d.append(_tekst(44, 26 + len(sporten) * rij_h + 8, onderaan, 9.5, DIM, "start", True))
+    return _svg(breedte, hoogte, "".join(d))
+
+
+def koelkastzones(breedte=470):
+    """De zones van een koelkast: onderaan het koudst, in de deur het minst
+    koud. De pijl links loopt mee met de koude lucht die zakt."""
+    hoogte = 250
+    d = []
+    kast_x, kast_b = 52, 236
+    zones = [("bovenaan", "bereide gerechten, restjes in een doos", 26, 48),
+             ("midden", "melkproducten, patisserie, open bokalen", 74, 48),
+             ("onderaan, boven de lade", "het koudst: rauw vlees, gehakt, vis, schaaldieren", 122, 48),
+             ("de groentelade", "groenten en fruit, iets minder koud", 170, 44)]
+    for naam, wat, y, h in zones:
+        kleur = FOREST if "koudst" in wat else DIM
+        d.append(f'<rect x="{kast_x}" y="{y}" width="{kast_b}" height="{h}" fill="{kleur}" '
+                 f'fill-opacity="0.12" stroke="{kleur}" stroke-width="1.4"/>')
+        d.append(_tekst(kast_x + 10, y + 18, naam, 9.5, INK, "start", True))
+        for i, regel in enumerate(_regels(wat, 46)):
+            d.append(_tekst(kast_x + 10, y + 32 + i * 11, regel, 9, DIM, "start"))
+    # de deur, als een smalle strook ernaast
+    d.append(f'<rect x="{kast_x+kast_b+10}" y="26" width="118" height="188" fill="{AMBER}" '
+             f'fill-opacity="0.12" stroke="{AMBER}" stroke-width="1.4"/>')
+    d.append(_tekst(kast_x + kast_b + 20, 44, "de deur", 9.5, INK, "start", True))
+    for i, regel in enumerate(_regels("de minst koude plaats: dranken, sauzen, boter, eieren", 20)):
+        d.append(_tekst(kast_x + kast_b + 20, 60 + i * 11, regel, 9, DIM, "start"))
+    # de pijl: koude lucht zakt
+    d.append(f'<line x1="36" y1="30" x2="36" y2="206" stroke="{FOREST}" stroke-width="1.6"/>')
+    d.append(f'<path d="M36 212 l-5 -9 h10 z" fill="{FOREST}"/>')
+    d.append(_tekst(30, 226, "koude lucht zakt", 9.5, FOREST, "start", True))
+    d.append(_tekst(30, hoogte - 6, "hoe lager, hoe kouder; in de deur is het het minst koud",
+                    9.5, DIM, "start"))
+    return _svg(breedte, hoogte, "".join(d))
+
+
+def gedektetafel(breedte=470):
+    """Een gedekt couvert voor een warme maaltijd, van boven gezien."""
+    hoogte = 218
+    cx, cy = 210, 118
+    d = []
+    # het bord
+    d.append(f'<circle cx="{cx}" cy="{cy}" r="52" fill="{PAPER}" stroke="{INK}" stroke-width="1.8"/>')
+    d.append(f'<circle cx="{cx}" cy="{cy}" r="42" fill="none" stroke="{BORDER}" stroke-width="1.4"/>')
+    # de vork links
+    d.append(f'<line x1="{cx-74}" y1="{cy-26}" x2="{cx-74}" y2="{cy+30}" stroke="{FOREST}" '
+             f'stroke-width="5" stroke-linecap="round"/>')
+    for k in (-5, 0, 5):
+        d.append(f'<line x1="{cx-74+k}" y1="{cy-26}" x2="{cx-74+k}" y2="{cy-10}" stroke="{FOREST}" '
+                 f'stroke-width="1.6"/>')
+    d.append(_tekst(cx - 74, cy + 50, "vork", 10, INK, "middle", True))
+    d.append(_tekst(cx - 74, cy + 64, "links", 9, DIM))
+    # het mes rechts, met de snijkant naar het bord
+    d.append(f'<line x1="{cx+74}" y1="{cy-26}" x2="{cx+74}" y2="{cy+30}" stroke="{AMBER}" '
+             f'stroke-width="5" stroke-linecap="round"/>')
+    d.append(f'<path d="M{cx+71} {cy-26} l0 24" stroke="{INK}" stroke-width="1.6" fill="none"/>')
+    d.append(_tekst(cx + 74, cy + 50, "mes", 10, INK, "middle", True))
+    d.append(_tekst(cx + 74, cy + 64, "rechts, snijkant naar het bord", 9, DIM))
+    # het glas rechtsboven
+    d.append(f'<path d="M{cx+62} {cy-74} h26 l-4 24 h-18 z" fill="{PAPER}" stroke="{INK}" '
+             f'stroke-width="1.6"/>')
+    d.append(f'<line x1="{cx+75}" y1="{cy-50}" x2="{cx+75}" y2="{cy-42}" stroke="{INK}" stroke-width="1.6"/>')
+    d.append(_tekst(cx + 88, cy - 82, "glas, rechtsboven", 9.5, INK, "end", True))
+    # het dessertbestek boven het bord
+    d.append(f'<line x1="{cx-26}" y1="{cy-70}" x2="{cx+26}" y2="{cy-70}" stroke="{DIM}" '
+             f'stroke-width="4" stroke-linecap="round"/>')
+    d.append(_tekst(cx - 36, cy - 80, "dessertbestek, boven het bord", 9.5, DIM, "end"))
+    # het servet links van de vork
+    d.append(f'<rect x="{cx-128}" y="{cy-22}" width="34" height="46" fill="{FOREST}" '
+             f'fill-opacity="0.14" stroke="{FOREST}" stroke-width="1.4" rx="3"/>')
+    d.append(_tekst(cx - 111, cy + 40, "servet", 9.5, INK, "middle", True))
+    d.append(_tekst(16, hoogte - 6, "mes rechts, vork links, glas rechtsboven, dessertbestek boven",
+                    9.5, DIM, "start"))
+    return _svg(breedte, hoogte, "".join(d))
+
+
+def sinnercirkel(breedte=470, delen=None):
+    """De Sinner-cirkel: vier factoren die samen het schoonmaakresultaat
+    bepalen. Geef `delen` mee als vier (naam, aandeel) om te tonen dat een
+    kleiner deel van de ene door een groter deel van de andere opgevuld wordt.
+    """
+    import math
+    delen = delen or [("tijd", 25), ("chemie", 25), ("temperatuur", 25),
+                      ("mechanische handeling", 25)]
+    hoogte = 250
+    cx, cy, r = 150, 120, 92
+    kleuren = [FOREST, AMBER, "#6f8f4a", DIM]
+    d = []
+    totaal = sum(a for _, a in delen) or 1
+    hoek = -90.0
+    for i, (naam, aandeel) in enumerate(delen):
+        span = aandeel / totaal * 360
+        x1 = cx + r * math.cos(math.radians(hoek))
+        y1 = cy + r * math.sin(math.radians(hoek))
+        x2 = cx + r * math.cos(math.radians(hoek + span))
+        y2 = cy + r * math.sin(math.radians(hoek + span))
+        groot = 1 if span > 180 else 0
+        d.append(f'<path d="M{cx} {cy} L{x1:.1f} {y1:.1f} A {r} {r} 0 {groot} 1 {x2:.1f} {y2:.1f} Z" '
+                 f'fill="{kleuren[i]}" fill-opacity="0.22" stroke="{kleuren[i]}" stroke-width="1.8"/>')
+        # het etiket in de legende ernaast, want in een sector past weinig
+        ly = 52 + i * 34
+        d.append(f'<rect x="276" y="{ly-10}" width="12" height="12" fill="{kleuren[i]}" '
+                 f'fill-opacity="0.5" stroke="{kleuren[i]}" stroke-width="1.2"/>')
+        d.append(_tekst(296, ly, naam, 10.5, INK, "start", True))
+        d.append(_tekst(296, ly + 13, f"{aandeel} %", 9.5, DIM, "start"))
+        hoek += span
+    d.append(_tekst(16, hoogte - 6,
+                    "de vier samen zijn altijd het geheel: minder van de ene vraagt meer van een andere",
+                    9.5, DIM, "start"))
+    return _svg(breedte, hoogte, "".join(d))
+
+
+def wassymbolen(breedte=470):
+    """De vijf groepen van het onderhoudsetiket, met een doorstreept symbool
+    erbij om te tonen wat een kruis betekent."""
+    hoogte = 206
+    d = []
+    x0, stap = 34, 86
+
+    def kruis(cx, cy):
+        for teken in (1, -1):
+            d.append(f'<line x1="{cx-22}" y1="{cy-22*teken}" x2="{cx+22}" y2="{cy+22*teken}" '
+                     f'stroke="#b03a2e" stroke-width="2.6"/>')
+
+    def onder(cx, naam, uitleg):
+        d.append(_tekst(cx, 112, naam, 10, INK, "middle", True))
+        for i, regel in enumerate(_regels(uitleg, 16)):
+            d.append(_tekst(cx, 126 + i * 11, regel, 8.5, DIM))
+
+    # 1 wassen: een kuipje met een getal erin
+    cx = x0
+    d.append(f'<path d="M{cx-22} 48 l6 -14 h32 l6 14 a 22 16 0 1 1 -44 0 z" fill="{PAPER}" '
+             f'stroke="{INK}" stroke-width="2"/>')
+    d.append(_tekst(cx, 58, "40", 12, INK, "middle", True))
+    onder(cx, "wassen", "het getal is de hoogste temperatuur")
+    # 2 bleken: een driehoek
+    cx = x0 + stap
+    d.append(f'<polygon points="{cx},30 {cx-24},70 {cx+24},70" fill="{PAPER}" stroke="{INK}" '
+             f'stroke-width="2"/>')
+    onder(cx, "bleken", "met of zonder chloor")
+    # 3 drogen: een vierkant met een cirkel erin
+    cx = x0 + 2 * stap
+    d.append(f'<rect x="{cx-24}" y="26" width="48" height="48" fill="{PAPER}" stroke="{INK}" '
+             f'stroke-width="2"/>')
+    d.append(f'<circle cx="{cx}" cy="50" r="14" fill="none" stroke="{INK}" stroke-width="2"/>')
+    onder(cx, "drogen", "in de droogtrommel of niet")
+    # 4 strijken: een strijkijzer met puntjes
+    cx = x0 + 3 * stap
+    d.append(f'<path d="M{cx-24} 66 h48 l-8 -24 q -4 -10 -14 -10 h-10 q -10 0 -16 10 z" '
+             f'fill="{PAPER}" stroke="{INK}" stroke-width="2"/>')
+    for k in (-8, 0, 8):
+        d.append(f'<circle cx="{cx+k}" cy="56" r="2.4" fill="{INK}"/>')
+    onder(cx, "strijken", "de puntjes geven de hitte")
+    # 5 professionele reiniging: een cirkel, hier doorstreept
+    cx = x0 + 4 * stap
+    d.append(f'<circle cx="{cx}" cy="50" r="24" fill="{PAPER}" stroke="{INK}" stroke-width="2"/>')
+    kruis(cx, 50)
+    onder(cx, "reiniging", "doorstreept: het mag niet")
+    d.append(_tekst(16, hoogte - 6,
+                    "een kruis door een symbool betekent altijd: deze behandeling is verboden",
+                    9.5, DIM, "start"))
+    return _svg(breedte, hoogte, "".join(d))

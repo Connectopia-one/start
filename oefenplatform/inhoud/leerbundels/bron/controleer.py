@@ -78,6 +78,10 @@ def TKOST(q):
 
 
 CONTROLES = [
+    # gezondheid, zorg en welzijn: de Sinner-cirkel blijft altijd het geheel
+    ("sinner gewone was", 100, 25 + 25 + 25 + 25),
+    ("sinner koude was", 100, 40 + 30 + 10 + 20),
+
     # (waar het staat, wat de bundel beweert, hoe je het narekent)
 
     # ── het gratis proefhoofdstuk Rekenen en breuken (23 september 2026)
