@@ -1,0 +1,80 @@
+{
+ "vak": "Kunstbeschouwing en filosofie",
+ "titel": "De kunstvormen",
+ "onder": "De vijf kunstvormen van de vakfiche, waaraan je elk ervan herkent, en hoe je een werk benoemt dat aan meer dan één vorm raakt.",
+ "secties": [
+  {
+   "kop": "Vijf kunstvormen",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "De vakfiche onderscheidt <strong>vijf</strong> kunstvormen. Er is geen rangorde: geen enkele vorm staat boven een andere."
+    },
+    {
+     "soort": "kader",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">kunstvorm</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">wat ertoe hoort</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">voorbeelden</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>architectuur en design</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">wat vormgegeven is én gebruikt wordt</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>een stadhuis uit de zestiende eeuw</strong>, <strong>een woonhuis van een architect</strong>, <strong>een affiche voor een festival</strong>, een stoel van een ontwerper</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>audiovisuele kunsten</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>film</strong>, <strong>fotografie</strong> en <strong>videokunst</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>een kortfilm</strong>, <strong>een fotoreeks</strong>, <strong>een videoinstallatie</strong></td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>beeldende kunsten</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>schilderkunst</strong>, <strong>beeldhouwkunst</strong>, <strong>tekenkunst</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>een olieverfdoek</strong>, <strong>een marmeren buste</strong>, <strong>een houtsnede</strong>, een fresco, een striptekening</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>literatuur</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">de kunstvorm die <strong>met taal</strong> werkt</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">romans, verhalen, <strong>een gedicht</strong>, toneelteksten</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>podiumkunsten</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>dans</strong>, <strong>theater</strong>, <strong>muziek</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>een concert</strong>, <strong>een toneelstuk</strong>, <strong>een dansvoorstelling</strong>, een ballet</td></tr></table>"
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Architectuur staat samen met design als één kunstvorm.</strong> Zo staat het op de fiche, en met reden: beide geven vorm aan iets wat ook gebruikt wordt. Design hoort bij de kunstvormen omdat <strong>het vorm geeft aan voorwerpen</strong>: een stoel of een affiche kan vormgegeven zijn met dezelfde zorg als een schilderij. <strong>Een stoel van een ontwerper valt dus niet buiten de kunstvormen</strong>; of die stoel ook kúnst is, beredeneer je met de criteria."
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Fotografie hoort niet bij de beeldende kunsten</strong> maar bij de audiovisuele, naast film en videokunst. En <strong>videokunst en film zijn niet precies dezelfde zaak</strong>: ze staan als aparte onderdelen binnen dezelfde kunstvorm, want videokunst is meestal voor een zaal bedoeld en niet voor een bioscoop. <strong>Een striptekening is ook geen podiumkunst</strong>: ze hoort bij de beeldende kunsten, en met de tekst erbij raakt ze aan de literatuur."
+    }
+   ]
+  },
+  {
+   "kop": "Wat de vormen van elkaar onderscheidt",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "De scherpste scheidslijn loopt tussen wat blijft en wat voorbijgaat. <strong>De beeldende kunsten</strong>, <strong>de architectuur</strong> en <strong>het design</strong> laten een tastbaar werk na; een voorstelling is na het applaus voorbij. Wat de podiumkunsten gemeen hebben, is dan ook dat <strong>ze in de tijd gebeuren</strong>: een voorstelling duurt en is daarna voorbij, terwijl een schilderij blijft hangen."
+    },
+    {
+     "soort": "tekst",
+     "html": "Daar hangt nog iets aan vast: de podiumkunst <strong>heeft een uitvoerder nodig naast de maker</strong>. Een partituur of een toneeltekst wordt pas kunst als iemand ze uitvoert."
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>De architectuur</strong> is de vorm die meebouwt aan de ruimte waarin mensen leven: een gebouw is kunst die je binnengaat. Juist daarom krijgen <strong>beeldende kunst en architectuur eigen richtvragen</strong> in de fiche — <strong>ze hebben eigen middelen</strong>, en bijlage 1 en 2 geven voor elk een eigen lijst bouwstenen, materialen en technieken."
+    },
+    {
+     "soort": "tekst",
+     "html": "De indeling is nuttig omdat <strong>ze ordent wat je ziet</strong>: wie weet met welke vorm hij te doen heeft, weet ook welke richtvragen hij kan stellen."
+    }
+   ]
+  },
+  {
+   "kop": "Werken die aan meer dan één vorm raken",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Over de kunstvormen klopt: <strong>ze overlappen soms</strong>, <strong>elke vorm heeft eigen middelen</strong> en <strong>de fiche noemt er vijf</strong>."
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Eén werk kan tot meerdere kunstvormen horen.</strong> Een opera is muziek, theater én vormgeving, en een film heeft ook literatuur nodig voor het scenario. Daarom noemt men een film een <strong>samengestelde</strong> kunstvorm: <strong>meerdere kunsten komen samen</strong> in één werk, wat de analyse rijker maakt."
+    },
+    {
+     "soort": "tekst",
+     "html": "Het is dus soms moeilijk één vorm aan te wijzen, want <strong>de vormen lopen door elkaar</strong>. Een installatie met beeld, geluid en voorwerpen raakt aan drie vormen tegelijk, en dan benoem je er meerdere. De fiche laat dat uitdrukkelijk toe."
+    },
+    {
+     "soort": "kader",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">werk</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">welke vorm of vormen</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>een bronzen ruiterbeeld op een plein</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>beeldende kunst</strong> (beeldhouwkunst); het plein zelf is architectuur</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>een fresco op een kerkmuur</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>de schilderkunst</strong>, dus beeldende kunst; de kerk eromheen is architectuur</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>een luisterspel op de radio</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>literatuur en muziek</strong>: een tekst gespeeld met geluid, zonder beeld</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>een geluidswerk zonder beeld in een museumzaal</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>bij de muziek</strong>, ook al staat er niemand op een podium; de fiche laat zulke grensgevallen toe</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>dansers die bewegen tussen de beelden van een kunstenaar</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>beeldende kunst en podiumkunst</strong>, twee vormen tegelijk</td></tr></table>"
+    }
+   ]
+  },
+  {
+   "kop": "Waar de kunstvorm in de analyse staat",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "<strong>Een kunstvorm bepalen is een stap in de analyse</strong>, en wel de eerste ordening. Daarna volgen <strong>de periode en de stroming</strong> — de fiche vraagt die met bronmateriaal te bepalen — en daarna de inhoud en de context."
+    }
+   ]
+  }
+ ],
+ "onthoud": []
+}

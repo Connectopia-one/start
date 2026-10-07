@@ -1,0 +1,108 @@
+{
+ "vak": "Kunstbeschouwing en filosofie",
+ "titel": "De eigenheid van de filosofie",
+ "onder": "Dagdagelijkse tegenover wetenschappelijke kennis, de indeling van de wetenschappen, en wat de filosofie binnen de menswetenschappen eigen maakt.",
+ "secties": [
+  {
+   "kop": "Twee soorten kennis",
+   "blokken": [
+    {
+     "soort": "kader",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">soort kennis</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">waar ze uit komt</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">wat haar kenmerkt</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>dagdagelijkse kennis</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>kennis uit ervaring</strong>: wat je zelf hoort, ziet en meemaakt</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">nuttig, maar <strong>niet systematisch gecontroleerd</strong></td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>wetenschappelijke kennis</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>methodisch onderzoek</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>ze is controleerbaar</strong>: anderen kunnen ze nagaan en herhalen</td></tr></table>"
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Dagdagelijkse kennis kan fout zijn zonder dat je het merkt.</strong> Wie altijd hetzelfde ziet, denkt snel dat het altijd zo is; de wetenschap zoekt juist de tegenvoorbeelden. Maar <strong>dagdagelijkse kennis is niet altijd fout</strong> — ze is vaak heel nuttig. Het verschil zit in de controle, niet in de waarheid."
+    },
+    {
+     "soort": "tekst",
+     "html": "Zo klinkt dagdagelijkse kennis: <strong>mijn oma zegt dat het gaat regenen</strong>, <strong>iedereen weet dat katten eigenwijs zijn</strong>, <strong>ik voel dat die les lang duurt</strong>. Drie uitspraken uit ervaring en van horen zeggen. Verwijst een uitspraak naar onderzoek, dan zit je bij de wetenschappelijke kennis."
+    },
+    {
+     "soort": "tekst",
+     "html": "Wetenschappelijke kennis <strong>volgt een methode</strong>, <strong>is na te gaan door anderen</strong> en <strong>wordt bijgesteld bij nieuw bewijs</strong>. Dat laatste is geen zwakte maar haar kracht: ze staat open voor betere gegevens. Ze staat dus juist <em>niet</em> voor altijd vast; een theorie die niets kan weerleggen, is geen wetenschap."
+    }
+   ]
+  },
+  {
+   "kop": "Natuurwetenschappen en menswetenschappen",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "De fiche onderscheidt <strong>twee</strong> groepen: <strong>natuur- en menswetenschappen</strong>. De menswetenschappen splitsen daarna nog eens in <strong>gedrags- en cultuurwetenschappen</strong>."
+    },
+    {
+     "soort": "kader",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">groep</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">welke vakken</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">welke vragen</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>de natuurwetenschappen</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>fysica</strong>, <strong>chemie</strong>, <strong>biologie</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">hoe de natuur werkt; <strong>hoe planten groeien</strong> is biologie, dus natuurwetenschap</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>de gedragswetenschappen</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>psychologie</strong>, sociologie</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>waarom mensen zich zo gedragen</strong> en <strong>hoe groepen samenleven</strong></td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>de cultuurwetenschappen</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">antropologie, geschiedenis</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>hoe culturen verschillen</strong>; <strong>een onderzoek naar gewoontes in een dorp</strong> hoort hier</td></tr></table>"
+    },
+    {
+     "soort": "tekst",
+     "html": "Let op twee valstrikken. <strong>Psychologie is geen natuurwetenschap</strong> maar een menswetenschap, en meer bepaald een gedragswetenschap. En <strong>de sociologie hoort bij de menswetenschappen</strong>: ze onderzoekt mensen in groepen, niet de natuur."
+    },
+    {
+     "soort": "tekst",
+     "html": "Onderzoek bij mensen is moeilijker dan bij stenen, want <strong>mensen reageren op het onderzoek</strong>. Wie weet dat hij bekeken wordt, gedraagt zich anders; een steen doet dat niet."
+    },
+    {
+     "soort": "tekst",
+     "html": "Waarom onderscheidt de filosofie die soorten kennis? <strong>Om te weten wat je weet.</strong> Hoe betrouwbaar je kennis is, is zelf een filosofische vraag: die heet de kennisleer. En het onderscheid staat vooraan in het deel filosofie omdat <strong>je er de plaats van de filosofie mee vindt</strong>. De fiche vraagt daarna uitdrukkelijk om <strong>de eigenheid van de filosofie binnen de menswetenschappen</strong> uit te leggen — filosofie hoort er dus bij, met een eigen manier van werken."
+    }
+   ]
+  },
+  {
+   "kop": "Wat de filosofie eigen maakt",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Bij de vraag wat de filosofie eigen maakt, verwacht de fiche één antwoord in twee delen: <strong>haar vragen en haar methode</strong>. Fundamentele vragen, onderzocht met argumenten in plaats van met metingen."
+    },
+    {
+     "soort": "tekst",
+     "html": "Daarin verschilt ze van de andere menswetenschappen: <strong>ze doet geen metingen</strong>. Ze werkt in de plaats daarvan met <strong>argumenten</strong>, en de fiche leert daarvoor de AUB-methode aan. <strong>Een filosofische vraag kan je dus niet met een experiment beslechten</strong>: niet-empirisch op te lossen is net haar kenmerk. <strong>Filosofie kan geen laboratorium gebruiken omdat haar vragen niet meetbaar zijn</strong> — of iets rechtvaardig is, meet geen toestel."
+    },
+    {
+     "soort": "tekst",
+     "html": "Over de filosofie klopt dus: <strong>ze stelt fundamentele vragen</strong>, <strong>ze werkt met argumenten</strong> en <strong>ze hoort bij de menswetenschappen</strong>."
+    },
+    {
+     "soort": "kader",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">de wetenschapper</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">de filosoof</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>beschrijft hoe iets is</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>vraagt naar wat zou moeten</strong></td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>meet hoeveel mensen eerlijk zijn</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">vraagt <strong>wat eerlijkheid is</strong></td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">sluit af met een resultaat</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>onderzoekt elk antwoord verder</strong></td></tr></table>"
+    },
+    {
+     "soort": "tekst",
+     "html": "Verwar die twee kolommen niet van plaats: het is <em>niet</em> de filosoof die onderzoekt hoe iets is en de wetenschapper die vraagt wat zou moeten. En daarom blijft filosofie nuttig náást de wetenschap: <strong>de wetenschap zegt niet wat goed is</strong>. Dat iets kan, zegt niet dat het mag; over die vraag gaat de ethiek."
+    },
+    {
+     "soort": "tekst",
+     "html": "Men noemt de filosofie soms de moeder van de wetenschappen omdat <strong>de vakken eruit los kwamen</strong>: fysica, psychologie en biologie begonnen als filosofische vragen en werden pas later eigen vakken."
+    }
+   ]
+  },
+  {
+   "kop": "De verwondering",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Het beginpunt van alle filosofie heet de <strong>verwondering</strong>. <strong>Filosofische verwondering is je verbazen over het gewone</strong>: niet de komeet verbaast de filosoof maar de stoel. Waarom is er iets en niet niets?"
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Verwondering begint bij het stilstaan bij het gewone</strong>: waarom bestaat tijd, waarom is onrecht slecht, wat is een mens eigenlijk? Ze is noodzakelijk voor de filosofie, want <strong>zonder vraag is er geen filosofie</strong>. Wie niets vreemd vindt, stelt geen vragen, en dan komt het denken niet in beweging."
+    },
+    {
+     "soort": "tekst",
+     "html": "Over de verwondering klopt dus: <strong>ze zet het denken in gang</strong>, <strong>ze richt zich op het gewone</strong> en <strong>ze is nodig voor filosofie</strong>. Wat ze niet doet, is antwoorden leveren: ze levert vragen, en dat is net haar rol."
+    },
+    {
+     "soort": "tekst",
+     "html": "Bij het filosoferen horen drie houdingen: <strong>doorvragen</strong>, <strong>twijfelen aan het vanzelfsprekende</strong> en <strong>je mening laten tegenspreken</strong>. Snel willen afsluiten doet het tegenovergestelde. Daarom <strong>onderzoekt een filosoof een antwoord dat hij vindt verder</strong>: elk antwoord roept nieuwe vragen op, en zo blijven filosofische vragen open."
+    },
+    {
+     "soort": "weetje",
+     "html": "<strong>Een kind dat vraagt waarom het moet delen, is een begin van filosofie.</strong> Het is een vraag naar wat goed is, en dus ethiek. Kinderen filosoferen uit zichzelf."
+    }
+   ]
+  }
+ ],
+ "onthoud": []
+}

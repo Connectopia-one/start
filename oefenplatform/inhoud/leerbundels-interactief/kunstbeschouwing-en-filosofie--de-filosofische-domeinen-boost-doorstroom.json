@@ -1,0 +1,54 @@
+{
+ "vak": "Kunstbeschouwing en filosofie",
+ "titel": "De filosofische domeinen",
+ "onder": "De zes domeinen van de fiche, de vragen die bij elk horen, en wat je doet met een vraag die in twee domeinen tegelijk thuishoort.",
+ "secties": [
+  {
+   "kop": "Zes domeinen",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "De fiche noemt <strong>zes</strong> filosofische domeinen. Men verdeelt de filosofie zo <strong>om vragen te ordenen</strong>: een domein zegt waarover een vraag gaat, en dus ook welke begrippen en welke denkers erbij horen. Er is <strong>geen rangorde</strong> — geen enkel domein is belangrijker dan een ander."
+    },
+    {
+     "soort": "kader",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">domein</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">waarover het gaat</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">typische vragen</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>de antropologie</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>vragen over de mens</strong> (de wijsgerige antropologie)</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>wat maakt een mens mens</strong>, <strong>verschilt hij van een dier</strong>, <strong>kan een robot een mens zijn</strong></td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>de esthetica</strong> (de esthetiek)</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>vragen over schoonheid</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>wat maakt kunst mooi</strong>, <strong>moet kunst mooi zijn</strong>, <strong>heeft een kunstwerk een boodschap nodig</strong>, <strong>zit schoonheid in het oog van de kijker</strong></td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>de ethiek</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>vragen over de goedheid</strong>, over goed handelen</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>mag je liegen om iemand te sparen</strong>, <strong>mag je dierproeven doen</strong>, <strong>is straf rechtvaardig</strong></td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>kennisleer</strong> (of kennistheorie) <strong>en logica</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">samen: <strong>de vragen over de waarheid</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>wat is kennis</strong>, <strong>hoe weet je iets zeker</strong>, <strong>bedriegen je zintuigen je</strong>, <strong>kan ik zeker weten dat ik niet droom</strong>, <strong>is deze redenering geldig</strong></td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>de metafysica</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>de bovenwereld</strong>: wat achter of boven het zichtbare ligt</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>bestaat er iets na de dood</strong>, <strong>bestaat er een god</strong>, <strong>wat is het zijnde</strong></td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>de natuurfilosofie</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>vragen over de wereld zelf</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>waaruit bestaat de werkelijkheid</strong>, <strong>wat is ruimte</strong>, <strong>wat is tijd</strong>, <strong>waaruit bestaat materie</strong></td></tr></table>"
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Meta</strong> betekent voorbij: de metafysica gaat voorbij wat je kan zien en meten. <strong>Kennisleer en logica staan samen onder één noemer</strong>, want beide gaan over de waarheid: de kennisleer vraagt wat kennis is en hoe betrouwbaar ze kan zijn, en <strong>de logica toetst of een redenering klopt</strong> — of de stap van argument naar conclusie geldig is, los van de inhoud. <strong>De vraag of een redenering geldig is, hoort dus niet bij de esthetica.</strong>"
+    },
+    {
+     "soort": "tekst",
+     "html": "Twee verwarringen om te vermijden. <strong>De natuurfilosofie is niet hetzelfde als de natuurwetenschap</strong>: de wetenschap meet, de natuurfilosofie denkt na over de begrippen die de wetenschap gebruikt. En <strong>of kunst mooi moet zijn, valt niet buiten de esthetica</strong>: dat is juist een echte esthetische vraag, die rechtstreeks raakt aan de kunstcriteria uit het eerste deel van dit vak."
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>De natuurfilosofie verwijst het duidelijkst naar de eerste Griekse filosofen</strong>: Thales, Heraclitus, Parmenides en Pythagoras zochten de grond van de wereld. En de ethiek krijgt in de fiche een eigen hoofdstuk, met de ethische stromingen en hun filosofen."
+    }
+   ]
+  },
+  {
+   "kop": "Vragen die in meerdere domeinen thuishoren",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "<strong>Eén vraag kan tot meerdere domeinen horen.</strong> Dat is geen fout in de indeling: de domeinen <strong>overlappen soms</strong>. Over de domeinen klopt dus: <strong>ze ordenen de vragen</strong>, <strong>ze overlappen soms</strong> en <strong>de fiche noemt er zes</strong>."
+    },
+    {
+     "soort": "kader",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">vraag</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">welke domeinen</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>mag je een dier doden om een mens te genezen</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>ethiek én antropologie</strong></td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>hebben dieren rechten</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>ethiek en antropologie</strong>: wat een dier is, en wat wij mogen doen</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>heeft een mens een vrije wil</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>de antropologie</strong>, <strong>de metafysica</strong> en <strong>de ethiek</strong>: wat de mens is, of er meer is dan oorzaak en gevolg, en of je verantwoordelijk bent</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>moeten we de natuur beschermen om haarzelf</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>ethiek en natuurfilosofie</strong>: wat we moeten doen, en wat de natuur zelf is</td></tr></table>"
+    },
+    {
+     "soort": "tekst",
+     "html": "Sommige domeinen gaan over <strong>wat zou moeten</strong> in plaats van wat is: <strong>de ethiek</strong>, <strong>de esthetica</strong> en <strong>deels de antropologie</strong> geven waardeoordelen. De logica onderzoekt enkel of een redenering geldt."
+    },
+    {
+     "soort": "tekst",
+     "html": "Een domein bepalen helpt bij het antwoorden, want <strong>je weet dan welke begrippen gelden</strong>: elk domein heeft eigen begrippen en eigen denkers, en dat geeft je houvast. Let wel: <strong>een domein bepalen is géén van de filosofische vaardigheden</strong>. Die drie zijn een vraag stellen, argumenteren met de AUB-methode en een tekst analyseren; de domeinen onderscheiden staat apart op de fiche."
+    }
+   ]
+  }
+ ],
+ "onthoud": []
+}

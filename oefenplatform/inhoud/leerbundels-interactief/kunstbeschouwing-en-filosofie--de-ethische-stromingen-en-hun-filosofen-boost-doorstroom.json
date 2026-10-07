@@ -1,0 +1,71 @@
+{
+ "vak": "Kunstbeschouwing en filosofie",
+ "titel": "De ethische stromingen en hun filosofen",
+ "onder": "Gevolgenethiek tegenover plichtethiek, de bezwaren tegen elk van beide, en de vier filosofen: Kant, Bentham, Mill en Singer.",
+ "secties": [
+  {
+   "kop": "Twee stromingen",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "De fiche noemt <strong>twee</strong> ethische stromingen: <strong>gevolgenethiek en plichtethiek</strong>. Ze vraagt uitdrukkelijk om <strong>te beargumenteren tot welke stroming een gegeven voorbeeld hoort</strong>."
+    },
+    {
+     "soort": "kader",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\"></th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">de gevolgenethiek</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">de plichtethiek</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">waar ze naar kijkt</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>naar het resultaat</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>naar de regel zelf</strong></td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">andere naam</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>het utilitarisme</strong> of utilisme (van utilis, nuttig); wie zo denkt is een <strong>gevolgenethicus</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">de deontologische ethiek; wie zo denkt is een <strong>plichtethicus</strong></td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">haar kernzin</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>het resultaat beslist</strong>, <strong>zo veel mogelijk welzijn</strong>, <strong>soms mag een regel wijken</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>de daad zelf telt</strong>, <strong>sommige regels gelden altijd</strong>, <strong>het resultaat is niet beslissend</strong></td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">bij een leugen om bestwil</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>goed</strong>: het resultaat is goed, dus de daad is goed</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>fout</strong>: <strong>liegen blijft liegen</strong>, ook met een goed resultaat</td></tr></table>"
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>De twee geven dus niet altijd hetzelfde antwoord.</strong> Juist bij een leugen om bestwil lopen ze uiteen, en daarom is het onderscheid zo bruikbaar: <strong>je ziet waarop iemand zich baseert</strong>. In een discussie praten mensen vaak langs elkaar omdat de een naar regels kijkt en de ander naar gevolgen."
+    },
+    {
+     "soort": "tekst",
+     "html": "Let op één misvatting: <strong>volgens de gevolgenethiek telt niet enkel de bedoeling van de dader</strong>. Juist niet — de uitkomst telt, en een goede bedoeling met een slecht gevolg blijft daar een slechte daad."
+    },
+    {
+     "soort": "kader",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">voorbeeld</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">welke stroming</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>iemand liegt om een vriend te beschermen</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>de gevolgenethiek</strong></td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>iemand houdt zijn belofte, ook al kost het hem veel</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>de plichtethiek</strong></td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>een regering kiest de maatregel die het meeste mensen helpt</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>de gevolgenethiek</strong>: het grootste geluk voor het grootste aantal</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>een arts vertelt een patiënt de harde waarheid</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>de plichtethiek</strong>: eerlijkheid is een plicht, ook als het pijn doet</td></tr></table>"
+    }
+   ]
+  },
+  {
+   "kop": "De bezwaren",
+   "blokken": [
+    {
+     "soort": "kader",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">tegen de gevolgenethiek</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">tegen de plichtethiek</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>gevolgen zijn niet te voorspellen</strong>, <strong>een minderheid kan erbij inschieten</strong>, <strong>ze kan elk middel goedpraten</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>ze is soms hardvochtig</strong>: wie nooit mag liegen, moet ook de vluchteling in zijn kelder verraden</td></tr></table>"
+    },
+    {
+     "soort": "tekst",
+     "html": "Dat de gevolgenethiek niet naar mensen zou kijken, klopt niet: ze kijkt juist naar hun welzijn samen. En daarom gebruiken mensen in de praktijk vaak <strong>beide</strong> stromingen: <strong>elk antwoord heeft zijn grens</strong>. Wie enkel op regels let, wordt hard; wie enkel op gevolgen let, praat te veel goed."
+    }
+   ]
+  },
+  {
+   "kop": "Vier filosofen",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "<strong>Kant en Bentham horen niet tot dezelfde stroming</strong>: ze staan precies tegenover elkaar. En <strong>de vier leefden niet in dezelfde eeuw</strong>."
+    },
+    {
+     "soort": "kader",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">filosoof</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">wanneer en waar</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">stroming en kerngedachte</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>Immanuel Kant</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>Duitsland</strong> (Koningsbergen), <strong>de achttiende eeuw</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>de plichtethiek</strong>. Zijn toets bij een daad: <strong>mag iedereen dit doen?</strong> En: <strong>je mag een mens nooit louter als middel gebruiken</strong></td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>Jeremy Bentham</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>Engeland</strong>, rond 1800</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>de gevolgenethiek</strong>. Van hem komt <strong>het grootste geluk voor het grootste aantal</strong></td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>John Stuart Mill</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Engeland, de negentiende eeuw</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>gevolgenethicus</strong>; <strong>hij bouwt op Bentham voort</strong> en voegt toe dat <strong>geluk ook kwaliteit heeft</strong>: niet elk genot weegt gelijk</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>Peter Singer</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Australië, <strong>hij leeft vandaag nog</strong> (geboren in 1946)</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>de gevolgenethiek</strong>: <strong>hij weegt het lijden af</strong>, en daarom telt bij hem ook dierenleed mee</td></tr></table>"
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Bentham en Mill zijn dus beide Engels</strong>, en Mill kende Benthams werk van jongs af. <strong>Singer is de filosoof die in twee hoofdstukken van de fiche terugkomt</strong>: bij mens en dier én bij de ethische stromingen. Zijn werk over <strong>dierenrechten</strong> volgt rechtstreeks uit zijn ethiek."
+    },
+    {
+     "soort": "tekst",
+     "html": "Zo breng je een uitspraak thuis. <strong>Je mag nooit martelen, ook niet om tien mensen te redden</strong> is <strong>Kant</strong>: de regel geldt onvoorwaardelijk. <strong>We moeten geld geven zolang het meer leed voorkomt dan het ons kost</strong> is <strong>Singer</strong>, letterlijk zijn bekendste argument over armoede en hulp."
+    },
+    {
+     "soort": "weetje",
+     "html": "Weten waar en wanneer een filosoof leefde is nuttig, want <strong>zijn tijd kleurt zijn antwoord</strong>. Bentham dacht in een tijd van hervormingen, Kant in de eeuw van de rede."
+    }
+   ]
+  }
+ ],
+ "onthoud": []
+}
