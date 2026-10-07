@@ -1,4 +1,4 @@
-<title>Opladen Boost doorstroom</title>
+<title>Plakpagina Boost</title>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700;800&family=Caveat:wght@600&display=swap">
 <style>
   :root {
@@ -163,11 +163,13 @@
 
 <main>
   <header>
-    <span class="krabbel">enkel wat er sinds vanmiddag bij kwam</span>
-    <h1>Nog op te laden</h1>
-    <p>Wat je vanmiddag via de plakpagina gedaan hebt, staat hier niet meer bij. Dit is
-      alleen wat er nadien is bijgekomen: de leerbundels van de vier vakken van dubbele
-      finaliteit, en één vragenbestand met een verbetering erin.</p>
+    <span class="krabbel">alles van de acht nieuwe vakken op één pagina</span>
+    <h1>De plakpagina</h1>
+    <p>Hier staat alles van de acht nieuwe Boost-vakken bij elkaar: de vragen, de
+      leerbundels en de nieuwe oefenbundels. Wat je gisteravond al deed, vink je gewoon
+      af. Bij de twee vragenbestanden staat
+      <span class="pad">Bestaande vragen vervangen</span> aan, dus een tweede keer inladen
+      kan geen kwaad.</p>
   </header>
 
   <div class="teller">
@@ -176,39 +178,39 @@
   </div>
 
   <section>
-    <h2><span class="nr">1</span> De leerbundels van vier vakken</h2>
-    <p>Pak de zip uit. Ga dan naar <span class="pad">Beheer</span>,
-      <span class="pad">Leerstof</span>, en sleep de zestien pdf's er in één keer in: het
-      scherm zoekt zelf bij elke pdf het juiste hoofdstuk en zet ze meteen bij deel 1 én
-      deel 2.</p>
-    <div class="vakken"><!--BUNDELS--></div>
-  </section>
-
-  <section>
-    <h2><span class="nr">2</span> Eén vragenbestand opnieuw</h2>
+    <h2><span class="nr">1</span> De vragen</h2>
     <p>Klik op de knop, ga naar <span class="pad">Beheer</span>,
       <span class="pad">Vakken</span>, open het vak en dan
-      <span class="pad">Vragen importeren</span>, en plak met ctrl+V. Zet hier
+      <span class="pad">Vragen importeren</span>, en plak met ctrl+V. Zet
       <span class="pad">Bestaande vragen vervangen</span> wél aan, anders staat elke vraag
       een tweede keer in de databank.</p>
     <div class="vakken"><!--VRAGEN--></div>
   </section>
 
   <section>
-    <h2><span class="nr">3</span> Eén ding om na te kijken</h2>
-    <div class="let">
-      <p>De leerbundels van sociale en gedragswetenschappen, kunstbeschouwing en filosofie
-        en wiskunde basis stonden al op de vorige pagina. Heb je die drie al opgeladen? Zo
-        niet, zeg het en ik zet ze er hier bij.</p>
-    </div>
+    <h2><span class="nr">2</span> De leerbundels</h2>
+    <p>Pak de zip uit. Ga dan naar <span class="pad">Beheer</span>,
+      <span class="pad">Leerstof</span>, en sleep de pdf's er in één keer in: het scherm
+      zoekt zelf bij elke pdf het juiste hoofdstuk en zet ze meteen bij deel 1 én deel 2.</p>
+    <div class="vakken"><!--BUNDELS--></div>
   </section>
 
-  <footer>Bijgewerkt op 7 oktober 2026, 19.45 uur · Connectopia vzw</footer>
+  <section>
+    <h2><span class="nr">3</span> De oefenbundels</h2>
+    <p>Dit zijn de afdrukbare bundels met ándere opgaven dan die op het scherm, met een
+      antwoordblad achteraan. Pak de zip uit en sleep de pdf's in
+      <span class="pad">Beheer</span>, <span class="pad">Leerstof</span>, net als de
+      leerbundels. Ze staan op een witte achtergrond, zodat een thuisprinter geen volvlak
+      moet drukken.</p>
+    <div class="vakken"><!--OEFENBUNDELS--></div>
+  </section>
+
+  <footer>Bijgewerkt op 8 oktober 2026 · Connectopia vzw</footer>
 </main>
 
 <script>
   (function () {
-    var sleutel = "connectopia-nog-op-te-laden-7-oktober";
+    var sleutel = "connectopia-plakpagina-boost-8-oktober";
     var opgeslagen = {};
     try { opgeslagen = JSON.parse(localStorage.getItem("" + sleutel) || "{}") || {}; }
     catch (e) { opgeslagen = {}; }
