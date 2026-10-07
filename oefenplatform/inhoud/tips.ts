@@ -65,7 +65,7 @@ export const tipsTekst = {
   ],
   /* Een nota onderaan. Laat hem leeg om hem te verbergen. */
   nota:
-    "Let op: er is één oefenbundel per hoofdstuk, geen twee verschillende. Kom je dus hetzelfde blad opnieuw tegen, dan is dat geen fout.",
+    "Let op: er is één oefenbundel per hoofdstuk, geen twee verschillende.",
   /* De knop onderaan. Laat de link leeg om de knop te verbergen. */
   oproepTekst: "Naar de vakken",
   oproepLink: "/",

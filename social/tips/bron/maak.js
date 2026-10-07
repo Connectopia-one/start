@@ -46,7 +46,7 @@ function kop(titel, blaadjes) {
 <style>
   /* Het notitieblaadje in het midden. */
   .briefje {
-    position: relative; z-index: 2; align-self: center; width: 820px;
+    position: relative; z-index: 2; align-self: flex-start; margin-left: 6px; width: 760px;
     border-radius: 30px; padding: 64px 68px 72px;
     box-shadow: 0 18px 40px rgba(42, 45, 38, .10);
     transform: rotate(-1.2deg);
@@ -83,6 +83,25 @@ function kop(titel, blaadjes) {
     margin-top: 30px; font-size: 27px; line-height: 1.35; color: var(--ink-dim);
     font-weight: 700; border-left: 6px solid var(--sage); padding-left: 22px;
   }
+  /* Het pijltje rechts: Kim vroeg een teken dat er nog beelden volgen. Het
+     staat los van het briefje, tegen de rand, zodat het niet in de tekst
+     meeleest maar wel opvalt bij het doorschuiven. */
+  .verder {
+    position: absolute; z-index: 3; right: 44px; top: 50%; margin-top: -52px;
+    display: flex; flex-direction: column; align-items: center; gap: 10px;
+  }
+  .verder .bol {
+    width: 78px; height: 78px; border-radius: 50%; background: var(--orange);
+    display: flex; align-items: center; justify-content: center;
+    box-shadow: 0 6px 16px rgba(217, 110, 37, .35);
+  }
+  /* De pijl is een tekening en geen teken uit het lettertype: Nunito heeft
+     geen chevron, en dan valt er een leeg vakje op het beeld. */
+  .verder .bol svg { width: 34px; height: 34px; }
+  .verder .bij {
+    font-family: "Caveat"; font-size: 34px; color: var(--orange); line-height: 1;
+    white-space: nowrap;
+  }
 </style>
 </head>
 <body>
@@ -91,6 +110,14 @@ function kop(titel, blaadjes) {
 ${blaadjes ? `
   <svg class="blad" style="right: 96px; top: 96px; width: 78px; transform: rotate(35deg)" viewBox="0 0 40 40"><path d="M4 36 C 4 14, 18 4, 36 4 C 36 22, 26 36, 4 36 Z" fill="#8aa173"/><path d="M4 36 L 30 10" stroke="#fbf6ea" stroke-width="1.6" fill="none"/></svg>
   <svg class="blad" style="right: 68px; top: 160px; width: 50px; transform: rotate(-20deg)" viewBox="0 0 40 40"><path d="M4 36 C 4 14, 18 4, 36 4 C 36 22, 26 36, 4 36 Z" fill="#c6d4b3"/><path d="M4 36 L 30 10" stroke="#fbf6ea" stroke-width="1.6" fill="none"/></svg>` : ''}`;
+}
+
+function pijl(tekst) {
+  return `
+  <div class="verder">
+    <div class="bol"><svg viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="3.2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h13M12 5l7 7-7 7"/></svg></div>
+    <div class="bij">${tekst}</div>
+  </div>`;
 }
 
 function voet(klein) {
@@ -122,6 +149,7 @@ function voorblad(t) {
     </header>
     <section class="mid"><div class="nota">${t.nota}</div></section>
   </main>
+${pijl('schuif door')}
 ${voet('Schuif door voor de negen stappen')}`;
 }
 
@@ -137,7 +165,8 @@ function stapblad(stap, nummer, totaal) {
       <p>${stap.tekst}</p>
     </div>
   </main>
-${voet('')}`;
+${nummer < totaal ? pijl('volgende') : ''}
+${voet(nummer < totaal ? '' : 'Alle stappen staan op de pagina zelf')}`;
 }
 
 (async () => {
