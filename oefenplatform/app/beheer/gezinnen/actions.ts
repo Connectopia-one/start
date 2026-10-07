@@ -44,3 +44,62 @@ export async function zetVolledigeToegang(formData: FormData) {
       )
   );
 }
+
+/**
+ * Zet één gezin in een groep, of haalt het eruit.
+ *
+ * De groep is de plusklascode waarmee het gezin registreerde. Nieuwe gezinnen
+ * krijgen die vanzelf, maar de gezinnen van voor 6 oktober 2026 niet: toen
+ * onthield het platform nog niet met welke code iemand binnenkwam. Daarom kan
+ * je het hier met de hand zetten.
+ *
+ * De groep bepaalt in welke lijst het gezin staat op /begeleiding. Ze zegt
+ * niets over de toegang: die hangt aan is_plusklas en verandert hier niet.
+ */
+export async function zetGroep(formData: FormData) {
+  await requireBeheerder();
+  const id = String(formData.get("id") || "");
+  const code = String(formData.get("code") || "").trim();
+  if (!id) redirect("/beheer/gezinnen");
+
+  const admin = createAdminClient();
+
+  // Een lege keuze is "nog geen groep", en dat is null in de databank. Een
+  // code die intussen verwijderd is weigeren we hier, want de verwijzing in de
+  // databank zou het toch tegenhouden, met een melding die niemand begrijpt.
+  let nieuw: string | null = null;
+  if (code) {
+    const { data: bestaat } = await admin
+      .from("plusklas_codes")
+      .select("code")
+      .eq("code", code)
+      .maybeSingle();
+    if (!bestaat) {
+      redirect(
+        "/beheer/gezinnen?fout=" +
+          encodeURIComponent("Die code bestaat niet meer."),
+      );
+    }
+    nieuw = code;
+  }
+
+  const { error } = await admin
+    .from("profiles")
+    .update({ plusklas_code: nieuw })
+    .eq("id", id);
+  if (error) {
+    redirect(
+      "/beheer/gezinnen?fout=" +
+        encodeURIComponent(`De groep aanpassen lukte niet: ${error.message}`),
+    );
+  }
+
+  revalidatePath("/beheer/gezinnen");
+  revalidatePath("/begeleiding");
+  redirect(
+    "/beheer/gezinnen?melding=" +
+      encodeURIComponent(
+        nieuw ? `Het gezin staat nu bij ${nieuw}.` : "Het gezin staat nu bij geen enkele groep.",
+      ),
+  );
+}
