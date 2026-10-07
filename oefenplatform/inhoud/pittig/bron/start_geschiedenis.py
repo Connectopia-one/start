@@ -106,13 +106,13 @@ TIJDLIJN = [
         "type": "meerkeuze",
         "vraag": "Waarom is er geen jaar 0?",
         "opties": [
-            "omdat de telling gewoon begint bij het jaar 1",
+            "omdat men het cijfer nul toen nog niet gebruikte",
             "omdat het jaar 0 verloren gegaan is in de oudheid",
-            "omdat men in die tijd het cijfer nul nog niet kende",
             "omdat het jaar 0 toen een schrikkeljaar was",
+            "omdat de maanden toen anders geteld werden",
         ],
         "antwoord": 0,
-        "uitleg": "Onze jaartelling begint te tellen bij 1, zoals je ook bij de eerste verdieping begint en niet bij de nulde. Daardoor komt na 1 v.Chr. meteen 1 na Chr.",
+        "uitleg": "Onze jaartelling is in de 6de eeuw bedacht, in een tijd dat men in Europa het cijfer nul nog niet gebruikte zoals wij nu. Men begon dus gewoon te tellen bij 1, en daardoor komt na 1 v.Chr. meteen 1 na Chr.",
     },
     {
         "type": "invultekst",
