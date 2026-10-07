@@ -2319,13 +2319,13 @@
           "type": "meerkeuze",
           "vraag": "Wat is kenmerkend voor het pre-conventionele stadium?",
           "opties": [
-            "straf en belonging tellen",
+            "straf en beloning tellen",
             "de wet telt het meest erbij",
             "eigen principes tellen erbij",
             "de mensheid telt het meest"
           ],
           "antwoord": 0,
-          "uitleg": "In dit stadium kijkt iemand naar de gevolgen voor zichzelf: krijg ik straf of een belonging?"
+          "uitleg": "In dit stadium kijkt iemand naar de gevolgen voor zichzelf: krijg ik straf of een beloning?"
         },
         {
           "type": "meerkeuze",
@@ -2392,7 +2392,7 @@
           "vraag": "Wat weegt mee in het pre-conventionele stadium?",
           "opties": [
             "de straf",
-            "de belonging",
+            "de beloning",
             "het eigen voordeel",
             "de mensenrechten"
           ],
@@ -2453,7 +2453,7 @@
           "type": "waarofniet",
           "vraag": "Een kind in het pre-conventionele stadium denkt aan de wet.",
           "antwoord": false,
-          "uitleg": "Het denkt aan straf en belonging. De wet komt in het conventionele stadium."
+          "uitleg": "Het denkt aan straf en beloning. De wet komt in het conventionele stadium."
         },
         {
           "type": "waarofniet",
@@ -2478,7 +2478,7 @@
         },
         {
           "type": "invultekst",
-          "vraag": "In welk stadium van Kohlberg tellen straf en belonging? Hoogstens drie woorden.",
+          "vraag": "In welk stadium van Kohlberg tellen straf en beloning? Hoogstens drie woorden.",
           "antwoord": [
             "pre-conventioneel",
             "het pre-conventionele",

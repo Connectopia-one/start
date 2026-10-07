@@ -6211,3 +6211,112 @@ def wassymbolen(breedte=470):
                     "een kruis door een symbool betekent altijd: deze behandeling is verboden",
                     9.5, DIM, "start"))
     return _svg(breedte, hoogte, "".join(d))
+
+
+# 🚀 Boost dubbele finaliteit — ontwikkeling en pedagogisch handelen
+
+def driehoekmodel(hoeken, midden="", breedte=470):
+    """Een driehoek met bij elke hoek een naam en een regel uitleg, en in het
+    midden waar het model over gaat. `hoeken` is [(naam, uitleg), ...] met drie
+    hoeken: boven, linksonder, rechtsonder."""
+    hoogte = 262
+    cx, top, basis_y = 235, 42, 208
+    half = 150
+    d = [f'<polygon points="{cx},{top} {cx-half},{basis_y} {cx+half},{basis_y}" fill="{FOREST}" '
+         f'fill-opacity="0.10" stroke="{FOREST}" stroke-width="2"/>']
+    if midden:
+        d.append(_tekst(cx, 162, midden, 11, FOREST, "middle", True))
+    plekken = [(cx, top - 26, "middle", top - 13),
+               (cx - half, basis_y + 18, "start", basis_y + 31),
+               (cx + half, basis_y + 18, "end", basis_y + 31)]
+    for (naam, uitleg), (x, y, anker, y2) in zip(hoeken, plekken):
+        d.append(_tekst(x, y, naam, 11, INK, anker, True))
+        d.append(_tekst(x, y2, uitleg, 9.5, DIM, anker))
+    for px, py in ((cx, top), (cx - half, basis_y), (cx + half, basis_y)):
+        d.append(f'<circle cx="{px}" cy="{py}" r="5" fill="{FOREST}"/>')
+    return _svg(breedte, hoogte, "".join(d))
+
+
+def kwadranten(vakken, breedte=470, onder=None):
+    """Vier vakken naast en onder elkaar. `vakken` is [(kop, [regels]), ...],
+    vier stuks. `onder` is een slotzin onder de vier."""
+    kolom = (breedte - 10) / 2
+    regels = max(len(r) for _, r in vakken)
+    vh = 34 + regels * 17 + 8
+    h = vh * 2 + 10
+    kleuren = [FOREST, AMBER, "#6f8f4a", DIM]
+    for i, (kop, rs) in enumerate(vakken):
+        vx = 0 if i % 2 == 0 else kolom + 10
+        vy = 0 if i < 2 else vh + 10
+        kleur = kleuren[i]
+        yield_ = None
+    d = []
+    for i, (kop, rs) in enumerate(vakken):
+        vx = 0 if i % 2 == 0 else kolom + 10
+        vy = 0 if i < 2 else vh + 10
+        kleur = kleuren[i]
+        d.append(f'<rect x="{vx:.1f}" y="{vy}" width="{kolom:.1f}" height="{vh}" rx="8" '
+                 f'fill="#ffffff" stroke="{kleur}" stroke-width="1.6"/>')
+        d.append(_tekst(vx + 12, vy + 19, kop, 11.5, kleur, "start", True))
+        for j, r in enumerate(rs):
+            d.append(_tekst(vx + 12, vy + 38 + j * 17, "· " + r, 10.5, DIM, "start"))
+    extra = 0
+    if onder:
+        d.append(_tekst(breedte / 2, h + 12, onder, 9.5, DIM, "middle"))
+        extra = 18
+    return _svg(breedte, h + 6 + extra, "".join(d))
+
+
+def groeicurveschets(breedte=470):
+    """Een groeicurve zonder cijfers: de band waarin de meeste kinderen van een
+    leeftijd zitten, met de lijn van één kind erdoor. De assen dragen namen,
+    geen getallen, want dit is geen echte referentiecurve."""
+    hoogte = 250
+    links, onder, boven, rechts = 52, 44, 16, 24
+    bx, by = breedte - links - rechts, hoogte - onder - boven
+    d = [f'<line x1="{links}" y1="{boven}" x2="{links}" y2="{boven+by}" stroke="{INK}" stroke-width="1.6"/>',
+         f'<line x1="{links}" y1="{boven+by}" x2="{links+bx}" y2="{boven+by}" stroke="{INK}" stroke-width="1.6"/>']
+
+    def punt(t, f):
+        """t van 0 tot 1 over de leeftijd, f van 0 tot 1 over de lengte."""
+        return links + t * bx, boven + by - f * by
+
+    # de band: een onder- en een bovengrens die allebei afvlakken
+    def lijn(hoog):
+        ps = []
+        for i in range(41):
+            t = i / 40
+            f = hoog * (1 - (1 - t) ** 1.7)
+            ps.append("%.1f %.1f" % punt(t, f))
+        return ps
+    laag, hoogg = lijn(0.60), lijn(0.95)
+    d.append(f'<path d="M{" L".join(laag)} L{" L".join(reversed(hoogg))} Z" fill="{FOREST}" '
+             f'fill-opacity="0.14" stroke="none"/>')
+    for ps, kleur in ((laag, FOREST), (hoogg, FOREST)):
+        d.append(f'<path d="M{" L".join(ps)}" fill="none" stroke="{kleur}" stroke-width="1.4" '
+                 f'stroke-dasharray="4 3"/>')
+    # het kind zelf: netjes in de band, met een knik waar de groeispurt zit
+    kind = []
+    for i in range(41):
+        t = i / 40
+        f = 0.78 * (1 - (1 - t) ** 1.7)
+        if t > 0.62:
+            f += 0.10 * min(1.0, (t - 0.62) / 0.18)
+        kind.append("%.1f %.1f" % punt(t, f))
+    d.append(f'<path d="M{" L".join(kind)}" fill="none" stroke="{AMBER}" stroke-width="2.4"/>')
+    px, py = punt(0.72, 0.78 * (1 - 0.28 ** 1.7) + 0.10 * min(1.0, 0.10 / 0.18))
+    d.append(f'<circle cx="{px:.1f}" cy="{py:.1f}" r="4" fill="{AMBER}"/>')
+    d.append(_tekst(px - 12, py - 16, "de groeispurt", 9.5, AMBER, "end", True))
+    d.append(f'<rect x="{links+bx-204:.1f}" y="{boven+by-46}" width="200" height="38" rx="6" '
+             f'fill="#ffffff" fill-opacity="0.92" stroke="{BORDER}" stroke-width="1"/>')
+    d.append(f'<line x1="{links+bx-194:.1f}" y1="{boven+by-33}" x2="{links+bx-172:.1f}" y2="{boven+by-33}" '
+             f'stroke="{AMBER}" stroke-width="2.4"/>')
+    d.append(_tekst(links + bx - 166, boven + by - 30, "dit kind", 9.5, INK, "start", True))
+    d.append(f'<line x1="{links+bx-194:.1f}" y1="{boven+by-17}" x2="{links+bx-172:.1f}" y2="{boven+by-17}" '
+             f'stroke="{FOREST}" stroke-width="1.4" stroke-dasharray="4 3"/>')
+    d.append(_tekst(links + bx - 166, boven + by - 14, "de band van zijn leeftijdsgenoten", 9.5, DIM, "start"))
+    d.append(_tekst(links + bx / 2, hoogte - 10, "de leeftijd", 10, INK, "middle", True))
+    d.append(f'<text x="16" y="{boven + by/2:.1f}" text-anchor="middle" '
+             f'transform="rotate(-90 16 {boven + by/2:.1f})" font-family="IBM Plex Sans,sans-serif" '
+             f'font-size="10" font-weight="600" fill="{INK}">de lengte</text>')
+    return _svg(breedte, hoogte, "".join(d))

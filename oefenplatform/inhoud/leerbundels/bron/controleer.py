@@ -861,6 +861,67 @@ CONTROLES = [
 ]
 
 
+def _rijen(module, slug, kop):
+    """Hoeveel rijen staat er in de kadertabel onder die sectiekop? Zo kan een
+    bundel niet 'de negen levensloopfasen' beloven en er acht opsommen."""
+    import importlib
+    m = importlib.import_module(module)
+    b = m.BUNDELS[slug]
+    for s in b["secties"]:
+        if s["kop"] == kop:
+            for soort, inhoud in s["blokken"]:
+                if soort == "kader":
+                    return inhoud.count("<tr>") - 1
+    raise KeyError(f"{slug}: geen kadertabel onder {kop!r}")
+
+
+_OP = "maak_ontwikkeling_en_pedagogisch_handelen"
+CONTROLES += [
+    ("op: vier soorten welbevinden", 4,
+     _rijen(_OP, "welzijn-en-welbevinden-boost-dubbele-finaliteit", "De vier soorten welbevinden")),
+    ("op: vier determinanten van Lalonde", 4,
+     _rijen(_OP, "wat-bepaalt-onze-gezondheid-boost-dubbele-finaliteit",
+            "De vier determinanten van Lalonde")),
+    ("op: negen levensloopfasen", 9,
+     _rijen(_OP, "ontwikkeling-de-basisbegrippen-boost-dubbele-finaliteit",
+            "De negen levensloopfasen")),
+    ("op: vijf ontwikkelingsdomeinen", 5,
+     _rijen(_OP, "ontwikkeling-de-basisbegrippen-boost-dubbele-finaliteit",
+            "De vijf ontwikkelingsdomeinen")),
+    ("op: drie groeiprincipes", 3,
+     _rijen(_OP, "de-fysieke-en-motorische-ontwikkeling-boost-dubbele-finaliteit",
+            "De drie groeiprincipes")),
+    ("op: drie stadia bij Kohlberg", 3,
+     _rijen(_OP, "kohlberg-en-erikson-boost-dubbele-finaliteit",
+            "Kohlberg: de morele ontwikkeling")),
+    ("op: acht conflicten bij Erikson", 8,
+     _rijen(_OP, "kohlberg-en-erikson-boost-dubbele-finaliteit",
+            "Erikson: de persoonlijkheidsontwikkeling")),
+    ("op: zeven soorten spel", 7,
+     _rijen(_OP, "de-socio-emotionele-ontwikkeling-boost-dubbele-finaliteit", "De soorten spel")),
+    ("op: vijf criteria voor een goede observatie", 5,
+     _rijen(_OP, "waarnemen-en-observeren-boost-dubbele-finaliteit", "Een goede observatie")),
+    ("op: zes basisbehoeften van Kind en Gezin", 6,
+     _rijen(_OP, "gedrag-en-behoeften-boost-dubbele-finaliteit",
+            "De zes basisbehoeften van Kind en Gezin")),
+    ("op: vijf expressievormen", 5,
+     _rijen(_OP, "vrije-tijd-spel-en-expressie-boost-dubbele-finaliteit", "De vijf expressievormen")),
+    ("op: zes spelvormen", 6,
+     _rijen(_OP, "spelvormen-en-speelgoed-boost-dubbele-finaliteit", "De zes spelvormen")),
+    ("op: vier soorten activiteiten voor volwassenen", 4,
+     _rijen(_OP, "activiteiten-voor-volwassenen-boost-dubbele-finaliteit",
+            "De vier soorten activiteiten")),
+    ("op: vijf manieren van kwaliteitsbewust werken", 5,
+     _rijen(_OP, "activiteiten-voor-volwassenen-boost-dubbele-finaliteit",
+            "Kwaliteitsbewust werken")),
+    ("op: vijf babyreflexen", 5,
+     _rijen(_OP, "de-fysieke-en-motorische-ontwikkeling-boost-dubbele-finaliteit",
+            "De babyreflexen")),
+    ("op: vier vormen van gehechtheid", 4,
+     _rijen(_OP, "de-socio-emotionele-ontwikkeling-boost-dubbele-finaliteit", "Gehechtheid")),
+]
+
+
 def main():
     fout = 0
     for naam, beweerd, nagerekend in CONTROLES:
