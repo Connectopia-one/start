@@ -936,3 +936,63 @@ def main():
 
 if __name__ == "__main__":
     raise SystemExit(main())
+
+
+def _tabelrijen(module, slug, kop):
+    """Hoeveel rijen telt de tabel onder die sectiekop? Anders dan `_rijen`
+    kijkt deze ook in een ("fig", tabel(...), onderschrift)-blok, want zo staan
+    de tabellen in de nieuwere bundels. Zo kan een bundel niet 'zes soorten
+    teksten' beloven en er vijf opsommen."""
+    import importlib
+    m = importlib.import_module(module)
+    b = m.BUNDELS[slug]
+    for s in b["secties"]:
+        if s["kop"] == kop:
+            for blok in s["blokken"]:
+                for deel in blok:
+                    if isinstance(deel, str) and "<tr>" in deel:
+                        return deel.count("<tr>") - 1
+    raise KeyError(f"{slug}: geen tabel onder {kop!r}")
+
+
+_FB = "maak_frans_boost"
+_N = "-boost-doorstroom"
+CONTROLES += [
+    ("fr boost: zes soorten teksten", 6,
+     _tabelrijen(_FB, "tekstsoorten-tekstverbanden-en-verwijswoorden" + _N, "Zes soorten teksten")),
+    ("fr boost: zes verbanden met signaalwoorden", 6,
+     _tabelrijen(_FB, "tekstsoorten-tekstverbanden-en-verwijswoorden" + _N,
+                 "Signaalwoorden: de draad zichtbaar maken")),
+    ("fr boost: zes verwijswoorden", 6,
+     _tabelrijen(_FB, "tekstsoorten-tekstverbanden-en-verwijswoorden" + _N,
+                 "Verwijswoorden: waarnaar wijst dat woordje terug?")),
+    ("fr boost: vier soorten lidwoorden", 4,
+     _tabelrijen(_FB, "zelfstandige-naamwoorden-lidwoorden-en-determinanten" + _N,
+                 "Vier soorten lidwoorden")),
+    ("fr boost: vijf soorten determinanten", 5,
+     _tabelrijen(_FB, "zelfstandige-naamwoorden-lidwoorden-en-determinanten" + _N,
+                 "Determinanten: alles wat nog voor een naamwoord kan staan")),
+    ("fr boost: vier vormen van tout", 4,
+     _tabelrijen(_FB, "zelfstandige-naamwoorden-lidwoorden-en-determinanten" + _N,
+                 "Chaque, tout en de rangtelwoorden")),
+    ("fr boost: vier rijen persoonlijke voornaamwoorden", 4,
+     _tabelrijen(_FB, "voornaamwoorden-cod-coi-y-en-en" + _N, "Het lijdend voorwerp (COD)")),
+    ("fr boost: vier betrekkelijke voornaamwoorden", 4,
+     _tabelrijen(_FB, "voornaamwoorden-cod-coi-y-en-en" + _N,
+                 "De betrekkelijke voornaamwoorden: qui, que, dont, où")),
+    ("fr boost: vijf soorten zelfstandige voornaamwoorden", 5,
+     _tabelrijen(_FB, "voornaamwoorden-cod-coi-y-en-en" + _N,
+                 "Voornaamwoorden die alleen kunnen staan")),
+    ("fr boost: vijf vormen om te vergelijken", 5,
+     _tabelrijen(_FB, "bijvoeglijke-naamwoorden-bijwoorden-en-de-trappen" + _N, "Vergelijken: de trappen")),
+    ("fr boost: zes onregelmatige werkwoorden in de présent", 6,
+     _tabelrijen(_FB, "present-imperatif-en-de-wederkerende-werkwoorden" + _N,
+                 "De onregelmatige werkwoorden")),
+    ("fr boost: drie vraagvormen", 3,
+     _tabelrijen(_FB, "soorten-zinnen-bijzinnen-en-si-zinnen" + _N,
+                 "Drie manieren om een vraag te stellen")),
+    ("fr boost: zes ontkenningen", 6,
+     _tabelrijen(_FB, "soorten-zinnen-bijzinnen-en-si-zinnen" + _N, "Ontkennen")),
+    ("fr boost: zes werkwoorden met een eigen subjonctif", 6,
+     _tabelrijen(_FB, "futur-conditionnel-en-subjonctif" + _N, "De subjonctif: de vorm")),
+]
