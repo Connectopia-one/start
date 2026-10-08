@@ -1,0 +1,155 @@
+{
+ "vak": "Frans",
+ "titel": "De toekomende tijd en de conditionnel",
+ "onder": "De futur proche en de futur simple, welke van de twee je neemt, en de conditionnel om hoffelijk te vragen.",
+ "secties": [
+  {
+   "kop": "De futur proche: aller + infinitief",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "De eenvoudigste toekomst van het Frans is <strong>aller in de présent plus een infinitief</strong>. Je vervoegt alleen <em>aller</em>; het tweede werkwoord blijft onveranderd."
+    },
+    {
+     "soort": "figuur",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Frans</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Nederlands</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">je vais manger</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">ik ga eten</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">tu vas partir</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">je gaat vertrekken</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">il va pleuvoir</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">het gaat regenen</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">nous allons voir</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">we gaan zien</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">vous allez travailler</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">jullie gaan werken</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">ils vont arriver</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">ze gaan aankomen</td></tr></table>",
+     "onderschrift": "Alleen aller verandert mee; de infinitief blijft staan zoals hij is."
+    },
+    {
+     "soort": "tekst",
+     "html": "De ontkenning gaat rond <em>aller</em>, niet rond de infinitief: <em>je ne vais pas manger</em>. En een voornaamwoord hoort bij de infinitief: <em>je vais <strong>t'</strong>appeler</em>."
+    },
+    {
+     "soort": "weetje",
+     "html": "<em>Je vais à Paris</em> betekent gewoon 'ik ga naar Parijs': dat is <em>aller</em> als volwaardig werkwoord. Pas als er een <strong>infinitief</strong> op volgt, is het een toekomende tijd."
+    },
+    {
+     "soort": "tekst",
+     "html": "<em>Nous <strong>allons</strong> <strong>partir</strong></em>, <em>je vais <strong>regarder</strong> la télé</em>: dat is een plan voor <strong>straks</strong>, en dus kies je <strong>eerder</strong> de futur proche dan de futur simple. In de <strong>ontkenning</strong> staan <em>ne</em> en <em>pas</em> rond <em>aller</em>, niet rond de infinitief: <em>je <strong>ne</strong> vais <strong>pas</strong> <strong>sortir</strong></em>."
+    }
+   ]
+  },
+  {
+   "kop": "De futur simple",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "De futur simple is <strong>één woord</strong>. Je neemt de infinitief en plakt de uitgangen <strong>-ai, -as, -a, -ons, -ez, -ont</strong> eraan. Bij een werkwoord op <strong>-re</strong> valt de e weg."
+    },
+    {
+     "soort": "figuur",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">parler</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">finir</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">prendre</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">je parlerai</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">je finirai</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">je prendrai</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">tu parleras</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">tu finiras</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">tu prendras</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">il parlera</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">il finira</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">il prendra</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">nous parlerons</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">nous finirons</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">nous prendrons</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">vous parlerez</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">vous finirez</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">vous prendrez</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">ils parleront</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">ils finiront</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">ils prendront</td></tr></table>",
+     "onderschrift": "De uitgangen zijn de vormen van avoir: ai, as, a, ons, ez, ont."
+    },
+    {
+     "soort": "tekst",
+     "html": "Tussen de stam en de uitgang zit <strong>altijd een r</strong>. Dat is het kenmerk van deze tijd: hoor of zie je een r voor de uitgang, dan kijkt de zin vooruit."
+    },
+    {
+     "soort": "figuur",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">werkwoord</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">stam</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">je-vorm</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">être</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">ser-</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">je serai</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">avoir</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">aur-</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">j'aurai</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">aller</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">ir-</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">j'irai</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">faire</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">fer-</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">je ferai</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">pouvoir</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">pourr-</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">je pourrai</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">vouloir</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">voudr-</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">je voudrai</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">venir</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">viendr-</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">je viendrai</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">voir</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">verr-</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">je verrai</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">devoir</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">devr-</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">je devrai</td></tr></table>",
+     "onderschrift": "Deze stammen moet je kennen; de uitgangen blijven dezelfde."
+    },
+    {
+     "soort": "tekst",
+     "html": "Verwar <em>j'irai</em> (futur simple van aller) niet met <em>je vais aller</em> (futur proche). Beide betekenen dat je zal gaan."
+    },
+    {
+     "soort": "tekst",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Werkwoord</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Onregelmatige stam</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Futur simple</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">être</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">ser-</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">je serai</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">avoir</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">aur-</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">j'aurai</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">aller</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">ir-</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">j'irai</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">faire</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">fer-</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">je ferai</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">venir</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">viendr-</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">je viendrai</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">pouvoir</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">pourr-</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">je pourrai</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">vouloir</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">voudr-</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">je voudrai</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>savoir</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">saur-</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">je <strong>saurai</strong></td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">voir</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">verr-</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">je verrai</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">devoir</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">devr-</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">je devrai</td></tr></table>"
+    },
+    {
+     "soort": "tekst",
+     "html": "Alle andere werkwoorden nemen gewoon de infinitief: <em>parler</em> → <em>je parlerai</em>, <em>finir</em> → <em>je finirai</em>. Bij een infinitief op -re valt de e weg: <em>prendre</em> → <em>je prendrai</em>."
+    },
+    {
+     "soort": "tekst",
+     "html": "Na <strong>si</strong> met een présent volgt de futur: <em>Si tu viens, je <strong>serai</strong> <strong>content</strong>.</em> Een futur meteen na <em>si</em> schrijf je niet."
+    },
+    {
+     "soort": "tekst",
+     "html": "En een <strong>accent</strong> dat je in de présent hebt, blijft in de futur staan: <em>j'achète</em> wordt <em>j'<strong>achèterai</strong></em>. Het <strong>verdwijnt</strong> dus niet."
+    }
+   ]
+  },
+  {
+   "kop": "Welke van de twee neem je?",
+   "blokken": [
+    {
+     "soort": "figuur",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">futur proche</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">futur simple</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">spreektaal, dagelijks</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">schrijftaal, formeler</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">dichtbij of al geregeld</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">verder weg, een plan, een voorspelling</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">je vais appeler le médecin</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">l'année prochaine, je ferai un stage</td></tr></table>",
+     "onderschrift": "In een mail of een verslag staat vaker de futur simple, in een gesprekje de futur proche."
+    },
+    {
+     "soort": "tekst",
+     "html": "Ze zijn niet streng gescheiden: in een gewone zin kunnen ze meestal beide. Maar in een <strong>sollicitatiemail</strong> of een geschreven verslag kiest het Frans vaker de futur simple, en in een berichtje of een gesprek de futur proche."
+    },
+    {
+     "soort": "tekst",
+     "html": "Een <strong>tijdsbepaling</strong> verraadt wat er moet staan: <em>demain</em>, <em>la semaine prochaine</em>, <em>l'année prochaine</em> en <em>dans trois jours</em> kijken vooruit en vragen een toekomende tijd. <em>Hier</em> en <em>la semaine dernière</em> kijken terug, <em>maintenant</em> blijft in het nu."
+    }
+   ]
+  },
+  {
+   "kop": "De conditionnel de politesse",
+   "blokken": [
+    {
+     "soort": "kader",
+     "html": "Van de conditionnel heb je hier <strong>alleen de hoffelijke vorm</strong> nodig. Je gebruikt ze om iets te <strong>vragen of te wensen zonder bruusk te klinken</strong>. Je hoeft de conditionnel niet als volledige tijd te kennen."
+    },
+    {
+     "soort": "figuur",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">hoffelijk</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">letterlijk</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">wanneer</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">je voudrais un café</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">ik zou een koffie willen</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">iets vragen in een winkel of café</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">j'aimerais travailler ici</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">ik zou hier graag werken</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een wens in een mail</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">pourriez-vous m'aider ?</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">zou u me kunnen helpen?</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een vraag aan iemand die u is</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">pourrais-tu venir ?</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">zou je kunnen komen?</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een vraag aan iemand die tu is</td></tr></table>",
+     "onderschrift": "Je veux un café klinkt eisend; je voudrais un café is wat je in een café zegt."
+    },
+    {
+     "soort": "tekst",
+     "html": "De vormen die je nodig hebt: <em>je voudrais</em>, <em>j'aimerais</em>, <em>je pourrais</em>, <em>pourriez-vous</em>, <em>pourrais-tu</em>, <em>est-ce que vous pourriez…</em> Ze eindigen op <strong>-ais</strong> of <strong>-iez</strong> en hebben, net als de futur simple, een <strong>r</strong> voor de uitgang."
+    },
+    {
+     "soort": "tekst",
+     "html": "Dat laatste leidt tot één verraderlijk paar: <em>j'aurai</em> is de toekomst ('ik zal hebben'), <em>j'aurais</em> met een <strong>s</strong> is de hoffelijke of voorwaardelijke vorm ('ik zou hebben'). Zo ook <em>je serai</em> tegenover <em>je serais</em>, en <em>je pourrai</em> tegenover <em>je pourrais</em>. Eén letter verschil, een andere betekenis."
+    },
+    {
+     "soort": "tekst",
+     "html": "In een <strong>mail aan iemand die u is</strong> gaat die hoffelijke vorm samen met de rest van de vous-vorm: <em>Madame, j'aimerais poser ma candidature. Pourriez-vous me donner plus d'informations ?</em>"
+    }
+   ]
+  },
+  {
+   "kop": "De conditionnel: hoe je hem maakt",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "De conditionnel zegt wat er <strong>zou</strong> gebeuren. Je maakt hem met de <strong>stam van de futur simple</strong> (meestal de infinitief) en de <strong>uitgangen van de imparfait</strong>: -ais, -ais, -ait, -ions, -iez, -aient."
+    },
+    {
+     "soort": "tekst",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Werkwoord</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Conditionnel</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Nederlands</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">parler</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">je <strong>parlerais</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">ik zou spreken</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">être</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">je <strong>serais</strong>, nous <strong>serions</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">ik zou zijn, wij zouden zijn</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">avoir</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">j'aurais, vous <strong>auriez</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">ik zou hebben</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">pouvoir</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">je pourrais, <strong>pourriez</strong>-vous</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">ik zou kunnen, zou u kunnen</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">vouloir</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">je <strong>voudrais</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">ik zou willen</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">aimer</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>j'aimerais</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">ik zou graag <strong>willen</strong></td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">devoir</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">tu <strong>devrais</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">jij zou moeten</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">aller</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">j'irais</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">ik zou gaan</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">faire</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">je ferais</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">ik zou doen</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">venir</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">je <strong>viendrais</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">ik zou komen</td></tr></table>"
+    },
+    {
+     "soort": "kader",
+     "html": "<strong>Eén letter scheidt twee tijden.</strong> <em>Je <strong>parlerai</strong></em> is de futur simple: ik zal spreken, het gebeurt. <em>Je <strong>parlerais</strong></em> is de conditionnel: ik zou spreken, als. Die s hoor je niet, dus hij valt in een dictee weg en op papier niet."
+    },
+    {
+     "soort": "tekst",
+     "html": "Na <strong>si</strong> met een imparfait volgt een conditionnel: <em>Si <strong>j'étais</strong> riche, <strong>j'achèterais</strong> une <strong>maison</strong>.</em> En <em>on pourrait aller au <strong>cinéma</strong></em> betekent: we <strong>zouden</strong> naar de film kunnen gaan, dus een voorstel."
+    }
+   ]
+  },
+  {
+   "kop": "Hoffelijk zijn met de conditionnel",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Waar</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Wat je zegt</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">in een <strong>winkel</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><em>Je <strong>voudrais</strong> des <strong>croissants</strong>, s'il vous plaît.</em></td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">om hulp <strong>vragen</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><em><strong>Pourriez</strong>-vous m'aider ?</em>, <em><strong>Pourriez</strong>-vous <strong>fermer</strong> la porte ?</em></td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">om tijd vragen</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><em><strong>Auriez</strong>-vous une <strong>minute</strong> ?</em></td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">iets <strong>reserveren</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><em>J'aimerais <strong>réserver</strong> une table.</em></td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een <strong>raad</strong> geven</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><em>Tu <strong>devrais</strong> te <strong>reposer</strong>.</em></td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">in een mail aan een <strong>onbekende</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><em>Je vous serais <strong>reconnaissant</strong> de me répondre.</em></td></tr></table>"
+    },
+    {
+     "soort": "tekst",
+     "html": "Dit is wat de fiche de <strong>conditionnel de politesse</strong> noemt: dezelfde vraag, maar met een stap afstand. <em>Je veux</em> klinkt als eisen, <em>je voudrais</em> als vragen."
+    }
+   ]
+  }
+ ],
+ "onthoud": []
+}

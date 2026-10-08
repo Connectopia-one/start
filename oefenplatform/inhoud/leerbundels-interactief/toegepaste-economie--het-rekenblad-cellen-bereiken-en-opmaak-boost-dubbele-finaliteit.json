@@ -1,0 +1,88 @@
+{
+ "vak": "Toegepaste economie",
+ "titel": "Het rekenblad: cellen, bereiken en opmaak",
+ "onder": "Hoe een rekenblad opgebouwd is, wat een celadres en een bereik zijn, en wat je met opmaak, sorteren, filteren en blokkeren doet.",
+ "secties": [
+  {
+   "kop": "Cellen, rijen en kolommen",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "<strong>Een cel is het vakje waar je typt</strong>, op het kruispunt van een rij en een kolom. <strong>De kolommen krijgen letters</strong> — A, B, C, en na Z komt AA — <strong>de rijen krijgen getallen</strong>, van boven naar onder."
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Het celadres is eerst de letter van de kolom en dan het nummer van de rij.</strong> <strong>De cel in kolom B, rij 3 is dus B3</strong>, en <strong>die in kolom D, rij 7 is D7</strong>."
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Een bereik is een groep cellen</strong>: een rechthoek die je samen selecteert of in een formule gebruikt. <strong>Het bereik van A1 tot A10 schrijf je als A1:A10</strong>, met een dubbele punt tussen de eerste en de laatste cel."
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Een werkblad heeft duizenden rijen en honderden kolommen</strong>, en <strong>één bestand kan meerdere werkbladen bevatten</strong>, elk met zijn eigen tabblad onderaan. <strong>Bij een werkblad horen een naam op het tabblad, rijen en kolommen, en een eigen reeks cellen</strong>; de bestandsnaam geldt voor het hele bestand, niet per werkblad. Een tabblad hernoem je door erop te dubbelklikken."
+    }
+   ]
+  },
+  {
+   "kop": "Wat je op het scherm ziet",
+   "blokken": [
+    {
+     "soort": "kader",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">onderdeel</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">wat het toont</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>de formulebalk</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>wat er echt in de cel zit</strong>: in de cel zie je het resultaat, hier de formule erachter</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>het naamvak</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>het adres van de cel</strong>; je kan er ook een adres intypen om er meteen heen te springen</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>de statusbalk</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>info over de selectie</strong>, zoals het aantal, het gemiddelde en de som van de geselecteerde cellen</td></tr></table>"
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Wat je in een cel ziet, is niet altijd precies wat erin staat</strong>: een cel kan een formule verbergen of een afgerond getal tonen. Daarvoor is de formulebalk er."
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>In een cel kan een getal, tekst of een formule staan</strong>, en ook een datum, al is dat voor het rekenblad gewoon een getal. <strong>Een formule begint met een isgelijkteken</strong>; zonder dat teken ziet het rekenblad je formule als gewone tekst."
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Selecteren gaat op drie manieren</strong>: op een kolomletter klikken voor een hele kolom, op een rijnummer voor een hele rij, of slepen over cellen voor een bereik. Het hele blad selecteer je met het vakje linksboven, of met ctrl + a."
+    }
+   ]
+  },
+  {
+   "kop": "Opmaak en getalnotatie",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "<strong>De getalnotatie bepaalt hoe een getal getoond wordt</strong>: als bedrag, als percentage, als datum of met een vast aantal cijfers na de komma. <strong>Met de muntnotatie zet het rekenblad zelf het euroteken en twee cijfers na de komma</strong>, en <strong>de percentagenotatie toont 0,25 als 25 procent</strong>: het rekenblad bewaart 0,25 en toont er 25 procent van."
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Afronden met de getalnotatie verandert de waarde in de cel niet.</strong> Je ziet minder cijfers, maar het rekenblad blijft met het volledige getal rekenen. Dat is een belangrijk verschil met de functie AFRONDEN."
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Staat een cel vol hekjes, dan is de kolom te smal.</strong> Maak ze breder en het getal verschijnt gewoon; er is niets stuk."
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Met de opmaak van een cel zet je de rand, kleur je de achtergrond en centreer je de tekst.</strong> Wissen is geen opmaak. <strong>Cellen samenvoegen maakt van meerdere cellen één cel</strong>, vooral voor een titel boven meerdere kolommen; reken er niet mee."
+    }
+   ]
+  },
+  {
+   "kop": "Doortrekken, sorteren, filteren en blokkeren",
+   "blokken": [
+    {
+     "soort": "kader",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">handeling</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">wat ze doet</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>de vulgreep</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>een reeks verderzetten</strong>: je sleept het vierkantje rechtsonder de cel en een reeks dagen, een reeks getallen of een formule loopt door</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>sorteren</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>de rijen herschikken</strong> op een kolom; selecteer het hele bereik, anders schuiven de kolommen los van elkaar</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>filteren</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>enkel tonen wat je wil</strong>: de rijen die niet aan de voorwaarde voldoen worden verborgen, niet gewist</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>titels blokkeren</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>de titelrij vastzetten</strong>, zodat ze zichtbaar blijft bij het scrollen door een lange lijst</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>een kolom verbergen</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>ze onzichtbaar maken, niet wissen</strong>: de gegevens blijven staan en de formules die ernaar verwijzen blijven werken</td></tr></table>"
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Voeg je een rij bij boven een formule, dan schuift de formule mee</strong>: de verwijzingen worden automatisch aangepast. <strong>Verwijder je daarentegen een kolom waar een formule naar verwijst, dan geeft die formule een fout</strong>, want de cel waar ze naar keek bestaat niet meer."
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Waarom is een rekenblad handig voor de boekhouding? Het rekent zelf verder bij een wijziging, je ziet alle bedragen in kolommen en je neemt snel een totaal.</strong> Boeken doet de boekhoudsoftware, niet het rekenblad."
+    }
+   ]
+  }
+ ],
+ "onthoud": []
+}

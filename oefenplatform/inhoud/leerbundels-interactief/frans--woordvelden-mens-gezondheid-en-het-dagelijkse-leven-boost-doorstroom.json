@@ -1,0 +1,167 @@
+{
+ "vak": "Frans",
+ "titel": "Woordvelden: mens, gezondheid en het dagelijkse leven",
+ "onder": "De familie, de gevoelens, het lichaam en de dokter, eten, kleren, het huis en de gang van een gewone dag.",
+ "secties": [
+  {
+   "kop": "De familie",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "De familiewoorden lijken op elkaar, en net daarom worden ze verward. <em>Un <strong>beau</strong>-père</em> is een <strong>schoonvader of een stiefvader</strong> — niet een grootvader en niet een peter. Dezelfde <em>beau-</em> komt terug in <em>une belle-mère</em>, <em>un beau-frère</em> en <em>une belle-sœur</em>."
+    },
+    {
+     "soort": "figuur",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Frans</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Nederlands</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">les grands-parents, ma grand-mère</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">de grootouders, mijn grootmoeder</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">un oncle, une tante</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een oom, een tante</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">un cousin, une cousine</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een neef, een nicht (kind van je oom of tante)</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">un neveu, une nièce</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een neef, een nicht (kind van je broer of zus)</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">un beau-père, une belle-mère</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een schoonvader of stiefvader, een schoonmoeder of stiefmoeder</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">un voisin, une voisine</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een buur — géén familie</td></tr></table>",
+     "onderschrift": "De familiewoorden die in teksten het vaakst terugkomen."
+    },
+    {
+     "soort": "weetje",
+     "html": "<em>Les parents</em> betekent in het Frans niet altijd alleen de vader en de moeder: het kan ook <strong>de familie in het algemeen</strong> zijn, zoals ons woord 'verwanten'. <em>J'ai des parents en France</em> betekent dus dat je daar familie hebt."
+    }
+   ]
+  },
+  {
+   "kop": "Gevoelens",
+   "blokken": [
+    {
+     "soort": "figuur",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Frans</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Nederlands</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">triste</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">verdrietig</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">en colère</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">boos</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">déçu(e)</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">ontgoocheld</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">inquiet, inquiète</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">ongerust</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">content(e), heureux</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">tevreden, gelukkig</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">avoir peur, avoir honte</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">bang zijn, zich schamen</td></tr></table>",
+     "onderschrift": "Gevoelswoorden; mince (slank) staat er bewust niet bij, dat beschrijft een lichaam."
+    },
+    {
+     "soort": "tekst",
+     "html": "<em>Être inquiet</em> is <strong>ongerust</strong> zijn, niet boos en niet verveeld. <em>J'ai <strong>peur</strong> des araignées</em> is: ik ben bang van spinnen. En <em>avoir honte</em> is <strong>zich schamen</strong>."
+    }
+   ]
+  },
+  {
+   "kop": "Het lichaam, ziek zijn en de dokter",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Pijn uitdrukken gaat in het Frans altijd met <strong><em>avoir mal à</em></strong> plus het lichaamsdeel, met het lidwoord erbij: <em>j'ai mal à la <strong>tête</strong></em> is hoofdpijn, <em>j'ai mal à la <strong>gorge</strong></em> is keelpijn. <em>Au cou</em> zou je nek zijn, <em>à la bouche</em> je mond en <em>à la langue</em> je tong."
+    },
+    {
+     "soort": "figuur",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Frans</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Nederlands</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">la tête, la gorge, le cou</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">het hoofd, de keel, de nek</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">l'épaule, le genou, la cheville</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">de schouder, de knie, de enkel</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">se casser le bras</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">zijn arm breken</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">une ordonnance</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een voorschrift van de dokter</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">un médecin, une infirmière</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een arts, een verpleegkundige</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">être en pleine forme</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">in topvorm zijn</td></tr></table>",
+     "onderschrift": "Het lichaam en de woorden van bij de dokter."
+    },
+    {
+     "soort": "tekst",
+     "html": "<em>Il est malade</em>, <em>elle ne se sent pas bien</em> en <em>il a de la fièvre</em> zeggen allemaal dat iemand zich niet goed voelt. <em>Elle est en pleine forme</em> zegt net het <strong>omgekeerde</strong>. En <em>être fatigué</em> is <strong>moe</strong> zijn, niet ziek, niet verkouden en niet gewond."
+    },
+    {
+     "soort": "weetje",
+     "html": "<em>Les cheveux</em> zijn de <strong>haren</strong>, <em>les chevaux</em> zijn de <strong>paarden</strong>. Eén letter verschil, en een zin die ineens iets heel anders zegt."
+    }
+   ]
+  },
+  {
+   "kop": "Avoir waar wij 'zijn' zeggen",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Een vaste valstrik. Het Frans gebruikt <strong>avoir</strong> op plaatsen waar wij 'zijn' zeggen. <em>J'ai <strong>soif</strong></em> is 'ik heb dorst', en <em>il <strong>a</strong> quinze ans</em> betekent <strong>hij is vijftien jaar</strong> — niet dat hij vijftien broers heeft of er vijftien jaar woont."
+    },
+    {
+     "soort": "figuur",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Met avoir</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Nederlands</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Met être</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">avoir faim, avoir soif</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">honger hebben, dorst hebben</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">être content, blij zijn</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">avoir froid, avoir chaud</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">koud hebben, warm hebben</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">être fatigué, moe zijn</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">avoir peur, avoir honte</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">bang zijn, zich schamen</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">être triste, verdrietig zijn</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">avoir … ans</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">… jaar zijn</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">être malade, ziek zijn</td></tr></table>",
+     "onderschrift": "Links de uitdrukkingen met avoir, rechts die met être."
+    }
+   ]
+  },
+  {
+   "kop": "Eten en drinken",
+   "blokken": [
+    {
+     "soort": "figuur",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Frans</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Nederlands</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">un repas</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een maaltijd</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">le pain, la confiture, le café</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">het brood, de confituur, de koffie</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">les légumes, les fruits</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">de groenten, het fruit</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">la viande, le poulet, le poisson</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">het vlees, de kip, de vis</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">une entrée, un plat, un dessert</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een voorgerecht, een gerecht, een nagerecht</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">être au régime</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">op dieet zijn</td></tr></table>",
+     "onderschrift": "Het woordveld eten, met de drie gangen erbij."
+    },
+    {
+     "soort": "tekst",
+     "html": "<em>Un repas</em> is de <strong>maaltijd</strong> zelf; een recept is <em>une recette</em>, een restaurant <em>un restaurant</em> en een bord <em>une assiette</em>. Let ook op <em>le poulet</em> (de kip) tegenover <em>le pain</em> (het brood): bij het ontbijt hoort het tweede."
+    }
+   ]
+  },
+  {
+   "kop": "Kleren, kleuren en materialen",
+   "blokken": [
+    {
+     "soort": "figuur",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Frans</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Nederlands</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">une chemise, un pantalon</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een hemd, een broek</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">une jupe, une robe</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een rok, een kleed</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">des chaussures noires, des chaussettes</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">zwarte schoenen, sokken</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">une ceinture</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een gordel — een accessoire, geen kledingstuk</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">porter</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">dragen, zowel in je handen als aan je lijf</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">le verre, le bois, le cuir</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">het glas, het hout, het leer</td></tr></table>",
+     "onderschrift": "Kleren, een accessoire en drie materialen."
+    },
+    {
+     "soort": "tekst",
+     "html": "Bij de <strong>kleuren</strong> zit een regel die je moet kennen: de meeste kleuren passen zich aan (<em>une robe verte</em>, <em>des robes vertes</em>), maar een paar kleuren die eigenlijk de naam van een <strong>ding</strong> zijn, veranderen <strong>nooit</strong> van vorm."
+    },
+    {
+     "soort": "figuur",
+     "html": "<svg viewBox=\"0 0 470 48\" width=\"470\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"6.0\" y=\"4\" width=\"30\" height=\"30\" rx=\"7\" fill=\"#8b5a2b\" stroke=\"#234539\" stroke-width=\"1.2\"/><text x=\"44.0\" y=\"17\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"11.5\" font-weight=\"600\" fill=\"#234539\">marron</text><text x=\"44.0\" y=\"31\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"10.5\" fill=\"#6b7260\">kastanjebruin</text><rect x=\"123.5\" y=\"4\" width=\"30\" height=\"30\" rx=\"7\" fill=\"#e07b1f\" stroke=\"#234539\" stroke-width=\"1.2\"/><text x=\"161.5\" y=\"17\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"11.5\" font-weight=\"600\" fill=\"#234539\">orange</text><text x=\"161.5\" y=\"31\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"10.5\" fill=\"#6b7260\">oranje</text><rect x=\"241.0\" y=\"4\" width=\"30\" height=\"30\" rx=\"7\" fill=\"#8a8f4a\" stroke=\"#234539\" stroke-width=\"1.2\"/><text x=\"279.0\" y=\"17\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"11.5\" font-weight=\"600\" fill=\"#234539\">kaki</text><text x=\"279.0\" y=\"31\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"10.5\" fill=\"#6b7260\">kaki</text><rect x=\"358.5\" y=\"4\" width=\"30\" height=\"30\" rx=\"7\" fill=\"#2f7d3a\" stroke=\"#234539\" stroke-width=\"1.2\"/><text x=\"396.5\" y=\"17\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"11.5\" font-weight=\"600\" fill=\"#234539\">vert</text><text x=\"396.5\" y=\"31\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"10.5\" fill=\"#6b7260\">groen</text></svg>",
+     "onderschrift": "De eerste drie blijven onveranderlijk; vert is een gewone kleur om naast te leggen."
+    },
+    {
+     "soort": "tekst",
+     "html": "<em>Des chaussures <strong>marron</strong></em> dus, maar <em>des chaussures <strong>vertes</strong></em>. <em>Marron</em> is immers een kastanje, <em>orange</em> een sinaasappel en <em>kaki</em> een vrucht."
+    }
+   ]
+  },
+  {
+   "kop": "Het huis",
+   "blokken": [
+    {
+     "soort": "figuur",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Frans</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Nederlands</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">la cuisine</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">de keuken</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">la salle de bains, une serviette</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">de badkamer, een handdoek</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">la chambre</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">de slaapkamer</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">le rez-de-chaussée</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">het gelijkvloers</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">un immeuble, un appartement</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een gebouw, een appartement</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">un canapé, un portefeuille, des clés</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een zetel, een portefeuille, sleutels</td></tr></table>",
+     "onderschrift": "De kamers van een huis, en wat er in staat of in je zak zit."
+    },
+    {
+     "soort": "tekst",
+     "html": "<em>L'immeuble</em> is géén kamer maar het <strong>gebouw</strong> waarin de appartementen zitten. En <em>le rez-de-chaussée</em> is het <strong>gelijkvloers</strong>: de eerste verdieping is in het Frans al één trap hoger dan bij ons gevoel."
+    },
+    {
+     "soort": "weetje",
+     "html": "<em>Un a<strong>pp</strong>artement</em> schrijf je in het Frans met <strong>twee p's</strong>, anders dan het Engelse <em>apartment</em>. Zulke kleine verschillen tussen Frans en Engels kosten op een examen punten."
+    }
+   ]
+  },
+  {
+   "kop": "De gang van een gewone dag",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Wat je dagelijks doet, staat in het Frans vaak in een <strong>wederkerend</strong> werkwoord: <em>je <strong>me</strong> lève</em>, <em>je <strong>me</strong> lave</em>, <em>je <strong>m'</strong>habille</em>. <em>Je me <strong>lève</strong> à sept heures</em> is: ik sta om zeven uur op."
+    },
+    {
+     "soort": "figuur",
+     "html": "<svg viewBox=\"0 0 470 76\" width=\"470\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"0.0\" y=\"6\" width=\"98.0\" height=\"62\" rx=\"10\" fill=\"#ffffff\" stroke=\"#2f5d50\" stroke-width=\"1.8\"/><text x=\"49.0\" y=\"29.0\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"11.5\" font-weight=\"600\" fill=\"#234539\">se lever</text><text x=\"49.0\" y=\"45.0\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"10\" font-weight=\"400\" fill=\"#6b7260\">opstaan</text><path d=\"M103.0 37.0 h12 m0 0 l-6 -5 m6 5 l-6 5\" stroke=\"#2f5d50\" stroke-width=\"2\" fill=\"none\" stroke-linecap=\"round\"/><rect x=\"124.0\" y=\"6\" width=\"98.0\" height=\"62\" rx=\"10\" fill=\"#ffffff\" stroke=\"#2f5d50\" stroke-width=\"1.8\"/><text x=\"173.0\" y=\"29.0\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"11.5\" font-weight=\"600\" fill=\"#234539\">se laver</text><text x=\"173.0\" y=\"45.0\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"10\" font-weight=\"400\" fill=\"#6b7260\">je wassen</text><path d=\"M227.0 37.0 h12 m0 0 l-6 -5 m6 5 l-6 5\" stroke=\"#2f5d50\" stroke-width=\"2\" fill=\"none\" stroke-linecap=\"round\"/><rect x=\"248.0\" y=\"6\" width=\"98.0\" height=\"62\" rx=\"10\" fill=\"#ffffff\" stroke=\"#2f5d50\" stroke-width=\"1.8\"/><text x=\"297.0\" y=\"29.0\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"11.5\" font-weight=\"600\" fill=\"#234539\">s'habiller</text><text x=\"297.0\" y=\"45.0\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"10\" font-weight=\"400\" fill=\"#6b7260\">je kleden</text><path d=\"M351.0 37.0 h12 m0 0 l-6 -5 m6 5 l-6 5\" stroke=\"#2f5d50\" stroke-width=\"2\" fill=\"none\" stroke-linecap=\"round\"/><rect x=\"372.0\" y=\"6\" width=\"98.0\" height=\"62\" rx=\"10\" fill=\"#ffffff\" stroke=\"#2f5d50\" stroke-width=\"1.8\"/><text x=\"421.0\" y=\"29.0\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"11.5\" font-weight=\"600\" fill=\"#234539\">se coucher</text><text x=\"421.0\" y=\"45.0\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"10\" font-weight=\"400\" fill=\"#6b7260\">gaan slapen</text></svg>",
+     "onderschrift": "Vier wederkerende werkwoorden in de orde van een dag; alleen het laatste hoort bij de avond."
+    },
+    {
+     "soort": "figuur",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Frans</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Nederlands</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">faire la vaisselle</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">de vaat doen, afwassen</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">faire la lessive</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">de was doen in de wasmachine</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">ranger sa chambre</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">zijn kamer opruimen</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">faire les courses</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">boodschappen doen</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">mettre la table</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">de tafel dekken</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">sortir la poubelle</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">de vuilnisbak buitenzetten</td></tr></table>",
+     "onderschrift": "De huishoudelijke klussen die in teksten en opdrachten terugkomen."
+    },
+    {
+     "soort": "tekst",
+     "html": "Twee die op elkaar lijken: <em>faire la <strong>vaisselle</strong></em> is <strong>afwassen</strong>, <em>faire la <strong>lessive</strong></em> is de was doen in de wasmachine. En <em>ranger sa chambre</em> is zijn kamer <strong>opruimen</strong>, niet schilderen, huren of verlaten."
+    }
+   ]
+  },
+  {
+   "kop": "Oefen dit ook buiten het scherm",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Hier oefen je lezen, schrijven, woordenschat en grammatica. Maar het examen <strong>Frans 1</strong> is voor de helft <strong>luisteren</strong>, en <strong>Frans 2</strong> bestaat naast de twee schrijfopdrachten uit een <strong>spreekopdracht</strong> die je thuis opneemt en een <strong>gesprek van tien minuten</strong>. Die drie leer je niet achter een scherm, maar door Frans te horen en zelf Frans te praten, ook als het hakkelt."
+    },
+    {
+     "soort": "kader",
+     "html": "<strong>Deze week:</strong> vertel in het Frans aan iemand hoe jouw dag van vandaag verliep, van het opstaan tot nu, en gebruik daarbij minstens drie wederkerende werkwoorden. Doe het één keer en let daarna op wat je miste of niet gezegd kreeg. Dat is precies je volgende oefening."
+    }
+   ]
+  }
+ ],
+ "onthoud": []
+}

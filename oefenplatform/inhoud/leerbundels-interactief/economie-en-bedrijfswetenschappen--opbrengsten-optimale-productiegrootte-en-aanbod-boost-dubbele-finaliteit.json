@@ -1,0 +1,92 @@
+{
+ "vak": "Economie en bedrijfswetenschappen",
+ "titel": "Opbrengsten, optimale productiegrootte en aanbod",
+ "onder": "De totale, gemiddelde en marginale opbrengst, de optimale productiegrootte waar MO gelijk is aan MK, het verschil tussen omzet en winst, en hoe de aanbodcurve uit de marginale kosten volgt.",
+ "secties": [
+  {
+   "kop": "De drie opbrengsten",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "De vakfiche noemt drie opbrengstbegrippen. <strong>De totale opbrengst is prijs maal aantal</strong>: de verkoopprijs maal het aantal verkochte stuks. <strong>De gemiddelde opbrengst is de opbrengst per stuk</strong>, en <strong>de marginale opbrengst is de opbrengst van één extra stuk</strong>."
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Bij volkomen concurrentie liggen die laatste twee allebei gelijk aan de prijs</strong>: elk stuk, ook het extra stuk, gaat weg aan dezelfde marktprijs. <strong>De gemiddelde opbrengst daalt er dus niet als je meer verkoopt</strong>: de prijs staat vast, dus de opbrengst per stuk blijft dezelfde."
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Bij een vaste prijs is de curve van de totale opbrengsten een stijgende rechte</strong>: elk extra stuk brengt hetzelfde bedrag op, dus de lijn klimt gelijkmatig. <strong>Op de assen van een opbrengstencurve staan de euro's verticaal en de hoeveelheid horizontaal.</strong>"
+    }
+   ]
+  },
+  {
+   "kop": "De optimale productiegrootte",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "<strong>De winst is de opbrengst min de kosten</strong>; is het verschil negatief, dan is er verlies. <strong>De optimale productiegrootte is de hoeveelheid waarbij de winst het grootst is</strong>, en <strong>ze ligt waar de marginale opbrengst gelijk is aan de marginale kost</strong>."
+    },
+    {
+     "soort": "tekst",
+     "html": "De reden is eenvoudig. <strong>Is de marginale opbrengst hoger dan de marginale kost, dan moet je méér produceren</strong>: dat extra stuk voegt nog winst toe. <strong>Is de marginale kost hoger, dan moet je minder produceren</strong>: dat stuk kost meer dan het opbrengt en eet van de winst."
+    },
+    {
+     "soort": "tekst",
+     "html": "Neem de onderneming uit het vorige hoofdstuk, met een huur van 1 200 euro, en een prijs van 13 euro per stuk."
+    },
+    {
+     "soort": "kader",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">stuks</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">TO</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">TK</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">winst</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">400</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">5 200 euro</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">4 000 euro</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">1 200 euro</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">500</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">6 500 euro</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">5 075 euro</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">1 425 euro</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">600</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">7 800 euro</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">6 300 euro</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>1 500 euro</strong></td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">700</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">9 100 euro</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">7 675 euro</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">1 425 euro</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">800</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">10 400 euro</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">9 200 euro</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">1 200 euro</td></tr></table>"
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>De winst is het grootst bij 600 stuks, en daar is ze 1 500 euro.</strong> <strong>Het 601ste stuk kost ongeveer 13 euro en brengt ook 13 euro op</strong>: precies het punt waar MO en MK gelijk zijn. <strong>Daar is het verschil tussen TO en TK ook het grootst</strong>, en dat is dezelfde zaak in andere woorden."
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>De winst is dus niet het grootst waar de productie het grootst is</strong>: bij 800 stuks verkoopt deze onderneming meer en houdt ze minder over. <strong>Voorbij het optimum daalt de winst</strong>, want elk stuk erbij kost meer dan het opbrengt."
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Je vindt het optimum op drie manieren</strong>: grafisch waar MO en MK snijden, rekenkundig met een tabel zoals hierboven, of door te zoeken waar het verschil tussen TO en TK het grootst is. <strong>De hoogste omzet is niet de hoogste winst</strong>, want de kosten lopen mee op."
+    },
+    {
+     "soort": "weetje",
+     "html": "Dat is ook het antwoord op de vraag waarom een onderneming met een hoge omzet toch verlies kan maken. <strong>De omzet is alles wat binnenkomt, de winst is wat er na de kosten overblijft</strong>; omzet en winst zijn geen twee woorden voor hetzelfde."
+    }
+   ]
+  },
+  {
+   "kop": "Van optimum naar aanbodcurve",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "<strong>Stijgt de prijs, dan wordt de optimale productiegrootte groter</strong>: de marginale opbrengst gaat omhoog, dus produceren loont langer. Bij dezelfde onderneming is <strong>600 stuks het optimum bij 13 euro en 800 stuks bij 16 euro</strong>. <strong>Daalt de prijs, dan wordt het optimum kleiner</strong>: het snijpunt met de marginale kosten schuift naar links."
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Stijgen de kosten bij een gelijke prijs, dan wordt er minder gemaakt</strong>: de marginale kostencurve schuift omhoog en snijdt de opbrengst eerder."
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>De individuele aanbodcurve is wat één verkoper aanbiedt</strong> bij elke prijs, en <strong>ze loopt stijgend</strong>: bij een hogere prijs loont het om ook de duurdere extra stuks nog te maken. <strong>Ze loopt dus niet dalend zoals de vraagcurve.</strong>"
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>De aanbodcurve is het stijgende stuk van de marginale kostencurve</strong>: bij elke prijs produceert hij tot MO gelijk is aan MK, en dat punt ligt op het stijgende deel. <strong>Wat hij aanbiedt, hangt af van de marktprijs, van zijn marginale kosten en van zijn productiemogelijkheden</strong>; de voorkeuren van de klant zitten in de vraagcurve, niet hier."
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>De collectieve aanbodcurve, ook het collectief aanbod of het marktaanbod, is al het aanbod samen</strong>: bij elke prijs tel je de aangeboden hoeveelheden van alle producenten op. <strong>Eén producent met hogere kosten verandert de marktprijs niet</strong>; hij biedt enkel zelf minder aan."
+    },
+    {
+     "soort": "figuur",
+     "html": "<svg viewBox=\"0 0 430 250\" width=\"430\" xmlns=\"http://www.w3.org/2000/svg\"><line x1=\"44\" y1=\"14\" x2=\"44\" y2=\"214\" stroke=\"#23291f\" stroke-width=\"1.8\"/><line x1=\"44\" y1=\"214\" x2=\"418\" y2=\"214\" stroke=\"#23291f\" stroke-width=\"1.8\"/><text x=\"42.0\" y=\"12.0\" text-anchor=\"start\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"10.5\" font-weight=\"600\" fill=\"#6b7260\">prijs</text><text x=\"418.0\" y=\"230.0\" text-anchor=\"end\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"10.5\" font-weight=\"600\" fill=\"#6b7260\">hoeveelheid</text><line x1=\"81.0\" y1=\"37.6\" x2=\"377.0\" y2=\"194.4\" stroke=\"#2f5d50\" stroke-width=\"2.2\"/><line x1=\"81.0\" y1=\"194.4\" x2=\"377.0\" y2=\"37.6\" stroke=\"#c17f2b\" stroke-width=\"2.2\"/><text x=\"383.0\" y=\"194.4\" text-anchor=\"start\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"12\" font-weight=\"600\" fill=\"#2f5d50\">V</text><text x=\"383.0\" y=\"37.6\" text-anchor=\"start\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"12\" font-weight=\"600\" fill=\"#c17f2b\">A</text><line x1=\"44.0\" y1=\"116.0\" x2=\"229.0\" y2=\"116.0\" stroke=\"#6b7260\" stroke-width=\"1\" stroke-dasharray=\"3 3\"/><line x1=\"229.0\" y1=\"214.0\" x2=\"229.0\" y2=\"116.0\" stroke=\"#6b7260\" stroke-width=\"1\" stroke-dasharray=\"3 3\"/><circle cx=\"229.0\" cy=\"116.0\" r=\"4\" fill=\"#23291f\"/><text x=\"236.0\" y=\"109.0\" text-anchor=\"start\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"11\" font-weight=\"600\" fill=\"#23291f\">E</text></svg>",
+     "onderschrift": "De vraag en het aanbod komen op de markt samen in het evenwichtspunt E: daar is de gevraagde hoeveelheid gelijk aan de aangeboden hoeveelheid."
+    }
+   ]
+  }
+ ],
+ "onthoud": []
+}

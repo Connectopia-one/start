@@ -1,0 +1,101 @@
+{
+ "vak": "Toegepaste economie",
+ "titel": "Van proefbalans tot eindbalans",
+ "onder": "De proef- en saldibalans als controle, de eindejaarsverrichtingen met de afschrijvingen en de regularisaties, en de eindbalans die de beginbalans van volgend jaar wordt.",
+ "secties": [
+  {
+   "kop": "De proef- en saldibalans",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "<strong>Een proefbalans geeft de totalen van elke rekening</strong>: per rekening wat er in debet en wat er in credit staat. <strong>Een saldibalans geeft de saldo's</strong>: per rekening het verschil tussen debet en credit. <strong>Ze geven dus niet dezelfde cijfers</strong>, en daarom staan ze naast elkaar."
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Het saldo is het verschil tussen debet en credit van één rekening</strong>, aan de kant met het grootste totaal. <strong>Heeft de kasrekening 5 000 euro in debet en 3 200 euro in credit, dan is het saldo 1 800 euro in debet.</strong> <strong>Bij 900 euro debet en 1 500 euro credit is het saldo 600 euro, in credit.</strong>"
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Waarvoor dient zo'n balans? Om na te gaan of alles klopt.</strong> <strong>In een proefbalans is het totaal van debet gelijk aan dat van credit</strong>, want elke boeking zette hetzelfde bedrag links en rechts. <strong>Zijn ze niet gelijk, dan zoek je de fout</strong>: er ontbreekt een boeking of er staat er een verkeerd."
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Je controleert drie dingen</strong>: of debet en credit gelijk zijn, of elke rekening een logisch saldo heeft, en of er geen boeking ontbreekt. <strong>Een kostenrekening hoort een debetsaldo te hebben</strong>, want kosten stijgen in debet; een creditsaldo daar verraadt een fout."
+    },
+    {
+     "soort": "weetje",
+     "html": "Een proef- en saldibalans is een controle, geen document voor buiten. Wat naar buiten gaat, is de jaarrekening."
+    }
+   ]
+  },
+  {
+   "kop": "De eindejaarsverrichtingen",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "<strong>Een eindejaarsverrichting is een boeking bij de afsluiting</strong>, die de cijfers rechtzet voor de jaarrekening opgemaakt wordt. <strong>Ze wordt gewoon in het journaal geboekt</strong>, als elke andere boeking."
+    },
+    {
+     "soort": "kader",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">verrichting</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">wat ze doet</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>de jaarlijkse afschrijvingen</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>de waardevermindering van de investeringen als kost nemen</strong></td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>de regularisatie van schulden op meer dan een jaar</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>het deel dat binnen het jaar vervalt, verhuizen naar de schulden op korte termijn</strong></td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>de overdracht van het resultaat</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>de winst of het verlies naar het eigen vermogen brengen</strong></td></tr></table>"
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Dat stuk van de schuld verhuist omdat de balans dan beter klopt</strong>: een lezer ziet meteen welke schulden binnen het jaar betaald moeten worden."
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>De winst van het boekjaar gaat over naar volgend jaar</strong> en versterkt het eigen vermogen. <strong>Het verlies staat ook bij het eigen vermogen</strong>, maar met een minteken: een verlies verkleint het."
+    }
+   ]
+  },
+  {
+   "kop": "Afschrijven",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "<strong>Je schrijft een machine af omdat ze waarde verliest</strong>: je spreidt de kostprijs over de jaren dat je ze gebruikt. <strong>Lineair afschrijven is elk jaar hetzelfde bedrag nemen</strong>, namelijk de aankoopprijs gedeeld door het aantal jaren."
+    },
+    {
+     "soort": "kader",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">opgave</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">per jaar</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">rekenwijze</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>een machine van 20 000 euro, 5 jaar</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>4 000 euro</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">20 000 gedeeld door 5</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>een bestelwagen van 30 000 euro, 6 jaar</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>5 000 euro</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">30 000 gedeeld door 6</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>15 000 euro aan 3 000 euro per jaar</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>5 jaar</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">15 000 gedeeld door 3 000</td></tr></table>"
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>De afschrijving komt bij de kosten terecht</strong>, in klasse 6, en tegelijk daalt de waarde van het actief op de balans. <strong>Die waarde na aftrek van de afschrijvingen heet de boekwaarde.</strong> <strong>Een machine van 20 000 euro die drie jaar is afgeschreven aan 4 000 euro per jaar, heeft een boekwaarde van 8 000 euro.</strong>"
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Een afschrijving kost geen geld op het moment dat je ze boekt</strong>: het geld ging al buiten bij de aankoop, de afschrijving spreidt die uitgave enkel over de jaren."
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Een machine, een bestelwagen en een computer worden afgeschreven. Grond niet</strong>: grond slijt niet en verliest geen waarde door gebruik."
+    }
+   ]
+  },
+  {
+   "kop": "De eindbalans",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "<strong>Het boekjaar sluit in drie stappen</strong>: eerst de voorlopige proef- en saldibalans, dan de eindejaarsverrichtingen, dan de definitieve proef- en saldibalans en de eindbalans. <strong>De eindbalans komt dus ná de eindejaarsverrichtingen</strong>; anders zouden de afschrijvingen er niet in zitten."
+    },
+    {
+     "soort": "figuur",
+     "html": "<svg viewBox=\"0 0 470 76\" width=\"470\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"0.0\" y=\"6\" width=\"98.0\" height=\"62\" rx=\"10\" fill=\"#ffffff\" stroke=\"#2f5d50\" stroke-width=\"1.8\"/><text x=\"49.0\" y=\"37.0\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"11.5\" font-weight=\"600\" fill=\"#234539\">voorlopige proef- en saldibalans</text><path d=\"M103.0 37.0 h12 m0 0 l-6 -5 m6 5 l-6 5\" stroke=\"#2f5d50\" stroke-width=\"2\" fill=\"none\" stroke-linecap=\"round\"/><rect x=\"124.0\" y=\"6\" width=\"98.0\" height=\"62\" rx=\"10\" fill=\"#ffffff\" stroke=\"#2f5d50\" stroke-width=\"1.8\"/><text x=\"173.0\" y=\"37.0\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"11.5\" font-weight=\"600\" fill=\"#234539\">eindejaarsverrichtingen</text><path d=\"M227.0 37.0 h12 m0 0 l-6 -5 m6 5 l-6 5\" stroke=\"#2f5d50\" stroke-width=\"2\" fill=\"none\" stroke-linecap=\"round\"/><rect x=\"248.0\" y=\"6\" width=\"98.0\" height=\"62\" rx=\"10\" fill=\"#ffffff\" stroke=\"#2f5d50\" stroke-width=\"1.8\"/><text x=\"297.0\" y=\"37.0\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"11.5\" font-weight=\"600\" fill=\"#234539\">definitieve proef- en saldibalans</text><path d=\"M351.0 37.0 h12 m0 0 l-6 -5 m6 5 l-6 5\" stroke=\"#2f5d50\" stroke-width=\"2\" fill=\"none\" stroke-linecap=\"round\"/><rect x=\"372.0\" y=\"6\" width=\"98.0\" height=\"62\" rx=\"10\" fill=\"#ffffff\" stroke=\"#2f5d50\" stroke-width=\"1.8\"/><text x=\"421.0\" y=\"37.0\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"11.5\" font-weight=\"600\" fill=\"#234539\">eindbalans</text></svg>",
+     "onderschrift": "De vier stappen van een afsluiting, in de volgorde van de vakfiche."
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Bij de afsluiting gaan de rekeningen van klasse 6 en 7 naar nul</strong>: de kosten en de opbrengsten staan niet meer op de eindbalans. <strong>Hun verschil is het resultaat, en dat komt bij het eigen vermogen.</strong>"
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>De eindbalans toont de toestand op het einde van het boekjaar, is in evenwicht, en wordt de beginbalans van het volgende jaar.</strong> Daarmee is de cirkel rond: de beginbalans waarmee dit vak begon, is de eindbalans van het jaar ervoor."
+    }
+   ]
+  }
+ ],
+ "onthoud": []
+}

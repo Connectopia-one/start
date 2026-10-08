@@ -1,0 +1,164 @@
+{
+ "vak": "Frans",
+ "titel": "Naamwoorden, lidwoorden en determinanten",
+ "onder": "De lidwoorden en hun samentrekkingen, het deelaanduidende lidwoord, de aanwijzende en bezittelijke bepalers, quel, en de onregelmatige meervouden.",
+ "secties": [
+  {
+   "kop": "De lidwoorden",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "De bepaalde lidwoorden zijn <strong>le, la, les</strong>; de onbepaalde zijn <em>un, une, des</em>. <em><strong>La</strong> voiture de mon père</em>: <em>voiture</em> is vrouwelijk."
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Niet alle Franse woorden die op <em>-e</em> eindigen zijn vrouwelijk.</strong> <em>Le problème</em>, <em>le système</em>, <em>le musée</em>, <em>le lycée</em>: allemaal mannelijk. Bij <em>problème</em> hoort dus <strong>le</strong>."
+    },
+    {
+     "soort": "tekst",
+     "html": "Voor een klinker of een stomme h wordt <em>le</em> of <em>la</em> gewoon <em>l'</em>: <strong>l'hôpital</strong>, niet <em>le hôpital</em>."
+    }
+   ]
+  },
+  {
+   "kop": "Samentrekkingen",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\"></th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">wordt</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">voorbeeld</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">à + le</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">au</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">au cinéma</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">à + les</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">aux</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">aux enfants</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">de + le</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">du</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">je viens du Portugal</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">de + les</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">des</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">la fin des vacances</td></tr></table>"
+    },
+    {
+     "soort": "tekst",
+     "html": "Er staat <strong>au cinéma</strong> en niet <em>à le cinéma</em> <strong>omdat à en le samentrekken tot au</strong>. Met <em>la</em> en <em>l'</em> gebeurt dat niet: <em>Je vais <strong>à la</strong> piscine.</em>"
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong><em>Je viens du Portugal</em> is juist, want <em>de + le</em> wordt <em>du</em>.</strong>"
+    },
+    {
+     "soort": "tekst",
+     "html": "Bij landen hangt het voorzetsel van het geslacht af: <strong>en Italie</strong> bij een vrouwelijk land, <strong>Je vais au Canada</strong> bij een mannelijk."
+    },
+    {
+     "soort": "tekst",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">land</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">naar</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">uit</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">la France, l'Italie</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">en France, en Italie</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">de France, d'Italie</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">le Canada, le Portugal</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">au Canada, au Portugal</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">du Canada, du Portugal</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">les Pays-Bas</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">aux Pays-Bas</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">des Pays-Bas</td></tr></table>"
+    }
+   ]
+  },
+  {
+   "kop": "Het deelaanduidende lidwoord",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Het deelaanduidende lidwoord zegt dat het om een onbepaalde hoeveelheid gaat: <em>du</em>, <em>de la</em>, <em>de l'</em>, <em>des</em>. In <em>je bois de l'eau</em> is dat <strong>de l'</strong>."
+    },
+    {
+     "soort": "tekst",
+     "html": "Juist gebruikt: <strong>Je mange du pain.</strong>, <strong>Elle boit de la limonade.</strong> en <strong>Il achète des pommes.</strong>"
+    },
+    {
+     "soort": "kader",
+     "html": "<strong>Na een ontkenning blijft <em>du</em>, <em>de la</em> of <em>des</em> niet onveranderd staan: het wordt <em>de</em>.</strong> <em>J'ai des frères</em> wordt <strong>Je n'ai pas de frères.</strong> en <em>Il n'y a plus <strong>de</strong> lait.</em> Eén regel die bijna elke oefening van dit hoofdstuk draagt."
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Na een hoeveelheid staat <em>de</em> of <em>d'</em></strong>, zonder lidwoord: <strong>beaucoup de travail</strong>, <strong>un peu de patience</strong>, <strong>trop de bruit</strong>."
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>In <em>de bons amis</em> staat <em>de</em> omdat het bijvoeglijk naamwoord vóór het meervoudige naamwoord komt.</strong> Daarom is het <strong>de grandes maisons</strong>, niet <em>des grandes maisons</em>."
+    }
+   ]
+  },
+  {
+   "kop": "De aanwijzende bepalers",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "De aanwijzende bepalers zijn <strong>ce, cet, cette, ces</strong>."
+    },
+    {
+     "soort": "tekst",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">vorm</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">wanneer</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">voorbeeld</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">ce</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">mannelijk enkelvoud</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">ce matin</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">cet</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">mannelijk, voor een klinker of stomme h</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">cet arbre, cet homme</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">cette</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">vrouwelijk enkelvoud</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">cette semaine</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">ces</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">meervoud</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">ces jours-ci</td></tr></table>"
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Je gebruikt <em>cet</em> in plaats van <em>ce</em> voor een klinker of een stomme h</strong>: <em><strong>Cet</strong> arbre est très vieux.</em> Dat is dezelfde reden als bij <em>l'</em>: twee klinkers na elkaar klinken niet."
+    }
+   ]
+  },
+  {
+   "kop": "De bezittelijke bepalers",
+   "blokken": [
+    {
+     "soort": "kader",
+     "html": "<strong>Het Franse bezittelijk voornaamwoord volgt niet het geslacht van de bezitter maar dat van het bezit.</strong> Daarom is <strong>zijn zus</strong> én <strong>haar zus</strong> allebei <strong>sa sœur</strong>. Wie uit het Nederlands of het Engels komt, wil hier <em>son</em> schrijven voor een man, en dat is fout."
+    },
+    {
+     "soort": "tekst",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\"></th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">mannelijk</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">vrouwelijk</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">meervoud</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">mijn</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">mon</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">ma</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">mes</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">jouw</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">ton</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">ta</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">tes</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">zijn, haar</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">son</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">sa</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">ses</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">ons</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">notre</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">notre</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">nos</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">jullie, uw</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">votre</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">votre</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">vos</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">hun</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">leur</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">leur</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">leurs</td></tr></table>"
+    },
+    {
+     "soort": "tekst",
+     "html": "<em>Paul cherche <strong>ses</strong> clés.</em> Meervoud, dus <em>ses</em>, hoe dan ook."
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Voor een vrouwelijk woord dat met een klinker begint, wordt <em>ma</em> <em>mon</em>.</strong> Dus <strong>mon amie</strong>, niet <em>ma amie</em>. Hetzelfde bij <em>ton école</em> en <em>son histoire</em>."
+    }
+   ]
+  },
+  {
+   "kop": "Quel en de onbepaalde bepalers",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "<em>Quel</em> richt zich naar het naamwoord erachter: <strong>quel, quelle, quels, quelles</strong>."
+    },
+    {
+     "soort": "tekst",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">zin</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">waarom</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Quel âge as-tu ?</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">âge is mannelijk enkelvoud</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Quelle heure est-il ?</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">heure is vrouwelijk enkelvoud</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Quelle est votre adresse ?</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">adresse is vrouwelijk</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Quels livres préfères-tu ?</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">livres is mannelijk meervoud</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Quelles couleurs préfères-tu ?</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">couleurs is vrouwelijk meervoud</td></tr></table>"
+    },
+    {
+     "soort": "tekst",
+     "html": "Onbepaalde bepalers zeggen hoeveel zonder te tellen. <strong>Quelques</strong> betekent <strong>enkele</strong>, en <strong>plusieurs</strong> (verscheidene) is er ook een."
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Na <em>chaque</em> staat het naamwoord altijd in het enkelvoud</strong>: <em>chaque jour</em>, <em>chaque élève</em>, nooit <em>chaque jours</em>."
+    }
+   ]
+  },
+  {
+   "kop": "Het meervoud",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">uitgang</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">meervoud</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">voorbeeld</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">-al</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">-aux</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">un journal — des journaux, un cheval — des chevaux</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">-ail (soms)</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">-aux</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">un travail — des travaux</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">-eu, -eau</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">-x</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">un cheveu — des cheveux, un bateau — des bateaux</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">-s, -x, -z</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">blijft gelijk</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">un prix — des prix</td></tr></table>"
+    },
+    {
+     "soort": "tekst",
+     "html": "<em>Un journal</em> wordt <strong>des journaux</strong>, en <em>un cheval</em> wordt <strong>des chevaux</strong>. Juist zijn ook <strong>des animaux</strong>, <strong>des cheveux</strong> en <strong>des travaux</strong>."
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Een Frans woord dat al op een <em>-s</em> of een <em>-x</em> eindigt, krijgt er in het meervoud geen s bij.</strong> Bij <strong>un prix</strong> verandert de vorm dus niet: <em>des prix</em>. Enkel het lidwoord verraadt het aantal."
+    }
+   ]
+  },
+  {
+   "kop": "Oefen dit ook buiten het scherm",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Op dit platform oefen je lezen, woordenschat en grammatica. Maar <strong>luisteren</strong> is de helft van het examen Frans 1, en Frans 2 bestaat uit <strong>een spreekopdracht die je thuis opneemt</strong>, twee schrijfopdrachten en <strong>een gesprek van tien minuten</strong>. Luisteren en spreken leer je niet achter een scherm. Je leert ze door te luisteren naar mensen die echt Frans spreken, en door zelf je mond open te doen, ook als het hakkelt."
+    },
+    {
+     "soort": "kader",
+     "html": "<strong>Deze week:</strong> beschrijf in het Frans je eigen kamer en de spullen van je huisgenoten, en let bij elk woord op het lidwoord en de bezittelijke bepaler. Doe het één keer, en let daarna op wat je miste of niet gezegd kreeg. Dat is precies je volgende oefening."
+    }
+   ]
+  }
+ ],
+ "onthoud": []
+}

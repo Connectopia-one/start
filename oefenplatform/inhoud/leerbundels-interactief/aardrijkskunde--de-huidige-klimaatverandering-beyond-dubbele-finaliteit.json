@@ -1,0 +1,252 @@
+{
+ "vak": "Aardrijkskunde",
+ "titel": "De huidige klimaatverandering",
+ "onder": "Het versterkt broeikaseffect, wat we meten, hoe we weten dat het de mens is, en wat mitigatie en adaptatie betekenen.",
+ "secties": [
+  {
+   "kop": "Het broeikaseffect",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Een <strong>broeikasgas</strong> <strong>houdt warmtestraling tegen</strong>: zonlicht komt binnen, de aarde straalt warmte terug, en die warmtestraling wordt onderweg opgevangen. <strong>Zonder enig broeikaseffect zou het op aarde gemiddeld ver onder nul zijn</strong>, ongeveer achttien graden onder nul. Het effect zelf is dus geen probleem; wij leven ervan."
+    },
+    {
+     "soort": "figuur",
+     "html": "<svg viewBox=\"0 0 470 240\" width=\"470\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"10\" y=\"16\" width=\"218\" height=\"136\" fill=\"#eaf1f6\" stroke=\"#e4ded0\" stroke-width=\"1.2\"/><rect x=\"10\" y=\"152\" width=\"218\" height=\"26\" fill=\"#7ba368\" stroke=\"#234539\" stroke-width=\"1.2\"/><rect x=\"10\" y=\"47\" width=\"218\" height=\"10\" fill=\"#6b7260\" opacity=\"0.35\"/><text x=\"222.0\" y=\"50.0\" text-anchor=\"end\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"8\" fill=\"#6b7260\">broeikasgassen</text><circle cx=\"38\" cy=\"34\" r=\"11\" fill=\"#c17f2b\"/><path d=\"M 48 42 L 106 146\" stroke=\"#c17f2b\" stroke-width=\"2\"/><path d=\"M 100 132 l 8 16 l -14 -4\" fill=\"#c17f2b\"/><path d=\"M 128 146 L 128 62\" stroke=\"#a2521f\" stroke-width=\"1.6\"/><path d=\"M 124 68 L 128 58 L 132 68 Z\" fill=\"#a2521f\"/><path d=\"M 154 146 L 154 62\" stroke=\"#a2521f\" stroke-width=\"1.6\"/><path d=\"M 150 68 L 154 58 L 158 68 Z\" fill=\"#a2521f\"/><path d=\"M 180 146 L 180 62\" stroke=\"#a2521f\" stroke-width=\"1.6\"/><path d=\"M 176 68 L 180 58 L 184 68 Z\" fill=\"#a2521f\"/><path d=\"M 206 146 L 206 62\" stroke=\"#a2521f\" stroke-width=\"1.6\" opacity=\"0.5\"/><path d=\"M 206 56 L 206 138\" stroke=\"#a2521f\" stroke-width=\"1.6\"/><path d=\"M 202 132 L 206 142 L 210 132 Z\" fill=\"#a2521f\"/><text x=\"119.0\" y=\"10.0\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"10.5\" font-weight=\"600\" fill=\"#23291f\">gewoon broeikaseffect</text><text x=\"119.0\" y=\"196.0\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"8.5\" fill=\"#6b7260\">een deel van de warmte gaat weg, de rest</text><text x=\"119.0\" y=\"208.0\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"8.5\" fill=\"#6b7260\">houdt de aarde leefbaar</text><rect x=\"242\" y=\"16\" width=\"218\" height=\"136\" fill=\"#eaf1f6\" stroke=\"#e4ded0\" stroke-width=\"1.2\"/><rect x=\"242\" y=\"152\" width=\"218\" height=\"26\" fill=\"#7ba368\" stroke=\"#234539\" stroke-width=\"1.2\"/><rect x=\"242\" y=\"41\" width=\"218\" height=\"22\" fill=\"#6b7260\" opacity=\"0.35\"/><text x=\"454.0\" y=\"50.0\" text-anchor=\"end\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"8\" fill=\"#6b7260\">broeikasgassen</text><circle cx=\"270\" cy=\"34\" r=\"11\" fill=\"#c17f2b\"/><path d=\"M 280 42 L 338 146\" stroke=\"#c17f2b\" stroke-width=\"2\"/><path d=\"M 332 132 l 8 16 l -14 -4\" fill=\"#c17f2b\"/><path d=\"M 360 146 L 360 62\" stroke=\"#a2521f\" stroke-width=\"1.6\"/><path d=\"M 356 68 L 360 58 L 364 68 Z\" fill=\"#a2521f\"/><path d=\"M 386 146 L 386 62\" stroke=\"#a2521f\" stroke-width=\"1.6\" opacity=\"0.5\"/><path d=\"M 386 56 L 386 138\" stroke=\"#a2521f\" stroke-width=\"1.6\"/><path d=\"M 382 132 L 386 142 L 390 132 Z\" fill=\"#a2521f\"/><path d=\"M 412 146 L 412 62\" stroke=\"#a2521f\" stroke-width=\"1.6\" opacity=\"0.5\"/><path d=\"M 412 56 L 412 138\" stroke=\"#a2521f\" stroke-width=\"1.6\"/><path d=\"M 408 132 L 412 142 L 416 132 Z\" fill=\"#a2521f\"/><path d=\"M 438 146 L 438 62\" stroke=\"#a2521f\" stroke-width=\"1.6\" opacity=\"0.5\"/><path d=\"M 438 56 L 438 138\" stroke=\"#a2521f\" stroke-width=\"1.6\"/><path d=\"M 434 132 L 438 142 L 442 132 Z\" fill=\"#a2521f\"/><text x=\"351.0\" y=\"10.0\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"10.5\" font-weight=\"600\" fill=\"#23291f\">versterkt broeikaseffect</text><text x=\"351.0\" y=\"196.0\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"8.5\" fill=\"#6b7260\">er zitten meer broeikasgassen in de lucht,</text><text x=\"351.0\" y=\"208.0\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"8.5\" fill=\"#6b7260\">dus er ontsnapt minder</text><text x=\"235.0\" y=\"232.0\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"9\" fill=\"#6b7260\">Een rode pijl omhoog is warmte die weggaat; een pijl die terugbuigt is warmte die blijft hangen.</text></svg>",
+     "onderschrift": "Zonlicht komt binnen, warmtestraling wordt deels tegengehouden."
+    },
+    {
+     "soort": "tekst",
+     "html": "Broeikasgassen zijn onder meer <strong>koolstofdioxide</strong>, <strong>methaan</strong> en <strong>waterdamp</strong>. Het gas dat vooral vrijkomt bij het verbranden van steenkool, olie en gas is <strong>CO2</strong>."
+    },
+    {
+     "soort": "tekst",
+     "html": "Het <strong>versterkte</strong> broeikaseffect heet zo <strong>omdat de mens een bestaand effect verhoogt</strong>. We hebben het niet uitgevonden, we hebben de knop hoger gezet."
+    },
+    {
+     "soort": "tekst",
+     "html": "De menselijke activiteiten die de concentratie broeikasgassen verhogen: <strong>fossiele brandstoffen verbranden</strong>, <strong>bossen kappen voor landbouw</strong> en <strong>veeteelt en rijstvelden</strong>. Veeteelt geeft zoveel methaan <strong>omdat koeien hun voedsel in de maag gisten</strong>: in de pens zetten bacteriën gras om, en methaan is daar het restproduct van."
+    }
+   ]
+  },
+  {
+   "kop": "Wat we nu al meten",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "De wereldtemperatuur is sinds het begin van de industrie ongeveer <strong>1,2</strong> graden gestegen. <strong>De opwarming verloopt niet op elke plek even snel</strong>: het Noordpoolgebied warmt ongeveer drie keer sneller op dan het gemiddelde, en land sneller dan zee."
+    },
+    {
+     "soort": "tekst",
+     "html": "Gevolgen die we nu al meten: <strong>een stijgende zeespiegel</strong>, <strong>gletsjers die terugtrekken</strong> en <strong>meer en langere hittegolven</strong>."
+    },
+    {
+     "soort": "tekst",
+     "html": "De zeespiegel stijgt om twee redenen tegelijk: <strong>landijs smelt en water zet uit</strong>. Dat tweede verrast veel mensen, maar warmer water neemt meer plaats in, en over een hele oceaandiepte telt dat zwaar door."
+    },
+    {
+     "soort": "tekst",
+     "html": "De <strong>verzuring van de oceaan</strong> betekent dat <strong>de zee CO2 opneemt en zuurder wordt</strong>. Dat is een apart probleem naast de opwarming: schelpen en koraal bouwen hun kalkskelet moeilijker op in zuurder water."
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Een warmere atmosfeer kan meer waterdamp bevatten, waardoor buien heviger kunnen uitvallen.</strong> Ongeveer zeven procent meer vocht per graad. Daarom horen zwaardere buien en langere droogtes bij hetzelfde verhaal."
+    },
+    {
+     "soort": "tekst",
+     "html": "Het gevolg dat de landbouw het hardst treft, zijn <strong>langere droogtes in de zomer</strong>. En voor de natuur: <strong>soorten verschuiven of sterven uit</strong>."
+    }
+   ]
+  },
+  {
+   "kop": "Het klimaat is altijd veranderd",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Een temperatuurcurve doorheen de geologische tijd leert ons dat <strong>het klimaat altijd al veranderd is</strong>. <strong>De aarde heeft periodes gekend waarin er aan de polen geen ijs lag</strong>, en periodes met een veel lagere zeespiegel."
+    },
+    {
+     "soort": "tekst",
+     "html": "Drie uitspraken die kloppen: <strong>het klimaat veranderde ook zonder de mens</strong>, <strong>er waren periodes zonder poolijs</strong>, en <strong>er waren periodes met een veel lagere zeespiegel</strong>."
+    },
+    {
+     "soort": "kader",
+     "html": "Dat is geen argument tegen de huidige klimaatverandering, en dat is precies waarom dit hoofdstuk vóór het volgende staat. Dat het vroeger ook veranderde, zegt niets over de oorzaak vandaag; wat telt is de <strong>snelheid</strong> en wat de meting van de koolstof aanwijst. Zie het hoofdstuk over de huidige klimaatverandering."
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Het grote verschil met de klimaatveranderingen uit het verleden is de snelheid van de verandering.</strong> Wat vroeger duizenden jaren duurde, gebeurt nu in een eeuw. Niet de richting en niet de grootte in graden zijn uitzonderlijk: het tempo is dat wel, en dat is net wat planten, dieren en mensen geen tijd geeft om mee te schuiven."
+    }
+   ]
+  },
+  {
+   "kop": "Hoe we dat weten",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "We weten iets over het klimaat van miljoenen jaren geleden <strong>uit fossielen, ijskernen en sedimentlagen</strong>. De bronnen die de vakfiche noemt: <strong>ijskernen uit de poolkappen</strong>, <strong>jaarringen van bomen</strong> en <strong>pollen in veen- en meerbodems</strong>."
+    },
+    {
+     "soort": "tekst",
+     "html": "Uit <strong>ijskernen</strong> halen wetenschappers luchtbelletjes van honderdduizenden jaren oud: echte lucht van toen, waarin je het CO2-gehalte gewoon kan meten. De temperatuur van toen lees je er af <strong>uit de verhouding van zuurstofisotopen</strong>: in een koude periode regent er verhoudingsgewijs meer van de lichtere soort zuurstof uit."
+    },
+    {
+     "soort": "tekst",
+     "html": "Uit <strong>ijskernen</strong> die men uit het landijs boort, lezen we het klimaat van <strong>het geologische verleden</strong>: <strong>de lucht van toen zit in de luchtbellen</strong> in het ijs, dus kan men de koolstofdioxide van honderdduizenden jaren geleden rechtstreeks meten. Niet de dikte en niet de kleur van het ijs geven dat, en fossielen van planten zitten er niet in."
+    }
+   ]
+  },
+  {
+   "kop": "De andere natuurlijke oorzaken",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "De vakfiche noemt drie natuurlijke oorzaken van klimaatverandering: <strong>de Milanković-variabelen</strong>, <strong>aërosolen en vulkanisme</strong>, en <strong>de spreiding van de landmassa's</strong>."
+    },
+    {
+     "soort": "tekst",
+     "html": "Een <strong>aërosol</strong> is <strong>een piepklein deeltje dat in de lucht zweeft</strong>. Een zware vulkaanuitbarsting blaast er miljoenen tonnen van de stratosfeer in, en daardoor <strong>koelt ze de aarde een jaar of langer af</strong>. <strong>Ze warmt de aarde in de jaren erna dus niet op</strong>, al zou je dat bij zoveel vuur verwachten."
+    },
+    {
+     "soort": "tekst",
+     "html": "De ligging van de continenten telt mee <strong>omdat ze de banen van de zeestromen bepaalt</strong>, en die verdelen de warmte over de aarde. <strong>Een continent pal op een pool maakt het makkelijker om een ijskap te vormen</strong>: op land blijft sneeuw liggen, op open water niet. Antarctica is daar het levende bewijs van."
+    },
+    {
+     "soort": "tekst",
+     "html": "Bij het supercontinent <strong>Pangea</strong> hoorde <strong>een extreem continentaal klimaat in het binnenland</strong>: duizenden kilometers van elke kust, dus gloeiend heet in de zomer en ijzig in de winter, met bijna geen regen."
+    }
+   ]
+  },
+  {
+   "kop": "Hoe we weten dat het de mens is",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "<strong>De mens is de belangrijkste oorzaak</strong> van de huidige opwarming, en dat is geen vermoeden. Dat de extra CO2 van fossiele brandstoffen komt, weten we <strong>aan de verhouding van de koolstofisotopen</strong>: koolstof uit steenkool en olie is miljoenen jaren oud en draagt een andere isotopenvingerafdruk dan koolstof uit een vulkaan of uit de oceaan."
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>De Milanković-cycli verklaren de opwarming van de laatste honderd jaar niet.</strong> Die werken over tienduizenden jaren, en ze wijzen op dit moment zelfs licht de andere kant op."
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Een strenge winter zegt niets over de opwarming, want één seizoen is nog geen klimaat.</strong> Weer is wat er deze week gebeurt, klimaat is het gemiddelde over dertig jaar."
+    },
+    {
+     "soort": "tekst",
+     "html": "De organisatie van de Verenigde Naties die het klimaatonderzoek bundelt, is het <strong>IPCC</strong>. Het doet zelf geen onderzoek: het vat samen wat duizenden studies samen aantonen."
+    }
+   ]
+  },
+  {
+   "kop": "Terugkoppelingen",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Een <strong>positieve terugkoppeling</strong> is <strong>een gevolg dat de opwarming versterkt</strong>; een <strong>negatieve terugkoppeling remt de opwarming af</strong>. Positief betekent hier dus niet goed, enkel versterkend."
+    },
+    {
+     "soort": "tekst",
+     "html": "Drie versterkende terugkoppelingen: <strong>het smelten van zee-ijs</strong>, <strong>het ontdooien van permafrost</strong> en <strong>meer waterdamp in een warmere lucht</strong>."
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Permafrost</strong> is de altijd bevroren bodem die bij het ontdooien methaan vrijgeeft. Daar ligt plantaardig materiaal in dat duizenden jaren bevroren bleef; dooit het op, dan rot het en komt het als methaan en CO2 vrij."
+    },
+    {
+     "soort": "tekst",
+     "html": "Een versterkende terugkoppeling is zorgwekkend <strong>omdat de opwarming zichzelf gaat voortzetten</strong>: vanaf een bepaald punt heeft het systeem onze uitstoot niet meer nodig om door te gaan."
+    }
+   ]
+  },
+  {
+   "kop": "Scenario's en doelen",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Een <strong>IPCC-scenario</strong> is <strong>een mogelijk verloop bij een bepaalde uitstoot</strong>. Het is geen voorspelling maar een als-dan: stoten we zoveel uit, dan komen we daar uit. <strong>Hoe warm het tegen 2100 wordt, hangt dus vooral af van hoeveel we nog uitstoten.</strong>"
+    },
+    {
+     "soort": "tekst",
+     "html": "Het akkoord van Parijs mikt op <strong>1,5</strong> graad als bovengrens."
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Klimaatneutraal</strong> of netto nul betekent dat een land evenveel broeikasgas vastlegt als het uitstoot. Het betekent dus <strong>niet dat er helemaal geen broeikasgas meer wordt uitgestoten</strong>: wat er nog uitgaat, moet er elders weer uit de lucht gehaald worden."
+    },
+    {
+     "soort": "tekst",
+     "html": "Zelfs als we vandaag zouden stoppen met uitstoten, blijft de temperatuur nog even stijgen, <strong>omdat de oceaan heel traag op warmte reageert</strong>. Er zit al warmte in het systeem die nog niet aan de oppervlakte te merken is."
+    }
+   ]
+  },
+  {
+   "kop": "Mitigatie en adaptatie",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "<strong>Mitigatie</strong> is <strong>de oorzaak aanpakken en minder uitstoten</strong>. <strong>Adaptatie</strong> is <strong>je aanpassen aan de gevolgen</strong>. Je hebt ze allebei nodig: <strong>adaptatie alleen volstaat niet</strong>, want zonder mitigatie blijven de gevolgen groeien tot er niets meer aan aan te passen valt."
+    },
+    {
+     "soort": "tekst",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">mitigatie</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">adaptatie</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">minder vlees eten</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">dijken en kustbescherming verhogen</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">overschakelen op zon en wind</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">bomen planten tegen hitte in de stad</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">woningen beter isoleren</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">regenwater opvangen tegen droogte</td></tr></table>"
+    },
+    {
+     "soort": "tekst",
+     "html": "Een bos helpt <strong>omdat het koolstof vastlegt in hout en bodem</strong>: dat is mitigatie. Een bos in de stad geeft daarnaast schaduw en verkoeling, en dat is adaptatie."
+    },
+    {
+     "soort": "tekst",
+     "html": "Wat jij zelf kan doen dat echt gewicht heeft: <strong>minder met het vliegtuig en de wagen reizen</strong>. Niet elke maatregel weegt even zwaar, en vervoer is bij ons een van de grootste posten."
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Mitigatie</strong> is dus <strong>minder fossiele brandstof gebruiken</strong>, <strong>huizen beter isoleren</strong> en <strong>bossen aanplanten</strong>. <strong>Dijken verhogen</strong> is géén mitigatie maar adaptatie: het verandert niets aan de oorzaak. En <strong>een maatregel kan zowel adaptatie als mitigatie zijn</strong>: een bos in de stad legt koolstof vast én geeft schaduw."
+    }
+   ]
+  },
+  {
+   "kop": "Wat je er zelf van ziet, en wat je zelf kan doen",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "<strong>Lachgas</strong> hoort bij de broeikasgassen die de fiche noemt, naast koolstofdioxide en methaan. Het komt vooral van <strong>kunstmest op de akkers</strong>. <strong>Stikstof</strong> is géén broeikasgas, hoewel het bijna heel onze lucht vult: het houdt geen warmtestraling tegen."
+    },
+    {
+     "soort": "tekst",
+     "html": "De <strong>koolstofvoetafdruk</strong> van een gezin is <strong>de uitstoot die het veroorzaakt</strong>, alles meegerekend: verwarming, auto, vliegtuig, voeding en spullen. Wat een gezin zelf kan doen, is vooral <strong>minder vliegen en minder vlees eten</strong>, en zijn huis beter isoleren."
+    },
+    {
+     "soort": "tekst",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Gevolg</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Waarom</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">het <strong>noordpoolgebied warmt sneller op</strong> dan de rest</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>smeltend ijs maakt het oppervlak donker</strong>, en donker water neemt meer warmte op</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een <strong>koraalrif verbleekt en sterft af</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">bij te warm water stoot de koraalpoliep zijn algen uit, en die geven hem zijn kleur én zijn voedsel</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>arme landen worden harder getroffen</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">ze <strong>kunnen zich minder goed beschermen</strong>: minder geld voor dijken, irrigatie en verzekeringen, terwijl ze zelf het minst uitstootten</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>België</strong> voelt <strong>meer hittegolven</strong>, <strong>drogere zomers</strong> en <strong>zwaardere buien</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">warmere lucht houdt meer waterdamp vast, dus valt de regen in kortere, zwaardere buien</td></tr></table>"
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Smeltend zeeijs op de Noordpool doet de zeespiegel niet stijgen</strong>: dat ijs drijft al in het water en verplaatst zijn eigen gewicht. Het landijs van Groenland en Antarctica doet dat wél, en daar komt de uitzetting van opwarmend zeewater bij."
+    },
+    {
+     "soort": "tekst",
+     "html": "Het <strong>hitte-eilandeffect</strong> is dat <strong>een stad warmer is dan het platteland</strong>, 's nachts nog meer dan 's dags. Het geeft <strong>warmere nachten</strong>, <strong>meer gezondheidsklachten</strong> en <strong>meer koeling nodig</strong>; met luchtvervuiling heeft het niets te maken, en die wordt er niet minder van. Een <strong>groene stad is koeler omdat planten water verdampen</strong>, en verdampen kost warmte."
+    },
+    {
+     "soort": "kader",
+     "html": "<strong>Een windmolen bouwen gebeurt niet helemaal zonder uitstoot.</strong> Staal, beton en transport kosten energie. Een windmolen verdient die uitstoot wel terug, gewoonlijk binnen het jaar, en draait daarna twintig jaar bijna uitstootvrij. Daarom <strong>hoort windmolens bouwen op zee niet bij de oorzaken</strong> van meer broeikasgassen, maar bij de oplossingen."
+    }
+   ]
+  },
+  {
+   "kop": "Een kwestie van rechtvaardigheid",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Klimaatverandering is ook een kwestie van rechtvaardigheid, <strong>omdat wie het minst uitstoot het hardst getroffen wordt</strong>. De landen met de laagste uitstoot per inwoner liggen vaak in de zones met de zwaarste droogte en de grootste kans op overstroming, en ze hebben het minste geld om zich aan te passen."
+    },
+    {
+     "soort": "tekst",
+     "html": "En het verschil met het verleden, in één zin: <strong>de huidige klimaatverandering gaat veel sneller en komt van de mens</strong>."
+    }
+   ]
+  }
+ ],
+ "onthoud": []
+}

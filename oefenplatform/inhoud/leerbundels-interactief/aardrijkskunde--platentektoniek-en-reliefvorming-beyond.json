@@ -1,0 +1,154 @@
+{
+ "vak": "Aardrijkskunde",
+ "titel": "Platentektoniek en reliëfvorming",
+ "onder": "Van Pangea tot vandaag, de drie plaatbewegingen en hun drijvende krachten, en het reliëf dat eruit volgt.",
+ "secties": [
+  {
+   "kop": "Pangea en de drift van de continenten",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Ongeveer 250 miljoen jaar geleden lagen alle landmassa's samen in één supercontinent: <strong>Pangea</strong>. Dat brak uiteen in een noordelijk deel, Laurazië, en een zuidelijk deel, <strong>Gondwana</strong>. Tot Gondwana hoorden <strong>Zuid-Amerika en Afrika</strong>, <strong>Australië en Antarctica</strong>, en <strong>India en Arabië</strong>."
+    },
+    {
+     "soort": "tekst",
+     "html": "Twee aanwijzingen pleiten voor de drift: <strong>de kustlijnen van Zuid-Amerika en Afrika passen als twee stukken van een puzzel in elkaar</strong>, en je vindt <strong>dezelfde fossielen op twee verre continenten</strong>. Die tweede weegt het zwaarst: een puzzel kan toeval zijn, een landdier dat de oceaan niet kon oversteken niet."
+    }
+   ]
+  },
+  {
+   "kop": "Wat de platen beweegt",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "De tektonische platen bewegen <strong>een paar centimeter per jaar</strong>, ongeveer zo snel als je nagels groeien. Twee krachten drijven ze aan."
+    },
+    {
+     "soort": "tekst",
+     "html": "De <strong>subductietrekkracht</strong> of slab pull: <strong>de duikende plaat trekt de rest mee</strong>. Het koude, zware uiteinde zakt de mantel in en sleurt de hele plaat achter zich aan. Dat is de sterkste van de twee."
+    },
+    {
+     "soort": "tekst",
+     "html": "De <strong>rugduwkracht</strong> of ridge push: <strong>de hoge, warme rug duwt de plaat van zich af</strong>. De rug ligt hoger dan de rest van de oceaanbodem, en de plaat glijdt er als het ware van af."
+    }
+   ]
+  },
+  {
+   "kop": "Drie soorten plaatbeweging",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "De vakfiche noemt <strong>divergentie</strong>, <strong>convergentie</strong> en <strong>de transforme beweging</strong>."
+    },
+    {
+     "soort": "tekst",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">beweging</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">wat er gebeurt</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">wat je ziet</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">divergentie</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">de platen bewegen van elkaar weg</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een oceanische rug, een slenk</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">convergentie</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">de platen botsen</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een diepzeetrog of een plooiingsgebergte</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">transform</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">twee platen schuiven langs elkaar</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">breuken en aardbevingen</td></tr></table>"
+    },
+    {
+     "soort": "tekst",
+     "html": "Bij <strong>convergentie van twee continentale platen ontstaat een plooiingsgebergte</strong>: geen van de twee is zwaar genoeg om te duiken, dus plooit alles omhoog. Botst een oceanische plaat op een continentale, dan duikt de zware oceanische eronder: dat heet <strong>subductie</strong>, en je krijgt <strong>een trog met een kustgebergte erlangs</strong>."
+    },
+    {
+     "soort": "tekst",
+     "html": "Boven een subductiezone is er vulkanisme <strong>omdat de duikende plaat in de diepte smelt</strong>. Het water dat ze meeneemt doet het mantelgesteente erboven smelten."
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Nieuwe oceanische korst wordt niet in een diepzeetrog gemaakt maar aan een oceanische rug.</strong> In de trog verdwijnt er juist korst. Daardoor <strong>wordt de aarde ook niet groter</strong>: er komt precies evenveel bij als er in de subductiezones verdwijnt. En de <strong>Atlantische Oceaan wordt breder terwijl de Stille Oceaan krimpt</strong>, niet omgekeerd."
+    },
+    {
+     "soort": "tekst",
+     "html": "Een <strong>riftster</strong> is <strong>een punt waar drie riftarmen samenkomen</strong>. Meestal groeien er twee van de drie uit tot een oceaan en blijft de derde als een mislukte arm liggen."
+    }
+   ]
+  },
+  {
+   "kop": "Mantelpluimen en hotspots",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Een <strong>mantelpluim</strong> is <strong>een opstijgende kolom mantelgesteente</strong>. Waar die de korst bereikt midden op een plaat, ligt een <strong>hotspot</strong>."
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Hawaï vormt een rij eilanden van verschillende ouderdom omdat de plaat over een vaste hotspot schuift.</strong> De hotspot blijft staan, de plaat beweegt, en zo wordt er om beurten een nieuw eiland gebouwd terwijl het vorige wegschuift en uitdooft."
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>IJsland heeft zoveel vulkanen en geisers omdat het op een rug én op een hotspot ligt.</strong> Die twee samen is uitzonderlijk."
+    },
+    {
+     "soort": "tekst",
+     "html": "Bij de plaatbewegingen noemt de vakfiche dus <strong>Pangea en Gondwana</strong>, <strong>mantelpluim en hotspot</strong>, en <strong>riftster en subductie</strong>."
+    }
+   ]
+  },
+  {
+   "kop": "Het reliëf van de oceaanbodem",
+   "blokken": [
+    {
+     "soort": "figuur",
+     "html": "<svg viewBox=\"0 0 470 205\" width=\"470\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"0\" y=\"0\" width=\"470\" height=\"172\" fill=\"#ffffff\"/><path d=\"M0 160 L70 150 L150 108 L195 100 L225 60 Q252 46 282 92 L315 122 L462 122 L462 172 L0 172 Z\" fill=\"#e0cfa0\" stroke=\"#234539\" stroke-width=\"1.6\" stroke-linejoin=\"round\"/><clipPath id=\"polder10\"><path d=\"M0 160 L70 150 L150 108 L195 100 L225 60 Q252 46 282 92 L315 122 L462 122 L462 172 L0 172 Z\"/></clipPath><rect x=\"300\" y=\"122\" width=\"170\" height=\"52\" fill=\"#7ba368\" clip-path=\"url(#polder10)\"/><polygon points=\"0,108 150,108 70,150 0,160\" fill=\"#5b93b8\"/><path d=\"M12 118 q10 -4 20 0 q10 4 20 0\" fill=\"none\" stroke=\"#ffffff\" stroke-width=\"1.6\" opacity=\"0.7\"/><path d=\"M30 130 q10 -4 20 0 q10 4 20 0\" fill=\"none\" stroke=\"#ffffff\" stroke-width=\"1.6\" opacity=\"0.7\"/><path d=\"M74 124 q10 -4 20 0 q10 4 20 0\" fill=\"none\" stroke=\"#ffffff\" stroke-width=\"1.6\" opacity=\"0.7\"/><line x1=\"150\" y1=\"108\" x2=\"458\" y2=\"108\" stroke=\"#5b93b8\" stroke-width=\"1.4\" stroke-dasharray=\"6 5\"/><text x=\"458.0\" y=\"103.0\" text-anchor=\"end\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"9.5\" fill=\"#5b93b8\">zeeniveau</text><path d=\"M232 62 l-4 -11 M232 62 l0 -13 M232 62 l4 -11\" fill=\"none\" stroke=\"#7ba368\" stroke-width=\"1.5\" stroke-linecap=\"round\"/><path d=\"M245 54 l-4 -11 M245 54 l0 -13 M245 54 l4 -11\" fill=\"none\" stroke=\"#7ba368\" stroke-width=\"1.5\" stroke-linecap=\"round\"/><path d=\"M258 52 l-4 -11 M258 52 l0 -13 M258 52 l4 -11\" fill=\"none\" stroke=\"#7ba368\" stroke-width=\"1.5\" stroke-linecap=\"round\"/><path d=\"M270 62 l-4 -11 M270 62 l0 -13 M270 62 l4 -11\" fill=\"none\" stroke=\"#7ba368\" stroke-width=\"1.5\" stroke-linecap=\"round\"/><path d=\"M222 76 l-4 -11 M222 76 l0 -13 M222 76 l4 -11\" fill=\"none\" stroke=\"#7ba368\" stroke-width=\"1.5\" stroke-linecap=\"round\"/><path d=\"M340 122 h26 v-13 l-13 -9 l-13 9 Z\" fill=\"#ffffff\" stroke=\"#234539\" stroke-width=\"1.4\"/><path d=\"M395 136 h56\" stroke=\"#5b93b8\" stroke-width=\"3\" stroke-linecap=\"round\"/><line x1=\"410\" y1=\"108\" x2=\"410\" y2=\"122\" stroke=\"#234539\" stroke-width=\"1.2\"/><text x=\"392.0\" y=\"158.0\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"9.5\" fill=\"#ffffff\">de polder ligt lager dan de zee</text><text x=\"72.0\" y=\"192.0\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"11.5\" font-weight=\"600\" fill=\"#c17f2b\">zee</text><text x=\"172.0\" y=\"192.0\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"11.5\" font-weight=\"600\" fill=\"#c17f2b\">strand</text><text x=\"252.0\" y=\"192.0\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"11.5\" font-weight=\"600\" fill=\"#c17f2b\">duin</text><text x=\"392.0\" y=\"192.0\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"11.5\" font-weight=\"600\" fill=\"#c17f2b\">polder</text></svg>",
+     "onderschrift": "Van de kust naar de diepzee: het continentaal plat, de helling en de vlakte."
+    },
+    {
+     "soort": "tekst",
+     "html": "Het <strong>continentaal plat</strong> is de ondiepe, vlakke zoom rond een continent, tot ongeveer 200 meter diep. Daarna volgt <strong>de continentale helling</strong>, en daaronder <strong>de abyssale vlakte: de uitgestrekte, vlakke bodem van de diepzee</strong>."
+    },
+    {
+     "soort": "tekst",
+     "html": "Bij een <strong>divergente plaatgrens in de oceaan</strong> hoort <strong>een oceanische rug</strong>; bij een <strong>subductiezone</strong> hoort <strong>een diepzeetrog</strong>."
+    },
+    {
+     "soort": "tekst",
+     "html": "Een <strong>dwarsprofiel</strong> van het aardoppervlak <strong>toont de hoogte langs een gekozen lijn</strong>, <strong>je kan er reliëfvormen op benoemen</strong>, en <strong>de ligging ervan lees je van een kaart af</strong>."
+    },
+    {
+     "soort": "figuur",
+     "html": "<svg viewBox=\"0 0 470 200\" width=\"470\" xmlns=\"http://www.w3.org/2000/svg\"><polygon points=\"38.0,152.0 97.4,151.1 139.8,148.2 190.6,142.6 241.5,135.0 283.9,125.6 317.8,116.2 351.8,95.4 385.7,70.9 419.6,46.4 445.0,29.4 462.0,21.1 462.0,152 38,152\" fill=\"#dfe8dd\" stroke=\"#234539\" stroke-width=\"1.8\" stroke-linejoin=\"round\"/><line x1=\"38\" y1=\"20\" x2=\"38\" y2=\"152\" stroke=\"#6b7260\" stroke-width=\"1.4\"/><line x1=\"38\" y1=\"152\" x2=\"462\" y2=\"152\" stroke=\"#6b7260\" stroke-width=\"1.4\"/><line x1=\"34\" y1=\"152.0\" x2=\"38\" y2=\"152.0\" stroke=\"#6b7260\" stroke-width=\"1.2\"/><text x=\"31.0\" y=\"155.5\" text-anchor=\"end\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"9.5\" fill=\"#6b7260\">0</text><line x1=\"34\" y1=\"114.3\" x2=\"38\" y2=\"114.3\" stroke=\"#6b7260\" stroke-width=\"1.2\"/><text x=\"31.0\" y=\"117.8\" text-anchor=\"end\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"9.5\" fill=\"#6b7260\">200</text><line x1=\"34\" y1=\"76.6\" x2=\"38\" y2=\"76.6\" stroke=\"#6b7260\" stroke-width=\"1.2\"/><text x=\"31.0\" y=\"80.1\" text-anchor=\"end\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"9.5\" fill=\"#6b7260\">400</text><line x1=\"34\" y1=\"38.9\" x2=\"38\" y2=\"38.9\" stroke=\"#6b7260\" stroke-width=\"1.2\"/><text x=\"31.0\" y=\"42.4\" text-anchor=\"end\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"9.5\" fill=\"#6b7260\">600</text><text x=\"31.0\" y=\"14.0\" text-anchor=\"end\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"9.5\" fill=\"#6b7260\">meter</text><line x1=\"250\" y1=\"20\" x2=\"250\" y2=\"152\" stroke=\"#6b7260\" stroke-width=\"1.2\" stroke-dasharray=\"4 4\" opacity=\"0.6\"/><line x1=\"321\" y1=\"20\" x2=\"321\" y2=\"152\" stroke=\"#6b7260\" stroke-width=\"1.2\" stroke-dasharray=\"4 4\" opacity=\"0.6\"/><text x=\"144.0\" y=\"172.0\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"10\" font-weight=\"600\" fill=\"#c17f2b\">Laag-België</text><text x=\"144.0\" y=\"186.0\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"9\" fill=\"#6b7260\">tot 100 m</text><text x=\"285.0\" y=\"172.0\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"10\" font-weight=\"600\" fill=\"#c17f2b\">Midden-België</text><text x=\"285.0\" y=\"186.0\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"9\" fill=\"#6b7260\">100 tot 200 m</text><text x=\"391.0\" y=\"172.0\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"10\" font-weight=\"600\" fill=\"#c17f2b\">Hoog-België</text><text x=\"391.0\" y=\"186.0\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"9\" fill=\"#6b7260\">meer dan 200 m</text><circle cx=\"462.0\" cy=\"21.1\" r=\"3.6\" fill=\"#234539\"/><text x=\"458.0\" y=\"14.0\" text-anchor=\"end\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"10\" fill=\"#234539\">Signal de Botrange, 694 m</text></svg>",
+     "onderschrift": "Een dwarsprofiel: de hoogte langs één gekozen lijn op de kaart."
+    }
+   ]
+  },
+  {
+   "kop": "Plooien, slenken en gebergten",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Een <strong>anticline</strong> is <strong>een plooi met de bolle kant naar boven</strong>; een <strong>syncline</strong> is <strong>een plooi waarbij de lagen een trog vormen, met de holle kant naar boven</strong>. <strong>In een geplooid gebergte liggen de gesteentelagen niet meer horizontaal.</strong>"
+    },
+    {
+     "soort": "tekst",
+     "html": "Een <strong>slenk</strong> of rift op het land ontstaat doordat <strong>de korst wordt uitgerekt en tussen breuken wegzakt</strong>. De bekendste is de <strong>Oost-Afrikaanse Slenk</strong>."
+    },
+    {
+     "soort": "tekst",
+     "html": "De <strong>Himalaya</strong> is ontstaan doordat <strong>India op de Euraziatische plaat botste</strong>, twee continentale platen dus. De <strong>Andes</strong> is een kustgebergte boven een subductiezone. De <strong>Ardennen</strong> zijn daarentegen <strong>geen jong, hoog plooiingsgebergte met scherpe toppen</strong>: ze zijn oud en door de erosie afgerond tot een plateau met diepe dalen."
+    },
+    {
+     "soort": "tekst",
+     "html": "De vakfiche noemt als reliëfvormen: <strong>diepzeetrog en oceanische rug</strong>, <strong>continentaal plat en continentale helling</strong>, en <strong>plooiingsgebergte en slenk</strong>."
+    }
+   ]
+  },
+  {
+   "kop": "Vulkanen en aardbevingen tekenen de platen uit",
+   "blokken": [
+    {
+     "soort": "figuur",
+     "html": "<svg viewBox=\"0 0 470 286\" width=\"470\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"0\" y=\"212\" width=\"470\" height=\"74\" fill=\"#e4dbc8\"/><clipPath id=\"kegel11\"><path d=\"M104 212 L228 66 L242 66 L366 212 Z\"/></clipPath><path d=\"M104 212 L228 66 L242 66 L366 212 Z\" fill=\"#9a948a\"/><path d=\"M104 200 L366 200\" stroke=\"#d9cfb8\" stroke-width=\"7\" opacity=\"0.5\" clip-path=\"url(#kegel11)\"/><path d=\"M104 174 L366 174\" stroke=\"#d9cfb8\" stroke-width=\"7\" opacity=\"0.5\" clip-path=\"url(#kegel11)\"/><path d=\"M104 148 L366 148\" stroke=\"#d9cfb8\" stroke-width=\"7\" opacity=\"0.5\" clip-path=\"url(#kegel11)\"/><path d=\"M104 122 L366 122\" stroke=\"#d9cfb8\" stroke-width=\"7\" opacity=\"0.5\" clip-path=\"url(#kegel11)\"/><path d=\"M104 96 L366 96\" stroke=\"#d9cfb8\" stroke-width=\"7\" opacity=\"0.5\" clip-path=\"url(#kegel11)\"/><path d=\"M104 70 L366 70\" stroke=\"#d9cfb8\" stroke-width=\"7\" opacity=\"0.5\" clip-path=\"url(#kegel11)\"/><path d=\"M104 212 L228 66 L242 66 L366 212 Z\" fill=\"none\" stroke=\"#234539\" stroke-width=\"1.8\" stroke-linejoin=\"round\"/><path d=\"M228 66 L228 240 L242 240 L242 66 Z\" fill=\"#c2410c\" clip-path=\"url(#kegel11)\"/><rect x=\"228\" y=\"212\" width=\"14\" height=\"30\" fill=\"#c2410c\"/><ellipse cx=\"235\" cy=\"250\" rx=\"62\" ry=\"24\" fill=\"#c2410c\"/><ellipse cx=\"235\" cy=\"250\" rx=\"62\" ry=\"24\" fill=\"none\" stroke=\"#a2521f\" stroke-width=\"1.6\"/><path d=\"M240 70 q26 34 34 64 q10 32 34 78\" fill=\"none\" stroke=\"#c2410c\" stroke-width=\"7\" stroke-linecap=\"round\"/><circle cx=\"232\" cy=\"46\" r=\"20\" fill=\"#6b7260\" opacity=\"0.38\"/><circle cx=\"208\" cy=\"30\" r=\"17\" fill=\"#6b7260\" opacity=\"0.38\"/><circle cx=\"252\" cy=\"26\" r=\"16\" fill=\"#6b7260\" opacity=\"0.38\"/><circle cx=\"226\" cy=\"12\" r=\"14\" fill=\"#6b7260\" opacity=\"0.38\"/><circle cx=\"268\" cy=\"44\" r=\"13\" fill=\"#6b7260\" opacity=\"0.38\"/><line x1=\"116\" y1=\"24\" x2=\"208\" y2=\"34\" stroke=\"#6b7260\" stroke-width=\"1.1\"/><text x=\"120.0\" y=\"27.5\" text-anchor=\"end\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"10.5\" font-weight=\"600\" fill=\"#234539\">askolom</text><line x1=\"334\" y1=\"62\" x2=\"250\" y2=\"66\" stroke=\"#6b7260\" stroke-width=\"1.1\"/><text x=\"330.0\" y=\"65.5\" text-anchor=\"start\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"10.5\" font-weight=\"600\" fill=\"#234539\">krater</text><line x1=\"416\" y1=\"150\" x2=\"292\" y2=\"150\" stroke=\"#6b7260\" stroke-width=\"1.1\"/><text x=\"412.0\" y=\"153.5\" text-anchor=\"start\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"10.5\" font-weight=\"600\" fill=\"#234539\">lavastroom</text><line x1=\"82\" y1=\"140\" x2=\"224\" y2=\"140\" stroke=\"#6b7260\" stroke-width=\"1.1\"/><text x=\"86.0\" y=\"143.5\" text-anchor=\"end\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"10.5\" font-weight=\"600\" fill=\"#234539\">pijp</text><line x1=\"102\" y1=\"264\" x2=\"174\" y2=\"252\" stroke=\"#6b7260\" stroke-width=\"1.1\"/><text x=\"106.0\" y=\"267.5\" text-anchor=\"end\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"10.5\" font-weight=\"600\" fill=\"#234539\">magmakamer</text></svg>",
+     "onderschrift": "Een vulkaan boven een subductiezone: magma stijgt op door de korst."
+    },
+    {
+     "soort": "tekst",
+     "html": "Een <strong>caldera</strong> is <strong>een grote krater na het instorten van een vulkaan</strong>: de magmakamer is leeggelopen en het dak zakt in."
+    },
+    {
+     "soort": "tekst",
+     "html": "Over de ligging van aardbevingen en vulkanen geldt: <strong>ze liggen vooral aan de plaatranden</strong>, <strong>samen tekenen ze de plaatgrenzen uit</strong>, en <strong>de Ring of Fire is de bekendste gordel</strong>. Dat is precies hoe de kaart van de platen gevonden is: door de bevingen op een wereldkaart te zetten en te zien dat ze in lijnen liggen."
+    }
+   ]
+  }
+ ],
+ "onthoud": []
+}

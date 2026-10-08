@@ -1,0 +1,98 @@
+{
+ "vak": "Gezondheid, zorg en welzijn",
+ "titel": "Kwaliteitsbewust handelen",
+ "onder": "De zeven factoren van kwaliteitsbewust handelen, het OVUR-schema en de 5S-methode, de gevarentekens en het etiket, ergonomie aan de werkpost, en de Ladder van Lansink met de afvalcategorieën.",
+ "secties": [
+  {
+   "kop": "De zeven factoren",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "<strong>Kwaliteitsbewust handelen heeft zeven factoren</strong>, en samen bepalen ze of je werk kwaliteit heeft. <strong>Het gaat dus niet alleen over snelheid</strong>; snelheid staat niet eens in het rijtje."
+    },
+    {
+     "soort": "kader",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">factor</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">wat het betekent</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>respectvol</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>respect tonen voor jezelf, voor anderen en voor het materiaal</strong></td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>belevingsgericht</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>kijken wat de ander voelt</strong>: rekening houden met zijn gevoelens, noden, wensen en beperkingen</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>methodisch</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>volgens een vast plan werken</strong>, in een vaste orde, zodat je niets vergeet</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>hygiënisch</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>kiemen tegenhouden</strong>: zo werken dat ziektekiemen zich niet verspreiden</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>veilig</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">gevaren herkennen en vermijden</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>ergonomisch</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>werken zonder schade</strong>: het werk afstemmen op het lichaam</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>economisch</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>zuinig omgaan met materiaal en tijd</strong></td></tr></table>"
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Respect voor materiaal hoort er wel degelijk bij</strong>, het is een van de drie richtingen. <strong>De belevingswereld van iemand bestaat uit zijn gevoelens, zijn noden of behoeften, zijn wensen en zijn beperkingen.</strong>"
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>De drie huishoudelijke taken zijn maaltijdzorg, interieurzorg en linnenzorg.</strong>"
+    }
+   ]
+  },
+  {
+   "kop": "OVUR en de 5S-methode",
+   "blokken": [
+    {
+     "soort": "figuur",
+     "html": "<svg viewBox=\"0 0 470 76\" width=\"470\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"0.0\" y=\"6\" width=\"98.0\" height=\"62\" rx=\"10\" fill=\"#ffffff\" stroke=\"#2f5d50\" stroke-width=\"1.8\"/><text x=\"49.0\" y=\"29.0\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"11.5\" font-weight=\"600\" fill=\"#234539\">oriënteren</text><text x=\"49.0\" y=\"45.0\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"10\" font-weight=\"400\" fill=\"#6b7260\">wat is de opdracht?</text><path d=\"M103.0 37.0 h12 m0 0 l-6 -5 m6 5 l-6 5\" stroke=\"#2f5d50\" stroke-width=\"2\" fill=\"none\" stroke-linecap=\"round\"/><rect x=\"124.0\" y=\"6\" width=\"98.0\" height=\"62\" rx=\"10\" fill=\"#ffffff\" stroke=\"#2f5d50\" stroke-width=\"1.8\"/><text x=\"173.0\" y=\"29.0\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"11.5\" font-weight=\"600\" fill=\"#234539\">voorbereiden</text><text x=\"173.0\" y=\"45.0\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"10\" font-weight=\"400\" fill=\"#6b7260\">wat heb ik nodig?</text><path d=\"M227.0 37.0 h12 m0 0 l-6 -5 m6 5 l-6 5\" stroke=\"#2f5d50\" stroke-width=\"2\" fill=\"none\" stroke-linecap=\"round\"/><rect x=\"248.0\" y=\"6\" width=\"98.0\" height=\"62\" rx=\"10\" fill=\"#ffffff\" stroke=\"#2f5d50\" stroke-width=\"1.8\"/><text x=\"297.0\" y=\"29.0\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"11.5\" font-weight=\"600\" fill=\"#234539\">uitvoeren</text><text x=\"297.0\" y=\"45.0\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"10\" font-weight=\"400\" fill=\"#6b7260\">volgens plan</text><path d=\"M351.0 37.0 h12 m0 0 l-6 -5 m6 5 l-6 5\" stroke=\"#2f5d50\" stroke-width=\"2\" fill=\"none\" stroke-linecap=\"round\"/><rect x=\"372.0\" y=\"6\" width=\"98.0\" height=\"62\" rx=\"10\" fill=\"#ffffff\" stroke=\"#2f5d50\" stroke-width=\"1.8\"/><text x=\"421.0\" y=\"29.0\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"11.5\" font-weight=\"600\" fill=\"#234539\">reflecteren</text><text x=\"421.0\" y=\"45.0\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"10\" font-weight=\"400\" fill=\"#6b7260\">hoe ging het?</text></svg>",
+     "onderschrift": "Het OVUR-schema: oriënteren, voorbereiden, uitvoeren, reflecteren."
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>De eerste stap van OVUR is oriënteren</strong>: wat is de opdracht precies? <strong>Bij de R van OVUR blik je terug</strong>: ging het goed, wat zou je een volgende keer anders doen? <strong>Het schema eindigt dus met reflecteren.</strong>"
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>De 5S-methode dient om je werkpost te schikken</strong>: ze organiseert, inspecteert en onderhoudt je werkplek."
+    },
+    {
+     "soort": "kader",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">S</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">wat je doet</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">waarvoor</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>scheiden</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">wat je niet nodig hebt, gaat weg</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>organiseren</strong></td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>schikken</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">elk ding zijn vaste plaats</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>organiseren</strong></td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>schoonmaken</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">poetsen en tegelijk nakijken</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>inspecteren</strong></td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>standaardiseren</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>een vaste werkwijze maken</strong>, zodat iedereen het telkens op dezelfde manier doet</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>onderhouden</strong></td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>standhouden</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">het volhouden</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>onderhouden</strong></td></tr></table>"
+    }
+   ]
+  },
+  {
+   "kop": "Veilig werken",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "<strong>Een gevarensymbool is een ruit met een rode rand</strong> en een zwart teken erin."
+    },
+    {
+     "soort": "kader",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">soort teken</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">vorm</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">betekenis</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>verbodsteken</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een rode cirkel met een streep erdoor</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>iets mag niet</strong></td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>gebodsteken</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een blauwe cirkel</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>iets is verplicht</strong>, bijvoorbeeld een veiligheidsbril dragen</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>waarschuwingsteken</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een gele driehoek</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">let op, hier is gevaar</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>reddingsteken</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">groen</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>het wijst de nooduitgang</strong>, de verbanddoos of de AED</td></tr></table>"
+    },
+    {
+     "soort": "tekst",
+     "html": "Rekentekens bestaan niet in de veiligheid. <strong>Van een etiket lees je het gebruik, de dosering en de gevarensymbolen af</strong>, en ook de gevarenaanduidingen en de veiligheidsaanduidingen."
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Ergonomie stemt het werk af op het lichaam</strong>, zodat je er geen klachten van krijgt. <strong>Een zware doos til je met gebogen knieën</strong>: zak door je knieën, hou je rug recht en de last dicht bij je lichaam. <strong>Ergonomisch handelen gaat niet alleen over tillen</strong>, ook over je zithouding, je stahouding en de schikking van je werkpost. <strong>Bij het inrichten van een werkpost hou je rekening met de gebruiksfrequentie, de reikwijdte en de reikhoogte</strong> van wat je nodig hebt."
+    }
+   ]
+  },
+  {
+   "kop": "Afval en de Ladder van Lansink",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "<strong>De Ladder van Lansink is een rangorde voor afval</strong>: ze zet de manieren om met afval om te gaan op een rij, van de beste naar de slechtste."
+    },
+    {
+     "soort": "figuur",
+     "html": "<svg viewBox=\"0 0 470 224\" width=\"470\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"58\" y=\"26\" width=\"396\" height=\"30\" fill=\"#2f5d50\" fill-opacity=\"0.22\" stroke=\"#2f5d50\" stroke-width=\"1.4\" rx=\"5\"/><text x=\"70.0\" y=\"46.0\" text-anchor=\"start\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"10.5\" font-weight=\"600\" fill=\"#23291f\">preventie</text><text x=\"151.0\" y=\"46.0\" text-anchor=\"start\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"9\" fill=\"#6b7260\">afval voorkomen</text><rect x=\"58\" y=\"62\" width=\"396\" height=\"30\" fill=\"#2f5d50\" fill-opacity=\"0.19\" stroke=\"#2f5d50\" stroke-width=\"1.4\" rx=\"5\"/><text x=\"70.0\" y=\"82.0\" text-anchor=\"start\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"10.5\" font-weight=\"600\" fill=\"#23291f\">hergebruik</text><text x=\"160.0\" y=\"82.0\" text-anchor=\"start\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"9\" fill=\"#6b7260\">opnieuw gebruiken wat er is</text><rect x=\"58\" y=\"98\" width=\"396\" height=\"30\" fill=\"#2f5d50\" fill-opacity=\"0.16\" stroke=\"#2f5d50\" stroke-width=\"1.4\" rx=\"5\"/><text x=\"70.0\" y=\"118.0\" text-anchor=\"start\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"10.5\" font-weight=\"600\" fill=\"#23291f\">recyclage</text><text x=\"151.0\" y=\"118.0\" text-anchor=\"start\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"9\" fill=\"#6b7260\">de grondstof terugwinnen</text><rect x=\"58\" y=\"134\" width=\"396\" height=\"30\" fill=\"#2f5d50\" fill-opacity=\"0.13\" stroke=\"#2f5d50\" stroke-width=\"1.4\" rx=\"5\"/><text x=\"70.0\" y=\"154.0\" text-anchor=\"start\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"10.5\" font-weight=\"600\" fill=\"#23291f\">verbranden</text><text x=\"160.0\" y=\"154.0\" text-anchor=\"start\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"9\" fill=\"#6b7260\">met energierecuperatie</text><rect x=\"58\" y=\"170\" width=\"396\" height=\"30\" fill=\"#2f5d50\" fill-opacity=\"0.10\" stroke=\"#2f5d50\" stroke-width=\"1.4\" rx=\"5\"/><text x=\"70.0\" y=\"190.0\" text-anchor=\"start\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"10.5\" font-weight=\"600\" fill=\"#23291f\">storten</text><text x=\"133.0\" y=\"190.0\" text-anchor=\"start\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"9\" fill=\"#6b7260\">het laatste redmiddel</text><line x1=\"32\" y1=\"30\" x2=\"32\" y2=\"200\" stroke=\"#6b7260\" stroke-width=\"1.6\"/><path d=\"M32 24 l-5 9 h10 z\" fill=\"#6b7260\"/><text x=\"44.0\" y=\"18.0\" text-anchor=\"start\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"9.5\" font-weight=\"600\" fill=\"#6b7260\">het best</text><text x=\"44.0\" y=\"214.0\" text-anchor=\"start\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"9.5\" font-weight=\"600\" fill=\"#6b7260\">het slechtst</text></svg>",
+     "onderschrift": "De Ladder van Lansink. Bovenaan staat preventie: afval voorkomen is beter dan het verwerken."
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Bovenaan staat preventie</strong>: afval voorkomen is het beste, en pas daarna komen hergebruiken, recycleren en verbranden."
+    },
+    {
+     "soort": "kader",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">categorie</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">wat erin hoort</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>gft</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>groenten-, fruit- en tuinafval</strong>: <strong>een bananenschil</strong></td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>pmd</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">plastic flessen, metalen verpakkingen en drankkartons: <strong>een plastic fles</strong></td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>glas</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">flessen en bokalen</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>papier en karton</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">kranten, dozen</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>kga</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>klein gevaarlijk afval</strong>: <strong>een batterij</strong>, verf, medicijnen</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>restafval</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">wat in geen enkele andere zak past</td></tr></table>"
+    },
+    {
+     "soort": "tekst",
+     "html": "Grijsafval bestaat niet als categorie, en <strong>een batterij hoort niet bij het restafval</strong> maar bij het kga. <strong>Kostenbewust handelen is zuinig omgaan met materiaal en tijd</strong>: economisch handelen let op de kosten van wat je gebruikt én van de tijd die je besteedt."
+    }
+   ]
+  }
+ ],
+ "onthoud": []
+}

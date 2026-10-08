@@ -1,0 +1,81 @@
+{
+ "vak": "Gezondheid, zorg en welzijn",
+ "titel": "Interieurzorg: ruimtes, vuil en technieken",
+ "onder": "Wat interieurzorg omvat, de soorten ruimtes in een huis, waarvan de onderhoudsfrequentie afhangt, de soorten vuil met de techniek die erbij hoort, en de Sinner-cirkel.",
+ "secties": [
+  {
+   "kop": "Ruimtes en frequentie",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "<strong>Interieurzorg is de zorg voor de woon- en leefomgeving</strong>, en omvat <strong>ruimtes onderhouden, voorwerpen reinigen, planten verzorgen</strong> en dieren. Strijken hoort bij de linnenzorg."
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Reinigen en schoonmaken betekenen niet hetzelfde</strong>: <strong>je reinigt een voorwerp en je maakt een ruimte schoon.</strong>"
+    },
+    {
+     "soort": "kader",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">soort ruimte</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">welke</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>woonruimtes</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">de woonkamer, de eetkamer</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>slaapruimtes</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">de slaapkamers</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>sanitaire ruimtes</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">de badkamer en het toilet</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>de keuken en de bijkeuken</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>een eigen groep, geen sanitaire ruimte</strong></td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>verkeersruimtes</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>de gang, de hal en de trap</strong>: je passeert er, je blijft er niet</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>bergruimtes</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>de kelder</strong>, de zolder en de berging</td></tr></table>"
+    },
+    {
+     "soort": "kader",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">onderhoud</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">wanneer</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>dagelijks</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>de keuken</strong>, want waar met voedsel gewerkt wordt, is de graad van hygiëne hoog</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>periodiek</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>wekelijks of maandelijks</strong>, en ook <strong>de grote schoonmaak</strong>: wat met een vaste tussenpoos terugkomt</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>specifiek</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>bij een bijzondere reden</strong>, bijvoorbeeld na een feest of een ziekte</td></tr></table>"
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>De onderhoudsfrequentie hangt af van het gebruiksdoel, de graad van hygiëne, de bezettingsgraad en de poetsnorm van de bewoner.</strong> <strong>De bezettingsgraad is hoeveel mensen er komen</strong>: hoe meer gebruik, hoe sneller vuil. <strong>De poetsnorm is wat de bewoner proper vindt</strong>: de ene vindt een kamer al proper waar de andere nog aan het poetsen gaat."
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>De keuken en de sanitaire ruimtes vragen de hoogste graad van hygiëne</strong>, en <strong>een badkamer vraagt dus vaker onderhoud dan een zolder.</strong>"
+    }
+   ]
+  },
+  {
+   "kop": "Soorten vuil en technieken",
+   "blokken": [
+    {
+     "soort": "kader",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">soort vuil</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">wat het is</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">welke techniek</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>droog vuil</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>stof op een kast</strong>, kruimels, haren: het ligt los op het oppervlak</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>droog schoonmaken</strong></td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>aangekleefd vuil</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>licht gehecht</strong>, zoals een opgedroogde druppel op het aanrecht</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">klam vochtig of nat</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>ingedrongen vuil</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>sterk gehecht</strong>, diep in het materiaal, zoals een ingetrokken vetvlek</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">nat schoonmaken, met product</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>onzichtbaar vuil</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>bacteriën en virussen</strong>: je ziet het niet, maar het is er wel</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>ontsmetten</strong></td></tr></table>"
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Zichtbaar en onzichtbaar vuil zijn de twee hoofdgroepen</strong>: droog, aangekleefd en ingedrongen vuil zijn het zichtbare. <strong>Onzichtbaar vuil is niet minder gevaarlijk</strong>: net het vuil dat je niet ziet, de kiemen, maakt mensen ziek. Daarom poets je ook een kraan die er proper uitziet."
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>De vier technieken zijn droog, klam vochtig, nat schoonmaken en ontsmetten.</strong> Opwarmen is geen schoonmaaktechniek. <strong>Klam vochtig schoonmaken doe je met een vochtige doek</strong>, net vochtig genoeg om het vuil mee te nemen zonder het oppervlak nat te maken. <strong>Droog vuil verwijder je niet met veel water</strong>: met water maak je van los stof een vlek."
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Je ontsmet bij kans op kiemen</strong>, zoals op een snijplank of een toilet, en <strong>pas nadat je hebt schoongemaakt</strong>: een ontsmettingsmiddel werkt niet door een laag vuil heen."
+    }
+   ]
+  },
+  {
+   "kop": "De Sinner-cirkel",
+   "blokken": [
+    {
+     "soort": "figuur",
+     "html": "<svg viewBox=\"0 0 470 250\" width=\"470\" xmlns=\"http://www.w3.org/2000/svg\"><path d=\"M150 120 L150.0 28.0 A 92 92 0 0 1 242.0 120.0 Z\" fill=\"#2f5d50\" fill-opacity=\"0.22\" stroke=\"#2f5d50\" stroke-width=\"1.8\"/><rect x=\"276\" y=\"42\" width=\"12\" height=\"12\" fill=\"#2f5d50\" fill-opacity=\"0.5\" stroke=\"#2f5d50\" stroke-width=\"1.2\"/><text x=\"296.0\" y=\"52.0\" text-anchor=\"start\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"10.5\" font-weight=\"600\" fill=\"#23291f\">tijd</text><text x=\"296.0\" y=\"65.0\" text-anchor=\"start\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"9.5\" fill=\"#6b7260\">25 %</text><path d=\"M150 120 L242.0 120.0 A 92 92 0 0 1 150.0 212.0 Z\" fill=\"#c17f2b\" fill-opacity=\"0.22\" stroke=\"#c17f2b\" stroke-width=\"1.8\"/><rect x=\"276\" y=\"76\" width=\"12\" height=\"12\" fill=\"#c17f2b\" fill-opacity=\"0.5\" stroke=\"#c17f2b\" stroke-width=\"1.2\"/><text x=\"296.0\" y=\"86.0\" text-anchor=\"start\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"10.5\" font-weight=\"600\" fill=\"#23291f\">chemie</text><text x=\"296.0\" y=\"99.0\" text-anchor=\"start\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"9.5\" fill=\"#6b7260\">25 %</text><path d=\"M150 120 L150.0 212.0 A 92 92 0 0 1 58.0 120.0 Z\" fill=\"#6f8f4a\" fill-opacity=\"0.22\" stroke=\"#6f8f4a\" stroke-width=\"1.8\"/><rect x=\"276\" y=\"110\" width=\"12\" height=\"12\" fill=\"#6f8f4a\" fill-opacity=\"0.5\" stroke=\"#6f8f4a\" stroke-width=\"1.2\"/><text x=\"296.0\" y=\"120.0\" text-anchor=\"start\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"10.5\" font-weight=\"600\" fill=\"#23291f\">temperatuur</text><text x=\"296.0\" y=\"133.0\" text-anchor=\"start\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"9.5\" fill=\"#6b7260\">25 %</text><path d=\"M150 120 L58.0 120.0 A 92 92 0 0 1 150.0 28.0 Z\" fill=\"#6b7260\" fill-opacity=\"0.22\" stroke=\"#6b7260\" stroke-width=\"1.8\"/><rect x=\"276\" y=\"144\" width=\"12\" height=\"12\" fill=\"#6b7260\" fill-opacity=\"0.5\" stroke=\"#6b7260\" stroke-width=\"1.2\"/><text x=\"296.0\" y=\"154.0\" text-anchor=\"start\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"10.5\" font-weight=\"600\" fill=\"#23291f\">mechanische handeling</text><text x=\"296.0\" y=\"167.0\" text-anchor=\"start\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"9.5\" fill=\"#6b7260\">25 %</text><text x=\"16.0\" y=\"244.0\" text-anchor=\"start\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"9.5\" fill=\"#6b7260\">de vier samen zijn altijd het geheel: minder van de ene vraagt meer van een andere</text></svg>",
+     "onderschrift": "De vier factoren van de Sinner-cirkel. Samen vormen ze altijd het geheel."
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>De vier factoren zijn tijd, chemie, temperatuur en de mechanische handeling</strong>, dat laatste is wrijven, borstelen of draaien. <strong>Samen bepalen ze het resultaat.</strong>"
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Je kan de ene factor door de andere vervangen</strong>: <strong>gebruik je minder product, dan moet je harder wrijven</strong>, of langer laten inwerken, of warmer water nemen. <strong>Warm water werkt beter dan koud omdat het vuil er sneller in oplost</strong>: warmte maakt vet en vuil losser, dus je hebt minder product en minder wrijven nodig."
+    },
+    {
+     "soort": "figuur",
+     "html": "<svg viewBox=\"0 0 470 250\" width=\"470\" xmlns=\"http://www.w3.org/2000/svg\"><path d=\"M150 120 L150.0 28.0 A 92 92 0 0 1 224.4 174.1 Z\" fill=\"#2f5d50\" fill-opacity=\"0.22\" stroke=\"#2f5d50\" stroke-width=\"1.8\"/><rect x=\"276\" y=\"42\" width=\"12\" height=\"12\" fill=\"#2f5d50\" fill-opacity=\"0.5\" stroke=\"#2f5d50\" stroke-width=\"1.2\"/><text x=\"296.0\" y=\"52.0\" text-anchor=\"start\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"10.5\" font-weight=\"600\" fill=\"#23291f\">tijd</text><text x=\"296.0\" y=\"65.0\" text-anchor=\"start\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"9.5\" fill=\"#6b7260\">35 %</text><path d=\"M150 120 L224.4 174.1 A 92 92 0 0 1 178.4 207.5 Z\" fill=\"#c17f2b\" fill-opacity=\"0.22\" stroke=\"#c17f2b\" stroke-width=\"1.8\"/><rect x=\"276\" y=\"76\" width=\"12\" height=\"12\" fill=\"#c17f2b\" fill-opacity=\"0.5\" stroke=\"#c17f2b\" stroke-width=\"1.2\"/><text x=\"296.0\" y=\"86.0\" text-anchor=\"start\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"10.5\" font-weight=\"600\" fill=\"#23291f\">chemie</text><text x=\"296.0\" y=\"99.0\" text-anchor=\"start\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"9.5\" fill=\"#6b7260\">10 %</text><path d=\"M150 120 L178.4 207.5 A 92 92 0 0 1 75.6 174.1 Z\" fill=\"#6f8f4a\" fill-opacity=\"0.22\" stroke=\"#6f8f4a\" stroke-width=\"1.8\"/><rect x=\"276\" y=\"110\" width=\"12\" height=\"12\" fill=\"#6f8f4a\" fill-opacity=\"0.5\" stroke=\"#6f8f4a\" stroke-width=\"1.2\"/><text x=\"296.0\" y=\"120.0\" text-anchor=\"start\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"10.5\" font-weight=\"600\" fill=\"#23291f\">temperatuur</text><text x=\"296.0\" y=\"133.0\" text-anchor=\"start\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"9.5\" fill=\"#6b7260\">20 %</text><path d=\"M150 120 L75.6 174.1 A 92 92 0 0 1 150.0 28.0 Z\" fill=\"#6b7260\" fill-opacity=\"0.22\" stroke=\"#6b7260\" stroke-width=\"1.8\"/><rect x=\"276\" y=\"144\" width=\"12\" height=\"12\" fill=\"#6b7260\" fill-opacity=\"0.5\" stroke=\"#6b7260\" stroke-width=\"1.2\"/><text x=\"296.0\" y=\"154.0\" text-anchor=\"start\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"10.5\" font-weight=\"600\" fill=\"#23291f\">mechanische handeling</text><text x=\"296.0\" y=\"167.0\" text-anchor=\"start\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"9.5\" fill=\"#6b7260\">35 %</text><text x=\"16.0\" y=\"244.0\" text-anchor=\"start\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"9.5\" fill=\"#6b7260\">de vier samen zijn altijd het geheel: minder van de ene vraagt meer van een andere</text></svg>",
+     "onderschrift": "Dezelfde cirkel met weinig product: de drie andere factoren worden groter om het goed te maken."
+    }
+   ]
+  }
+ ],
+ "onthoud": []
+}

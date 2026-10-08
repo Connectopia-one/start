@@ -1,0 +1,63 @@
+{
+ "vak": "Economie en bedrijfswetenschappen",
+ "titel": "De afdelingen en hun samenwerking",
+ "onder": "Wat elke afdeling doet, waarom de taken altijd bestaan ook zonder aparte afdeling, en hoe de informatie en de documenten tussen de afdelingen lopen bij één verkoop.",
+ "secties": [
+  {
+   "kop": "Wie doet wat",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "<strong>De vakfiche noemt zeven afdelingen</strong>, en je moet van elk kunnen zeggen wat ze doet en wat ze niet doet."
+    },
+    {
+     "soort": "kader",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">afdeling</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">wat ze doet</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>aankoop</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>goederen inkopen</strong>: leveranciers zoeken, prijzen, levertijden en kwaliteit vergelijken en bestellen</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>verkoop</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>klanten bedienen</strong>: offertes maken, bestellingen opnemen en klanten opvolgen</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>administratie en boekhouding</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>de cijfers bijhouden</strong>: facturen boeken en opmaken, de btw-aangifte doen en de jaarrekening voorbereiden</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>marketing</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>de markt bewerken</strong>: onderzoeken wat de klant wil en het product, de prijs, de plaats en de promotie bepalen</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>HR, human resources of de personeelsdienst</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>het personeel</strong>: aanwerven, opleidingen regelen en de loonadministratie opvolgen</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>IT of informatica</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>de techniek verzorgen</strong>: computers, netwerk, software en de beveiliging van de gegevens</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>expeditie en logistiek</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>de goederenstroom</strong>: ontvangen, opslaan, picken, verzenden en het transport plannen</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>research and development</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>nieuwe producten zoeken</strong>: onderzoek en ontwikkeling van nieuwe producten en betere werkwijzen</td></tr></table>"
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>HR staat voor human resources</strong>, de mensen van de onderneming; HR volgt hun instroom, doorstroom en uitstroom op. <strong>De IT-afdeling zorgt niet voor de boekhouding</strong>: zij zorgt voor de systemen, de boekhouding gebruikt ze. <strong>De facturen voor de klanten maakt de boekhouding</strong>, met de gegevens die de verkoop doorgeeft. <strong>De reclamecampagne bedenkt de marketing</strong>; promotie is een van de vier P's van de marketingmix."
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Een kleine zaak kan al die taken bij één of twee mensen leggen.</strong> De taken bestaan altijd; of er een aparte afdeling voor is, hangt van de grootte af. <strong>Niet elke onderneming heeft dus alle afdelingen apart</strong>: een zaak met drie werknemers heeft geen eigen IT- of R&amp;D-afdeling. En een raad van bestuur is geen afdeling."
+    }
+   ]
+  },
+  {
+   "kop": "Waarom ze elkaar nodig hebben",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "<strong>Afdelingen moeten samenwerken omdat het werk samenhangt</strong>: één verkoop raakt de verkoop, de logistiek en de boekhouding. <strong>Geen enkele afdeling kan volledig op haar eigen werken</strong>, want elke afdeling heeft gegevens van de andere nodig."
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Het doorgeven van informatie tussen afdelingen is communicatie of overleg</strong>, en <strong>de reeks documenten die daarbij doorgaat, is de documentenstroom</strong>, ook de documentstroom of de informatiedoorstroming genoemd."
+    },
+    {
+     "soort": "figuur",
+     "html": "<svg viewBox=\"0 0 470 76\" width=\"470\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"0.0\" y=\"6\" width=\"98.0\" height=\"62\" rx=\"10\" fill=\"#ffffff\" stroke=\"#2f5d50\" stroke-width=\"1.8\"/><text x=\"49.0\" y=\"29.0\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"11.5\" font-weight=\"600\" fill=\"#234539\">de klant</text><text x=\"49.0\" y=\"45.0\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"10\" font-weight=\"400\" fill=\"#6b7260\">bestelt</text><path d=\"M103.0 37.0 h12 m0 0 l-6 -5 m6 5 l-6 5\" stroke=\"#2f5d50\" stroke-width=\"2\" fill=\"none\" stroke-linecap=\"round\"/><rect x=\"124.0\" y=\"6\" width=\"98.0\" height=\"62\" rx=\"10\" fill=\"#ffffff\" stroke=\"#2f5d50\" stroke-width=\"1.8\"/><text x=\"173.0\" y=\"29.0\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"11.5\" font-weight=\"600\" fill=\"#234539\">verkoop neemt</text><text x=\"173.0\" y=\"45.0\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"10\" font-weight=\"400\" fill=\"#6b7260\">de bestelling op</text><path d=\"M227.0 37.0 h12 m0 0 l-6 -5 m6 5 l-6 5\" stroke=\"#2f5d50\" stroke-width=\"2\" fill=\"none\" stroke-linecap=\"round\"/><rect x=\"248.0\" y=\"6\" width=\"98.0\" height=\"62\" rx=\"10\" fill=\"#ffffff\" stroke=\"#2f5d50\" stroke-width=\"1.8\"/><text x=\"297.0\" y=\"29.0\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"11.5\" font-weight=\"600\" fill=\"#234539\">logistiek pickt</text><text x=\"297.0\" y=\"45.0\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"10\" font-weight=\"400\" fill=\"#6b7260\">en verzendt</text><path d=\"M351.0 37.0 h12 m0 0 l-6 -5 m6 5 l-6 5\" stroke=\"#2f5d50\" stroke-width=\"2\" fill=\"none\" stroke-linecap=\"round\"/><rect x=\"372.0\" y=\"6\" width=\"98.0\" height=\"62\" rx=\"10\" fill=\"#ffffff\" stroke=\"#2f5d50\" stroke-width=\"1.8\"/><text x=\"421.0\" y=\"29.0\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"11.5\" font-weight=\"600\" fill=\"#234539\">boekhouding</text><text x=\"421.0\" y=\"45.0\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"10\" font-weight=\"400\" fill=\"#6b7260\">factureert</text></svg>",
+     "onderschrift": "Bij één verkoop lopen drie afdelingen achter elkaar: de verkoop, de logistiek en de boekhouding."
+    },
+    {
+     "soort": "kader",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">van</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">naar</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">wat er doorgaat</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>verkoop</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>logistiek</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>de bestelling</strong>, zodat de goederen gepickt en verzonden kunnen worden: bestelbonnen, leverbonnen en de afspraken over de levertijd</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>verkoop</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>boekhouding</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>de gegevens om te factureren</strong>: wie wat kocht, aan welke prijs en met welke korting</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>logistiek</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>aankoop</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>dat de voorraad laag is</strong>, want voorraadbeheer is werk voor de logistiek</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>marketing</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>verkoop</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">wat de klant wil en wat er in de actie zit, want dat bepaalt het verkoopgesprek</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>marketing</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>R&amp;D</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">wat de klant wil, want een product dat niemand wil, is ook technisch geen succes</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>alle afdelingen</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>HR</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">welke functies vrijkomen, welke prestaties geleverd zijn en welke opleidingen nodig zijn</td></tr></table>"
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Loonfiches lopen tussen HR en de boekhouding</strong>, niet tussen verkoop en logistiek, en de klantenlijst is werk voor de verkoop, niet voor HR. <strong>IT werkt voor alle afdelingen</strong>, want van het kassasysteem tot de boekhoudsoftware loopt alles over hun netwerk. <strong>De boekhouding staat dus niet los van de rest</strong>: elke aankoop, verkoop en loonbetaling komt bij haar terecht."
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Een fout in de aankoop kan de verkoop stilleggen</strong>: zonder goederen in huis valt er niets te leveren. <strong>Weet de logistiek niet wat verkocht is, dan loopt de levering mis</strong>, met verkeerde of te late leveringen en een ontevreden klant. <strong>Slechte communicatie geeft fouten en vertraging</strong>: dubbel werk, verkeerde leveringen en klachten."
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Daarom bespreekt een onderneming haar cijfers met alle chefs: om samen bij te sturen.</strong> Elke afdeling ziet dan wat haar werk met het geheel doet. <strong>En een goede samenwerking helpt de klant sneller</strong>: zijn bestelling raakt zonder omwegen van de verkoop tot aan zijn deur."
+    }
+   ]
+  }
+ ],
+ "onthoud": []
+}

@@ -1,0 +1,90 @@
+{
+ "vak": "Gezondheid, zorg en welzijn",
+ "titel": "Waarnemen: van prikkel tot reactie",
+ "onder": "De vier stappen van het waarnemingsproces, de vijf zintuigen en de vijf soorten receptoren, het verschil tussen een zenuw en een hormoon, en de huid, de neus en de tong van dichtbij.",
+ "secties": [
+  {
+   "kop": "Het waarnemingsproces",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "<strong>Een prikkel is een verandering</strong> in of buiten je lichaam die je lichaam kan opmerken. Waarnemen verloopt daarna altijd in vier stappen."
+    },
+    {
+     "soort": "figuur",
+     "html": "<svg viewBox=\"0 0 470 76\" width=\"470\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"0.0\" y=\"6\" width=\"98.0\" height=\"62\" rx=\"10\" fill=\"#ffffff\" stroke=\"#2f5d50\" stroke-width=\"1.8\"/><text x=\"49.0\" y=\"29.0\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"11.5\" font-weight=\"600\" fill=\"#234539\">prikkel</text><text x=\"49.0\" y=\"45.0\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"10\" font-weight=\"400\" fill=\"#6b7260\">de verandering</text><path d=\"M103.0 37.0 h12 m0 0 l-6 -5 m6 5 l-6 5\" stroke=\"#2f5d50\" stroke-width=\"2\" fill=\"none\" stroke-linecap=\"round\"/><rect x=\"124.0\" y=\"6\" width=\"98.0\" height=\"62\" rx=\"10\" fill=\"#ffffff\" stroke=\"#2f5d50\" stroke-width=\"1.8\"/><text x=\"173.0\" y=\"29.0\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"11.5\" font-weight=\"600\" fill=\"#234539\">receptor</text><text x=\"173.0\" y=\"45.0\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"10\" font-weight=\"400\" fill=\"#6b7260\">vangt op</text><path d=\"M227.0 37.0 h12 m0 0 l-6 -5 m6 5 l-6 5\" stroke=\"#2f5d50\" stroke-width=\"2\" fill=\"none\" stroke-linecap=\"round\"/><rect x=\"248.0\" y=\"6\" width=\"98.0\" height=\"62\" rx=\"10\" fill=\"#ffffff\" stroke=\"#2f5d50\" stroke-width=\"1.8\"/><text x=\"297.0\" y=\"29.0\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"11.5\" font-weight=\"600\" fill=\"#234539\">conductor</text><text x=\"297.0\" y=\"45.0\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"10\" font-weight=\"400\" fill=\"#6b7260\">geeft door</text><path d=\"M351.0 37.0 h12 m0 0 l-6 -5 m6 5 l-6 5\" stroke=\"#2f5d50\" stroke-width=\"2\" fill=\"none\" stroke-linecap=\"round\"/><rect x=\"372.0\" y=\"6\" width=\"98.0\" height=\"62\" rx=\"10\" fill=\"#ffffff\" stroke=\"#2f5d50\" stroke-width=\"1.8\"/><text x=\"421.0\" y=\"29.0\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"11.5\" font-weight=\"600\" fill=\"#234539\">effector</text><text x=\"421.0\" y=\"45.0\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"10\" font-weight=\"400\" fill=\"#6b7260\">voert uit</text></svg>",
+     "onderschrift": "De vier stappen van het waarnemingsproces, van de prikkel tot de reactie."
+    },
+    {
+     "soort": "kader",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">stap</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">wat het is</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>de prikkel</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>de verandering</strong> zelf</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>de receptor</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>de cel die de prikkel opvangt</strong> en omzet in een impuls</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>de conductor</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>de zenuw of het hormoon</strong> die de boodschap geleidt: een zenuw elektrisch, een hormoon via het bloed</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>de effector</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>een spier of een klier</strong> die de reactie uitvoert: een spier beweegt, een klier geeft een stof af</td></tr></table>"
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Een prikkel komt dus niet altijd van buiten het lichaam.</strong> <strong>Dorst, honger en pijn in je buik zijn inwendige prikkels</strong>; <strong>lawaai, licht en kou zijn uitwendige prikkels.</strong>"
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Een zenuw werkt sneller dan een hormoon</strong>: een zenuwimpuls is er bijna meteen, <strong>een hormoon reist mee met het bloed</strong> en werkt langzamer, maar langer en in heel het lichaam."
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Een endocriene klier geeft haar stof rechtstreeks af aan het bloed</strong>; endocrien betekent naar binnen. <strong>Een exocriene klier geeft haar stof af via een kanaal</strong>, zoals een zweetklier die zweet op de huid brengt. <strong>Een klier is dus een orgaan dat een stof afgeeft</strong>, zoals zweet of speeksel."
+    }
+   ]
+  },
+  {
+   "kop": "Zintuigen, receptoren en functies",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "<strong>De mens heeft vijf zintuigen: het oog, het oor, de huid, de neus en de tong.</strong> <strong>De tong is dus wel degelijk een zintuig</strong>, het smaakzintuig, met smaakknoppen in de papillen. De lever is een orgaan, geen zintuig."
+    },
+    {
+     "soort": "kader",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">soort receptor</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">waarvoor</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>mechanoreceptoren</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">druk, aanraking, trilling</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>thermoreceptoren</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>warmte en koude</strong>, want thermo betekent warmte</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>chemoreceptoren</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">stoffen: geur en smaak</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>fotoreceptoren</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">licht, en die zitten enkel in het oog</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>nociceptoren</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>pijn</strong>, de pijnreceptoren</td></tr></table>"
+    },
+    {
+     "soort": "tekst",
+     "html": "Rekenreceptoren bestaan niet. <strong>De vijf functies van het waarnemen zijn de functionele, de sociale, de emotionele, de communicatieve en de alarmerende functie.</strong> <strong>De alarmerende functie waarschuwt voor gevaar</strong>: je ruikt rook of hoort een claxon, en je lichaam reageert voor je erover nadenkt."
+    }
+   ]
+  },
+  {
+   "kop": "De huid",
+   "blokken": [
+    {
+     "soort": "figuur",
+     "html": "<svg viewBox=\"0 0 470 214\" width=\"470\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"12\" y=\"20\" width=\"260\" height=\"40\" fill=\"#2f5d50\" fill-opacity=\"0.08\" stroke=\"#2f5d50\" stroke-width=\"1.6\"/><text x=\"280.0\" y=\"36.0\" text-anchor=\"start\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"10.5\" font-weight=\"600\" fill=\"#23291f\">opperhuid</text><text x=\"280.0\" y=\"50.0\" text-anchor=\"start\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"9\" fill=\"#6b7260\">de buitenste laag, zonder bloedvaten</text><rect x=\"12\" y=\"60\" width=\"260\" height=\"76\" fill=\"#2f5d50\" fill-opacity=\"0.16\" stroke=\"#2f5d50\" stroke-width=\"1.6\"/><text x=\"280.0\" y=\"76.0\" text-anchor=\"start\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"10.5\" font-weight=\"600\" fill=\"#23291f\">lederhuid</text><text x=\"280.0\" y=\"90.0\" text-anchor=\"start\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"9\" fill=\"#6b7260\">receptoren, bloedvaten en klieren</text><rect x=\"12\" y=\"136\" width=\"260\" height=\"54\" fill=\"#2f5d50\" fill-opacity=\"0.16\" stroke=\"#2f5d50\" stroke-width=\"1.6\"/><text x=\"280.0\" y=\"152.0\" text-anchor=\"start\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"10.5\" font-weight=\"600\" fill=\"#23291f\">onderhuids vetweefsel</text><text x=\"280.0\" y=\"166.0\" text-anchor=\"start\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"9\" fill=\"#6b7260\">isoleert en vangt stoten op</text><circle cx=\"80\" cy=\"118\" r=\"10\" fill=\"#ffffff\" stroke=\"#c17f2b\" stroke-width=\"1.8\"/><path d=\"M80 108 q 4 -36 -6 -48\" fill=\"none\" stroke=\"#c17f2b\" stroke-width=\"1.8\"/><text x=\"96.0\" y=\"122.0\" text-anchor=\"start\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"8.5\" fill=\"#c17f2b\">zweetklier</text><path d=\"M150 70 q 20 30 0 60\" fill=\"none\" stroke=\"#23291f\" stroke-width=\"2.4\"/><text x=\"160.0\" y=\"100.0\" text-anchor=\"start\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"8.5\" fill=\"#6b7260\">bloedvat</text><circle cx=\"222\" cy=\"96\" r=\"7\" fill=\"#2f5d50\"/><line x1=\"222\" y1=\"103\" x2=\"222\" y2=\"130\" stroke=\"#2f5d50\" stroke-width=\"1.8\"/><text x=\"236.0\" y=\"100.0\" text-anchor=\"start\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"8.5\" fill=\"#2f5d50\">receptor</text><text x=\"12.0\" y=\"206.0\" text-anchor=\"start\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"9.5\" fill=\"#6b7260\">van buiten naar binnen: opperhuid, lederhuid, vetweefsel</text></svg>",
+     "onderschrift": "De drie lagen van de huid. De zweetklier ligt in de lederhuid en geeft haar zweet af op de opperhuid."
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Van buiten naar binnen: de opperhuid, de lederhuid en het onderhuids vetweefsel.</strong> <strong>In de lederhuid zitten de zenuwuiteinden, de bloedvaten en de klieren</strong>; <strong>in de opperhuid zitten geen bloedvaten</strong>, en daarom bloedt een heel lichte schram niet. <strong>Het onderhuids vetweefsel isoleert</strong>: het houdt de warmte binnen en vangt stoten op."
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>In de huid zitten pijnreceptoren, mechanoreceptoren en thermoreceptoren</strong>; fotoreceptoren zitten in het oog. <strong>De huid beschermt, regelt de warmte en voelt aanraking.</strong> Speeksel komt van de speekselklieren in de mond, niet van de huid."
+    }
+   ]
+  },
+  {
+   "kop": "De neus en de tong",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "<strong>De reukcellen zitten in het reukslijmvlies</strong>, bovenaan in de neusholte, met reukhaartjes in het slijm. <strong>Een geurstof lost eerst op in het slijm</strong>: pas dan raakt ze de reukhaartjes en ontstaat er een impuls. <strong>Een reukcel is zelf een zenuwcel</strong>: ze vangt de prikkel op en geeft de impuls zelf door naar de hersenen."
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>De smaakknoppen zitten in de papillen</strong>, de kleine bultjes op de tong. <strong>De vijf basissmaken zijn zoet, zout, zuur, bitter en umami</strong>; <strong>umami is de hartige smaak</strong> van bouillon, kaas of tomaat. Warm is geen smaak maar een temperatuur."
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Je ruikt niet met de smaakknoppen</strong>: ruiken gebeurt met de reukcellen in de neus, smaken met de smaakknoppen op de tong. <strong>Toch smaakt eten minder als je verkouden bent</strong>, want smaak is grotendeels reuk: zit je neus dicht, dan valt dat deel weg."
+    }
+   ]
+  }
+ ],
+ "onthoud": []
+}

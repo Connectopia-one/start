@@ -1,0 +1,180 @@
+{
+ "vak": "Engels",
+ "titel": "Een Engelse tekst analyseren",
+ "onder": "Onderwerp, hoofdgedachte en hoofdpunten, verwijswoorden en signaalwoorden, en wat modale hulpwerkwoorden met de betekenis doen.",
+ "secties": [
+  {
+   "kop": "Onderwerp, hoofdgedachte en hoofdpunten",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Drie woorden die op elkaar lijken en die je uit elkaar moet houden. <strong>De hoofdgedachte van een tekst is niet hetzelfde als het onderwerp.</strong>"
+    },
+    {
+     "soort": "tekst",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\"></th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">hoe lang</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">voorbeeld</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">onderwerp</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">enkele woorden</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">uitleenfietsen in Leeds</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">hoofdgedachte</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een hele zin</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Te weinig slaap is slecht voor het hart.</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">hoofdpunten</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">de zinnen eronder</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">de elementen die de hoofdgedachte dragen</td></tr></table>"
+    },
+    {
+     "soort": "tekst",
+     "html": "Lees: <em>Since January, the city of Leeds has lent electric bikes to residents without a car. A thousand people have already applied.</em> Het onderwerp zeg je in enkele woorden: <strong>uitleenfietsen in Leeds</strong>."
+    },
+    {
+     "soort": "tekst",
+     "html": "Lees: <em>Sleeping less than six hours a night raises the risk of heart disease. Researchers therefore advise going to bed earlier.</em> De hoofdgedachte is een hele zin: <strong>te weinig slaap is slecht voor het hart</strong>."
+    },
+    {
+     "soort": "tekst",
+     "html": "Lees: <em>This novel tells the story of a Welsh family during the war. The author drew on her grandmother's diary.</em> De hoofdpunten zijn de drie dingen die de tekst daarover kwijt wil: <strong>het boek gaat over een Welsh gezin</strong>, <strong>het verhaal speelt tijdens de oorlog</strong> en <strong>de schrijfster gebruikte een dagboek</strong>."
+    },
+    {
+     "soort": "kader",
+     "html": "<strong>Bij een leesvraag mag je het antwoord niet halen uit wat je zelf al over het onderwerp weet, zeker niet als het de tekst tegenspreekt.</strong> Het antwoord staat in de tekst, ook als je het beter denkt te weten. En <strong>de titel, de tussentitels en de foto bij een tekst mag je niet overslaan</strong>: ze horen er wel degelijk bij en geven vaak de hoofdgedachte weg."
+    }
+   ]
+  },
+  {
+   "kop": "Gericht zoeken",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Soms hoef je de tekst niet te begrijpen, enkel één gegeven te vinden."
+    },
+    {
+     "soort": "tekst",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">de zin</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">de vraag</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">het antwoord</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">The museum is closed on Mondays.</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">op welke dag gesloten?</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Monday</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Your parcel will arrive between 2 and 4 p.m.</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">ten vroegste?</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">2</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Admission is free for under-12s.</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">tot welke leeftijd gratis?</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">12</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">There are only two seats left.</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">hoeveel plaatsen vrij?</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">nog maar twee</td></tr></table>"
+    },
+    {
+     "soort": "tekst",
+     "html": "Lees: <em>The 7.12 train has been cancelled. Passengers should take the replacement bus outside the station.</em> Drie dingen staan er: <strong>de trein rijdt niet</strong>, <strong>er staat een vervangbus klaar</strong> en <strong>de bus staat buiten het station</strong>."
+    },
+    {
+     "soort": "tekst",
+     "html": "Lees: <em>Year 13 students sit their A-levels in June.</em> Dat gaat over <strong>leerlingen van het laatste jaar</strong>: in Engeland loopt de school tot Year 13, en de A-levels zijn de eindexamens."
+    },
+    {
+     "soort": "tekst",
+     "html": "Lees: <em>This guide is aimed at parents of gifted children.</em> De gids is bedoeld <strong>voor ouders van hoogbegaafde kinderen</strong>."
+    },
+    {
+     "soort": "tekst",
+     "html": "Lees: <em>Warning: this product may contain traces of nuts.</em> Dat is vooral belangrijk <strong>voor wie allergisch is aan noten</strong>."
+    }
+   ]
+  },
+  {
+   "kop": "Tussen de regels lezen",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Een paar zinnen waar het antwoord net niet letterlijk in staat."
+    },
+    {
+     "soort": "tekst",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">de zin</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">wat ze zegt</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">It was not necessary to cancel the concert.</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">het concert ging door</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">The library will be open on Sunday, exceptionally.</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">bij uitzondering</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Owing to a lack of volunteers, the fair will not take place.</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">er zijn te weinig vrijwilligers</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">The film, though praised by critics, drew few viewers.</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">lof, maar weinig volk</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">The works will last until the end of the month, unless it rains.</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">bij regen kan het langer duren</td></tr></table>"
+    },
+    {
+     "soort": "tekst",
+     "html": "Let op <em>not necessary</em>: dat zegt dat het niet nódig was, dus is het niet gebeurd. En <em>unless</em> betekent tenzij: <strong>als het regent</strong> kunnen de werken langer duren."
+    },
+    {
+     "soort": "tekst",
+     "html": "Lees: <em>According to the author, social media are not to blame for everything.</em> Het standpunt is: <strong>sociale media krijgen te veel de schuld</strong>."
+    },
+    {
+     "soort": "tekst",
+     "html": "Lees: <em>I am writing to report an error on my bill.</em> De schrijver wil <strong>een fout melden</strong>. Dat is de vaste openingszin van een klachtenmail."
+    }
+   ]
+  },
+  {
+   "kop": "Verwijswoorden",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Verwijswoorden dragen de samenhang tussen de zinnen. De fiche noemt drie groepen: <strong>he, she, it, they</strong>, <strong>this, that, these, those</strong> en <strong>the former, the latter</strong>."
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>In <em>the former</em> verwijst <em>former</em> naar het eerste van twee genoemde dingen</strong>, en <em>the latter</em> naar het tweede."
+    },
+    {
+     "soort": "tekst",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">de zinnen</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">het verwijswoord</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">waarnaar</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Sarah called her brother. He did not pick up.</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">he</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">naar de broer van Sarah</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">The council approved the plan. It will cost two million pounds.</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">it</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">naar het plan</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">The students handed in their essays. They were late.</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">they</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">students, het meest logisch</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">What I remember most is her courage.</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">what</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">naar de moed verder in de zin</td></tr></table>"
+    },
+    {
+     "soort": "tekst",
+     "html": "Bij <em>They were late</em> kan <em>they</em> grammaticaal naar allebei verwijzen, maar <strong>students</strong> is het logische: opstellen komen niet te laat uit zichzelf."
+    }
+   ]
+  },
+  {
+   "kop": "Modale hulpwerkwoorden",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "De fiche noemt <strong>can en may</strong>, <strong>should en could</strong>, en <strong>must</strong>. Ze veranderen de betekenis van een zin volledig, en daarom staan ze bij het lezen en niet bij de grammatica alleen."
+    },
+    {
+     "soort": "tekst",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">zin</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">wat het hulpwerkwoord zegt</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">You must hand in your essay on Friday.</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">het is verplicht</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">You should hand in your essay on Friday.</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">het is een advies</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">The results may be wrong.</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">het kán, het is niet zeker</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">She can't have known about it.</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">ze kan het niet geweten hebben</td></tr></table>"
+    },
+    {
+     "soort": "tekst",
+     "html": "Het modale hulpwerkwoord voor een verplichting is <strong>must</strong>, vier letters. En let op <em>may</em>: <strong>The results may be wrong</strong> zegt <strong>niet dat de resultaten zeker verkeerd zijn</strong>, enkel dat het kan."
+    }
+   ]
+  },
+  {
+   "kop": "Signaalwoorden",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Signaalwoorden zeggen welk verband er tussen twee zinnen ligt. Wie ze herkent, leest een moeilijke tekst twee keer zo snel."
+    },
+    {
+     "soort": "tekst",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">signaalwoord</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">verband</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">however</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een tegenstelling</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">whereas</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een tegenstelling</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">although</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een toegeving</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">therefore, as a result, consequently</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een gevolg</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">indeed</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een onderbouwing van wat er net stond</td></tr></table>"
+    },
+    {
+     "soort": "tekst",
+     "html": "De woorden die een gevolg aankondigen zijn <strong>therefore</strong>, <strong>as a result</strong> en <strong>consequently</strong>. Het woord van negen letters dat daarom betekent, is <strong>therefore</strong>."
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Although kondigt een toegeving aan</strong>: de schrijver geeft iets toe en zegt er daarna iets tegenin. Lees: <em>Whereas the north is suffering drought, the south is flooded.</em> <em>Whereas</em> legt hier <strong>een tegenstelling</strong>."
+    },
+    {
+     "soort": "tekst",
+     "html": "Lees: <em>Young people read less than before. Indeed, a survey shows that…</em> De tweede zin <strong>onderbouwt de eerste</strong>."
+    }
+   ]
+  },
+  {
+   "kop": "Een onbekend woord uit elkaar halen",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Lees: <em>This book is unreadable.</em> Je hoeft dat woord niet te kennen: je leidt het af <strong>uit <em>read</em> plus <em>un-</em> en <em>-able</em></strong>. Un- maakt het tegendeel, -able betekent dat het kan, dus: niet te lezen."
+    },
+    {
+     "soort": "tekst",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">deel</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">wat het doet</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">voorbeeld</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">un-, in-, dis-</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">maakt het tegendeel</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">unfair, incorrect, dislike</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">-able, -ible</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">het kan gedaan worden</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">readable, visible</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">-less</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">zonder</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">homeless, careless</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">-ful</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">vol van</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">careful, useful</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">-ness, -ity</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">maakt er een zelfstandig naamwoord van</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">kindness, ability</td></tr></table>"
+    }
+   ]
+  },
+  {
+   "kop": "Oefen dit ook buiten het scherm",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Op dit platform oefen je lezen, woordenschat en grammatica. Maar <strong>luisteren</strong> is de helft van het examen Engels 1, en Engels 2 bestaat uit <strong>schrijven</strong>, <strong>schriftelijke interactie</strong> en <strong>een gesprek</strong>. Luisteren en spreken leer je niet achter een scherm. Je leert ze door te luisteren naar mensen die echt Engels spreken, en door zelf je mond open te doen, ook als het hakkelt."
+    },
+    {
+     "soort": "kader",
+     "html": "<strong>Deze week:</strong> luister vijftien minuten naar een Engelstalige podcast over iets wat je toch al interesseert, en vertel daarna aan iemand in het Engels waar hij over ging. Doe het één keer, en let daarna op wat je miste of niet gezegd kreeg. Dat is precies je volgende oefening."
+    }
+   ]
+  }
+ ],
+ "onthoud": []
+}

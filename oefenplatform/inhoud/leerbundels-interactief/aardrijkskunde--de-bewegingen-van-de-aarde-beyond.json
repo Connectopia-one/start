@@ -1,0 +1,166 @@
+{
+ "vak": "Aardrijkskunde",
+ "titel": "De bewegingen van de aarde",
+ "onder": "De rotatie met haar dag, haar uurgordels en het corioliseffect, en de revolutie met haar seizoenen, zonshoogten en poolnachten.",
+ "secties": [
+  {
+   "kop": "De rotatie: de aarde draait om haar as",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "De aarde draait om haar as <strong>van west naar oost</strong>. Daarom lijkt de zon van oost naar west over de hemel te trekken. Eén volledige aardrotatie ten opzichte van de zon duurt <strong>24</strong> uur."
+    },
+    {
+     "soort": "tekst",
+     "html": "Dat de aarde écht draait, toont <strong>de slingerproef van Foucault</strong>. Een lange, zware slinger blijft in hetzelfde vlak slingeren terwijl de vloer onder hem meedraait met de aarde. Na enkele uren slaat de slinger dus in een andere richting dan waar hij begon."
+    },
+    {
+     "soort": "figuur",
+     "html": "<svg viewBox=\"0 0 470 212\" width=\"470\" xmlns=\"http://www.w3.org/2000/svg\"><clipPath id=\"dagnacht6\"><circle cx=\"306\" cy=\"116\" r=\"62\"/></clipPath><line x1=\"92\" y1=\"50\" x2=\"232\" y2=\"50\" stroke=\"#c17f2b\" stroke-width=\"1.6\"/><path d=\"M238 50 l-9 -4.5 l0 9 Z\" fill=\"#c17f2b\"/><line x1=\"92\" y1=\"72\" x2=\"232\" y2=\"72\" stroke=\"#c17f2b\" stroke-width=\"1.6\"/><path d=\"M238 72 l-9 -4.5 l0 9 Z\" fill=\"#c17f2b\"/><line x1=\"92\" y1=\"94\" x2=\"232\" y2=\"94\" stroke=\"#c17f2b\" stroke-width=\"1.6\"/><path d=\"M238 94 l-9 -4.5 l0 9 Z\" fill=\"#c17f2b\"/><line x1=\"92\" y1=\"116\" x2=\"232\" y2=\"116\" stroke=\"#c17f2b\" stroke-width=\"1.6\"/><path d=\"M238 116 l-9 -4.5 l0 9 Z\" fill=\"#c17f2b\"/><line x1=\"92\" y1=\"138\" x2=\"232\" y2=\"138\" stroke=\"#c17f2b\" stroke-width=\"1.6\"/><path d=\"M238 138 l-9 -4.5 l0 9 Z\" fill=\"#c17f2b\"/><line x1=\"92\" y1=\"160\" x2=\"232\" y2=\"160\" stroke=\"#c17f2b\" stroke-width=\"1.6\"/><path d=\"M238 160 l-9 -4.5 l0 9 Z\" fill=\"#c17f2b\"/><line x1=\"92\" y1=\"182\" x2=\"232\" y2=\"182\" stroke=\"#c17f2b\" stroke-width=\"1.6\"/><path d=\"M238 182 l-9 -4.5 l0 9 Z\" fill=\"#c17f2b\"/><circle cx=\"58\" cy=\"116\" r=\"30\" fill=\"#c17f2b\"/><line x1=\"91.0\" y1=\"116.0\" x2=\"99.0\" y2=\"116.0\" stroke=\"#c17f2b\" stroke-width=\"2.4\" stroke-linecap=\"round\"/><line x1=\"86.6\" y1=\"132.5\" x2=\"93.5\" y2=\"136.5\" stroke=\"#c17f2b\" stroke-width=\"2.4\" stroke-linecap=\"round\"/><line x1=\"74.5\" y1=\"144.6\" x2=\"78.5\" y2=\"151.5\" stroke=\"#c17f2b\" stroke-width=\"2.4\" stroke-linecap=\"round\"/><line x1=\"58.0\" y1=\"149.0\" x2=\"58.0\" y2=\"157.0\" stroke=\"#c17f2b\" stroke-width=\"2.4\" stroke-linecap=\"round\"/><line x1=\"41.5\" y1=\"144.6\" x2=\"37.5\" y2=\"151.5\" stroke=\"#c17f2b\" stroke-width=\"2.4\" stroke-linecap=\"round\"/><line x1=\"29.4\" y1=\"132.5\" x2=\"22.5\" y2=\"136.5\" stroke=\"#c17f2b\" stroke-width=\"2.4\" stroke-linecap=\"round\"/><line x1=\"25.0\" y1=\"116.0\" x2=\"17.0\" y2=\"116.0\" stroke=\"#c17f2b\" stroke-width=\"2.4\" stroke-linecap=\"round\"/><line x1=\"29.4\" y1=\"99.5\" x2=\"22.5\" y2=\"95.5\" stroke=\"#c17f2b\" stroke-width=\"2.4\" stroke-linecap=\"round\"/><line x1=\"41.5\" y1=\"87.4\" x2=\"37.5\" y2=\"80.5\" stroke=\"#c17f2b\" stroke-width=\"2.4\" stroke-linecap=\"round\"/><line x1=\"58.0\" y1=\"83.0\" x2=\"58.0\" y2=\"75.0\" stroke=\"#c17f2b\" stroke-width=\"2.4\" stroke-linecap=\"round\"/><line x1=\"74.5\" y1=\"87.4\" x2=\"78.5\" y2=\"80.5\" stroke=\"#c17f2b\" stroke-width=\"2.4\" stroke-linecap=\"round\"/><line x1=\"86.6\" y1=\"99.5\" x2=\"93.5\" y2=\"95.5\" stroke=\"#c17f2b\" stroke-width=\"2.4\" stroke-linecap=\"round\"/><text x=\"58.0\" y=\"120.0\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"11\" font-weight=\"600\" fill=\"#ffffff\">zon</text><rect x=\"244\" y=\"54\" width=\"62\" height=\"124\" fill=\"#5b93b8\" opacity=\"0.45\" clip-path=\"url(#dagnacht6)\"/><rect x=\"306\" y=\"54\" width=\"62\" height=\"124\" fill=\"#234539\" clip-path=\"url(#dagnacht6)\"/><circle cx=\"306\" cy=\"116\" r=\"62\" fill=\"none\" stroke=\"#234539\" stroke-width=\"1.8\"/><line x1=\"274.9\" y1=\"187.5\" x2=\"337.1\" y2=\"44.5\" stroke=\"#234539\" stroke-width=\"2.2\"/><circle cx=\"337.1\" cy=\"44.5\" r=\"3.5\" fill=\"#234539\"/><text x=\"345.1\" y=\"48.5\" text-anchor=\"start\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"9\" fill=\"#6b7260\">noordpool</text><text x=\"275.0\" y=\"120.0\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"12\" font-weight=\"600\" fill=\"#234539\">dag</text><text x=\"337.0\" y=\"120.0\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"12\" font-weight=\"600\" fill=\"#ffffff\">nacht</text><text x=\"306.0\" y=\"202.0\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"9.5\" fill=\"#6b7260\">de aarde draait in 24 uur één keer rond</text></svg>",
+     "onderschrift": "De helft van de aarde is verlicht, de andere helft niet. Door de rotatie schuift die grens elke dag één keer rond."
+    },
+    {
+     "soort": "tekst",
+     "html": "De <strong>omtreksnelheid</strong> door de rotatie is <strong>op de evenaar</strong> het grootst: daar moet een punt in 24 uur de hele omtrek van ruim 40 000 km afleggen, terwijl een punt vlak bij de pool bijna op zijn plaats blijft."
+    },
+    {
+     "soort": "tekst",
+     "html": "De rotatie heeft drie gevolgen die je moet kennen: <strong>de afwisseling van dag en nacht</strong>, <strong>het afbuigen van winden en zeestromen</strong>, en <strong>de afplatting van de aarde aan de polen</strong>. Let op de richting van die afplatting: door de rotatie is de aarde <strong>aan de evenaar dikker en aan de polen platter</strong>, niet omgekeerd."
+    },
+    {
+     "soort": "tekst",
+     "html": "De <strong>dagboog</strong> van de zon is <strong>de weg van de zon van opkomst tot ondergang</strong>: hoe hoger en langer die boog, hoe langer de dag duurt."
+    }
+   ]
+  },
+  {
+   "kop": "Het corioliseffect",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Het <strong>corioliseffect</strong> is het effect dat bewegende lucht en water op aarde doet afbuigen. Op het <strong>noordelijk halfrond</strong> buigt een wind af <strong>naar rechts</strong>, op het zuidelijk halfrond naar links."
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Op de evenaar zelf is het corioliseffect zo goed als nul.</strong> Daarom ontstaan er geen tropische cyclonen vlak op de evenaar: zonder afbuiging gaat de lucht niet draaien."
+    },
+    {
+     "soort": "weetje",
+     "html": "Het effect komt doordat de grond onder de bewegende lucht wegdraait, en dat gebeurt op de evenaar veel sneller dan bij de pool. De lucht wordt dus niet geduwd; zij gaat rechtdoor terwijl de aarde eronder draait."
+    }
+   ]
+  },
+  {
+   "kop": "Uurgordels en de datumgrens",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "De zon schuift per uur <strong>15</strong> graden lengte op: 360 graden gedeeld door 24 uur. Eén <strong>uurgordel</strong> beslaat dus <strong>15</strong> graden lengte."
+    },
+    {
+     "soort": "tekst",
+     "html": "Daarmee kan je rekenen. Is het in Brussel 12 uur, dan is het op 45° oosterlengte, puur op zonnetijd gerekend, ongeveer <strong>15 uur</strong>: er liggen ruim 40 graden tussen, dus bijna drie uur verschil, en het oosten loopt voor."
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Zonnetijd volgt de zon zelf, de klok volgt de tijdzone.</strong> Dat is het verschil tussen zonnetijd en <strong>conventionele tijd</strong>. Over de uurgordels geldt: <strong>ze lopen ruwweg van noord naar zuid</strong>, <strong>ze volgen vaak de landsgrenzen in plaats van de meridiaan</strong>, en <strong>sommige landen gebruiken meer dan één uurgordel</strong>."
+    },
+    {
+     "soort": "tekst",
+     "html": "De <strong>zomertijd</strong> zet de klok een uur <strong>vooruit</strong>, niet achteruit. Het wordt daardoor 's avonds later donker, en 's morgens juist later licht."
+    },
+    {
+     "soort": "tekst",
+     "html": "De <strong>datumgrens</strong> loopt <strong>ongeveer langs de 180ste meridiaan</strong>, met bochten om eilandengroepen heen. Vlieg je van Tokio naar Hawaï en steek je de datumgrens over <strong>naar het oosten</strong>, dan <strong>krijg je dezelfde dag een tweede keer</strong>."
+    }
+   ]
+  },
+  {
+   "kop": "Dezelfde parallel, dezelfde zon",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Twee plaatsen op dezelfde <strong>parallel</strong>, dus op dezelfde breedte, hebben drie dingen gemeen: <strong>dezelfde daglengte</strong>, <strong>dezelfde culminatiehoogte van de zon</strong> en <strong>dezelfde klimaatgordel</strong>. Hun weer kan sterk verschillen, want dat hangt ook van de zee en het reliëf af, maar de stand van de zon is dezelfde."
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Op de evenaar duurt de dag het hele jaar door ongeveer twaalf uur.</strong> Daar merk je van de seizoenen bijna niets aan de daglengte."
+    }
+   ]
+  },
+  {
+   "kop": "De revolutie: de aarde draait rond de zon",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "De baan van de aarde rond de zon is <strong>een ellips</strong>, geen cirkel. Eén <strong>aardrevolutie</strong> duurt ongeveer <strong>365</strong> dagen, nauwkeuriger 365,25. Dat kwart is de reden voor de schrikkeldag: <strong>zonder schrikkeldagen zou de kalender langzaam wegschuiven van de seizoenen</strong>."
+    },
+    {
+     "soort": "tekst",
+     "html": "De aarde beweegt daarbij met ongeveer <strong>30 km per seconde</strong>."
+    },
+    {
+     "soort": "tekst",
+     "html": "Het punt in de aardbaan dat het dichtst bij de zon ligt heet het <strong>perihelium</strong>, en daar staat de aarde <strong>begin januari</strong>. Het punt dat het verst ligt heet het <strong>aphelium</strong>, begin juli."
+    },
+    {
+     "soort": "kader",
+     "html": "Daaruit volgt meteen dat wij <strong>geen</strong> seizoenen hebben doordat de aarde in de zomer dichter bij de zon staat. Begin januari staan we het dichtst bij de zon, en dan is het bij ons winter. De seizoenen komen van de <strong>schuine aardas</strong>."
+    }
+   ]
+  },
+  {
+   "kop": "De schuine as en de seizoenen",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "De <strong>inclinatiehoek</strong> van de aardas ten opzichte van het eclipticavlak is <strong>ongeveer 23,5°</strong>. De as houdt die stand het hele jaar aan, dus wijst ze een half jaar naar de zon toe en een half jaar ervan weg."
+    },
+    {
+     "soort": "figuur",
+     "html": "<svg viewBox=\"0 0 470 276\" width=\"470\" xmlns=\"http://www.w3.org/2000/svg\"><ellipse cx=\"235\" cy=\"124\" rx=\"172\" ry=\"84\" fill=\"none\" stroke=\"#e4ded0\" stroke-width=\"1.6\" stroke-dasharray=\"6 6\"/><polygon points=\"168,44 154,48.4 168,53\" fill=\"#6b7260\"/><circle cx=\"235\" cy=\"124\" r=\"26\" fill=\"#c17f2b\"/><line x1=\"264.0\" y1=\"124.0\" x2=\"272.0\" y2=\"124.0\" stroke=\"#c17f2b\" stroke-width=\"2.4\" stroke-linecap=\"round\"/><line x1=\"260.1\" y1=\"138.5\" x2=\"267.0\" y2=\"142.5\" stroke=\"#c17f2b\" stroke-width=\"2.4\" stroke-linecap=\"round\"/><line x1=\"249.5\" y1=\"149.1\" x2=\"253.5\" y2=\"156.0\" stroke=\"#c17f2b\" stroke-width=\"2.4\" stroke-linecap=\"round\"/><line x1=\"235.0\" y1=\"153.0\" x2=\"235.0\" y2=\"161.0\" stroke=\"#c17f2b\" stroke-width=\"2.4\" stroke-linecap=\"round\"/><line x1=\"220.5\" y1=\"149.1\" x2=\"216.5\" y2=\"156.0\" stroke=\"#c17f2b\" stroke-width=\"2.4\" stroke-linecap=\"round\"/><line x1=\"209.9\" y1=\"138.5\" x2=\"203.0\" y2=\"142.5\" stroke=\"#c17f2b\" stroke-width=\"2.4\" stroke-linecap=\"round\"/><line x1=\"206.0\" y1=\"124.0\" x2=\"198.0\" y2=\"124.0\" stroke=\"#c17f2b\" stroke-width=\"2.4\" stroke-linecap=\"round\"/><line x1=\"209.9\" y1=\"109.5\" x2=\"203.0\" y2=\"105.5\" stroke=\"#c17f2b\" stroke-width=\"2.4\" stroke-linecap=\"round\"/><line x1=\"220.5\" y1=\"98.9\" x2=\"216.5\" y2=\"92.0\" stroke=\"#c17f2b\" stroke-width=\"2.4\" stroke-linecap=\"round\"/><line x1=\"235.0\" y1=\"95.0\" x2=\"235.0\" y2=\"87.0\" stroke=\"#c17f2b\" stroke-width=\"2.4\" stroke-linecap=\"round\"/><line x1=\"249.5\" y1=\"98.9\" x2=\"253.5\" y2=\"92.0\" stroke=\"#c17f2b\" stroke-width=\"2.4\" stroke-linecap=\"round\"/><line x1=\"260.1\" y1=\"109.5\" x2=\"267.0\" y2=\"105.5\" stroke=\"#c17f2b\" stroke-width=\"2.4\" stroke-linecap=\"round\"/><text x=\"235.0\" y=\"128.0\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"11\" font-weight=\"600\" fill=\"#ffffff\">zon</text><circle cx=\"63\" cy=\"124\" r=\"22\" fill=\"#5b93b8\" opacity=\"0.35\" stroke=\"#234539\" stroke-width=\"1.5\"/><line x1=\"52.6\" y1=\"147.8\" x2=\"73.4\" y2=\"100.2\" stroke=\"#234539\" stroke-width=\"2\"/><circle cx=\"73.4\" cy=\"100.2\" r=\"3\" fill=\"#234539\"/><text x=\"63.0\" y=\"164.0\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"11\" font-weight=\"600\" fill=\"#c17f2b\">zomer (juni)</text><circle cx=\"407\" cy=\"124\" r=\"22\" fill=\"#5b93b8\" opacity=\"0.35\" stroke=\"#234539\" stroke-width=\"1.5\"/><line x1=\"396.6\" y1=\"147.8\" x2=\"417.4\" y2=\"100.2\" stroke=\"#234539\" stroke-width=\"2\"/><circle cx=\"417.4\" cy=\"100.2\" r=\"3\" fill=\"#234539\"/><text x=\"407.0\" y=\"164.0\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"11\" font-weight=\"600\" fill=\"#c17f2b\">winter (december)</text><circle cx=\"235\" cy=\"40\" r=\"22\" fill=\"#5b93b8\" opacity=\"0.35\" stroke=\"#234539\" stroke-width=\"1.5\"/><line x1=\"224.6\" y1=\"63.8\" x2=\"245.4\" y2=\"16.2\" stroke=\"#234539\" stroke-width=\"2\"/><circle cx=\"245.4\" cy=\"16.2\" r=\"3\" fill=\"#234539\"/><text x=\"235.0\" y=\"10.0\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"11\" font-weight=\"600\" fill=\"#c17f2b\">lente (maart)</text><circle cx=\"235\" cy=\"208\" r=\"22\" fill=\"#5b93b8\" opacity=\"0.35\" stroke=\"#234539\" stroke-width=\"1.5\"/><line x1=\"224.6\" y1=\"231.8\" x2=\"245.4\" y2=\"184.2\" stroke=\"#234539\" stroke-width=\"2\"/><circle cx=\"245.4\" cy=\"184.2\" r=\"3\" fill=\"#234539\"/><text x=\"235.0\" y=\"248.0\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"11\" font-weight=\"600\" fill=\"#c17f2b\">herfst (september)</text><text x=\"235.0\" y=\"268.0\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"9.5\" fill=\"#6b7260\">Het bolletje is de noordpool. De as staat altijd even schuin, en altijd in dezelfde richting.</text></svg>",
+     "onderschrift": "Vier standen in de aardbaan: de as blijft even schuin staan, maar wijst afwisselend naar de zon toe en ervan weg."
+    },
+    {
+     "soort": "tekst",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">datum</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">wat er gebeurt</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">21 maart</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">de zon staat zenitaal boven de evenaar: equinox</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">21 juni</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">zomerzonnewende op het noordelijk halfrond</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">23 september</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">de zon staat zenitaal boven de evenaar: equinox</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">22 december</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">winterzonnewende op het noordelijk halfrond</td></tr></table>"
+    },
+    {
+     "soort": "tekst",
+     "html": "Een <strong>equinox</strong> of nachtevening is een dag waarop dag en nacht overal even lang zijn. Dat de zon <strong>zenitaal</strong> staat, betekent dat ze <strong>recht boven je hoofd staat, dus op 90°</strong>."
+    },
+    {
+     "soort": "tekst",
+     "html": "De <strong>culminatiehoogte</strong>, de hoogte van de zon 's middags, reken je uit met de breedte. Op 51° noorderbreedte: op 21 maart <strong>90 − 51 = 39°</strong>, op 21 juni <strong>90 − 51 + 23,5 = 62,5°</strong>, en op 22 december <strong>90 − 51 − 23,5 = 15,5°</strong>. Die laatste is dus géén 40°; in december komt de zon bij ons nauwelijks boven de daken uit."
+    },
+    {
+     "soort": "tekst",
+     "html": "De aardrevolutie met een schuine aardas geeft <strong>de wisseling van de seizoenen</strong>, <strong>een daglengte die door het jaar verandert</strong> en <strong>een culminatiehoogte die door het jaar verandert</strong>."
+    }
+   ]
+  },
+  {
+   "kop": "Van de tropen tot de poolnacht",
+   "blokken": [
+    {
+     "soort": "figuur",
+     "html": "<svg viewBox=\"0 0 470 272\" width=\"470\" xmlns=\"http://www.w3.org/2000/svg\"><clipPath id=\"bol7\"><circle cx=\"200\" cy=\"118\" r=\"95\"/></clipPath><rect x=\"103\" y=\"21.0\" width=\"194\" height=\"9.9\" fill=\"#a8cce4\" clip-path=\"url(#bol7)\"/><rect x=\"103\" y=\"30.9\" width=\"194\" height=\"49.2\" fill=\"#dfeada\" clip-path=\"url(#bol7)\"/><rect x=\"103\" y=\"80.1\" width=\"194\" height=\"75.8\" fill=\"#f4e3c4\" clip-path=\"url(#bol7)\"/><rect x=\"103\" y=\"155.9\" width=\"194\" height=\"49.2\" fill=\"#dfeada\" clip-path=\"url(#bol7)\"/><rect x=\"103\" y=\"205.1\" width=\"194\" height=\"9.9\" fill=\"#a8cce4\" clip-path=\"url(#bol7)\"/><circle cx=\"200\" cy=\"118\" r=\"95\" fill=\"none\" stroke=\"#234539\" stroke-width=\"1.8\"/><line x1=\"162.1\" y1=\"30.9\" x2=\"237.9\" y2=\"30.9\" stroke=\"#234539\" stroke-width=\"1.3\" stroke-dasharray=\"5 4\"/><line x1=\"237.9\" y1=\"30.9\" x2=\"302\" y2=\"30.9\" stroke=\"#e4ded0\" stroke-width=\"1.2\"/><text x=\"308.0\" y=\"34.4\" text-anchor=\"start\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"10\" fill=\"#6b7260\">noordpoolcirkel</text><line x1=\"112.9\" y1=\"80.1\" x2=\"287.1\" y2=\"80.1\" stroke=\"#234539\" stroke-width=\"1.3\" stroke-dasharray=\"5 4\"/><line x1=\"287.1\" y1=\"80.1\" x2=\"302\" y2=\"80.1\" stroke=\"#e4ded0\" stroke-width=\"1.2\"/><text x=\"308.0\" y=\"83.6\" text-anchor=\"start\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"10\" fill=\"#6b7260\">kreeftskeerkring</text><line x1=\"105.0\" y1=\"118.0\" x2=\"295.0\" y2=\"118.0\" stroke=\"#234539\" stroke-width=\"2.2\"/><line x1=\"295.0\" y1=\"118.0\" x2=\"302\" y2=\"118.0\" stroke=\"#e4ded0\" stroke-width=\"1.2\"/><text x=\"308.0\" y=\"121.5\" text-anchor=\"start\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"10\" font-weight=\"600\" fill=\"#234539\">evenaar</text><line x1=\"112.9\" y1=\"155.9\" x2=\"287.1\" y2=\"155.9\" stroke=\"#234539\" stroke-width=\"1.3\" stroke-dasharray=\"5 4\"/><line x1=\"287.1\" y1=\"155.9\" x2=\"302\" y2=\"155.9\" stroke=\"#e4ded0\" stroke-width=\"1.2\"/><text x=\"308.0\" y=\"159.4\" text-anchor=\"start\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"10\" fill=\"#6b7260\">steenbokskeerkring</text><line x1=\"162.1\" y1=\"205.1\" x2=\"237.9\" y2=\"205.1\" stroke=\"#234539\" stroke-width=\"1.3\" stroke-dasharray=\"5 4\"/><line x1=\"237.9\" y1=\"205.1\" x2=\"302\" y2=\"205.1\" stroke=\"#e4ded0\" stroke-width=\"1.2\"/><text x=\"308.0\" y=\"208.6\" text-anchor=\"start\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"10\" fill=\"#6b7260\">zuidpoolcirkel</text><text x=\"200.0\" y=\"15.0\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"9.5\" fill=\"#6b7260\">noordpool</text><text x=\"200.0\" y=\"229.0\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"9.5\" fill=\"#6b7260\">zuidpool</text><rect x=\"48\" y=\"246\" width=\"14\" height=\"14\" rx=\"3\" fill=\"#a8cce4\" stroke=\"#6b7260\" stroke-width=\"1\"/><text x=\"68.0\" y=\"257.0\" text-anchor=\"start\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"10.5\" fill=\"#23291f\">poolgebied</text><rect x=\"136.0\" y=\"246\" width=\"14\" height=\"14\" rx=\"3\" fill=\"#dfeada\" stroke=\"#6b7260\" stroke-width=\"1\"/><text x=\"156.0\" y=\"257.0\" text-anchor=\"start\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"10.5\" fill=\"#23291f\">gematigd gebied</text><rect x=\"256.0\" y=\"246\" width=\"14\" height=\"14\" rx=\"3\" fill=\"#f4e3c4\" stroke=\"#6b7260\" stroke-width=\"1\"/><text x=\"276.0\" y=\"257.0\" text-anchor=\"start\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"10.5\" fill=\"#23291f\">tropisch gebied</text></svg>",
+     "onderschrift": "De gordels: tropisch tussen de keerkringen, gematigd tot de poolcirkel, polair daarboven."
+    },
+    {
+     "soort": "tekst",
+     "html": "In de <strong>tropen</strong> is het het hele jaar warm, en daar zijn drie redenen voor die samenhangen: <strong>de zon staat er altijd hoog boven de horizon</strong>, <strong>de culminatiehoogte blijft er het hele jaar groot</strong>, en <strong>de daglengte verandert er bijna niet door het jaar</strong>."
+    },
+    {
+     "soort": "tekst",
+     "html": "Bij een breedte van ongeveer 51°, zoals bij ons, hoor je in <strong>de gematigde</strong> klimaatgordel."
+    },
+    {
+     "soort": "tekst",
+     "html": "Bij de <strong>poolstreken</strong> horen <strong>de pooldag</strong>, <strong>de poolnacht</strong> en <strong>de middernachtzon</strong>. <strong>Op de noordpool blijft de zon ongeveer een half jaar onder de horizon.</strong>"
+    }
+   ]
+  }
+ ],
+ "onthoud": []
+}

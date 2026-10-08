@@ -1,0 +1,108 @@
+{
+ "vak": "Toegepaste economie",
+ "titel": "Aankopen, verkopen en bankverrichtingen boeken",
+ "onder": "De drie regels van een factuurboeking, waarom de btw een eigen rekening krijgt, en hoe je een bankuittreksel en een kasdocument boekt.",
+ "secties": [
+  {
+   "kop": "Een aankoopfactuur boeken",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "<strong>De boeking van een aankoopfactuur met btw heeft minstens drie regels</strong>: de aankoop in debet, de btw in debet, en de schuld aan de leverancier in credit. <strong>De drie bedragen van een factuur — het bedrag zonder btw, het btw-bedrag en het totaal — vallen precies samen met die drie regels.</strong>"
+    },
+    {
+     "soort": "kader",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">regel</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">rekening</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">bedrag</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>debet</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>604 Aankopen handelsgoederen</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>1 000 euro</strong>, het bedrag zonder btw</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>debet</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>de terug te vorderen btw</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>210 euro</strong></td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>credit</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>440 Leveranciers</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>1 210 euro</strong>, het volle bedrag</td></tr></table>"
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>De schuld aan de leverancier is altijd het totaal, btw inbegrepen.</strong> Bij een factuur van 500 euro plus 105 euro btw boek je dus <strong>605 euro</strong> bij de leveranciers."
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Waarom boek je de btw apart van de aankoopprijs? Omdat je ze terugkrijgt.</strong> <strong>De btw hoort niet bij de kostprijs van de handelsgoederen</strong>: ze is geen kost maar een vordering op de staat, en daarom krijgt ze een eigen rekening."
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Bij een aankoop met handelskorting boek je het bedrag na korting.</strong> De handelskorting krijgt geen eigen rekening: je boekt gewoon wat je betaalt. <strong>Doorgerekende vervoerkosten boek je wel apart, bij de aankoopkosten</strong>, een eigen kostenrekening in klasse 6."
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Een inkomende creditnota boek je omgekeerd aan de factuur</strong>: wat bij de factuur in debet stond, komt nu in credit, en omgekeerd. <strong>Ze wordt dus wel degelijk geboekt</strong>, want ze corrigeert een eerdere boeking."
+    }
+   ]
+  },
+  {
+   "kop": "Een verkoopfactuur boeken",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "<strong>Bij een verkoop staat de btw in credit</strong>, niet in debet: de verschuldigde btw is een schuld aan de staat."
+    },
+    {
+     "soort": "kader",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">regel</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">rekening</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">bedrag</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>debet</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>400 Handelsdebiteuren</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>2 420 euro</strong>, het totaal dat de klant moet betalen</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>credit</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>700 Verkopen handelsgoederen</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>2 000 euro</strong></td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>credit</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>de te betalen btw</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>420 euro</strong></td></tr></table>"
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Na een verkoop van 100 euro plus 21 euro btw komt er dus 121 euro bij de klant in debet.</strong> De klant moet altijd het totaal betalen."
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Dezelfde factuur wordt bij de verkoper anders geboekt dan bij de koper</strong>: bij de ene is het een opbrengst met een vordering, bij de andere een kost met een schuld."
+    }
+   ]
+  },
+  {
+   "kop": "De bank en de kas",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "<strong>Een bankrekeninguittreksel is een overzicht van de bank</strong>: het toont alle bewegingen op de rekening, met hun datum en hun saldo. <strong>Het is een bewijsstuk voor de boekhouding</strong>, dus <strong>elke beweging erop wordt geboekt</strong> en het uittreksel wordt bewaard."
+    },
+    {
+     "soort": "kader",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">rekening</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">waarvoor</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>550 Kredietinstellingen</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>de bankrekening</strong>, klasse 5</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>570 Kassen</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>het contante geld</strong>, ook klasse 5</td></tr></table>"
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Op een uittreksel vind je een ontvangst van een klant, een betaling aan een leverancier en bankkosten.</strong> Een uittreksel gaat over geld, niet over goederen; de aankoop zelf stond al in de boeken, op het uittreksel staat enkel de betaling."
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Betaalt een klant 1 210 euro via de bank, dan dalen de handelsdebiteuren met 1 210 euro</strong>: de hele vordering verdwijnt, btw inbegrepen, en de bank stijgt. <strong>Een betaling door een klant verhoogt de omzet niet opnieuw</strong>: die was al geboekt bij de factuur, anders tel je dubbel."
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Betaal je zelf een leverancier via de bank, dan gaat 440 Leveranciers in debet</strong> — de schuld daalt — <strong>en staat de bank in credit</strong>, want een actief dat daalt komt in credit."
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Bankkosten boek je als een financiële kost.</strong> Ze horen bij het financieel resultaat, niet bij het bedrijfsresultaat."
+    },
+    {
+     "soort": "weetje",
+     "html": "Een creditering op je bankuittreksel betekent dat er geld binnenkomt. De bank schrijft vanuit haar eigen boekhouding, dus haar credit is jouw ontvangst. Dat voelt omgekeerd en is een klassieke valkuil."
+    }
+   ]
+  },
+  {
+   "kop": "Kasdocumenten",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "<strong>Een kasdocument is een bewijs van contant geld</strong>: een kasticket of een ontvangstbewijs, dat toont wat er contant binnenkwam of uitging. <strong>Een bankrekeninguittreksel, een kasticket en een ontvangstbewijs zijn financiële documenten</strong>; een leverbon niet, want die gaat over goederen."
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Betaal je 300 euro contant, dan daalt de kas met 300 euro.</strong> Contant betalen haalt het geld meteen uit de kas."
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>De kas kan nooit een negatief saldo hebben</strong>: je kan niet meer contant geld uitgeven dan erin zit. Een negatieve kas wijst dus altijd op een fout. <strong>Daarom controleer je de kas regelmatig</strong>: je telt het geld en vergelijkt met het saldo in de boekhouding."
+    }
+   ]
+  }
+ ],
+ "onthoud": []
+}

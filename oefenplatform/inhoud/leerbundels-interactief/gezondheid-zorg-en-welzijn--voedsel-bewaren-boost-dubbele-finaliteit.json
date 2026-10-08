@@ -1,0 +1,89 @@
+{
+ "vak": "Gezondheid, zorg en welzijn",
+ "titel": "Voedsel bewaren",
+ "onder": "De drie bewaarplaatsen, FIFO en FEFO, het verschil tussen THT en TGT, de zones van de koelkast, en de regels voor invriezen en ontdooien.",
+ "secties": [
+  {
+   "kop": "Waar en volgens welke regel",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "<strong>De drie bewaarplaatsen zijn de koelkast, de vriezer en een koele berging of voorraadkast.</strong> In de wasmachine hoort geen voedsel."
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Een goede koele berging is donker, droog, koel en goed verlucht</strong>; warmte is net wat je er niet wil. <strong>Daar bewaar je aardappelen</strong>, uien en conserven; vis, gehakt en melkproducten horen in de koelkast. <strong>Een voorraadkast houdt de droge waren</strong>: bloem, pasta, rijst en blikken blijven goed op een droge en donkere plaats."
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Je bewaart voedsel in de koelkast omdat kiemen er trager groeien</strong>: koude haalt een levensvoorwaarde van micro-organismen weg, dus ze vermenigvuldigen trager."
+    },
+    {
+     "soort": "kader",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">principe</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">wat het betekent</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>FIFO</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>first in, first out: eerst in, eerst uit</strong>. Wat er het langst ligt, gebruik je eerst</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>FEFO</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>first expired, first out: wat het eerst vervalt, gaat er het eerst uit</strong>. FEFO kijkt dus naar de vervaldatum en niet naar de datum van aankoop</td></tr></table>"
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Berg je nieuwe boodschappen op, dan zet je de oude vooraan.</strong> Zo gebruik je vanzelf eerst wat er al stond, en dat is FIFO in de praktijk."
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Bij het bewaren hou je rekening met het voedingsmiddel, met de bewaarplaats en met de houdbaarheidsdatum</strong>: wat het is, waar het hoort en tot wanneer het goed blijft."
+    }
+   ]
+  },
+  {
+   "kop": "THT en TGT",
+   "blokken": [
+    {
+     "soort": "kader",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">afkorting</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">waarvoor</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">na die datum</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>THT</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>ten minste houdbaar tot</strong>, over de <strong>kwaliteit</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>eerst kijken en ruiken</strong>: ziet en ruikt het goed, dan is het meestal nog bruikbaar</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>TGT</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>te gebruiken tot</strong>, over de <strong>veiligheid</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>weggooien</strong>, ook als het er goed uitziet</td></tr></table>"
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>THT en TGT betekenen dus niet hetzelfde</strong>: THT gaat over kwaliteit, TGT over veiligheid. <strong>Na de TGT-datum is een product niet meer veilig</strong>; dat is een harde grens."
+    }
+   ]
+  },
+  {
+   "kop": "De zones van de koelkast",
+   "blokken": [
+    {
+     "soort": "figuur",
+     "html": "<svg viewBox=\"0 0 470 250\" width=\"470\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"52\" y=\"26\" width=\"236\" height=\"48\" fill=\"#6b7260\" fill-opacity=\"0.12\" stroke=\"#6b7260\" stroke-width=\"1.4\"/><text x=\"62.0\" y=\"44.0\" text-anchor=\"start\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"9.5\" font-weight=\"600\" fill=\"#23291f\">bovenaan</text><text x=\"62.0\" y=\"58.0\" text-anchor=\"start\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"9\" fill=\"#6b7260\">bereide gerechten, restjes in een doos</text><rect x=\"52\" y=\"74\" width=\"236\" height=\"48\" fill=\"#6b7260\" fill-opacity=\"0.12\" stroke=\"#6b7260\" stroke-width=\"1.4\"/><text x=\"62.0\" y=\"92.0\" text-anchor=\"start\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"9.5\" font-weight=\"600\" fill=\"#23291f\">midden</text><text x=\"62.0\" y=\"106.0\" text-anchor=\"start\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"9\" fill=\"#6b7260\">melkproducten, patisserie, open bokalen</text><rect x=\"52\" y=\"122\" width=\"236\" height=\"48\" fill=\"#2f5d50\" fill-opacity=\"0.12\" stroke=\"#2f5d50\" stroke-width=\"1.4\"/><text x=\"62.0\" y=\"140.0\" text-anchor=\"start\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"9.5\" font-weight=\"600\" fill=\"#23291f\">onderaan, boven de lade</text><text x=\"62.0\" y=\"154.0\" text-anchor=\"start\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"9\" fill=\"#6b7260\">het koudst: rauw vlees, gehakt, vis,</text><text x=\"62.0\" y=\"165.0\" text-anchor=\"start\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"9\" fill=\"#6b7260\">schaaldieren</text><rect x=\"52\" y=\"170\" width=\"236\" height=\"44\" fill=\"#6b7260\" fill-opacity=\"0.12\" stroke=\"#6b7260\" stroke-width=\"1.4\"/><text x=\"62.0\" y=\"188.0\" text-anchor=\"start\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"9.5\" font-weight=\"600\" fill=\"#23291f\">de groentelade</text><text x=\"62.0\" y=\"202.0\" text-anchor=\"start\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"9\" fill=\"#6b7260\">groenten en fruit, iets minder koud</text><rect x=\"298\" y=\"26\" width=\"118\" height=\"188\" fill=\"#c17f2b\" fill-opacity=\"0.12\" stroke=\"#c17f2b\" stroke-width=\"1.4\"/><text x=\"308.0\" y=\"44.0\" text-anchor=\"start\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"9.5\" font-weight=\"600\" fill=\"#23291f\">de deur</text><text x=\"308.0\" y=\"60.0\" text-anchor=\"start\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"9\" fill=\"#6b7260\">de minst koude</text><text x=\"308.0\" y=\"71.0\" text-anchor=\"start\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"9\" fill=\"#6b7260\">plaats: dranken,</text><text x=\"308.0\" y=\"82.0\" text-anchor=\"start\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"9\" fill=\"#6b7260\">sauzen, boter,</text><text x=\"308.0\" y=\"93.0\" text-anchor=\"start\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"9\" fill=\"#6b7260\">eieren</text><line x1=\"36\" y1=\"30\" x2=\"36\" y2=\"206\" stroke=\"#2f5d50\" stroke-width=\"1.6\"/><path d=\"M36 212 l-5 -9 h10 z\" fill=\"#2f5d50\"/><text x=\"30.0\" y=\"226.0\" text-anchor=\"start\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"9.5\" font-weight=\"600\" fill=\"#2f5d50\">koude lucht zakt</text><text x=\"30.0\" y=\"244.0\" text-anchor=\"start\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"9.5\" fill=\"#6b7260\">hoe lager, hoe kouder; in de deur is het het minst koud</text></svg>",
+     "onderschrift": "De temperatuur is niet overal gelijk: koude lucht zakt, dus onderaan is het het koudst en in de deur het minst koud."
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>De temperatuur in een koelkast is niet overal gelijk omdat koude lucht zakt</strong>: koude lucht is zwaarder. <strong>De koudste plaats ligt onderaan, net boven de groentelade</strong>, en <strong>daar horen rauw vlees, gehakt, vis en schaaldieren.</strong>"
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Groenten en fruit bewaar je in de groentelade</strong>, waar het iets minder koud is en ze langer vers blijven. <strong>In de deur, de minst koude plaats, horen dranken, sauzen, boter en eieren</strong>; rauw gehakt hoort er juist niet. <strong>Het glas staat los hiervan: verse patisserie hoort in de koelkast</strong>, want ze bevat room en eieren. <strong>Een geopende bokaal zet je in de koelkast</strong>: zodra ze open is, komt er lucht bij en kunnen micro-organismen groeien."
+    }
+   ]
+  },
+  {
+   "kop": "Invriezen en ontdooien",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "<strong>De voorwaarde om in te vriezen is dat het vers is.</strong> Invriezen stopt het bederf, maar het maakt niets opnieuw vers. <strong>Ingevroren voedsel blijft dus niet oneindig lang goed</strong>: <strong>diepvriesgroente blijft enkele maanden goed</strong>, maar de kwaliteit gaat achteruit."
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Op een doos die de vriezer in gaat, schrijf je de inhoud, de datum en het aantal personen.</strong> Zo weet je later wat het is, hoe lang het er al ligt en voor hoeveel mensen het volstaat."
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Ontdooid voedsel vries je niet opnieuw in</strong>: bij het ontdooien groeien de kiemen weer, en opnieuw invriezen haalt ze niet weg. <strong>Vlees ontdooi je het veiligst in de koelkast</strong>, want daar blijft het koud terwijl het ontdooit."
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Restjes bewaar je in een afgesloten doos</strong>: zo blijven de kiemen buiten, de geuren binnen en droogt het niet uit. Een gesloten doos koelt wel trager af, maar ze houdt kiemen, geur en vocht waar ze horen."
+    }
+   ]
+  }
+ ],
+ "onthoud": []
+}

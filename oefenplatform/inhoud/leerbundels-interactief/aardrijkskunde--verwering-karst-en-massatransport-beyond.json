@@ -1,0 +1,155 @@
+{
+ "vak": "Aardrijkskunde",
+ "titel": "Verwering, karst en massatransport",
+ "onder": "Hoe gesteente ter plaatse uiteenvalt, wat kalksteen zo bijzonder maakt, en waarom een helling gaat schuiven.",
+ "secties": [
+  {
+   "kop": "Verwering, erosie, sedimentatie",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "<strong>Verwering</strong> is dat <strong>gesteente ter plaatse uiteenvalt</strong>. Dat ter plaatse is het hele verschil met erosie: bij erosie wordt het losse materiaal weggevoerd."
+    },
+    {
+     "soort": "tekst",
+     "html": "De drie processen in de juiste orde: <strong>verwering, erosie, sedimentatie</strong>. Eerst valt de steen uiteen, dan wordt het puin meegenomen, dan wordt het elders weer afgezet."
+    },
+    {
+     "soort": "figuur",
+     "html": "<svg viewBox=\"0 0 470 186\" width=\"470\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"8.0\" y=\"8\" width=\"140.7\" height=\"108\" rx=\"6\" fill=\"#faf8f3\" stroke=\"#e4ded0\" stroke-width=\"1.2\"/><path d=\"M 44.33333333333333 96 L 60.33333333333333 48 L 82.33333333333333 44 L 100.33333333333333 96 Z\" fill=\"#b9a98c\" stroke=\"#234539\" stroke-width=\"1.3\"/><line x1=\"62.33333333333333\" y1=\"52\" x2=\"74.33333333333333\" y2=\"94\" stroke=\"#234539\" stroke-width=\"1.2\"/><line x1=\"80.33333333333333\" y1=\"46\" x2=\"86.33333333333333\" y2=\"94\" stroke=\"#234539\" stroke-width=\"1.2\"/><circle cx=\"106.33333333333333\" cy=\"92\" r=\"3\" fill=\"#b9a98c\" stroke=\"#234539\" stroke-width=\"0.9\"/><line x1=\"32.33333333333333\" y1=\"96\" x2=\"124.33333333333333\" y2=\"96\" stroke=\"#234539\" stroke-width=\"1.4\"/><text x=\"78.3\" y=\"132.0\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"11\" font-weight=\"600\" fill=\"#23291f\">verwering</text><text x=\"78.3\" y=\"148.0\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"8.5\" fill=\"#23291f\">de steen valt ter plaatse uiteen</text><text x=\"78.3\" y=\"162.0\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"8.5\" fill=\"#6b7260\">vorst, water, wortels</text><text x=\"156.7\" y=\"66.0\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"16\" fill=\"#c17f2b\">→</text><rect x=\"164.7\" y=\"8\" width=\"140.7\" height=\"108\" rx=\"6\" fill=\"#faf8f3\" stroke=\"#e4ded0\" stroke-width=\"1.2\"/><path d=\"M 195.0 52 Q 235.0 72 275.0 96\" fill=\"none\" stroke=\"#9dc3d8\" stroke-width=\"7\" stroke-linecap=\"round\"/><circle cx=\"219.0\" cy=\"62\" r=\"3\" fill=\"#b9a98c\" stroke=\"#234539\" stroke-width=\"0.9\"/><circle cx=\"239.0\" cy=\"74\" r=\"3\" fill=\"#b9a98c\" stroke=\"#234539\" stroke-width=\"0.9\"/><circle cx=\"257.0\" cy=\"86\" r=\"3\" fill=\"#b9a98c\" stroke=\"#234539\" stroke-width=\"0.9\"/><path d=\"M 263.0 40 l 16 0 l -5 -5 m 5 5 l -5 5\" fill=\"none\" stroke=\"#6b7260\" stroke-width=\"1.2\"/><line x1=\"189.0\" y1=\"96\" x2=\"281.0\" y2=\"96\" stroke=\"#234539\" stroke-width=\"1.4\"/><text x=\"235.0\" y=\"132.0\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"11\" font-weight=\"600\" fill=\"#23291f\">erosie</text><text x=\"235.0\" y=\"148.0\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"8.5\" fill=\"#23291f\">het losse materiaal wordt weggevoerd</text><text x=\"235.0\" y=\"162.0\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"8.5\" fill=\"#6b7260\">water, wind, ijs</text><text x=\"313.3\" y=\"66.0\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"16\" fill=\"#c17f2b\">→</text><rect x=\"321.3\" y=\"8\" width=\"140.7\" height=\"108\" rx=\"6\" fill=\"#faf8f3\" stroke=\"#e4ded0\" stroke-width=\"1.2\"/><path d=\"M 347.66666666666663 96 Q 391.66666666666663 62 435.66666666666663 96 Z\" fill=\"#e0cfa0\" stroke=\"#234539\" stroke-width=\"1.3\"/><circle cx=\"371.66666666666663\" cy=\"88\" r=\"2.6\" fill=\"#b9a98c\" stroke=\"#234539\" stroke-width=\"0.8\"/><circle cx=\"391.66666666666663\" cy=\"80\" r=\"2.6\" fill=\"#b9a98c\" stroke=\"#234539\" stroke-width=\"0.8\"/><circle cx=\"409.66666666666663\" cy=\"88\" r=\"2.6\" fill=\"#b9a98c\" stroke=\"#234539\" stroke-width=\"0.8\"/><line x1=\"345.66666666666663\" y1=\"96\" x2=\"437.66666666666663\" y2=\"96\" stroke=\"#234539\" stroke-width=\"1.4\"/><text x=\"391.7\" y=\"132.0\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"11\" font-weight=\"600\" fill=\"#23291f\">sedimentatie</text><text x=\"391.7\" y=\"148.0\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"8.5\" fill=\"#23291f\">het wordt elders weer afgezet</text><text x=\"391.7\" y=\"162.0\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"8.5\" fill=\"#6b7260\">een delta, een zandbank, een duin</text></svg>",
+     "onderschrift": "Drie stappen die elkaar opvolgen, van losse steen tot nieuwe laag."
+    }
+   ]
+  },
+  {
+   "kop": "Drie soorten verwering",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "De vakfiche noemt <strong>fysische verwering</strong>, <strong>chemische verwering</strong> en <strong>biologische verwering</strong>."
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Vorstverwering</strong> is de bekendste fysische vorm: <strong>water in een spleet bevriest en zet uit</strong>. IJs neemt ongeveer negen procent meer plaats in dan water, en die paar procent breekt een rotswand open. De vorm waarbij bevriezend water gesteente openbreekt, heet dus <strong>vorstverwering</strong>."
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Biologische verwering</strong> werkt doordat <strong>wortels en zuren van organismen gesteente afbreken</strong>: een boomwortel in een spleet, korstmossen die zuur afscheiden."
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Chemische verwering gaat sneller in een warm en vochtig klimaat</strong>, want warmte en water versnellen elke reactie. Het gesteente dat het gevoeligst is voor chemische verwering door zuur regenwater, is <strong>kalksteen</strong>: kalk lost op in koolzuurhoudend water."
+    },
+    {
+     "soort": "tekst",
+     "html": "Het klimaat bepaalt dus welke verwering overheerst: <strong>vorstverwering overheerst in koude streken</strong>, <strong>chemische verwering overheerst in warme, vochtige streken</strong>, en <strong>in een woestijn werkt vooral temperatuurwisseling</strong>, waar het verschil tussen dag en nacht de steen doet barsten."
+    }
+   ]
+  },
+  {
+   "kop": "Karst",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Het landschap dat door het oplossen van kalksteen ontstaat, heet <strong>karst</strong>. Het is het enige landschap dat niet door afslijten maar door oplossen gemaakt is, en daarom <strong>kan karst niet in een zandsteengebied ontstaan</strong>: zandsteen lost niet op."
+    },
+    {
+     "soort": "tekst",
+     "html": "De vakfiche noemt deze karstverschijnselen: <strong>karren en diaklazen</strong>, <strong>verdwijngat en resurgentie</strong>, en <strong>doline en druipstenen</strong>."
+    },
+    {
+     "soort": "tekst",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">verschijnsel</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">wat het is</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">karren</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">groeven in een kalkoppervlak</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">diaklaas</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een natuurlijke spleet waarlangs water naar beneden dringt</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">verdwijngat</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">waar een beek in de grond verdwijnt</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">resurgentie</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">waar de ondergrondse rivier weer bovenkomt</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">doline</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een trechtervormige inzinking in kalkgebied</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">druipstenen</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">stalactieten en stalagmieten in een grot</td></tr></table>"
+    },
+    {
+     "soort": "tekst",
+     "html": "Een <strong>doline</strong> is dus <strong>een trechtervormige inzinking in kalkgebied</strong>, en de plek waar een ondergrondse rivier weer aan de oppervlakte komt, is de <strong>resurgentie</strong>. Een natuurlijke spleet in kalkgesteente waarlangs het water naar beneden dringt, is een <strong>diaklaas</strong>, en <strong>karren</strong> zijn <strong>groeven in een kalkoppervlak</strong>."
+    },
+    {
+     "soort": "tekst",
+     "html": "Het verschil tussen de twee druipstenen zit in de richting: <strong>een stalagmiet groeit van de bodem omhoog</strong>, een stalactiet hangt van het plafond. <strong>Druipstenen ontstaan doordat kalk uit het druppelende water weer neerslaat</strong>, een millimeter per tien jaar ongeveer."
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>In een karstgebied liggen juist heel weinig beken aan de oppervlakte</strong>: het water zakt door de diaklazen weg en loopt ondergronds verder. Een karstplateau kan er in een regenachtig land kurkdroog uitzien. In België komt karst voor <strong>in de kalkstreken van Wallonië</strong>, met de grotten van Han als bekendste voorbeeld."
+    }
+   ]
+  },
+  {
+   "kop": "Massatransport",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "<strong>Massatransport</strong> is dat <strong>bodem onder zijn eigen gewicht schuift</strong>. Er is geen rivier, wind of gletsjer bij nodig: enkel zwaartekracht."
+    },
+    {
+     "soort": "tekst",
+     "html": "Pas daarom op met twee begrippen die er niet bij horen: <strong>saltatie en suspensie</strong> zijn manieren waarop water of wind deeltjes meeneemt, en dat is géén massatransport."
+    },
+    {
+     "soort": "tekst",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">vorm</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">snelheid</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">bodemcreep</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">de traagste: millimeters per jaar, bijna onzichtbaar</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">verglijding</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">van langzaam tot plots</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">modderstroom</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">snel, een dal af</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">afstorting of steenlawine</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">razendsnel</td></tr></table>"
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Bodemcreep</strong> is dus de traagste vorm: <strong>het heel trage, bijna onzichtbare kruipen van de bodem op een helling</strong>. Je ziet hem niet bewegen, maar je ziet het resultaat aan scheefgezakte afsluitingen en kromme boomstammen."
+    },
+    {
+     "soort": "tekst",
+     "html": "Bij een <strong>afstorting</strong> <strong>vallen brokken vrij van een steile wand</strong>. Onderaan hoopt het puin zich op tot een <strong>puinkegel</strong> of puinhelling. Een <strong>modderstroom</strong> is <strong>een stroom van water, bodem en stenen die zich snel door een dal stort</strong>."
+    },
+    {
+     "soort": "tekst",
+     "html": "Een <strong>steenlawine is gevaarlijker dan bodemcreep omdat ze razendsnel gaat en niet te ontvluchten is</strong>. Bodemcreep kost je op lange termijn je tuinmuur; een steenlawine kost je in tien seconden je huis."
+    }
+   ]
+  },
+  {
+   "kop": "Wanneer gaat een helling schuiven",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Drie factoren bepalen samen of een helling gaat schuiven: <strong>de aard van het gesteente</strong>, <strong>de hellingsgraad</strong> en <strong>de hoeveelheid water in de bodem</strong>. <strong>Hoe steiler de helling, hoe meer kans op massatransport.</strong>"
+    },
+    {
+     "soort": "tekst",
+     "html": "Na zware regen gebeuren er veel aardverschuivingen, want <strong>water maakt de bodem zwaarder en glibberiger</strong>. Het voegt gewicht toe én het vermindert de wrijving tussen de korrels, en die twee werken in dezelfde richting."
+    },
+    {
+     "soort": "tekst",
+     "html": "Het gesteente dat een helling het gevoeligst maakt voor verglijding, is <strong>een kleilaag als glijvlak</strong>. Klei laat geen water door en wordt zelf glad, dus de losse grond erboven glijdt eraf als van een natte glijbaan. Het <strong>glijvlak</strong> is <strong>het vlak waarover de massa wegschuift</strong>."
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Een helling zonder plantengroei schuift makkelijker dan een beboste helling.</strong> Wortels houden de bodem letterlijk vast, en bladeren breken de regen op voor die de grond raakt."
+    },
+    {
+     "soort": "tekst",
+     "html": "Het klimaat werkt op drie manieren mee: <strong>zware neerslag maakt hellingen instabiel</strong>, <strong>vorst en dooi doen de bodem kruipen</strong>, en <strong>smeltend permafrost laat hellingen losschuiven</strong>. Die laatste is in de Alpen een nieuw probleem: bevroren bodem die duizenden jaren als cement werkte, dooit nu op."
+    }
+   ]
+  },
+  {
+   "kop": "Wat mensen eraan doen, in beide richtingen",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Mensen werken hellingsprocessen in de hand <strong>door bossen te kappen op steile hellingen</strong>, <strong>door te bouwen en zo de helling te belasten</strong> en <strong>door wegen in de voet van een helling te snijden</strong>. Dat laatste is het verraderlijkst: je haalt onderaan de steun weg waar de hele massa op rust."
+    },
+    {
+     "soort": "tekst",
+     "html": "De maatregel die een kwetsbare helling beschermt, is <strong>de helling herbebossen</strong>. Daarnaast legt men <strong>vangnetten en betonnen schermen langs een bergweg om vallend gesteente op te vangen</strong>."
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Massatransport komt in Vlaanderen veel minder vaak voor dan in de Alpen</strong>, en dat heeft één eenvoudige reden: er zijn bijna geen steile hellingen. In de Vlaamse Ardennen en het Pajottenland gebeurt het wel, op de steilste leemhellingen."
+    },
+    {
+     "soort": "tekst",
+     "html": "Eén veelgemaakte denkfout: <strong>een aardverschuiving kan wél een rivier afdammen</strong>. Het puin komt in één keer naar beneden en blijft liggen; achter die natuurlijke dam ontstaat een meer, en als de dam doorbreekt komt alles tegelijk naar beneden."
+    }
+   ]
+  }
+ ],
+ "onthoud": []
+}

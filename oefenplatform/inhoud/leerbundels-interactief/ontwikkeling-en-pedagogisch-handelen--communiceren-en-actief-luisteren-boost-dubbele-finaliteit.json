@@ -1,0 +1,86 @@
+{
+ "vak": "Ontwikkeling en pedagogisch handelen",
+ "titel": "Communiceren en actief luisteren",
+ "onder": "Verbale en non-verbale communicatie, de fasen van een gesprek, praten met een kind en met een oudere, de drie manieren van luisteren en de LSD-methode.",
+ "secties": [
+  {
+   "kop": "Verbaal en non-verbaal",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "<strong>Verbale communicatie zijn de woorden die je zegt</strong> of schrijft. <strong>Non-verbale communicatie is alles behalve de woorden zelf</strong>: je <strong>lichaamshouding, je gezichtsuitdrukking, je stemtoon</strong>, je gebaren en de afstand die je houdt. <strong>Gebaren zijn dus non-verbaal</strong>, geen verbale communicatie."
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Lichaamstaal is belangrijk omdat ze vaak meer zegt dan woorden.</strong> Een kind dat zegt dat het goed gaat maar met gebogen hoofd zit, vertelt iets anders. <strong>Gaan woorden en lichaamstaal niet samen, dan vraag je ernaar</strong>: \"Je zegt dat het goed gaat, maar je kijkt verdrietig. Klopt dat?\""
+    }
+   ]
+  },
+  {
+   "kop": "De fasen van een gesprek",
+   "blokken": [
+    {
+     "soort": "figuur",
+     "html": "<svg viewBox=\"0 0 470 76\" width=\"470\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"0.0\" y=\"6\" width=\"73.2\" height=\"62\" rx=\"10\" fill=\"#ffffff\" stroke=\"#2f5d50\" stroke-width=\"1.8\"/><text x=\"36.6\" y=\"37.0\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"11.5\" font-weight=\"600\" fill=\"#234539\">groeten</text><path d=\"M78.2 37.0 h12 m0 0 l-6 -5 m6 5 l-6 5\" stroke=\"#2f5d50\" stroke-width=\"2\" fill=\"none\" stroke-linecap=\"round\"/><rect x=\"99.2\" y=\"6\" width=\"73.2\" height=\"62\" rx=\"10\" fill=\"#ffffff\" stroke=\"#2f5d50\" stroke-width=\"1.8\"/><text x=\"135.8\" y=\"29.0\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"11.5\" font-weight=\"600\" fill=\"#234539\">jezelf</text><text x=\"135.8\" y=\"45.0\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"10\" font-weight=\"400\" fill=\"#6b7260\">voorstellen</text><path d=\"M177.4 37.0 h12 m0 0 l-6 -5 m6 5 l-6 5\" stroke=\"#2f5d50\" stroke-width=\"2\" fill=\"none\" stroke-linecap=\"round\"/><rect x=\"198.4\" y=\"6\" width=\"73.2\" height=\"62\" rx=\"10\" fill=\"#ffffff\" stroke=\"#2f5d50\" stroke-width=\"1.8\"/><text x=\"235.0\" y=\"37.0\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"11.5\" font-weight=\"600\" fill=\"#234539\">kennismaken</text><path d=\"M276.6 37.0 h12 m0 0 l-6 -5 m6 5 l-6 5\" stroke=\"#2f5d50\" stroke-width=\"2\" fill=\"none\" stroke-linecap=\"round\"/><rect x=\"297.6\" y=\"6\" width=\"73.2\" height=\"62\" rx=\"10\" fill=\"#ffffff\" stroke=\"#2f5d50\" stroke-width=\"1.8\"/><text x=\"334.2\" y=\"29.0\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"11.5\" font-weight=\"600\" fill=\"#234539\">het dagelijkse</text><text x=\"334.2\" y=\"45.0\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"10\" font-weight=\"400\" fill=\"#6b7260\">gesprek</text><path d=\"M375.8 37.0 h12 m0 0 l-6 -5 m6 5 l-6 5\" stroke=\"#2f5d50\" stroke-width=\"2\" fill=\"none\" stroke-linecap=\"round\"/><rect x=\"396.8\" y=\"6\" width=\"73.2\" height=\"62\" rx=\"10\" fill=\"#ffffff\" stroke=\"#2f5d50\" stroke-width=\"1.8\"/><text x=\"433.4\" y=\"29.0\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"11.5\" font-weight=\"600\" fill=\"#234539\">afscheid</text><text x=\"433.4\" y=\"45.0\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"10\" font-weight=\"400\" fill=\"#6b7260\">nemen</text></svg>",
+     "onderschrift": ""
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Je begint een gesprek met groeten</strong>, en dat is meteen de eerste indruk. <strong>Kennismaken is elkaar leren kennen</strong>: je vraagt en vertelt om en om. <strong>Je eindigt met afscheid nemen</strong>, want dat sluit het gesprek netjes af."
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Een respectvolle begroeting is goedendag zeggen, de ander aankijken en zijn naam noemen.</strong> <strong>Oogcontact is de ander aankijken</strong>, en dat laat zien dat je er echt bij bent. <strong>Het maakt een gesprek dus niet onbeleefd</strong>, integendeel."
+    },
+    {
+     "soort": "kader",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">met wie</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">hoe je het best praat</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>een jong kind</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>korte zinnen op ooghoogte</strong>: zak door je knieën en kijk het kind aan</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>een oudere</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>rustig en duidelijk</strong>: een rustig tempo, duidelijke woorden, en hem aankijken</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>een slechthorende oudere</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>je kijkt hem aan</strong>, zodat hij kan meelezen op je lippen</td></tr></table>"
+    }
+   ]
+  },
+  {
+   "kop": "Drie manieren van luisteren",
+   "blokken": [
+    {
+     "soort": "kader",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">manier</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">wat je doet</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>oppervlakkig luisteren</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>je hoort het maar half</strong>: je hoort de klank, maar je neemt niet op wat gezegd wordt</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>inhoudelijk luisteren</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>je volgt wat er gezegd wordt</strong>, maar je laat nog niet merken dat je luistert</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>actief luisteren</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>je toont dat je luistert</strong>: je knikt, je vat samen en je vraagt door</td></tr></table>"
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Bij een actieve lichaamshouding draai je je naar de ander, knik je af en toe en kijk je hem aan.</strong> Gekruiste armen lezen als afstand. <strong>Kleine aanmoedigingen zijn een knikje, een \"hm\" of een \"ja\"</strong>: zo laat je merken dat je nog mee bent."
+    }
+   ]
+  },
+  {
+   "kop": "De LSD-methode",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "<strong>LSD staat voor Luisteren, Samenvatten en Doorvragen.</strong>"
+    },
+    {
+     "soort": "figuur",
+     "html": "<svg viewBox=\"0 0 470 76\" width=\"470\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"0.0\" y=\"6\" width=\"139.3\" height=\"62\" rx=\"10\" fill=\"#ffffff\" stroke=\"#2f5d50\" stroke-width=\"1.8\"/><text x=\"69.7\" y=\"29.0\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"11.5\" font-weight=\"600\" fill=\"#234539\">L</text><text x=\"69.7\" y=\"45.0\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"10\" font-weight=\"400\" fill=\"#6b7260\">luisteren</text><path d=\"M144.33333333333334 37.0 h12 m0 0 l-6 -5 m6 5 l-6 5\" stroke=\"#2f5d50\" stroke-width=\"2\" fill=\"none\" stroke-linecap=\"round\"/><rect x=\"165.3\" y=\"6\" width=\"139.3\" height=\"62\" rx=\"10\" fill=\"#ffffff\" stroke=\"#2f5d50\" stroke-width=\"1.8\"/><text x=\"235.0\" y=\"29.0\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"11.5\" font-weight=\"600\" fill=\"#234539\">S</text><text x=\"235.0\" y=\"45.0\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"10\" font-weight=\"400\" fill=\"#6b7260\">samenvatten</text><path d=\"M309.6666666666667 37.0 h12 m0 0 l-6 -5 m6 5 l-6 5\" stroke=\"#2f5d50\" stroke-width=\"2\" fill=\"none\" stroke-linecap=\"round\"/><rect x=\"330.7\" y=\"6\" width=\"139.3\" height=\"62\" rx=\"10\" fill=\"#ffffff\" stroke=\"#2f5d50\" stroke-width=\"1.8\"/><text x=\"400.3\" y=\"29.0\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"11.5\" font-weight=\"600\" fill=\"#234539\">D</text><text x=\"400.3\" y=\"45.0\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"10\" font-weight=\"400\" fill=\"#6b7260\">doorvragen</text></svg>",
+     "onderschrift": ""
+    },
+    {
+     "soort": "kader",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">letter</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">wat je doet</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>de L</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>je luistert actief</strong>, met je houding, je ogen en kleine aanmoedigingen</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>de S</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>je vat samen</strong>: je herhaalt in je eigen woorden wat je begrepen hebt</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>de D</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>je vraagt door</strong> met open vragen en gevoelsvragen</td></tr></table>"
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Je vat samen om na te gaan of je goed begreep</strong>: het geeft de ander de kans om je recht te zetten."
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Een open vraag vraagt om meer uitleg</strong> en kan je dus <strong>niet</strong> met ja of nee beantwoorden: \"Hoe was dat voor jou?\" levert meer op dan \"Was dat leuk?\". <strong>Een gevoelsvraag peilt naar het gevoel</strong>: \"Hoe voelde je je toen?\""
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Stiltes zijn nuttig omdat de ander tijd krijgt</strong> om verder te denken en te spreken. <strong>Je vult ze dus niet meteen op.</strong>"
+    }
+   ]
+  }
+ ],
+ "onthoud": []
+}

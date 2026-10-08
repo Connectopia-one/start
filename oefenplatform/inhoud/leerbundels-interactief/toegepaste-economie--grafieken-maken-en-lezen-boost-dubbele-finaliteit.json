@@ -1,0 +1,84 @@
+{
+ "vak": "Toegepaste economie",
+ "titel": "Grafieken maken en lezen",
+ "onder": "Welke grafiek bij welke boodschap past, de onderdelen van een grafiek, en hoe je een grafiek leest zonder je te laten misleiden.",
+ "secties": [
+  {
+   "kop": "De grafiek bij je boodschap",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "<strong>Het nut van een grafiek is cijfers in beeld brengen</strong>: een beeld laat een verschil of een verloop sneller zien dan een rij getallen. <strong>Je kiest het grafiektype naar je boodschap</strong>, niet naar wat mooi staat."
+    },
+    {
+     "soort": "kader",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">grafiek</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">waarvoor</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">voorbeeld</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>de lijngrafiek</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>een evolutie in de tijd</strong>: de lijn laat zien of iets stijgt, daalt of gelijk blijft</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>de omzet per maand over een jaar</strong></td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>de kolomgrafiek</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>waarden naast elkaar vergelijken</strong>, met staande balken</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>twee jaren naast elkaar, twee kolommen per categorie</strong></td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>de staafgrafiek</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>hetzelfde met liggende balken</strong>, handig bij lange namen naast de as</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>de omzet per product</strong></td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>het cirkeldiagram</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>delen van een geheel</strong>: alle schijfjes samen zijn honderd procent</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>het aandeel per kostensoort</strong></td></tr></table>"
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Een cirkeldiagram is niet geschikt voor twintig categorieën</strong>: met te veel schijfjes leest niemand het nog, dus houd het bij een handvol. En <strong>een cirkeldiagram kan geen percentages boven honderd tonen</strong>: de hele cirkel ís honderd procent, dus komt je som hoger uit, dan zit er een fout in."
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>De vakfiche noemt de kolomgrafiek, de lijngrafiek en het cirkeldiagram.</strong> Een organogram is geen grafiek van cijfers maar een schema."
+    },
+    {
+     "soort": "figuur",
+     "html": "<svg viewBox=\"0 0 400 190\" width=\"400\" xmlns=\"http://www.w3.org/2000/svg\"><line x1=\"30\" y1=\"14\" x2=\"30\" y2=\"162\" stroke=\"#6b7260\" stroke-width=\"1.4\"/><line x1=\"30\" y1=\"162\" x2=\"400\" y2=\"162\" stroke=\"#6b7260\" stroke-width=\"1.4\"/><line x1=\"26\" y1=\"162.0\" x2=\"30\" y2=\"162.0\" stroke=\"#6b7260\" stroke-width=\"1.2\"/><text x=\"23\" y=\"165.5\" text-anchor=\"end\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"9.5\" fill=\"#6b7260\">0</text><line x1=\"26\" y1=\"128.4\" x2=\"30\" y2=\"128.4\" stroke=\"#6b7260\" stroke-width=\"1.2\"/><text x=\"23\" y=\"131.9\" text-anchor=\"end\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"9.5\" fill=\"#6b7260\">5</text><line x1=\"26\" y1=\"94.7\" x2=\"30\" y2=\"94.7\" stroke=\"#6b7260\" stroke-width=\"1.2\"/><text x=\"23\" y=\"98.2\" text-anchor=\"end\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"9.5\" fill=\"#6b7260\">10</text><line x1=\"26\" y1=\"61.1\" x2=\"30\" y2=\"61.1\" stroke=\"#6b7260\" stroke-width=\"1.2\"/><text x=\"23\" y=\"64.6\" text-anchor=\"end\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"9.5\" fill=\"#6b7260\">15</text><line x1=\"26\" y1=\"27.5\" x2=\"30\" y2=\"27.5\" stroke=\"#6b7260\" stroke-width=\"1.2\"/><text x=\"23\" y=\"31.0\" text-anchor=\"end\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"9.5\" fill=\"#6b7260\">20</text><rect x=\"46.3\" y=\"81.3\" width=\"41.4\" height=\"80.7\" fill=\"#2f5d50\" rx=\"3\"/><text x=\"67.0\" y=\"176\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"10\" fill=\"#23291f\">jan</text><text x=\"67.0\" y=\"77.3\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"10\" font-weight=\"600\" fill=\"#23291f\">12</text><rect x=\"120.3\" y=\"61.1\" width=\"41.4\" height=\"100.9\" fill=\"#2f5d50\" rx=\"3\"/><text x=\"141.0\" y=\"176\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"10\" fill=\"#23291f\">feb</text><text x=\"141.0\" y=\"57.1\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"10\" font-weight=\"600\" fill=\"#23291f\">15</text><rect x=\"194.3\" y=\"67.8\" width=\"41.4\" height=\"94.2\" fill=\"#2f5d50\" rx=\"3\"/><text x=\"215.0\" y=\"176\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"10\" fill=\"#23291f\">mrt</text><text x=\"215.0\" y=\"63.8\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"10\" font-weight=\"600\" fill=\"#23291f\">14</text><rect x=\"268.3\" y=\"34.2\" width=\"41.4\" height=\"127.8\" fill=\"#2f5d50\" rx=\"3\"/><text x=\"289.0\" y=\"176\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"10\" fill=\"#23291f\">apr</text><text x=\"289.0\" y=\"30.2\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"10\" font-weight=\"600\" fill=\"#23291f\">19</text><rect x=\"342.3\" y=\"14.0\" width=\"41.4\" height=\"148.0\" fill=\"#2f5d50\" rx=\"3\"/><text x=\"363.0\" y=\"176\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"10\" fill=\"#23291f\">mei</text><text x=\"363.0\" y=\"10.0\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"10\" font-weight=\"600\" fill=\"#23291f\">22</text></svg>",
+     "onderschrift": "Een kolomgrafiek van vijf maanden: de maanden staan op de horizontale as, de waarden op de verticale, en de as begint bij nul."
+    }
+   ]
+  },
+  {
+   "kop": "De onderdelen van een grafiek",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "<strong>Een grafiekelement is een onderdeel van de grafiek</strong>: de titel, de assen, de legende, de rasterlijnen en de labels. <strong>De titel, de legende en de gegevenslabels kan je aan en uit zetten</strong>; formules staan in het blad, niet in de grafiek."
+    },
+    {
+     "soort": "kader",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">onderdeel</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">wat het is</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>de verticale as</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>de waarden</strong>: daar lees je de hoogte van de kolom af</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>de horizontale as</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>de categorieën</strong>: de maanden, de producten of de afdelingen</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>de astitel</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>wat de as meet</strong>, bijvoorbeeld omzet in euro of aantal stuks</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>de legende</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>welke kleur bij welke reeks hoort</strong></td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>een gegevensreeks</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>één rij met waarden</strong>, bijvoorbeeld de omzet van 2026; een tweede reeks is die van 2027</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>een gegevenslabel</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>de waarde bij de balk geschreven</strong>, voor als de precieze waarde telt</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>de rasterlijnen</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>de lijnen achter de grafiek</strong> die je oog naar de as leiden</td></tr></table>"
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Een grafiek in een rekenblad verandert mee als je de cijfers aanpast</strong>: ze kijkt naar het bereik, dus wijzigt een cel, dan beweegt de balk. <strong>Ze bewaart geen eigen kopie van de cijfers</strong>, en dat is net het nut ervan."
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Om een grafiek leesbaar te houden geef je ze een duidelijke titel, zet je de eenheid bij de as en toon je niet te veel reeksen.</strong> Veel kleuren maken het drukker, niet duidelijker. <strong>Een grafiek zonder titel laat de lezer gissen waarover ze gaat</strong>; de titel zegt wat er gemeten is en over welke periode."
+    }
+   ]
+  },
+  {
+   "kop": "Een grafiek eerlijk en kritisch lezen",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "<strong>De verticale as hoort meestal bij nul te beginnen</strong>, anders lijkt het verschil groter dan het is: een as die bij 90 begint, maakt van een klein verschil een hoge berg."
+    },
+    {
+     "soort": "kader",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">wat een grafiek misleidend maakt</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">wat een grafiek betrouwbaar maakt</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>een as die niet bij nul begint</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>de bron vermelden</strong>, met het jaar erbij</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>een as met ongelijke stappen</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>de eenheid bij de as zetten</strong></td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>een stuk uit de reeks weglaten</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>de hele reeks tonen</strong></td></tr></table>"
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Bij cijfers van iemand anders zet je de bron erbij</strong>: waar ze vandaan komen en van welk jaar ze zijn. <strong>De maker hoeft er niet op</strong>, de bron wel."
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Een grafiek maakt de cijfers niet nauwkeuriger dan een tabel.</strong> Een grafiek toont een beeld, een tabel de exacte waarden. Daarom: <strong>zijn twee kolommen bijna even hoog, kijk dan naar de labels voor het echte verschil</strong>."
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Wat je uit een omzetgrafiek kan lezen</strong>: in welke maanden het goed ging, of de omzet stijgt of daalt, en welke maand het hoogst is. <strong>Een piek is een maand met veel verkoop</strong>, en daar hoort een verklaring bij: een actie, een feestdag, een grote klant. <strong>Winst zie je er niet in</strong>: daarvoor moet je ook de kosten kennen."
+    },
+    {
+     "soort": "weetje",
+     "html": "In een jaarverslag staan grafieken naast de tabellen, en dat is geen opsmuk: een evolutie over vijf jaar zie je in één oogopslag, terwijl je ze in een tabel moet uitrekenen."
+    }
+   ]
+  }
+ ],
+ "onthoud": []
+}

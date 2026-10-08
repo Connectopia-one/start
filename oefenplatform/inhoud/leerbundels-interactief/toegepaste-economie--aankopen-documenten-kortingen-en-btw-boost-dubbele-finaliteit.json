@@ -1,0 +1,97 @@
+{
+ "vak": "Toegepaste economie",
+ "titel": "Aankopen: documenten, kortingen en btw",
+ "onder": "De documenten van prijsaanvraag tot creditnota, de drie soorten aankopen, en het rekenen op een aankoopfactuur: eerst de kortingen, dan de kosten, dan de btw.",
+ "secties": [
+  {
+   "kop": "De documenten van een aankoop",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "<strong>Een aankoop verloopt in vaste stappen, en bij elke stap hoort een document.</strong> Ken je de volgorde, dan weet je ook wat je met welk document moet vergelijken."
+    },
+    {
+     "soort": "figuur",
+     "html": "<svg viewBox=\"0 0 470 76\" width=\"470\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"0.0\" y=\"6\" width=\"73.2\" height=\"62\" rx=\"10\" fill=\"#ffffff\" stroke=\"#2f5d50\" stroke-width=\"1.8\"/><text x=\"36.6\" y=\"37.0\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"11.5\" font-weight=\"600\" fill=\"#234539\">prijsaanvraag</text><path d=\"M78.2 37.0 h12 m0 0 l-6 -5 m6 5 l-6 5\" stroke=\"#2f5d50\" stroke-width=\"2\" fill=\"none\" stroke-linecap=\"round\"/><rect x=\"99.2\" y=\"6\" width=\"73.2\" height=\"62\" rx=\"10\" fill=\"#ffffff\" stroke=\"#2f5d50\" stroke-width=\"1.8\"/><text x=\"135.8\" y=\"37.0\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"11.5\" font-weight=\"600\" fill=\"#234539\">offerte</text><path d=\"M177.4 37.0 h12 m0 0 l-6 -5 m6 5 l-6 5\" stroke=\"#2f5d50\" stroke-width=\"2\" fill=\"none\" stroke-linecap=\"round\"/><rect x=\"198.4\" y=\"6\" width=\"73.2\" height=\"62\" rx=\"10\" fill=\"#ffffff\" stroke=\"#2f5d50\" stroke-width=\"1.8\"/><text x=\"235.0\" y=\"37.0\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"11.5\" font-weight=\"600\" fill=\"#234539\">bestelbon</text><path d=\"M276.6 37.0 h12 m0 0 l-6 -5 m6 5 l-6 5\" stroke=\"#2f5d50\" stroke-width=\"2\" fill=\"none\" stroke-linecap=\"round\"/><rect x=\"297.6\" y=\"6\" width=\"73.2\" height=\"62\" rx=\"10\" fill=\"#ffffff\" stroke=\"#2f5d50\" stroke-width=\"1.8\"/><text x=\"334.2\" y=\"37.0\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"11.5\" font-weight=\"600\" fill=\"#234539\">leverbon</text><path d=\"M375.8 37.0 h12 m0 0 l-6 -5 m6 5 l-6 5\" stroke=\"#2f5d50\" stroke-width=\"2\" fill=\"none\" stroke-linecap=\"round\"/><rect x=\"396.8\" y=\"6\" width=\"73.2\" height=\"62\" rx=\"10\" fill=\"#ffffff\" stroke=\"#2f5d50\" stroke-width=\"1.8\"/><text x=\"433.4\" y=\"37.0\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"11.5\" font-weight=\"600\" fill=\"#234539\">factuur</text></svg>",
+     "onderschrift": "De vijf documenten van een aankoop, in de volgorde waarin ze elkaar opvolgen."
+    },
+    {
+     "soort": "kader",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">document</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">wie maakt het</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">waarvoor het dient</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>de prijsaanvraag</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>de klant</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>een prijs opvragen</strong> bij een leverancier, met de voorwaarden erbij</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>de offerte</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>de leverancier</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>het antwoord</strong>: prijs, hoeveelheid en voorwaarden. De klant is nog tot niets verplicht</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>de bestelbon</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>de klant</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>de bestelling vastleggen</strong>; hiermee legt de klant zich vast op hoeveelheid en prijs</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>de leverbon</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>de leverancier</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>bewijzen wat geleverd is</strong>; er staan geen bedragen op</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>de aankoopfactuur</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>de leverancier</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>de vraag om te betalen</strong></td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>de creditnota</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>de leverancier</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>een factuur rechtzetten</strong> die al verstuurd is</td></tr></table>"
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Een offerte verplicht de klant niet om te kopen</strong>: pas met de bestelbon legt hij zich vast. En <strong>een leverbon vermeldt niet de prijs</strong>: die gaat over wat er geleverd is, de bedragen staan op de factuur."
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Een inkomende creditnota krijg je bij een terugzending</strong>, of bij een vergeten korting of een fout op de factuur. <strong>Ze verhoogt het te betalen bedrag niet, ze vermindert het</strong> — vandaar haar naam."
+    }
+   ]
+  },
+  {
+   "kop": "Controleren voor je betaalt",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "<strong>Bij de ontvangst van een levering controleer je of alles er is en of alles heel is</strong>, door te vergelijken met de leverbon en met je eigen bestelbon."
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>De factuur vergelijk je met de offerte, de bestelbon en de leverbon.</strong> Prijs, hoeveelheid en korting moeten overeenkomen met wat afgesproken was. <strong>Je controleert de hoeveelheid, de eenheidsprijs, de berekende korting en het btw-tarief per artikel.</strong>"
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Waarom dat belangrijk is? Om kwaliteit af te leveren</strong>, zegt de fiche zelf. Een fout die je niet opmerkt, betaal je."
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>De vakfiche onderscheidt drie soorten aankopen</strong>, elk met hun eigen rekening in het MAR."
+    },
+    {
+     "soort": "kader",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">soort aankoop</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">wat het is</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>handelsgoederen</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>goederen om door te verkopen</strong>: ze gaan de voorraad in en daarna weer buiten, naar de klant</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>diensten en diverse goederen</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>wat je verbruikt om te werken</strong>: huur, verzekering, elektriciteit</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>investeringen</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>een aankoop voor lange termijn</strong>: een machine of een bestelwagen, die je meerdere jaren gebruikt en afschrijft</td></tr></table>"
+    }
+   ]
+  },
+  {
+   "kop": "Kortingen en btw op een factuur",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "<strong>Op een factuur reken je in een vaste volgorde: eerst de kortingen, dan de doorgerekende kosten, en pas dan de btw.</strong> <strong>De handelskorting wordt dus niet ná de btw afgetrokken</strong>; anders zou je btw betalen op geld dat je niet betaalt."
+    },
+    {
+     "soort": "kader",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">begrip</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">wat het is</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>handelskorting</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>korting op de prijs</strong>, bijvoorbeeld bij een grote bestelling; ze gaat van de brutoprijs af</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>financiële korting</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>korting bij snel betalen</strong>, ook kaskorting genoemd; ook zij gaat eraf vóór de btw</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>doorgerekende kosten</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>vervoer bijvoorbeeld</strong>: die worden juist bijgeteld en verhogen het bedrag waarop btw komt</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>terugstuurbare verpakking</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>valt buiten de maatstaf</strong>: je betaalt ze als waarborg en krijgt ze terug, dus er komt geen btw op</td></tr></table>"
+    },
+    {
+     "soort": "tekst",
+     "html": "Het verschil tussen de twee kortingen zit in <strong>de reden van de korting</strong>: handelskorting hoort bij de verkoop zelf, financiële korting bij snel betalen."
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>In België bestaan er drie btw-tarieven: 21, 12 en 6 procent.</strong> 21 procent is het gewone tarief, 6 procent geldt onder meer voor voeding. <strong>Daarom kunnen er meerdere tarieven op één factuur staan</strong>: verschillende goederen, elk aan hun eigen tarief."
+    }
+   ]
+  },
+  {
+   "kop": "Rekenen op een aankoopfactuur",
+   "blokken": [
+    {
+     "soort": "kader",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">opgave</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">antwoord</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">rekenwijze</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>1 000 euro met 10 procent handelskorting</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>900 euro</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">10 procent van 1 000 is 100, en 1 000 min 100 is 900</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>21 procent btw op 800 euro</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>168 euro</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">800 maal 0,21</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>6 procent btw op 200 euro</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>12 euro</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">200 maal 0,06</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>500 euro goederen en 50 euro doorgerekend vervoer</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>btw op 550 euro</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">doorgerekende kosten horen bij de maatstaf van heffing</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>1 000 euro goederen met 21 procent btw</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>1 210 euro te betalen</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">1 000 plus 210 euro btw</td></tr></table>"
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Op een aankoopfactuur staan het bedrag zonder btw, het btw-bedrag en het te betalen totaal.</strong> Het loon van de verkoper staat er niet op."
+    },
+    {
+     "soort": "weetje",
+     "html": "Een snelle controle: 21 procent btw op 100 euro is 21 euro. Daarmee schat je elk btw-bedrag in je hoofd, en merk je een rekenfout meteen."
+    }
+   ]
+  }
+ ],
+ "onthoud": []
+}

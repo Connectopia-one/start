@@ -1,0 +1,101 @@
+{
+ "vak": "Economie en bedrijfswetenschappen",
+ "titel": "De productiefactoren en de productie",
+ "onder": "De vier productiefactoren en wat ze opbrengen, de toegevoegde waarde en de bedrijfskolom, de totale en de marginale productie, de twee wetten van de meeropbrengsten en de volkomen concurrentie.",
+ "secties": [
+  {
+   "kop": "De vier productiefactoren",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "<strong>Een productiefactor is wat nodig is om te produceren.</strong> De vakfiche noemt er vier: <strong>arbeid, kapitaal, natuur en ondernemerschap</strong>. Belastingen horen er niet bij: die zijn een kost, geen factor."
+    },
+    {
+     "soort": "kader",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">factor</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">wat het is</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">wat het opbrengt</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>arbeid</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>het werk van mensen</strong>, lichamelijk en geestelijk</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>loon</strong></td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>kapitaal</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>alles wat zelf gemaakt is om mee te produceren</strong>: een machine, een bedrijfsgebouw, een vrachtwagen</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>rente</strong></td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>natuur</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>wat de natuur geeft</strong>: grond, grondstoffen, water, delfstoffen, hout</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>huur of pacht</strong>, ook grondrente genoemd</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>ondernemerschap</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>de factoren samenbrengen en het risico dragen</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>de winst</strong></td></tr></table>"
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Een bestelwagen is kapitaal</strong>: hij is gemaakt om mee te werken, niet om op te gebruiken. <strong>Ondernemerschap is niet hetzelfde als arbeid</strong>: een werknemer levert arbeid tegen een loon dat vastligt, een ondernemer combineert de factoren en weet niet vooraf wat eruit komt."
+    },
+    {
+     "soort": "weetje",
+     "html": "De winst is de vergoeding van de ondernemer, en net daarom is ze onzeker. Loon, rente en huur worden afgesproken; wat er na alle kosten overblijft, is wat het is."
+    }
+   ]
+  },
+  {
+   "kop": "Toegevoegde waarde en de bedrijfskolom",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "<strong>De toegevoegde waarde is de omzet min de aankopen</strong>: wat een onderneming zelf toevoegt aan wat ze inkocht. <strong>Voor één schakel is dat de verkoopprijs min de inkoopprijs.</strong>"
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Een bedrijfskolom, ook een productiekolom, is de weg van grondstof tot eindproduct</strong>, met al zijn schakels, elk met zijn eigen bewerking. <strong>De oerproducent komt eerst</strong>: de landbouwer of de mijn levert de grondstof. <strong>De consument staat aan het einde, niet aan het begin.</strong>"
+    },
+    {
+     "soort": "kader",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">schakel</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">koopt aan</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">verkoopt aan</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">voegt toe</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>de landbouwer</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">—</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">0,30 euro</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>0,30 euro</strong></td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>de maalderij</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">0,30 euro</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">0,55 euro</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>0,25 euro</strong></td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>de bakker</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">0,55 euro</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">1,60 euro</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>1,05 euro</strong></td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>de winkel</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">1,60 euro</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">2,80 euro</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>1,20 euro</strong></td></tr></table>"
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>De toegevoegde waarden van alle schakels samen zijn de verkoopprijs voor de klant</strong>: 0,30 plus 0,25 plus 1,05 plus 1,20 is <strong>2,80 euro</strong>, en dat is precies de prijs in de winkel. Elke schakel legt zijn deel erbij."
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Een onderneming die enkel doorverkoopt, voegt wél waarde toe</strong>: de winkel maakt het brood niet, maar ze zorgt voor het transport, de voorraad, de spreiding over de dag en het advies. Daarvoor betaalt de klant mee."
+    }
+   ]
+  },
+  {
+   "kop": "De totale en de marginale productie",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "<strong>De totale productie is alles wat geproduceerd is</strong> bij een bepaald aantal werkers. <strong>De marginale productie is wat één extra werker erbij maakt.</strong> De lijn van het eerste is de totale productiecurve, die van het tweede de marginale productiecurve, en het marginale heet ook het marginaal product of de marginale meeropbrengst."
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>De wet van de toenemende meeropbrengsten zegt dat elke extra werker méér bijbrengt dan de vorige</strong>: door samen te werken en zich te specialiseren halen ze meer uit elke kracht. <strong>De wet van de afnemende meeropbrengsten zegt dat elke extra werker mínder bijbrengt</strong>: de machines en de ruimte blijven gelijk, dus men zit elkaar op den duur in de weg."
+    },
+    {
+     "soort": "figuur",
+     "html": "<svg viewBox=\"0 0 470 344\" width=\"470\" xmlns=\"http://www.w3.org/2000/svg\"><line x1=\"42\" y1=\"24\" x2=\"42\" y2=\"152\" stroke=\"#23291f\" stroke-width=\"1.6\"/><line x1=\"42\" y1=\"150.0\" x2=\"452\" y2=\"150.0\" stroke=\"#23291f\" stroke-width=\"1.6\"/><text x=\"36.0\" y=\"34.0\" text-anchor=\"end\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"9.5\" fill=\"#6b7260\">34</text><text x=\"40.0\" y=\"20.0\" text-anchor=\"start\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"10.5\" font-weight=\"600\" fill=\"#2f5d50\">totale productie</text><polyline points=\"42.0,142.9 92.8,125.3 143.5,100.6 194.2,72.4 245.0,51.2 295.8,37.1 346.5,30.0 397.2,30.0 448.0,40.6\" fill=\"none\" stroke=\"#2f5d50\" stroke-width=\"2.2\"/><circle cx=\"42.0\" cy=\"142.9\" r=\"3\" fill=\"#2f5d50\"/><circle cx=\"92.8\" cy=\"125.3\" r=\"3\" fill=\"#2f5d50\"/><circle cx=\"143.5\" cy=\"100.6\" r=\"3\" fill=\"#2f5d50\"/><circle cx=\"194.2\" cy=\"72.4\" r=\"3\" fill=\"#2f5d50\"/><circle cx=\"245.0\" cy=\"51.2\" r=\"3\" fill=\"#2f5d50\"/><circle cx=\"295.8\" cy=\"37.1\" r=\"3\" fill=\"#2f5d50\"/><circle cx=\"346.5\" cy=\"30.0\" r=\"3\" fill=\"#2f5d50\"/><circle cx=\"397.2\" cy=\"30.0\" r=\"3\" fill=\"#2f5d50\"/><circle cx=\"448.0\" cy=\"40.6\" r=\"3\" fill=\"#2f5d50\"/><line x1=\"42\" y1=\"190\" x2=\"42\" y2=\"302\" stroke=\"#23291f\" stroke-width=\"1.6\"/><line x1=\"42\" y1=\"300.0\" x2=\"452\" y2=\"300.0\" stroke=\"#23291f\" stroke-width=\"1.6\"/><line x1=\"42\" y1=\"271.6\" x2=\"452\" y2=\"271.6\" stroke=\"#6b7260\" stroke-width=\"1.2\" stroke-dasharray=\"5 4\"/><text x=\"36.0\" y=\"275.6\" text-anchor=\"end\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"9.5\" fill=\"#6b7260\">0</text><text x=\"36.0\" y=\"200.0\" text-anchor=\"end\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"9.5\" fill=\"#6b7260\">8</text><text x=\"40.0\" y=\"186.0\" text-anchor=\"start\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"10.5\" font-weight=\"600\" fill=\"#c17f2b\">marginale productie</text><polyline points=\"42.0,252.7 92.8,224.4 143.5,205.5 194.2,196.0 245.0,214.9 295.8,233.8 346.5,252.7 397.2,271.6 448.0,300.0\" fill=\"none\" stroke=\"#c17f2b\" stroke-width=\"2.2\"/><circle cx=\"42.0\" cy=\"252.7\" r=\"3\" fill=\"#c17f2b\"/><circle cx=\"92.8\" cy=\"224.4\" r=\"3\" fill=\"#c17f2b\"/><circle cx=\"143.5\" cy=\"205.5\" r=\"3\" fill=\"#c17f2b\"/><circle cx=\"194.2\" cy=\"196.0\" r=\"3\" fill=\"#c17f2b\"/><circle cx=\"245.0\" cy=\"214.9\" r=\"3\" fill=\"#c17f2b\"/><circle cx=\"295.8\" cy=\"233.8\" r=\"3\" fill=\"#c17f2b\"/><circle cx=\"346.5\" cy=\"252.7\" r=\"3\" fill=\"#c17f2b\"/><circle cx=\"397.2\" cy=\"271.6\" r=\"3\" fill=\"#c17f2b\"/><circle cx=\"448.0\" cy=\"300.0\" r=\"3\" fill=\"#c17f2b\"/><line x1=\"194.2\" y1=\"190\" x2=\"194.2\" y2=\"306\" stroke=\"#6b7260\" stroke-width=\"1\" stroke-dasharray=\"3 3\"/><text x=\"194.2\" y=\"186.0\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"9.5\" font-weight=\"600\" fill=\"#6b7260\">keerpunt</text><text x=\"42.0\" y=\"322.0\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"9.5\" fill=\"#6b7260\">1</text><text x=\"92.8\" y=\"322.0\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"9.5\" fill=\"#6b7260\">2</text><text x=\"143.5\" y=\"322.0\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"9.5\" fill=\"#6b7260\">3</text><text x=\"194.2\" y=\"322.0\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"9.5\" fill=\"#6b7260\">4</text><text x=\"245.0\" y=\"322.0\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"9.5\" fill=\"#6b7260\">5</text><text x=\"295.8\" y=\"322.0\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"9.5\" fill=\"#6b7260\">6</text><text x=\"346.5\" y=\"322.0\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"9.5\" fill=\"#6b7260\">7</text><text x=\"397.2\" y=\"322.0\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"9.5\" fill=\"#6b7260\">8</text><text x=\"448.0\" y=\"322.0\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"9.5\" fill=\"#6b7260\">9</text><text x=\"452.0\" y=\"338.0\" text-anchor=\"end\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"10.5\" font-weight=\"600\" fill=\"#6b7260\">aantal werkers</text></svg>",
+     "onderschrift": "Boven wat er in totaal gemaakt wordt, onder wat elke extra werker erbij brengt. De vierde werker brengt er het meeste bij, de achtste niets meer, de negende maakt het slechter."
+    },
+    {
+     "soort": "tekst",
+     "html": "In die tekening brengt de eerste werker er 2 bij, de vierde 8 en de zevende nog 2. <strong>De totale productie klimt dus van 2 naar 34, en 34 is haar hoogste punt</strong>, bij zeven en bij acht werkers. <strong>De achtste brengt niets meer bij</strong>, en <strong>met de negende zakt het totaal naar 31</strong>."
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>De totale productie kan nog stijgen terwijl de marginale productie daalt</strong>: na de vierde werker brengt elke volgende minder bij, maar hij brengt nog altijd iets bij, dus het totaal groeit nog, enkel met kleinere stappen. <strong>De marginale productie kan wel negatief worden</strong>, en dan daalt het totaal."
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Het hoogste punt van de totale productie ligt waar de marginale productie nul is.</strong> Zodra het marginale onder nul zakt, daalt het totaal. <strong>Wat vast blijft bij deze wetten, is het kapitaal</strong>: het aantal machines, de grootte van het gebouw, de beschikbare ruimte. <strong>Het aantal werkers is net wat verandert.</strong> <strong>De meeropbrengst daalt niet omdat de nieuwe werkers slechter zijn</strong>, wel omdat de vaste factoren niet meegroeien."
+    }
+   ]
+  },
+  {
+   "kop": "Winst en volkomen concurrentie",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "<strong>Een onderneming produceert volgens de economie om winst te maken.</strong> <strong>Winstmaximalisatie, ook winstmaximalisering of de winst maximaliseren, is het streven naar de hoogste winst</strong>, en dat is niet de grootste productie en niet de hoogste omzet: je kan heel veel verkopen en er toch op verliezen."
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Volkomen concurrentie betekent veel kopers en veel verkopers</strong>, die allemaal hetzelfde verkopen aan de marktprijs. Dat is de marktvorm die deze vakfiche bespreekt; je leest ze ook als volledige of perfecte concurrentie. <strong>Eén onderneming kan de prijs dan niet zelf bepalen</strong>: ze is te klein tegenover de markt en moet de marktprijs aanvaarden."
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>In volkomen concurrentie verkoopt niet elke onderneming een ánder product</strong>, maar juist hetzelfde. Daarom kiest de klant op prijs, en daarom kan niemand meer vragen dan de markt."
+    }
+   ]
+  }
+ ],
+ "onthoud": []
+}

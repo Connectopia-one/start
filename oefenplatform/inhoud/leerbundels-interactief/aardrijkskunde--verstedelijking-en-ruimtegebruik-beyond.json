@@ -1,0 +1,132 @@
+{
+ "vak": "Aardrijkskunde",
+ "titel": "Verstedelijking en ruimtegebruik",
+ "onder": "De vier fasen van verstedelijking, hoe de nevelstad Vlaanderen ontstond, en wat het beleid eraan wil doen.",
+ "secties": [
+  {
+   "kop": "Vier fasen",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "De fasen volgen elkaar in deze orde op: <strong>urbanisatie</strong>, <strong>suburbanisatie</strong>, <strong>desurbanisatie en re-urbanisatie</strong>."
+    },
+    {
+     "soort": "tekst",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">fase</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">wat er gebeurt</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">urbanisatie</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">mensen trekken naar de stad</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">suburbanisatie</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">de stadsrand groeit aan</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">desurbanisatie</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">het stedelijk gebied als geheel verliest inwoners</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">re-urbanisatie</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">de stadskern trekt opnieuw bewoners aan</td></tr></table>"
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Urbanisatie</strong> of verstedelijking is dus het naar de stad trekken van mensen; bij <strong>suburbanisatie groeit de stadsrand aan</strong>. <strong>Bij desurbanisatie verliest het stedelijk gebied als geheel inwoners</strong>: niet enkel de kern maar ook de rand loopt leeg. Bij <strong>re-urbanisatie trekt de stadskern opnieuw bewoners aan</strong>, en de groep die daarbij vaak als eerste terugkomt, zijn <strong>jonge mensen zonder kinderen</strong>."
+    },
+    {
+     "soort": "tekst",
+     "html": "Bij <strong>rurbanisatie</strong> <strong>trekken stedelingen naar het platteland</strong>, maar ze nemen hun stedelijke leven mee: ze blijven in de stad werken en winkelen. Dat dagelijks heen en weer reizen tussen woonplaats en werk heet <strong>pendelen</strong>."
+    }
+   ]
+  },
+  {
+   "kop": "Hoe een Vlaamse stad en haar rand eruitzien",
+   "blokken": [
+    {
+     "soort": "figuur",
+     "html": "<svg viewBox=\"0 0 470 226\" width=\"470\" xmlns=\"http://www.w3.org/2000/svg\"><circle cx=\"168\" cy=\"110\" r=\"104\" fill=\"#dfeada\"/><circle cx=\"168\" cy=\"110\" r=\"72\" fill=\"#efe7d6\"/><circle cx=\"168\" cy=\"110\" r=\"72\" fill=\"none\" stroke=\"#c17f2b\" stroke-width=\"7\" opacity=\"0.8\"/><circle cx=\"168\" cy=\"110\" r=\"40\" fill=\"#e0d6c0\" stroke=\"#234539\" stroke-width=\"1.4\"/><line x1=\"178.0\" y1=\"110.0\" x2=\"206.0\" y2=\"110.0\" stroke=\"#ffffff\" stroke-width=\"2.2\"/><line x1=\"175.1\" y1=\"117.1\" x2=\"194.9\" y2=\"136.9\" stroke=\"#ffffff\" stroke-width=\"2.2\"/><line x1=\"168.0\" y1=\"120.0\" x2=\"168.0\" y2=\"148.0\" stroke=\"#ffffff\" stroke-width=\"2.2\"/><line x1=\"160.9\" y1=\"117.1\" x2=\"141.1\" y2=\"136.9\" stroke=\"#ffffff\" stroke-width=\"2.2\"/><line x1=\"158.0\" y1=\"110.0\" x2=\"130.0\" y2=\"110.0\" stroke=\"#ffffff\" stroke-width=\"2.2\"/><line x1=\"160.9\" y1=\"102.9\" x2=\"141.1\" y2=\"83.1\" stroke=\"#ffffff\" stroke-width=\"2.2\"/><line x1=\"168.0\" y1=\"100.0\" x2=\"168.0\" y2=\"72.0\" stroke=\"#ffffff\" stroke-width=\"2.2\"/><line x1=\"175.1\" y1=\"102.9\" x2=\"194.9\" y2=\"83.1\" stroke=\"#ffffff\" stroke-width=\"2.2\"/><rect x=\"161\" y=\"101\" width=\"14\" height=\"18\" fill=\"#234539\"/><line x1=\"205.6\" y1=\"123.7\" x2=\"273.2\" y2=\"148.3\" stroke=\"#ffffff\" stroke-width=\"3.4\"/><line x1=\"154.3\" y1=\"147.6\" x2=\"129.7\" y2=\"215.2\" stroke=\"#ffffff\" stroke-width=\"3.4\"/><line x1=\"130.4\" y1=\"96.3\" x2=\"62.8\" y2=\"71.7\" stroke=\"#ffffff\" stroke-width=\"3.4\"/><line x1=\"181.7\" y1=\"72.4\" x2=\"206.3\" y2=\"4.8\" stroke=\"#ffffff\" stroke-width=\"3.4\"/><path d=\"M34 24 q62 56 74 96 q12 42 58 76\" fill=\"none\" stroke=\"#5b93b8\" stroke-width=\"7\" opacity=\"0.7\" stroke-linecap=\"round\"/><rect x=\"332\" y=\"60\" width=\"126\" height=\"86\" rx=\"8\" fill=\"#e6e1d4\" stroke=\"#6b7260\" stroke-width=\"1.4\"/><rect x=\"344\" y=\"74\" width=\"30\" height=\"26\" fill=\"#6b7260\" opacity=\"0.45\"/><rect x=\"344\" y=\"112\" width=\"30\" height=\"26\" fill=\"#6b7260\" opacity=\"0.45\"/><rect x=\"384\" y=\"74\" width=\"30\" height=\"26\" fill=\"#6b7260\" opacity=\"0.45\"/><rect x=\"384\" y=\"112\" width=\"30\" height=\"26\" fill=\"#6b7260\" opacity=\"0.45\"/><rect x=\"424\" y=\"74\" width=\"30\" height=\"26\" fill=\"#6b7260\" opacity=\"0.45\"/><rect x=\"424\" y=\"112\" width=\"30\" height=\"26\" fill=\"#6b7260\" opacity=\"0.45\"/><line x1=\"272\" y1=\"103\" x2=\"332\" y2=\"103\" stroke=\"#c17f2b\" stroke-width=\"5\"/><text x=\"168.0\" y=\"202.0\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"10.5\" font-weight=\"600\" fill=\"#234539\">oude kern</text><text x=\"70.0\" y=\"206.0\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"10.5\" font-weight=\"600\" fill=\"#234539\">woonwijken</text><text x=\"395.0\" y=\"162.0\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"10.5\" font-weight=\"600\" fill=\"#234539\">bedrijven</text><text x=\"48.0\" y=\"26.0\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"10.5\" font-weight=\"600\" fill=\"#5b93b8\">rivier</text><line x1=\"168\" y1=\"152\" x2=\"168\" y2=\"192\" stroke=\"#6b7260\" stroke-width=\"1.1\"/><line x1=\"70\" y1=\"196\" x2=\"96\" y2=\"164\" stroke=\"#6b7260\" stroke-width=\"1.1\"/><text x=\"262.0\" y=\"78.0\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"10.5\" font-weight=\"600\" fill=\"#c17f2b\">ring</text></svg>",
+     "onderschrift": "Van de kern naar buiten: elke gordel heeft haar eigen woonvorm."
+    },
+    {
+     "soort": "tekst",
+     "html": "De woontypologieën die je in een Vlaamse stad en haar rand vindt: <strong>de rijwoning in de negentiende-eeuwse gordel</strong>, <strong>de vrijstaande woning in een verkaveling</strong> en <strong>het appartement in de stadskern</strong>. In de twintigste-eeuwse gordel staat typisch <strong>de rijwoning in een gesloten straat</strong>."
+    },
+    {
+     "soort": "tekst",
+     "html": "Een <strong>verkaveling</strong> is <strong>een grond opgedeeld in bouwpercelen</strong>. <strong>In Vlaanderen woont niet bijna iedereen in een appartement of een rijwoning</strong>: de open bebouwing, de vrijstaande woning met tuin rondom, is hier bijzonder sterk vertegenwoordigd, en dat is in Europa eerder uitzonderlijk."
+    },
+    {
+     "soort": "tekst",
+     "html": "De rand groeide in de twintigste eeuw zo sterk door drie dingen samen: <strong>goedkoop treinvervoer en later de wagen</strong>, <strong>de eigen woning werd aangemoedigd</strong>, en <strong>er stond ruim woongebied op het plan</strong>. Het uitzwermen van bebouwing rond een stad heet met een Engelse term <strong>urban sprawl</strong>."
+    }
+   ]
+  },
+  {
+   "kop": "De nevelstad",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "<strong>Vlaanderen bestaat niet uit enkele grote steden met daartussen nog bijna lege open ruimte.</strong> Met de <strong>nevelstad Vlaanderen</strong> bedoelen we dat <strong>de bebouwing overal verspreid ligt</strong>: er is bijna geen plek waar je geen huis ziet staan."
+    },
+    {
+     "soort": "tekst",
+     "html": "Een kaart van de nachtelijke lichten tekent Vlaanderen daarom zo helder: <strong>de bebouwing en de wegen liggen overal</strong>. Vlaanderen is op zo'n beeld een van de best verlichte plekken ter wereld, en dat is geen compliment."
+    },
+    {
+     "soort": "tekst",
+     "html": "Bebouwing die als een lange rij langs een weg staat, heet <strong>lintbebouwing</strong>. Ze is nadelig <strong>omdat ze de open ruimte in stukken snijdt</strong>."
+    }
+   ]
+  },
+  {
+   "kop": "Ruimtebeslag, verharding en versnippering",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "<strong>Ruimtebeslag</strong> is <strong>de oppervlakte die de mens inneemt</strong>; <strong>verharding</strong> is dat <strong>de grond bedekt is met beton of asfalt</strong>. Die twee zijn niet hetzelfde: een tuin hoort bij het ruimtebeslag maar is niet verhard."
+    },
+    {
+     "soort": "tekst",
+     "html": "Ongeveer <strong>33</strong> procent van Vlaanderen is in gebruik door de mens: een derde. <strong>Verharding verhoogt het risico op wateroverlast na een zware bui</strong>, want het water kan nergens de grond in."
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Versnippering</strong> is dat <strong>de open ruimte in losse stukjes uiteenvalt</strong>. Verspreide bebouwing heeft drie gevolgen: <strong>duurdere leidingen en wegen per woning</strong>, <strong>meer autoverkeer en langere ritten</strong>, en <strong>versnippering van natuur en landbouw</strong>."
+    }
+   ]
+  },
+  {
+   "kop": "Het hitte-eiland",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Het <strong>stedelijk hitte-eiland</strong> betekent dat <strong>de stad warmer is dan haar omgeving</strong>. <strong>Het verschil is het grootst op een zomernacht</strong>: overdag warmt alles op, maar 's nachts geven beton en steen hun warmte traag af terwijl het platteland snel afkoelt."
+    },
+    {
+     "soort": "tekst",
+     "html": "Maatregelen die het verzachten: <strong>bomen planten in de straten</strong>, <strong>verharding wegnemen voor groen</strong> en <strong>water in de stad brengen</strong>."
+    }
+   ]
+  },
+  {
+   "kop": "Wie beslist over de ruimte",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">plan</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">wanneer</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">wat het deed</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">het gewestplan</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">vanaf de jaren zeventig</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">de eerste kaart met bestemmingen per perceel</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">het RSV</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">1997</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">het Ruimtelijk Structuurplan Vlaanderen, opvolger van de gewestplannen</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">het BRV</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">vandaag</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">het Beleidsplan Ruimte Vlaanderen: bijkomend ruimtebeslag naar nul</td></tr></table>"
+    },
+    {
+     "soort": "tekst",
+     "html": "Het <strong>gewestplan</strong> was dus <strong>de eerste kaart met bestemmingen per perceel</strong>; in 1997 volgde het <strong>RSV</strong>. Het <strong>Beleidsplan Ruimte Vlaanderen</strong> wil <strong>het bijkomend ruimtebeslag naar nul brengen</strong>. Dat betekent <strong>niet dat er tegen 2040 helemaal geen nieuwe woningen meer bijkomen</strong>: ze moeten komen op grond die al in gebruik is."
+    },
+    {
+     "soort": "tekst",
+     "html": "Dat is precies wat de <strong>bouwshift</strong> is: <strong>bouwen in de kernen, niet in open ruimte</strong>. De kernkwaliteiten die het BRV voor een goede plek noemt: <strong>nabijheid van voorzieningen</strong>, <strong>een goed bereikbare ligging</strong> en <strong>ruimte voor water en groen</strong>. Het begrip dat past bij een stad waar alles op wandelafstand ligt, is <strong>nabijheid</strong>."
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Een gezin in een kern verbruikt minder ruimte en energie dan een gezin in een verkaveling</strong>, niet meer: kleinere woning, gedeelde muren, kortere verplaatsingen."
+    },
+    {
+     "soort": "tekst",
+     "html": "De bouwshift is politiek zo moeilijk <strong>omdat wie bouwgrond heeft, waarde verliest</strong>. Een perceel dat op het plan woongebied was en dat niet meer mag worden, is van de ene dag op de andere veel minder waard, en daar hangt de vraag van de planschade aan vast."
+    }
+   ]
+  },
+  {
+   "kop": "Wie waar woont",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "<strong>Sociale segregatie</strong> in een stad is dat <strong>groepen in gescheiden wijken wonen</strong>. <strong>Gentrificatie maakt een volkswijk op de duur onbetaalbaar voor de oorspronkelijke bewoners</strong>: de wijk wordt opgeknapt, de huurprijzen stijgen, en wie er altijd woonde moet weg."
+    }
+   ]
+  }
+ ],
+ "onthoud": []
+}

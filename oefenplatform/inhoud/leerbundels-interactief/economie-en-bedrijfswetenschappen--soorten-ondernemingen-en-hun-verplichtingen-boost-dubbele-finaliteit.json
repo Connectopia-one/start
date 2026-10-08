@@ -1,0 +1,83 @@
+{
+ "vak": "Economie en bedrijfswetenschappen",
+ "titel": "Soorten ondernemingen en hun verplichtingen",
+ "onder": "Natuurlijke en rechtspersonen, beperkte en onbeperkte aansprakelijkheid, de eenmanszaak tegenover de bv en de nv, en wat elk van hen aan oprichting, boekhouding en belasting moet doen.",
+ "secties": [
+  {
+   "kop": "Persoon en aansprakelijkheid",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "<strong>Een natuurlijk persoon is een mens</strong> van vlees en bloed, met rechten en plichten. <strong>Een rechtspersoon is een eigen juridische figuur</strong>: een vennootschap of een vzw. <strong>Hij heeft eigen bezit, kan zelf schulden hebben, kan dagvaarden en gedagvaard worden en blijft bestaan los van zijn oprichters.</strong>"
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Onbeperkte aansprakelijkheid betekent dat ook je eigen bezit instaat</strong>: een schuldeiser kan aan je woning of je spaargeld. <strong>Beperkte aansprakelijkheid betekent dat enkel je inbreng instaat</strong>: je verliest maximaal wat je in de vennootschap stopte. <strong>Het bezit dat buiten de onderneming valt, is het privévermogen.</strong>"
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>De eenmanszaak heeft geen eigen rechtspersoonlijkheid</strong>: de zaak en de persoon zijn één. <strong>Daarom kan een schuldeiser er ook aan het privévermogen.</strong> <strong>Een bv is geen natuurlijk persoon</strong> maar een rechtspersoon, met een eigen vermogen los van de oprichters."
+    }
+   ]
+  },
+  {
+   "kop": "De drie vormen vergeleken",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "<strong>Bv staat voor besloten vennootschap</strong>, besloten omdat de aandelen niet vrij verhandeld worden. <strong>Nv staat voor naamloze vennootschap</strong>, naamloos omdat de aandeelhouders niet in de naam staan."
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>De vakfiche vergelijkt de ondernemingsvormen op de aansprakelijkheid, de administratie en de fiscaliteit</strong>, en daarnaast ook op de oprichtingsakte, het kapitaal en de overdraagbaarheid van de aandelen."
+    },
+    {
+     "soort": "kader",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\"></th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">eenmanszaak</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">bv</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">nv</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>rechtspersoon</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">nee</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">ja</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">ja</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>aansprakelijkheid</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>onbeperkt</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">beperkt tot de inbreng</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">beperkt tot de inbreng</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>oprichtingsakte</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>geen notaris nodig</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">notariële akte</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">notariële akte</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>minimumkapitaal</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">geen</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>geen vast bedrag</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>een wettelijk minimum</strong></td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>aandelen</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">—</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">moeilijk overdraagbaar</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">in principe vrij overdraagbaar</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>boekhouding</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">vereenvoudigd mag, onder een omzetgrens</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">dubbele boekhouding</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">dubbele boekhouding</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>belasting op de winst</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>personenbelasting</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">vennootschapsbelasting</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">vennootschapsbelasting</td></tr></table>"
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Eén oprichter volstaat, zowel voor een bv als voor een nv.</strong> Sinds de hervorming van het vennootschapsrecht kan ook een nv alleen opgericht worden."
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Een bv heeft geen vast minimumkapitaal</strong>, wel een toereikend aanvangsvermogen dat je in een financieel plan verantwoordt. <strong>De nv is de vennootschapsvorm die wel nog een wettelijk minimumkapitaal heeft.</strong> Haar notariële akte heet ook een authentieke akte."
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Dat een bv besloten is, betekent dat aandelen er moeilijk weg gaan</strong>: de overdracht is beperkt, meestal met de toestemming van de anderen, want de aandeelhouders kiezen zelf wie erbij komt. <strong>De aandelen van een nv zijn in principe vrij overdraagbaar</strong>, en daarom is de nv de vorm voor wie geld bij veel investeerders wil ophalen."
+    }
+   ]
+  },
+  {
+   "kop": "Kiezen tussen de vormen",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "<strong>Het voordeel van een eenmanszaak is dat ze snel opgericht is</strong>: geen notaris, geen kapitaal, weinig formaliteiten. Je schrijft je in bij een ondernemingsloket en vraagt een ondernemingsnummer aan. <strong>Daarom past ze bij wie alleen en klein wil beginnen.</strong>"
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Haar grootste nadeel is dat je bezit instaat</strong>: de onbeperkte aansprakelijkheid. <strong>Daarom kiest iemand voor een vorm met beperkte aansprakelijkheid</strong>: gaat de zaak slecht, dan blijft het privévermogen in principe buiten schot."
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>De voordelen van een bv tegenover een eenmanszaak zijn de beperkte aansprakelijkheid, de eigen rechtspersoon en het gemak om partners erbij te nemen.</strong> <strong>De administratie is juist zwaarder</strong>: een dubbele boekhouding en een jaarrekening."
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Een bv en een nv maken jaarlijks een jaarrekening op, leggen die neer bij de Nationale Bank en betalen vennootschapsbelasting.</strong> <strong>Bij een eenmanszaak komt de winst bij het inkomen van de zaakvoerder en valt ze onder de personenbelasting.</strong>"
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Voor de schulden van een nv is de vennootschap zelf aansprakelijk</strong>; de aandeelhouders riskeren enkel hun inbreng, en <strong>een aandeelhouder van een bv verliest maximaal zijn inbreng</strong>. <strong>Een zaakvoerder van een bv is normaal niet met zijn privévermogen aansprakelijk</strong>, tenzij hij een zware fout maakt of de vennootschap te licht liet starten."
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Een nv verschilt van een bv in het minimumkapitaal, in de overdraagbaarheid van de aandelen en in de naam van de vorm.</strong> <strong>In beide gevallen is de aansprakelijkheid beperkt tot de inbreng</strong>; dat is net wat ze gemeen hebben."
+    }
+   ]
+  }
+ ],
+ "onthoud": []
+}

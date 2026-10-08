@@ -1,0 +1,80 @@
+{
+ "vak": "Gezondheid, zorg en welzijn",
+ "titel": "Voedselveiligheid en voedselhygiëne",
+ "onder": "De vier levensvoorwaarden van micro-organismen, de drie soorten bederf, het verschil tussen een voedselinfectie en een voedselvergiftiging, kruisbesmetting, en de HACCP-richtlijnen van boodschap tot afwas.",
+ "secties": [
+  {
+   "kop": "Micro-organismen",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "<strong>Voedselveiligheid betekent eten zonder gevaar</strong>: dat je van het eten niet ziek kan worden. <strong>Micro-organismen zijn kleine levende wezens</strong> die je niet met het blote oog ziet, zoals bacteriën en schimmels."
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Ze hebben vier dingen nodig om te groeien: water, voedsel, zuurstof en een goede temperatuur.</strong> Donker hoeft niet. <strong>Haal er één weg en de groei stopt</strong>, en dat is precies wat bewaren doet: <strong>invriezen pakt de temperatuur aan</strong>. <strong>Micro-organismen groeien goed bij kamertemperatuur</strong>, en daarom hoort bederfbaar voedsel in de koelkast en niet op het aanrecht."
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Niet alle bacteriën zijn slecht</strong>: <strong>bacteriën maken yoghurt</strong>, kaas en zuurkool, en in je darmen helpen ze bij de vertering. <strong>Schimmels bederven voedsel</strong>: op brood of confituur maken ze het oneetbaar en soms giftig. <strong>Een schimmel op confituur schep je er niet gewoon af</strong>: de draden zitten dieper dan je ziet, dus de hele pot gaat weg."
+    }
+   ]
+  },
+  {
+   "kop": "Drie soorten bederf",
+   "blokken": [
+    {
+     "soort": "kader",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">soort bederf</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">wat er gebeurt</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">voorbeeld</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>fysisch</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>van buitenaf</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>uitdrogen</strong>, bevriezen, kneuzen</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>chemisch</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>de stof zelf verandert</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>vet dat ranzig wordt</strong> doordat het met zuurstof reageert</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>biologisch</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>door micro- of macro-organismen</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>bacteriën, schimmels en insecten</strong>; <strong>een muis</strong> of maden zijn macro-organismen, die zie je wel</td></tr></table>"
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Van bedorven voedsel word je misselijk</strong>, en je kan ook braken of diarree krijgen, of een voedselinfectie of voedselvergiftiging oplopen. Je gezichtsvermogen heeft er niets mee te maken."
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Bij een voedselvergiftiging zit de gifstof al in het eten en maakt die je ziek</strong>; <strong>bij een voedselinfectie groeit de bacterie pas in je lichaam.</strong> <strong>Voedselbederf kan je niet altijd zien of ruiken</strong>: sommige bacteriën veranderen niets aan geur, kleur of smaak, en maken je toch ziek."
+    }
+   ]
+  },
+  {
+   "kop": "Kruisbesmetting en HACCP",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "<strong>Kruisbesmetting is dat kiemen overgaan</strong> van het ene voedingsmiddel naar het andere, vaak via je handen, een mes, een plank of een keukenhanddoek. <strong>Je voorkomt het met aparte snijplanken</strong>: rauw vlees krijgt zijn eigen plank en mes, en je wast je handen ertussen. <strong>Rauw vlees en rauwe groenten snij je dus niet op dezelfde plank</strong>, want groenten worden soms rauw gegeten."
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Een snijplank van rauwe kip hergebruik je niet zonder wassen</strong>: op rauwe kip zitten vaak salmonellabacteriën, en de plank gaat eerst in heet water met zeep."
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>HACCP is een reeks richtlijnen</strong> die de gevaren bij de voedselbereiding opspoort en afdekt, zodat er in geen enkele stap iets misgaat met de veiligheid."
+    },
+    {
+     "soort": "figuur",
+     "html": "<svg viewBox=\"0 0 470 76\" width=\"470\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"0.0\" y=\"6\" width=\"73.2\" height=\"62\" rx=\"10\" fill=\"#ffffff\" stroke=\"#2f5d50\" stroke-width=\"1.8\"/><text x=\"36.6\" y=\"29.0\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"11.5\" font-weight=\"600\" fill=\"#234539\">boodschappen</text><text x=\"36.6\" y=\"45.0\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"10\" font-weight=\"400\" fill=\"#6b7260\">ontvangen</text><path d=\"M78.2 37.0 h12 m0 0 l-6 -5 m6 5 l-6 5\" stroke=\"#2f5d50\" stroke-width=\"2\" fill=\"none\" stroke-linecap=\"round\"/><rect x=\"99.2\" y=\"6\" width=\"73.2\" height=\"62\" rx=\"10\" fill=\"#ffffff\" stroke=\"#2f5d50\" stroke-width=\"1.8\"/><text x=\"135.8\" y=\"37.0\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"11.5\" font-weight=\"600\" fill=\"#234539\">bewaren</text><path d=\"M177.4 37.0 h12 m0 0 l-6 -5 m6 5 l-6 5\" stroke=\"#2f5d50\" stroke-width=\"2\" fill=\"none\" stroke-linecap=\"round\"/><rect x=\"198.4\" y=\"6\" width=\"73.2\" height=\"62\" rx=\"10\" fill=\"#ffffff\" stroke=\"#2f5d50\" stroke-width=\"1.8\"/><text x=\"235.0\" y=\"29.0\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"11.5\" font-weight=\"600\" fill=\"#234539\">hygiënisch</text><text x=\"235.0\" y=\"45.0\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"10\" font-weight=\"400\" fill=\"#6b7260\">werken</text><path d=\"M276.6 37.0 h12 m0 0 l-6 -5 m6 5 l-6 5\" stroke=\"#2f5d50\" stroke-width=\"2\" fill=\"none\" stroke-linecap=\"round\"/><rect x=\"297.6\" y=\"6\" width=\"73.2\" height=\"62\" rx=\"10\" fill=\"#ffffff\" stroke=\"#2f5d50\" stroke-width=\"1.8\"/><text x=\"334.2\" y=\"29.0\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"11.5\" font-weight=\"600\" fill=\"#234539\">voedsel</text><text x=\"334.2\" y=\"45.0\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"10\" font-weight=\"400\" fill=\"#6b7260\">bereiden</text><path d=\"M375.8 37.0 h12 m0 0 l-6 -5 m6 5 l-6 5\" stroke=\"#2f5d50\" stroke-width=\"2\" fill=\"none\" stroke-linecap=\"round\"/><rect x=\"396.8\" y=\"6\" width=\"73.2\" height=\"62\" rx=\"10\" fill=\"#ffffff\" stroke=\"#2f5d50\" stroke-width=\"1.8\"/><text x=\"433.4\" y=\"29.0\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"11.5\" font-weight=\"600\" fill=\"#234539\">afruimen en</text><text x=\"433.4\" y=\"45.0\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"10\" font-weight=\"400\" fill=\"#6b7260\">afwassen</text></svg>",
+     "onderschrift": "HACCP loopt van het ontvangen van de boodschappen tot de afwas: elke stap heeft haar eigen regels."
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Bij het ontvangen van boodschappen controleer je de datum</strong>: kijk de houdbaarheidsdatum en de verpakking na, en berg koele waren meteen op."
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Je werkt met propere handen omdat kiemen anders op het eten komen</strong>: je handen zijn de snelste weg. <strong>Je wast ze vóór je begint, na rauw vlees en na het toilet</strong>; na het afdrogen zijn ze net schoon, dus dan hoeft het niet opnieuw."
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Bij de persoonlijke hygiëne in de keuken horen een schorts dragen, de haren samenbinden en de juwelen afleggen.</strong> Met je vingers proeven brengt juist kiemen in het eten, en <strong>je proeft ook niet met de lepel waarmee je roert</strong>: via je mond komen kiemen op de lepel en zo in de hele pot."
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Rauw vlees en groenten hou je apart</strong>, en <strong>restjes van gisteren warm je door en door op</strong>, en maar één keer. <strong>Na het bereiden volgen het afruimen, het afwassen en het schoonmaken</strong>: de laatste stappen van HACCP."
+    }
+   ]
+  }
+ ],
+ "onthoud": []
+}

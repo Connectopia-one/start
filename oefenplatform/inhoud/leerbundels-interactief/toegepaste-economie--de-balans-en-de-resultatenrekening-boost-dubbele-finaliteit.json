@@ -1,0 +1,104 @@
+{
+ "vak": "Toegepaste economie",
+ "titel": "De balans en de resultatenrekening",
+ "onder": "Actief en passief, vaste en vlottende activa, eigen en vreemd vermogen, en de kosten en opbrengsten die samen het resultaat van het boekjaar maken.",
+ "secties": [
+  {
+   "kop": "De twee kanten van de balans",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "<strong>Aan de actiefzijde staat wat de onderneming bezit</strong>: gebouwen, machines, voorraad, geld. <strong>Aan de passiefzijde staat waarmee dat betaald is</strong>: het eigen vermogen en de schulden, dus de herkomst van de middelen."
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Daarom is het actief altijd gelijk aan het passief.</strong> Alles wat je bezit is met iets betaald, dus het totaal links is gelijk aan het totaal rechts. <strong>Het actief staat links, het passief rechts.</strong>"
+    },
+    {
+     "soort": "kader",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">groep</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">wat erin zit</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">kant</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>vaste activa</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>bezit voor langer dan een jaar</strong>: een gebouw, een machine, een bestelwagen</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>actief</strong></td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>vlottende activa</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>bezit voor korte tijd</strong>: voorraad, vorderingen op klanten, geld op de bank en in de kas</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>actief</strong></td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>eigen vermogen</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>het geld van de eigenaars</strong>: het ingebrachte kapitaal plus de winst die in de zaak bleef</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>passief</strong></td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>vreemd vermogen</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>de schulden</strong>: aan de bank, aan de leveranciers, aan de fiscus</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>passief</strong></td></tr></table>"
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>De voorraad handelsgoederen hoort bij de vlottende activa</strong>, want ze is bedoeld om binnen het jaar verkocht te worden. En <strong>een lening op lange termijn is géén vast actief</strong>: een lening is een schuld en staat dus rechts."
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>De beginbalans is de balans bij de start van het boekjaar</strong>, en ze is gelijk aan de eindbalans van het vorige jaar."
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Op een balans lees je af wat de zaak bezit, wie de zaak gefinancierd heeft en hoe groot het eigen vermogen is.</strong> Hoeveel klanten de zaak heeft, staat er niet op."
+    }
+   ]
+  },
+  {
+   "kop": "Het eigen vermogen berekenen",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "<strong>Het eigen vermogen is het bezit min de schulden.</strong> <strong>Bezit een zaak voor 80 000 euro en heeft ze 30 000 euro schulden, dan is het eigen vermogen 50 000 euro.</strong>"
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Bezit een zaak 25 000 euro en heeft ze 25 000 euro schulden, dan is het eigen vermogen nul</strong>: alles wat ze bezit is dan met vreemd vermogen betaald."
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>De winst van het boekjaar komt bij het eigen vermogen op de balans.</strong> Winst die in de zaak blijft, versterkt het eigen vermogen."
+    },
+    {
+     "soort": "weetje",
+     "html": "De balans toont niet wat er tijdens het jaar verkocht is. Ze is een momentopname; wat er verkocht is, staat in de resultatenrekening."
+    }
+   ]
+  },
+  {
+   "kop": "De resultatenrekening",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "<strong>Een kost is wat de zaak verbruikt</strong>: lonen, huur, de aankoop van handelsgoederen. <strong>Een opbrengst is wat de zaak verdient</strong>, vooral de verkopen. <strong>Kosten verminderen het resultaat, opbrengsten verhogen het.</strong>"
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>De resultatenrekening gaat over een periode, de balans over een moment.</strong> De balans is een foto, de resultatenrekening is de film van het boekjaar."
+    },
+    {
+     "soort": "kader",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">resultaat</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">hoe je het berekent</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>het bedrijfsresultaat</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>bedrijfsopbrengsten min bedrijfskosten</strong>: de gewone werking, zonder de financiële verrichtingen</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>het financieel resultaat</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>financiële opbrengsten min financiële kosten</strong>: ontvangen intresten tegenover betaalde intresten en bankkosten</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>het resultaat van de onderneming</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>alle opbrengsten min alle kosten</strong>, en daarna de belastingen eraf</td></tr></table>"
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Die drie berekent de vakfiche na elkaar</strong>, en dat heeft een reden: <strong>een onderneming kan winst maken op haar werking en toch verlies op haar financiële verrichtingen</strong>."
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Heeft een zaak 120 000 euro opbrengsten en 95 000 euro kosten, dan is het resultaat 25 000 euro winst.</strong> <strong>Bij 60 000 euro opbrengsten en 72 000 euro kosten is er 12 000 euro verlies.</strong>"
+    }
+   ]
+  },
+  {
+   "kop": "Omzet, afschrijving en investering",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "<strong>De omzet is de opbrengst uit de verkopen van het jaar.</strong> <strong>Omzet en winst betekenen niet hetzelfde</strong>: omzet is wat binnenkomt uit verkopen, winst is wat overblijft als alle kosten betaald zijn."
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>De aankoop van een machine is geen kost in de resultatenrekening.</strong> Een machine is een investering en staat op de balans; <strong>enkel de afschrijving is een kost</strong>. <strong>Een afschrijving is de kost van de slijtage</strong>: de waarde van een investering wordt over meerdere jaren als kost genomen."
+    },
+    {
+     "soort": "kader",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">kosten</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">opbrengsten</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>de lonen</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>de verkoop van handelsgoederen</strong></td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>de huur van het pand</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>ontvangen intresten</strong></td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>de aankoop van handelsgoederen</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>een ontvangen huurgeld</strong></td></tr></table>"
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Voor de zaakvoerder toont de resultatenrekening waar het geld heen gaat</strong>: je ziet welke kosten zwaar wegen en welke opbrengsten daartegenover staan."
+    }
+   ]
+  }
+ ],
+ "onthoud": []
+}

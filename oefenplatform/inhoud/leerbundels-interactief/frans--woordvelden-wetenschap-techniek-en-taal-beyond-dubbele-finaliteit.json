@@ -1,0 +1,111 @@
+{
+ "vak": "Frans",
+ "titel": "Woordvelden: wetenschap, techniek en taal",
+ "onder": "De computer, het labo, sport en vrije tijd, en hoe het Frans zelf in elkaar zit: voorvoegsels, valse vrienden en het Frans van België en Québec.",
+ "secties": [
+  {
+   "kop": "De computer en het internet",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Frans</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Nederlands</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>un ordinateur</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een <strong>computer</strong></td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>l'écran</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">het <strong>scherm</strong></td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>un écran tactile</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een <strong>aanraakscherm</strong></td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>la souris</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">de <strong>muis</strong></td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>le clavier</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">het <strong>toetsenbord</strong></td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>un mot de passe</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een <strong>wachtwoord</strong></td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>un logiciel</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een <strong>programma</strong> op een computer</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>télécharger</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>downloaden</strong></td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>enregistrer</strong>, <strong>sauvegarder</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>opslaan</strong>: <em>enregistrer le fichier</em></td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>un réseau social</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een <strong>sociaal netwerk</strong></td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>une panne</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een <strong>defect</strong>, een storing</td></tr></table>"
+    },
+    {
+     "soort": "tekst",
+     "html": "<em>Le fauteuil</em> is een zetel en hoort in de woonkamer, niet bij de computer."
+    }
+   ]
+  },
+  {
+   "kop": "Onderzoek en het labo",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Frans</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Nederlands</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>une recherche</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een <strong>onderzoek</strong></td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>une invention</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een <strong>uitvinding</strong></td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>une expérience</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een proef (en ook een ervaring)</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>un résultat</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een resultaat</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>une mesure</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een meting</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>une pile</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een <strong>batterij</strong> (en ook een stapel)</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>la durabilité</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">de <strong>duurzaamheid</strong></td></tr></table>"
+    },
+    {
+     "soort": "tekst",
+     "html": "<em>Un abonnement</em> is een abonnement en hoort niet in het labo."
+    }
+   ]
+  },
+  {
+   "kop": "Sport en vrije tijd",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Frans</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Nederlands</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>un terrain</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een <strong>veld</strong>, een terrein</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>une équipe</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een <strong>ploeg</strong>; de uitrusting is <em>l'équipement</em></td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>un arbitre</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een <strong>scheidsrechter</strong>; de doelman is <em>le gardien de but</em></td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>s'entraîner</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>trainen</strong></td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>faire du vélo</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>fietsen</strong></td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>un loisir</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een vrijetijdsbesteding</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>une randonnée</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een tocht of wandeling</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>un spectacle</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een voorstelling</td></tr></table>"
+    },
+    {
+     "soort": "tekst",
+     "html": "<em>Un bulletin</em> is een rapport of een bulletin, en hoort bij school of bij het nieuws."
+    }
+   ]
+  },
+  {
+   "kop": "Een woord uit elkaar halen",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Deel</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Wat het doet</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Voorbeeld</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>im-</strong>, in-, mal-</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">maakt het <strong>tegengestelde</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">possible → <strong>impossible</strong>, utile → inutile</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>re-</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>opnieuw</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">faire → <strong>refaire</strong> (opnieuw doen), lire → relire</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>-eur</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">de naam van <strong>iemand die iets doet</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">chanter → un chanteur, vendre → un vendeur</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>-ette</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">maakt iets <strong>kleiner</strong>, niet groter</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">une maison → une maisonnette, une fille → une fillette</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>-tion</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">maakt een naamwoord van een werkwoord</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>construire</strong> → <strong>la construction</strong></td></tr></table>"
+    },
+    {
+     "soort": "kader",
+     "html": "Zie je een lang woord dat je niet kent, zoek dan eerst het <strong>stamwoord</strong> in het midden. In <em>incompréhensible</em> zit <em>comprendre</em>: dus iets wat je niet kan begrijpen."
+    }
+   ]
+  },
+  {
+   "kop": "Valse vrienden en spreektaal",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Een <strong>faux ami</strong> of <strong>valse vriend</strong> lijkt op een Nederlands woord maar betekent iets anders. Dit zijn de vier die het vaakst terugkomen."
+    },
+    {
+     "soort": "tekst",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Frans woord</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Betekent</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Niet</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>la journée</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">de <strong>dag</strong>, de hele dag door</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een journaal of een dagboek</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>actuellement</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>momenteel, op dit ogenblik</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">eigenlijk (dat is <em>en fait</em>)</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>une pile</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een <strong>batterij</strong> of een stapel</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een pil (dat is <em>une pilule</em>)</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>la location</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">de <strong>huur</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">de locatie (dat is <em>le lieu</em> of <em>l'endroit</em>)</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>le pot</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">de <strong>pot</strong>, en in spreektaal het <strong>drankje</strong> (<em>prendre un pot</em>)</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een poot</td></tr></table>"
+    },
+    {
+     "soort": "tekst",
+     "html": "<em>La table</em>, <em>le train</em>, <em>le bus</em> en <em>le téléphone</em> zijn geen valse vrienden: die betekenen gewoon wat je denkt."
+    },
+    {
+     "soort": "tekst",
+     "html": "Het <strong>registre</strong> van een tekst is <strong>de toon en de woordkeuze</strong>: formeel, neutraal of <strong>familier</strong>, dus spreektaal. <strong>Un bouquin</strong> is spreektaal voor een boek; <em>un livre</em> is neutraal, <em>un ouvrage</em> en <em>un manuel</em> zijn boekentaal."
+    }
+   ]
+  },
+  {
+   "kop": "Het Frans van België en van Québec",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Bij ons of in Québec</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">In Frankrijk</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Betekenis</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>septante</strong> (BE)</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">soixante-dix</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">zeventig</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>nonante</strong> (BE)</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">quatre-vingt-dix</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">negentig</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>une drache</strong> (BE)</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">une grosse averse</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een stortregen</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>le dîner</strong> (BE)</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">le déjeuner</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">het <strong>middagmaal</strong></td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>la fin de semaine</strong> (Québec)</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>le week-end</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">het weekend</td></tr></table>"
+    },
+    {
+     "soort": "tekst",
+     "html": "<em>Une baguette</em> is geen Belgisch Frans: dat stokbrood heet overal zo."
+    }
+   ]
+  },
+  {
+   "kop": "Woorden over woorden",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Frans</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Wat het is</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>un synonyme</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een woord met <strong>bijna dezelfde betekenis</strong></td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>un antonyme</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een woord met de tegengestelde betekenis</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>des homophones</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">woorden die <strong>hetzelfde klinken maar anders geschreven</strong> worden</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>emprunter un mot</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een woord <strong>overnemen</strong> uit een andere taal</td></tr></table>"
+    },
+    {
+     "soort": "tekst",
+     "html": "Het Frans zit vol homofonen, en daar gaan de meeste schrijffouten over: <em>ou</em> en <em>où</em>, <em>a</em> en <em>à</em>, <em>son</em> en <em>sont</em>, <em>et</em> en <em>est</em>, <em>mer</em>, <em>mère</em> en <em>maire</em>."
+    },
+    {
+     "soort": "kader",
+     "html": "<strong>Ou betekent of, où betekent waar.</strong> Dat accent is geen versiering: <em>le café ou le thé</em> is een keuze, <em>où est le café</em> is een vraag naar de plaats. Accenten op de e hoor je ook: <strong>élève</strong>, <strong>père</strong>, <strong>été</strong>. In <em>table</em> staat er geen, want die e klinkt anders."
+    }
+   ]
+  }
+ ],
+ "onthoud": []
+}

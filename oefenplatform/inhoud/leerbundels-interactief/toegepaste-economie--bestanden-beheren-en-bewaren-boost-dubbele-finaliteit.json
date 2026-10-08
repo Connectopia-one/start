@@ -1,0 +1,96 @@
+{
+ "vak": "Toegepaste economie",
+ "titel": "Bestanden beheren en bewaren",
+ "onder": "Mappen, bestandsnamen en extensies, de back-up en de cloud, en hoe je documenten van klanten veilig bewaart.",
+ "secties": [
+  {
+   "kop": "Mappen en namen",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "<strong>Een map is een plaats voor bestanden</strong>, en <strong>een map kan ook andere mappen bevatten</strong>: een map in een map heet een submap. <strong>Submappen dienen om orde te houden</strong>, zodat je een bestand terugvindt zonder te zoeken."
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Een logische mappenstructuur werkt per onderwerp</strong>: bijvoorbeeld boekhouding, dan het jaar, dan aankoop en verkoop. <strong>Wat zo'n structuur werkbaar maakt, zijn een vaste indeling, duidelijke namen en niet te veel niveaus.</strong> Een bureaublad vol losse bestanden is geen structuur."
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Het pad van een bestand zegt waar het staat</strong>: de rij mappen van de schijf tot het bestand zelf. <strong>Twee bestanden in dezelfde map mogen niet dezelfde naam hebben</strong>; in een andere map mag het wel, want dan is het pad verschillend."
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Achter de punt in een bestandsnaam staat de extensie</strong>, die zegt welk soort bestand het is. <strong>Een bestandsnaam mag tegenwoordig ruim lang zijn</strong>; de oude grens van acht tekens bestaat niet meer. <strong>Gebruik wel geen spaties en rare tekens</strong>: bij doorsturen of op een website gaat het soms mis. Streepjes werken altijd."
+    },
+    {
+     "soort": "kader",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">extensie</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">wat het is</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>.docx</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>een document</strong> van een tekstverwerker</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>.xlsx</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>een rekenblad</strong></td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>.pptx</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>een presentatie</strong></td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>.pdf</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>een vast opgemaakt document</strong>, dat er op elk toestel hetzelfde uitziet</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>.exe</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>een programma</strong>, geen document</td></tr></table>"
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Een goede naam voor een factuur is 2027-03-factuur-vermeulen</strong>: de datum vooraan, dan waarover het gaat en voor wie. Zo staat alles vanzelf op datum in de map."
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Een bestand kan je hernoemen, verplaatsen en kopiëren.</strong> <strong>Kopiëren laat het origineel staan, verplaatsen niet.</strong> <strong>Een gewist bestand komt eerst in de prullenbak of prullenmand</strong> en kan je daar nog terugzetten; pas als je de prullenbak leegmaakt, is het echt weg."
+    }
+   ]
+  },
+  {
+   "kop": "De back-up",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "<strong>Een back-up is een tweede kopie</strong>, een veiligheidskopie op een andere plaats dan het origineel. <strong>Je maakt er een om niets te verliezen</strong>: een schijf die stuk gaat, een diefstal of een verkeerde klik, alles kan."
+    },
+    {
+     "soort": "kader",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">soort</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">waar ze staat</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>een offline back-up</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>op een externe schijf</strong> of een usb-stick, die je daarna losmaakt</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>een online back-up</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>op een server elders</strong>, in de cloud, dus buiten je gebouw</td></tr></table>"
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Een back-up op dezelfde computer helpt niet als die computer stuk gaat.</strong> Daarom hoort ze op een ander toestel of op een andere plaats. En <strong>één back-up per jaar is veel te weinig voor een boekhouding</strong>: je verliest dan alles van dat jaar, dus bewaar je ze best dagelijks."
+    }
+   ]
+  },
+  {
+   "kop": "De cloud",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "<strong>Cloudopslag is opslag op een server</strong>: je bestanden staan op een computer elders, die je via het internet bereikt. <strong>Uploaden is iets naar het internet zetten, downloaden is iets van het internet halen.</strong>"
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Het voordeel van de cloud: je kan overal aan je bestanden, je hebt een kopie buiten je huis, en je kan samen in één bestand werken.</strong> Het nadeel zit in dezelfde zin: zonder internet geraak je er net niet aan."
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Synchroniseren is een bestand op twee plaatsen gelijk houden</strong>: pas je het op je laptop aan, dan verandert het ook in de cloud. <strong>Wijzigt iemand een gedeeld bestand, dan ziet iedereen die wijziging</strong>, want er is één bestand en geen kopie per persoon. Dat is precies waarom samen werken werkt."
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Een bestand in de cloud is niet automatisch beveiligd.</strong> Een deellink die rondgaat, geeft iedereen toegang, dus deel per persoon. <strong>Delen kan met alleen lezen of ook met bewerken</strong>: geef alleen lezen als de ander niets hoeft te wijzigen."
+    }
+   ]
+  },
+  {
+   "kop": "Documenten van klanten",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "<strong>Op een bestand met persoonsgegevens zet je een wachtwoord</strong>: gegevens van klanten of werknemers mogen niet bij wie ze niet nodig heeft."
+    },
+    {
+     "soort": "kader",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">wat je afspreekt in een zaak</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">waarom</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>waar de documenten bewaard worden</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>zo zoekt niemand</strong> en staat niets op een los bureaublad</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>wie eraan mag</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>enkel wie het nodig heeft</strong>; een openbare schijf is het tegendeel van beveiligen</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>hoe lang ze bijgehouden worden</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>voor een boekhouding legt de wet die bewaartermijn vast</strong></td></tr></table>"
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Veilig bewaren is dus drie dingen tegelijk</strong>: enkel wie het nodig heeft erbij laten, een back-up op een andere plaats, en een wachtwoord op de gevoelige bestanden."
+    }
+   ]
+  }
+ ],
+ "onthoud": []
+}

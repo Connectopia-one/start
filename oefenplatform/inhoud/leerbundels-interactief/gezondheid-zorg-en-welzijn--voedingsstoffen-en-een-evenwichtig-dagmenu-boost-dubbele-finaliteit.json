@@ -1,0 +1,58 @@
+{
+ "vak": "Gezondheid, zorg en welzijn",
+ "titel": "Voedingsstoffen en een evenwichtig dagmenu",
+ "onder": "Het verschil tussen een voedingsmiddel en een voedingsstof, de zeven voedingsstoffen met hun functies, hoe een dagmenu eruitziet en welke voedingsfouten de fiche noemt.",
+ "secties": [
+  {
+   "kop": "Middel of stof",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "<strong>Een voedingsmiddel is wat je eet</strong>, zoals een boterham; <strong>de voedingsstoffen zitten erin</strong>, zoals koolhydraten. <strong>Een middel bevat dus stoffen</strong>, en <strong>meestal meerdere tegelijk</strong>: een boterham met kaas bevat koolhydraten, eiwitten, vetten, vitaminen en water."
+    },
+    {
+     "soort": "kader",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">voedingsstof</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">waarvoor</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">waar je ze vindt</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>eiwitten</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>ze bouwen het lichaam op</strong>: de bouwstenen van spieren, huid en organen</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>vlees, vis, eieren</strong>, peulvruchten en noten</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>koolhydraten</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>ze leveren het snelst energie</strong>: de brandstof die je lichaam het eerst gebruikt</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">brood, pasta, rijst, aardappelen</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>vetten</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>ze leveren veel energie en slaan ze op</strong>, en ze helpen bij het opnemen van sommige vitaminen</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">olie, boter, noten, vette vis</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>vitaminen</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>ze beschermen het lichaam</strong> en houden het afweersysteem op gang</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">groenten en fruit</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>mineralen</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">beschermen en in stand houden; <strong>ze leveren geen energie</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">melkproducten, groenten, water</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>voedingsvezels</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>ze helpen de darmen</strong>; ze leveren geen energie maar houden de darmen aan het werk</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">volkoren producten, groenten, fruit</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>water</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>je lichaam bestaat eruit</strong>, voor meer dan de helft, en het verliest elke dag vocht</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">water, en alles wat vocht bevat</td></tr></table>"
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Er zijn dus zeven voedingsstoffen</strong>, en <strong>vier functies: energie leveren, het lichaam opbouwen, het lichaam beschermen en het lichaam in stand houden.</strong> Afkoelen hoort er niet bij."
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Water, vitaminen, mineralen en vezels leveren geen energie.</strong> <strong>Eiwitten, vetten en koolhydraten zijn essentieel omdat het lichaam ze nodig heeft</strong>: ze leveren samen de dagelijkse energie en de bouwstoffen, en zonder een van de drie loopt het mis. <strong>Koolhydraten bouwen de spieren niet op</strong>: dat doen de eiwitten."
+    }
+   ]
+  },
+  {
+   "kop": "Een dagmenu samenstellen",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "<strong>Een dagmenu bestaat uit het ontbijt, de lunch en het avondmaal, plus twee à drie tussendoortjes.</strong> Een dessertbord is geen maaltijd op zich. <strong>Elke maaltijd heeft haar eigen aandeel in de energie van de dag</strong>, en <strong>het ontbijt mag je dus niet zomaar overslaan.</strong>"
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Hoeveel iemand eet, hangt af van de leeftijd, het geslacht, de groei en de mate van fysieke activiteit.</strong> Wie groeit of veel beweegt, heeft meer energie nodig. <strong>Een kind heeft dus andere hoeveelheden nodig dan een volwassene</strong>: de aanbevolen dagelijkse hoeveelheden verschillen per leeftijdscategorie."
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Bij het samenstellen van een dagmenu hou je rekening met de voedingsdriehoek en met de aanbevolen dagelijkse hoeveelheden</strong> voor die leeftijd. Dat zijn de twee leidraden. <strong>Een gezond tussendoortje is een stuk fruit</strong>, groenten of een handvol noten."
+    },
+    {
+     "soort": "kader",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">voedingsfout</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">wat eraan scheelt</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>te grote porties</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">meer energie dan je verbruikt</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>te weinig groenten</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">te weinig vitaminen, mineralen en vezels</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>te veel alcohol</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">lege calorieën en schade op termijn</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>een onregelmatig patroon</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>elke dag op een ander uur eten</strong> maakt het moeilijker om evenwichtig te eten</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>te calorierijke voedingsmiddelen</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">veel energie voor weinig voedingsstoffen</td></tr></table>"
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Een maaltijd met te veel frisdrank verbeter je door water te geven</strong>: suikerhoudende dranken vervangen door water is de eenvoudigste verbetering. <strong>Pas je een recept aan, dan hou je rekening met het aantal personen</strong> en maak je meteen gezondere keuzes."
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Voor je een maaltijd bereidt, was je eerst je handen.</strong> Hygiënisch handelen komt vóór je begint en loopt door terwijl je je werkpost schikt."
+    }
+   ]
+  }
+ ],
+ "onthoud": []
+}

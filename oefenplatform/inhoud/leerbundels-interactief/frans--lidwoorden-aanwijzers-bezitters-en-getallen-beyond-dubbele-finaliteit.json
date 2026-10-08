@@ -1,0 +1,169 @@
+{
+ "vak": "Frans",
+ "titel": "Lidwoorden, aanwijzers, bezitters en getallen",
+ "onder": "Mannelijk of vrouwelijk, bepaald of onbepaald, du en de la, ce en mon, en de telwoorden.",
+ "secties": [
+  {
+   "kop": "Mannelijk, vrouwelijk, enkelvoud, meervoud",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Elk Frans zelfstandig naamwoord is <strong>mannelijk of vrouwelijk</strong>, ook een tafel of een trein. Je kan dat niet aan het woord zelf zien, dus leer een naamwoord <strong>altijd met zijn lidwoord</strong>: <em>la table</em>, <em>le train</em>. Dat ene woordje spaart je later tien fouten uit, want het bijvoeglijk naamwoord en het voltooid deelwoord volgen het."
+    },
+    {
+     "soort": "figuur",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">enkelvoud</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">meervoud</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">regel</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">un ami</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">des amis</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">gewoon een s erbij (die je niet hoort)</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">un journal</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">des journaux</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">woorden op -al krijgen -aux</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">un gâteau</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">des gâteaux</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">woorden op -eau krijgen een x</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">un œil</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">les yeux</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">helemaal onregelmatig</td></tr></table>",
+     "onderschrift": "Un animal wordt des animaux, un bureau wordt des bureaux."
+    },
+    {
+     "soort": "tekst",
+     "html": "De meervouds-s <strong>hoor je niet</strong>. Of er één of meer zijn, hoor je dus aan het lidwoord: <em>le livre</em> tegenover <em>les livres</em>, <em>un ami</em> tegenover <em>des amis</em>."
+    }
+   ]
+  },
+  {
+   "kop": "Bepaald, onbepaald en samengetrokken",
+   "blokken": [
+    {
+     "soort": "figuur",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">soort</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">vormen</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">wanneer</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">bepaald (défini)</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">le, la, l', les</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een bepaald iets, of iets in het algemeen</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">onbepaald (indéfini)</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">un, une, des</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">om het even welk, één exemplaar</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">samengetrokken (contracté)</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">au, aux, du, des</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">à of de plus le of les</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">deelaanduidend (partitif)</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">du, de la, de l', des</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een onbepaalde hoeveelheid</td></tr></table>",
+     "onderschrift": "Vier soorten lidwoorden. De vormen du en des staan in twee rijen: de betekenis verschilt."
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Samentrekken</strong> gebeurt alleen bij <em>le</em> en <em>les</em>: à + le = <strong>au</strong>, à + les = <strong>aux</strong>, de + le = <strong>du</strong>, de + les = <strong>des</strong>. Bij <em>la</em> en <em>l'</em> blijft het gewoon staan: <em>à la maison</em>, <em>à l'école</em>. <em>À le parc</em> bestaat dus niet: dat wordt <em>au parc</em>."
+    },
+    {
+     "soort": "tekst",
+     "html": "Voor een <strong>klinker of een stille h</strong> worden <em>le</em> en <em>la</em> samen <em>l'</em>: <em>l'ami</em>, <em>l'école</em>, <em>l'heure</em>."
+    }
+   ]
+  },
+  {
+   "kop": "Een deel van iets: du, de la, des",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Het <strong>deelaanduidend lidwoord</strong> zegt dat je over een <strong>onbepaalde hoeveelheid</strong> spreekt: <em>du café</em> (wat koffie), <em>de la soupe</em>, <em>de l'eau</em>, <em>des légumes</em>. Het verandert de betekenis van je zin: <em>j'aime le chocolat</em> is chocolade in het algemeen, <em>je mange du chocolat</em> is er een beetje van."
+    },
+    {
+     "soort": "figuur",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">voor een …</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">vorm</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">voorbeeld</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">mannelijk woord</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">du</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">du pain, du café</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">vrouwelijk woord</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">de la</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">de la soupe, de la viande</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">klinker of stille h</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">de l'</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">de l'eau, de l'huile</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">meervoud</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">des</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">des pommes, des frites</td></tr></table>",
+     "onderschrift": "Vier vormen van hetzelfde lidwoord."
+    },
+    {
+     "soort": "kader",
+     "html": "<strong>Twee plaatsen waar het de wordt.</strong> Na een <strong>hoeveelheid</strong>: <em>un kilo <strong>de</strong> pommes</em>, <em>beaucoup <strong>de</strong> monde</em>, <em>un peu <strong>de</strong> sel</em>, <em>trop <strong>de</strong> bruit</em>, <em>assez <strong>de</strong> places</em>, <em>un litre <strong>d'</strong>eau</em>. En na een <strong>ontkenning</strong>: <em>je ne mange pas <strong>de</strong> pain</em>, <em>il n'y a pas <strong>de</strong> problème</em>, <em>pas <strong>d'</strong>amis</em>."
+    },
+    {
+     "soort": "tekst",
+     "html": "Let op: na een ontkenning blijft het <strong>bepaald</strong> lidwoord wel staan. <em>Je n'aime pas le café</em> — want hier gaat het over koffie in het algemeen, niet over een hoeveelheid."
+    },
+    {
+     "soort": "tekst",
+     "html": "Dit lidwoord heet ook het <strong>partitief</strong> lidwoord, en dat is de naam die op je examen kan staan. Je hebt het nodig zodra je over een hoeveelheid spreekt die je niet telt: <em>j'achète <strong>de la viande</strong></em>, <em>nous prenons <strong>des frites</strong></em>, <em>je bois <strong>du</strong> lait</em>. Tel je wel, dan gebruik je het onbepaalde lidwoord: <em>elle a <strong>un</strong> vélo</em>, <em>je n'ai pas <strong>de</strong> frères</em>."
+    }
+   ]
+  },
+  {
+   "kop": "Aanwijzen, bezitten, vragen",
+   "blokken": [
+    {
+     "soort": "figuur",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">soort</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">mannelijk</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">vrouwelijk</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">meervoud</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">aanwijzend</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">ce (cet voor klinker)</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">cette</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">ces</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">bezittelijk (ik)</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">mon</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">ma (mon voor klinker)</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">mes</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">bezittelijk (jij)</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">ton</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">ta</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">tes</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">bezittelijk (hij/zij)</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">son</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">sa</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">ses</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">bezittelijk (zij, meervoud)</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">leur</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">leur</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">leurs</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">vragend</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">quel</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">quelle</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">quels / quelles</td></tr></table>",
+     "onderschrift": "Ces is de enige meervoudsvorm van het aanwijzend woord: voor allebei de geslachten."
+    },
+    {
+     "soort": "tekst",
+     "html": "<em>Ce</em> wordt <em>cet</em> voor een klinker of een stille h: <em>cet homme</em>, <em>cet ami</em>, <em>cet hôtel</em> — dan hoor je de t."
+    },
+    {
+     "soort": "kader",
+     "html": "<strong>Het bezittelijk woord volgt het bezit, niet de bezitter.</strong> Een jongen én een meisje zeggen <em>ma voiture</em>, want <em>voiture</em> is vrouwelijk. En <em>son frère</em> / <em>sa sœur</em> kunnen allebei 'zijn' of 'haar' betekenen: in het Engels worden dat <em>his</em> en <em>her</em>, in het Frans niet. Wie de bezitter is, moet uit de rest van de tekst blijken."
+    },
+    {
+     "soort": "tekst",
+     "html": "Ook hier speelt de klinker: <em>ma amie</em> wordt <em>mon amie</em>, <em>mon école</em>, <em>mon histoire</em> — dat klinkt vlotter."
+    },
+    {
+     "soort": "tekst",
+     "html": "Het <strong>vragend</strong> woord heeft vier vormen en past zich aan, net als een bijvoeglijk naamwoord: <em>Quelle heure est-il ?</em>, <em>Quel est ton numéro de téléphone ?</em>, <em>Quelles couleurs ?</em>"
+    }
+   ]
+  },
+  {
+   "kop": "De telwoorden",
+   "blokken": [
+    {
+     "soort": "figuur",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">getal</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Frans</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">let op</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">11 tot 16</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">onze, douze, treize, quatorze, quinze, seize</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">zes aparte woorden</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">70</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">septante (B) / soixante-dix (F)</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">allebei juist Frans</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">80</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">quatre-vingts</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">met s, maar quatre-vingt-deux zonder</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">90</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">nonante (B) / quatre-vingt-dix (F)</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"></td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">100</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">cent</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">zonder lidwoord; deux cents met s</td></tr></table>",
+     "onderschrift": "In België hoor je septante en nonante, in Frankrijk soixante-dix en quatre-vingt-dix."
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Rangtelwoorden</strong> zeggen welke plaats in een rij: <em>premier</em> (eerste), <em>deuxième</em>, <em>troisième</em>, <em>dernier</em> (laatste). Op <em>premier</em> na krijgen ze allemaal <strong>-ième</strong>. En in een datum gebruik je er maar één: <em>le premier mai</em>, maar <em>le deux mai</em> en <em>le trois mai</em>."
+    }
+   ]
+  },
+  {
+   "kop": "Vier plaatsen waar het Frans anders kiest dan wij",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Waar</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Frans</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Let op</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een <strong>algemene uitspraak</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><em>J'aime <strong>le</strong> chocolat.</em></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">wij zeggen 'ik hou van chocolade', het Frans zet er een lidwoord bij</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een <strong>landnaam</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><em><strong>la</strong> France</em>, <em>le Portugal</em>, <em>les Pays-Bas</em></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een land heeft dus <strong>wél</strong> een lidwoord; een stad niet</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een <strong>beroep</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><em>Elle est <strong>infirmière</strong>.</em></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">na <em>être</em> valt het lidwoord juist <strong>weg</strong>: geen <em>une</em></td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een <strong>lichaamsdeel</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><em>Je me lave <strong>les</strong> mains.</em>, <em>J'ai mal à <strong>la</strong> tête.</em></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">het bepaald lidwoord in plaats van <em>mes</em> of <em>ma</em></td></tr></table>"
+    },
+    {
+     "soort": "tekst",
+     "html": "En let op waar je heen gaat of waar je van komt: <em>je vais <strong>à la boulangerie</strong></em> (naar de <strong>bakker</strong>, de winkel) of <em>chez le boulanger</em> (bij de bakker, de persoon), <em>je vais <strong>au</strong> <strong>cinéma</strong></em>, en <em>je viens <strong>de la</strong> gare</em> (ik kom van het <strong>station</strong>), <em>je viens <strong>du</strong> magasin</em>."
+    }
+   ]
+  },
+  {
+   "kop": "Het meervoud, en wat het lidwoord niet verraadt",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Uitgang</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Meervoud</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Voorbeeld</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>-al</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>-aux</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">un <strong>journal</strong> → des <strong>journaux</strong>, un animal → des animaux, un cheval → des chevaux</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">-eau, -eu</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">-eaux, -eux</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">un bureau → des bureaux, un jeu → des jeux</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">al een -s of -x</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">verandert niet</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">un bus → des bus, un prix → des prix</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">gewoon</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">-s</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">un livre → des livres</td></tr></table>"
+    },
+    {
+     "soort": "tekst",
+     "html": "Voor een klinker zegt het lidwoord niets meer over het geslacht: in <em>l'eau</em> zie je niet dat <em>eau</em> <strong>vrouwelijk</strong> is, al laat die <em>l'</em> iets anders <strong>vermoeden</strong>. Je merkt het pas verder in de zin: <em>l'eau est froi<strong>de</strong></em>."
+    },
+    {
+     "soort": "tekst",
+     "html": "Een paar uitgangen helpen wel. Woorden op <strong>-age</strong> en <strong>-ment</strong> zijn meestal <strong>mannelijk</strong>: le <strong>fromage</strong>, le <strong>village</strong>, le <strong>voyage</strong>, le gouvernement (maar la page, la plage, l'image zijn vrouwelijk). Woorden op <strong>-tion</strong> en <strong>-té</strong> zijn vrouwelijk: la question, la liberté."
+    },
+    {
+     "soort": "tekst",
+     "html": "<em>Les livres <strong>des élèves</strong></em> is <strong>de boeken van de leerlingen</strong>: bezit zeg je met <em>de</em>, en <em>de + les</em> wordt <em>des</em>."
+    }
+   ]
+  },
+  {
+   "kop": "Chaque, quelques en de getallen",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Frans</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Betekenis</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Erna komt</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>chaque</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">elk, ieder</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">altijd <strong>enkelvoud</strong>: <em>chaque jour</em></td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>quelques</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>enkele</strong>, een paar</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">meervoud: <em>quelques amis</em></td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>plusieurs</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">verschillende</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">meervoud: <em>plusieurs fois</em></td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>tout le</strong>, toute la</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">heel de</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">enkelvoud: <em>toute la journée</em></td></tr></table>"
+    },
+    {
+     "soort": "tekst",
+     "html": "Het vragende woord heeft vier vormen, en ze zijn alle vier juist <strong>geschreven</strong> als het geslacht en het getal kloppen: <strong>quel</strong>, <strong>quelle</strong>, <strong>quels</strong>, <strong>quelles</strong>. En <em>cette <strong>semaine</strong></em> is deze week: <em>semaine</em> is vrouwelijk, dus <em>cette</em>, terwijl <em>cet arbre</em> mannelijk is met een klinker."
+    },
+    {
+     "soort": "tekst",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Getal</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">In Frankrijk</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Let op</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">71</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>soixante et onze</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">met <em>et</em>; bij ons septante et un</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">80</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>quatre-vingts</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">met een <strong>s</strong>, want vier maal twintig</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">81</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">quatre-vingt-un</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">hier <strong>zonder</strong> s</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">2000</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>deux mille</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><em>mille</em> krijgt <strong>nooit</strong> een s</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">200</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">deux cents</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><em>cent</em> krijgt er wél een, net als vingt</td></tr></table>"
+    },
+    {
+     "soort": "tekst",
+     "html": "Rangtelwoorden op <strong>-ième</strong>: <strong>cinquième</strong> (de <strong>vijfde</strong>, met een u erbij), <strong>neuvième</strong> (de negende, met een v), dixième. En in een datum staat alleen de eerste in de rangvorm: <em>le <strong>premier janvier</strong></em> is 1 <strong>januari</strong>, daarna is het <em>le deux janvier</em>."
+    },
+    {
+     "soort": "tekst",
+     "html": "De bezitters bij <em>parents</em> zijn de meervoudsvormen: <strong>mes</strong>, <strong>tes</strong>, <strong>ses</strong>, <strong>nos</strong>, <strong>vos</strong>, <strong>leurs parents</strong>. En <strong>jullie school</strong> is <em>votre école</em>."
+    }
+   ]
+  }
+ ],
+ "onthoud": []
+}

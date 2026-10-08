@@ -1,0 +1,132 @@
+{
+ "vak": "Frans",
+ "titel": "Woordvelden: school, werk, reizen en de samenleving",
+ "onder": "Het Franse schoolsysteem, werk en geld, de trein en het verkeer, en de woorden van milieu, politiek en internet.",
+ "secties": [
+  {
+   "kop": "School",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Het Franse secundair valt in twee stukken: <strong>le collège</strong> voor de eerste jaren, <strong>le lycée</strong> voor <strong>de laatste jaren van het secundair</strong>."
+    },
+    {
+     "soort": "tekst",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Frans</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Nederlands</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">un bulletin</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een rapport</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">une interrogation</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een toets</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">un emploi du temps</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een lessenrooster</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">une matière</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een vak</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">un stage</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een stage of een cursus</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">redoubler</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een jaar overdoen</td></tr></table>"
+    },
+    {
+     "soort": "kader",
+     "html": "<strong><em>Passer un examen</em> betekent niet dat je geslaagd bent.</strong> Het betekent enkel dat je het examen aflegt. Geslaagd zijn is <em>réussir</em>, en <em>réussir son année</em> betekent <strong>zijn jaar halen</strong>. Dit is de valse vriend die op elk examen Frans terugkomt."
+    }
+   ]
+  },
+  {
+   "kop": "Werk",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Bij het zoeken van werk horen <strong>une offre d'emploi</strong>, <strong>un entretien d'embauche</strong> en <strong>un curriculum vitae</strong>. <strong>Emploi</strong> is werk of betrekking, en <em>être au chômage</em> betekent <strong>werkloos zijn</strong>."
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong><em>Un cadre</em> kan in een tekst over werk een leidinggevende betekenen.</strong> Hetzelfde woord betekent elders een kader of een omlijsting; de context beslist."
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong><em>Le salaire net</em> is niet het loon vóór er belastingen en bijdragen afgaan.</strong> Dat is <em>le salaire brut</em>. Net is wat er op je rekening komt."
+    }
+   ]
+  },
+  {
+   "kop": "Geld en economie",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Frans</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Nederlands</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">une hausse</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een stijging</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">une baisse</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een daling</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">le pouvoir d'achat</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">de koopkracht</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">une facture</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een factuur</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">un remboursement</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een terugbetaling</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">une promotion</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een korting of promotie</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">les soldes</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">de solden, twee keer per jaar</td></tr></table>"
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong><em>Une promotion</em> kan in een Franse winkel een korting betekenen</strong>, en op het werk een bevordering. <strong>Les soldes</strong> zijn in Frankrijk wettelijk vastgelegd: twee periodes per jaar, winter en zomer."
+    },
+    {
+     "soort": "tekst",
+     "html": "<em>Une enquête</em> in een krantenartikel is <strong>een onderzoek of een enquête</strong>: zowel het journalistieke speurwerk als de rondvraag."
+    }
+   ]
+  },
+  {
+   "kop": "Reizen en verkeer",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Aan het loket is <strong>un aller-retour</strong> <strong>een heen-en-terugticket</strong>, en <strong>un aller simple</strong> een enkele reis."
+    },
+    {
+     "soort": "tekst",
+     "html": "Bij een treinreis horen <strong>le quai</strong> (het perron), <strong>la voie</strong> (het spoor) en <strong>le guichet</strong> (het loket). <em>Composter votre billet</em> betekent <strong>je ticket afstempelen</strong> voor je opstapt."
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong><em>Les embouteillages</em> zijn files op de weg</strong>, en <strong>un bouchon</strong> in een verkeersbericht is <strong>een file</strong>. Hetzelfde woord betekent een kurk: een file is letterlijk een prop in de weg."
+    }
+   ]
+  },
+  {
+   "kop": "Milieu",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Woorden die bij het milieu horen: <strong>le réchauffement</strong>, <strong>les déchets</strong> en <strong>le gaspillage</strong>. <strong>Les déchets</strong> is afval, altijd in het meervoud."
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Le développement durable</strong> is <strong>duurzame ontwikkeling</strong>. <strong><em>Le gaspillage alimentaire</em> betekent niet de productie van voedsel</strong>, maar voedselverspilling: wat er weggegooid wordt."
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Une espèce menacée</strong> is <strong>een bedreigde diersoort</strong>; <strong>une espèce</strong> is een soort."
+    }
+   ]
+  },
+  {
+   "kop": "Politiek en samenleving",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Woorden die bij politiek en maatschappij horen: <strong>une élection</strong>, <strong>un sondage</strong> en <strong>une manifestation</strong>."
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Une manifestation</strong> in een Franse krant is <strong>een betoging</strong>. <strong><em>Un sondage</em> is geen betoging maar een peiling.</strong> Die twee staan vaak in hetzelfde artikel en betekenen iets heel anders."
+    }
+   ]
+  },
+  {
+   "kop": "Internet en techniek",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Frans</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Nederlands</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">le réseau</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">het netwerk</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">les réseaux sociaux</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">de sociale media</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">un ordinateur portable</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een laptop</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">télécharger</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">downloaden</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">une panne</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een defect</td></tr></table>"
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong><em>Télécharger</em> betekent een bestand downloaden.</strong> Uploaden is <em>téléverser</em> of <em>mettre en ligne</em>. En <strong>une panne</strong> is een defect: <em>la voiture est en panne</em>, <em>une panne de courant</em> is een stroomonderbreking."
+    }
+   ]
+  },
+  {
+   "kop": "Oefen dit ook buiten het scherm",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Op dit platform oefen je lezen, woordenschat en grammatica. Maar <strong>luisteren</strong> is de helft van het examen Frans 1, en Frans 2 bestaat uit <strong>een spreekopdracht die je thuis opneemt</strong>, twee schrijfopdrachten en <strong>een gesprek van tien minuten</strong>. Luisteren en spreken leer je niet achter een scherm. Je leert ze door te luisteren naar mensen die echt Frans spreken, en door zelf je mond open te doen, ook als het hakkelt."
+    },
+    {
+     "soort": "kader",
+     "html": "<strong>Deze week:</strong> lees een Franstalig krantenartikel over het milieu of de politiek en vat het daarna in het Frans samen in vijf zinnen, hardop. Doe het één keer, en let daarna op wat je miste of niet gezegd kreeg. Dat is precies je volgende oefening."
+    }
+   ]
+  }
+ ],
+ "onthoud": []
+}

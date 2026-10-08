@@ -1,0 +1,82 @@
+{
+ "vak": "Ontwikkeling en pedagogisch handelen",
+ "titel": "Het denken volgens Piaget",
+ "onder": "De vier stadia van de cognitieve ontwikkeling, de begrippen van de baby, de typische denkfouten van de kleuter, wat een lagereschoolkind erbij leert, en de taalontwikkeling van nul tot drie jaar.",
+ "secties": [
+  {
+   "kop": "De vier stadia",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "<strong>Piaget onderscheidt vier stadia</strong> in de ontwikkeling van het denken. Ze volgen elkaar altijd in dezelfde volgorde op."
+    },
+    {
+     "soort": "figuur",
+     "html": "<svg viewBox=\"0 0 470 188\" width=\"470\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"58\" y=\"26\" width=\"396\" height=\"30\" fill=\"#2f5d50\" fill-opacity=\"0.22\" stroke=\"#2f5d50\" stroke-width=\"1.4\" rx=\"5\"/><text x=\"70.0\" y=\"46.0\" text-anchor=\"start\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"10.5\" font-weight=\"600\" fill=\"#23291f\">formeel-operationeel</text><text x=\"250.0\" y=\"46.0\" text-anchor=\"start\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"9\" fill=\"#6b7260\">de adolescent: abstract en hypothetisch</text><rect x=\"58\" y=\"62\" width=\"396\" height=\"30\" fill=\"#2f5d50\" fill-opacity=\"0.19\" stroke=\"#2f5d50\" stroke-width=\"1.4\" rx=\"5\"/><text x=\"70.0\" y=\"82.0\" text-anchor=\"start\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"10.5\" font-weight=\"600\" fill=\"#23291f\">concreet-operationeel</text><text x=\"259.0\" y=\"82.0\" text-anchor=\"start\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"9\" fill=\"#6b7260\">het lagereschoolkind: logisch, maar concreet</text><rect x=\"58\" y=\"98\" width=\"396\" height=\"30\" fill=\"#2f5d50\" fill-opacity=\"0.16\" stroke=\"#2f5d50\" stroke-width=\"1.4\" rx=\"5\"/><text x=\"70.0\" y=\"118.0\" text-anchor=\"start\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"10.5\" font-weight=\"600\" fill=\"#23291f\">pre-operationeel</text><text x=\"214.0\" y=\"118.0\" text-anchor=\"start\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"9\" fill=\"#6b7260\">de peuter en de kleuter: symbolisch</text><rect x=\"58\" y=\"134\" width=\"396\" height=\"30\" fill=\"#2f5d50\" fill-opacity=\"0.13\" stroke=\"#2f5d50\" stroke-width=\"1.4\" rx=\"5\"/><text x=\"70.0\" y=\"154.0\" text-anchor=\"start\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"10.5\" font-weight=\"600\" fill=\"#23291f\">sensomotorisch</text><text x=\"196.0\" y=\"154.0\" text-anchor=\"start\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"9\" fill=\"#6b7260\">de baby: zintuigen en beweging</text><line x1=\"32\" y1=\"30\" x2=\"32\" y2=\"164\" stroke=\"#6b7260\" stroke-width=\"1.6\"/><path d=\"M32 24 l-5 9 h10 z\" fill=\"#6b7260\"/><text x=\"44.0\" y=\"18.0\" text-anchor=\"start\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"9.5\" font-weight=\"600\" fill=\"#6b7260\">het laatst</text><text x=\"44.0\" y=\"178.0\" text-anchor=\"start\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"9.5\" font-weight=\"600\" fill=\"#6b7260\">het eerst</text></svg>",
+     "onderschrift": ""
+    }
+   ]
+  },
+  {
+   "kop": "De baby: het sensomotorische stadium",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "<strong>Een baby zit in het sensomotorische stadium</strong> en leert de wereld kennen <strong>met zijn zintuigen en zijn bewegingen</strong>. Drie begrippen horen hierbij."
+    },
+    {
+     "soort": "kader",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">begrip</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">wat het betekent</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>objectpermanentie</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>iets bestaat ook als je het niet ziet</strong>: een baby van acht maanden zoekt een bal die onder een doek verdwijnt</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>persoonspermanentie</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>mama bestaat ook als ze weg is</strong>: een vertrouwd persoon blijft bestaan als die de kamer uit gaat</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>intentioneel handelen</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>met een doel handelen</strong>: de baby schuift een kussen weg om bij zijn speeltje te komen</td></tr></table>"
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Objectpermanentie ontstaat in het sensomotorische stadium</strong>, in het eerste levensjaar. Abstract denken komt pas veel later, in het formeel-operationele stadium."
+    }
+   ]
+  },
+  {
+   "kop": "De kleuter: het pre-operationele stadium",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "<strong>Een peuter of kleuter zit in het pre-operationele stadium</strong>, met <strong>symbolisch denken, veel fantasie en typische denkfouten</strong>. <strong>Symbolisch denken is dat een stok een zwaard wordt</strong>: het kind laat het ene ding voor het andere staan, en daar komt het doen-alsof-spel uit. <strong>Logisch en abstract denken kan een kleuter nog niet.</strong>"
+    },
+    {
+     "soort": "kader",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">denkfout</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">wat je ziet</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>animisme</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>dingen hebben gevoelens</strong>: de pop heeft pijn, de stoel is stout</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>magisch denken</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">het kind denkt dat zijn wens of zijn gedachte iets kan doen gebeuren</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>egocentrisme</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>enkel zijn eigen kijk</strong>: het denkt dat iedereen ziet en voelt wat het zelf ziet en voelt. Dat is geen egoïsme</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>centratie</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>op één kenmerk letten</strong>: het ziet alleen dat het glas hoger is, niet dat het ook smaller is</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>niet-reversibel denken</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">het kan een handeling in gedachten nog <strong>niet</strong> terugdraaien</td></tr></table>"
+    }
+   ]
+  },
+  {
+   "kop": "Het lagereschoolkind: het concreet-operationele stadium",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "<strong>Een lagereschoolkind denkt logisch, maar nog over dingen die het kan zien of vastnemen.</strong> Dat is <strong>concreet denken</strong>: het rekent met blokjes of met geld, niet met een letter in een formule."
+    },
+    {
+     "soort": "kader",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">wat erbij komt</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">wat het betekent</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>seriatie</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>op grootte ordenen</strong>: stokjes van klein naar groot leggen</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>classificatie</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>in groepen indelen</strong>: alle rode blokken bij elkaar, alle blauwe apart</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>de conservatienotie</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>de hoeveelheid blijft gelijk</strong>: giet je water in een smaller glas, dan blijft het evenveel water</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>decentreren</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>ook de andere kant zien</strong>: op meer dan één kenmerk letten</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>reversibel denken</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>in twee richtingen denken</strong>: wie drie plus vier kan, kan ook zeven min vier</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>systematisch denken</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">stap voor stap te werk gaan</td></tr></table>"
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Een kleuter begrijpt de conservatienotie nog niet</strong>, net door de centratie: hij ziet alleen dat het glas hoger is, niet dat het ook smaller is."
+    }
+   ]
+  },
+  {
+   "kop": "De adolescent en de taal",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "<strong>Een adolescent zit in het formeel-operationele stadium</strong> en kan <strong>abstract denken, logisch redeneren, hypothetisch denken en experimenteel denken</strong>. <strong>Hypothetisch denken is denken in wat als</strong>: nadenken over iets dat nog niet bestaat of niet zo is."
+    },
+    {
+     "soort": "tekst",
+     "html": "De taal volgt zijn eigen weg van nul tot drie jaar: <strong>eerst huilen en brabbelen, dan losse woorden, dan korte zinnen.</strong> <strong>Het eerste woordje komt meestal rond één jaar</strong>, rond de eerste verjaardag. Rond twee jaar komen de tweewoordzinnen, dus <strong>een kind van twee spreekt nog niet in volledige zinnen</strong>."
+    }
+   ]
+  }
+ ],
+ "onthoud": []
+}

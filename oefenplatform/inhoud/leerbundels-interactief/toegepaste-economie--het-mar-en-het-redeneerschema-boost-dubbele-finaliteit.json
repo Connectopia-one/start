@@ -1,0 +1,96 @@
+{
+ "vak": "Toegepaste economie",
+ "titel": "Het MAR en het redeneerschema",
+ "onder": "De zeven klassen van het minimum algemeen rekeningstelsel, de rekeningen die je het vaakst nodig hebt, en de vaste manier om van een document tot een boeking te komen.",
+ "secties": [
+  {
+   "kop": "Wat het MAR is",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "<strong>MAR staat voor minimum algemeen rekeningstelsel</strong>: een vaste lijst van rekeningen met hun nummer. <strong>Je krijgt het MAR op het examen ter beschikking</strong>, dus <strong>je moet de nummers niet uit het hoofd leren</strong>. Wat telt, is dat je er snel de juiste rekening in vindt."
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Waarom werkt iedereen met hetzelfde rekeningstelsel? Zo zijn cijfers vergelijkbaar</strong>: de fiscus, de bank en de boekhouder lezen dan dezelfde taal."
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Het MAR telt zeven klassen</strong>, genummerd van 1 tot en met 7."
+    },
+    {
+     "soort": "kader",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">klasse</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">wat erin staat</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">waar ze terechtkomt</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>1</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>eigen vermogen en schulden op lange termijn</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>de balans</strong></td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>2</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>de vaste activa</strong>: gebouwen, machines, voertuigen</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>de balans</strong></td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>3</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>de voorraden</strong> en bestellingen in uitvoering</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>de balans</strong></td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>4</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>vorderingen en schulden op korte termijn</strong>: klanten, leveranciers, de btw-rekeningen</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>de balans</strong></td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>5</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>geldbeleggingen en liquide middelen</strong>: de kas en de bankrekening</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>de balans</strong></td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>6</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>de kosten</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>de resultatenrekening</strong></td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>7</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>de opbrengsten</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>de resultatenrekening</strong></td></tr></table>"
+    },
+    {
+     "soort": "tekst",
+     "html": "Onthoud die scheiding: <strong>de klassen 1 tot 5 staan op de balans, de klassen 6 en 7 in de resultatenrekening</strong>. <strong>Klasse 2 bevat dus geen kosten maar de vaste activa</strong>; de kosten staan in klasse 6."
+    }
+   ]
+  },
+  {
+   "kop": "De rekeningen die je het vaakst nodig hebt",
+   "blokken": [
+    {
+     "soort": "kader",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">rekening</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">wat ze betekent</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">klasse</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>604 Aankopen handelsgoederen</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>de aankoop van goederen om door te verkopen</strong>, dus een kost</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>6</strong></td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>700 Verkopen handelsgoederen</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>de verkoop</strong>, dus een opbrengst</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>7</strong></td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>400 Handelsdebiteuren</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>wat klanten nog moeten betalen</strong>: een vordering, dus een vlottend actief</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>4</strong></td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>440 Leveranciers</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>een schuld van de onderneming</strong>, op ten hoogste één jaar</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>4</strong></td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>550 Kredietinstellingen</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>de bankrekening</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>5</strong></td></tr></table>"
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>In klasse 4 vind je dus 400 Handelsdebiteuren, 440 Leveranciers en de btw-rekeningen.</strong> 604 hoort daar niet bij: die staat in klasse 6, bij de kosten."
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>De rekening 550 Kredietinstellingen komt in beeld zodra er geld over de bank gaat</strong>: een klant die via overschrijving betaalt, een leverancier die je via de bank betaalt, of bankkosten. <strong>Een aankoop op krediet raakt de bank pas op het moment dat je betaalt.</strong>"
+    }
+   ]
+  },
+  {
+   "kop": "Welke kant kiest een rekening",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "<strong>In het redeneerschema gebruik je vier letters</strong>: <strong>A voor actief, P voor passief, K voor kosten en O voor opbrengsten</strong>. Elke soort heeft haar eigen kant, en die ligt vast."
+    },
+    {
+     "soort": "kader",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">soort</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">stijgt in</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">daalt in</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>A, een actief</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>debet</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>credit</strong></td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>P, een passief of schuld</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>credit</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>debet</strong></td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>K, een kost</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>debet</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>credit</strong></td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>O, een opbrengst</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>credit</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>debet</strong></td></tr></table>"
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Een kost die stijgt komt dus in debet</strong>, net als een bezit dat stijgt. <strong>Een schuld stijgt in credit</strong>, en <strong>een opbrengst stijgt niet in debet maar in credit</strong>, samen met de schulden en het eigen vermogen."
+    },
+    {
+     "soort": "kader",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">verrichting</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">debet</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">credit</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>handelsgoederen kopen op krediet</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>604 Aankopen handelsgoederen</strong>, de kost stijgt</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>440 Leveranciers</strong>, de schuld stijgt</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>handelsgoederen verkopen op krediet</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>400 Handelsdebiteuren</strong>, de vordering stijgt</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>700 Verkopen</strong>, de opbrengst stijgt</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>een klant betaalt via de bank</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>550 Kredietinstellingen</strong>, de bank stijgt</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>400 Handelsdebiteuren</strong>, de vordering verdwijnt</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>contant betalen uit de kas</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>de kost of de schuld</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>de kas</strong>, een actief dat daalt</td></tr></table>"
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Het bedrag in debet mag nooit verschillen van het bedrag in credit.</strong> Elke boeking is in evenwicht; is ze dat niet, dan zit er een fout in."
+    }
+   ]
+  },
+  {
+   "kop": "Van document tot boeking",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "<strong>Voor je een factuur boekt, lees je eerst het document, ga je na wat er gebeurd is en controleer je de bedragen.</strong> Eerst begrijpen, dan pas het redeneerschema invullen."
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Daarna volgen de drie vragen</strong>: welke rekeningen spelen mee, stijgen of dalen ze, en komen ze in debet of in credit? <strong>Je boekt zo efficiënt mogelijk, met zo weinig mogelijk regels</strong>, want de fiche vraagt uitdrukkelijk een minimum aantal boekingsregels."
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Op het examen worden het rekeningnummer, het bedrag en de kant beoordeeld.</strong> De soort rekening mag je invullen om te redeneren, maar daar krijg je geen punten voor."
+    },
+    {
+     "soort": "weetje",
+     "html": "De naam van de rekening verschijnt vanzelf zodra je het nummer invult. Een spelfout in de naam van een rekening kan je dus geen punten kosten."
+    }
+   ]
+  }
+ ],
+ "onthoud": []
+}

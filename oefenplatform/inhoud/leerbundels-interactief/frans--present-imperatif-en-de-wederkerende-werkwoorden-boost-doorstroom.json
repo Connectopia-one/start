@@ -1,0 +1,163 @@
+{
+ "vak": "Frans",
+ "titel": "Présent, impératif en de wederkerende werkwoorden",
+ "onder": "De tegenwoordige tijd van de drie groepen, de bevelende vorm, de werkwoorden met se, en de twee tijden vlak voor en vlak na nu.",
+ "secties": [
+  {
+   "kop": "De présent van de regelmatige werkwoorden",
+   "blokken": [
+    {
+     "soort": "figuur",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Persoon</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">-er: parler</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">-ir: finir</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">-re: vendre</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">je</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">parle</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">finis</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">vends</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">tu</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">parles</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">finis</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">vends</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">il, elle, on</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">parle</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">finit</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">vend</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">nous</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">parlons</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">finissons</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">vendons</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">vous</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">parlez</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">finissez</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">vendez</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">ils, elles</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">parlent</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">finissent</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">vendent</td></tr></table>",
+     "onderschrift": "De drie groepen regelmatige werkwoorden naast elkaar."
+    },
+    {
+     "soort": "tekst",
+     "html": "De uitgangen van de <strong>-er</strong>-werkwoorden zijn <strong>-e, -es, -e, -ons, -ez, -ent</strong>. <em>Nous <strong>parlons</strong> français à la maison.</em> Werkwoorden op <strong>-ir</strong> zoals <em>finir</em> schuiven in het meervoud een <strong>-iss-</strong> in hun stam: <em>nous finissons</em>."
+    },
+    {
+     "soort": "weetje",
+     "html": "<em>Je parle</em>, <em>tu parles</em> en <em>ils parlent</em> klinken in het Frans <strong>precies hetzelfde</strong>: de uitgang <strong>-ent</strong> van <em>ils</em> en <em>elles</em> <strong>hoor je niet</strong>. Alleen <em>nous parlons</em> en <em>vous parlez</em> klinken anders. Bij het luisteren moet je dus uit de zin halen wie er bedoeld wordt."
+    }
+   ]
+  },
+  {
+   "kop": "De onregelmatige werkwoorden",
+   "blokken": [
+    {
+     "soort": "figuur",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Werkwoord</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Présent</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">être</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">suis, es, est, sommes, êtes, sont</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">avoir</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">ai, as, a, avons, avez, ont</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">aller</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">vais, vas, va, allons, allez, vont</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">faire</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">fais, fais, fait, faisons, faites, font</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">dire</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">dis, dis, dit, disons, dites, disent</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">prendre</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">prends, prends, prend, prenons, prenez, prennent</td></tr></table>",
+     "onderschrift": "De zes werkwoorden die in elke tekst terugkomen."
+    },
+    {
+     "soort": "tekst",
+     "html": "<em>Vous <strong>êtes</strong> en retard</em>: let op die vorm. Drie werkwoorden hebben bij <em>vous</em> de uitgang <strong>-tes</strong> in plaats van <em>-ez</em>: <em><strong>êtes</strong></em>, <em><strong>faites</strong></em> en <em><strong>dites</strong></em>. <em>Avoir</em> doet daar niet aan mee: dat is gewoon <em>avez</em>."
+    },
+    {
+     "soort": "tekst",
+     "html": "Sommige werkwoorden veranderen van <strong>stam</strong>: <em>prendre</em> geeft <em>ils <strong>prennent</strong> le bus tous les jours</em>, <em>venir</em> geeft <em>ils viennent</em>, <em>pouvoir</em> geeft <em>ils peuvent</em>. <em>Chanter</em> is dan weer kurkdroog regelmatig."
+    },
+    {
+     "soort": "weetje",
+     "html": "Het Frans heeft <strong>geen</strong> aparte vorm voor 'ik ben aan het lezen', zoals het Engels met <em>I am reading</em>. <em>Je lis</em> dekt allebei. Wil je toch benadrukken dat je ermee bezig bent, dan zeg je <em>je suis en train de lire</em>."
+    }
+   ]
+  },
+  {
+   "kop": "Vervoegd of infinitief?",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "<em>Il parle</em> is <strong>vervoegd</strong> (het hoort bij <em>il</em>), <em>parler</em> is de <strong>infinitief</strong>, de vorm die in het woordenboek staat. Welke van de twee je nodig hebt, hangt af van wat ervoor staat."
+    },
+    {
+     "soort": "figuur",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Na dit woord</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Komt</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Voorbeeld</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">pour, sans, avant de</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een infinitief</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">pour partir, sans manger</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">il faut</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een infinitief</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">il faut partir maintenant</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">pouvoir, vouloir, devoir, aimer</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een infinitief, rechtstreeks</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">je veux lire un livre</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">essayer de, oublier de, décider de</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">de + infinitief</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">j'essaie de comprendre</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">commencer à, apprendre à, réussir à</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">à + infinitief</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">je commence à comprendre</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">que</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een vervoegd werkwoord</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">je pense que tu as raison</td></tr></table>",
+     "onderschrift": "Wat er na elk woord volgt."
+    },
+    {
+     "soort": "tekst",
+     "html": "<em>Je veux <strong>lire</strong> un livre</em> dus, en niet <em>je veux de partir</em>: na <em>vouloir</em> komt de infinitief <strong>rechtstreeks</strong>. Na <em>que</em> komt er daarentegen altijd een <strong>vervoegd</strong> werkwoord."
+    }
+   ]
+  },
+  {
+   "kop": "Moeten: il faut of devoir?",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "<em>Il faut partir maintenant</em> drukt een <strong>verplichting</strong> uit, maar laat <strong>open wie</strong> moet. <em>Il <strong>doit</strong> partir</em> zegt wel wie: hij. Dat is het hele verschil."
+    },
+    {
+     "soort": "tekst",
+     "html": "<em>Il faut</em> is een <strong>onpersoonlijk</strong> werkwoord: die <em>il</em> verwijst naar niemand. Dat geldt ook voor <em>il pleut</em> en <em>il neige</em>. In <em>il part</em> is die <em>il</em> wel een echte persoon."
+    }
+   ]
+  },
+  {
+   "kop": "De impératif: de bevelende vorm",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "De impératif heeft in het Frans maar <strong>drie</strong> vormen, en je laat het onderwerp weg: <em>parle</em> (tu), <em>parlons</em> (nous), <em>parlez</em> (vous). Bij een <strong>-er</strong>-werkwoord valt de <strong>-s</strong> van <em>tu</em> weg: <em><strong>Regarde</strong> ce film !</em>"
+    },
+    {
+     "soort": "figuur",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Werkwoord</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">tu</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">nous</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">vous</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">parler</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">parle</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">parlons</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">parlez</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">finir</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">finis</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">finissons</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">finissez</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">être</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">sois</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">soyons</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">soyez</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">avoir</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">aie</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">ayons</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">ayez</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">savoir</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">sache</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">sachons</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">sachez</td></tr></table>",
+     "onderschrift": "De regelmatige vormen bovenaan, de drie onregelmatige eronder."
+    },
+    {
+     "soort": "tekst",
+     "html": "Een <strong>ontkennend</strong> bevel zet <em>ne</em> en <em>pas</em> gewoon rond het werkwoord: <em><strong>Ne</strong> parlez <strong>pas</strong>.</em> En een <strong>voornaamwoord</strong> staat in een <strong>bevestigend</strong> bevel <strong>achter</strong> het werkwoord, met een streepje: <em>Donne-le-moi !</em>, <em><strong>Lève-toi</strong> !</em>"
+    }
+   ]
+  },
+  {
+   "kop": "De wederkerende werkwoorden",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Een wederkerend werkwoord heeft <strong>altijd</strong> een voornaamwoord bij zich dat naar het <strong>onderwerp</strong> verwijst: <em>je <strong>me</strong> lève</em>, <em>tu <strong>te</strong> lèves</em>, <em>il <strong>se</strong> lève</em>, <em>nous <strong>nous</strong> dépêchons</em>, <em>vous <strong>vous</strong> levez</em>, <em>elles <strong>s'</strong>habillent vite le matin</em>."
+    },
+    {
+     "soort": "figuur",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Frans</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Nederlands</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">se lever</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">opstaan — bij ons zonder 'zich'</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">se promener</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">wandelen — bij ons zonder 'zich'</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">se souvenir de</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">zich herinneren</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">se dépêcher</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">zich haasten</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">s'habiller</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">zich aankleden</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">regarder</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">kijken — niet wederkerend</td></tr></table>",
+     "onderschrift": "Werkwoorden die in het Frans wederkerend zijn en in het Nederlands vaak niet."
+    },
+    {
+     "soort": "tekst",
+     "html": "<em>Nous dépêchons</em> of <em>nous se dépêchons</em> bestaat dus niet: het voornaamwoord moet mee veranderen met het onderwerp. En in de <strong>passé composé</strong> gaat een wederkerend werkwoord <strong>altijd met <em>être</em></strong>: <em>je me suis levé</em>, nooit <em>j'ai me levé</em>."
+    }
+   ]
+  },
+  {
+   "kop": "Vlak voor nu en vlak na nu",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Twee tijden die je met een hulpwerkwoord in de présent maakt, en die je dus nu al kan gebruiken."
+    },
+    {
+     "soort": "figuur",
+     "html": "<svg viewBox=\"0 0 470 204\" width=\"470\" xmlns=\"http://www.w3.org/2000/svg\"><line x1=\"18\" y1=\"104\" x2=\"452\" y2=\"104\" stroke=\"#e4ded0\" stroke-width=\"7\" stroke-linecap=\"round\"/><circle cx=\"235.0\" cy=\"104\" r=\"8\" fill=\"#c17f2b\"/><text x=\"235.0\" y=\"88.0\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"11\" font-weight=\"600\" fill=\"#c17f2b\">maintenant</text><rect x=\"10\" y=\"16\" width=\"104\" height=\"54\" rx=\"9\" fill=\"#2f5d5012\" stroke=\"#2f5d50\" stroke-width=\"1.6\"/><text x=\"62.0\" y=\"32.0\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"10\" fill=\"#6b7260\">imparfait</text><text x=\"62.0\" y=\"48.0\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"11.5\" font-weight=\"600\" fill=\"#2f5d50\">je mangeais</text><text x=\"62.0\" y=\"62.0\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"8.5\" fill=\"#6b7260\">wat gewoonlijk zo was</text><line x1=\"62\" y1=\"70\" x2=\"62\" y2=\"100\" stroke=\"#2f5d50\" stroke-width=\"1.4\" stroke-dasharray=\"3 3\"/><rect x=\"120\" y=\"16\" width=\"104\" height=\"54\" rx=\"9\" fill=\"#23453912\" stroke=\"#234539\" stroke-width=\"1.6\"/><text x=\"172.0\" y=\"32.0\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"10\" fill=\"#6b7260\">passé composé</text><text x=\"172.0\" y=\"48.0\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"11.5\" font-weight=\"600\" fill=\"#234539\">j&#39;ai mangé</text><text x=\"172.0\" y=\"62.0\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"8.5\" fill=\"#6b7260\">één keer, afgelopen</text><line x1=\"172\" y1=\"70\" x2=\"172\" y2=\"100\" stroke=\"#234539\" stroke-width=\"1.4\" stroke-dasharray=\"3 3\"/><rect x=\"246\" y=\"122\" width=\"104\" height=\"54\" rx=\"9\" fill=\"#23453912\" stroke=\"#234539\" stroke-width=\"1.6\"/><text x=\"298.0\" y=\"138.0\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"10\" fill=\"#6b7260\">passé récent</text><text x=\"298.0\" y=\"154.0\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"9.4\" font-weight=\"600\" fill=\"#234539\">je viens de manger</text><text x=\"298.0\" y=\"168.0\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"8.5\" fill=\"#6b7260\">net gebeurd</text><line x1=\"298\" y1=\"122\" x2=\"298\" y2=\"108\" stroke=\"#234539\" stroke-width=\"1.4\" stroke-dasharray=\"3 3\"/><rect x=\"356\" y=\"122\" width=\"104\" height=\"54\" rx=\"9\" fill=\"#2f5d5012\" stroke=\"#2f5d50\" stroke-width=\"1.6\"/><text x=\"408.0\" y=\"138.0\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"10\" fill=\"#6b7260\">futur proche</text><text x=\"408.0\" y=\"154.0\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"11.5\" font-weight=\"600\" fill=\"#2f5d50\">je vais manger</text><text x=\"408.0\" y=\"168.0\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"8.5\" fill=\"#6b7260\">straks</text><line x1=\"408\" y1=\"122\" x2=\"408\" y2=\"108\" stroke=\"#2f5d50\" stroke-width=\"1.4\" stroke-dasharray=\"3 3\"/><text x=\"235.0\" y=\"194.0\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"10\" fill=\"#6b7260\">Het présent staat in het midden: je mange.</text></svg>",
+     "onderschrift": "De tijden van de vakfiche op één lijn, met maintenant in het midden."
+    },
+    {
+     "soort": "tekst",
+     "html": "De <strong>futur proche</strong> is <em>aller</em> in de présent plus een <strong>infinitief</strong>: <em>nous <strong>allons</strong> manger</em>, <em>je vais partir</em>. Het gaat over iets dat <strong>zo meteen</strong> gebeurt."
+    },
+    {
+     "soort": "tekst",
+     "html": "De <strong>passé récent</strong> is <em>venir <strong>de</strong></em> plus een infinitief, en gaat over iets dat <strong>net gebeurd</strong> is: <em>je viens de finir</em>, <em>elle vient de partir</em>, <em>nous venons d'arriver</em>. Die <em>de</em> mag je niet laten vallen: <em>il vient finir</em> betekent iets anders. En <em>je viens de manger</em> betekent dus <strong>ik heb net gegeten</strong>, niet dat ik zo meteen ga eten."
+    }
+   ]
+  },
+  {
+   "kop": "Wijzen en tijden",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "De vakfiche spreekt over <strong>wijzen</strong> en <strong>tijden</strong>, en dat is niet hetzelfde. Een <strong>wijze</strong> zegt <strong>hoe</strong> je iets voorstelt: als een bevel (<em>l'impératif</em>), als iets onzekers (<em>le subjonctif</em>), als een voorwaarde (<em>le conditionnel</em>). Een <strong>tijd</strong> zegt <strong>wanneer</strong> het gebeurt: <em>le présent</em>, <em>l'imparfait</em>, <em>le futur</em>."
+    },
+    {
+     "soort": "kader",
+     "html": "<strong>Bij het lezen helpt de vorm je meteen vooruit.</strong> Zie je <em>allez</em> staan, dan weet je zeker dat het werkwoord <strong>vervoegd</strong> is — bij <em>vous</em>, of als een bevel. Een infinitief ziet er anders uit (<em>aller</em>), en een verleden tijd ook."
+    }
+   ]
+  },
+  {
+   "kop": "Oefen dit ook buiten het scherm",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Hier oefen je lezen, schrijven, woordenschat en grammatica. Maar het examen <strong>Frans 1</strong> is voor de helft <strong>luisteren</strong>, en <strong>Frans 2</strong> bestaat naast de twee schrijfopdrachten uit een <strong>spreekopdracht</strong> die je thuis opneemt en een <strong>gesprek van tien minuten</strong>. Die drie leer je niet achter een scherm, maar door Frans te horen en zelf Frans te praten, ook als het hakkelt."
+    },
+    {
+     "soort": "kader",
+     "html": "<strong>Deze week:</strong> vertel in het Frans wat je straks nog gaat doen en wat je net gedaan hebt, met één keer je vais en één keer je viens de. Doe het één keer en let daarna op wat je miste of niet gezegd kreeg. Dat is precies je volgende oefening."
+    }
+   ]
+  }
+ ],
+ "onthoud": []
+}

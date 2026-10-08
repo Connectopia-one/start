@@ -1,0 +1,75 @@
+{
+ "vak": "Economie en bedrijfswetenschappen",
+ "titel": "De kosten van de producent",
+ "onder": "Constante en variabele kosten, de totale kosten en hun curve, de gemiddelde en de marginale kosten, waarom de gemiddelde kosten de vorm van een u hebben en waar de marginale kosten ze snijden.",
+ "secties": [
+  {
+   "kop": "Constante, variabele en totale kosten",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "<strong>De totale constante kosten blijven altijd gelijk</strong>: de huur van een loods betaal je of je nu honderd of duizend stuks maakt. <strong>De totale variabele kosten volgen de productie</strong>: meer stuks betekent meer grondstof, meer energie, meer verpakking."
+    },
+    {
+     "soort": "kader",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">afkorting</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">waarvoor</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">voorbeelden</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>TCK</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>totale constante kosten</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">de huur van het gebouw, de verzekering, de afschrijving van een machine</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>TVK</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>totale variabele kosten</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">de grondstoffen, de verpakking, de energie van de machine</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>TK</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>totale kosten</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>TK is TCK plus TVK</strong></td></tr></table>"
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>De totale constante kosten stijgen niet als je meer produceert</strong>: ze blijven precies gelijk, en dat is net wat constant betekent. <strong>Zonder productie zijn de totale variabele kosten nul</strong>, want je koopt geen grondstof voor stuks die je niet maakt. <strong>Maar bij nul stuks zijn de totale kosten niet nul</strong>: de huur, de verzekering en de afschrijving lopen door."
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>De curve van de TCK loopt vlak</strong>, een horizontale lijn op hetzelfde bedrag. <strong>De curve van de TVK begint in de oorsprong en stijgt</strong> met de productie. <strong>De curve van de TK begint bij de constante kosten</strong> en loopt parallel met de TVK: <strong>het verschil tussen die twee curven is altijd precies de constante kost</strong>."
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>De variabele kosten lopen niet altijd even snel op</strong>, en dat komt van de meeropbrengst uit het vorige hoofdstuk: zolang die stijgt, kost elk extra stuk minder; zodra ze daalt, kost elk extra stuk meer."
+    }
+   ]
+  },
+  {
+   "kop": "Gemiddelde en marginale kosten",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "De vakfiche noemt naast de totale kosten nog drie kostenbegrippen: de gemiddelde constante kosten, de gemiddelde variabele kosten en de marginale kosten. <strong>De gemiddelde kosten zijn de kosten per stuk</strong>: <strong>GK is TK gedeeld door het aantal stuks</strong>. <strong>De gemiddelde variabele kosten zijn TVK gedeeld door het aantal stuks</strong>, en de gemiddelde constante kosten TCK gedeeld door het aantal stuks. <strong>GK is de som van GCK en GVK.</strong>"
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>De marginale kosten zijn de kost van één extra stuk</strong>: hoeveel de totale kosten stijgen als je er één stuk bij maakt. De afkorting is MK."
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>De gemiddelde constante kosten dalen bij elke extra eenheid</strong>: hetzelfde bedrag wordt over meer stuks verdeeld. <strong>De huur zelf verandert niet, enkel het deel per stuk wordt kleiner.</strong> Bij een huur van 1 200 euro is dat <strong>6 euro per stuk bij 200 stuks en 2 euro bij 600 stuks</strong>."
+    },
+    {
+     "soort": "kader",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">stuks</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">TK</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">GK = TK ÷ stuks</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">200</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">2 300 euro</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>11,50 euro</strong></td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">300</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">3 075 euro</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>10,25 euro</strong></td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">400</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">4 000 euro</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>10,00 euro</strong></td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">500</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">5 075 euro</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>10,15 euro</strong></td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">600</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">6 300 euro</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>10,50 euro</strong></td></tr></table>"
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>De gemiddelde kosten dalen dus niet altijd</strong>: hier dalen ze tot 10 euro bij 400 stuks en stijgen ze daarna weer. <strong>Daarom heeft de curve van de gemiddelde kosten de vorm van een u</strong>: eerst dalend doordat de vaste kosten over meer stuks gespreid worden, dan stijgend doordat de meeropbrengsten afnemen en elk extra stuk meer kost."
+    },
+    {
+     "soort": "figuur",
+     "html": "<svg viewBox=\"0 0 430 250\" width=\"430\" xmlns=\"http://www.w3.org/2000/svg\"><line x1=\"44\" y1=\"14\" x2=\"44\" y2=\"214\" stroke=\"#23291f\" stroke-width=\"1.8\"/><line x1=\"44\" y1=\"214\" x2=\"418\" y2=\"214\" stroke=\"#23291f\" stroke-width=\"1.8\"/><text x=\"42.0\" y=\"12.0\" text-anchor=\"start\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"10.5\" font-weight=\"600\" fill=\"#6b7260\">kost per stuk</text><text x=\"418.0\" y=\"230.0\" text-anchor=\"end\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"10.5\" font-weight=\"600\" fill=\"#6b7260\">hoeveelheid</text><polyline points=\"145.8,19.6 155.0,27.8 164.2,34.4 173.5,39.7 182.8,44.0 192.0,47.4 201.2,50.1 210.5,52.3 219.8,54.0 229.0,55.2 238.2,56.2 247.5,56.8 256.8,57.1 266.0,57.2 275.2,57.1 284.5,56.8 293.8,56.4 303.0,55.8 312.2,55.1 321.5,54.3 330.8,53.3 340.0,52.3 349.2,51.2 358.5,50.0 367.8,48.7 377.0,47.4 386.2,46.0 395.5,44.6\" fill=\"none\" stroke=\"#2f5d50\" stroke-width=\"2.2\"/><polyline points=\"81.0,165.0 90.2,162.6 99.5,160.1 108.8,157.7 118.0,155.2 127.2,152.8 136.5,150.3 145.8,147.8 155.0,145.4 164.2,142.9 173.5,140.5 182.8,138.1 192.0,135.6 201.2,133.2 210.5,130.7 219.8,128.2 229.0,125.8 238.2,123.3 247.5,120.9 256.8,118.5 266.0,116.0 275.2,113.6 284.5,111.1 293.8,108.7 303.0,106.2 312.2,103.8 321.5,101.3 330.8,98.8 340.0,96.4 349.2,93.9 358.5,91.5 367.8,89.1 377.0,86.6 386.2,84.2 395.5,81.7\" fill=\"none\" stroke=\"#6b7260\" stroke-width=\"1.8\" stroke-dasharray=\"6 4\"/><polyline points=\"81.0,155.2 90.2,150.3 99.5,145.4 108.8,140.5 118.0,135.6 127.2,130.7 136.5,125.8 145.8,120.9 155.0,116.0 164.2,111.1 173.5,106.2 182.8,101.3 192.0,96.4 201.2,91.5 210.5,86.6 219.8,81.7 229.0,76.8 238.2,71.9 247.5,67.0 256.8,62.1 266.0,57.2 275.2,52.3 284.5,47.4 293.8,42.5 303.0,37.6 312.2,32.7 321.5,27.8 330.8,22.9 340.0,18.0\" fill=\"none\" stroke=\"#c17f2b\" stroke-width=\"2.2\"/><text x=\"399.5\" y=\"44.6\" text-anchor=\"start\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"10.5\" font-weight=\"600\" fill=\"#2f5d50\">GTK</text><text x=\"399.5\" y=\"81.7\" text-anchor=\"start\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"10.5\" font-weight=\"600\" fill=\"#6b7260\">GVK</text><text x=\"344.0\" y=\"10.0\" text-anchor=\"start\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"10.5\" font-weight=\"600\" fill=\"#c17f2b\">MK</text><circle cx=\"266.0\" cy=\"57.2\" r=\"4\" fill=\"#23291f\"/><line x1=\"266.0\" y1=\"214.0\" x2=\"266.0\" y2=\"57.2\" stroke=\"#6b7260\" stroke-width=\"1\" stroke-dasharray=\"3 3\"/></svg>",
+     "onderschrift": "De gemiddelde totale kost, de gemiddelde variabele kost en de marginale kost. De marginale kost snijdt de gemiddelde totale kost in haar laagste punt."
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>De marginale kosten dalen ook niet altijd</strong>: ook zij hebben de vorm van een u, maar ze bereiken hun laagste punt eerder. <strong>De marginale kosten snijden de gemiddelde kosten precies in het laagste punt van de gemiddelde kosten, in hun minimum.</strong> In de tabel hierboven is dat bij 400 stuks: <strong>het 401ste stuk kost ongeveer 10 euro, en 10 euro is daar ook het gemiddelde</strong>."
+    },
+    {
+     "soort": "weetje",
+     "html": "Dat snijpunt is geen toeval. Kost een extra stuk mínder dan het gemiddelde, dan trekt het het gemiddelde naar beneden. Kost het méér, dan trekt het het gemiddelde omhoog. Het gemiddelde is dus het laagst op het ogenblik dat de marginale kost er precies gelijk aan is."
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Dalende gemiddelde kosten betekenen dat elk stuk minder kost</strong>: bij dezelfde verkoopprijs blijft er per stuk meer over. <strong>Samen met de opbrengsten zeggen de kostencurven hoeveel produceren loont</strong>, en dat is de optimale productiegrootte uit het volgende hoofdstuk."
+    }
+   ]
+  }
+ ],
+ "onthoud": []
+}

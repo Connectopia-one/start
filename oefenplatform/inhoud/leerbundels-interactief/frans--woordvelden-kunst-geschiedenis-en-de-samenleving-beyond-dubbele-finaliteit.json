@@ -1,0 +1,77 @@
+{
+ "vak": "Frans",
+ "titel": "Woordvelden: kunst, geschiedenis en de samenleving",
+ "onder": "Het boek en het theater, de woorden van de geschiedenis, de politiek, de samenleving en het recht.",
+ "secties": [
+  {
+   "kop": "Het boek en het museum",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Frans</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Nederlands</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>un roman</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een <strong>roman</strong>; een Romein is <em>un Romain</em></td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>un auteur</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">de <strong>schrijver</strong> van een boek</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>un chapitre</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een <strong>hoofdstuk</strong></td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>la fiction</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">de <strong>verzonnen verhalen</strong>; waargebeurd is <em>la non-fiction</em></td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>une biographie</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">het verhaal van <strong>iemands leven</strong></td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>une intrigue</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">de <strong>verhaallijn</strong> van een verhaal</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>une rime</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een <strong>rijm</strong>; het ritme in de muziek is <em>le rythme</em></td></tr></table>"
+    },
+    {
+     "soort": "tekst",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Frans</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Nederlands</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>un tableau</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een <strong>schilderij</strong> (en op school ook het bord)</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>une sculpture</strong>, <strong>une statue</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een <strong>beeldhouwwerk</strong></td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>un chef-d'œuvre</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een <strong>meesterwerk</strong></td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>une exposition</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een tentoonstelling</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>une salle</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een zaal</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>le prix d'entrée</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">het inkomgeld</td></tr></table>"
+    },
+    {
+     "soort": "tekst",
+     "html": "<em>Un arbitre</em> hoort hier niet bij: dat is de scheidsrechter, en die staat op een sportveld."
+    }
+   ]
+  },
+  {
+   "kop": "Het theater",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Frans</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Nederlands</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>la scène</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">het <strong>podium</strong> (en ook een scène uit een stuk)</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>le public</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">het <strong>publiek</strong>, de zaal</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>une pièce</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een <strong>toneelstuk</strong> (en ook een kamer of een muntstuk)</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>répéter</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>repeteren</strong>, dus oefenen vóór de voorstelling (en ook herhalen)</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>un chef d'orchestre</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een <strong>dirigent</strong>; een componist is <em>un compositeur</em></td></tr></table>"
+    },
+    {
+     "soort": "tekst",
+     "html": "<em>Une bouilloire</em> is een waterkoker en hoort in de keuken."
+    }
+   ]
+  },
+  {
+   "kop": "Geschiedenis",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Frans</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Nederlands</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>un siècle</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een <strong>eeuw</strong></td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>ancien</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>vroeger of oud</strong>: <em>un ancien élève</em> is een oud-leerling</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>un empire</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een <strong>rijk</strong></td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>un héritier</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een <strong>erfgenaam</strong></td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>une guerre</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een oorlog</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>un traité</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een verdrag</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>une révolution</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een omwenteling</td></tr></table>"
+    },
+    {
+     "soort": "tekst",
+     "html": "<em>Une soucoupe</em> is het schoteltje onder je kopje, en hoort dus niet bij de geschiedenis."
+    }
+   ]
+  },
+  {
+   "kop": "Politiek en bestuur",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Frans</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Nederlands</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>une élection</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een <strong>verkiezing</strong></td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>un parti</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een partij</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>un ministre</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een minister</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>le parlement</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">het parlement</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>le premier ministre</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">de <strong>regeringsleider</strong>, ook in België</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>une loi</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een <strong>wet</strong></td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>un citoyen</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een <strong>burger</strong> van een land</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>manifester</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>betogen</strong></td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>le conseil communal</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">de <strong>gemeenteraad</strong></td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>un sondage</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een <strong>opiniepeiling</strong></td></tr></table>"
+    },
+    {
+     "soort": "tekst",
+     "html": "<em>Une affaire</em> is een zaak of een koopje, geen woord uit de politiek in de enge zin."
+    }
+   ]
+  },
+  {
+   "kop": "De samenleving en het recht",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Frans</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Nederlands</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>la pauvreté</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">de armoede</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>l'égalité</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">de gelijkheid</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>la solidarité</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">de solidariteit</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>la discrimination</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>ongelijke behandeling</strong></td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>une majorité</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een <strong>meerderheid</strong>; een minderheid is <em>une minorité</em></td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>un réfugié</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een <strong>vluchteling</strong></td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>un impôt</strong>, les impôts</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een <strong>belasting</strong></td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>une association caritative</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een <strong>goed doel</strong></td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>faire du bénévolat</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>vrijwillig helpen</strong></td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>un syndicat</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een <strong>vakbond</strong>; een handelsbeurs is <em>un salon</em></td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>les médias</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>de pers en de omroepen</strong></td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>les droits de l'homme</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">de <strong>mensenrechten</strong></td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>le contrôle à la frontière</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">de <strong>grenscontrole</strong></td></tr></table>"
+    },
+    {
+     "soort": "tekst",
+     "html": "Bij het <strong>recht</strong> horen <strong>un juge</strong> (een rechter), <strong>un tribunal</strong> (een rechtbank) en <strong>un avocat</strong> (een advocaat). <em>Un propriétaire</em> is een eigenaar of een huisbaas, en hoort bij het wonen. <em>Un ticket</em> is een kaartje of een kasticket."
+    }
+   ]
+  }
+ ],
+ "onthoud": []
+}

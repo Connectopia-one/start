@@ -1,0 +1,142 @@
+{
+ "vak": "Engels",
+ "titel": "Woordvelden: wetenschap, techniek en taal",
+ "onder": "Onderzoek en resultaten, computers en internetgevaren, en hoe je een onbekend Engels woord uit elkaar haalt.",
+ "secties": [
+  {
+   "kop": "Onderzoek",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Engels</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Nederlands</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">research</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">onderzoek</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">a survey</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een enquête</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">an experiment of a trial</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een proef</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">evidence</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">bewijsmateriaal</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">a sample</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een steekproef of een staal</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">a hypothesis</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een hypothese</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">the findings of a study</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">de resultaten</td></tr></table>"
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong><em>Evidence</em> is in het Engels ontelbaar: je zegt <em>a piece of evidence</em>, niet <em>an evidence</em>.</strong> Hetzelfde geldt voor <em>research</em>, <em>information</em> en <em>advice</em>."
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong><em>Data</em> wordt in wetenschappelijk Engels vaak als meervoud behandeld: <em>the data show…</em></strong> Het enkelvoud is <em>datum</em>, al hoor je in gewone taal ook <em>the data shows</em>."
+    },
+    {
+     "soort": "tekst",
+     "html": "<em>To run a test</em> betekent <strong>een test uitvoeren</strong>, en <strong>a breakthrough</strong> is <strong>een doorbraak</strong>."
+    }
+   ]
+  },
+  {
+   "kop": "Techniek en computers",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Een <strong>device</strong> is een toestel; een <strong>invention</strong> is een uitvinding. Bij een computer horen <strong>a keyboard</strong>, <strong>a screen</strong> en <strong>a hard drive</strong>. <strong>Software</strong> is de programmatuur, het tegengestelde van hardware."
+    },
+    {
+     "soort": "tekst",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Engels</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Nederlands</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">a password</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een wachtwoord</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">a backup</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een veiligheidskopie</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">the system crashed</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">het systeem viel uit</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">artificial intelligence</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">kunstmatige intelligentie</td></tr></table>"
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong><em>To download</em> betekent niet een bestand naar de server sturen</strong>, maar het juist ophalen, naar beneden, naar jouw toestel. Omhoog sturen is <em>to upload</em>."
+    },
+    {
+     "soort": "tekst",
+     "html": "Gevaren op het internet: <strong>phishing</strong>, <strong>a scam</strong> en <strong>malware</strong>."
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong><em>A chemist</em> is in Groot-Brittannië niet altijd iemand die scheikunde studeerde.</strong> <em>Go to the chemist's</em> betekent naar de apotheek gaan, en de apotheker zelf heet ook <em>a chemist</em>."
+    }
+   ]
+  },
+  {
+   "kop": "Een woord uit elkaar halen",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Een <strong>prefix</strong> is <strong>een voorvoegsel</strong>, een suffix een achtervoegsel. Wie de vaste stukjes kent, raadt de helft van de onbekende woorden."
+    },
+    {
+     "soort": "tekst",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">deel</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">wat het doet</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">voorbeeld</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">un-</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">maakt het woord ontkennend</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">unhappy</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">-er</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">de persoon die het doet</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">teacher, van to teach</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">-less</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">zonder</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">careless</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">-ness</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">maakt er een naamwoord van</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">happiness</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">-able</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">het kan gedaan worden</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">readable</td></tr></table>"
+    },
+    {
+     "soort": "tekst",
+     "html": "Het achtervoegsel dat van <em>to teach</em> de persoon maakt, is <strong>-er</strong>: <em>teacher</em>. <strong>Het achtervoegsel <em>-less</em> maakt een woord ontkennend: <em>careless</em> is zonder zorg.</strong>"
+    },
+    {
+     "soort": "tekst",
+     "html": "<em>Unemployment</em> lees je in drie delen: <em>un-</em> (niet) plus <em>employ</em> (tewerkstellen) plus <em>-ment</em> (een toestand). Samen: <strong>werkloosheid</strong>."
+    },
+    {
+     "soort": "tekst",
+     "html": "Een <strong>context clue</strong> is <strong>een aanwijzing in de zin eromheen</strong>. Lees: <em>to raise cattle</em>. Je weet dat <em>to raise</em> opheffen betekent, maar met <em>cattle</em> ernaast wordt het <strong>vee houden</strong>. Het woord eromheen beslist."
+    }
+   ]
+  },
+  {
+   "kop": "Valse vrienden en vaste uitdrukkingen",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Een <strong>false friend</strong> is <strong>een woord dat bedriegt met zijn vorm</strong>: het lijkt op een Nederlands woord en betekent iets anders."
+    },
+    {
+     "soort": "tekst",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Engels</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">lijkt op</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">betekent echt</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">actually</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">actueel</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">eigenlijk, in werkelijkheid</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">eventually</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">eventueel</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">uiteindelijk</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">library</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">librairie, boekwinkel</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">bibliotheek</td></tr></table>"
+    },
+    {
+     "soort": "tekst",
+     "html": "Het woord dat <strong>uiteindelijk</strong> betekent en vaak met eventueel verward wordt, is <strong>eventually</strong>. Eventueel is in het Engels <em>possibly</em> of <em>if necessary</em>."
+    },
+    {
+     "soort": "tekst",
+     "html": "Een <strong>idiom</strong> is <strong>een vaste uitdrukking</strong>, waarvan de betekenis niet uit de losse woorden volgt. Een <strong>loanword</strong> is <strong>een woord uit een andere taal</strong>, zoals <em>rucksack</em> of <em>café</em>."
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Een <em>synonym</em> is geen woord met de tegengestelde betekenis</strong>, maar juist met dezelfde of een bijna gelijke betekenis. Het tegengestelde is een <em>antonym</em>."
+    }
+   ]
+  },
+  {
+   "kop": "Spelling en uitspraak",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Het verschil tussen <em>its</em> en <em>it's</em>: <strong>its is bezittelijk, it's is it is</strong>. De apostrof staat voor de weggelaten letter, niet voor het bezit. Dat is omgekeerd aan wat je zou verwachten, en daarom gaat het zo vaak mis."
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Brits en Amerikaans Engels spellen sommige woorden anders: colour en color.</strong> Ook <em>centre</em> en <em>center</em>, <em>travelled</em> en <em>traveled</em>, <em>realise</em> en <em>realize</em>. Kies één van de twee en blijf er in een tekst bij."
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>In <em>know</em> en <em>write</em> spreek je niet elke letter uit.</strong> De k en de w zijn stom: die stonden er vroeger wel, en de spelling is blijven staan terwijl de uitspraak veranderde."
+    },
+    {
+     "soort": "tekst",
+     "html": "Een <strong>sound</strong> is de klank waarmee je een woord uitspreekt. Manieren van spreken: <strong>formal</strong>, <strong>informal</strong> en <strong>slang</strong>."
+    },
+    {
+     "soort": "tekst",
+     "html": "<em>The word is spelt with a double l</em> betekent <strong>het woord heeft twee l'en</strong>."
+    }
+   ]
+  },
+  {
+   "kop": "Oefen dit ook buiten het scherm",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Op dit platform oefen je lezen, woordenschat en grammatica. Maar <strong>luisteren</strong> is de helft van het examen Engels 1, en Engels 2 bestaat uit <strong>schrijven</strong>, <strong>schriftelijke interactie</strong> en <strong>een gesprek</strong>. Luisteren en spreken leer je niet achter een scherm. Je leert ze door te luisteren naar mensen die echt Engels spreken, en door zelf je mond open te doen, ook als het hakkelt."
+    },
+    {
+     "soort": "kader",
+     "html": "<strong>Deze week:</strong> luister naar een Engelstalige wetenschapspodcast en schrijf vijf nieuwe woorden op; gebruik ze daarna alle vijf hardop in een eigen zin. Doe het één keer, en let daarna op wat je miste of niet gezegd kreeg. Dat is precies je volgende oefening."
+    }
+   ]
+  }
+ ],
+ "onthoud": []
+}

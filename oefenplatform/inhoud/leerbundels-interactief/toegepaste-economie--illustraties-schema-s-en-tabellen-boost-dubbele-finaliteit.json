@@ -1,0 +1,93 @@
+{
+ "vak": "Toegepaste economie",
+ "titel": "Illustraties, schema's en tabellen",
+ "onder": "Beelden invoegen en laten meelopen met de tekst, schema's zoals een organogram, tabellen die alles uitgelijnd houden, en wat de spelling- en grammaticacontrole wel en niet ziet.",
+ "secties": [
+  {
+   "kop": "Illustraties in een document",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "<strong>Een illustratie is een afbeelding of een vorm</strong>: een foto, een pictogram, een vorm of een schema. <strong>Een pictogram is geen foto</strong> maar een eenvoudige tekening van een ding of een idee; <strong>je gebruikt het om iets snel duidelijk te maken</strong>, want een oogje of een winkelkarretje leest sneller dan een woord."
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>De tekstterugloop bepaalt hoe de tekst rond een afbeelding loopt</strong>: vierkant, rondom, boven en onder, achter of voor de tekst. <strong>Met Achter de tekst staat de afbeelding onder de tekst</strong> en loopt de tekst er gewoon over — handig voor een watermerk. <strong>Een ingevoegde afbeelding kan je achteraf gewoon verplaatsen</strong>; de tekstterugloop bepaalt dan hoe de tekst meeschuift."
+    },
+    {
+     "soort": "kader",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">handeling</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">wat ze doet</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>bijsnijden</strong>, ook croppen genoemd</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>de randen van een foto wegsnijden</strong>: de foto blijft heel, je toont er minder van</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>aan een hoekpunt slepen</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>vergroten of verkleinen met de juiste verhouding</strong></td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>aan een zijkant slepen</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>uitrekken in één richting</strong>, en dus de afbeelding vervormen</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>alternatieve tekst invullen</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>een beschrijving van het beeld meegeven</strong>, die een voorleesprogramma voorleest aan wie het beeld niet ziet</td></tr></table>"
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Aan een vorm kan je de vulkleur, de rand en de grootte aanpassen</strong>, en ook een schaduw, een doorzichtigheid en tekst erin. <strong>Een tekstvak is een kader met tekst dat je vrij over de bladzijde schuift</strong>, los van de gewone tekst."
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Niet elke foto op het internet mag je gebruiken.</strong> Haal beeld uit een vrije beeldbank: die zegt uitdrukkelijk wat mag."
+    }
+   ]
+  },
+  {
+   "kop": "Schema's en het organogram",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "<strong>SmartArt is een kant-en-klaar schema</strong>: je typt je tekst en het schema tekent zichzelf. <strong>Je maakt er onder meer een organogram, een stappenplan, een cyclus of een piramide mee.</strong>"
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Een organogram laat zien wie onder wie werkt</strong>: de structuur van een onderneming. <strong>Je ziet er de afdelingen, wie leiding geeft en de hiërarchie</strong>. De omzet staat er niet op; die hoort in de resultatenrekening."
+    },
+    {
+     "soort": "figuur",
+     "html": "<svg viewBox=\"0 0 470 76\" width=\"470\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"0.0\" y=\"6\" width=\"139.3\" height=\"62\" rx=\"10\" fill=\"#ffffff\" stroke=\"#2f5d50\" stroke-width=\"1.8\"/><text x=\"69.7\" y=\"37.0\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"11.5\" font-weight=\"600\" fill=\"#234539\">zaakvoerder</text><path d=\"M144.33333333333334 37.0 h12 m0 0 l-6 -5 m6 5 l-6 5\" stroke=\"#2f5d50\" stroke-width=\"2\" fill=\"none\" stroke-linecap=\"round\"/><rect x=\"165.3\" y=\"6\" width=\"139.3\" height=\"62\" rx=\"10\" fill=\"#ffffff\" stroke=\"#2f5d50\" stroke-width=\"1.8\"/><text x=\"235.0\" y=\"37.0\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"11.5\" font-weight=\"600\" fill=\"#234539\">afdelingshoofd</text><path d=\"M309.6666666666667 37.0 h12 m0 0 l-6 -5 m6 5 l-6 5\" stroke=\"#2f5d50\" stroke-width=\"2\" fill=\"none\" stroke-linecap=\"round\"/><rect x=\"330.7\" y=\"6\" width=\"139.3\" height=\"62\" rx=\"10\" fill=\"#ffffff\" stroke=\"#2f5d50\" stroke-width=\"1.8\"/><text x=\"400.3\" y=\"37.0\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"11.5\" font-weight=\"600\" fill=\"#234539\">medewerker</text></svg>",
+     "onderschrift": "De eenvoudigste vorm van een organogram: drie niveaus onder elkaar."
+    }
+   ]
+  },
+  {
+   "kop": "Tabellen",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "<strong>Een tabel is een raster van cellen</strong>: rijen en kolommen, met in elk vakje een cel. <strong>Een rij loopt horizontaal, een kolom verticaal</strong>, en <strong>een cel ligt op het kruispunt van de twee</strong>."
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Je zet gegevens in een tabel omdat ze dan netjes uitgelijnd blijven</strong>: elke waarde staat onder de vorige, ook als je later iets bijzet. <strong>Een tabel moet daarvoor geen zichtbare randen hebben</strong> — je kan ze wegnemen en de uitlijning blijft."
+    },
+    {
+     "soort": "kader",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">begrip</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">wat het is</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>cellen samenvoegen</strong>, ook mergen genoemd</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>van twee cellen één maken</strong>, handig voor een titel over de hele breedte</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>de koprij</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>de rij met de titels</strong>; je kan ze bovenaan elke bladzijde laten herhalen als de tabel doorloopt</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>wat je kan aanpassen</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>de breedte van een kolom, de randen, de achtergrondkleur van een cel</strong></td></tr></table>"
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>In een handelsdocument is een goed opgemaakte tabel belangrijk</strong>: de bedragen staan onder elkaar, de klant vindt snel wat hij zoekt, en het ziet verzorgd uit. <strong>Een tekstverwerker rekent niet</strong>; dat doet een rekenblad of de boekhoudsoftware."
+    }
+   ]
+  },
+  {
+   "kop": "Spelling-, grammatica- en autocorrectie",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "<strong>De spellingcontrole toont verkeerd gespelde woorden</strong> door elk woord te vergelijken met een woordenlijst. <strong>De grammaticacontrole kijkt naar de zinsbouw</strong>, dus naar de zin en niet naar het losse woord. <strong>Een rode kronkellijn is een melding van de spellingcontrole</strong>; ze staat enkel op je scherm en wordt niet afgedrukt."
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Vertrouw de spellingcontrole niet blind: ze mist fouten in echte woorden.</strong> Typ je “hij word” waar “hij wordt” moet staan, dan staat er een bestaand woord en zwijgt de controle."
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Staat de taal van je document op Engels, dan keurt de controle je Nederlands af</strong> en onderlijnt ze bijna elk woord. Zet de taal van de tekst dus juist."
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>De autocorrectie zet typfouten meteen recht</strong>, maakt van de eerste letter na een punt een hoofdletter en zet rechte aanhalingstekens om naar ronde. <strong>Ze vraagt daarbij geen toestemming</strong>: ze wijzigt meteen, en je maakt het ongedaan met ctrl + z. <strong>Het nadeel is dat ze ook wijzigt wat je wél zo wou</strong>, zoals een afkorting of een merknaam."
+    }
+   ]
+  }
+ ],
+ "onthoud": []
+}

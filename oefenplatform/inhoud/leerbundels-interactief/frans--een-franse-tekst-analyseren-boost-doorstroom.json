@@ -1,0 +1,194 @@
+{
+ "vak": "Frans",
+ "titel": "Een Franse tekst analyseren",
+ "onder": "Het onderwerp en de hoofdgedachte vinden, gegevens uit een tekst halen, en horen wat de schrijver bedoelt.",
+ "secties": [
+  {
+   "kop": "Wat vraagt dit examen van je?",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Het examen <strong>Frans 1</strong> duurt 120 minuten en bestaat volledig uit <strong>lezen</strong> en <strong>luisteren</strong>. Lezen is dus het zwaarste onderdeel dat je hier kan inoefenen, en wie vlot leest, herkent dezelfde woorden ook terug als hij ze hoort."
+    },
+    {
+     "soort": "tekst",
+     "html": "Het ERK-niveau is <strong>B1</strong>, een stap boven de eerste graad. Begrijpen wat er staat is niet genoeg meer: je moet ook <strong>verbanden leggen</strong> tussen delen van een tekst, en informatie halen uit wat er <strong>niet letterlijk</strong> staat."
+    },
+    {
+     "soort": "kader",
+     "html": "Elke leesvraag hieronder staat op een echt Frans tekstje. Een vraag over lezen zonder tekst is geen leesvraag. Lees het tekstje dus eerst helemaal, ook als de vraag maar naar één cijfer vraagt."
+    }
+   ]
+  },
+  {
+   "kop": "Onderwerp, hoofdgedachte en hoofdpunten",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Drie dingen die op elkaar lijken en die je uit elkaar moet houden. Het <strong>onderwerp</strong> is waarover de tekst gaat, en dat zeg je in <strong>enkele woorden</strong>: 'over het uitlenen van elektrische fietsen'. De <strong>hoofdgedachte</strong> is de belangrijkste boodschap, en die zeg je in <strong>een hele zin</strong>: 'Wie een fiets mag proberen, koopt er vaak zelf een.' De <strong>hoofdpunten</strong> zijn de elementen die die hoofdgedachte <strong>ondersteunen</strong>."
+    },
+    {
+     "soort": "figuur",
+     "html": "<svg viewBox=\"0 0 470 196\" width=\"470\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"160\" y=\"8\" width=\"150\" height=\"38\" rx=\"9\" fill=\"#2f5d5018\" stroke=\"#2f5d50\" stroke-width=\"1.6\"/><text x=\"235.0\" y=\"26.0\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"12\" font-weight=\"600\" fill=\"#234539\">onderwerp</text><text x=\"235.0\" y=\"39.0\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"9.5\" fill=\"#6b7260\">één of enkele woorden</text><rect x=\"110\" y=\"54\" width=\"250\" height=\"38\" rx=\"9\" fill=\"#c17f2b18\" stroke=\"#c17f2b\" stroke-width=\"1.6\"/><text x=\"235.0\" y=\"72.0\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"12\" font-weight=\"600\" fill=\"#234539\">hoofdgedachte</text><text x=\"235.0\" y=\"85.0\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"9.5\" fill=\"#6b7260\">de belangrijkste boodschap, in één zin</text><rect x=\"65\" y=\"100\" width=\"340\" height=\"38\" rx=\"9\" fill=\"#2f5d5018\" stroke=\"#2f5d50\" stroke-width=\"1.6\"/><text x=\"235.0\" y=\"118.0\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"12\" font-weight=\"600\" fill=\"#234539\">hoofdpunten</text><text x=\"235.0\" y=\"131.0\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"9.5\" fill=\"#6b7260\">wat die boodschap ondersteunt</text><rect x=\"20\" y=\"146\" width=\"430\" height=\"38\" rx=\"9\" fill=\"#6b726018\" stroke=\"#6b7260\" stroke-width=\"1.6\"/><text x=\"235.0\" y=\"164.0\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"12\" font-weight=\"600\" fill=\"#234539\">details</text><text x=\"235.0\" y=\"177.0\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"9.5\" fill=\"#6b7260\">voorbeelden, cijfers, namen</text></svg>",
+     "onderschrift": "Bovenaan het onderwerp in enkele woorden, daaronder de hoofdgedachte in één zin, onderaan de punten die haar dragen."
+    },
+    {
+     "soort": "tekst",
+     "html": "Antwoord op een vraag naar de hoofdgedachte dus nooit met een los woord, en op een vraag naar het onderwerp nooit met een heel verhaal. Vind je de hoofdgedachte niet meteen, lees dan de <strong>titel</strong> en de <strong>laatste zin</strong> opnieuw: heel vaak werkt een tekst naar zijn slotzin toe."
+    },
+    {
+     "soort": "kader",
+     "html": "<strong>Doe het eens op een echte tekst.</strong> <em>Depuis trois ans, la ville de Namur prête des vélos électriques aux habitants qui travaillent à plus de cinq kilomètres de chez eux. Le prêt dure six semaines et ne coûte rien. L'idée n'est pas de donner un vélo à tout le monde, mais de laisser les gens essayer. Après l'essai, un habitant sur trois achète son propre vélo.</em><br><strong>Onderwerp:</strong> het uitlenen van elektrische fietsen. <strong>Hoofdgedachte:</strong> wie zo'n fiets zes weken mag proberen, koopt er vaak zelf een. <strong>Hoofdpunten:</strong> het leent al drie jaar, het geldt voor wie verder dan vijf kilometer van zijn werk woont, het kost niets, en een inwoner op drie koopt er daarna zelf een."
+    }
+   ]
+  },
+  {
+   "kop": "De teksten waarop je dit oefent",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "De vragen van dit hoofdstuk staan op zes korte teksten. Lees ze hier eerst rustig, dan herken je ze straks meteen terug."
+    },
+    {
+     "soort": "kader",
+     "html": "<strong>Een nieuwsbericht.</strong> <em>Hier soir, un orage violent a traversé le sud du pays. Plusieurs routes ont été fermées pendant deux heures. Il n'y a pas de blessés, mais une centaine de maisons sont restées sans électricité jusqu'à ce matin.</em><br>Gisteravond trok een hevig onweer over het zuiden van het land. Verschillende wegen waren twee uur lang afgesloten. Er vielen geen gewonden, maar een honderdtal huizen zat tot vanochtend zonder stroom."
+    },
+    {
+     "soort": "kader",
+     "html": "<strong>Een stukje over een schoolkantine.</strong> <em>Notre école a changé le menu de la cantine en septembre. Il y a maintenant un plat végétarien tous les jours et moins de viande. Au début, beaucoup d'élèves se sont plaints. Trois mois plus tard, la cantine sert deux fois plus de repas qu'avant. Le cuisinier explique que le secret n'est pas le menu, mais le goût.</em><br>Onze school veranderde in september het menu van de kantine: elke dag een vegetarisch gerecht en minder vlees. In het begin klaagden veel leerlingen. Drie maanden later serveert de kantine dubbel zoveel maaltijden als voordien. De kok legt uit dat het geheim niet het menu is maar de smaak."
+    },
+    {
+     "soort": "kader",
+     "html": "<strong>Een stagebrief.</strong> <em>Madame, Monsieur, Je suis élève en quatrième année et je cherche un stage de deux semaines au mois de février. Je m'intéresse beaucoup au travail de votre laboratoire. Je suis libre tous les jours et je peux venir me présenter quand vous voulez. Je vous remercie d'avance pour votre réponse.</em><br>De schrijver zit in het vierde jaar, zoekt een stage van twee weken in februari, is elke dag vrij en wil zich komen voorstellen wanneer het past."
+    },
+    {
+     "soort": "kader",
+     "html": "<strong>Een stukje over een markt.</strong> <em>Le samedi matin, la place est pleine. On y vend des légumes, du fromage et des fleurs. Les prix sont plus élevés qu'au supermarché, mais les clients reviennent chaque semaine. « Ici, je sais qui a cultivé mes tomates », dit une dame de soixante ans.</em><br>Op zaterdagochtend is het plein vol. Er worden groenten, kaas en bloemen verkocht. De prijzen liggen hoger dan in de supermarkt, en toch komen de klanten elke week terug."
+    },
+    {
+     "soort": "kader",
+     "html": "<strong>Een stukje van een forum.</strong> <em>Marie : J'ai acheté ce casque il y a deux mois et le son est déjà mauvais d'un côté. Quelqu'un a le même problème ? — Yacine : Chez moi, c'était le câble. Je l'ai remplacé pour douze euros et tout fonctionne. — Lila : Moi, j'ai renvoyé le mien. La garantie dure deux ans, profites-en.</em><br>Marie heeft een koptelefoon die aan één kant slecht klinkt. Yacine verving bij hem de kabel voor twaalf euro, Lila stuurde de hare terug met een beroep op de garantie van twee jaar."
+    }
+   ]
+  },
+  {
+   "kop": "Gegevens uit de tekst halen",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "De praktische vraag bij elke tekst is: <strong>informatie selecteren</strong>. Dan hoef je de tekst niet helemaal te begrijpen, je moet er één gegeven uit halen — een aantal weken, een maand, een aantal huizen, een prijs. Zoek dan naar de <strong>vorm</strong> die je nodig hebt, en niet naar alle woorden."
+    },
+    {
+     "soort": "tekst",
+     "html": "Let op de Franse <strong>getalwoorden</strong>, want die staan er voluit: <em>six semaines</em> is zes weken, <em>trois mois plus tard</em> is drie maanden later, <em>deux heures</em> is twee uur, <em>une dame de soixante ans</em> is een dame van zestig. En <em>une centaine de maisons</em> is een honderdtal huizen: ongeveer honderd, niet precies honderd."
+    },
+    {
+     "soort": "figuur",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Frans</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Nederlands</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">prêter, le prêt dure</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">uitlenen, het uitlenen duurt</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">ne coûte rien</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">kost niets</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">un habitant sur trois</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een inwoner op drie</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">une centaine de</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een honderdtal, ongeveer honderd</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">deux fois plus que</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">dubbel zoveel als</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">plus élevé que</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">hoger dan</td></tr></table>",
+     "onderschrift": "Zes manieren waarop een Franse tekst een hoeveelheid uitdrukt."
+    }
+   ]
+  },
+  {
+   "kop": "Tussen de regels lezen",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Op B1-niveau staat het antwoord vaak niet letterlijk in de tekst. Wat je <strong>afleidt</strong>, moet er wel uit volgen. <em>Un habitant sur trois achète son propre vélo</em>: als één op de drie er een koopt, kopen de andere <strong>twee op de drie</strong> er dus geen. Dat staat er niet, en toch is het juist."
+    },
+    {
+     "soort": "tekst",
+     "html": "Pas op voor <strong>ontkenningen</strong>, want die draaien een hele zin om. <em>Il n'y a pas de blessés</em> betekent dat er juist <strong>géén</strong> gewonden zijn. <em>Je ne fais pas d'envoi</em> betekent dat de verkoper niet verstuurt. Lees <em>ne … pas</em> dus altijd mee."
+    },
+    {
+     "soort": "tekst",
+     "html": "En let op <strong>wie wat zegt</strong>. In een forumgesprek komen drie mensen aan het woord: <em>Marie</em> heeft een koptelefoon waarvan het geluid aan één kant slecht is, <em>Yacine</em> verving bij hem de kabel voor twaalf euro, en <em>Lila</em> stuurde de hare terug met een beroep op de garantie van twee jaar. Wie dat door elkaar haalt, antwoordt fout op een vraag die hij nochtans begreep."
+    },
+    {
+     "soort": "weetje",
+     "html": "In <em>« Ici, je sais qui a cultivé mes tomates »</em> zegt de dame dat ze weet wie haar tomaten gekweekt heeft. Ze kweekt ze dus niet zelf: <em>cultiver</em> staat in de verleden tijd en gaat over iemand anders."
+    }
+   ]
+  },
+  {
+   "kop": "De bedoeling en de toon van de schrijver",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Twee vragen die er bij elke tekst bij kunnen komen. De eerste is de <strong>bedoeling</strong>: waarom is deze tekst geschreven? Een stad die haar proef afsluit met een cijfer dat goed nieuws is, wil je <strong>overtuigen</strong> om die fiets eens te proberen. Dat cijfer staat niet toevallig als laatste."
+    },
+    {
+     "soort": "tekst",
+     "html": "De tweede is de <strong>toon</strong>. Een tekst die alleen op een rij zet wat er veranderde en wat het opbracht, is <strong>rustig vaststellend</strong>: er staat geen enkel oordeel in. Vergelijk dat met <strong>boos</strong>, <strong>bezorgd</strong> of <strong>spottend</strong>, waar je telkens de woorden van het oordeel zelf kan aanwijzen. Kan je ze niet aanwijzen, dan is de toon neutraal."
+    },
+    {
+     "soort": "figuur",
+     "html": "<svg viewBox=\"0 0 470 160\" width=\"470\" xmlns=\"http://www.w3.org/2000/svg\"><line x1=\"30\" y1=\"46\" x2=\"440\" y2=\"46\" stroke=\"#e4ded0\" stroke-width=\"8\" stroke-linecap=\"round\"/><circle cx=\"78\" cy=\"46\" r=\"9\" fill=\"#2f5d50\"/><text x=\"78.0\" y=\"28.0\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"11.5\" font-weight=\"600\" fill=\"#234539\">informeel</text><text x=\"78.0\" y=\"76.0\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"9.5\" fill=\"#6b7260\">je beste vriend</text><rect x=\"6\" y=\"88\" width=\"144\" height=\"30\" rx=\"9\" fill=\"#ffffff\" stroke=\"#2f5d50\" stroke-width=\"1.5\"/><text x=\"78.0\" y=\"107.0\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"10.5\" font-weight=\"600\" fill=\"#2f5d50\">Salut, tu m'aides ?</text><circle cx=\"235\" cy=\"46\" r=\"9\" fill=\"#6b7260\"/><text x=\"235.0\" y=\"28.0\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"11.5\" font-weight=\"600\" fill=\"#234539\">neutraal</text><text x=\"235.0\" y=\"76.0\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"9.5\" fill=\"#6b7260\">je trainer</text><rect x=\"163\" y=\"88\" width=\"144\" height=\"30\" rx=\"9\" fill=\"#ffffff\" stroke=\"#6b7260\" stroke-width=\"1.5\"/><text x=\"235.0\" y=\"107.0\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"10.5\" font-weight=\"600\" fill=\"#6b7260\">Tu peux m'aider ?</text><circle cx=\"392\" cy=\"46\" r=\"9\" fill=\"#c17f2b\"/><text x=\"392.0\" y=\"28.0\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"11.5\" font-weight=\"600\" fill=\"#234539\">formeel</text><text x=\"392.0\" y=\"76.0\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"9.5\" fill=\"#6b7260\">een onbekende</text><rect x=\"320\" y=\"88\" width=\"144\" height=\"30\" rx=\"9\" fill=\"#ffffff\" stroke=\"#c17f2b\" stroke-width=\"1.5\"/><text x=\"392.0\" y=\"107.0\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"10.5\" font-weight=\"600\" fill=\"#c17f2b\">Pourriez-vous m'aider ?</text><text x=\"235.0\" y=\"142.0\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"9.5\" fill=\"#6b7260\">Niet één vorm is juist: de situatie en de ontvanger bepalen je keuze.</text></svg>",
+     "onderschrift": "Van heel formeel tot heel familiair; de aanspreking verraadt meteen waar een tekst zit."
+    },
+    {
+     "soort": "tekst",
+     "html": "De toon hangt ook samen met het <strong>register</strong>. <em>Madame, Monsieur</em> als aanhef, <em>vous</em> als aanspreking en <em>je vous remercie d'avance pour votre réponse</em> als slot: dat is een <strong>formele brief</strong>. Dezelfde brief met <em>tu</em> zou ineens veel te familiair klinken."
+    }
+   ]
+  },
+  {
+   "kop": "Verbanden tussen de zinnen",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Een tekst is geen stapel losse zinnen. De kleine woordjes leggen de verbanden, en op dit niveau wordt daar uitdrukkelijk naar gevraagd."
+    },
+    {
+     "soort": "figuur",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Signaal</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Welk verband</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">ne … pas …, mais …</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een tegenstelling tussen twee dingen: niet dit, maar dat</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">mais</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een maar: het zwakt af wat er net gezegd is</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">donc, c'est pourquoi</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een gevolg</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">parce que, car</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een oorzaak of een reden</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">par exemple, ainsi</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een voorbeeld bij de vorige zin</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">en septembre, au début, trois mois plus tard</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een tijdsverloop: de gebeurtenissen na elkaar</td></tr></table>",
+     "onderschrift": "Zes signalen en het verband dat ze aankondigen."
+    },
+    {
+     "soort": "tekst",
+     "html": "<em>L'idée n'est pas de donner un vélo à tout le monde, mais de laisser les gens essayer</em> zet dus twee <strong>bedoelingen</strong> tegenover elkaar. En <em>Il n'y a pas de blessés, mais une centaine de maisons sont restées sans électricité</em> begint geruststellend en komt met dat ene <em>mais</em> toch bij een nadeel uit."
+    },
+    {
+     "soort": "tekst",
+     "html": "Ook een <strong>zin met een cijfer</strong> of een <strong>citaat</strong> heeft een taak in de tekst. <em>Trois mois plus tard, la cantine sert deux fois plus de repas qu'avant</em> komt na de klachten, en laat dus zien dat de verandering <strong>gelukt</strong> is. Het citaat van de dame van zestig komt meteen na de zin over de hogere prijzen, en legt dus uit <strong>waarom</strong> de klanten die prijs toch betalen. Vraag je bij zo'n zin altijd af: wat zou er wegvallen als ze er niet stond?"
+    }
+   ]
+  },
+  {
+   "kop": "Tekstsoorten herkennen, en twee teksten vergelijken",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Je hoeft de soort niet te raden: elke tekstsoort heeft haar eigen vorm. Een <strong>kort nieuwsbericht</strong> opent met een tijdsbepaling (<em>hier soir</em>), geeft feiten en cijfers, en heeft geen mening en geen aanspreking. Een <strong>formele brief</strong> heeft een aanhef en een beleefdheidsformule. Een <strong>forum</strong> is een vraag met antwoorden van verschillende mensen. Een <strong>reclameboodschap</strong> wil je overhalen en een <strong>handleiding</strong> zegt in welke orde je iets doet."
+    },
+    {
+     "soort": "tekst",
+     "html": "Twee teksten over hetzelfde <strong>vergelijken</strong> hoort er op dit niveau ook bij. Een stukje over een markt en een stukje van een forum gaan allebei over kopen, maar het ene <strong>beschrijft</strong> wat er te zien is, en op het andere <strong>geven</strong> mensen elkaar <strong>raad</strong>. Zoek bij zo'n vraag dus niet het verschil in onderwerp, maar het verschil in wat de tekst <em>doet</em>."
+    },
+    {
+     "soort": "figuur",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Frans</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Nederlands</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">essayer, l'essai</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">proberen, de proef</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">se plaindre, une plainte</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">klagen, een klacht</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">un blessé, blesser</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een gewonde, verwonden</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">profiter de</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">gebruikmaken van, profiteren van</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">un stage, être libre</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een stage, vrij zijn</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">la garantie, renvoyer</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">de garantie, terugsturen</td></tr></table>",
+     "onderschrift": "Zes woorden uit de teksten van dit hoofdstuk, met hun familie erbij."
+    },
+    {
+     "soort": "weetje",
+     "html": "<em>Profites-en</em> is <em>profiter</em> in de gebiedende wijs met een <em>en</em> erachter. Dat <em>en</em> verwijst naar waar je van profiteert — hier naar de garantie van twee jaar."
+    }
+   ]
+  },
+  {
+   "kop": "Oefen dit ook buiten het scherm",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Hier oefen je lezen, schrijven, woordenschat en grammatica. Maar het examen <strong>Frans 1</strong> is voor de helft <strong>luisteren</strong>, en <strong>Frans 2</strong> bestaat naast de twee schrijfopdrachten uit een <strong>spreekopdracht</strong> die je thuis opneemt en een <strong>gesprek van tien minuten</strong>. Die drie leer je niet achter een scherm, maar door Frans te horen en zelf Frans te praten, ook als het hakkelt."
+    },
+    {
+     "soort": "kader",
+     "html": "<strong>Deze week:</strong> zoek een kort Frans nieuwsbericht op de radio of in een podcast, en vat het in twee Nederlandse zinnen samen: het onderwerp en de hoofdgedachte. Doe het één keer en let daarna op wat je miste of niet gezegd kreeg. Dat is precies je volgende oefening."
+    }
+   ]
+  }
+ ],
+ "onthoud": []
+}

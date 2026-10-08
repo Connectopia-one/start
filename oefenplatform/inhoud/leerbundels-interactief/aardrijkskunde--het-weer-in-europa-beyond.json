@@ -1,0 +1,121 @@
+{
+ "vak": "Aardrijkskunde",
+ "titel": "Het weer in Europa",
+ "onder": "Fronten en luchtsoorten, de doortocht van een depressie, en hoe je van een weerkaart met isobaren een voorspelling afleidt.",
+ "secties": [
+  {
+   "kop": "Fronten",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Een <strong>front</strong> is <strong>de grens tussen twee luchtsoorten</strong>. Omdat warme en koude lucht zich niet mengen, schuiven ze over en onder elkaar, en net op die grens valt de neerslag."
+    },
+    {
+     "soort": "tekst",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">front</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">wat er gebeurt</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">het weer</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">warmtefront</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">warme lucht schuift traag over koude</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">lange, gelijkmatige regen</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">koufront</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">koude lucht duikt onder de warme</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">korte, hevige buien</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">occlusiefront</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">het koufront haalt het warmtefront in</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">de depressie loopt op haar einde</td></tr></table>"
+    },
+    {
+     "soort": "tekst",
+     "html": "Bij een <strong>warmtefront</strong> horen <strong>een flauwe helling van het frontvlak</strong>, <strong>langdurige, gelijkmatige neerslag</strong> en <strong>hoge sluierwolken vooraf</strong>. Die <strong>hoge sluierwolken</strong> komen dus als eerste aan, soms een dag voor de regen."
+    },
+    {
+     "soort": "tekst",
+     "html": "Een <strong>koufront geeft gewoonlijk kortere maar hevigere neerslag dan een warmtefront</strong>, want de koude lucht wrikt de warme snel en steil omhoog."
+    },
+    {
+     "soort": "tekst",
+     "html": "Bij een <strong>occlusiefront</strong> geldt: <strong>het koufront heeft het warmtefront ingehaald</strong>, <strong>de warme lucht is van de grond getild</strong>, en <strong>de depressie is aan haar einde toe</strong>."
+    },
+    {
+     "soort": "tekst",
+     "html": "Tussen het warmtefront en het koufront van een depressie ligt de <strong>warme sector</strong>: zacht, vochtig en vaak grijs."
+    }
+   ]
+  },
+  {
+   "kop": "Luchtsoorten",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "De vakfiche noemt drie luchtsoorten naar hun herkomst: <strong>arctisch</strong>, <strong>polair</strong> en <strong>tropisch</strong>. Daar komt telkens bij of ze over zee of over land is getrokken: <strong>maritiem</strong> of <strong>continentaal</strong>."
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Maritiem polaire lucht</strong> is dus <strong>koude lucht die over de oceaan is getrokken</strong>: koel en vochtig. <strong>Continentale lucht is droger dan maritieme lucht van dezelfde herkomst</strong>, want boven land neemt ze geen vocht op."
+    },
+    {
+     "soort": "tekst",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">luchtsoort</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">wat ze bij ons brengt</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">arctisch</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">de koudste lucht die ons kan bereiken</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">continentaal polair</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">strenge vorst in de winter</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">maritiem polair</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">koele buien, wisselvallig</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">maritiem tropisch</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">zacht, vochtig en zwaarbewolkt</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">continentaal tropisch</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een hittegolf in de zomer</td></tr></table>"
+    }
+   ]
+  },
+  {
+   "kop": "Een depressie trekt voorbij",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "De depressies die ons weer bepalen ontstaan <strong>op het polaire front boven de oceaan</strong>, waar koude polaire en zachte tropische lucht elkaar raken. Ze bewegen bij ons <strong>van west naar oost</strong>, niet omgekeerd."
+    },
+    {
+     "soort": "tekst",
+     "html": "De doortocht verloopt in deze orde: <strong>warmtefront, warme sector, koufront</strong>. Bij de passage van het <strong>koufront draait de wind en wordt hij plots krachtiger</strong>. Daarna wordt het <strong>niet</strong> zachter met een hele dag bewolking: er komt juist koelere lucht met opklaringen en stapelwolken, met hier en daar een bui."
+    },
+    {
+     "soort": "tekst",
+     "html": "Trekt een depressie ten noorden van ons voorbij, dan draait de wind <strong>van zuidwest naar west en noordwest</strong>."
+    },
+    {
+     "soort": "tekst",
+     "html": "Het weer in België is zo wisselvallig <strong>omdat wij in de baan van de depressies liggen</strong>, tussen de oceaan en het vasteland in."
+    }
+   ]
+  },
+  {
+   "kop": "Een weerkaart lezen",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "De <strong>isobaren</strong> op een weerkaart zijn <strong>lijnen van gelijke luchtdruk</strong>. Een <strong>H</strong> of een <strong>A</strong> boven een gebied is <strong>een hogedrukkern</strong>; een L of een D is een lagedrukkern."
+    },
+    {
+     "soort": "tekst",
+     "html": "Liggen de isobaren <strong>dicht bij elkaar</strong>, dan betekent dat <strong>harde wind</strong>. De wind staat daarbij <strong>bijna parallel met de isobaren</strong>, niet er dwars op: het corioliseffect buigt hem af. <strong>Uit een weerkaart met isobaren kan je dus de windrichting en de windkracht afleiden.</strong>"
+    },
+    {
+     "soort": "tekst",
+     "html": "De fiche noemt de tekens die op een weerkaart staan: <strong>koufront en warmtefront</strong>, <strong>occlusiefront en neerslagzones</strong>, en <strong>drukkernen en isobaren</strong>. Die <strong>neerslagzones liggen rond de fronten van een depressie</strong>, niet rond de kern van een hogedrukgebied: daar is het juist droog."
+    },
+    {
+     "soort": "tekst",
+     "html": "Staan er ook <strong>isothermen</strong> op, dan lees je er <strong>de luchtdruk</strong>, <strong>de temperatuur</strong> en <strong>de drukkernen</strong> van af. De <strong>luchtsoort</strong> rond een drukgebied zegt je <strong>welke temperatuur en vochtigheid er komt</strong>."
+    },
+    {
+     "soort": "tekst",
+     "html": "Om van een weerkaart een voorspelling af te leiden heb je drie dingen nodig: <strong>de ligging van de drukgebieden</strong>, <strong>de stand en de zin van de fronten</strong>, en <strong>de richting waarin alles verschuift</strong>. Zo'n kaart met de verwachte toestand van de atmosfeer voor een bepaald uur heet een <strong>prognosekaart</strong> of synoptische kaart."
+    },
+    {
+     "soort": "kader",
+     "html": "Twee voorbeelden om te oefenen. Een depressie ten westen van Ierland die naar het oosten trekt, geeft morgen bij ons <strong>regen en toenemende wind</strong>. Een hogedrukgebied pal boven Scandinavië in januari geeft bij ons <strong>een droge oostenwind met vorst</strong>: rond een maximum draait de wind met de klok mee, dus komt hij uit het oosten, over bevroren land."
+    }
+   ]
+  },
+  {
+   "kop": "De straalstroom en de grenzen van een voorspelling",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "De <strong>straalstroom</strong> is de smalle band zeer snelle wind op tien kilometer hoogte. Hij <strong>stuurt de baan van de depressies</strong>, en daarom kijkt een weerman eerst naar de hoogtekaart ervan: <strong>die bepaalt waar de storingen naartoe trekken</strong>."
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Als de straalstroom sterk golft, kan hetzelfde weertype weken bij ons blijven hangen.</strong> Een diepe golf houdt een hogedrukgebied of een depressie op zijn plaats."
+    },
+    {
+     "soort": "tekst",
+     "html": "Een weersvoorspelling voor volgende week is <strong>niet</strong> even betrouwbaar als een voor morgen. De atmosfeer versterkt kleine onzekerheden, dus hoe verder vooruit, hoe ruwer de voorspelling."
+    }
+   ]
+  }
+ ],
+ "onthoud": []
+}

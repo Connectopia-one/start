@@ -1,0 +1,161 @@
+{
+ "vak": "Frans",
+ "titel": "Schrijven, schriftelijke interactie en leesbeleving",
+ "onder": "De taalhandelingen van het examen, de opbouw van een verzorgde mail, antwoorden op een bericht, en in het Frans zeggen wat een verhaal met je deed.",
+ "secties": [
+  {
+   "kop": "Wat vraagt een schrijfopdracht?",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Op het examen <strong>Frans 2</strong> staan twee schrijfopdrachten. Elke opdracht heeft een <strong>taalhandeling</strong>: wat je met je tekst wil doen. Dat is het eerste dat je moet vaststellen, want het bepaalt alles wat daarna komt."
+    },
+    {
+     "soort": "figuur",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Taalhandeling</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Wanneer</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Franse zinnen</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">informatie vragen</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een mail naar de gemeente over vrijwilligerswerk</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Pourriez-vous me dire si… / Je voudrais savoir… / J'aimerais avoir des renseignements sur…</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">je mening geven</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een reactie onder een discussie op sociale media</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">À mon avis… / Je trouve que… / Selon moi…</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">iets vertellen</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">in een mail beschrijven hoe een ongeval gebeurd is</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">D'abord… puis… finalement…</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">iets uitleggen</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een blogbericht met tips om vlotter in te slapen</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Je vais vous expliquer comment ça marche.</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">iemand overtuigen</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een castingbureau vragen je inschrijving te aanvaarden</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">D'abord… De plus… Enfin…</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">sociale contacten</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">begroeten, bedanken, uitnodigen, je verontschuldigen, je waardering uiten</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Je vous remercie de votre réponse.</td></tr></table>",
+     "onderschrift": "De taalhandelingen van de vakfiche, met waar je ze tegenkomt."
+    },
+    {
+     "soort": "tekst",
+     "html": "<em>Des renseignements</em> zijn <strong>inlichtingen</strong>: <em>je voudrais des renseignements sur le stage</em>. En <em>expliquer</em> is <strong>uitleggen</strong>, <em>remercier</em> is <strong>bedanken</strong>."
+    },
+    {
+     "soort": "weetje",
+     "html": "Een schrijfopdracht beoordeelt <strong>niet alleen</strong> je grammatica. Of je de taalhandeling uitvoert, of je toon bij de ontvanger past en of je tekst een duidelijke opbouw heeft, telt even goed mee."
+    }
+   ]
+  },
+  {
+   "kop": "Voor je de eerste zin schrijft",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Een <strong>schrijfplan</strong> is een <strong>lijstje kernwoorden</strong> dat je vooraf maakt. Niet de hele tekst eerst in het Nederlands schrijven — dan krijg je een vertaling in plaats van een Franse tekst — en ook geen woordentelling."
+    },
+    {
+     "soort": "tekst",
+     "html": "Stel je daarna de drie vragen van het <strong>communicatiemodel</strong>: <strong>waarom</strong> schrijf ik, <strong>voor wie</strong> is mijn boodschap, en <strong>welk kanaal</strong> gebruik ik? Hoeveel tijd je nog hebt, hoort daar niet bij: dat verandert je tekst niet."
+    },
+    {
+     "soort": "kader",
+     "html": "<strong>Zit je vast, bereik dan je doel met de woorden die je wél kent.</strong> Je kent <em>une perceuse</em> niet? Omschrijf het: <em>un outil pour faire des trous</em>. Dat is beter dan de zin weglaten, een Nederlands woord in je Franse tekst zetten of een woord gebruiken dat iets anders betekent."
+    }
+   ]
+  },
+  {
+   "kop": "De opbouw van een verzorgde mail",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Een verzorgde Franse mail heeft vier delen, en altijd in deze orde."
+    },
+    {
+     "soort": "figuur",
+     "html": "<svg viewBox=\"0 0 470 165.0\" width=\"470\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"4\" y=\"4\" width=\"462\" height=\"30\" rx=\"9\" fill=\"rgba(47,93,80,.07)\" stroke=\"#2f5d50\" stroke-width=\"1.5\"/><text x=\"20\" y=\"16\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"12\" font-weight=\"600\" fill=\"#234539\">de aanhef</text><text x=\"20\" y=\"32\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"10.5\" fill=\"#6b7260\">Madame, Monsieur, / Salut Léa,</text><rect x=\"4\" y=\"42\" width=\"462\" height=\"30\" rx=\"9\" fill=\"rgba(47,93,80,.07)\" stroke=\"#2f5d50\" stroke-width=\"1.5\"/><text x=\"20\" y=\"54\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"12\" font-weight=\"600\" fill=\"#234539\">de reden van je bericht</text><text x=\"20\" y=\"70\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"10.5\" fill=\"#6b7260\">Je vous écris au sujet de votre annonce.</text><rect x=\"4\" y=\"80\" width=\"462\" height=\"39\" rx=\"9\" fill=\"rgba(47,93,80,.07)\" stroke=\"#2f5d50\" stroke-width=\"1.5\"/><text x=\"20\" y=\"96\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"12\" font-weight=\"600\" fill=\"#234539\">de inhoud</text><text x=\"20\" y=\"112\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"10.5\" fill=\"#6b7260\">je vraag, je verhaal, je argumenten</text><rect x=\"4\" y=\"127\" width=\"462\" height=\"30\" rx=\"9\" fill=\"rgba(47,93,80,.07)\" stroke=\"#2f5d50\" stroke-width=\"1.5\"/><text x=\"20\" y=\"139\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"12\" font-weight=\"600\" fill=\"#234539\">de slotformule</text><text x=\"20\" y=\"155\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"10.5\" fill=\"#6b7260\">Cordialement, / Bien à vous,</text></svg>",
+     "onderschrift": "De vier delen van een mail, van boven naar onder."
+    },
+    {
+     "soort": "tekst",
+     "html": "De <strong>reden</strong> zeg je meteen in de eerste zin: <em>Je vous écris au <strong>sujet</strong> de votre annonce</em>, <em>Je me permets de vous contacter pour…</em>, <em>Suite à votre annonce, …</em>. <em>Je vous remercie d'avance</em> hoort daar net niet: dat is een slotzin."
+    },
+    {
+     "soort": "figuur",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Aanhef</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Wanneer</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Salut Léa,</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">aan een vriendin</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Madame, / Monsieur,</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">aan iemand die je niet kent</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Cher Monsieur, / Chère Madame,</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">aan iemand die je al kent</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Monsieur le Directeur,</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">aan iemand met een functie, heel formeel</td></tr></table>",
+     "onderschrift": "Vier aanhefvormen, met de situatie waarin ze passen."
+    },
+    {
+     "soort": "tekst",
+     "html": "Let op twee dingen. <em>Je vous prie d'agréer, Madame, mes salutations distinguées</em> is een <strong>slotformule</strong>, geen aanhef. En een formele mail hou je <strong>helemaal</strong> in de <strong>vous-vorm</strong>, ook in de werkwoorden van de laatste zin: wie halverwege naar <em>tu</em> overschakelt, verliest zijn toon."
+    }
+   ]
+  },
+  {
+   "kop": "Vertellen, uitleggen en overtuigen",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "<strong>Vertellen</strong> wat er gebeurd is, doe je in het Frans met de <strong>passé composé</strong> voor de gebeurtenissen en de <strong>imparfait</strong> voor de achtergrond: <em>Il pleuvait (achtergrond) et la voiture a glissé (gebeurtenis)</em>."
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Overtuigen</strong> doe je met <strong>argumenten</strong>, en dan het best met argumenten waarom de ontvanger er zelf beter van wordt. Zet ze op een rij met <em>d'abord</em>, <em>de plus</em> en <em>enfin</em>. Een opsomming van je gevoelens of een verhaal over je vakantie overtuigt een castingbureau niet."
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Uitnodigen</strong> kan formeel en informeel: <em>Nous serions heureux de vous accueillir le 12 mai</em> tegenover <em>Viens donc, ça va être génial !</em> De eerste is een conditionnel met <em>vous</em>, de tweede een gebiedende wijs met <em>tu</em>."
+    },
+    {
+     "soort": "weetje",
+     "html": "Na <em>je pense que</em> in een <strong>bevestigende</strong> zin komt gewoon de <strong>indicatif</strong>: <em>je pense qu'il est malade</em>. De subjonctif komt pas als je het ontkent of er een vraag van maakt: <em>je ne pense pas qu'il soit malade</em>."
+    }
+   ]
+  },
+  {
+   "kop": "Schriftelijke interactie: antwoorden op een bericht",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Een opdracht waarbij je <strong>op een bericht van iemand anders antwoordt</strong>, heet <strong>schriftelijke interactie</strong>. Daar zit een valkuil in: het bericht stelt vaak meer dan één vraag."
+    },
+    {
+     "soort": "tekst",
+     "html": "De veiligste aanpak is <strong>alle vragen beantwoorden, in dezelfde volgorde</strong> als ze gesteld zijn. Eén vraag kiezen levert punten in, en alles samenvatten in één algemene zin ook. De vragen woord voor woord herhalen hoeft niet: je antwoord mag gewoon duidelijk zijn."
+    },
+    {
+     "soort": "figuur",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Situatie</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Wat je schrijft</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">je verontschuldigt je voor een gemiste afspraak</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Je suis vraiment désolé de ne pas avoir pu venir.</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">iemand verontschuldigt zich bij jou</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Ce n'est pas grave, ne vous inquiétez pas.</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">je bedankt voor een antwoord</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Je vous remercie de votre réponse.</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">je vraagt om inlichtingen</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">J'aimerais avoir des renseignements sur…</td></tr></table>",
+     "onderschrift": "Vier reacties die in een mailgesprek telkens terugkomen."
+    }
+   ]
+  },
+  {
+   "kop": "Leesbeleving: zeggen wat een tekst met je deed",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Bij <strong>leesbeleving</strong> vraagt de fiche iets anders dan begrijpen: dat je in het <strong>Frans je eigen ervaring en je gevoelens verwoordt</strong>. Je hoeft het gedicht dus niet woord voor woord te vertalen, de dichter niet te dateren en het rijmschema niet te benoemen."
+    },
+    {
+     "soort": "figuur",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Frans</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Nederlands</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Cette histoire m'a beaucoup touché.</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Dat verhaal heeft me erg geraakt.</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Ce personnage me ressemble beaucoup.</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Dat personage lijkt veel op mij.</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">La fin m'a surpris parce que…</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Het einde verraste me omdat…</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Je me suis reconnu dans…</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Ik herkende mezelf in…</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Ce passage m'a fait rire.</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Die passage deed me lachen.</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Je n'ai pas aimé, car…</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Ik vond het niet goed, want…</td></tr></table>",
+     "onderschrift": "Zes zinnen om je beleving bij een tekst te verwoorden."
+    },
+    {
+     "soort": "tekst",
+     "html": "<em>Le livre compte deux cent dix pages</em> is géén beleving maar een feit. Zeg dus wat het boek <strong>met jou</strong> deed, en geef er telkens een <strong>reden</strong> bij met <em>parce que</em> of <em>car</em>."
+    }
+   ]
+  },
+  {
+   "kop": "Nalezen, en wat een spellingcontrole niet ziet",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "De fiche vraagt uitdrukkelijk dat je je tekst <strong>grondig naleest</strong> voor je hem indient. Let daarbij op drie dingen: of de <strong>werkwoorden overeenkomen</strong> met hun onderwerp, of de <strong>bijvoeglijke naamwoorden</strong> het juiste geslacht en getal hebben, en of je <strong>overal dezelfde aanspreekvorm</strong> hebt aangehouden."
+    },
+    {
+     "soort": "tekst",
+     "html": "Een <strong>spellingcontrole</strong> helpt je met een vergeten letter, een ontbrekend accent of een dubbele medeklinker te veel. Wat ze <strong>niet</strong> vindt, is een woord dat <strong>juist gespeld is maar niet past</strong>: <em>le père</em> in plaats van <em>la paire</em> ziet geen enkele controle."
+    },
+    {
+     "soort": "kader",
+     "html": "<strong>Geen sms-taal.</strong> Ook aan een leeftijdsgenoot schrijf je in een schrijfopdracht geen afkortingen. Je taal <strong>aanpassen aan de ontvanger</strong> betekent een gepaste toon kiezen, zodat je boodschap beter aankomt — niet de regels laten vallen."
+    }
+   ]
+  },
+  {
+   "kop": "Oefen dit ook buiten het scherm",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Hier oefen je lezen, schrijven, woordenschat en grammatica. Maar het examen <strong>Frans 1</strong> is voor de helft <strong>luisteren</strong>, en <strong>Frans 2</strong> bestaat naast de twee schrijfopdrachten uit een <strong>spreekopdracht</strong> die je thuis opneemt en een <strong>gesprek van tien minuten</strong>. Die drie leer je niet achter een scherm, maar door Frans te horen en zelf Frans te praten, ook als het hakkelt."
+    },
+    {
+     "soort": "kader",
+     "html": "<strong>Deze week:</strong> schrijf een korte Franse mail aan een echte plek waar je stage of vrijwilligerswerk zou willen doen, en lees hem daarna luidop voor: wat je niet kan voorlezen, is meestal ook niet goed geschreven. Doe het één keer en let daarna op wat je miste of niet gezegd kreeg. Dat is precies je volgende oefening."
+    }
+   ]
+  }
+ ],
+ "onthoud": []
+}

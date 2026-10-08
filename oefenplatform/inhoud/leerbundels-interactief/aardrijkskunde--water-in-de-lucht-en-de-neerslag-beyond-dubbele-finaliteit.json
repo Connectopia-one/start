@@ -1,0 +1,168 @@
+{
+ "vak": "Aardrijkskunde",
+ "titel": "Water in de lucht en de neerslag",
+ "onder": "De kringloop van het water, hoe een wolk ontstaat, de soorten neerslag en wat de regen over de aarde verdeelt.",
+ "secties": [
+  {
+   "kop": "De hydrologische cyclus",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "De kringloop van het water op aarde heet de <strong>hydrologische cyclus</strong>. De stappen die erbij horen: <strong>verdamping</strong>, <strong>condensatie</strong> en <strong>neerslag</strong>, met daarna afstroming en infiltratie."
+    },
+    {
+     "soort": "figuur",
+     "html": "<svg viewBox=\"0 0 470 250\" width=\"470\" xmlns=\"http://www.w3.org/2000/svg\"><defs><marker id=\"punt8\" viewBox=\"0 0 10 10\" refX=\"8\" refY=\"5\" markerWidth=\"6\" markerHeight=\"6\" orient=\"auto\"><path d=\"M0 0 L10 5 L0 10 z\" fill=\"#234539\"/></marker><marker id=\"punt9\" viewBox=\"0 0 10 10\" refX=\"8\" refY=\"5\" markerWidth=\"6\" markerHeight=\"6\" orient=\"auto\"><path d=\"M0 0 L10 5 L0 10 z\" fill=\"#5b93b8\"/></marker></defs><rect x=\"0\" y=\"0\" width=\"470\" height=\"236\" fill=\"#dbe9f2\"/><circle cx=\"44\" cy=\"36\" r=\"17\" fill=\"#c17f2b\"/><line x1=\"66.0\" y1=\"36.0\" x2=\"72.0\" y2=\"36.0\" stroke=\"#c17f2b\" stroke-width=\"2\" stroke-linecap=\"round\"/><line x1=\"59.6\" y1=\"51.6\" x2=\"63.8\" y2=\"55.8\" stroke=\"#c17f2b\" stroke-width=\"2\" stroke-linecap=\"round\"/><line x1=\"44.0\" y1=\"58.0\" x2=\"44.0\" y2=\"64.0\" stroke=\"#c17f2b\" stroke-width=\"2\" stroke-linecap=\"round\"/><line x1=\"28.4\" y1=\"51.6\" x2=\"24.2\" y2=\"55.8\" stroke=\"#c17f2b\" stroke-width=\"2\" stroke-linecap=\"round\"/><line x1=\"22.0\" y1=\"36.0\" x2=\"16.0\" y2=\"36.0\" stroke=\"#c17f2b\" stroke-width=\"2\" stroke-linecap=\"round\"/><line x1=\"28.4\" y1=\"20.4\" x2=\"24.2\" y2=\"16.2\" stroke=\"#c17f2b\" stroke-width=\"2\" stroke-linecap=\"round\"/><line x1=\"44.0\" y1=\"14.0\" x2=\"44.0\" y2=\"8.0\" stroke=\"#c17f2b\" stroke-width=\"2\" stroke-linecap=\"round\"/><line x1=\"59.6\" y1=\"20.4\" x2=\"63.8\" y2=\"16.2\" stroke=\"#c17f2b\" stroke-width=\"2\" stroke-linecap=\"round\"/><rect x=\"0\" y=\"150\" width=\"215\" height=\"86\" fill=\"#5b93b8\"/><path d=\"M 215 150 L 272 150 L 330 104 L 372 118 L 430 78 L 470 92 L 470 236 L 215 236 Z\" fill=\"#7ba368\" stroke=\"#234539\" stroke-width=\"1.4\"/><path d=\"M 215 206 L 272 206 L 330 180 L 400 188 L 470 168 L 470 236 L 215 236 Z\" fill=\"#c9b47f\" opacity=\"0.85\"/><ellipse cx=\"192\" cy=\"52\" rx=\"21\" ry=\"14\" fill=\"#ffffff\" stroke=\"#6b7260\" stroke-width=\"1\"/><ellipse cx=\"215\" cy=\"44\" rx=\"27\" ry=\"18\" fill=\"#ffffff\" stroke=\"#6b7260\" stroke-width=\"1\"/><ellipse cx=\"240\" cy=\"53\" rx=\"21\" ry=\"13\" fill=\"#ffffff\" stroke=\"#6b7260\" stroke-width=\"1\"/><path d=\"M 104 146 Q 112 100 148 74\" fill=\"none\" stroke=\"#5b93b8\" stroke-width=\"2.2\" marker-end=\"url(#punt9)\"/><line x1=\"162\" y1=\"70\" x2=\"184\" y2=\"56\" stroke=\"#234539\" stroke-width=\"2\" marker-end=\"url(#punt8)\"/><line x1=\"250\" y1=\"68\" x2=\"253\" y2=\"104\" stroke=\"#5b93b8\" stroke-width=\"2.2\" marker-end=\"url(#punt9)\"/><line x1=\"268\" y1=\"68\" x2=\"271\" y2=\"110\" stroke=\"#5b93b8\" stroke-width=\"2.2\" marker-end=\"url(#punt9)\"/><line x1=\"286\" y1=\"68\" x2=\"289\" y2=\"100\" stroke=\"#5b93b8\" stroke-width=\"2.2\" marker-end=\"url(#punt9)\"/><path d=\"M 424 86 Q 360 122 300 134 Q 252 144 222 150\" fill=\"none\" stroke=\"#5b93b8\" stroke-width=\"2.6\" marker-end=\"url(#punt9)\"/><line x1=\"336\" y1=\"132\" x2=\"340\" y2=\"176\" stroke=\"#5b93b8\" stroke-width=\"2.2\" marker-end=\"url(#punt9)\"/><rect x=\"126.0\" y=\"104.5\" width=\"62.3\" height=\"16.5\" rx=\"4\" fill=\"#ffffff\" opacity=\"0.88\"/><text x=\"126.0\" y=\"114.0\" text-anchor=\"start\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"9.5\" font-weight=\"600\" fill=\"#234539\">verdamping</text><rect x=\"181.3\" y=\"12.5\" width=\"67.5\" height=\"16.5\" rx=\"4\" fill=\"#ffffff\" opacity=\"0.88\"/><text x=\"215.0\" y=\"22.0\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"9.5\" font-weight=\"600\" fill=\"#234539\">condensatie</text><rect x=\"300.0\" y=\"82.5\" width=\"51.8\" height=\"16.5\" rx=\"4\" fill=\"#ffffff\" opacity=\"0.88\"/><text x=\"300.0\" y=\"92.0\" text-anchor=\"start\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"9.5\" font-weight=\"600\" fill=\"#234539\">neerslag</text><rect x=\"244.9\" y=\"148.5\" width=\"62.3\" height=\"16.5\" rx=\"4\" fill=\"#ffffff\" opacity=\"0.88\"/><text x=\"276.0\" y=\"158.0\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"9.5\" font-weight=\"600\" fill=\"#234539\">afstroming</text><rect x=\"348.0\" y=\"174.5\" width=\"67.5\" height=\"16.5\" rx=\"4\" fill=\"#ffffff\" opacity=\"0.88\"/><text x=\"348.0\" y=\"184.0\" text-anchor=\"start\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"9.5\" font-weight=\"600\" fill=\"#234539\">infiltratie</text><rect x=\"228.0\" y=\"216.5\" width=\"62.3\" height=\"16.5\" rx=\"4\" fill=\"#ffffff\" opacity=\"0.88\"/><text x=\"228.0\" y=\"226.0\" text-anchor=\"start\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"9.5\" fill=\"#234539\">grondwater</text></svg>",
+     "onderschrift": "Verdampen, condenseren, neerslaan, afstromen en infiltreren."
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Verdamping</strong> is de overgang van vloeibaar water naar waterdamp; <strong>condensatie</strong> is het omgekeerde: <strong>waterdamp wordt vloeibaar water</strong>. Boven de oceanen verdampt er zoveel <strong>omdat daar een eindeloos groot wateroppervlak is</strong>."
+    },
+    {
+     "soort": "tekst",
+     "html": "Regenwater komt in het grondwater terecht <strong>door infiltratie in de bodem</strong>. <strong>Verharding van de bodem vermindert de infiltratie en vergroot de afstroming</strong>: op beton kan niets wegzakken, dus loopt alles ineens naar de riool."
+    },
+    {
+     "soort": "tekst",
+     "html": "Bomen doen in die kringloop drie dingen: <strong>ze geven water af via hun bladeren</strong>, <strong>ze houden regenwater tegen voor het de grond raakt</strong>, en <strong>ze helpen het water in de bodem dringen</strong> met hun wortels."
+    }
+   ]
+  },
+  {
+   "kop": "Hoeveel water, en waar het zit",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "<strong>Bijna al het water op aarde is zout</strong>: het zoete water is maar ongeveer <strong>drie procent</strong> van het totaal. En van dat zoete water zit <strong>het meeste vast in ijs</strong>, op Antarctica en Groenland. Het water op aarde <strong>neemt niet elk jaar toe</strong>: het is altijd dezelfde voorraad die rondgaat."
+    },
+    {
+     "soort": "tekst",
+     "html": "In die kringloop zitten meer stappen dan verdampen en regenen. <strong>Transpiratie</strong> is het water dat planten via hun <strong>bladeren</strong> laten verdampen, nadat hun wortels het uit de bodem haalden. <strong>Infiltratie</strong> is het <strong>insijpelen van regenwater in de bodem</strong>. Valt de regen op een <strong>verharde oprit</strong>, dan kan hij niet infiltreren en <strong>stroomt hij af naar de riool</strong>."
+    },
+    {
+     "soort": "kader",
+     "html": "<strong>Verwering hoort niet bij de hydrologische cyclus.</strong> Verdamping, condensatie en neerslag wel; verwering is het afbrokkelen van gesteente, en dat is een ander verhaal."
+    }
+   ]
+  },
+  {
+   "kop": "Vochtigheid, dauwpunt en wolken",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "De <strong>absolute luchtvochtigheid</strong> is <strong>de hoeveelheid damp per kubieke meter lucht</strong>. De relatieve luchtvochtigheid zegt hoeveel damp er zit ten opzichte van wat die lucht bij die temperatuur kán dragen; <strong>100 procent</strong> betekent dus dat <strong>de lucht met damp verzadigd is</strong>."
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Warme lucht kan meer waterdamp vasthouden dan koude lucht.</strong> Daarom is er een temperatuur waarbij lucht verzadigd raakt als je haar afkoelt: het <strong>dauwpunt</strong>."
+    },
+    {
+     "soort": "tekst",
+     "html": "'s Morgens hangt er vaak mist boven een weide <strong>omdat de lucht tot onder haar dauwpunt is afgekoeld</strong>. Het verschil met nevel zit in het zicht: bij <strong>mist zie je minder ver dan bij nevel</strong>, dus mist is de dichtste van de twee."
+    },
+    {
+     "soort": "tekst",
+     "html": "Wolken vormen zich vooral in stijgende lucht <strong>omdat stijgende lucht uitzet en daardoor afkoelt</strong>. Waterdamp condenseert dan <strong>op kleine stof- en zoutdeeltjes</strong>."
+    },
+    {
+     "soort": "kader",
+     "html": "Een wolk bestaat <strong>niet</strong> uit waterdamp. Damp is een onzichtbaar gas. Wat je ziet zijn piepkleine <strong>druppeltjes en ijskristallen</strong>; precies omdat de damp al gecondenseerd is, wordt de wolk zichtbaar."
+    }
+   ]
+  },
+  {
+   "kop": "Neerslag meten",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Neerslag wordt gemeten in <strong>millimeter</strong>. Eén millimeter neerslag is <strong>1</strong> liter water per vierkante meter: een laagje van één millimeter over één vierkante meter is precies één liter."
+    },
+    {
+     "soort": "tekst",
+     "html": "In België kan je <strong>regen</strong>, <strong>sneeuw</strong> en <strong>hagel</strong> meemaken, en daarnaast motregen, ijzel en natte sneeuw."
+    },
+    {
+     "soort": "tekst",
+     "html": "In Ukkel valt er gemiddeld ongeveer <strong>850</strong> mm neerslag per jaar. Die valt <strong>niet</strong> vooral in de zomer: bij ons valt er in <strong>alle maanden</strong> neerslag, met hooguit een licht accent in de late herfst."
+    }
+   ]
+  },
+  {
+   "kop": "Drie soorten regen",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">soort</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">hoe hij ontstaat</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">convectieregen</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">sterk opwarmende lucht stijgt op</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">stijgingsregen</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">lucht wordt tegen een gebergte opgedwongen</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">frontale regen</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">warme en koude lucht ontmoeten elkaar</td></tr></table>"
+    },
+    {
+     "soort": "tekst",
+     "html": "Die drie noemt de vakfiche: <strong>convectieregens</strong>, <strong>stijgingsregens</strong> en <strong>frontale regens</strong>. Rond de evenaar regent het zoveel <strong>omdat de sterk opgewarmde lucht er dagelijks opstijgt</strong>: dat is convectie, elke namiddag opnieuw."
+    },
+    {
+     "soort": "tekst",
+     "html": "Bij een gebergte: <strong>de loefzijde krijgt de stijgingsregens</strong>, <strong>aan de lijzijde ligt de regenschaduw</strong>, en <strong>dalende lucht aan de lijzijde droogt uit</strong>. Lucht die aan de lijzijde weer afdaalt <strong>warmt op en droogt verder uit</strong>. Het droge gebied achter een gebergte heet de <strong>regenschaduw</strong>."
+    },
+    {
+     "soort": "tekst",
+     "html": "In de Ardennen valt er meer neerslag dan in Vlaanderen <strong>omdat de lucht er omhoog moet en afkoelt</strong>. In een hooggebergte sneeuwt het vaker dan in de vallei, <strong>omdat het er kouder is dan in de vallei</strong>."
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>In een lagedrukgebied valt er gemiddeld meer neerslag dan in een hogedrukgebied.</strong>"
+    }
+   ]
+  },
+  {
+   "kop": "Wat de neerslag op aarde verdeelt",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "De vakfiche noemt drie groepen factoren: <strong>hoge of lage luchtdruk</strong>, <strong>de zeestromen langs de kust</strong>, en <strong>het reliëf en de ligging ten opzichte van de zee</strong>."
+    },
+    {
+     "soort": "tekst",
+     "html": "Een <strong>koude zeestroom maakt een kust droger</strong>: de lucht erboven koelt van onderen af, blijft laag hangen en stijgt niet op. Daarom is de Atacamawoestijn zo droog: <strong>een koude zeestroom en een regenschaduw samen</strong>."
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Een gebied ver van de zee krijgt meestal minder neerslag dan een kustgebied op dezelfde breedte.</strong> De vochtige lucht heeft dan onderweg al haar water afgegeven."
+    },
+    {
+     "soort": "tekst",
+     "html": "Een <strong>isohyeet</strong> is een lijn op een kaart die plaatsen met dezelfde neerslag verbindt, niet met dezelfde temperatuur. <strong>Liggen de isohyeten ver uit elkaar, dan verandert de neerslag er traag over de afstand.</strong>"
+    }
+   ]
+  },
+  {
+   "kop": "Fronten, moessons en waar de regen valt",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Een <strong>front</strong> is de <strong>grens tussen twee luchtmassa's</strong> met een andere temperatuur en vochtigheid. Aan een <strong>warmtefront</strong> schuift <strong>de warme lucht</strong> over de koude heen en <strong>stijgt dus op</strong>; aan een koufront duwt de koude lucht de warme omhoog. In beide gevallen stijgt de warme lucht, en dus valt er regen. <strong>Bij ons komt de meeste neerslag van fronten uit het westen</strong>, meegevoerd door depressies over de oceaan."
+    },
+    {
+     "soort": "tekst",
+     "html": "Een <strong>moesson</strong> is <strong>een wind die van seizoen omkeert</strong>: in de zomer van de koele zee naar het warme land, met zware regens, en in de winter andersom, droog. Het is dus geen storm en geen droogteperiode."
+    },
+    {
+     "soort": "tekst",
+     "html": "De <strong>ITCZ</strong>, de zone waar de passaten samenkomen, is de plek waar <strong>convectieregens het hele jaar</strong> vallen. Daarom valt <strong>de meeste neerslag op aarde rond de evenaar</strong>."
+    },
+    {
+     "soort": "tekst",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Droog gebied</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Waarom</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">de <strong>Sahara</strong>, de <strong>Kalahari</strong>, de woestijnen van <strong>Australië</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">hoge luchtdruk: de lucht <strong>daalt er en warmt op</strong>, en dalende lucht geeft geen wolken</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">het binnenland van <strong>Azië</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">de <strong>zee ligt er heel ver weg</strong>, dus er komt geen vochtige lucht meer toe</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">de <strong>polen</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">zo koude lucht kan bijna geen waterdamp bevatten; het zijn <strong>droge</strong> gebieden, ondanks al het ijs</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">de kust bij een <strong>koude zeestroom</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">koud water geeft weinig verdamping, dus wordt die kust <strong>droger</strong> en niet natter</td></tr></table>"
+    },
+    {
+     "soort": "tekst",
+     "html": "Het <strong>Amazonewoud</strong> hoort niet in die lijst: daar stijgt de lucht juist op, en dus regent het er voortdurend. Zakt lucht over een bergketen weer naar beneden, dan <strong>warmt ze op en droogt ze uit</strong>: dat is de reden voor de regenschaduw achter elke bergrug."
+    },
+    {
+     "soort": "kader",
+     "html": "In <strong>België</strong> valt gemiddeld ongeveer <strong>800 millimeter</strong> neerslag per jaar, en die is over alle maanden verdeeld: <strong>bij ons valt de meeste regen niet in de zomer</strong>, de herfst en de winter zijn natter. In de <strong>Ardennen</strong> valt wel meer dan in Limburg, want <strong>de lucht moet daar omhoog</strong> over het hoogland."
+    }
+   ]
+  }
+ ],
+ "onthoud": []
+}

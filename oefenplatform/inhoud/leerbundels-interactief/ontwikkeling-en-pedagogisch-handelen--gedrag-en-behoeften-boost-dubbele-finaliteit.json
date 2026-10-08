@@ -1,0 +1,85 @@
+{
+ "vak": "Ontwikkeling en pedagogisch handelen",
+ "titel": "Gedrag en behoeften",
+ "onder": "De soorten gedrag en wat het beïnvloedt, wat achter moeilijk gedrag zit, de behoeftepiramide van Maslow, en de zes basisbehoeften van Kind en Gezin.",
+ "secties": [
+  {
+   "kop": "Wat gedrag is",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "<strong>Gedrag is alles wat een mens doet, zegt, denkt en voelt.</strong> Denken en voelen horen er dus ook bij, ook al zie je ze niet."
+    },
+    {
+     "soort": "kader",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">soort gedrag</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">wat het is</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>waarneembaar gedrag</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>je kan het zien</strong>: lopen, praten, lachen, wegduwen</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>niet-waarneembaar gedrag</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>denken en voelen</strong>, en willen; je ziet het niet en toch is het gedrag</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>reflexmatig gedrag</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>het gaat automatisch</strong>: je hand wegtrekken van een hete pan</td></tr></table>"
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Reflexmatig gedrag kies je dus niet zelf</strong>: het gebeurt zonder dat je erover nadenkt."
+    }
+   ]
+  },
+  {
+   "kop": "Wat gedrag beïnvloedt",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "<strong>Gedrag wordt beïnvloed door biologische, psychologische, cognitieve en sociale factoren</strong> samen."
+    },
+    {
+     "soort": "kader",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">factor</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">voorbeeld</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>biologisch</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>honger of moeheid</strong>, en ook dorst, pijn of ziekte</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>psychologisch</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">je gevoelens, je karakter, je zelfvertrouwen</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>cognitief</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>wat je denkt en weet</strong>: je kennis en wat je van een situatie begrijpt</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>sociaal</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>de mening van de groep</strong>, en wat het gezin of de cultuur verwacht</td></tr></table>"
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Twee kinderen reageren anders op hetzelfde omdat hun factoren verschillen</strong>: elk kind brengt een ander lichaam, een andere ervaring en een andere omgeving mee. <strong>Honger kan het gedrag van een kind dus echt veranderen.</strong>"
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Stelt een kind moeilijk gedrag, dan zoek je eerst de oorzaak.</strong> Gedrag is een signaal: eerst kijken wat eronder zit, dan pas handelen. <strong>Achter moeilijk gedrag zit vaak een behoefte die niet vervuld is</strong>: honger, moeheid, angst of te weinig aandacht komen er als gedrag uit."
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Een behoefte is iets wat je nodig hebt</strong>, en dat is niet hetzelfde als een wens: een behoefte is noodzakelijk, een wens is iets wat leuk zou zijn."
+    }
+   ]
+  },
+  {
+   "kop": "De behoeftepiramide van Maslow",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "<strong>Maslow maakte de behoeftepiramide</strong> en ordende daarin de behoeften van de mens. <strong>De onderste komt eerst</strong>: pas als de lagere behoeften vervuld zijn, komen de hogere aan de beurt."
+    },
+    {
+     "soort": "figuur",
+     "html": "<svg viewBox=\"0 0 470 216\" width=\"470\" xmlns=\"http://www.w3.org/2000/svg\"><path d=\"M72.0 8 H168.0 L190.4 45 H49.6 Z\" fill=\"#2f5d50\" stroke=\"#ffffff\" stroke-width=\"1.5\"/><text x=\"120.0\" y=\"28.0\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"10.5\" font-weight=\"600\" fill=\"#ffffff\">zelfactualisatie</text><line x1=\"200.4\" y1=\"28.0\" x2=\"302.0\" y2=\"28.0\" stroke=\"#e4ded0\" stroke-width=\"1.2\"/><text x=\"310.0\" y=\"28.0\" dominant-baseline=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"9.5\" fill=\"#6b7260\">worden wie je ten volle kan zijn</text><path d=\"M49.6 48 H190.4 L212.8 85 H27.2 Z\" fill=\"#3f6f5f\" stroke=\"#ffffff\" stroke-width=\"1.5\"/><text x=\"120.0\" y=\"68.0\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"10.5\" font-weight=\"600\" fill=\"#ffffff\">erkenning</text><line x1=\"222.8\" y1=\"68.0\" x2=\"302.0\" y2=\"68.0\" stroke=\"#e4ded0\" stroke-width=\"1.2\"/><text x=\"310.0\" y=\"68.0\" dominant-baseline=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"9.5\" fill=\"#6b7260\">gewaardeerd worden om wie je bent</text><path d=\"M27.2 88 H212.8 L235.2 125 H4.8 Z\" fill=\"#5b8878\" stroke=\"#ffffff\" stroke-width=\"1.5\"/><text x=\"120.0\" y=\"108.0\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"10.5\" font-weight=\"600\" fill=\"#ffffff\">sociaal contact</text><line x1=\"245.2\" y1=\"108.0\" x2=\"302.0\" y2=\"108.0\" stroke=\"#e4ded0\" stroke-width=\"1.2\"/><text x=\"310.0\" y=\"108.0\" dominant-baseline=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"9.5\" fill=\"#6b7260\">ergens bij horen, vrienden hebben</text><path d=\"M4.8 128 H235.2 L257.6 165 H-17.6 Z\" fill=\"#84a99b\" stroke=\"#ffffff\" stroke-width=\"1.5\"/><text x=\"120.0\" y=\"148.0\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"10.5\" font-weight=\"600\" fill=\"#234539\">zekerheid</text><line x1=\"267.6\" y1=\"148.0\" x2=\"302.0\" y2=\"148.0\" stroke=\"#e4ded0\" stroke-width=\"1.2\"/><text x=\"310.0\" y=\"148.0\" dominant-baseline=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"9.5\" fill=\"#6b7260\">veiligheid, een dak, een vast ritme</text><path d=\"M-17.6 168 H257.6 L280.0 205 H-40.0 Z\" fill=\"#b4c9bf\" stroke=\"#ffffff\" stroke-width=\"1.5\"/><text x=\"120.0\" y=\"188.0\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"10.5\" font-weight=\"600\" fill=\"#234539\">fysieke behoeften</text><line x1=\"290.0\" y1=\"188.0\" x2=\"302.0\" y2=\"188.0\" stroke=\"#e4ded0\" stroke-width=\"1.2\"/><text x=\"310.0\" y=\"188.0\" dominant-baseline=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"9.5\" fill=\"#6b7260\">eten, drinken, slapen, warmte</text></svg>",
+     "onderschrift": ""
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>De fysieke behoeften staan onderaan</strong> en <strong>de zelfactualisatie bovenaan</strong>. <strong>Zelfactualisatie of zelfontplooiing is worden wie je kan zijn, je talenten gebruiken en jezelf ontplooien.</strong>"
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Een hongerig kind kan niet goed leren omdat de fysieke behoefte voorgaat.</strong> De onderste laag van de piramide eist eerst aandacht, dus het leert niet even goed als een ander."
+    }
+   ]
+  },
+  {
+   "kop": "De zes basisbehoeften van Kind en Gezin",
+   "blokken": [
+    {
+     "soort": "kader",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">basisbehoefte</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">wat het kind nodig heeft</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>de lichamelijke behoeften</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">eten, drinken, slapen, verzorging</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>affectie</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>warmte en liefde krijgen</strong>: knuffels en nabijheid</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>veiligheid</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>duidelijkheid en continuïteit</strong>: vaste mensen, vaste afspraken</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>erkenning</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">gezien en bevestigd worden om wie het is</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>zichzelf als kundig ervaren</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>het kind voelt dat het iets kan</strong>: zijn jas dichtdoen, een toren bouwen</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>zingeving</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>weten waarom iets telt</strong>: zin en morele waarden</td></tr></table>"
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Affectie betekent warmte en liefde, geen regels en grenzen</strong>; die horen bij veiligheid en duidelijkheid. <strong>Je helpt een kind zichzelf als kundig te voelen door het zelf te laten proberen</strong>, met hulp in de buurt."
+    }
+   ]
+  }
+ ],
+ "onthoud": []
+}

@@ -1,0 +1,130 @@
+{
+ "vak": "Aardrijkskunde",
+ "titel": "De maan, getijden en verduisteringen",
+ "onder": "De omloop en de schijngestalten van de maan, hoe spring- en doodtij ontstaan, en waarom er niet elke maand een verduistering is.",
+ "secties": [
+  {
+   "kop": "De omloop van de maan",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "De maan doet over één omloop rond de aarde ten opzichte van de sterren <strong>ongeveer 27 dagen</strong>. Tussen twee keer nieuwe maan zitten er <strong>29,5</strong> dagen: in die 27 dagen is de aarde zelf ook een stuk rond de zon geschoven, dus moet de maan nog twee dagen verder om weer precies tussen aarde en zon te staan."
+    },
+    {
+     "soort": "tekst",
+     "html": "De maan draait <strong>van west naar oost, zoals de aarde zelf draait</strong>. Haar baan <strong>is elliptisch, geen volmaakte cirkel</strong>, <strong>staat een kleine hoek scheef op de aardbaan</strong> en <strong>wordt in dezelfde zin afgelegd als de aardrotatie</strong>."
+    },
+    {
+     "soort": "tekst",
+     "html": "We zien altijd dezelfde kant van de maan <strong>omdat haar rotatie even lang duurt als haar omloop</strong>. Dat heet <strong>gebonden rotatie</strong>. Let op: de achterkant krijgt wél zonlicht, net zoveel als de voorkant. Hij heet de verre kant, niet de donkere."
+    },
+    {
+     "soort": "tekst",
+     "html": "De maan staat ongeveer <strong>384 000</strong> km van de aarde en legt haar baan af met <strong>ruim 1 km per seconde</strong>. Omdat ze elke dag een stuk opschuift, komt ze <strong>niet</strong> elke avond op hetzelfde tijdstip op: ze is elke dag ongeveer vijftig minuten later."
+    }
+   ]
+  },
+  {
+   "kop": "De maan zelf",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Over de maan geldt: <strong>ze heeft geen eigen licht</strong>, <strong>ze heeft geen noemenswaardige atmosfeer</strong> en <strong>ze draait in gebonden rotatie rond de aarde</strong>."
+    },
+    {
+     "soort": "tekst",
+     "html": "De zwaartekracht aan het oppervlak van de maan is <strong>ongeveer een zesde</strong> van die op aarde. <strong>Op de maan is er geen vloeibaar water aan het oppervlak.</strong>"
+    },
+    {
+     "soort": "tekst",
+     "html": "De donkere vlakten die je op de maan ziet, de zogenaamde zeeën, bestaan uit <strong>uitgevloeide lava van heel lang geleden</strong>."
+    },
+    {
+     "soort": "tekst",
+     "html": "De voetstappen van de maanlandingen liggen er nog, om drie redenen samen: <strong>er waait geen wind op de maan</strong>, <strong>er valt geen neerslag op de maan</strong>, en <strong>er is bijna geen verwering of erosie</strong>."
+    }
+   ]
+  },
+  {
+   "kop": "De schijngestalten",
+   "blokken": [
+    {
+     "soort": "figuur",
+     "html": "<svg viewBox=\"0 0 470 186\" width=\"470\" xmlns=\"http://www.w3.org/2000/svg\"><circle cx=\"58.8\" cy=\"34\" r=\"21\" fill=\"#234539\" stroke=\"#234539\" stroke-width=\"1.2\"/><text x=\"58.8\" y=\"70.0\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"9.5\" fill=\"#234539\">nieuwe</text><text x=\"58.8\" y=\"82.0\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"9.5\" fill=\"#234539\">maan</text><circle cx=\"176.2\" cy=\"34\" r=\"21\" fill=\"#234539\" stroke=\"#234539\" stroke-width=\"1.2\"/><path d=\"M176.25 13 A 21 21 0 0 1 176.25 55 A 14.85 21 0 0 0 176.25 13 Z\" fill=\"#f2efe4\"/><text x=\"176.2\" y=\"70.0\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"9.5\" fill=\"#234539\">wassende</text><text x=\"176.2\" y=\"82.0\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"9.5\" fill=\"#234539\">sikkel</text><circle cx=\"293.8\" cy=\"34\" r=\"21\" fill=\"#234539\" stroke=\"#234539\" stroke-width=\"1.2\"/><path d=\"M293.75 13 A 21 21 0 0 1 293.75 55 A 0.00 21 0 0 0 293.75 13 Z\" fill=\"#f2efe4\"/><text x=\"293.8\" y=\"70.0\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"9.5\" fill=\"#234539\">eerste</text><text x=\"293.8\" y=\"82.0\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"9.5\" fill=\"#234539\">kwartier</text><circle cx=\"411.2\" cy=\"34\" r=\"21\" fill=\"#234539\" stroke=\"#234539\" stroke-width=\"1.2\"/><path d=\"M411.25 13 A 21 21 0 0 1 411.25 55 A 14.85 21 0 0 1 411.25 13 Z\" fill=\"#f2efe4\"/><text x=\"411.2\" y=\"70.0\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"9.5\" fill=\"#234539\">wassende</text><text x=\"411.2\" y=\"82.0\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"9.5\" fill=\"#234539\">maan</text><circle cx=\"58.8\" cy=\"120\" r=\"21\" fill=\"#234539\" stroke=\"#234539\" stroke-width=\"1.2\"/><path d=\"M58.75 99 A 21 21 0 0 0 58.75 141 A 21.00 21 0 0 0 58.75 99 Z\" fill=\"#f2efe4\"/><text x=\"58.8\" y=\"156.0\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"9.5\" fill=\"#234539\">volle</text><text x=\"58.8\" y=\"168.0\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"9.5\" fill=\"#234539\">maan</text><circle cx=\"176.2\" cy=\"120\" r=\"21\" fill=\"#234539\" stroke=\"#234539\" stroke-width=\"1.2\"/><path d=\"M176.25 99 A 21 21 0 0 0 176.25 141 A 14.85 21 0 0 0 176.25 99 Z\" fill=\"#f2efe4\"/><text x=\"176.2\" y=\"156.0\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"9.5\" fill=\"#234539\">afnemende</text><text x=\"176.2\" y=\"168.0\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"9.5\" fill=\"#234539\">maan</text><circle cx=\"293.8\" cy=\"120\" r=\"21\" fill=\"#234539\" stroke=\"#234539\" stroke-width=\"1.2\"/><path d=\"M293.75 99 A 21 21 0 0 0 293.75 141 A 0.00 21 0 0 0 293.75 99 Z\" fill=\"#f2efe4\"/><text x=\"293.8\" y=\"156.0\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"9.5\" fill=\"#234539\">laatste</text><text x=\"293.8\" y=\"168.0\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"9.5\" fill=\"#234539\">kwartier</text><circle cx=\"411.2\" cy=\"120\" r=\"21\" fill=\"#234539\" stroke=\"#234539\" stroke-width=\"1.2\"/><path d=\"M411.25 99 A 21 21 0 0 0 411.25 141 A 14.85 21 0 0 1 411.25 99 Z\" fill=\"#f2efe4\"/><text x=\"411.2\" y=\"156.0\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"9.5\" fill=\"#234539\">afnemende</text><text x=\"411.2\" y=\"168.0\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"9.5\" fill=\"#234539\">sikkel</text><text x=\"235.0\" y=\"180.0\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"9.5\" fill=\"#6b7260\">De zon verlicht altijd de helft van de maan. Je kijkt er alleen elke avond anders tegenaan.</text></svg>",
+     "onderschrift": "De schijngestalten: nieuwe maan, eerste kwartier, volle maan, laatste kwartier."
+    },
+    {
+     "soort": "tekst",
+     "html": "Bij <strong>nieuwe maan</strong> zie je <strong>niets: de maan staat tussen aarde en zon</strong>, dus haar verlichte kant wijst van ons weg. Bij <strong>volle maan</strong> zie je <strong>de hele verlichte kant van de maan</strong>."
+    },
+    {
+     "soort": "tekst",
+     "html": "De orde vanaf nieuwe maan is: <strong>nieuwe maan, eerste kwartier, volle maan, laatste kwartier</strong>. Het <strong>eerste kwartier</strong> is de schijngestalte waarbij je precies de helft ziet en ze <strong>groeit</strong>. Het <strong>laatste kwartier</strong> is de halve maan die elke avond <strong>kleiner</strong> wordt."
+    },
+    {
+     "soort": "tekst",
+     "html": "Een <strong>wassende</strong> maan wordt elke avond een stukje groter, een afnemende maan elke avond kleiner."
+    }
+   ]
+  },
+  {
+   "kop": "Eb en vloed",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "De getijden worden veroorzaakt door <strong>de aantrekking van de maan en de zon</strong>. De zon speelt dus wel degelijk een rol, al is haar aandeel ongeveer de helft van dat van de maan."
+    },
+    {
+     "soort": "tekst",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">woord</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">wat het betekent</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">vloed</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">het stijgen van het water</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">hoogtij of hoogwater</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">het hoogste punt</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">eb</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">het zakken van het water</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">laagtij of laagwater</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">het laagste punt</td></tr></table>"
+    },
+    {
+     "soort": "tekst",
+     "html": "Het verschil tussen <strong>eb</strong> en <strong>laagtij</strong> zit hem daarin: <strong>eb is het zakken, laagtij is het laagste punt</strong>. Aan onze kust is het <strong>twee keer</strong> per etmaal hoogtij."
+    },
+    {
+     "soort": "tekst",
+     "html": "Staan zon, aarde en maan op één lijn, dan trekken zon en maan samen en krijg je <strong>springtij</strong>: <strong>bij springtij is het verschil tussen hoog- en laagwater groter dan gewoonlijk</strong>. Dat gebeurt <strong>bij nieuwe maan en bij volle maan</strong>. Staan ze in een rechte hoek, dan werken ze tegen elkaar in en krijg je <strong>doodtij</strong>, met een klein verschil tussen hoog en laag: <strong>bij het eerste en het laatste kwartier</strong>."
+    },
+    {
+     "soort": "tekst",
+     "html": "Bij de getijden horen dus de begrippen <strong>vloed</strong>, <strong>springtij</strong> en <strong>doodtij</strong>."
+    },
+    {
+     "soort": "weetje",
+     "html": "Een getijdencentrale werkt op de <strong>getijdenstroom</strong>, niet op de wind boven de zee. Ze laat het in- en uitstromende water door turbines gaan. Het voordeel is dat getijden tot op de minuut voorspelbaar zijn, anders dan wind."
+    }
+   ]
+  },
+  {
+   "kop": "Zons- en maansverduisteringen",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Bij een <strong>zonsverduistering</strong> staat <strong>de maan</strong> tussen de andere twee. Dat kan alleen bij <strong>nieuwe maan</strong>. Bij een <strong>maansverduistering</strong> <strong>werpt de aarde haar schaduw op de maan</strong>, en dat kan alleen bij volle maan."
+    },
+    {
+     "soort": "tekst",
+     "html": "Er is <strong>niet élke maand</strong> een verduistering, <strong>omdat de maanbaan scheef staat op de aardbaan</strong>. Meestal schuift de maan er net boven of net onder langs. Alleen waar de twee banen elkaar kruisen, in een <strong>knoop</strong>, kan het."
+    },
+    {
+     "soort": "tekst",
+     "html": "Voor een <strong>totale zonsverduistering</strong> moeten drie dingen samenvallen: <strong>het is nieuwe maan</strong>, <strong>de maan staat dicht bij een knoop van haar baan</strong>, en <strong>je staat binnen de kernschaduw van de maan</strong>."
+    },
+    {
+     "soort": "tekst",
+     "html": "Over die schaduw: <strong>in de kernschaduw is de zon volledig bedekt</strong>, <strong>in de bijschaduw zie je een gedeeltelijke verduistering</strong>, en <strong>de kernschaduw is maar een paar honderd km breed</strong>. Daarom is <strong>een maansverduistering op het hele nachtelijke halfrond te zien, en een totale zonsverduistering maar in een smalle strook</strong>."
+    },
+    {
+     "soort": "tekst",
+     "html": "Dat de zon en de maan aan onze hemel ongeveer even groot lijken, is toeval: <strong>de zon is veel groter maar staat ook veel verder</strong>. De zon is ongeveer 400 keer zo groot én ongeveer 400 keer zo ver."
+    },
+    {
+     "soort": "tekst",
+     "html": "Bij een totale maansverduistering ziet de maan er vaak roodachtig uit, want <strong>zonlicht wordt door onze atmosfeer rood gebogen</strong> en valt zo toch nog op de maan. Je ziet er eigenlijk alle zonsondergangen van de aarde tegelijk op geschenen."
+    }
+   ]
+  }
+ ],
+ "onthoud": []
+}

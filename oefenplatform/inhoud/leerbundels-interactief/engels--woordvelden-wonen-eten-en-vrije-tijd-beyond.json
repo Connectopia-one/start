@@ -1,0 +1,130 @@
+{
+ "vak": "Engels",
+ "titel": "Woordvelden: wonen, eten en vrije tijd",
+ "onder": "Huren en samenwonen, het huishouden, een restaurant in Engeland, en de taal van sport en vrije tijd.",
+ "secties": [
+  {
+   "kop": "Huren en wonen",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Engels</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Nederlands</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">a landlord</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">de eigenaar van een huurwoning, een man</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">a tenant</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">iemand die een woning huurt</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">a lodger</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">iemand die bij iemand een kamer huurt</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">a flatmate</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">iemand met wie je samenwoont</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">a neighbour</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een buur</td></tr></table>"
+    },
+    {
+     "soort": "tekst",
+     "html": "Let op het verschil tussen <strong>a tenant</strong> en <strong>a lodger</strong>: een tenant huurt een hele woning, een lodger huurt een kamer in het huis van iemand anders, die er zelf ook woont."
+    },
+    {
+     "soort": "tekst",
+     "html": "Wat een woning je kost: <strong>the rent</strong>, <strong>the bills</strong> en <strong>the deposit</strong>. <em>The rent is due on the first of the month</em> betekent <strong>de huur moet de eerste betaald zijn</strong>. <em>The flat is fully furnished</em> betekent <strong>het appartement is volledig gemeubeld</strong>."
+    },
+    {
+     "soort": "tekst",
+     "html": "Soorten woningen: <strong>a ground floor</strong>, <strong>a semi-detached house</strong> en <strong>a terraced house</strong>. Een <strong>semi-detached house</strong> is <strong>een halfopen bebouwing</strong>: twee huizen aan elkaar. Een terraced house is een rijwoning."
+    },
+    {
+     "soort": "kader",
+     "html": "<strong>In het Brits Engels is <em>the first floor</em> niet de gelijkvloerse verdieping.</strong> De gelijkvloers is <em>the ground floor</em>, en <em>the first floor</em> is de verdieping daarboven, bij ons de eerste. Een Amerikaan telt wél zoals een lift bij ons: first floor is daar de begane grond."
+    },
+    {
+     "soort": "tekst",
+     "html": "<em>To move house</em> betekent <strong>van woning veranderen</strong>, en <em>we live within walking distance of the station</em> betekent <strong>het station is te voet bereikbaar</strong>."
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong><em>A cosy room</em> is geen kleine kamer met weinig licht</strong>, maar een gezellige, behaaglijke kamer. Het is een lofbetuiging, geen klacht."
+    }
+   ]
+  },
+  {
+   "kop": "Het huishouden",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Een <strong>chore</strong> is <strong>een klusje in het huishouden</strong>. De ruimte waar je kookt, is de <strong>kitchen</strong>."
+    },
+    {
+     "soort": "tekst",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Engels</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">wat je doet</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">to do the washing-up</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">de vaat doen</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">to load the dishwasher</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">de vaatwasser vullen</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">to do the hoovering</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">stofzuigen</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">to do the laundry</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">de was doen</td></tr></table>"
+    },
+    {
+     "soort": "tekst",
+     "html": "<em>Hoover</em> is in Groot-Brittannië een merknaam die het gewone woord geworden is, zoals wij frigo zeggen."
+    }
+   ]
+  },
+  {
+   "kop": "Samenleven met anderen",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">uitdrukking</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">betekenis</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">to get on well with someone</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">goed opschieten met iemand</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">to fall out with someone</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">ruzie krijgen met iemand</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">to keep in touch</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">contact houden</td></tr></table>"
+    }
+   ]
+  },
+  {
+   "kop": "Eten en een restaurant",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Een <strong>meal</strong> is een maaltijd; een <strong>dish</strong> is een gerecht, en ook het bord waar het op ligt. Een <strong>starter</strong> is <strong>een voorgerecht</strong>, en een <strong>takeaway</strong> is <strong>eten dat je meeneemt</strong>."
+    },
+    {
+     "soort": "tekst",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Engels</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Nederlands</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">the steak is well done</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">goed doorbakken</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">chips</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">frieten, in het Brits Engels</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">crisps</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">chips uit een zakje, in het Brits Engels</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">I am allergic to nuts</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">ik ben allergisch aan noten</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">to have a sweet tooth</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">graag zoet eten</td></tr></table>"
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong><em>Chips</em> betekent in het Brits Engels inderdaad frieten.</strong> Vraag je in Londen om chips, dan krijg je een bord frieten; wil je het zakje, vraag dan <em>crisps</em>."
+    },
+    {
+     "soort": "tekst",
+     "html": "Onder de dranken staan <strong>still water</strong>, <strong>sparkling water</strong> en <strong>squash</strong>. Still is plat, sparkling is bruisend, en squash is een siroop die je met water aanlengt."
+    },
+    {
+     "soort": "tekst",
+     "html": "Zinnen die je in een restaurant gebruikt: <strong>Could we have the bill, please?</strong>, <strong>I would like to book a table.</strong> en <strong>Is service included?</strong>"
+    }
+   ]
+  },
+  {
+   "kop": "Sport en vrije tijd",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Engels</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Nederlands</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">a draw</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een gelijkspel</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">they beat us two nil</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">ze wonnen met twee nul</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">a team of a side</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een ploeg</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">a referee</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">de scheidsrechter</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">a fan</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een supporter</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">the match was called off</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">de wedstrijd ging niet door</td></tr></table>"
+    },
+    {
+     "soort": "tekst",
+     "html": "<em>Nil</em> is nul in een uitslag; <em>zero</em> gebruik je daar niet. En let op <em>to beat</em>: <em>they beat us</em> betekent dat zíj wonnen."
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong><em>To practise a sport</em> betekent niet dat je ermee gestopt bent</strong>, integendeel: het betekent dat je die sport beoefent. Een hobby <em>you take up</em> is <strong>een hobby waarmee je begint</strong>."
+    },
+    {
+     "soort": "tekst",
+     "html": "Werkwoorden die bij vrije tijd horen: <strong>to hang out with friends</strong>, <strong>to go for a walk</strong> en <strong>to work out at the gym</strong>."
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Een <em>fortnight</em> zijn geen vier weken maar twee</strong>: het woord komt van <em>fourteen nights</em>, veertien nachten."
+    }
+   ]
+  },
+  {
+   "kop": "Oefen dit ook buiten het scherm",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Op dit platform oefen je lezen, woordenschat en grammatica. Maar <strong>luisteren</strong> is de helft van het examen Engels 1, en Engels 2 bestaat uit <strong>schrijven</strong>, <strong>schriftelijke interactie</strong> en <strong>een gesprek</strong>. Luisteren en spreken leer je niet achter een scherm. Je leert ze door te luisteren naar mensen die echt Engels spreken, en door zelf je mond open te doen, ook als het hakkelt."
+    },
+    {
+     "soort": "kader",
+     "html": "<strong>Deze week:</strong> bestel in gedachten een maaltijd in het Engels, van het reserveren tot de rekening, en zeg elke zin hardop. Doe het één keer, en let daarna op wat je miste of niet gezegd kreeg. Dat is precies je volgende oefening."
+    }
+   ]
+  }
+ ],
+ "onthoud": []
+}

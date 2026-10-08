@@ -1,0 +1,92 @@
+{
+ "vak": "Toegepaste economie",
+ "titel": "Presenteren en gegevens in een databank",
+ "onder": "Een presentatie die je verhaal steunt in plaats van voorleest, en de opbouw van een databank met tabellen, records, velden, formulieren, query's en rapporten.",
+ "secties": [
+  {
+   "kop": "Een presentatie opbouwen",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "<strong>Een dia is één scherm met inhoud</strong>, en de dia's volgen elkaar op terwijl je spreekt. <strong>Een presentatie is een steun bij je verhaal, niet je verhaal zelf</strong>: het publiek moet naar jou luisteren en niet je dia's zitten lezen."
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Daarom zet je niet je hele tekst op de dia om die voor te lezen</strong>: het publiek leest sneller dan jij spreekt en haakt af. <strong>Het KISS-principe zegt: houd het eenvoudig</strong>, keep it short and simple — <strong>één idee per dia</strong>, weinig tekst, grote letters."
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Een dia is van ver leesbaar door grote letters, veel contrast en weinig tekst.</strong> Een drukke achtergrond maakt de tekst juist moeilijker leesbaar."
+    },
+    {
+     "soort": "kader",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">begrip</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">wat het is</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>een overgang</strong>, ook een transitie</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>de wissel tussen twee dia's</strong></td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>een animatie</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>beweging binnen één dia</strong>, zoals een opsomming die regel per regel verschijnt</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>de notities</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>je spiekblad</strong>: enkel jij ziet ze, het publiek ziet de dia zelf</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>een hand-out</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>de dia's op papier</strong>, meerdere per blad, soms met lijnen om bij te schrijven</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>een storyboard</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>een plan per beeld</strong>: je tekent eerst ruw wat op elke dia komt, voor je begint op te maken</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>de diavoorstelling</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>de presentatie tonen</strong>: de dia's vullen het scherm en je klikt ze door</td></tr></table>"
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Hoe meer animaties, hoe sterker je presentatie? Net niet</strong>: te veel beweging leidt af van wat je zegt. <strong>Een sjabloon gebruik je wél</strong>, want dan ziet alles er hetzelfde uit: dezelfde kleuren, lettertypes en plaats van de titel op elke dia."
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>In een presentatie kan je een afbeelding, een filmpje en een geluid invoegen</strong>, en ook een tabel of een grafiek uit een rekenblad overnemen. <strong>In een zakelijke presentatie horen een titeldia met het onderwerp, cijfers in een grafiek en een slot met je besluit.</strong>"
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Een mindmap is een schema met takken</strong>: het onderwerp in het midden, met takken naar de onderdelen. <strong>Een infographic brengt informatie in beeld met cijfers en tekeningen</strong>: één beeld dat een verhaal vertelt, in plaats van een bladzijde tekst."
+    }
+   ]
+  },
+  {
+   "kop": "Wat een databank is",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "<strong>Een databank is een geordende verzameling gegevens</strong>, zo geordend dat je ze kan opvragen en combineren. <strong>Waarom werkt een zaak ermee in plaats van met een rekenblad? Omdat de gegevens er maar één keer in staan</strong>: een adres dat wijzigt pas je op één plaats aan en overal verandert het mee."
+    },
+    {
+     "soort": "kader",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">onderdeel</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">wat het is</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>een tabel</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>de plaats van de gegevens</strong>; de rest van de databank kijkt ernaar</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>een record</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>één rij met gegevens</strong>: één klant, één factuur, één leerling</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>een veld</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>één soort gegeven</strong>, bijvoorbeeld het veld naam of het veld postcode</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>een formulier</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>een invulscherm</strong>, veel vriendelijker dan rechtstreeks in de tabel typen</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>een query</strong>, een zoekvraag</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>een vraag aan de databank</strong> om bepaalde gegevens te krijgen</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>een rapport</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>een overzicht om netjes af te drukken</strong>, met koppen, groepen en totalen</td></tr></table>"
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>De vakfiche noemt tabellen, formulieren, rapporten en query's</strong> als de onderdelen van een databank. Dia's horen bij een presentatie."
+    }
+   ]
+  },
+  {
+   "kop": "Velden en sleutels",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "<strong>Het gegevenstype van een veld zegt wat erin mag</strong>: tekst, een getal, een datum, ja of nee, of een bedrag. <strong>Voor een geboortedatum kies je het type datum</strong>: zet je het als tekst, dan kan je er niet mee rekenen of op sorteren."
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Een veldeigenschap hoort bij een veld</strong>, niet bij de tabel: de veldlengte, of het veld verplicht is, en een standaardwaarde."
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>De primaire sleutel is het veld dat elk record uniek maakt.</strong> <strong>Ze is in elk record anders</strong>, en <strong>twee records mogen dus niet dezelfde primaire sleutel hebben</strong>: de databank weigert dat, want dan weet ze niet meer welk record je bedoelt. <strong>Daarmee herken je een record</strong>: twee klanten kunnen dezelfde naam hebben, geen twee hetzelfde klantnummer."
+    }
+   ]
+  },
+  {
+   "kop": "Gegevens opvragen",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "<strong>Met een query vraag je gegevens op</strong>: enkel de klanten uit Limburg, gesorteerd op naam, of velden uit twee tabellen samengebracht. <strong>Een selectiequery wijzigt niets aan de gegevens</strong>, ze haalt ze enkel op."
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Een filter toont minder records</strong>: enkel die aan je voorwaarde voldoen blijven zichtbaar."
+    },
+    {
+     "soort": "weetje",
+     "html": "Het verschil tussen een query en een rapport zit in waar het naartoe gaat: een query zoekt de gegevens bij elkaar, een rapport zet ze netjes op papier."
+    }
+   ]
+  }
+ ],
+ "onthoud": []
+}

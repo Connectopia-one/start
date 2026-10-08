@@ -1,0 +1,81 @@
+{
+ "vak": "Gezondheid, zorg en welzijn",
+ "titel": "Het zenuwstelsel en de reflexen",
+ "onder": "Het centraal en het perifeer zenuwstelsel, wat elk deel van de hersenen doet, de bouw van een neuron, wat er in de synaps gebeurt, en het verschil tussen een reflex en een gewilde beweging.",
+ "secties": [
+  {
+   "kop": "Centraal en perifeer",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "<strong>Het centraal zenuwstelsel is het ruggenmerg samen met de grote en de kleine hersenen.</strong> <strong>Het perifeer zenuwstelsel zijn alle zenuwen buiten de hersenen en het ruggenmerg</strong>, en <strong>daar horen ook de hersenzenuwen bij</strong>, niet bij het centrale."
+    },
+    {
+     "soort": "kader",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">deel</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">wat het doet</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>de grote hersenen</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>denken, taal en bewust voelen</strong></td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>de kleine hersenen</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>ze regelen het evenwicht</strong> en de vloeiende, geoefende bewegingen</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>de hersenstam</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>wat altijd door moet lopen</strong>: de ademhaling, de hartslag, het slikken</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>de hersenbalk</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>ze verbindt de twee hersenhelften</strong>, de brug tussen links en rechts</td></tr></table>"
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Een sensibele zenuw brengt informatie binnen</strong>, van de receptor naar het centraal zenuwstelsel. <strong>Een motorische zenuw stuurt de spier aan</strong>, van het centrum naar de effector. <strong>Een gemengde zenuw doet beide</strong>: ze bevat zowel sensibele als motorische vezels."
+    }
+   ]
+  },
+  {
+   "kop": "Het neuron en de synaps",
+   "blokken": [
+    {
+     "soort": "figuur",
+     "html": "<svg viewBox=\"0 0 470 176\" width=\"470\" xmlns=\"http://www.w3.org/2000/svg\"><line x1=\"86\" y1=\"84\" x2=\"49.5\" y2=\"108.6\" stroke=\"#2f5d50\" stroke-width=\"2.4\" stroke-linecap=\"round\"/><line x1=\"86\" y1=\"84\" x2=\"43.0\" y2=\"93.1\" stroke=\"#2f5d50\" stroke-width=\"2.4\" stroke-linecap=\"round\"/><line x1=\"86\" y1=\"84\" x2=\"43.0\" y2=\"74.9\" stroke=\"#2f5d50\" stroke-width=\"2.4\" stroke-linecap=\"round\"/><line x1=\"86\" y1=\"84\" x2=\"49.5\" y2=\"59.4\" stroke=\"#2f5d50\" stroke-width=\"2.4\" stroke-linecap=\"round\"/><circle cx=\"94\" cy=\"84\" r=\"24\" fill=\"#2f5d50\" fill-opacity=\"0.18\" stroke=\"#2f5d50\" stroke-width=\"2\"/><circle cx=\"94\" cy=\"84\" r=\"8\" fill=\"#2f5d50\"/><line x1=\"118\" y1=\"84\" x2=\"382\" y2=\"84\" stroke=\"#23291f\" stroke-width=\"3\"/><rect x=\"130\" y=\"73\" width=\"38\" height=\"22\" rx=\"11\" fill=\"#c17f2b\" fill-opacity=\"0.26\" stroke=\"#c17f2b\" stroke-width=\"1.6\"/><rect x=\"180\" y=\"73\" width=\"38\" height=\"22\" rx=\"11\" fill=\"#c17f2b\" fill-opacity=\"0.26\" stroke=\"#c17f2b\" stroke-width=\"1.6\"/><rect x=\"230\" y=\"73\" width=\"38\" height=\"22\" rx=\"11\" fill=\"#c17f2b\" fill-opacity=\"0.26\" stroke=\"#c17f2b\" stroke-width=\"1.6\"/><rect x=\"280\" y=\"73\" width=\"38\" height=\"22\" rx=\"11\" fill=\"#c17f2b\" fill-opacity=\"0.26\" stroke=\"#c17f2b\" stroke-width=\"1.6\"/><rect x=\"330\" y=\"73\" width=\"38\" height=\"22\" rx=\"11\" fill=\"#c17f2b\" fill-opacity=\"0.26\" stroke=\"#c17f2b\" stroke-width=\"1.6\"/><line x1=\"382\" y1=\"84\" x2=\"410\" y2=\"64\" stroke=\"#23291f\" stroke-width=\"2.2\"/><circle cx=\"414\" cy=\"64\" r=\"6\" fill=\"#23291f\"/><line x1=\"382\" y1=\"84\" x2=\"410\" y2=\"84\" stroke=\"#23291f\" stroke-width=\"2.2\"/><circle cx=\"414\" cy=\"84\" r=\"6\" fill=\"#23291f\"/><line x1=\"382\" y1=\"84\" x2=\"410\" y2=\"104\" stroke=\"#23291f\" stroke-width=\"2.2\"/><circle cx=\"414\" cy=\"104\" r=\"6\" fill=\"#23291f\"/><line x1=\"36\" y1=\"32\" x2=\"60\" y2=\"58\" stroke=\"#6b7260\" stroke-width=\"1\" stroke-dasharray=\"3 3\"/><text x=\"36.0\" y=\"28.0\" text-anchor=\"start\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"10\" font-weight=\"600\" fill=\"#23291f\">dendrieten</text><line x1=\"94\" y1=\"140\" x2=\"94\" y2=\"110\" stroke=\"#6b7260\" stroke-width=\"1\" stroke-dasharray=\"3 3\"/><text x=\"94.0\" y=\"150.0\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"10\" font-weight=\"600\" fill=\"#23291f\">cellichaam</text><line x1=\"232\" y1=\"140\" x2=\"232\" y2=\"97\" stroke=\"#6b7260\" stroke-width=\"1\" stroke-dasharray=\"3 3\"/><text x=\"232.0\" y=\"150.0\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"10\" font-weight=\"600\" fill=\"#23291f\">axon</text><line x1=\"300\" y1=\"32\" x2=\"300\" y2=\"71\" stroke=\"#6b7260\" stroke-width=\"1\" stroke-dasharray=\"3 3\"/><text x=\"300.0\" y=\"28.0\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"10\" font-weight=\"600\" fill=\"#23291f\">myelineschede</text><line x1=\"174\" y1=\"40\" x2=\"174\" y2=\"78\" stroke=\"#6b7260\" stroke-width=\"1\" stroke-dasharray=\"3 3\"/><text x=\"174.0\" y=\"36.0\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"10\" font-weight=\"600\" fill=\"#23291f\">knoop van Ranvier</text><line x1=\"370\" y1=\"140\" x2=\"414\" y2=\"110\" stroke=\"#6b7260\" stroke-width=\"1\" stroke-dasharray=\"3 3\"/><text x=\"420.0\" y=\"150.0\" text-anchor=\"end\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"10\" font-weight=\"600\" fill=\"#23291f\">eindknoppen</text><text x=\"10.0\" y=\"170.0\" text-anchor=\"start\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"9.5\" fill=\"#6b7260\">de impuls loopt van links naar rechts en springt van knoop naar knoop</text></svg>",
+     "onderschrift": "Een zenuwcel. De dendrieten vangen op, het axon geleidt, en de eindknoppen geven door aan de volgende cel."
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Een zenuwcel heet ook een neuron</strong>, en <strong>bij haar bouw horen de dendrieten, het cellichaam en het axon</strong>. <strong>De dendrieten vangen impulsen op</strong> van andere cellen. <strong>Het axon geleidt de impuls</strong> van het cellichaam naar de eindknop; <strong>het axon vangt dus niets op</strong>, het voert juist weg."
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>De myelineschede versnelt de impuls</strong>: die springt van knoop naar knoop en gaat daardoor veel sneller. <strong>De onderbreking in de myelineschede is een knoop van Ranvier</strong>, en <strong>de Schwann-cellen maken de myelineschede</strong>: elke cel wikkelt zich rond een stuk van het axon."
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>De synaps is de plaats waar twee neuronen de impuls doorgeven.</strong> <strong>Daar gaat een stof over</strong>: de eindknop geeft een neurotransmitter af die de kleine spleet oversteekt en het volgende neuron prikkelt. <strong>Een impuls springt dus niet rechtstreeks over van cel naar cel.</strong>"
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>In het neuron is het elektrisch, in de synaps chemisch, en het is dus een samenwerking van de twee.</strong> Het bloed vervoert hormonen, geen impulsen."
+    }
+   ]
+  },
+  {
+   "kop": "Reflex of gewilde beweging",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "<strong>Een reflex is een snelle reactie</strong>, een vaste reactie op een prikkel zonder dat je beslist. <strong>Je denkt er niet bij na</strong>: de reactie is er al voor je gewaarwording bewust wordt. <strong>Een reflex beschermt je lichaam tegen schade</strong>: <strong>je trekt je hand van een hete plaat weg vóór je de pijn voelt.</strong>"
+    },
+    {
+     "soort": "figuur",
+     "html": "<svg viewBox=\"0 0 470 76\" width=\"470\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"0.0\" y=\"6\" width=\"73.2\" height=\"62\" rx=\"10\" fill=\"#ffffff\" stroke=\"#2f5d50\" stroke-width=\"1.8\"/><text x=\"36.6\" y=\"37.0\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"11.5\" font-weight=\"600\" fill=\"#234539\">receptor</text><path d=\"M78.2 37.0 h12 m0 0 l-6 -5 m6 5 l-6 5\" stroke=\"#2f5d50\" stroke-width=\"2\" fill=\"none\" stroke-linecap=\"round\"/><rect x=\"99.2\" y=\"6\" width=\"73.2\" height=\"62\" rx=\"10\" fill=\"#ffffff\" stroke=\"#2f5d50\" stroke-width=\"1.8\"/><text x=\"135.8\" y=\"29.0\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"11.5\" font-weight=\"600\" fill=\"#234539\">sensorisch</text><text x=\"135.8\" y=\"45.0\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"10\" font-weight=\"400\" fill=\"#6b7260\">neuron</text><path d=\"M177.4 37.0 h12 m0 0 l-6 -5 m6 5 l-6 5\" stroke=\"#2f5d50\" stroke-width=\"2\" fill=\"none\" stroke-linecap=\"round\"/><rect x=\"198.4\" y=\"6\" width=\"73.2\" height=\"62\" rx=\"10\" fill=\"#ffffff\" stroke=\"#2f5d50\" stroke-width=\"1.8\"/><text x=\"235.0\" y=\"29.0\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"11.5\" font-weight=\"600\" fill=\"#234539\">schakel-</text><text x=\"235.0\" y=\"45.0\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"10\" font-weight=\"400\" fill=\"#6b7260\">neuron</text><path d=\"M276.6 37.0 h12 m0 0 l-6 -5 m6 5 l-6 5\" stroke=\"#2f5d50\" stroke-width=\"2\" fill=\"none\" stroke-linecap=\"round\"/><rect x=\"297.6\" y=\"6\" width=\"73.2\" height=\"62\" rx=\"10\" fill=\"#ffffff\" stroke=\"#2f5d50\" stroke-width=\"1.8\"/><text x=\"334.2\" y=\"29.0\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"11.5\" font-weight=\"600\" fill=\"#234539\">motorisch</text><text x=\"334.2\" y=\"45.0\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"10\" font-weight=\"400\" fill=\"#6b7260\">neuron</text><path d=\"M375.8 37.0 h12 m0 0 l-6 -5 m6 5 l-6 5\" stroke=\"#2f5d50\" stroke-width=\"2\" fill=\"none\" stroke-linecap=\"round\"/><rect x=\"396.8\" y=\"6\" width=\"73.2\" height=\"62\" rx=\"10\" fill=\"#ffffff\" stroke=\"#2f5d50\" stroke-width=\"1.8\"/><text x=\"433.4\" y=\"37.0\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"11.5\" font-weight=\"600\" fill=\"#234539\">effector</text></svg>",
+     "onderschrift": "De reflexboog: de weg die de impuls bij een reflex aflegt, via het ruggenmerg en niet via de grote hersenen."
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>De reflexboog is de weg van de impuls</strong>: van de receptor naar het sensorische neuron, het schakelneuron, het motorische neuron en de effector. <strong>Een schakelneuron verbindt twee neuronen</strong> en ligt in het ruggenmerg tussen het sensorische en het motorische neuron."
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Bij een reflex gaat de impuls dus niet eerst naar de grote hersenen</strong>: de reflexboog loopt via het ruggenmerg of de hersenstam, en de hersenen merken het pas daarna. <strong>De kniepeesreflex loopt via het ruggenmerg</strong>, en daardoor gaat het veel sneller. <strong>De pupilreflex, de slikreflex en de speekselreflex lopen via de hersenstam.</strong>"
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>De kniepeesreflex, de slikreflex en de pupilreflex zijn reflexen</strong>; <strong>schrijven is een gewilde beweging</strong>, want je beslist er zelf over. <strong>Bij een gewilde beweging gaat de impuls eerst naar de grote hersenen</strong>, en daar wordt de beweging beslist."
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Een bewuste gewaarwording komt tot stand in de grote hersenen</strong>: pas in het juiste hersencentrum wordt de impuls een gewaarwording. <strong>Het zweten bij warmte, het kloppen van je hart en de pupil die kleiner wordt, gebeuren onbewust</strong>; een boek kiezen is een bewuste keuze."
+    }
+   ]
+  }
+ ],
+ "onthoud": []
+}

@@ -1,0 +1,72 @@
+{
+ "vak": "Ontwikkeling en pedagogisch handelen",
+ "titel": "Vrije tijd, spel en expressie",
+ "onder": "Wat vrije tijd is en wat de invulling bepaalt, waarom vervelen nuttig is, de vier ervaringsgebieden en de vijf expressievormen.",
+ "secties": [
+  {
+   "kop": "Vrije tijd",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "<strong>Vrije tijd is de tijd die je zelf invult</strong>: wat overblijft na school, werk en verplichtingen."
+    },
+    {
+     "soort": "kader",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">factor</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">wat ze betekent</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>de leeftijd</strong> of levensfase</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>een peuter speelt anders</strong> dan een tiener: de peuter stapelt blokken, de tiener spreekt af met vrienden</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>het moment van de dag</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>na school hoeft het rustig</strong>: na een volle schooldag past iets rustigs beter</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>de mogelijkheden en beperkingen</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>wat iemand wel en niet kan</strong>: geld, vervoer, gezondheid en vaardigheden</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>de wensen en verwachtingen</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>wie mee kiest, doet veel liever mee</strong></td></tr></table>"
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Een goed vrijetijdsaanbod past bij de leeftijd, geeft keuze en is haalbaar.</strong> Verplichten hoort niet bij vrije tijd."
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Een kind mag ook niets doen in zijn vrije tijd: vervelen mag.</strong> <strong>Vervelen is zelfs nuttig, want het zet de fantasie aan</strong>: uit verveling ontstaat het mooiste zelfbedachte spel."
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Bij vrij spel kiest het kind zelf wat het doet, met wie en hoe lang.</strong> De begeleider bepaalt dat dus niet. <strong>Vrij spel is belangrijk omdat het kind er leert kiezen</strong>, en ook onderhandelen, verzinnen en doorzetten. <strong>Kinderen bewegen het best elke dag een tijd.</strong>"
+    }
+   ]
+  },
+  {
+   "kop": "De vier ervaringsgebieden",
+   "blokken": [
+    {
+     "soort": "figuur",
+     "html": "<svg viewBox=\"0 0 470 220\" width=\"470\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"0.0\" y=\"0\" width=\"230.0\" height=\"93\" rx=\"8\" fill=\"#ffffff\" stroke=\"#2f5d50\" stroke-width=\"1.6\"/><text x=\"12.0\" y=\"19.0\" text-anchor=\"start\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"11.5\" font-weight=\"600\" fill=\"#2f5d50\">ik en de ander</text><text x=\"12.0\" y=\"38.0\" text-anchor=\"start\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"10.5\" fill=\"#6b7260\">· samen spelen</text><text x=\"12.0\" y=\"55.0\" text-anchor=\"start\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"10.5\" fill=\"#6b7260\">· delen</text><text x=\"12.0\" y=\"72.0\" text-anchor=\"start\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"10.5\" fill=\"#6b7260\">· rekening houden met elkaar</text><rect x=\"240.0\" y=\"0\" width=\"230.0\" height=\"93\" rx=\"8\" fill=\"#ffffff\" stroke=\"#c17f2b\" stroke-width=\"1.6\"/><text x=\"252.0\" y=\"19.0\" text-anchor=\"start\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"11.5\" font-weight=\"600\" fill=\"#c17f2b\">lichaam en beweging</text><text x=\"252.0\" y=\"38.0\" text-anchor=\"start\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"10.5\" fill=\"#6b7260\">· klimmen en springen</text><text x=\"252.0\" y=\"55.0\" text-anchor=\"start\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"10.5\" fill=\"#6b7260\">· grove en fijne motoriek</text><text x=\"252.0\" y=\"72.0\" text-anchor=\"start\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"10.5\" fill=\"#6b7260\">· kracht en evenwicht</text><rect x=\"0.0\" y=\"103\" width=\"230.0\" height=\"93\" rx=\"8\" fill=\"#ffffff\" stroke=\"#6f8f4a\" stroke-width=\"1.6\"/><text x=\"12.0\" y=\"122.0\" text-anchor=\"start\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"11.5\" font-weight=\"600\" fill=\"#6f8f4a\">communicatie en expressie</text><text x=\"12.0\" y=\"141.0\" text-anchor=\"start\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"10.5\" fill=\"#6b7260\">· een toneeltje spelen</text><text x=\"12.0\" y=\"158.0\" text-anchor=\"start\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"10.5\" fill=\"#6b7260\">· praten en luisteren</text><text x=\"12.0\" y=\"175.0\" text-anchor=\"start\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"10.5\" fill=\"#6b7260\">· zingen en tekenen</text><rect x=\"240.0\" y=\"103\" width=\"230.0\" height=\"93\" rx=\"8\" fill=\"#ffffff\" stroke=\"#6b7260\" stroke-width=\"1.6\"/><text x=\"252.0\" y=\"122.0\" text-anchor=\"start\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"11.5\" font-weight=\"600\" fill=\"#6b7260\">de wereld verkennen</text><text x=\"252.0\" y=\"141.0\" text-anchor=\"start\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"10.5\" fill=\"#6b7260\">· de natuur onderzoeken</text><text x=\"252.0\" y=\"158.0\" text-anchor=\"start\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"10.5\" fill=\"#6b7260\">· techniek en materialen</text><text x=\"252.0\" y=\"175.0\" text-anchor=\"start\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"10.5\" fill=\"#6b7260\">· de buurt ontdekken</text><text x=\"235.0\" y=\"208.0\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"9.5\" fill=\"#6b7260\">een goed aanbod laat alle vier aan bod komen</text></svg>",
+     "onderschrift": ""
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Lichaam en beweging is het ervaringsgebied over bewegen en de motoriek.</strong> <strong>Bij het verkennen van de wereld ontdekt een kind hoe de wereld in elkaar zit.</strong>"
+    }
+   ]
+  },
+  {
+   "kop": "De vijf expressievormen",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "<strong>Expressie is jezelf uitdrukken</strong>: uiten wat in je leeft, in beweging, taal, beeld of muziek. Er zijn <strong>vijf vormen</strong>."
+    },
+    {
+     "soort": "kader",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">vorm</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">wat je doet</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>bewegingsexpressie</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">dansen, bewegen op muziek</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>dramatische expressie</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>een rol spelen</strong>: toneel, poppenkast of doen-alsof</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>manuele expressie</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>iets maken met je handen</strong>: knutselen, tekenen, boetseren, bouwen</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>muzikale expressie</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">zingen, een instrument bespelen, luisteren</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>verbale expressie</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">vertellen, voorlezen, een verhaal verzinnen; de verbale vorm werkt met woorden</td></tr></table>"
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Zingen is dus muzikale expressie, geen manuele</strong>; bij manuele expressie werk je met je handen. <strong>Expressie is belangrijk omdat een kind zich kan uiten</strong>: wat het nog niet in woorden kan zeggen, komt er in spel, beeld of beweging uit."
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Bewegen maakt een kind sterker, het slaapt er beter van en het leert zijn lichaam kennen.</strong> Het bouwt spieren, evenwicht, uithouding en zelfvertrouwen op."
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Een activiteit voor een groep kies je door naar hun leeftijd te kijken</strong>, en verder naar hun mogelijkheden, hun wensen en het moment van de dag. <strong>Wil een kind niet meedoen, dan vraag je waarom</strong>: daarachter zit vaak onzekerheid of vermoeidheid. <strong>Je biedt verschillende soorten activiteiten aan omdat elk kind anders is</strong>, zodat elk ervaringsgebied aan bod komt."
+    }
+   ]
+  }
+ ],
+ "onthoud": []
+}

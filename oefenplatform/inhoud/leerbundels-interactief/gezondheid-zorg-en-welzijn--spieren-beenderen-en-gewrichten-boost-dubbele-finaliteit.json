@@ -1,0 +1,72 @@
+{
+ "vak": "Gezondheid, zorg en welzijn",
+ "titel": "Spieren, beenderen en gewrichten",
+ "onder": "De drie spierweefsels en het verschil tussen willekeurig en onwillekeurig, rode en witte vezels, waarom spieren in paren werken, de botten van arm en been, en de delen van een gewricht.",
+ "secties": [
+  {
+   "kop": "Drie soorten spierweefsel",
+   "blokken": [
+    {
+     "soort": "kader",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">spierweefsel</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">waar</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">willekeurig?</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>skeletspierweefsel</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">aan de botten: arm, hand, been</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>willekeurig</strong>: je stuurt ze zelf</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>hartspierweefsel</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">het hart</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>onwillekeurig</strong>: het hart klopt zonder dat je het wil</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>glad spierweefsel</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>in de darmwand</strong>, in de bloedvaten en in de blaas</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>onwillekeurig</strong>: je darmen werken door zonder dat je eraan denkt</td></tr></table>"
+    },
+    {
+     "soort": "tekst",
+     "html": "Beenweefsel is bot en geen spier. <strong>Een willekeurige spier beweegt omdat jij het wil</strong>; <strong>de hartspier is dus geen willekeurige spier</strong>, ze klopt je hele leven zonder dat je eraan denkt."
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Een rode spiervezel houdt lang vol</strong>: ze werkt met zuurstof, denk aan lopen over een lange afstand. <strong>Een witte spiervezel werkt kort en fel</strong>: veel kracht in korte tijd, maar snel vermoeid."
+    }
+   ]
+  },
+  {
+   "kop": "Hoe een spier werkt",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "<strong>Een skeletspier zit met een pees aan een bot vast.</strong> <strong>Een pees verbindt een spier met een bot; een ligament verbindt twee botten.</strong> Dat is het verschil dat het vaakst verward wordt."
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Bij de bouw van een skeletspier horen de spierbuik, de spiervezels en de pezen.</strong> <strong>Een spiervezel is een spiercel</strong>, een langgerekte cel; veel vezels samen vormen de spier."
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Trekt een spier samen, dan wordt ze korter</strong> en dikker, en trekt ze het bot mee. <strong>Een spier kan trekken maar niet duwen</strong>, en daarom <strong>heb je twee spieren nodig om een arm te buigen en te strekken</strong>."
+    },
+    {
+     "soort": "figuur",
+     "html": "<svg viewBox=\"0 0 470 208\" width=\"470\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"0.0\" y=\"6\" width=\"227.0\" height=\"192\" rx=\"10\" fill=\"#ffffff\" stroke=\"#e4ded0\" stroke-width=\"1.4\"/><text x=\"113.5\" y=\"26.0\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"11.5\" font-weight=\"600\" fill=\"#2f5d50\">arm geplooid</text><line x1=\"76\" y1=\"64\" x2=\"96\" y2=\"58\" stroke=\"#c0705f\" stroke-width=\"2.4\" opacity=\"0.8\"/><line x1=\"76\" y1=\"122\" x2=\"92\" y2=\"140\" stroke=\"#c0705f\" stroke-width=\"2.4\" opacity=\"0.8\"/><ellipse cx=\"76\" cy=\"93\" rx=\"11\" ry=\"29\" fill=\"#c0705f\" opacity=\"0.95\" stroke=\"#234539\" stroke-width=\"1.1\"/><text x=\"58.0\" y=\"91.0\" text-anchor=\"end\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"9.5\" font-weight=\"600\" fill=\"#234539\">buigspier</text><text x=\"58.0\" y=\"104.0\" text-anchor=\"end\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"9\" fill=\"#234539\">trekt samen</text><line x1=\"116\" y1=\"58\" x2=\"96\" y2=\"58\" stroke=\"#c0705f\" stroke-width=\"2.4\" opacity=\"0.8\"/><line x1=\"116\" y1=\"136\" x2=\"100\" y2=\"140\" stroke=\"#c0705f\" stroke-width=\"2.4\" opacity=\"0.8\"/><ellipse cx=\"116\" cy=\"97\" rx=\"6\" ry=\"39\" fill=\"#c0705f\" opacity=\"0.38\" stroke=\"#234539\" stroke-width=\"1.1\"/><text x=\"129.0\" y=\"95.0\" text-anchor=\"start\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"9.5\" fill=\"#6b7260\">strekspier</text><text x=\"129.0\" y=\"108.0\" text-anchor=\"start\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"9\" fill=\"#6b7260\">ontspant</text><line x1=\"96.0\" y1=\"58.0\" x2=\"96.0\" y2=\"136.0\" stroke=\"#234539\" stroke-width=\"13\" stroke-linecap=\"round\"/><line x1=\"96.0\" y1=\"58.0\" x2=\"96.0\" y2=\"136.0\" stroke=\"#efe7d6\" stroke-width=\"11\" stroke-linecap=\"round\"/><line x1=\"96.0\" y1=\"136.0\" x2=\"144.0\" y2=\"182.0\" stroke=\"#234539\" stroke-width=\"13\" stroke-linecap=\"round\"/><line x1=\"96.0\" y1=\"136.0\" x2=\"144.0\" y2=\"182.0\" stroke=\"#efe7d6\" stroke-width=\"11\" stroke-linecap=\"round\"/><circle cx=\"96\" cy=\"136\" r=\"6\" fill=\"#ffffff\" stroke=\"#234539\" stroke-width=\"1.5\"/><text x=\"82.0\" y=\"140.0\" text-anchor=\"end\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"9\" fill=\"#6b7260\">elleboog</text><rect x=\"243.0\" y=\"6\" width=\"227.0\" height=\"192\" rx=\"10\" fill=\"#ffffff\" stroke=\"#e4ded0\" stroke-width=\"1.4\"/><text x=\"356.5\" y=\"26.0\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"11.5\" font-weight=\"600\" fill=\"#2f5d50\">arm gestrekt</text><line x1=\"319.0\" y1=\"58\" x2=\"339.0\" y2=\"58\" stroke=\"#c0705f\" stroke-width=\"2.4\" opacity=\"0.8\"/><line x1=\"319.0\" y1=\"136\" x2=\"335.0\" y2=\"140\" stroke=\"#c0705f\" stroke-width=\"2.4\" opacity=\"0.8\"/><ellipse cx=\"319.0\" cy=\"97\" rx=\"6\" ry=\"39\" fill=\"#c0705f\" opacity=\"0.38\" stroke=\"#234539\" stroke-width=\"1.1\"/><text x=\"306.0\" y=\"95.0\" text-anchor=\"end\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"9.5\" fill=\"#6b7260\">buigspier</text><text x=\"306.0\" y=\"108.0\" text-anchor=\"end\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"9\" fill=\"#6b7260\">ontspant</text><line x1=\"359.0\" y1=\"64\" x2=\"339.0\" y2=\"58\" stroke=\"#c0705f\" stroke-width=\"2.4\" opacity=\"0.8\"/><line x1=\"359.0\" y1=\"122\" x2=\"343.0\" y2=\"140\" stroke=\"#c0705f\" stroke-width=\"2.4\" opacity=\"0.8\"/><ellipse cx=\"359.0\" cy=\"93\" rx=\"11\" ry=\"29\" fill=\"#c0705f\" opacity=\"0.95\" stroke=\"#234539\" stroke-width=\"1.1\"/><text x=\"377.0\" y=\"91.0\" text-anchor=\"start\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"9.5\" font-weight=\"600\" fill=\"#234539\">strekspier</text><text x=\"377.0\" y=\"104.0\" text-anchor=\"start\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"9\" fill=\"#234539\">trekt samen</text><line x1=\"339.0\" y1=\"58.0\" x2=\"339.0\" y2=\"136.0\" stroke=\"#234539\" stroke-width=\"13\" stroke-linecap=\"round\"/><line x1=\"339.0\" y1=\"58.0\" x2=\"339.0\" y2=\"136.0\" stroke=\"#efe7d6\" stroke-width=\"11\" stroke-linecap=\"round\"/><line x1=\"339.0\" y1=\"136.0\" x2=\"339.0\" y2=\"196.0\" stroke=\"#234539\" stroke-width=\"13\" stroke-linecap=\"round\"/><line x1=\"339.0\" y1=\"136.0\" x2=\"339.0\" y2=\"196.0\" stroke=\"#efe7d6\" stroke-width=\"11\" stroke-linecap=\"round\"/><circle cx=\"339.0\" cy=\"136\" r=\"6\" fill=\"#ffffff\" stroke=\"#234539\" stroke-width=\"1.5\"/><text x=\"325.0\" y=\"140.0\" text-anchor=\"end\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"9\" fill=\"#6b7260\">elleboog</text></svg>",
+     "onderschrift": "Links buigt de biceps de arm terwijl de triceps ontspant; rechts strekt de triceps terwijl de biceps ontspant."
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>De agonist is de spier die de beweging uitvoert, de antagonist doet het omgekeerde.</strong> <strong>De antagonist ontspant</strong> terwijl de agonist trekt: <strong>trokken ze even hard, dan bewoog er niets.</strong> <strong>De biceps buigt je arm, de triceps strekt hem.</strong>"
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Je hebt spieren nodig om te bewegen, om warmte te maken en om rechtop te staan.</strong> Bloed wordt in het beenmerg gemaakt, niet door de spieren. <strong>Een spier heeft zuurstof en voeding nodig</strong>: het bloed brengt die aan en voert de afvalstoffen af."
+    }
+   ]
+  },
+  {
+   "kop": "Botten en gewrichten",
+   "blokken": [
+    {
+     "soort": "kader",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">lichaamsdeel</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">botten</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>de bovenarm</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>het opperarmbeen</strong>, van de schouder tot de elleboog</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>de onderarm</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>het spaakbeen en de ellepijp</strong></td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>het bovenbeen</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>het dijbeen</strong>, van de heup tot de knie, het langste bot van je lichaam</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>het onderbeen</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>het scheenbeen en het kuitbeen</strong>: het scheenbeen is het dikste, het kuitbeen ligt er dun naast</td></tr></table>"
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Een scharniergewricht buigt in één richting</strong>, zoals een deur: de elleboog en de knie. <strong>Bij een kogelgewricht zit de kop in een kom en draait het alle kanten op</strong>: de heup en de schouder. <strong>De knie is dus geen kogelgewricht.</strong> <strong>Een kogelgewricht beweegt in meer richtingen dan een scharniergewricht.</strong>"
+    },
+    {
+     "soort": "kader",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">deel van het gewricht</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">wat het doet</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>de gewrichtskop en de gewrichtskom</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">de twee botuiteinden die in elkaar passen</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>het kraakbeen</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>het vangt schokken op</strong>: een glad en veerkrachtig laagje op de botuiteinden</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>het gewrichtssmeer</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>het vermindert de wrijving</strong>, zodat de botten soepel over elkaar glijden</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>het gewrichtskapsel</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>het sluit het gewricht af</strong> en houdt het gewrichtssmeer binnen</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>de ligamenten of gewrichtsbanden</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>ze houden de botten samen</strong> en het gewricht stabiel</td></tr></table>"
+    }
+   ]
+  }
+ ],
+ "onthoud": []
+}

@@ -1,0 +1,143 @@
+{
+ "vak": "Frans",
+ "titel": "Futur, conditionnel en subjonctif",
+ "onder": "De toekomst, de beleefde en voorwaardelijke vorm, en de wijze die je na que nodig hebt.",
+ "secties": [
+  {
+   "kop": "De futur simple",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "De futur simple vertrekt van de <strong>infinitief</strong> en plakt daar de uitgangen <strong>-ai, -as, -a, -ons, -ez, -ont</strong> achter. <em>Demain, je <strong>partirai</strong> à huit heures.</em> Bij een werkwoord op <strong>-re</strong> valt de <em>e</em> weg: <em>prendre</em> geeft <em>je prendrai</em>."
+    },
+    {
+     "soort": "tekst",
+     "html": "Je hoort die toekomst dus aan de <strong>r</strong> vlak voor de uitgang. In de <strong>imparfait</strong> zit die r juist <strong>niet</strong>: vergelijk <em>je parle<strong>r</strong>ai</em> met <em>je parlais</em>."
+    },
+    {
+     "soort": "figuur",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Werkwoord</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Stam in de futur</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Voorbeeld</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">aller</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">ir-</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">j'irai, nous irons</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">avoir</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">aur-</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">tu auras</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">être</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">ser-</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">nous serons là à midi</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">faire</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">fer-</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">je ferai</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">venir</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">viendr-</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">il viendra</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">pouvoir, voir, courir</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">pourr-, verr-, courr-</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">met een dubbele r</td></tr></table>",
+     "onderschrift": "De onregelmatige stammen; parler houdt gewoon parl-."
+    },
+    {
+     "soort": "weetje",
+     "html": "<em>Je vais partir</em> en <em>je partirai</em> betekenen allebei dat je gaat vertrekken, maar de <strong>futur proche</strong> ligt <strong>dichterbij</strong> en klinkt <strong>losser</strong>. In een schrijfopdracht staat de futur simple netter."
+    },
+    {
+     "soort": "kader",
+     "html": "<strong>Na <em>quand</em> staat in het Frans de futur</strong>, waar wij een tegenwoordige tijd zeggen. <em>Quand il <strong>arrivera</strong>, nous <strong>mangerons</strong>.</em> Wij zeggen 'wanneer hij aankomt', het Frans zet er twee keer een toekomst."
+    }
+   ]
+  },
+  {
+   "kop": "De conditionnel",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "De conditionnel présent is een kruising: je neemt de <strong>stam van de futur</strong> en zet er de <strong>uitgangen van de imparfait</strong> achter."
+    },
+    {
+     "soort": "figuur",
+     "html": "<svg viewBox=\"0 0 470 76\" width=\"470\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"0.0\" y=\"6\" width=\"139.3\" height=\"62\" rx=\"10\" fill=\"#ffffff\" stroke=\"#2f5d50\" stroke-width=\"1.8\"/><text x=\"69.7\" y=\"29.0\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"11.5\" font-weight=\"600\" fill=\"#234539\">aimer</text><text x=\"69.7\" y=\"45.0\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"10\" font-weight=\"400\" fill=\"#6b7260\">de infinitief</text><path d=\"M144.33333333333334 37.0 h12 m0 0 l-6 -5 m6 5 l-6 5\" stroke=\"#2f5d50\" stroke-width=\"2\" fill=\"none\" stroke-linecap=\"round\"/><rect x=\"165.3\" y=\"6\" width=\"139.3\" height=\"62\" rx=\"10\" fill=\"#ffffff\" stroke=\"#2f5d50\" stroke-width=\"1.8\"/><text x=\"235.0\" y=\"29.0\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"11.5\" font-weight=\"600\" fill=\"#234539\">aimer-</text><text x=\"235.0\" y=\"45.0\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"10\" font-weight=\"400\" fill=\"#6b7260\">de stam van de futur</text><path d=\"M309.6666666666667 37.0 h12 m0 0 l-6 -5 m6 5 l-6 5\" stroke=\"#2f5d50\" stroke-width=\"2\" fill=\"none\" stroke-linecap=\"round\"/><rect x=\"330.7\" y=\"6\" width=\"139.3\" height=\"62\" rx=\"10\" fill=\"#ffffff\" stroke=\"#2f5d50\" stroke-width=\"1.8\"/><text x=\"400.3\" y=\"29.0\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"11.5\" font-weight=\"600\" fill=\"#234539\">j'aimerais</text><text x=\"400.3\" y=\"45.0\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"10\" font-weight=\"400\" fill=\"#6b7260\">uitgang van de imparfait</text></svg>",
+     "onderschrift": "De drie stappen van infinitief naar conditionnel."
+    },
+    {
+     "soort": "tekst",
+     "html": "<em>J'<strong>aimerais</strong> aller en France</em>, <em>il <strong>pourrait</strong> venir demain</em> (hij zou kunnen komen), <em>il <strong>faudrait</strong> partir</em> (we zouden moeten vertrekken)."
+    },
+    {
+     "soort": "tekst",
+     "html": "Gebruik de conditionnel om iets <strong>beleefd te vragen</strong> of iets <strong>voorwaardelijks</strong> te zeggen. Dat eerste heet de <strong>conditionnel de politesse</strong>: <em>Je voudrais réserver une table</em>, <em>Pourriez-vous m'aider ?</em>, <em>J'aimerais vous poser une question</em>. <em>Je veux une table</em> is dezelfde vraag zonder die beleefdheid, en dat hoor je."
+    },
+    {
+     "soort": "weetje",
+     "html": "<em>Je parlerai</em> (futur) en <em>je parlerais</em> (conditionnel) klinken bijna <strong>hetzelfde</strong>, en toch betekenen ze iets anders: 'ik zal spreken' tegenover 'ik zou spreken'. Bij het lezen zie je het verschil wel: let op die <strong>-s</strong>."
+    },
+    {
+     "soort": "tekst",
+     "html": "Nog een gebruik dat je in kranten tegenkomt: nieuws dat <strong>nog niet bevestigd is</strong>, zet het Frans in de <strong>conditionnel</strong>, niet in de futur. <em>Le train <strong>aurait</strong> du retard</em> betekent dat de trein naar verluidt vertraging heeft."
+    }
+   ]
+  },
+  {
+   "kop": "De subjonctif: de vorm",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "De subjonctif présent vertrekt van de <strong>ils-vorm van de présent</strong>, zonder <strong>-ent</strong>, met de uitgangen <strong>-e, -es, -e, -ions, -iez, -ent</strong>."
+    },
+    {
+     "soort": "figuur",
+     "html": "<svg viewBox=\"0 0 470 76\" width=\"470\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"0.0\" y=\"6\" width=\"139.3\" height=\"62\" rx=\"10\" fill=\"#ffffff\" stroke=\"#2f5d50\" stroke-width=\"1.8\"/><text x=\"69.7\" y=\"29.0\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"11.5\" font-weight=\"600\" fill=\"#234539\">ils prennent</text><text x=\"69.7\" y=\"45.0\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"10\" font-weight=\"400\" fill=\"#6b7260\">de ils-vorm</text><path d=\"M144.33333333333334 37.0 h12 m0 0 l-6 -5 m6 5 l-6 5\" stroke=\"#2f5d50\" stroke-width=\"2\" fill=\"none\" stroke-linecap=\"round\"/><rect x=\"165.3\" y=\"6\" width=\"139.3\" height=\"62\" rx=\"10\" fill=\"#ffffff\" stroke=\"#2f5d50\" stroke-width=\"1.8\"/><text x=\"235.0\" y=\"29.0\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"11.5\" font-weight=\"600\" fill=\"#234539\">prenn-</text><text x=\"235.0\" y=\"45.0\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"10\" font-weight=\"400\" fill=\"#6b7260\">zonder -ent</text><path d=\"M309.6666666666667 37.0 h12 m0 0 l-6 -5 m6 5 l-6 5\" stroke=\"#2f5d50\" stroke-width=\"2\" fill=\"none\" stroke-linecap=\"round\"/><rect x=\"330.7\" y=\"6\" width=\"139.3\" height=\"62\" rx=\"10\" fill=\"#ffffff\" stroke=\"#2f5d50\" stroke-width=\"1.8\"/><text x=\"400.3\" y=\"29.0\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"11.5\" font-weight=\"600\" fill=\"#234539\">que je prenne</text><text x=\"400.3\" y=\"45.0\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"10\" font-weight=\"400\" fill=\"#6b7260\">uitgang erbij</text></svg>",
+     "onderschrift": "De drie stappen naar de subjonctif."
+    },
+    {
+     "soort": "figuur",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Werkwoord</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Subjonctif</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Voorbeeld</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">être</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">que je sois</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">je suis content que tu sois là</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">avoir</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">que j'aie</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">il faut que tu aies du courage</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">faire</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">que je fasse</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">il faut que tu fasses attention</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">aller</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">que j'aille</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">il faut que j'aille chez le médecin</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">pouvoir</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">que je puisse</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">bien qu'il puisse venir</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">savoir</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">que je sache</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">pour que tu saches la vérité</td></tr></table>",
+     "onderschrift": "De zes werkwoorden met een eigen subjonctif."
+    },
+    {
+     "soort": "tekst",
+     "html": "Bij een regelmatig werkwoord zie je vaak <strong>geen</strong> verschil met de présent: <em>que je parle</em> is dezelfde vorm. Juist daarom moet je de <strong>uitdrukking</strong> herkennen die de subjonctif oproept."
+    }
+   ]
+  },
+  {
+   "kop": "Wanneer komt er een subjonctif?",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "De subjonctif staat bijna altijd in een <strong>bijzin die met <em>que</em> begint</strong>. Wat in de <strong>hoofdzin</strong> staat, beslist of je hem nodig hebt."
+    },
+    {
+     "soort": "figuur",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">De hoofdzin drukt uit</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Voorbeeld</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Wijze</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een noodzaak</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">il faut que tu fasses attention</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">subjonctif</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een wil of een wens</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">je veux que tu viennes, je voudrais que…</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">subjonctif</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een gevoel</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">je suis content que tu sois là</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">subjonctif</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een twijfel of ontkenning</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">je ne pense pas qu'il soit malade</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">subjonctif</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een feit of een zekerheid</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">je sais qu'il est là, il est sûr que tu as raison</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">indicatif</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een mededeling</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">elle dit qu'elle viendra, il m'a dit que…</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">indicatif</td></tr></table>",
+     "onderschrift": "Wat er in de hoofdzin staat, bepaalt de wijze in de bijzin."
+    },
+    {
+     "soort": "tekst",
+     "html": "Ook een paar <strong>voegwoorden</strong> trekken altijd een subjonctif aan: <em><strong>pour que</strong></em> (opdat), <em><strong>bien que</strong></em> (hoewel) en <em><strong>avant que</strong></em> (voordat). <em>Bien qu'il <strong>soit</strong> fatigué, il continue</em> betekent: hoewel hij moe is, gaat hij door. <em>Parce que</em> hoort daar níét bij: dat geeft een feit, dus een indicatif."
+    },
+    {
+     "soort": "tekst",
+     "html": "<em>Je pense que</em> bevestigend geeft de <strong>indicatif</strong> (<em>je pense qu'il est malade</em>), maar in de <strong>ontkenning</strong> komt er twijfel bij en vaak een subjonctif. En <em>il est certain qu'il pleuve</em> is fout: een zekerheid vraagt <em>qu'il pleut</em>."
+    },
+    {
+     "soort": "kader",
+     "html": "<strong>Hetzelfde onderwerp? Dan liever een infinitief.</strong> <em>Je suis content <strong>de te voir</strong></em> klinkt natuurlijk; <em>je suis content que je te voie</em> niet. Zo ook <em>je veux partir</em> in plaats van <em>je veux que je parte</em>."
+    },
+    {
+     "soort": "weetje",
+     "html": "De subjonctif is voor een Nederlandstalige zo lastig omdat ons eigen <strong>taalgevoel er geen aanwijzing voor geeft</strong>: wij hebben die wijze niet meer. Je moet hem dus leren aan de <strong>uitdrukkingen</strong> die hem oproepen, niet aan je gehoor."
+    }
+   ]
+  },
+  {
+   "kop": "Wijzen en tijden uit elkaar houden",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "<em>L'indicatif</em>, <em>l'impératif</em>, <em>le subjonctif</em> en <em>le conditionnel</em> zijn <strong>wijzen</strong>; <em>l'imparfait</em>, <em>le présent</em> en <em>le futur</em> zijn <strong>tijden</strong>. Een vraag die 'welke van deze is een tijd' luidt, gaat dus over dat onderscheid."
+    },
+    {
+     "soort": "tekst",
+     "html": "Bij het lezen herken je de vormen aan hun uitgang: <em>nous irons</em>, <em>ils seront</em> en <em>tu auras</em> staan in de <strong>futur</strong>, maar <em>nous allions</em> is een <strong>imparfait</strong> — geen r voor de uitgang."
+    }
+   ]
+  },
+  {
+   "kop": "Oefen dit ook buiten het scherm",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Hier oefen je lezen, schrijven, woordenschat en grammatica. Maar het examen <strong>Frans 1</strong> is voor de helft <strong>luisteren</strong>, en <strong>Frans 2</strong> bestaat naast de twee schrijfopdrachten uit een <strong>spreekopdracht</strong> die je thuis opneemt en een <strong>gesprek van tien minuten</strong>. Die drie leer je niet achter een scherm, maar door Frans te horen en zelf Frans te praten, ook als het hakkelt."
+    },
+    {
+     "soort": "kader",
+     "html": "<strong>Deze week:</strong> vraag in het Frans beleefd iets aan iemand met je voudrais of pourriez-vous, en zeg daarna in één zin wat je volgend jaar zal doen, in de futur simple. Doe het één keer en let daarna op wat je miste of niet gezegd kreeg. Dat is precies je volgende oefening."
+    }
+   ]
+  }
+ ],
+ "onthoud": []
+}

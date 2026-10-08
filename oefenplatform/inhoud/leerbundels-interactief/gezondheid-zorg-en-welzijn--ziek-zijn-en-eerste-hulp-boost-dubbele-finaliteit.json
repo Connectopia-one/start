@@ -1,0 +1,76 @@
+{
+ "vak": "Gezondheid, zorg en welzijn",
+ "titel": "Ziek zijn en eerste hulp",
+ "onder": "De symptomen van ziek zijn en de gezondheidsproblemen die bij jongeren vaak voorkomen, en daarna de vier stappen van eerste hulp, de noodnummers en wat je doet bij een bloeding, een brandwonde of een reanimatie.",
+ "secties": [
+  {
+   "kop": "Ziek zijn herkennen",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "<strong>Koorts, braken, misselijkheid, diarree, pijn en geen zin om te spelen zijn symptomen van ziek zijn.</strong> <strong>Koorts is een hoge temperatuur</strong>: het lichaam zet zijn temperatuur hoger om ziektekiemen te bestrijden."
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Vermoeidheid is een symptoom omdat het lichaam vecht</strong>: het gebruikt zijn energie om beter te worden, dus er blijft minder over. <strong>Beperkt zijn in het zelfstandig functioneren betekent dat het niet alleen lukt</strong>: wat iemand normaal zelf doet, zoals zich wassen of aankleden, lukt tijdelijk niet meer."
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Voel je dat een kind ziek is, dan vraag je eerst hoe het voelt</strong>: eerst kijken en vragen wat er is, zo weet je wat het kind nodig heeft. <strong>Bij diarree laat je het veel drinken</strong>, want het lichaam verliest dan veel vocht. <strong>Bij koorts heeft het lichaam rust en vocht nodig</strong>, geen beweging."
+    }
+   ]
+  },
+  {
+   "kop": "Gezondheidsproblemen bij jongeren",
+   "blokken": [
+    {
+     "soort": "kader",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">probleem</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">wat helpt</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>slaaptekort</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>op tijd gaan slapen</strong>: een vast uur en geen scherm het laatste uur voor het slapen</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>rugklachten</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>een goede houding</strong>: rechtop zitten, de tas op twee schouders, regelmatig even rechtstaan</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>stress en faalangst</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>op tijd beginnen leren</strong>: goed voorbereid zijn en erover praten nemen een groot deel van de spanning weg</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>overgewicht</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>genoeg bewegen, gezond eten en water drinken</strong>; veel zitten is sedentair gedrag en werkt het net in de hand</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>gebitsproblemen</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>twee keer per dag poetsen</strong>, weinig zoete dranken en jaarlijks naar de tandarts</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>allergie</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">de uitlokker mijden: <strong>pollen, huisstofmijt en dierenhaar</strong> zijn de bekendste</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>een soa</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>een condoom</strong> is de belangrijkste bescherming</td></tr></table>"
+    },
+    {
+     "soort": "tekst",
+     "html": "Een gebroken arm is een ongeval en geen vaak voorkomend gezondheidsprobleem. <strong>Stress hoort er bij jongeren niet gewoon bij</strong>: stress en faalangst staan in de fiche als problemen die je kan voorkomen."
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Hooikoorts is de allergie voor pollen</strong>, voor het stuifmeel in de lente. <strong>Soa staat voor seksueel overdraagbare aandoening.</strong>"
+    }
+   ]
+  },
+  {
+   "kop": "Eerste hulp",
+   "blokken": [
+    {
+     "soort": "figuur",
+     "html": "<svg viewBox=\"0 0 470 76\" width=\"470\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"0.0\" y=\"6\" width=\"98.0\" height=\"62\" rx=\"10\" fill=\"#ffffff\" stroke=\"#2f5d50\" stroke-width=\"1.8\"/><text x=\"49.0\" y=\"29.0\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"11.5\" font-weight=\"600\" fill=\"#234539\">zorg voor</text><text x=\"49.0\" y=\"45.0\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"10\" font-weight=\"400\" fill=\"#6b7260\">veiligheid</text><path d=\"M103.0 37.0 h12 m0 0 l-6 -5 m6 5 l-6 5\" stroke=\"#2f5d50\" stroke-width=\"2\" fill=\"none\" stroke-linecap=\"round\"/><rect x=\"124.0\" y=\"6\" width=\"98.0\" height=\"62\" rx=\"10\" fill=\"#ffffff\" stroke=\"#2f5d50\" stroke-width=\"1.8\"/><text x=\"173.0\" y=\"29.0\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"11.5\" font-weight=\"600\" fill=\"#234539\">beoordeel het</text><text x=\"173.0\" y=\"45.0\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"10\" font-weight=\"400\" fill=\"#6b7260\">slachtoffer</text><path d=\"M227.0 37.0 h12 m0 0 l-6 -5 m6 5 l-6 5\" stroke=\"#2f5d50\" stroke-width=\"2\" fill=\"none\" stroke-linecap=\"round\"/><rect x=\"248.0\" y=\"6\" width=\"98.0\" height=\"62\" rx=\"10\" fill=\"#ffffff\" stroke=\"#2f5d50\" stroke-width=\"1.8\"/><text x=\"297.0\" y=\"29.0\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"11.5\" font-weight=\"600\" fill=\"#234539\">roep</text><text x=\"297.0\" y=\"45.0\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"10\" font-weight=\"400\" fill=\"#6b7260\">gespecialiseerde hulp</text><path d=\"M351.0 37.0 h12 m0 0 l-6 -5 m6 5 l-6 5\" stroke=\"#2f5d50\" stroke-width=\"2\" fill=\"none\" stroke-linecap=\"round\"/><rect x=\"372.0\" y=\"6\" width=\"98.0\" height=\"62\" rx=\"10\" fill=\"#ffffff\" stroke=\"#2f5d50\" stroke-width=\"1.8\"/><text x=\"421.0\" y=\"29.0\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"11.5\" font-weight=\"600\" fill=\"#234539\">geef verdere</text><text x=\"421.0\" y=\"45.0\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"10\" font-weight=\"400\" fill=\"#6b7260\">eerste hulp</text></svg>",
+     "onderschrift": "De vier stappen van eerste hulp. Veiligheid eerst, anders word je zelf het tweede slachtoffer."
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>De basisprincipes: blijf rustig, vermijd besmetting, zorg voor comfort</strong>, blijf bij het slachtoffer, handel als hulpverlener, geef psychosociale hulp en denk aan de reacties achteraf."
+    },
+    {
+     "soort": "kader",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">nummer</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">waarvoor</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>112</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>de ziekenwagen en de brandweer</strong></td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>101</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>de politie</strong></td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>1733</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>de huisarts</strong> of de huisartsenwachtpost, voor klachten die geen 112 vragen</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>70 245 245</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>het antigifcentrum</strong>, bij een vergiftiging; bij levensgevaar bel je eerst 112</td></tr></table>"
+    },
+    {
+     "soort": "kader",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">situatie</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">wat je doet</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>een zware bloeding</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>de wonde dichtdrukken</strong> met een verband of je hand, en 112 bellen</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>iemand verslikt zich en kan nog hoesten</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>je laat hem hoesten</strong>: hoesten is de sterkste manier om het voorwerp los te krijgen. Lukt dat niet meer, dan geef je slagen tussen de schouderbladen</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>een brandwonde</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>koelen met lauw lopend water</strong>, tien tot twintig minuten. Geen ijs, geen zalf, geen blaar openmaken</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>een verstuiking</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>koelen en rust</strong>, zodat de zwelling klein blijft</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>een ontwrichting</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>het bot schoot uit de kom</strong>: laat het gewricht zoals het is en ga naar de spoed</td></tr></table>"
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Letsels aan botten, spieren en gewrichten zijn de botbreuk, de verstuiking, de kneuzing en de ontwrichting.</strong> Een brandwonde is een wonde van de huid. <strong>Een botbreuk heet ook een fractuur.</strong>"
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Bij reanimatie bel je 112, start je borstcompressies en zoek je een AED</strong>, een automatische externe defibrillator. <strong>Je gaat door tot de ambulance er is</strong>, want stoppen betekent dat het bloed niet meer rondgaat. <strong>Een AED is voor iedereen bedoeld</strong>, niet enkel voor een dokter: het toestel legt zelf stap voor stap uit wat je moet doen. Een bewusteloos slachtoffer krijgt nooit te drinken."
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Je mag een slachtoffer niet zomaar verplaatsen</strong>: verplaats alleen als er gevaar is, want verplaatsen kan een letsel erger maken."
+    }
+   ]
+  }
+ ],
+ "onthoud": []
+}

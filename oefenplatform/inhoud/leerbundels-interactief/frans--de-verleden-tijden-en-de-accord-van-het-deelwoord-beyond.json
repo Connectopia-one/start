@@ -1,0 +1,138 @@
+{
+ "vak": "Frans",
+ "titel": "De verleden tijden en de accord van het deelwoord",
+ "onder": "Passé composé tegenover imparfait, de plus-que-parfait en de passé récent, en wanneer het deelwoord meegaat.",
+ "secties": [
+  {
+   "kop": "De passé composé",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Een passé composé bestaat uit <strong>een hulpwerkwoord plus een deelwoord</strong>: <em>Hier, j'<strong>ai</strong> mangé au restaurant.</em>"
+    },
+    {
+     "soort": "tekst",
+     "html": "De meeste werkwoorden nemen <em>avoir</em>. Een kleine groep neemt <strong>être</strong>: <strong>aller</strong>, <strong>venir</strong> en <strong>partir</strong>, en hun soortgenoten (entrer, sortir, monter, descendre, naître, mourir, rester, tomber). <strong>Elk wederkerend werkwoord neemt in de passé composé ook être.</strong>"
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong><em>Je suis allé</em> en <em>j'ai allé</em> zijn niet allebei juist.</strong> <em>Aller</em> neemt altijd <em>être</em>: <em>j'ai allé</em> bestaat niet."
+    },
+    {
+     "soort": "tekst",
+     "html": "Met <em>être</em> komt het deelwoord overeen met het onderwerp: <strong>Elle est allée à Paris.</strong> en <strong>Ils sont tombés.</strong>"
+    },
+    {
+     "soort": "tekst",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">infinitief</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">deelwoord</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">prendre</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">pris</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">faire</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">fait</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">voir</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">vu</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">mettre</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">mis</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">écrire</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">écrit</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">être</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">été</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">avoir</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">eu</td></tr></table>"
+    },
+    {
+     "soort": "tekst",
+     "html": "In een ontkenning staan <strong>ne en pas rond het hulpwerkwoord</strong>: <em>Je <strong>n'</strong>ai <strong>pas</strong> mangé.</em> Het deelwoord komt erachter."
+    }
+   ]
+  },
+  {
+   "kop": "De imparfait",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "<strong>De stam van de imparfait vind je uit de nous-vorm van het présent</strong>: <em>nous allons</em> wordt <em>all-</em>, dus <em>j'<strong>allais</strong></em>. De uitgangen zijn -ais, -ais, -ait, <strong>-ions</strong>, -iez, -aient."
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Être is het enige werkwoord met een onregelmatige stam in de imparfait</strong>: <em>j'étais</em>, <strong>Nous étions fatigués.</strong>"
+    },
+    {
+     "soort": "tekst",
+     "html": "<em>Quand j'étais petit, je <strong>allais</strong> souvent au parc</em> wordt natuurlijk <em>j'allais</em>, met de elisie."
+    }
+   ]
+  },
+  {
+   "kop": "Welke tijd wanneer",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">tijd</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">waarvoor</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">passé composé</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een afgeronde gebeurtenis</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">imparfait</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een gewoonte, een beschrijving, het decor van een verhaal</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">plus-que-parfait</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">wat nog eerder gebeurde</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">passé récent</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">wat net gebeurd is</td></tr></table>"
+    },
+    {
+     "soort": "tekst",
+     "html": "Voor <em>elke zomer gingen we naar de zee</em> gebruik je de <strong>imparfait</strong>. Woorden die een imparfait aankondigen: <strong>souvent</strong>, <strong>chaque jour</strong> en <strong>toujours</strong>."
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>In <em>il lisait quand le téléphone a sonné</em> staat de achtergrond in de imparfait.</strong> Wat er plots tussenkomt, staat in de passé composé: <em>soudain, quelqu'un <strong>a frappé</strong> à la porte</em>."
+    },
+    {
+     "soort": "tekst",
+     "html": "Juist gebruikt: <strong>J'ai vu ce film hier.</strong>, <strong>Il faisait froid ce matin.</strong> en <strong>Nous venons de rentrer.</strong>"
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>In gesproken Frans en in een mail gebruik je voor het verleden niet de passé simple</strong>, maar de passé composé. De passé simple staat enkel in verhalende en literaire teksten."
+    },
+    {
+     "soort": "tekst",
+     "html": "Lees: <em>Je n'ai pas compris ce qu'il a dit.</em> Daar staat twee keer <strong>de passé composé</strong>."
+    }
+   ]
+  },
+  {
+   "kop": "Plus-que-parfait en passé récent",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "De <strong>plus-que-parfait</strong> vorm je met <strong>avoir of être in de imparfait plus het deelwoord</strong>: <em>Quand je suis arrivé, il <strong>était</strong> déjà parti.</em> In <em>il avait déjà mangé</em> staat dus de <strong>plus-que-parfait</strong>."
+    },
+    {
+     "soort": "tekst",
+     "html": "Lees: <em>Il avait travaillé toute la nuit, alors il était épuisé.</em> Het verband: <strong>de eerste zin verklaart de tweede</strong>. Dat is precies waarvoor de plus-que-parfait dient."
+    },
+    {
+     "soort": "tekst",
+     "html": "De <strong>passé récent</strong> is <strong>venir de plus een infinitief</strong>. <strong><em>Elle vient de partir</em> betekent niet dat ze op het punt staat te vertrekken</strong>, maar dat ze net vertrokken is. Op het punt staan is <em>elle va partir</em>: precies de andere richting."
+    },
+    {
+     "soort": "tekst",
+     "html": "In een verhaal over je vakantie gebruik je alle drie: <strong>passé composé voor wat gebeurde</strong>, <strong>imparfait voor het weer en het decor</strong>, en <strong>plus-que-parfait voor wat eerder was</strong>."
+    }
+   ]
+  },
+  {
+   "kop": "De accord van het deelwoord",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "<strong>Met être komt het deelwoord overeen met het onderwerp.</strong> <strong>Met avoir komt het niet overeen met het onderwerp</strong>, maar met het lijdend voorwerp, en enkel als dat vóór het werkwoord staat."
+    },
+    {
+     "soort": "tekst",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">zin</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">accord?</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Elle est allée à Paris.</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">ja: être, met het onderwerp</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Elle a mangé une pomme.</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">nee: het COD staat erachter</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">La lettre que j'ai écrite est partie.</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">ja: que verwijst naar la lettre, vooraan</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Les photos que j'ai prises sont belles.</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">ja: les photos staat vooraan</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Elle nous a téléphoné.</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">nee: nous is hier een COI</td></tr></table>"
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Het deelwoord blijft in <em>elle nous a téléphoné</em> onveranderd omdat <em>nous</em> hier een COI is</strong>: je telefoneert <em>à quelqu'un</em>. Enkel een lijdend voorwerp dat vooropstaat, trekt het deelwoord mee."
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Bij een wederkerend werkwoord komt het deelwoord overeen met het voornaamwoord als dat het lijdend voorwerp is.</strong> <em>Elle s'est lavée</em> met accord, maar <strong>Elle s'est lavé les mains.</strong> zonder: daar is <em>les mains</em> het lijdend voorwerp, en het staat erachter."
+    }
+   ]
+  },
+  {
+   "kop": "Oefen dit ook buiten het scherm",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Op dit platform oefen je lezen, woordenschat en grammatica. Maar <strong>luisteren</strong> is de helft van het examen Frans 1, en Frans 2 bestaat uit <strong>een spreekopdracht die je thuis opneemt</strong>, twee schrijfopdrachten en <strong>een gesprek van tien minuten</strong>. Luisteren en spreken leer je niet achter een scherm. Je leert ze door te luisteren naar mensen die echt Frans spreken, en door zelf je mond open te doen, ook als het hakkelt."
+    },
+    {
+     "soort": "kader",
+     "html": "<strong>Deze week:</strong> vertel in het Frans over een dag die je bijbleef: wat er gebeurde in de passé composé, hoe het eruitzag in de imparfait. Doe het één keer, en let daarna op wat je miste of niet gezegd kreeg. Dat is precies je volgende oefening."
+    }
+   ]
+  }
+ ],
+ "onthoud": []
+}

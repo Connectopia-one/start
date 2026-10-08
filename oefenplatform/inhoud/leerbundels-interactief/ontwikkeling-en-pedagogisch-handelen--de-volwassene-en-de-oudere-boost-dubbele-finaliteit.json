@@ -1,0 +1,84 @@
+{
+ "vak": "Ontwikkeling en pedagogisch handelen",
+ "titel": "De volwassene en de oudere",
+ "onder": "Uiterlijke en inwendige veroudering, primair en secundair verouderen, wat er met de hersenen gebeurt, het verschil tussen vergeetachtigheid en dementie, en de levensgebeurtenissen van de volwassene en de oudere.",
+ "secties": [
+  {
+   "kop": "Verouderen",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "<strong>Uiterlijke veroudering zie je</strong>: rimpels, grijze haren en een krommere rug. <strong>Inwendige veroudering betekent dat de organen minder werken</strong>: hart, longen, nieren en spijsvertering gaan langzaam achteruit. <strong>Verouderen begint al bij de jonge volwassene</strong>, alleen merk je er dan weinig van."
+    },
+    {
+     "soort": "kader",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">soort</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">wat het is</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>primair verouderen</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>het gebeurt bij iedereen</strong>: het natuurlijke verouderen dat niemand ontloopt</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>secundair verouderen</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>het komt door de leefstijl</strong>, door ziekte en door de omgeving, en is deels te vermijden</td></tr></table>"
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>De bewegingen worden trager</strong> bij een oudere: minder kracht en een minder zeker evenwicht horen bij de ouderdomsmotoriek. Ook het zicht, het gehoor en de spierkracht gaan achteruit."
+    }
+   ]
+  },
+  {
+   "kop": "De hersenen van een oudere",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Ouder worden brengt niet alleen achteruitgang mee. Bij de hersenen gaat er iets weg en komt er iets bij."
+    },
+    {
+     "soort": "kader",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">wat afneemt</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">wat toeneemt</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>de snelheid van denken</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>het overzicht</strong></td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>de woordenschat</strong></td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>de levenswijsheid</strong></td></tr></table>"
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Een oudere denkt dus trager, maar weet meer en overziet beter.</strong> Daarom <strong>werkt hij trager en toch vaak even goed</strong>: wat aan tempo verloren gaat, wordt opgevangen door ervaring en overzicht."
+    },
+    {
+     "soort": "kader",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\"></th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">wat het is</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">hindert het het dagelijkse leven?</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>ouderdomsvergeetachtigheid</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>je vindt een woord of een naam even niet</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>nee</strong></td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>dementie</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>de hersenen gaan blijvend achteruit</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>ja</strong></td></tr></table>"
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Vergeetachtigheid en dementie zijn dus niet hetzelfde</strong>: het verschil is net dat <strong>dementie verder gaat</strong> en wel ingrijpt in het dagelijkse leven."
+    }
+   ]
+  },
+  {
+   "kop": "Levensgebeurtenissen van de volwassene",
+   "blokken": [
+    {
+     "soort": "kader",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">gebeurtenis</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">wat het is</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>gezinsvorming</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>een eigen gezin starten</strong>: samenwonen, trouwen of kinderen krijgen</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>de midlifecrisis</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>twijfel rond de middenleeftijd</strong>: rond de veertig of vijftig stelt iemand zijn werk, relatie en keuzes in vraag</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>het legenestsyndroom</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>de kinderen gaan weg</strong>, en ouders voelen het gemis en de leegte</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>boemerangkinderen</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>kinderen die terugkomen</strong>: ze waren het huis uit en komen weer bij hun ouders wonen</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>de sandwichgeneratie</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>zorg voor twee generaties</strong>: tegelijk voor de eigen kinderen en voor de ouder wordende ouders</td></tr></table>"
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Het legenestsyndroom betekent dus niet dat de kinderen terugkeren</strong>; dat zijn boemerangkinderen. <strong>Langdurige stress maakt een volwassene ziek</strong>: slecht slapen, hoofdpijn en een opgebrand gevoel."
+    }
+   ]
+  },
+  {
+   "kop": "Levensgebeurtenissen van de oudere",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "<strong>Bij de oudere horen de pensionering, de eenzaamheid en de kleinkinderen.</strong> Gezinsvorming hoort bij de volwassene."
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Bij een pensionering valt de dagindeling weg.</strong> Het vaste ritme van het werk verdwijnt en moet opnieuw opgebouwd worden. <strong>Een oudere voelt zich soms eenzaam omdat vrienden wegvallen</strong>: collega's, vrienden en soms een partner, waardoor de wereld kleiner wordt."
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Afhankelijk worden betekent dat een oudere hulp nodig heeft</strong> voor wassen, koken of boodschappen. <strong>Rouw is het verdriet na een verlies</strong>, en dat verwerken <strong>gaat bij iedereen anders</strong>, in tempo en in vorm."
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Bij een verhuis naar een woonzorgcentrum helpt het om eigen spullen mee te nemen, mee te mogen beslissen en bezoek te krijgen.</strong> Dat maakt de stap draaglijker."
+    }
+   ]
+  }
+ ],
+ "onthoud": []
+}

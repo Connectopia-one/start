@@ -1,0 +1,51 @@
+{
+ "vak": "Ontwikkeling en pedagogisch handelen",
+ "titel": "Kohlberg en Erikson",
+ "onder": "De drie stadia van de morele ontwikkeling bij Kohlberg, en de acht conflicten met hun krachten bij Erikson.",
+ "secties": [
+  {
+   "kop": "Kohlberg: de morele ontwikkeling",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "<strong>Kohlberg beschrijft de morele ontwikkeling</strong>: hoe iemand leert bepalen wat juist en wat verkeerd is. <strong>Hij onderscheidt drie stadia.</strong> Het operationele stadium komt van Piaget, niet van Kohlberg."
+    },
+    {
+     "soort": "figuur",
+     "html": "<svg viewBox=\"0 0 470 152\" width=\"470\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"58\" y=\"26\" width=\"396\" height=\"30\" fill=\"#2f5d50\" fill-opacity=\"0.22\" stroke=\"#2f5d50\" stroke-width=\"1.4\" rx=\"5\"/><text x=\"70.0\" y=\"46.0\" text-anchor=\"start\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"10.5\" font-weight=\"600\" fill=\"#23291f\">post-conventioneel</text><text x=\"232.0\" y=\"46.0\" text-anchor=\"start\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"9\" fill=\"#6b7260\">eigen waarden wegen het zwaarst</text><rect x=\"58\" y=\"62\" width=\"396\" height=\"30\" fill=\"#2f5d50\" fill-opacity=\"0.19\" stroke=\"#2f5d50\" stroke-width=\"1.4\" rx=\"5\"/><text x=\"70.0\" y=\"82.0\" text-anchor=\"start\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"10.5\" font-weight=\"600\" fill=\"#23291f\">conventioneel</text><text x=\"187.0\" y=\"82.0\" text-anchor=\"start\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"9\" fill=\"#6b7260\">de regels en de groep tellen</text><rect x=\"58\" y=\"98\" width=\"396\" height=\"30\" fill=\"#2f5d50\" fill-opacity=\"0.16\" stroke=\"#2f5d50\" stroke-width=\"1.4\" rx=\"5\"/><text x=\"70.0\" y=\"118.0\" text-anchor=\"start\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"10.5\" font-weight=\"600\" fill=\"#23291f\">pre-conventioneel</text><text x=\"223.0\" y=\"118.0\" text-anchor=\"start\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"9\" fill=\"#6b7260\">straf en beloning tellen</text><line x1=\"32\" y1=\"30\" x2=\"32\" y2=\"128\" stroke=\"#6b7260\" stroke-width=\"1.6\"/><path d=\"M32 24 l-5 9 h10 z\" fill=\"#6b7260\"/><text x=\"44.0\" y=\"18.0\" text-anchor=\"start\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"9.5\" font-weight=\"600\" fill=\"#6b7260\">het laatst</text><text x=\"44.0\" y=\"142.0\" text-anchor=\"start\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"9.5\" font-weight=\"600\" fill=\"#6b7260\">het eerst</text></svg>",
+     "onderschrift": ""
+    },
+    {
+     "soort": "kader",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">stadium</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">wat telt</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">voorbeeld</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>het pre-conventionele</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>straf, beloning en het eigen voordeel</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>een kind doet iets niet omdat het straf krijgt</strong></td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>het conventionele</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>de regels, de wet en wat anderen van je vinden</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>iemand houdt zich aan de wet omdat het de wet is</strong></td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>het post-conventionele</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>eigen waarden</strong> als rechtvaardigheid en menselijkheid, en de mensenrechten</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>iemand overtreedt een regel omdat die onrechtvaardig is</strong></td></tr></table>"
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Een jong kind zit meestal in het pre-conventionele stadium</strong> en kijkt vooral naar de gevolgen voor zichzelf; <strong>het denkt dus nog niet aan de wet</strong>. <strong>Niet iedereen bereikt het post-conventionele stadium</strong>: volgens Kohlberg blijven veel mensen in het conventionele."
+    }
+   ]
+  },
+  {
+   "kop": "Erikson: de persoonlijkheidsontwikkeling",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "<strong>Erikson beschrijft de persoonlijkheidsontwikkeling</strong>, met <strong>bij elke levensfase een conflict</strong> van twee polen. <strong>Raakt het conflict opgelost, dan komt de kracht van die fase vrij</strong>, gaat het kind verder en wordt de volgende stap mogelijk. <strong>Wat niet opgelost raakt, speelt in de volgende fasen mee.</strong>"
+    },
+    {
+     "soort": "kader",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">fase</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">het conflict</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">de kracht</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>de baby</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>vertrouwen tegenover wantrouwen</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>hoop</strong></td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>de peuter</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>autonomie tegenover twijfel</strong> en schaamte</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>de wil</strong></td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>de kleuter</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>initiatief tegenover schuld</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>doelgerichtheid</strong></td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>het lagereschoolkind</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>handvaardigheid tegenover minderwaardigheid</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">competentie</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>de adolescent</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>identiteit tegenover identiteitsverwarring</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>trouw</strong></td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>de vroege volwassene</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>intimiteit tegenover isolatie</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>de liefde</strong></td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>de midden-volwassene</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>generativiteit tegenover stagnatie</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">zorg</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>de oudere</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>integriteit tegenover wanhoop</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>wijsheid</strong></td></tr></table>"
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Hoop</strong> is het vertrouwen dat het goed komt. <strong>De wil</strong> is zelf willen en zelf kunnen. <strong>Trouw</strong> is weten wie je bent en daarbij blijven. <strong>Liefde</strong> is een band aangaan zonder jezelf te verliezen."
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Generativiteit is iets doorgeven aan anderen</strong>: zorgen voor de volgende generatie, op het werk of in het gezin. <strong>Het betekent dus net niet dat je alleen aan jezelf denkt</strong>; dat is stagnatie, de andere pool."
+    }
+   ]
+  }
+ ],
+ "onthoud": []
+}

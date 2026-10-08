@@ -1,0 +1,92 @@
+{
+ "vak": "Toegepaste economie",
+ "titel": "Formules en functies in een rekenblad",
+ "onder": "De rekenregel en de operatoren, de functies die je het vaakst nodig hebt, de functie ALS en de zoekfuncties, en het verschil tussen een relatieve en een absolute verwijzing.",
+ "secties": [
+  {
+   "kop": "Rekenen in een cel",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "<strong>Elke formule begint met een isgelijkteken.</strong> Daarna gebruik je de operatoren van het rekenblad: <strong>het sterretje om te vermenigvuldigen, het schuine streepje om te delen en het dakje om te verheffen</strong>. De letter x is voor een rekenblad gewoon tekst."
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>De rekenregel is dezelfde als in de wiskunde</strong>: eerst machten, dan maal en delen, dan plus en min, en <strong>haakjes gaan voor</strong>. <strong>=(2+3)*4 geeft 20, =2+3*4 geeft 14.</strong>"
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Waarom gebruik je een functie in plaats van alles zelf op te tellen? Omdat de formule zich aanpast</strong>: wijzig je een getal in het bereik, dan verandert het totaal mee. <strong>Tussen de haakjes van een functie staat haar argument</strong>: een bereik van cellen, een celadres of een getal."
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Een functienaam hoef je niet in hoofdletters te typen</strong>: typ je som(a1:a5), dan maakt het rekenblad er zelf SOM(A1:A5) van."
+    }
+   ]
+  },
+  {
+   "kop": "De functies die je het vaakst nodig hebt",
+   "blokken": [
+    {
+     "soort": "kader",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">functie</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">wat ze doet</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>SOM</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>getallen optellen</strong>: =SOM(A1:A20) telt alles in dat bereik op</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>GEMIDDELDE</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>de som gedeeld door het aantal</strong>, in één functie</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>MAX</strong> en <strong>MIN</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>het hoogste en het laagste getal</strong> uit een bereik</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>AANTAL</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>tellen hoeveel cellen een getal bevatten</strong>, niet hoeveel die getallen samen zijn</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>PRODUCT</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>de getallen met elkaar vermenigvuldigen</strong>, niet optellen</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>AFRONDEN</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>afronden op een aantal cijfers na de komma</strong>: =AFRONDEN(12,348;2) geeft 12,35</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>VANDAAG</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>de datum van vandaag</strong>; ze past zich elke dag aan</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>NU</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>datum en uur</strong></td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>JAAR</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>het jaartal uit een datum halen</strong></td></tr></table>"
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>=SOM(A1:A5) telt vijf cellen op</strong>: A1, A2, A3, A4 en A5, de eerste en de laatste meegerekend. <strong>=MIN(B2:B10) zoekt het laagste getal</strong> uit dat bereik."
+    },
+    {
+     "soort": "weetje",
+     "html": "Zet VANDAAG niet in een factuur die je bewaart. De functie past zich elke dag aan, dus morgen draagt je factuur een andere datum."
+    }
+   ]
+  },
+  {
+   "kop": "Kiezen en opzoeken",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "<strong>De functie ALS kiest tussen twee uitkomsten op basis van een voorwaarde</strong>, en ze heeft <strong>drie delen: de test, het antwoord als de test waar is, en het antwoord als ze niet waar is</strong>. Bijvoorbeeld =ALS(A1&gt;100;\"korting\";\"geen korting\")."
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Een geneste ALS is een ALS in een ALS</strong>, en dient juist om meer dan één voorwaarde na elkaar te testen, bijvoorbeeld drie kortingstarieven."
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>In een boekhoudblad gebruik je ALS</strong> om korting te geven boven een bedrag, een rekening te kiezen naar het soort kost, of te tonen of een factuur betaald is. Sorteren is geen formule maar een bewerking op het blad."
+    },
+    {
+     "soort": "kader",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">functie</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">wat ze doet</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>VERT.ZOEKEN</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>zoekt in de eerste kolom van een tabel</strong> en geeft iets uit dezelfde rij terug; daarom moet de zoekkolom vooraan staan</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>HORIZ.ZOEKEN</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>zoekt in de eerste rij</strong> van een tabel</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>LINKS</strong> en <strong>RECHTS</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>de eerste of de laatste tekens van een tekst</strong>: =LINKS(A1;3) geeft de eerste drie</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>HOOFDLETTERS</strong> en <strong>KLEINE LETTERS</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>tekst in kapitalen of in kleine letters zetten</strong></td></tr></table>"
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Wordt de waarde niet gevonden, dan geeft een zoekfunctie een foutmelding.</strong> Die kan je opvangen met een functie als ALS.FOUT."
+    }
+   ]
+  },
+  {
+   "kop": "Relatief, absoluut en gemengd",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "<strong>Een relatieve celverwijzing schuift mee bij het kopiëren.</strong> Kopieer je =A1+B1 een rij lager, dan staat er =A2+B2. Dat is wat je meestal wil."
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Een absolute verwijzing schuift niet mee.</strong> <strong>Je schrijft ze met dollartekens</strong>: <strong>een absolute verwijzing naar cel C2 is $C$2</strong>, met een dollarteken voor de kolomletter en een voor het rijnummer. <strong>Een gemengde verwijzing zet de kolom of de rij vast, niet beide</strong>: $C2 houdt de kolom vast, C$2 de rij."
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Waarvoor dient dat? Voor een vast gegeven, zoals een btw-tarief in één cel.</strong> Elke formule kijkt dan naar diezelfde cel, en wijzigt het tarief, dan pas je één cel aan en volgen alle formules."
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Dollartekens in een formule betekenen niet dat het om geld gaat.</strong> Ze zetten een verwijzing vast; geld maak je met de muntnotatie."
+    }
+   ]
+  }
+ ],
+ "onthoud": []
+}

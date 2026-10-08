@@ -1,0 +1,81 @@
+{
+ "vak": "Ontwikkeling en pedagogisch handelen",
+ "titel": "Welzijn en welbevinden",
+ "onder": "Wat welzijn is, de vier soorten welbevinden, de geluksdriehoek, en het verschil tussen zelfzorg, mantelzorg en professionele zorg.",
+ "secties": [
+  {
+   "kop": "Welzijn",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "<strong>Welzijn is tevreden zijn.</strong> Niet alleen over wat je hebt, maar ook over hoe je leeft. Daarom zitten er <strong>twee soorten tevredenheid</strong> in: <strong>materiële en immateriële tevredenheid</strong>."
+    },
+    {
+     "soort": "kader",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">soort tevredenheid</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">waar het over gaat</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">voorbeeld</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>materiële tevredenheid</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">wat je hebt: bezit, inkomen, voorzieningen</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>een eigen woning</strong></td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>immateriële tevredenheid</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">wat je voelt en beleeft: relaties, erkenning, zin, vrije tijd</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>je gewaardeerd voelen</strong></td></tr></table>"
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Welzijn gaat dus niet alleen over geld en bezit.</strong> Wie alles heeft maar zich nergens thuis voelt, heeft weinig welzijn. En omgekeerd."
+    }
+   ]
+  },
+  {
+   "kop": "De vier soorten welbevinden",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Welbevinden is hoe je je voelt, en dat heeft <strong>vier kanten</strong>. Financieel welbevinden staat niet in het rijtje."
+    },
+    {
+     "soort": "kader",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">soort</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">waar het over gaat</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>fysiek welbevinden</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>je lichaam voelt goed</strong>: gezond zijn, uitgerust zijn, geen pijn hebben</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>psychisch welbevinden</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">je gevoelens en je gedachten: rustig in je hoofd zijn</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>sociaal welbevinden</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>je hoort ergens bij</strong>: je plaats in een groep en je relaties met anderen</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>existentieel welbevinden</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>je leven heeft zin</strong>: waarden en het gevoel dat je leven ergens over gaat</td></tr></table>"
+    },
+    {
+     "soort": "tekst",
+     "html": "Let op het verschil tussen de eerste twee. <strong>Fysiek welbevinden gaat over je lichaam, niet over je gevoelens</strong>; gevoelens horen bij het psychische welbevinden."
+    }
+   ]
+  },
+  {
+   "kop": "De geluksdriehoek",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "<strong>De geluksdriehoek heeft drie bouwstenen</strong>, en samen tonen ze waar je zelf aan kan werken om je beter te voelen."
+    },
+    {
+     "soort": "figuur",
+     "html": "<svg viewBox=\"0 0 470 262\" width=\"470\" xmlns=\"http://www.w3.org/2000/svg\"><polygon points=\"235,42 85,208 385,208\" fill=\"#2f5d50\" fill-opacity=\"0.10\" stroke=\"#2f5d50\" stroke-width=\"2\"/><text x=\"235.0\" y=\"162.0\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"11\" font-weight=\"600\" fill=\"#2f5d50\">de geluksdriehoek</text><text x=\"235.0\" y=\"16.0\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"11\" font-weight=\"600\" fill=\"#23291f\">je goed voelen</text><text x=\"235.0\" y=\"29.0\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"9.5\" fill=\"#6b7260\">tevreden zijn met jezelf</text><text x=\"85.0\" y=\"226.0\" text-anchor=\"start\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"11\" font-weight=\"600\" fill=\"#23291f\">goed omringd zijn</text><text x=\"85.0\" y=\"239.0\" text-anchor=\"start\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"9.5\" fill=\"#6b7260\">mensen om je heen</text><text x=\"385.0\" y=\"226.0\" text-anchor=\"end\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"11\" font-weight=\"600\" fill=\"#23291f\">jezelf kunnen zijn</text><text x=\"385.0\" y=\"239.0\" text-anchor=\"end\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"9.5\" fill=\"#6b7260\">je niet hoeven te verstoppen</text><circle cx=\"235\" cy=\"42\" r=\"5\" fill=\"#2f5d50\"/><circle cx=\"85\" cy=\"208\" r=\"5\" fill=\"#2f5d50\"/><circle cx=\"385\" cy=\"208\" r=\"5\" fill=\"#2f5d50\"/></svg>",
+     "onderschrift": ""
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Goed omringd zijn</strong> gaat over mensen om je heen hebben, ergens bij horen en steun krijgen. Het gaat niet over geld. <strong>Jezelf kunnen zijn betekent dat je mag zijn wie je bent</strong>, zonder je te verstoppen voor de mensen om je heen. <strong>De driehoek dient om het welbevinden te verhogen</strong>: haakt er één hoek, dan weet je waar je kan beginnen."
+    }
+   ]
+  },
+  {
+   "kop": "Gezondheid en de drie soorten zorg",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "<strong>Gezondheid is een toestand van volledig fysiek, psychisch en sociaal welbevinden</strong>, dus <strong>drie dimensies</strong>. Daaruit volgt meteen dat <strong>gezondheid meer is dan niet ziek zijn</strong>, en dat <strong>iemand met een chronische ziekte niet per se ongezond is</strong>: wie diabetes heeft, kan zich psychisch en sociaal uitstekend voelen."
+    },
+    {
+     "soort": "tekst",
+     "html": "De omgeving maakt de gezonde keuze makkelijker of moeilijker. <strong>Een hefboom maakt de gezonde keuze voor een gezonde levensstijl makkelijker</strong>, zoals een veilig fietspad in de buurt, een gezonde kantine of water op school. <strong>Een drempel maakt ze moeilijker</strong>, zoals geen veilig fietspad of een automaat vol frisdrank."
+    },
+    {
+     "soort": "kader",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">soort zorg</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">wie het doet</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">betaald?</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>zelfzorg</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>je zorgt voor jezelf</strong>: eten, bewegen, tanden poetsen, rusten</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">niet van toepassing</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>mantelzorg</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>een naaste</strong>: familie, vrienden of buren, bijvoorbeeld de dochter die helpt</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>meestal niet</strong></td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>professionele zorg</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>iemand met een opleiding</strong> en een beroep in de zorg</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">ja, het is zijn werk</td></tr></table>"
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Een mantelzorger is dus geen opgeleide beroepskracht</strong> maar een naaste die zorg opneemt uit betrokkenheid. <strong>Zelfzorg is belangrijk omdat je er jezelf mee gezond houdt</strong>: wat je zelf doet, bepaalt een groot deel van je gezondheid."
+    }
+   ]
+  }
+ ],
+ "onthoud": []
+}

@@ -1,0 +1,159 @@
+{
+ "vak": "Frans",
+ "titel": "Een Franse tekst analyseren",
+ "onder": "Onderwerp, hoofdgedachte en hoofdpunten, gericht zoeken, de signaalwoorden en de verwijswoorden, en een onbekend woord uit de context halen.",
+ "secties": [
+  {
+   "kop": "Onderwerp, hoofdgedachte en hoofdpunten",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Drie woorden die op elkaar lijken en die je uit elkaar moet houden. <strong>De hoofdgedachte van een tekst is niet hetzelfde als het onderwerp.</strong>"
+    },
+    {
+     "soort": "tekst",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\"></th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">hoe lang</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">voorbeeld</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">het onderwerp</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">enkele woorden</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">uitleenfietsen in Lyon</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">de hoofdgedachte</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een hele zin</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Te weinig slaap is slecht voor het hart.</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">de hoofdpunten</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">de zinnen eronder</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">wat de hoofdgedachte ondersteunt</td></tr></table>"
+    },
+    {
+     "soort": "tekst",
+     "html": "Lees: <em>Depuis janvier, la ville de Lyon prête des vélos électriques aux habitants qui n'ont pas de voiture. Mille personnes ont déjà fait la demande.</em> Het onderwerp in enkele woorden: <strong>uitleenfietsen in Lyon</strong>."
+    },
+    {
+     "soort": "tekst",
+     "html": "Lees: <em>Dormir moins de six heures par nuit augmente le risque de maladies du cœur. Les chercheurs conseillent donc de se coucher plus tôt.</em> De hoofdgedachte is een hele zin: <strong>te weinig slaap is slecht voor het hart</strong>."
+    },
+    {
+     "soort": "tekst",
+     "html": "Lees: <em>Ce roman raconte l'histoire d'une famille belge pendant la guerre. L'auteur s'est inspiré du journal de sa grand-mère.</em> De hoofdpunten: <strong>het boek gaat over een Belgisch gezin</strong>, <strong>het verhaal speelt tijdens de oorlog</strong> en <strong>de schrijver gebruikte een dagboek</strong>."
+    },
+    {
+     "soort": "kader",
+     "html": "<strong>Bij een leesvraag mag je het antwoord niet halen uit wat je zelf al over het onderwerp weet, zeker niet als het de tekst tegenspreekt.</strong> En <strong>de titel, de tussentitels en de foto bij een tekst mag je niet overslaan</strong>: ze horen er wel degelijk bij."
+    },
+    {
+     "soort": "tekst",
+     "html": "Vooraf stel je met het communicatiemodel drie vragen: <strong>van wie is de tekst?</strong>, <strong>waarom is hij gemaakt?</strong> en <strong>voor wie is hij bedoeld?</strong>"
+    }
+   ]
+  },
+  {
+   "kop": "Gericht zoeken",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">de zin</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">de vraag</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">het antwoord</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Le musée est fermé le mardi.</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">welke dag gesloten?</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">mardi</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Le colis arrivera entre 14 h et 16 h.</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">ten vroegste?</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">14 h</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">L'entrée est gratuite pour les moins de 12 ans.</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">tot welke leeftijd?</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">12</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Il ne reste plus que deux places.</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">hoeveel plaatsen vrij?</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">nog maar twee</td></tr></table>"
+    },
+    {
+     "soort": "tekst",
+     "html": "Lees: <em>Le train de 7 h 12 a été supprimé. Les voyageurs doivent prendre le bus de remplacement devant la gare.</em> Drie dingen staan er: <strong>de trein rijdt niet</strong>, <strong>er staat een vervangbus klaar</strong> en <strong>de bus vertrekt voor het station</strong>."
+    },
+    {
+     "soort": "tekst",
+     "html": "Lees: <em>Les élèves de terminale passent le bac en juin.</em> Dat gaat over <strong>leerlingen van het laatste jaar</strong>: <em>la terminale</em> is in Frankrijk het laatste jaar van het middelbaar."
+    },
+    {
+     "soort": "tekst",
+     "html": "Lees: <em>Ce guide s'adresse aux parents d'enfants à haut potentiel.</em> De gids is bedoeld <strong>voor ouders van hoogbegaafde kinderen</strong>. En <em>Attention : ce produit contient des arachides</em> is vooral belangrijk <strong>voor wie allergisch is aan noten</strong>."
+    }
+   ]
+  },
+  {
+   "kop": "Tussen de regels lezen",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">de zin</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">wat ze zegt</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Il n'a pas été nécessaire d'annuler le concert.</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">het concert ging door</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">La bibliothèque sera exceptionnellement ouverte dimanche.</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">bij uitzondering</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Faute de bénévoles, la fête n'aura pas lieu.</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">er zijn te weinig vrijwilligers</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Le film, pourtant primé à Cannes, n'a attiré que peu de spectateurs.</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een prijs, maar weinig volk</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Les travaux dureront jusqu'à la fin du mois, sauf en cas de pluie.</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">bij regen kan het langer duren</td></tr></table>"
+    },
+    {
+     "soort": "tekst",
+     "html": "Let op <em>faute de</em> (bij gebrek aan) en <em>sauf en cas de</em> (behalve bij). Twee kleine uitdrukkingen die het hele antwoord dragen."
+    },
+    {
+     "soort": "tekst",
+     "html": "Lees: <em>Selon l'auteur, les réseaux sociaux ne sont pas responsables de tout.</em> Het standpunt: <strong>sociale media krijgen te veel de schuld</strong>."
+    },
+    {
+     "soort": "tekst",
+     "html": "Lees: <em>Je vous écris afin de vous signaler une erreur dans ma facture et de demander un remboursement.</em> Drie dingen kloppen: <strong>de schrijver meldt een fout</strong>, <strong>de schrijver vraagt geld terug</strong> en <strong>de mail gaat over een factuur</strong>."
+    }
+   ]
+  },
+  {
+   "kop": "Signaalwoorden",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">signaalwoord</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">verband</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">pourtant, en revanche, alors que</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een tegenstelling</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">donc, par conséquent, c'est pourquoi, du coup</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een gevolg</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">car, parce que</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een reden</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">bien que</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een toegeving</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">d'abord, ensuite, enfin</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een volgorde in de tijd</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">par exemple, notamment, ainsi</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een voorbeeld</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">en effet</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een onderbouwing van wat er net stond</td></tr></table>"
+    },
+    {
+     "soort": "tekst",
+     "html": "Een gevolg kondigen <strong>donc</strong>, <strong>par conséquent</strong> en <strong>c'est pourquoi</strong> aan. Het woord van twee letters dat dus betekent, is <strong>donc</strong>."
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Het woord <em>car</em> kondigt geen gevolg aan maar een reden</strong>: het is hetzelfde als <em>parce que</em>. Verwar het niet met <em>donc</em>, dat precies de andere kant op wijst."
+    },
+    {
+     "soort": "tekst",
+     "html": "<em>Pourtant</em> legt <strong>een tegenstelling</strong>, en <em>alors que</em> in <em>Alors que le Nord connaît la sécheresse, le Sud est inondé</em> ook. <em>En revanche</em> zegt <strong>daar staat iets tegenover</strong>, en <em>bien que</em> in <em>Bien qu'il soit fatigué, il continue à travailler</em> legt <strong>een toegeving</strong>. Let op: na <em>bien que</em> staat altijd de subjonctif."
+    },
+    {
+     "soort": "tekst",
+     "html": "<em>D'abord, on prépare la pâte. Ensuite, on ajoute les œufs. Enfin, on met le plat au four.</em> Die woorden leggen <strong>een volgorde in de tijd</strong>. <strong>De woorden <em>par exemple</em>, <em>notamment</em> en <em>ainsi</em> kondigen een voorbeeld aan.</strong>"
+    },
+    {
+     "soort": "tekst",
+     "html": "Lees: <em>Les jeunes lisent moins qu'avant. En effet, une enquête montre que…</em> De tweede zin <strong>onderbouwt de eerste</strong>. En <em>Il a raté son train. Du coup, il est arrivé en retard</em>: <em>du coup</em> betekent hier <strong>daardoor</strong>."
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Een alinea in een argumentatieve tekst kan de functie hebben om een tegenargument te weerleggen.</strong> Zo'n alinea begint vaak met <em>certes</em> of <em>on pourrait objecter que</em>, en draait daarna met <em>mais</em>."
+    }
+   ]
+  },
+  {
+   "kop": "Verwijswoorden",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">de zinnen</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">het woordje</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">waarnaar</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Marie a appelé son frère. Il n'a pas répondu.</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">il</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">naar de broer van Marie</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Je n'aime pas les épinards. Mon frère, lui, en mange tous les jours.</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">en</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">naar de spinazie</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Ce que je retiens surtout, c'est son courage.</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">ce que</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">naar de moed verder in de zin</td></tr></table>"
+    },
+    {
+     "soort": "tekst",
+     "html": "Het woordje <strong>en</strong> vervangt iets met <em>de</em> erbij: <em>il en mange</em> is <em>il mange des épinards</em>. Het is klein en makkelijk over het hoofd te zien, en juist daarom vaak de sleutel van een leesvraag."
+    }
+   ]
+  },
+  {
+   "kop": "Een onbekend woord",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "De fiche geeft drie manieren om een onbekend woord aan te pakken: <strong>de betekenis uit de context afleiden</strong>, <strong>letten op hoe het woord gevormd is</strong>, en <strong>je voorkennis en andere talen gebruiken</strong>."
+    },
+    {
+     "soort": "tekst",
+     "html": "Lees: <em>Ce livre est illisible.</em> Je leidt het af <strong>uit <em>lire</em> plus de ontkenning <em>il-</em></strong>: niet te lezen. En <em>Le réchauffement climatique s'accélère</em>: <em>réchauffement</em> betekent <strong>opwarming</strong>, van <em>chaud</em>."
+    },
+    {
+     "soort": "tekst",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">deel</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">wat het doet</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">voorbeeld</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">in-, im-, il-, ir-</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">maakt het tegendeel</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">incorrect, impossible, illisible</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">re-, ré-</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">opnieuw</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">refaire, réchauffer</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">-able, -ible</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">het kan gedaan worden</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">faisable, lisible</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">-ment</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">maakt er een bijwoord van</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">lentement</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">-eur, -euse</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">de persoon die het doet</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">chanteur, chanteuse</td></tr></table>"
+    }
+   ]
+  },
+  {
+   "kop": "Oefen dit ook buiten het scherm",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Op dit platform oefen je lezen, woordenschat en grammatica. Maar <strong>luisteren</strong> is de helft van het examen Frans 1, en Frans 2 bestaat uit <strong>een spreekopdracht die je thuis opneemt</strong>, twee schrijfopdrachten en <strong>een gesprek van tien minuten</strong>. Luisteren en spreken leer je niet achter een scherm. Je leert ze door te luisteren naar mensen die echt Frans spreken, en door zelf je mond open te doen, ook als het hakkelt."
+    },
+    {
+     "soort": "kader",
+     "html": "<strong>Deze week:</strong> luister vijftien minuten naar een Franstalige podcast of radiozender over iets wat je toch al interesseert, en vertel daarna in het Frans waar het over ging. Doe het één keer, en let daarna op wat je miste of niet gezegd kreeg. Dat is precies je volgende oefening."
+    }
+   ]
+  }
+ ],
+ "onthoud": []
+}

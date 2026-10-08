@@ -1,0 +1,88 @@
+{
+ "vak": "Toegepaste economie",
+ "titel": "Afdrukken, kopiëren en scannen",
+ "onder": "Het multifunctionele toestel en zijn onderdelen, de instellingen die je vooraf kiest, veelvoorkomende meldingen, en scannen met tekenherkenning.",
+ "secties": [
+  {
+   "kop": "Het toestel en zijn onderdelen",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "<strong>Een multifunctioneel toestel is printer, scanner en copier in één</strong>: het drukt af, kopieert en scant."
+    },
+    {
+     "soort": "kader",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">onderdeel</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">waarvoor</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>de papierlade</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>de bak met blad erin</strong>; vaak zijn er meerdere laden, één per formaat</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>de inkt- of tonercassette</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>waar de inkt of het poeder in zit</strong></td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>het bedieningsscherm</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>waar je de instellingen kiest en de meldingen leest</strong></td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>de glasplaat</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>waar je een blad legt</strong>, met de bedrukte zijde naar beneden tegen de hoek; enkel een toestel dat ook scant of kopieert heeft er een</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>de doorvoer bovenaan</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>bladen één per één nemen</strong>, zodat je een hele stapel in één keer kopieert of scant</td></tr></table>"
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Een inkjetprinter werkt met vloeibare inkt, een laserprinter met poeder</strong>, dat toner heet. Daarom is een laserprinter per blad goedkoper zodra je veel afdrukt."
+    }
+   ]
+  },
+  {
+   "kop": "Instellen voor je op start drukt",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "<strong>De printereigenschappen zijn de instellingen vooraf</strong>: het venster waar je lade, kwaliteit, kleur en dubbelzijdig kiest. <strong>Met het afdrukbereik kies je welke bladzijden</strong> eruit komen, bijvoorbeeld enkel blad 2 tot 5."
+    },
+    {
+     "soort": "kader",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">instelling</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">wat ze doet</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>dubbelzijdig</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>op beide zijden afdrukken</strong>, ook recto verso of duplex genoemd; twintig bladzijden passen dan op tien bladen</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>zwart-wit of kleur</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>kleur gebruikt meerdere cassettes</strong> en is per blad duurder</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>het aantal exemplaren</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>hoeveel kopieën</strong> je van hetzelfde blad wil</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>verkleinen of vergroten</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>kleiner of groter op het blad</strong>: twee A4 op één A4 heet ook twee op één</td></tr></table>"
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Druk een eerste blad als proef af om fouten te zien.</strong> Honderd flyers met een fout erin zijn honderd flyers verloren."
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Afdrukken naar pdf maakt een bestand</strong>: er komt geen blad uit en er wordt geen inkt gebruikt. <strong>Een pdf open je op elke computer</strong>, ook zonder het programma waarin hij gemaakt is, en daarom is het de gewoonte voor een factuur of een contract. <strong>Een drukker stuur je liever een pdf, omdat de opmaak dan juist blijft</strong>: een lettertype dat de drukker niet heeft wordt anders vervangen, maar in een pdf zit het mee."
+    }
+   ]
+  },
+  {
+   "kop": "Als er iets misloopt",
+   "blokken": [
+    {
+     "soort": "kader",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">melding of situatie</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">wat ze betekent en wat je doet</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>papierstoring</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>een blad zit vast</strong>: open de klep en trek het blad voorzichtig mee met de richting van de doorvoer</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>geen verbinding</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>de printer is onbereikbaar</strong>: kijk de kabel of het netwerk na, en of hij wel aan staat</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>geen papier</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>de opdracht blijft in de wachtrij staan</strong> tot je papier bijvult; afdrukken zonder papier gaat niet</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>de afdrukwachtrij</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>de lijst met opdrachten</strong>; daar annuleer je een opdracht die je per ongeluk startte</td></tr></table>"
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Doet een printer niets, kijk dan eerst of hij aan staat, of er papier in zit, en wat er in de wachtrij staat.</strong> Eerst het eenvoudigste nakijken, daarna pas het netwerk."
+    }
+   ]
+  },
+  {
+   "kop": "Scannen en tekenherkenning",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "<strong>Een scanner maakt papier digitaal</strong>: van een blad maakt hij een bestand op de computer. <strong>De vakfiche noemt de leespen, de handscanner en de vlakbedscanner.</strong>"
+    },
+    {
+     "soort": "kader",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">soort scanner</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">hoe hij werkt</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>de vlakbedscanner</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>een glasplaat met een deksel</strong>: je legt het blad op het glas</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>de handscanner</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>je sleept hem zelf over het blad</strong></td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>de leespen</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>je schuift hem over één regel tekst</strong>, en die komt op de computer</td></tr></table>"
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Bij een scan stel je kleur of zwart-wit, de resolutie en het bestandstype in.</strong> <strong>Een hoge resolutie geeft meer detail</strong>, meer puntjes per duim, maar ook een zwaarder bestand. Exemplaren horen bij afdrukken, niet bij scannen."
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>OCR staat voor optische tekenherkenning</strong>: tekst herkennen in een beeld. <strong>Zonder OCR is een scan een foto van tekst</strong>, een afbeelding waarin je niet kan zoeken, want de computer ziet er enkel puntjes en geen letters. <strong>Met OCR kan je erin zoeken en eruit kopiëren.</strong>"
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Tekenherkenning werkt niet altijd foutloos</strong>, zeker niet bij een slecht leesbaar handschrift. <strong>Kijk een herkende tekst dus altijd na, vooral de cijfers.</strong>"
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Een factuur scan je in om ze digitaal te bewaren</strong>: zo zit ze in de boekhouding en vind je ze later terug. <strong>Gescande documenten nemen geen plaats in, je vindt ze terug met zoeken en je kan ze doorsturen</strong> — maar bewaren moet wel, want de wet zegt hoe lang je je boekhouding moet bijhouden."
+    }
+   ]
+  }
+ ],
+ "onthoud": []
+}

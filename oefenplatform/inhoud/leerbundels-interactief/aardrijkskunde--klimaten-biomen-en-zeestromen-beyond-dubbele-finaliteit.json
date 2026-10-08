@@ -1,0 +1,175 @@
+{
+ "vak": "Aardrijkskunde",
+ "titel": "Klimaten, biomen en zeestromen",
+ "onder": "Weer tegenover klimaat, de klimaattypes op een klimatogram, de biomen die erbij horen, en de zeestromen die het beeld verschuiven.",
+ "secties": [
+  {
+   "kop": "Weer en klimaat",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "<strong>Weer is nu, klimaat is het gemiddelde over jaren.</strong> Een klimaat wordt gewoonlijk over <strong>30</strong> jaar gemiddeld. De klimaatindeling van de aarde is gebaseerd <strong>op temperatuur en neerslag</strong>."
+    },
+    {
+     "soort": "tekst",
+     "html": "Op een <strong>klimatogram</strong> lees je <strong>de temperatuur en de neerslag per maand</strong> af. <strong>Valt de warmste maand in juni of juli, dan hoort het bij het noordelijk halfrond</strong>; valt ze in januari, dan bij het zuidelijk."
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Twee plaatsen op dezelfde breedte hebben niet altijd hetzelfde klimaat.</strong> De zee, de zeestromen, het reliëf en de hoogte maken het verschil. Daarom is het bij ons in de winter zachter dan in Newfoundland, op dezelfde breedte: <strong>de warme drift en de westenwind samen</strong>."
+    },
+    {
+     "soort": "tekst",
+     "html": "In een <strong>continentaal</strong> klimaat is <strong>het verschil tussen de warmste en de koudste maand groter dan in een zeeklimaat</strong>."
+    }
+   ]
+  },
+  {
+   "kop": "De klimaattypes, en een klimatogram lezen",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Een <strong>klimatogram</strong> toont <strong>twaalf</strong> maanden, één per maand van het jaar: de staven zijn de <strong>neerslag</strong>, de lijn is de <strong>temperatuur</strong>. Die twee samen zijn genoeg om het klimaat van een plaats te benoemen."
+    },
+    {
+     "soort": "tekst",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Klimaat</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Waaraan je het herkent</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Waar</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>tropisch regenwoud</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">warm en nat het hele jaar, vlakke temperatuurlijn</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">rond de evenaar</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>savanne</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>een regenseizoen en een droog seizoen</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Afrika tussen woud en woestijn</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>woestijn</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>bijna geen neerslagstaven</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">rond de keerkringen</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>mediterraan</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>droge, hete zomers</strong> en milde, natte winters</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Zuid-Spanje, Zuid-Italië, Griekenland</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>gematigd zeeklimaat</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">regen in alle maanden, kleine schommeling</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">België, Ierland, de Britse eilanden</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>gematigd landklimaat</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">grote schommeling, hete zomer, strenge winter</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Polen, Rusland</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>poolklimaat</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">koud het hele jaar, <strong>weinig neerslag</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">voorbij de poolcirkel</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>hooggebergteklimaat</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>koud door de hoogte</strong>, niet door de breedte</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">de Alpen, de Andes</td></tr></table>"
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Zuid-Zweden</strong> heeft dus géén mediterraan klimaat, en een <strong>poolklimaat is geen nat gebied</strong>: er ligt veel ijs, maar er valt bijna geen neerslag. Een temperatuurlijn die <strong>nauwelijks schommelt</strong>, betekent dat de plaats <strong>dicht bij de evenaar</strong> ligt; midden in een continent schommelt ze juist sterk."
+    },
+    {
+     "soort": "tekst",
+     "html": "De indeling van <strong>Köppen</strong> geeft elk klimaat een letter. De <strong>tropische klimaten krijgen de letter A</strong>, de droge B, de gematigde C, de koude landklimaten D en de poolklimaten E."
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>België heeft een gematigd zeeklimaat.</strong> Daarom staan in een klimatogram van <strong>Oostende de neerslagstaven in juli lager dan in december</strong>: onze zomer is niet onze natste maand. In <strong>Madrid</strong> is het <strong>droger dan bij ons</strong>, zijn <strong>de zomers heet</strong> en ligt de stad <strong>ver van de zee</strong>; er valt er dus minder regen dan in Bergen, de natste stad van Noorwegen. En <strong>Moskou</strong> is in januari veel kouder dan Londen omdat het <strong>ver van de oceaan</strong> ligt, niet omdat het noordelijker of hoger ligt."
+    },
+    {
+     "soort": "kader",
+     "html": "Een klimatogram van het <strong>zuidelijk halfrond</strong> heeft zijn <strong>warmste maanden aan de rand van de grafiek</strong>, bij januari en december, en zijn koudste in het midden. Op het noordelijk halfrond is het net omgekeerd."
+    }
+   ]
+  },
+  {
+   "kop": "De biomen",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">bioom</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">klimaat</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">tropisch regenwoud</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">het hele jaar warm en nat</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">savanne</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">warm, met een droge en een natte tijd</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">woestijn</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">te weinig neerslag voor planten</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">steppe</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">droog grasland van de gematigde streken</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">taiga</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">naaldbos van de koude, noordelijke streken</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">toendra</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">tussen de taiga en de poolwoestijn</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">poolwoestijn</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">ijzig koud en kurkdroog</td></tr></table>"
+    },
+    {
+     "soort": "tekst",
+     "html": "De vakfiche noemt als voorbeeld <strong>de taiga</strong>, <strong>de poolwoestijn</strong> en <strong>de savanne</strong>. Het <strong>tropisch regenwoud</strong> hoort bij een klimaat met het hele jaar hoge temperaturen en veel neerslag; zie je een klimatogram met twaalf maanden boven 25 °C en elke maand meer dan 150 mm regen, dan is dat dus regenwoud."
+    },
+    {
+     "soort": "tekst",
+     "html": "In een <strong>woestijn</strong> groeien zo weinig planten <strong>omdat er te weinig neerslag valt</strong>. In een <strong>poolwoestijn</strong> valt er trouwens ook heel <strong>weinig</strong> neerslag: het ijs ligt er omdat wat er valt nooit smelt, niet omdat er veel valt."
+    },
+    {
+     "soort": "tekst",
+     "html": "De <strong>toendra</strong> heeft een permanent bevroren ondergrond: de <strong>permafrost</strong>. Daardoor kan water niet wegzakken en staan er 's zomers plassen op een bevroren bodem."
+    },
+    {
+     "soort": "tekst",
+     "html": "Het <strong>mediterraan</strong> klimaat herken je aan <strong>droge zomers en zachte, natte winters</strong>. Het klimaat van <strong>België</strong> kenmerkt zich door <strong>zachte winters voor onze breedte</strong>, <strong>koele zomers zonder lange hitte</strong> en <strong>neerslag in alle maanden van het jaar</strong>."
+    },
+    {
+     "soort": "tekst",
+     "html": "Bij de culminatiehoogte en de daglengte noemt de vakfiche <strong>de polaire klimaten</strong>, <strong>de gematigde klimaten</strong> en <strong>de tropische klimaten</strong>."
+    }
+   ]
+  },
+  {
+   "kop": "Welk bioom bij welk klimaat",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Een <strong>bioom</strong> is <strong>een groot gebied met eigen plant- en diergroepen</strong>, bepaald door het klimaat. Bij ons gematigd zeeklimaat hoort het <strong>loofbos</strong>."
+    },
+    {
+     "soort": "tekst",
+     "html": "Onze bomen <strong>verliezen in de winter hun blad om water en energie te sparen</strong>: met een bevroren bodem kunnen de wortels weinig water opnemen, en bladeren verdampen water. Het is dus geen kwestie van te zwaar worden of geen licht meer nodig hebben."
+    },
+    {
+     "soort": "tekst",
+     "html": "De <strong>taiga</strong> is het naaldbos van <strong>Siberië en Canada, net onder de toendra</strong>. In de <strong>toendra</strong> groeien geen bomen, en de reden is de <strong>bevroren bodem</strong>: de <strong>permafrost</strong> blijft het hele jaar bevroren, dus kan een wortel er niet in. Het <strong>tropisch regenwoud</strong> heeft de <strong>grootste verscheidenheid aan soorten</strong> van alle biomen. Een <strong>hooiland</strong> is géén bioom maar een stuk landbouwgrond."
+    }
+   ]
+  },
+  {
+   "kop": "Zeestromen",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "<strong>Zeestromen</strong> zijn <strong>grote, blijvende stromingen in de oceanen</strong>. Aan het oppervlak worden ze vooral aangedreven door <strong>de vaste winden boven de oceanen</strong>, en ze worden <strong>afgebogen door het corioliseffect</strong>. De grote oceaankringen draaien op het noordelijk halfrond <strong>met de klok mee</strong>."
+    },
+    {
+     "soort": "tekst",
+     "html": "Over zeestromen geldt: <strong>ze vervoeren warmte van de evenaar naar de polen</strong>, <strong>ze beïnvloeden het klimaat van de kusten</strong>, en <strong>ze worden afgebogen door het corioliseffect</strong>. Een zeestroom heeft dus wel degelijk invloed op de temperatuur van de kust erlangs."
+    },
+    {
+     "soort": "tekst",
+     "html": "De <strong>Golfstroom</strong> vertrekt vanuit de Golf van Mexico; zijn verlengde, de <strong>Noord-Atlantische Drift</strong>, brengt warm water tot bij West-Europa. <strong>Zonder de Noord-Atlantische Drift zouden onze winters een stuk strenger zijn.</strong> Een <strong>warme zeestroom maakt de kust erlangs zachter en vochtiger</strong>."
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Koude</strong> stromen zijn onder meer <strong>de Labradorstroom</strong>, <strong>de Humboldtstroom</strong> en <strong>de Benguelastroom</strong>. De <strong>Humboldtstroom</strong> loopt langs de kust van Peru en Chili. Daardoor liggen er <strong>woestijnen pal aan de kust van Namibië en Peru: een koude zeestroom houdt de lucht beneden</strong>, zodat ze niet kan opstijgen en regen geven."
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Opwelling</strong> is het verschijnsel waarbij <strong>koud, voedselrijk diepwater naar boven komt</strong>. Daar zitten de rijkste visgronden ter wereld."
+    }
+   ]
+  },
+  {
+   "kop": "Wat een zeestroom doet met een kust",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "<strong>Zeestromen</strong> zijn <strong>grote waterstromen in de oceaan</strong>, niet de getijden en niet de golven. Ze verdelen de warmte over de aarde; zeggen dat ze daar geen invloed op hebben, is dus fout."
+    },
+    {
+     "soort": "tekst",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Zeestroom</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Warm of koud</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Waar</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">de <strong>Golfstroom</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">warm</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">uit de Golf van Mexico</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">de <strong>Noord-Atlantische Drift</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">warm</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">het verlengde ervan, langs West-Europa</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">de <strong>Labradorstroom</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">koud</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">langs Oost-Canada</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">de <strong>Humboldtstroom</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">koud</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">langs Chili en Peru</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">de <strong>Benguelastroom</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">koud</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">langs Namibië</td></tr></table>"
+    },
+    {
+     "soort": "tekst",
+     "html": "Daarom is het in <strong>Noorwegen</strong> in de winter zachter dan in Canada op dezelfde breedte: <strong>er loopt een warme zeestroom langs</strong>. Een zeestroom bepaalt mee de <strong>temperatuur</strong>, de <strong>neerslag</strong> en de <strong>bewolking</strong> van een kust; de breedteligging bepaalt hij natuurlijk niet, die ligt vast."
+    },
+    {
+     "soort": "tekst",
+     "html": "Bij een <strong>koude zeestroom hoort vaak een woestijn aan de kust</strong>: de Atacama bij de Humboldtstroom, de Namib bij de Benguelastroom. Koud water verdampt weinig, en de lucht erboven warmt van onderen niet op, dus stijgt ze niet en regent het niet."
+    },
+    {
+     "soort": "tekst",
+     "html": "De <strong>rijkste visgronden</strong> liggen <strong>waar koud water opwelt</strong>: dat water brengt voedingsstoffen van de diepte mee naar boven. En een <strong>warme zeestroom is niet altijd een snelle zeestroom</strong>: temperatuur en snelheid zijn twee verschillende dingen."
+    }
+   ]
+  },
+  {
+   "kop": "De thermohaliene circulatie",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "De wereldwijde kringloop van water die door temperatuur en zoutgehalte gedreven wordt, heet de <strong>thermohaliene circulatie</strong>. Thermo staat voor warmte, halien voor zout."
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Water wordt zwaarder als het kouder en zouter wordt.</strong> Daarom <strong>zinkt het in de koude noordelijke Atlantische Oceaan</strong>, bij Groenland en IJsland, en kruipt het als diepwater terug naar het zuiden."
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Smeltwater van Groenland maakt het zeewater net zoeter</strong>, niet zouter. Zoeter water is lichter, zakt minder goed, en <strong>remt</strong> de circulatie dus af."
+    },
+    {
+     "soort": "tekst",
+     "html": "Valt de thermohaliene circulatie stil, dan <strong>zou het in West-Europa merkelijk kouder worden</strong>. De gevolgen die de vakfiche noemt: <strong>koudere winters in West-Europa</strong>, <strong>een verschuiving van de regengordels</strong>, en <strong>minder zuurstof in het diepe water</strong>."
+    }
+   ]
+  }
+ ],
+ "onthoud": []
+}

@@ -1,0 +1,129 @@
+{
+ "vak": "Frans",
+ "titel": "Tekstsoorten en de bedoeling van een tekst",
+ "onder": "De zeven tekstsoorten van de fiche, feit tegenover mening, formeel tegenover informeel, en voor wie een tekst gemaakt is.",
+ "secties": [
+  {
+   "kop": "De zeven tekstsoorten",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">soort</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">wat hij doet</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">voorbeeld</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">informatief</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">informatie geven</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een krantenartikel, een interview</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">prescriptief</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">zeggen wat je moet doen</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een recept, een handleiding</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">persuasief</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">je gedrag veranderen</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een reclamespot, een campagne</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">argumentatief</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een stelling met argumenten staven</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een opiniestuk</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">narratief</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">feiten verhalend weergeven</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een reisverslag, een getuigenis</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">opiniërend</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">zeggen wat de schrijver vindt</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een recensie</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">literair</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">iets maken met taal</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een roman, een gedicht, een strip</td></tr></table>"
+    },
+    {
+     "soort": "tekst",
+     "html": "De tekst die vooral informatie wil geven, is <strong>een informatieve tekst</strong>. Een tekst die je van iets wil overtuigen of je gedrag wil veranderen, is <strong>persuasief</strong>. Een tekst die feiten en gebeurtenissen verhalend weergeeft, is <strong>narratief</strong>."
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Een argumentatieve tekst voert argumenten aan om een stelling te ondersteunen.</strong> <strong>Eén tekst kan tot meer dan één van de zeven soorten horen</strong>: een reisverslag is narratief en informatief tegelijk."
+    },
+    {
+     "soort": "tekst",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">de tekst</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">de soort</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Mélangez la farine et le beurre, puis laissez reposer la pâte.</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">prescriptief</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Ce restaurant est une véritable déception : service lent et plats froids.</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">opiniërend</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Et soudain, le silence. La pluie avait cessé de tomber…</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">literair</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Avis aux habitants : la collecte des déchets est reportée à jeudi.</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een informatieve mededeling</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Interdire les voitures en ville ? Trois raisons de ne pas le faire.</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">argumentatief</td></tr></table>"
+    },
+    {
+     "soort": "tekst",
+     "html": "Volgens de fiche zijn <strong>een reisverslag</strong>, <strong>een getuigenis</strong> en <strong>een videoblog</strong> narratief, en zijn <strong>een krantenartikel</strong>, <strong>een interview</strong> en <strong>een nieuwsitem</strong> informatief. <strong>Een strip en een cartoon horen bij de literaire teksten.</strong>"
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Een reclamespot is geen informatieve tekst</strong>, al geeft hij informatie over een product: zijn bedoeling is je iets te doen kopen, dus hij is persuasief."
+    },
+    {
+     "soort": "tekst",
+     "html": "Een prescriptieve tekst herken je snel <strong>aan de imperatief</strong>, <strong>aan de stappen in volgorde</strong> en <strong>soms aan een infinitief</strong> (<em>mélanger, laisser reposer</em>, zoals in veel Franse recepten)."
+    }
+   ]
+  },
+  {
+   "kop": "De bedoeling",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">de tekst</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">de bedoeling</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Roulez moins vite. Chaque année, la vitesse tue 300 personnes.</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">je gedrag veranderen</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Ce documentaire montre comment vivent les derniers bergers des Pyrénées.</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">je iets laten zien en bijbrengen</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">À mon avis, l'école devrait commencer plus tard. Les adolescents dorment trop peu.</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een mening met een reden geven</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Comment réussir son entretien d'embauche en cinq étapes.</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een stappenplan</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Vous êtes nombreux à nous avoir écrit. Voici nos réponses.</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">antwoorden op lezersvragen</td></tr></table>"
+    },
+    {
+     "soort": "tekst",
+     "html": "Een <strong>avis</strong> is een aankondiging of mededeling, zoals in <em>avis aux habitants</em>. En <em>Chers voyageurs, veuillez composter votre billet avant de monter</em> betekent: <strong>je ticket afstempelen</strong> voor je opstapt."
+    },
+    {
+     "soort": "tekst",
+     "html": "De elementen die je helpen de soort te bepalen: <strong>de titel en de tussentitels</strong>, <strong>de plaats waar hij verscheen</strong> en <strong>de werkwoordstijden erin</strong>. <strong>De passé simple kom je in het Frans vooral tegen in verhalende en literaire teksten</strong>, bijna nooit in spreektaal."
+    }
+   ]
+  },
+  {
+   "kop": "Feit of mening",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "<strong>Het verschil tussen een feit en een mening: een feit kan je nagaan.</strong>"
+    },
+    {
+     "soort": "tekst",
+     "html": "Lees: <em>Le musée a accueilli 120 000 visiteurs. C'est un succès incroyable.</em> <strong>De eerste zin is een feit</strong>, <strong>de tweede zin is een mening</strong>, en <strong>het cijfer kan je nagaan</strong>. Twee zinnen naast elkaar, twee heel verschillende soorten uitspraak."
+    },
+    {
+     "soort": "tekst",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">uitdrukking</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">wat ze aankondigt</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">à mon avis, selon moi</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een persoonlijke mening</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">il est prouvé que</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een feit</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">le gouvernement aurait décidé</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">nog niet bevestigd: de conditionnel</td></tr></table>"
+    },
+    {
+     "soort": "tekst",
+     "html": "De uitdrukking van drie woorden die naar mijn mening betekent, is <strong>à mon avis</strong>. De uitdrukking die een feit aankondigt, is <strong>il est prouvé que</strong>."
+    },
+    {
+     "soort": "tekst",
+     "html": "Lees: <em>Le gouvernement aurait décidé de reporter la réforme.</em> Die conditionnel zegt <strong>het is nog niet bevestigd</strong>. Dat is in de Franse pers een vaste manier om iets te melden waar nog geen bevestiging van is: <em>le conditionnel journalistique</em>."
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>In een krantenartikel kan naast feiten ook de mening van de journalist staan.</strong> En <strong>een tekst met veel cijfers en bronvermeldingen is daarom niet automatisch objectief</strong>: ook een selectie van ware cijfers kan sturen."
+    },
+    {
+     "soort": "tekst",
+     "html": "Lees: <em>Ni l'un ni l'autre candidat ne convainc vraiment.</em> De schrijver vindt <strong>dat geen van beide kandidaten overtuigt</strong>."
+    }
+   ]
+  },
+  {
+   "kop": "Formeel of informeel",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "<strong>Tegen een onbekende volwassene gebruik je <em>vous</em>.</strong> Dat is in het Frans geen beleefdheidsdetail maar de regel."
+    },
+    {
+     "soort": "tekst",
+     "html": "Je merkt dat een tekst formeel is <strong>aan de vous-vorm</strong>, <strong>aan de volledige zinnen</strong> en <strong>aan vaste beleefdheidsformules</strong>. <em>Monsieur le Directeur, je me permets de vous écrire au sujet de…</em> zegt meteen: <strong>het is een formele brief</strong>."
+    },
+    {
+     "soort": "tekst",
+     "html": "Lees: <em>Salut ! T'as vu le match hier soir ? C'était dingue !</em> Daaraan valt op dat <strong>het spreektaal is</strong>: <em>salut</em>, de weggelaten <em>ne</em>, <em>t'as</em> in plaats van <em>tu as</em>, en <em>dingue</em>. <strong>Het woord <em>dingue</em> past niet in een formele brief.</strong>"
+    },
+    {
+     "soort": "tekst",
+     "html": "Het is nuttig te weten voor wie een tekst bedoeld is, <strong>omdat dat de toon en de woordkeuze verklaart</strong>. De lezer of hoorder voor wie een tekst bedoeld is, heet in het Frans de <strong>destinataire</strong>."
+    },
+    {
+     "soort": "tekst",
+     "html": "Lees: <em>Ce téléphone ? Le meilleur de tous les temps, à un prix imbattable !</em> Wat de bedoeling verraadt, zijn <strong>de overdreven superlatieven</strong>."
+    }
+   ]
+  },
+  {
+   "kop": "Oefen dit ook buiten het scherm",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Op dit platform oefen je lezen, woordenschat en grammatica. Maar <strong>luisteren</strong> is de helft van het examen Frans 1, en Frans 2 bestaat uit <strong>een spreekopdracht die je thuis opneemt</strong>, twee schrijfopdrachten en <strong>een gesprek van tien minuten</strong>. Luisteren en spreken leer je niet achter een scherm. Je leert ze door te luisteren naar mensen die echt Frans spreken, en door zelf je mond open te doen, ook als het hakkelt."
+    },
+    {
+     "soort": "kader",
+     "html": "<strong>Deze week:</strong> lees één Franstalig opiniestuk en zeg daarna hardop in het Frans, in drie zinnen, wat de schrijver vindt en of je het ermee eens bent. Doe het één keer, en let daarna op wat je miste of niet gezegd kreeg. Dat is precies je volgende oefening."
+    }
+   ]
+  }
+ ],
+ "onthoud": []
+}

@@ -1,0 +1,173 @@
+{
+ "vak": "Engels",
+ "titel": "Voornaamwoorden en betrekkelijke bijzinnen",
+ "onder": "Onderwerp en voorwerp, bezit, wederkerende en onbepaalde voornaamwoorden, en de betrekkelijke bijzin met en zonder komma's.",
+ "secties": [
+  {
+   "kop": "Onderwerp of voorwerp",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">onderwerp</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">voorwerp</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">I</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">me</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">you</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">you</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">he</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">him</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">she</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">her</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">it</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">it</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">we</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">us</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">they</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">them</td></tr></table>"
+    },
+    {
+     "soort": "tekst",
+     "html": "<em><strong>She</strong> gave the book to me</em>: vooraan staat de onderwerpsvorm. <em>My parents sent <strong>us</strong> a card</em>: na het werkwoord de voorwerpsvorm."
+    },
+    {
+     "soort": "tekst",
+     "html": "Na een voorzetsel staat altijd de voorwerpsvorm: <em>Between you and <strong>me</strong>, I think he is wrong.</em> <em>Between you and I</em> hoor je vaak, maar het is fout."
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>In het Engels gebruik je <em>they</em> ook voor één persoon van wie je het geslacht niet zegt.</strong> <em>Someone left their coat.</em> Dat is geen slordigheid: het staat al eeuwen in het Engels en het is vandaag de gewone vorm."
+    }
+   ]
+  },
+  {
+   "kop": "Bezit",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">voor een naamwoord</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">alleenstaand</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">my</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">mine</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">your</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">yours</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">his</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">his</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">her</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">hers</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">its</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">—</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">our</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">ours</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">their</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">theirs</td></tr></table>"
+    },
+    {
+     "soort": "tekst",
+     "html": "De alleenstaande vormen zijn <strong>mine</strong>, <strong>yours</strong> en <strong>theirs</strong>: ze staan zonder naamwoord erachter. <em>This bike is not mine, it is <strong>his</strong></em>, en <em>Is this bag <strong>yours</strong>?</em>"
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Je schrijft het bezittelijke <em>its</em> zonder apostrof.</strong> Geen enkele alleenstaande bezitsvorm krijgt er een: niet <em>your's</em>, niet <em>her's</em>, niet <em>their's</em>."
+    },
+    {
+     "soort": "kader",
+     "html": "<strong><em>There</em>, <em>their</em> en <em>they're</em> betekenen niet hetzelfde.</strong> <em>There</em> is daar, <em>their</em> is hun, <em>they're</em> is <em>they are</em>. Ze klinken gelijk, en dat is precies waarom ze zo vaak door elkaar gaan."
+    }
+   ]
+  },
+  {
+   "kop": "Wederkerende voornaamwoorden",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">persoon</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">vorm</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">I</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">myself</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">you (één)</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">yourself</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">he</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">himself</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">she</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">herself</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">we</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">ourselves</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">you (meer)</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">yourselves</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">they</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">themselves</td></tr></table>"
+    },
+    {
+     "soort": "tekst",
+     "html": "<em>He hurt <strong>himself</strong> while cooking.</em> <em>We enjoyed <strong>ourselves</strong> at the party.</em> <em>They built the house <strong>themselves</strong>.</em>"
+    },
+    {
+     "soort": "tekst",
+     "html": "<em>I did it myself</em> betekent <strong>ik deed het zelf</strong>, zonder hulp. Dezelfde vorm dient dus voor twee dingen: de handeling keert terug op de persoon, of je legt er nadruk mee."
+    }
+   ]
+  },
+  {
+   "kop": "Onbepaalde voornaamwoorden",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Onbepaalde voornaamwoorden zijn <strong>somebody</strong>, <strong>nothing</strong>, <strong>everyone</strong>, en al hun broers en zussen op <em>-body</em>, <em>-one</em>, <em>-thing</em> en <em>-where</em>."
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Ze krijgen altijd een werkwoord in het enkelvoud</strong>, ook al klinken ze naar veel mensen: <strong>nobody</strong>, <strong>everything</strong> en <strong>somebody</strong> doen dat allemaal. Dus <strong><em>everybody are here</em> is fout</strong>: het is <em>everybody <strong>is</strong> here</em>."
+    }
+   ]
+  },
+  {
+   "kop": "This, that, these, those",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "<strong>Het verschil tussen <em>this</em> en <em>that</em> is afstand: this is dichtbij, that is verder weg.</strong> In het meervoud: <em>these</em> en <em>those</em>."
+    },
+    {
+     "soort": "tekst",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\"></th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">dichtbij</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">verder weg</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">enkelvoud</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">this</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">that</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">meervoud</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">these</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">those</td></tr></table>"
+    },
+    {
+     "soort": "tekst",
+     "html": "<em><strong>These</strong> books on the shelf are mine.</em> <em>I like this shirt, but I prefer <strong>that</strong> one over there.</em>"
+    },
+    {
+     "soort": "tekst",
+     "html": "In <em>The results arrived. They were better than expected</em> verwijst <em>they</em> <strong>naar de resultaten</strong>."
+    }
+   ]
+  },
+  {
+   "kop": "Vraagwoorden",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "De vraagwoorden die het Engels kent: <strong>whose</strong>, <strong>whom</strong> en <strong>which</strong>, naast who, what, where, when, why en how."
+    },
+    {
+     "soort": "tekst",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">vraagwoord</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">waarnaar het vraagt</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Who is at the door?</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">naar een persoon, als onderwerp</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Whose coat is this?</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">naar de bezitter</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Which of these two do you prefer?</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">naar een keuze uit een beperkt aantal</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">What did she ask?</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">naar een zaak, uit een open veld</td></tr></table>"
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong><em>Who's</em> betekent <em>who is</em> of <em>who has</em>, en <em>whose</em> betekent van wie.</strong> Weer dezelfde regel als bij <em>its</em>: de apostrof staat voor een weggelaten letter, nooit voor bezit."
+    },
+    {
+     "soort": "tekst",
+     "html": "<em>She asked me <strong>what</strong> I wanted.</em> In zo'n indirecte vraag blijft het vraagwoord staan, maar de woordvolgorde wordt die van een gewone zin."
+    }
+   ]
+  },
+  {
+   "kop": "De betrekkelijke bijzin",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">woord</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">waarvoor</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">who</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">voor personen: the man who lives next door</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">which</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">voor zaken: the book which I bought</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">that</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">voor allebei, in een beperkende bijzin</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">whose</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">bezit: the woman whose son won the prize</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">whom</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">voor personen, als voorwerp: the people whom I work with</td></tr></table>"
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong><em>Who</em> en <em>which</em> kunnen niet door elkaar gebruikt worden</strong>: who is voor mensen, which voor dingen. <em>That</em> kan voor allebei."
+    },
+    {
+     "soort": "tekst",
+     "html": "De fiche noemt ook <strong>when</strong>, <strong>where</strong> en <strong>why</strong>. <strong>In <em>the day when we met</em> verwijst <em>when</em> naar een tijdstip.</strong> <em>This is the town <strong>where</strong> I grew up</em>, en <em>The reason <strong>why</strong> he left is unclear</em>."
+    },
+    {
+     "soort": "tekst",
+     "html": "Deze drie zinnen zijn alle drie juist: <strong>The book that I read was good.</strong>, <strong>The book which I read was good.</strong> en <strong>The book I read was good.</strong> <strong>Het betrekkelijke woord mag weggelaten worden</strong> wanneer het het voorwerp van de bijzin is, zoals in <em>The film I saw was long.</em> Is het het onderwerp, dan moet het blijven staan: <em>The man <strong>who</strong> lives next door</em> kan niet zonder."
+    },
+    {
+     "soort": "tekst",
+     "html": "Ook juist gebouwd: <em>The man <strong>that</strong> I met was kind.</em>"
+    }
+   ]
+  },
+  {
+   "kop": "Met of zonder komma's",
+   "blokken": [
+    {
+     "soort": "kader",
+     "html": "<strong>My brother, who lives in Spain, called</strong> tegenover <strong>My brother who lives in Spain called</strong>. Met komma's heb ik <strong>één</strong> broer, en dat hij in Spanje woont is extra informatie. Zonder komma's heb ik er meerdere, en zeg ik welke van hen belde. Twee komma's veranderen hoeveel broers ik heb."
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>In een uitbreidende bijzin tussen komma's mag je <em>that</em> niet gebruiken.</strong> Daar staat who of which: <em>My car, <strong>which</strong> is ten years old, still runs.</em>"
+    }
+   ]
+  },
+  {
+   "kop": "Oefen dit ook buiten het scherm",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Op dit platform oefen je lezen, woordenschat en grammatica. Maar <strong>luisteren</strong> is de helft van het examen Engels 1, en Engels 2 bestaat uit <strong>schrijven</strong>, <strong>schriftelijke interactie</strong> en <strong>een gesprek</strong>. Luisteren en spreken leer je niet achter een scherm. Je leert ze door te luisteren naar mensen die echt Engels spreken, en door zelf je mond open te doen, ook als het hakkelt."
+    },
+    {
+     "soort": "kader",
+     "html": "<strong>Deze week:</strong> beschrijf in het Engels drie mensen uit je omgeving, elk in één zin met een betrekkelijke bijzin erin. Doe het één keer, en let daarna op wat je miste of niet gezegd kreeg. Dat is precies je volgende oefening."
+    }
+   ]
+  }
+ ],
+ "onthoud": []
+}

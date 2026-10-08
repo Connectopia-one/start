@@ -1,0 +1,190 @@
+{
+ "vak": "Aardrijkskunde",
+ "titel": "De atmosfeer en de temperatuur op aarde",
+ "onder": "De lagen van de atmosfeer, waar de lucht uit bestaat, en wat de temperatuur van een plaats bepaalt.",
+ "secties": [
+  {
+   "kop": "De lagen, van beneden naar boven",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Van beneden naar boven: <strong>troposfeer, stratosfeer, mesosfeer, thermosfeer, exosfeer</strong>. De <strong>exosfeer</strong> is de buitenste laag en gaat over in de ruimte."
+    },
+    {
+     "soort": "tekst",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">laag</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">temperatuur</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">wat er zit</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">troposfeer</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">daalt met de hoogte</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">het weer, bijna alle waterdamp</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">stratosfeer</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">stijgt met de hoogte</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">de ozonlaag</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">mesosfeer</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">daalt weer</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">hier verbranden meteoren</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">thermosfeer</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">stijgt sterk</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">poollicht, het ISS</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">exosfeer</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">—</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">de overgang naar de ruimte</td></tr></table>"
+    },
+    {
+     "soort": "tekst",
+     "html": "De <strong>troposfeer</strong> is de onderste laag, en <strong>daar speelt het weer zich af</strong>. Drie dingen kloppen over die laag: <strong>bijna alle waterdamp zit erin</strong>, <strong>de temperatuur daalt er met de hoogte</strong>, en <strong>ze is boven de evenaar dikker dan boven de polen</strong> (ongeveer 17 km tegenover 8 km). De grens bovenaan, waar de temperatuurdaling stopt, heet de <strong>tropopauze</strong>."
+    },
+    {
+     "soort": "tekst",
+     "html": "In de <strong>stratosfeer</strong> stijgt de temperatuur weer, <strong>omdat ozon daar ultraviolette straling opneemt</strong>. <strong>De luchtdruk en de dichtheid van de lucht nemen af als je hoger komt</strong>: op tien kilometer hoogte kan je dus <strong>niet</strong> zonder hulp ademen, daarom staan vliegtuigcabines onder druk."
+    },
+    {
+     "soort": "tekst",
+     "html": "Een verkeersvliegtuig vliegt <strong>niet</strong> in de mesosfeer maar net boven de troposfeer, onderaan de stratosfeer. Dat doen ze omdat er <strong>minder turbulentie en minder luchtweerstand</strong> is."
+    }
+   ]
+  },
+  {
+   "kop": "Waar de lucht uit bestaat",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Het belangrijkste bestanddeel van droge lucht is <strong>stikstof</strong>, ongeveer 78 %. Daarna komt zuurstof, ongeveer <strong>21</strong> %. De laatste procent is vooral argon, met daarnaast koolstofdioxide en sporen van andere gassen."
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Broeikasgassen</strong> in onze atmosfeer zijn onder meer <strong>waterdamp</strong>, <strong>koolstofdioxide</strong> en <strong>methaan</strong>. Stikstof en zuurstof zijn er géén: die laten warmtestraling gewoon door."
+    },
+    {
+     "soort": "figuur",
+     "html": "<svg viewBox=\"0 0 470 240\" width=\"470\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"10\" y=\"16\" width=\"218\" height=\"136\" fill=\"#eaf1f6\" stroke=\"#e4ded0\" stroke-width=\"1.2\"/><rect x=\"10\" y=\"152\" width=\"218\" height=\"26\" fill=\"#7ba368\" stroke=\"#234539\" stroke-width=\"1.2\"/><rect x=\"10\" y=\"47\" width=\"218\" height=\"10\" fill=\"#6b7260\" opacity=\"0.35\"/><text x=\"222.0\" y=\"50.0\" text-anchor=\"end\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"8\" fill=\"#6b7260\">broeikasgassen</text><circle cx=\"38\" cy=\"34\" r=\"11\" fill=\"#c17f2b\"/><path d=\"M 48 42 L 106 146\" stroke=\"#c17f2b\" stroke-width=\"2\"/><path d=\"M 100 132 l 8 16 l -14 -4\" fill=\"#c17f2b\"/><path d=\"M 128 146 L 128 62\" stroke=\"#a2521f\" stroke-width=\"1.6\"/><path d=\"M 124 68 L 128 58 L 132 68 Z\" fill=\"#a2521f\"/><path d=\"M 154 146 L 154 62\" stroke=\"#a2521f\" stroke-width=\"1.6\"/><path d=\"M 150 68 L 154 58 L 158 68 Z\" fill=\"#a2521f\"/><path d=\"M 180 146 L 180 62\" stroke=\"#a2521f\" stroke-width=\"1.6\"/><path d=\"M 176 68 L 180 58 L 184 68 Z\" fill=\"#a2521f\"/><path d=\"M 206 146 L 206 62\" stroke=\"#a2521f\" stroke-width=\"1.6\" opacity=\"0.5\"/><path d=\"M 206 56 L 206 138\" stroke=\"#a2521f\" stroke-width=\"1.6\"/><path d=\"M 202 132 L 206 142 L 210 132 Z\" fill=\"#a2521f\"/><text x=\"119.0\" y=\"10.0\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"10.5\" font-weight=\"600\" fill=\"#23291f\">gewoon broeikaseffect</text><text x=\"119.0\" y=\"196.0\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"8.5\" fill=\"#6b7260\">een deel van de warmte gaat weg, de rest</text><text x=\"119.0\" y=\"208.0\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"8.5\" fill=\"#6b7260\">houdt de aarde leefbaar</text><rect x=\"242\" y=\"16\" width=\"218\" height=\"136\" fill=\"#eaf1f6\" stroke=\"#e4ded0\" stroke-width=\"1.2\"/><rect x=\"242\" y=\"152\" width=\"218\" height=\"26\" fill=\"#7ba368\" stroke=\"#234539\" stroke-width=\"1.2\"/><rect x=\"242\" y=\"41\" width=\"218\" height=\"22\" fill=\"#6b7260\" opacity=\"0.35\"/><text x=\"454.0\" y=\"50.0\" text-anchor=\"end\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"8\" fill=\"#6b7260\">broeikasgassen</text><circle cx=\"270\" cy=\"34\" r=\"11\" fill=\"#c17f2b\"/><path d=\"M 280 42 L 338 146\" stroke=\"#c17f2b\" stroke-width=\"2\"/><path d=\"M 332 132 l 8 16 l -14 -4\" fill=\"#c17f2b\"/><path d=\"M 360 146 L 360 62\" stroke=\"#a2521f\" stroke-width=\"1.6\"/><path d=\"M 356 68 L 360 58 L 364 68 Z\" fill=\"#a2521f\"/><path d=\"M 386 146 L 386 62\" stroke=\"#a2521f\" stroke-width=\"1.6\" opacity=\"0.5\"/><path d=\"M 386 56 L 386 138\" stroke=\"#a2521f\" stroke-width=\"1.6\"/><path d=\"M 382 132 L 386 142 L 390 132 Z\" fill=\"#a2521f\"/><path d=\"M 412 146 L 412 62\" stroke=\"#a2521f\" stroke-width=\"1.6\" opacity=\"0.5\"/><path d=\"M 412 56 L 412 138\" stroke=\"#a2521f\" stroke-width=\"1.6\"/><path d=\"M 408 132 L 412 142 L 416 132 Z\" fill=\"#a2521f\"/><path d=\"M 438 146 L 438 62\" stroke=\"#a2521f\" stroke-width=\"1.6\" opacity=\"0.5\"/><path d=\"M 438 56 L 438 138\" stroke=\"#a2521f\" stroke-width=\"1.6\"/><path d=\"M 434 132 L 438 142 L 442 132 Z\" fill=\"#a2521f\"/><text x=\"351.0\" y=\"10.0\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"10.5\" font-weight=\"600\" fill=\"#23291f\">versterkt broeikaseffect</text><text x=\"351.0\" y=\"196.0\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"8.5\" fill=\"#6b7260\">er zitten meer broeikasgassen in de lucht,</text><text x=\"351.0\" y=\"208.0\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"8.5\" fill=\"#6b7260\">dus er ontsnapt minder</text><text x=\"235.0\" y=\"232.0\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"9\" fill=\"#6b7260\">Een rode pijl omhoog is warmte die weggaat; een pijl die terugbuigt is warmte die blijft hangen.</text></svg>",
+     "onderschrift": "Kortgolvige straling komt binnen; de aarde straalt langgolvig terug, en broeikasgassen houden een deel daarvan vast."
+    }
+   ]
+  },
+  {
+   "kop": "Ozon: nuttig boven, schadelijk beneden",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "De <strong>ozonlaag</strong> die ons tegen ultraviolet beschermt, zit in de <strong>stratosfeer</strong>. Ozon ontstaat daar doordat <strong>ultraviolet licht zuurstofmoleculen splitst</strong>: de losse zuurstofatomen hangen zich dan aan andere zuurstofmoleculen vast."
+    },
+    {
+     "soort": "tekst",
+     "html": "Zit ozon in de <strong>troposfeer</strong>, dicht bij de grond, dan is het juist <strong>schadelijk voor longen en gewassen</strong>. Op warme zomerdagen met veel verkeer loopt die ozonwaarde op."
+    },
+    {
+     "soort": "kader",
+     "html": "<strong>Ozon is zowel nuttig als schadelijk, afhankelijk van de laag waar het zit.</strong> Dat is geen tegenspraak: boven houdt het straling tegen, beneden tast het weefsel aan."
+    }
+   ]
+  },
+  {
+   "kop": "De stralingsbalans en het albedo",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "De <strong>stralingsbalans</strong> beschrijft <strong>de verhouding tussen inkomende en uitgaande straling</strong>. Van de zon komt <strong>kortgolvige straling</strong>; de aarde straalt langgolvig terug."
+    },
+    {
+     "soort": "figuur",
+     "html": "<svg viewBox=\"0 0 470 232\" width=\"470\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"10\" y=\"16\" width=\"218\" height=\"134\" fill=\"#eaf1f6\" stroke=\"#e4ded0\" stroke-width=\"1.2\"/><rect x=\"10\" y=\"150\" width=\"218\" height=\"30\" fill=\"#e8eef3\" stroke=\"#234539\" stroke-width=\"1.2\"/><circle cx=\"36\" cy=\"34\" r=\"11\" fill=\"#c17f2b\"/><path d=\"M 46 42 L 106 146\" stroke=\"#c17f2b\" stroke-width=\"2.2\"/><path d=\"M 100 132 l 8 14 l -13 -3\" fill=\"#c17f2b\"/><path d=\"M 114 146 L 128 30\" stroke=\"#c17f2b\" stroke-width=\"1.8\"/><path d=\"M 124 42 l 5 -13 l -11 4\" fill=\"#c17f2b\"/><path d=\"M 130 146 L 144 30\" stroke=\"#c17f2b\" stroke-width=\"1.8\"/><path d=\"M 140 42 l 5 -13 l -11 4\" fill=\"#c17f2b\"/><path d=\"M 146 146 L 160 30\" stroke=\"#c17f2b\" stroke-width=\"1.8\"/><path d=\"M 156 42 l 5 -13 l -11 4\" fill=\"#c17f2b\"/><path d=\"M 162 146 L 176 30\" stroke=\"#c17f2b\" stroke-width=\"1.8\"/><path d=\"M 172 42 l 5 -13 l -11 4\" fill=\"#c17f2b\"/><path d=\"M 50 156 v 18\" stroke=\"#b9472e\" stroke-width=\"1.8\"/><path d=\"M 46 170 l 4 8 l 4 -8\" fill=\"#b9472e\"/><text x=\"119.0\" y=\"190.0\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"11\" font-weight=\"600\" fill=\"#234539\">sneeuw en ijs</text><text x=\"119.0\" y=\"204.0\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"10\" fill=\"#c17f2b\">hoog albedo</text><text x=\"119.0\" y=\"220.0\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"9\" fill=\"#6b7260\">kaatst veel terug</text><rect x=\"242\" y=\"16\" width=\"218\" height=\"134\" fill=\"#eaf1f6\" stroke=\"#e4ded0\" stroke-width=\"1.2\"/><rect x=\"242\" y=\"150\" width=\"218\" height=\"30\" fill=\"#3d5a6c\" stroke=\"#234539\" stroke-width=\"1.2\"/><circle cx=\"268\" cy=\"34\" r=\"11\" fill=\"#c17f2b\"/><path d=\"M 278 42 L 338 146\" stroke=\"#c17f2b\" stroke-width=\"2.2\"/><path d=\"M 332 132 l 8 14 l -13 -3\" fill=\"#c17f2b\"/><path d=\"M 346 146 L 360 30\" stroke=\"#c17f2b\" stroke-width=\"1.8\"/><path d=\"M 356 42 l 5 -13 l -11 4\" fill=\"#c17f2b\"/><path d=\"M 282 156 v 18\" stroke=\"#b9472e\" stroke-width=\"1.8\"/><path d=\"M 278 170 l 4 8 l 4 -8\" fill=\"#b9472e\"/><path d=\"M 297 156 v 18\" stroke=\"#b9472e\" stroke-width=\"1.8\"/><path d=\"M 293 170 l 4 8 l 4 -8\" fill=\"#b9472e\"/><path d=\"M 312 156 v 18\" stroke=\"#b9472e\" stroke-width=\"1.8\"/><path d=\"M 308 170 l 4 8 l 4 -8\" fill=\"#b9472e\"/><path d=\"M 327 156 v 18\" stroke=\"#b9472e\" stroke-width=\"1.8\"/><path d=\"M 323 170 l 4 8 l 4 -8\" fill=\"#b9472e\"/><text x=\"351.0\" y=\"190.0\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"11\" font-weight=\"600\" fill=\"#234539\">water en donker bos</text><text x=\"351.0\" y=\"204.0\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"10\" fill=\"#c17f2b\">laag albedo</text><text x=\"351.0\" y=\"220.0\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"9\" fill=\"#6b7260\">neemt veel warmte op</text></svg>",
+     "onderschrift": "Wat er binnenkomt en wat er weer weg gaat."
+    },
+    {
+     "soort": "tekst",
+     "html": "Het <strong>albedo</strong> is de verhouding van het zonlicht dat een oppervlak weerkaatst. Hoe witter en gladder, hoe hoger. <strong>Verse sneeuw</strong> heeft het hoogste albedo van de oppervlakken die je moet kennen: ze kaatst tot 90 % terug. Donker asfalt en open water kaatsen juist bijna niets terug."
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Hoe hoger de zon staat, hoe meer energie er per vierkante meter aankomt.</strong> Bij een lage zon wordt dezelfde bundel over een groter stuk grond uitgesmeerd."
+    }
+   ]
+  },
+  {
+   "kop": "Wat de temperatuur van een plaats bepaalt",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "De vakfiche deelt de factoren in drie groepen in."
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Uit de rotatie en de revolutie</strong>: <strong>de breedteligging</strong>, <strong>de invalshoek van de zonnestralen</strong>, en <strong>het tijdstip van de dag en het seizoen</strong>."
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Geografische factoren</strong>: <strong>de hoogteligging</strong>, <strong>de zeestromen</strong> en <strong>de ligging ten opzichte van de zee</strong>."
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Lokale factoren</strong>: <strong>de helling en de vegetatie</strong>, <strong>de bodem en de bewolking</strong>, en <strong>de windrichting</strong>."
+    },
+    {
+     "soort": "tekst",
+     "html": "Op de evenaar is het gemiddeld warmer dan bij ons <strong>omdat de zon er veel hoger boven de horizon staat</strong>. Met de hoogte daalt de temperatuur met <strong>ongeveer 6,5 °C</strong> per kilometer; daarom zijn <strong>hooggebergten koud, ook op de evenaar: de lucht is er dunner en koelt sneller af</strong>."
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Moskou ligt ver van de zee, Oostende eraan.</strong> Daarom is de zomer in Moskou warmer en de winter er kouder: water warmt traag op en koelt traag af, en dempt zo de uitersten. De <strong>Noord-Atlantische Drift</strong> is de zeestroom die onze winters zacht houdt."
+    },
+    {
+     "soort": "tekst",
+     "html": "Een <strong>zuidelijke helling</strong> warmt in onze streken sneller op dan een noordelijke, <strong>omdat de zon er loodrechter op valt</strong>. En een <strong>bewolkte</strong> nacht koelt <strong>minder</strong> sterk af dan een heldere: de wolken houden de warmtestraling tegen, als een deken."
+    }
+   ]
+  },
+  {
+   "kop": "Zeeklimaat, landklimaat en de kleine schaal",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "<strong>Water warmt trager op en koelt trager af dan land.</strong> Daarmee verklaar je bijna alles over temperatuur in onze streken."
+    },
+    {
+     "soort": "tekst",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Klimaat</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Waar</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Hoe het voelt</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>maritiem</strong> of zeeklimaat</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">dicht bij de zee, zoals Oostende</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">kleine verschillen: koelere zomer, zachtere winter</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>continentaal</strong> of landklimaat</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">ver in het binnenland, zoals Moskou</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">hete zomers en strenge winters</td></tr></table>"
+    },
+    {
+     "soort": "tekst",
+     "html": "Daarom is het in <strong>Oostende</strong> in juli <strong>koeler dan in Hasselt</strong>: de zee koelt de lucht af. En daarom wordt de jaarschommeling van de temperatuur klein als je <strong>dicht bij de zee</strong> ligt, <strong>dicht bij de evenaar</strong> ligt of een <strong>warme zeestroom langs je kust</strong> hebt. Ver in het binnenland liggen doet net het omgekeerde. Van twee steden op dezelfde breedte heeft een <strong>kuststad in Ierland</strong> dus de zachtste winter, zachter dan een stad midden in Rusland, in het binnenland van Canada of hoog in de bergen."
+    },
+    {
+     "soort": "tekst",
+     "html": "Op kleine schaal werken nog drie dingen mee. Een <strong>zuidhelling</strong> is in België warmer dan een noordhelling, <strong>omdat de zon er steiler op valt</strong>. Een <strong>bewolkte nacht is zachter dan een heldere nacht</strong>, want de wolken houden de uitgestraalde warmte vast, dus niet kouder. En de <strong>hoogste temperatuur van de dag valt niet om twaalf uur</strong> maar in de namiddag, omdat <strong>de grond eerst moet opwarmen</strong> voordat hij de lucht verwarmt."
+    },
+    {
+     "soort": "tekst",
+     "html": "Een <strong>temperatuurinversie</strong> is de omkering van het gewone beeld: <strong>koude lucht onder warme lucht</strong>. Dat gebeurt op een heldere winternacht in een vallei, en dan blijven mist en vuile lucht er hangen."
+    },
+    {
+     "soort": "kader",
+     "html": "In de <strong>Sahara</strong> is het 's nachts vaak koud, en de reden is <strong>droogte</strong>: er zit <strong>geen waterdamp in de lucht</strong> om de warmte vast te houden, dus straalt de hitte 's nachts weg. Om dezelfde reden liggen de <strong>hoogste gemeten temperaturen op aarde niet op de evenaar</strong> maar in de woestijnen rond de keerkringen: op de evenaar hangen wolken en valt regen."
+    }
+   ]
+  },
+  {
+   "kop": "Isothermen en het hitte-eiland",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Een <strong>isotherm</strong> is een lijn op een kaart die plaatsen met dezelfde temperatuur verbindt. <strong>Liggen de isothermen dicht bij elkaar, dan verandert de temperatuur er snel over korte afstand.</strong>"
+    },
+    {
+     "soort": "tekst",
+     "html": "In een stad is het vaak warmer dan in de velden errond, <strong>omdat steen en asfalt de warmte van de dag opslaan</strong> en 's nachts weer afgeven. Daar komt bij dat er weinig groen en water is om te verdampen. Dat verschijnsel heet het <strong>hitte-eilandeffect</strong>."
+    },
+    {
+     "soort": "tekst",
+     "html": "De warmste tijd van de dag valt <strong>niet</strong> samen met het moment dat de zon het hoogst staat. De grond blijft daarna nog warmte opnemen, dus de top ligt meestal een uur of drie later, rond half drie."
+    }
+   ]
+  },
+  {
+   "kop": "Isothermen lezen",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "<strong>Isothermen</strong> verbinden op een kaart de plaatsen met <strong>dezelfde temperatuur</strong>. Twee dingen lees je eraan af."
+    },
+    {
+     "soort": "tekst",
+     "html": "Liggen de isothermen <strong>dicht bij elkaar</strong>, dan <strong>verandert de temperatuur snel</strong> over een korte afstand. Liggen ze ver uit elkaar, dan is het overal ongeveer even warm."
+    },
+    {
+     "soort": "tekst",
+     "html": "En hun <strong>richting</strong> verraadt het seizoen. In <strong>juli</strong> lopen de isothermen over Europa ongeveer <strong>oost-west</strong>, netjes met de breedte mee. In <strong>januari</strong> lopen ze veel meer <strong>noord-zuid</strong>, want dan is de zee in het westen zacht en het binnenland in het oosten ijskoud: het verschil tussen oost en west is dan groter dan dat tussen noord en zuid."
+    },
+    {
+     "soort": "kader",
+     "html": "In de troposfeer daalt de temperatuur met <strong>ongeveer zes graden per kilometer</strong> hoogte. Daarom is het op een berg kouder dan in de vallei, hoewel je er iets dichter bij de zon zit: <strong>de lucht is er dunner en houdt de warmte minder vast</strong>. Die paar kilometer naar de zon toe stellen niets voor naast 150 miljoen kilometer."
+    }
+   ]
+  }
+ ],
+ "onthoud": []
+}

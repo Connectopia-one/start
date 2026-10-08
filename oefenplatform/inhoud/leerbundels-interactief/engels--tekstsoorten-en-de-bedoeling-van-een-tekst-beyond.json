@@ -1,0 +1,146 @@
+{
+ "vak": "Engels",
+ "titel": "Tekstsoorten en de bedoeling van een tekst",
+ "onder": "De vijf tekstsoorten, feit tegenover mening, en hoe je doel, publiek en toon van een tekst herkent.",
+ "secties": [
+  {
+   "kop": "De tekstsoorten",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">soort</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">wat hij doet</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">voorbeeld</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">informatief</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">iets te weten geven</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een encyclopedie, een nieuwsbericht</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">prescriptief</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">zeggen wat je moet doen</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een recept, een handleiding</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">argumentatief</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">je van iets overtuigen</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een opiniestuk, een reclametekst</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">narratief</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een verhaal vertellen</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een reisverslag, een roman</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">artistiek-literair</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">iets moois maken met taal</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een gedicht, een roman</td></tr></table>"
+    },
+    {
+     "soort": "tekst",
+     "html": "Een tekst die je van iets wil overtuigen, is <strong>argumentatief</strong>. <strong>Eén tekst kan meer dan één soort tegelijk zijn</strong>: een reisverslag is narratief en informatief, een roman is narratief en artistiek-literair."
+    },
+    {
+     "soort": "tekst",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">de tekst</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">de soort</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Mix the flour and the butter. Then add the eggs.</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">prescriptief</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">The United Kingdom consists of four countries.</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">informatief</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">It was the best of times, it was the worst of times.</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">artistiek-literair</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Last summer we drove to Cornwall. On the second day the car broke down.</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">narratief</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Three reasons why we should ban cars from the city centre.</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">argumentatief</td></tr></table>"
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Prescriptief</strong> zijn <strong>een gebruiksaanwijzing</strong>, <strong>een recept uit een kookboek</strong> en <strong>de spelregels van een spel</strong>. <em>Keep out of reach of children</em> staat <strong>op een verpakking</strong>."
+    },
+    {
+     "soort": "tekst",
+     "html": "Een <strong>narratieve</strong> tekst verraadt zich door <strong>een verloop in de tijd</strong>, <strong>personages die iets doen</strong> en <strong>veel verleden tijden</strong>. Lees: <em>Once upon a time, in a village near the sea…</em> Daarna verwacht je <strong>een verhaal</strong>."
+    },
+    {
+     "soort": "tekst",
+     "html": "Twee valstrikken. <strong>Een reclametekst is niet zuiver informatief</strong>, al geeft hij je gegevens: hij wil je iets doen kopen, dus hij is argumentatief. En <strong>een gedicht hoort niet bij de informatieve teksten</strong>: het is artistiek-literair, ook al steek je er iets van op."
+    }
+   ]
+  },
+  {
+   "kop": "De opmaak verraadt de soort",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "<strong>Bij de soort van een tekst helpt het om naar de opmaak te kijken: kolommen, een kader, een nummering.</strong> Je ziet vaak al wat voor tekst het is voor je één woord gelezen hebt."
+    },
+    {
+     "soort": "tekst",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">wat je ziet</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">wat het is</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Tickets: £12. Doors open at 7 p.m.</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">praktische info bij een concert</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Minutes of the meeting of 4 March. Present: six members.</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een verslag van een vergadering</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Dear Sir or Madam … I look forward to hearing from you</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een formele brief</td></tr></table>"
+    },
+    {
+     "soort": "tekst",
+     "html": "Van een brief maken deze stukken een <strong>formele</strong> brief: <strong>Dear Sir or Madam</strong>, <strong>with regard to</strong> en <strong>I look forward to hearing from you</strong>."
+    },
+    {
+     "soort": "tekst",
+     "html": "In een krantenkop valt het werkwoord weg: <em>Man <strong>is</strong> injured in fire</em> wordt gewoon <em>Man injured in fire</em>. De korte samenvatting bovenaan een artikel heet de <strong>lead</strong>, vier letters, hetzelfde woord als lood."
+    }
+   ]
+  },
+  {
+   "kop": "Feit of mening",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">zin</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">feit of mening</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Water boils at 100 degrees Celsius.</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een feit</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Tea tastes better than coffee.</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een mening</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">This is the finest novel of the year.</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een mening</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Everyone should learn a second language.</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een mening</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">The film was far too long.</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een mening</td></tr></table>"
+    },
+    {
+     "soort": "tekst",
+     "html": "Een feit kan je nagaan, een mening niet. Let op woorden als <em>finest</em>, <em>should</em> en <em>far too</em>: die dragen een oordeel."
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Een tekst die vol cijfers staat, geeft daarmee niet automatisch de waarheid.</strong> Cijfers kunnen geselecteerd, verouderd of uit hun verband getrokken zijn. Kijk wie ze geeft en waar ze vandaan komen."
+    },
+    {
+     "soort": "tekst",
+     "html": "Lees: <em>In my view, homework does more harm than good.</em> <em>In my view</em> kondigt <strong>een mening van de schrijver</strong> aan."
+    },
+    {
+     "soort": "tekst",
+     "html": "Lees: <em>Not everyone agrees with this view.</em> Die zegt dat <strong>sommigen het er niet mee eens zijn</strong>."
+    }
+   ]
+  },
+  {
+   "kop": "Doel, publiek en toon",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Drie Engelse woorden die je moet kennen: <strong>purpose</strong> (zeven letters) is het <strong>doel</strong>, <strong>audience</strong> (acht letters) is het <strong>publiek</strong>, en <strong>tone</strong> (vier letters) is de <strong>toon</strong>."
+    },
+    {
+     "soort": "tekst",
+     "html": "Een tekst kan als doel hebben: <strong>informeren</strong>, <strong>overtuigen</strong> of <strong>aanzetten tot iets</strong>."
+    },
+    {
+     "soort": "tekst",
+     "html": "Lees: <em>Students must register before 1 October.</em> Dat is bedoeld <strong>voor studenten</strong>. En <strong>een tekst voor jonge kinderen gebruikt kortere zinnen en gewonere woorden dan een tekst voor volwassenen</strong>."
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>De toon van een tekst kan je horen aan de woordkeuze.</strong>"
+    },
+    {
+     "soort": "tekst",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">zin</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">toon</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Hey, fancy a coffee later?</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">informeel</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">We regret to inform you that your application was unsuccessful.</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">formeel, en: je bent niet gekozen</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Shocking! The council has wasted millions.</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">verontwaardigd</td></tr></table>"
+    }
+   ]
+  },
+  {
+   "kop": "Voorzichtig en retorisch",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Woorden die een bewering voorzichtiger maken: <strong>may</strong>, <strong>possibly</strong> en <strong>it seems</strong>. Een schrijver die ze gebruikt, laat zich een uitweg."
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Bij <em>It is said that…</em> weet je juist níét wie het zegt.</strong> Die constructie verbergt de bron, en dat is op zich al een reden om voorzichtig te zijn."
+    },
+    {
+     "soort": "tekst",
+     "html": "Lees: <em>Some claim that screens harm children. However, the evidence is thin.</em> De schrijver <strong>nuanceert wat anderen zeggen</strong>."
+    },
+    {
+     "soort": "tekst",
+     "html": "Lees: <em>Do you really think that is fair?</em> Die vraag is <strong>retorisch: ze wil geen antwoord</strong>, ze wil je overtuigen."
+    },
+    {
+     "soort": "tekst",
+     "html": "Lees: <em>Readers are advised to check the small print.</em> Die zin <strong>geeft de lezer een raad</strong>."
+    }
+   ]
+  },
+  {
+   "kop": "Oefen dit ook buiten het scherm",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Op dit platform oefen je lezen, woordenschat en grammatica. Maar <strong>luisteren</strong> is de helft van het examen Engels 1, en Engels 2 bestaat uit <strong>schrijven</strong>, <strong>schriftelijke interactie</strong> en <strong>een gesprek</strong>. Luisteren en spreken leer je niet achter een scherm. Je leert ze door te luisteren naar mensen die echt Engels spreken, en door zelf je mond open te doen, ook als het hakkelt."
+    },
+    {
+     "soort": "kader",
+     "html": "<strong>Deze week:</strong> lees één Engelstalig opiniestuk en zeg daarna in het Engels, hardop, in drie zinnen wat de schrijver vindt en of je het ermee eens bent. Doe het één keer, en let daarna op wat je miste of niet gezegd kreeg. Dat is precies je volgende oefening."
+    }
+   ]
+  }
+ ],
+ "onthoud": []
+}

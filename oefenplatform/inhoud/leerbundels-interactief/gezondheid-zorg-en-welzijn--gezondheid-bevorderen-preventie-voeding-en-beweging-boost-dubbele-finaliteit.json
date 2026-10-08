@@ -1,0 +1,89 @@
+{
+ "vak": "Gezondheid, zorg en welzijn",
+ "titel": "Gezondheid bevorderen: preventie, voeding en beweging",
+ "onder": "De drie delen van gezondheidsbevordering, primaire, secundaire en tertiaire preventie, de voedingsdriehoek met haar drie uitgangspunten, de vier bewegingscategorieën, slaap en hygiëne.",
+ "secties": [
+  {
+   "kop": "Bevorderen, voorkomen, beschermen",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "<strong>Gezondheidsbevordering is de gezondheid versterken.</strong> Het gaat niet over genezen maar over de gezondheid van mensen verbeteren en beschermen. <strong>Ze bestaat uit ziektepreventie, gezondheidspromotie en gezondheidsbescherming.</strong> Een ziekteverzekering betaalt de zorg en bevordert de gezondheid niet."
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Gezondheidsbescherming is de omgeving veilig maken</strong>: schoon drinkwater, veilige voeding, een rookverbod. Regels die iedereen beschermen."
+    },
+    {
+     "soort": "kader",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">preventie</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">wanneer</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">voorbeeld</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>primair</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>vóór de ziekte er is</strong>: voorkomen dat je ziek wordt</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>een vaccinatie tegen mazelen</strong>, gezond eten, niet roken</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>secundair</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>vroeg opsporen</strong>, als de ziekte nog goed te behandelen is</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>een bevolkingsonderzoek naar kanker</strong>, bij mensen zonder klachten</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>tertiair</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>de ziekte is er al</strong>: de gevolgen beperken</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">herval en blijvende schade zo klein mogelijk houden</td></tr></table>"
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Je bevordert gezondheid op vier manieren: een gezonde leefomgeving maken, vaardigheden aanleren, je gedrag aanpassen, en bewust en actief omgaan met je gezondheid en die van anderen.</strong> <strong>Gezondheidsbevordering gaat dus niet alleen over voeding</strong>: ook beweging, slaap, hygiëne en de leefomgeving horen erbij. <strong>Een gezonde leefomgeving heeft wel degelijk met gezondheid te maken</strong>, ze is net een van die vier manieren."
+    }
+   ]
+  },
+  {
+   "kop": "De voedingsdriehoek",
+   "blokken": [
+    {
+     "soort": "figuur",
+     "html": "<svg viewBox=\"0 0 470 248\" width=\"470\" xmlns=\"http://www.w3.org/2000/svg\"><polygon points=\"16.0,24.0 200.0,24.0 163.2,88.0 52.8,88.0\" fill=\"#2f5d50\" fill-opacity=\"0.22\" stroke=\"#2f5d50\" stroke-width=\"1.6\"/><rect x=\"216\" y=\"47.0\" width=\"11\" height=\"11\" fill=\"#2f5d50\" fill-opacity=\"0.5\" stroke=\"#2f5d50\" stroke-width=\"1.2\"/><text x=\"234.0\" y=\"56.0\" text-anchor=\"start\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"9.5\" fill=\"#23291f\">water, groenten, fruit, granen, noten en</text><text x=\"234.0\" y=\"68.0\" text-anchor=\"start\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"9.5\" fill=\"#23291f\">peulvruchten</text><polygon points=\"52.8,88.0 163.2,88.0 133.8,139.2 82.2,139.2\" fill=\"#6f8f4a\" fill-opacity=\"0.22\" stroke=\"#6f8f4a\" stroke-width=\"1.6\"/><rect x=\"216\" y=\"104.6\" width=\"11\" height=\"11\" fill=\"#6f8f4a\" fill-opacity=\"0.5\" stroke=\"#6f8f4a\" stroke-width=\"1.2\"/><text x=\"234.0\" y=\"113.6\" text-anchor=\"start\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"9.5\" fill=\"#23291f\">vis, eieren, melkproducten en kaas</text><polygon points=\"82.2,139.2 133.8,139.2 108.0,184.0 108.0,184.0\" fill=\"#c17f2b\" fill-opacity=\"0.22\" stroke=\"#c17f2b\" stroke-width=\"1.6\"/><rect x=\"216\" y=\"152.6\" width=\"11\" height=\"11\" fill=\"#c17f2b\" fill-opacity=\"0.5\" stroke=\"#c17f2b\" stroke-width=\"1.2\"/><text x=\"234.0\" y=\"161.6\" text-anchor=\"start\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"9.5\" fill=\"#23291f\">rood vlees, bewerkt vlees en boter</text><line x1=\"8\" y1=\"28\" x2=\"8\" y2=\"184\" stroke=\"#6b7260\" stroke-width=\"1.4\"/><path d=\"M8 190 l-5 -9 h10 z\" fill=\"#6b7260\"/><text x=\"2.0\" y=\"18.0\" text-anchor=\"start\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"9.5\" font-weight=\"600\" fill=\"#6b7260\">hoe lager, hoe minder</text><rect x=\"16\" y=\"196\" width=\"438\" height=\"34\" fill=\"#6b7260\" fill-opacity=\"0.10\" stroke=\"#6b7260\" stroke-width=\"1.4\" stroke-dasharray=\"6 4\" rx=\"6\"/><text x=\"28.0\" y=\"218.0\" text-anchor=\"start\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"10.5\" font-weight=\"600\" fill=\"#23291f\">restgroep</text><text x=\"100.0\" y=\"218.0\" text-anchor=\"start\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"9.5\" fill=\"#6b7260\">snoep, frisdrank, alcohol, chips — staat buiten de driehoek: hoe minder, hoe beter</text><text x=\"16.0\" y=\"242.0\" text-anchor=\"start\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"9.5\" fill=\"#6b7260\">meer plantaardig dan dierlijk, en zo weinig mogelijk lege calorieën</text></svg>",
+     "onderschrift": "De voedingsdriehoek staat op zijn kop: het breedste deel bovenaan is wat je het meest eet. De restgroep staat er helemaal buiten."
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>De drie uitgangspunten: meer plantaardig dan dierlijk, zo weinig mogelijk lege calorieën, en matig je consumptie.</strong> <strong>Lege calorieën zijn energie zonder voeding</strong>: veel energie maar bijna geen vitaminen, mineralen of vezels, zoals in snoep en frisdrank."
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Je eet en drinkt het meest water, groenten en fruit</strong>, daarna granen, noten en peulvruchten, en hoogstens weinig dierlijke producten. <strong>De restgroep staat buiten de driehoek</strong>: hoe minder, hoe beter. Snoep hoort daar thuis."
+    }
+   ]
+  },
+  {
+   "kop": "Bewegen en slapen",
+   "blokken": [
+    {
+     "soort": "kader",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">categorie</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">wat het is</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>sedentair gedrag</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>lang stil zitten</strong> of liggen terwijl je wakker bent, met bijna geen energieverbruik</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>licht intensief bewegen</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">rondlopen, rustig fietsen, huishoudelijk werk</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>matig intensief bewegen</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>stevig wandelen</strong>: je ademt sneller maar je kan nog praten</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>hoog intensief bewegen</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>sprinten</strong>: je ademt zo snel dat praten niet meer lukt</td></tr></table>"
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Er zijn dus vier bewegingscategorieën</strong>; half intensief bestaat niet. <strong>Sedentair gedrag is geen vorm van intensief bewegen</strong>, het is juist stilzitten. <strong>De bewegingsdriehoek raadt vooral aan om minder lang stil te zitten</strong>: zit zo weinig mogelijk stil en beweeg zo veel mogelijk, verspreid over de hele dag."
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Slapen is belangrijk omdat het lichaam herstelt</strong>: in je slaap herstelt je lichaam, groei je en verwerken je hersenen wat je die dag leerde. <strong>Hoeveel slaap iemand nodig heeft, hangt af van de leeftijd, van het moment van inslapen en van de kwaliteit van de slaap</strong>, en van individuele verschillen. Een kind heeft meer slaap nodig dan een volwassene; de kleur van de kamer speelt geen rol."
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Slaaphygiëne zijn de gewoonten die zorgen dat je goed slaapt</strong>: <strong>elke dag een vast uur, een donkere kamer en een koele kamer</strong>. Een scherm vlak voor het slapen houdt je juist wakker."
+    }
+   ]
+  },
+  {
+   "kop": "Persoonlijke hygiëne",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "<strong>Een goede persoonlijke hygiëne heeft wel degelijk invloed op je gezondheid</strong>: ze houdt ziektekiemen weg en voorkomt huid- en mondproblemen."
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Mondhygiëne voorkomt gaatjes</strong>: tandplak veroorzaakt gaatjes en tandvleesontsteking, en poetsen houdt dat tegen."
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Je wast je handen zeker vóór je gaat koken</strong> en voor het eten, na het toilet, na het niezen en na het aaien van een dier. <strong>Correct wassen doe je over de palmen, de rug, tussen de vingers, de duimen en de nagels</strong>, en daarna goed afdrogen."
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Wassen verwijdert het vuil en de kiemen; ontsmetten doodt de kiemen maar laat vuil liggen.</strong> <strong>Je ontsmet dus enkel handen die er schoon uitzien</strong>: <strong>op zichtbaar vuile handen werkt ontsmetten niet goed</strong>, want het vuil zit tussen het product en de kiemen. Eerst wassen, dan eventueel ontsmetten."
+    }
+   ]
+  }
+ ],
+ "onthoud": []
+}

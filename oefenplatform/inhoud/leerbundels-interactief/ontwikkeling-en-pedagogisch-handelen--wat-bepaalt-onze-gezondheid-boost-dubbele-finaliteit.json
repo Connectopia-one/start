@@ -1,0 +1,64 @@
+{
+ "vak": "Ontwikkeling en pedagogisch handelen",
+ "titel": "Wat bepaalt onze gezondheid",
+ "onder": "De vier gezondheidsdeterminanten van Lalonde, het gedragswiel met zijn drie gedragsdeterminanten, en waarom een goed voornemen zo vaak niet lukt.",
+ "secties": [
+  {
+   "kop": "De vier determinanten van Lalonde",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "<strong>Lalonde onderscheidt vier gezondheidsdeterminanten</strong>: vier kanten waarlangs je gezondheid bepaald wordt."
+    },
+    {
+     "soort": "figuur",
+     "html": "<svg viewBox=\"0 0 470 220\" width=\"470\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"0.0\" y=\"0\" width=\"230.0\" height=\"93\" rx=\"8\" fill=\"#ffffff\" stroke=\"#2f5d50\" stroke-width=\"1.6\"/><text x=\"12.0\" y=\"19.0\" text-anchor=\"start\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"11.5\" font-weight=\"600\" fill=\"#2f5d50\">biologische factoren</text><text x=\"12.0\" y=\"38.0\" text-anchor=\"start\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"10.5\" fill=\"#6b7260\">· de erfelijkheid</text><text x=\"12.0\" y=\"55.0\" text-anchor=\"start\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"10.5\" fill=\"#6b7260\">· het geslacht</text><text x=\"12.0\" y=\"72.0\" text-anchor=\"start\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"10.5\" fill=\"#6b7260\">· de leeftijd</text><rect x=\"240.0\" y=\"0\" width=\"230.0\" height=\"93\" rx=\"8\" fill=\"#ffffff\" stroke=\"#c17f2b\" stroke-width=\"1.6\"/><text x=\"252.0\" y=\"19.0\" text-anchor=\"start\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"11.5\" font-weight=\"600\" fill=\"#c17f2b\">de omgeving</text><text x=\"252.0\" y=\"38.0\" text-anchor=\"start\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"10.5\" fill=\"#6b7260\">· de woning</text><text x=\"252.0\" y=\"55.0\" text-anchor=\"start\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"10.5\" fill=\"#6b7260\">· de buurt</text><text x=\"252.0\" y=\"72.0\" text-anchor=\"start\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"10.5\" fill=\"#6b7260\">· het werk en de lucht</text><rect x=\"0.0\" y=\"103\" width=\"230.0\" height=\"93\" rx=\"8\" fill=\"#ffffff\" stroke=\"#6f8f4a\" stroke-width=\"1.6\"/><text x=\"12.0\" y=\"122.0\" text-anchor=\"start\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"11.5\" font-weight=\"600\" fill=\"#6f8f4a\">de voorzieningen van de gezondheidszorg</text><text x=\"12.0\" y=\"141.0\" text-anchor=\"start\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"10.5\" fill=\"#6b7260\">· een huisarts in de buurt</text><text x=\"12.0\" y=\"158.0\" text-anchor=\"start\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"10.5\" fill=\"#6b7260\">· ziekenhuis en apotheek</text><text x=\"12.0\" y=\"175.0\" text-anchor=\"start\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"10.5\" fill=\"#6b7260\">· de prijs van de zorg</text><rect x=\"240.0\" y=\"103\" width=\"230.0\" height=\"93\" rx=\"8\" fill=\"#ffffff\" stroke=\"#6b7260\" stroke-width=\"1.6\"/><text x=\"252.0\" y=\"122.0\" text-anchor=\"start\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"11.5\" font-weight=\"600\" fill=\"#6b7260\">de leefstijl</text><text x=\"252.0\" y=\"141.0\" text-anchor=\"start\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"10.5\" fill=\"#6b7260\">· eten en bewegen</text><text x=\"252.0\" y=\"158.0\" text-anchor=\"start\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"10.5\" fill=\"#6b7260\">· roken of niet roken</text><text x=\"252.0\" y=\"175.0\" text-anchor=\"start\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"10.5\" fill=\"#6b7260\">· slapen</text><text x=\"235.0\" y=\"208.0\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"9.5\" fill=\"#6b7260\">de vier samen bepalen hoe gezond iemand is</text></svg>",
+     "onderschrift": ""
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Biologische factoren zijn wat in je lichaam zit</strong>: erfelijkheid, geslacht en leeftijd. <strong>De omgeving is alles buiten je lichaam</strong>: de woning, de buurt, het werk, de lucht die je inademt. <strong>De leefstijl is wat je doet</strong>: eten, bewegen, roken, slapen. <strong>Bij de voorzieningen horen artsen, ziekenhuizen, apotheken en de prijs van de zorg.</strong>"
+    },
+    {
+     "soort": "kader",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">determinant</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">kan je ze zelf veranderen?</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>de leefstijl</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>het meest van de vier</strong>: je kiest wat je eet, hoeveel je beweegt en of je rookt</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>de omgeving</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">deels, en vooral via de overheid: fietspaden, propere lucht</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>de voorzieningen</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">zelf nauwelijks; de overheid maakt zorg toegankelijk en betaalbaar</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>de biologische factoren</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>niet</strong>: je erfelijkheid ligt vast</td></tr></table>"
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Het model is nuttig omdat het laat zien dat gezondheid veel oorzaken heeft.</strong> <strong>Niet alles is een eigen keuze</strong>: wie in een buurt zonder winkel of fietspad woont, heeft minder keuze dan iemand anders. <strong>De overheid werkt daarom aan de omgeving en de voorzieningen.</strong>"
+    }
+   ]
+  },
+  {
+   "kop": "Het gedragswiel",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Lalonde zegt wat je gezondheid bepaalt. Het gedragswiel zegt waarom gedrag wel of niet lukt. <strong>Het gedragswiel heeft drie gedragsdeterminanten</strong>: <strong>competenties, drijfveren en context</strong>."
+    },
+    {
+     "soort": "figuur",
+     "html": "<svg viewBox=\"0 0 470 262\" width=\"470\" xmlns=\"http://www.w3.org/2000/svg\"><polygon points=\"235,42 85,208 385,208\" fill=\"#2f5d50\" fill-opacity=\"0.10\" stroke=\"#2f5d50\" stroke-width=\"2\"/><text x=\"235.0\" y=\"162.0\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"11\" font-weight=\"600\" fill=\"#2f5d50\">het gedragswiel</text><text x=\"235.0\" y=\"16.0\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"11\" font-weight=\"600\" fill=\"#23291f\">competenties</text><text x=\"235.0\" y=\"29.0\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"9.5\" fill=\"#6b7260\">wat je kan en kent</text><text x=\"85.0\" y=\"226.0\" text-anchor=\"start\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"11\" font-weight=\"600\" fill=\"#23291f\">drijfveren</text><text x=\"85.0\" y=\"239.0\" text-anchor=\"start\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"9.5\" fill=\"#6b7260\">wat je wil en voelt</text><text x=\"385.0\" y=\"226.0\" text-anchor=\"end\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"11\" font-weight=\"600\" fill=\"#23291f\">context</text><text x=\"385.0\" y=\"239.0\" text-anchor=\"end\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"9.5\" fill=\"#6b7260\">alles om je heen</text><circle cx=\"235\" cy=\"42\" r=\"5\" fill=\"#2f5d50\"/><circle cx=\"85\" cy=\"208\" r=\"5\" fill=\"#2f5d50\"/><circle cx=\"385\" cy=\"208\" r=\"5\" fill=\"#2f5d50\"/></svg>",
+     "onderschrift": ""
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Competenties zijn je kennis en je vaardigheden</strong>: weet je hoe het moet en kan je het? <strong>Drijfveren zijn je motivatie, je gewoonten en je gevoelens.</strong> <strong>De context is de omgeving</strong>: de mensen, de regels, het aanbod, de prijzen. <strong>De context is dus alles buiten de persoon</strong>, terwijl de drijfveer in de persoon zelf zit."
+    },
+    {
+     "soort": "kader",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">de situatie</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">wat ontbreekt</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">iemand wil sporten, maar er is geen club in de buurt</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>de context</strong>: de wil is er wel, het aanbod niet</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">iemand weet niet hoe hij gezond kookt</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>de competentie</strong>: kennis en vaardigheid</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">iemand kan koken en heeft alles in huis, maar heeft geen zin</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>de drijfveer</strong>: de motivatie</td></tr></table>"
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Het wiel is nuttig omdat je ziet waar het haakt</strong>: ligt het aan kunnen, aan willen of aan de omgeving? <strong>Alleen willen volstaat niet</strong>; <strong>gedrag verandert pas echt als je de drie samen aanpakt</strong>. <strong>Een goed voornemen lukt vaak niet omdat de omgeving tegenwerkt</strong>: wie wil bewegen maar in een buurt zonder veilig pad woont, houdt het niet lang vol."
+    },
+    {
+     "soort": "weetje",
+     "html": "<strong>Gezondheidsgedrag</strong> is alles wat je doet of laat met gevolgen voor je gezondheid: bewegen, gezond eten, voldoende slapen. Je lengte is geen gedrag maar een biologisch gegeven."
+    }
+   ]
+  }
+ ],
+ "onthoud": []
+}

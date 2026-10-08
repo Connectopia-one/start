@@ -1,0 +1,102 @@
+{
+ "vak": "Economie en bedrijfswetenschappen",
+ "titel": "Nut, voorkeuren en de vraag van de consument",
+ "onder": "Het marginale nut dat afneemt, de indifferentiecurven die de voorkeuren tekenen, de budgetlijn, het optimum op het raakpunt, en hoe daar de vraagcurve uit volgt.",
+ "secties": [
+  {
+   "kop": "Nut en marginaal nut",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "<strong>Nut is de voldoening die iets geeft</strong>: hoe goed een goed of een dienst een behoefte stilt. <strong>Het totale nut is alle nut samen</strong>, de som van het nut van alle eenheden die je hebt."
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Het marginaal nut is het nut van één extra eenheid</strong>, en <strong>het neemt af naarmate je er meer van hetzelfde krijgt</strong>: het eerste glas water bij dorst doet veel meer dan het vijfde. <strong>Het kan zelfs nul worden</strong>, en dan geeft een extra eenheid je niets meer."
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Het totale nut daalt daarom niet als je een eenheid bijkrijgt die je graag hebt.</strong> Het totale nut stijgt; enkel het marginale nut van die eenheid is kleiner dan dat van de vorige. Dat onderscheid is de kern van dit hoofdstuk."
+    }
+   ]
+  },
+  {
+   "kop": "Voorkeuren en indifferentiecurven",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "<strong>Een preferentie is een voorkeur</strong>: de consument vindt de ene combinatie beter dan de andere. <strong>Indifferentie is net geen voorkeur hebben</strong>: hij vindt beide combinaties even goed."
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Een indifferentiecurve, ook een indifferentielijn, is de lijn van gelijk nut</strong>: alle combinaties van twee goederen die evenveel nut geven. <strong>Elk punt erop geeft evenveel nut, ze loopt dalend, en ze snijdt geen andere curve.</strong>"
+    },
+    {
+     "soort": "figuur",
+     "html": "<svg viewBox=\"0 0 430 250\" width=\"430\" xmlns=\"http://www.w3.org/2000/svg\"><line x1=\"44\" y1=\"14\" x2=\"44\" y2=\"214\" stroke=\"#23291f\" stroke-width=\"1.8\"/><line x1=\"44\" y1=\"214\" x2=\"418\" y2=\"214\" stroke=\"#23291f\" stroke-width=\"1.8\"/><text x=\"42.0\" y=\"12.0\" text-anchor=\"start\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"10.5\" font-weight=\"600\" fill=\"#6b7260\">goed A</text><text x=\"418.0\" y=\"230.0\" text-anchor=\"end\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"10.5\" font-weight=\"600\" fill=\"#6b7260\">goed B</text><polyline points=\"88.4,67.0 95.8,88.0 103.2,103.7 110.6,116.0 118.0,125.8 125.4,133.8 132.8,140.5 140.2,146.2 147.6,151.0 155.0,155.2 162.4,158.9 169.8,162.1 177.2,165.0 184.6,167.6 192.0,169.9 199.4,172.0 206.8,173.9 214.2,175.7 221.6,177.2 229.0,178.7 236.4,180.1 243.8,181.3 251.2,182.5 258.6,183.6 266.0,184.6 273.4,185.5 280.8,186.4 288.2,187.3 295.6,188.1 303.0,188.8 310.4,189.5 317.8,190.2 325.2,190.8 332.6,191.4 340.0,192.0 347.4,192.5 354.8,193.0 362.2,193.5 369.6,194.0 377.0,194.4 384.4,194.8 391.8,195.2\" fill=\"none\" stroke=\"#c17f2b\" stroke-width=\"2.1\"/><text x=\"396.8\" y=\"195.2\" text-anchor=\"start\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"10\" font-weight=\"600\" fill=\"#c17f2b\">IC1</text><polyline points=\"132.8,42.5 140.2,55.7 147.6,67.0 155.0,76.8 162.4,85.4 169.8,92.9 177.2,99.7 184.6,105.7 192.0,111.1 199.4,116.0 206.8,120.5 214.2,124.5 221.6,128.3 229.0,131.7 236.4,134.8 243.8,137.8 251.2,140.5 258.6,143.0 266.0,145.4 273.4,147.6 280.8,149.7 288.2,151.6 295.6,153.5 303.0,155.2 310.4,156.8 317.8,158.4 325.2,159.8 332.6,161.2 340.0,162.6 347.4,163.8 354.8,165.0 362.2,166.1 369.6,167.2 377.0,168.3 384.4,169.3 391.8,170.2\" fill=\"none\" stroke=\"#2f5d50\" stroke-width=\"2.1\"/><text x=\"396.8\" y=\"170.2\" text-anchor=\"start\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"10\" font-weight=\"600\" fill=\"#2f5d50\">IC2</text><polyline points=\"177.2,34.3 184.6,43.8 192.0,52.3 199.4,60.0 206.8,67.0 214.2,73.4 221.6,79.3 229.0,84.6 236.4,89.6 243.8,94.2 251.2,98.5 258.6,102.5 266.0,106.2 273.4,109.7 280.8,112.9 288.2,116.0 295.6,118.9 303.0,121.6 310.4,124.2 317.8,126.6 325.2,128.9 332.6,131.1 340.0,133.2 347.4,135.1 354.8,137.0 362.2,138.8 369.6,140.5 377.0,142.1 384.4,143.7 391.8,145.2\" fill=\"none\" stroke=\"#234539\" stroke-width=\"2.1\"/><text x=\"396.8\" y=\"145.2\" text-anchor=\"start\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"10\" font-weight=\"600\" fill=\"#234539\">IC3</text></svg>",
+     "onderschrift": "Drie indifferentiecurven van dezelfde consument. Elke curve verder van de hoek is een hoger nutsniveau, en ze raken elkaar nergens."
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Ze loopt dalend</strong>, want meer van het ene betekent minder van het andere bij gelijk nut. <strong>Ze is krom en niet recht omdat het ruilen lastiger wordt</strong>: hoe minder je van iets hebt, hoe meer van het andere je ervoor wil in de plaats."
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Twee curven van dezelfde consument snijden elkaar nooit</strong>, want dan zou één punt twee verschillende nutsniveaus hebben. <strong>Een curve die een hoger nut geeft, ligt verder van de oorsprong</strong>, en <strong>alle curven samen vormen de indifferentiemap of indifferentiekaart</strong>."
+    }
+   ]
+  },
+  {
+   "kop": "De budgetlijn en het optimum",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "<strong>De budgetlijn, ook de budgetrechte, toont wat je net kan kopen</strong>: alle combinaties die je met je volledige budget precies kan betalen. <strong>Waar ze ligt, hangt af van de grootte van het budget en van de prijs van elk van de twee goederen.</strong> De voorkeuren zitten in de indifferentiecurven, niet in de budgetlijn."
+    },
+    {
+     "soort": "kader",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">wat er verandert</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">wat de budgetlijn doet</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>het budget stijgt, de prijzen blijven gelijk</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>ze schuift parallel naar buiten</strong>: je kan van beide goederen meer kopen</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>het budget daalt</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>ze schuift parallel naar binnen</strong></td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>één prijs stijgt</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>ze kantelt</strong>: het snijpunt met de as van dát goed schuift naar binnen, het andere blijft staan</td></tr></table>"
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Het optimum ligt op het raakpunt</strong>, waar de budgetlijn een indifferentiecurve net raakt. Dat is de hoogste curve die je met je budget nog haalt, en dat punt is de optimale goederencombinatie: de combinatie die het meeste nut geeft."
+    },
+    {
+     "soort": "figuur",
+     "html": "<svg viewBox=\"0 0 430 250\" width=\"430\" xmlns=\"http://www.w3.org/2000/svg\"><line x1=\"44\" y1=\"14\" x2=\"44\" y2=\"214\" stroke=\"#23291f\" stroke-width=\"1.8\"/><line x1=\"44\" y1=\"214\" x2=\"418\" y2=\"214\" stroke=\"#23291f\" stroke-width=\"1.8\"/><text x=\"42.0\" y=\"12.0\" text-anchor=\"start\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"10.5\" font-weight=\"600\" fill=\"#6b7260\">goed A</text><text x=\"418.0\" y=\"230.0\" text-anchor=\"end\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"10.5\" font-weight=\"600\" fill=\"#6b7260\">goed B</text><line x1=\"44.0\" y1=\"57.2\" x2=\"340.0\" y2=\"214.0\" stroke=\"#2f5d50\" stroke-width=\"2.2\"/><polyline points=\"118.0,57.2 125.4,71.5 132.8,83.3 140.2,93.4 147.6,102.0 155.0,109.5 162.4,116.0 169.8,121.8 177.2,126.9 184.6,131.5 192.0,135.6 199.4,139.3 206.8,142.7 214.2,145.8 221.6,148.7 229.0,151.3 236.4,153.7 243.8,155.9 251.2,158.0 258.6,159.9 266.0,161.7 273.4,163.4 280.8,165.0 288.2,166.5 295.6,167.9 303.0,169.2 310.4,170.4 317.8,171.6 325.2,172.7 332.6,173.8 340.0,174.8\" fill=\"none\" stroke=\"#c17f2b\" stroke-width=\"2.2\"/><circle cx=\"192.0\" cy=\"135.6\" r=\"4\" fill=\"#23291f\"/><text x=\"200.0\" y=\"127.6\" text-anchor=\"start\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"10.5\" font-weight=\"600\" fill=\"#23291f\">raakpunt</text><text x=\"346.0\" y=\"216.0\" text-anchor=\"start\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"10\" font-weight=\"600\" fill=\"#2f5d50\">budgetlijn</text><text x=\"346.0\" y=\"174.8\" text-anchor=\"start\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"10.5\" font-weight=\"600\" fill=\"#c17f2b\">IC</text></svg>",
+     "onderschrift": "De budgetlijn en de hoogste indifferentiecurve die ze nog raakt. Het raakpunt is de combinatie die de consument kiest."
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>De consument kiest dus niet het punt op de allerhoogste curve</strong>: boven zijn budgetlijn kan hij niet betalen. Hij kiest het hoogste punt dat hij nog net kan."
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Wordt een goed duurder, dan kantelt de budgetlijn, kan er minder van gekocht worden en verschuift het optimum.</strong> Zijn voorkeuren blijven dezelfde; enkel wat hij kan betalen verandert."
+    }
+   ]
+  },
+  {
+   "kop": "Van optimum naar vraagcurve",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "<strong>De individuele vraag is wat één koper wil</strong>: de hoeveelheden die één consument bij elke prijs wil kopen. <strong>Je vindt zijn vraagcurve door de prijs te laten stijgen, telkens het nieuwe optimum te zoeken en die hoeveelheden uit te zetten.</strong>"
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Op de assen van een vraagcurve staan de prijs en de hoeveelheid</strong>: de prijs op de verticale as, de gevraagde hoeveelheid op de horizontale. <strong>Een vraagcurve loopt dalend</strong>: hoe hoger de prijs, hoe minder er gevraagd wordt, want het budget laat er minder van toe en de consument wijkt uit naar iets anders."
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Stijgt de prijs, dan stijgt de curve niet</strong>: de curve zelf beweegt niet, je schuift erlángs naar een kleinere hoeveelheid. Dat verschil tussen een beweging lángs de curve en een verschuiving ván de curve komt elk examen terug."
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>De collectieve vraagcurve is de som van de individuele</strong>: je telt bij elke prijs de gevraagde hoeveelheden van alle consumenten op. <strong>Ze loopt ook dalend en ze geldt voor de hele markt</strong>; ze heet ook de marktvraag."
+    }
+   ]
+  }
+ ],
+ "onthoud": []
+}

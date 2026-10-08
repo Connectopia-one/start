@@ -1,0 +1,135 @@
+{
+ "vak": "Frans",
+ "titel": "Woordvelden: de mens, gezondheid, eten en wonen",
+ "onder": "Je lichaam en je gevoelens, naar de dokter, de dagelijkse routine, eten en een Franse woningadvertentie lezen.",
+ "secties": [
+  {
+   "kop": "Gezondheid",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "<strong>La santé</strong> is de gezondheid; <strong>la pharmacie</strong> is de apotheek; een <strong>ordonnance</strong> is <strong>een voorschrift</strong>."
+    },
+    {
+     "soort": "tekst",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Frans</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Nederlands</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">J'ai mal à la tête depuis deux jours.</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">ik heb al twee dagen hoofdpijn</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">être fatigué</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">moe zijn</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">avoir de la fièvre</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">koorts hebben</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">tomber malade</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">ziek worden</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">elle est enrhumée</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">zij is verkouden</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">se remettre</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">herstellen van iets</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">il est en pleine forme</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">hij voelt zich uitstekend</td></tr></table>"
+    },
+    {
+     "soort": "tekst",
+     "html": "Bij de dokter zeg je <em>J'ai mal à la tête</em>, met <em>à la</em>, <em>au</em> of <em>aux</em> naargelang het lichaamsdeel: <em>j'ai mal au ventre</em>, <em>j'ai mal aux dents</em>."
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>La fatigue</strong> is vermoeidheid. Let op het paar <strong>fatigué</strong> en <strong>fatigant</strong>: <strong>de eerste is moe, de tweede vermoeiend</strong>. <em>Je suis fatigué</em> gaat over jou, <em>c'est fatigant</em> over het werk."
+    }
+   ]
+  },
+  {
+   "kop": "Gevoelens en karakter",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Woorden die bij gevoelens horen: <strong>la joie</strong>, <strong>la tristesse</strong> en <strong>la colère</strong>. Iemand die snel zenuwachtig wordt, is <strong>stressé</strong>."
+    },
+    {
+     "soort": "tekst",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Frans</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Nederlands</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">je me sens mal à l'aise</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">ik voel me niet op mijn gemak</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">avoir le moral</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">goed in je vel zitten</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">il s'entend bien avec sa sœur</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">hij kan goed overweg met zijn zus</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">rendre service à quelqu'un</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">iemand een dienst bewijzen</td></tr></table>"
+    },
+    {
+     "soort": "kader",
+     "html": "<strong>Het Franse woord <em>sensible</em> betekent niet verstandig maar gevoelig.</strong> Verstandig is <em>raisonnable</em>, en het Engelse <em>sensible</em> betekent juist wél verstandig. Drie talen, drie betekenissen voor bijna hetzelfde woord."
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong><em>Un voisin</em> betekent geen neef maar een buur.</strong> Een neef is <em>un cousin</em>, en dat lijkt er net genoeg op om mis te gaan."
+    }
+   ]
+  },
+  {
+   "kop": "De dagelijkse routine",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Een dagelijkse routine beschrijf je met wederkerende werkwoorden: <strong>se lever tôt</strong>, <strong>prendre une douche</strong> en <strong>se coucher vers dix heures</strong>. <strong>Dormir</strong> is slapen."
+    },
+    {
+     "soort": "tekst",
+     "html": "<em>Faire la grasse matinée</em> betekent <strong>uitslapen</strong>, met het woord <strong>grasse</strong> erin. <strong>Het betekent dus niet het huis poetsen</strong>: dat is <em>faire le ménage</em>. Twee uitdrukkingen met <em>faire</em>, en precies tegenovergesteld van sfeer."
+    }
+   ]
+  },
+  {
+   "kop": "Eten",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Een <strong>boulangerie</strong> is een bakkerij, een <strong>boucherie</strong> een slagerij. Op een Franse menukaart staan <strong>l'entrée</strong>, <strong>le plat du jour</strong> en <strong>la carte des vins</strong>. Afrekenen vraag je met <strong>L'addition, s'il vous plaît.</strong>"
+    },
+    {
+     "soort": "tekst",
+     "html": "Ontbijten is <strong>prendre le petit-déjeuner</strong>."
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong><em>Je suis plein</em> is niet de gewone manier om te zeggen dat je genoeg gegeten hebt.</strong> Het betekent in spreektaal dronken, en over een dier zwanger. Je zegt <em>je n'ai plus faim</em> of <em>c'était délicieux, merci</em>."
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Het verschil tussen <em>c'est bon</em> en <em>c'est bien</em>: bon gaat over smaak, bien over kwaliteit.</strong> Een gerecht is <em>bon</em>, een film of een idee is <em>bien</em>."
+    }
+   ]
+  },
+  {
+   "kop": "Wonen",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Woorden die bij wonen horen: <strong>le loyer</strong>, <strong>le propriétaire</strong> en <strong>le locataire</strong>. De huur die je maandelijks betaalt, is het <strong>loyer</strong>; <em>le propriétaire</em> is de eigenaar en <em>le locataire</em> de huurder."
+    },
+    {
+     "soort": "tekst",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">in de advertentie</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">wat het is</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">un immeuble</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een gebouw met appartementen</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">un studio</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een woning met één kamer</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">un T3</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">drie kamers naast de keuken en het bad</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">meublé</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">gemeubeld</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">charges comprises</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">kosten inbegrepen</td></tr></table>"
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>In een Franse advertentie betekent <em>T3</em> een woning met drie kamers naast de keuken en het bad.</strong> De T staat voor <em>type</em>, en het cijfer telt enkel de leefruimtes: woonkamer en slaapkamers, niet de keuken, niet de badkamer."
+    }
+   ]
+  },
+  {
+   "kop": "Sport en vrije tijd",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "<strong><em>Faire du vélo</em> betekent fietsen</strong>, en <strong>s'entraîner</strong> betekent <strong>trainen voor een sport</strong>."
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Je gebruikt <em>jouer à</em> bij een spel met een bal</strong>, en <em>faire de</em> bij de andere sporten: <em>jouer au football</em>, <em>jouer au tennis</em>, maar <em>faire du vélo</em>, <em>faire de la natation</em>, <em>faire du judo</em>."
+    },
+    {
+     "soort": "tekst",
+     "html": "Woorden die bij vrije tijd horen: <strong>un loisir</strong>, <strong>une sortie</strong> en <strong>un spectacle</strong>."
+    },
+    {
+     "soort": "tekst",
+     "html": "Lees: <em>Un ciné ce soir, ça te dit ?</em> <em>Ça te dit</em> betekent <strong>heb je daar zin in?</strong> Een uitdrukking die je nooit uit de losse woorden zou afleiden, en die je in elk Frans gesprek hoort."
+    }
+   ]
+  },
+  {
+   "kop": "Oefen dit ook buiten het scherm",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Op dit platform oefen je lezen, woordenschat en grammatica. Maar <strong>luisteren</strong> is de helft van het examen Frans 1, en Frans 2 bestaat uit <strong>een spreekopdracht die je thuis opneemt</strong>, twee schrijfopdrachten en <strong>een gesprek van tien minuten</strong>. Luisteren en spreken leer je niet achter een scherm. Je leert ze door te luisteren naar mensen die echt Frans spreken, en door zelf je mond open te doen, ook als het hakkelt."
+    },
+    {
+     "soort": "kader",
+     "html": "<strong>Deze week:</strong> vertel in het Frans hoe een gewone dag van jou verloopt, van opstaan tot slapengaan, en gebruik daarin minstens vijf wederkerende werkwoorden. Doe het één keer, en let daarna op wat je miste of niet gezegd kreeg. Dat is precies je volgende oefening."
+    }
+   ]
+  }
+ ],
+ "onthoud": []
+}

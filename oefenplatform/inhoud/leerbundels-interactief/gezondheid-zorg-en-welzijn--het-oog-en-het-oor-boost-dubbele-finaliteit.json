@@ -1,0 +1,81 @@
+{
+ "vak": "Gezondheid, zorg en welzijn",
+ "titel": "Het oog en het oor",
+ "onder": "De weg van het licht door het oog, de staafjes en de kegeltjes, de pupilreflex en het dieptezicht, en daarna de drie delen van het oor, decibel en hertz, en waarom gehoorschade blijvend is.",
+ "secties": [
+  {
+   "kop": "Het oog",
+   "blokken": [
+    {
+     "soort": "figuur",
+     "html": "<svg viewBox=\"0 0 470 250\" width=\"470\" xmlns=\"http://www.w3.org/2000/svg\"><circle cx=\"232\" cy=\"118\" r=\"88\" fill=\"#ffffff\" stroke=\"#23291f\" stroke-width=\"1.8\"/><path d=\"M232 36 A 82 82 0 0 0 232 200\" fill=\"none\" stroke=\"#2f5d50\" stroke-width=\"4\"/><path d=\"M158 84 A 40 40 0 0 0 158 152\" fill=\"none\" stroke=\"#c17f2b\" stroke-width=\"3.4\"/><line x1=\"160\" y1=\"84\" x2=\"166\" y2=\"105\" stroke=\"#23291f\" stroke-width=\"4\"/><line x1=\"160\" y1=\"152\" x2=\"166\" y2=\"131\" stroke=\"#23291f\" stroke-width=\"4\"/><ellipse cx=\"178\" cy=\"118\" rx=\"11\" ry=\"26\" fill=\"#2f5d50\" fill-opacity=\"0.18\" stroke=\"#2f5d50\" stroke-width=\"1.8\"/><line x1=\"14\" y1=\"102\" x2=\"154\" y2=\"118\" stroke=\"#c17f2b\" stroke-width=\"1.2\" stroke-dasharray=\"5 4\"/><line x1=\"14\" y1=\"118\" x2=\"154\" y2=\"118\" stroke=\"#c17f2b\" stroke-width=\"1.2\" stroke-dasharray=\"5 4\"/><line x1=\"14\" y1=\"134\" x2=\"154\" y2=\"118\" stroke=\"#c17f2b\" stroke-width=\"1.2\" stroke-dasharray=\"5 4\"/><text x=\"16.0\" y=\"92.0\" text-anchor=\"start\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"10\" font-weight=\"600\" fill=\"#c17f2b\">licht</text><path d=\"M316 118 q 30 0 46 18\" fill=\"none\" stroke=\"#6b7260\" stroke-width=\"7\"/><line x1=\"98\" y1=\"61\" x2=\"160\" y2=\"88\" stroke=\"#6b7260\" stroke-width=\"1\" stroke-dasharray=\"3 3\"/><text x=\"98.0\" y=\"58.0\" text-anchor=\"start\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"10\" font-weight=\"600\" fill=\"#23291f\">hoornvlies</text><line x1=\"114\" y1=\"195\" x2=\"162\" y2=\"142\" stroke=\"#6b7260\" stroke-width=\"1\" stroke-dasharray=\"3 3\"/><text x=\"114.0\" y=\"192.0\" text-anchor=\"start\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"10\" font-weight=\"600\" fill=\"#23291f\">iris</text><line x1=\"186\" y1=\"213\" x2=\"178\" y2=\"144\" stroke=\"#6b7260\" stroke-width=\"1\" stroke-dasharray=\"3 3\"/><text x=\"186.0\" y=\"210.0\" text-anchor=\"start\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"10\" font-weight=\"600\" fill=\"#23291f\">lens</text><line x1=\"250\" y1=\"21\" x2=\"308\" y2=\"74\" stroke=\"#6b7260\" stroke-width=\"1\" stroke-dasharray=\"3 3\"/><text x=\"250.0\" y=\"18.0\" text-anchor=\"start\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"10\" font-weight=\"600\" fill=\"#23291f\">netvlies</text><line x1=\"326\" y1=\"183\" x2=\"350\" y2=\"132\" stroke=\"#6b7260\" stroke-width=\"1\" stroke-dasharray=\"3 3\"/><text x=\"326.0\" y=\"180.0\" text-anchor=\"start\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"10\" font-weight=\"600\" fill=\"#23291f\">oogzenuw</text><line x1=\"90\" y1=\"131\" x2=\"162\" y2=\"120\" stroke=\"#6b7260\" stroke-width=\"1\" stroke-dasharray=\"3 3\"/><text x=\"90.0\" y=\"128.0\" text-anchor=\"start\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"10\" font-weight=\"600\" fill=\"#23291f\">pupil</text><text x=\"16.0\" y=\"240.0\" text-anchor=\"start\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"9.5\" fill=\"#6b7260\">het beeld valt omgekeerd op het netvlies; de hersenen zetten het recht</text></svg>",
+     "onderschrift": "Het licht valt eerst op het hoornvlies, gaat door de pupil en de lens, en komt op het netvlies terecht. De oogzenuw brengt de impuls naar de hersenen."
+    },
+    {
+     "soort": "kader",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">deel</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">wat het doet</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>het hoornvlies</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>waar het licht eerst op valt</strong>: het doorzichtige vliesje vooraan</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>de iris</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>het gekleurde ringetje vooraan</strong> dat de pupil groter of kleiner maakt</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>de pupil</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>de opening in de iris die licht doorlaat</strong>: hoe groter, hoe meer licht</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>de lens</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>ze stelt scherp</strong>: ze buigt het licht zo dat het beeld scherp op het netvlies valt</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>het netvlies</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>de binnenste laag achteraan</strong>, met de staafjes en de kegeltjes</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>de oogzenuw</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>ze brengt de impuls naar de hersenen</strong>: de conductor</td></tr></table>"
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Het netvlies ligt achteraan, niet vooraan</strong>: vooraan zitten het hoornvlies, de iris en de pupil. <strong>Aan de buitenkant van het oog zitten het ooglid, de wimpers en de oogspieren.</strong>"
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>De kegeltjes zien kleur, werken bij veel licht en maken het beeld scherp.</strong> <strong>De staafjes zien in het donker</strong>: ze zijn gevoelig voor weinig licht, maar <strong>ze zien geen kleur</strong>. Daarom zie je in het donker bijna geen kleur meer."
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Bij fel licht wordt de pupil kleiner</strong>, zodat er minder licht binnenvalt en het oog zich beschermt. <strong>Dat is de pupilreflex</strong>, en die loopt via de hersenstam, dus zonder dat je het wil."
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Het beeld staat omgekeerd op het netvlies</strong>, op zijn kop; de hersenen draaien het weer recht. <strong>Het gezichtsveld is alles wat je ziet</strong> zonder je ogen te bewegen. <strong>Twee ogen heb je nodig voor het dieptezicht</strong>: elk oog ziet een iets ander beeld, en daaruit halen de hersenen de afstand. <strong>Met één oog schat je afstanden dus minder goed in.</strong>"
+    }
+   ]
+  },
+  {
+   "kop": "Het oor",
+   "blokken": [
+    {
+     "soort": "figuur",
+     "html": "<svg viewBox=\"0 0 470 218\" width=\"470\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"10\" y=\"28\" width=\"150\" height=\"130\" fill=\"#ffffff\" stroke=\"#e4ded0\" stroke-width=\"1.4\" rx=\"6\"/><text x=\"85.0\" y=\"20.0\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"10.5\" font-weight=\"600\" fill=\"#2f5d50\">buitenoor</text><rect x=\"160\" y=\"28\" width=\"120\" height=\"130\" fill=\"#ffffff\" stroke=\"#e4ded0\" stroke-width=\"1.4\" rx=\"6\"/><text x=\"220.0\" y=\"20.0\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"10.5\" font-weight=\"600\" fill=\"#2f5d50\">middenoor</text><rect x=\"280\" y=\"28\" width=\"180\" height=\"130\" fill=\"#ffffff\" stroke=\"#e4ded0\" stroke-width=\"1.4\" rx=\"6\"/><text x=\"370.0\" y=\"20.0\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"10.5\" font-weight=\"600\" fill=\"#2f5d50\">binnenoor</text><path d=\"M30 76 q 34 -34 54 0 q 10 22 -14 32 q -18 6 -22 -6\" fill=\"none\" stroke=\"#23291f\" stroke-width=\"2\"/><line x1=\"84\" y1=\"98\" x2=\"160\" y2=\"98\" stroke=\"#23291f\" stroke-width=\"2\"/><line x1=\"84\" y1=\"78\" x2=\"160\" y2=\"78\" stroke=\"#23291f\" stroke-width=\"2\"/><text x=\"28.0\" y=\"140.0\" text-anchor=\"start\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"9\" fill=\"#6b7260\">oorschelp en gehoorgang</text><line x1=\"161\" y1=\"68\" x2=\"161\" y2=\"108\" stroke=\"#c17f2b\" stroke-width=\"3.4\"/><text x=\"161.0\" y=\"60.0\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"9\" font-weight=\"600\" fill=\"#c17f2b\">trommelvel</text><rect x=\"180\" y=\"76\" width=\"21\" height=\"16\" rx=\"4\" fill=\"#2f5d50\" fill-opacity=\"0.22\" stroke=\"#2f5d50\" stroke-width=\"1.4\"/><text x=\"168.0\" y=\"116.0\" text-anchor=\"start\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"9\" fill=\"#6b7260\">• hamer</text><rect x=\"210\" y=\"76\" width=\"21\" height=\"16\" rx=\"4\" fill=\"#2f5d50\" fill-opacity=\"0.22\" stroke=\"#2f5d50\" stroke-width=\"1.4\"/><text x=\"168.0\" y=\"129.0\" text-anchor=\"start\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"9\" fill=\"#6b7260\">• aambeeld</text><rect x=\"240\" y=\"76\" width=\"21\" height=\"16\" rx=\"4\" fill=\"#2f5d50\" fill-opacity=\"0.22\" stroke=\"#2f5d50\" stroke-width=\"1.4\"/><text x=\"168.0\" y=\"142.0\" text-anchor=\"start\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"9\" fill=\"#6b7260\">• stijgbeugel</text><path d=\"M332 92 a 28 28 0 1 1 -2 -13 a 19 19 0 1 0 -6 9 a 10 10 0 1 0 8 -4\" fill=\"none\" stroke=\"#2f5d50\" stroke-width=\"3\"/><text x=\"322.0\" y=\"140.0\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"9\" font-weight=\"600\" fill=\"#2f5d50\">slakkenhuis en evenwichtsorgaan</text><path d=\"M360 100 q 28 10 40 24\" fill=\"none\" stroke=\"#6b7260\" stroke-width=\"5\"/><text x=\"412.0\" y=\"142.0\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"9\" fill=\"#6b7260\">gehoorzenuw</text><path d=\"M198 100 q 8 46 -46 62\" fill=\"none\" stroke=\"#6b7260\" stroke-width=\"2\" stroke-dasharray=\"5 4\"/><text x=\"150.0\" y=\"180.0\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"9\" fill=\"#6b7260\">buis van Eustachius, naar de keel</text><text x=\"10.0\" y=\"210.0\" text-anchor=\"start\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"9.5\" fill=\"#6b7260\">het geluid gaat van links naar rechts: trilling, versterking, impuls</text></svg>",
+     "onderschrift": "Het oor in drie delen. De trilling gaat van het trommelvel over de drie gehoorbeentjes naar het slakkenhuis, en pas daar wordt ze een impuls."
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Het oor bestaat uit drie delen: het buitenoor, het middenoor en het binnenoor.</strong> <strong>Het buitenoor is de oorschelp met de gehoorgang</strong>; het trommelvel sluit die af."
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Het trommelvel trilt mee</strong> met de geluidsgolven, en die trilling gaat verder naar binnen. <strong>Het ligt tussen het buitenoor en het middenoor</strong>, niet in het binnenoor."
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Het middenoor ligt achter het trommelvel, heeft drie gehoorbeentjes en is met de keel verbonden.</strong> <strong>De hamer, het aambeeld en de stijgbeugel versterken de trilling</strong> en geven ze door aan het binnenoor. <strong>De buis van Eustachius verbindt het middenoor met de keel</strong> en houdt de druk aan beide kanten van het trommelvel gelijk."
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Het orgaan van Corti zit in het slakkenhuis</strong> van het binnenoor, ook de cochlea genoemd. <strong>Het maakt impulsen</strong>: de haarcellen zetten de trilling om in impulsen voor de gehoorzenuw. <strong>Het binnenoor zorgt ook voor je evenwicht</strong>, want naast het slakkenhuis liggen daar de halfcirkelvormige kanalen van het evenwichtsorgaan."
+    }
+   ]
+  },
+  {
+   "kop": "Decibel, hertz en je gehoor beschermen",
+   "blokken": [
+    {
+     "soort": "kader",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">eenheid</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">wat ze meet</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>decibel of dB</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>de sterkte</strong>: hoe luid een geluid is</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>hertz of Hz</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>de toonhoogte</strong>: het aantal trillingen per seconde, hoe hoger hoe hoger de toon</td></tr></table>"
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Meer hertz betekent dus geen luider geluid</strong> maar een hogere toon; luidheid meet je in decibel. <strong>Een gesprek haalt ongeveer 60 decibel</strong>, en daar gebeurt niets mee. <strong>Boven tachtig decibel kan lang luisteren je gehoor beschadigen</strong>, en hoe luider het geluid, hoe korter je het veilig verdraagt."
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Te veel lawaai, muziek te luid zetten en lang in een fabriek werken beschadigen je gehoor.</strong> <strong>Gehoorschade is blijvend omdat de haarcellen niet terug groeien</strong>: de haarcellen in het orgaan van Corti herstellen niet, en wat weg is, blijft weg. <strong>Op een festival beschermen oordopjes je gehoor</strong>: ze dempen het geluid zonder dat je de muziek kwijt bent."
+    }
+   ]
+  }
+ ],
+ "onthoud": []
+}

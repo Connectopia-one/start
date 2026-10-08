@@ -1,0 +1,165 @@
+{
+ "vak": "Frans",
+ "titel": "Voornaamwoorden: COD, COI, y en en",
+ "onder": "Lijdend en meewerkend voorwerp, y en en, de toniques, de betrekkelijke voornaamwoorden en de onbepaalde.",
+ "secties": [
+  {
+   "kop": "COD en COI",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Het <strong>lijdend voorwerp</strong> (COD) hangt rechtstreeks aan het werkwoord; het <strong>meewerkend voorwerp</strong> (COI) hangt eraan met <em>à</em>."
+    },
+    {
+     "soort": "tekst",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\"></th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">COD</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">COI</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">ik, jij</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">me, te</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">me, te</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">hij, zij</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">le, la</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">lui</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">wij, jullie</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">nous, vous</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">nous, vous</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">zij (meervoud)</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">les</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">leur</td></tr></table>"
+    },
+    {
+     "soort": "tekst",
+     "html": "De rij van de COD is dus <strong>me, te, le, la, nous, vous, les</strong>. <em>Je vois Marie</em> wordt <em>Je <strong>la</strong> vois.</em>"
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>In <em>elle nous a téléphoné</em> is <em>nous</em> een COI en geen COD, want je telefoneert <em>à quelqu'un</em>.</strong> De werkwoorden die een COI met <em>à</em> vragen: <strong>téléphoner</strong>, <strong>parler</strong> en <strong>répondre</strong>. <strong><em>Je lui parle</em> betekent dat je tegen hem of tegen haar spreekt</strong>: <em>lui</em> dient voor allebei."
+    },
+    {
+     "soort": "tekst",
+     "html": "Staan er twee voornaamwoorden, dan komt het COD eerst bij le, la en les, en het COI eerst bij me, te, nous en vous. <em>Je donne le livre à Paul</em> wordt <strong>Je le lui donne.</strong>, en <em>Je donne les clés à mes parents</em> wordt <em>Je <strong>les leur</strong> donne.</em>"
+    }
+   ]
+  },
+  {
+   "kop": "Y en en",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">woordje</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">vervangt</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">voorbeeld</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">y</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een plaats of een woord met à</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Nous allons à la mer. → Nous y allons.</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">en</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een woord met de of des</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">J'ai deux frères. → J'en ai deux.</td></tr></table>"
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong><em>Y</em> vervangt meestal een plaats of een woord met <em>à</em></strong>, en <strong><em>en</em> vervangt een woord met <em>de</em> of <em>des</em></strong>. <strong><em>J'en ai deux</em> betekent dus niet dat je er naartoe gaat</strong>, maar dat je er twee van hebt."
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>De zin <em>Je y vais demain</em> is fout geschreven.</strong> Het is <em>J'y vais demain</em>: <em>je</em> verliest zijn e voor een klinker."
+    }
+   ]
+  },
+  {
+   "kop": "Waar staat het voornaamwoord",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "In een gewone zin staat het voornaamwoord vóór het werkwoord: <em>Je la vois.</em>, <em>Je ne la vois pas.</em>"
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>In een bevestigend bevel staat het erachter, met een streepje: <em>donne-le</em>.</strong> Juist geschreven zijn <strong>Donne-moi ça !</strong>, <strong>Dis-lui la vérité !</strong> en <strong>Ne me parle pas !</strong>"
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>In een ontkennend bevel staat het voornaamwoord niet achter maar vóór het werkwoord</strong>, net als in een gewone zin: <em>Ne me parle pas !</em>, <em>Ne le donne pas !</em> Alleen het bevestigend bevel zet het erachter."
+    }
+   ]
+  },
+  {
+   "kop": "De toniques",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "De toniques zijn <em>moi, toi, lui, elle, nous, vous, eux, elles</em>. Ze staan alleen, of waar een gewoon voornaamwoord niet kan."
+    },
+    {
+     "soort": "tekst",
+     "html": "In <em>c'est moi qui ai raison</em> is <em>moi</em> <strong>een tonique</strong>, die nadruk legt. Juist gebruikt: <strong>Viens avec moi.</strong>, <strong>C'est pour toi.</strong> en <strong>Lui, il ne sait rien.</strong>"
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Na een voorzetsel zoals <em>avec</em> of <em>pour</em> gebruik je de tonique.</strong> Je zegt nooit <em>avec je</em>."
+    }
+   ]
+  },
+  {
+   "kop": "De wederkerende werkwoorden",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "<em>Ik was me</em> is <strong>Je me lave.</strong> <strong>Het verschil tussen <em>je lave la voiture</em> en <em>je me lave</em>: in het tweede slaat de handeling op jezelf.</strong> Hetzelfde werkwoord, met en zonder het wederkerende woordje, en twee heel andere zinnen."
+    }
+   ]
+  },
+  {
+   "kop": "De betrekkelijke voornaamwoorden",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">woord</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">wanneer</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">voorbeeld</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">qui</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">het onderwerp van de bijzin</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">l'ami qui m'a écrit</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">que</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">het lijdend voorwerp van de bijzin</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">le film que j'ai vu</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">dont</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">als er een de bij hoort</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">le livre dont je parle</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">où</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een plaats of een tijd</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">la ville où je suis né</td></tr></table>"
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong><em>Qui</em> vervangt het onderwerp van de bijzin</strong>: <em>La fille <strong>qui</strong> habite à côté s'appelle Léa.</em> <em>Que</em> staat waar het lijdend voorwerp zou staan: <strong>Le film que j'ai vu était long.</strong>"
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong><em>Dont</em> gebruik je als het werkwoord of het naamwoord in de bijzin een <em>de</em> bij zich heeft.</strong> <em>Parler <strong>de</strong> quelque chose</em> wordt dus <strong>le livre dont je parle</strong>, niet <em>le livre que je parle</em>."
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong><em>Où</em> kan in een bijzin voor een plaats én voor een tijd staan</strong>: <em>Voilà la maison <strong>où</strong> je suis né.</em> en <em>le jour où nous nous sommes rencontrés</em>."
+    },
+    {
+     "soort": "tekst",
+     "html": "<em>Ce que</em> in <em>je ne comprends pas ce que tu dis</em> betekent <strong>wat</strong>. <strong>In <em>ce qui m'intéresse, c'est l'histoire</em> is <em>ce qui</em> niet het lijdend voorwerp maar het onderwerp van <em>intéresse</em></strong>: dat wat mij interesseert."
+    }
+   ]
+  },
+  {
+   "kop": "Celui, le mien en de vraagwoorden",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "<em>Celui</em> betekent <strong>die van</strong>: <em>celui de mon frère</em> is <strong>die van mijn broer</strong>. De vormen zijn <em>celui, celle, ceux, celles</em>: <em>Ma veste et <strong>celle</strong> de ma sœur.</em>"
+    },
+    {
+     "soort": "tekst",
+     "html": "Het bezittelijk voornaamwoord dat alleen staat, draagt een lidwoord: <strong>le mien</strong>, <strong>la tienne</strong>, <strong>les nôtres</strong>. <strong>Het verschil met <em>mon livre</em>: <em>mon</em> staat bij een naamwoord</strong>, <em>le mien</em> staat in de plaats ervan."
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>In een vraag gebruik je <em>qui</em> voor personen en <em>quoi</em> voor dingen.</strong> <em>À <strong>quoi</strong> penses-tu ?</em> is: aan wat denk je? <em>À qui penses-tu ?</em> is: aan wie."
+    }
+   ]
+  },
+  {
+   "kop": "De onbepaalde voornaamwoorden",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "<strong>Chacun</strong> betekent <strong>ieder of elk</strong>. Juist gebouwd zijn: <strong>Personne n'est venu.</strong>, <strong>Chacun a son avis.</strong> en <strong>Quelqu'un a sonné.</strong>"
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong><em>Personne</em> betekent in het Frans niet altijd een persoon.</strong> Als zelfstandig naamwoord wel (<em>une personne</em>), maar als voornaamwoord met <em>ne</em> betekent het juist niemand: <em>Personne n'est venu.</em> Let op de <em>ne</em>, die het verschil maakt."
+    },
+    {
+     "soort": "tekst",
+     "html": "<em>Il n'y a rien à faire</em> betekent <strong>er is niets aan te doen</strong>."
+    }
+   ]
+  },
+  {
+   "kop": "Oefen dit ook buiten het scherm",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Op dit platform oefen je lezen, woordenschat en grammatica. Maar <strong>luisteren</strong> is de helft van het examen Frans 1, en Frans 2 bestaat uit <strong>een spreekopdracht die je thuis opneemt</strong>, twee schrijfopdrachten en <strong>een gesprek van tien minuten</strong>. Luisteren en spreken leer je niet achter een scherm. Je leert ze door te luisteren naar mensen die echt Frans spreken, en door zelf je mond open te doen, ook als het hakkelt."
+    },
+    {
+     "soort": "kader",
+     "html": "<strong>Deze week:</strong> vertel in het Frans wat je gisteren voor iemand gedaan hebt, en vervang daarbij bewust de namen door voornaamwoorden tot het vlot klinkt. Doe het één keer, en let daarna op wat je miste of niet gezegd kreeg. Dat is precies je volgende oefening."
+    }
+   ]
+  }
+ ],
+ "onthoud": []
+}

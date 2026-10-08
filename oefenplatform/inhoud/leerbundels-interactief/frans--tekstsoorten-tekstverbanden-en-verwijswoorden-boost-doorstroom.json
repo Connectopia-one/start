@@ -1,0 +1,162 @@
+{
+ "vak": "Frans",
+ "titel": "Tekstsoorten, tekstverbanden en verwijswoorden",
+ "onder": "Zes soorten teksten en waaraan je ze herkent, de signaalwoorden die de draad van een tekst zichtbaar maken, en waarnaar ils, y en en verwijzen.",
+ "secties": [
+  {
+   "kop": "Zes soorten teksten",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "De vakfiche zet zes soorten teksten op een rij. Je herkent ze niet aan hun onderwerp maar aan wat ze <strong>doen</strong>, en dat zie je meestal al aan de eerste zinnen."
+    },
+    {
+     "soort": "figuur",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Soort</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Wat de tekst doet</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Voorbeelden</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">informatief</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">informeren, uitleggen hoe iets werkt</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een krantenartikel over de nieuwe treinkaart, een interview in een tijdschrift</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">persuasief</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">overtuigen of beïnvloeden</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een affiche, een reclameboodschap</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">opiniërend</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een mening geven</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een hotelbeoordeling, een lezersbrief</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">prescriptief</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">zeggen wat je moet doen</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een recept, een bijsluiter, een schoolreglement</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">narratief</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">vertellen wat er gebeurd is</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een reisverslag, een getuigenis, een videoblog</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">literair</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">iets laten voelen met taal</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een gedicht, een lied, een strip, een kortverhaal</td></tr></table>",
+     "onderschrift": "De zes soorten uit de vakfiche, met de voorbeelden die de fiche zelf noemt."
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Persuasief</strong> is het woord dat je moet kennen voor een tekst die je probeert te <strong>overtuigen of te beïnvloeden</strong>, en <strong>prescriptief</strong> voor een tekst die je <strong>voorschrijft</strong> wat je moet doen."
+    },
+    {
+     "soort": "weetje",
+     "html": "Een opiniërende tekst mag wél feiten bevatten. <em>La chambre était propre et le petit déjeuner correct</em> zijn feiten, maar <em>pour ce prix, je m'attendais à mieux</em> en <em>je n'y retournerai pas</em> maken er een mening van. Het gaat erom waarvoor de feiten dienen."
+    }
+   ]
+  },
+  {
+   "kop": "Waaraan je de soort ziet",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Een <strong>prescriptieve</strong> tekst staat in de <strong>gebiedende wijs</strong>: <em>Épluchez quatre pommes de terre et coupez-les en morceaux. Faites-les cuire vingt minutes dans l'eau bouillante. Égouttez, puis écrasez-les avec un peu de lait chaud. Salez et servez tout de suite.</em> Die bevelende vormen <em>épluchez, coupez, salez</em> zijn het signaal, niet het onderwerp."
+    },
+    {
+     "soort": "tekst",
+     "html": "Een <strong>persuasieve</strong> tekst gebruikt middelen om je over de streep te trekken: <em>Ne jetez plus vos piles à la poubelle !</em> is een rechtstreeks <strong>bevel aan de lezer</strong> met een <strong>uitroepteken</strong>, <em>une seule pile pollue des milliers de litres d'eau</em> is een <strong>groot getal</strong> dat de schade zichtbaar maakt, <em>Déposez-les gratuitement dans le bac vert de votre magasin</em> zegt wat je dan wél moet doen (breng ze gratis naar de groene bak van je winkel), en <em>un geste de trois secondes, un fleuve sauvé</em> is een <strong>kort slotzinnetje met een sterk beeld</strong> erin. Een opsomming van wetenschappelijke bronnen hoort er net niet bij: dat is wat een informatieve tekst doet."
+    },
+    {
+     "soort": "tekst",
+     "html": "Een <strong>opiniërende</strong> tekst heeft een <strong>ik</strong> met een oordeel: <em>J'ai passé deux nuits dans cet hôtel. La chambre était propre et le petit déjeuner correct, mais le bruit de la rue m'a réveillé chaque matin à cinq heures. Pour ce prix, je m'attendais à mieux. Je n'y retournerai pas.</em>"
+    },
+    {
+     "soort": "figuur",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Frans</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Nederlands</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">éplucher, couper en morceaux</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">schillen, in stukken snijden</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">l'eau bouillante, égoutter</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">het kokende water, afgieten</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">écraser, saler</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">pletten, zouten</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">jeter, une pile, le bac vert</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">weggooien, een batterij, de groene bak</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">polluer, un fleuve sauvé</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">vervuilen, een gespaarde rivier</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">le bruit de la rue, réveiller</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">het straatlawaai, wekken</td></tr></table>",
+     "onderschrift": "Woorden uit het recept, de affiche en de beoordeling van dit hoofdstuk."
+    }
+   ]
+  },
+  {
+   "kop": "Voor je de eerste zin leest",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Drie hulpmiddelen brengen je volgens de fiche al vooruit nog vóór je begint: de <strong>titel en de tussentitels</strong>, een <strong>foto of een tekening</strong> erbij, en de woorden die <strong>vetgedrukt</strong> staan. De lengte van de laatste alinea zegt je niets."
+    },
+    {
+     "soort": "tekst",
+     "html": "Daarna helpt het <strong>communicatiemodel</strong>: van wie is deze tekst, waarom is hij geschreven, en voor wie? Wie zich die drie vragen stelt, leest meteen gerichter."
+    },
+    {
+     "soort": "figuur",
+     "html": "<svg viewBox=\"0 0 470 186\" width=\"470\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"6\" y=\"6\" width=\"458\" height=\"140\" rx=\"14\" fill=\"none\" stroke=\"#e4ded0\" stroke-width=\"1.6\" stroke-dasharray=\"6 5\"/><text x=\"20.0\" y=\"26.0\" text-anchor=\"start\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"9.5\" fill=\"#6b7260\">context: de situatie waarin je communiceert</text><rect x=\"26\" y=\"52\" width=\"110\" height=\"46\" rx=\"10\" fill=\"#2f5d5018\" stroke=\"#2f5d50\" stroke-width=\"1.7\"/><text x=\"81.0\" y=\"74.0\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"12.5\" font-weight=\"600\" fill=\"#234539\">zender</text><text x=\"81.0\" y=\"90.0\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"9.5\" fill=\"#6b7260\">wie stuurt</text><rect x=\"180\" y=\"52\" width=\"110\" height=\"46\" rx=\"10\" fill=\"#c17f2b18\" stroke=\"#c17f2b\" stroke-width=\"1.7\"/><text x=\"235.0\" y=\"74.0\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"12.5\" font-weight=\"600\" fill=\"#234539\">boodschap</text><text x=\"235.0\" y=\"90.0\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"9.5\" fill=\"#6b7260\">wat je zegt</text><rect x=\"334\" y=\"52\" width=\"110\" height=\"46\" rx=\"10\" fill=\"#2f5d5018\" stroke=\"#2f5d50\" stroke-width=\"1.7\"/><text x=\"389.0\" y=\"74.0\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"12.5\" font-weight=\"600\" fill=\"#234539\">ontvanger</text><text x=\"389.0\" y=\"90.0\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"9.5\" fill=\"#6b7260\">voor wie</text><line x1=\"140\" y1=\"75\" x2=\"170\" y2=\"75\" stroke=\"#6b7260\" stroke-width=\"1.8\"/><polygon points=\"176,75 168,70.5 168,79.5\" fill=\"#6b7260\"/><text x=\"158.0\" y=\"64.0\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"9\" fill=\"#6b7260\">kanaal</text><line x1=\"294\" y1=\"75\" x2=\"324\" y2=\"75\" stroke=\"#6b7260\" stroke-width=\"1.8\"/><polygon points=\"330,75 322,70.5 322,79.5\" fill=\"#6b7260\"/><text x=\"312.0\" y=\"64.0\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"9\" fill=\"#6b7260\">kanaal</text><text x=\"235.0\" y=\"120.0\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"10\" fill=\"#6b7260\">kanaal: mail, app, blog, telefoon, gesprek</text><rect x=\"120\" y=\"152\" width=\"230\" height=\"28\" rx=\"9\" fill=\"#ffffff\" stroke=\"#c17f2b\" stroke-width=\"1.6\"/><text x=\"235.0\" y=\"171.0\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"10.5\" font-weight=\"600\" fill=\"#c17f2b\">doel: waarom stuur je die boodschap?</text></svg>",
+     "onderschrift": "Zender, boodschap en ontvanger, met het kanaal, de context en het doel eromheen."
+    },
+    {
+     "soort": "tekst",
+     "html": "Staat er een <strong>onbekend Frans woord</strong> in, dan leid je de betekenis eerst <strong>af uit de context of uit de woordvorm</strong>. Het woordenboek komt pas daarna: op een examen van 120 minuten heb je de tijd niet om elk woord op te zoeken."
+    }
+   ]
+  },
+  {
+   "kop": "Onderwerp, hoofdgedachte en hoofdpunten",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Deze drie komen bij elke tekst terug. Het <strong>onderwerp</strong> bepalen betekent: in <strong>één of enkele woorden</strong> zeggen waarover de tekst gaat. De <strong>hoofdgedachte</strong> is de boodschap zelf, in een hele zin, en de <strong>hoofdpunten</strong> zijn de elementen die ze <strong>dragen</strong>. Het verschil zit dus niet in waar ze staan of in kort tegenover lang."
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Analyseren</strong> is meer dan letterlijk aanwijzen. Wat je afleidt, moet uit de tekst volgen, maar het hoeft er niet woord voor woord in te staan. Dat is precies wat B1 van je vraagt."
+    }
+   ]
+  },
+  {
+   "kop": "Tekstverbanden: wat doet een alinea tegenover een andere?",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Een <strong>tekstverband</strong> is de <strong>functie</strong> van een alinea tegenover een andere alinea. Niet hoeveel zinnen ze telt, en niet in welke orde ze op papier staat: wat ze <em>doet</em>. Geeft alinea 3 de <strong>oorzaak</strong> van alinea 2, het <strong>gevolg</strong>, een <strong>toelichting</strong>, een <strong>tegenstelling</strong>, of een <strong>weerlegging</strong>?"
+    },
+    {
+     "soort": "figuur",
+     "html": "<svg viewBox=\"0 0 470 156.0\" width=\"470\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"4\" y=\"4\" width=\"462\" height=\"30\" rx=\"9\" fill=\"rgba(47,93,80,.07)\" stroke=\"#2f5d50\" stroke-width=\"1.5\"/><text x=\"20\" y=\"16\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"12\" font-weight=\"600\" fill=\"#234539\">alinea 1</text><text x=\"20\" y=\"32\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"10.5\" fill=\"#6b7260\">de vaststelling: de bibliotheek sluit om achttien uur</text><rect x=\"4\" y=\"42\" width=\"462\" height=\"30\" rx=\"9\" fill=\"rgba(47,93,80,.07)\" stroke=\"#2f5d50\" stroke-width=\"1.5\"/><text x=\"20\" y=\"54\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"12\" font-weight=\"600\" fill=\"#234539\">alinea 2</text><text x=\"20\" y=\"70\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"10.5\" fill=\"#6b7260\">de oorzaak: er is te weinig personeel 's avonds</text><rect x=\"4\" y=\"80\" width=\"462\" height=\"30\" rx=\"9\" fill=\"rgba(47,93,80,.07)\" stroke=\"#2f5d50\" stroke-width=\"1.5\"/><text x=\"20\" y=\"92\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"12\" font-weight=\"600\" fill=\"#234539\">alinea 3</text><text x=\"20\" y=\"108\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"10.5\" fill=\"#6b7260\">de tegenstelling: op woensdag blijft ze wel open</text><rect x=\"4\" y=\"118\" width=\"462\" height=\"30\" rx=\"9\" fill=\"rgba(47,93,80,.07)\" stroke=\"#2f5d50\" stroke-width=\"1.5\"/><text x=\"20\" y=\"130\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"12\" font-weight=\"600\" fill=\"#234539\">alinea 4</text><text x=\"20\" y=\"146\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"10.5\" fill=\"#6b7260\">het besluit: wie later wil, komt op woensdag</text></svg>",
+     "onderschrift": "Vier alinea's over hetzelfde onderwerp, elk met een andere functie."
+    },
+    {
+     "soort": "weetje",
+     "html": "<strong>Alfabetische volgorde</strong> staat niet in de lijst van tekstverbanden, en kan er ook niet in staan: dat zegt iets over de letters, niet over de gedachtegang."
+    }
+   ]
+  },
+  {
+   "kop": "Signaalwoorden: de draad zichtbaar maken",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Signaalwoorden zijn de woordjes waarmee je de <strong>gedachtegang</strong> van een tekst kan <strong>reconstrueren</strong>. Lees in een moeilijke tekst eerst alleen die woorden, en je ziet de structuur al voor je de rest begrijpt."
+    },
+    {
+     "soort": "figuur",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Verband</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Frans</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">gevolg</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">donc, alors, c'est pourquoi</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">oorzaak of reden</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">parce que, car</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">tegenstelling</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">mais, pourtant, par contre, en revanche, cependant — il fait froid mais le soleil brille</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">volgorde</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">d'abord, ensuite, puis, enfin</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">voorbeeld</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">par exemple, ainsi</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">toevoeging of opsomming</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">de plus, en outre, aussi</td></tr></table>",
+     "onderschrift": "Zes verbanden met de Franse woorden die ze aankondigen."
+    },
+    {
+     "soort": "tekst",
+     "html": "<em>Il pleuvait, <strong>donc</strong> nous sommes restés à la maison</em> geeft een <strong>gevolg</strong>; <em>Le train était en retard <strong>parce qu'</strong>un arbre bloquait la voie</em> geeft een <strong>oorzaak</strong>. En de volgorde van een uitleg is <em>d'abord, ensuite, enfin</em>: <em>D'abord, on coupe les légumes. Ensuite, on les fait cuire.</em>"
+    },
+    {
+     "soort": "tekst",
+     "html": "Twee valkuilen. <em>En revanche</em> lijkt op <em>par exemple</em> maar betekent iets heel anders: het is <strong>daarentegen</strong>, net als <em>par contre</em>, dus een tegenstelling. En <em>cependant</em> kondigt vaak een <strong>uitzondering</strong> aan: <em>La bibliothèque ferme à dix-huit heures. Cependant, le mercredi, elle reste ouverte jusqu'à vingt heures.</em>"
+    },
+    {
+     "soort": "kader",
+     "html": "<strong>Grâce à of à cause de?</strong> Allebei geven ze een oorzaak, maar <em>grâce à</em> noemt een <strong>goede</strong> oorzaak en <em>à cause de</em> een <strong>slechte</strong>. <em>Grâce à son entraîneur, elle a gagné</em> tegenover <em>À cause de la pluie, le match est annulé</em>. Bij een staking is het dus <em>à cause de la grève</em>."
+    }
+   ]
+  },
+  {
+   "kop": "Verwijswoorden: waarnaar wijst dat woordje terug?",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Een tekst herhaalt niet graag. In de plaats daarvan verwijst hij terug, en jij moet weten waarnaar. <em>Les élèves ont protesté. <strong>Ils</strong> voulaient garder leur local.</em> <em>Ils</em> zijn <em>les élèves</em>."
+    },
+    {
+     "soort": "figuur",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Verwijswoord</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Waarnaar het verwijst</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Voorbeeld</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">il, elle, ils, elles</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">naar wie of wat al genoemd is</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Les élèves ont protesté. Ils voulaient…</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">y</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">naar een plaats die al genoemd is</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">J'aime cette ville. J'y habite depuis dix ans.</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">en</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">naar een hoeveelheid van iets dat al genoemd is</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Tu as des frères ? — Oui, j'en ai deux.</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">celui-ci</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">het laatstgenoemde</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Le chien et le chat : celui-ci dort.</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">celui-là</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">het eerstgenoemde</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Le chien et le chat : celui-là aboie.</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">ce dernier</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">de laatstgenoemde persoon of zaak</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Le directeur a reçu le journaliste; ce dernier posait des questions.</td></tr></table>",
+     "onderschrift": "Zes verwijswoorden met waarnaar ze terugwijzen."
+    },
+    {
+     "soort": "weetje",
+     "html": "<em>Elle</em> verwijst niet altijd naar een persoon. Een Frans woord heeft een geslacht, dus <em>la bibliothèque</em> wordt ook <em>elle</em>: <em>elle reste ouverte jusqu'à vingt heures</em>."
+    }
+   ]
+  },
+  {
+   "kop": "Oefen dit ook buiten het scherm",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Hier oefen je lezen, schrijven, woordenschat en grammatica. Maar het examen <strong>Frans 1</strong> is voor de helft <strong>luisteren</strong>, en <strong>Frans 2</strong> bestaat naast de twee schrijfopdrachten uit een <strong>spreekopdracht</strong> die je thuis opneemt en een <strong>gesprek van tien minuten</strong>. Die drie leer je niet achter een scherm, maar door Frans te horen en zelf Frans te praten, ook als het hakkelt."
+    },
+    {
+     "soort": "kader",
+     "html": "<strong>Deze week:</strong> lees een Franse recensie of een Frans opiniestukje en zoek er de signaalwoorden in; zeg daarna in het Frans in twee zinnen of je het eens bent. Doe het één keer en let daarna op wat je miste of niet gezegd kreeg. Dat is precies je volgende oefening."
+    }
+   ]
+  }
+ ],
+ "onthoud": []
+}

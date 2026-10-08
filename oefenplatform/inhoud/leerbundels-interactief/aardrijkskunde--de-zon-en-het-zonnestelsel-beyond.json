@@ -1,0 +1,130 @@
+{
+ "vak": "Aardrijkskunde",
+ "titel": "De zon en het zonnestelsel",
+ "onder": "De lagen van de zon, zonnevlekken en poollicht, hoe het zonnestelsel ontstond, en wat er allemaal rond de zon draait.",
+ "secties": [
+  {
+   "kop": "De lagen van de zon",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Van binnen naar buiten liggen de lagen van de zon zo: <strong>kern, stralingszone, convectiezone, fotosfeer</strong>. Daarboven komen nog de chromosfeer en de corona."
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>In de kern</strong> komt de energie vrij, door kernfusie: waterstof smelt er samen tot helium. Die energie werkt zich traag naar buiten, eerst als straling, dan met opstijgende en dalende gasstromen."
+    },
+    {
+     "soort": "tekst",
+     "html": "De <strong>fotosfeer</strong> is de laag die wij als het <strong>zichtbare oppervlak</strong> zien. De <strong>buitenste atmosfeer</strong> van de zon bestaat uit <strong>de fotosfeer</strong>, <strong>de chromosfeer</strong> en <strong>de corona</strong>."
+    },
+    {
+     "soort": "tekst",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">laag</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">wat gebeurt er</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">kern</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">kernfusie: hier komt de energie vrij</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">stralingszone</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">de energie reist als straling naar buiten</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">convectiezone</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">gas stijgt op en daalt, als kokend water</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">fotosfeer</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">het zichtbare oppervlak, ongeveer 5 500 °C</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">chromosfeer</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een dunne, rode laag erboven</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">corona</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">de ijle buitenste laag, meer dan een miljoen graden</td></tr></table>"
+    },
+    {
+     "soort": "tekst",
+     "html": "De <strong>corona is veel heter dan de fotosfeer</strong>, hoewel ze verder van de kern ligt. Dat is een van de open vragen in de sterrenkunde. Je kan de corona <strong>niet</strong> op elk moment van de dag met het blote oog zien: ze gaat verloren in het felle licht van de fotosfeer, en wordt pas zichtbaar bij een totale zonsverduistering."
+    }
+   ]
+  },
+  {
+   "kop": "Zonnevlekken, protuberansen en de zonnewind",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Een <strong>zonnevlek</strong> is een donkere, koelere plek op het oppervlak van de zon. Zonnevlekken zijn donkerder <strong>omdat ze koeler zijn dan hun omgeving</strong>: nog altijd zo'n 4 000 °C, maar naast 5 500 °C lijkt dat zwart."
+    },
+    {
+     "soort": "tekst",
+     "html": "Een <strong>protuberans</strong> is <strong>een boog van gas boven het zonsoppervlak</strong>, opgehouden door het magnetisch veld van de zon."
+    },
+    {
+     "soort": "tekst",
+     "html": "Het aantal zonnevlekken komt en gaat in een <strong>zonnecyclus</strong> van ongeveer <strong>11</strong> jaar, van minimum naar maximum en terug."
+    },
+    {
+     "soort": "tekst",
+     "html": "De <strong>zonnewind</strong> is <strong>een stroom geladen deeltjes die de zon uitzendt</strong>. Als die deeltjes bij ons aankomen, ontstaat het <strong>poollicht</strong>: <strong>deeltjes van de zon botsen op gas hoog in de atmosfeer</strong>, en dat gas licht op. Het poollicht is bij een zonne<strong>maximum</strong> vaker en verder van de polen te zien, niet bij een minimum."
+    },
+    {
+     "soort": "tekst",
+     "html": "Een sterke <strong>zonnestorm</strong> kan op aarde <strong>storingen in satellieten en radioverkeer</strong> geven, <strong>poollicht dat ook in onze streken te zien is</strong>, en <strong>spanningspieken in hoogspanningsnetten</strong>."
+    }
+   ]
+  },
+  {
+   "kop": "Hoe het zonnestelsel ontstond",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "De zon is ontstaan <strong>uit een samentrekkende wolk gas en stof</strong>. Toen de zon ontbrand was, bleef er van die wolk <strong>een schijf gas en stof over waaruit de planeten groeiden</strong>."
+    },
+    {
+     "soort": "tekst",
+     "html": "Daar komt een kenmerk vandaan dat je kan nakijken: <strong>de planeten draaien allemaal in dezelfde zin rond de zon, en bijna in hetzelfde vlak</strong>. Dat is precies wat je van een draaiende schijf verwacht."
+    },
+    {
+     "soort": "tekst",
+     "html": "Voor het ontstaan van <strong>onze maan</strong> geldt als beste verklaring dat <strong>een grote botsing materiaal uit de jonge aarde sloeg</strong>. Dat uitgeslagen puin klonterde samen tot de maan."
+    },
+    {
+     "soort": "tekst",
+     "html": "De jonge aarde was heet. <strong>De aarde viel in lagen uiteen en gassen ontsnapten</strong>: zo ontstonden de eerste geosfeer en de eerste atmosfeer. Het zware ijzer zakte naar de kern, het lichtere gesteente bleef erboven. In die eerste atmosfeer zaten <strong>waterdamp</strong>, <strong>koolstofdioxide</strong> en <strong>stikstof</strong>; zuurstof kwam er pas veel later bij, door het leven."
+    }
+   ]
+  },
+  {
+   "kop": "De acht planeten",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Ons zonnestelsel telt <strong>8</strong> planeten. De vier binnenste zijn de <strong>terrestrische planeten</strong>: <strong>Mercurius</strong>, Venus en <strong>Mars</strong>, met de aarde erbij. Ze zijn klein, van gesteente en hebben een vast oppervlak."
+    },
+    {
+     "soort": "figuur",
+     "html": "<svg viewBox=\"0 0 470 174\" width=\"470\" xmlns=\"http://www.w3.org/2000/svg\"><line x1=\"82\" y1=\"74\" x2=\"446\" y2=\"74\" stroke=\"#e4ded0\" stroke-width=\"1.4\" stroke-dasharray=\"5 5\"/><path d=\"M20 16 A 58 58 0 0 1 20 132 Z\" fill=\"#c17f2b\"/><text x=\"24.0\" y=\"78.0\" text-anchor=\"start\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"11\" font-weight=\"600\" fill=\"#ffffff\">zon</text><circle cx=\"104.0\" cy=\"74\" r=\"5.7\" fill=\"#9a948a\" stroke=\"#234539\" stroke-width=\"1.2\"/><text x=\"104.0\" y=\"108.0\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"9.5\" fill=\"#6b7260\">Mercurius</text><circle cx=\"152.9\" cy=\"74\" r=\"6.6\" fill=\"#d8b36a\" stroke=\"#234539\" stroke-width=\"1.2\"/><text x=\"152.9\" y=\"122.0\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"9.5\" fill=\"#6b7260\">Venus</text><circle cx=\"201.7\" cy=\"74\" r=\"6.8\" fill=\"#4f86b0\" stroke=\"#234539\" stroke-width=\"1.2\"/><text x=\"201.7\" y=\"108.0\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"9.5\" font-weight=\"600\" fill=\"#234539\">aarde</text><circle cx=\"250.6\" cy=\"74\" r=\"5.9\" fill=\"#a2521f\" stroke=\"#234539\" stroke-width=\"1.2\"/><text x=\"250.6\" y=\"122.0\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"9.5\" fill=\"#6b7260\">Mars</text><circle cx=\"299.4\" cy=\"74\" r=\"13.0\" fill=\"#c9a173\" stroke=\"#234539\" stroke-width=\"1.2\"/><text x=\"299.4\" y=\"108.0\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"9.5\" fill=\"#6b7260\">Jupiter</text><ellipse cx=\"348.3\" cy=\"74\" rx=\"23.4\" ry=\"6.2\" fill=\"none\" stroke=\"#c9b47f\" stroke-width=\"2.4\"/><circle cx=\"348.3\" cy=\"74\" r=\"12.3\" fill=\"#dcc48d\" stroke=\"#234539\" stroke-width=\"1.2\"/><text x=\"348.3\" y=\"122.0\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"9.5\" fill=\"#6b7260\">Saturnus</text><circle cx=\"397.1\" cy=\"74\" r=\"9.4\" fill=\"#8fc4c9\" stroke=\"#234539\" stroke-width=\"1.2\"/><text x=\"397.1\" y=\"108.0\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"9.5\" fill=\"#6b7260\">Uranus</text><circle cx=\"446.0\" cy=\"74\" r=\"9.3\" fill=\"#4a6fae\" stroke=\"#234539\" stroke-width=\"1.2\"/><text x=\"446.0\" y=\"122.0\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"9.5\" fill=\"#6b7260\">Neptunus</text><text x=\"235.0\" y=\"148.0\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"9.5\" fill=\"#6b7260\">Niet op schaal: in het echt staan de planeten duizenden keren verder uit elkaar,</text><text x=\"235.0\" y=\"162.0\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"9.5\" fill=\"#6b7260\">en past de aarde meer dan duizend keer in Jupiter.</text></svg>",
+     "onderschrift": "De acht planeten in hun orde vanaf de zon."
+    },
+    {
+     "soort": "tekst",
+     "html": "De vier buitenste zijn de <strong>gasreuzen</strong>: Jupiter, Saturnus, Uranus en Neptunus. Die <strong>zijn groot en hebben geen vast oppervlak</strong>: je zou er niet op kunnen landen. <strong>Jupiter</strong> is de grootste planeet, <strong>Neptunus</strong> staat het verst van de zon."
+    },
+    {
+     "soort": "tekst",
+     "html": "Over <strong>manen</strong>: <strong>een maan draait rond een planeet</strong>, <strong>de gasreuzen hebben er elk meerdere</strong>, en <strong>Mercurius en Venus hebben er geen</strong>."
+    }
+   ]
+  },
+  {
+   "kop": "Gordels, dwergplaneten en kometen",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "De <strong>planetoïdengordel</strong> ligt <strong>tussen Mars en Jupiter</strong>. De <strong>Kuipergordel</strong> ligt <strong>voorbij de baan van Neptunus</strong>. Nog veel verder ligt de <strong>Oortwolk</strong>: die is <strong>geen platte ring</strong> maar een bolvormige schil, en ze ligt véél verder dan de Kuipergordel."
+    },
+    {
+     "soort": "tekst",
+     "html": "Een <strong>dwergplaneet</strong> is een hemellichaam dat te klein is om een planeet te heten maar wel bolvormig is, zoals Pluto. Een <strong>planetoïde</strong> is <strong>niet</strong> hetzelfde: die is onregelmatig van vorm en hoort meestal tot de planetoïdengordel."
+    },
+    {
+     "soort": "tekst",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">waar het brokstuk is</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">hoe het heet</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">nog in de ruimte</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een meteoroïde</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">als lichtspoor in de atmosfeer</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een meteoor, een vallende ster</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">aangekomen op het aardoppervlak</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een meteoriet</td></tr></table>"
+    },
+    {
+     "soort": "tekst",
+     "html": "Zie je 's nachts een vallende ster, dan zie je dus eigenlijk <strong>een meteoor</strong>: het lichtspoor van een brokje dat in de atmosfeer verbrandt."
+    },
+    {
+     "soort": "tekst",
+     "html": "De kern van een <strong>komeet</strong> bestaat <strong>uit ijs, stof en steen</strong>. Nadert ze de zon, dan <strong>vormt zich een coma en een staart</strong>. Dicht bij de zon heeft een komeet dus <strong>een kern</strong>, <strong>een coma</strong> en <strong>een staart</strong>. Die <strong>staart wijst altijd weg van de zon</strong>, ook als de komeet van de zon weg beweegt: de zonnewind blaast hem naar achter. Een komeet legt bovendien <strong>een sterk uitgerekte, elliptische baan</strong> af, geen cirkel zoals de planeten."
+    },
+    {
+     "soort": "weetje",
+     "html": "Elk jaar zie je rond dezelfde datum een zwerm vallende sterren, omdat de aarde dan het stofspoor van een komeet kruist. De Perseïden van midden augustus komen van komeet Swift-Tuttle."
+    }
+   ]
+  }
+ ],
+ "onthoud": []
+}

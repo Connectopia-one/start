@@ -1,0 +1,155 @@
+{
+ "vak": "Aardrijkskunde",
+ "titel": "Luchtdruk, wind en de grote circulatie",
+ "onder": "Hoge en lage druk, de drukgordels en de cellen van de aarde, en de winden die eruit volgen.",
+ "secties": [
+  {
+   "kop": "Wat luchtdruk is",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "<strong>Luchtdruk</strong> is <strong>het gewicht van de luchtkolom boven een plaats</strong>. Op een weerkaart staat hij in <strong>hPa</strong>, hectopascal. De gemiddelde luchtdruk aan het zeeniveau is <strong>1013</strong> hPa."
+    },
+    {
+     "soort": "tekst",
+     "html": "Beklim je een berg, dan <strong>daalt de luchtdruk, omdat er dan minder lucht boven je staat</strong>. Je draagt een kleiner stuk van de luchtkolom."
+    },
+    {
+     "soort": "tekst",
+     "html": "Een <strong>isobaar</strong> is een lijn op een weerkaart die plaatsen met dezelfde luchtdruk verbindt. <strong>Liggen de isobaren heel dicht bij elkaar, dan waait het er hard</strong>: de druk verandert dan sterk over korte afstand, en dat verschil duwt de lucht voort."
+    }
+   ]
+  },
+  {
+   "kop": "Hoge en lage druk",
+   "blokken": [
+    {
+     "soort": "figuur",
+     "html": "<svg viewBox=\"0 0 470 208\" width=\"470\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"16\" y=\"10\" width=\"198\" height=\"118\" rx=\"6\" fill=\"#f7f9fb\" stroke=\"#e4ded0\" stroke-width=\"1.2\"/><circle cx=\"62\" cy=\"64\" r=\"26\" fill=\"#5b93b8\" opacity=\"0.16\"/><text x=\"62.0\" y=\"74.0\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"30\" font-weight=\"600\" fill=\"#5b93b8\">H</text><path d=\"M 116 28 L 116 96\" stroke=\"#5b93b8\" stroke-width=\"2.4\"/><path d=\"M 110 88 L 116 102 L 122 88 Z\" fill=\"#5b93b8\"/><ellipse cx=\"168\" cy=\"44\" rx=\"20\" ry=\"9\" fill=\"#ffffff\" stroke=\"#e4ded0\" stroke-width=\"1\"/><text x=\"115.0\" y=\"146.0\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"10.5\" font-weight=\"600\" fill=\"#23291f\">hogedrukgebied</text><text x=\"115.0\" y=\"162.0\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"9\" fill=\"#6b7260\">lucht zakt naar beneden</text><text x=\"115.0\" y=\"175.0\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"9\" fill=\"#6b7260\">weinig wolken</text><text x=\"115.0\" y=\"188.0\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"9\" fill=\"#6b7260\">rustig en meestal droog</text><rect x=\"256\" y=\"10\" width=\"198\" height=\"118\" rx=\"6\" fill=\"#f7f9fb\" stroke=\"#e4ded0\" stroke-width=\"1.2\"/><circle cx=\"302\" cy=\"64\" r=\"26\" fill=\"#a2521f\" opacity=\"0.16\"/><text x=\"302.0\" y=\"74.0\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"30\" font-weight=\"600\" fill=\"#a2521f\">L</text><path d=\"M 356 102 L 356 34\" stroke=\"#a2521f\" stroke-width=\"2.4\"/><path d=\"M 350 42 L 356 28 L 362 42 Z\" fill=\"#a2521f\"/><circle cx=\"392\" cy=\"40\" r=\"12\" fill=\"#c8cfd6\"/><circle cx=\"408\" cy=\"36\" r=\"15\" fill=\"#c8cfd6\"/><circle cx=\"424\" cy=\"42\" r=\"11\" fill=\"#c8cfd6\"/><line x1=\"390\" y1=\"56\" x2=\"386\" y2=\"72\" stroke=\"#9dc3d8\" stroke-width=\"1.6\"/><line x1=\"402\" y1=\"56\" x2=\"398\" y2=\"72\" stroke=\"#9dc3d8\" stroke-width=\"1.6\"/><line x1=\"414\" y1=\"56\" x2=\"410\" y2=\"72\" stroke=\"#9dc3d8\" stroke-width=\"1.6\"/><line x1=\"426\" y1=\"56\" x2=\"422\" y2=\"72\" stroke=\"#9dc3d8\" stroke-width=\"1.6\"/><text x=\"355.0\" y=\"146.0\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"10.5\" font-weight=\"600\" fill=\"#23291f\">lagedrukgebied of depressie</text><text x=\"355.0\" y=\"162.0\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"9\" fill=\"#6b7260\">lucht stijgt op</text><text x=\"355.0\" y=\"175.0\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"9\" fill=\"#6b7260\">wolken vormen zich</text><text x=\"355.0\" y=\"188.0\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"9\" fill=\"#6b7260\">wind en kans op regen</text></svg>",
+     "onderschrift": "Bij lage druk stijgt de lucht op en draait de wind tegen de klok in; bij hoge druk daalt ze en draait de wind met de klok mee."
+    },
+    {
+     "soort": "tekst",
+     "html": "Een <strong>lagedrukgebied</strong> ontstaat boven een warm oppervlak doordat <strong>warme lucht opstijgt en de druk aan de grond daalt</strong>. <strong>In een lagedrukgebied stijgt de lucht op, en daarom regent het er vaak</strong>: stijgende lucht koelt af en haar damp slaat neer."
+    },
+    {
+     "soort": "tekst",
+     "html": "Drie woorden betekenen hetzelfde: <strong>depressie</strong>, <strong>lagedrukgebied</strong> en <strong>minimum</strong>. Een <strong>anticycloon</strong> is het omgekeerde: <strong>een gebied met hoge luchtdruk</strong>, ook maximum genoemd."
+    },
+    {
+     "soort": "tekst",
+     "html": "Over drukgebieden geldt: <strong>in een maximum daalt de lucht</strong>, <strong>in een minimum stijgt de lucht</strong>, en <strong>lucht stroomt van hoge naar lage druk</strong>. Een hogedrukgebied geeft in de winter bij ons dus géén zware regen, maar droog, vaak mistig en koud weer."
+    },
+    {
+     "soort": "tekst",
+     "html": "Er staat <strong>wind door een verschil in luchtdruk</strong>. De wind waait echter <strong>niet recht van hoog naar laag</strong>, en dat komt door <strong>het corioliseffect</strong>. Op het noordelijk halfrond draait de wind daardoor <strong>tegen de klok in</strong> rond een lagedrukgebied en <strong>met de klok mee</strong> rond een hogedrukgebied. <strong>Op het zuidelijk halfrond draait de wind rond een depressie met de klok mee.</strong>"
+    },
+    {
+     "soort": "tekst",
+     "html": "Een wind heet naar de richting waar hij <strong>vandaan</strong> komt. Over een <strong>noordenwind</strong> geldt dus: <strong>hij komt uit het noorden</strong>, <strong>hij blaast naar het zuiden</strong>, en <strong>hij brengt bij ons koude lucht mee</strong>."
+    },
+    {
+     "soort": "kader",
+     "html": "Een stormdepressie met een centrale druk van 960 hPa: dat is ruim vijftig hectopascal onder normaal, dus <strong>de depressie is heel diep en dus krachtig</strong>. Hoe lager de kerndruk, hoe sterker de wind eromheen. De <strong>schaal van Beaufort</strong> geeft trouwens niet de druk maar de <strong>windkracht</strong>."
+    }
+   ]
+  },
+  {
+   "kop": "De drukgordels van de aarde",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Van de evenaar naar de pool liggen er gordels: het <strong>equatoriaal minimum</strong>, het <strong>subtropisch maximum</strong>, het <strong>subpolair minimum</strong> en het polair maximum."
+    },
+    {
+     "soort": "tekst",
+     "html": "Rond de evenaar ligt een gordel van lage druk <strong>omdat de sterke opwarming de lucht er laat opstijgen</strong>. De <strong>subtropische maxima</strong> liggen <strong>rond 30° noorder- en zuiderbreedte</strong>; daar komt de opgestegen lucht weer naar beneden. Daarom liggen <strong>de grote woestijnen rond 30° breedte: daar daalt droge lucht neer</strong>, en dalende lucht geeft geen regen."
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Een thermische drukgordel ontstaat door opwarming of afkoeling, een dynamische door op- of neergaande lucht van de circulatie.</strong> Het equatoriaal minimum is dus thermisch, het subtropisch maximum dynamisch."
+    },
+    {
+     "soort": "tekst",
+     "html": "Een <strong>circulatiecel</strong> is <strong>een kringloop van op- en dalende lucht</strong>. Tussen de evenaar en 30° draait de cel van Hadley, daarboven volgen de Ferrelcel en de poolcel."
+    }
+   ]
+  },
+  {
+   "kop": "Passaten, ITCZ en de straalstroom",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "De <strong>passaatwinden</strong> waaien van de subtropen naar de evenaar. Op het noordelijk halfrond komen ze <strong>uit het noordoosten</strong>, want het corioliseffect buigt ze naar rechts af. Op het zuidelijk halfrond buigt het ze juist <strong>naar links</strong> af, dus komen ze daar uit het zuidoosten."
+    },
+    {
+     "soort": "tekst",
+     "html": "Waar de passaten van beide halfronden samenkomen, ligt de <strong>ITCZ</strong>, de intertropische convergentiezone. Daarover geldt: <strong>ze schuift mee met de zenitale zon</strong>, <strong>er valt veel convectieve regen</strong>, en <strong>de passaten van beide halfronden komen er samen</strong>."
+    },
+    {
+     "soort": "tekst",
+     "html": "De <strong>straalstroom</strong> is <strong>een smalle band zeer snelle hoogtewind</strong>, op ongeveer tien kilometer hoogte. <strong>De straalstroom stuurt de banen van de depressies over Europa.</strong> Bij ons komt de meest voorkomende wind <strong>uit het zuidwesten</strong>."
+    },
+    {
+     "soort": "tekst",
+     "html": "De vakfiche noemt als oorzaken van de luchtdrukverschillen en de winden: <strong>de algemene luchtcirculatie</strong>, <strong>de ITCZ en de straalstroom</strong>, en <strong>het corioliseffect en de land- en zeewinden</strong>."
+    },
+    {
+     "soort": "tekst",
+     "html": "Orkanen ontstaan niet pal op de evenaar, <strong>omdat het corioliseffect daar te klein is</strong> om de lucht aan het draaien te krijgen."
+    },
+    {
+     "soort": "tekst",
+     "html": "Elk halfrond heeft <strong>drie circulatiecellen</strong>: de <strong>Hadleycel</strong> tussen de evenaar en de keerkring, de <strong>Ferrelcel</strong> in onze breedten en de <strong>poolcel</strong> daarboven. Een Coriolliscel bestaat niet; coriolis is een effect, geen cel. In de <strong>Hadleycel</strong> <strong>stijgt warme lucht op</strong> aan de evenaar en <strong>daalt ze koud neer</strong> boven de keerkring: dat is de opstijgende en de dalende tak."
+    },
+    {
+     "soort": "tekst",
+     "html": "De <strong>straalstroom</strong> zit <strong>hoog in de troposfeer</strong>, op ongeveer tien kilometer, net waar lijnvliegtuigen vliegen. Omdat hij van west naar oost waait, <strong>vliegt een vliegtuig van Brussel naar New York langer dan terug</strong>: op de heenreis vliegt het <strong>tegen de straalstroom in</strong>, op de terugreis duwt die mee."
+    }
+   ]
+  },
+  {
+   "kop": "Zeewind, landwind en moesson",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Op een warme zomerdag ontstaat een <strong>zeewind</strong> doordat <strong>het land sneller opwarmt dan de zee</strong>. Boven het land stijgt de lucht, de druk daalt er, en koelere zeelucht stroomt toe."
+    },
+    {
+     "soort": "tekst",
+     "html": "'s Nachts keert het om: het land koelt sneller af dan de zee, en <strong>de lucht stroomt van het land naar de zee</strong>. Die wind heet de <strong>landwind</strong>."
+    },
+    {
+     "soort": "tekst",
+     "html": "Een <strong>moesson</strong> werkt op hetzelfde beginsel, maar met de seizoenen in plaats van met de dag: hij draait <strong>twee keer per jaar</strong> van richting, niet twee keer per dag. In de zomer waait hij van de koelere oceaan naar het hete vasteland en brengt hij de regens, in de winter andersom."
+    }
+   ]
+  },
+  {
+   "kop": "Van zuidwestenwind tot orkaan",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Een wind wordt genoemd naar <strong>waar hij vandaan komt</strong>, niet naar waarheen hij waait. Een <strong>zuidwestenwind</strong> komt dus uit het zuidwesten, en dat is bij ons de meest voorkomende wind: hij <strong>komt over de oceaan</strong>, <strong>brengt zachte lucht</strong> mee en <strong>brengt vaak regen</strong>."
+    },
+    {
+     "soort": "tekst",
+     "html": "De <strong>windkracht</strong> geeft men op de schaal van <strong>Beaufort</strong>, van 0 (windstil) tot 12 (orkaankracht)."
+    },
+    {
+     "soort": "tekst",
+     "html": "Een <strong>orkaan</strong> of <strong>tropische cycloon</strong> is een storm die <strong>boven warm zeewater</strong> ontstaat: het water moet minstens 26 graden zijn, want de warme, vochtige lucht is de brandstof. In het <strong>oog</strong>, het midden van zo'n storm, is het <strong>bijna windstil</strong> en breekt de zon zelfs door, terwijl er rondom orkaankracht staat."
+    },
+    {
+     "soort": "tekst",
+     "html": "Een stevige <strong>depressie</strong> bij ons brengt <strong>veel wind</strong>, <strong>veel bewolking</strong> en <strong>neerslag</strong>. <strong>Nachtvorst</strong> hoort daar niet bij: die krijg je juist bij hoge druk, als de hemel 's nachts opheldert."
+    },
+    {
+     "soort": "kader",
+     "html": "De wind aan het aardoppervlak waait <strong>niet precies langs de isobaren</strong>. Hoog in de lucht doet hij dat bijna wel, maar aan de grond remt de wrijving hem af, en daardoor draait hij schuin naar het lage drukgebied toe."
+    }
+   ]
+  }
+ ],
+ "onthoud": []
+}

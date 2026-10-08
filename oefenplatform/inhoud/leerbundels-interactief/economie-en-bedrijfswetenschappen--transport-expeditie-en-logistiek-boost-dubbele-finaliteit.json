@@ -1,0 +1,75 @@
+{
+ "vak": "Economie en bedrijfswetenschappen",
+ "titel": "Transport, expeditie en logistiek",
+ "onder": "De zes transportmodi met hun voor- en nadelen, waarop je ze vergelijkt, de taken van expeditie en logistiek, invoer, uitvoer en doorvoer, en de pakbon tegenover de CMR.",
+ "secties": [
+  {
+   "kop": "De zes transportmodi",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "<strong>Een transportmodus is een manier van vervoeren.</strong> De vakfiche noemt er zes."
+    },
+    {
+     "soort": "kader",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">modus</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">sterk</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">zwak</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>wegvervoer</strong>, met vrachtwagens</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>tot aan de deur</strong>: een vrachtwagen kan tot bij de klant rijden</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>de files</strong>, en een hogere uitstoot per ton dan spoor of water</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>spoorvervoer</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>stoot per ton minder uit dan wegvervoer</strong>, veel lading in één keer</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">stopt bij een terminal</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>binnenscheepvaart</strong> of binnenvaart, over water in het binnenland</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">goedkoop en zuinig voor grote volumes</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">traag, en enkel waar er water is</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>maritiem vervoer</strong>, over zee</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>de grootste capaciteit</strong>: een containerschip neemt de lading van duizenden vrachtwagens mee, en goedkoop per ton</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>het traagst van alle</strong></td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>luchtvracht</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>het snelst over grote afstand</strong>, met het vliegtuig</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>duur</strong>, dus vooral lichte, dringende of kostbare vracht</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>de pijpleiding</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>vloeistof of gas</strong>, dag en nacht door zonder chauffeur</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">enkel waar de leiding ligt, en enkel voor dat soort lading</td></tr></table>"
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Maritiem vervoer is dus niet de snelste manier</strong>: een zeeschip is het traagst, maar het vervoert enorme volumes voor weinig geld. <strong>Luchtvracht is snel maar duur</strong>, en <strong>voor een dringend klein pakje naar Japan kies je luchtvracht</strong>: duur per kilo, maar in een dag ter plaatse."
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Je vergelijkt de modi op snelheid en kosten</strong>, en ook op bereikbaarheid, capaciteit, de aard van het product en het milieueffect. <strong>De keuze van een transportmiddel baseer je op hoe dringend het is, op wat het product nodig heeft en op wat het mag kosten</strong>, en op of de bestemming wel per spoor of over water bereikbaar is. <strong>Voor vers fruit uit Spanje is gekoeld wegvervoer de keuze</strong>: snel genoeg en met koeling."
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Niet elke modus kan tot aan de deur leveren</strong>: een schip en een trein stoppen bij een terminal, en de laatste kilometers gaan over de weg. <strong>Daarom gebruikt men vaak meerdere modi na elkaar, elk voor wat hij best kan</strong>: een container komt per schip aan en gaat met de trein of de vrachtwagen verder."
+    }
+   ]
+  },
+  {
+   "kop": "De taken van expeditie en logistiek",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "<strong>De vakfiche noemt zeven taken: goederen ontvangen en opslaan, picken en verzenden, het transport plannen, de voorraad beheren en de retour van goederen afhandelen.</strong> Lonen zijn werk voor HR en de boekhouding."
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Picken of orderpicken is de goederen van een order in de loods uit de rekken halen</strong>, ze uithalen en samenbrengen. <strong>Een retour zijn goederen die terugkomen</strong>: de klant stuurt terug wat hij niet houdt, en de logistiek handelt dat af."
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Voorraadbeheer is weten wat je hebt</strong>, en op tijd bijbestellen zonder te veel in de rekken te laten staan. <strong>Een te kleine voorraad kan een verkoop doen mislopen</strong>, want wat je niet in huis hebt, kan je niet leveren. <strong>Maar een zo groot mogelijke voorraad is niet het beste</strong>: voorraad kost plaats en geld en kan verouderen. <strong>Te veel is even slecht als te weinig</strong>, en daar zit heel het vak in."
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Een eenvoudige logistieke taak is een route opstellen</strong>, volumes en gewichten berekenen of een retour afhandelen."
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Een goede logistiek is belangrijk voor de hele onderneming</strong>: de klant krijgt zijn levering op tijd, de voorraad kost niet te veel en de verkoop kan haar beloftes nakomen. De prijs van reclame heeft met de logistiek niets te maken."
+    }
+   ]
+  },
+  {
+   "kop": "Over de grens, en de papieren erbij",
+   "blokken": [
+    {
+     "soort": "kader",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">woord</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">wat het is</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>invoer</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>goederen binnenbrengen</strong>: ze komen uit het buitenland het land binnen</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>uitvoer</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>goederen buitenbrengen</strong>: ze gaan van hier naar een ander land</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>doorvoer</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>enkel passeren</strong>: de goederen gaan door het land zonder er verhandeld te worden</td></tr></table>"
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Een pakbon of paklijst zegt wat in de zending zit</strong>: de lijst van de inhoud, zodat de ontvanger kan nakijken of alles er is. <strong>Een CMR is de vrachtbrief voor internationaal wegvervoer</strong>, en hij regelt wie waarvoor aansprakelijk is tijdens het transport."
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Een pakbon en een CMR zijn dus niet hetzelfde</strong>: de pakbon zegt wat erin zit, de CMR is de vervoersovereenkomst. <strong>De CMR wordt ondertekend door drie partijen: de afzender, de vervoerder en de bestemmeling.</strong> <strong>Erop staan de afzender en de bestemmeling, de aard van de goederen en het gewicht van de zending</strong>, en de plaats en datum van inlading en van levering."
+    }
+   ]
+  }
+ ],
+ "onthoud": []
+}

@@ -1,0 +1,76 @@
+{
+ "vak": "Ontwikkeling en pedagogisch handelen",
+ "titel": "Ontwikkeling: de basisbegrippen",
+ "onder": "Groeien, rijpen en leren, de negen levensloopfasen, de drie ontwikkelingsfactoren nature, nurture en zelfbepaling, en de vijf ontwikkelingsdomeinen met hun auteurs.",
+ "secties": [
+  {
+   "kop": "Groeien, rijpen en leren",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "<strong>Ontwikkeling is altijd groeien, rijpen en leren samen.</strong> Het is dus niet alleen groeien. De drie zijn makkelijk uit elkaar te houden."
+    },
+    {
+     "soort": "kader",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">deel</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">wat het is</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">voorbeeld</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>groeien</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>groter worden</strong>: groter, zwaarder en anders van verhouding</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een kind wordt tien centimeter langer</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>rijpen</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>klaar worden voor iets</strong>, vanzelf, zonder oefenen</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een baby stapt plots zonder dat iemand het hem leerde</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>leren</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>door ervaring veranderen</strong>, door oefening en door wat de omgeving aanbiedt</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een kind leert zijn veters knopen</td></tr></table>"
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Rijpen gebeurt vanzelf, zonder oefenen</strong>, want het volgt uit de aanleg. Leren vraagt wel oefening. Daar zit het verschil."
+    }
+   ]
+  },
+  {
+   "kop": "De negen levensloopfasen",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "<strong>De levensloop telt negen fasen.</strong> Je deelt de levensloop in fasen in <strong>omdat elke fase haar eigen kenmerken heeft</strong>: haar eigen typische ontwikkeling, behoeften en aandachtspunten."
+    },
+    {
+     "soort": "kader",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">fase</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">wanneer</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>de prenatale fase</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>van de bevruchting tot de geboorte</strong>, dus voor de geboorte</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>de babytijd</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">vanaf de geboorte</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>de peutertijd</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">de jaren van het zelf willen doen</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>de kleutertijd</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">de jaren van de kleuterschool</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>de midden-kindertijd</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>ook de lagereschoolkindfase</strong> genoemd</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>de adolescentie</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>na de midden-kindertijd</strong>, tussen kindertijd en volwassenheid</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>de vroege volwassenheid</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">de eerste jaren als volwassene</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>de midden-volwassenheid</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">de middenleeftijd</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>de late volwassenheid</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">de oudere, met onder meer de pensioentijd</td></tr></table>"
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>De prenatale fase begint dus niet bij de geboorte maar eindigt erbij</strong>; daarna begint de babytijd."
+    }
+   ]
+  },
+  {
+   "kop": "Nature, nurture en zelfbepaling",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "<strong>Er zijn drie ontwikkelingsfactoren</strong>, en de eerste twee hebben een Engelse naam die je moet kennen."
+    },
+    {
+     "soort": "kader",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">factor</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">wat het is</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">voorbeeld</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>nature</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>de erfelijkheid</strong>: wat je meekrijgt van je ouders, je aanleg</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een kind lijkt op zijn moeder</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>nurture</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>de omgeving</strong>: opvoeding, school, vrienden, cultuur</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een kind leert thuis twee talen</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>zelfbepaling</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>je kiest zelf mee</strong>: het kind geeft zelf richting aan zijn ontwikkeling</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een kind kiest zelf zijn hobby</td></tr></table>"
+    },
+    {
+     "soort": "tekst",
+     "html": "Verwar de twee Engelse woorden niet: <strong>nature staat niet voor de omgeving maar voor de erfelijkheid</strong>. <strong>Zelfbepaling betekent dat een kind ook zelf richting geeft</strong>, naast wat het meekrijgt en wat het aangeboden krijgt."
+    }
+   ]
+  },
+  {
+   "kop": "De vijf ontwikkelingsdomeinen",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Ontwikkeling gebeurt op <strong>vijf domeinen</strong> tegelijk. Bij drie ervan hoort een naam die je moet kennen."
+    },
+    {
+     "soort": "kader",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">domein</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">waar het over gaat</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">wie het beschreef</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>de fysieke ontwikkeling</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">het lichaam: de lichamelijke, de sensorische, <strong>de motorische</strong> en de sensomotorische ontwikkeling</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"></td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>de cognitieve ontwikkeling</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>het denken</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>Piaget</strong></td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>de socio-emotionele ontwikkeling</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>de sociale ontwikkeling</strong>, omgaan met emoties, vriendschappen maken</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"></td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>de morele ontwikkeling</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">wat je juist en verkeerd vindt</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>Kohlberg</strong></td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>de persoonlijkheidsontwikkeling</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">wie je wordt</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>Erikson</strong></td></tr></table>"
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>De motoriek hoort bij de fysieke ontwikkeling</strong>, niet bij de cognitieve. En de lengte van een kind hoort bij de lichamelijke ontwikkeling, niet bij de socio-emotionele."
+    }
+   ]
+  }
+ ],
+ "onthoud": []
+}

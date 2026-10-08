@@ -1,0 +1,84 @@
+{
+ "vak": "Economie en bedrijfswetenschappen",
+ "titel": "Commerciële documenten en de documentenstroom",
+ "onder": "De zeven commerciële documenten en wie ze maakt, de volgorde waarin ze bij een aankoop komen, en hoe je een factuur controleert tegen de bestelbon en de leverbon.",
+ "secties": [
+  {
+   "kop": "De zeven documenten",
+   "blokken": [
+    {
+     "soort": "kader",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">document</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">wat het is</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">van wie naar wie</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>de prijsaanvraag</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>vragen wat iets kost</strong>, vaak bij meerdere leveranciers om te kunnen vergelijken</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>klant → leverancier</strong></td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>de offerte</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>een prijsvoorstel of prijsopgave</strong>, het antwoord op de prijsaanvraag</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">leverancier → klant</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>de bestelbon</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>de klant bestelt</strong>: schriftelijk wat hij wil, in welke aantallen en aan welke prijs</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>klant → leverancier</strong></td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>de orderbevestiging</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>de leverancier bevestigt</strong> dat de bestelling binnen is en wanneer hij levert</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">leverancier → klant</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>de leverbon</strong> of leveringsbon</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>wat er geleverd is</strong>: de lijst die met de goederen meekomt</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">leverancier → klant</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>de factuur</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>de vraag om te betalen</strong>, met de bedragen, de btw en de betalingsvoorwaarden</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">leverancier → klant</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>de creditnota</strong>, ook kredietnota</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>een factuur rechtzetten</strong>, bij een retour, een korting achteraf of een fout</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">leverancier → klant</td></tr></table>"
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>De leverbon gaat mee met de goederen</strong>, zodat de ontvanger meteen kan nagaan of alles er is. <strong>Hij vermeldt niet altijd de prijzen</strong>: een leverbon noemt vooral de aantallen, de bedragen staan op de factuur."
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>De factuur maakt de verkoper</strong>: voor hem is het een verkoopfactuur, voor de koper een aankoopfactuur. <strong>Een bestelbon en een factuur zijn dus niet hetzelfde document</strong>: de bestelbon komt van de koper, de factuur van de verkoper."
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Verplicht op een factuur: de datum en het nummer, de gegevens van beide partijen, de btw en het totaal, en de omschrijving van de goederen of diensten.</strong>"
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Een offerte bindt de leverancier aan zijn prijs zolang ze geldig is</strong>, en daarom staat er een geldigheidsduur op. <strong>Het doel van een orderbevestiging is zekerheid geven</strong>: de klant weet dat zijn bestelling aangekomen is en wanneer ze komt. <strong>Van de klant naar de leverancier gaan de prijsaanvraag, de bestelbon en de klacht bij een fout</strong>; de factuur komt de andere richting uit. De loonfiche is een personeelsdocument en hoort hier niet bij."
+    }
+   ]
+  },
+  {
+   "kop": "De documentenstroom",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "<strong>De documentenstroom of documentstroom is het overzicht van de volgorde van de papieren</strong>: welk document wanneer gemaakt wordt, en door wie. <strong>In een schema zet je wie wat wanneer stuurt</strong>, met pijlen tussen de klant, de leverancier en de betrokken afdelingen."
+    },
+    {
+     "soort": "figuur",
+     "html": "<svg viewBox=\"0 0 470 76\" width=\"470\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"0.0\" y=\"6\" width=\"56.7\" height=\"62\" rx=\"10\" fill=\"#ffffff\" stroke=\"#2f5d50\" stroke-width=\"1.8\"/><text x=\"28.3\" y=\"37.0\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"11.5\" font-weight=\"600\" fill=\"#234539\">prijsaanvraag</text><path d=\"M61.666666666666664 37.0 h12 m0 0 l-6 -5 m6 5 l-6 5\" stroke=\"#2f5d50\" stroke-width=\"2\" fill=\"none\" stroke-linecap=\"round\"/><rect x=\"82.7\" y=\"6\" width=\"56.7\" height=\"62\" rx=\"10\" fill=\"#ffffff\" stroke=\"#2f5d50\" stroke-width=\"1.8\"/><text x=\"111.0\" y=\"37.0\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"11.5\" font-weight=\"600\" fill=\"#234539\">offerte</text><path d=\"M144.33333333333331 37.0 h12 m0 0 l-6 -5 m6 5 l-6 5\" stroke=\"#2f5d50\" stroke-width=\"2\" fill=\"none\" stroke-linecap=\"round\"/><rect x=\"165.3\" y=\"6\" width=\"56.7\" height=\"62\" rx=\"10\" fill=\"#ffffff\" stroke=\"#2f5d50\" stroke-width=\"1.8\"/><text x=\"193.7\" y=\"37.0\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"11.5\" font-weight=\"600\" fill=\"#234539\">bestelbon</text><path d=\"M226.99999999999997 37.0 h12 m0 0 l-6 -5 m6 5 l-6 5\" stroke=\"#2f5d50\" stroke-width=\"2\" fill=\"none\" stroke-linecap=\"round\"/><rect x=\"248.0\" y=\"6\" width=\"56.7\" height=\"62\" rx=\"10\" fill=\"#ffffff\" stroke=\"#2f5d50\" stroke-width=\"1.8\"/><text x=\"276.3\" y=\"29.0\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"11.5\" font-weight=\"600\" fill=\"#234539\">order-</text><text x=\"276.3\" y=\"45.0\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"10\" font-weight=\"400\" fill=\"#6b7260\">bevestiging</text><path d=\"M309.66666666666663 37.0 h12 m0 0 l-6 -5 m6 5 l-6 5\" stroke=\"#2f5d50\" stroke-width=\"2\" fill=\"none\" stroke-linecap=\"round\"/><rect x=\"330.7\" y=\"6\" width=\"56.7\" height=\"62\" rx=\"10\" fill=\"#ffffff\" stroke=\"#2f5d50\" stroke-width=\"1.8\"/><text x=\"359.0\" y=\"37.0\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"11.5\" font-weight=\"600\" fill=\"#234539\">leverbon</text><path d=\"M392.3333333333333 37.0 h12 m0 0 l-6 -5 m6 5 l-6 5\" stroke=\"#2f5d50\" stroke-width=\"2\" fill=\"none\" stroke-linecap=\"round\"/><rect x=\"413.3\" y=\"6\" width=\"56.7\" height=\"62\" rx=\"10\" fill=\"#ffffff\" stroke=\"#2f5d50\" stroke-width=\"1.8\"/><text x=\"441.7\" y=\"37.0\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"11.5\" font-weight=\"600\" fill=\"#234539\">factuur</text></svg>",
+     "onderschrift": "De documenten van een aankoop in hun orde. De prijsaanvraag staat vooraan, de factuur achteraan, tenzij er nog een creditnota volgt."
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>De prijsaanvraag komt eerst</strong>: eerst weten wat het kost, dan pas bestellen. <strong>De factuur komt als laatste</strong>, tenzij er nog een creditnota volgt omdat er iets terug moet. <strong>De offerte volgt op de prijsaanvraag, de bestelbon op de offerte en de factuur op de levering.</strong>"
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Bij een aankoop zijn drie afdelingen betrokken: de aankoop bestelt, de logistiek ontvangt, de boekhouding boekt en betaalt.</strong> <strong>De boekhouding krijgt dus de factuur van de leverancier</strong> en volgt de betaling op."
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>De documentenstroom bij een verkoop is niet helemaal anders dan bij een aankoop</strong>: het zijn dezelfde documenten, enkel je rol wisselt van koper naar verkoper. Wie bij een aankoop de bestelbon maakt, krijgt hem bij een verkoop toegestuurd."
+    }
+   ]
+  },
+  {
+   "kop": "Controleren en narekenen",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "<strong>Je vergelijkt de leverbon met de bestelbon om te zien of alles er is</strong>: wat besteld werd, moet ook geleverd zijn, in dezelfde aantallen. Dat nagaan of twee documenten met elkaar kloppen, heet <strong>controleren op onderlinge overeenstemming</strong>: nakijken en vergelijken."
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Een factuur controleer je tegen de bestelbon en de leverbon</strong>: zo zie je of je betaalt voor wat je besteld hebt en ook gekregen hebt. <strong>Een factuur mag je dus niet zonder controle boeken en betalen</strong>: een fout die je niet opmerkt, betaal je zelf."
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Op een inkomende factuur controleer je de geleverde aantallen, de afgesproken prijzen en de berekening van de btw</strong>, en of de kortingen uit de offerte er echt op staan. <strong>Documenten narekenen is de bedragen nagaan</strong>: de aantallen maal de prijzen, de kortingen, de btw en het totaal."
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Staat er een hoger bedrag op de factuur dan op de offerte, dan contacteer je de leverancier</strong>: je vraagt uitleg en zo nodig een creditnota. <strong>Een goede controle voorkomt dat je te veel betaalt</strong>, en ook dat je een levering betaalt die nooit is aangekomen."
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Een correct opgesteld commercieel document heeft de juiste gegevens, een duidelijke datum en een kloppende berekening</strong>, en een nummer, zodat je het later terugvindt. <strong>Het doel van dat alles is kwaliteit afleveren</strong>: wie zijn documenten laat kloppen, levert werk af waarop de klant kan bouwen."
+    }
+   ]
+  }
+ ],
+ "onthoud": []
+}

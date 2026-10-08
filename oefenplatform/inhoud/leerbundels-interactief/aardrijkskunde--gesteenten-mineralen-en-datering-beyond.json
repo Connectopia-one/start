@@ -1,0 +1,191 @@
+{
+ "vak": "Aardrijkskunde",
+ "titel": "Gesteenten, mineralen en datering",
+ "onder": "De drie groepen gesteenten en hoe ze in elkaar overgaan, en hoe je uit aardlagen en fossielen de ouderdom afleidt.",
+ "secties": [
+  {
+   "kop": "Drie groepen",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Er zijn <strong>drie grote groepen gesteenten: magmatische, sedimentaire en metamorfe</strong>. Een <strong>gesteente is een natuurlijk mengsel van mineralen</strong>; een mineraal is de zuivere bouwsteen."
+    },
+    {
+     "soort": "tekst",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">groep</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">ontstaan</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">voorbeeld</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">magmatisch</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">uit afgekoeld magma of lava</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">graniet, basalt</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">sedimentair</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">uit samengeperste losse deeltjes</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">zandsteen, kalksteen</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">metamorf</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">omgevormd door druk en hitte</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">marmer, leisteen</td></tr></table>"
+    },
+    {
+     "soort": "tekst",
+     "html": "Van de mineralen staan in de bijlage van de vakfiche: <strong>pyriet en grafiet</strong>, <strong>diamant en kwarts</strong>, en <strong>veldspaat en biotiet</strong>."
+    },
+    {
+     "soort": "weetje",
+     "html": "<strong>Diamant en grafiet bestaan uit precies dezelfde stof</strong>: zuivere koolstof. Het enige verschil is hoe de atomen gestapeld staan. Het hardste en een van de zachtste mineralen op aarde zijn chemisch dus hetzelfde."
+    }
+   ]
+  },
+  {
+   "kop": "Magmatische gesteenten",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Hoe langzamer het magma afkoelt, hoe groter de kristallen worden. <strong>Graniet heeft grote, goed zichtbare kristallen omdat het magma heel langzaam afkoelde</strong>, diep in de korst. Wie een granieten keukenblad bekijkt, kijkt naar duizenden jaren traag afkoelen."
+    },
+    {
+     "soort": "tekst",
+     "html": "Stroomt het magma als lava naar buiten, dan koelt het snel af en krijg je een <strong>uitvloeiingsgesteente</strong>. Zo zijn <strong>basalt</strong>, <strong>puimsteen</strong> en <strong>obsidiaan</strong> ontstaan."
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Obsidiaan heeft geen kristallen omdat de lava te snel afkoelde om te kristalliseren</strong>: het is eigenlijk vulkanisch glas. <strong>Puimsteen</strong> is zo vol gasbellen dat het op water blijft drijven."
+    }
+   ]
+  },
+  {
+   "kop": "Sedimentaire gesteenten",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "De vakfiche zet de losse sedimenten op een rij van grof naar fijn: <strong>grind, zand, silt, klei</strong>. Worden die samengeperst en aan elkaar gekit, dan krijg je een gesteente."
+    },
+    {
+     "soort": "tekst",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">los sediment</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">wordt</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">grind</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">conglomeraat</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">zand</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">zandsteen</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">silt</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">siltsteen</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">klei</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">kleisteen of schiefer</td></tr></table>"
+    },
+    {
+     "soort": "tekst",
+     "html": "Uit <strong>zand</strong> ontstaat dus <strong>zandsteen</strong>, en uit grind een <strong>conglomeraat</strong>: een gesteente waarin je de ronde keien nog met het blote oog ziet zitten."
+    },
+    {
+     "soort": "tekst",
+     "html": "Sommige sedimentaire gesteenten zijn <strong>organogeen</strong>, uit resten van leven ontstaan: <strong>krijt</strong>, <strong>steenkool</strong> en <strong>kalksteen uit schelpen</strong>. <strong>Steenkool is ontstaan uit plantenresten in moerassen</strong>, in het Carboon, en dat is waarom de mijnstreek in Limburg en Wallonië ligt waar ze ligt."
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Mergel bestaat uit een mengsel van kalk en klei.</strong> Daardoor is het zacht genoeg om met een zaag te snijden, wat de Limburgse mergelgrotten verklaart."
+    }
+   ]
+  },
+  {
+   "kop": "Metamorfe gesteenten",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Druk en hitte vormen een gesteente om zonder het te laten smelten. <strong>Metamorfe gesteenten zijn dus niet gesmolten en weer afgekoeld</strong>: dan zou je een magmatisch gesteente krijgen."
+    },
+    {
+     "soort": "tekst",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">uit</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">wordt</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">kalksteen</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">marmer</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">zandsteen</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">kwartsiet</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">kleisteen</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">leisteen</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">steenkool</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">grafiet, en bij extreme druk diamant</td></tr></table>"
+    },
+    {
+     "soort": "tekst",
+     "html": "Uit <strong>kalksteen</strong> ontstaat dus <strong>marmer</strong>, uit <strong>zandsteen kwartsiet</strong>, en <strong>leisteen</strong> komt uit <strong>kleisteen</strong>. Dat laatste zie je nog aan de platte schilfers: de klei is onder druk in één richting platgedrukt."
+    }
+   ]
+  },
+  {
+   "kop": "De gesteentecyclus",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Gesteenten gaan voortdurend in elkaar over, en die kringloop heet de <strong>gesteentecyclus</strong>. Magma koelt af tot magmatisch gesteente, verwering en erosie maken er sediment van, samenpersen maakt daar sedimentair gesteente van, druk en hitte maken het metamorf, en nog meer hitte smelt het terug tot magma."
+    },
+    {
+     "soort": "tekst",
+     "html": "Daarbij geldt geen enkele vaste orde: <strong>in de gesteentecyclus kan een metamorf gesteente wél opnieuw sediment worden</strong>. Een marmerblok dat aan de oppervlakte komt, verweert net zo goed als elk ander gesteente."
+    },
+    {
+     "soort": "figuur",
+     "html": "<svg viewBox=\"0 0 470 272\" width=\"470\" xmlns=\"http://www.w3.org/2000/svg\"><defs><marker id=\"punt8\" viewBox=\"0 0 10 10\" refX=\"8\" refY=\"5\" markerWidth=\"6\" markerHeight=\"6\" orient=\"auto\"><path d=\"M0 0 L10 5 L0 10 z\" fill=\"#234539\"/></marker><marker id=\"punt9\" viewBox=\"0 0 10 10\" refX=\"8\" refY=\"5\" markerWidth=\"6\" markerHeight=\"6\" orient=\"auto\"><path d=\"M0 0 L10 5 L0 10 z\" fill=\"#5b93b8\"/></marker></defs><rect x=\"160\" y=\"10\" width=\"150\" height=\"44\" rx=\"9\" fill=\"#dcd3e8\" stroke=\"#234539\" stroke-width=\"1.6\"/><text x=\"235.0\" y=\"29.0\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"10\" font-weight=\"600\" fill=\"#23291f\">magmatisch</text><text x=\"235.0\" y=\"42.0\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"10\" fill=\"#23291f\">gesteente</text><rect x=\"320\" y=\"110\" width=\"146\" height=\"44\" rx=\"9\" fill=\"#e0cfa0\" stroke=\"#234539\" stroke-width=\"1.6\"/><text x=\"393.0\" y=\"129.0\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"10\" font-weight=\"600\" fill=\"#23291f\">sediment en</text><text x=\"393.0\" y=\"142.0\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"10\" fill=\"#23291f\">sedimentair gesteente</text><rect x=\"160\" y=\"212\" width=\"150\" height=\"44\" rx=\"9\" fill=\"#cfd6c6\" stroke=\"#234539\" stroke-width=\"1.6\"/><text x=\"235.0\" y=\"231.0\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"10\" font-weight=\"600\" fill=\"#23291f\">metamorf</text><text x=\"235.0\" y=\"244.0\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"10\" fill=\"#23291f\">gesteente</text><rect x=\"4\" y=\"110\" width=\"146\" height=\"44\" rx=\"9\" fill=\"#f0c9b4\" stroke=\"#234539\" stroke-width=\"1.6\"/><text x=\"77.0\" y=\"136.0\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"10\" font-weight=\"600\" fill=\"#23291f\">magma</text><line x1=\"124\" y1=\"110\" x2=\"182\" y2=\"56\" stroke=\"#234539\" stroke-width=\"2\" marker-end=\"url(#punt8)\"/><line x1=\"316\" y1=\"46\" x2=\"384\" y2=\"106\" stroke=\"#234539\" stroke-width=\"2\" marker-end=\"url(#punt8)\"/><line x1=\"386\" y1=\"158\" x2=\"318\" y2=\"212\" stroke=\"#234539\" stroke-width=\"2\" marker-end=\"url(#punt8)\"/><line x1=\"154\" y1=\"220\" x2=\"92\" y2=\"158\" stroke=\"#234539\" stroke-width=\"2\" marker-end=\"url(#punt8)\"/><line x1=\"268\" y1=\"212\" x2=\"330\" y2=\"160\" stroke=\"#234539\" stroke-width=\"2\" marker-end=\"url(#punt8)\"/><rect x=\"88.1\" y=\"66.5\" width=\"51.8\" height=\"16.5\" rx=\"4\" fill=\"#ffffff\" opacity=\"0.88\"/><text x=\"114.0\" y=\"76.0\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"9.5\" font-weight=\"600\" fill=\"#234539\">afkoelen</text><rect x=\"323.4\" y=\"60.5\" width=\"109.3\" height=\"16.5\" rx=\"4\" fill=\"#ffffff\" opacity=\"0.88\"/><text x=\"378.0\" y=\"70.0\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"9.5\" font-weight=\"600\" fill=\"#234539\">verwering en erosie</text><rect x=\"335.0\" y=\"190.5\" width=\"77.9\" height=\"16.5\" rx=\"4\" fill=\"#ffffff\" opacity=\"0.88\"/><text x=\"374.0\" y=\"200.0\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"9.5\" font-weight=\"600\" fill=\"#234539\">druk en hitte</text><rect x=\"76.7\" y=\"186.5\" width=\"46.6\" height=\"16.5\" rx=\"4\" fill=\"#ffffff\" opacity=\"0.88\"/><text x=\"100.0\" y=\"196.0\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"9.5\" font-weight=\"600\" fill=\"#234539\">smelten</text><rect x=\"237.5\" y=\"168.5\" width=\"57.0\" height=\"16.5\" rx=\"4\" fill=\"#ffffff\" opacity=\"0.88\"/><text x=\"266.0\" y=\"178.0\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"9.5\" fill=\"#234539\">verwering</text></svg>",
+     "onderschrift": "De kring heeft geen vaste orde: de pijl binnenin brengt een\n                                              metamorf gesteente rechtstreeks terug bij het sediment."
+    }
+   ]
+  },
+  {
+   "kop": "Relatieve datering: de lagen lezen",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "<strong>Relatieve datering</strong> is het dateren waarbij je <strong>enkel zegt wat ouder of jonger is, zonder jaartal</strong>. Daarvoor bestaan een paar eenvoudige regels."
+    },
+    {
+     "soort": "tekst",
+     "html": "De <strong>wet van de superpositie</strong> zegt: <strong>de onderste laag is de oudste</strong>. Dat is logisch, want elke nieuwe laag wordt bovenop de vorige afgezet. Maar <strong>de wet geldt niet meer als de lagen door plooiing of een breuk zijn omgekeerd</strong>, en in een gebergte is dat geen uitzondering."
+    },
+    {
+     "soort": "tekst",
+     "html": "Snijdt een gang magma dwars door een reeks aardlagen, dan weet je dat <strong>de intrusie jonger is dan die lagen</strong>: je kan niet dwars door iets heen dringen dat er nog niet was. Gesmolten gesteente dat in bestaande lagen binnendringt en daar afkoelt, heet een <strong>intrusie</strong>."
+    },
+    {
+     "soort": "tekst",
+     "html": "Een <strong>discordantievlak</strong> is <strong>een oud erosievlak tussen twee lagenreeksen</strong>: er is een tijd lang niets afgezet en er is zelfs materiaal weggesleten. Het ontbrekende stuk in de opeenvolging heet een <strong>hiaat</strong>."
+    },
+    {
+     "soort": "tekst",
+     "html": "Een gesteente dat <strong>dagzoomt</strong>, ligt juist <strong>niet</strong> diep onder de grond: het komt aan de oppervlakte, waar je het kan zien en bemonsteren."
+    }
+   ]
+  },
+  {
+   "kop": "Fossielen",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Een <strong>fossiel</strong> is <strong>een versteend overblijfsel van leven</strong>. <strong>Fossielen bewaren niet het best in magmatisch gesteente</strong>, hoe hard dat ook is: lava verbrandt alles. Ze zitten in sedimentair gesteente, waar een dier of plant rustig bedekt raakte."
+    },
+    {
+     "soort": "tekst",
+     "html": "Een goed <strong>gidsfossiel</strong> heeft drie eigenschappen: <strong>de soort leefde maar kort op aarde</strong>, <strong>de soort kwam over een groot gebied voor</strong> en <strong>de soort is makkelijk te herkennen</strong>. Kort bestaan is de kern: hoe korter de soort leefde, hoe scherper hij een laag dateert."
+    }
+   ]
+  },
+  {
+   "kop": "Absolute datering en de geologische tijdschaal",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "De <strong>halveringstijd</strong> van een radioactief element dient <strong>om de ouderdom in jaren te berekenen</strong>. Je meet hoeveel er van het element over is en hoeveel vervalproduct erbij is gekomen, en daaruit volgt een jaartal."
+    },
+    {
+     "soort": "tekst",
+     "html": "De tijdperken op een rij, van oud naar jong: <strong>Paleozoïcum, Mesozoïcum, Cenozoïcum</strong>."
+    },
+    {
+     "soort": "figuur",
+     "html": "<svg viewBox=\"0 0 470 138\" width=\"470\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"26.0\" y=\"61\" width=\"223.3\" height=\"26\" fill=\"#6c8f5a\" stroke=\"#ffffff\" stroke-width=\"1.5\"/><text x=\"137.6\" y=\"78\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"9.5\" font-weight=\"600\" fill=\"#ffffff\">Paleozoïcum</text><rect x=\"249.3\" y=\"61\" width=\"143.7\" height=\"26\" fill=\"#b5894a\" stroke=\"#ffffff\" stroke-width=\"1.5\"/><text x=\"321.1\" y=\"78\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"9.5\" font-weight=\"600\" fill=\"#ffffff\">Mesozoïcum</text><rect x=\"393.0\" y=\"61\" width=\"51.0\" height=\"26\" fill=\"#5e2d91\" stroke=\"#ffffff\" stroke-width=\"1.5\"/><line x1=\"26.0\" y1=\"61\" x2=\"26.0\" y2=\"52\" stroke=\"#234539\" stroke-width=\"1.5\"/><circle cx=\"26.0\" cy=\"52\" r=\"3.4\" fill=\"#234539\"/><text x=\"26.0\" y=\"43\" text-anchor=\"start\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"10.5\" font-weight=\"600\" fill=\"#234539\">541 mln jaar</text><line x1=\"249.3\" y1=\"61\" x2=\"249.3\" y2=\"52\" stroke=\"#234539\" stroke-width=\"1.5\"/><circle cx=\"249.3\" cy=\"52\" r=\"3.4\" fill=\"#234539\"/><text x=\"249.3\" y=\"43\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"10.5\" font-weight=\"600\" fill=\"#234539\">grote sterfte</text><line x1=\"393.0\" y1=\"87\" x2=\"393.0\" y2=\"96\" stroke=\"#234539\" stroke-width=\"1.5\"/><circle cx=\"393.0\" cy=\"96\" r=\"3.4\" fill=\"#234539\"/><text x=\"393.0\" y=\"110\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"10.5\" font-weight=\"600\" fill=\"#234539\">einde dino's</text><rect x=\"26.0\" y=\"114\" width=\"11\" height=\"11\" rx=\"2.5\" fill=\"#5e2d91\"/><text x=\"42.0\" y=\"123\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"10\" fill=\"#6b7260\">Cenozoïcum</text></svg>",
+     "onderschrift": "De drie jongste tijdperken, in miljoenen jaren voor nu."
+    },
+    {
+     "soort": "tekst",
+     "html": "De grenzen in de geologische tijdschaal zijn vooral gebaseerd <strong>op grote omslagen in het leven op aarde</strong>, niet op ronde getallen. Bij een <strong>massa-extinctie verdwijnen in korte tijd heel veel soorten tegelijk</strong>, en zo'n omslag is in de lagen over de hele wereld terug te vinden."
+    },
+    {
+     "soort": "tekst",
+     "html": "De grens tussen het Mesozoïcum en het Cenozoïcum valt samen met <strong>het uitsterven van de dinosaurussen</strong>, 66 miljoen jaar geleden."
+    }
+   ]
+  },
+  {
+   "kop": "Gebergtevormingen",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "De vakfiche noemt drie gebergtevormingen: <strong>de Caledonische</strong>, <strong>de Hercynische</strong> en <strong>de Alpiene</strong>."
+    },
+    {
+     "soort": "tekst",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">plooiing</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">wanneer</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">wat ze vormde</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Caledonische</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">ongeveer 400 miljoen jaar geleden</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">de Schotse Hooglanden, Noorwegen</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Hercynische</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">ongeveer 300 miljoen jaar geleden</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">de Ardennen, de Harz</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Alpiene</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">de laatste 50 miljoen jaar</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">de Alpen, de Himalaya</td></tr></table>"
+    },
+    {
+     "soort": "tekst",
+     "html": "De <strong>Hercynische</strong> plooiing, ook Variscische genoemd, vormde dus de <strong>Ardennen</strong>; <strong>de Alpiene plooiing</strong> vormde de Alpen en de Himalaya, en die duurt nog voort."
+    },
+    {
+     "soort": "tekst",
+     "html": "Oude gebergten zijn lager dan jonge om drie redenen: <strong>de erosie heeft er veel langer op gewerkt</strong>, <strong>de opstuwing is er al lang gestopt</strong> en <strong>verwering heeft de toppen afgerond</strong>. Vergelijk de scherpe punten van de Alpen met de ronde hoogvlakte van de Ardennen: dat is 250 miljoen jaar verschil."
+    }
+   ]
+  }
+ ],
+ "onthoud": []
+}

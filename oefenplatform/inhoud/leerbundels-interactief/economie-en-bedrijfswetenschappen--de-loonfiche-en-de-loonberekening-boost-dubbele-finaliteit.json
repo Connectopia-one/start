@@ -1,0 +1,84 @@
+{
+ "vak": "Economie en bedrijfswetenschappen",
+ "titel": "De loonfiche en de loonberekening",
+ "onder": "Van bruto naar netto in twee stappen, het verschil tussen de RSZ-bijdrage en de bedrijfsvoorheffing, de patronale bijdrage en de loonkost, de fiche 281.10 en de premies.",
+ "secties": [
+  {
+   "kop": "Bruto, netto en de twee afhoudingen",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "<strong>Een loonfiche is het overzicht van je loon</strong>: elke maand krijg je er een, met alles wat van bruto naar netto gaat. <strong>Het brutoloon is het loon vóór de afhoudingen</strong>, het bedrag dat in je contract staat. <strong>Het nettoloon is wat je echt krijgt</strong>, het bedrag dat op je bankrekening komt. <strong>Op je rekening komt dus het netto, niet het bruto</strong>, en <strong>het netto is altijd lager</strong>, want er gaan altijd minstens twee dingen af."
+    },
+    {
+     "soort": "kader",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">afhouding</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">waarnaar ze gaat</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">wie houdt ze af</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>de werknemersbijdrage RSZ</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>de sociale zekerheid</strong>: pensioen, ziekteverzekering, werkloosheid en gezinsbijslag</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>de werkgever</strong>, die ze samen met zijn eigen bijdrage doorstort</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>de bedrijfsvoorheffing</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>een voorschot op je belasting</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">de werkgever, die ze doorstort aan de fiscus</td></tr></table>"
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>De bedrijfsvoorheffing is geen deel van de RSZ-bijdrage</strong>: de RSZ-bijdrage gaat naar de sociale zekerheid, de voorheffing is een voorschot op je belasting. Dat zijn twee verschillende bestemmingen. <strong>De dienst die de sociale bijdragen int, is de RSZ</strong>, de Rijksdienst voor Sociale Zekerheid. Naast die twee afhoudingen staat er soms nog een bijzondere bijdrage op je fiche."
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Op een loonfiche staan het brutoloon, de RSZ-bijdrage, de bedrijfsvoorheffing, het nettoloon, de gewerkte dagen en eventuele premies.</strong> <strong>Je krijgt er elke maand een om alles te kunnen nazien</strong>, en <strong>je hoort ze na te kijken</strong>: een vergeten overuur of een verkeerd aantal dagen vind je enkel zo."
+    }
+   ]
+  },
+  {
+   "kop": "De loonberekening stap voor stap",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "<strong>Het nettoloon volgt niet rechtstreeks uit het bruto</strong>: er zit een tussenstap in, het belastbaar loon. <strong>Je neemt het brutoloon, trekt de RSZ-bijdrage af en trekt daarna de bedrijfsvoorheffing af</strong>; wat dan overblijft, is het nettoloon."
+    },
+    {
+     "soort": "figuur",
+     "html": "<svg viewBox=\"0 0 470 76\" width=\"470\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"0.0\" y=\"6\" width=\"73.2\" height=\"62\" rx=\"10\" fill=\"#ffffff\" stroke=\"#2f5d50\" stroke-width=\"1.8\"/><text x=\"36.6\" y=\"29.0\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"11.5\" font-weight=\"600\" fill=\"#234539\">brutoloon</text><text x=\"36.6\" y=\"45.0\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"10\" font-weight=\"400\" fill=\"#6b7260\">uren × uurloon</text><path d=\"M78.2 37.0 h12 m0 0 l-6 -5 m6 5 l-6 5\" stroke=\"#2f5d50\" stroke-width=\"2\" fill=\"none\" stroke-linecap=\"round\"/><rect x=\"99.2\" y=\"6\" width=\"73.2\" height=\"62\" rx=\"10\" fill=\"#ffffff\" stroke=\"#2f5d50\" stroke-width=\"1.8\"/><text x=\"135.8\" y=\"29.0\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"11.5\" font-weight=\"600\" fill=\"#234539\">min de RSZ</text><text x=\"135.8\" y=\"45.0\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"10\" font-weight=\"400\" fill=\"#6b7260\">13,07 %</text><path d=\"M177.4 37.0 h12 m0 0 l-6 -5 m6 5 l-6 5\" stroke=\"#2f5d50\" stroke-width=\"2\" fill=\"none\" stroke-linecap=\"round\"/><rect x=\"198.4\" y=\"6\" width=\"73.2\" height=\"62\" rx=\"10\" fill=\"#ffffff\" stroke=\"#2f5d50\" stroke-width=\"1.8\"/><text x=\"235.0\" y=\"37.0\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"11.5\" font-weight=\"600\" fill=\"#234539\">belastbaar loon</text><path d=\"M276.6 37.0 h12 m0 0 l-6 -5 m6 5 l-6 5\" stroke=\"#2f5d50\" stroke-width=\"2\" fill=\"none\" stroke-linecap=\"round\"/><rect x=\"297.6\" y=\"6\" width=\"73.2\" height=\"62\" rx=\"10\" fill=\"#ffffff\" stroke=\"#2f5d50\" stroke-width=\"1.8\"/><text x=\"334.2\" y=\"29.0\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"11.5\" font-weight=\"600\" fill=\"#234539\">min de</text><text x=\"334.2\" y=\"45.0\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"10\" font-weight=\"400\" fill=\"#6b7260\">bedrijfsvoorheffing</text><path d=\"M375.8 37.0 h12 m0 0 l-6 -5 m6 5 l-6 5\" stroke=\"#2f5d50\" stroke-width=\"2\" fill=\"none\" stroke-linecap=\"round\"/><rect x=\"396.8\" y=\"6\" width=\"73.2\" height=\"62\" rx=\"10\" fill=\"#ffffff\" stroke=\"#2f5d50\" stroke-width=\"1.8\"/><text x=\"433.4\" y=\"37.0\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"11.5\" font-weight=\"600\" fill=\"#234539\">nettoloon</text></svg>",
+     "onderschrift": "De vier stappen van een eenvoudige loonberekening. De bedrijfsvoorheffing wordt berekend op het belastbaar loon, niet op het bruto."
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>De eerste stap is het brutoloon bepalen</strong>: uren maal uurloon, of het maandloon uit het contract. <strong>Daarna trek je eerst de RSZ-bijdrage af</strong>, en op wat overblijft wordt de bedrijfsvoorheffing berekend. <strong>Het belastbaar loon is dus bruto min RSZ</strong>, en <strong>daarop wordt de voorheffing berekend</strong>."
+    },
+    {
+     "soort": "tekst",
+     "html": "Neem een brutoloon van 2 400 euro per maand. <strong>De werknemersbijdrage RSZ is 13,07 procent, dus 313,68 euro.</strong> <strong>Het belastbaar loon is dan 2 086,32 euro.</strong> Stel dat de officiële tabel voor deze gezinssituatie 320 euro bedrijfsvoorheffing geeft, dan is <strong>het nettoloon 1 766,32 euro</strong>."
+    },
+    {
+     "soort": "kader",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">stap</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">bedrag</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">brutoloon</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">2 400,00 euro</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">min de RSZ-bijdrage van 13,07 procent</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">− 313,68 euro</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>belastbaar loon</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>2 086,32 euro</strong></td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">min de bedrijfsvoorheffing (uit de tabel)</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">− 320,00 euro</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>nettoloon</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>1 766,32 euro</strong></td></tr></table>"
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Twee werknemers met hetzelfde brutoloon kunnen een ander nettoloon hebben</strong>, en dat komt van die laatste stap: <strong>de bedrijfsvoorheffing hangt af van de hoogte van het loon, van je gezinssituatie en van het aantal kinderen ten laste</strong>. Daarom bestaan er officiële tabellen voor elke situatie."
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Een patronale bijdrage is de RSZ van de werkgever</strong>: bovenop het brutoloon betaalt hij zelf nog een bijdrage aan de RSZ. <strong>Die komt erbovenop en gaat niet van jouw brutoloon af.</strong> <strong>Daarom kost een werknemer meer dan zijn brutoloon</strong>, en spreekt men van de loonkost. Bij een patronale bijdrage van grofweg een kwart is de loonkost van dit brutoloon ongeveer 3 000 euro, terwijl de werknemer er 1 766,32 euro van op zijn rekening ziet."
+    }
+   ]
+  },
+  {
+   "kop": "De fiche 281.10 en de premies",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "<strong>De fiscale fiche met het nummer 281.10 is het jaaroverzicht van je loon</strong>: alles wat je dat jaar verdiende en wat er werd ingehouden, op één blad. <strong>De werkgever of zijn sociaal secretariaat bezorgt ze je</strong> in het begin van het volgende jaar."
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Erop staan het totale brutoloon van het jaar, de ingehouden bedrijfsvoorheffing en de identiteit van de werknemer.</strong> De omzet van de zaak staat er niet op: de fiche gaat over één werknemer. <strong>Je gebruikt ze voor je belastingaangifte</strong>, waar je de bedragen invult bij je personenbelasting."
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>De bedrijfsvoorheffing is een voorschot, geen eindafrekening</strong>: de eindafrekening komt met het aanslagbiljet na je aangifte. <strong>Was de voorheffing te hoog, dan krijg je geld terug.</strong> <strong>Wie voorheffing betaalde, moet dus nog altijd een aangifte doen</strong>; daar wordt de voorheffing mee verrekend."
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Vakantiegeld is een extra bij de vakantie</strong>, een bedrag bovenop het gewone loon, meestal in mei of juni. <strong>Een eindejaarspremie is een dertiende maand</strong>, een extra loon in december, in veel sectoren verplicht."
+    }
+   ]
+  }
+ ],
+ "onthoud": []
+}

@@ -1,0 +1,68 @@
+{
+ "vak": "Gezondheid, zorg en welzijn",
+ "titel": "Methodisch, veilig en duurzaam schoonmaken",
+ "onder": "De werkvolgorde opruimen, schoonmaken en nazorg, de vier richtingen waarin je werkt, hoe je veilig met schoonmaakproducten omgaat, en wat duurzaam en economisch poetsen betekent.",
+ "secties": [
+  {
+   "kop": "De werkvolgorde",
+   "blokken": [
+    {
+     "soort": "figuur",
+     "html": "<svg viewBox=\"0 0 470 76\" width=\"470\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"0.0\" y=\"6\" width=\"139.3\" height=\"62\" rx=\"10\" fill=\"#ffffff\" stroke=\"#2f5d50\" stroke-width=\"1.8\"/><text x=\"69.7\" y=\"37.0\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"11.5\" font-weight=\"600\" fill=\"#234539\">opruimen</text><path d=\"M144.33333333333334 37.0 h12 m0 0 l-6 -5 m6 5 l-6 5\" stroke=\"#2f5d50\" stroke-width=\"2\" fill=\"none\" stroke-linecap=\"round\"/><rect x=\"165.3\" y=\"6\" width=\"139.3\" height=\"62\" rx=\"10\" fill=\"#ffffff\" stroke=\"#2f5d50\" stroke-width=\"1.8\"/><text x=\"235.0\" y=\"37.0\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"11.5\" font-weight=\"600\" fill=\"#234539\">schoonmaken</text><path d=\"M309.6666666666667 37.0 h12 m0 0 l-6 -5 m6 5 l-6 5\" stroke=\"#2f5d50\" stroke-width=\"2\" fill=\"none\" stroke-linecap=\"round\"/><rect x=\"330.7\" y=\"6\" width=\"139.3\" height=\"62\" rx=\"10\" fill=\"#ffffff\" stroke=\"#2f5d50\" stroke-width=\"1.8\"/><text x=\"400.3\" y=\"37.0\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"11.5\" font-weight=\"600\" fill=\"#234539\">nazorg</text></svg>",
+     "onderschrift": "De werkvolgorde bij het onderhoud van het interieur."
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Je ruimt eerst op, want anders poets je rond de rommel heen.</strong> Een leeg oppervlak maak je in één beweging schoon; rond spullen heen poetsen kost dubbel zoveel tijd. <strong>Nazorg is het materiaal opbergen</strong>: je maakt het proper, droogt het af en bergt het op, klaar voor de volgende keer. <strong>Nazorg is de derde en laatste stap.</strong>"
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Bij een grote opruimactie bepaal je eerst de functie van de ruimte</strong>: waarvoor dient ze? Daarna weet je wat er thuishoort. <strong>Dan kies je: houden, weggeven of weggooien</strong>; verstoppen lost niets op. <strong>Daarna berg je op</strong>: wat je houdt, krijgt een vaste plaats, anders ligt het er volgende week weer."
+    },
+    {
+     "soort": "kader",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">richting</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">waarom</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>van boven naar beneden</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>het vuil valt omlaag</strong>: wat je van de kast veegt, komt op de grond, en die doe je dus als laatste</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>van minder vuil naar vuil</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">zo versleep je het vuilste vuil niet over de properste plekken</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>van droog naar nat</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">eerst het droge vuil weg, dan pas water, anders maak je van stof een vlek</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>van binnen naar buiten</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">zo eindig je bij de deur en loop je niet meer over wat net schoon is</td></tr></table>"
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Bij de basistaken van schoonmaken horen stof afnemen, de vloer reinigen en het sanitair reinigen.</strong> De was sorteren hoort bij de linnenzorg."
+    }
+   ]
+  },
+  {
+   "kop": "Veilig met producten",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "<strong>Bij het kiezen van een schoonmaakproduct let je op de gebruiksaanwijzing, de gevarenpictogrammen en de veiligheidspictogrammen</strong>, en die drie staan op het etiket. De kleur van de fles zegt niets. <strong>Je leest het etiket omdat je dan weet hoe je het gebruikt</strong>: het geeft het gebruik, de dosering, de gevarenaanduidingen, de gevarensymbolen en de veiligheidsaanduidingen."
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Twee schoonmaakproducten meng je nooit samen</strong>: dat kan een gevaarlijke reactie geven, ook als beide apart veilig zijn. <strong>Bleekwater met een zuur product, zoals een ontkalker, geeft chloorgas</strong>, en dat is meteen gevaarlijk om in te ademen."
+    },
+    {
+     "soort": "kader",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">situatie</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">wat je doet</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>een huis met kinderen</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>de producten hoog en op slot</strong> bewaren, buiten het bereik van kinderen, in de originele verpakking</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>overgieten in een drankfles</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>nooit doen</strong>: zonder etiket weet niemand wat erin zit, en zo gebeuren de meeste vergiftigingen thuis</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>een bijtend product</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>handschoenen dragen</strong>, en bij spatgevaar ook een veiligheidsbril</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>product op je huid</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>overvloedig spoelen met lauw water</strong>; bij twijfel bel je het antigifcentrum</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>een sterk product gebruiken</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>het raam openzetten en verluchten</strong>, want veel producten geven dampen af</td></tr></table>"
+    }
+   ]
+  },
+  {
+   "kop": "Duurzaam en economisch",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "<strong>Duurzaam handel je door een product goed te doseren, een navulling te kopen en met microvezeldoeken te werken.</strong> Elke keer nieuw materiaal kopen is net het tegenovergestelde."
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Meer product gebruiken maakt niet properder</strong>: te veel product laat strepen na, spoelt in het water en kost onnodig geld. <strong>Een navulverpakking spaart afval uit</strong>, want je hergebruikt de fles en koopt enkel de inhoud bij. <strong>Microvezeldoeken werken met minder product</strong>, want de vezels nemen het vuil mechanisch mee."
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Een economisch product kies je door per gebruik te rekenen</strong>: een geconcentreerd product lijkt duurder maar gaat veel langer mee. <strong>De dosering is de hoeveelheid product die je moet gebruiken</strong>, en die staat op het etiket."
+    }
+   ]
+  }
+ ],
+ "onthoud": []
+}

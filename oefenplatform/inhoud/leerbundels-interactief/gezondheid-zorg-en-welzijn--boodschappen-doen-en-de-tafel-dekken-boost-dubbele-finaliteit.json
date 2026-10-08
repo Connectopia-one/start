@@ -1,0 +1,72 @@
+{
+ "vak": "Gezondheid, zorg en welzijn",
+ "titel": "Boodschappen doen en de tafel dekken",
+ "onder": "De principes tegen voedselverspilling, milieubewust en economisch winkelen met een boodschappenlijst, en hoe je een tafel dekt voor een ontbijt en voor een warme maaltijd.",
+ "secties": [
+  {
+   "kop": "Minder verspillen",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "<strong>Voedselverspilling is eten weggooien dat nog goed was</strong>, en <strong>ze kost ook geld</strong>: alles wat je weggooit, heb je eerst betaald."
+    },
+    {
+     "soort": "kader",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">principe</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">waarom het werkt</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>maaltijden plannen</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>wie weet wat hij gaat koken, koopt precies wat nodig is</strong> en gooit minder weg</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>je koelkast organiseren</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">je ziet wat er staat, dus niets blijft achterin liggen</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>juiste porties serveren</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>er blijft niets over</strong>; wat op het bord blijft liggen, gaat meestal de vuilnisbak in, en bijnemen kan altijd nog</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>je zintuigen gebruiken</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>kijken en ruiken</strong>: veel voedsel is na de THT-datum nog prima</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>een creatieve kok zijn</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>werken met restjes</strong>: van restjes groente maak je soep, van oud brood wentelteefjes</td></tr></table>"
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>In het groot kopen helpt niet tegen verspilling</strong>, het leidt er juist toe als je het niet op tijd opkrijgt. <strong>Grote porties serveren helpt evenmin.</strong> <strong>Zonder plannen lukt het niet</strong>: maaltijden en aankopen zorgvuldig plannen staat als eerste principe in het rijtje. <strong>Groenten die al wat langer liggen, maak je tot soep</strong>, een ovenschotel of een wok."
+    }
+   ]
+  },
+  {
+   "kop": "Winkelen",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "<strong>Je maakt een boodschappenlijst om gerichter te kopen</strong>: met een lijst koop je wat je nodig hebt en minder wat je niet nodig hebt. <strong>Je houdt daarbij rekening met wat je al in huis hebt, met het menu van de week en met het aantal personen.</strong>"
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Een koelbox houdt koude waren koel</strong> op de weg van de winkel naar huis, zodat de koudeketen niet onderbroken wordt. <strong>Een eigen draagtas meenemen is een milieubewuste keuze</strong>, net als <strong>seizoensgroenten kopen</strong>: groenten van het seizoen en van dichtbij hebben minder transport en verwarming nodig, en zo weinig mogelijk verpakking scheelt meteen afval."
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Economisch handelen is prijzen vergelijken, promoties gebruiken en niet te veel kopen.</strong> <strong>Een promotie is niet altijd voordelig</strong>: drie halen, twee betalen is geen besparing als het derde pak bederft."
+    }
+   ]
+  },
+  {
+   "kop": "De tafel dekken",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "<strong>Je dekt de tafel mooi omdat het uitnodigt</strong>: een verzorgde tafel maakt van eten een rustig en aangenaam moment, en daarom hoort het dekken bij de maaltijdzorg."
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Bij een gezin dek je het ontbijt of de broodlunch, de warme maaltijd en het klassieke diner.</strong>"
+    },
+    {
+     "soort": "figuur",
+     "html": "<svg viewBox=\"0 0 470 218\" width=\"470\" xmlns=\"http://www.w3.org/2000/svg\"><circle cx=\"210\" cy=\"118\" r=\"52\" fill=\"#ffffff\" stroke=\"#23291f\" stroke-width=\"1.8\"/><circle cx=\"210\" cy=\"118\" r=\"42\" fill=\"none\" stroke=\"#e4ded0\" stroke-width=\"1.4\"/><line x1=\"136\" y1=\"92\" x2=\"136\" y2=\"148\" stroke=\"#2f5d50\" stroke-width=\"5\" stroke-linecap=\"round\"/><line x1=\"131\" y1=\"92\" x2=\"131\" y2=\"108\" stroke=\"#2f5d50\" stroke-width=\"1.6\"/><line x1=\"136\" y1=\"92\" x2=\"136\" y2=\"108\" stroke=\"#2f5d50\" stroke-width=\"1.6\"/><line x1=\"141\" y1=\"92\" x2=\"141\" y2=\"108\" stroke=\"#2f5d50\" stroke-width=\"1.6\"/><text x=\"136.0\" y=\"168.0\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"10\" font-weight=\"600\" fill=\"#23291f\">vork</text><text x=\"136.0\" y=\"182.0\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"9\" fill=\"#6b7260\">links</text><line x1=\"284\" y1=\"92\" x2=\"284\" y2=\"148\" stroke=\"#c17f2b\" stroke-width=\"5\" stroke-linecap=\"round\"/><path d=\"M281 92 l0 24\" stroke=\"#23291f\" stroke-width=\"1.6\" fill=\"none\"/><text x=\"284.0\" y=\"168.0\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"10\" font-weight=\"600\" fill=\"#23291f\">mes</text><text x=\"284.0\" y=\"182.0\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"9\" fill=\"#6b7260\">rechts, snijkant naar het bord</text><path d=\"M272 44 h26 l-4 24 h-18 z\" fill=\"#ffffff\" stroke=\"#23291f\" stroke-width=\"1.6\"/><line x1=\"285\" y1=\"68\" x2=\"285\" y2=\"76\" stroke=\"#23291f\" stroke-width=\"1.6\"/><text x=\"298.0\" y=\"36.0\" text-anchor=\"end\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"9.5\" font-weight=\"600\" fill=\"#23291f\">glas, rechtsboven</text><line x1=\"184\" y1=\"48\" x2=\"236\" y2=\"48\" stroke=\"#6b7260\" stroke-width=\"4\" stroke-linecap=\"round\"/><text x=\"174.0\" y=\"38.0\" text-anchor=\"end\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"9.5\" fill=\"#6b7260\">dessertbestek, boven het bord</text><rect x=\"82\" y=\"96\" width=\"34\" height=\"46\" fill=\"#2f5d50\" fill-opacity=\"0.14\" stroke=\"#2f5d50\" stroke-width=\"1.4\" rx=\"3\"/><text x=\"99.0\" y=\"158.0\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"9.5\" font-weight=\"600\" fill=\"#23291f\">servet</text><text x=\"16.0\" y=\"212.0\" text-anchor=\"start\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"9.5\" fill=\"#6b7260\">mes rechts, vork links, glas rechtsboven, dessertbestek boven</text></svg>",
+     "onderschrift": "Een couvert voor een warme maaltijd. Het mes ligt rechts met de snijkant naar het bord, de vork links, het glas rechtsboven en het dessertbestek boven het bord."
+    },
+    {
+     "soort": "kader",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">onderdeel</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">waar</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>het mes</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>rechts van het bord</strong>, want je snijdt meestal met de rechterhand, en <strong>met de snijkant naar het bord</strong>, zodat ze niet naar je buur wijst</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>de vork</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>links van het bord</strong>, tegenover het mes</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>het glas</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>rechtsboven het bord</strong>, aan de kant van het mes, dus niet links</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>het dessertbestek</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>boven het bord</strong>, klaar voor na de maaltijd</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>het servet</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>op het bord of links ernaast</strong>, onder de vork</td></tr></table>"
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Voor een warme maaltijd dek je een bord, een mes, een vork en een glas.</strong> <strong>Voor een ontbijt of een broodlunch volstaan een bord, een mes en een tas of glas</strong>; een soeplepel hoort daar niet bij. <strong>Je dekt wat de maaltijd vraagt</strong>, en niet meer: <strong>alles wat je dekt, moet je ook afwassen</strong>."
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Voor de gasten aanschuiven controleer je of alles proper is</strong>: propere borden, proper bestek en een propere tafel, dat merkt iedereen meteen. <strong>Een propere tafel, een nette schikking en een bloem of een kaars maken een tafel aantrekkelijk</strong>; een vuile vaatdoek op tafel bederft meteen de hele indruk."
+    }
+   ]
+  }
+ ],
+ "onthoud": []
+}

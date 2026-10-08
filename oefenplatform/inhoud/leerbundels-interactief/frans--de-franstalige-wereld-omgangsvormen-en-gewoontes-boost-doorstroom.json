@@ -1,0 +1,141 @@
+{
+ "vak": "Frans",
+ "titel": "De Franstalige wereld: omgangsvormen en gewoontes",
+ "onder": "Waar Frans gesproken wordt, hoe het van streek tot streek verschilt, en wat je zegt en doet om niet onbeleefd over te komen.",
+ "secties": [
+  {
+   "kop": "Waar wordt er Frans gesproken?",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Frans is een officiële landstaal in <strong>België</strong>, <strong>Zwitserland</strong> en <strong>Luxemburg</strong>, en in <strong>Canada</strong> zelfs op het niveau van het hele land. De provincie waar het grootste deel van de bevolking Frans spreekt, is <strong>Québec</strong>."
+    },
+    {
+     "soort": "tekst",
+     "html": "De <strong>meeste</strong> landen met Frans als officiële taal liggen echter in <strong>Afrika</strong>: <em>le Sénégal</em>, <em>la Côte d'Ivoire</em> en <em>la République démocratique du Congo</em> zijn er drie van. De gemeenschap van al die landen en gebieden samen heet <strong>la Francophonie</strong>."
+    },
+    {
+     "soort": "figuur",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Hoofdstad</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Land</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Frans officieel?</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Paris</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">la France</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">ja</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Bruxelles</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">la Belgique</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">ja</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Dakar</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">le Sénégal</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">ja</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Lisbonne</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">le Portugal</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">neen, daar is het Portugees</td></tr></table>",
+     "onderschrift": "Drie hoofdsteden van Franstalige landen, en één die er niet bij hoort."
+    }
+   ]
+  },
+  {
+   "kop": "Hetzelfde Frans, andere woorden",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Frans is niet overal hetzelfde, en het examen kan een tekst uit België, Frankrijk of Québec voorleggen. Het bekendste verschil zijn de <strong>getalwoorden</strong>: een Belg zegt <em>septante</em> en <em>nonante</em>, een Fransman <em>soixante-dix</em> en <em>quatre-vingt-dix</em>. <em>Octante</em> hoor je bij ons nooit; tachtig is <em>quatre-vingts</em>, overal."
+    },
+    {
+     "soort": "figuur",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">België of Québec</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Frankrijk</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Nederlands</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">septante, nonante</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">soixante-dix, quatre-vingt-dix</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">zeventig, negentig</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">le dîner (België)</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">le déjeuner</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">het middagmaal</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">un GSM (België)</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">un portable</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een mobiele telefoon</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">un courriel (Québec)</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">un mail</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een e-mail</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">une fin de semaine (Québec)</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">un week-end</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een weekend</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">un cégep (Québec)</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">—</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een school tussen secundair en universiteit</td></tr></table>",
+     "onderschrift": "Woorden die van streek tot streek verschillen."
+    },
+    {
+     "soort": "weetje",
+     "html": "<em>Quinze jours</em> betekent in het Frans <strong>twee weken</strong>, geen vijftien dagen. Men rekent de eerste en de laatste dag mee. Zo is <em>huit jours</em> een week."
+    }
+   ]
+  },
+  {
+   "kop": "Het schooljaar, de feestdag en de datum",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "<strong>La rentrée</strong> is het <strong>begin van het schooljaar na de zomer</strong>, en het is in Frankrijk een begrip: de winkels, de kranten en de politiek praten erover. Het is dus niet de terugkeer van een reis en ook niet de ingang van een gebouw."
+    },
+    {
+     "soort": "figuur",
+     "html": "<svg viewBox=\"0 0 470 224\" width=\"470\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"58\" y=\"26\" width=\"396\" height=\"30\" fill=\"#2f5d50\" fill-opacity=\"0.22\" stroke=\"#2f5d50\" stroke-width=\"1.4\" rx=\"5\"/><text x=\"70.0\" y=\"46.0\" text-anchor=\"start\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"10.5\" font-weight=\"600\" fill=\"#23291f\">l'université</text><text x=\"178.0\" y=\"46.0\" text-anchor=\"start\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"9\" fill=\"#6b7260\">pas na het secundair</text><rect x=\"58\" y=\"62\" width=\"396\" height=\"30\" fill=\"#2f5d50\" fill-opacity=\"0.19\" stroke=\"#2f5d50\" stroke-width=\"1.4\" rx=\"5\"/><text x=\"70.0\" y=\"82.0\" text-anchor=\"start\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"10.5\" font-weight=\"600\" fill=\"#23291f\">le bac</text><text x=\"124.0\" y=\"82.0\" text-anchor=\"start\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"9\" fill=\"#6b7260\">het eindexamen van het secundair</text><rect x=\"58\" y=\"98\" width=\"396\" height=\"30\" fill=\"#2f5d50\" fill-opacity=\"0.16\" stroke=\"#2f5d50\" stroke-width=\"1.4\" rx=\"5\"/><text x=\"70.0\" y=\"118.0\" text-anchor=\"start\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"10.5\" font-weight=\"600\" fill=\"#23291f\">le lycée</text><text x=\"142.0\" y=\"118.0\" text-anchor=\"start\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"9\" fill=\"#6b7260\">de laatste jaren secundair</text><rect x=\"58\" y=\"134\" width=\"396\" height=\"30\" fill=\"#2f5d50\" fill-opacity=\"0.13\" stroke=\"#2f5d50\" stroke-width=\"1.4\" rx=\"5\"/><text x=\"70.0\" y=\"154.0\" text-anchor=\"start\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"10.5\" font-weight=\"600\" fill=\"#23291f\">le collège</text><text x=\"160.0\" y=\"154.0\" text-anchor=\"start\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"9\" fill=\"#6b7260\">de eerste jaren secundair</text><rect x=\"58\" y=\"170\" width=\"396\" height=\"30\" fill=\"#2f5d50\" fill-opacity=\"0.10\" stroke=\"#2f5d50\" stroke-width=\"1.4\" rx=\"5\"/><text x=\"70.0\" y=\"190.0\" text-anchor=\"start\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"10.5\" font-weight=\"600\" fill=\"#23291f\">l'école primaire</text><text x=\"214.0\" y=\"190.0\" text-anchor=\"start\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"9\" fill=\"#6b7260\">het lager onderwijs</text><line x1=\"32\" y1=\"30\" x2=\"32\" y2=\"200\" stroke=\"#6b7260\" stroke-width=\"1.6\"/><path d=\"M32 24 l-5 9 h10 z\" fill=\"#6b7260\"/><text x=\"44.0\" y=\"18.0\" text-anchor=\"start\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"9.5\" font-weight=\"600\" fill=\"#6b7260\">het laatst</text><text x=\"44.0\" y=\"214.0\" text-anchor=\"start\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"9.5\" font-weight=\"600\" fill=\"#6b7260\">het eerst</text></svg>",
+     "onderschrift": "De Franse schoolloopbaan, van onder naar boven in de orde waarin je ze doorloopt."
+    },
+    {
+     "soort": "tekst",
+     "html": "De <strong>nationale feestdag</strong> van Frankrijk is <strong>14 juli</strong>; 21 juli is de onze. En een <strong>datum</strong> schrijf je in het Frans met een lidwoord en zonder hoofdletter: <strong>le 3 septembre</strong>. Namen van maanden en dagen krijgen in het Frans <strong>geen hoofdletter</strong>, anders dan in het Engels: <em>lundi</em>, <em>mars</em>, <em>septembre</em>."
+    }
+   ]
+  },
+  {
+   "kop": "Bonjour, tu of vous, en la bise",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Stap je in Frankrijk een bakkerij binnen, dan zeg je <strong>eerst <em>bonjour</em></strong> en pas daarna wat je komt halen. Met de deur in huis vallen klinkt er onbeschoft, ook als je vraag netjes is."
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Tutoyer</strong> is iemand met <em>tu</em> aanspreken, <strong>vouvoyer</strong> met <em>vous</em>. Je gebruikt <em>vous</em> bij een volwassene met wie je <strong>geen nauwe band</strong> hebt: een winkelier, een leerkracht die je niet kent, een onbekende op straat. <em>Tu</em> tegen een onbekende volwassene komt in Frankrijk meestal <strong>te familiair of zelfs onbeleefd</strong> over."
+    },
+    {
+     "soort": "figuur",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Situatie</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Wat je zegt</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">je ontmoet iemand voor het eerst</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Enchanté.</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">je verontschuldigt je</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Je suis désolé. / Excusez-moi. / Pardon.</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">iemand bedankt je</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">De rien.</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">je neemt afscheid</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Au revoir. / À bientôt. / Bonne journée.</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">je nodigt een vriend uit</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Ça te dit d'aller au cinéma ?</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">je gaat eten</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Bon appétit.</td></tr></table>",
+     "onderschrift": "Zes vaste momenten, met wat er dan gezegd wordt."
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>La bise</strong> is de begroeting met <strong>kussen op de wang</strong> — geen handdruk en geen buiging. Hoeveel kussen het zijn, verschilt zelfs van streek tot streek. En <em>bon appétit</em> zeg je <strong>vóór</strong> de maaltijd, niet achteraf als dank."
+    },
+    {
+     "soort": "weetje",
+     "html": "Een <strong>fooi</strong> is in een Franse winkel of restaurant niet verplicht: <em>le service est compris</em> staat meestal op de rekening. Wie tevreden is, laat wat kleingeld liggen, maar niemand verwacht het."
+    }
+   ]
+  },
+  {
+   "kop": "Een klassieke maaltijd",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "De gangen van een klassieke Franse maaltijd komen in deze orde: <strong>l'entrée</strong>, <strong>le plat</strong>, <strong>le fromage</strong> en pas daarna <strong>le dessert</strong>. Die kaas vóór het nagerecht is het stuk dat bij ons vaak omgewisseld wordt."
+    },
+    {
+     "soort": "figuur",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Frans</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Nederlands</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">l'entrée</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">het voorgerecht</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">le plat (principal)</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">het hoofdgerecht</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">le fromage</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">de kaas</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">le dessert</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">het nagerecht</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">l'addition</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">de rekening</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">le service est compris</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">de dienst is inbegrepen</td></tr></table>",
+     "onderschrift": "De woorden die je aan tafel en bij het afrekenen nodig hebt."
+    }
+   ]
+  },
+  {
+   "kop": "Beleefd schrijven: de aanhef, de slotformule en de conditionnel",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Schrijf je naar een dienst of een gemeente en ken je de <strong>naam van de ontvanger niet</strong>, dan begin je met <strong><em>Madame, Monsieur,</em></strong>. <em>Salut</em>, <em>Cher ami</em> of <em>Bonjour toi</em> kan daar niet."
+    },
+    {
+     "soort": "figuur",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Slotformule</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Hoe formeel</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Veuillez agréer mes salutations distinguées</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">heel formeel, voor een brief aan een dienst</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Bien à vous</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">formeel en toch vriendelijk</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Cordialement</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">de gewone formule in een mail</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Bisous</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">enkel voor familie en goede vrienden</td></tr></table>",
+     "onderschrift": "Vier slotformules, van de meest formele tot de meest familiare."
+    },
+    {
+     "soort": "tekst",
+     "html": "De <strong>conditionnel de politesse</strong> is de truc om een vraag beleefd te maken: je vraagt iets met <strong><em>je voudrais</em></strong> in plaats van <em>je veux</em>, en met <strong><em>pourriez-vous</em></strong> in plaats van <em>pouvez-vous</em>. <em>Pourriez-vous m'aider, s'il vous plaît ?</em> klinkt meteen een toon vriendelijker."
+    },
+    {
+     "soort": "tekst",
+     "html": "Schrijf je een <strong>blogbericht voor leeftijdsgenoten</strong>, dan mag je hen met <em>tu</em> of <em>vous</em> aanspreken, maar wel <strong>verzorgd en zonder sms-taal</strong>. De plechtige formules van een officiële brief horen daar niet, en losse opsommingen zonder volledige zinnen ook niet."
+    },
+    {
+     "soort": "weetje",
+     "html": "<strong>Lichaamstaal</strong> hoort bij de socioculturele aspecten die de fiche noemt: hoe dicht je bij iemand staat, of je de hand geeft of de bise, of je iemand in de ogen kijkt. Het hoort er dus bij, ook al kan je het niet achter een scherm oefenen."
+    }
+   ]
+  },
+  {
+   "kop": "Oefen dit ook buiten het scherm",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Hier oefen je lezen, schrijven, woordenschat en grammatica. Maar het examen <strong>Frans 1</strong> is voor de helft <strong>luisteren</strong>, en <strong>Frans 2</strong> bestaat naast de twee schrijfopdrachten uit een <strong>spreekopdracht</strong> die je thuis opneemt en een <strong>gesprek van tien minuten</strong>. Die drie leer je niet achter een scherm, maar door Frans te horen en zelf Frans te praten, ook als het hakkelt."
+    },
+    {
+     "soort": "kader",
+     "html": "<strong>Deze week:</strong> zoek een Frans gesprekje op (in een film of een reeks), let op wanneer de mensen elkaar met tu of vous aanspreken, en zeg daarna zelf hardop dezelfde vraag eerst met tu en dan met vous. Doe het één keer en let daarna op wat je miste of niet gezegd kreeg. Dat is precies je volgende oefening."
+    }
+   ]
+  }
+ ],
+ "onthoud": []
+}

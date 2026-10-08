@@ -1,0 +1,87 @@
+{
+ "vak": "Toegepaste economie",
+ "titel": "De btw en de btw-aangifte",
+ "onder": "Waarom btw een belasting op de toegevoegde waarde heet, het verschil tussen verschuldigde en aftrekbare btw, en de aangifte met de roosters 81, 82 en 83.",
+ "secties": [
+  {
+   "kop": "Hoe de btw werkt",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "<strong>Btw is een belasting op de toegevoegde waarde</strong>, en <strong>de eindklant draagt ze</strong>. Een btw-plichtige onderneming schuift ze door; de particulier aan het eind betaalt ze. <strong>Een particulier kan de btw die hij betaalt dan ook niet terugvragen</strong>: alleen btw-plichtigen trekken af."
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Btw rekent iedereen aan die beroepshalve verkoopt</strong>: een winkel, een groothandel, een zelfstandige loodgieter. <strong>Het standaardtarief is 21 procent</strong>, en <strong>voor de meeste voeding geldt het verlaagde tarief van 6 procent</strong>."
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Btw is geen belasting op de winst</strong> — dat is de vennootschapsbelasting. <strong>Btw hangt aan de omzet</strong>, dus ook een zaak met verlies rekent btw af."
+    },
+    {
+     "soort": "kader",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">begrip</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">wat het is</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>verschuldigde btw</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>de btw op je verkopen</strong>, die je aanrekende aan je klanten en moet doorstorten</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>aftrekbare btw</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>de btw op je aankopen</strong>, die je mag terugvragen omdat je ze aan je leverancier betaalde</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>een btw-nummer</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>het kenmerk van een btw-plichtige</strong>; in België begint het met BE, gevolgd door tien cijfers</td></tr></table>"
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Een onderneming int de btw voor de staat</strong>: ze is een doorgeefluik, het geld is nooit van haar. <strong>Door de aftrek betaalt elke schakel enkel op wat ze zelf toevoegt</strong>, en daar komt de naam vandaan."
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Een bakker die 6 euro btw betaalt op bloem en 18 euro btw aanrekent op brood, stort 12 euro door</strong>: 18 verschuldigd min 6 aftrekbaar. Hij betaalt dus enkel op wat hij toevoegde."
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Om btw te mogen aftrekken heb je een geldige factuur nodig</strong>, met <strong>het btw-nummer van de verkoper, de datum, het bedrag zonder btw en het btw-bedrag</strong>. Zonder die vermeldingen is er geen aftrek. Een factuur hoeft niet getekend te worden om geldig te zijn."
+    }
+   ]
+  },
+  {
+   "kop": "De aangifte en haar roosters",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "<strong>Een btw-aangifte is een afrekening met de staat</strong>: je zet je verschuldigde en je aftrekbare btw tegenover elkaar. <strong>Een gewone btw-plichtige dient ze elke maand of elk kwartaal in</strong>, naargelang de omzet van de onderneming. <strong>Een aangifte die te laat ingediend wordt, kost een boete</strong>: de termijnen liggen vast."
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>De roosters zijn de genummerde vakken van de aangifte.</strong> Elk vak heeft een nummer en een vaste betekenis, en je vult er een bedrag in. <strong>Je krijgt de aangifte op het examen</strong>, dus <strong>je moet de roosternummers niet uit het hoofd kennen</strong>; je moet wel weten welk bedrag waar hoort."
+    },
+    {
+     "soort": "kader",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">rooster</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">wat erin komt</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>81</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>de aankopen van handelsgoederen</strong></td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>82</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>de aankopen van diensten en diverse goederen</strong></td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>83</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>de aankopen van bedrijfsmiddelen</strong>, dus de investeringen</td></tr></table>"
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Op een aangifte vul je de omzet per tarief, de aankopen per soort en de aftrekbare btw in.</strong> Het personeel hoort bij een heel andere aangifte. <strong>De bedragen komen uit de facturen van die periode</strong>, en daarom houdt een onderneming ze goed bij."
+    }
+   ]
+  },
+  {
+   "kop": "Het btw-saldo",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "<strong>Het btw-saldo is de verschuldigde btw min de aftrekbare.</strong> Is het resultaat positief, dan betaal je; is het negatief, dan krijg je terug."
+    },
+    {
+     "soort": "kader",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">situatie</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">wat er gebeurt</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>verschuldigd groter dan aftrekbaar</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>je moet btw betalen</strong>: je inde meer dan je betaalde</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>aftrekbaar groter dan verschuldigd</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>je krijgt btw terug</strong>, bijvoorbeeld in een kwartaal met een grote investering</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>allebei gelijk</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>het saldo is nul</strong>: niets te betalen en niets terug te vorderen</td></tr></table>"
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Een zaak met 4 200 euro verschuldigde btw en 2 800 euro aftrekbare btw moet 1 400 euro betalen.</strong> <strong>Is een zaak 3 000 euro verschuldigd en mag ze 3 000 euro aftrekken, dan is het saldo nul.</strong>"
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Het btw-saldo is niet hetzelfde als de winst.</strong> Het gaat enkel over btw; met winst heeft het niets te maken."
+    },
+    {
+     "soort": "weetje",
+     "html": "21 procent btw op 50 euro is 10,5 euro. Een btw-bedrag mag dus gerust centen hebben; rond het niet af omdat het er vreemd uitziet."
+    }
+   ]
+  }
+ ],
+ "onthoud": []
+}

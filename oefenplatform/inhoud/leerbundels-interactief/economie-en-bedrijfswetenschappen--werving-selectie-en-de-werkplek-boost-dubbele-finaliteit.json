@@ -1,0 +1,84 @@
+{
+ "vak": "Economie en bedrijfswetenschappen",
+ "titel": "Werving, selectie en de werkplek",
+ "onder": "De vacature, het cv en de sollicitatiebrief, het verschil tussen een functiebeschrijving en een functieprofiel, de stappen van een selectieprocedure, en een werkplek die veilig, ergonomisch en hygiënisch is.",
+ "secties": [
+  {
+   "kop": "De vacature en het profiel",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "<strong>Een vacature is een open functie</strong>: een plaats die vrij is en waarvoor de onderneming iemand zoekt. Het bericht waarin ze dat aankondigt, heet ook een vacature, of een vacaturebericht."
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Een functiebeschrijving zegt wat de job inhoudt</strong>: de taken, de verantwoordelijkheden en de plaats in de organisatie. <strong>Een functieprofiel zegt wie je ervoor zoekt.</strong> <strong>De beschrijving gaat dus over de job, het profiel over de persoon.</strong>"
+    },
+    {
+     "soort": "kader",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">wat er in een vacature hoort</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">waarom</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>de functiebeschrijving</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">zodat een kandidaat weet wat hij zal doen</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>het gevraagde opleidingsniveau</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">het diploma dat de job vraagt</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>de gevraagde ervaring</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>ervaring is wat je al deed, het opleidingsniveau is het diploma</strong>: dat zijn twee verschillende dingen</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>de kennis en de vaardigheden</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>een vaardigheid is iets dat je kan</strong>: een rekenblad gebruiken</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>de attitudes</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>een attitude is een houding</strong>: punctueel zijn, vriendelijk blijven, kunnen samenwerken</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>het aanbod en de verloning</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>dat hoort er net wel in</strong>, anders solliciteert niemand</td></tr></table>"
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Een onderneming stelt een duidelijk profiel op om beter te kunnen kiezen</strong>: met een duidelijk profiel kan je elke kandidaat op dezelfde punten afwegen."
+    }
+   ]
+  },
+  {
+   "kop": "Solliciteren en selecteren",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "<strong>Een cv is een overzicht van iemand</strong>: een curriculum vitae, je levensloop, met de opleiding, de werkervaring en de vaardigheden, op één of twee bladzijden. <strong>Een cv hoort kort en overzichtelijk te zijn</strong>, want wie tientallen cv's doorneemt, heeft er per cv maar een minuut voor. <strong>Je rekeningnummer geef je pas als je aangeworven bent.</strong>"
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Een sollicitatiebrief is je motivatie op papier</strong>: waarom jij de job wil en waarom je erbij past. <strong>Het gesprek waarin je jezelf voorstelt, is een sollicitatiegesprek of een selectiegesprek.</strong>"
+    },
+    {
+     "soort": "figuur",
+     "html": "<svg viewBox=\"0 0 470 76\" width=\"470\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"0.0\" y=\"6\" width=\"98.0\" height=\"62\" rx=\"10\" fill=\"#ffffff\" stroke=\"#2f5d50\" stroke-width=\"1.8\"/><text x=\"49.0\" y=\"29.0\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"11.5\" font-weight=\"600\" fill=\"#234539\">de vacature</text><text x=\"49.0\" y=\"45.0\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"10\" font-weight=\"400\" fill=\"#6b7260\">opstellen</text><path d=\"M103.0 37.0 h12 m0 0 l-6 -5 m6 5 l-6 5\" stroke=\"#2f5d50\" stroke-width=\"2\" fill=\"none\" stroke-linecap=\"round\"/><rect x=\"124.0\" y=\"6\" width=\"98.0\" height=\"62\" rx=\"10\" fill=\"#ffffff\" stroke=\"#2f5d50\" stroke-width=\"1.8\"/><text x=\"173.0\" y=\"37.0\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"11.5\" font-weight=\"600\" fill=\"#234539\">bekendmaken</text><path d=\"M227.0 37.0 h12 m0 0 l-6 -5 m6 5 l-6 5\" stroke=\"#2f5d50\" stroke-width=\"2\" fill=\"none\" stroke-linecap=\"round\"/><rect x=\"248.0\" y=\"6\" width=\"98.0\" height=\"62\" rx=\"10\" fill=\"#ffffff\" stroke=\"#2f5d50\" stroke-width=\"1.8\"/><text x=\"297.0\" y=\"29.0\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"11.5\" font-weight=\"600\" fill=\"#234539\">de cv's</text><text x=\"297.0\" y=\"45.0\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"10\" font-weight=\"400\" fill=\"#6b7260\">screenen</text><path d=\"M351.0 37.0 h12 m0 0 l-6 -5 m6 5 l-6 5\" stroke=\"#2f5d50\" stroke-width=\"2\" fill=\"none\" stroke-linecap=\"round\"/><rect x=\"372.0\" y=\"6\" width=\"98.0\" height=\"62\" rx=\"10\" fill=\"#ffffff\" stroke=\"#2f5d50\" stroke-width=\"1.8\"/><text x=\"421.0\" y=\"29.0\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"11.5\" font-weight=\"600\" fill=\"#234539\">gesprekken</text><text x=\"421.0\" y=\"45.0\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"10\" font-weight=\"400\" fill=\"#6b7260\">voeren</text></svg>",
+     "onderschrift": "De stappen van een eenvoudige selectieprocedure. De loonfiche komt pas maanden later, als iemand al in dienst is."
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>De eerste stap is de vacature opstellen</strong>: eerst weten wie je zoekt, dan pas bekendmaken. <strong>Na het bekijken van de cv's volgen de gesprekken</strong>: de geselecteerde kandidaten worden uitgenodigd. <strong>Een cv beoordeel je op de vacature</strong>: je legt het profiel van de vacature naast wat de kandidaat aanbiedt."
+    }
+   ]
+  },
+  {
+   "kop": "De werkplek: veilig, ergonomisch, hygiënisch",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "<strong>De vakfiche beoordeelt een werkplek op veiligheid, op ergonomie en op hygiëne</strong>. Die drie samen bepalen of iemand er gezond kan werken."
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Ergonomie is het aanpassen van de werkplek aan de mens</strong>: de werkplek past zich aan het lichaam aan, niet omgekeerd. <strong>Een ergonomische werkplek heeft een regelbare stoel, het scherm op ooghoogte en genoeg ruimte voor je benen.</strong>"
+    },
+    {
+     "soort": "kader",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">waarover</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">hoe het hoort</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>het scherm</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>op ooghoogte</strong>: de bovenkant ongeveer ter hoogte van je ogen, op armlengte afstand</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>de bureaustoel</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>voeten plat op de grond</strong>, knieën ongeveer in een rechte hoek, rug tegen de steun</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>de houding</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>afwisselen tussen zitten en staan</strong>, want lang in dezelfde houding zitten is wat de klachten geeft</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>het licht en de verlichting</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>genoeg licht geeft minder fouten en minder moeite</strong>; slecht licht geeft vermoeide ogen en hoofdpijn</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>tillen</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>door je knieën zakken</strong>, rug recht, last dicht bij je lichaam, en met je voeten meedraaien in plaats van met je rug</td></tr></table>"
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Een zware doos til je dus niet met een gebogen rug.</strong> En <strong>je wisselt taken af op een werkdag om niet stijf te worden</strong>: afwisseling spaart je rug, je nek en je ogen."
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Een hygiënische werkplek is schoon</strong>, zeker waar met voeding of met mensen gewerkt wordt: <strong>een propere werktafel, handen wassen waar nodig en afval meteen opruimen</strong>. De stoel hoort bij de ergonomie, niet bij de hygiëne."
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Een risicoanalyse is de gevaren opsporen</strong>: je gaat na wat er kan mislopen en neemt vooraf maatregelen. <strong>Een veiligheidsschoen in een loods beschermt je tenen</strong>, want een stalen neus houdt een vallende doos of een rolwagen tegen."
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Beschermingsmiddelen zijn niet vrijblijvend</strong>: de werkgever moet ze geven en de werknemer moet ze gebruiken. <strong>Een arbeidsongeval of werkongeval is een ongeval dat tijdens het werk gebeurt, en je meldt het meteen</strong>: de werkgever moet het aangeven bij de arbeidsongevallenverzekering. <strong>Die verzekering is verplicht en moet in orde zijn vóór de eerste werknemer begint.</strong>"
+    }
+   ]
+  }
+ ],
+ "onthoud": []
+}

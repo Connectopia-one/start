@@ -1,0 +1,192 @@
+{
+ "vak": "Engels",
+ "titel": "Naamwoorden, lidwoorden en hoeveelheden",
+ "onder": "Het meervoud, telbaar en ontelbaar, de bezitsvorm, de lidwoorden, en hoeveelheden, getallen en datums.",
+ "secties": [
+  {
+   "kop": "Het meervoud",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "De gewone regel is een <em>-s</em>, maar een handvol woorden doet het anders. Die moet je kennen."
+    },
+    {
+     "soort": "tekst",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">enkelvoud</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">meervoud</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">child</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">children</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">woman</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">women</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">foot</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">feet</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">tooth</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">teeth</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">mouse</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">mice</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">person</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">people</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">analysis</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">analyses</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">sheep</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">sheep</td></tr></table>"
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Het woord <em>sheep</em> krijgt in het meervoud geen s</strong>: <em>two sheep</em>. Hetzelfde geldt voor <em>fish</em> en <em>deer</em>. En <strong>het meervoud van <em>potato</em> is niet <em>potatos</em> maar <em>potatoes</em></strong>: woorden op een medeklinker plus <em>-o</em> krijgen <em>-es</em>, net als <em>tomatoes</em> en <em>heroes</em>."
+    },
+    {
+     "soort": "tekst",
+     "html": "Woorden op <em>-f</em> of <em>-fe</em> maken daar vaak <em>-ves</em> van: <em>one knife, two <strong>knives</strong></em>, ook <em>life — lives</em> en <em>wolf — wolves</em>."
+    },
+    {
+     "soort": "tekst",
+     "html": "Sommige woorden staan altijd in het meervoud: <strong>scissors</strong>, <strong>trousers</strong> en <strong>glasses</strong>. Wil je ze tellen, dan zeg je <em>I bought two <strong>pairs</strong> of trousers</em>."
+    }
+   ]
+  },
+  {
+   "kop": "Telbaar en ontelbaar",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "<strong><em>Information</em> is in het Engels ontelbaar: je zegt nooit <em>informations</em>.</strong> Hetzelfde geldt voor <em>advice</em>, <em>news</em>, <em>furniture</em>, <em>luggage</em> en <em>research</em>. Wil je er één van, dan zet je er een maatwoord voor: <em>He gave me a good <strong>piece of advice</strong></em>."
+    },
+    {
+     "soort": "tekst",
+     "html": "Een ontelbaar woord krijgt een werkwoord in het enkelvoud, ook als het op een s eindigt."
+    },
+    {
+     "soort": "tekst",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">zin</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">waarom</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">The news <strong>is</strong> good.</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">news is ontelbaar, ondanks de s</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">My hair <strong>is</strong> too long.</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">hair is in het Engels ontelbaar</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">The police <strong>have</strong> already arrived.</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">police is altijd meervoud, ook zonder s</td></tr></table>"
+    }
+   ]
+  },
+  {
+   "kop": "De bezitsvorm",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "<em>The car of my brother</em> wordt <em>my <strong>brother's</strong> car</em>. Bij mensen en dieren gebruik je die vorm met apostrof."
+    },
+    {
+     "soort": "tekst",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">vorm</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">wanneer</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">the boy's bike</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">één jongen</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">the boys' bikes</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">meer jongens: de apostrof na de s</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">the children's room</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een onregelmatig meervoud zonder s: 's</td></tr></table>"
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Bij een meervoud dat al op een s eindigt, zet je de apostrof na die s: <em>the teachers' room</em>.</strong>"
+    },
+    {
+     "soort": "tekst",
+     "html": "Voor een ding gebruik je liever <em>of</em>: het dak van het huis is <strong>the roof of the house</strong>, niet <em>the house's roof</em>."
+    },
+    {
+     "soort": "tekst",
+     "html": "Een maat voor een zelfstandig naamwoord blijft enkelvoud en krijgt een streepje: <em>a ten-minute walk</em> is <strong>een wandeling van tien minuten</strong>. Let op: geen s aan <em>minute</em>."
+    }
+   ]
+  },
+  {
+   "kop": "A, an, the of niets",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "<em>A</em> of <em>an</em> hangt af van de <strong>klank</strong>, niet van de letter."
+    },
+    {
+     "soort": "tekst",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">zin</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">waarom</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">She is <strong>an</strong> engineer.</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een klinkerklank</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">She has <strong>an</strong> interesting job.</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een klinkerklank</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">I have been waiting for <strong>half</strong> an hour.</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">de h van hour is stom, dus an</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>A</strong> university.</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">klinkt als joe-niversity, dus a</td></tr></table>"
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Voor <em>a university</em> staat <em>a</em> en niet <em>an</em>, hoewel het met een u begint.</strong> Je hoort een j-klank, en dat is een medeklinker."
+    },
+    {
+     "soort": "tekst",
+     "html": "<em>The</em> staat bij muziekinstrumenten: <em>He plays <strong>the</strong> piano</em>. Maar in veel vaste uitdrukkingen staat juist niets."
+    },
+    {
+     "soort": "tekst",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">zonder lidwoord</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">waarom</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">I like music.</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een algemeen begrip</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">She is at school.</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">als leerling, niet als bezoeker</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">We had lunch at one.</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">maaltijden staan zonder lidwoord</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">I go to school by bus.</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">vervoermiddelen na by</td></tr></table>"
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Je zegt niet <em>the France</em> om over het land te spreken.</strong> Landen staan zonder lidwoord, op een paar meervouden en samenstellingen na: <em>the Netherlands</em>, <em>the United Kingdom</em>, <em>the United States</em>."
+    }
+   ]
+  },
+  {
+   "kop": "Hoeveelheden",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">telbaar</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">ontelbaar</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">many — too many cars</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">much — how much money</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">few — few friends</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">little — very little time</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">several</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">a great deal of</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">a few</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">a little</td></tr></table>"
+    },
+    {
+     "soort": "tekst",
+     "html": "Bij een telbaar naamwoord horen <strong>many</strong>, <strong>few</strong> en <strong>several</strong>. <em>How <strong>much</strong> money do you need?</em>, maar <em>There are too <strong>many</strong> cars in the city.</em> En <em>I have very <strong>little</strong> time left</em>, want tijd telt niet."
+    },
+    {
+     "soort": "kader",
+     "html": "<strong>Er is wel degelijk een verschil tussen <em>few friends</em> en <em>a few friends</em>.</strong> <em>Few friends</em> is somber: bijna geen. <em>A few friends</em> is neutraal: enkele. Hetzelfde geldt voor <em>little</em> en <em>a little</em>. Eén lidwoord keert de toon van de zin om."
+    },
+    {
+     "soort": "tekst",
+     "html": "<em>Some</em> staat in bevestigende zinnen, <em>any</em> in vragen en ontkenningen: <em>Is there <strong>any</strong> milk left?</em>"
+    },
+    {
+     "soort": "tekst",
+     "html": "Uitdrukkingen die zeggen dat er veel van iets is: <strong>a lot of</strong>, <strong>plenty of</strong> en <strong>a great deal of</strong>."
+    }
+   ]
+  },
+  {
+   "kop": "Getallen en datums",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "<strong>Hundred, thousand en million blijven enkelvoud na een getal: <em>two hundred people</em>.</strong> Pas zonder getal krijgen ze een s: <em>hundreds of people</em>."
+    },
+    {
+     "soort": "tekst",
+     "html": "Je leest <em>1,500</em> als <strong>one thousand five hundred</strong>. Let op de komma: in het Engels scheidt die de duizendtallen, waar wij een punt zetten."
+    },
+    {
+     "soort": "tekst",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">getal</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">rangtelwoord</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">three</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">third — the third person in the queue</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">twelve</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">twelfth</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">twenty</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">twentieth</td></tr></table>"
+    },
+    {
+     "soort": "tekst",
+     "html": "De datum 3 mei zeg je in Brits Engels als <strong>the third of May</strong>. Een Amerikaan zegt <em>May third</em>, en schrijft de datum ook in de andere volgorde."
+    }
+   ]
+  },
+  {
+   "kop": "Getallen, rangtelwoorden en landen",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Getal</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Rangtelwoord</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Let op</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">one</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>first</strong> (1st)</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">onregelmatig</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">two</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>second</strong> (2nd)</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">onregelmatig</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">three</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>third</strong> (3rd)</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">onregelmatig</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">five</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>fifth</strong> (5th)</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">de <em>e</em> valt weg</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">eight</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>eighth</strong> (8th)</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">één t, niet twee</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">nine</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>ninth</strong> (9th)</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">de <em>e</em> valt weg</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">twelve</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>twelfth</strong> (12th)</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">ve wordt f</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">twenty</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>twentieth</strong> (20th)</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">y wordt ie</td></tr></table>"
+    },
+    {
+     "soort": "tekst",
+     "html": "De andere rangtelwoorden maak je gewoon met <strong>-th</strong>: <em>fourth</em>, <em>sixth</em>, <em>tenth</em>, <em>hundredth</em>."
+    },
+    {
+     "soort": "tekst",
+     "html": "Een <strong>jaartal</strong> lees je in twee helften: <strong>1975 = nineteen seventy-five</strong>, 1912 = nineteen twelve, 2027 = twenty twenty-seven. Een <strong>breuk</strong> lees je met een rangtelwoord: <strong>3/4 = three quarters</strong>, 1/3 = a third, 2/5 = two fifths."
+    },
+    {
+     "soort": "kader",
+     "html": "<strong>Je zegt niet the Belgium.</strong> De meeste landen krijgen geen lidwoord: <em>Belgium</em>, <em>France</em>, <em>Scotland</em>. Alleen een meervoud of een samenstelling krijgt er een: <em>the Netherlands</em>, <em>the United Kingdom</em>, <em>the United States</em>."
+    },
+    {
+     "soort": "tekst",
+     "html": "Het lidwoord <strong>an</strong> staat voor een <strong>klank</strong> als een klinker, niet voor een letter. Dus <strong>an umbrella</strong>, <strong>an hour</strong> en <strong>an honest woman</strong> (de h zwijgt), maar <em>a university</em> en <em>a European city</em> (je hoort er een j)."
+    },
+    {
+     "soort": "tekst",
+     "html": "Eindigt een woord op een consonant plus <strong>-y</strong>, dan wordt het meervoud <strong>-ies</strong>: baby → <strong>babies</strong>, city → cities, story → stories. Staat er een klinker voor de y, dan niet: boy → boys."
+    }
+   ]
+  },
+  {
+   "kop": "Oefen dit ook buiten het scherm",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Op dit platform oefen je <strong>lezen</strong>, woordenschat en grammatica. Maar <strong>luisteren</strong> is de helft van het examen Engels 1, en Engels 2 bestaat uit <strong>schrijven</strong>, een <strong>spreekopdracht die je thuis opneemt</strong> en een <strong>gesprek</strong>. Die drie kan een platform met tekstvragen niet nabootsen, en ze wegen samen zwaarder dan alles wat je hier leest."
+    },
+    {
+     "soort": "kader",
+     "html": "<strong>Deze week:</strong> vertel in het Engels wat er in je koelkast staat, met <em>some</em>, <em>a lot of</em> en <em>a few</em> erin, en let op wat telbaar is en wat niet. Doe het één keer, en let daarna op wat je miste of niet gezegd kreeg. Dat is precies je volgende oefening."
+    }
+   ]
+  }
+ ],
+ "onthoud": []
+}

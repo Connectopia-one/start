@@ -1,0 +1,71 @@
+{
+ "vak": "Economie en bedrijfswetenschappen",
+ "titel": "Aanwerving en de arbeidsovereenkomst",
+ "onder": "De DIMONA-aangifte, wat een arbeidsovereenkomst is en waarom het gezag erin de kern is, de soorten overeenkomsten naar duur, omvang en soort werk, de verplichte vermeldingen en de rechten en plichten van beide partijen.",
+ "secties": [
+  {
+   "kop": "Wat er in orde moet zijn",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "<strong>Bij de aanwerving van personeel moeten drie dingen in orde zijn: de DIMONA-aangifte, de arbeidsongevallenverzekering en een arbeidsovereenkomst.</strong>"
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Een DIMONA-aangifte is melden wie begint</strong>: de werkgever meldt elektronisch aan de RSZ, de Rijksdienst voor Sociale Zekerheid, wie in dienst komt en wie uit dienst gaat. <strong>Ze moet gebeuren vóór het werk begint</strong>, uiterlijk op het moment dat de werknemer begint, niet erna."
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Zonder DIMONA-aangifte mag niemand beginnen werken.</strong> Dat is zwartwerk, met zware boetes voor de werkgever. De RSZ stuurt daarna een afrekening van de bijdragen; je factureert haar niets."
+    }
+   ]
+  },
+  {
+   "kop": "Soorten arbeidsovereenkomsten",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "<strong>Een arbeidsovereenkomst is een contract met de baas</strong>: je werkt tegen loon en onder het gezag van de werkgever. <strong>De vakfiche onderscheidt ze op de duur, op de omvang van de prestaties en op het soort werk.</strong> De leeftijd bepaalt de soort overeenkomst niet."
+    },
+    {
+     "soort": "kader",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">indeling</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">soorten</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>naar duur</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>van onbepaalde duur</strong> (zonder einddatum, een vast contract), <strong>van bepaalde duur</strong> (met een vaste einddatum, een tijdelijk contract), <strong>voor een duidelijk omschreven werk</strong> en de vervangingsovereenkomst</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>naar omvang</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>voltijds</strong> (de volle werkweek, het aantal uren dat in die sector gebruikelijk is) en <strong>deeltijds</strong> (minder uren, bijvoorbeeld vier vijfde of de helft)</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>naar soort werk</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>arbeider</strong> (vooral handenarbeid) en <strong>bediende</strong> (vooral hoofdarbeid), en de studentenovereenkomst met eigen regels</td></tr></table>"
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Een overeenkomst van bepaalde duur stopt op haar einddatum, zonder dat iemand moet opzeggen.</strong> <strong>Bij een overeenkomst voor een duidelijk omschreven werk stopt ze als het werk af is</strong>: niet een datum maar de opdracht bepaalt het einde."
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Een overeenkomst voor bepaalde duur moet schriftelijk zijn</strong>; staat ze niet op papier, dan geldt ze als een overeenkomst van onbepaalde duur. <strong>Een overeenkomst van onbepaalde duur moet niet altijd schriftelijk zijn</strong>, die kan ook mondeling, maar schriftelijk is veel veiliger voor beide partijen. <strong>Een overeenkomst voor studentenarbeid moet altijd schriftelijk zijn</strong>, en ze moet er zijn vóór de student begint te werken."
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Verplicht in een schriftelijke overeenkomst: de identiteit van beide partijen, de begindatum, de functie, de arbeidsduur en het loon.</strong> <strong>Over het loon staat er hoeveel en wanneer</strong>: het bedrag, de eenheid per uur of per maand, en het ogenblik van uitbetaling. <strong>Ontbreken die vermeldingen, dan is de werknemer beschermd</strong>: ontbreekt de einddatum, dan geldt de overeenkomst vaak als van onbepaalde duur."
+    }
+   ]
+  },
+  {
+   "kop": "Gezag, rechten en plichten",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "<strong>Het gezag van de werkgever betekent dat hij de opdrachten geeft</strong>: hij bepaalt wat, waar en wanneer er gewerkt wordt. <strong>Net dat gezag onderscheidt een werknemer van een zelfstandige</strong>; dat kenmerk heet ook de ondergeschiktheid. <strong>Een werknemer bepaalt dus niet zelf welke taken hij doet</strong>; dat zou van hem een zelfstandige maken."
+    },
+    {
+     "soort": "kader",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">de werknemer</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">de werkgever</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>het werk uitvoeren</strong>, zorgvuldig, op tijd en volgens de afspraken</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>het loon betalen</strong>, en werk geven</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>de instructies volgen</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>zorgen voor een veilige werkplek</strong> en de nodige beschermingsmiddelen geven</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>de discretieplicht of zwijgplicht</strong>: niets doorvertellen van wat hij over klanten of over de zaak hoort</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">de werknemer behandelen volgens de wet en het arbeidsreglement</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>recht op loon voor zijn werk</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>het loon berekenen</strong>, zelf of via een sociaal secretariaat</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>recht op jaarlijkse vakantie</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">de vakantie toestaan en uitbetalen</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>recht op een veilige en gezonde werkplek</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">het arbeidsongeval aangeven bij de verzekering</td></tr></table>"
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Een bedrijfswagen is geen recht</strong> maar een extra die in het contract moet staan. <strong>En een werknemer mag niet zonder reden wegblijven</strong>: afwezig zijn moet gerechtvaardigd zijn door ziekte, verlof of een wettelijke reden."
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Uit een arbeidsovereenkomst kan je dus de duur en het loon afleiden</strong>, en ook het soort werk, de arbeidsduur en wanneer het loon uitbetaald wordt. Dat maakt haar het eerste document dat je bovenhaalt als er over een afspraak onduidelijkheid is."
+    }
+   ]
+  }
+ ],
+ "onthoud": []
+}

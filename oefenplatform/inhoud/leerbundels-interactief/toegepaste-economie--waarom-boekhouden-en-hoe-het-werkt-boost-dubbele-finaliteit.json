@@ -1,0 +1,109 @@
+{
+ "vak": "Toegepaste economie",
+ "titel": "Waarom boekhouden en hoe het werkt",
+ "onder": "Wat een boekhouding is en voor wie ze dient, de jaarrekening, en het dubbel boekhouden met debet, credit, journaal en grootboek.",
+ "secties": [
+  {
+   "kop": "Wat boekhouden is",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "<strong>Boekhouden is alle verrichtingen registreren.</strong> Elke aankoop, verkoop en betaling wordt genoteerd, zodat je op elk moment weet wat de zaak bezit en wat ze schuldig is. <strong>Een verrichting is een feit met een gevolg in geld</strong>: een aankoop, een verkoop, een betaling, alles met een bedrag eraan."
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Een onderneming is wettelijk verplicht een boekhouding te voeren.</strong> De wet legt op welke boeken je bijhoudt en hoe lang je ze bewaart. <strong>Ook een kleine zelfstandige houdt documenten bij</strong>: ook een vereenvoudigde boekhouding vraagt een aankoop- en een verkoopdagboek."
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Een boekhouding dient niet enkel om de belastingen te berekenen.</strong> Ze dient vooral om te weten hoe de zaak ervoor staat en om te kunnen bijsturen."
+    },
+    {
+     "soort": "kader",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">wie</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">waarom die de cijfers wil zien</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>de zaakvoerder</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>om bij te sturen waar het misloopt</strong>, een investering te plannen of een prijs te herbekijken</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>de bank</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>om een lening te beoordelen</strong>: de cijfers tonen of de onderneming kan terugbetalen</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>een investeerder</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>om te beoordelen of de zaak gezond is</strong> voor hij er geld tegenover zet</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>de fiscus</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>om te controleren</strong>; daarom moeten de documenten een aantal jaren bewaard blijven</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>de andere afdelingen</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>de boekhouding levert de cijfers</strong> waar aankoop, verkoop en directie op steunen</td></tr></table>"
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Een boekhouding kijkt terug, maar wordt vooral gebruikt om vooruit te beslissen.</strong> Dat is de reden waarom ze meer is dan een verplichting."
+    }
+   ]
+  },
+  {
+   "kop": "De jaarrekening",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "<strong>De jaarrekening is het jaarlijks financieel verslag</strong> van de onderneming. Ze bestaat uit <strong>drie delen</strong>: <strong>de balans</strong>, <strong>de resultatenrekening</strong> en <strong>de toelichting</strong>. De twee grote delen naast de toelichting zijn dus <strong>de balans en de resultatenrekening</strong>."
+    },
+    {
+     "soort": "kader",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">deel</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">wat het toont</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>de balans</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>het bezit en de schulden</strong>: links wat de onderneming bezit, rechts met welk geld dat betaald is</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>de resultatenrekening</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>de kosten en de opbrengsten</strong>; het verschil is de winst of het verlies</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>de toelichting</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>uitleg bij de cijfers</strong>, bij de posten van de balans en de resultatenrekening</td></tr></table>"
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Is het verschil tussen opbrengsten en kosten positief, dan is er winst</strong>; <strong>zijn de kosten groter dan de opbrengsten, dan is er verlies</strong>. Dat verlies gaat over naar het volgende boekjaar."
+    },
+    {
+     "soort": "weetje",
+     "html": "Een uurrooster hoort niet in de jaarrekening maar bij de personeelsadministratie. Op het examen is dat een klassieke afleider."
+    }
+   ]
+  },
+  {
+   "kop": "Dubbel boekhouden",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "<strong>Dubbel boekhouden betekent dat elke verrichting twee rekeningen raakt</strong>: <strong>debet bij de ene, credit bij de andere, voor hetzelfde bedrag</strong>. <strong>Debet is de linkerkant, credit de rechterkant.</strong>"
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Waarom links en rechts? Omdat er altijd een herkomst en een bestemming is.</strong> Geld komt ergens vandaan en gaat ergens heen, en het dubbel boekhouden toont beide kanten. <strong>Daarom moet in een dubbele boekhouding debet altijd gelijk zijn aan credit</strong>, en blijft het geheel in evenwicht."
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Een rekening is een overzicht per soort</strong>: elke soort bezit, schuld, kost of opbrengst krijgt er een. <strong>Heeft een rekening een debetsaldo, dan is debet groter dan credit</strong> en staat het saldo links; bij een creditsaldo is het omgekeerd."
+    },
+    {
+     "soort": "kader",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">boek</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">wat erin staat</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">waarvoor het dient</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>het journaal</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>de boekingen op datum</strong>; ook dagboek genoemd</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>het volgt de tijd</strong></td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>het grootboek</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>dezelfde boekingen, gegroepeerd per rekening</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>het saldo per rekening volgen</strong></td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>de inventaris</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>de opmeting van bezit en schulden</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>de cijfers staven op het einde van het jaar</strong></td></tr></table>"
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Het journaal en het grootboek bevatten dezelfde verrichtingen</strong>, alleen anders geordend: op datum of per rekening. <strong>Bij een boeking in het journaal horen de datum, het rekeningnummer en het bedrag in debet of credit.</strong> De naam van de klant staat op het document, niet noodzakelijk in de boeking."
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Koopt een zaak op krediet, dan stijgt de schuld</strong>: je krijgt de goederen nu en betaalt later, dus de schuld aan de leverancier neemt toe."
+    }
+   ]
+  },
+  {
+   "kop": "Het redeneerschema",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "<strong>Het redeneerschema is de vaste manier om tot een boeking te komen</strong>, en het bestaat uit drie vragen na elkaar."
+    },
+    {
+     "soort": "figuur",
+     "html": "<svg viewBox=\"0 0 470 76\" width=\"470\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"0.0\" y=\"6\" width=\"139.3\" height=\"62\" rx=\"10\" fill=\"#ffffff\" stroke=\"#2f5d50\" stroke-width=\"1.8\"/><text x=\"69.7\" y=\"37.0\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"11.5\" font-weight=\"600\" fill=\"#234539\">welke rekeningen spelen mee?</text><path d=\"M144.33333333333334 37.0 h12 m0 0 l-6 -5 m6 5 l-6 5\" stroke=\"#2f5d50\" stroke-width=\"2\" fill=\"none\" stroke-linecap=\"round\"/><rect x=\"165.3\" y=\"6\" width=\"139.3\" height=\"62\" rx=\"10\" fill=\"#ffffff\" stroke=\"#2f5d50\" stroke-width=\"1.8\"/><text x=\"235.0\" y=\"37.0\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"11.5\" font-weight=\"600\" fill=\"#234539\">stijgen of dalen ze?</text><path d=\"M309.6666666666667 37.0 h12 m0 0 l-6 -5 m6 5 l-6 5\" stroke=\"#2f5d50\" stroke-width=\"2\" fill=\"none\" stroke-linecap=\"round\"/><rect x=\"330.7\" y=\"6\" width=\"139.3\" height=\"62\" rx=\"10\" fill=\"#ffffff\" stroke=\"#2f5d50\" stroke-width=\"1.8\"/><text x=\"400.3\" y=\"37.0\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"11.5\" font-weight=\"600\" fill=\"#234539\">debet of credit?</text></svg>",
+     "onderschrift": "De drie vragen van het redeneerschema, altijd in deze volgorde."
+    },
+    {
+     "soort": "tekst",
+     "html": "Wie het document getekend heeft, verandert niets aan de boeking: die vraag hoort er niet bij. <strong>Op het examen heeft een rekeningnummer vijf cijfers</strong>, en <strong>de naam van de rekening verschijnt vanzelf zodra je het nummer invult</strong>. Daarom telt het nummer en niet de spelling van de naam."
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Je krijgt enkel punten voor een boekingsregel die helemaal juist is</strong>: <strong>het rekeningnummer, het bedrag en de kant</strong> moeten alle drie kloppen. En <strong>je mag niet zoveel regels gebruiken als je wil</strong>: de fiche vraagt uitdrukkelijk <strong>een minimum aantal boekingsregels</strong>."
+    },
+    {
+     "soort": "weetje",
+     "html": "Debet en credit worden op het examen automatisch opgeteld. Een verschil tussen de twee totalen kost geen punten, maar het is wel het eerste teken dat er een fout in je boeking zit."
+    }
+   ]
+  }
+ ],
+ "onthoud": []
+}

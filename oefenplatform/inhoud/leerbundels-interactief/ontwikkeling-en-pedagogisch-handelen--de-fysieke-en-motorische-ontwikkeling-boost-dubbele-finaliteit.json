@@ -1,0 +1,94 @@
+{
+ "vak": "Ontwikkeling en pedagogisch handelen",
+ "titel": "De fysieke en motorische ontwikkeling",
+ "onder": "De groeicurve, de drie groeiprincipes, de groeispurt, de zintuigen van een pasgeborene, de babyreflexen, en de mijlpalen van de grove en de fijne motoriek.",
+ "secties": [
+  {
+   "kop": "De groeicurve",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "<strong>Een groeicurve is een lijn met de groei van een kind erop.</strong> Ze zet de <strong>lengte of het gewicht</strong> van een kind uit tegenover de <strong>leeftijd</strong>, en <strong>vergelijkt het kind met zijn leeftijdsgenoten</strong>. <strong>Je leest er dus van af of de groei normaal is</strong>: volgt het kind de verwachte lijn, of wijkt het er plots van af?"
+    },
+    {
+     "soort": "figuur",
+     "html": "<svg viewBox=\"0 0 470 250\" width=\"470\" xmlns=\"http://www.w3.org/2000/svg\"><line x1=\"52\" y1=\"16\" x2=\"52\" y2=\"206\" stroke=\"#23291f\" stroke-width=\"1.6\"/><line x1=\"52\" y1=\"206\" x2=\"446\" y2=\"206\" stroke=\"#23291f\" stroke-width=\"1.6\"/><path d=\"M52.0 206.0 L61.9 201.2 L71.7 196.5 L81.5 191.8 L91.4 187.3 L101.2 182.8 L111.1 178.5 L120.9 174.2 L130.8 170.0 L140.7 165.9 L150.5 161.9 L160.4 158.0 L170.2 154.2 L180.1 150.4 L189.9 146.8 L199.8 143.3 L209.6 139.8 L219.4 136.5 L229.3 133.3 L239.1 130.1 L249.0 127.1 L258.9 124.2 L268.7 121.3 L278.5 118.6 L288.4 116.0 L298.2 113.5 L308.1 111.1 L318.0 108.9 L327.8 106.7 L337.6 104.7 L347.5 102.8 L357.4 101.0 L367.2 99.4 L377.0 97.9 L386.9 96.5 L396.8 95.3 L406.6 94.3 L416.5 93.4 L426.3 92.7 L436.1 92.2 L446.0 92.0 L446.0 25.5 L436.1 25.8 L426.3 26.6 L416.5 27.7 L406.6 29.1 L396.8 30.8 L386.9 32.7 L377.0 34.8 L367.2 37.2 L357.4 39.8 L347.5 42.6 L337.6 45.6 L327.8 48.8 L318.0 52.2 L308.1 55.8 L298.2 59.6 L288.4 63.5 L278.5 67.6 L268.7 71.9 L258.9 76.4 L249.0 81.1 L239.1 85.9 L229.3 90.8 L219.4 96.0 L209.6 101.2 L199.8 106.7 L189.9 112.3 L180.1 118.0 L170.2 123.9 L160.4 130.0 L150.5 136.2 L140.7 142.5 L130.8 149.0 L120.9 155.7 L111.1 162.4 L101.2 169.3 L91.4 176.4 L81.5 183.6 L71.7 190.9 L61.9 198.4 L52.0 206.0 Z\" fill=\"#2f5d50\" fill-opacity=\"0.14\" stroke=\"none\"/><path d=\"M52.0 206.0 L61.9 201.2 L71.7 196.5 L81.5 191.8 L91.4 187.3 L101.2 182.8 L111.1 178.5 L120.9 174.2 L130.8 170.0 L140.7 165.9 L150.5 161.9 L160.4 158.0 L170.2 154.2 L180.1 150.4 L189.9 146.8 L199.8 143.3 L209.6 139.8 L219.4 136.5 L229.3 133.3 L239.1 130.1 L249.0 127.1 L258.9 124.2 L268.7 121.3 L278.5 118.6 L288.4 116.0 L298.2 113.5 L308.1 111.1 L318.0 108.9 L327.8 106.7 L337.6 104.7 L347.5 102.8 L357.4 101.0 L367.2 99.4 L377.0 97.9 L386.9 96.5 L396.8 95.3 L406.6 94.3 L416.5 93.4 L426.3 92.7 L436.1 92.2 L446.0 92.0\" fill=\"none\" stroke=\"#2f5d50\" stroke-width=\"1.4\" stroke-dasharray=\"4 3\"/><path d=\"M52.0 206.0 L61.9 198.4 L71.7 190.9 L81.5 183.6 L91.4 176.4 L101.2 169.3 L111.1 162.4 L120.9 155.7 L130.8 149.0 L140.7 142.5 L150.5 136.2 L160.4 130.0 L170.2 123.9 L180.1 118.0 L189.9 112.3 L199.8 106.7 L209.6 101.2 L219.4 96.0 L229.3 90.8 L239.1 85.9 L249.0 81.1 L258.9 76.4 L268.7 71.9 L278.5 67.6 L288.4 63.5 L298.2 59.6 L308.1 55.8 L318.0 52.2 L327.8 48.8 L337.6 45.6 L347.5 42.6 L357.4 39.8 L367.2 37.2 L377.0 34.8 L386.9 32.7 L396.8 30.8 L406.6 29.1 L416.5 27.7 L426.3 26.6 L436.1 25.8 L446.0 25.5\" fill=\"none\" stroke=\"#2f5d50\" stroke-width=\"1.4\" stroke-dasharray=\"4 3\"/><path d=\"M52.0 206.0 L61.9 199.8 L71.7 193.6 L81.5 187.6 L91.4 181.7 L101.2 175.9 L111.1 170.2 L120.9 164.7 L130.8 159.2 L140.7 153.9 L150.5 148.7 L160.4 143.6 L170.2 138.6 L180.1 133.8 L189.9 129.1 L199.8 124.5 L209.6 120.0 L219.4 115.6 L229.3 111.4 L239.1 107.4 L249.0 103.4 L258.9 99.6 L268.7 95.9 L278.5 92.4 L288.4 89.0 L298.2 85.2 L308.1 79.5 L318.0 73.9 L327.8 68.5 L337.6 63.2 L347.5 58.1 L357.4 53.2 L367.2 48.4 L377.0 46.5 L386.9 44.7 L396.8 43.1 L406.6 41.8 L416.5 40.6 L426.3 39.7 L436.1 39.1 L446.0 38.8\" fill=\"none\" stroke=\"#c17f2b\" stroke-width=\"2.4\"/><circle cx=\"335.7\" cy=\"64.3\" r=\"4\" fill=\"#c17f2b\"/><text x=\"323.7\" y=\"48.3\" text-anchor=\"end\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"9.5\" font-weight=\"600\" fill=\"#c17f2b\">de groeispurt</text><rect x=\"242.0\" y=\"160\" width=\"200\" height=\"38\" rx=\"6\" fill=\"#ffffff\" fill-opacity=\"0.92\" stroke=\"#e4ded0\" stroke-width=\"1\"/><line x1=\"252.0\" y1=\"173\" x2=\"274.0\" y2=\"173\" stroke=\"#c17f2b\" stroke-width=\"2.4\"/><text x=\"280.0\" y=\"176.0\" text-anchor=\"start\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"9.5\" font-weight=\"600\" fill=\"#23291f\">dit kind</text><line x1=\"252.0\" y1=\"189\" x2=\"274.0\" y2=\"189\" stroke=\"#2f5d50\" stroke-width=\"1.4\" stroke-dasharray=\"4 3\"/><text x=\"280.0\" y=\"192.0\" text-anchor=\"start\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"9.5\" fill=\"#6b7260\">de band van zijn leeftijdsgenoten</text><text x=\"249.0\" y=\"240.0\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"10\" font-weight=\"600\" fill=\"#23291f\">de leeftijd</text><text x=\"16\" y=\"111.0\" text-anchor=\"middle\" transform=\"rotate(-90 16 111.0)\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"10\" font-weight=\"600\" fill=\"#23291f\">de lengte</text></svg>",
+     "onderschrift": ""
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Een groeispurt is een periode waarin een kind heel snel groeit.</strong> In korte tijd wordt het veel langer en zwaarder, vooral in de puberteit. <strong>Niet alle kinderen hebben hun groeispurt op dezelfde leeftijd</strong>: de ene heeft een vroege, de andere een late."
+    },
+    {
+     "soort": "kader",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\"></th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">wat je voelt</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>een vroege groeispurt</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>je valt uit de toon</strong>: wie veel eerder groeit dan de klas, krijgt opmerkingen en wordt ouder behandeld dan hij is</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>een late groeispurt</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>je voelt je kleiner</strong> en jonger dan je leeftijdsgenoten</td></tr></table>"
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Een groeispurt is moeilijk voor een tiener omdat hij opvalt in de groep, zich anders voelt en onhandiger wordt.</strong> Het lichaam verandert sneller dan de motoriek volgt, en dat valt op."
+    }
+   ]
+  },
+  {
+   "kop": "De drie groeiprincipes",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "De ontwikkeling van het lichaam volgt altijd dezelfde drie richtingen. Ze verklaren waarom een kind de dingen in die volgorde leert."
+    },
+    {
+     "soort": "kader",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">principe</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">wat het betekent</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>van kop naar staart</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>het hoofd ontwikkelt eerst</strong>: een baby heeft eerst controle over hoofd en nek, dan over de romp, dan over de benen</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>van midden naar buiten</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>de romp komt voor de hand</strong>: van het midden van het lichaam naar de uiteinden toe</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>van grof naar fijn</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>eerst grote bewegingen</strong>: een kind grijpt eerst met de hele hand en pas later met duim en wijsvinger</td></tr></table>"
+    }
+   ]
+  },
+  {
+   "kop": "De zintuigen van een pasgeborene",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "<strong>Het gehoor, de reuk en de smaak werken al goed rond de geboorte.</strong> Het zicht en het dieptezicht hebben nog maanden nodig: <strong>een pasgeboren baby ziet nog erg onscherp</strong> en op korte afstand. <strong>Het zicht ontwikkelt zich dus het laatst</strong>, en een baby ziet zeker niet even scherp als een volwassene."
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Een baby herkent zijn moeder aan de reuk.</strong> Reuk en gehoor zijn vroeg klaar, dus daaraan herkent een baby zijn vertrouwde mensen."
+    }
+   ]
+  },
+  {
+   "kop": "De babyreflexen",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Een baby komt met een aantal reflexen ter wereld. <strong>De babyreflexen verdwijnen weer</strong>: de meeste in het eerste levensjaar, zodra de bewuste beweging het overneemt. Ze blijven dus niet je hele leven."
+    },
+    {
+     "soort": "kader",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">reflex</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">wat er gebeurt</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>de zuigreflex</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>raak je de mond van een baby aan, dan begint hij te zuigen</strong>, zodat hij meteen kan drinken</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>de zoekreflex</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">de baby draait zijn hoofd naar waar zijn wang aangeraakt wordt</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>de grijpreflex</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>leg je een vinger in het handje, dan sluit de hand zich</strong> eromheen</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>de schrikreflex</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">bij een hard geluid spreidt de baby plots armen en benen</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>de stapreflex</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">houd je de baby rechtop met zijn voetjes op een vlak, dan maakt hij stapbewegingen</td></tr></table>"
+    }
+   ]
+  },
+  {
+   "kop": "Grove en fijne motoriek",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "<strong>De grove motoriek zijn de grote bewegingen</strong> van armen, benen en romp. <strong>De fijne motoriek zijn de kleine, precieze bewegingen</strong> van de handen en de vingers. <strong>De grove motoriek ontwikkelt zich voor de fijne</strong>, want dat is net het principe van grof naar fijn."
+    },
+    {
+     "soort": "kader",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">grove motoriek</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">fijne motoriek</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>het hoofd optillen</strong>, en dat komt eerst</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>met de hand grijpen</strong></td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">rollen en <strong>zitten</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>de pincetgreep</strong></td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>kruipen</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>leren tekenen</strong></td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>stappen</strong> en lopen</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">schrijven</td></tr></table>"
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Zitten komt voor stappen</strong>, want de controle gaat van boven naar onder. Een kind leert dus niet eerst stappen en daarna zitten. <strong>De pincetgreep is de greep met duim en wijsvinger</strong>, waarmee een kind kleine dingen kan oppakken, zoals een erwtje."
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Sensomotorische ontwikkeling is de zintuigen en de beweging samen</strong>: wat je ziet of hoort, stuurt wat je doet. <strong>Een bal zien aankomen en hem vangen</strong> is sensomotorisch handelen: je oog volgt de bal en je handen bewegen mee."
+    }
+   ]
+  }
+ ],
+ "onthoud": []
+}

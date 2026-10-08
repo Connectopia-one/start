@@ -1,0 +1,164 @@
+{
+ "vak": "Frans",
+ "titel": "Woordvelden: school, werk, reizen en de samenleving",
+ "onder": "De school en de beroepen, het vervoer en het verblijf, de instructietaal van de opdrachten, de cijfers, het uur en het weer.",
+ "secties": [
+  {
+   "kop": "De school",
+   "blokken": [
+    {
+     "soort": "figuur",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Frans</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Nederlands</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">une matière</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een vak</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">un horaire, un bulletin</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een uurrooster, een rapport</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">une interrogation</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een toets</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">un examen, réussir un examen</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een examen, slagen voor een examen</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">un stage</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een stage of een cursus van enkele dagen</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">la récréation</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">de pauze op school</td></tr></table>",
+     "onderschrift": "Het woordveld school; un chantier (een werf) hoort er niet bij."
+    },
+    {
+     "soort": "tekst",
+     "html": "Eén woord vraagt opletten: <em><strong>passer</strong> un examen</em> betekent alleen dat je het examen <strong>aflegt</strong>, niet dat je geslaagd bent. Geslaagd zijn is <em><strong>réussir</strong></em>: <em>j'ai réussi mon <strong>examen</strong></em>."
+    }
+   ]
+  },
+  {
+   "kop": "Werk en beroepen",
+   "blokken": [
+    {
+     "soort": "figuur",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Frans</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Nederlands</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">un boulanger, une boulangère</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een bakker, een bakkerin</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">un plombier, un électricien</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een loodgieter, een elektricien</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">un avocat, une avocate</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een advocaat, een advocate</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">une enseignante, une institutrice, une professeure</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een leerkracht, een onderwijzeres, een lerares</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">un emploi, un travail</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">werk — de twee woorden betekenen hetzelfde</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">un entretien d'embauche</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een sollicitatiegesprek</td></tr></table>",
+     "onderschrift": "Beroepen en de woorden rond werk zoeken; un bâtiment (een gebouw) is geen beroep."
+    },
+    {
+     "soort": "tekst",
+     "html": "<em>Elle travaille comme <strong>enseignante</strong> dans une école</em>: let op de <strong>vrouwelijke vorm</strong>, die het Frans voor bijna elk beroep heeft. En een <em>agence pour l'emploi</em> is een <strong>arbeidsbureau</strong> — dat hoort bij werk en niet bij reizen."
+    }
+   ]
+  },
+  {
+   "kop": "Vervoer, reizen en verblijf",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Bij een vervoermiddel waarin je <strong>in</strong> zit, staat <em>en</em>: <em><strong>en</strong> train</em>, <em>en voiture</em>, <em>en avion</em>. Bij een vervoermiddel waarop je <strong>zit</strong>, staat <em>à</em>: <em>à <strong>vélo</strong></em>, <em>à moto</em>, <em>à pied</em> (te voet)."
+    },
+    {
+     "soort": "figuur",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Frans</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Nederlands</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">un car</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een autocar of een reisbus — géén personenwagen</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">un camion, un avion</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een vrachtwagen, een vliegtuig</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">un aller-retour</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een heen-en-terugticket</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">une auberge de jeunesse</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een jeugdherberg</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">une chambre d'hôte</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een gastenkamer, een bed and breakfast</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">un camping</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een camping</td></tr></table>",
+     "onderschrift": "Vervoermiddelen en soorten verblijf; un carnet is een boekje."
+    }
+   ]
+  },
+  {
+   "kop": "Landen en nationaliteiten",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Welk voorzetsel je bij een land zet, hangt af van zijn geslacht. Bij een <strong>vrouwelijk</strong> land staat <em>en</em>: <em>j'habite <strong>en</strong> Belgique</em>, <em>en France</em>. Bij een <strong>mannelijk</strong> land staat <em>au</em>: <em>au Portugal</em>, <em>au Canada</em>. Bij een <strong>meervoud</strong> staat <em>aux</em>: <em>aux Pays-Bas</em>."
+    },
+    {
+     "soort": "figuur",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Vraag</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Juist</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Fout</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">waar woon je?</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">j'habite en Belgique</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">j'habite dans la Belgique</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">waar kom je uit?</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">il vient de France</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">il vient de la France</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">waar ga je naartoe?</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">je vais au Portugal</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">je vais à Portugal</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">en bij een meervoud?</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">aux Pays-Bas</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">à les Pays-Bas</td></tr></table>",
+     "onderschrift": "De vormen die het vaakst fout gaan, met de juiste ernaast."
+    },
+    {
+     "soort": "weetje",
+     "html": "Namen van nationaliteiten krijgen in het Frans een <strong>kleine</strong> letter als ze een <strong>bijvoeglijk naamwoord</strong> zijn: <em>un film <strong>f</strong>rançais</em>. Staan ze als zelfstandig naamwoord voor de persoon, dan krijgen ze een hoofdletter: <em>un <strong>F</strong>rançais</em>."
+    }
+   ]
+  },
+  {
+   "kop": "Winkels, diensten en multimedia",
+   "blokken": [
+    {
+     "soort": "figuur",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Frans</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Nederlands</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">la caisse</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">de kassa</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">une réduction</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een korting</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">la livraison</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">de levering</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">un portable</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een gsm of een draagbare computer</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">un écran, un mot de passe</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een scherm, een wachtwoord</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">une pièce jointe</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een bijlage bij een mail</td></tr></table>",
+     "onderschrift": "Winkelwoorden en de woorden van het scherm; une étagère is een rek."
+    }
+   ]
+  },
+  {
+   "kop": "De instructietaal: het Frans van de opdrachten",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Dit is het woordveld dat het makkelijkst vergeten wordt en het meeste punten kost. Wie niet weet wat <em>cochez</em> of <em>soulignez</em> betekent, verliest punten op een vraag waarvan hij het antwoord <strong>kende</strong>."
+    },
+    {
+     "soort": "figuur",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Opdracht</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Wat je moet doen</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">cochez la bonne réponse</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">het juiste antwoord aankruisen</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">soulignez le verbe</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">het werkwoord onderlijnen</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">entourez, barrez</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">omcirkelen, doorstrepen</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">reliez</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">twee dingen met elkaar verbinden</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">complétez, rédigez, décrivez</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">aanvullen, schrijven, beschrijven — je schrijft zelf</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">justifiez votre réponse</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">uitleggen waarom je dat antwoord geeft</td></tr></table>",
+     "onderschrift": "De opdrachtwoorden die op een Frans examen terugkomen."
+    }
+   ]
+  },
+  {
+   "kop": "Cijfers, maten en hoeveelheden",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "In Frankrijk zegt men <em>soixante-dix</em> (70), <em>quatre-vingts</em> (80) en <em>quatre-vingt-dix</em> (90). <em>Septante-cinq</em> bestaat in Frankrijk niet; dat is Belgisch Frans. Let ook op de <strong>s</strong> van <em>quatre-ving<strong>ts</strong></em>, die wegvalt zodra er nog een getal volgt: <em>quatre-vingt-un</em>."
+    },
+    {
+     "soort": "figuur",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Frans</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Nederlands</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">trois virgule cinq (3,5)</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">drie komma vijf — met een komma, niet met een punt</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">une livre</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een pond, ongeveer een halve kilo</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">un kilo, un gramme, une tonne</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een kilo, een gram, een ton</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">beaucoup de, un peu de, assez de</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">veel, een beetje, genoeg</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">trop de, moins de, plus de</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">te veel, minder, meer</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">une centaine, une dizaine</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een honderdtal, een tiental</td></tr></table>",
+     "onderschrift": "Maten en hoeveelheden; parce que (omdat) hoort bij de verbanden."
+    },
+    {
+     "soort": "tekst",
+     "html": "Na een hoeveelheid komt <strong><em>de</em></strong> zonder lidwoord: <em>il y a beaucoup <strong>de</strong> travail</em>, <em>un peu <strong>de</strong> lait</em>, <em>assez <strong>d'</strong>argent</em>. Dus niet <em>beaucoup du travail</em>."
+    }
+   ]
+  },
+  {
+   "kop": "Het uur en de plaats",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Het uur zeg je in het gewone gesprek met <em>et quart</em>, <em>et demie</em> en <em>moins le quart</em>: <em>trois heures <strong>et quart</strong></em> is kwart over drie, <em>trois heures moins le quart</em> is kwart voor drie."
+    },
+    {
+     "soort": "figuur",
+     "html": "<div style=\"display:flex;gap:18px;align-items:flex-end;justify-content:center;flex-wrap:wrap;\"><div><svg viewBox=\"0 0 144 144\" width=\"144\" xmlns=\"http://www.w3.org/2000/svg\"><circle cx=\"72\" cy=\"72\" r=\"64\" fill=\"#ffffff\" stroke=\"#234539\" stroke-width=\"2.2\"/><line x1=\"72.0\" y1=\"17.0\" x2=\"72.0\" y2=\"10.0\" stroke=\"#6b7260\" stroke-width=\"2.2\"/><text x=\"72.0\" y=\"29.0\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"10.5\" fill=\"#6b7260\">12</text><line x1=\"99.5\" y1=\"24.4\" x2=\"103.0\" y2=\"18.3\" stroke=\"#6b7260\" stroke-width=\"1.2\"/><text x=\"93.5\" y=\"34.8\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"10.5\" fill=\"#6b7260\">1</text><line x1=\"119.6\" y1=\"44.5\" x2=\"125.7\" y2=\"41.0\" stroke=\"#6b7260\" stroke-width=\"1.2\"/><text x=\"109.2\" y=\"50.5\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"10.5\" fill=\"#6b7260\">2</text><line x1=\"127.0\" y1=\"72.0\" x2=\"134.0\" y2=\"72.0\" stroke=\"#6b7260\" stroke-width=\"2.2\"/><text x=\"115.0\" y=\"72.0\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"10.5\" fill=\"#6b7260\">3</text><line x1=\"119.6\" y1=\"99.5\" x2=\"125.7\" y2=\"103.0\" stroke=\"#6b7260\" stroke-width=\"1.2\"/><text x=\"109.2\" y=\"93.5\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"10.5\" fill=\"#6b7260\">4</text><line x1=\"99.5\" y1=\"119.6\" x2=\"103.0\" y2=\"125.7\" stroke=\"#6b7260\" stroke-width=\"1.2\"/><text x=\"93.5\" y=\"109.2\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"10.5\" fill=\"#6b7260\">5</text><line x1=\"72.0\" y1=\"127.0\" x2=\"72.0\" y2=\"134.0\" stroke=\"#6b7260\" stroke-width=\"2.2\"/><text x=\"72.0\" y=\"115.0\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"10.5\" fill=\"#6b7260\">6</text><line x1=\"44.5\" y1=\"119.6\" x2=\"41.0\" y2=\"125.7\" stroke=\"#6b7260\" stroke-width=\"1.2\"/><text x=\"50.5\" y=\"109.2\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"10.5\" fill=\"#6b7260\">7</text><line x1=\"24.4\" y1=\"99.5\" x2=\"18.3\" y2=\"103.0\" stroke=\"#6b7260\" stroke-width=\"1.2\"/><text x=\"34.8\" y=\"93.5\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"10.5\" fill=\"#6b7260\">8</text><line x1=\"17.0\" y1=\"72.0\" x2=\"10.0\" y2=\"72.0\" stroke=\"#6b7260\" stroke-width=\"2.2\"/><text x=\"29.0\" y=\"72.0\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"10.5\" fill=\"#6b7260\">9</text><line x1=\"24.4\" y1=\"44.5\" x2=\"18.3\" y2=\"41.0\" stroke=\"#6b7260\" stroke-width=\"1.2\"/><text x=\"34.8\" y=\"50.5\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"10.5\" fill=\"#6b7260\">10</text><line x1=\"44.5\" y1=\"24.4\" x2=\"41.0\" y2=\"18.3\" stroke=\"#6b7260\" stroke-width=\"1.2\"/><text x=\"50.5\" y=\"34.8\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"10.5\" fill=\"#6b7260\">11</text><line x1=\"72\" y1=\"72\" x2=\"103.7\" y2=\"76.2\" stroke=\"#234539\" stroke-width=\"4.5\" stroke-linecap=\"round\"/><line x1=\"72\" y1=\"72\" x2=\"120.0\" y2=\"72.0\" stroke=\"#c17f2b\" stroke-width=\"3\" stroke-linecap=\"round\"/><circle cx=\"72\" cy=\"72\" r=\"3.5\" fill=\"#234539\"/></svg></div><div><svg viewBox=\"0 0 144 144\" width=\"144\" xmlns=\"http://www.w3.org/2000/svg\"><circle cx=\"72\" cy=\"72\" r=\"64\" fill=\"#ffffff\" stroke=\"#234539\" stroke-width=\"2.2\"/><line x1=\"72.0\" y1=\"17.0\" x2=\"72.0\" y2=\"10.0\" stroke=\"#6b7260\" stroke-width=\"2.2\"/><text x=\"72.0\" y=\"29.0\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"10.5\" fill=\"#6b7260\">12</text><line x1=\"99.5\" y1=\"24.4\" x2=\"103.0\" y2=\"18.3\" stroke=\"#6b7260\" stroke-width=\"1.2\"/><text x=\"93.5\" y=\"34.8\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"10.5\" fill=\"#6b7260\">1</text><line x1=\"119.6\" y1=\"44.5\" x2=\"125.7\" y2=\"41.0\" stroke=\"#6b7260\" stroke-width=\"1.2\"/><text x=\"109.2\" y=\"50.5\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"10.5\" fill=\"#6b7260\">2</text><line x1=\"127.0\" y1=\"72.0\" x2=\"134.0\" y2=\"72.0\" stroke=\"#6b7260\" stroke-width=\"2.2\"/><text x=\"115.0\" y=\"72.0\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"10.5\" fill=\"#6b7260\">3</text><line x1=\"119.6\" y1=\"99.5\" x2=\"125.7\" y2=\"103.0\" stroke=\"#6b7260\" stroke-width=\"1.2\"/><text x=\"109.2\" y=\"93.5\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"10.5\" fill=\"#6b7260\">4</text><line x1=\"99.5\" y1=\"119.6\" x2=\"103.0\" y2=\"125.7\" stroke=\"#6b7260\" stroke-width=\"1.2\"/><text x=\"93.5\" y=\"109.2\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"10.5\" fill=\"#6b7260\">5</text><line x1=\"72.0\" y1=\"127.0\" x2=\"72.0\" y2=\"134.0\" stroke=\"#6b7260\" stroke-width=\"2.2\"/><text x=\"72.0\" y=\"115.0\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"10.5\" fill=\"#6b7260\">6</text><line x1=\"44.5\" y1=\"119.6\" x2=\"41.0\" y2=\"125.7\" stroke=\"#6b7260\" stroke-width=\"1.2\"/><text x=\"50.5\" y=\"109.2\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"10.5\" fill=\"#6b7260\">7</text><line x1=\"24.4\" y1=\"99.5\" x2=\"18.3\" y2=\"103.0\" stroke=\"#6b7260\" stroke-width=\"1.2\"/><text x=\"34.8\" y=\"93.5\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"10.5\" fill=\"#6b7260\">8</text><line x1=\"17.0\" y1=\"72.0\" x2=\"10.0\" y2=\"72.0\" stroke=\"#6b7260\" stroke-width=\"2.2\"/><text x=\"29.0\" y=\"72.0\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"10.5\" fill=\"#6b7260\">9</text><line x1=\"24.4\" y1=\"44.5\" x2=\"18.3\" y2=\"41.0\" stroke=\"#6b7260\" stroke-width=\"1.2\"/><text x=\"34.8\" y=\"50.5\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"10.5\" fill=\"#6b7260\">10</text><line x1=\"44.5\" y1=\"24.4\" x2=\"41.0\" y2=\"18.3\" stroke=\"#6b7260\" stroke-width=\"1.2\"/><text x=\"50.5\" y=\"34.8\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"10.5\" fill=\"#6b7260\">11</text><line x1=\"72\" y1=\"72\" x2=\"102.9\" y2=\"63.7\" stroke=\"#234539\" stroke-width=\"4.5\" stroke-linecap=\"round\"/><line x1=\"72\" y1=\"72\" x2=\"72.0\" y2=\"120.0\" stroke=\"#c17f2b\" stroke-width=\"3\" stroke-linecap=\"round\"/><circle cx=\"72\" cy=\"72\" r=\"3.5\" fill=\"#234539\"/></svg></div></div>",
+     "onderschrift": "Links trois heures et quart, rechts quatorze heures trente."
+    },
+    {
+     "soort": "tekst",
+     "html": "Officieel — in uurroosters, op tickets en in berichten — gebruikt het Frans de <strong>24-urenklok</strong>: <em>quatorze heures trente</em> is <strong>14.30 uur</strong>, dus half drie in de namiddag. En <em>à huit heures moins dix</em> is tien voor acht."
+    },
+    {
+     "soort": "figuur",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Frans</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Wat het aangeeft</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">à côté de</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een plaats: naast</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">en face de</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een plaats: tegenover</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">au milieu de</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een plaats: midden in</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">au-dessus de, en dessous de</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een plaats: boven, onder</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">à cause de</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">géén plaats maar een oorzaak</td></tr></table>",
+     "onderschrift": "Plaatsbepalingen, met de uitdrukking die er niet bij hoort."
+    }
+   ]
+  },
+  {
+   "kop": "Het weer",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Het weer staat in het Frans bijna altijd in een zin met <strong><em>il fait</em></strong> of met een eigen werkwoord. <em>Il <strong>fait</strong> doux</em> betekent dat het <strong>zacht</strong> weer is — niet zonnig en warm, en ook niet dat het lichtjes regent."
+    },
+    {
+     "soort": "figuur",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Juist</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Nederlands</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Il pleut. / Il va pleuvoir.</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Het regent. / Het gaat regenen.</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Il neige.</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Het sneeuwt.</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Il fait du vent.</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Het waait.</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Il fait froid. / Il fait doux.</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Het is koud. / Het is zacht.</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Il fait beau. / Il y a du soleil.</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Het is mooi weer. / Het is zonnig.</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">une prévision</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een voorspelling</td></tr></table>",
+     "onderschrift": "De vaste weerzinnen; il est froid bestaat niet, dat is altijd il fait froid."
+    },
+    {
+     "soort": "weetje",
+     "html": "<em>Le temps</em> betekent in het Frans zowel <strong>het weer</strong> als <strong>de tijd</strong>. <em>Quel temps fait-il ?</em> vraagt naar het weer, <em>je n'ai pas le temps</em> gaat over tijd."
+    }
+   ]
+  },
+  {
+   "kop": "Oefen dit ook buiten het scherm",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Hier oefen je lezen, schrijven, woordenschat en grammatica. Maar het examen <strong>Frans 1</strong> is voor de helft <strong>luisteren</strong>, en <strong>Frans 2</strong> bestaat naast de twee schrijfopdrachten uit een <strong>spreekopdracht</strong> die je thuis opneemt en een <strong>gesprek van tien minuten</strong>. Die drie leer je niet achter een scherm, maar door Frans te horen en zelf Frans te praten, ook als het hakkelt."
+    },
+    {
+     "soort": "kader",
+     "html": "<strong>Deze week:</strong> lees of beluister een Frans weerbericht van vandaag en vertel het daarna in het Frans na in drie zinnen, met minstens één zin in de toekomst (il va…). Doe het één keer en let daarna op wat je miste of niet gezegd kreeg. Dat is precies je volgende oefening."
+    }
+   ]
+  }
+ ],
+ "onthoud": []
+}

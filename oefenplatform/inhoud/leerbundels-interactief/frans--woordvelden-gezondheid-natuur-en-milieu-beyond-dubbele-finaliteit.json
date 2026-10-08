@@ -1,0 +1,145 @@
+{
+ "vak": "Frans",
+ "titel": "Woordvelden: gezondheid, natuur en milieu",
+ "onder": "Het lichaam en de gezondheid, hoe je je voelt, en de woorden voor de natuur, het weer en het milieu.",
+ "secties": [
+  {
+   "kop": "Het lichaam en de gezondheid",
+   "blokken": [
+    {
+     "soort": "figuur",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Frans</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Nederlands</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">la tête, la gorge</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">het hoofd, de keel of hals</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">le ventre, le dos</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">de buik, de rug</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">la main, le pied</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">de hand, de voet</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">la jambe, le bras</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">het been, de arm</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">l'épaule, le coude, le genou</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">de schouder, de elleboog, de knie</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">un œil, les yeux; une dent</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een oog, de ogen; een tand</td></tr></table>",
+     "onderschrift": "Les yeux is een onregelmatig meervoud: dat moet je kennen."
+    },
+    {
+     "soort": "tekst",
+     "html": "Pijn zeg je met <strong>avoir mal à</strong>: <em>j'ai mal à la tête</em>, <em>j'ai mal au ventre</em> (want à + le wordt au), <em>j'ai mal aux dents</em> (à + les wordt aux). Verwar <em>aux dents</em> (tandpijn) niet met <em>aux oreilles</em> (oorpijn)."
+    },
+    {
+     "soort": "figuur",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Frans</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Nederlands</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Je ne me sens pas bien.</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Ik voel me niet goed.</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Je suis malade.</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Ik ben ziek.</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">avoir de la fièvre</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">koorts hebben</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">une ordonnance</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een voorschrift</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">un comprimé, un médicament</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een tablet, een geneesmiddel</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">la pharmacie, le pharmacien</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">de apotheek, de apotheker</td></tr></table>",
+     "onderschrift": "Se sentir is wederkerend: je me sens, tu te sens, il se sent."
+    },
+    {
+     "soort": "kader",
+     "html": "<strong>Bij de dokter.</strong> <em>— Bonjour, qu'est-ce qui ne va pas ? — J'ai mal au ventre depuis deux jours, docteur. — Vous avez de la fièvre ? — Non, mais je dors mal. — Je vous donne une ordonnance. Prenez un comprimé matin et soir, pendant cinq jours.</em><br><em>Qu'est-ce qui ne va pas ?</em> is de gewone openingsvraag van een dokter, en <em>depuis</em> betekent sinds."
+    },
+    {
+     "soort": "tekst",
+     "html": "Een <strong>afspraak</strong> maak je met <em>Je voudrais prendre un rendez-vous, s'il vous plaît.</em> In de <strong>apotheek</strong> krijg je paracetamol <em>sans ordonnance</em>, maar voor een antibioticum heb je er wel een nodig; vraag advies met <em>Demandez conseil au pharmacien.</em> En zoek je een dokter in een vreemde stad: <em>Excusez-moi, où est le médecin le plus proche ?</em>"
+    }
+   ]
+  },
+  {
+   "kop": "Gevoelens",
+   "blokken": [
+    {
+     "soort": "figuur",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Frans</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Nederlands</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">content, contente</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">tevreden, blij</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">triste</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">verdrietig</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">fatigué, fatiguée</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">moe</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">être en colère / fâché</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">boos zijn, kwaad zijn</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">avoir peur</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">bang zijn</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">heureux, heureuse</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">gelukkig</td></tr></table>",
+     "onderschrift": "Een gevoel verandert mee met wie het zegt: fatigué of fatiguée."
+    },
+    {
+     "soort": "tekst",
+     "html": "Twee dingen om op te letten. <em>Je suis fatigué</em> en <em>je suis fatiguée</em> klinken <strong>gelijk</strong>: die extra e schrijf je omdat een meisje het zegt. En het Frans gebruikt <strong>avoir</strong> waar wij 'zijn' zeggen: <em>j'ai faim</em> (ik heb honger), <em>j'ai soif</em>, <em>j'ai froid</em>, <em>j'ai chaud</em>, <em>j'ai peur</em> — telkens zonder lidwoord."
+    },
+    {
+     "soort": "kader",
+     "html": "<strong>In een tekstje.</strong> <em>Hier, j'étais vraiment fatiguée, et un peu triste aussi. Ce matin, ça va beaucoup mieux : j'ai reçu une bonne nouvelle et je suis contente. Mon frère, lui, est en colère parce que son équipe a perdu.</em><br>Drie gevoelens, drie personen, en twee tijden: <em>j'étais</em> voor gisteren, <em>je suis</em> voor vandaag."
+    }
+   ]
+  },
+  {
+   "kop": "Het weer",
+   "blokken": [
+    {
+     "soort": "kader",
+     "html": "<strong>Een weerbericht.</strong> <em>Demain, le temps restera gris dans tout le pays. Il pleuvra le matin en Wallonie, avec un vent assez fort venant de l'ouest. Les températures ne dépasseront pas douze degrés. En fin de journée, quelques éclaircies à la côte.</em><br>Een weerbericht staat bijna helemaal in de <strong>futur simple</strong>: <em>restera</em>, <em>pleuvra</em>, <em>dépasseront</em>."
+    },
+    {
+     "soort": "figuur",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Frans</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Nederlands</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">il fait beau / mauvais</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">het is mooi / slecht weer</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">il fait chaud / froid</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">het is warm / koud</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">il pleut, il neige</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">het regent, het sneeuwt</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">il y a du vent</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">het waait</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">une éclaircie</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een opklaring</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">une température, un degré</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een temperatuur, een graad</td></tr></table>",
+     "onderschrift": "Pleuvoir en neiger bestaan alleen als il pleut en il neige: onpersoonlijke werkwoorden."
+    },
+    {
+     "soort": "figuur",
+     "html": "<svg viewBox=\"0 0 208 208\" width=\"208\" xmlns=\"http://www.w3.org/2000/svg\"><polygon points=\"113.0,104.0 104.0,26.0 95.0,104.0\" fill=\"#2f5d50\" stroke=\"#234539\" stroke-width=\"1.6\"/><text x=\"104.0\" y=\"15.0\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"14\" font-weight=\"600\" fill=\"#234539\">N</text><polygon points=\"104.0,113.0 182.0,104.0 104.0,95.0\" fill=\"#ffffff\" stroke=\"#234539\" stroke-width=\"1.6\"/><text x=\"197.0\" y=\"108.0\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"14\" font-weight=\"600\" fill=\"#234539\">O</text><polygon points=\"95.0,104.0 104.0,182.0 113.0,104.0\" fill=\"#ffffff\" stroke=\"#234539\" stroke-width=\"1.6\"/><text x=\"104.0\" y=\"201.0\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"14\" font-weight=\"600\" fill=\"#234539\">Z</text><polygon points=\"104.0,95.0 26.0,104.0 104.0,113.0\" fill=\"#ffffff\" stroke=\"#234539\" stroke-width=\"1.6\"/><text x=\"11.0\" y=\"108.0\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"14\" font-weight=\"600\" fill=\"#234539\">W</text><line x1=\"104\" y1=\"104\" x2=\"143.7\" y2=\"64.3\" stroke=\"#e4ded0\" stroke-width=\"1.6\"/><text x=\"161.3\" y=\"50.7\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"10\" fill=\"#6b7260\">NO</text><line x1=\"104\" y1=\"104\" x2=\"143.7\" y2=\"143.7\" stroke=\"#e4ded0\" stroke-width=\"1.6\"/><text x=\"161.3\" y=\"165.3\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"10\" fill=\"#6b7260\">ZO</text><line x1=\"104\" y1=\"104\" x2=\"64.3\" y2=\"143.7\" stroke=\"#e4ded0\" stroke-width=\"1.6\"/><text x=\"46.7\" y=\"165.3\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"10\" fill=\"#6b7260\">ZW</text><line x1=\"104\" y1=\"104\" x2=\"64.3\" y2=\"64.3\" stroke=\"#e4ded0\" stroke-width=\"1.6\"/><text x=\"46.7\" y=\"50.7\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"10\" fill=\"#6b7260\">NW</text><circle cx=\"104\" cy=\"104\" r=\"5\" fill=\"#234539\"/></svg>",
+     "onderschrift": "le nord, le sud, l'est, l'ouest: de wind komt venant de l'ouest, uit het westen."
+    }
+   ]
+  },
+  {
+   "kop": "Instructietaal: de opdracht zelf begrijpen",
+   "blokken": [
+    {
+     "soort": "figuur",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Frans</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">wat je moet doen</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Complétez le texte avec les mots suivants.</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">vul de tekst aan met de woorden die erbij staan</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Cochez la bonne réponse.</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">kruis het juiste antwoord aan</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Reliez.</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">verbind met elkaar</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Mettez dans le bon ordre.</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">zet in de juiste orde</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Répondez en français.</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">antwoord in het Frans</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Justifiez votre réponse.</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">verantwoord je antwoord</td></tr></table>",
+     "onderschrift": "Wie de opdracht niet begrijpt, verliest punten zonder één taalfout te maken."
+    },
+    {
+     "soort": "tekst",
+     "html": "Twee woorden om te onthouden: <em>une question</em> is de vraag, <em>une réponse</em> het antwoord. En <em>suivant</em> betekent volgend."
+    }
+   ]
+  },
+  {
+   "kop": "Bij de dokter en in de apotheek",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "<strong>Pijn</strong> zeg je in het Frans met <em>avoir mal à</em>: <em>j'ai mal à la <strong>gorge</strong></em> is <strong>keelpijn</strong>, <em>j'ai mal à la tête</em> hoofdpijn, <em>j'ai mal au dos</em> rugpijn. <em>J'ai une douleur dans ma tête</em> zeggen ze niet."
+    },
+    {
+     "soort": "tekst",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Frans</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Nederlands</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>la toux</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">de hoest</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>la fièvre</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">de <strong>koorts</strong></td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>une allergie</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een allergie</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>une ordonnance</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een <strong>voorschrift</strong> van de dokter</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>la pharmacie</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">de <strong>apotheek</strong></td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>un pansement</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een <strong>pleister</strong></td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>un médecin généraliste</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een <strong>huisarts</strong></td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>guérir</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>genezen</strong></td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>un bilan de santé</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een <strong>controle</strong> bij de dokter</td></tr></table>"
+    },
+    {
+     "soort": "tekst",
+     "html": "In het <strong>ziekenhuis</strong>: <strong>une opération</strong>, <strong>une ambulance</strong>, <strong>un infirmier</strong> of une infirmière. <em>Une tondeuse</em> is een grasmachine, en <em>un portefeuille</em> een portefeuille: geen <strong>klachten</strong>."
+    }
+   ]
+  },
+  {
+   "kop": "Gevoelens en gezond leven",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Frans</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Nederlands</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>nerveux</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">nervous, gespannen</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>seul</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">alleen, eenzaam</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>fier</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">trots</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>être stressé</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>gespannen</strong> zijn</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>épuisé</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>uitgeput</strong></td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>avoir le moral à zéro</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>zich slecht voelen</strong>, in de put zitten</td></tr></table>"
+    },
+    {
+     "soort": "tekst",
+     "html": "<em>Bondé</em> gaat niet over een <strong>gevoel</strong>: dat betekent propvol, over een bus of een zaal."
+    },
+    {
+     "soort": "tekst",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Frans</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Nederlands</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>une alimentation équilibrée</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>gevarieerd eten</strong></td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>prendre du poids</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>bijkomen</strong>; vermageren is <em>maigrir</em></td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>le sommeil</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">de <strong>slaap</strong> als naamwoord; slapen is <em>dormir</em></td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>prendre soin de soi</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">goed <strong>voor jezelf zorgen</strong></td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>la santé mentale</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">je <strong>geestelijke</strong> gezondheid, dus niet je lichaam</td></tr></table>"
+    }
+   ]
+  },
+  {
+   "kop": "De natuur, het weer en het milieu",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Frans</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Nederlands</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>la faune sauvage</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">de <strong>wilde dieren</strong></td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>un hérisson</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een egel</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>un hibou</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een uil</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>un écureuil</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een eekhoorn</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>un arbre</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een <strong>boom</strong></td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>une espèce</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een <strong>soort</strong></td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>disparaître</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>verdwijnen</strong></td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>un ruisseau</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een <strong>beek</strong></td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>une récolte</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een <strong>oogst</strong></td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>abattre un arbre</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een boom <strong>omhakken</strong></td></tr></table>"
+    },
+    {
+     "soort": "tekst",
+     "html": "<em>Un érable</em> is ook een boom (een esdoorn) en geen dier. En een boom die zijn <strong>bladeren verliest</strong> is <em>un <strong>feuillu</strong></em>; <em>un <strong>conifère</strong></em> is net een naaldboom, die ze houdt."
+    },
+    {
+     "soort": "tekst",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Frans</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Nederlands</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>une averse</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een regenbui</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>une brise</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een briesje</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>un orage</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een onweer</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>la sécheresse</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">de <strong>droogte</strong></td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>une inondation</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een <strong>overstroming</strong></td></tr></table>"
+    },
+    {
+     "soort": "tekst",
+     "html": "<em>Le <strong>climat</strong></em> is het klimaat over vele jaren, <em>le <strong>temps</strong></em> is het weer van vandaag: dat is dus <strong>niet hetzelfde</strong>. <em>Un trottoir</em> is een voetpad en hoort bij het verkeer."
+    },
+    {
+     "soort": "tekst",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Frans</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Nederlands</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>l'environnement</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">het <strong>milieu</strong>, de natuur rond ons</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>les déchets</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">het <strong>afval</strong></td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>recycler</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>hergebruiken</strong>, recycleren</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>la pollution</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">de vervuiling</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>les émissions</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">de uitstoot</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>le gaspillage</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">de verspilling</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>les énergies renouvelables</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>hernieuwbare energie</strong>: wind, zon, water</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>l'empreinte carbone</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">de <strong>koolstofvoetafdruk</strong></td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>durable</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>duurzaam</strong>, dus lang mee te gaan zonder schade</td></tr></table>"
+    }
+   ]
+  }
+ ],
+ "onthoud": []
+}

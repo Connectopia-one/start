@@ -1,0 +1,172 @@
+{
+ "vak": "Frans",
+ "titel": "Tekstsoorten en de bedoeling van een tekst",
+ "onder": "Welke soort tekst je voor je hebt, de signaalwoorden en de verwijswoorden, en een onbekend woord raden in plaats van opzoeken.",
+ "secties": [
+  {
+   "kop": "Zes soorten teksten",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Op het examen weet je nooit vooraf welke soort tekst je krijgt. Als je ziet dat een tekst je wil <em>overtuigen</em>, lees je anders dan wanneer hij je iets <em>uitlegt</em>. Daarom staan deze zes op een rij."
+    },
+    {
+     "soort": "figuur",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">soort</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">wat hij doet</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">voorbeelden</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">informatief</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">geeft je informatie over een onderwerp</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">krantenartikel, stukje uit een leerboek, interview, mail naar een klant</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">persuasief</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">wil je overtuigen of beïnvloeden</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">reclamefilmpje, campagne tegen te snel rijden, flyer van een fitnesszaal</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">opiniërend</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">iemand geeft zijn mening</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">recensie van een boek, hotelbeoordeling, reactie op sociale media</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">prescriptief</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">legt uit wat of hoe je iets moet doen</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">recept, instructiefilmpje, schoolreglement, veiligheidsvoorschriften</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">narratief</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">geeft gebeurtenissen verhalend weer</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">videoblog, reisverslag, podcast, getuigenis over een eerste werkdag</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">literair</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">heeft een esthetische waarde, speelt in op emoties</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">lied, gedicht, cartoon, strip, kortverhaal</td></tr></table>",
+     "onderschrift": "Een tekst kan er een beetje van twee zijn; je kijkt naar wat hij vooral wil."
+    },
+    {
+     "soort": "kader",
+     "html": "<strong>Herken ze aan één zin.</strong> <em>Faites chauffer un litre de bouillon</em> is prescriptief: het zegt je wat te doen. <em>Ramasse ce que tu apportes</em> is persuasief: het wil je gedrag veranderen. <em>À mon avis, deux heures c'est beaucoup trop long</em> is opiniërend. <em>À partir du 15 décembre, le train partira cinq minutes plus tôt</em> is informatief. <em>Ce matin-là, ma grand-mère a mis son chapeau rouge</em> is narratief. <em>Apporte-moi le soleil</em> vraagt geen echte zon: dat is literair."
+    },
+    {
+     "soort": "tekst",
+     "html": "De vorm verklapt vaak al de soort. Een tekst die begint met <em>Chère Madame Dupont,</em> is een brief of een mail aan één bepaalde persoon. Een titel als <em>Trois bonnes raisons de prendre le vélo</em> belooft redenen, en dus een tekst die je wil overhalen."
+    }
+   ]
+  },
+  {
+   "kop": "Het communicatiemodel en de andere strategieën",
+   "blokken": [
+    {
+     "soort": "figuur",
+     "html": "<svg viewBox=\"0 0 470 186\" width=\"470\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"6\" y=\"6\" width=\"458\" height=\"140\" rx=\"14\" fill=\"none\" stroke=\"#e4ded0\" stroke-width=\"1.6\" stroke-dasharray=\"6 5\"/><text x=\"20.0\" y=\"26.0\" text-anchor=\"start\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"9.5\" fill=\"#6b7260\">context: de situatie waarin je communiceert</text><rect x=\"26\" y=\"52\" width=\"110\" height=\"46\" rx=\"10\" fill=\"#2f5d5018\" stroke=\"#2f5d50\" stroke-width=\"1.7\"/><text x=\"81.0\" y=\"74.0\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"12.5\" font-weight=\"600\" fill=\"#234539\">zender</text><text x=\"81.0\" y=\"90.0\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"9.5\" fill=\"#6b7260\">wie stuurt</text><rect x=\"180\" y=\"52\" width=\"110\" height=\"46\" rx=\"10\" fill=\"#c17f2b18\" stroke=\"#c17f2b\" stroke-width=\"1.7\"/><text x=\"235.0\" y=\"74.0\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"12.5\" font-weight=\"600\" fill=\"#234539\">boodschap</text><text x=\"235.0\" y=\"90.0\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"9.5\" fill=\"#6b7260\">wat je zegt</text><rect x=\"334\" y=\"52\" width=\"110\" height=\"46\" rx=\"10\" fill=\"#2f5d5018\" stroke=\"#2f5d50\" stroke-width=\"1.7\"/><text x=\"389.0\" y=\"74.0\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"12.5\" font-weight=\"600\" fill=\"#234539\">ontvanger</text><text x=\"389.0\" y=\"90.0\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"9.5\" fill=\"#6b7260\">voor wie</text><line x1=\"140\" y1=\"75\" x2=\"170\" y2=\"75\" stroke=\"#6b7260\" stroke-width=\"1.8\"/><polygon points=\"176,75 168,70.5 168,79.5\" fill=\"#6b7260\"/><text x=\"158.0\" y=\"64.0\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"9\" fill=\"#6b7260\">kanaal</text><line x1=\"294\" y1=\"75\" x2=\"324\" y2=\"75\" stroke=\"#6b7260\" stroke-width=\"1.8\"/><polygon points=\"330,75 322,70.5 322,79.5\" fill=\"#6b7260\"/><text x=\"312.0\" y=\"64.0\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"9\" fill=\"#6b7260\">kanaal</text><text x=\"235.0\" y=\"120.0\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"10\" fill=\"#6b7260\">kanaal: mail, app, blog, telefoon, gesprek</text><rect x=\"120\" y=\"152\" width=\"230\" height=\"28\" rx=\"9\" fill=\"#ffffff\" stroke=\"#c17f2b\" stroke-width=\"1.6\"/><text x=\"235.0\" y=\"171.0\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"10.5\" font-weight=\"600\" fill=\"#c17f2b\">doel: waarom stuur je die boodschap?</text></svg>",
+     "onderschrift": "Van wie is de tekst, waarom is hij gemaakt, en voor wie?"
+    },
+    {
+     "soort": "tekst",
+     "html": "Die drie vragen samen vormen het <strong>communicatiemodel</strong>. Stel jezelf daarnaast vooraf: wat weet ik al over dit onderwerp, en waarover zou de tekst kunnen gaan? Je <strong>voorkennis</strong> helpt je sneller begrijpen wat er staat."
+    },
+    {
+     "soort": "figuur",
+     "html": "<svg viewBox=\"0 0 470 76\" width=\"470\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"0.0\" y=\"6\" width=\"139.3\" height=\"62\" rx=\"10\" fill=\"#ffffff\" stroke=\"#2f5d50\" stroke-width=\"1.8\"/><text x=\"69.7\" y=\"29.0\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"11.5\" font-weight=\"600\" fill=\"#234539\">Titel en beeld</text><text x=\"69.7\" y=\"45.0\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"10\" font-weight=\"400\" fill=\"#6b7260\">Waarover gaat dit?</text><path d=\"M144.33333333333334 37.0 h12 m0 0 l-6 -5 m6 5 l-6 5\" stroke=\"#2f5d50\" stroke-width=\"2\" fill=\"none\" stroke-linecap=\"round\"/><rect x=\"165.3\" y=\"6\" width=\"139.3\" height=\"62\" rx=\"10\" fill=\"#ffffff\" stroke=\"#2f5d50\" stroke-width=\"1.8\"/><text x=\"235.0\" y=\"29.0\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"11.5\" font-weight=\"600\" fill=\"#234539\">Lezen in het geheel</text><text x=\"235.0\" y=\"45.0\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"10\" font-weight=\"400\" fill=\"#6b7260\">Hoofdzaak of bijzaak?</text><path d=\"M309.6666666666667 37.0 h12 m0 0 l-6 -5 m6 5 l-6 5\" stroke=\"#2f5d50\" stroke-width=\"2\" fill=\"none\" stroke-linecap=\"round\"/><rect x=\"330.7\" y=\"6\" width=\"139.3\" height=\"62\" rx=\"10\" fill=\"#ffffff\" stroke=\"#2f5d50\" stroke-width=\"1.8\"/><text x=\"400.3\" y=\"29.0\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"11.5\" font-weight=\"600\" fill=\"#234539\">Pas dan opzoeken</text><text x=\"400.3\" y=\"45.0\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"10\" font-weight=\"400\" fill=\"#6b7260\">Alleen wat je nodig hebt</text></svg>",
+     "onderschrift": "Drie stappen, in die orde. Woord voor woord vertalen doe je nooit als eerste."
+    },
+    {
+     "soort": "tekst",
+     "html": "Gebruik de <strong>visuele hulpmiddelen</strong> die een tekst biedt: de titel en de tussentitels, benadrukte woorden, een foto, een tekening of een grafiek bij een leestekst, of de beelden bij een videofragment."
+    },
+    {
+     "soort": "tekst",
+     "html": "Maak <strong>onderscheid tussen hoofd- en bijzaken</strong>: je ziet welke zinnen de boodschap dragen en welke alleen een voorbeeld of een detail geven. En als je halfweg niets meer snapt, lees dan eerst verder tot het einde: een tekst legt zichzelf vaak verder uit."
+    },
+    {
+     "soort": "kader",
+     "html": "Je mag een <strong>online woordenboek</strong> gebruiken, maar niet voor elk woord. Beslis eerst of de betekenis van dat woord écht nodig is om de tekst te begrijpen. Alleen dan zoek je het op."
+    }
+   ]
+  },
+  {
+   "kop": "Signaalwoorden: de gedachtegang van de tekst",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "<strong>Structuuraanduiders</strong> zijn de woorden waarmee een tekst zijn gedachtegang vasthoudt. Ze zeggen je hoe de stukken zich tot elkaar verhouden."
+    },
+    {
+     "soort": "figuur",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">wat het woord doet</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Frans</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">orde van de stappen</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">d'abord, ensuite, puis, enfin</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">tegenstelling</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">mais, par contre, cependant, pourtant</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">reden</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">parce que, car, comme</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">gevolg</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">donc, alors</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">toevoeging</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">et, aussi, en plus</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">voorwaarde</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">si</td></tr></table>",
+     "onderschrift": "Zes groepen. Hun plaats in de zin zegt niets, hun betekenis alles."
+    },
+    {
+     "soort": "kader",
+     "html": "<strong>In een echte tekst.</strong> <em>Le marché est moins cher que le supermarché, <strong>par contre</strong> il n'ouvre que le mercredi. <strong>Comme</strong> je travaille ce jour-là, j'y vais rarement. <strong>Donc</strong> j'achète mes légumes au magasin du coin.</em><br><em>Par contre</em> zet de twee kanten tegenover elkaar, <em>comme</em> geeft de reden (omdat ik die dag werk), <em>donc</em> het gevolg."
+    },
+    {
+     "soort": "tekst",
+     "html": "Let op twee die je snel verwart: <em>cependant</em> betekent nochtans of toch en zet een tegenstelling, <em>car</em> betekent want en geeft een reden. <em>Attention</em> is geen signaalwoord maar een waarschuwing, en <em>beaucoup</em> betekent gewoon veel."
+    }
+   ]
+  },
+  {
+   "kop": "Verwijswoorden: waarnaar wijst dit woord?",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Een <strong>verwijswoord</strong> vervangt een persoon, een voorwerp, een begrip of een plaats uit een <strong>vorige</strong> zin. Als je niet weet waarnaar het verwijst, verlies je de draad. Een verwijswoord wijst dus altijd terug, nooit vooruit."
+    },
+    {
+     "soort": "kader",
+     "html": "<strong>Vier verwijzingen in drie zinnen.</strong> <em>Nos voisins ont un grand jardin. <strong>Ils y</strong> cultivent des tomates et des haricots. L'été dernier, ils nous <strong>en</strong> ont donné un plein panier. Nous <strong>les</strong> avons remerciés avec une tarte.</em><br><em>Ils</em> = de buren. <em>Y</em> = in de tuin. <em>En</em> = van de tomaten en de bonen. <em>Les</em> = de buren; daarom staat er een s aan <em>remerciés</em>. Je bedankt mensen, geen bonen."
+    },
+    {
+     "soort": "figuur",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">verwijswoord</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">vervangt</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">il, elle, ils, elles</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">het onderwerp van de vorige zin</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">le, la, l', les</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een lijdend voorwerp</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">lui, leur</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een meewerkend voorwerp: aan hem, aan hen</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">y</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een plaats: à, dans, chez …</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">en</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een onbepaalde hoeveelheid: du, de la, des of een getal</td></tr></table>",
+     "onderschrift": "Vijf soorten. Een schrijver gebruikt ze om niet te moeten herhalen."
+    }
+   ]
+  },
+  {
+   "kop": "Een onbekend woord: raden in plaats van opzoeken",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Drie bronnen gebruik je om te raden. De <strong>context</strong>: <em>il a oublié son parapluie, donc il est rentré tout <strong>mouillé</strong></em> — nat dus. Je <strong>kennis van andere talen</strong>: <em>dangereux</em> lijkt op het Engelse <em>dangerous</em>. En de <strong>bouw van het woord</strong>: <em>im-praticable</em> is niet begaanbaar, want <em>im-</em> maakt negatief."
+    },
+    {
+     "soort": "tekst",
+     "html": "Beslis daarna of dat woord echt belangrijk is. Soms kan je er gewoon over en blijft de tekst duidelijk."
+    },
+    {
+     "soort": "weetje",
+     "html": "Niet elk woord dat op Nederlands of Engels lijkt, betekent hetzelfde, maar in de meeste gevallen helpt die gok je wel vooruit. Probeer het dus eerst, en zoek daarna pas op."
+    }
+   ]
+  },
+  {
+   "kop": "Een voorbeeld bij elke tekstsoort",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Tekstsoort</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Franse voorbeelden</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">informatief</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">un article, une <strong>interview</strong>, le <strong>nieuws</strong> op de radio (un journal parlé)</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">persuasief</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">une <strong>publicité</strong>, une <strong>campagne</strong> de <strong>sécurité</strong> routière, une affiche pour un <strong>concert</strong></td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">prescriptief</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">une recette, un mode d'emploi, un règlement</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">opiniërend</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">une lettre de lecteur, un blog, une <strong>boekrecensie</strong> (une critique)</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">narratief</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">un conte, un <strong>podcast</strong> met een verhaal</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">literair</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">un poème, une <strong>chanson</strong>, une bande <strong>dessinée</strong></td></tr></table>"
+    },
+    {
+     "soort": "tekst",
+     "html": "Een <strong>bande dessinée</strong> is dus <strong>literair</strong> en geen informatieve tekst, en een <strong>interview</strong> is informatief en niet literair. Een <strong>podcast</strong> kan allebei zijn: het hangt af van wat erin verteld wordt."
+    },
+    {
+     "soort": "tekst",
+     "html": "Een <strong>prescriptieve</strong> tekst herken je <strong>waaraan</strong>? Aan een <strong>stappenplan</strong> met genummerde stappen en aan de <strong>imperatief</strong>: <em>Mélangez</em>, <em>Ajoutez</em>, <em><strong>d'abord</strong>…, ensuite…</em>"
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Hoe</strong> noem je een tekst <strong>waarin</strong> <strong>iemand</strong> zijn <strong>mening</strong> geeft? Met één woord: <strong>opiniërend</strong>. En een tekst die uitlegt wat of hoe je iets moet doen, is <strong>prescriptief</strong>."
+    },
+    {
+     "soort": "tekst",
+     "html": "Bij elke tekst horen twee vragen: wat is de <strong>bedoeling</strong> (informeren, overtuigen, voorschrijven, ontspannen) en wat is het <strong>kanaal</strong>, dus waarlangs de tekst bij je komt: een krant, een website, de radio, een affiche. Dezelfde boodschap klinkt in een mail anders dan op een affiche."
+    },
+    {
+     "soort": "tekst",
+     "html": "Een tekst kan <strong>feiten en meningen door elkaar bevatten</strong>. Woorden die een mening <strong>verraden</strong>: <em>à mon <strong>avis</strong></em> (in mijn opinie), <em>je trouve que</em>, <em>je pense que</em>, en bijvoeglijke naamwoorden als <em><strong>affreux</strong></em> (afschuwelijk), <em>magnifique</em>, <em>le <strong>meilleur</strong></em>. Een feit kan je nameten, een mening niet."
+    }
+   ]
+  },
+  {
+   "kop": "Het register: formeel of informeel",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Het <strong>register</strong> is hoe formeel je schrijft. Een <strong>gepast</strong> register betekent dat je je aanpast aan je lezer, niet dat je zo <strong>formeel</strong> <strong>mogelijk</strong> schrijft. Aan een vriend schrijf je <em>tu</em>, aan een <strong>volwassene</strong> die je niet kent <em>vous</em>."
+    },
+    {
+     "soort": "tekst",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">In een formele mail</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">In een bericht aan een vriend</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>Bonjour</strong> Madame, Bonjour Monsieur</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Salut !</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Je <strong>voudrais</strong> vous demander…</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Je veux…</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Merci <strong>d'avance</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Merci !</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>Cordialement</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">À plus !</td></tr></table>"
+    },
+    {
+     "soort": "tekst",
+     "html": "<em>Je voudrais un café</em> klinkt dus <strong>hoffelijker</strong> dan <em>je veux un café</em>: dat is dezelfde vraag, maar met een stap afstand. In een formele mail <strong>gewoon</strong> <em>tu</em> schrijven kan niet."
+    },
+    {
+     "soort": "tekst",
+     "html": "Een goed <strong>opgebouwde</strong> tekst bestaat uit drie delen: een <strong>inleiding</strong>, een <strong>midden</strong> met je uitleg, en een slot."
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Zeg eerst bonjour.</strong> In het Frans begint elke vraag aan een onbekende daarmee; meteen met je vraag beginnen klinkt onbeschoft."
+    }
+   ]
+  }
+ ],
+ "onthoud": []
+}

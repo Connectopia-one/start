@@ -1,0 +1,83 @@
+{
+ "vak": "Toegepaste economie",
+ "titel": "Verkopen en de verkoopfactuur",
+ "onder": "Dezelfde verrichting van de andere kant bekeken: de documenten die de verkoper maakt, de vordering op de klant, en het rekenwerk op een verkoopfactuur.",
+ "secties": [
+  {
+   "kop": "De andere kant van dezelfde factuur",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "<strong>Dezelfde factuur is bij de verkoper een verkoopfactuur en bij de koper een aankoopfactuur.</strong> Hetzelfde papier, een andere kant van de verrichting. Dat maakt dit hoofdstuk makkelijker dan het lijkt: je kent de documenten al, je bekijkt ze nu vanuit de verkoper."
+    },
+    {
+     "soort": "kader",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">moment</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">wat de verkoper doet</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>bij een prijsaanvraag</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>hij maakt een offerte</strong> met prijs, hoeveelheid en voorwaarden</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>bij de levering</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>hij maakt een leverbon</strong>, die meegaat met de goederen en bij ontvangst getekend wordt</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>om betaald te worden</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>hij stuurt de verkoopfactuur</strong></td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>bij een terugzending of een fout</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>hij stuurt een uitgaande creditnota</strong></td></tr></table>"
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>De verkoper maakt dus zelf de offerte, de leverbon en de verkoopfactuur.</strong> De btw-aangifte doet elke btw-plichtige voor zichzelf; die hoort niet in dat rijtje."
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Een offerte en een factuur zijn niet hetzelfde document</strong>: een offerte is een voorstel, een factuur is de vraag om te betalen."
+    }
+   ]
+  },
+  {
+   "kop": "Verkopen op krediet",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "<strong>Een verkoopfactuur levert de verkoper een opbrengst op</strong>: de opbrengst staat in klasse 7, de vordering op de klant in klasse 4. <strong>Bij een verkoop vermindert de voorraad</strong>, want de goederen gaan naar de klant."
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>De verkoper moet niet wachten op de betaling om te leveren.</strong> Bij verkoop op krediet gebeurt de levering eerst en volgt de betaling later: <strong>een betaling op dertig dagen betekent dat de klant later betaalt</strong>, en ondertussen heeft de verkoper <strong>een vordering</strong>, geld dat hij nog krijgt."
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>In de boekhouding heet dat de handelsdebiteuren, rekening 400.</strong> <strong>Betaalt een klant niet, dan blijft de vordering openstaan</strong> tot ze betaald of afgeboekt wordt."
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Op een verkoopfactuur staan het factuurnummer, de datum en de btw-nummers</strong>, ook dat van de verkoper zelf: dat zijn wettelijke vermeldingen. <strong>De verkoper nummert zijn facturen doorlopend, zodat een ontbrekende factuur meteen opvalt</strong>, en <strong>hij houdt een kopie bij als bewijs</strong>, want de wet vraagt dat facturen een aantal jaren bewaard blijven."
+    }
+   ]
+  },
+  {
+   "kop": "Rekenen op een verkoopfactuur",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "<strong>De verkoper berekent de btw op het bedrag na korting</strong>: eerst de kortingen eraf, dan de doorgerekende kosten erbij, en pas dan de btw. <strong>Dat bedrag heet de maatstaf van heffing</strong>, het bedrag waarop btw komt."
+    },
+    {
+     "soort": "kader",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">wat het bedrag verlaagt</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">wat het bedrag verhoogt</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>de handelskorting</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>doorgerekend vervoer</strong></td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>de financiële korting</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>verpakking die niet terugkomt</strong></td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>een korting bij een grote bestelling</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>de btw zelf, op het einde</strong></td></tr></table>"
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>De handelskorting staat niet los van het btw-bedrag</strong>: ze verlaagt de maatstaf, dus wordt ook de btw kleiner. <strong>Terugstuurbare verpakking telt niet mee in de maatstaf</strong>, want ze is een waarborg die je terugkrijgt."
+    },
+    {
+     "soort": "kader",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">opgave</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">antwoord</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">rekenwijze</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>2 000 euro met 5 procent handelskorting</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>1 900 euro</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">5 procent van 2 000 is 100</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>21 procent btw op 1 900 euro</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>399 euro</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">1 900 maal 0,21</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>10 procent handelskorting op 500 euro</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>50 euro</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">500 gedeeld door 10</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>600 euro aan 6 procent en 400 euro aan 21 procent</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>120 euro btw</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">36 euro plus 84 euro</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>500 euro goederen met 6 procent btw</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>530 euro te betalen</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">500 plus 30 euro btw</td></tr></table>"
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>De btw wordt per tarief apart berekend</strong>, want de tarieven verschillen: 6 procent voor het ene artikel, 21 procent voor het andere, op dezelfde factuur. <strong>Om een verkoopfactuur te berekenen heb je de hoeveelheid, de eenheidsprijs en het btw-tarief nodig</strong>, en de kortingen die afgesproken zijn."
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Een uitgaande creditnota verlaagt de omzet</strong>, want de verkoop wordt deels of helemaal teruggedraaid, en <strong>er staat ook een btw-bedrag op</strong>: de btw op het teruggedraaide bedrag gaat mee terug."
+    },
+    {
+     "soort": "weetje",
+     "html": "De verkoper mag de btw die hij int niet houden. Hij int ze voor de staat en stort ze door via zijn btw-aangifte. Dat heet de verschuldigde btw."
+    }
+   ]
+  }
+ ],
+ "onthoud": []
+}

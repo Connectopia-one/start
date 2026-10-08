@@ -1,0 +1,120 @@
+{
+ "vak": "Gezondheid, zorg en welzijn",
+ "titel": "Zorg voor de woon- en leefomgeving",
+ "onder": "De vijf aandachtspunten van een gezonde woning, wat de binnenlucht vervuilt, welke temperatuur bij welke kamer past, het verschil tussen ventileren en verluchten, en het verzorgen van planten en dieren.",
+ "secties": [
+  {
+   "kop": "Wat een leefomgeving gezond maakt",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Interieurzorg is meer dan poetsen. Je zorgt voor een ruimte waar mensen zich goed voelen, en dat hangt van <strong>vijf aandachtspunten</strong> af: <strong>gezonde lucht, een gepaste temperatuur, een goede vochtigheidsgraad, een aangenaam geluidsniveau en geen verontreiniging</strong>. Hoe duur de meubels zijn, telt niet mee."
+    },
+    {
+     "soort": "kader",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">aandachtspunt</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">waar het over gaat</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>gezonde lucht</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">verse lucht die genoeg ververst wordt</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>een gepaste temperatuur</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">warm genoeg om stil te zitten, koel genoeg om te slapen</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>een goede vochtigheidsgraad</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">niet zo vochtig dat er schimmel groeit, niet zo droog dat je keel prikkelt</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>een aangenaam geluidsniveau</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">geen aanhoudend lawaai waar je niet weg van kan</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>geen verontreiniging</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">geen rook, dampen of schimmelsporen in de binnenlucht</td></tr></table>"
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Gezonde lucht is belangrijk omdat je ze de hele dag inademt.</strong> We brengen het grootste deel van onze dag binnen door, op school, op het werk en thuis, dus de binnenlucht bepaalt mee hoe je je voelt."
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Verontreiniging in huis zijn schadelijke stoffen in de binnenlucht.</strong> Rook, dampen van producten, schimmelsporen en fijn stof hangen er rond zonder dat je ze ziet; samen heet dat <strong>luchtverontreiniging</strong> binnenshuis. <strong>De lucht binnenshuis wordt vervuild door sigarettenrook, door dampen van schoonmaak- en verzorgingsproducten, en door vocht en schimmel.</strong> Een open raam doet net het omgekeerde: dat voert de vervuiling af."
+    },
+    {
+     "soort": "weetje",
+     "html": "Sigarettenrook blijft niet alleen in de lucht hangen, maar ook in de gordijnen, de zetel en het tapijt. Daarom ruik je nog dagen later dat er gerookt is."
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Lawaai is ongezond omdat het stress geeft.</strong> Aanhoudend geluid maakt je prikkelbaar, je slaapt er slechter van, en als het hard genoeg is, beschadigt het op den duur je gehoor. Een <strong>hoog geluidsniveau hoort dus niet bij een gezonde leefomgeving</strong>; een aangenaam geluidsniveau is net een van de vijf aandachtspunten."
+    }
+   ]
+  },
+  {
+   "kop": "Temperatuur en vocht",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Niet elke kamer heeft dezelfde temperatuur nodig. Je kijkt naar wat er in die kamer gebeurt: in een kamer waar je stilzit, moet het warmer zijn dan in een kamer waar je slaapt."
+    },
+    {
+     "soort": "kader",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">kamer</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">temperatuur</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">waarom</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>de woonkamer</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>ongeveer twintig graden</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">je zit er stil, dus je maakt zelf weinig warmte</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>de slaapkamer</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>koeler dan de woonkamer</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">in een koele kamer slaap je beter en dieper</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>de badkamer</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>warmer dan de woonkamer</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">je staat er nat en bloot, en dan koel je snel af</td></tr></table>"
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Een slaapkamer mag dus niet warmer zijn dan een woonkamer</strong>, zoals je misschien zou denken. Het is net andersom."
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Bij een te hoge kamertemperatuur word je suf en moe.</strong> Te warm maakt je loom, droogt de lucht uit en kost onnodig energie. <strong>Bij een te lage kamertemperatuur word je sneller ziek</strong>: een koude woning geeft klachten aan de luchtwegen, en op koude muren slaat vocht neer."
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>De vochtigheidsgraad, of de luchtvochtigheid, is de hoeveelheid vocht in de lucht.</strong> Ook die kan te hoog of te laag zijn, en allebei zijn ze lastig."
+    },
+    {
+     "soort": "kader",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">het vocht</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">wat je merkt</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>te veel vocht</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>er groeit schimmel</strong> op de muren en in de voegen, en dat geeft klachten aan de luchtwegen</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>te weinig vocht</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>je keel wordt droog</strong>; te droge lucht prikkelt ook je neus en je ogen</td></tr></table>"
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Een muur die altijd vochtig blijft, krijgt schimmel.</strong> Schimmel heeft vocht nodig om te groeien, dus het middel ertegen is niet een product maar droge lucht: ventileren en verluchten."
+    }
+   ]
+  },
+  {
+   "kop": "Ventileren en verluchten",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Deze twee woorden lijken op elkaar, maar ze betekenen niet hetzelfde. Het verschil zit in de tijd: <strong>ventileren duurt altijd door, verluchten duurt enkele minuten</strong>."
+    },
+    {
+     "soort": "kader",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\"></th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">ventileren</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">verluchten</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>wat het is</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>de lucht blijft voortdurend stromen</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>het raam even wijd openzetten</strong></td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>hoe lang</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>de hele dag door, dag en nacht</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>enkele minuten</strong></td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>hoe je het doet</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">met een rooster, een ventilatiesysteem of een kiepraam open</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">ramen en deuren wijd open tegen elkaar</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>waarvoor</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">vocht, geuren en schadelijke stoffen blijven afvoeren</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">snel alle lucht in een kamer vervangen</td></tr></table>"
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Ventileren is noodzakelijk om vocht en schadelijke stoffen af te voeren.</strong> Zonder ventilatie blijven vocht, geuren en stoffen in huis hangen, en <strong>wie nooit verlucht, krijgt muffe, vochtige lucht</strong>, met schimmel en klachten als gevolg. <strong>Ventileren hoeft niet alleen in de zomer</strong>: ook in de winter moet er verse lucht binnenkomen, anders stapelt het vocht zich op. De verwarming verwarmt de lucht wel, maar ververst ze niet."
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Je verlucht zeker na het douchen, na het koken en na het strijken.</strong> Die drie brengen in korte tijd veel waterdamp in de lucht. Televisiekijken niet."
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Terwijl je verlucht, zet je de verwarming lager of helemaal uit</strong>, want anders stook je rechtstreeks naar buiten. De warmte verdwijnt door het open raam, en dat kost energie en geld. Omdat verluchten kort duurt, koelen de muren intussen niet af en is de kamer snel weer op temperatuur."
+    },
+    {
+     "soort": "weetje",
+     "html": "Kort en wijd open werkt beter dan lang op een kier. Bij een kier beweegt er weinig lucht en koelen de muren traag af; bij een raam wijd open is de lucht in enkele minuten vervangen terwijl de muren hun warmte houden."
+    }
+   ]
+  },
+  {
+   "kop": "Planten en dieren",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "<strong>Bij de interieurzorg hoort naast poetsen ook het verzorgen van planten, het verzorgen van dieren en het reinigen van voorwerpen.</strong> Ze staan uitdrukkelijk in het takenpakket, want ook zij maken mee uit hoe een woning aanvoelt."
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Een kamerplant verzorg je door water te geven, voor genoeg licht te zorgen en dode blaadjes weg te halen.</strong> Dat weghalen van dood blad hoort erbij, ook als de plant er verder goed bij staat. Elke dag verplanten hoort er niet bij: dat beschadigt de wortels, en een plant verzet je hoogstens eens per jaar."
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Hoe vaak je water geeft, hangt van de plant af.</strong> De ene wil voortdurend vochtige aarde, de andere droogt graag eerst helemaal op. Voel met je vinger aan de aarde in plaats van een vast schema te volgen."
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Een huisdier verzorg je met dagelijks vers water en voeding</strong>, een propere bak of kooi, en aandacht. Dat laatste is geen extra: een dier dat niets te doen heeft, wordt onrustig of ziek."
+    }
+   ]
+  }
+ ],
+ "onthoud": []
+}

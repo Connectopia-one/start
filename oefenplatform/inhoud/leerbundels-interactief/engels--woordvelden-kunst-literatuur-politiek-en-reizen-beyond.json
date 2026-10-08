@@ -1,0 +1,114 @@
+{
+ "vak": "Engels",
+ "titel": "Woordvelden: kunst, literatuur, politiek en reizen",
+ "onder": "Over een boek praten, het museum, het Britse politieke bestel, de samenleving en op reis gaan.",
+ "secties": [
+  {
+   "kop": "Een boek en een verhaal",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Engels</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Nederlands</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">a novel</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een roman</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">a poem</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een gedicht</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">a sonnet</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een gedicht van veertien regels</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">a protagonist</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">de hoofdpersoon van een verhaal</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">a narrator</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">de verteller</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">the plot</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">de opeenvolging van wat er gebeurt</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">the setting</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">waar en wanneer het verhaal speelt</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">a quotation</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een citaat</td></tr></table>"
+    },
+    {
+     "soort": "tekst",
+     "html": "Let op het verschil tussen <strong>the protagonist</strong> en <strong>the narrator</strong>: de hoofdpersoon is wie het verhaal overkomt, de verteller is wie het vertelt, en dat hoeft niet dezelfde te zijn."
+    },
+    {
+     "soort": "tekst",
+     "html": "De delen van een boek: <strong>a chapter</strong>, <strong>a preface</strong> en <strong>an epilogue</strong>. Shakespeare schreef <strong>plays</strong>, <strong>sonnets</strong> en <strong>poems</strong>."
+    },
+    {
+     "soort": "tekst",
+     "html": "<em>The book is set in Victorian London</em> betekent <strong>het boek speelt in Victoriaans Londen</strong>; <em>the novel was adapted for the screen</em> betekent <strong>het boek werd verfilmd</strong>."
+    },
+    {
+     "soort": "kader",
+     "html": "<strong>Het woord <em>work</em> is in het Engels niet altijd ontelbaar.</strong> Als het arbeid betekent wel: <em>I have a lot of work</em>. Maar als het over de werken van een schrijver of een kunstenaar gaat, is het telbaar: <em>the complete works of Shakespeare</em>, <em>an early work</em>."
+    }
+   ]
+  },
+  {
+   "kop": "Kunst en erfgoed",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "In een museum hoor je <strong>an exhibition</strong>, <strong>a guided tour</strong> en <strong>an audio guide</strong>. <strong>Heritage</strong> is <strong>erfgoed</strong>, <strong>a century</strong> is een eeuw, en <strong>the Middle Ages</strong> zijn <strong>de middeleeuwen</strong>, altijd in het meervoud."
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>A review is een stuk waarin iemand een boek of film beoordeelt.</strong> Een <em>award-winning film</em> is <strong>een bekroonde film</strong>."
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong><em>A library</em> is in het Engels geen boekwinkel</strong>, maar een bibliotheek. De boekwinkel is <em>a bookshop</em> of <em>a bookstore</em>. Dit is een van de bekendste valse vrienden tussen het Nederlands en het Engels."
+    }
+   ]
+  },
+  {
+   "kop": "Politiek in Groot-Brittannië",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Engels</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Nederlands</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">the Prime Minister</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">de eerste minister</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">an MP</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een parlementslid, Member of Parliament</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">an election</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een verkiezing</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">a ballot</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een stembiljet of stemronde</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">a turnout</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">de opkomst</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">a candidate</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een kandidaat</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">a bill</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een wetsontwerp</td></tr></table>"
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Het Britse parlement bestaat uit het House of Commons en het House of Lords.</strong> De Commons zijn verkozen, de Lords niet."
+    },
+    {
+     "soort": "tekst",
+     "html": "Let op <strong>a bill</strong>: in het parlement is dat een wetsontwerp, in een restaurant de rekening. Eén woord, twee werelden."
+    }
+   ]
+  },
+  {
+   "kop": "De samenleving",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Woorden over de samenleving: <strong>equality</strong>, <strong>discrimination</strong> en <strong>integration</strong>. <strong>Poverty</strong> is armoede, <strong>a charity</strong> is <strong>een goed doel</strong>, en <em>to raise awareness</em> betekent <strong>mensen bewust maken</strong>."
+    },
+    {
+     "soort": "tekst",
+     "html": "<em>To go on strike</em> betekent <strong>gaan staken</strong>."
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong><em>A refugee</em> is niet iemand die zijn land uit vrije keuze verlaten heeft om te reizen.</strong> Een vluchteling vertrekt omdat hij moet: oorlog, vervolging, geweld. Wie uit vrije keuze vertrekt, is <em>a migrant</em> of <em>a traveller</em>, en dat verschil heeft in het Engels ook een juridische betekenis."
+    }
+   ]
+  },
+  {
+   "kop": "Reizen",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "<em>To go abroad</em> betekent <strong>naar het buitenland gaan</strong>. Een <strong>border</strong> of <strong>frontier</strong> is de grens tussen twee landen."
+    },
+    {
+     "soort": "tekst",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Engels</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Nederlands</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">to book a room</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een kamer reserveren</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">the hotel is fully booked</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">het hotel is volzet</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">a sightseeing tour</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een stadsbezoek</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">a bank holiday</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een wettelijke feestdag</td></tr></table>"
+    },
+    {
+     "soort": "kader",
+     "html": "<strong><em>Great Britain</em> en <em>the United Kingdom</em> betekenen niet hetzelfde.</strong> Great Britain is het eiland met <strong>England</strong>, <strong>Scotland</strong> en <strong>Wales</strong>. Het United Kingdom is dat plus Noord-Ierland. En <em>the British Isles</em> is nog ruimer: daar hoort ook Ierland bij, dat een eigen land is."
+    }
+   ]
+  },
+  {
+   "kop": "Oefen dit ook buiten het scherm",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Op dit platform oefen je lezen, woordenschat en grammatica. Maar <strong>luisteren</strong> is de helft van het examen Engels 1, en Engels 2 bestaat uit <strong>schrijven</strong>, <strong>schriftelijke interactie</strong> en <strong>een gesprek</strong>. Luisteren en spreken leer je niet achter een scherm. Je leert ze door te luisteren naar mensen die echt Engels spreken, en door zelf je mond open te doen, ook als het hakkelt."
+    },
+    {
+     "soort": "kader",
+     "html": "<strong>Deze week:</strong> vertel in het Engels over een boek of een film die je echt goed vond, in vijf zinnen: waar het over gaat, wie de hoofdpersoon is en waarom het je bijbleef. Doe het één keer, en let daarna op wat je miste of niet gezegd kreeg. Dat is precies je volgende oefening."
+    }
+   ]
+  }
+ ],
+ "onthoud": []
+}

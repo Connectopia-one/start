@@ -1,0 +1,160 @@
+{
+ "vak": "Frans",
+ "titel": "Zinsbouw, indirecte rede en de passieve zin",
+ "onder": "De zinsdelen, drie manieren om een vraag te stellen, de ontkenningen, iemands woorden weergeven en de passieve zin.",
+ "secties": [
+  {
+   "kop": "De zinsdelen",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "De fiche vraagt dat je <strong>het onderwerp</strong>, <strong>de persoonsvorm</strong> en <strong>het lijdend en het meewerkend voorwerp</strong> kan aanwijzen."
+    },
+    {
+     "soort": "tekst",
+     "html": "In <em>Marie lit un livre</em> is <strong>un livre</strong> het lijdend voorwerp. Het Frans kort dat af als <strong>COD</strong>, complément d'objet direct; het meewerkend voorwerp is de COI."
+    }
+   ]
+  },
+  {
+   "kop": "Soorten zinnen",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "<strong>De vakfiche noemt zes soorten zinnen.</strong>"
+    },
+    {
+     "soort": "tekst",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">soort</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">voorbeeld</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">déclarative</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Il pleut.</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">interrogative</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Est-ce qu'il pleut ?</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">impérative</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Viens ici !</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">exclamative</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Quelle belle journée !</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">affirmative</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Je viens.</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">négative</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Je ne viens pas.</td></tr></table>"
+    },
+    {
+     "soort": "tekst",
+     "html": "<em>Quelle belle journée !</em> is dus <strong>een uitroepende zin</strong>. En <strong>een zin kan tegelijk vragend en ontkennend zijn</strong>: de laatste twee zijn vormen, geen soorten die elkaar uitsluiten. <em>Tu ne viens pas ?</em> is allebei."
+    }
+   ]
+  },
+  {
+   "kop": "Drie manieren om een vraag te stellen",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">manier</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">voorbeeld</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">register</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">met de stem omhoog</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Tu viens ?</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">spreektaal</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">met est-ce que</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Est-ce que tu viens ce soir ?</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">gewoon</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">met omkering</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Viens-tu ? Où habites-tu ?</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">schrijftaal</td></tr></table>"
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong><em>Tu viens ?</em> is niet formeler dan <em>Viens-tu ?</em></strong>, maar juist losser. De omkering is de meest formele van de drie, en in schrijftaal schrijf je dus <strong>Où habites-tu ?</strong>"
+    },
+    {
+     "soort": "tekst",
+     "html": "<em><strong>Est</strong>-ce que tu viens ce soir ?</em> Het is <em>est-ce que</em>, uit <em>est-ce que</em>: letterlijk is het dat dat."
+    }
+   ]
+  },
+  {
+   "kop": "De ontkenningen",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Een gewone ontkenning maak je met <strong>ne en pas rond de persoonsvorm</strong>. In een samengestelde tijd staan ze rond het hulpwerkwoord: <strong>Je ne l'ai jamais vu.</strong>"
+    },
+    {
+     "soort": "tekst",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">ontkenning</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">betekenis</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">ne … pas</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">niet</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">ne … rien</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">niets: Je ne vois rien.</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">ne … personne</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">niemand: Il n'y a personne.</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">ne … jamais</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">nooit: Elle ne vient jamais.</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">ne … plus</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">niet meer</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">ne … que</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">maar, slechts</td></tr></table>"
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong><em>Je ne bois que de l'eau</em> betekent niet dat je helemaal geen water drinkt</strong>, maar juist dat je niets anders dan water drinkt. <em>Ne … que</em> is geen ontkenning maar een beperking, en dat is een van de hardnekkigste misverstanden van het Frans."
+    },
+    {
+     "soort": "tekst",
+     "html": "<em>Il ne reste plus rien</em> betekent <strong>er is niets meer over</strong>. En <strong>jamais</strong> is nooit: <em>elle ne vient jamais</em>."
+    },
+    {
+     "soort": "tekst",
+     "html": "Op een ontkennende vraag antwoord je bevestigend met <strong>Si.</strong> Niet met <em>oui</em>: dat woordje van twee letters bestaat in het Frans precies hiervoor."
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Een bijwoord van tijd zoals <em>souvent</em> staat meestal achter de persoonsvorm</strong>, en <strong>in een samengestelde tijd staat het tussen het hulpwerkwoord en het deelwoord</strong>: <em>J'ai <strong>souvent</strong> pensé à toi.</em>"
+    }
+   ]
+  },
+  {
+   "kop": "Nevenschikking en onderschikking",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "<strong>Het verschil: nevenschikking zet gelijke delen naast elkaar</strong>, onderschikking hangt een bijzin onder een hoofdzin."
+    },
+    {
+     "soort": "tekst",
+     "html": "De nevenschikkende voegwoorden zijn <strong>et</strong>, <strong>mais</strong> en <strong>ou</strong>. <strong>Ou</strong> betekent of, zoals in <em>thé ou café</em>. De fiche noemt ook <strong>or</strong>, dat want of echter betekent en een redenering een wending geeft."
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Na <em>pour que</em> en <em>à moins que</em> volgt een subjonctif.</strong>"
+    }
+   ]
+  },
+  {
+   "kop": "De indirecte rede",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Een <strong>indirecte vraag</strong> is <strong>een vraag in een bijzin</strong>. <strong><em>Est-ce que</em> wordt daarin <em>si</em></strong>: <em>Est-ce que tu viens ?</em> wordt <em>Il me demande <strong>si</strong> je viens.</em>"
+    },
+    {
+     "soort": "tekst",
+     "html": "Bij het omzetten verandert er meer: <strong>de persoon van het werkwoord</strong>, <strong>de bezittelijke voornaamwoorden</strong> en <strong>de tijd als de inleiding in het verleden staat</strong>."
+    },
+    {
+     "soort": "tekst",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">directe rede</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">indirecte rede, na een inleiding in het verleden</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Je viens.</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Il a dit qu'il venait. (présent → imparfait)</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">J'ai fini.</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Il a dit qu'il avait fini. (passé composé → plus-que-parfait)</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Je viendrai demain.</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Elle a dit qu'elle viendrait le lendemain.</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">demain</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">le lendemain</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">hier</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">la veille</td></tr></table>"
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Staat de inleiding in het verleden, dan schuift een présent in de indirecte rede naar de imparfait.</strong> En ook de tijdwoorden schuiven mee: <strong>demain wordt le lendemain</strong>."
+    }
+   ]
+  },
+  {
+   "kop": "De passieve zin",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Een passieve zin is <em>être</em> plus het deelwoord, met <strong>par</strong> voor de handelende persoon. <em>Le facteur apporte le courrier</em> wordt <strong>Le courrier est apporté par le facteur.</strong>"
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>In een passieve Franse zin blijft het deelwoord niet onveranderd.</strong> Het komt overeen met het onderwerp, want het staat bij <em>être</em>: <em>La lettre est <strong>écrite</strong></em>, <em>Les lettres sont <strong>écrites</strong></em>."
+    },
+    {
+     "soort": "tekst",
+     "html": "In de passieve vorm staan: <strong>Le pont a été construit en 1920.</strong>, <strong>La décision sera prise demain.</strong> en <strong>Ce livre est lu partout.</strong>"
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Krantenartikels gebruiken volgens de fiche vaak de passieve vorm omdat de handelende persoon onbekend of onbelangrijk is.</strong> Wat telt, is wat er gebeurd is."
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Het Frans vermijdt <em>on</em> niet en gebruikt in spreektaal juist niet altijd de passieve vorm.</strong> Integendeel: waar het Engels een passieve zin neerzet, kiest het Frans meestal <em>on</em>. <em>On m'a dit que le musée était fermé</em> is <strong>men heeft me gezegd dat het museum dicht was</strong>."
+    }
+   ]
+  },
+  {
+   "kop": "Oefen dit ook buiten het scherm",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Op dit platform oefen je lezen, woordenschat en grammatica. Maar <strong>luisteren</strong> is de helft van het examen Frans 1, en Frans 2 bestaat uit <strong>een spreekopdracht die je thuis opneemt</strong>, twee schrijfopdrachten en <strong>een gesprek van tien minuten</strong>. Luisteren en spreken leer je niet achter een scherm. Je leert ze door te luisteren naar mensen die echt Frans spreken, en door zelf je mond open te doen, ook als het hakkelt."
+    },
+    {
+     "soort": "kader",
+     "html": "<strong>Deze week:</strong> vertel in het Frans wat iemand je deze week gezegd heeft, in de indirecte rede, en let op hoe de tijden een stap terugschuiven. Doe het één keer, en let daarna op wat je miste of niet gezegd kreeg. Dat is precies je volgende oefening."
+    }
+   ]
+  }
+ ],
+ "onthoud": []
+}

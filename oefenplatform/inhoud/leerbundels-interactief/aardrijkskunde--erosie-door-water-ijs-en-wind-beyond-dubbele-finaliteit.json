@@ -1,0 +1,220 @@
+{
+ "vak": "Aardrijkskunde",
+ "titel": "Erosie door water, ijs en wind",
+ "onder": "Wat een rivier van bron tot monding doet, welke vormen een gletsjer uitschuurt, en wat de wind in een droog gebied achterlaat.",
+ "secties": [
+  {
+   "kop": "Drie erosievormen naast elkaar",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "De fiche noemt de <strong>erosievormen</strong> samen: het <strong>massatransport</strong> door de zwaartekracht, de <strong>watererosie</strong> door rivieren en regen, de <strong>glaciale erosie</strong> door ijs en de winderosie. <strong>Chemische verwering</strong> hoort daar niet bij: verweren is ter plaatse uiteenvallen, eroderen is weggevoerd worden."
+    },
+    {
+     "soort": "tekst",
+     "html": "Watererosie zie je ook op een akker bij ons: na een onweer staat er <strong>een modderstroom op de weg</strong> onder een steile akker, want <strong>het water neemt de bodem mee</strong>. Een vruchtbare bodem of een lage ligging heeft er niets mee te maken; de helling en de kale grond hebben dat wel."
+    }
+   ]
+  },
+  {
+   "kop": "Het stroombekken",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Een <strong>stroombekken</strong> is <strong>het hele gebied dat op één rivier afwatert</strong>, van de verste beek tot de monding. De lijn die twee stroombekkens scheidt, is de <strong>waterscheidingskam</strong>: regen die aan de ene kant valt, komt in de ene rivier terecht, regen aan de andere kant in de andere."
+    },
+    {
+     "soort": "tekst",
+     "html": "De plaats waar een rivier in de zee of in een andere rivier uitkomt, is de <strong>monding</strong>."
+    },
+    {
+     "soort": "figuur",
+     "html": "<svg viewBox=\"0 0 470 190\" width=\"470\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"428\" y=\"0\" width=\"42\" height=\"142\" fill=\"#5b93b8\" opacity=\"0.4\"/><polygon points=\"44.0,81.6 48.0,81.6 52.0,81.7 56.0,81.8 60.0,82.0 64.0,82.2 68.0,82.4 72.0,82.7 76.0,83.0 80.0,83.3 84.0,83.6 88.0,83.9 92.0,84.2 96.0,84.5 100.0,84.7 104.0,84.9 108.0,85.0 112.0,85.1 116.0,85.1 120.0,85.0 124.0,84.8 128.0,84.6 132.0,84.2 136.0,83.8 140.0,83.3 144.0,82.6 148.0,81.9 152.0,81.1 156.0,80.3 160.0,79.4 164.0,78.4 168.0,77.4 172.0,76.3 176.0,75.3 180.0,74.2 184.0,73.2 188.0,72.2 192.0,71.3 196.0,70.4 200.0,69.6 204.0,68.9 208.0,68.3 212.0,67.8 216.0,67.5 220.0,67.3 224.0,67.2 228.0,67.3 232.0,67.6 236.0,68.0 240.0,68.6 244.0,69.3 248.0,70.2 252.0,71.3 256.0,72.4 260.0,73.7 264.0,75.1 268.0,76.6 272.0,78.2 276.0,79.8 280.0,81.4 284.0,83.0 288.0,84.6 292.0,86.2 296.0,87.7 300.0,89.1 304.0,90.4 308.0,91.6 312.0,92.6 316.0,93.4 320.0,94.0 324.0,94.4 328.0,94.6 332.0,94.6 336.0,94.3 340.0,93.8 344.0,93.0 348.0,92.0 352.0,90.7 356.0,89.3 360.0,87.6 364.0,85.7 368.0,83.6 372.0,81.3 376.0,78.9 380.0,76.4 384.0,73.8 388.0,71.2 392.0,68.1 396.0,64.2 400.0,60.3 404.0,56.5 408.0,52.8 412.0,49.3 416.0,45.9 420.0,42.7 424.0,39.8 428.0,37.1 432.0,34.7 436.0,32.6 436.0,84.0 432.0,83.3 428.0,82.9 424.0,82.8 420.0,83.0 416.0,83.4 412.0,84.0 408.0,84.7 404.0,85.6 400.0,86.6 396.0,87.7 392.0,88.9 388.0,90.9 384.0,93.3 380.0,95.6 376.0,97.9 372.0,100.0 368.0,102.1 364.0,103.9 360.0,105.6 356.0,107.0 352.0,108.3 348.0,109.3 344.0,110.1 340.0,110.7 336.0,111.0 332.0,111.0 328.0,110.8 324.0,110.4 320.0,109.8 316.0,108.9 312.0,107.9 308.0,106.7 304.0,105.3 300.0,103.8 296.0,102.1 292.0,100.4 288.0,98.6 284.0,96.8 280.0,95.0 276.0,93.1 272.0,91.3 268.0,89.6 264.0,87.9 260.0,86.3 256.0,84.8 252.0,83.4 248.0,82.2 244.0,81.1 240.0,80.2 236.0,79.4 232.0,78.8 228.0,78.3 224.0,78.0 220.0,77.9 216.0,77.9 212.0,78.1 208.0,78.3 204.0,78.8 200.0,79.3 196.0,79.9 192.0,80.6 188.0,81.4 184.0,82.2 180.0,83.1 176.0,84.0 172.0,84.9 168.0,85.7 164.0,86.6 160.0,87.4 156.0,88.2 152.0,88.9 148.0,89.5 144.0,90.1 140.0,90.5 136.0,90.9 132.0,91.2 128.0,91.4 124.0,91.6 120.0,91.6 116.0,91.6 112.0,91.4 108.0,91.2 104.0,91.0 100.0,90.7 96.0,90.3 92.0,90.0 88.0,89.5 84.0,89.1 80.0,88.7 76.0,88.3 72.0,87.9 68.0,87.6 64.0,87.2 60.0,87.0 56.0,86.7 52.0,86.6 48.0,86.4 44.0,86.4\" fill=\"#5b93b8\"/><path d=\"M168 16 q16 26 6 40 q-8 12 4 22\" fill=\"none\" stroke=\"#5b93b8\" stroke-width=\"5\" stroke-linecap=\"round\"/><polygon points=\"10,66 25,40 40,66\" fill=\"#9a948a\" opacity=\"0.45\"/><polygon points=\"34,66 53,26 72,66\" fill=\"#9a948a\" opacity=\"0.45\"/><polygon points=\"66,66 80,44 94,66\" fill=\"#9a948a\" opacity=\"0.45\"/><path d=\"M44 84 L44 70\" stroke=\"#5b93b8\" stroke-width=\"4\" stroke-linecap=\"round\"/><circle cx=\"44\" cy=\"68\" r=\"5.5\" fill=\"#234539\"/><line x1=\"44\" y1=\"140\" x2=\"44\" y2=\"150\" stroke=\"#6b7260\" stroke-width=\"1.2\"/><text x=\"44.0\" y=\"164.0\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"11\" font-weight=\"600\" fill=\"#c17f2b\">bron</text><line x1=\"124\" y1=\"140\" x2=\"124\" y2=\"150\" stroke=\"#6b7260\" stroke-width=\"1.2\"/><text x=\"124.0\" y=\"164.0\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"11\" font-weight=\"600\" fill=\"#c17f2b\">bovenloop</text><text x=\"124.0\" y=\"177.0\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"9\" fill=\"#6b7260\">smal en snel</text><line x1=\"232\" y1=\"140\" x2=\"232\" y2=\"150\" stroke=\"#6b7260\" stroke-width=\"1.2\"/><text x=\"232.0\" y=\"164.0\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"11\" font-weight=\"600\" fill=\"#c17f2b\">middenloop</text><line x1=\"340\" y1=\"140\" x2=\"340\" y2=\"150\" stroke=\"#6b7260\" stroke-width=\"1.2\"/><text x=\"340.0\" y=\"164.0\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"11\" font-weight=\"600\" fill=\"#c17f2b\">benedenloop</text><text x=\"340.0\" y=\"177.0\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"9\" fill=\"#6b7260\">breed en traag</text><line x1=\"436\" y1=\"140\" x2=\"436\" y2=\"150\" stroke=\"#6b7260\" stroke-width=\"1.2\"/><text x=\"436.0\" y=\"164.0\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"11\" font-weight=\"600\" fill=\"#c17f2b\">monding</text><text x=\"178.0\" y=\"12.0\" text-anchor=\"start\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"9.5\" fill=\"#6b7260\">zijrivier</text><text x=\"462.0\" y=\"132.0\" text-anchor=\"end\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"9.5\" fill=\"#5b93b8\">zee</text></svg>",
+     "onderschrift": "Van de bron tot de monding wordt de rivier breder en gaat ze kronkelen."
+    }
+   ]
+  },
+  {
+   "kop": "Boven-, midden- en benedenloop",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "De <strong>bovenloop</strong> kenmerkt zich door <strong>een groot verval</strong>, <strong>een hoge stroomsnelheid</strong> en <strong>vooral verticale erosie</strong>: de rivier snijdt zich naar beneden in."
+    },
+    {
+     "soort": "tekst",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">loop</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">wat overheerst</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">dalvorm</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">bovenloop</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">verticale erosie</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">het V-dal</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">middenloop</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">zijdelingse erosie, meanders</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">het vlakbodemdal</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">benedenloop</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">sedimentatie</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">de alluviale vlakte</td></tr></table>"
+    },
+    {
+     "soort": "tekst",
+     "html": "Bij de bovenloop hoort dus <strong>het V-dal</strong>. <strong>In de benedenloop overheerst de sedimentatie</strong>: de rivier heeft bijna geen verval meer en laat vallen wat ze meedroeg. De vlakte die ze met haar eigen afzettingen opbouwt, is de <strong>alluviale vlakte</strong>."
+    },
+    {
+     "soort": "tekst",
+     "html": "Het <strong>vlakbodemdal</strong> hoort bij <strong>een rivier die zich in een vlakte heeft ingesneden en nu zijdelings uitbreidt</strong>. Een <strong>kloofdal ontstaat waar een rivier zich snel insnijdt in hard gesteente</strong>: de wanden zijn hard genoeg om steil te blijven staan."
+    },
+    {
+     "soort": "figuur",
+     "html": "<svg viewBox=\"0 0 470 196\" width=\"470\" xmlns=\"http://www.w3.org/2000/svg\"><g transform=\"translate(16,14)\"><path d=\"M 0 20 L 34 24 L 92 128 L 150 24 L 184 20 L 184 150 L 0 150 Z\" fill=\"#9fb08c\" stroke=\"#234539\" stroke-width=\"1.6\"/></g><text x=\"108.0\" y=\"176.0\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"11\" font-weight=\"600\" fill=\"#23291f\">V-dal</text><text x=\"108.0\" y=\"184.0\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"9\" fill=\"#6b7260\">smalle bodem, een rivier snijdt zich in</text><g transform=\"translate(256,14)\"><path d=\"M 0 20 L 24 24 L 46 112 Q 92 142 138 112 L 160 24 L 184 20 L 184 150 L 0 150 Z\" fill=\"#cfd6c6\" stroke=\"#234539\" stroke-width=\"1.6\"/></g><text x=\"348.0\" y=\"176.0\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"11\" font-weight=\"600\" fill=\"#23291f\">U-dal</text><text x=\"348.0\" y=\"184.0\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"9\" fill=\"#6b7260\">brede bodem, een gletsjer schuurt uit</text><ellipse cx=\"108\" cy=\"140\" rx=\"9\" ry=\"3\" fill=\"#9dc3d8\"/><path d=\"M 302 126 Q 348 156 394 126 L 394 140 Q 348 170 302 140 Z\" fill=\"#f4f8fa\" stroke=\"#6b7260\" stroke-width=\"1\"/></svg>",
+     "onderschrift": "Het V-dal van een rivier naast het U-dal van een gletsjer."
+    },
+    {
+     "soort": "tekst",
+     "html": "Het <strong>evenwichtsprofiel</strong> van een rivier is <strong>de lijn waar erosie en afzetting in balans zijn</strong>: de ideale, holle lijn waar een rivier naartoe werkt, steil bij de bron en bijna vlak bij de monding."
+    }
+   ]
+  },
+  {
+   "kop": "Van bron tot delta",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Een rivier doet onderweg drie dingen: ze <strong>erodeert</strong>, ze <strong>transporteert</strong> en ze <strong>sedimenteert</strong>. Welke van de drie overheerst, hangt af van haar snelheid, en die hangt af van het verval."
+    },
+    {
+     "soort": "tekst",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Vorm</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Wat het is</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Waar</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een <strong>ravijn</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een <strong>diepe kerf van stromend water</strong> in een helling</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">op steile, kale hellingen</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een <strong>kloofdal</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een nauw dal waar de rivier zich snel insnijdt in hard gesteente</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">in de bovenloop</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een <strong>meander</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een bocht die zich uitholt aan de holle en opbouwt aan de bolle oever</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">in de midden- en benedenloop</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een <strong>alluviale vlakte</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een vlakte van <strong>rivierafzettingen</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">in de benedenloop</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een <strong>delta</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een vertakte monding vol eilandjes van afzetting</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">waar de rivier in zee komt</td></tr></table>"
+    },
+    {
+     "soort": "tekst",
+     "html": "Een <strong>delta</strong> ontstaat doordat <strong>de rivier vertraagt en haar last afzet</strong>: in stil water blijft niets meer zweven. Om dezelfde reden zet een rivier bij een overstroming <strong>slib</strong> af op de vlakte: <strong>buiten de bedding gaat het water trager</strong>, en wat het niet meer kan dragen, zakt. Dat slib is precies waarom riviervlakten zo vruchtbaar zijn."
+    },
+    {
+     "soort": "kader",
+     "html": "Het <strong>verval</strong> is het hoogteverschil per kilometer, en dat is in de <strong>bovenloop het grootst</strong>, niet in de middenloop. Het <strong>debiet</strong> is iets anders: <strong>de hoeveelheid water per seconde</strong>. Dat <strong>wisselt met het seizoen</strong>, en <strong>bij een hoog debiet erodeert een rivier meer</strong>."
+    }
+   ]
+  },
+  {
+   "kop": "Transport en het Hjülströmdiagram",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Op een <strong>Hjülströmdiagram</strong> lees je af <strong>wat een korrel bij welke snelheid doet</strong>: opgenomen worden, meegevoerd blijven of neervallen. <strong>Een grove kei heeft de hoogste stroomsnelheid nodig om opgenomen te worden</strong>, want hij is het zwaarst."
+    },
+    {
+     "soort": "tekst",
+     "html": "Een rivier vervoert haar materiaal <strong>niet enkel rollend over de bodem</strong>. Er zijn vier manieren tegelijk aan het werk."
+    },
+    {
+     "soort": "tekst",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">manier</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">wat er gebeurt</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">rollen</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">de grofste keien schuiven over de bodem</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">saltatie</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">korrels springen met kleine sprongetjes vooruit</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">suspensie</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">fijn materiaal zweeft in het water mee</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">oplossing</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">stoffen zijn in het water opgelost en zijn onzichtbaar</td></tr></table>"
+    },
+    {
+     "soort": "tekst",
+     "html": "De manier waarop korrels <strong>zwevend</strong> in het water worden meegevoerd, heet dus <strong>suspensie</strong>."
+    }
+   ]
+  },
+  {
+   "kop": "Meanders en differentiële erosie",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Een <strong>meander</strong> ontstaat doordat <strong>de rivier zijdelings erodeert in een vlak gebied</strong>. Zodra het verval klein is, gaat het water in een bocht sneller aan de buitenkant en trager aan de binnenkant, en vanaf dan versterkt de bocht zichzelf."
+    },
+    {
+     "soort": "tekst",
+     "html": "In een meander gebeuren drie dingen tegelijk: <strong>de holle oever wordt uitgeschuurd</strong>, <strong>aan de bolle oever wordt zand afgezet</strong> en <strong>de bocht wordt doorheen de jaren groter</strong>. Let op de twee oevers: <strong>aan de holle oever wordt géén materiaal afgezet</strong>, daar wordt juist weggehaald."
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Differentiële erosie</strong> is dat <strong>hard gesteente trager erodeert dan zacht</strong>. Zo ontstaan watervallen, steilranden en getuigenheuvels: de harde bank blijft staan terwijl alles eromheen verdwijnt."
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Terugschrijdende erosie</strong> is de erosie waarbij <strong>een waterval zich stroomopwaarts terugwerkt</strong>. Het vallende water holt de zachte laag onder de harde bank uit, die bank breekt af, en zo kruipt de waterval jaar na jaar stroomopwaarts."
+    }
+   ]
+  },
+  {
+   "kop": "Overstromen",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Een rivier overstroomt sneller als haar bekken verhard is, en daar lopen drie dingen samen: <strong>het water kan niet infiltreren</strong>, <strong>het stroomt meteen naar de rivier</strong>, en <strong>het debiet krijgt een scherpe piek</strong>. Dezelfde bui boven een weide en boven een verkaveling geeft een heel ander hoogwater."
+    }
+   ]
+  },
+  {
+   "kop": "Wat een gletsjer achterlaat",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Een gletsjer maakt <strong>een U-dal</strong>: hij schuurt niet alleen naar beneden maar ook zijdelings, en daarom is de bodem breed. Hoog in de bergen begint hij in een kom, de <strong>cirque</strong> of kaar; zijn laagste, smeltende uiteinde heet het <strong>gletsjerfront</strong>."
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Een gletsjer smelt niet enkel ter plaatse weg: hij beweegt.</strong> Het ijs stroomt traag onder zijn eigen gewicht naar beneden, meters per jaar."
+    },
+    {
+     "soort": "tekst",
+     "html": "De sporen die hij achterlaat: <strong>een U-dal en een cirque</strong>, <strong>morenen en zwerfkeien</strong>, en <strong>gletsjerkrassen op het gesteente</strong>."
+    },
+    {
+     "soort": "tekst",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">spoor</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">wat het is</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">morene</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een hoop puin die een gletsjer achterlaat</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">zwerfkei</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een blok dat een gletsjer heeft meegebracht</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">gletsjerkras</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een groef, geschuurd door stenen in het ijs</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">stuwwal</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een rug die door een ijskap is opgeduwd</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">fjord</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een uitgeschuurd dal dat later door de zee onderliep</td></tr></table>"
+    },
+    {
+     "soort": "tekst",
+     "html": "Een <strong>gletsjerkras</strong> ontstaat doordat <strong>stenen in het ijs over de bodem krassen</strong>: het ijs zelf is te zacht, het puin erin doet het werk. En <strong>een fjord is inderdaad een door een gletsjer uitgeschuurd dal dat later door de zee is ondergelopen</strong>."
+    },
+    {
+     "soort": "tekst",
+     "html": "Het geologische tijdvak van de laatste grote ijstijden heet het <strong>pleistoceen</strong>; een warme periode tussen twee ijstijden is een <strong>interglaciaal</strong>."
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Tijdens de laatste ijstijd lag er géén ijskap over België.</strong> Het ijs reikte tot in Noord-Nederland en Noord-Duitsland; bij ons was het een koude, boomloze toendra met permafrost, en dat is precies waarom er hier wél löss ligt."
+    }
+   ]
+  },
+  {
+   "kop": "De wind",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "De wind gebruikt dezelfde transportwijzen als het water: <strong>suspensie van fijn stof</strong>, <strong>saltatie van zandkorrels</strong> en <strong>rollen van de grofste korrels</strong>. <strong>Winderosie werkt het sterkst in een droog gebied met weinig plantengroei</strong>, want zodra er wortels en bladeren zijn, ligt het zand vast."
+    },
+    {
+     "soort": "tekst",
+     "html": "Een <strong>paddenstoelrots</strong> ontstaat doordat <strong>zand vooral onderaan de rots wegschuurt</strong>: springende korrels komen zelden hoger dan een meter, dus slijt de voet sneller weg dan de top."
+    },
+    {
+     "soort": "tekst",
+     "html": "De woestijnvormen die door winderosie ontstaan: <strong>de rotswoestijn</strong>, <strong>de steenwoestijn</strong> en <strong>het duinengebied</strong>."
+    },
+    {
+     "soort": "tekst",
+     "html": "Het fijne, door de wind aangevoerde leem dat in Vlaanderen en Haspengouw ligt, heet <strong>löss</strong>. Waarom ligt er in de Kempen zand en in Haspengouw löss? <strong>Het zand viel dichter bij de bron dan het fijne leem.</strong> De poolwind blies in de ijstijd over de droge Noordzeebodem; het zware zand viel er het eerst uit en vormde de dekzanden van de Kempen, het lichte stof bleef langer zweven en kwam pas zuidelijker neer. Dat verschil ligt vandaag nog altijd aan de basis van waar men welke landbouw doet."
+    },
+    {
+     "soort": "tekst",
+     "html": "Men plant hagen en houtkanten rond akkers aan <strong>om de wind te breken</strong>, zodat de vruchtbare bovenlaag blijft liggen."
+    }
+   ]
+  },
+  {
+   "kop": "Wat het ijs en de wind achterlaten",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Een <strong>crevasse</strong> of gletsjerkloof is <strong>een spleet in het ijs</strong> zelf, die openscheurt waar de gletsjer over een bult of een bocht moet. Niet te verwarren met de <strong>gletsjerkrassen</strong>, de <strong>groeven in het gesteente</strong> eronder."
+    },
+    {
+     "soort": "kader",
+     "html": "<strong>Het landijs van de laatste ijstijd bereikte België niet.</strong> Het stopte in Nederland, ongeveer ter hoogte van de grote rivieren; bij ons was het wel permafrost en toendra. De stuwwallen van Nijmegen en Arnhem zijn de randen van dat ijs. Zwerfkeien die je hier vindt, zijn meestal door rivieren of door mensen aangevoerd."
+    },
+    {
+     "soort": "tekst",
+     "html": "De wind werkt vooral <strong>in droge gebieden met weinig plantengroei</strong>, want elders houdt de vegetatie het zand vast. Daarom <strong>plant men helmgras op de duinen</strong> aan onze kust: <strong>het houdt het zand vast</strong> met zijn lange wortels. Een <strong>duin ontstaat dus net waar de wind zand aanvoert en laat liggen</strong>, niet waar hij het wegblaast."
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Differentiële erosie</strong> betekent dat <strong>harde lagen blijven staan</strong> terwijl zachte wegslijten. Zo krijgt een <strong>paddenstoelrots</strong> zijn vorm, en zo steken in een landschap net de harde banken als richels boven het maaiveld uit."
+    }
+   ]
+  }
+ ],
+ "onthoud": []
+}

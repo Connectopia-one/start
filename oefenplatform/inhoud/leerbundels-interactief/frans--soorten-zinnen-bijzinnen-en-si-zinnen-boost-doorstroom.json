@@ -1,0 +1,188 @@
+{
+ "vak": "Frans",
+ "titel": "Soorten zinnen, bijzinnen en si-zinnen",
+ "onder": "Vragen stellen, ontkennen, uitroepen, de zinsdelen op hun plaats zetten, en de twee soorten si-zinnen.",
+ "secties": [
+  {
+   "kop": "De soorten zinnen",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "De vakfiche deelt de zinnen op drie manieren in, en die drie staan los van elkaar. Naar wat je ermee doet: <strong>mededelend, vragend, bevelend</strong> en <strong>uitroepend</strong>. Naar de vorm: <strong>bevestigend</strong> of <strong>ontkennend</strong>. En naar de bouw: <strong>enkelvoudig</strong> of <strong>samengesteld</strong>."
+    },
+    {
+     "soort": "tekst",
+     "html": "Een <strong>samengestelde</strong> zin heeft <strong>meer dan één persoonsvorm</strong>. Dat heeft niets met de lengte te maken: een zin van vier woorden kan samengesteld zijn en een zin van twintig woorden enkelvoudig."
+    }
+   ]
+  },
+  {
+   "kop": "Drie manieren om een vraag te stellen",
+   "blokken": [
+    {
+     "soort": "figuur",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Manier</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Voorbeeld</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Wanneer</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">met de toon</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Tu viens ?</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">spreektaal, de gewoonste vorm</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">met est-ce que</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Est-ce que tu viens ?</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">overal bruikbaar, ook geschreven</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">met omkering</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Viens-tu ? / Partez-vous ?</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">verzorgd, in een brief of een examen</td></tr></table>",
+     "onderschrift": "De drie vraagvormen van het Frans."
+    },
+    {
+     "soort": "tekst",
+     "html": "Je mag ze niet mengen: <em>Est-ce que viens-tu ?</em> is fout, want dat zijn er twee tegelijk. En bij de <strong>omkering</strong> komt er soms een extra <strong>-t-</strong> tussen, als het werkwoord op een klinker eindigt: <em>A-<strong>t</strong>-il le temps ?</em>, <em>Parle-<strong>t</strong>-elle français ?</em>"
+    },
+    {
+     "soort": "figuur",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Vraagwoord</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Vraagt naar</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">pourquoi</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een reden</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">comment, de quelle façon</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een manier</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">combien</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een aantal</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">où, quand</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een plaats, een tijdstip</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">qui, que, quoi</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een persoon, een zaak</td></tr></table>",
+     "onderschrift": "De vraagwoorden en wat ze opvragen."
+    }
+   ]
+  },
+  {
+   "kop": "Ontkennen",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "De Franse ontkenning bestaat uit <strong>twee delen</strong> die rond het <strong>vervoegde werkwoord</strong> staan: <em>Il <strong>ne</strong> parle <strong>pas</strong>.</em> In een <strong>samengestelde tijd</strong> staan ze rond het <strong>hulpwerkwoord</strong>: <em>Je n'ai pas mangé.</em>"
+    },
+    {
+     "soort": "figuur",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Ontkenning</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Nederlands</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Voorbeeld</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">ne … pas</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">niet</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">je ne mange pas</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">ne … plus</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">niet meer</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">je ne mange plus de viande, ik eet geen vlees meer</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">ne … jamais</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">nooit</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">il ne vient jamais</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">ne … rien</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">niets</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">je ne vois rien</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">ne … personne</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">niemand</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">je ne vois personne</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">ne … que</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">maar, slechts</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">je n'ai que dix euros</td></tr></table>",
+     "onderschrift": "De ontkenningen; ne … toujours bestaat niet als ontkenning."
+    },
+    {
+     "soort": "weetje",
+     "html": "Het tweede deel vervángt <em>pas</em>, het komt er niet bij. <em>Je ne vois <strong>personne</strong></em> is juist; <em>je ne vois pas personne</em> is fout, want dan staan er twee ontkenningen in dezelfde zin."
+    }
+   ]
+  },
+  {
+   "kop": "Uitroepen",
+   "blokken": [
+    {
+     "soort": "figuur",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Uitroepwoord</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Komt voor</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Voorbeeld</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">quel, quelle, quels, quelles</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een naamwoord</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Quelle belle maison !</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">comme</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een hele zin</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Comme c'est beau !</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">que</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een hele zin</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Que c'est gentil !</td></tr></table>",
+     "onderschrift": "De drie manieren om een uitroep te maken."
+    },
+    {
+     "soort": "tekst",
+     "html": "Let bij een uitroep op de vorm van <em>quel</em>: die past zich aan het naamwoord aan. <em><strong>Quelle</strong> belle maison !</em> met <em>maison</em> vrouwelijk."
+    },
+    {
+     "soort": "weetje",
+     "html": "In het Frans staat er een <strong>spatie vóór</strong> een uitroepteken en een vraagteken: <em>Viens-tu ?</em> en <em>Quelle journée !</em> In het Nederlands doen we dat niet, en op een examen valt het op."
+    }
+   ]
+  },
+  {
+   "kop": "De zinsdelen en de woordvolgorde",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "De vakfiche noemt drie zinsdelen met name: het <strong>onderwerp</strong> (<em>sujet</em>), de <strong>persoonsvorm</strong> (<em>verbe conjugué</em>) en het <strong>lijdend voorwerp</strong> (<em>COD</em>). Een <strong>bijwoordelijke bepaling</strong> van plaats hoort daar niet bij: die bestaat wel, maar de fiche vraagt ze niet met name. De gewone woordvolgorde is <strong>onderwerp, werkwoord, voorwerp</strong>."
+    },
+    {
+     "soort": "figuur",
+     "html": "<svg viewBox=\"0 0 470 70\" width=\"470\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"4.0\" y=\"4\" width=\"190.4\" height=\"34\" rx=\"8\" fill=\"#2f5d5022\" stroke=\"#2f5d50\" stroke-width=\"1.6\"/><text x=\"99.2\" y=\"26\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"13\" font-weight=\"600\" fill=\"#234539\">Les enfants</text><text x=\"99.2\" y=\"55\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"10\" fill=\"#2f5d50\">sujet</text><rect x=\"200.4\" y=\"4\" width=\"103.8\" height=\"34\" rx=\"8\" fill=\"#c17f2b22\" stroke=\"#c17f2b\" stroke-width=\"1.6\"/><text x=\"252.3\" y=\"26\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"13\" font-weight=\"600\" fill=\"#234539\">jouent</text><text x=\"252.3\" y=\"55\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"10\" fill=\"#c17f2b\">verbe conjugué</text><rect x=\"310.2\" y=\"4\" width=\"155.8\" height=\"34\" rx=\"8\" fill=\"#23453922\" stroke=\"#234539\" stroke-width=\"1.6\"/><text x=\"388.1\" y=\"26\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"13\" font-weight=\"600\" fill=\"#234539\">au ballon</text><text x=\"388.1\" y=\"55\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"10\" fill=\"#234539\">complément</text></svg>",
+     "onderschrift": "Dezelfde volgorde als in het Nederlands: eerst wie, dan wat hij doet."
+    },
+    {
+     "soort": "tekst",
+     "html": "Het werkwoord komt <strong>overeen</strong> met het onderwerp: <em>Les enfants <strong>jouent</strong> dans le jardin</em>, met een meervoud aan allebei de kanten. <em>Les enfants joue</em> of <em>l'enfant jouent</em> loopt dus mis."
+    },
+    {
+     "soort": "tekst",
+     "html": "Eén geval breekt de volgorde: een <strong>voornaamwoord</strong> als voorwerp komt <strong>vóór</strong> het werkwoord. <em>Je vois le film</em> wordt <em>je <strong>le</strong> vois</em>. Dat is geen uitzondering van dat ene werkwoord maar een vaste regel."
+    }
+   ]
+  },
+  {
+   "kop": "Nevenschikking en onderschikking",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Een <strong>nevengeschikte</strong> zin kan <strong>alleen</strong> staan; een <strong>ondergeschikte</strong> (onderschikkende) niet. <em>Il pleut, <strong>donc</strong> je prends mon parapluie</em> bestaat uit twee zinnen die elk op zichzelf kunnen staan: dat is <strong>nevenschikking</strong>, ook al legt <em>donc</em> een verband."
+    },
+    {
+     "soort": "figuur",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Soort</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Voegwoorden</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">nevenschikkend</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">et, mais, ou, donc, car</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">reden</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">parce que, comme</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">tijd</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">quand, dès que, pendant que</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">doel</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">pour que (+ subjonctif)</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">toegeving</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">bien que (+ subjonctif)</td></tr></table>",
+     "onderschrift": "De voegwoorden, naar wat ze doen."
+    },
+    {
+     "soort": "tekst",
+     "html": "<em>Je reste <strong>parce qu'</strong>il pleut</em>: <em>parce que</em> betekent omdat, en de bijzin kan niet alleen staan. <em>Comme</em> vooraan doet hetzelfde: <em>Comme il pleut, je reste à la maison.</em>"
+    },
+    {
+     "soort": "kader",
+     "html": "<strong>Pour of pour que?</strong> <em>Pour</em> gaat met een <strong>infinitief</strong>: <em>je travaille <strong>pour</strong> gagner ma vie</em>, om mijn brood te verdienen. <em>Pour que</em> gaat met een <strong>subjonctif</strong>, en gebruik je als de twee delen een <strong>ander</strong> onderwerp hebben: <em>je travaille pour que mes enfants puissent étudier</em>."
+    }
+   ]
+  },
+  {
+   "kop": "Betrekkelijke bijzinnen",
+   "blokken": [
+    {
+     "soort": "figuur",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Juist</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Waarom</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">la fille qui chante</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">qui is het onderwerp van chante</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">le film que j'ai vu</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">que is het lijdend voorwerp van ai vu</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">la ville où je suis né</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">où voor een plaats</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">voilà la maison où j'ai grandi</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">où, want je grandis érgens</td></tr></table>",
+     "onderschrift": "Vier bijzinnen met het juiste voornaamwoord."
+    },
+    {
+     "soort": "tekst",
+     "html": "<em>Le livre <strong>qui</strong> je lis</em> is fout: in die bijzin is <em>je</em> het onderwerp, dus moet het <em><strong>que</strong> je lis</em> zijn. Vraag je bij elke bijzin af welke rol het voornaamwoord speelt."
+    }
+   ]
+  },
+  {
+   "kop": "De si-zinnen",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Twee vaste patronen, en je moet ze allebei kennen. Welke je kiest, hangt af van hoe <strong>echt</strong> de mogelijkheid is."
+    },
+    {
+     "soort": "figuur",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Soort</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Patroon</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Voorbeeld</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een echte mogelijkheid</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">si + présent → futur</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Si tu veux, nous partirons.</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een echte mogelijkheid</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">si + présent → présent</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">S'il pleut, je reste à la maison.</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">iets onwerkelijks</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">si + imparfait → conditionnel</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Si j'avais de l'argent, j'achèterais une voiture.</td></tr></table>",
+     "onderschrift": "De twee patronen van de si-zin."
+    },
+    {
+     "soort": "tekst",
+     "html": "De regel die alles vasthoudt: <strong>na <em>si</em> staat nooit een futur en nooit een conditionnel</strong>. <em>Si tu voudrais, nous partirions</em> is dus fout; dat moet <em>Si tu <strong>voulais</strong>, nous partirions</em> zijn."
+    }
+   ]
+  },
+  {
+   "kop": "Voorzetsels bij plaats en vervoer",
+   "blokken": [
+    {
+     "soort": "figuur",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Frans</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Nederlands</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">en voiture, en train, en avion</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">met de auto, de trein, het vliegtuig</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">à pied, à vélo</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">te voet, met de fiets</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">au Portugal, en Belgique, aux Pays-Bas</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">naar of in een land</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">à Bruxelles, à Paris</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">in een stad — altijd à, nooit en</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">grâce à, à cause de</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">dankzij, door toedoen van</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">en face de, à côté de</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">tegenover, naast</td></tr></table>",
+     "onderschrift": "Voorzetselgroepen die de fiche zelf als voorbeeld noemt."
+    },
+    {
+     "soort": "tekst",
+     "html": "<em>Ils voyagent <strong>au</strong> Portugal cette année</em>, want <em>Portugal</em> is mannelijk. Bij <strong>steden</strong> staat altijd <em>à</em>: <em>j'habite <strong>à</strong> Bruxelles</em>, nooit <em>en Bruxelles</em>."
+    }
+   ]
+  },
+  {
+   "kop": "Bij het lezen: tel de persoonsvormen",
+   "blokken": [
+    {
+     "soort": "kader",
+     "html": "<strong>Loopt een Franse zin over drie regels?</strong> Tel dan de <strong>persoonsvormen</strong>. Zo zie je meteen <strong>hoeveel delen</strong> de zin heeft en <strong>waar elk deel begint</strong>. Zoek daarna bij elke persoonsvorm haar eigen onderwerp, en de zin valt uiteen in stukken die je elk apart begrijpt."
+    }
+   ]
+  },
+  {
+   "kop": "Oefen dit ook buiten het scherm",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Hier oefen je lezen, schrijven, woordenschat en grammatica. Maar het examen <strong>Frans 1</strong> is voor de helft <strong>luisteren</strong>, en <strong>Frans 2</strong> bestaat naast de twee schrijfopdrachten uit een <strong>spreekopdracht</strong> die je thuis opneemt en een <strong>gesprek van tien minuten</strong>. Die drie leer je niet achter een scherm, maar door Frans te horen en zelf Frans te praten, ook als het hakkelt."
+    },
+    {
+     "soort": "kader",
+     "html": "<strong>Deze week:</strong> stel in het Frans drie vragen aan iemand over zijn dag, elke keer op een andere manier: één met de toon, één met est-ce que en één met omkering. Doe het één keer en let daarna op wat je miste of niet gezegd kreeg. Dat is precies je volgende oefening."
+    }
+   ]
+  }
+ ],
+ "onthoud": []
+}

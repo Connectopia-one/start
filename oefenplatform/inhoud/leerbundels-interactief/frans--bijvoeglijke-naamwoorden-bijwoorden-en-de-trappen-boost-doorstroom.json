@@ -1,0 +1,182 @@
+{
+ "vak": "Frans",
+ "titel": "Bijvoeglijke naamwoorden, bijwoorden en de trappen",
+ "onder": "De vrouwelijke en meervoudsvormen, waar het bijvoeglijk naamwoord staat, hoe je er een bijwoord van maakt en hoe je vergelijkt.",
+ "secties": [
+  {
+   "kop": "De vrouwelijke vorm",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "De gewone regel is eenvoudig: je zet er een <strong>-e</strong> achter. <em>grand</em> wordt <em>grand<strong>e</strong></em>, <em>ouvert</em> wordt <em>ouvert<strong>e</strong></em>: <em>la porte est <strong>ouverte</strong></em>."
+    },
+    {
+     "soort": "figuur",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Uitgang</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Vrouwelijk</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Voorbeeld</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">-eux</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">-euse</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">heureux → heureuse</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">-if</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">-ive</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">sportif → sportive</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">-c</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">-che</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">blanc → blanche</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">-er</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">-ère</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">cher → chère</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">-el, -eil</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">-elle, -eille</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">nouvel → nouvelle</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">al een -e</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">blijft gelijk</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">jeune → jeune, facile → facile</td></tr></table>",
+     "onderschrift": "De uitgangen die niet gewoon een -e krijgen."
+    },
+    {
+     "soort": "tekst",
+     "html": "<em>Une histoire <strong>heureuse</strong></em> dus, en <em>une fille sportive</em>. Een bijvoeglijk naamwoord dat al op een <strong>-e</strong> eindigt, krijgt er <strong>geen tweede</strong> bij: <em>un jeune homme</em>, <em>une jeune femme</em>."
+    }
+   ]
+  },
+  {
+   "kop": "Drie woorden met een extra vorm",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "<em>Beau</em>, <em>nouveau</em> en <em>vieux</em> hebben een <strong>aparte mannelijke vorm</strong> voor een woord dat met een <strong>klinker</strong> begint, omdat de gewone vorm daar niet vlot klinkt."
+    },
+    {
+     "soort": "figuur",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Mannelijk</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Voor een klinker</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Vrouwelijk</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Mannelijk meervoud</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">beau</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">bel (un bel homme)</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">belle</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">beaux</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">nouveau</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">nouvel (un nouvel ami)</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">nouvelle</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">nouveaux</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">vieux</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">vieil (un vieil arbre)</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">vieille</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">vieux</td></tr></table>",
+     "onderschrift": "De drie woorden met vier vormen elk."
+    },
+    {
+     "soort": "tekst",
+     "html": "<em>Les <strong>nouvelles</strong> maisons</em> is dus juist: <em>maison</em> is vrouwelijk, dus het meervoud is <em>nouvelles</em>. En <em>petit</em> doet hier niet aan mee: <em>petil</em> bestaat niet."
+    }
+   ]
+  },
+  {
+   "kop": "Het meervoud",
+   "blokken": [
+    {
+     "soort": "figuur",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Uitgang</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Meervoud</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Voorbeeld</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">gewoon</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">+ s</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">gentil → gentils</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">-eau</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">-eaux</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">beau → beaux</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">-al</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">-aux</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">national → nationaux</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">-x of -s</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">blijft gelijk</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">heureux → heureux, gris → gris</td></tr></table>",
+     "onderschrift": "De meervoudsvormen van het bijvoeglijk naamwoord."
+    },
+    {
+     "soort": "tekst",
+     "html": "<em>Heureuxs</em> bestaat dus niet: een woord dat al op een <strong>-x</strong> eindigt, verandert niet. In het vrouwelijk meervoud komt er wel gewoon een -s bij: <em>des fêtes <strong>nationales</strong></em>."
+    }
+   ]
+  },
+  {
+   "kop": "Waar staat het bijvoeglijk naamwoord?",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "In het Frans staat het bijvoeglijk naamwoord <strong>meestal achter</strong> het naamwoord: <em>une voiture rouge</em>, <em>un film intéressant</em>. Dat is net omgekeerd aan het Nederlands, en het is de eerste gewoonte die je moet afleren."
+    },
+    {
+     "soort": "tekst",
+     "html": "Een klein groepje korte, veelgebruikte woorden staat er wél <strong>voor</strong>: <strong>grand, petit, jeune, vieux, beau, bon, nouveau, joli, gros</strong>. <em>Intéressant</em> hoort daar niet bij."
+    },
+    {
+     "soort": "kader",
+     "html": "<strong>Soms verandert de plaats de betekenis.</strong> <em>Un homme <strong>grand</strong></em> is een man die groot van gestalte is; <em>un <strong>grand</strong> homme</em> is een groot man in de zin van belangrijk. Hetzelfde woord, twee betekenissen, en alleen de plaats zegt welke."
+    },
+    {
+     "soort": "weetje",
+     "html": "Staat zo'n woord vóór een naamwoord in het meervoud, dan wordt <em>des</em> ook <em>de</em>: <em><strong>de</strong> vieux livres</em>, <em>de belles chaussures</em>."
+    }
+   ]
+  },
+  {
+   "kop": "De overeenkomst",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Een bijvoeglijk naamwoord na <em>être</em>, <em>sembler</em> of <em>paraître</em> komt overeen met het <strong>onderwerp</strong> van de zin: <em>Les filles sont heureus<strong>es</strong></em>, <em>Marie semble fatigué<strong>e</strong></em>, <em>Les garçons sont grand<strong>s</strong></em>. <em>Elles sont content</em> is dus fout: dat moet <em>content<strong>es</strong></em> zijn."
+    },
+    {
+     "soort": "tekst",
+     "html": "Bij een <strong>gemengde groep</strong> wint het mannelijk meervoud, ook als er maar één jongen bij is: één jongen en drie meisjes geeft <em><strong>Ils</strong> sont parti<strong>s</strong></em>."
+    },
+    {
+     "soort": "tekst",
+     "html": "Die uitgangen zijn bij het <strong>lezen</strong> een hulp: ze <strong>verraden bij welk naamwoord</strong> het woord hoort. Staat er <em>grandes</em> in een lange zin, dan weet je dat het bij een vrouwelijk meervoud hoort, en dat scheelt zoeken."
+    }
+   ]
+  },
+  {
+   "kop": "Van bijvoeglijk naamwoord naar bijwoord",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Een <strong>bijwoord</strong> zegt hoe iets gebeurt. In het Frans maak je het meestal door <strong>-ment</strong> achter de <strong>vrouwelijke</strong> vorm te zetten."
+    },
+    {
+     "soort": "figuur",
+     "html": "<svg viewBox=\"0 0 470 76\" width=\"470\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"0.0\" y=\"6\" width=\"139.3\" height=\"62\" rx=\"10\" fill=\"#ffffff\" stroke=\"#2f5d50\" stroke-width=\"1.8\"/><text x=\"69.7\" y=\"29.0\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"11.5\" font-weight=\"600\" fill=\"#234539\">doux</text><text x=\"69.7\" y=\"45.0\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"10\" font-weight=\"400\" fill=\"#6b7260\">mannelijk</text><path d=\"M144.33333333333334 37.0 h12 m0 0 l-6 -5 m6 5 l-6 5\" stroke=\"#2f5d50\" stroke-width=\"2\" fill=\"none\" stroke-linecap=\"round\"/><rect x=\"165.3\" y=\"6\" width=\"139.3\" height=\"62\" rx=\"10\" fill=\"#ffffff\" stroke=\"#2f5d50\" stroke-width=\"1.8\"/><text x=\"235.0\" y=\"29.0\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"11.5\" font-weight=\"600\" fill=\"#234539\">douce</text><text x=\"235.0\" y=\"45.0\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"10\" font-weight=\"400\" fill=\"#6b7260\">vrouwelijk</text><path d=\"M309.6666666666667 37.0 h12 m0 0 l-6 -5 m6 5 l-6 5\" stroke=\"#2f5d50\" stroke-width=\"2\" fill=\"none\" stroke-linecap=\"round\"/><rect x=\"330.7\" y=\"6\" width=\"139.3\" height=\"62\" rx=\"10\" fill=\"#ffffff\" stroke=\"#2f5d50\" stroke-width=\"1.8\"/><text x=\"400.3\" y=\"29.0\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"11.5\" font-weight=\"600\" fill=\"#234539\">doucement</text><text x=\"400.3\" y=\"45.0\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"10\" font-weight=\"400\" fill=\"#6b7260\">bijwoord</text></svg>",
+     "onderschrift": "De drie stappen van bijvoeglijk naamwoord naar bijwoord."
+    },
+    {
+     "soort": "figuur",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Bijvoeglijk naamwoord</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Bijwoord</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">rapide</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">rapidement</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">facile</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">facilement</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">vrai</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">vraiment</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">doux, douce</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">doucement — elle parle doucement</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">bon</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">bien (niet bonment)</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">mauvais</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">mal</td></tr></table>",
+     "onderschrift": "Zes bijwoorden, met de twee onregelmatige onderaan."
+    },
+    {
+     "soort": "tekst",
+     "html": "Een bijwoord is <strong>onveranderlijk</strong>: het verandert nooit mee met het geslacht of het getal van het onderwerp. <em>Elles parlent doucement</em>, zonder -s."
+    },
+    {
+     "soort": "figuur",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Bijwoord</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Nederlands</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">toujours</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">altijd</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">souvent</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">vaak</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">parfois, quelquefois</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">soms</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">rarement</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">zelden</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">jamais</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">nooit</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">lentement</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">traag — dat zegt hoe, niet hoe vaak</td></tr></table>",
+     "onderschrift": "Bijwoorden van frequentie, met één van wijze erbij."
+    },
+    {
+     "soort": "weetje",
+     "html": "In een <strong>samengestelde tijd</strong> staat een kort bijwoord <strong>tussen het hulpwerkwoord en het deelwoord</strong>: <em>j'ai <strong>souvent</strong> mangé ici</em>, niet <em>j'ai mangé souvent ici</em>."
+    }
+   ]
+  },
+  {
+   "kop": "Vergelijken: de trappen",
+   "blokken": [
+    {
+     "soort": "figuur",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Trap</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Vorm</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Voorbeeld</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">meer</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">plus … que</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Il est plus rapide que moi.</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">minder</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">moins … que</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Ce film est moins intéressant que l'autre.</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">even</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">aussi … que</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Tu es aussi fort que ton frère.</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">de meeste</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">le/la/les plus …</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">la plus belle ville</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">de minste</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">le/la/les moins …</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">le moins cher</td></tr></table>",
+     "onderschrift": "De vijf vormen om te vergelijken."
+    },
+    {
+     "soort": "tekst",
+     "html": "Bij de <strong>overtreffende</strong> trap past het <strong>lidwoord</strong> zich aan het naamwoord aan: <em><strong>la</strong> plus belle ville</em>, <em><strong>le</strong> plus intéressant</em>. <em>Très intéressant</em> is geen overtreffende trap maar gewoon 'heel interessant'."
+    },
+    {
+     "soort": "figuur",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Woord</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Vergrotende trap</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Let op</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">bon (goed, bij een naamwoord)</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">meilleur</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">c'est le meilleur restaurant de la ville</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">bien (goed, bij een werkwoord)</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">mieux</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">elle chante mieux que sa sœur</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">mauvais (slecht)</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">pire</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">c'est pire que je pensais</td></tr></table>",
+     "onderschrift": "De drie onregelmatige trappen."
+    },
+    {
+     "soort": "tekst",
+     "html": "<em>Plus bon</em> en <em>plus mieux</em> bestaan niet, net zoals wij geen 'goeder' zeggen. En hou <em>meilleur</em> en <em>mieux</em> uit elkaar: <strong>meilleur</strong> hoort bij een <strong>naamwoord</strong> (<em>une meilleure voix</em>), <strong>mieux</strong> bij een <strong>werkwoord</strong> (<em>chanter mieux</em>). <em>Pire</em> hoort bij <em>mauvais</em>, niet bij <em>bon</em>."
+    }
+   ]
+  },
+  {
+   "kop": "Hoeveelheden vergelijken",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Vergelijk je een <strong>hoeveelheid</strong>, dan komt er een <strong><em>de</em> zonder lidwoord</strong> bij: <em>J'ai <strong>plus de</strong> livres que toi</em>, niet <em>plus livres</em> en niet <em>plus des livres</em>."
+    },
+    {
+     "soort": "figuur",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Uitdrukking</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Wat ze vergelijkt</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">plus de … que</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een hoeveelheid: meer</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">moins de … que</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een hoeveelheid: minder</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">autant de … que</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een hoeveelheid: evenveel</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">aussi … que</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een eigenschap: even — dus zonder de</td></tr></table>",
+     "onderschrift": "Drie uitdrukkingen voor hoeveelheden, en één voor een eigenschap."
+    },
+    {
+     "soort": "tekst",
+     "html": "Staat er geen naamwoord bij, dan vergelijk je hoe <strong>sterk</strong> iets gebeurt: <em>Elle travaille <strong>le plus</strong> de toute la classe</em> betekent dat zij <strong>het hardst werkt van de hele klas</strong>."
+    }
+   ]
+  },
+  {
+   "kop": "Oefen dit ook buiten het scherm",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Hier oefen je lezen, schrijven, woordenschat en grammatica. Maar het examen <strong>Frans 1</strong> is voor de helft <strong>luisteren</strong>, en <strong>Frans 2</strong> bestaat naast de twee schrijfopdrachten uit een <strong>spreekopdracht</strong> die je thuis opneemt en een <strong>gesprek van tien minuten</strong>. Die drie leer je niet achter een scherm, maar door Frans te horen en zelf Frans te praten, ook als het hakkelt."
+    },
+    {
+     "soort": "kader",
+     "html": "<strong>Deze week:</strong> vergelijk in het Frans twee plaatsen die je kent, hardop en in vier zinnen, met één keer plus, één keer moins, één keer aussi en één keer meilleur of mieux. Doe het één keer en let daarna op wat je miste of niet gezegd kreeg. Dat is precies je volgende oefening."
+    }
+   ]
+  }
+ ],
+ "onthoud": []
+}

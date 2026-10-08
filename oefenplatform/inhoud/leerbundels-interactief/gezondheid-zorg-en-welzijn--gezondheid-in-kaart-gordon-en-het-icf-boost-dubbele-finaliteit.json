@@ -1,0 +1,88 @@
+{
+ "vak": "Gezondheid, zorg en welzijn",
+ "titel": "Gezondheid in kaart: Gordon en het ICF",
+ "onder": "De elf gezondheidspatronen van Gordon en wat er in elk patroon thuishoort, het ICF-schema met de gezondheidstoestand, het ik en de omgeving, en waarom je met een vast schema werkt.",
+ "secties": [
+  {
+   "kop": "De elf patronen van Gordon",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "<strong>De gezondheidspatronen van Gordon dienen om iemand te leren kennen</strong>: met <strong>elf patronen</strong> breng je het totale functioneren van een persoon in kaart."
+    },
+    {
+     "soort": "kader",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">patroon</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">waarover het gaat</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>gezondheidsbeleving en instandhouding</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>hoe iemand zijn eigen gezondheid ziet</strong> en wat hij ervoor doet</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>voeding en stofwisseling</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>wat iemand eet</strong> en drinkt, en wat het lichaam ermee doet</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>uitscheiding</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>naar het toilet gaan</strong>: plassen, stoelgang en zweten</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>activiteiten</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">bewegen, werken, vrije tijd</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>slaap en rust</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">hoe iemand slaapt en uitrust</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>waarneming en cognitie</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>zien, horen en onthouden</strong>: de zintuigen, het denken en het geheugen</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>zelfbeleving</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>hoe iemand over zichzelf denkt</strong>: het zelfbeeld en de eigenwaarde</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>rol en relatie</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">de plaats in het gezin, op school, in de groep</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>seksualiteit en voortplanting</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">beleving en relaties</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>stressverwerking</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>omgaan met een moeilijke periode</strong>: hoe iemand spanning en tegenslag aanpakt</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>waarden en levensopvatting</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>het geloof en de overtuigingen</strong>: wat iemand belangrijk vindt in het leven</td></tr></table>"
+    },
+    {
+     "soort": "tekst",
+     "html": "Winst en verlies hoort bij een boekhouding en is geen patroon van Gordon. <strong>Gordon kijkt niet enkel naar het lichaam</strong>: de patronen gaan ook over relaties, zelfbeeld, stress en waarden."
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>De patronen hangen met elkaar samen</strong>: verandert er iets in één patroon, dan voel je dat vaak in een ander. <strong>Slecht slapen beïnvloedt het patroon activiteiten</strong>, want wie te weinig slaapt, beweegt en onderneemt doorgaans minder."
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Je gebruikt Gordon niet om een medische diagnose te stellen</strong>: een diagnose stelt een arts. Gordon brengt het functioneren in kaart."
+    }
+   ]
+  },
+  {
+   "kop": "Het ICF-schema",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "<strong>Het ICF-schema dient om het functioneren te bekijken</strong>, met de persoon en de omgeving erbij."
+    },
+    {
+     "soort": "figuur",
+     "html": "<svg viewBox=\"0 0 470 232\" width=\"470\" xmlns=\"http://www.w3.org/2000/svg\"><text x=\"235.0\" y=\"18.0\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"11\" font-weight=\"600\" fill=\"#2f5d50\">gezondheidstoestand</text><rect x=\"14.0\" y=\"28\" width=\"140.7\" height=\"54\" fill=\"#2f5d50\" fill-opacity=\"0.12\" stroke=\"#2f5d50\" stroke-width=\"1.8\" rx=\"6\"/><text x=\"84.3\" y=\"50.0\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"11\" font-weight=\"600\" fill=\"#23291f\">lichaam</text><text x=\"84.3\" y=\"66.0\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"9\" fill=\"#6b7260\">hoe werkt het lichaam?</text><rect x=\"164.7\" y=\"28\" width=\"140.7\" height=\"54\" fill=\"#2f5d50\" fill-opacity=\"0.12\" stroke=\"#2f5d50\" stroke-width=\"1.8\" rx=\"6\"/><text x=\"235.0\" y=\"50.0\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"11\" font-weight=\"600\" fill=\"#23291f\">doen</text><text x=\"235.0\" y=\"66.0\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"9\" fill=\"#6b7260\">wat doet iemand zelf?</text><rect x=\"315.3\" y=\"28\" width=\"140.7\" height=\"54\" fill=\"#2f5d50\" fill-opacity=\"0.12\" stroke=\"#2f5d50\" stroke-width=\"1.8\" rx=\"6\"/><text x=\"385.7\" y=\"50.0\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"11\" font-weight=\"600\" fill=\"#23291f\">samen</text><text x=\"385.7\" y=\"66.0\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"9\" fill=\"#6b7260\">doet iemand mee?</text><rect x=\"14.0\" y=\"140\" width=\"214.0\" height=\"62\" fill=\"#ffffff\" stroke=\"#c17f2b\" stroke-width=\"1.8\" rx=\"6\"/><text x=\"121.0\" y=\"160.0\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"11\" font-weight=\"600\" fill=\"#23291f\">het ik</text><text x=\"121.0\" y=\"176.0\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"9\" fill=\"#6b7260\">persoonlijke factoren: leeftijd,</text><text x=\"121.0\" y=\"187.0\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"9\" fill=\"#6b7260\">geslacht, karakter, achtergrond</text><line x1=\"121.0\" y1=\"92\" x2=\"121.0\" y2=\"130\" stroke=\"#6b7260\" stroke-width=\"1.6\"/><path d=\"M121.0 86 l-5 9 h10 z\" fill=\"#6b7260\"/><path d=\"M121.0 136 l-5 -9 h10 z\" fill=\"#6b7260\"/><rect x=\"242.0\" y=\"140\" width=\"214.0\" height=\"62\" fill=\"#ffffff\" stroke=\"#c17f2b\" stroke-width=\"1.8\" rx=\"6\"/><text x=\"349.0\" y=\"160.0\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"11\" font-weight=\"600\" fill=\"#23291f\">de omgeving</text><text x=\"349.0\" y=\"176.0\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"9\" fill=\"#6b7260\">externe factoren: de woning, het gezin,</text><text x=\"349.0\" y=\"187.0\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"9\" fill=\"#6b7260\">de school, de buurt</text><line x1=\"349.0\" y1=\"92\" x2=\"349.0\" y2=\"130\" stroke=\"#6b7260\" stroke-width=\"1.6\"/><path d=\"M349.0 86 l-5 9 h10 z\" fill=\"#6b7260\"/><path d=\"M349.0 136 l-5 -9 h10 z\" fill=\"#6b7260\"/><text x=\"235.0\" y=\"118.0\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"9.5\" fill=\"#6b7260\">ze beïnvloeden elkaar in twee richtingen</text><text x=\"14.0\" y=\"226.0\" text-anchor=\"start\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"9.5\" fill=\"#6b7260\">de omgeving kan helpen of hinderen: een lift helpt, een trap hindert</text></svg>",
+     "onderschrift": "De gezondheidstoestand in drie delen, met het ik en de omgeving eronder. De pijlen lopen in twee richtingen."
+    },
+    {
+     "soort": "kader",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">deel</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">de vraag erbij</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>lichaam</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>hoe werkt het lichaam?</strong> De werking van de organen en de lichaamsfuncties</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>doen</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>wat doet iemand zelf?</strong> De activiteiten: zich wassen, koken</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>samen</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>doet iemand mee?</strong> Deelnemen aan de maatschappij: werken, school, vrije tijd</td></tr></table>"
+    },
+    {
+     "soort": "tekst",
+     "html": "Geld hoort niet bij de gezondheidstoestand. <strong>Persoonlijke factoren horen bij het ik</strong>: <strong>leeftijd en karakter</strong>, maar ook geslacht en achtergrond. <strong>De individuele achtergrond is wat iemand meemaakte</strong>: zijn opleiding, zijn ervaringen, zijn gewoonten."
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>De omgeving is alles buiten de persoon</strong>: <strong>de woning, het gezin, de school</strong>, de buurt, de diensten. Dat zijn de externe factoren. <strong>Persoonlijke en externe factoren zijn dus niet hetzelfde</strong>: het karakter zit bij het ik, de woonplaats in de omgeving."
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Het ICF kijkt ook naar de omgeving omdat die helpt of hindert</strong>: een lift of een behulpzame buur helpt, een trap of lawaai hindert. <strong>Kan een kind in een rolstoel niet in de klas omdat er een trap staat, dan is die trap een externe factor</strong>: het lichaam van het kind is niet het probleem, het gebouw is het. <strong>Een aangepaste woning kan het functioneren verbeteren</strong> zonder dat er aan het lichaam iets verandert."
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Het ICF kijkt niet alleen naar wat niet lukt</strong>: het brengt ook in kaart wat wel lukt en wat de omgeving aan steun biedt. <strong>Gezondheidstoestand, ik en omgeving hangen samen</strong> en beïnvloeden elkaar, en daarom staan ze in één schema."
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Het verschil met Gordon: Gordon werkt met elf patronen, het ICF met de gezondheidstoestand, het ik en de omgeving.</strong> <strong>Met allebei kan je het functioneren bekijken, een plan opstellen en de sterktes zien</strong>; een diagnose stellen is werk van een arts."
+    }
+   ]
+  },
+  {
+   "kop": "Waarom een vast schema",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "<strong>Een systematische aanpak zorgt dat je minder vergeet, sneller werkt en het kan uitleggen.</strong> Een vaste werkwijze vervangt het kijken niet; ze zorgt dat je niets overslaat."
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>De eerste stap bij het oplossen van een probleem is het probleem benoemen</strong>: eerst vaststellen wat er precies aan de hand is, pas daarna zoeken naar een oplossing."
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Je gebruikt een vast schema zoals dat van Gordon omdat je dan naar het geheel kijkt.</strong> Zonder schema kijk je enkel naar wat opvalt en mis je de rest van het functioneren."
+    }
+   ]
+  }
+ ],
+ "onthoud": []
+}

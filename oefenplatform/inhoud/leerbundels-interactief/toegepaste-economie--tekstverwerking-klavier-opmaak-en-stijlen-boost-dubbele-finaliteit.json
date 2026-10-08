@@ -1,0 +1,79 @@
+{
+ "vak": "Toegepaste economie",
+ "titel": "Tekstverwerking: klavier, opmaak en stijlen",
+ "onder": "Vlot klavieren met de sneltoetsen, de drie lagen van opmaak (teken, alinea en pagina), en waarom je met stijlen en sjablonen werkt.",
+ "secties": [
+  {
+   "kop": "Vlot klavieren",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "<strong>Het nut van een sneltoets is dat je sneller werkt</strong>: je handen blijven op het klavier in plaats van naar de muis te gaan. <strong>De vakfiche noemt ctrl, shift en alt gr</strong> als de toetsen waarmee je efficiënt klaviert; alt gr gebruik je voor het apenstaartje en het euroteken."
+    },
+    {
+     "soort": "kader",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">toets of sneltoets</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">wat ze doet</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>ctrl + a</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>alles selecteren</strong>: het hele document</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>ctrl + c</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>kopiëren</strong>; plakken is ctrl + v en knippen is ctrl + x</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>ctrl + u</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>onderlijnen</strong></td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>ctrl + z</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>de laatste wijziging ongedaan maken</strong></td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>home</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>naar het begin van de regel</strong>; met ctrl erbij naar het begin van het document</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>backspace</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>het teken links van de cursor wissen</strong></td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>delete</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>het teken rechts van de cursor wissen</strong></td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>shift</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>een hoofdletter typen</strong>; met caps lock aan blijft alles in hoofdletters</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>insert</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>wisselen tussen invoegen en overschrijven</strong>, niet een nieuw document maken</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>tab</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>in een tabel naar de volgende cel</strong>; in de laatste cel maakt ze er een rij bij</td></tr></table>"
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Een tab is iets anders dan een reeks spaties.</strong> Een tab springt naar een vaste positie; met spaties schuift alles scheef zodra je iets wijzigt. <strong>Met de knop Alles weergeven zie je de opmaaktekens</strong> — spaties, tabs en alineamarkeringen — en dus waar je opmaak vandaan komt."
+    }
+   ]
+  },
+  {
+   "kop": "Drie lagen van opmaak",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "<strong>Opmaak zit in drie lagen, en de vraag is telkens: waarop werkt ze?</strong> Op de letters, op de alinea of op de bladzijde. Wie dat onderscheid kent, vindt elke instelling terug."
+    },
+    {
+     "soort": "kader",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">laag</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">waarop ze werkt</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">wat erbij hoort</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>tekenopmaak</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>de letters</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>lettertype, tekengrootte, vet, cursief, kleur, markeren, doorhalen, klein kapitaal, super- en subscript</strong></td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>alineaopmaak</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>hele alinea's</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>regelafstand, afstand tussen alinea's, uitlijning, opsommingstekens, tabs</strong></td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>paginaopmaak</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>de bladzijde</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>marges, afdrukstand, paginanummers, kop- en voettekst, secties, kolommen</strong></td></tr></table>"
+    },
+    {
+     "soort": "tekst",
+     "html": "Let op de twee klassieke vergissingen: <strong>de regelafstand hoort niet bij de tekenopmaak maar bij de alineaopmaak</strong>, en <strong>super- en subscript horen niet bij de alineaopmaak maar bij de tekenopmaak</strong>, want ze veranderen hoe een teken staat en niet de hele alinea. <strong>Doorhalen is een streep dóór de tekst</strong>, niet eronder."
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>De marges zijn de witruimte rond de tekst</strong>, <strong>de afdrukstand is staand of liggend</strong> — staand voor een brief, liggend voor een brede tabel — en <strong>een sectie geeft een deel van je document een eigen paginaopmaak</strong>, zodat één bladzijde liggend kan staan terwijl de rest staand blijft."
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>In een koptekst staat tekst boven elke bladzijde</strong>, vaak het logo of de naam van de onderneming; <strong>de voettekst staat onderaan</strong>. <strong>Allebei herhalen ze zich op elke bladzijde van de sectie</strong>, dus je stelt ze maar één keer in. <strong>Paginanummers typ je niet met de hand</strong>: je voegt ze één keer in en ze tellen vanzelf verder."
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Met kolommen zet je de tekst in banen</strong>, zoals in een krant of een folder: smallere regels lezen vlotter."
+    }
+   ]
+  },
+  {
+   "kop": "Stijlen en sjablonen",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "<strong>Met een stijl geef je alle titels in één keer dezelfde opmaak</strong>, en wijzig je de stijl achteraf, dan volgen alle titels mee. <strong>Dat is het voordeel: je past alles in één keer aan</strong> in plaats van kop na kop."
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Een sjabloon is een voorbereid document</strong> waarmee je start en dat je invult: een factuur, een brief, een cv, in het Engels een template. <strong>Een sjabloon en een stijl zijn niet hetzelfde</strong>: een sjabloon is het document, een stijl is een set opmaakkenmerken daarin."
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Zoeken en vervangen wijzigt een woord overal</strong>, in één keer door het hele document heen: een verkeerde naam rechtzetten, een term door een andere vervangen, of snel iets terugvinden."
+    },
+    {
+     "soort": "kader",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">soort document</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">voorbeelden uit de vakfiche</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>commerciële documenten</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>een factuur, verkoopvoorwaarden, garantiebepalingen, een label</strong></td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>personeelsdocumenten</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>een cv, een vacature, een sollicitatiebrief</strong></td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>overeenkomsten</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>contracten en afspraken op papier</strong></td></tr></table>"
+    },
+    {
+     "soort": "weetje",
+     "html": "Een rekenblad maak je niet in een tekstverwerker. Komt er rekenwerk bij kijken, dan hoort het in een rekenbladprogramma thuis."
+    }
+   ]
+  }
+ ],
+ "onthoud": []
+}

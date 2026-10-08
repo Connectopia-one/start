@@ -1,0 +1,170 @@
+{
+ "vak": "Aardrijkskunde",
+ "titel": "Situeren, kaarten en observatie",
+ "onder": "Het gradennet tot op de minuut, absoluut en relatief situeren, de sferen van het systeem aarde, en het gereedschap waarmee je de ruimte onderzoekt.",
+ "secties": [
+  {
+   "kop": "Breedte en lengte, tot op de minuut",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "De <strong>geografische breedte</strong> van een plaats is de hoek met de <strong>evenaar</strong>, gemeten naar het noorden of naar het zuiden. De evenaar is de lijn op 0° breedte; op de noordpool telt de breedte <strong>90</strong>°, op de zuidpool ook 90°, maar dan zuiderbreedte."
+    },
+    {
+     "soort": "tekst",
+     "html": "De <strong>geografische lengte</strong> lees je af op de <strong>meridiaan</strong>. Meridianen lopen van noord naar zuid, van pool tot pool, en zijn allemaal even lang. De <strong>nulmeridiaan</strong> loopt door <strong>Greenwich, bij Londen</strong>. Van daar tel je <strong>180</strong> graden oostwaarts tot de 180ste meridiaan, en evenveel westwaarts."
+    },
+    {
+     "soort": "figuur",
+     "html": "<svg viewBox=\"0 0 470 276\" width=\"470\" xmlns=\"http://www.w3.org/2000/svg\"><defs><clipPath id=\"net5\"><circle cx=\"148\" cy=\"142\" r=\"108\"/></clipPath></defs><circle cx=\"148\" cy=\"142\" r=\"108\" fill=\"#eaf1f6\" stroke=\"#234539\" stroke-width=\"1.8\"/><g clip-path=\"url(#net5)\"><ellipse cx=\"148\" cy=\"142.0\" rx=\"108.0\" ry=\"21.6\" fill=\"none\" stroke=\"#234539\" stroke-width=\"2.0\"/><ellipse cx=\"148\" cy=\"98.9\" rx=\"99.0\" ry=\"19.8\" fill=\"none\" stroke=\"#c17f2b\" stroke-width=\"1.3\"/><ellipse cx=\"148\" cy=\"185.1\" rx=\"99.0\" ry=\"19.8\" fill=\"none\" stroke=\"#c17f2b\" stroke-width=\"1.3\"/><ellipse cx=\"148\" cy=\"43.0\" rx=\"43.1\" ry=\"8.6\" fill=\"none\" stroke=\"#5b7f9c\" stroke-width=\"1.3\"/><ellipse cx=\"148\" cy=\"241.0\" rx=\"43.1\" ry=\"8.6\" fill=\"none\" stroke=\"#5b7f9c\" stroke-width=\"1.3\"/><path d=\"M 148 34 A 108.0 108 0 0 0 148 250\" fill=\"none\" stroke=\"#6b7260\" stroke-width=\"1\"/><path d=\"M 148 34 A 64.8 108 0 0 0 148 250\" fill=\"none\" stroke=\"#6b7260\" stroke-width=\"1\"/><path d=\"M 148 34 A 21.6 108 0 0 0 148 250\" fill=\"none\" stroke=\"#6b7260\" stroke-width=\"1\"/><path d=\"M 148 34 A 21.6 108 0 0 1 148 250\" fill=\"none\" stroke=\"#6b7260\" stroke-width=\"1\"/><path d=\"M 148 34 A 64.8 108 0 0 1 148 250\" fill=\"none\" stroke=\"#6b7260\" stroke-width=\"1\"/><path d=\"M 148 34 A 108.0 108 0 0 1 148 250\" fill=\"none\" stroke=\"#6b7260\" stroke-width=\"1\"/><line x1=\"148\" y1=\"34\" x2=\"148\" y2=\"250\" stroke=\"#2f5d50\" stroke-width=\"2\"/></g><circle cx=\"148\" cy=\"34\" r=\"3\" fill=\"#234539\"/><circle cx=\"148\" cy=\"250\" r=\"3\" fill=\"#234539\"/><text x=\"106.0\" y=\"30.0\" text-anchor=\"end\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"9\" fill=\"#234539\">noordpool</text><text x=\"148.0\" y=\"267.0\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"9\" fill=\"#234539\">zuidpool</text><line x1=\"191.1\" y1=\"43.0\" x2=\"272\" y2=\"43.0\" stroke=\"#5b7f9c\" stroke-width=\"1\" stroke-dasharray=\"3 3\"/><text x=\"278.0\" y=\"46.5\" text-anchor=\"start\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"9\" fill=\"#5b7f9c\">poolcirkel 66,5° N</text><line x1=\"247.0\" y1=\"98.9\" x2=\"272\" y2=\"98.9\" stroke=\"#c17f2b\" stroke-width=\"1\" stroke-dasharray=\"3 3\"/><text x=\"278.0\" y=\"102.4\" text-anchor=\"start\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"9\" fill=\"#c17f2b\">keerkring 23,5° N</text><line x1=\"256.0\" y1=\"142.0\" x2=\"272\" y2=\"142.0\" stroke=\"#234539\" stroke-width=\"1\" stroke-dasharray=\"3 3\"/><text x=\"278.0\" y=\"145.5\" text-anchor=\"start\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"9\" fill=\"#234539\">evenaar 0°</text><line x1=\"247.0\" y1=\"185.1\" x2=\"272\" y2=\"185.1\" stroke=\"#c17f2b\" stroke-width=\"1\" stroke-dasharray=\"3 3\"/><text x=\"278.0\" y=\"188.6\" text-anchor=\"start\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"9\" fill=\"#c17f2b\">keerkring 23,5° Z</text><line x1=\"191.1\" y1=\"241.0\" x2=\"272\" y2=\"241.0\" stroke=\"#5b7f9c\" stroke-width=\"1\" stroke-dasharray=\"3 3\"/><text x=\"278.0\" y=\"244.5\" text-anchor=\"start\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"9\" fill=\"#5b7f9c\">poolcirkel 66,5° Z</text><line x1=\"148\" y1=\"30\" x2=\"148\" y2=\"18\" stroke=\"#2f5d50\" stroke-width=\"1.6\"/><text x=\"154.0\" y=\"14.0\" text-anchor=\"start\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"9\" fill=\"#2f5d50\">nulmeridiaan, 0° lengte</text></svg>",
+     "onderschrift": "Het gradennet: de evenaar op 0°, de keerkringen op 23,5° en de poolcirkels op 66,5°, elk op beide halfronden."
+    },
+    {
+     "soort": "tekst",
+     "html": "De vakfiche vraagt om een plaats <strong>absoluut te situeren op één minuut nauwkeurig</strong>. Een <strong>minuut</strong> is <strong>een zestigste van een graad</strong>, geschreven met een accent: 56' is 56 minuten. Een coördinaat van een plaats in België ziet er dus zo uit: <strong>50° 56' NB en 5° 20' OL</strong>. Je leest altijd eerst de breedte, dan de lengte."
+    },
+    {
+     "soort": "kader",
+     "html": "Eén graad breedte is ongeveer 111 km, dus één minuut is ongeveer 1,85 km. Op één minuut nauwkeurig situeren betekent dat je een plaats aanwijst binnen ongeveer twee kilometer. Dat lukt met de graadverdeling in de kaartrand van de atlas."
+    }
+   ]
+  },
+  {
+   "kop": "Absoluut en relatief situeren",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "<strong>Absoluut situeren</strong> is een plaats aanduiden met haar coördinaten, dus met breedte en lengte. Het is dus <strong>niet</strong> een plaats beschrijven met haar ligging ten opzichte van een stad in de buurt: dat is net relatief situeren."
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Relatief situeren</strong> is een plaats aanduiden ten opzichte van iets anders. \"Aan de westkant van de Alpen\", \"stroomafwaarts van Luik aan de Maas\" en \"in de gematigde klimaatzone\" zijn alle drie relatieve omschrijvingen."
+    },
+    {
+     "soort": "tekst",
+     "html": "Je situeert relatief met <strong>fysischgeografische elementen</strong> of met <strong>sociaaleconomische elementen</strong>. Een <strong>rivier</strong>, een <strong>reliëfeenheid</strong> en een <strong>klimaatzone</strong> zijn fysischgeografisch: ze zijn er zonder dat de mens eraan te pas komt. Steden, landen, wereldblokken, talen en armoede zijn sociaaleconomisch."
+    },
+    {
+     "soort": "tekst",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">fysischgeografisch</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">sociaaleconomisch</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">rivieren en oceanen</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">steden en landen</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">reliëfeenheden</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">wereldblokken zoals de EU</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">klimaat- en vegetatiezones</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">godsdiensten, talen, armoede</td></tr></table>"
+    }
+   ]
+  },
+  {
+   "kop": "Kaarten lezen",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "De <strong>schaal</strong> zegt hoeveel de kaart verkleint. Bij <strong>1 op 10 miljoen</strong> is één centimeter op de kaart honderd kilometer in het echt: dat is een <strong>kleine schaal</strong>, met een groot gebied en <strong>weinig detail</strong>. Een <strong>grote schaal</strong>, zoals 1 op 10 000, toont een klein gebied met véél detail. Op een kleine schaal zie je dus niet méér detail, maar minder."
+    },
+    {
+     "soort": "tekst",
+     "html": "Lijnen die plaatsen met dezelfde waarde verbinden heten <strong>iso</strong>lijnen. <strong>Isothermen</strong> verbinden plaatsen met dezelfde temperatuur, isobaren plaatsen met dezelfde luchtdruk, isohypsen plaatsen met dezelfde hoogte."
+    },
+    {
+     "soort": "tekst",
+     "html": "Op het examen ligt de <strong>atlas</strong> ter beschikking, <strong>omdat je de gegevens erin moet opzoeken en gebruiken</strong>. Je hoeft geen coördinaten vanbuiten te kennen; je moet ze kunnen vinden en er iets mee doen."
+    },
+    {
+     "soort": "figuur",
+     "html": "<svg viewBox=\"0 0 470 276\" width=\"470\" xmlns=\"http://www.w3.org/2000/svg\"><polygon points=\"52,68 96,16 284,16 240,68\" fill=\"#cfd6c6\" stroke=\"#234539\" stroke-width=\"1.2\" opacity=\"0.93\"/><text x=\"296.0\" y=\"40.0\" text-anchor=\"start\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"10\" font-weight=\"600\" fill=\"#23291f\">luchtfoto</text><text x=\"296.0\" y=\"52.0\" text-anchor=\"start\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"8.5\" fill=\"#6b7260\">hoe het gebied er echt uitziet</text><polygon points=\"46,112 90,60 278,60 234,112\" fill=\"#d9c8a6\" stroke=\"#234539\" stroke-width=\"1.2\" opacity=\"0.93\"/><text x=\"290.0\" y=\"84.0\" text-anchor=\"start\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"10\" font-weight=\"600\" fill=\"#23291f\">bodemkaart</text><text x=\"290.0\" y=\"96.0\" text-anchor=\"start\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"8.5\" fill=\"#6b7260\">zand, leem of klei</text><polygon points=\"40,156 84,104 272,104 228,156\" fill=\"#c2d2df\" stroke=\"#234539\" stroke-width=\"1.2\" opacity=\"0.93\"/><text x=\"284.0\" y=\"128.0\" text-anchor=\"start\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"10\" font-weight=\"600\" fill=\"#23291f\">hoogtelaag</text><text x=\"284.0\" y=\"140.0\" text-anchor=\"start\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"8.5\" fill=\"#6b7260\">hoe hoog het ligt</text><polygon points=\"34,200 78,148 266,148 222,200\" fill=\"#a8cfe0\" stroke=\"#234539\" stroke-width=\"1.2\" opacity=\"0.93\"/><text x=\"278.0\" y=\"172.0\" text-anchor=\"start\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"10\" font-weight=\"600\" fill=\"#23291f\">waterlopen</text><text x=\"278.0\" y=\"184.0\" text-anchor=\"start\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"8.5\" fill=\"#6b7260\">beken, grachten, rivieren</text><polygon points=\"28,244 72,192 260,192 216,244\" fill=\"#e8d7c4\" stroke=\"#234539\" stroke-width=\"1.2\" opacity=\"0.93\"/><text x=\"272.0\" y=\"216.0\" text-anchor=\"start\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"10\" font-weight=\"600\" fill=\"#23291f\">bebouwing</text><text x=\"272.0\" y=\"228.0\" text-anchor=\"start\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"8.5\" fill=\"#6b7260\">waar de huizen staan</text><text x=\"24.0\" y=\"268.0\" text-anchor=\"start\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"9\" fill=\"#6b7260\">In een viewer zet je elke laag apart aan of uit. Wat samenvalt, valt meteen op.</text></svg>",
+     "onderschrift": "Een digitale kaart bouwt het beeld op in lagen: je kiest welke laag je bovenop legt."
+    }
+   ]
+  },
+  {
+   "kop": "Het gereedschap van de geograaf",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "De vakfiche noemt een reeks <strong>hulpbronnen om ruimtelijke processen te onderzoeken</strong>: <strong>satellietbeelden</strong>, <strong>klimatogrammen</strong> en <strong>leeftijdshistogrammen</strong>, naast kaarten, tabellen en grafieken."
+    },
+    {
+     "soort": "tekst",
+     "html": "Een <strong>klimatogram</strong> toont je in één oogopslag het <strong>klimaat van een plaats</strong>: de staven zijn de neerslag per maand, de lijn de temperatuur. Een <strong>leeftijdshistogram</strong> of <strong>bevolkingspiramide</strong> toont de <strong>leeftijdsopbouw van een bevolking</strong>. Een <strong>determineertabel</strong> helpt je om een gesteente of mineraal <strong>op naam te brengen aan de hand van zijn eigenschappen</strong>: kleur, hardheid, breuk."
+    },
+    {
+     "soort": "figuur",
+     "html": "<svg viewBox=\"0 0 470 212\" width=\"470\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"47.1\" y=\"58.5\" width=\"18.1\" height=\"115.5\" fill=\"#5b93b8\" opacity=\"0.55\" rx=\"2\"/><rect x=\"79.4\" y=\"78.2\" width=\"18.1\" height=\"95.8\" fill=\"#5b93b8\" opacity=\"0.55\" rx=\"2\"/><rect x=\"111.8\" y=\"67.6\" width=\"18.1\" height=\"106.4\" fill=\"#5b93b8\" opacity=\"0.55\" rx=\"2\"/><rect x=\"144.1\" y=\"96.5\" width=\"18.1\" height=\"77.5\" fill=\"#5b93b8\" opacity=\"0.55\" rx=\"2\"/><rect x=\"176.4\" y=\"79.8\" width=\"18.1\" height=\"94.2\" fill=\"#5b93b8\" opacity=\"0.55\" rx=\"2\"/><rect x=\"208.8\" y=\"64.6\" width=\"18.1\" height=\"109.4\" fill=\"#5b93b8\" opacity=\"0.55\" rx=\"2\"/><rect x=\"241.1\" y=\"61.5\" width=\"18.1\" height=\"112.5\" fill=\"#5b93b8\" opacity=\"0.55\" rx=\"2\"/><rect x=\"273.4\" y=\"76.7\" width=\"18.1\" height=\"97.3\" fill=\"#5b93b8\" opacity=\"0.55\" rx=\"2\"/><rect x=\"305.8\" y=\"84.3\" width=\"18.1\" height=\"89.7\" fill=\"#5b93b8\" opacity=\"0.55\" rx=\"2\"/><rect x=\"338.1\" y=\"67.6\" width=\"18.1\" height=\"106.4\" fill=\"#5b93b8\" opacity=\"0.55\" rx=\"2\"/><rect x=\"370.4\" y=\"58.5\" width=\"18.1\" height=\"115.5\" fill=\"#5b93b8\" opacity=\"0.55\" rx=\"2\"/><rect x=\"402.8\" y=\"50.9\" width=\"18.1\" height=\"123.1\" fill=\"#5b93b8\" opacity=\"0.55\" rx=\"2\"/><polyline points=\"56.2,151.2 88.5,143.6 120.8,120.8 153.2,98.0 185.5,67.6 217.8,44.8 250.2,29.6 282.5,29.6 314.8,52.4 347.2,82.8 379.5,120.8 411.8,143.6\" fill=\"none\" stroke=\"#a2521f\" stroke-width=\"2.4\"/><circle cx=\"56.2\" cy=\"151.2\" r=\"2.8\" fill=\"#a2521f\"/><circle cx=\"88.5\" cy=\"143.6\" r=\"2.8\" fill=\"#a2521f\"/><circle cx=\"120.8\" cy=\"120.8\" r=\"2.8\" fill=\"#a2521f\"/><circle cx=\"153.2\" cy=\"98.0\" r=\"2.8\" fill=\"#a2521f\"/><circle cx=\"185.5\" cy=\"67.6\" r=\"2.8\" fill=\"#a2521f\"/><circle cx=\"217.8\" cy=\"44.8\" r=\"2.8\" fill=\"#a2521f\"/><circle cx=\"250.2\" cy=\"29.6\" r=\"2.8\" fill=\"#a2521f\"/><circle cx=\"282.5\" cy=\"29.6\" r=\"2.8\" fill=\"#a2521f\"/><circle cx=\"314.8\" cy=\"52.4\" r=\"2.8\" fill=\"#a2521f\"/><circle cx=\"347.2\" cy=\"82.8\" r=\"2.8\" fill=\"#a2521f\"/><circle cx=\"379.5\" cy=\"120.8\" r=\"2.8\" fill=\"#a2521f\"/><circle cx=\"411.8\" cy=\"143.6\" r=\"2.8\" fill=\"#a2521f\"/><line x1=\"40\" y1=\"22\" x2=\"40\" y2=\"174\" stroke=\"#6b7260\" stroke-width=\"1.4\"/><line x1=\"428\" y1=\"22\" x2=\"428\" y2=\"174\" stroke=\"#6b7260\" stroke-width=\"1.4\"/><line x1=\"40\" y1=\"174\" x2=\"428\" y2=\"174\" stroke=\"#6b7260\" stroke-width=\"1.4\"/><text x=\"34.0\" y=\"177.5\" text-anchor=\"end\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"9\" fill=\"#5b93b8\">0</text><text x=\"34.0\" y=\"139.5\" text-anchor=\"end\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"9\" fill=\"#5b93b8\">25</text><text x=\"34.0\" y=\"101.5\" text-anchor=\"end\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"9\" fill=\"#5b93b8\">50</text><text x=\"34.0\" y=\"63.5\" text-anchor=\"end\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"9\" fill=\"#5b93b8\">75</text><text x=\"34.0\" y=\"25.5\" text-anchor=\"end\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"9\" fill=\"#5b93b8\">100</text><text x=\"434.0\" y=\"177.5\" text-anchor=\"start\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"9\" fill=\"#a2521f\">0</text><text x=\"434.0\" y=\"139.5\" text-anchor=\"start\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"9\" fill=\"#a2521f\">5</text><text x=\"434.0\" y=\"101.5\" text-anchor=\"start\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"9\" fill=\"#a2521f\">10</text><text x=\"434.0\" y=\"63.5\" text-anchor=\"start\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"9\" fill=\"#a2521f\">15</text><text x=\"434.0\" y=\"25.5\" text-anchor=\"start\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"9\" fill=\"#a2521f\">20</text><text x=\"34.0\" y=\"14.0\" text-anchor=\"end\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"9.5\" fill=\"#5b93b8\">mm</text><text x=\"434.0\" y=\"14.0\" text-anchor=\"start\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"9.5\" fill=\"#a2521f\">°C</text><text x=\"56.2\" y=\"188.0\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"9.5\" fill=\"#6b7260\">J</text><text x=\"88.5\" y=\"188.0\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"9.5\" fill=\"#6b7260\">F</text><text x=\"120.8\" y=\"188.0\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"9.5\" fill=\"#6b7260\">M</text><text x=\"153.2\" y=\"188.0\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"9.5\" fill=\"#6b7260\">A</text><text x=\"185.5\" y=\"188.0\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"9.5\" fill=\"#6b7260\">M</text><text x=\"217.8\" y=\"188.0\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"9.5\" fill=\"#6b7260\">J</text><text x=\"250.2\" y=\"188.0\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"9.5\" fill=\"#6b7260\">J</text><text x=\"282.5\" y=\"188.0\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"9.5\" fill=\"#6b7260\">A</text><text x=\"314.8\" y=\"188.0\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"9.5\" fill=\"#6b7260\">S</text><text x=\"347.2\" y=\"188.0\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"9.5\" fill=\"#6b7260\">O</text><text x=\"379.5\" y=\"188.0\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"9.5\" fill=\"#6b7260\">N</text><text x=\"411.8\" y=\"188.0\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"9.5\" fill=\"#6b7260\">D</text><text x=\"234.0\" y=\"204.0\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"10\" fill=\"#23291f\">Ukkel, België</text></svg>",
+     "onderschrift": "Een klimatogram: staven voor de neerslag, een lijn voor de temperatuur."
+    },
+    {
+     "soort": "tekst",
+     "html": "Een <strong>satellietbeeld in valse kleuren</strong> geeft de kleuren <strong>niet</strong> weer zoals je ze met het oog zou zien. De satelliet meet ook straling die wij niet zien, zoals infrarood, en die krijgt een kleur toegewezen. Gezonde begroeiing komt er daardoor vaak felrood op, en dat is precies de bedoeling: zo zie je iets wat op een gewone foto niet opvalt."
+    }
+   ]
+  },
+  {
+   "kop": "Sterren, planeten en manen",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Een <strong>ster</strong> straalt zelf licht uit; een <strong>planeet</strong> niet, die weerkaatst enkel het licht van haar ster. Een <strong>maan</strong> is een hemellichaam dat rond een planeet draait."
+    },
+    {
+     "soort": "tekst",
+     "html": "Zie je 's avonds een <strong>helder puntje dat niet flikkert</strong> en dat dag na dag verschuift tussen de sterren, dan is dat waarschijnlijk <strong>een planeet</strong>. Sterren staan zo ver dat ze als een punt binnenkomen en door de lucht heen flikkeren; een planeet is een schijfje en flikkert niet."
+    },
+    {
+     "soort": "tekst",
+     "html": "Niet alle sterren die je ziet horen bij ons zonnestelsel: <strong>geen enkele</strong> behalve de zon. Alle andere staan lichtjaren ver, buiten ons zonnestelsel."
+    },
+    {
+     "soort": "tekst",
+     "html": "De <strong>poolster</strong> of Polaris staat bijna precies in het verlengde van de <strong>aardas</strong>. Daardoor staat ze 's nachts schijnbaar stil terwijl de andere sterren om haar heen draaien. Haar <strong>hoogte boven de horizon is ongeveer gelijk aan de breedteligging</strong> van de plaats waar je staat: in Oslo, op ongeveer 60° noorderbreedte, staat de poolster <strong>ongeveer 60°</strong> hoog."
+    },
+    {
+     "soort": "tekst",
+     "html": "De <strong>hoogte</strong> van een ster is de <strong>hoek tussen de ster en de horizon</strong>. Het <strong>zenit</strong> is het punt <strong>recht boven je hoofd</strong>, dus op een hoogte van 90°."
+    }
+   ]
+  },
+  {
+   "kop": "Waarnemen: telescopen en satellieten",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Een <strong>optische telescoop</strong> vangt zichtbaar licht op. Hij staat het best hoog, droog en donker: op een berg, in een droge streek, ver van steden. Een vochtige streek dicht bij een grote stad is net de slechtste plaats, want vocht, warme lucht en lichtvervuiling bederven het beeld."
+    },
+    {
+     "soort": "tekst",
+     "html": "Een <strong>radiotelescoop</strong> zet je in <strong>om radiogolven van hemellichamen op te vangen</strong>. Radiogolven gaan door wolken heen en worden niet door daglicht overstemd, dus een radiotelescoop kan <strong>ook bij bewolkt weer en bij daglicht</strong> gegevens opnemen."
+    },
+    {
+     "soort": "tekst",
+     "html": "Een telescoop <strong>buiten de atmosfeer</strong> heeft drie voordelen: <strong>het beeld trilt niet door luchtbeweging</strong>, <strong>ook ultraviolet en infrarood komen binnen</strong> (de atmosfeer houdt die tegen), en <strong>er is geen lichtvervuiling van steden</strong>."
+    },
+    {
+     "soort": "tekst",
+     "html": "Met <strong>satellieten</strong> worden onder meer <strong>weersvoorspellingen</strong> gemaakt, loopt <strong>communicatie over lange afstand</strong>, en worden <strong>bosbranden opgevolgd</strong>."
+    },
+    {
+     "soort": "tekst",
+     "html": "Een <strong>gps-toestel</strong> bepaalt je plaats doordat het <strong>de looptijd van signalen van meerdere satellieten meet</strong>. Uit die looptijd volgt de afstand tot elke satelliet. Voor plaats én hoogte heeft het er minstens <strong>4</strong> nodig."
+    },
+    {
+     "soort": "weetje",
+     "html": "Met een telescoop kijk je eigenlijk in het verleden, omdat het licht onderweg tijd nodig had om hier te komen. Hoe verder je kijkt, hoe langer geleden."
+    }
+   ]
+  },
+  {
+   "kop": "Het systeem aarde: de sferen",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "De vakfiche deelt het systeem aarde op in <strong>sferen</strong>: de <strong>geosfeer</strong>, de <strong>atmosfeer</strong> en de <strong>hydrosfeer</strong>, met daarbij de biosfeer."
+    },
+    {
+     "soort": "tekst",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">sfeer</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">wat zit erin</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">geosfeer</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">al het gesteente en de bodem van de aarde</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">atmosfeer</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">de luchtlaag rond de aarde</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">hydrosfeer</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">al het water: oceanen, rivieren, ijs, grondwater</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">biosfeer</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">al het leven op aarde</td></tr></table>"
+    },
+    {
+     "soort": "tekst",
+     "html": "De sferen werken op elkaar in, en dat is precies wat een geograaf onderzoekt. Een rivier die zand naar de zee voert, laat <strong>de hydrosfeer en de geosfeer</strong> samenwerken: het water verplaatst het gesteente."
+    }
+   ]
+  }
+ ],
+ "onthoud": []
+}

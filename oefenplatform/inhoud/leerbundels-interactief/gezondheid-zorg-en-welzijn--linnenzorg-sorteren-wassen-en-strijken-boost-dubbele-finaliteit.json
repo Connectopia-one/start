@@ -1,0 +1,124 @@
+{
+ "vak": "Gezondheid, zorg en welzijn",
+ "titel": "Linnenzorg: sorteren, wassen en strijken",
+ "onder": "De taken van de linnenzorg, de vier vuilgraden, het verschil tussen het textieletiket en het onderhoudsetiket, de vijf groepen wassymbolen, de Sinner-cirkel, en de werkvolgorde van verzamelen tot strijken.",
+ "secties": [
+  {
+   "kop": "Wat linnenzorg is",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "<strong>Bij de linnenzorg horen het sorteren van de was, het wassen en drogen, de strijk doen, klein verstelwerk en de was kastklaar maken.</strong> De tafel dekken hoort daar niet bij: dat is maaltijdzorg."
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Klein verstelwerk</strong> is een losse knoop aanzetten, een zoom vastnaaien of een naadje dichtmaken. Je doet het voor je iets opbergt, want een scheurtje dat je laat liggen, wordt in de wasmachine groter."
+    },
+    {
+     "soort": "tekst",
+     "html": "Hoe vuil een stuk is, bepaalt mee hoe je het wast. Daarvoor zijn er <strong>vier gradaties van vuilgraad</strong>: <strong>licht bevuild, normaal bevuild, sterk bevuild en zeer sterk bevuild</strong>. Half bevuild bestaat niet."
+    },
+    {
+     "soort": "kader",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">vuilgraad</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">voorbeeld</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>licht bevuild</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een hemd dat je één dag droeg en dat alleen moet opfrissen</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>normaal bevuild</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">gewoon dagelijks wasgoed: ondergoed, handdoeken, lakens</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>sterk bevuild</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>een werkbroek met olie</strong>; olie en aarde dringen in de vezel</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>zeer sterk bevuild</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">werkkledij uit de bouw of de keuken, met vet en modder</td></tr></table>"
+    }
+   ]
+  },
+  {
+   "kop": "De etiketten lezen",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "In elk kledingstuk zitten twee etiketten, en ze zeggen iets heel anders. <strong>Het textieletiket zegt uit welke stof het stuk gemaakt is</strong>: katoen, wol, polyester. <strong>Het onderhoudsetiket, ook het wasetiket genoemd, zegt hoe je het moet verzorgen</strong>, met symbolen voor wassen, bleken, drogen en strijken. <strong>Ze zijn dus niet hetzelfde.</strong>"
+    },
+    {
+     "soort": "tekst",
+     "html": "De symbolen op het onderhoudsetiket vallen in <strong>vijf groepen onderhoudsbehandelingen</strong>: <strong>wassen, bleken, drogen, strijken en professionele reiniging</strong>."
+    },
+    {
+     "soort": "figuur",
+     "html": "<svg viewBox=\"0 0 470 206\" width=\"470\" xmlns=\"http://www.w3.org/2000/svg\"><path d=\"M12 48 l6 -14 h32 l6 14 a 22 16 0 1 1 -44 0 z\" fill=\"#ffffff\" stroke=\"#23291f\" stroke-width=\"2\"/><text x=\"34.0\" y=\"58.0\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"12\" font-weight=\"600\" fill=\"#23291f\">40</text><text x=\"34.0\" y=\"112.0\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"10\" font-weight=\"600\" fill=\"#23291f\">wassen</text><text x=\"34.0\" y=\"126.0\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"8.5\" fill=\"#6b7260\">het getal is de</text><text x=\"34.0\" y=\"137.0\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"8.5\" fill=\"#6b7260\">hoogste</text><text x=\"34.0\" y=\"148.0\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"8.5\" fill=\"#6b7260\">temperatuur</text><polygon points=\"120,30 96,70 144,70\" fill=\"#ffffff\" stroke=\"#23291f\" stroke-width=\"2\"/><text x=\"120.0\" y=\"112.0\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"10\" font-weight=\"600\" fill=\"#23291f\">bleken</text><text x=\"120.0\" y=\"126.0\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"8.5\" fill=\"#6b7260\">met of zonder</text><text x=\"120.0\" y=\"137.0\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"8.5\" fill=\"#6b7260\">chloor</text><rect x=\"182\" y=\"26\" width=\"48\" height=\"48\" fill=\"#ffffff\" stroke=\"#23291f\" stroke-width=\"2\"/><circle cx=\"206\" cy=\"50\" r=\"14\" fill=\"none\" stroke=\"#23291f\" stroke-width=\"2\"/><text x=\"206.0\" y=\"112.0\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"10\" font-weight=\"600\" fill=\"#23291f\">drogen</text><text x=\"206.0\" y=\"126.0\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"8.5\" fill=\"#6b7260\">in de</text><text x=\"206.0\" y=\"137.0\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"8.5\" fill=\"#6b7260\">droogtrommel of</text><text x=\"206.0\" y=\"148.0\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"8.5\" fill=\"#6b7260\">niet</text><path d=\"M268 66 h48 l-8 -24 q -4 -10 -14 -10 h-10 q -10 0 -16 10 z\" fill=\"#ffffff\" stroke=\"#23291f\" stroke-width=\"2\"/><circle cx=\"284\" cy=\"56\" r=\"2.4\" fill=\"#23291f\"/><circle cx=\"292\" cy=\"56\" r=\"2.4\" fill=\"#23291f\"/><circle cx=\"300\" cy=\"56\" r=\"2.4\" fill=\"#23291f\"/><text x=\"292.0\" y=\"112.0\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"10\" font-weight=\"600\" fill=\"#23291f\">strijken</text><text x=\"292.0\" y=\"126.0\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"8.5\" fill=\"#6b7260\">de puntjes geven</text><text x=\"292.0\" y=\"137.0\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"8.5\" fill=\"#6b7260\">de hitte</text><circle cx=\"378\" cy=\"50\" r=\"24\" fill=\"#ffffff\" stroke=\"#23291f\" stroke-width=\"2\"/><line x1=\"356\" y1=\"28\" x2=\"400\" y2=\"72\" stroke=\"#b03a2e\" stroke-width=\"2.6\"/><line x1=\"356\" y1=\"72\" x2=\"400\" y2=\"28\" stroke=\"#b03a2e\" stroke-width=\"2.6\"/><text x=\"378.0\" y=\"112.0\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"10\" font-weight=\"600\" fill=\"#23291f\">reiniging</text><text x=\"378.0\" y=\"126.0\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"8.5\" fill=\"#6b7260\">doorstreept: het</text><text x=\"378.0\" y=\"137.0\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"8.5\" fill=\"#6b7260\">mag niet</text><text x=\"16.0\" y=\"200.0\" text-anchor=\"start\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"9.5\" fill=\"#6b7260\">een kruis door een symbool betekent altijd: deze behandeling is verboden</text></svg>",
+     "onderschrift": ""
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Een doorstreept symbool betekent altijd dat het niet mag.</strong> Een kruis door het strijkijzer betekent dus: dit stuk mag je niet strijken. <strong>Het getal in het kuipje, het wasteken, is de hoogste temperatuur waarop je mag wassen</strong>; koeler mag altijd, warmer nooit. <strong>Je mag dus niet elk kledingstuk op zestig graden wassen</strong>: wol en zijde verdragen veel minder."
+    },
+    {
+     "soort": "weetje",
+     "html": "De puntjes in het strijkijzer zeggen hoe heet het mag: één puntje voor de koelste stand, drie voor de heetste. Een schroeiplek betekent dat je te warm stond."
+    }
+   ]
+  },
+  {
+   "kop": "De Sinner-cirkel",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "<strong>Het resultaat van het wassen wordt bepaald door de Sinner-cirkel</strong>: <strong>tijd, chemie, temperatuur en mechanische handeling</strong> samen. De cirkel is altijd volledig. Haal je van de ene factor iets af, dan moet je het bij een andere bijleggen, anders wordt het wasgoed minder proper."
+    },
+    {
+     "soort": "figuur",
+     "html": "<svg viewBox=\"0 0 470 250\" width=\"470\" xmlns=\"http://www.w3.org/2000/svg\"><path d=\"M150 120 L150.0 28.0 A 92 92 0 0 1 242.0 120.0 Z\" fill=\"#2f5d50\" fill-opacity=\"0.22\" stroke=\"#2f5d50\" stroke-width=\"1.8\"/><rect x=\"276\" y=\"42\" width=\"12\" height=\"12\" fill=\"#2f5d50\" fill-opacity=\"0.5\" stroke=\"#2f5d50\" stroke-width=\"1.2\"/><text x=\"296.0\" y=\"52.0\" text-anchor=\"start\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"10.5\" font-weight=\"600\" fill=\"#23291f\">tijd</text><text x=\"296.0\" y=\"65.0\" text-anchor=\"start\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"9.5\" fill=\"#6b7260\">25 %</text><path d=\"M150 120 L242.0 120.0 A 92 92 0 0 1 150.0 212.0 Z\" fill=\"#c17f2b\" fill-opacity=\"0.22\" stroke=\"#c17f2b\" stroke-width=\"1.8\"/><rect x=\"276\" y=\"76\" width=\"12\" height=\"12\" fill=\"#c17f2b\" fill-opacity=\"0.5\" stroke=\"#c17f2b\" stroke-width=\"1.2\"/><text x=\"296.0\" y=\"86.0\" text-anchor=\"start\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"10.5\" font-weight=\"600\" fill=\"#23291f\">chemie</text><text x=\"296.0\" y=\"99.0\" text-anchor=\"start\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"9.5\" fill=\"#6b7260\">25 %</text><path d=\"M150 120 L150.0 212.0 A 92 92 0 0 1 58.0 120.0 Z\" fill=\"#6f8f4a\" fill-opacity=\"0.22\" stroke=\"#6f8f4a\" stroke-width=\"1.8\"/><rect x=\"276\" y=\"110\" width=\"12\" height=\"12\" fill=\"#6f8f4a\" fill-opacity=\"0.5\" stroke=\"#6f8f4a\" stroke-width=\"1.2\"/><text x=\"296.0\" y=\"120.0\" text-anchor=\"start\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"10.5\" font-weight=\"600\" fill=\"#23291f\">temperatuur</text><text x=\"296.0\" y=\"133.0\" text-anchor=\"start\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"9.5\" fill=\"#6b7260\">25 %</text><path d=\"M150 120 L58.0 120.0 A 92 92 0 0 1 150.0 28.0 Z\" fill=\"#6b7260\" fill-opacity=\"0.22\" stroke=\"#6b7260\" stroke-width=\"1.8\"/><rect x=\"276\" y=\"144\" width=\"12\" height=\"12\" fill=\"#6b7260\" fill-opacity=\"0.5\" stroke=\"#6b7260\" stroke-width=\"1.2\"/><text x=\"296.0\" y=\"154.0\" text-anchor=\"start\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"10.5\" font-weight=\"600\" fill=\"#23291f\">mechanische handeling</text><text x=\"296.0\" y=\"167.0\" text-anchor=\"start\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"9.5\" fill=\"#6b7260\">25 %</text><text x=\"16.0\" y=\"244.0\" text-anchor=\"start\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"9.5\" fill=\"#6b7260\">de vier samen zijn altijd het geheel: minder van de ene vraagt meer van een andere</text></svg>",
+     "onderschrift": ""
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Als je op een lagere temperatuur wast, heb je meer tijd nodig</strong>, of meer product, of meer beweging. Daarom duurt een programma op dertig graden vaak langer dan een programma op zestig: de machine vult de ontbrekende warmte aan met tijd."
+    },
+    {
+     "soort": "kader",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">de vier factoren</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">een gewone was</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">dezelfde was, kouder</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>temperatuur</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">25 %</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>10 %</strong></td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>tijd</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">25 %</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>40 %</strong></td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>chemie</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">25 %</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>30 %</strong></td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>mechanische handeling</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">25 %</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>20 %</strong></td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>samen</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>100 %</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>100 %</strong></td></tr></table>"
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Zwaar bevuild wasgoed vraagt meer product of een hogere temperatuur</strong>, en dat is net dezelfde redenering: meer vuil vraagt meer van minstens een van de vier factoren."
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Een overvolle trommel wast niet beter maar slechter.</strong> In een volle trommel kan het wasgoed niet bewegen, en net die beweging is de mechanische handeling van de Sinner-cirkel. <strong>Bij een overladen trommel steek je dus minder wasgoed in.</strong> Een trommel die je maar tot drie kwart vult, laat genoeg ruimte om alles te laten bewegen."
+    }
+   ]
+  },
+  {
+   "kop": "De was doen, van begin tot eind",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "De was volgt een vaste werkvolgorde. <strong>Verzamelen en bewaren is de eerste stap</strong>, en <strong>het strijken is de laatste</strong>."
+    },
+    {
+     "soort": "figuur",
+     "html": "<svg viewBox=\"0 0 470 76\" width=\"470\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"0.0\" y=\"6\" width=\"98.0\" height=\"62\" rx=\"10\" fill=\"#ffffff\" stroke=\"#2f5d50\" stroke-width=\"1.8\"/><text x=\"49.0\" y=\"29.0\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"11.5\" font-weight=\"600\" fill=\"#234539\">verzamelen</text><text x=\"49.0\" y=\"45.0\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"10\" font-weight=\"400\" fill=\"#6b7260\">en bewaren</text><path d=\"M103.0 37.0 h12 m0 0 l-6 -5 m6 5 l-6 5\" stroke=\"#2f5d50\" stroke-width=\"2\" fill=\"none\" stroke-linecap=\"round\"/><rect x=\"124.0\" y=\"6\" width=\"98.0\" height=\"62\" rx=\"10\" fill=\"#ffffff\" stroke=\"#2f5d50\" stroke-width=\"1.8\"/><text x=\"173.0\" y=\"37.0\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"11.5\" font-weight=\"600\" fill=\"#234539\">sorteren</text><path d=\"M227.0 37.0 h12 m0 0 l-6 -5 m6 5 l-6 5\" stroke=\"#2f5d50\" stroke-width=\"2\" fill=\"none\" stroke-linecap=\"round\"/><rect x=\"248.0\" y=\"6\" width=\"98.0\" height=\"62\" rx=\"10\" fill=\"#ffffff\" stroke=\"#2f5d50\" stroke-width=\"1.8\"/><text x=\"297.0\" y=\"37.0\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"11.5\" font-weight=\"600\" fill=\"#234539\">controleren</text><path d=\"M351.0 37.0 h12 m0 0 l-6 -5 m6 5 l-6 5\" stroke=\"#2f5d50\" stroke-width=\"2\" fill=\"none\" stroke-linecap=\"round\"/><rect x=\"372.0\" y=\"6\" width=\"98.0\" height=\"62\" rx=\"10\" fill=\"#ffffff\" stroke=\"#2f5d50\" stroke-width=\"1.8\"/><text x=\"421.0\" y=\"37.0\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"11.5\" font-weight=\"600\" fill=\"#234539\">wassen</text></svg>",
+     "onderschrift": ""
+    },
+    {
+     "soort": "figuur",
+     "html": "<svg viewBox=\"0 0 470 76\" width=\"470\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"0.0\" y=\"6\" width=\"139.3\" height=\"62\" rx=\"10\" fill=\"#ffffff\" stroke=\"#2f5d50\" stroke-width=\"1.8\"/><text x=\"69.7\" y=\"37.0\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"11.5\" font-weight=\"600\" fill=\"#234539\">drogen</text><path d=\"M144.33333333333334 37.0 h12 m0 0 l-6 -5 m6 5 l-6 5\" stroke=\"#2f5d50\" stroke-width=\"2\" fill=\"none\" stroke-linecap=\"round\"/><rect x=\"165.3\" y=\"6\" width=\"139.3\" height=\"62\" rx=\"10\" fill=\"#ffffff\" stroke=\"#2f5d50\" stroke-width=\"1.8\"/><text x=\"235.0\" y=\"29.0\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"11.5\" font-weight=\"600\" fill=\"#234539\">kastklaar</text><text x=\"235.0\" y=\"45.0\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"10\" font-weight=\"400\" fill=\"#6b7260\">maken</text><path d=\"M309.6666666666667 37.0 h12 m0 0 l-6 -5 m6 5 l-6 5\" stroke=\"#2f5d50\" stroke-width=\"2\" fill=\"none\" stroke-linecap=\"round\"/><rect x=\"330.7\" y=\"6\" width=\"139.3\" height=\"62\" rx=\"10\" fill=\"#ffffff\" stroke=\"#2f5d50\" stroke-width=\"1.8\"/><text x=\"400.3\" y=\"29.0\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"11.5\" font-weight=\"600\" fill=\"#234539\">strijken</text><text x=\"400.3\" y=\"45.0\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"10\" font-weight=\"400\" fill=\"#6b7260\">indien nodig</text></svg>",
+     "onderschrift": ""
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Je sorteert wasgoed op de kleur, het soort textiel, de wastemperatuur en de vuilgraad.</strong> Dat zijn de vier sorteercriteria; de prijs van een stuk doet er niet toe. <strong>Op kleur sorteer je omdat kleuren afgeven</strong>: één rode sok kleurt een hele witte was roze. <strong>Op vuilgraad sorteer je omdat het vuil overgaat</strong>: zwaar bevuild wasgoed vuilt de rest van de lading mee."
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Na het sorteren komt het controleren</strong>, en dat gebeurt dus nog voor het wassen. <strong>Je kijkt na of de zakken leeg zijn, of de ritsen dicht zijn en of er vlekken zijn die je eerst moet behandelen.</strong> Een zakdoek of een papiertje dat meedraait, ligt achteraf in snippers over heel de was."
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Het wasprogramma hangt af van het onderhoudsetiket.</strong> Dat geeft de temperatuur en de toegelaten behandelingen, en daarop kies je het programma en het toerental. <strong>Het toerental is de snelheid waarmee de machine het water uit de was zwiert bij het centrifugeren.</strong> Hoe hoger het toerental, hoe droger de was uit de machine komt, maar ook hoe meer kreuken erin zitten."
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Wat niet in de droogtrommel mag, hang je aan een droogrek.</strong> Wol en fijne stoffen krimpen in de trommel, dus <strong>niet elk kledingstuk mag erin</strong>; een doorstreept droogsymbool zegt dat meteen."
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>De temperatuur van je strijkijzer kies je volgens het etiket.</strong> <strong>Aan een goed gestreken stuk zie je geen kreuken, een nette vouwlijn en geen glimplekken.</strong> Een glimplek of een schroeiplek betekent dat het strijkijzer te heet stond voor die stof."
+    }
+   ]
+  }
+ ],
+ "onthoud": []
+}

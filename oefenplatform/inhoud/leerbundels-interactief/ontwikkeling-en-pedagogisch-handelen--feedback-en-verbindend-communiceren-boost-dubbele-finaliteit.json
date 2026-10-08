@@ -1,0 +1,85 @@
+{
+ "vak": "Ontwikkeling en pedagogisch handelen",
+ "titel": "Feedback en verbindend communiceren",
+ "onder": "Het 4G-model, de ik-boodschap, de vier stappen van verbindend communiceren, en herstelgericht werken.",
+ "secties": [
+  {
+   "kop": "Feedback geven",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "<strong>Feedback is zeggen wat je opvalt</strong>: je koppelt terug wat je ziet of merkt, zodat de ander ermee verder kan. <strong>Ze kan positief of negatief zijn, en verbaal of non-verbaal.</strong> <strong>Positieve feedback is benoemen wat goed gaat</strong>, en dat werkt even sterk als zeggen wat beter kan. <strong>Feedback kan dus ook positief zijn.</strong>"
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Het 4G-model heeft vier G's</strong>, en ze komen in deze volgorde."
+    },
+    {
+     "soort": "figuur",
+     "html": "<svg viewBox=\"0 0 470 76\" width=\"470\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"0.0\" y=\"6\" width=\"98.0\" height=\"62\" rx=\"10\" fill=\"#ffffff\" stroke=\"#2f5d50\" stroke-width=\"1.8\"/><text x=\"49.0\" y=\"29.0\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"11.5\" font-weight=\"600\" fill=\"#234539\">gedrag</text><text x=\"49.0\" y=\"45.0\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"10\" font-weight=\"400\" fill=\"#6b7260\">wat je zag</text><path d=\"M103.0 37.0 h12 m0 0 l-6 -5 m6 5 l-6 5\" stroke=\"#2f5d50\" stroke-width=\"2\" fill=\"none\" stroke-linecap=\"round\"/><rect x=\"124.0\" y=\"6\" width=\"98.0\" height=\"62\" rx=\"10\" fill=\"#ffffff\" stroke=\"#2f5d50\" stroke-width=\"1.8\"/><text x=\"173.0\" y=\"29.0\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"11.5\" font-weight=\"600\" fill=\"#234539\">gevoel</text><text x=\"173.0\" y=\"45.0\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"10\" font-weight=\"400\" fill=\"#6b7260\">wat het met je deed</text><path d=\"M227.0 37.0 h12 m0 0 l-6 -5 m6 5 l-6 5\" stroke=\"#2f5d50\" stroke-width=\"2\" fill=\"none\" stroke-linecap=\"round\"/><rect x=\"248.0\" y=\"6\" width=\"98.0\" height=\"62\" rx=\"10\" fill=\"#ffffff\" stroke=\"#2f5d50\" stroke-width=\"1.8\"/><text x=\"297.0\" y=\"29.0\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"11.5\" font-weight=\"600\" fill=\"#234539\">gevolg</text><text x=\"297.0\" y=\"45.0\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"10\" font-weight=\"400\" fill=\"#6b7260\">wat er gebeurde</text><path d=\"M351.0 37.0 h12 m0 0 l-6 -5 m6 5 l-6 5\" stroke=\"#2f5d50\" stroke-width=\"2\" fill=\"none\" stroke-linecap=\"round\"/><rect x=\"372.0\" y=\"6\" width=\"98.0\" height=\"62\" rx=\"10\" fill=\"#ffffff\" stroke=\"#2f5d50\" stroke-width=\"1.8\"/><text x=\"421.0\" y=\"29.0\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"11.5\" font-weight=\"600\" fill=\"#234539\">gewenst gedrag</text><text x=\"421.0\" y=\"45.0\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"10\" font-weight=\"400\" fill=\"#6b7260\">wat je anders wil</text></svg>",
+     "onderschrift": ""
+    },
+    {
+     "soort": "kader",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">de G</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">wat je zegt</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>de eerste G: gedrag</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>je benoemt het gedrag dat je gezien hebt</strong></td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>de tweede G: gevoel</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>wat dat gedrag bij jou teweegbracht</strong></td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>de derde G: gevolg</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>wat er door dat gedrag gebeurd is</strong></td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>de vierde G: gewenst gedrag</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>wat je graag anders zou zien</strong></td></tr></table>"
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Feedback gaat over gedrag, nooit over wie iemand is.</strong>"
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Een ik-boodschap is een boodschap waarin je over jezelf spreekt</strong>: \"Ik schrik als er geroepen wordt\" in plaats van \"Jij roept altijd\". <strong>Ze begint dus met ik</strong>, niet met jij. <strong>Ze werkt beter omdat de ander zich veiliger voelt</strong>: wie geen verwijt hoort, hoeft zich niet te verdedigen en kan luisteren."
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Krijg je zelf feedback, dan luister je eerst, vraag je wat hij bedoelt en denk je erover na.</strong> <strong>Feedback geef je liefst onder vier ogen</strong> en niet voor de hele groep, want dan voelt ze als een afrekening."
+    }
+   ]
+  },
+  {
+   "kop": "Verbindend communiceren",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "<strong>Verbindend of geweldloos communiceren gaat in vier stappen</strong>: <strong>waarneming, gevoel, behoefte en verzoek</strong>. Straffen hoort er niet bij."
+    },
+    {
+     "soort": "figuur",
+     "html": "<svg viewBox=\"0 0 470 76\" width=\"470\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"0.0\" y=\"6\" width=\"98.0\" height=\"62\" rx=\"10\" fill=\"#ffffff\" stroke=\"#2f5d50\" stroke-width=\"1.8\"/><text x=\"49.0\" y=\"29.0\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"11.5\" font-weight=\"600\" fill=\"#234539\">de waarneming</text><text x=\"49.0\" y=\"45.0\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"10\" font-weight=\"400\" fill=\"#6b7260\">wat je ziet</text><path d=\"M103.0 37.0 h12 m0 0 l-6 -5 m6 5 l-6 5\" stroke=\"#2f5d50\" stroke-width=\"2\" fill=\"none\" stroke-linecap=\"round\"/><rect x=\"124.0\" y=\"6\" width=\"98.0\" height=\"62\" rx=\"10\" fill=\"#ffffff\" stroke=\"#2f5d50\" stroke-width=\"1.8\"/><text x=\"173.0\" y=\"29.0\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"11.5\" font-weight=\"600\" fill=\"#234539\">het gevoel</text><text x=\"173.0\" y=\"45.0\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"10\" font-weight=\"400\" fill=\"#6b7260\">wat het met je doet</text><path d=\"M227.0 37.0 h12 m0 0 l-6 -5 m6 5 l-6 5\" stroke=\"#2f5d50\" stroke-width=\"2\" fill=\"none\" stroke-linecap=\"round\"/><rect x=\"248.0\" y=\"6\" width=\"98.0\" height=\"62\" rx=\"10\" fill=\"#ffffff\" stroke=\"#2f5d50\" stroke-width=\"1.8\"/><text x=\"297.0\" y=\"29.0\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"11.5\" font-weight=\"600\" fill=\"#234539\">de behoefte</text><text x=\"297.0\" y=\"45.0\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"10\" font-weight=\"400\" fill=\"#6b7260\">wat je nodig hebt</text><path d=\"M351.0 37.0 h12 m0 0 l-6 -5 m6 5 l-6 5\" stroke=\"#2f5d50\" stroke-width=\"2\" fill=\"none\" stroke-linecap=\"round\"/><rect x=\"372.0\" y=\"6\" width=\"98.0\" height=\"62\" rx=\"10\" fill=\"#ffffff\" stroke=\"#2f5d50\" stroke-width=\"1.8\"/><text x=\"421.0\" y=\"29.0\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"11.5\" font-weight=\"600\" fill=\"#234539\">het verzoek</text><text x=\"421.0\" y=\"45.0\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"10\" font-weight=\"400\" fill=\"#6b7260\">wat je vraagt</text></svg>",
+     "onderschrift": ""
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Je begint bij de waarneming</strong>: <strong>wat je ziet of hoort, zonder oordeel</strong>. \"Je kwam tien minuten later\" in plaats van \"Je bent onbetrouwbaar\". <strong>Daarna benoem je je gevoel</strong>, want <strong>zo begrijpt de ander je beter</strong> en weet hij wat zijn gedrag teweegbrengt. <strong>Na het gevoel komt de behoefte</strong>, en <strong>je sluit af met een verzoek</strong>."
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Een verzoek is een vraag om iets te doen, geen bevel.</strong> <strong>Het verschil met een eis is dat de ander bij een verzoek ook nee mag zeggen.</strong> Is nee geen optie, dan is het geen verzoek maar een eis."
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Geweldloze communicatie is direct, doeltreffend, emotioneel, empathisch en respectvol.</strong> Dwingen hoort er niet bij. <strong>Empathisch communiceren is je inleven in de ander</strong>, dus net niet enkel aan jezelf denken."
+    }
+   ]
+  },
+  {
+   "kop": "Herstelgericht werken",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "<strong>Herstelgericht werken richt zich op het herstellen van de schade</strong>: wat kapot ging tussen mensen, wordt samen hersteld. <strong>Het draait dus niet om straffen.</strong>"
+    },
+    {
+     "soort": "kader",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">de vraag</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">waarom je ze stelt</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>wat is er gebeurd?</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>die vraag komt eerst</strong>: eerst het verhaal, van beide kanten, voor er iets beslist wordt</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>wie heeft er last van?</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">zo komt in beeld wie geraakt werd</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>wat heb je nodig?</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">zo kom je bij het herstel in plaats van bij de straf</td></tr></table>"
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Het doel van herstelgerichte vragen is samen een oplossing vinden</strong>: iedereen krijgt zijn verhaal, en samen zoek je hoe het hersteld raakt."
+    }
+   ]
+  }
+ ],
+ "onthoud": []
+}

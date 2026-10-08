@@ -1,0 +1,203 @@
+{
+ "vak": "Frans",
+ "titel": "Voornaamwoorden: COD, COI, y en en",
+ "onder": "Wat le, lui, y en en vervangen, waar ze in de zin staan, en de betrekkelijke voornaamwoorden qui, que, dont en où.",
+ "secties": [
+  {
+   "kop": "De onderwerpsvormen",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "De rij waarmee alles begint: <strong>je, tu, il, elle, on, nous, vous, ils, elles</strong>. Dat zijn de vormen die <strong>onderwerp</strong> van de zin zijn."
+    },
+    {
+     "soort": "weetje",
+     "html": "<em>On</em> en <em>nous</em> betekenen in het gesproken Frans vaak hetzelfde, maar <em>on</em> wordt <strong>als een enkelvoud vervoegd</strong>: <em>on <strong>va</strong> au cinéma</em> tegenover <em>nous <strong>allons</strong> au cinéma</em>."
+    }
+   ]
+  },
+  {
+   "kop": "Het lijdend voorwerp (COD)",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Het <strong>lijdend voorwerp</strong> is waarop de handeling valt. In <em>Marie achète <strong>le livre</strong></em> is <em>le livre</em> het COD. Vervang je het door een voornaamwoord, dan wordt het <em>le</em>, <em>la</em>, <em>l'</em> of <em>les</em>, en het schuift <strong>vóór het vervoegde werkwoord</strong>: <em>Marie <strong>l'</strong>achète</em>."
+    },
+    {
+     "soort": "figuur",
+     "html": "<svg viewBox=\"0 0 470 168\" width=\"470\" xmlns=\"http://www.w3.org/2000/svg\"><text x=\"24.0\" y=\"50.0\" text-anchor=\"start\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"11\" font-weight=\"600\" fill=\"#6b7260\">Nederlands</text><rect x=\"128\" y=\"26\" width=\"100\" height=\"40\" rx=\"9\" fill=\"#6b726018\" stroke=\"#6b7260\" stroke-width=\"1.6\"/><text x=\"178.0\" y=\"52.0\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"14\" font-weight=\"600\" fill=\"#234539\">ik</text><rect x=\"240\" y=\"26\" width=\"100\" height=\"40\" rx=\"9\" fill=\"#23453918\" stroke=\"#234539\" stroke-width=\"1.6\"/><text x=\"290.0\" y=\"52.0\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"14\" font-weight=\"600\" fill=\"#234539\">zie</text><rect x=\"352\" y=\"26\" width=\"100\" height=\"40\" rx=\"9\" fill=\"#c17f2b18\" stroke=\"#c17f2b\" stroke-width=\"1.6\"/><text x=\"402.0\" y=\"52.0\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"14\" font-weight=\"600\" fill=\"#234539\">haar</text><text x=\"24.0\" y=\"124.0\" text-anchor=\"start\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"11\" font-weight=\"600\" fill=\"#2f5d50\">Frans</text><rect x=\"128\" y=\"100\" width=\"100\" height=\"40\" rx=\"9\" fill=\"#6b726018\" stroke=\"#6b7260\" stroke-width=\"1.6\"/><text x=\"178.0\" y=\"126.0\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"14\" font-weight=\"600\" fill=\"#234539\">je</text><rect x=\"240\" y=\"100\" width=\"100\" height=\"40\" rx=\"9\" fill=\"#c17f2b18\" stroke=\"#c17f2b\" stroke-width=\"1.6\"/><text x=\"290.0\" y=\"126.0\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"14\" font-weight=\"600\" fill=\"#234539\">la</text><rect x=\"352\" y=\"100\" width=\"100\" height=\"40\" rx=\"9\" fill=\"#23453918\" stroke=\"#234539\" stroke-width=\"1.6\"/><text x=\"402.0\" y=\"126.0\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"14\" font-weight=\"600\" fill=\"#234539\">vois</text><text x=\"235.0\" y=\"158.0\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"10\" fill=\"#6b7260\">Het voorwerp staat in het Frans vóór het werkwoord, in het Nederlands erachter.</text></svg>",
+     "onderschrift": "Dezelfde zin in de twee talen, met het voorwerp in het geel."
+    },
+    {
+     "soort": "figuur",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Soort</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Vormen</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">onderwerp</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">je, tu, il, elle, on, nous, vous, ils, elles</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">lijdend voorwerp (COD)</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">me, te, le, la, l', nous, vous, les</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">meewerkend voorwerp (COI)</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">me, te, lui, nous, vous, leur</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">tonisch (na een voorzetsel)</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">moi, toi, lui, elle, nous, vous, eux, elles</td></tr></table>",
+     "onderschrift": "De vier rijen persoonlijke voornaamwoorden."
+    }
+   ]
+  },
+  {
+   "kop": "Het meewerkend voorwerp (COI)",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Een <strong>meewerkend voorwerp</strong> herken je aan de <strong><em>à</em></strong> die in de volle zin vóór de persoon staat: <em>je téléphone <strong>à</strong> mes parents</em>. Dan gebruik je <em>lui</em> (enkelvoud) of <em>leur</em> (meervoud): <em>je <strong>leur</strong> téléphone</em>."
+    },
+    {
+     "soort": "figuur",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Juist</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Waarom</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Je lui parle tous les jours.</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">parler à quelqu'un, dus een COI</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Elle leur a répondu hier.</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">répondre à quelqu'un, dus een COI</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Nous lui téléphonons ce soir.</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">téléphoner à quelqu'un, dus een COI</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Je le vois à l'école.</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">voir quelqu'un, zonder à, dus een COD — niet je lui vois</td></tr></table>",
+     "onderschrift": "Drie werkwoorden met à en één zonder."
+    },
+    {
+     "soort": "tekst",
+     "html": "Het loont dus om bij een werkwoord te onthouden <strong>of er een à bij hoort</strong>. <em>Parler à</em>, <em>répondre à</em>, <em>téléphoner à</em>, <em>écrire à</em>, <em>donner à</em> nemen <em>lui</em> of <em>leur</em>; <em>voir</em>, <em>regarder</em>, <em>aimer</em> en <em>acheter</em> nemen <em>le</em>, <em>la</em> of <em>les</em>."
+    }
+   ]
+  },
+  {
+   "kop": "Y en en",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "<strong><em>Y</em></strong> vervangt een <strong>plaats</strong>, of een groep met <em>à</em> die <strong>geen persoon</strong> is: <em>je vais à Paris</em> wordt <em>j'<strong>y</strong> vais</em>, <em>je pense à mon examen</em> wordt <em>j'y pense</em>."
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong><em>En</em></strong> vervangt een groep die met <strong><em>de, du, de la of des</em></strong> begint, en dus ook een <strong>hoeveelheid</strong>: <em>j'ai trois frères</em> wordt <em>j'<strong>en</strong> ai trois</em>, <em>je mange du pain</em> wordt <em>j'en mange</em>."
+    },
+    {
+     "soort": "tekst",
+     "html": "Allebei staan ze, net als de andere voornaamwoorden, <strong>vóór</strong> het vervoegde werkwoord. Alleen in de <strong>bevelende zin</strong> springen ze erachter: <em>Vas-<strong>y</strong> !</em>, <em>Prends-<strong>en</strong> !</em>"
+    }
+   ]
+  },
+  {
+   "kop": "Twee voornaamwoorden in één zin",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Staan er twee samen, dan ligt de volgorde vast. <em>Il <strong>me le</strong> donne</em>: <em>me</em> komt vóór <em>le</em>."
+    },
+    {
+     "soort": "figuur",
+     "html": "<svg viewBox=\"0 0 470 76\" width=\"470\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"0.0\" y=\"6\" width=\"73.2\" height=\"62\" rx=\"10\" fill=\"#ffffff\" stroke=\"#2f5d50\" stroke-width=\"1.8\"/><text x=\"36.6\" y=\"29.0\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"11.5\" font-weight=\"600\" fill=\"#234539\">me, te</text><text x=\"36.6\" y=\"45.0\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"10\" font-weight=\"400\" fill=\"#6b7260\">nous, vous, se</text><path d=\"M78.2 37.0 h12 m0 0 l-6 -5 m6 5 l-6 5\" stroke=\"#2f5d50\" stroke-width=\"2\" fill=\"none\" stroke-linecap=\"round\"/><rect x=\"99.2\" y=\"6\" width=\"73.2\" height=\"62\" rx=\"10\" fill=\"#ffffff\" stroke=\"#2f5d50\" stroke-width=\"1.8\"/><text x=\"135.8\" y=\"29.0\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"11.5\" font-weight=\"600\" fill=\"#234539\">le, la</text><text x=\"135.8\" y=\"45.0\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"10\" font-weight=\"400\" fill=\"#6b7260\">les</text><path d=\"M177.4 37.0 h12 m0 0 l-6 -5 m6 5 l-6 5\" stroke=\"#2f5d50\" stroke-width=\"2\" fill=\"none\" stroke-linecap=\"round\"/><rect x=\"198.4\" y=\"6\" width=\"73.2\" height=\"62\" rx=\"10\" fill=\"#ffffff\" stroke=\"#2f5d50\" stroke-width=\"1.8\"/><text x=\"235.0\" y=\"29.0\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"11.5\" font-weight=\"600\" fill=\"#234539\">lui</text><text x=\"235.0\" y=\"45.0\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"10\" font-weight=\"400\" fill=\"#6b7260\">leur</text><path d=\"M276.6 37.0 h12 m0 0 l-6 -5 m6 5 l-6 5\" stroke=\"#2f5d50\" stroke-width=\"2\" fill=\"none\" stroke-linecap=\"round\"/><rect x=\"297.6\" y=\"6\" width=\"73.2\" height=\"62\" rx=\"10\" fill=\"#ffffff\" stroke=\"#2f5d50\" stroke-width=\"1.8\"/><text x=\"334.2\" y=\"37.0\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"11.5\" font-weight=\"600\" fill=\"#234539\">y</text><path d=\"M375.8 37.0 h12 m0 0 l-6 -5 m6 5 l-6 5\" stroke=\"#2f5d50\" stroke-width=\"2\" fill=\"none\" stroke-linecap=\"round\"/><rect x=\"396.8\" y=\"6\" width=\"73.2\" height=\"62\" rx=\"10\" fill=\"#ffffff\" stroke=\"#2f5d50\" stroke-width=\"1.8\"/><text x=\"433.4\" y=\"37.0\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"11.5\" font-weight=\"600\" fill=\"#234539\">en</text></svg>",
+     "onderschrift": "De vaste volgorde van de voornaamwoorden vóór het werkwoord."
+    },
+    {
+     "soort": "figuur",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Juist</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Fout</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Je te le dis.</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Je le te dis.</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Il le lui a donné.</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Je lui le donne.</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Elle nous en parle.</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Elle en nous parle.</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Il m'y emmène.</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Il y me emmène.</td></tr></table>",
+     "onderschrift": "Vier zinnen in de juiste volgorde, met de fout ernaast."
+    },
+    {
+     "soort": "weetje",
+     "html": "In de <strong>bevelende zin</strong> staan de voornaamwoorden <strong>achter</strong> het werkwoord, met streepjes ertussen, en wordt <em>me</em> dan <em>moi</em>: <em>Donne-<strong>le-moi</strong> !</em>"
+    }
+   ]
+  },
+  {
+   "kop": "Na een voorzetsel: de tonische vormen",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Na een voorzetsel zoals <em>avec</em>, <em>chez</em>, <em>pour</em> of <em>sans</em> kan je <strong>niet</strong> <em>je</em>, <em>tu</em> of <em>il</em> gebruiken. Daar staan de <strong>tonische</strong> vormen: <strong>moi, toi, lui, elle, nous, vous, eux, elles</strong>."
+    },
+    {
+     "soort": "figuur",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Frans</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Nederlands</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Je viens avec toi.</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Ik kom met jou.</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">On va chez eux.</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">We gaan bij hen thuis.</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">C'est pour moi ?</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Is dat voor mij?</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Elle part sans lui.</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Zij vertrekt zonder hem.</td></tr></table>",
+     "onderschrift": "Vier zinnen waarin het voorzetsel de tonische vorm oplegt."
+    }
+   ]
+  },
+  {
+   "kop": "De wederkerende voornaamwoorden",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "<em>Je <strong>me</strong> lève tôt</em>, <em>nous <strong>nous</strong> dépêchons</em>, <em>tu <strong>te</strong> souviens de lui ?</em> — het wederkerend voornaamwoord verandert mee met het onderwerp en staat vóór het werkwoord."
+    },
+    {
+     "soort": "tekst",
+     "html": "Soms betekent dat <em>se</em> niet 'zichzelf' maar <strong>elkaar</strong>: <em>Les élèves <strong>se</strong> sont écrit toute l'année</em> betekent dat ze <strong>aan elkaar</strong> schreven, niet aan zichzelf. Het verband in de zin zegt je welke van de twee het is."
+    }
+   ]
+  },
+  {
+   "kop": "De betrekkelijke voornaamwoorden: qui, que, dont, où",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Deze vier noemt de vakfiche met name, en ze zijn niet uitwisselbaar. Welk je kiest, hangt af van de <strong>rol</strong> die het woord in de <strong>bijzin</strong> speelt."
+    },
+    {
+     "soort": "figuur",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Voornaamwoord</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Rol in de bijzin</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Voorbeeld</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">qui</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">onderwerp</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">la femme qui parle</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">que</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">lijdend voorwerp</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">le livre que je lis est passionnant</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">dont</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">er hoort een de bij het werkwoord of het naamwoord</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">le livre dont j'ai besoin</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">où</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een plaats of een tijdstip</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">c'est le jour où tout a changé</td></tr></table>",
+     "onderschrift": "De vier betrekkelijke voornaamwoorden met hun rol."
+    },
+    {
+     "soort": "tekst",
+     "html": "<em>Que</em> verkort voor een klinker tot <em>qu'</em>, maar <em>qui</em> <strong>nooit</strong>: <em>la femme <strong>qui</strong> arrive</em>, niet <em>qu'arrive</em>."
+    },
+    {
+     "soort": "tekst",
+     "html": "<em>Dont</em> gebruik je zodra er in de bijzin een <em>de</em> bij hoort: <em>avoir besoin <strong>de</strong></em> geeft <em>le livre dont j'ai besoin</em>, <em>parler <strong>de</strong></em> geeft <em>l'ami dont je t'ai parlé</em>, en <em>venir <strong>de</strong></em> geeft <em>la ville dont il vient</em>. Maar <em>habiter</em> heeft geen <em>de</em>: dat wordt <em>la maison <strong>où</strong> j'habite</em>."
+    },
+    {
+     "soort": "weetje",
+     "html": "<em>Ce qui</em> en <em>ce que</em> verwijzen niet naar één naamwoord maar naar een <strong>heel idee</strong>: <em>Je ne comprends pas <strong>ce qui</strong> s'est passé</em> — ik begrijp niet wat er gebeurd is."
+    }
+   ]
+  },
+  {
+   "kop": "Voornaamwoorden die alleen kunnen staan",
+   "blokken": [
+    {
+     "soort": "figuur",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Soort</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Vormen</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Voorbeeld</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">bezittelijk</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">le mien, la tienne, le sien, les leurs</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">C'est ta voiture ? — Oui, c'est la mienne.</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">aanwijzend</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">celui, celle, ceux, celles</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Ton livre préféré ? — Celui de Camus.</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">neutraal aanwijzend</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">ce, ceci, cela, ça</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Cela m'étonne.</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">onbepaald</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">quelqu'un, personne, rien, tout</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Il n'y a personne dans la salle.</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">vragend</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">qui, que, quoi, lequel, laquelle, lesquels, lesquelles</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Qui a téléphoné ?</td></tr></table>",
+     "onderschrift": "Vijf soorten voornaamwoorden die zonder naamwoord naast zich staan."
+    },
+    {
+     "soort": "tekst",
+     "html": "Het <strong>bezittelijke</strong> voornaamwoord past zich aan het <strong>bezeten ding</strong> aan: een auto is vrouwelijk, dus <em>c'est <strong>la mienne</strong></em>. En <em>ce sac n'est pas le mien, c'est <strong>le sien</strong></em>: een zak is mannelijk."
+    },
+    {
+     "soort": "tekst",
+     "html": "<em>Celui</em> vervangt een naamwoord dat al genoemd is: <em>Quel est ton livre préféré ? — <strong>Celui</strong> de Camus</em> betekent 'dat van Camus', waarbij <em>celui</em> het woord <em>livre</em> vervangt. <em>Cette</em> hoort daar niet bij: dat staat altijd vóór een naamwoord."
+    },
+    {
+     "soort": "weetje",
+     "html": "<em>Cela</em> is de <strong>verzorgde</strong> vorm en <em>ça</em> de <strong>spreektaal</strong> — net omgekeerd aan wat veel mensen denken. In een schrijfopdracht schrijf je dus liever <em>cela</em>."
+    },
+    {
+     "soort": "tekst",
+     "html": "<em>Lequel</em> is het enige <strong>vragende</strong> woord in dat rijtje, en het past zich aan in geslacht en getal: <em>laquelle</em>, <em>lesquels</em>, <em>lesquelles</em>. <em>Quelqu'un</em>, <em>personne</em> en <em>rien</em> zijn onbepaald."
+    }
+   ]
+  },
+  {
+   "kop": "Bij het lezen: wie doet wat aan wie?",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "De voornaamwoorden zijn niet alleen grammatica, ze beslissen wat een zin betekent. <em>Sophie a rencontré Paul. <strong>Elle lui</strong> a tout raconté.</em> <em>Elle</em> is het onderwerp en dus Sophie; <em>lui</em> is het meewerkend voorwerp en dus Paul. <strong>Sophie vertelde alles aan Paul</strong>, en niet omgekeerd."
+    },
+    {
+     "soort": "kader",
+     "html": "<strong>Doe dit bij elke moeilijke zin.</strong> Zoek eerst het onderwerp, dan het werkwoord, en vraag je daarna af waar elk voornaamwoord naar terugwijst. Negen van de tien keer zit de moeilijkheid daar, en niet in de woordenschat."
+    }
+   ]
+  },
+  {
+   "kop": "Oefen dit ook buiten het scherm",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Hier oefen je lezen, schrijven, woordenschat en grammatica. Maar het examen <strong>Frans 1</strong> is voor de helft <strong>luisteren</strong>, en <strong>Frans 2</strong> bestaat naast de twee schrijfopdrachten uit een <strong>spreekopdracht</strong> die je thuis opneemt en een <strong>gesprek van tien minuten</strong>. Die drie leer je niet achter een scherm, maar door Frans te horen en zelf Frans te praten, ook als het hakkelt."
+    },
+    {
+     "soort": "kader",
+     "html": "<strong>Deze week:</strong> vertel in het Frans aan iemand over een cadeau: wie gaf het aan wie, en gebruik daarbij minstens één keer lui of leur en één keer en. Doe het één keer en let daarna op wat je miste of niet gezegd kreeg. Dat is precies je volgende oefening."
+    }
+   ]
+  }
+ ],
+ "onthoud": []
+}

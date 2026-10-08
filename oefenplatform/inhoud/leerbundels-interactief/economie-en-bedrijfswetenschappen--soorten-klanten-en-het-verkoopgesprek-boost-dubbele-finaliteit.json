@@ -1,0 +1,84 @@
+{
+ "vak": "Economie en bedrijfswetenschappen",
+ "titel": "Soorten klanten en het verkoopgesprek",
+ "onder": "Rationele en emotionele koopmotieven, hoe je met een stille, een twijfelende of een veeleisende klant omgaat, en de zes fasen van een verkoopgesprek van de aandacht tot de afsluiting.",
+ "secties": [
+  {
+   "kop": "Koopmotieven",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "<strong>Een koopmotief is de reden om te kopen</strong>: waarom iemand dit product wil hebben. <strong>Een rationeel koopmotief is een verstandige reden</strong>, <strong>een emotioneel koopmotief een gevoelsreden</strong>, een motief dat op gevoel berust, ook een gevoelsmatig motief genoemd."
+    },
+    {
+     "soort": "kader",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">rationeel</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">emotioneel</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>de prijs</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>status</strong></td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>de kwaliteit</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>mode</strong></td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>de garantie</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>erbij willen horen</strong></td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">het verbruik</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">iets mooi vinden</td></tr></table>"
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Een klant kan meerdere koopmotieven tegelijk hebben</strong>: een wagen kan tegelijk zuinig én mooi moeten zijn. <strong>Het is nuttig het motief te kennen omdat je argumenten dan beter passen</strong>: wie om zuinigheid geeft, hoort iets anders dan wie om design geeft. <strong>Een verkoper vertelt dus niet elke klant hetzelfde verhaal.</strong>"
+    }
+   ]
+  },
+  {
+   "kop": "Soorten klanten",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "<strong>Niet elke klant wil op dezelfde manier aangepakt worden</strong>: een stille klant en een veeleisende klant hebben een andere aanpak nodig."
+    },
+    {
+     "soort": "kader",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">soort klant</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">wat je doet</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>de stille klant</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>open vragen stellen</strong>: met een open vraag krijg je meer dan ja of nee terug</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>de twijfelende klant</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>hij kan niet kiezen</strong>: help hem met twee of drie duidelijke opties in plaats van tien</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>de veeleisende klant</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>rustig en duidelijk blijven</strong>: je neemt zijn vraag ernstig en zegt eerlijk wat kan en wat niet</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>de klant die veel weet</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>zijn kennis erkennen</strong>: bouw op wat hij al weet en vul aan waar hij iets mist</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>wie enkel komt kijken</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>je blijft beschikbaar</strong>: je laat hem rondkijken en zegt dat je er bent als hij iets wil weten</td></tr></table>"
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Een goede verkoper luistert meer dan hij praat</strong>, en in het begin van het gesprek doet hij vooral dat: luisteren en vragen stellen. Zonder te weten wat de klant zoekt, is elk argument een gok."
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Een verkoopgesprek observeren is nuttig om eruit te leren</strong>: je ziet wat werkte en wat je zelf anders zou doen. <strong>Je beoordeelt het op drie dingen: is er geluisterd, is de behoefte gevonden en zijn de bezwaren weerlegd.</strong> Druk zetten is geen teken van een goed gesprek."
+    }
+   ]
+  },
+  {
+   "kop": "De zes fasen van het gesprek",
+   "blokken": [
+    {
+     "soort": "figuur",
+     "html": "<svg viewBox=\"0 0 470 76\" width=\"470\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"0.0\" y=\"6\" width=\"56.7\" height=\"62\" rx=\"10\" fill=\"#ffffff\" stroke=\"#2f5d50\" stroke-width=\"1.8\"/><text x=\"28.3\" y=\"29.0\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"11.5\" font-weight=\"600\" fill=\"#234539\">de aandacht</text><text x=\"28.3\" y=\"45.0\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"10\" font-weight=\"400\" fill=\"#6b7260\">trekken</text><path d=\"M61.666666666666664 37.0 h12 m0 0 l-6 -5 m6 5 l-6 5\" stroke=\"#2f5d50\" stroke-width=\"2\" fill=\"none\" stroke-linecap=\"round\"/><rect x=\"82.7\" y=\"6\" width=\"56.7\" height=\"62\" rx=\"10\" fill=\"#ffffff\" stroke=\"#2f5d50\" stroke-width=\"1.8\"/><text x=\"111.0\" y=\"29.0\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"11.5\" font-weight=\"600\" fill=\"#234539\">de behoefte</text><text x=\"111.0\" y=\"45.0\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"10\" font-weight=\"400\" fill=\"#6b7260\">ontwikkelen</text><path d=\"M144.33333333333331 37.0 h12 m0 0 l-6 -5 m6 5 l-6 5\" stroke=\"#2f5d50\" stroke-width=\"2\" fill=\"none\" stroke-linecap=\"round\"/><rect x=\"165.3\" y=\"6\" width=\"56.7\" height=\"62\" rx=\"10\" fill=\"#ffffff\" stroke=\"#2f5d50\" stroke-width=\"1.8\"/><text x=\"193.7\" y=\"29.0\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"11.5\" font-weight=\"600\" fill=\"#234539\">argumenten</text><text x=\"193.7\" y=\"45.0\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"10\" font-weight=\"400\" fill=\"#6b7260\">geven</text><path d=\"M226.99999999999997 37.0 h12 m0 0 l-6 -5 m6 5 l-6 5\" stroke=\"#2f5d50\" stroke-width=\"2\" fill=\"none\" stroke-linecap=\"round\"/><rect x=\"248.0\" y=\"6\" width=\"56.7\" height=\"62\" rx=\"10\" fill=\"#ffffff\" stroke=\"#2f5d50\" stroke-width=\"1.8\"/><text x=\"276.3\" y=\"29.0\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"11.5\" font-weight=\"600\" fill=\"#234539\">bezwaren</text><text x=\"276.3\" y=\"45.0\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"10\" font-weight=\"400\" fill=\"#6b7260\">weerleggen</text><path d=\"M309.66666666666663 37.0 h12 m0 0 l-6 -5 m6 5 l-6 5\" stroke=\"#2f5d50\" stroke-width=\"2\" fill=\"none\" stroke-linecap=\"round\"/><rect x=\"330.7\" y=\"6\" width=\"56.7\" height=\"62\" rx=\"10\" fill=\"#ffffff\" stroke=\"#2f5d50\" stroke-width=\"1.8\"/><text x=\"359.0\" y=\"29.0\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"11.5\" font-weight=\"600\" fill=\"#234539\">koopsignalen</text><text x=\"359.0\" y=\"45.0\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"10\" font-weight=\"400\" fill=\"#6b7260\">ontdekken</text><path d=\"M392.3333333333333 37.0 h12 m0 0 l-6 -5 m6 5 l-6 5\" stroke=\"#2f5d50\" stroke-width=\"2\" fill=\"none\" stroke-linecap=\"round\"/><rect x=\"413.3\" y=\"6\" width=\"56.7\" height=\"62\" rx=\"10\" fill=\"#ffffff\" stroke=\"#2f5d50\" stroke-width=\"1.8\"/><text x=\"441.7\" y=\"37.0\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"11.5\" font-weight=\"600\" fill=\"#234539\">afsluiten</text></svg>",
+     "onderschrift": "De zes fasen die de vakfiche noemt. Boeken is werk voor de boekhouding en hoort niet in deze rij."
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>De eerste fase is de aandacht krijgen</strong>: de aandacht van de klant trekken, of hem aandacht geven. <strong>Daarna ontwikkel je de behoefte</strong>: je zoekt samen met de klant wat hij echt nodig heeft. <strong>Daarom stel je eerst vragen</strong>; zonder behoefte is er niets om argumenten op te bouwen."
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Een open vraag vraagt om uitleg</strong>: “waarvoor gaat u het gebruiken?” geeft meer terug dan “wil u dit?”."
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Pas als je de behoefte kent, geef je argumenten</strong>, en dan argumenten die bij die behoefte passen, niet bij alle producten. <strong>Argumenten geven vóór je de behoefte kent, is praten over zaken waar de klant niets aan heeft.</strong>"
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Een bezwaar is een tegenargument</strong>: te duur, te groot, of hij wil er nog over nadenken. <strong>Een bezwaar betekent vaak dat de klant geïnteresseerd is</strong>, want wie helemaal niet wil kopen, neemt niet de moeite om tegen te spreken. <strong>Je hoort een bezwaar dus niet te negeren</strong> maar te erkennen en er een eerlijk antwoord op te geven: <strong>erkennen en antwoorden.</strong>"
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Bij het bezwaar dat iets te duur is, ga je de waarde uitleggen, toon je een alternatief of vraag je waarmee hij vergelijkt</strong>: soms vergelijkt hij met iets dat veel minder biedt."
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Een koopsignaal is het teken dat de klant wil kopen</strong>: hij vraagt naar de levertijd, naar de garantie of naar de kleur die hij wil. <strong>Zie je een koopsignaal, dan ga je naar de afsluiting</strong>: de klant is er klaar voor, en nog meer uitleg kan nieuwe twijfel wekken. <strong>Wie te lang doorpraat na een koopsignaal, kan de verkoop verliezen.</strong>"
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>De laatste fase is de aankoop afsluiten</strong>: je maakt de afspraak concreet en bevestigt wat er geleverd wordt. <strong>Bij een goede afsluiting bevestig je de afspraak, regel je de levering en bedank je de klant.</strong> Druk zetten levert een klant op die later afbelt."
+    }
+   ]
+  }
+ ],
+ "onthoud": []
+}
