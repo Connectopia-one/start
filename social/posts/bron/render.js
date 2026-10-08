@@ -81,8 +81,8 @@ ${p.foto ? `
   <div class="vorm" style="width: 520px; height: 520px; right: -190px; top: 250px; background: var(--sage-soft); opacity: .5"></div>
   <div class="vorm" style="width: 300px; height: 300px; left: -150px; top: 560px; background: var(--accent-soft); opacity: .6"></div>
 
-  <svg class="blad" style="right: 96px; top: 96px; width: 78px; transform: rotate(35deg)" viewBox="0 0 40 40"><path d="M4 36 C 4 14, 18 4, 36 4 C 36 22, 26 36, 4 36 Z" fill="#8aa173"/><path d="M4 36 L 30 10" stroke="#fbf6ea" stroke-width="1.6" fill="none"/></svg>
-  <svg class="blad" style="right: 68px; top: 160px; width: 50px; transform: rotate(-20deg)" viewBox="0 0 40 40"><path d="M4 36 C 4 14, 18 4, 36 4 C 36 22, 26 36, 4 36 Z" fill="#c6d4b3"/><path d="M4 36 L 30 10" stroke="#fbf6ea" stroke-width="1.6" fill="none"/></svg>
+${p.banner ? `  <div class="banner"><span>${p.banner}</span></div>` : `  <svg class="blad" style="right: 96px; top: 96px; width: 78px; transform: rotate(35deg)" viewBox="0 0 40 40"><path d="M4 36 C 4 14, 18 4, 36 4 C 36 22, 26 36, 4 36 Z" fill="#8aa173"/><path d="M4 36 L 30 10" stroke="#fbf6ea" stroke-width="1.6" fill="none"/></svg>
+  <svg class="blad" style="right: 68px; top: 160px; width: 50px; transform: rotate(-20deg)" viewBox="0 0 40 40"><path d="M4 36 C 4 14, 18 4, 36 4 C 36 22, 26 36, 4 36 Z" fill="#c6d4b3"/><path d="M4 36 L 30 10" stroke="#fbf6ea" stroke-width="1.6" fill="none"/></svg>`}
 
   <main>
     <header class="kop">

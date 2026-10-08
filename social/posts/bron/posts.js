@@ -24,6 +24,8 @@
     fotoPositie  welk stuk van de foto je ziet, bv. "50% 30%"
     laden     een laadbalk: { naam, procent, onder } — voor een post over
               iets dat er bijna is
+    banner    een schuine wimpel in de rechterbovenhoek, bv. "Volzet"; de
+              blaadjes in die hoek gaan dan weg
     nadruk    de zin die in het gekleurde kader komt
     citaat    een citaat met een gekleurde streep ernaast
     voet      de groene balk: { hand, url, klein }
@@ -457,6 +459,32 @@ module.exports = [
       hand: "Geef je op via",
       url: "connectopia.one/meetesten",
       klein: "Plaatsen zijn beperkt · 5de leerjaar tot 6de middelbaar",
+    },
+  },
+
+  {
+    // Kim, 8 oktober 2026: de oproep voor testers is volzet. Zelfde post als
+    // meetesten-examencommissie, met een wimpel erover. Wie niet gekozen is,
+    // kan nog altijd mee aan de proefprijs; zie connectopia-oefenplatform-prijs.
+    bestand: "meetesten-volzet",
+    kleur: "paars",
+    banner: "Volzet",
+    pil: "Oproep afgesloten",
+    hand: "Doe jij examen bij de Examencommissie?",
+    titel: "Bedankt voor<br><span>de vele aanmeldingen</span>",
+    titelKlein: true,
+    tekst:
+      "De plaatsen om een maand gratis te testen zijn ingevuld. We kiezen de testers uit iedereen die het formulier invulde.",
+    woorden: [
+      { ic: "📝", tekst: "Gekozen uit wie het formulier invulde" },
+      { ic: "📬", tekst: "Wie erbij is, hoort het vandaag nog" },
+    ],
+    nadruk:
+      "<b>Toch meteen aan de slag?</b> Zolang het platform in opbouw is kost een heel jaar toegang tot alles 20 euro, voor het hele gezin.",
+    voet: {
+      hand: "Starten kan via",
+      url: "oefenplatform.connectopia.one",
+      klein: "Van het 5de leerjaar tot het 6de middelbaar",
     },
   },
 ];

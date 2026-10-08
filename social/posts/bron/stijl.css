@@ -40,6 +40,20 @@ body.paars { --accent: var(--purple); --accent-soft: var(--purple-soft); }
 body.oranje { --accent: var(--orange); --accent-soft: var(--orange-soft); }
 body.blauw { --accent: var(--blue); --accent-soft: var(--blue-soft); }
 
+/* een schuine wimpel in de rechterbovenhoek, bv. VOLZET. De blaadjes gaan
+   weg als er een wimpel hangt, anders wordt die hoek te druk. */
+.banner { position: absolute; top: 0; right: 0; width: 420px; height: 420px; overflow: hidden; z-index: 6; }
+.banner span {
+  position: absolute; display: block; width: 560px; right: -140px; top: 96px;
+  transform: rotate(45deg); text-align: center;
+  background: var(--orange); color: #fff;
+  padding: 16px 0; font-weight: 900; font-size: 42px; line-height: 1.1;
+  letter-spacing: .2em; text-transform: uppercase;
+  border-top: 3px solid rgba(255, 255, 255, .5);
+  border-bottom: 3px solid rgba(255, 255, 255, .5);
+  box-shadow: 0 10px 26px rgba(0, 0, 0, .18);
+}
+
 /* zachte achtergrondvormen en blaadjes, zoals op de website */
 .vorm { position: absolute; border-radius: 50%; z-index: 0; }
 .blad { position: absolute; z-index: 1; }
