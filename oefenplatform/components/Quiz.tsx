@@ -94,6 +94,10 @@ type Status = {
   gecontroleerd: boolean;
   correct: boolean;
   gegevenAntwoord: Gegeven;
+  /* Sloeg het kind deze vraag over zonder iets in te vullen? Dan telt ze als
+     fout, maar de zin erboven mag niet "Niet helemaal juist" zeggen: er was
+     geen antwoord om juist of fout te zijn. Zie slaOver in Quiz. */
+  overgeslagen?: boolean;
 };
 
 /**
@@ -481,7 +485,11 @@ function VraagKaart({
           }`}
         >
           <p className="font-medium">
-            {status.correct ? "Juist!" : "Niet helemaal juist."}
+            {status.correct
+              ? "Juist!"
+              : status.overgeslagen
+                ? "Je sloeg deze vraag over, dus ze telt als fout."
+                : "Niet helemaal juist."}
           </p>
           {status.correct &&
             (() => {
@@ -881,6 +889,55 @@ export function Quiz({
       ? setHuidige(nogOpenElders)
       : setHuidige((i) => Math.min(vragen.length - 1, i + 1));
 
+  /* Een vraag die een kind bewust overslaat, telt als fout.
+
+     Nele Somers meldde op 8 oktober 2026 bij Geschiedenis, Tijd en tijdlijn:
+     "ik kan gewoon zeggen ik wil deze vraag niet doen en op volgende
+     klikken." Dat klopte. De vraag bleef open staan, telde nergens mee, en
+     het kind zag de uitleg niet. Kim besliste dezelfde dag dat overslaan nul
+     hoort te geven, want de vraag is niet gemaakt, en dat de uitleg er dan
+     wél bij hoort.
+
+     Daarom springt de knop niet meteen door. Ze keert de vraag om, zet ze op
+     fout en toont het juiste antwoord met de uitleg. Pas de tweede klik
+     brengt het kind naar de volgende vraag. Zo blijft overslaan mogelijk --
+     een kind dat vastzit, mag verder -- maar het levert wel een uitleg op en
+     geen gratis doorgang. */
+  const slaOver = () => {
+    setStatussen((s) => ({
+      ...s,
+      [vraag.id]: {
+        ...s[vraag.id],
+        gecontroleerd: true,
+        correct: false,
+        overgeslagen: true,
+      },
+    }));
+    if (actiefKindId) {
+      registreerAntwoord(
+        actiefKindId,
+        vraag.id,
+        hoofdstukId ?? null,
+        false,
+        zoalsOpgeslagen(vraag, statussen[vraag.id].gegevenAntwoord),
+        beurt,
+      ).catch(() => {});
+    }
+  };
+
+  const huidigeIsIngevuld = isIngevuld(
+    statussen[vraag.id]?.gegevenAntwoord ?? null,
+  );
+
+  /* Wie wél iets invulde en toch op deze knop klikt, bedoelt nakijken en geen
+     overslaan. Zijn antwoord fout rekenen omdat hij de verkeerde knop nam,
+     zou niet eerlijk zijn. */
+  const volgendeKnopActie = () => {
+    if (dezeNagekeken) return gaVerder();
+    if (huidigeIsIngevuld) return controleerHuidige();
+    slaOver();
+  };
+
   /* Wat de entertoets doet op de vraag waar het kind nu staat. Staat de knop
      Volgende grijs, dan doet enter ook niets; anders zou het lijken alsof er
      iets gebeurde. */
@@ -1085,20 +1142,30 @@ export function Quiz({
         <button
           ref={volgendeKnop}
           type="button"
-          onClick={() => gaVerder()}
-          disabled={laatsteVanDeReeks && nogOpenElders < 0}
+          onClick={() => volgendeKnopActie()}
+          disabled={dezeNagekeken && laatsteVanDeReeks && nogOpenElders < 0}
           className={`rounded-md px-4 py-2 text-sm font-medium transition disabled:cursor-not-allowed disabled:opacity-40 ${
             statussen[vraag.id]?.gecontroleerd
               ? "bg-forest text-white hover:bg-forest-dark"
               : "border border-border text-ink-dim hover:border-forest hover:text-ink"
           }`}
         >
-          {springtTerug
-            ? `Naar vraag ${nogOpenElders + 1} `
-            : laatsteVanDeReeks && nogOpenElders >= 0
-              ? "Nog te doen "
-              : "Volgende "}
-          &rarr;
+          {!dezeNagekeken ? (
+            huidigeIsIngevuld ? (
+              "Controleer"
+            ) : (
+              "Overslaan"
+            )
+          ) : (
+            <>
+              {springtTerug
+                ? `Naar vraag ${nogOpenElders + 1} `
+                : laatsteVanDeReeks && nogOpenElders >= 0
+                  ? "Nog te doen "
+                  : "Volgende "}
+              &rarr;
+            </>
+          )}
         </button>
       </div>
 
@@ -1106,10 +1173,18 @@ export function Quiz({
           stond op de laatste vraag van haar reeks, had ze nog niet nagekeken,
           en kon dus niet verder. Er stond niets bij, dus leek het platform
           kapot. Nu zegt het zelf wat er nog moet gebeuren. */}
-      {laatsteVanDeReeks && nogOpenElders < 0 && !klaar && (
+      {dezeNagekeken && laatsteVanDeReeks && nogOpenElders < 0 && !klaar && (
         <p className="text-center text-xs text-ink-dim">
-          Dit is de laatste vraag van deze reeks. Klik hierboven op Controleer,
-          dan is ze klaar.
+          Dit is de laatste vraag van deze reeks.
+        </p>
+      )}
+
+      {/* Wat Overslaan doet, staat erbij. Een kind hoort te weten dat het een
+          nul kost voor het klikt, en niet pas erna. */}
+      {!dezeNagekeken && !huidigeIsIngevuld && (
+        <p className="text-center text-xs text-ink-dim">
+          Overslaan mag, maar de vraag telt dan als fout. Je krijgt wel de
+          uitleg te zien.
         </p>
       )}
 
