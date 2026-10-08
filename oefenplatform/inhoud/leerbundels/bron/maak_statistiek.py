@@ -939,3 +939,521 @@ BUNDELS["de-p-waarde-het-significantieniveau-en-de-twee-fouten-beyond"] = dict(
         "Significant is niet hetzelfde als belangrijk, zeker niet bij een grote steekproef.",
     ],
 )
+
+# ───────────────────────── 10. Betrouwbaarheidsinterval en foutenmarge
+BUNDELS["betrouwbaarheidsinterval-en-foutenmarge-beyond"] = dict(
+    vak=VAK, niveau=BEYOND, titel="Betrouwbaarheidsinterval en foutenmarge",
+    onder="Een schatting met haar onzekerheid erbij, en wat zo'n interval wel en niet zegt.",
+    secties=[
+        dict(kop="Wat het is", blokken=[
+            ("p", "Een <strong>betrouwbaarheidsinterval</strong> is een interval dat met een bepaald "
+                  "niveau de populatiewaarde bevat. Je geeft dus geen enkel getal maar een stuk van de "
+                  "getallenlijn, want <strong>één getal doet alsof er geen onzekerheid is</strong>."),
+            ("p", "De <strong>foutenmarge</strong> is de <strong>helft van de breedte</strong> van het "
+                  "interval: de marge gaat immers naar twee kanten. Een marge van drie procent geeft "
+                  "dus een interval van <strong>zes</strong> procent breed, en een marge van 2,5 procent "
+                  "een interval van <strong>vijf</strong> procent breed. Het <strong>midden van het "
+                  "interval is je steekproefresultaat</strong>."),
+            ("fig", svg.getallenlijn(470, 42, 58, [
+                (44, "44 %", "#2f5d50", False),
+                (48, "48 %", "#c17f2b", True),
+                (50, "50 %", "#6b7260", False),
+                (52, "52 %", "#2f5d50", False),
+            ]),
+             "Achtenveertig procent met een foutenmarge van vier procent: het interval loopt van 44 tot 52 procent, en vijftig ligt erin."),
+            ("p", "Die tekening is meteen een les in voorzichtig lezen. Een partij haalt 48 procent met "
+                  "een marge van vier procent: je mag <strong>niet</strong> zeggen dat ze geen "
+                  "meerderheid haalt, want vijftig zit in het interval. Omgekeerd: een partij met 53 "
+                  "procent en een interval van 50 tot 56 procent heeft een meerderheid die "
+                  "<strong>mogelijk maar niet aangetoond</strong> is, want vijftig is net de ondergrens."),
+            ("p", "Uit een interval haal je omgekeerd ook de schatting en de marge. Loopt het van 44 tot "
+                  "52 procent, dan is het midden <strong>48 procent</strong> en de marge "
+                  "<strong>4 procent</strong>. Loopt het van 30 tot 40, dan is de marge "
+                  "<strong>5</strong>."),
+        ]),
+        dict(kop="Wat de breedte bepaalt", blokken=[
+            ("p", tabel(["Wat je verandert", "Wat er met het interval gebeurt"], [
+                ["een grotere steekproef", "smaller"],
+                ["een grotere standaardafwijking in de populatie", "breder"],
+                ["een hoger betrouwbaarheidsniveau, bijvoorbeeld van 95 naar 99 %", "breder"],
+                ["een lager betrouwbaarheidsniveau, bijvoorbeeld van 95 naar 90 %", "smaller"],
+            ])),
+            ("p", "Dat zijn de <strong>drie dingen</strong> die de breedte bepalen: de steekproefgrootte, "
+                  "de standaardafwijking en het betrouwbaarheidsniveau. Het meest gebruikte niveau is "
+                  "<strong>95 procent</strong>."),
+            ("weetje", "Je marge <strong>halveren</strong> vraagt een <strong>vier keer zo grote</strong> "
+                       "steekproef. In de formule staat de wortel uit n, en de wortel uit vier is twee. "
+                       "Dat is waarom enquêtes bijna altijd rond de duizend mensen blijven hangen: "
+                       "daarboven wordt het snel duur voor weinig winst."),
+            ("p", "Twee onderzoeken die hetzelfde percentage schatten, het ene met een marge van twee "
+                  "procent en het andere met zes procent: het eerste had waarschijnlijk een "
+                  "<strong>grotere steekproef</strong>. Maar let op, <strong>smal is niet hetzelfde als "
+                  "goed</strong>: de breedte zegt iets over de <strong>omvang</strong> van je steekproef, "
+                  "niet over haar <strong>kwaliteit</strong>. Een scheve steekproef van tienduizend "
+                  "mensen geeft een smal interval rond het verkeerde getal."),
+            ("p", "Om dezelfde reden maakt een <strong>hoger betrouwbaarheidsniveau je schatting niet "
+                  "nauwkeuriger</strong>. Je wordt zekerder dat de waarde erin zit door het net wijder "
+                  "te maken, en wijder is net minder precies."),
+        ]),
+        dict(kop="Wat het níét zegt", blokken=[
+            ("kader", "<p>Een betrouwbaarheidsniveau van vijfennegentig procent betekent: <strong>van "
+                      "alle zulke intervallen bevat vijfennegentig procent de populatiewaarde</strong>. "
+                      "Van de honderd zulke intervallen missen er dus gemiddeld <strong>vijf</strong> de "
+                      "populatiewaarde. Jouw ene interval bevat ze dus "
+                      "<strong>niet met zekerheid</strong>.</p>"),
+            ("p", tabel(["Iemand zegt", "Wat er mis is"], [
+                ["\"95 % van de Belgen ligt in dit interval\"", "het interval gaat over de populatiewaarde, niet over de individuen"],
+                ["\"er is 95 % kans dat het echte gemiddelde ertussen ligt\"", "het populatiegemiddelde staat vast; het is de méthode die in 95 % van de gevallen lukt"],
+                ["het interval voor het gemiddelde loopt van 18 tot 22 jaar, dus vrijwel iedereen is 18 tot 22", "het interval schat het gemiddelde, niet de leeftijd van de mensen zelf"],
+                ["het interval loopt van 2 tot 9 procent, dus ongeveer 2 procent", "hij kiest één grens en negeert de hele onzekerheid"],
+                ["\"mijn interval loopt van 40 tot 60, mijn onderzoek is mislukt\"", "breed betekent een kleine steekproef, niet een fout resultaat"],
+                ["\"het interval bevat mijn steekproefwaarde, dus het klopt\"", "het ligt per constructie rond die waarde, dat bewijst niets"],
+            ])),
+            ("p", "Wat je er wél mee mag doen: <strong>alle waarden binnen het interval passen bij je "
+                  "data</strong>. Loopt een interval van 46 tot 54 procent, dan passen alle percentages "
+                  "daartussen erbij. Neem je een <strong>nieuwe steekproef</strong>, dan krijg je meestal "
+                  "een <strong>ander</strong> interval."),
+        ]),
+        dict(kop="Een interval gebruiken om te beslissen", blokken=[
+            ("p", "Een betrouwbaarheidsinterval kan je ook <strong>gebruiken om een hypothese te "
+                  "beoordelen</strong>. Ligt het getal uit H0 buiten het interval, dan is dat een "
+                  "aanwijzing tegen H0."),
+            ("p", "Twee toepassingen die vaak terugkomen. <strong>Overlappen twee intervallen niet</strong>, "
+                  "dan is er een aanwijzing dat de twee populatiewaarden verschillen. En ligt bij een "
+                  "interval voor een <strong>verschil</strong> het getal <strong>nul erbuiten</strong>, "
+                  "dan is er een aanwijzing voor een echt verschil."),
+            ("weetje", "Een <strong>foutenmarge</strong> is iets anders dan een <strong>meetfout</strong>. "
+                       "De foutenmarge komt van het steekproeven: je bevraagt niet iedereen. Een meetfout "
+                       "komt van je instrument, en die verdwijnt niet door meer mensen te bevragen."),
+            ("p", "Daarom vermeldt een goede krant altijd de <strong>steekproefgrootte</strong> bij een "
+                  "enquête: de lezer kan dan inschatten hoe breed de foutenmarge is. Rapporteer je enkel "
+                  "het midden van je interval, dan kan je lezer niet zien hoe onzeker je schatting is."),
+        ]),
+    ],
+    onthoud=[
+        "Een betrouwbaarheidsinterval is een schatting met haar onzekerheid erbij; het midden is je steekproefresultaat.",
+        "De foutenmarge is de helft van de breedte, want ze gaat naar twee kanten.",
+        "Breder wordt het bij een kleinere steekproef, een grotere spreiding of een hoger betrouwbaarheidsniveau.",
+        "Je marge halveren vraagt vier keer zoveel metingen.",
+        "95 % betekent: van alle zulke intervallen bevat 95 % de populatiewaarde. Niet: 95 % van de mensen zit erin.",
+        "Een smal interval zegt dat je steekproef groot was, niet dat ze goed was.",
+        "Ligt nul buiten een interval voor een verschil, dan is er een aanwijzing voor een echt verschil.",
+    ],
+)
+
+# ───────────────────────── 11. Spreidingsdiagrammen, trendlijn en correlatie
+BUNDELS["spreidingsdiagrammen-trendlijn-en-correlatie-beyond"] = dict(
+    vak=VAK, niveau=BEYOND, titel="Spreidingsdiagrammen, trendlijn en correlatie",
+    onder="Twee grootheden tegen elkaar uitzetten, en voorzichtig zijn met wat je eruit besluit.",
+    secties=[
+        dict(kop="Het spreidingsdiagram", blokken=[
+            ("p", "In een <strong>spreidingsdiagram</strong> zet je voor elk element <strong>één "
+                  "punt</strong> met twee gemeten waarden. Je hebt er dus <strong>twee numerieke "
+                  "variabelen</strong> voor nodig; voor één variabele in groepen gebruik je iets anders. "
+                  "Een ander woord ervoor is <strong>puntenwolk</strong>."),
+            ("p", "Op de <strong>horizontale as</strong> staat de <strong>onafhankelijke</strong> "
+                  "variabele, op de <strong>verticale as</strong> de <strong>afhankelijke</strong>. "
+                  "Onderzoek je of meer studietijd een hoger punt geeft, dan is de studietijd "
+                  "onafhankelijk en het punt op de toets afhankelijk. Zet een leerling de "
+                  "schoolresultaten horizontaal en de studietijd verticaal, dan horen de assen "
+                  "omgewisseld."),
+            ("fig", svg.puntenwolk([(2, 9), (3, 9), (4, 12), (5, 11), (6, 14),
+                                    (7, 13), (8, 16), (9, 15), (10, 18)],
+                                   breedte=430, hoogte=250, xlabel="studie-uren",
+                                   ylabel="punt op 20", xstap=2, ystap=2),
+             "Negen leerlingen. De trendlijn is y = 1,07x + 6,6 en r is 0,95: een sterke positieve samenhang."),
+            ("p", "Volgens de fiche maak je zo'n diagram <strong>met ICT</strong>, dus met de rekenapps "
+                  "van de examencommissie. Je tikt de twee kolommen in het rekenblad en vraagt het "
+                  "diagram op."),
+        ]),
+        dict(kop="Welke vorm zie je?", blokken=[
+            ("p", tabel(["Vorm van de wolk", "Soort verband"], [
+                ["rond een rechte van links onder naar rechts boven", "positief lineair verband"],
+                ["rond een rechte van links boven naar rechts onder", "negatief lineair verband"],
+                ["de ene verdubbelt als de andere verdubbelt", "recht evenredig"],
+                ["de ene halveert als de andere verdubbelt", "omgekeerd evenredig"],
+                ["een parabool", "kwadratisch verband"],
+                ["een omgekeerde U", "kwadratisch verband met een maximum in het midden"],
+                ["geen zichtbaar patroon", "geen lineair verband — maar misschien wel een ander"],
+            ])),
+            ("p", "Een <strong>lineair</strong> verband hoeft <strong>niet door de oorsprong</strong> te "
+                  "gaan; recht evenredig wel. En een spreidingsdiagram kan dus ook een verband tonen dat "
+                  "<strong>niet rechtlijnig</strong> is: meet je bij vijftig auto's de snelheid en de "
+                  "remafstand, dan groeit de remafstand sneller dan de snelheid en zie je een "
+                  "<strong>kwadratisch</strong> verband."),
+            ("p", "Ligt er één punt <strong>heel ver</strong> van de rest, dan gooi je het niet zomaar "
+                  "weg: je onderzoekt of het een <strong>meetfout of een echt bijzonder geval</strong> is."),
+        ]),
+        dict(kop="De trendlijn", blokken=[
+            ("p", "De <strong>trendlijn</strong> is de lijn die het verloop van de puntenwolk het best "
+                  "weergeeft. Haar voorschrift bepaal je <strong>met ICT</strong>: de rekenapp geeft je "
+                  "de vergelijking."),
+            ("p", "Lees ze zoals elke rechte. Is de trendlijn <strong>y = 2x + 5</strong>, dan betekent "
+                  "de twee: <strong>per eenheid die x stijgt, stijgt y met twee eenheden</strong>."),
+            ("kader", "<p><strong>Niet buiten je gegevens voorspellen.</strong> Een trendlijn is "
+                      "getrokken door de punten die je gemeten hebt. Buiten dat bereik weet je niet of "
+                      "ze nog klopt, en dan hoort ze er ook niet te staan. Daarom loopt de trendlijn in "
+                      "de tekening hierboven enkel van twee tot tien uur.</p>"),
+        ]),
+        dict(kop="De correlatiecoëfficiënt r", blokken=[
+            ("p", "De <strong>correlatiecoëfficiënt r</strong> drukt in één getal uit hoe sterk het "
+                  "<strong>lineaire</strong> verband is. Ze ligt <strong>altijd tussen min één en plus "
+                  "één</strong>. Het teken zegt de richting, de grootte de sterkte."),
+            ("p", tabel(["r", "Samenhang volgens het formularium"], [
+                ["0", "geen samenhang"],
+                ["tussen 0 en 0,3", "zwakke positieve samenhang"],
+                ["tussen 0,3 en 0,7", "matige positieve samenhang"],
+                ["boven 0,7", "sterke positieve samenhang"],
+                ["tussen 0 en −0,3", "zwakke negatieve samenhang"],
+                ["tussen −0,3 en −0,7", "matige negatieve samenhang"],
+                ["onder −0,7", "sterke negatieve samenhang"],
+            ])),
+            ("p", "Dus r gelijk aan <strong>0,85</strong> is een sterke positieve samenhang, "
+                  "<strong>0,35</strong> een matige, <strong>0,2</strong> een zwakke, en "
+                  "<strong>min 0,5</strong> een matige negatieve. <strong>Min 0,9</strong> betekent een "
+                  "sterk verband waarbij de ene daalt als de andere stijgt. Die vuistregels staan in "
+                  "het <strong>formularium dat je bij het examen krijgt</strong>, dus je hoeft ze niet "
+                  "uit het hoofd te kennen — ze lezen wel."),
+            ("fig", svg.puntenwolk([(2, 12), (3, 9), (4, 14), (5, 11), (6, 16),
+                                    (7, 10), (8, 15), (9, 13), (10, 17)],
+                                   breedte=430, hoogte=250, xlabel="studie-uren",
+                                   ylabel="punt op 20", xstap=2, ystap=2),
+             "Dezelfde soort gegevens, maar nu met r gelijk aan 0,55: een matige positieve samenhang. De punten liggen veel losser rond de lijn."),
+            ("kader", "<p><strong>Teken eerst, reken dan.</strong> Maak altijd eerst een "
+                      "spreidingsdiagram vóór je r berekent: r zegt <strong>enkel iets over een lineair "
+                      "verband</strong>, en je wil de vorm zien.</p>"
+                      "<p>Daarom betekent <strong>r gelijk aan nul niet</strong> dat er zeker geen enkel "
+                      "verband is: een mooie omgekeerde U kan r nul geven terwijl het verband "
+                      "glashelder is. En een puntenwolk zonder zichtbaar patroon sluit een ander soort "
+                      "verband niet uit.</p>"
+                      "<p>Twee onderzoekers kunnen allebei r gelijk aan 0,8 vinden met heel verschillend "
+                      "uitziende puntenwolken. Hetzelfde getal hoort bij verschillende vormen; "
+                      "<strong>daarom kijk je altijd naar het diagram</strong>.</p>"),
+        ]),
+        dict(kop="Correlatie is geen causaliteit", blokken=[
+            ("p", "<strong>Correlatie is samenhang, causaliteit is oorzaak en gevolg.</strong> Een sterke "
+                  "correlatie <strong>bewijst niet</strong> dat de ene grootheid de andere veroorzaakt. "
+                  "Dat is de belangrijkste zin van dit thema."),
+            ("p", tabel(["Waarneming", "De echte verklaring"], [
+                ["in de zomer worden meer ijsjes verkocht én verdrinken meer mensen", "de warmte verklaart allebei"],
+                ["kinderen met grotere voeten lezen beter", "de leeftijd verklaart allebei"],
+                ["wie meer melk drinkt, haalt hogere punten", "misschien ontbijten die leerlingen simpelweg beter"],
+            ])),
+            ("p", "In alle drie de gevallen zit er een <strong>derde grootheid</strong> achter die de "
+                  "twee andere stuurt. \"Drink melk voor betere punten\" is dus een krantenkop en geen "
+                  "besluit."),
+        ]),
+    ],
+    onthoud=[
+        "Een spreidingsdiagram zet twee numerieke variabelen tegen elkaar: onafhankelijk horizontaal, afhankelijk verticaal.",
+        "De trendlijn geeft het verloop weer; haar richtingsgetal zegt hoeveel y stijgt per eenheid x. Voorspel er niet mee buiten je meetbereik.",
+        "r ligt tussen −1 en 1. Tot 0,3 zwak, tot 0,7 matig, daarboven sterk. De vuistregels staan in het formularium.",
+        "r meet enkel een líneair verband, dus teken eerst het diagram en reken dan.",
+        "r gelijk aan nul betekent geen lineair verband, niet geen enkel verband.",
+        "Correlatie bewijst geen oorzaak: zoek altijd naar een derde grootheid.",
+    ],
+)
+
+# ───────────────────────── 12. Kansen berekenen met de kansrekenmachine
+BUNDELS["kansen-berekenen-met-de-kansrekenmachine-beyond"] = dict(
+    vak=VAK, niveau=BEYOND, titel="Kansen berekenen met de kansrekenmachine",
+    onder="Het scherm dat je het vaakst nodig hebt, en de kansen die er bij dit vak uit moeten komen.",
+    secties=[
+        dict(kop="Waar je het vindt", blokken=[
+            ("p", "In het tabblad <strong>Rekenmachine</strong> bij elk hoofdstuk staan drie knoppen. De "
+                  "middelste, <strong>Kansrekenmachine</strong>, is degene waar dit thema over gaat. Je "
+                  "kiest er bovenaan een verdeling, vult de getallen in en duidt aan welk stuk je wil."),
+            ("p", tabel(["Je wil", "Wat je kiest", "Wat je invult"], [
+                ["een binomiale kans", "de binomiale verdeling", "n en p, daarna de grenzen voor k"],
+                ["een kans bij een normale verdeling", "de normale verdeling", "mu en sigma, daarna de grenzen"],
+                ["een kans bij Z", "de normale verdeling", "mu is nul en sigma is één"],
+                ["een grenswaarde bij een gegeven kans", "dezelfde verdeling, omgekeerd", "de kans; de app geeft de grens"],
+            ])),
+            ("kader", "<p><strong>Drie knopjes voor het stuk dat je wil.</strong> De kansrekenmachine "
+                      "laat je kiezen tussen de <strong>linkerstaart</strong> (tot een grens), de "
+                      "<strong>rechterstaart</strong> (vanaf een grens) en het stuk "
+                      "<strong>tussen twee grenzen</strong>. Negen van de tien fouten op dit examen zijn "
+                      "de verkeerde knop.</p>"),
+            ("p", "Bij een <strong>normale</strong> verdeling geeft de app <strong>nooit de kans op "
+                  "precies één waarde</strong>: die is nul. Je vraagt dus altijd een stuk. Bij een "
+                  "<strong>binomiale</strong> verdeling kan P(X = k) wel, want die is discreet."),
+        ]),
+        dict(kop="Binomiale kansen", blokken=[
+            ("p", "Afronden doe je <strong>pas op het einde</strong>, en op het aantal decimalen dat de "
+                  "vraag noemt."),
+            ("p", tabel(["Opgave", "Wat je invult", "Antwoord"], [
+                ["X ~ B(20; 0,3), P(X = 6)", "n = 20, p = 0,3, van 6 tot 6", "0,192"],
+                ["tien keer munt, precies vijf keer kop", "n = 10, p = 0,5, van 5 tot 5", "0,246"],
+                ["X ~ B(20; 0,3), P(X ≤ 4)", "linkerstaart tot en met 4", "0,24"],
+                ["twaalf worpen, precies twee zessen", "n = 12, p = 1/6, van 2 tot 2", "0,296"],
+                ["X ~ B(50; 0,2), P(X ≥ 15)", "rechterstaart vanaf 15", "0,061"],
+                ["acht schoten, 75 % raak, precies zes keer raak", "n = 8, p = 0,75, van 6 tot 6", "0,31"],
+                ["X ~ B(100; 0,4), P(X ≤ 35)", "linkerstaart tot en met 35", "0,179"],
+                ["vijftien tests die elk in 90 % slagen, allemaal goed", "n = 15, p = 0,9, van 15 tot 15", "0,21"],
+                ["25 stukken, 4 % afgekeurd, geen enkel afgekeurd", "n = 25, p = 0,04, van 0 tot 0", "0,36"],
+                ["X ~ B(30; 0,5), P(X ≥ 20)", "rechterstaart vanaf 20", "0,049"],
+                ["zes worpen, minstens één zes", "n = 6, p = 1/6, vanaf 1", "0,67"],
+                ["X ~ B(40; 0,25), P(X = 10)", "van 10 tot 10", "0,144"],
+                ["200 mensen, ziekte bij 5 %, P(X ≤ 5)", "linkerstaart tot en met 5", "0,062"],
+                ["X ~ B(16; 0,5), P(X ≥ 12)", "rechterstaart vanaf 12", "0,038"],
+                ["vijf keer munt, geen enkele keer kop", "n = 5, p = 0,5, van 0 tot 0", "0,031"],
+            ])),
+            ("weetje", "Heeft je app alleen een <strong>cumulatieve</strong> kans (tot en met k), dan "
+                       "vind je P(X ≥ 15) als <strong>één min de cumulatieve kans tot en met 14</strong>. "
+                       "Let op de 14: tot en met 15 zou de vijftien er dubbel in zetten."),
+        ]),
+        dict(kop="Kansen bij een normale verdeling", blokken=[
+            ("p", tabel(["Opgave", "Wat je invult", "Antwoord"], [
+                ["X ~ N(180; 8), P(X > 192)", "mu = 180, sigma = 8, rechterstaart vanaf 192", "0,067"],
+                ["N(178; 7), P(171 &lt; X &lt; 185)", "tussen 171 en 185", "0,683"],
+                ["N(100; 15), P(X > 130)", "rechterstaart vanaf 130", "0,023"],
+                ["N(500; 20), P(X &lt; 480)", "linkerstaart tot 480", "0,159"],
+                ["Z ~ N(0; 1), P(Z &lt; 1,96)", "mu = 0, sigma = 1, linkerstaart tot 1,96", "0,975"],
+                ["N(72; 8), P(X > 80)", "rechterstaart vanaf 80", "0,159"],
+                ["N(20; 4), P(X &lt; 15)", "linkerstaart tot 15", "0,106"],
+                ["N(37; 0,5), P(X > 38)", "rechterstaart vanaf 38", "0,0228"],
+                ["N(1000; 50), P(950 &lt; X &lt; 1050)", "tussen 950 en 1050", "0,683"],
+                ["N(100; 15), welke waarde heeft 2,5 % boven zich?", "de omgekeerde vraag, kans 0,975 links", "129,4"],
+            ])),
+            ("fig", svg.normaalkromme(72, 8, van=80, xlabel="punt"),
+             "N(72; 8) met de rechterstaart vanaf 80: dat is de 0,159 uit de tabel hierboven."),
+            ("p", "Die laatste rij van de tabel is de <strong>omgekeerde</strong> vraag: je geeft een "
+                  "kans en je vraagt de grens. Bij N(100; 15) heeft de waarde <strong>129,4</strong> "
+                  "nog 2,5 procent boven zich."),
+        ]),
+        dict(kop="Van z naar een p-waarde", blokken=[
+            ("p", "Bij een hypothesetoets reken je eerst je z uit en vraag je dan de staart op. Werk met "
+                  "<strong>Z ~ N(0; 1)</strong>."),
+            ("p", tabel(["Toets", "Wat je opvraagt", "p-waarde"], [
+                ["rechtszijdig, z = 2", "rechterstaart vanaf 2", "0,0228"],
+                ["linkszijdig, z = −2,5", "linkerstaart tot −2,5", "0,0062"],
+                ["tweezijdig, z = 2", "de rechterstaart maal twee", "0,0455"],
+            ])),
+            ("p", "Bij een <strong>symmetrische</strong> verdeling is de p-waarde van een tweezijdige "
+                  "toets dus <strong>het dubbele</strong> van die van de eenzijdige."),
+            ("kader", "<p><strong>Een volledig voorbeeld.</strong> H0 zegt mu = 50. Je vindt x met een "
+                      "streepje gelijk aan 52, bij n = 100 en sigma = 10, en je toetst rechtszijdig.</p>"
+                      "<p>De standaardafwijking van het steekproefgemiddelde is 10 gedeeld door de "
+                      "wortel uit 100, dus 1. Dan is z gelijk aan (52 − 50) gedeeld door 1, dus "
+                      "<strong>2</strong>. De rechterstaart vanaf 2 geeft "
+                      "<strong>p = 0,0228</strong>.</p>"
+                      "<p>En met een proportie: H0 zegt p = 0,5, je vindt 112 van de 200, dus p met een "
+                      "dakje gelijk aan 0,56. De standaardafwijking is de wortel uit 0,5 · 0,5 gedeeld "
+                      "door 200, dus ongeveer 0,0354. Dan is z ongeveer 1,70 en is "
+                      "<strong>p = 0,045</strong>. Bij alfa gelijk aan 0,05 verwerp je H0, want 0,045 is "
+                      "kleiner dan 0,05.</p>"),
+        ]),
+        dict(kop="Controleer jezelf", blokken=[
+            ("p", tabel(["Je ziet", "Wat er waarschijnlijk gebeurde"], [
+                ["een kans groter dan één, bijvoorbeeld 1,19", "je las een ander getal van het scherm af; een kans ligt tussen nul en één"],
+                ["een p-waarde van 0,9772 bij een rechtszijdige toets", "je nam de linkerstaart; de p-waarde is 0,0228"],
+                ["een kans van nul bij een normale verdeling", "je vroeg één exacte waarde in plaats van een stuk"],
+                ["een heel ander getal dan je schatting", "kijk na of je n en p niet verwisseld hebt"],
+            ])),
+            ("p", "Schat altijd eerst grof wat eruit moet komen. Bij X ~ B(20; 0,3) verwacht je zes "
+                  "successen, dus P(X = 6) is de grootste van allemaal en P(X ≤ 4) duidelijk kleiner "
+                  "dan de helft. Komt er iets heel anders uit, dan heb je je getallen verkeerd ingetikt "
+                  "en niet de wiskunde verkeerd begrepen."),
+        ]),
+    ],
+    onthoud=[
+        "Kies eerst de verdeling, vul dan de getallen in en kies dan het stuk: linkerstaart, rechterstaart of tussen twee grenzen.",
+        "Bij een normale verdeling vraag je nooit één exacte waarde; die kans is nul.",
+        "P(X ≥ 15) is één min de cumulatieve kans tot en met 14.",
+        "Een tweezijdige p-waarde is bij een symmetrische verdeling het dubbele van de eenzijdige.",
+        "Afronden doe je pas op het einde, op het aantal decimalen dat de vraag vraagt.",
+        "Schat vooraf grof wat eruit moet komen; dat vangt een tikfout op.",
+    ],
+)
+
+# ───────────────────────── 13. Frequentietabellen en gegevens groeperen
+BUNDELS["frequentietabellen-en-gegevens-groeperen-beyond"] = dict(
+    vak=VAK, niveau=BEYOND, titel="Frequentietabellen en gegevens groeperen",
+    onder="Ruwe gegevens ordenen, en ze in klassen steken als het er te veel zijn.",
+    secties=[
+        dict(kop="Drie soorten frequentie", blokken=[
+            ("p", tabel(["Frequentie", "Wat ze is"], [
+                ["absolute", "het aantal keer dat die waarde voorkomt"],
+                ["relatieve", "de absolute frequentie gedeeld door het totale aantal"],
+                ["cumulatieve", "het aantal gegevens tot en met die waarde"],
+            ])),
+            ("fig", svg.frequentietabel([(5, 2), (6, 4), (7, 7), (8, 6), (9, 4), (10, 2)],
+                                        koppen=("punt", "hoe vaak")),
+             "De punten van vijfentwintig leerlingen. Zeven komt het vaakst voor."),
+            ("p", tabel(["Punt", "Absoluut", "Relatief", "Cumulatief"], [
+                ["5", "2", "8 %", "2"],
+                ["6", "4", "16 %", "6"],
+                ["7", "7", "28 %", "13"],
+                ["8", "6", "24 %", "19"],
+                ["9", "4", "16 %", "23"],
+                ["10", "2", "8 %", "25"],
+                ["samen", "25", "100 %", ""],
+            ])),
+            ("p", "Een <strong>absolute frequentie is altijd een geheel getal</strong>: je telt stuks. "
+                  "De <strong>som van alle relatieve frequenties is één</strong>, dus honderd procent. "
+                  "Vind je 1,04, dan zit er een rekenfout in. En de "
+                  "<strong>laatste cumulatieve frequentie is het totale aantal</strong>, niet de "
+                  "grootste absolute frequentie."),
+            ("p", "Uit cumulatieve frequenties haal je de absolute terug door af te trekken. Staat er "
+                  "bij de derde rij 45 en bij de vierde 62, dan is de absolute frequentie van de vierde "
+                  "rij <strong>zeventien</strong>. Die kolom dient vooral om snel te zien "
+                  "<strong>hoeveel gegevens onder een grens liggen</strong>."),
+        ]),
+        dict(kop="Waarom relatief?", blokken=[
+            ("p", "Met <strong>relatieve</strong> frequenties worden datasets van "
+                  "<strong>verschillende grootte vergelijkbaar</strong>. Zet een krant twee heel "
+                  "verschillend grote groepen naast elkaar met enkel absolute aantallen, dan kan de "
+                  "lezer ze niet eerlijk vergelijken."),
+            ("p", tabel(["Gegeven", "Berekening", "Relatieve frequentie"], [
+                ["8 keer in een dataset van 40", "8 gedeeld door 40", "20 %"],
+                ["12 keer in een dataset van 50", "12 gedeeld door 50", "24 %"],
+                ["5 van de 25 leerlingen haalden een tien", "5 gedeeld door 25", "20 %"],
+            ])),
+            ("p", "De frequenties 12, 18, 25 en 5 samen geven een totaal van <strong>zestig</strong>. En "
+                  "een frequentietabel kan ook voor een <strong>niet-numerieke</strong> variabele: "
+                  "haarkleur, studierichting, favoriete sport. Elke waarde van de dataset moet in "
+                  "<strong>precies één rij</strong> terechtkomen."),
+            ("weetje", "Bij een grote dataset stel je de tabel op <strong>met ICT</strong>, dus met de "
+                       "rekenapps. In het rekenblad tik je de kolom in en vraag je de frequenties op; "
+                       "met de hand tellen is bij duizend rijen geen optie."),
+        ]),
+        dict(kop="Groeperen in klassen", blokken=[
+            ("p", "Zijn er <strong>heel veel verschillende waarden</strong>, dan groepeer je ze. Een "
+                  "<strong>klasse</strong> is een interval waarin je verschillende waarden samen telt. "
+                  "Het voordeel bij tienduizend waarden: je ziet de <strong>vorm van de verdeling in "
+                  "één oogopslag</strong>."),
+            ("fig", svg.histogram([(0, 10, 12), (10, 20, 18), (20, 30, 10)],
+                                  xlabel="minuten", ylabel="aantal"),
+             "Veertig wachttijden in drie klassen. Onder de twintig minuten liggen er 12 + 18 = 30."),
+            ("p", tabel(["Begrip", "Betekenis", "Voorbeeld"], [
+                ["klassenbreedte", "het verschil tussen de twee grenzen", "de klasse van 20 tot 30 is tien breed"],
+                ["klassenmidden", "het gemiddelde van de twee grenzen", "bij 20 tot 30 is dat 25, bij 40 tot 50 is dat 45"],
+                ["aantal klassen", "hoeveel intervallen je maakt", "de klassen 0–20, 20–40, 40–60 en 60–80 zijn er vier"],
+            ])),
+            ("p", "Je gebruikt het <strong>klassenmidden</strong> om uit een gegroepeerde tabel een "
+                  "gemiddelde te berekenen, omdat je de <strong>afzonderlijke waarden niet meer "
+                  "kent</strong> en het midden de beste gok is. Reken je zo 34,2 uit terwijl de ruwe "
+                  "data 33,8 geven, dan is dat <strong>normaal</strong>: het klassenmidden is een "
+                  "benadering."),
+            ("kader", "<p><strong>Uit een gegroepeerde tabel kan je de oorspronkelijke waarden niet meer "
+                      "terughalen.</strong> Dat is de prijs van het overzicht. Bewaar dus altijd je "
+                      "ruwe gegevens.</p>"),
+        ]),
+        dict(kop="Klassen die niet deugen", blokken=[
+            ("p", tabel(["Fout", "Wat er misloopt"], [
+                ["klassen die overlappen: 10 tot 20 en 20 tot 30", "de waarde twintig past in twee klassen en wordt dubbel geteld"],
+                ["klassen met een gat: 0 tot 10, 11 tot 20, 21 tot 30 bij een continue variabele", "de waarden tussen 10 en 11 vallen in geen enkele klasse"],
+                ["ongelijke klassenbreedtes met de frequentie als hoogte", "het histogram wordt misleidend; een bredere klasse hoort een bredere staaf te krijgen"],
+                ["groeperen wat niet gegroepeerd hoeft, zoals het aantal broers en zussen", "daar zijn maar een handvol waarden; een gewone tabel is duidelijker"],
+            ])),
+            ("p", "Een <strong>lege klasse mag</strong> wel degelijk. Komt er in een interval toevallig "
+                  "niets voor, dan laat je die klasse gewoon met frequentie nul staan: dat gat is zelf "
+                  "een bevinding."),
+            ("p", "Voor vijfhonderd meetwaarden tussen nul en honderd zijn <strong>ongeveer tien klassen "
+                  "van tien eenheden breed</strong> een redelijke keuze. Let wel: <strong>het aantal "
+                  "klassen dat je kiest, verandert hoe de verdeling eruitziet</strong>. Met twee klassen "
+                  "zie je niets, met honderd zie je ruis. Probeer er een paar en kies er een die de "
+                  "vorm laat zien zonder hem te verzinnen."),
+        ]),
+    ],
+    onthoud=[
+        "Absoluut = hoe vaak, relatief = het aandeel, cumulatief = tot en met die waarde.",
+        "De som van de relatieve frequenties is één; de laatste cumulatieve frequentie is het totaal.",
+        "Relatieve frequenties maken groepen van verschillende grootte vergelijkbaar.",
+        "Groeperen doe je bij heel veel verschillende waarden. Het klassenmidden is het gemiddelde van de twee grenzen.",
+        "Klassen mogen niet overlappen en mogen geen gat laten; een lege klasse mag wel.",
+        "Uit een gegroepeerde tabel haal je de ruwe waarden niet meer terug, en het aantal klassen verandert de vorm.",
+    ],
+)
+
+# ───────────────────────── 14. De juiste grafische voorstelling kiezen
+BUNDELS["de-juiste-grafische-voorstelling-kiezen-beyond"] = dict(
+    vak=VAK, niveau=BEYOND, titel="De juiste grafische voorstelling kiezen",
+    onder="Zes soorten grafieken, wanneer je ze kiest, en hoe je er niet mee misleidt.",
+    secties=[
+        dict(kop="De zes die de fiche noemt", blokken=[
+            ("p", "De vakfiche noemt er <strong>zes</strong> bij naam: <strong>staafdiagram, "
+                  "lijndiagram, dotplot, histogram, spreidingsdiagram en boxplot</strong>. Een "
+                  "cirkeldiagram staat er niet bij."),
+            ("p", tabel(["Voorstelling", "Wanneer", "Voorbeeld"], [
+                ["staafdiagram", "categorieën tellen; de staven staan los", "het aantal leerlingen per studierichting"],
+                ["lijndiagram", "een verloop in de tijd", "het aantal werklozen per maand over tien jaar"],
+                ["dotplot", "een kleine dataset; één stip per meting boven de getallenas", "de punten van één klas"],
+                ["histogram", "een continue variabele in klassen; de staven raken elkaar", "de lengte van duizend leerlingen"],
+                ["spreidingsdiagram", "het verband tussen twee numerieke variabelen", "slaapuren tegenover het punt op een toets"],
+                ["boxplot", "de vijf kengetallen, of groepen vergelijken", "vier klassen naast elkaar op dezelfde as"],
+            ])),
+            ("fig", svg.staafdiagram([("Human.", 48), ("Econ.", 31), ("Wet.", 27), ("Talen", 19)],
+                                     breedte=380, hoogte=190, stap=10, waarden=True),
+             "Een staafdiagram: de richtingen zijn categorieën, dus de staven staan los."),
+            ("fig", svg.dotplot([4, 5, 5, 6, 6, 6, 7, 7, 7, 7, 8, 8, 8, 9, 9, 10]),
+             "Een dotplot van zestien punten. Vier stippen boven de zeven betekent dat die waarde vier keer voorkomt."),
+            ("fig", svg.lijngrafiek([42, 45, 51, 49, 55, 61, 58, 64], breedte=380, hoogte=190,
+                                    labels=["ja", "fe", "ma", "ap", "me", "ju", "jl", "au"], stap=20),
+             "Een lijndiagram: de tijd loopt door, dus de punten mogen verbonden worden."),
+        ]),
+        dict(kop="Staafdiagram of histogram?", blokken=[
+            ("p", "Het verschil is klein om te tekenen en groot van betekenis. Bij een "
+                  "<strong>histogram staan de staven tegen elkaar</strong>, bij een "
+                  "<strong>staafdiagram los</strong>. Die aansluitende staven tonen dat de waarden "
+                  "<strong>doorlopen</strong>; dat is precies wat je bij een continue variabele wil "
+                  "zeggen."),
+            ("p", "Daarom is een histogram <strong>niet geschikt voor een niet-numerieke</strong> "
+                  "variabele zoals haarkleur: tussen blond en bruin loopt niets door. En een "
+                  "<strong>lijndiagram van het aantal leerlingen per studierichting</strong> is ook "
+                  "fout, want tussen twee richtingen zit geen verloop; neem daar een staafdiagram."),
+            ("p", "Uit de <strong>hoogte van een staaf in een histogram</strong> lees je af "
+                  "<strong>hoeveel gegevens er in die klasse vallen</strong>. Wil je beoordelen of een "
+                  "verdeling <strong>normaal</strong> is, dan kies je een histogram: daar zie je de "
+                  "klokvorm."),
+            ("weetje", "Een <strong>dotplot is onbruikbaar bij tienduizend waarden</strong>: je krijgt "
+                       "torens van stippen die niemand kan tellen. Daar neem je een histogram. En voor "
+                       "<strong>dezelfde dataset kan meer dan één voorstelling zinvol zijn</strong>; de "
+                       "vraag is telkens wat je wil laten zien."),
+        ]),
+        dict(kop="De vorm beschrijven", blokken=[
+            ("p", "Een histogram met één hoge staaf en veel lage staven rechts ervan noem je "
+                  "<strong>scheef naar rechts</strong>, met een lange staart aan de rechterkant. Zie je "
+                  "<strong>twee duidelijke toppen</strong>, dan is de eerste gedachte dat er "
+                  "<strong>twee verschillende groepen</strong> in je data zitten."),
+            ("fig", svg.histogram([(0, 10, 4), (10, 20, 17), (20, 30, 11), (30, 40, 6),
+                                   (40, 50, 3), (50, 60, 2), (60, 70, 1)],
+                                  xlabel="euro", ylabel="aantal"),
+             "Vierenveertig bedragen, scheef naar rechts: de top ligt links en de staart loopt ver door naar rechts."),
+            ("p", "Uit een <strong>boxplot</strong> lees je af waar de <strong>helft van de middelste "
+                  "gegevens</strong> ligt: dat is de doos. Twee boxplots naast elkaar op dezelfde as "
+                  "zijn ook de beste keuze om te laten zien dat <strong>één groep veel meer "
+                  "uitschieters</strong> heeft."),
+            ("p", "Uit een histogram kan je het gemiddelde <strong>enkel schatten</strong>, niet exact "
+                  "aflezen: de afzonderlijke waarden zitten in de klassen verstopt."),
+        ]),
+        dict(kop="Eerlijk tekenen", blokken=[
+            ("p", "Een grafische voorstelling kan <strong>statistisch juist zijn en de lezer toch "
+                  "misleiden</strong>. Dit zijn de klassiekers."),
+            ("p", tabel(["Wat je ziet", "Wat er mis is", "Wat je doet"], [
+                ["de verticale as van een staafdiagram begint bij tachtig", "kleine verschillen lijken veel groter dan ze zijn", "laat ze bij nul beginnen"],
+                ["geen getallen op de zij-as", "er valt niets af te lezen, ook al klopt de vorm", "zet er een schaalverdeling op"],
+                ["één staaf torent ver boven de rest uit", "de kleine staven worden onleesbaar laag", "zet de waarden boven de staven"],
+                ["een tijdsas die van 2020 naar 2021 naar 2025 springt", "de afstanden zijn ongelijk, dus de stijging is vertekend", "gebruik een gelijkmatige tijdsas"],
+                ["twee histogrammen met een andere schaal naast elkaar", "je kan de vormen niet vergelijken", "maak de assen gelijk"],
+                ["driedimensionale staven", "de diepte verstoort het aflezen", "teken ze vlak"],
+                ["twee grootheden met een andere eenheid in één beeld", "de ene schaal verplettert de andere", "twee grafieken boven elkaar met dezelfde tijdsas"],
+            ])),
+            ("kader", "<p>Een grafiek hoort <strong>altijd een titel en een naam bij elke as</strong> te "
+                      "hebben, en een <strong>onderschrift zegt wat je ziet</strong>. De theorie "
+                      "erachter hoort in de tekst, niet onder de tekening.</p>"),
+            ("weetje", "De nul hoort op de as van een <strong>staafdiagram</strong>, want de lengte van "
+                       "een staaf is de waarde. Bij een <strong>lijndiagram van de temperatuur</strong> "
+                       "hoeft dat niet: daar is nul geen natuurlijk nulpunt van de schaal, en een "
+                       "grafiek van 0 tot 40 graden verbergt net het verloop dat je wil tonen."),
+        ]),
+    ],
+    onthoud=[
+        "De zes van de fiche: staafdiagram, lijndiagram, dotplot, histogram, spreidingsdiagram en boxplot. Geen cirkeldiagram.",
+        "Staven los = categorieën, staven tegen elkaar = een continue variabele in klassen.",
+        "Een lijndiagram enkel bij een verloop in de tijd; een dotplot enkel bij weinig gegevens.",
+        "Scheef naar rechts = top links, lange staart rechts. Twee toppen = waarschijnlijk twee groepen.",
+        "Laat de as van een staafdiagram bij nul beginnen, zet getallen op de zij-as en waarden boven een uitschieter.",
+        "Een onderschrift zegt wat je ziet; de theorie hoort in de tekst.",
+    ],
+)
