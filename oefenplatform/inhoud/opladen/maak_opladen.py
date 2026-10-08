@@ -101,6 +101,43 @@ def vraagkaarten(lijst):
     return rijen
 
 
+def sqlkaarten(lijst):
+    """Een kaart per sql-bestand, met de hele inhoud in een kopieerknop.
+
+    Kim draait zo'n bestand in de SQL-editor van Supabase. Dat is plakwerk,
+    geen download, dus het gaat op dezelfde manier als een vragenbestand.
+    """
+    rijen = []
+    for sleutel, naam, waar, bestand, waarom in lijst:
+        pad = WORTEL.parent / "supabase" / bestand
+        tekst = pad.read_text(encoding="utf-8")
+        assert "</script" not in tekst.lower(), bestand
+        regels = tekst.count("\n") + 1
+        rijen.append(f'''
+      <article class="vak" data-sleutel="s-{sleutel}">
+        <label class="afvink"><input type="checkbox" class="vinkje"><span>gedraaid</span></label>
+        <header class="vakkop">
+          <div class="vaknaam">
+            <h3>{html.escape(naam)}</h3>
+            <p class="cat">{html.escape(waar)}</p>
+          </div>
+          <span class="etiket">sql-editor</span>
+        </header>
+        <p class="raad">{html.escape(waarom)}</p>
+        <div class="knoppen">
+          <button class="kopieer" type="button" data-bron="q-{sleutel}">
+            Kopieer {html.escape(bestand)} <span class="mee">{regels} regels</span>
+          </button>
+        </div>
+        <p class="gelukt" hidden>Gekopieerd. Plak het nu in de SQL-editor en klik op Run.</p>
+        <p class="handmatig" hidden>Het kopiëren lukte niet vanzelf. De tekst staat hieronder
+          klaar: tik erin, selecteer alles en kopieer.</p>
+        <textarea class="bak" readonly hidden aria-label="de inhoud van {html.escape(bestand)}"></textarea>
+        <script type="text/plain" id="q-{sleutel}">{tekst}</script>
+      </article>''')
+    return rijen
+
+
 # ════════════════════════════════════════════════════════════
 # Vanaf hier staat alles van déze ronde. Enkel dit wijzigt.
 # ════════════════════════════════════════════════════════════
@@ -108,16 +145,29 @@ def vraagkaarten(lijst):
 BESTAND = "opladen-statistiek.html"
 TITEL = "Plakpagina statistiek"
 SLEUTEL = "connectopia-plakpagina-statistiek-8-oktober"
-VOET = "Bijgewerkt op 8 oktober 2026"
+VOET = "Bijgewerkt op 8 oktober 2026, 's avonds"
 INTRO = """<p>Eén nieuw vak: <strong>statistiek</strong> van 🌍 Beyond doorstroom, gebouwd op de
-      vakfiche van de examencommissie. Achttien thema's, zesendertig hoofdstukken, 720 vragen.
-      Er zijn nog geen leerbundels en oefenbundels bij; die volgen. Twee stappen hieronder, en
-      de eerste moet je echt eerst doen, want anders is er geen vak om de vragen in te plakken.</p>"""
+      vakfiche van de examencommissie. Achttien thema's, zesendertig hoofdstukken, 720 vragen,
+      met achttien leerbundels en achttien oefenbundels erbij. De eerste stap moet je echt
+      eerst doen, want anders is er geen vak om de vragen in te plakken.</p>
+      <p>Onderaan staat nog één los stukje sql, voor de dubbele weetjes van Febe.</p>"""
 
 BEYOND_DO = "🌍 Beyond doorstroom"
 
 # (afvinksleutel, naam, categorie, zipnaam)
-VAKKEN = []
+LEERBUNDELS = [
+    ("lb-stat", "Statistiek", BEYOND_DO, "statistiek-beyond"),
+]
+OEFENBUNDELS = [
+    ("ob-stat", "Statistiek", BEYOND_DO, "statistiek-beyond"),
+]
+
+# (afvinksleutel, naam, waar, bestandsnaam, waarom)
+SQL = [
+    ("weetjes-dubbel", "Dubbele weetjes opruimen", "oefenplatform", "weetjes-dubbel.sql",
+     "Ruimt de eenentwintig briefjes van Febe op tot één, en zorgt dat hetzelfde kind "
+     "hetzelfde weetje niet nog eens kan insturen. Wat al op het bord hangt blijft hangen."),
+]
 
 # (afvinksleutel, naam, categorie, map, bestandsnaam, waarom)
 VRAGEN = [
@@ -141,6 +191,18 @@ SECTIES = [
                 "Het bestand kiest zelf de categorie, dus de zesendertig hoofdstukken komen onder "
                 "🌍 Beyond doorstroom terecht, ook als je ergens anders staat.",
          kaarten=vraagkaarten(VRAGEN)),
+    dict(kop="De bundels om af te drukken",
+         uitleg="Deze twee hoef je nergens op te laden: ze staan al op het oefenplatform, bij "
+                "elk hoofdstuk. Ze staan hier zodat je ze in één keer kan downloaden als je "
+                "iets wil afdrukken. Klikken opent het downloadvenster van je browser; daarna "
+                "staat er een zip in je map Downloads die je moet uitpakken.",
+         kaarten=zipkaarten(LEERBUNDELS, "leerbundels", "leerbundels", voor="l-")
+                 + zipkaarten(OEFENBUNDELS, "oefenbundels", "oefenbundels", voor="o-")),
+    dict(kop="En nog één stukje sql",
+         uitleg="Dit heeft niets met statistiek te maken. Ga naar Supabase, het project van het "
+                "<span class=\"pad\">oefenplatform</span>, open de <span class=\"pad\">SQL Editor</span>, "
+                "plak en klik op <span class=\"pad\">Run</span>. Je mag het gerust twee keer draaien.",
+         kaarten=sqlkaarten(SQL)),
 ]
 
 

@@ -39,6 +39,24 @@ export async function stuurWeetjeIn(formData: FormData) {
     leeftijdRuw && Number.isInteger(leeftijd) && leeftijd >= 3 && leeftijd <= 21 ? leeftijd : null;
 
   const supabase = await createClient();
+
+  // Hetzelfde weetje een tweede keer: dat is geen nieuw briefje.
+  //
+  // Febe stuurde op 8 oktober 2026 eenentwintig keer dezelfde zin in, omdat ze
+  // hem op het bord wou krijgen en niet zag dat hij al binnen was. Nog eens
+  // sturen helpt dus niet, en we zeggen dat nu ook. De databank bewaakt het
+  // daarnaast zelf met een unieke index (supabase/weetjes-dubbel.sql): een
+  // slot in deze functie alleen is nooit genoeg, want twee tabbladen of een
+  // trage herlaadbeurt komen er langs.
+  const { data: albinnen } = await supabase
+    .from("weetjes")
+    .select("tekst")
+    .eq("profile_id", session.userId);
+
+  if ((albinnen ?? []).some((w) => gelijk(w.tekst) === gelijk(tekst))) {
+    redirect("/weetjes?melding=dubbel");
+  }
+
   const { error } = await supabase.from("weetjes").insert({
     tekst,
     voornaam: eersteNaam,
@@ -47,11 +65,28 @@ export async function stuurWeetjeIn(formData: FormData) {
   });
 
   if (error) {
+    // 23505 is de unieke index die hetzelfde weetje tegenhoudt. Dat is geen
+    // storing maar precies wat de bedoeling is, dus het kind krijgt de gewone
+    // boodschap te zien in plaats van een foutmelding.
+    if (error.code === "23505") {
+      redirect("/weetjes?melding=dubbel");
+    }
     console.error("weetje insturen mislukt:", error.message);
     terug(`Het insturen lukte niet. De melding luidt: ${error.message}`);
   }
 
   redirect("/weetjes?melding=bedankt");
+}
+
+/**
+ * Twee weetjes zijn hetzelfde als enkel hoofdletters of spaties verschillen.
+ *
+ * Dezelfde bewerking staat in de unieke index van supabase/weetjes-dubbel.sql.
+ * Verandert de ene, verander dan ook de andere, anders houdt de databank iets
+ * tegen waarvan deze functie denkt dat het nieuw is.
+ */
+function gelijk(tekst: string) {
+  return tekst.trim().replace(/\s+/g, " ").toLowerCase();
 }
 
 function terug(bericht: string): never {
@@ -96,6 +131,11 @@ export async function verbeterWeetje(formData: FormData) {
     .eq("goedgekeurd", false);
 
   if (error) {
+    // Hetzelfde geval als bij het insturen: de unieke index houdt tegen dat
+    // dit briefje woord voor woord hetzelfde wordt als een ander van jezelf.
+    if (error.code === "23505") {
+      redirect("/weetjes?melding=dubbel");
+    }
     console.error("weetje verbeteren mislukt:", error.message);
     terug(`Het aanpassen lukte niet. De melding luidt: ${error.message}`);
   }

@@ -1,6 +1,7 @@
 import Link from "next/link";
 import { Header } from "@/components/Header";
 import { bordKlassen } from "@/components/Blaadje";
+import { Verzendknop } from "@/components/Verzendknop";
 import { Weetje, type WeetjeRij } from "@/components/Weetje";
 import { getSessionProfile } from "@/lib/auth";
 import { createClient } from "@/lib/supabase/server";
@@ -73,10 +74,33 @@ export default async function WeetjesPage({
         </p>
 
         {melding === "bedankt" && (
-          <p className="mt-5 max-w-2xl rounded-md bg-forest/10 px-4 py-3 text-sm text-forest-dark">
-            Bedankt! Je weetje is binnen. We lezen het na en hangen het erbij — kijk over een paar
-            dagen nog eens.
-          </p>
+          <div className="mt-5 max-w-2xl rounded-md bg-forest/10 px-4 py-3 text-sm text-forest-dark">
+            <p className="font-semibold">Dankjewel voor je weetje! We hebben het gekregen.</p>
+            {/* Febe stuurde op 8 oktober 2026 eenentwintig keer hetzelfde weetje
+                in, omdat ze het op het bord wou krijgen. Daarom staat er nu
+                uitdrukkelijk bij dat nog eens sturen niet helpt, en waar ze wél
+                kan kijken. */}
+            <p className="mt-1">
+              Een echte mens leest het na voor het op het bord komt, en dat kan een paar dagen
+              duren. Je hoeft het niet nog eens te sturen: hieronder bij{" "}
+              <a href="#jouw-briefjes" className="underline underline-offset-2">
+                Jouw briefjes
+              </a>{" "}
+              zie je altijd wat ermee gebeurd is.
+            </p>
+          </div>
+        )}
+        {melding === "dubbel" && (
+          <div className="mt-5 max-w-2xl rounded-md bg-amber/10 px-4 py-3 text-sm text-ink">
+            <p className="font-semibold">Dit weetje hebben we al van je gekregen.</p>
+            <p className="mt-1">
+              Het staat veilig op onze stapel. Je vindt het hieronder bij{" "}
+              <a href="#jouw-briefjes" className="underline underline-offset-2">
+                Jouw briefjes
+              </a>
+              , met erbij wat ermee gebeurd is. Weet je nog iets anders? Schrijf dat gerust op.
+            </p>
+          </div>
         )}
         {melding === "opnieuw" && (
           <p className="mt-5 max-w-2xl rounded-md bg-forest/10 px-4 py-3 text-sm text-forest-dark">
@@ -105,7 +129,7 @@ export default async function WeetjesPage({
         )}
 
         {eigen.length > 0 && (
-          <section className="mt-10 rounded-xl border border-border bg-surface p-6">
+          <section id="jouw-briefjes" className="mt-10 rounded-xl border border-border bg-surface p-6">
             <h2 className="font-display text-lg font-semibold text-ink">Jouw briefjes</h2>
             <p className="mt-1 text-sm text-ink-dim">
               Dit ziet alleen jij. Hier staat wat er met elk van je weetjes gebeurd is.
@@ -142,12 +166,11 @@ export default async function WeetjesPage({
                           defaultValue={w.tekst}
                           className="w-full rounded-md border border-border bg-surface px-3 py-2 text-sm text-ink outline-none focus:border-forest focus:ring-1 focus:ring-forest"
                         />
-                        <button
-                          type="submit"
+                        <Verzendknop
+                          label="Aanpassen en opnieuw insturen"
+                          bezigLabel="Bezig met versturen…"
                           className="justify-self-start rounded-md bg-forest px-3 py-1.5 text-sm font-medium text-white transition hover:bg-forest-dark"
-                        >
-                          Aanpassen en opnieuw insturen
-                        </button>
+                        />
                       </form>
                     </>
                   ) : (
@@ -218,12 +241,15 @@ export default async function WeetjesPage({
                   </label>
                 </div>
 
-                <button
-                  type="submit"
+                {/* Op slot zolang het onderweg is: een trage verbinding en twee
+                    kliks gaven anders twee briefjes. De server houdt hetzelfde
+                    weetje ook zelf tegen, want een slot op de knop alleen is
+                    nooit genoeg. */}
+                <Verzendknop
+                  label="Insturen"
+                  bezigLabel="Bezig met versturen…"
                   className="justify-self-start rounded-md bg-forest px-4 py-2 text-sm font-medium text-white transition hover:bg-forest-dark"
-                >
-                  Insturen
-                </button>
+                />
               </form>
             </>
           )}
