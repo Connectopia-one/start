@@ -1,0 +1,105 @@
+{
+ "vak": "Statistiek",
+ "titel": "Betrouwbaarheidsinterval en foutenmarge",
+ "onder": "Een schatting met haar onzekerheid erbij, en wat zo'n interval wel en niet zegt.",
+ "secties": [
+  {
+   "kop": "Wat het is",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Een <strong>betrouwbaarheidsinterval</strong> is een interval dat met een bepaald niveau de populatiewaarde bevat: een <strong>populatiegemiddelde</strong> of een <strong>populatieproportie</strong>. Je geeft dus geen enkel getal maar een stuk van de getallenlijn, want <strong>één getal doet alsof er geen onzekerheid is</strong>."
+    },
+    {
+     "soort": "tekst",
+     "html": "De <strong>foutenmarge</strong> is de <strong>helft van de breedte</strong> van het interval: de marge gaat immers naar twee kanten. Een marge van drie procent geeft dus een interval van <strong>zes</strong> procent breed, en een marge van 2,5 procent een interval van <strong>vijf</strong> procent breed. Het <strong>midden van het interval is je steekproefresultaat</strong>."
+    },
+    {
+     "soort": "figuur",
+     "html": "<svg viewBox=\"0 0 470 86\" width=\"470\" xmlns=\"http://www.w3.org/2000/svg\"><line x1=\"34\" y1=\"44\" x2=\"436\" y2=\"44\" stroke=\"#23291f\" stroke-width=\"2\"/><path d=\"M436 44 l-9 -5 v10 z\" fill=\"#23291f\"/><path d=\"M34 44 l9 -5 v10 z\" fill=\"#23291f\"/><line x1=\"84.2\" y1=\"36\" x2=\"84.2\" y2=\"52\" stroke=\"#2f5d50\" stroke-width=\"1.6\"/><text x=\"84.2\" y=\"67\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"11\" fill=\"#2f5d50\" font-weight=\"400\">44 %</text><line x1=\"184.8\" y1=\"31\" x2=\"184.8\" y2=\"57\" stroke=\"#c17f2b\" stroke-width=\"3\"/><text x=\"184.8\" y=\"24\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"12\" fill=\"#c17f2b\" font-weight=\"600\">48 %</text><line x1=\"235.0\" y1=\"36\" x2=\"235.0\" y2=\"52\" stroke=\"#6b7260\" stroke-width=\"1.6\"/><text x=\"235.0\" y=\"67\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"11\" fill=\"#6b7260\" font-weight=\"400\">50 %</text><line x1=\"285.2\" y1=\"36\" x2=\"285.2\" y2=\"52\" stroke=\"#2f5d50\" stroke-width=\"1.6\"/><text x=\"285.2\" y=\"67\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"11\" fill=\"#2f5d50\" font-weight=\"400\">52 %</text></svg>",
+     "onderschrift": "Achtenveertig procent met een foutenmarge van vier procent: het interval loopt van 44 tot 52 procent, en vijftig ligt erin."
+    },
+    {
+     "soort": "tekst",
+     "html": "Die tekening is meteen een les in voorzichtig lezen. Een partij haalt 48 procent met een marge van vier procent: je mag <strong>niet</strong> zeggen dat ze geen meerderheid haalt, want vijftig zit in het interval. Omgekeerd: een partij met 53 procent en een interval van 50 tot 56 procent heeft een meerderheid die <strong>mogelijk maar niet aangetoond</strong> is, want vijftig is net de ondergrens."
+    },
+    {
+     "soort": "tekst",
+     "html": "Uit een interval haal je omgekeerd ook de schatting en de marge. Loopt het van 44 tot 52 procent, dan is het midden <strong>48 procent</strong> en de marge <strong>4 procent</strong>. Loopt het van 30 tot 40, dan is de marge <strong>5</strong>."
+    }
+   ]
+  },
+  {
+   "kop": "Wat de breedte bepaalt",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Wat je verandert</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Wat er met het interval gebeurt</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een grotere steekproef</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">smaller</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een grotere standaardafwijking in de populatie</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">breder</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een hoger betrouwbaarheidsniveau, bijvoorbeeld van 95 naar 99 %</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">breder</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een lager betrouwbaarheidsniveau, bijvoorbeeld van 95 naar 90 %</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">smaller</td></tr></table>"
+    },
+    {
+     "soort": "tekst",
+     "html": "Dat zijn de <strong>drie dingen</strong> die de breedte bepalen: de steekproefgrootte, de standaardafwijking en het betrouwbaarheidsniveau. Het meest gebruikte niveau is <strong>95 procent</strong>."
+    },
+    {
+     "soort": "weetje",
+     "html": "Je marge <strong>halveren</strong> vraagt een <strong>vier keer zo grote</strong> steekproef. In de formule staat de wortel uit n, en de wortel uit vier is twee. Dat is waarom enquêtes bijna altijd rond de duizend mensen blijven hangen: daarboven wordt het snel duur voor weinig winst."
+    },
+    {
+     "soort": "tekst",
+     "html": "Twee onderzoeken die hetzelfde percentage schatten, het ene met een marge van twee procent en het andere met zes procent: het eerste had waarschijnlijk een <strong>grotere steekproef</strong>. Maar let op, <strong>smal is niet hetzelfde als goed</strong>: de breedte zegt iets over de <strong>omvang</strong> van je steekproef, niet over haar <strong>kwaliteit</strong>. Een scheve steekproef van tienduizend mensen geeft een smal interval rond het verkeerde getal."
+    },
+    {
+     "soort": "tekst",
+     "html": "Om dezelfde reden maakt een <strong>hoger betrouwbaarheidsniveau je schatting niet nauwkeuriger</strong>. Je wordt zekerder dat de waarde erin zit door het net wijder te maken, en wijder is net minder precies."
+    }
+   ]
+  },
+  {
+   "kop": "Wat het níét zegt",
+   "blokken": [
+    {
+     "soort": "kader",
+     "html": "<p>Een betrouwbaarheidsniveau van vijfennegentig procent betekent: <strong>van alle zulke intervallen bevat vijfennegentig procent de populatiewaarde</strong>. Van de honderd zulke intervallen missen er dus gemiddeld <strong>vijf</strong> de populatiewaarde. Jouw ene interval bevat ze dus <strong>niet met zekerheid</strong>.</p>"
+    },
+    {
+     "soort": "tekst",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Iemand zegt</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Wat er mis is</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">\"95 % van de Belgen ligt in dit interval\"</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">het interval gaat over de populatiewaarde, niet over de individuen</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">\"er is 95 % kans dat het echte gemiddelde ertussen ligt\"</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">het populatiegemiddelde staat vast; het is de méthode die in 95 % van de gevallen lukt</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">het interval voor het gemiddelde loopt van 18 tot 22 jaar, dus vrijwel iedereen is 18 tot 22</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">het interval schat het gemiddelde, niet de leeftijd van de mensen zelf</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">het interval loopt van 2 tot 9 procent, dus ongeveer 2 procent</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">hij kiest één grens en negeert de hele onzekerheid</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">\"mijn interval loopt van 40 tot 60, mijn onderzoek is mislukt\"</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">breed betekent een kleine steekproef, niet een fout resultaat</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">\"het interval bevat mijn steekproefwaarde, dus het klopt\"</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">het ligt per constructie rond die waarde, dat bewijst niets</td></tr></table>"
+    },
+    {
+     "soort": "tekst",
+     "html": "Wat je er wél mee mag doen: <strong>alle waarden binnen het interval passen bij je data</strong>. Loopt een interval van 46 tot 54 procent, dan passen alle percentages daartussen erbij. Neem je een <strong>nieuwe steekproef</strong>, dan krijg je meestal een <strong>ander</strong> interval."
+    }
+   ]
+  },
+  {
+   "kop": "Een interval gebruiken om te beslissen",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Een betrouwbaarheidsinterval kan je ook <strong>gebruiken om een hypothese te beoordelen</strong>. Ligt het getal uit H0 buiten het interval, dan is dat een aanwijzing tegen H0."
+    },
+    {
+     "soort": "tekst",
+     "html": "Twee toepassingen die vaak terugkomen. <strong>Overlappen twee intervallen niet</strong>, dan is er een aanwijzing dat de twee populatiewaarden verschillen. En ligt bij een interval voor een <strong>verschil</strong> het getal <strong>nul erbuiten</strong>, dan is er een aanwijzing voor een echt verschil."
+    },
+    {
+     "soort": "weetje",
+     "html": "Een <strong>foutenmarge</strong> is iets anders dan een <strong>meetfout</strong>. De foutenmarge komt van het steekproeven: je bevraagt niet iedereen. Een meetfout komt van je instrument, en die verdwijnt niet door meer mensen te bevragen."
+    },
+    {
+     "soort": "tekst",
+     "html": "Daarom vermeldt een goede krant altijd de <strong>steekproefgrootte</strong> bij een enquête: de lezer kan dan inschatten hoe breed de foutenmarge is. Rapporteer je enkel het midden van je interval, dan kan je lezer niet zien hoe onzeker je schatting is."
+    }
+   ]
+  }
+ ],
+ "onthoud": [
+  "Een betrouwbaarheidsinterval is een schatting met haar onzekerheid erbij; het midden is je steekproefresultaat.",
+  "De foutenmarge is de helft van de breedte, want ze gaat naar twee kanten.",
+  "Breder wordt het bij een kleinere steekproef, een grotere spreiding of een hoger betrouwbaarheidsniveau.",
+  "Je marge halveren vraagt vier keer zoveel metingen.",
+  "95 % betekent: van alle zulke intervallen bevat 95 % de populatiewaarde. Niet: 95 % van de mensen zit erin.",
+  "Een smal interval zegt dat je steekproef groot was, niet dat ze goed was.",
+  "Ligt nul buiten een interval voor een verschil, dan is er een aanwijzing voor een echt verschil."
+ ]
+}

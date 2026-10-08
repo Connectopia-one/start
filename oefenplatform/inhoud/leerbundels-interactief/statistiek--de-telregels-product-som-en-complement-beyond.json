@@ -1,0 +1,104 @@
+{
+ "vak": "Statistiek",
+ "titel": "De telregels: product, som en complement",
+ "onder": "Drie regels om te tellen zonder alles op te schrijven: en, of, en niet.",
+ "secties": [
+  {
+   "kop": "De productregel: eerst dit, dan dat",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Je gebruikt de <strong>productregel</strong> als je <strong>na elkaar</strong> een eerste en een tweede keuze maakt. Heeft de eerste keuze a mogelijkheden en de tweede b, dan zijn er samen <strong>a maal b</strong> mogelijkheden. Het voegwoord dat je hoort is <strong>en</strong>: een voorgerecht én een hoofdgerecht."
+    },
+    {
+     "soort": "figuur",
+     "html": "<svg viewBox=\"0 0 470 159.0\" width=\"470\" xmlns=\"http://www.w3.org/2000/svg\"><circle cx=\"235.0\" cy=\"20\" r=\"5\" fill=\"#2f5d50\"/><line x1=\"235.0\" y1=\"25\" x2=\"78.3\" y2=\"39.0\" stroke=\"#e4ded0\" stroke-width=\"1.6\"/><rect x=\"34.3\" y=\"39.0\" width=\"88\" height=\"30\" rx=\"8\" fill=\"#ffffff\" stroke=\"#2f5d50\" stroke-width=\"1.4\"/><text x=\"78.3\" y=\"58.0\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"11\" font-weight=\"600\" fill=\"#234539\">soep</text><line x1=\"78.3\" y1=\"69.0\" x2=\"53.3\" y2=\"117.0\" stroke=\"#e4ded0\" stroke-width=\"1.4\"/><rect x=\"29.3\" y=\"117.0\" width=\"48.0\" height=\"30\" rx=\"8\" fill=\"#ffffff\" stroke=\"#c17f2b\" stroke-width=\"1.4\"/><text x=\"53.3\" y=\"136.0\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"10\" fill=\"#234539\">vis</text><line x1=\"78.3\" y1=\"69.0\" x2=\"103.3\" y2=\"117.0\" stroke=\"#e4ded0\" stroke-width=\"1.4\"/><rect x=\"79.3\" y=\"117.0\" width=\"48.0\" height=\"30\" rx=\"8\" fill=\"#ffffff\" stroke=\"#c17f2b\" stroke-width=\"1.4\"/><text x=\"103.3\" y=\"136.0\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"10\" fill=\"#234539\">vlees</text><line x1=\"235.0\" y1=\"25\" x2=\"235.0\" y2=\"39.0\" stroke=\"#e4ded0\" stroke-width=\"1.6\"/><rect x=\"191.0\" y=\"39.0\" width=\"88\" height=\"30\" rx=\"8\" fill=\"#ffffff\" stroke=\"#2f5d50\" stroke-width=\"1.4\"/><text x=\"235.0\" y=\"58.0\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"11\" font-weight=\"600\" fill=\"#234539\">salade</text><line x1=\"235.0\" y1=\"69.0\" x2=\"210.0\" y2=\"117.0\" stroke=\"#e4ded0\" stroke-width=\"1.4\"/><rect x=\"186.0\" y=\"117.0\" width=\"48.0\" height=\"30\" rx=\"8\" fill=\"#ffffff\" stroke=\"#c17f2b\" stroke-width=\"1.4\"/><text x=\"210.0\" y=\"136.0\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"10\" fill=\"#234539\">vis</text><line x1=\"235.0\" y1=\"69.0\" x2=\"260.0\" y2=\"117.0\" stroke=\"#e4ded0\" stroke-width=\"1.4\"/><rect x=\"236.0\" y=\"117.0\" width=\"48.0\" height=\"30\" rx=\"8\" fill=\"#ffffff\" stroke=\"#c17f2b\" stroke-width=\"1.4\"/><text x=\"260.0\" y=\"136.0\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"10\" fill=\"#234539\">vlees</text><line x1=\"235.0\" y1=\"25\" x2=\"391.7\" y2=\"39.0\" stroke=\"#e4ded0\" stroke-width=\"1.6\"/><rect x=\"347.7\" y=\"39.0\" width=\"88\" height=\"30\" rx=\"8\" fill=\"#ffffff\" stroke=\"#2f5d50\" stroke-width=\"1.4\"/><text x=\"391.7\" y=\"58.0\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"11\" font-weight=\"600\" fill=\"#234539\">paté</text><line x1=\"391.7\" y1=\"69.0\" x2=\"366.7\" y2=\"117.0\" stroke=\"#e4ded0\" stroke-width=\"1.4\"/><rect x=\"342.7\" y=\"117.0\" width=\"48.0\" height=\"30\" rx=\"8\" fill=\"#ffffff\" stroke=\"#c17f2b\" stroke-width=\"1.4\"/><text x=\"366.7\" y=\"136.0\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"10\" fill=\"#234539\">vis</text><line x1=\"391.7\" y1=\"69.0\" x2=\"416.7\" y2=\"117.0\" stroke=\"#e4ded0\" stroke-width=\"1.4\"/><rect x=\"392.7\" y=\"117.0\" width=\"48.0\" height=\"30\" rx=\"8\" fill=\"#ffffff\" stroke=\"#c17f2b\" stroke-width=\"1.4\"/><text x=\"416.7\" y=\"136.0\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"10\" fill=\"#234539\">vlees</text></svg>",
+     "onderschrift": "Drie voorgerechten en twee hoofdgerechten: zes menu's. Elke tak bovenaan splitst in twee."
+    },
+    {
+     "soort": "tekst",
+     "html": "Een menu met <strong>vier</strong> voorgerechten en <strong>zes</strong> hoofdgerechten geeft dus <strong>vierentwintig</strong> menu's van twee gangen. Vijf voorgerechten en vier hoofdgerechten geven er <strong>twintig</strong>."
+    },
+    {
+     "soort": "tekst",
+     "html": "De regel geldt <strong>niet alleen voor twee keuzes</strong>: je mag hem zo vaak herhalen als er stappen zijn. Drie soepen, vijf hoofdgerechten en twee desserts geven 3 · 5 · 2 = <strong>dertig</strong> driegangenmenu's. De twee keuzes moeten ook <strong>niet evenveel mogelijkheden hebben</strong>; dat maakt niets uit."
+    },
+    {
+     "soort": "tekst",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Opgave</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Berekening</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Aantal</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">code van 3 cijfers, 0 tot 9, herhaling mag</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">10 · 10 · 10</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">1000</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">pincode van 4 cijfers, herhaling mag</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">10 tot de vierde</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">10 000</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">fietsslot met 4 ringen van 0 tot 9</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">10 tot de vierde</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">10 000</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">nummerplaat: 3 letters en dan 3 cijfers</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">26 tot de derde maal 10 tot de derde</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">17 576 000</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">wachtwoord: 2 letters en dan 2 cijfers</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">26 · 26 · 10 · 10</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">67 600</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">hoorntje met 2 bollen uit 10 smaken, volgorde telt, dezelfde smaak mag</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">10 · 10</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">100</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">hetzelfde, maar niet twee keer dezelfde smaak</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">10 · 9</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">90</td></tr></table>"
+    },
+    {
+     "soort": "kader",
+     "html": "Bij dat laatste hoorntje valt er voor de tweede bol <strong>één smaak weg</strong>, namelijk die van de eerste. Dat de tweede keuze van de eerste afhangt, is geen probleem: zolang er voor de tweede keuze telkens <strong>even veel</strong> mogelijkheden zijn, mag je gewoon vermenigvuldigen."
+    }
+   ]
+  },
+  {
+   "kop": "De somregel: dit of dat",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Kies je <strong>één</strong> ding uit twee groepen, dan <strong>tel je de aantallen op</strong>. Het voegwoord is <strong>of</strong>. Drie talen en vijf sporten, en je kiest één activiteit: <strong>acht</strong> keuzes. Twaalf meisjes en acht jongens, en je vaardigt één leerling af: <strong>twintig</strong> keuzes. Zes keuzevakken waaruit je er één neemt: <strong>zes</strong>."
+    },
+    {
+     "soort": "tekst",
+     "html": "Er is wel een voorwaarde: de twee groepen <strong>mogen elkaar niet overlappen</strong>. Overlappen ze wel, dan mag je de aantallen niet zomaar optellen, want wie in allebei zit, tel je dan dubbel. Je trekt de overlap er één keer weer af."
+    },
+    {
+     "soort": "figuur",
+     "html": "<svg viewBox=\"0 0 470 210\" width=\"470\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"14\" y=\"14\" width=\"442\" height=\"196\" rx=\"12\" fill=\"#ffffff\" stroke=\"#e4ded0\" stroke-width=\"1.2\"/><circle cx=\"183.0\" cy=\"112\" r=\"92\" fill=\"#2f5d50\" fill-opacity=\"0.10\" stroke=\"#2f5d50\" stroke-width=\"1.8\"/><circle cx=\"287.0\" cy=\"112\" r=\"92\" fill=\"#c17f2b\" fill-opacity=\"0.10\" stroke=\"#c17f2b\" stroke-width=\"1.8\"/><text x=\"117.0\" y=\"22.0\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"12\" font-weight=\"600\" fill=\"#2f5d50\">Frans</text><text x=\"353.0\" y=\"22.0\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"12\" font-weight=\"600\" fill=\"#c17f2b\">Duits</text><text x=\"135.0\" y=\"116.0\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"11.5\" fill=\"#234539\">11</text><text x=\"235.0\" y=\"116.0\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"11.5\" fill=\"#23291f\">4</text><text x=\"335.0\" y=\"116.0\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"11.5\" fill=\"#234539\">8</text></svg>",
+     "onderschrift": "Vijftien volgen Frans, twaalf volgen Duits, vier volgen allebei. Samen 11 + 4 + 8 = 23 leerlingen."
+    },
+    {
+     "soort": "tekst",
+     "html": "Dus: 15 + 12 − 4 = <strong>drieëntwintig</strong> leerlingen volgen minstens één van de twee. Reken altijd even na of de stukken samen kloppen met het totaal; dat is de snelste controle die er is."
+    }
+   ]
+  },
+  {
+   "kop": "De complementregel: alles min wat niet telt",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Het <strong>complement</strong> van een verzameling is alles wat <strong>niet</strong> aan de voorwaarde voldoet. De <strong>complementregel</strong> zegt: het aantal gevallen dat voldoet is <strong>het totaal min het aantal dat niet voldoet</strong>."
+    },
+    {
+     "soort": "tekst",
+     "html": "Dat lijkt een omweg, en soms is het dat ook. Maar bij <strong>minstens</strong>-vragen bestaat het tegengestelde geval vaak uit veel minder mogelijkheden, en dan is het de kortste weg. Het complement van <strong>hoogstens twee</strong> is <strong>minstens drie</strong>; het complement van <strong>minstens één</strong> is <strong>geen enkele</strong>."
+    },
+    {
+     "soort": "tekst",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Vraag</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Totaal</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Wat niet voldoet</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Antwoord</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">3 keer munt gooien, minstens één keer kop</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">2 tot de derde = 8</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">nul keer kop: 1</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">7</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">4 keer munt gooien, alle uitkomsten</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">2 tot de vierde</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">—</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">16</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">2 dobbelstenen, minstens één zes</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">36</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">geen zes: 5 · 5 = 25</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">11</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">code van 4 cijfers, niet 4 gelijke</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">10 000</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">4 gelijke: 10</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">9990</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">10 waar-of-niet-waarvragen invullen</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">2 tot de tiende</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">—</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">1024</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">daarvan met minstens één fout</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">1024</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">helemaal juist: 1</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">1023</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">25 leerlingen, 7 zonder fiets</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">25</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">7</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">18</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">getal van 3 cijfers dat niet met nul begint</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">9 · 10 · 10</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">—</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">900</td></tr></table>"
+    },
+    {
+     "soort": "weetje",
+     "html": "De complementregel werkt <strong>alleen als je het totale aantal mogelijkheden kent</strong>. Weet je dat niet, dan heb je niets om van af te trekken. En het resultaat is altijd kleiner dan het totaal: wordt je antwoord groter, dan heb je opgeteld in plaats van afgetrokken."
+    },
+    {
+     "soort": "tekst",
+     "html": "Je hoeft het woordje <strong>niet</strong> niet letterlijk in de opgave te zien staan om de regel te mogen gebruiken. <em>Minstens</em>, <em>op zijn minst</em> en <em>ten minste één</em> zijn alle drie uitnodigingen om het tegengestelde te tellen."
+    }
+   ]
+  },
+  {
+   "kop": "De drie regels door elkaar",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Een opgave gebruikt vaak twee regels tegelijk. <strong>Splits ze dan in stukken</strong> en kijk per stuk of het een <em>en</em>, een <em>of</em>, of een <em>niet</em> is."
+    },
+    {
+     "soort": "tekst",
+     "html": "Een fietspad loopt via drie wegen naar het park en van daar via vier wegen naar school: dat is een <em>en</em>, dus 3 · 4 = <strong>twaalf</strong> routes. Van vijftig mensen fietsen er dertig, nemen er vijfentwintig de bus en doen er tien allebei: dat zijn 30 + 25 − 10 = 45 mensen, dus <strong>vijf</strong> doen geen van beide. Daar zitten de somregel met overlap en de complementregel in één opgave."
+    }
+   ]
+  }
+ ],
+ "onthoud": [
+  "Productregel: eerst dit én dan dat, dus vermenigvuldigen. Je mag hem zo vaak herhalen als er stappen zijn.",
+  "Somregel: dit óf dat, dus optellen, maar alleen als de groepen elkaar niet overlappen. Overlappen ze wel, trek de overlap er één keer af.",
+  "Complementregel: het totaal min wat niet voldoet. Bij minstens-vragen is dat bijna altijd de kortste weg.",
+  "Het complement van minstens één is geen enkele; dat van hoogstens twee is minstens drie.",
+  "Splits een gemengde opgave in stukken en kijk per stuk of het en, of, of niet is."
+ ]
+}

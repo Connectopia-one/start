@@ -1,0 +1,122 @@
+{
+ "vak": "Statistiek",
+ "titel": "Kansvariabelen en de binomiale verdeling",
+ "onder": "Een getal hangen aan een toevallige uitkomst, en de verdeling die bij n keer proberen hoort.",
+ "secties": [
+  {
+   "kop": "Wat is een kansvariabele?",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Een <strong>kansvariabele</strong> is een grootheid die aan elke uitkomst van een experiment een getal hangt. Gooi je twee keer met een munt, dan kan je aan elke uitkomst het aantal keer kop hangen: dat aantal is de kansvariabele. Een ander woord ervoor is <strong>stochast</strong>."
+    },
+    {
+     "soort": "tekst",
+     "html": "De bijlage met notaties schrijft de kans dat X de waarde x aanneemt als <strong>P(X = x)</strong>. Een kans ligt altijd tussen nul en één: ze kan nooit groter zijn dan één of kleiner dan nul."
+    },
+    {
+     "soort": "tekst",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Soort</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Wat het betekent</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Voorbeelden</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">discreet</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">je kan de mogelijke waarden opsommen, het zijn losse getallen</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">het aantal kinderen in een gezin, het aantal telefoontjes per uur in een callcenter, de schoenmaat</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">continu</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">elke waarde in een interval is mogelijk, ook met cijfers na de komma</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">de temperatuur om twaalf uur, de lengte van een volwassene, de wachttijd aan een loket</td></tr></table>"
+    },
+    {
+     "soort": "tekst",
+     "html": "Het <strong>aantal kop bij twintig muntworpen</strong> is discreet, want je kan alleen de gehele getallen van nul tot twintig krijgen. Een <strong>schoenmaat</strong> is ook discreet, hoe vreemd dat ook klinkt: tussen maat 41 en maat 42 zit niets. Bij een <strong>continue</strong> kansvariabele is de kans op één exacte waarde <strong>gelijk aan nul</strong>; je vraagt er dus altijd naar een interval."
+    }
+   ]
+  },
+  {
+   "kop": "De kansverdeling",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Een <strong>kansverdeling</strong> van een discrete kansvariabele is een overzicht van alle waarden met de kans op elk van die waarden. Je zet ze in een tabel of in een staafdiagram."
+    },
+    {
+     "soort": "kader",
+     "html": "<p>De som van alle kansen in een kansverdeling is <strong>precies één</strong>. Dat is je controle. Staat er P(X = 1) = 0,2, P(X = 2) = 0,5 en P(X = 3) = 0,4, dan is de som 1,1 en klopt de tabel niet.</p>"
+    },
+    {
+     "soort": "tekst",
+     "html": "Wordt er naar <strong>P(X ≤ 2)</strong> gevraagd, dan tel je de kansen van alle waarden tot en met twee op. De waarden van een discrete kansvariabele <strong>hoeven niet bij nul te beginnen</strong>: het aantal ogen van een dobbelsteen begint bij één."
+    },
+    {
+     "soort": "tekst",
+     "html": "Gooi je twee keer met een munt en is X het aantal keer kop, dan zijn er vier even waarschijnlijke uitkomsten: KK, KM, MK en MM. Dus P(X = 0) is een kwart, <strong>P(X = 1) is de helft</strong> en P(X = 2) is een kwart. Samen één."
+    }
+   ]
+  },
+  {
+   "kop": "Het Bernoulli-experiment",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Een <strong>Bernoulli-experiment</strong> is een experiment met <strong>juist twee mogelijke uitkomsten</strong>: lukt het of lukt het niet, kop of munt, afgekeurd of goedgekeurd. De twee uitkomsten moeten <strong>niet</strong> even waarschijnlijk zijn; een machine die vijf procent afkeurt is een prima Bernoulli-experiment."
+    },
+    {
+     "soort": "tekst",
+     "html": "De kansvariabele die erbij hoort, kan <strong>alleen nul of één</strong> zijn. De bijlage gebruikt de letter <strong>p</strong> voor de kans op succes, en de kans op geen succes is dan <strong>1 − p</strong>."
+    }
+   ]
+  },
+  {
+   "kop": "De binomiale verdeling",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Herhaal je hetzelfde Bernoulli-experiment <strong>n keer</strong>, onafhankelijk en telkens met dezelfde kans p, en tel je hoe vaak het lukt, dan is dat aantal <strong>binomiaal verdeeld</strong>. Je schrijft <strong>X ~ B(n, p)</strong>: X is binomiaal verdeeld met n experimenten en kans p op succes. De <strong>n</strong> staat voor het aantal experimenten."
+    },
+    {
+     "soort": "tekst",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Voorwaarde</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Wat ze betekent</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">twee uitkomsten</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">elk experiment lukt of lukt niet</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">vast aantal n</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">je weet vooraf hoe vaak je het doet</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">dezelfde p</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">de kans op succes verandert niet tussendoor</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">onafhankelijk</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">wat er bij de ene keer gebeurt, verandert niets aan de volgende</td></tr></table>"
+    },
+    {
+     "soort": "tekst",
+     "html": "De uitkomsten <strong>hoeven niet continu verdeeld te zijn</strong>; integendeel, het aantal successen is net discreet. En <strong>p mag elke waarde tussen nul en één hebben</strong>: er is geen ondergrens van nul komma één of iets dergelijks."
+    },
+    {
+     "soort": "kader",
+     "html": "<p><strong>P(X = k) = C(n, k) maal p tot de k maal (1 − p) tot de (n − k)</strong></p><p>Daar zit de C(n, k) van het vorige thema in: het aantal manieren waarop die k successen verspreid kunnen zitten. De k loopt van nul tot n; <strong>n plus één kan k niet zijn</strong>.</p>"
+    },
+    {
+     "soort": "figuur",
+     "html": "<svg viewBox=\"0 0 430 200\" width=\"430\" xmlns=\"http://www.w3.org/2000/svg\"><line x1=\"30\" y1=\"14\" x2=\"30\" y2=\"172\" stroke=\"#6b7260\" stroke-width=\"1.4\"/><line x1=\"30\" y1=\"172\" x2=\"430\" y2=\"172\" stroke=\"#6b7260\" stroke-width=\"1.4\"/><line x1=\"26\" y1=\"172.0\" x2=\"30\" y2=\"172.0\" stroke=\"#6b7260\" stroke-width=\"1.2\"/><text x=\"23\" y=\"175.5\" text-anchor=\"end\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"9.5\" fill=\"#6b7260\">0</text><line x1=\"26\" y1=\"140.7\" x2=\"30\" y2=\"140.7\" stroke=\"#6b7260\" stroke-width=\"1.2\"/><text x=\"23\" y=\"144.2\" text-anchor=\"end\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"9.5\" fill=\"#6b7260\">50</text><line x1=\"26\" y1=\"109.3\" x2=\"30\" y2=\"109.3\" stroke=\"#6b7260\" stroke-width=\"1.2\"/><text x=\"23\" y=\"112.8\" text-anchor=\"end\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"9.5\" fill=\"#6b7260\">100</text><line x1=\"26\" y1=\"78.0\" x2=\"30\" y2=\"78.0\" stroke=\"#6b7260\" stroke-width=\"1.2\"/><text x=\"23\" y=\"81.5\" text-anchor=\"end\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"9.5\" fill=\"#6b7260\">150</text><line x1=\"26\" y1=\"46.6\" x2=\"30\" y2=\"46.6\" stroke=\"#6b7260\" stroke-width=\"1.2\"/><text x=\"23\" y=\"50.1\" text-anchor=\"end\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"9.5\" fill=\"#6b7260\">200</text><line x1=\"26\" y1=\"15.3\" x2=\"30\" y2=\"15.3\" stroke=\"#6b7260\" stroke-width=\"1.2\"/><text x=\"23\" y=\"18.8\" text-anchor=\"end\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"9.5\" fill=\"#6b7260\">250</text><rect x=\"38.0\" y=\"171.4\" width=\"20.4\" height=\"0.6\" fill=\"#2f5d50\" rx=\"3\"/><text x=\"48.2\" y=\"186\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"10\" fill=\"#23291f\">0</text><rect x=\"74.4\" y=\"165.7\" width=\"20.4\" height=\"6.3\" fill=\"#2f5d50\" rx=\"3\"/><text x=\"84.5\" y=\"186\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"10\" fill=\"#23291f\">1</text><rect x=\"110.7\" y=\"143.8\" width=\"20.4\" height=\"28.2\" fill=\"#2f5d50\" rx=\"3\"/><text x=\"120.9\" y=\"186\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"10\" fill=\"#23291f\">2</text><rect x=\"147.1\" y=\"96.8\" width=\"20.4\" height=\"75.2\" fill=\"#2f5d50\" rx=\"3\"/><text x=\"157.3\" y=\"186\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"10\" fill=\"#23291f\">3</text><rect x=\"183.5\" y=\"40.3\" width=\"20.4\" height=\"131.7\" fill=\"#2f5d50\" rx=\"3\"/><text x=\"193.6\" y=\"186\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"10\" fill=\"#23291f\">4</text><rect x=\"219.8\" y=\"14.0\" width=\"20.4\" height=\"158.0\" fill=\"#2f5d50\" rx=\"3\"/><text x=\"230.0\" y=\"186\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"10\" fill=\"#23291f\">5</text><rect x=\"256.2\" y=\"40.3\" width=\"20.4\" height=\"131.7\" fill=\"#2f5d50\" rx=\"3\"/><text x=\"266.4\" y=\"186\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"10\" fill=\"#23291f\">6</text><rect x=\"292.5\" y=\"96.8\" width=\"20.4\" height=\"75.2\" fill=\"#2f5d50\" rx=\"3\"/><text x=\"302.7\" y=\"186\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"10\" fill=\"#23291f\">7</text><rect x=\"328.9\" y=\"143.8\" width=\"20.4\" height=\"28.2\" fill=\"#2f5d50\" rx=\"3\"/><text x=\"339.1\" y=\"186\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"10\" fill=\"#23291f\">8</text><rect x=\"365.3\" y=\"165.7\" width=\"20.4\" height=\"6.3\" fill=\"#2f5d50\" rx=\"3\"/><text x=\"375.5\" y=\"186\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"10\" fill=\"#23291f\">9</text><rect x=\"401.6\" y=\"171.4\" width=\"20.4\" height=\"0.6\" fill=\"#2f5d50\" rx=\"3\"/><text x=\"411.8\" y=\"186\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"10\" fill=\"#23291f\">10</text></svg>",
+     "onderschrift": "Het aantal manieren om k keer kop te gooien bij tien worpen, samen 1024. Bij X ~ B(10; 0,5) is de kansverdeling symmetrisch rond vijf."
+    },
+    {
+     "soort": "tekst",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Situatie</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Verdeling</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Waarom</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">aantal zessen bij 20 worpen met een eerlijke dobbelsteen</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">B(20; 1/6)</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">elke worp is onafhankelijk en p blijft 1/6</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">10 meerkeuzevragen met vier opties, allemaal gegokt</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">B(10; 0,25)</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">elke vraag lukt met kans een kwart</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">20 stukken van een machine die 5 % afkeurt</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">B(20; 0,05)</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">elk stuk is goed of afgekeurd</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">50 inwoners vragen in een stad waar 40 % voor A stemt</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">B(50; 0,4)</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">de antwoorden zijn onafhankelijk en p blijft nagenoeg gelijk</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">3 kaarten trekken zonder terugleggen, aantal harten</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">géén binomiale verdeling</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">de kans op harten verandert na elke trekking</td></tr></table>"
+    },
+    {
+     "soort": "tekst",
+     "html": "Dat laatste is de valkuil. <strong>Zonder terugleggen verandert p</strong>, en dan mag je niet binomiaal rekenen. Bij een grote populatie, zoals de vijftig inwoners van een stad, verandert p wel zo weinig dat je het toch mag doen."
+    }
+   ]
+  },
+  {
+   "kop": "Kansen uitrekenen",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Drie keer met een munt gooien geeft acht even waarschijnlijke uitkomsten. Juist twee keer kop kan op C(3, 2) = 3 manieren, dus de kans is <strong>drie achtste</strong>. Bij X ~ B(5; 0,5) is P(X = 0) gelijk aan 0,5 tot de vijfde, <strong>een tweeëndertigste</strong>. Gooi je zes keer met een dobbelsteen, dan is de kans op geen enkele zes (5/6) tot de zesde, ongeveer <strong>drieëndertig procent</strong>."
+    },
+    {
+     "soort": "weetje",
+     "html": "<strong>P(X ≥ 1) reken je het snelst als één min P(X = 0).</strong> Dat is de complementregel, nu met kansen in plaats van met aantallen."
+    },
+    {
+     "soort": "tekst",
+     "html": "Op het examen doe je dit met de <strong>kansrekenmachine</strong>: kies de binomiale verdeling, vul n en p in en duid aan welk stuk je wil. Ze kan de <strong>hele kansverdeling in één keer opstellen</strong>, dus je hoeft de formule niet elf keer in te tikken. Krijg je een kans van 1,4 te zien, dan heb je iets fout ingetikt; een kans ligt tussen nul en één."
+    }
+   ]
+  }
+ ],
+ "onthoud": [
+  "Een kansvariabele hangt een getal aan elke uitkomst. Discreet = losse waarden, continu = elke waarde in een interval.",
+  "Bij een continue kansvariabele is de kans op één exacte waarde nul.",
+  "De som van alle kansen in een kansverdeling is precies één.",
+  "Een Bernoulli-experiment heeft juist twee uitkomsten; ze hoeven niet even waarschijnlijk te zijn.",
+  "X ~ B(n, p): n keer hetzelfde experiment, onafhankelijk, met dezelfde p. P(X = k) = C(n, k) · p tot de k · (1 − p) tot de (n − k).",
+  "Zonder terugleggen is het niet binomiaal, want p verandert.",
+  "P(X ≥ 1) is één min P(X = 0)."
+ ]
+}

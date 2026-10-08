@@ -171,9 +171,9 @@ DEEL1 = [
 DEEL2 = [
     dict(
         type="invultekst",
-        vraag="Een toets op vijf heeft deze frequenties: 1 komt 3 keer voor, 2 zeven keer, 3 tien keer, 4 veertien keer en 5 zes keer. Bereken het gemiddelde op twee decimalen.",
-        antwoord=["3,33"],
-        uitleg="De som van de punten is 133 en er zijn 40 leerlingen, dus 3,325. Tik in het rekenblad de waarden en de frequenties in twee kolommen.",
+        vraag="Een toets op vijf heeft deze frequenties: 1 komt 3 keer voor, 2 zeven keer, 3 tien keer, 4 veertien keer en 5 zes keer. Bereken het gemiddelde op één decimaal.",
+        antwoord=["3,3"],
+        uitleg="De som van de punten is 133 en er zijn 40 leerlingen, dus 3,325, afgerond 3,3. Tik in het rekenblad de waarden en de frequenties in twee kolommen.",
     ),
     dict(
         type="invultekst",

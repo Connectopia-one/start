@@ -1,0 +1,91 @@
+{
+ "vak": "Statistiek",
+ "titel": "Faculteit en combinaties",
+ "onder": "Kiezen zonder dat de volgorde telt, met de formule uit het formularium.",
+ "secties": [
+  {
+   "kop": "Faculteit",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "De <strong>faculteit</strong> van n, geschreven als n!, is het product van alle getallen van één tot n. Dus <strong>5! is vijf maal vier maal drie maal twee maal één</strong>, en dat is honderdtwintig. <strong>6! is 720</strong>."
+    },
+    {
+     "soort": "tekst",
+     "html": "Eén afspraak moet je uit het hoofd kennen: <strong>0! is gelijk aan één</strong>. Dat is geen grap maar een noodzaak, anders klopt de formule van de combinaties niet meer in de randgevallen."
+    },
+    {
+     "soort": "weetje",
+     "html": "Faculteiten lopen razendsnel op: 10! is al meer dan drie miljoen, 20! heeft negentien cijfers. Bij <strong>C(18, 3)</strong> is het dus <strong>geen goed idee</strong> om eerst 18! volledig uit te rekenen. Je deelt de factoren tegen elkaar weg voor je vermenigvuldigt."
+    }
+   ]
+  },
+  {
+   "kop": "Combinaties: de volgorde telt niet",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Bij een <strong>combinatie</strong> maakt de volgorde van de gekozen elementen <strong>niets</strong> uit. Een jury van vijf is dezelfde jury, in welke volgorde je de namen ook opschrijft. Telt de volgorde wél, dan heb je geen combinatie nodig maar de productregel uit het vorige thema."
+    },
+    {
+     "soort": "kader",
+     "html": "<p>In het formularium staat: het aantal combinaties van <strong>p</strong> elementen uit <strong>n</strong> elementen is</p><p style=\"text-align:center;\"><strong>C(n, p) = n! gedeeld door p! maal (n − p)!</strong></p><p>De <strong>p! in de noemer</strong> staat er om de volgordes van de gekozen elementen weer weg te delen. Zonder die deling tel je elke keuze p! keer.</p>"
+    },
+    {
+     "soort": "tekst",
+     "html": "Dat laatste is dé klassieke fout. Je moet uit vier vrienden er twee kiezen en je rekent 4 · 3 = 12 uit. Dan heb je <strong>elk paar twee keer geteld</strong>, want Anna-en-Bram is hetzelfde duo als Bram-en-Anna. Het antwoord is <strong>zes</strong>. Dezelfde fout bij C(9, 4): wie 9 · 8 · 7 · 6 = 3024 opschrijft, is de deling door 4! vergeten; het antwoord is <strong>honderdzesentwintig</strong>."
+    },
+    {
+     "soort": "tekst",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Eigenschap</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Waarom</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Voorbeeld</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">C(n, 0) = 1</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">er is precies één manier om niets te kiezen</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">C(7, 0) = 1</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">C(n, 1) = n</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">je kiest er één, dus n keuzes</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">C(10, 1) = 10</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">C(n, p) = C(n, n − p)</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">wie er p kiest, laat er juist n − p liggen</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">C(8, 3) = C(8, 5) = 56</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">C(n, p) is altijd een geheel getal</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">de deling gaat altijd op, ook al staat er een breuk</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">C(45, 6) = 8 145 060</td></tr></table>"
+    }
+   ]
+  },
+  {
+   "kop": "Rekenen met C(n, p)",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Bij elk <strong>telprobleem</strong> is de eerste vraag of de volgorde telt. Telt ze niet, dan is het een combinatie. Reken ze een keer met de hand uit, en daarna met de kansrekenmachine. Je vindt C(n, p) op de gewone rekenmachine van GeoGebra als <strong>nCr(n, p)</strong>."
+    },
+    {
+     "soort": "tekst",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Berekening</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Uitwerking</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Uitkomst</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">C(5, 2)</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">(5 · 4) gedeeld door 2</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">10</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">C(6, 2)</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">(6 · 5) gedeeld door 2</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">15</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">C(6, 3)</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">(6 · 5 · 4) gedeeld door 6</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">20</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">C(7, 3)</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">(7 · 6 · 5) gedeeld door 6</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">35</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">C(10, 2)</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">(10 · 9) gedeeld door 2</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">45</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">C(11, 2)</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">(11 · 10) gedeeld door 2</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">55</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">C(9, 5)</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">gelijk aan C(9, 4)</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">126</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">C(12, 5)</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">792</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">C(20, 2)</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">(20 · 19) gedeeld door 2</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">190</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">C(25, 3)</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">(25 · 24 · 23) gedeeld door 6</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">2300</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">C(30, 2)</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">(30 · 29) gedeeld door 2</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">435</td></tr></table>"
+    },
+    {
+     "soort": "weetje",
+     "html": "Op het examen volstaat het <strong>niet</strong> om enkel de uitkomst van C(n, p) te noteren. Schrijf erbij welke combinatie je berekent en waarom het een combinatie is; dat is het deel waarvoor je punten krijgt."
+    }
+   ]
+  },
+  {
+   "kop": "Herkennen in een opgave",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Opgave</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Waarom een combinatie</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Berekening</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">drie boeken uit tien meenemen op reis</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">de volgorde in je koffer telt niet</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">C(10, 3) = 120</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">twee leerlingen uit twintig het bord laten wissen</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">geen rolverdeling</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">C(20, 2) = 190</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een jury van vijf uit negen kandidaten</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een jury is een groep</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">C(9, 5) = 126</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een ploeg van vijf uit twaalf spelers</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">idem</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">C(12, 5) = 792</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">zes Lottogetallen uit vijfenveertig</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">de trekvolgorde doet er niet toe</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">C(45, 6)</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">drie verschillende gebakjes uit acht soorten</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">je zak is één geheel</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">C(8, 3) = 56</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">vier soorten fruit uit zeven</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">idem</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">C(7, 4) = 35</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">drie rode knikkers uit zes rode</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">de blauwe doen niet mee</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">C(6, 3) = 20</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">twee steden uit twaalf bezoeken</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">C(12, 2) = 66</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">twee vertegenwoordigers uit zestien kandidaten</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">zonder onderscheid in rol</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">C(16, 2) = 120</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">drie afgevaardigden uit vijfentwintig</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">zonder onderscheid in rol</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">C(25, 3) = 2300</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een hand van vijf kaarten uit tweeënvijftig</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">je hand is geen rij</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">C(52, 5)</td></tr></table>"
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Een toernooi waarin elke ploeg één keer tegen elke andere speelt</strong>, is een combinatie van twee uit n: elke wedstrijd is een paar ploegen. Met tien ploegen zijn dat C(10, 2) = <strong>vijfenveertig</strong> wedstrijden."
+    },
+    {
+     "soort": "kader",
+     "html": "<p><strong>Twee voorwaarden met de complementregel.</strong> Bij <em>minstens één</em> of <em>minstens twee</em> tel je de gevallen die het net niet halen, en trek je die van het totaal af.</p><p>Een commissie van drie uit vijf vrouwen en vier mannen, met <strong>minstens één vrouw</strong>: in totaal C(9, 3) = 84 commissies, waarvan C(4, 3) = 4 met enkel mannen. Dus 84 − 4 = <strong>tachtig</strong>.</p><p>Bij <em>minstens twee</em> tel je de gevallen met nul én met één, en haal je allebei van het totaal af.</p>"
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Let op als herhaling toegelaten is.</strong> Mag je twee keer hetzelfde kiezen, dan geldt de formule van de combinaties niet meer en val je terug op de productregel. Twee kinderen uit dertig kiezen geeft C(30, 2) = 435 mogelijkheden, niet 870; dat laatste is het aantal als de volgorde wél zou tellen."
+    }
+   ]
+  }
+ ],
+ "onthoud": [
+  "n! is het product van alle getallen van één tot n, en 0! is één.",
+  "Bij een combinatie telt de volgorde niet. C(n, p) = n! gedeeld door p! maal (n − p)!.",
+  "De p! in de noemer deelt de volgordes van de gekozen elementen weer weg; vergeet je ze, dan tel je elke keuze p! keer.",
+  "C(n, 0) = 1, C(n, 1) = n en C(n, p) = C(n, n − p).",
+  "Elke ploeg één keer tegen elke andere is C(n, 2).",
+  "Minstens één? Tel het tegengestelde en trek het van het totaal af."
+ ]
+}

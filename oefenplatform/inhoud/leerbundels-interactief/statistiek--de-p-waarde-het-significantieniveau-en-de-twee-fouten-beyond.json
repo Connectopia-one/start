@@ -1,0 +1,109 @@
+{
+ "vak": "Statistiek",
+ "titel": "De p-waarde, het significantieniveau en de twee fouten",
+ "onder": "Hoe je beslist, waar de grens ligt, en wat er mis kan gaan als je beslist.",
+ "secties": [
+  {
+   "kop": "De p-waarde",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Bij een <strong>hypothesetoets</strong> draait alles rond één getal. De <strong>p-waarde</strong> is de kans op een resultaat dat <strong>minstens zo extreem</strong> is als het gevondene, <strong>als H0 waar is</strong>. Dat laatste stukje is het belangrijkste van de hele zin."
+    },
+    {
+     "soort": "tekst",
+     "html": "Vind je bij een rechtszijdige toets een steekproefgemiddelde van 52 terwijl H0 zegt dat mu gelijk is aan 50, dan is de p-waarde de <strong>kans op een steekproefgemiddelde van 52 of meer onder H0</strong>. Je rekent ze uit met de rekenapps, maar je <strong>noteert wel je werkwijze en je redenering</strong>."
+    },
+    {
+     "soort": "kader",
+     "html": "<p><strong>De fout die iedereen maakt.</strong> \"De p-waarde is 0,04, dus er is vier procent kans dat H0 waar is.\" Dat staat er niet. De p-waarde is <strong>de kans op de data als H0 waar is</strong>, niet de kans dat H0 waar is.</p><p>Een p-waarde van 0,001 betekent dus: <strong>zulke data komen in één op de duizend gevallen voor als H0 waar is</strong>.</p>"
+    },
+    {
+     "soort": "tekst",
+     "html": "Een p-waarde is een kans, dus ze ligt tussen nul en één. Ze <strong>kan nooit groter zijn dan één</strong>, hoe groot het gevonden verschil ook is. Een <strong>kleinere p-waarde betekent sterker bewijs tegen H0</strong>."
+    }
+   ]
+  },
+  {
+   "kop": "Het significantieniveau alfa",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Het <strong>significantieniveau alfa</strong> is de grens waaronder je de nulhypothese verwerpt. Het meest gebruikte niveau is <strong>0,05</strong>."
+    },
+    {
+     "soort": "kader",
+     "html": "<p style=\"text-align:center;\"><strong>Verwerp H0 als de p-waarde kleiner is dan of gelijk aan alfa.</strong></p><p>Is de p-waarde <strong>groter</strong> dan alfa, dan verwerp je H0 <strong>niet</strong>. Bij een p-waarde van precies 0,05 met alfa gelijk aan 0,05 verwerp je H0 dus wél: de grens hoort erbij.</p>"
+    },
+    {
+     "soort": "tekst",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">p-waarde</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">alfa</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Besluit</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">0,03</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">0,05</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">H0 verwerpen</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">0,05</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">0,05</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">H0 verwerpen</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">0,07</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">0,05</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">H0 niet verwerpen</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">0,12</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">0,05</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">H0 niet verwerpen, er is te weinig bewijs tegen</td></tr></table>"
+    },
+    {
+     "soort": "tekst",
+     "html": "Alfa gelijk aan 0,01 is <strong>strenger</strong> dan 0,05: je hebt sterker bewijs nodig voor je H0 verwerpt. Je kiest alfa <strong>vooraf</strong>. Kies je het pas nadat je de p-waarde kent, dan kan je alfa zo kiezen dat je gewenste besluit uitkomt, en dan is de hele toets theater."
+    },
+    {
+     "soort": "weetje",
+     "html": "Bij een <strong>tweezijdige</strong> toets vergelijk je de p-waarde gewoon met <strong>alfa</strong>, niet met alfa gedeeld door twee. Het opsplitsen gebeurt al bij het berekenen van de p-waarde zelf: die telt allebei de staarten mee."
+    }
+   ]
+  },
+  {
+   "kop": "De twee fouten",
+   "blokken": [
+    {
+     "soort": "figuur",
+     "html": "<svg viewBox=\"0 0 470 186\" width=\"470\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"0.0\" y=\"0\" width=\"230.0\" height=\"76\" rx=\"8\" fill=\"#ffffff\" stroke=\"#2f5d50\" stroke-width=\"1.6\"/><text x=\"12.0\" y=\"19.0\" text-anchor=\"start\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"11.5\" font-weight=\"600\" fill=\"#2f5d50\">H0 is waar — je verwerpt ze niet</text><text x=\"12.0\" y=\"38.0\" text-anchor=\"start\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"10.5\" fill=\"#6b7260\">· juiste beslissing</text><text x=\"12.0\" y=\"55.0\" text-anchor=\"start\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"10.5\" fill=\"#6b7260\">· de onschuldige gaat vrijuit</text><rect x=\"240.0\" y=\"0\" width=\"230.0\" height=\"76\" rx=\"8\" fill=\"#ffffff\" stroke=\"#c17f2b\" stroke-width=\"1.6\"/><text x=\"252.0\" y=\"19.0\" text-anchor=\"start\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"11.5\" font-weight=\"600\" fill=\"#c17f2b\">H0 is waar — je verwerpt ze</text><text x=\"252.0\" y=\"38.0\" text-anchor=\"start\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"10.5\" fill=\"#6b7260\">· type I-fout, kans gelijk aan alfa</text><text x=\"252.0\" y=\"55.0\" text-anchor=\"start\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"10.5\" fill=\"#6b7260\">· de onschuldige wordt veroordeeld</text><rect x=\"0.0\" y=\"86\" width=\"230.0\" height=\"76\" rx=\"8\" fill=\"#ffffff\" stroke=\"#6f8f4a\" stroke-width=\"1.6\"/><text x=\"12.0\" y=\"105.0\" text-anchor=\"start\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"11.5\" font-weight=\"600\" fill=\"#6f8f4a\">H0 is fout — je verwerpt ze niet</text><text x=\"12.0\" y=\"124.0\" text-anchor=\"start\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"10.5\" fill=\"#6b7260\">· type II-fout</text><text x=\"12.0\" y=\"141.0\" text-anchor=\"start\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"10.5\" fill=\"#6b7260\">· de rookmelder zwijgt terwijl er brand is</text><rect x=\"240.0\" y=\"86\" width=\"230.0\" height=\"76\" rx=\"8\" fill=\"#ffffff\" stroke=\"#6b7260\" stroke-width=\"1.6\"/><text x=\"252.0\" y=\"105.0\" text-anchor=\"start\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"11.5\" font-weight=\"600\" fill=\"#6b7260\">H0 is fout — je verwerpt ze</text><text x=\"252.0\" y=\"124.0\" text-anchor=\"start\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"10.5\" fill=\"#6b7260\">· juiste beslissing</text><text x=\"252.0\" y=\"141.0\" text-anchor=\"start\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"10.5\" fill=\"#6b7260\">· de schuldige wordt veroordeeld</text><text x=\"235.0\" y=\"174.0\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"9.5\" fill=\"#6b7260\">Links beslis je niet te verwerpen, rechts wel. Boven geldt H0 echt, onder niet.</text></svg>",
+     "onderschrift": "De vier mogelijke afloopjes van een toets. Per toets gebeurt er hoogstens één van de twee fouten, want H0 is waar of ze is het niet."
+    },
+    {
+     "soort": "tekst",
+     "html": "Een <strong>type I-fout</strong> is H0 verwerpen terwijl ze waar is. De kans erop is <strong>gelijk aan alfa</strong>. Bij alfa gelijk aan 0,05 verwerp je dus gemiddeld <strong>één op de twintig keer</strong> een nulhypothese die waar is."
+    },
+    {
+     "soort": "tekst",
+     "html": "Een <strong>type II-fout</strong> is H0 niet verwerpen terwijl ze fout is. Een medische test die een gezonde patiënt ziek noemt, is een type I-fout als H0 zegt dat de patiënt gezond is. Een rookmelder die niet afgaat terwijl er brand is, is een type II-fout als H0 zegt dat er geen brand is."
+    },
+    {
+     "soort": "tekst",
+     "html": "De twee fouten <strong>kunnen niet tegelijk gebeuren</strong> bij dezelfde toets: H0 is waar of ze is het niet. Maar ze trekken wel aan elkaar. <strong>Kleiner alfa kiezen verkleint de kans op een type I-fout en vergroot die op een type II-fout.</strong> Een fabrikant die vooral wil vermijden dat hij een goede partij afkeurt, <strong>maakt alfa kleiner</strong>."
+    },
+    {
+     "soort": "weetje",
+     "html": "Er is één manier om de kans op <strong>allebei</strong> de fouten tegelijk te verkleinen: <strong>een grotere steekproef nemen</strong>. Dat is de hele reden waarom grote onderzoeken meer waard zijn."
+    }
+   ]
+  },
+  {
+   "kop": "Je besluit correct opschrijven",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "<strong>H0 niet verwerpen is iets anders dan H0 aanvaarden.</strong> Het kan ook aan een te kleine steekproef liggen in plaats van aan de waarheid van H0. Schrijf dus niet \"er is geen verschil\" maar <strong>\"er is te weinig bewijs voor een verschil\"</strong> — een verschil kan er wel degelijk zijn, je hebt het alleen niet aangetoond."
+    },
+    {
+     "soort": "tekst",
+     "html": "Een goed besluit noemt <strong>het niveau</strong> erbij: \"op het niveau van vijf procent is er voldoende bewijs dat het gemiddelde hoger is\". Zonder dat niveau weet je lezer niet hoe streng je was."
+    },
+    {
+     "soort": "tekst",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Valkuil</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Wat er mis is</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">\"het effect is groot, want p is heel klein\"</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een significant resultaat zegt niet hoe groot het effect is</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een verschil van 0,1 % met p = 0,001 bij honderdduizend deelnemers</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">significant, maar praktisch misschien onbelangrijk</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">twintig verbanden toetsen op alfa = 0,05 en er één significant vinden</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">bij twintig toetsen verwacht je er al één door toeval</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">\"p = 0,07, dus er is geen verschil\"</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">er is te weinig bewijs, dat is iets anders</td></tr></table>"
+    },
+    {
+     "soort": "tekst",
+     "html": "Dat eerste en dat tweede horen bij elkaar: bij een <strong>grote steekproef</strong> wordt een klein verschil al snel significant. Twee onderzoeken die hetzelfde verschil vinden, het ene met n gelijk aan dertig en het andere met n gelijk aan drieduizend, geven bij het <strong>grote onderzoek de kleinste p-waarde</strong>. <strong>Significant en belangrijk zijn twee verschillende dingen.</strong>"
+    }
+   ]
+  }
+ ],
+ "onthoud": [
+  "De p-waarde is de kans op minstens zo'n extreem resultaat als H0 waar is. Niet de kans dat H0 waar is.",
+  "Verwerp H0 als de p-waarde kleiner is dan of gelijk aan alfa. Alfa kies je vooraf, meestal 0,05.",
+  "Type I-fout: H0 verwerpen terwijl ze waar is, met kans alfa. Type II-fout: H0 niet verwerpen terwijl ze fout is.",
+  "Kleiner alfa verkleint de ene fout en vergroot de andere; een grotere steekproef verkleint allebei.",
+  "H0 niet verwerpen is niet hetzelfde als H0 aanvaarden.",
+  "Noem altijd het significantieniveau bij je besluit.",
+  "Significant is niet hetzelfde als belangrijk, zeker niet bij een grote steekproef."
+ ]
+}

@@ -1,0 +1,106 @@
+{
+ "vak": "Statistiek",
+ "titel": "Centrummaten: gemiddelde, mediaan en modus",
+ "onder": "Drie manieren om het midden van een dataset aan te wijzen, en wanneer welke liegt.",
+ "secties": [
+  {
+   "kop": "De drie centrummaten",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Centrummaat</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Hoe je ze vindt</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Wanneer bruikbaar</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">het rekenkundig gemiddelde</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">alle waarden optellen en delen door het aantal</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">bij een redelijk symmetrische verdeling zonder grote uitschieters</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">mediaan</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">rangschikken en de middelste waarde nemen</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">altijd, en zeker bij uitschieters</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">modus</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">de waarde die het vaakst voorkomt</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">ook bij een niet-numerieke variabele</td></tr></table>"
+    },
+    {
+     "soort": "figuur",
+     "html": "<svg viewBox=\"0 0 470 150\" width=\"470\" xmlns=\"http://www.w3.org/2000/svg\"><line x1=\"42\" y1=\"86\" x2=\"428\" y2=\"86\" stroke=\"#e4ded0\" stroke-width=\"2\"/><circle cx=\"56.0\" cy=\"86\" r=\"5.5\" fill=\"#2f5d50\"/><text x=\"56.0\" y=\"108.0\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"10.5\" fill=\"#6b7260\">3</text><circle cx=\"175.33333333333331\" cy=\"86\" r=\"5.5\" fill=\"#2f5d50\"/><text x=\"175.3\" y=\"108.0\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"10.5\" fill=\"#6b7260\">5</text><circle cx=\"175.33333333333331\" cy=\"74\" r=\"5.5\" fill=\"#2f5d50\"/><circle cx=\"354.33333333333337\" cy=\"86\" r=\"5.5\" fill=\"#2f5d50\"/><text x=\"354.3\" y=\"108.0\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"10.5\" fill=\"#6b7260\">8</text><circle cx=\"414.0\" cy=\"86\" r=\"5.5\" fill=\"#2f5d50\"/><text x=\"414.0\" y=\"108.0\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"10.5\" fill=\"#6b7260\">9</text><line x1=\"175.33333333333331\" y1=\"58\" x2=\"175.33333333333331\" y2=\"80\" stroke=\"#c17f2b\" stroke-width=\"1.6\" stroke-dasharray=\"4 3\"/><text x=\"182.3\" y=\"56.0\" text-anchor=\"start\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"10.5\" font-weight=\"600\" fill=\"#c17f2b\">mediaan 5</text><line x1=\"235.0\" y1=\"38\" x2=\"235.0\" y2=\"80\" stroke=\"#5b7f9c\" stroke-width=\"1.6\" stroke-dasharray=\"4 3\"/><text x=\"228.0\" y=\"36.0\" text-anchor=\"end\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"10.5\" font-weight=\"600\" fill=\"#5b7f9c\">gemiddelde 6</text><text x=\"235.0\" y=\"138.0\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"10\" fill=\"#6b7260\">variatiebreedte: 9 − 3 = 6</text></svg>",
+     "onderschrift": "De reeks 3, 5, 5, 8 en 9: gemiddelde zes, mediaan vijf, modus vijf."
+    },
+    {
+     "soort": "tekst",
+     "html": "Bij een <strong>even</strong> aantal gegevens is de mediaan het <strong>gemiddelde van de twee middelste</strong> waarden, niet de kleinste ervan. Bij 10, 12, 14 en 16 is de mediaan dus <strong>dertien</strong>. Bij 4, 6, 8, 10, 12, 14 en 16 is ze <strong>tien</strong>."
+    },
+    {
+     "soort": "kader",
+     "html": "<p><strong>Rangschikken is geen formaliteit.</strong> Wie de mediaan van 8, 3, 9, 5 en 5 zoekt en negen antwoordt, heeft de middelste van de onsorteerde rij genomen. Gerangschikt is het 3, 5, 5, 8, 9 en is de mediaan <strong>vijf</strong>.</p>"
+    },
+    {
+     "soort": "tekst",
+     "html": "Een dataset kan <strong>twee modi</strong> hebben, en ook <strong>geen enkele</strong>: komt geen enkele waarde vaker voor dan de andere, dan is er geen modus. Voor de variabele <strong>woonplaats</strong> kan je enkel de modus berekenen; optellen en delen gaat niet met gemeentenamen. Bij 7, 7, 7 en 7 zijn alle drie de centrummaten <strong>zeven</strong>."
+    }
+   ]
+  },
+  {
+   "kop": "Rekenen met gemiddelden",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Uit een <strong>frequentietabel</strong> bereken je het gemiddelde door elke waarde met haar <strong>frequentie</strong> te vermenigvuldigen en door het totaal te delen. Komen 1, 2 en 3 respectievelijk 2, 3 en 5 keer voor, dan is het gemiddelde (2 + 6 + 15) gedeeld door 10, dus <strong>2,3</strong>."
+    },
+    {
+     "soort": "tekst",
+     "html": "Omgekeerd werkt het ook: heeft een dataset van zes getallen een gemiddelde van tien, dan is de som <strong>zestig</strong>. Bij tien getallen met gemiddelde acht is de som <strong>tachtig</strong>. Haalt een leerling 12 op vier toetsen en daarna een 2, dan is zijn nieuwe gemiddelde (48 + 2) gedeeld door 5, dus <strong>tien</strong>."
+    },
+    {
+     "soort": "kader",
+     "html": "<p><strong>Een gemiddelde van gemiddelden is niet het gemiddelde van de hele groep</strong>, tenzij de groepen even groot zijn. Klas A heeft tien leerlingen met gemiddelde 12, klas B dertig met gemiddelde 16. Samen is dat (120 + 480) gedeeld door 40 = <strong>vijftien</strong>, en niet veertien.</p>"
+    },
+    {
+     "soort": "tekst",
+     "html": "Het gemiddelde <strong>hoeft geen waarde uit de dataset te zijn</strong>. Een gemiddelde gezinsgrootte van 2,3 bestaat niet als gezin, en dat is geen bezwaar."
+    }
+   ]
+  },
+  {
+   "kop": "Uitschieters",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Hier zit het verschil dat je moet kunnen uitleggen. Komt er één <strong>enorme uitschieter</strong> bij, dan <strong>schuift het gemiddelde mee</strong> in haar richting, terwijl de <strong>mediaan nauwelijks verandert</strong>. De mediaan is dus de <strong>minst gevoelige</strong> centrummaat."
+    },
+    {
+     "soort": "figuur",
+     "html": "<svg viewBox=\"0 0 470 150\" width=\"470\" xmlns=\"http://www.w3.org/2000/svg\"><line x1=\"42\" y1=\"86\" x2=\"428\" y2=\"86\" stroke=\"#e4ded0\" stroke-width=\"2\"/><circle cx=\"56.0\" cy=\"86\" r=\"5.5\" fill=\"#2f5d50\"/><text x=\"56.0\" y=\"108.0\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"10.5\" fill=\"#6b7260\">2</text><circle cx=\"63.458333333333336\" cy=\"86\" r=\"5.5\" fill=\"#2f5d50\"/><text x=\"63.5\" y=\"108.0\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"10.5\" fill=\"#6b7260\">3</text><circle cx=\"63.458333333333336\" cy=\"74\" r=\"5.5\" fill=\"#2f5d50\"/><circle cx=\"70.91666666666667\" cy=\"86\" r=\"5.5\" fill=\"#2f5d50\"/><text x=\"70.9\" y=\"108.0\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"10.5\" fill=\"#6b7260\">4</text><circle cx=\"414.0\" cy=\"86\" r=\"5.5\" fill=\"#2f5d50\"/><text x=\"414.0\" y=\"108.0\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"10.5\" fill=\"#6b7260\">50</text><line x1=\"63.458333333333336\" y1=\"58\" x2=\"63.458333333333336\" y2=\"80\" stroke=\"#c17f2b\" stroke-width=\"1.6\" stroke-dasharray=\"4 3\"/><text x=\"70.5\" y=\"56.0\" text-anchor=\"start\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"10.5\" font-weight=\"600\" fill=\"#c17f2b\">mediaan 3</text><line x1=\"133.56666666666666\" y1=\"38\" x2=\"133.56666666666666\" y2=\"80\" stroke=\"#5b7f9c\" stroke-width=\"1.6\" stroke-dasharray=\"4 3\"/><text x=\"140.6\" y=\"36.0\" text-anchor=\"start\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"10.5\" font-weight=\"600\" fill=\"#5b7f9c\">gemiddelde 12,4</text><text x=\"235.0\" y=\"138.0\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"10\" fill=\"#6b7260\">variatiebreedte: 50 − 2 = 48</text></svg>",
+     "onderschrift": "Eén uitschieter trekt het gemiddelde naar 12,4 terwijl de mediaan op 3 blijft staan."
+    },
+    {
+     "soort": "tekst",
+     "html": "Daarom gebruikt men voor <strong>lonen</strong> liever de mediaan: een paar heel hoge lonen trekken het gemiddelde op. Meldt een gemeente een gemiddeld inkomen van 45.000 euro en een mediaan van 32.000 euro, dan hangt de verdeling <strong>scheef naar rechts</strong> door enkele hoge inkomens. Bij zo'n scheve verdeling ligt het <strong>gemiddelde boven de mediaan</strong>; bij een symmetrische verdeling liggen ze <strong>dicht bij elkaar</strong>."
+    },
+    {
+     "soort": "tekst",
+     "html": "De <strong>modus</strong> volgt die regel niet: ze ligt <strong>niet altijd tussen</strong> het gemiddelde en de mediaan. Ze zit waar de piek zit, en dat kan overal zijn."
+    },
+    {
+     "soort": "weetje",
+     "html": "<strong>Uitschieters verwijder je enkel met een reden, en je meldt het altijd.</strong> Een meetfout mag eruit; een waarde die je niet bevalt niet. Een onderzoeker die uitschieters weggooit om een mooier gemiddelde te krijgen, doet aan knutselen en niet aan statistiek."
+    }
+   ]
+  },
+  {
+   "kop": "Wat een centrummaat niet zegt",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "<strong>Een gemiddelde zonder de spreiding erbij zegt eigenlijk weinig.</strong> Twee klassen hebben allebei een gemiddelde van 14: in klas A ligt alles tussen 13 en 15, in klas B tussen 4 en 20. Hetzelfde centrum, een heel andere klas."
+    },
+    {
+     "soort": "tekst",
+     "html": "Verwar de twee ook niet in een zin. \"Het gemiddelde huis kost 350.000 euro, dus de helft van de huizen kost minder\" is fout: <strong>dat zou gelden voor de mediaan</strong>. Gebruik de <strong>modus</strong> om te zeggen wat de <strong>meest gekozen</strong> optie is."
+    },
+    {
+     "soort": "tekst",
+     "html": "Bij een grote dataset bereken je de centrummaten <strong>met ICT</strong>: je tikt de kolom in het rekenblad en vraagt ze in één keer op."
+    }
+   ]
+  }
+ ],
+ "onthoud": [
+  "Gemiddelde = som gedeeld door aantal. Mediaan = de middelste na rangschikken. Modus = de vaakst voorkomende waarde.",
+  "Bij een even aantal is de mediaan het gemiddelde van de twee middelste waarden.",
+  "Rangschik eerst, altijd.",
+  "Een uitschieter trekt het gemiddelde mee en laat de mediaan vrijwel ongemoeid.",
+  "Scheef naar rechts: gemiddelde boven de mediaan. Symmetrisch: ze liggen dicht bij elkaar.",
+  "Een gemiddelde van gemiddelden klopt alleen als de groepen even groot zijn.",
+  "Een centrummaat zonder spreidingsmaat zegt weinig."
+ ]
+}

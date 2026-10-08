@@ -1,0 +1,107 @@
+{
+ "vak": "Statistiek",
+ "titel": "Populatie, steekproef en de steekproevenverdeling",
+ "onder": "Van een deel naar het geheel, en hoe hard je zo'n uitspraak mag maken.",
+ "secties": [
+  {
+   "kop": "Populatie en steekproef",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "De <strong>populatie</strong> is de volledige groep waarover je een uitspraak wil doen. De <strong>steekproef</strong> is het deel van die populatie dat je werkelijk onderzoekt. Je neemt een steekproef omdat de hele populatie onderzoeken <strong>te duur of onmogelijk</strong> is."
+    },
+    {
+     "soort": "tekst",
+     "html": "De <strong>variabele</strong> is het kenmerk dat je bij elk element van de steekproef meet: de lengte, het antwoord ja of nee, de wachttijd. In een stad van honderdduizend inwoners waar je er vierhonderd bevraagt, is de <strong>steekproefgrootte vierhonderd</strong> en niet honderdduizend."
+    },
+    {
+     "soort": "kader",
+     "html": "<p><strong>Houd de symbolen uit elkaar.</strong> Links staat de populatie, rechts de steekproef. Ze zijn in de regel <strong>niet precies gelijk</strong>, en dat is geen fout maar de kern van het vak.</p>"
+    },
+    {
+     "soort": "tekst",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Wat</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Populatie</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Steekproef</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">gemiddelde</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">mu</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">x met een streepje</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">standaardafwijking</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">sigma, de populatiestandaardafwijking</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">s, de steekproefstandaardafwijking</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">proportie</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">p</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">p met een dakje</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">grootte</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">N</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">n</td></tr></table>"
+    },
+    {
+     "soort": "tekst",
+     "html": "Schrijven dat het steekproefgemiddelde mu is, is dus fout: <strong>mu staat voor het populatiegemiddelde</strong>. En dat populatiegemiddelde is meestal net wat je <strong>niet</strong> kent; als je het kende, hoefde je geen steekproef te nemen."
+    },
+    {
+     "soort": "tekst",
+     "html": "De <strong>steekproefproportie</strong> p met een dakje is het aandeel in je steekproef, dus altijd een getal tussen nul en één. Zeggen van de vierhonderd bevraagden er honderd ja, dan is p met een dakje gelijk aan <strong>nul komma vijfentwintig</strong>."
+    }
+   ]
+  },
+  {
+   "kop": "Een goede steekproef",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Een <strong>aselecte</strong> steekproef is er een waarbij <strong>elk lid van de populatie dezelfde kans heeft om gekozen te worden</strong>. Een steekproef die een goede afspiegeling van de populatie is, heet <strong>representatief</strong>."
+    },
+    {
+     "soort": "tekst",
+     "html": "Vraag je alleen aan bezoekers van een sportclub hoeveel ze bewegen, dan is je steekproef <strong>niet representatief</strong> voor de hele bevolking, hoe veel mensen je er ook bevraagt. Daarom is een aselecte steekproef van driehonderd <strong>betrouwbaarder</strong> dan duizend mensen die je zelf uitkiest. <strong>Groot is niet hetzelfde als goed.</strong>"
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Variabiliteit</strong> is het woord van de bijlage voor het verschijnsel dat verschillende steekproeven uit dezelfde populatie verschillende resultaten geven. Een grotere steekproef geeft meestal een betere schatting, maar nooit een zekerheid."
+    }
+   ]
+  },
+  {
+   "kop": "De steekproevenverdeling",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Stel dat je niet één maar <strong>alle mogelijke</strong> steekproeven van grootte n zou nemen en van elk het gemiddelde zou opschrijven. Die gemiddelden vormen samen de <strong>steekproevenverdeling van het steekproefgemiddelde</strong>. Je trekt ze nooit allemaal, maar je weet wel hoe ze eruitziet, en daar heb je alles aan: ze zegt je <strong>hoe ver het gemiddelde van jouw ene steekproef waarschijnlijk van mu af ligt</strong>."
+    },
+    {
+     "soort": "kader",
+     "html": "<p>Het formularium geeft twee benaderingen, elk met haar voorwaarden.</p><p><strong>Het steekproefgemiddelde</strong> is bij benadering N(mu; sigma gedeeld door de wortel uit n), op voorwaarde dat <strong>n minstens dertig</strong> is.</p><p><strong>De steekproefproportie</strong> is bij benadering normaal verdeeld met standaardafwijking <strong>de wortel uit p maal (1 − p) gedeeld door n</strong>, op <strong>drie</strong> voorwaarden: n is minstens dertig, <strong>n · p is minstens tien</strong> én <strong>n · (1 − p) is minstens tien</strong>.</p>"
+    },
+    {
+     "soort": "tekst",
+     "html": "Het gemiddelde van de steekproevenverdeling van het steekproefgemiddelde is <strong>gelijk aan mu</strong>. Je zit dus gemiddeld juist; de vraag is alleen hoe ver je er in één steekproef naast kan zitten."
+    },
+    {
+     "soort": "tekst",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Gegeven</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">sigma gedeeld door de wortel uit n</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Uitkomst</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">sigma = 10 en n = 100</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">10 gedeeld door 10</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">1</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">sigma = 15 en n = 225</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">15 gedeeld door 15</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">1</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">p = 0,5 en n = 100</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">wortel uit (0,5 · 0,5 gedeeld door 100)</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">0,05</td></tr></table>"
+    },
+    {
+     "soort": "weetje",
+     "html": "In de noemer staat de <strong>wortel</strong> uit n. Wordt n vier keer groter, dan wordt de spreiding van het steekproefgemiddelde <strong>gehalveerd</strong>, niet gevierendeeld. Wil je dubbel zo nauwkeurig meten, dan heb je vier keer zoveel mensen nodig."
+    }
+   ]
+  },
+  {
+   "kop": "Eerst de voorwaarden controleren",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Controleer de voorwaarden <strong>vóór</strong> je de normale benadering gebruikt. Zijn ze niet voldaan, dan geldt de benadering niet en is je besluit niets waard."
+    },
+    {
+     "soort": "tekst",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Geval</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">n ≥ 30?</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">n · p ≥ 10?</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">n · (1 − p) ≥ 10?</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Mag het?</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">gemiddelde, n = 45</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">ja</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">—</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">—</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">ja</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">gemiddelde, n = 25</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">nee</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">—</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">—</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">nee</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">proportie, n = 100 en p = 0,2</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">ja</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">20, ja</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">80, ja</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">ja</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">proportie, n = 100 en p = 0,6</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">ja</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">60, ja</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">40, ja</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">ja</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">proportie, n = 40 en p = 0,05</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">ja</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">2, nee</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">38, ja</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">nee</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">proportie, n = 200 en p = 0,02</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">ja</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">4, nee</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">196, ja</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">nee</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">proportie, n = 50 en p = 0,08</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">ja</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">4, nee</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">46, ja</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">nee</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">proportie, n = 500 en p = 0,03</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">ja</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">15, ja</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">485, ja</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">ja</td></tr></table>"
+    },
+    {
+     "soort": "tekst",
+     "html": "De klassieke fout bij een <strong>proportie</strong> is stoppen na de eerste voorwaarde. n is dan wel groot genoeg, maar bij een kleine p kan n · p nog altijd onder de tien blijven, en dan loopt het mis aan die kant."
+    },
+    {
+     "soort": "weetje",
+     "html": "<strong>De grootte van de populatie doet er niet toe.</strong> Een steekproef van duizend is in een land van elf miljoen even nauwkeurig als in een stad van vijftigduizend. In de formules staat alleen n, nergens N."
+    }
+   ]
+  }
+ ],
+ "onthoud": [
+  "Populatie = de hele groep, steekproef = het deel dat je onderzoekt. mu, sigma en p horen bij de populatie; x met een streepje, s en p met een dakje bij de steekproef.",
+  "Aselect betekent dat iedereen dezelfde kans heeft om gekozen te worden; representatief betekent een goede afspiegeling.",
+  "Een kleine aselecte steekproef verslaat een grote die je zelf uitkiest.",
+  "Steekproefgemiddelde: N(mu; sigma / wortel uit n), op voorwaarde dat n minstens dertig is.",
+  "Steekproefproportie: standaardafwijking wortel uit p(1 − p)/n, op drie voorwaarden: n ≥ 30, n · p ≥ 10 en n · (1 − p) ≥ 10.",
+  "Vier keer meer metingen halveert de spreiding. De grootte van de populatie telt niet mee."
+ ]
+}

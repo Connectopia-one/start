@@ -312,10 +312,15 @@ DEEL2 = [
     ),
     dict(
         type="meerkeuze",
-        vraag="Bij X ~ B(8; 0,8) ligt de top van de kansverdeling het dichtst bij welke waarde?",
-        opties=["zes", "vier", "twee", "acht"],
+        vraag="Bij X ~ B(8; 0,8) liggen de hoogste staven van de kansverdeling niet in het midden maar rechts. Hoe komt dat?",
+        opties=[
+            "omdat succes veel waarschijnlijker is dan mislukking",
+            "omdat het aantal experimenten met acht te klein is om een symmetrische verdeling te geven",
+            "omdat de kansen bij een binomiale verdeling van links naar rechts altijd blijven stijgen",
+            "omdat de verwachtingswaarde bij een binomiale verdeling altijd rechts van het midden ligt",
+        ],
         antwoord=0,
-        uitleg="Acht maal nul komma acht is 6,4, dus rond zes. Bij een grote p schuift de top naar rechts.",
+        uitleg="Met p gelijk aan nul komma acht verwacht je 8 · 0,8 = 6,4 successen, en de hoogste staaf staat bij zeven. Enkel bij p gelijk aan nul komma vijf is de verdeling symmetrisch.",
     ),
     dict(
         type="meerkeuze",

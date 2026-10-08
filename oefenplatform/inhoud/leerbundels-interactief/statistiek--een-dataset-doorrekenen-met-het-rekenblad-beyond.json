@@ -1,0 +1,88 @@
+{
+ "vak": "Statistiek",
+ "titel": "Een dataset doorrekenen met het rekenblad",
+ "onder": "Kolommen intikken en er kengetallen, een diagram en een trendlijn uit halen.",
+ "secties": [
+  {
+   "kop": "Hoe je begint",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "In het tabblad <strong>Rekenmachine</strong> staat als derde knop het <strong>Rekenblad</strong>. Je begint altijd hetzelfde: <strong>zet alle waarden onder elkaar in één kolom en selecteer die kolom</strong>. Daarna vraag je de kengetallen in één keer op."
+    },
+    {
+     "soort": "kader",
+     "html": "<p><strong>Let op welke standaardafwijking je neemt.</strong> Het rekenblad geeft er <strong>twee</strong>: de <strong>steekproefstandaardafwijking s</strong> en de <strong>populatiestandaardafwijking sigma</strong>. Ze zijn <strong>niet</strong> gelijk. In dit vak werk je met steekproeven, dus met <strong>s</strong>.</p><p>Vind je bij 3, 5, 5, 6, 8, 9, 11, 11, 14 een standaardafwijking van <strong>3,37</strong> terwijl er <strong>3,57</strong> verwacht werd, dan heb je sigma genomen in plaats van s.</p>"
+    }
+   ]
+  },
+  {
+   "kop": "Kengetallen van een reeks",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Reken deze vijf reeksen een keer helemaal door. Ze zijn zo gekozen dat de twee manieren om kwartielen te berekenen dezelfde uitkomst geven, dus je moet je niet afvragen welke jouw app gebruikt."
+    },
+    {
+     "soort": "tekst",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Reeks</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Gemiddelde</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Mediaan</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Q1</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Q3</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">s</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">3, 5, 5, 6, 8, 9, 11, 11, 14</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">8</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">8</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">5</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">11</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">3,57</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">10, 12, 12, 15, 16, 17, 20, 20, 22</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">16</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">16</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">12</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">20</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">4,15</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">20, 24, 24, 28, 30, 32, 36, 36, 40</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">30</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">30</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">24</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">36</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">6,63</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">4, 6, 6, 7, 9, 10, 12, 12, 14, 16</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">9,6</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">9,5</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">6</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">12</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">3,89</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">2, 4, 4, 6, 7, 8, 10, 10, 13</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">7,11</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">7</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">4</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">10</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">3,52</td></tr></table>"
+    },
+    {
+     "soort": "tekst",
+     "html": "Daaruit volgen de spreidingsmaten vanzelf. Bij de eerste reeks is de <strong>variatiebreedte</strong> 14 − 3 = <strong>elf</strong> en de <strong>interkwartielafstand</strong> 11 − 5 = <strong>zes</strong>. Bij de derde is de interkwartielafstand 36 − 24 = <strong>twaalf</strong>."
+    },
+    {
+     "soort": "figuur",
+     "html": "<svg viewBox=\"0 0 470 176\" width=\"470\" xmlns=\"http://www.w3.org/2000/svg\"><line x1=\"34\" y1=\"136\" x2=\"450\" y2=\"136\" stroke=\"#23291f\" stroke-width=\"1.6\"/><line x1=\"34.0\" y1=\"136\" x2=\"34.0\" y2=\"141\" stroke=\"#6b7260\" stroke-width=\"1.2\"/><text x=\"34.0\" y=\"154.0\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"9.5\" fill=\"#6b7260\">0</text><line x1=\"85.2\" y1=\"136\" x2=\"85.2\" y2=\"141\" stroke=\"#6b7260\" stroke-width=\"1.2\"/><text x=\"85.2\" y=\"154.0\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"9.5\" fill=\"#6b7260\">2</text><line x1=\"136.5\" y1=\"136\" x2=\"136.5\" y2=\"141\" stroke=\"#6b7260\" stroke-width=\"1.2\"/><text x=\"136.5\" y=\"154.0\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"9.5\" fill=\"#6b7260\">4</text><line x1=\"187.8\" y1=\"136\" x2=\"187.8\" y2=\"141\" stroke=\"#6b7260\" stroke-width=\"1.2\"/><text x=\"187.8\" y=\"154.0\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"9.5\" fill=\"#6b7260\">6</text><line x1=\"239.0\" y1=\"136\" x2=\"239.0\" y2=\"141\" stroke=\"#6b7260\" stroke-width=\"1.2\"/><text x=\"239.0\" y=\"154.0\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"9.5\" fill=\"#6b7260\">8</text><line x1=\"290.2\" y1=\"136\" x2=\"290.2\" y2=\"141\" stroke=\"#6b7260\" stroke-width=\"1.2\"/><text x=\"290.2\" y=\"154.0\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"9.5\" fill=\"#6b7260\">10</text><line x1=\"341.5\" y1=\"136\" x2=\"341.5\" y2=\"141\" stroke=\"#6b7260\" stroke-width=\"1.2\"/><text x=\"341.5\" y=\"154.0\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"9.5\" fill=\"#6b7260\">12</text><line x1=\"392.8\" y1=\"136\" x2=\"392.8\" y2=\"141\" stroke=\"#6b7260\" stroke-width=\"1.2\"/><text x=\"392.8\" y=\"154.0\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"9.5\" fill=\"#6b7260\">14</text><line x1=\"444.0\" y1=\"136\" x2=\"444.0\" y2=\"141\" stroke=\"#6b7260\" stroke-width=\"1.2\"/><text x=\"444.0\" y=\"154.0\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"9.5\" fill=\"#6b7260\">16</text><line x1=\"110.9\" y1=\"84\" x2=\"392.8\" y2=\"84\" stroke=\"#6b7260\" stroke-width=\"1.6\"/><line x1=\"110.9\" y1=\"71\" x2=\"110.9\" y2=\"97\" stroke=\"#6b7260\" stroke-width=\"1.8\"/><line x1=\"392.8\" y1=\"71\" x2=\"392.8\" y2=\"97\" stroke=\"#6b7260\" stroke-width=\"1.8\"/><rect x=\"162.1\" y=\"61\" width=\"153.8\" height=\"46\" fill=\"#2f5d50\" fill-opacity=\"0.16\" stroke=\"#2f5d50\" stroke-width=\"1.8\" rx=\"3\"/><line x1=\"239.0\" y1=\"61\" x2=\"239.0\" y2=\"107\" stroke=\"#c17f2b\" stroke-width=\"2.6\"/><text x=\"239.0\" y=\"32.0\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"10.5\" font-weight=\"600\" fill=\"#c17f2b\">mediaan 8</text><line x1=\"239.0\" y1=\"38\" x2=\"239.0\" y2=\"57\" stroke=\"#c17f2b\" stroke-width=\"1.2\" stroke-dasharray=\"4 3\"/><text x=\"162.1\" y=\"56.0\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"10.5\" font-weight=\"600\" fill=\"#2f5d50\">Q1 5</text><text x=\"315.9\" y=\"56.0\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"10.5\" font-weight=\"600\" fill=\"#2f5d50\">Q3 11</text><text x=\"110.9\" y=\"118.0\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"10\" font-weight=\"600\" fill=\"#6b7260\">3</text><text x=\"392.8\" y=\"118.0\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"10\" font-weight=\"600\" fill=\"#6b7260\">14</text></svg>",
+     "onderschrift": "De eerste reeks als boxplot. Het gemiddelde en de mediaan zijn hier allebei acht, dus de reeks ligt mooi symmetrisch."
+    }
+   ]
+  },
+  {
+   "kop": "Werken met frequenties",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Staan je gegevens al geteld, zet dan <strong>twee kolommen</strong> in het rekenblad: de waarden en hun frequenties. Een toets op vijf met frequenties 3, 7, 10, 14 en 6 voor de punten 1 tot 5 telt <strong>veertig</strong> leerlingen."
+    },
+    {
+     "soort": "tekst",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Vraag</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Berekening</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Antwoord</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">het gemiddelde</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">(3 + 14 + 30 + 56 + 30) gedeeld door 40 = 3,325</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">3,3</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">de mediaan</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">de twintigste en de eenentwintigste waarde zijn 3 en 4</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">3,5</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">de modus</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">veertien is de grootste frequentie</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">4</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">hoeveel haalden ten hoogste 3?</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">3 + 7 + 10</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">20</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">relatieve frequentie van 4</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">14 gedeeld door 40</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">35 %</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">relatieve frequentie van 5</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">6 gedeeld door 40</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">15 %</td></tr></table>"
+    }
+   ]
+  },
+  {
+   "kop": "Twee kolommen: r en de trendlijn",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Wil je het verband tussen twee variabelen, dan zet je ze in <strong>twee kolommen</strong>. De werkwijze: <strong>de twee kolommen selecteren, een spreidingsdiagram maken en de lineaire trendlijn vragen</strong>. De app geeft je r en de vergelijking, met haar <strong>richtingscoëfficiënt</strong>. Hoeveel <strong>paren</strong> je hebt maakt niet uit, zolang de twee kolommen even lang zijn, en de vuistregels om r te beoordelen staan in het <strong>formularium</strong>."
+    },
+    {
+     "soort": "tekst",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Gegevens</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">r</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Trendlijn</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Volgens de vuistregels</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">x: 1, 3, 4, 6, 7, 9, 11, 12, 14, 16<br>y: 22, 25, 24, 29, 31, 30, 35, 38, 37, 42</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">0,98</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">y = 1,30x + 20,47</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">sterke positieve samenhang</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">x: 5, 10, 15, 20, 25, 30<br>y: 80, 72, 70, 61, 55, 44</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">−0,99</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">y = −1,37x + 87,67</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">sterke negatieve samenhang</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">x: 2, 3, 5, 6, 8, 9, 11, 13<br>y: 14, 19, 17, 24, 22, 28, 31, 29</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">0,91</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">y = 1,45x + 12,68</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">sterke positieve samenhang</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">x: 1 tot en met 10<br>y: 5, 9, 8, 14, 12, 19, 17, 23, 21, 27</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">0,96</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">y = 2,26x + 3,07</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">sterke positieve samenhang</td></tr></table>"
+    },
+    {
+     "soort": "tekst",
+     "html": "Met zo'n vergelijking kan je <strong>binnen je meetbereik</strong> een waarde voorspellen. Bij y = 1,30x + 20,47 hoort bij x gelijk aan 20 een y van <strong>46,47</strong>. Bij y = −1,37x + 87,67 hoort bij x gelijk aan 10 een y van <strong>73,97</strong>."
+    },
+    {
+     "soort": "kader",
+     "html": "<p><strong>Verwisselen van x en y.</strong> De <strong>correlatiecoëfficiënt blijft dezelfde</strong>: r meet samenhang en die is wederzijds. De <strong>trendlijn verandert wel</strong>: die voorspelt y uit x, en dat is iets anders dan x uit y voorspellen.</p>"
+    },
+    {
+     "soort": "tekst",
+     "html": "Lees je <strong>r gelijk aan 1,2</strong> af, dan heb je een ander getal van het scherm gepikt: r ligt altijd tussen min één en plus één."
+    }
+   ]
+  }
+ ],
+ "onthoud": [
+  "Zet de waarden onder elkaar in één kolom en selecteer die; voor een verband gebruik je twee kolommen.",
+  "Het rekenblad geeft twee standaardafwijkingen. In dit vak neem je de steekproefversie s.",
+  "Variatiebreedte = grootste min kleinste; interkwartielafstand = Q3 min Q1.",
+  "Met frequenties werk je in twee kolommen: waarden en hoe vaak.",
+  "Voor r en de trendlijn: twee kolommen selecteren, spreidingsdiagram maken, lineaire trendlijn vragen.",
+  "x en y verwisselen laat r ongemoeid maar verandert de trendlijn."
+ ]
+}

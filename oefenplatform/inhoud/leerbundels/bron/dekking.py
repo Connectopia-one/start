@@ -136,9 +136,16 @@ def main() -> int:
         # hoofdstukken met dezelfde titel is dat de enige manier om ze uit
         # elkaar te houden.
         if titel not in handmatig:
-            metNiveau = HIER / f"{naam}-{h.get('niveau', 'start')}.html"
-            if metNiveau.exists():
-                naam, pad = metNiveau.stem, metNiveau
+            niveau = h.get("niveau", "start")
+            # Eerst de volledige categorie ("-boost-doorstroom"), daarna de
+            # groep alleen ("-beyond"). Dat tweede is nodig omdat de bundels
+            # van 🌍 Beyond doorstroom enkel "-beyond" in hun naam dragen; de
+            # categorie splitste pas later in twee.
+            for staart in (niveau, niveau.split("-")[0]):
+                metNiveau = HIER / f"{naam}-{staart}.html"
+                if metNiveau.exists():
+                    naam, pad = metNiveau.stem, metNiveau
+                    break
         if not pad.exists():
             print(f"!! {titel}: geen bundel {naam}.html")
             gaten += 1

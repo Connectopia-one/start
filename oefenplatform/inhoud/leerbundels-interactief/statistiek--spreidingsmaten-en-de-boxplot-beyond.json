@@ -1,0 +1,96 @@
+{
+ "vak": "Statistiek",
+ "titel": "Spreidingsmaten en de boxplot",
+ "onder": "Hoe ver de gegevens uit elkaar liggen, en hoe je dat in één tekening zet.",
+ "secties": [
+  {
+   "kop": "Variatiebreedte, kwartielen en interkwartielafstand",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Een <strong>spreidingsmaat</strong> zegt hoe ver de gegevens uit elkaar liggen. Het gemiddelde, de mediaan en de modus zijn er dus geen: die zeggen waar het midden ligt. De <strong>variatiebreedte</strong> is het verschil tussen de grootste en de kleinste waarde. Bij 2, 4, 6, 8, 10, 12, 14 en 16 is dat 16 − 2 = <strong>veertien</strong>. Ze <strong>kan nooit negatief zijn</strong>, en ze is vaak een slechte maat: ze gebruikt <strong>enkel de twee meest extreme waarden</strong>."
+    },
+    {
+     "soort": "tekst",
+     "html": "De <strong>drie kwartielen</strong> verdelen een gerangschikte dataset in vier gelijke delen. <strong>Q2 is de mediaan.</strong> Onder <strong>Q1</strong> ligt een kwart van de gegevens, boven <strong>Q3</strong> ook. Tussen Q1 en Q3 ligt dus <strong>vijftig procent</strong> van de gegevens."
+    },
+    {
+     "soort": "kader",
+     "html": "<p><strong>Zo reken je Q1 en Q3.</strong> Rangschik eerst — anders betekent een plaats in de lijst niets. Q1 is de mediaan van de onderste helft, Q3 die van de bovenste helft. Bij een <strong>oneven</strong> aantal laat je de mediaan <strong>buiten</strong> allebei de helften.</p><p>Bij 1 tot en met 11: de mediaan is <strong>6</strong>, Q1 is de mediaan van 1 tot 5, dus <strong>3</strong>, en Q3 die van 7 tot 11, dus <strong>9</strong>. De interkwartielafstand is 9 − 3 = <strong>6</strong>.</p><p>Bij 2, 4, 6, 8, 10, 12, 14 en 16: de mediaan is (8 + 10) gedeeld door 2, dus <strong>9</strong>; Q1 is de mediaan van 2, 4, 6 en 8, dus <strong>5</strong>, en Q3 die van 10, 12, 14 en 16, dus <strong>13</strong>.</p>"
+    },
+    {
+     "soort": "tekst",
+     "html": "De <strong>interkwartielafstand</strong> is Q3 min Q1. Ze is <strong>minder gevoelig voor uitschieters</strong> dan de variatiebreedte, want ze kijkt enkel naar de middelste helft. Is ze <strong>nul</strong>, dan heeft die hele middelste helft dezelfde waarde."
+    },
+    {
+     "soort": "tekst",
+     "html": "Twee klassen met dezelfde mediaan, de ene met een interkwartielafstand van 2 en de andere van 8: bij de tweede liggen de resultaten <strong>veel verder uit elkaar</strong>."
+    }
+   ]
+  },
+  {
+   "kop": "De standaardafwijking",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "De <strong>standaardafwijking</strong> meet hoeveel de waarden gemiddeld van het gemiddelde afwijken. Ze staat in <strong>dezelfde eenheid als de gegevens</strong>, en de bijlage noteert de steekproefstandaardafwijking met de letter <strong>s</strong>."
+    },
+    {
+     "soort": "tekst",
+     "html": "Ze <strong>kan niet negatief zijn</strong>: meldt iemand min drie, dan zit er een rekenfout in. Is ze <strong>nul</strong>, dan zijn alle waarden gelijk. En twee datasets met hetzelfde gemiddelde hebben <strong>niet</strong> automatisch dezelfde standaardafwijking — dat is net waarom je ze allebei vermeldt."
+    },
+    {
+     "soort": "tekst",
+     "html": "De standaardafwijking is <strong>gevoeliger voor uitschieters</strong> dan de interkwartielafstand, want elke afwijking telt mee, en de grote in het kwadraat. Bij een dataset met enkele extreme uitschieters kies je dus de <strong>interkwartielafstand</strong>: die is robuust."
+    },
+    {
+     "soort": "weetje",
+     "html": "Een dataset met gemiddelde 50 en standaardafwijking 2: een waarde van <strong>70</strong> ligt dan <strong>tien standaardafwijkingen</strong> boven het gemiddelde. Dat is geen grote waarde meer, dat is een uitzonderlijke. Ga ze eerst nakijken voor je ze gebruikt."
+    }
+   ]
+  },
+  {
+   "kop": "De boxplot",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Een <strong>boxplot</strong> zet <strong>vijf getallen</strong> in één tekening: het <strong>minimum, de drie kwartielen en het maximum</strong>. De <strong>doos</strong> loopt van Q1 tot Q3 en is dus de <strong>middelste helft</strong>; de <strong>streep in de doos</strong> is de <strong>mediaan</strong>."
+    },
+    {
+     "soort": "figuur",
+     "html": "<svg viewBox=\"0 0 470 176\" width=\"470\" xmlns=\"http://www.w3.org/2000/svg\"><line x1=\"34\" y1=\"136\" x2=\"450\" y2=\"136\" stroke=\"#23291f\" stroke-width=\"1.6\"/><line x1=\"34.0\" y1=\"136\" x2=\"34.0\" y2=\"141\" stroke=\"#6b7260\" stroke-width=\"1.2\"/><text x=\"34.0\" y=\"154.0\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"9.5\" fill=\"#6b7260\">0</text><line x1=\"79.6\" y1=\"136\" x2=\"79.6\" y2=\"141\" stroke=\"#6b7260\" stroke-width=\"1.2\"/><text x=\"79.6\" y=\"154.0\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"9.5\" fill=\"#6b7260\">2</text><line x1=\"125.1\" y1=\"136\" x2=\"125.1\" y2=\"141\" stroke=\"#6b7260\" stroke-width=\"1.2\"/><text x=\"125.1\" y=\"154.0\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"9.5\" fill=\"#6b7260\">4</text><line x1=\"170.7\" y1=\"136\" x2=\"170.7\" y2=\"141\" stroke=\"#6b7260\" stroke-width=\"1.2\"/><text x=\"170.7\" y=\"154.0\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"9.5\" fill=\"#6b7260\">6</text><line x1=\"216.2\" y1=\"136\" x2=\"216.2\" y2=\"141\" stroke=\"#6b7260\" stroke-width=\"1.2\"/><text x=\"216.2\" y=\"154.0\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"9.5\" fill=\"#6b7260\">8</text><line x1=\"261.8\" y1=\"136\" x2=\"261.8\" y2=\"141\" stroke=\"#6b7260\" stroke-width=\"1.2\"/><text x=\"261.8\" y=\"154.0\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"9.5\" fill=\"#6b7260\">10</text><line x1=\"307.3\" y1=\"136\" x2=\"307.3\" y2=\"141\" stroke=\"#6b7260\" stroke-width=\"1.2\"/><text x=\"307.3\" y=\"154.0\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"9.5\" fill=\"#6b7260\">12</text><line x1=\"352.9\" y1=\"136\" x2=\"352.9\" y2=\"141\" stroke=\"#6b7260\" stroke-width=\"1.2\"/><text x=\"352.9\" y=\"154.0\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"9.5\" fill=\"#6b7260\">14</text><line x1=\"398.4\" y1=\"136\" x2=\"398.4\" y2=\"141\" stroke=\"#6b7260\" stroke-width=\"1.2\"/><text x=\"398.4\" y=\"154.0\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"9.5\" fill=\"#6b7260\">16</text><line x1=\"444.0\" y1=\"136\" x2=\"444.0\" y2=\"141\" stroke=\"#6b7260\" stroke-width=\"1.2\"/><text x=\"444.0\" y=\"154.0\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"9.5\" fill=\"#6b7260\">18</text><line x1=\"79.6\" y1=\"84\" x2=\"398.4\" y2=\"84\" stroke=\"#6b7260\" stroke-width=\"1.6\"/><line x1=\"79.6\" y1=\"71\" x2=\"79.6\" y2=\"97\" stroke=\"#6b7260\" stroke-width=\"1.8\"/><line x1=\"398.4\" y1=\"71\" x2=\"398.4\" y2=\"97\" stroke=\"#6b7260\" stroke-width=\"1.8\"/><rect x=\"147.9\" y=\"61\" width=\"182.2\" height=\"46\" fill=\"#2f5d50\" fill-opacity=\"0.16\" stroke=\"#2f5d50\" stroke-width=\"1.8\" rx=\"3\"/><line x1=\"239.0\" y1=\"61\" x2=\"239.0\" y2=\"107\" stroke=\"#c17f2b\" stroke-width=\"2.6\"/><text x=\"239.0\" y=\"32.0\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"10.5\" font-weight=\"600\" fill=\"#c17f2b\">mediaan 9</text><line x1=\"239.0\" y1=\"38\" x2=\"239.0\" y2=\"57\" stroke=\"#c17f2b\" stroke-width=\"1.2\" stroke-dasharray=\"4 3\"/><text x=\"147.9\" y=\"56.0\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"10.5\" font-weight=\"600\" fill=\"#2f5d50\">Q1 5</text><text x=\"330.1\" y=\"56.0\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"10.5\" font-weight=\"600\" fill=\"#2f5d50\">Q3 13</text><text x=\"79.6\" y=\"118.0\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"10\" font-weight=\"600\" fill=\"#6b7260\">2</text><text x=\"398.4\" y=\"118.0\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"10\" font-weight=\"600\" fill=\"#6b7260\">16</text></svg>",
+     "onderschrift": "De reeks 2 tot 16 met stap twee: minimum 2, Q1 vijf, mediaan negen, Q3 dertien, maximum 16."
+    },
+    {
+     "soort": "tekst",
+     "html": "Staat de streep <strong>niet in het midden</strong> van de doos, dan wijst dat op een <strong>scheve</strong> verdeling. Een <strong>korte linkersnorhaar en een heel lange rechtersnorhaar</strong> betekent scheef naar rechts, met uitgespreide hoge waarden."
+    },
+    {
+     "soort": "kader",
+     "html": "<p><strong>De vuistregel voor uitschieters.</strong> Een waarde die verder dan <strong>anderhalve interkwartielafstand</strong> buiten de doos ligt, duid je als uitschieter aan.</p><p>Bij Q1 = 10 en Q3 = 20 is de interkwartielafstand tien, anderhalf keer tien is vijftien, dus de grenzen liggen bij 10 − 15 = <strong>min vijf</strong> en 20 + 15 = <strong>vijfendertig</strong>.</p>"
+    },
+    {
+     "soort": "tekst",
+     "html": "Uit een boxplot kan je <strong>niet</strong> aflezen hoeveel gegevens er in de dataset zitten. Elk deel bevat per definitie een kwart, maar hoeveel dat er zijn, zegt de tekening niet."
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Twee boxplots naast elkaar</strong> zijn daarom zo handig om groepen te vergelijken: je ziet in één beeld het <strong>centrum, de spreiding en de uitschieters</strong>. Zet ze wel op <strong>dezelfde as</strong>."
+    },
+    {
+     "soort": "tekst",
+     "html": "Bij een grote dataset bereken je de spreidingsmaten <strong>met ICT</strong>, met de rekenapps van de examencommissie."
+    }
+   ]
+  }
+ ],
+ "onthoud": [
+  "Variatiebreedte = grootste min kleinste, en gebruikt dus maar twee waarden.",
+  "Q2 is de mediaan. Tussen Q1 en Q3 ligt de middelste helft; hun verschil is de interkwartielafstand.",
+  "Rangschik eerst, en laat bij een oneven aantal de mediaan buiten de twee helften.",
+  "De standaardafwijking staat in de eenheid van de gegevens, is nooit negatief en is nul als alles gelijk is.",
+  "Bij uitschieters kies je de interkwartielafstand; de standaardafwijking is er gevoeliger voor.",
+  "Een boxplot toont vijf getallen: minimum, Q1, mediaan, Q3 en maximum. Niet hoeveel gegevens er zijn.",
+  "Uitschieter: verder dan anderhalve interkwartielafstand buiten de doos."
+ ]
+}

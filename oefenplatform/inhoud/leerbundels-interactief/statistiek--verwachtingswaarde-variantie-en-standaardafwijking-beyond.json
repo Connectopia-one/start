@@ -1,0 +1,94 @@
+{
+ "vak": "Statistiek",
+ "titel": "Verwachtingswaarde, variantie en standaardafwijking",
+ "onder": "Het gemiddelde dat je op lange termijn verwacht, en hoe ver de uitkomsten daar gemiddeld van afliggen.",
+ "secties": [
+  {
+   "kop": "De verwachtingswaarde",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "De <strong>verwachtingswaarde</strong> E(X) is het gemiddelde dat je op lange termijn verwacht. De bijlage noteert ze met de Griekse letter <strong>mu</strong>."
+    },
+    {
+     "soort": "tekst",
+     "html": "Bij een discrete kansvariabele uit een tabel bereken je ze zo: <strong>vermenigvuldig elke waarde met haar kans en tel alles op</strong>. Het is dus een <strong>gewogen gemiddelde</strong> en geen gewoon gemiddelde: elke waarde telt mee met haar eigen kans in plaats van even zwaar."
+    },
+    {
+     "soort": "kader",
+     "html": "<p>Waarden nul, één en twee met kansen 0,1 / 0,3 / 0,6:</p><p style=\"text-align:center;\">E(X) = 0 · 0,1 + 1 · 0,3 + 2 · 0,6 = <strong>1,5</strong></p><p>Merk op: 1,5 is geen waarde die X kan aannemen. Dat hoeft ook niet — <strong>de verwachtingswaarde moet geen waarde zijn die echt voorkomt</strong>. Een winkel die gemiddeld 2,4 fietsen per dag verkoopt, verkoopt er elke dag een geheel aantal; alleen het gemiddelde is een kommagetal.</p>"
+    },
+    {
+     "soort": "tekst",
+     "html": "Bij een <strong>binomiale</strong> verdeling hoef je niets op te tellen. Het formularium geeft <strong>E(X) = n · p</strong>."
+    },
+    {
+     "soort": "tekst",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Verdeling</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">E(X)</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">In woorden</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">B(20; 0,5)</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">10</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">twintig muntworpen geven gemiddeld tien keer kop</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">B(50; 0,2)</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">10</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"></td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">B(100; 0,3)</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">30</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"></td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">B(400; 0,25)</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">100</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"></td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">B(60; 1/6)</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">10</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">zestig worpen met een dobbelsteen geven gemiddeld tien zessen</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">B(15; 0,8)</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">12</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een schutter die 80 % raakt, scoort bij vijftien penalty's gemiddeld twaalf keer</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">B(20; 0,2)</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">4</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">twintig vragen met vijf opties, alles gegokt</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">B(10; 0,4)</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">4</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">doe je de reeks van tien vaak opnieuw, dan haal je gemiddeld vier successen</td></tr></table>"
+    },
+    {
+     "soort": "tekst",
+     "html": "Omdat E(X) gewoon n maal p is, <strong>verdubbelt de verwachtingswaarde als je het aantal experimenten verdubbelt</strong>. En E(X) <strong>kan negatief zijn</strong>: bij een spel waarin je geld kan verliezen, horen er negatieve waarden bij de kansvariabele."
+    },
+    {
+     "soort": "weetje",
+     "html": "Een loterijlot kost twee euro en de verwachtingswaarde van je winst is 1,20 euro. Dat betekent dat wie heel veel loten koopt, <strong>gemiddeld tachtig cent per lot verliest</strong>. Zo is een loterij ook bedacht."
+    }
+   ]
+  },
+  {
+   "kop": "Variantie en standaardafwijking",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "De <strong>standaardafwijking</strong> meet hoeveel de uitkomsten gemiddeld van de verwachtingswaarde afwijken. De bijlage noteert ze met <strong>sigma</strong>. De <strong>variantie</strong> Var(X) is haar kwadraat; je komt van de variantie naar de standaardafwijking door <strong>de vierkantswortel</strong> te nemen."
+    },
+    {
+     "soort": "tekst",
+     "html": "Daarom is de variantie uitgedrukt in de <strong>eenheid van X in het kwadraat</strong>, en de standaardafwijking in dezelfde eenheid als X zelf. Dat is ook de reden waarom men liever de standaardafwijking gebruikt om een verdeling te beschrijven: vierkante centimeters lengte zeggen niemand iets."
+    },
+    {
+     "soort": "kader",
+     "html": "<p>Voor een binomiale verdeling staat in het formularium:</p><p style=\"text-align:center;\"><strong>Var(X) = n · p · (1 − p)</strong></p><p>Je hoeft dus <strong>niet</strong> eerst de hele kansverdeling op te stellen om de standaardafwijking te kennen. Twee getallen volstaan.</p>"
+    },
+    {
+     "soort": "tekst",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Verdeling</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">E(X) = n · p</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Var(X) = n · p · (1 − p)</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">sigma</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">B(20; 0,5)</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">10</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">20 · 0,5 · 0,5 = 5</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">ongeveer 2,24</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">B(50; 0,2)</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">10</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">50 · 0,2 · 0,8 = 8</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">ongeveer 2,83</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">B(100; 0,3)</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">30</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">100 · 0,3 · 0,7 = 21</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">ongeveer 4,58</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">B(12; 0,5)</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">6</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">12 · 0,5 · 0,5 = 3</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">ongeveer 1,73</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">B(200; 0,05)</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">10</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">200 · 0,05 · 0,95 = 9,5</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">ongeveer 3,08</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">B(80; 0,25)</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">20</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">80 · 0,25 · 0,75 = 15</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">ongeveer 3,87</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">B(60; 1/6)</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">10</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">60 · (1/6) · (5/6) = 8,33</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">ongeveer 2,89</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">B(40; 0,5)</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">20</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">40 · 0,5 · 0,5 = 10</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">ongeveer 3,16</td></tr></table>"
+    },
+    {
+     "soort": "tekst",
+     "html": "Die laatste rij is een bekende valstrik. Wie bij B(40; 0,5) een standaardafwijking van <strong>tien</strong> opschrijft, is <strong>de wortel vergeten</strong>: tien is de variantie, de standaardafwijking is ongeveer 3,16."
+    }
+   ]
+  },
+  {
+   "kop": "Wat de getallen je vertellen",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "De variantie <strong>kan nooit negatief zijn</strong>: ze is opgebouwd uit kwadraten. Een <strong>standaardafwijking van nul</strong> betekent dat de uitkomst altijd dezelfde is, dus dat er eigenlijk niets toevalligs aan is."
+    },
+    {
+     "soort": "tekst",
+     "html": "Twee binomiale verdelingen kunnen dezelfde E(X) hebben en toch heel verschillend zijn. Is E(X) bij allebei tien, maar heeft de ene sigma gelijk aan één en de andere drie, dan <strong>liggen de uitkomsten bij de tweede veel verder uit elkaar</strong>."
+    },
+    {
+     "soort": "tekst",
+     "html": "Bij een vast aantal n is Var(X) het <strong>grootst bij p gelijk aan nul komma vijf</strong>: dan is de uitkomst het minst voorspelbaar. Hoe dichter p bij nul of bij één komt, hoe zekerder je op voorhand weet wat er gaat gebeuren."
+    },
+    {
+     "soort": "weetje",
+     "html": "<strong>Verviervoudig je n, dan verdubbelt de standaardafwijking.</strong> De variantie wordt immers vier keer zo groot, en de wortel van vier is twee. Meer metingen maken de spreiding dus wel groter in absolute zin, maar veel kleiner in verhouding tot n: dat is precies waarom grote steekproeven betrouwbaarder zijn."
+    }
+   ]
+  }
+ ],
+ "onthoud": [
+  "E(X) is het gemiddelde op lange termijn, genoteerd als mu. Uit een tabel: elke waarde maal haar kans, alles opgeteld.",
+  "Bij een binomiale verdeling: E(X) = n · p en Var(X) = n · p · (1 − p).",
+  "De standaardafwijking is de wortel uit de variantie en staat in dezelfde eenheid als X.",
+  "E(X) hoeft geen waarde te zijn die echt kan voorkomen; 2,4 fietsen per dag kan perfect.",
+  "De variantie is nooit negatief en is het grootst bij p = 0,5.",
+  "Verviervoudig je n, dan verdubbelt sigma."
+ ]
+}

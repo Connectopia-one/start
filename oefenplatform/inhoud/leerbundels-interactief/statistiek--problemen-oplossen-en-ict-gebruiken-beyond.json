@@ -1,0 +1,92 @@
+{
+ "vak": "Statistiek",
+ "titel": "Problemen oplossen en ICT gebruiken",
+ "onder": "Hoe je een opgave aanpakt, welke hulpmiddelen je mag gebruiken en hoe het examen eruitziet.",
+ "secties": [
+  {
+   "kop": "Een vraagstuk en een probleem zijn niet hetzelfde",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "De vakfiche maakt een onderscheid dat de moeite waard is. Bij een <strong>vraagstuk</strong> weet je meteen welke werkwijze je moet gebruiken: de opgave zegt het zowat zelf. Bij een <strong>probleem</strong> is dat niet zo. Je moet eerst zelf uitzoeken welke aanpak hier past, en <strong>je kiest zelf welke strategie je gebruikt</strong>. Twee leerlingen mogen dus een ander pad nemen naar hetzelfde juiste antwoord."
+    },
+    {
+     "soort": "tekst",
+     "html": "Een opgave kan ook <strong>met of zonder context</strong> gesteld worden. Een <strong>opgave met context</strong> vertrekt van een concrete situatie uit de wereld rondom ons: een enquête, een productielijn, een steekproef van zeshonderd mensen. Een <strong>opgave zonder context</strong> is abstract en zuiver wiskundig: bereken C(12, 5). Dezelfde leerstof kan je op allebei de manieren gevraagd worden, afhankelijk van het leerdoel."
+    }
+   ]
+  },
+  {
+   "kop": "De vier stappen",
+   "blokken": [
+    {
+     "soort": "figuur",
+     "html": "<svg viewBox=\"0 0 470 76\" width=\"470\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"0.0\" y=\"6\" width=\"98.0\" height=\"62\" rx=\"10\" fill=\"#ffffff\" stroke=\"#2f5d50\" stroke-width=\"1.8\"/><text x=\"49.0\" y=\"29.0\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"11.5\" font-weight=\"600\" fill=\"#234539\">begrijp het</text><text x=\"49.0\" y=\"45.0\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"10\" font-weight=\"400\" fill=\"#6b7260\">probleem</text><path d=\"M103.0 37.0 h12 m0 0 l-6 -5 m6 5 l-6 5\" stroke=\"#2f5d50\" stroke-width=\"2\" fill=\"none\" stroke-linecap=\"round\"/><rect x=\"124.0\" y=\"6\" width=\"98.0\" height=\"62\" rx=\"10\" fill=\"#ffffff\" stroke=\"#2f5d50\" stroke-width=\"1.8\"/><text x=\"173.0\" y=\"29.0\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"11.5\" font-weight=\"600\" fill=\"#234539\">maak een</text><text x=\"173.0\" y=\"45.0\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"10\" font-weight=\"400\" fill=\"#6b7260\">plan</text><path d=\"M227.0 37.0 h12 m0 0 l-6 -5 m6 5 l-6 5\" stroke=\"#2f5d50\" stroke-width=\"2\" fill=\"none\" stroke-linecap=\"round\"/><rect x=\"248.0\" y=\"6\" width=\"98.0\" height=\"62\" rx=\"10\" fill=\"#ffffff\" stroke=\"#2f5d50\" stroke-width=\"1.8\"/><text x=\"297.0\" y=\"29.0\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"11.5\" font-weight=\"600\" fill=\"#234539\">voer het</text><text x=\"297.0\" y=\"45.0\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"10\" font-weight=\"400\" fill=\"#6b7260\">plan uit</text><path d=\"M351.0 37.0 h12 m0 0 l-6 -5 m6 5 l-6 5\" stroke=\"#2f5d50\" stroke-width=\"2\" fill=\"none\" stroke-linecap=\"round\"/><rect x=\"372.0\" y=\"6\" width=\"98.0\" height=\"62\" rx=\"10\" fill=\"#ffffff\" stroke=\"#2f5d50\" stroke-width=\"1.8\"/><text x=\"421.0\" y=\"37.0\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"11.5\" font-weight=\"600\" fill=\"#234539\">reflecteer</text></svg>",
+     "onderschrift": "De vier stappen uit de vakfiche. De laatste wordt het vaakst overgeslagen."
+    },
+    {
+     "soort": "tekst",
+     "html": "In de stap <strong>reflecteren</strong> kijk je of je uitkomst redelijk is en of je werkwijze klopte. Dat is geen beleefdheidsformule maar een echte controle, en in statistiek betrapt ze je bijna altijd. Een <strong>kans ligt tussen nul en één</strong>: krijg je 1,25, dan zit er een fout in je berekening. Een <strong>p-waarde is ook een kans</strong> en kan dus niet negatief zijn; komt er uit een <strong>hypothesetoets</strong> min 0,03, dan zoek je de fout in plaats van hem op te schrijven."
+    },
+    {
+     "soort": "kader",
+     "html": "<p><strong>Mathematiseren</strong> is een concreet probleem omzetten in wiskundetaal en wiskundige symbolen. <strong>Demathematiseren</strong> is het omgekeerde: je wiskundige uitkomst terugvertalen naar de situatie.</p><p>Dat tweede vergeet men het vaakst. Reken je uit dat je steekproef 23,7 mensen groot moet zijn, dan is je antwoord <strong>24</strong>: je rondt naar boven af, want een steekproef bestaat uit hele mensen en 23 zijn er te weinig.</p>"
+    },
+    {
+     "soort": "tekst",
+     "html": "Bij het mathematiseren helpt het om <strong>variabelen in te voeren</strong>. Je kan dan het verband tussen de gegevens opschrijven zonder alle getallen al te kennen, en pas op het einde invullen wat je weet."
+    }
+   ]
+  },
+  {
+   "kop": "Heuristieken: manieren om op gang te komen",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Een <strong>heuristiek</strong> is een oplossingsstrategie: een manier van aanpakken die vaak werkt, zonder garantie. Je kiest er zelf een, en je mag er halverwege een andere bij nemen."
+    },
+    {
+     "soort": "tekst",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Heuristiek</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Wat je doet</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Wanneer handig</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een schets of tabel maken</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">je zet de gegevens in een tekening of in rijen en kolommen</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">als je door de tekst het verband niet ziet</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">alle mogelijkheden opsommen</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">je schrijft de gevallen één voor één op</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">bij een klein telprobleem, of om je formule te controleren</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">patronen en regelmaat ontdekken</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">je rekent enkele kleine gevallen uit en zoekt wat er telkens hetzelfde gaat</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">als de opgave over n gaat en n groot is</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">slim gissen en testen</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">je kiest een redelijke waarde, test ze en past ze aan</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">als je uit een fout gok leert welke richting je verder moet zoeken</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">terugrekenen</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">je vertrekt van het gevraagde eindresultaat naar de gegevens</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">als je weet waar je moet uitkomen</td></tr></table>"
+    },
+    {
+     "soort": "weetje",
+     "html": "Een schets of een tabel maken <strong>telt mee als wiskundig werk</strong>. Het is geen kladwerk dat je achteraf uitgomt: het hoort bij je oplossing en levert punten op."
+    }
+   ]
+  },
+  {
+   "kop": "Het examen zelf",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Wat</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Hoe het zit</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">duur</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">150 minuten</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">waar</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">in het examencentrum in Brussel</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">gewicht</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">telproblemen, kansrekenen en statistiek 60 %, werken met grote datasets 40 %</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">giscorrectie</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">nee, een fout antwoord kost geen punten</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">afsluiten</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">pas vanaf een kwartier na de start</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">je krijgt</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een balpen, kladpapier en een hoofdtelefoon</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">hulpmiddelen</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">de rekenapps van de examencommissie en een online wetenschappelijk rekentoestel</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">eigen rekentoestel</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">nee, dat mag je niet meebrengen</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">samenvatting meebrengen</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">nee, dat geldt als examenfraude</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">sommige vragen</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">noteer je met een digitale pen op een schrijftablet</td></tr></table>"
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>ICT is geen extraatje in dit vak.</strong> Je moet ermee grafische voorstellingen kunnen maken, kengetallen berekenen en een volledig onderzoek kunnen uitvoeren. Oefen er dus thuis mee: op het examen verlies je tijd als je de rekenapps dan pas moet leren bedienen."
+    },
+    {
+     "soort": "kader",
+     "html": "<p>Bij <strong>functioneel gebruik van ICT</strong> moet je je tussenstappen nog altijd uitschrijven. Een antwoord dat enkel uit het resultaat van een rekenapp bestaat, volstaat niet: bij open vragen kijkt de examencommissie ook naar je werkwijze, niet enkel naar je eindantwoord.</p><p>Staat er een <strong>icoon dat zegt dat je de vraag zonder ICT moet oplossen</strong>, dan reken je met de hand, toon je elke tussenstap en werk je exact.</p>"
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Exact werken</strong> betekent dat je breuken, wortels en logaritmen laat staan in plaats van ze te benaderen. Moet je toch met kommagetallen verder, werk dan met zo nauwkeurig mogelijke tussenresultaten: een afgerond tussenresultaat brengt je eindantwoord verder van de waarheid."
+    },
+    {
+     "soort": "weetje",
+     "html": "Bij de vakfiche hoort een <strong>bijlage met begrippen en notaties</strong>. Die staat er omdat handboeken en websites verschillende symbolen gebruiken voor hetzelfde. Op het examen gelden de notaties van die bijlage."
+    }
+   ]
+  }
+ ],
+ "onthoud": [
+  "Vier stappen: begrijp het probleem, maak een plan, voer het plan uit, reflecteer.",
+  "Mathematiseren is de situatie in wiskundetaal zetten, demathematiseren is je uitkomst terugvertalen. 23,7 mensen worden 24 mensen.",
+  "Een kans en een p-waarde liggen altijd tussen nul en één. Ligt je uitkomst erbuiten, dan is er een rekenfout.",
+  "Het examen duurt 150 minuten, zonder giscorrectie, met de rekenapps van de examencommissie en niet met je eigen rekentoestel.",
+  "60 % telproblemen, kansrekenen en statistiek; 40 % werken met grote datasets.",
+  "Ook met ICT schrijf je je tussenstappen uit."
+ ]
+}

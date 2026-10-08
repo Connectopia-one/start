@@ -1,0 +1,101 @@
+{
+ "vak": "Statistiek",
+ "titel": "Een statistisch onderzoek met de rekenapps",
+ "onder": "Van een vraag naar een besluit, met alles van dit vak in de juiste volgorde.",
+ "secties": [
+  {
+   "kop": "De volgorde",
+   "blokken": [
+    {
+     "soort": "figuur",
+     "html": "<svg viewBox=\"0 0 470 76\" width=\"470\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"0.0\" y=\"6\" width=\"98.0\" height=\"62\" rx=\"10\" fill=\"#ffffff\" stroke=\"#2f5d50\" stroke-width=\"1.8\"/><text x=\"49.0\" y=\"29.0\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"11.5\" font-weight=\"600\" fill=\"#234539\">onderzoeks-</text><text x=\"49.0\" y=\"45.0\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"10\" font-weight=\"400\" fill=\"#6b7260\">vraag</text><path d=\"M103.0 37.0 h12 m0 0 l-6 -5 m6 5 l-6 5\" stroke=\"#2f5d50\" stroke-width=\"2\" fill=\"none\" stroke-linecap=\"round\"/><rect x=\"124.0\" y=\"6\" width=\"98.0\" height=\"62\" rx=\"10\" fill=\"#ffffff\" stroke=\"#2f5d50\" stroke-width=\"1.8\"/><text x=\"173.0\" y=\"29.0\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"11.5\" font-weight=\"600\" fill=\"#234539\">data</text><text x=\"173.0\" y=\"45.0\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"10\" font-weight=\"400\" fill=\"#6b7260\">verkennen</text><path d=\"M227.0 37.0 h12 m0 0 l-6 -5 m6 5 l-6 5\" stroke=\"#2f5d50\" stroke-width=\"2\" fill=\"none\" stroke-linecap=\"round\"/><rect x=\"248.0\" y=\"6\" width=\"98.0\" height=\"62\" rx=\"10\" fill=\"#ffffff\" stroke=\"#2f5d50\" stroke-width=\"1.8\"/><text x=\"297.0\" y=\"29.0\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"11.5\" font-weight=\"600\" fill=\"#234539\">toetsen of</text><text x=\"297.0\" y=\"45.0\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"10\" font-weight=\"400\" fill=\"#6b7260\">schatten</text><path d=\"M351.0 37.0 h12 m0 0 l-6 -5 m6 5 l-6 5\" stroke=\"#2f5d50\" stroke-width=\"2\" fill=\"none\" stroke-linecap=\"round\"/><rect x=\"372.0\" y=\"6\" width=\"98.0\" height=\"62\" rx=\"10\" fill=\"#ffffff\" stroke=\"#2f5d50\" stroke-width=\"1.8\"/><text x=\"421.0\" y=\"37.0\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"11.5\" font-weight=\"600\" fill=\"#234539\">besluiten</text></svg>",
+     "onderschrift": "De vier stappen van een statistisch onderzoek. Je begint bij de vraag, niet bij de data."
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Stap één is een duidelijke onderzoeksvraag.</strong> Die moet met gegevens te beantwoorden zijn: \"is de gemiddelde slaapduur van zestienjarigen korter dan acht uur\" kan, \"slapen jongeren genoeg\" niet. En je mag je onderzoeksvraag <strong>niet aanpassen nadat je de resultaten gezien hebt</strong>."
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Stap twee is verkennen</strong>: een <strong>grafische voorstelling</strong> en een paar kengetallen. Krijg je een dataset van vijfduizend rijen, dan begin je daarmee en niet met een toets. <strong>Een grafiek toont de vorm die een getal kan verbergen</strong>, dus teken eerst en reken dan. Wie twintig kengetallen berekent vóór hij zijn vraag stelt, heeft het omgekeerd gedaan: <strong>begin bij je vraag, dan weet je welke twee of drie getallen je nodig hebt</strong>."
+    },
+    {
+     "soort": "tekst",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Wat je wil weten</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Wat je in de verkenning doet</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">hangen twee numerieke variabelen samen?</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een spreidingsdiagram maken en r berekenen</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">verschillen twee groepen?</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">twee boxplots naast elkaar op dezelfde as</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">past de normale verdeling bij deze data?</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een histogram maken en naar de klokvorm kijken</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">zitten er rare waarden in?</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">de uitschieters opzoeken en nagaan of het invoerfouten zijn</td></tr></table>"
+    },
+    {
+     "soort": "tekst",
+     "html": "Wat <strong>niet</strong> bij het verkennen hoort, is de nulhypothese verwerpen op basis van een eerste blik. En zie je een duidelijke <strong>uitschieter</strong>, dan ga je eerst na of het een <strong>invoerfout of een echt bijzonder geval</strong> is. Zitten er <strong>lege cellen</strong> in je dataset, dan is de verantwoorde aanpak: <strong>vermelden hoeveel gegevens ontbreken en zeggen hoe je ermee omgaat</strong>."
+    }
+   ]
+  },
+  {
+   "kop": "Toetsen of schatten",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Pas daarna toets je of schat je. En vóór elke toets stel je dezelfde vraag: <strong>zijn de voorwaarden van het formularium voldaan?</strong> Een hypothesetoets op een dataset begint dus niet bij de app maar bij die vraag. Bij een gemiddelde is dat n minstens dertig, bij een proportie komen n · p en n · (1 − p) erbij."
+    },
+    {
+     "soort": "tekst",
+     "html": "De fiche raadt aan om vooraf de <strong>handleiding</strong> van de rekenapps door te nemen. Het <strong>significantieniveau</strong> is het vooraf gekozen getal waarmee je de p-waarde vergelijkt. Vooraf, niet achteraf."
+    },
+    {
+     "soort": "tekst",
+     "html": "Vind je <strong>r gelijk aan 0,78</strong>, dan is er een sterk positief lineair verband, maar <strong>geen oorzaak aangetoond</strong>. Vind je <strong>r gelijk aan 0,15</strong>, dan is een trendlijn hier <strong>weinig zinvol</strong>: de samenhang is zwak. En vind je een sterk verband in een dataset over gemeenten, dan mag je besluiten dat de twee <strong>in deze gemeenten samenhangen</strong>, en niets over oorzaak."
+    },
+    {
+     "soort": "weetje",
+     "html": "Een onderzoek op <strong>tienduizend rijen</strong> kan nog altijd een vertekend besluit geven. Veel gegevens maken je marge klein, maar ze repareren geen scheve steekproef en geen verkeerde vraag."
+    }
+   ]
+  },
+  {
+   "kop": "Het besluit",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "<strong>Een statistisch onderzoek eindigt niet met de p-waarde of de correlatiecoëfficiënt.</strong> Het eindigt met een antwoord op de vraag waarmee je begon. Schrijf je \"ik verwerp H0 op het niveau van vijf procent\", dan moet er nog bij <strong>wat dat betekent voor je onderzoeksvraag</strong>."
+    },
+    {
+     "soort": "tekst",
+     "html": "Geeft je analyse geen significant resultaat, dan schrijf je: <strong>deze data geven te weinig bewijs voor het vermoeden</strong>. Niet: er is geen verschil."
+    },
+    {
+     "soort": "tekst",
+     "html": "En zet in je besluit <strong>enkel de getallen die je onderzoeksvraag echt beantwoorden</strong>. Heb je een gemiddelde, een standaardafwijking, een p-waarde en een r berekend, dan hoeven die niet alle vier in je slotzin."
+    }
+   ]
+  },
+  {
+   "kop": "Wat het examen van je verwacht",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Wat</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Hoe het zit</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">duur</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">150 minuten</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">gewicht</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">telproblemen, kansrekenen en statistiek 60 %, werken met grote datasets 40 %</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">hulpmiddelen</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">de rekenapps, een online rekentoestel, een spellingcontrole en een woordenboek</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">sommige vragen</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">noteer je op een schrijftablet met een digitale pen</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">icoon zonder ICT</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">dan mag je je rekenapp ook niet voor het rekenwerk gebruiken</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">icoon functioneel ICT-gebruik</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">je gebruikt de app, maar schrijft je tussenstappen nog altijd uit</td></tr></table>"
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Exact werken</strong> betekent een wiskundige uitdrukking <strong>niet benaderen of afronden</strong>. Het gaat dus <strong>niet</strong> over veel decimalen: wie een p-waarde met acht decimalen meldt, werkt niet exacter, alleen omslachtiger. Reken wel met zo nauwkeurig mogelijke <strong>tussenresultaten</strong>, want afrondingsfouten in de tussenstappen werken door in je eindantwoord. Wijkt je eindantwoord af van het model na een tussenstap op twee decimalen, dan was dat de fout."
+    },
+    {
+     "soort": "tekst",
+     "html": "Noteer bij een open vraag <strong>je werkwijze</strong> en niet enkel het antwoord: het <strong>correcte gebruik van begrippen en notaties bepaalt mee je resultaat</strong>. Een antwoord dat enkel uit het resultaat van een rekenapp bestaat, volstaat niet."
+    },
+    {
+     "soort": "weetje",
+     "html": "Een opgave kan ook een <strong>probleem</strong> zijn dat je niet aan één hoofdstuk van de fiche kan koppelen. Dan val je terug op de vier stappen van het eerste thema: begrijpen, plan, uitvoeren, reflecteren. De fiche verwijst ook naar <strong>websites met datasets</strong> om zo'n onderzoek op te oefenen; doe dat een paar keer voor het examen."
+    }
+   ]
+  }
+ ],
+ "onthoud": [
+  "Vier stappen: onderzoeksvraag, data verkennen, toetsen of schatten, besluiten.",
+  "Begin bij je vraag en pas ze achteraf niet aan.",
+  "Verkennen is een grafiek en een paar kengetallen; een grafiek toont wat een getal verbergt.",
+  "Controleer altijd eerst de voorwaarden van het formularium.",
+  "Eindig met een antwoord op je onderzoeksvraag, niet met een p-waarde.",
+  "Geen significant resultaat betekent te weinig bewijs, niet geen verschil.",
+  "Exact werken is niet afronden, niet veel decimalen geven."
+ ]
+}

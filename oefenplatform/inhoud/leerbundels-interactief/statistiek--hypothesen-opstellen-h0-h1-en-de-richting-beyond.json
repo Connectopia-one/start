@@ -1,0 +1,84 @@
+{
+ "vak": "Statistiek",
+ "titel": "Hypothesen opstellen: H0, H1 en de richting",
+ "onder": "Twee beweringen over de populatie, waarvan er maar één op de beklaagdenbank zit.",
+ "secties": [
+  {
+   "kop": "H0 en H1",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Een <strong>hypothesetoets</strong> zet twee beweringen tegenover elkaar. De <strong>nulhypothese H0</strong> is de aanname die geldt zolang de data niet het tegendeel aantonen. De <strong>alternatieve hypothese H1</strong> is de bewering die je met je onderzoek wil aantonen."
+    },
+    {
+     "soort": "tekst",
+     "html": "Waarom die kant op? Omdat je bij een toets <strong>enkel H0 kan verwerpen</strong>. Door je eigen bewering in H1 te zetten, lever je bewijs vóór haar door H0 onderuit te halen. Zet je ze in H0, dan kan je ze hoogstens zelf kapotmaken."
+    },
+    {
+     "soort": "kader",
+     "html": "<p>Allebei de hypothesen gaan over de <strong>populatie</strong>, nooit over je steekproef. Dus over <strong>mu</strong> bij een gemiddelde en over <strong>p</strong> bij een proportie. Schrijf je H0: x met een streepje is gelijk aan twintig, dan heb je een hypothese over je eigen meting opgeschreven, en die ken je al.</p>"
+    },
+    {
+     "soort": "tekst",
+     "html": "In H0 staat <strong>altijd een gelijkheid</strong>, dus het teken <strong>=</strong>. Een ongelijkheid hoort in H1. H0: mu is groter dan honderd kan dus niet. H0 en H1 mogen elkaar ook <strong>niet overlappen</strong>, en samen moeten ze <strong>alle mogelijkheden dekken</strong> met <strong>hetzelfde getal</strong>. H0: mu = 50 met H1: mu &gt; 60 is fout: wat als mu vijfenvijftig is?"
+    }
+   ]
+  },
+  {
+   "kop": "De richting van H1",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Soort toets</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">H1</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Je kijkt naar</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">linkszijdig</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">mu is kleiner dan het getal uit H0</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">de linkerstaart</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">rechtszijdig</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">mu is groter dan het getal uit H0</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">de rechterstaart</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">tweezijdig</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">mu verschilt van het getal uit H0</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">allebei de staarten</td></tr></table>"
+    },
+    {
+     "soort": "tekst",
+     "html": "Een <strong>eenzijdige</strong> toets, ook <strong>enkelzijdig</strong> genoemd, kijkt dus maar naar één kant. Bij een <strong>eenzijdige toets naar rechts</strong> kijk je naar de kans op een resultaat dat <strong>minstens zo groot</strong> is als wat je gevonden hebt."
+    },
+    {
+     "soort": "tekst",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Situatie</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">H0</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">H1</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Soort</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">de controleur vermoedt dat de pakken te licht zijn (claim: 500 g)</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">mu = 500</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">mu &lt; 500</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">linkszijdig</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">de krant vermoedt dat minder dan 60 % slaagt</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">p = 0,60</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">p &lt; 0,60</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">linkszijdig</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">de nieuwe lesmethode moet het gemiddelde boven 70 tillen</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">mu = 70</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">mu &gt; 70</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">rechtszijdig</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">bewoners klagen dat de wachttijd langer is dan 10 minuten</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">mu = 10</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">mu &gt; 10</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">rechtszijdig</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">de arts wil weten of het medicijn een ánder effect heeft</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">mu = de huidige waarde</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">mu verschilt ervan</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">tweezijdig</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">het bedrijf wil weten of de verpakking de verkoop verandert</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">mu = de huidige verkoop</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">mu verschilt ervan</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">tweezijdig</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">de krant toetst of de maatregel werkt</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">de maatregel heeft geen effect</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">hij heeft wel effect</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">hangt af van de vraag</td></tr></table>"
+    },
+    {
+     "soort": "kader",
+     "html": "<p><strong>Drie dingen die niet mogen.</strong></p><p>Je kiest de richting van H1 <strong>vóór</strong> je de steekproefresultaten ziet. Anders kies je achteraf de kant waar je toevallig uitkwam.</p><p>Je stapt <strong>niet</strong> van tweezijdig naar eenzijdig over omdat je tweezijdige toets net niet significant uitkwam.</p><p>Je toetst <strong>niet twee verschillende alternatieve hypothesen tegelijk</strong> met één toets.</p>"
+    },
+    {
+     "soort": "tekst",
+     "html": "Bij een <strong>tweezijdige</strong> toets verdeel je het significantieniveau over de twee staarten. Daardoor is een verschil er <strong>moeilijker</strong> mee aan te tonen dan met een eenzijdige toets; dat is precies waarom de richting vooraf vastligt. En de keuze tussen eenzijdig en tweezijdig volgt uit <strong>je onderzoeksvraag</strong>, niet uit de grootte van je steekproef."
+    }
+   ]
+  },
+  {
+   "kop": "De stappen van een toets",
+   "blokken": [
+    {
+     "soort": "figuur",
+     "html": "<svg viewBox=\"0 0 470 76\" width=\"470\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"0.0\" y=\"6\" width=\"98.0\" height=\"62\" rx=\"10\" fill=\"#ffffff\" stroke=\"#2f5d50\" stroke-width=\"1.8\"/><text x=\"49.0\" y=\"29.0\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"11.5\" font-weight=\"600\" fill=\"#234539\">H0 en H1</text><text x=\"49.0\" y=\"45.0\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"10\" font-weight=\"400\" fill=\"#6b7260\">opstellen</text><path d=\"M103.0 37.0 h12 m0 0 l-6 -5 m6 5 l-6 5\" stroke=\"#2f5d50\" stroke-width=\"2\" fill=\"none\" stroke-linecap=\"round\"/><rect x=\"124.0\" y=\"6\" width=\"98.0\" height=\"62\" rx=\"10\" fill=\"#ffffff\" stroke=\"#2f5d50\" stroke-width=\"1.8\"/><text x=\"173.0\" y=\"29.0\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"11.5\" font-weight=\"600\" fill=\"#234539\">voorwaarden</text><text x=\"173.0\" y=\"45.0\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"10\" font-weight=\"400\" fill=\"#6b7260\">controleren</text><path d=\"M227.0 37.0 h12 m0 0 l-6 -5 m6 5 l-6 5\" stroke=\"#2f5d50\" stroke-width=\"2\" fill=\"none\" stroke-linecap=\"round\"/><rect x=\"248.0\" y=\"6\" width=\"98.0\" height=\"62\" rx=\"10\" fill=\"#ffffff\" stroke=\"#2f5d50\" stroke-width=\"1.8\"/><text x=\"297.0\" y=\"29.0\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"11.5\" font-weight=\"600\" fill=\"#234539\">p-waarde</text><text x=\"297.0\" y=\"45.0\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"10\" font-weight=\"400\" fill=\"#6b7260\">berekenen</text><path d=\"M351.0 37.0 h12 m0 0 l-6 -5 m6 5 l-6 5\" stroke=\"#2f5d50\" stroke-width=\"2\" fill=\"none\" stroke-linecap=\"round\"/><rect x=\"372.0\" y=\"6\" width=\"98.0\" height=\"62\" rx=\"10\" fill=\"#ffffff\" stroke=\"#2f5d50\" stroke-width=\"1.8\"/><text x=\"421.0\" y=\"29.0\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"11.5\" font-weight=\"600\" fill=\"#234539\">besluiten en</text><text x=\"421.0\" y=\"45.0\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"10\" font-weight=\"400\" fill=\"#6b7260\">formuleren</text></svg>",
+     "onderschrift": "De vier stappen. De tweede wordt het vaakst overgeslagen, en dan is de vierde waardeloos."
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Stap één:</strong> je formuleert H0 en H1 in woorden én in symbolen."
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Stap twee:</strong> je controleert of de voorwaarden om de steekproevenverdeling te benaderen voldaan zijn. Bij een gemiddelde is dat n minstens dertig, dus met n gelijk aan vijfenveertig zit je goed. Bij een <strong>proportie</strong> controleer je ook n · p en n · (1 − p); die drie samen heten de <strong>proportievoorwaarde</strong>, met als drempels dertig voor n en tien voor de twee producten. Met n gelijk aan honderd en p gelijk aan nul komma zestig is alles in orde; met n gelijk aan vijftig en p gelijk aan nul komma nul acht is n · p gelijk aan vier en mag je niet verder."
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Stap drie:</strong> je rekent met de verdeling <strong>onder H0</strong>. De steekproevenverdeling van het steekproefgemiddelde heeft dan twee <strong>parameters</strong>: het <strong>gemiddelde uit H0</strong> en standaardafwijking sigma gedeeld door de wortel uit n. Je rekent dus met het getal uit H0 en niet met dat van je steekproef, omdat je wil weten <strong>hoe waarschijnlijk je data zijn in de wereld waar H0 geldt</strong>."
+    }
+   ]
+  }
+ ],
+ "onthoud": [
+  "H0 is de aanname die blijft staan tot het tegendeel blijkt; H1 is wat je wil aantonen.",
+  "Allebei gaan ze over de populatie: over mu of over p, nooit over je steekproefgemiddelde.",
+  "In H0 staat altijd een gelijkheid. H0 en H1 overlappen niet en dekken samen alles, met hetzelfde getal.",
+  "Linkszijdig = kleiner dan, rechtszijdig = groter dan, tweezijdig = verschilt van.",
+  "De richting kies je vóór je de resultaten ziet, en ze volgt uit je onderzoeksvraag.",
+  "Bij een tweezijdige toets verdeel je alfa over twee staarten, dus is een verschil moeilijker aan te tonen.",
+  "Reken altijd met het getal uit H0."
+ ]
+}

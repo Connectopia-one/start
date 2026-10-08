@@ -1,0 +1,114 @@
+{
+ "vak": "Statistiek",
+ "titel": "Spreidingsdiagrammen, trendlijn en correlatie",
+ "onder": "Twee grootheden tegen elkaar uitzetten, en voorzichtig zijn met wat je eruit besluit.",
+ "secties": [
+  {
+   "kop": "Het spreidingsdiagram",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "In een <strong>spreidingsdiagram</strong> zet je voor elk element <strong>één punt</strong> met twee gemeten waarden. Je hebt er dus <strong>twee numerieke variabelen</strong> voor nodig; voor één variabele in groepen gebruik je iets anders. Een ander woord ervoor is <strong>puntenwolk</strong>."
+    },
+    {
+     "soort": "tekst",
+     "html": "Op de <strong>horizontale as</strong> staat de <strong>onafhankelijke</strong> variabele, op de <strong>verticale as</strong> de <strong>afhankelijke</strong>. Onderzoek je of meer studietijd een hoger punt geeft, dan is de studietijd onafhankelijk en het punt op de toets afhankelijk. Zet een leerling de schoolresultaten horizontaal en de studietijd verticaal, dan horen de assen omgewisseld."
+    },
+    {
+     "soort": "figuur",
+     "html": "<svg viewBox=\"0 0 430 250\" width=\"430\" xmlns=\"http://www.w3.org/2000/svg\"><line x1=\"44\" y1=\"14\" x2=\"44\" y2=\"210\" stroke=\"#23291f\" stroke-width=\"1.8\"/><line x1=\"44\" y1=\"210\" x2=\"422\" y2=\"210\" stroke=\"#23291f\" stroke-width=\"1.8\"/><line x1=\"39\" y1=\"210.0\" x2=\"44\" y2=\"210.0\" stroke=\"#6b7260\" stroke-width=\"1.2\"/><text x=\"36.0\" y=\"213.5\" text-anchor=\"end\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"9.5\" fill=\"#6b7260\">6</text><line x1=\"39\" y1=\"182.9\" x2=\"44\" y2=\"182.9\" stroke=\"#6b7260\" stroke-width=\"1.2\"/><text x=\"36.0\" y=\"186.4\" text-anchor=\"end\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"9.5\" fill=\"#6b7260\">8</text><line x1=\"39\" y1=\"155.7\" x2=\"44\" y2=\"155.7\" stroke=\"#6b7260\" stroke-width=\"1.2\"/><text x=\"36.0\" y=\"159.2\" text-anchor=\"end\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"9.5\" fill=\"#6b7260\">10</text><line x1=\"39\" y1=\"128.6\" x2=\"44\" y2=\"128.6\" stroke=\"#6b7260\" stroke-width=\"1.2\"/><text x=\"36.0\" y=\"132.1\" text-anchor=\"end\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"9.5\" fill=\"#6b7260\">12</text><line x1=\"39\" y1=\"101.4\" x2=\"44\" y2=\"101.4\" stroke=\"#6b7260\" stroke-width=\"1.2\"/><text x=\"36.0\" y=\"104.9\" text-anchor=\"end\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"9.5\" fill=\"#6b7260\">14</text><line x1=\"39\" y1=\"74.3\" x2=\"44\" y2=\"74.3\" stroke=\"#6b7260\" stroke-width=\"1.2\"/><text x=\"36.0\" y=\"77.8\" text-anchor=\"end\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"9.5\" fill=\"#6b7260\">16</text><line x1=\"39\" y1=\"47.1\" x2=\"44\" y2=\"47.1\" stroke=\"#6b7260\" stroke-width=\"1.2\"/><text x=\"36.0\" y=\"50.6\" text-anchor=\"end\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"9.5\" fill=\"#6b7260\">18</text><line x1=\"39\" y1=\"20.0\" x2=\"44\" y2=\"20.0\" stroke=\"#6b7260\" stroke-width=\"1.2\"/><text x=\"36.0\" y=\"23.5\" text-anchor=\"end\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"9.5\" fill=\"#6b7260\">20</text><line x1=\"44.0\" y1=\"210\" x2=\"44.0\" y2=\"215\" stroke=\"#6b7260\" stroke-width=\"1.2\"/><text x=\"44.0\" y=\"227.0\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"9.5\" fill=\"#6b7260\">2</text><line x1=\"137.0\" y1=\"210\" x2=\"137.0\" y2=\"215\" stroke=\"#6b7260\" stroke-width=\"1.2\"/><text x=\"137.0\" y=\"227.0\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"9.5\" fill=\"#6b7260\">4</text><line x1=\"230.0\" y1=\"210\" x2=\"230.0\" y2=\"215\" stroke=\"#6b7260\" stroke-width=\"1.2\"/><text x=\"230.0\" y=\"227.0\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"9.5\" fill=\"#6b7260\">6</text><line x1=\"323.0\" y1=\"210\" x2=\"323.0\" y2=\"215\" stroke=\"#6b7260\" stroke-width=\"1.2\"/><text x=\"323.0\" y=\"227.0\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"9.5\" fill=\"#6b7260\">8</text><line x1=\"416.0\" y1=\"210\" x2=\"416.0\" y2=\"215\" stroke=\"#6b7260\" stroke-width=\"1.2\"/><text x=\"416.0\" y=\"227.0\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"9.5\" fill=\"#6b7260\">10</text><line x1=\"44.0\" y1=\"172.9\" x2=\"416.0\" y2=\"57.1\" stroke=\"#c17f2b\" stroke-width=\"2.2\"/><text x=\"412.0\" y=\"48.1\" text-anchor=\"end\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"10\" font-weight=\"600\" fill=\"#c17f2b\">trendlijn</text><circle cx=\"44.0\" cy=\"169.3\" r=\"4.2\" fill=\"#2f5d50\"/><circle cx=\"90.5\" cy=\"169.3\" r=\"4.2\" fill=\"#2f5d50\"/><circle cx=\"137.0\" cy=\"128.6\" r=\"4.2\" fill=\"#2f5d50\"/><circle cx=\"183.5\" cy=\"142.1\" r=\"4.2\" fill=\"#2f5d50\"/><circle cx=\"230.0\" cy=\"101.4\" r=\"4.2\" fill=\"#2f5d50\"/><circle cx=\"276.5\" cy=\"115.0\" r=\"4.2\" fill=\"#2f5d50\"/><circle cx=\"323.0\" cy=\"74.3\" r=\"4.2\" fill=\"#2f5d50\"/><circle cx=\"369.5\" cy=\"87.9\" r=\"4.2\" fill=\"#2f5d50\"/><circle cx=\"416.0\" cy=\"47.1\" r=\"4.2\" fill=\"#2f5d50\"/><text x=\"42.0\" y=\"12.0\" text-anchor=\"start\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"10.5\" font-weight=\"600\" fill=\"#6b7260\">punt op 20</text><text x=\"422.0\" y=\"241.0\" text-anchor=\"end\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"10.5\" font-weight=\"600\" fill=\"#6b7260\">studie-uren</text></svg>",
+     "onderschrift": "Negen leerlingen. De trendlijn is y = 1,07x + 6,6 en r is 0,95: een sterke positieve samenhang."
+    },
+    {
+     "soort": "tekst",
+     "html": "Volgens de fiche maak je zo'n diagram <strong>met ICT</strong>, dus met de rekenapps van de examencommissie. Je tikt de twee kolommen in het rekenblad en vraagt het diagram op."
+    }
+   ]
+  },
+  {
+   "kop": "Welke vorm zie je?",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Vorm van de wolk</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Soort verband</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">rond een rechte van links onder naar rechts boven</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">positief lineair verband</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">rond een rechte van links boven naar rechts onder</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">negatief lineair verband</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">de ene verdubbelt als de andere verdubbelt</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">recht evenredig</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">de ene halveert als de andere verdubbelt</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">omgekeerd evenredig</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een parabool</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">kwadratisch verband</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een omgekeerde U</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">kwadratisch verband met een maximum in het midden</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">geen zichtbaar patroon</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">geen lineair verband — maar misschien wel een ander</td></tr></table>"
+    },
+    {
+     "soort": "tekst",
+     "html": "Een <strong>lineair</strong> verband hoeft <strong>niet door de oorsprong</strong> te gaan; recht evenredig wel. En een spreidingsdiagram kan dus ook een verband tonen dat <strong>niet rechtlijnig</strong> is: meet je bij vijftig auto's de snelheid en de remafstand, dan groeit de remafstand sneller dan de snelheid en zie je een <strong>kwadratisch</strong> verband."
+    },
+    {
+     "soort": "tekst",
+     "html": "Ligt er één punt <strong>heel ver</strong> van de rest, dan gooi je het niet zomaar weg: je onderzoekt of het een <strong>meetfout of een echt bijzonder geval</strong> is."
+    }
+   ]
+  },
+  {
+   "kop": "De trendlijn",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "De <strong>trendlijn</strong> is de lijn die het verloop van de puntenwolk het best weergeeft. Haar voorschrift bepaal je <strong>met ICT</strong>: de rekenapp geeft je de vergelijking."
+    },
+    {
+     "soort": "tekst",
+     "html": "Lees ze zoals elke rechte. Het getal voor de x heet de <strong>richtingscoëfficiënt</strong>. Is de trendlijn <strong>y = 2x + 5</strong>, dan betekent de twee: <strong>per eenheid die x stijgt, stijgt y met twee eenheden</strong>."
+    },
+    {
+     "soort": "kader",
+     "html": "<p><strong>Niet buiten je gegevens voorspellen.</strong> Een trendlijn is getrokken door de punten die je gemeten hebt. Buiten dat bereik weet je niet of ze nog klopt, en dan hoort ze er ook niet te staan. Daarom loopt de trendlijn in de tekening hierboven enkel van twee tot tien uur.</p>"
+    }
+   ]
+  },
+  {
+   "kop": "De correlatiecoëfficiënt r",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "De <strong>correlatiecoëfficiënt r</strong> drukt in één getal uit hoe sterk het <strong>lineaire</strong> verband is. Ze ligt <strong>altijd tussen min één en plus één</strong>. Het teken zegt de richting, de grootte de sterkte."
+    },
+    {
+     "soort": "tekst",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">r</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Samenhang volgens het formularium</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">0</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">geen samenhang</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">tussen 0 en 0,3</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">zwakke positieve samenhang</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">tussen 0,3 en 0,7</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">matige positieve samenhang</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">boven 0,7</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">sterke positieve samenhang</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">tussen 0 en −0,3</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">zwakke negatieve samenhang</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">tussen −0,3 en −0,7</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">matige negatieve samenhang</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">onder −0,7</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">sterke negatieve samenhang</td></tr></table>"
+    },
+    {
+     "soort": "tekst",
+     "html": "Dus r gelijk aan <strong>0,85</strong> is een sterke positieve samenhang, <strong>0,35</strong> een matige, <strong>0,2</strong> een zwakke, en <strong>min 0,5</strong> een matige negatieve. <strong>Min 0,9</strong> betekent een sterk verband waarbij de ene daalt als de andere stijgt. Die vuistregels staan in het <strong>formularium dat je bij het examen krijgt</strong>, dus je hoeft ze niet uit het hoofd te kennen — ze lezen wel."
+    },
+    {
+     "soort": "figuur",
+     "html": "<svg viewBox=\"0 0 430 250\" width=\"430\" xmlns=\"http://www.w3.org/2000/svg\"><line x1=\"44\" y1=\"14\" x2=\"44\" y2=\"210\" stroke=\"#23291f\" stroke-width=\"1.8\"/><line x1=\"44\" y1=\"210\" x2=\"422\" y2=\"210\" stroke=\"#23291f\" stroke-width=\"1.8\"/><line x1=\"39\" y1=\"210.0\" x2=\"44\" y2=\"210.0\" stroke=\"#6b7260\" stroke-width=\"1.2\"/><text x=\"36.0\" y=\"213.5\" text-anchor=\"end\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"9.5\" fill=\"#6b7260\">6</text><line x1=\"39\" y1=\"182.9\" x2=\"44\" y2=\"182.9\" stroke=\"#6b7260\" stroke-width=\"1.2\"/><text x=\"36.0\" y=\"186.4\" text-anchor=\"end\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"9.5\" fill=\"#6b7260\">8</text><line x1=\"39\" y1=\"155.7\" x2=\"44\" y2=\"155.7\" stroke=\"#6b7260\" stroke-width=\"1.2\"/><text x=\"36.0\" y=\"159.2\" text-anchor=\"end\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"9.5\" fill=\"#6b7260\">10</text><line x1=\"39\" y1=\"128.6\" x2=\"44\" y2=\"128.6\" stroke=\"#6b7260\" stroke-width=\"1.2\"/><text x=\"36.0\" y=\"132.1\" text-anchor=\"end\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"9.5\" fill=\"#6b7260\">12</text><line x1=\"39\" y1=\"101.4\" x2=\"44\" y2=\"101.4\" stroke=\"#6b7260\" stroke-width=\"1.2\"/><text x=\"36.0\" y=\"104.9\" text-anchor=\"end\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"9.5\" fill=\"#6b7260\">14</text><line x1=\"39\" y1=\"74.3\" x2=\"44\" y2=\"74.3\" stroke=\"#6b7260\" stroke-width=\"1.2\"/><text x=\"36.0\" y=\"77.8\" text-anchor=\"end\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"9.5\" fill=\"#6b7260\">16</text><line x1=\"39\" y1=\"47.1\" x2=\"44\" y2=\"47.1\" stroke=\"#6b7260\" stroke-width=\"1.2\"/><text x=\"36.0\" y=\"50.6\" text-anchor=\"end\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"9.5\" fill=\"#6b7260\">18</text><line x1=\"39\" y1=\"20.0\" x2=\"44\" y2=\"20.0\" stroke=\"#6b7260\" stroke-width=\"1.2\"/><text x=\"36.0\" y=\"23.5\" text-anchor=\"end\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"9.5\" fill=\"#6b7260\">20</text><line x1=\"44.0\" y1=\"210\" x2=\"44.0\" y2=\"215\" stroke=\"#6b7260\" stroke-width=\"1.2\"/><text x=\"44.0\" y=\"227.0\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"9.5\" fill=\"#6b7260\">2</text><line x1=\"137.0\" y1=\"210\" x2=\"137.0\" y2=\"215\" stroke=\"#6b7260\" stroke-width=\"1.2\"/><text x=\"137.0\" y=\"227.0\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"9.5\" fill=\"#6b7260\">4</text><line x1=\"230.0\" y1=\"210\" x2=\"230.0\" y2=\"215\" stroke=\"#6b7260\" stroke-width=\"1.2\"/><text x=\"230.0\" y=\"227.0\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"9.5\" fill=\"#6b7260\">6</text><line x1=\"323.0\" y1=\"210\" x2=\"323.0\" y2=\"215\" stroke=\"#6b7260\" stroke-width=\"1.2\"/><text x=\"323.0\" y=\"227.0\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"9.5\" fill=\"#6b7260\">8</text><line x1=\"416.0\" y1=\"210\" x2=\"416.0\" y2=\"215\" stroke=\"#6b7260\" stroke-width=\"1.2\"/><text x=\"416.0\" y=\"227.0\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"9.5\" fill=\"#6b7260\">10</text><line x1=\"44.0\" y1=\"144.9\" x2=\"416.0\" y2=\"85.1\" stroke=\"#c17f2b\" stroke-width=\"2.2\"/><text x=\"412.0\" y=\"76.1\" text-anchor=\"end\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"10\" font-weight=\"600\" fill=\"#c17f2b\">trendlijn</text><circle cx=\"44.0\" cy=\"128.6\" r=\"4.2\" fill=\"#2f5d50\"/><circle cx=\"90.5\" cy=\"169.3\" r=\"4.2\" fill=\"#2f5d50\"/><circle cx=\"137.0\" cy=\"101.4\" r=\"4.2\" fill=\"#2f5d50\"/><circle cx=\"183.5\" cy=\"142.1\" r=\"4.2\" fill=\"#2f5d50\"/><circle cx=\"230.0\" cy=\"74.3\" r=\"4.2\" fill=\"#2f5d50\"/><circle cx=\"276.5\" cy=\"155.7\" r=\"4.2\" fill=\"#2f5d50\"/><circle cx=\"323.0\" cy=\"87.9\" r=\"4.2\" fill=\"#2f5d50\"/><circle cx=\"369.5\" cy=\"115.0\" r=\"4.2\" fill=\"#2f5d50\"/><circle cx=\"416.0\" cy=\"60.7\" r=\"4.2\" fill=\"#2f5d50\"/><text x=\"42.0\" y=\"12.0\" text-anchor=\"start\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"10.5\" font-weight=\"600\" fill=\"#6b7260\">punt op 20</text><text x=\"422.0\" y=\"241.0\" text-anchor=\"end\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"10.5\" font-weight=\"600\" fill=\"#6b7260\">studie-uren</text></svg>",
+     "onderschrift": "Dezelfde soort gegevens, maar nu met r gelijk aan 0,55: een matige positieve samenhang. De punten liggen veel losser rond de lijn."
+    },
+    {
+     "soort": "kader",
+     "html": "<p><strong>Teken eerst, reken dan.</strong> Maak altijd eerst een spreidingsdiagram vóór je r berekent: r zegt <strong>enkel iets over een lineair verband</strong>, en je wil de vorm zien.</p><p>Daarom betekent <strong>r gelijk aan nul niet</strong> dat er zeker geen enkel verband is: een mooie omgekeerde U kan r nul geven terwijl het verband glashelder is. En een puntenwolk zonder zichtbaar patroon sluit een ander soort verband niet uit.</p><p>Twee onderzoekers kunnen allebei r gelijk aan 0,8 vinden met heel verschillend uitziende puntenwolken. Hetzelfde getal hoort bij verschillende vormen; <strong>daarom kijk je altijd naar het diagram</strong>.</p>"
+    }
+   ]
+  },
+  {
+   "kop": "Correlatie is geen causaliteit",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "<strong>Correlatie is samenhang, causaliteit is oorzaak en gevolg.</strong> Een sterke correlatie <strong>bewijst niet</strong> dat de ene grootheid de andere veroorzaakt. Dat is de belangrijkste zin van dit thema."
+    },
+    {
+     "soort": "tekst",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Waarneming</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">De echte verklaring</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">in de zomer worden meer ijsjes verkocht én verdrinken meer mensen</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">de warmte verklaart allebei</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">kinderen met grotere voeten lezen beter</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">de leeftijd verklaart allebei</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">wie meer melk drinkt, haalt hogere punten</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">misschien ontbijten die leerlingen simpelweg beter</td></tr></table>"
+    },
+    {
+     "soort": "tekst",
+     "html": "In alle drie de gevallen zit er een <strong>derde grootheid</strong> achter die de twee andere stuurt. \"Drink melk voor betere punten\" is dus een krantenkop en geen besluit."
+    }
+   ]
+  }
+ ],
+ "onthoud": [
+  "Een spreidingsdiagram zet twee numerieke variabelen tegen elkaar: onafhankelijk horizontaal, afhankelijk verticaal.",
+  "De trendlijn geeft het verloop weer; haar richtingsgetal zegt hoeveel y stijgt per eenheid x. Voorspel er niet mee buiten je meetbereik.",
+  "r ligt tussen −1 en 1. Tot 0,3 zwak, tot 0,7 matig, daarboven sterk. De vuistregels staan in het formularium.",
+  "r meet enkel een líneair verband, dus teken eerst het diagram en reken dan.",
+  "r gelijk aan nul betekent geen lineair verband, niet geen enkel verband.",
+  "Correlatie bewijst geen oorzaak: zoek altijd naar een derde grootheid."
+ ]
+}
