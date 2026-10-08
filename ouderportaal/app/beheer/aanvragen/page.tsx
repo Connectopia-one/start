@@ -2,6 +2,7 @@ import { requireBeheerder } from "@/lib/auth";
 import { createAdminClient } from "@/lib/supabase/admin";
 import { Header } from "@/components/Header";
 import { markeerAllesGezien, verwijderAanvraag, zetAfgehandeld } from "./actions";
+import { Kopieer } from "./Kopieer";
 
 /* Aanvragen komen binnen terwijl je kijkt, dus niets bewaren. */
 export const dynamic = "force-dynamic";
@@ -186,6 +187,18 @@ export default async function AanvragenBeheer({
   /* Dubbels zoeken we in de hele lijst: twee aanvragen van dezelfde persoon
      blijven dubbel, ook al staat er een filter aan. */
   const dubbels = zoekDubbels(alles);
+  /* De mailadressen van wat er nu in de lijst staat, elk één keer en in de
+     volgorde waarin ze binnenkwamen. Een vakje met een vraag over mail kan ook
+     iets anders bevatten dan een adres, dus we houden enkel wat op een adres
+     lijkt. */
+  const adressen = Array.from(
+    new Set(
+      aanvragen
+        .map((a) => vindWaarde(a.gegevens, "mail")?.trim())
+        .filter((m): m is string => !!m && /^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(m))
+        .map((m) => m.toLowerCase()),
+    ),
+  );
 
   return (
     <>
@@ -277,6 +290,27 @@ export default async function AanvragenBeheer({
           </p>
         )}
 
+        {/* Eén knop voor alle mailadressen van wat er nu in de lijst staat.
+            Samen met de filter erboven is dat precies wat je nodig hebt om
+            bijvoorbeeld iedereen van het vakantiekamp in één keer te mailen:
+            filter op dat kamp, kopieer, en plak in het bcc-vak. We zetten ze
+            achter puntkomma's, want dat is wat een mailprogramma verwacht, en
+            elk adres staat er maar één keer in. */}
+        {adressen.length > 1 && (
+          <div className="mt-4">
+            <Kopieer
+              waarde={adressen.join("; ")}
+              wat={`de ${adressen.length} mailadressen van deze lijst`}
+              label={`Kopieer de ${adressen.length} mailadressen`}
+              stijl="vol"
+            />
+            <p className="mt-1.5 text-xs text-ink-dim">
+              Van wat er nu in de lijst staat, elk adres één keer. Plak het in
+              het bcc-vak, zodat niemand de adressen van de anderen ziet.
+            </p>
+          </div>
+        )}
+
         {nieuw > 0 && (
           <form action={markeerAllesGezien} className="mt-4">
             <button
@@ -336,12 +370,18 @@ export default async function AanvragenBeheer({
                   </div>
                   <div className="flex flex-wrap gap-2">
                     {mail && (
+                      <Kopieer waarde={mail} wat={`het mailadres ${mail}`} />
+                    )}
+                    {mail && (
                       <a
                         href={`mailto:${mail}`}
                         className="rounded-md bg-forest px-3 py-1.5 text-sm font-medium text-white transition hover:bg-forest-dark"
                       >
                         Mailen
                       </a>
+                    )}
+                    {gsm && (
+                      <Kopieer waarde={gsm} wat={`het nummer ${gsm}`} />
                     )}
                     {gsm && (
                       <a

@@ -14,6 +14,10 @@ Vier regels die Kim zelf gaf en die deze pagina vormgeven:
 3. Eén pagina, niet drie. Kim vroeg op 7 oktober 2026 uitdrukkelijk om alles
    van een ronde op één plakpagina.
 4. Zeg bij een download wat er na het klikken gebeurt.
+5. Elke ronde schrijft naar haar **eigen** bestand (`BESTAND`). Publiceer je
+   twee rondes vanuit dezelfde bestandsnaam, dan overschrijft de tweede de
+   plakpagina van de eerste op hetzelfde adres, met haar vinkjes erbij. Dat is
+   één keer gebeurd op 8 oktober 2026.
 
 Alles van één ronde staat in de drie blokken onderaan: `VAKKEN`, `VRAGEN` en
 `SECTIES`. De rest van het bestand hoeft niet mee te veranderen, en het
@@ -101,53 +105,43 @@ def vraagkaarten(lijst):
 # Vanaf hier staat alles van déze ronde. Enkel dit wijzigt.
 # ════════════════════════════════════════════════════════════
 
-TITEL = "Plakpagina Beyond"
-SLEUTEL = "connectopia-plakpagina-beyond-8-oktober"
+BESTAND = "opladen-statistiek.html"
+TITEL = "Plakpagina statistiek"
+SLEUTEL = "connectopia-plakpagina-statistiek-8-oktober"
 VOET = "Bijgewerkt op 8 oktober 2026"
-INTRO = """<p>De zes vakken van 🌍 Beyond die nog geen bundels hadden, hebben ze nu. Dit is
-      allemaal nieuw: niets van deze pagina heb je eerder gekregen. Er is geen SQL en geen
-      vragenbestand bij, enkel documenten om op te laden.</p>"""
+INTRO = """<p>Eén nieuw vak: <strong>statistiek</strong> van 🌍 Beyond doorstroom, gebouwd op de
+      vakfiche van de examencommissie. Achttien thema's, zesendertig hoofdstukken, 720 vragen.
+      Er zijn nog geen leerbundels en oefenbundels bij; die volgen. Twee stappen hieronder, en
+      de eerste moet je echt eerst doen, want anders is er geen vak om de vragen in te plakken.</p>"""
 
-BEYOND = "🌍 Beyond"
-BEYOND_DF = "🌍 Beyond dubbele finaliteit"
+BEYOND_DO = "🌍 Beyond doorstroom"
 
 # (afvinksleutel, naam, categorie, zipnaam)
-VAKKEN = [
-    ("ak", "Aardrijkskunde", BEYOND, "aardrijkskunde-beyond"),
-    ("en", "Engels", BEYOND, "engels-beyond"),
-    ("fr", "Frans", BEYOND, "frans-beyond"),
-    ("akd", "Aardrijkskunde", BEYOND_DF, "aardrijkskunde-beyond-dubbele-finaliteit"),
-    ("end", "Engels", BEYOND_DF, "engels-beyond-dubbele-finaliteit"),
-    ("frd", "Frans", BEYOND_DF, "frans-beyond-dubbele-finaliteit"),
-]
+VAKKEN = []
 
 # (afvinksleutel, naam, categorie, map, bestandsnaam, waarom)
-VRAGEN = []
-
-SECTIES = [
-    dict(kop="De leerbundels van zes vakken",
-         uitleg="Dit is de leerstof om te lezen, één bundel per thema. Klik op de knop, dan "
-                "komt er een zip in je map Downloads. Pak die uit en sleep de pdf's in "
-                "<span class=\"pad\">Beheer</span>, <span class=\"pad\">Leerstof</span>. "
-                "Staan deel 1 en deel 2 van een hoofdstuk apart in de lijst, laad dan "
-                "dezelfde bundel twee keer op: ze behandelen dezelfde stof.",
-         kaarten=zipkaarten(VAKKEN, "leerbundels", "leerbundels", voor="b-")),
-    dict(kop="De oefenbundels van dezelfde zes vakken",
-         uitleg="Afdrukbare bundels met ándere opgaven dan die op het scherm, met een "
-                "antwoordblad achteraan. Net zo opladen als de leerbundels. Ze staan op een "
-                "witte achtergrond, zodat een thuisprinter geen volvlak moet drukken.",
-         kaarten=zipkaarten(VAKKEN, "oefenbundels", "oefenbundels", voor="o-")),
+VRAGEN = [
+    ("stat", "Statistiek", BEYOND_DO, "beyond", "statistiek",
+     "Nieuw vak, dus er staat nog niets in. Vervangen aanzetten kan geen kwaad."),
 ]
 
-if VRAGEN:
-    SECTIES.append(dict(
-        kop="De vragenbestanden",
-        uitleg="Klik op de knop, ga naar <span class=\"pad\">Beheer</span>, "
-               "<span class=\"pad\">Vakken</span>, open het vak en dan "
-               "<span class=\"pad\">Vragen importeren</span>, en plak met ctrl+V. Zet "
-               "<span class=\"pad\">Bestaande vragen vervangen</span> wél aan, anders staat "
-               "elke vraag een tweede keer in de databank.",
-         kaarten=vraagkaarten(VRAGEN)))
+SECTIES = [
+    dict(kop="Maak eerst het vak zelf",
+         uitleg="Ga naar <span class=\"pad\">Beheer</span>, <span class=\"pad\">Vakken</span>, "
+                "kies de categorie <span class=\"pad\">🌍 Beyond doorstroom</span> en klik op "
+                "<span class=\"pad\">Een vak toevoegen</span>. Noem het <span class=\"pad\">Statistiek</span> "
+                "en zet het vinkje <span class=\"pad\">Rekenmachine (GeoGebra)</span> aan. Dat vinkje "
+                "is geen extraatje: twee van de achttien thema\u2019s zijn niet op te lossen zonder de "
+                "kansrekenmachine of het rekenblad, en die zitten in dat tabblad. Vergeet je het, "
+                "dan kan je het later nog aanzetten met de knop rechts van de vaknaam.",
+         kaarten=[]),
+    dict(kop="Plak de vragen in het nieuwe vak",
+         uitleg="Open het vak dat je net maakte, klik op <span class=\"pad\">Vragen importeren</span> "
+                "en plak met ctrl+V. Zet <span class=\"pad\">Bestaande vragen vervangen</span> aan. "
+                "Het bestand kiest zelf de categorie, dus de zesendertig hoofdstukken komen onder "
+                "🌍 Beyond doorstroom terecht, ook als je ergens anders staat.",
+         kaarten=vraagkaarten(VRAGEN)),
+]
 
 
 def bouw():
@@ -161,7 +155,7 @@ def bouw():
 ''')
     aantal = sum(len(s["kaarten"]) for s in SECTIES)
     hier = pathlib.Path(__file__).parent
-    pagina = hier / "opladen.html"
+    pagina = hier / BESTAND
     pagina.write_text((hier / "sjabloon.html").read_text(encoding="utf-8")
                       .replace("<!--TITEL-->", TITEL)
                       .replace("<!--INTRO-->", INTRO)
