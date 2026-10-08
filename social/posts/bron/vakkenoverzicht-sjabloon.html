@@ -1,0 +1,138 @@
+<!doctype html>
+<html lang="nl">
+<head>
+<meta charset="utf-8">
+<title>Alle vakken op het oefenplatform</title>
+<style>
+@font-face { font-family: "Nunito"; src: url(nunito.woff2) format("woff2"); font-weight: 200 1000; }
+@font-face { font-family: "Caveat"; src: url(caveat.woff2) format("woff2"); font-weight: 700; }
+
+:root {
+  --cream: #fbf6ea;
+  --kaart: #ffffff;
+  --ink: #2a2d26;
+  --ink-dim: #61675a;
+  --border: #e6e0d0;
+  --green: #2f4a22;
+  --green-mid: #5c7a45;
+  --sage-soft: #dfe7d0;
+  --purple: #5e2d91;
+  --purple-soft: #eae0f6;
+  --orange: #d96e25;
+  --orange-soft: #fae5d1;
+  --blue: #3d7cb0;
+  --blue-soft: #dcebf6;
+}
+
+* { box-sizing: border-box; margin: 0; padding: 0; }
+html, body { width: 1080px; height: 1920px; background: var(--cream); }
+body {
+  font-family: "Nunito", "Noto Color Emoji", sans-serif;
+  color: var(--ink);
+  position: relative; overflow: hidden;
+  display: flex; flex-direction: column;
+  padding: 58px 56px 50px;
+}
+
+/* zachte vormen op de achtergrond, zoals op de website */
+.vorm { position: absolute; border-radius: 50%; z-index: 0; }
+
+header { position: relative; z-index: 2; }
+.pil {
+  display: inline-flex; align-self: flex-start;
+  background: var(--green); color: #fff; border-radius: 999px;
+  padding: 10px 26px; font-weight: 900; font-size: 23px;
+  letter-spacing: .1em; text-transform: uppercase;
+}
+.hand { font-family: "Caveat"; font-size: 42px; color: var(--orange); line-height: 1.05; margin-top: 18px; }
+h1 {
+  font-weight: 900; color: var(--green); font-size: 76px; line-height: 1.02;
+  letter-spacing: -.02em; margin-top: 4px;
+}
+h1 span { color: var(--green-mid); }
+.cijfers { display: flex; gap: 14px; margin-top: 22px; }
+.cijfer {
+  flex: 1; background: var(--kaart); border: 1px solid var(--border);
+  border-radius: 18px; padding: 12px 18px;
+}
+.cijfer b { display: block; font-size: 38px; font-weight: 900; color: var(--green); line-height: 1.1; }
+.cijfer span { font-size: 21px; font-weight: 700; color: var(--ink-dim); }
+
+/* twee kolommen naast elkaar, en daaronder één blok over de volle breedte.
+   De kolommen worden in het script gevuld, niet door de browser: een blok mag
+   niet middenin afgebroken worden, en dan laat de browser onderaan een gat. */
+main {
+  flex: 1; position: relative; z-index: 2; margin-top: 28px;
+  display: grid; grid-template-columns: 1fr 1fr; gap: 20px 18px;
+  align-content: start;
+}
+.kolom { display: flex; flex-direction: column; gap: 20px; }
+.breed { grid-column: 1 / -1; }
+
+.blok {
+  background: var(--kaart); border: 1px solid var(--border);
+  border-left: 8px solid var(--green); border-radius: 18px;
+  padding: 13px 20px 15px;
+}
+.blok.paars { border-left-color: var(--purple); }
+.blok.oranje { border-left-color: var(--orange); }
+.blok.blauw { border-left-color: var(--blue); }
+
+.blokkop { display: flex; align-items: baseline; gap: 14px; }
+h2 { font-size: 28px; font-weight: 900; color: var(--green); line-height: 1.1; }
+.hoeveel {
+  margin-left: auto; font-size: 18px; font-weight: 800; color: var(--ink-dim);
+  white-space: nowrap;
+}
+.wie { font-size: 18px; font-weight: 600; color: var(--ink-dim); line-height: 1.3; margin-top: 3px; }
+
+.vakken { display: flex; flex-wrap: wrap; gap: 8px; margin-top: 11px; }
+.vak {
+  background: var(--sage-soft); color: var(--green);
+  border-radius: 999px; padding: 6px 13px;
+  font-size: 20px; font-weight: 800; white-space: nowrap;
+}
+.blok.paars .vak { background: var(--purple-soft); color: var(--purple); }
+.blok.oranje .vak { background: var(--orange-soft); color: var(--orange); }
+.blok.blauw .vak { background: var(--blue-soft); color: var(--blue); }
+
+footer {
+  position: relative; z-index: 2; margin-top: 24px;
+  background: var(--green); color: var(--cream); border-radius: 22px;
+  padding: 20px 30px; display: flex; align-items: center; gap: 22px;
+}
+footer .adres { font-size: 38px; font-weight: 900; line-height: 1.1; }
+footer .bij { font-size: 21px; font-weight: 600; opacity: .9; margin-top: 2px; }
+footer .merk { margin-left: auto; text-align: right; font-size: 20px; font-weight: 700; opacity: .9; line-height: 1.35; }
+</style>
+</head>
+<body>
+
+<div class="vorm" style="width:420px;height:420px;background:#dfe7d0;opacity:.5;top:-150px;right:-130px"></div>
+<div class="vorm" style="width:320px;height:320px;background:#eae0f6;opacity:.45;bottom:-120px;left:-110px"></div>
+
+<header>
+  <span class="pil">Oefenplatform</span>
+  <p class="hand">staat jouw vak erbij?</p>
+  <h1>Alle vakken <span>op een rij</span></h1>
+  <div class="cijfers">
+    <div class="cijfer"><b><!--VAKKEN--></b><span>vakken</span></div>
+    <div class="cijfer"><b><!--HOOFDSTUKKEN--></b><span>hoofdstukken</span></div>
+    <div class="cijfer"><b><!--VRAGEN--></b><span>oefenvragen</span></div>
+  </div>
+</header>
+
+<main>
+<!--BLOKKEN-->
+</main>
+
+<footer>
+  <div>
+    <div class="adres">oefenplatform.connectopia.one</div>
+    <div class="bij">leerstof, oefeningen en bundels om af te drukken</div>
+  </div>
+  <div class="merk">Connectopia vzw<br>info@matmgroep.com</div>
+</footer>
+
+</body>
+</html>
