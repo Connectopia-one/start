@@ -1,0 +1,217 @@
+<!doctype html>
+<html lang="nl">
+<head>
+<meta charset="utf-8">
+<title>Je bent erbij als tester</title>
+<style>
+  @font-face { font-family: "Nunito"; src: url(nunito.woff2) format("woff2"); font-weight: 200 1000; }
+  @font-face { font-family: "Caveat"; src: url(caveat.woff2) format("woff2"); font-weight: 700; }
+  @page { size: 210mm 297mm; margin: 0; }
+  :root {
+    --cream: #fbf6ea; --ink: #2a2d26; --ink-dim: #61675a; --border: #e6e0d0;
+    --green: #2f4a22; --green-mid: #5c7a45; --sage: #8aa173; --sage-soft: #dfe7d0;
+    --purple: #5e2d91; --purple-soft: #eae0f6; --orange: #d96e25; --orange-soft: #fae5d1;
+  }
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  html, body { width: 210mm; height: 297mm; background: var(--cream); }
+  body { font-family: "Nunito", sans-serif; color: var(--ink);
+         -webkit-print-color-adjust: exact; print-color-adjust: exact;
+         position: relative; overflow: hidden; }
+
+  .band { height: 7mm; background: var(--green); }
+
+  .kop { padding: 6mm 14mm 0; display: flex; align-items: flex-start; gap: 6mm; }
+  .kop .tekst { flex: 1; }
+  .kop .hand { font-family: "Caveat"; font-size: 19pt; color: var(--purple); line-height: 1; }
+  .kop h1 { font-weight: 900; color: var(--green); font-size: 24pt; line-height: 1.05;
+            letter-spacing: -.01em; margin-top: 1.5mm; }
+  .kop h1 span { color: var(--green-mid); }
+  .kop p { margin-top: 2.5mm; font-size: 10.6pt; line-height: 1.42; color: var(--ink-dim); font-weight: 600; }
+  .kop img { width: 26mm; height: 26mm; object-fit: contain; }
+
+  .code { margin: 4mm 14mm 0; border-radius: 20px; background: #fff; border: .4mm solid var(--border);
+          padding: 4mm 6mm; display: flex; align-items: center; gap: 6mm; }
+  .code .links { flex: 1; }
+  .code .stap { font-weight: 900; color: var(--green); font-size: 12.5pt; }
+  .code .uitleg { font-size: 9.8pt; line-height: 1.38; color: var(--ink-dim); font-weight: 600; margin-top: 1mm; }
+  .code .uitleg b { color: var(--ink); font-weight: 800; }
+  .code .vak { border-radius: 16px; background: var(--sage-soft); border: .4mm dashed var(--green-mid);
+               padding: 3mm 6mm; text-align: center; min-width: 52mm; }
+  .code .vak .klein { font-size: 8.4pt; font-weight: 800; letter-spacing: .08em; text-transform: uppercase; color: var(--green-mid); }
+  .code .vak .groot { font-family: "Nunito", sans-serif; font-weight: 900; font-size: 15.5pt; letter-spacing: .02em; color: var(--green); line-height: 1.25; margin-top: .6mm; }
+
+  .kaarten { display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 4mm; padding: 4mm 14mm 0; }
+  .kaart { border-radius: 20px; background: #fff; border: .35mm solid var(--border); overflow: hidden; }
+  .kaart .hoed { padding: 2.2mm 4.5mm; display: flex; align-items: center; gap: 2.5mm;
+                 font-weight: 900; font-size: 10.6pt; }
+  .kaart.paars .hoed { background: var(--purple-soft); color: var(--purple); }
+  .kaart.oranje .hoed { background: var(--orange-soft); color: var(--orange); }
+  .kaart.groen .hoed { background: var(--sage-soft); color: var(--green); }
+  .kaart .hoed .bol { width: 7mm; height: 7mm; border-radius: 50%; background: #fff;
+                      display: flex; align-items: center; justify-content: center; font-size: 11pt; }
+  .kaart .inhoud { padding: 2.6mm 4.5mm 3.2mm; font-size: 9.4pt; line-height: 1.4; color: var(--ink-dim); font-weight: 600; }
+  .kaart .inhoud b { color: var(--ink); font-weight: 800; }
+
+  .extra { margin: 4mm 14mm 0; border-radius: 20px; background: #fff; border: .35mm solid var(--border);
+           padding: 3mm 5mm 3.2mm; }
+  .extra p { font-size: 9.4pt; line-height: 1.38; color: var(--ink-dim); font-weight: 600; }
+  .extra p b { color: var(--green); font-weight: 900; }
+  .extra .mens { margin-bottom: 1.8mm; padding-bottom: 1.8mm; border-bottom: .3mm solid var(--border); }
+
+  .vraag { margin: 4mm 14mm 0; border-radius: 20px; background: var(--green); color: #fff; padding: 3.6mm 6mm 4mm; }
+  .vraag .hand { font-family: "Caveat"; font-size: 17pt; color: var(--sage-soft); line-height: 1; }
+  .vraag h2 { font-weight: 900; font-size: 16pt; line-height: 1.1; margin-top: .8mm; }
+  .vraag p { font-size: 9.8pt; line-height: 1.4; margin-top: 2mm; color: #e8efdc; font-weight: 600; }
+  .vraag ul { margin-top: 2.6mm; display: grid; grid-template-columns: 1fr 1fr; gap: 1.3mm 5mm; list-style: none; }
+  .vraag li { font-size: 9.6pt; line-height: 1.32; font-weight: 700; padding-left: 5.5mm; position: relative; }
+  .vraag li::before { content: "→"; position: absolute; left: 0; color: var(--sage-soft); font-weight: 900; }
+  .vraag .slot { margin-top: 3mm; font-size: 9.8pt; font-weight: 800; background: rgba(255,255,255,.12);
+                 border-radius: 14px; padding: 2.2mm 4mm; line-height: 1.38; }
+
+  .tijd { display: grid; grid-template-columns: 1fr 1fr; gap: 4mm; padding: 3.4mm 14mm 0; }
+  .tijd > div { border-radius: 20px; border: .35mm solid var(--border); background: #fff; padding: 3.2mm 5mm 3.4mm; }
+  .tijd .wanneer { font-family: "Caveat"; font-size: 17pt; color: var(--orange); line-height: 1; }
+  .tijd .wat { font-size: 9.5pt; line-height: 1.38; color: var(--ink-dim); font-weight: 600; margin-top: .8mm; }
+  .tijd .wat b { color: var(--ink); font-weight: 800; }
+
+  .delen { margin: 3.4mm 14mm 0; border-radius: 20px; background: var(--orange-soft);
+           border: .35mm solid #f0cfae; padding: 2.8mm 5mm 3mm; }
+  .delen p { font-size: 9.5pt; line-height: 1.38; color: #6b4a2c; font-weight: 600; }
+  .delen p b { color: var(--orange); font-weight: 900; }
+
+  .voet { position: absolute; left: 0; right: 0; bottom: 0; padding: 4mm 14mm 5mm;
+          border-top: .35mm solid var(--border); background: var(--cream); }
+  .voet .rij { display: flex; align-items: center; justify-content: space-between; gap: 6mm; }
+  .voet .naam { font-weight: 900; color: var(--green); font-size: 12pt; }
+  .voet .naam small { display: block; font-weight: 700; color: var(--ink-dim); font-size: 9.2pt; }
+  .voet .contact { text-align: right; font-size: 9.6pt; font-weight: 700; color: var(--ink-dim); line-height: 1.45; }
+  .voet .contact b { color: var(--green); font-weight: 900; }
+
+  .blad { position: absolute; z-index: 0; opacity: .5; }
+
+
+  /* Deze twee brieven hebben een brede codebalk in plaats van het kadertje. */
+  .codebalk { margin: 4mm 14mm 0; border-radius: 20px; padding: 4mm 6mm;
+              display: flex; align-items: center; gap: 6mm; }
+  .codebalk.groen { background: var(--sage-soft); border: .4mm solid var(--green-mid); }
+  .codebalk.oranje { background: var(--orange-soft); border: .4mm solid #e0a470; }
+  .codebalk .links { flex: 1; }
+  .codebalk .stap { font-weight: 900; color: var(--green); font-size: 12.5pt; }
+  .codebalk.oranje .stap { color: var(--orange); }
+  .codebalk .uitleg { font-size: 9.8pt; line-height: 1.38; color: var(--ink-dim); font-weight: 600; margin-top: 1mm; }
+  .codebalk .uitleg b { color: var(--ink); font-weight: 800; }
+  .codebalk .vak { border-radius: 16px; background: #fff; border: .4mm dashed var(--green-mid);
+                   padding: 3mm 6mm; text-align: center; min-width: 52mm; }
+  .codebalk.oranje .vak { border-color: var(--orange); }
+  .codebalk .vak .klein { font-size: 8.4pt; font-weight: 800; letter-spacing: .08em;
+                          text-transform: uppercase; color: var(--green-mid); }
+  .codebalk.oranje .vak .klein { color: var(--orange); }
+  .codebalk .vak .groot { font-weight: 900; font-size: 15.5pt; letter-spacing: .02em;
+                          color: var(--green); line-height: 1.25; margin-top: .6mm; }
+  .codebalk.oranje .vak .groot { color: var(--orange); }
+  /* De klok: tot wanneer het open staat. */
+  .klok { margin: 4mm 14mm 0; border-radius: 20px; background: var(--green); color: #fff;
+          padding: 3.4mm 6mm 3.8mm; display: flex; align-items: center; gap: 6mm; }
+  .klok .groot { font-weight: 900; font-size: 15pt; line-height: 1.15; }
+  .klok .bij { font-size: 9.6pt; line-height: 1.4; color: #e8efdc; font-weight: 600; margin-top: .8mm; }
+  .klok .uur { font-family: "Caveat"; font-size: 26pt; color: var(--sage-soft); line-height: 1;
+               text-align: center; white-space: nowrap; }
+
+  /* Dit blad zit vol: de tussenruimtes een haartje krapper. */
+  .codebalk, .extra, .vraag { margin-top: 3mm; }
+  .kaarten { padding-top: 3mm; }
+  .tijd { padding-top: 2mm; }
+  .delen { margin-top: 2.6mm; }
+</style>
+</head>
+<body>
+  <div class="band"></div>
+
+  <svg class="blad" style="right:-8mm; top:34mm; width:40mm" viewBox="0 0 100 100">
+    <path d="M10 90 C 10 40, 50 10, 90 10 C 90 50, 55 90, 10 90 Z" fill="#dfe7d0"/>
+  </svg>
+
+  <div class="kop">
+    <div class="tekst">
+      <div class="hand">Je bent erbij!</div>
+      <h1>Jij test een maand<br>ons <span>oefenplatform</span></h1>
+      <p>Er kwamen veel meer aanmeldingen dan er plaatsen waren. Jij bent één van de tien die we gekozen hebben: <b>tot en met zondag 8 november</b> staat alles voor je open.</p>
+    </div>
+    <img src="logo-kim-transparant.png" alt="Connectopia">
+  </div>
+
+  <div class="codebalk groen">
+    <div class="links">
+      <div class="stap">Zo raak je binnen</div>
+      <div class="uitleg">Surf naar <b>oefenplatform.connectopia.one</b>, maak één account aan en vul bij het registreren de code hiernaast in. Daarna maak je <b>per kind een eigen profiel</b>, met eigen voortgang en sterren; één gezin is één licentie. Heb je al een account, vul de code dan in bij Toegang vrijgeven.</div>
+    </div>
+    <div class="vak">
+      <div class="klein">Jouw toegangscode</div>
+      <div class="groot">TOPTESTER2026</div>
+    </div>
+  </div>
+
+  <div class="kaarten">
+    <div class="kaart groen">
+      <div class="hoed"><span class="bol">🌿</span> Rustig met opzet</div>
+      <div class="inhoud">Weinig kleur, geen geluiden, geen drukke prenten. <b>Veel kinderen raken van zo'n scherm sneller overprikkeld dan van de leerstof.</b></div>
+    </div>
+    <div class="kaart paars">
+      <div class="hoed"><span class="bol">💡</span> Uitleg meteen</div>
+      <div class="inhoud">Juist of fout, je leest <b>direct waarom</b>. Fout zijn is hier geen straf maar het moment waarop je iets leert.</div>
+    </div>
+    <div class="kaart oranje">
+      <div class="hoed"><span class="bol">🔨</span> Volop in de maak</div>
+      <div class="inhoud">Achter de schermen bouwen we <b>elke week bij</b>. De volgende en moeilijkere hoofdstukken komen er snel aan.</div>
+    </div>
+  </div>
+
+  <div class="extra">
+    <p class="mens"><b>Geen AI in de oefeningen.</b> Elke vraag, elk antwoord en elke uitleg is door mensen geschreven en nagelezen.</p>
+    <p><b>Kijk zeker ook eens naar</b> 🔭 de uitdagingshoek, met 320 vragen naast de leerstof &middot; ☀️ de vraag van de dag &middot; ⭐ de verzamelbadges &middot; 📌 het weetjesprikbord, waar je zelf een weetje mag insturen.</p>
+  </div>
+
+  <div class="vraag">
+    <div class="hand">Dit is het belangrijkste stuk</div>
+    <h2>We hebben jouw eerlijke mening nodig</h2>
+    <ul>
+      <li>Wat was te moeilijk, en waar haakte je af?</li>
+      <li>Wat was te makkelijk, of gewoon saai?</li>
+      <li>Wat mis je? Welk vak of welk onderwerp?</li>
+      <li>Wat was verwarrend of onduidelijk?</li>
+      <li>Werkte er iets niet op de computer of de gsm?</li>
+      <li>Wat zou je zelf anders doen?</li>
+    </ul>
+    <div class="slot">“Het is leuk” helpt ons niet vooruit, eerlijk mag ook oncomfortabel zijn. Onderaan elk hoofdstuk staat een meldknop, dat is de snelste weg. Mailen op info@matmgroep.com of bellen op 0468 35 74 96 mag ook.</div>
+  </div>
+
+  <div class="tijd">
+    <div>
+      <div class="wanneer">Tot en met 8 november</div>
+      <div class="wat">Alles open: <b>alle niveaus, alle vakken en de leerbundels</b>, zonder iets te betalen en zonder opzeg.</div>
+    </div>
+    <div>
+      <div class="wanneer">Daarna</div>
+      <div class="wat">Je vult de korte evaluatie in, en je krijgt <b>een gratis jaarlicentie</b>: een heel jaar toegang tot alles.</div>
+    </div>
+  </div>
+
+  <div class="delen">
+    <p><b>Hoe kan jij ons nu al helpen?</b> Om verder te bouwen moeten we vooral bekender worden, dus
+    delen helpt ons enorm. Zolang we bouwen betaalt een gezin <b>20 euro voor heel het schooljaar</b>
+    in plaats van 50 euro.</p>
+  </div>
+
+  <div class="voet">
+    <div class="rij">
+      <div class="naam">Connectopia vzw
+        <small>Ruimte voor nieuwsgierigheid, talent en uitdaging</small>
+      </div>
+      <div class="contact">
+        <b>info@matmgroep.com</b> &middot; 0468 35 74 96<br>
+        oefenplatform.connectopia.one
+      </div>
+    </div>
+  </div>
+</body>
+</html>
