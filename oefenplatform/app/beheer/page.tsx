@@ -1,11 +1,18 @@
 import Link from "next/link";
 import { requireBeheerder } from "@/lib/auth";
 import { createClient } from "@/lib/supabase/server";
+import { huidigSchooljaar } from "@/lib/schooljaar";
 import { Header } from "@/components/Header";
 
 export default async function BeheerPage() {
   const session = await requireBeheerder();
   const supabase = await createClient();
+
+  /* Wie enkel de gratis hoofdstukken ziet: een account zonder code van jou en
+     zonder betaling voor dit schooljaar. Beheerders tellen niet mee, die zien
+     sowieso alles. Zo weet je in één oogopslag hoeveel mensen al binnen zijn
+     maar nog niet betaalden. */
+  const schooljaar = huidigSchooljaar();
 
   const [
     { count: vakkenCount },
@@ -13,12 +20,19 @@ export default async function BeheerPage() {
     { count: plusklasCount },
     { count: meldingenCount },
     { count: weetjesCount },
+    { count: enkelGratisCount },
   ] = await Promise.all([
     supabase.from("vakken").select("id", { count: "exact", head: true }),
     supabase.from("betalingen").select("id", { count: "exact", head: true }).eq("status", "betaald"),
     supabase.from("profiles").select("id", { count: "exact", head: true }).eq("is_plusklas", true),
     supabase.from("meldingen").select("id", { count: "exact", head: true }).eq("afgehandeld", false),
     supabase.from("weetjes").select("id", { count: "exact", head: true }).eq("goedgekeurd", false),
+    supabase
+      .from("profiles")
+      .select("id", { count: "exact", head: true })
+      .neq("role", "beheerder")
+      .eq("is_plusklas", false)
+      .or(`toegang_schooljaar.is.null,toegang_schooljaar.neq.${schooljaar}`),
   ]);
 
   return (
@@ -29,7 +43,10 @@ export default async function BeheerPage() {
         <p className="mt-1 text-sm text-ink-dim">
           {vakkenCount ?? 0} vak{(vakkenCount ?? 0) === 1 ? "" : "ken"} &middot; {betaaldCount ?? 0}{" "}
           betaalde toegang{(betaaldCount ?? 0) === 1 ? "" : "en"} &middot; {plusklasCount ?? 0} plusklas-account
-          {(plusklasCount ?? 0) === 1 ? "" : "s"}
+          {(plusklasCount ?? 0) === 1 ? "" : "s"} &middot;{" "}
+          <Link href="/beheer/gezinnen?toon=open" className="underline hover:text-ink">
+            {enkelGratisCount ?? 0} enkel de gratis hoofdstukken
+          </Link>
         </p>
 
         <div className="mt-8 grid gap-8 sm:grid-cols-2">

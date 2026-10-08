@@ -37,3 +37,48 @@ export async function verwijderCode(formData: FormData) {
   revalidatePath("/beheer/codes");
   redirect("/beheer/codes");
 }
+
+/**
+ * Zet in één keer de gratis toegang uit van iedereen die met deze code
+ * binnenkwam. Bedoeld voor het einde van een testperiode: anders is dat
+ * zestien keer op dezelfde knop klikken bij Gezinnen.
+ *
+ * Dit raakt enkel de gratis toegang die jij gaf. Wie voor dit schooljaar
+ * betaald heeft, houdt zijn toegang, want die hangt aan toegang_schooljaar en
+ * niet aan is_plusklas. En niets van wat een gezin opbouwde gaat weg: de
+ * kinderen, hun voortgang en hun stickers blijven staan.
+ */
+export async function zetGroepToegangUit(formData: FormData) {
+  await requireBeheerder();
+  const code = String(formData.get("code") || "");
+  if (!code) redirect("/beheer/codes");
+
+  const admin = createAdminClient();
+  const { data, error } = await admin
+    .from("profiles")
+    .update({ is_plusklas: false })
+    .eq("plusklas_code", code)
+    .eq("is_plusklas", true)
+    .select("id");
+
+  if (error) {
+    redirect(
+      "/beheer/codes?fout=" +
+        encodeURIComponent(`De toegang uitzetten lukte niet: ${error.message}`),
+    );
+  }
+
+  const aantal = data?.length ?? 0;
+  revalidatePath("/beheer/codes");
+  revalidatePath("/beheer/gezinnen");
+  redirect(
+    "/beheer/codes?melding=" +
+      encodeURIComponent(
+        aantal === 0
+          ? `Niemand met de code ${code} had nog gratis toegang.`
+          : aantal === 1
+            ? `De gratis toegang van 1 account met de code ${code} staat uit.`
+            : `De gratis toegang van ${aantal} accounts met de code ${code} staat uit.`,
+      ),
+  );
+}

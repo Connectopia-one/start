@@ -1,22 +1,37 @@
 import Link from "next/link";
 import { requireBeheerder } from "@/lib/auth";
 import { createClient } from "@/lib/supabase/server";
+import { createAdminClient } from "@/lib/supabase/admin";
 import { Header } from "@/components/Header";
-import { maakCode, wisselActief, verwijderCode } from "./actions";
+import { maakCode, wisselActief, verwijderCode, zetGroepToegangUit } from "./actions";
 
 export default async function BeheerCodesPage({
   searchParams,
 }: {
-  searchParams: Promise<{ fout?: string }>;
+  searchParams: Promise<{ fout?: string; melding?: string }>;
 }) {
   const session = await requireBeheerder();
-  const { fout } = await searchParams;
+  const { fout, melding } = await searchParams;
   const supabase = await createClient();
 
   const { data: codes } = await supabase
     .from("plusklas_codes")
     .select("code, label, actief, created_at")
     .order("created_at", { ascending: false });
+
+  /* Hoeveel accounts met deze code nu nog gratis toegang hebben. Met de
+     service-sleutel, zodat ook accounts zonder kind meetellen. */
+  const { data: metToegang } = await createAdminClient()
+    .from("profiles")
+    .select("plusklas_code")
+    .eq("is_plusklas", true)
+    .not("plusklas_code", "is", null);
+
+  const aantalPerCode = new Map<string, number>();
+  for (const rij of metToegang ?? []) {
+    const code = rij.plusklas_code as string;
+    aantalPerCode.set(code, (aantalPerCode.get(code) ?? 0) + 1);
+  }
 
   return (
     <>
@@ -28,17 +43,24 @@ export default async function BeheerCodesPage({
         <h1 className="mt-2 font-display text-2xl font-semibold text-ink">Plusklas-codes</h1>
         <p className="mt-2 text-sm text-ink-dim">
           Deel een actieve code met plusklas-gezinnen. Wie zich registreert met deze code krijgt
-          automatisch gratis volledige toegang.
+          automatisch gratis volledige toegang. Een code inactief zetten houdt enkel nieuwe mensen
+          tegen: wie ze al gebruikte, houdt zijn toegang tot je ze hieronder uitzet.
         </p>
 
         {fout && <p className="mt-4 rounded-md bg-danger/10 px-3 py-2 text-sm text-danger">{fout}</p>}
+        {melding && (
+          <p className="mt-4 rounded-md bg-forest/10 px-3 py-2 text-sm text-forest-dark">{melding}</p>
+        )}
 
         <ul className="mt-6 space-y-2">
-          {(codes ?? []).map((c) => (
+          {(codes ?? []).map((c) => {
+            const aantal = aantalPerCode.get(c.code) ?? 0;
+            return (
             <li
               key={c.code}
-              className="flex items-center justify-between rounded-lg border border-border bg-surface p-3 text-sm"
+              className="rounded-lg border border-border bg-surface p-3 text-sm"
             >
+              <div className="flex items-center justify-between gap-3">
               <div>
                 <p className="font-mono font-medium text-ink">{c.code}</p>
                 {c.label && <p className="text-xs text-ink-dim">{c.label}</p>}
@@ -63,8 +85,31 @@ export default async function BeheerCodesPage({
                   </button>
                 </form>
               </div>
+              </div>
+
+              {/* Einde van een testperiode: alle gezinnen van deze code in één
+                  keer terug op de gratis hoofdstukken. */}
+              <div className="mt-2 flex flex-wrap items-center justify-between gap-2 border-t border-border pt-2">
+                <span className="text-xs text-ink-dim">
+                  {aantal === 0
+                    ? "Niemand met deze code heeft nu gratis toegang."
+                    : `${aantal} ${aantal === 1 ? "account heeft" : "accounts hebben"} gratis toegang via deze code.`}
+                </span>
+                {aantal > 0 && (
+                  <form action={zetGroepToegangUit}>
+                    <input type="hidden" name="code" value={c.code} />
+                    <button
+                      type="submit"
+                      className="rounded-full border border-border px-3 py-1 text-xs font-medium text-ink hover:border-danger hover:text-danger"
+                    >
+                      Toegang van deze {aantal} uitzetten
+                    </button>
+                  </form>
+                )}
+              </div>
             </li>
-          ))}
+            );
+          })}
           {!codes?.length && <li className="text-sm text-ink-dim">Nog geen codes aangemaakt.</li>}
         </ul>
 

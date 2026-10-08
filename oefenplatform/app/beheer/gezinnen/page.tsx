@@ -30,10 +30,10 @@ function datum(waarde: string) {
 export default async function GezinnenPage({
   searchParams,
 }: {
-  searchParams: Promise<{ fout?: string; melding?: string }>;
+  searchParams: Promise<{ fout?: string; melding?: string; toon?: string }>;
 }) {
   const session = await requireBeheerder();
-  const { fout, melding } = await searchParams;
+  const { fout, melding, toon } = await searchParams;
 
   /* Met de service-sleutel, want we willen ook accounts zonder kind zien. */
   const admin = createAdminClient();
@@ -132,7 +132,9 @@ export default async function GezinnenPage({
 
         <Mailadressen rijen={mailrijen} />
 
-        <Gezinslijst rijen={lijstrijen} codes={codes} />
+        {/* ?toon=open komt van de teller bovenaan Beheer: dan staat de lijst
+            meteen op de accounts die enkel de gratis hoofdstukken zien. */}
+        <Gezinslijst rijen={lijstrijen} codes={codes} start={toon} />
       </main>
     </>
   );

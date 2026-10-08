@@ -18,6 +18,23 @@ export type GezinRij = {
 
 export type CodeRij = { code: string; label: string | null; actief: boolean };
 
+/** De vier knopjes waarmee je de lijst korter maakt. */
+const SOORTEN = [
+  { sleutel: "alles", naam: "Allemaal" },
+  { sleutel: "open", naam: "Enkel de gratis hoofdstukken" },
+  { sleutel: "gratis", naam: "Gratis toegang van jou" },
+  { sleutel: "betaald", naam: "Betaald" },
+] as const;
+
+type Soort = (typeof SOORTEN)[number]["sleutel"];
+
+function hoortBij(rij: GezinRij, soort: Soort) {
+  if (soort === "gratis") return rij.isPlusklas;
+  if (soort === "betaald") return rij.betaald;
+  if (soort === "open") return !rij.isPlusklas && !rij.betaald;
+  return true;
+}
+
 /**
  * Het mailadres zonder het cijfertje of het +labeltje erachter.
  *
@@ -47,11 +64,17 @@ function mailKern(email: string) {
 export function Gezinslijst({
   rijen,
   codes,
+  start,
 }: {
   rijen: GezinRij[];
   codes: CodeRij[];
+  /** Op welke soort de lijst meteen staat, uit ?toon= in het webadres. */
+  start?: string;
 }) {
   const [zoek, setZoek] = useState("");
+  const [soort, setSoort] = useState<Soort>(
+    SOORTEN.some((s) => s.sleutel === start) ? (start as Soort) : "alles",
+  );
 
   /* Per gezin de kern van zijn mailadres, en hoeveel accounts diezelfde kern
      hebben. Eén keer berekenen voor de hele lijst. */
@@ -80,10 +103,20 @@ export function Gezinslijst({
     [aantalPerBasis],
   );
 
+  /* Hoeveel accounts er in elke soort zitten, voor op de knopjes. */
+  const aantalPerSoort = useMemo(() => {
+    const telling = {} as Record<Soort, number>;
+    for (const { sleutel } of SOORTEN) {
+      telling[sleutel] = rijen.filter((r) => hoortBij(r, sleutel)).length;
+    }
+    return telling;
+  }, [rijen]);
+
   const vraag = zoek.trim().toLowerCase();
   const gevonden = useMemo(() => {
-    if (!vraag) return metKern;
-    return metKern.filter(({ rij, kern, basis }) => {
+    const binnenSoort = metKern.filter(({ rij }) => hoortBij(rij, soort));
+    if (!vraag) return binnenSoort;
+    return binnenSoort.filter(({ rij, kern, basis }) => {
       const hooi = [
         rij.naam,
         rij.email,
@@ -96,7 +129,7 @@ export function Gezinslijst({
         .toLowerCase();
       return hooi.includes(vraag);
     });
-  }, [metKern, vraag]);
+  }, [metKern, vraag, soort]);
 
   const codeLabel = (code: string) =>
     codes.find((c) => c.code === code)?.label ?? null;
@@ -165,13 +198,33 @@ export function Gezinslijst({
         </p>
       </div>
 
-      <p className="mt-4 text-sm text-ink-dim">
+      {/* Vier knopjes om de lijst korter te maken. Het zoekvakje werkt
+          binnen de knop die aan staat. */}
+      <div className="mt-4 flex flex-wrap gap-2">
+        {SOORTEN.map(({ sleutel, naam }) => (
+          <button
+            key={sleutel}
+            type="button"
+            onClick={() => setSoort(sleutel)}
+            aria-pressed={soort === sleutel}
+            className={`rounded-full border px-3 py-1 text-xs font-medium ${
+              soort === sleutel
+                ? "border-forest bg-forest/10 text-forest-dark"
+                : "border-border text-ink-dim hover:border-forest hover:text-forest-dark"
+            }`}
+          >
+            {naam} ({aantalPerSoort[sleutel]})
+          </button>
+        ))}
+      </div>
+
+      <p className="mt-3 text-sm text-ink-dim">
         {vraag ? (
           <>
-            {gevonden.length} van {rijen.length}{" "}
-            {rijen.length === 1 ? "account" : "accounts"} gevonden.
+            {gevonden.length} van {aantalPerSoort[soort]}{" "}
+            {aantalPerSoort[soort] === 1 ? "account" : "accounts"} gevonden.
           </>
-        ) : (
+        ) : soort === "alles" ? (
           <>
             {rijen.length} {rijen.length === 1 ? "account" : "accounts"},
             waarvan{" "}
@@ -179,6 +232,11 @@ export function Gezinslijst({
               {rijen.filter((r) => r.isPlusklas || r.betaald).length}
             </span>{" "}
             met volledige toegang.
+          </>
+        ) : (
+          <>
+            <span className="font-medium text-ink">{aantalPerSoort[soort]}</span>{" "}
+            van de {rijen.length} accounts.
           </>
         )}
       </p>
