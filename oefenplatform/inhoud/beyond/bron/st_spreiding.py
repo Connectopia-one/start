@@ -290,9 +290,9 @@ DEEL2 = [
     ),
     dict(
         type="waarofniet",
-        vraag="Een boxplot toont hoeveel gegevens er in elk deel vallen.",
+        vraag="Uit een boxplot kan je aflezen hoeveel gegevens er in de dataset zitten.",
         antwoord=False,
-        uitleg="Nee, elk deel bevat per definitie een kwart. Een boxplot toont waar die kwarten liggen, niet hoeveel er zijn.",
+        uitleg="Nee. Elk deel bevat per definitie een kwart van de gegevens, maar hoeveel dat er zijn, zegt een boxplot niet. Daarvoor heb je n nodig.",
     ),
     dict(
         type="meerkeuze",

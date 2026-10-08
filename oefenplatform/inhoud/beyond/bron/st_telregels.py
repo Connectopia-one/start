@@ -97,9 +97,9 @@ DEEL1 = [
     ),
     dict(
         type="waarofniet",
-        vraag="Twee keuzes na elkaar maken geeft altijd meer mogelijkheden dan één keuze uit twee groepen.",
+        vraag="Als de tweede keuze van de eerste afhangt, mag je nog altijd vermenigvuldigen zolang er voor de tweede keuze telkens even veel mogelijkheden zijn.",
         antwoord=True,
-        uitleg="Vermenigvuldigen loopt veel sneller op dan optellen, zodra beide aantallen groter dan één zijn.",
+        uitleg="Dat is precies het hoorntje met twee verschillende bollen: tien smaken voor de eerste bol, en wat die ook is, negen voor de tweede. Dus tien maal negen.",
     ),
     dict(
         type="meerkeuze",
