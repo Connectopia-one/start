@@ -72,13 +72,77 @@ function zoekDubbels(aanvragen: Aanvraag[]) {
   return dubbel;
 }
 
+/*
+  De naam van het onderwerp zoals hij op een knopje past.
+
+  In de databank staat "Aanvraag gratis proefles via de website", want dat
+  was ooit het onderwerp van de mail. Op een rij filterknopjes is dat staartje
+  alleen maar ruis, en het staat bij elk onderwerp hetzelfde.
+
+  Gaat de inschrijving over een bepaald traject, dan zit dat woordje middenin:
+  "Inschrijving via de website — Vakantiekampen". Daarom knippen we het eruit
+  waar het ook staat, en niet alleen achteraan. Zo houdt elk kamp, elke
+  pluswerking en elk traject zijn eigen knopje.
+*/
+function kort(onderwerp: string) {
+  const zonder = onderwerp
+    .replace(/\s*via de website\s*/i, " ")
+    .replace(/\s+/g, " ")
+    .trim();
+  return zonder || onderwerp;
+}
+
+const STATUSSEN = [
+  { sleutel: "", naam: "Alles" },
+  { sleutel: "nieuw", naam: "Nieuw" },
+  { sleutel: "open", naam: "Nog open" },
+  { sleutel: "afgehandeld", naam: "Afgehandeld" },
+] as const;
+
+function filterLink(onderwerp: string, status: string) {
+  const vraag = new URLSearchParams();
+  if (onderwerp) vraag.set("onderwerp", onderwerp);
+  if (status) vraag.set("status", status);
+  const tekst = vraag.toString();
+  return tekst ? `/beheer/aanvragen?${tekst}` : "/beheer/aanvragen";
+}
+
+/* Eén knopje in de filterrij. Aan staat het in het donkergroen. */
+function Knopje({
+  href,
+  aan,
+  children,
+}: {
+  href: string;
+  aan: boolean;
+  children: React.ReactNode;
+}) {
+  return (
+    <a
+      href={href}
+      className={`rounded-full px-3 py-1 text-sm transition ${
+        aan
+          ? "bg-forest text-white"
+          : "border border-border text-ink-dim hover:border-forest hover:text-forest-dark"
+      }`}
+    >
+      {children}
+    </a>
+  );
+}
+
 export default async function AanvragenBeheer({
   searchParams,
 }: {
-  searchParams: Promise<{ fout?: string; succes?: string }>;
+  searchParams: Promise<{
+    fout?: string;
+    succes?: string;
+    onderwerp?: string;
+    status?: string;
+  }>;
 }) {
   const session = await requireBeheerder();
-  const { fout, succes } = await searchParams;
+  const { fout, succes, onderwerp: gekozen = "", status = "" } = await searchParams;
   const naam = session.profile?.full_name ?? session.email ?? "";
 
   const db = createAdminClient();
@@ -88,10 +152,40 @@ export default async function AanvragenBeheer({
     .order("created_at", { ascending: false })
     .limit(300);
 
-  const aanvragen = (data ?? []) as Aanvraag[];
-  const nieuw = aanvragen.filter((a) => !a.gezien).length;
-  const open = aanvragen.filter((a) => !a.afgehandeld).length;
-  const dubbels = zoekDubbels(aanvragen);
+  const alles = (data ?? []) as Aanvraag[];
+
+  /*
+    Filteren op soort aanvraag en op status. Kim vroeg dit op 8 oktober 2026:
+    "kan ik ook de aanvragen die binnenkomen filteren? Op vakantiekamp,
+    proefles, meetesten enzo?" Met acht formulieren door elkaar wordt de lijst
+    anders onleesbaar.
+
+    De onderwerpen komen uit de aanvragen zelf en niet uit een vaste lijst.
+    Zet de website er morgen een formulier bij, dan staat dat knopje hier
+    vanzelf, zonder dat hier iets moet veranderen.
+  */
+  const perOnderwerp = new Map<string, number>();
+  for (const a of alles) {
+    perOnderwerp.set(a.onderwerp, (perOnderwerp.get(a.onderwerp) ?? 0) + 1);
+  }
+  const onderwerpen = [...perOnderwerp.entries()].sort(
+    (a, b) => b[1] - a[1] || kort(a[0]).localeCompare(kort(b[0]), "nl"),
+  );
+
+  const aanvragen = alles.filter((a) => {
+    if (gekozen && a.onderwerp !== gekozen) return false;
+    if (status === "nieuw") return !a.gezien;
+    if (status === "open") return !a.afgehandeld;
+    if (status === "afgehandeld") return a.afgehandeld;
+    return true;
+  });
+
+  const nieuw = alles.filter((a) => !a.gezien).length;
+  const open = alles.filter((a) => !a.afgehandeld).length;
+  const gefilterd = Boolean(gekozen || status);
+  /* Dubbels zoeken we in de hele lijst: twee aanvragen van dezelfde persoon
+     blijven dubbel, ook al staat er een filter aan. */
+  const dubbels = zoekDubbels(alles);
 
   return (
     <>
@@ -106,10 +200,46 @@ export default async function AanvragenBeheer({
           Aanvragen van de website
         </h1>
         <p className="mt-1 text-sm text-ink-dim">
-          {aanvragen.length} aanvra{aanvragen.length === 1 ? "ag" : "gen"}
+          {alles.length} aanvra{alles.length === 1 ? "ag" : "gen"}
           {nieuw > 0 ? ` · ${nieuw} nieuw` : ""}
           {open > 0 ? ` · ${open} nog open` : ""}
+          {gefilterd ? ` · ${aanvragen.length} getoond` : ""}
         </p>
+
+        {/* Filteren op soort aanvraag. De knopjes staan er alleen als er meer
+            dan één soort binnengekomen is; bij één soort zouden ze niets
+            doen. */}
+        {onderwerpen.length > 1 && (
+          <div className="mt-4 flex flex-wrap gap-2">
+            <Knopje href={filterLink("", status)} aan={!gekozen}>
+              Alle soorten
+            </Knopje>
+            {onderwerpen.map(([naam, aantal]) => (
+              <Knopje
+                key={naam}
+                href={filterLink(naam, status)}
+                aan={gekozen === naam}
+              >
+                {kort(naam)} <span className="opacity-70">{aantal}</span>
+              </Knopje>
+            ))}
+          </div>
+        )}
+
+        {/* En op status: nieuw, nog open of afgehandeld. */}
+        {alles.length > 0 && (
+          <div className="mt-2 flex flex-wrap gap-2">
+            {STATUSSEN.map((s) => (
+              <Knopje
+                key={s.sleutel}
+                href={filterLink(gekozen, s.sleutel)}
+                aan={status === s.sleutel}
+              >
+                {s.naam}
+              </Knopje>
+            ))}
+          </div>
+        )}
         {dubbels.size > 0 && (
           <p className="mt-2 rounded-md bg-amber/10 px-3 py-2 text-sm text-ink">
             {dubbels.size} aanvragen staan er meer dan één keer in, van dezelfde
@@ -160,7 +290,17 @@ export default async function AanvragenBeheer({
 
         {!error && !aanvragen.length && (
           <p className="mt-6 text-sm text-ink-dim">
-            Er is nog niets binnengekomen.
+            {gefilterd ? (
+              <>
+                Geen aanvragen die hieraan voldoen.{" "}
+                <a href="/beheer/aanvragen" className="underline">
+                  Toon alles
+                </a>
+                .
+              </>
+            ) : (
+              "Er is nog niets binnengekomen."
+            )}
           </p>
         )}
 
