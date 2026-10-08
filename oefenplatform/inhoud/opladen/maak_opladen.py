@@ -101,6 +101,7 @@ def vraagkaarten(lijst):
 # Vanaf hier staat alles van déze ronde. Enkel dit wijzigt.
 # ════════════════════════════════════════════════════════════
 
+TITEL = "Plakpagina Beyond"
 SLEUTEL = "connectopia-plakpagina-beyond-8-oktober"
 VOET = "Bijgewerkt op 8 oktober 2026"
 INTRO = """<p>De zes vakken van 🌍 Beyond die nog geen bundels hadden, hebben ze nu. Dit is
@@ -162,6 +163,7 @@ def bouw():
     hier = pathlib.Path(__file__).parent
     pagina = hier / "opladen.html"
     pagina.write_text((hier / "sjabloon.html").read_text(encoding="utf-8")
+                      .replace("<!--TITEL-->", TITEL)
                       .replace("<!--INTRO-->", INTRO)
                       .replace("<!--SECTIES-->", "\n".join(stukken))
                       .replace("<!--AANTAL-->", str(aantal))
