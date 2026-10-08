@@ -151,7 +151,7 @@ DEEL1 = [
 
 DEEL2 = [
     dict(type="meerkeuze",
-         vraag="In welke drie gewesten van België is het Frans een officiële taal of de taal van het onderwijs?",
+         vraag="Waar in België is het Frans een officiële taal of de taal van het onderwijs?",
          opties=["Wallonië en Brussel",
                  "Vlaanderen en Wallonië",
                  "enkel het Brussels gewest",
