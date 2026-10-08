@@ -230,10 +230,12 @@ zet("klimaten-biomen-en-zeestromen",
              oefeningen=[
                  ("tabel", ["plaats", "klimaat", "bioom"],
                   [["Manaus (Brazilië)", "tropisch regenwoudklimaat", "tropisch regenwoud"],
-                   ["Caïro (Egypte)", "", ""],
-                   ["Rome (Italië)", "", ""],
-                   ["Tromsø (Noorwegen)", "", ""]],
-                  "Vul de twee lege kolommen aan.", WW),
+                   ["Caïro (Egypte)", None, None],
+                   ["Rome (Italië)", None, None],
+                   ["Tromsø (Noorwegen)", None, None]],
+                  "Caïro: woestijnklimaat, woestijn · Rome: mediterraan klimaat, hardbladig "
+                  "struikgewas · Tromsø: subpolair klimaat met zachte zeewinters, taiga die "
+                  "naar toendra overgaat", WW),
              ]),
     ])
 

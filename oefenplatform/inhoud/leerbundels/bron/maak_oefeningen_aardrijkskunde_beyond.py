@@ -145,10 +145,12 @@ zet("situeren-kaarten-en-observatie",
              oefeningen=[
                  ("tabel", ["verschijnsel", "sfeer", "waarom"],
                   [["een storm boven de Noordzee", "atmosfeer", "het gaat over de lucht"],
-                   ["een modderstroom in de Alpen", "", ""],
-                   ["het smelten van de Groenlandse ijskap", "", ""],
-                   ["een bosbrand in Portugal", "", ""]],
-                  "Vul de twee lege kolommen aan.", WW),
+                   ["een modderstroom in de Alpen", None, None],
+                   ["het smelten van de Groenlandse ijskap", None, None],
+                   ["een bosbrand in Portugal", None, None]],
+                  "modderstroom: geosfeer, het gaat over bodem en gesteente die bewegen · "
+                  "ijskap: hydrosfeer, water in vaste vorm · bosbrand: biosfeer, het gaat "
+                  "over het leven", WW),
                  ("open", "Leg met één voorbeeld uit dat de sferen op elkaar inwerken.",
                   "Bijvoorbeeld: een droogte in de atmosfeer laat de bodem (geosfeer) uitdrogen, "
                   "waardoor planten (biosfeer) afsterven en het water in de rivieren "
@@ -225,11 +227,11 @@ zet("het-heelal-ontstaan-en-afstanden",
              oefeningen=[
                  ("tabel", ["trap", "naam"],
                   [["de planeet", "de aarde"],
-                   ["het stelsel rond onze ster", ""],
-                   ["het sterrenstelsel", ""],
-                   ["de groep stelsels", ""],
-                   ["de supercluster", ""]],
-                  "Vul de namen aan.", WW),
+                   ["het stelsel rond onze ster", None],
+                   ["het sterrenstelsel", None],
+                   ["de groep stelsels", None],
+                   ["de supercluster", None]],
+                  "het zonnestelsel · de Melkweg · de Lokale Groep · Laniakea", WW),
                  ("kort", "Hoeveel sterren heeft de Melkweg ongeveer?",
                   "ongeveer 100 tot 400 miljard", WW),
              ]),
@@ -288,12 +290,16 @@ zet("de-zon-en-het-zonnestelsel",
              oefeningen=[
                  ("tabel", ["planeet", "soort", "iets waaraan je ze herkent"],
                   [["Mercurius", "aardse planeet", "de kleinste, snelste omloop (88 dagen)"],
-                   ["Venus", "", ""],
-                   ["Mars", "", ""],
-                   ["Jupiter", "", ""],
-                   ["Saturnus", "", ""],
-                   ["Neptunus", "", ""]],
-                  "Vul de twee lege kolommen aan.", WW),
+                   ["Venus", None, None],
+                   ["Mars", None, None],
+                   ["Jupiter", None, None],
+                   ["Saturnus", None, None],
+                   ["Neptunus", None, None]],
+                  "Venus: aardse planeet, de heetste door haar dikke CO₂-dampkring · "
+                  "Mars: aardse planeet, rood door ijzeroxide, twee kleine manen · "
+                  "Jupiter: gasreus, de grootste, met de Grote Rode Vlek · "
+                  "Saturnus: gasreus, met de duidelijkste ringen · "
+                  "Neptunus: ijsreus, de verste, met de hardste winden", WW),
                  ("kies", "Welke planeet is de heetste?",
                   ["Mercurius", "Venus", "de aarde", "Jupiter"], 1),
                  ("kort", "Waarom is dat niet de planeet die het dichtst bij de zon staat?",
@@ -487,10 +493,13 @@ zet("de-opbouw-van-de-atmosfeer",
              oefeningen=[
                  ("tabel", ["laag", "van … tot …", "waaraan je ze kent"],
                   [["troposfeer", "0 tot ongeveer 12 km", "hier gebeurt het weer"],
-                   ["stratosfeer", "", ""],
-                   ["mesosfeer", "", ""],
-                   ["thermosfeer", "", ""]],
-                  "Vul de twee lege kolommen aan.", WW),
+                   ["stratosfeer", None, None],
+                   ["mesosfeer", None, None],
+                   ["thermosfeer", None, None]],
+                  "stratosfeer: 12 tot 50 km, hier zit de ozonlaag en stijgt de temperatuur "
+                  "met de hoogte · mesosfeer: 50 tot 85 km, de koudste laag, hier verbranden "
+                  "de meteoren · thermosfeer: 85 tot 600 km, zeer ijle lucht, hier ontstaat "
+                  "het poollicht", WW),
                  ("kort", "In welke laag vliegt een verkeersvliegtuig meestal?",
                   "onderaan de stratosfeer, boven het weer", WL),
                  ("waar", "In de stratosfeer stijgt de temperatuur met de hoogte.", True),
@@ -599,10 +608,12 @@ zet("luchtdruk-en-winden",
              oefeningen=[
                  ("tabel", ["breedte", "druk", "wat je er ziet"],
                   [["0°", "laag", "ITCZ: stijgende lucht, zware buien, regenwoud"],
-                   ["30°", "", ""],
-                   ["60°", "", ""],
-                   ["90°", "", ""]],
-                  "Vul de twee lege kolommen aan.", WW),
+                   ["30°", None, None],
+                   ["60°", None, None],
+                   ["90°", None, None]],
+                  "30°: hoog, dalende droge lucht, de woestijngordel · "
+                  "60°: laag, het polaire front, depressies en wisselvallig weer · "
+                  "90°: hoog, koude dalende lucht, poolwoestijn", WW),
                  ("open", "Leg uit waarom de grote woestijnen rond 30° breedte liggen.",
                   "De lucht die aan de evenaar is opgestegen en haar vocht heeft afgegeven, "
                   "daalt rond 30° weer neer. Dalende lucht wordt warmer en droger, dus vormen "
@@ -722,12 +733,16 @@ zet("klimaatgebieden-biomen-en-zeestromen",
              oefeningen=[
                  ("tabel", ["klimaat", "bioom", "typisch voor de planten"],
                   [["tropisch, het hele jaar nat", "tropisch regenwoud", "meerdere lagen, altijd groen"],
-                   ["tropisch met een droog seizoen", "", ""],
-                   ["droog, minder dan 250 mm", "", ""],
-                   ["mediterraan", "", ""],
-                   ["koud met naaldbos", "", ""],
-                   ["poolklimaat zonder bomen", "", ""]],
-                  "Vul de twee lege kolommen aan.", WW),
+                   ["tropisch met een droog seizoen", None, None],
+                   ["droog, minder dan 250 mm", None, None],
+                   ["mediterraan", None, None],
+                   ["koud met naaldbos", None, None],
+                   ["poolklimaat zonder bomen", None, None]],
+                  "tropisch met een droog seizoen: savanne, grassen met enkele bomen die hun "
+                  "blad verliezen · droog: woestijn, weinig planten, diepe wortels en "
+                  "vetplanten · mediterraan: hardbladig struikgewas, kleine leerachtige "
+                  "bladeren · koud met naaldbos: taiga, naalden en kegels · poolklimaat: "
+                  "toendra, mossen, korstmossen en dwergstruiken", WW),
                  ("open", "Waarom staan er in de toendra geen bomen?",
                   "Het groeiseizoen is te kort en te koud, en de bodem is permanent bevroren "
                   "(permafrost), zodat wortels niet diep kunnen gaan en het smeltwater niet "
@@ -877,11 +892,12 @@ zet("de-opbouw-van-de-geosfeer",
              opdracht="Vul de tabel aan.",
              oefeningen=[
                  ("tabel", ["", "oceanische korst", "continentale korst"],
-                  [["dikte", "5 tot 10 km", ""],
-                   ["gesteente", "basalt", ""],
-                   ["dichtheid", "ongeveer 3,0 g/cm³", ""],
-                   ["ouderdom", "jong, hoogstens 200 miljoen jaar", ""]],
-                  "Vul de laatste kolom aan.", WW),
+                  [["dikte", "5 tot 10 km", None],
+                   ["gesteente", "basalt", None],
+                   ["dichtheid", "ongeveer 3,0 g/cm³", None],
+                   ["ouderdom", "jong, hoogstens 200 miljoen jaar", None]],
+                  "continentale korst: 30 tot 70 km dik · graniet · ongeveer 2,7 g/cm³ · "
+                  "oud, tot bijna 4 miljard jaar", WW),
                  ("open", "Waarom duikt bij een botsing altijd de oceanische korst onder de "
                           "continentale, en niet omgekeerd?",
                   "Oceanische korst is zwaarder per volume. Bij een botsing zakt de dichtste "
@@ -932,10 +948,13 @@ zet("platentektoniek-en-reliefvorming",
              oefeningen=[
                  ("tabel", ["beweging", "wat er ontstaat", "een voorbeeld"],
                   [["uit elkaar (divergent)", "een rug of een slenk, nieuwe korst", "de Midden-Atlantische Rug, IJsland"],
-                   ["naar elkaar, oceaan onder continent", "", ""],
-                   ["naar elkaar, continent tegen continent", "", ""],
-                   ["langs elkaar (transform)", "", ""]],
-                  "Vul de twee lege kolommen aan.", WW),
+                   ["naar elkaar, oceaan onder continent", None, None],
+                   ["naar elkaar, continent tegen continent", None, None],
+                   ["langs elkaar (transform)", None, None]],
+                  "oceaan onder continent: een diepzeetrog en een vulkanische bergketen, de "
+                  "Andes · continent tegen continent: een plooiingsgebergte zonder vulkanen, "
+                  "de Himalaya · transform: geen nieuwe en geen verdwijnende korst, wel veel "
+                  "bevingen, de San Andreasbreuk", WW),
                  ("kort", "Hoe heet het wegduiken van een plaat onder een andere?",
                   "subductie", WW),
                  ("kort", "Welk gebergte ontstond uit de botsing van India met Azië?",
@@ -1032,11 +1051,13 @@ zet("aardbevingen-en-vulkanisme",
              opdracht="Vul de tabel aan.",
              oefeningen=[
                  ("tabel", ["", "schildvulkaan", "stratovulkaan"],
-                  [["de lava", "dun en vloeibaar, basaltisch", ""],
-                   ["de helling", "flauw en breed", ""],
-                   ["de uitbarsting", "rustig, lavastromen", ""],
-                   ["een voorbeeld", "Mauna Loa, IJsland", ""]],
-                  "Vul de laatste kolom aan.", WW),
+                  [["de lava", "dun en vloeibaar, basaltisch", None],
+                   ["de helling", "flauw en breed", None],
+                   ["de uitbarsting", "rustig, lavastromen", None],
+                   ["een voorbeeld", "Mauna Loa, IJsland", None]],
+                  "stratovulkaan: taaie, kiezelrijke lava · een steile, hoge kegel · "
+                  "explosief, met as en pyroclastische stromen · de Vesuvius, de Fuji, "
+                  "Mount St. Helens", WW),
                  ("open", "Waarom is een taaie lava gevaarlijker dan een vloeibare?",
                   "Taaie lava laat de gassen niet ontsnappen. De druk loopt op tot de prop "
                   "openbarst, en dan komt alles ineens vrij: een explosieve uitbarsting met as "
@@ -1352,9 +1373,11 @@ zet("klimaat-doorheen-de-geologische-tijd",
              oefeningen=[
                  ("tabel", ["cyclus", "wat verandert", "periode"],
                   [["excentriciteit", "de vorm van de baan rond de zon", "ongeveer 100 000 jaar"],
-                   ["obliquiteit", "", ""],
-                   ["precessie", "", ""]],
-                  "Vul de twee lege kolommen aan.", WW),
+                   ["obliquiteit", None, None],
+                   ["precessie", None, None]],
+                  "obliquiteit: de helling van de aardas, tussen 22,1° en 24,5°, ongeveer "
+                  "41 000 jaar · precessie: de tolbeweging van de aardas, ongeveer "
+                  "26 000 jaar", WW),
                  ("open", "Die cycli veranderen de totale energie van de zon nauwelijks. "
                           "Waarom beslissen ze dan toch over een ijstijd?",
                   "Ze verdelen de energie anders over de breedten en de seizoenen. Een koele "
