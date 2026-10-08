@@ -6415,3 +6415,172 @@ def gesteentecyclus(breedte=470):
     d.append(_kussen(266, 178, "verwering", 9.5, DARK, "middle"))
 
     return _svg(breedte, h, _pijlpunten() + "".join(d))
+
+
+def normaalkromme(mu, sigma, van=None, tot=None, breedte=470, xlabel="",
+                  hoogte=228, toon_kans=True):
+    """De klok van een normale verdeling, met een gearceerd stuk eronder.
+
+    Alles wordt gerekend, niets getekend op het gevoel: de klok is de echte
+    dichtheidsfunctie, de streepjes staan op mu en op mu plus of min één en
+    twee keer sigma, en de kans in het gearceerde stuk komt uit de
+    foutfunctie. Zo kan de tekening nooit iets anders zeggen dan de tekst.
+
+    van en tot mogen None zijn: dat is een staart die doorloopt.
+    """
+    import math
+
+    links, onder, boven, rechts = 30, 44, 26, 22
+    vlak_b = breedte - links - rechts
+    vlak_h = hoogte - onder - boven
+    x0, x1 = mu - 4 * sigma, mu + 4 * sigma
+
+    def px(v):
+        return links + (v - x0) / (x1 - x0) * vlak_b
+
+    def dichtheid(v):
+        return math.exp(-0.5 * ((v - mu) / sigma) ** 2)
+
+    def py(v):
+        return hoogte - onder - dichtheid(v) * vlak_h
+
+    stappen_n = 240
+    punten = [(x0 + i * (x1 - x0) / stappen_n) for i in range(stappen_n + 1)]
+    d = []
+
+    # het gearceerde stuk, als een gevulde vorm onder de kromme
+    a = x0 if van is None else max(van, x0)
+    b = x1 if tot is None else min(tot, x1)
+    if a < b:
+        rand = [(a + i * (b - a) / stappen_n) for i in range(stappen_n + 1)]
+        pad = [f"M {px(a):.1f} {hoogte-onder:.1f}"]
+        pad += [f"L {px(v):.1f} {py(v):.1f}" for v in rand]
+        pad.append(f"L {px(b):.1f} {hoogte-onder:.1f} Z")
+        d.append(f'<path d="{" ".join(pad)}" fill="{FOREST}" fill-opacity="0.22"/>')
+
+    # de kromme zelf
+    lijn = " ".join(f"{'M' if i == 0 else 'L'} {px(v):.1f} {py(v):.1f}"
+                    for i, v in enumerate(punten))
+    d.append(f'<path d="{lijn}" fill="none" stroke="{FOREST}" stroke-width="2.2"/>')
+
+    # de as, met een streepje op mu en op elke sigma ernaast
+    as_y = hoogte - onder
+    d.append(f'<line x1="{links-6}" y1="{as_y}" x2="{breedte-rechts+6}" y2="{as_y}" '
+             f'stroke="{INK}" stroke-width="1.6"/>')
+    for k in (-2, -1, 0, 1, 2):
+        v = mu + k * sigma
+        d.append(f'<line x1="{px(v):.1f}" y1="{as_y}" x2="{px(v):.1f}" y2="{as_y+5}" '
+                 f'stroke="{DIM}" stroke-width="1.2"/>')
+        d.append(_tekst(px(v), as_y + 18, _getal(v), 9.5, DIM))
+        naam = "μ" if k == 0 else ("μ" + ("+" if k > 0 else "−")
+                                   + ("σ" if abs(k) == 1 else f"{abs(k)}σ"))
+        d.append(_tekst(px(v), as_y + 31, naam, 9, DIM))
+    d.append(f'<line x1="{px(mu):.1f}" y1="{py(mu):.1f}" x2="{px(mu):.1f}" y2="{as_y}" '
+             f'stroke="{AMBER}" stroke-width="1.6" stroke-dasharray="4 3"/>')
+
+    # de grenzen van het gearceerde stuk, met hun waarde erboven
+    for grens in (van, tot):
+        if grens is None or not x0 < grens < x1:
+            continue
+        d.append(f'<line x1="{px(grens):.1f}" y1="{py(grens):.1f}" x2="{px(grens):.1f}" '
+                 f'y2="{as_y}" stroke="{DARK}" stroke-width="1.8"/>')
+        # het getal naast de grenslijn, aan de kant van de staart, zodat het
+        # niet op de kromme zelf komt te liggen
+        kant = 5 if grens >= mu else -5
+        d.append(_tekst(px(grens) + kant, py(grens) - 5, _getal(grens), 10, DARK,
+                        "start" if kant > 0 else "end", True))
+
+    if toon_kans and a < b:
+        def phi(v):
+            return 0.5 * (1 + math.erf((v - mu) / (sigma * math.sqrt(2))))
+        kans = phi(b) - phi(a)
+        midden_x = px((a + b) / 2)
+        d.append(_tekst(midden_x, as_y - 14, f"{kans * 100:.1f}".replace(".", ",") + " %",
+                        11, DARK, "middle", True))
+    if xlabel:
+        d.append(_tekst(breedte - rechts + 6, boven - 10, xlabel, 10.5, DIM, "end", True))
+    return _svg(breedte, hoogte, "".join(d))
+
+
+def dotplot(getallen, breedte=470, stap=1, hoogte=None):
+    """Een dotplot: één bolletje per meting, gestapeld boven zijn waarde.
+
+    Voor een kleine dataset met weinig verschillende waarden. Het aantal
+    bolletjes is het aantal metingen, dus de tekening telt zichzelf na.
+    """
+    g = sorted(getallen)
+    laag = stap * int(min(g) // stap) - stap
+    hoog = stap * int(-(-max(g) // stap)) + stap
+    hoogste_stapel = max(g.count(w) for w in set(g))
+    r = 6.0
+    hoogte = hoogte or int(44 + hoogste_stapel * (2 * r + 2.5))
+    links, rechts = 24, 22
+    as_y = hoogte - 32
+
+    def px(v):
+        return links + (v - laag) / max(hoog - laag, 1) * (breedte - links - rechts)
+
+    d = [f'<line x1="{links-6}" y1="{as_y}" x2="{breedte-rechts+6}" y2="{as_y}" '
+         f'stroke="{INK}" stroke-width="1.6"/>']
+    tik = laag
+    while tik <= hoog + 1e-9:
+        d.append(f'<line x1="{px(tik):.1f}" y1="{as_y}" x2="{px(tik):.1f}" y2="{as_y+5}" '
+                 f'stroke="{DIM}" stroke-width="1.2"/>')
+        d.append(_tekst(px(tik), as_y + 18, _getal(tik), 9.5, DIM))
+        tik += stap
+    for waarde in sorted(set(g)):
+        for i in range(g.count(waarde)):
+            cy = as_y - r - 2 - i * (2 * r + 2.5)
+            d.append(f'<circle cx="{px(waarde):.1f}" cy="{cy:.1f}" r="{r}" '
+                     f'fill="{FOREST}" fill-opacity="0.75" stroke="{FOREST}" stroke-width="1.2"/>')
+    return _svg(breedte, hoogte, "".join(d))
+
+
+def histogram(klassen, breedte=470, hoogte=224, xlabel="", ylabel="aantal"):
+    """Een histogram: staven die elkaar raken, want de klassen sluiten aan.
+
+    klassen is een lijst (ondergrens, bovengrens, frequentie). De breedte van
+    een staaf volgt de breedte van haar klasse, zodat een bredere klasse ook
+    een bredere staaf krijgt; dat is net het verschil met een staafdiagram.
+    """
+    links, onder, boven, rechts = 40, 44, 22, 18
+    vlak_b = breedte - links - rechts
+    vlak_h = hoogte - onder - boven
+    laag = min(k[0] for k in klassen)
+    hoog = max(k[1] for k in klassen)
+    top = max(k[2] for k in klassen)
+    stap_y = 1 if top <= 6 else (2 if top <= 14 else 5 if top <= 35 else 10)
+    bovengrens = stap_y * int(-(-top // stap_y))
+
+    def px(v):
+        return links + (v - laag) / max(hoog - laag, 1) * vlak_b
+
+    def py(v):
+        return hoogte - onder - v / max(bovengrens, 1) * vlak_h
+
+    d = []
+    tik = 0
+    while tik <= bovengrens:
+        d.append(f'<line x1="{links}" y1="{py(tik):.1f}" x2="{breedte-rechts}" '
+                 f'y2="{py(tik):.1f}" stroke="{BORDER}" stroke-width="1"/>')
+        d.append(_tekst(links - 8, py(tik) + 3.5, str(tik), 9.5, DIM, "end"))
+        tik += stap_y
+    for onder_g, boven_g, freq in klassen:
+        x, b = px(onder_g), px(boven_g) - px(onder_g)
+        d.append(f'<rect x="{x:.1f}" y="{py(freq):.1f}" width="{b:.1f}" '
+                 f'height="{hoogte-onder-py(freq):.1f}" fill="{FOREST}" fill-opacity="0.3" '
+                 f'stroke="{FOREST}" stroke-width="1.6"/>')
+        if freq:
+            d.append(_tekst(x + b / 2, py(freq) - 6, str(freq), 10, DARK, "middle", True))
+    d.append(f'<line x1="{links}" y1="{boven-6}" x2="{links}" y2="{hoogte-onder}" '
+             f'stroke="{INK}" stroke-width="1.8"/>')
+    d.append(f'<line x1="{links}" y1="{hoogte-onder}" x2="{breedte-rechts+6}" '
+             f'y2="{hoogte-onder}" stroke="{INK}" stroke-width="1.8"/>')
+    for grens in sorted({k[0] for k in klassen} | {k[1] for k in klassen}):
+        d.append(f'<line x1="{px(grens):.1f}" y1="{hoogte-onder}" x2="{px(grens):.1f}" '
+                 f'y2="{hoogte-onder+5}" stroke="{DIM}" stroke-width="1.2"/>')
+        d.append(_tekst(px(grens), hoogte - onder + 18, _getal(grens), 9.5, DIM))
+    d.append(_tekst(links - 2, boven - 8, ylabel, 10.5, DIM, "start", True))
+    if xlabel:
+        d.append(_tekst(breedte - rechts + 6, hoogte - onder + 32, xlabel, 10.5, DIM, "end", True))
+    return _svg(breedte, hoogte, "".join(d))
