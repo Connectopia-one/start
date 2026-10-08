@@ -28,32 +28,42 @@ VRAGEN = [
      "Bij de trappen van vergelijking stond plus meilleur als juist antwoord, en dat "
      "bestaat niet in het Frans: het is meilleur. Dat is rechtgezet, dus dit bestand mag "
      "er nog eens over."),
+]
+
+# Alle acht de vakken, in de orde waarin ze op de pagina horen.
+# (afvinksleutel, naam, categorie, zipnaam)
+ALLE = [
+    ("fr", "Frans", DOOR, "frans-boost-doorstroom"),
+    ("sgw", "Sociale en gedragswetenschappen", DOOR,
+     "sociale-en-gedragswetenschappen-boost-doorstroom"),
+    ("kbf", "Kunstbeschouwing en filosofie", DOOR,
+     "kunstbeschouwing-en-filosofie-boost-doorstroom"),
+    ("wib", "Wiskunde basis", DOOR, "wiskunde-basis-boost-doorstroom"),
+    ("tec", "Toegepaste economie", DF, "toegepaste-economie-boost-dubbele-finaliteit"),
+    ("ebw", "Economie en bedrijfswetenschappen", DF,
+     "economie-en-bedrijfswetenschappen-boost-dubbele-finaliteit"),
+    ("gzw", "Gezondheid, zorg en welzijn", DF,
+     "gezondheid-zorg-en-welzijn-boost-dubbele-finaliteit"),
+    ("oph", "Ontwikkeling en pedagogisch handelen", DF,
+     "ontwikkeling-en-pedagogisch-handelen-boost-dubbele-finaliteit"),
+]
+
+# De oefenbundels zijn nieuw: alle acht.
+OEFENBUNDELS = [("o-" + s, naam, cat, z) for s, naam, cat, z in ALLE]
+
+# De leerbundels staan er enkel nog bij als Kim ze gisteravond kreeg en misschien
+# nog niet deed. De vier van Boost doorstroom heeft ze bevestigd, die horen hier
+# niet meer bij: ze zijn ook byte voor byte dezelfde gebleven.
+GISTEREN_BUNDELS = [("b-" + s, naam, cat, z) for s, naam, cat, z in ALLE
+                    if cat == DF]
+
+# En dit vragenbestand stond ook al op de pagina van gisteravond.
+GISTEREN_VRAGEN = [
     ("v-oph", "Ontwikkeling en pedagogisch handelen", DF,
      "boost-dubbele-finaliteit", "ontwikkeling-en-pedagogisch-handelen",
      "In de vragen over Kohlberg stond acht keer het woord belonging in plaats van "
      "beloning. Dat is rechtgezet, dus dit bestand mag er nog eens over."),
 ]
-
-# De zips met leerbundels van de acht nieuwe vakken.
-# (afvinksleutel, naam, categorie, zipnaam)
-BUNDELS = [
-    ("b-fr", "Frans", DOOR, "frans-boost-doorstroom"),
-    ("b-sgw", "Sociale en gedragswetenschappen", DOOR,
-     "sociale-en-gedragswetenschappen-boost-doorstroom"),
-    ("b-kbf", "Kunstbeschouwing en filosofie", DOOR,
-     "kunstbeschouwing-en-filosofie-boost-doorstroom"),
-    ("b-wib", "Wiskunde basis", DOOR, "wiskunde-basis-boost-doorstroom"),
-    ("b-tec", "Toegepaste economie", DF, "toegepaste-economie-boost-dubbele-finaliteit"),
-    ("b-ebw", "Economie en bedrijfswetenschappen", DF,
-     "economie-en-bedrijfswetenschappen-boost-dubbele-finaliteit"),
-    ("b-gzw", "Gezondheid, zorg en welzijn", DF,
-     "gezondheid-zorg-en-welzijn-boost-dubbele-finaliteit"),
-    ("b-oph", "Ontwikkeling en pedagogisch handelen", DF,
-     "ontwikkeling-en-pedagogisch-handelen-boost-dubbele-finaliteit"),
-]
-
-# De zips met oefenbundels van dezelfde acht vakken. Zelfde namen, andere map.
-OEFENBUNDELS = [("o" + s[1:], naam, cat, zipnaam) for s, naam, cat, zipnaam in BUNDELS]
 
 
 def tel_vragen(pad):
@@ -91,11 +101,11 @@ def zipkaarten(lijst, map_, wat):
     return rijen
 
 
-bundelrijen = zipkaarten(BUNDELS, "leerbundels", "leerbundels")
 oefenrijen = zipkaarten(OEFENBUNDELS, "oefenbundels", "oefenbundels")
+bundelrijen = zipkaarten(GISTEREN_BUNDELS, "leerbundels", "leerbundels")
 
 vraagrijen = []
-for sleutel, naam, cat, map_, bestand, waarom in VRAGEN:
+for sleutel, naam, cat, map_, bestand, waarom in VRAGEN + GISTEREN_VRAGEN:
     jsonpad = WORTEL / map_ / f"{bestand}.json"
     tekst = jsonpad.read_text(encoding="utf-8")
     assert "</script" not in tekst.lower(), bestand
@@ -127,13 +137,15 @@ for sleutel, naam, cat, map_, bestand, waarom in VRAGEN:
 HIER = pathlib.Path(__file__).parent
 SJABLOON = (HIER / "sjabloon.html").read_text(encoding="utf-8")
 PAGINA = HIER / "opladen.html"
-aantal = len(bundelrijen) + len(oefenrijen) + len(vraagrijen)
+nieuw_vraagrijen = vraagrijen[:len(VRAGEN)]
+bundelrijen = bundelrijen + vraagrijen[len(VRAGEN):]
+aantal = len(bundelrijen) + len(oefenrijen) + len(nieuw_vraagrijen)
 PAGINA.write_text(SJABLOON
-                  .replace("<!--VRAGEN-->", "".join(vraagrijen))
+                  .replace("<!--VRAGEN-->", "".join(nieuw_vraagrijen))
                   .replace("<!--BUNDELS-->", "".join(bundelrijen))
                   .replace("<!--OEFENBUNDELS-->", "".join(oefenrijen))
                   .replace("<!--AANTAL-->", str(aantal)),
                   encoding="utf-8")
 print(f"{PAGINA} — {PAGINA.stat().st_size / 1024 / 1024:.2f} MB, "
-      f"{len(vraagrijen)} vragenbestanden, {len(bundelrijen)} leerbundelzips, "
-      f"{len(oefenrijen)} oefenbundelzips")
+      f"{len(nieuw_vraagrijen)} nieuw vragenbestand, {len(oefenrijen)} oefenbundelzips, "
+      f"{len(bundelrijen)} van gisteravond")

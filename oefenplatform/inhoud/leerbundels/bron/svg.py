@@ -6320,3 +6320,98 @@ def groeicurveschets(breedte=470):
              f'transform="rotate(-90 16 {boven + by/2:.1f})" font-family="IBM Plex Sans,sans-serif" '
              f'font-size="10" font-weight="600" fill="{INK}">de lengte</text>')
     return _svg(breedte, hoogte, "".join(d))
+
+
+def watercyclus(breedte=470):
+    """De hydrologische cyclus boven een kust: verdampen, condenseren, neerslaan,
+    afstromen en infiltreren.
+
+    De vijf stappen staan elk één keer, met de pijl in de richting waarin het
+    water echt gaat. Links de zee waaruit het grootste deel verdampt, rechts
+    het land waar de neerslag valt en terugstroomt.
+    """
+    h = 250
+    punt = _pijlpunt(DARK)
+    blauw = _pijlpunt(ZEE)
+    d = [f'<rect x="0" y="0" width="{breedte}" height="236" fill="{LUCHT}"/>']
+
+    # De zon links boven.
+    d.append(f'<circle cx="44" cy="36" r="17" fill="{AMBER}"/>')
+    for i in range(8):
+        import math
+        a = i * math.pi / 4
+        d.append(f'<line x1="{44 + 22 * math.cos(a):.1f}" y1="{36 + 22 * math.sin(a):.1f}" '
+                 f'x2="{44 + 28 * math.cos(a):.1f}" y2="{36 + 28 * math.sin(a):.1f}" '
+                 f'stroke="{AMBER}" stroke-width="2" stroke-linecap="round"/>')
+
+    # De zee links, het land rechts.
+    d.append(f'<rect x="0" y="150" width="215" height="86" fill="{ZEE}"/>')
+    d.append(f'<path d="M 215 150 L 272 150 L 330 104 L 372 118 L 430 78 L 470 92 L 470 236 L 215 236 Z" '
+             f'fill="{GRAS}" stroke="{DARK}" stroke-width="1.4"/>')
+    d.append(f'<path d="M 215 206 L 272 206 L 330 180 L 400 188 L 470 168 L 470 236 L 215 236 Z" '
+             f'fill="{ZAND_DONKER}" opacity="0.85"/>')
+
+    # De wolk.
+    for cx, cy, rx, ry in [(192, 52, 21, 14), (215, 44, 27, 18), (240, 53, 21, 13)]:
+        d.append(f'<ellipse cx="{cx}" cy="{cy}" rx="{rx}" ry="{ry}" fill="#ffffff" '
+                 f'stroke="{DIM}" stroke-width="1"/>')
+
+    # Verdamping, condensatie, neerslag, afstroming, infiltratie.
+    d.append(f'<path d="M 104 146 Q 112 100 148 74" fill="none" stroke="{ZEE}" stroke-width="2.2" '
+             f'marker-end="url(#{blauw})"/>')
+    d.append(f'<line x1="162" y1="70" x2="184" y2="56" stroke="{DARK}" stroke-width="2" '
+             f'marker-end="url(#{punt})"/>')
+    for x0, x1, y1 in [(250, 253, 104), (268, 271, 110), (286, 289, 100)]:
+        d.append(f'<line x1="{x0}" y1="68" x2="{x1}" y2="{y1}" stroke="{ZEE}" stroke-width="2.2" '
+                 f'marker-end="url(#{blauw})"/>')
+    d.append(f'<path d="M 424 86 Q 360 122 300 134 Q 252 144 222 150" fill="none" stroke="{ZEE}" '
+             f'stroke-width="2.6" marker-end="url(#{blauw})"/>')
+    d.append(f'<line x1="336" y1="132" x2="340" y2="176" stroke="{ZEE}" stroke-width="2.2" '
+             f'marker-end="url(#{blauw})"/>')
+
+    d.append(_kussen(126, 114, "verdamping", 9.5, DARK, "start", vet=True))
+    d.append(_kussen(215, 22, "condensatie", 9.5, DARK, "middle", vet=True))
+    d.append(_kussen(300, 92, "neerslag", 9.5, DARK, "start", vet=True))
+    d.append(_kussen(276, 158, "afstroming", 9.5, DARK, "middle", vet=True))
+    d.append(_kussen(348, 184, "infiltratie", 9.5, DARK, "start", vet=True))
+    d.append(_kussen(228, 226, "grondwater", 9.5, DARK, "start"))
+
+    return _svg(breedte, h, _pijlpunten() + "".join(d))
+
+
+def gesteentecyclus(breedte=470):
+    """De gesteentecyclus: magma, magmatisch, sedimentair en metamorf gesteente.
+
+    De buitenste pijlen lopen de hele kring rond. De pijl binnenin is er
+    omdat een metamorf gesteente dat aan de oppervlakte komt, net zo goed
+    verweert als elk ander gesteente: de kring heeft geen vaste orde.
+    """
+    h = 272
+    punt = _pijlpunt(DARK)
+    d = []
+    vakken = [
+        (160, 10, 150, 44, ["magmatisch", "gesteente"], "#dcd3e8"),
+        (320, 110, 146, 44, ["sediment en", "sedimentair gesteente"], ZAND),
+        (160, 212, 150, 44, ["metamorf", "gesteente"], "#cfd6c6"),
+        (4, 110, 146, 44, ["magma"], "#f0c9b4"),
+    ]
+    for x, y, w, hh, regels, kleur in vakken:
+        d.append(f'<rect x="{x}" y="{y}" width="{w}" height="{hh}" rx="9" fill="{kleur}" '
+                 f'stroke="{DARK}" stroke-width="1.6"/>')
+        start = y + hh / 2 + (4 if len(regels) == 1 else -3)
+        for i, r in enumerate(regels):
+            d.append(_tekst(x + w / 2, start + i * 13, r, 10, INK, vet=(i == 0)))
+
+    for x1, y1, x2, y2 in [(124, 110, 182, 56), (316, 46, 384, 106),
+                           (386, 158, 318, 212), (154, 220, 92, 158),
+                           (268, 212, 330, 160)]:
+        d.append(f'<line x1="{x1}" y1="{y1}" x2="{x2}" y2="{y2}" stroke="{DARK}" stroke-width="2" '
+                 f'marker-end="url(#{punt})"/>')
+
+    d.append(_kussen(114, 76, "afkoelen", 9.5, DARK, "middle", vet=True))
+    d.append(_kussen(378, 70, "verwering en erosie", 9.5, DARK, "middle", vet=True))
+    d.append(_kussen(374, 200, "druk en hitte", 9.5, DARK, "middle", vet=True))
+    d.append(_kussen(100, 196, "smelten", 9.5, DARK, "middle", vet=True))
+    d.append(_kussen(266, 178, "verwering", 9.5, DARK, "middle"))
+
+    return _svg(breedte, h, _pijlpunten() + "".join(d))

@@ -934,9 +934,6 @@ def main():
     return 1 if fout else 0
 
 
-if __name__ == "__main__":
-    raise SystemExit(main())
-
 
 def _tabelrijen(module, slug, kop):
     """Hoeveel rijen telt de tabel onder die sectiekop? Anders dan `_rijen`
@@ -996,3 +993,30 @@ CONTROLES += [
     ("fr boost: zes werkwoorden met een eigen subjonctif", 6,
      _tabelrijen(_FB, "futur-conditionnel-en-subjonctif" + _N, "De subjonctif: de vorm")),
 ]
+
+
+_AB = "maak_aardrijkskunde_beyond"
+_B = "-beyond"
+CONTROLES += [
+    ("ak beyond: drie groepen gesteenten", 3,
+     _tabelrijen(_AB, "gesteenten-mineralen-en-datering" + _B, "Drie groepen")),
+    ("ak beyond: drie gebergtevormingen", 3,
+     _tabelrijen(_AB, "gesteenten-mineralen-en-datering" + _B, "Gebergtevormingen")),
+    ("ak beyond: drie Milankovic-variabelen", 3,
+     _tabelrijen(_AB, "klimaat-doorheen-de-geologische-tijd" + _B, "De cycli van Milanković")),
+    ("ak beyond: drie periodes om mee te vergelijken", 3,
+     _tabelrijen(_AB, "klimaat-doorheen-de-geologische-tijd" + _B,
+                 "Drie periodes om mee te vergelijken")),
+    ("ak beyond: vier fasen van verstedelijking", 4,
+     _tabelrijen(_AB, "verstedelijking-en-ruimtegebruik" + _B, "Vier fasen")),
+    ("ak beyond: drie vormen uitgeworpen materiaal", 3,
+     _tabelrijen(_AB, "aardbevingen-en-vulkanisme" + _B, "Wat een vulkaan uitwerpt")),
+    ("ak beyond: zes karstverschijnselen", 6,
+     _tabelrijen(_AB, "verwering-karst-en-massatransport" + _B, "Karst")),
+    ("ak beyond: vier manieren van riviertransport", 4,
+     _tabelrijen(_AB, "erosie-door-water-ijs-en-wind" + _B, "Transport en het Hjülströmdiagram")),
+]
+
+
+if __name__ == "__main__":
+    raise SystemExit(main())
