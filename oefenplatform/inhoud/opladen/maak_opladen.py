@@ -142,67 +142,63 @@ def sqlkaarten(lijst):
 # Vanaf hier staat alles van déze ronde. Enkel dit wijzigt.
 # ════════════════════════════════════════════════════════════
 
-BESTAND = "opladen-statistiek.html"
-TITEL = "Plakpagina statistiek"
-SLEUTEL = "connectopia-plakpagina-statistiek-8-oktober"
-VOET = "Bijgewerkt op 8 oktober 2026, 's avonds"
-INTRO = """<p>Eén nieuw vak: <strong>statistiek</strong> van 🌍 Beyond doorstroom, gebouwd op de
-      vakfiche van de examencommissie. Achttien thema's, zesendertig hoofdstukken, 720 vragen,
-      met achttien leerbundels en achttien oefenbundels erbij. De eerste stap moet je echt
-      eerst doen, want anders is er geen vak om de vragen in te plakken.</p>
-      <p>Onderaan staat nog één los stukje sql, voor de dubbele weetjes van Febe.</p>"""
+BESTAND = "opladen-basis-hoekje.html"
+TITEL = "Plakpagina Basis en de uitdagingshoek"
+SLEUTEL = "connectopia-plakpagina-basis-hoekje-8-oktober"
+VOET = "Bijgewerkt op 8 oktober 2026, 's avonds laat"
+INTRO = """<p>Twee nieuwe vakken bij 🧱 <strong>Basis</strong>, allebei een opfrissing zoals de
+      wiskunde die er al staat: <strong>Frans</strong> (de woordenschat die in elke oefening
+      terugkomt) en <strong>Nederlands</strong> (woordsoorten, de d- en t-regel, zinsdelen,
+      meervoud en hoofdletters). Elk vijf thema&#8217;s, tien hoofdstukken, 200 vragen.</p>
+      <p>En een <strong>vierde reeks</strong> in 🔭 de uitdagingshoek, met jouw veertig vragen
+      erin verwerkt. Daar moet je niets nieuws aanmaken: de vier vakken bestaan al.</p>"""
 
-BEYOND_DO = "🌍 Beyond doorstroom"
-
-# (afvinksleutel, naam, categorie, zipnaam)
-LEERBUNDELS = [
-    ("lb-stat", "Statistiek", BEYOND_DO, "statistiek-beyond"),
-]
-OEFENBUNDELS = [
-    ("ob-stat", "Statistiek", BEYOND_DO, "statistiek-beyond"),
-]
-
-# (afvinksleutel, naam, waar, bestandsnaam, waarom)
-SQL = [
-    ("weetjes-dubbel", "Dubbele weetjes opruimen", "oefenplatform", "weetjes-dubbel.sql",
-     "Ruimt de eenentwintig briefjes van Febe op tot één, en zorgt dat hetzelfde kind "
-     "hetzelfde weetje niet nog eens kan insturen. Wat al op het bord hangt blijft hangen."),
-]
+BASIS_CAT = "🧱 Basis"
+HOEKJE = "🔭 De uitdagingshoek"
 
 # (afvinksleutel, naam, categorie, map, bestandsnaam, waarom)
 VRAGEN = [
-    ("stat", "Statistiek", BEYOND_DO, "beyond", "statistiek",
+    ("basis-frans", "Frans", BASIS_CAT, "basis", "frans",
+     "Nieuw vak, dus er staat nog niets in. Vervangen aanzetten kan geen kwaad."),
+    ("basis-nederlands", "Nederlands", BASIS_CAT, "basis", "nederlands",
      "Nieuw vak, dus er staat nog niets in. Vervangen aanzetten kan geen kwaad."),
 ]
 
+HOEKJE_VRAGEN = [
+    ("hk-ruimte", "De ruimte", HOEKJE, "hoekje", "de-ruimte",
+     "Het bestand draagt alle vier de hoofdstukken, dus vervangen moet hier echt aan. "
+     "De antwoorden van de kinderen blijven staan."),
+    ("hk-code", "Coderen en computers", HOEKJE, "hoekje", "coderen-en-computers",
+     "Zelfde als hierboven: alle vier de hoofdstukken zitten erin, dus vervangen aan."),
+    ("hk-belgie", "Geschiedenis van België", HOEKJE, "hoekje", "geschiedenis-van-belgie",
+     "Zelfde als hierboven: alle vier de hoofdstukken zitten erin, dus vervangen aan."),
+    ("hk-paradox", "Paradoxen en weetjes", HOEKJE, "hoekje", "paradoxen-en-weetjes",
+     "Zelfde als hierboven: alle vier de hoofdstukken zitten erin, dus vervangen aan."),
+]
+
 SECTIES = [
-    dict(kop="Maak eerst het vak zelf",
+    dict(kop="Maak eerst de twee nieuwe vakken",
          uitleg="Ga naar <span class=\"pad\">Beheer</span>, <span class=\"pad\">Vakken</span>, "
-                "kies de categorie <span class=\"pad\">🌍 Beyond doorstroom</span> en klik op "
-                "<span class=\"pad\">Een vak toevoegen</span>. Noem het <span class=\"pad\">Statistiek</span> "
-                "en zet het vinkje <span class=\"pad\">Rekenmachine (GeoGebra)</span> aan. Dat vinkje "
-                "is geen extraatje: twee van de achttien thema\u2019s zijn niet op te lossen zonder de "
-                "kansrekenmachine of het rekenblad, en die zitten in dat tabblad. Vergeet je het, "
-                "dan kan je het later nog aanzetten met de knop rechts van de vaknaam.",
+                "kies de categorie <span class=\"pad\">🧱 Basis</span> en klik op "
+                "<span class=\"pad\">Een vak toevoegen</span>. Doe dat twee keer: één vak "
+                "<span class=\"pad\">Frans</span> en één vak <span class=\"pad\">Nederlands</span>. "
+                "Het vinkje voor de rekenmachine laat je hier uit. Zonder vak is er niets om de "
+                "vragen in te plakken.",
          kaarten=[]),
-    dict(kop="Plak de vragen in het nieuwe vak",
+    dict(kop="Plak de vragen in de twee nieuwe vakken",
          uitleg="Open het vak dat je net maakte, klik op <span class=\"pad\">Vragen importeren</span> "
-                "en plak met ctrl+V. Zet <span class=\"pad\">Bestaande vragen vervangen</span> aan. "
-                "Het bestand kiest zelf de categorie, dus de zesendertig hoofdstukken komen onder "
-                "🌍 Beyond doorstroom terecht, ook als je ergens anders staat.",
+                "en plak met ctrl+V. Het bestand kiest zelf de categorie, dus de tien hoofdstukken "
+                "komen onder 🧱 Basis terecht. Het eerste hoofdstuk van een nieuw vak wordt vanzelf "
+                "gratis, net zoals bij de andere vakken.",
          kaarten=vraagkaarten(VRAGEN)),
-    dict(kop="De bundels om af te drukken",
-         uitleg="Deze twee hoef je nergens op te laden: ze staan al op het oefenplatform, bij "
-                "elk hoofdstuk. Ze staan hier zodat je ze in één keer kan downloaden als je "
-                "iets wil afdrukken. Klikken opent het downloadvenster van je browser; daarna "
-                "staat er een zip in je map Downloads die je moet uitpakken.",
-         kaarten=zipkaarten(LEERBUNDELS, "leerbundels", "leerbundels", voor="l-")
-                 + zipkaarten(OEFENBUNDELS, "oefenbundels", "oefenbundels", voor="o-")),
-    dict(kop="En nog één stukje sql",
-         uitleg="Dit heeft niets met statistiek te maken. Ga naar Supabase, het project van het "
-                "<span class=\"pad\">oefenplatform</span>, open de <span class=\"pad\">SQL Editor</span>, "
-                "plak en klik op <span class=\"pad\">Run</span>. Je mag het gerust twee keer draaien.",
-         kaarten=sqlkaarten(SQL)),
+    dict(kop="De vierde reeks van de uitdagingshoek",
+         uitleg="Deze vier vakken bestaan al, dus je hoeft niets aan te maken. Open elk vak in "
+                "<span class=\"pad\">🔭 De uitdagingshoek</span>, klik op "
+                "<span class=\"pad\">Vragen importeren</span>, plak en zet "
+                "<span class=\"pad\">Bestaande vragen vervangen</span> aan. Elk bestand draagt alle "
+                "vier de hoofdstukken, dus zonder dat vinkje krijg je alles dubbel. De voortgang van "
+                "de kinderen blijft bewaard.",
+         kaarten=vraagkaarten(HOEKJE_VRAGEN)),
 ]
 
 

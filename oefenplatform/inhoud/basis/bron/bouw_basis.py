@@ -47,6 +47,19 @@ THEMAS = [
     # kleuroefeningen (zie components/Figuren.tsx).
     ("kommagetallen", "Kommagetallen vergelijken, optellen en aftrekken", "wiskunde-extra.json"),
     ("breuken_beeld", "Breuken in beeld", "wiskunde-extra.json"),
+    # Kim, 8 oktober 2026: "bij basis nog basis vocabulaire frans te maken en
+    # mss basis nederlandse grammatica, alle 3 de basis dingen zijn
+    # opfrissingen". Geen rekenwerk, dus al die vragen dragen WOORD.
+    ("fr_getallen", "Getallen, kleuren en de klok", "frans.json"),
+    ("fr_familie", "Jezelf voorstellen en de familie", "frans.json"),
+    ("fr_eten", "Eten, drinken en winkelen", "frans.json"),
+    ("fr_school", "Op school, thuis en in de stad", "frans.json"),
+    ("fr_werkwoorden", "Werkwoorden die je elke dag nodig hebt", "frans.json"),
+    ("nl_woordsoorten", "Woordsoorten: welk woord doet wat", "nederlands.json"),
+    ("nl_tegenwoordig", "Het werkwoord in de tegenwoordige tijd", "nederlands.json"),
+    ("nl_verleden", "De verleden tijd en het voltooid deelwoord", "nederlands.json"),
+    ("nl_zinsdelen", "Zinsdelen: wie doet wat", "nederlands.json"),
+    ("nl_spelling", "Meervoud, verkleinwoord en hoofdletters", "nederlands.json"),
 ]
 
 fouten = []

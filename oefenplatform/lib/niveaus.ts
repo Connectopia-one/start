@@ -23,10 +23,12 @@ export type Niveau = {
 };
 
 /*
-  🧱 Basis is geen leerjaar maar herhaling: de bouwstenen (komma verschuiven,
-  maten omzetten, breuken, de namen van de bewerkingen, ggd en kgv) voor een
-  kind dat die nog niet vlot beheerst, in welke categorie het ook zit. Daarom
-  staat het op de startpagina apart, onder de leerjaarknoppen.
+  🧱 Basis is geen leerjaar maar herhaling: de bouwstenen voor een kind dat
+  die nog niet vlot beheerst, in welke categorie het ook zit. Daarom staat het
+  op de startpagina apart, onder de leerjaarknoppen. Sinds 8 oktober 2026 is
+  dat niet enkel wiskunde (komma verschuiven, maten, breuken, ggd en kgv) maar
+  ook Frans (de woordenschat die in elke oefening terugkomt) en Nederlands
+  (woordsoorten, de d- en t-regel, zinsdelen, meervoud en hoofdletters).
 
   🔭 De uitdagingshoek is dat andere uiterste: geen leerstof van een leerjaar,
   maar vragen die er net naast liggen (de ruimte, hoe een computer denkt, de

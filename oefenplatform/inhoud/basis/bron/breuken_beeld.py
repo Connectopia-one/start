@@ -53,8 +53,12 @@ DEEL1 = [
     mk(f"Welke breuk is gekleurd? {figuur('cirkel', 5, 6)}", ["5/6", "1/6", "6/5"],
        "6 stukken, 5 gekleurd: 5/6. Er is maar 1/6 wit.",
        gekleurd(figuur("cirkel", 5, 6))),
-    mk(f"Hoeveel stukken van deze cirkel moet je kleuren om de helft te hebben? {figuur('cirkel', 0, 8)}", ["4", "2", "8"],
-       "De cirkel heeft 8 stukken. De helft van 8 is 4.",
+    # Een kind las dit als een kleuropdracht en zocht naar een tekening om in
+    # te kleuren die er niet was (gemeld op 1 oktober 2026, commit dc98879).
+    # Die verbetering stond tot 8 oktober enkel in de json en niet hier, dus
+    # een nieuwe bouw draaide ze terug. Nu staat ze waar ze hoort.
+    mk(f"Een cirkel is verdeeld in 8 gelijke stukken. Hoeveel van die stukken samen zijn de helft? {figuur('cirkel', 0, 8)}", ["4", "2", "8"],
+       "De cirkel heeft 8 gelijke stukken. De helft van 8 is 4, dus 4 stukken samen zijn de helft.",
        F(1, 2) * 8),
     won("Hoe meer gelijke stukken een geheel heeft, hoe groter elk stuk.", False,
         "Niet waar, het is net omgekeerd. Een taart in 8 stukken geeft kleinere stukken dan een taart in 4. Daarom is 1/8 kleiner dan 1/4.",

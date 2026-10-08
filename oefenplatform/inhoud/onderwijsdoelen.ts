@@ -183,7 +183,7 @@ export const startUitleg = {
   bouwstenen, los van een leerjaar.
 */
 export const basisUitleg =
-  "Nog niet vlot met de komma, maten, breuken of ggd en kgv? Hier herhaal je de bouwstenen stap voor stap, met een leerbundel en oefeningen. Voor elk niveau.";
+  "Nog niet vlot met de komma, de breuken, de d- en t-regel of de eerste Franse woorden? Hier herhaal je de bouwstenen stap voor stap, met oefeningen en uitleg. Voor elk niveau.";
 
 /*
   De zin onder 🔭 de uitdagingshoek op de startpagina. Die hoek staat naast de

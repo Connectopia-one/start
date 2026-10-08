@@ -1,0 +1,98 @@
+# -*- coding: utf-8 -*-
+"""🧱 Basis Frans — Getallen, kleuren, dagen en de klok.
+
+Een opfrissing: de woorden die je in elk gesprek en in elke oefening
+tegenkomt. Deel 1 gaat over tellen en kleuren, deel 2 over de dagen, de
+maanden en hoe laat het is.
+
+De valstrikken zitten bij de woorden die op een Nederlands woord lijken maar
+iets anders betekenen (onze, hier, cent) en bij de Franse manier om 70, 80 en
+90 te zeggen.
+"""
+from reken import mk, invul, won, WOORD
+
+DEEL1 = [
+    mk("Wat betekent quatre?", ["vier", "veertien", "veertig"],
+       "Quatre is vier. Veertien is quatorze en veertig is quarante: ze beginnen alle drie gelijk, dus luister naar het einde.", WOORD),
+    mk("Welk getal is sept?", ["zeven", "zes", "zestien"],
+       "Sept is zeven. Zes is six en zestien is seize.", WOORD),
+    mk("Wat betekent onze?", ["elf", "ons", "acht"],
+       "Onze is het Franse woord voor elf. Het lijkt op ons Nederlandse onze, maar dat is toeval.", WOORD),
+    mk("Welk getal is quinze?", ["vijftien", "vijf", "vijftig"],
+       "Quinze is vijftien. Vijf is cinq en vijftig is cinquante.", WOORD),
+    mk("Wat betekent vingt?", ["twintig", "twaalf", "twee"],
+       "Vingt is twintig. De g en de t hoor je niet: je zegt het ongeveer als vɛ̃.", WOORD),
+    mk("Welk getal is soixante-dix?", ["zeventig", "zestig", "zeventien"],
+       "Letterlijk staat er zestig-tien, en dat is zeventig. In België en Zwitserland zeggen ze gewoon septante.", WOORD),
+    mk("Welk getal is quatre-vingts?", ["tachtig", "veertig", "vierentwintig"],
+       "Letterlijk vier-twintig, dus vier keer twintig is tachtig. In België hoor je ook octante of huitante, maar quatre-vingts is het schoolwoord.", WOORD),
+    mk("Wat betekent cent?", ["honderd", "een cent geld", "tien"],
+       "Cent is honderd. Tweehonderd is deux cents, met een s erbij.", WOORD),
+    mk("Welke kleur is rouge?", ["rood", "roze", "oranje"],
+       "Rouge is rood. Roze is rose en oranje is orange.", WOORD),
+    mk("Welke kleur is vert?", ["groen", "grijs", "paars"],
+       "Vert is groen. Grijs is gris en paars is violet.", WOORD),
+    mk("Welke kleur is jaune?", ["geel", "bruin", "blauw"],
+       "Jaune is geel. Je zegt het ongeveer als zjoon.", WOORD),
+    mk("Wat betekent noir?", ["zwart", "wit", "donker"],
+       "Noir is zwart. Wit is blanc, en donker is sombre of foncé.", WOORD),
+    mk("Wat betekent bleu clair?", ["lichtblauw", "donkerblauw", "helderblauw water"],
+       "Clair betekent licht, foncé betekent donker. Dus bleu foncé is donkerblauw.", WOORD),
+    won("Neuf betekent zowel negen als nieuw.", True,
+        "Waar. Un neuf is een negen, en une voiture neuve is een nieuwe auto. Welke van de twee het is, lees je aan de zin.", True),
+    won("Blanc betekent zwart.", False,
+        "Niet waar. Blanc is wit, zwart is noir. Denk aan een blanco blad: dat is wit.", False),
+    won("Voor 90 zeggen Fransen letterlijk vier-twintig-tien.", True,
+        "Waar: quatre-vingt-dix. Het Frans rekent bij die getallen in stappen van twintig. In België zeggen we makkelijker nonante.", True),
+    won("Een kleurwoord staat in het Frans meestal vóór het zelfstandig naamwoord.", False,
+        "Niet waar, het staat er net achter: une voiture rouge, un pull vert. Dat is omgekeerd aan het Nederlands.", False),
+    invul("Hoe schrijf je het getal 3 in het Frans?", "trois",
+          "Trois. Let op de s op het einde, die je niet uitspreekt.", WOORD),
+    invul("Vertaal blauw naar het Frans.", "bleu",
+          "Bleu. Een blauwe jas is un manteau bleu, de kleur komt erachter.", WOORD),
+    invul("Hoeveel is dix plus cinq? Geef het antwoord in cijfers.", "15",
+          "Dix is tien en cinq is vijf, samen vijftien. In het Frans: quinze.", 15),
+]
+
+DEEL2 = [
+    mk("Welke dag is lundi?", ["maandag", "zondag", "dinsdag"],
+       "Lundi is maandag, de dag van de maan (la lune). Zondag is dimanche.", WOORD),
+    mk("Welke dag is samedi?", ["zaterdag", "zondag", "woensdag"],
+       "Samedi is zaterdag. Zondag is dimanche, de enige dag die niet op -di eindigt.", WOORD),
+    mk("Wat betekent aujourd'hui?", ["vandaag", "vanavond", "altijd"],
+       "Aujourd'hui is vandaag. Het woord zit vol stille letters: je zegt het als ozjoerdwie.", WOORD),
+    mk("Wat betekent demain?", ["morgen", "gisteren", "de ochtend"],
+       "Demain is morgen (de dag erna). De ochtend is le matin, en overmorgen is après-demain.", WOORD),
+    mk("Wat betekent hier?", ["gisteren", "hier, op deze plaats", "vandaag"],
+       "Hier is gisteren. Het ziet eruit als ons woord hier, maar voor een plaats zeggen Fransen ici.", WOORD),
+    mk("Welke maand is juillet?", ["juli", "juni", "januari"],
+       "Juillet is juli, juin is juni. Die twee lijken sterk op elkaar, ook in het Nederlands.", WOORD),
+    mk("Welke maand is janvier?", ["januari", "juni", "juli"],
+       "Janvier is januari, de eerste maand van het jaar (l'année).", WOORD),
+    mk("Wat vraag je met Quelle heure est-il ?", ["Hoe laat is het?", "Welke dag is het?", "Hoe oud ben je?"],
+       "Une heure is een uur. Hoe oud ben je, is Quel âge as-tu ?", WOORD),
+    mk("Wat betekent Il est trois heures ?", ["Het is drie uur", "Het duurt drie uur", "Er zijn drie uren over"],
+       "Il est is hier het is. Let op de s van heures: vanaf twee uur staat er een meervoud.", WOORD),
+    mk("Wat betekent et quart?", ["kwart over", "kwart voor", "half"],
+       "Il est trois heures et quart is kwart over drie. Kwart voor is moins le quart.", WOORD),
+    mk("Wat betekent moins le quart?", ["kwart voor", "kwart over", "tien over"],
+       "Moins betekent min, dus je trekt een kwartier van het volgende uur af: quatre heures moins le quart is kwart voor vier.", WOORD),
+    mk("Wat betekent le matin?", ["de ochtend", "de avond", "de middag"],
+       "Le matin is de ochtend, le soir de avond en l'après-midi de namiddag.", WOORD),
+    mk("Wat betekent la semaine?", ["de week", "het weekend", "de maand"],
+       "La semaine is de week. Het weekend heet ook in het Frans le week-end.", WOORD),
+    won("De namen van de maanden krijgen in het Frans een hoofdletter.", False,
+        "Niet waar: janvier, février, mars, alles met een kleine letter. Dat geldt ook voor de dagen van de week.", False),
+    won("Le week-end bestaat echt als Frans woord.", True,
+        "Waar, het is uit het Engels overgenomen en staat gewoon in het woordenboek, met een streepje ertussen.", True),
+    won("Midi betekent middernacht.", False,
+        "Niet waar. Midi is de middag, twaalf uur 's middags. Middernacht is minuit.", False),
+    won("De Franse week begint op lundi.", True,
+        "Waar. Op een Franse kalender staat maandag vooraan, net als bij ons.", True),
+    invul("Vertaal woensdag naar het Frans.", "mercredi",
+          "Mercredi, de dag van Mercurius. Alle weekdagen behalve dimanche eindigen op -di.", WOORD),
+    invul("Vertaal de maand naar het Frans, zonder lidwoord.", "mois",
+          "Le mois. De s hoor je niet, en in het meervoud verandert er niets: les mois.", WOORD),
+    invul("Il est huit heures. Hoe laat is het? Geef het uur in cijfers.", "8",
+          "Huit is acht, dus het is acht uur.", 8),
+]
