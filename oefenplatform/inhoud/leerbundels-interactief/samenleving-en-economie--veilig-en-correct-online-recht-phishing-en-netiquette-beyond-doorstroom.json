@@ -1,0 +1,170 @@
+{
+ "vak": "Samenleving en economie",
+ "titel": "Veilig en correct online: recht, phishing en netiquette",
+ "onder": "Auteursrecht, creative commons, portretrecht en privacy, en daarnaast wachtwoorden, phishing, nepnieuws, cyberpesten en netiquette.",
+ "secties": [
+  {
+   "kop": "Auteursrecht",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Het <strong>auteursrecht</strong> is het recht van <strong>wie een werk gemaakt heeft</strong> om erover te beslissen. Je krijgt het <strong>automatisch</strong>, zodra je iets eigen gemaakt hebt: <strong>aanvragen hoeft niet</strong>."
+    },
+    {
+     "soort": "tekst",
+     "html": "Het blijft gelden tot <strong>zeventig jaar na het overlijden van de maker</strong>. Daarna is het werk vrij, en daarom kan je oude boeken en schilderijen wel vrij gebruiken."
+    },
+    {
+     "soort": "kader",
+     "html": "Vind je online een mooie foto <strong>zonder enige vermelding</strong>, ga er dan van uit dat ze <strong>beschermd</strong> is en dat je <strong>toelating nodig</strong> hebt. <strong>Geen vermelding betekent niet vrij</strong>: de bescherming is er ook als niemand het erbij schrijft."
+    },
+    {
+     "soort": "weetje",
+     "html": "Een <strong>kort citaat met bronvermelding</strong> mag, bijvoorbeeld in een werkje of een bespreking. Een <strong>heel hoofdstuk</strong> overnemen is geen citaat."
+    }
+   ]
+  },
+  {
+   "kop": "Creative commons",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "<strong>Creative commons</strong> is een <strong>licentie waarmee de maker vooraf toelating geeft</strong>, onder voorwaarden. Je hoeft hem dus niets meer apart te vragen, maar je moet je wel aan die voorwaarden houden."
+    },
+    {
+     "soort": "tekst",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Voorwaarde</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Wat ze vraagt</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">naamsvermelding</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">de naam van de maker erbij zetten waar je het werk gebruikt</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">niet commercieel</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">het werk niet gebruiken om er geld mee te verdienen</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">niet bewerken</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">het werk niet aanpassen of veranderen</td></tr></table>"
+    },
+    {
+     "soort": "kader",
+     "html": "Creative commons betekent <strong>niet</strong> dat je het werk <strong>zonder voorwaarden</strong> mag gebruiken. De <strong>naamsvermelding</strong> is de lichtste voorwaarde en meteen die <strong>die het vaakst vergeten wordt</strong>. In de licenties staat ze als <strong>BY</strong>."
+    }
+   ]
+  },
+  {
+   "kop": "Portretrecht en privacy",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Bij een foto van een persoon spelen <strong>twee rechten tegelijk</strong>:"
+    },
+    {
+     "soort": "tekst",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Recht</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Van wie het is</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">auteursrecht</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">van wie de foto maakte</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">portretrecht</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">van wie herkenbaar op de foto staat</td></tr></table>"
+    },
+    {
+     "soort": "tekst",
+     "html": "Neem je op een feest een foto van een vriendin en wil je die op je verhaal zetten, dan heb je <strong>haar toelating</strong> nodig: jij hebt het auteursrecht, zij heeft het portretrecht. Vragen is dus niet alleen vriendelijk, het hoort. Zet iemand <strong>zonder te vragen</strong> een foto van jou online, dan mag je hem vragen die <strong>weg te halen</strong>; lukt dat niet, dan kan je het <strong>bij het platform zelf melden</strong>."
+    },
+    {
+     "soort": "tekst",
+     "html": "Het <strong>privacyrecht</strong> beschermt je <strong>persoonsgegevens</strong> en <strong>wat er met die gegevens mag gebeuren</strong>. Gegevens over jou zijn van jou, en wie ze bijhoudt moet zeggen <strong>waarvoor</strong>."
+    },
+    {
+     "soort": "kader",
+     "html": "Daaruit volgen twee regels. <strong>Niet meer gegevens vragen dan voor het doel nodig is</strong>: voor een nieuwsbrief is een mailadres genoeg, een rijksregisternummer hoort daar niet bij. En gegevens die een bedrijf over jou bijhoudt, mag je <strong>opvragen, laten verbeteren</strong> en in veel gevallen <strong>laten verwijderen</strong>."
+    }
+   ]
+  },
+  {
+   "kop": "Wachtwoorden",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Een <strong>sterk wachtwoord</strong> is <strong>lang</strong>, <strong>niet te raden</strong> en je gebruikt het <strong>maar op één plaats</strong>. <strong>Lengte helpt meer dan rare tekens.</strong>"
+    },
+    {
+     "soort": "tekst",
+     "html": "Hergebruik is de grootste fout: <strong>raakt je wachtwoord op één site buiten, dan liggen al je andere rekeningen open</strong>, want wie het heeft, probeert het gewoon elders."
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Tweestapsverificatie</strong> (ook tweefactorauthenticatie) zet <strong>naast je wachtwoord nog een code of een vinger</strong> als tweede slot. Ook met je wachtwoord komt iemand er dan niet in."
+    },
+    {
+     "soort": "kader",
+     "html": "Je <strong>wachtwoord deel je nooit</strong>, ook niet met iemand die zegt dat hij van de helpdesk is. Een <strong>echte helpdesk heeft je wachtwoord niet nodig</strong>."
+    }
+   ]
+  },
+  {
+   "kop": "Phishing",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "<strong>Phishing</strong> is een <strong>nagemaakt bericht dat je gegevens of je geld wil loskrijgen</strong>, naar het Engelse woord voor vissen. Het doet zich voor als je bank, de post of een bekende dienst."
+    },
+    {
+     "soort": "tekst",
+     "html": "Wat een phishingbericht vaak verraadt:"
+    },
+    {
+     "soort": "tekst",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Teken</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Waar je op let</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">de afzender</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een adres dat net niet juist is</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">haast</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">je moet nu iets doen of je rekening gaat dicht</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">de link</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">hij gaat naar een adres dat je niet herkent</td></tr></table>"
+    },
+    {
+     "soort": "kader",
+     "html": "<strong>De taal zegt niets.</strong> Een nepbericht kan vlekkeloos Nederlands zijn en het juiste logo dragen. Kijk naar de <strong>afzender en de link</strong>, niet naar de opmaak."
+    },
+    {
+     "soort": "tekst",
+     "html": "Krijg je een mail van je bank met de vraag om <strong>via een link</strong> je gegevens te bevestigen, dan <strong>klik je niet</strong> en ga je <strong>zelf naar de site of de app</strong> van je bank. Een bank vraagt je nooit om via een link je codes te bevestigen."
+    }
+   ]
+  },
+  {
+   "kop": "Nepnieuws",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "<strong>Nepnieuws</strong> zijn <strong>onjuiste berichten die met opzet als echt nieuws verspreid worden</strong>. Een vergissing in een krant is geen nepnieuws: de <strong>opzet</strong> maakt het verschil."
+    },
+    {
+     "soort": "tekst",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Twijfel</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Wat je doet</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een schokkend bericht zonder bron</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">nakijken of ernstige media hetzelfde brengen</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een foto die verdacht lijkt</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">de foto omgekeerd opzoeken en zien waar ze eerder opdook</td></tr></table>"
+    },
+    {
+     "soort": "tekst",
+     "html": "Oude foto's duiken vaak bij een nieuwe gebeurtenis op; omgekeerd zoeken laat dat meteen zien."
+    },
+    {
+     "soort": "kader",
+     "html": "<strong>Deel nooit iets dat je niet nagekeken hebt.</strong> En let op: <strong>hoeveel keer iets gedeeld is, zegt niets over de waarheid</strong>."
+    }
+   ]
+  },
+  {
+   "kop": "Cyberpesten en netiquette",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Wordt iemand in een groepsgesprek <strong>dag na dag belachelijk gemaakt</strong>, dan is de beste reactie: <strong>bewijs bewaren, melden, en de persoon zelf niet alleen laten</strong>. Een <strong>schermafbeelding</strong> is je bewijs, want berichten worden vaak gewist."
+    },
+    {
+     "soort": "kader",
+     "html": "<strong>Niet meedoen is nodig, maar niet genoeg.</strong> Wie gepest wordt, heeft iemand nodig die er <strong>iets van zegt</strong>."
+    },
+    {
+     "soort": "tekst",
+     "html": "Een <strong>foto doorsturen</strong> die duidelijk niet bedoeld was om gedeeld te worden, mag niet — <strong>ook al heb je ze zelf gekregen</strong>. Een foto krijgen is geen toelating om ze verder te sturen; daar gaan het portretrecht en de privacy over."
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Netiquette</strong> zijn de <strong>omgangsregels voor hoe je je online gedraagt</strong>, uit net en etiquette. Een bericht <strong>volledig in hoofdletters</strong> hoort daar niet bij: hoofdletters lezen online als <strong>roepen</strong>."
+    }
+   ]
+  }
+ ],
+ "onthoud": [
+  "Het auteursrecht ontstaat automatisch bij het maken en loopt tot zeventig jaar na het overlijden.",
+  "Geen vermelding bij een foto betekent niet dat ze vrij is.",
+  "Creative commons: de maker geeft vooraf toelating, met voorwaarden als naamsvermelding, niet commercieel of niet bewerken.",
+  "Het auteursrecht is van de fotograaf, het portretrecht van wie erop staat.",
+  "Het privacyrecht beschermt je persoonsgegevens; er mag niet meer gevraagd worden dan nodig.",
+  "Een sterk wachtwoord is lang, niet te raden en maar op één plaats in gebruik.",
+  "Tweestapsverificatie zet een tweede slot naast je wachtwoord.",
+  "Phishing verraadt zich door de afzender, de haast en de link, nooit door de taal.",
+  "Nepnieuws is onjuist én met opzet verspreid. Kijk na voor je deelt.",
+  "Bij cyberpesten: schermafbeelding, melden, en de persoon niet alleen laten. Hoofdletters zijn roepen."
+ ]
+}

@@ -1,0 +1,133 @@
+{
+ "vak": "Samenleving en economie",
+ "titel": "Tekstverwerking met Word",
+ "onder": "Tekenopmaak tegenover alineaopmaak, de paginaopmaak, tabellen en opslaan als PDF.",
+ "secties": [
+  {
+   "kop": "Geen computerwerk, wel kennis",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Dit thema vraagt <strong>geen werk in het programma zelf</strong>. De vakfiche zegt het letterlijk: je werkt niet met de programma's, je krijgt <strong>schermafdrukken</strong> uit Windows 10 en MS Office 365. Je moet dus <strong>weten hoe iets heet en wat een knop doet</strong>."
+    }
+   ]
+  },
+  {
+   "kop": "Tekenopmaak tegenover alineaopmaak",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Dit is het onderscheid waar het hele thema op draait. <strong>Tekenopmaak</strong> werkt op de <strong>geselecteerde letters</strong>, <strong>alineaopmaak</strong> op de <strong>hele alinea</strong>."
+    },
+    {
+     "soort": "tekst",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Tekenopmaak</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Alineaopmaak</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">vet, cursief, onderstrepen</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">uitlijning</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">lettertype en tekengrootte</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">regelafstand</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">tekstkleur en markeren</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">inspringen</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">doorhalen</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">de afstand tussen alinea's</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">superscript en subscript</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">tekstdoorloop</td></tr></table>"
+    },
+    {
+     "soort": "kader",
+     "html": "Een gevolg dat je moet kennen: voor <strong>regelafstand hoef je niets te selecteren</strong>, want het is alineaopmaak en je <strong>cursor in de alinea</strong> volstaat. Wil je <strong>één woord</strong> midden in een zin vet, dan moet je dat woord wél <strong>selecteren</strong>: vet is tekenopmaak."
+    }
+   ]
+  },
+  {
+   "kop": "Tekenopmaak van dichtbij",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Opmaak</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Wat ze doet</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Voorbeeld</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">superscript</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">kleine tekens iets boven de regel</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">m²</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">subscript</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">kleine tekens iets onder de regel</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">H₂O</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">markeren</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een gekleurde achtergrond achter de tekst, als met een fluostift</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">None</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">tekstkleur</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">de letters zelf een kleur geven</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">None</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">doorhalen</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een streep door de tekst, die leesbaar blijft</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">None</td></tr></table>"
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Markeren en tekstkleur</strong> doen dus <strong>niet</strong> hetzelfde: markeren <strong>verft de achtergrond</strong>, tekstkleur <strong>verft de letters</strong>."
+    },
+    {
+     "soort": "weetje",
+     "html": "<strong>Doorhalen</strong> is handig om te tonen wat geschrapt is zonder het weg te gooien. De lezer ziet nog wat er stond."
+    }
+   ]
+  },
+  {
+   "kop": "Alineaopmaak van dichtbij",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Er zijn <strong>vier uitlijningen</strong>: <strong>links</strong>, <strong>gecentreerd</strong>, <strong>rechts</strong> en <strong>uitvullen</strong>. Bij <strong>uitvullen</strong> sluit de tekst <strong>links én rechts</strong> netjes aan: Word rekt de spaties op zodat beide kanten recht zijn."
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Inspringen</strong> laat de alinea <strong>verder van de marge beginnen</strong> — links, rechts, of enkel op de eerste regel."
+    },
+    {
+     "soort": "tekst",
+     "html": "En twee afstanden die vlug verward worden:"
+    },
+    {
+     "soort": "tekst",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Afstand</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Waar ze zit</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">regelafstand</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">tussen de regels binnen één alinea</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">afstand tussen alinea's</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">de witruimte boven en onder een alinea</td></tr></table>"
+    },
+    {
+     "soort": "tekst",
+     "html": "Een <strong>opsomming</strong> kan je invoegen én achteraf nog <strong>wijzigen</strong>; dat vraagt de fiche uitdrukkelijk."
+    }
+   ]
+  },
+  {
+   "kop": "Paginaopmaak en kop- en voettekst",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "De <strong>paginaopmaak</strong> bestaat uit <strong>drie</strong> dingen:"
+    },
+    {
+     "soort": "tekst",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Onderdeel</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Wat je instelt</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">marges</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">de witte rand rond de tekst op een blad</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">afdrukstand</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">staand of liggend, ook portret of landschap</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">formaat</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">de bladgrootte, bijvoorbeeld A4 of A5</td></tr></table>"
+    },
+    {
+     "soort": "tekst",
+     "html": "Een <strong>kop- en voettekst</strong> is tekst die <strong>bovenaan of onderaan op elke bladzijde</strong> terugkomt. Ideaal voor een paginanummer of de naam van je document."
+    },
+    {
+     "soort": "kader",
+     "html": "Gebruik <strong>automatische paginanummering</strong>: de nummers <strong>passen zich aan</strong> als het document langer of korter wordt. Voeg je vooraan een blad toe aan een document van twaalf bladzijden, dan schuiven alle nummers vanzelf op. Zelf nummers typen betekent alles hertypen."
+    }
+   ]
+  },
+  {
+   "kop": "Tabellen, afdrukken en PDF",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Bij een tabel hoort een <strong>ontwerp</strong> en een <strong>indeling</strong>:"
+    },
+    {
+     "soort": "tekst",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Wat je doet</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Wat het betekent</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">randen</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">de lijnen rond en in de cellen</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">arcering</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een kleur of patroon als achtergrond van een cel</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">rijen en kolommen toevoegen of verwijderen</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">de tabel groter of kleiner maken</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">cellen samenvoegen</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">van meerdere cellen één grotere maken</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">cellen splitsen</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">van één cel meerdere maken</td></tr></table>"
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Samenvoegen en splitsen</strong> zijn dus het omgekeerde van elkaar. Wil je een <strong>titel over drie kolommen</strong> laten lopen, dan <strong>voeg je de drie cellen van de bovenste rij samen</strong>."
+    },
+    {
+     "soort": "tekst",
+     "html": "Bij het <strong>afdrukken</strong> stel je volgens de fiche in: de <strong>sortering</strong>, <strong>enkel- of dubbelzijdig</strong>, en <strong>kleur</strong>."
+    },
+    {
+     "soort": "kader",
+     "html": "Je slaat op als <strong>PDF</strong> zodat de <strong>opmaak overal hetzelfde blijft</strong> en niemand het document zomaar wijzigt. Daarom stuur je een PDF door of laat je er iets mee drukken — en daarom bewerk je een PDF in Word <strong>niet</strong> even makkelijk als een gewoon document."
+    }
+   ]
+  }
+ ],
+ "onthoud": [
+  "Tekenopmaak werkt op de selectie, alineaopmaak op de hele alinea.",
+  "Tekenopmaak: vet, cursief, onderstrepen, lettertype, tekengrootte, tekstkleur, markeren, doorhalen, super- en subscript.",
+  "Alineaopmaak: uitlijning, regelafstand, inspringen, afstand tussen alinea's en tekstdoorloop.",
+  "Superscript staat boven de regel (m²), subscript eronder (H₂O).",
+  "Markeren kleurt de achtergrond, tekstkleur kleurt de letters.",
+  "Uitvullen laat de tekst links én rechts aansluiten.",
+  "Paginaopmaak: marges, afdrukstand en formaat.",
+  "Automatische paginanummering schuift mee als er een blad bijkomt.",
+  "Arcering is de vulling van een cel, randen zijn de lijnen.",
+  "PDF zet de opmaak vast; je bewerkt het niet zomaar."
+ ]
+}

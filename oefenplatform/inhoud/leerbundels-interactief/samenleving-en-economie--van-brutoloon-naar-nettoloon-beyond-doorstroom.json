@@ -1,0 +1,101 @@
+{
+ "vak": "Samenleving en economie",
+ "titel": "Van brutoloon naar nettoloon",
+ "onder": "De twee inhoudingen in de juiste volgorde, wat ze doen, en waarom een student, een arbeider en een ouder elk anders uitkomen.",
+ "secties": [
+  {
+   "kop": "De weg van bruto naar netto",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Het <strong>brutoloon</strong> is het loon <strong>voor er iets van afgehouden wordt</strong>. Het <strong>nettoloon</strong> is het bedrag dat je <strong>werkelijk op je rekening krijgt</strong>. Daartussen zitten twee inhoudingen, en de <strong>volgorde ligt vast</strong>."
+    },
+    {
+     "soort": "figuur",
+     "html": "<svg viewBox=\"0 0 470 76\" width=\"470\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"0.0\" y=\"6\" width=\"139.3\" height=\"62\" rx=\"10\" fill=\"#ffffff\" stroke=\"#2f5d50\" stroke-width=\"1.8\"/><text x=\"69.7\" y=\"37.0\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"11.5\" font-weight=\"600\" fill=\"#234539\">brutoloon</text><path d=\"M144.33333333333334 37.0 h12 m0 0 l-6 -5 m6 5 l-6 5\" stroke=\"#2f5d50\" stroke-width=\"2\" fill=\"none\" stroke-linecap=\"round\"/><rect x=\"165.3\" y=\"6\" width=\"139.3\" height=\"62\" rx=\"10\" fill=\"#ffffff\" stroke=\"#2f5d50\" stroke-width=\"1.8\"/><text x=\"235.0\" y=\"29.0\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"11.5\" font-weight=\"600\" fill=\"#234539\">belastbaar loon</text><text x=\"235.0\" y=\"45.0\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"10\" font-weight=\"400\" fill=\"#6b7260\">na de sociale bijdrage</text><path d=\"M309.6666666666667 37.0 h12 m0 0 l-6 -5 m6 5 l-6 5\" stroke=\"#2f5d50\" stroke-width=\"2\" fill=\"none\" stroke-linecap=\"round\"/><rect x=\"330.7\" y=\"6\" width=\"139.3\" height=\"62\" rx=\"10\" fill=\"#ffffff\" stroke=\"#2f5d50\" stroke-width=\"1.8\"/><text x=\"400.3\" y=\"29.0\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"11.5\" font-weight=\"600\" fill=\"#234539\">nettoloon</text><text x=\"400.3\" y=\"45.0\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"10\" font-weight=\"400\" fill=\"#6b7260\">na de bedrijfsvoorheffing</text></svg>",
+     "onderschrift": "De drie bedragen op een loonfiche, in de volgorde waarin ze berekend worden."
+    },
+    {
+     "soort": "tekst",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Stap</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Wat ervan af gaat</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Waarvoor dient het</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Wat je overhoudt</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">1</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">de sociale zekerheidsbijdrage</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">de sociale zekerheid mee financieren</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">het belastbaar loon</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">2</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">de bedrijfsvoorheffing</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een voorschot op je personenbelasting</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">het nettoloon</td></tr></table>"
+    },
+    {
+     "soort": "tekst",
+     "html": "De <strong>bedrijfsvoorheffing komt dus na</strong> de sociale bijdrage, nooit ervoor. En het <strong>belastbaar loon is niet hetzelfde als het nettoloon</strong>: het staat ertussenin."
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Voorheffing</strong> betekent <strong>vooraf geheven</strong>: in de plaats van alles pas bij de aangifte te betalen. Houdt je werkgever er te veel in, dan <strong>krijg je het verschil terug na je belastingaangifte</strong>. De berekening van bruto naar netto vind je terug op de <strong>loonfiche</strong>."
+    },
+    {
+     "soort": "tekst",
+     "html": "Een voorbeeld: iemand verdient 2 400 euro bruto, na de sociale bijdrage blijft 2 086 euro over en na de bedrijfsvoorheffing 1 720 euro. Het <strong>belastbaar loon is 2 086 euro</strong> en de <strong>bedrijfsvoorheffing 366 euro</strong> (2 086 min 1 720)."
+    }
+   ]
+  },
+  {
+   "kop": "Arbeider of bediende",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Bij een <strong>bediende</strong> wordt de sociale bijdrage berekend op zijn <strong>brutoloon</strong>. Bij een <strong>arbeider</strong> op <strong>108 procent van zijn brutoloon</strong>: een oude regel uit de tijd dat arbeiders per dag of per uur betaald werden."
+    },
+    {
+     "soort": "tekst",
+     "html": "Verdienen een arbeider en een bediende allebei 2 000 euro bruto, dan betaalt de <strong>arbeider de hoogste sociale bijdrage</strong>. Het percentage is hetzelfde, maar het bedrag waarop gerekend wordt, ligt bij hem hoger."
+    }
+   ]
+  },
+  {
+   "kop": "Een student",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Binnen een <strong>studentencontract</strong> houdt de werkgever <strong>enkel een solidariteitsbijdrage</strong> in, die lager ligt dan de gewone sociale zekerheidsbijdrage. En er gaat <strong>geen bedrijfsvoorheffing</strong> af."
+    },
+    {
+     "soort": "tekst",
+     "html": "Daarom ligt het <strong>nettoloon van een student dicht bij zijn brutoloon</strong>: de twee gewone inhoudingen vallen voor een groot deel weg."
+    }
+   ]
+  },
+  {
+   "kop": "De gezinssituatie",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "De <strong>gezinssituatie</strong> van de werknemer beïnvloedt de hoogte van de <strong>bedrijfsvoorheffing</strong>, en dus het nettoloon. Hebben twee mensen hetzelfde brutoloon maar heeft de ene <strong>twee kinderen ten laste</strong>, dan houdt die <strong>netto meer over</strong>."
+    },
+    {
+     "soort": "kader",
+     "html": "Het verschil zit in de <strong>bedrijfsvoorheffing</strong>, niet in de sociale bijdrage: die staat los van je gezin."
+    }
+   ]
+  },
+  {
+   "kop": "Wat de werkgever er nog bovenop betaalt",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Niet alleen de werknemer draagt bij aan de RSZ: de <strong>werkgever betaalt er bovenop een eigen bijdrage</strong>. De <strong>loonkost</strong> voor een werkgever is dus het <strong>brutoloon plus zijn eigen bijdrage aan de RSZ</strong>, en daarmee hoger dan het bruto dat op het contract staat."
+    },
+    {
+     "soort": "tekst",
+     "html": "Op een loonfiche staan daarom <strong>twee verschillende inhoudingen met een ander doel</strong>: de RSZ financiert de sociale zekerheid, de voorheffing is een voorschot op je personenbelasting."
+    }
+   ]
+  }
+ ],
+ "onthoud": [
+  "Bruto is voor de inhoudingen, netto is wat op je rekening komt.",
+  "Eerst de sociale zekerheidsbijdrage, dan pas de bedrijfsvoorheffing.",
+  "Na de sociale bijdrage houd je het belastbaar loon over.",
+  "De bedrijfsvoorheffing is een voorschot op je personenbelasting.",
+  "Te veel ingehouden voorheffing krijg je terug na je aangifte.",
+  "Bij een arbeider rekent men op 108 procent van het brutoloon, bij een bediende op het brutoloon.",
+  "Een student betaalt enkel een solidariteitsbijdrage en geen bedrijfsvoorheffing.",
+  "De gezinssituatie verandert de bedrijfsvoorheffing, niet de sociale bijdrage.",
+  "De werkgever betaalt bovenop het bruto nog een eigen RSZ-bijdrage.",
+  "De loonkost is het brutoloon plus de werkgeversbijdrage."
+ ]
+}

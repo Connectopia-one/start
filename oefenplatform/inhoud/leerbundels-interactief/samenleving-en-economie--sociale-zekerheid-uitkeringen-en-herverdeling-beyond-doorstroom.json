@@ -1,0 +1,83 @@
+{
+ "vak": "Samenleving en economie",
+ "titel": "Sociale zekerheid, uitkeringen en herverdeling",
+ "onder": "Solidariteit en de RSZ, de zes uitkeringen, het verschil vervangings- of aanvullend inkomen, en de fiscale en sociale herverdeling.",
+ "secties": [
+  {
+   "kop": "Waarop de sociale zekerheid steunt",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "De sociale zekerheid steunt op <strong>solidariteit</strong>: wie werkt, draagt bij voor wie op dat moment niet kan werken."
+    },
+    {
+     "soort": "tekst",
+     "html": "De <strong>RSZ</strong> is de <strong>Rijksdienst voor Sociale Zekerheid</strong>. Ze int de bijdragen waarmee de sociale zekerheid betaald wordt, en ze wordt gefinancierd door <strong>de werkgevers, de werknemers en de overheid</strong> samen — dus <strong>niet enkel door de werkgevers</strong>. Op je loonbriefje zie je de bijdrage van de werknemer en die van de werkgever apart staan."
+    }
+   ]
+  },
+  {
+   "kop": "De uitkeringen",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Uitkering</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Wanneer</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">werkloosheidsuitkering</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">iemand verliest zijn werk</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">ziekte- en invaliditeitsuitkering</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">iemand kan door ziekte niet werken</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">arbeidsongevallenuitkering</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een ongeval tijdens het werk, zoals een val van een ladder</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">uitkering beroepsziekte</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">ziek worden door jarenlang met een schadelijke stof te werken</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">rust- en overlevingspensioen</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">stoppen op pensioenleeftijd, of een partner die overlijdt</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">jaarlijks vakantiegeld</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">elk jaar, bovenop het loon</td></tr></table>"
+    },
+    {
+     "soort": "tekst",
+     "html": "Een <strong>arbeidsongeval</strong> en een <strong>beroepsziekte</strong> zijn dus <strong>niet hetzelfde</strong>: het ene komt van een plots ongeval, het andere van het werk zelf over langere tijd. Het <strong>rustpensioen</strong> is voor wie stopt met werken, het <strong>overlevingspensioen</strong> voor de achterblijvende partner."
+    }
+   ]
+  },
+  {
+   "kop": "Vervangingsinkomen of aanvullend inkomen",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Een <strong>vervangingsinkomen</strong> is een bedrag dat een <strong>weggevallen loon vervangt</strong>: de werkloosheidsuitkering, de ziekte- en invaliditeitsuitkering en het pensioen. Een <strong>aanvullend inkomen</strong> komt <strong>bovenop</strong> een inkomen: het vakantiegeld en het groeipakket."
+    },
+    {
+     "soort": "kader",
+     "html": "Het <strong>vakantiegeld</strong> staat wél in het rijtje van zes uitkeringen, maar het is <strong>aanvullend</strong> en geen vervangingsinkomen: het komt bovenop je loon en vervangt dus niets."
+    }
+   ]
+  },
+  {
+   "kop": "Herverdeling",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "<strong>Herverdeling</strong> is dat de overheid <strong>middelen verschuift van sterkere naar zwakkere schouders</strong>, om de sociale ongelijkheid te beperken. Het systeem bestaat uit <strong>twee soorten maatregelen</strong>: <strong>fiscale</strong> (via de belastingen) en <strong>sociale</strong> (via uitkeringen, premies en tarieven)."
+    },
+    {
+     "soort": "tekst",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Fiscaal</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Sociaal</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">de progressieve personenbelasting via belastingschijven</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">het leefloon, een sociale bijstandsuitkering</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">belastingvrijstellingen en -verminderingen</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">uitkeringen met herverdelingseffect, zoals pensioenen</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">belastingheffingen op vermogen</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">sociale woningen en huurpremies</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">verschillende tarieven bij indirecte belastingen</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">energiepremies en renovatiesteun</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">studiebeurzen en vermindering van inschrijvingsgeld</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">het groeipakket, de Vlaamse steun voor gezinnen met kinderen</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">kansentarieven voor sport en cultuur</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">de verhoogde tegemoetkoming in de gezondheidszorg</td></tr></table>"
+    },
+    {
+     "soort": "tekst",
+     "html": "Een <strong>progressieve personenbelasting</strong> betekent dat <strong>wie meer verdient een hoger percentage betaalt</strong>, en dat gebeurt via <strong>belastingschijven</strong>: elk stuk van je inkomen valt in een eigen schijf. Betaalde iedereen hetzelfde percentage, dan was ze vlak en niet progressief."
+    },
+    {
+     "soort": "tekst",
+     "html": "De <strong>verschillende tarieven bij indirecte belastingen</strong> bestaan <strong>zodat noodzakelijke producten lichter belast worden dan luxe</strong>. Daarom staat ook die maatregel bij de fiscale herverdeling."
+    },
+    {
+     "soort": "kader",
+     "html": "Het onderscheid blijft eenvoudig: werkt de maatregel <strong>via de belastingen</strong>, dan is ze fiscaal; krijg je er <strong>geld of korting</strong> door, dan is ze sociaal. Een belastingheffing op vermogen is dus fiscaal, een kansentarief sociaal."
+    }
+   ]
+  }
+ ],
+ "onthoud": [
+  "De sociale zekerheid steunt op solidariteit.",
+  "RSZ is de Rijksdienst voor Sociale Zekerheid, betaald door werkgevers, werknemers en overheid.",
+  "Zes uitkeringen: werkloosheid, ziekte en invaliditeit, arbeidsongeval, beroepsziekte, pensioen, vakantiegeld.",
+  "Een arbeidsongeval is een plots ongeval, een beroepsziekte komt van het werk over langere tijd.",
+  "Vervangingsinkomen vervangt een weggevallen loon, aanvullend inkomen komt erbovenop.",
+  "Het vakantiegeld staat in het rijtje maar is aanvullend.",
+  "Herverdeling verschuift middelen van sterkere naar zwakkere schouders.",
+  "Twee soorten: fiscale en sociale maatregelen.",
+  "Progressief: wie meer verdient betaalt een hoger percentage, via belastingschijven.",
+  "Leefloon, groeipakket, huurpremies en kansentarieven zijn sociale maatregelen."
+ ]
+}

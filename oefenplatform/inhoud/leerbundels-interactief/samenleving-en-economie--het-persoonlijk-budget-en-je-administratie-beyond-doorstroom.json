@@ -1,0 +1,120 @@
+{
+ "vak": "Samenleving en economie",
+ "titel": "Het persoonlijk budget en je administratie",
+ "onder": "Twee soorten inkomsten, vier soorten uitgaven, de zeven factoren bij een aankoopkeuze en de papieren die je bijhoudt.",
+ "secties": [
+  {
+   "kop": "Twee soorten inkomsten",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Een budgetplan begint bij wat er binnenkomt. De fiche onderscheidt <strong>twee soorten inkomsten</strong>:"
+    },
+    {
+     "soort": "tekst",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Inkomst</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Wat ze is</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Voorbeeld</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">terugkerende inkomst</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">ze komt regelmatig terug, dus je kan erop rekenen</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">je loon elke maand</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">toevallige inkomst</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">ze komt één keer, dus je kan er niet op rekenen</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">je verkoopt je oude fiets</td></tr></table>"
+    },
+    {
+     "soort": "kader",
+     "html": "Let op de woorden: <strong>terugkerend en toevallig</strong> gaan over de <strong>inkomsten</strong>. <strong>Vast en variabel</strong> gaan over de <strong>uitgaven</strong>. Dat is de verwisseling die in een examen het vaakst wordt gemaakt."
+    }
+   ]
+  },
+  {
+   "kop": "Vier soorten uitgaven",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Bij de uitgaven zijn het er <strong>vier</strong>, niet twee."
+    },
+    {
+     "soort": "tekst",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Uitgave</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Kenmerk</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Voorbeeld</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">vaste uitgave</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">keert terug, altijd hetzelfde bedrag</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">750 euro huur per maand</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">variabele uitgave</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">keert terug, met een wisselend bedrag</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">je boodschappen</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">onvoorziene uitgave</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">je zag ze niet aankomen</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">je ketel valt vandaag stuk</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">uitzonderlijke uitgave</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">ze komt zelden, maar je ziet ze aankomen</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een grote reis volgend jaar</td></tr></table>"
+    },
+    {
+     "soort": "tekst",
+     "html": "Het verschil tussen de laatste twee zit in dat <strong>aankomen</strong>: een <strong>onvoorziene</strong> uitgave zie je <strong>niet</strong> aankomen, een <strong>uitzonderlijke wel</strong>. Daarom kan je voor een uitzonderlijke uitgave <strong>sparen</strong>, en kan je voor een onvoorziene enkel een <strong>buffer</strong> klaarhouden."
+    },
+    {
+     "soort": "weetje",
+     "html": "Een variabele uitgave is géén uitgave die wegblijft. Ze keert elke maand terug, alleen staat er niet elke maand hetzelfde bedrag."
+    }
+   ]
+  },
+  {
+   "kop": "Het budgetplan",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Een <strong>budgetplan</strong> dient om <strong>zicht te krijgen op je inkomsten en uitgaven</strong> en om te berekenen <strong>hoeveel je kan sparen</strong>. Het rekenwerk is één aftrekking: alle inkomsten min alle uitgaven."
+    },
+    {
+     "soort": "tekst",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Budget</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Berekening</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Blijft over</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">1 750 euro in, 1 480 euro uit</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">1 750 − 1 480</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">270 euro</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">2 100 euro in, 900 euro vast, 650 euro variabel</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">2 100 − 900 − 650</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">550 euro</td></tr></table>"
+    },
+    {
+     "soort": "kader",
+     "html": "Wie in zijn budget <strong>enkel met zijn vaste uitgaven rekent</strong>, laat er <strong>drie van de vier soorten</strong> uit: de variabele, de onvoorziene en de uitzonderlijke. Zijn plan ziet er goed uit en klopt niet."
+    }
+   ]
+  },
+  {
+   "kop": "Zeven factoren bij een aankoopkeuze",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Wil je een grote aankoop <strong>verantwoorden</strong>, dan noemt de fiche <strong>zeven factoren</strong>. Ze staan hier alfabetisch, zoals in de fiche."
+    },
+    {
+     "soort": "tekst",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Factor</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">De vraag die je stelt</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">aankoopkost</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">wat kost het product zelf</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">duurzaamheid</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">hoelang gaat het mee, en wat betekent het voor het milieu</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">financieringskost</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">wat kost het me extra om te lenen in plaats van te betalen</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">inflatie</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">geld wordt minder waard, dus wat betekent wachten of sparen</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">noodzakelijkheid</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">heb ik dit echt nodig of wil ik het graag</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">spaarbuffer</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">hou ik genoeg over voor wat ik niet zag aankomen</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">terugbetalingscapaciteit</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">hoeveel kan ik maandelijks afbetalen zonder in de problemen te komen</td></tr></table>"
+    },
+    {
+     "soort": "tekst",
+     "html": "Twee van die zeven worden vaak door elkaar gehaald. De <strong>aankoopkost</strong> is wat het <strong>product</strong> kost; de <strong>financieringskost</strong> is wat het <strong>lenen</strong> erbovenop kost, dus de totale rente over de looptijd."
+    },
+    {
+     "soort": "weetje",
+     "html": "Twijfel je tussen een wasmachine van 400 euro die zes jaar meegaat en een van 700 euro die vijftien jaar meegaat, dan weegt de <strong>duurzaamheid</strong> het zwaarst: per jaar kost de duurste minder."
+    },
+    {
+     "soort": "kader",
+     "html": "De <strong>terugbetalingscapaciteit</strong> is het bedrag dat je maandelijks kan afbetalen zonder in de problemen te komen. De bank kijkt ernaar. Kijk er <strong>zelf eerst</strong> naar."
+    }
+   ]
+  },
+  {
+   "kop": "Je administratie",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Drie documenten gelden volgens de fiche als <strong>aankoopbewijs</strong>: de <strong>factuur</strong>, het <strong>kasticket</strong> en de <strong>aankoopovereenkomst</strong>."
+    },
+    {
+     "soort": "tekst",
+     "html": "Daarnaast hoort er meer bij je <strong>persoonlijke administratie</strong>:"
+    },
+    {
+     "soort": "tekst",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Document</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Waarvoor je het bijhoudt</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">garantiebewijs</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een defect binnen de garantieperiode laten herstellen</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">rekeninguittreksel</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">nakijken wat er van je rekening ging en wat erop kwam</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">verzekeringspolis</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">weten wat er verzekerd is en wat niet</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">loonstrook</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">bewijzen wat je per maand verdiende</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">individuele rekening</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">het jaaroverzicht van wat je werkgever je betaalde</td></tr></table>"
+    },
+    {
+     "soort": "kader",
+     "html": "Het <strong>arbeidsreglement</strong> hoort hier <strong>niet</strong> bij: dat is een document <strong>van het bedrijf</strong>, geen papier van je eigen administratie."
+    }
+   ]
+  }
+ ],
+ "onthoud": [
+  "Inkomsten zijn terugkerend of toevallig. Dat zijn er twee.",
+  "Uitgaven zijn vast, variabel, onvoorzien of uitzonderlijk. Dat zijn er vier.",
+  "Vast is elke maand hetzelfde bedrag; variabel keert terug met een wisselend bedrag.",
+  "Onvoorzien zie je niet aankomen, uitzonderlijk wel. Daarom kan je voor uitzonderlijk sparen.",
+  "Een budgetplan is inkomsten min uitgaven, en toont hoeveel je kan sparen.",
+  "Zeven factoren: aankoopkost, duurzaamheid, financieringskost, inflatie, noodzakelijkheid, spaarbuffer, terugbetalingscapaciteit.",
+  "De aankoopkost is het product, de financieringskost is het lenen.",
+  "De terugbetalingscapaciteit is wat je maandelijks kan afbetalen zonder problemen.",
+  "Aankoopbewijs: factuur, kasticket of aankoopovereenkomst.",
+  "Het arbeidsreglement is van het bedrijf, niet van je eigen administratie."
+ ]
+}

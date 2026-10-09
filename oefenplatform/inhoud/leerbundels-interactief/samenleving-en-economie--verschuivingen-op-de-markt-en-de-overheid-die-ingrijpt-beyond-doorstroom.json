@@ -1,0 +1,105 @@
+{
+ "vak": "Samenleving en economie",
+ "titel": "Verschuivingen op de markt en de overheid die ingrijpt",
+ "onder": "Bewegen op de curve of de curve verschuiven, wat dat met het evenwicht doet, en de drie maatregelen van de overheid.",
+ "secties": [
+  {
+   "kop": "Op de curve of van de curve",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Dit is het onderscheid waar het hier om draait."
+    },
+    {
+     "soort": "tekst",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Wat verandert</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Wat er gebeurt</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">de prijs van het product zelf</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een <b>beweging op</b> de curve: je schuift langs dezelfde lijn naar een ander punt</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">iets anders dan die prijs</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een <b>verschuiving van</b> de curve: de hele lijn verhuist</td></tr></table>"
+    },
+    {
+     "soort": "tekst",
+     "html": "Dat \"iets anders\" is bij de <strong>vraag</strong>: het <strong>inkomen</strong> van de kopers, hun <strong>smaak</strong>, het <strong>aantal kopers</strong>, of de <strong>prijs van een ander product</strong>. Bij het <strong>aanbod</strong>: de <strong>productiekosten</strong>, een <strong>betere techniek</strong>, of het <strong>aantal verkopers</strong>."
+    },
+    {
+     "soort": "kader",
+     "html": "Een <strong>prijsdaling van het product zelf verschuift de vraagcurve niet</strong>. Dan beweeg je langs dezelfde curve naar een ander punt. Een <strong>inkomensstijging</strong> verschuift ze wél, want het inkomen is de prijs van het product niet."
+    }
+   ]
+  },
+  {
+   "kop": "Naar links of naar rechts",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Wat er gebeurt</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Welke curve</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Naar waar</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">de lonen stijgen, men koopt bij elke prijs meer</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">vraag</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">rechts</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een product raakt uit de mode</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">vraag</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">links</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">er komen kopers bij</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">vraag</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">rechts</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een vergelijkbaar product wordt veel goedkoper</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">vraag</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">links</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">de grondstoffen worden duurder</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">aanbod</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">links</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een nieuwe machine maakt produceren goedkoper</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">aanbod</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">rechts</td></tr></table>"
+    },
+    {
+     "soort": "figuur",
+     "html": "<svg viewBox=\"0 0 430 250\" width=\"430\" xmlns=\"http://www.w3.org/2000/svg\"><line x1=\"44\" y1=\"14\" x2=\"44\" y2=\"214\" stroke=\"#23291f\" stroke-width=\"1.8\"/><line x1=\"44\" y1=\"214\" x2=\"418\" y2=\"214\" stroke=\"#23291f\" stroke-width=\"1.8\"/><text x=\"42.0\" y=\"12.0\" text-anchor=\"start\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"10.5\" font-weight=\"600\" fill=\"#6b7260\">prijs</text><text x=\"418.0\" y=\"230.0\" text-anchor=\"end\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"10.5\" font-weight=\"600\" fill=\"#6b7260\">hoeveelheid</text><line x1=\"81.0\" y1=\"37.6\" x2=\"377.0\" y2=\"194.4\" stroke=\"#2f5d50\" stroke-width=\"2.2\"/><line x1=\"81.0\" y1=\"194.4\" x2=\"377.0\" y2=\"37.6\" stroke=\"#c17f2b\" stroke-width=\"2.2\"/><text x=\"383.0\" y=\"194.4\" text-anchor=\"start\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"12\" font-weight=\"600\" fill=\"#2f5d50\">V</text><text x=\"383.0\" y=\"37.6\" text-anchor=\"start\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"12\" font-weight=\"600\" fill=\"#c17f2b\">A</text><line x1=\"44.0\" y1=\"116.0\" x2=\"229.0\" y2=\"116.0\" stroke=\"#6b7260\" stroke-width=\"1\" stroke-dasharray=\"3 3\"/><line x1=\"229.0\" y1=\"214.0\" x2=\"229.0\" y2=\"116.0\" stroke=\"#6b7260\" stroke-width=\"1\" stroke-dasharray=\"3 3\"/><circle cx=\"229.0\" cy=\"116.0\" r=\"4\" fill=\"#23291f\"/><text x=\"236.0\" y=\"109.0\" text-anchor=\"start\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"11\" font-weight=\"600\" fill=\"#23291f\">E</text><line x1=\"155.0\" y1=\"37.6\" x2=\"377.0\" y2=\"155.2\" stroke=\"#2f5d50\" stroke-width=\"2.2\" stroke-dasharray=\"6 4\"/><line x1=\"44.0\" y1=\"96.4\" x2=\"266.0\" y2=\"96.4\" stroke=\"#6b7260\" stroke-width=\"1\" stroke-dasharray=\"3 3\"/><line x1=\"266.0\" y1=\"214.0\" x2=\"266.0\" y2=\"96.4\" stroke=\"#6b7260\" stroke-width=\"1\" stroke-dasharray=\"3 3\"/><circle cx=\"266.0\" cy=\"96.4\" r=\"4\" fill=\"#23291f\"/><text x=\"273.0\" y=\"89.4\" text-anchor=\"start\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"11\" font-weight=\"600\" fill=\"#23291f\">E′</text></svg>",
+     "onderschrift": "De vraagcurve verschuift naar rechts; het snijpunt verhuist van E naar E′."
+    }
+   ]
+  },
+  {
+   "kop": "Wat dat met het evenwicht doet",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Verschuiving</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">De andere blijft gelijk</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Prijs</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Hoeveelheid</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">vraag naar rechts</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">aanbod gelijk</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">stijgt</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">stijgt</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">vraag naar links</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">aanbod gelijk</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">daalt</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">daalt</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">aanbod naar rechts</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">vraag gelijk</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">daalt</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">stijgt</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">aanbod naar links</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">vraag gelijk</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">stijgt</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">daalt</td></tr></table>"
+    },
+    {
+     "soort": "tekst",
+     "html": "Bederft een zomer met slecht weer een groot deel van de oogst, dan verschuift het <strong>aanbod naar links</strong> en <strong>stijgt de prijs</strong> van die groente."
+    }
+   ]
+  },
+  {
+   "kop": "Drie maatregelen van de overheid",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "De fiche noemt er <strong>drie</strong>: <strong>btw en accijnzen heffen</strong>, <strong>premies en subsidies uitkeren</strong>, en <strong>minimum- en maximumprijzen invoeren</strong>. De productie zelf overnemen staat er niet bij."
+    },
+    {
+     "soort": "tekst",
+     "html": "Een <strong>accijns</strong> is een <strong>extra belasting op bepaalde producten</strong>, zoals brandstof, tabak of alcohol. Ze komt bovenop de btw en maakt die producten bewust duurder."
+    },
+    {
+     "soort": "tekst",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Maatregel</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Wat er met de curve gebeurt</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Gevolg</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een belasting op een product</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">het aanbod verschuift naar links</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">de prijs stijgt</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een subsidie aan producenten</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">het aanbod verschuift naar rechts</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">de prijs daalt</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een premie aan de kopers</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">de vraag verschuift naar rechts</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">de prijs stijgt en er wordt meer verkocht</td></tr></table>"
+    },
+    {
+     "soort": "tekst",
+     "html": "Geeft de overheid een premie voor zonnepanelen, dan willen meer mensen kopen bij elke prijs: <strong>meer vraag, dus een hogere prijs en meer verkochte panelen</strong>."
+    }
+   ]
+  },
+  {
+   "kop": "Minimumprijs en maximumprijs",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Vaste prijs</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Waar ze ligt</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Wat ze geeft</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Waarom</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">minimumprijs</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">boven de evenwichtsprijs</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een overschot</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">om de producenten een leefbaar inkomen te garanderen</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">maximumprijs</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">onder de evenwichtsprijs</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een tekort</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">om een noodzakelijk product betaalbaar te houden</td></tr></table>"
+    },
+    {
+     "soort": "tekst",
+     "html": "Een <strong>minimumprijs onder</strong> het evenwicht verandert niets, want de markt zit er al boven. Een <strong>maximumprijs boven</strong> het evenwicht verandert evenmin iets. Een vaste prijs doet dus pas iets als ze aan de <strong>juiste kant</strong> van het evenwicht ligt."
+    },
+    {
+     "soort": "kader",
+     "html": "Verwar de twee niet: een <strong>minimumprijs geeft een overschot</strong>, geen tekort. Een bodemprijs voor landbouwproducten is het bekende voorbeeld; een maximumprijs ken je van energie of huur."
+    }
+   ]
+  }
+ ],
+ "onthoud": [
+  "Verandert de prijs van het product zelf, dan beweeg je op de curve.",
+  "Verandert er iets anders, dan verschuift de curve zelf.",
+  "Vraag verschuift door inkomen, smaak, aantal kopers en de prijs van een ander product.",
+  "Aanbod verschuift door productiekosten, techniek en het aantal verkopers.",
+  "Vraag naar rechts: prijs en hoeveelheid stijgen. Aanbod naar rechts: prijs daalt, hoeveelheid stijgt.",
+  "Drie maatregelen: btw en accijnzen, premies en subsidies, minimum- en maximumprijzen.",
+  "Een accijns is een extra belasting op brandstof, tabak of alcohol.",
+  "Een belasting duwt het aanbod naar links, een subsidie naar rechts.",
+  "Een minimumprijs ligt boven het evenwicht en geeft een overschot.",
+  "Een maximumprijs ligt onder het evenwicht en geeft een tekort."
+ ]
+}

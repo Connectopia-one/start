@@ -1,0 +1,97 @@
+{
+ "vak": "Samenleving en economie",
+ "titel": "Vraag, aanbod en het marktevenwicht",
+ "onder": "Wie vraagt en wie aanbiedt, hoe de twee curven lopen, en hoe je een overschot of een tekort berekent.",
+ "secties": [
+  {
+   "kop": "De twee partijen en de twee assen",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Op de <strong>productmarkt</strong> — de markt waarop goederen en diensten verhandeld worden — staan twee partijen tegenover elkaar. De <strong>vrager</strong> is de <strong>koper</strong>, die het product wil hebben. De <strong>aanbieder</strong> is de <strong>verkoper</strong>, die het product op de markt brengt. Vragen is hier dus hetzelfde als willen kopen."
+    },
+    {
+     "soort": "tekst",
+     "html": "Op een vraag- en aanbodgrafiek staat de <strong>prijs op de verticale as</strong> en de <strong>hoeveelheid op de horizontale as</strong>. Dat is de vaste afspraak."
+    },
+    {
+     "soort": "figuur",
+     "html": "<svg viewBox=\"0 0 430 250\" width=\"430\" xmlns=\"http://www.w3.org/2000/svg\"><line x1=\"44\" y1=\"14\" x2=\"44\" y2=\"214\" stroke=\"#23291f\" stroke-width=\"1.8\"/><line x1=\"44\" y1=\"214\" x2=\"418\" y2=\"214\" stroke=\"#23291f\" stroke-width=\"1.8\"/><text x=\"42.0\" y=\"12.0\" text-anchor=\"start\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"10.5\" font-weight=\"600\" fill=\"#6b7260\">prijs</text><text x=\"418.0\" y=\"230.0\" text-anchor=\"end\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"10.5\" font-weight=\"600\" fill=\"#6b7260\">hoeveelheid</text><line x1=\"81.0\" y1=\"37.6\" x2=\"377.0\" y2=\"194.4\" stroke=\"#2f5d50\" stroke-width=\"2.2\"/><line x1=\"81.0\" y1=\"194.4\" x2=\"377.0\" y2=\"37.6\" stroke=\"#c17f2b\" stroke-width=\"2.2\"/><text x=\"383.0\" y=\"194.4\" text-anchor=\"start\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"12\" font-weight=\"600\" fill=\"#2f5d50\">V</text><text x=\"383.0\" y=\"37.6\" text-anchor=\"start\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"12\" font-weight=\"600\" fill=\"#c17f2b\">A</text><line x1=\"44.0\" y1=\"116.0\" x2=\"229.0\" y2=\"116.0\" stroke=\"#6b7260\" stroke-width=\"1\" stroke-dasharray=\"3 3\"/><line x1=\"229.0\" y1=\"214.0\" x2=\"229.0\" y2=\"116.0\" stroke=\"#6b7260\" stroke-width=\"1\" stroke-dasharray=\"3 3\"/><circle cx=\"229.0\" cy=\"116.0\" r=\"4\" fill=\"#23291f\"/><text x=\"236.0\" y=\"109.0\" text-anchor=\"start\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"11\" font-weight=\"600\" fill=\"#23291f\">E</text></svg>",
+     "onderschrift": "De vraagcurve V en de aanbodcurve A, met het snijpunt E."
+    }
+   ]
+  },
+  {
+   "kop": "Hoe de curven lopen",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Als de prijs stijgt</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Wat er gebeurt</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Hoe de curve loopt</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">de gevraagde hoeveelheid</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">daalt: hoe duurder, hoe minder mensen willen kopen</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">de vraagcurve daalt</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">de aangeboden hoeveelheid</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">stijgt: verkopen wordt interessanter</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">de aanbodcurve stijgt</td></tr></table>"
+    },
+    {
+     "soort": "kader",
+     "html": "Een veelgemaakte fout: de <strong>aanbodcurve daalt niet</strong> als de prijs stijgt. Ze doet precies het omgekeerde van de vraagcurve."
+    }
+   ]
+  },
+  {
+   "kop": "Het evenwicht",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "De <strong>evenwichtsprijs</strong> is de prijs waarbij <strong>vraag en aanbod gelijk zijn</strong>. Daar snijden de twee curven elkaar. De hoeveelheid die daarbij hoort, is de <strong>evenwichtshoeveelheid</strong>."
+    },
+    {
+     "soort": "tekst",
+     "html": "Bij de evenwichtsprijs is er <strong>geen overschot en geen tekort</strong>, en blijft er dus <strong>geen onverkochte voorraad</strong> over. De prijs ligt daarmee niet voor altijd vast: verschuift een curve, dan komt er een nieuw evenwicht."
+    },
+    {
+     "soort": "tekst",
+     "html": "Een voorbeeld om af te lezen: bij 6 euro vragen de kopers 100 stuks en bieden de verkopers er 180 aan; bij 5 euro vragen én bieden ze er 140. De evenwichtsprijs is dan <strong>5 euro</strong> en de evenwichtshoeveelheid <strong>140 stuks</strong>."
+    }
+   ]
+  },
+  {
+   "kop": "Overschot en tekort berekenen",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Situatie</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Wanneer</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Hoe je het berekent</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Waar de prijs ligt</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">overschot</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">het aanbod is groter dan de vraag</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">aanbod min vraag</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">boven de evenwichtsprijs</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">tekort</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">de vraag is groter dan het aanbod</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">vraag min aanbod</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">onder de evenwichtsprijs</td></tr></table>"
+    },
+    {
+     "soort": "tekst",
+     "html": "Bij 8 euro vragen de kopers 90 stuks en bieden de verkopers er 150 aan: 150 min 90 geeft een <strong>overschot van 60 stuks</strong>. Bij 3 euro vragen ze er 220 en bieden ze er 160 aan: 220 min 160 geeft een <strong>tekort van 60 stuks</strong>. Zijn vraag en aanbod gelijk, dan is er <strong>geen overschot</strong>: dan zit je in het evenwicht."
+    },
+    {
+     "soort": "tekst",
+     "html": "Bij één prijs is het dus <strong>het een of het ander</strong>, of geen van beide. Een overschot en een tekort tegelijk op dezelfde markt bij dezelfde prijs kan niet."
+    }
+   ]
+  },
+  {
+   "kop": "Wat de markt zelf doet",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Doet de overheid niets, dan zoekt de markt haar evenwicht. Bij een <strong>overschot zakt de prijs</strong> naar het evenwicht: verkopers met onverkochte voorraad zakken met hun prijs. Bij een <strong>tekort stijgt de prijs</strong>: kopers zijn bereid meer te betalen."
+    },
+    {
+     "soort": "tekst",
+     "html": "Daaraan herken je in een verhaal waar de prijs zit. Houdt een marktkramer elke avond kratten over, dan ligt zijn prijs <strong>boven</strong> de evenwichtsprijs. Is een winkel al om tien uur uitverkocht en moet ze mensen wegsturen, dan ligt haar prijs <strong>onder</strong> de evenwichtsprijs."
+    }
+   ]
+  }
+ ],
+ "onthoud": [
+  "De vrager is de koper, de aanbieder is de verkoper.",
+  "Prijs op de verticale as, hoeveelheid op de horizontale as.",
+  "Stijgt de prijs, dan daalt de vraag en stijgt het aanbod.",
+  "De evenwichtsprijs is de prijs waarbij vraag en aanbod gelijk zijn.",
+  "Bij het evenwicht is er geen overschot en geen tekort.",
+  "Overschot = aanbod min vraag, bij een prijs boven het evenwicht.",
+  "Tekort = vraag min aanbod, bij een prijs onder het evenwicht.",
+  "Bij een overschot zakt de prijs, bij een tekort stijgt ze.",
+  "Overblijvende voorraad betekent een te hoge prijs.",
+  "Te snel uitverkocht betekent een te lage prijs."
+ ]
+}

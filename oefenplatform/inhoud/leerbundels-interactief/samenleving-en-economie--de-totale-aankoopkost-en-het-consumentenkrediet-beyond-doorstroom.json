@@ -1,0 +1,103 @@
+{
+ "vak": "Samenleving en economie",
+ "titel": "De totale aankoopkost en het consumentenkrediet",
+ "onder": "Wat er allemaal in een prijs zit, de vier consumentenkredieten, en waarom je enkel op het JKP vergelijkt.",
+ "secties": [
+  {
+   "kop": "De totale kostprijs",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "De <strong>totale kostprijs</strong> is de <strong>prijs na korting, met alle bijkomende kosten en de btw erbij</strong>. De prijs op het etiket is dus <strong>niet</strong> altijd wat je betaalt."
+    },
+    {
+     "soort": "tekst",
+     "html": "Een <strong>commerciële korting</strong> is een vermindering die de <strong>verkoper zelf toestaat</strong>. Ze gaat van de prijs af <strong>voor</strong> je de rest berekent."
+    },
+    {
+     "soort": "tekst",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Soort bijkomende kost</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Welke</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Hoe je ze telt</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">eenmalig</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">de inschrijvingskost en de leveringskost</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">één keer bij de prijs</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">terugkerend</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">het abonnement en de verzekering</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">maal het aantal maanden of jaren</td></tr></table>"
+    },
+    {
+     "soort": "tekst",
+     "html": "De <strong>btw hangt af van het product</strong>, want er bestaan <strong>verschillende tarieven</strong>. Niet alle producten hebben hetzelfde btw-tarief."
+    },
+    {
+     "soort": "tekst",
+     "html": "Drie rekenvoorbeelden, telkens in dezelfde volgorde: eerst de korting, dan de kosten."
+    },
+    {
+     "soort": "tekst",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Aankoop</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Berekening</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Totaal</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">fiets van 800 euro, 10 % korting, 25 euro levering</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">800 − 80 + 25</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">745 euro</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">toestel van 240 euro, 15 euro inschrijving, abonnement 12 euro per maand, één jaar</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">240 + 15 + 12 × 12</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">399 euro</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">laptop van 600 euro, 50 euro korting, verzekering 5 euro per maand, twee jaar</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">600 − 50 + 24 × 5</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">670 euro</td></tr></table>"
+    },
+    {
+     "soort": "kader",
+     "html": "Daarom vraagt de fiche naar de <strong>totale kostprijs</strong> en niet naar de prijs alleen: <strong>pas met de totale kost maak je een eerlijke keuze</strong>. Een printer van 180 euro met gratis levering is voordeliger dan een van 165 euro met 20 euro levering, want 185 is meer dan 180."
+    },
+    {
+     "soort": "tekst",
+     "html": "In een <strong>verkoopovereenkomst</strong> heeft de koper ook <strong>rechten</strong>: een product krijgen <strong>dat is wat er beloofd werd</strong>. De <strong>plicht van de verkoper</strong> is <strong>leveren wat is afgesproken, in de afgesproken staat</strong>; de plicht van de koper is betalen."
+    }
+   ]
+  },
+  {
+   "kop": "Vier consumentenkredieten",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Krediet</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Wat het is</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Voorbeeld</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">verkoop op afbetaling</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">het krediet hangt vast aan dat ene product</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een wasmachine in twaalf schijven</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">lening op afbetaling</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">je krijgt geld, geen product</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een bedrag lenen en in vaste schijven terugbetalen</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">kredietopening</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">via een kaart of een geoorloofde debetstand</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">tot een bepaald bedrag onder nul gaan</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">financieringshuur of leasing</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">je huurt, met vaak de kans het achteraf over te kopen</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een wagen voor vier jaar</td></tr></table>"
+    },
+    {
+     "soort": "tekst",
+     "html": "Een <strong>verkoop op afbetaling</strong> en een <strong>lening op afbetaling</strong> zijn dus <strong>niet hetzelfde</strong>. En bij een <strong>leasing ben je niet meteen eigenaar</strong>: je huurt."
+    }
+   ]
+  },
+  {
+   "kop": "De vijf onderdelen en het JKP",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Een consumentenkrediet heeft <strong>vijf onderdelen</strong>: de <strong>looptijd</strong>, de <strong>rentevoet</strong>, het <strong>geleende bedrag</strong>, het <strong>JKP</strong> en het <strong>maandbedrag</strong>."
+    },
+    {
+     "soort": "tekst",
+     "html": "Het <strong>JKP</strong> is het <strong>jaarlijks kostenpercentage</strong>. Het verschil met de rentevoet: het <strong>JKP telt alle kosten van het krediet mee</strong>, de rentevoet enkel de rente. Daarom <strong>ligt het JKP nooit lager</strong> dan de rentevoet, en daarom is het <strong>het enige getal waarmee je twee kredieten eerlijk vergelijkt</strong>: een lage rentevoet met veel dossierkosten blijft duur."
+    },
+    {
+     "soort": "tekst",
+     "html": "Rekenen doe je met het maandbedrag en de looptijd. Leen je 3 000 euro en betaal je 36 maanden lang 95 euro, dan is de <strong>totale terugbetaling 3 420 euro</strong> (36 × 95) en de <strong>rente 420 euro</strong> (3 420 − 3 000). Heb je er al 12 betaald, dan moet je nog <strong>2 280 euro</strong> betalen (24 × 95)."
+    },
+    {
+     "soort": "kader",
+     "html": "Een <strong>langere looptijd</strong> maakt je <strong>maandbedrag kleiner</strong> maar je <strong>totale kost groter</strong>: je betaalt langer rente, en de meerprijs van de financiering loopt op."
+    }
+   ]
+  },
+  {
+   "kop": "Problemen vermijden",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Wat helpt: een <strong>spaarbuffer aanleggen</strong> voor onverwachte kosten, je <strong>uitgaven en inkomsten opvolgen in een budgetplan</strong>, en <strong>kredieten vergelijken op hun JKP</strong> voor je tekent. Kredieten <strong>stapelen</strong> is net wat je in de problemen brengt."
+    },
+    {
+     "soort": "tekst",
+     "html": "Gaat het mis, dan zijn de gevolgen van te veel lenen: je <strong>raakt je maandelijkse aflossingen niet meer betaald</strong>, je komt in een <strong>schuldenspiraal</strong> terecht, en je moet een beroep doen op <strong>schuldbemiddeling</strong>."
+    }
+   ]
+  }
+ ],
+ "onthoud": [
+  "Totale kostprijs = prijs na korting, plus alle bijkomende kosten, plus btw.",
+  "Een commerciële korting gaat eerst van de prijs af.",
+  "Eenmalig: inschrijving en levering. Terugkerend: abonnement en verzekering.",
+  "Er bestaan verschillende btw-tarieven.",
+  "Vier kredieten: verkoop op afbetaling, lening op afbetaling, kredietopening en financieringshuur.",
+  "Bij leasing huur je; je bent niet meteen eigenaar.",
+  "Vijf onderdelen: looptijd, rentevoet, geleend bedrag, JKP en maandbedrag.",
+  "Het JKP telt alle kosten mee en ligt nooit lager dan de rentevoet.",
+  "Langere looptijd: kleiner maandbedrag, grotere totale kost.",
+  "Te veel lenen leidt tot een schuldenspiraal en schuldbemiddeling."
+ ]
+}

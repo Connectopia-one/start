@@ -1,0 +1,70 @@
+{
+ "vak": "Samenleving en economie",
+ "titel": "De inkomsten en de uitgaven van de overheid",
+ "onder": "Vier soorten inkomsten en vier soorten uitgaven, met de voorbeelden die de fiche er zelf bij geeft.",
+ "secties": [
+  {
+   "kop": "Vier soorten inkomsten",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Een overheid heft belastingen <strong>om haar uitgaven voor de samenleving te kunnen betalen</strong>. De fiche deelt haar inkomsten in <strong>vier</strong> soorten in."
+    },
+    {
+     "soort": "tekst",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Soort</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Wat het is</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Voorbeelden uit de fiche</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">directe belasting</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">gaat rechtstreeks van jou naar de overheid, op je inkomen of bezit</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">de bedrijfsvoorheffing, de onroerende voorheffing</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">indirecte belasting</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">zit in de prijs van een product of dienst</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">de btw, de milieubelasting, de accijnzen op brandstof</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">diverse inkomsten</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">boetes en vergoedingen voor diensten</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een boete voor te snel rijden, betalen voor een paspoort</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">inkomsten uit overheidskapitaal</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">uit wat de overheid zelf bezit</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">de verkoop of de verhuur van gronden en gebouwen</td></tr></table>"
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Direct</strong> wil zeggen zonder tussenstap. Bij een <strong>indirecte</strong> belasting betaal jij ze aan de verkoper, en die stort ze door. Daarom is de <strong>btw indirect</strong> en de <strong>bedrijfsvoorheffing direct</strong>, ook al staan ze allebei op een papier met jouw naam erop."
+    },
+    {
+     "soort": "kader",
+     "html": "De <strong>verkoop van een stuk grond</strong> door de overheid is <strong>geen belasting</strong> maar een inkomst uit overheidskapitaal. En <strong>giften</strong> staan niet in de fiche."
+    }
+   ]
+  },
+  {
+   "kop": "Vier soorten uitgaven",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Soort uitgave</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Voorbeelden uit de fiche</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">voorzien in de collectieve behoeften</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">veiligheid, onderwijs en openbaar vervoer</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">investeren in economische groei en ontwikkeling</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">handel, transport, digitale infrastructuur en duurzaamheid</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">bijdragen aan het maatschappelijk en culturele leven</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">cultuur, sport en infocampagnes</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">sociale uitgaven</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">de financiering van de sociale zekerheid, sociale woningen, projecten tegen armoede</td></tr></table>"
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Collectieve behoeften</strong> zijn behoeften waar <strong>de hele samenleving van gebruikmaakt</strong>. Legt de overheid glasvezel aan in een industriezone, dan is dat <strong>digitale infrastructuur</strong> en dus <strong>economische groei</strong>. Betaalt ze een festival of een sporthal, of voert ze een infocampagne over gezond eten, dan is dat het <strong>maatschappelijk leven</strong>. Bouwt ze sociale woningen, dan is dat een <strong>sociale uitgave</strong>."
+    },
+    {
+     "soort": "tekst",
+     "html": "Kiest een gemeente tussen een <strong>bibliotheek</strong> en een <strong>fietsbrug</strong>, dan staan twee soorten tegenover elkaar: het <strong>maatschappelijk leven</strong> tegenover een <strong>collectieve behoefte</strong> (mobiliteit)."
+    },
+    {
+     "soort": "kader",
+     "html": "Twee verwarringen. <strong>Cultuur en sport zijn geen sociale uitgaven</strong> maar maatschappelijk leven. En de <strong>financiering van de sociale zekerheid is een uitgave</strong>, geen inkomst."
+    }
+   ]
+  },
+  {
+   "kop": "Waarom de twee samen",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "De uitgaven van de overheid <strong>bepalen mee wat er voor iedereen beschikbaar is</strong>: van scholen tot bussen tot sociale woningen. De fiche vraagt naar de invloed van <strong>inkomsten én uitgaven samen</strong>, <strong>omdat de overheid met die twee de ongelijkheid probeert te beperken</strong>. Dat staat zo in het leerdoel."
+    }
+   ]
+  }
+ ],
+ "onthoud": [
+  "Vier inkomsten: directe en indirecte belastingen, diverse inkomsten, inkomsten uit overheidskapitaal.",
+  "Direct gaat rechtstreeks naar de overheid, indirect zit in de prijs.",
+  "Btw, milieubelasting en accijnzen zijn indirect; bedrijfsvoorheffing en onroerende voorheffing direct.",
+  "Boetes en vergoedingen voor een dienst zijn diverse inkomsten.",
+  "Vier uitgaven: collectieve behoeften, economische groei, maatschappelijk leven en sociale uitgaven.",
+  "Collectieve behoeften: veiligheid, onderwijs en openbaar vervoer.",
+  "Economische groei: handel, transport, digitale infrastructuur en duurzaamheid.",
+  "Maatschappelijk leven: cultuur, sport en infocampagnes.",
+  "Sociale uitgaven: sociale zekerheid, sociale woningen en projecten tegen armoede.",
+  "Met inkomsten en uitgaven samen probeert de overheid de ongelijkheid te beperken."
+ ]
+}

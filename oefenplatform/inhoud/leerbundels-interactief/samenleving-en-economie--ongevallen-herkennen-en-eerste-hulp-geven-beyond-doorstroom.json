@@ -1,0 +1,99 @@
+{
+ "vak": "Samenleving en economie",
+ "titel": "Ongevallen herkennen en eerste hulp geven",
+ "onder": "De vier noodnummers, de letsels en noodsituaties uit de fiche, en de zes basisprincipes naast de vier stappen.",
+ "secties": [
+  {
+   "kop": "De vier noodnummers",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "De fiche noemt <strong>vier</strong> nummers. Leer ze uit het hoofd: op het examen is dit het soort vraag waar geen redenering bij helpt."
+    },
+    {
+     "soort": "tekst",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Nummer</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Waarvoor</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Voorbeeld</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">101</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">de politie</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een inbraak of een vechtpartij</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">112</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">de ziekenwagen én de brandweer</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">iemand bloedt zwaar, of er is brand</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">070 245 245</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">het antigifcentrum</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een kind dronk een product uit de kelder</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">1733</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">de huisarts of de huisartsenwachtpost</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">zondagavond, dringend maar geen levensgevaar</td></tr></table>"
+    },
+    {
+     "soort": "kader",
+     "html": "Twee valkuilen. <strong>101 is niet voor een ziekenwagen</strong>: wie zwaar bloedt, heeft 112 nodig. En het antigifcentrum bel je bij een vergiftiging <strong>zonder</strong> bewustzijnsverlies; is het kind bewusteloos, dan bel je <strong>112</strong>. Het nummer 100 staat niet in de fiche."
+    }
+   ]
+  },
+  {
+   "kop": "Letsels en noodsituaties",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Bij <strong>botten, spieren en gewrichten</strong> noemt de fiche vier letsels: de <strong>botbreuk</strong>, de <strong>kneuzing</strong>, de <strong>ontwrichting</strong> en de <strong>verstuiking</strong>. Dat zijn vier <strong>verschillende</strong> dingen; een kneuzing en een botbreuk zijn niet hetzelfde letsel."
+    },
+    {
+     "soort": "tekst",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Letsel</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Wat er gebeurd is</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">ontwrichting</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een bot is uit het gewricht geschoven</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">verstuiking</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">de banden rond een gewricht zijn te ver uitgerekt</td></tr></table>"
+    },
+    {
+     "soort": "tekst",
+     "html": "Een <strong>verstuiking zit in de banden</strong>, een <strong>ontwrichting in de stand van het bot</strong>. Valt iemand van een ladder en staat de arm in een vreemde hoek, dan vermoed je een <strong>botbreuk of een ontwrichting</strong>."
+    },
+    {
+     "soort": "tekst",
+     "html": "Bij <strong>wonden</strong> noemt de fiche er twee, en niet meer: de <strong>huidwonde</strong> en de <strong>brandwonde</strong>."
+    },
+    {
+     "soort": "tekst",
+     "html": "Bij de <strong>ongevallen en noodsituaties</strong> staan onder meer de <strong>bloeding</strong>, de <strong>verslikking</strong>, de <strong>verdrinking</strong> en de <strong>hart- en ademhalingsstilstand</strong>. Bij een hart- en ademhalingsstilstand <strong>pompt het hart niet meer en valt de ademhaling stil</strong>. Verslikt iemand zich en kan hij niet meer praten of hoesten, dan is dat een <strong>noodsituatie</strong>. Uitdroging staat niet in dat rijtje."
+    }
+   ]
+  },
+  {
+   "kop": "Zes basisprincipes",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Let op het verschil tussen <strong>zes basisprincipes</strong> en <strong>vier stappen</strong>. Die twee aantallen worden het vaakst door elkaar gehaald."
+    },
+    {
+     "soort": "tekst",
+     "html": "De <strong>basisprincipes</strong> zijn de houding waarmee je hulp verleent:"
+    },
+    {
+     "soort": "tekst",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Basisprincipe</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Wat het betekent</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">blijf rustig in een noodsituatie</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">het eerste van de zes</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">vermijd besmetting</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">bescherm jezelf én het slachtoffer tegen overdracht van ziekten</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">handel als eerste hulpverlener</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">doe wat je kan tot de hulpdiensten er zijn</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">zorg voor het comfort van het slachtoffer</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">ook de houding en de warmte tellen mee</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">verleen psychosociale hulp</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">sta het slachtoffer bij met woorden en nabijheid</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">houd rekening met emotionele reacties achteraf</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">ook jij kan achteraf nog reageren</td></tr></table>"
+    },
+    {
+     "soort": "kader",
+     "html": "<strong>Vermijd besmetting</strong> gaat in twee richtingen: van jou naar het slachtoffer en omgekeerd. En <strong>getuigen noteren</strong> hoort hier niet thuis: dat gaat over een schadegeval en een verzekering."
+    }
+   ]
+  },
+  {
+   "kop": "Vier stappen, in deze volgorde",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Stap</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Wat je doet</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Waarom</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">1</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">zorg voor veiligheid</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">anders word jij het tweede slachtoffer</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">2</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">beoordeel de toestand van het slachtoffer</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">pas als het veilig is, kijk je hoe hij eraan toe is</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">3</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">raadpleeg gespecialiseerde hulp</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">zo is de ambulance onderweg terwijl jij verder helpt</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">4</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">verleen verdere eerste hulp</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">je blijft helpen tot de hulpdiensten er zijn</td></tr></table>"
+    },
+    {
+     "soort": "tekst",
+     "html": "Staat er een auto midden op de rijweg met een gewonde erin, dan zorg je <strong>eerst dat de plaats veilig is</strong>. Je beoordeelt de toestand dus <strong>niet</strong> voor je voor veiligheid zorgt, en gespecialiseerde hulp inroepen is <strong>niet de laatste</strong> stap maar de derde."
+    },
+    {
+     "soort": "tekst",
+     "html": "Loopt iemand de gewonde zonder iets te zeggen voorbij om van thuis uit een ambulance te bellen, dan slaat hij <strong>stap 2</strong> over: hij <strong>beoordeelde de toestand niet</strong>, en zonder die beoordeling weet de centrale ook niet wat ze moet sturen."
+    }
+   ]
+  }
+ ],
+ "onthoud": [
+  "101 politie, 112 ziekenwagen en brandweer, 070 245 245 antigifcentrum, 1733 huisarts.",
+  "Bij bewustzijnsverlies na vergiftiging bel je 112, niet het antigifcentrum.",
+  "Vier letsels: botbreuk, kneuzing, ontwrichting en verstuiking.",
+  "Ontwrichting: bot uit het gewricht. Verstuiking: banden te ver uitgerekt.",
+  "Twee wonden: de huidwonde en de brandwonde.",
+  "Noodsituaties: bloeding, verslikking, verdrinking, hart- en ademhalingsstilstand.",
+  "Zes basisprincipes, en daarnaast vier stappen. Verwar die aantallen niet.",
+  "Vermijd besmetting werkt in twee richtingen.",
+  "De vier stappen: veiligheid, toestand beoordelen, hulp raadplegen, verdere eerste hulp.",
+  "Gespecialiseerde hulp inroepen is stap 3, niet de laatste."
+ ]
+}

@@ -1,0 +1,153 @@
+{
+ "vak": "Samenleving en economie",
+ "titel": "Presenteren met PowerPoint",
+ "onder": "Dia's bewerken, overgang tegenover animatie, hyperlinks en actieknoppen, de weergaven, de afdrukken en pptx tegenover ppsm.",
+ "secties": [
+  {
+   "kop": "Een dia en zijn indeling",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Een <strong>dia</strong> is <strong>één bladzijde van je presentatie</strong>, die je straks op het scherm toont. Een presentatie is een reeks dia's na elkaar."
+    },
+    {
+     "soort": "tekst",
+     "html": "De <strong>indeling</strong> van een dia is het <strong>vaste patroon van vakken</strong> voor een titel, tekst en beeld. In het Engels de <strong>lay-out</strong>. Je kiest ze per dia en je kan ze <strong>achteraf nog wijzigen</strong>."
+    },
+    {
+     "soort": "tekst",
+     "html": "De <strong>basisbewerkingen</strong> van de fiche:"
+    },
+    {
+     "soort": "tekst",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Bewerking</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Wat ze doet</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een nieuwe dia invoegen</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">er een dia bij zetten</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">de indeling en de opmaak aanpassen</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">de vakken en het uitzicht van die dia veranderen</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een dia verwijderen</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">de dia weghalen</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een dia dupliceren</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">er een exacte kopie bij zetten, met dezelfde inhoud en opmaak</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">diaovergangen aanpassen</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">het effect tussen twee dia's instellen</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">animaties toevoegen</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">iets op de dia zelf laten bewegen of verschijnen</td></tr></table>"
+    },
+    {
+     "soort": "kader",
+     "html": "<strong>Dupliceren is niet verwijderen.</strong> Dupliceren zet er een kopie bij, verwijderen haalt de dia weg. Verwijder je dia 3 uit een presentatie van tien, dan hou je <strong>negen</strong> dia's over en <strong>schuift dia 4 op naar plaats 3</strong>."
+    },
+    {
+     "soort": "weetje",
+     "html": "Dupliceren is net handig als je een dia wil die <strong>bijna</strong> hetzelfde is: eerst kopiëren, dan het ene stuk aanpassen."
+    }
+   ]
+  },
+  {
+   "kop": "Overgang tegenover animatie",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Dit is het verschil waarop in schermafdrukken het vaakst getoetst wordt:"
+    },
+    {
+     "soort": "tekst",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Effect</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Waar het werkt</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">diaovergang</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">tussen twee dia's, bij het wisselen naar de volgende</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">animatie</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">op de dia zelf, op een tekstvak, een beeld of een vorm</td></tr></table>"
+    },
+    {
+     "soort": "tekst",
+     "html": "Omdat een animatie op iets <strong>op</strong> de dia werkt, kan je er op één dia <strong>verschillende na elkaar</strong> laten lopen. Wil je dat de tekst <strong>één regel per keer verschijnt</strong>, dan voeg je dus een <strong>animatie</strong> toe, geen overgang."
+    },
+    {
+     "soort": "kader",
+     "html": "Een <strong>diaovergang</strong> stel je <strong>per dia</strong> in, of met één knop op <strong>alle</strong> dia's tegelijk. Het is dus niet alles of niets."
+    }
+   ]
+  },
+  {
+   "kop": "Tekstvakken, vormen en het ontwerp",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Een <strong>tekstvak</strong> is een <strong>kader waarin je tekst zet</strong> en dat je op de dia kan <strong>verplaatsen</strong>, vergroten en opmaken. Zonder tekstvak krijg je geen tekst op een dia."
+    },
+    {
+     "soort": "tekst",
+     "html": "Een <strong>vorm</strong> voeg je in om met een <strong>pijl, kader of cirkel</strong> iets aan te duiden. Een pijl naar het belangrijkste cijfer doet meer dan een zin erbij."
+    },
+    {
+     "soort": "tekst",
+     "html": "Wil je op <strong>elke</strong> dia dezelfde achtergrond en hetzelfde lettertype, dan kies je een <strong>thema of ontwerp dat voor de hele presentatie geldt</strong>. Zo blijft alles één geheel en doe je het niet dia per dia."
+    },
+    {
+     "soort": "weetje",
+     "html": "Staat een dia <strong>volgeschreven in kleine letters</strong>, dan is de beste aanpassing de tekst <strong>over meerdere dia's verdelen</strong> en groter laten staan. Een dia is geen blad papier: wat je voorleest hoort niet voluit op het scherm."
+    }
+   ]
+  },
+  {
+   "kop": "Hyperlinks en actieknoppen",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Element</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Wat het doet</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">hyperlink</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">je klikt erop en komt op een website, of op een andere dia uit</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">actieknop</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een knop die je zelf op de dia zet en die bij een klik iets uitvoert</td></tr></table>"
+    },
+    {
+     "soort": "tekst",
+     "html": "Een <strong>hyperlink</strong> wijst dus <strong>niet alleen naar buiten</strong>: hij kan ook naar een <strong>dia in dezelfde presentatie</strong> verwijzen. Zo bouw je een presentatie waarin je zelf kan kiezen waar je naartoe gaat."
+    },
+    {
+     "soort": "kader",
+     "html": "Wil je tijdens het presenteren <strong>met één klik naar een dia achteraan</strong> springen, dan zet je daarvoor vooraf een <strong>hyperlink of een actieknop</strong> klaar. Anders moet je door alle dia's ertussen klikken."
+    }
+   ]
+  },
+  {
+   "kop": "Presenteren en de weergaven",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Een <strong>diavoorstelling</strong> kan je starten <strong>vanaf de eerste dia</strong> of <strong>vanaf de dia waar je staat</strong>. Dat tweede is handig bij het nakijken."
+    },
+    {
+     "soort": "tekst",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Weergave</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Waarvoor ze dient</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">presentatorweergave</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">jij ziet de dia met je notities erbij, het publiek enkel de dia</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">diasorteerder</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">alle dia's als miniaturen naast elkaar, om de volgorde te veranderen</td></tr></table>"
+    },
+    {
+     "soort": "tekst",
+     "html": "In de <strong>diasorteerder</strong> sleep je een dia naar zijn nieuwe plaats."
+    }
+   ]
+  },
+  {
+   "kop": "Afdrukken en bewaren",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "De fiche noemt <strong>drie</strong> soorten afdrukken. Het verschil zit in <strong>voor wie</strong> ze zijn:"
+    },
+    {
+     "soort": "tekst",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Afdruk</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Wat erop staat</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Voor wie</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">hand-out</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">meerdere dia's op één blad</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">het publiek, om mee te lezen en bij te schrijven</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">notitiepagina</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">één dia met jouw notities eronder</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">de spreker</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">overzicht</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">enkel de tekst van de dia's, zonder beelden en opmaak</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">om je verhaal na te lezen</td></tr></table>"
+    },
+    {
+     "soort": "kader",
+     "html": "Een <strong>hand-out en een notitiepagina</strong> zijn dus <strong>niet</strong> hetzelfde: de hand-out is <strong>voor het publiek</strong>, de notitiepagina <strong>voor jou</strong>. En <strong>etiketten</strong> horen bij een tekstverwerker, niet bij een presentatie."
+    },
+    {
+     "soort": "tekst",
+     "html": "Bewaren kan in verschillende <strong>bestandsindelingen</strong>:"
+    },
+    {
+     "soort": "tekst",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Indeling</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Wat er gebeurt bij het openen</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">pptx</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">de presentatie opent om te bewerken</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">ppsm</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">de presentatie start meteen als diavoorstelling</td></tr></table>"
+    },
+    {
+     "soort": "tekst",
+     "html": "De <strong>s</strong> in ppsm staat voor <strong>show</strong>. Handig op een beurs of in een wachtzaal: dubbelklikken en het loopt."
+    }
+   ]
+  }
+ ],
+ "onthoud": [
+  "Een dia is één bladzijde; de indeling is het patroon van vakken erop, en je kan ze achteraf wijzigen.",
+  "Dupliceren zet een kopie bij, verwijderen haalt de dia weg en de volgende schuiven op.",
+  "Een diaovergang werkt tussen twee dia's, een animatie op de dia zelf.",
+  "Een overgang stel je per dia in of met één knop op alle dia's.",
+  "Een tekstvak is het kader voor tekst; een vorm duidt iets aan met een pijl of kader.",
+  "Een hyperlink kan ook naar een andere dia in dezelfde presentatie wijzen.",
+  "Een actieknop zet je zelf op de dia en voert bij een klik iets uit.",
+  "Presentatorweergave: jij ziet je notities. Diasorteerder: je verandert de volgorde.",
+  "Hand-out voor het publiek, notitiepagina voor de spreker, overzicht is enkel de tekst.",
+  "Een pptx opent om te bewerken, een ppsm start meteen als voorstelling."
+ ]
+}

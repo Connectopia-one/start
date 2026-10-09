@@ -1,0 +1,132 @@
+{
+ "vak": "Samenleving en economie",
+ "titel": "Sparen, beleggen en de invloed van inflatie",
+ "onder": "Drie rekeningen, rente en samengestelde rente, vier beleggingsvormen en de vijf factoren bij de keuze.",
+ "secties": [
+  {
+   "kop": "Drie rekeningen",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "De fiche zet <strong>drie rekeningen</strong> naast elkaar. Ze verschillen in één ding: <strong>hoe vlug je aan je geld kan</strong>."
+    },
+    {
+     "soort": "tekst",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Rekening</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Waarvoor ze dient</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Aan je geld</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">zichtrekening</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">je dagelijkse verrichtingen: loon ontvangen, facturen betalen</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">altijd</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">spaarrekening</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">geld opzij zetten en toch nog kunnen opvragen</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">snel, met rente</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">termijnrekening</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">geld een afgesproken tijd vastzetten</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">pas na de termijn</td></tr></table>"
+    },
+    {
+     "soort": "tekst",
+     "html": "Daarom <strong>levert een termijnrekening meestal meer op</strong>: de bank weet <strong>hoelang ze over je geld kan beschikken</strong> en betaalt daar meer voor. <strong>Vroeger opvragen</strong> kan je er geld of rente kosten."
+    },
+    {
+     "soort": "tekst",
+     "html": "Kiezen gaat dus op <strong>wanneer je het geld nodig hebt</strong>:"
+    },
+    {
+     "soort": "tekst",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Situatie</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Rekening</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">ik moet er volgende maand een reis mee betalen</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">zicht- of spaarrekening</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">ik wil elke maand iets opzij zetten en er altijd aan kunnen</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">spaarrekening</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">ik heb dit geld de komende drie jaar zeker niet nodig</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">termijnrekening</td></tr></table>"
+    }
+   ]
+  },
+  {
+   "kop": "Rente en samengestelde rente",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "<strong>Rente</strong> is de <strong>vergoeding voor het gebruik van geld</strong>. Wie <strong>spaart krijgt</strong> ze; wie <strong>leent betaalt</strong> ze."
+    },
+    {
+     "soort": "tekst",
+     "html": "Rekenen is een percentage nemen van het bedrag:"
+    },
+    {
+     "soort": "tekst",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Bedrag</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Rentevoet</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Rente na één jaar</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">2 000 euro</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">2 %</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">40 euro</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">5 000 euro</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">3 %</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">150 euro</td></tr></table>"
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Samengestelde rente</strong> is rente die je <strong>ook op de rente van de vorige jaren</strong> krijgt. Daardoor groeit een spaarpot <strong>sneller naarmate hij langer blijft staan</strong>."
+    },
+    {
+     "soort": "weetje",
+     "html": "Bij samengestelde rente werkt de tijd voor je. Dat is de enige reden waarom vroeg beginnen sparen echt iets uithaalt."
+    }
+   ]
+  },
+  {
+   "kop": "Inflatie",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "<strong>Inflatie</strong> is de <strong>algemene stijging van de prijzen</strong>, waardoor <strong>geld minder waard wordt</strong>. Met hetzelfde bedrag koop je na een jaar inflatie <strong>minder</strong> dan ervoor."
+    },
+    {
+     "soort": "kader",
+     "html": "Staat je spaarrente op <strong>2 procent</strong> en de inflatie op <strong>3 procent</strong>, dan <strong>daalt je koopkracht</strong>: je hebt meer euro's en je kan er minder mee kopen. Je spaargeld groeit in cijfers en krimpt in waarde."
+    },
+    {
+     "soort": "tekst",
+     "html": "Daarom staat de inflatie <strong>twee keer</strong> in dit vak: bij de <strong>zeven factoren van een aankoopkeuze</strong> en bij de <strong>vijf factoren van sparen of beleggen</strong>."
+    }
+   ]
+  },
+  {
+   "kop": "Vier beleggingsvormen",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "De fiche noemt <strong>vier</strong> beleggingsvormen. Een spaarrekening staat er niet bij: <strong>sparen is geen beleggen</strong>."
+    },
+    {
+     "soort": "tekst",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Vorm</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Wat je hebt</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Risico</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">obligatie</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een lening aan een bedrijf of een overheid, met een afgesproken rente</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">doorgaans lager</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">beleggingsfonds</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een mand met veel verschillende beleggingen samen</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">gespreid</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">beursaandeel</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een stukje eigendom van een bedrijf</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">hoger</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">cryptomunt</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een digitale munt zonder centrale bank</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">het hoogst van de vier</td></tr></table>"
+    },
+    {
+     "soort": "tekst",
+     "html": "Het verschil tussen de eerste en de derde is wie je bent: bij een <strong>obligatie</strong> ben je <strong>schuldeiser</strong>, bij een <strong>aandeel mede-eigenaar</strong>. Gaat het bedrijf goed, dan stijgt je aandeel; gaat het slecht, dan daalt het."
+    },
+    {
+     "soort": "tekst",
+     "html": "Een <strong>beleggingsfonds</strong> bestaat <strong>niet</strong> uit één belegging: het is net een <strong>mand</strong>, zodat <strong>één slechte belegging minder zwaar doorweegt</strong>. Dat heet spreiden."
+    },
+    {
+     "soort": "kader",
+     "html": "<strong>Risico en rendement</strong> gaan samen: meer <strong>kans</strong> op opbrengst betekent meer <strong>kans</strong> op verlies. Let op dat woord <strong>kans</strong>. Een hoger risico <strong>garandeert geen</strong> hogere opbrengst."
+    }
+   ]
+  },
+  {
+   "kop": "Vijf factoren bij de keuze",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Sparen of beleggen? De fiche noemt <strong>vijf factoren</strong>:"
+    },
+    {
+     "soort": "tekst",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Factor</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">De vraag die je stelt</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">de duur</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">hoelang kan ik dit geld missen</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">de rentevoet en de inflatie</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">wat houd ik er netto aan over</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">het risico</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">hoeveel schommeling kan ik aan</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">mijn financieel doel</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">waarvoor spaar of beleg ik, een studie of een woning</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">mijn kennis van de markt</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">begrijp ik waarin ik stap</td></tr></table>"
+    },
+    {
+     "soort": "tekst",
+     "html": "De laatste is de eenvoudigste beschermingsregel die bestaat: <strong>beleg niet in iets wat je niet begrijpt</strong>."
+    },
+    {
+     "soort": "weetje",
+     "html": "Iemand van achttien die spaart voor een woning over twintig jaar en tegen schommelingen kan, mag volgens die factoren <strong>een deel beleggen</strong>: de lange termijn en de risicobereidheid wijzen die kant op. Alles in één munt steken is geen spreiding, maar een gok."
+    }
+   ]
+  }
+ ],
+ "onthoud": [
+  "Zichtrekening: dagelijkse verrichtingen. Spaarrekening: opzij en toch beschikbaar. Termijnrekening: vastgezet.",
+  "Een termijnrekening levert meer op omdat de bank weet hoelang ze over je geld beschikt.",
+  "Rente is de vergoeding voor het gebruik van geld: sparen levert ze op, lenen kost ze.",
+  "Samengestelde rente is rente op je eerder verdiende rente.",
+  "Inflatie is de algemene prijsstijging; je spaargeld verliest koopkracht.",
+  "Rente 2 % en inflatie 3 %: meer euro's, minder koopkracht.",
+  "Vier beleggingen: obligatie, beleggingsfonds, beursaandeel en cryptomunt.",
+  "Obligatie: je bent schuldeiser. Aandeel: je bent mede-eigenaar.",
+  "Meer risico geeft meer kans op winst én meer kans op verlies.",
+  "Vijf factoren: duur, rentevoet en inflatie, risico, financieel doel en je kennis van de markt."
+ ]
+}

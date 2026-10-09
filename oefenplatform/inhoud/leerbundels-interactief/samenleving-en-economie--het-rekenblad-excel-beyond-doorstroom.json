@@ -1,0 +1,136 @@
+{
+ "vak": "Samenleving en economie",
+ "titel": "Het rekenblad Excel",
+ "onder": "De bouw van een rekenblad, getalnotaties, formules met relatieve en absolute adressen, zes functies en vijf grafieken.",
+ "secties": [
+  {
+   "kop": "De bouw van een rekenblad",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Ook hier geldt: <strong>geen computerwerk</strong>. Je krijgt <strong>schermafdrukken</strong> en je moet <strong>weten hoe iets heet</strong> en wat het doet."
+    },
+    {
+     "soort": "tekst",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Begrip</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Wat het is</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Voorbeeld</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">cel</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">het vakje waar een rij en een kolom elkaar kruisen</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">None</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">celadres</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">de kolomletter en het rijnummer samen</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">B7</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">bereik</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een groep cellen samen, met een dubbelpunt genoteerd</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">A1:A10</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">werkblad</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">één tabblad in het bestand</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">None</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">werkmap</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">het bestand zelf, met al zijn tabbladen</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">None</td></tr></table>"
+    },
+    {
+     "soort": "kader",
+     "html": "Twee notatiefouten die vaak gemaakt worden. Een celadres zet <strong>eerst de letter</strong> en dan het nummer: B7, niet 7B. En een bereik krijgt een <strong>dubbelpunt</strong>, geen puntkomma: <strong>C2:C9</strong>. De puntkomma dient om <strong>losse argumenten</strong> in een functie te scheiden."
+    },
+    {
+     "soort": "tekst",
+     "html": "De <strong>vulgreep</strong> is het <strong>vierkantje rechtsonder in de selectie</strong>. Sleep eraan en je trekt <strong>gegevens of formules</strong> door naar de volgende cellen."
+    },
+    {
+     "soort": "weetje",
+     "html": "Wil je een <strong>nieuwe rij tussen rij 4 en rij 5</strong>, dan selecteer je <strong>rij 5</strong> en voeg je een rij in: een nieuwe rij komt <strong>boven</strong> de geselecteerde rij."
+    }
+   ]
+  },
+  {
+   "kop": "Getalnotatie en celopmaak",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Een <strong>getalnotatie</strong> bepaalt <strong>hoe</strong> een getal in beeld komt, niet wat het is."
+    },
+    {
+     "soort": "tekst",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Notatie</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Waarvoor</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Je typt 0,25 en ziet</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">valuta</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een bedrag, met het muntteken erbij en netjes uitgelijnd</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">None</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">percentage</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een percentage: het getal maal honderd met een procentteken</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">25%</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">datum en tijd</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een datum of een uur</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">None</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">aantal decimalen</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">hoeveel cijfers er na de komma komen</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">None</td></tr></table>"
+    },
+    {
+     "soort": "tekst",
+     "html": "Bij de <strong>celopmaak</strong> horen nog drie dingen:"
+    },
+    {
+     "soort": "tekst",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Opmaak</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Wat ze doet</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">voorwaardelijke opmaak</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een cel automatisch opmaken als de inhoud aan een voorwaarde voldoet</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">samenvoegen en centreren</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">van meerdere cellen één cel maken met de tekst in het midden</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">tekststand</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">de hoek waaronder de tekst in de cel staat</td></tr></table>"
+    },
+    {
+     "soort": "kader",
+     "html": "<strong>Voorwaardelijke opmaak verandert de waarde niet</strong>, enkel het uitzicht. Zet je alle negatieve getallen in het rood, dan blijft er gewoon −45 staan; het is alleen rood."
+    }
+   ]
+  },
+  {
+   "kop": "Formules",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Elke formule begint met een <strong>isgelijkteken</strong>. Zonder dat teken ziet Excel <strong>enkel tekst</strong> en rekent het niets uit."
+    },
+    {
+     "soort": "tekst",
+     "html": "De <strong>operatoren</strong> van de fiche: <strong>*</strong> (maal), <strong>−</strong> (min), <strong>+</strong> (plus), <strong>/</strong> (gedeeld door) en <strong>( )</strong> (haakjes)."
+    },
+    {
+     "soort": "tekst",
+     "html": "Het belangrijkste onderscheid in dit thema is dat tussen <strong>relatief</strong> en <strong>absoluut</strong> adresseren:"
+    },
+    {
+     "soort": "tekst",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Verwijzing</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Wat er gebeurt als je de formule kopieert</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">A1</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">relatief: ze schuift mee</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">$A$1</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">absoluut: ze blijft naar dezelfde cel wijzen</td></tr></table>"
+    },
+    {
+     "soort": "tekst",
+     "html": "Het <strong>dollarteken zet vast wat erachter komt</strong>: de kolom, de rij of allebei."
+    },
+    {
+     "soort": "kader",
+     "html": "Staat in <strong>C1 het btw-percentage</strong> en wil je in een hele kolom de btw berekenen, dan verwijs je met <strong>dollartekens</strong> naar C1. Zonder zou C1 mee opschuiven naar C2, C3 en zo verder, en dan reken je met een leeg vakje."
+    },
+    {
+     "soort": "tekst",
+     "html": "Staat in <strong>B2</strong> de formule <strong>=SOM(A1:A3)</strong> en sleep je ze naar <strong>B3</strong>, dan staat er <strong>=SOM(A2:A4)</strong>: de verwijzingen zijn relatief, dus ze schuiven één rij mee naar beneden."
+    }
+   ]
+  },
+  {
+   "kop": "Zes functies",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Functie</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Wat ze doet</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Voorbeeld</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">SOM</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">alle getallen in een bereik optellen</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">=SOM(B2:B10)</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">GEMIDDELDE</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">de getallen optellen en delen door hun aantal</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">None</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">MIN</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">het kleinste getal uit een bereik geven</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">None</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">MAX</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">het grootste getal uit een bereik geven</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">None</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">ALS</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een ander resultaat geven naargelang een voorwaarde waar of niet waar is</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">=ALS(B2&gt;=50;\"geslaagd\";\"niet geslaagd\")</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">VERT.ZOEKEN</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een waarde opzoeken in de eerste kolom van een tabel en iets uit dezelfde rij teruggeven</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">None</td></tr></table>"
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Vert</strong> staat voor <strong>verticaal</strong>: VERT.ZOEKEN zoekt <strong>naar beneden in een kolom</strong>."
+    },
+    {
+     "soort": "weetje",
+     "html": "<strong>GEMIDDELDE</strong> is niet het middelste getal: dat is de <strong>mediaan</strong>, en daarvoor bestaat een andere functie. En GEMIDDELDE en MIN vallen enkel samen als <strong>alle getallen gelijk</strong> zijn."
+    }
+   ]
+  },
+  {
+   "kop": "Grafieken",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "De fiche noemt <strong>vijf</strong> grafiektypes. De vraag is altijd: <strong>wat wil je tonen</strong>?"
+    },
+    {
+     "soort": "tekst",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Grafiek</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Waarvoor ze past</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">kolomgrafiek</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">waarden naast elkaar vergelijken, staand</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">staafgrafiek</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">waarden naast elkaar vergelijken, liggend</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">lijngrafiek</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een evolutie in de tijd: hoe iets stijgt of daalt</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">cirkeldiagram</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">het aandeel van elk deel in een geheel, samen honderd procent</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">spreiding</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">het verband tussen twee reeksen getallen</td></tr></table>"
+    },
+    {
+     "soort": "kader",
+     "html": "Een <strong>boxplot</strong> staat <strong>niet</strong> in deze fiche. Noem er dus geen bij wat Excel volgens dit vak kan: de vijf hierboven zijn de lijst."
+    }
+   ]
+  }
+ ],
+ "onthoud": [
+  "Cel, celadres (B7), bereik met een dubbelpunt (A1:A10), werkblad en werkmap.",
+  "De werkmap is het bestand, een werkblad is één tabblad erin.",
+  "De vulgreep is het vierkantje rechtsonder; ze trekt gegevens én formules door.",
+  "Notaties: valuta, percentage, datum en tijd, en het aantal decimalen.",
+  "Voorwaardelijke opmaak verandert het uitzicht, nooit de waarde.",
+  "Elke formule begint met een isgelijkteken.",
+  "A1 schuift mee als je kopieert, $A$1 blijft staan.",
+  "Functies: SOM, GEMIDDELDE, MIN, MAX, ALS en VERT.ZOEKEN.",
+  "VERT.ZOEKEN zoekt verticaal in de eerste kolom van een tabel.",
+  "Grafieken: kolom, staaf, lijn, cirkel en spreiding. Cirkel voor delen van een geheel, lijn voor evolutie."
+ ]
+}
