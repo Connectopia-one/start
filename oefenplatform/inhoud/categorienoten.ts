@@ -29,9 +29,12 @@ export const categorienoten: Record<string, string> = {
     "welzijnswetenschappen). De vakfiches van de Examencommissie noemen die " +
     "richtingen samen bovenaan, daarom staan ze hier niet apart. Leg je je " +
     "wetenschappen in één examen af, dan neem je natuurwetenschappen; leg je " +
-    "er drie af, dan neem je biologie, chemie en fysica. De vakken die maar " +
-    "bij één richting horen, zoals sociale en gedragswetenschappen, filosofie " +
-    "en recht of samenleving en economie, zijn nog in de maak.",
+    "er drie af, dan neem je biologie, chemie en fysica. Let op: " +
+    "bedrijfswetenschappen en welzijnswetenschappen hebben voor wiskunde en " +
+    "voor natuurwetenschappen een eigen vakfiche. Die twee vakken zijn voor " +
+    "hen nog in de maak, net als sociale en gedragswetenschappen, filosofie " +
+    "en recht, algemene economie, bedrijfswetenschappen en recht, en " +
+    "samenleving en economie.",
 };
 
 /** De noot bij deze categorie, of niets. */
