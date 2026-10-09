@@ -103,15 +103,16 @@ export const home = {
     link: "https://oefenplatform.connectopia.one/niveaus/hoekje",
   },
   /*
-    In de kijker: de berichten van sociale media die op de site staan. De band
-    staat er vooral om mensen te laten weten dat ze hun eigen bericht mogen
-    insturen; de pagina zelf vult zich daarmee.
+    In de kijker: filmpjes, artikels en berichten die we delen over
+    hoogbegaafdheid, autisme en ADHD. De band staat er vooral om mensen te
+    laten weten dat ze er zelf een mogen bijzetten; de pagina vult zich
+    daarmee.
   */
   kijkerBand: {
     label: "In de kijker",
-    titel: "Schreef jij iets over ons?",
+    titel: "Kwam jij iets goeds tegen?",
     tekst:
-      "Berichten van onze eigen pagina's en van mensen die over ons schreven, staan samen op één pagina. Deed jij er een, op Facebook, Instagram of LinkedIn? Stuur hem in, dan zetten we hem erbij.",
+      "Filmpjes, artikels en berichten over hoogbegaafdheid, autisme, ADHD of een combinatie daarvan, bij elkaar op één pagina. Zag jij iets dat anderen moeten zien? Stuur het in, dan zetten we het erbij.",
     knop: "Naar In de kijker",
     link: "/in-de-kijker",
   },
