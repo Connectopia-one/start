@@ -19,6 +19,30 @@ async function nietTijdensMeekijken() {
   }
 }
 
+/*
+  De velden van de inlichtingenfiche die bij een kamp horen. Ze staan apart
+  omdat voegKindToe en wijzigKind er allebei exact hetzelfde mee doen; wie er
+  een veld bij zet, zet het hier en nergens anders.
+*/
+function fichevelden(formData: FormData) {
+  const tekst = (naam: string) =>
+    String(formData.get(naam) || "").trim() || null;
+
+  return {
+    medicatie: tekst("medicatie"),
+    huisarts_naam: tekst("huisarts_naam"),
+    huisarts_telefoon: tekst("huisarts_telefoon"),
+    noodcontact2_naam: tekst("noodcontact2_naam"),
+    noodcontact2_telefoon: tekst("noodcontact2_telefoon"),
+    ophalen: tekst("ophalen"),
+    alleen_naar_huis: formData.get("alleen_naar_huis") === "on",
+    eten: tekst("eten"),
+    wat_helpt: tekst("wat_helpt"),
+    school: tekst("school"),
+    leerjaar: tekst("leerjaar"),
+  };
+}
+
 export async function wijzigContactgegevens(formData: FormData) {
   await nietTijdensMeekijken();
   const session = await requireIngelogd();
@@ -78,6 +102,7 @@ export async function voegKindToe(formData: FormData) {
     noodcontact_telefoon: noodcontactTelefoon,
     toestemming_fotos: toestemmingFotos,
     toestemming_social_media: toestemmingSocialMedia,
+    ...fichevelden(formData),
   });
 
   revalidatePath("/portaal/gezin");
@@ -114,6 +139,7 @@ export async function wijzigKind(formData: FormData) {
       noodcontact_telefoon: noodcontactTelefoon,
       toestemming_fotos: toestemmingFotos,
       toestemming_social_media: toestemmingSocialMedia,
+      ...fichevelden(formData),
       updated_at: new Date().toISOString(),
     })
     .eq("id", kindId)

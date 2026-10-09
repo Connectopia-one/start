@@ -85,6 +85,22 @@ create table if not exists public.kinderen (
   updated_at timestamptz not null default now()
 );
 
+-- Wat een kamp nog nodig heeft naast het bovenstaande. Zie
+-- supabase/inlichtingenfiche.sql voor de uitleg; dat bestand zet deze kolommen
+-- op een databank waar de tabel al bestaat.
+alter table public.kinderen add column if not exists medicatie text;
+alter table public.kinderen add column if not exists huisarts_naam text;
+alter table public.kinderen add column if not exists huisarts_telefoon text;
+alter table public.kinderen add column if not exists noodcontact2_naam text;
+alter table public.kinderen add column if not exists noodcontact2_telefoon text;
+alter table public.kinderen add column if not exists ophalen text;
+alter table public.kinderen
+  add column if not exists alleen_naar_huis boolean not null default false;
+alter table public.kinderen add column if not exists eten text;
+alter table public.kinderen add column if not exists wat_helpt text;
+alter table public.kinderen add column if not exists school text;
+alter table public.kinderen add column if not exists leerjaar text;
+
 -- ============================================================
 -- HULPFUNCTIE
 -- ============================================================

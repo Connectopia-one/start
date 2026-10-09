@@ -44,7 +44,7 @@ export default async function TeamPage() {
         <section className="mt-8">
           <h2 className="font-display text-lg font-semibold text-ink">Kinderen</h2>
           <p className="mt-1 text-sm text-ink-dim">
-            Contactgegevens, allergieën, diagnoses en noodcontact per kind.
+            Allergieën, medicatie, de huisarts, twee noodnummers, wie mag ophalen en wat helpt.
           </p>
           <Link
             href="/team/kinderen"

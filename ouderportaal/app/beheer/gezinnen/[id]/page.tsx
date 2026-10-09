@@ -2,6 +2,8 @@ import { notFound } from "next/navigation";
 import { requireBeheerder } from "@/lib/auth";
 import { createClient } from "@/lib/supabase/server";
 import { Header } from "@/components/Header";
+import { FicheRegels } from "@/components/FicheRegels";
+import { type Kind, KINDVELDEN } from "@/lib/kind";
 import { upsertToegang, verwijderGezin, wijzigWachtwoord } from "../actions";
 import { startMeekijken } from "@/app/portaal/meekijken-actions";
 
@@ -36,9 +38,7 @@ export default async function GezinDetailPage({
       .eq("profile_id", id),
     supabase
       .from("kinderen")
-      .select(
-        "id, naam, geboortedatum, allergieen, diagnoses, noodcontact_naam, noodcontact_telefoon, toestemming_fotos, toestemming_social_media",
-      )
+      .select(KINDVELDEN)
       .eq("profile_id", id)
       .order("naam"),
   ]);
@@ -128,7 +128,7 @@ export default async function GezinDetailPage({
             </p>
           )}
           <div className="mt-3 space-y-4">
-            {(kinderen ?? []).map((kind) => (
+            {((kinderen as Kind[] | null) ?? []).map((kind) => (
               <div
                 key={kind.id}
                 className="rounded-lg border border-border bg-paper p-4 text-sm"
@@ -142,28 +142,9 @@ export default async function GezinDetailPage({
                     </span>
                   )}
                 </p>
-                {kind.allergieen && (
-                  <p className="mt-2">
-                    <strong className="text-ink">Allergieën: </strong>
-                    <span className="text-ink-dim">{kind.allergieen}</span>
-                  </p>
-                )}
-                {kind.diagnoses && (
-                  <p className="mt-1">
-                    <strong className="text-ink">Diagnoses: </strong>
-                    <span className="text-ink-dim">{kind.diagnoses}</span>
-                  </p>
-                )}
-                {(kind.noodcontact_naam || kind.noodcontact_telefoon) && (
-                  <p className="mt-1">
-                    <strong className="text-ink">Noodcontact: </strong>
-                    <span className="text-ink-dim">
-                      {[kind.noodcontact_naam, kind.noodcontact_telefoon]
-                        .filter(Boolean)
-                        .join(" — ")}
-                    </span>
-                  </p>
-                )}
+                <div className="mt-2">
+                  <FicheRegels kind={kind} />
+                </div>
                 <div className="mt-2 flex flex-wrap gap-2">
                   <span
                     className={`rounded-full px-2.5 py-0.5 text-xs font-medium ${kind.toestemming_fotos ? "bg-forest/10 text-forest-dark" : "bg-danger/10 text-danger"}`}

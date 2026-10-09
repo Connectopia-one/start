@@ -1,17 +1,10 @@
 import { requireStaff } from "@/lib/auth";
 import { createClient } from "@/lib/supabase/server";
 import { Header } from "@/components/Header";
+import { FicheRegels } from "@/components/FicheRegels";
+import { type Kind as Fiche, KINDVELDEN } from "@/lib/kind";
 
-type Kind = {
-  id: string;
-  naam: string;
-  geboortedatum: string | null;
-  allergieen: string | null;
-  diagnoses: string | null;
-  noodcontact_naam: string | null;
-  noodcontact_telefoon: string | null;
-  toestemming_fotos: boolean;
-  toestemming_social_media: boolean;
+type Kind = Fiche & {
   profiles: { full_name: string } | { full_name: string }[] | null;
 };
 
@@ -28,9 +21,7 @@ export default async function TeamKinderenPage() {
   const supabase = await createClient();
   const { data } = await supabase
     .from("kinderen")
-    .select(
-      "id, naam, geboortedatum, allergieen, diagnoses, noodcontact_naam, noodcontact_telefoon, toestemming_fotos, toestemming_social_media, profiles(full_name)"
-    )
+    .select(`${KINDVELDEN}, profiles(full_name)`)
     .order("naam");
 
   const kinderen = (data as Kind[] | null) ?? [];
@@ -55,26 +46,9 @@ export default async function TeamKinderenPage() {
               </p>
               {gezinsnaam(kind) && <p className="text-xs text-ink-dim">Gezin: {gezinsnaam(kind)}</p>}
 
-              {kind.allergieen && (
-                <p className="mt-2">
-                  <strong className="text-ink">Allergieën: </strong>
-                  <span className="text-ink-dim">{kind.allergieen}</span>
-                </p>
-              )}
-              {kind.diagnoses && (
-                <p className="mt-1">
-                  <strong className="text-ink">Diagnoses: </strong>
-                  <span className="text-ink-dim">{kind.diagnoses}</span>
-                </p>
-              )}
-              {(kind.noodcontact_naam || kind.noodcontact_telefoon) && (
-                <p className="mt-1">
-                  <strong className="text-ink">Noodcontact: </strong>
-                  <span className="text-ink-dim">
-                    {[kind.noodcontact_naam, kind.noodcontact_telefoon].filter(Boolean).join(" — ")}
-                  </span>
-                </p>
-              )}
+              <div className="mt-2">
+                <FicheRegels kind={kind} />
+              </div>
               <div className="mt-2 flex flex-wrap gap-2">
                 <span
                   className={`rounded-full px-2.5 py-0.5 text-xs font-medium ${kind.toestemming_fotos ? "bg-forest/10 text-forest-dark" : "bg-danger/10 text-danger"}`}
