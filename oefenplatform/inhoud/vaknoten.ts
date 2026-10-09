@@ -64,6 +64,11 @@ export const vaknoten: Record<string, string> = {
     "examens afleggen: biologie, chemie en fysica. Volg je een richting met één " +
     "examen wetenschappen, dan heb je het vak natuurwetenschappen nodig in " +
     "plaats van dit vak.",
+  "beyond-doorstroom/statistiek":
+    "Statistiek is een apart examen voor humane wetenschappen. Volg je een " +
+    "andere richting, dan zit de statistiek die jij nodig hebt gewoon in " +
+    "wiskunde gevorderd.",
+
   "beyond-doorstroom/fysica":
     "Dit vak is er voor de richtingen die hun wetenschappen in drie aparte " +
     "examens afleggen: biologie, chemie en fysica. Volg je een richting met één " +

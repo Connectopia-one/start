@@ -19,6 +19,7 @@ import {
 } from "@/lib/niveaus";
 import { sorteerHoofdstukken } from "@/lib/hoofdstukvolgorde";
 import { vakIcoon } from "@/lib/vakbeeld";
+import { vindCategorienoot } from "@/inhoud/categorienoten";
 
 type Hoofdstuk = {
   id: string;
@@ -70,6 +71,7 @@ export default async function NiveauPage({
     .order("volgorde", { ascending: true });
 
   const volledigeToegang = heeftVolledigeToegang(session?.profile ?? null);
+  const noot = vindCategorienoot(niveau.slug);
 
   const { data: kinderen } = session
     ? await supabase
@@ -105,6 +107,14 @@ export default async function NiveauPage({
         <p className="mt-3 text-sm text-ink-dim">
           Kies een vak om aan de slag te gaan.
         </p>
+
+        {/* Voor wie deze vakken zijn. De tekst staat in
+            inhoud/categorienoten.ts, zodat aanpassen geen code vraagt. */}
+        {noot && (
+          <p className="mt-4 rounded-xl border border-border bg-surface px-5 py-4 text-sm leading-relaxed text-ink-dim">
+            {noot}
+          </p>
+        )}
 
         {!volledigeToegang && (
           <div className="mt-6 rounded-xl border border-amber/40 bg-amber/10 px-5 py-4 text-sm text-ink">
