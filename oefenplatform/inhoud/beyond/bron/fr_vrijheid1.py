@@ -1,0 +1,318 @@
+# -*- coding: utf-8 -*-
+"""Vrijheid en determinisme van de oudheid tot de 19de eeuw.
+
+Het derde van vier thema's over wijsgerige antropologie. De fiche vraagt het
+verschil tussen lot en toeval, en daarna de evolutie van het denken over
+vrijheid en determinisme in vijf periodes:
+
+    Griekse mythologie
+    oudheid: Democritus en de Stoïcijnen
+    middeleeuwen: Thomas van Aquino
+    17de eeuw: mechanisch determinisme
+    19de eeuw: Arthur Schopenhauer en Friedrich Nietzsche
+
+De 20ste eeuw is een apart thema, want de fiche zet die in een eigen lijn met
+vijf andere denkers.
+
+Bij elke naam staat hier alleen de bijdrage aan dít debat: Democritus de
+atomen die volgens vaste wetten bewegen, de Stoïcijnen de innerlijke vrijheid
+in wat je wel in de hand hebt, Thomas van Aquino de vrije wil die hij met de
+voorzienigheid verzoent, Schopenhauer de wil achter onze keuzes, Nietzsche de
+vrije wil als een bedenksel om schuld te kunnen toewijzen. Geen citaat en geen
+boektitel die de fiche niet noemt.
+
+Deel 1 is lot en toeval, de Griekse mythologie en de oudheid.
+Deel 2 zijn de middeleeuwen, de 17de eeuw en de 19de eeuw.
+"""
+
+DEEL1 = [
+    dict(type="meerkeuze",
+         vraag="Wat is het verschil tussen lot en toeval?",
+         opties=["een lot ligt vast en heeft een richting, toeval had even goed anders kunnen zijn",
+                 "een lot overkomt je plots, toeval is wat je zelf in de hand hebt gehad",
+                 "een lot gaat over de toekomst, toeval gaat enkel over wat al voorbij is",
+                 "een lot geldt voor een volk en toeval geldt altijd voor één enkel mens"],
+         antwoord=0,
+         uitleg="Bij een lot is er iets dat zo moest lopen. Bij toeval is er niets dat het zo "
+                "gewild heeft: het had net zo goed anders kunnen uitvallen."),
+    dict(type="meerkeuze",
+         vraag="Je wint de lotto. Is dat lot of toeval?",
+         opties=["toeval, want niets en niemand had dit voor jou bestemd",
+                 "lot, want het stond al vast dat jij die cijfers zou kiezen",
+                 "lot, want elke gebeurtenis heeft een bedoeling en dus ook deze",
+                 "geen van beide, want winnen is nu eenmaal iets dat je zelf doet"],
+         antwoord=0,
+         uitleg="Juist het ontbreken van een bedoeling maakt het toeval. Wie er een bestemming in "
+                "ziet, spreekt over lot."),
+    dict(type="meerkeuze",
+         vraag="Welke plaats heeft het lot in de Griekse mythologie?",
+         opties=["het staat boven alles, en zelfs de goden kunnen het niet omkeren",
+                 "het staat onder de goden, die het naar hun eigen wens bijsturen",
+                 "het bestaat niet, want in de mythologie beslist elke mens voor zich",
+                 "het geldt alleen voor helden en niet voor gewone sterfelijke mensen"],
+         antwoord=0,
+         uitleg="De Grieken zien het lot als de hoogste macht. De goden kennen het en kunnen het "
+                "aankondigen, maar ook zij ontlopen het niet."),
+    dict(type="meerkeuze",
+         vraag="Wat laat een verhaal als dat van Oedipus over het lot zien?",
+         opties=["wie zijn voorspelling probeert te ontlopen, vervult ze juist daardoor",
+                 "wie zijn voorspelling kent, kan haar met genoeg moeite nog omkeren",
+                 "wie zijn voorspelling niet kent, krijgt er ook geen last van",
+                 "wie zijn voorspelling negeert, leeft daarna vrij van elke voorspelling"],
+         antwoord=0,
+         uitleg="Dat is de wrange kern van zulke verhalen: de vlucht voor het lot is een deel van "
+                "het lot geworden."),
+    dict(type="meerkeuze",
+         vraag="Wat is de kern van het denken van Democritus?",
+         opties=["alles bestaat uit atomen die volgens vaste wetten bewegen",
+                 "alles bestaat uit vier elementen die elkaar afwisselend verdringen",
+                 "alles bestaat uit één werkelijkheid waarin verandering onmogelijk is",
+                 "alles bestaat uit geest, en de stoffelijke wereld is slechts schijn"],
+         antwoord=0,
+         uitleg="Als alles atomen zijn die volgens vaste wetten bewegen, dan ligt ook jouw "
+                "volgende beweging vast. Dat is determinisme avant la lettre."),
+    dict(type="meerkeuze",
+         vraag="Waarom wordt Democritus een determinist genoemd?",
+         opties=["in zijn wereld volgt elke gebeurtenis noodzakelijk uit haar oorzaken",
+                 "in zijn wereld beslist het lot over alles, ook over de goden",
+                 "in zijn wereld is de mens vrij en alle andere dingen niet",
+                 "in zijn wereld gebeurt alles zonder oorzaak en volledig willekeurig"],
+         antwoord=0,
+         uitleg="Determinisme komt van determineren: vastleggen. Oorzaken leggen vast wat er "
+                "volgt, zonder uitzondering voor de mens."),
+    dict(type="meerkeuze",
+         vraag="Wat betekent determinisme?",
+         opties=["alles wat gebeurt, ligt vast door wat eraan voorafging",
+                 "alles wat gebeurt, is het werk van een bedoeling of een bestemming",
+                 "alles wat gebeurt, gebeurt zonder oorzaak en dus volkomen willekeurig",
+                 "alles wat gebeurt, kan door een mens met genoeg kennis gewijzigd worden"],
+         antwoord=0,
+         uitleg="Niet hetzelfde als lot: bij determinisme hoeft er geen bedoeling achter te zitten, "
+                "alleen een keten van oorzaken."),
+    dict(type="meerkeuze",
+         vraag="Wat is de visie van de Stoïcijnen op de loop van de wereld?",
+         opties=["de wereld volgt een vaste orde die je niet kan veranderen",
+                 "de wereld volgt geen enkele orde en valt elke dag anders uit",
+                 "de wereld volgt de wensen van wie genoeg wil en moed heeft",
+                 "de wereld volgt een orde die je met de juiste kennis kan omkeren"],
+         antwoord=0,
+         uitleg="Die vaste orde is hun vertrekpunt. Wat er daarna nog van vrijheid overblijft, is "
+                "hun eigenlijke vraag."),
+    dict(type="meerkeuze",
+         vraag="Waarin ligt volgens de Stoïcijnen wél vrijheid?",
+         opties=["in je houding tegenover wat je overkomt",
+                 "in je macht om de loop van de dingen bij te sturen",
+                 "in je recht om te doen wat je op dat moment het liefst wil",
+                 "in je mogelijkheid om aan de vaste orde van de wereld te ontsnappen"],
+         antwoord=0,
+         uitleg="Het onderscheid dat ze maken, is dat tussen wat in je macht ligt en wat niet. Je "
+                "oordeel en je houding liggen in je macht; de gebeurtenis zelf niet."),
+    dict(type="meerkeuze",
+         vraag="Een stoïcijn verliest zijn bagage op reis. Wat is de stoïcijnse reactie?",
+         opties=["het verlies zelf lag niet in zijn macht, zijn houding erover wel",
+                 "het verlies was zijn lot, dus mag hij zich erover beklagen",
+                 "het verlies was toeval, dus heeft hij er niets mee te maken",
+                 "het verlies had hij kunnen voorkomen, dus is het volledig zijn fout"],
+         antwoord=0,
+         uitleg="Dat is de stoïcijnse oefening in één beweging: scheiden wat je in de hand hebt van "
+                "wat je niet in de hand hebt."),
+    dict(type="meerkeuze",
+         vraag="Welke uitspraken over lot, toeval en determinisme kloppen?",
+         opties=["bij een lot zit er een bedoeling achter, bij determinisme niet noodzakelijk",
+                 "bij toeval ontbreekt zowel de bedoeling als de noodzaak",
+                 "lot, toeval en determinisme betekenen in de filosofie precies hetzelfde",
+                 "determinisme en toeval komen op hetzelfde neer, want beide gaan over kans"],
+         antwoord=[0, 1],
+         uitleg="De eerste twee. Determinisme is strenger dan toeval en kaler dan het lot: "
+                "oorzaken, zonder bestemming."),
+    dict(type="meerkeuze",
+         vraag="Welke uitspraken over de Griekse mythologie en de Stoïcijnen kloppen?",
+         opties=["in beide gevallen ligt de loop van de dingen niet in de hand van de mens",
+                 "de Stoïcijnen leggen de vrijheid binnen de mens, de mythologie doet dat niet",
+                 "in beide gevallen is de mens volledig vrij om zijn weg te kiezen",
+                 "de mythologie verdedigt het determinisme en de Stoïcijnen bestrijden het"],
+         antwoord=[0, 1],
+         uitleg="De eerste twee. De Stoïcijnen nemen de vaste orde over en zoeken daarbinnen wat "
+                "er toch nog aan jou toekomt."),
+    dict(type="waarofniet",
+         vraag="Bij toeval hoort geen bedoeling; bij een lot hoort er wel een.",
+         antwoord=True,
+         uitleg="Waar. Dat is precies het verschil dat de fiche vraagt."),
+    dict(type="waarofniet",
+         vraag="In de Griekse mythologie kunnen de goden het lot naar hun hand zetten.",
+         antwoord=False,
+         uitleg="Niet waar. Het lot staat boven de goden; ook zij moeten het ondergaan."),
+    dict(type="waarofniet",
+         vraag="Volgens Democritus bewegen atomen volgens vaste wetten.",
+         antwoord=True,
+         uitleg="Waar. En daarmee ligt ook alles wat uit die beweging volgt vast."),
+    dict(type="waarofniet",
+         vraag="De Stoïcijnen vinden dat je de loop van de wereld kan bijsturen als je maar wil.",
+         antwoord=False,
+         uitleg="Niet waar. Hun vrijheid zit in je houding tegenover die loop, niet in het "
+                "veranderen ervan."),
+    dict(type="invultekst",
+         vraag="Hoe heet de opvatting dat alles vastligt door wat eraan voorafging?",
+         antwoord=["determinisme", "het determinisme"],
+         uitleg="Van determineren: vastleggen."),
+    dict(type="invultekst",
+         vraag="Welke denker uit de oudheid verklaart alles uit atomen die volgens vaste wetten "
+               "bewegen?",
+         antwoord=["Democritus"],
+         uitleg="Zijn atoomleer maakt van hem de eerste determinist in de rij."),
+    dict(type="invultekst",
+         vraag="Welke school uit de oudheid legt de vrijheid in je houding tegenover wat je "
+               "overkomt? De ...",
+         antwoord=["Stoïcijnen", "stoïcijnen", "Stoa"],
+         uitleg="Zij scheiden wat in je macht ligt van wat niet in je macht ligt."),
+    dict(type="invultekst",
+         vraag="Hoe noem je wat gebeurt zonder bedoeling en zonder noodzaak?",
+         antwoord=["toeval", "het toeval"],
+         uitleg="Het had even goed anders kunnen uitvallen."),
+]
+
+DEEL2 = [
+    dict(type="meerkeuze",
+         vraag="Welk probleem wil Thomas van Aquino in de middeleeuwen oplossen?",
+         opties=["hoe de mens vrij kan zijn terwijl God alles weet en voorziet",
+                 "hoe de mens vrij kan zijn terwijl het lot boven de goden staat",
+                 "hoe de mens vrij kan zijn terwijl zijn atomen volgens wetten bewegen",
+                 "hoe de mens vrij kan zijn terwijl zijn wil hem blind voortdrijft"],
+         antwoord=0,
+         uitleg="Dat is de middeleeuwse versie van de vraag: een God die alles overziet naast een "
+                "mens die echt kiest."),
+    dict(type="meerkeuze",
+         vraag="Welke kant kiest Thomas van Aquino in die vraag?",
+         opties=["de mens heeft een vrije wil, en dat spreekt de voorzienigheid niet tegen",
+                 "de mens heeft geen vrije wil, want de voorzienigheid legt alles vast",
+                 "de mens heeft een vrije wil, en dus kan God de toekomst niet kennen",
+                 "de mens heeft soms een vrije wil, afhankelijk van hoe hij geleefd heeft"],
+         antwoord=0,
+         uitleg="Hij houdt beide vast: de mens kiest werkelijk, en dat past binnen de orde die "
+                "God heeft gewild. Geloof en rede hoeven elkaar niet te bijten."),
+    dict(type="meerkeuze",
+         vraag="Wat is het mechanisch determinisme van de 17de eeuw?",
+         opties=["de wereld werkt als een machine waarin natuurwetten alles vastleggen",
+                 "de wereld werkt als een machine die God voortdurend moet bijsturen",
+                 "de wereld werkt als een organisme dat uit zichzelf naar een doel groeit",
+                 "de wereld werkt als een verhaal waarin elke gebeurtenis een bedoeling heeft"],
+         antwoord=0,
+         uitleg="De natuurwetenschap van die eeuw levert het beeld: wie de wetten en de "
+                "beginstand kent, kent alles wat volgt."),
+    dict(type="meerkeuze",
+         vraag="Welk gevolg heeft dat beeld voor de menselijke vrijheid?",
+         opties=["als de mens ook in die machine zit, dan ligt ook zijn keuze vast",
+                 "als de mens ook in die machine zit, dan is hij juist volkomen vrij",
+                 "als de mens buiten die machine staat, dan ligt zijn keuze toch vast",
+                 "als de mens buiten die machine staat, dan is zijn keuze zuiver toeval"],
+         antwoord=0,
+         uitleg="Precies dat maakt het een probleem. Ofwel de mens is een uitzondering, ofwel zijn "
+                "vrijheid is een indruk."),
+    dict(type="meerkeuze",
+         vraag="Wat is de kern van het denken van Arthur Schopenhauer over vrijheid?",
+         opties=["achter onze keuzes zit een wil die wij zelf niet gekozen hebben",
+                 "achter onze keuzes zit een rede die ons altijd het juiste wijst",
+                 "achter onze keuzes zit niets; elke keuze is zuiver toeval",
+                 "achter onze keuzes zit God, die elke stap van tevoren heeft bepaald"],
+         antwoord=0,
+         uitleg="Je kan doen wat je wil, maar je kan niet kiezen wát je wil. Daar ligt bij "
+                "Schopenhauer de grens van de vrijheid."),
+    dict(type="meerkeuze",
+         vraag="Waarom noemt men de visie van Schopenhauer deterministisch?",
+         opties=["de wil die je drijft, ligt buiten je keuze en bepaalt wat je doet",
+                 "de natuurwetten bepalen zijn hele wereldbeeld, ook dat van de mens",
+                 "God bepaalt bij hem elke stap die een mens ooit zal zetten",
+                 "het lot bepaalt bij hem alles, net als in de Griekse mythologie"],
+         antwoord=0,
+         uitleg="De bron van de onvrijheid ligt bij hem niet in de natuurwetten maar in jezelf: in "
+                "een wil waar je niet buiten kan."),
+    dict(type="meerkeuze",
+         vraag="Wat is het bezwaar van Friedrich Nietzsche tegen de vrije wil?",
+         opties=["hij ziet het als een bedenksel dat vooral dient om schuld toe te wijzen",
+                 "hij ziet het als een bewezen feit dat niemand nog mag betwisten",
+                 "hij ziet het als een geschenk dat enkel bij sterke mensen voorkomt",
+                 "hij ziet het als een natuurwet die men beter niet zou onderzoeken"],
+         antwoord=0,
+         uitleg="Zijn vraag is niet alleen of het bestaat, maar ook waarom wij er zo aan "
+                "vasthouden. Zijn antwoord: om iemand verantwoordelijk te kunnen stellen."),
+    dict(type="meerkeuze",
+         vraag="Welk verschil is er tussen Schopenhauer en Nietzsche op dit punt?",
+         opties=["Schopenhauer ziet de wil als een last, Nietzsche niet",
+                 "Nietzsche verdedigt de vrije wil en Schopenhauer bestrijdt hem",
+                 "beiden vinden dat de rede ons volledig vrij maakt",
+                 "beiden vinden dat God de loop van ons leven heeft vastgelegd"],
+         antwoord=0,
+         uitleg="Bij Schopenhauer is de wil iets om je van los te maken; bij Nietzsche hoort kracht "
+                "en drift bij wat een mens is."),
+    dict(type="meerkeuze",
+         vraag="Welke uitspraken over de vijf periodes kloppen?",
+         opties=["de vraag blijft dezelfde, maar de reden voor onvrijheid verandert per periode",
+                 "in de mythologie is het het lot, in de 17de eeuw zijn het de natuurwetten",
+                 "in elke periode wordt de vrije wil zonder meer verdedigd",
+                 "in elke periode wordt de vrije wil zonder meer ontkend"],
+         antwoord=[0, 1],
+         uitleg="De eerste twee. Lot, atomen, voorzienigheid, natuurwetten, de wil: andere "
+                "verklaring, dezelfde vraag."),
+    dict(type="meerkeuze",
+         vraag="Iemand zegt: ik kon niet anders, mijn opvoeding en mijn aard hebben dit gedaan. "
+               "Welke positie neemt die persoon in?",
+         opties=["een deterministische positie",
+                 "een positie die het lot als hoogste macht aanvaardt",
+                 "een positie die alles aan het toeval overlaat",
+                 "een positie die de vrije wil volledig verdedigt"],
+         antwoord=0,
+         uitleg="Oorzaken die vastleggen wat je doet: dat is determinisme, zonder dat er een "
+                "bestemming of een bedoeling bij hoort."),
+    dict(type="meerkeuze",
+         vraag="Waarom raakt dit debat aan de rechtspraak?",
+         opties=["wie niet vrij kon kiezen, kan je ook moeilijk verantwoordelijk stellen",
+                 "wie niet vrij kon kiezen, moet zwaarder gestraft worden dan wie dat wel kon",
+                 "wie vrij kon kiezen, hoeft zich voor zijn daden niet te verantwoorden",
+                 "wie vrij kon kiezen, valt buiten het bereik van de strafwetten"],
+         antwoord=0,
+         uitleg="Daarom is dit geen schoolse vraag. Schuld in het strafrecht veronderstelt iemand "
+                "die anders had kunnen handelen."),
+    dict(type="meerkeuze",
+         vraag="Welke uitspraken over determinisme en verantwoordelijkheid kloppen?",
+         opties=["een streng determinisme maakt het begrip schuld moeilijk te verdedigen",
+                 "ons recht gaat ervan uit dat iemand anders had kunnen handelen",
+                 "determinisme en verantwoordelijkheid hebben niets met elkaar te maken",
+                 "determinisme maakt elke straf meteen volledig onmogelijk"],
+         antwoord=[0, 1],
+         uitleg="De eerste twee. Moeilijk is niet onmogelijk: later proberen filosofen de twee "
+                "juist met elkaar te verzoenen."),
+    dict(type="waarofniet",
+         vraag="Thomas van Aquino verdedigt dat de mens een vrije wil heeft.",
+         antwoord=True,
+         uitleg="Waar. En volgens hem spreekt dat de voorzienigheid niet tegen."),
+    dict(type="waarofniet",
+         vraag="Het mechanisch determinisme van de 17de eeuw vergelijkt de wereld met een machine.",
+         antwoord=True,
+         uitleg="Waar. Wie de wetten en de beginstand kent, kent in dat beeld alles wat volgt."),
+    dict(type="waarofniet",
+         vraag="Volgens Schopenhauer kiest de mens zelf wat hij wil.",
+         antwoord=False,
+         uitleg="Niet waar. Je kan doen wat je wil, maar niet kiezen wát je wil."),
+    dict(type="waarofniet",
+         vraag="Nietzsche beschouwt de vrije wil als een bewezen feit.",
+         antwoord=False,
+         uitleg="Niet waar. Hij ziet het als een bedenksel, en vraagt zich af waarom wij het zo "
+                "graag willen geloven."),
+    dict(type="invultekst",
+         vraag="Welke middeleeuwse filosoof verzoent de vrije wil met de voorzienigheid?",
+         antwoord=["Thomas van Aquino", "van Aquino", "Thomas"],
+         uitleg="Hij houdt beide vast: de mens kiest echt, en dat past in Gods orde."),
+    dict(type="invultekst",
+         vraag="Welk beeld gebruikt de 17de eeuw voor de wereld waarin alles vastligt?",
+         antwoord=["een machine", "machine", "een uurwerk"],
+         uitleg="Vandaar de naam mechanisch determinisme."),
+    dict(type="invultekst",
+         vraag="Volgens welke filosoof zit achter elke keuze een wil die je niet zelf koos?",
+         antwoord=["Schopenhauer", "Arthur Schopenhauer"],
+         uitleg="Doen wat je wil kan je; kiezen wát je wil niet."),
+    dict(type="invultekst",
+         vraag="Welke filosoof uit de 19de eeuw ziet de vrije wil als een bedenksel om schuld toe "
+               "te wijzen?",
+         antwoord=["Nietzsche", "Friedrich Nietzsche"],
+         uitleg="Hij vraagt niet alleen of het bestaat, maar ook waaraan het idee ons dient."),
+]
