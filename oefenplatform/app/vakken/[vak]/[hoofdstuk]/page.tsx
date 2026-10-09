@@ -164,13 +164,30 @@ export default async function HoofdstukPage({
     magVolledig &&
     heeftKlikbareBundel(vak.slug, hoofdstuk.titel, hoofdstuk.niveau);
 
+  /* Een ouder meldde op 9 oktober 2026 dat de oefenbundel boven de leerstof
+     stond. De lijst ging op de datum van opladen, en de oefenbundels zijn er
+     later bij gekomen dan de leerbundels, dus kwamen ze bovenaan. Dat leest
+     averechts: je leest eerst en oefent daarna. De oefenbundel zakt nu altijd
+     naar onder, hoe laat hij ook opgeladen is. */
+  const isOefenbundel = (titel: string) =>
+    titel.trim().toLowerCase().startsWith("oefenbundel");
+
+  /* "… — deel 1" of "… — deel 2" in de titel: dan is dit de helft van een
+     thema en deelt het zijn leerstof met de andere helft. */
+  const deelVan = /^(.+?) — deel [12]$/.exec(hoofdstuk.titel)?.[1] ?? null;
+
   const leerstof = await Promise.all(
-    (leerstofRijen ?? []).map(async (l) => {
-      const { data } = await supabase.storage
-        .from("leerstof")
-        .createSignedUrl(l.bestandspad, 3600);
-      return { id: l.id, titel: l.titel, url: data?.signedUrl ?? null };
-    }),
+    [...(leerstofRijen ?? [])]
+      .sort(
+        (a, b) =>
+          Number(isOefenbundel(a.titel)) - Number(isOefenbundel(b.titel)),
+      )
+      .map(async (l) => {
+        const { data } = await supabase.storage
+          .from("leerstof")
+          .createSignedUrl(l.bestandspad, 3600);
+        return { id: l.id, titel: l.titel, url: data?.signedUrl ?? null };
+      }),
   );
 
   return (
@@ -191,6 +208,18 @@ export default async function HoofdstukPage({
         <h1 className="mt-2 font-display text-2xl font-semibold text-ink">
           {vak.naam} — {hoofdstuk.titel}
         </h1>
+
+        {/* Een ouder meldde op 9 oktober 2026 "Pythagoras deel 1 en 2 zijn
+            hetzelfde". Dat klopt voor de leerstof en niet voor de vragen: een
+            thema wordt bij ons twee hoofdstukken van twintig vragen, met
+            dezelfde leerbundel eronder. Wie dat niet weet, denkt dat hij
+            tweemaal hetzelfde hoofdstuk voor zich heeft. */}
+        {deelVan && (
+          <p className="mt-1 text-sm text-ink-dim">
+            Deel 1 en deel 2 van {deelVan} gaan over dezelfde leerstof. Alleen
+            de vragen zijn andere.
+          </p>
+        )}
 
         {tocht && (
           <Link
