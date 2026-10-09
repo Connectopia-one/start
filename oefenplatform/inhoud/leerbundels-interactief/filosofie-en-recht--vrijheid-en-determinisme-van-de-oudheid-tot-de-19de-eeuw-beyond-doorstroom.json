@@ -1,0 +1,91 @@
+{
+ "vak": "Filosofie en recht",
+ "titel": "Vrijheid en determinisme van de oudheid tot de 19de eeuw",
+ "onder": "Lot tegenover toeval, en vijf periodes waarin telkens iets anders onze vrijheid inperkt.",
+ "secties": [
+  {
+   "kop": "Lot, toeval en determinisme",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Drie woorden die op elkaar lijken en drie verschillende dingen zeggen. Het verschil zit in twee vragen: zit er een <strong>bedoeling</strong> achter, en lag het <strong>vast</strong>?"
+    },
+    {
+     "soort": "tekst",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Woord</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Bedoeling?</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Lag het vast?</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Voorbeeld</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">lot</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">ja, er is een bestemming</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">ja</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">de voorspelling die uitkomt hoe je ook vlucht</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">toeval</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">nee</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">nee</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">jij wint de lotto; niets had dat voor jou bestemd</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">determinisme</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">niet noodzakelijk</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">ja</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">je keuze volgt uit oorzaken, zonder dat iemand het zo wilde</td></tr></table>"
+    },
+    {
+     "soort": "kader",
+     "html": "<strong>Determinisme is kaler dan het lot en strenger dan toeval.</strong> Van determineren: vastleggen. Alles wat gebeurt, ligt vast door wat eraan voorafging, maar er hoeft geen bedoeling achter te zitten."
+    }
+   ]
+  },
+  {
+   "kop": "De Griekse mythologie en de oudheid",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "In de <strong>Griekse mythologie</strong> staat het <strong>lot</strong> boven alles, en zelfs de goden kunnen het niet omkeren. Ze kennen het, ze kondigen het aan, en ook zij ondergaan het."
+    },
+    {
+     "soort": "tekst",
+     "html": "In verhalen als dat van <strong>Oedipus</strong> zit de wrange kern: wie zijn voorspelling probeert te ontlopen, vervult ze juist daardoor. De vlucht voor het lot blijkt een deel van het lot."
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Democritus</strong> brengt in de oudheid de eerste strikt deterministische verklaring: alles bestaat uit <strong>atomen</strong> die volgens <strong>vaste wetten</strong> bewegen. Wie dat aanneemt, moet aannemen dat ook jouw volgende beweging vastligt."
+    },
+    {
+     "soort": "tekst",
+     "html": "De <strong>Stoïcijnen</strong> aanvaarden dat de wereld een vaste orde volgt, en zoeken de vrijheid ergens anders: in je <strong>houding</strong>. Hun onderscheid is dat tussen wat <strong>in je macht</strong> ligt en wat niet. Je bagage verliezen lag niet in je macht; wat je erover denkt, wel."
+    }
+   ]
+  },
+  {
+   "kop": "Middeleeuwen en 17de eeuw",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "In de middeleeuwen krijgt de vraag een nieuwe vorm: hoe kan de mens vrij zijn terwijl <strong>God alles weet en voorziet</strong>? <strong>Thomas van Aquino</strong> houdt beide vast. De mens heeft een <strong>vrije wil</strong> en kiest werkelijk, en dat past binnen de orde die God gewild heeft. Geloof en rede hoeven elkaar niet te bijten."
+    },
+    {
+     "soort": "tekst",
+     "html": "In de 17de eeuw levert de natuurwetenschap een nieuw beeld: het <strong>mechanisch determinisme</strong>. De wereld werkt als een <strong>machine</strong> waarin natuurwetten alles vastleggen. Wie de wetten en de beginstand kent, kent alles wat volgt."
+    },
+    {
+     "soort": "kader",
+     "html": "<strong>Daar zit de hele moeilijkheid in één vraag:</strong> zit de mens ook in die machine? Zo ja, dan ligt ook zijn keuze vast. Zo nee, dan moet je uitleggen waarom hij een uitzondering is."
+    }
+   ]
+  },
+  {
+   "kop": "De 19de eeuw: Schopenhauer en Nietzsche",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "<strong>Arthur Schopenhauer</strong> legt de onvrijheid niet buiten maar binnen de mens. Achter onze keuzes zit een <strong>wil</strong> die wij zelf niet gekozen hebben. Je kan doen wat je wil, maar je kan niet kiezen wát je wil."
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Friedrich Nietzsche</strong> stelt een andere vraag. Niet alleen of de vrije wil bestaat, maar ook waaraan dat idee ons dient. Zijn antwoord: het is een <strong>bedenksel</strong> dat vooral dient om iemand <strong>schuld</strong> te kunnen toewijzen."
+    },
+    {
+     "soort": "tekst",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Periode</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Wat onze vrijheid inperkt</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Griekse mythologie</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">het lot, dat boven de goden staat</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">oudheid: Democritus</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">atomen die volgens vaste wetten bewegen</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">oudheid: de Stoïcijnen</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">de vaste orde van de wereld, met vrijheid in je houding</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">middeleeuwen: Thomas van Aquino</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">niets: de vrije wil en de voorzienigheid gaan samen</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">17de eeuw</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">de natuurwetten van de wereldmachine</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">19de eeuw: Schopenhauer</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">de wil in jezelf, die je niet koos</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">19de eeuw: Nietzsche</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">de vrije wil zelf is een bedenksel</td></tr></table>"
+    },
+    {
+     "soort": "weetje",
+     "html": "Deze vraag is niet schools. Ons strafrecht gaat ervan uit dat iemand anders had kunnen handelen. Een streng determinisme maakt het begrip schuld moeilijk te verdedigen, en daarover gaat het volgende thema verder."
+    }
+   ]
+  }
+ ],
+ "onthoud": [
+  "Lot heeft een bedoeling, toeval geen van beide, determinisme legt vast zonder bedoeling.",
+  "In de mythologie staat het lot boven de goden; Oedipus vervult zijn voorspelling door ze te ontlopen.",
+  "Democritus: atomen volgens vaste wetten. De Stoïcijnen: vrijheid zit in je houding, niet in de gebeurtenis.",
+  "Thomas van Aquino verzoent de vrije wil met de voorzienigheid.",
+  "17de eeuw: de wereld als machine, dus mechanisch determinisme.",
+  "Schopenhauer: je kan niet kiezen wát je wil. Nietzsche: de vrije wil is een bedenksel om schuld toe te wijzen."
+ ]
+}

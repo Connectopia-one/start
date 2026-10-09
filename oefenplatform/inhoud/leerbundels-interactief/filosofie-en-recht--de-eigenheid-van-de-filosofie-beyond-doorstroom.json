@@ -1,0 +1,86 @@
+{
+ "vak": "Filosofie en recht",
+ "titel": "De eigenheid van de filosofie",
+ "onder": "Wat filosofie anders maakt dan wetenschap, waar ze vandaan komt, en hoe je een filosofische vraag herkent.",
+ "secties": [
+  {
+   "kop": "Wat filosofie is, en wat ze niet is",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Filosofie betekent letterlijk <strong>liefde voor de wijsheid</strong>. Dat klinkt vaag, en toch zit het verschil met de andere vakken er al in: een filosoof bezit de wijsheid niet, hij zoekt ze. Hij begint met een vraag en niet met een antwoord."
+    },
+    {
+     "soort": "tekst",
+     "html": "De wetenschappen vallen in twee grote groepen uiteen, en de filosofie hoort bij geen van beide."
+    },
+    {
+     "soort": "tekst",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Soort</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Wat ze onderzoekt</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Voorbeelden</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">natuurwetenschappen</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">de natuur en haar wetten</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">de natuurkunde, de scheikunde, de sterrenkunde, de biologie</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">menswetenschappen</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">de mens en de samenleving</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">de psychologie, de sociologie, de geschiedenis</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">filosofie</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">vragen die je met meten niet beslecht</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">wat is rechtvaardig, wat is een mens, wat kan ik weten</td></tr></table>"
+    },
+    {
+     "soort": "kader",
+     "html": "<strong>Het verschil zit in de methode.</strong> Een wetenschapper beantwoordt zijn vraag met waarneming, meting en experiment. Een filosoof kan dat niet: zijn vragen laten zich niet meten. Hij werkt met <strong>argumenten</strong>, met <strong>begrippen</strong> die hij scherp maakt, en met <strong>redeneringen</strong> die je kan nakijken."
+    },
+    {
+     "soort": "tekst",
+     "html": "Daarom is filosofie ook geen mening. Een mening mag je hebben; een filosofisch standpunt moet je <strong>verdedigen</strong>. Wie geen reden kan geven, heeft wel een overtuiging maar nog geen filosofie."
+    }
+   ]
+  },
+  {
+   "kop": "Van mythologie naar filosofie",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Lang voor de filosofie bestond, verklaarden mensen de wereld met <strong>mythen</strong>: verhalen waarin goden de donder, de zee en de ziekte veroorzaken. Zo'n verhaal verklaart alles, en precies daarom kan je het nergens op nakijken."
+    },
+    {
+     "soort": "tekst",
+     "html": "In het oude Griekenland komt daar verandering in. De eerste denkers zoeken een verklaring <strong>binnen de natuur zelf</strong>, zonder naar de goden te wijzen. Die stap heet de <strong>natuurfilosofie</strong>, en daarmee begint de westerse filosofie."
+    },
+    {
+     "soort": "tekst",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\"></th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Mythologie</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Natuurfilosofie</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">verklaring</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">de wil van de goden</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">oorzaken in de natuur zelf</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">houding</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">het verhaal aanvaarden</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">de verklaring bevragen</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">te toetsen?</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">nee</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">ja, met argumenten en later met onderzoek</td></tr></table>"
+    },
+    {
+     "soort": "weetje",
+     "html": "Uit diezelfde natuurfilosofie zijn later álle wetenschappen gegroeid. Wat wij vandaag natuurkunde noemen, heette eeuwenlang gewoon filosofie van de natuur."
+    }
+   ]
+  },
+  {
+   "kop": "Verwondering, en wat een filosofische vraag is",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Filosofie begint bij <strong>verwondering</strong>: je staat stil bij iets dat voor iedereen vanzelfsprekend is. Waarom is er iets en niet niets? Waarom vinden wij dit eerlijk? Wie zich nergens meer over verwondert, stelt ook geen vragen meer."
+    },
+    {
+     "soort": "tekst",
+     "html": "Een filosofische vraag herken je aan drie dingen tegelijk:"
+    },
+    {
+     "soort": "tekst",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Kenmerk</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Wat het betekent</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">niet met meten te beslechten</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">geen enkel experiment geeft het antwoord</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">over begrippen en waarden</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">wat bedoelen wij eigenlijk met vrijheid, geluk, recht?</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">het antwoord blijft bevraagbaar</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een goed antwoord roept nieuwe vragen op</td></tr></table>"
+    },
+    {
+     "soort": "kader",
+     "html": "<strong>Een feitenvraag of een filosofische vraag?</strong> Hoeveel mensen liegen, is een feitenvraag: dat kan je onderzoeken. Of liegen hier mag, is een filosofische vraag. Leer dat onderscheid vlot maken, want het komt in elk thema terug."
+    },
+    {
+     "soort": "tekst",
+     "html": "De filosofie werkt in verschillende <strong>domeinen</strong>, en die van deze fiche zijn er drie: de <strong>kenleer</strong> (wat kunnen wij weten), de <strong>wijsgerige antropologie</strong> (wat is een mens) en de <strong>ethiek</strong> (wat is goed handelen). De argumentatieleer loopt er als gereedschap doorheen."
+    }
+   ]
+  }
+ ],
+ "onthoud": [
+  "Filosofie is liefde voor de wijsheid: je begint met een vraag, niet met een antwoord.",
+  "Natuurwetenschappen onderzoeken de natuur, menswetenschappen de mens; filosofie stelt vragen die je niet kan meten.",
+  "Haar methode is argumenteren en begrippen scherp maken, niet meten.",
+  "Mythologie verklaart met goden, natuurfilosofie zoekt oorzaken in de natuur zelf. Daar begint de westerse filosofie.",
+  "Filosofie begint bij verwondering over wat vanzelfsprekend lijkt.",
+  "Een feitenvraag kan je onderzoeken; een filosofische vraag gaat over begrippen en waarden."
+ ]
+}

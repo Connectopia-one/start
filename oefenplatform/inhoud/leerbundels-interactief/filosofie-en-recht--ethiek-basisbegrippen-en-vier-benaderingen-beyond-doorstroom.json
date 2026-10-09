@@ -1,0 +1,100 @@
+{
+ "vak": "Filosofie en recht",
+ "titel": "Ethiek: basisbegrippen en vier benaderingen",
+ "onder": "Waarden en normen, universalisme en relativisme, het morele dilemma, de vier richtingen en het is-ought probleem.",
+ "secties": [
+  {
+   "kop": "Waarden en normen",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Een <strong>waarde</strong> is wat je belangrijk vindt: eerlijkheid, vrijheid, respect. Een <strong>norm</strong> is de concrete regel die daaruit volgt: je mag niet spieken, je laat iemand uitspreken."
+    },
+    {
+     "soort": "tekst",
+     "html": "De waarde komt eerst en is algemeen; de norm is concreter. Dezelfde waarde kan in twee landen <strong>andere normen</strong> opleveren: respect voor ouderen is overal een waarde, maar hoe je dat hoort te laten zien, verschilt."
+    }
+   ]
+  },
+  {
+   "kop": "Universalisme, relativisme en cultuurrelativisme",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Standpunt</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Wat het zegt</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Lastige vraag</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">moreel universalisme</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">er zijn morele regels die overal en voor iedereen gelden</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">wie bepaalt welke regels dat zijn?</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">moreel relativisme</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">wat goed is, hangt af van wie het zegt of van welke groep</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">kan je dan nog iets afkeuren?</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">cultuurrelativisme</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">morele opvattingen horen bij een cultuur en zijn niet van buitenaf te beoordelen</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">en wat met onrecht in een andere cultuur?</td></tr></table>"
+    },
+    {
+     "soort": "kader",
+     "html": "<strong>Het bekendste bezwaar tegen het cultuurrelativisme:</strong> wie zegt dat je een cultuur niet van buitenaf mag beoordelen, haalt daarmee ook de grond onder elke kritiek op onrecht weg. Een universalist kan de culturele verschillen gerust vaststellen; hij vindt enkel dat sommige regels daar niet van afhangen."
+    },
+    {
+     "soort": "tekst",
+     "html": "Ook de <strong>vrije wil</strong> hoort bij de basisbegrippen. Verwijten dat iemand anders had moeten handelen, heeft alleen zin als hij anders <strong>kón</strong> handelen. Zonder keuzevrijheid valt er niemand nog verantwoordelijk te stellen."
+    }
+   ]
+  },
+  {
+   "kop": "Het morele dilemma en de ethische vraag",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Een <strong>moreel dilemma</strong> is een keuze waarbij <strong>elke</strong> mogelijkheid iets van waarde kost. Het pijnlijke zit erin dat er geen schone uitweg is: ook de beste keuze laat iets achter dat je niet wou opgeven."
+    },
+    {
+     "soort": "tekst",
+     "html": "Een <strong>ethische vraag</strong> gaat over wat je zou moeten doen, niet over wat er feitelijk gebeurt. Hoeveel mensen liegen, is een feitenvraag. Of liegen hier mag, is een ethische vraag."
+    }
+   ]
+  },
+  {
+   "kop": "Twee benaderingen, en vier richtingen",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "De ethiek valt eerst in twee uiteen."
+    },
+    {
+     "soort": "tekst",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Benadering</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Wat ze doet</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Voorbeeld</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">descriptieve ethiek</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">beschrijft welke moraal mensen er feitelijk op nahouden</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een bevraging over wat mensen van orgaandonatie vinden</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">normatieve ethiek</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">zoekt wat je zou moeten doen</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">is orgaandonatie een plicht?</td></tr></table>"
+    },
+    {
+     "soort": "tekst",
+     "html": "Binnen de normatieve ethiek onderscheidt de fiche vier richtingen. Ze stellen bij hetzelfde geval elk een andere vraag."
+    },
+    {
+     "soort": "tekst",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Richting</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Waar ze naar kijkt</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Haar vraag</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">gevolgenethiek</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">de uitkomst van je daad</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">wat brengt dit teweeg?</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">plichtethiek</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">de regel of de plicht</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">welke regel bindt mij hier?</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">deugdethiek</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">de persoon die handelt</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">wat voor mens word ik hiermee?</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">zorgethiek</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">de concrete relatie</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">wat heeft deze mens van mij nodig?</td></tr></table>"
+    },
+    {
+     "soort": "kader",
+     "html": "<strong>Leer deze vier vragen uit het hoofd.</strong> Bij elke casus op het examen kan je ze aflopen, en dan heb je vier verschillende antwoorden klaar."
+    }
+   ]
+  },
+  {
+   "kop": "Het is-ought probleem van Hume",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "<strong>David Hume</strong> wijst op een sprong die veel mensen zonder nadenken maken: uit wat <strong>is</strong>, volgt niet zonder meer wat <strong>zou moeten</strong>. Een beschrijving en een voorschrift zijn twee soorten uitspraken, en tussen beide zit een stap die je apart moet verdedigen."
+    },
+    {
+     "soort": "tekst",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Uitspraak</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Soort</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">mensen eten al duizenden jaren vlees</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een beschrijving</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">wij zouden minder vlees moeten eten</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een voorschrift</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">mensen eten al duizenden jaren vlees, dus mogen we dat blijven doen</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">de sprong die Hume aanwijst</td></tr></table>"
+    },
+    {
+     "soort": "kader",
+     "html": "<strong>Het woordje dus doet het werk.</strong> Dat iets zo is of zo was, zegt op zich niet dat het zo mag blijven. Deze kritiek komt terug bij de gevolgenethiek: dat mensen naar geluk streven, bewijst nog niet dat geluk de maatstaf moet zijn."
+    }
+   ]
+  }
+ ],
+ "onthoud": [
+  "Een waarde is wat je belangrijk vindt; een norm is de concrete regel die eruit volgt.",
+  "Universalisme: regels voor iedereen. Relativisme: het hangt ervan af. Cultuurrelativisme: niet van buitenaf te beoordelen.",
+  "Een moreel dilemma: elke keuze kost iets van waarde.",
+  "Descriptieve ethiek beschrijft, normatieve ethiek schrijft voor.",
+  "Vier richtingen: gevolgen, plicht, deugd, zorg. Vier verschillende vragen bij hetzelfde geval.",
+  "Is-ought (Hume): uit wat is, volgt niet zonder meer wat zou moeten."
+ ]
+}

@@ -1,0 +1,82 @@
+{
+ "vak": "Filosofie en recht",
+ "titel": "Burgerlijk recht en strafrecht: het verloop van een procedure",
+ "onder": "Het verschil tussen de twee, en wat er stap na stap gebeurt in een burgerlijke zaak en in een strafzaak.",
+ "secties": [
+  {
+   "kop": "Twee takken, twee logica's",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\"></th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Burgerlijk recht</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Strafrecht</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">gaat over</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een geschil tussen twee partijen</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een misdrijf tegen de samenleving</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">wie start</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">de benadeelde partij zelf, de eiser</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">het openbaar ministerie, in naam van de samenleving</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">tegen wie</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">de verweerder</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">de beklaagde of de verdachte</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">wat de rechter beslist</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">wie recht heeft op wat: een schadevergoeding, een regeling</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">schuldig of niet, en welke straf</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">voorbeeld</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een huurgeschil, een scheiding, een onbetaalde factuur</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">diefstal, geweld, rijden onder invloed</td></tr></table>"
+    },
+    {
+     "soort": "kader",
+     "html": "<strong>Dezelfde feiten kunnen in beide takken terechtkomen.</strong> Wie bij een vechtpartij iemand verwondt, kan strafrechtelijk gestraft worden én burgerlijk de schade moeten vergoeden. Daarom kan een slachtoffer zich in de strafzaak <strong>burgerlijke partij</strong> stellen: dan behandelt de strafrechter ook de schadevergoeding en hoeft het slachtoffer geen tweede procedure te beginnen."
+    }
+   ]
+  },
+  {
+   "kop": "Een burgerlijke procedure, stap na stap",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Stap</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Wat gebeurt er</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">1. de inleiding</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">de eiser brengt de zaak voor de rechtbank, meestal met een dagvaarding door een gerechtsdeurwaarder, soms met een eenvoudiger verzoekschrift</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">2. de uitwisseling van stukken</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">elke partij legt haar argumenten en bewijzen schriftelijk neer, in conclusies; de andere kan daarop antwoorden, en dat is hoor en wederhoor</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">3. de zitting en de pleidooien</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">de advocaten komen hun standpunt mondeling verdedigen voor de rechter</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">4. het vonnis</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">de rechter beslist, en motiveert waarom</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">5. de uitvoering</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">wie in het ongelijk gesteld is, moet het vonnis uitvoeren; gebeurt dat niet, dan kan een gerechtsdeurwaarder het afdwingen</td></tr></table>"
+    },
+    {
+     "soort": "tekst",
+     "html": "Tussen stap 1 en stap 4 kan de rechter nog altijd <strong>bemiddeling</strong> voorstellen. In de familie- en jeugdrechtbank gebeurt dat vaak: een akkoord dat de partijen zelf maken, houdt beter stand dan een vonnis dat hen wordt opgelegd, en ze moeten daarna nog met elkaar verder."
+    },
+    {
+     "soort": "weetje",
+     "html": "Een procedure stopt ook wanneer de partijen tussentijds een <strong>minnelijke schikking</strong> maken. Dan is er geen vonnis nodig."
+    }
+   ]
+  },
+  {
+   "kop": "Van feit tot proces: het strafrecht",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Een <strong>misdrijf</strong> is een gedraging die de wet strafbaar stelt. Zonder wet die iets verbiedt, is er geen misdrijf: dat is het legaliteitsbeginsel."
+    },
+    {
+     "soort": "tekst",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Stap</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Wat gebeurt er</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Wie</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">1. de vaststelling</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">de politie stelt het feit vast en maakt een proces-verbaal, een officieel verslag dat naar het parket gaat</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">de politie</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">2. het vooronderzoek</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">er wordt uitgezocht wat er gebeurd is en wie het deed</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">het openbaar ministerie, en bij ernstige zaken de onderzoeksrechter</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">3. de beslissing van het parket</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">seponeren, een minnelijke schikking voorstellen, of vervolgen</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">het openbaar ministerie</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">4. de regeling van de procedure</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">de raadkamer beslist of de zaak naar de rechtbank gaat</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">de raadkamer</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">5. het onderzoek ter terechtzitting</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">het eigenlijke proces: de zaak wordt openbaar behandeld, met getuigen en pleidooien</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">de strafrechter</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">6. het vonnis</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">schuldig of niet, en de straf</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">de strafrechter</td></tr></table>"
+    },
+    {
+     "soort": "tekst",
+     "html": "Het vooronderzoek bestaat in <strong>twee vormen</strong>."
+    },
+    {
+     "soort": "tekst",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\"></th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Het opsporingsonderzoek</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Het gerechtelijk onderzoek</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">wie leidt</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">het openbaar ministerie</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">de onderzoeksrechter</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">wanneer</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">de gewone gang van zaken</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">bij ernstige zaken, of wanneer er zware onderzoeksdaden nodig zijn</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">waarom zo</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">snel en soepel</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een onafhankelijke rechter moet beslissen over maatregelen die diep in iemands rechten snijden, zoals een huiszoeking of een aanhouding</td></tr></table>"
+    },
+    {
+     "soort": "tekst",
+     "html": "Het parket heeft na het vooronderzoek <strong>drie wegen</strong>: <strong>seponeren</strong> (de zaak zonder gevolg laten, bijvoorbeeld bij te weinig bewijs of een te klein feit), een <strong>minnelijke schikking</strong> voorstellen, of <strong>vervolgen</strong>."
+    },
+    {
+     "soort": "kader",
+     "html": "<strong>Seponeren is geen vrijspraak.</strong> Een vrijspraak komt van een rechter na een proces; seponeren is een beslissing van het parket om geen proces te starten."
+    },
+    {
+     "soort": "tekst",
+     "html": "Twee kamers horen bij dit traject. De <strong>raadkamer</strong> regelt de procedure: ze beslist of er genoeg is om de zaak naar de rechtbank te sturen, en ze beslist ook over de aanhouding. De <strong>kamer van inbeschuldigingstelling</strong> is haar tegenhanger bij het hof van beroep en behandelt het beroep tegen die beslissingen."
+    },
+    {
+     "soort": "weetje",
+     "html": "Bij <strong>assisen</strong> loopt het anders: daar volgt de zaak de weg naar het hof en beslist een jury van twaalf burgers over de schuld."
+    }
+   ]
+  }
+ ],
+ "onthoud": [
+  "Burgerlijk recht: een geschil tussen partijen, gestart door de eiser. Strafrecht: een misdrijf, vervolgd door het openbaar ministerie.",
+  "Een slachtoffer kan zich burgerlijke partij stellen, en krijgt dan ook de schadevergoeding in de strafzaak.",
+  "Burgerlijke procedure: inleiding, stukken, pleidooien, vonnis, uitvoering.",
+  "Strafzaak: vaststelling met proces-verbaal, vooronderzoek, beslissing van het parket, raadkamer, proces, vonnis.",
+  "Opsporingsonderzoek leidt het parket; een gerechtelijk onderzoek leidt de onderzoeksrechter, bij zware zaken.",
+  "Drie wegen voor het parket: seponeren, minnelijke schikking, vervolgen. Seponeren is geen vrijspraak."
+ ]
+}

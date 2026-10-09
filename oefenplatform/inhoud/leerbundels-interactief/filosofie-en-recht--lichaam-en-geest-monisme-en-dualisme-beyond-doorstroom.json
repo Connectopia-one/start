@@ -1,0 +1,91 @@
+{
+ "vak": "Filosofie en recht",
+ "titel": "Lichaam en geest: monisme en dualisme",
+ "onder": "Eén werkelijkheid of twee? Parmenides, Plato, Aristoteles, Descartes en Spinoza, en de blik van buiten het westen.",
+ "secties": [
+  {
+   "kop": "Twee mensvisies",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "De vraag is eenvoudig te stellen en moeilijk te beantwoorden: zijn jouw denken en jouw lichaam twee verschillende dingen, of twee kanten van één ding?"
+    },
+    {
+     "soort": "tekst",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\"></th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Dualisme</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Monisme</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">woord</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">van duo: twee</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">van monos: één</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">stelling</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">lichaam en geest zijn twee werkelijkheden</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">er is één werkelijkheid; lichaam en geest horen er beide bij</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">sterk punt</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">het verschil tussen denken en stof is echt</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">geen onverklaarbare brug tussen twee werelden nodig</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">zwak punt</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">hoe werken die twee dan op elkaar in?</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">hoe verklaar je dan dat denken zo anders aanvoelt?</td></tr></table>"
+    },
+    {
+     "soort": "kader",
+     "html": "<strong>Wat de twee gemeen hebben:</strong> ze beantwoorden dezelfde vraag, namelijk hoe denken en lichaam samenhangen. Ze geven er een ander antwoord op."
+    }
+   ]
+  },
+  {
+   "kop": "De oudheid: Parmenides, Plato en Aristoteles",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "<strong>Parmenides</strong> is het vroege voorbeeld van het monisme in zijn strengste vorm: het zijnde is <strong>één en onveranderlijk</strong>, en wat op verandering lijkt, misleidt ons."
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Plato</strong> is een dualist. De <strong>ziel</strong> staat bij hem los van het lichaam en is <strong>onsterfelijk</strong>; het lichaam is haar verblijfplaats, haast een gevangenis. Dat past bij zijn grotallegorie: het echte ligt elders."
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Aristoteles</strong> leunt naar de andere kant. Bij hem is de ziel de <strong>vorm van het lichaam</strong>: je kan ze onderscheiden, maar niet scheiden. Sterft het lichaam, dan is er geen ziel die ergens verder reist."
+    }
+   ]
+  },
+  {
+   "kop": "De nieuwe tijd: Descartes en Spinoza",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "<strong>René Descartes</strong> geeft het dualisme zijn bekendste vorm: er is een <strong>denkende</strong> werkelijkheid en een <strong>uitgebreide</strong>, stoffelijke werkelijkheid. Dat sluit aan bij zijn methodische twijfel: aan zijn lichaam kan hij twijfelen, aan zijn denken niet."
+    },
+    {
+     "soort": "tekst",
+     "html": "Daar hoort meteen het bekendste bezwaar bij, het <strong>interactieprobleem</strong>: als die twee zo verschillend zijn, hoe kan een gedachte dan je benen in beweging zetten?"
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Benedictus de Spinoza</strong> lost dat op door de knip ongedaan te maken. Bij hem is er <strong>één werkelijkheid</strong>, en zijn denken en uitgebreidheid twee <strong>kanten</strong> van diezelfde werkelijkheid. Moet er niets meer oversteken, dan is er ook geen brug nodig."
+    },
+    {
+     "soort": "tekst",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Filosoof</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Kant</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Kern</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Parmenides</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">monist</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">het zijnde is één en onveranderlijk</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Plato</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">dualist</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">de ziel staat los van het lichaam en is onsterfelijk</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Aristoteles</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">dicht bij het monisme</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">de ziel is de vorm van het lichaam</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Descartes</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">dualist</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">denken en uitgebreidheid zijn twee werkelijkheden</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Spinoza</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">monist</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">twee kanten van één werkelijkheid</td></tr></table>"
+    }
+   ]
+  },
+  {
+   "kop": "Westers en niet-westers",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "De scherpe tweedeling tussen lichaam en geest is een westerse gewoonte. In veel <strong>niet-westerse tradities</strong> is die scheiding veel minder scherp of ontbreekt ze: mens, lichaam en omgeving worden er als één samenhangend geheel gezien."
+    },
+    {
+     "soort": "tekst",
+     "html": "Het <strong>boeddhisme</strong> gaat nog een stap verder dan het monisme: daar is er <strong>geen vast, blijvend zelf</strong>. Wat jij bent, is een geheel dat voortdurend verandert. Dat staat ver van de westerse ziel die het lichaam overleeft."
+    },
+    {
+     "soort": "kader",
+     "html": "<strong>Waarom vergelijken?</strong> Omdat je dan ziet dat de westerse indeling zelf een keuze is en niet vanzelfsprekend. Wat je altijd voor de werkelijkheid hield, blijkt één manier om de mens te bekijken."
+    },
+    {
+     "soort": "tekst",
+     "html": "En vandaag? Hersenonderzoek toont steeds nauwkeuriger <strong>samenhang</strong> tussen wat je brein doet en wat je ervaart. Maar samenhang aantonen is iets anders dan aantonen dat geest en brein <strong>hetzelfde</strong> zijn. Die laatste stap is een filosofische stap, geen meting, en daarom blijft het debat open."
+    }
+   ]
+  }
+ ],
+ "onthoud": [
+  "Dualisme: twee werkelijkheden (duo). Monisme: één werkelijkheid (monos).",
+  "Parmenides en Spinoza zijn monisten; Plato en Descartes dualisten; Aristoteles leunt naar het monisme.",
+  "Plato: de ziel is onsterfelijk en los van het lichaam. Aristoteles: de ziel is de vorm van het lichaam.",
+  "Descartes: denken tegenover uitgebreidheid, met het interactieprobleem als bezwaar.",
+  "Spinoza: denken en uitgebreidheid zijn twee kanten van één werkelijkheid.",
+  "In veel niet-westerse tradities is de scheiding minder scherp; het boeddhisme kent geen vast zelf."
+ ]
+}

@@ -1,0 +1,82 @@
+{
+ "vak": "Filosofie en recht",
+ "titel": "Buitengerechtelijke procedures en juridische bijstand",
+ "onder": "Bemiddeling, verzoening en arbitrage, en waar je terechtkan voor juridisch advies.",
+ "secties": [
+  {
+   "kop": "Een conflict oplossen zonder vonnis",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Niet elk conflict hoort voor een rechter. Een procedure duurt lang, kost geld en eindigt met een winnaar en een verliezer. Daarom bestaan er <strong>buitengerechtelijke</strong> wegen: oplossingen <strong>buiten</strong> de rechtbank om."
+    },
+    {
+     "soort": "tekst",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Weg</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Wat gebeurt er</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Wie beslist</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">bemiddeling</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een neutrale bemiddelaar begeleidt het gesprek tussen de partijen en helpt hen zelf tot een akkoord te komen</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">de partijen zelf; de bemiddelaar beslist niets</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">verzoening of minnelijke schikking</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">de partijen regelen hun geschil zelf met een afspraak, soms met een akkoord dat door de rechter bekrachtigd wordt</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">de partijen zelf</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">arbitrage</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">de partijen leggen hun geschil voor aan een of meer arbiters die ze samen kiezen, buiten de rechtbank</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">de arbiter, en zijn uitspraak bindt de partijen</td></tr></table>"
+    },
+    {
+     "soort": "kader",
+     "html": "<strong>Het verschil in één vraag: wie beslist?</strong> Bij bemiddeling en verzoening beslissen de partijen zelf. Bij arbitrage beslist een derde, net als bij een rechter, maar die derde is door de partijen zelf gekozen."
+    },
+    {
+     "soort": "tekst",
+     "html": "De voordelen van bemiddeling: <strong>sneller</strong>, meestal <strong>goedkoper</strong>, <strong>vertrouwelijk</strong>, en de relatie blijft beter overeind. Dat laatste weegt zwaar waar mensen daarna nog met elkaar verder moeten, bijvoorbeeld ouders na een scheiding of twee buren."
+    },
+    {
+     "soort": "tekst",
+     "html": "De keerzijde: het werkt <strong>alleen als beide partijen willen</strong>. Wie weigert te praten, kan niet verplicht worden tot een akkoord. Lukt de bemiddeling niet, dan staat de weg naar de rechter nog altijd open; je verliest je recht om te procederen er niet mee."
+    },
+    {
+     "soort": "weetje",
+     "html": "Bemiddeling bestaat ook <strong>binnen</strong> een procedure. Een rechter kan voorstellen om eerst te bemiddelen, en in de familie- en jeugdrechtbank gebeurt dat vaak, omdat de partijen daar bijna altijd met elkaar verder moeten."
+    }
+   ]
+  },
+  {
+   "kop": "Juridische bijstand: twee lijnen",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Rechten hebben is één ding; weten welke je hebt is iets anders. Daarom bestaat er juridische bijstand in <strong>twee lijnen</strong>."
+    },
+    {
+     "soort": "tekst",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\"></th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Eerstelijnsbijstand</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Tweedelijnsbijstand</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">wat je krijgt</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een eerste advies, een algemene inlichting, een doorverwijzing</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een advocaat die je dossier opneemt en je voor de rechtbank bijstaat</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">hoe lang</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een kort gesprek</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">zolang je zaak duurt</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">prijs</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">gratis en voor iedereen</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">gratis of gedeeltelijk gratis als je inkomen laag genoeg is</td></tr></table>"
+    },
+    {
+     "soort": "tekst",
+     "html": "De tweede lijn noemen mensen vaak de <strong>pro deo advocaat</strong>. Hij wordt dan door de overheid vergoed in plaats van door jou. Of je er recht op hebt, hangt van je inkomen af; het is dus geen gunst maar een recht als je eronder zit."
+    },
+    {
+     "soort": "kader",
+     "html": "<strong>Waarom dit bestaat:</strong> zonder bijstand zou gelijkheid voor de wet in de praktijk afhangen van je bankrekening. Dat is precies het bezwaar dat bij de rol van justitie terugkomt."
+    }
+   ]
+  },
+  {
+   "kop": "Waar kan je terecht",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Waar</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Waarvoor</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">het justitiehuis</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een dienst van de overheid met informatie over justitie, slachtofferonthaal en de opvolging van straffen en maatregelen</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">de wetswinkel</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">gratis juridisch eerstelijnsadvies</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">het CAW, het centrum algemeen welzijnswerk</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">hulp bij problemen die veel breder gaan dan het juridische: wonen, geld, relaties, geweld; vaak de eerste plaats waar iemand binnenstapt</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">het OCMW</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">sociale hulp en bijstand van de gemeente, ook financieel</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">het Bureau voor Juridische Bijstand</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een pro deo advocaat aanvragen</td></tr></table>"
+    },
+    {
+     "soort": "weetje",
+     "html": "Een <strong>justitiehuis</strong> is geen rechtbank en geen woonplaats. Verwar het niet met een <strong>detentiehuis</strong> of een <strong>transitiehuis</strong>, waar iemand een straf uitzit."
+    },
+    {
+     "soort": "tekst",
+     "html": "De fiche vraagt je ook om een <strong>casus</strong> te kunnen plaatsen. Iemand met een huurgeschil en weinig inkomen gaat eerst naar de eerste lijn voor advies, en kan daarna via het Bureau voor Juridische Bijstand een advocaat krijgen. Twee buren die ruzie maken over een haag hebben meer aan bemiddeling dan aan een proces: ze blijven buren."
+    }
+   ]
+  }
+ ],
+ "onthoud": [
+  "Bemiddeling en verzoening: de partijen beslissen zelf. Arbitrage: de arbiter beslist en bindt hen.",
+  "Bemiddeling is sneller, goedkoper en vertrouwelijk, en spaart de relatie, maar vraagt dat beiden willen.",
+  "Mislukt een bemiddeling, dan kan je nog altijd naar de rechter.",
+  "Eerste lijn: gratis eerste advies voor iedereen. Tweede lijn: een advocaat, gratis bij een laag inkomen.",
+  "Pro deo betekent dat de overheid de advocaat vergoedt, niet dat hij minder waard is.",
+  "Justitiehuis, wetswinkel, CAW, OCMW en het Bureau voor Juridische Bijstand zijn de adressen."
+ ]
+}

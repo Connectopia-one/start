@@ -1,0 +1,104 @@
+{
+ "vak": "Filosofie en recht",
+ "titel": "Vrijheid en determinisme in de 20ste eeuw",
+ "onder": "Heidegger, Sartre, Foucault, Frankfurt en Verplaetse: van gedoemd tot vrijheid tot een strafrecht zonder schuld.",
+ "secties": [
+  {
+   "kop": "Heidegger: geworpen in een situatie",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "<strong>Martin Heidegger</strong> vertrekt van de <strong>geworpenheid</strong>: je hebt je tijd, je lichaam en je afkomst niet gekozen. Je vindt je daarin terug, en daarbinnen moet je iets met je leven doen."
+    },
+    {
+     "soort": "tekst",
+     "html": "De vrijheid die overblijft, is dat je je tot je mogelijkheden kan <strong>verhouden</strong> en je eigen leven op je kan nemen. Doe je dat niet, dan spreekt hij van een <strong>oneigenlijk bestaan</strong>: leven zoals men nu eenmaal leeft, zonder er zelf voor in te staan."
+    },
+    {
+     "soort": "kader",
+     "html": "<strong>Oneigenlijk is niet hetzelfde als liegen.</strong> Het gaat over wegkijken: je leven laten lopen zoals het hoort te lopen, met de gewoonte als stuurman."
+    }
+   ]
+  },
+  {
+   "kop": "Sartre: gedoemd tot vrijheid",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "<strong>Jean-Paul Sartre</strong> noemt de mens <strong>gedoemd tot vrijheid</strong>. Ook niet kiezen is een keuze, en de verantwoordelijkheid kan je aan niemand doorschuiven."
+    },
+    {
+     "soort": "tekst",
+     "html": "Bij hem gaat de <strong>existentie aan de essentie voorbij</strong>: er ligt geen vaste menselijke natuur klaar, je wordt wie je bent door te handelen. Bij een mes is het omgekeerd: daarvan ligt het doel vast voor het gemaakt wordt."
+    },
+    {
+     "soort": "tekst",
+     "html": "Wie zich achter zijn rol of zijn aard wegzet, is in <strong>kwade trouw</strong>: hij doet alsof hij niet kon kiezen. Ik moest wel, ik ben nu eenmaal zo — dat is bij Sartre geen verklaring maar een uitvlucht."
+    },
+    {
+     "soort": "kader",
+     "html": "<strong>Zijn vrijheid is geen gemak maar een last.</strong> Er is geen natuur, geen rol en geen God aan wie je je keuze kan overlaten, dus draag je de gevolgen zelf."
+    }
+   ]
+  },
+  {
+   "kop": "Foucault: macht en normen",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "<strong>Michel Foucault</strong> zoekt de beperking van onze vrijheid niet in natuurwetten maar in <strong>macht en normen</strong>. Scholen, wetten, klinieken, gewoonten en woorden bepalen mee wat normaal heet, en vormen zo wie je geworden bent."
+    },
+    {
+     "soort": "tekst",
+     "html": "Dat heet <strong>disciplinering</strong>, en zijn punt is dat het meestal <strong>zonder geweld</strong> gebeurt. Niemand dwingt je, en toch wordt je verlangen mee gevormd door de wereld waarin je bent opgegroeid. Een keuze die vrij lijkt, kan nog altijd een keuze zijn tussen mogelijkheden die jou zijn aangereikt."
+    }
+   ]
+  },
+  {
+   "kop": "Frankfurt: willen wat je wil",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "<strong>Frankfurt</strong> verlegt de vraag. Niet of je keuze zonder oorzaak was, maar of ze <strong>echt van jou</strong> is. Daarvoor onderscheidt hij twee lagen: wat je wil, en wat je zou <strong>willen willen</strong>."
+    },
+    {
+     "soort": "tekst",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Twee mensen</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Eerste orde</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Tweede orde</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Vrij?</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">de ene</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">drang naar een middel</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">wil die drang niet hebben</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">nee, hij wordt meegesleept</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">de andere</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">drang naar een middel</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">wil die drang ook hebben</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">ja, het verlangen is het zijne</td></tr></table>"
+    },
+    {
+     "soort": "kader",
+     "html": "<strong>Daarom heet zijn positie verzoenend:</strong> vrijheid en een wereld vol oorzaken kunnen bij hem naast elkaar bestaan."
+    }
+   ]
+  },
+  {
+   "kop": "Verplaetse: een strafrecht zonder schuld",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "<strong>Jan Verplaetse</strong> gaat het verst de andere kant op: er bestaat geen vrije wil, en ons <strong>strafrecht</strong> zou dat moeten verwerken. Straffen om iemand <strong>schuld</strong> te laten boeten, verliest dan zijn grond."
+    },
+    {
+     "soort": "tekst",
+     "html": "Dat betekent niet dat er geen maatregel meer mogelijk is. Beschermen, behandelen en voorkomen hebben geen schuld nodig. Enkel <strong>vergelden</strong> heeft dat wel, en net dat komt onder druk."
+    },
+    {
+     "soort": "tekst",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Denker</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Waar de vrijheid of de grens ligt</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Heidegger</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">je situatie koos je niet; je leven op je nemen wel</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Sartre</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">je bent vrij en kan er niet aan ontsnappen; niet kiezen is kiezen</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Foucault</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">macht en normen vormen mee wat je wil</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Frankfurt</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">vrij ben je als je wil wat je wil willen</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Verplaetse</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">er is geen vrije wil; het strafrecht moet zonder schuld kunnen</td></tr></table>"
+    },
+    {
+     "soort": "weetje",
+     "html": "Waar de 17de eeuw naar de natuurwetten keek, kijkt de 20ste eeuw naar verlangens, gewoonten, macht en hersenen. De beperking wordt vaker binnen de mens zelf gezocht."
+    }
+   ]
+  }
+ ],
+ "onthoud": [
+  "Heidegger: geworpenheid (je situatie koos je niet) en het oneigenlijke bestaan.",
+  "Sartre: gedoemd tot vrijheid, existentie voor essentie, en kwade trouw als zelfbedrog.",
+  "Foucault: macht, normen en disciplinering vormen mee wie je bent en wat je wil.",
+  "Frankfurt: vrij ben je als je verlangen er een is dat je ook wil hebben. Verzoenend met oorzaken.",
+  "Verplaetse: geen vrije wil, dus een strafrecht zonder schuld; beschermen kan wel, vergelden niet.",
+  "De vijf staan op een rij van heel veel vrijheid (Sartre) naar heel weinig (Verplaetse)."
+ ]
+}

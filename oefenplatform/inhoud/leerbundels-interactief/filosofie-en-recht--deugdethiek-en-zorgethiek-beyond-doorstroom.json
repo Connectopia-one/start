@@ -1,0 +1,112 @@
+{
+ "vak": "Filosofie en recht",
+ "titel": "Deugdethiek en zorgethiek",
+ "onder": "Aristoteles, Nussbaum, Hume en Foot over deugden, en Gilligan en Tronto over zorg.",
+ "secties": [
+  {
+   "kop": "De deugdethiek: wat voor mens wil je zijn?",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "De <strong>deugdethiek</strong> stelt niet de vraag wat moet ik doen, maar <strong>wat voor mens wil ik zijn</strong>. Goed handelen volgt dan uit een goed karakter."
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Aristoteles</strong> is haar grondlegger. Hij noemt vier <strong>kardinale deugden</strong>, van cardo: spil. Het zijn de deugden waarom de andere draaien."
+    },
+    {
+     "soort": "tekst",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Deugd</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Wat ze is</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Het midden tussen</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">verstandigheid</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">weten wat hier het juiste is</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">onbezonnenheid en besluiteloosheid</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">rechtvaardigheid</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">ieder geven wat hem toekomt</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">voortrekken en benadelen</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">moed</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">doen wat nodig is ondanks je angst</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">lafheid en overmoed</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">matigheid</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">maat houden in genot</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">onthouding en onmatigheid</td></tr></table>"
+    },
+    {
+     "soort": "kader",
+     "html": "<strong>Een deugd is het midden tussen een tekort en een overdaad</strong>, en niet het gemiddelde van wat mensen doen. Het juiste midden hangt van de situatie af."
+    },
+    {
+     "soort": "tekst",
+     "html": "Een deugd krijg je niet cadeau: je bouwt ze op door ze te <strong>oefenen tot ze een gewoonte wordt</strong>, zoals je een instrument leert bespelen."
+    }
+   ]
+  },
+  {
+   "kop": "Nussbaum, Hume en Foot",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "<strong>Martha Nussbaum</strong> werkt die lijn modern uit met tien <strong>capaciteiten</strong>: wat elke mens moet <strong>kunnen</strong> om een menswaardig leven te leiden. Denk aan gezondheid, veiligheid, denken en voelen, bij anderen horen, spelen en meebeslissen. Het zijn mogelijkheden en geen prestaties."
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>David Hume</strong> splitst de deugden in twee."
+    },
+    {
+     "soort": "tekst",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Soort deugd</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Waar ze vandaan komt</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Voorbeeld</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">natuurlijke deugd</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">ons gevoel; ze komt vanzelf op</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">medelijden, vriendelijkheid, zorg voor wie je graag ziet</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">artificiële deugd</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">afspraken die een samenleving heeft opgebouwd</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">rechtvaardigheid, je woord houden</td></tr></table>"
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Foot</strong> noemt drie kenmerken waaraan je een deugd herkent: ze is <strong>goed</strong> voor de mens en zijn omgeving, ze zit in je <strong>wil</strong> en niet enkel in je kunnen, en ze <strong>vangt een zwakke plek</strong> in onze neigingen op."
+    },
+    {
+     "soort": "kader",
+     "html": "<strong>Dat derde verklaart waarom de lijst eruitziet zoals ze eruitziet.</strong> Moed is nodig omdat wij angst kennen, matigheid omdat wij verleid worden. Waar geen bekoring is, is geen deugd nodig."
+    },
+    {
+     "soort": "tekst",
+     "html": "De deugdethiek heet <strong>universalistisch</strong> omdat wat een mens nodig heeft om te bloeien, bij alle mensen grotendeels gelijk is. Moed, matigheid en rechtvaardigheid komen in heel verschillende tijden en culturen terug, al verschilt de vorm waarin ze geprezen worden."
+    }
+   ]
+  },
+  {
+   "kop": "De zorgethiek: kwetsbaar en van elkaar afhankelijk",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "De <strong>zorgethiek</strong> vertrekt van een ander mensbeeld: mensen zijn <strong>kwetsbaar</strong> en <strong>van elkaar afhankelijk</strong>. Niemand komt alleen door het leven. Moraal begint daar bij het feit dat mensen zorg geven en zorg nodig hebben."
+    },
+    {
+     "soort": "tekst",
+     "html": "Daarmee verschilt ze van de plicht- en de gevolgenethiek. Die kijken van buitenaf en <strong>onpartijdig</strong>: een regel voor allen, of een som over allen. De zorgethiek begint bij <strong>deze mens, in deze relatie</strong>. Dat je voor je eigen kind opkomt, is hier geen zwakte in je moraal maar een deel ervan."
+    },
+    {
+     "soort": "tekst",
+     "html": "Haar wortels liggen in het <strong>feminisme</strong>. De ethiek vertrok lang van een onafhankelijke, redelijke burger; wie afhankelijk was en wie voor hem zorgde, kwam in dat beeld niet voor, want zorg gold als vrouwenwerk."
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Carol Gilligan</strong> bracht daar verandering in. Waar meisjes in bestaand onderzoek naar morele ontwikkeling lager uitkwamen, lag volgens haar de fout niet bij hen maar bij de <strong>maatstaf</strong>: er was maar één stem in beeld. Naast de stem van de rechtvaardigheid staat een <strong>stem van de zorg</strong>."
+    }
+   ]
+  },
+  {
+   "kop": "De vier fasen van Tronto",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "<strong>Joan Tronto</strong> ontleedt zorg in vier fasen, elk met een morele kwaliteit die erbij hoort."
+    },
+    {
+     "soort": "tekst",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Fase</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Wat er gebeurt</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Morele kwaliteit</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">zorgen om</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">je merkt dat er nood is</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">betrokkenheid</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">zorgen voor</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">je neemt er verantwoordelijkheid voor op</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">verantwoordelijkheid</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">zorg verlenen</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">je doet het werk</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">bekwaamheid</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">zorg ontvangen</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">je kijkt hoe het aankomt bij wie het krijgt</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">wederkerigheid</td></tr></table>"
+    },
+    {
+     "soort": "kader",
+     "html": "<strong>De vier hangen aan elkaar.</strong> Een nood zien zonder er iets mee te doen, blijft steken bij de eerste fase. Goed bedoelen zonder het te kunnen, strandt bij de derde. En zorg die niet nakijkt hoe ze aankomt, is eenrichtingsverkeer."
+    },
+    {
+     "soort": "tekst",
+     "html": "Deugdethiek en zorgethiek hebben iets gemeen: beide kijken minder naar de <strong>losse daad</strong> dan de twee andere richtingen. De ene kijkt naar de persoon, de andere naar de relatie."
+    }
+   ]
+  }
+ ],
+ "onthoud": [
+  "Deugdethiek vraagt: wat voor mens wil ik zijn? Goed handelen volgt uit een goed karakter.",
+  "Aristoteles: vier kardinale deugden (verstandigheid, rechtvaardigheid, moed, matigheid); een deugd is het midden.",
+  "Nussbaum: tien capaciteiten, mogelijkheden en geen prestaties.",
+  "Hume: natuurlijke deugden uit het gevoel, artificiële uit afspraken (rechtvaardigheid).",
+  "Foot: een deugd is goed voor mens en omgeving, zit in je wil, en vangt een zwakke plek op.",
+  "Zorgethiek: mensen zijn kwetsbaar en afhankelijk; Gilligan bracht de stem van de zorg binnen.",
+  "Tronto: zorgen om (betrokkenheid), zorgen voor (verantwoordelijkheid), zorg verlenen (bekwaamheid), zorg ontvangen (wederkerigheid)."
+ ]
+}

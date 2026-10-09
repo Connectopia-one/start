@@ -1,0 +1,108 @@
+{
+ "vak": "Filosofie en recht",
+ "titel": "Bronnen van kennis, rationalisme en empirisme",
+ "onder": "Waar onze kennis vandaan komt, waarom elke bron kan haperen, en het verschil tussen rationalisme en empirisme.",
+ "secties": [
+  {
+   "kop": "De vijf bronnen van kennis",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Hoe weet je wat je weet? De fiche somt vijf <strong>bronnen van kennis</strong> op. Bij elke bron hoort een manier waarop ze je kan bedriegen, en dat tweede is het belangrijkste om te kennen."
+    },
+    {
+     "soort": "tekst",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Bron</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Wat ze doet</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Waar ze hapert</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">zintuigen</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">je ziet, hoort en voelt de wereld</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een zinsbegoocheling, een stok die in het water geknikt lijkt</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">afleiding</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">je leidt uit wat je weet iets nieuws af</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een redenering die klopt, maar van een onware premisse vertrekt</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">geheugen</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">je herinnert je wat er gebeurd is</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">herinneringen verschuiven en vullen zichzelf aan</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">introspectie</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">je kijkt naar je eigen denken en voelen</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">je kan je over je eigen beweegredenen vergissen</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">verhalen</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">je verneemt van anderen wat jij niet zag</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">je kan de bron niet zelf nakijken</td></tr></table>"
+    },
+    {
+     "soort": "kader",
+     "html": "<strong>Verreweg het meeste van wat jij weet, komt uit verhalen van anderen.</strong> Dat de aarde om de zon draait, heb je niet zelf vastgesteld. Daarom is de vraag welke bron betrouwbaar is, geen schoolse vraag maar een dagelijkse."
+    }
+   ]
+  },
+  {
+   "kop": "De grotallegorie",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "De bekendste vertelling over kennis is de <strong>grotallegorie</strong> van Plato. Mensen zitten vastgeketend in een grot, met hun rug naar de uitgang. Op de wand voor hen zien ze schaduwen, en die schaduwen houden ze voor de werkelijkheid."
+    },
+    {
+     "soort": "tekst",
+     "html": "Komt er één los en draait hij zich om, dan ziet hij dat die beelden maar schaduwen waren. Gaat hij naar buiten, dan verblindt het licht hem eerst. En vertelt hij het binnen, dan geloven de anderen hem niet."
+    },
+    {
+     "soort": "kader",
+     "html": "<strong>Waar het om gaat:</strong> wat je dagelijks waarneemt, hoeft niet de hele werkelijkheid te zijn. Het verhaal waarschuwt tegelijk dat wie iets anders komt vertellen, op weerstand botst."
+    }
+   ]
+  },
+  {
+   "kop": "Rationalisme: de rede als bron",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Het <strong>rationalisme</strong> zegt dat zekere kennis uit de <strong>rede</strong> komt en niet uit de zintuigen. De grote naam is <strong>René Descartes</strong>."
+    },
+    {
+     "soort": "tekst",
+     "html": "Zijn werkwijze heet de <strong>methodische twijfel</strong>: hij twijfelt met opzet aan alles wat ook maar een beetje onzeker is, om te zien wat overblijft. Zijn zintuigen bedriegen hem soms, dus die gaan eruit. Zijn dromen voelen echt, dus ook de buitenwereld gaat eruit. Wat blijft staan, is dat hij twijfelt, en dus dat hij denkt."
+    },
+    {
+     "soort": "tekst",
+     "html": "Het rationalisme redeneert met <strong>deductie</strong>: van een algemene regel naar een bijzonder geval. Alle mensen zijn sterfelijk, jij bent een mens, dus jij bent sterfelijk. Als de regel klopt, is het besluit zeker."
+    }
+   ]
+  },
+  {
+   "kop": "Empirisme: de ervaring als bron",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Het <strong>empirisme</strong> zegt het omgekeerde: alle kennis begint bij de <strong>ervaring</strong>. De namen hier zijn <strong>John Locke</strong> en <strong>David Hume</strong>."
+    },
+    {
+     "soort": "tekst",
+     "html": "Locke staat voor de gedachte dat een mens bij zijn geboorte nog geen kennis meebrengt: de ervaring moet alles aanbrengen. Hume onderzoekt vooral waar onze kennis haar grenzen heeft."
+    },
+    {
+     "soort": "tekst",
+     "html": "Het empirisme redeneert met <strong>inductie</strong>: van losse waarnemingen naar een algemene regel. Elke zwaan die ik zag was wit, dus alle zwanen zijn wit. Handig, maar nooit zeker: één zwarte zwaan volstaat om de regel om te gooien."
+    },
+    {
+     "soort": "tekst",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\"></th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Rationalisme</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Empirisme</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">bron van kennis</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">de rede</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">de ervaring</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">naam</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Descartes</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Locke en Hume</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">redeneert met</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">deductie, van algemeen naar bijzonder</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">inductie, van bijzonder naar algemeen</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">zekerheid</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">zeker als de premissen kloppen</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">nooit helemaal zeker</td></tr></table>"
+    },
+    {
+     "soort": "weetje",
+     "html": "De twee sluiten elkaar niet uit. De moderne wetenschap doet allebei: ze bedenkt met de rede een hypothese en toetst die aan de ervaring."
+    }
+   ]
+  },
+  {
+   "kop": "Je argument opbouwen met AUB",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Om een argument goed uit te leggen gebruikt de fiche de <strong>AUB-methode</strong>, drie stappen die je ook op het examen kan zetten."
+    },
+    {
+     "soort": "tekst",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Stap</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Wat je doet</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Hoe je begint</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">A — argument</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">je noemt je argument</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">mijn argument is dat ...</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">U — uitleg</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">je legt uit waarom het zo is en waarom dat goed of slecht is</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">want ... / dit is goed, want ...</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">B — bijvoorbeeld</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">je geeft zelf een voorbeeld</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">stel je voor ...</td></tr></table>"
+    },
+    {
+     "soort": "tekst",
+     "html": "Daarnaast onderscheidt de fiche <strong>soorten argumenten</strong>: een feitelijk argument, een gezagsargument, een argument op basis van een kenmerk, van een voorbeeld, van een vergelijking, van voor- en nadelen, en van een oorzaak-gevolgrelatie."
+    }
+   ]
+  }
+ ],
+ "onthoud": [
+  "Vijf bronnen van kennis: zintuigen, afleiding, geheugen, introspectie en verhalen van anderen.",
+  "Verreweg het meeste van wat je weet, komt uit verhalen die je zelf niet kan nakijken.",
+  "De grotallegorie: wat je waarneemt, hoeft de werkelijkheid niet te zijn.",
+  "Rationalisme = de rede (Descartes, methodische twijfel, deductie).",
+  "Empirisme = de ervaring (Locke en Hume, inductie). Inductie geeft nooit volle zekerheid.",
+  "AUB: argument, uitleg, bijvoorbeeld."
+ ]
+}

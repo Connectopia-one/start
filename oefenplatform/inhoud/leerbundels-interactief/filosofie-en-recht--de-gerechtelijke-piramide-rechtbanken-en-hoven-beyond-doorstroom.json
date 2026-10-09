@@ -1,0 +1,92 @@
+{
+ "vak": "Filosofie en recht",
+ "titel": "De gerechtelijke piramide: rechtbanken en hoven",
+ "onder": "Welke rechtbank waarvoor bevoegd is, van het vredegerecht tot het Hof van Cassatie.",
+ "secties": [
+  {
+   "kop": "Twee soorten bevoegdheid",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Voor je weet naar welke rechtbank je moet, moet je twee vragen stellen."
+    },
+    {
+     "soort": "tekst",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Vraag</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Naam</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Antwoord</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Waarover gaat het?</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">de materiële bevoegdheid</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">de aard van de zaak bepaalt de soort rechtbank: een huurgeschil, een verkeersboete, een ontslag en een faillissement gaan elk naar een andere</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Waar is het gebeurd?</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">de territoriale bevoegdheid</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">het gebied bepaalt welke rechtbank van die soort; meestal de plaats van de woonplaats van de verweerder of van de feiten</td></tr></table>"
+    },
+    {
+     "soort": "kader",
+     "html": "<strong>Pas de twee samen toe.</strong> Een conflict van 3.000 euro tussen twee mensen uit Hasselt hoort bij het vredegerecht (materieel) van het kanton Hasselt (territoriaal)."
+    }
+   ]
+  },
+  {
+   "kop": "De eerste verdieping: rechtbanken",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Rechtbank</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Waarvoor</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">het vredegerecht</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">de rechtbank het dichtst bij de burger: kleinere geschillen tot 5.000 euro, huurzaken, geschillen tussen buren; één vrederechter, zonder jury</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">de politierechtbank</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">verkeersovertredingen en verkeersongevallen</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">de rechtbank van eerste aanleg</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">de grote rechtbank met vijf afdelingen (zie hieronder)</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">de arbeidsrechtbank</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">geschillen over werk en over sociale zekerheid: een ontslag, een arbeidsongeval, een uitkering</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">de ondernemingsrechtbank</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">geschillen tussen ondernemingen, en faillissementen</td></tr></table>"
+    },
+    {
+     "soort": "tekst",
+     "html": "De <strong>rechtbank van eerste aanleg</strong> heeft vijf afdelingen."
+    },
+    {
+     "soort": "tekst",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Afdeling</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Waarvoor</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">de burgerlijke rechtbank</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">geschillen tussen burgers of ondernemingen</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">de correctionele rechtbank</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">misdrijven, de zwaardere strafzaken</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">de familierechtbank</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">scheiding, onderhoudsgeld, de regeling voor de kinderen</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">de jeugdrechtbank</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">minderjarigen in een zorgwekkende situatie of met een als misdrijf omschreven feit</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">de strafuitvoeringsrechtbank</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">beslissingen over hoe een straf verder wordt uitgevoerd</td></tr></table>"
+    },
+    {
+     "soort": "weetje",
+     "html": "De zittingen van de <strong>jeugdrechtbank</strong> zijn niet openbaar. Dat is een uitzondering op de openbaarheid van de rechtspraak, in het belang van het kind."
+    }
+   ]
+  },
+  {
+   "kop": "De hogere verdiepingen: hoven",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Hof</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Waarvoor</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">het hof van beroep</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">behandelt de zaak een tweede keer, over de feiten én het recht, nadat een partij beroep aantekende tegen het vonnis van de rechtbank van eerste aanleg</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">het Hof van Assisen</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">de zwaarste misdaden, met een volksjury van twaalf burgers die over de schuld beslist; het komt samen per zaak en is dus geen vaste rechtbank</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">het Hof van Cassatie</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">het hoogste hof; kijkt niet meer naar de feiten maar naar de vraag of het recht juist is toegepast, en verbreekt een uitspraak die de wet schendt</td></tr></table>"
+    },
+    {
+     "soort": "kader",
+     "html": "<strong>Cassatie oordeelt niet opnieuw over de zaak.</strong> Het verbreekt een uitspraak en stuurt de zaak terug naar een ander hof, dat ze dan opnieuw behandelt. Dat is het hele verschil met beroep."
+    },
+    {
+     "soort": "tekst",
+     "html": "Daarnaast staan er twee hoven <strong>naast</strong> de piramide, met een eigen taak: het <strong>Grondwettelijk Hof</strong> toetst wetten aan de Grondwet, en de <strong>Raad van State</strong> beoordeelt beslissingen van de overheid. Die horen bij de scheiding der machten."
+    }
+   ]
+  },
+  {
+   "kop": "Vonnis of arrest, en de weg omhoog",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Een uitspraak van een <strong>rechtbank</strong> heet een <strong>vonnis</strong>; een uitspraak van een <strong>hof</strong> heet een <strong>arrest</strong>. Dat is een kwestie van woordgebruik, niet van inhoud."
+    },
+    {
+     "soort": "tekst",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Van</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Beroep bij</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">het vredegerecht of de politierechtbank</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">de rechtbank van eerste aanleg</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">de rechtbank van eerste aanleg</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">het hof van beroep</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">het hof van beroep</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">het Hof van Cassatie, en enkel over de toepassing van het recht</td></tr></table>"
+    },
+    {
+     "soort": "tekst",
+     "html": "Dat <strong>beroep in twee instanties</strong> bestaat omdat een rechter zich kan vergissen. Een tweede volledige behandeling vangt een fout op, en dat is een waarborg voor de rechtzoekende, niet een vertragingstruc."
+    },
+    {
+     "soort": "weetje",
+     "html": "Je moet beroep aantekenen binnen een <strong>termijn</strong>. Laat je die voorbijgaan, dan wordt het vonnis definitief, ook als het fout was."
+    }
+   ]
+  }
+ ],
+ "onthoud": [
+  "Materiële bevoegdheid: waarover gaat het. Territoriale bevoegdheid: waar is het gebeurd.",
+  "Vredegerecht: kleinere geschillen tot 5.000 euro, huur, buren. Politierechtbank: verkeer.",
+  "Eerste aanleg heeft vijf afdelingen: burgerlijk, correctioneel, familie, jeugd, strafuitvoering.",
+  "Arbeidsrechtbank voor werk en sociale zekerheid, ondernemingsrechtbank voor ondernemingen.",
+  "Assisen heeft een volksjury van twaalf burgers; alleen daar.",
+  "Cassatie kijkt enkel naar het recht, niet naar de feiten, en verbreekt; beroep behandelt opnieuw.",
+  "Een rechtbank spreekt een vonnis uit, een hof een arrest."
+ ]
+}

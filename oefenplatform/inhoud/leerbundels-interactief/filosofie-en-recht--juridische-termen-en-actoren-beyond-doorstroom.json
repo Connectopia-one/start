@@ -1,0 +1,62 @@
+{
+ "vak": "Filosofie en recht",
+ "titel": "Juridische termen en actoren",
+ "onder": "Wie wie is in een rechtszaal, en wat de woorden betekenen die je in een dossier tegenkomt.",
+ "secties": [
+  {
+   "kop": "Wie staat er tegenover wie",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "De namen van de partijen hangen af van de <strong>soort zaak</strong>. Dezelfde mens heet in een burgerlijke zaak anders dan in een strafzaak."
+    },
+    {
+     "soort": "tekst",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">In een burgerlijke zaak</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Wie</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">de eiser</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">wie de zaak begint en iets vraagt</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">de verweerder</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">wie zich tegen die eis verdedigt</td></tr></table>"
+    },
+    {
+     "soort": "tekst",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">In een strafzaak</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Wie</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">de verdachte</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">wie tijdens het vooronderzoek in het vizier staat</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">de beklaagde</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">wie voor de strafrechter terechtstaat</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">het slachtoffer</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">wie schade leed door het misdrijf</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">de burgerlijke partij</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">het slachtoffer dat in de strafzaak zelf een schadevergoeding vraagt</td></tr></table>"
+    },
+    {
+     "soort": "kader",
+     "html": "<strong>Een verdachte is geen dader.</strong> Dat is het vermoeden van onschuld. En wie voor assisen staat, heet geen beklaagde maar <strong>beschuldigde</strong>."
+    }
+   ]
+  },
+  {
+   "kop": "De mensen van justitie",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Wie</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Wat die doet</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">de rechter</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">oordeelt onafhankelijk en onpartijdig, en motiveert zijn uitspraak</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">het openbaar ministerie, ook het parket</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">vervolgt misdrijven in naam van de samenleving; de procureur staat aan het hoofd</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">de onderzoeksrechter</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">leidt een gerechtelijk onderzoek bij ernstige zaken; hij is rechter, geen vervolger, en zoekt zowel wat belast als wat ontlast</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">de advocaat</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">staat een partij bij, geeft raad en pleit; hij is gebonden aan zijn beroepsgeheim en aan de deontologie van de balie</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">de griffier</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">houdt het dossier bij, schrijft op wat er op de zitting gebeurt en bewaart de stukken; zonder griffier is er geen geldige zitting</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">de gerechtsdeurwaarder</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">betekent officiële stukken zoals een dagvaarding, en voert een vonnis uit als iemand dat niet vrijwillig doet</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">de juryleden</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">twaalf burgers, bij lot aangewezen, die bij assisen over de schuld beslissen</td></tr></table>"
+    },
+    {
+     "soort": "weetje",
+     "html": "De <strong>onderzoeksrechter</strong> is de lastigste om te plaatsen. Hij werkt niet voor het parket en niet voor de verdediging. Hij zoekt de waarheid, en dus ook het bewijs dat iemand onschuldig is."
+    }
+   ]
+  },
+  {
+   "kop": "De woorden in een dossier",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Woord</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Wat het betekent</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een dagvaarding</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">de officiële uitnodiging om voor de rechtbank te verschijnen</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een proces-verbaal</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">het officiële verslag van de politie over een vaststelling</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">het strafdossier</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">alle stukken die in een strafzaak verzameld zijn</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een vonnis</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">de uitspraak van een rechtbank</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een arrest</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">de uitspraak van een hof</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">beroep</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een zaak opnieuw laten behandelen door een hogere rechter</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">cassatie</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een uitspraak laten nakijken op de toepassing van het recht</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">seponeren</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">de zaak zonder gevolg laten, door het parket</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een minnelijke schikking</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een geschil of een zaak regelen met een afspraak, zonder vonnis</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">het vooronderzoek</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">alles wat gebeurt voor de zaak voor de rechter komt; het dekt zowel het opsporingsonderzoek als het gerechtelijk onderzoek</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">het onderzoek ter terechtzitting</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">het eigenlijke proces, openbaar, met getuigen en pleidooien</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">de raadkamer</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">beslist of een strafzaak naar de rechtbank gaat, en over de aanhouding</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">de kamer van inbeschuldigingstelling</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">de tegenhanger van de raadkamer bij het hof van beroep; ze behandelt het beroep tegen haar beslissingen en verwijst een zaak naar assisen</td></tr></table>"
+    },
+    {
+     "soort": "kader",
+     "html": "<strong>Waarom deze woorden leren?</strong> Omdat een brief van een advocaat of een deurwaarder in deze taal geschreven is. Wie ze niet begrijpt, weet niet wat er van hem gevraagd wordt en mist een termijn. De moeilijke taal van justitie is een van de redenen voor de kloof met de burger, en net daarom is het nuttig om ze te kennen."
+    }
+   ]
+  }
+ ],
+ "onthoud": [
+  "Burgerlijk: eiser tegen verweerder. Straf: verdachte in het onderzoek, beklaagde voor de rechter.",
+  "Een slachtoffer dat zelf vergoeding vraagt in de strafzaak, is de burgerlijke partij.",
+  "Het openbaar ministerie vervolgt in naam van de samenleving; de onderzoeksrechter zoekt onafhankelijk de waarheid.",
+  "De griffier houdt het dossier bij, de gerechtsdeurwaarder betekent stukken en voert vonnissen uit.",
+  "Een rechtbank spreekt een vonnis uit, een hof een arrest.",
+  "Raadkamer: gaat de zaak naar de rechtbank. Kamer van inbeschuldigingstelling: het beroep daartegen."
+ ]
+}

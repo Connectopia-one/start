@@ -1,0 +1,95 @@
+{
+ "vak": "Filosofie en recht",
+ "titel": "Van natuurfilosofie naar wetenschap: falsificatie en demarcatie",
+ "onder": "Hoe de wetenschap uit de filosofie groeide, waar de grens met pseudowetenschap ligt, en hoe je een filosofische tekst leest.",
+ "secties": [
+  {
+   "kop": "Hoe de wetenschap uit de filosofie groeide",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "De natuurfilosofie zocht verklaringen in de natuur zelf. Daaruit is in de loop van eeuwen de <strong>wetenschap</strong> gegroeid, met een eigen manier van werken: waarnemen, meten, een vermoeden formuleren en het toetsen."
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Aristoteles</strong> staat aan het begin van die traditie. Hij keek, ordende en deelde in: planten, dieren, bewegingen, staatsvormen. Dat ordenen van waarnemingen hoort bij de start van elk onderzoek."
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Francis Bacon</strong> dringt er eeuwen later op aan dat kennis uit <strong>waarneming en experiment</strong> moet komen, en niet uit het gezag van oude boeken. Dat is de houding waarop de moderne wetenschap gebouwd is."
+    },
+    {
+     "soort": "kader",
+     "html": "<strong>Wetenschap is geen verzameling feiten maar een manier van werken.</strong> Wat haar kenmerkt, is niet dat ze gelijk heeft, maar dat ze zichzelf kan verbeteren."
+    }
+   ]
+  },
+  {
+   "kop": "Verificatie, falsificatie en het demarcatieprobleem",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Het <strong>demarcatieprobleem</strong> is de vraag waar je de grens trekt tussen wetenschap en wat zich als wetenschap voordoet. Demarcatie betekent afbakening."
+    },
+    {
+     "soort": "tekst",
+     "html": "Een eerste antwoord was <strong>verificatie</strong>: een uitspraak is wetenschappelijk als je ze kan bevestigen. Dat loopt stuk op de inductie. Hoeveel witte zwanen je ook telt, je krijgt de uitspraak alle zwanen zijn wit nooit zeker bevestigd."
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Karl Popper</strong> draait het om. Zijn maatstaf is <strong>falsificatie</strong>: een uitspraak is wetenschappelijk als je kan zeggen welke waarneming haar zou weerleggen. Eén zwarte zwaan volstaat."
+    },
+    {
+     "soort": "tekst",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\"></th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Verificatie</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Falsificatie</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">de vraag</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">kan ik dit bevestigen?</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">wat zou dit weerleggen?</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">probleem</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">bevestiging kan altijd toevallig zijn</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">één tegenvoorbeeld is beslissend</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">gevolg</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">nooit volle zekerheid</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een theorie blijft voorlopig, maar is toetsbaar</td></tr></table>"
+    },
+    {
+     "soort": "kader",
+     "html": "<strong>Een theorie die niets uitsluit, verklaart niets.</strong> Wie op elke mogelijke uitkomst zegt dat ze zijn theorie bevestigt, heeft geen sterke theorie maar een onweerlegbare. Dat is bij Popper juist het zwaktebod."
+    }
+   ]
+  },
+  {
+   "kop": "Pseudowetenschap",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "<strong>Pseudowetenschap</strong> lijkt op wetenschap maar werkt er niet zoals ze. Je herkent ze aan een paar vaste trekken."
+    },
+    {
+     "soort": "tekst",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Kenmerk</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Hoe het eruitziet</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">niet te weerleggen</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">elke uitkomst past in de theorie</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">uitvluchten</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">bij een tegenvoorbeeld wordt de theorie wat bijgedraaid</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">vage voorspellingen</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">zo ruim geformuleerd dat ze altijd uitkomen</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">beroep op gezag</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">de grondlegger heeft het gezegd, dus het klopt</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">geen controle</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">geen onafhankelijk onderzoek, geen gepubliceerde methode</td></tr></table>"
+    },
+    {
+     "soort": "tekst",
+     "html": "Let op: pseudowetenschap is niet hetzelfde als <strong>ongelijk hebben</strong>. Een wetenschappelijke theorie die weerlegd wordt, was wel degelijk wetenschappelijk. Het verschil zit in de toetsbaarheid, niet in de uitkomst."
+    }
+   ]
+  },
+  {
+   "kop": "Een filosofische tekst lezen in drie stappen",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "De fiche geeft een stappenplan om een filosofische tekst te analyseren. Je krijgt het niet op het examen, maar de vaardigheid zelf wordt wel getoetst."
+    },
+    {
+     "soort": "tekst",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Stap</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Wat je doet</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">1. oriënterend lezen</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">de tekst in zijn geheel lezen, letten op de indeling, de signaalwoorden en de kernbegrippen, en in elke alinea een kernzin aanduiden</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">2. grondig lezen</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">herlezen, onbekende woorden opzoeken, moeilijke zinnen ontleden, verbanden aanduiden, en een samenvatting in enkele zinnen maken</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">3. reflectie</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">tegenvoorbeelden zoeken, je eigen kritiek formuleren, en bedenken hoe de auteur daarop zou antwoorden</td></tr></table>"
+    },
+    {
+     "soort": "kader",
+     "html": "<strong>De toets van stap 2:</strong> je moet daarna met je eigen woorden aan een vriend kunnen uitleggen hoe de auteur zijn stelling verdedigt. Lukt dat niet, dan ben je nog niet klaar met lezen."
+    }
+   ]
+  }
+ ],
+ "onthoud": [
+  "Aristoteles ordende zijn waarnemingen; Bacon eiste waarneming en experiment in plaats van gezag.",
+  "Demarcatie = de grens tussen wetenschap en pseudowetenschap.",
+  "Verificatie vraagt: kan ik dit bevestigen? Falsificatie vraagt: wat zou dit weerleggen?",
+  "Popper koos falsificatie. Een theorie die niets uitsluit, verklaart niets.",
+  "Pseudowetenschap is niet te weerleggen, werkt met uitvluchten en beroept zich op gezag.",
+  "Een tekst lezen: oriënterend lezen, grondig lezen, reflectie."
+ ]
+}

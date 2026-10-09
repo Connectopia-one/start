@@ -1,0 +1,91 @@
+{
+ "vak": "Filosofie en recht",
+ "titel": "Argumentatieleer: redeneervormen en drogredenen",
+ "onder": "De vier basisvormen van een als-dan-redenering, welke twee geldig zijn, en de klassieke drogredenen.",
+ "secties": [
+  {
+   "kop": "Antecedens en consequens",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Neem de uitspraak: <strong>als het regent, is de straat nat</strong>. Die bestaat uit twee delen, en je moet de namen ervan vlot kennen."
+    },
+    {
+     "soort": "tekst",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Deel</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Naam</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Betekenis van het woord</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">het regent</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">het antecedens</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">wat voorafgaat</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">de straat is nat</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">het consequens</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">wat volgt</td></tr></table>"
+    },
+    {
+     "soort": "tekst",
+     "html": "Met die twee delen kan je vier dingen doen: het antecedens bevestigen of ontkennen, en het consequens bevestigen of ontkennen. Dat zijn de <strong>vier basisvormen</strong>, en twee ervan zijn geldig."
+    }
+   ]
+  },
+  {
+   "kop": "De vier basisvormen",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Vorm</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Je weet erbij</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Besluit</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Geldig?</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">bevestiging van het antecedens (modus ponens)</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">het regent</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">de straat is nat</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">ja</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">bevestiging van het consequens</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">de straat is nat</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">het regent</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">nee</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">ontkenning van het antecedens</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">het regent niet</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">de straat is niet nat</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">nee</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">ontkenning van het consequens (modus tollens)</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">de straat is niet nat</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">het regent niet</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">ja</td></tr></table>"
+    },
+    {
+     "soort": "kader",
+     "html": "<strong>Waarom de twee middelste niet werken:</strong> de straat kan ook nat zijn van een schoonmaakwagen. Uit het gevolg volgt de voorwaarde niet, en zonder de voorwaarde kan het gevolg er nog altijd zijn."
+    },
+    {
+     "soort": "tekst",
+     "html": "Een voorbeeld dat vaker opduikt dan het weer. Als je studeert, slaag je."
+    },
+    {
+     "soort": "tekst",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Redenering</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Vorm</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Geldig?</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">je studeert, dus je slaagt</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">modus ponens</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">ja</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">je bent geslaagd, dus je hebt gestudeerd</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">bevestiging van het consequens</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">nee</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">je studeerde niet, dus je slaagt niet</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">ontkenning van het antecedens</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">nee</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">je bent niet geslaagd, dus je studeerde niet</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">modus tollens</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">ja</td></tr></table>"
+    }
+   ]
+  },
+  {
+   "kop": "Geldig is niet hetzelfde als waar",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "<strong>Geldigheid</strong> gaat over de <strong>vorm</strong>: als de premissen waar zijn, moet het besluit ook waar zijn. Over de inhoud zegt dat niets."
+    },
+    {
+     "soort": "tekst",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Vraag</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Antwoord</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">kan een geldige redenering een onwaar besluit hebben?</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">ja, als een van de premissen onwaar is</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">maakt een waar besluit een redenering geldig?</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">nee, dat kan toeval zijn</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">heeft een ongeldige redenering altijd een onwaar besluit?</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">nee, ze bewijst het alleen niet</td></tr></table>"
+    },
+    {
+     "soort": "kader",
+     "html": "<strong>In het voorbeeld hierboven zit trouwens een onware premisse.</strong> Dat studeren altijd tot slagen leidt, is niet waar. De modus tollens blijft geldig, maar je besluit staat of valt met die eerste regel."
+    }
+   ]
+  },
+  {
+   "kop": "Drogredenen",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Een <strong>drogreden</strong> is een argument dat <strong>overtuigend lijkt maar niet deugt</strong>. Precies die schijn maakt ze zo effectief in een discussie. Ze worden vaak zonder opzet gebruikt, en het besluit kan om een andere reden best juist zijn."
+    },
+    {
+     "soort": "tekst",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Drogreden</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Hoe ze klinkt</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Wat eraan mankeert</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">op de persoon</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">jouw voorstel is niets waard, want jij hebt nooit gestudeerd</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">de aanval richt zich op wie het zegt in plaats van op wat er gezegd wordt</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">de stroman</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">je wil minder vlees eten? dus je wil geen boerderijen meer</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">er wordt een standpunt in je mond gelegd dat je niet innam</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">de valse tweedeling</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">je bent voor dit plan, of je bent tegen vooruitgang</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">er zijn meer mogelijkheden dan de twee die je krijgt</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">het hellend vlak</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">laten we dit toe, dan staan we morgen alles toe</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">dat die glijbaan er is, moet je eerst aantonen</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">de cirkel</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">dit boek is waar, want er staat in dat het waar is</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">wat bewezen moet worden, zit al in het bewijs</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">het beroep op de massa</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">iedereen doet het, dus kan het geen kwaad</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">hoeveel mensen iets doen, zegt niets over of het mag</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">het beroep op een onbevoegde autoriteit</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een bekende zanger zegt dat dit middel werkt</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een deskundige aanhalen mag; iemand die hier geen deskundige is, niet</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">de overhaaste generalisatie</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">mijn twee buren rijden slecht, dus die straat rijdt slecht</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">twee gevallen zijn te weinig om over een groep te besluiten</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">het beroep op de natuur</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">het is natuurlijk, dus het is goed</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">uit wat van nature zo is, volgt niet dat het zo moet zijn</td></tr></table>"
+    },
+    {
+     "soort": "kader",
+     "html": "<strong>Het beroep op de natuur is het is-ought probleem van Hume in zakformaat.</strong> Gif is ook natuurlijk. En de overhaaste generalisatie is dezelfde zwakte als bij de inductie uit het thema over kennis."
+    },
+    {
+     "soort": "tekst",
+     "html": "Een drogreden weerleg je niet door harder te spreken, maar door te <strong>benoemen wat er aan de stap zelf mankeert</strong>: waarom volgt het besluit niet uit wat er gezegd is?"
+    }
+   ]
+  }
+ ],
+ "onthoud": [
+  "Antecedens = het als-deel, consequens = het dan-deel.",
+  "Geldig: bevestiging van het antecedens (modus ponens) en ontkenning van het consequens (modus tollens).",
+  "Ongeldig: bevestiging van het consequens en ontkenning van het antecedens.",
+  "Geldigheid gaat over de vorm; een geldige redenering kan van iets onwaars vertrekken.",
+  "Een drogreden lijkt overtuigend maar deugt niet; haar besluit kan toch juist zijn.",
+  "Ken de negen klassieke drogredenen en kan er bij elke een voorbeeld geven."
+ ]
+}

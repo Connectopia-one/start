@@ -1,0 +1,103 @@
+{
+ "vak": "Filosofie en recht",
+ "titel": "De functies van justitie, de rechtspraak en de deontologie",
+ "onder": "Vijf functies van justitie, vier principes van de rechtspraak, en beroepsgeheim, discretieplicht en meldingsplicht.",
+ "secties": [
+  {
+   "kop": "Vijf functies van justitie",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Justitie doet meer dan straffen. De fiche noemt vijf functies naast elkaar, en bestraffing is er maar <strong>één</strong> van."
+    },
+    {
+     "soort": "tekst",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Functie</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Wat ze doet</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Voorbeeld</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">preventie</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">voorkomen dat er misdrijven en conflicten ontstaan</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">dat de wet bestaat en overtredingen gevolgen hebben, houdt al veel mensen tegen</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">veiligheid</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">mensen beschermen tegen gevaar</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">iemand uit de buurt van zijn slachtoffer houden</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">ordehandhaving</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">de orde herstellen en bewaren</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">optreden na rellen of bij een bezetting</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">conflictbeslechting</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een geschil tussen partijen met een beslissing afsluiten</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een vonnis over een huurgeschil</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">bestraffing</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een dader een passende straf opleggen</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een werkstraf, een boete of een gevangenisstraf</td></tr></table>"
+    },
+    {
+     "soort": "kader",
+     "html": "<strong>Preventie is het werk dat je niet ziet omdat het lukt.</strong> En conflictbeslechting is typisch voor het burgerlijk recht: zonder rechter zou een geschil blijven duren of met geweld eindigen."
+    }
+   ]
+  },
+  {
+   "kop": "Vier principes van de hedendaagse rechtspraak",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Principe</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Wat het betekent</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">het vermoeden van onschuld</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">je bent onschuldig tot een rechter je schuld heeft vastgesteld; het bewijs moet komen van wie vervolgt en twijfel valt in jouw voordeel uit</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">onafhankelijkheid en onpartijdigheid</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">de rechter krijgt geen bevel van de andere machten en heeft geen band met de partijen</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">openbaarheid</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een zitting en een uitspraak zijn in beginsel voor iedereen toegankelijk</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">hoor en wederhoor</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">elke partij krijgt de kans om op de argumenten van de andere te antwoorden</td></tr></table>"
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Openbaarheid</strong> is de regel, met uitzonderingen waar een zwaarder belang meespeelt. Een zitting kan met <strong>gesloten deuren</strong> doorgaan, bijvoorbeeld in het belang van een kind of van de privacy. De zittingen van de jeugdrechtbank zijn daarom niet openbaar."
+    },
+    {
+     "soort": "kader",
+     "html": "<strong>Trial by media raakt aan het vermoeden van onschuld.</strong> Een krant die een verdachte al een dader noemt, spreekt een oordeel uit dat nog niet gevallen is. Dat thema komt terug bij de actuele thema's."
+    }
+   ]
+  },
+  {
+   "kop": "De rol van justitie in de samenleving",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "De fiche laat je over drie dingen nadenken."
+    },
+    {
+     "soort": "tekst",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Rol</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Hoe je dat ziet</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">bij veranderende maatschappelijke normen</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">wat vroeger strafbaar was, is dat vandaag soms niet meer, en omgekeerd; recht en samenleving bewegen samen, al loopt het recht meestal achter</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">bij het regelen van ons dagelijks leven</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een huurcontract, een aankoop, een scheiding, een nalatenschap: het recht zit in duizend gewone dingen zonder dat er een rechter aan te pas komt</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">bij meer rechtvaardigheid en gelijkheid</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">iedereen volgens dezelfde regels behandelen, ongeacht wie hij is</td></tr></table>"
+    },
+    {
+     "soort": "weetje",
+     "html": "Gelijkheid voor de wet is de belofte. Dat die in de praktijk niet altijd uitkomt, omdat een procedure geld en kennis vraagt, is precies waarover de fiche je laat nadenken. Daarom bestaat juridische bijstand."
+    }
+   ]
+  },
+  {
+   "kop": "Deontologie in de welzijnssector",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "<strong>Deontologie</strong> zijn de <strong>beroepsregels</strong> die een beroepsgroep voor zichzelf opstelt. Elke beroepsgroep heeft eigen vragen: een hulpverlener, een arts en een advocaat hebben elk hun code."
+    },
+    {
+     "soort": "tekst",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\"></th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Wetgeving</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Deontologische code</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">komt van</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">de wetgever</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">de beroepsgroep zelf</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">geldt voor</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">iedereen</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">wie dat beroep uitoefent</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">bij schending</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een sanctie van de rechter</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een sanctie van de beroepsorde of de werkgever</td></tr></table>"
+    },
+    {
+     "soort": "kader",
+     "html": "<strong>Een code komt bovenop de wet en nooit in haar plaats.</strong> Dezelfde handeling kan tegelijk tegen de code en tegen de wet ingaan; het beroepsgeheim is daar het voorbeeld van."
+    },
+    {
+     "soort": "tekst",
+     "html": "Drie aspecten moet je uit elkaar kunnen houden."
+    },
+    {
+     "soort": "tekst",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Aspect</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Wat het is</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Hoe streng</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">het beroepsgeheim</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">wat iemand je in vertrouwen vertelt, mag je niet verder vertellen</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">het strengst, en voor sommige beroepen ook in de wet, met een straf erop</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">de discretieplicht</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">terughoudend zijn over alles wat je op je werk verneemt</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">ruimer maar minder streng; ook over een collega of een dossier dat niet het jouwe is</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">de meldingsplicht</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">in bepaalde ernstige situaties moet je spreken in plaats van zwijgen</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">ze doorbreekt het zwijgen bij ernstig en dreigend gevaar</td></tr></table>"
+    },
+    {
+     "soort": "tekst",
+     "html": "Het <strong>beroepsgeheim</strong> beschermt niet de hulpverlener maar <strong>wie hulp zoekt</strong>: zonder die zekerheid durft niemand nog iets te vertellen. En het is <strong>geen vrijgeleide om weg te kijken</strong>: wie een kind in acuut gevaar ziet, kan zich er niet achter verschuilen. Hulp weigeren aan iemand in groot gevaar is strafbaar."
+    },
+    {
+     "soort": "kader",
+     "html": "<strong>Twee casussen om te herkennen.</strong> Een kind vertelt dat het thuis geslagen wordt en dat het vanavond opnieuw dreigt te gebeuren: ernstig en dreigend gevaar, dus de meldingsplicht. Een medewerker vertelt op een feestje over een dossier zonder de naam te noemen: de discretieplicht, want details maken een mens herkenbaar en wie dit hoort weet voortaan dat je over je cliënten praat."
+    },
+    {
+     "soort": "tekst",
+     "html": "Daarom is een code nooit een lijst met kant-en-klare antwoorden: plichten kunnen in één situatie <strong>tegen elkaar in gaan</strong>. Zwijgen en melden kunnen in dezelfde casus beide opkomen, en dan vraagt het een afweging."
+    }
+   ]
+  }
+ ],
+ "onthoud": [
+  "Vijf functies: preventie, veiligheid, ordehandhaving, conflictbeslechting, bestraffing.",
+  "Vier principes: vermoeden van onschuld, onafhankelijkheid en onpartijdigheid, openbaarheid, hoor en wederhoor.",
+  "Openbaarheid is de regel; gesloten deuren bij een zwaarder belang, zoals bij de jeugdrechtbank.",
+  "Deontologie komt van het beroep zelf, wetgeving van de wetgever; de code komt bovenop de wet.",
+  "Beroepsgeheim is het strengst, discretieplicht is ruimer en minder streng, meldingsplicht doorbreekt het zwijgen.",
+  "Het beroepsgeheim beschermt wie hulp zoekt, en is geen vrijgeleide om weg te kijken."
+ ]
+}
