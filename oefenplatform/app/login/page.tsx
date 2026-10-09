@@ -21,6 +21,19 @@ export default async function LoginPage({
         <p className="mt-2 text-sm text-ink-dim">
           Log in met je e-mailadres en wachtwoord.
         </p>
+        {/* Een toegangscode is geen wachtwoord. Dat haalde een tester door
+            elkaar, en het is op dit scherm niet te raden. */}
+        <p className="mt-2 rounded-md bg-forest/10 px-3 py-2 text-sm text-forest-dark">
+          Kreeg je van ons een toegangscode? Dat is geen wachtwoord. Je maakt
+          eerst een account aan via{" "}
+          <Link
+            href="/registreren"
+            className="font-medium underline underline-offset-2"
+          >
+            Registreer hier
+          </Link>{" "}
+          en vult de code daar in.
+        </p>
 
         <form
           action={login}
