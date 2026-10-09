@@ -1,0 +1,114 @@
+{
+ "vak": "Sociale en gedragswetenschappen",
+ "titel": "De onderzoekscyclus van oriënteren tot rapporteren",
+ "onder": "Vier fasen, zes criteria voor een goede onderzoeksvraag, en de soorten onderzoek. Het laatste thema van het vak.",
+ "secties": [
+  {
+   "kop": "Vier fasen",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "De <strong>onderzoekscyclus</strong> is de weg die een onderzoek aflegt. De fiche deelt hem in <strong>vier</strong> fasen:"
+    },
+    {
+     "soort": "tekst",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\"></th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Fase</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Wat je doet</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">1</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">oriënteren</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">je thema verkennen, lezen wat er al is, en je onderzoeksvraag opstellen</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">2</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">voorbereiden</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">kiezen hoe je het aanpakt: welke methode, welke mensen, welk meetinstrument</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">3</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">uitvoeren</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">de gegevens verzamelen en verwerken</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">4</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">rapporteren</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">je besluit opschrijven en je werk zichtbaar maken</td></tr></table>"
+    },
+    {
+     "soort": "tekst",
+     "html": "Het heet een <strong>cyclus</strong> omdat het einde geen einde is: een besluit roept nieuwe vragen op, en daar begint een volgend onderzoek. Rapporteren is dus niet alleen afsluiten, het is ook het vertrekpunt voor wie na jou komt."
+    },
+    {
+     "soort": "kader",
+     "html": "<strong>De onderzoeksvraag hoort bij oriënteren, niet bij voorbereiden.</strong> Eerst weet je wát je wil weten, dan pas kies je hóe je het gaat onderzoeken. Wie de methode eerst kiest, buigt zijn vraag naar zijn methode."
+    }
+   ]
+  },
+  {
+   "kop": "Zes criteria voor een onderzoeksvraag",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Een goede onderzoeksvraag moet aan <strong>zes</strong> criteria voldoen. De fiche zegt dat het kind die lijst <strong>op het examen krijgt</strong>: ze moet ze niet van buiten kennen, maar wel kunnen <strong>toepassen</strong> op een gegeven vraag."
+    },
+    {
+     "soort": "tekst",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Criterium</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Wat het betekent</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Een vraag die eraan faalt</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">open</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">er is meer dan ja of nee mogelijk</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><em>Zijn jongeren veel op hun gsm?</em></td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">enkelvoudig</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">er zit maar één vraag in</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><em>Hoeveel lezen jongeren en wat vinden hun ouders daarvan?</em></td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">objectief</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">er zit geen oordeel of sturing in</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><em>Waarom is sociale media zo schadelijk voor kinderen?</em></td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">haalbaar</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">je kan ze met jouw tijd en middelen echt onderzoeken</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><em>Hoe leven alle jongeren in Europa?</em></td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">onderzoekbaar</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">ze is met gegevens te beantwoorden, niet met een mening</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><em>Mag een kind een gsm hebben?</em></td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">relevant</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">het antwoord doet iets voor iemand</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><em>Hoeveel letters staan er in de schoolnaam van elke leerling?</em></td></tr></table>"
+    },
+    {
+     "soort": "kader",
+     "html": "<strong>Objectief en onderzoekbaar worden het vaakst verward.</strong> Een <strong>niet objectieve</strong> vraag zit het antwoord al in: ze veronderstelt dat het schadelijk is. Een <strong>niet onderzoekbare</strong> vraag kan met geen enkel gegeven beslecht worden, want ze vraagt wat mág, en dat is een ethische vraag."
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Haalbaar</strong> gaat over jóu: je tijd, je geld, je bereik. <strong>Onderzoekbaar</strong> gaat over de <strong>vraag zelf</strong>: ook met onbeperkte middelen blijft <em>mag een kind een gsm hebben</em> onbeantwoordbaar met gegevens."
+    },
+    {
+     "soort": "tekst",
+     "html": "Twee hulpjes om vragen snel te betrappen. Een vraag die met <em>is</em>, <em>zijn</em> of <em>heeft</em> begint, is vaak <strong>gesloten</strong>. En staat er een <strong>en</strong> in het midden, dan is ze vaak niet <strong>enkelvoudig</strong>."
+    }
+   ]
+  },
+  {
+   "kop": "Soorten onderzoek",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "De fiche zet twee paren naast elkaar. Het eerste gaat over <strong>waar je je gegevens haalt</strong>:"
+    },
+    {
+     "soort": "tekst",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Soort</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Waar de gegevens vandaan komen</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Voorbeeld</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">deskresearch</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">uit wat er al bestaat; je zit aan je bureau</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">cijfers van Statbel, een bestaand rapport, vakliteratuur</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">fieldresearch</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">uit het veld; je gaat ze zelf halen</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een enquête, een interview, een observatie</td></tr></table>"
+    },
+    {
+     "soort": "tekst",
+     "html": "Het tweede paar gaat over <strong>wat voor gegevens</strong> het zijn:"
+    },
+    {
+     "soort": "tekst",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Soort</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Wat je verzamelt</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">De vraag erachter</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Methode</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">kwantitatief</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">getallen, van veel mensen</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">hoeveel, hoe vaak, hoe sterk?</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een enquête met gesloten vragen</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">kwalitatief</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">woorden en betekenis, van weinig mensen</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">hoe en waarom?</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een diepte-interview, een gesprek in groep</td></tr></table>"
+    },
+    {
+     "soort": "kader",
+     "html": "<strong>De twee paren staan los van elkaar en combineren.</strong> Je kan kwantitatieve deskresearch doen (bestaande cijfers verwerken) én kwalitatieve fieldresearch (zelf tien mensen interviewen). Vier combinaties, niet twee soorten onderzoek."
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Kwantitatief</strong> levert breedte: je kan iets over een grote groep zeggen, maar niet waarom iemand het doet. <strong>Kwalitatief</strong> levert diepte: je begrijpt waarom, maar je kan het niet doortrekken naar iedereen. Daarom combineren veel onderzoekers de twee: eerst gesprekken om te weten wat er speelt, dan een enquête om te weten hoe vaak het speelt."
+    },
+    {
+     "soort": "weetje",
+     "html": "<strong>Deskresearch is bijna altijd de eerste stap</strong>, ook als je een veldonderzoek plant. Je wil niet zelf tweehonderd mensen bevragen over iets dat iemand vorig jaar al uitzocht."
+    }
+   ]
+  },
+  {
+   "kop": "Uitvoeren en rapporteren",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Bij het <strong>uitvoeren</strong> horen een paar vaste zorgen. Je <strong>steekproef</strong> moet lijken op de groep waarover je iets wil zeggen; anders geldt je besluit enkel voor wie je bevroeg. Je vragen mogen niet <strong>sturen</strong>, want een sturende vraag levert het antwoord dat erin zat. En wie met mensen werkt, vraagt hun <strong>toestemming</strong>, zegt waarvoor de gegevens dienen en houdt ze <strong>anoniem</strong>."
+    },
+    {
+     "soort": "tekst",
+     "html": "Bij het <strong>rapporteren</strong> hoort dat je je <strong>bronnen</strong> vermeldt, je <strong>werkwijze</strong> beschrijft zodat iemand ze kan nakijken, en ook meldt wat er <strong>niet</strong> gelukt is. De beperkingen van je onderzoek horen in je verslag; ze maken het sterker, niet zwakker."
+    },
+    {
+     "soort": "kader",
+     "html": "<strong>Een verband is geen oorzaak.</strong> Twee dingen die samen bewegen, kunnen beide door een derde veroorzaakt zijn. Wie meer ijsjes eet, verdrinkt vaker; het ijsje is niet de oorzaak, de warme zomerdag is het. Dat is de fout die in een verslag het vaakst gemaakt wordt."
+    },
+    {
+     "soort": "tekst",
+     "html": "Dit blok weegt <strong>tien procent</strong> van het examen, en de fiche zegt erbij dat <strong>alle leerinhouden van sociale wetenschappen</strong> in dat deel verwerkt kunnen zijn. Een onderzoeksvraag over socialisatie, over stratificatie of over media kan dus even goed komen."
+    }
+   ]
+  }
+ ],
+ "onthoud": [
+  "Vier fasen: oriënteren (met de onderzoeksvraag), voorbereiden, uitvoeren, rapporteren.",
+  "Zes criteria: open, enkelvoudig, objectief, haalbaar, onderzoekbaar, relevant. Je krijgt ze op het examen, dus pas ze toe.",
+  "Haalbaar gaat over jouw middelen, onderzoekbaar over de vraag zelf.",
+  "Deskresearch of fieldresearch, kwantitatief of kwalitatief; de twee paren combineren.",
+  "Een verband is geen oorzaak."
+ ]
+}

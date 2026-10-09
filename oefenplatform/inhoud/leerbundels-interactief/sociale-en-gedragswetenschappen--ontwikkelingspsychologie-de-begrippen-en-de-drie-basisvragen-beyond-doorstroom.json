@@ -1,0 +1,102 @@
+{
+ "vak": "Sociale en gedragswetenschappen",
+ "titel": "Ontwikkelingspsychologie: de begrippen en de drie basisvragen",
+ "onder": "Wat ontwikkeling is, in welke levensloopfase iemand zit, welke vijf domeinen er zijn, en de drie vragen waarmee je elke theorie kan meten.",
+ "secties": [
+  {
+   "kop": "Groeien, rijpen en leren",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "De fiche vat <strong>ontwikkeling</strong> samen als een combinatie van drie dingen: <strong>groeien</strong>, <strong>rijpen</strong> en <strong>leren</strong>. Die drie woorden komen bij elke benadering terug, dus het is de moeite ze scherp te houden."
+    },
+    {
+     "soort": "tekst",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Woord</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Wat het is</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Voorbeeld</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">groeien</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">de zichtbare toename van je lichaam</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">in een jaar zeven centimeter langer worden</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">rijpen</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">ontwikkeling die van binnenuit komt en een vaste orde volgt</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">kunnen stappen zodra de zenuwbanen klaar zijn</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">leren</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">verandering door ervaring en oefening</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">de tafel van zeven uit het hoofd kennen</td></tr></table>"
+    },
+    {
+     "soort": "kader",
+     "html": "<strong>Rijpen kan je niet versnellen door te oefenen.</strong> Een baby van zes maanden leert niet stappen omdat je meer oefent, maar omdat zijn lichaam er klaar voor is. Dat is het verschil met leren."
+    },
+    {
+     "soort": "tekst",
+     "html": "Het verband met <strong>nature</strong> en <strong>nurture</strong> is eenvoudig: <strong>groeien en rijpen horen bij nature</strong>, de erfelijke kant, en <strong>leren hoort bij nurture</strong>, alles wat de omgeving aanbrengt."
+    }
+   ]
+  },
+  {
+   "kop": "De negen levensloopfasen",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "De fiche noemt <strong>negen</strong> levensloopfasen, in deze orde:"
+    },
+    {
+     "soort": "tekst",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Fase</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Andere naam uit de fiche</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">prenatale fase</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">de tijd voor de geboorte</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">babytijd</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"></td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">peutertijd</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"></td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">vroege kindertijd</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">de kleutertijd</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">midden kindertijd</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">de lagere schoolkindfase</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">adolescentie</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"></td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">vroege volwassenheid</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"></td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">midden volwassenheid</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"></td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">late volwassenheid</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"></td></tr></table>"
+    },
+    {
+     "soort": "tekst",
+     "html": "Het woord <strong>levensloop</strong>fase is belangrijk: ontwikkeling begint al <strong>voor de geboorte</strong> en stopt <strong>niet</strong> aan het einde van de adolescentie. Er komen nog drie fasen van volwassenheid na."
+    },
+    {
+     "soort": "weetje",
+     "html": "De fiche zet bij twee fasen zelf een tweede naam: de vroege kindertijd is de kleutertijd, de midden kindertijd is de lagere schoolkindfase. Beide namen kunnen in een vraag staan."
+    }
+   ]
+  },
+  {
+   "kop": "De vijf ontwikkelingsdomeinen",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Binnen elke fase kijkt de ontwikkelingspsychologie naar <strong>vijf domeinen</strong>:"
+    },
+    {
+     "soort": "tekst",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Domein</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Waarover het gaat</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Voorbeeld</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">fysieke ontwikkeling</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">lichaam, groei, motoriek</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">zelf je veters knopen</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">cognitieve ontwikkeling</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">denken, onthouden, taal, rekenen</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een som in je hoofd maken</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">morele ontwikkeling</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">goed en kwaad, eerlijkheid</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">uitleggen waarom spieken niet eerlijk is</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">socio-emotionele ontwikkeling</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">gevoelens en omgang met anderen</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">je boosheid in woorden zeggen</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">persoonlijkheidsontwikkeling</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">wie je wordt als persoon</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">weten waar je voor staat</td></tr></table>"
+    },
+    {
+     "soort": "kader",
+     "html": "De domeinen staan <strong>niet los van elkaar</strong>. Wie moeilijk spreekt, durft minder zeggen in de klas en maakt daardoor minder vrienden: het fysieke domein werkt door in het socio-emotionele. Die <strong>wisselwerking</strong> moet je in een voorbeeld kunnen aanwijzen."
+    },
+    {
+     "soort": "tekst",
+     "html": "Je kan ook de andere kant op kijken: <strong>één domein door verschillende fasen heen</strong> volgen, en de fasen zo met elkaar vergelijken. De fiche vraagt dat met zoveel woorden."
+    }
+   ]
+  },
+  {
+   "kop": "De drie basisvragen",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "De ontwikkelingspsychologie stelt <strong>drie basisvragen</strong>. Ze zijn je <strong>meetlat</strong>: leg je ze bij elke benadering, dan zie je waar de theorieën verschillen."
+    },
+    {
+     "soort": "tekst",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Basisvraag</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Wat ze tegenover elkaar zet</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">1. Verloopt ontwikkeling continu of discontinu?</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">beetje bij beetje, of in duidelijke stadia met een overgang ertussen</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">2. Wat is de rol van nature, nurture en zelfbepaling?</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">de genen, de omgeving, en wat iemand zelf kiest</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">3. Is ontwikkeling cultureel bepaald of universeel?</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">verschillend per samenleving, of hetzelfde bij alle mensen</td></tr></table>"
+    },
+    {
+     "soort": "tekst",
+     "html": "Bij de tweede vraag staan er <strong>drie</strong> dingen, geen twee. Naast de genetische en de omgevingsfactoren noemt de fiche uitdrukkelijk de <strong>zelfbepaling</strong>: een mens kiest ook zelf mee."
+    },
+    {
+     "soort": "tekst",
+     "html": "Een voorbeeld waarin je alle drie ziet: iemand komt uit een muzikaal gezin (nature én nurture), zat van haar zesde in de muziekschool (nurture) en koos op haar vijftiende zelf om drum te spelen in plaats van piano (zelfbepaling)."
+    },
+    {
+     "soort": "weetje",
+     "html": "Dat baby's over de hele wereld eerst kruipen en dan stappen, wijst op een <strong>universele</strong> factor. Op welke leeftijd een kind geacht wordt zelf te beslissen, verschilt sterk van samenleving tot samenleving: dat is een <strong>culturele</strong> factor."
+    }
+   ]
+  }
+ ],
+ "onthoud": [
+  "Ontwikkeling is groeien plus rijpen plus leren. Groeien en rijpen horen bij nature, leren bij nurture.",
+  "Rijpen volgt een eigen orde en is niet te versnellen met oefenen.",
+  "Negen levensloopfasen, van de prenatale fase tot de late volwassenheid.",
+  "Vijf domeinen: fysiek, cognitief, moreel, socio-emotioneel en persoonlijkheid. Ze beïnvloeden elkaar.",
+  "Drie basisvragen: continu of discontinu, nature-nurture-zelfbepaling, cultureel of universeel."
+ ]
+}

@@ -1,0 +1,106 @@
+{
+ "vak": "Sociale en gedragswetenschappen",
+ "titel": "Ontwikkeling: de biologische en de psychodynamische benadering",
+ "onder": "Twee van de zes benaderingen: de ene begint bij de genen, de andere bij wat binnen in iemand speelt. Met Darwin, Gesell, Waddington, Freud en Erikson.",
+ "secties": [
+  {
+   "kop": "De biologische benadering",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "De <strong>biologische benadering</strong> legt het begin van ontwikkeling in het <strong>lichaam zelf</strong>: de genen, de rijping en de erfelijkheid. Drie theorieën horen erbij, elk met één naam uit de fiche:"
+    },
+    {
+     "soort": "tekst",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Theorie</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Naam</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Kern</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">evolutionaire psychologie</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Charles Darwin</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">gedrag dat onze voorouders hielp overleven, is doorgegeven</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">rijpingstheorie</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Arnold Gesell</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">ontwikkeling komt van binnenuit en volgt een vaste orde</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">epigenetica</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Conrad Waddington</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">de omgeving zet genen aan of uit, zonder het DNA te veranderen</td></tr></table>"
+    },
+    {
+     "soort": "tekst",
+     "html": "De <strong>evolutionaire psychologie</strong> verklaart bijvoorbeeld waarom baby's over de hele wereld schrikken van een plots hard geluid: dat hielp overleven. Ze legt dus de nadruk op <strong>nature</strong>."
+    },
+    {
+     "soort": "tekst",
+     "html": "De <strong>rijpingstheorie</strong> van Gesell werkt met gemiddelde leeftijden: op welke leeftijd kinderen doorgaans zitten, kruipen en stappen. Omdat ze met vaste stappen in een vaste orde werkt, antwoordt ze op de eerste basisvraag eerder <strong>discontinu</strong>."
+    },
+    {
+     "soort": "tekst",
+     "html": "De <strong>epigenetica</strong> is de meest verrassende van de drie. Ze hoort bij de biologische benadering omdat ze bij de genen vertrekt, en tóch geeft ze de omgeving veel plaats: zware stress tijdens een zwangerschap kan bepaalde genen van het kind anders doen werken. <strong>Het DNA zelf blijft hetzelfde</strong>; wat verandert is welke genen aan of uit staan."
+    },
+    {
+     "soort": "kader",
+     "html": "Daarom moet je de drie theorieën <strong>vergelijken</strong> en niet op één hoop gooien: de epigenetica laat veel meer ruimte voor de omgeving dan de rijpingstheorie. Ze geven dus niet hetzelfde antwoord op de drie basisvragen. Ze kijken wel alle drie vooral naar wat <strong>universeel</strong> is, want wat in de genen zit, geldt in principe voor alle mensen."
+    },
+    {
+     "soort": "tekst",
+     "html": "Het bezwaar tegen een volledig biologische verklaring: ze krijgt het moeilijk om uit te leggen waarom <strong>twee kinderen met dezelfde genen</strong> in een ander gezin zo anders opgroeien. Van de drie theorieën kan enkel de <strong>epigenetica</strong> dat."
+    }
+   ]
+  },
+  {
+   "kop": "De psychodynamische benadering",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "<strong>Psychodynamisch</strong> betekent dat er <strong>krachten binnen in iemand werken</strong>, en dat die de ontwikkeling in beweging zetten. Twee theorieën horen erbij:"
+    },
+    {
+     "soort": "tekst",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Theorie</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Naam</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Aantal fasen</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">de psychoanalyse</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Sigmund Freud</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">5</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">de psychosociale ontwikkelingstheorie</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Erik Erikson</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">8</td></tr></table>"
+    },
+    {
+     "soort": "tekst",
+     "html": "Dat verschil tussen <strong>vijf en acht</strong> fasen wordt vaak gevraagd, dus zet het goed vast."
+    }
+   ]
+  },
+  {
+   "kop": "Freud: zones en fixatie",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Bij Freud hangt elke fase aan een <strong>erogene lichaamszone</strong>: het lichaamsdeel waar het plezier en de aandacht in die periode op gericht zijn."
+    },
+    {
+     "soort": "tekst",
+     "html": "Loopt een fase niet goed af, dan kan er een <strong>fixatie</strong> ontstaan: iemand blijft met een stuk van zich in die vroegere fase hangen, ook later in zijn leven."
+    },
+    {
+     "soort": "tekst",
+     "html": "Het veelgenoemde bezwaar tegen de psychoanalyse: wat ze beschrijft is <strong>moeilijk met onderzoek te meten</strong>, en Freud bouwde zijn theorie op de mensen die bij hem in behandeling waren."
+    }
+   ]
+  },
+  {
+   "kop": "Erikson: crisis, positieve en negatieve pool",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Bij Erikson hoort bij elke fase een <strong>crisis</strong>: een vraag of spanning die in die fase opgelost moet worden om verder te kunnen. Een crisis is dus <strong>geen ramp maar een opdracht</strong>."
+    },
+    {
+     "soort": "tekst",
+     "html": "Elke crisis heeft twee uitkomsten, die de fiche de <strong>positieve pool</strong> en de <strong>negatieve pool</strong> noemt. Loopt de crisis goed af, dan kom je bij de positieve pool. Loopt ze slecht af, dan laat de fase iets achter waar iemand later nog last van kan hebben."
+    },
+    {
+     "soort": "tekst",
+     "html": "Twee verschillen met Freud zijn belangrijk. Ten eerste lopen de fasen van Erikson <strong>door tot in de late volwassenheid</strong>: ook een zestiger die terugkijkt op zijn leven, zit in een fase. Ten tweede geeft Erikson veel meer plaats aan de <strong>mensen rond iemand</strong>. Daarom heet zijn theorie <strong>psycho</strong>, voor wat binnen in iemand speelt, plus <strong>sociaal</strong>, voor de omgeving."
+    },
+    {
+     "soort": "kader",
+     "html": "Op de <strong>eerste basisvraag</strong> antwoorden Freud en Erikson beide <strong>discontinu</strong>: ze werken met vaste fasen. Op de <strong>tweede</strong> antwoorden ze <strong>niet</strong> hetzelfde: Erikson rekent de omgeving veel zwaarder mee."
+    },
+    {
+     "soort": "tekst",
+     "html": "Wat de biologische en de psychodynamische benadering met elkaar gemeen hebben: beide leggen het begin van ontwikkeling <strong>in het individu zelf</strong>. Bij de ene zit de motor in de genen, bij de andere binnen in de persoon. Geen van beide begint bij de omgeving."
+    }
+   ]
+  }
+ ],
+ "onthoud": [
+  "Biologisch: Darwin (evolutionair), Gesell (rijping), Waddington (epigenetica).",
+  "Epigenetica: de omgeving zet genen aan of uit; het DNA zelf verandert niet.",
+  "Psychodynamisch: Freud met 5 fasen, erogene zone en fixatie; Erikson met 8 fasen, crisis en twee polen.",
+  "Erikson loopt door tot de late volwassenheid en rekent de omgeving mee; Freud niet.",
+  "Beide benaderingen leggen de motor van ontwikkeling in het individu zelf."
+ ]
+}

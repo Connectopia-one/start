@@ -1,0 +1,131 @@
+{
+ "vak": "Sociale en gedragswetenschappen",
+ "titel": "Prosociaal gedrag, antisociaal gedrag en sociale cognitie",
+ "onder": "Het eerste van drie thema's over sociale psychologie: twee lijstjes gedrag, en hoe wij verklaringen verzinnen voor wat mensen doen. Met Heider, Weiner en Dweck.",
+ "secties": [
+  {
+   "kop": "Prosociaal en antisociaal gedrag",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "De <strong>sociale psychologie</strong> onderzoekt hoe mensen door anderen <strong>beïnvloed</strong> worden: de druk van een groep, de invloed van een gezagsfiguur, en wat anderen denken."
+    },
+    {
+     "soort": "tekst",
+     "html": "Ze begint bij twee lijstjes van elk <strong>zes</strong> vormen van gedrag. <strong>Pro</strong> betekent voor, <strong>anti</strong> betekent tegen:"
+    },
+    {
+     "soort": "tekst",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Prosociaal gedrag</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Antisociaal gedrag</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">delen</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">agressie</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">helpen en ondersteunen</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">liegen en bedriegen</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">positief groepsgedrag</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">ongepast groepsgedrag</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">samenwerken</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">pesten</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">troosten</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">regels overtreden</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">verantwoordelijkheid opnemen</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">vandalisme</td></tr></table>"
+    },
+    {
+     "soort": "kader",
+     "html": "De fiche kijkt naar het <strong>gedrag zelf</strong>, niet naar de reden erachter. Iets voor iemand doen in de hoop er zelf iets aan over te houden, blijft dus prosociaal gedrag."
+    },
+    {
+     "soort": "tekst",
+     "html": "Let op de twee die over een groep gaan: de fiche noemt zowel <strong>positief</strong> als <strong>ongepast</strong> groepsgedrag. <strong>Samen iets doen zegt dus niets over goed of slecht.</strong>"
+    },
+    {
+     "soort": "tekst",
+     "html": "Twee verwarringen om te vermijden. <strong>Agressie</strong> is gericht op een <strong>persoon</strong>, <strong>vandalisme</strong> op <strong>spullen</strong>. En <strong>delen</strong> gaat over spullen, <strong>helpen</strong> over iemand bijstaan, <strong>troosten</strong> over iemand met verdriet, <strong>samenwerken</strong> over samen aan één doel werken."
+    },
+    {
+     "soort": "weetje",
+     "html": "Waarom spreekt de fiche van prosociaal en antisociaal en niet van goed en slecht? Omdat die twee woorden naar het <strong>effect op anderen</strong> kijken, zonder een moreel oordeel over de persoon."
+    }
+   ]
+  },
+  {
+   "kop": "Sociale cognitie en de attitude",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "<strong>Sociale cognitie</strong> is de manier waarop wij <strong>over mensen nadenken</strong>: hoe wij informatie over anderen en over onszelf verwerken. De fiche noemt <strong>drie</strong> mentale processen die erbij horen: de <strong>attitude</strong>, de <strong>attributie</strong> en de <strong>cognitieve dissonantie</strong>. De dissonantie krijgt in dit vak een eigen bundel, bij de groepsprocessen."
+    },
+    {
+     "soort": "tekst",
+     "html": "Een <strong>attitude</strong> is een <strong>houding</strong> tegenover iets of iemand: hoe je erover denkt, wat je erbij voelt, en hoe geneigd je bent ernaar te handelen."
+    },
+    {
+     "soort": "tekst",
+     "html": "Het verband met gedrag is <strong>niet absoluut</strong>. Een attitude maakt bepaald gedrag <strong>waarschijnlijker</strong>, maar beslist niet: wie milieubewust denkt, neemt niet altijd de trein. En een attitude kan <strong>veranderen</strong>, onder andere om een cognitieve dissonantie weg te werken."
+    }
+   ]
+  },
+  {
+   "kop": "Heider: intern, extern en de attributiefout",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Een <strong>causale attributie</strong> is de <strong>oorzaak die je aan gedrag toeschrijft</strong>. Attribueren betekent toeschrijven. Let op: het is de verklaring die <em>jij</em> maakt, en dus niet noodzakelijk de echte oorzaak."
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Fritz Heider</strong> onderscheidt er twee:"
+    },
+    {
+     "soort": "tekst",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Attributie</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Ander woord</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">De oorzaak ligt bij</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Voorbeeld</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">intern</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">dispositioneel</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">de persoon zelf: karakter, inzet, kunnen</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">wat een onbeschofte chauffeur</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">extern</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">situationeel</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">de omstandigheden</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">er was file</td></tr></table>"
+    },
+    {
+     "soort": "tekst",
+     "html": "De <strong>fundamentele attributiefout</strong> is de neiging om bij <strong>anderen</strong> de persoon de schuld te geven en bij <strong>jezelf</strong> de situatie. Je bent zelf te laat en zegt: er was file. Een klasgenoot is te laat en je denkt: die is ongeorganiseerd."
+    },
+    {
+     "soort": "kader",
+     "html": "Bij Heider staan er <strong>twee</strong> soorten attributie, niet drie. <strong>Stabiliteit</strong> is een begrip van Weiner."
+    }
+   ]
+  },
+  {
+   "kop": "Weiner: drie dimensies",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "<strong>Bernard Weiner</strong> beschrijft een attributie met <strong>drie dimensies</strong> in zijn attributietheorie van motivatie en emoties:"
+    },
+    {
+     "soort": "tekst",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Dimensie</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">De vraag erachter</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Voorbeeld</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">locus van controle</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">ligt de oorzaak binnen of buiten de persoon?</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">mijn inzet, of het geluk</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">stabiliteit</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">blijft de oorzaak, of kan ze morgen anders zijn?</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">ik ben niet goed in wiskunde, dat verandert toch nooit</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">controleerbaarheid</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">kan iemand er zelf iets aan doen?</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">niet geleerd hebben wel, een griep niet</td></tr></table>"
+    },
+    {
+     "soort": "weetje",
+     "html": "<strong>Locus</strong> is het Latijnse woord voor plaats. Daarom heet de eerste dimensie de locus van controle: waar de oorzaak zit."
+    }
+   ]
+  },
+  {
+   "kop": "Dweck: fixed en growth mindset",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "<strong>Carol Dweck</strong> werkt met de theorie van de <strong>impliciete overtuigingen</strong>, en met twee begrippen die je overal terugziet:"
+    },
+    {
+     "soort": "tekst",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Mindset</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Wat iemand gelooft</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Wat een fout betekent</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">fixed mindset</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">mijn kunnen ligt vast en groeit niet</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">bewijs dat ik het niet kan</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">growth mindset</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">mijn kunnen groeit door te oefenen</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">iets dat ik nog niet kan, dus anders aanpakken</td></tr></table>"
+    },
+    {
+     "soort": "tekst",
+     "html": "De twee woordjes die je hoort: <em>nog niet</em> en <em>het anders aanpakken</em> wijzen op een growth mindset."
+    },
+    {
+     "soort": "kader",
+     "html": "Een <strong>fixed mindset</strong> past bij een attributie die <strong>stabiel</strong> en <strong>oncontroleerbaar</strong> is. Dat is de brug tussen Dweck en Weiner: wie denkt dat zijn kunnen vastligt, ziet de oorzaak als blijvend en als iets waar hij zelf niets aan kan doen."
+    },
+    {
+     "soort": "tekst",
+     "html": "Volgens Dweck heeft iemand <strong>niet in alle vakken dezelfde mindset</strong>: over taal kan iemand een growth mindset hebben en over wiskunde een fixed mindset."
+    }
+   ]
+  }
+ ],
+ "onthoud": [
+  "Zes vormen prosociaal gedrag en zes antisociaal; de fiche kijkt naar het gedrag, niet naar de reden.",
+  "Sociale cognitie bestaat uit attitude, attributie en cognitieve dissonantie.",
+  "Heider: interne of dispositionele en externe of situationele attributie, plus de fundamentele attributiefout.",
+  "Weiner: locus van controle, stabiliteit en controleerbaarheid.",
+  "Dweck: fixed mindset (kunnen ligt vast) en growth mindset (kunnen groeit)."
+ ]
+}

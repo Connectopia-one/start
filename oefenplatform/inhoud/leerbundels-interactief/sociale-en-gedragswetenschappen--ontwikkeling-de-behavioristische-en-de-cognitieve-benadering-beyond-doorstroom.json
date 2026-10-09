@@ -1,0 +1,131 @@
+{
+ "vak": "Sociale en gedragswetenschappen",
+ "titel": "Ontwikkeling: de behavioristische en de cognitieve benadering",
+ "onder": "Twee benaderingen over leren: de ene kijkt naar wat je van buitenaf kan meten, de andere naar wat er in het hoofd gebeurt. Met Pavlov, Watson, Skinner, Bandura en Piaget.",
+ "secties": [
+  {
+   "kop": "Klassieke conditionering",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Het <strong>behaviorisme</strong> wil alleen uitspraken doen over wat je kan <strong>waarnemen</strong>: gedrag. Twee vormen van conditionering horen erbij, en de eerste is de <strong>klassieke conditionering</strong> van <strong>Ivan Pavlov</strong> en <strong>John B. Watson</strong>."
+    },
+    {
+     "soort": "tekst",
+     "html": "Ze werkt met het <strong>S-R-schema</strong>: een <strong>S</strong>timulus is een prikkel, een <strong>R</strong>espons is de reactie erop. Het beroemde experiment van Pavlov met zijn honden laat de vier begrippen zien:"
+    },
+    {
+     "soort": "tekst",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Begrip</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">In het experiment van Pavlov</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">ongeconditioneerde stimulus</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">het vlees: het werkt vanzelf, zonder iets te leren</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">ongeconditioneerde reflex</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">het kwijlen bij het vlees</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">neutrale stimulus</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">het belletje, voor het experiment begint: het doet nog niets</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">geconditioneerde stimulus</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">hetzelfde belletje, na vele keren koppelen aan het vlees</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">geconditioneerde reflex</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">het kwijlen bij het belletje alleen</td></tr></table>"
+    },
+    {
+     "soort": "kader",
+     "html": "Een <strong>neutrale</strong> stimulus wordt dus een <strong>geconditioneerde</strong> stimulus door ze telkens samen met de ongeconditioneerde stimulus aan te bieden. <strong>On</strong>geconditioneerd betekent niet geleerd, geconditioneerd betekent wel."
+    },
+    {
+     "soort": "tekst",
+     "html": "Het <strong>Little Albert-experiment</strong> van Watson hoort bij diezelfde klassieke conditionering: een jongetje werd bang gemaakt voor iets waar het eerst niet bang voor was, door dat te koppelen aan een hard geluid. De fiche noemt het experiment als geschiedenis van het vak. <strong>Vandaag zou het nooit door een ethische commissie komen</strong>: een kind opzettelijk bang maken, kan niet."
+    }
+   ]
+  },
+  {
+   "kop": "Operante conditionering",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "<strong>B.F. Skinner</strong> voegt aan het schema een derde letter toe: het <strong>S-R-C-schema</strong>, waar de <strong>C</strong> staat voor <strong>consequentie</strong>, het gevolg van het gedrag. Bij hem wordt gedrag dus gestuurd door wat erna komt, en niet door het koppelen van prikkels."
+    },
+    {
+     "soort": "tekst",
+     "html": "Hij werkte met de <strong>Skinner-box</strong>, een kooitje waarin een proefdier zelf ontdekt dat duwen op een knop voedsel oplevert."
+    },
+    {
+     "soort": "tekst",
+     "html": "Er zijn vier soorten gevolg, en hier zit de klassieke valkuil. <strong>Positief betekent toevoegen, negatief betekent wegnemen.</strong> Ze zeggen dus niets over leuk of niet leuk. <strong>Bekrachtiging</strong> doet gedrag <strong>toenemen</strong>, <strong>straf</strong> doet het <strong>afnemen</strong>:"
+    },
+    {
+     "soort": "tekst",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Soort</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Wat gebeurt er</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Gevolg voor het gedrag</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Voorbeeld</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">positieve bekrachtiging</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">iets aangenaams komt bij</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">neemt toe</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een sticker voor wie opruimt</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">negatieve bekrachtiging</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">iets onaangenaams gaat weg</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">neemt toe</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">geen vaat in de week dat je al je taken maakt</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">positieve straf</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">iets onaangenaams komt bij</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">neemt af</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een standje als de hond op de zetel springt</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">negatieve straf</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">iets aangenaams gaat weg</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">neemt af</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een week niet gamen na een leugen</td></tr></table>"
+    },
+    {
+     "soort": "kader",
+     "html": "Werk altijd in twee stappen. <strong>Eerst</strong>: neemt het gedrag toe of af? Toe is bekrachtiging, af is straf. <strong>Dan</strong>: komt er iets bij of gaat er iets weg? Bij is positief, weg is negatief."
+    },
+    {
+     "soort": "tekst",
+     "html": "Op de <strong>tweede basisvraag</strong> antwoordt het behaviorisme duidelijk <strong>nurture</strong>: voor het behaviorisme is bijna alles geleerd, en leren komt van buitenaf."
+    }
+   ]
+  },
+  {
+   "kop": "Bandura, de voorloper",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "De <strong>cognitieve benadering</strong> kijkt naar wat er <strong>in het hoofd</strong> met informatie gebeurt. De fiche noemt de <strong>sociaal-cognitieve leertheorie</strong> van <strong>Albert Bandura</strong> een <strong>voorloper</strong> van die benadering."
+    },
+    {
+     "soort": "tekst",
+     "html": "Bij Bandura leert iemand door te <strong>kijken</strong> naar wat een ander doet. Dat heet <strong>modelleren</strong> of <strong>imitatieleren</strong>. Zijn bekendste experiment is het <strong>Bobo doll experiment</strong>: kinderen die een volwassene zagen slaan op een opblaaspop, sloegen daarna zelf ook."
+    },
+    {
+     "soort": "tekst",
+     "html": "Waarom is hij geen zuiver behaviorist? Omdat bij hem leren ook gebeurt <strong>zonder dat het kind zelf bekrachtigd wordt</strong>. Er gebeurt dus iets in het hoofd: kijken, opslaan, later toepassen."
+    }
+   ]
+  },
+  {
+   "kop": "Piaget: vier stadia",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "<strong>Jean Piaget</strong> onderscheidt <strong>vier stadia</strong> in de cognitieve ontwikkeling. Ze volgen een <strong>vaste orde</strong> en een kind slaat er geen over. Daarom is zijn theorie een antwoord van <strong>discontinuïteit</strong> op de eerste basisvraag."
+    },
+    {
+     "soort": "tekst",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Stadium</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Wat erin kan</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Voorbeeld</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">sensomotorisch</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">leren via de zintuigen en de beweging</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een baby die alles in zijn mond stopt</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">pre-operationeel</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">denken met beelden en woorden, nog niet logisch</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een kleuter die denkt dat een hoge smalle beker meer bevat</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">concreet-operationeel</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">logisch denken over tastbare dingen</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">rekenen met blokjes lukt, met letters niet</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">formeel-operationeel</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">abstract denken, over wat er niet is</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">nadenken over een wet die nog niet bestaat</td></tr></table>"
+    },
+    {
+     "soort": "weetje",
+     "html": "Senso staat voor de zintuigen, motorisch voor de beweging. Vandaar de naam van het eerste stadium."
+    }
+   ]
+  },
+  {
+   "kop": "De informatieverwerkingstheorie",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "De derde theorie van de cognitieve benadering heeft geen naam van een persoon bij zich. Ze beschrijft hoe informatie door <strong>drie soorten geheugen</strong> gaat:"
+    },
+    {
+     "soort": "tekst",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Geheugen</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Wat het doet</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">sensorisch geheugen</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">vangt heel kort op wat je zintuigen binnenbrengen</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">kortetermijngeheugen</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">houdt even vast waar je nu mee bezig bent</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">langetermijngeheugen</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">bewaart wat blijft</td></tr></table>"
+    },
+    {
+     "soort": "tekst",
+     "html": "Het <strong>langetermijngeheugen</strong> valt in twee delen uiteen:"
+    },
+    {
+     "soort": "tekst",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Deel</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Onderdeel</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Wat erin zit</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">expliciet (je kan het zeggen)</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">episodisch geheugen</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">gebeurtenissen die jij zelf meemaakte</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">expliciet</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">semantisch geheugen</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">feiten en betekenissen, los van wanneer je ze leerde</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">impliciet (je kan het niet uitleggen)</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">procedureel geheugen</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">vaardigheden zoals fietsen en veters knopen</td></tr></table>"
+    },
+    {
+     "soort": "kader",
+     "html": "Weten waar je was toen je een bericht kreeg, is <strong>episodisch</strong>. Weten dat Brussel de hoofdstad van België is, zonder te weten wanneer je dat leerde, is <strong>semantisch</strong>. Kunnen fietsen zonder erbij na te denken, is <strong>procedureel</strong>."
+    },
+    {
+     "soort": "tekst",
+     "html": "Bandura en Skinner geven op de tweede basisvraag <strong>niet</strong> een volledig verschillend antwoord: beiden leggen de nadruk op <strong>nurture</strong>. Het verschil zit elders: bij Bandura gebeurt er ook iets in het hoofd."
+    }
+   ]
+  }
+ ],
+ "onthoud": [
+  "Klassiek: prikkels koppelen (Pavlov, Watson, S-R). Operant: leren van het gevolg (Skinner, S-R-C).",
+  "Positief is toevoegen, negatief is wegnemen. Bekrachtiging doet gedrag toenemen, straf afnemen.",
+  "Bandura: modelleren en imitatieleren, Bobo doll. Voorloper van de cognitieve benadering.",
+  "Piaget: sensomotorisch, pre-operationeel, concreet-operationeel, formeel-operationeel.",
+  "Geheugen: sensorisch, korte termijn, lange termijn (expliciet episodisch en semantisch, impliciet procedureel)."
+ ]
+}

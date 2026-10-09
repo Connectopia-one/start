@@ -1,0 +1,127 @@
+{
+ "vak": "Sociale en gedragswetenschappen",
+ "titel": "Persoonlijkheid: van Freud over Bandura naar Rogers",
+ "onder": "Drie benaderingen die dezelfde vraag anders beantwoorden: wat houdt een persoonlijkheid in beweging? Met Freud, Bandura, Rotter, Maslow en Rogers.",
+ "secties": [
+  {
+   "kop": "Freud: drie bewustzijnsniveaus",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "De <strong>psychodynamische benadering</strong> ziet een persoonlijkheid als een spel van <strong>krachten</strong> die tegen elkaar induwen. Het bekendste voorbeeld is de <strong>psychoanalyse van Sigmund Freud</strong>."
+    },
+    {
+     "soort": "tekst",
+     "html": "Freud verdeelt het psychische leven in <strong>drie niveaus</strong>:"
+    },
+    {
+     "soort": "tekst",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Niveau</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Wat er zit</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Kan je eraan?</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">het bewuste</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">waar je nu aan denkt</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">ja, meteen</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">het onder- of voorbewuste</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">wat je niet nú denkt maar wel kan ophalen</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">ja, als je het zoekt</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">het onbewuste</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">wat weggedrukt is en toch meespeelt</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">nee, niet rechtstreeks</td></tr></table>"
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Verdringing</strong> is het mechanisme waarmee iets in het <strong>onbewuste</strong> terechtkomt: een herinnering of een verlangen dat te pijnlijk is, wordt weggeduwd. Volgens Freud is het daarmee niet weg; het werkt verder, en het komt naar buiten in dromen, verspreken en symptomen."
+    },
+    {
+     "soort": "kader",
+     "html": "Let op het woord <strong>voorbewust</strong>. Dat is níet hetzelfde als onbewust: voorbewust kan je ophalen, onbewust niet. Je eigen adres is voorbewust."
+    }
+   ]
+  },
+  {
+   "kop": "Freud: de drie instanties",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Daarnaast beschrijft Freud een <strong>persoonlijkheidsstructuur</strong> van drie delen, elk met zijn eigen principe:"
+    },
+    {
+     "soort": "tekst",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Deel</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Andere naam</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Principe</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Wat het wil</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">het Es</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">het Id</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">lustprincipe</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">nu, en volledig</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">het Ich</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">het Ego</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">realiteitsprincipe</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">wat haalbaar is in de echte wereld</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">het Über-ich</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">het Superego</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">moraliteitsprincipe</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">wat hoort</td></tr></table>"
+    },
+    {
+     "soort": "tekst",
+     "html": "In het <strong>Es</strong> zitten de twee driften: de <strong>eros</strong> of levensdrift, en de <strong>thanatos</strong> of doodsdrift. Het <strong>Ich</strong> staat ertussen: het moet de drift van het Es en de eis van het Über-ich met de werkelijkheid verzoenen. Het Ich is dus de <strong>onderhandelaar</strong>, niet de strengste van de drie."
+    },
+    {
+     "soort": "kader",
+     "html": "Het <strong>Über-ich</strong> is het strenge deel, niet het Ich. Een stem die zegt <em>dat hoort niet</em>, is het Über-ich; een stem die zegt <em>dit kan nu niet, straks wel</em>, is het Ich."
+    }
+   ]
+  },
+  {
+   "kop": "Bandura en Rotter: de cognitieve benadering",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "De <strong>cognitieve benadering</strong> legt het gewicht bij het <strong>denken</strong>: wat iemand gelooft over zichzelf en over de wereld."
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Albert Bandura</strong> bouwde de <strong>sociaal-cognitieve leertheorie</strong> rond het <strong>wederzijds determinisme</strong>: drie factoren beïnvloeden elkaar <strong>in alle richtingen</strong>."
+    },
+    {
+     "soort": "tekst",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">De drie factoren</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Voorbeeld</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">cognities en eigenschappen</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">ik denk dat ik slecht ben in wiskunde</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">de omgeving</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een klas waar snel antwoorden geroepen worden</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">het gedrag</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">ik steek mijn hand niet meer op</td></tr></table>"
+    },
+    {
+     "soort": "tekst",
+     "html": "Het woord <strong>wederzijds</strong> is hier de kern: het gaat niet in één richting. Je gedrag verandert ook je omgeving, en je omgeving verandert wat je over jezelf denkt."
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Zelfeffectiviteit</strong> is het geloof dat je een bepaalde taak <strong>kan</strong>. Het is <strong>taakgebonden</strong>: iemand kan een hoge zelfeffectiviteit hebben voor zwemmen en een lage voor spreken voor een groep. En het is iets anders dan zelfbeeld of zelfwaarde, die over de persoon in zijn geheel gaan."
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Julian Rotter</strong> bouwde de <strong>locus of control theory</strong>: waar iemand de controle over zijn leven ziet liggen."
+    },
+    {
+     "soort": "tekst",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Locus of control</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Wat iemand gelooft</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">intern</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">wat mij overkomt, hangt grotendeels van mij af</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">extern</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">wat mij overkomt, hangt van geluk, anderen of het lot af</td></tr></table>"
+    },
+    {
+     "soort": "kader",
+     "html": "Bij <strong>Weiner</strong> (sociale psychologie) is de locus van controle een <strong>dimensie van één attributie</strong>, voor dat ene geval. Bij <strong>Rotter</strong> is ze een <strong>vaste eigenschap van een persoon</strong>, die je overal terugziet. Zelfde woord, twee theorieën."
+    }
+   ]
+  },
+  {
+   "kop": "Maslow en Rogers: de humanistische benadering",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "De <strong>humanistische benadering</strong> vertrekt van een mens die <strong>zelf</strong> wil groeien. Beide auteurs noemen dat <strong>zelfactualisatie</strong>: worden wie je ten volle kan zijn."
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Abraham Maslow</strong> maakte een <strong>motivatietheorie</strong> met zijn <strong>behoeftepiramide</strong>. Onderaan de lichamelijke behoeften, dan veiligheid, dan ergens bij horen, dan waardering, en bovenaan de <strong>zelfactualisatie</strong>. Zijn gedachte: wat laag staat, vraagt eerst aandacht. Een kind dat honger heeft of zich niet veilig voelt, komt niet aan leren toe."
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Carl Rogers</strong> werkte met <strong>client-centered therapy</strong>, cliëntgerichte therapie: niet de therapeut maar de persoon zelf weet waar het over moet gaan. Zijn begrippen:"
+    },
+    {
+     "soort": "tekst",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Begrip</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Wat het is</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">het fenomenale veld</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">de wereld zoals die persoon ze zelf beleeft</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">het actuele zelf</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">wie iemand vindt dat hij nu is</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">het ideale zelf</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">wie iemand zou willen zijn</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">congruentie</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">die twee liggen dicht bij elkaar; dat geeft rust</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">incongruentie</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">die twee liggen ver uit elkaar; dat geeft spanning</td></tr></table>"
+    },
+    {
+     "soort": "kader",
+     "html": "<strong>Congruentie betekent niet dat het ideale zelf verdwijnt.</strong> Het betekent dat de afstand klein genoeg is om ermee te leven. Een doel hebben hoort bij groeien; de spanning komt van een beeld dat onbereikbaar ver ligt."
+    },
+    {
+     "soort": "weetje",
+     "html": "Rogers' <strong>fenomenale veld</strong> legt uit waarom twee kinderen in dezelfde klas een heel andere dag hebben gehad. Wat telt, is niet de klas zoals een camera ze ziet, maar de klas zoals zij ze beleefden."
+    }
+   ]
+  }
+ ],
+ "onthoud": [
+  "Freud: bewust, voorbewust en onbewust; verdringing duwt iets naar het onbewuste.",
+  "Es (lustprincipe), Ich (realiteitsprincipe), Über-ich (moraliteitsprincipe); eros en thanatos zitten in het Es.",
+  "Bandura: wederzijds determinisme tussen cognities, omgeving en gedrag; zelfeffectiviteit is taakgebonden.",
+  "Rotter: interne of externe locus of control als vaste eigenschap.",
+  "Maslow: behoeftepiramide met zelfactualisatie bovenaan.",
+  "Rogers: fenomenaal veld, actueel en ideaal zelf, congruentie en incongruentie."
+ ]
+}

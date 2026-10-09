@@ -1,0 +1,128 @@
+{
+ "vak": "Sociale en gedragswetenschappen",
+ "titel": "Sociale beïnvloeding: conformisme, inwilliging en gehoorzaamheid",
+ "onder": "Drie niveaus van sociale druk, drie manieren om weerstand te bieden, vier technieken om iemand te doen toegeven, en vijf onderzoeken die de fiche bij naam noemt.",
+ "secties": [
+  {
+   "kop": "Een continuüm van sociale druk",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "<strong>Sociale beïnvloeding</strong> is wat anderen met je gedrag doen. De fiche zet haar neer als een <strong>continuüm</strong>: een lijn van zachte naar harde druk. Toegeven kan op <strong>drie</strong> niveaus:"
+    },
+    {
+     "soort": "tekst",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Niveau</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">De druk komt van</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Is er een vraag?</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">conformisme</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een groep</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">nee, niemand vraagt iets</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">inwilliging</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">iemand die iets vraagt</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">ja, een verzoek</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">gehoorzaamheid</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een gezagsfiguur</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">ja, een bevel</td></tr></table>"
+    },
+    {
+     "soort": "kader",
+     "html": "Dit is <strong>de</strong> valkuil van dit thema. Je past je aan een groep aan <em>zonder</em> dat iemand iets vroeg: conformisme. Iemand <em>vraagt</em> je iets en je zegt ja: inwilliging. Iemand <em>met gezag</em> zegt het je: gehoorzaamheid."
+    },
+    {
+     "soort": "tekst",
+     "html": "Tegenover toegeven staat <strong>weerstand bieden</strong>, ook in drie vormen:"
+    },
+    {
+     "soort": "tekst",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Vorm</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Wat iemand doet</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">onafhankelijkheid</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">zijn eigen weg gaan, zonder zich tegen de groep te keren</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">assertiviteit</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">zijn eigen mening of grens duidelijk uitspreken</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">trotseren</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">zich openlijk tegen de druk of het gezag verzetten</td></tr></table>"
+    }
+   ]
+  },
+  {
+   "kop": "Waarom mensen zich conformeren",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "De fiche onderscheidt twee redenen, en ze zien er van buiten hetzelfde uit:"
+    },
+    {
+     "soort": "tekst",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Soort conformisme</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">De reden</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Wat je denkt</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">informatief</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">je gelooft dat de anderen het beter weten</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">zij zullen wel juist zijn</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">normatief</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">je wil erbij horen en niet opvallen</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">ik wil er niet uitliggen</td></tr></table>"
+    },
+    {
+     "soort": "tekst",
+     "html": "Bij <strong>informatief</strong> conformisme verandert je <strong>overtuiging</strong> echt; bij <strong>normatief</strong> conformisme vaak alleen je <strong>gedrag</strong>. Je zegt in de groep hetzelfde als iedereen en denkt alleen thuis nog het tegendeel."
+    }
+   ]
+  },
+  {
+   "kop": "Drie theorieën over conformisme",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "<strong>Muzafer Sherif</strong> liet mensen in een donkere kamer schatten hoeveel een lichtpuntje bewoog. Het puntje bewoog <strong>niet</strong>, maar het leek zo. Eerst gaf iedereen een eigen schatting; na een paar rondes in groep <strong>schoven de schattingen naar elkaar toe</strong> tot er één groepsnorm was. En die norm hielden ze ook achteraf, alleen, nog aan."
+    },
+    {
+     "soort": "kader",
+     "html": "De situatie bij Sherif was <strong>onduidelijk</strong>: niemand kon het weten. Daarom is dit het voorbeeld van <strong>informatief</strong> conformisme."
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Solomon Asch</strong> deed het omgekeerde. Hij liet mensen zeggen welke van drie lijnen even lang was als een voorbeeldlijn. Dat was <strong>makkelijk</strong>, maar de andere deelnemers waren helpers van de onderzoeker en gaven samen een duidelijk <strong>fout</strong> antwoord. Een groot deel van de echte deelnemers ging minstens één keer mee in dat foute antwoord."
+    },
+    {
+     "soort": "kader",
+     "html": "De situatie bij Asch was <strong>duidelijk</strong>: iedereen zag wat juist was. Daarom is dit het voorbeeld van <strong>normatief</strong> conformisme. <strong>Sherif en Asch door elkaar halen is de klassieke fout.</strong>"
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>John Darley</strong> en <strong>Bibb Latané</strong> beschreven het <strong>omstandereffect</strong>: hoe <strong>meer</strong> omstaanders er bij een noodgeval zijn, hoe <strong>kleiner</strong> de kans dat iemand helpt. De verantwoordelijkheid wordt over de aanwezigen <strong>gespreid</strong>, en iedereen denkt dat een ander het wel doet."
+    },
+    {
+     "soort": "tekst",
+     "html": "Daarom werkt het om bij een ongeval <strong>één iemand aan te wijzen</strong>: <em>jij in de blauwe jas, bel 112</em>. Dan kan die ene persoon de verantwoordelijkheid niet meer doorschuiven."
+    }
+   ]
+  },
+  {
+   "kop": "Vier beïnvloedingstechnieken",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Technieken om iemand tot <strong>inwilliging</strong> te brengen. De namen staan in de fiche, en ze zijn te raden als je weet wat ze beschrijven:"
+    },
+    {
+     "soort": "tekst",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Techniek</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Hoe ze werkt</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Voorbeeld</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">voet-tussen-de-deur</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">eerst een heel klein verzoek, daarna het grote</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">eerst een enquête van één vraag, dan een gift</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">deur-in-het-gezicht</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">eerst een overdreven groot verzoek, dan het echte</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">eerst elke week helpen, dan één zaterdag</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">zodra-de-bal-aan-het-rollen-is</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">eerst een voordelige prijs, daarna komen de kosten erbij</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">de goedkope reis waar achteraf nog toeslagen op komen</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">dat-is-nog-niet-alles</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">er onverwacht iets bij geven voor de ander kan antwoorden</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">en u krijgt er dit nog gratis bij</td></tr></table>"
+    },
+    {
+     "soort": "weetje",
+     "html": "Voet-tussen-de-deur werkt via de <strong>cognitieve dissonantie</strong>: wie één keer ja zei, ziet zichzelf als iemand die helpt, en nee zeggen past daar niet meer bij. Deur-in-het-gezicht werkt anders: het tweede verzoek lijkt <strong>klein</strong> naast het eerste."
+    }
+   ]
+  },
+  {
+   "kop": "Twee onderzoeken over gehoorzaamheid",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "<strong>Stanley Milgram</strong> vroeg deelnemers om iemand in een andere kamer stroomstoten te geven bij een fout antwoord, bij elke fout een stapje sterker. Er werd <strong>niemand echt geschokt</strong>: de leerling was een helper van de onderzoeker. Een <strong>groot deel</strong> van de deelnemers ging door tot het hoogste niveau, ook al hoorden ze protest, zolang de onderzoeker in zijn witte jas zei dat ze moesten doorgaan."
+    },
+    {
+     "soort": "tekst",
+     "html": "Milgram onderzocht dus <strong>gehoorzaamheid aan een gezagsfiguur</strong>, en niet de druk van een groep."
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Philip Zimbardo</strong> deed het <strong>Stanford gevangenisexperiment</strong>. Studenten werden door het lot verdeeld in <strong>bewakers</strong> en <strong>gevangenen</strong> in een nagemaakte gevangenis. De bewakers gingen zich zo hard gedragen dat het onderzoek <strong>vroeger werd stopgezet</strong> dan gepland."
+    },
+    {
+     "soort": "kader",
+     "html": "Bij Zimbardo gaat het niet over een bevel, maar over de <strong>rol</strong> die iemand krijgt: wie een uniform en macht krijgt, gedraagt zich daarnaar. Dat sluit aan bij de <strong>rollen</strong> uit het thema over socialisatie."
+    },
+    {
+     "soort": "tekst",
+     "html": "Beide onderzoeken zijn ook <strong>ethisch</strong> zwaar bekritiseerd: de deelnemers wisten niet waar ze aan begonnen en kwamen er niet onbeschadigd uit. Daarom mag een onderzoek vandaag niet meer zo gebeuren."
+    }
+   ]
+  }
+ ],
+ "onthoud": [
+  "Conformisme is groepsdruk, inwilliging is ja op een verzoek, gehoorzaamheid is doen wat gezag beveelt.",
+  "Weerstand: onafhankelijkheid, assertiviteit, trotseren.",
+  "Sherif: onduidelijke situatie, informatief conformisme. Asch: duidelijke situatie, normatief conformisme.",
+  "Darley en Latané: hoe meer omstaanders, hoe kleiner de kans dat iemand helpt.",
+  "Technieken: voet-tussen-de-deur, deur-in-het-gezicht, zodra-de-bal-aan-het-rollen-is, dat-is-nog-niet-alles.",
+  "Milgram: gehoorzaamheid aan gezag. Zimbardo: de kracht van een rol."
+ ]
+}
