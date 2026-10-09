@@ -2,7 +2,9 @@
 
 import { revalidatePath } from "next/cache";
 import { requireIngelogd } from "@/lib/auth";
+import { zoekPlusklasCode } from "@/lib/plusklas";
 import { createAdminClient } from "@/lib/supabase/admin";
+import { heeftVolledigeToegang } from "@/lib/toegang";
 
 /*
   Twee dingen die hier misliepen (gemeld op 29 september 2026):
@@ -15,18 +17,56 @@ import { createAdminClient } from "@/lib/supabase/admin";
      tabblad of een trage herlaadbeurt komt er langs.
 
   2. Er was helemaal geen manier om een kind weer weg te halen.
+
+  3. (9 oktober 2026) Een gezin had zijn toegangscode ingetikt als de naam
+     van zijn kind. Het stond er dus als "1 kind: TOPTESTER2026", zonder
+     toegang, want de code was nooit als code gebruikt. Daarom kijkt maakKind
+     nu eerst of de naam toevallig een geldige code is. Is dat zo, dan maken
+     we geen kind aan maar gebruiken we de code waarvoor ze bedoeld was, en
+     zeggen we dat ook. Een knop die op slot gaat is nooit genoeg: zet er ook
+     een controle op de server naast.
 */
 
 function zelfdeNaam(a: string, b: string) {
   return a.trim().toLowerCase() === b.trim().toLowerCase();
 }
 
-export async function maakKind(formData: FormData): Promise<{ fout?: string }> {
+export async function maakKind(
+  formData: FormData,
+): Promise<{ fout?: string; melding?: string }> {
   const session = await requireIngelogd();
   const naam = String(formData.get("naam") || "").trim();
   if (!naam) return { fout: "Geef een naam op voor je kind." };
 
   const admin = createAdminClient();
+
+  // Is deze "naam" in werkelijkheid een toegangscode? Dan is dat wat de
+  // ouder bedoelde, en niet een kind dat zo heet.
+  const code = await zoekPlusklasCode(naam);
+  if (code) {
+    if (heeftVolledigeToegang(session.profile)) {
+      return {
+        melding:
+          `${code} is je toegangscode en geen naam. Je toegang stond al open, ` +
+          `dus je hoeft er niets mee te doen. Vul hier de naam van je kind in.`,
+      };
+    }
+    const { error: codefout } = await admin
+      .from("profiles")
+      .update({ is_plusklas: true, plusklas_code: code })
+      .eq("id", session.userId);
+    if (codefout)
+      return {
+        fout: `${code} is je toegangscode, geen naam. We konden ze niet bewaren, probeer het nog eens.`,
+      };
+    revalidatePath("/account");
+    return {
+      melding:
+        `${code} is je toegangscode en geen naam van een kind. We hebben ze nu ` +
+        `voor je gebruikt, dus al je hoofdstukken staan open. Vul hier de naam ` +
+        `van je kind in.`,
+    };
+  }
 
   const { data: bestaande, error: leesfout } = await admin
     .from("kinderen")

@@ -28,9 +28,9 @@ export default async function RegistrerenPage({
           Registreren
         </h1>
         <p className="mt-2 text-sm text-ink-dim">
-          Maak een account aan om te oefenen. Zit je kind in de externe
-          plusklas? Vul dan de plusklas-code in die je van ons kreeg voor gratis
-          volledige toegang.
+          Maak een account aan om te oefenen. Kreeg je van ons een
+          toegangscode, omdat je meetest of omdat je kind in de externe
+          plusklas zit? Vul ze hieronder in, dan staat alles meteen open.
         </p>
 
         <form
@@ -81,7 +81,7 @@ export default async function RegistrerenPage({
               htmlFor="plusklas_code"
               className="text-sm font-medium text-ink"
             >
-              Plusklas-code{" "}
+              Toegangscode{" "}
               <span className="font-normal text-ink-dim">(optioneel)</span>
             </label>
             <input
@@ -89,8 +89,14 @@ export default async function RegistrerenPage({
               name="plusklas_code"
               type="text"
               autoComplete="off"
+              autoCapitalize="characters"
+              placeholder="Alleen als je er een kreeg"
               className="w-full rounded-md border border-border bg-paper px-3 py-2 text-sm text-ink outline-none focus:border-forest focus:ring-1 focus:ring-forest"
             />
+            <p className="text-xs text-ink-dim">
+              Dit is niet je wachtwoord. Geen code? Laat dit gerust leeg, je
+              kan ze later nog ingeven op je accountpagina.
+            </p>
           </div>
           <Verzendknop
             label="Account aanmaken"

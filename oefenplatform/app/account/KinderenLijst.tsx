@@ -12,6 +12,9 @@ export function KinderenLijst({ kinderen }: { kinderen: Kind[] }) {
   const formRef = useRef<HTMLFormElement>(null);
   const [bezig, setBezig] = useState(false);
   const [fout, setFout] = useState<string | null>(null);
+  // Geen fout maar een goed bericht: bijvoorbeeld wanneer iemand zijn
+  // toegangscode in het naamveld tikte en we ze meteen gebruikt hebben.
+  const [melding, setMelding] = useState<string | null>(null);
   const [zekerId, setZekerId] = useState<string | null>(null);
 
   /*
@@ -59,6 +62,11 @@ export function KinderenLijst({ kinderen }: { kinderen: Kind[] }) {
       {fout && (
         <p className="mt-4 rounded-md bg-danger/10 px-3 py-2 text-sm text-danger">
           {fout}
+        </p>
+      )}
+      {melding && (
+        <p className="mt-4 rounded-md bg-forest/10 px-3 py-2 text-sm text-forest-dark">
+          {melding}
         </p>
       )}
 
@@ -145,9 +153,11 @@ export function KinderenLijst({ kinderen }: { kinderen: Kind[] }) {
           if (bezig) return;
           setBezig(true);
           setFout(null);
+          setMelding(null);
           const antwoord = await maakKind(data);
           if (antwoord.fout) setFout(antwoord.fout);
           else formRef.current?.reset();
+          if (antwoord.melding) setMelding(antwoord.melding);
           setBezig(false);
           router.refresh();
         }}

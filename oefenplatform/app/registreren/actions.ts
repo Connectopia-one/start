@@ -93,7 +93,7 @@ export async function registreren(formData: FormData) {
     const code = await zoekPlusklasCode(plusklasCode);
     if (!code) {
       terug(
-        "Deze plusklas-code klopt niet (meer). Laat het veld leeg om verder te gaan als betalend account — je kan de code later nog ingeven.",
+        "Deze toegangscode klopt niet (meer). Laat het veld leeg om verder te gaan — je kan de code later nog ingeven op je accountpagina.",
       );
     }
     isPlusklas = true;

@@ -53,9 +53,15 @@ export async function startBetaling() {
 }
 
 /**
- * Een plusklas-code alsnog ingeven, nadat het account al aangemaakt is.
+ * Een toegangscode alsnog ingeven, nadat het account al aangemaakt is.
  * Wie bij het registreren het codeveld leeg liet, kan zo toch nog gratis
  * volledige toegang krijgen zonder een tweede account te moeten maken.
+ *
+ * Het veld `terug` zegt naar welke pagina een foutmelding terugkeert. Het
+ * formulier staat namelijk op twee plaatsen: op /betalen en, sinds
+ * 9 oktober 2026, ook op /account. Iemand die op zijn accountpagina een
+ * letter verkeerd typt, hoort daar een melding te krijgen en niet plots op
+ * de betaalpagina te belanden.
  */
 export async function gebruikPlusklasCode(formData: FormData) {
   const session = await requireIngelogd();
@@ -63,17 +69,21 @@ export async function gebruikPlusklasCode(formData: FormData) {
     redirect("/account");
   }
 
+  const gevraagd = String(formData.get("terug") || "");
+  const terug = gevraagd === "/account" ? "/account" : "/betalen";
+
   const ingetikt = String(formData.get("plusklas_code") || "").trim();
   if (!ingetikt) {
-    redirect("/betalen?fout=" + encodeURIComponent("Vul je plusklas-code in."));
+    redirect(terug + "?fout=" + encodeURIComponent("Vul je toegangscode in."));
   }
 
   const code = await zoekPlusklasCode(ingetikt);
   if (!code) {
     redirect(
-      "/betalen?fout=" +
+      terug +
+        "?fout=" +
         encodeURIComponent(
-          "Deze plusklas-code klopt niet (meer). Kijk ze na, of vraag ze opnieuw op bij Connectopia.",
+          "Deze toegangscode klopt niet (meer). Kijk ze na, of vraag ze opnieuw op bij Connectopia.",
         ),
     );
   }
@@ -88,7 +98,8 @@ export async function gebruikPlusklasCode(formData: FormData) {
 
   if (error) {
     redirect(
-      "/betalen?fout=" +
+      terug +
+        "?fout=" +
         encodeURIComponent("Je code klopt, maar we konden ze niet bewaren. Probeer het nog eens."),
     );
   }

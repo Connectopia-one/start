@@ -9,6 +9,7 @@ import {
   TIJDELIJKE_PRIJS_KORT,
 } from "@/lib/prijs";
 import { createClient } from "@/lib/supabase/server";
+import { gebruikPlusklasCode } from "@/app/betalen/actions";
 import { KinderenLijst } from "./KinderenLijst";
 
 export default async function AccountPage({
@@ -48,7 +49,7 @@ export default async function AccountPage({
         )}
         {gelukt === "plusklas" && (
           <p className="mt-4 rounded-md bg-forest/10 px-3 py-2 text-sm text-forest-dark">
-            Je plusklas-code is gelukt. Je hebt nu gratis volledige toegang tot
+            Je toegangscode is gelukt. Je hebt nu gratis volledige toegang tot
             alle hoofdstukken.
           </p>
         )}
@@ -84,11 +85,46 @@ export default async function AccountPage({
                   {TIJDELIJKE_PRIJS_KORT}
                 </p>
               )}
-              <p className="mt-3 text-sm text-ink-dim">
-                Zit je kind in de externe plusklas? Op diezelfde pagina kan je
-                je plusklas-code ingeven, ook als je die bij het registreren nog
-                niet had.
-              </p>
+              {/*
+                Op 9 oktober 2026 zag Kim een gezin dat zijn toegangscode had
+                ingetikt als de naam van zijn kind. Het codevakje bestond wel,
+                maar enkel op /betalen, en dat is niet de plek waar iemand gaat
+                zoeken. Daarom staat het nu ook hier, op de pagina waar je je
+                kinderen toevoegt.
+              */}
+              <div className="mt-6 border-t border-border pt-5">
+                <h3 className="text-sm font-medium text-ink">
+                  Heb je een toegangscode?
+                </h3>
+                <p className="mt-1 text-sm text-ink-dim">
+                  Kreeg je van ons een code, bijvoorbeeld omdat je meetest of
+                  omdat je kind in de externe plusklas zit? Vul ze hier in en je
+                  toegang staat meteen open. Het is geen wachtwoord en ook geen
+                  naam van een kind.
+                </p>
+                <form
+                  action={gebruikPlusklasCode}
+                  className="mt-3 flex flex-wrap gap-2"
+                >
+                  <input type="hidden" name="terug" value="/account" />
+                  <input
+                    id="plusklas_code"
+                    name="plusklas_code"
+                    type="text"
+                    required
+                    autoComplete="off"
+                    autoCapitalize="characters"
+                    placeholder="Je toegangscode"
+                    className="min-w-0 flex-1 rounded-md border border-border bg-paper px-3 py-2 text-sm text-ink outline-none focus:border-forest focus:ring-1 focus:ring-forest"
+                  />
+                  <button
+                    type="submit"
+                    className="shrink-0 rounded-md border border-forest px-4 py-2 text-sm font-medium text-forest-dark transition hover:bg-forest hover:text-white"
+                  >
+                    Toegang vrijgeven
+                  </button>
+                </form>
+              </div>
             </>
           )}
         </div>

@@ -20,7 +20,7 @@ export default async function BetalenPage({
         <h1 className="font-display text-2xl font-semibold text-ink">Volledige toegang</h1>
         <p className="mt-2 text-sm text-ink-dim">
           Volledige toegang tot alle hoofdstukken van schooljaar {huidigSchooljaar()}. Dat kan op
-          twee manieren: met een plusklas-code, of met een bijdrage. De opbrengsten gaan volledig
+          twee manieren: met een toegangscode, of met een bijdrage. De opbrengsten gaan volledig
           naar vzw Connectopia.
         </p>
 
@@ -60,11 +60,11 @@ export default async function BetalenPage({
         </div>
 
         <div className="mt-6 rounded-xl border border-border bg-surface p-6">
-          <h2 className="font-display text-lg font-semibold text-ink">Heb je een plusklas-code?</h2>
+          <h2 className="font-display text-lg font-semibold text-ink">Heb je een toegangscode?</h2>
           <p className="mt-1 text-sm text-ink-dim">
-            Zit je kind in de externe plusklas, dan kreeg je van ons een code. Vul ze hier in en je
-            krijgt meteen gratis volledige toegang. Ook als je ze bij het registreren nog niet bij
-            de hand had.
+            Kreeg je van ons een code, omdat je meetest of omdat je kind in de externe plusklas
+            zit? Vul ze hier in en je krijgt meteen gratis volledige toegang. Ook als je ze bij het
+            registreren nog niet bij de hand had.
           </p>
           <form action={gebruikPlusklasCode} className="mt-4 flex flex-wrap gap-2">
             <input
@@ -74,7 +74,7 @@ export default async function BetalenPage({
               required
               autoComplete="off"
               autoCapitalize="characters"
-              placeholder="Je plusklas-code"
+              placeholder="Je toegangscode"
               className="min-w-0 flex-1 rounded-md border border-border bg-paper px-3 py-2 text-sm text-ink outline-none focus:border-forest focus:ring-1 focus:ring-forest"
             />
             <button
