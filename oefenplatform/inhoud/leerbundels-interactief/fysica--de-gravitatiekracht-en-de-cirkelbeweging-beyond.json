@@ -8,36 +8,51 @@
    "blokken": [
     {
      "soort": "tekst",
-     "html": "Een lichaam voert een <strong>eenparig cirkelvormige beweging</strong> uit <strong>als het een cirkel beschrijft met een constante baansnelheid</strong>. Bij een <strong>ECB blijft de grootte van de baansnelheid constant</strong>, terwijl <strong>de richting van de baansnelheid voortdurend verandert</strong>."
+     "html": "Een lichaam voert een <strong>eenparig cirkelvormige beweging</strong> (ECB) uit als het een cirkel beschrijft met een <strong>constante baansnelheid</strong>. De <strong>grootte</strong> van \\(\\vec{v}\\) blijft dus gelijk, terwijl haar <strong>richting</strong> voortdurend verandert. De <strong>periode</strong> \\(T\\), ook de <strong>omlooptijd</strong>, is de tijd voor één volledige omwenteling, en de <strong>frequentie</strong> \\(f\\) is haar omgekeerde, in <strong>hertz</strong> (\\(1\\ \\text{Hz} = 1\\ \\text{s}^{-1}\\))."
+    },
+    {
+     "soort": "kader",
+     "html": "<strong>De grootheden van een ECB</strong><br>\\[f = \\dfrac{1}{T} \\qquad \\omega = \\dfrac{2\\pi}{T} \\qquad v = \\omega\\,r = \\dfrac{2\\pi r}{T}\\]\\(\\omega\\) is de <strong>hoeksnelheid</strong>, de afgelegde hoek per seconde, in rad/s. Een wiel dat \\(150\\) keer per minuut rondgaat heeft \\(f = \\dfrac{150}{60} = 2{,}5\\) Hz en dus \\(T = 0{,}40\\) s."
     },
     {
      "soort": "tekst",
-     "html": "De <strong>periode</strong> is <strong>de tijd die een lichaam nodig heeft voor één volledige omwenteling</strong>; de <strong>frequentie</strong> is haar omgekeerde en staat in <strong>hertz</strong>. Een <strong>wiel dat 120 keer per minuut</strong> rondraait, heeft een frequentie van <strong>2 Hz</strong>."
-    },
-    {
-     "soort": "tekst",
-     "html": "De <strong>hoeksnelheid</strong> is <strong>de afgelegde hoek per seconde</strong>, in radiaal per seconde. <strong>Twee kinderen op dezelfde draaimolen hebben dezelfde hoeksnelheid, ook al zitten ze niet even ver van het midden</strong>; hun baansnelheid verschilt wel. Draait een <strong>draaimolen met 0,5 rad/s</strong>, dan beweegt een <strong>kind op 4 m van het midden</strong> met <strong>2 m/s</strong>. Doet een <strong>kind op 3 m van het midden 6 s over één ronde</strong>, dan is zijn baansnelheid <strong>ongeveer 3,1 m/s</strong>."
+     "html": "Twee kinderen op dezelfde draaimolen hebben <strong>dezelfde \\(\\omega\\)</strong>, ook al zitten ze niet even ver van het midden: ze doen er even lang over om rond te gaan. Hun <strong>baansnelheid verschilt wel</strong>, want \\(v = \\omega\\,r\\). Draait een draaimolen met \\(\\omega = 0{,}80\\) rad/s, dan beweegt een kind op \\(3{,}5\\) m van het midden met \\(v = 2{,}8\\) m/s. En doet een kind op \\(2{,}5\\) m van het midden \\(4{,}0\\) s over één ronde, dan is \\(v = \\dfrac{2\\pi \\times 2{,}5}{4{,}0} = 3{,}9\\) m/s."
     }
    ]
   },
   {
-   "kop": "De middelpuntzoekende versnelling en kracht",
+   "kop": "Twee tekeningen om bij te houden",
+   "blokken": [
+    {
+     "soort": "figuur",
+     "html": "<svg viewBox=\"0 0 468 212\" width=\"468\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"6\" y=\"4\" width=\"222\" height=\"182\" rx=\"8\" fill=\"#ffffff\" stroke=\"#e4ded0\" stroke-width=\"1.2\"/>\n<text x=\"117.0\" y=\"203.0\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"10\" font-weight=\"600\" fill=\"#6b7260\">v raakt aan de cirkel, a wijst naar binnen</text>\n<circle cx=\"112\" cy=\"98\" r=\"58\" fill=\"none\" stroke=\"#6b7260\" stroke-width=\"1.2\" stroke-dasharray=\"4 4\"/>\n<circle cx=\"112\" cy=\"98\" r=\"2.6\" fill=\"#6b7260\"/>\n<line x1=\"112\" y1=\"98\" x2=\"153.0\" y2=\"57.0\" stroke=\"#6b7260\" stroke-width=\"1.1\"/>\n<text x=\"141.5\" y=\"87.5\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"9.5\" font-weight=\"600\" fill=\"#6b7260\">r</text>\n<circle cx=\"153.0\" cy=\"57.0\" r=\"5\" fill=\"#234539\"/>\n<line x1=\"153.0\" y1=\"57.0\" x2=\"185.5\" y2=\"89.5\" stroke=\"#2f5d50\" stroke-width=\"2.0\"/>\n<polygon points=\"189.1,93.1 180.5,88.9 184.9,84.5\" fill=\"#2f5d50\"/>\n<text x=\"191.2\" y=\"99.2\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"10\" font-weight=\"600\" fill=\"#2f5d50\">v</text>\n<line x1=\"153.0\" y1=\"57.0\" x2=\"129.0\" y2=\"81.0\" stroke=\"#c17f2b\" stroke-width=\"2.0\"/>\n<polygon points=\"125.4,84.6 129.6,76.0 134.0,80.4\" fill=\"#c17f2b\"/>\n<text x=\"129.8\" y=\"71.2\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"10\" font-weight=\"600\" fill=\"#c17f2b\">a</text>\n<path d=\"M92 34 A 24 24 0 0 1 132 34\" fill=\"none\" stroke=\"#6b7260\" stroke-width=\"1.3\"/>\n<polygon points=\"134.7,37.4 127.7,32.9 131.9,29.5\" fill=\"#6b7260\"/>\n<text x=\"112.0\" y=\"20.0\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"9\" fill=\"#6b7260\">één ronde duurt T</text>\n<polyline points=\"159.4,63.4 153.0,69.7 146.6,63.4\" fill=\"none\" stroke=\"#6b7260\" stroke-width=\"1.0\"/>\n<text x=\"112.0\" y=\"176.0\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"9.5\" fill=\"#6b7260\">v en a staan loodrecht op elkaar</text>\n<rect x=\"240\" y=\"4\" width=\"222\" height=\"182\" rx=\"8\" fill=\"#ffffff\" stroke=\"#e4ded0\" stroke-width=\"1.2\"/>\n<text x=\"351.0\" y=\"203.0\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"10\" font-weight=\"600\" fill=\"#6b7260\">bij een satelliet is Fg de kracht naar binnen</text>\n<circle cx=\"346\" cy=\"100\" r=\"64\" fill=\"none\" stroke=\"#6b7260\" stroke-width=\"1.1\" stroke-dasharray=\"4 4\"/>\n<line x1=\"389.4\" y1=\"118.0\" x2=\"372.8\" y2=\"111.1\" stroke=\"#2f5d50\" stroke-width=\"1.2\"/>\n<polygon points=\"369.5,109.7 376.3,110.1 374.6,114.3\" fill=\"#2f5d50\"/>\n<line x1=\"364.0\" y1=\"143.4\" x2=\"357.1\" y2=\"126.8\" stroke=\"#2f5d50\" stroke-width=\"1.2\"/>\n<polygon points=\"355.7,123.5 360.3,128.6 356.1,130.3\" fill=\"#2f5d50\"/>\n<line x1=\"328.0\" y1=\"143.4\" x2=\"334.9\" y2=\"126.8\" stroke=\"#2f5d50\" stroke-width=\"1.2\"/>\n<polygon points=\"336.3,123.5 335.9,130.3 331.7,128.6\" fill=\"#2f5d50\"/>\n<line x1=\"302.6\" y1=\"118.0\" x2=\"319.2\" y2=\"111.1\" stroke=\"#2f5d50\" stroke-width=\"1.2\"/>\n<polygon points=\"322.5,109.7 317.4,114.3 315.7,110.1\" fill=\"#2f5d50\"/>\n<line x1=\"302.6\" y1=\"82.0\" x2=\"319.2\" y2=\"88.9\" stroke=\"#2f5d50\" stroke-width=\"1.2\"/>\n<polygon points=\"322.5,90.3 315.7,89.9 317.4,85.7\" fill=\"#2f5d50\"/>\n<line x1=\"328.0\" y1=\"56.6\" x2=\"334.9\" y2=\"73.2\" stroke=\"#2f5d50\" stroke-width=\"1.2\"/>\n<polygon points=\"336.3,76.5 331.7,71.4 335.9,69.7\" fill=\"#2f5d50\"/>\n<line x1=\"364.0\" y1=\"56.6\" x2=\"357.1\" y2=\"73.2\" stroke=\"#2f5d50\" stroke-width=\"1.2\"/>\n<polygon points=\"355.7,76.5 356.1,69.7 360.3,71.4\" fill=\"#2f5d50\"/>\n<line x1=\"389.4\" y1=\"82.0\" x2=\"372.8\" y2=\"88.9\" stroke=\"#2f5d50\" stroke-width=\"1.2\"/>\n<polygon points=\"369.5,90.3 374.6,85.7 376.3,89.9\" fill=\"#2f5d50\"/>\n<circle cx=\"346\" cy=\"100\" r=\"23\" fill=\"#e4ded0\" stroke=\"#234539\" stroke-width=\"1.4\"/>\n<text x=\"346.0\" y=\"104.0\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"10.5\" font-weight=\"600\" fill=\"#234539\">M</text>\n<rect x=\"382.1\" y=\"46.0\" width=\"10\" height=\"10\" rx=\"1.5\" fill=\"#ffffff\" stroke=\"#23291f\" stroke-width=\"1.4\"/>\n<line x1=\"387.1\" y1=\"51.0\" x2=\"417.8\" y2=\"76.7\" stroke=\"#2f5d50\" stroke-width=\"2.0\"/>\n<polygon points=\"421.6,79.9 412.7,76.5 416.7,71.7\" fill=\"#2f5d50\"/>\n<text x=\"423.9\" y=\"85.8\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"10\" font-weight=\"600\" fill=\"#2f5d50\">v</text>\n<line x1=\"387.1\" y1=\"51.0\" x2=\"367.9\" y2=\"74.0\" stroke=\"#c17f2b\" stroke-width=\"2.0\"/>\n<polygon points=\"364.6,77.8 368.1,68.9 372.8,72.9\" fill=\"#c17f2b\"/>\n<text x=\"366.8\" y=\"56.5\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"10\" font-weight=\"600\" fill=\"#c17f2b\">Fg</text>\n<text x=\"351.0\" y=\"176.0\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"9.5\" fill=\"#6b7260\">Fg is hier de middelpuntzoekende kracht</text></svg>",
+     "onderschrift": "Links een gewone cirkelbeweging, rechts een satelliet rond een planeet."
+    }
+   ]
+  },
+  {
+   "kop": "De middelpuntzoekende versnelling",
    "blokken": [
     {
      "soort": "tekst",
-     "html": "Een lichaam in een ECB heeft toch een versnelling omdat <strong>de richting van de snelheid voortdurend verandert</strong>. Die versnelling wijst <strong>naar het middelpunt van de cirkel</strong> en heet de <strong>centripetale versnelling</strong>. Bij een ECB <strong>staan de snelheid en de versnelling loodrecht op elkaar</strong>."
+     "html": "Een lichaam in een ECB heeft tóch een versnelling, omdat de <strong>richting</strong> van \\(\\vec{v}\\) voortdurend verandert. Die versnelling wijst <strong>naar het middelpunt</strong> en heet de <strong>centripetale</strong> versnelling; ze heet dus <strong>centripetaal</strong> of middelpuntzoekend. Snelheid en versnelling staan daarbij <strong>loodrecht op elkaar</strong>: de snelheid raakt aan de cirkel, de versnelling wijst naar binnen."
+    },
+    {
+     "soort": "kader",
+     "html": "\\[a_{c} = \\dfrac{v^{2}}{r} = \\omega^{2}r \\qquad\\text{en}\\qquad F_{c} = m\\,a_{c} = \\dfrac{m\\,v^{2}}{r}\\]Omdat \\(v\\) in het kwadraat staat, wordt \\(a_{c}\\) <strong>vier keer zo groot</strong> als je twee keer zo snel rijdt. Rijdt een auto met \\(14\\) m/s door een bocht met straal \\(35\\) m, dan is \\(a_{c} = \\dfrac{196}{35} = 5{,}6\\ \\text{m/s}^{2}\\); voor een wagen van \\(1200\\) kg is dat \\(F_{c} = 6{,}7\\) kN wrijving."
+    }
+   ]
+  },
+  {
+   "kop": "Middelpuntzoekend is een rol, geen extra kracht",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "\\(F_{c}\\) is <strong>geen nieuwe kracht</strong> naast de gewone krachten: het is de <strong>rol</strong> die een bestaande kracht speelt. Die rol kan gespeeld worden door de <strong>wrijvingskracht tussen de banden en het wegdek</strong> van een auto in een bocht, door de <strong>spanning</strong> in een touw waaraan je een steen rondslingert, of door de <strong>gravitatiekracht</strong> op een satelliet. Je tekent haar dus nooit apart naast de andere krachten."
     },
     {
      "soort": "tekst",
-     "html": "Drie dingen over de <strong>middelpuntzoekende versnelling</strong>: <strong>ze wijst naar het midden van de cirkel</strong>, <strong>ze is het kwadraat van de snelheid gedeeld door de straal</strong>, en <strong>ze wordt vier keer zo groot als je twee keer zo snel rijdt</strong>. Rijdt een <strong>auto met 10 m/s door een bocht met een straal van 20 m</strong>, dan is de centripetale versnelling <strong>5 m/s²</strong>. De <strong>middelpuntzoekende kracht op een auto van 1000 kg die met 5 m/s² naar het midden versnelt</strong>, is dus <strong>5000 N</strong>."
-    },
-    {
-     "soort": "tekst",
-     "html": "De <strong>middelpuntzoekende kracht is geen extra kracht naast de gewone krachten</strong>: het is een rol die een bestaande kracht speelt. Die rol kan gespeeld worden door <strong>de wrijving van de wielen van een auto in een bocht</strong>, <strong>de spanning in een touw waaraan je een steen rondslingert</strong> of <strong>de gravitatiekracht op een satelliet rond de aarde</strong>. Wat een <strong>auto in een bocht houdt</strong>, is dus <strong>de wrijvingskracht tussen de banden en het wegdek</strong>."
-    },
-    {
-     "soort": "tekst",
-     "html": "Omdat die kracht loodrecht op de snelheid staat, <strong>verricht de middelpuntzoekende kracht geen arbeid</strong> op een lichaam in een ECB. En <strong>breekt het touw</strong> van een rondgeslingerde steen, dan <strong>vliegt de steen raaklijnig verder, niet naar buiten</strong>."
+     "html": "Twee gevolgen. Omdat \\(F_{c}\\) loodrecht op de beweging staat, <strong>verricht ze geen arbeid</strong>: \\(W = F\\,s\\cos 90^\\circ = 0\\), en de kinetische energie blijft constant. En <strong>breekt het touw</strong> van een rondgeslingerde steen, dan is er geen kracht meer naar het midden: de steen vliegt <strong>raaklijnig</strong> verder, niet naar buiten. Dat is de traagheidswet."
     }
    ]
   },
@@ -46,19 +61,29 @@
    "blokken": [
     {
      "soort": "tekst",
-     "html": "De <strong>universele gravitatiewet</strong> zegt dat <strong>elke twee massa's elkaar aantrekken, met r² in de noemer</strong>. De kracht is <strong>recht evenredig met het product van de twee massa's</strong>, <strong>omgekeerd evenredig met het kwadraat van de afstand</strong>, en ze <strong>werkt tussen alle massa's, hoe klein ook</strong>. De constante G heet de <strong>gravitatieconstante</strong>."
+     "html": "Elke twee massa's trekken elkaar aan. De kracht is recht evenredig met het <strong>product van de twee massa's</strong> en omgekeerd evenredig met het <strong>kwadraat van hun afstand</strong>, en ze werkt tussen <strong>alle massa's, hoe klein ook</strong>."
+    }
+   ]
+  },
+  {
+   "kop": "De formule van Newton",
+   "blokken": [
+    {
+     "soort": "kader",
+     "html": "\\[F = G\\,\\dfrac{m_{1}m_{2}}{r^{2}} \\qquad G = 6{,}67 \\times 10^{-11}\\ \\text{N}\\,\\text{m}^{2}\\text{/kg}^{2}\\]\\(G\\) heet de <strong>gravitatieconstante</strong> en staat in de bijlage van het examen. Vergelijk met de wet van Coulomb, \\(F = k\\dfrac{\\lvert q_{1}q_{2}\\rvert}{r^{2}}\\): beide hebben \\(r^{2}\\) in de noemer en een product in de teller. Het grote verschil is dat gravitatie <strong>altijd aantrekt</strong>, want er bestaat geen negatieve massa."
     },
     {
      "soort": "tekst",
-     "html": "De gravitatiewet <strong>lijkt op de wet van Coulomb</strong>: <strong>beide hebben het kwadraat van de afstand in de noemer</strong> en <strong>beide hebben het product van twee grootheden in de teller</strong>. <strong>Verdrievoudig je de afstand</strong> tussen twee massa's, dan <strong>wordt de kracht negen keer zo klein</strong>."
-    },
+     "html": "<strong>Verdrievoudig je de afstand</strong>, dan wordt de kracht <strong>negen</strong> keer zo klein, want \\(3^{2} = 9\\). Dat heet de kwadratenwet. Je voelt geen aantrekking tussen twee voorwerpen in een kamer omdat \\(G\\) zo klein is dat de kracht onmeetbaar blijft, maar het gravitatieveld van de aarde <strong>houdt nergens op</strong>: het wordt alleen steeds zwakker."
+    }
+   ]
+  },
+  {
+   "kop": "Het gravitatieveld",
+   "blokken": [
     {
      "soort": "tekst",
-     "html": "Je <strong>voelt geen aantrekking tussen twee gewone voorwerpen in een kamer</strong> omdat G zo klein is dat de kracht onmeetbaar blijft. En het <strong>gravitatieveld van de aarde houdt nergens op</strong>: het wordt alleen steeds zwakker."
-    },
-    {
-     "soort": "tekst",
-     "html": "Het gravitatieveld rond een planeet ziet eruit als <strong>radiaal, met de lijnen naar de planeet toe</strong>. <strong>Vlak boven het aardoppervlak mag je het zwaarteveld als homogeen beschouwen</strong>, want over een paar meter verandert er zo goed als niets."
+     "html": "Het gravitatieveld rond een planeet is <strong>radiaal, met de lijnen naar de planeet toe</strong>, want gravitatie trekt altijd aan. De veldsterkte is \\(g = \\dfrac{F}{m}\\), in \\(\\text{N/kg}\\), en dat is net dezelfde waarde als de valversnelling in \\(\\text{m/s}^{2}\\). Vlak boven het aardoppervlak mag je dat <strong>zwaarteveld</strong> als <strong>homogeen</strong> beschouwen: over een paar honderd meter verandert er zo goed als niets en lopen de lijnen zowat evenwijdig."
     }
    ]
   },
@@ -67,15 +92,16 @@
    "blokken": [
     {
      "soort": "tekst",
-     "html": "Het verband tussen zwaartekracht en gravitatiekracht: <strong>de zwaartekracht is de gravitatiekracht van de aarde op een lichaam</strong>. De <strong>valversnelling aan het oppervlak van een planeet</strong> wordt bepaald door <strong>de massa van de planeet</strong> en <strong>de straal van de planeet</strong>."
-    },
+     "html": "De <strong>zwaartekracht is de gravitatiekracht van de aarde op een lichaam</strong>. Stel de twee uitdrukkingen gelijk en de massa van het voorwerp valt weg: \\[m\\,g = G\\,\\dfrac{M\\,m}{R^{2}} \\quad\\Longrightarrow\\quad g = \\dfrac{GM}{R^{2}}\\] De valversnelling aan het oppervlak hangt dus enkel af van de <strong>massa</strong> en de <strong>straal</strong> van de planeet, en niet van het vallende voorwerp. Daarom valt alles even snel."
+    }
+   ]
+  },
+  {
+   "kop": "g op de maan, en je eigen massa",
+   "blokken": [
     {
      "soort": "tekst",
-     "html": "Daarom is <strong>g op de maan ongeveer zes keer kleiner dan op aarde</strong>: <strong>de maan heeft veel minder massa, ondanks haar kleinere straal</strong>. Hebben <strong>twee planeten dezelfde massa en heeft de ene een twee keer zo grote straal</strong>, dan is g aan haar oppervlak <strong>vier keer kleiner</strong>."
-    },
-    {
-     "soort": "tekst",
-     "html": "Je <strong>massa verandert niet als je naar de maan gaat</strong>: je gewicht wel, want dat is een kracht en hangt van g af."
+     "html": "Daarom is \\(g\\) op de maan ongeveer zes keer kleiner: de maan heeft veel minder massa, ondanks haar kleinere straal. Hebben twee planeten dezelfde massa en heeft de ene een twee keer zo grote straal, dan is \\(g\\) aan haar oppervlak <strong>vier</strong> keer kleiner, want \\(R\\) staat in het kwadraat. Je <strong>massa verandert niet</strong> als je naar de maan gaat; je gewicht wel, want dat is een kracht \\(F_{z} = m\\,g\\)."
     }
    ]
   },
@@ -84,31 +110,36 @@
    "blokken": [
     {
      "soort": "tekst",
-     "html": "De kracht die een <strong>satelliet in zijn baan rond de aarde houdt</strong>, is <strong>de gravitatiekracht van de aarde</strong>; zij <strong>speelt de rol van middelpuntzoekende kracht</strong>. Je <strong>berekent de baansnelheid</strong> dus door <strong>de gravitatiekracht gelijk te stellen aan de middelpuntzoekende kracht</strong>."
+     "html": "Een satelliet in een <strong>cirkelbaan</strong> wordt daarin gehouden door de <strong>gravitatiekracht van de aarde</strong>, en die speelt daar de rol van middelpuntzoekende kracht. Hij heeft dus geen motor nodig. Je berekent zijn baansnelheid door die twee gelijk te stellen:"
+    },
+    {
+     "soort": "kader",
+     "html": "\\[G\\,\\dfrac{M\\,m}{r^{2}} = \\dfrac{m\\,v^{2}}{r} \\quad\\Longrightarrow\\quad v = \\sqrt{\\dfrac{GM}{r}}\\]De massa \\(m\\) van de satelliet valt links en rechts weg. Een <strong>zware en een lichte satelliet in dezelfde baan hebben dus dezelfde snelheid</strong>. Voor het ISS, op \\(r = 6{,}77 \\times 10^{6}\\) m, geeft dat \\(7{,}7\\) km/s."
+    }
+   ]
+  },
+  {
+   "kop": "Verder weg is trager",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Omdat \\(r\\) in de noemer staat, beweegt een satelliet die <strong>verder van de aarde</strong> draait <strong>trager</strong>, en doet hij er langer over per omloop. Een satelliet die altijd boven hetzelfde punt blijft hangen heet <strong>geostationair</strong>: zijn periode is precies één etmaal, en dat lukt enkel boven de evenaar op \\(35\\,786\\) km hoogte. Daarom hoef je een schotelantenne nooit bij te stellen."
     },
     {
      "soort": "tekst",
-     "html": "Daarbij <strong>valt de massa van de satelliet uit de formule van de baansnelheid weg</strong>: een <strong>zware en een lichte satelliet in dezelfde baan hebben dezelfde snelheid</strong>. Voor een satelliet die <strong>verder van de aarde draait</strong>, geldt: hij <strong>beweegt trager en doet er langer over per omloop</strong>, dus hoort <strong>verder weg bij een kleinere baansnelheid</strong>."
-    },
-    {
-     "soort": "tekst",
-     "html": "Een satelliet die <strong>altijd boven hetzelfde punt van de aarde blijft hangen</strong>, heet <strong>geostationair</strong>: zijn periode is precies één dag."
-    },
-    {
-     "soort": "tekst",
-     "html": "<strong>Astronauten zweven in een ruimtestation</strong> omdat <strong>ze samen met het station voortdurend rond de aarde vallen</strong>, niet omdat er geen gravitatie meer zou zijn: die houdt hen juist in hun baan."
+     "html": "<strong>Astronauten zweven</strong> in een ruimtestation omdat ze samen met het station voortdurend <strong>rond de aarde vallen</strong>, niet omdat er geen gravitatie meer zou zijn. Op die hoogte is \\(g\\) nog ongeveer negentig procent van die aan het oppervlak; ze voelen alleen niets, omdat niets hen tijdens dat vallen tegenhoudt."
     }
    ]
   }
  ],
  "onthoud": [
-  "ECB: grootte van de snelheid constant, richting niet.",
-  "Periode en frequentie zijn elkaars omgekeerde.",
-  "Centripetale versnelling is v²/r en wijst naar het midden.",
-  "Middelpuntzoekend is een rol, geen extra kracht.",
+  "ECB: \\(\\lvert v \\rvert\\) constant, de richting niet.",
+  "\\(f = \\dfrac{1}{T}\\), \\(\\omega = \\dfrac{2\\pi}{T}\\) en \\(v = \\omega\\,r\\).",
+  "\\(a_{c} = \\dfrac{v^{2}}{r}\\) wijst naar het midden, loodrecht op \\(v\\).",
+  "Middelpuntzoekend is een rol, geen extra kracht, en ze verricht geen arbeid.",
   "Breekt het touw, dan vliegt de steen raaklijnig weg.",
-  "Gravitatie: ∝ product van de massa's, ∝ 1/r².",
-  "g aan een oppervlak hangt af van de massa en de straal van de planeet.",
-  "Bij een satelliet is de gravitatiekracht de middelpuntzoekende kracht."
+  "\\(F = G\\dfrac{m_{1}m_{2}}{r^{2}}\\): drie keer verder is negen keer zwakker.",
+  "\\(g = \\dfrac{GM}{R^{2}}\\): enkel de massa en de straal van de planeet tellen.",
+  "Satelliet: \\(v = \\sqrt{\\dfrac{GM}{r}}\\), zonder de massa van de satelliet."
  ]
 }

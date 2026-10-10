@@ -7685,3 +7685,91 @@ def worpbaan(breedte=470):
                     9.5, DIM, "middle"))
 
     return _svg(cel_b * 2, cel_h, "\n".join(d))
+
+
+def cirkelbeweging(breedte=470):
+    r"""Twee tekeningen bij de cirkelbeweging en de gravitatie.
+
+    Links een eenparig cirkelvormige beweging: de snelheid raakt aan de
+    cirkel, de versnelling wijst naar het middelpunt, en die twee staan
+    loodrecht op elkaar. Rechts een satelliet, waar de gravitatiekracht
+    precies de rol van middelpuntzoekende kracht speelt.
+    """
+    import math
+    cel_b, cel_h = 234, 212
+    d = []
+
+    def kader(kx, ky, titel):
+        d.append(f'<rect x="{kx+6}" y="{ky+4}" width="{cel_b-12}" height="{cel_h-30}" rx="8" '
+                 f'fill="#ffffff" stroke="{BORDER}" stroke-width="1.2"/>')
+        d.append(_tekst(kx + cel_b / 2, ky + cel_h - 9, titel, 10, DIM, "middle", True))
+
+    def pijl(x0, y0, x1, y1, kleur, breed=2.0, maat=5.0):
+        d.append(f'<line x1="{x0:.1f}" y1="{y0:.1f}" x2="{x1:.1f}" y2="{y1:.1f}" '
+                 f'stroke="{kleur}" stroke-width="{breed}"/>')
+        d.append(_pijlkop(x1, y1, math.atan2(y1 - y0, x1 - x0), kleur, maat))
+
+    # ── 1. de eenparig cirkelvormige beweging
+    kader(0, 0, "v raakt aan de cirkel, a wijst naar binnen")
+    mx, my, straal = 112, 98, 58
+    d.append(f'<circle cx="{mx}" cy="{my}" r="{straal}" fill="none" stroke="{DIM}" '
+             f'stroke-width="1.2" stroke-dasharray="4 4"/>')
+    d.append(f'<circle cx="{mx}" cy="{my}" r="2.6" fill="{DIM}"/>')
+    hoek = -math.radians(45)
+    bx, by = mx + straal * math.cos(hoek), my + straal * math.sin(hoek)
+    # de straal, met haar naam halverwege
+    d.append(f'<line x1="{mx}" y1="{my}" x2="{bx:.1f}" y2="{by:.1f}" stroke="{DIM}" '
+             f'stroke-width="1.1"/>')
+    d.append(_tekst((mx + bx) / 2 + 9, (my + by) / 2 + 10, "r", 9.5, DIM, "middle", True))
+    d.append(f'<circle cx="{bx:.1f}" cy="{by:.1f}" r="5" fill="{DARK}"/>')
+    # v staat loodrecht op de straal, a wijst naar het middelpunt
+    vx, vy = -math.sin(hoek), math.cos(hoek)
+    pijl(bx, by, bx + vx * 46, by + vy * 46, FOREST)
+    d.append(_tekst(bx + vx * 54, by + vy * 54 + 4, "v", 10, FOREST, "middle", True))
+    ax, ay = (mx - bx) / straal, (my - by) / straal
+    pijl(bx, by, bx + ax * 34, by + ay * 34, AMBER)
+    d.append(_tekst(bx + ax * 30 - 2, by + ay * 30 - 7, "a", 10, AMBER, "middle", True))
+    # de omloopzin
+    d.append(f'<path d="M{mx-20} {my-straal-6} A 24 24 0 0 1 {mx+20} {my-straal-6}" '
+             f'fill="none" stroke="{DIM}" stroke-width="1.3"/>')
+    d.append(_pijlkop(mx + 20, my - straal - 6, 0.9, DIM, 4.4))
+    d.append(_tekst(mx, my - straal - 20, "één ronde duurt T", 9, DIM, "middle"))
+    # het hoekje tussen v en a: die twee staan loodrecht op elkaar
+    h1x, h1y = bx + vx * 9, by + vy * 9
+    h2x, h2y = h1x + ax * 9, h1y + ay * 9
+    h3x, h3y = bx + ax * 9, by + ay * 9
+    d.append(f'<polyline points="{h1x:.1f},{h1y:.1f} {h2x:.1f},{h2y:.1f} {h3x:.1f},{h3y:.1f}" '
+             f'fill="none" stroke="{DIM}" stroke-width="1.0"/>')
+    d.append(_tekst(mx, my + straal + 20, "v en a staan loodrecht op elkaar", 9.5, DIM, "middle"))
+
+    # ── 2. de satelliet
+    kx = cel_b
+    kader(kx, 0, "bij een satelliet is Fg de kracht naar binnen")
+    ax0, ay0, aarde = kx + 112, 100, 23
+    baan = 64
+    d.append(f'<circle cx="{ax0}" cy="{ay0}" r="{baan}" fill="none" stroke="{DIM}" '
+             f'stroke-width="1.1" stroke-dasharray="4 4"/>')
+    # het radiale veld: korte pijlen die naar de planeet wijzen
+    for i in range(8):
+        h = i * math.pi / 4 + math.pi / 8
+        c, s = math.cos(h), math.sin(h)
+        pijl(ax0 + c * (aarde + 24), ay0 + s * (aarde + 24),
+             ax0 + c * (aarde + 6), ay0 + s * (aarde + 6), DRAAD, 1.2, 3.6)
+    d.append(f'<circle cx="{ax0}" cy="{ay0}" r="{aarde}" fill="{BORDER}" stroke="{DARK}" '
+             f'stroke-width="1.4"/>')
+    d.append(_tekst(ax0, ay0 + 4, "M", 10.5, DARK, "middle", True))
+    hoek2 = -math.radians(50)
+    sx, sy = ax0 + baan * math.cos(hoek2), ay0 + baan * math.sin(hoek2)
+    d.append(f'<rect x="{sx-5:.1f}" y="{sy-5:.1f}" width="10" height="10" rx="1.5" '
+             f'fill="{PAPER}" stroke="{INK}" stroke-width="1.4"/>')
+    vx2, vy2 = -math.sin(hoek2), math.cos(hoek2)
+    pijl(sx, sy, sx + vx2 * 40, sy + vy2 * 40, FOREST)
+    d.append(_tekst(sx + vx2 * 48, sy + vy2 * 48 + 4, "v", 10, FOREST, "middle", True))
+    ax2, ay2 = (ax0 - sx) / baan, (ay0 - sy) / baan
+    pijl(sx, sy, sx + ax2 * 30, sy + ay2 * 30, AMBER)
+    d.append(_tekst(sx + ax2 * 15 - ay2 * 14, sy + ay2 * 15 + ax2 * 14 + 3, "Fg", 10,
+                    AMBER, "middle", True))
+    d.append(_tekst(kx + cel_b / 2, 176, "Fg is hier de middelpuntzoekende kracht",
+                    9.5, DIM, "middle"))
+
+    return _svg(cel_b * 2, cel_h, "\n".join(d))

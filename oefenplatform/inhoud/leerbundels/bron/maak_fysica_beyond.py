@@ -1616,117 +1616,152 @@ BUNDELS["de-gravitatiekracht-en-de-cirkelbeweging-beyond"] = dict(
     onder="Rondjes draaien, en waarom een satelliet niet naar beneden valt.",
     secties=[
         dict(kop="De eenparig cirkelvormige beweging", blokken=[
-            ("p", "Een lichaam voert een <strong>eenparig cirkelvormige beweging</strong> uit "
-                  "<strong>als het een cirkel beschrijft met een constante baansnelheid</strong>. "
-                  "Bij een <strong>ECB blijft de grootte van de baansnelheid constant</strong>, "
-                  "terwijl <strong>de richting van de baansnelheid voortdurend verandert</strong>."),
-            ("p", "De <strong>periode</strong> is <strong>de tijd die een lichaam nodig heeft voor "
-                  "één volledige omwenteling</strong>; de <strong>frequentie</strong> is haar "
-                  "omgekeerde en staat in <strong>hertz</strong>. Een "
-                  "<strong>wiel dat 120 keer per minuut</strong> rondraait, heeft een frequentie van "
-                  "<strong>2 Hz</strong>."),
-            ("p", "De <strong>hoeksnelheid</strong> is <strong>de afgelegde hoek per seconde</strong>, "
-                  "in radiaal per seconde. <strong>Twee kinderen op dezelfde draaimolen hebben "
-                  "dezelfde hoeksnelheid, ook al zitten ze niet even ver van het midden</strong>; "
-                  "hun baansnelheid verschilt wel. Draait een "
-                  "<strong>draaimolen met 0,5 rad/s</strong>, dan beweegt een "
-                  "<strong>kind op 4 m van het midden</strong> met <strong>2 m/s</strong>. Doet een "
-                  "<strong>kind op 3 m van het midden 6 s over één ronde</strong>, dan is zijn "
-                  "baansnelheid <strong>ongeveer 3,1 m/s</strong>."),
+            ("p", "Een lichaam voert een <strong>eenparig cirkelvormige beweging</strong> (ECB) "
+                  "uit als het een cirkel beschrijft met een <strong>constante "
+                  "baansnelheid</strong>. De <strong>grootte</strong> van \\(\\vec{v}\\) blijft "
+                  "dus gelijk, terwijl haar <strong>richting</strong> voortdurend verandert. De "
+                  "<strong>periode</strong> \\(T\\), ook de <strong>omlooptijd</strong>, is de tijd "
+                  "voor één volledige omwenteling, "
+                  "en de <strong>frequentie</strong> \\(f\\) is haar omgekeerde, in "
+                  "<strong>hertz</strong> (\\(1\\ \\text{Hz} = 1\\ \\text{s}^{-1}\\))."),
+            ("kader", "<strong>De grootheden van een ECB</strong><br>"
+                      "\\[f = \\dfrac{1}{T} \\qquad \\omega = \\dfrac{2\\pi}{T} \\qquad "
+                      "v = \\omega\\,r = \\dfrac{2\\pi r}{T}\\]"
+                      "\\(\\omega\\) is de <strong>hoeksnelheid</strong>, de afgelegde hoek per "
+                      "seconde, in rad/s. Een wiel dat \\(150\\) keer per minuut rondgaat heeft "
+                      "\\(f = \\dfrac{150}{60} = 2{,}5\\) Hz en dus \\(T = 0{,}40\\) s."),
+            ("p", "Twee kinderen op dezelfde draaimolen hebben <strong>dezelfde "
+                  "\\(\\omega\\)</strong>, ook al zitten ze niet even ver van het midden: ze "
+                  "doen er even lang over om rond te gaan. Hun <strong>baansnelheid verschilt "
+                  "wel</strong>, want \\(v = \\omega\\,r\\). Draait een draaimolen met "
+                  "\\(\\omega = 0{,}80\\) rad/s, dan beweegt een kind op \\(3{,}5\\) m van het "
+                  "midden met \\(v = 2{,}8\\) m/s. En doet een kind op \\(2{,}5\\) m van het "
+                  "midden \\(4{,}0\\) s over één ronde, dan is "
+                  "\\(v = \\dfrac{2\\pi \\times 2{,}5}{4{,}0} = 3{,}9\\) m/s."),
         ]),
-        dict(kop="De middelpuntzoekende versnelling en kracht", blokken=[
-            ("p", "Een lichaam in een ECB heeft toch een versnelling omdat "
-                  "<strong>de richting van de snelheid voortdurend verandert</strong>. Die "
-                  "versnelling wijst <strong>naar het middelpunt van de cirkel</strong> en heet de "
-                  "<strong>centripetale versnelling</strong>. Bij een ECB "
-                  "<strong>staan de snelheid en de versnelling loodrecht op elkaar</strong>."),
-            ("p", "Drie dingen over de <strong>middelpuntzoekende versnelling</strong>: "
-                  "<strong>ze wijst naar het midden van de cirkel</strong>, "
-                  "<strong>ze is het kwadraat van de snelheid gedeeld door de straal</strong>, en "
-                  "<strong>ze wordt vier keer zo groot als je twee keer zo snel rijdt</strong>. "
-                  "Rijdt een <strong>auto met 10 m/s door een bocht met een straal van 20 m</strong>, "
-                  "dan is de centripetale versnelling <strong>5 m/s²</strong>. De "
-                  "<strong>middelpuntzoekende kracht op een auto van 1000 kg die met 5 m/s² naar "
-                  "het midden versnelt</strong>, is dus <strong>5000 N</strong>."),
-            ("p", "De <strong>middelpuntzoekende kracht is geen extra kracht naast de gewone "
-                  "krachten</strong>: het is een rol die een bestaande kracht speelt. Die rol kan "
-                  "gespeeld worden door <strong>de wrijving van de wielen van een auto in een "
-                  "bocht</strong>, <strong>de spanning in een touw waaraan je een steen "
-                  "rondslingert</strong> of <strong>de gravitatiekracht op een satelliet rond de "
-                  "aarde</strong>. Wat een <strong>auto in een bocht houdt</strong>, is dus "
-                  "<strong>de wrijvingskracht tussen de banden en het wegdek</strong>."),
-            ("p", "Omdat die kracht loodrecht op de snelheid staat, "
-                  "<strong>verricht de middelpuntzoekende kracht geen arbeid</strong> op een lichaam "
-                  "in een ECB. En <strong>breekt het touw</strong> van een rondgeslingerde steen, "
-                  "dan <strong>vliegt de steen raaklijnig verder, niet naar buiten</strong>."),
+        dict(kop="Twee tekeningen om bij te houden", blokken=[
+            ("fig", svg.cirkelbeweging(),
+             "Links een gewone cirkelbeweging, rechts een satelliet rond een planeet."),
+        ]),
+        dict(kop="De middelpuntzoekende versnelling", blokken=[
+            ("p", "Een lichaam in een ECB heeft tóch een versnelling, omdat de "
+                  "<strong>richting</strong> van \\(\\vec{v}\\) voortdurend verandert. Die "
+                  "versnelling wijst <strong>naar het middelpunt</strong> en heet de "
+                  "<strong>centripetale</strong> versnelling; ze heet dus <strong>centripetaal</strong> "
+                  "of middelpuntzoekend. Snelheid en "
+                  "versnelling staan daarbij <strong>loodrecht op elkaar</strong>: de snelheid "
+                  "raakt aan de cirkel, de versnelling wijst naar binnen."),
+            ("kader", "\\[a_{c} = \\dfrac{v^{2}}{r} = \\omega^{2}r \\qquad\\text{en}\\qquad "
+                      "F_{c} = m\\,a_{c} = \\dfrac{m\\,v^{2}}{r}\\]"
+                      "Omdat \\(v\\) in het kwadraat staat, wordt \\(a_{c}\\) <strong>vier keer "
+                      "zo groot</strong> als je twee keer zo snel rijdt. Rijdt een auto met "
+                      "\\(14\\) m/s door een bocht met straal \\(35\\) m, dan is "
+                      "\\(a_{c} = \\dfrac{196}{35} = 5{,}6\\ \\text{m/s}^{2}\\); voor een wagen "
+                      "van \\(1200\\) kg is dat \\(F_{c} = 6{,}7\\) kN wrijving."),
+        ]),
+        dict(kop="Middelpuntzoekend is een rol, geen extra kracht", blokken=[
+            ("p", "\\(F_{c}\\) is <strong>geen nieuwe kracht</strong> naast de gewone krachten: "
+                  "het is de <strong>rol</strong> die een bestaande kracht speelt. Die rol kan "
+                  "gespeeld worden door de <strong>wrijvingskracht tussen de banden en het "
+                  "wegdek</strong> van een auto "
+                  "in een bocht, door de <strong>spanning</strong> in een touw waaraan je een "
+                  "steen rondslingert, of door de <strong>gravitatiekracht</strong> op een "
+                  "satelliet. Je tekent haar dus nooit apart naast de andere krachten."),
+            ("p", "Twee gevolgen. Omdat \\(F_{c}\\) loodrecht op de beweging staat, "
+                  "<strong>verricht ze geen arbeid</strong>: \\(W = F\\,s\\cos 90^\\circ = 0\\), "
+                  "en de kinetische energie blijft constant. En <strong>breekt het touw</strong> "
+                  "van een rondgeslingerde steen, dan is er geen kracht meer naar het midden: de "
+                  "steen vliegt <strong>raaklijnig</strong> verder, niet naar buiten. Dat is de "
+                  "traagheidswet."),
         ]),
         dict(kop="De universele gravitatiewet", blokken=[
-            ("p", "De <strong>universele gravitatiewet</strong> zegt dat "
-                  "<strong>elke twee massa's elkaar aantrekken, met r² in de noemer</strong>. De "
-                  "kracht is <strong>recht evenredig met het product van de twee massa's</strong>, "
-                  "<strong>omgekeerd evenredig met het kwadraat van de afstand</strong>, en ze "
-                  "<strong>werkt tussen alle massa's, hoe klein ook</strong>. De constante G heet de "
-                  "<strong>gravitatieconstante</strong>."),
-            ("p", "De gravitatiewet <strong>lijkt op de wet van Coulomb</strong>: "
-                  "<strong>beide hebben het kwadraat van de afstand in de noemer</strong> en "
-                  "<strong>beide hebben het product van twee grootheden in de teller</strong>. "
-                  "<strong>Verdrievoudig je de afstand</strong> tussen twee massa's, dan "
-                  "<strong>wordt de kracht negen keer zo klein</strong>."),
-            ("p", "Je <strong>voelt geen aantrekking tussen twee gewone voorwerpen in een "
-                  "kamer</strong> omdat G zo klein is dat de kracht onmeetbaar blijft. En het "
-                  "<strong>gravitatieveld van de aarde houdt nergens op</strong>: het wordt alleen "
-                  "steeds zwakker."),
-            ("p", "Het gravitatieveld rond een planeet ziet eruit als "
-                  "<strong>radiaal, met de lijnen naar de planeet toe</strong>. "
-                  "<strong>Vlak boven het aardoppervlak mag je het zwaarteveld als homogeen "
-                  "beschouwen</strong>, want over een paar meter verandert er zo goed als niets."),
+            ("p", "Elke twee massa's trekken elkaar aan. De kracht is recht evenredig met het "
+                  "<strong>product van de twee massa's</strong> en omgekeerd evenredig met het "
+                  "<strong>kwadraat van hun afstand</strong>, en ze werkt tussen <strong>alle "
+                  "massa's, hoe klein ook</strong>."),
+        ]),
+        dict(kop="De formule van Newton", blokken=[
+            ("kader", "\\[F = G\\,\\dfrac{m_{1}m_{2}}{r^{2}} \\qquad "
+                      "G = 6{,}67 \\times 10^{-11}\\ \\text{N}\\,\\text{m}^{2}\\text{/kg}^{2}\\]"
+                      "\\(G\\) heet de <strong>gravitatieconstante</strong> en staat in de "
+                      "bijlage van het examen. Vergelijk met de wet van Coulomb, "
+                      "\\(F = k\\dfrac{\\lvert q_{1}q_{2}\\rvert}{r^{2}}\\): beide hebben "
+                      "\\(r^{2}\\) in de noemer en een product in de teller. Het grote verschil "
+                      "is dat gravitatie <strong>altijd aantrekt</strong>, want er bestaat geen "
+                      "negatieve massa."),
+            ("p", "<strong>Verdrievoudig je de afstand</strong>, dan wordt de kracht "
+                  "<strong>negen</strong> keer zo klein, want \\(3^{2} = 9\\). Dat heet de "
+                  "kwadratenwet. Je voelt geen aantrekking tussen twee voorwerpen in een kamer "
+                  "omdat \\(G\\) zo klein is dat de kracht onmeetbaar blijft, maar het "
+                  "gravitatieveld van de aarde <strong>houdt nergens op</strong>: het wordt "
+                  "alleen steeds zwakker."),
+        ]),
+        dict(kop="Het gravitatieveld", blokken=[
+            ("p", "Het gravitatieveld rond een planeet is <strong>radiaal, met de lijnen naar "
+                  "de planeet toe</strong>, want gravitatie trekt altijd aan. De veldsterkte is "
+                  "\\(g = \\dfrac{F}{m}\\), in \\(\\text{N/kg}\\), en dat is net dezelfde "
+                  "waarde als de valversnelling in \\(\\text{m/s}^{2}\\). Vlak boven het "
+                  "aardoppervlak mag je dat <strong>zwaarteveld</strong> als <strong>homogeen</strong> "
+                  "beschouwen: over "
+                  "een paar honderd meter verandert er zo goed als niets en lopen de lijnen "
+                  "zowat evenwijdig."),
         ]),
         dict(kop="Zwaartekracht en valversnelling", blokken=[
-            ("p", "Het verband tussen zwaartekracht en gravitatiekracht: "
-                  "<strong>de zwaartekracht is de gravitatiekracht van de aarde op een "
-                  "lichaam</strong>. De <strong>valversnelling aan het oppervlak van een "
-                  "planeet</strong> wordt bepaald door <strong>de massa van de planeet</strong> en "
-                  "<strong>de straal van de planeet</strong>."),
-            ("p", "Daarom is <strong>g op de maan ongeveer zes keer kleiner dan op aarde</strong>: "
-                  "<strong>de maan heeft veel minder massa, ondanks haar kleinere straal</strong>. "
-                  "Hebben <strong>twee planeten dezelfde massa en heeft de ene een twee keer zo "
-                  "grote straal</strong>, dan is g aan haar oppervlak "
-                  "<strong>vier keer kleiner</strong>."),
-            ("p", "Je <strong>massa verandert niet als je naar de maan gaat</strong>: je gewicht "
-                  "wel, want dat is een kracht en hangt van g af."),
+            ("p", "De <strong>zwaartekracht is de gravitatiekracht van de aarde op een "
+                  "lichaam</strong>. Stel de twee uitdrukkingen gelijk en de massa van het "
+                  "voorwerp valt weg: \\[m\\,g = G\\,\\dfrac{M\\,m}{R^{2}} "
+                  "\\quad\\Longrightarrow\\quad g = \\dfrac{GM}{R^{2}}\\] De valversnelling aan "
+                  "het oppervlak hangt dus enkel af van de <strong>massa</strong> en de "
+                  "<strong>straal</strong> van de planeet, en niet van het vallende voorwerp. "
+                  "Daarom valt alles even snel."),
+        ]),
+        dict(kop="g op de maan, en je eigen massa", blokken=[
+            ("p", "Daarom is \\(g\\) op de maan ongeveer zes keer kleiner: de maan heeft veel "
+                  "minder massa, ondanks haar kleinere straal. Hebben twee planeten dezelfde "
+                  "massa en heeft de ene een twee keer zo grote straal, dan is \\(g\\) aan haar "
+                  "oppervlak <strong>vier</strong> keer kleiner, want \\(R\\) staat in het "
+                  "kwadraat. Je <strong>massa verandert niet</strong> als je naar de maan gaat; "
+                  "je gewicht wel, want dat is een kracht \\(F_{z} = m\\,g\\)."),
         ]),
         dict(kop="Satellieten", blokken=[
-            ("p", "De kracht die een <strong>satelliet in zijn baan rond de aarde houdt</strong>, is "
-                  "<strong>de gravitatiekracht van de aarde</strong>; zij "
-                  "<strong>speelt de rol van middelpuntzoekende kracht</strong>. Je "
-                  "<strong>berekent de baansnelheid</strong> dus door "
-                  "<strong>de gravitatiekracht gelijk te stellen aan de middelpuntzoekende "
-                  "kracht</strong>."),
-            ("p", "Daarbij <strong>valt de massa van de satelliet uit de formule van de "
-                  "baansnelheid weg</strong>: een <strong>zware en een lichte satelliet in dezelfde "
-                  "baan hebben dezelfde snelheid</strong>. Voor een satelliet die "
-                  "<strong>verder van de aarde draait</strong>, geldt: hij "
-                  "<strong>beweegt trager en doet er langer over per omloop</strong>, dus hoort "
-                  "<strong>verder weg bij een kleinere baansnelheid</strong>."),
-            ("p", "Een satelliet die <strong>altijd boven hetzelfde punt van de aarde blijft "
-                  "hangen</strong>, heet <strong>geostationair</strong>: zijn periode is precies "
-                  "één dag."),
-            ("p", "<strong>Astronauten zweven in een ruimtestation</strong> omdat "
-                  "<strong>ze samen met het station voortdurend rond de aarde vallen</strong>, niet "
-                  "omdat er geen gravitatie meer zou zijn: die houdt hen juist in hun baan."),
+            ("p", "Een satelliet in een <strong>cirkelbaan</strong> wordt daarin gehouden door de "
+                  "<strong>gravitatiekracht "
+                  "van de aarde</strong>, en die speelt daar de rol van middelpuntzoekende "
+                  "kracht. Hij heeft dus geen motor nodig. Je berekent zijn baansnelheid door "
+                  "die twee gelijk te stellen:"),
+            ("kader", "\\[G\\,\\dfrac{M\\,m}{r^{2}} = \\dfrac{m\\,v^{2}}{r} "
+                      "\\quad\\Longrightarrow\\quad v = \\sqrt{\\dfrac{GM}{r}}\\]"
+                      "De massa \\(m\\) van de satelliet valt links en rechts weg. Een "
+                      "<strong>zware en een lichte satelliet in dezelfde baan hebben dus "
+                      "dezelfde snelheid</strong>. Voor het ISS, op "
+                      "\\(r = 6{,}77 \\times 10^{6}\\) m, geeft dat \\(7{,}7\\) km/s."),
+        ]),
+        dict(kop="Verder weg is trager", blokken=[
+            ("p", "Omdat \\(r\\) in de noemer staat, beweegt een satelliet die <strong>verder "
+                  "van de aarde</strong> draait <strong>trager</strong>, en doet hij er langer "
+                  "over per omloop. Een satelliet die altijd boven hetzelfde punt blijft hangen "
+                  "heet <strong>geostationair</strong>: zijn periode is precies één etmaal, en "
+                  "dat lukt enkel boven de evenaar op \\(35\\,786\\) km hoogte. Daarom hoef je "
+                  "een schotelantenne nooit bij te stellen."),
+            ("p", "<strong>Astronauten zweven</strong> in een ruimtestation omdat ze samen met "
+                  "het station voortdurend <strong>rond de aarde vallen</strong>, niet omdat er "
+                  "geen gravitatie meer zou zijn. Op die hoogte is \\(g\\) nog ongeveer negentig "
+                  "procent van die aan het oppervlak; ze voelen alleen niets, omdat niets hen "
+                  "tijdens dat vallen tegenhoudt."),
         ]),
     ],
     onthoud=[
-        "ECB: grootte van de snelheid constant, richting niet.",
-        "Periode en frequentie zijn elkaars omgekeerde.",
-        "Centripetale versnelling is v²/r en wijst naar het midden.",
-        "Middelpuntzoekend is een rol, geen extra kracht.",
+        "ECB: \\(\\lvert v \\rvert\\) constant, de richting niet.",
+        "\\(f = \\dfrac{1}{T}\\), \\(\\omega = \\dfrac{2\\pi}{T}\\) en \\(v = \\omega\\,r\\).",
+        "\\(a_{c} = \\dfrac{v^{2}}{r}\\) wijst naar het midden, loodrecht op \\(v\\).",
+        "Middelpuntzoekend is een rol, geen extra kracht, en ze verricht geen arbeid.",
         "Breekt het touw, dan vliegt de steen raaklijnig weg.",
-        "Gravitatie: ∝ product van de massa's, ∝ 1/r².",
-        "g aan een oppervlak hangt af van de massa en de straal van de planeet.",
-        "Bij een satelliet is de gravitatiekracht de middelpuntzoekende kracht.",
+        "\\(F = G\\dfrac{m_{1}m_{2}}{r^{2}}\\): drie keer verder is negen keer zwakker.",
+        "\\(g = \\dfrac{GM}{R^{2}}\\): enkel de massa en de straal van de planeet tellen.",
+        "Satelliet: \\(v = \\sqrt{\\dfrac{GM}{r}}\\), zonder de massa van de satelliet.",
     ],
 )
+
 
 # ───────────────────── 13. Arbeid, energie en vermogen
 BUNDELS["arbeid-energie-en-vermogen-beyond"] = dict(

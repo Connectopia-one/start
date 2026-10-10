@@ -25,28 +25,29 @@ DEEL1 = [
             "als het heen en weer beweegt rond een evenwichtsstand",
         ],
         antwoord=0,
-        uitleg="De grootte van de snelheid blijft gelijk, maar haar richting verandert "
-        "voortdurend. Daarom is er wel degelijk een versnelling.",
+        uitleg=r"De grootte van \(v\) blijft gelijk, maar haar richting verandert "
+        r"voortdurend. Daarom is er wel degelijk een versnelling: "
+        r"\(a_{c} = \dfrac{v^{2}}{r}\).",
     ),
     dict(
         type="invultekst",
         vraag="Hoe noem je de tijd die een lichaam nodig heeft voor één volledige omwenteling?",
         antwoord=["periode", "de periode", "omlooptijd"],
-        uitleg="Het symbool is T en de eenheid de seconde. De frequentie is precies haar "
-        "omgekeerde.",
+        uitleg=r"Het symbool is \(T\) en de eenheid de seconde. De frequentie is het "
+        r"omgekeerde: \(f = \dfrac{1}{T}\).",
     ),
     dict(
         type="meerkeuze",
-        vraag="Een wiel draait 120 keer per minuut rond. Wat is zijn frequentie?",
+        vraag=r"Een wiel draait \(150\) keer per minuut rond. Wat is zijn frequentie?",
         opties=[
-            "2 Hz",
-            "120 Hz",
-            "60 Hz",
-            "0,5 Hz",
+            r"\(2{,}5\) Hz",
+            r"\(150\) Hz",
+            r"\(60\) Hz",
+            r"\(0{,}40\) Hz",
         ],
         antwoord=0,
-        uitleg="Deel door 60 om van omwentelingen per minuut naar per seconde te gaan. De "
-        "periode is dan een halve seconde.",
+        uitleg=r"\(f = \dfrac{150}{60} = 2{,}5\) Hz. De periode is dan "
+        r"\(T = \dfrac{1}{f} = 0{,}40\) s.",
     ),
     dict(
         type="meerkeuze",
@@ -58,28 +59,28 @@ DEEL1 = [
             "de hoek tussen snelheid en versnelling",
         ],
         antwoord=0,
-        uitleg="Ze staat in radialen per seconde en is twee pi gedeeld door de periode. De "
-        "baansnelheid is de hoeksnelheid maal de straal.",
+        uitleg=r"Ze staat in rad/s en is \(\omega = \dfrac{2\pi}{T}\). De baansnelheid volgt "
+        r"eruit met \(v = \omega\,r\).",
     ),
     dict(
         type="meerkeuze",
-        vraag="Een draaimolen draait met een hoeksnelheid van 0,5 rad/s. Hoe snel beweegt een kind op 4 m van het midden?",
+        vraag=r"Een draaimolen draait met \(\omega = 0{,}80\) rad/s. Hoe snel beweegt een kind op \(3{,}5\) m van het midden?",
         opties=[
-            "2 m/s",
-            "8 m/s",
-            "0,125 m/s",
-            "0,5 m/s",
+            r"\(2{,}8\) m/s",
+            r"\(4{,}4\) m/s",
+            r"\(0{,}23\) m/s",
+            r"\(0{,}80\) m/s",
         ],
         antwoord=0,
-        uitleg="De baansnelheid is omega maal r: 0,5 maal 4 is 2 meter per seconde. Verder "
-        "van het midden beweeg je dus sneller.",
+        uitleg=r"\(v = \omega\,r = 0{,}80 \times 3{,}5 = 2{,}8\) m/s. Verder van het midden "
+        r"beweeg je dus sneller, bij dezelfde \(\omega\).",
     ),
     dict(
         type="waarofniet",
         vraag="Twee kinderen op dezelfde draaimolen hebben dezelfde hoeksnelheid, ook al zitten ze niet even ver van het midden.",
         antwoord=True,
-        uitleg="Ze doen er even lang over om rond te gaan, dus is hun hoek per seconde "
-        "gelijk. Hun baansnelheid verschilt wel.",
+        uitleg=r"Ze hebben dezelfde \(T\), dus dezelfde \(\omega = \dfrac{2\pi}{T}\). Hun "
+        r"baansnelheid \(v = \omega\,r\) verschilt wel.",
     ),
     dict(
         type="meerkeuze",
@@ -91,8 +92,9 @@ DEEL1 = [
             "de tijd die het per ronde nodig heeft, wordt steeds korter",
         ],
         antwoord=0,
-        uitleg="Versnelling betekent een verandering van de snelheidsvector, en die heeft "
-        "ook een richting. Daarom is er een middelpuntzoekende versnelling.",
+        uitleg=r"Versnelling betekent een verandering van \(\vec{v}\), en een vector heeft "
+        r"ook een richting. Daarom is er een middelpuntzoekende versnelling "
+        r"\(a_{c} = \dfrac{v^{2}}{r}\).",
     ),
     dict(
         type="meerkeuze",
@@ -111,21 +113,21 @@ DEEL1 = [
         type="invultekst",
         vraag="Hoe noem je de versnelling die naar het middelpunt van de cirkel wijst?",
         antwoord=["centripetale versnelling", "centripetaal", "middelpuntzoekende"],
-        uitleg="Ze is v kwadraat gedeeld door r. De kracht die haar veroorzaakt, heet de "
-        "middelpuntzoekende kracht.",
+        uitleg=r"Ze is \(a_{c} = \dfrac{v^{2}}{r} = \omega^{2}r\). De kracht die haar "
+        r"veroorzaakt, heet de middelpuntzoekende kracht \(F_{c} = m\,a_{c}\).",
     ),
     dict(
         type="meerkeuze",
-        vraag="Een auto rijdt met 10 m/s door een bocht met een straal van 20 m. Hoe groot is de centripetale versnelling?",
+        vraag=r"Een auto rijdt met \(14\) m/s door een bocht met straal \(35\) m. Hoe groot is \(a_{c}\)?",
         opties=[
-            "5 m/s²",
-            "0,5 m/s²",
-            "2 m/s²",
-            "200 m/s²",
+            r"\(5{,}6\ \text{m/s}^{2}\)",
+            r"\(0{,}40\ \text{m/s}^{2}\)",
+            r"\(2{,}5\ \text{m/s}^{2}\)",
+            r"\(490\ \text{m/s}^{2}\)",
         ],
         antwoord=0,
-        uitleg="De versnelling is v kwadraat gedeeld door r: 100 gedeeld door 20 is 5 meter "
-        "per seconde kwadraat.",
+        uitleg=r"\(a_{c} = \dfrac{v^{2}}{r} = \dfrac{196}{35} = 5{,}6\ \text{m/s}^{2}\). "
+        r"Een auto van \(1200\) kg heeft daarvoor \(F_{c} = 6{,}7\) kN wrijving nodig.",
     ),
     dict(
         type="waarofniet",
@@ -139,9 +141,9 @@ DEEL1 = [
         vraag="Welke uitspraken over de middelpuntzoekende versnelling zijn juist? Kruis alles aan wat juist is.",
         opties=[
             "ze wijst naar het midden van de cirkel",
-            "ze is het kwadraat van de snelheid gedeeld door de straal",
-            "ze wordt vier keer zo groot als je twee keer zo snel rijdt",
-            "ze is nul zolang de snelheid dezelfde blijft",
+            r"ze is \(a_{c} = \dfrac{v^{2}}{r}\)",
+            r"ze wordt vier keer zo groot bij dubbele \(v\)",
+            r"ze is nul zolang \(\lvert v \rvert\) gelijk blijft",
         ],
         antwoord=[0, 1, 2],
         uitleg="De richting van de snelheid verandert voortdurend, en dat is al een "
@@ -157,8 +159,9 @@ DEEL1 = [
             "een middelpuntvliedende kracht naar buiten toe",
         ],
         antwoord=0,
-        uitleg="Zonder die wrijving zou de auto rechtdoor schuiven. De middelpuntzoekende "
-        "kracht is dus geen nieuwe kracht, maar de rol die een bestaande kracht speelt.",
+        uitleg=r"Zonder die wrijving zou de auto rechtdoor schuiven. \(F_{c} = "
+        r"\dfrac{m\,v^{2}}{r}\) is geen nieuwe kracht, maar de rol die een bestaande "
+        r"kracht speelt.",
     ),
     dict(
         type="waarofniet",
@@ -195,30 +198,30 @@ DEEL1 = [
     ),
     dict(
         type="meerkeuze",
-        vraag="Een kind op 3 m van het midden van een draaimolen doet 6 s over één ronde. Wat is zijn baansnelheid?",
+        vraag=r"Een kind op \(2{,}5\) m van het midden van een draaimolen doet \(4{,}0\) s over één ronde. Hoe groot is \(v\)?",
         opties=[
-            "ongeveer 3,1 m/s",
-            "ongeveer 0,5 m/s",
-            "ongeveer 18 m/s",
-            "ongeveer 2 m/s",
+            r"\(3{,}9\) m/s",
+            r"\(0{,}63\) m/s",
+            r"\(16\) m/s",
+            r"\(1{,}6\) m/s",
         ],
         antwoord=0,
-        uitleg="De omtrek is twee pi maal 3 is ongeveer 18,8 meter, en dat gedeeld door 6 "
-        "seconden geeft ongeveer 3,1 meter per seconde.",
+        uitleg=r"\(v = \dfrac{2\pi r}{T} = \dfrac{2\pi \times 2{,}5}{4{,}0} = 3{,}9\) m/s. "
+        r"Je kan ook eerst \(\omega = \dfrac{2\pi}{4{,}0} = 1{,}57\) rad/s nemen.",
     ),
     dict(
         type="invultekst",
         vraag="In welke eenheid druk je een frequentie uit?",
         antwoord=["hertz", "Hz", "de hertz"],
-        uitleg="Eén hertz is één keer per seconde. De periode is het omgekeerde van de "
-        "frequentie.",
+        uitleg=r"Eén hertz is één keer per seconde, dus \(1\ \text{Hz} = 1\ \text{s}^{-1}\). "
+        r"De periode is \(T = \dfrac{1}{f}\).",
     ),
     dict(
         type="waarofniet",
         vraag="De middelpuntzoekende kracht verricht arbeid op een lichaam in een ECB.",
         antwoord=False,
-        uitleg="Ze staat loodrecht op de beweging, dus is de arbeid nul. Daarom blijft de "
-        "kinetische energie constant.",
+        uitleg=r"Ze staat loodrecht op de beweging, en \(W = F\,s\cos 90^\circ = 0\). Daarom "
+        r"blijft de kinetische energie constant.",
     ),
     dict(
         type="meerkeuze",
@@ -246,8 +249,8 @@ DEEL2 = [
             "de aantrekking hangt enkel van de grootste massa af",
         ],
         antwoord=0,
-        uitleg="De kracht is G maal het product van de massa's gedeeld door het kwadraat "
-        "van hun afstand. Ze werkt tussen álle massa's, ook tussen twee mensen.",
+        uitleg=r"\[F = G\,\dfrac{m_{1}m_{2}}{r^{2}}\] Ze werkt tussen álle massa's, ook "
+        r"tussen twee mensen in een kamer.",
     ),
     dict(
         type="meerkeuze",
@@ -259,15 +262,17 @@ DEEL2 = [
             "beide hangen af van de lading van het voorwerp",
         ],
         antwoord=[0, 1],
-        uitleg="Het grote verschil is dat de gravitatie altijd aantrekt. Er bestaat geen "
-        "negatieve massa.",
+        uitleg=r"Vergelijk \(F = G\dfrac{m_{1}m_{2}}{r^{2}}\) met "
+        r"\(F = k\dfrac{\lvert q_{1}q_{2}\rvert}{r^{2}}\). Het grote verschil is dat "
+        r"gravitatie altijd aantrekt: er bestaat geen negatieve massa.",
     ),
     dict(
         type="invultekst",
         vraag="Hoe noem je de constante G uit de gravitatiewet?",
         antwoord=["gravitatieconstante", "de gravitatieconstante", "constante van Newton"],
-        uitleg="Ze is ongeveer 6,67·10⁻¹¹ en staat in de bijlage van het examen. Door die "
-        "kleine waarde merk je gravitatie pas bij enorme massa's.",
+        uitleg=r"\(G = 6{,}67 \times 10^{-11}\ \text{N}\,\text{m}^{2}\text{/kg}^{2}\), en ze "
+        r"staat in de bijlage van het examen. Door die kleine waarde merk je gravitatie "
+        r"pas bij enorme massa's.",
     ),
     dict(
         type="meerkeuze",
@@ -312,8 +317,8 @@ DEEL2 = [
             "de twee hebben niets met elkaar te maken",
         ],
         antwoord=0,
-        uitleg="Stel m maal g gelijk aan G maal M maal m gedeeld door r², en je ziet dat g "
-        "volgt uit de massa en de straal van de planeet.",
+        uitleg=r"Stel \(m\,g = G\dfrac{M\,m}{r^{2}}\): de massa van het voorwerp valt weg en "
+        r"er blijft \(g = \dfrac{GM}{r^{2}}\) over.",
     ),
     dict(
         type="meerkeuze",
@@ -325,8 +330,9 @@ DEEL2 = [
             "de maan ligt verder van de zon dan de aarde",
         ],
         antwoord=0,
-        uitleg="In de formule voor g staan de massa van het hemellichaam en zijn straal. De "
-        "maan is wel kleiner, maar haar massa is nog veel kleiner in verhouding.",
+        uitleg=r"In \(g = \dfrac{GM}{R^{2}}\) staan de massa en de straal van het "
+        r"hemellichaam. De maan is wel kleiner, maar haar massa is nog veel kleiner in "
+        r"verhouding.",
     ),
     dict(
         type="waarofniet",
@@ -345,8 +351,7 @@ DEEL2 = [
             "ze blijft precies even groot",
         ],
         antwoord=0,
-        uitleg="In de noemer staat r kwadraat, dus drie in het kwadraat is negen. Dat heet "
-        "de kwadratenwet.",
+        uitleg=r"In de noemer staat \(r^{2}\), en \(3^{2} = 9\). Dat heet de kwadratenwet.",
     ),
     dict(
         type="meerkeuze",
@@ -371,16 +376,16 @@ DEEL2 = [
             "je deelt de massa van de aarde door die van de satelliet",
         ],
         antwoord=0,
-        uitleg="De massa van de satelliet valt dan links en rechts weg. Daarom hangt de "
-        "baansnelheid enkel af van de massa van de aarde en van de straal van de baan.",
+        uitleg=r"\[G\,\dfrac{M\,m}{r^{2}} = \dfrac{m\,v^{2}}{r} \quad\Longrightarrow\quad "
+        r"v = \sqrt{\dfrac{GM}{r}}\] De massa \(m\) van de satelliet valt weg. Voor het "
+        r"ISS, op \(r = 6{,}77 \times 10^{6}\) m, geeft dat \(7{,}7\) km/s.",
     ),
     dict(
         type="waarofniet",
         vraag="Een zware en een lichte satelliet in dezelfde baan hebben dezelfde snelheid.",
         antwoord=True,
-        uitleg="De massa van de satelliet valt weg als je de gravitatiekracht gelijkstelt "
-        "aan de middelpuntzoekende kracht. Alleen de massa van de aarde en de straal van "
-        "de baan tellen.",
+        uitleg=r"In \(v = \sqrt{\dfrac{GM}{r}}\) staat geen \(m\) van de satelliet. Alleen "
+        r"de massa van de aarde en de straal van de baan tellen.",
     ),
     dict(
         type="meerkeuze",
@@ -392,8 +397,9 @@ DEEL2 = [
             "hij valt sneller terug naar de aarde toe",
         ],
         antwoord=0,
-        uitleg="De gravitatie is daar zwakker, dus volstaat een kleinere snelheid. Een "
-        "geostationaire satelliet doet er precies een etmaal over.",
+        uitleg=r"In \(v = \sqrt{\dfrac{GM}{r}}\) staat \(r\) in de noemer, dus verder is "
+        r"trager. Een geostationaire satelliet doet er precies een etmaal over, op "
+        r"\(35\,786\) km hoogte.",
     ),
     dict(
         type="invultekst",
@@ -425,8 +431,8 @@ DEEL2 = [
             "de omlooptijd van de planeet rond de zon",
         ],
         antwoord=[0, 1],
-        uitleg="De massa van het voorwerp valt weg: g is G maal M gedeeld door r². Daarom "
-        "valt alles even snel.",
+        uitleg=r"De massa van het voorwerp valt weg: \(g = \dfrac{GM}{R^{2}}\). Daarom valt "
+        r"alles even snel.",
     ),
     dict(
         type="waarofniet",
