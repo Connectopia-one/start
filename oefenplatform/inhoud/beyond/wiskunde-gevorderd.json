@@ -806,36 +806,36 @@
       "vragen": [
         {
           "type": "meerkeuze",
-          "vraag": "Waarmee komen de oplossingen van een vergelijking van de vorm f van x is nul overeen op de grafiek?",
+          "vraag": "Waarmee komen de oplossingen van \\(f(x)=0\\) overeen op de grafiek?",
           "opties": [
-            "de snijpunten met de horizontale as",
-            "het snijpunt met de verticale as",
+            "de snijpunten met de \\(x\\)-as",
+            "het snijpunt met de \\(y\\)-as",
             "de hoogste punten van de grafiek",
             "de punten waar de grafiek vlak loopt"
           ],
           "antwoord": 0,
-          "uitleg": "De oplossingen zijn net de nulwaarden, en die zie je waar de grafiek de x-as snijdt."
+          "uitleg": "De oplossingen zijn net de nulwaarden, en die zie je waar de grafiek de \\(x\\)-as snijdt."
         },
         {
           "type": "meerkeuze",
-          "vraag": "Wat lees je af als je f van x is g van x grafisch oplost?",
+          "vraag": "Wat lees je af als je \\(f(x)=g(x)\\) grafisch oplost?",
           "opties": [
-            "de x-waarden van de gemeenschappelijke punten",
-            "de y-waarden van de gemeenschappelijke punten",
-            "de snijpunten van beide grafieken met de y-as",
+            "de \\(x\\)-waarden van de snijpunten",
+            "de \\(y\\)-waarden van de snijpunten",
+            "de snijpunten van beide grafieken met de \\(y\\)-as",
             "de afstand tussen de twee grafieken in elk punt"
           ],
           "antwoord": 0,
-          "uitleg": "Op een snijpunt zijn beide functiewaarden gelijk. De oplossing is de x, niet de y."
+          "uitleg": "Op een snijpunt zijn beide functiewaarden gelijk. De oplossing is de \\(x\\), niet de \\(y\\)."
         },
         {
           "type": "invultekst",
-          "vraag": "Hoeveel reële oplossingen heeft x kwadraat is negen? Schrijf het cijfer.",
+          "vraag": "Hoeveel reële oplossingen heeft \\(x^{2}=9\\)? Schrijf het cijfer.",
           "antwoord": [
             "2",
             "twee"
           ],
-          "uitleg": "Drie en min drie. Alleen de wortel nemen en min drie vergeten is hier de klassieke fout."
+          "uitleg": "\\(x=3\\) en \\(x=-3\\). Alleen de wortel nemen en \\(-3\\) vergeten is hier de klassieke fout."
         },
         {
           "type": "waarofniet",
@@ -845,15 +845,15 @@
         },
         {
           "type": "meerkeuze",
-          "vraag": "Wat is de bestaansvoorwaarde bij de vierkantswortel uit x min drie?",
+          "vraag": "Wat is de bestaansvoorwaarde bij \\(\\sqrt{x-3}\\)?",
           "opties": [
-            "x is groter dan of gelijk aan drie",
-            "x is strikt groter dan het getal drie",
-            "x is kleiner dan of gelijk aan drie",
-            "x is verschillend van het getal drie"
+            "\\(x\\geq 3\\)",
+            "\\(x>3\\)",
+            "\\(x\\leq 3\\)",
+            "\\(x\\neq 3\\)"
           ],
           "antwoord": 0,
-          "uitleg": "Wat onder een even wortel staat, mag niet negatief zijn. Nul mag wel, want de wortel uit nul bestaat."
+          "uitleg": "Wat onder een even wortel staat, mag niet negatief zijn. \\(x=3\\) mag wel, want \\(\\sqrt{0}=0\\) bestaat."
         },
         {
           "type": "meerkeuze",
@@ -862,7 +862,7 @@
             "elke gevonden oplossing in de oorspronkelijke vergelijking controleren",
             "elke gevonden oplossing van teken laten veranderen voor je ze noteert",
             "nog een tweede keer kwadrateren om de wortel helemaal weg te werken",
-            "de bestaansvoorwaarde achteraf laten vallen, want je kwadrateerde al"
+            "de bestaansvoorwaarde laten vallen, want je kwadrateerde al"
           ],
           "antwoord": 0,
           "uitleg": "Kwadrateren is geen gelijkwaardige bewerking: het kan oplossingen bijmaken die in de oorspronkelijke vergelijking niet kloppen."
@@ -871,136 +871,130 @@
           "type": "waarofniet",
           "vraag": "Door te kwadrateren kan je oplossingen bijkrijgen die niet aan de oorspronkelijke vergelijking voldoen.",
           "antwoord": true,
-          "uitleg": "Min twee en twee hebben hetzelfde kwadraat. Na kwadrateren kan een negatief lid dus onzichtbaar meeglippen."
+          "uitleg": "\\(-2\\) en \\(2\\) hebben hetzelfde kwadraat. Na kwadrateren kan een negatief lid dus onzichtbaar meeglippen."
         },
         {
           "type": "invultekst",
-          "vraag": "Los op: twee tot de macht x is acht. Schrijf de waarde van x.",
+          "vraag": "Los op: \\(2^{x}=8\\). Schrijf de waarde van \\(x\\).",
           "antwoord": [
             "3",
             "drie"
           ],
-          "uitleg": "Acht is twee tot de derde, dus x is drie."
+          "uitleg": "\\(8=2^{3}\\), dus \\(x=3\\)."
         },
         {
           "type": "meerkeuze",
-          "vraag": "Wat is de bestaansvoorwaarde bij de logaritme van x min twee?",
+          "vraag": "Wat is de bestaansvoorwaarde bij \\(\\log(x-2)\\)?",
           "opties": [
-            "x is strikt groter dan het getal twee",
-            "x is groter dan of gelijk aan twee",
-            "x is strikt groter dan het getal nul",
-            "x is verschillend van het getal twee"
+            "\\(x>2\\)",
+            "\\(x\\geq 2\\)",
+            "\\(x>0\\)",
+            "\\(x\\neq 2\\)"
           ],
           "antwoord": 0,
-          "uitleg": "Het argument van een logaritme moet strikt positief zijn. Nul mag hier dus niet, anders dan bij een wortel."
+          "uitleg": "Het argument van een logaritme moet strikt positief zijn. \\(x=2\\) mag hier dus niet, anders dan bij een wortel."
         },
         {
           "type": "waarofniet",
-          "vraag": "Als de logaritme van x gelijk is aan de logaritme van y, en beide bestaan, dan is x gelijk aan y.",
+          "vraag": "Als \\(\\log x=\\log y\\) en beide bestaan, dan is \\(x=y\\).",
           "antwoord": true,
           "uitleg": "De logaritmische functie is strikt stijgend, dus elke waarde hoort bij precies één argument."
         },
         {
           "type": "meerkeuze",
-          "vraag": "Wat vertelt de discriminant van een tweedegraadsvergelijking je?",
+          "vraag": "Wat vertelt de discriminant \\(D=b^{2}-4ac\\) je?",
           "opties": [
-            "hoeveel reële oplossingen ze heeft",
+            "hoeveel reële oplossingen de vergelijking heeft",
             "hoe groot de grootste oplossing is",
             "waar de top van de parabool ligt",
             "of de parabool naar boven opent"
           ],
           "antwoord": 0,
-          "uitleg": "Positief geeft twee oplossingen, nul geeft er één, negatief geen enkele. De opening lees je af aan het teken van a."
+          "uitleg": "\\(D>0\\) geeft twee oplossingen, \\(D=0\\) één, \\(D<0\\) geen enkele. De opening lees je af aan het teken van \\(a\\)."
         },
         {
           "type": "invultekst",
-          "vraag": "Hoeveel is de discriminant van x kwadraat plus twee x plus één? Schrijf het getal.",
+          "vraag": "Hoeveel is de discriminant van \\(x^{2}+2x+1\\)? Schrijf het getal.",
           "antwoord": [
             "0",
             "nul"
           ],
-          "uitleg": "Vier min vier is nul, dus er is precies één oplossing: min één."
+          "uitleg": "\\(D=4-4=0\\), dus er is precies één oplossing: \\(x=-1\\)."
         },
         {
           "type": "meerkeuze",
-          "vraag": "Wat is de oplossing van: de wortel uit x plus één is gelijk aan x min één?",
+          "vraag": "Los op: \\(\\sqrt{x+1}=x-1\\).",
           "opties": [
-            "x is drie",
-            "x is nul",
-            "x is één",
-            "x is vier"
+            "\\(x=3\\)",
+            "\\(x=0\\)",
+            "\\(x=1\\)",
+            "\\(x=4\\)"
           ],
           "antwoord": 0,
-          "uitleg": "Kwadrateren geeft x kwadraat min drie x is nul, dus nul of drie. Nul valt weg, want dan zou de wortel min één moeten zijn."
+          "uitleg": "Kwadrateren geeft \\(x+1=x^{2}-2x+1\\), dus \\(x^{2}-3x=0\\) en \\(x=0\\) of \\(x=3\\). \\(x=0\\) valt weg, want dan zou \\(\\sqrt{1}=-1\\) moeten zijn."
         },
         {
           "type": "waarofniet",
-          "vraag": "In die vergelijking is nul ook een geldige oplossing.",
+          "vraag": "\\(x=0\\) is een oplossing van \\(\\sqrt{x+1}=x-1\\).",
           "antwoord": false,
-          "uitleg": "Vul nul in: links staat de wortel uit één, dus één, rechts min één. Dat klopt niet. Nul is een valse oplossing van het kwadrateren."
+          "uitleg": "Vul in: links \\(\\sqrt{1}=1\\), rechts \\(-1\\). Dat klopt niet. \\(x=0\\) is een valse oplossing die bij het kwadrateren ontstond."
         },
         {
           "type": "meerkeuze",
-          "vraag": "Hoeveel reële oplossingen heeft de vergelijking sinus x is nul?",
+          "vraag": "Los op: \\(3^{2x}=3^{x+4}\\).",
           "opties": [
-            "oneindig veel",
-            "precies twee",
-            "precies één",
-            "geen enkele"
+            "de exponenten gelijkstellen, dat geeft \\(x=4\\)",
+            "de grondtallen gelijkstellen, dat geeft \\(x=3\\)",
+            "van beide leden \\(\\log 4\\) nemen",
+            "beide leden door \\(3\\) delen, dan is \\(x=2\\)"
           ],
           "antwoord": 0,
-          "uitleg": "De sinusfunctie is periodiek, dus de nulwaarden herhalen zich telkens na pi."
-        },
-        {
-          "type": "meerkeuze",
-          "vraag": "Hoe los je drie tot de macht twee x is drie tot de macht x plus vier op?",
-          "opties": [
-            "de exponenten gelijkstellen, dat geeft x is vier",
-            "de grondtallen gelijkstellen, dat geeft x is drie",
-            "van beide leden de logaritme van vier nemen",
-            "beide leden door het getal drie delen, dan is x twee"
-          ],
-          "antwoord": 0,
-          "uitleg": "Bij gelijke grondtallen moeten de exponenten gelijk zijn: twee x is x plus vier, dus x is vier."
+          "uitleg": "Bij gelijke grondtallen moeten de exponenten gelijk zijn: \\(2x=x+4\\), dus \\(x=4\\)."
         },
         {
           "type": "waarofniet",
-          "vraag": "Elke vergelijking van de vorm f van x is nul heeft minstens één reële oplossing.",
+          "vraag": "Elke vergelijking van de vorm \\(f(x)=0\\) heeft minstens één reële oplossing.",
           "antwoord": false,
-          "uitleg": "Neem x kwadraat plus één. Die functie wordt nooit nul, want haar grafiek blijft boven de x-as."
+          "uitleg": "Neem \\(f(x)=x^{2}+1\\). Die wordt nooit \\(0\\), want haar grafiek blijft boven de \\(x\\)-as."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "De vergelijking \\(|x-1|=3\\) heeft twee oplossingen.",
+          "antwoord": true,
+          "uitleg": "\\(x-1=3\\) geeft \\(x=4\\), en \\(x-1=-3\\) geeft \\(x=-2\\). Een absolute waarde splitst in twee gevallen."
         },
         {
           "type": "invultekst",
-          "vraag": "Los op: vijf x min twintig is nul. Schrijf de waarde van x.",
+          "vraag": "Los op: \\(\\log_{2}(x+3)=\\log_{2}(2x-1)\\). Schrijf de waarde van \\(x\\).",
           "antwoord": [
             "4",
             "vier"
           ],
-          "uitleg": "Twintig gedeeld door vijf is vier."
+          "uitleg": "Gelijke logaritmen geven \\(x+3=2x-1\\), dus \\(x=4\\). Controleer het domein: \\(7>0\\) en \\(7>0\\), dus het klopt."
         },
         {
           "type": "meerkeuze",
-          "vraag": "Welke stap kan je oplossingen doen verliezen?",
+          "vraag": "Welke stap kan oplossingen doen verliezen?",
           "opties": [
-            "beide leden delen door een uitdrukking met x",
+            "beide leden delen door een uitdrukking met \\(x\\)",
             "bij beide leden hetzelfde getal optellen",
-            "beide leden met het getal twee vermenigvuldigen",
+            "beide leden met \\(2\\) vermenigvuldigen",
             "de termen binnen één lid van plaats wisselen"
           ],
           "antwoord": 0,
-          "uitleg": "Die uitdrukking kan nul zijn, en dan gooi je net die oplossing weg. Breng alles naar één lid en ontbind in plaats daarvan."
+          "uitleg": "Die uitdrukking kan \\(0\\) zijn, en dan gooi je net die oplossing weg. Breng alles naar één lid en ontbind in plaats daarvan."
         },
         {
           "type": "meerkeuze",
-          "vraag": "Je lost een vergelijking op met de grafische rekenapp. Wat noteer je als oplossing?",
+          "vraag": "Voor welke \\(m\\) heeft \\(x^{2}-4x+m=0\\) precies één oplossing?",
           "opties": [
-            "de x-waarden van de snijpunten",
-            "de y-waarden van de snijpunten",
-            "de coördinaten van beide toppen",
-            "de hellingen van de twee grafieken"
+            "\\(m=4\\)",
+            "\\(m=-4\\)",
+            "\\(m=2\\)",
+            "\\(m=16\\)"
           ],
           "antwoord": 0,
-          "uitleg": "De oplossingenverzameling bestaat uit x-waarden. De y-waarde hoort bij het punt, niet bij de oplossing."
+          "uitleg": "Precies één oplossing wil zeggen \\(D=0\\): \\(16-4m=0\\), dus \\(m=4\\). De vergelijking wordt dan \\((x-2)^{2}=0\\)."
         }
       ]
     },
@@ -1011,76 +1005,76 @@
       "vragen": [
         {
           "type": "meerkeuze",
-          "vraag": "Wat betekent f van x groter dan nul op de grafiek?",
+          "vraag": "Wat betekent \\(f(x)>0\\) op de grafiek?",
           "opties": [
-            "de grafiek ligt boven de horizontale as",
-            "de grafiek ligt boven de verticale as",
+            "de grafiek ligt boven de \\(x\\)-as",
+            "de grafiek ligt rechts van de \\(y\\)-as",
             "de grafiek stijgt op dat hele stuk",
-            "de grafiek ligt onder de horizontale as"
+            "de grafiek ligt onder de \\(x\\)-as"
           ],
           "antwoord": 0,
-          "uitleg": "Het teken van de functiewaarde is de hoogte ten opzichte van de x-as. Stijgen is iets anders: dat gaat over de richting."
+          "uitleg": "Het teken van de functiewaarde is de hoogte ten opzichte van de \\(x\\)-as. Stijgen is iets anders: dat gaat over de richting."
         },
         {
           "type": "meerkeuze",
-          "vraag": "Wat betekent f van x kleiner dan g van x op de grafiek?",
+          "vraag": "Wat betekent \\(f(x)<g(x)\\) op de grafiek?",
           "opties": [
-            "de grafiek van f ligt onder die van g",
-            "de grafiek van f ligt boven die van g",
-            "de grafiek van f daalt sneller dan die van g",
-            "de grafiek van f snijdt die van g in twee punten"
+            "de grafiek van \\(f\\) ligt onder die van \\(g\\)",
+            "de grafiek van \\(f\\) ligt boven die van \\(g\\)",
+            "de grafiek van \\(f\\) daalt sneller dan die van \\(g\\)",
+            "de grafieken snijden elkaar in twee punten"
           ],
           "antwoord": 0,
           "uitleg": "Je leest af op welke intervallen de ene kromme onder de andere loopt. De snijpunten zijn de grenzen."
         },
         {
           "type": "invultekst",
-          "vraag": "De oplossing van x kwadraat min vier kleiner dan of gelijk aan nul is een interval. Schrijf de linkergrens.",
+          "vraag": "De oplossing van \\(x^{2}-4\\leq 0\\) is een interval. Schrijf de linkergrens.",
           "antwoord": [
             "-2",
             "min 2"
           ],
-          "uitleg": "De nulwaarden zijn min twee en twee, en tussen de nulwaarden is de dalparabool negatief. De oplossing is dus min twee tot en met twee."
+          "uitleg": "De nulwaarden zijn \\(-2\\) en \\(2\\), en tussen de nulwaarden ligt de dalparabool onder de as. De oplossing is \\(\\left[-2,2\\right]\\)."
         },
         {
           "type": "waarofniet",
-          "vraag": "Als je beide leden van een ongelijkheid door een negatief getal deelt, draait het ongelijkheidsteken om.",
+          "vraag": "Deel je beide leden van een ongelijkheid door een negatief getal, dan draait het ongelijkheidsteken om.",
           "antwoord": true,
-          "uitleg": "Twee is kleiner dan vier, maar min twee is groter dan min vier. Dat omdraaien vergeten is de meest gemaakte fout van dit hoofdstuk."
+          "uitleg": "\\(2<4\\), maar \\(-2>-4\\). Dat omdraaien vergeten is de meest gemaakte fout van dit hoofdstuk."
         },
         {
           "type": "meerkeuze",
-          "vraag": "Wat is de oplossing van x kwadraat min vijf x plus zes groter dan nul?",
+          "vraag": "Wat is de oplossing van \\(x^{2}-5x+6>0\\)?",
           "opties": [
-            "x kleiner dan twee, of x groter dan drie",
-            "x groter dan twee en x kleiner dan drie",
-            "x kleiner dan drie, of x groter dan twee",
-            "x groter dan twee, of x groter dan drie"
+            "\\(x<2\\) of \\(x>3\\)",
+            "\\(2<x<3\\)",
+            "\\(x<3\\) of \\(x>2\\)",
+            "\\(x>2\\) of \\(x>3\\)"
           ],
           "antwoord": 0,
-          "uitleg": "De nulwaarden zijn twee en drie, en a is positief, dus de parabool ligt boven de x-as buiten dat interval."
+          "uitleg": "De nulwaarden zijn \\(2\\) en \\(3\\), en \\(a>0\\), dus de parabool ligt boven de \\(x\\)-as buiten dat interval."
         },
         {
           "type": "meerkeuze",
-          "vraag": "Een tweedegraadsfunctie heeft positieve a en twee nulwaarden. Waar is ze negatief?",
+          "vraag": "Een tweedegraadsfunctie heeft \\(a>0\\) en twee nulwaarden. Waar is ze negatief?",
           "opties": [
             "tussen de twee nulwaarden in",
             "buiten de twee nulwaarden",
             "links van de kleinste nulwaarde",
-            "nergens, want a is positief"
+            "nergens, want \\(a>0\\)"
           ],
           "antwoord": 0,
-          "uitleg": "Bij een dalparabool duikt de grafiek net tussen de nulwaarden onder de x-as."
+          "uitleg": "Bij een dalparabool duikt de grafiek net tussen de nulwaarden onder de \\(x\\)-as."
         },
         {
           "type": "waarofniet",
-          "vraag": "De ongelijkheid x kwadraat plus één groter dan nul geldt voor elke reële x.",
+          "vraag": "\\(x^{2}+1>0\\) geldt voor elke \\(x\\in\\mathbb{R}\\).",
           "antwoord": true,
-          "uitleg": "Een kwadraat is nooit negatief, dus de som met één is altijd minstens één. De discriminant is negatief en de parabool ligt volledig boven de as."
+          "uitleg": "Een kwadraat is nooit negatief, dus de som met \\(1\\) is altijd minstens \\(1\\). \\(D=-4<0\\) en de parabool ligt volledig boven de as."
         },
         {
           "type": "invultekst",
-          "vraag": "Hoeveel reële oplossingen heeft x kwadraat kleiner dan nul? Schrijf het cijfer.",
+          "vraag": "Hoeveel reële oplossingen heeft \\(x^{2}<0\\)? Schrijf het cijfer.",
           "antwoord": [
             "0",
             "nul",
@@ -1090,15 +1084,15 @@
         },
         {
           "type": "meerkeuze",
-          "vraag": "Hoe noteer je dat x tussen min twee en twee ligt, grenzen inbegrepen?",
+          "vraag": "Hoe noteer je \\(-2\\leq x\\leq 2\\) als interval?",
           "opties": [
-            "als een gesloten interval van min twee tot twee",
-            "als een open interval van min twee tot twee",
-            "als de vereniging van twee losse intervallen",
-            "als het interval van nul tot en met twee"
+            "\\(\\left[-2,2\\right]\\)",
+            "\\(\\left]-2,2\\right[\\)",
+            "\\(\\left]-\\infty,-2\\right]\\cup\\left[2,+\\infty\\right[\\)",
+            "\\(\\left[0,2\\right]\\)"
           ],
           "antwoord": 0,
-          "uitleg": "Grenzen inbegrepen betekent vierkante haken aan beide kanten. Bij een strikte ongelijkheid zouden ze open staan."
+          "uitleg": "Grenzen inbegrepen betekent vierkante haken die naar binnen wijzen. Bij een strikte ongelijkheid zouden ze omgekeerd staan."
         },
         {
           "type": "waarofniet",
@@ -1108,36 +1102,36 @@
         },
         {
           "type": "meerkeuze",
-          "vraag": "Wat is de oplossing van twee x min zes groter dan nul?",
+          "vraag": "Wat is de oplossing van \\(2x-6>0\\)?",
           "opties": [
-            "x groter dan drie",
-            "x kleiner dan drie",
-            "x groter dan zes",
-            "x kleiner dan min drie"
+            "\\(x>3\\)",
+            "\\(x<3\\)",
+            "\\(x>6\\)",
+            "\\(x<-3\\)"
           ],
           "antwoord": 0,
-          "uitleg": "Zes erbij en door twee delen. Je deelt door een positief getal, dus het teken blijft staan."
+          "uitleg": "\\(2x>6\\), en delen door \\(2\\) is delen door een positief getal, dus het teken blijft staan."
         },
         {
           "type": "invultekst",
-          "vraag": "De oplossing van drie x plus negen kleiner dan nul is x kleiner dan een getal. Welk getal?",
+          "vraag": "De oplossing van \\(3x+9<0\\) is \\(x<\\) een getal. Welk getal?",
           "antwoord": [
             "-3",
             "min 3"
           ],
-          "uitleg": "Negen eraf en door drie delen geeft x kleiner dan min drie."
+          "uitleg": "\\(3x<-9\\), dus \\(x<-3\\)."
         },
         {
           "type": "meerkeuze",
           "vraag": "Wat is de eerste stap bij een tweedegraadsongelijkheid?",
           "opties": [
-            "alles naar één lid brengen zodat er nul overblijft",
-            "beide leden door de coëfficiënt van x kwadraat delen",
-            "de wortel trekken uit beide leden van de ongelijkheid",
+            "alles naar één lid brengen zodat er \\(0\\) overblijft",
+            "beide leden door \\(a\\) delen",
+            "de wortel trekken uit beide leden",
             "het ongelijkheidsteken meteen laten omdraaien"
           ],
           "antwoord": 0,
-          "uitleg": "Pas met nul in het andere lid kan je nulwaarden zoeken en een tekenschema maken."
+          "uitleg": "Pas met \\(0\\) in het andere lid kan je nulwaarden zoeken en een tekenschema maken."
         },
         {
           "type": "waarofniet",
@@ -1147,66 +1141,66 @@
         },
         {
           "type": "meerkeuze",
-          "vraag": "Wat is de oplossing van: x min één, maal x plus twee, kleiner dan nul?",
+          "vraag": "Wat is de oplossing van \\((x-1)(x+2)<0\\)?",
           "opties": [
-            "x tussen min twee en één",
-            "x tussen min één en twee",
-            "x kleiner dan min twee of groter dan één",
-            "x kleiner dan min één of groter dan twee"
+            "\\(-2<x<1\\)",
+            "\\(-1<x<2\\)",
+            "\\(x<-2\\) of \\(x>1\\)",
+            "\\(x<-1\\) of \\(x>2\\)"
           ],
           "antwoord": 0,
-          "uitleg": "Een product is negatief als de factoren een verschillend teken hebben, en dat is net tussen de nulwaarden min twee en één."
+          "uitleg": "Een product is negatief als de factoren een verschillend teken hebben, en dat is net tussen de nulwaarden \\(-2\\) en \\(1\\)."
         },
         {
           "type": "meerkeuze",
-          "vraag": "Een tweedegraadsfunctie heeft negatieve a en twee nulwaarden. Waar is ze positief?",
+          "vraag": "Een tweedegraadsfunctie heeft \\(a<0\\) en twee nulwaarden. Waar is ze positief?",
           "opties": [
             "tussen de twee nulwaarden in",
             "buiten de twee nulwaarden",
             "rechts van de grootste nulwaarde",
-            "nergens, want a is negatief"
+            "nergens, want \\(a<0\\)"
           ],
           "antwoord": 0,
-          "uitleg": "Bij een bergparabool ligt net het middenstuk boven de x-as."
+          "uitleg": "Bij een bergparabool ligt net het middenstuk boven de \\(x\\)-as."
         },
         {
           "type": "waarofniet",
-          "vraag": "De oplossing van f van x groter dan of gelijk aan g van x lees je af waar de grafiek van f boven of op die van g ligt.",
+          "vraag": "De oplossing van \\(f(x)\\geq g(x)\\) lees je af waar de grafiek van \\(f\\) boven of op die van \\(g\\) ligt.",
           "antwoord": true,
           "uitleg": "De snijpunten horen er dan bij, want daar zijn de twee functiewaarden gelijk."
         },
         {
           "type": "invultekst",
-          "vraag": "Hoeveel nulwaarden zet je in het tekenschema van x kwadraat min negen? Schrijf het cijfer.",
+          "vraag": "Hoeveel nulwaarden zet je in het tekenschema van \\(x^{2}-9\\)? Schrijf het cijfer.",
           "antwoord": [
             "2",
             "twee"
           ],
-          "uitleg": "Min drie en drie. Die twee verdelen de getallenas in de drie stukken van het schema."
+          "uitleg": "\\(-3\\) en \\(3\\). Die twee verdelen de getallenas in de drie stukken van het schema."
         },
         {
           "type": "meerkeuze",
-          "vraag": "Waarom mag je een ongelijkheid niet zomaar met x vermenigvuldigen?",
+          "vraag": "Waarom mag je een ongelijkheid niet zomaar met \\(x\\) vermenigvuldigen?",
           "opties": [
-            "omdat het teken van x niet gekend is",
-            "omdat x een onbekende en geen getal is",
+            "omdat het teken van \\(x\\) niet gekend is",
+            "omdat \\(x\\) een onbekende en geen getal is",
             "omdat vermenigvuldigen oplossingen bijmaakt",
             "omdat de graad daardoor te hoog wordt"
           ],
           "antwoord": 0,
-          "uitleg": "Is x negatief, dan moet het ongelijkheidsteken omdraaien, en is x nul, dan klopt er niets meer. Breng alles naar één lid in plaats daarvan."
+          "uitleg": "Is \\(x<0\\), dan moet het teken omdraaien, en is \\(x=0\\), dan klopt er niets meer. Breng alles naar één lid in plaats daarvan."
         },
         {
           "type": "meerkeuze",
-          "vraag": "Wat is de oplossing van x kwadraat groter dan of gelijk aan negen?",
+          "vraag": "Wat is de oplossing van \\(\\dfrac{x-1}{x+2}\\geq 0\\)?",
           "opties": [
-            "x kleiner dan of gelijk aan min drie, of x groter dan of gelijk aan drie",
-            "x groter dan of gelijk aan min drie en kleiner dan of gelijk aan drie",
-            "x groter dan of gelijk aan drie, en verder niets",
-            "x groter dan of gelijk aan negen, of kleiner dan min negen"
+            "\\(x<-2\\) of \\(x\\geq 1\\)",
+            "\\(-2<x\\leq 1\\)",
+            "\\(x\\leq -2\\) of \\(x\\geq 1\\)",
+            "\\(x\\geq 1\\)"
           ],
           "antwoord": 0,
-          "uitleg": "Breng alles naar één lid: x kwadraat min negen groter dan of gelijk aan nul. Buiten de nulwaarden min drie en drie ligt de dalparabool boven de as."
+          "uitleg": "Teller en noemer moeten hetzelfde teken hebben. In \\(x=-2\\) bestaat de breuk niet, dus die grens blijft open; in \\(x=1\\) is de breuk \\(0\\) en dat mag."
         }
       ]
     },

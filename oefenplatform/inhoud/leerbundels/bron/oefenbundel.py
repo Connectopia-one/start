@@ -43,6 +43,8 @@ Daarna:  schrijf(OEFENBUNDEL, "rekenen-en-breuken-oefeningen")
 """
 import pathlib, html as _html
 
+import re
+
 HIER = pathlib.Path(__file__).parent
 CSS = HIER.joinpath("stijl.css").read_text(encoding="utf-8")
 OEFEN_CSS = HIER.joinpath("oefen.css").read_text(encoding="utf-8")
@@ -242,8 +244,33 @@ def render(bundel):
 """
 
 
+def formules_veilig(html: str) -> str:
+    r"""Zet <, > en & binnen een formule om in hun html-schrijfwijze.
+
+    Een bundel is html, en een formule staat daar gewoon als tekst in. Schrijf
+    je \(f(x)<g(x)\), dan leest de browser "<g(x)..." als het begin van een
+    tag en slikt hij alles op tot het volgende ">" — meestal het einde van een
+    </strong>, waarna de halve bundel vet staat. Precies dat gebeurde op
+    10 oktober 2026.
+
+    Hier wordt dat rechtgezet vlak voor het schrijven, zodat je in de
+    bronbestanden gewoon < en > mag typen. KaTeX leest de tekst van de pagina,
+    en daar staat na deze stap weer het echte teken.
+    """
+    def vervang(m):
+        binnen = m.group(2)
+        binnen = binnen.replace("&", "&amp;").replace("<", "&lt;").replace(">", "&gt;")
+        return m.group(1) + binnen + m.group(3)
+
+    return re.sub(
+        r"(\\[\[(])([\s\S]+?)(\\[\])])",
+        vervang,
+        html,
+    )
+
+
 def schrijf(bundel, bestandsnaam):
     pad = HIER / (bestandsnaam + ".html")
-    pad.write_text(render(bundel), encoding="utf-8")
+    pad.write_text(formules_veilig(render(bundel)), encoding="utf-8")
     print("geschreven:", pad.name)
     return pad

@@ -316,111 +316,115 @@ BUNDELS["vergelijkingen-en-ongelijkheden-oplossen-beyond"] = dict(
     onder="Algebraïsch en grafisch, met bestaansvoorwaarden, kwadrateringsvoorwaarden en tekenschema's.",
     secties=[
         dict(kop="Grafisch oplossen", blokken=[
-            ("p", "<strong>De oplossingen van f van x is nul zijn de snijpunten met de horizontale "
-                  "as.</strong> Dat zijn net de nulwaarden. Los je <strong>f van x is g van x</strong> "
-                  "grafisch op, dan lees je <strong>de x-waarden van de gemeenschappelijke punten</strong> "
-                  "af: op een snijpunt zijn beide functiewaarden gelijk, en de oplossing is de x, niet de y."),
-            ("p", "Dat geldt ook als je met een grafische rekenapp werkt: <strong>je noteert de x-waarden "
-                  "van de snijpunten</strong>. De oplossingenverzameling bestaat uit x-waarden; de y-waarde "
-                  "hoort bij het punt, niet bij de oplossing."),
-            ("kader", "<strong>Een vergelijking grafisch oplossen geeft niet altijd een exact antwoord.</strong> "
-                      "Meestal lees je een benadering af. Wil je exact werken, dan moet je algebraïsch "
-                      "oplossen."),
+            ("p", r"<strong>De oplossingen van \(f(x)=0\) zijn de snijpunten met de \(x\)-as.</strong> Dat "
+                  r"zijn net de nulwaarden. Los je <strong>\(f(x)=g(x)\)</strong> grafisch op, dan lees je "
+                  r"<strong>de \(x\)-waarden van de snijpunten</strong> af: op een snijpunt zijn beide "
+                  r"functiewaarden gelijk, en de oplossing is de \(x\), niet de \(y\)."),
+            ("p", r"Dat geldt ook met een grafische rekenapp: je noteert de \(x\)-waarden van de snijpunten. "
+                  r"De oplossingenverzameling bestaat uit \(x\)-waarden; de \(y\)-waarde hoort bij het punt, "
+                  r"niet bij de oplossing."),
+            ("kader", r"<strong>Een vergelijking grafisch oplossen geeft niet altijd een exact "
+                      r"antwoord.</strong> Meestal lees je een benadering af. Wil je exact werken, dan moet "
+                      r"je algebraïsch oplossen."),
         ]),
         dict(kop="Bestaansvoorwaarden en kwadrateringsvoorwaarden", blokken=[
-            ("p", "Voor je begint te rekenen, schrijf je op wat x mág zijn. Bij de "
-                  "<strong>vierkantswortel uit x min drie</strong> is de bestaansvoorwaarde "
-                  "<strong>x groter dan of gelijk aan drie</strong>: wat onder een even wortel staat mag "
-                  "niet negatief zijn, en nul mag wel. Bij de <strong>logaritme van x min twee</strong> is "
-                  "ze <strong>x strikt groter dan twee</strong>: het argument van een logaritme moet strikt "
-                  "positief zijn, dus nul mag hier niet."),
-            ("p", "<strong>Kwadrateren is geen gelijkwaardige bewerking.</strong> Min twee en twee hebben "
-                  "hetzelfde kwadraat, dus <strong>door te kwadrateren kan je oplossingen bijkrijgen die "
-                  "niet aan de oorspronkelijke vergelijking voldoen</strong>. Daarom moet je na het "
-                  "kwadrateren van een irrationale vergelijking <strong>elke gevonden oplossing in de "
-                  "oorspronkelijke vergelijking controleren</strong>."),
-            ("p", "Voorbeeld: <strong>de wortel uit x plus één is gelijk aan x min één</strong>. Kwadrateren "
-                  "geeft x kwadraat min drie x is nul, dus nul of drie. <strong>De oplossing is x is "
-                  "drie.</strong> <strong>Nul is geen geldige oplossing</strong>: vul het in en links staat "
-                  "de wortel uit één, dus één, terwijl rechts min één staat. Nul is een valse oplossing van "
-                  "het kwadrateren."),
+            ("p", r"Voor je begint te rekenen, schrijf je op wat \(x\) mág zijn. Bij \(\sqrt{x-3}\) is de "
+                  r"bestaansvoorwaarde <strong>\(x\geq 3\)</strong>: wat onder een even wortel staat mag "
+                  r"niet negatief zijn, en \(0\) mag wel. Bij \(\log(x-2)\) is ze "
+                  r"<strong>\(x>2\)</strong>: het argument van een logaritme moet strikt positief zijn, "
+                  r"dus \(0\) mag hier niet."),
+            ("p", r"<strong>Kwadrateren is geen gelijkwaardige bewerking.</strong> \(-2\) en \(2\) hebben "
+                  r"hetzelfde kwadraat, dus je kan er oplossingen bij krijgen die niet aan de "
+                  r"oorspronkelijke vergelijking voldoen. Daarom moet je na het kwadrateren van een "
+                  r"irrationale vergelijking <strong>elke gevonden oplossing in de oorspronkelijke "
+                  r"vergelijking controleren</strong>."),
+            ("p", r"Voorbeeld: \(\sqrt{x+1}=x-1\). Kwadrateren geeft \(x+1=x^{2}-2x+1\), dus "
+                  r"\(x^{2}-3x=0\) en \(x=0\) of \(x=3\). <strong>De enige oplossing is \(x=3\).</strong> "
+                  r"Vul \(x=0\) in en links staat \(\sqrt{1}=1\), terwijl rechts \(-1\) staat: een valse "
+                  r"oplossing die bij het kwadrateren ontstond."),
         ]),
         dict(kop="Vergelijkingen van elk soort", blokken=[
             ("p", tabel(["Vergelijking", "Hoe je ze aanpakt", "Oplossing"], [
-                ["vijf x min twintig is nul", "twintig gedeeld door vijf", "x is vier"],
-                ["x kwadraat is negen", "de wortel nemen, allebei de tekens", "twee oplossingen: drie en min drie"],
-                ["twee tot de macht x is acht", "acht schrijven als twee tot de derde", "x is drie"],
-                ["drie tot de macht twee x is drie tot de macht x plus vier", "de exponenten gelijkstellen", "x is vier"],
-                ["sinus x is nul", "de functie is periodiek", "oneindig veel oplossingen"],
+                [r"\(5x-20=0\)", "overbrengen en delen", r"\(x=4\)"],
+                [r"\(x^{2}=9\)", "de wortel nemen, allebei de tekens", r"\(x=3\) en \(x=-3\)"],
+                [r"\(|x-1|=3\)", "splitsen in twee gevallen", r"\(x=4\) en \(x=-2\)"],
+                [r"\(2^{x}=8\)", r"\(8\) schrijven als \(2^{3}\)", r"\(x=3\)"],
+                [r"\(3^{2x}=3^{x+4}\)", "de exponenten gelijkstellen", r"\(x=4\)"],
+                [r"\(\log_{2}(x+3)=\log_{2}(2x-1)\)", "de argumenten gelijkstellen, dan het domein nakijken", r"\(x=4\)"],
+                [r"\(\sin x=0\)", "de functie is periodiek", "oneindig veel oplossingen"],
             ])),
-            ("p", "De <strong>discriminant van een tweedegraadsvergelijking vertelt hoeveel reële "
-                  "oplossingen ze heeft</strong>: positief geeft er twee, nul geeft er één, negatief geen "
-                  "enkele. Bij <strong>x kwadraat plus twee x plus één</strong> is de discriminant "
-                  "<strong>nul</strong>, dus er is precies één oplossing, min één. Het teken van a bepaalt "
-                  "alleen de opening van de parabool."),
-            ("p", "<strong>Is de logaritme van x gelijk aan die van y, en bestaan ze allebei, dan is x "
-                  "gelijk aan y</strong>: de logaritmische functie is strikt stijgend, dus elke waarde hoort "
-                  "bij precies één argument."),
-            ("weetje", "<strong>Niet elke vergelijking van de vorm f van x is nul heeft een reële "
-                       "oplossing.</strong> Neem x kwadraat plus één: die functie wordt nooit nul, want haar "
-                       "grafiek blijft volledig boven de x-as."),
-            ("kader", "<strong>Deel nooit beide leden door een uitdrukking met x in.</strong> Die uitdrukking "
-                      "kan nul zijn, en dan gooi je net die oplossing weg. Breng alles naar één lid en "
-                      "ontbind in factoren."),
+            ("p", r"De <strong>discriminant \(D=b^{2}-4ac\)</strong> vertelt hoeveel reële oplossingen een "
+                  r"tweedegraadsvergelijking heeft: \(D>0\) geeft er twee, \(D=0\) één, \(D<0\) geen "
+                  r"enkele. Bij \(x^{2}+2x+1\) is \(D=4-4=0\), dus precies één oplossing, \(x=-1\). Het "
+                  r"teken van \(a\) bepaalt alleen de opening van de parabool."),
+            ("p", r"Omgekeerd bepaalt die discriminant een onbekende coëfficiënt. Voor welke \(m\) heeft "
+                  r"\(x^{2}-4x+m=0\) precies één oplossing? Uit \(D=16-4m=0\) volgt \(m=4\), en de "
+                  r"vergelijking wordt \((x-2)^{2}=0\)."),
+            ("p", r"<strong>Is \(\log x=\log y\) en bestaan ze allebei, dan is \(x=y\)</strong>: de "
+                  r"logaritmische functie is strikt stijgend, dus elke waarde hoort bij precies één "
+                  r"argument."),
+            ("weetje", r"<strong>Niet elke vergelijking \(f(x)=0\) heeft een reële oplossing.</strong> Neem "
+                       r"\(f(x)=x^{2}+1\): die functie wordt nooit \(0\), want haar grafiek blijft volledig "
+                       r"boven de \(x\)-as."),
+            ("kader", r"<strong>Deel nooit beide leden door een uitdrukking met \(x\) in.</strong> Die "
+                      r"uitdrukking kan \(0\) zijn, en dan gooi je net die oplossing weg. Breng alles naar "
+                      r"één lid en ontbind in factoren."),
         ]),
         dict(kop="Ongelijkheden lezen van de grafiek", blokken=[
-            ("p", "<strong>f van x groter dan nul betekent dat de grafiek boven de horizontale as "
-                  "ligt.</strong> Het teken van de functiewaarde is de hoogte ten opzichte van de x-as; "
-                  "stijgen is iets anders, dat gaat over de richting. En <strong>f van x kleiner dan g van "
-                  "x betekent dat de grafiek van f onder die van g ligt</strong>, met de snijpunten als "
-                  "grenzen. Bij <strong>groter dan of gelijk aan</strong> horen de snijpunten erbij, want "
-                  "daar zijn de twee functiewaarden gelijk."),
-            ("p", "<strong>Ongelijkheden los je grafisch op.</strong> Alleen de tweedegraadsongelijkheid "
-                  "moet je ook algebraïsch aankunnen; een ongelijkheid van de vijfde graad hoef je niet met "
-                  "de hand te ontbinden."),
+            ("p", r"<strong>\(f(x)>0\) betekent dat de grafiek boven de \(x\)-as ligt.</strong> Het teken "
+                  r"van de functiewaarde is de hoogte ten opzichte van de \(x\)-as; stijgen is iets anders, "
+                  r"dat gaat over de richting. En <strong>\(f(x)<g(x)\) betekent dat de grafiek van \(f\) "
+                  r"onder die van \(g\) ligt</strong>, met de snijpunten als grenzen. Bij \(f(x)\geq g(x)\) "
+                  r"horen de snijpunten erbij, want daar zijn de twee functiewaarden gelijk."),
+            ("p", r"<strong>Ongelijkheden los je grafisch op.</strong> Alleen de tweedegraadsongelijkheid "
+                  r"moet je ook algebraïsch aankunnen; een ongelijkheid van de vijfde graad hoef je niet "
+                  r"met de hand te ontbinden."),
         ]),
         dict(kop="Tekenschema en oplossingenverzameling", blokken=[
-            ("p", "<strong>De eerste stap bij een tweedegraadsongelijkheid is alles naar één lid brengen "
-                  "zodat er nul overblijft.</strong> Pas met nul in het andere lid kan je nulwaarden zoeken "
-                  "en een tekenschema maken. In het tekenschema van <strong>x kwadraat min negen</strong> "
-                  "zet je <strong>twee nulwaarden</strong>, min drie en drie; die verdelen de getallenas in "
-                  "drie stukken."),
-            ("p", "Daarna gebruik je de vorm van de parabool van die <strong>tweedegraadsfunctie</strong>. Bij een "
-                  "<strong>positieve a met twee nulwaarden is de functie negatief tussen de twee nulwaarden in</strong>; bij een "
-                  "<strong>negatieve a met twee nulwaarden is ze net dáár positief</strong>."),
+            ("p", r"<strong>De eerste stap bij een tweedegraadsongelijkheid is alles naar één lid brengen "
+                  r"zodat er \(0\) overblijft.</strong> Pas dan kan je nulwaarden zoeken en een tekenschema "
+                  r"maken. In het tekenschema van \(x^{2}-9\) zet je twee nulwaarden, \(-3\) en \(3\); die "
+                  r"verdelen de getallenas in drie stukken."),
+            ("p", r"Daarna gebruik je de vorm van de parabool. Bij <strong>\(a>0\) met twee nulwaarden is "
+                  r"de functie negatief tussen de nulwaarden in</strong>; bij <strong>\(a<0\) met twee "
+                  r"nulwaarden is ze net dáár positief</strong>."),
             ("p", tabel(["Ongelijkheid", "Oplossing", "Waarom"], [
-                ["twee x min zes groter dan nul", "x groter dan drie", "je deelt door een positief getal, het teken blijft"],
-                ["drie x plus negen kleiner dan nul", "x kleiner dan min drie", "negen eraf en door drie delen"],
-                ["x kwadraat min vier kleiner dan of gelijk aan nul", "van min twee tot en met twee", "tussen de nulwaarden duikt de dalparabool onder de as"],
-                ["x kwadraat min vijf x plus zes groter dan nul", "x kleiner dan twee, of x groter dan drie", "buiten de nulwaarden ligt de dalparabool boven de as"],
-                ["x min één, maal x plus twee, kleiner dan nul", "x tussen min twee en één", "een product is negatief bij een verschillend teken"],
-                ["x kwadraat groter dan of gelijk aan negen", "x kleiner dan of gelijk aan min drie, of x groter dan of gelijk aan drie", "buiten de nulwaarden min drie en drie"],
+                [r"\(2x-6>0\)", r"\(x>3\)", "je deelt door een positief getal, het teken blijft"],
+                [r"\(3x+9<0\)", r"\(x<-3\)", "overbrengen en door drie delen"],
+                [r"\(x^{2}-4\leq 0\)", r"\(\left[-2,2\right]\)", "tussen de nulwaarden duikt de dalparabool onder de as"],
+                [r"\(x^{2}-5x+6>0\)", r"\(x<2\) of \(x>3\)", "buiten de nulwaarden ligt de dalparabool boven de as"],
+                [r"\((x-1)(x+2)<0\)", r"\(-2<x<1\)", "een product is negatief bij een verschillend teken"],
+                [r"\(x^{2}\geq 9\)", r"\(x\leq -3\) of \(x\geq 3\)", r"buiten de nulwaarden \(-3\) en \(3\)"],
+                [r"\(\dfrac{x-1}{x+2}\geq 0\)", r"\(x<-2\) of \(x\geq 1\)", r"teller en noemer hetzelfde teken; in \(-2\) bestaat de breuk niet"],
             ])),
-            ("p", "<strong>x kwadraat plus één groter dan nul geldt voor elke reële x</strong>: een kwadraat "
-                  "is nooit negatief, dus de som met één is altijd minstens één. Omgekeerd heeft "
-                  "<strong>x kwadraat kleiner dan nul geen enkele reële oplossing</strong>."),
-            ("p", "Het resultaat noteer je als <strong>interval</strong>. Ligt x tussen min twee en twee met "
-                  "de grenzen inbegrepen, dan is dat een <strong>gesloten interval</strong>, met vierkante "
-                  "haken aan beide kanten. Bij een strikte ongelijkheid staan de haken open. Let op: "
-                  "<strong>een ongelijkheid heeft meestal een heel interval als oplossing</strong>, dus "
-                  "oneindig veel getallen, en niet hoogstens twee losse oplossingen."),
-            ("kader", "Twee valkuilen die bij elkaar horen. <strong>Deel je beide leden door een negatief "
-                      "getal, dan draait het ongelijkheidsteken om</strong>: twee is kleiner dan vier, maar "
-                      "min twee is groter dan min vier. En <strong>vermenigvuldig een ongelijkheid nooit "
-                      "zomaar met x</strong>, want het teken van x is niet gekend: is x negatief, dan moet "
-                      "het teken omdraaien, en is x nul, dan klopt er niets meer."),
+            ("p", r"Let op die laatste: bij een <strong>breuk</strong> maak je een tekenschema van teller en "
+                  r"noemer apart. De nulwaarde van de teller mag erbij staan wanneer het teken \(\geq\) is, "
+                  r"maar de nulwaarde van de noemer <strong>nooit</strong>, want daar bestaat de breuk niet."),
+            ("p", r"<strong>\(x^{2}+1>0\) geldt voor elke \(x\in\mathbb{R}\)</strong>: een kwadraat is nooit "
+                  r"negatief, dus de som met \(1\) is altijd minstens \(1\). Omgekeerd heeft \(x^{2}<0\) "
+                  r"geen enkele reële oplossing."),
+            ("p", r"Het resultaat noteer je als <strong>interval</strong>. Grenzen inbegrepen geeft "
+                  r"\(\left[-2,2\right]\), grenzen uitgesloten \(\left]-2,2\right[\). Een ongelijkheid heeft "
+                  r"meestal een heel interval als oplossing, dus oneindig veel getallen, en niet hoogstens "
+                  r"twee losse oplossingen."),
+            ("kader", r"Twee valkuilen die bij elkaar horen. <strong>Deel je beide leden door een negatief "
+                      r"getal, dan draait het ongelijkheidsteken om</strong>: \(2<4\), maar \(-2>-4\). En "
+                      r"<strong>vermenigvuldig een ongelijkheid nooit zomaar met \(x\)</strong>, want het "
+                      r"teken van \(x\) is niet gekend: is \(x<0\), dan moet het teken omdraaien, en is "
+                      r"\(x=0\), dan klopt er niets meer."),
         ]),
     ],
     onthoud=[
-        "Bij f van x is g van x is de oplossing de x van het snijpunt, niet de y.",
-        "Wat onder een even wortel staat mag niet negatief zijn; het argument van een logaritme moet strikt positief zijn.",
-        "Na het kwadrateren controleer je elke oplossing in de oorspronkelijke vergelijking.",
-        "De discriminant: positief geeft twee oplossingen, nul geeft er één, negatief geen enkele.",
-        "Deel nooit beide leden door een uitdrukking met x in.",
-        "f van x groter dan nul betekent dat de grafiek boven de horizontale as ligt.",
-        "Breng bij een tweedegraadsongelijkheid eerst alles naar één lid zodat er nul overblijft.",
-        "Bij een positieve a is de functie negatief tussen de twee nulwaarden in.",
-        "Deel je beide leden door een negatief getal, dan draait het ongelijkheidsteken om.",
+        r"Bij \(f(x)=g(x)\) is de oplossing de \(x\) van het snijpunt, niet de \(y\).",
+        r"Onder een even wortel mag niets negatiefs staan; het argument van een logaritme moet \(>0\) zijn.",
+        r"Na het kwadrateren controleer je elke oplossing in de oorspronkelijke vergelijking.",
+        r"\(D>0\): twee oplossingen. \(D=0\): één. \(D<0\): geen.",
+        r"Deel nooit beide leden door een uitdrukking met \(x\) in.",
+        r"\(f(x)>0\) betekent dat de grafiek boven de \(x\)-as ligt.",
+        r"Breng bij een tweedegraadsongelijkheid eerst alles naar één lid zodat er \(0\) overblijft.",
+        r"Bij \(a>0\) is de functie negatief tussen de twee nulwaarden in.",
+        r"Deel je door een negatief getal, dan draait het ongelijkheidsteken om.",
+        r"Bij een breuk hoort de nulwaarde van de noemer nooit bij de oplossing.",
     ],
 )
 
