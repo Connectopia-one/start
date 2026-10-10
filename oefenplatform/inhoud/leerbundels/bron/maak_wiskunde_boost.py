@@ -470,98 +470,98 @@ BUNDELS["ordenen-afronden-intervallen-en-wetenschappelijke-notatie-boost-doorstr
     onder="Getallen vergelijken en schatten, netjes afronden, intervallen lezen en schrijven, en werken met machten van tien.",
     secties=[
         dict(kop="Ordenen op de getallenas", blokken=[
-            ("p", "Op de <strong>getallenas</strong> staat het kleinste getal links. Staat min 3 links van 1, "
-                  "dan betekent dat gewoon: min 3 is kleiner dan 1. Bij negatieve getallen draait je gevoel je "
-                  "in de luren: <strong>min 8 is kleiner dan min 3</strong>, ook al is 8 groter dan 3. Hoe "
+            ("p", "Op de <strong>getallenas</strong> staat het kleinste getal links. Staat \\(-3\\) links van \\(1\\), "
+                  "dan betekent dat gewoon: \\(-3\\) is kleiner dan \\(1\\). Bij negatieve getallen draait je gevoel je "
+                  "in de luren: <strong>\\(-8\\) is kleiner dan \\(-3\\)</strong>, ook al is \\(8\\) groter dan \\(3\\). Hoe "
                   "verder van nul naar links, hoe kleiner."),
             ("p", tabel(["Teken", "Lees als"], [
                 ["<", "is kleiner dan"],
                 [">", "is groter dan"],
-                ["≤", "is kleiner dan of gelijk aan"],
-                ["≥", "is groter dan of gelijk aan"],
+                ["\\(\\leq\\)", "is kleiner dan of gelijk aan"],
+                ["\\(\\geq\\)", "is groter dan of gelijk aan"],
             ])),
             ("p", "Om getallen in verschillende kleren te ordenen, zet je ze eerst allemaal in dezelfde vorm. "
-                  "0,5 tegenover 3/5 tegenover 45 %: maak er 0,5 — 0,6 — 0,45 van, en dan is de volgorde van "
-                  "klein naar groot meteen duidelijk: 45 %, 0,5, 3/5."),
+                  "\\(0{,}5\\) tegenover \\(\\tfrac{3}{5}\\) tegenover \\(45\\%\\): maak er \\(0{,}5\\) — \\(0{,}6\\) — \\(0{,}45\\) van, en dan is de volgorde van "
+                  "klein naar groot meteen duidelijk: \\(45\\%\\), \\(0{,}5\\), \\(\\tfrac{3}{5}\\)."),
             ("weetje", "Tussen twee verschillende reële getallen ligt altijd nog een ander reëel getal. Tussen "
-                       "2,4 en 2,5 ligt 2,45, en daartussen weer 2,445. Dat houdt nooit op."),
+                       "\\(2{,}4\\) en \\(2{,}5\\) ligt \\(2{,}45\\), en daartussen weer \\(2{,}445\\). Dat houdt nooit op."),
         ]),
         dict(kop="Afronden", blokken=[
             ("p", "De <strong>afrondingsregel</strong> van de vakfiche: kijk naar het <strong>eerste cijfer dat wegvalt</strong>. Is dat "
-                  "<strong>5 of meer</strong>, dan rond je naar boven af; is het <strong>4 of minder</strong>, "
+                  "<strong>\\(5\\) of meer</strong>, dan rond je naar boven af; is het <strong>\\(4\\) of minder</strong>, "
                   "naar beneden. Alle cijfers dáárachter doen niet mee."),
             ("p", tabel(["Getal", "Afronden op", "Eerste cijfer dat wegvalt", "Resultaat"], [
-                ["3,4567", "twee cijfers na de komma", "6", "3,46"],
-                ["2,3449", "twee cijfers na de komma", "4", "2,34"],
-                ["7,3851", "twee cijfers na de komma", "5", "7,39"],
-                ["0,449", "één cijfer na de komma", "4", "0,4"],
+                ["\\(3{,}4567\\)", "twee cijfers na de komma", "\\(6\\)", "\\(3{,}46\\)"],
+                ["\\(2{,}3449\\)", "twee cijfers na de komma", "\\(4\\)", "\\(2{,}34\\)"],
+                ["\\(7{,}3851\\)", "twee cijfers na de komma", "\\(5\\)", "\\(7{,}39\\)"],
+                ["\\(0{,}449\\)", "één cijfer na de komma", "\\(4\\)", "\\(0{,}4\\)"],
             ])),
-            ("kader", "Bij 2,3449 is het verleidelijk om eerst 2,345 te maken en dán af te ronden naar 2,35. "
+            ("kader", "Bij \\(2{,}3449\\) is het verleidelijk om eerst \\(2{,}345\\) te maken en dán af te ronden naar \\(2{,}35\\). "
                       "Dat is fout: je rondt <strong>één keer</strong> af, en enkel het eerste wegvallende "
                       "cijfer telt. Om dezelfde reden rond je pas <strong>op het einde</strong> van een "
                       "berekening af: rond je tussendoor af, dan stapelen de afrondingsfouten zich op."),
-            ("p", "Een afgerond getal is een <strong>bereik</strong>, geen punt. Een weegschaal die 2,5 kg "
-                  "aangeeft en op honderd gram afrondt, kan alles tussen <strong>2,45 en 2,55 kg</strong> "
+            ("p", "Een afgerond getal is een <strong>bereik</strong>, geen punt. Een weegschaal die \\(2{,}5\\) kg "
+                  "aangeeft en op honderd gram afrondt, kan alles tussen <strong>\\(2{,}45\\) en \\(2{,}55\\) kg</strong> "
                   "wegen."),
         ]),
         dict(kop="Schatten", blokken=[
             ("p", "<strong>Schatten</strong> is vooraf ruw uitrekenen wat er ongeveer moet uitkomen, met "
-                  "ronde getallen. 48 · 21 schat je als 50 · 20, dus ongeveer 1000. 19 · 31 schat je op "
-                  "honderdtallen als 20 · 30, dus 600."),
+                  "ronde getallen. \\(48 \\cdot 21\\) schat je als \\(50 \\cdot 20\\), dus ongeveer \\(1000\\). \\(19 \\cdot 31\\) schat je op "
+                  "honderdtallen als \\(20 \\cdot 30\\), dus \\(600\\)."),
             ("p", "Een schatting is een <strong>hulpmiddel vooraf</strong>, en vervangt de controle achteraf "
-                  "niet. Ze vangt wel de grove fouten: wie 48 · 21 als 100,8 noteert, ziet meteen dat er een "
+                  "niet. Ze vangt wel de grove fouten: wie \\(48 \\cdot 21\\) als \\(100{,}8\\) noteert, ziet meteen dat er een "
                   "komma verkeerd staat."),
-            ("p", "Schatten helpt ook bij wortels. √2 ligt tussen 1 en 2 want 1² is 1 en 2² is 4, en dichter "
-                  "bij 1,4 dan bij 1,5: 1,4² is 1,96, net onder 2."),
+            ("p", "Schatten helpt ook bij wortels. \\(\\sqrt{2}\\) ligt tussen \\(1\\) en \\(2\\) want \\(1^{2}\\) is \\(1\\) en \\(2^{2}\\) is \\(4\\), en dichter "
+                  "bij \\(1{,}4\\) dan bij \\(1{,}5\\): \\(1{,}4^{2}\\) is \\(1{,}96\\), net onder \\(2\\)."),
         ]),
         dict(kop="Intervallen", blokken=[
             ("p", "Een <strong>interval</strong> is een stuk van de getallenas. Het haakje zegt of de grens "
                   "meedoet: een haakje dat <strong>naar binnen</strong> wijst, [ of ], neemt de grens mee; "
                   "een haakje dat <strong>naar buiten</strong> wijst, ] of [, laat ze erbuiten."),
             ("p", tabel(["Interval", "Naam", "Betekenis"], [
-                ["[0, 1]", "gesloten", "alle getallen van 0 tot 1, de grenzen inbegrepen"],
-                ["]2, 5[", "open", "alle getallen tussen 2 en 5, de grenzen niet inbegrepen"],
-                ["[0, 4[", "halfopen", "0 hoort erbij, 4 niet"],
-                ["[3, →[", "onbegrensd", "alle getallen groter dan of gelijk aan 3"],
-                ["]→, 7[", "onbegrensd", "alle getallen kleiner dan 7"],
-                ["]5, →[", "onbegrensd", "alle getallen groter dan 5"],
-                ["[−2, 3]", "gesloten", "x ligt tussen −2 en 3, grenzen inbegrepen"],
+                ["\\(\\left[0, 1\\right]\\)", "gesloten", "alle getallen van \\(0\\) tot \\(1\\), de grenzen inbegrepen"],
+                ["\\(\\left]2, 5\\right[\\)", "open", "alle getallen tussen \\(2\\) en \\(5\\), de grenzen niet inbegrepen"],
+                ["\\(\\left[0, 4\\right[\\)", "halfopen", "\\(0\\) hoort erbij, \\(4\\) niet"],
+                ["[\\(3\\), →[", "onbegrensd", "alle getallen groter dan of gelijk aan \\(3\\)"],
+                ["]→, \\(7\\)[", "onbegrensd", "alle getallen kleiner dan \\(7\\)"],
+                ["]\\(5\\), →[", "onbegrensd", "alle getallen groter dan \\(5\\)"],
+                ["\\(\\left[-2, 3\\right]\\)", "gesloten", "x ligt tussen −\\(2\\) en \\(3\\), grenzen inbegrepen"],
             ])),
             ("p", "Bij <strong>oneindig</strong> staat het haakje altijd naar buiten. Oneindig is geen getal, "
                   "dus het kan ook niet tot het interval behoren."),
-            ("weetje", "Het interval [3, 3] is niet leeg: het bevat precies één getal, namelijk 3. Het "
-                       "interval ]3, 3[ is wél leeg."),
+            ("weetje", "Het interval \\(\\left[3, 3\\right]\\) is niet leeg: het bevat precies één getal, namelijk \\(3\\). Het "
+                       "interval \\(\\left]3, 3\\right[\\) is wél leeg."),
         ]),
         dict(kop="Wetenschappelijke notatie", blokken=[
             ("p", "In de <strong>wetenschappelijke notatie</strong> schrijf je een getal als een getal tussen "
-                  "1 en 10, maal een macht van tien. Er staat dus <strong>precies één cijfer voor de komma, "
-                  "van 1 tot en met 9</strong>."),
+                  "\\(1\\) en \\(10\\), maal een macht van tien. Er staat dus <strong>precies één cijfer voor de komma, "
+                  "van \\(1\\) tot en met \\(9\\)</strong>."),
             ("p", tabel(["Gewoon getal", "Wetenschappelijke notatie"], [
-                ["45 000", "4,5 · 10⁴"],
-                ["6 200 000", "6,2 · 10⁶"],
-                ["0,00072", "7,2 · 10⁻⁴"],
-                ["300 000", "3 · 10⁵"],
-                ["0,0025", "2,5 · 10⁻³"],
+                ["\\(45\\,000\\)", "\\(4{,}5 \\cdot 10^{4}\\)"],
+                ["\\(6\\,200\\,000\\)", "\\(6{,}2 \\cdot 10^{6}\\)"],
+                ["\\(0{,}00072\\)", "\\(7{,}2 \\cdot 10^{-4}\\)"],
+                ["\\(300\\,000\\)", "\\(3 \\cdot 10^{5}\\)"],
+                ["\\(0{,}0025\\)", "\\(2{,}5 \\cdot 10^{-3}\\)"],
             ])),
-            ("p", "Zo is 12,5 · 10³ géén correcte wetenschappelijke notatie: er staan twee cijfers voor de "
-                  "komma. Je schrijft het als 1,25 · 10⁴."),
+            ("p", "Zo is \\(12{,}5 \\cdot 10^{3}\\) géén correcte wetenschappelijke notatie: er staan twee cijfers voor de "
+                  "komma. Je schrijft het als \\(1{,}25 \\cdot 10^{4}\\)."),
             ("kader", "Een <strong>negatieve exponent</strong> betekent dat het getal <em>klein</em> is, niet "
-                      "dat het negatief is. 2,5 · 10⁻³ is 0,0025, een positief getal."),
-            ("p", "Terugrekenen naar een gewoon getal: 3 · 10⁵ is 300 000. En let op bij eenheden: 1,5 · 10¹¹ "
-                  "meter is 1,5 · 10⁸ kilometer, want een kilometer is duizend meter, dus de exponent zakt "
-                  "met 3."),
+                      "dat het negatief is. \\(2{,}5 \\cdot 10^{-3}\\) is \\(0{,}0025\\), een positief getal."),
+            ("p", "Terugrekenen naar een gewoon getal: \\(3 \\cdot 10^{5}\\) is \\(300\\,000\\). En let op bij eenheden: \\(1{,}5 \\cdot 10^{11}\\) "
+                  "meter is \\(1{,}5 \\cdot 10^{8}\\) kilometer, want een kilometer is duizend meter, dus de exponent zakt "
+                  "met \\(3\\)."),
             ("p", "Wetenschappers gebruiken deze notatie omdat je met machten van tien even makkelijk over "
                   "een atoom als over een sterrenstelsel schrijft, zonder rijen nullen te tellen."),
         ]),
     ],
     onthoud=[
-        "Op de getallenas staat het kleinste getal links; min 8 is kleiner dan min 3.",
-        "≤ is kleiner dan of gelijk aan, ≥ is groter dan of gelijk aan.",
-        "Afronden: eerste wegvallende cijfer 5 of meer naar boven, 4 of minder naar beneden.",
+        "Op de getallenas staat het kleinste getal links; \\(-8\\) is kleiner dan \\(-3\\).",
+        "\\(\\leq\\) is kleiner dan of gelijk aan, \\(\\geq\\) is groter dan of gelijk aan.",
+        "Afronden: eerste wegvallende cijfer \\(5\\) of meer naar boven, \\(4\\) of minder naar beneden.",
         "Rond één keer af, en pas op het einde van een berekening.",
         "Een haakje naar binnen neemt de grens mee, een haakje naar buiten niet.",
         "Bij oneindig wijst het haakje altijd naar buiten.",
-        "Wetenschappelijke notatie: één cijfer van 1 tot 9 voor de komma, maal een macht van tien.",
+        "Wetenschappelijke notatie: één cijfer van \\(1\\) tot \\(9\\) voor de komma, maal een macht van tien.",
         "Een negatieve exponent maakt het getal klein, niet negatief.",
     ],
 )

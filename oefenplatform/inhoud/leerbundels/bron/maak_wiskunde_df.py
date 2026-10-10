@@ -93,7 +93,7 @@ ONDERTITELS = {
 
 # Regels die uit het onthoudlijstje van een bundel moeten, met hun bundel erbij.
 ONTHOUD_WEG = [
-    ("ordenen-afronden-en-intervallen", "Wetenschappelijke notatie: één cijfer van 1 tot 9 voor de komma, maal een macht van tien."),
+    ("ordenen-afronden-en-intervallen", "Wetenschappelijke notatie: één cijfer van \\(1\\) tot \\(9\\) voor de komma, maal een macht van tien."),
     ("ordenen-afronden-en-intervallen", "Een negatieve exponent maakt het getal klein, niet negatief."),
 ]
 

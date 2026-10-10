@@ -47,6 +47,7 @@ OVERNEMEN = {
 PATCHES = [
     ("oefenbundel-ordenen-afronden-en-intervallen", "Wetenschappelijke notatie", "schrap-reeks", None),
     ("oefenbundel-ordenen-afronden-en-intervallen", "Correct of niet?", "schrap-reeks", None),
+    ("oefenbundel-ordenen-afronden-en-intervallen", "Wetenschappelijke notatie: terugrekenen", "schrap-reeks", None),
     ("oefenbundel-ordenen-afronden-en-intervallen",
      "Een negatieve exponent betekent dat het getal negatief is.", "schrap-oefening", None),
     ("oefenbundel-ordenen-afronden-en-intervallen",
