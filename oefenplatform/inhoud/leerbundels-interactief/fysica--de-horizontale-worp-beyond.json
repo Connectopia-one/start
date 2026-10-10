@@ -8,15 +8,25 @@
    "blokken": [
     {
      "soort": "tekst",
-     "html": "Het <strong>onafhankelijkheidsbeginsel</strong> bij een horizontale worp zegt dat <strong>de horizontale en de verticale beweging elkaar niet beïnvloeden</strong>. Het is dus <strong>het beginsel dat de horizontale en de verticale beweging los van elkaar laat verlopen</strong>."
+     "html": "Het <strong>onafhankelijkheidsbeginsel</strong> zegt dat de horizontale en de verticale beweging elkaar <strong>niet beïnvloeden</strong>. Je mag ze dus apart uitrekenen. Het <strong>horizontale deel</strong> is een ERB met \\(v_{x} = v_{0}\\) constant, want zonder luchtweerstand werkt er in die richting geen kracht. Het <strong>verticale deel</strong> is een vrije val met \\(v_{0y} = 0\\): de verticale beginsnelheid is nul, want je werpt precies horizontaal. De grootheid die de twee delen gemeen hebben is <strong>de tijd</strong> \\(t\\), en dat is net wat ze met elkaar verbindt."
     },
     {
-     "soort": "tekst",
-     "html": "Het <strong>horizontale deel</strong> is een <strong>eenparig rechtlijnige beweging</strong> en het <strong>verticale deel</strong> een <strong>vrije val met beginsnelheid nul</strong>: de <strong>verticale beginsnelheid is dus nul</strong>. De grootheid die <strong>bij de horizontale en de verticale beweging dezelfde is</strong>, is <strong>de tijd</strong>, en dat is net wat de twee met elkaar verbindt."
+     "soort": "kader",
+     "html": "<strong>Alles wat je nodig hebt</strong><br>\\[x = v_{0}\\,t \\qquad y = \\tfrac{1}{2}g\\,t^{2} \\qquad v_{y} = g\\,t\\]\\[t = \\sqrt{\\dfrac{2h}{g}} \\qquad v = \\sqrt{v_{x}^{2} + v_{y}^{2}}\\]Tijdens de vlucht werkt er, zonder luchtweerstand, <strong>enkel de zwaartekracht</strong> \\(F_{z} = m\\,g\\), recht omlaag. De hand die werpt heeft het voorwerp al losgelaten, dus is er geen kracht meer die het vooruit duwt."
     },
     {
+     "soort": "figuur",
+     "html": "<svg viewBox=\"0 0 468 206\" width=\"468\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"6\" y=\"4\" width=\"222\" height=\"176\" rx=\"8\" fill=\"#ffffff\" stroke=\"#e4ded0\" stroke-width=\"1.2\"/>\n<text x=\"117.0\" y=\"197.0\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"10\" font-weight=\"600\" fill=\"#6b7260\">vx blijft, vy groeit, samen raaklijnig</text>\n<rect x=\"14\" y=\"40\" width=\"26\" height=\"9\" fill=\"#e4ded0\" stroke=\"#6b7260\" stroke-width=\"1.1\"/>\n<line x1=\"14\" y1=\"151\" x2=\"218\" y2=\"151\" stroke=\"#6b7260\" stroke-width=\"1.5\"/>\n<polyline points=\"40.0,40.0 44.1,40.1 48.3,40.3 52.5,40.6 56.6,41.0 60.8,41.6 64.9,42.3 69.0,43.1 73.2,44.1 77.3,45.2 81.5,46.4 85.7,47.7 89.8,49.2 94.0,50.8 98.1,52.5 102.2,54.3 106.4,56.3 110.5,58.4 114.7,60.7 118.8,63.0 123.0,65.5 127.2,68.1 131.3,70.9 135.4,73.7 139.6,76.7 143.8,79.8 147.9,83.1 152.1,86.5 156.2,90.0 160.3,93.6 164.5,97.4 168.7,101.3 172.8,105.3 176.9,109.4 181.1,113.7 185.2,118.1 189.4,122.6 193.6,127.3 197.7,132.1 201.8,137.0 206.0,142.0\" fill=\"none\" stroke=\"#2f5d50\" stroke-width=\"2.0\" stroke-dasharray=\"1 0\"/>\n<circle cx=\"109.7\" cy=\"58.0\" r=\"3.4\" fill=\"#234539\"/>\n<line x1=\"109.7\" y1=\"58.0\" x2=\"139.7\" y2=\"58.0\" stroke=\"#2f5d50\" stroke-width=\"1.8\"/>\n<polygon points=\"144.3,58.0 136.0,60.8 136.0,55.1\" fill=\"#2f5d50\"/>\n<line x1=\"109.7\" y1=\"58.0\" x2=\"109.7\" y2=\"78.0\" stroke=\"#c17f2b\" stroke-width=\"1.8\"/>\n<polygon points=\"109.7,82.6 106.9,74.3 112.6,74.3\" fill=\"#c17f2b\"/>\n<line x1=\"109.7\" y1=\"58.0\" x2=\"139.7\" y2=\"78.0\" stroke=\"#234539\" stroke-width=\"2.2\"/>\n<polygon points=\"144.0,80.9 134.5,78.4 138.0,73.0\" fill=\"#234539\"/>\n<circle cx=\"169.5\" cy=\"102.1\" r=\"3.4\" fill=\"#234539\"/>\n<line x1=\"169.5\" y1=\"102.1\" x2=\"199.5\" y2=\"102.1\" stroke=\"#2f5d50\" stroke-width=\"1.8\"/>\n<polygon points=\"204.1,102.1 195.8,104.9 195.8,99.2\" fill=\"#2f5d50\"/>\n<line x1=\"169.5\" y1=\"102.1\" x2=\"169.5\" y2=\"140.1\" stroke=\"#c17f2b\" stroke-width=\"1.8\"/>\n<polygon points=\"169.5,144.7 166.6,136.4 172.3,136.4\" fill=\"#c17f2b\"/>\n<line x1=\"169.5\" y1=\"102.1\" x2=\"199.5\" y2=\"140.1\" stroke=\"#234539\" stroke-width=\"2.2\"/>\n<polygon points=\"202.7,144.1 194.4,138.8 199.4,134.8\" fill=\"#234539\"/>\n<text x=\"185.5\" y=\"97.1\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"9\" font-weight=\"600\" fill=\"#2f5d50\">vx</text>\n<text x=\"160.5\" y=\"121.1\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"9\" font-weight=\"600\" fill=\"#c17f2b\">vy</text>\n<text x=\"205.5\" y=\"136.1\" text-anchor=\"start\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"9.5\" font-weight=\"600\" fill=\"#234539\">v</text>\n<text x=\"42.0\" y=\"32.0\" text-anchor=\"start\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"9\" font-weight=\"600\" fill=\"#2f5d50\">v0</text>\n<line x1=\"40.0\" y1=\"36.0\" x2=\"66.0\" y2=\"36.0\" stroke=\"#2f5d50\" stroke-width=\"1.8\"/>\n<polygon points=\"70.6,36.0 62.3,38.9 62.3,33.1\" fill=\"#2f5d50\"/>\n<rect x=\"240\" y=\"4\" width=\"222\" height=\"176\" rx=\"8\" fill=\"#ffffff\" stroke=\"#e4ded0\" stroke-width=\"1.2\"/>\n<text x=\"351.0\" y=\"197.0\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"10\" font-weight=\"600\" fill=\"#6b7260\">even hoog op elk ogenblik</text>\n<line x1=\"250\" y1=\"24\" x2=\"250\" y2=\"156\" stroke=\"#6b7260\" stroke-width=\"1.5\"/>\n<line x1=\"250\" y1=\"156\" x2=\"452\" y2=\"156\" stroke=\"#6b7260\" stroke-width=\"1.5\"/>\n<circle cx=\"280\" cy=\"36\" r=\"4.2\" fill=\"#ffffff\" stroke=\"#234539\" stroke-width=\"1.6\"/>\n<line x1=\"280\" y1=\"49\" x2=\"318\" y2=\"49\" stroke=\"#6b7260\" stroke-width=\"0.9\" stroke-dasharray=\"3 3\"/>\n<circle cx=\"280\" cy=\"49\" r=\"4.2\" fill=\"#ffffff\" stroke=\"#2f6d9e\" stroke-width=\"1.6\"/>\n<circle cx=\"318\" cy=\"49\" r=\"4.2\" fill=\"#ffffff\" stroke=\"#c17f2b\" stroke-width=\"1.6\"/>\n<line x1=\"280\" y1=\"88\" x2=\"356\" y2=\"88\" stroke=\"#6b7260\" stroke-width=\"0.9\" stroke-dasharray=\"3 3\"/>\n<circle cx=\"280\" cy=\"88\" r=\"4.2\" fill=\"#ffffff\" stroke=\"#2f6d9e\" stroke-width=\"1.6\"/>\n<circle cx=\"356\" cy=\"88\" r=\"4.2\" fill=\"#ffffff\" stroke=\"#c17f2b\" stroke-width=\"1.6\"/>\n<line x1=\"280\" y1=\"153\" x2=\"394\" y2=\"153\" stroke=\"#6b7260\" stroke-width=\"0.9\" stroke-dasharray=\"3 3\"/>\n<circle cx=\"280\" cy=\"153\" r=\"4.2\" fill=\"#ffffff\" stroke=\"#2f6d9e\" stroke-width=\"1.6\"/>\n<circle cx=\"394\" cy=\"153\" r=\"4.2\" fill=\"#ffffff\" stroke=\"#c17f2b\" stroke-width=\"1.6\"/>\n<text x=\"272.0\" y=\"26.0\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"9\" font-weight=\"600\" fill=\"#2f6d9e\">valt</text>\n<text x=\"320.0\" y=\"26.0\" text-anchor=\"start\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"9\" font-weight=\"600\" fill=\"#c17f2b\">weggeschoten</text>\n<text x=\"351.0\" y=\"176.0\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"9.5\" fill=\"#6b7260\">dezelfde valtijd, een andere dracht</text></svg>",
+     "onderschrift": "Links de baan met de snelheid ontbonden, rechts de proef met twee ballen."
+    }
+   ]
+  },
+  {
+   "kop": "De baan is een parabool",
+   "blokken": [
+    {
      "soort": "tekst",
-     "html": "De baan van een horizontale worp heeft de vorm van een <strong>parabool</strong>. Tijdens de vlucht werkt, zonder luchtweerstand, <strong>enkel de zwaartekracht, recht naar beneden</strong>."
+     "html": "Vul \\(t = \\dfrac{x}{v_{0}}\\) in \\(y = \\tfrac{1}{2}g\\,t^{2}\\) in en de tijd verdwijnt: \\[y = \\dfrac{g}{2v_{0}^{2}}\\,x^{2}\\] Dat is de vergelijking van een <strong>parabool</strong>, en dat is dus de vorm van de baan. Je leest er meteen in dat het <strong>hoogteverlies niet recht evenredig is met de horizontale afstand</strong> maar met het <strong>kwadraat</strong> ervan: twee keer zo ver is vier keer zo veel hoogteverlies."
     }
    ]
   },
@@ -25,36 +35,42 @@
    "blokken": [
     {
      "soort": "tekst",
-     "html": "De <strong>valtijd</strong> hangt af <strong>van de hoogte waarvan je werpt</strong> en <strong>van de valversnelling g</strong>, en <strong>niet van de beginsnelheid</strong>: <strong>de valtijd hangt dus enkel van de hoogte af</strong>. De <strong>grootheid die je bij een horizontale worp eerst uitrekent</strong>, is daarom <strong>de valtijd</strong>."
+     "html": "De <strong>valtijd</strong> volgt uit \\(h = \\tfrac{1}{2}g\\,t^{2}\\), dus \\(t = \\sqrt{\\dfrac{2h}{g}}\\). Daarin staat <strong>geen</strong> \\(v_{0}\\) en <strong>geen</strong> \\(m\\): de valtijd hangt enkel af van de hoogte en van de valversnelling. Anders gezegd: van de hoogte en van \\(g\\). Daarom is de valtijd ook de grootheid die je bij een worp <strong>als eerste uitrekent</strong>."
     },
     {
      "soort": "tekst",
-     "html": "Daarom raken <strong>twee kogels die tegelijk van dezelfde hoogte vertrekken</strong>, de ene gewoon vallend en de andere horizontaal weggeschoten, <strong>de grond op hetzelfde ogenblik</strong>. Ook <strong>twee ballen die van dezelfde hoogte horizontaal vertrekken met verschillende snelheid, raken de grond tegelijk</strong>. Bij <strong>twee identieke ballen van dezelfde tafel, de ene twee keer zo snel als de andere</strong>, verschilt dus <strong>enkel de dracht, en die is dubbel zo groot</strong>."
-    },
-    {
-     "soort": "tekst",
-     "html": "De <strong>dracht</strong> is <strong>de horizontale afstand die een voorwerp bij een worp aflegt</strong>. Ze hangt af van <strong>de hoogte waarvan je werpt</strong> en <strong>de horizontale beginsnelheid</strong>. <strong>Verdubbel je de beginsnelheid</strong> bij dezelfde hoogte, dan <strong>wordt ze twee keer zo groot</strong>. <strong>Verviervoudig je de hoogte</strong> bij dezelfde beginsnelheid, dan wordt ze <strong>twee keer zo groot</strong>, want de valtijd gaat met de wortel van de hoogte. De <strong>dracht is dus niet recht evenredig met de hoogte</strong>."
-    },
-    {
-     "soort": "tekst",
-     "html": "Zonder luchtweerstand <strong>komt een zwaarder voorwerp bij dezelfde worp even ver als een lichter voorwerp</strong>. In het echt <strong>valt een pingpongbal korter dan de formules voorspellen</strong>, want <strong>de luchtweerstand remt hem horizontaal af</strong>."
+     "html": "Daaruit volgen twee dingen die je moet kunnen uitleggen. Twee kogels die tegelijk van dezelfde hoogte vertrekken, de ene gewoon vallend en de andere horizontaal weggeschoten, raken de grond <strong>op hetzelfde ogenblik</strong>. En twee ballen die van dezelfde hoogte horizontaal vertrekken met een verschillende snelheid, raken de grond <strong>ook tegelijk</strong>; bij twee identieke ballen van dezelfde tafel, de ene twee keer zo snel als de andere, verschilt dus enkel de dracht, en die is dubbel zo groot."
     }
    ]
   },
   {
-   "kop": "Snelheid tijdens de vlucht",
+   "kop": "Hoe de dracht verandert",
    "blokken": [
     {
      "soort": "tekst",
-     "html": "De <strong>horizontale snelheid blijft tijdens de vlucht precies even groot</strong>, zonder luchtweerstand, want in die richting werkt geen kracht. De <strong>verticale snelheid groeit elke seconde met ongeveer 9,81 m/s aan</strong>. Daardoor <strong>wordt de snelheid van het voorwerp tijdens de vlucht steeds groter</strong>."
+     "html": "De <strong>dracht</strong> is de horizontale afstand die het voorwerp aflegt: \\[x = v_{0}\\,t = v_{0}\\sqrt{\\dfrac{2h}{g}}\\] Ze hangt dus af van \\(h\\) en van \\(v_{0}\\). <strong>Verdubbel je \\(v_{0}\\)</strong> bij dezelfde hoogte, dan wordt ze <strong>twee keer</strong> zo groot, want ze is er recht evenredig mee. <strong>Verviervoudig je de hoogte</strong> bij dezelfde beginsnelheid, dan wordt ze maar <strong>twee keer</strong> zo groot, want \\(h\\) staat onder een wortel. De dracht is dus <strong>niet</strong> recht evenredig met de hoogte."
+    }
+   ]
+  },
+  {
+   "kop": "Massa en luchtweerstand",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "De massa \\(m\\) staat in geen enkele van die formules. Zonder luchtweerstand komt een <strong>zwaarder voorwerp dus even ver</strong> als een lichter. In het echt valt een <strong>pingpongbal</strong> wél korter dan de formules voorspellen, want de <strong>luchtweerstand remt hem horizontaal af</strong>. Bij een licht voorwerp met veel oppervlak is dat verschil het grootst."
+    }
+   ]
+  },
+  {
+   "kop": "De snelheid tijdens de vlucht",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "\\(v_{x}\\) blijft de hele vlucht even groot, want \\(a_{x} = 0\\). \\(v_{y} = g\\,t\\) groeit elke seconde met ongeveer \\(9{,}81\\) m/s aan. Samen wordt de snelheid dus <strong>steeds groter</strong>, en je stelt ze samen met <strong>Pythagoras</strong>: \\(v = \\sqrt{v_{x}^{2} + v_{y}^{2}}\\). Beweegt een voorwerp bij het neerkomen met \\(12\\) m/s horizontaal en \\(16\\) m/s verticaal, dan is \\(v = \\sqrt{144 + 256} = 20\\) m/s. Gewoon optellen mag niet, want de twee staan loodrecht op elkaar."
     },
     {
      "soort": "tekst",
-     "html": "De snelheid op een bepaald ogenblik vind je door <strong>de horizontale en de verticale snelheid samen te stellen met Pythagoras</strong>. Beweegt een voorwerp bij het neerkomen <strong>12 m/s horizontaal en 16 m/s verticaal</strong>, dan is zijn totale snelheid <strong>20 m/s</strong>."
-    },
-    {
-     "soort": "tekst",
-     "html": "De snelheidsvector staat <strong>halverwege de vlucht schuin naar beneden, raaklijnig aan de baan</strong>. Het voorwerp <strong>raakt de grond dus niet loodrecht</strong>: er blijft altijd een horizontale snelheid over."
+     "html": "De snelheidsvector staat altijd <strong>raaklijnig aan de baan</strong>, dus halverwege de vlucht schuin omlaag. De hoek volgt uit \\(\\tan\\alpha = \\dfrac{v_{y}}{v_{x}}\\) en wordt steiler naarmate \\(v_{y}\\) groeit. Het voorwerp raakt de grond daarom <strong>niet loodrecht</strong>: er blijft altijd een horizontale snelheid over."
     }
    ]
   },
@@ -63,19 +79,15 @@
    "blokken": [
     {
      "soort": "tekst",
-     "html": "Een bal wordt <strong>horizontaal weggeschoten van 20 m hoog</strong>, met g gelijk aan 10 m/s². De val duurt <strong>2 s</strong>. Vertrok de bal met <strong>15 m/s</strong>, dan komt hij <strong>30 m</strong> ver, en hij valt op het ogenblik dat hij de grond raakt met <strong>20 m/s</strong> verticaal."
+     "html": "Een bal wordt horizontaal weggeschoten van \\(20\\) m hoog, met \\(g = 9{,}81\\ \\text{m/s}^{2}\\). Dan is \\(t = \\sqrt{\\dfrac{40}{9{,}81}} = 2{,}02\\) s. Vertrok de bal met \\(15\\) m/s, dan is de dracht \\(15 \\times 2{,}02 = 30{,}3\\) m, is \\(v_{y} = 9{,}81 \\times 2{,}02 = 19{,}8\\) m/s bij het neerkomen, en is de totale snelheid \\(\\sqrt{19{,}8^{2} + 15^{2}} = 24{,}8\\) m/s."
     },
     {
      "soort": "tekst",
-     "html": "Een <strong>kogel verlaat een tafel van 1,25 m hoog met 4 m/s</strong>: de valtijd is 0,5 s, dus komt hij <strong>2 m</strong> van de tafel neer. Een <strong>bal rolt van een tafel van 0,8 m hoog</strong> en raakt de grond na <strong>0,4 s</strong>."
+     "html": "Nog drie, met \\(g = 10\\ \\text{m/s}^{2}\\) om het rekenen kort te houden. Een kogel verlaat een tafel van \\(1{,}25\\) m hoog met \\(4{,}0\\) m/s: \\(t = 0{,}50\\) s, dus komt hij \\(2{,}0\\) m van de tafel neer. Een bal rolt van een tafel van \\(0{,}80\\) m hoog en raakt de grond na \\(t = \\sqrt{0{,}16} = 0{,}40\\) s. En een bal die horizontaal met \\(10\\) m/s vertrekt, heeft na \\(20\\) m horizontaal \\(2{,}0\\) s gevlogen en verliest dus \\(20\\) m hoogte."
     },
     {
      "soort": "tekst",
-     "html": "Een <strong>bal wordt horizontaal met 10 m/s weggeschoten</strong> en heeft na <strong>20 m horizontaal</strong> 2 s gevlogen, dus verliest hij <strong>20 m</strong> hoogte. Het <strong>hoogteverlies is niet recht evenredig met de horizontale afstand zelf</strong> maar met het kwadraat ervan."
-    },
-    {
-     "soort": "tekst",
-     "html": "Omgekeerd rekenen: een <strong>voetbal wordt van een klif van 45 m horizontaal weggetrapt en komt 60 m verder neer</strong>. De valtijd is 3 s, dus werd hij met <strong>20 m/s</strong> getrapt."
+     "html": "Omgekeerd rekenen kan ook. Een voetbal wordt van een klif van \\(45\\) m horizontaal weggetrapt en komt \\(60\\) m verder neer. Uit de hoogte volgt \\(t = \\sqrt{\\dfrac{90}{10}} = 3{,}0\\) s, en dan is \\(v_{0} = \\dfrac{60}{3{,}0} = 20\\) m/s."
     }
    ]
   },
@@ -84,22 +96,23 @@
    "blokken": [
     {
      "soort": "tekst",
-     "html": "Een <strong>vliegtuig laat een pakket vallen</strong>. Het pakket komt <strong>recht onder het vliegtuig terecht, als dat zijn koers aanhoudt</strong>, want het houdt de horizontale snelheid van het vliegtuig."
+     "html": "Een <strong>vliegtuig laat een pakket vallen</strong>. Het pakket houdt \\(v_{x} = v_{0}\\) van het vliegtuig, dus komt het <strong>recht onder het vliegtuig</strong> terecht als dat zijn koers aanhoudt. Vanuit de piloot gezien valt het gewoon recht naar beneden."
     },
     {
      "soort": "tekst",
-     "html": "Je <strong>mikt bij het werpen over een grote afstand hoger dan het doel</strong> omdat <strong>het voorwerp onderweg hoogte verliest door de val</strong>. Dat hoogteverlies hangt af van hoe lang het onderweg is."
+     "html": "Je <strong>mikt bij het werpen over een grote afstand hoger dan het doel</strong>, omdat het voorwerp onderweg hoogte verliest door de val. Dat hoogteverlies is \\(y = \\dfrac{g}{2v_{0}^{2}}\\,x^{2}\\), dus hoe verder het doel, hoe meer je hoger moet richten."
     }
    ]
   }
  ],
  "onthoud": [
-  "Horizontaal is eenparig, verticaal is een vrije val; de tijd verbindt ze.",
-  "De baan is een parabool.",
-  "De valtijd hangt enkel van de hoogte af, niet van de beginsnelheid.",
+  "Horizontaal \\(x = v_{0}\\,t\\), verticaal \\(y = \\tfrac{1}{2}g\\,t^{2}\\); \\(t\\) verbindt ze.",
+  "De baan is de parabool \\(y = \\dfrac{g}{2v_{0}^{2}}\\,x^{2}\\).",
+  "\\(t = \\sqrt{\\dfrac{2h}{g}}\\): de valtijd hangt enkel van de hoogte af.",
   "Twee ballen van dezelfde hoogte komen samen neer, hoe snel ze ook vertrekken.",
-  "De dracht is snelheid maal valtijd: dubbel zo snel is dubbel zo ver.",
-  "Vier keer hoger is maar twee keer verder.",
+  "Dracht \\(= v_{0}\\,t\\): dubbel zo snel is dubbel zo ver.",
+  "Vier keer hoger is maar twee keer verder, want \\(h\\) staat onder een wortel.",
+  "\\(v_{x}\\) blijft, \\(v_{y} = g\\,t\\) groeit, samen \\(v = \\sqrt{v_{x}^{2} + v_{y}^{2}}\\).",
   "Reken altijd eerst de valtijd uit."
  ]
 }

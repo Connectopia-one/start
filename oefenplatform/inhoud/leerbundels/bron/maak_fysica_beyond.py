@@ -1490,102 +1490,125 @@ BUNDELS["de-horizontale-worp-beyond"] = dict(
     onder="Twee bewegingen tegelijk: eenparig naar voren en vallend naar beneden.",
     secties=[
         dict(kop="Het onafhankelijkheidsbeginsel", blokken=[
-            ("p", "Het <strong>onafhankelijkheidsbeginsel</strong> bij een horizontale worp zegt "
-                  "dat <strong>de horizontale en de verticale beweging elkaar niet "
-                  "beïnvloeden</strong>. Het is dus <strong>het beginsel dat de horizontale en de "
-                  "verticale beweging los van elkaar laat verlopen</strong>."),
-            ("p", "Het <strong>horizontale deel</strong> is een "
-                  "<strong>eenparig rechtlijnige beweging</strong> en het "
-                  "<strong>verticale deel</strong> een "
-                  "<strong>vrije val met beginsnelheid nul</strong>: de "
-                  "<strong>verticale beginsnelheid is dus nul</strong>. De grootheid die "
-                  "<strong>bij de horizontale en de verticale beweging dezelfde is</strong>, is "
-                  "<strong>de tijd</strong>, en dat is net wat de twee met elkaar verbindt."),
-            ("p", "De baan van een horizontale worp heeft de vorm van een "
-                  "<strong>parabool</strong>. Tijdens de vlucht werkt, zonder luchtweerstand, "
-                  "<strong>enkel de zwaartekracht, recht naar beneden</strong>."),
+            ("p", "Het <strong>onafhankelijkheidsbeginsel</strong> zegt dat de horizontale en "
+                  "de verticale beweging elkaar <strong>niet beïnvloeden</strong>. Je mag ze "
+                  "dus apart uitrekenen. Het <strong>horizontale deel</strong> is een ERB met "
+                  "\\(v_{x} = v_{0}\\) constant, want zonder luchtweerstand werkt er in die "
+                  "richting geen kracht. Het <strong>verticale deel</strong> is een vrije val "
+                  "met \\(v_{0y} = 0\\): de verticale beginsnelheid is nul, want je werpt "
+                  "precies horizontaal. De grootheid die de twee delen gemeen hebben is "
+                  "<strong>de tijd</strong> \\(t\\), en dat is net wat ze met elkaar verbindt."),
+            ("kader", "<strong>Alles wat je nodig hebt</strong><br>"
+                      "\\[x = v_{0}\\,t \\qquad y = \\tfrac{1}{2}g\\,t^{2} \\qquad "
+                      "v_{y} = g\\,t\\]"
+                      "\\[t = \\sqrt{\\dfrac{2h}{g}} \\qquad "
+                      "v = \\sqrt{v_{x}^{2} + v_{y}^{2}}\\]"
+                      "Tijdens de vlucht werkt er, zonder luchtweerstand, "
+                      "<strong>enkel de zwaartekracht</strong> \\(F_{z} = m\\,g\\), recht "
+                      "omlaag. De hand die werpt heeft het voorwerp al losgelaten, dus is er "
+                      "geen kracht meer die het vooruit duwt."),
+            ("fig", svg.worpbaan(),
+             "Links de baan met de snelheid ontbonden, rechts de proef met twee ballen."),
+        ]),
+        dict(kop="De baan is een parabool", blokken=[
+            ("p", "Vul \\(t = \\dfrac{x}{v_{0}}\\) in \\(y = \\tfrac{1}{2}g\\,t^{2}\\) in en de "
+                  "tijd verdwijnt: \\[y = \\dfrac{g}{2v_{0}^{2}}\\,x^{2}\\] Dat is de "
+                  "vergelijking van een <strong>parabool</strong>, en dat is dus de vorm van de "
+                  "baan. Je leest er meteen in dat het <strong>hoogteverlies niet recht "
+                  "evenredig is met de horizontale afstand</strong> maar met het "
+                  "<strong>kwadraat</strong> ervan: twee keer zo ver is vier keer zo veel "
+                  "hoogteverlies."),
         ]),
         dict(kop="Valtijd en dracht", blokken=[
-            ("p", "De <strong>valtijd</strong> hangt af <strong>van de hoogte waarvan je "
-                  "werpt</strong> en <strong>van de valversnelling g</strong>, en "
-                  "<strong>niet van de beginsnelheid</strong>: "
-                  "<strong>de valtijd hangt dus enkel van de hoogte af</strong>. De "
-                  "<strong>grootheid die je bij een horizontale worp eerst uitrekent</strong>, is "
-                  "daarom <strong>de valtijd</strong>."),
-            ("p", "Daarom raken <strong>twee kogels die tegelijk van dezelfde hoogte "
-                  "vertrekken</strong>, de ene gewoon vallend en de andere horizontaal "
-                  "weggeschoten, <strong>de grond op hetzelfde ogenblik</strong>. Ook "
-                  "<strong>twee ballen die van dezelfde hoogte horizontaal vertrekken met "
-                  "verschillende snelheid, raken de grond tegelijk</strong>. Bij "
-                  "<strong>twee identieke ballen van dezelfde tafel, de ene twee keer zo snel als "
-                  "de andere</strong>, verschilt dus <strong>enkel de dracht, en die is dubbel zo "
-                  "groot</strong>."),
-            ("p", "De <strong>dracht</strong> is <strong>de horizontale afstand die een voorwerp "
-                  "bij een worp aflegt</strong>. Ze hangt af van "
-                  "<strong>de hoogte waarvan je werpt</strong> en "
-                  "<strong>de horizontale beginsnelheid</strong>. "
-                  "<strong>Verdubbel je de beginsnelheid</strong> bij dezelfde hoogte, dan "
-                  "<strong>wordt ze twee keer zo groot</strong>. <strong>Verviervoudig je de "
-                  "hoogte</strong> bij dezelfde beginsnelheid, dan wordt ze "
-                  "<strong>twee keer zo groot</strong>, want de valtijd gaat met de wortel van de "
-                  "hoogte. De <strong>dracht is dus niet recht evenredig met de hoogte</strong>."),
-            ("p", "Zonder luchtweerstand <strong>komt een zwaarder voorwerp bij dezelfde worp even "
-                  "ver als een lichter voorwerp</strong>. In het echt "
-                  "<strong>valt een pingpongbal korter dan de formules voorspellen</strong>, want "
-                  "<strong>de luchtweerstand remt hem horizontaal af</strong>."),
+            ("p", "De <strong>valtijd</strong> volgt uit \\(h = \\tfrac{1}{2}g\\,t^{2}\\), dus "
+                  "\\(t = \\sqrt{\\dfrac{2h}{g}}\\). Daarin staat <strong>geen</strong> "
+                  "\\(v_{0}\\) en <strong>geen</strong> \\(m\\): de valtijd hangt enkel af van de hoogte en van de valversnelling. Anders gezegd: van "
+                  "de hoogte en van \\(g\\). Daarom is de valtijd ook de grootheid die je bij "
+                  "een worp <strong>als eerste uitrekent</strong>."),
+            ("p", "Daaruit volgen twee dingen die je moet kunnen uitleggen. Twee kogels die "
+                  "tegelijk van dezelfde hoogte vertrekken, de ene gewoon vallend en de andere "
+                  "horizontaal weggeschoten, raken de grond <strong>op hetzelfde "
+                  "ogenblik</strong>. En twee ballen die van dezelfde hoogte horizontaal "
+                  "vertrekken met een verschillende snelheid, raken de grond <strong>ook "
+                  "tegelijk</strong>; bij twee identieke ballen van dezelfde tafel, de ene twee "
+                  "keer zo snel als de andere, verschilt dus enkel de dracht, en die is dubbel "
+                  "zo groot."),
         ]),
-        dict(kop="Snelheid tijdens de vlucht", blokken=[
-            ("p", "De <strong>horizontale snelheid blijft tijdens de vlucht precies even "
-                  "groot</strong>, zonder luchtweerstand, want in die richting werkt geen kracht. De "
-                  "<strong>verticale snelheid groeit elke seconde met ongeveer 9,81 m/s "
-                  "aan</strong>. Daardoor <strong>wordt de snelheid van het voorwerp tijdens de "
-                  "vlucht steeds groter</strong>."),
-            ("p", "De snelheid op een bepaald ogenblik vind je door "
-                  "<strong>de horizontale en de verticale snelheid samen te stellen met "
-                  "Pythagoras</strong>. Beweegt een voorwerp bij het neerkomen "
-                  "<strong>12 m/s horizontaal en 16 m/s verticaal</strong>, dan is zijn totale "
-                  "snelheid <strong>20 m/s</strong>."),
-            ("p", "De snelheidsvector staat <strong>halverwege de vlucht schuin naar beneden, "
-                  "raaklijnig aan de baan</strong>. Het voorwerp "
-                  "<strong>raakt de grond dus niet loodrecht</strong>: er blijft altijd een "
-                  "horizontale snelheid over."),
+        dict(kop="Hoe de dracht verandert", blokken=[
+            ("p", "De <strong>dracht</strong> is de horizontale afstand die het voorwerp "
+                  "aflegt: \\[x = v_{0}\\,t = v_{0}\\sqrt{\\dfrac{2h}{g}}\\] Ze hangt dus af "
+                  "van \\(h\\) en van \\(v_{0}\\). <strong>Verdubbel je \\(v_{0}\\)</strong> bij "
+                  "dezelfde hoogte, dan wordt ze <strong>twee keer</strong> zo groot, want ze is "
+                  "er recht evenredig mee. <strong>Verviervoudig je de hoogte</strong> bij "
+                  "dezelfde beginsnelheid, dan wordt ze maar <strong>twee keer</strong> zo "
+                  "groot, want \\(h\\) staat onder een wortel. De dracht is dus "
+                  "<strong>niet</strong> recht evenredig met de hoogte."),
+        ]),
+        dict(kop="Massa en luchtweerstand", blokken=[
+            ("p", "De massa \\(m\\) staat in geen enkele van die formules. Zonder "
+                  "luchtweerstand komt een <strong>zwaarder voorwerp dus even ver</strong> als "
+                  "een lichter. In het echt valt een <strong>pingpongbal</strong> wél korter dan "
+                  "de formules voorspellen, want de <strong>luchtweerstand remt hem horizontaal "
+                  "af</strong>. Bij een licht voorwerp met veel oppervlak is dat verschil het "
+                  "grootst."),
+        ]),
+        dict(kop="De snelheid tijdens de vlucht", blokken=[
+            ("p", "\\(v_{x}\\) blijft de hele vlucht even groot, want \\(a_{x} = 0\\). "
+                  "\\(v_{y} = g\\,t\\) groeit elke seconde met ongeveer \\(9{,}81\\) m/s aan. "
+                  "Samen wordt de snelheid dus <strong>steeds groter</strong>, en je stelt ze "
+                  "samen met <strong>Pythagoras</strong>: "
+                  "\\(v = \\sqrt{v_{x}^{2} + v_{y}^{2}}\\). Beweegt een voorwerp bij het "
+                  "neerkomen met \\(12\\) m/s horizontaal en \\(16\\) m/s verticaal, dan is "
+                  "\\(v = \\sqrt{144 + 256} = 20\\) m/s. Gewoon optellen mag niet, want de twee "
+                  "staan loodrecht op elkaar."),
+            ("p", "De snelheidsvector staat altijd <strong>raaklijnig aan de baan</strong>, dus "
+                  "halverwege de vlucht schuin omlaag. De hoek volgt uit "
+                  "\\(\\tan\\alpha = \\dfrac{v_{y}}{v_{x}}\\) en wordt steiler naarmate "
+                  "\\(v_{y}\\) groeit. Het voorwerp raakt de grond daarom <strong>niet "
+                  "loodrecht</strong>: er blijft altijd een horizontale snelheid over."),
         ]),
         dict(kop="Rekenen aan een worp", blokken=[
-            ("p", "Een bal wordt <strong>horizontaal weggeschoten van 20 m hoog</strong>, met g "
-                  "gelijk aan 10 m/s². De val duurt <strong>2 s</strong>. Vertrok de bal met "
-                  "<strong>15 m/s</strong>, dan komt hij <strong>30 m</strong> ver, en hij valt op "
-                  "het ogenblik dat hij de grond raakt met <strong>20 m/s</strong> verticaal."),
-            ("p", "Een <strong>kogel verlaat een tafel van 1,25 m hoog met 4 m/s</strong>: de "
-                  "valtijd is 0,5 s, dus komt hij <strong>2 m</strong> van de tafel neer. Een "
-                  "<strong>bal rolt van een tafel van 0,8 m hoog</strong> en raakt de grond na "
-                  "<strong>0,4 s</strong>."),
-            ("p", "Een <strong>bal wordt horizontaal met 10 m/s weggeschoten</strong> en heeft na "
-                  "<strong>20 m horizontaal</strong> 2 s gevlogen, dus verliest hij "
-                  "<strong>20 m</strong> hoogte. Het <strong>hoogteverlies is niet recht evenredig "
-                  "met de horizontale afstand zelf</strong> maar met het kwadraat ervan."),
-            ("p", "Omgekeerd rekenen: een <strong>voetbal wordt van een klif van 45 m horizontaal "
-                  "weggetrapt en komt 60 m verder neer</strong>. De valtijd is 3 s, dus werd hij met "
-                  "<strong>20 m/s</strong> getrapt."),
+            ("p", "Een bal wordt horizontaal weggeschoten van \\(20\\) m hoog, met "
+                  "\\(g = 9{,}81\\ \\text{m/s}^{2}\\). Dan is "
+                  "\\(t = \\sqrt{\\dfrac{40}{9{,}81}} = 2{,}02\\) s. Vertrok de bal met "
+                  "\\(15\\) m/s, dan is de dracht \\(15 \\times 2{,}02 = 30{,}3\\) m, is "
+                  "\\(v_{y} = 9{,}81 \\times 2{,}02 = 19{,}8\\) m/s bij het neerkomen, en is de "
+                  "totale snelheid \\(\\sqrt{19{,}8^{2} + 15^{2}} = 24{,}8\\) m/s."),
+            ("p", "Nog drie, met \\(g = 10\\ \\text{m/s}^{2}\\) om het rekenen kort te houden. "
+                  "Een kogel verlaat een tafel van \\(1{,}25\\) m hoog met \\(4{,}0\\) m/s: "
+                  "\\(t = 0{,}50\\) s, dus komt hij \\(2{,}0\\) m van de tafel neer. Een bal "
+                  "rolt van een tafel van \\(0{,}80\\) m hoog en raakt de grond na "
+                  "\\(t = \\sqrt{0{,}16} = 0{,}40\\) s. En een bal die horizontaal met \\(10\\) "
+                  "m/s vertrekt, heeft na \\(20\\) m horizontaal \\(2{,}0\\) s gevlogen en "
+                  "verliest dus \\(20\\) m hoogte."),
+            ("p", "Omgekeerd rekenen kan ook. Een voetbal wordt van een klif van \\(45\\) m "
+                  "horizontaal weggetrapt en komt \\(60\\) m verder neer. Uit de hoogte volgt "
+                  "\\(t = \\sqrt{\\dfrac{90}{10}} = 3{,}0\\) s, en dan is "
+                  "\\(v_{0} = \\dfrac{60}{3{,}0} = 20\\) m/s."),
         ]),
         dict(kop="Twee situaties om te doorzien", blokken=[
-            ("p", "Een <strong>vliegtuig laat een pakket vallen</strong>. Het pakket komt "
-                  "<strong>recht onder het vliegtuig terecht, als dat zijn koers aanhoudt</strong>, "
-                  "want het houdt de horizontale snelheid van het vliegtuig."),
+            ("p", "Een <strong>vliegtuig laat een pakket vallen</strong>. Het pakket houdt "
+                  "\\(v_{x} = v_{0}\\) van het vliegtuig, dus komt het <strong>recht onder het "
+                  "vliegtuig</strong> terecht als dat zijn koers aanhoudt. Vanuit de piloot "
+                  "gezien valt het gewoon recht naar beneden."),
             ("p", "Je <strong>mikt bij het werpen over een grote afstand hoger dan het "
-                  "doel</strong> omdat <strong>het voorwerp onderweg hoogte verliest door de "
-                  "val</strong>. Dat hoogteverlies hangt af van hoe lang het onderweg is."),
+                  "doel</strong>, omdat het voorwerp onderweg hoogte verliest door de val. Dat "
+                  "hoogteverlies is \\(y = \\dfrac{g}{2v_{0}^{2}}\\,x^{2}\\), dus hoe verder het "
+                  "doel, hoe meer je hoger moet richten."),
         ]),
     ],
     onthoud=[
-        "Horizontaal is eenparig, verticaal is een vrije val; de tijd verbindt ze.",
-        "De baan is een parabool.",
-        "De valtijd hangt enkel van de hoogte af, niet van de beginsnelheid.",
+        "Horizontaal \\(x = v_{0}\\,t\\), verticaal \\(y = \\tfrac{1}{2}g\\,t^{2}\\); \\(t\\) verbindt ze.",
+        "De baan is de parabool \\(y = \\dfrac{g}{2v_{0}^{2}}\\,x^{2}\\).",
+        "\\(t = \\sqrt{\\dfrac{2h}{g}}\\): de valtijd hangt enkel van de hoogte af.",
         "Twee ballen van dezelfde hoogte komen samen neer, hoe snel ze ook vertrekken.",
-        "De dracht is snelheid maal valtijd: dubbel zo snel is dubbel zo ver.",
-        "Vier keer hoger is maar twee keer verder.",
+        "Dracht \\(= v_{0}\\,t\\): dubbel zo snel is dubbel zo ver.",
+        "Vier keer hoger is maar twee keer verder, want \\(h\\) staat onder een wortel.",
+        "\\(v_{x}\\) blijft, \\(v_{y} = g\\,t\\) groeit, samen \\(v = \\sqrt{v_{x}^{2} + v_{y}^{2}}\\).",
         "Reken altijd eerst de valtijd uit.",
     ],
 )
+
 
 # ───────────────────── 12. De gravitatiekracht en de cirkelbeweging
 BUNDELS["de-gravitatiekracht-en-de-cirkelbeweging-beyond"] = dict(

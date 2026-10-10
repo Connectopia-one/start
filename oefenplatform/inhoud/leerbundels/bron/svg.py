@@ -7604,3 +7604,84 @@ def bewegingsgrafieken(breedte=470):
     d.append(_tekst((ox + rechts - 10) / 2, ay - 8, "a is constant", 9, FOREST, "middle", True))
 
     return _svg(cel_b * 3, cel_h * 2, "\n".join(d))
+
+
+def worpbaan(breedte=470):
+    r"""Twee tekeningen bij de horizontale worp.
+
+    Links de baan zelf, met op twee plaatsen de snelheid ontbonden: vx blijft
+    even lang, vy wordt langer, en samen staan ze raaklijnig aan de baan.
+    Rechts de klassieke proef: een bal die je gewoon laat vallen en een bal
+    die je horizontaal wegschiet staan op elk ogenblik even hoog.
+    """
+    import math
+    cel_b, cel_h = 234, 206
+    d = []
+
+    def kader(kx, ky, titel):
+        d.append(f'<rect x="{kx+6}" y="{ky+4}" width="{cel_b-12}" height="{cel_h-30}" rx="8" '
+                 f'fill="#ffffff" stroke="{BORDER}" stroke-width="1.2"/>')
+        d.append(_tekst(kx + cel_b / 2, ky + cel_h - 9, titel, 10, DIM, "middle", True))
+
+    def pijl(x0, y0, x1, y1, kleur, breed=1.8, maat=4.6):
+        d.append(f'<line x1="{x0:.1f}" y1="{y0:.1f}" x2="{x1:.1f}" y2="{y1:.1f}" '
+                 f'stroke="{kleur}" stroke-width="{breed}"/>')
+        d.append(_pijlkop(x1, y1, math.atan2(y1 - y0, x1 - x0), kleur, maat))
+
+    # ── 1. de baan, met de snelheid ontbonden
+    kader(0, 0, "vx blijft, vy groeit, samen raaklijnig")
+    x0, y0 = 40, 40
+    xe, ye = 206, 142
+    k = (ye - y0) / (xe - x0) ** 2
+    d.append(f'<rect x="14" y="{y0}" width="{x0-14}" height="9" fill="{BORDER}" '
+             f'stroke="{DIM}" stroke-width="1.1"/>')
+    d.append(f'<line x1="14" y1="{ye+9}" x2="218" y2="{ye+9}" stroke="{DIM}" '
+             f'stroke-width="1.5"/>')
+    punten = [f"{x0 + i / 40 * (xe - x0):.1f},{y0 + k * (i / 40 * (xe - x0)) ** 2:.1f}"
+              for i in range(41)]
+    d.append(f'<polyline points="{" ".join(punten)}" fill="none" stroke="{FOREST}" '
+             f'stroke-width="2.0" stroke-dasharray="1 0"/>')
+    # de snelheid op twee plaatsen: horizontaal even lang, verticaal steeds langer
+    for f, vy_lang, naam in ((0.42, 20, False), (0.78, 38, True)):
+        px = x0 + f * (xe - x0)
+        py = y0 + k * (px - x0) ** 2
+        d.append(f'<circle cx="{px:.1f}" cy="{py:.1f}" r="3.4" fill="{DARK}"/>')
+        pijl(px, py, px + 30, py, FOREST)
+        pijl(px, py, px, py + vy_lang, AMBER)
+        pijl(px, py, px + 30, py + vy_lang, DARK, 2.2, 5.2)
+        if naam:
+            d.append(_tekst(px + 16, py - 5, "vx", 9, FOREST, "middle", True))
+            d.append(_tekst(px - 9, py + vy_lang / 2, "vy", 9, AMBER, "middle", True))
+            d.append(_tekst(px + 36, py + vy_lang - 4, "v", 9.5, DARK, "start", True))
+    d.append(_tekst(x0 + 2, y0 - 8, "v0", 9, FOREST, "start", True))
+    pijl(x0, y0 - 4, x0 + 26, y0 - 4, FOREST)
+
+    # ── 2. vallen en wegschieten: altijd even hoog
+    kx = cel_b
+    kader(kx, 0, "even hoog op elk ogenblik")
+    bx, by = kx + 46, 36
+    d.append(f'<line x1="{kx+16}" y1="{by-12}" x2="{kx+16}" y2="{by+120}" stroke="{DIM}" '
+             f'stroke-width="1.5"/>')
+    d.append(f'<line x1="{kx+16}" y1="{by+120}" x2="{kx+218}" y2="{by+120}" stroke="{DIM}" '
+             f'stroke-width="1.5"/>')
+    hoogtes = [0, 13, 52, 117]
+    schuif = [0, 38, 76, 114]
+    for i, (h, s) in enumerate(zip(hoogtes, schuif)):
+        y = by + h
+        if not i:
+            # op t = 0 liggen de twee ballen op elkaar; één bolletje volstaat
+            d.append(f'<circle cx="{bx}" cy="{y}" r="4.2" fill="{PAPER}" stroke="{DARK}" '
+                     f'stroke-width="1.6"/>')
+            continue
+        d.append(f'<line x1="{bx}" y1="{y}" x2="{bx+s}" y2="{y}" stroke="{DIM}" '
+                 f'stroke-width="0.9" stroke-dasharray="3 3"/>')
+        d.append(f'<circle cx="{bx}" cy="{y}" r="4.2" fill="{PAPER}" stroke="{LADING_MIN}" '
+                 f'stroke-width="1.6"/>')
+        d.append(f'<circle cx="{bx+s}" cy="{y}" r="4.2" fill="{PAPER}" stroke="{AMBER}" '
+                 f'stroke-width="1.6"/>')
+    d.append(_tekst(bx - 8, by - 10, "valt", 9, LADING_MIN, "middle", True))
+    d.append(_tekst(bx + 40, by - 10, "weggeschoten", 9, AMBER, "start", True))
+    d.append(_tekst(kx + cel_b / 2, by + 140, "dezelfde valtijd, een andere dracht",
+                    9.5, DIM, "middle"))
+
+    return _svg(cel_b * 2, cel_h, "\n".join(d))
