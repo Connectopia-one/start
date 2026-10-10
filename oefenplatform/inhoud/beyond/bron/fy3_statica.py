@@ -31,20 +31,21 @@ DEEL1 = [
         type="invultekst",
         vraag="Uit welke drie basiseenheden is de newton samengesteld?",
         antwoord=["kg·m/s²", "kg m/s2", "kilogram meter seconde"],
-        uitleg="Eén newton is één kilogram maal één meter per seconde kwadraat. Dat volgt "
-        "rechtstreeks uit de tweede wet van Newton.",
+        uitleg="\\(1\\ \\text{N} = 1\\ \\text{kg}\\cdot\\text{m/s}^{2}\\). Dat volgt "
+        "rechtstreeks uit \\(F = m\\,a\\).",
     ),
     dict(
         type="meerkeuze",
-        vraag="Hoe groot is de zwaartekracht op een massa van 8 kg, met g gelijk aan 9,81 N/kg?",
+        vraag="Hoe groot is de zwaartekracht op \\(m = 8{,}0\\ \\text{kg}\\), met "
+        "\\(g = 9{,}81\\ \\text{N/kg}\\)?",
         opties=[
-            "ongeveer 78 N",
-            "ongeveer 8 N",
-            "ongeveer 0,8 N",
-            "ongeveer 785 N",
+            "ongeveer \\(78\\ \\text{N}\\)",
+            "ongeveer \\(8{,}0\\ \\text{N}\\)",
+            "ongeveer \\(0{,}80\\ \\text{N}\\)",
+            "ongeveer \\(785\\ \\text{N}\\)",
         ],
         antwoord=0,
-        uitleg="De zwaartekracht is massa maal g: 8 maal 9,81 is ongeveer 78,5 newton. Let "
+        uitleg="\\(F_{z} = m\\,g = 8{,}0\\cdot 9{,}81 \\approx 78{,}5\\ \\text{N}\\). Let "
         "op: massa staat in kilogram, kracht in newton.",
     ),
     dict(
@@ -110,40 +111,45 @@ DEEL1 = [
         type="invultekst",
         vraag="Hoe noem je de kracht die een beweging langs een oppervlak tegenwerkt?",
         antwoord=["wrijvingskracht", "wrijving", "de wrijvingskracht"],
-        uitleg="Ze is de wrijvingscoëfficiënt maal de normaalkracht. Hoe harder het lichaam "
-        "op het vlak drukt, hoe groter ze is.",
+        uitleg="\\(F_{w} = \\mu\\,F_{N}\\): de wrijvingscoëfficiënt maal de normaalkracht. "
+        "Hoe harder het lichaam op het vlak drukt, hoe groter ze is.",
     ),
     dict(
         type="meerkeuze",
-        vraag="Een kist van 20 kg ligt op een vlakke vloer met een wrijvingscoëfficiënt van 0,3. Welke kracht heb je minstens nodig om haar te doen schuiven? Neem g gelijk aan 10 N/kg.",
+        vraag="Een kist van \\(20\\ \\text{kg}\\) ligt op een vlakke vloer met "
+        "\\(\\mu = 0{,}30\\). Welke kracht heb je minstens nodig om haar te doen schuiven? "
+        "Neem \\(g = 10\\ \\text{N/kg}\\).",
         opties=[
-            "60 N",
-            "6 N",
-            "200 N",
-            "600 N",
+            "\\(60\\ \\text{N}\\)",
+            "\\(6{,}0\\ \\text{N}\\)",
+            "\\(200\\ \\text{N}\\)",
+            "\\(600\\ \\text{N}\\)",
         ],
         antwoord=0,
-        uitleg="De normaalkracht is 200 newton en de wrijving 0,3 maal 200 is 60 newton. Je "
-        "moet net iets meer dan dat duwen.",
+        uitleg="\\(F_{N} = m\\,g = 200\\ \\text{N}\\) en "
+        "\\(F_{w} = \\mu\\,F_{N} = 0{,}30\\cdot 200 = 60\\ \\text{N}\\). Je moet net iets "
+        "meer dan dat duwen.",
     ),
     dict(
         type="waarofniet",
         vraag="De veerkracht is omgekeerd evenredig met de uitrekking van de veer.",
         antwoord=False,
-        uitleg="Ze is er juist recht evenredig mee: dat is de wet van Hooke, F is k maal de "
-        "verlenging. De veerconstante k zegt hoe stug de veer is.",
+        uitleg="Ze is er juist recht evenredig mee: dat is de wet van Hooke, "
+        "\\(F = k\\,\\Delta\\ell\\). De veerconstante \\(k\\) zegt hoe stug de veer is.",
     ),
     dict(
         type="meerkeuze",
-        vraag="Een veer met een veerconstante van 50 N/m wordt 8 cm uitgerekt. Welke kracht levert ze?",
+        vraag="Een veer met \\(k = 50\\ \\text{N/m}\\) wordt \\(8{,}0\\ \\text{cm}\\) "
+        "uitgerekt. Welke kracht levert ze?",
         opties=[
-            "4 N",
-            "400 N",
-            "0,16 N",
-            "6,25 N",
+            "\\(4{,}0\\ \\text{N}\\)",
+            "\\(400\\ \\text{N}\\)",
+            "\\(0{,}16\\ \\text{N}\\)",
+            "\\(6{,}25\\ \\text{N}\\)",
         ],
         antwoord=0,
-        uitleg="Reken de centimeter eerst om: 50 maal 0,08 is 4 newton. Rekenen met "
+        uitleg="Reken de centimeter eerst om: "
+        "\\(F = k\\,\\Delta\\ell = 50\\cdot 0{,}080 = 4{,}0\\ \\text{N}\\). Rekenen met "
         "centimeter geeft een antwoord dat honderd keer te groot is.",
     ),
     dict(
@@ -169,16 +175,17 @@ DEEL1 = [
     ),
     dict(
         type="meerkeuze",
-        vraag="Twee krachten van 6 N en 8 N werken loodrecht op elkaar in op hetzelfde punt. Hoe groot is de resulterende kracht?",
+        vraag="Twee krachten van \\(6{,}0\\ \\text{N}\\) en \\(8{,}0\\ \\text{N}\\) werken "
+        "loodrecht op elkaar in op hetzelfde punt. Hoe groot is de resulterende kracht?",
         opties=[
-            "10 N",
-            "14 N",
-            "2 N",
-            "48 N",
+            "\\(10\\ \\text{N}\\)",
+            "\\(14\\ \\text{N}\\)",
+            "\\(2{,}0\\ \\text{N}\\)",
+            "\\(48\\ \\text{N}\\)",
         ],
         antwoord=0,
-        uitleg="Loodrecht op elkaar gebruik je de stelling van Pythagoras: de wortel uit 36 "
-        "plus 64 is 10 newton.",
+        uitleg="Loodrecht op elkaar gebruik je Pythagoras: "
+        "\\(F = \\sqrt{6{,}0^{2} + 8{,}0^{2}} = \\sqrt{100} = 10\\ \\text{N}\\).",
     ),
     dict(
         type="meerkeuze",
@@ -246,14 +253,16 @@ DEEL2 = [
             "de kracht maal de massa van het lichaam",
         ],
         antwoord=0,
-        uitleg="Het zegt hoe goed een kracht erin slaagt iets te doen draaien. In de volle "
+        uitleg="\\(M = F\\,d\\,\\sin\\alpha\\), met \\(d\\) de afstand tot het draaipunt. "
+        "Het zegt hoe goed een kracht erin slaagt iets te doen draaien. In de volle "
         "formule staat er nog de sinus van de hoek bij.",
     ),
     dict(
         type="invultekst",
         vraag="In welke eenheid druk je het moment van een kracht uit?",
         antwoord=["newtonmeter", "Nm", "N·m"],
-        uitleg="Het is kracht maal afstand, dus newton maal meter. Al is dat dezelfde "
+        uitleg="Het is kracht maal afstand, dus \\(\\text{N}\\cdot\\text{m}\\). Al is dat "
+        "dezelfde "
         "samenstelling als de joule, het is een andere grootheid.",
     ),
     dict(
@@ -279,7 +288,8 @@ DEEL2 = [
             "120 Nm",
         ],
         antwoord=0,
-        uitleg="Kracht maal arm: 30 maal 0,4 is 12 newtonmeter. De sinus van negentig graden "
+        uitleg="\\(M = F\\,d = 30\\cdot 0{,}40 = 12\\ \\text{N}\\cdot\\text{m}\\). De sinus "
+        "van negentig graden "
         "is één, dus valt die factor weg.",
     ),
     dict(
@@ -292,7 +302,8 @@ DEEL2 = [
             "3 Nm",
         ],
         antwoord=0,
-        uitleg="De sinus van 30 graden is een half: 30 maal 0,4 maal 0,5 is 6 newtonmeter. "
+        uitleg="\\(\\sin 30^{\\circ} = 0{,}50\\), dus "
+        "\\(M = 30\\cdot 0{,}40\\cdot 0{,}50 = 6{,}0\\ \\text{N}\\cdot\\text{m}\\). "
         "Schuin duwen levert dus minder draaiend effect.",
     ),
     dict(
@@ -338,14 +349,16 @@ DEEL2 = [
             "1 m",
         ],
         antwoord=0,
-        uitleg="De momenten moeten gelijk zijn: 30 maal 2 is 60, dus 60 gedeeld door 40 is "
+        uitleg="De momenten moeten gelijk zijn: "
+        "\\(30\\cdot 2{,}0 = 40\\cdot d\\), dus \\(d = \\dfrac{60}{40}\\) is "
         "1,5 meter. Het zwaarste kind zit dus dichter bij het midden.",
     ),
     dict(
         type="waarofniet",
         vraag="Voor statisch evenwicht volstaat het dat de som van de krachten nul is.",
         antwoord=False,
-        uitleg="Dan schuift het lichaam niet, maar het kan nog draaien. Ook de som van de "
+        uitleg="Dan is \\(\\sum F = 0\\) en schuift het lichaam niet, maar het kan nog "
+        "draaien. Ook de som van de "
         "momenten moet nul zijn.",
     ),
     dict(

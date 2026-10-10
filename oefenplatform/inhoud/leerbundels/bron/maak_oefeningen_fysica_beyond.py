@@ -870,58 +870,114 @@ OEFENBUNDELS["oefenbundel-statica-krachten-moment-en-evenwicht-beyond"] = dict(
     onder="{aantal} oefeningen op papier, met een antwoordblad achteraan.",
     hoe=HOE,
     reeksen=[
-        dict(kop="Het moment van een kracht",
-             opdracht="Reken uit met M = F · d.",
+        dict(kop="Zwaartekracht, wrijving en veerkracht",
+             opdracht=r"Gebruik \(F_{z} = m\,g\), \(F_{w} = \mu\,F_{N}\) en "
+                      r"\(F = k\,\Delta\ell\). Neem \(g = 9{,}81\ \text{N/kg}\), tenzij er iets "
+                      r"anders staat.",
              oefeningen=[
-                 ("kort", "F = 40 N op 0,3 m van de as. Hoe groot is het moment?",
-                  "12 N·m, want 40 · 0,3.", W),
-                 ("kort", "Je wil een moment van 30 N·m met een arm van 0,5 m. Welke kracht heb je nodig?",
-                  "60 N, want 30 gedeeld door 0,5.", W),
-                 ("kort", "F = 25 N geeft een moment van 5 N·m. Hoe lang is de arm?",
-                  "0,2 m, want 5 gedeeld door 25.", W),
+                 ("kort", r"Hoe groot is \(F_{z}\) op \(m = 12\ \text{kg}\)?",
+                  r"\(F_{z} = 12\cdot 9{,}81 = 118\ \text{N}\)", W),
+                 ("kort", r"Een kist van \(45\ \text{kg}\) staat op een vlakke vloer met "
+                          r"\(\mu = 0{,}25\). Welke kracht doet haar schuiven? Neem "
+                          r"\(g = 10\ \text{N/kg}\).",
+                  r"\(F_{N} = 450\ \text{N}\), dus "
+                  r"\(F_{w} = 0{,}25\cdot 450 = 113\ \text{N}\)", W),
+                 ("kort", r"Een veer met \(k = 80\ \text{N/m}\) wordt \(15\ \text{cm}\) "
+                          r"uitgerekt. Welke kracht levert ze?",
+                  r"\(F = 80\cdot 0{,}15 = 12\ \text{N}\)", W),
+                 ("kort", r"Een veer rekt \(4{,}0\ \text{cm}\) uit onder een kracht van "
+                          r"\(6{,}0\ \text{N}\). Hoe groot is \(k\)?",
+                  r"\(k = \dfrac{6{,}0}{0{,}040} = 150\ \text{N/m}\)", W),
+                 ("kort", r"Een blok van \(8{,}0\ \text{kg}\) ligt op een helling van "
+                          r"\(30^{\circ}\). Hoe groot is de component langs het vlak? Neem "
+                          r"\(g = 10\ \text{N/kg}\).",
+                  r"\(F_{z}\sin 30^{\circ} = 80\cdot 0{,}50 = 40\ \text{N}\)", W),
              ]),
-        dict(kop="De wipplank",
-             opdracht="Reken uit. In evenwicht zijn de twee momenten gelijk.",
+        dict(kop="Krachten samenstellen",
+             opdracht=r"Bij een rechte hoek gebruik je Pythagoras: "
+                      r"\(F = \sqrt{F_{1}^{2} + F_{2}^{2}}\).",
              oefeningen=[
-                 ("kort", "Links 300 N op 1,2 m. Rechts 450 N. Op welke afstand zit die?",
-                  "0,8 m, want 300 · 1,2 gedeeld door 450.", WW),
-                 ("kort", "Links 500 N op 0,9 m. Rechts zit iemand op 1,5 m. Welk gewicht?",
-                  "300 N, want 500 · 0,9 gedeeld door 1,5.", WW),
+                 ("rij", [(r"\(30\ \text{N}\) en \(40\ \text{N}\) in dezelfde zin", r"\(70\ \text{N}\)"),
+                          (r"\(30\ \text{N}\) en \(40\ \text{N}\) in tegengestelde zin", r"\(10\ \text{N}\)"),
+                          (r"\(30\ \text{N}\) en \(40\ \text{N}\) loodrecht op elkaar", r"\(50\ \text{N}\)")],
+                  "Welke resultante?", WW),
+                 ("rij", [(r"\(9{,}0\ \text{N}\) en \(12\ \text{N}\) loodrecht", r"\(15\ \text{N}\)"),
+                          (r"\(5{,}0\ \text{N}\) en \(12\ \text{N}\) loodrecht", r"\(13\ \text{N}\)")],
+                  "Welke resultante?", WW),
+                 ("open", "Leg uit waarom je twee krachten die niet op één lijn liggen niet gewoon mag optellen.",
+                  "Een kracht is een vector: ze heeft ook een richting. Je moet ze dus als vectoren "
+                  "samenstellen, met de parallellogramregel of met Pythagoras bij een rechte "
+                  "hoek.", 5),
+             ]),
+        dict(kop="Het moment van een kracht",
+             opdracht=r"Gebruik \(M = F\,d\,\sin\alpha\). Waar geen hoek staat, werkt de kracht "
+                      r"loodrecht.",
+             oefeningen=[
+                 ("kort", r"\(F = 40\ \text{N}\) op \(d = 0{,}30\ \text{m}\). Hoe groot is "
+                          r"\(M\)?",
+                  r"\(M = 40\cdot 0{,}30 = 12\ \text{N}\cdot\text{m}\)", W),
+                 ("kort", r"Je wil \(M = 30\ \text{N}\cdot\text{m}\) met \(d = 0{,}50\ \text{m}\). "
+                          r"Welke kracht heb je nodig?",
+                  r"\(F = \dfrac{30}{0{,}50} = 60\ \text{N}\)", W),
+                 ("kort", r"\(F = 25\ \text{N}\) geeft \(M = 5{,}0\ \text{N}\cdot\text{m}\). Hoe "
+                          r"lang is de arm?",
+                  r"\(d = \dfrac{5{,}0}{25} = 0{,}20\ \text{m}\)", W),
+                 ("kort", r"\(F = 60\ \text{N}\) op \(d = 0{,}40\ \text{m}\), maar onder "
+                          r"\(\alpha = 30^{\circ}\) met de stang. Hoe groot is \(M\)?",
+                  r"\(M = 60\cdot 0{,}40\cdot 0{,}50 = 12\ \text{N}\cdot\text{m}\)", W),
+                 ("kort", r"Dezelfde kracht en afstand, maar onder \(\alpha = 90^{\circ}\). Hoe "
+                          r"groot is \(M\) nu?",
+                  r"\(M = 60\cdot 0{,}40 = 24\ \text{N}\cdot\text{m}\), het dubbele", W),
+                 ("open", r"Een kracht werkt precies langs de stang, dus \(\alpha = 0^{\circ}\). "
+                          r"Hoe groot is het moment, en wat betekent dat voor een deur?",
+                  r"Nul, want \(\sin 0^{\circ} = 0\): de werklijn gaat door het draaipunt en de "
+                  r"arm is nul. Duw je een deur recht naar de scharnieren toe, dan gaat ze niet "
+                  r"open, hoe hard je ook duwt.", 5),
+             ]),
+        dict(kop="De wipplank en de hefboom",
+             opdracht=r"In rotatie-evenwicht is \(\sum M = 0\): de momenten linksom en rechtsom "
+                      r"zijn even groot.",
+             oefeningen=[
+                 ("kort", r"Links \(300\ \text{N}\) op \(1{,}2\ \text{m}\). Rechts "
+                          r"\(450\ \text{N}\). Op welke afstand zit die?",
+                  r"\(d = \dfrac{300\cdot 1{,}2}{450} = 0{,}80\ \text{m}\)", WW),
+                 ("kort", r"Links \(500\ \text{N}\) op \(0{,}90\ \text{m}\). Rechts zit iemand op "
+                          r"\(1{,}5\ \text{m}\). Welk gewicht?",
+                  r"\(F = \dfrac{500\cdot 0{,}90}{1{,}5} = 300\ \text{N}\)", WW),
+                 ("kort", r"Een kind van \(25\ \text{kg}\) zit op \(1{,}8\ \text{m}\). Waar moet "
+                          r"een kind van \(30\ \text{kg}\) zitten?",
+                  r"\(d = \dfrac{25\cdot 1{,}8}{30} = 1{,}5\ \text{m}\)", WW),
+                 ("open", r"Een plank van \(4{,}0\ \text{m}\) rust op twee steunen aan de "
+                          r"uiteinden. Een last van \(600\ \text{N}\) staat op \(1{,}0\ \text{m}\) "
+                          r"van de linkersteun. Hoeveel draagt elke steun? Neem de momenten rond "
+                          r"de rechtersteun.",
+                  r"Rond rechts: \(F_{\text{links}}\cdot 4{,}0 = 600\cdot 3{,}0\), dus "
+                  r"\(F_{\text{links}} = 450\ \text{N}\). De rest, \(150\ \text{N}\), draagt de "
+                  r"rechtersteun.", 6),
              ]),
         dict(kop="Evenwicht of niet",
              opdracht="Kruis aan.",
              oefeningen=[
                  ("waar", "Een voorwerp in evenwicht staat altijd stil.", False),
-                 ("waar", "Voor evenwicht moet de som van de krachten nul zijn.", True),
-                 ("waar", "Voor evenwicht moet ook de som van de momenten nul zijn.", True),
+                 ("waar", r"Voor evenwicht moet \(\sum F = 0\) zijn.", True),
+                 ("waar", r"Voor evenwicht moet ook \(\sum M = 0\) zijn.", True),
                  ("waar", "Op een voorwerp dat op een tafel ligt, werkt alleen de zwaartekracht.", False),
-             ]),
-        dict(kop="Krachten samenstellen",
-             opdracht="Antwoord kort.",
-             oefeningen=[
-                 ("rij", [("30 N en 40 N in dezelfde zin", "70 N"),
-                          ("30 N en 40 N in tegengestelde zin", "10 N"),
-                          ("30 N en 40 N loodrecht op elkaar", "50 N")],
-                  "Welke resultante?", WW),
-                 ("open", "Leg uit waarom je twee krachten die niet op één lijn liggen niet gewoon mag optellen.",
-                  "Een kracht is een vector: ze heeft ook een richting. Je moet ze dus als vectoren "
-                  "samenstellen, bijvoorbeeld met de parallellogramregel of met de stelling van "
-                  "Pythagoras bij een rechte hoek.", 6),
+                 ("waar", r"In \(M = F\,d\,\sin\alpha\) is het moment het grootst bij \(\alpha = 90^{\circ}\).", True),
+                 ("waar", "Het zwaartepunt moet buiten het steunvlak liggen om niet te kantelen.", False),
              ]),
         dict(kop="Uitleggen",
              opdracht="Antwoord in volle zinnen.",
              oefeningen=[
                  ("open", "Waarom gaat een deur makkelijker open aan de kruk dan vlak bij de scharnieren?",
-                  "Het moment is de kracht maal de arm. Aan de kruk is de arm veel groter, dus "
-                  "volstaat een veel kleinere kracht voor hetzelfde moment.", 5),
+                  r"\(M = F\,d\): aan de kruk is \(d\) veel groter, dus volstaat een veel "
+                  r"kleinere kracht voor hetzelfde moment.", 5),
                  ("open", "Waarom staat een piramide stabieler dan een hoge smalle toren?",
                   "Het zwaartepunt ligt laag en het steunvlak is breed, dus moet je hem heel ver "
-                  "kantelen voor het zwaartepunt buiten dat steunvlak komt. Bij een hoge smalle "
-                  "toren is dat na een kleine helling al zo.", 6),
-                 ("open", "Een plank ligt op twee steunpunten en iemand staat dichter bij het linkse. Welke steun draagt het meest? Leg uit.",
-                  "Het linkse. Reken de momenten rond het rechtse steunpunt uit: de last zit dan op "
-                  "een grote arm, dus moet de linkse kracht groot zijn om dat moment te "
-                  "compenseren.", 6),
+                  "kantelen voor het zwaartepunt buiten dat steunvlak komt.", 5),
+                 ("open", r"Waarom staat er aan de achterste arm van een torenkraan een zwaar "
+                          r"blok?",
+                  r"Om het moment van de last aan de voorkant tegen te werken. Samen moeten de "
+                  r"momenten rond de mast nul zijn, anders kantelt de kraan.", 5),
              ]),
     ],
 )

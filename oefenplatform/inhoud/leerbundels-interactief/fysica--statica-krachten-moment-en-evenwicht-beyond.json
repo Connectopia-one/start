@@ -8,19 +8,24 @@
    "blokken": [
     {
      "soort": "tekst",
-     "html": "Een kracht heeft naast een grootte ook <strong>een richting en een zin</strong> nodig om volledig bepaald te zijn: ze is een vector. Kracht staat in newton, en de <strong>newton is uit drie basiseenheden samengesteld</strong>: <strong>kg·m/s²</strong>."
+     "html": "Een kracht heeft naast een grootte ook <strong>een richting en een zin</strong> nodig om volledig bepaald te zijn: ze is een vector. Kracht staat in newton, en de <strong>newton is uit drie basiseenheden samengesteld</strong>: <strong>kg·m/s²</strong>, dus kilogram maal meter per seconde kwadraat."
     },
     {
      "soort": "tekst",
-     "html": "De <strong>zwaartekracht</strong> op een massa reken je als massa maal g. Op <strong>8 kg</strong> met <strong>g gelijk aan 9,81 N/kg</strong> is dat <strong>ongeveer 78 N</strong>. Het <strong>gewicht</strong> <strong>is een kracht en staat dus in newton</strong>, en het <strong>hangt af van de plaats waar je je bevindt</strong>; de massa niet."
+     "html": "De <strong>zwaartekracht</strong> op een massa reken je als \\(F_{z} = m\\,g\\). Op <strong>8 kg</strong> met <strong>g gelijk aan 9,81 N/kg</strong> is dat \\(8{,}0\\cdot 9{,}81 \\approx 78\\ \\text{N}\\), dus <strong>ongeveer 78 N</strong>. Het <strong>gewicht</strong> <strong>is een kracht en staat dus in newton</strong>, en het <strong>hangt af van de plaats waar je je bevindt</strong>; de massa niet."
     },
     {
      "soort": "tekst",
-     "html": "<strong>Twee krachten die niet op één lijn liggen</strong>, stel je samen <strong>met de parallellogramregel voor vectoren</strong>. Staan <strong>6 N en 8 N loodrecht op elkaar</strong> in hetzelfde punt, dan is de resulterende kracht <strong>10 N</strong>, volgens de stelling van Pythagoras."
+     "html": "<strong>Twee krachten die niet op één lijn liggen</strong>, stel je samen <strong>met de parallellogramregel voor vectoren</strong>. Staan <strong>6 N en 8 N loodrecht op elkaar</strong> in hetzelfde punt, dan is de resulterende kracht <strong>10 N</strong>, volgens de stelling van Pythagoras: \\[F = \\sqrt{6{,}0^{2} + 8{,}0^{2}} = \\sqrt{100} = 10\\ \\text{N}\\]"
     },
     {
      "soort": "tekst",
-     "html": "Je <strong>ontbindt een kracht in componenten</strong> <strong>om apart te kunnen rekenen langs twee loodrechte assen</strong>. Staat een <strong>kist op een helling</strong>, dan laat <strong>de component langs het hellend vlak</strong> haar naar beneden glijden; de andere component drukt op het vlak."
+     "html": "Je <strong>ontbindt een kracht in componenten</strong> <strong>om apart te kunnen rekenen langs twee loodrechte assen</strong>. Staat een <strong>kist op een helling</strong>, dan laat <strong>de component langs het hellend vlak</strong> haar naar beneden glijden; de andere component drukt op het vlak. Met \\(\\alpha\\) de hellingshoek is die eerste component \\(F_{z}\\sin\\alpha\\) en de tweede \\(F_{z}\\cos\\alpha\\); die tweede wordt door de normaalkracht opgeheven."
+    },
+    {
+     "soort": "figuur",
+     "html": "<svg viewBox=\"0 0 468 372\" width=\"468\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"6\" y=\"4\" width=\"222\" height=\"158\" rx=\"8\" fill=\"#ffffff\" stroke=\"#e4ded0\" stroke-width=\"1.2\"/>\n<text x=\"117.0\" y=\"178.0\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"10\" font-weight=\"600\" fill=\"#6b7260\">op een helling splits je de zwaartekracht</text>\n<path d=\"M24 134 L206 134 L206 72 Z\" fill=\"#e4ded0\" opacity=\"0.45\" stroke=\"#6b7260\" stroke-width=\"1.2\"/>\n<polygon points=\"93.5,110.3 121.9,100.6 115.5,81.7 87.1,91.4\" fill=\"#ffffff\" stroke=\"#23291f\" stroke-width=\"1.3\"/>\n<line x1=\"104.5\" y1=\"96.0\" x2=\"104.5\" y2=\"138.0\" stroke=\"#c17f2b\" stroke-width=\"2.0\"/>\n<polygon points=\"104.5,143.5 101.1,133.6 107.9,133.6\" fill=\"#c17f2b\"/>\n<text x=\"106.5\" y=\"152.0\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"10.5\" font-weight=\"600\" fill=\"#c17f2b\">Fz</text>\n<line x1=\"104.5\" y1=\"96.0\" x2=\"76.1\" y2=\"105.7\" stroke=\"#2f5d50\" stroke-width=\"1.6\" stroke-dasharray=\"5 3\"/>\n<polygon points=\"70.9,107.5 79.2,101.0 81.4,107.5\" fill=\"#2f5d50\"/>\n<text x=\"74.1\" y=\"119.7\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"9\" fill=\"#2f5d50\">langs</text>\n<line x1=\"104.5\" y1=\"96.0\" x2=\"112.9\" y2=\"120.6\" stroke=\"#2f5d50\" stroke-width=\"1.6\" stroke-dasharray=\"5 3\"/>\n<polygon points=\"114.7,125.8 108.2,117.6 114.7,115.4\" fill=\"#2f5d50\"/>\n<text x=\"142.9\" y=\"124.6\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"9\" fill=\"#2f5d50\">loodrecht</text>\n<line x1=\"104.5\" y1=\"96.0\" x2=\"96.1\" y2=\"71.4\" stroke=\"#2f5d50\" stroke-width=\"2.0\"/>\n<polygon points=\"94.3,66.2 100.8,74.5 94.3,76.7\" fill=\"#2f5d50\"/>\n<text x=\"82.1\" y=\"69.4\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"10.5\" font-weight=\"600\" fill=\"#2f5d50\">FN</text>\n<text x=\"48.0\" y=\"128.0\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"11\" font-weight=\"600\" fill=\"#6b7260\">α</text>\n<rect x=\"240\" y=\"4\" width=\"222\" height=\"158\" rx=\"8\" fill=\"#ffffff\" stroke=\"#e4ded0\" stroke-width=\"1.2\"/>\n<text x=\"351.0\" y=\"178.0\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"10\" font-weight=\"600\" fill=\"#6b7260\">loodrecht op elkaar: Pythagoras</text>\n<line x1=\"292.0\" y1=\"126.0\" x2=\"384.0\" y2=\"126.0\" stroke=\"#c17f2b\" stroke-width=\"2.0\"/>\n<polygon points=\"389.5,126.0 379.6,129.4 379.6,122.6\" fill=\"#c17f2b\"/>\n<text x=\"338.0\" y=\"142.0\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"10.5\" font-weight=\"600\" fill=\"#c17f2b\">8 N</text>\n<line x1=\"292.0\" y1=\"126.0\" x2=\"292.0\" y2=\"57.0\" stroke=\"#c17f2b\" stroke-width=\"2.0\"/>\n<polygon points=\"292.0,51.5 295.4,61.4 288.6,61.4\" fill=\"#c17f2b\"/>\n<text x=\"275.0\" y=\"91.5\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"10.5\" font-weight=\"600\" fill=\"#c17f2b\">6 N</text>\n<path d=\"M384 126 L384 57 L292 57\" fill=\"none\" stroke=\"#e4ded0\" stroke-width=\"1.2\" stroke-dasharray=\"4 3\"/>\n<line x1=\"292.0\" y1=\"126.0\" x2=\"384.0\" y2=\"57.0\" stroke=\"#2f5d50\" stroke-width=\"2.4\"/>\n<polygon points=\"388.4,53.7 382.5,62.4 378.4,56.9\" fill=\"#2f5d50\"/>\n<text x=\"386.0\" y=\"47.0\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"10.5\" font-weight=\"600\" fill=\"#2f5d50\">10 N</text>\n<text x=\"351.0\" y=\"36.0\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"9.5\" fill=\"#6b7260\">de diagonaal van de rechthoek</text>\n<rect x=\"6\" y=\"190\" width=\"456\" height=\"158\" rx=\"8\" fill=\"#ffffff\" stroke=\"#e4ded0\" stroke-width=\"1.2\"/>\n<text x=\"234.0\" y=\"364.0\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"10\" font-weight=\"600\" fill=\"#6b7260\">moment: kracht maal de loodrechte afstand</text>\n<line x1=\"100\" y1=\"304\" x2=\"250\" y2=\"304\" stroke=\"#23291f\" stroke-width=\"3\"/>\n<circle cx=\"100\" cy=\"304\" r=\"5\" fill=\"#23291f\"/>\n<text x=\"96.0\" y=\"324.0\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"9.5\" fill=\"#6b7260\">draaipunt</text>\n<line x1=\"250.0\" y1=\"304.0\" x2=\"302.6\" y2=\"328.5\" stroke=\"#c17f2b\" stroke-width=\"2.2\"/>\n<polygon points=\"307.6,330.8 297.1,329.7 300.0,323.6\" fill=\"#c17f2b\"/>\n<text x=\"316.6\" y=\"328.5\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"11.5\" font-weight=\"600\" fill=\"#c17f2b\">F</text>\n<line x1=\"250\" y1=\"304\" x2=\"123.1\" y2=\"244.8\" stroke=\"#c17f2b\" stroke-width=\"1\" stroke-dasharray=\"4 3\" opacity=\"0.7\"/>\n<line x1=\"100\" y1=\"304\" x2=\"126.8\" y2=\"246.5\" stroke=\"#2f5d50\" stroke-width=\"2\" stroke-dasharray=\"5 3\"/>\n<text x=\"97.4\" y=\"277.3\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"10\" font-weight=\"600\" fill=\"#2f5d50\">arm</text>\n<line x1=\"100\" y1=\"313\" x2=\"250\" y2=\"313\" stroke=\"#6b7260\" stroke-width=\"1\" stroke-dasharray=\"3 3\"/>\n<text x=\"175.0\" y=\"326.0\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"10.5\" font-weight=\"600\" fill=\"#6b7260\">d</text>\n<text x=\"270.0\" y=\"317.0\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"11\" font-weight=\"600\" fill=\"#6b7260\">α</text>\n<text x=\"352.0\" y=\"246.0\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"11.5\" font-weight=\"600\" fill=\"#23291f\">M = F · d · sin α</text>\n<text x=\"352.0\" y=\"264.0\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"9.5\" fill=\"#6b7260\">de arm is d · sin α</text>\n<text x=\"352.0\" y=\"286.0\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"9.5\" fill=\"#6b7260\">gaat de werklijn door het</text>\n<text x=\"352.0\" y=\"299.0\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"9.5\" fill=\"#6b7260\">draaipunt, dan is de arm nul</text>\n<text x=\"352.0\" y=\"312.0\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"9.5\" fill=\"#6b7260\">en het moment ook</text></svg>",
+     "onderschrift": "Links het blok op de helling: de zwaartekracht valt uiteen in een stuk langs het vlak en een stuk loodrecht erop. Rechts twee krachten die loodrecht op elkaar staan. Onderaan de krachtarm, de kortste afstand van het draaipunt tot de werklijn."
     }
    ]
   },
@@ -33,11 +38,11 @@
     },
     {
      "soort": "tekst",
-     "html": "De <strong>wrijvingskracht</strong> is de kracht die <strong>een beweging langs een oppervlak tegenwerkt</strong>. Ze <strong>wordt groter als het lichaam harder op het oppervlak drukt</strong>. Een <strong>kist van 20 kg op een vlakke vloer met een wrijvingscoëfficiënt van 0,3</strong> vraagt minstens <strong>60 N</strong> om te schuiven, met g gelijk aan 10 N/kg."
+     "html": "De <strong>wrijvingskracht</strong> is de kracht die <strong>een beweging langs een oppervlak tegenwerkt</strong>. Ze <strong>wordt groter als het lichaam harder op het oppervlak drukt</strong>. Een <strong>kist van 20 kg op een vlakke vloer met een wrijvingscoëfficiënt van 0,3</strong> vraagt minstens <strong>60 N</strong> om te schuiven, met g gelijk aan 10 N/kg: \\(F_{N} = m\\,g = 200\\ \\text{N}\\) en \\(F_{w} = \\mu\\,F_{N} = 0{,}30\\cdot 200 = 60\\ \\text{N}\\)."
     },
     {
      "soort": "tekst",
-     "html": "De <strong>veerkracht is recht evenredig met de uitrekking</strong> van de veer, niet omgekeerd evenredig. Een veer met een <strong>veerconstante van 50 N/m</strong> die <strong>8 cm</strong> uitgerekt wordt, levert <strong>4 N</strong>."
+     "html": "De <strong>veerkracht is recht evenredig met de uitrekking</strong> van de veer, niet omgekeerd evenredig. Dat is de wet van Hooke: \\[F = k\\,\\Delta\\ell\\] Een veer met een <strong>veerconstante van 50 N/m</strong> die <strong>8 cm</strong> uitgerekt wordt, levert \\(50\\cdot 0{,}080 = 4{,}0\\ \\text{N}\\). Reken de centimeter eerst om naar meter, anders staat je antwoord er honderd keer naast."
     },
     {
      "soort": "tekst",
@@ -50,7 +55,7 @@
    "blokken": [
     {
      "soort": "tekst",
-     "html": "<strong>Translatie-evenwicht</strong> betekent dat <strong>de som van alle krachten op het lichaam nul is</strong>. Een <strong>lichaam in translatie-evenwicht hoeft niet stil te staan</strong>: ook een lichaam met een constante snelheid is in evenwicht, want zijn snelheid verandert niet."
+     "html": "<strong>Translatie-evenwicht</strong> betekent dat <strong>de som van alle krachten op het lichaam nul is</strong>, dus \\(\\sum \\vec{F} = \\vec{0}\\). Een <strong>lichaam in translatie-evenwicht hoeft niet stil te staan</strong>: ook een lichaam met een constante snelheid is in evenwicht, want zijn snelheid verandert niet."
     }
    ]
   },
@@ -59,11 +64,11 @@
    "blokken": [
     {
      "soort": "tekst",
-     "html": "Het <strong>moment van een kracht</strong> is <strong>de kracht maal de krachtarm ten opzichte van het draaipunt</strong>, en het staat in <strong>newtonmeter</strong>. De <strong>krachtarm</strong> is de kortste afstand van het draaipunt tot de werklijn van de kracht. Een <strong>kracht waarvan de werklijn door het draaipunt gaat, heeft geen moment</strong>, want dan is die arm nul."
+     "html": "Het <strong>moment van een kracht</strong> is <strong>de kracht maal de krachtarm ten opzichte van het draaipunt</strong>, en het staat in <strong>newtonmeter</strong>: \\[M = F\\,d\\,\\sin\\alpha\\] met \\(d\\) de afstand van het draaipunt tot het aangrijpingspunt en \\(\\alpha\\) de hoek tussen de stang en de kracht. De <strong>krachtarm</strong> is \\(d\\sin\\alpha\\), de kortste afstand van het draaipunt tot de werklijn van de kracht. Een <strong>kracht waarvan de werklijn door het draaipunt gaat, heeft geen moment</strong>, want dan is die arm nul."
     },
     {
      "soort": "tekst",
-     "html": "Rekenen: een kracht van <strong>30 N</strong> die <strong>loodrecht op 0,4 m van het draaipunt</strong> werkt, geeft een moment van <strong>12 Nm</strong>. Werkt diezelfde kracht <strong>onder 30 graden met de stang</strong>, nog altijd op 0,4 m, dan is het moment maar <strong>6 Nm</strong>, want de sinus van 30 graden is een half."
+     "html": "Rekenen: een kracht van <strong>30 N</strong> die <strong>loodrecht op 0,4 m van het draaipunt</strong> werkt, geeft \\(M = 30\\cdot 0{,}40 = 12\\ \\text{N}\\cdot\\text{m}\\), want \\(\\sin 90^{\\circ} = 1\\). Werkt diezelfde kracht <strong>onder 30 graden met de stang</strong>, nog altijd op 0,4 m, dan is \\(M = 30\\cdot 0{,}40\\cdot 0{,}50 = 6{,}0\\ \\text{N}\\cdot\\text{m}\\): de helft, want de sinus van 30 graden is een half."
     },
     {
      "soort": "tekst",
@@ -80,7 +85,7 @@
    "blokken": [
     {
      "soort": "tekst",
-     "html": "<strong>Rotatie-evenwicht</strong> betekent dat <strong>de momenten linksom en rechtsom elkaar opheffen</strong>. <strong>Voor statisch evenwicht volstaat het dus niet dat de som van de krachten nul is</strong>: <strong>de som van alle krachten én de som van alle momenten moeten nul zijn</strong>."
+     "html": "<strong>Rotatie-evenwicht</strong> betekent dat <strong>de momenten linksom en rechtsom elkaar opheffen</strong>. <strong>Voor statisch evenwicht volstaat het dus niet dat de som van de krachten nul is</strong>: <strong>de som van alle krachten én de som van alle momenten moeten nul zijn</strong>, dus \\(\\sum \\vec{F} = \\vec{0}\\) én \\(\\sum M = 0\\)."
     },
     {
      "soort": "tekst",
@@ -97,7 +102,7 @@
    "blokken": [
     {
      "soort": "tekst",
-     "html": "Het <strong>zwaartepunt</strong> is het punt <strong>waarin je de hele massa van een lichaam mag denken</strong>. Voor <strong>volledig evenwicht</strong> moeten <strong>de som van alle krachten nul</strong> zijn, <strong>de som van alle momenten nul</strong> zijn en moet <strong>het zwaartepunt boven het steunvlak liggen</strong>."
+     "html": "Het <strong>zwaartepunt</strong> is het punt <strong>waarin je de hele massa van een lichaam mag denken</strong>; het heet ook het <strong>massamiddelpunt</strong>. Voor <strong>volledig evenwicht</strong> moeten <strong>de som van alle krachten nul</strong> zijn, <strong>de som van alle momenten nul</strong> zijn en moet <strong>het zwaartepunt boven het steunvlak liggen</strong>."
     },
     {
      "soort": "tekst",
@@ -107,11 +112,12 @@
   }
  ],
  "onthoud": [
-  "Een kracht heeft grootte, richting en zin; de newton is kg·m/s².",
+  "Een kracht heeft grootte, richting en zin; \\(1\\ \\text{N} = 1\\ \\text{kg}\\cdot\\text{m/s}^{2}\\).",
   "Krachten die niet op één lijn liggen: parallellogramregel.",
   "De normaalkracht staat loodrecht op het oppervlak.",
   "Translatie-evenwicht: som van de krachten nul, snelheid mag constant zijn.",
-  "Moment is kracht maal krachtarm, in newtonmeter.",
+  "Moment: \\(M = F\\,d\\,\\sin\\alpha\\), in newtonmeter.",
+  "Zwaartekracht \\(F_{z} = m\\,g\\), wrijving \\(F_{w} = \\mu F_{N}\\), veer \\(F = k\\,\\Delta\\ell\\).",
   "Door het draaipunt werken betekent geen moment.",
   "Statisch evenwicht vraagt krachten én momenten nul.",
   "Kantelen gebeurt zodra het zwaartepunt buiten het steunvlak valt."

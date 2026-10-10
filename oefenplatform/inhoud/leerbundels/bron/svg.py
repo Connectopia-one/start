@@ -7345,3 +7345,113 @@ def inductie(breedte=470):
                  f'stroke-width="1" stroke-dasharray="3 3"/>')
 
     return _svg(cel_b * 2, cel_h + hoog, "\n".join(d))
+
+
+def krachtenbeeld(breedte=470):
+    r"""Drie tekeningen bij statica.
+
+    Een blok op een helling met de zwaartekracht ontbonden, twee krachten
+    die loodrecht op elkaar staan met hun resultante, en het moment van een
+    kracht met zijn krachtarm.
+    """
+    import math
+    cel_b, cel_h = 234, 186
+    KRACHT = AMBER
+    ONTBIND = FOREST
+    d = []
+
+    def kader(kx, ky, titel, breed=None, hoog=None):
+        b = breed or cel_b
+        h = hoog or cel_h
+        d.append(f'<rect x="{kx+6}" y="{ky+4}" width="{b-12}" height="{h-28}" rx="8" '
+                 f'fill="#ffffff" stroke="{BORDER}" stroke-width="1.2"/>')
+        d.append(_tekst(kx + b / 2, ky + h - 8, titel, 10, DIM, "middle", True))
+
+    def pijl(x0, y0, x1, y1, kleur, breed=2.0, stippel=False):
+        extra = ' stroke-dasharray="5 3"' if stippel else ""
+        d.append(f'<line x1="{x0:.1f}" y1="{y0:.1f}" x2="{x1:.1f}" y2="{y1:.1f}" '
+                 f'stroke="{kleur}" stroke-width="{breed}"{extra}/>')
+        d.append(_pijlkop(x1, y1, math.atan2(y1 - y0, x1 - x0), kleur, 5.5))
+
+    # ── 1. een blok op een helling
+    kader(0, 0, "op een helling splits je de zwaartekracht")
+    ax, ay, bx = 24, 134, 206
+    hoogte = 62
+    d.append(f'<path d="M{ax} {ay} L{bx} {ay} L{bx} {ay-hoogte} Z" fill="{BORDER}" '
+             f'opacity="0.45" stroke="{DIM}" stroke-width="1.2"/>')
+    hoek = math.atan2(hoogte, bx - ax)
+    c, s = math.cos(hoek), math.sin(hoek)
+    # het blokje staat op de schuine zijde: langs de helling is (c, -s),
+    # de buitennormaal is (-s, -c)
+    t = 0.46
+    px, py = ax + (bx - ax) * t, ay - hoogte * t
+    halfb, hoog = 15, 20
+    punten = []
+    for u, v in ((-halfb, 0), (halfb, 0), (halfb, hoog), (-halfb, hoog)):
+        punten.append(f"{px + u*c - v*s:.1f},{py - u*s - v*c:.1f}")
+    d.append(f'<polygon points="{" ".join(punten)}" fill="{PAPER}" stroke="{INK}" '
+             f'stroke-width="1.3"/>')
+    gx, gy = px - (hoog / 2) * s, py - (hoog / 2) * c
+    # de zwaartekracht, recht omlaag
+    pijl(gx, gy, gx, gy + 42, KRACHT)
+    d.append(_tekst(gx + 2, gy + 56, "Fz", 10.5, KRACHT, "middle", True))
+    # haar twee componenten, gestippeld
+    pijl(gx, gy, gx - 30 * c, gy + 30 * s, ONTBIND, 1.6, True)
+    d.append(_tekst(gx - 30 * c - 2, gy + 30 * s + 14, "langs", 9, ONTBIND, "middle"))
+    pijl(gx, gy, gx + 26 * s, gy + 26 * c, ONTBIND, 1.6, True)
+    d.append(_tekst(gx + 26 * s + 30, gy + 26 * c + 4, "loodrecht", 9, ONTBIND, "middle"))
+    # de normaalkracht heft die loodrechte component op
+    pijl(gx, gy, gx - 26 * s, gy - 26 * c, DRAAD)
+    d.append(_tekst(gx - 26 * s - 14, gy - 26 * c - 2, "FN", 10.5, DRAAD, "middle", True))
+    d.append(_tekst(ax + 24, ay - 6, "α", 11, DIM, "middle", True))
+
+    # ── 2. twee krachten samenstellen
+    kx = cel_b
+    kader(kx, 0, "loodrecht op elkaar: Pythagoras")
+    ox, oy = kx + 58, 126
+    f1, f2 = 92, 69           # 8 N en 6 N, op schaal
+    pijl(ox, oy, ox + f1, oy, KRACHT)
+    d.append(_tekst(ox + f1 / 2, oy + 16, "8 N", 10.5, KRACHT, "middle", True))
+    pijl(ox, oy, ox, oy - f2, KRACHT)
+    d.append(_tekst(ox - 17, oy - f2 / 2, "6 N", 10.5, KRACHT, "middle", True))
+    d.append(f'<path d="M{ox+f1} {oy} L{ox+f1} {oy-f2} L{ox} {oy-f2}" fill="none" '
+             f'stroke="{BORDER}" stroke-width="1.2" stroke-dasharray="4 3"/>')
+    pijl(ox, oy, ox + f1, oy - f2, ONTBIND, 2.4)
+    d.append(_tekst(ox + f1 + 2, oy - f2 - 10, "10 N", 10.5, ONTBIND, "middle", True))
+    d.append(_tekst(kx + cel_b / 2, 36, "de diagonaal van de rechthoek", 9.5, DIM, "middle"))
+
+    # ── 3. het moment van een kracht
+    ky = cel_h
+    kader(0, ky, "moment: kracht maal de loodrechte afstand", cel_b * 2)
+    dx0, dy0 = 100, ky + 118
+    arm_d = 150
+    ex, ey = dx0 + arm_d, dy0
+    d.append(f'<line x1="{dx0}" y1="{dy0}" x2="{ex}" y2="{ey}" stroke="{INK}" '
+             f'stroke-width="3"/>')
+    d.append(f'<circle cx="{dx0}" cy="{dy0}" r="5" fill="{INK}"/>')
+    d.append(_tekst(dx0 - 4, dy0 + 20, "draaipunt", 9.5, DIM, "middle"))
+    a = math.radians(25)
+    ca, sa = math.cos(a), math.sin(a)
+    # de kracht grijpt aan op het uiteinde en wijst schuin naar beneden
+    pijl(ex, ey, ex + 58 * ca, ey + 58 * sa, KRACHT, 2.2)
+    d.append(_tekst(ex + 58 * ca + 14, ey + 58 * sa, "F", 11.5, KRACHT, "middle", True))
+    # haar werklijn, doorgetrokken naar de andere kant
+    d.append(f'<line x1="{ex}" y1="{ey}" x2="{ex-140*ca:.1f}" y2="{ey-140*sa:.1f}" '
+             f'stroke="{KRACHT}" stroke-width="1" stroke-dasharray="4 3" opacity="0.7"/>')
+    # de loodlijn uit het draaipunt op die werklijn: dat is de krachtarm
+    fx, fy = ex - arm_d * ca * ca, ey - arm_d * ca * sa
+    d.append(f'<line x1="{dx0}" y1="{dy0}" x2="{fx:.1f}" y2="{fy:.1f}" stroke="{ONTBIND}" '
+             f'stroke-width="2" stroke-dasharray="5 3"/>')
+    d.append(_tekst((dx0 + fx) / 2 - 16, (dy0 + fy) / 2 + 2, "arm", 10, ONTBIND, "middle", True))
+    # de afstand d langs de stang
+    d.append(f'<line x1="{dx0}" y1="{dy0+9}" x2="{ex}" y2="{ey+9}" stroke="{DIM}" '
+             f'stroke-width="1" stroke-dasharray="3 3"/>')
+    d.append(_tekst((dx0 + ex) / 2, dy0 + 22, "d", 10.5, DIM, "middle", True))
+    d.append(_tekst(ex + 20, ey + 13, "α", 11, DIM, "middle", True))
+    d.append(_tekst(352, ky + 60, "M = F · d · sin α", 11.5, INK, "middle", True))
+    d.append(_tekst(352, ky + 78, "de arm is d · sin α", 9.5, DIM, "middle"))
+    d.append(_tekst(352, ky + 100, "gaat de werklijn door het", 9.5, DIM, "middle"))
+    d.append(_tekst(352, ky + 113, "draaipunt, dan is de arm nul", 9.5, DIM, "middle"))
+    d.append(_tekst(352, ky + 126, "en het moment ook", 9.5, DIM, "middle"))
+
+    return _svg(cel_b * 2, cel_h * 2, "\n".join(d))

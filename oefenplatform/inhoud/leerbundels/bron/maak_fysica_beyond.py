@@ -1057,21 +1057,32 @@ BUNDELS["statica-krachten-moment-en-evenwicht-beyond"] = dict(
                   "<strong>een richting en een zin</strong> nodig om volledig bepaald te zijn: ze "
                   "is een vector. Kracht staat in newton, en de "
                   "<strong>newton is uit drie basiseenheden samengesteld</strong>: "
-                  "<strong>kg·m/s²</strong>."),
-            ("p", "De <strong>zwaartekracht</strong> op een massa reken je als massa maal g. Op "
+                  "<strong>kg·m/s²</strong>, dus kilogram maal meter per seconde kwadraat."),
+            ("p", "De <strong>zwaartekracht</strong> op een massa reken je als "
+                  "\\(F_{z} = m\\,g\\). Op "
                   "<strong>8 kg</strong> met <strong>g gelijk aan 9,81 N/kg</strong> is dat "
+                  "\\(8{,}0\\cdot 9{,}81 \\approx 78\\ \\text{N}\\), dus "
                   "<strong>ongeveer 78 N</strong>. Het <strong>gewicht</strong> "
                   "<strong>is een kracht en staat dus in newton</strong>, en het "
                   "<strong>hangt af van de plaats waar je je bevindt</strong>; de massa niet."),
             ("p", "<strong>Twee krachten die niet op één lijn liggen</strong>, stel je samen "
                   "<strong>met de parallellogramregel voor vectoren</strong>. Staan "
                   "<strong>6 N en 8 N loodrecht op elkaar</strong> in hetzelfde punt, dan is de "
-                  "resulterende kracht <strong>10 N</strong>, volgens de stelling van Pythagoras."),
+                  "resulterende kracht <strong>10 N</strong>, volgens de stelling van Pythagoras: "
+                  "\\[F = \\sqrt{6{,}0^{2} + 8{,}0^{2}} = \\sqrt{100} = 10\\ \\text{N}\\]"),
             ("p", "Je <strong>ontbindt een kracht in componenten</strong> "
                   "<strong>om apart te kunnen rekenen langs twee loodrechte assen</strong>. Staat "
                   "een <strong>kist op een helling</strong>, dan laat "
                   "<strong>de component langs het hellend vlak</strong> haar naar beneden glijden; "
-                  "de andere component drukt op het vlak."),
+                  "de andere component drukt op het vlak. Met \\(\\alpha\\) de hellingshoek "
+                  "is die eerste component \\(F_{z}\\sin\\alpha\\) en de tweede "
+                  "\\(F_{z}\\cos\\alpha\\); die tweede wordt door de normaalkracht "
+                  "opgeheven."),
+            ("fig", svg.krachtenbeeld(),
+             "Links het blok op de helling: de zwaartekracht valt uiteen in een stuk langs het "
+             "vlak en een stuk loodrecht erop. Rechts twee krachten die loodrecht op elkaar "
+             "staan. Onderaan de krachtarm, de kortste afstand van het draaipunt tot de "
+             "werklijn."),
         ]),
         dict(kop="De krachten op een lichaam", blokken=[
             ("p", "Op een lichaam dat op een vlakke tafel ligt, werken "
@@ -1085,11 +1096,16 @@ BUNDELS["statica-krachten-moment-en-evenwicht-beyond"] = dict(
                   "<strong>wordt groter als het lichaam harder op het oppervlak drukt</strong>. Een "
                   "<strong>kist van 20 kg op een vlakke vloer met een wrijvingscoëfficiënt van "
                   "0,3</strong> vraagt minstens <strong>60 N</strong> om te schuiven, met g gelijk "
-                  "aan 10 N/kg."),
+                  "aan 10 N/kg: \\(F_{N} = m\\,g = 200\\ \\text{N}\\) en "
+                  "\\(F_{w} = \\mu\\,F_{N} = 0{,}30\\cdot 200 = 60\\ \\text{N}\\)."),
             ("p", "De <strong>veerkracht is recht evenredig met de uitrekking</strong> van de veer, "
-                  "niet omgekeerd evenredig. Een veer met een "
+                  "niet omgekeerd evenredig. Dat is de wet van Hooke: "
+                  "\\[F = k\\,\\Delta\\ell\\] "
+                  "Een veer met een "
                   "<strong>veerconstante van 50 N/m</strong> die <strong>8 cm</strong> uitgerekt "
-                  "wordt, levert <strong>4 N</strong>."),
+                  "wordt, levert \\(50\\cdot 0{,}080 = 4{,}0\\ \\text{N}\\). Reken de "
+                  "centimeter eerst om naar meter, anders staat je antwoord er honderd keer "
+                  "naast."),
             ("p", "Hangt een <strong>lamp stil aan één koord</strong>, dan is de "
                   "<strong>spankracht even groot als de zwaartekracht op de lamp</strong>. En op een "
                   "<strong>auto die met constante snelheid rijdt</strong>, werken onder meer "
@@ -1099,7 +1115,8 @@ BUNDELS["statica-krachten-moment-en-evenwicht-beyond"] = dict(
         ]),
         dict(kop="Translatie-evenwicht", blokken=[
             ("p", "<strong>Translatie-evenwicht</strong> betekent dat "
-                  "<strong>de som van alle krachten op het lichaam nul is</strong>. Een "
+                  "<strong>de som van alle krachten op het lichaam nul is</strong>, dus "
+                  "\\(\\sum \\vec{F} = \\vec{0}\\). Een "
                   "<strong>lichaam in translatie-evenwicht hoeft niet stil te staan</strong>: ook "
                   "een lichaam met een constante snelheid is in evenwicht, want zijn snelheid "
                   "verandert niet."),
@@ -1107,15 +1124,22 @@ BUNDELS["statica-krachten-moment-en-evenwicht-beyond"] = dict(
         dict(kop="Het moment van een kracht", blokken=[
             ("p", "Het <strong>moment van een kracht</strong> is "
                   "<strong>de kracht maal de krachtarm ten opzichte van het draaipunt</strong>, en "
-                  "het staat in <strong>newtonmeter</strong>. De <strong>krachtarm</strong> is de "
+                  "het staat in <strong>newtonmeter</strong>: "
+                  "\\[M = F\\,d\\,\\sin\\alpha\\] "
+                  "met \\(d\\) de afstand van het draaipunt tot het aangrijpingspunt en "
+                  "\\(\\alpha\\) de hoek tussen de stang en de kracht. De "
+                  "<strong>krachtarm</strong> is \\(d\\sin\\alpha\\), de "
                   "kortste afstand van het draaipunt tot de werklijn van de kracht. Een "
                   "<strong>kracht waarvan de werklijn door het draaipunt gaat, heeft geen "
                   "moment</strong>, want dan is die arm nul."),
             ("p", "Rekenen: een kracht van <strong>30 N</strong> die "
-                  "<strong>loodrecht op 0,4 m van het draaipunt</strong> werkt, geeft een moment van "
-                  "<strong>12 Nm</strong>. Werkt diezelfde kracht "
-                  "<strong>onder 30 graden met de stang</strong>, nog altijd op 0,4 m, dan is het "
-                  "moment maar <strong>6 Nm</strong>, want de sinus van 30 graden is een half."),
+                  "<strong>loodrecht op 0,4 m van het draaipunt</strong> werkt, geeft "
+                  "\\(M = 30\\cdot 0{,}40 = 12\\ \\text{N}\\cdot\\text{m}\\), want "
+                  "\\(\\sin 90^{\\circ} = 1\\). Werkt diezelfde kracht "
+                  "<strong>onder 30 graden met de stang</strong>, nog altijd op 0,4 m, dan is "
+                  "\\(M = 30\\cdot 0{,}40\\cdot 0{,}50 = 6{,}0\\ "
+                  "\\text{N}\\cdot\\text{m}\\): de helft, want de sinus van 30 graden is "
+                  "een half."),
             ("p", "Daarom zit <strong>de klink van een deur zo ver mogelijk van de "
                   "scharnieren</strong>: <strong>zo is de krachtarm groot en volstaat een kleine "
                   "kracht</strong>. En daarom gebruik je <strong>een lange steeksleutel om een "
@@ -1130,7 +1154,8 @@ BUNDELS["statica-krachten-moment-en-evenwicht-beyond"] = dict(
                   "<strong>de momenten linksom en rechtsom elkaar opheffen</strong>. "
                   "<strong>Voor statisch evenwicht volstaat het dus niet dat de som van de krachten "
                   "nul is</strong>: <strong>de som van alle krachten én de som van alle momenten "
-                  "moeten nul zijn</strong>."),
+                  "moeten nul zijn</strong>, dus \\(\\sum \\vec{F} = \\vec{0}\\) én "
+                  "\\(\\sum M = 0\\)."),
             ("p", "Op een wip: zit een <strong>kind van 30 kg op 2 m</strong> van het draaipunt, "
                   "dan moet een <strong>kind van 40 kg</strong> op <strong>1,5 m</strong> zitten "
                   "voor evenwicht, want 30 maal 2 is 40 maal 1,5. Werken "
@@ -1147,7 +1172,7 @@ BUNDELS["statica-krachten-moment-en-evenwicht-beyond"] = dict(
         ]),
         dict(kop="Zwaartepunt en kantelen", blokken=[
             ("p", "Het <strong>zwaartepunt</strong> is het punt "
-                  "<strong>waarin je de hele massa van een lichaam mag denken</strong>. Voor "
+                  "<strong>waarin je de hele massa van een lichaam mag denken</strong>; het heet ook het <strong>massamiddelpunt</strong>. Voor "
                   "<strong>volledig evenwicht</strong> moeten "
                   "<strong>de som van alle krachten nul</strong> zijn, "
                   "<strong>de som van alle momenten nul</strong> zijn en moet "
@@ -1159,11 +1184,12 @@ BUNDELS["statica-krachten-moment-en-evenwicht-beyond"] = dict(
         ]),
     ],
     onthoud=[
-        "Een kracht heeft grootte, richting en zin; de newton is kg·m/s².",
+        r"Een kracht heeft grootte, richting en zin; \(1\ \text{N} = 1\ \text{kg}\cdot\text{m/s}^{2}\).",
         "Krachten die niet op één lijn liggen: parallellogramregel.",
         "De normaalkracht staat loodrecht op het oppervlak.",
         "Translatie-evenwicht: som van de krachten nul, snelheid mag constant zijn.",
-        "Moment is kracht maal krachtarm, in newtonmeter.",
+        r"Moment: \(M = F\,d\,\sin\alpha\), in newtonmeter.",
+        r"Zwaartekracht \(F_{z} = m\,g\), wrijving \(F_{w} = \mu F_{N}\), veer \(F = k\,\Delta\ell\).",
         "Door het draaipunt werken betekent geen moment.",
         "Statisch evenwicht vraagt krachten én momenten nul.",
         "Kantelen gebeurt zodra het zwaartepunt buiten het steunvlak valt.",
