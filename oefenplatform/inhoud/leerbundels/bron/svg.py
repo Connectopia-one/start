@@ -7965,3 +7965,68 @@ def verwarmingscurve(breedte=470):
     d.append(_tekst(breedte / 2, h - 10,
                     "op een vlak stuk verandert de temperatuur niet", 9, DIM, "middle"))
     return _svg(breedte, h, "\n".join(d))
+
+
+def trillingsgrafiek(breedte=470):
+    r"""Een harmonische trilling en een gedempte trilling naast elkaar.
+
+    Links staat de amplitude A als pijl vanaf de evenwichtslijn en de periode
+    T tussen twee gelijke standen. Rechts dezelfde trilling, maar met twee
+    krimpende grenzen eromheen: de frequentie blijft, de amplitude niet.
+    """
+    import math
+    cel_b, cel_h = 234, 196
+    d = []
+
+    def paneel(px, tag, onder):
+        d.append(f'<rect x="{px+5}" y="4" width="{cel_b-10}" height="{cel_h-30}" rx="7" '
+                 f'fill="#ffffff" stroke="{BORDER}" stroke-width="1.2"/>')
+        mid = 96
+        ox, rechts = px + 26, px + cel_b - 16
+        d.append(f'<line x1="{ox}" y1="{mid}" x2="{rechts}" y2="{mid}" stroke="{BORDER}" '
+                 f'stroke-width="1.1" stroke-dasharray="4 4"/>')
+        d.append(f'<line x1="{ox}" y1="36" x2="{ox}" y2="{mid+52}" stroke="{DIM}" '
+                 f'stroke-width="1.3"/>')
+        d.append(_pijlkop(ox, 36, -math.pi / 2, DIM, 4.0))
+        d.append(_tekst(ox - 10, 40, "y", 9.5, DIM, "middle"))
+        d.append(_tekst(rechts, mid + 15, "t", 9.5, DIM, "middle"))
+        d.append(_tekst(px + cel_b - 16, 20, tag, 8.5, DARK, "end", True))
+        d.append(_tekst(px + cel_b / 2, cel_h - 10, onder, 9, DIM, "middle"))
+        return ox, mid, rechts
+
+    # ── links: de gewone harmonische trilling
+    ox, mid, rechts = paneel(0, "harmonisch", "A en T lees je er zo af")
+    amp = 40
+    d.append(_golf(ox, rechts - 4, mid, amp, 2, FOREST))
+    top1 = ox + (rechts - 4 - ox) / 8
+    top2 = ox + 5 * (rechts - 4 - ox) / 8
+    # amplitude
+    d.append(f'<line x1="{top1}" y1="{mid}" x2="{top1}" y2="{mid-amp}" stroke="{AMBER}" '
+             f'stroke-width="1.6"/>')
+    d.append(_pijlkop(top1, mid - amp, -math.pi / 2, AMBER, 4.0))
+    d.append(_tekst(top1 + 12, mid - amp / 2 + 4, "A", 10, AMBER, "middle", True))
+    # periode
+    d.append(f'<line x1="{top1}" y1="{mid-amp-14}" x2="{top2}" y2="{mid-amp-14}" '
+             f'stroke="{AMBER}" stroke-width="1.6"/>')
+    d.append(_pijlkop(top1, mid - amp - 14, math.pi, AMBER, 4.0))
+    d.append(_pijlkop(top2, mid - amp - 14, 0.0, AMBER, 4.0))
+    d.append(_tekst((top1 + top2) / 2, mid - amp - 19, "T", 10, AMBER, "middle", True))
+
+    # ── rechts: dezelfde trilling, gedempt
+    ox, mid, rechts = paneel(cel_b, "gedempt", "de amplitude krimpt, T niet")
+    x1 = rechts - 4
+    n = 160
+    punten, boven, onder_rand = [], [], []
+    for i in range(n + 1):
+        x = ox + (x1 - ox) * i / n
+        env = amp * math.exp(-2.1 * i / n)
+        punten.append(f"{x:.1f},{mid - env * math.sin(2 * math.pi * 2 * i / n):.1f}")
+        boven.append(f"{x:.1f},{mid - env:.1f}")
+        onder_rand.append(f"{x:.1f},{mid + env:.1f}")
+    for rand in (boven, onder_rand):
+        d.append(f'<polyline points="{" ".join(rand)}" fill="none" stroke="{AMBER}" '
+                 f'stroke-width="1.3" stroke-dasharray="4 3"/>')
+    d.append(f'<polyline points="{" ".join(punten)}" fill="none" stroke="{FOREST}" '
+             f'stroke-width="2.2" stroke-linejoin="round"/>')
+
+    return _svg(cel_b * 2, cel_h, "\n".join(d))

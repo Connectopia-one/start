@@ -3,7 +3,8 @@
 
 Deel 1 gaat over de grootheden van een harmonische trilling: de amplitude, de
 evenwichtslijn, de uitwijking, de periode, de frequentie en de pulsatie, en
-over de trillingsvergelijking y(t) = A · sin(ω · t + φ) met haar beginfase.
+over de trillingsvergelijking \(y(t) = A\sin(\omega t + \varphi)\) met haar
+beginfase.
 Deel 2 gaat over het faseverschil tussen twee trillingen, over in fase en in
 tegenfase, over de terugroepkracht met haar krachtconstante, over de
 eigenfrequentie van een massa-veersysteem en van een slinger, over de gedempte
@@ -33,8 +34,8 @@ DEEL1 = [
         type="invultekst",
         vraag="Hoe noem je de grootste uitwijking van een trilling?",
         antwoord=["de amplitude", "amplitude", "A"],
-        uitleg="Ze staat in meter en krijgt het symbool A. In de trillingsvergelijking is ze "
-        "de factor voor de sinus.",
+        uitleg=r"Ze staat in meter en krijgt het symbool \(A\). In de "
+        r"trillingsvergelijking is ze de factor voor de sinus.",
     ),
     dict(
         type="meerkeuze",
@@ -59,21 +60,21 @@ DEEL1 = [
             "de afstand van de ene uiterste stand tot de andere",
         ],
         antwoord=0,
-        uitleg="Ze staat in seconde en krijgt het symbool T. Het aantal per seconde is de "
-        "frequentie, haar omgekeerde.",
+        uitleg=r"Ze staat in seconde en krijgt het symbool \(T\). Het aantal per seconde "
+        r"is de frequentie: \(f = \dfrac{1}{T}\).",
     ),
     dict(
         type="meerkeuze",
-        vraag="Een trilling heeft een periode van 0,25 s. Welke frequentie heeft ze?",
+        vraag=r"Een trilling heeft een periode van \(0{,}25\) s. Welke frequentie heeft ze?",
         opties=[
-            "4 Hz",
-            "0,25 Hz",
-            "2,5 Hz",
-            "40 Hz",
+            r"\(4{,}0\) Hz",
+            r"\(0{,}25\) Hz",
+            r"\(2{,}5\) Hz",
+            r"\(40\) Hz",
         ],
         antwoord=0,
-        uitleg="De frequentie is één gedeeld door de periode, dus één gedeeld door 0,25 is "
-        "4 hertz. Er passen dus vier trillingen in een seconde.",
+        uitleg=r"\(f = \dfrac{1}{T} = \dfrac{1}{0{,}25} = 4{,}0\) Hz. Er passen dus vier "
+        r"trillingen in een seconde.",
     ),
     dict(
         type="invultekst",
@@ -86,27 +87,27 @@ DEEL1 = [
         type="meerkeuze",
         vraag="Hoe luidt de trillingsvergelijking van een harmonische trilling?",
         opties=[
-            "y is A maal de sinus van ω maal t plus φ",
-            "y is A maal ω maal t plus φ",
-            "y is A gedeeld door de sinus van ω maal t",
-            "y is de sinus van A maal ω maal t",
+            r"\(y = A\sin(\omega t + \varphi)\)",
+            r"\(y = A\,\omega\,t + \varphi\)",
+            r"\(y = \dfrac{A}{\sin(\omega t)}\)",
+            r"\(y = \sin(A\,\omega\,t)\)",
         ],
         antwoord=0,
-        uitleg="Hier is A de amplitude, ω de pulsatie en φ de beginfase. Met die drie ligt "
-        "de hele beweging vast.",
+        uitleg=r"\(A\) is de amplitude, \(\omega\) de pulsatie en \(\varphi\) de "
+        r"beginfase. Met die drie ligt de hele beweging vast.",
     ),
     dict(
         type="meerkeuze",
         vraag="Wat is de pulsatie van een trilling?",
         opties=[
-            "twee pi gedeeld door de periode",
-            "de periode gedeeld door twee pi",
-            "twee pi maal de periode",
-            "de amplitude gedeeld door de periode",
+            r"\(\omega = \dfrac{2\pi}{T}\)",
+            r"\(\omega = \dfrac{T}{2\pi}\)",
+            r"\(\omega = 2\pi T\)",
+            r"\(\omega = \dfrac{A}{T}\)",
         ],
         antwoord=0,
-        uitleg="Ze staat in radiaal per seconde en heet ook de hoeksnelheid. Je kan ze ook "
-        "schrijven als twee pi maal de frequentie.",
+        uitleg=r"Ze staat in rad/s en heet ook de hoeksnelheid. Je kan ze ook schrijven als "
+        r"\(\omega = 2\pi f\).",
     ),
     dict(
         type="meerkeuze",
@@ -118,27 +119,28 @@ DEEL1 = [
             "de massa van het trillende lichaam",
         ],
         antwoord=[0, 1, 2],
-        uitleg="De massa staat er niet in, al bepaalt ze bij een veer wel de pulsatie. Uit "
-        "de pulsatie volgen de periode en de frequentie.",
+        uitleg=r"De massa staat er niet in, al bepaalt ze bij een veer wel \(\omega\). "
+        r"Uit \(\omega\) volgen \(T\) en \(f\).",
     ),
     dict(
         type="waarofniet",
         vraag="De amplitude van een trilling staat in meter.",
         antwoord=True,
-        uitleg="Ze is een uitwijking, dus een afstand. De beginfase staat wel in radiaal.",
+        uitleg=r"Ze is een uitwijking, dus een afstand. De beginfase \(\varphi\) staat "
+        r"wel in radiaal.",
     ),
     dict(
         type="meerkeuze",
-        vraag="Een trilling heeft een amplitude van 5 cm en een pulsatie van 4 rad/s, met beginfase nul. Welke uitwijking heeft ze na een halve periode?",
+        vraag=r"Een trilling heeft \(A = 5\) cm en \(\omega = 4\) rad/s, met \(\varphi = 0\). Welke uitwijking heeft ze na een halve periode?",
         opties=[
-            "nul, want de sinus is dan weer nul",
-            "5 cm, want de uitwijking is dan maximaal",
-            "2,5 cm, want dat is de helft van de amplitude",
-            "min 5 cm, want ze staat dan aan de andere kant",
+            r"nul, want \(\sin \pi = 0\)",
+            r"\(5\) cm, de uitwijking is dan maximaal",
+            r"\(2{,}5\) cm, de helft van de amplitude",
+            r"\(-5\) cm, ze staat aan de andere kant",
         ],
         antwoord=0,
-        uitleg="Na een halve periode is de fase pi, en de sinus van pi is nul. Het lichaam "
-        "gaat daar door de evenwichtsstand, met zijn grootste snelheid.",
+        uitleg=r"Na een halve periode is de fase \(\pi\), en \(\sin \pi = 0\). Het "
+        r"lichaam gaat daar door de evenwichtsstand, met zijn grootste snelheid.",
     ),
     dict(
         type="waarofniet",
@@ -170,8 +172,8 @@ DEEL1 = [
             "de trilling staat op t is nul volledig stil",
         ],
         antwoord=0,
-        uitleg="De sinus van nul is nul, dus is de uitwijking dan nul. Vertrekt ze uit de "
-        "uiterste stand, dan is de beginfase een halve pi.",
+        uitleg=r"\(\sin 0 = 0\), dus is de uitwijking dan nul. Vertrekt ze uit de "
+        r"uiterste stand, dan is \(\varphi = \tfrac{\pi}{2}\).",
     ),
     dict(
         type="meerkeuze",
@@ -223,14 +225,14 @@ DEEL1 = [
         type="meerkeuze",
         vraag="Welke uitspraken over de pulsatie zijn juist? Kruis alles aan wat juist is.",
         opties=[
-            "ze is twee pi maal de frequentie",
-            "ze staat in radiaal per seconde",
-            "ze is gelijk aan de periode",
-            "ze wordt groter als de periode groter wordt",
+            r"ze is \(2\pi f\)",
+            r"ze staat in rad/s",
+            r"ze is gelijk aan \(T\)",
+            r"ze wordt groter als \(T\) groter wordt",
         ],
         antwoord=[0, 1],
-        uitleg="Ze wordt net kleiner als de periode groter wordt, want de periode staat in "
-        "de noemer. En ze is iets heel anders dan de periode zelf.",
+        uitleg=r"Ze wordt net kleiner als \(T\) groter wordt, want \(T\) staat in de "
+        r"noemer van \(\omega = \dfrac{2\pi}{T}\).",
     ),
     dict(
         type="waarofniet",
@@ -259,21 +261,21 @@ DEEL2 = [
         type="meerkeuze",
         vraag="Wanneer trillen twee trillingen in fase?",
         opties=[
-            "als hun faseverschil nul of een veelvoud van twee pi is",
-            "als hun faseverschil pi is",
+            r"als \(\Delta\varphi = 0\) of een veelvoud van \(2\pi\) is",
+            r"als \(\Delta\varphi = \pi\) is",
             "als hun amplitudes precies gelijk zijn",
             "als hun beginfase allebei nul is",
         ],
         antwoord=0,
-        uitleg="Ze bereiken dan samen hun uiterste stand, aan dezelfde kant. Bij een "
-        "faseverschil van pi zijn ze net in tegenfase.",
+        uitleg=r"Ze bereiken dan samen hun uiterste stand, aan dezelfde kant. Bij "
+        r"\(\Delta\varphi = \pi\) zijn ze net in tegenfase.",
     ),
     dict(
         type="invultekst",
-        vraag="Hoe noem je twee trillingen met een faseverschil van pi radiaal?",
+        vraag=r"Hoe noem je twee trillingen met een faseverschil van \(\pi\) rad?",
         antwoord=["in tegenfase", "tegenfase", "tegengesteld in fase"],
-        uitleg="De ene staat dan boven terwijl de andere onder staat. Bij een faseverschil "
-        "van nul zijn ze in fase.",
+        uitleg=r"De ene staat dan boven terwijl de andere onder staat. Bij "
+        r"\(\Delta\varphi = 0\) zijn ze in fase.",
     ),
     dict(
         type="meerkeuze",
@@ -285,28 +287,28 @@ DEEL2 = [
             "de wrijving van de lucht, tegen de beweging in",
         ],
         antwoord=0,
-        uitleg="Ze is recht evenredig met de uitwijking en altijd tegengesteld eraan. Net "
-        "daardoor is de beweging harmonisch.",
+        uitleg=r"\[F = -k\,y\] Ze is recht evenredig met de uitwijking en altijd "
+        r"tegengesteld eraan. Net daardoor is de beweging harmonisch.",
     ),
     dict(
         type="invultekst",
-        vraag="Hoe noem je de constante k van een veer?",
+        vraag=r"Hoe noem je de constante \(k\) van een veer?",
         antwoord=["de krachtconstante", "krachtconstante", "elasticiteitsconstante"],
-        uitleg="Ze staat in newton per meter en zegt hoe stijf de veer is. In de formule van "
-        "de eigenfrequentie staat ze onder de wortel.",
+        uitleg=r"Ze staat in \(\text{N/m}\) en zegt hoe stijf de veer is. In de formule "
+        r"van de eigenfrequentie staat ze onder de wortel.",
     ),
     dict(
         type="meerkeuze",
         vraag="Hoe bereken je de eigenfrequentie van een massa-veersysteem?",
         opties=[
-            "één gedeeld door twee pi, maal de wortel van k gedeeld door m",
-            "één gedeeld door twee pi, maal de wortel van m gedeeld door k",
-            "twee pi maal de wortel van k gedeeld door m",
-            "de wortel van k maal m, gedeeld door twee pi",
+            r"\(f_{0} = \dfrac{1}{2\pi}\sqrt{\dfrac{k}{m}}\)",
+            r"\(f_{0} = \dfrac{1}{2\pi}\sqrt{\dfrac{m}{k}}\)",
+            r"\(f_{0} = 2\pi\sqrt{\dfrac{k}{m}}\)",
+            r"\(f_{0} = \dfrac{\sqrt{k\,m}}{2\pi}\)",
         ],
         antwoord=0,
-        uitleg="Een stijvere veer trilt dus sneller en een grotere massa langzamer. Die "
-        "formule staat op het examen in de bijlage.",
+        uitleg=r"Een stijvere veer trilt dus sneller en een grotere massa langzamer. Die "
+        r"formule staat op het examen in de bijlage.",
     ),
     dict(
         type="meerkeuze",
@@ -318,28 +320,28 @@ DEEL2 = [
             "van de amplitude en van de massa van de bol",
         ],
         antwoord=0,
-        uitleg="De massa van de bol doet er niet toe. In de formule staat de wortel van g "
-        "gedeeld door de lengte.",
+        uitleg=r"\[f_{0} = \dfrac{1}{2\pi}\sqrt{\dfrac{g}{\ell}}\] De massa van de bol "
+        r"doet er niet toe.",
     ),
     dict(
         type="waarofniet",
         vraag="Een langere slinger trilt langzamer dan een korte.",
         antwoord=True,
-        uitleg="De lengte staat in de noemer onder de wortel, dus geeft een grotere lengte "
-        "een kleinere frequentie. Daarom hangt een slingeruurwerk zo laag.",
+        uitleg=r"\(\ell\) staat in de noemer onder de wortel, dus geeft een grotere "
+        r"lengte een kleinere frequentie. Daarom hangt een slingeruurwerk zo laag.",
     ),
     dict(
         type="meerkeuze",
         vraag="Je hangt een dubbel zo zware massa aan dezelfde veer. Wat gebeurt er met de eigenfrequentie?",
         opties=[
-            "ze wordt kleiner, met een factor wortel twee",
-            "ze wordt groter, met een factor wortel twee",
-            "ze wordt twee keer zo klein",
-            "ze blijft precies dezelfde",
+            r"ze wordt kleiner, met een factor \(\sqrt{2}\)",
+            r"ze wordt groter, met een factor \(\sqrt{2}\)",
+            r"ze wordt twee keer zo klein",
+            r"ze blijft precies dezelfde",
         ],
         antwoord=0,
-        uitleg="De massa staat in de noemer onder de wortel. Een vier keer zo zware massa "
-        "zou de frequentie halveren.",
+        uitleg=r"\(m\) staat in de noemer onder de wortel. Een vier keer zo zware massa "
+        r"zou \(f_{0}\) halveren.",
     ),
     dict(
         type="meerkeuze",
@@ -351,8 +353,8 @@ DEEL2 = [
             "de eigenfrequentie hangt af van de valversnelling",
         ],
         antwoord=[0, 1],
-        uitleg="De amplitude doet er bij een harmonische trilling niet toe. En g staat wel "
-        "in de formule van een slinger, niet in die van een veer.",
+        uitleg=r"De amplitude doet er bij een harmonische trilling niet toe. En \(g\) "
+        r"staat wel in de formule van een slinger, niet in die van een veer.",
     ),
     dict(
         type="waarofniet",
@@ -449,7 +451,7 @@ DEEL2 = [
     ),
     dict(
         type="meerkeuze",
-        vraag="Twee trillingen hebben dezelfde frequentie en een faseverschil van een halve pi. Wat betekent dat?",
+        vraag=r"Twee trillingen hebben dezelfde frequentie en een faseverschil van \(\tfrac{\pi}{2}\). Wat betekent dat?",
         opties=[
             "de ene is een kwart periode voor op de andere",
             "de ene is een halve periode voor op de andere",
@@ -457,7 +459,7 @@ DEEL2 = [
             "de ene heeft een dubbel zo grote periode",
         ],
         antwoord=0,
-        uitleg="Een hele periode is twee pi, dus een halve pi is een kwart ervan. Staat de "
+        uitleg=r"Een hele periode is \(2\pi\), dus \(\tfrac{\pi}{2}\) is een kwart ervan. Staat de "
         "ene in de evenwichtsstand, dan staat de andere uiterst.",
     ),
 ]

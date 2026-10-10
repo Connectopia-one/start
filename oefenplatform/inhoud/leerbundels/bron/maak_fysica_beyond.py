@@ -2177,120 +2177,127 @@ BUNDELS["harmonische-trillingen-beyond"] = dict(
     onder="Eén vergelijking voor de hele beweging, van amplitude tot resonantie.",
     secties=[
         dict(kop="Wat een harmonische trilling is", blokken=[
-            ("p", "Een <strong>harmonische trilling</strong> is "
-                  "<strong>een beweging waarvan de uitwijking een sinus van de tijd is</strong>. Een "
-                  "massa aan een veer en een slinger met een kleine uitslag zijn de twee "
+            ("p", "Een <strong>harmonische trilling</strong> is een beweging waarvan de "
+                  "uitwijking een <strong>sinus van de tijd</strong> is. Een massa aan een "
+                  "veer en een slinger met een kleine uitslag zijn de twee "
                   "schoolvoorbeelden."),
-            ("p", "De <strong>amplitude</strong> is <strong>de grootste uitwijking van een "
-                  "trilling</strong>; ze <strong>staat in meter</strong> en "
-                  "<strong>kan geen negatieve waarde hebben</strong>. De uitwijking zelf wel: die "
-                  "krijgt aan de ene kant van de evenwichtslijn een minteken. De "
-                  "<strong>evenwichtslijn</strong> is <strong>de stand waar het lichaam zonder "
-                  "trilling zou blijven</strong>."),
-            ("p", "De <strong>periode</strong> is <strong>de tijd van één volledige "
-                  "heen-en-terugbeweging</strong>, in seconde. De frequentie is haar omgekeerde: "
-                  "een trilling met een <strong>periode van 0,25 s</strong> heeft "
-                  "<strong>4 Hz</strong>. Een <strong>trilling met een hogere frequentie heeft een "
-                  "kleinere periode</strong>."),
+            ("p", "De <strong>amplitude \\(A\\)</strong> is de grootste uitwijking, in meter; "
+                  "ze kan <strong>geen negatieve waarde</strong> hebben. De uitwijking "
+                  "\\(y\\) zelf wel: die krijgt aan de ene kant van de evenwichtslijn een "
+                  "minteken. De <strong>evenwichtslijn</strong> is de stand waar het lichaam "
+                  "zonder trilling zou blijven."),
+        ]),
+        dict(kop="De grafiek lezen", blokken=[
+            ("fig", svg.trillingsgrafiek(),
+             "Links een vrije trilling, rechts dezelfde trilling met wrijving erbij."),
+            ("p", "De <strong>periode \\(T\\)</strong> is de tijd van één volledige "
+                  "heen-en-terugbeweging, in seconde, en de frequentie is haar omgekeerde: "
+                  "\\[f = \\dfrac{1}{T}\\] Een trilling met \\(T = 0{,}25\\) s heeft dus "
+                  "\\(f = 4{,}0\\) Hz, en een trilling met een <strong>hogere frequentie heeft "
+                  "een kleinere periode</strong>."),
         ]),
         dict(kop="De trillingsvergelijking", blokken=[
-            ("p", "De <strong>trillingsvergelijking</strong> luidt: "
-                  "<strong>y is A maal de sinus van ω maal t plus φ</strong>. Daaruit lees je "
-                  "rechtstreeks <strong>de amplitude van de trilling</strong>, "
-                  "<strong>de pulsatie van de trilling</strong> en "
-                  "<strong>de beginfase van de trilling</strong>; de massa staat er niet in. Om er "
-                  "zelf een op te stellen heb je <strong>de amplitude</strong>, "
-                  "<strong>de periode of de frequentie</strong> en "
-                  "<strong>de beginfase</strong> nodig."),
-            ("p", "De <strong>pulsatie</strong> is <strong>twee pi gedeeld door de "
-                  "periode</strong>; ze <strong>is dus twee pi maal de frequentie</strong> en "
-                  "<strong>staat in radiaal per seconde</strong>. Ze heet ook de hoeksnelheid. De "
-                  "<strong>beginfase staat in radiaal</strong>, want de fase is een hoek in de "
-                  "sinus."),
-            ("p", "Een <strong>beginfase van nul</strong> betekent dat "
-                  "<strong>de trilling op t is nul uit de evenwichtsstand vertrekt</strong>, want de "
-                  "sinus van nul is nul. Vertrekt ze uit de uiterste stand, dan is de beginfase een "
-                  "halve pi. Een trilling met een <strong>amplitude van 5 cm en een pulsatie van "
-                  "4 rad/s</strong> en beginfase nul heeft na een halve periode een uitwijking van "
-                  "<strong>nul, want de sinus is dan weer nul</strong>."),
+            ("kader", "<strong>Eén vergelijking voor de hele beweging</strong><br>"
+                      "\\[y(t) = A\\sin(\\omega t + \\varphi)\\]"
+                      "\\(A\\) is de amplitude in meter, \\(\\omega\\) de pulsatie in "
+                      "\\(\\text{rad/s}\\) en \\(\\varphi\\) de beginfase in radiaal. De massa "
+                      "staat er niet in."),
+            ("p", "Daaruit lees je rechtstreeks de <strong>amplitude</strong>, de "
+                  "<strong>pulsatie</strong> en de <strong>beginfase</strong>. Om er zelf een "
+                  "op te stellen heb je de amplitude, de periode of de frequentie, en de "
+                  "beginfase nodig; de massa van het lichaam hoeft niet."),
+        ]),
+        dict(kop="De pulsatie en de beginfase", blokken=[
+            ("p", "De <strong>pulsatie</strong> is \\[\\omega = \\dfrac{2\\pi}{T} = 2\\pi f\\] "
+                  "in \\(\\text{rad/s}\\); ze heet ook de hoeksnelheid. Ze wordt "
+                  "<strong>kleiner</strong> als \\(T\\) groter wordt, want \\(T\\) staat in de "
+                  "noemer, en ze is iets heel anders dan \\(T\\) zelf."),
+            ("p", "Een <strong>beginfase van nul</strong> betekent dat de trilling op "
+                  "\\(t = 0\\) uit de evenwichtsstand vertrekt, want \\(\\sin 0 = 0\\). "
+                  "Vertrekt ze uit de uiterste stand, dan is "
+                  "\\(\\varphi = \\tfrac{\\pi}{2}\\). Een trilling met \\(A = 5\\) cm, "
+                  "\\(\\omega = 4\\) rad/s en \\(\\varphi = 0\\) heeft na een halve periode de "
+                  "uitwijking <strong>nul</strong>, want de fase is dan \\(\\pi\\) en "
+                  "\\(\\sin \\pi = 0\\)."),
         ]),
         dict(kop="Snelheid en versnelling tijdens de trilling", blokken=[
-            ("p", "Twee dingen die altijd gelden: <strong>de uitwijking is nul in de "
-                  "evenwichtsstand</strong> en <strong>de snelheid is nul in de uiterste "
-                  "stand</strong>. Bij een harmonische trilling is "
-                  "<strong>de snelheid dus niet het grootst in de uiterste stand</strong> maar in "
-                  "de evenwichtsstand."),
-            ("p", "De <strong>versnelling van een harmonisch trillend lichaam is het grootst in de "
-                  "uiterste standen, waar de uitwijking maximaal is</strong>, want daar is de "
-                  "terugroepkracht het grootst. In de evenwichtsstand is de versnelling nul."),
-            ("p", "De amplitude doet niets met de periode: "
-                  "<strong>verdubbel je de amplitude van een slinger met een kleine uitslag</strong>, "
-                  "dan <strong>blijft de periode ongeveer gelijk</strong>. Dat is net waarom een "
-                  "slingeruurwerk zo nauwkeurig was."),
+            ("p", "Twee dingen die altijd gelden: de uitwijking is <strong>nul in de "
+                  "evenwichtsstand</strong> en de snelheid is <strong>nul in de uiterste "
+                  "stand</strong>. De snelheid is dus <strong>niet</strong> het grootst in de "
+                  "uiterste stand maar in de evenwichtsstand. De <strong>versnelling</strong> "
+                  "is net omgekeerd het grootst in de <strong>uiterste standen</strong>, waar "
+                  "de uitwijking maximaal is, want daar is de terugroepkracht het grootst; in "
+                  "de evenwichtsstand is ze nul."),
+            ("p", "De amplitude doet niets met de periode: verdubbel je de amplitude van een "
+                  "slinger met een kleine uitslag, dan blijft de periode ongeveer gelijk. Dat "
+                  "is net waarom een slingeruurwerk zo nauwkeurig was."),
         ]),
         dict(kop="Faseverschil", blokken=[
-            ("p", "Het <strong>faseverschil tussen twee harmonische trillingen</strong> is "
-                  "<strong>het verschil tussen hun fasen op hetzelfde tijdstip</strong>, in "
-                  "radiaal. Twee trillingen trillen <strong>in fase</strong> "
-                  "<strong>als hun faseverschil nul of een veelvoud van twee pi is</strong>; bij een "
-                  "faseverschil van <strong>pi radiaal</strong> zijn ze "
-                  "<strong>in tegenfase</strong>."),
-            ("p", "Hebben twee trillingen <strong>dezelfde frequentie en een faseverschil van een "
-                  "halve pi</strong>, dan is <strong>de ene een kwart periode voor op de "
-                  "andere</strong>: staat de ene in de evenwichtsstand, dan staat de andere uiterst."),
+            ("p", "Het <strong>faseverschil \\(\\Delta\\varphi\\)</strong> tussen twee "
+                  "harmonische trillingen is het verschil tussen hun fasen op hetzelfde "
+                  "tijdstip, in radiaal. Ze trillen <strong>in fase</strong> als "
+                  "\\(\\Delta\\varphi = 0\\) of een veelvoud van \\(2\\pi\\) is, en "
+                  "<strong>in tegenfase</strong> als \\(\\Delta\\varphi = \\pi\\). Hebben twee "
+                  "trillingen dezelfde frequentie en \\(\\Delta\\varphi = \\tfrac{\\pi}{2}\\), "
+                  "dan is de ene een <strong>kwart periode</strong> voor op de andere: staat de "
+                  "ene in de evenwichtsstand, dan staat de andere uiterst."),
         ]),
-        dict(kop="De veer en de slinger", blokken=[
-            ("p", "De <strong>terugroepkracht bij een massa-veersysteem</strong> is "
-                  "<strong>de kracht van de veer, naar de evenwichtsstand gericht</strong>. Ze is "
-                  "recht evenredig met de uitwijking en altijd tegengesteld eraan, en net daardoor "
-                  "is de beweging harmonisch. De constante k van een veer heet de "
-                  "<strong>krachtconstante</strong>, in newton per meter."),
-            ("p", "De <strong>eigenfrequentie van een massa-veersysteem</strong> bereken je als "
-                  "<strong>één gedeeld door twee pi, maal de wortel van k gedeeld door m</strong>. "
-                  "Daarom geeft <strong>een stijvere veer een hogere eigenfrequentie</strong> en "
-                  "<strong>een grotere massa een lagere eigenfrequentie</strong>. Hang je een "
-                  "<strong>dubbel zo zware massa</strong> aan dezelfde veer, dan "
-                  "<strong>wordt ze kleiner, met een factor wortel twee</strong>."),
-            ("p", "De <strong>eigenfrequentie van een slinger</strong> hangt af "
-                  "<strong>van zijn lengte en van de valversnelling</strong>, en niet van de massa "
-                  "van de bol. <strong>Een langere slinger trilt langzamer dan een korte</strong>, "
-                  "want de lengte staat onder de wortel in de noemer."),
+        dict(kop="De veer", blokken=[
+            ("kader", "<strong>Terugroepkracht en eigenfrequentie</strong><br>"
+                      "\\[F = -k\\,y \\qquad f_{0} = \\dfrac{1}{2\\pi}\\sqrt{\\dfrac{k}{m}}\\]"
+                      "\\(k\\) is de <strong>krachtconstante</strong> van de veer, in "
+                      "\\(\\text{N/m}\\). Het minteken zegt dat de kracht altijd naar de "
+                      "evenwichtsstand wijst."),
+            ("p", "Bij een <strong>massa-veersysteem</strong> is de terugroepkracht de "
+                  "kracht van de veer, naar de evenwichtsstand <strong>gericht</strong>. Ze "
+                  "is recht evenredig met de uitwijking en altijd tegengesteld eraan, en net "
+                  "daardoor is de beweging harmonisch. Een "
+                  "<strong>stijvere veer</strong> geeft een hogere eigenfrequentie en een "
+                  "<strong>grotere massa</strong> een lagere. Hang je een dubbel zo zware "
+                  "massa aan dezelfde veer, dan wordt \\(f_{0}\\) kleiner met een factor "
+                  "\\(\\sqrt{2}\\); de amplitude doet er niet toe."),
         ]),
-        dict(kop="Demping en resonantie", blokken=[
-            ("p", "Bij een <strong>gedempte harmonische trilling neemt niet vooral de frequentie "
-                  "af</strong> maar de amplitude: de uitwijking verloopt "
-                  "<strong>als een sinus die tussen twee krimpende grenzen past</strong>. "
-                  "<strong>Bij een gedempte trilling verdwijnt de energie van de trilling naar de "
-                  "omgeving</strong>, als warmte door wrijving."),
-            ("p", "Een <strong>gedwongen trilling</strong> is "
-                  "<strong>een trilling die een uitwendige kracht blijft aandrijven</strong>. Het "
-                  "lichaam neemt dan de frequentie van die kracht over, terwijl de "
-                  "<strong>eigenfrequentie</strong> de frequentie is "
-                  "<strong>waarmee een lichaam vrij trilt</strong>."),
-            ("p", "<strong>Resonantie</strong> treedt op "
-                  "<strong>als de frequentie van de kracht de eigenfrequentie benadert</strong>. "
-                  "Dan kan de amplitude heel groot worden met een kleine kracht: "
-                  "<strong>bij resonantie is de amplitude dus niet kleiner dan normaal</strong> maar "
-                  "juist veel groter."),
-            ("p", "Voorbeelden van resonantie: <strong>een schommel die je op het juiste ritme "
-                  "steeds hoger duwt</strong>, <strong>een glas dat breekt bij een zuivere toon van "
-                  "de juiste hoogte</strong> en <strong>een brug die door marcherende stappen hevig "
-                  "begint te trillen</strong>. Daarom <strong>zet men dempers in een gebouw dat "
-                  "tegen aardbevingen moet kunnen</strong>: "
-                  "<strong>om de amplitude bij resonantie klein te houden</strong>."),
+        dict(kop="De slinger", blokken=[
+            ("p", "Voor een slinger met een kleine uitslag geldt "
+                  "\\[f_{0} = \\dfrac{1}{2\\pi}\\sqrt{\\dfrac{g}{\\ell}}\\] De eigenfrequentie "
+                  "hangt dus af van zijn <strong>lengte</strong> en van de "
+                  "<strong>valversnelling</strong>, en niet van de massa van de bol. Een "
+                  "<strong>langere slinger trilt langzamer</strong> dan een korte, want "
+                  "\\(\\ell\\) staat onder de wortel in de noemer."),
+        ]),
+        dict(kop="Demping", blokken=[
+            ("p", "Bij een <strong>gedempte</strong> harmonische trilling neemt niet de "
+                  "frequentie af maar de <strong>amplitude</strong>: de uitwijking verloopt "
+                  "als een sinus die tussen twee <strong>krimpende grenzen</strong> past. De "
+                  "energie van de trilling verdwijnt daarbij naar de omgeving, als warmte door "
+                  "wrijving en luchtweerstand. Zo komt een schommel zonder duw tot stilstand."),
+        ]),
+        dict(kop="Resonantie", blokken=[
+            ("p", "Een <strong>gedwongen trilling</strong> is een trilling die een uitwendige "
+                  "kracht blijft aandrijven; het lichaam neemt dan de frequentie van die "
+                  "kracht over. De <strong>eigenfrequentie</strong> is de frequentie waarmee "
+                  "een lichaam vrij trilt. <strong>Resonantie</strong> treedt op als de "
+                  "frequentie van de kracht de eigenfrequentie benadert: de amplitude wordt "
+                  "dan <strong>veel groter</strong>, met een kleine kracht."),
+            ("p", "Voorbeelden: een schommel die je op het juiste ritme steeds hoger duwt, een "
+                  "glas dat breekt bij een zuivere toon van de juiste hoogte, en een brug die "
+                  "door marcherende stappen hevig begint te trillen. Daarom zet men "
+                  "<strong>dempers</strong> in een gebouw dat tegen aardbevingen moet kunnen: "
+                  "om de amplitude bij resonantie klein te houden. De bodem zelf krijg je niet "
+                  "stil."),
         ]),
     ],
     onthoud=[
         "Harmonisch: de uitwijking is een sinus van de tijd.",
-        "y = A · sin(ω·t + φ); daaruit lees je A, ω en φ.",
-        "Pulsatie is 2π/T, dus 2π maal de frequentie, in rad/s.",
+        "\\(y(t) = A\\sin(\\omega t + \\varphi)\\); daaruit lees je \\(A\\), \\(\\omega\\) en \\(\\varphi\\).",
+        "\\(\\omega = \\dfrac{2\\pi}{T} = 2\\pi f\\), in \\(\\text{rad/s}\\).",
         "Snelheid maximaal in het evenwicht, versnelling maximaal uiterst.",
         "De periode hangt niet van de amplitude af.",
-        "Veer: stijver trilt sneller, zwaarder trilt langzamer.",
-        "Slinger: alleen lengte en g tellen, niet de massa.",
+        "Veer: \\(f_{0} = \\dfrac{1}{2\\pi}\\sqrt{\\dfrac{k}{m}}\\); slinger: \\(\\ell\\) en \\(g\\), niet de massa.",
         "Resonantie: aandrijven op de eigenfrequentie geeft een grote amplitude.",
     ],
 )
+
 
 # ───────────────────── 17. Golven en hun eigenschappen
 BUNDELS["golven-en-hun-eigenschappen-beyond"] = dict(

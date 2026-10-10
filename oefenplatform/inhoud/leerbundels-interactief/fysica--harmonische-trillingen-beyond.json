@@ -8,15 +8,25 @@
    "blokken": [
     {
      "soort": "tekst",
-     "html": "Een <strong>harmonische trilling</strong> is <strong>een beweging waarvan de uitwijking een sinus van de tijd is</strong>. Een massa aan een veer en een slinger met een kleine uitslag zijn de twee schoolvoorbeelden."
+     "html": "Een <strong>harmonische trilling</strong> is een beweging waarvan de uitwijking een <strong>sinus van de tijd</strong> is. Een massa aan een veer en een slinger met een kleine uitslag zijn de twee schoolvoorbeelden."
     },
     {
      "soort": "tekst",
-     "html": "De <strong>amplitude</strong> is <strong>de grootste uitwijking van een trilling</strong>; ze <strong>staat in meter</strong> en <strong>kan geen negatieve waarde hebben</strong>. De uitwijking zelf wel: die krijgt aan de ene kant van de evenwichtslijn een minteken. De <strong>evenwichtslijn</strong> is <strong>de stand waar het lichaam zonder trilling zou blijven</strong>."
+     "html": "De <strong>amplitude \\(A\\)</strong> is de grootste uitwijking, in meter; ze kan <strong>geen negatieve waarde</strong> hebben. De uitwijking \\(y\\) zelf wel: die krijgt aan de ene kant van de evenwichtslijn een minteken. De <strong>evenwichtslijn</strong> is de stand waar het lichaam zonder trilling zou blijven."
+    }
+   ]
+  },
+  {
+   "kop": "De grafiek lezen",
+   "blokken": [
+    {
+     "soort": "figuur",
+     "html": "<svg viewBox=\"0 0 468 196\" width=\"468\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"5\" y=\"4\" width=\"224\" height=\"166\" rx=\"7\" fill=\"#ffffff\" stroke=\"#e4ded0\" stroke-width=\"1.2\"/>\n<line x1=\"26\" y1=\"96\" x2=\"218\" y2=\"96\" stroke=\"#e4ded0\" stroke-width=\"1.1\" stroke-dasharray=\"4 4\"/>\n<line x1=\"26\" y1=\"36\" x2=\"26\" y2=\"148\" stroke=\"#6b7260\" stroke-width=\"1.3\"/>\n<polygon points=\"26.0,32.0 28.5,39.2 23.5,39.2\" fill=\"#6b7260\"/>\n<text x=\"16.0\" y=\"40.0\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"9.5\" fill=\"#6b7260\">y</text>\n<text x=\"218.0\" y=\"111.0\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"9.5\" fill=\"#6b7260\">t</text>\n<text x=\"218.0\" y=\"20.0\" text-anchor=\"end\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"8.5\" font-weight=\"600\" fill=\"#234539\">harmonisch</text>\n<text x=\"117.0\" y=\"186.0\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"9\" fill=\"#6b7260\">A en T lees je er zo af</text>\n<polyline points=\"26.0,96.0 27.2,92.9 28.4,89.7 29.5,86.7 30.7,83.6 31.9,80.7 33.0,77.8 34.2,75.1 35.4,72.5 36.6,70.0 37.8,67.7 38.9,65.6 40.1,63.6 41.3,61.9 42.5,60.4 43.6,59.0 44.8,58.0 46.0,57.1 47.1,56.5 48.3,56.1 49.5,56.0 50.7,56.1 51.9,56.5 53.0,57.1 54.2,58.0 55.4,59.0 56.5,60.4 57.7,61.9 58.9,63.6 60.1,65.6 61.2,67.7 62.4,70.0 63.6,72.5 64.8,75.1 66.0,77.8 67.1,80.7 68.3,83.6 69.5,86.7 70.7,89.7 71.8,92.9 73.0,96.0 74.2,99.1 75.3,102.3 76.5,105.3 77.7,108.4 78.9,111.3 80.0,114.2 81.2,116.9 82.4,119.5 83.6,122.0 84.8,124.3 85.9,126.4 87.1,128.4 88.3,130.1 89.5,131.6 90.6,133.0 91.8,134.0 93.0,134.9 94.2,135.5 95.3,135.9 96.5,136.0 97.7,135.9 98.8,135.5 100.0,134.9 101.2,134.0 102.4,133.0 103.5,131.6 104.7,130.1 105.9,128.4 107.1,126.4 108.2,124.3 109.4,122.0 110.6,119.5 111.8,116.9 113.0,114.2 114.1,111.3 115.3,108.4 116.5,105.3 117.7,102.3 118.8,99.1 120.0,96.0 121.2,92.9 122.3,89.7 123.5,86.7 124.7,83.6 125.9,80.7 127.0,77.8 128.2,75.1 129.4,72.5 130.6,70.0 131.8,67.7 132.9,65.6 134.1,63.6 135.3,61.9 136.4,60.4 137.6,59.0 138.8,58.0 140.0,57.1 141.2,56.5 142.3,56.1 143.5,56.0 144.7,56.1 145.8,56.5 147.0,57.1 148.2,58.0 149.4,59.0 150.6,60.4 151.7,61.9 152.9,63.6 154.1,65.6 155.2,67.7 156.4,70.0 157.6,72.5 158.8,75.1 159.9,77.8 161.1,80.7 162.3,83.6 163.5,86.7 164.7,89.7 165.8,92.9 167.0,96.0 168.2,99.1 169.3,102.3 170.5,105.3 171.7,108.4 172.9,111.3 174.1,114.2 175.2,116.9 176.4,119.5 177.6,122.0 178.8,124.3 179.9,126.4 181.1,128.4 182.3,130.1 183.4,131.6 184.6,133.0 185.8,134.0 187.0,134.9 188.2,135.5 189.3,135.9 190.5,136.0 191.7,135.9 192.8,135.5 194.0,134.9 195.2,134.0 196.4,133.0 197.6,131.6 198.7,130.1 199.9,128.4 201.1,126.4 202.2,124.3 203.4,122.0 204.6,119.5 205.8,116.9 206.9,114.2 208.1,111.3 209.3,108.4 210.5,105.3 211.7,102.3 212.8,99.1 214.0,96.0\" fill=\"none\" stroke=\"#2f5d50\" stroke-width=\"2.2\" stroke-linejoin=\"round\"/>\n<line x1=\"49.5\" y1=\"96\" x2=\"49.5\" y2=\"56\" stroke=\"#c17f2b\" stroke-width=\"1.6\"/>\n<polygon points=\"49.5,52.0 52.0,59.2 47.0,59.2\" fill=\"#c17f2b\"/>\n<text x=\"61.5\" y=\"80.0\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"10\" font-weight=\"600\" fill=\"#c17f2b\">A</text>\n<line x1=\"49.5\" y1=\"42\" x2=\"143.5\" y2=\"42\" stroke=\"#c17f2b\" stroke-width=\"1.6\"/>\n<polygon points=\"45.5,42.0 52.7,39.5 52.7,44.5\" fill=\"#c17f2b\"/>\n<polygon points=\"147.5,42.0 140.3,44.5 140.3,39.5\" fill=\"#c17f2b\"/>\n<text x=\"96.5\" y=\"37.0\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"10\" font-weight=\"600\" fill=\"#c17f2b\">T</text>\n<rect x=\"239\" y=\"4\" width=\"224\" height=\"166\" rx=\"7\" fill=\"#ffffff\" stroke=\"#e4ded0\" stroke-width=\"1.2\"/>\n<line x1=\"260\" y1=\"96\" x2=\"452\" y2=\"96\" stroke=\"#e4ded0\" stroke-width=\"1.1\" stroke-dasharray=\"4 4\"/>\n<line x1=\"260\" y1=\"36\" x2=\"260\" y2=\"148\" stroke=\"#6b7260\" stroke-width=\"1.3\"/>\n<polygon points=\"260.0,32.0 262.5,39.2 257.5,39.2\" fill=\"#6b7260\"/>\n<text x=\"250.0\" y=\"40.0\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"9.5\" fill=\"#6b7260\">y</text>\n<text x=\"452.0\" y=\"111.0\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"9.5\" fill=\"#6b7260\">t</text>\n<text x=\"452.0\" y=\"20.0\" text-anchor=\"end\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"8.5\" font-weight=\"600\" fill=\"#234539\">gedempt</text>\n<text x=\"351.0\" y=\"186.0\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"9\" fill=\"#6b7260\">de amplitude krimpt, T niet</text>\n<polyline points=\"260.0,56.0 261.2,56.5 262.4,57.0 263.5,57.5 264.7,58.0 265.9,58.5 267.1,59.0 268.2,59.5 269.4,60.0 270.6,60.5 271.8,60.9 272.9,61.4 274.1,61.8 275.3,62.3 276.4,62.7 277.6,63.1 278.8,63.6 280.0,64.0 281.1,64.4 282.3,64.8 283.5,65.2 284.7,65.6 285.9,66.0 287.0,66.4 288.2,66.8 289.4,67.2 290.6,67.6 291.7,67.9 292.9,68.3 294.1,68.7 295.2,69.0 296.4,69.4 297.6,69.7 298.8,70.1 299.9,70.4 301.1,70.7 302.3,71.1 303.5,71.4 304.6,71.7 305.8,72.0 307.0,72.3 308.2,72.6 309.4,73.0 310.5,73.3 311.7,73.5 312.9,73.8 314.1,74.1 315.2,74.4 316.4,74.7 317.6,75.0 318.8,75.2 319.9,75.5 321.1,75.8 322.3,76.0 323.4,76.3 324.6,76.6 325.8,76.8 327.0,77.1 328.1,77.3 329.3,77.6 330.5,77.8 331.7,78.0 332.9,78.3 334.0,78.5 335.2,78.7 336.4,79.0 337.6,79.2 338.7,79.4 339.9,79.6 341.1,79.8 342.2,80.0 343.4,80.2 344.6,80.5 345.8,80.7 346.9,80.9 348.1,81.1 349.3,81.2 350.5,81.4 351.6,81.6 352.8,81.8 354.0,82.0 355.2,82.2 356.4,82.4 357.5,82.5 358.7,82.7 359.9,82.9 361.1,83.1 362.2,83.2 363.4,83.4 364.6,83.6 365.8,83.7 366.9,83.9 368.1,84.0 369.3,84.2 370.4,84.4 371.6,84.5 372.8,84.7 374.0,84.8 375.1,84.9 376.3,85.1 377.5,85.2 378.7,85.4 379.9,85.5 381.0,85.6 382.2,85.8 383.4,85.9 384.6,86.0 385.7,86.2 386.9,86.3 388.1,86.4 389.2,86.6 390.4,86.7 391.6,86.8 392.8,86.9 393.9,87.0 395.1,87.2 396.3,87.3 397.5,87.4 398.6,87.5 399.8,87.6 401.0,87.7 402.2,87.8 403.4,87.9 404.5,88.0 405.7,88.1 406.9,88.2 408.1,88.3 409.2,88.4 410.4,88.5 411.6,88.6 412.8,88.7 413.9,88.8 415.1,88.9 416.3,89.0 417.4,89.1 418.6,89.2 419.8,89.3 421.0,89.4 422.1,89.5 423.3,89.5 424.5,89.6 425.7,89.7 426.9,89.8 428.0,89.9 429.2,90.0 430.4,90.0 431.6,90.1 432.7,90.2 433.9,90.3 435.1,90.3 436.2,90.4 437.4,90.5 438.6,90.6 439.8,90.6 440.9,90.7 442.1,90.8 443.3,90.8 444.5,90.9 445.6,91.0 446.8,91.0 448.0,91.1\" fill=\"none\" stroke=\"#c17f2b\" stroke-width=\"1.3\" stroke-dasharray=\"4 3\"/>\n<polyline points=\"260.0,136.0 261.2,135.5 262.4,135.0 263.5,134.5 264.7,134.0 265.9,133.5 267.1,133.0 268.2,132.5 269.4,132.0 270.6,131.5 271.8,131.1 272.9,130.6 274.1,130.2 275.3,129.7 276.4,129.3 277.6,128.9 278.8,128.4 280.0,128.0 281.1,127.6 282.3,127.2 283.5,126.8 284.7,126.4 285.9,126.0 287.0,125.6 288.2,125.2 289.4,124.8 290.6,124.4 291.7,124.1 292.9,123.7 294.1,123.3 295.2,123.0 296.4,122.6 297.6,122.3 298.8,121.9 299.9,121.6 301.1,121.3 302.3,120.9 303.5,120.6 304.6,120.3 305.8,120.0 307.0,119.7 308.2,119.4 309.4,119.0 310.5,118.7 311.7,118.5 312.9,118.2 314.1,117.9 315.2,117.6 316.4,117.3 317.6,117.0 318.8,116.8 319.9,116.5 321.1,116.2 322.3,116.0 323.4,115.7 324.6,115.4 325.8,115.2 327.0,114.9 328.1,114.7 329.3,114.4 330.5,114.2 331.7,114.0 332.9,113.7 334.0,113.5 335.2,113.3 336.4,113.0 337.6,112.8 338.7,112.6 339.9,112.4 341.1,112.2 342.2,112.0 343.4,111.8 344.6,111.5 345.8,111.3 346.9,111.1 348.1,110.9 349.3,110.8 350.5,110.6 351.6,110.4 352.8,110.2 354.0,110.0 355.2,109.8 356.4,109.6 357.5,109.5 358.7,109.3 359.9,109.1 361.1,108.9 362.2,108.8 363.4,108.6 364.6,108.4 365.8,108.3 366.9,108.1 368.1,108.0 369.3,107.8 370.4,107.6 371.6,107.5 372.8,107.3 374.0,107.2 375.1,107.1 376.3,106.9 377.5,106.8 378.7,106.6 379.9,106.5 381.0,106.4 382.2,106.2 383.4,106.1 384.6,106.0 385.7,105.8 386.9,105.7 388.1,105.6 389.2,105.4 390.4,105.3 391.6,105.2 392.8,105.1 393.9,105.0 395.1,104.8 396.3,104.7 397.5,104.6 398.6,104.5 399.8,104.4 401.0,104.3 402.2,104.2 403.4,104.1 404.5,104.0 405.7,103.9 406.9,103.8 408.1,103.7 409.2,103.6 410.4,103.5 411.6,103.4 412.8,103.3 413.9,103.2 415.1,103.1 416.3,103.0 417.4,102.9 418.6,102.8 419.8,102.7 421.0,102.6 422.1,102.5 423.3,102.5 424.5,102.4 425.7,102.3 426.9,102.2 428.0,102.1 429.2,102.0 430.4,102.0 431.6,101.9 432.7,101.8 433.9,101.7 435.1,101.7 436.2,101.6 437.4,101.5 438.6,101.4 439.8,101.4 440.9,101.3 442.1,101.2 443.3,101.2 444.5,101.1 445.6,101.0 446.8,101.0 448.0,100.9\" fill=\"none\" stroke=\"#c17f2b\" stroke-width=\"1.3\" stroke-dasharray=\"4 3\"/>\n<polyline points=\"260.0,96.0 261.2,92.9 262.4,89.9 263.5,87.0 264.7,84.3 265.9,81.7 267.1,79.2 268.2,76.9 269.4,74.8 270.6,72.9 271.8,71.2 272.9,69.7 274.1,68.4 275.3,67.2 276.4,66.3 277.6,65.6 278.8,65.2 280.0,64.9 281.1,64.8 282.3,64.9 283.5,65.2 284.7,65.7 285.9,66.4 287.0,67.2 288.2,68.2 289.4,69.4 290.6,70.7 291.7,72.1 292.9,73.6 294.1,75.2 295.2,76.9 296.4,78.7 297.6,80.6 298.8,82.4 299.9,84.4 301.1,86.3 302.3,88.3 303.5,90.3 304.6,92.2 305.8,94.1 307.0,96.0 308.2,97.8 309.4,99.6 310.5,101.3 311.7,102.9 312.9,104.5 314.1,105.9 315.2,107.3 316.4,108.5 317.6,109.7 318.8,110.7 319.9,111.6 321.1,112.4 322.3,113.0 323.4,113.5 324.6,114.0 325.8,114.2 327.0,114.4 328.1,114.5 329.3,114.4 330.5,114.2 331.7,113.9 332.9,113.5 334.0,113.0 335.2,112.4 336.4,111.7 337.6,111.0 338.7,110.2 339.9,109.3 341.1,108.3 342.2,107.3 343.4,106.2 344.6,105.1 345.8,104.0 346.9,102.9 348.1,101.7 349.3,100.6 350.5,99.4 351.6,98.2 352.8,97.1 354.0,96.0 355.2,94.9 356.4,93.9 357.5,92.9 358.7,91.9 359.9,91.0 361.1,90.1 362.2,89.3 363.4,88.6 364.6,87.9 365.8,87.3 366.9,86.8 368.1,86.3 369.3,85.9 370.4,85.6 371.6,85.4 372.8,85.2 374.0,85.1 375.1,85.1 376.3,85.1 377.5,85.2 378.7,85.4 379.9,85.6 381.0,85.9 382.2,86.3 383.4,86.7 384.6,87.1 385.7,87.6 386.9,88.2 388.1,88.7 389.2,89.3 390.4,89.9 391.6,90.6 392.8,91.3 393.9,91.9 395.1,92.6 396.3,93.3 397.5,94.0 398.6,94.7 399.8,95.3 401.0,96.0 402.2,96.6 403.4,97.3 404.5,97.9 405.7,98.4 406.9,99.0 408.1,99.5 409.2,99.9 410.4,100.4 411.6,100.8 412.8,101.1 413.9,101.4 415.1,101.7 416.3,102.0 417.4,102.1 418.6,102.3 419.8,102.4 421.0,102.4 422.1,102.5 423.3,102.4 424.5,102.4 425.7,102.3 426.9,102.1 428.0,102.0 429.2,101.7 430.4,101.5 431.6,101.2 432.7,101.0 433.9,100.6 435.1,100.3 436.2,99.9 437.4,99.6 438.6,99.2 439.8,98.8 440.9,98.4 442.1,98.0 443.3,97.6 444.5,97.2 445.6,96.8 446.8,96.4 448.0,96.0\" fill=\"none\" stroke=\"#2f5d50\" stroke-width=\"2.2\" stroke-linejoin=\"round\"/></svg>",
+     "onderschrift": "Links een vrije trilling, rechts dezelfde trilling met wrijving erbij."
     },
     {
      "soort": "tekst",
-     "html": "De <strong>periode</strong> is <strong>de tijd van één volledige heen-en-terugbeweging</strong>, in seconde. De frequentie is haar omgekeerde: een trilling met een <strong>periode van 0,25 s</strong> heeft <strong>4 Hz</strong>. Een <strong>trilling met een hogere frequentie heeft een kleinere periode</strong>."
+     "html": "De <strong>periode \\(T\\)</strong> is de tijd van één volledige heen-en-terugbeweging, in seconde, en de frequentie is haar omgekeerde: \\[f = \\dfrac{1}{T}\\] Een trilling met \\(T = 0{,}25\\) s heeft dus \\(f = 4{,}0\\) Hz, en een trilling met een <strong>hogere frequentie heeft een kleinere periode</strong>."
     }
    ]
   },
@@ -24,16 +34,25 @@
    "kop": "De trillingsvergelijking",
    "blokken": [
     {
-     "soort": "tekst",
-     "html": "De <strong>trillingsvergelijking</strong> luidt: <strong>y is A maal de sinus van ω maal t plus φ</strong>. Daaruit lees je rechtstreeks <strong>de amplitude van de trilling</strong>, <strong>de pulsatie van de trilling</strong> en <strong>de beginfase van de trilling</strong>; de massa staat er niet in. Om er zelf een op te stellen heb je <strong>de amplitude</strong>, <strong>de periode of de frequentie</strong> en <strong>de beginfase</strong> nodig."
+     "soort": "kader",
+     "html": "<strong>Eén vergelijking voor de hele beweging</strong><br>\\[y(t) = A\\sin(\\omega t + \\varphi)\\]\\(A\\) is de amplitude in meter, \\(\\omega\\) de pulsatie in \\(\\text{rad/s}\\) en \\(\\varphi\\) de beginfase in radiaal. De massa staat er niet in."
     },
     {
      "soort": "tekst",
-     "html": "De <strong>pulsatie</strong> is <strong>twee pi gedeeld door de periode</strong>; ze <strong>is dus twee pi maal de frequentie</strong> en <strong>staat in radiaal per seconde</strong>. Ze heet ook de hoeksnelheid. De <strong>beginfase staat in radiaal</strong>, want de fase is een hoek in de sinus."
+     "html": "Daaruit lees je rechtstreeks de <strong>amplitude</strong>, de <strong>pulsatie</strong> en de <strong>beginfase</strong>. Om er zelf een op te stellen heb je de amplitude, de periode of de frequentie, en de beginfase nodig; de massa van het lichaam hoeft niet."
+    }
+   ]
+  },
+  {
+   "kop": "De pulsatie en de beginfase",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "De <strong>pulsatie</strong> is \\[\\omega = \\dfrac{2\\pi}{T} = 2\\pi f\\] in \\(\\text{rad/s}\\); ze heet ook de hoeksnelheid. Ze wordt <strong>kleiner</strong> als \\(T\\) groter wordt, want \\(T\\) staat in de noemer, en ze is iets heel anders dan \\(T\\) zelf."
     },
     {
      "soort": "tekst",
-     "html": "Een <strong>beginfase van nul</strong> betekent dat <strong>de trilling op t is nul uit de evenwichtsstand vertrekt</strong>, want de sinus van nul is nul. Vertrekt ze uit de uiterste stand, dan is de beginfase een halve pi. Een trilling met een <strong>amplitude van 5 cm en een pulsatie van 4 rad/s</strong> en beginfase nul heeft na een halve periode een uitwijking van <strong>nul, want de sinus is dan weer nul</strong>."
+     "html": "Een <strong>beginfase van nul</strong> betekent dat de trilling op \\(t = 0\\) uit de evenwichtsstand vertrekt, want \\(\\sin 0 = 0\\). Vertrekt ze uit de uiterste stand, dan is \\(\\varphi = \\tfrac{\\pi}{2}\\). Een trilling met \\(A = 5\\) cm, \\(\\omega = 4\\) rad/s en \\(\\varphi = 0\\) heeft na een halve periode de uitwijking <strong>nul</strong>, want de fase is dan \\(\\pi\\) en \\(\\sin \\pi = 0\\)."
     }
    ]
   },
@@ -42,15 +61,11 @@
    "blokken": [
     {
      "soort": "tekst",
-     "html": "Twee dingen die altijd gelden: <strong>de uitwijking is nul in de evenwichtsstand</strong> en <strong>de snelheid is nul in de uiterste stand</strong>. Bij een harmonische trilling is <strong>de snelheid dus niet het grootst in de uiterste stand</strong> maar in de evenwichtsstand."
+     "html": "Twee dingen die altijd gelden: de uitwijking is <strong>nul in de evenwichtsstand</strong> en de snelheid is <strong>nul in de uiterste stand</strong>. De snelheid is dus <strong>niet</strong> het grootst in de uiterste stand maar in de evenwichtsstand. De <strong>versnelling</strong> is net omgekeerd het grootst in de <strong>uiterste standen</strong>, waar de uitwijking maximaal is, want daar is de terugroepkracht het grootst; in de evenwichtsstand is ze nul."
     },
     {
      "soort": "tekst",
-     "html": "De <strong>versnelling van een harmonisch trillend lichaam is het grootst in de uiterste standen, waar de uitwijking maximaal is</strong>, want daar is de terugroepkracht het grootst. In de evenwichtsstand is de versnelling nul."
-    },
-    {
-     "soort": "tekst",
-     "html": "De amplitude doet niets met de periode: <strong>verdubbel je de amplitude van een slinger met een kleine uitslag</strong>, dan <strong>blijft de periode ongeveer gelijk</strong>. Dat is net waarom een slingeruurwerk zo nauwkeurig was."
+     "html": "De amplitude doet niets met de periode: verdubbel je de amplitude van een slinger met een kleine uitslag, dan blijft de periode ongeveer gelijk. Dat is net waarom een slingeruurwerk zo nauwkeurig was."
     }
    ]
   },
@@ -59,61 +74,62 @@
    "blokken": [
     {
      "soort": "tekst",
-     "html": "Het <strong>faseverschil tussen twee harmonische trillingen</strong> is <strong>het verschil tussen hun fasen op hetzelfde tijdstip</strong>, in radiaal. Twee trillingen trillen <strong>in fase</strong> <strong>als hun faseverschil nul of een veelvoud van twee pi is</strong>; bij een faseverschil van <strong>pi radiaal</strong> zijn ze <strong>in tegenfase</strong>."
-    },
-    {
-     "soort": "tekst",
-     "html": "Hebben twee trillingen <strong>dezelfde frequentie en een faseverschil van een halve pi</strong>, dan is <strong>de ene een kwart periode voor op de andere</strong>: staat de ene in de evenwichtsstand, dan staat de andere uiterst."
+     "html": "Het <strong>faseverschil \\(\\Delta\\varphi\\)</strong> tussen twee harmonische trillingen is het verschil tussen hun fasen op hetzelfde tijdstip, in radiaal. Ze trillen <strong>in fase</strong> als \\(\\Delta\\varphi = 0\\) of een veelvoud van \\(2\\pi\\) is, en <strong>in tegenfase</strong> als \\(\\Delta\\varphi = \\pi\\). Hebben twee trillingen dezelfde frequentie en \\(\\Delta\\varphi = \\tfrac{\\pi}{2}\\), dan is de ene een <strong>kwart periode</strong> voor op de andere: staat de ene in de evenwichtsstand, dan staat de andere uiterst."
     }
    ]
   },
   {
-   "kop": "De veer en de slinger",
+   "kop": "De veer",
    "blokken": [
     {
-     "soort": "tekst",
-     "html": "De <strong>terugroepkracht bij een massa-veersysteem</strong> is <strong>de kracht van de veer, naar de evenwichtsstand gericht</strong>. Ze is recht evenredig met de uitwijking en altijd tegengesteld eraan, en net daardoor is de beweging harmonisch. De constante k van een veer heet de <strong>krachtconstante</strong>, in newton per meter."
+     "soort": "kader",
+     "html": "<strong>Terugroepkracht en eigenfrequentie</strong><br>\\[F = -k\\,y \\qquad f_{0} = \\dfrac{1}{2\\pi}\\sqrt{\\dfrac{k}{m}}\\]\\(k\\) is de <strong>krachtconstante</strong> van de veer, in \\(\\text{N/m}\\). Het minteken zegt dat de kracht altijd naar de evenwichtsstand wijst."
     },
     {
      "soort": "tekst",
-     "html": "De <strong>eigenfrequentie van een massa-veersysteem</strong> bereken je als <strong>één gedeeld door twee pi, maal de wortel van k gedeeld door m</strong>. Daarom geeft <strong>een stijvere veer een hogere eigenfrequentie</strong> en <strong>een grotere massa een lagere eigenfrequentie</strong>. Hang je een <strong>dubbel zo zware massa</strong> aan dezelfde veer, dan <strong>wordt ze kleiner, met een factor wortel twee</strong>."
-    },
-    {
-     "soort": "tekst",
-     "html": "De <strong>eigenfrequentie van een slinger</strong> hangt af <strong>van zijn lengte en van de valversnelling</strong>, en niet van de massa van de bol. <strong>Een langere slinger trilt langzamer dan een korte</strong>, want de lengte staat onder de wortel in de noemer."
+     "html": "Bij een <strong>massa-veersysteem</strong> is de terugroepkracht de kracht van de veer, naar de evenwichtsstand <strong>gericht</strong>. Ze is recht evenredig met de uitwijking en altijd tegengesteld eraan, en net daardoor is de beweging harmonisch. Een <strong>stijvere veer</strong> geeft een hogere eigenfrequentie en een <strong>grotere massa</strong> een lagere. Hang je een dubbel zo zware massa aan dezelfde veer, dan wordt \\(f_{0}\\) kleiner met een factor \\(\\sqrt{2}\\); de amplitude doet er niet toe."
     }
    ]
   },
   {
-   "kop": "Demping en resonantie",
+   "kop": "De slinger",
    "blokken": [
     {
      "soort": "tekst",
-     "html": "Bij een <strong>gedempte harmonische trilling neemt niet vooral de frequentie af</strong> maar de amplitude: de uitwijking verloopt <strong>als een sinus die tussen twee krimpende grenzen past</strong>. <strong>Bij een gedempte trilling verdwijnt de energie van de trilling naar de omgeving</strong>, als warmte door wrijving."
+     "html": "Voor een slinger met een kleine uitslag geldt \\[f_{0} = \\dfrac{1}{2\\pi}\\sqrt{\\dfrac{g}{\\ell}}\\] De eigenfrequentie hangt dus af van zijn <strong>lengte</strong> en van de <strong>valversnelling</strong>, en niet van de massa van de bol. Een <strong>langere slinger trilt langzamer</strong> dan een korte, want \\(\\ell\\) staat onder de wortel in de noemer."
+    }
+   ]
+  },
+  {
+   "kop": "Demping",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Bij een <strong>gedempte</strong> harmonische trilling neemt niet de frequentie af maar de <strong>amplitude</strong>: de uitwijking verloopt als een sinus die tussen twee <strong>krimpende grenzen</strong> past. De energie van de trilling verdwijnt daarbij naar de omgeving, als warmte door wrijving en luchtweerstand. Zo komt een schommel zonder duw tot stilstand."
+    }
+   ]
+  },
+  {
+   "kop": "Resonantie",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Een <strong>gedwongen trilling</strong> is een trilling die een uitwendige kracht blijft aandrijven; het lichaam neemt dan de frequentie van die kracht over. De <strong>eigenfrequentie</strong> is de frequentie waarmee een lichaam vrij trilt. <strong>Resonantie</strong> treedt op als de frequentie van de kracht de eigenfrequentie benadert: de amplitude wordt dan <strong>veel groter</strong>, met een kleine kracht."
     },
     {
      "soort": "tekst",
-     "html": "Een <strong>gedwongen trilling</strong> is <strong>een trilling die een uitwendige kracht blijft aandrijven</strong>. Het lichaam neemt dan de frequentie van die kracht over, terwijl de <strong>eigenfrequentie</strong> de frequentie is <strong>waarmee een lichaam vrij trilt</strong>."
-    },
-    {
-     "soort": "tekst",
-     "html": "<strong>Resonantie</strong> treedt op <strong>als de frequentie van de kracht de eigenfrequentie benadert</strong>. Dan kan de amplitude heel groot worden met een kleine kracht: <strong>bij resonantie is de amplitude dus niet kleiner dan normaal</strong> maar juist veel groter."
-    },
-    {
-     "soort": "tekst",
-     "html": "Voorbeelden van resonantie: <strong>een schommel die je op het juiste ritme steeds hoger duwt</strong>, <strong>een glas dat breekt bij een zuivere toon van de juiste hoogte</strong> en <strong>een brug die door marcherende stappen hevig begint te trillen</strong>. Daarom <strong>zet men dempers in een gebouw dat tegen aardbevingen moet kunnen</strong>: <strong>om de amplitude bij resonantie klein te houden</strong>."
+     "html": "Voorbeelden: een schommel die je op het juiste ritme steeds hoger duwt, een glas dat breekt bij een zuivere toon van de juiste hoogte, en een brug die door marcherende stappen hevig begint te trillen. Daarom zet men <strong>dempers</strong> in een gebouw dat tegen aardbevingen moet kunnen: om de amplitude bij resonantie klein te houden. De bodem zelf krijg je niet stil."
     }
    ]
   }
  ],
  "onthoud": [
   "Harmonisch: de uitwijking is een sinus van de tijd.",
-  "y = A · sin(ω·t + φ); daaruit lees je A, ω en φ.",
-  "Pulsatie is 2π/T, dus 2π maal de frequentie, in rad/s.",
+  "\\(y(t) = A\\sin(\\omega t + \\varphi)\\); daaruit lees je \\(A\\), \\(\\omega\\) en \\(\\varphi\\).",
+  "\\(\\omega = \\dfrac{2\\pi}{T} = 2\\pi f\\), in \\(\\text{rad/s}\\).",
   "Snelheid maximaal in het evenwicht, versnelling maximaal uiterst.",
   "De periode hangt niet van de amplitude af.",
-  "Veer: stijver trilt sneller, zwaarder trilt langzamer.",
-  "Slinger: alleen lengte en g tellen, niet de massa.",
+  "Veer: \\(f_{0} = \\dfrac{1}{2\\pi}\\sqrt{\\dfrac{k}{m}}\\); slinger: \\(\\ell\\) en \\(g\\), niet de massa.",
   "Resonantie: aandrijven op de eigenfrequentie geeft een grote amplitude."
  ]
 }
