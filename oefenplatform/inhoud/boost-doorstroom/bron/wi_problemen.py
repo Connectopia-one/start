@@ -25,7 +25,7 @@ DEEL1 = [
     ),
     dict(
         type="meerkeuze",
-        vraag="Je berekent dat een ladder 4,7 meter lang moet zijn, en je antwoordt dat een ladder van 5 meter volstaat. Wat doe je in die laatste stap?",
+        vraag=r"Je berekent dat een ladder \(4{,}7\) meter lang moet zijn, en je antwoordt dat een ladder van \(5\) meter volstaat. Wat doe je in die laatste stap?",
         opties=[
             "demathematiseren: je vertaalt de uitkomst terug naar de situatie",
             "mathematiseren: je zet de situatie om in een berekening",
@@ -33,7 +33,7 @@ DEEL1 = [
             "schatten: je gokt een waarde die ongeveer klopt",
         ],
         antwoord=0,
-        uitleg="Een ladder van 4,7 meter bestaat niet in de winkel. Je uitkomst betekent pas iets als je ze terugvertaalt.",
+        uitleg=r"Een ladder van \(4{,}7\) meter bestaat niet in de winkel. Je uitkomst betekent pas iets als je ze terugvertaalt.",
     ),
     dict(
         type="meerkeuze",
@@ -109,7 +109,7 @@ DEEL1 = [
     ),
     dict(
         type="meerkeuze",
-        vraag="Een opgave vraagt de leeftijd van twee zussen, en je noemt de leeftijd van de jongste x. Welke heuristiek is dat?",
+        vraag=r"Een opgave vraagt de leeftijd van twee zussen, en je noemt de leeftijd van de jongste \(x\). Welke heuristiek is dat?",
         opties=[
             "variabelen invoeren",
             "een tekening maken",
@@ -129,7 +129,7 @@ DEEL1 = [
             "omdat je pas na het reflecteren mag afronden",
         ],
         antwoord=0,
-        uitleg="Een uitkomst van 340 kilometer per uur voor een fietser wijst op een rekenfout. Reflecteren vangt dat op.",
+        uitleg=r"Een uitkomst van \(340\) km/u voor een fietser wijst op een rekenfout. Reflecteren vangt dat op.",
     ),
     dict(
         type="meerkeuze",
@@ -214,7 +214,7 @@ DEEL1 = [
 DEEL2 = [
     dict(
         type="meerkeuze",
-        vraag="Je moet weten hoeveel liter verf je nodig hebt voor een muur van 4,2 m op 2,6 m. Welke eerste stap past het best?",
+        vraag=r"Je moet weten hoeveel liter verf je nodig hebt voor een muur van \(4{,}2\) m op \(2{,}6\) m. Welke eerste stap past het best?",
         opties=[
             "de oppervlakte berekenen en pas daarna naar het verbruik per liter kijken",
             "meteen delen door het aantal liters in de bus",
@@ -222,13 +222,13 @@ DEEL2 = [
             "de afmetingen eerst afronden naar hele meters en daarmee verder rekenen",
         ],
         antwoord=0,
-        uitleg="Verf wordt per vierkante meter gerekend. Wie eerst de oppervlakte neemt, heeft daarna maar één deling nodig.",
+        uitleg=r"Verf wordt per vierkante meter gerekend: \(4{,}2 \cdot 2{,}6 = 10{,}92\) m\(^{2}\). Wie eerst de oppervlakte neemt, heeft daarna maar één deling nodig.",
     ),
     dict(
         type="meerkeuze",
-        vraag="Een som geeft als uitkomst dat een vijver 0,004 kubieke meter water bevat. Wat doe je bij het reflecteren?",
+        vraag=r"Een som geeft als uitkomst dat een vijver \(0{,}004\) m\(^{3}\) water bevat. Wat doe je bij het reflecteren?",
         opties=[
-            "nagaan of je de eenheden niet door elkaar haalde, want dat zijn maar vier liter",
+            r"nagaan of je de eenheden niet door elkaar haalde, want dat zijn maar \(4\) liter",
             "het antwoord afronden naar nul",
             "de uitkomst overnemen, want de berekening is af",
             "de vraag opnieuw lezen en daarna precies hetzelfde antwoord noteren als eerst",
@@ -250,15 +250,15 @@ DEEL2 = [
     ),
     dict(
         type="meerkeuze",
-        vraag="Een opgave zegt: na een korting van 20 procent betaal je 48 euro. Hoe pak je dat het handigst aan?",
+        vraag=r"Een opgave zegt: na een korting van \(20\%\) betaal je \(48\) euro. Hoe pak je dat het handigst aan?",
         opties=[
-            "terugrekenen: 48 euro is 80 procent van de oude prijs",
-            "20 procent van 48 euro bijtellen",
-            "48 euro delen door 20",
-            "48 euro vermenigvuldigen met 1,20 en dat afronden",
+            r"terugrekenen: \(48\) euro is \(80\%\) van de oude prijs",
+            r"\(20\%\) van \(48\) euro bijtellen",
+            r"\(48\) euro delen door \(20\)",
+            r"\(48\) euro vermenigvuldigen met \(1{,}20\) en dat afronden",
         ],
         antwoord=0,
-        uitleg="De oude prijs is 48 gedeeld door 0,8, dus 60 euro. Wie 20 procent bijtelt, komt op 57,60 en zit fout.",
+        uitleg=r"De oude prijs is \(48 : 0{,}8 = 60\) euro. Wie \(20\%\) bijtelt, komt op \(57{,}60\) en zit fout.",
     ),
     dict(
         type="meerkeuze",
@@ -270,7 +270,7 @@ DEEL2 = [
             "omdat een schatting op het examen als antwoord telt",
         ],
         antwoord=0,
-        uitleg="Wie 19 keer 21 schat op ongeveer 400, ziet meteen dat 3999 niet kan kloppen.",
+        uitleg=r"Wie \(19 \cdot 21\) schat op ongeveer \(400\), ziet meteen dat \(3999\) niet kan kloppen.",
     ),
     dict(
         type="meerkeuze",
@@ -288,13 +288,13 @@ DEEL2 = [
         type="meerkeuze",
         vraag="Een opgave vraagt de hoogte van een toren uit de kijkhoek en de afstand. Welk plan past?",
         opties=[
-            "een rechthoekige driehoek tekenen en met de tangens werken",
+            r"een rechthoekige driehoek tekenen en met de tangens werken",
             "de omtrek van de toren schatten",
             "de stelling van Pythagoras toepassen op de twee gegeven hoeken",
             "de gegevens optellen en delen door twee",
         ],
         antwoord=0,
-        uitleg="Overstaande en aanliggende rechthoekszijde samen: dat is precies de tangens.",
+        uitleg=r"Overstaande en aanliggende rechthoekszijde samen: \(\tan \alpha = \dfrac{\text{overstaande}}{\text{aanliggende}}\).",
     ),
     dict(
         type="meerkeuze",
@@ -322,7 +322,7 @@ DEEL2 = [
     ),
     dict(
         type="meerkeuze",
-        vraag="Een opgave geeft een rij 2, 6, 12, 20, 30. Welke aanpak ligt voor de hand?",
+        vraag=r"Een opgave geeft een rij \(2, 6, 12, 20, 30\). Welke aanpak ligt voor de hand?",
         opties=[
             "patronen en regelmaat ontdekken door de verschillen te bekijken",
             "alle mogelijkheden opschrijven",
@@ -330,7 +330,7 @@ DEEL2 = [
             "de getallen ordenen van groot naar klein",
         ],
         antwoord=0,
-        uitleg="De verschillen zijn 4, 6, 8, 10. Het volgende verschil is dus 12 en het volgende getal 42.",
+        uitleg=r"De verschillen zijn \(4, 6, 8, 10\). Het volgende verschil is dus \(12\) en het volgende getal \(42\).",
     ),
     dict(
         type="meerkeuze",
@@ -358,15 +358,15 @@ DEEL2 = [
     ),
     dict(
         type="meerkeuze",
-        vraag="Een fietser legt 24 kilometer af in anderhalf uur. Je berekent 36 kilometer per uur. Wat doe je?",
+        vraag=r"Een fietser legt \(24\) km af in anderhalf uur. Je berekent \(36\) km/u. Wat doe je?",
         opties=[
-            "opnieuw rekenen, want delen door 1,5 geeft 16",
-            "het antwoord aanvaarden, want 36 is een normale snelheid",
+            r"opnieuw rekenen, want \(24 : 1{,}5 = 16\)",
+            r"het antwoord aanvaarden, want \(36\) km/u is een normale snelheid",
             "de eenheid veranderen naar meter per seconde",
             "de afstand verdubbelen",
         ],
         antwoord=0,
-        uitleg="24 gedeeld door 1,5 is 16. Wie vermenigvuldigt in plaats van deelt, krijgt een uitkomst die te groot is.",
+        uitleg=r"\(24 : 1{,}5 = 16\). Wie vermenigvuldigt in plaats van deelt, krijgt een uitkomst die te groot is.",
     ),
     dict(
         type="waarofniet",
@@ -394,20 +394,20 @@ DEEL2 = [
     ),
     dict(
         type="invultekst",
-        vraag="Hoeveel is 24 kilometer in anderhalf uur, in kilometer per uur?",
+        vraag=r"Hoeveel is \(24\) km in anderhalf uur, in km/u?",
         antwoord=["16", "16 km/u", "16 kilometer"],
-        uitleg="24 gedeeld door 1,5 is 16.",
+        uitleg=r"\(24 : 1{,}5 = 16\).",
     ),
     dict(
         type="invultekst",
-        vraag="Welk getal volgt in de rij 2, 6, 12, 20, 30?",
+        vraag=r"Welk getal volgt in de rij \(2, 6, 12, 20, 30\)?",
         antwoord=["42"],
-        uitleg="De verschillen lopen op met telkens 2: 4, 6, 8, 10, 12. Dus 30 plus 12.",
+        uitleg=r"De verschillen lopen op met telkens \(2\): \(4, 6, 8, 10, 12\). Dus \(30 + 12\).",
     ),
     dict(
         type="invultekst",
-        vraag="Na 20 procent korting betaal je 48 euro. Wat was de prijs in euro?",
+        vraag=r"Na \(20\%\) korting betaal je \(48\) euro. Wat was de prijs in euro?",
         antwoord=["60", "60 euro"],
-        uitleg="48 is 80 procent, dus de volle prijs is 48 gedeeld door 0,8.",
+        uitleg=r"\(48\) is \(80\%\), dus de volle prijs is \(48 : 0{,}8\).",
     ),
 ]

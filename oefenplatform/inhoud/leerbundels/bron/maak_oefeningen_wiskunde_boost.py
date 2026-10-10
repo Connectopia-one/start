@@ -46,23 +46,44 @@ OEFENBUNDELS["oefenbundel-een-opgave-aanpakken-van-context-naar-wiskunde-boost-d
         dict(kop="Mathematiseren of demathematiseren?",
              opdracht="Schrijf bij elke stap welke van de twee je aan het doen bent.",
              oefeningen=[
-                 ("rij", [("je noemt het aantal kilometer x en schrijft de kost als 0,30x + 15", "mathematiseren"),
-                          ("je rekent 7,3 uit en antwoordt dat er 8 bussen nodig zijn", "demathematiseren"),
+                 ("rij", [(r"je noemt het aantal kilometer \(x\) en schrijft de kost als \(0{,}30x + 15\)",
+                           "mathematiseren"),
+                          (r"je rekent \(7{,}3\) uit en antwoordt dat er \(8\) bussen nodig zijn",
+                           "demathematiseren"),
                           ("je tekent de ladder als een rechthoekige driehoek", "mathematiseren"),
-                          ("je rondt 4,7 meter af tot een ladder van 5 meter", "demathematiseren")],
+                          (r"je rondt \(4{,}7\) meter af tot een ladder van \(5\) meter", "demathematiseren")],
                   "Welke stap?", WW),
+             ]),
+        dict(kop="Vraagstuk of probleem?",
+             opdracht="Schrijf vraagstuk of probleem.",
+             oefeningen=[
+                 ("rij", [("een oefening op de oppervlakte van een rechthoek", "vraagstuk"),
+                          ("een opgave waarvoor je zowel een stelsel als Pythagoras nodig hebt", "probleem"),
+                          (r"\(3x + 5 = 20\) oplossen", "vraagstuk"),
+                          ("hoeveel verf, hoeveel behang en hoeveel geld je nodig hebt voor een kamer",
+                           "probleem")],
+                  "Welk soort?", WW),
              ]),
         dict(kop="Welke heuristiek?",
              opdracht="Schrijf bij elke aanpak welke heuristiek uit de lijst van de fiche je gebruikt.",
              oefeningen=[
-                 ("rij", [("je noemt de leeftijd van de jongste broer x", "variabelen invoeren"),
-                          ("je knipt 'hoeveel kost een schoolreis' op in bus, inkom en eten", "opsplitsen in deelproblemen"),
-                          ("je schrijft alle vier de kleuren met alle drie de maten uit", "alle mogelijkheden opschrijven"),
-                          ("je berekent maar één helft van de figuur en verdubbelt", "gebruik maken van symmetrie")],
+                 ("rij", [(r"je noemt de leeftijd van de jongste broer \(x\)", "variabelen invoeren"),
+                          ("je knipt 'hoeveel kost een schoolreis' op in bus, inkom en eten",
+                           "opsplitsen in deelproblemen"),
+                          ("je schrijft alle vier de kleuren met alle drie de maten uit",
+                           "alle mogelijkheden opschrijven"),
+                          ("je berekent maar één helft van de figuur en verdubbelt",
+                           "gebruik maken van symmetrie")],
                   "Welke heuristiek?", WL),
+             ]),
+        dict(kop="Nog drie heuristieken",
+             opdracht="Zelfde werkwijze.",
+             oefeningen=[
                  ("rij", [("je vertrekt van de eindprijs en rekent terug naar de beginprijs", "terugrekenen"),
-                          ("je bekijkt de verschillen tussen 3, 8, 15, 24", "patronen en regelmaat ontdekken"),
-                          ("je probeert 10, ziet dat het te groot is, en probeert 8", "schatten, slim gissen, testen en controleren")],
+                          (r"je bekijkt de verschillen tussen \(3, 8, 15, 24\)",
+                           "patronen en regelmaat ontdekken"),
+                          (r"je probeert \(10\), ziet dat het te groot is, en probeert \(8\)",
+                           "schatten, slim gissen, testen en controleren")],
                   "Welke heuristiek?", WL),
              ]),
         dict(kop="De vier stappen op een rij",
@@ -72,36 +93,99 @@ OEFENBUNDELS["oefenbundel-een-opgave-aanpakken-van-context-naar-wiskunde-boost-d
                   [["1", None], ["2", None], ["3", None], ["4", None]],
                   "1 begrijp het probleem · 2 maak een plan · 3 voer het plan uit · 4 reflecteer", "230px"),
              ]),
+        dict(kop="Bij welke stap hoort dit?",
+             opdracht="Schrijf het nummer van de stap (1 tot 4).",
+             oefeningen=[
+                 ("rij", [("onderstrepen wat gegeven is en wat gevraagd wordt", "1"),
+                          ("nagaan of de eenheid van je antwoord klopt", "4"),
+                          ("beslissen dat je met de tangens gaat werken", "2"),
+                          ("je tussenstappen één per regel opschrijven", "3")],
+                  "Stap", W),
+             ]),
         dict(kop="Reflecteren",
              opdracht="Bij elke uitkomst: schrijf op waarom ze niet kan kloppen, en wat er waarschijnlijk misging.",
              oefeningen=[
-                 ("open", "Een zwembad van 25 m op 10 m op 2 m zou 500 liter water bevatten.",
-                  "500 liter is een halve kubieke meter, en het bad is 500 m³. De eenheid ging mis: "
-                  "500 m³ is 500 000 liter.", 4),
-                 ("open", "Een auto legt 90 km af in 45 minuten; iemand berekent 2 km per uur.",
-                  "45 minuten is 0,75 uur, en 90 gedeeld door 0,75 is 120 km/u. Er is gedeeld door 45 "
-                  "in plaats van door 0,75.", 4),
-                 ("open", "De oppervlakte van een tuin komt uit op min 12 m².",
+                 ("open", r"Een zwembad van \(25\) m op \(10\) m op \(2\) m zou \(500\) liter water bevatten.",
+                  r"\(500\) liter is een halve kubieke meter, en het bad is \(500\) m\(^{3}\). De eenheid "
+                  r"ging mis: \(500\) m\(^{3}\) is \(500\,000\) liter.", 4),
+                 ("open", r"Een auto legt \(90\) km af in \(45\) minuten; iemand berekent \(2\) km/u.",
+                  r"\(45\) minuten is \(0{,}75\) uur, en \(90 : 0{,}75 = 120\) km/u. Er is gedeeld door "
+                  r"\(45\) in plaats van door \(0{,}75\).", 4),
+                 ("open", r"De oppervlakte van een tuin komt uit op \(-12\) m\(^{2}\).",
                   "Een oppervlakte kan niet negatief zijn. Waarschijnlijk is er een lengte afgetrokken "
                   "die er bij moest, of zijn twee maten verwisseld.", 4),
              ]),
         dict(kop="Schatten eerst",
              opdracht="Schat eerst met ronde getallen, schrijf je schatting op, en reken daarna precies.",
              oefeningen=[
-                 ("rij", [("schatting van 49 · 31", "ongeveer 1500"),
-                          ("exact 49 · 31", "1519"),
-                          ("schatting van 198 : 4", "ongeveer 50"),
-                          ("exact 198 : 4", "49,5")],
+                 ("rij", [(r"schatting van \(49 \cdot 31\)", r"ongeveer \(1500\)"),
+                          (r"exact \(49 \cdot 31\)", r"\(1519\)"),
+                          (r"schatting van \(198 : 4\)", r"ongeveer \(50\)"),
+                          (r"exact \(198 : 4\)", r"\(49{,}5\)")],
+                  "Antwoord", W),
+             ]),
+        dict(kop="Nog twee onmogelijke uitkomsten",
+             opdracht="Zelfde werkwijze.",
+             oefeningen=[
+                 ("open", r"Een klas van \(24\) leerlingen zou gemiddeld \(0{,}3\) broer of zus hebben, "
+                          r"terwijl niemand enig kind is.",
+                  r"Als niemand enig kind is, heeft elke leerling er minstens één, dus het gemiddelde moet "
+                  r"minstens \(1\) zijn. Waarschijnlijk is er gedeeld door het verkeerde aantal.", 4),
+                 ("open", r"Een korting van \(30\%\) op \(80\) euro zou \(104\) euro opleveren.",
+                  r"Na een korting betaal je minder, niet meer. Hier is \(80 \cdot 1{,}3\) gerekend in "
+                  r"plaats van \(80 \cdot 0{,}7 = 56\) euro.", 4),
+             ]),
+        dict(kop="Nog vier schattingen",
+             opdracht="Zelfde werkwijze.",
+             oefeningen=[
+                 ("rij", [(r"schatting van \(19 \cdot 21\)", r"ongeveer \(400\)"),
+                          (r"exact \(19 \cdot 21\)", r"\(399\)"),
+                          (r"schatting van \(802 : 4\)", r"ongeveer \(200\)"),
+                          (r"exact \(802 : 4\)", r"\(200{,}5\)")],
                   "Antwoord", W),
              ]),
         dict(kop="Zelf oplossen",
              opdracht="Werk met de vier stappen. Schrijf minstens je plan en je controle op.",
              oefeningen=[
-                 ("open", "Na 25 % korting betaal je 60 euro. Wat was de oude prijs?",
-                  "60 euro is 75 % van de oude prijs, dus de oude prijs is 60 : 0,75 = 80 euro. "
-                  "Controle: 25 % van 80 is 20, en 80 − 20 = 60.", 6),
-                 ("open", "Welk getal volgt in de rij 3, 8, 15, 24, 35? Leg uit hoe je het vindt.",
-                  "De verschillen zijn 5, 7, 9, 11, dus het volgende verschil is 13 en het getal is 48.", 5),
+                 ("open", r"Na \(25\%\) korting betaal je \(60\) euro. Wat was de oude prijs?",
+                  r"\(60\) euro is \(75\%\) van de oude prijs, dus de oude prijs is \(60 : 0{,}75 = 80\) "
+                  r"euro. Controle: \(25\%\) van \(80\) is \(20\), en \(80 - 20 = 60\).", 6),
+                 ("open", r"Welk getal volgt in de rij \(3, 8, 15, 24, 35\)? Leg uit hoe je het vindt.",
+                  r"De verschillen zijn \(5, 7, 9, 11\), dus het volgende verschil is \(13\) en het getal "
+                  r"is \(48\).", 5),
+             ]),
+        dict(kop="Schrijf de formule op",
+             opdracht="Mathematiseer: zet de zin om in een formule. Schrijf erbij waar je letter voor staat.",
+             oefeningen=[
+                 ("rij", [("een taxi vraagt 5 euro opstap en 2 euro per kilometer",
+                           r"\(k = 5 + 2x\), met \(x\) het aantal kilometer"),
+                          ("de omtrek van een rechthoek die 3 cm langer is dan breed",
+                           r"\(P = 2x + 2(x + 3) = 4x + 6\)"),
+                          ("de helft van een getal, verminderd met zeven",
+                           r"\(\tfrac{x}{2} - 7\)")],
+                  "Formule", WL),
+             ]),
+        dict(kop="Nog twee opgaven",
+             opdracht="Zelfde werkwijze.",
+             oefeningen=[
+                 ("open", r"Een ladder van \(5\) m staat met de voet \(1{,}5\) m van de muur. Hoe hoog "
+                          r"reikt hij? Rond af op een centimeter.",
+                  r"Pythagoras: \(h = \sqrt{5^{2} - 1{,}5^{2}} = \sqrt{22{,}75} \approx 4{,}77\) m. "
+                  r"Controle: \(4{,}77\) is net iets minder dan \(5\), zoals het hoort.", 6),
+                 ("open", "Een weekje kamperen kost 120 euro reis, 18 euro per nacht voor de plaats en "
+                          "25 euro per dag voor eten. Hoeveel kost zeven nachten?",
+                  r"Opsplitsen in deelproblemen: \(120 + 7 \cdot 18 + 7 \cdot 25 = 120 + 126 + 175 = 421\) "
+                  r"euro.", 6),
+             ]),
+        dict(kop="De vier vaardigheden",
+             opdracht="Vul in welke vaardigheid de fiche bedoelt.",
+             oefeningen=[
+                 ("tabel", ["Wat je doet", "Welke vaardigheid?"],
+                  [["een grafiek begrijpen en beschrijven", None],
+                   ["vlot hoofdrekenen", None],
+                   ["een hoek meten met een geodriehoek", None],
+                   ["een rekenapp gebruiken bij een berekening", None]],
+                  "taalvaardigheid · rekenvaardigheid · meet- en tekenvaardigheid · ICT-vaardigheid", "210px"),
              ]),
         dict(kop="Waar of niet waar?",
              opdracht="Duid aan of de uitspraak klopt.",
@@ -110,6 +194,31 @@ OEFENBUNDELS["oefenbundel-een-opgave-aanpakken-van-context-naar-wiskunde-boost-d
                  ("waar", "Een goede schatting vervangt de exacte berekening.", False),
                  ("waar", "Eén tegenvoorbeeld volstaat om een uitspraak te weerleggen.", True),
                  ("waar", "Drie voorbeelden die kloppen, bewijzen dat een eigenschap altijd geldt.", False),
+                 ("waar", "Bij een probleem mag je leerstof uit meerdere hoofdstukken combineren.", True),
+                 ("waar", "Op het examen komen enkel opgaven met context voor.", False),
+             ]),
+        dict(kop="Uitleggen",
+             opdracht="Antwoord in volle zinnen.",
+             oefeningen=[
+                 ("open", "Waarom hoort reflecteren bij het oplossen en niet erna?",
+                  "Omdat je dan nog merkt dat je uitkomst niet kan kloppen, en omdat je ziet of je aanpak "
+                  "ook elders bruikbaar is. Wie pas achteraf reflecteert, levert een fout antwoord in.", 5),
+                 ("open", "Waarom vraagt de fiche dat je je tussenstappen verantwoordt?",
+                  "Omdat een lezer dan kan volgen welke eigenschap je toepast en waar het misloopt. Een "
+                  "antwoord zonder redenering is niet na te kijken, ook niet door jezelf.", 5),
+             ]),
+        dict(kop="Doordenkers",
+             opdracht="Neem je tijd.",
+             oefeningen=[
+                 ("open", r"Iemand beweert: \"elk oneven getal in het kwadraat is oneven\". Hoe toon je aan "
+                          r"dat dit waar is, en waarom volstaan drie voorbeelden niet?",
+                  r"Voorbeelden illustreren maar bewijzen niet. Een redenering wel: een oneven getal is "
+                  r"\(2n + 1\), en \((2n+1)^{2} = 4n^{2} + 4n + 1\), dus opnieuw één meer dan een viervoud, "
+                  r"en dat is oneven.", 6),
+                 ("open", r"Iemand beweert: \"als je een getal kwadrateert, wordt het groter\". Geef een "
+                          r"tegenvoorbeeld en leg uit waarom één genoeg is.",
+                  r"Neem \(0{,}5\): \(0{,}5^{2} = 0{,}25\), kleiner dus. Eén geval waarin het niet opgaat, "
+                  r"breekt de uitspraak, want ze beweerde dat het altijd zo is.", 6),
              ]),
     ],
 )

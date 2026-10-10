@@ -42,9 +42,9 @@ BUNDELS["een-opgave-aanpakken-van-context-naar-wiskunde-boost-doorstroom"] = dic
                   "<strong>Mathematiseren</strong> is de heenweg: een situatie uit de wereld omzetten in "
                   "<strong>wiskundetaal</strong> en symbolen. <strong>Demathematiseren</strong> is de "
                   "terugweg: je wiskundige uitkomst terugvertalen naar de situatie."),
-            ("p", "Reken je uit dat een ladder 4,7 meter lang moet zijn en antwoord je dat een ladder van "
-                  "5 meter volstaat, dan ben je aan het demathematiseren: zo'n ladder bestaat in de winkel, "
-                  "4,7 meter niet. Je uitkomst betekent pas iets als je ze terugvertaalt."),
+            ("p", "Reken je uit dat een ladder \\(4{,}7\\) meter lang moet zijn en antwoord je dat een ladder "
+                  "van \\(5\\) meter volstaat, dan ben je aan het demathematiseren: zo'n ladder bestaat in de "
+                  "winkel, \\(4{,}7\\) meter niet. Je uitkomst betekent pas iets als je ze terugvertaalt."),
             ("kader", "Demathematiseren is <strong>niet</strong> hetzelfde als een opgave vereenvoudigen tot "
                       "je ze aankan. Het is de uitkomst terugvertalen naar het verhaal waar ze vandaan komt."),
         ]),
@@ -81,13 +81,15 @@ BUNDELS["een-opgave-aanpakken-van-context-naar-wiskunde-boost-doorstroom"] = dic
                   "snel rekent, rekent vaak het verkeerde uit."),
             ("p", "Een goed plan verwijst vaak naar een ander hoofdstuk. Vraagt een opgave de hoogte van een "
                   "<strong>toren</strong> uit de <strong>kijkhoek</strong> en je afstand ertoe, dan is het plan: "
-                  "een rechthoekige driehoek tekenen en met de <strong>tangens</strong> werken."),
-            ("p", "<strong>Reflecteren hoort bij het oplossen, niet erna.</strong> Een fietser aan 340 "
-                  "kilometer per uur, een oppervlakte die <strong>negatief</strong> uitvalt of een vijver van "
-                  "0,004 kubieke meter — dat zijn maar vier liter — wijzen alle drie op een rekenfout of op "
-                  "eenheden die je door elkaar haalde. Zo'n uitkomst stuurt je terug naar je berekening. Een "
-                  "fietser die 24 kilometer in anderhalf uur aflegt, rijdt 24 : 1,5 = <strong>16</strong> "
-                  "kilometer per uur; komt daar 36 uit, dan heb je vermenigvuldigd in plaats van gedeeld."),
+                  "een rechthoekige driehoek tekenen en met de <strong>tangens</strong> werken, want "
+                  "\\(\\tan \\alpha = \\dfrac{\\text{overstaande}}{\\text{aanliggende}}\\)."),
+            ("p", "<strong>Reflecteren hoort bij het oplossen, niet erna.</strong> Een fietser aan "
+                  "\\(340\\) km/u, een oppervlakte die <strong>negatief</strong> uitvalt of een vijver van "
+                  "\\(0{,}004\\) m\\(^{3}\\) — dat zijn maar \\(4\\) liter — wijzen alle drie op een "
+                  "rekenfout of op eenheden die je door elkaar haalde. Zo'n uitkomst stuurt je terug naar je "
+                  "berekening. Een fietser die \\(24\\) km in anderhalf uur aflegt, rijdt "
+                  "\\(24 : 1{,}5 = 16\\) km/u; komt daar \\(36\\) uit, dan heb je vermenigvuldigd in "
+                  "plaats van gedeeld."),
             ("p", "De fiche vraagt ook dat je je <strong>tussenstappen verantwoordt</strong>: een lezer moet "
                   "kunnen volgen welke eigenschap je toepast en waar het misloopt. Een antwoord zonder "
                   "redenering is niet na te kijken, en jijzelf vindt er je eigen fout niet in terug."),
@@ -103,35 +105,36 @@ BUNDELS["een-opgave-aanpakken-van-context-naar-wiskunde-boost-doorstroom"] = dic
                 ["alle mogelijkheden opschrijven", "bij kleine aantallen",
                  "hoeveel broodjes je kan samenstellen"],
                 ["variabelen invoeren", "als je iets niet weet",
-                 "de leeftijd van de jongste zus x noemen"],
+                 r"de leeftijd van de jongste zus \(x\) noemen"],
                 ["gebruik maken van symmetrie", "als een helft op de andere lijkt",
                  "een vierkant patroon halveren"],
                 ["terugrekenen", "als het eindpunt gegeven is",
-                 "48 euro is 80 % van de oude prijs, dus 60 euro"],
+                 r"\(48\) euro is \(80\%\) van de oude prijs, dus \(60\) euro"],
                 ["opsplitsen in deelproblemen", "bij een grote, vage vraag",
                  "een weekje kamperen: reis, kampeerplaats, eten"],
                 ["schatten, slim gissen, testen en controleren", "als geen formule voor de hand ligt",
                  "een getal proberen en bijsturen"],
                 ["patronen en regelmaat ontdekken", "bij een rij getallen",
-                 "2, 6, 12, 20, 30: de verschillen zijn 4, 6, 8, 10"],
+                 r"\(2, 6, 12, 20, 30\): de verschillen zijn \(4, 6, 8, 10\)"],
             ])),
             ("p", "Een <strong>schets maken telt als een volwaardige oplossingsstrategie</strong>: het is de "
                   "eerste heuristiek in de lijst, en niet iets wat je erbij doet."),
-            ("p", "In die rij 2, 6, 12, 20, 30 lopen de verschillen op met telkens 2, dus het volgende "
-                  "verschil is 12 en het volgende getal <strong>42</strong>. Slim gissen is trouwens geen "
-                  "gokken: elke poging vertelt je in welke richting de volgende moet."),
+            ("p", "In die rij \\(2, 6, 12, 20, 30\\) lopen de verschillen op met telkens \\(2\\), dus het "
+                  "volgende verschil is \\(12\\) en het volgende getal <strong>42</strong>. Slim gissen is "
+                  "trouwens geen gokken: elke poging vertelt je in welke richting de volgende moet."),
             ("p", "Wat <strong>geen</strong> heuristiek is: het antwoord opzoeken in de oplossingen "
                   "achteraan. Dat brengt je geen stap vooruit."),
         ]),
         dict(kop="Schatten", blokken=[
             ("p", "<strong>Schatten</strong> met ronde getallen zegt je in welke "
-                  "<strong>grootteorde</strong> het antwoord moet liggen. Wie 19 · 21 schat op ongeveer 400, "
-                  "ziet meteen dat 3999 niet kan kloppen."),
+                  "<strong>grootteorde</strong> het antwoord moet liggen. Wie \\(19 \\cdot 21\\) schat op "
+                  "ongeveer \\(400\\), ziet meteen dat \\(3999\\) niet kan kloppen."),
             ("p", "Maar een schatting is een <strong>controle</strong>, geen antwoord: wie goed schat, moet "
                   "de exacte berekening nog altijd uitvoeren."),
-            ("p", "Verf is een mooi voorbeeld van een plan dat werk spaart. Voor een muur van 4,2 m op 2,6 m "
-                  "bereken je eerst de <strong>oppervlakte</strong> en kijk je pas daarna naar het verbruik "
-                  "per liter: dan blijft er maar één deling over."),
+            ("p", "Verf is een mooi voorbeeld van een plan dat werk spaart. Voor een muur van \\(4{,}2\\) m "
+                  "op \\(2{,}6\\) m bereken je eerst de <strong>oppervlakte</strong>, "
+                  "\\(4{,}2 \\cdot 2{,}6 = 10{,}92\\) m\\(^{2}\\), en kijk je pas daarna naar het "
+                  "verbruik per liter: dan blijft er maar één deling over."),
         ]),
         dict(kop="De vier vaardigheden", blokken=[
             ("p", "De fiche noemt vier vaardigheden die je bij elke opgave gebruikt:"),
