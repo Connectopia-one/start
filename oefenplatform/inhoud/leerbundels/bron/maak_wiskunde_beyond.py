@@ -26,7 +26,7 @@ alles nog in woorden stond en had gelijk: een leerling van de derde graad moet
 
 De omzetting gebeurt thema per thema, samen met de vragen van dat thema, zodat
 een kind in de bundel dezelfde schrijfwijze terugvindt als in de oefening.
-Omgezet: thema 1 tot 21. De andere thema's staan nog in woorden.
+Omgezet: alle 22 thema's.
 """
 import sys, pathlib
 sys.path.insert(0, str(pathlib.Path(__file__).parent))
@@ -2803,7 +2803,7 @@ BUNDELS["rechten-en-vlakken-in-de-ruimte-beyond"] = dict(
     ],
 )
 
-# ───────────────────────── 22. Programmeren: algoritmen en structuren
+# ─────────────────────────────────────────────────────────────────────────────
 BUNDELS["programmeren-algoritmen-en-structuren-beyond"] = dict(
     vak=VAK, niveau=BEYOND, titel="Programmeren: algoritmen en structuren",
     onder="De bouwstenen van een programma, de vier datastructuren, de algoritmische technieken, en correctheid en eindigheid.",
@@ -2811,86 +2811,126 @@ BUNDELS["programmeren-algoritmen-en-structuren-beyond"] = dict(
         dict(kop="Van probleem naar programma", blokken=[
             ("p", "<strong>Een algoritme is een stappenplan dat na eindig veel stappen tot een oplossing "
                   "komt.</strong> Het bestaat los van de taal; pas daarna schrijf je het in "
-                  "<strong>Python</strong>, in een online omgeving, zodat je niets op je eigen computer "
-                  "hoeft te installeren."),
+                  "<strong>Python</strong>, de programmeertaal van het examen. Je werkt in een "
+                  "online omgeving, zodat je niets op je eigen computer hoeft te installeren."),
             ("p", "Je werkt in <strong>vier stappen</strong>: <strong>het probleem analyseren, een "
                   "algoritme ontwerpen, het programmeren, en testen en debuggen</strong>. Meteen beginnen "
                   "typen zonder het probleem te analyseren kost je achteraf meer tijd dan het wint. "
                   "<strong>Debuggen is fouten opsporen en herstellen</strong>, en je <strong>test ook met "
-                  "randgevallen, omdat fouten zich daar verstoppen</strong>: een lege lijst, één element, "
-                  "een nul, een negatief getal."),
+                  "randgevallen, omdat fouten zich daar verstoppen</strong>: een lege lijst, \\(1\\) "
+                  "element, een \\(0\\), een negatief getal."),
             ("p", "<strong>Geef variabelen een zinvolle naam, zodat je code leesbaar blijft</strong> voor "
-                  "jezelf en voor anderen. De computer kan het niets schelen, maar een lezer wel, en dat "
-                  "telt mee in de beoordeling. <strong>Commentaar wordt niet mee uitgevoerd</strong>; ze "
-                  "staat er alleen voor wie de code leest."),
+                  "jezelf en voor anderen. \\(\\texttt{aantal\\_leerlingen}\\) zegt iets, \\(\\texttt{a}\\) "
+                  "niet. De computer kan het niets schelen, maar een lezer wel, en dat telt mee in de "
+                  "beoordeling. <strong>Commentaar wordt niet mee uitgevoerd</strong>; ze staat er alleen "
+                  "voor wie de code leest."),
         ]),
         dict(kop="De bouwstenen", blokken=[
             ("p", tabel(["Bouwsteen", "Wat ze doet", "In Python"], [
-                ["variabele", "een naam waarachter een waarde zit die kan veranderen", "je overschrijft de waarde gewoon"],
-                ["constante", "een waarde die tijdens het programma niet verandert", "het aantal seconden in een uur, met een naam erbij"],
-                ["conditie", "een stuk code alleen laten lopen als iets waar is", "de constructie met als en anders"],
-                ["iteratie", "een herhaling van hetzelfde stuk code", "een lus, over een lijst of zolang iets geldt"],
-                ["functie", "een stuk code een naam geven en hergebruiken", "één keer schrijven, zo vaak oproepen als je wil"],
+                ["variabele", "een naam waarachter een waarde zit die kan veranderen",
+                 r"na \(\texttt{n = 5}\) zit er \(5\) achter \(\texttt{n}\); \(\texttt{n = 7}\) overschrijft dat"],
+                ["constante", "een waarde die tijdens het programma niet verandert",
+                 "het aantal seconden in een uur, met een naam erbij"],
+                ["conditie", "een stuk code alleen laten lopen als iets waar is",
+                 r"\(\texttt{if}\), en \(\texttt{else}\) voor wat er anders moet gebeuren"],
+                ["iteratie", "een herhaling van hetzelfde stuk code",
+                 r"\(\texttt{for}\) over een rij, of \(\texttt{while}\) zolang iets geldt"],
+                ["functie", "een stuk code een naam geven en hergebruiken",
+                 r"\(\texttt{def}\) om ze te schrijven, \(\texttt{return}\) voor wat ze teruggeeft"],
             ])),
         ]),
         dict(kop="De vier datastructuren", blokken=[
             ("p", "<strong>Een string is een rij tekens</strong>: letters, cijfers en leestekens na "
                   "elkaar, tussen aanhalingstekens."),
             ("p", tabel(["Datastructuur", "Waarvoor", "Kenmerk"], [
-                ["list", "een geordende rij die je nog wil aanpassen", "geordend én aanpasbaar"],
-                ["tuple", "een geordende rij die vastligt", "je kan hem achteraf niet meer wijzigen"],
-                ["set", "enkel de verschillende waarden overhouden", "elk element komt er maar één keer in voor"],
+                [r"\(\texttt{list}\)", "een geordende rij die je nog wil aanpassen", "geordend én aanpasbaar"],
+                [r"\(\texttt{tuple}\)", "een geordende rij die vastligt", "je kan hem achteraf niet meer wijzigen"],
+                [r"\(\texttt{set}\)", "enkel de verschillende waarden overhouden", "elk element komt er maar één keer in voor"],
                 ["dictionary, in het Nederlands een woordenboek", "paren van een sleutel en een waarde", "je zoekt iets op met de sleutel"],
             ])),
             ("p", "<strong>Een list en een tuple zijn allebei geordend; alleen de tuple ligt vast.</strong> "
-                  "<strong>Een set kan hetzelfde element niet twee keer bevatten</strong>: steek je de "
-                  "getallen één, twee, twee en drie erin, dan blijven er <strong>drie</strong> elementen "
-                  "over. Dubbels eruit halen is precies waar een set voor dient."),
+                  "<strong>Een set kan hetzelfde element niet twee keer bevatten</strong>: steek je "
+                  "\\(\\texttt{[1, 2, 2, 3, 3, 3]}\\) erin, dan telt die set nog <strong>\\(3\\) "
+                  "elementen</strong>. Dubbels eruit halen is precies waar een set voor dient."),
         ]),
-        dict(kop="Algoritmische technieken", blokken=[
+        dict(kop="Recursie", blokken=[
             ("p", "<strong>Recursie is een functie die zichzelf oproept</strong>, waarbij het probleem "
-                  "telkens een beetje kleiner wordt tot het vanzelf oplosbaar is. <strong>Elke recursieve "
-                  "functie heeft een geval nodig waarin ze zichzelf niet meer oproept</strong>, een "
-                  "stopgeval. <strong>Zonder dat blijft ze zichzelf oproepen tot het programma "
-                  "vastloopt</strong>, en geeft Python een foutmelding omdat de oproepen te diep gaan."),
+                  "telkens een beetje kleiner wordt tot het vanzelf oplosbaar is. De faculteit schrijf je "
+                  "zo: \\(n! = n \\cdot (n-1)!\\), en de rij van Fibonacci zo: "
+                  "\\(F(n) = F(n-1) + F(n-2)\\)."),
+            ("p", "<strong>Elke recursieve functie heeft een geval nodig waarin ze zichzelf niet meer "
+                  "oproept</strong>, een stopgeval: \\(0! = 1\\) bij de faculteit, \\(F(0) = 0\\) en "
+                  "\\(F(1) = 1\\) bij Fibonacci. <strong>Zonder dat blijft ze zichzelf oproepen tot het "
+                  "programma vastloopt</strong>, en geeft Python een foutmelding omdat de oproepen te diep "
+                  "gaan."),
+        ]),
+        dict(kop="Verdeel-en-heers", blokken=[
             ("p", "<strong>Verdeel-en-heers</strong> is de techniek waarbij je <strong>een probleem "
                   "opsplitst in kleinere deelproblemen en de deeloplossingen daarna samenvoegt</strong>. "
-                  "Sorteren doe je zo: splits de lijst in twee, sorteer elke helft en voeg ze samen. Moet "
-                  "je in een <strong>gesorteerde lijst van duizend getallen</strong> nagaan of een getal "
-                  "erin staat, dan is de slimste aanpak <strong>telkens de helft wegnemen</strong>: tien "
-                  "stappen volstaan dan."),
-            ("p", "<strong>Bij dynamisch programmeren bewaar je tussenresultaten zodat je ze niet twee "
-                  "keer hoeft te berekenen.</strong> Bij de rij van Fibonacci scheelt dat het verschil "
-                  "tussen een seconde en een eeuwigheid. Het <strong>kost meer geheugen maar wint "
-                  "tijd</strong>."),
+                  "Sorteren doe je zo: splits de lijst in twee, sorteer elke helft en voeg ze samen."),
+            ("p", "Moet je in een <strong>gesorteerde</strong> rij nagaan of een getal erin staat, dan "
+                  "kijk je in het midden en gooi je <strong>de helft die niet kan kloppen</strong> meteen "
+                  "weg. Van \\(16\\) getallen blijven er zo \\(8\\) over, dan \\(4\\), dan \\(2\\), dan "
+                  "\\(1\\): \\(4\\) stappen, want \\(2^{4} = 16\\). Bij \\(1000\\) getallen zijn dat er "
+                  "hoogstens \\(10\\), want \\(2^{10} = 1024\\); van voor naar achter doorlopen zou er "
+                  "\\(1000\\) vragen."),
+            ("fig", svg.halveren(),
+             "Elke stap valt de helft van de getallen weg. Na vier stappen blijft er nog één over."),
         ]),
-        dict(kop="Correctheid, eindigheid en vergelijken", blokken=[
+        dict(kop="Dynamisch programmeren", blokken=[
+            ("p", "<strong>Bij dynamisch programmeren bewaar je tussenresultaten zodat je ze niet twee "
+                  "keer hoeft te berekenen.</strong> Reken je \\(F(n) = F(n-1) + F(n-2)\\) recursief "
+                  "uit, dan vraag je dezelfde waarden telkens opnieuw."),
+            ("fig", svg.recursieboom(),
+             "De oproepen voor \\(F(4)\\). De gekleurde knopen worden meer dan één keer berekend."),
+            ("p", "Bewaar je elke waarde zodra je ze kent, dan <strong>kost dat meer geheugen maar "
+                  "wint het tijd</strong>: bij Fibonacci scheelt dat een seconde tegenover een "
+                  "eeuwigheid."),
+        ]),
+        dict(kop="Correctheid en eindigheid", blokken=[
             ("p", "<strong>Een algoritme is correct als het voor elke toegelaten invoer het juiste antwoord "
                   "geeft</strong>, niet alleen voor de gevallen die je toevallig uitprobeerde. <strong>Het "
-                  "is eindig als het na een eindig aantal stappen stopt.</strong> <strong>Je "
-                  "beargumenteert de eindigheid omdat een programma dat blijft lopen niets oplost</strong>, "
-                  "ook al klopt elke stap: bij een lus toon je dat de voorwaarde ooit vals wordt, bij "
-                  "recursie dat je het stopgeval altijd bereikt."),
+                  "is eindig als het na een eindig aantal stappen stopt.</strong>"),
+            ("p", "<strong>Je beargumenteert de eindigheid omdat een programma dat blijft lopen niets "
+                  "oplost</strong>, ook al klopt elke stap: bij een lus toon je dat de voorwaarde ooit vals "
+                  "wordt, bij recursie dat je het stopgeval altijd bereikt."),
+        ]),
+        dict(kop="Twee oplossingen vergelijken", blokken=[
             ("p", "<strong>Twee oplossingen voor hetzelfde probleem vergelijk je op snelheid, "
                   "geheugengebruik en gedrag bij veel gegevens.</strong> <strong>Twee algoritmen die "
                   "hetzelfde antwoord geven, zijn daarom nog niet even snel</strong>: het ene kan duizend "
-                  "keer trager zijn. Een oplossing die bij tien getallen vlot werkt, kan bij een miljoen "
-                  "getallen onbruikbaar worden."),
+                  "keer trager zijn."),
+            ("p", "Je schrijft dat kort op met \\(O(\\ldots)\\): \\(O(n)\\) betekent dat het aantal "
+                  "stappen meegroeit met \\(n\\), \\(O(n^{2})\\) dat het veel sneller stijgt dan \\(n\\), "
+                  "en \\(O(\\log n)\\) dat het nauwelijks stijgt. Bij \\(n = 1000\\) is dat \\(1000\\) "
+                  "tegenover \\(1\\,000\\,000\\) tegenover \\(10\\) stappen. Een oplossing die bij "
+                  "\\(10\\) getallen vlot werkt, kan bij een miljoen getallen onbruikbaar worden."),
+            ("weetje", "Zoeken in een gesorteerde rij is \\(O(\\log n)\\), precies omdat je elke stap de "
+                       "helft weggooit. Dat is waarom een telefoonboek van een miljoen namen je toch maar "
+                       "twintig keer laat bladeren."),
         ]),
         dict(kop="Bestanden en bibliotheken", blokken=[
             ("p", "Naast een gewoon tekstbestand lees je ook <strong>CSV</strong>-bestanden in en schrijf "
                   "je ze weg: bestanden waarin de waarden door komma's of puntkomma's gescheiden staan, "
                   "zoals een tabel."),
-            ("p", "<strong>Je mag matplotlib, numpy en random gebruiken</strong>, en geen andere, tenzij "
-                  "de opdracht er uitdrukkelijk een vermeldt en toelicht. <strong>Matplotlib dient om "
-                  "grafieken te tekenen</strong> van je gegevens, <strong>numpy om vlot met grote rijen "
-                  "getallen te rekenen</strong> (veel sneller dan met een lus over een gewone list), en "
-                  "<strong>random om toevalsgetallen te laten genereren</strong>, handig voor een simulatie."),
+            ("p", "<strong>Je mag \\(\\texttt{matplotlib}\\), \\(\\texttt{numpy}\\) en "
+                  "\\(\\texttt{random}\\) gebruiken</strong>: een andere bibliotheek importeren mag "
+                  "op het examen niet, tenzij de opdracht er uitdrukkelijk een vermeldt en toelicht. <strong>Matplotlib dient om grafieken te "
+                  "tekenen</strong> van je gegevens, <strong>numpy om vlot met grote rijen getallen te "
+                  "rekenen</strong> (veel sneller dan met een lus over een gewone list), en "
+                  "<strong>random om toevalsgetallen te laten genereren</strong>, handig voor een "
+                  "simulatie van dobbelstenen of van een steekproef."),
+        ]),
+        dict(kop="Numerieke methoden", blokken=[
             ("p", "<strong>Een numerieke methode is een manier om een antwoord te benaderen met "
                   "rekenstappen.</strong> Je krijgt geen exacte formule maar een benadering, die je zo "
-                  "nauwkeurig maakt als je wil. Zo <strong>benader je een bepaalde integraal door de "
-                  "oppervlakte van heel veel smalle stroken op te tellen</strong>: precies de Riemannsom, "
-                  "maar dan door de computer uitgevoerd."),
+                  "nauwkeurig maakt als je wil."),
+            ("kader", "Een bepaalde integraal benader je met de Riemannsom: "
+                      "\\[\\int_{a}^{b} f(x) \\, dx \\approx \\sum_{i=1}^{n} f(x_{i}) \\cdot \\Delta x "
+                      "\\quad \\text{met} \\quad \\Delta x = \\frac{b-a}{n}\\]"),
+            ("p", "Je telt dus <strong>de oppervlakte van heel veel smalle stroken</strong> op. Hoe groter "
+                  "\\(n\\), hoe smaller elke strook en hoe beter de benadering. De computer doet dat werk "
+                  "in een lus."),
         ]),
     ],
     onthoud=[
@@ -2898,10 +2938,10 @@ BUNDELS["programmeren-algoritmen-en-structuren-beyond"] = dict(
         "Vier stappen: analyseren, een algoritme ontwerpen, programmeren, en testen en debuggen.",
         "De bouwstenen zijn variabele, constante, conditie, iteratie en functie.",
         "Een list is aanpasbaar, een tuple ligt vast, een set bevat elk element maar één keer.",
-        "Elke recursieve functie heeft een stopgeval nodig waarin ze zichzelf niet meer oproept.",
+        r"Elke recursieve functie heeft een stopgeval nodig: \(0! = 1\), of \(F(0) = 0\) en \(F(1) = 1\).",
         "Verdeel-en-heers splitst een probleem in kleinere deelproblemen en voegt de deeloplossingen samen.",
         "Bij dynamisch programmeren bewaar je tussenresultaten: het kost meer geheugen maar wint tijd.",
         "Correct is het juiste antwoord voor elke toegelaten invoer; eindig is stoppen na eindig veel stappen.",
-        "Je mag matplotlib, numpy en random gebruiken; andere alleen als de opdracht er uitdrukkelijk een vermeldt.",
+        r"Je mag \(\texttt{matplotlib}\), \(\texttt{numpy}\) en \(\texttt{random}\) gebruiken, en geen andere.",
     ],
 )

@@ -9713,3 +9713,59 @@ def normaalvector(breedte=470):
     d.append(f'<circle cx="{mx:.1f}" cy="{my:.1f}" r="3" fill="{INK}"/>')
     d.append(_tekst(ox + 122 * schaal + 4, oy + 66 * schaal, "α", 12.5, FOREST, "start", True))
     return _svg(breedte, h, "\n".join(d))
+
+
+def halveren(breedte=470):
+    r"""Zoeken in een gesorteerde rij van zestien: elke stap valt de helft weg."""
+    cel, ox = 22.0, 58.0
+    h = 236
+    rijen = [(16, "start"), (8, "stap 1"), (4, "stap 2"), (2, "stap 3"), (1, "stap 4")]
+    # welke cellen nog in beeld zijn, telkens de rechterhelft van de vorige
+    bereiken = [(0, 16), (8, 16), (12, 16), (14, 16), (15, 16)]
+    d = []
+    for r, ((aantal, naam), (van, tot)) in enumerate(zip(rijen, bereiken)):
+        y = 36 + r * 36
+        for i in range(16):
+            x = ox + i * cel
+            actief = van <= i < tot
+            laatst = r == len(rijen) - 1
+            if actief and laatst:
+                vul, rand = AMBER, AMBER
+            elif actief:
+                vul, rand = FOREST, FOREST
+            else:
+                vul, rand = "none", BORDER
+            op = ' fill-opacity="0.16"' if vul != "none" else ""
+            d.append(f'<rect x="{x:.1f}" y="{y}" width="{cel:.1f}" height="22" rx="3" '
+                     f'fill="{vul}"{op} stroke="{rand}" stroke-width="1.1"/>')
+        d.append(_tekst(52, y + 15, str(aantal), 10.5, DIM, "end"))
+        d.append(_tekst(ox + 16 * cel + 10, y + 15, naam, 10, DIM, "start"))
+    d.append(_tekst(52, 26, "nog", 9.5, DIM, "end"))
+    d.append(_tekst(ox + 16 * cel + 10, 26, "wanneer", 9.5, DIM, "start"))
+    return _svg(breedte, h, "".join(d))
+
+
+def recursieboom(breedte=470):
+    r"""De oproepen die nodig zijn om F(4) recursief uit te rekenen."""
+    h = 188
+    knopen = [
+        (235, 26, "F(4)", False),
+        (140, 68, "F(3)", False), (355, 68, "F(2)", True),
+        (85, 110, "F(2)", True), (195, 110, "F(1)", True),
+        (310, 110, "F(1)", True), (400, 110, "F(0)", True),
+        (50, 152, "F(1)", True), (120, 152, "F(0)", True),
+    ]
+    lijnen = [(0, 1), (0, 2), (1, 3), (1, 4), (2, 5), (2, 6), (3, 7), (3, 8)]
+    r = 17
+    d = []
+    for a, b in lijnen:
+        x1, y1 = knopen[a][0], knopen[a][1] + r
+        x2, y2 = knopen[b][0], knopen[b][1] - r
+        d.append(f'<line x1="{x1}" y1="{y1}" x2="{x2}" y2="{y2}" '
+                 f'stroke="{BORDER}" stroke-width="1.4"/>')
+    for x, y, naam, dubbel in knopen:
+        kleur = AMBER if dubbel else FOREST
+        d.append(f'<circle cx="{x}" cy="{y}" r="{r}" fill="{kleur}" fill-opacity="0.14" '
+                 f'stroke="{kleur}" stroke-width="1.6"/>')
+        d.append(_tekst(x, y + 4, naam, 10.5, DARK if not dubbel else AMBER, "middle", True))
+    return _svg(breedte, h, "".join(d))

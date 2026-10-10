@@ -1,10 +1,14 @@
 # -*- coding: utf-8 -*-
-"""Programmeren: algoritmen, datastructuren en Python.
+r"""Programmeren: algoritmen, datastructuren en Python.
 
 Het derde onderdeel van fiche G3, goed voor twintig procent van dat examen.
 Het examen zelf is een programmeeropdracht in Python, dus deze vragen gaan
 over de woorden en de keuzes die je daarbij maakt, niet over code uit het
 hoofd leren.
+
+Sleutelwoorden en stukjes code staan in \(\texttt{...}\), zodat je ze op het
+scherm ziet staan zoals in een programma. Waar er echte wiskunde bij hoort
+(de rij van Fibonacci, een Riemannsom, \(O(n)\)), staat die in notatie.
 
 Deel 1 is de basis: wat een algoritme is, de bouwstenen van een programma en
 de vier datastructuren met hun verschillen.
@@ -35,7 +39,7 @@ DEEL1 = [
             "een voorwaarde waaraan de gegevens moeten voldoen",
         ],
         antwoord=0,
-        uitleg="Je geeft hem een naam en zet er een waarde in. Later kan je die waarde overschrijven.",
+        uitleg=r"Na \(\texttt{n = 5}\) staat er een \(5\) achter de naam \(\texttt{n}\). Schrijf je later \(\texttt{n = 7}\), dan is die waarde overschreven.",
     ),
     dict(
         type="invultekst",
@@ -51,27 +55,27 @@ DEEL1 = [
     ),
     dict(
         type="meerkeuze",
-        vraag="Wat doet een conditie in een programma?",
+        vraag=r"Welk sleutelwoord laat een stuk code alleen lopen als een voorwaarde waar is?",
         opties=[
-            "ze laat een stuk code alleen lopen als iets waar is",
-            "ze herhaalt een stuk code een aantal keer na elkaar",
-            "ze bewaart een waarde onder een gekozen naam",
-            "ze roept een stuk code op dat elders staat",
+            r"\(\texttt{if}\)",
+            r"\(\texttt{for}\)",
+            r"\(\texttt{def}\)",
+            r"\(\texttt{return}\)",
         ],
         antwoord=0,
-        uitleg="In Python is dat de constructie met als en anders.",
+        uitleg=r"Dat is de conditie. Wat er moet gebeuren als de voorwaarde niet geldt, zet je achter \(\texttt{else}\).",
     ),
     dict(
         type="meerkeuze",
-        vraag="Wat is een iteratie?",
+        vraag="Welke twee sleutelwoorden schrijven een herhaling?",
         opties=[
-            "een herhaling van hetzelfde stuk code",
-            "een keuze tussen twee stukken code",
-            "een naam voor een waarde die vastligt",
-            "een functie die zichzelf opnieuw oproept",
+            r"\(\texttt{for}\) en \(\texttt{while}\)",
+            r"\(\texttt{if}\) en \(\texttt{else}\)",
+            r"\(\texttt{def}\) en \(\texttt{return}\)",
+            r"\(\texttt{try}\) en \(\texttt{except}\)",
         ],
         antwoord=0,
-        uitleg="Een lus, bijvoorbeeld over alle elementen van een lijst of zolang een voorwaarde geldt.",
+        uitleg=r"Met \(\texttt{for}\) loop je over alle elementen van een rij, met \(\texttt{while}\) herhaal je zolang een voorwaarde geldt.",
     ),
     dict(
         type="waarofniet",
@@ -87,25 +91,25 @@ DEEL1 = [
     ),
     dict(
         type="meerkeuze",
-        vraag="Wat is het verschil tussen een list en een tuple?",
+        vraag=r"Wat is het verschil tussen een \(\texttt{list}\) en een \(\texttt{tuple}\)?",
         opties=[
-            "een tuple kan je achteraf niet meer wijzigen",
-            "een tuple kan maar twee elementen bevatten",
-            "een tuple bewaart de volgorde niet van de elementen",
-            "een tuple kan geen getallen bevatten, enkel tekst",
+            r"een \(\texttt{tuple}\) kan je achteraf niet meer wijzigen",
+            r"een \(\texttt{tuple}\) kan maar twee elementen bevatten",
+            r"een \(\texttt{tuple}\) bewaart de volgorde van de elementen niet",
+            r"een \(\texttt{tuple}\) kan geen getallen bevatten, enkel tekst",
         ],
         antwoord=0,
         uitleg="Allebei geordend, maar een list pas je aan en een tuple ligt vast zodra hij bestaat.",
     ),
     dict(
         type="waarofniet",
-        vraag="Een set kan hetzelfde element twee keer bevatten.",
+        vraag=r"Een \(\texttt{set}\) kan hetzelfde element twee keer bevatten.",
         antwoord=False,
         uitleg="Elk element komt er juist één keer in voor. Dubbels verdwijnen vanzelf.",
     ),
     dict(
         type="meerkeuze",
-        vraag="Waarvoor kies je een set?",
+        vraag=r"Waarvoor kies je een \(\texttt{set}\)?",
         opties=[
             "als je enkel de verschillende waarden wil overhouden",
             "als je de volgorde van de gegevens wil bewaren",
@@ -117,9 +121,9 @@ DEEL1 = [
     ),
     dict(
         type="invultekst",
-        vraag="Je steekt de getallen één, twee, twee en drie in een set. Hoeveel elementen bevat die set? Schrijf het cijfer.",
+        vraag=r"Je steekt \(\texttt{[1, 2, 2, 3, 3, 3]}\) in een set. Hoeveel elementen telt die set? Schrijf het cijfer.",
         antwoord=["3", "drie"],
-        uitleg="De tweede twee verdwijnt, want in een set staat elk element maar één keer.",
+        uitleg="Elke waarde blijft maar één keer over, dus er blijven er drie staan.",
     ),
     dict(
         type="meerkeuze",
@@ -131,7 +135,7 @@ DEEL1 = [
             "omdat je anders geen commentaar meer mag toevoegen",
         ],
         antwoord=0,
-        uitleg="De computer kan het niets schelen, maar een lezer wel, en dat telt mee in de beoordeling.",
+        uitleg=r"\(\texttt{aantal\_leerlingen}\) zegt iets, \(\texttt{a}\) niet. De computer kan het niets schelen, een lezer wel, en dat telt mee in de beoordeling.",
     ),
     dict(
         type="waarofniet",
@@ -153,7 +157,7 @@ DEEL1 = [
     ),
     dict(
         type="meerkeuze",
-        vraag="Waarvoor dient een functie in een programma?",
+        vraag=r"Waarvoor dient \(\texttt{def}\) in een programma?",
         opties=[
             "om een stuk code een naam te geven en te hergebruiken",
             "om de gegevens van het programma ergens in op te slaan",
@@ -161,7 +165,7 @@ DEEL1 = [
             "om de volgorde van de gegevens vast te leggen",
         ],
         antwoord=0,
-        uitleg="Je schrijft het één keer en roept het daarna zo vaak op als je wil, telkens met andere waarden.",
+        uitleg=r"Je schrijft een functie één keer en roept ze daarna zo vaak op als je wil. Wat ze teruggeeft, zet je achter \(\texttt{return}\).",
     ),
     dict(
         type="waarofniet",
@@ -179,10 +183,10 @@ DEEL1 = [
         type="meerkeuze",
         vraag="Je wil een geordende rij getallen bijhouden die je nog gaat aanpassen. Wat kies je?",
         opties=[
-            "een list",
-            "een tuple",
-            "een set",
-            "een string",
+            r"een \(\texttt{list}\)",
+            r"een \(\texttt{tuple}\)",
+            r"een \(\texttt{set}\)",
+            r"een \(\texttt{string}\)",
         ],
         antwoord=0,
         uitleg="Geordend én aanpasbaar, dat is precies een list. Een tuple ligt vast en een set is niet geordend.",
@@ -197,7 +201,7 @@ DEEL1 = [
             "omdat de opdracht altijd randgevallen bevat",
         ],
         antwoord=0,
-        uitleg="Een lege lijst, één element, een nul, een negatief getal: dat is waar een programma struikelt.",
+        uitleg=r"Een lege lijst, \(1\) element, een \(0\), een negatief getal: dat is waar een programma struikelt.",
     ),
 ]
 
@@ -212,7 +216,7 @@ DEEL2 = [
             "een gegeven dat zichzelf blijft herhalen",
         ],
         antwoord=0,
-        uitleg="Het probleem wordt telkens een beetje kleiner tot het vanzelf oplosbaar is.",
+        uitleg=r"De faculteit schrijf je zo: \(n! = n \cdot (n-1)!\), met \(0! = 1\) als stopgeval.",
     ),
     dict(
         type="meerkeuze",
@@ -224,7 +228,7 @@ DEEL2 = [
             "minstens twee verschillende startwaarden om te werken",
         ],
         antwoord=0,
-        uitleg="Zonder zo'n stopgeval blijft ze zichzelf oproepen tot het programma vastloopt.",
+        uitleg=r"Bij \(F(n) = F(n-1) + F(n-2)\) zijn dat \(F(0) = 0\) en \(F(1) = 1\). Zonder stopgeval loopt het programma vast.",
     ),
     dict(
         type="invultekst",
@@ -236,7 +240,7 @@ DEEL2 = [
         type="waarofniet",
         vraag="Bij dynamisch programmeren bewaar je tussenresultaten zodat je ze niet twee keer hoeft te berekenen.",
         antwoord=True,
-        uitleg="Bij de rij van Fibonacci scheelt dat het verschil tussen een seconde en een eeuwigheid.",
+        uitleg=r"Reken je \(F(n) = F(n-1) + F(n-2)\) recursief uit zonder iets te bewaren, dan bereken je \(F(5)\) acht keer opnieuw.",
     ),
     dict(
         type="meerkeuze",
@@ -278,7 +282,7 @@ DEEL2 = [
         type="meerkeuze",
         vraag="Welke bibliotheken mag je op het examen gebruiken?",
         opties=[
-            "matplotlib, numpy en random",
+            r"\(\texttt{matplotlib}\), \(\texttt{numpy}\) en \(\texttt{random}\)",
             "alle bibliotheken die bij Python horen",
             "enkel numpy, en verder geen enkele andere",
             "geen enkele, je schrijft alles helemaal zelf",
@@ -290,11 +294,11 @@ DEEL2 = [
         type="waarofniet",
         vraag="Je mag op het examen om het even welke bibliotheek importeren.",
         antwoord=False,
-        uitleg="Enkel matplotlib, numpy en random, of wat de opdracht zelf aanreikt.",
+        uitleg=r"Enkel \(\texttt{matplotlib}\), \(\texttt{numpy}\) en \(\texttt{random}\), of wat de opdracht zelf aanreikt.",
     ),
     dict(
         type="meerkeuze",
-        vraag="Waarvoor gebruik je matplotlib?",
+        vraag=r"Waarvoor gebruik je \(\texttt{matplotlib}\)?",
         opties=[
             "om grafieken te tekenen van je gegevens",
             "om snel met grote rijen getallen te rekenen",
@@ -312,15 +316,15 @@ DEEL2 = [
     ),
     dict(
         type="meerkeuze",
-        vraag="Waarop vergelijk je twee oplossingen voor hetzelfde probleem?",
+        vraag=r"De ene oplossing doet \(O(n)\) stappen, de andere \(O(n^{2})\). Wat betekent dat?",
         opties=[
-            "op snelheid, geheugengebruik en gedrag bij veel gegevens",
-            "op het aantal regels code dat ze nodig hebben",
-            "op het aantal functies dat erin gebruikt wordt en hoe lang ze zijn",
-            "op de bibliotheken die ze allebei importeren",
+            r"de tweede loopt steeds trager naarmate \(n\) groter wordt",
+            r"de tweede loopt steeds sneller naarmate \(n\) groter wordt",
+            r"ze zijn even traag, want \(n\) is in allebei hetzelfde",
+            r"de tweede gebruikt meer geheugen, maar niet meer tijd",
         ],
         antwoord=0,
-        uitleg="Een oplossing die bij tien getallen vlot werkt, kan bij een miljoen getallen onbruikbaar worden.",
+        uitleg=r"Bij \(n = 1000\) is dat \(1000\) tegenover \(1\,000\,000\) stappen. Je vergelijkt oplossingen op snelheid, geheugen en gedrag bij veel gegevens.",
     ),
     dict(
         type="waarofniet",
@@ -342,21 +346,21 @@ DEEL2 = [
     ),
     dict(
         type="meerkeuze",
-        vraag="Hoe benader je met een programma een bepaalde integraal?",
+        vraag=r"Je laat een programma \(\int_{a}^{b} f(x) \, dx\) benaderen. Wat laat je het berekenen?",
         opties=[
-            "je telt de oppervlakte van heel veel smalle stroken op",
-            "je zoekt eerst met de computer een primitieve functie",
-            "je tekent de grafiek en meet de oppervlakte op het scherm",
-            "je berekent de afgeleide in een groot aantal punten",
+            r"\(\sum_{i=1}^{n} f(x_{i}) \cdot \Delta x\) met \(\Delta x = \tfrac{b-a}{n}\)",
+            r"\(\sum_{i=1}^{n} f(x_{i})\), zonder de breedte van de stroken",
+            r"\(\tfrac{f(b) - f(a)}{b - a}\), het gemiddelde verschil",
+            r"\(f'(x_{i})\) in \(n\) punten na elkaar, en dan de som",
         ],
         antwoord=0,
-        uitleg="Precies de Riemannsom, maar dan door de computer uitgevoerd met heel veel stroken.",
+        uitleg=r"Dat is de Riemannsom: heel veel smalle stroken optellen. Hoe groter \(n\), hoe beter de benadering.",
     ),
     dict(
         type="waarofniet",
         vraag="Dynamisch programmeren kost meer geheugen maar wint tijd.",
         antwoord=True,
-        uitleg="Je bewaart tussenresultaten, en dat nemen plaats in. In ruil hoef je niets twee keer te berekenen.",
+        uitleg="Je bewaart tussenresultaten, en die nemen plaats in. In ruil hoef je niets twee keer te berekenen.",
     ),
     dict(
         type="invultekst",
@@ -378,14 +382,14 @@ DEEL2 = [
     ),
     dict(
         type="meerkeuze",
-        vraag="Je moet in een gesorteerde lijst van duizend getallen nagaan of een getal erin staat. Wat is de slimste aanpak?",
+        vraag=r"In een gesorteerde lijst van \(1000\) getallen zoek je telkens verder in de helft die nog kan kloppen. Hoeveel stappen heb je hoogstens nodig?",
         opties=[
-            "telkens de helft wegnemen tot je het getal vindt",
-            "de lijst van voor naar achter helemaal doorlopen",
-            "de lijst eerst nog eens opnieuw laten sorteren",
-            "alle getallen in een set steken en die doorlopen",
+            r"\(10\)",
+            r"\(100\)",
+            r"\(500\)",
+            r"\(1000\)",
         ],
         antwoord=0,
-        uitleg="Dat is verdeel-en-heers: in de helft kijken en de helft die niet kan kloppen meteen weggooien. Tien stappen volstaan dan.",
+        uitleg=r"Elke stap halveert: \(2^{10} = 1024 > 1000\), dus \(10\) stappen volstaan. Van voor naar achter doorlopen zou er \(1000\) vragen.",
     ),
 ]
