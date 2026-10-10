@@ -177,16 +177,16 @@ DEEL1 = [
     ),
     dict(
         type="meerkeuze",
-        vraag="Je meet de valtijd van een bal vanaf verschillende hoogtes. Wat zet je op de horizontale as?",
+        vraag=r"Je meet de valtijd \(t\) van een bal vanaf verschillende hoogtes \(h\). Wat zet je op de horizontale as?",
         opties=[
-            "de hoogte, want die kies je zelf",
-            "de valtijd, want die meet je",
+            r"de hoogte \(h\), want die kies je zelf",
+            r"de valtijd \(t\), want die meet je",
             "de massa van de bal, want die blijft gelijk",
             "het nummer van de meting, want dat loopt op",
         ],
         antwoord=0,
-        uitleg="De grootheid die jij instelt, komt op de horizontale as. Wat je daarbij "
-        "meet, komt op de verticale.",
+        uitleg=r"De grootheid die jij instelt, komt op de horizontale as, dus tekenen we "
+        r"\(t(h)\). Wat je daarbij meet, komt op de verticale.",
     ),
     dict(
         type="waarofniet",
@@ -371,9 +371,9 @@ DEEL2 = [
     ),
     dict(
         type="meerkeuze",
-        vraag="Je moet een koeltas ontwerpen die een drankje vier uur koel houdt. Wat is daarin een criterium?",
+        vraag=r"Je moet een koeltas ontwerpen die een drankje \(4\) h koel houdt. Wat is daarin een criterium?",
         opties=[
-            "de temperatuur mag na vier uur niet boven acht graden zijn",
+            r"de temperatuur blijft na \(4\) h onder \(8\ ^\circ\text{C}\)",
             "de koeltas moet mooi en opvallend zijn",
             "de koeltas moet uit karton gemaakt worden",
             "de koeltas moet snel en zonder gereedschap in elkaar gezet zijn",
@@ -458,8 +458,8 @@ DEEL2 = [
             "het foto-elektrisch effect bij een metaaloppervlak",
         ],
         antwoord=0,
-        uitleg="Je kijkt waar de krachten samenkomen en waar het koppel het grootst is. Daar "
-        "versterk je de constructie.",
+        uitleg=r"Je kijkt waar de krachten samenkomen, \(\sum \vec{F} = \vec{0}\), en waar "
+        r"het moment \(M = F\,d\) het grootst is. Daar versterk je de constructie.",
     ),
     dict(
         type="waarofniet",

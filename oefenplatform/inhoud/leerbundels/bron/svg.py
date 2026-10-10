@@ -8412,3 +8412,141 @@ def doordringend(breedte=470):
     d.append(_tekst(breedte / 2, h - 8, "elke soort raakt tot een andere muur",
                     9, DIM, "middle"))
     return _svg(breedte, h, "\n".join(d))
+
+
+def voorvoegsels(breedte=470):
+    r"""De SI-voorvoegsels van giga tot nano op één lijn, met hun macht van tien."""
+    rijen = (("G", "10⁹", "giga"), ("M", "10⁶", "mega"), ("k", "10³", "kilo"),
+             ("1", "10⁰", "eenheid"), ("m", "10⁻³", "milli"),
+             ("µ", "10⁻⁶", "micro"), ("n", "10⁻⁹", "nano"))
+    h = 122
+    m = 26
+    y = 58
+    stap = (breedte - 2 * m) / (len(rijen) - 1)
+    d = [f'<line x1="{m}" y1="{y}" x2="{breedte-m}" y2="{y}" stroke="{BORDER}" '
+         f'stroke-width="1.6"/>']
+    for i, (teken, macht, naam) in enumerate(rijen):
+        x = m + i * stap
+        midden = teken == "1"
+        vul = AMBER if midden else FOREST
+        d.append(f'<rect x="{x-16:.1f}" y="{y-17}" width="32" height="34" rx="9" '
+                 f'fill="#ffffff" stroke="{vul}" stroke-width="1.8"/>')
+        d.append(_tekst(x, y + 5, teken, 14, vul, "middle", True))
+        d.append(_tekst(x, y + 34, macht, 10.5, DARK, "middle"))
+        d.append(_tekst(x, y + 49, naam, 9, DIM, "middle"))
+    d.append(f'<path d="M{m+6} 26 H{breedte-m-6} l-7 -5 m7 5 l-7 5" stroke="{DIM}" '
+             f'stroke-width="1.4" fill="none" stroke-linecap="round"/>')
+    d.append(_tekst(breedte / 2, 18, "elke stap naar rechts: duizend keer kleiner",
+                    9.5, DIM, "middle"))
+    return _svg(breedte, h, "\n".join(d))
+
+
+def parallax(breedte=470):
+    r"""Dezelfde naald recht van boven en schuin bekeken, op een analoge meter."""
+    h = 206
+    plaat = 152
+    naald_x, naald_top, naald_punt = 240, 100, 126
+    d = [f'<rect x="5" y="4" width="{breedte-10}" height="{h-26}" rx="7" '
+         f'fill="#ffffff" stroke="{BORDER}" stroke-width="1.2"/>']
+    d.append(f'<line x1="104" y1="{plaat}" x2="368" y2="{plaat}" stroke="{INK}" '
+             f'stroke-width="2"/>')
+    for k in range(11):
+        x = 110 + k * 25
+        d.append(f'<line x1="{x}" y1="{plaat}" x2="{x}" y2="{plaat-7}" stroke="{DIM}" '
+                 f'stroke-width="1.2"/>')
+    d.append(_tekst(96, plaat + 4, "schaal", 9.5, DIM, "end"))
+    d.append(f'<line x1="{naald_x}" y1="{naald_top}" x2="{naald_x}" y2="{naald_punt}" '
+             f'stroke="{FOREST}" stroke-width="3"/>')
+    d.append(_tekst(naald_x - 10, naald_top + 20, "naald", 9.5, FOREST, "end"))
+
+    # recht van boven: de blik loopt langs de naald naar de schaal
+    d.append(f'<circle cx="{naald_x}" cy="46" r="8" fill="#ffffff" stroke="{FOREST}" '
+             f'stroke-width="1.8"/>')
+    d.append(f'<circle cx="{naald_x}" cy="46" r="2.6" fill="{FOREST}"/>')
+    d.append(f'<line x1="{naald_x}" y1="56" x2="{naald_x}" y2="{plaat}" stroke="{FOREST}" '
+             f'stroke-width="1.3" stroke-dasharray="4 3"/>')
+    d.append(_tekst(naald_x - 14, 32, "recht van boven", 9.5, FOREST, "middle"))
+    d.append(f'<line x1="{naald_x}" y1="{plaat}" x2="{naald_x}" y2="{plaat+11}" '
+             f'stroke="{FOREST}" stroke-width="2.4"/>')
+    d.append(_tekst(naald_x, plaat + 26, "juist", 9.5, FOREST, "middle", True))
+
+    # schuin: dezelfde naaldpunt, maar de blik komt van rechts
+    oog_x, oog_y = 338, 52
+    rx = naald_x + (naald_x - oog_x) * (plaat - naald_punt) / (naald_punt - oog_y)
+    d.append(f'<circle cx="{oog_x}" cy="{oog_y}" r="8" fill="#ffffff" stroke="{AMBER}" '
+             f'stroke-width="1.8"/>')
+    d.append(f'<circle cx="{oog_x}" cy="{oog_y}" r="2.6" fill="{AMBER}"/>')
+    d.append(f'<line x1="{oog_x-6}" y1="{oog_y+5}" x2="{rx:.1f}" y2="{plaat}" '
+             f'stroke="{AMBER}" stroke-width="1.3" stroke-dasharray="4 3"/>')
+    d.append(_tekst(oog_x + 4, 34, "schuin", 9.5, AMBER, "middle"))
+    d.append(f'<line x1="{rx:.1f}" y1="{plaat}" x2="{rx:.1f}" y2="{plaat+11}" '
+             f'stroke="{AMBER}" stroke-width="2.4"/>')
+    d.append(_tekst(rx, plaat + 26, "te laag", 9.5, AMBER, "middle", True))
+    d.append(_tekst(breedte / 2, h - 6, "dezelfde naald, twee leesrichtingen",
+                    9, DIM, "middle"))
+    return _svg(breedte, h, "\n".join(d))
+
+
+def drieverbanden(breedte=470):
+    r"""Drie kleine grafieken naast elkaar: y = kx, y = k/x en y = kx²."""
+    h = 168
+    gap = 12
+    w = (breedte - 2 * gap) / 3
+    ox, oy = 26, 104
+    top, rechts = 26, w - 12
+    d = []
+    for i, (naam, formule) in enumerate((("recht evenredig", "y = k · x"),
+                                         ("omgekeerd evenredig", "y = k / x"),
+                                         ("kwadratisch", "y = k · x²"))):
+        X = i * (w + gap)
+        d.append(f'<rect x="{X+5}" y="6" width="{w-10:.1f}" height="{h-42}" rx="7" '
+                 f'fill="#ffffff" stroke="{BORDER}" stroke-width="1.2"/>')
+        d.append(f'<line x1="{X+ox}" y1="{top}" x2="{X+ox}" y2="{oy}" stroke="{INK}" '
+                 f'stroke-width="1.5"/>')
+        d.append(f'<line x1="{X+ox}" y1="{oy}" x2="{X+rechts:.1f}" y2="{oy}" '
+                 f'stroke="{INK}" stroke-width="1.5"/>')
+        d.append(_tekst(X + ox - 7, top + 4, "y", 9.5, DIM, "end"))
+        d.append(_tekst(X + rechts, oy + 14, "x", 9.5, DIM, "middle"))
+        punten = []
+        n = 40
+        for k in range(n + 1):
+            u = k / n
+            if i == 0:
+                v = u
+            elif i == 1:
+                u = 0.14 + u * 0.86
+                v = 0.14 / u
+            else:
+                v = u * u
+            px = X + ox + u * (rechts - ox)
+            py = oy - min(v, 1.0) * (oy - top)
+            punten.append(f"{px:.1f},{py:.1f}")
+        d.append(f'<polyline points="{" ".join(punten)}" fill="none" stroke="{FOREST}" '
+                 f'stroke-width="2.2"/>')
+        d.append(_tekst(X + w / 2, h - 22, naam, 10, DARK, "middle", True))
+        d.append(_tekst(X + w / 2, h - 8, formule, 9.5, AMBER, "middle"))
+    return _svg(breedte, h, "\n".join(d))
+
+
+def stemvierluik(breedte=470):
+    r"""De vier letters van STEM die samen op één oplossing uitkomen."""
+    h = 176
+    gap = 10
+    w = (breedte - 3 * gap) / 4
+    d = []
+    for i, (letter, woord) in enumerate((("S", "wetenschap"), ("T", "technologie"),
+                                         ("E", "engineering"), ("M", "wiskunde"))):
+        x = i * (w + gap)
+        d.append(f'<rect x="{x:.1f}" y="6" width="{w:.1f}" height="60" rx="10" '
+                 f'fill="#ffffff" stroke="{FOREST}" stroke-width="1.8"/>')
+        d.append(_tekst(x + w / 2, 32, letter, 17, FOREST, "middle", True))
+        d.append(_tekst(x + w / 2, 52, woord, 9.5, DIM, "middle"))
+        d.append(f'<line x1="{x + w/2:.1f}" y1="70" x2="{breedte/2}" y2="104" '
+                 f'stroke="{DIM}" stroke-width="1.3"/>')
+    d.append(_pijlkop(breedte / 2, 108, 1.5708, DIM, 5.0))
+    d.append(f'<rect x="{breedte/2-115}" y="116" width="230" height="40" rx="10" '
+             f'fill="#ffffff" stroke="{AMBER}" stroke-width="1.8"/>')
+    d.append(_tekst(breedte / 2, 141, "één oplossing die werkt", 11.5, AMBER, "middle", True))
+    d.append(_tekst(breedte / 2, h - 4, "elk vak brengt een stuk van het antwoord",
+                    9, DIM, "middle"))
+    return _svg(breedte, h, "\n".join(d))

@@ -4,44 +4,93 @@
  "onder": "Van een vraag naar een antwoord, en van een probleem naar een ontwerp.",
  "secties": [
   {
-   "kop": "Vraag, hypothese en plan",
+   "kop": "De stappen van een onderzoek",
    "blokken": [
     {
-     "soort": "tekst",
-     "html": "Een <strong>onderzoeksvraag</strong> is <strong>de vraag die je met je onderzoek wil beantwoorden</strong>; een <strong>hypothese</strong> is <strong>een verwachting die je vooraf opstelt en kan nagaan</strong>. De stap waarin je vastlegt hoe je je onderzoek zal uitvoeren is het <strong>onderzoeksplan</strong>."
+     "soort": "figuur",
+     "html": "<svg viewBox=\"0 0 470 76\" width=\"470\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"0.0\" y=\"6\" width=\"73.2\" height=\"62\" rx=\"10\" fill=\"#ffffff\" stroke=\"#2f5d50\" stroke-width=\"1.8\"/><text x=\"36.6\" y=\"29.0\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"11.5\" font-weight=\"600\" fill=\"#234539\">vraag</text><text x=\"36.6\" y=\"45.0\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"10\" font-weight=\"400\" fill=\"#6b7260\">wat wil ik weten</text><path d=\"M78.2 37.0 h12 m0 0 l-6 -5 m6 5 l-6 5\" stroke=\"#2f5d50\" stroke-width=\"2\" fill=\"none\" stroke-linecap=\"round\"/><rect x=\"99.2\" y=\"6\" width=\"73.2\" height=\"62\" rx=\"10\" fill=\"#ffffff\" stroke=\"#2f5d50\" stroke-width=\"1.8\"/><text x=\"135.8\" y=\"29.0\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"11.5\" font-weight=\"600\" fill=\"#234539\">hypothese</text><text x=\"135.8\" y=\"45.0\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"10\" font-weight=\"400\" fill=\"#6b7260\">wat verwacht ik</text><path d=\"M177.4 37.0 h12 m0 0 l-6 -5 m6 5 l-6 5\" stroke=\"#2f5d50\" stroke-width=\"2\" fill=\"none\" stroke-linecap=\"round\"/><rect x=\"198.4\" y=\"6\" width=\"73.2\" height=\"62\" rx=\"10\" fill=\"#ffffff\" stroke=\"#2f5d50\" stroke-width=\"1.8\"/><text x=\"235.0\" y=\"29.0\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"11.5\" font-weight=\"600\" fill=\"#234539\">plan</text><text x=\"235.0\" y=\"45.0\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"10\" font-weight=\"400\" fill=\"#6b7260\">hoe ga ik meten</text><path d=\"M276.6 37.0 h12 m0 0 l-6 -5 m6 5 l-6 5\" stroke=\"#2f5d50\" stroke-width=\"2\" fill=\"none\" stroke-linecap=\"round\"/><rect x=\"297.6\" y=\"6\" width=\"73.2\" height=\"62\" rx=\"10\" fill=\"#ffffff\" stroke=\"#2f5d50\" stroke-width=\"1.8\"/><text x=\"334.2\" y=\"29.0\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"11.5\" font-weight=\"600\" fill=\"#234539\">meten</text><text x=\"334.2\" y=\"45.0\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"10\" font-weight=\"400\" fill=\"#6b7260\">en verwerken</text><path d=\"M375.8 37.0 h12 m0 0 l-6 -5 m6 5 l-6 5\" stroke=\"#2f5d50\" stroke-width=\"2\" fill=\"none\" stroke-linecap=\"round\"/><rect x=\"396.8\" y=\"6\" width=\"73.2\" height=\"62\" rx=\"10\" fill=\"#ffffff\" stroke=\"#2f5d50\" stroke-width=\"1.8\"/><text x=\"433.4\" y=\"29.0\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"11.5\" font-weight=\"600\" fill=\"#234539\">besluit</text><text x=\"433.4\" y=\"45.0\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"10\" font-weight=\"400\" fill=\"#6b7260\">wat is het antwoord</text></svg>",
+     "onderschrift": "Elke stap steunt op de vorige, en het besluit brengt je meestal bij een nieuwe vraag."
     },
     {
      "soort": "tekst",
-     "html": "De stappen van een wetenschappelijk onderzoek: <strong>het probleem definiëren en afbakenen</strong>, <strong>een onderzoeksvraag en een hypothese opstellen</strong> en <strong>data verzamelen en analyseren</strong>."
+     "html": "Een <strong>onderzoeksvraag</strong> is de vraag die je met je onderzoek wil beantwoorden. Een <strong>hypothese</strong> is de verwachting die je vooraf opstelt en die je kan nagaan. En het <strong>onderzoeksplan</strong> is de stap waarin je vastlegt hoe je je onderzoek zal uitvoeren: welke grootheid je verandert, wat je meet en met welk toestel."
     },
     {
      "soort": "tekst",
-     "html": "Een bruikbare onderzoeksvraag voor een proef is er een als <strong>hoe hangt de periode van een slinger af van zijn lengte?</strong> <strong>Een onderzoeksvraag moet niet zo breed mogelijk opgesteld zijn</strong> maar juist scherp genoeg om te kunnen meten."
-    },
-    {
-     "soort": "tekst",
-     "html": "Over een hypothese geldt: <strong>ze wordt opgesteld voor je begint te meten</strong>, <strong>ze moet met een proef na te gaan zijn</strong> en <strong>ze kan door de resultaten weerlegd worden</strong>. Zo'n weerlegging is geen mislukking: <strong>een meting die je hypothese tegenspreekt, is een geldig resultaat</strong>."
+     "html": "Daarna komt het werk zelf: data verzamelen en analyseren. Een onderzoek begint dus niet bij het meten maar bij het probleem definiëren en afbakenen."
     }
    ]
   },
   {
-   "kop": "Meten en verwerken",
+   "kop": "Een bruikbare onderzoeksvraag",
    "blokken": [
     {
      "soort": "tekst",
-     "html": "In een proef verander je maar één grootheid tegelijk, want <strong>anders weet je niet welke verandering het verschil veroorzaakte</strong>. De grootheid die je bewust verandert heet <strong>de onafhankelijke variabele</strong>. Meet je de valtijd van een bal vanaf verschillende hoogtes, dan zet je op de horizontale as <strong>de hoogte, want die kies je zelf</strong>."
+     "html": "Een onderzoeksvraag is bruikbaar wanneer je ze met een proef kan beantwoorden. <em>Hoe hangt de periode van een slinger af van zijn lengte?</em> is zo'n vraag: je weet meteen wat je zal veranderen, de lengte, en wat je zal meten, de periode."
     },
     {
      "soort": "tekst",
-     "html": "Je herhaalt een meting meerdere keren <strong>om toevallige afwijkingen uit je resultaat te halen</strong>. Een <strong>controleproef</strong> dient <strong>om te vergelijken met een opstelling waarin je niets verandert</strong>. Met een meting die sterk van de rest afwijkt doe je dit: <strong>je zoekt de oorzaak en vermeldt wat je ermee doet</strong>, in plaats van ze stil te laten verdwijnen."
+     "html": "Een onderzoeksvraag moet dus niet zo breed mogelijk opgesteld zijn. <em>Hoe werkt zwaartekracht?</em> klinkt indrukwekkend, maar met één proef kom je er niet. Hoe scherper de vraag, hoe duidelijker het antwoord dat je er achteraf op kan geven."
+    }
+   ]
+  },
+  {
+   "kop": "Wat een hypothese moet kunnen",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Over een hypothese gelden drie uitspraken. Ze wordt opgesteld voor je begint te meten, ze moet met een proef na te gaan zijn, en ze kan door de resultaten weerlegd worden. Die laatste is de belangrijkste: een verwachting die nooit fout kan zijn, leert je niets."
     },
     {
      "soort": "tekst",
-     "html": "Een goede conclusie moet <strong>de onderzoeksvraag beantwoorden op basis van de data</strong>; <strong>een conclusie mag niet verder gaan dan wat je gemeten hebt</strong>. In een goed verslag staat <strong>welke instrumenten je gebruikt hebt</strong>, <strong>welke grootheden je constant gehouden hebt</strong> en <strong>de meetwaarden met hun eenheid</strong>."
+     "html": "Een meting die je hypothese tegenspreekt is daarom een geldig resultaat, geen mislukking. Je hebt dan iets geleerd wat je vooraf niet wist, en dat is precies waarvoor je de proef deed."
+    }
+   ]
+  },
+  {
+   "kop": "Eén grootheid tegelijk",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "In een proef verander je maar één grootheid tegelijk, anders weet je niet welke verandering het verschil veroorzaakte. De grootheid die je bewust verandert heet de <strong>onafhankelijke variabele</strong>; wat je daarbij meet is de afhankelijke."
     },
     {
      "soort": "tekst",
-     "html": "Dat een onderzoek <strong>herhaalbaar</strong> moet zijn, betekent: <strong>iemand anders moet met jouw plan hetzelfde kunnen vinden</strong>. Je laat anderen je resultaten nalezen omdat <strong>zij fouten en andere verklaringen zien die jij gemist hebt</strong>, en <strong>reflecteren over je gekozen methode hoort bij het onderzoek zelf</strong>."
+     "html": "Meet je de valtijd \\(t\\) van een bal vanaf verschillende hoogtes \\(h\\), dan zet je de hoogte op de horizontale as, want die kies je zelf. Je tekent dus \\(t(h)\\). Alle andere grootheden, zoals de massa van de bal, houd je constant."
+    }
+   ]
+  },
+  {
+   "kop": "Herhalen en vergelijken",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Je herhaalt een meting meerdere keren om toevallige afwijkingen uit je resultaat te halen. Drie metingen die binnen een paar procent bij elkaar liggen zeggen veel meer dan één enkele meting die er toevallig goed uitziet."
+    },
+    {
+     "soort": "tekst",
+     "html": "Een <strong>controleproef</strong> dient om te vergelijken met een opstelling waarin je niets verandert. Zonder dat ijkpunt weet je niet of het effect dat je ziet van jouw ingreep komt of gewoon altijd gebeurt."
+    },
+    {
+     "soort": "tekst",
+     "html": "Wijkt één meting sterk van de rest af, dan zoek je de oorzaak en vermeldt wat je ermee doet. Weglaten mag alleen met een reden die je opschrijft, bijvoorbeeld dat de chronometer te laat gestart is."
+    }
+   ]
+  },
+  {
+   "kop": "Besluiten en verslag",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Een goede conclusie beantwoordt de onderzoeksvraag op basis van de data. Ze gaat niet verder dan wat je gemeten hebt: heb je slingers tot een meter gemeten, dan zeg je niets over slingers van tien meter."
+    },
+    {
+     "soort": "tekst",
+     "html": "In een goed verslag staat welke instrumenten je gebruikt hebt, welke grootheden je constant gehouden hebt, en de meetwaarden met hun eenheid. Daarmee kan iemand anders je proef overdoen."
+    },
+    {
+     "soort": "tekst",
+     "html": "Dat is ook wat <strong>herhaalbaar</strong> betekent: iemand anders moet met jouw plan hetzelfde kunnen vinden. Je laat anderen je resultaten nalezen omdat zij fouten en andere verklaringen zien die jij gemist hebt, en reflecteren over je gekozen methode hoort bij het onderzoek zelf, niet erna."
     }
    ]
   },
@@ -49,20 +98,56 @@
    "kop": "Ontwerpen in stappen",
    "blokken": [
     {
-     "soort": "tekst",
-     "html": "De eerste stap bij het ontwerpen van een oplossing is <strong>het probleem helder definiëren</strong>. <strong>Criteria</strong> zijn <strong>de eisen waaraan je oplossing moet voldoen</strong>, en de kleinere stukken waarin je een groot probleem opsplitst zijn <strong>deelproblemen</strong>. Het geheel waarin je de oplossingen van alle deelproblemen samenbrengt is <strong>de totaaloplossing</strong>; <strong>je mag een deelprobleem niet oplossen zonder na te gaan of het in de totaaloplossing past</strong>."
+     "soort": "figuur",
+     "html": "<svg viewBox=\"0 0 470 76\" width=\"470\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"0.0\" y=\"6\" width=\"73.2\" height=\"62\" rx=\"10\" fill=\"#ffffff\" stroke=\"#2f5d50\" stroke-width=\"1.8\"/><text x=\"36.6\" y=\"29.0\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"11.5\" font-weight=\"600\" fill=\"#234539\">probleem</text><text x=\"36.6\" y=\"45.0\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"10\" font-weight=\"400\" fill=\"#6b7260\">helder definiëren</text><path d=\"M78.2 37.0 h12 m0 0 l-6 -5 m6 5 l-6 5\" stroke=\"#2f5d50\" stroke-width=\"2\" fill=\"none\" stroke-linecap=\"round\"/><rect x=\"99.2\" y=\"6\" width=\"73.2\" height=\"62\" rx=\"10\" fill=\"#ffffff\" stroke=\"#2f5d50\" stroke-width=\"1.8\"/><text x=\"135.8\" y=\"29.0\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"11.5\" font-weight=\"600\" fill=\"#234539\">criteria</text><text x=\"135.8\" y=\"45.0\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"10\" font-weight=\"400\" fill=\"#6b7260\">waaraan moet het voldoen</text><path d=\"M177.4 37.0 h12 m0 0 l-6 -5 m6 5 l-6 5\" stroke=\"#2f5d50\" stroke-width=\"2\" fill=\"none\" stroke-linecap=\"round\"/><rect x=\"198.4\" y=\"6\" width=\"73.2\" height=\"62\" rx=\"10\" fill=\"#ffffff\" stroke=\"#2f5d50\" stroke-width=\"1.8\"/><text x=\"235.0\" y=\"29.0\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"11.5\" font-weight=\"600\" fill=\"#234539\">opsplitsen</text><text x=\"235.0\" y=\"45.0\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"10\" font-weight=\"400\" fill=\"#6b7260\">in deelproblemen</text><path d=\"M276.6 37.0 h12 m0 0 l-6 -5 m6 5 l-6 5\" stroke=\"#2f5d50\" stroke-width=\"2\" fill=\"none\" stroke-linecap=\"round\"/><rect x=\"297.6\" y=\"6\" width=\"73.2\" height=\"62\" rx=\"10\" fill=\"#ffffff\" stroke=\"#2f5d50\" stroke-width=\"1.8\"/><text x=\"334.2\" y=\"29.0\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"11.5\" font-weight=\"600\" fill=\"#234539\">ontwerpen</text><text x=\"334.2\" y=\"45.0\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"10\" font-weight=\"400\" fill=\"#6b7260\">en testen</text><path d=\"M375.8 37.0 h12 m0 0 l-6 -5 m6 5 l-6 5\" stroke=\"#2f5d50\" stroke-width=\"2\" fill=\"none\" stroke-linecap=\"round\"/><rect x=\"396.8\" y=\"6\" width=\"73.2\" height=\"62\" rx=\"10\" fill=\"#ffffff\" stroke=\"#2f5d50\" stroke-width=\"1.8\"/><text x=\"433.4\" y=\"29.0\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"11.5\" font-weight=\"600\" fill=\"#234539\">bijsturen</text><text x=\"433.4\" y=\"45.0\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"10\" font-weight=\"400\" fill=\"#6b7260\">en opnieuw testen</text></svg>",
+     "onderschrift": "De laatste stap wijst terug naar de vorige: testen en bijsturen gaan een paar keer rond."
     },
     {
      "soort": "tekst",
-     "html": "Bij een probleemoplossende strategie horen <strong>het probleem definiëren</strong>, <strong>criteria voor de oplossing opstellen</strong> en <strong>het probleem in deelproblemen splitsen</strong>. Voldoet je ontwerp niet aan een criterium, dan <strong>stuur je het ontwerp bij en test opnieuw</strong>; en ook nadat je een gegeven oplossing geëvalueerd hebt, <strong>stuur je ze bij waar ze de criteria niet haalt</strong>. <strong>Bij een ontwerp volstaat het soms om een bestaand systeem aan te passen</strong>."
+     "html": "De eerste stap bij het ontwerpen van een oplossing is het probleem helder definiëren. Pas daarna stel je <strong>criteria</strong> op: de eisen waaraan je oplossing moet voldoen. Die drie stappen samen, het probleem definiëren, criteria opstellen en het probleem in deelproblemen splitsen, vormen een probleemoplossende strategie."
+    }
+   ]
+  },
+  {
+   "kop": "Criteria zijn meetbaar",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Een criterium is meetbaar, zodat je achteraf kan nagaan of je het haalt. Moet je een koeltas ontwerpen die een drankje \\(4\\) h koel houdt, dan is <em>de temperatuur blijft na \\(4\\) h onder \\(8\\ ^\\circ\\text{C}\\)</em> een criterium. <em>Mooi en opvallend</em> is dat niet: dat is een mening."
     },
     {
      "soort": "tekst",
-     "html": "Vragen die je helpen een ontwerp te evalueren: <strong>haalt het elk criterium dat we opgesteld hebben?</strong>, <strong>waar zit de zwakste schakel in het geheel?</strong> en <strong>wat zou de volgende versie beter doen?</strong>"
+     "html": "De fysicakennis die bij die koeltas helpt, is hoe warmte zich door geleiding, stroming en straling verplaatst. Je houdt alle drie die wegen tegen, zoals in een thermosfles: een spiegelende laag in de wand kaatst de straling terug."
+    }
+   ]
+  },
+  {
+   "kop": "Deelproblemen en de totaaloplossing",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "De kleinere stukken waarin je een groot probleem opsplitst heten <strong>deelproblemen</strong>, soms ook subproblemen genoemd. Het geheel waarin je de oplossingen van alle deelproblemen samenbrengt is de <strong>totaaloplossing</strong>."
     },
     {
      "soort": "tekst",
-     "html": "Moet je een koeltas ontwerpen die een drankje vier uur koel houdt, dan is dit een criterium: <strong>de temperatuur mag na vier uur niet boven acht graden zijn</strong>. De fysicakennis die daarbij helpt, is <strong>hoe warmte door geleiding, stroming en straling verplaatst</strong>. Ontwerp je een brug van spaghetti die zoveel mogelijk moet dragen, dan zet je <strong>het evenwicht van krachten en het moment van een kracht</strong> in."
+     "html": "Je mag een deelprobleem niet oplossen zonder na te gaan of het in de totaaloplossing past. Een isolatielaag die perfect werkt maar niet meer in de tas geraakt, lost niets op."
+    }
+   ]
+  },
+  {
+   "kop": "Evalueren en bijsturen",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Voldoet je ontwerp niet aan een criterium, dan stuur je het ontwerp bij en test je opnieuw. Ook nadat je een gegeven oplossing geëvalueerd hebt, stuur je ze bij waar ze de criteria niet haalt. Bij een ontwerp volstaat het trouwens soms om een bestaand systeem aan te passen; je hoeft niet bij nul te beginnen."
+    },
+    {
+     "soort": "tekst",
+     "html": "Drie vragen helpen je een ontwerp te evalueren. Haalt het elk criterium dat we opgesteld hebben? Waar zit de zwakste schakel in het geheel? En wat zou de volgende versie beter doen?"
+    },
+    {
+     "soort": "tekst",
+     "html": "Ontwerp je een brug van spaghetti die zoveel mogelijk moet dragen, dan zet je het evenwicht van krachten, \\(\\sum \\vec{F} = \\vec{0}\\), en het moment van een kracht, \\(M = F\\,d\\), in. Je kijkt waar de krachten samenkomen en waar het moment het grootst is: daar versterk je de constructie."
     }
    ]
   },
@@ -70,27 +155,52 @@
    "kop": "STEM",
    "blokken": [
     {
-     "soort": "tekst",
-     "html": "De letters van <strong>STEM</strong> staan voor <strong>wetenschappen, technologie, techniek en wiskunde</strong>. Je bekijkt een probleem vanuit verschillende disciplines omdat <strong>elk vak een stuk van de oplossing aanbrengt</strong>, en <strong>bij een STEM-opdracht volstaat het niet om één discipline grondig in te zetten</strong>."
+     "soort": "figuur",
+     "html": "<svg viewBox=\"0 0 470 176\" width=\"470\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"0.0\" y=\"6\" width=\"110.0\" height=\"60\" rx=\"10\" fill=\"#ffffff\" stroke=\"#2f5d50\" stroke-width=\"1.8\"/>\n<text x=\"55.0\" y=\"32.0\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"17\" font-weight=\"600\" fill=\"#2f5d50\">S</text>\n<text x=\"55.0\" y=\"52.0\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"9.5\" fill=\"#6b7260\">wetenschap</text>\n<line x1=\"55.0\" y1=\"70\" x2=\"235.0\" y2=\"104\" stroke=\"#6b7260\" stroke-width=\"1.3\"/>\n<rect x=\"120.0\" y=\"6\" width=\"110.0\" height=\"60\" rx=\"10\" fill=\"#ffffff\" stroke=\"#2f5d50\" stroke-width=\"1.8\"/>\n<text x=\"175.0\" y=\"32.0\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"17\" font-weight=\"600\" fill=\"#2f5d50\">T</text>\n<text x=\"175.0\" y=\"52.0\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"9.5\" fill=\"#6b7260\">technologie</text>\n<line x1=\"175.0\" y1=\"70\" x2=\"235.0\" y2=\"104\" stroke=\"#6b7260\" stroke-width=\"1.3\"/>\n<rect x=\"240.0\" y=\"6\" width=\"110.0\" height=\"60\" rx=\"10\" fill=\"#ffffff\" stroke=\"#2f5d50\" stroke-width=\"1.8\"/>\n<text x=\"295.0\" y=\"32.0\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"17\" font-weight=\"600\" fill=\"#2f5d50\">E</text>\n<text x=\"295.0\" y=\"52.0\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"9.5\" fill=\"#6b7260\">engineering</text>\n<line x1=\"295.0\" y1=\"70\" x2=\"235.0\" y2=\"104\" stroke=\"#6b7260\" stroke-width=\"1.3\"/>\n<rect x=\"360.0\" y=\"6\" width=\"110.0\" height=\"60\" rx=\"10\" fill=\"#ffffff\" stroke=\"#2f5d50\" stroke-width=\"1.8\"/>\n<text x=\"415.0\" y=\"32.0\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"17\" font-weight=\"600\" fill=\"#2f5d50\">M</text>\n<text x=\"415.0\" y=\"52.0\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"9.5\" fill=\"#6b7260\">wiskunde</text>\n<line x1=\"415.0\" y1=\"70\" x2=\"235.0\" y2=\"104\" stroke=\"#6b7260\" stroke-width=\"1.3\"/>\n<polygon points=\"235.0,113.0 231.9,104.0 238.1,104.0\" fill=\"#6b7260\"/>\n<rect x=\"120.0\" y=\"116\" width=\"230\" height=\"40\" rx=\"10\" fill=\"#ffffff\" stroke=\"#c17f2b\" stroke-width=\"1.8\"/>\n<text x=\"235.0\" y=\"141.0\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"11.5\" font-weight=\"600\" fill=\"#c17f2b\">één oplossing die werkt</text>\n<text x=\"235.0\" y=\"172.0\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"9\" fill=\"#6b7260\">elk vak brengt een stuk van het antwoord</text></svg>",
+     "onderschrift": "Vier manieren van kijken naar hetzelfde probleem, die op één ontwerp uitkomen."
     },
     {
      "soort": "tekst",
-     "html": "Tijdens de coronacrisis speelde wiskunde deze rol: <strong>de verspreiding van het virus in kaart brengen</strong>. Technologische kennis vroegen <strong>het vaccin op een heel lage temperatuur bewaren</strong>, <strong>het vaccin op grote schaal produceren</strong> en <strong>het vaccin over de hele wereld vervoeren</strong>."
+     "html": "De letters van <strong>STEM</strong> staan voor wetenschappen, technologie, techniek en wiskunde. Je bekijkt een probleem vanuit verschillende disciplines omdat elk vak een stuk van de oplossing aanbrengt. Bij een STEM-opdracht volstaat het dus niet om één discipline grondig in te zetten: dan blijft een deel van het probleem liggen."
+    }
+   ]
+  },
+  {
+   "kop": "Corona als voorbeeld",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Tijdens de coronacrisis bracht de wiskunde de verspreiding van het virus in kaart. Met die modellen kon men zien wat een maatregel twee weken later zou doen, lang voor de cijfers het lieten zien."
     },
     {
      "soort": "tekst",
-     "html": "<strong>Maatschappelijke uitdagingen zijn een reden om nieuwe technieken en materialen te ontwikkelen</strong>. Daarom is een onderzoek naar zonnepanelen ook een maatschappelijke zaak: <strong>de keuzes die eruit volgen raken ieders energie en kosten</strong>."
+     "html": "Technologische kennis was voor heel andere taken nodig: het vaccin op een heel lage temperatuur bewaren, het op grote schaal produceren, en het over de hele wereld vervoeren. Geen enkele discipline had dat alleen gekund."
+    }
+   ]
+  },
+  {
+   "kop": "Onderzoek en de samenleving",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Maatschappelijke uitdagingen zijn een reden om nieuwe technieken en materialen te ontwikkelen. Een pandemie, een energiecrisis of een droge zomer zet onderzoek in gang dat er anders niet was gekomen."
+    },
+    {
+     "soort": "tekst",
+     "html": "Daarom is een onderzoek naar zonnepanelen ook een maatschappelijke zaak: de keuzes die eruit volgen raken ieders energie en kosten. Wat in een labo begint, komt vroeg of laat op iemands dak terecht."
     }
    ]
   }
  ],
  "onthoud": [
   "Onderzoeksvraag, hypothese, onderzoeksplan, meten, besluiten.",
+  "Een hypothese moet weerlegd kunnen worden.",
   "Eén grootheid tegelijk; de onafhankelijke op de horizontale as.",
-  "Herhalen haalt toevallige afwijkingen eruit.",
+  "Herhalen haalt toevallige afwijkingen eruit; een controleproef vergelijkt.",
   "Een conclusie blijft binnen wat je gemeten hebt.",
   "Herhaalbaar: iemand anders vindt met jouw plan hetzelfde.",
   "Ontwerpen: definiëren, criteria, deelproblemen, testen, bijsturen.",
+  "Een criterium is meetbaar, een mening niet.",
   "Elk deelprobleem moet in de totaaloplossing passen.",
   "STEM is wetenschappen, technologie, techniek en wiskunde samen."
  ]

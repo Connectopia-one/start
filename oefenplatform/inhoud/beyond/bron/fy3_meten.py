@@ -101,15 +101,15 @@ DEEL1 = [
     ),
     dict(
         type="meerkeuze",
-        vraag="Je moet kiezen tussen twee chronometers, een van 0,1 s en een van 0,01 s nauwkeurig. Welke neem je voor een val van ongeveer een halve seconde?",
+        vraag=r"Je moet kiezen tussen twee chronometers, een van \(0{,}1\) s en een van \(0{,}01\) s nauwkeurig. Welke neem je voor een val van ongeveer een halve seconde?",
         opties=[
-            "die van 0,01 s, want anders is de fout te groot",
-            "die van 0,1 s, want die leest makkelijker af",
+            r"die van \(0{,}01\) s, want anders is de fout te groot",
+            r"die van \(0{,}1\) s, want die leest makkelijker af",
             "het maakt geen enkel verschil voor het resultaat",
             "geen van de twee, want een val meet je met een sensor",
         ],
         antwoord=0,
-        uitleg="Met 0,1 seconde zit je bij een halve seconde al op een vijfde ernaast. Kies "
+        uitleg=r"Met \(0{,}1\) s zit je bij een halve seconde al op een vijfde ernaast. Kies "
         "een toestel waarvan de nauwkeurigheid klein is tegenover wat je meet.",
     ),
     dict(
@@ -251,83 +251,84 @@ DEEL2 = [
         type="meerkeuze",
         vraag="Wat is de SI-eenheid van kracht?",
         opties=[
-            "de newton",
-            "de joule",
-            "het pascal",
-            "de watt",
+            r"de newton, \(\text{N}\)",
+            r"de joule, \(\text{J}\)",
+            r"het pascal, \(\text{Pa}\)",
+            r"de watt, \(\text{W}\)",
         ],
         antwoord=0,
-        uitleg="De joule hoort bij energie, het pascal bij druk en de watt bij vermogen. Elk "
-        "van die drie is uit de newton opgebouwd.",
+        uitleg=r"De joule hoort bij energie, het pascal bij druk en de watt bij vermogen. "
+        r"Elk van die drie is uit de newton opgebouwd: \(1\ \text{N} = 1\ \text{kg}\cdot\text{m/s}^{2}\).",
     ),
     dict(
         type="meerkeuze",
         vraag="Welke eenheden zijn SI-eenheden? Kruis alles aan wat juist is.",
         opties=[
-            "de meter voor een lengte",
-            "de kilogram voor een massa",
-            "de seconde voor een tijd",
-            "de kilometer per uur voor een snelheid",
+            r"de meter \(\text{m}\) voor een lengte",
+            r"de kilogram \(\text{kg}\) voor een massa",
+            r"de seconde \(\text{s}\) voor een tijd",
+            r"de kilometer per uur \(\text{km/h}\) voor een snelheid",
         ],
         antwoord=[0, 1, 2],
-        uitleg="De SI-eenheid van snelheid is de meter per seconde. Kilometer per uur is "
-        "handig maar niet de eenheid waarmee je rekent.",
+        uitleg=r"De SI-eenheid van snelheid is de meter per seconde, \(\text{m/s}\). De "
+        r"kilometer per uur is handig maar niet de eenheid waarmee je rekent.",
     ),
     dict(
         type="invultekst",
-        vraag="Met hoeveel moet je vermenigvuldigen om van kilometer per uur naar meter per seconde te gaan?",
+        vraag=r"Met hoeveel moet je vermenigvuldigen om van \(\text{km/h}\) naar \(\text{m/s}\) te gaan?",
         antwoord=["1/3,6", "0,278", "delen door 3,6"],
-        uitleg="Je deelt dus door 3,6, want een uur heeft 3600 seconden en een kilometer "
-        "1000 meter. 72 kilometer per uur is zo 20 meter per seconde.",
+        uitleg=r"Je deelt dus door \(3{,}6\), want een uur heeft \(3600\) s en een kilometer "
+        r"\(1000\) m. Zo is \(72\ \text{km/h}\) gelijk aan \(20\ \text{m/s}\).",
     ),
     dict(
         type="meerkeuze",
-        vraag="Hoeveel is 2,5 mA in ampère?",
+        vraag=r"Hoeveel is \(2{,}5\ \text{mA}\) in ampère?",
         opties=[
-            "0,0025 A",
-            "0,025 A",
-            "2500 A",
-            "250 A",
+            r"\(0{,}0025\ \text{A}\)",
+            r"\(0{,}025\ \text{A}\)",
+            r"\(2500\ \text{A}\)",
+            r"\(250\ \text{A}\)",
         ],
         antwoord=0,
-        uitleg="Milli betekent een duizendste. Je schuift de komma dus drie plaatsen naar "
-        "links.",
+        uitleg=r"Milli betekent een duizendste, dus \(1\ \text{mA} = 10^{-3}\ \text{A}\). Je "
+        r"schuift de komma dus drie plaatsen naar links.",
     ),
     dict(
         type="meerkeuze",
         vraag="Welk voorvoegsel hoort bij een miljoenste?",
         opties=[
-            "micro",
-            "milli",
-            "nano",
-            "mega",
+            r"micro, \(\mu\)",
+            r"milli, \(\text{m}\)",
+            r"nano, \(\text{n}\)",
+            r"mega, \(\text{M}\)",
         ],
         antwoord=0,
-        uitleg="Milli is een duizendste en nano een miljardste. Mega is juist een miljoen "
-        "keer zoveel.",
+        uitleg=r"Milli is \(10^{-3}\) en nano \(10^{-9}\). Mega is juist \(10^{6}\) keer "
+        r"zoveel, dus een miljoen keer.",
     ),
     dict(
         type="meerkeuze",
-        vraag="Hoeveel is 4,7 kΩ in ohm?",
+        vraag=r"Hoeveel is \(4{,}7\ \text{k}\Omega\) in ohm?",
         opties=[
-            "4700 Ω",
-            "470 Ω",
-            "0,0047 Ω",
-            "47 000 Ω",
+            r"\(4700\ \Omega\)",
+            r"\(470\ \Omega\)",
+            r"\(0{,}0047\ \Omega\)",
+            r"\(47\,000\ \Omega\)",
         ],
         antwoord=0,
-        uitleg="Kilo betekent duizend. Een weerstand van 4,7 kilo-ohm is dus 4700 ohm.",
+        uitleg=r"Kilo betekent \(10^{3}\). Een weerstand van \(4{,}7\ \text{k}\Omega\) is "
+        r"dus \(4700\ \Omega\).",
     ),
     dict(
         type="waarofniet",
-        vraag="Nano staat voor een miljardste van de eenheid.",
+        vraag=r"Nano staat voor een miljardste van de eenheid, dus \(10^{-9}\).",
         antwoord=True,
-        uitleg="Dat is tien tot de macht min negen. Micro is een miljoenste en milli een "
-        "duizendste.",
+        uitleg=r"Micro is een miljoenste, \(10^{-6}\), en milli een duizendste, "
+        r"\(10^{-3}\).",
     ),
     dict(
         type="meerkeuze",
-        vraag="Hoeveel beduidende cijfers heeft de meting 0,0250 m?",
+        vraag=r"Hoeveel beduidende cijfers heeft de meting \(0{,}0250\) m?",
         opties=[
             "drie",
             "twee",
@@ -340,12 +341,12 @@ DEEL2 = [
     ),
     dict(
         type="meerkeuze",
-        vraag="Je meet 2,5 m en 1,25 m en telt die op. Met hoeveel cijfers na de komma schrijf je het antwoord?",
+        vraag=r"Je meet \(2{,}5\) m en \(1{,}25\) m en telt die op. Met hoeveel cijfers na de komma schrijf je het antwoord?",
         opties=[
-            "met één cijfer na de komma, dus 3,8 m",
-            "met twee cijfers na de komma, dus 3,75 m",
-            "met drie cijfers na de komma, dus 3,750 m",
-            "zonder komma, dus 4 m",
+            r"met één cijfer na de komma, dus \(3{,}8\) m",
+            r"met twee cijfers na de komma, dus \(3{,}75\) m",
+            r"met drie cijfers na de komma, dus \(3{,}750\) m",
+            r"zonder komma, dus \(4\) m",
         ],
         antwoord=0,
         uitleg="Bij een som bepaalt de slechtste meting hoeveel cijfers na de komma je mag "
@@ -366,17 +367,17 @@ DEEL2 = [
     ),
     dict(
         type="invultekst",
-        vraag="Hoe schrijf je 0,00045 in wetenschappelijke notatie?",
+        vraag=r"Hoe schrijf je \(0{,}00045\) in wetenschappelijke notatie?",
         antwoord=["4,5 · 10⁻⁴", "4,5e-4", "4,5 maal 10^-4"],
-        uitleg="Je zet één cijfer voor de komma en de rest in de macht van tien. Zo zie je "
-        "ook meteen hoeveel beduidende cijfers er zijn.",
+        uitleg=r"Je schrijft \(4{,}5 \times 10^{-4}\): één cijfer voor de komma en de rest in "
+        r"de macht van tien. Zo zie je ook meteen hoeveel beduidende cijfers er zijn.",
     ),
     dict(
         type="waarofniet",
         vraag="In de wetenschappelijke notatie staan er altijd twee cijfers voor de komma.",
         antwoord=False,
-        uitleg="Er staat net één cijfer anders dan nul voor de komma: 32 000 wordt 3,2 maal "
-        "tien tot de vierde. Daardoor zijn heel grote en heel kleine getallen vergelijkbaar.",
+        uitleg=r"Er staat net één cijfer anders dan nul voor de komma: \(32\,000\) wordt "
+        r"\(3{,}2 \times 10^{4}\). Daardoor zijn heel grote en heel kleine getallen vergelijkbaar.",
     ),
     dict(
         type="meerkeuze",
@@ -388,8 +389,8 @@ DEEL2 = [
             "om de eenheid van het antwoord te vinden",
         ],
         antwoord=0,
-        uitleg="Een mens die 300 meter per seconde loopt, klopt niet. Een factor duizend "
-        "ernaast door een verkeerd voorvoegsel zie je zo direct.",
+        uitleg=r"Een mens die \(300\ \text{m/s}\) loopt, klopt niet. Een factor \(1000\) "
+        r"ernaast door een verkeerd voorvoegsel zie je zo direct.",
     ),
     dict(
         type="meerkeuze",
@@ -414,8 +415,9 @@ DEEL2 = [
             "een lineair verband dat niet recht evenredig is",
         ],
         antwoord=0,
-        uitleg="Verdubbel je het ene, dan verdubbelt het andere. Een rechte die de as "
-        "ergens anders snijdt, is wel lineair maar niet recht evenredig.",
+        uitleg=r"Verdubbel je het ene, dan verdubbelt het andere: \(y = k\,x\). Een rechte "
+        r"die de as ergens anders snijdt, \(y = k\,x + q\), is wel lineair maar niet recht "
+        r"evenredig.",
     ),
     dict(
         type="meerkeuze",
@@ -427,34 +429,34 @@ DEEL2 = [
             "een horizontale rechte",
         ],
         antwoord=0,
-        uitleg="Het product van de twee grootheden blijft dan constant. Een p(V)-grafiek bij "
-        "constante temperatuur is daarvan het voorbeeld.",
+        uitleg=r"Het product blijft dan constant, \(x\,y = k\), dus \(y = \dfrac{k}{x}\). "
+        r"Een \(p(V)\)-grafiek bij constante temperatuur is daarvan het voorbeeld.",
     ),
     dict(
         type="meerkeuze",
         vraag="Welke verbanden kan je tussen twee grootheden tegenkomen? Kruis alles aan wat juist is.",
         opties=[
-            "recht evenredig",
-            "omgekeerd evenredig",
-            "kwadratisch",
-            "beduidend",
+            r"recht evenredig, \(y = k\,x\)",
+            r"omgekeerd evenredig, \(y = \dfrac{k}{x}\)",
+            r"kwadratisch, \(y = k\,x^{2}\)",
+            r"beduidend",
         ],
         antwoord=[0, 1, 2],
-        uitleg="Beduidend hoort bij de cijfers van een meting, niet bij een verband. Lineair "
-        "is er ook nog een.",
+        uitleg=r"Beduidend hoort bij de cijfers van een meting, niet bij een verband. "
+        r"Lineair, \(y = k\,x + q\), is er ook nog een.",
     ),
     dict(
         type="meerkeuze",
-        vraag="Je weet dat F gelijk is aan m maal a. Hoe druk je a uit in functie van de rest?",
+        vraag=r"Je weet dat \(F = m\,a\). Hoe druk je \(a\) uit in functie van de rest?",
         opties=[
-            "a is F gedeeld door m",
-            "a is m gedeeld door F",
-            "a is F maal m",
-            "a is F min m",
+            r"\(a = \dfrac{F}{m}\)",
+            r"\(a = \dfrac{m}{F}\)",
+            r"\(a = F\,m\)",
+            r"\(a = F - m\)",
         ],
         antwoord=0,
-        uitleg="Je deelt beide kanten door de massa. Zo vorm je elke formule om naar de "
-        "grootheid die je zoekt.",
+        uitleg=r"Je deelt beide kanten door \(m\). Zo vorm je elke formule om naar de "
+        r"grootheid die je zoekt.",
     ),
     dict(
         type="waarofniet",
@@ -467,7 +469,7 @@ DEEL2 = [
         type="waarofniet",
         vraag="Een antwoord zonder eenheid is in de fysica even goed als een antwoord met eenheid.",
         antwoord=False,
-        uitleg="Zonder eenheid weet niemand of je 5 meter of 5 kilometer bedoelt. De eenheid "
-        "hoort dus bij het antwoord.",
+        uitleg=r"Zonder eenheid weet niemand of je \(5\) m of \(5\) km bedoelt. De eenheid "
+        r"hoort dus bij het antwoord.",
     ),
 ]

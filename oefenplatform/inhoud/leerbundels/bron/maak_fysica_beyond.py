@@ -3056,105 +3056,186 @@ BUNDELS["veilig-werken-meetinstrumenten-en-meetonzekerheid-beyond"] = dict(
     vak=VAK, niveau=BEYOND, titel="Veilig werken, meetinstrumenten en meetonzekerheid",
     onder="Het juiste toestel, het juiste bereik en het juiste aantal cijfers.",
     secties=[
-        dict(kop="Meetbereik en nauwkeurigheid", blokken=[
-            ("p", "Het <strong>meetbereik</strong> van een meetinstrument is "
-                  "<strong>de kleinste en de grootste waarde die het kan meten</strong>. Daarbuiten "
-                  "mag je het niet gebruiken, want "
-                  "<strong>de meting is dan onbetrouwbaar en het toestel kan beschadigen</strong>. "
-                  "De <strong>nauwkeurigheid</strong> is "
-                  "<strong>het kleinste verschil dat een meetinstrument nog kan "
-                  "aanwijzen</strong>."),
-            ("p", "Een meting is nooit helemaal exact, want "
-                  "<strong>elk instrument heeft een beperkte nauwkeurigheid</strong>. Kies je "
-                  "tussen een chronometer van 0,1 s en een van 0,01 s voor een val van ongeveer een "
-                  "halve seconde, dan neem je "
-                  "<strong>die van 0,01 s, want anders is de fout te groot</strong>. Toch is "
-                  "<strong>een nauwkeuriger meetinstrument niet altijd de beste keuze, wat je ook "
-                  "meet</strong>: voor de lengte van een lokaal volstaat een rolmeter, en een duur "
-                  "toestel buiten zijn bereik meet slechter dan een eenvoudig toestel erin."),
-            ("p", "Een analoge meter met een naald lees je af "
-                  "<strong>recht van boven, zodat de naald niet verschoven lijkt</strong>. Bij een "
-                  "snelle beweging gebruik je liever een sensor dan een handchronometer, want "
-                  "<strong>je eigen reactietijd geeft bij de hand een fout van wel een tiende "
-                  "seconde</strong>. En <strong>een toestel dat een onwaarschijnlijke waarde "
-                  "aanwijst, mag je niet zonder meer overnemen</strong>: eerst nagaan of je goed "
-                  "aangesloten en goed ingesteld hebt."),
+        dict(kop="Elk toestel heeft zijn grenzen", blokken=[
+            ("p", "Het <strong>meetbereik</strong> van een meetinstrument is de kleinste en de "
+                  "grootste waarde die het kan meten. Een multimeter die tot \\(10\\ \\text{A}\\) "
+                  "gaat, zegt je niets meer over een stroom van \\(25\\ \\text{A}\\). Erger nog: "
+                  "de meting is dan onbetrouwbaar én het toestel kan beschadigen. Daarom kies je "
+                  "altijd eerst je bereik, en pas dan sluit je aan."),
+            ("p", "De <strong>nauwkeurigheid</strong>, ook de <strong>resolutie</strong> genoemd, "
+                  "is het kleinste verschil dat een meetinstrument nog kan aanwijzen. Bij een lat "
+                  "met millimeters is dat \\(1\\ \\text{mm}\\), bij een gewone keukenweegschaal "
+                  "\\(1\\ \\text{g}\\). Je antwoord mag nooit nauwkeuriger lijken dan je toestel is: "
+                  "wie met die lat \\(12{,}437\\ \\text{cm}\\) noteert, verzint de laatste twee "
+                  "cijfers."),
+            ("p", "Een meting is daarom nooit helemaal exact. Niet omdat je slordig werkt, maar "
+                  "omdat elk instrument een beperkte nauwkeurigheid heeft. Dat is geen zwakte van "
+                  "de fysica, het is er een afspraak van: je zegt er altijd bij hoe goed je "
+                  "gemeten hebt."),
+        ]),
+        dict(kop="Nauwkeuriger is niet altijd beter", blokken=[
+            ("p", "Je moet kiezen tussen twee chronometers, een van \\(0{,}1\\ \\text{s}\\) en een "
+                  "van \\(0{,}01\\ \\text{s}\\). Voor een val van ongeveer een halve seconde neem "
+                  "je die van \\(0{,}01\\ \\text{s}\\): met \\(0{,}1\\ \\text{s}\\) zit je al op "
+                  "\\(\\dfrac{0{,}1}{0{,}5} = 20\\ \\%\\) ernaast. De vuistregel is dat de "
+                  "nauwkeurigheid klein moet zijn tegenover wat je meet."),
+            ("p", "Toch is een nauwkeuriger meetinstrument niet altijd de beste keuze. Het is vaak "
+                  "duurder, trager of beperkter in bereik. Voor de lengte van een lokaal volstaat "
+                  "een rolmeter, en een duur toestel buiten zijn bereik meet slechter dan een "
+                  "eenvoudig toestel erbinnen. Je kiest het toestel bij de meting, niet omgekeerd."),
+            ("p", "Bij een snelle beweging gebruik je liever een <strong>sensor</strong> dan een "
+                  "handchronometer, want je eigen reactietijd geeft bij de hand een fout van wel "
+                  "een tiende seconde. Een lichtpoortje start en stopt zonder reactietijd, en meet "
+                  "zo ook een val van \\(0{,}5\\ \\text{s}\\) nog betrouwbaar."),
+        ]),
+        dict(kop="Recht van boven aflezen", blokken=[
+            ("fig", svg.parallax(),
+             "De naald hangt een stukje boven de schaal, dus verschuift ze mee met je ooghoogte."),
+            ("p", "Een analoge meter met een naald lees je af recht van boven, zodat de naald niet "
+                  "verschoven lijkt. Kijk je schuin, dan lees je door de "
+                  "<strong>parallaxfout</strong> een andere waarde. Sommige toestellen hebben daar "
+                  "een spiegeltje voor: je leest goed af wanneer de naald haar spiegelbeeld precies "
+                  "bedekt."),
+            ("p", "En een toestel dat een onwaarschijnlijke waarde aanwijst, mag je niet zonder "
+                  "meer overnemen. Controleer eerst het bereik, de aansluiting en de stand van het "
+                  "toestel. Een schatting vooraf helpt je zo'n fout meteen te zien."),
         ]),
         dict(kop="Welk toestel voor welke grootheid", blokken=[
-            ("p", "Een kracht meet je <strong>met een dynamometer</strong>, het geluidsniveau in een "
-                  "ruimte met <strong>een decibelmeter</strong>. Samengevat: "
-                  "<strong>een dynamometer voor een kracht</strong>, "
-                  "<strong>een chronometer voor een tijdsduur</strong> en "
-                  "<strong>een decibelmeter voor een geluidsniveau</strong>."),
-            ("p", "Met een <strong>multimeter</strong> meet je "
-                  "<strong>de spanning over een lamp</strong>, "
-                  "<strong>de stroom door een draad</strong> en "
-                  "<strong>de weerstand van een component</strong>, elk op zijn eigen stand en met "
-                  "zijn eigen manier van aansluiten."),
+            ("p", "Een kracht meet je met een <strong>dynamometer</strong>, een veer met een "
+                  "schaal erachter. Een tijdsduur meet je met een <strong>chronometer</strong>, en "
+                  "het geluidsniveau in een ruimte met een <strong>decibelmeter</strong>, ook een "
+                  "<strong>geluidsmeter</strong> genoemd. Die laatste gebruik je bijvoorbeeld om "
+                  "na te gaan of een zaal de geluidsnorm haalt."),
+            ("p", "Met een <strong>multimeter</strong> meet je drie dingen: de spanning over een "
+                  "lamp, de stroom door een draad en de weerstand van een component. Elk op zijn "
+                  "eigen stand, en elk met zijn eigen manier van aansluiten. Spanning meet je "
+                  "<em>over</em> het onderdeel, stroom meet je <em>door</em> de kring, dus daar moet "
+                  "je de kring openknippen en de meter ertussen zetten."),
         ]),
         dict(kop="Veilig en duurzaam in het labo", blokken=[
-            ("p", "Veilig en duurzaam werken in een fysicalabo betekent "
-                  "<strong>het meetbereik en de nauwkeurigheid van een toestel respecteren</strong>, "
-                  "<strong>een meetinstrument uitschakelen als je er niet mee meet</strong> en "
-                  "<strong>de handleiding van een toestel vooraf doorlezen</strong>. Dat laatste "
-                  "doe je <strong>om het meetbereik, de aansluiting en de voorzorgen te "
-                  "kennen</strong>, en <strong>een meetinstrument uitschakelen als je niet meet, "
-                  "hoort bij duurzaam werken</strong>."),
-            ("p", "Een spanningsbron zet je op de laagste stand voor je hem aansluit, want "
-                  "<strong>zo kan je de spanning rustig opdrijven zonder iets te laten "
-                  "doorbranden</strong>. En <strong>je mag elektrische toestellen niet met natte "
-                  "handen bedienen</strong>, want water geleidt."),
-            ("p", "Bij het werken met een radioactieve bron horen deze voorzorgen: "
-                  "<strong>zo ver mogelijk van de bron blijven</strong>, "
-                  "<strong>de bron zo kort mogelijk uit zijn houder halen</strong> en "
-                  "<strong>een afscherming tussen jou en de bron zetten</strong>. De batterijen van "
-                  "meetmateriaal dat je weggooit: "
-                  "<strong>ze horen bij het klein gevaarlijk afval en gaan apart</strong>."),
+            ("p", "Drie werkwijzen horen bij veilig werken in een fysicalabo. Een spanningsbron "
+                  "zet je op de laagste stand voor je hem aansluit. Zo kan je de "
+                  "spanning rustig opdrijven zonder iets te laten doorbranden. Je leest ook de "
+                  "handleiding van een toestel voor je het gebruikt, om het meetbereik, de "
+                  "aansluiting en de voorzorgen te kennen."),
+            ("p", "Elektrische toestellen bedien je nooit met natte handen, want water geleidt. "
+                  "Veilig werken en duurzaam werken lopen hier samen: het meetbereik en de "
+                  "nauwkeurigheid van een toestel respecteren spaart het toestel, en een "
+                  "meetinstrument uitschakelen als je er niet mee meet spaart de batterij."),
         ]),
-        dict(kop="Eenheden en voorvoegsels", blokken=[
-            ("p", "De SI-eenheid van kracht is <strong>de newton</strong>. SI-eenheden zijn onder "
-                  "andere <strong>de meter voor een lengte</strong>, "
-                  "<strong>de kilogram voor een massa</strong> en "
-                  "<strong>de seconde voor een tijd</strong>."),
-            ("p", "Om van kilometer per uur naar meter per seconde te gaan vermenigvuldig je met "
-                  "<strong>1/3,6</strong>. Verder: "
-                  "<strong>2,5 mA</strong> is <strong>0,0025 A</strong>, "
-                  "<strong>4,7 kΩ</strong> is <strong>4700 Ω</strong>, het voorvoegsel voor een "
-                  "miljoenste is <strong>micro</strong> en "
-                  "<strong>nano staat voor een miljardste van de eenheid</strong>."),
-            ("p", "<strong>Een antwoord zonder eenheid is in de fysica niet even goed als een "
-                  "antwoord met eenheid</strong>: zonder eenheid is een getal nietszeggend. Het "
-                  "<strong>antwoord met de juiste eenheid noteren</strong> hoort dus bij het werk."),
+        dict(kop="Afval van het labo", blokken=[
+            ("p", "De batterijen van meetmateriaal dat je weggooit, horen bij het klein gevaarlijk "
+                  "afval en gaan apart. Ze bevatten zware metalen die anders in de bodem "
+                  "terechtkomen. Duurzaam werken houdt bij het afval niet op."),
         ]),
-        dict(kop="Beduidende cijfers en notatie", blokken=[
-            ("p", "De meting <strong>0,0250 m</strong> heeft <strong>drie</strong> beduidende "
-                  "cijfers: de nullen vooraan tellen niet mee, de nul achteraan wel. Tel je "
-                  "<strong>2,5 m en 1,25 m</strong> op, dan schrijf je het antwoord "
-                  "<strong>met één cijfer na de komma, dus 3,8 m</strong>: de slechtste meting "
-                  "bepaalt het resultaat."),
-            ("p", "Je schrijft niet alle cijfers van je rekenmachine op, want "
-                  "<strong>je antwoord zou dan nauwkeuriger lijken dan je meting is</strong>. In "
-                  "wetenschappelijke notatie wordt <strong>0,00045</strong> "
-                  "<strong>4,5 · 10⁻⁴</strong>; <strong>in de wetenschappelijke notatie staan er "
-                  "niet altijd twee cijfers voor de komma</strong> maar precies één."),
-            ("p", "Een schatting vooraf maak je "
-                  "<strong>om een onzinnig antwoord meteen te herkennen</strong>."),
+        dict(kop="Werken met een radioactieve bron", blokken=[
+            ("p", "Bij een radioactieve bron horen drie voorzorgen, en ze zijn alle drie dezelfde "
+                  "als bij straling in het algemeen. Blijf zo ver mogelijk van de bron, haal ze zo "
+                  "kort mogelijk uit haar houder, en zet een afscherming tussen jou en de bron."),
+            ("kader", "Afstand, tijd en afscherming. De intensiteit daalt met "
+                      "\\(\\dfrac{1}{r^{2}}\\), dus twee keer zo ver is vier keer zo weinig."),
         ]),
-        dict(kop="Van tabel naar grafiek naar formule", blokken=[
-            ("p", "Bij het verwerken van meetgegevens horen "
-                  "<strong>de gegevens in een tabel zetten</strong>, "
-                  "<strong>een grafiek tekenen om het verband te zien</strong> en "
-                  "<strong>het antwoord met de juiste eenheid noteren</strong>."),
-            ("p", "Tussen twee grootheden kan je een <strong>recht evenredig</strong>, een "
-                  "<strong>omgekeerd evenredig</strong> of een <strong>kwadratisch</strong> verband "
-                  "tegenkomen. Zie je in een grafiek een rechte door de oorsprong, dan is dat "
-                  "<strong>een recht evenredig verband</strong>; bij een omgekeerd evenredig "
-                  "verband hoort <strong>een kromme die daalt en de assen nadert</strong>."),
-            ("p", "Weet je dat F gelijk is aan m maal a, dan is "
-                  "<strong>a gelijk aan F gedeeld door m</strong>. En "
-                  "<strong>je mag twee formules combineren door een grootheid die in beide staat te "
-                  "vervangen</strong>; zo kom je aan een verband dat je niet rechtstreeks gemeten "
-                  "hebt."),
+        dict(kop="De SI-eenheden", blokken=[
+            ("p", "De SI-eenheid van kracht is de <strong>newton</strong>. De joule hoort bij "
+                  "energie, het pascal bij druk en de watt bij vermogen; elk van die drie is uit de "
+                  "newton opgebouwd. Verder zijn de meter voor een lengte, de kilogram voor een "
+                  "massa en de seconde voor een tijd SI-eenheden."),
+            ("kader", "\\(1\\ \\text{N} = 1\\ \\text{kg}\\cdot\\text{m/s}^{2}\\), "
+                      "\\(1\\ \\text{J} = 1\\ \\text{N}\\cdot\\text{m}\\), "
+                      "\\(1\\ \\text{W} = 1\\ \\text{J/s}\\) en "
+                      "\\(1\\ \\text{Pa} = 1\\ \\text{N/m}^{2}\\)."),
+        ]),
+        dict(kop="Omrekenen naar SI", blokken=[
+            ("p", "De kilometer per uur is géén SI-eenheid. Ze is handig op een verkeersbord, maar "
+                  "niet de eenheid waarmee je rekent. Om van \\(\\text{km/h}\\) naar "
+                  "\\(\\text{m/s}\\) te gaan vermenigvuldig je met \\(\\dfrac{1}{3{,}6}\\), dus je "
+                  "deelt door \\(3{,}6\\): een uur heeft \\(3600\\) seconden en een kilometer "
+                  "\\(1000\\) meter. Zo is \\(72\\ \\text{km/h}\\) gelijk aan "
+                  "\\(20\\ \\text{m/s}\\)."),
+        ]),
+        dict(kop="Voorvoegsels", blokken=[
+            ("fig", svg.voorvoegsels(),
+             "Van giga tot nano: elk vakje staat voor duizend keer het volgende."),
+            ("p", "Een voorvoegsel is niets anders dan een macht van tien die bij de eenheid hoort. "
+                  "<strong>Milli</strong> is een duizendste, dus is "
+                  "\\(2{,}5\\ \\text{mA} = 0{,}0025\\ \\text{A}\\): de komma schuift drie plaatsen "
+                  "naar links, en je leest het af in ampère. <strong>Kilo</strong> is duizend, dus is "
+                  "\\(4{,}7\\ \\text{k}\\Omega = 4700\\ \\Omega\\)."),
+        ]),
+        dict(kop="Micro, nano en mega", blokken=[
+            ("p", "<strong>Micro</strong> is een miljoenste, \\(10^{-6}\\), en "
+                  "<strong>nano</strong> een miljardste, \\(10^{-9}\\). <strong>Mega</strong> gaat "
+                  "juist de andere kant op: een miljoen keer zoveel, \\(10^{6}\\). Een factor "
+                  "duizend ernaast door een verkeerd voorvoegsel is de meest gemaakte fout van "
+                  "allemaal."),
+        ]),
+        dict(kop="Beduidende cijfers", blokken=[
+            ("p", "De <strong>beduidende cijfers</strong> van een meting laten zien hoe goed je "
+                  "gemeten hebt. De meting \\(0{,}0250\\ \\text{m}\\) heeft er <strong>drie</strong>: "
+                  "de nullen vooraan tellen niet mee, de nul achteraan wel. Die laatste nul zegt "
+                  "namelijk dat er tot op die plaats gemeten is."),
+        ]),
+        dict(kop="Optellen en afronden", blokken=[
+            ("p", "Tel je \\(2{,}5\\ \\text{m}\\) en \\(1{,}25\\ \\text{m}\\) op, dan schrijf je het "
+                  "antwoord met één cijfer na de komma, dus \\(3{,}8\\ \\text{m}\\) en niet "
+                  "\\(3{,}75\\ \\text{m}\\). Bij een som bepaalt de slechtste meting hoeveel cijfers "
+                  "na de komma je mag houden. Je antwoord kan nu eenmaal niet nauwkeuriger zijn dan "
+                  "je meting."),
+            ("p", "Daarom schrijf je ook niet alle cijfers van je rekenmachine op: je antwoord zou "
+                  "dan nauwkeuriger lijken dan je meting is. Tien cijfers achter de komma bij een "
+                  "meting met een lat is onzin."),
+        ]),
+        dict(kop="Wetenschappelijke notatie en schatten", blokken=[
+            ("p", "In de <strong>wetenschappelijke notatie</strong> zet je één cijfer anders dan "
+                  "nul voor de komma, en de rest in de macht van tien. Zo wordt \\(0{,}00045\\) "
+                  "gelijk aan \\(4{,}5 \\times 10^{-4}\\), en \\(32\\,000\\) gelijk aan "
+                  "\\(3{,}2 \\times 10^{4}\\). Er staan dus niet twee cijfers voor de komma, maar "
+                  "precies één."),
+            ("p", "Die schrijfwijze maakt heel grote en heel kleine getallen vergelijkbaar, en je "
+                  "ziet er meteen aan hoeveel beduidende cijfers er zijn. "
+                  "\\(4{,}50 \\times 10^{-4}\\) zegt iets anders dan \\(4{,}5 \\times 10^{-4}\\)."),
+        ]),
+        dict(kop="Eerst schatten", blokken=[
+            ("p", "Maak vooraf een <strong>schatting</strong> van je uitkomst, om een onzinnig "
+                  "antwoord meteen te herkennen. Een mens die \\(300\\ \\text{m/s}\\) loopt, klopt "
+                  "niet. Zo'n schatting kost tien seconden en vangt de meeste rekenfouten op."),
+        ]),
+        dict(kop="Van tabel naar grafiek", blokken=[
+            ("p", "Meetgegevens verwerk je in drie stappen: de gegevens in een tabel zetten, een "
+                  "grafiek tekenen om het verband te zien, en het antwoord met de juiste eenheid "
+                  "noteren. Wat je instelt komt op de horizontale as, wat je meet op de verticale."),
+            ("p", "Een meting die niet past, laat je niet zomaar weg. Dat mag alleen met een reden "
+                  "die je opschrijft, bijvoorbeeld dat de chronometer te laat gestart is. Anders pas "
+                  "je je gegevens aan je verwachting aan, en dat is precies de omgekeerde weg."),
+        ]),
+        dict(kop="Drie verbanden herkennen", blokken=[
+            ("fig", svg.drieverbanden(),
+             "Dezelfde twee grootheden, drie manieren waarop ze van elkaar kunnen afhangen."),
+            ("p", "Zie je in een grafiek een <strong>rechte door de oorsprong</strong>, dan is het "
+                  "verband <strong>recht evenredig</strong>: \\(y = k\\,x\\). Verdubbel je het ene, "
+                  "dan verdubbelt het andere. Een rechte die de as ergens anders snijdt, "
+                  "\\(y = k\\,x + q\\), is wel <strong>lineair</strong> maar niet recht evenredig."),
+        ]),
+        dict(kop="Omgekeerd evenredig en kwadratisch", blokken=[
+            ("p", "Bij een <strong>omgekeerd evenredig</strong> verband hoort een kromme die daalt "
+                  "en de assen nadert. Het product van de twee grootheden blijft dan constant: "
+                  "\\(x\\,y = k\\), dus \\(y = \\dfrac{k}{x}\\). De \\(p(V)\\)-grafiek bij constante "
+                  "temperatuur is daarvan het schoolvoorbeeld. En bij een "
+                  "<strong>kwadratisch</strong> verband, \\(y = k\\,x^{2}\\), hoort een parabool door "
+                  "de oorsprong. Beduidend hoort bij de cijfers van een meting, niet in dit rijtje."),
+        ]),
+        dict(kop="Een formule omvormen", blokken=[
+            ("p", "Weet je dat \\(F = m\\,a\\), dan vind je \\(a\\) door beide kanten door \\(m\\) "
+                  "te delen: \\(a = \\dfrac{F}{m}\\). Zo vorm je elke formule om naar de grootheid "
+                  "die je zoekt. Doe wat je links doet ook rechts, dan blijft de gelijkheid staan."),
+            ("kader", "\\(F = m\\,a\\) geeft \\(a = \\dfrac{F}{m}\\) en \\(m = \\dfrac{F}{a}\\)."),
+        ]),
+        dict(kop="Twee formules combineren", blokken=[
+            ("p", "Je mag ook twee formules combineren door een grootheid die in beide staat te "
+                  "vervangen. Zo kom je aan een verband dat je niet rechtstreeks gemeten hebt. Let "
+                  "er wel op dat je overal dezelfde eenheden gebruikt, en schrijf bij je antwoord "
+                  "altijd de eenheid: zonder eenheid weet niemand of je \\(5\\ \\text{m}\\) of "
+                  "\\(5\\ \\text{km}\\) bedoelt."),
         ]),
     ],
     onthoud=[
@@ -3163,122 +3244,160 @@ BUNDELS["veilig-werken-meetinstrumenten-en-meetonzekerheid-beyond"] = dict(
         "Dynamometer, chronometer, decibelmeter, multimeter.",
         "Laagste stand eerst, droge handen, handleiding vooraf.",
         "Radioactieve bron: ver, kort en achter een afscherming.",
+        "Milli \\(10^{-3}\\), micro \\(10^{-6}\\), nano \\(10^{-9}\\), kilo \\(10^{3}\\), mega \\(10^{6}\\).",
         "Beduidende cijfers: de slechtste meting bepaalt het antwoord.",
         "Wetenschappelijke notatie: één cijfer voor de komma.",
+        "\\(y = k\\,x\\), \\(y = \\dfrac{k}{x}\\) of \\(y = k\\,x^{2}\\): kijk naar de grafiek.",
         "Elk antwoord krijgt zijn eenheid.",
     ],
 )
+
 
 # ───────────────────── 23. Wetenschappelijk onderzoek, ontwerpen en STEM
 BUNDELS["wetenschappelijk-onderzoek-ontwerpen-en-stem-beyond"] = dict(
     vak=VAK, niveau=BEYOND, titel="Wetenschappelijk onderzoek, ontwerpen en STEM",
     onder="Van een vraag naar een antwoord, en van een probleem naar een ontwerp.",
     secties=[
-        dict(kop="Vraag, hypothese en plan", blokken=[
-            ("p", "Een <strong>onderzoeksvraag</strong> is "
-                  "<strong>de vraag die je met je onderzoek wil beantwoorden</strong>; een "
-                  "<strong>hypothese</strong> is "
-                  "<strong>een verwachting die je vooraf opstelt en kan nagaan</strong>. De stap "
-                  "waarin je vastlegt hoe je je onderzoek zal uitvoeren is het "
-                  "<strong>onderzoeksplan</strong>."),
-            ("p", "De stappen van een wetenschappelijk onderzoek: "
-                  "<strong>het probleem definiëren en afbakenen</strong>, "
-                  "<strong>een onderzoeksvraag en een hypothese opstellen</strong> en "
-                  "<strong>data verzamelen en analyseren</strong>."),
-            ("p", "Een bruikbare onderzoeksvraag voor een proef is er een als "
-                  "<strong>hoe hangt de periode van een slinger af van zijn lengte?</strong> "
-                  "<strong>Een onderzoeksvraag moet niet zo breed mogelijk opgesteld zijn</strong> "
-                  "maar juist scherp genoeg om te kunnen meten."),
-            ("p", "Over een hypothese geldt: "
-                  "<strong>ze wordt opgesteld voor je begint te meten</strong>, "
-                  "<strong>ze moet met een proef na te gaan zijn</strong> en "
-                  "<strong>ze kan door de resultaten weerlegd worden</strong>. Zo'n weerlegging is "
-                  "geen mislukking: <strong>een meting die je hypothese tegenspreekt, is een geldig "
-                  "resultaat</strong>."),
+        dict(kop="De stappen van een onderzoek", blokken=[
+            ("fig", svg.stappen(["vraag|wat wil ik weten", "hypothese|wat verwacht ik",
+                                 "plan|hoe ga ik meten", "meten|en verwerken",
+                                 "besluit|wat is het antwoord"]),
+             "Elke stap steunt op de vorige, en het besluit brengt je meestal bij een nieuwe vraag."),
+            ("p", "Een <strong>onderzoeksvraag</strong> is de vraag die je met je onderzoek wil "
+                  "beantwoorden. Een <strong>hypothese</strong> is de verwachting die je vooraf "
+                  "opstelt en die je kan nagaan. En het <strong>onderzoeksplan</strong> is de stap "
+                  "waarin je vastlegt hoe je je onderzoek zal uitvoeren: welke grootheid je "
+                  "verandert, wat je meet en met welk toestel."),
+            ("p", "Daarna komt het werk zelf: data verzamelen en analyseren. Een onderzoek begint "
+                  "dus niet bij het meten maar bij het probleem definiëren en afbakenen."),
         ]),
-        dict(kop="Meten en verwerken", blokken=[
-            ("p", "In een proef verander je maar één grootheid tegelijk, want "
-                  "<strong>anders weet je niet welke verandering het verschil veroorzaakte</strong>. "
-                  "De grootheid die je bewust verandert heet "
-                  "<strong>de onafhankelijke variabele</strong>. Meet je de valtijd van een bal "
-                  "vanaf verschillende hoogtes, dan zet je op de horizontale as "
-                  "<strong>de hoogte, want die kies je zelf</strong>."),
-            ("p", "Je herhaalt een meting meerdere keren "
-                  "<strong>om toevallige afwijkingen uit je resultaat te halen</strong>. Een "
-                  "<strong>controleproef</strong> dient "
-                  "<strong>om te vergelijken met een opstelling waarin je niets verandert</strong>. "
-                  "Met een meting die sterk van de rest afwijkt doe je dit: "
-                  "<strong>je zoekt de oorzaak en vermeldt wat je ermee doet</strong>, in plaats van "
-                  "ze stil te laten verdwijnen."),
-            ("p", "Een goede conclusie moet "
-                  "<strong>de onderzoeksvraag beantwoorden op basis van de data</strong>; "
-                  "<strong>een conclusie mag niet verder gaan dan wat je gemeten hebt</strong>. In "
-                  "een goed verslag staat <strong>welke instrumenten je gebruikt hebt</strong>, "
-                  "<strong>welke grootheden je constant gehouden hebt</strong> en "
-                  "<strong>de meetwaarden met hun eenheid</strong>."),
-            ("p", "Dat een onderzoek <strong>herhaalbaar</strong> moet zijn, betekent: "
-                  "<strong>iemand anders moet met jouw plan hetzelfde kunnen vinden</strong>. Je "
-                  "laat anderen je resultaten nalezen omdat "
-                  "<strong>zij fouten en andere verklaringen zien die jij gemist hebt</strong>, en "
-                  "<strong>reflecteren over je gekozen methode hoort bij het onderzoek zelf</strong>."),
+        dict(kop="Een bruikbare onderzoeksvraag", blokken=[
+            ("p", "Een onderzoeksvraag is bruikbaar wanneer je ze met een proef kan beantwoorden. "
+                  "<em>Hoe hangt de periode van een slinger af van zijn lengte?</em> is zo'n vraag: "
+                  "je weet meteen wat je zal veranderen, de lengte, en wat je zal meten, de "
+                  "periode."),
+            ("p", "Een onderzoeksvraag moet dus niet zo breed mogelijk opgesteld zijn. <em>Hoe werkt "
+                  "zwaartekracht?</em> klinkt indrukwekkend, maar met één proef kom je er niet. Hoe "
+                  "scherper de vraag, hoe duidelijker het antwoord dat je er achteraf op kan geven."),
+        ]),
+        dict(kop="Wat een hypothese moet kunnen", blokken=[
+            ("p", "Over een hypothese gelden drie uitspraken. Ze wordt opgesteld voor je begint te "
+                  "meten, ze moet met een proef na te gaan zijn, en ze kan door de resultaten "
+                  "weerlegd worden. Die laatste is de belangrijkste: een verwachting die nooit fout "
+                  "kan zijn, leert je niets."),
+            ("p", "Een meting die je hypothese tegenspreekt is daarom een geldig resultaat, geen "
+                  "mislukking. Je hebt dan iets geleerd wat je vooraf niet wist, en dat is precies "
+                  "waarvoor je de proef deed."),
+        ]),
+        dict(kop="Eén grootheid tegelijk", blokken=[
+            ("p", "In een proef verander je maar één grootheid tegelijk, anders weet je niet welke "
+                  "verandering het verschil veroorzaakte. De grootheid die je bewust verandert heet "
+                  "de <strong>onafhankelijke variabele</strong>; wat je daarbij meet is de "
+                  "afhankelijke."),
+            ("p", "Meet je de valtijd \\(t\\) van een bal vanaf verschillende hoogtes \\(h\\), dan "
+                  "zet je de hoogte op de horizontale as, want die kies je zelf. Je tekent dus "
+                  "\\(t(h)\\). Alle andere grootheden, zoals de massa van de bal, houd je constant."),
+        ]),
+        dict(kop="Herhalen en vergelijken", blokken=[
+            ("p", "Je herhaalt een meting meerdere keren om toevallige afwijkingen uit je resultaat "
+                  "te halen. Drie metingen die binnen een paar procent bij elkaar liggen zeggen veel "
+                  "meer dan één enkele meting die er toevallig goed uitziet."),
+            ("p", "Een <strong>controleproef</strong> dient om te vergelijken met een opstelling "
+                  "waarin je niets verandert. Zonder dat ijkpunt weet je niet of het effect dat je "
+                  "ziet van jouw ingreep komt of gewoon altijd gebeurt."),
+            ("p", "Wijkt één meting sterk van de rest af, dan zoek je de oorzaak en vermeldt wat je "
+                  "ermee doet. Weglaten mag alleen met een reden die je opschrijft, bijvoorbeeld dat "
+                  "de chronometer te laat gestart is."),
+        ]),
+        dict(kop="Besluiten en verslag", blokken=[
+            ("p", "Een goede conclusie beantwoordt de onderzoeksvraag op basis van de data. Ze gaat "
+                  "niet verder dan wat je gemeten hebt: heb je slingers tot een meter gemeten, dan "
+                  "zeg je niets over slingers van tien meter."),
+            ("p", "In een goed verslag staat welke instrumenten je gebruikt hebt, welke grootheden "
+                  "je constant gehouden hebt, en de meetwaarden met hun eenheid. Daarmee kan iemand "
+                  "anders je proef overdoen."),
+            ("p", "Dat is ook wat <strong>herhaalbaar</strong> betekent: iemand anders moet met jouw "
+                  "plan hetzelfde kunnen vinden. Je laat anderen je resultaten nalezen omdat zij "
+                  "fouten en andere verklaringen zien die jij gemist hebt, en reflecteren over je "
+                  "gekozen methode hoort bij het onderzoek zelf, niet erna."),
         ]),
         dict(kop="Ontwerpen in stappen", blokken=[
-            ("p", "De eerste stap bij het ontwerpen van een oplossing is "
-                  "<strong>het probleem helder definiëren</strong>. "
-                  "<strong>Criteria</strong> zijn "
-                  "<strong>de eisen waaraan je oplossing moet voldoen</strong>, en de kleinere "
-                  "stukken waarin je een groot probleem opsplitst zijn "
-                  "<strong>deelproblemen</strong>. Het geheel waarin je de oplossingen van alle "
-                  "deelproblemen samenbrengt is <strong>de totaaloplossing</strong>; "
-                  "<strong>je mag een deelprobleem niet oplossen zonder na te gaan of het in de "
-                  "totaaloplossing past</strong>."),
-            ("p", "Bij een probleemoplossende strategie horen "
-                  "<strong>het probleem definiëren</strong>, "
-                  "<strong>criteria voor de oplossing opstellen</strong> en "
-                  "<strong>het probleem in deelproblemen splitsen</strong>. Voldoet je ontwerp niet "
-                  "aan een criterium, dan "
-                  "<strong>stuur je het ontwerp bij en test opnieuw</strong>; en ook nadat je een "
-                  "gegeven oplossing geëvalueerd hebt, "
-                  "<strong>stuur je ze bij waar ze de criteria niet haalt</strong>. "
-                  "<strong>Bij een ontwerp volstaat het soms om een bestaand systeem aan te "
-                  "passen</strong>."),
-            ("p", "Vragen die je helpen een ontwerp te evalueren: "
-                  "<strong>haalt het elk criterium dat we opgesteld hebben?</strong>, "
-                  "<strong>waar zit de zwakste schakel in het geheel?</strong> en "
-                  "<strong>wat zou de volgende versie beter doen?</strong>"),
-            ("p", "Moet je een koeltas ontwerpen die een drankje vier uur koel houdt, dan is dit "
-                  "een criterium: <strong>de temperatuur mag na vier uur niet boven acht graden "
-                  "zijn</strong>. De fysicakennis die daarbij helpt, is "
-                  "<strong>hoe warmte door geleiding, stroming en straling verplaatst</strong>. "
-                  "Ontwerp je een brug van spaghetti die zoveel mogelijk moet dragen, dan zet je "
-                  "<strong>het evenwicht van krachten en het moment van een kracht</strong> in."),
+            ("fig", svg.stappen(["probleem|helder definiëren", "criteria|waaraan moet het voldoen",
+                                 "opsplitsen|in deelproblemen", "ontwerpen|en testen",
+                                 "bijsturen|en opnieuw testen"]),
+             "De laatste stap wijst terug naar de vorige: testen en bijsturen gaan een paar keer rond."),
+            ("p", "De eerste stap bij het ontwerpen van een oplossing is het probleem helder "
+                  "definiëren. Pas daarna stel je <strong>criteria</strong> op: de eisen waaraan je "
+                  "oplossing moet voldoen. Die drie stappen samen, het probleem definiëren, criteria "
+                  "opstellen en het probleem in deelproblemen splitsen, vormen een "
+                  "probleemoplossende strategie."),
+        ]),
+        dict(kop="Criteria zijn meetbaar", blokken=[
+            ("p", "Een criterium is meetbaar, zodat je achteraf kan nagaan of je het haalt. Moet je "
+                  "een koeltas ontwerpen die een drankje \\(4\\) h koel houdt, dan is <em>de "
+                  "temperatuur blijft na \\(4\\) h onder \\(8\\ ^\\circ\\text{C}\\)</em> een "
+                  "criterium. <em>Mooi en opvallend</em> is dat niet: dat is een mening."),
+            ("p", "De fysicakennis die bij die koeltas helpt, is hoe warmte zich door geleiding, "
+                  "stroming en straling verplaatst. Je houdt alle drie die wegen tegen, zoals in een "
+                  "thermosfles: een spiegelende laag in de wand kaatst de straling terug."),
+        ]),
+        dict(kop="Deelproblemen en de totaaloplossing", blokken=[
+            ("p", "De kleinere stukken waarin je een groot probleem opsplitst heten "
+                  "<strong>deelproblemen</strong>, soms ook subproblemen genoemd. Het geheel waarin "
+                  "je de oplossingen van alle deelproblemen samenbrengt is de "
+                  "<strong>totaaloplossing</strong>."),
+            ("p", "Je mag een deelprobleem niet oplossen zonder na te gaan of het in de "
+                  "totaaloplossing past. Een isolatielaag die perfect werkt maar niet meer in de tas "
+                  "geraakt, lost niets op."),
+        ]),
+        dict(kop="Evalueren en bijsturen", blokken=[
+            ("p", "Voldoet je ontwerp niet aan een criterium, dan stuur je het ontwerp bij en test "
+                  "je opnieuw. Ook nadat je een gegeven oplossing geëvalueerd hebt, stuur je ze bij "
+                  "waar ze de criteria niet haalt. Bij een ontwerp volstaat het trouwens soms om een "
+                  "bestaand systeem aan te passen; je hoeft niet bij nul te beginnen."),
+            ("p", "Drie vragen helpen je een ontwerp te evalueren. Haalt het elk criterium dat we "
+                  "opgesteld hebben? Waar zit de zwakste schakel in het geheel? En wat zou de "
+                  "volgende versie beter doen?"),
+            ("p", "Ontwerp je een brug van spaghetti die zoveel mogelijk moet dragen, dan zet je het "
+                  "evenwicht van krachten, \\(\\sum \\vec{F} = \\vec{0}\\), en het moment van een "
+                  "kracht, \\(M = F\\,d\\), in. Je kijkt waar de krachten samenkomen en waar het "
+                  "moment het grootst is: daar versterk je de constructie."),
         ]),
         dict(kop="STEM", blokken=[
-            ("p", "De letters van <strong>STEM</strong> staan voor "
-                  "<strong>wetenschappen, technologie, techniek en wiskunde</strong>. Je bekijkt een "
-                  "probleem vanuit verschillende disciplines omdat "
-                  "<strong>elk vak een stuk van de oplossing aanbrengt</strong>, en "
-                  "<strong>bij een STEM-opdracht volstaat het niet om één discipline grondig in te "
-                  "zetten</strong>."),
-            ("p", "Tijdens de coronacrisis speelde wiskunde deze rol: "
-                  "<strong>de verspreiding van het virus in kaart brengen</strong>. "
-                  "Technologische kennis vroegen "
-                  "<strong>het vaccin op een heel lage temperatuur bewaren</strong>, "
-                  "<strong>het vaccin op grote schaal produceren</strong> en "
-                  "<strong>het vaccin over de hele wereld vervoeren</strong>."),
-            ("p", "<strong>Maatschappelijke uitdagingen zijn een reden om nieuwe technieken en "
-                  "materialen te ontwikkelen</strong>. Daarom is een onderzoek naar zonnepanelen "
-                  "ook een maatschappelijke zaak: "
-                  "<strong>de keuzes die eruit volgen raken ieders energie en kosten</strong>."),
+            ("fig", svg.stemvierluik(),
+             "Vier manieren van kijken naar hetzelfde probleem, die op één ontwerp uitkomen."),
+            ("p", "De letters van <strong>STEM</strong> staan voor wetenschappen, technologie, "
+                  "techniek en wiskunde. Je bekijkt een probleem vanuit verschillende disciplines "
+                  "omdat elk vak een stuk van de oplossing aanbrengt. Bij een STEM-opdracht volstaat "
+                  "het dus niet om één discipline grondig in te zetten: dan blijft een deel van het "
+                  "probleem liggen."),
+        ]),
+        dict(kop="Corona als voorbeeld", blokken=[
+            ("p", "Tijdens de coronacrisis bracht de wiskunde de verspreiding van het virus in "
+                  "kaart. Met die modellen kon men zien wat een maatregel twee weken later zou doen, "
+                  "lang voor de cijfers het lieten zien."),
+            ("p", "Technologische kennis was voor heel andere taken nodig: het vaccin op een heel "
+                  "lage temperatuur bewaren, het op grote schaal produceren, en het over de hele "
+                  "wereld vervoeren. Geen enkele discipline had dat alleen gekund."),
+        ]),
+        dict(kop="Onderzoek en de samenleving", blokken=[
+            ("p", "Maatschappelijke uitdagingen zijn een reden om nieuwe technieken en materialen te "
+                  "ontwikkelen. Een pandemie, een energiecrisis of een droge zomer zet onderzoek in "
+                  "gang dat er anders niet was gekomen."),
+            ("p", "Daarom is een onderzoek naar zonnepanelen ook een maatschappelijke zaak: de "
+                  "keuzes die eruit volgen raken ieders energie en kosten. Wat in een labo begint, "
+                  "komt vroeg of laat op iemands dak terecht."),
         ]),
     ],
     onthoud=[
         "Onderzoeksvraag, hypothese, onderzoeksplan, meten, besluiten.",
+        "Een hypothese moet weerlegd kunnen worden.",
         "Eén grootheid tegelijk; de onafhankelijke op de horizontale as.",
-        "Herhalen haalt toevallige afwijkingen eruit.",
+        "Herhalen haalt toevallige afwijkingen eruit; een controleproef vergelijkt.",
         "Een conclusie blijft binnen wat je gemeten hebt.",
         "Herhaalbaar: iemand anders vindt met jouw plan hetzelfde.",
         "Ontwerpen: definiëren, criteria, deelproblemen, testen, bijsturen.",
+        "Een criterium is meetbaar, een mening niet.",
         "Elk deelprobleem moet in de totaaloplossing passen.",
         "STEM is wetenschappen, technologie, techniek en wiskunde samen.",
     ],

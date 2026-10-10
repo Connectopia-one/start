@@ -4,19 +4,54 @@
  "onder": "Het juiste toestel, het juiste bereik en het juiste aantal cijfers.",
  "secties": [
   {
-   "kop": "Meetbereik en nauwkeurigheid",
+   "kop": "Elk toestel heeft zijn grenzen",
    "blokken": [
     {
      "soort": "tekst",
-     "html": "Het <strong>meetbereik</strong> van een meetinstrument is <strong>de kleinste en de grootste waarde die het kan meten</strong>. Daarbuiten mag je het niet gebruiken, want <strong>de meting is dan onbetrouwbaar en het toestel kan beschadigen</strong>. De <strong>nauwkeurigheid</strong> is <strong>het kleinste verschil dat een meetinstrument nog kan aanwijzen</strong>."
+     "html": "Het <strong>meetbereik</strong> van een meetinstrument is de kleinste en de grootste waarde die het kan meten. Een multimeter die tot \\(10\\ \\text{A}\\) gaat, zegt je niets meer over een stroom van \\(25\\ \\text{A}\\). Erger nog: de meting is dan onbetrouwbaar én het toestel kan beschadigen. Daarom kies je altijd eerst je bereik, en pas dan sluit je aan."
     },
     {
      "soort": "tekst",
-     "html": "Een meting is nooit helemaal exact, want <strong>elk instrument heeft een beperkte nauwkeurigheid</strong>. Kies je tussen een chronometer van 0,1 s en een van 0,01 s voor een val van ongeveer een halve seconde, dan neem je <strong>die van 0,01 s, want anders is de fout te groot</strong>. Toch is <strong>een nauwkeuriger meetinstrument niet altijd de beste keuze, wat je ook meet</strong>: voor de lengte van een lokaal volstaat een rolmeter, en een duur toestel buiten zijn bereik meet slechter dan een eenvoudig toestel erin."
+     "html": "De <strong>nauwkeurigheid</strong>, ook de <strong>resolutie</strong> genoemd, is het kleinste verschil dat een meetinstrument nog kan aanwijzen. Bij een lat met millimeters is dat \\(1\\ \\text{mm}\\), bij een gewone keukenweegschaal \\(1\\ \\text{g}\\). Je antwoord mag nooit nauwkeuriger lijken dan je toestel is: wie met die lat \\(12{,}437\\ \\text{cm}\\) noteert, verzint de laatste twee cijfers."
     },
     {
      "soort": "tekst",
-     "html": "Een analoge meter met een naald lees je af <strong>recht van boven, zodat de naald niet verschoven lijkt</strong>. Bij een snelle beweging gebruik je liever een sensor dan een handchronometer, want <strong>je eigen reactietijd geeft bij de hand een fout van wel een tiende seconde</strong>. En <strong>een toestel dat een onwaarschijnlijke waarde aanwijst, mag je niet zonder meer overnemen</strong>: eerst nagaan of je goed aangesloten en goed ingesteld hebt."
+     "html": "Een meting is daarom nooit helemaal exact. Niet omdat je slordig werkt, maar omdat elk instrument een beperkte nauwkeurigheid heeft. Dat is geen zwakte van de fysica, het is er een afspraak van: je zegt er altijd bij hoe goed je gemeten hebt."
+    }
+   ]
+  },
+  {
+   "kop": "Nauwkeuriger is niet altijd beter",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Je moet kiezen tussen twee chronometers, een van \\(0{,}1\\ \\text{s}\\) en een van \\(0{,}01\\ \\text{s}\\). Voor een val van ongeveer een halve seconde neem je die van \\(0{,}01\\ \\text{s}\\): met \\(0{,}1\\ \\text{s}\\) zit je al op \\(\\dfrac{0{,}1}{0{,}5} = 20\\ \\%\\) ernaast. De vuistregel is dat de nauwkeurigheid klein moet zijn tegenover wat je meet."
+    },
+    {
+     "soort": "tekst",
+     "html": "Toch is een nauwkeuriger meetinstrument niet altijd de beste keuze. Het is vaak duurder, trager of beperkter in bereik. Voor de lengte van een lokaal volstaat een rolmeter, en een duur toestel buiten zijn bereik meet slechter dan een eenvoudig toestel erbinnen. Je kiest het toestel bij de meting, niet omgekeerd."
+    },
+    {
+     "soort": "tekst",
+     "html": "Bij een snelle beweging gebruik je liever een <strong>sensor</strong> dan een handchronometer, want je eigen reactietijd geeft bij de hand een fout van wel een tiende seconde. Een lichtpoortje start en stopt zonder reactietijd, en meet zo ook een val van \\(0{,}5\\ \\text{s}\\) nog betrouwbaar."
+    }
+   ]
+  },
+  {
+   "kop": "Recht van boven aflezen",
+   "blokken": [
+    {
+     "soort": "figuur",
+     "html": "<svg viewBox=\"0 0 470 206\" width=\"470\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"5\" y=\"4\" width=\"460\" height=\"180\" rx=\"7\" fill=\"#ffffff\" stroke=\"#e4ded0\" stroke-width=\"1.2\"/>\n<line x1=\"104\" y1=\"152\" x2=\"368\" y2=\"152\" stroke=\"#23291f\" stroke-width=\"2\"/>\n<line x1=\"110\" y1=\"152\" x2=\"110\" y2=\"145\" stroke=\"#6b7260\" stroke-width=\"1.2\"/>\n<line x1=\"135\" y1=\"152\" x2=\"135\" y2=\"145\" stroke=\"#6b7260\" stroke-width=\"1.2\"/>\n<line x1=\"160\" y1=\"152\" x2=\"160\" y2=\"145\" stroke=\"#6b7260\" stroke-width=\"1.2\"/>\n<line x1=\"185\" y1=\"152\" x2=\"185\" y2=\"145\" stroke=\"#6b7260\" stroke-width=\"1.2\"/>\n<line x1=\"210\" y1=\"152\" x2=\"210\" y2=\"145\" stroke=\"#6b7260\" stroke-width=\"1.2\"/>\n<line x1=\"235\" y1=\"152\" x2=\"235\" y2=\"145\" stroke=\"#6b7260\" stroke-width=\"1.2\"/>\n<line x1=\"260\" y1=\"152\" x2=\"260\" y2=\"145\" stroke=\"#6b7260\" stroke-width=\"1.2\"/>\n<line x1=\"285\" y1=\"152\" x2=\"285\" y2=\"145\" stroke=\"#6b7260\" stroke-width=\"1.2\"/>\n<line x1=\"310\" y1=\"152\" x2=\"310\" y2=\"145\" stroke=\"#6b7260\" stroke-width=\"1.2\"/>\n<line x1=\"335\" y1=\"152\" x2=\"335\" y2=\"145\" stroke=\"#6b7260\" stroke-width=\"1.2\"/>\n<line x1=\"360\" y1=\"152\" x2=\"360\" y2=\"145\" stroke=\"#6b7260\" stroke-width=\"1.2\"/>\n<text x=\"96.0\" y=\"156.0\" text-anchor=\"end\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"9.5\" fill=\"#6b7260\">schaal</text>\n<line x1=\"240\" y1=\"100\" x2=\"240\" y2=\"126\" stroke=\"#2f5d50\" stroke-width=\"3\"/>\n<text x=\"230.0\" y=\"120.0\" text-anchor=\"end\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"9.5\" fill=\"#2f5d50\">naald</text>\n<circle cx=\"240\" cy=\"46\" r=\"8\" fill=\"#ffffff\" stroke=\"#2f5d50\" stroke-width=\"1.8\"/>\n<circle cx=\"240\" cy=\"46\" r=\"2.6\" fill=\"#2f5d50\"/>\n<line x1=\"240\" y1=\"56\" x2=\"240\" y2=\"152\" stroke=\"#2f5d50\" stroke-width=\"1.3\" stroke-dasharray=\"4 3\"/>\n<text x=\"226.0\" y=\"32.0\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"9.5\" fill=\"#2f5d50\">recht van boven</text>\n<line x1=\"240\" y1=\"152\" x2=\"240\" y2=\"163\" stroke=\"#2f5d50\" stroke-width=\"2.4\"/>\n<text x=\"240.0\" y=\"178.0\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"9.5\" font-weight=\"600\" fill=\"#2f5d50\">juist</text>\n<circle cx=\"338\" cy=\"52\" r=\"8\" fill=\"#ffffff\" stroke=\"#c17f2b\" stroke-width=\"1.8\"/>\n<circle cx=\"338\" cy=\"52\" r=\"2.6\" fill=\"#c17f2b\"/>\n<line x1=\"332\" y1=\"57\" x2=\"205.6\" y2=\"152\" stroke=\"#c17f2b\" stroke-width=\"1.3\" stroke-dasharray=\"4 3\"/>\n<text x=\"342.0\" y=\"34.0\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"9.5\" fill=\"#c17f2b\">schuin</text>\n<line x1=\"205.6\" y1=\"152\" x2=\"205.6\" y2=\"163\" stroke=\"#c17f2b\" stroke-width=\"2.4\"/>\n<text x=\"205.6\" y=\"178.0\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"9.5\" font-weight=\"600\" fill=\"#c17f2b\">te laag</text>\n<text x=\"235.0\" y=\"200.0\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"9\" fill=\"#6b7260\">dezelfde naald, twee leesrichtingen</text></svg>",
+     "onderschrift": "De naald hangt een stukje boven de schaal, dus verschuift ze mee met je ooghoogte."
+    },
+    {
+     "soort": "tekst",
+     "html": "Een analoge meter met een naald lees je af recht van boven, zodat de naald niet verschoven lijkt. Kijk je schuin, dan lees je door de <strong>parallaxfout</strong> een andere waarde. Sommige toestellen hebben daar een spiegeltje voor: je leest goed af wanneer de naald haar spiegelbeeld precies bedekt."
+    },
+    {
+     "soort": "tekst",
+     "html": "En een toestel dat een onwaarschijnlijke waarde aanwijst, mag je niet zonder meer overnemen. Controleer eerst het bereik, de aansluiting en de stand van het toestel. Een schatting vooraf helpt je zo'n fout meteen te zien."
     }
    ]
   },
@@ -25,11 +60,11 @@
    "blokken": [
     {
      "soort": "tekst",
-     "html": "Een kracht meet je <strong>met een dynamometer</strong>, het geluidsniveau in een ruimte met <strong>een decibelmeter</strong>. Samengevat: <strong>een dynamometer voor een kracht</strong>, <strong>een chronometer voor een tijdsduur</strong> en <strong>een decibelmeter voor een geluidsniveau</strong>."
+     "html": "Een kracht meet je met een <strong>dynamometer</strong>, een veer met een schaal erachter. Een tijdsduur meet je met een <strong>chronometer</strong>, en het geluidsniveau in een ruimte met een <strong>decibelmeter</strong>, ook een <strong>geluidsmeter</strong> genoemd. Die laatste gebruik je bijvoorbeeld om na te gaan of een zaal de geluidsnorm haalt."
     },
     {
      "soort": "tekst",
-     "html": "Met een <strong>multimeter</strong> meet je <strong>de spanning over een lamp</strong>, <strong>de stroom door een draad</strong> en <strong>de weerstand van een component</strong>, elk op zijn eigen stand en met zijn eigen manier van aansluiten."
+     "html": "Met een <strong>multimeter</strong> meet je drie dingen: de spanning over een lamp, de stroom door een draad en de weerstand van een component. Elk op zijn eigen stand, en elk met zijn eigen manier van aansluiten. Spanning meet je <em>over</em> het onderdeel, stroom meet je <em>door</em> de kring, dus daar moet je de kring openknippen en de meter ertussen zetten."
     }
    ]
   },
@@ -38,66 +73,180 @@
    "blokken": [
     {
      "soort": "tekst",
-     "html": "Veilig en duurzaam werken in een fysicalabo betekent <strong>het meetbereik en de nauwkeurigheid van een toestel respecteren</strong>, <strong>een meetinstrument uitschakelen als je er niet mee meet</strong> en <strong>de handleiding van een toestel vooraf doorlezen</strong>. Dat laatste doe je <strong>om het meetbereik, de aansluiting en de voorzorgen te kennen</strong>, en <strong>een meetinstrument uitschakelen als je niet meet, hoort bij duurzaam werken</strong>."
+     "html": "Drie werkwijzen horen bij veilig werken in een fysicalabo. Een spanningsbron zet je op de laagste stand voor je hem aansluit. Zo kan je de spanning rustig opdrijven zonder iets te laten doorbranden. Je leest ook de handleiding van een toestel voor je het gebruikt, om het meetbereik, de aansluiting en de voorzorgen te kennen."
     },
     {
      "soort": "tekst",
-     "html": "Een spanningsbron zet je op de laagste stand voor je hem aansluit, want <strong>zo kan je de spanning rustig opdrijven zonder iets te laten doorbranden</strong>. En <strong>je mag elektrische toestellen niet met natte handen bedienen</strong>, want water geleidt."
-    },
-    {
-     "soort": "tekst",
-     "html": "Bij het werken met een radioactieve bron horen deze voorzorgen: <strong>zo ver mogelijk van de bron blijven</strong>, <strong>de bron zo kort mogelijk uit zijn houder halen</strong> en <strong>een afscherming tussen jou en de bron zetten</strong>. De batterijen van meetmateriaal dat je weggooit: <strong>ze horen bij het klein gevaarlijk afval en gaan apart</strong>."
+     "html": "Elektrische toestellen bedien je nooit met natte handen, want water geleidt. Veilig werken en duurzaam werken lopen hier samen: het meetbereik en de nauwkeurigheid van een toestel respecteren spaart het toestel, en een meetinstrument uitschakelen als je er niet mee meet spaart de batterij."
     }
    ]
   },
   {
-   "kop": "Eenheden en voorvoegsels",
+   "kop": "Afval van het labo",
    "blokken": [
     {
      "soort": "tekst",
-     "html": "De SI-eenheid van kracht is <strong>de newton</strong>. SI-eenheden zijn onder andere <strong>de meter voor een lengte</strong>, <strong>de kilogram voor een massa</strong> en <strong>de seconde voor een tijd</strong>."
-    },
-    {
-     "soort": "tekst",
-     "html": "Om van kilometer per uur naar meter per seconde te gaan vermenigvuldig je met <strong>1/3,6</strong>. Verder: <strong>2,5 mA</strong> is <strong>0,0025 A</strong>, <strong>4,7 kΩ</strong> is <strong>4700 Ω</strong>, het voorvoegsel voor een miljoenste is <strong>micro</strong> en <strong>nano staat voor een miljardste van de eenheid</strong>."
-    },
-    {
-     "soort": "tekst",
-     "html": "<strong>Een antwoord zonder eenheid is in de fysica niet even goed als een antwoord met eenheid</strong>: zonder eenheid is een getal nietszeggend. Het <strong>antwoord met de juiste eenheid noteren</strong> hoort dus bij het werk."
+     "html": "De batterijen van meetmateriaal dat je weggooit, horen bij het klein gevaarlijk afval en gaan apart. Ze bevatten zware metalen die anders in de bodem terechtkomen. Duurzaam werken houdt bij het afval niet op."
     }
    ]
   },
   {
-   "kop": "Beduidende cijfers en notatie",
+   "kop": "Werken met een radioactieve bron",
    "blokken": [
     {
      "soort": "tekst",
-     "html": "De meting <strong>0,0250 m</strong> heeft <strong>drie</strong> beduidende cijfers: de nullen vooraan tellen niet mee, de nul achteraan wel. Tel je <strong>2,5 m en 1,25 m</strong> op, dan schrijf je het antwoord <strong>met één cijfer na de komma, dus 3,8 m</strong>: de slechtste meting bepaalt het resultaat."
+     "html": "Bij een radioactieve bron horen drie voorzorgen, en ze zijn alle drie dezelfde als bij straling in het algemeen. Blijf zo ver mogelijk van de bron, haal ze zo kort mogelijk uit haar houder, en zet een afscherming tussen jou en de bron."
     },
     {
-     "soort": "tekst",
-     "html": "Je schrijft niet alle cijfers van je rekenmachine op, want <strong>je antwoord zou dan nauwkeuriger lijken dan je meting is</strong>. In wetenschappelijke notatie wordt <strong>0,00045</strong> <strong>4,5 · 10⁻⁴</strong>; <strong>in de wetenschappelijke notatie staan er niet altijd twee cijfers voor de komma</strong> maar precies één."
-    },
-    {
-     "soort": "tekst",
-     "html": "Een schatting vooraf maak je <strong>om een onzinnig antwoord meteen te herkennen</strong>."
+     "soort": "kader",
+     "html": "Afstand, tijd en afscherming. De intensiteit daalt met \\(\\dfrac{1}{r^{2}}\\), dus twee keer zo ver is vier keer zo weinig."
     }
    ]
   },
   {
-   "kop": "Van tabel naar grafiek naar formule",
+   "kop": "De SI-eenheden",
    "blokken": [
     {
      "soort": "tekst",
-     "html": "Bij het verwerken van meetgegevens horen <strong>de gegevens in een tabel zetten</strong>, <strong>een grafiek tekenen om het verband te zien</strong> en <strong>het antwoord met de juiste eenheid noteren</strong>."
+     "html": "De SI-eenheid van kracht is de <strong>newton</strong>. De joule hoort bij energie, het pascal bij druk en de watt bij vermogen; elk van die drie is uit de newton opgebouwd. Verder zijn de meter voor een lengte, de kilogram voor een massa en de seconde voor een tijd SI-eenheden."
+    },
+    {
+     "soort": "kader",
+     "html": "\\(1\\ \\text{N} = 1\\ \\text{kg}\\cdot\\text{m/s}^{2}\\), \\(1\\ \\text{J} = 1\\ \\text{N}\\cdot\\text{m}\\), \\(1\\ \\text{W} = 1\\ \\text{J/s}\\) en \\(1\\ \\text{Pa} = 1\\ \\text{N/m}^{2}\\)."
+    }
+   ]
+  },
+  {
+   "kop": "Omrekenen naar SI",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "De kilometer per uur is géén SI-eenheid. Ze is handig op een verkeersbord, maar niet de eenheid waarmee je rekent. Om van \\(\\text{km/h}\\) naar \\(\\text{m/s}\\) te gaan vermenigvuldig je met \\(\\dfrac{1}{3{,}6}\\), dus je deelt door \\(3{,}6\\): een uur heeft \\(3600\\) seconden en een kilometer \\(1000\\) meter. Zo is \\(72\\ \\text{km/h}\\) gelijk aan \\(20\\ \\text{m/s}\\)."
+    }
+   ]
+  },
+  {
+   "kop": "Voorvoegsels",
+   "blokken": [
+    {
+     "soort": "figuur",
+     "html": "<svg viewBox=\"0 0 470 122\" width=\"470\" xmlns=\"http://www.w3.org/2000/svg\"><line x1=\"26\" y1=\"58\" x2=\"444\" y2=\"58\" stroke=\"#e4ded0\" stroke-width=\"1.6\"/>\n<rect x=\"10.0\" y=\"41\" width=\"32\" height=\"34\" rx=\"9\" fill=\"#ffffff\" stroke=\"#2f5d50\" stroke-width=\"1.8\"/>\n<text x=\"26.0\" y=\"63.0\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"14\" font-weight=\"600\" fill=\"#2f5d50\">G</text>\n<text x=\"26.0\" y=\"92.0\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"10.5\" fill=\"#234539\">10⁹</text>\n<text x=\"26.0\" y=\"107.0\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"9\" fill=\"#6b7260\">giga</text>\n<rect x=\"79.7\" y=\"41\" width=\"32\" height=\"34\" rx=\"9\" fill=\"#ffffff\" stroke=\"#2f5d50\" stroke-width=\"1.8\"/>\n<text x=\"95.7\" y=\"63.0\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"14\" font-weight=\"600\" fill=\"#2f5d50\">M</text>\n<text x=\"95.7\" y=\"92.0\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"10.5\" fill=\"#234539\">10⁶</text>\n<text x=\"95.7\" y=\"107.0\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"9\" fill=\"#6b7260\">mega</text>\n<rect x=\"149.3\" y=\"41\" width=\"32\" height=\"34\" rx=\"9\" fill=\"#ffffff\" stroke=\"#2f5d50\" stroke-width=\"1.8\"/>\n<text x=\"165.3\" y=\"63.0\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"14\" font-weight=\"600\" fill=\"#2f5d50\">k</text>\n<text x=\"165.3\" y=\"92.0\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"10.5\" fill=\"#234539\">10³</text>\n<text x=\"165.3\" y=\"107.0\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"9\" fill=\"#6b7260\">kilo</text>\n<rect x=\"219.0\" y=\"41\" width=\"32\" height=\"34\" rx=\"9\" fill=\"#ffffff\" stroke=\"#c17f2b\" stroke-width=\"1.8\"/>\n<text x=\"235.0\" y=\"63.0\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"14\" font-weight=\"600\" fill=\"#c17f2b\">1</text>\n<text x=\"235.0\" y=\"92.0\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"10.5\" fill=\"#234539\">10⁰</text>\n<text x=\"235.0\" y=\"107.0\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"9\" fill=\"#6b7260\">eenheid</text>\n<rect x=\"288.7\" y=\"41\" width=\"32\" height=\"34\" rx=\"9\" fill=\"#ffffff\" stroke=\"#2f5d50\" stroke-width=\"1.8\"/>\n<text x=\"304.7\" y=\"63.0\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"14\" font-weight=\"600\" fill=\"#2f5d50\">m</text>\n<text x=\"304.7\" y=\"92.0\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"10.5\" fill=\"#234539\">10⁻³</text>\n<text x=\"304.7\" y=\"107.0\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"9\" fill=\"#6b7260\">milli</text>\n<rect x=\"358.3\" y=\"41\" width=\"32\" height=\"34\" rx=\"9\" fill=\"#ffffff\" stroke=\"#2f5d50\" stroke-width=\"1.8\"/>\n<text x=\"374.3\" y=\"63.0\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"14\" font-weight=\"600\" fill=\"#2f5d50\">µ</text>\n<text x=\"374.3\" y=\"92.0\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"10.5\" fill=\"#234539\">10⁻⁶</text>\n<text x=\"374.3\" y=\"107.0\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"9\" fill=\"#6b7260\">micro</text>\n<rect x=\"428.0\" y=\"41\" width=\"32\" height=\"34\" rx=\"9\" fill=\"#ffffff\" stroke=\"#2f5d50\" stroke-width=\"1.8\"/>\n<text x=\"444.0\" y=\"63.0\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"14\" font-weight=\"600\" fill=\"#2f5d50\">n</text>\n<text x=\"444.0\" y=\"92.0\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"10.5\" fill=\"#234539\">10⁻⁹</text>\n<text x=\"444.0\" y=\"107.0\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"9\" fill=\"#6b7260\">nano</text>\n<path d=\"M32 26 H438 l-7 -5 m7 5 l-7 5\" stroke=\"#6b7260\" stroke-width=\"1.4\" fill=\"none\" stroke-linecap=\"round\"/>\n<text x=\"235.0\" y=\"18.0\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"9.5\" fill=\"#6b7260\">elke stap naar rechts: duizend keer kleiner</text></svg>",
+     "onderschrift": "Van giga tot nano: elk vakje staat voor duizend keer het volgende."
     },
     {
      "soort": "tekst",
-     "html": "Tussen twee grootheden kan je een <strong>recht evenredig</strong>, een <strong>omgekeerd evenredig</strong> of een <strong>kwadratisch</strong> verband tegenkomen. Zie je in een grafiek een rechte door de oorsprong, dan is dat <strong>een recht evenredig verband</strong>; bij een omgekeerd evenredig verband hoort <strong>een kromme die daalt en de assen nadert</strong>."
+     "html": "Een voorvoegsel is niets anders dan een macht van tien die bij de eenheid hoort. <strong>Milli</strong> is een duizendste, dus is \\(2{,}5\\ \\text{mA} = 0{,}0025\\ \\text{A}\\): de komma schuift drie plaatsen naar links, en je leest het af in ampère. <strong>Kilo</strong> is duizend, dus is \\(4{,}7\\ \\text{k}\\Omega = 4700\\ \\Omega\\)."
+    }
+   ]
+  },
+  {
+   "kop": "Micro, nano en mega",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "<strong>Micro</strong> is een miljoenste, \\(10^{-6}\\), en <strong>nano</strong> een miljardste, \\(10^{-9}\\). <strong>Mega</strong> gaat juist de andere kant op: een miljoen keer zoveel, \\(10^{6}\\). Een factor duizend ernaast door een verkeerd voorvoegsel is de meest gemaakte fout van allemaal."
+    }
+   ]
+  },
+  {
+   "kop": "Beduidende cijfers",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "De <strong>beduidende cijfers</strong> van een meting laten zien hoe goed je gemeten hebt. De meting \\(0{,}0250\\ \\text{m}\\) heeft er <strong>drie</strong>: de nullen vooraan tellen niet mee, de nul achteraan wel. Die laatste nul zegt namelijk dat er tot op die plaats gemeten is."
+    }
+   ]
+  },
+  {
+   "kop": "Optellen en afronden",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Tel je \\(2{,}5\\ \\text{m}\\) en \\(1{,}25\\ \\text{m}\\) op, dan schrijf je het antwoord met één cijfer na de komma, dus \\(3{,}8\\ \\text{m}\\) en niet \\(3{,}75\\ \\text{m}\\). Bij een som bepaalt de slechtste meting hoeveel cijfers na de komma je mag houden. Je antwoord kan nu eenmaal niet nauwkeuriger zijn dan je meting."
     },
     {
      "soort": "tekst",
-     "html": "Weet je dat F gelijk is aan m maal a, dan is <strong>a gelijk aan F gedeeld door m</strong>. En <strong>je mag twee formules combineren door een grootheid die in beide staat te vervangen</strong>; zo kom je aan een verband dat je niet rechtstreeks gemeten hebt."
+     "html": "Daarom schrijf je ook niet alle cijfers van je rekenmachine op: je antwoord zou dan nauwkeuriger lijken dan je meting is. Tien cijfers achter de komma bij een meting met een lat is onzin."
+    }
+   ]
+  },
+  {
+   "kop": "Wetenschappelijke notatie en schatten",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "In de <strong>wetenschappelijke notatie</strong> zet je één cijfer anders dan nul voor de komma, en de rest in de macht van tien. Zo wordt \\(0{,}00045\\) gelijk aan \\(4{,}5 \\times 10^{-4}\\), en \\(32\\,000\\) gelijk aan \\(3{,}2 \\times 10^{4}\\). Er staan dus niet twee cijfers voor de komma, maar precies één."
+    },
+    {
+     "soort": "tekst",
+     "html": "Die schrijfwijze maakt heel grote en heel kleine getallen vergelijkbaar, en je ziet er meteen aan hoeveel beduidende cijfers er zijn. \\(4{,}50 \\times 10^{-4}\\) zegt iets anders dan \\(4{,}5 \\times 10^{-4}\\)."
+    }
+   ]
+  },
+  {
+   "kop": "Eerst schatten",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Maak vooraf een <strong>schatting</strong> van je uitkomst, om een onzinnig antwoord meteen te herkennen. Een mens die \\(300\\ \\text{m/s}\\) loopt, klopt niet. Zo'n schatting kost tien seconden en vangt de meeste rekenfouten op."
+    }
+   ]
+  },
+  {
+   "kop": "Van tabel naar grafiek",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Meetgegevens verwerk je in drie stappen: de gegevens in een tabel zetten, een grafiek tekenen om het verband te zien, en het antwoord met de juiste eenheid noteren. Wat je instelt komt op de horizontale as, wat je meet op de verticale."
+    },
+    {
+     "soort": "tekst",
+     "html": "Een meting die niet past, laat je niet zomaar weg. Dat mag alleen met een reden die je opschrijft, bijvoorbeeld dat de chronometer te laat gestart is. Anders pas je je gegevens aan je verwachting aan, en dat is precies de omgekeerde weg."
+    }
+   ]
+  },
+  {
+   "kop": "Drie verbanden herkennen",
+   "blokken": [
+    {
+     "soort": "figuur",
+     "html": "<svg viewBox=\"0 0 470 168\" width=\"470\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"5.0\" y=\"6\" width=\"138.7\" height=\"126\" rx=\"7\" fill=\"#ffffff\" stroke=\"#e4ded0\" stroke-width=\"1.2\"/>\n<line x1=\"26.0\" y1=\"26\" x2=\"26.0\" y2=\"104\" stroke=\"#23291f\" stroke-width=\"1.5\"/>\n<line x1=\"26.0\" y1=\"104\" x2=\"136.7\" y2=\"104\" stroke=\"#23291f\" stroke-width=\"1.5\"/>\n<text x=\"19.0\" y=\"30.0\" text-anchor=\"end\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"9.5\" fill=\"#6b7260\">y</text>\n<text x=\"136.7\" y=\"118.0\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"9.5\" fill=\"#6b7260\">x</text>\n<polyline points=\"26.0,104.0 28.8,102.0 31.5,100.1 34.3,98.2 37.1,96.2 39.8,94.2 42.6,92.3 45.4,90.3 48.1,88.4 50.9,86.5 53.7,84.5 56.4,82.5 59.2,80.6 62.0,78.7 64.7,76.7 67.5,74.8 70.3,72.8 73.0,70.8 75.8,68.9 78.6,67.0 81.3,65.0 84.1,63.0 86.9,61.1 89.6,59.2 92.4,57.2 95.2,55.2 97.9,53.3 100.7,51.3 103.5,49.4 106.2,47.5 109.0,45.5 111.8,43.5 114.5,41.6 117.3,39.7 120.1,37.7 122.8,35.8 125.6,33.8 128.4,31.8 131.1,29.9 133.9,28.0 136.7,26.0\" fill=\"none\" stroke=\"#2f5d50\" stroke-width=\"2.2\"/>\n<text x=\"74.3\" y=\"146.0\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"10\" font-weight=\"600\" fill=\"#234539\">recht evenredig</text>\n<text x=\"74.3\" y=\"160.0\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"9.5\" fill=\"#c17f2b\">y = k · x</text>\n<rect x=\"165.66666666666666\" y=\"6\" width=\"138.7\" height=\"126\" rx=\"7\" fill=\"#ffffff\" stroke=\"#e4ded0\" stroke-width=\"1.2\"/>\n<line x1=\"186.66666666666666\" y1=\"26\" x2=\"186.66666666666666\" y2=\"104\" stroke=\"#23291f\" stroke-width=\"1.5\"/>\n<line x1=\"186.66666666666666\" y1=\"104\" x2=\"297.3\" y2=\"104\" stroke=\"#23291f\" stroke-width=\"1.5\"/>\n<text x=\"179.7\" y=\"30.0\" text-anchor=\"end\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"9.5\" fill=\"#6b7260\">y</text>\n<text x=\"297.3\" y=\"118.0\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"9.5\" fill=\"#6b7260\">x</text>\n<polyline points=\"202.2,26.0 204.5,36.4 206.9,44.3 209.3,50.6 211.7,55.7 214.1,59.9 216.4,63.4 218.8,66.4 221.2,69.0 223.6,71.3 226.0,73.2 228.3,75.0 230.7,76.6 233.1,78.0 235.5,79.2 237.8,80.4 240.2,81.4 242.6,82.4 245.0,83.3 247.4,84.1 249.7,84.8 252.1,85.5 254.5,86.2 256.9,86.8 259.3,87.4 261.6,87.9 264.0,88.4 266.4,88.8 268.8,89.3 271.2,89.7 273.5,90.1 275.9,90.5 278.3,90.8 280.7,91.1 283.1,91.5 285.4,91.8 287.8,92.1 290.2,92.3 292.6,92.6 295.0,92.8 297.3,93.1\" fill=\"none\" stroke=\"#2f5d50\" stroke-width=\"2.2\"/>\n<text x=\"235.0\" y=\"146.0\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"10\" font-weight=\"600\" fill=\"#234539\">omgekeerd evenredig</text>\n<text x=\"235.0\" y=\"160.0\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"9.5\" fill=\"#c17f2b\">y = k / x</text>\n<rect x=\"326.3333333333333\" y=\"6\" width=\"138.7\" height=\"126\" rx=\"7\" fill=\"#ffffff\" stroke=\"#e4ded0\" stroke-width=\"1.2\"/>\n<line x1=\"347.3333333333333\" y1=\"26\" x2=\"347.3333333333333\" y2=\"104\" stroke=\"#23291f\" stroke-width=\"1.5\"/>\n<line x1=\"347.3333333333333\" y1=\"104\" x2=\"458.0\" y2=\"104\" stroke=\"#23291f\" stroke-width=\"1.5\"/>\n<text x=\"340.3\" y=\"30.0\" text-anchor=\"end\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"9.5\" fill=\"#6b7260\">y</text>\n<text x=\"458.0\" y=\"118.0\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"9.5\" fill=\"#6b7260\">x</text>\n<polyline points=\"347.3,104.0 350.1,104.0 352.9,103.8 355.6,103.6 358.4,103.2 361.2,102.8 363.9,102.2 366.7,101.6 369.5,100.9 372.2,100.1 375.0,99.1 377.8,98.1 380.5,97.0 383.3,95.8 386.1,94.4 388.8,93.0 391.6,91.5 394.4,89.9 397.1,88.2 399.9,86.4 402.7,84.5 405.4,82.5 408.2,80.4 411.0,78.2 413.7,75.9 416.5,73.5 419.3,71.0 422.0,68.5 424.8,65.8 427.6,63.0 430.3,60.1 433.1,57.2 435.9,54.1 438.6,50.9 441.4,47.6 444.2,44.3 446.9,40.8 449.7,37.3 452.5,33.6 455.2,29.9 458.0,26.0\" fill=\"none\" stroke=\"#2f5d50\" stroke-width=\"2.2\"/>\n<text x=\"395.7\" y=\"146.0\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"10\" font-weight=\"600\" fill=\"#234539\">kwadratisch</text>\n<text x=\"395.7\" y=\"160.0\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"9.5\" fill=\"#c17f2b\">y = k · x²</text></svg>",
+     "onderschrift": "Dezelfde twee grootheden, drie manieren waarop ze van elkaar kunnen afhangen."
+    },
+    {
+     "soort": "tekst",
+     "html": "Zie je in een grafiek een <strong>rechte door de oorsprong</strong>, dan is het verband <strong>recht evenredig</strong>: \\(y = k\\,x\\). Verdubbel je het ene, dan verdubbelt het andere. Een rechte die de as ergens anders snijdt, \\(y = k\\,x + q\\), is wel <strong>lineair</strong> maar niet recht evenredig."
+    }
+   ]
+  },
+  {
+   "kop": "Omgekeerd evenredig en kwadratisch",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Bij een <strong>omgekeerd evenredig</strong> verband hoort een kromme die daalt en de assen nadert. Het product van de twee grootheden blijft dan constant: \\(x\\,y = k\\), dus \\(y = \\dfrac{k}{x}\\). De \\(p(V)\\)-grafiek bij constante temperatuur is daarvan het schoolvoorbeeld. En bij een <strong>kwadratisch</strong> verband, \\(y = k\\,x^{2}\\), hoort een parabool door de oorsprong. Beduidend hoort bij de cijfers van een meting, niet in dit rijtje."
+    }
+   ]
+  },
+  {
+   "kop": "Een formule omvormen",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Weet je dat \\(F = m\\,a\\), dan vind je \\(a\\) door beide kanten door \\(m\\) te delen: \\(a = \\dfrac{F}{m}\\). Zo vorm je elke formule om naar de grootheid die je zoekt. Doe wat je links doet ook rechts, dan blijft de gelijkheid staan."
+    },
+    {
+     "soort": "kader",
+     "html": "\\(F = m\\,a\\) geeft \\(a = \\dfrac{F}{m}\\) en \\(m = \\dfrac{F}{a}\\)."
+    }
+   ]
+  },
+  {
+   "kop": "Twee formules combineren",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Je mag ook twee formules combineren door een grootheid die in beide staat te vervangen. Zo kom je aan een verband dat je niet rechtstreeks gemeten hebt. Let er wel op dat je overal dezelfde eenheden gebruikt, en schrijf bij je antwoord altijd de eenheid: zonder eenheid weet niemand of je \\(5\\ \\text{m}\\) of \\(5\\ \\text{km}\\) bedoelt."
     }
    ]
   }
@@ -108,8 +257,10 @@
   "Dynamometer, chronometer, decibelmeter, multimeter.",
   "Laagste stand eerst, droge handen, handleiding vooraf.",
   "Radioactieve bron: ver, kort en achter een afscherming.",
+  "Milli \\(10^{-3}\\), micro \\(10^{-6}\\), nano \\(10^{-9}\\), kilo \\(10^{3}\\), mega \\(10^{6}\\).",
   "Beduidende cijfers: de slechtste meting bepaalt het antwoord.",
   "Wetenschappelijke notatie: één cijfer voor de komma.",
+  "\\(y = k\\,x\\), \\(y = \\dfrac{k}{x}\\) of \\(y = k\\,x^{2}\\): kijk naar de grafiek.",
   "Elk antwoord krijgt zijn eenheid."
  ]
 }
