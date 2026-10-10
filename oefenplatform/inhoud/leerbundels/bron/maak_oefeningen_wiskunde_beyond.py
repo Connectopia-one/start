@@ -19,7 +19,7 @@ krijgen. Het achtervoegsel houdt ze uit elkaar van wiskunde gevorderd van
 
 Wiskunde staat hier in echte notatie, tussen \( en \), net als in de vragen en
 in de leerbundels. Zie oefenplatform/lib/wiskunde.ts. De omzetting gebeurt
-thema per thema; omgezet zijn thema 1 tot 10.
+thema per thema; omgezet zijn thema 1 tot 11.
 """
 import sys, pathlib
 sys.path.insert(0, str(pathlib.Path(__file__).parent))
@@ -871,45 +871,109 @@ OEFENBUNDELS["oefenbundel-primitieven-en-de-onbepaalde-integraal-beyond"] = dict
     hoe=HOE,
     reeksen=[
         dict(kop="Basisprimitieven",
-             opdracht="Zoek een primitieve. Vergeet de constante niet, en controleer door af te leiden.",
+             opdracht=r"Zoek een primitieve. Vergeet \(+\,C\) niet, en controleer door af te leiden.",
              oefeningen=[
-                 ("rij", [("x tot de vierde", "x tot de vijfde gedeeld door vijf"), ("zes", "zes x"),
-                          ("de sinus van x", "min de cosinus van x"), ("één gedeeld door x", "de natuurlijke logaritme van de absolute waarde van x")],
+                 ("rij", [(r"\(\int x^{4}\,dx\)", r"\(\dfrac{x^{5}}{5} + C\)"),
+                          (r"\(\int 6\,dx\)", r"\(6x + C\)"),
+                          (r"\(\int \sin x\,dx\)", r"\(-\cos x + C\)"),
+                          (r"\(\int \dfrac{1}{x}\,dx\)", r"\(\ln|x| + C\)"),
+                          (r"\(\int e^{x}\,dx\)", r"\(e^{x} + C\)"),
+                          (r"\(\int \cos x\,dx\)", r"\(\sin x + C\)")],
                   "Geef een primitieve.", WL),
-                 ("open", "Leg uit waarom de regel voor x tot de macht n niet werkt als n gelijk is aan min één.",
-                  "Je zou door n plus één delen, en dat is nul. Net die ene integraal geeft de natuurlijke logaritme.", 3),
-                 ("waar", "Twee primitieven van dezelfde functie hebben dezelfde afgeleide.", True),
              ]),
         dict(kop="Lineariteit",
-             opdracht="Splits en haal constanten buiten het integraalteken.",
+             opdracht="Splits de integrand en haal constanten buiten het integraalteken.",
              oefeningen=[
-                 ("rij", [("vier x plus drie", "twee x kwadraat plus drie x"), ("zes x kwadraat", "twee x tot de derde"),
-                          ("x min de cosinus van x", "x kwadraat gedeeld door twee min de sinus van x"),
-                          ("vijf e tot de macht x", "vijf e tot de macht x")],
+                 ("rij", [(r"\(\int (4x + 3)\,dx\)", r"\(2x^{2} + 3x + C\)"),
+                          (r"\(\int 6x^{2}\,dx\)", r"\(2x^{3} + C\)"),
+                          (r"\(\int \left(x - \cos x\right)dx\)",
+                           r"\(\dfrac{x^{2}}{2} - \sin x + C\)"),
+                          (r"\(\int 5\,e^{x}\,dx\)", r"\(5\,e^{x} + C\)")],
                   "Geef een primitieve.", WL),
-                 ("waar", "Een factor met een x erin mag je voor het integraalteken zetten.", False),
+             ]),
+        dict(kop="Eerst herschrijven",
+             opdracht=r"Schrijf de integrand eerst als een macht of als een som, en integreer dan pas.",
+             oefeningen=[
+                 ("kort", r"\(\int \dfrac{1}{x^{2}}\,dx\)", r"\(-\dfrac{1}{x} + C\)", WW),
+                 ("kort", r"\(\int \sqrt{x}\,dx\)", r"\(\dfrac{2}{3}x\sqrt{x} + C\)", WW),
+                 ("kort", r"\(\int \dfrac{3}{x}\,dx\)", r"\(3\ln|x| + C\)", WW),
+                 ("kort", r"\(\int \dfrac{x^{2} + 1}{x}\,dx\)",
+                  r"\(\dfrac{x^{2}}{2} + \ln|x| + C\)", WW),
              ]),
         dict(kop="Welke methode",
-             opdracht="Kruis aan welke integratiemethode het eerst past: onmiddellijk, splitsen, substitutie of partiële integratie.",
+             opdracht="Kruis aan welke methode het eerst past: onmiddellijk, splitsen, "
+                      "substitutie of partiële integratie.",
              oefeningen=[
-                 ("tabel", ["Integrand", "Methode"],
-                  [["drie x kwadraat min vier x", None], ["x maal de sinus van x", None],
-                   ["twee x maal e tot de macht x kwadraat", None], ["de cosinus van x", None]],
-                  "splitsen; partiële integratie; substitutie; onmiddellijk", "230px"),
-                 ("open", "Wat moet er in de integrand staan voor je een substitutie kan uitvoeren?",
-                  "Een binnenste functie waarvan ook de afgeleide in de integrand voorkomt. Zonder die afgeleide kan je de dx niet omzetten.", 3),
-                 ("open", "Schrijf de formule voor partiële integratie op en zeg welk teken het vaakst vergeten wordt.",
-                  "u maal v, min de integraal van v maal de afgeleide van u. Het minteken voor de tweede integraal.", 2),
+                 ("tabel", ["Integraal", "Methode"],
+                  [[r"\(\int \left(3x^{2} - 4x\right)dx\)", None],
+                   [r"\(\int x\sin x\,dx\)", None],
+                   [r"\(\int 2x\,e^{x^{2}}\,dx\)", None],
+                   [r"\(\int \cos x\,dx\)", None],
+                   [r"\(\int \dfrac{3x^{2}}{x^{3} + 5}\,dx\)", None]],
+                  "splitsen; partiële integratie; substitutie; onmiddellijk; substitutie",
+                  "230px"),
+             ]),
+        dict(kop="Substitutie",
+             opdracht=r"Zoek de binnenste functie \(u\) waarvan de afgeleide er ook staat.",
+             oefeningen=[
+                 ("kort", r"\(\int 2x\,e^{x^{2}}\,dx\)", r"\(e^{x^{2}} + C\)", WW),
+                 ("kort", r"\(\int \dfrac{2x}{x^{2} + 1}\,dx\)", r"\(\ln\left(x^{2}+1\right) + C\)", WW),
+                 ("kort", r"\(\int (x + 1)^{5}\,dx\)", r"\(\dfrac{(x+1)^{6}}{6} + C\)", WW),
+             ]),
+        dict(kop="Partiële integratie",
+             opdracht=r"Gebruik \(\int u\,v'\,dx = u\,v - \int v\,u'\,dx\), en kies \(u\) zo dat "
+                      r"\(u'\) eenvoudiger wordt.",
+             oefeningen=[
+                 ("kort", r"\(\int x\,e^{x}\,dx\)", r"\(x\,e^{x} - e^{x} + C\)", WL),
+                 ("kort", r"\(\int x\cos x\,dx\)", r"\(x\sin x + \cos x + C\)", WL),
              ]),
         dict(kop="Bepaalde integralen",
              opdracht="Zoek een primitieve, vul de twee grenzen in en trek af.",
              oefeningen=[
-                 ("rij", [("van nul tot drie van twee x", "9"), ("van één tot twee van x kwadraat", "zeven derden"),
-                          ("van nul tot pi gedeeld door twee van de cosinus van x", "1"), ("van vijf tot vijf van om het even wat", "0")],
+                 ("rij", [(r"\(\int_{0}^{3} 2x\,dx\)", r"\(9\)"),
+                          (r"\(\int_{1}^{2} x^{2}\,dx\)", r"\(\dfrac{7}{3}\)"),
+                          (r"\(\int_{0}^{\pi/2} \cos x\,dx\)", r"\(1\)"),
+                          (r"\(\int_{5}^{5} f(x)\,dx\)", r"\(0\)")],
                   "Reken uit.", WW),
-                 ("open", "Leg uit waarom je bij een bepaalde integraal geen plus C schrijft.",
-                  "Je telt dezelfde constante er in de bovengrens bij en in de ondergrens weer af, dus ze valt weg.", 2),
+             ]),
+        dict(kop="Met e en met π",
+             opdracht="Dezelfde werkwijze, maar nu met grenzen die zelf een getal als e of pi zijn.",
+             oefeningen=[
+                 ("kort", r"\(\int_{0}^{\pi} \sin x\,dx\)", r"\(2\)", W),
+                 ("kort", r"\(\int_{1}^{e} \dfrac{1}{x}\,dx\)", r"\(1\)", W),
+                 ("kort", r"\(\int_{0}^{1} e^{x}\,dx\)", r"\(e - 1\)", W),
+             ]),
+        dict(kop="Waar of niet waar: primitieven",
+             opdracht="Zet een kruisje, en verbeter in gedachten wat niet klopt.",
+             oefeningen=[
+                 ("waar", "Twee primitieven van dezelfde functie hebben dezelfde afgeleide.", True),
+                 ("waar", r"Een factor met een \(x\) erin mag je voor het integraalteken zetten.", False),
                  ("waar", "Na een substitutie in een bepaalde integraal mag je de oude grenzen laten staan.", False),
+                 ("waar", r"\(\int \sin x\,dx = -\cos x + C\).", True),
+             ]),
+        dict(kop="Waar of niet waar: methodes",
+             opdracht="Nog vier uitspraken, over de regels en de methodes.",
+             oefeningen=[
+                 ("waar", "Elke continue functie heeft een primitieve.", True),
+                 ("waar", r"\(\int x^{-1}\,dx = \dfrac{x^{0}}{0} + C\).", False),
+                 ("waar", "Partiële integratie volgt uit de productregel voor afgeleiden.", True),
+                 ("waar", "Een integraal met een wortel erin kan je nooit met substitutie oplossen.", False),
+             ]),
+        dict(kop="Uitleggen",
+             opdracht="Schrijf in volle zinnen, en noem de regel of de voorwaarde die je gebruikt.",
+             oefeningen=[
+                 ("open", r"Leg uit waarom \(\int x^{n}\,dx = \dfrac{x^{\,n+1}}{n+1} + C\) niet "
+                          r"werkt voor \(n = -1\).",
+                  r"Je zou delen door \(n + 1 = 0\). Net die ene integraal geeft \(\ln|x| + C\).", 3),
+                 ("open", "Wat moet er in de integrand staan voor je een substitutie kan uitvoeren?",
+                  r"Een binnenste functie waarvan ook de afgeleide in de integrand staat. Zonder "
+                  r"die afgeleide kan je \(dx\) niet omzetten naar \(du\).", 3),
+                 ("open", r"Leg uit waarom je bij een bepaalde integraal geen \(+\,C\) schrijft.",
+                  r"\(\left(F(b) + C\right) - \left(F(a) + C\right) = F(b) - F(a)\): dezelfde "
+                  r"constante komt er in de bovengrens bij en in de ondergrens weer af.", 3),
+                 ("open", "Hoe controleer je of je primitieve klopt, en waarom is dat een echte controle?",
+                  r"Leid je antwoord af; je moet de integrand terugkrijgen. Afleiden is eenduidig, "
+                  r"terwijl opnieuw integreren vaak dezelfde fout herhaalt.", 3),
              ]),
     ],
 )

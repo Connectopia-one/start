@@ -26,7 +26,7 @@ alles nog in woorden stond en had gelijk: een leerling van de derde graad moet
 
 De omzetting gebeurt thema per thema, samen met de vragen van dat thema, zodat
 een kind in de bundel dezelfde schrijfwijze terugvindt als in de oefening.
-Omgezet: thema 1 tot 10. De andere thema's staan nog in woorden.
+Omgezet: thema 1 tot 11. De andere thema's staan nog in woorden.
 """
 import sys, pathlib
 sys.path.insert(0, str(pathlib.Path(__file__).parent))
@@ -1287,100 +1287,132 @@ BUNDELS["primitieven-en-de-onbepaalde-integraal-beyond"] = dict(
     onder="Afleiden in omgekeerde richting, de basisprimitieven en de vier integratiemethoden.",
     secties=[
         dict(kop="Wat een primitieve is", blokken=[
-            ("p", "<strong>Een primitieve functie van f is een functie waarvan de afgeleide f is.</strong> "
-                  "<strong>Primitiveren is dus de omgekeerde bewerking van afleiden</strong>, en dat is "
-                  "meteen de beste controle op je werk: <strong>leid je antwoord af en je moet de "
-                  "integrand terugkrijgen</strong>. Leid je een primitieve van f af, dan krijg je "
-                  "<strong>f</strong>."),
-            ("p", "<strong>Bij een onbepaalde integraal schrijf je altijd plus C, omdat elke constante bij "
-                  "het afleiden verdwijnt.</strong> Een functie met één primitieve heeft er dus "
-                  "<strong>oneindig veel</strong>. <strong>Twee primitieven van dezelfde functie hebben "
-                  "altijd dezelfde afgeleide</strong>; ze verschillen alleen een constante. Daarom heet de "
-                  "integraal zonder grenzen de <strong>onbepaalde</strong> integraal: <strong>de uitkomst "
-                  "blijft op een constante na onbepaald</strong>."),
-            ("p", "<strong>Het verschil met een bepaalde integraal: die heeft grenzen en levert een getal "
-                  "op.</strong> De onbepaalde integraal is een familie van functies. <strong>Bij een "
-                  "bepaalde integraal schrijf je geen plus C, want die valt bij het aftrekken van de twee "
-                  "grenzen weg.</strong> De functie die je integreert heet de <strong>integrand</strong>, "
-                  "en die staat tussen het integraalteken en de dx."),
-            ("weetje", "<strong>Elke continue functie heeft een primitieve.</strong> Dat volgt uit de "
-                       "hoofdstelling van de integraalrekening. Of je die primitieve ook in een formule kan "
-                       "schrijven, is een andere vraag."),
+            ("p", r"<strong>Een primitieve functie \(F\) van \(f\) is een functie met "
+                  r"\(F'(x) = f(x)\).</strong> <strong>Primitiveren is dus de omgekeerde bewerking "
+                  r"van afleiden</strong>, en dat is meteen de beste controle op je werk: "
+                  r"<strong>leid je antwoord af en je moet de integrand terugkrijgen</strong>. Leid "
+                  r"je een primitieve van \(f\) af, dan krijg je <strong>\(f\)</strong>."),
+            ("p", r"Je noteert dat zo: \(\int f(x)\,dx = F(x) + C\). De functie die je integreert "
+                  r"heet de <strong>integrand</strong>, en die staat tussen \(\int\) en \(dx\)."),
+        ]),
+        dict(kop=r"Waarom er altijd \(+\,C\) bij staat", blokken=[
+            ("p", r"<strong>Bij een onbepaalde integraal schrijf je altijd \(+\,C\), omdat elke "
+                  r"constante bij het afleiden verdwijnt.</strong> Een functie met één primitieve "
+                  r"heeft er dus <strong>oneindig veel</strong>. <strong>Twee primitieven van "
+                  r"dezelfde functie hebben altijd dezelfde afgeleide</strong>; ze verschillen "
+                  r"alleen een constante."),
+            ("fig", svg.primitievenfamilie(),
+             r"Drie primitieven van \(f(x) = x\), namelijk \(F(x) = \tfrac{x^{2}}{2} + C\)."),
+            ("p", r"Daarom heet de integraal zonder grenzen de <strong>onbepaalde</strong> "
+                  r"integraal: <strong>de uitkomst blijft op een constante na onbepaald</strong>. "
+                  r"Die \(C\) heet de <strong>integratieconstante</strong>, en ze hoort bij elke "
+                  r"onbepaalde integraal: \(\int 5\,dx = 5x + C\)."),
+        ]),
+        dict(kop="Onbepaald of bepaald", blokken=[
+            ("p", r"<strong>Het verschil met een bepaalde integraal: die heeft grenzen en levert "
+                  r"een getal op.</strong> \(\int f(x)\,dx\) is een familie van functies, "
+                  r"\(\int_{a}^{b} f(x)\,dx\) is een getal. <strong>Bij een bepaalde integraal "
+                  r"schrijf je geen \(+\,C\), want die valt bij het aftrekken van de twee grenzen "
+                  r"weg</strong>: \(\left(F(b) + C\right) - \left(F(a) + C\right) = F(b) - F(a)\)."),
+            ("weetje", r"<strong>Elke continue functie heeft een primitieve.</strong> Dat volgt uit "
+                       r"de hoofdstelling van de integraalrekening. Of je die primitieve ook in een "
+                       r"formule kan schrijven, is een andere vraag."),
         ]),
         dict(kop="De basisprimitieven", blokken=[
-            ("p", tabel(["Functie", "Haar primitieve", "Let op"], [
-                ["x tot de macht n", "x tot de macht n plus één, gedeeld door n plus één", "de exponent gaat omhoog, en je deelt door die nieuwe exponent"],
-                ["één gedeeld door x", "de natuurlijke logaritme van de absolute waarde van x", "de regel hierboven werkt niet voor n gelijk aan min één"],
-                ["een constante k", "k maal x", "de grafiek van de primitieve is een rechte met helling k"],
-                ["de cosinus van x", "de sinus van x", "afleiden gaat de andere kant op"],
-                ["de sinus van x", "min de cosinus van x", "het minteken hoort erbij"],
-                ["e tot de macht x", "e tot de macht x", "die functie is haar eigen afgeleide én haar eigen primitieve"],
+            ("p", tabel(["Integraal", "Uitkomst", "Let op"], [
+                [r"\(\int x^{n}\,dx\)", r"\(\dfrac{x^{\,n+1}}{n+1} + C\)",
+                 "de exponent gaat omhoog, en je deelt door die nieuwe exponent"],
+                [r"\(\int \dfrac{1}{x}\,dx\)", r"\(\ln|x| + C\)",
+                 r"de regel hierboven werkt niet voor \(n = -1\)"],
+                [r"\(\int k\,dx\)", r"\(k\,x + C\)",
+                 r"de grafiek van de primitieve is een rechte met helling \(k\)"],
+                [r"\(\int \cos x\,dx\)", r"\(\sin x + C\)", "afleiden gaat de andere kant op"],
+                [r"\(\int \sin x\,dx\)", r"\(-\cos x + C\)", "het minteken hoort erbij"],
+                [r"\(\int e^{x}\,dx\)", r"\(e^{x} + C\)",
+                 "die functie is haar eigen afgeleide én haar eigen primitieve"],
             ])),
-            ("p", "Bij elk van die primitieven hoort nog <strong>plus een constante</strong>. De regel voor "
-                  "x tot de macht n <strong>werkt niet voor n gelijk aan min één</strong>, want dan zou je "
-                  "door nul delen; die ene integraal geeft net de logaritme. De <strong>absolute waarde</strong> "
-                  "in die logaritme zorgt dat de formule ook werkt voor negatieve x."),
-            ("p", "<strong>De lineariteit van de integraal</strong> zegt dat je <strong>termsgewijs mag "
-                  "integreren en constanten buiten mag halen</strong>. <strong>Een constante factor mag dus "
-                  "voor het integraalteken</strong>; een factor met een x erin niet. Voor een product of een "
-                  "quotiënt werkt het evenmin, en daar bestaan net de andere methodes voor."),
-            ("p", "Twee bepaalde integralen om mee te oefenen: de <strong>integraal van nul tot twee van "
-                  "x</strong> is <strong>twee</strong> (de primitieve is x kwadraat gedeeld door twee, en "
-                  "het is ook de oppervlakte van een driehoek met basis twee en hoogte twee), en de "
-                  "<strong>integraal van nul tot één van x kwadraat</strong> is <strong>een derde</strong>."),
+            ("p", r"De machtregel <strong>werkt niet voor \(n = -1\)</strong>, want dan zou je door "
+                  r"nul delen; die ene integraal geeft net de logaritme. De <strong>absolute "
+                  r"waarde</strong> in \(\ln|x|\) zorgt dat de formule ook werkt voor \(x < 0\)."),
+        ]),
+        dict(kop="De lineariteit", blokken=[
+            ("p", r"<strong>De lineariteit van de integraal</strong> zegt dat je <strong>termsgewijs "
+                  r"mag integreren en constanten buiten mag halen</strong>:"),
+            ("kader", r"\(\int \left(f(x) + g(x)\right)dx = \int f(x)\,dx + \int g(x)\,dx\)<br>"
+                      r"\(\int k\,f(x)\,dx = k \int f(x)\,dx\)"),
+            ("p", r"<strong>Een constante factor mag dus voor het integraalteken</strong>; een "
+                  r"factor met een \(x\) erin niet. Voor een product of een quotiënt werkt het "
+                  r"evenmin, en daar bestaan net de andere methodes voor."),
+            ("p", r"Twee bepaalde integralen om mee te oefenen: \(\int_{0}^{2} x\,dx = 2\) (de "
+                  r"primitieve is \(\tfrac{x^{2}}{2}\), en het is ook de oppervlakte van een "
+                  r"driehoek met basis \(2\) en hoogte \(2\)), en "
+                  r"\(\int_{0}^{1} x^{2}\,dx = \tfrac{1}{3}\)."),
         ]),
         dict(kop="De vier integratiemethoden", blokken=[
             ("p", tabel(["Methode", "Wanneer", "Hoe"], [
-                ["onmiddellijke integratie", "de integrand staat meteen in de tabel", "soms moet je eerst herschrijven, een wortel als een macht"],
-                ["integratie door splitsing", "de integrand is een som", "elke term apart integreren, dankzij de lineariteit"],
-                ["integratie door substitutie", "een binnenste functie staat er met haar afgeleide naast", "de kettingregel in omgekeerde richting"],
-                ["partiële integratie", "een product van twee heel verschillende functies", "u maal v, min de integraal van v maal de afgeleide van u"],
+                ["onmiddellijke integratie", "de integrand staat meteen in de tabel",
+                 r"soms moet je eerst herschrijven, \(\sqrt{x} = x^{1/2}\)"],
+                ["integratie door splitsing", "de integrand is een som",
+                 "elke term apart integreren, dankzij de lineariteit"],
+                ["integratie door substitutie",
+                 "een binnenste functie staat er met haar afgeleide naast",
+                 "de kettingregel in omgekeerde richting"],
+                ["partiële integratie", "een product van twee heel verschillende functies",
+                 r"\(\int u\,v'\,dx = u\,v - \int v\,u'\,dx\)"],
             ])),
-            ("p", "<strong>Splits je de integraal van twee x plus drie, dan valt ze uiteen in twee aparte "
-                  "integralen</strong>, en de twee mag je buiten de eerste halen."),
-            ("p", "<strong>Bij een substitutie kies je als nieuwe veranderlijke een binnenste functie "
-                  "waarvan de afgeleide ook in de integrand staat.</strong> Zonder die afgeleide erbij kan "
-                  "je de dx niet omzetten en loopt de substitutie vast. Een vast patroon: <strong>de "
-                  "primitieve van de afgeleide van f, gedeeld door f, is de natuurlijke logaritme van de "
-                  "absolute waarde van f</strong>; je herkent het aan de afgeleide van de noemer die in de "
-                  "teller staat. <strong>Een integraal met een wortel erin kan je wel degelijk met "
-                  "substitutie oplossen</strong>; dat is er zelfs een van de vaste methodes voor."),
-            ("p", "<strong>Partiële integratie volgt uit de productregel voor afgeleiden</strong>: je "
-                  "integreert die regel langs beide kanten en brengt één term naar de andere kant. Het "
-                  "typische geval is <strong>x maal e tot de macht x</strong>. <strong>Het minteken in de "
-                  "formule vergeten</strong> is de meest gemaakte fout bij deze methode."),
-            ("kader", "<strong>Bij een bepaalde integraal mag je na een substitutie de oude grenzen niet "
-                      "laten staan.</strong> Ze horen bij de oude veranderlijke: zet ze mee om, of ga na de "
-                      "integratie eerst terug naar x."),
+            ("p", r"<strong>Splits je \(\int (2x + 3)\,dx\), dan valt ze uiteen in twee aparte "
+                  r"integralen</strong>, en de factor \(2\) mag je buiten de eerste halen."),
+        ]),
+        dict(kop="Substitutie van dichtbij", blokken=[
+            ("p", r"<strong>Bij een substitutie kies je als nieuwe veranderlijke \(u\) een binnenste "
+                  r"functie waarvan de afgeleide ook in de integrand staat.</strong> Zonder die "
+                  r"afgeleide erbij kan je \(dx\) niet omzetten naar \(du\) en loopt de substitutie "
+                  r"vast."),
+            ("p", r"Een vast patroon dat je overal terugziet: "
+                  r"<strong>\(\int \dfrac{f'(x)}{f(x)}\,dx = \ln|f(x)| + C\)</strong>. Je herkent "
+                  r"het aan de afgeleide van de noemer die in de teller staat. <strong>Een integraal "
+                  r"met een wortel erin kan je wel degelijk met substitutie oplossen</strong>; dat "
+                  r"is er zelfs een van de vaste methodes voor."),
+            ("kader", r"<strong>Bij een bepaalde integraal mag je na een substitutie de oude grenzen "
+                      r"niet laten staan.</strong> Ze horen bij \(x\), niet bij \(u\): zet ze mee "
+                      r"om, of ga na de integratie eerst terug naar \(x\)."),
+        ]),
+        dict(kop="Partiële integratie", blokken=[
+            ("p", r"<strong>Partiële integratie volgt uit de productregel voor afgeleiden</strong>: "
+                  r"je integreert \(\left(u\,v\right)' = u'v + u\,v'\) langs beide kanten en brengt "
+                  r"één term naar de andere kant. Zo krijg je "
+                  r"\(\int u\,v'\,dx = u\,v - \int v\,u'\,dx\)."),
+            ("p", r"Het typische geval is <strong>\(\int x\,e^{x}\,dx\)</strong>: een product van "
+                  r"twee heel verschillende soorten functies. <strong>Het minteken in de formule "
+                  r"vergeten</strong> is de meest gemaakte fout bij deze methode."),
         ]),
         dict(kop="Handigheden", blokken=[
-            ("p", "<strong>Bij een breuk waarvan de teller een hogere graad heeft dan de noemer, voer je "
-                  "eerst een euclidische deling uit.</strong> Na de deling houd je een veelterm over plus "
-                  "een eenvoudige rest, en die twee stukken integreer je apart."),
-            ("p", "<strong>Soms heb je goniometrische formules nodig</strong>, en dan vooral <strong>de "
-                  "grondformule en de formule voor de dubbele hoek</strong>. Daarmee herschrijf je "
-                  "bijvoorbeeld de sinus in het kwadraat tot iets wat je wel kan integreren. Zo is de "
-                  "<strong>integraal van nul tot pi van de sinus van x gelijk aan twee</strong>, en de "
-                  "<strong>integraal van één tot drie van twee x gelijk aan acht</strong>."),
-            ("p", "<strong>Volstaat één methode niet, dan combineer je methodes</strong>, bijvoorbeeld "
-                  "eerst splitsen en dan substitueren. Bij een moeilijkere integraal heb je er vaak "
-                  "meerdere na elkaar nodig."),
-            ("p", "<strong>Controleer het resultaat van een onbepaalde integraal door je antwoord af te "
-                  "leiden en met de integrand te vergelijken.</strong> Dat is een echte controle, want "
-                  "afleiden is eenduidig; opnieuw rekenen herhaalt vaak dezelfde fout. En vergeet de "
-                  "<strong>constante</strong> niet: de integraal van vijf dx is vijf x plus een constante."),
+            ("p", r"<strong>Bij een breuk waarvan de teller een hogere graad heeft dan de noemer, "
+                  r"voer je eerst een euclidische deling uit.</strong> Na de deling houd je een "
+                  r"veelterm over plus een eenvoudige rest, en die twee stukken integreer je apart."),
+            ("p", r"<strong>Soms heb je goniometrische formules nodig</strong>, en dan vooral "
+                  r"<strong>de grondformule en de formule voor de dubbele hoek</strong>. Daarmee "
+                  r"herschrijf je bijvoorbeeld \(\sin^{2}x = \dfrac{1 - \cos 2x}{2}\) tot iets wat "
+                  r"je wel kan integreren. Zo is \(\int_{0}^{\pi} \sin x\,dx = 2\) en "
+                  r"\(\int_{1}^{3} 2x\,dx = 8\)."),
+            ("p", r"<strong>Volstaat één methode niet, dan combineer je methodes</strong>, "
+                  r"bijvoorbeeld eerst splitsen en dan substitueren. Bij een moeilijkere integraal "
+                  r"heb je er vaak meerdere na elkaar nodig."),
+            ("p", r"<strong>Controleer het resultaat van een onbepaalde integraal door je antwoord "
+                  r"af te leiden en met de integrand te vergelijken.</strong> Dat is een echte "
+                  r"controle, want afleiden is eenduidig; opnieuw rekenen herhaalt vaak dezelfde "
+                  r"fout."),
         ]),
     ],
     onthoud=[
-        "Een primitieve functie van f is een functie waarvan de afgeleide f is.",
-        "Bij een onbepaalde integraal schrijf je altijd plus C, bij een bepaalde integraal niet.",
-        "De primitieve van x tot de macht n is x tot de macht n plus één, gedeeld door n plus één.",
-        "De primitieve van één gedeeld door x is de natuurlijke logaritme van de absolute waarde van x.",
-        "De primitieve van de sinus van x is min de cosinus van x.",
-        "Een constante factor mag voor het integraalteken, een factor met een x erin niet.",
-        "Bij substitutie kies je een binnenste functie waarvan de afgeleide ook in de integrand staat.",
-        "Partiële integratie volgt uit de productregel; vergeet het minteken in de formule niet.",
-        "Controleer een onbepaalde integraal door je antwoord af te leiden.",
+        r"Een primitieve \(F\) van \(f\) is een functie met \(F'(x) = f(x)\).",
+        r"Bij een onbepaalde integraal schrijf je altijd \(+\,C\), bij een bepaalde integraal niet.",
+        r"\(\int x^{n}\,dx = \dfrac{x^{\,n+1}}{n+1} + C\), behalve voor \(n = -1\).",
+        r"\(\int \dfrac{1}{x}\,dx = \ln|x| + C\) en \(\int \sin x\,dx = -\cos x + C\).",
+        r"Een constante factor mag voor het integraalteken, een factor met een \(x\) erin niet.",
+        r"Bij substitutie kies je een binnenste functie waarvan de afgeleide ook in de integrand staat.",
+        r"\(\int u\,v'\,dx = u\,v - \int v\,u'\,dx\); vergeet het minteken niet.",
+        r"Controleer een onbepaalde integraal door je antwoord af te leiden.",
     ],
 )
 

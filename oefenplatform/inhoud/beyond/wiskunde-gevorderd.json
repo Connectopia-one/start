@@ -4086,35 +4086,35 @@
       "vragen": [
         {
           "type": "meerkeuze",
-          "vraag": "Wat is een primitieve functie van f?",
+          "vraag": "Wat is een primitieve functie \\(F\\) van \\(f\\)?",
           "opties": [
-            "een functie waarvan de afgeleide f is",
-            "de afgeleide van de functie f zelf",
-            "de oppervlakte onder de grafiek van f",
-            "de inverse functie van de functie f"
+            "een functie met \\(F'(x) = f(x)\\)",
+            "de afgeleide \\(f'(x)\\) van \\(f\\)",
+            "de oppervlakte onder de grafiek van \\(f\\)",
+            "de inverse functie \\(f^{-1}\\)"
           ],
           "antwoord": 0,
           "uitleg": "Primitiveren is afleiden in omgekeerde richting. De oppervlakte komt pas met de hoofdstelling in beeld."
         },
         {
           "type": "meerkeuze",
-          "vraag": "Waarom schrijf je bij een onbepaalde integraal altijd plus C?",
+          "vraag": "Waarom schrijf je bij een onbepaalde integraal altijd \\(+\\,C\\)?",
           "opties": [
             "omdat elke constante bij het afleiden verdwijnt",
             "omdat de integraal anders niet bestaat",
-            "omdat C de oppervlakte onder de grafiek is",
-            "omdat C de ondergrens van de integraal is"
+            "omdat \\(C\\) de oppervlakte onder de grafiek is",
+            "omdat \\(C\\) de ondergrens van de integraal is"
           ],
           "antwoord": 0,
           "uitleg": "De afgeleide van een constante is nul, dus er zijn oneindig veel primitieven die één constante van elkaar verschillen."
         },
         {
           "type": "invultekst",
-          "vraag": "Je leidt een primitieve van f af. Wat krijg je? Schrijf het antwoord.",
+          "vraag": "Je leidt een primitieve \\(F\\) van \\(f\\) af. Wat krijg je dan? Schrijf het antwoord.",
           "antwoord": [
             "f"
           ],
-          "uitleg": "Dat is net de definitie van een primitieve: afleiden brengt je terug bij f."
+          "uitleg": "Dat is net de definitie: \\(F'(x) = f(x)\\), dus afleiden brengt je terug bij \\(f\\)."
         },
         {
           "type": "waarofniet",
@@ -4124,33 +4124,33 @@
         },
         {
           "type": "meerkeuze",
-          "vraag": "Wat is de primitieve van x tot de macht n?",
+          "vraag": "Hoeveel is \\(\\int x^{n}\\,dx\\)?",
           "opties": [
-            "x tot de macht n plus één, gedeeld door n plus één",
-            "x tot de macht n min één, gedeeld door n min één",
-            "n maal x tot de macht n min één, plus een constante",
-            "x tot de macht n, gedeeld door het getal n zelf"
+            "\\(\\dfrac{x^{\\,n+1}}{n+1} + C\\)",
+            "\\(\\dfrac{x^{\\,n-1}}{n-1} + C\\)",
+            "\\(n\\,x^{\\,n-1} + C\\)",
+            "\\(\\dfrac{x^{\\,n}}{n} + C\\)"
           ],
           "antwoord": 0,
           "uitleg": "De exponent gaat met één omhoog en je deelt door die nieuwe exponent. Het derde antwoord is net de afgeleide."
         },
         {
           "type": "meerkeuze",
-          "vraag": "Voor welke exponent werkt die regel niet?",
+          "vraag": "Voor welke exponent werkt \\(\\int x^{n}\\,dx = \\dfrac{x^{\\,n+1}}{n+1} + C\\) niet?",
           "opties": [
-            "voor n gelijk aan min één",
-            "voor n gelijk aan nul",
-            "voor n gelijk aan één",
-            "voor elke negatieve n"
+            "\\(n = -1\\)",
+            "\\(n = 0\\)",
+            "\\(n = 1\\)",
+            "elke \\(n < 0\\)"
           ],
           "antwoord": 0,
-          "uitleg": "Dan zou je door nul delen. Die ene integraal geeft net de natuurlijke logaritme."
+          "uitleg": "Dan zou je door nul delen. Die ene integraal geeft net \\(\\ln|x| + C\\)."
         },
         {
           "type": "waarofniet",
-          "vraag": "De primitieve van één gedeeld door x is de natuurlijke logaritme van de absolute waarde van x.",
+          "vraag": "\\(\\int \\dfrac{1}{x}\\,dx = \\ln|x| + C\\).",
           "antwoord": true,
-          "uitleg": "De absolute waarde zorgt dat de formule ook werkt voor negatieve x, waar de logaritme zelf niet bestaat."
+          "uitleg": "De absolute waarde zorgt dat de formule ook werkt voor \\(x < 0\\), waar \\(\\ln x\\) zelf niet bestaat."
         },
         {
           "type": "invultekst",
@@ -4158,25 +4158,25 @@
           "antwoord": [
             "oneindig veel"
           ],
-          "uitleg": "Bij elke primitieve mag je om het even welke constante optellen."
+          "uitleg": "Bij elke primitieve mag je om het even welke constante \\(C\\) optellen."
         },
         {
           "type": "meerkeuze",
-          "vraag": "Wat is de primitieve van de cosinus van x?",
+          "vraag": "Hoeveel is \\(\\int \\cos x\\,dx\\)?",
           "opties": [
-            "de sinus van x, plus een constante",
-            "min de sinus van x, plus een constante",
-            "min de cosinus van x, plus een constante",
-            "de tangens van x, plus een constante"
+            "\\(\\sin x + C\\)",
+            "\\(-\\sin x + C\\)",
+            "\\(-\\cos x + C\\)",
+            "\\(\\tan x + C\\)"
           ],
           "antwoord": 0,
-          "uitleg": "Afleiden brengt je van sinus naar cosinus, dus primitiveren gaat net de andere kant op."
+          "uitleg": "Afleiden brengt je van \\(\\sin x\\) naar \\(\\cos x\\), dus primitiveren gaat net de andere kant op."
         },
         {
           "type": "waarofniet",
-          "vraag": "De primitieve van de sinus van x is de cosinus van x, plus een constante.",
+          "vraag": "\\(\\int \\sin x\\,dx = \\cos x + C\\).",
           "antwoord": false,
-          "uitleg": "Er hoort een minteken bij: min de cosinus van x. Je controleert het door af te leiden."
+          "uitleg": "Er hoort een minteken bij: \\(\\int \\sin x\\,dx = -\\cos x + C\\). Je controleert het door af te leiden."
         },
         {
           "type": "meerkeuze",
@@ -4188,16 +4188,16 @@
             "je mag de grenzen van plaats verwisselen zonder gevolg"
           ],
           "antwoord": 0,
-          "uitleg": "Voor een som en voor een veelvoud werkt het. Voor een product of een quotiënt niet, en daar bestaan net de andere methodes voor."
+          "uitleg": "\\(\\int \\left(f + g\\right)dx = \\int f\\,dx + \\int g\\,dx\\) en \\(\\int k\\,f\\,dx = k\\int f\\,dx\\). Voor een product of een quotiënt gaat dat niet op, en daar bestaan net de andere methodes voor."
         },
         {
           "type": "invultekst",
-          "vraag": "Hoeveel is de integraal van nul tot twee van x? Schrijf het getal.",
+          "vraag": "Hoeveel is \\(\\int_{0}^{2} x\\,dx\\)? Schrijf het getal.",
           "antwoord": [
             "2",
             "twee"
           ],
-          "uitleg": "De primitieve is x kwadraat gedeeld door twee. Invullen geeft vier op twee min nul, dus twee. Het is ook de oppervlakte van een driehoek met basis twee en hoogte twee."
+          "uitleg": "De primitieve is \\(\\dfrac{x^{2}}{2}\\), dus \\(\\dfrac{4}{2} - 0 = 2\\). Het is ook de oppervlakte van een driehoek met basis \\(2\\) en hoogte \\(2\\)."
         },
         {
           "type": "meerkeuze",
@@ -4209,37 +4209,37 @@
             "een onbepaalde integraal levert een getal op en een bepaalde een functie"
           ],
           "antwoord": 0,
-          "uitleg": "De onbepaalde integraal is een familie van functies, de bepaalde een getal."
+          "uitleg": "\\(\\int f(x)\\,dx\\) is een familie van functies, \\(\\int_{a}^{b} f(x)\\,dx\\) is een getal."
         },
         {
           "type": "waarofniet",
-          "vraag": "Twee primitieven van dezelfde functie kunnen een verschillende afgeleide hebben.",
+          "vraag": "Twee primitieven van dezelfde functie \\(f\\) kunnen een verschillende afgeleide hebben.",
           "antwoord": false,
-          "uitleg": "Allebei hebben ze dezelfde afgeleide, namelijk de oorspronkelijke functie. Ze verschillen alleen een constante."
+          "uitleg": "Allebei hebben ze \\(f\\) als afgeleide. Ze verschillen alleen een constante."
         },
         {
           "type": "meerkeuze",
-          "vraag": "Wat is de primitieve van een constante k?",
+          "vraag": "Hoeveel is \\(\\int k\\,dx\\), met \\(k\\) een constante?",
           "opties": [
-            "k maal x, plus een constante",
-            "k gedeeld door x, plus een constante",
-            "nul, plus een constante",
-            "k in het kwadraat, plus een constante"
+            "\\(k\\,x + C\\)",
+            "\\(\\dfrac{k}{x} + C\\)",
+            "\\(0 + C\\)",
+            "\\(k^{2} + C\\)"
           ],
           "antwoord": 0,
-          "uitleg": "Afleiden van k maal x geeft k. De grafiek van de primitieve is dus een rechte met helling k."
+          "uitleg": "Afleiden van \\(k\\,x\\) geeft \\(k\\). De grafiek van de primitieve is dus een rechte met helling \\(k\\)."
         },
         {
           "type": "meerkeuze",
-          "vraag": "Wat is de primitieve van e tot de macht x?",
+          "vraag": "Hoeveel is \\(\\int e^{x}\\,dx\\)?",
           "opties": [
-            "e tot de macht x, plus een constante",
-            "x maal e tot de macht x, plus een constante",
-            "e tot de macht x plus één, gedeeld door x plus één",
-            "de natuurlijke logaritme van x, plus een constante"
+            "\\(e^{x} + C\\)",
+            "\\(x\\,e^{x} + C\\)",
+            "\\(\\dfrac{e^{\\,x+1}}{x+1} + C\\)",
+            "\\(\\ln x + C\\)"
           ],
           "antwoord": 0,
-          "uitleg": "Die functie is haar eigen afgeleide, dus ook haar eigen primitieve."
+          "uitleg": "\\(e^{x}\\) is haar eigen afgeleide, dus ook haar eigen primitieve."
         },
         {
           "type": "waarofniet",
@@ -4249,11 +4249,11 @@
         },
         {
           "type": "invultekst",
-          "vraag": "Hoeveel is de integraal van nul tot één van x kwadraat? Schrijf het antwoord als breuk.",
+          "vraag": "Hoeveel is \\(\\int_{0}^{1} x^{2}\\,dx\\)? Schrijf het antwoord als breuk.",
           "antwoord": [
             "1/3"
           ],
-          "uitleg": "De primitieve is x tot de derde gedeeld door drie, en in één geeft dat een derde."
+          "uitleg": "De primitieve is \\(\\dfrac{x^{3}}{3}\\), en invullen geeft \\(\\dfrac{1}{3}\\)."
         },
         {
           "type": "meerkeuze",
@@ -4265,7 +4265,7 @@
             "de constante die je achteraan bijschrijft"
           ],
           "antwoord": 0,
-          "uitleg": "De integrand staat tussen het integraalteken en de dx."
+          "uitleg": "De integrand staat tussen \\(\\int\\) en \\(dx\\)."
         },
         {
           "type": "meerkeuze",
@@ -4277,7 +4277,7 @@
             "omdat je het resultaat niet kan controleren"
           ],
           "antwoord": 0,
-          "uitleg": "Zonder grenzen ligt die constante niet vast. Met grenzen valt ze bij het aftrekken weg."
+          "uitleg": "Zonder grenzen ligt \\(C\\) niet vast. Met grenzen valt ze bij het aftrekken weg."
         }
       ]
     },
@@ -4296,7 +4296,7 @@
             "als je de integrand eerst in twee stukken moet splitsen"
           ],
           "antwoord": 0,
-          "uitleg": "Soms moet je de integrand eerst wat herschrijven voor je ze herkent, bijvoorbeeld een wortel als een macht."
+          "uitleg": "Soms moet je de integrand eerst wat herschrijven voor je ze herkent, bijvoorbeeld \\(\\sqrt{x} = x^{1/2}\\)."
         },
         {
           "type": "meerkeuze",
@@ -4312,22 +4312,22 @@
         },
         {
           "type": "invultekst",
-          "vraag": "Je splitst de integraal van twee x plus drie. In hoeveel aparte integralen valt ze uiteen? Schrijf het cijfer.",
+          "vraag": "Je splitst \\(\\int (2x + 3)\\,dx\\). In hoeveel aparte integralen valt ze uiteen? Schrijf het cijfer.",
           "antwoord": [
             "2",
             "twee"
           ],
-          "uitleg": "Eén voor twee x en één voor drie. De twee mag je buiten de eerste integraal halen."
+          "uitleg": "Eén voor \\(2x\\) en één voor \\(3\\). De factor \\(2\\) mag je buiten de eerste integraal halen."
         },
         {
           "type": "waarofniet",
           "vraag": "Integratie door substitutie is de kettingregel in omgekeerde richting.",
           "antwoord": true,
-          "uitleg": "Je herkent een binnenste functie met haar afgeleide ernaast, en noemt die binnenste functie u."
+          "uitleg": "Je herkent een binnenste functie met haar afgeleide ernaast, en noemt die binnenste functie \\(u\\)."
         },
         {
           "type": "meerkeuze",
-          "vraag": "Wat kies je als nieuwe veranderlijke bij een substitutie?",
+          "vraag": "Wat kies je als nieuwe veranderlijke \\(u\\) bij een substitutie?",
           "opties": [
             "een binnenste functie waarvan de afgeleide ook in de integrand staat",
             "altijd de term met de hoogste graad uit de integrand",
@@ -4335,16 +4335,16 @@
             "de ondergrens van de integraal, want dat is veruit het eenvoudigst"
           ],
           "antwoord": 0,
-          "uitleg": "Zonder die afgeleide erbij kan je de dx niet omzetten en loopt de substitutie vast."
+          "uitleg": "Zonder die afgeleide erbij kan je \\(dx\\) niet omzetten naar \\(du\\) en loopt de substitutie vast."
         },
         {
           "type": "meerkeuze",
           "vraag": "Hoe luidt de formule voor partiële integratie?",
           "opties": [
-            "u maal v, min de integraal van v maal de afgeleide van u",
-            "u maal v, plus de integraal van v maal de afgeleide van u",
-            "de integraal van u, maal de integraal van v, zonder meer",
-            "u maal de afgeleide van v, min v maal de afgeleide van u"
+            "\\(\\int u\\,v'\\,dx = u\\,v - \\int v\\,u'\\,dx\\)",
+            "\\(\\int u\\,v'\\,dx = u\\,v + \\int v\\,u'\\,dx\\)",
+            "\\(\\int u\\,v'\\,dx = \\int u\\,dx \\cdot \\int v'\\,dx\\)",
+            "\\(\\int u\\,v'\\,dx = u'\\,v - u\\,v'\\)"
           ],
           "antwoord": 0,
           "uitleg": "Dat minteken vergeten is de meest gemaakte fout bij deze methode."
@@ -4353,25 +4353,25 @@
           "type": "waarofniet",
           "vraag": "Partiële integratie volgt uit de productregel voor afgeleiden.",
           "antwoord": true,
-          "uitleg": "Je integreert de productregel langs beide kanten en brengt één term naar de andere kant."
+          "uitleg": "Je integreert \\(\\left(u\\,v\\right)' = u'v + u\\,v'\\) langs beide kanten en brengt één term naar de andere kant."
         },
         {
           "type": "invultekst",
-          "vraag": "Hoeveel is de integraal van nul tot pi van de sinus van x? Schrijf het getal.",
+          "vraag": "Hoeveel is \\(\\int_{0}^{\\pi} \\sin x\\,dx\\)? Schrijf het getal.",
           "antwoord": [
             "2",
             "twee"
           ],
-          "uitleg": "De primitieve is min de cosinus. In pi geeft dat één, in nul min één, en het verschil is twee."
+          "uitleg": "De primitieve is \\(-\\cos x\\). In \\(\\pi\\) geeft dat \\(1\\), in \\(0\\) geeft dat \\(-1\\), en het verschil is \\(2\\)."
         },
         {
           "type": "meerkeuze",
           "vraag": "Welke integraal pak je met partiële integratie aan?",
           "opties": [
-            "x maal e tot de macht x",
-            "twee x plus drie",
-            "x kwadraat min vijf",
-            "één gedeeld door x"
+            "\\(\\int x\\,e^{x}\\,dx\\)",
+            "\\(\\int (2x + 3)\\,dx\\)",
+            "\\(\\int (x^{2} - 5)\\,dx\\)",
+            "\\(\\int \\dfrac{1}{x}\\,dx\\)"
           ],
           "antwoord": 0,
           "uitleg": "Een product van twee heel verschillende soorten functies is het typische geval. De drie andere gaan onmiddellijk of met splitsing."
@@ -4380,28 +4380,28 @@
           "type": "waarofniet",
           "vraag": "Bij een bepaalde integraal mag je na een substitutie de oude grenzen gewoon laten staan.",
           "antwoord": false,
-          "uitleg": "De grenzen horen bij de oude veranderlijke. Je zet ze mee om, of je gaat na de integratie eerst terug naar x."
+          "uitleg": "De grenzen horen bij \\(x\\), niet bij \\(u\\). Je zet ze mee om, of je gaat na de integratie eerst terug naar \\(x\\)."
         },
         {
           "type": "meerkeuze",
-          "vraag": "Wat is de primitieve van de afgeleide van f, gedeeld door f?",
+          "vraag": "Hoeveel is \\(\\int \\dfrac{f'(x)}{f(x)}\\,dx\\)?",
           "opties": [
-            "de natuurlijke logaritme van de absolute waarde van f",
-            "de functie f zelf, plus een constante erbij",
-            "één gedeeld door f, plus een constante erbij",
-            "de functie f in het kwadraat, gedeeld door het getal twee"
+            "\\(\\ln|f(x)| + C\\)",
+            "\\(f(x) + C\\)",
+            "\\(\\dfrac{1}{f(x)} + C\\)",
+            "\\(\\dfrac{f(x)^{2}}{2} + C\\)"
           ],
           "antwoord": 0,
-          "uitleg": "Dat is een substitutie met u gelijk aan f. Je herkent dit patroon aan de afgeleide van de noemer die in de teller staat."
+          "uitleg": "Dat is een substitutie met \\(u = f(x)\\). Je herkent dit patroon aan de afgeleide van de noemer die in de teller staat."
         },
         {
           "type": "invultekst",
-          "vraag": "Hoeveel is de integraal van één tot drie van twee x? Schrijf het getal.",
+          "vraag": "Hoeveel is \\(\\int_{1}^{3} 2x\\,dx\\)? Schrijf het getal.",
           "antwoord": [
             "8",
             "acht"
           ],
-          "uitleg": "De primitieve is x kwadraat. Negen min één is acht."
+          "uitleg": "De primitieve is \\(x^{2}\\), dus \\(9 - 1 = 8\\)."
         },
         {
           "type": "meerkeuze",
@@ -4431,7 +4431,7 @@
             "de omzetting van graden naar radialen en terug"
           ],
           "antwoord": 0,
-          "uitleg": "Daarmee herschrijf je bijvoorbeeld de sinus in het kwadraat tot iets wat je wel kan integreren."
+          "uitleg": "Daarmee herschrijf je bijvoorbeeld \\(\\sin^{2}x = \\dfrac{1 - \\cos 2x}{2}\\), en dát kan je wel integreren."
         },
         {
           "type": "meerkeuze",
@@ -4447,13 +4447,13 @@
         },
         {
           "type": "waarofniet",
-          "vraag": "Een constante factor mag je voor het integraalteken zetten.",
+          "vraag": "Een constante factor mag je voor het integraalteken zetten: \\(\\int k\\,f(x)\\,dx = k\\int f(x)\\,dx\\).",
           "antwoord": true,
-          "uitleg": "Dat is een deel van de lineariteit. Een factor met een x erin mag dat niet."
+          "uitleg": "Dat is een deel van de lineariteit. Een factor met een \\(x\\) erin mag dat niet."
         },
         {
           "type": "invultekst",
-          "vraag": "De integraal van vijf dx is vijf x plus een wat? Schrijf het woord.",
+          "vraag": "\\(\\int 5\\,dx = 5x\\) plus een wat? Schrijf het woord.",
           "antwoord": [
             "constante",
             "integratieconstante"
@@ -4474,7 +4474,7 @@
         },
         {
           "type": "meerkeuze",
-          "vraag": "Waarom schrijf je bij een bepaalde integraal geen plus C?",
+          "vraag": "Waarom schrijf je bij een bepaalde integraal geen \\(+\\,C\\)?",
           "opties": [
             "omdat ze bij het aftrekken van de twee grenzen wegvalt",
             "omdat een bepaalde integraal geen primitieve gebruikt",
@@ -4482,7 +4482,7 @@
             "omdat de grenzen de constante zelf voorstellen"
           ],
           "antwoord": 0,
-          "uitleg": "Je telt dezelfde constante er in de bovengrens bij en in de ondergrens weer af."
+          "uitleg": "\\(\\left(F(b) + C\\right) - \\left(F(a) + C\\right) = F(b) - F(a)\\)."
         }
       ]
     },

@@ -8779,3 +8779,47 @@ def meetkundigesom(breedte=470):
              f'stroke="{DARK}" stroke-width="1.3" stroke-dasharray="5 3"/>')
     d.append(_tekst(rechts - 6, y - 20, "hier stopt de som", 10, DARK, "end", True))
     return _svg(breedte, h, "\n".join(d))
+
+
+def primitievenfamilie(breedte=470):
+    r"""Drie primitieven van dezelfde functie, met dezelfde helling in x = 2."""
+    h = 212
+    ox, oy = 40, 164
+    top, rechts = 20, breedte - 62
+    xmax, ymax = 3.0, 6.5
+
+    def sx(x):
+        return ox + x / xmax * (rechts - ox)
+
+    def sy(y):
+        return oy - y / ymax * (oy - top)
+
+    d = [f'<line x1="{ox}" y1="{top}" x2="{ox}" y2="{oy}" stroke="{INK}" stroke-width="1.5"/>',
+         f'<line x1="{ox}" y1="{oy}" x2="{rechts+14}" y2="{oy}" stroke="{INK}" stroke-width="1.5"/>',
+         _tekst(ox - 10, top + 4, "y", 10, DIM, "end"),
+         _tekst(rechts + 18, oy + 14, "x", 10, DIM, "middle")]
+
+    x0 = 2.0
+    d.append(f'<line x1="{sx(x0):.1f}" y1="{sy(0):.1f}" x2="{sx(x0):.1f}" y2="{sy(ymax-0.3):.1f}" '
+             f'stroke="{DIM}" stroke-width="1.1" stroke-dasharray="4 4"/>')
+    d.append(_tekst(sx(x0), oy + 15, "x = 2", 9.5, DIM, "middle"))
+
+    for c in (0, 1, 2):
+        punten = []
+        for k in range(61):
+            x = k / 60 * 2.85
+            punten.append(f"{sx(x):.1f},{sy(x * x / 2 + c):.1f}")
+        d.append(f'<polyline points="{" ".join(punten)}" fill="none" stroke="{FOREST}" '
+                 f'stroke-width="2"/>')
+        d.append(_tekst(sx(2.85) + 6, sy(2.85 * 2.85 / 2 + c) + 4,
+                        f"C = {c}", 9.5, DARK, "start"))
+        y0 = x0 * x0 / 2 + c
+        d.append(f'<line x1="{sx(x0-0.55):.1f}" y1="{sy(y0-0.55*x0):.1f}" '
+                 f'x2="{sx(x0+0.55):.1f}" y2="{sy(y0+0.55*x0):.1f}" '
+                 f'stroke="{AMBER}" stroke-width="2.4"/>')
+        d.append(f'<circle cx="{sx(x0):.1f}" cy="{sy(y0):.1f}" r="3" fill="{FOREST}" '
+                 f'stroke="#ffffff" stroke-width="1.1"/>')
+
+    d.append(_tekst(breedte / 2, h - 6,
+                    "in x = 2 hebben alle drie dezelfde helling", 9.5, AMBER, "middle"))
+    return _svg(breedte, h, "\n".join(d))
