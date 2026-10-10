@@ -19,10 +19,14 @@ Boost doorstroom heeft een vak met precies dezelfde naam, en daar staan
 thema's met verwante titels in. De pdf's komen dus naast elkaar in
 `leerbundels/wiskunde-gevorderd/` terecht.
 
-Wiskunde staat hier in woorden, niet in symbolen: het platform toont de
-vraagtekst als gewone tekst, dus "a tot de macht twee derde" en niet een
-exponent in superscript. De bundels volgen diezelfde schrijfwijze, zodat een
-kind dezelfde woorden terugvindt.
+Wiskunde staat hier in echte notatie, tussen \( en \). Enya Vermeyen,
+leerkracht wiskunde, keek op 10 oktober 2026 naar het eerste hoofdstuk toen
+alles nog in woorden stond en had gelijk: een leerling van de derde graad moet
+\(a^{2/3}\) kunnen lezen. Zie oefenplatform/lib/wiskunde.ts.
+
+De omzetting gebeurt thema per thema, samen met de vragen van dat thema, zodat
+een kind in de bundel dezelfde schrijfwijze terugvindt als in de oefening.
+Omgezet: thema 1. De andere thema's staan nog in woorden.
 """
 import sys, pathlib
 sys.path.insert(0, str(pathlib.Path(__file__).parent))
@@ -40,109 +44,149 @@ BUNDELS["machtswortels-machten-en-logaritmen-beyond"] = dict(
     onder="Rekenen met rationale exponenten, en de logaritme als de exponent die je zoekt.",
     secties=[
         dict(kop="Machten met een gehele exponent", blokken=[
-            ("p", "Je kent de machten met een natuurlijke exponent al. Daar komen twee afspraken bij. "
-                  "<strong>Elk getal behalve nul tot de macht nul is gelijk aan één.</strong> Dat is geen "
-                  "willekeurige afspraak: a tot de macht n gedeeld door a tot de macht n is enerzijds één, "
-                  "en anderzijds a tot de macht nul. En <strong>a tot de macht min n is gelijk aan één "
-                  "gedeeld door a tot de macht n</strong>. Een negatieve exponent betekent dus "
-                  "<strong>omkeren, niet van teken veranderen</strong>: twee tot de macht min drie is "
-                  "één achtste, niet min acht."),
+            ("p", r"Je kent de machten met een natuurlijke exponent al. Daar komen twee afspraken bij. "
+                  r"<strong>\(a^{0}=1\) voor elke \(a\neq 0\).</strong> Dat is geen willekeurige afspraak: "
+                  r"\(\dfrac{a^{n}}{a^{n}}\) is enerzijds \(1\), en anderzijds \(a^{n-n}=a^{0}\). En "
+                  r"<strong>\(a^{-n}=\dfrac{1}{a^{n}}\)</strong>. Een negatieve exponent betekent dus "
+                  r"<strong>omkeren, niet van teken veranderen</strong>: \(2^{-3}=\tfrac{1}{8}\) en niet \(-8\)."),
             ("p", tabel(["Rekenregel", "Wat je met de exponenten doet", "Voorbeeld"], [
-                ["machten met hetzelfde grondtal vermenigvuldigen", "je telt ze bij elkaar op", "a tot de macht m maal a tot de macht n is a tot de macht m plus n"],
-                ["machten met hetzelfde grondtal delen", "je trekt ze van elkaar af", "a tot de macht m gedeeld door a tot de macht n is a tot de macht m min n"],
-                ["een macht van een macht", "je vermenigvuldigt ze", "a kwadraat tot de derde macht is a tot de zesde macht"],
-                ["een product tot een macht verheffen", "elke factor krijgt die macht", "a maal b, samen tot de macht n, is a tot de macht n maal b tot de macht n"],
+                [r"\(a^{m}\cdot a^{n}\)", "je telt ze op", r"\(a^{m}\cdot a^{n}=a^{m+n}\)"],
+                [r"\(\dfrac{a^{m}}{a^{n}}\)", "je trekt ze af", r"\(\dfrac{a^{-2}b^{3}}{a^{3}b^{-1}}=a^{-5}b^{4}=\dfrac{b^{4}}{a^{5}}\)"],
+                [r"\(\left(a^{m}\right)^{n}\)", "je vermenigvuldigt ze", r"\(\left(a^{2}\right)^{3}=a^{6}\)"],
+                [r"\((ab)^{n}\)", "elke factor krijgt die macht", r"\((ab)^{n}=a^{n}b^{n}\)"],
             ])),
-            ("kader", "Een macht verdeelt zich over een <strong>product</strong> en over een "
-                      "<strong>quotiënt</strong>, maar <strong>nooit over een som</strong>. Dat geldt ook "
-                      "voor wortels en straks voor logaritmen. Het is de fout die het vaakst gemaakt wordt."),
+            ("p", r"Met die regels los je een vergelijking met gelijke grondtallen op zonder logaritme. "
+                  r"Uit \(2^{x}\cdot 2^{x+3}=2^{11}\) volgt \(2^{2x+3}=2^{11}\), dus \(2x+3=11\) en \(x=4\)."),
+            ("kader", r"Een macht verdeelt zich over een <strong>product</strong> en over een "
+                      r"<strong>quotiënt</strong>, maar <strong>nooit over een som</strong>: "
+                      r"\((a+b)^{n}\neq a^{n}+b^{n}\). Dat geldt ook voor wortels en straks voor "
+                      r"logaritmen. Het is de fout die het vaakst gemaakt wordt."),
         ]),
-        dict(kop="Machtswortels en rationale exponenten", blokken=[
-            ("p", "De <strong>n-de machtswortel uit a</strong> is het getal waarvan de n-de macht a is. "
-                  "De <strong>vijfdemachtswortel uit tweeëndertig is twee</strong>, want twee tot de vijfde "
-                  "is tweeëndertig. De <strong>derdemachtswortel uit min acht is min twee</strong>, want min "
-                  "twee tot de derde is min acht."),
-            ("p", "<strong>De n-de machtswortel uit een negatief getal bestaat in de reële getallen alleen "
-                  "als n oneven is.</strong> Een even macht van een reëel getal is immers nooit negatief, "
-                  "dus de vierkantswortel of de vierdemachtswortel uit een negatief getal bestaat niet in R."),
-            ("p", "Een macht met een <strong>rationale exponent</strong> is niets anders dan een wortel. "
-                  "<strong>a tot de macht één op n is de n-de machtswortel uit a</strong>: a tot de macht "
-                  "één derde is de derdemachtswortel uit a, en zestien tot de macht een half is de "
-                  "vierkantswortel uit zestien, dus vier. Algemeen is <strong>a tot de macht m op n gelijk "
-                  "aan de n-de machtswortel uit a tot de macht m</strong>: de noemer van de exponent wordt "
-                  "de wortelexponent, de teller blijft de macht."),
+        dict(kop="Machtswortels", blokken=[
+            ("p", r"De <strong>n-de machtswortel uit \(a\)</strong>, geschreven \(\sqrt[n]{a}\), is het getal "
+                  r"waarvan de n-de macht \(a\) is. Zo is \(\sqrt[5]{32}=2\), want \(2^{5}=32\), en "
+                  r"\(\sqrt[3]{-8}=-2\), want \((-2)^{3}=-8\)."),
+            ("p", r"<strong>\(\sqrt[n]{a}\) met \(a<0\) bestaat in \(\mathbb{R}\) alleen als \(n\) oneven "
+                  r"is.</strong> Een even macht van een reëel getal is immers nooit negatief, dus "
+                  r"\(\sqrt{-16}\) en \(\sqrt[4]{-16}\) bestaan niet in \(\mathbb{R}\). Daaruit volgt ook "
+                  r"het domein van een wortelfunctie: \(\sqrt[4]{x-3}\) bestaat voor \(x-3\geq 0\), dus "
+                  r"voor \(x\geq 3\). Bij \(x=3\) is de wortel \(0\), en dat mag."),
+            ("kader", r"<strong>\(\sqrt{a^{2}}=|a|\), niet \(a\).</strong> Een vierkantswortel is nooit "
+                      r"negatief. Neem \(a=-3\): \(\sqrt{(-3)^{2}}=\sqrt{9}=3\) en niet \(-3\). Bij een "
+                      r"oneven wortelexponent is er geen absolute waarde nodig: \(\sqrt[3]{a^{3}}=a\)."),
+        ]),
+        dict(kop="Machten met een rationale exponent", blokken=[
+            ("p", r"Een macht met een <strong>rationale exponent</strong> is niets anders dan een wortel: "
+                  r"<strong>\(a^{1/n}=\sqrt[n]{a}\)</strong> en algemeen "
+                  r"<strong>\(a^{m/n}=\sqrt[n]{a^{m}}=\left(\sqrt[n]{a}\right)^{m}\)</strong>. De noemer van "
+                  r"de exponent wordt de wortelexponent, de teller blijft de macht. Reken altijd eerst de "
+                  r"wortel uit en kwadrateer daarna: dat houdt de getallen klein."),
             ("p", tabel(["Uitdrukking", "Hoe je ze leest", "Uitkomst"], [
-                ["acht tot de macht twee derde", "de derdemachtswortel uit acht, dan kwadrateren", "vier"],
-                ["zevenentwintig tot de macht twee derde", "de derdemachtswortel uit zevenentwintig, dan kwadrateren", "negen"],
-                ["vierenzestig tot de macht één zesde", "de zesdemachtswortel uit vierenzestig", "twee"],
-                ["vier tot de macht drie halven", "de wortel uit vier, dan tot de derde", "acht, en dus niet zes"],
+                [r"\(8^{2/3}\)", r"\(\sqrt[3]{8}=2\), dan kwadrateren", r"\(4\)"],
+                [r"\(16^{3/4}\)", r"\(\sqrt[4]{16}=2\), dan tot de derde", r"\(8\)"],
+                [r"\(64^{1/6}\)", r"\(\sqrt[6]{64}\)", r"\(2\)"],
+                [r"\(4^{3/2}\)", r"\(\sqrt{4}=2\), dan tot de derde", r"\(8\), en dus niet \(6\)"],
+                [r"\(\left(\tfrac{8}{27}\right)^{-2/3}\)", r"eerst omkeren, dan de derdemachtswortel, dan kwadrateren", r"\(\tfrac{9}{4}\)"],
             ])),
-            ("weetje", "Een <strong>rationale exponent is zonder voorbehoud gedefinieerd voor grondtallen "
-                       "groter dan of gelijk aan nul</strong>. Bij een negatief grondtal zou dezelfde "
-                       "exponent, anders geschreven, twee verschillende uitkomsten geven. Daarom blijft die "
-                       "schrijfwijze beperkt tot niet-negatieve grondtallen, ook al bestaat de "
-                       "derdemachtswortel uit min acht gewoon."),
+            ("p", r"Omdat \(\left(a^{m}\right)^{n}=a^{mn}\) ook geldt voor breuken, mag je wortels gewoon "
+                  r"samenvoegen: \(\sqrt{a}\cdot\sqrt[3]{a}=a^{1/2}\cdot a^{1/3}=a^{5/6}\), en "
+                  r"\(\sqrt{2}\cdot\sqrt[3]{2}\cdot\sqrt[6]{2}=2^{1/2+1/3+1/6}=2^{1}=2\). Een vergelijking "
+                  r"als \(x^{3/4}=8\) los je op door beide leden tot de macht \(\tfrac{4}{3}\) te verheffen: "
+                  r"\(x=8^{4/3}=16\)."),
+            ("p", r"Rationale exponenten maken getallen ook vergelijkbaar. Welk getal is het grootst, "
+                  r"\(2^{1/2}\), \(3^{1/3}\), \(5^{1/5}\) of \(6^{1/6}\)? Verhef alles tot de macht \(6\): "
+                  r"\(2^{3}=8\), \(3^{2}=9\), \(5^{6/5}\approx 6{,}9\) en \(6^{1}=6\). Dus \(3^{1/3}\) is het grootst."),
+            ("weetje", r"<strong>\(a^{m/n}\) is afgesproken voor \(a\geq 0\).</strong> Bij een negatief "
+                       r"grondtal zou dezelfde exponent, anders geschreven, twee uitkomsten geven: "
+                       r"\(\sqrt[3]{-8}=-2\) maar \(\sqrt[6]{(-8)^{2}}=\sqrt[6]{64}=2\), terwijl "
+                       r"\(\tfrac{1}{3}=\tfrac{2}{6}\). Daarom blijft die schrijfwijze bij niet-negatieve "
+                       r"grondtallen, ook al bestaat \(\sqrt[3]{-8}\) gewoon."),
         ]),
         dict(kop="Wortels vereenvoudigen", blokken=[
-            ("p", "Een wortel schrijf je <strong>zo eenvoudig mogelijk</strong> door er de volkomen "
-                  "machten uit te halen. De <strong>vierkantswortel uit vijftig</strong> is de wortel uit "
-                  "vijfentwintig maal twee, en dus <strong>vijf keer de vierkantswortel uit twee</strong>."),
-            ("p", "<strong>De vierkantswortel uit a plus b is niet gelijk aan de wortel uit a plus de "
-                  "wortel uit b.</strong> Probeer het met negen en zestien: de wortel uit vijfentwintig is "
-                  "vijf, maar drie plus vier is zeven."),
-            ("p", "Een breuk met een wortel in de noemer maak je netter door de "
-                  "<strong>noemer rationaal te maken</strong>: je vermenigvuldigt teller en noemer met "
-                  "diezelfde wortel. Zo wordt <strong>één gedeeld door de wortel uit drie</strong> gelijk aan "
-                  "<strong>de wortel uit drie gedeeld door drie</strong>."),
+            ("p", r"Een wortel schrijf je <strong>zo eenvoudig mogelijk</strong> door er de volkomen machten "
+                  r"uit te halen: \(\sqrt{50}=\sqrt{25\cdot 2}=5\sqrt{2}\), \(\sqrt{72}=6\sqrt{2}\) en "
+                  r"\(\sqrt[3]{54}=\sqrt[3]{27\cdot 2}=3\sqrt[3]{2}\). Bij letters deel je elke exponent "
+                  r"door de wortelexponent: \(\sqrt[4]{16a^{8}b^{12}}=2a^{2}b^{3}\) voor \(a,b>0\)."),
+            ("p", r"Zijn de wortels na het vereenvoudigen gelijk, dan kan je ze optellen: "
+                  r"\(\sqrt{50}+\sqrt{18}-\sqrt{8}=5\sqrt{2}+3\sqrt{2}-2\sqrt{2}=6\sqrt{2}\)."),
+            ("kader", r"<strong>\(\sqrt{a+b}\neq\sqrt{a}+\sqrt{b}\).</strong> Probeer het met \(9\) en "
+                      r"\(16\): \(\sqrt{25}=5\), maar \(3+4=7\)."),
+            ("p", r"Een breuk met een wortel in de noemer maak je netter door de <strong>noemer rationaal "
+                  r"te maken</strong>. Staat er één wortel, dan vermenigvuldig je teller en noemer met "
+                  r"diezelfde wortel: \(\dfrac{1}{\sqrt{3}}=\dfrac{\sqrt{3}}{3}\). Staat er een verschil, "
+                  r"dan neem je het <strong>toegevoegde tweeterm</strong>: "
+                  r"\(\dfrac{6}{\sqrt{5}-\sqrt{2}}=\dfrac{6\left(\sqrt{5}+\sqrt{2}\right)}{5-2}"
+                  r"=2\left(\sqrt{5}+\sqrt{2}\right)\)."),
         ]),
         dict(kop="De logaritme is een exponent", blokken=[
-            ("p", "De <strong>logaritme van x met grondtal a</strong> is <strong>de exponent waartoe je a "
-                  "verheft om x te krijgen</strong>. Meer is het niet. De logaritme van acht met grondtal "
-                  "twee is drie, want twee tot de derde is acht. De logaritme van eenentachtig met grondtal "
-                  "drie is vier, want drie tot de vierde is eenentachtig. De logaritme van zestien met "
-                  "grondtal twee is <strong>vier</strong>, niet acht."),
-            ("p", "Staat er geen grondtal bij, dan bedoelt men <strong>grondtal tien</strong>: de logaritme "
-                  "van honderd is twee, en <strong>tien tot de macht min drie is nul komma nul nul "
-                  "één</strong>. Schrijft men <strong>ln</strong>, dan is het grondtal <strong>het getal "
-                  "e</strong>, ongeveer <strong>2,718</strong>. De natuurlijke logaritme van e is dus één. "
-                  "Eén kan nooit een grondtal zijn, en <strong>de logaritme van een negatief getal bestaat "
-                  "niet in de reële getallen</strong>, want een macht van een positief grondtal is altijd "
-                  "positief."),
-            ("p", tabel(["Rekenregel voor logaritmen", "Waarom", "In woorden"], [
-                ["de logaritme van een product", "machten tellen hun exponenten op", "de som van de twee logaritmen"],
-                ["de logaritme van een quotiënt", "machten trekken hun exponenten af", "de logaritme van x min die van y"],
-                ["de logaritme van x tot de macht n", "een macht van een macht vermenigvuldigt", "n maal de logaritme van x"],
-                ["de logaritme van één", "elk grondtal tot de macht nul is één", "altijd nul, welk toegelaten grondtal ook"],
+            ("p", r"<strong>\(\log_{a}x\) is de exponent waartoe je \(a\) verheft om \(x\) te krijgen.</strong> "
+                  r"Meer is het niet. Zo is \(\log_{2}8=3\) want \(2^{3}=8\), \(\log_{3}81=4\) want "
+                  r"\(3^{4}=81\), en \(\log_{2}16=4\) — niet \(8\). Ook negatieve uitkomsten horen erbij: "
+                  r"\(\log_{5}\tfrac{1}{25}=-2\) want \(5^{-2}=\tfrac{1}{25}\), en \(\log_{1/2}8=-3\) want "
+                  r"\(\left(\tfrac{1}{2}\right)^{-3}=8\)."),
+            ("p", r"Staat er geen grondtal bij, dan bedoelt men <strong>grondtal \(10\)</strong>: "
+                  r"\(\log 100=2\) en \(\log 0{,}001=-3\). Schrijft men <strong>\(\ln\)</strong>, dan is het "
+                  r"grondtal <strong>\(e\approx 2{,}718\)</strong>, dus \(\ln e=1\). Het grondtal moet "
+                  r"<strong>positief en verschillend van \(1\)</strong> zijn."),
+            ("p", r"Het <strong>domein</strong> van een logaritme is \(\left]0,+\infty\right[\): "
+                  r"\(a^{x}\) is altijd strikt positief, dus geen enkele exponent geeft \(0\) of een negatief "
+                  r"getal. Daarom bestaat \(\log_{2}0\) niet, en vraagt \(f(x)=\ln\left(x^{2}-4\right)\) dat "
+                  r"\(x^{2}-4>0\), dus \(x<-2\) of \(x>2\): "
+                  r"\(\text{dom}\,f=\left]-\infty,-2\right[\;\cup\;\left]2,+\infty\right[\). De negatieve tak "
+                  r"hoort er wél bij, want \((-3)^{2}-4=5>0\)."),
+            ("p", tabel(["Rekenregel", "Waarom", "Voorbeeld"], [
+                [r"\(\log_{a}(xy)=\log_{a}x+\log_{a}y\)", "machten tellen hun exponenten op", r"\(\log 2+\log 5=\log 10=1\)"],
+                [r"\(\log_{a}\dfrac{x}{y}=\log_{a}x-\log_{a}y\)", "machten trekken hun exponenten af", r"\(\log_{2}\tfrac{8}{4}=3-2=1\)"],
+                [r"\(\log_{a}x^{n}=n\log_{a}x\)", "een macht van een macht vermenigvuldigt", r"\(\log_{a}\sqrt[3]{x}=\tfrac{1}{3}\log_{a}x\)"],
+                [r"\(\log_{a}1=0\)", r"\(a^{0}=1\) bij elk grondtal", r"elke grafiek \(y=\log_{a}x\) gaat door \((1,0)\)"],
             ])),
-            ("kader", "<strong>De logaritme van a plus b is niet de logaritme van a plus de logaritme van "
-                      "b.</strong> Die regel geldt voor een <strong>product</strong>. De logaritme van een "
-                      "<strong>som</strong> kan je niet splitsen."),
+            ("p", r"Die drie regels samen ontleden elke uitdrukking: "
+                  r"\(\log_{a}\dfrac{x^{3}\sqrt{y}}{z}=3\log_{a}x+\tfrac{1}{2}\log_{a}y-\log_{a}z\), want "
+                  r"\(\sqrt{y}=y^{1/2}\)."),
+            ("kader", r"<strong>\(\log(a+b)\neq\log a+\log b\).</strong> Die regel geldt voor een "
+                      r"<strong>product</strong>. En <strong>\(\left(\ln x\right)^{2}\neq 2\ln x\)</strong>: "
+                      r"\(2\ln x\) is \(\ln x^{2}\). Bij \(x=e\) is het kwadraat \(1\) en \(2\ln e=2\)."),
         ]),
         dict(kop="Waar je de logaritme voor gebruikt", blokken=[
-            ("p", "Een logaritme haalt de onbekende <strong>uit de exponent</strong>. Bij "
-                  "<strong>drie tot de macht x is gelijk aan twintig</strong> heb je ze nodig; bij een "
-                  "gewone tweedegraadsvergelijking niet. Soms zie je het antwoord meteen: "
-                  "<strong>twee tot de macht x is tweeëndertig</strong> geeft <strong>x is vijf</strong>, "
-                  "want tweeëndertig is twee tot de vijfde."),
-            ("p", "Een logaritme en een macht met hetzelfde grondtal <strong>heffen elkaar op</strong>: "
-                  "<strong>tien tot de macht de logaritme van zeven met grondtal tien is gewoon "
-                  "zeven</strong>."),
-            ("p", "Je rekenapp kent meestal alleen log en ln. Een andere logaritme bereken je met het "
-                  "<strong>veranderen van grondtal</strong>: <strong>de logaritme van x gedeeld door de "
-                  "logaritme van a</strong>, allebei met hetzelfde nieuwe grondtal. Let op de volgorde: "
-                  "het getal waarvan je de logaritme zoekt staat boven, het oude grondtal onder."),
+            ("p", r"Een logaritme haalt de onbekende <strong>uit de exponent</strong>. Soms zie je het "
+                  r"antwoord meteen: \(2^{x}=32\) geeft \(x=5\). Lukt dat niet, neem dan van beide leden de "
+                  r"logaritme: uit \(3^{x}=20\) volgt \(x\ln 3=\ln 20\), dus "
+                  r"\(x=\dfrac{\ln 20}{\ln 3}\approx 2{,}73\). Dat is tegelijk de regel voor het "
+                  r"<strong>veranderen van grondtal</strong>: \(\log_{a}x=\dfrac{\ln x}{\ln a}\). Let op de "
+                  r"volgorde — het getal waarvan je de logaritme zoekt staat boven, het oude grondtal onder. "
+                  r"Daaruit volgt ook \(\log_{a}b\cdot\log_{b}a=1\) en "
+                  r"\(\log_{2}5\cdot\log_{5}8=\log_{2}8=3\)."),
+            ("p", r"Een logaritme en een macht met hetzelfde grondtal <strong>heffen elkaar op</strong>: "
+                  r"\(10^{\log 7}=7\) en \(\ln\left(e^{x}\right)=x\) voor elke \(x\in\mathbb{R}\). Omgekeerd "
+                  r"geldt \(e^{\ln x}=x\) enkel voor \(x>0\), want anders bestaat \(\ln x\) niet. Zo is "
+                  r"\(e^{2\ln 3}=e^{\ln 9}=9\)."),
+            ("p", r"Staat de onbekende twee keer in dezelfde macht, <strong>stel dan een hulponbekende</strong>. "
+                  r"Bij \(2^{x+1}=5\cdot 2^{x}-12\) stel je \(t=2^{x}\): links staat \(2t\), dus \(2t=5t-12\), "
+                  r"\(t=4\) en \(x=2\)."),
+            ("kader", r"Zet je twee logaritmen samen, <strong>controleer dan het domein van je oplossing</strong>. "
+                      r"\(\log_{2}x+\log_{2}(x-2)=3\) wordt \(x^{2}-2x-8=0\), met \(x=4\) of \(x=-2\). Maar "
+                      r"\(\log_{2}(-2)\) bestaat niet, dus enkel \(x=4\) is een oplossing. Samenvoegen "
+                      r"verbreedt het domein, en dan sluipen er valse oplossingen binnen."),
+            ("p", r"Twee toepassingen die je buiten de wiskundeles terugvindt. <strong>Groei</strong>: een "
+                  r"belegging aan \(4\%\) per jaar staat na \(n\) jaar op \(1{,}04^{n}\) keer het startbedrag, "
+                  r"en \(1{,}04^{n}\geq 2\) geeft \(n\geq\dfrac{\ln 2}{\ln 1{,}04}\approx 17{,}7\): na "
+                  r"\(18\) volle jaren is ze verdubbeld. <strong>Een logaritmische schaal</strong>: het "
+                  r"geluidsniveau \(L=10\log\dfrac{I}{I_{0}}\) stijgt met \(10\log 100=20\) decibel wanneer "
+                  r"de intensiteit honderd keer zo groot wordt."),
         ]),
     ],
     onthoud=[
-        "Elk getal behalve nul tot de macht nul is één.",
-        "Een negatieve exponent betekent omkeren: twee tot de macht min drie is één achtste.",
-        "Een macht verdeelt zich over een product en een quotiënt, nooit over een som.",
-        "a tot de macht m op n is de n-de machtswortel uit a tot de macht m.",
-        "De n-de machtswortel uit een negatief getal bestaat in R alleen als n oneven is.",
-        "De vierkantswortel uit vijftig is vijf keer de vierkantswortel uit twee.",
-        "De logaritme van x met grondtal a is de exponent waartoe je a verheft om x te krijgen.",
-        "Zonder grondtal bedoelt men grondtal tien; ln heeft grondtal e, ongeveer 2,718.",
-        "Veranderen van grondtal: de logaritme van x gedeeld door de logaritme van a.",
+        r"\(a^{0}=1\) voor elke \(a\neq 0\), en \(a^{-n}=\dfrac{1}{a^{n}}\): omkeren, niet van teken veranderen.",
+        r"\(a^{m}\cdot a^{n}=a^{m+n}\), \(\dfrac{a^{m}}{a^{n}}=a^{m-n}\) en \(\left(a^{m}\right)^{n}=a^{mn}\).",
+        r"Een macht of wortel verdeelt zich over een product en een quotiënt, nooit over een som.",
+        r"\(a^{m/n}=\sqrt[n]{a^{m}}\), afgesproken voor \(a\geq 0\); en \(\sqrt{a^{2}}=|a|\).",
+        r"\(\sqrt[n]{a}\) met \(a<0\) bestaat in \(\mathbb{R}\) alleen als \(n\) oneven is.",
+        r"\(\sqrt{50}=5\sqrt{2}\); maak een noemer rationaal met het toegevoegde tweeterm.",
+        r"\(\log_{a}x\) is de exponent waartoe je \(a\) verheft om \(x\) te krijgen; \(\text{dom}=\left]0,+\infty\right[\).",
+        r"Zonder grondtal is het \(10\); \(\ln\) heeft grondtal \(e\approx 2{,}718\).",
+        r"\(\log_{a}(xy)=\log_{a}x+\log_{a}y\), \(\log_{a}x^{n}=n\log_{a}x\), \(\log_{a}1=0\).",
+        r"Veranderen van grondtal: \(\log_{a}x=\dfrac{\ln x}{\ln a}\).",
+        r"Logaritmen samenvoegen? Controleer achteraf of je oplossing in het domein ligt.",
     ],
 )
 

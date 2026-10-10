@@ -8,40 +8,61 @@
    "blokken": [
     {
      "soort": "tekst",
-     "html": "Je kent de machten met een natuurlijke exponent al. Daar komen twee afspraken bij. <strong>Elk getal behalve nul tot de macht nul is gelijk aan één.</strong> Dat is geen willekeurige afspraak: a tot de macht n gedeeld door a tot de macht n is enerzijds één, en anderzijds a tot de macht nul. En <strong>a tot de macht min n is gelijk aan één gedeeld door a tot de macht n</strong>. Een negatieve exponent betekent dus <strong>omkeren, niet van teken veranderen</strong>: twee tot de macht min drie is één achtste, niet min acht."
+     "html": "Je kent de machten met een natuurlijke exponent al. Daar komen twee afspraken bij. <strong>\\(a^{0}=1\\) voor elke \\(a\\neq 0\\).</strong> Dat is geen willekeurige afspraak: \\(\\dfrac{a^{n}}{a^{n}}\\) is enerzijds \\(1\\), en anderzijds \\(a^{n-n}=a^{0}\\). En <strong>\\(a^{-n}=\\dfrac{1}{a^{n}}\\)</strong>. Een negatieve exponent betekent dus <strong>omkeren, niet van teken veranderen</strong>: \\(2^{-3}=\\tfrac{1}{8}\\) en niet \\(-8\\)."
     },
     {
      "soort": "tekst",
-     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Rekenregel</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Wat je met de exponenten doet</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Voorbeeld</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">machten met hetzelfde grondtal vermenigvuldigen</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">je telt ze bij elkaar op</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">a tot de macht m maal a tot de macht n is a tot de macht m plus n</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">machten met hetzelfde grondtal delen</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">je trekt ze van elkaar af</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">a tot de macht m gedeeld door a tot de macht n is a tot de macht m min n</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een macht van een macht</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">je vermenigvuldigt ze</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">a kwadraat tot de derde macht is a tot de zesde macht</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een product tot een macht verheffen</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">elke factor krijgt die macht</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">a maal b, samen tot de macht n, is a tot de macht n maal b tot de macht n</td></tr></table>"
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Rekenregel</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Wat je met de exponenten doet</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Voorbeeld</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">\\(a^{m}\\cdot a^{n}\\)</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">je telt ze op</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">\\(a^{m}\\cdot a^{n}=a^{m+n}\\)</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">\\(\\dfrac{a^{m}}{a^{n}}\\)</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">je trekt ze af</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">\\(\\dfrac{a^{-2}b^{3}}{a^{3}b^{-1}}=a^{-5}b^{4}=\\dfrac{b^{4}}{a^{5}}\\)</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">\\(\\left(a^{m}\\right)^{n}\\)</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">je vermenigvuldigt ze</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">\\(\\left(a^{2}\\right)^{3}=a^{6}\\)</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">\\((ab)^{n}\\)</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">elke factor krijgt die macht</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">\\((ab)^{n}=a^{n}b^{n}\\)</td></tr></table>"
+    },
+    {
+     "soort": "tekst",
+     "html": "Met die regels los je een vergelijking met gelijke grondtallen op zonder logaritme. Uit \\(2^{x}\\cdot 2^{x+3}=2^{11}\\) volgt \\(2^{2x+3}=2^{11}\\), dus \\(2x+3=11\\) en \\(x=4\\)."
     },
     {
      "soort": "kader",
-     "html": "Een macht verdeelt zich over een <strong>product</strong> en over een <strong>quotiënt</strong>, maar <strong>nooit over een som</strong>. Dat geldt ook voor wortels en straks voor logaritmen. Het is de fout die het vaakst gemaakt wordt."
+     "html": "Een macht verdeelt zich over een <strong>product</strong> en over een <strong>quotiënt</strong>, maar <strong>nooit over een som</strong>: \\((a+b)^{n}\\neq a^{n}+b^{n}\\). Dat geldt ook voor wortels en straks voor logaritmen. Het is de fout die het vaakst gemaakt wordt."
     }
    ]
   },
   {
-   "kop": "Machtswortels en rationale exponenten",
+   "kop": "Machtswortels",
    "blokken": [
     {
      "soort": "tekst",
-     "html": "De <strong>n-de machtswortel uit a</strong> is het getal waarvan de n-de macht a is. De <strong>vijfdemachtswortel uit tweeëndertig is twee</strong>, want twee tot de vijfde is tweeëndertig. De <strong>derdemachtswortel uit min acht is min twee</strong>, want min twee tot de derde is min acht."
+     "html": "De <strong>n-de machtswortel uit \\(a\\)</strong>, geschreven \\(\\sqrt[n]{a}\\), is het getal waarvan de n-de macht \\(a\\) is. Zo is \\(\\sqrt[5]{32}=2\\), want \\(2^{5}=32\\), en \\(\\sqrt[3]{-8}=-2\\), want \\((-2)^{3}=-8\\)."
     },
     {
      "soort": "tekst",
-     "html": "<strong>De n-de machtswortel uit een negatief getal bestaat in de reële getallen alleen als n oneven is.</strong> Een even macht van een reëel getal is immers nooit negatief, dus de vierkantswortel of de vierdemachtswortel uit een negatief getal bestaat niet in R."
+     "html": "<strong>\\(\\sqrt[n]{a}\\) met \\(a<0\\) bestaat in \\(\\mathbb{R}\\) alleen als \\(n\\) oneven is.</strong> Een even macht van een reëel getal is immers nooit negatief, dus \\(\\sqrt{-16}\\) en \\(\\sqrt[4]{-16}\\) bestaan niet in \\(\\mathbb{R}\\). Daaruit volgt ook het domein van een wortelfunctie: \\(\\sqrt[4]{x-3}\\) bestaat voor \\(x-3\\geq 0\\), dus voor \\(x\\geq 3\\). Bij \\(x=3\\) is de wortel \\(0\\), en dat mag."
+    },
+    {
+     "soort": "kader",
+     "html": "<strong>\\(\\sqrt{a^{2}}=|a|\\), niet \\(a\\).</strong> Een vierkantswortel is nooit negatief. Neem \\(a=-3\\): \\(\\sqrt{(-3)^{2}}=\\sqrt{9}=3\\) en niet \\(-3\\). Bij een oneven wortelexponent is er geen absolute waarde nodig: \\(\\sqrt[3]{a^{3}}=a\\)."
+    }
+   ]
+  },
+  {
+   "kop": "Machten met een rationale exponent",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Een macht met een <strong>rationale exponent</strong> is niets anders dan een wortel: <strong>\\(a^{1/n}=\\sqrt[n]{a}\\)</strong> en algemeen <strong>\\(a^{m/n}=\\sqrt[n]{a^{m}}=\\left(\\sqrt[n]{a}\\right)^{m}\\)</strong>. De noemer van de exponent wordt de wortelexponent, de teller blijft de macht. Reken altijd eerst de wortel uit en kwadrateer daarna: dat houdt de getallen klein."
     },
     {
      "soort": "tekst",
-     "html": "Een macht met een <strong>rationale exponent</strong> is niets anders dan een wortel. <strong>a tot de macht één op n is de n-de machtswortel uit a</strong>: a tot de macht één derde is de derdemachtswortel uit a, en zestien tot de macht een half is de vierkantswortel uit zestien, dus vier. Algemeen is <strong>a tot de macht m op n gelijk aan de n-de machtswortel uit a tot de macht m</strong>: de noemer van de exponent wordt de wortelexponent, de teller blijft de macht."
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Uitdrukking</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Hoe je ze leest</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Uitkomst</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">\\(8^{2/3}\\)</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">\\(\\sqrt[3]{8}=2\\), dan kwadrateren</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">\\(4\\)</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">\\(16^{3/4}\\)</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">\\(\\sqrt[4]{16}=2\\), dan tot de derde</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">\\(8\\)</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">\\(64^{1/6}\\)</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">\\(\\sqrt[6]{64}\\)</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">\\(2\\)</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">\\(4^{3/2}\\)</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">\\(\\sqrt{4}=2\\), dan tot de derde</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">\\(8\\), en dus niet \\(6\\)</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">\\(\\left(\\tfrac{8}{27}\\right)^{-2/3}\\)</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">eerst omkeren, dan de derdemachtswortel, dan kwadrateren</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">\\(\\tfrac{9}{4}\\)</td></tr></table>"
     },
     {
      "soort": "tekst",
-     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Uitdrukking</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Hoe je ze leest</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Uitkomst</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">acht tot de macht twee derde</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">de derdemachtswortel uit acht, dan kwadrateren</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">vier</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">zevenentwintig tot de macht twee derde</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">de derdemachtswortel uit zevenentwintig, dan kwadrateren</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">negen</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">vierenzestig tot de macht één zesde</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">de zesdemachtswortel uit vierenzestig</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">twee</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">vier tot de macht drie halven</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">de wortel uit vier, dan tot de derde</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">acht, en dus niet zes</td></tr></table>"
+     "html": "Omdat \\(\\left(a^{m}\\right)^{n}=a^{mn}\\) ook geldt voor breuken, mag je wortels gewoon samenvoegen: \\(\\sqrt{a}\\cdot\\sqrt[3]{a}=a^{1/2}\\cdot a^{1/3}=a^{5/6}\\), en \\(\\sqrt{2}\\cdot\\sqrt[3]{2}\\cdot\\sqrt[6]{2}=2^{1/2+1/3+1/6}=2^{1}=2\\). Een vergelijking als \\(x^{3/4}=8\\) los je op door beide leden tot de macht \\(\\tfrac{4}{3}\\) te verheffen: \\(x=8^{4/3}=16\\)."
+    },
+    {
+     "soort": "tekst",
+     "html": "Rationale exponenten maken getallen ook vergelijkbaar. Welk getal is het grootst, \\(2^{1/2}\\), \\(3^{1/3}\\), \\(5^{1/5}\\) of \\(6^{1/6}\\)? Verhef alles tot de macht \\(6\\): \\(2^{3}=8\\), \\(3^{2}=9\\), \\(5^{6/5}\\approx 6{,}9\\) en \\(6^{1}=6\\). Dus \\(3^{1/3}\\) is het grootst."
     },
     {
      "soort": "weetje",
-     "html": "Een <strong>rationale exponent is zonder voorbehoud gedefinieerd voor grondtallen groter dan of gelijk aan nul</strong>. Bij een negatief grondtal zou dezelfde exponent, anders geschreven, twee verschillende uitkomsten geven. Daarom blijft die schrijfwijze beperkt tot niet-negatieve grondtallen, ook al bestaat de derdemachtswortel uit min acht gewoon."
+     "html": "<strong>\\(a^{m/n}\\) is afgesproken voor \\(a\\geq 0\\).</strong> Bij een negatief grondtal zou dezelfde exponent, anders geschreven, twee uitkomsten geven: \\(\\sqrt[3]{-8}=-2\\) maar \\(\\sqrt[6]{(-8)^{2}}=\\sqrt[6]{64}=2\\), terwijl \\(\\tfrac{1}{3}=\\tfrac{2}{6}\\). Daarom blijft die schrijfwijze bij niet-negatieve grondtallen, ook al bestaat \\(\\sqrt[3]{-8}\\) gewoon."
     }
    ]
   },
@@ -50,15 +71,19 @@
    "blokken": [
     {
      "soort": "tekst",
-     "html": "Een wortel schrijf je <strong>zo eenvoudig mogelijk</strong> door er de volkomen machten uit te halen. De <strong>vierkantswortel uit vijftig</strong> is de wortel uit vijfentwintig maal twee, en dus <strong>vijf keer de vierkantswortel uit twee</strong>."
+     "html": "Een wortel schrijf je <strong>zo eenvoudig mogelijk</strong> door er de volkomen machten uit te halen: \\(\\sqrt{50}=\\sqrt{25\\cdot 2}=5\\sqrt{2}\\), \\(\\sqrt{72}=6\\sqrt{2}\\) en \\(\\sqrt[3]{54}=\\sqrt[3]{27\\cdot 2}=3\\sqrt[3]{2}\\). Bij letters deel je elke exponent door de wortelexponent: \\(\\sqrt[4]{16a^{8}b^{12}}=2a^{2}b^{3}\\) voor \\(a,b>0\\)."
     },
     {
      "soort": "tekst",
-     "html": "<strong>De vierkantswortel uit a plus b is niet gelijk aan de wortel uit a plus de wortel uit b.</strong> Probeer het met negen en zestien: de wortel uit vijfentwintig is vijf, maar drie plus vier is zeven."
+     "html": "Zijn de wortels na het vereenvoudigen gelijk, dan kan je ze optellen: \\(\\sqrt{50}+\\sqrt{18}-\\sqrt{8}=5\\sqrt{2}+3\\sqrt{2}-2\\sqrt{2}=6\\sqrt{2}\\)."
+    },
+    {
+     "soort": "kader",
+     "html": "<strong>\\(\\sqrt{a+b}\\neq\\sqrt{a}+\\sqrt{b}\\).</strong> Probeer het met \\(9\\) en \\(16\\): \\(\\sqrt{25}=5\\), maar \\(3+4=7\\)."
     },
     {
      "soort": "tekst",
-     "html": "Een breuk met een wortel in de noemer maak je netter door de <strong>noemer rationaal te maken</strong>: je vermenigvuldigt teller en noemer met diezelfde wortel. Zo wordt <strong>één gedeeld door de wortel uit drie</strong> gelijk aan <strong>de wortel uit drie gedeeld door drie</strong>."
+     "html": "Een breuk met een wortel in de noemer maak je netter door de <strong>noemer rationaal te maken</strong>. Staat er één wortel, dan vermenigvuldig je teller en noemer met diezelfde wortel: \\(\\dfrac{1}{\\sqrt{3}}=\\dfrac{\\sqrt{3}}{3}\\). Staat er een verschil, dan neem je het <strong>toegevoegde tweeterm</strong>: \\(\\dfrac{6}{\\sqrt{5}-\\sqrt{2}}=\\dfrac{6\\left(\\sqrt{5}+\\sqrt{2}\\right)}{5-2}=2\\left(\\sqrt{5}+\\sqrt{2}\\right)\\)."
     }
    ]
   },
@@ -67,19 +92,27 @@
    "blokken": [
     {
      "soort": "tekst",
-     "html": "De <strong>logaritme van x met grondtal a</strong> is <strong>de exponent waartoe je a verheft om x te krijgen</strong>. Meer is het niet. De logaritme van acht met grondtal twee is drie, want twee tot de derde is acht. De logaritme van eenentachtig met grondtal drie is vier, want drie tot de vierde is eenentachtig. De logaritme van zestien met grondtal twee is <strong>vier</strong>, niet acht."
+     "html": "<strong>\\(\\log_{a}x\\) is de exponent waartoe je \\(a\\) verheft om \\(x\\) te krijgen.</strong> Meer is het niet. Zo is \\(\\log_{2}8=3\\) want \\(2^{3}=8\\), \\(\\log_{3}81=4\\) want \\(3^{4}=81\\), en \\(\\log_{2}16=4\\) — niet \\(8\\). Ook negatieve uitkomsten horen erbij: \\(\\log_{5}\\tfrac{1}{25}=-2\\) want \\(5^{-2}=\\tfrac{1}{25}\\), en \\(\\log_{1/2}8=-3\\) want \\(\\left(\\tfrac{1}{2}\\right)^{-3}=8\\)."
     },
     {
      "soort": "tekst",
-     "html": "Staat er geen grondtal bij, dan bedoelt men <strong>grondtal tien</strong>: de logaritme van honderd is twee, en <strong>tien tot de macht min drie is nul komma nul nul één</strong>. Schrijft men <strong>ln</strong>, dan is het grondtal <strong>het getal e</strong>, ongeveer <strong>2,718</strong>. De natuurlijke logaritme van e is dus één. Eén kan nooit een grondtal zijn, en <strong>de logaritme van een negatief getal bestaat niet in de reële getallen</strong>, want een macht van een positief grondtal is altijd positief."
+     "html": "Staat er geen grondtal bij, dan bedoelt men <strong>grondtal \\(10\\)</strong>: \\(\\log 100=2\\) en \\(\\log 0{,}001=-3\\). Schrijft men <strong>\\(\\ln\\)</strong>, dan is het grondtal <strong>\\(e\\approx 2{,}718\\)</strong>, dus \\(\\ln e=1\\). Het grondtal moet <strong>positief en verschillend van \\(1\\)</strong> zijn."
     },
     {
      "soort": "tekst",
-     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Rekenregel voor logaritmen</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Waarom</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">In woorden</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">de logaritme van een product</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">machten tellen hun exponenten op</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">de som van de twee logaritmen</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">de logaritme van een quotiënt</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">machten trekken hun exponenten af</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">de logaritme van x min die van y</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">de logaritme van x tot de macht n</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een macht van een macht vermenigvuldigt</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">n maal de logaritme van x</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">de logaritme van één</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">elk grondtal tot de macht nul is één</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">altijd nul, welk toegelaten grondtal ook</td></tr></table>"
+     "html": "Het <strong>domein</strong> van een logaritme is \\(\\left]0,+\\infty\\right[\\): \\(a^{x}\\) is altijd strikt positief, dus geen enkele exponent geeft \\(0\\) of een negatief getal. Daarom bestaat \\(\\log_{2}0\\) niet, en vraagt \\(f(x)=\\ln\\left(x^{2}-4\\right)\\) dat \\(x^{2}-4>0\\), dus \\(x<-2\\) of \\(x>2\\): \\(\\text{dom}\\,f=\\left]-\\infty,-2\\right[\\;\\cup\\;\\left]2,+\\infty\\right[\\). De negatieve tak hoort er wél bij, want \\((-3)^{2}-4=5>0\\)."
+    },
+    {
+     "soort": "tekst",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Rekenregel</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Waarom</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Voorbeeld</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">\\(\\log_{a}(xy)=\\log_{a}x+\\log_{a}y\\)</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">machten tellen hun exponenten op</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">\\(\\log 2+\\log 5=\\log 10=1\\)</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">\\(\\log_{a}\\dfrac{x}{y}=\\log_{a}x-\\log_{a}y\\)</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">machten trekken hun exponenten af</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">\\(\\log_{2}\\tfrac{8}{4}=3-2=1\\)</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">\\(\\log_{a}x^{n}=n\\log_{a}x\\)</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een macht van een macht vermenigvuldigt</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">\\(\\log_{a}\\sqrt[3]{x}=\\tfrac{1}{3}\\log_{a}x\\)</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">\\(\\log_{a}1=0\\)</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">\\(a^{0}=1\\) bij elk grondtal</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">elke grafiek \\(y=\\log_{a}x\\) gaat door \\((1,0)\\)</td></tr></table>"
+    },
+    {
+     "soort": "tekst",
+     "html": "Die drie regels samen ontleden elke uitdrukking: \\(\\log_{a}\\dfrac{x^{3}\\sqrt{y}}{z}=3\\log_{a}x+\\tfrac{1}{2}\\log_{a}y-\\log_{a}z\\), want \\(\\sqrt{y}=y^{1/2}\\)."
     },
     {
      "soort": "kader",
-     "html": "<strong>De logaritme van a plus b is niet de logaritme van a plus de logaritme van b.</strong> Die regel geldt voor een <strong>product</strong>. De logaritme van een <strong>som</strong> kan je niet splitsen."
+     "html": "<strong>\\(\\log(a+b)\\neq\\log a+\\log b\\).</strong> Die regel geldt voor een <strong>product</strong>. En <strong>\\(\\left(\\ln x\\right)^{2}\\neq 2\\ln x\\)</strong>: \\(2\\ln x\\) is \\(\\ln x^{2}\\). Bij \\(x=e\\) is het kwadraat \\(1\\) en \\(2\\ln e=2\\)."
     }
    ]
   },
@@ -88,28 +121,38 @@
    "blokken": [
     {
      "soort": "tekst",
-     "html": "Een logaritme haalt de onbekende <strong>uit de exponent</strong>. Bij <strong>drie tot de macht x is gelijk aan twintig</strong> heb je ze nodig; bij een gewone tweedegraadsvergelijking niet. Soms zie je het antwoord meteen: <strong>twee tot de macht x is tweeëndertig</strong> geeft <strong>x is vijf</strong>, want tweeëndertig is twee tot de vijfde."
+     "html": "Een logaritme haalt de onbekende <strong>uit de exponent</strong>. Soms zie je het antwoord meteen: \\(2^{x}=32\\) geeft \\(x=5\\). Lukt dat niet, neem dan van beide leden de logaritme: uit \\(3^{x}=20\\) volgt \\(x\\ln 3=\\ln 20\\), dus \\(x=\\dfrac{\\ln 20}{\\ln 3}\\approx 2{,}73\\). Dat is tegelijk de regel voor het <strong>veranderen van grondtal</strong>: \\(\\log_{a}x=\\dfrac{\\ln x}{\\ln a}\\). Let op de volgorde — het getal waarvan je de logaritme zoekt staat boven, het oude grondtal onder. Daaruit volgt ook \\(\\log_{a}b\\cdot\\log_{b}a=1\\) en \\(\\log_{2}5\\cdot\\log_{5}8=\\log_{2}8=3\\)."
     },
     {
      "soort": "tekst",
-     "html": "Een logaritme en een macht met hetzelfde grondtal <strong>heffen elkaar op</strong>: <strong>tien tot de macht de logaritme van zeven met grondtal tien is gewoon zeven</strong>."
+     "html": "Een logaritme en een macht met hetzelfde grondtal <strong>heffen elkaar op</strong>: \\(10^{\\log 7}=7\\) en \\(\\ln\\left(e^{x}\\right)=x\\) voor elke \\(x\\in\\mathbb{R}\\). Omgekeerd geldt \\(e^{\\ln x}=x\\) enkel voor \\(x>0\\), want anders bestaat \\(\\ln x\\) niet. Zo is \\(e^{2\\ln 3}=e^{\\ln 9}=9\\)."
     },
     {
      "soort": "tekst",
-     "html": "Je rekenapp kent meestal alleen log en ln. Een andere logaritme bereken je met het <strong>veranderen van grondtal</strong>: <strong>de logaritme van x gedeeld door de logaritme van a</strong>, allebei met hetzelfde nieuwe grondtal. Let op de volgorde: het getal waarvan je de logaritme zoekt staat boven, het oude grondtal onder."
+     "html": "Staat de onbekende twee keer in dezelfde macht, <strong>stel dan een hulponbekende</strong>. Bij \\(2^{x+1}=5\\cdot 2^{x}-12\\) stel je \\(t=2^{x}\\): links staat \\(2t\\), dus \\(2t=5t-12\\), \\(t=4\\) en \\(x=2\\)."
+    },
+    {
+     "soort": "kader",
+     "html": "Zet je twee logaritmen samen, <strong>controleer dan het domein van je oplossing</strong>. \\(\\log_{2}x+\\log_{2}(x-2)=3\\) wordt \\(x^{2}-2x-8=0\\), met \\(x=4\\) of \\(x=-2\\). Maar \\(\\log_{2}(-2)\\) bestaat niet, dus enkel \\(x=4\\) is een oplossing. Samenvoegen verbreedt het domein, en dan sluipen er valse oplossingen binnen."
+    },
+    {
+     "soort": "tekst",
+     "html": "Twee toepassingen die je buiten de wiskundeles terugvindt. <strong>Groei</strong>: een belegging aan \\(4\\%\\) per jaar staat na \\(n\\) jaar op \\(1{,}04^{n}\\) keer het startbedrag, en \\(1{,}04^{n}\\geq 2\\) geeft \\(n\\geq\\dfrac{\\ln 2}{\\ln 1{,}04}\\approx 17{,}7\\): na \\(18\\) volle jaren is ze verdubbeld. <strong>Een logaritmische schaal</strong>: het geluidsniveau \\(L=10\\log\\dfrac{I}{I_{0}}\\) stijgt met \\(10\\log 100=20\\) decibel wanneer de intensiteit honderd keer zo groot wordt."
     }
    ]
   }
  ],
  "onthoud": [
-  "Elk getal behalve nul tot de macht nul is één.",
-  "Een negatieve exponent betekent omkeren: twee tot de macht min drie is één achtste.",
-  "Een macht verdeelt zich over een product en een quotiënt, nooit over een som.",
-  "a tot de macht m op n is de n-de machtswortel uit a tot de macht m.",
-  "De n-de machtswortel uit een negatief getal bestaat in R alleen als n oneven is.",
-  "De vierkantswortel uit vijftig is vijf keer de vierkantswortel uit twee.",
-  "De logaritme van x met grondtal a is de exponent waartoe je a verheft om x te krijgen.",
-  "Zonder grondtal bedoelt men grondtal tien; ln heeft grondtal e, ongeveer 2,718.",
-  "Veranderen van grondtal: de logaritme van x gedeeld door de logaritme van a."
+  "\\(a^{0}=1\\) voor elke \\(a\\neq 0\\), en \\(a^{-n}=\\dfrac{1}{a^{n}}\\): omkeren, niet van teken veranderen.",
+  "\\(a^{m}\\cdot a^{n}=a^{m+n}\\), \\(\\dfrac{a^{m}}{a^{n}}=a^{m-n}\\) en \\(\\left(a^{m}\\right)^{n}=a^{mn}\\).",
+  "Een macht of wortel verdeelt zich over een product en een quotiënt, nooit over een som.",
+  "\\(a^{m/n}=\\sqrt[n]{a^{m}}\\), afgesproken voor \\(a\\geq 0\\); en \\(\\sqrt{a^{2}}=|a|\\).",
+  "\\(\\sqrt[n]{a}\\) met \\(a<0\\) bestaat in \\(\\mathbb{R}\\) alleen als \\(n\\) oneven is.",
+  "\\(\\sqrt{50}=5\\sqrt{2}\\); maak een noemer rationaal met het toegevoegde tweeterm.",
+  "\\(\\log_{a}x\\) is de exponent waartoe je \\(a\\) verheft om \\(x\\) te krijgen; \\(\\text{dom}=\\left]0,+\\infty\\right[\\).",
+  "Zonder grondtal is het \\(10\\); \\(\\ln\\) heeft grondtal \\(e\\approx 2{,}718\\).",
+  "\\(\\log_{a}(xy)=\\log_{a}x+\\log_{a}y\\), \\(\\log_{a}x^{n}=n\\log_{a}x\\), \\(\\log_{a}1=0\\).",
+  "Veranderen van grondtal: \\(\\log_{a}x=\\dfrac{\\ln x}{\\ln a}\\).",
+  "Logaritmen samenvoegen? Controleer achteraf of je oplossing in het domein ligt."
  ]
 }

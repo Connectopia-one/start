@@ -3,6 +3,7 @@
 import Link from "next/link";
 import { useCallback, useEffect, useState } from "react";
 import { VraagTekst } from "@/components/Figuren";
+import { Formule } from "@/components/Formule";
 import {
   haalDagvraag,
   type Dagvraag as DagvraagType,
@@ -241,7 +242,7 @@ export function Dagvraag() {
                       }}
                       className="accent-forest"
                     />
-                    {optie}
+                    <Formule tekst={optie} />
                   </label>
                 );
               })}
@@ -298,7 +299,9 @@ export function Dagvraag() {
                 <p className="mt-1 text-ink">{juisteAntwoord(vraag)}</p>
               )}
               {vraag.uitleg && (
-                <p className="mt-1 text-ink">{zonderOordeel(vraag.uitleg)}</p>
+                <p className="mt-1 text-ink">
+                  <Formule tekst={zonderOordeel(vraag.uitleg)} />
+                </p>
               )}
             </div>
           )}

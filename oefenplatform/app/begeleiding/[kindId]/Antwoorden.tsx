@@ -1,5 +1,6 @@
 import { schrijfInvul, schrijfKeuzes } from "@/lib/antwoord";
 import { VraagTekst } from "@/components/Figuren";
+import { Formule } from "@/components/Formule";
 import { variantVoorBeurt } from "@/lib/spellingvariant";
 
 /*
@@ -117,7 +118,9 @@ export function Antwoorden({
                 )}
 
                 {vraag.uitleg && (
-                  <p className="mt-2 text-sm text-ink-dim">{vraag.uitleg}</p>
+                  <p className="mt-2 text-sm text-ink-dim">
+                    <Formule tekst={vraag.uitleg} />
+                  </p>
                 )}
 
                 <p className="mt-2 text-xs text-ink-dim">

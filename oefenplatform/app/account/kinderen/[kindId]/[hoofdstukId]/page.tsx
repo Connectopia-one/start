@@ -5,6 +5,7 @@ import { Header } from "@/components/Header";
 import { requireIngelogd } from "@/lib/auth";
 import { createClient } from "@/lib/supabase/server";
 import { VraagTekst } from "@/components/Figuren";
+import { Formule } from "@/components/Formule";
 import { variantVoorBeurt } from "@/lib/spellingvariant";
 
 type Vraag = {
@@ -154,7 +155,7 @@ export default async function HoofdstukAntwoordenPage({
                     )}
                     {vraag.uitleg && (
                       <p className="mt-2 text-sm text-ink-dim">
-                        {vraag.uitleg}
+                        <Formule tekst={vraag.uitleg} />
                       </p>
                     )}
                     <p className="mt-2 text-xs text-ink-dim">

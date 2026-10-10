@@ -29,6 +29,7 @@
 
 import { useEffect, useMemo, useRef, useState, type PointerEvent as ReactPointerEvent } from "react";
 import { TEKENINGEN, Tekening } from "@/components/Tekeningen";
+import { Formule } from "@/components/Formule";
 
 export type Vorm = "cirkel" | "strook" | "raster";
 
@@ -96,7 +97,9 @@ export function VraagTekst({ tekst }: { tekst: string }) {
   const tekeningen = stukken.filter((s) => s.soort === "tekening") as Extract<Stuk, { soort: "tekening" }>[];
   return (
     <>
-      <p className="font-medium text-ink">{woorden}</p>
+      <p className="font-medium text-ink">
+        <Formule tekst={woorden} />
+      </p>
       {tekeningen.length > 0 && (
         <div className="mt-3 flex flex-wrap items-start gap-5">
           {tekeningen.map((t, i) => (

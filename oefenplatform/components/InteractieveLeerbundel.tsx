@@ -1,6 +1,7 @@
 "use client";
 
 import Link from "next/link";
+import { Formule, formulesInHtml } from "@/components/Formule";
 import { useEffect, useRef, useState } from "react";
 import { Legpuzzel } from "@/components/Legpuzzel";
 import { Volgordespel } from "@/components/Volgordespel";
@@ -372,11 +373,11 @@ function Blok({ blok }: { blok: BundelBlok }) {
       <figure className="mt-4 first:mt-0">
         <div
           className="overflow-x-auto [&_svg]:h-auto [&_svg]:max-w-full [&_table]:w-full"
-          dangerouslySetInnerHTML={{ __html: blok.html }}
+          dangerouslySetInnerHTML={{ __html: formulesInHtml(blok.html) }}
         />
         {blok.onderschrift && (
           <figcaption className="mt-2 text-center text-xs text-ink-dim">
-            {blok.onderschrift}
+            <Formule tekst={blok.onderschrift} />
           </figcaption>
         )}
       </figure>
@@ -389,7 +390,7 @@ function Blok({ blok }: { blok: BundelBlok }) {
         <p className="text-sm font-semibold text-ink">💡 Weetje</p>
         <div
           className="mt-1 text-[15px] leading-relaxed text-ink"
-          dangerouslySetInnerHTML={{ __html: blok.html }}
+          dangerouslySetInnerHTML={{ __html: formulesInHtml(blok.html) }}
         />
       </div>
     );
@@ -399,7 +400,7 @@ function Blok({ blok }: { blok: BundelBlok }) {
     return (
       <div
         className="mt-4 overflow-x-auto rounded-xl border border-border bg-paper px-4 py-3 text-[15px] leading-relaxed text-ink first:mt-0"
-        dangerouslySetInnerHTML={{ __html: blok.html }}
+        dangerouslySetInnerHTML={{ __html: formulesInHtml(blok.html) }}
       />
     );
   }
@@ -407,7 +408,7 @@ function Blok({ blok }: { blok: BundelBlok }) {
   return (
     <div
       className="mt-4 text-[15px] leading-relaxed text-ink first:mt-0"
-      dangerouslySetInnerHTML={{ __html: blok.html }}
+      dangerouslySetInnerHTML={{ __html: formulesInHtml(blok.html) }}
     />
   );
 }

@@ -3,6 +3,7 @@
 import Link from "next/link";
 import { useEffect, useMemo, useRef, useState } from "react";
 import { MeldingKnop } from "@/components/MeldingKnop";
+import { Formule } from "@/components/Formule";
 import {
   haalOefenstand,
   registreerAntwoord,
@@ -380,7 +381,7 @@ function VraagKaart({
                   }}
                   className="accent-forest"
                 />
-                {optie}
+                <Formule tekst={optie} />
               </label>
             );
           })}
@@ -534,7 +535,9 @@ function VraagKaart({
             <p className="mt-1 text-ink">{stellingZin(vraag.antwoord)}</p>
           )}
           {vraag.uitleg && (
-            <p className="mt-1 text-ink">{zonderOordeel(vraag.uitleg)}</p>
+            <p className="mt-1 text-ink">
+              <Formule tekst={zonderOordeel(vraag.uitleg)} />
+            </p>
           )}
         </div>
       )}

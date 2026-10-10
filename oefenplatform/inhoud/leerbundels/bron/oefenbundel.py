@@ -193,6 +193,9 @@ def render(bundel):
 <meta charset="utf-8">
 <title>Oefenbundel — {_html.escape(bundel["titel"])}</title>
 <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,600&family=IBM+Plex+Sans:wght@400;600&display=swap" rel="stylesheet">
+<!-- De opmaak van de formules, met de lettertypes erin; zie maak_katex_css.py.
+     pdf.js tekent de formules vlak voor het afdrukken. -->
+<link href="katex-inline.css" rel="stylesheet">
 <style>{CSS}{OEFEN_CSS}</style>
 </head>
 <body>

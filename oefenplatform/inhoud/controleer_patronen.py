@@ -29,6 +29,9 @@ import json
 import pathlib
 import sys
 
+sys.path.insert(0, str(pathlib.Path(__file__).parent))
+from notatie import zichtbaar  # noqa: E402  (pad moet eerst klaarstaan)
+
 HIER = pathlib.Path(__file__).parent
 SPELING = 5          # letters verschil die niet meetellen
 GRENS_LANGSTE = 0.4
@@ -57,7 +60,7 @@ def tel(hoofdstuk):
     langst = 0
     for v in mk:
         antw = v["antwoord"] if isinstance(v["antwoord"], list) else [v["antwoord"]]
-        lengtes = [len(o) for o in (v.get("opties") or [""])]
+        lengtes = [len(zichtbaar(o)) for o in (v.get("opties") or [""])]
         anders = [lengtes[i] for i in range(len(lengtes)) if i not in antw]
         if anders and min(lengtes[i] for i in antw) > max(anders) + SPELING:
             langst += 1
