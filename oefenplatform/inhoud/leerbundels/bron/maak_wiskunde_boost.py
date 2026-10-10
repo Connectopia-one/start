@@ -23,6 +23,7 @@ voorvoegsel "oefenbundel-".
 import sys, pathlib
 sys.path.insert(0, str(pathlib.Path(__file__).parent))
 import bundel
+import svg
 
 VAK = "Wiskunde gevorderd"
 BOOST = "🚀 Boost doorstroom — 3de en 4de middelbaar"
@@ -1069,22 +1070,28 @@ BUNDELS["stelsels-en-tweedegraadsvergelijkingen-boost-doorstroom"] = dict(
         dict(kop="Wat is een stelsel?", blokken=[
             ("p", "Een <strong>stelsel</strong> van twee eerstegraadsvergelijkingen in twee onbekenden zijn "
                   "twee vergelijkingen die <strong>tegelijk</strong> moeten kloppen. De oplossing is dus geen "
-                  "los getal maar een <strong>koppel</strong> (x, y) dat in allebei de vergelijkingen past."),
+                  "los getal maar een <strong>koppel</strong> \\((x, y)\\) dat in allebei de vergelijkingen "
+                  "past. Je schrijft zo'n stelsel met een accolade: "
+                  "\\(\\left\\{\\begin{array}{l} x + y = 10 \\\\ x - y = 2 \\end{array}\\right.\\)"),
             ("p", "<strong>Grafisch</strong> is elke vergelijking een rechte, en de oplossing is hun "
                   "<strong>snijpunt</strong>. Daar liggen de drie mogelijke uitkomsten meteen voor je:"),
+            ("fig", svg.driegevallen(),
+             "De twee rechten van een stelsel kunnen elkaar snijden, samenvallen of evenwijdig lopen."),
+        ]),
+        dict(kop="Bepaald, onbepaald of strijdig", blokken=[
             ("p", tabel(["Grafisch", "Naam", "Aantal oplossingen"], [
                 ["de rechten snijden in één punt", "bepaald stelsel", "precies één"],
-                ["de rechten zijn evenwijdig, niet samenvallend", "strijdig stelsel", "geen"],
+                ["de rechten zijn evenwijdig, niet samenvallend", "strijdig stelsel", r"geen, \(S = \emptyset\)"],
                 ["de rechten vallen samen", "onbepaald stelsel", "oneindig veel"],
             ])),
             ("kader", "Grafisch oplossen laat je <strong>zien</strong> wat er gebeurt, maar geeft geen exact "
-                      "antwoord: een snijpunt op (2,37; 1,84) lees je niet van een ruitjesblad. Voor het exacte "
-                      "antwoord heb je een algebraïsche methode nodig."),
+                      "antwoord: een snijpunt op \\((2{,}37 ; 1{,}84)\\) lees je niet van een ruitjesblad. "
+                      "Voor het exacte antwoord heb je een algebraïsche methode nodig."),
         ]),
         dict(kop="De drie algebraïsche methodes", blokken=[
             ("p", tabel(["Methode", "Wat je doet", "Handig als"], [
                 ["substitutiemethode", "druk één onbekende uit en vul die in de andere vergelijking in",
-                 "één vergelijking al y = … of x = … is"],
+                 r"één vergelijking al \(y = \ldots\) of \(x = \ldots\) is"],
                 ["combinatiemethode", "tel de vergelijkingen op of trek ze af zodat één onbekende wegvalt",
                  "de coëfficiënten mooi tegen elkaar wegvallen"],
                 ["gelijkstellingsmethode", "druk in allebei dezelfde onbekende uit en stel de twee aan elkaar gelijk",
@@ -1092,94 +1099,103 @@ BUNDELS["stelsels-en-tweedegraadsvergelijkingen-boost-doorstroom"] = dict(
             ])),
             ("p", "Welke je kiest, maakt voor het antwoord niets uit: de <strong>drie methodes geven altijd "
                   "dezelfde oplossing</strong>. Ze verschillen alleen in hoeveel rekenwerk ze kosten."),
-            ("p", "<strong>Substitutie in de praktijk.</strong> Bij y = 2x en x + y = 9 vul je 2x in voor y: "
-                  "x + 2x = 9, dus 3x = 9 en x = 3, en dan y = 6. Bij y = 3x en x + y = 16 net zo: 4x = 16, "
-                  "dus x = 4 en y = 12."),
-            ("p", "<strong>Combinatie in de praktijk.</strong> Bij x + y = 10 en x − y = 2 tel je de twee "
-                  "vergelijkingen op: de y valt weg en je houdt 2x = 12 over, dus x = 6 en y = 4. Bij "
-                  "x + y = 12 en x − y = 4 geeft dat 2x = 16, dus x = 8."),
         ]),
-        dict(kop="Wat een vreemd resultaat betekent", blokken=[
-            ("p", "Verdwijnen tijdens het oplossen allebei de onbekenden, dan zegt wat overblijft je welk "
-                  "soort stelsel je had:"),
-            ("p", "komt er <strong>0 = 7</strong> uit (of iets anders dat niet klopt), dan is het stelsel "
-                  "<strong>strijdig</strong> en is er geen enkele oplossing; komt er <strong>0 = 0</strong> "
-                  "uit, dan is het <strong>onbepaald</strong> en zijn er oneindig veel oplossingen: de twee "
-                  "rechten vallen samen."),
+        dict(kop="De twee methodes in de praktijk", blokken=[
+            ("p", "<strong>Substitutie.</strong> Bij \\(y = 2x\\) en \\(x + y = 9\\) vul je \\(2x\\) in voor "
+                  "\\(y\\): \\(x + 2x = 9\\), dus \\(3x = 9\\), \\(x = 3\\) en \\(y = 6\\). Bij \\(y = 3x\\) "
+                  "en \\(x + y = 16\\) net zo: \\(4x = 16\\), dus \\(x = 4\\) en \\(y = 12\\)."),
+            ("p", "<strong>Combinatie.</strong> Bij \\(x + y = 10\\) en \\(x - y = 2\\) tel je de twee "
+                  "vergelijkingen op: de \\(y\\) valt weg en je houdt \\(2x = 12\\) over, dus \\(x = 6\\) en "
+                  "\\(y = 4\\). Bij \\(x + y = 12\\) en \\(x - y = 4\\) geeft dat \\(2x = 16\\), dus "
+                  "\\(x = 8\\)."),
+            ("p", "Verdwijnen tijdens het oplossen <strong>allebei</strong> de onbekenden, dan zegt wat "
+                  "overblijft je welk soort stelsel je had. Komt er \\(0 = 7\\) uit, of iets anders dat niet "
+                  "klopt, dan is het stelsel <strong>strijdig</strong> en is er geen enkele oplossing. Komt "
+                  "er \\(0 = 0\\) uit, dan is het <strong>onbepaald</strong> en zijn er oneindig veel "
+                  "oplossingen: de twee rechten vallen samen."),
         ]),
         dict(kop="Vraagstukken met twee onbekenden", blokken=[
             ("p", "<em>Twee broden en drie koeken kosten 7 euro, één brood en drie koeken kosten 5 euro. Wat "
-                  "kost een brood?</em> Noem b de prijs van een brood en k die van een koek. Dan is "
-                  "2b + 3k = 7 en b + 3k = 5. Trek de tweede van de eerste af: de koeken vallen weg en je "
-                  "houdt b = 2 over. Een brood kost dus 2 euro."),
+                  "kost een brood?</em> Noem \\(b\\) de prijs van een brood en \\(k\\) die van een koek: "
+                  "\\(\\left\\{\\begin{array}{l} 2b + 3k = 7 \\\\ b + 3k = 5 \\end{array}\\right.\\) Trek de "
+                  "tweede van de eerste af: de koeken vallen weg en je houdt \\(b = 2\\) over. Een brood kost "
+                  "dus 2 euro, een koek 1 euro."),
             ("p", "Het patroon: twee onbekenden vragen om twee vergelijkingen. Schrijf eerst netjes op waar "
                   "elke letter voor staat."),
         ]),
         dict(kop="Tweedegraadsvergelijkingen", blokken=[
-            ("p", "De <strong>standaardvorm</strong> is <strong>ax² + bx + c = 0</strong>, met a niet gelijk "
-                  "aan nul. Een vergelijking heet <strong>onvolledig</strong> als b of c ontbreekt, zoals "
-                  "x² − 9 = 0 of x² − 5x = 0. Die los je op zonder formule:"),
+            ("p", "De <strong>standaardvorm</strong> is \\(ax^{2} + bx + c = 0\\), met \\(a \\neq 0\\). Een "
+                  "vergelijking heet <strong>onvolledig</strong> als \\(b\\) of \\(c\\) ontbreekt. Die los je "
+                  "op zonder formule:"),
             ("p", tabel(["Vergelijking", "Aanpak", "Oplossingen"], [
-                ["x² − 9 = 0", "x² = 9", "3 en −3"],
-                ["x² = 49", "x² = 49", "7 en −7"],
-                ["x² − 5x = 0", "x(x − 5) = 0", "0 en 5"],
+                [r"\(x^{2} - 9 = 0\)", r"\((x - 3)(x + 3) = 0\)", r"\(3\) en \(-3\)"],
+                [r"\(x^{2} = 49\)", r"worteltrekken", r"\(7\) en \(-7\)"],
+                [r"\(x^{2} - 5x = 0\)", r"\(x(x - 5) = 0\)", r"\(0\) en \(5\)"],
             ])),
             ("p", "Daarachter zit één regel: <strong>is een product van twee factoren nul, dan is minstens "
                   "één van de factoren nul</strong>. Dat is waarom ontbinden zo nuttig is."),
         ]),
         dict(kop="De discriminant", blokken=[
-            ("p", "De <strong>discriminant</strong> is <strong>D = b² − 4ac</strong>. Haar teken zegt hoeveel "
-                  "reële oplossingen er zijn, nog vóór je ze berekent."),
+            ("p", "De <strong>discriminant</strong> is \\(D = b^{2} - 4ac\\). Haar teken zegt hoeveel reële "
+                  "oplossingen er zijn, nog vóór je ze berekent."),
+            ("fig", svg.discriminant(),
+             "Dezelfde parabool, drie keer anders gelegd tegenover de \\(x\\)-as."),
+        ]),
+        dict(kop="Het teken van \\(D\\) lezen", blokken=[
             ("p", tabel(["Discriminant", "Aantal reële oplossingen", "De parabool"], [
-                ["D > 0", "twee", "snijdt de x-as in twee punten"],
-                ["D = 0", "één (een dubbele)", "raakt de x-as"],
-                ["D < 0", "geen", "ligt helemaal naast de x-as"],
+                [r"\(D > 0\)", "twee", r"snijdt de \(x\)-as in twee punten"],
+                [r"\(D = 0\)", "één (een dubbele)", r"raakt de \(x\)-as"],
+                [r"\(D < 0\)", "geen", r"ligt helemaal naast de \(x\)-as"],
             ])),
-            ("p", "Bij x² − 4x + 4 is D = 16 − 16 = 0, dus er is één oplossing: x = 2. Een "
-                  "vierkantsvergelijking heeft dus <strong>niet altijd</strong> twee reële oplossingen."),
-            ("p", "Is D groter dan of gelijk aan nul, dan geeft de formule de oplossingen: "
-                  "x = (−b ± √D) / (2a)."),
-            ("weetje", "De oplossingen van ax² + bx + c = 0 zijn precies de <strong>nulwaarden</strong> van "
-                       "de parabool y = ax² + bx + c. Algebra en grafiek vertellen hetzelfde verhaal."),
+            ("p", "Bij \\(x^{2} - 4x + 4\\) is \\(D = 16 - 16 = 0\\), dus er is één oplossing: \\(x = 2\\). "
+                  "Een vierkantsvergelijking heeft dus <strong>niet altijd</strong> twee reële oplossingen."),
+            ("kader", "Is \\(D \\geq 0\\), dan geeft de formule de oplossingen: "
+                      "\\[x = \\frac{-b \\pm \\sqrt{D}}{2a}\\]"),
+            ("weetje", "De oplossingen van \\(ax^{2} + bx + c = 0\\) zijn precies de "
+                       "<strong>nulwaarden</strong> van de parabool \\(y = ax^{2} + bx + c\\). Algebra en "
+                       "grafiek vertellen hetzelfde verhaal."),
         ]),
         dict(kop="Ontbinden en oplossen", blokken=[
             ("p", "De <strong>ontbinding</strong> van een uitdrukking geeft haar nulwaarden cadeau:"),
             ("p", tabel(["Uitdrukking", "Ontbinding", "Nulwaarden"], [
-                ["x² − 16", "(x + 4)(x − 4)", "4 en −4"],
-                ["x² + 6x + 9", "(x + 3)²", "−3 (dubbel)"],
-                ["x² − 5x + 6", "(x − 2)(x − 3)", "2 en 3"],
+                [r"\(x^{2} - 16\)", r"\((x + 4)(x - 4)\)", r"\(4\) en \(-4\)"],
+                [r"\(x^{2} + 6x + 9\)", r"\((x + 3)^{2}\)", r"\(-3\) (dubbel)"],
+                [r"\(x^{2} - 5x + 6\)", r"\((x - 2)(x - 3)\)", r"\(2\) en \(3\)"],
             ])),
-            ("kader", "<strong>x² + 9 is níét te ontbinden als (x + 3)(x − 3).</strong> Dat laatste geeft "
-                      "uitgewerkt x² − 9. Alleen een <em>verschil</em> van twee kwadraten ontbindt zo; een "
-                      "som van twee kwadraten heeft in de reële getallen geen nulwaarden."),
+            ("kader", "<strong>\\(x^{2} + 9\\) is níét te ontbinden als \\((x + 3)(x - 3)\\).</strong> Dat "
+                      "laatste geeft uitgewerkt \\(x^{2} - 9\\). Alleen een <em>verschil</em> van twee "
+                      "kwadraten ontbindt zo; een som van twee kwadraten heeft in \\(\\mathbb{R}\\) geen "
+                      "nulwaarden."),
         ]),
         dict(kop="Toepassen en controleren", blokken=[
             ("p", "<em>Een rechthoek is 3 meter langer dan breed en heeft een oppervlakte van 40 vierkante "
-                  "meter.</em> Noem de breedte x, dan is de lengte x + 3 en luidt de vergelijking "
-                  "<strong>x(x + 3) = 40</strong>, dus x² + 3x − 40 = 0. De oplossingen zijn 5 en −8. De "
-                  "breedte is dus <strong>5 meter</strong>."),
+                  "meter.</em> Noem de breedte \\(x\\), dan is de lengte \\(x + 3\\) en luidt de vergelijking "
+                  "\\(x(x + 3) = 40\\), dus \\(x^{2} + 3x - 40 = 0\\). De oplossingen zijn \\(5\\) en "
+                  "\\(-8\\). De breedte is dus <strong>5 meter</strong>."),
             ("p", "En daar zie je meteen waarom je de oplossingen altijd in het oorspronkelijke probleem "
-                  "controleert: −8 is wiskundig een geldige oplossing van de vergelijking, maar een rechthoek "
-                  "met een breedte van min 8 meter bestaat niet. Bij een omgevormde vergelijking kunnen er "
-                  "bovendien oplossingen bij komen die in de oorspronkelijke vorm niet mogen, bijvoorbeeld "
-                  "omdat je ergens door nul zou delen."),
-            ("p", "<strong>Een ongelijkheid van de tweede graad.</strong> x² < 9 betekent dat x tussen −3 en "
-                  "3 ligt: de oplossingenverzameling is het open interval ]−3, 3[. Wie hier alleen x < 3 "
-                  "schrijft, vergeet de negatieve kant."),
+                  "controleert: \\(-8\\) is wiskundig een geldige oplossing van de vergelijking, maar een "
+                  "rechthoek met een breedte van \\(-8\\) meter bestaat niet. Bij een omgevormde vergelijking "
+                  "kunnen er bovendien oplossingen bij komen die in de oorspronkelijke vorm niet mogen, "
+                  "bijvoorbeeld omdat je ergens door nul zou delen."),
+            ("p", "<strong>Een ongelijkheid van de tweede graad.</strong> \\(x^{2} < 9\\) betekent dat \\(x\\) "
+                  "tussen \\(-3\\) en \\(3\\) ligt: de oplossingenverzameling is het open interval "
+                  "\\(\\left]-3, 3\\right[\\). Wie hier alleen \\(x < 3\\) schrijft, vergeet de negatieve "
+                  "kant."),
         ]),
     ],
     onthoud=[
-        "De oplossing van een stelsel is een koppel (x, y), niet één getal.",
+        r"De oplossing van een stelsel is een koppel \((x, y)\), niet één getal.",
         "Drie methodes: substitutie, combinatie en gelijkstelling; ze geven altijd hetzelfde antwoord.",
         "Bepaald is één snijpunt, strijdig is evenwijdig, onbepaald is samenvallend.",
-        "0 = 7 betekent strijdig, 0 = 0 betekent onbepaald.",
+        r"\(0 = 7\) betekent strijdig, \(0 = 0\) betekent onbepaald.",
         "Grafisch oplossen is aanschouwelijk maar niet exact.",
-        "Standaardvorm ax² + bx + c = 0; onvolledig als b of c ontbreekt.",
+        r"Standaardvorm \(ax^{2} + bx + c = 0\); onvolledig als \(b\) of \(c\) ontbreekt.",
         "Is een product nul, dan is minstens één factor nul.",
-        "D = b² − 4ac: positief twee oplossingen, nul één, negatief geen.",
-        "x² − 16 = (x + 4)(x − 4), maar x² + 9 ontbindt niet.",
+        r"\(D = b^{2} - 4ac\): positief twee oplossingen, nul één, negatief geen.",
+        r"\(x = \dfrac{-b \pm \sqrt{D}}{2a}\) zodra \(D \geq 0\).",
+        r"\(x^{2} - 16 = (x + 4)(x - 4)\), maar \(x^{2} + 9\) ontbindt niet.",
         "De oplossingen zijn de nulwaarden van de bijhorende parabool.",
-        "x² < 9 geeft ]−3, 3[, niet enkel x < 3.",
+        r"\(x^{2} < 9\) geeft \(\left]-3, 3\right[\), niet enkel \(x < 3\).",
     ],
 )
 

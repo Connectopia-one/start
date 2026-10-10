@@ -1,5 +1,5 @@
 # -*- coding: utf-8 -*-
-"""De vragen voor "Stelsels en tweedegraadsvergelijkingen".
+r"""De vragen voor "Stelsels en tweedegraadsvergelijkingen".
 
 Uit de bouwsteen Relaties en verandering: het stelsel van twee
 eerstegraadsvergelijkingen in twee onbekenden, met de combinatie-, substitutie-
@@ -9,6 +9,11 @@ tweedegraadsvergelijking: de standaardvorm, volledige en onvolledige
 vergelijkingen, de discriminant, het ontbinden in factoren, de merkwaardige
 producten en de tweedegraadsongelijkheden.
 
+In echte notatie geschreven, met een accolade voor een stelsel en
+\(ax^{2} + bx + c = 0\) in plaats van "ax kwadraat plus bx plus c is nul".
+Zie oefenplatform/lib/wiskunde.ts. Het antwoord van een invulvraag blijft
+gewone tekst, want dat typt een leerling in een invulvakje.
+
 Deel 1 zijn de stelsels. Deel 2 is de tweede graad.
 """
 
@@ -17,13 +22,13 @@ DEEL1 = [
         type="meerkeuze",
         vraag="Wat is een stelsel van twee eerstegraadsvergelijkingen in twee onbekenden?",
         opties=[
-            "twee vergelijkingen die tegelijk moeten kloppen voor dezelfde x en y",
+            r"twee vergelijkingen die tegelijk moeten kloppen voor dezelfde \(x\) en \(y\)",
             "twee vergelijkingen waarvan je er zelf één mag kiezen",
             "een vergelijking die je in twee stappen moet oplossen",
             "twee vergelijkingen die na elkaar opgelost worden",
         ],
         antwoord=0,
-        uitleg="De oplossing is een koppel getallen dat in allebei de vergelijkingen past.",
+        uitleg=r"De oplossing is een koppel \((x, y)\) dat in allebei de vergelijkingen past.",
     ),
     dict(
         type="meerkeuze",
@@ -47,7 +52,7 @@ DEEL1 = [
             "je tekent de twee rechten en leest het snijpunt af",
         ],
         antwoord=0,
-        uitleg="Handig als één van de twee vergelijkingen al bijna in de vorm y is ... staat.",
+        uitleg=r"Handig als één van de twee vergelijkingen al bijna in de vorm \(y = \ldots\) staat.",
     ),
     dict(
         type="meerkeuze",
@@ -66,7 +71,7 @@ DEEL1 = [
         vraag="Hoe noem je een stelsel zonder oplossingen?",
         opties=["strijdig", "onbepaald", "bepaald", "onvolledig"],
         antwoord=0,
-        uitleg="Grafisch zijn dat twee evenwijdige rechten die niet samenvallen: ze snijden elkaar nergens.",
+        uitleg=r"Grafisch zijn dat twee evenwijdige rechten die niet samenvallen: \(S = \emptyset\).",
     ),
     dict(
         type="meerkeuze",
@@ -89,32 +94,32 @@ DEEL1 = [
     ),
     dict(
         type="meerkeuze",
-        vraag="Wat is de oplossing van het stelsel x plus y is 10 en x min y is 2?",
-        opties=["x is 6 en y is 4", "x is 4 en y is 6", "x is 5 en y is 5", "x is 8 en y is 2"],
+        vraag=r"Wat is de oplossing van \(\left\{\begin{array}{l} x + y = 10 \\ x - y = 2 \end{array}\right.\)?",
+        opties=[r"\((6, 4)\)", r"\((4, 6)\)", r"\((5, 5)\)", r"\((8, 2)\)"],
         antwoord=0,
-        uitleg="Tel de twee vergelijkingen op: 2x is 12, dus x is 6 en y is 4.",
+        uitleg=r"Tel de twee vergelijkingen op: \(2x = 12\), dus \(x = 6\) en \(y = 4\).",
     ),
     dict(
         type="meerkeuze",
-        vraag="Wat is de oplossing van het stelsel y is 2x en x plus y is 9?",
-        opties=["x is 3 en y is 6", "x is 6 en y is 3", "x is 4,5 en y is 4,5", "x is 9 en y is 18"],
+        vraag=r"Wat is de oplossing van \(\left\{\begin{array}{l} y = 2x \\ x + y = 9 \end{array}\right.\)?",
+        opties=[r"\((3, 6)\)", r"\((6, 3)\)", r"\((4{,}5 ; 4{,}5)\)", r"\((9, 18)\)"],
         antwoord=0,
-        uitleg="Vul y is 2x in: x plus 2x is 9, dus 3x is 9.",
+        uitleg=r"Vul \(y = 2x\) in: \(x + 2x = 9\), dus \(3x = 9\).",
     ),
     dict(
         type="meerkeuze",
         vraag="Twee broden en drie koeken kosten 7 euro, één brood en drie koeken kosten 5 euro. Wat kost een brood?",
         opties=["2 euro", "1 euro", "3 euro", "1,5 euro"],
         antwoord=0,
-        uitleg="Trek de tweede vergelijking van de eerste af: één brood kost 2 euro. Een koek kost dan 1 euro.",
+        uitleg=r"\(\left\{\begin{array}{l} 2b + 3k = 7 \\ b + 3k = 5 \end{array}\right.\) aftrekken geeft \(b = 2\). Een koek kost dan \(1\) euro.",
     ),
     dict(
         type="meerkeuze",
-        vraag="Je lost een stelsel op en krijgt 0 is 7. Wat betekent dat?",
+        vraag=r"Je lost een stelsel op en krijgt \(0 = 7\). Wat betekent dat?",
         opties=[
             "het stelsel is strijdig en heeft geen enkele oplossing",
             "het stelsel is onbepaald en heeft oneindig veel oplossingen",
-            "x is 0 en y is 7",
+            r"\(x = 0\) en \(y = 7\)",
             "je moet de andere methode proberen",
         ],
         antwoord=0,
@@ -122,11 +127,11 @@ DEEL1 = [
     ),
     dict(
         type="meerkeuze",
-        vraag="Je lost een stelsel op en krijgt 0 is 0. Wat betekent dat?",
+        vraag=r"Je lost een stelsel op en krijgt \(0 = 0\). Wat betekent dat?",
         opties=[
             "het stelsel is onbepaald: elk punt van de rechte is een oplossing",
             "het stelsel is strijdig en heeft geen oplossing",
-            "x en y zijn allebei nul",
+            r"\(x\) en \(y\) zijn allebei nul",
             "de twee rechten staan loodrecht op elkaar",
         ],
         antwoord=0,
@@ -136,19 +141,19 @@ DEEL1 = [
         type="meerkeuze",
         vraag="Wanneer kies je de gelijkstellingsmethode?",
         opties=[
-            "als in allebei de vergelijkingen y al alleen staat",
-            "als de coëfficiënten van x al tegengesteld zijn",
-            "als één vergelijking geen y bevat",
+            r"als in allebei de vergelijkingen \(y\) al alleen staat",
+            r"als de coëfficiënten van \(x\) al tegengesteld zijn",
+            r"als één vergelijking geen \(y\) bevat",
             "als je het snijpunt al grafisch gevonden hebt",
         ],
         antwoord=0,
-        uitleg="Staat er twee keer y is ..., dan stel je de rechterleden meteen aan elkaar gelijk.",
+        uitleg=r"Staat er twee keer \(y = \ldots\), dan stel je de rechterleden meteen aan elkaar gelijk.",
     ),
     dict(
         type="waarofniet",
         vraag="Een oplossing van een stelsel is een koppel getallen, niet één getal.",
         antwoord=True,
-        uitleg="Je schrijft het als (x, y), bijvoorbeeld (6, 4).",
+        uitleg=r"Je schrijft het als \((x, y)\), bijvoorbeeld \((6, 4)\).",
     ),
     dict(
         type="waarofniet",
@@ -170,21 +175,21 @@ DEEL1 = [
     ),
     dict(
         type="invultekst",
-        vraag="Los op: x plus y is 12 en x min y is 4. Wat is x?",
+        vraag=r"Los op: \(\left\{\begin{array}{l} x + y = 12 \\ x - y = 4 \end{array}\right.\) Wat is \(x\)?",
         antwoord=["8"],
-        uitleg="Optellen geeft 2x is 16.",
+        uitleg=r"Optellen geeft \(2x = 16\).",
     ),
     dict(
         type="invultekst",
         vraag="Twee evenwijdige rechten die niet samenvallen: hoe noem je dat stelsel?",
         antwoord=["strijdig", "een strijdig stelsel"],
-        uitleg="De oplossingenverzameling is dan de lege verzameling.",
+        uitleg=r"De oplossingenverzameling is dan \(\emptyset\).",
     ),
     dict(
         type="invultekst",
-        vraag="Los op: y is 3x en x plus y is 16. Wat is x?",
+        vraag=r"Los op: \(\left\{\begin{array}{l} y = 3x \\ x + y = 16 \end{array}\right.\) Wat is \(x\)?",
         antwoord=["4"],
-        uitleg="x plus 3x is 4x, en dat is 16.",
+        uitleg=r"\(x + 3x = 4x = 16\).",
     ),
 ]
 
@@ -193,110 +198,125 @@ DEEL2 = [
         type="meerkeuze",
         vraag="Wat is de standaardvorm van een tweedegraadsvergelijking?",
         opties=[
-            "ax kwadraat plus bx plus c is nul, met a niet nul",
-            "ax plus b is nul, met a niet nul",
-            "ax kwadraat is c, met a en c niet nul",
-            "x kwadraat plus bx is nul, met b niet nul",
+            r"\(ax^{2} + bx + c = 0\) met \(a \neq 0\)",
+            r"\(ax + b = 0\) met \(a \neq 0\)",
+            r"\(ax^{2} = c\) met \(a \neq 0\) en \(c \neq 0\)",
+            r"\(x^{2} + bx = 0\) met \(b \neq 0\)",
         ],
         antwoord=0,
-        uitleg="De voorwaarde dat a niet nul is, is wat de vergelijking van de tweede graad maakt.",
+        uitleg=r"De voorwaarde \(a \neq 0\) is wat de vergelijking van de tweede graad maakt.",
     ),
     dict(
         type="meerkeuze",
         vraag="Wanneer heet een vierkantsvergelijking onvolledig?",
         opties=[
-            "als b of c gelijk is aan nul",
-            "als a gelijk is aan nul",
+            r"als \(b = 0\) of \(c = 0\)",
+            r"als \(a = 0\)",
             "als er geen oplossingen zijn",
             "als de discriminant negatief is",
         ],
         antwoord=0,
-        uitleg="Bij c is nul zonder je een factor x af. Bij b is nul kan je meteen worteltrekken.",
+        uitleg=r"Bij \(c = 0\) zonder je een factor \(x\) af. Bij \(b = 0\) kan je meteen worteltrekken.",
     ),
     dict(
         type="meerkeuze",
-        vraag="Wat is de discriminant van ax kwadraat plus bx plus c?",
+        vraag=r"Wat is de discriminant van \(ax^{2} + bx + c\)?",
         opties=[
-            "b kwadraat min 4ac",
-            "b kwadraat plus 4ac",
-            "4ac min b kwadraat",
-            "b min 4ac",
+            r"\(D = b^{2} - 4ac\)",
+            r"\(D = b^{2} + 4ac\)",
+            r"\(D = 4ac - b^{2}\)",
+            r"\(D = b - 4ac\)",
         ],
         antwoord=0,
         uitleg="Het teken van de discriminant zegt hoeveel oplossingen er zijn.",
     ),
     dict(
         type="meerkeuze",
-        vraag="De discriminant is negatief. Hoeveel reële oplossingen heeft de vergelijking?",
+        vraag=r"De discriminant is negatief, \(D < 0\). Hoeveel reële oplossingen zijn er?",
         opties=["geen enkele", "één", "twee", "oneindig veel"],
         antwoord=0,
-        uitleg="De parabool raakt de x-as dan nergens: ze ligt er volledig boven of volledig onder.",
+        uitleg=r"De parabool raakt de \(x\)-as dan nergens: ze ligt er volledig boven of volledig onder.",
     ),
     dict(
         type="meerkeuze",
-        vraag="De discriminant is nul. Hoeveel oplossingen heeft de vergelijking?",
-        opties=["één", "geen enkele", "twee", "dat hangt af van a"],
+        vraag=r"De discriminant is \(D = 0\). Hoeveel oplossingen zijn er?",
+        opties=["één", "geen enkele", "twee", r"dat hangt af van \(a\)"],
         antwoord=0,
-        uitleg="De parabool raakt de x-as in precies één punt, met haar top.",
+        uitleg=r"De parabool raakt de \(x\)-as in precies één punt, met haar top.",
     ),
     dict(
         type="meerkeuze",
-        vraag="Los op: x kwadraat min 9 is nul.",
-        opties=["x is 3 of x is min 3", "x is 3", "x is 9 of x is min 9", "er is geen oplossing"],
+        vraag=r"Los op: \(x^{2} - 9 = 0\).",
+        opties=[r"\(x = 3\) of \(x = -3\)", r"\(x = 3\)", r"\(x = 9\) of \(x = -9\)", "er is geen oplossing"],
         antwoord=0,
-        uitleg="Het verschil van twee kwadraten: (x min 3)(x plus 3) is nul.",
+        uitleg=r"Het verschil van twee kwadraten: \((x - 3)(x + 3) = 0\).",
     ),
     dict(
         type="meerkeuze",
-        vraag="Los op: x kwadraat min 5x is nul.",
-        opties=["x is 0 of x is 5", "x is 5", "x is 0", "er is geen oplossing"],
+        vraag=r"Los op: \(x^{2} - 5x = 0\).",
+        opties=[r"\(x = 0\) of \(x = 5\)", r"\(x = 5\)", r"\(x = 0\)", "er is geen oplossing"],
         antwoord=0,
-        uitleg="Zonder x af: x maal (x min 5) is nul. Een product is nul zodra één factor nul is.",
+        uitleg=r"Zonder \(x\) af: \(x(x - 5) = 0\). Een product is nul zodra één factor nul is.",
     ),
     dict(
         type="meerkeuze",
-        vraag="Los op: x kwadraat min 5x plus 6 is nul.",
-        opties=["x is 2 of x is 3", "x is min 2 of x is min 3", "x is 1 of x is 6", "x is 5 of x is 6"],
-        antwoord=0,
-        uitleg="Zoek twee getallen met som 5 en product 6. De ontbinding is (x min 2)(x min 3).",
-    ),
-    dict(
-        type="meerkeuze",
-        vraag="Wat is de ontbinding van x kwadraat plus 6x plus 9?",
-        opties=["(x plus 3) in het kwadraat", "(x min 3) in het kwadraat", "(x plus 3)(x min 3)", "(x plus 9)(x plus 1)"],
-        antwoord=0,
-        uitleg="Dit is een volkomen kwadraat: a kwadraat plus 2ab plus b kwadraat.",
-    ),
-    dict(
-        type="meerkeuze",
-        vraag="Wat is de ontbinding van x kwadraat min 16?",
-        opties=["(x min 4)(x plus 4)", "(x min 4) in het kwadraat", "(x min 8)(x plus 2)", "(x min 16)(x plus 1)"],
-        antwoord=0,
-        uitleg="Het verschil van twee kwadraten: a kwadraat min b kwadraat is (a min b)(a plus b).",
-    ),
-    dict(
-        type="meerkeuze",
-        vraag="Een rechthoek is 3 meter langer dan breed en heeft een oppervlakte van 40 vierkante meter. Welke vergelijking hoort erbij?",
+        vraag=r"Los op: \(x^{2} - 5x + 6 = 0\).",
         opties=[
-            "x maal (x plus 3) is 40",
-            "x plus (x plus 3) is 40",
-            "2x plus 2(x plus 3) is 40",
-            "x kwadraat plus 3 is 40",
+            r"\(x = 2\) of \(x = 3\)",
+            r"\(x = -2\) of \(x = -3\)",
+            r"\(x = 1\) of \(x = 6\)",
+            r"\(x = 5\) of \(x = 6\)",
         ],
         antwoord=0,
-        uitleg="Breedte maal lengte. De breedte is 5 meter en de lengte 8 meter.",
+        uitleg=r"Zoek twee getallen met som \(5\) en product \(6\). De ontbinding is \((x - 2)(x - 3)\).",
     ),
     dict(
         type="meerkeuze",
-        vraag="Wat is de oplossingenverzameling van x kwadraat kleiner dan 9?",
+        vraag=r"Wat is de ontbinding van \(x^{2} + 6x + 9\)?",
         opties=[
-            "alle x tussen min 3 en 3",
-            "alle x kleiner dan 3",
-            "alle x groter dan min 3",
-            "alle x kleiner dan min 3 of groter dan 3",
+            r"\((x + 3)^{2}\)",
+            r"\((x - 3)^{2}\)",
+            r"\((x + 3)(x - 3)\)",
+            r"\((x + 9)(x + 1)\)",
         ],
         antwoord=0,
-        uitleg="De parabool ligt onder de x-as tussen haar twee nulwaarden in.",
+        uitleg=r"Dit is een volkomen kwadraat: \(a^{2} + 2ab + b^{2} = (a + b)^{2}\).",
+    ),
+    dict(
+        type="meerkeuze",
+        vraag=r"Wat is de ontbinding van \(x^{2} - 16\)?",
+        opties=[
+            r"\((x - 4)(x + 4)\)",
+            r"\((x - 4)^{2}\)",
+            r"\((x - 8)(x + 2)\)",
+            r"\((x - 16)(x + 1)\)",
+        ],
+        antwoord=0,
+        uitleg=r"Het verschil van twee kwadraten: \(a^{2} - b^{2} = (a - b)(a + b)\).",
+    ),
+    dict(
+        type="meerkeuze",
+        vraag=r"Een rechthoek is \(3\) m langer dan breed en heeft \(40\) m² oppervlakte. Welke vergelijking hoort erbij?",
+        opties=[
+            r"\(x(x + 3) = 40\)",
+            r"\(x + (x + 3) = 40\)",
+            r"\(2x + 2(x + 3) = 40\)",
+            r"\(x^{2} + 3 = 40\)",
+        ],
+        antwoord=0,
+        uitleg=r"Breedte maal lengte. De breedte is \(5\) m en de lengte \(8\) m.",
+    ),
+    dict(
+        type="meerkeuze",
+        vraag=r"Wat is de oplossingenverzameling van \(x^{2} < 9\)?",
+        opties=[
+            r"\(-3 < x < 3\)",
+            r"\(x < 3\)",
+            r"\(x > -3\)",
+            r"\(x < -3\) of \(x > 3\)",
+        ],
+        antwoord=0,
+        uitleg=r"De parabool ligt onder de \(x\)-as tussen haar twee nulwaarden in.",
     ),
     dict(
         type="meerkeuze",
@@ -304,7 +324,7 @@ DEEL2 = [
         opties=[
             "omdat een tekenfout in de discriminant zo meteen opvalt",
             "omdat een vierkantsvergelijking altijd twee oplossingen heeft",
-            "omdat de formule enkel geldt bij een positieve a",
+            r"omdat de formule enkel geldt bij een positieve \(a\)",
             "omdat je anders de ontbinding niet mag gebruiken",
         ],
         antwoord=0,
@@ -314,7 +334,7 @@ DEEL2 = [
         type="waarofniet",
         vraag="Een vierkantsvergelijking heeft altijd twee reële oplossingen.",
         antwoord=False,
-        uitleg="Bij een negatieve discriminant zijn het er geen, bij nul precies één.",
+        uitleg=r"Bij \(D < 0\) zijn het er geen, bij \(D = 0\) precies één.",
     ),
     dict(
         type="waarofniet",
@@ -324,32 +344,32 @@ DEEL2 = [
     ),
     dict(
         type="waarofniet",
-        vraag="x kwadraat plus 9 is te ontbinden als (x plus 3)(x min 3).",
+        vraag=r"\(x^{2} + 9\) is te ontbinden als \((x + 3)(x - 3)\).",
         antwoord=False,
-        uitleg="Dat product geeft x kwadraat min 9. Een som van twee kwadraten is niet te ontbinden.",
+        uitleg=r"Dat product geeft \(x^{2} - 9\). Een som van twee kwadraten is niet te ontbinden.",
     ),
     dict(
         type="waarofniet",
         vraag="De oplossingen van een tweedegraadsvergelijking zijn de nulwaarden van de bijhorende parabool.",
         antwoord=True,
-        uitleg="Daar snijdt of raakt de parabool de x-as.",
+        uitleg=r"Daar snijdt of raakt de parabool de \(x\)-as.",
     ),
     dict(
         type="invultekst",
-        vraag="Los op: x kwadraat is 49. Geef de positieve oplossing.",
+        vraag=r"Los op: \(x^{2} = 49\). Geef de positieve oplossing.",
         antwoord=["7"],
-        uitleg="De andere oplossing is min 7.",
+        uitleg=r"De andere oplossing is \(-7\).",
     ),
     dict(
         type="invultekst",
-        vraag="Hoeveel is de discriminant van x kwadraat min 4x plus 4?",
+        vraag=r"Hoeveel is de discriminant van \(x^{2} - 4x + 4\)?",
         antwoord=["0", "nul"],
-        uitleg="16 min 16. Er is dus precies één oplossing, namelijk 2.",
+        uitleg=r"\(D = 16 - 16 = 0\). Er is dus precies één oplossing, namelijk \(2\).",
     ),
     dict(
         type="invultekst",
-        vraag="Een rechthoek is 3 m langer dan breed en heeft 40 m² oppervlakte. Hoe breed is hij in meter?",
+        vraag=r"Een rechthoek is \(3\) m langer dan breed en heeft \(40\) m² oppervlakte. Hoe breed is hij in meter?",
         antwoord=["5", "5 m", "5 meter"],
-        uitleg="5 maal 8 is 40.",
+        uitleg=r"\(5 \cdot 8 = 40\).",
     ),
 ]

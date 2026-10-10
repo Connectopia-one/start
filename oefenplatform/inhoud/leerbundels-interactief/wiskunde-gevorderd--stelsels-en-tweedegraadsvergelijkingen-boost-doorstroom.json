@@ -8,19 +8,29 @@
    "blokken": [
     {
      "soort": "tekst",
-     "html": "Een <strong>stelsel</strong> van twee eerstegraadsvergelijkingen in twee onbekenden zijn twee vergelijkingen die <strong>tegelijk</strong> moeten kloppen. De oplossing is dus geen los getal maar een <strong>koppel</strong> (x, y) dat in allebei de vergelijkingen past."
+     "html": "Een <strong>stelsel</strong> van twee eerstegraadsvergelijkingen in twee onbekenden zijn twee vergelijkingen die <strong>tegelijk</strong> moeten kloppen. De oplossing is dus geen los getal maar een <strong>koppel</strong> \\((x, y)\\) dat in allebei de vergelijkingen past. Je schrijft zo'n stelsel met een accolade: \\(\\left\\{\\begin{array}{l} x + y = 10 \\\\ x - y = 2 \\end{array}\\right.\\)"
     },
     {
      "soort": "tekst",
      "html": "<strong>Grafisch</strong> is elke vergelijking een rechte, en de oplossing is hun <strong>snijpunt</strong>. Daar liggen de drie mogelijke uitkomsten meteen voor je:"
     },
     {
+     "soort": "figuur",
+     "html": "<svg viewBox=\"0 0 470 190\" width=\"470\" xmlns=\"http://www.w3.org/2000/svg\"><text x=\"78.3\" y=\"18.0\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"11.5\" font-weight=\"600\" fill=\"#234539\">snijdend</text>\n<rect x=\"20.3\" y=\"26\" width=\"116\" height=\"116\" rx=\"8\" fill=\"#ffffff\" stroke=\"#e4ded0\" stroke-width=\"1.2\"/>\n<line x1=\"28.3\" y1=\"124.0\" x2=\"128.3\" y2=\"44.0\" stroke=\"#2f5d50\" stroke-width=\"2.2\" stroke-linecap=\"round\"/>\n<line x1=\"28.3\" y1=\"44.0\" x2=\"128.3\" y2=\"124.0\" stroke=\"#c17f2b\" stroke-width=\"2.2\" stroke-linecap=\"round\"/>\n<circle cx=\"78.3\" cy=\"84.0\" r=\"4.6\" fill=\"#23291f\"/>\n<text x=\"78.3\" y=\"164.0\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"11\" font-weight=\"600\" fill=\"#23291f\">één oplossing</text>\n<text x=\"235.0\" y=\"18.0\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"11.5\" font-weight=\"600\" fill=\"#234539\">samenvallend</text>\n<rect x=\"177.0\" y=\"26\" width=\"116\" height=\"116\" rx=\"8\" fill=\"#ffffff\" stroke=\"#e4ded0\" stroke-width=\"1.2\"/>\n<line x1=\"185.0\" y1=\"114.0\" x2=\"285.0\" y2=\"54.0\" stroke=\"#2f5d50\" stroke-width=\"5.4\" stroke-linecap=\"round\"/>\n<line x1=\"185.0\" y1=\"114.0\" x2=\"285.0\" y2=\"54.0\" stroke=\"#c17f2b\" stroke-width=\"2.2\" stroke-linecap=\"round\" stroke-dasharray=\"7 5\"/>\n<text x=\"235.0\" y=\"164.0\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"11\" font-weight=\"600\" fill=\"#23291f\">oneindig veel</text>\n<text x=\"391.7\" y=\"18.0\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"11.5\" font-weight=\"600\" fill=\"#234539\">evenwijdig</text>\n<rect x=\"333.7\" y=\"26\" width=\"116\" height=\"116\" rx=\"8\" fill=\"#ffffff\" stroke=\"#e4ded0\" stroke-width=\"1.2\"/>\n<line x1=\"341.7\" y1=\"119.0\" x2=\"441.7\" y2=\"69.0\" stroke=\"#2f5d50\" stroke-width=\"2.2\" stroke-linecap=\"round\"/>\n<line x1=\"341.7\" y1=\"89.0\" x2=\"441.7\" y2=\"39.0\" stroke=\"#c17f2b\" stroke-width=\"2.2\" stroke-linecap=\"round\"/>\n<text x=\"391.7\" y=\"164.0\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"11\" font-weight=\"600\" fill=\"#23291f\">geen oplossing</text></svg>",
+     "onderschrift": "De twee rechten van een stelsel kunnen elkaar snijden, samenvallen of evenwijdig lopen."
+    }
+   ]
+  },
+  {
+   "kop": "Bepaald, onbepaald of strijdig",
+   "blokken": [
+    {
      "soort": "tekst",
-     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Grafisch</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Naam</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Aantal oplossingen</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">de rechten snijden in één punt</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">bepaald stelsel</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">precies één</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">de rechten zijn evenwijdig, niet samenvallend</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">strijdig stelsel</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">geen</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">de rechten vallen samen</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">onbepaald stelsel</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">oneindig veel</td></tr></table>"
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Grafisch</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Naam</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Aantal oplossingen</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">de rechten snijden in één punt</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">bepaald stelsel</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">precies één</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">de rechten zijn evenwijdig, niet samenvallend</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">strijdig stelsel</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">geen, \\(S = \\emptyset\\)</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">de rechten vallen samen</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">onbepaald stelsel</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">oneindig veel</td></tr></table>"
     },
     {
      "soort": "kader",
-     "html": "Grafisch oplossen laat je <strong>zien</strong> wat er gebeurt, maar geeft geen exact antwoord: een snijpunt op (2,37; 1,84) lees je niet van een ruitjesblad. Voor het exacte antwoord heb je een algebraïsche methode nodig."
+     "html": "Grafisch oplossen laat je <strong>zien</strong> wat er gebeurt, maar geeft geen exact antwoord: een snijpunt op \\((2{,}37 ; 1{,}84)\\) lees je niet van een ruitjesblad. Voor het exacte antwoord heb je een algebraïsche methode nodig."
     }
    ]
   },
@@ -29,32 +39,28 @@
    "blokken": [
     {
      "soort": "tekst",
-     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Methode</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Wat je doet</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Handig als</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">substitutiemethode</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">druk één onbekende uit en vul die in de andere vergelijking in</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">één vergelijking al y = … of x = … is</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">combinatiemethode</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">tel de vergelijkingen op of trek ze af zodat één onbekende wegvalt</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">de coëfficiënten mooi tegen elkaar wegvallen</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">gelijkstellingsmethode</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">druk in allebei dezelfde onbekende uit en stel de twee aan elkaar gelijk</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">allebei de vergelijkingen al naar dezelfde letter opgelost zijn</td></tr></table>"
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Methode</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Wat je doet</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Handig als</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">substitutiemethode</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">druk één onbekende uit en vul die in de andere vergelijking in</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">één vergelijking al \\(y = \\ldots\\) of \\(x = \\ldots\\) is</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">combinatiemethode</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">tel de vergelijkingen op of trek ze af zodat één onbekende wegvalt</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">de coëfficiënten mooi tegen elkaar wegvallen</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">gelijkstellingsmethode</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">druk in allebei dezelfde onbekende uit en stel de twee aan elkaar gelijk</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">allebei de vergelijkingen al naar dezelfde letter opgelost zijn</td></tr></table>"
     },
     {
      "soort": "tekst",
      "html": "Welke je kiest, maakt voor het antwoord niets uit: de <strong>drie methodes geven altijd dezelfde oplossing</strong>. Ze verschillen alleen in hoeveel rekenwerk ze kosten."
-    },
-    {
-     "soort": "tekst",
-     "html": "<strong>Substitutie in de praktijk.</strong> Bij y = 2x en x + y = 9 vul je 2x in voor y: x + 2x = 9, dus 3x = 9 en x = 3, en dan y = 6. Bij y = 3x en x + y = 16 net zo: 4x = 16, dus x = 4 en y = 12."
-    },
-    {
-     "soort": "tekst",
-     "html": "<strong>Combinatie in de praktijk.</strong> Bij x + y = 10 en x − y = 2 tel je de twee vergelijkingen op: de y valt weg en je houdt 2x = 12 over, dus x = 6 en y = 4. Bij x + y = 12 en x − y = 4 geeft dat 2x = 16, dus x = 8."
     }
    ]
   },
   {
-   "kop": "Wat een vreemd resultaat betekent",
+   "kop": "De twee methodes in de praktijk",
    "blokken": [
     {
      "soort": "tekst",
-     "html": "Verdwijnen tijdens het oplossen allebei de onbekenden, dan zegt wat overblijft je welk soort stelsel je had:"
+     "html": "<strong>Substitutie.</strong> Bij \\(y = 2x\\) en \\(x + y = 9\\) vul je \\(2x\\) in voor \\(y\\): \\(x + 2x = 9\\), dus \\(3x = 9\\), \\(x = 3\\) en \\(y = 6\\). Bij \\(y = 3x\\) en \\(x + y = 16\\) net zo: \\(4x = 16\\), dus \\(x = 4\\) en \\(y = 12\\)."
     },
     {
      "soort": "tekst",
-     "html": "komt er <strong>0 = 7</strong> uit (of iets anders dat niet klopt), dan is het stelsel <strong>strijdig</strong> en is er geen enkele oplossing; komt er <strong>0 = 0</strong> uit, dan is het <strong>onbepaald</strong> en zijn er oneindig veel oplossingen: de twee rechten vallen samen."
+     "html": "<strong>Combinatie.</strong> Bij \\(x + y = 10\\) en \\(x - y = 2\\) tel je de twee vergelijkingen op: de \\(y\\) valt weg en je houdt \\(2x = 12\\) over, dus \\(x = 6\\) en \\(y = 4\\). Bij \\(x + y = 12\\) en \\(x - y = 4\\) geeft dat \\(2x = 16\\), dus \\(x = 8\\)."
+    },
+    {
+     "soort": "tekst",
+     "html": "Verdwijnen tijdens het oplossen <strong>allebei</strong> de onbekenden, dan zegt wat overblijft je welk soort stelsel je had. Komt er \\(0 = 7\\) uit, of iets anders dat niet klopt, dan is het stelsel <strong>strijdig</strong> en is er geen enkele oplossing. Komt er \\(0 = 0\\) uit, dan is het <strong>onbepaald</strong> en zijn er oneindig veel oplossingen: de twee rechten vallen samen."
     }
    ]
   },
@@ -63,7 +69,7 @@
    "blokken": [
     {
      "soort": "tekst",
-     "html": "<em>Twee broden en drie koeken kosten 7 euro, één brood en drie koeken kosten 5 euro. Wat kost een brood?</em> Noem b de prijs van een brood en k die van een koek. Dan is 2b + 3k = 7 en b + 3k = 5. Trek de tweede van de eerste af: de koeken vallen weg en je houdt b = 2 over. Een brood kost dus 2 euro."
+     "html": "<em>Twee broden en drie koeken kosten 7 euro, één brood en drie koeken kosten 5 euro. Wat kost een brood?</em> Noem \\(b\\) de prijs van een brood en \\(k\\) die van een koek: \\(\\left\\{\\begin{array}{l} 2b + 3k = 7 \\\\ b + 3k = 5 \\end{array}\\right.\\) Trek de tweede van de eerste af: de koeken vallen weg en je houdt \\(b = 2\\) over. Een brood kost dus 2 euro, een koek 1 euro."
     },
     {
      "soort": "tekst",
@@ -76,11 +82,11 @@
    "blokken": [
     {
      "soort": "tekst",
-     "html": "De <strong>standaardvorm</strong> is <strong>ax² + bx + c = 0</strong>, met a niet gelijk aan nul. Een vergelijking heet <strong>onvolledig</strong> als b of c ontbreekt, zoals x² − 9 = 0 of x² − 5x = 0. Die los je op zonder formule:"
+     "html": "De <strong>standaardvorm</strong> is \\(ax^{2} + bx + c = 0\\), met \\(a \\neq 0\\). Een vergelijking heet <strong>onvolledig</strong> als \\(b\\) of \\(c\\) ontbreekt. Die los je op zonder formule:"
     },
     {
      "soort": "tekst",
-     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Vergelijking</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Aanpak</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Oplossingen</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">x² − 9 = 0</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">x² = 9</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">3 en −3</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">x² = 49</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">x² = 49</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">7 en −7</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">x² − 5x = 0</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">x(x − 5) = 0</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">0 en 5</td></tr></table>"
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Vergelijking</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Aanpak</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Oplossingen</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">\\(x^{2} - 9 = 0\\)</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">\\((x - 3)(x + 3) = 0\\)</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">\\(3\\) en \\(-3\\)</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">\\(x^{2} = 49\\)</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">worteltrekken</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">\\(7\\) en \\(-7\\)</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">\\(x^{2} - 5x = 0\\)</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">\\(x(x - 5) = 0\\)</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">\\(0\\) en \\(5\\)</td></tr></table>"
     },
     {
      "soort": "tekst",
@@ -93,23 +99,33 @@
    "blokken": [
     {
      "soort": "tekst",
-     "html": "De <strong>discriminant</strong> is <strong>D = b² − 4ac</strong>. Haar teken zegt hoeveel reële oplossingen er zijn, nog vóór je ze berekent."
+     "html": "De <strong>discriminant</strong> is \\(D = b^{2} - 4ac\\). Haar teken zegt hoeveel reële oplossingen er zijn, nog vóór je ze berekent."
+    },
+    {
+     "soort": "figuur",
+     "html": "<svg viewBox=\"0 0 470 186\" width=\"470\" xmlns=\"http://www.w3.org/2000/svg\"><line x1=\"8.0\" y1=\"124\" x2=\"140.7\" y2=\"124\" stroke=\"#e4ded0\" stroke-width=\"1.6\"/><polyline points=\"15.0,42.0 18.3,53.9 21.6,65.1 24.9,75.6 28.2,85.5 31.5,94.6 34.8,103.1 38.1,110.9 41.4,118.0 44.7,124.5 48.0,130.3 51.3,135.4 54.6,139.8 57.9,143.5 61.1,146.6 64.4,148.9 67.7,150.6 71.0,151.7 74.3,152.0 77.6,151.7 80.9,150.6 84.2,148.9 87.5,146.6 90.8,143.5 94.1,139.8 97.4,135.4 100.7,130.3 104.0,124.5 107.3,118.0 110.6,110.9 113.9,103.1 117.2,94.6 120.5,85.5 123.8,75.6 127.1,65.1 130.4,53.9 133.7,42.0\" fill=\"none\" stroke=\"#2f5d50\" stroke-width=\"2.4\" stroke-linejoin=\"round\"/><circle cx=\"44.4\" cy=\"124\" r=\"4\" fill=\"#c17f2b\"/><circle cx=\"104.3\" cy=\"124\" r=\"4\" fill=\"#c17f2b\"/><text x=\"74.3\" y=\"24.0\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"11.5\" font-weight=\"600\" fill=\"#234539\">D &gt; 0</text><text x=\"74.3\" y=\"172.0\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"10\" fill=\"#6b7260\">twee nulwaarden</text><line x1=\"168.7\" y1=\"124\" x2=\"301.3\" y2=\"124\" stroke=\"#e4ded0\" stroke-width=\"1.6\"/><polyline points=\"175.7,42.0 179.0,50.9 182.3,59.2 185.6,67.1 188.9,74.4 192.1,81.2 195.4,87.6 198.7,93.4 202.0,98.7 205.3,103.5 208.6,107.8 211.9,111.6 215.2,114.9 218.5,117.7 221.8,120.0 225.1,121.7 228.4,123.0 231.7,123.7 235.0,124.0 238.3,123.7 241.6,123.0 244.9,121.7 248.2,120.0 251.5,117.7 254.8,114.9 258.1,111.6 261.4,107.8 264.7,103.5 268.0,98.7 271.3,93.4 274.6,87.6 277.9,81.2 281.1,74.4 284.4,67.1 287.7,59.2 291.0,50.9 294.3,42.0\" fill=\"none\" stroke=\"#2f5d50\" stroke-width=\"2.4\" stroke-linejoin=\"round\"/><circle cx=\"235.0\" cy=\"124\" r=\"4\" fill=\"#c17f2b\"/><text x=\"235.0\" y=\"24.0\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"11.5\" font-weight=\"600\" fill=\"#234539\">D = 0</text><text x=\"235.0\" y=\"172.0\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"10\" fill=\"#6b7260\">één nulwaarde</text><line x1=\"329.3\" y1=\"124\" x2=\"462.0\" y2=\"124\" stroke=\"#e4ded0\" stroke-width=\"1.6\"/><polyline points=\"336.3,42.0 339.6,48.3 342.9,54.2 346.2,59.7 349.5,64.9 352.8,69.7 356.1,74.2 359.4,78.3 362.7,82.1 366.0,85.5 369.3,88.5 372.6,91.2 375.9,93.6 379.2,95.5 382.5,97.1 385.8,98.4 389.1,99.3 392.4,99.8 395.7,100.0 399.0,99.8 402.3,99.3 405.6,98.4 408.9,97.1 412.1,95.5 415.4,93.6 418.7,91.2 422.0,88.5 425.3,85.5 428.6,82.1 431.9,78.3 435.2,74.2 438.5,69.7 441.8,64.9 445.1,59.7 448.4,54.2 451.7,48.3 455.0,42.0\" fill=\"none\" stroke=\"#2f5d50\" stroke-width=\"2.4\" stroke-linejoin=\"round\"/><text x=\"395.7\" y=\"24.0\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"11.5\" font-weight=\"600\" fill=\"#234539\">D &lt; 0</text><text x=\"395.7\" y=\"172.0\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"10\" fill=\"#6b7260\">geen nulwaarden</text></svg>",
+     "onderschrift": "Dezelfde parabool, drie keer anders gelegd tegenover de \\(x\\)-as."
+    }
+   ]
+  },
+  {
+   "kop": "Het teken van \\(D\\) lezen",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Discriminant</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Aantal reële oplossingen</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">De parabool</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">\\(D > 0\\)</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">twee</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">snijdt de \\(x\\)-as in twee punten</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">\\(D = 0\\)</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">één (een dubbele)</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">raakt de \\(x\\)-as</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">\\(D < 0\\)</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">geen</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">ligt helemaal naast de \\(x\\)-as</td></tr></table>"
     },
     {
      "soort": "tekst",
-     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Discriminant</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Aantal reële oplossingen</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">De parabool</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">D > 0</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">twee</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">snijdt de x-as in twee punten</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">D = 0</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">één (een dubbele)</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">raakt de x-as</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">D < 0</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">geen</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">ligt helemaal naast de x-as</td></tr></table>"
+     "html": "Bij \\(x^{2} - 4x + 4\\) is \\(D = 16 - 16 = 0\\), dus er is één oplossing: \\(x = 2\\). Een vierkantsvergelijking heeft dus <strong>niet altijd</strong> twee reële oplossingen."
     },
     {
-     "soort": "tekst",
-     "html": "Bij x² − 4x + 4 is D = 16 − 16 = 0, dus er is één oplossing: x = 2. Een vierkantsvergelijking heeft dus <strong>niet altijd</strong> twee reële oplossingen."
-    },
-    {
-     "soort": "tekst",
-     "html": "Is D groter dan of gelijk aan nul, dan geeft de formule de oplossingen: x = (−b ± √D) / (2a)."
+     "soort": "kader",
+     "html": "Is \\(D \\geq 0\\), dan geeft de formule de oplossingen: \\[x = \\frac{-b \\pm \\sqrt{D}}{2a}\\]"
     },
     {
      "soort": "weetje",
-     "html": "De oplossingen van ax² + bx + c = 0 zijn precies de <strong>nulwaarden</strong> van de parabool y = ax² + bx + c. Algebra en grafiek vertellen hetzelfde verhaal."
+     "html": "De oplossingen van \\(ax^{2} + bx + c = 0\\) zijn precies de <strong>nulwaarden</strong> van de parabool \\(y = ax^{2} + bx + c\\). Algebra en grafiek vertellen hetzelfde verhaal."
     }
    ]
   },
@@ -122,11 +138,11 @@
     },
     {
      "soort": "tekst",
-     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Uitdrukking</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Ontbinding</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Nulwaarden</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">x² − 16</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">(x + 4)(x − 4)</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">4 en −4</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">x² + 6x + 9</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">(x + 3)²</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">−3 (dubbel)</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">x² − 5x + 6</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">(x − 2)(x − 3)</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">2 en 3</td></tr></table>"
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Uitdrukking</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Ontbinding</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Nulwaarden</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">\\(x^{2} - 16\\)</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">\\((x + 4)(x - 4)\\)</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">\\(4\\) en \\(-4\\)</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">\\(x^{2} + 6x + 9\\)</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">\\((x + 3)^{2}\\)</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">\\(-3\\) (dubbel)</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">\\(x^{2} - 5x + 6\\)</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">\\((x - 2)(x - 3)\\)</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">\\(2\\) en \\(3\\)</td></tr></table>"
     },
     {
      "soort": "kader",
-     "html": "<strong>x² + 9 is níét te ontbinden als (x + 3)(x − 3).</strong> Dat laatste geeft uitgewerkt x² − 9. Alleen een <em>verschil</em> van twee kwadraten ontbindt zo; een som van twee kwadraten heeft in de reële getallen geen nulwaarden."
+     "html": "<strong>\\(x^{2} + 9\\) is níét te ontbinden als \\((x + 3)(x - 3)\\).</strong> Dat laatste geeft uitgewerkt \\(x^{2} - 9\\). Alleen een <em>verschil</em> van twee kwadraten ontbindt zo; een som van twee kwadraten heeft in \\(\\mathbb{R}\\) geen nulwaarden."
     }
    ]
   },
@@ -135,30 +151,31 @@
    "blokken": [
     {
      "soort": "tekst",
-     "html": "<em>Een rechthoek is 3 meter langer dan breed en heeft een oppervlakte van 40 vierkante meter.</em> Noem de breedte x, dan is de lengte x + 3 en luidt de vergelijking <strong>x(x + 3) = 40</strong>, dus x² + 3x − 40 = 0. De oplossingen zijn 5 en −8. De breedte is dus <strong>5 meter</strong>."
+     "html": "<em>Een rechthoek is 3 meter langer dan breed en heeft een oppervlakte van 40 vierkante meter.</em> Noem de breedte \\(x\\), dan is de lengte \\(x + 3\\) en luidt de vergelijking \\(x(x + 3) = 40\\), dus \\(x^{2} + 3x - 40 = 0\\). De oplossingen zijn \\(5\\) en \\(-8\\). De breedte is dus <strong>5 meter</strong>."
     },
     {
      "soort": "tekst",
-     "html": "En daar zie je meteen waarom je de oplossingen altijd in het oorspronkelijke probleem controleert: −8 is wiskundig een geldige oplossing van de vergelijking, maar een rechthoek met een breedte van min 8 meter bestaat niet. Bij een omgevormde vergelijking kunnen er bovendien oplossingen bij komen die in de oorspronkelijke vorm niet mogen, bijvoorbeeld omdat je ergens door nul zou delen."
+     "html": "En daar zie je meteen waarom je de oplossingen altijd in het oorspronkelijke probleem controleert: \\(-8\\) is wiskundig een geldige oplossing van de vergelijking, maar een rechthoek met een breedte van \\(-8\\) meter bestaat niet. Bij een omgevormde vergelijking kunnen er bovendien oplossingen bij komen die in de oorspronkelijke vorm niet mogen, bijvoorbeeld omdat je ergens door nul zou delen."
     },
     {
      "soort": "tekst",
-     "html": "<strong>Een ongelijkheid van de tweede graad.</strong> x² < 9 betekent dat x tussen −3 en 3 ligt: de oplossingenverzameling is het open interval ]−3, 3[. Wie hier alleen x < 3 schrijft, vergeet de negatieve kant."
+     "html": "<strong>Een ongelijkheid van de tweede graad.</strong> \\(x^{2} < 9\\) betekent dat \\(x\\) tussen \\(-3\\) en \\(3\\) ligt: de oplossingenverzameling is het open interval \\(\\left]-3, 3\\right[\\). Wie hier alleen \\(x < 3\\) schrijft, vergeet de negatieve kant."
     }
    ]
   }
  ],
  "onthoud": [
-  "De oplossing van een stelsel is een koppel (x, y), niet één getal.",
+  "De oplossing van een stelsel is een koppel \\((x, y)\\), niet één getal.",
   "Drie methodes: substitutie, combinatie en gelijkstelling; ze geven altijd hetzelfde antwoord.",
   "Bepaald is één snijpunt, strijdig is evenwijdig, onbepaald is samenvallend.",
-  "0 = 7 betekent strijdig, 0 = 0 betekent onbepaald.",
+  "\\(0 = 7\\) betekent strijdig, \\(0 = 0\\) betekent onbepaald.",
   "Grafisch oplossen is aanschouwelijk maar niet exact.",
-  "Standaardvorm ax² + bx + c = 0; onvolledig als b of c ontbreekt.",
+  "Standaardvorm \\(ax^{2} + bx + c = 0\\); onvolledig als \\(b\\) of \\(c\\) ontbreekt.",
   "Is een product nul, dan is minstens één factor nul.",
-  "D = b² − 4ac: positief twee oplossingen, nul één, negatief geen.",
-  "x² − 16 = (x + 4)(x − 4), maar x² + 9 ontbindt niet.",
+  "\\(D = b^{2} - 4ac\\): positief twee oplossingen, nul één, negatief geen.",
+  "\\(x = \\dfrac{-b \\pm \\sqrt{D}}{2a}\\) zodra \\(D \\geq 0\\).",
+  "\\(x^{2} - 16 = (x + 4)(x - 4)\\), maar \\(x^{2} + 9\\) ontbindt niet.",
   "De oplossingen zijn de nulwaarden van de bijhorende parabool.",
-  "x² < 9 geeft ]−3, 3[, niet enkel x < 3."
+  "\\(x^{2} < 9\\) geeft \\(\\left]-3, 3\\right[\\), niet enkel \\(x < 3\\)."
  ]
 }

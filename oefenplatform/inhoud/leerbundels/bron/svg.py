@@ -9769,3 +9769,41 @@ def recursieboom(breedte=470):
                  f'stroke="{kleur}" stroke-width="1.6"/>')
         d.append(_tekst(x, y + 4, naam, 10.5, DARK if not dubbel else AMBER, "middle", True))
     return _svg(breedte, h, "".join(d))
+
+
+def discriminant(breedte=470):
+    r"""Drie parabolen bij een positieve, een nul en een negatieve discriminant."""
+    h = 186
+    gap = 12
+    w = (breedte - 2 * gap) / 3
+    ay = 124          # de x-as
+    hw = w / 2 - 15   # halve breedte van de kromme
+    gevallen = [
+        ("D &gt; 0", 152, "twee nulwaarden"),
+        ("D = 0", ay, "één nulwaarde"),
+        ("D &lt; 0", 100, "geen nulwaarden"),
+    ]
+    d = []
+    for i, (naam, vy, onder) in enumerate(gevallen):
+        px = i * (w + gap)
+        cx = px + w / 2
+        k = (vy - 42) / (hw * hw)
+        d.append(f'<line x1="{px + 8:.1f}" y1="{ay}" x2="{px + w - 8:.1f}" y2="{ay}" '
+                 f'stroke="{BORDER}" stroke-width="1.6"/>')
+        punten = []
+        n = 36
+        for j in range(n + 1):
+            x = cx - hw + 2 * hw * j / n
+            y = vy - k * (x - cx) ** 2
+            punten.append(f"{x:.1f},{y:.1f}")
+        d.append(f'<polyline points="{" ".join(punten)}" fill="none" stroke="{FOREST}" '
+                 f'stroke-width="2.4" stroke-linejoin="round"/>')
+        if vy > ay:
+            afstand = ((vy - ay) / k) ** 0.5
+            for teken in (-1, 1):
+                d.append(f'<circle cx="{cx + teken * afstand:.1f}" cy="{ay}" r="4" fill="{AMBER}"/>')
+        elif vy == ay:
+            d.append(f'<circle cx="{cx:.1f}" cy="{ay}" r="4" fill="{AMBER}"/>')
+        d.append(_tekst(cx, 24, naam, 11.5, DARK, "middle", True))
+        d.append(_tekst(cx, 172, onder, 10, DIM))
+    return _svg(breedte, h, "".join(d))
