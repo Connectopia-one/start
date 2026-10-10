@@ -196,113 +196,117 @@ BUNDELS["veeltermen-deelbaarheid-en-horner-beyond"] = dict(
     onder="De euclidische deling, de reststelling, het schema van Horner en het ontbinden in factoren.",
     secties=[
         dict(kop="De euclidische deling van veeltermen", blokken=[
-            ("p", "Delen van veeltermen werkt zoals delen van getallen. Je krijgt een "
-                  "<strong>quotiënt</strong> en een <strong>rest</strong>, en er geldt altijd: "
-                  "<strong>deeltal is deler maal quotiënt plus rest</strong>. Dat is meteen de controle op "
-                  "elke deling; klopt ze niet, dan zit er een rekenfout in je schema."),
-            ("p", "Over de rest weet je één ding zeker: <strong>haar graad is kleiner dan die van de "
-                  "deler</strong>. Zolang de rest nog even hoog in graad is als de deler, kan je verder "
-                  "delen. Deel je door een <strong>tweedegraadsveelterm</strong>, dan heeft de rest dus "
-                  "<strong>hoogstens graad één</strong>. <strong>Gaat een deling op, dan is de rest "
-                  "nul</strong>; een rest is een veelterm en nooit een graad."),
-            ("p", "De graad van het quotiënt vind je door af te trekken: een "
-                  "<strong>vijfdegraadsveelterm gedeeld door een tweedegraadsveelterm</strong> geeft een "
-                  "quotiënt van <strong>graad drie</strong>."),
+            ("p", r"Delen van veeltermen werkt zoals delen van getallen. Je deelt \(A\) door \(B\) en krijgt "
+                  r"een <strong>quotiënt</strong> \(Q\) en een <strong>rest</strong> \(R\), en er geldt "
+                  r"altijd <strong>\(A=B\cdot Q+R\)</strong>. Dat is meteen de controle op elke deling; "
+                  r"klopt ze niet, dan zit er een rekenfout in je schema."),
+            ("p", r"Over de rest weet je één ding zeker: <strong>\(\deg R<\deg B\)</strong>. Zolang de rest "
+                  r"nog even hoog in graad staat als de deler, kan je verder delen. Deel je door een "
+                  r"<strong>tweedegraadsveelterm</strong>, dan is de rest dus hoogstens van de vorm "
+                  r"\(ax+b\). <strong>Gaat een deling op, dan is \(R=0\)</strong>; een rest is een veelterm "
+                  r"en nooit een graad."),
+            ("p", r"De graad van het quotiënt vind je door af te trekken: \(\deg Q=\deg A-\deg B\). Een "
+                  r"veelterm van graad \(5\) gedeeld door een veelterm van graad \(2\) geeft dus een "
+                  r"quotiënt van graad \(3\)."),
+            ("p", r"Een voorbeeld met een deler van graad \(2\), waar Horner niet helpt: "
+                  r"\(\left(x^{3}+1\right):\left(x^{2}+1\right)\). Je zoekt eerst waarmee je \(x^{2}\) tot "
+                  r"\(x^{3}\) maakt, dat is \(x\); \(x\left(x^{2}+1\right)=x^{3}+x\), en wat overblijft is "
+                  r"\(x^{3}+1-\left(x^{3}+x\right)=-x+1\). Die rest heeft graad \(1\), lager dan de deler, "
+                  r"dus je stopt: quotiënt \(x\), rest \(-x+1\)."),
         ]),
         dict(kop="De reststelling", blokken=[
-            ("p", "<strong>De rest bij de deling van een veelterm P door x min a is gelijk aan P van "
-                  "a.</strong> Je hoeft dus niet te delen om de rest te kennen: <strong>invullen "
-                  "volstaat</strong>. Is de waarde van P in a bijvoorbeeld zeven, dan is de rest zeven."),
-            ("p", "Voorbeeld: deel <strong>x tot de derde min twee x kwadraat plus drie x min vier door x "
-                  "min één</strong>. Vul één in: één min twee plus drie min vier is <strong>min twee</strong>. "
-                  "Dat is de rest."),
-            ("p", "<strong>De reststelling werkt ook bij een deler van de vorm x plus a</strong>: je "
-                  "schrijft x plus a als x min min a en vult dan min a in."),
-            ("kader", "Het gevolg dat je het vaakst gebruikt: <strong>is de waarde van P in a gelijk aan "
-                      "nul, dan is x min a een deler van P</strong>. De rest is dan immers nul en de deling "
-                      "gaat op. Neem <strong>x tot de derde min acht</strong>: de waarde voor x gelijk aan "
-                      "twee is <strong>nul</strong>, dus x min twee is een deler. Hetzelfde bij "
-                      "<strong>twee x kwadraat min drie x plus één</strong> voor x gelijk aan één: twee min "
-                      "drie plus één is <strong>nul</strong>."),
+            ("p", r"<strong>De rest bij de deling van \(P(x)\) door \(x-a\) is \(P(a)\).</strong> Je hoeft "
+                  r"dus niet te delen om de rest te kennen: <strong>invullen volstaat</strong>. Is "
+                  r"\(P(a)=7\), dan is de rest \(7\)."),
+            ("p", r"Voorbeeld: \(\left(x^{3}-2x^{2}+3x-4\right):(x-1)\). Vul \(1\) in: "
+                  r"\(P(1)=1-2+3-4=-2\). Dat is de rest."),
+            ("p", r"<strong>De reststelling werkt ook bij een deler \(x+a\)</strong>: je schrijft "
+                  r"\(x+a=x-(-a)\) en vult \(-a\) in. Zo is de rest bij "
+                  r"\(\left(2x^{3}-x+5\right):(x+2)\) gelijk aan \(P(-2)=-16+2+5=-9\)."),
+            ("kader", r"Het gevolg dat je het vaakst gebruikt: <strong>is \(P(a)=0\), dan is \(x-a\) een "
+                      r"deler van \(P\)</strong>. De rest is dan immers \(0\) en de deling gaat op. Neem "
+                      r"\(P(x)=x^{3}-8\): \(P(2)=0\), dus \(x-2\) is een deler."),
+            ("p", r"Omgekeerd gebruik je die stelling om een onbekende coëfficiënt te vinden. Voor welke "
+                  r"\(m\) is \(x^{3}+mx^{2}-4x+6\) deelbaar door \(x-2\)? Deelbaar wil zeggen \(P(2)=0\), "
+                  r"dus \(8+4m-8+6=0\) en \(m=-\tfrac{3}{2}\)."),
         ]),
         dict(kop="Het rekenschema van Horner", blokken=[
-            ("p", "Het <strong>rekenschema van Horner</strong> is een snelle schrijfwijze om <strong>te "
-                  "delen door een tweeterm x min a</strong>. Voor een deler van hogere graad, zoals x "
-                  "kwadraat plus één, werkt het <strong>niet</strong>; daar val je terug op de gewone "
-                  "euclidische deling."),
-            ("p", "<strong>Bovenaan zet je alle coëfficiënten</strong>, van de hoogste graad tot en met de "
-                  "constante term. Voor een <strong>derdegraadsveelterm</strong> zijn dat er dus "
-                  "<strong>vier</strong>. Een ontbrekende graad schrijf je als een nul; die mag je niet "
-                  "overslaan."),
-            ("p", "<strong>Links zet je a</strong>, en niet het getal uit de deler. Deel je door "
-                  "<strong>x plus drie</strong>, dan is dat <strong>x min min drie</strong>, dus zet je "
-                  "<strong>min drie</strong> links. Dat tekenfoutje is de klassieker van dit hoofdstuk."),
-            ("p", "Onderaan verschijnen de <strong>coëfficiënten van het quotiënt</strong>, en het "
-                  "<strong>laatste getal is de rest</strong> van de deling, en dus ook de functiewaarde "
-                  "in a."),
+            ("p", r"Het <strong>rekenschema van Horner</strong> is een snelle schrijfwijze om <strong>te "
+                  r"delen door een tweeterm \(x-a\)</strong>. Voor een deler van hogere graad, zoals "
+                  r"\(x^{2}+1\), werkt het <strong>niet</strong>; daar val je terug op de gewone "
+                  r"euclidische deling hierboven."),
+            ("p", r"<strong>Bovenaan zet je alle coëfficiënten</strong>, van de hoogste graad tot en met de "
+                  r"constante term. Voor een <strong>derdegraadsveelterm</strong> zijn dat er dus vier. Een "
+                  r"ontbrekende graad schrijf je als \(0\); die mag je niet overslaan. Bij "
+                  r"\(P(x)=x^{5}-2x^{3}+x\) staan bovenaan zes getallen: \(1,\,0,\,-2,\,0,\,1,\,0\)."),
+            ("p", r"<strong>Links zet je \(a\)</strong>, en niet het getal uit de deler. Deel je door "
+                  r"\(x+3\), dan is dat \(x-(-3)\), dus zet je \(-3\) links. Dat tekenfoutje is de "
+                  r"klassieker van dit hoofdstuk."),
+            ("p", r"Onderaan verschijnen de <strong>coëfficiënten van het quotiënt</strong>, en het "
+                  r"<strong>laatste getal is de rest</strong>, en dus ook \(P(a)\). Zo geeft "
+                  r"\(\left(x^{3}-6x^{2}+11x-6\right):(x-1)\) als quotiënt \(x^{2}-5x+6\) en rest \(0\); "
+                  r"de volledige ontbinding is \((x-1)(x-2)(x-3)\)."),
         ]),
         dict(kop="Nulwaarden", blokken=[
-            ("p", "Een <strong>nulwaarde van een veeltermfunctie</strong> is <strong>een x waarvoor de "
-                  "functiewaarde nul is</strong>. Op de grafiek zijn dat de snijpunten met de x-as. De "
-                  "waarde in nul is iets anders: dat is het snijpunt met de y-as."),
-            ("p", "<strong>Een veelterm van graad n heeft hoogstens n reële nulwaarden</strong>, want elke "
-                  "nulwaarde levert een factor van graad één op. <strong>Elke veelterm van oneven graad "
-                  "heeft er minstens één</strong>: haar grafiek gaat van min oneindig naar plus oneindig en "
-                  "moet de x-as dus kruisen."),
-            ("p", "Om te testen of een veelterm <strong>deelbaar is door x min één</strong>, vul je één in. "
-                  "Bij <strong>x kwadraat plus twee x min drie</strong> geeft dat één plus twee min drie, "
-                  "dus nul: ze is deelbaar. Zoek je een gehele nulwaarde van een derdegraadsveelterm met "
-                  "gehele coëfficiënten, probeer dan eerst <strong>de delers van de constante term</strong>. "
-                  "Een gehele nulwaarde moet die term immers delen, en dat zijn er meestal maar een handvol."),
+            ("p", r"Een <strong>nulwaarde</strong> van een veeltermfunctie is een \(x\) waarvoor "
+                  r"\(P(x)=0\). Op de grafiek zijn dat de snijpunten met de \(x\)-as. \(P(0)\) is iets "
+                  r"anders: dat is het snijpunt met de \(y\)-as."),
+            ("p", r"<strong>Een veelterm van graad \(n\) heeft hoogstens \(n\) reële nulwaarden</strong>, "
+                  r"want elke nulwaarde levert een factor van graad \(1\) op. <strong>Elke veelterm van "
+                  r"oneven graad heeft er minstens één</strong>: haar grafiek loopt van \(-\infty\) naar "
+                  r"\(+\infty\) en moet de \(x\)-as dus kruisen."),
+            ("p", r"Zoek je een <strong>gehele nulwaarde</strong> van een veelterm met gehele coëfficiënten, "
+                  r"probeer dan de <strong>delers van de constante term</strong>: een gehele nulwaarde moet "
+                  r"die term delen. Bij \(2x^{3}-3x^{2}-8x+12\) zijn dat de delers van \(12\), en \(x=2\) "
+                  r"lukt meteen."),
         ]),
         dict(kop="Ontbinden in factoren", blokken=[
-            ("p", "<strong>Je ontbindt een veelterm in factoren om haar nulwaarden en haar delers te "
-                  "zien.</strong> Een product is nul zodra één factor nul is, dus elke factor levert meteen "
-                  "een nulwaarde op. <strong>Ontbinden is dus een manier om nulwaarden te vinden.</strong>"),
+            ("p", r"<strong>Je ontbindt een veelterm in factoren om haar nulwaarden en haar delers te "
+                  r"zien.</strong> Een product is \(0\) zodra één factor \(0\) is, dus elke factor van graad "
+                  r"\(1\) levert meteen een nulwaarde op. <strong>Ontbinden is dus een manier om nulwaarden "
+                  r"te vinden.</strong>"),
             ("p", tabel(["Merkwaardig product", "Ontbinding of uitwerking", "Let op"], [
-                ["a kwadraat min b kwadraat", "a min b, maal a plus b", "het verschil van twee kwadraten"],
-                ["a plus b, in het kwadraat", "a kwadraat plus twee ab plus b kwadraat", "de dubbele term twee ab vergeten is de vaakst gemaakte fout"],
-                ["a min b, in het kwadraat", "a kwadraat min twee ab plus b kwadraat", "alleen de middelste term wisselt van teken"],
+                [r"\(a^{2}-b^{2}\)", r"\((a-b)(a+b)\)", "het verschil van twee kwadraten"],
+                [r"\((a+b)^{2}\)", r"\(a^{2}+2ab+b^{2}\)", "de dubbele term vergeten is de vaakst gemaakte fout"],
+                [r"\((a-b)^{2}\)", r"\(a^{2}-2ab+b^{2}\)", "alleen de middelste term wisselt van teken"],
+                [r"\(a^{3}-b^{3}\)", r"\((a-b)\left(a^{2}+ab+b^{2}\right)\)", r"zo is \(x^{3}-8=(x-2)\left(x^{2}+2x+4\right)\)"],
             ])),
-            ("p", "De vier manieren die je nodig hebt, naast elkaar. <strong>De gemeenschappelijke factor "
-                  "afzonderen</strong>: drie x tot de derde min zes x kwadraat wordt <strong>drie x "
-                  "kwadraat, maal x min twee</strong>. <strong>Termen samennemen</strong>: ax plus ay plus "
-                  "bx plus by wordt <strong>a plus b, maal x plus y</strong>. <strong>Een merkwaardig "
-                  "product herkennen</strong>: x kwadraat min negen wordt <strong>x min drie, maal x plus "
-                  "drie</strong>, en vier x kwadraat min twaalf x plus negen is <strong>twee x min drie, in "
-                  "het kwadraat</strong>. En <strong>een nulwaarde zoeken en met Horner delen</strong>: "
-                  "x tot de derde min acht wordt <strong>x min twee, maal x kwadraat plus twee x plus "
-                  "vier</strong>."),
-            ("p", "Bij een tweedegraadsveelterm zoek je twee getallen met de juiste som en het juiste "
-                  "product. Zo wordt <strong>x kwadraat min vijf x plus zes</strong> gelijk aan "
-                  "<strong>x min twee, maal x min drie</strong>. De <strong>discriminant</strong> van die "
-                  "veelterm is <strong>één</strong>: vijfentwintig min vierentwintig. Positief, dus er zijn "
-                  "twee reële nulwaarden. <strong>Bij een negatieve discriminant zijn er geen reële "
-                  "nulwaarden</strong>, en daarom valt <strong>x kwadraat plus vier</strong> in R "
-                  "<strong>niet</strong> uiteen in twee factoren van graad één. In de complexe getallen lukt "
-                  "dat wel."),
-            ("p", "Nog drie uitkomsten om bij de hand te hebben. <strong>x kwadraat min vier heeft twee "
-                  "reële nulwaarden</strong>, twee en min twee. De <strong>nulwaarde van twee x min zes is "
-                  "drie</strong>. De <strong>som van de nulwaarden van x kwadraat min zeven x plus "
-                  "twaalf</strong> is <strong>zeven</strong>, want de nulwaarden zijn drie en vier, en de som "
-                  "is min b op a. <strong>x tot de derde min x heeft drie reële nulwaarden</strong>: zonder "
-                  "x af te zonderen krijg je x maal x min één maal x plus één, dus nul, één en min één."),
-            ("weetje", "<strong>x tot de vierde min zestien</strong> ontbind je zo ver mogelijk in R tot "
-                       "<strong>x min twee, maal x plus twee, maal x kwadraat plus vier</strong>. Eerst het "
-                       "verschil van kwadraten, dan nog eens op x kwadraat min vier. De laatste factor blijft "
-                       "staan, want die heeft geen reële nulwaarden."),
+            ("p", r"De vier manieren die je nodig hebt, naast elkaar. <strong>De gemeenschappelijke factor "
+                  r"afzonderen</strong>: \(3x^{3}-6x^{2}=3x^{2}(x-2)\). <strong>Termen samennemen</strong>: "
+                  r"\(ax+ay+bx+by=a(x+y)+b(x+y)=(a+b)(x+y)\). <strong>Een merkwaardig product "
+                  r"herkennen</strong>: \(x^{2}-9=(x-3)(x+3)\) en \(4x^{2}-12x+9=(2x-3)^{2}\). En "
+                  r"<strong>een nulwaarde zoeken en met Horner delen</strong>: \(2x^{3}-3x^{2}-8x+12\) "
+                  r"heeft \(P(2)=0\), Horner geeft \(2x^{2}+x-6\), en dus "
+                  r"\(2x^{3}-3x^{2}-8x+12=(x-2)(x+2)(2x-3)\)."),
+            ("p", r"Bij een tweedegraadsveelterm zoek je twee getallen met de juiste som en het juiste "
+                  r"product: \(x^{2}-5x+6=(x-2)(x-3)\). De <strong>discriminant</strong> "
+                  r"\(D=b^{2}-4ac\) zegt hoeveel reële nulwaarden er zijn: hier \(25-24=1>0\), dus twee. "
+                  r"<strong>Bij \(D<0\) zijn er geen reële nulwaarden</strong>, en daarom valt "
+                  r"\(x^{2}+4\) in \(\mathbb{R}\) niet uiteen in twee factoren van graad één; in "
+                  r"\(\mathbb{C}\) lukt dat wel. <strong>Bij \(D=0\) is er één nulwaarde die dubbel "
+                  r"telt</strong>: \(x^{2}+2x+1=(x+1)^{2}\) raakt de \(x\)-as in \(x=-1\)."),
+            ("p", r"Twee verbanden die je zonder rekenen laten antwoorden: voor \(ax^{2}+bx+c\) is de "
+                  r"<strong>som van de nulwaarden \(-\tfrac{b}{a}\)</strong> en het <strong>product "
+                  r"\(\tfrac{c}{a}\)</strong>. Bij \(x^{2}-7x+12\) is de som dus \(7\) en het product "
+                  r"\(12\); de nulwaarden zijn \(3\) en \(4\)."),
+            ("weetje", r"\(x^{4}-16\) ontbind je zo ver mogelijk in \(\mathbb{R}\) tot "
+                       r"\((x-2)(x+2)\left(x^{2}+4\right)\). Eerst het verschil van kwadraten, dan nog eens "
+                       r"op \(x^{2}-4\). De laatste factor blijft staan, want die heeft geen reële "
+                       r"nulwaarden."),
         ]),
     ],
     onthoud=[
-        "Deeltal is deler maal quotiënt plus rest.",
-        "De graad van de rest is kleiner dan die van de deler.",
-        "De rest bij de deling van P door x min a is gelijk aan P van a.",
-        "Is de waarde van P in a nul, dan is x min a een deler van P.",
-        "Horner werkt alleen bij een deler x min a; bij x plus drie zet je min drie links.",
-        "Bovenaan in Horner staan alle coëfficiënten; een ontbrekende graad schrijf je als nul.",
-        "Een veelterm van graad n heeft hoogstens n reële nulwaarden.",
-        "Zoek een gehele nulwaarde eerst bij de delers van de constante term.",
-        "a kwadraat min b kwadraat is a min b, maal a plus b.",
+        r"\(A=B\cdot Q+R\), en \(\deg R<\deg B\); gaat de deling op, dan is \(R=0\).",
+        r"\(\deg Q=\deg A-\deg B\).",
+        r"Reststelling: de rest bij \(P(x):(x-a)\) is \(P(a)\).",
+        r"Is \(P(a)=0\), dan is \(x-a\) een deler van \(P\).",
+        r"Horner werkt alleen bij \(x-a\); bij \(x+3\) zet je \(-3\) links.",
+        r"Bovenaan in Horner staan alle coëfficiënten; een ontbrekende graad schrijf je als \(0\).",
+        r"Een veelterm van graad \(n\) heeft hoogstens \(n\) reële nulwaarden; bij oneven graad minstens één.",
+        r"Zoek een gehele nulwaarde bij de delers van de constante term.",
+        r"\(a^{2}-b^{2}=(a-b)(a+b)\) en \(a^{3}-b^{3}=(a-b)\left(a^{2}+ab+b^{2}\right)\).",
+        r"\(D>0\): twee nulwaarden. \(D=0\): één dubbele. \(D<0\): geen in \(\mathbb{R}\).",
+        r"Som van de nulwaarden \(-\tfrac{b}{a}\), product \(\tfrac{c}{a}\).",
     ],
 )
 

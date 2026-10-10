@@ -63,6 +63,14 @@ def render(bundel):
 <!-- De opmaak van de formules, met de lettertypes erin; zie maak_katex_css.py.
      pdf.js tekent de formules vlak voor het afdrukken. -->
 <link href="katex-inline.css" rel="stylesheet">
+<style>
+/* Een formule breekt niet middenin af. KaTeX zet een afbreekpunt na elk
+   bewerkingsteken, ook binnen haakjes, en dan leest "(x +" aan het eind van
+   een regel als een halve uitdrukking. Een formule op haar eigen regel mag
+   wel afbreken, want die is te breed om in één stuk te passen. */
+.katex {{ white-space: nowrap; }}
+.katex-display .katex {{ white-space: normal; }}
+</style>
 <style>{CSS}</style>
 </head>
 <body>

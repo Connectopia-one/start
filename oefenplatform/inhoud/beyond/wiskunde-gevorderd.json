@@ -398,116 +398,104 @@
       "vragen": [
         {
           "type": "meerkeuze",
-          "vraag": "Wat weet je zeker over de rest bij een euclidische deling van veeltermen?",
+          "vraag": "Je deelt \\(A\\) door \\(B\\) en krijgt een quotiënt \\(Q\\) en een rest \\(R\\). Wat geldt altijd?",
           "opties": [
-            "haar graad is kleiner dan die van de deler",
-            "haar graad is kleiner dan die van het quotiënt",
-            "haar graad is gelijk aan die van de deler zelf",
-            "haar graad is kleiner dan die van het deeltal"
+            "\\(A=B\\cdot Q+R\\) met \\(\\deg R<\\deg B\\)",
+            "\\(A=B\\cdot Q+R\\) met \\(\\deg R<\\deg Q\\)",
+            "\\(A=B+Q\\cdot R\\) met \\(\\deg R<\\deg B\\)",
+            "\\(A=B\\cdot Q-R\\) met \\(\\deg R<\\deg A\\)"
           ],
           "antwoord": 0,
-          "uitleg": "Zodra de rest nog even hoog in graad is als de deler, kan je verder delen. Je stopt pas als dat niet meer kan."
-        },
-        {
-          "type": "meerkeuze",
-          "vraag": "Welk verband geldt altijd tussen deeltal, deler, quotiënt en rest?",
-          "opties": [
-            "deeltal is deler maal quotiënt plus rest",
-            "deeltal is deler plus quotiënt maal de rest",
-            "deeltal is deler maal quotiënt min de rest",
-            "deeltal is quotiënt plus deler plus de rest"
-          ],
-          "antwoord": 0,
-          "uitleg": "Dat is de controle op elke deling. Werkt ze niet, dan zit er een rekenfout in je schema."
+          "uitleg": "Dat verband is de controle op elke deling. En zolang \\(\\deg R\\geq\\deg B\\) kan je verder delen, dus je stopt pas wanneer de rest lager in graad staat dan de deler."
         },
         {
           "type": "invultekst",
-          "vraag": "Je deelt een veelterm door een tweedegraadsveelterm. Welke graad heeft de rest hoogstens? Schrijf het cijfer.",
+          "vraag": "Je deelt door een tweedegraadsveelterm. Welke graad heeft de rest hoogstens? Schrijf het cijfer.",
           "antwoord": [
             "1",
             "een",
             "één"
           ],
-          "uitleg": "De graad van de rest ligt strikt onder die van de deler, dus hoogstens één."
+          "uitleg": "De graad van de rest ligt strikt onder die van de deler, dus de rest is hoogstens van de vorm \\(ax+b\\)."
         },
         {
           "type": "waarofniet",
-          "vraag": "De rest bij de deling van een veelterm P door x min a is gelijk aan P van a.",
+          "vraag": "De rest bij de deling van \\(P(x)\\) door \\(x-a\\) is gelijk aan \\(P(a)\\).",
           "antwoord": true,
           "uitleg": "Dat is de reststelling. Je hoeft dus niet te delen om de rest te kennen: invullen volstaat."
         },
         {
           "type": "meerkeuze",
-          "vraag": "Je deelt x tot de derde min twee x kwadraat plus drie x min vier door x min één. Wat is de rest?",
+          "vraag": "Wat is de rest bij \\(\\left(x^{3}-2x^{2}+3x-4\\right):(x-1)\\)?",
           "opties": [
-            "min twee",
-            "min vier",
-            "nul",
-            "twee"
+            "\\(-2\\)",
+            "\\(-4\\)",
+            "\\(0\\)",
+            "\\(2\\)"
           ],
           "antwoord": 0,
-          "uitleg": "Vul één in: één min twee plus drie min vier is min twee. De reststelling geeft meteen het antwoord."
+          "uitleg": "\\(P(1)=1-2+3-4=-2\\). De reststelling geeft het antwoord zonder te delen."
         },
         {
           "type": "meerkeuze",
           "vraag": "Waarvoor gebruik je het rekenschema van Horner?",
           "opties": [
-            "om te delen door een tweeterm x min a",
+            "om te delen door een tweeterm \\(x-a\\)",
             "om een tweedegraadsvergelijking op te lossen",
             "om een breuk met wortels te vereenvoudigen",
             "om de afgeleide van een veelterm te vinden"
           ],
           "antwoord": 0,
-          "uitleg": "Horner is een snelle schrijfwijze voor precies die ene deling. Voor andere delers val je terug op de gewone staartdeling."
+          "uitleg": "Horner is een snelle schrijfwijze voor precies die ene deling. Voor andere delers val je terug op de gewone euclidische deling."
         },
         {
           "type": "waarofniet",
-          "vraag": "Je kan het rekenschema van Horner ook gebruiken om te delen door x kwadraat plus één.",
+          "vraag": "Je kan Horner ook gebruiken om te delen door \\(x^{2}+1\\).",
           "antwoord": false,
-          "uitleg": "Horner werkt enkel bij een deler van de vorm x min a. Voor een deler van hogere graad gebruik je de euclidische deling."
+          "uitleg": "Horner werkt enkel bij een deler \\(x-a\\). Voor een deler van hogere graad gebruik je de euclidische deling."
         },
         {
           "type": "invultekst",
-          "vraag": "Neem de veelterm x tot de derde min acht. Hoeveel is haar waarde voor x gelijk aan twee? Schrijf het getal.",
+          "vraag": "Neem \\(P(x)=x^{3}-8\\). Hoeveel is \\(P(2)\\)? Schrijf het getal.",
           "antwoord": [
             "0",
             "nul"
           ],
-          "uitleg": "Twee tot de derde is acht, en acht min acht is nul. Dus x min twee is een deler."
+          "uitleg": "\\(2^{3}-8=0\\), dus \\(x-2\\) is een deler van \\(P\\)."
         },
         {
           "type": "meerkeuze",
-          "vraag": "Wat weet je als de waarde van een veelterm P in a gelijk is aan nul?",
+          "vraag": "Wat weet je als \\(P(a)=0\\)?",
           "opties": [
-            "x min a is een deler van P",
-            "x plus a is een deler van P",
-            "de veelterm P heeft graad nul",
-            "de veelterm P is overal gelijk aan nul"
+            "\\(x-a\\) is een deler van \\(P\\)",
+            "\\(x+a\\) is een deler van \\(P\\)",
+            "\\(P\\) heeft graad \\(0\\)",
+            "\\(P\\) is overal gelijk aan \\(0\\)"
           ],
           "antwoord": 0,
-          "uitleg": "Volgens de reststelling is de rest dan nul, en een deling met rest nul gaat op."
+          "uitleg": "Volgens de reststelling is de rest dan \\(0\\), en een deling met rest \\(0\\) gaat op."
         },
         {
           "type": "waarofniet",
-          "vraag": "Een veelterm van graad n heeft hoogstens n reële nulwaarden.",
+          "vraag": "Een veelterm van graad \\(n\\) heeft hoogstens \\(n\\) reële nulwaarden.",
           "antwoord": true,
-          "uitleg": "Elke nulwaarde levert een factor van graad één op, en samen kunnen die de graad niet overschrijden."
+          "uitleg": "Elke nulwaarde levert een factor van graad \\(1\\) op, en samen kunnen die de graad niet overschrijden."
         },
         {
           "type": "meerkeuze",
-          "vraag": "Je deelt met Horner door x plus drie. Welk getal zet je links in het schema?",
+          "vraag": "Je deelt met Horner door \\(x+3\\). Welk getal zet je links in het schema?",
           "opties": [
-            "min drie",
-            "plus drie",
-            "min één",
-            "nul"
+            "\\(-3\\)",
+            "\\(3\\)",
+            "\\(-1\\)",
+            "\\(0\\)"
           ],
           "antwoord": 0,
-          "uitleg": "x plus drie is x min min drie, dus a is min drie. Het tekenfoutje hier is de klassieker van dit hoofdstuk."
+          "uitleg": "\\(x+3=x-(-3)\\), dus \\(a=-3\\). Dat tekenfoutje is de klassieker van dit hoofdstuk."
         },
         {
           "type": "invultekst",
-          "vraag": "De waarde van P in a is zeven. Wat is de rest bij de deling van P door x min a? Schrijf het getal.",
+          "vraag": "Er geldt \\(P(a)=7\\). Wat is de rest bij \\(P(x):(x-a)\\)? Schrijf het getal.",
           "antwoord": [
             "7",
             "zeven"
@@ -516,72 +504,33 @@
         },
         {
           "type": "meerkeuze",
-          "vraag": "Je deelt een vijfdegraadsveelterm door een tweedegraadsveelterm. Welke graad heeft het quotiënt?",
+          "vraag": "Je deelt een veelterm van graad \\(5\\) door een veelterm van graad \\(2\\). Welke graad heeft het quotiënt?",
           "opties": [
-            "drie",
-            "twee",
-            "vier",
-            "vijf"
+            "\\(3\\)",
+            "\\(2\\)",
+            "\\(4\\)",
+            "\\(5\\)"
           ],
           "antwoord": 0,
-          "uitleg": "De graden trekken af: vijf min twee is drie."
+          "uitleg": "De graden trekken af: \\(5-2=3\\)."
         },
         {
           "type": "waarofniet",
-          "vraag": "Als een deling van veeltermen opgaat, is de rest gelijk aan de graad van de deler.",
+          "vraag": "Gaat een deling van veeltermen op, dan is de rest gelijk aan de graad van de deler.",
           "antwoord": false,
-          "uitleg": "Als een deling opgaat is de rest nul. Een rest is een veelterm, geen graad."
-        },
-        {
-          "type": "meerkeuze",
-          "vraag": "Wat is een nulwaarde van een veeltermfunctie?",
-          "opties": [
-            "een x waarvoor de functiewaarde nul is",
-            "de waarde die de functie in nul aanneemt",
-            "het punt waar de grafiek de y-as snijdt",
-            "de kleinste waarde die de functie bereikt"
-          ],
-          "antwoord": 0,
-          "uitleg": "Op de grafiek zijn dat de snijpunten met de x-as. De waarde in nul is iets anders: dat is het snijpunt met de y-as."
-        },
-        {
-          "type": "meerkeuze",
-          "vraag": "Welke van deze veeltermen is deelbaar door x min één?",
-          "opties": [
-            "x kwadraat plus twee x min drie",
-            "x kwadraat plus twee x plus drie",
-            "x kwadraat min twee x min drie",
-            "x kwadraat plus drie x plus twee"
-          ],
-          "antwoord": 0,
-          "uitleg": "Vul telkens één in. Alleen bij de eerste krijg je één plus twee min drie, dus nul."
-        },
-        {
-          "type": "waarofniet",
-          "vraag": "De reststelling werkt ook bij een deler van de vorm x plus a.",
-          "antwoord": true,
-          "uitleg": "Je schrijft x plus a als x min min a en vult dan min a in."
-        },
-        {
-          "type": "invultekst",
-          "vraag": "Neem twee x kwadraat min drie x plus één. Hoeveel is de waarde voor x gelijk aan één? Schrijf het getal.",
-          "antwoord": [
-            "0",
-            "nul"
-          ],
-          "uitleg": "Twee min drie plus één is nul, dus x min één is een deler."
+          "uitleg": "Gaat een deling op, dan is de rest \\(0\\). Een rest is een veelterm, geen graad."
         },
         {
           "type": "meerkeuze",
           "vraag": "Hoeveel getallen zet je bovenaan in het schema van Horner voor een derdegraadsveelterm?",
           "opties": [
-            "vier",
-            "drie",
-            "twee",
-            "vijf"
+            "\\(4\\)",
+            "\\(3\\)",
+            "\\(2\\)",
+            "\\(5\\)"
           ],
           "antwoord": 0,
-          "uitleg": "Alle coëfficiënten van graad drie tot en met de constante term, dus vier. Een ontbrekende graad schrijf je als nul."
+          "uitleg": "Alle coëfficiënten van \\(x^{3}\\) tot en met de constante term, dus vier. Een ontbrekende graad schrijf je als \\(0\\)."
         },
         {
           "type": "meerkeuze",
@@ -589,11 +538,64 @@
           "opties": [
             "de rest van de deling",
             "de hoogste term van het quotiënt",
-            "de nulwaarde van de veelterm zelf",
-            "de graad die het quotiënt zal hebben"
+            "de nulwaarde van de veelterm",
+            "de graad van het quotiënt"
           ],
           "antwoord": 0,
-          "uitleg": "De getallen links daarvan zijn de coëfficiënten van het quotiënt. Het laatste is de rest, en dus ook de functiewaarde in a."
+          "uitleg": "De getallen links daarvan zijn de coëfficiënten van het quotiënt. Het laatste is de rest, en dus ook \\(P(a)\\)."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Voor welke \\(m\\) is \\(x^{3}+mx^{2}-4x+6\\) deelbaar door \\(x-2\\)?",
+          "opties": [
+            "\\(m=-\\tfrac{3}{2}\\)",
+            "\\(m=\\tfrac{3}{2}\\)",
+            "\\(m=-3\\)",
+            "\\(m=3\\)"
+          ],
+          "antwoord": 0,
+          "uitleg": "Deelbaar wil zeggen \\(P(2)=0\\): \\(8+4m-8+6=0\\), dus \\(4m=-6\\) en \\(m=-\\tfrac{3}{2}\\)."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Wat is de rest bij \\(\\left(2x^{3}-x+5\\right):(x+2)\\)? Schrijf het getal.",
+          "antwoord": [
+            "-9",
+            "min 9"
+          ],
+          "uitleg": "\\(P(-2)=2\\cdot(-8)+2+5=-9\\). Vergeet het minteken van \\(a\\) niet."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Wat is het quotiënt bij \\(\\left(x^{3}-6x^{2}+11x-6\\right):(x-1)\\)?",
+          "opties": [
+            "\\(x^{2}-5x+6\\)",
+            "\\(x^{2}-7x+6\\)",
+            "\\(x^{2}-5x-6\\)",
+            "\\(x^{2}-6x+11\\)"
+          ],
+          "antwoord": 0,
+          "uitleg": "Horner met \\(a=1\\) geeft \\(1,\\,-5,\\,6\\) en rest \\(0\\). De volledige ontbinding is \\((x-1)(x-2)(x-3)\\)."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Wat krijg je bij \\(\\left(x^{3}+1\\right):\\left(x^{2}+1\\right)\\)?",
+          "opties": [
+            "quotiënt \\(x\\), rest \\(-x+1\\)",
+            "quotiënt \\(x\\), rest \\(1\\)",
+            "quotiënt \\(x+1\\), rest \\(0\\)",
+            "quotiënt \\(x-1\\), rest \\(x+2\\)"
+          ],
+          "antwoord": 0,
+          "uitleg": "\\(x\\cdot\\left(x^{2}+1\\right)=x^{3}+x\\), en \\(x^{3}+1-\\left(x^{3}+x\\right)=-x+1\\). Die rest heeft graad \\(1\\), lager dan de deler, dus je stopt."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Je deelt \\(P(x)=x^{5}-2x^{3}+x\\) met Horner door \\(x-1\\). Hoeveel getallen zet je bovenaan? Schrijf het getal.",
+          "antwoord": [
+            "6"
+          ],
+          "uitleg": "Van graad \\(5\\) tot en met de constante term zijn dat er zes: \\(1,\\,0,\\,-2,\\,0,\\,1,\\,0\\). De ontbrekende graden schrijf je als \\(0\\) en mag je niet overslaan."
         }
       ]
     },
@@ -604,202 +606,196 @@
       "vragen": [
         {
           "type": "meerkeuze",
-          "vraag": "Hoe ontbind je x kwadraat min negen in factoren?",
+          "vraag": "Ontbind \\(x^{2}-9\\) in factoren.",
           "opties": [
-            "x min drie, maal x plus drie",
-            "x min drie, maal x min drie",
-            "x plus drie, maal x plus drie",
-            "x min negen, maal x plus één"
+            "\\((x-3)(x+3)\\)",
+            "\\((x-3)(x-3)\\)",
+            "\\((x+3)(x+3)\\)",
+            "\\((x-9)(x+1)\\)"
           ],
           "antwoord": 0,
-          "uitleg": "Dat is het verschil van twee kwadraten: a kwadraat min b kwadraat is a min b maal a plus b."
+          "uitleg": "Het verschil van twee kwadraten: \\(a^{2}-b^{2}=(a-b)(a+b)\\)."
         },
         {
           "type": "meerkeuze",
-          "vraag": "Waaraan is a plus b, in het kwadraat, gelijk?",
+          "vraag": "Ontbind \\(2x^{3}-3x^{2}-8x+12\\) volledig.",
           "opties": [
-            "a kwadraat plus twee ab plus b kwadraat",
-            "a kwadraat plus b kwadraat zonder meer",
-            "a kwadraat min twee ab plus b kwadraat",
-            "twee maal a plus twee maal b, in het kwadraat"
+            "\\((x-2)(x+2)(2x-3)\\)",
+            "\\((x-2)(x+2)(2x+3)\\)",
+            "\\((x-1)(x+2)(2x-6)\\)",
+            "\\((x-2)(x+3)(2x-2)\\)"
           ],
           "antwoord": 0,
-          "uitleg": "De dubbele term twee ab vergeten is de meest gemaakte fout van het hoofdstuk."
+          "uitleg": "\\(P(2)=0\\), dus \\(x-2\\) is een deler; Horner geeft \\(2x^{2}+x-6\\), en dat is \\((x+2)(2x-3)\\)."
         },
         {
           "type": "invultekst",
-          "vraag": "Hoeveel reële nulwaarden heeft x kwadraat min vier? Schrijf het cijfer.",
+          "vraag": "Hoeveel reële nulwaarden heeft \\(x^{2}-4\\)? Schrijf het cijfer.",
           "antwoord": [
             "2",
             "twee"
           ],
-          "uitleg": "Twee en min twee, want de ontbinding is x min twee maal x plus twee."
+          "uitleg": "\\(x^{2}-4=(x-2)(x+2)\\), dus \\(2\\) en \\(-2\\)."
         },
         {
           "type": "waarofniet",
-          "vraag": "De veelterm x kwadraat plus vier valt in de reële getallen uiteen in twee factoren van graad één.",
+          "vraag": "\\(x^{2}+4\\) valt in \\(\\mathbb{R}\\) uiteen in twee factoren van graad \\(1\\).",
           "antwoord": false,
-          "uitleg": "Haar discriminant is negatief, dus ze heeft geen reële nulwaarden en blijft onontbindbaar in R. In de complexe getallen lukt het wel."
+          "uitleg": "De discriminant is \\(-16\\), dus er zijn geen reële nulwaarden en de veelterm blijft onontbindbaar in \\(\\mathbb{R}\\). In \\(\\mathbb{C}\\) lukt het wel."
         },
         {
           "type": "meerkeuze",
-          "vraag": "Je zondert de gemeenschappelijke factor af in drie x tot de derde min zes x kwadraat. Wat krijg je?",
+          "vraag": "Zonder de gemeenschappelijke factor af in \\(3x^{3}-6x^{2}\\).",
           "opties": [
-            "drie x kwadraat, maal x min twee",
-            "drie x kwadraat, maal x min zes",
-            "drie x, maal x kwadraat min twee x",
-            "x kwadraat, maal drie x min zes x"
+            "\\(3x^{2}(x-2)\\)",
+            "\\(3x^{2}(x-6)\\)",
+            "\\(3x\\left(x^{2}-2x\\right)\\)",
+            "\\(x^{2}(3x-6x)\\)"
           ],
           "antwoord": 0,
-          "uitleg": "Drie en x kwadraat zitten in beide termen. Wat overblijft is x min twee."
+          "uitleg": "\\(3\\) en \\(x^{2}\\) zitten in beide termen. Wat overblijft is \\(x-2\\)."
         },
         {
           "type": "meerkeuze",
-          "vraag": "Hoe ontbind je x tot de derde min acht?",
+          "vraag": "Ontbind \\(x^{3}-8\\).",
           "opties": [
-            "x min twee, maal x kwadraat plus twee x plus vier",
-            "x min twee, maal x kwadraat min twee x plus vier",
-            "x min twee, maal x kwadraat plus twee x min vier",
-            "x plus twee, maal x kwadraat plus twee x plus vier"
+            "\\((x-2)\\left(x^{2}+2x+4\\right)\\)",
+            "\\((x-2)\\left(x^{2}-2x+4\\right)\\)",
+            "\\((x-2)\\left(x^{2}+2x-4\\right)\\)",
+            "\\((x+2)\\left(x^{2}+2x+4\\right)\\)"
           ],
           "antwoord": 0,
-          "uitleg": "Twee is een nulwaarde, dus x min twee is een deler. Horner geeft als quotiënt x kwadraat plus twee x plus vier."
+          "uitleg": "\\(P(2)=0\\), dus \\(x-2\\) is een deler, en Horner geeft \\(x^{2}+2x+4\\). Algemeen: \\(a^{3}-b^{3}=(a-b)\\left(a^{2}+ab+b^{2}\\right)\\)."
         },
         {
           "type": "invultekst",
-          "vraag": "Wat is de nulwaarde van twee x min zes? Schrijf het getal.",
+          "vraag": "Wat is de nulwaarde van \\(2x-6\\)? Schrijf het getal.",
           "antwoord": [
             "3",
             "drie"
           ],
-          "uitleg": "Twee x min zes is nul als x gelijk is aan drie."
+          "uitleg": "\\(2x-6=0\\) geeft \\(x=3\\)."
         },
         {
           "type": "waarofniet",
           "vraag": "Een veelterm ontbinden in factoren is een manier om haar nulwaarden te vinden.",
           "antwoord": true,
-          "uitleg": "Een product is nul zodra één factor nul is, dus elke factor levert meteen een nulwaarde op."
+          "uitleg": "Een product is \\(0\\) zodra één factor \\(0\\) is, dus elke factor van graad \\(1\\) levert meteen een nulwaarde op."
         },
         {
           "type": "meerkeuze",
-          "vraag": "Je neemt termen samen in ax plus ay plus bx plus by. Wat krijg je?",
+          "vraag": "Neem termen samen in \\(ax+ay+bx+by\\).",
           "opties": [
-            "a plus b, maal x plus y",
-            "a plus x, maal b plus y",
-            "a maal b, plus x maal y",
-            "a plus b plus x plus y, in het kwadraat"
+            "\\((a+b)(x+y)\\)",
+            "\\((a+x)(b+y)\\)",
+            "\\(ab+xy\\)",
+            "\\((a+b+x+y)^{2}\\)"
           ],
           "antwoord": 0,
-          "uitleg": "Eerst a buiten de eerste twee en b buiten de laatste twee, dan de gemeenschappelijke factor x plus y afzonderen."
+          "uitleg": "Eerst \\(a(x+y)+b(x+y)\\), dan de gemeenschappelijke factor \\(x+y\\) afzonderen."
         },
         {
           "type": "invultekst",
-          "vraag": "Hoeveel is de discriminant van x kwadraat min vijf x plus zes? Schrijf het getal.",
+          "vraag": "Hoeveel is de discriminant van \\(x^{2}-5x+6\\)? Schrijf het getal.",
           "antwoord": [
             "1",
             "een",
             "één"
           ],
-          "uitleg": "Vijfentwintig min vierentwintig is één. Positief, dus er zijn twee reële nulwaarden."
+          "uitleg": "\\(D=b^{2}-4ac=25-24=1\\). Positief, dus twee reële nulwaarden."
         },
         {
           "type": "meerkeuze",
-          "vraag": "Hoe ontbind je x kwadraat min vijf x plus zes?",
+          "vraag": "Ontbind \\(x^{2}-5x+6\\).",
           "opties": [
-            "x min twee, maal x min drie",
-            "x plus twee, maal x plus drie",
-            "x min één, maal x min zes",
-            "x min twee, maal x plus drie"
+            "\\((x-2)(x-3)\\)",
+            "\\((x+2)(x+3)\\)",
+            "\\((x-1)(x-6)\\)",
+            "\\((x-2)(x+3)\\)"
           ],
           "antwoord": 0,
-          "uitleg": "Je zoekt twee getallen met som vijf en product zes: dat zijn twee en drie, allebei met een minteken in de factor."
+          "uitleg": "Je zoekt twee getallen met som \\(5\\) en product \\(6\\): dat zijn \\(2\\) en \\(3\\), allebei met een minteken in de factor."
         },
         {
           "type": "waarofniet",
-          "vraag": "Een tweedegraadsveelterm met een negatieve discriminant heeft twee reële nulwaarden.",
+          "vraag": "Een tweedegraadsveelterm met \\(D<0\\) heeft twee reële nulwaarden.",
           "antwoord": false,
-          "uitleg": "Bij een negatieve discriminant zijn er geen reële nulwaarden en raakt of snijdt de parabool de x-as niet."
+          "uitleg": "Bij \\(D<0\\) zijn er geen reële nulwaarden en snijdt of raakt de parabool de \\(x\\)-as niet."
         },
         {
           "type": "meerkeuze",
-          "vraag": "Je zoekt een nulwaarde van een derdegraadsveelterm met gehele coëfficiënten. Welke getallen probeer je eerst?",
+          "vraag": "Je zoekt een gehele nulwaarde van \\(2x^{3}-3x^{2}-8x+12\\). Welke getallen probeer je?",
           "opties": [
-            "de delers van de constante term",
-            "de delers van de hoogste coëfficiënt",
-            "de getallen tussen min tien en tien",
+            "de delers van \\(12\\)",
+            "de delers van \\(2\\)",
+            "alle gehele getallen van \\(-12\\) tot \\(12\\)",
             "de kwadraten van de coëfficiënten"
           ],
           "antwoord": 0,
-          "uitleg": "Een gehele nulwaarde moet de constante term delen. Dat zijn er meestal maar een handvol om te testen."
+          "uitleg": "Een gehele nulwaarde moet de constante term delen. Dat zijn er hier twaalf om te testen, en \\(x=2\\) lukt meteen."
         },
         {
           "type": "waarofniet",
-          "vraag": "a min b, in het kwadraat, is gelijk aan a kwadraat min twee ab plus b kwadraat.",
+          "vraag": "Er geldt \\((a-b)^{2}=a^{2}-2ab+b^{2}\\).",
           "antwoord": true,
-          "uitleg": "Alleen de middelste term wisselt van teken. De laatste term blijft positief, want min b in het kwadraat is plus b kwadraat."
+          "uitleg": "Alleen de middelste term wisselt van teken tegenover \\((a+b)^{2}=a^{2}+2ab+b^{2}\\); \\((-b)^{2}\\) blijft positief."
         },
         {
           "type": "meerkeuze",
-          "vraag": "Hoe schrijf je vier x kwadraat min twaalf x plus negen als één kwadraat?",
+          "vraag": "Schrijf \\(4x^{2}-12x+9\\) als één kwadraat.",
           "opties": [
-            "twee x min drie, in het kwadraat",
-            "twee x plus drie, in het kwadraat",
-            "vier x min drie, in het kwadraat",
-            "twee x min negen, in het kwadraat"
+            "\\((2x-3)^{2}\\)",
+            "\\((2x+3)^{2}\\)",
+            "\\((4x-3)^{2}\\)",
+            "\\((2x-9)^{2}\\)"
           ],
           "antwoord": 0,
-          "uitleg": "De dubbele term is twee maal twee x maal drie, dus twaalf x, en die is hier negatief."
+          "uitleg": "De dubbele term is \\(2\\cdot 2x\\cdot 3=12x\\), en die staat hier met een minteken."
         },
         {
           "type": "invultekst",
-          "vraag": "Hoeveel is de som van de nulwaarden van x kwadraat min zeven x plus twaalf? Schrijf het getal.",
+          "vraag": "Hoeveel is de som van de nulwaarden van \\(x^{2}-7x+12\\)? Schrijf het getal.",
           "antwoord": [
             "7",
             "zeven"
           ],
-          "uitleg": "De nulwaarden zijn drie en vier. De som is min b op a, dus zeven."
+          "uitleg": "De nulwaarden zijn \\(3\\) en \\(4\\). Je leest de som ook af als \\(-\\tfrac{b}{a}=7\\), en het product als \\(\\tfrac{c}{a}=12\\)."
         },
         {
           "type": "meerkeuze",
-          "vraag": "Hoeveel reële nulwaarden heeft x tot de derde min x?",
+          "vraag": "Hoeveel reële nulwaarden heeft \\(x^{3}-x\\)?",
           "opties": [
-            "drie",
-            "twee",
-            "één",
+            "\\(3\\)",
+            "\\(2\\)",
+            "\\(1\\)",
             "geen"
           ],
           "antwoord": 0,
-          "uitleg": "Zonder x afzonderen krijg je x maal x min één maal x plus één. De nulwaarden zijn nul, één en min één."
+          "uitleg": "\\(x^{3}-x=x(x-1)(x+1)\\), dus \\(0\\), \\(1\\) en \\(-1\\)."
         },
         {
           "type": "waarofniet",
           "vraag": "Elke veelterm van oneven graad heeft minstens één reële nulwaarde.",
           "antwoord": true,
-          "uitleg": "Bij een oneven graad gaat de functie van min oneindig naar plus oneindig, dus ze moet de x-as kruisen."
+          "uitleg": "Bij een oneven graad loopt de functie van \\(-\\infty\\) naar \\(+\\infty\\), dus ze moet de \\(x\\)-as kruisen."
         },
         {
           "type": "meerkeuze",
-          "vraag": "Hoe ontbind je x tot de vierde min zestien zo ver mogelijk in R?",
+          "vraag": "Ontbind \\(x^{4}-16\\) zo ver mogelijk in \\(\\mathbb{R}\\).",
           "opties": [
-            "x min twee, maal x plus twee, maal x kwadraat plus vier",
-            "x min twee, maal x plus twee, maal x kwadraat min vier",
-            "x min vier, maal x plus vier, maal x kwadraat plus één",
-            "x min twee, maal x plus twee, maal x min twee, maal x plus twee"
+            "\\((x-2)(x+2)\\left(x^{2}+4\\right)\\)",
+            "\\((x-2)(x+2)\\left(x^{2}-4\\right)\\)",
+            "\\((x-4)(x+4)\\left(x^{2}+1\\right)\\)",
+            "\\((x-2)^{2}(x+2)^{2}\\)"
           ],
           "antwoord": 0,
-          "uitleg": "Eerst het verschil van kwadraten, dan nog eens op x kwadraat min vier. De factor x kwadraat plus vier blijft staan, want die heeft geen reële nulwaarden."
+          "uitleg": "Eerst \\(\\left(x^{2}-4\\right)\\left(x^{2}+4\\right)\\), dan nog eens het verschil van kwadraten. \\(x^{2}+4\\) blijft staan: die heeft geen reële nulwaarden."
         },
         {
-          "type": "meerkeuze",
-          "vraag": "Waarom ontbind je een veelterm in factoren?",
-          "opties": [
-            "om haar nulwaarden en delers te zien",
-            "om haar graad met één te verlagen",
-            "om haar afgeleide sneller te berekenen",
-            "om haar grafiek naar boven te schuiven"
-          ],
-          "antwoord": 0,
-          "uitleg": "Uit de factoren lees je de nulwaarden rechtstreeks af, en je ziet meteen door welke tweetermen de veelterm deelbaar is."
+          "type": "waarofniet",
+          "vraag": "\\(x^{2}+2x+1\\) heeft twee verschillende reële nulwaarden.",
+          "antwoord": false,
+          "uitleg": "\\(x^{2}+2x+1=(x+1)^{2}\\) en \\(D=0\\), dus er is één nulwaarde, \\(x=-1\\), die dubbel telt. De parabool raakt de \\(x\\)-as."
         }
       ]
     },
