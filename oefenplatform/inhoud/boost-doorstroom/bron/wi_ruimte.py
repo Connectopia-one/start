@@ -138,7 +138,7 @@ DEEL1 = [
         vraag="Hoeveel ribben heeft een balk?",
         opties=["twaalf", "acht", "zes", "vier"],
         antwoord=0,
-        uitleg="Een balk heeft 8 hoekpunten, 12 ribben en 6 zijvlakken.",
+        uitleg="Een balk heeft \\(8\\) hoekpunten, \\(12\\) ribben en \\(6\\) zijvlakken.",
     ),
     dict(
         type="waarofniet",
@@ -187,7 +187,7 @@ DEEL1 = [
 DEEL2 = [
     dict(
         type="meerkeuze",
-        vraag="Twee figuren zijn gelijkvormig met factor 3. Wat gebeurt er met de lengtes?",
+        vraag="Twee figuren zijn gelijkvormig met factor \\(3\\). Wat gebeurt er met de lengtes?",
         opties=[
             "ze worden drie keer zo groot",
             "ze worden negen keer zo groot",
@@ -199,7 +199,7 @@ DEEL2 = [
     ),
     dict(
         type="meerkeuze",
-        vraag="Twee figuren zijn gelijkvormig met factor 3. Wat gebeurt er met de oppervlakte?",
+        vraag="Twee figuren zijn gelijkvormig met factor \\(3\\). Wat gebeurt er met de oppervlakte?",
         opties=[
             "ze wordt negen keer zo groot",
             "ze wordt drie keer zo groot",
@@ -207,11 +207,11 @@ DEEL2 = [
             "ze wordt zevenentwintig keer zo groot",
         ],
         antwoord=0,
-        uitleg="Oppervlakte is lengte maal lengte, dus de factor werkt twee keer: 3 maal 3.",
+        uitleg="Oppervlakte is lengte maal lengte, dus de factor werkt twee keer: \\(3 \\cdot 3\\).",
     ),
     dict(
         type="meerkeuze",
-        vraag="Twee lichamen zijn gelijkvormig met factor 2. Wat gebeurt er met het volume?",
+        vraag="Twee lichamen zijn gelijkvormig met factor \\(2\\). Wat gebeurt er met het volume?",
         opties=[
             "het wordt acht keer zo groot",
             "het wordt twee keer zo groot",
@@ -219,21 +219,21 @@ DEEL2 = [
             "het wordt zestien keer zo groot",
         ],
         antwoord=0,
-        uitleg="Volume is lengte maal lengte maal lengte: 2 tot de derde is 8.",
+        uitleg="Volume is lengte maal lengte maal lengte: \\(2^{3}\\) is \\(8\\).",
     ),
     dict(
         type="meerkeuze",
-        vraag="Een maquette is op schaal 1 op 50. Een muur van 12 centimeter op de maquette is in het echt ...",
-        opties=["6 meter", "60 centimeter", "60 meter", "1,2 meter"],
+        vraag="Een maquette is op schaal \\(1 : 50\\). Een muur van \\(12\\) centimeter op de maquette is in het echt ...",
+        opties=["\\(6\\) meter", "\\(60\\) centimeter", "\\(60\\) meter", "\\(1{,}2\\) meter"],
         antwoord=0,
-        uitleg="12 maal 50 is 600 centimeter, dus 6 meter.",
+        uitleg="\\(12 \\cdot 50 = 600\\) centimeter, dus \\(6\\) meter.",
     ),
     dict(
         type="meerkeuze",
-        vraag="Op een kaart met schaal 1 op 25 000 meet een weg 8 centimeter. Hoe lang is die weg in het echt?",
-        opties=["2 kilometer", "200 meter", "20 kilometer", "25 kilometer"],
+        vraag="Op een kaart met schaal \\(1 : 25\\,000\\) meet een weg \\(8\\) centimeter. Hoe lang is die weg in het echt?",
+        opties=["\\(2\\) kilometer", "\\(200\\) meter", "\\(20\\) kilometer", "\\(25\\) kilometer"],
         antwoord=0,
-        uitleg="8 maal 25 000 is 200 000 centimeter, dus 2000 meter.",
+        uitleg="\\(8 \\cdot 25\\,000 = 200\\,000\\) centimeter, dus \\(2000\\) meter.",
     ),
     dict(
         type="meerkeuze",
@@ -245,7 +245,7 @@ DEEL2 = [
             "ze zijn alleen gelijkvormig als de derde hoek recht is",
         ],
         antwoord=0,
-        uitleg="Dat is het kenmerk HH. Omdat de hoeken samen 180 graden geven, ligt de derde vast.",
+        uitleg="Dat is het kenmerk HH. Omdat de hoeken samen \\(180^\\circ\\) geven, ligt de derde vast.",
     ),
     dict(
         type="meerkeuze",
@@ -268,10 +268,10 @@ DEEL2 = [
     ),
     dict(
         type="meerkeuze",
-        vraag="Een foto van 10 op 15 centimeter wordt vergroot tot 20 op 30 centimeter. Hoeveel keer groter is de oppervlakte?",
+        vraag="Een foto van \\(10\\) op \\(15\\) centimeter wordt vergroot tot \\(20\\) op \\(30\\) centimeter. Hoeveel keer groter is de oppervlakte?",
         opties=["vier keer", "twee keer", "zes keer", "acht keer"],
         antwoord=0,
-        uitleg="De lengtefactor is 2, dus de oppervlaktefactor is 2 maal 2.",
+        uitleg="De lengtefactor is \\(2\\), dus de oppervlaktefactor is \\(2 \\cdot 2\\).",
     ),
     dict(
         type="meerkeuze",
@@ -284,20 +284,20 @@ DEEL2 = [
         type="meerkeuze",
         vraag="Een reus zou drie keer zo groot zijn als een mens. Waarom zou dat mislopen?",
         opties=[
-            "zijn gewicht wordt 27 keer groter, maar zijn botdoorsnede maar 9 keer",
-            "zijn gewicht wordt 9 keer groter, maar zijn botdoorsnede 27 keer",
-            "zijn gewicht en zijn botten groeien allebei 3 keer, dus er is geen probleem",
-            "zijn gewicht wordt 3 keer groter en zijn botten 3 keer sterker",
+            "zijn gewicht wordt \\(27\\) keer groter, maar zijn botdoorsnede maar \\(9\\) keer",
+            "zijn gewicht wordt \\(9\\) keer groter, maar zijn botdoorsnede \\(27\\) keer",
+            "zijn gewicht en zijn botten groeien allebei \\(3\\) keer, dus er is geen probleem",
+            "zijn gewicht wordt \\(3\\) keer groter en zijn botten \\(3\\) keer sterker",
         ],
         antwoord=0,
         uitleg="Volume groeit met de derde macht, doorsnede met de tweede. Daarom hebben olifanten veel dikkere poten dan muizen.",
     ),
     dict(
         type="meerkeuze",
-        vraag="Een driehoek heeft zijden 3, 4 en 5. Een gelijkvormige driehoek heeft als kleinste zijde 9. Hoe lang is zijn langste zijde?",
-        opties=["15", "12", "20", "45"],
+        vraag="Een driehoek heeft zijden \\(3\\), \\(4\\) en \\(5\\). Een gelijkvormige driehoek heeft als kleinste zijde \\(9\\). Hoe lang is zijn langste zijde?",
+        opties=["\\(15\\)", "\\(12\\)", "\\(20\\)", "\\(45\\)"],
         antwoord=0,
-        uitleg="De factor is 3, dus 5 maal 3.",
+        uitleg="De factor is \\(3\\), dus \\(5 \\cdot 3\\).",
     ),
     dict(
         type="meerkeuze",
@@ -309,19 +309,19 @@ DEEL2 = [
             "omdat gelijkvormig hetzelfde betekent als gelijk",
         ],
         antwoord=0,
-        uitleg="Zijn ze bovendien even groot, dan is de factor 1 en heten ze gelijk of congruent.",
+        uitleg="Zijn ze bovendien even groot, dan is de factor \\(1\\) en heten ze gelijk of congruent.",
     ),
     dict(
         type="waarofniet",
-        vraag="Bij een gelijkvormigheidsfactor 4 wordt de oppervlakte zestien keer zo groot.",
+        vraag="Bij een gelijkvormigheidsfactor \\(4\\) wordt de oppervlakte zestien keer zo groot.",
         antwoord=True,
-        uitleg="4 maal 4 is 16.",
+        uitleg="\\(4 \\cdot 4 = 16\\).",
     ),
     dict(
         type="waarofniet",
         vraag="Als je alle zijden van een kubus verdubbelt, verdubbelt de inhoud.",
         antwoord=False,
-        uitleg="De inhoud wordt acht keer zo groot: 2 tot de derde macht.",
+        uitleg="De inhoud wordt acht keer zo groot: \\(2^{3}\\).",
     ),
     dict(
         type="waarofniet",
@@ -331,26 +331,26 @@ DEEL2 = [
     ),
     dict(
         type="waarofniet",
-        vraag="Een schaal van 1 op 100 betekent dat de tekening honderd keer groter is dan het voorwerp.",
+        vraag="Een schaal van \\(1 : 100\\) betekent dat de tekening honderd keer groter is dan het voorwerp.",
         antwoord=False,
         uitleg="Het omgekeerde: het voorwerp is honderd keer groter dan de tekening.",
     ),
     dict(
         type="invultekst",
-        vraag="Bij gelijkvormigheidsfactor 5, hoeveel keer zo groot wordt de oppervlakte?",
+        vraag="Bij gelijkvormigheidsfactor \\(5\\), hoeveel keer zo groot wordt de oppervlakte?",
         antwoord=["25", "25 keer"],
         uitleg="De factor werkt twee keer bij een oppervlakte.",
     ),
     dict(
         type="invultekst",
-        vraag="Bij gelijkvormigheidsfactor 3, hoeveel keer zo groot wordt het volume?",
+        vraag="Bij gelijkvormigheidsfactor \\(3\\), hoeveel keer zo groot wordt het volume?",
         antwoord=["27", "27 keer"],
-        uitleg="3 maal 3 maal 3.",
+        uitleg="\\(3 \\cdot 3 \\cdot 3\\).",
     ),
     dict(
         type="invultekst",
-        vraag="Op schaal 1 op 200 is een gevel 7 centimeter. Hoeveel meter is dat in het echt?",
+        vraag="Op schaal \\(1 : 200\\) is een gevel \\(7\\) centimeter. Hoeveel meter is dat in het echt?",
         antwoord=["14", "14 meter", "14 m"],
-        uitleg="7 maal 200 is 1400 centimeter.",
+        uitleg="\\(7 \\cdot 200 = 1400\\) centimeter.",
     ),
 ]

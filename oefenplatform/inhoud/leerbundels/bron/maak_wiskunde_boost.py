@@ -596,7 +596,7 @@ BUNDELS["rechten-vlakken-en-gelijkvormigheid-boost-doorstroom"] = dict(
             ("p", "Een <strong>ruimtefiguur</strong> heeft drie afmetingen: een kubus, een balk, een cilinder, "
                   "een kegel, een piramide, een bol. Een vierkant, een cirkel of een driehoek is een "
                   "<strong>vlakke</strong> figuur."),
-            ("p", "Een <strong>balk</strong> heeft 6 zijvlakken, 12 ribben en 8 hoekpunten. De "
+            ("p", "Een <strong>balk</strong> heeft \\(6\\) zijvlakken, \\(12\\) ribben en \\(8\\) hoekpunten. De "
                   "<strong>ontwikkeling</strong> van een ruimtefiguur is het platte patroon dat je krijgt door "
                   "hem open te vouwen; bij een kubus zijn dat zes vierkanten aan elkaar. Daarmee reken je de "
                   "totale oppervlakte uit, en daarmee knip je hem ook uit karton."),
@@ -613,17 +613,17 @@ BUNDELS["rechten-vlakken-en-gelijkvormigheid-boost-doorstroom"] = dict(
         dict(kop="Verzamelingen", blokken=[
             ("p", "Drie bewerkingen op verzamelingen, die je ook bij het tellen nodig hebt:"),
             ("p", tabel(["Bewerking", "Teken", "Wat erin zit"], [
-                ["doorsnede", "A ∩ B", "de elementen die in A én in B zitten"],
-                ["unie", "A ∪ B", "de elementen die in A of in B zitten, of in allebei"],
-                ["verschil", "A \\ B", "de elementen van A die niet in B zitten"],
+                ["doorsnede", r"\(A \cap B\)", r"de elementen die in \(A\) én in \(B\) zitten"],
+                ["unie", r"\(A \cup B\)", r"de elementen die in \(A\) of in \(B\) zitten, of in allebei"],
+                ["verschil", r"\(A \setminus B\)", r"de elementen van \(A\) die niet in \(B\) zitten"],
             ])),
-            ("p", "<strong>A is een deelverzameling van B</strong> betekent: elk element van A zit ook in B. "
+            ("p", "<strong>\\(A \\subset B\\)</strong>, lees: <em>\\(A\\) is een deelverzameling van \\(B\\)</em>, betekent dat elk element van \\(A\\) ook in \\(B\\) zit. "
                   "De unie is dus níét wat ze gemeen hebben, dat is de doorsnede; de unie is alles samen."),
         ]),
         dict(kop="Gelijkvormigheid", blokken=[
             ("p", "Twee figuren zijn <strong>gelijkvormig</strong> als ze dezelfde vorm hebben maar niet "
                   "noodzakelijk dezelfde grootte: alle hoeken zijn gelijk en alle zijden staan in dezelfde "
-                  "verhouding. Die verhouding heet de <strong>gelijkvormigheidsfactor</strong> k."),
+                  "verhouding. Die verhouding heet de <strong>gelijkvormigheidsfactor</strong> \\(k\\)."),
             ("p", "Drie <strong>kenmerken</strong> om gelijkvormigheid vast te stellen:"),
             ("p", tabel(["Kenmerk", "Wat je nagaat"], [
                 ["HH", "twee hoeken zijn gelijk; de derde is dat dan automatisch ook"],
@@ -634,8 +634,8 @@ BUNDELS["rechten-vlakken-en-gelijkvormigheid-boost-doorstroom"] = dict(
                   "en dan liggen alle verhoudingen vast. Maar gelijkvormig betekent niet gelijk: de hoeken "
                   "leggen de <em>vorm</em> vast, niet de <em>grootte</em>. Ken je alleen de drie hoeken, dan "
                   "liggen de zijden dus níét vast."),
-            ("p", "Een driehoek met zijden 3, 4 en 5 en een gelijkvormige driehoek met kleinste zijde 9: de "
-                  "factor is 3, dus de langste zijde is 15."),
+            ("p", "Een driehoek met zijden \\(3\\), \\(4\\) en \\(5\\) en een gelijkvormige driehoek met kleinste zijde \\(9\\): de "
+                  "factor is \\(3\\), dus de langste zijde is \\(15\\)."),
         ]),
         dict(kop="Wat schaal doet met lengte, oppervlakte en volume", blokken=[
             ("p", "Dit is de kern van het hoofdstuk, en het gaat bijna altijd fout:"),
@@ -644,24 +644,24 @@ BUNDELS["rechten-vlakken-en-gelijkvormigheid-boost-doorstroom"] = dict(
                 ["elke oppervlakte", "k²"],
                 ["elk volume", "k³"],
             ])),
-            ("p", "Bij factor 3 worden de lengtes 3 keer zo groot, de oppervlakte 9 keer, het volume 27 keer. "
-                  "Bij factor 4 wordt de oppervlakte 16 keer zo groot. Bij factor 5: 25 keer. Bij factor 2 "
-                  "wordt het volume 8 keer zo groot, dus wie alle ribben van een kubus verdubbelt, krijgt "
+            ("p", "Bij factor \\(3\\) worden de lengtes \\(3\\) keer zo groot, de oppervlakte \\(9\\) keer, het volume \\(27\\) keer. "
+                  "Bij factor \\(4\\) wordt de oppervlakte \\(16\\) keer zo groot. Bij factor \\(5\\): \\(25\\) keer. Bij factor \\(2\\) "
+                  "wordt het volume \\(8\\) keer zo groot, dus wie alle ribben van een kubus verdubbelt, krijgt "
                   "<strong>acht</strong> keer zoveel inhoud en niet het dubbele."),
-            ("p", "Een foto van 10 op 15 die 20 op 30 wordt, heeft factor 2 en dus <strong>vier</strong> keer "
+            ("p", "Een foto van \\(10\\) op \\(15\\) die \\(20\\) op \\(30\\) wordt, heeft factor \\(2\\) en dus <strong>vier</strong> keer "
                   "zoveel oppervlakte. Een bol met een dubbel zo grote straal heeft vier keer zoveel "
                   "buitenkant, dus vier keer zoveel verf."),
             ("weetje", "Daarom zou een reus van drie keer een mens niet kunnen bestaan: zijn gewicht (volume) "
-                       "wordt 27 keer zo groot, maar de doorsnede van zijn botten (oppervlakte) maar 9 keer. "
+                       "wordt \\(27\\) keer zo groot, maar de doorsnede van zijn botten (oppervlakte) maar \\(9\\) keer. "
                        "De botten zouden de last niet dragen. Dat heet het vierkant-kubuswet-probleem."),
         ]),
         dict(kop="Schaal", blokken=[
-            ("p", "Een <strong>schaal van 1 op 50</strong> betekent: wat op de tekening 1 is, is in het echt "
-                  "50. De tekening is dus <strong>kleiner</strong> dan het voorwerp, niet groter."),
+            ("p", "Een <strong>schaal van \\(1 : 50\\)</strong> betekent: wat op de tekening \\(1\\) is, is in het echt "
+                  "\\(50\\). De tekening is dus <strong>kleiner</strong> dan het voorwerp, niet groter."),
             ("p", tabel(["Schaal", "Op de tekening", "In het echt"], [
-                ["1 : 50 (een maquette)", "een muur van 12 cm", "600 cm, dus 6 m"],
-                ["1 : 200 (een bouwplan)", "een gevel van 7 cm", "1400 cm, dus 14 m"],
-                ["1 : 25 000", "8 cm", "200 000 cm, dus 2 km"],
+                ["\\(1 : 50\\) (een maquette)", "een muur van \\(12\\) cm", "\\(600\\) cm, dus \\(6\\) m"],
+                ["\\(1 : 200\\) (een bouwplan)", "een gevel van \\(7\\) cm", "\\(1400\\) cm, dus \\(14\\) m"],
+                ["\\(1 : 25\\,000\\)", "\\(8\\) cm", "\\(200\\,000\\) cm, dus \\(2\\) km"],
             ])),
             ("p", "Reken altijd eerst in dezelfde eenheid, en zet pas op het einde om naar meter of kilometer."),
         ]),
@@ -669,14 +669,14 @@ BUNDELS["rechten-vlakken-en-gelijkvormigheid-boost-doorstroom"] = dict(
     onthoud=[
         "Kruisende rechten bestaan alleen in de ruimte: geen snijpunt en niet in één vlak.",
         "Twee snijdende vlakken hebben een rechte als doorsnede, nooit één punt.",
-        "Een balk heeft 6 zijvlakken, 12 ribben en 8 hoekpunten.",
+        "Een balk heeft \\(6\\) zijvlakken, \\(12\\) ribben en \\(8\\) hoekpunten.",
         "De ontwikkeling is het platte patroon van een opengevouwen ruimtefiguur.",
         "Drie aanzichten: vooraanzicht, bovenaanzicht, zijaanzicht.",
         "Bij cavalièreperspectief blijven evenwijdige ribben evenwijdig.",
         "Doorsnede is wat ze gemeen hebben, unie is alles samen.",
         "Gelijkvormigheidskenmerken: HH, ZZZ en ZHZ.",
         "Factor k: lengte maal k, oppervlakte maal k², volume maal k³.",
-        "Schaal 1 op 100: de tekening is honderd keer kleiner dan het voorwerp.",
+        "Schaal \\(1\\) op \\(100\\): de tekening is honderd keer kleiner dan het voorwerp.",
     ],
 )
 

@@ -711,7 +711,7 @@ OEFENBUNDELS["oefenbundel-rechten-vlakken-en-gelijkvormigheid-boost-doorstroom"]
              oefeningen=[
                  ("tabel", ["figuur", "zijvlakken", "ribben", "hoekpunten"],
                   [["balk", None, None, None], ["kubus", None, None, None]],
-                  "allebei 6 zijvlakken, 12 ribben en 8 hoekpunten", "110px"),
+                  "allebei \\(6\\) zijvlakken, \\(12\\) ribben en \\(8\\) hoekpunten", "110px"),
              ]),
         dict(kop="Tekenen en aanzichten",
              opdracht="Beantwoord kort.",
@@ -724,49 +724,127 @@ OEFENBUNDELS["oefenbundel-rechten-vlakken-en-gelijkvormigheid-boost-doorstroom"]
                   "naar een verdwijnpunt.", 4),
              ]),
         dict(kop="Verzamelingen",
-             opdracht="A = {1, 2, 3, 4, 5} en B = {4, 5, 6}. Schrijf de verzameling op.",
+             opdracht=r"\(A = \{1, 2, 3, 4, 5\}\) en \(B = \{4, 5, 6\}\). Schrijf de verzameling op.",
              oefeningen=[
-                 ("rij", [("A ∩ B", "{4, 5}"), ("A ∪ B", "{1, 2, 3, 4, 5, 6}"),
-                          ("A \\ B", "{1, 2, 3}"), ("B \\ A", "{6}")],
+                 ("rij", [(r"\(A \cap B\)", r"\(\{4, 5\}\)"), (r"\(A \cup B\)", r"\(\{1, 2, 3, 4, 5, 6\}\)"),
+                          (r"\(A \setminus B\)", r"\(\{1, 2, 3\}\)"), (r"\(B \setminus A\)", r"\(\{6\}\)")],
+                  "Verzameling", WW),
+             ]),
+        dict(kop="Nog vier verzamelingen",
+             opdracht=r"\(C = \{2, 4, 6, 8\}\) en \(D = \{1, 2, 3, 4\}\). Schrijf de verzameling op.",
+             oefeningen=[
+                 ("rij", [(r"\(C \cap D\)", r"\(\{2, 4\}\)"),
+                          (r"\(C \cup D\)", r"\(\{1, 2, 3, 4, 6, 8\}\)"),
+                          (r"\(C \setminus D\)", r"\(\{6, 8\}\)"),
+                          (r"\(D \setminus C\)", r"\(\{1, 3\}\)")],
                   "Verzameling", WW),
              ]),
         dict(kop="Gelijkvormigheidskenmerken",
              opdracht="Schrijf welk kenmerk je gebruikt: HH, ZZZ of ZHZ.",
              oefeningen=[
-                 ("rij", [("twee driehoeken met hoeken 40° en 70° gemeen", "HH"),
-                          ("zijden 3-4-5 en 9-12-15", "ZZZ"),
-                          ("zijden 4 en 6 met de hoek van 50° ertussen, en 8 en 12 met 50° ertussen", "ZHZ")],
+                 ("rij", [("twee driehoeken met hoeken \\(40^\\circ\\) en \\(70^\\circ\\) gemeen", "HH"),
+                          ("zijden \\(3\\)-\\(4\\)-\\(5\\) en \\(9\\)-\\(12\\)-\\(15\\)", "ZZZ"),
+                          ("zijden \\(4\\) en \\(6\\) met de hoek van \\(50^\\circ\\) ertussen, en \\(8\\) en \\(12\\) met \\(50^\\circ\\) ertussen", "ZHZ")],
                   "Kenmerk", W),
              ]),
         dict(kop="Factor k",
              opdracht="Vul in wat er met lengte, oppervlakte en volume gebeurt.",
              oefeningen=[
                  ("tabel", ["factor k", "lengte maal", "oppervlakte maal", "volume maal"],
-                  [["2", None, None, None], ["3", None, None, None],
-                   ["4", None, None, None], ["5", None, None, None]],
-                  "2 → 2, 4, 8 · 3 → 3, 9, 27 · 4 → 4, 16, 64 · 5 → 5, 25, 125", "100px"),
+                  [["\\(2\\)", None, None, None], ["\\(3\\)", None, None, None],
+                   ["\\(4\\)", None, None, None], ["\\(5\\)", None, None, None]],
+                  "\\(2\\) → \\(2\\), \\(4\\), \\(8 \\cdot 3\\) → \\(3\\), \\(9\\), \\(27 \\cdot 4\\) → \\(4\\), \\(16\\), \\(64 \\cdot 5\\) → \\(5\\), \\(25\\), \\(125\\)", "100px"),
              ]),
         dict(kop="Rekenen met schaal",
              opdracht="Reken om. Zet het antwoord in de gevraagde eenheid.",
              oefeningen=[
-                 ("rij", [("schaal 1 : 50, op de maquette 9 cm, in het echt in meter", "4,5 m"),
-                          ("schaal 1 : 200, op het plan 6 cm, in het echt in meter", "12 m"),
-                          ("schaal 1 : 25 000, op de kaart 12 cm, in het echt in km", "3 km")],
+                 ("rij", [("schaal \\(1 : 50\\), op de maquette \\(9\\) cm, in het echt in meter", "\\(4{,}5\\) m"),
+                          ("schaal \\(1 : 200\\), op het plan \\(6\\) cm, in het echt in meter", "\\(12\\) m"),
+                          ("schaal \\(1 : 25\\,000\\), op de kaart \\(12\\) cm, in het echt in km", "\\(3\\) km")],
                   "In het echt", WW),
              ]),
         dict(kop="Toepassen",
              opdracht="Schrijf je redenering uit.",
              oefeningen=[
-                 ("open", "Een affiche van 20 op 30 cm wordt vergroot tot 60 op 90 cm. Hoeveel keer "
+                 ("open", "Een affiche van \\(20\\) op \\(30\\) cm wordt vergroot tot \\(60\\) op \\(90\\) cm. Hoeveel keer "
                           "meer papier heb je nodig?",
-                  "De factor is 3, dus de oppervlakte wordt 9 keer zo groot.", 4),
-                 ("open", "Een modelauto op schaal 1 : 20 weegt 60 gram. De echte auto is van "
+                  "De factor is \\(3\\), dus de oppervlakte wordt \\(9\\) keer zo groot.", 4),
+                 ("open", "Een modelauto op schaal \\(1 : 20\\) weegt \\(60\\) gram. De echte auto is van "
                           "hetzelfde materiaal. Hoeveel weegt die ongeveer?",
-                  "Het gewicht volgt het volume, dus maal 20³ = 8000. Dat is 480 000 gram, dus "
-                  "ongeveer 480 kg.", 5),
-                 ("open", "Een driehoek heeft zijden 6, 8 en 10. Een gelijkvormige driehoek heeft als "
-                          "kleinste zijde 15. Hoe lang zijn de twee andere zijden?",
-                  "De factor is 2,5, dus 20 en 25.", 4),
+                  "Het gewicht volgt het volume, dus maal \\(20^{3} = 8000\\). Dat is \\(480\\,000\\) gram, dus "
+                  "ongeveer \\(480\\) kg.", 5),
+                 ("open", "Een driehoek heeft zijden \\(6\\), \\(8\\) en \\(10\\). Een gelijkvormige driehoek heeft als "
+                          "kleinste zijde \\(15\\). Hoe lang zijn de twee andere zijden?",
+                  "De factor is \\(2{,}5\\), dus \\(20\\) en \\(25\\).", 4),
+             ]),
+        dict(kop="Nog vier liggingen",
+             opdracht="Zelfde werkwijze.",
+             oefeningen=[
+                 ("rij", [("twee vlakken zonder enig gemeenschappelijk punt", "evenwijdig"),
+                          ("een rechte waarvan elk punt in het vlak ligt", "de rechte ligt in het vlak"),
+                          ("twee rechten met precies één gemeenschappelijk punt", "snijdend"),
+                          ("twee rechten met alle punten gemeen", "samenvallend")],
+                  "Ligging", WL),
+             ]),
+        dict(kop="Ruimtefiguren herkennen",
+             opdracht="Schrijf vlak of ruimte.",
+             oefeningen=[
+                 ("rij", [("een cirkel", "vlak"), ("een bol", "ruimte"),
+                          ("een piramide", "ruimte"), ("een vierkant", "vlak")],
+                  "Vlak of ruimte?", W),
+             ]),
+        dict(kop="De gelijkvormigheidsfactor berekenen",
+             opdracht=r"Bereken \(k\), de factor van de eerste naar de tweede figuur.",
+             oefeningen=[
+                 ("rij", [(r"zijden \(4\) en \(10\)", r"\(k = 2{,}5\)"),
+                          (r"zijden \(12\) en \(3\)", r"\(k = 0{,}25\)"),
+                          (r"zijden \(7\) en \(7\)", r"\(k = 1\), de figuren zijn gelijk")],
+                  "Factor", WW),
+             ]),
+        dict(kop="Terugrekenen met schaal",
+             opdracht="Reken van de werkelijkheid naar de tekening.",
+             oefeningen=[
+                 ("rij", [(r"schaal \(1 : 100\), in het echt \(8\) m, op het plan in cm", r"\(8\) cm"),
+                          (r"schaal \(1 : 50\), in het echt \(3\) m, op de maquette in cm", r"\(6\) cm"),
+                          (r"schaal \(1 : 10\,000\), in het echt \(5\) km, op de kaart in cm",
+                           r"\(50\) cm")],
+                  "Op de tekening", WW),
+             ]),
+        dict(kop="Fouten zoeken",
+             opdracht="Zoek de fout en schrijf op hoe het wel moet.",
+             oefeningen=[
+                 ("open", r"Iemand zegt dat een schaal \(1 : 200\) betekent dat de tekening "
+                          r"\(200\) keer groter is dan het gebouw.",
+                  r"Het is net omgekeerd: wat op de tekening \(1\) is, is in het echt \(200\). Het "
+                  r"gebouw is dus \(200\) keer groter dan de tekening.", 4),
+                 ("open", r"Iemand verdubbelt de ribben van een kubus en zegt dat de inhoud "
+                          r"verdubbelt.",
+                  r"De inhoud wordt \(2^{3} = 8\) keer zo groot. Lengte werkt één keer, oppervlakte "
+                  r"twee keer en volume drie keer.", 4),
+             ]),
+        dict(kop="Uitleggen",
+             opdracht="Antwoord in volle zinnen.",
+             oefeningen=[
+                 ("open", "Waarom kunnen twee vlakken elkaar nooit in precies één punt snijden?",
+                  "Zodra twee vlakken één punt gemeen hebben, hebben ze meteen een hele rechte gemeen. "
+                  "Denk aan twee muren van een kamer: ze ontmoeten elkaar in een lijn.", 5),
+                 ("open", "Waarom zou een reus van drie keer een mens niet kunnen bestaan?",
+                  r"Zijn gewicht volgt het volume en wordt \(3^{3} = 27\) keer zo groot, maar de "
+                  r"doorsnede van zijn botten volgt de oppervlakte en wordt maar \(3^{2} = 9\) keer zo "
+                  r"groot. De botten zouden het gewicht niet dragen.", 6),
+             ]),
+        dict(kop="Doordenkers",
+             opdracht="Neem je tijd.",
+             oefeningen=[
+                 ("open", r"Een bol krijgt een twee keer zo grote straal. Hoeveel keer meer verf heb je "
+                          r"nodig om hem te schilderen, en hoeveel keer meer water past erin?",
+                  r"Verf volgt de oppervlakte: \(2^{2} = 4\) keer zoveel. Water volgt het volume: "
+                  r"\(2^{3} = 8\) keer zoveel.", 5),
+                 ("open", r"Twee driehoeken hebben dezelfde drie hoeken. Zijn ze gelijkvormig? Zijn ze "
+                          r"gelijk? Leg allebei de antwoorden uit.",
+                  r"Gelijkvormig: ja, dat is het kenmerk HH, en twee gelijke hoeken volstaan al. Gelijk: "
+                  r"niet noodzakelijk, want de hoeken leggen de vorm vast en niet de grootte. Dat is pas "
+                  r"zo als de factor \(k = 1\) is.", 6),
              ]),
         dict(kop="Waar of niet waar?",
              opdracht="Duid aan of de uitspraak klopt.",
@@ -774,7 +852,7 @@ OEFENBUNDELS["oefenbundel-rechten-vlakken-en-gelijkvormigheid-boost-doorstroom"]
                  ("waar", "Twee vlakken kunnen elkaar in één punt snijden.", False),
                  ("waar", "Twee driehoeken met dezelfde drie hoeken zijn altijd gelijkvormig.", True),
                  ("waar", "Gelijkvormige figuren zijn altijd even groot.", False),
-                 ("waar", "Bij een schaal 1 : 100 is de tekening honderd keer kleiner.", True),
+                 ("waar", "Bij een schaal \\(1 : 100\\) is de tekening honderd keer kleiner.", True),
              ]),
     ],
 )

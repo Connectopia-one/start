@@ -29,7 +29,7 @@
     },
     {
      "soort": "tekst",
-     "html": "Een <strong>balk</strong> heeft 6 zijvlakken, 12 ribben en 8 hoekpunten. De <strong>ontwikkeling</strong> van een ruimtefiguur is het platte patroon dat je krijgt door hem open te vouwen; bij een kubus zijn dat zes vierkanten aan elkaar. Daarmee reken je de totale oppervlakte uit, en daarmee knip je hem ook uit karton."
+     "html": "Een <strong>balk</strong> heeft \\(6\\) zijvlakken, \\(12\\) ribben en \\(8\\) hoekpunten. De <strong>ontwikkeling</strong> van een ruimtefiguur is het platte patroon dat je krijgt door hem open te vouwen; bij een kubus zijn dat zes vierkanten aan elkaar. Daarmee reken je de totale oppervlakte uit, en daarmee knip je hem ook uit karton."
     },
     {
      "soort": "tekst",
@@ -54,11 +54,11 @@
     },
     {
      "soort": "tekst",
-     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Bewerking</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Teken</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Wat erin zit</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">doorsnede</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">A ∩ B</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">de elementen die in A én in B zitten</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">unie</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">A ∪ B</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">de elementen die in A of in B zitten, of in allebei</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">verschil</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">A \\ B</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">de elementen van A die niet in B zitten</td></tr></table>"
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Bewerking</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Teken</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Wat erin zit</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">doorsnede</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">\\(A \\cap B\\)</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">de elementen die in \\(A\\) én in \\(B\\) zitten</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">unie</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">\\(A \\cup B\\)</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">de elementen die in \\(A\\) of in \\(B\\) zitten, of in allebei</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">verschil</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">\\(A \\setminus B\\)</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">de elementen van \\(A\\) die niet in \\(B\\) zitten</td></tr></table>"
     },
     {
      "soort": "tekst",
-     "html": "<strong>A is een deelverzameling van B</strong> betekent: elk element van A zit ook in B. De unie is dus níét wat ze gemeen hebben, dat is de doorsnede; de unie is alles samen."
+     "html": "<strong>\\(A \\subset B\\)</strong>, lees: <em>\\(A\\) is een deelverzameling van \\(B\\)</em>, betekent dat elk element van \\(A\\) ook in \\(B\\) zit. De unie is dus níét wat ze gemeen hebben, dat is de doorsnede; de unie is alles samen."
     }
    ]
   },
@@ -67,7 +67,7 @@
    "blokken": [
     {
      "soort": "tekst",
-     "html": "Twee figuren zijn <strong>gelijkvormig</strong> als ze dezelfde vorm hebben maar niet noodzakelijk dezelfde grootte: alle hoeken zijn gelijk en alle zijden staan in dezelfde verhouding. Die verhouding heet de <strong>gelijkvormigheidsfactor</strong> k."
+     "html": "Twee figuren zijn <strong>gelijkvormig</strong> als ze dezelfde vorm hebben maar niet noodzakelijk dezelfde grootte: alle hoeken zijn gelijk en alle zijden staan in dezelfde verhouding. Die verhouding heet de <strong>gelijkvormigheidsfactor</strong> \\(k\\)."
     },
     {
      "soort": "tekst",
@@ -83,7 +83,7 @@
     },
     {
      "soort": "tekst",
-     "html": "Een driehoek met zijden 3, 4 en 5 en een gelijkvormige driehoek met kleinste zijde 9: de factor is 3, dus de langste zijde is 15."
+     "html": "Een driehoek met zijden \\(3\\), \\(4\\) en \\(5\\) en een gelijkvormige driehoek met kleinste zijde \\(9\\): de factor is \\(3\\), dus de langste zijde is \\(15\\)."
     }
    ]
   },
@@ -100,15 +100,15 @@
     },
     {
      "soort": "tekst",
-     "html": "Bij factor 3 worden de lengtes 3 keer zo groot, de oppervlakte 9 keer, het volume 27 keer. Bij factor 4 wordt de oppervlakte 16 keer zo groot. Bij factor 5: 25 keer. Bij factor 2 wordt het volume 8 keer zo groot, dus wie alle ribben van een kubus verdubbelt, krijgt <strong>acht</strong> keer zoveel inhoud en niet het dubbele."
+     "html": "Bij factor \\(3\\) worden de lengtes \\(3\\) keer zo groot, de oppervlakte \\(9\\) keer, het volume \\(27\\) keer. Bij factor \\(4\\) wordt de oppervlakte \\(16\\) keer zo groot. Bij factor \\(5\\): \\(25\\) keer. Bij factor \\(2\\) wordt het volume \\(8\\) keer zo groot, dus wie alle ribben van een kubus verdubbelt, krijgt <strong>acht</strong> keer zoveel inhoud en niet het dubbele."
     },
     {
      "soort": "tekst",
-     "html": "Een foto van 10 op 15 die 20 op 30 wordt, heeft factor 2 en dus <strong>vier</strong> keer zoveel oppervlakte. Een bol met een dubbel zo grote straal heeft vier keer zoveel buitenkant, dus vier keer zoveel verf."
+     "html": "Een foto van \\(10\\) op \\(15\\) die \\(20\\) op \\(30\\) wordt, heeft factor \\(2\\) en dus <strong>vier</strong> keer zoveel oppervlakte. Een bol met een dubbel zo grote straal heeft vier keer zoveel buitenkant, dus vier keer zoveel verf."
     },
     {
      "soort": "weetje",
-     "html": "Daarom zou een reus van drie keer een mens niet kunnen bestaan: zijn gewicht (volume) wordt 27 keer zo groot, maar de doorsnede van zijn botten (oppervlakte) maar 9 keer. De botten zouden de last niet dragen. Dat heet het vierkant-kubuswet-probleem."
+     "html": "Daarom zou een reus van drie keer een mens niet kunnen bestaan: zijn gewicht (volume) wordt \\(27\\) keer zo groot, maar de doorsnede van zijn botten (oppervlakte) maar \\(9\\) keer. De botten zouden de last niet dragen. Dat heet het vierkant-kubuswet-probleem."
     }
    ]
   },
@@ -117,11 +117,11 @@
    "blokken": [
     {
      "soort": "tekst",
-     "html": "Een <strong>schaal van 1 op 50</strong> betekent: wat op de tekening 1 is, is in het echt 50. De tekening is dus <strong>kleiner</strong> dan het voorwerp, niet groter."
+     "html": "Een <strong>schaal van \\(1 : 50\\)</strong> betekent: wat op de tekening \\(1\\) is, is in het echt \\(50\\). De tekening is dus <strong>kleiner</strong> dan het voorwerp, niet groter."
     },
     {
      "soort": "tekst",
-     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Schaal</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Op de tekening</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">In het echt</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">1 : 50 (een maquette)</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een muur van 12 cm</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">600 cm, dus 6 m</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">1 : 200 (een bouwplan)</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een gevel van 7 cm</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">1400 cm, dus 14 m</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">1 : 25 000</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">8 cm</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">200 000 cm, dus 2 km</td></tr></table>"
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Schaal</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Op de tekening</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">In het echt</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">\\(1 : 50\\) (een maquette)</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een muur van \\(12\\) cm</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">\\(600\\) cm, dus \\(6\\) m</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">\\(1 : 200\\) (een bouwplan)</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een gevel van \\(7\\) cm</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">\\(1400\\) cm, dus \\(14\\) m</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">\\(1 : 25\\,000\\)</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">\\(8\\) cm</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">\\(200\\,000\\) cm, dus \\(2\\) km</td></tr></table>"
     },
     {
      "soort": "tekst",
@@ -133,13 +133,13 @@
  "onthoud": [
   "Kruisende rechten bestaan alleen in de ruimte: geen snijpunt en niet in één vlak.",
   "Twee snijdende vlakken hebben een rechte als doorsnede, nooit één punt.",
-  "Een balk heeft 6 zijvlakken, 12 ribben en 8 hoekpunten.",
+  "Een balk heeft \\(6\\) zijvlakken, \\(12\\) ribben en \\(8\\) hoekpunten.",
   "De ontwikkeling is het platte patroon van een opengevouwen ruimtefiguur.",
   "Drie aanzichten: vooraanzicht, bovenaanzicht, zijaanzicht.",
   "Bij cavalièreperspectief blijven evenwijdige ribben evenwijdig.",
   "Doorsnede is wat ze gemeen hebben, unie is alles samen.",
   "Gelijkvormigheidskenmerken: HH, ZZZ en ZHZ.",
   "Factor k: lengte maal k, oppervlakte maal k², volume maal k³.",
-  "Schaal 1 op 100: de tekening is honderd keer kleiner dan het voorwerp."
+  "Schaal \\(1\\) op \\(100\\): de tekening is honderd keer kleiner dan het voorwerp."
  ]
 }
