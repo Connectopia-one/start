@@ -912,7 +912,7 @@
       "vragen": [
         {
           "type": "meerkeuze",
-          "vraag": "Wanneer verricht een elektrische kracht arbeid?",
+          "vraag": "Wanneer verricht een elektrische kracht arbeid \\(W\\)?",
           "opties": [
             "als de lading verplaatst wordt in de zin van de kracht",
             "als de lading stil blijft liggen in het elektrisch veld",
@@ -920,29 +920,29 @@
             "als het veld van zin verandert zonder dat er iets beweegt"
           ],
           "antwoord": 0,
-          "uitleg": "Arbeid is kracht maal verplaatsing in de zin van die kracht. Beweegt de lading loodrecht op de kracht, dan is de arbeid nul."
+          "uitleg": "\\(W=F\\cdot d\\), met \\(d\\) de verplaatsing in de zin van de kracht. Beweegt de lading loodrecht op de kracht, dan is \\(W=0\\)."
         },
         {
           "type": "meerkeuze",
-          "vraag": "Een lading van 2 C wordt over 0,5 m verplaatst door een kracht van 6 N in dezelfde zin. Hoeveel arbeid is er verricht?",
+          "vraag": "Een lading van \\(2\\ \\text{C}\\) wordt over \\(0{,}50\\ \\text{m}\\) verplaatst door een kracht van \\(6{,}0\\ \\text{N}\\) in dezelfde zin. Hoeveel arbeid is er verricht?",
           "opties": [
-            "3 J",
-            "12 J",
-            "1,5 J",
-            "24 J"
+            "\\(3{,}0\\ \\text{J}\\)",
+            "\\(12\\ \\text{J}\\)",
+            "\\(1{,}5\\ \\text{J}\\)",
+            "\\(24\\ \\text{J}\\)"
           ],
           "antwoord": 0,
-          "uitleg": "Arbeid is kracht maal afstand: 6 maal 0,5 is 3 joule. De grootte van de lading speelt hier geen rol meer, want die zit al in de kracht."
+          "uitleg": "\\(W=F\\cdot d=6{,}0\\cdot 0{,}50=3{,}0\\ \\text{J}\\). De grootte van de lading speelt hier geen rol meer, want die zit al in \\(F\\)."
         },
         {
           "type": "invultekst",
-          "vraag": "In welke eenheid druk je arbeid en energie uit?",
+          "vraag": "In welke eenheid druk je arbeid \\(W\\) en energie uit?",
           "antwoord": [
             "joule",
             "J",
             "de joule"
           ],
-          "uitleg": "Het symbool is J. Eén joule is één newton maal één meter."
+          "uitleg": "Het symbool is \\(\\text{J}\\): \\(1\\ \\text{J}=1\\ \\text{N}\\cdot\\text{m}=1\\ \\text{C}\\cdot\\text{V}\\)."
         },
         {
           "type": "meerkeuze",
@@ -954,13 +954,13 @@
             "beide soorten energie blijven precies even groot"
           ],
           "antwoord": 0,
-          "uitleg": "Het veld duwt de lading vooruit, dus wint ze snelheid. De som van de twee soorten energie blijft wel gelijk, want er is geen wrijving in het spel."
+          "uitleg": "Het veld duwt de lading vooruit, dus wint ze snelheid. \\(E_{p}+E_{k}\\) blijft wel gelijk, want er is geen wrijving in het spel."
         },
         {
           "type": "waarofniet",
           "vraag": "Om een positieve lading naar de positieve plaat te duwen, moet je zelf arbeid leveren.",
           "antwoord": true,
-          "uitleg": "Je gaat dan tegen de elektrische kracht in. Die arbeid komt als elektrische potentiële energie in de lading terecht, zoals een bal die je omhoog tilt."
+          "uitleg": "Je gaat dan tegen de elektrische kracht in. Die arbeid komt als \\(E_{p}\\) in de lading terecht, zoals een bal die je omhoog tilt."
         },
         {
           "type": "meerkeuze",
@@ -987,7 +987,7 @@
             0,
             1
           ],
-          "uitleg": "Massa en snelheid horen bij de kinetische energie. Potentiële energie is lading maal potentiaal, dus lading maal iets van de plaats."
+          "uitleg": "Massa en snelheid horen bij \\(E_{k}\\). Er geldt \\(E_{p}=q\\cdot V\\): de lading zelf maal iets wat enkel van de plaats afhangt."
         },
         {
           "type": "meerkeuze",
@@ -1003,33 +1003,33 @@
         },
         {
           "type": "meerkeuze",
-          "vraag": "Hoe bereken je de snelheid waarmee een lading uit rust bij de andere plaat aankomt?",
+          "vraag": "Hoe bereken je de snelheid \\(v\\) waarmee een lading uit rust bij de andere plaat aankomt?",
           "opties": [
-            "je stelt de gewonnen kinetische energie gelijk aan de verloren potentiële",
-            "je deelt de spanning tussen de platen door de afstand ertussen",
-            "je vermenigvuldigt de veldsterkte met de massa van het deeltje",
-            "je deelt de lading van het deeltje door zijn eigen massa"
+            "met \\(q\\,U=\\tfrac{1}{2}m\\,v^{2}\\)",
+            "met \\(v=\\dfrac{U}{d}\\)",
+            "met \\(v=E\\cdot m\\)",
+            "met \\(v=\\dfrac{q}{m}\\)"
           ],
           "antwoord": 0,
-          "uitleg": "Q maal U is gelijk aan een half m maal v kwadraat. Daaruit haal je v, en dat werkt omdat er onderweg geen energie verloren gaat."
+          "uitleg": "Alle gewonnen energie \\(q\\,U\\) zit in de beweging, dus \\(v=\\sqrt{\\dfrac{2q\\,U}{m}}\\). Dat werkt omdat er onderweg niets verloren gaat."
         },
         {
           "type": "waarofniet",
-          "vraag": "De arbeid van de elektrische kracht hangt af van de weg die de lading aflegt.",
+          "vraag": "De arbeid \\(W\\) van de elektrische kracht hangt af van de weg die de lading aflegt.",
           "antwoord": false,
           "uitleg": "Alleen begin- en eindpunt tellen, net als bij de zwaartekracht. Daarom kan je met potentiële energie rekenen zonder de baan te kennen."
         },
         {
           "type": "meerkeuze",
-          "vraag": "Een lading van 4 mC verliest 0,8 J potentiële energie tussen twee punten. Welke spanning staat er tussen die punten?",
+          "vraag": "Een lading van \\(4{,}0\\ \\text{mC}\\) verliest \\(0{,}80\\ \\text{J}\\) potentiële energie tussen twee punten. Welke spanning \\(U\\) staat er tussen die punten?",
           "opties": [
-            "200 V",
-            "3,2 V",
-            "0,005 V",
-            "20 V"
+            "\\(200\\ \\text{V}\\)",
+            "\\(3{,}2\\ \\text{V}\\)",
+            "\\(0{,}005\\ \\text{V}\\)",
+            "\\(20\\ \\text{V}\\)"
           ],
           "antwoord": 0,
-          "uitleg": "Spanning is energie per eenheid van lading: 0,8 gedeeld door 0,004 is 200 volt. Let op de omzetting van millicoulomb naar coulomb."
+          "uitleg": "\\(U=\\dfrac{W}{q}=\\dfrac{0{,}80}{4{,}0\\cdot 10^{-3}}=200\\ \\text{V}\\). Let op de omzetting van millicoulomb naar coulomb."
         },
         {
           "type": "invultekst",
@@ -1039,23 +1039,23 @@
             "kinetische",
             "bewegingsenergie"
           ],
-          "uitleg": "Ze is een half maal de massa maal het kwadraat van de snelheid. Potentiële energie hangt daarentegen af van de plaats."
+          "uitleg": "\\(E_{k}=\\tfrac{1}{2}m\\,v^{2}\\). \\(E_{p}\\) hangt daarentegen af van de plaats en niet van de snelheid."
         },
         {
           "type": "meerkeuze",
-          "vraag": "Twee platen staan 2 cm uit elkaar met een veldsterkte van 5000 N/C ertussen. Welke spanning staat erover?",
+          "vraag": "Twee platen staan \\(2{,}0\\ \\text{cm}\\) uit elkaar met \\(E=5000\\ \\text{N/C}\\) ertussen. Welke spanning staat erover?",
           "opties": [
-            "100 V",
-            "250 V",
-            "10 V",
-            "2500 V"
+            "\\(100\\ \\text{V}\\)",
+            "\\(250\\ \\text{V}\\)",
+            "\\(10\\ \\text{V}\\)",
+            "\\(2500\\ \\text{V}\\)"
           ],
           "antwoord": 0,
-          "uitleg": "In een homogeen veld is de spanning de veldsterkte maal de afstand: 5000 maal 0,02 is 100 volt."
+          "uitleg": "In een homogeen veld geldt \\(U=E\\cdot d=5000\\cdot 0{,}020=100\\ \\text{V}\\)."
         },
         {
           "type": "waarofniet",
-          "vraag": "Bij de beweging van een lading in een elektrisch veld blijft de som van de kinetische en de potentiële energie behouden.",
+          "vraag": "Bij de beweging van een lading in een elektrisch veld blijft \\(E_{k}+E_{p}\\) behouden.",
           "antwoord": true,
           "uitleg": "Zolang er geen wrijving of botsingen zijn, gaat de ene energievorm volledig in de andere over. Dat is de wet van behoud van energie."
         },
@@ -1073,18 +1073,18 @@
         },
         {
           "type": "meerkeuze",
-          "vraag": "Welke grootheden heb je nodig om de maximale snelheid van een lading tussen twee platen te berekenen? Kruis alles aan wat juist is.",
+          "vraag": "Welke grootheden heb je nodig om \\(v\\) van een lading tussen twee platen te berekenen? Kruis alles aan wat juist is.",
           "opties": [
-            "de spanning tussen de twee platen",
-            "de massa van het geladen deeltje",
-            "de afstand tussen de twee platen",
-            "de tijd die het deeltje onderweg is"
+            "de spanning \\(U\\) tussen de platen",
+            "de massa \\(m\\) van het deeltje",
+            "de afstand \\(d\\) tussen de platen",
+            "de tijd \\(t\\) die het onderweg is"
           ],
           "antwoord": [
             0,
             1
           ],
-          "uitleg": "Uit Q maal U is gelijk aan een half m maal v kwadraat volgt v. De afstand en de tijd heb je daarvoor niet nodig."
+          "uitleg": "Uit \\(q\\,U=\\tfrac{1}{2}m\\,v^{2}\\) volgt \\(v\\). De lading \\(q\\) heb je ook nodig, maar \\(d\\) en \\(t\\) niet."
         },
         {
           "type": "meerkeuze",
@@ -1096,7 +1096,7 @@
             "het elektron verliest onderweg geen enkele energie"
           ],
           "antwoord": 0,
-          "uitleg": "Beide krijgen dezelfde energie, want hun lading is even groot. Een kleinere massa betekent bij dezelfde energie een veel hogere snelheid."
+          "uitleg": "Beide krijgen dezelfde \\(q\\,U\\), want \\(|q|\\) is even groot. Uit \\(v=\\sqrt{\\dfrac{2q\\,U}{m}}\\) volgt dat een kleinere \\(m\\) een hogere \\(v\\) geeft: een elektron is ruim \\(1800\\) keer lichter dan een proton."
         },
         {
           "type": "waarofniet",
@@ -1106,25 +1106,25 @@
         },
         {
           "type": "meerkeuze",
-          "vraag": "Wat is het verband tussen de arbeid van de elektrische kracht en de kinetische energie?",
+          "vraag": "Wat is het verband tussen de arbeid \\(W\\) van de elektrische kracht en \\(E_{k}\\)?",
           "opties": [
-            "de verrichte arbeid is gelijk aan de winst aan kinetische energie",
-            "de verrichte arbeid is gelijk aan de massa maal de snelheid",
-            "de verrichte arbeid is altijd het dubbele van die energie",
-            "de verrichte arbeid heeft met die energie niets te maken"
+            "\\(W=\\Delta E_{k}\\)",
+            "\\(W=m\\cdot v\\)",
+            "\\(W=2\\,E_{k}\\)",
+            "\\(W\\) en \\(E_{k}\\) hebben niets met elkaar te maken"
           ],
           "antwoord": 0,
-          "uitleg": "Dat is de arbeid-energiestelling. Wat de potentiële energie verliest, komt als beweging terug."
+          "uitleg": "Dat is de arbeid-energiestelling. Wat \\(E_{p}\\) verliest, komt als beweging terug: \\(-\\Delta E_{p}=\\Delta E_{k}\\)."
         },
         {
           "type": "invultekst",
-          "vraag": "Hoeveel joule is één elektronvolt ongeveer?",
+          "vraag": "Hoeveel joule is \\(1\\ \\text{eV}\\) ongeveer?",
           "antwoord": [
             "1,6·10⁻¹⁹ J",
             "1,6e-19",
             "1,6·10⁻¹⁹"
           ],
-          "uitleg": "Het is de energie die één elementaire lading wint bij één volt spanning. Daarom is het een handige eenheid voor deeltjes."
+          "uitleg": "\\(1\\ \\text{eV}=e\\cdot 1\\ \\text{V}=1{,}602\\cdot 10^{-19}\\ \\text{J}\\): de energie die één elementaire lading wint bij één volt. \\(e\\) staat in de bijlage die je op het examen krijgt."
         }
       ]
     },
@@ -1135,49 +1135,49 @@
       "vragen": [
         {
           "type": "meerkeuze",
-          "vraag": "Wat is de elektrische potentiaal in een punt?",
+          "vraag": "Wat is de elektrische potentiaal \\(V\\) in een punt?",
           "opties": [
-            "de potentiële energie per eenheid van lading in dat punt",
-            "de kracht per eenheid van lading in dat punt",
-            "de energie die een lading er per seconde verliest",
-            "de lading die in dat punt aanwezig is"
+            "\\(V=\\dfrac{E_{p}}{q}\\)",
+            "\\(V=\\dfrac{F}{q}\\)",
+            "\\(V=\\dfrac{E_{p}}{t}\\)",
+            "\\(V=q\\)"
           ],
           "antwoord": 0,
-          "uitleg": "Je deelt de potentiële energie door de lading, net zoals je bij de veldsterkte de kracht door de lading deelt. Zo krijg je een eigenschap van het punt zelf."
+          "uitleg": "Je deelt \\(E_{p}\\) door \\(q\\), net zoals je bij de veldsterkte \\(F\\) door \\(q\\) deelt. Zo krijg je een eigenschap van het punt zelf, en niet van de lading die je erin zet."
         },
         {
           "type": "invultekst",
-          "vraag": "In welke eenheid druk je de elektrische potentiaal uit?",
+          "vraag": "In welke eenheid druk je de elektrische potentiaal \\(V\\) uit?",
           "antwoord": [
             "volt",
             "V",
             "de volt"
           ],
-          "uitleg": "Eén volt is één joule per coulomb. Het potentiaalverschil tussen twee punten heet de spanning, en staat in dezelfde eenheid."
+          "uitleg": "\\(1\\ \\text{V}=1\\ \\text{J/C}\\). Het potentiaalverschil tussen twee punten heet de spanning, en staat in dezelfde eenheid."
         },
         {
           "type": "meerkeuze",
-          "vraag": "Wat is de elektrische spanning tussen twee punten?",
+          "vraag": "Wat is de spanning \\(U_{AB}\\) tussen twee punten \\(A\\) en \\(B\\)?",
           "opties": [
-            "het verschil tussen de potentialen van die twee punten",
-            "de som van de potentialen van die twee punten",
-            "de potentiaal van het punt met de grootste lading",
-            "de kracht die tussen die twee punten werkt"
+            "\\(U_{AB}=V_{A}-V_{B}\\)",
+            "\\(U_{AB}=V_{A}+V_{B}\\)",
+            "\\(U_{AB}=V_{A}\\cdot V_{B}\\)",
+            "\\(U_{AB}=F_{A}-F_{B}\\)"
           ],
           "antwoord": 0,
-          "uitleg": "Daarom heet ze ook het potentiaalverschil. Een spanning is dus altijd tussen twee punten, nooit in één punt alleen."
+          "uitleg": "Daarom heet \\(U\\) ook het potentiaalverschil. Een spanning hoort dus altijd bij twee punten, nooit bij één punt alleen."
         },
         {
           "type": "meerkeuze",
-          "vraag": "Punt A ligt op 120 V en punt B op 45 V. Welke spanning staat er tussen A en B?",
+          "vraag": "\\(V_{A}=120\\ \\text{V}\\) en \\(V_{B}=45\\ \\text{V}\\). Hoe groot is \\(U_{AB}\\)?",
           "opties": [
-            "75 V",
-            "165 V",
-            "45 V",
-            "120 V"
+            "\\(75\\ \\text{V}\\)",
+            "\\(165\\ \\text{V}\\)",
+            "\\(45\\ \\text{V}\\)",
+            "\\(120\\ \\text{V}\\)"
           ],
           "antwoord": 0,
-          "uitleg": "Je neemt het verschil: 120 min 45 is 75 volt. Het teken zegt enkel welke kant van de twee de hoogste potentiaal heeft."
+          "uitleg": "\\(U_{AB}=V_{A}-V_{B}=120-45=75\\ \\text{V}\\). Het teken zegt enkel welk punt de hoogste potentiaal heeft."
         },
         {
           "type": "invultekst",
@@ -1221,30 +1221,30 @@
         },
         {
           "type": "meerkeuze",
-          "vraag": "Een lading van 5 mC zit in een punt met een potentiaal van 40 V. Hoeveel potentiële energie heeft ze daar?",
+          "vraag": "Een lading van \\(5{,}0\\ \\text{mC}\\) zit in een punt met \\(V=40\\ \\text{V}\\). Hoe groot is \\(E_{p}\\) daar?",
           "opties": [
-            "0,2 J",
-            "8 J",
-            "200 J",
-            "0,000125 J"
+            "\\(0{,}20\\ \\text{J}\\)",
+            "\\(8{,}0\\ \\text{J}\\)",
+            "\\(200\\ \\text{J}\\)",
+            "\\(1{,}25\\cdot 10^{-4}\\ \\text{J}\\)"
           ],
           "antwoord": 0,
-          "uitleg": "De energie is de lading maal de potentiaal: 0,005 maal 40 is 0,2 joule."
+          "uitleg": "\\(E_{p}=q\\cdot V=5{,}0\\cdot 10^{-3}\\cdot 40=0{,}20\\ \\text{J}\\)."
         },
         {
           "type": "meerkeuze",
-          "vraag": "Welke uitspraken over potentiaal zijn juist? Kruis alles aan wat juist is.",
+          "vraag": "Welke uitspraken over \\(V\\) zijn juist? Kruis alles aan wat juist is.",
           "opties": [
-            "ze is een eigenschap van het punt, niet van de lading",
-            "ze wordt in volt uitgedrukt",
-            "ze wordt in newton per coulomb uitgedrukt",
-            "ze wordt groter naarmate de proeflading groter is"
+            "ze hoort bij het punt, niet bij de lading",
+            "ze staat in \\(\\text{V}\\)",
+            "ze staat in \\(\\text{N/C}\\)",
+            "ze groeit mee met de proeflading \\(q\\)"
           ],
           "antwoord": [
             0,
             1
           ],
-          "uitleg": "Newton per coulomb is de eenheid van veldsterkte. Zet je een dubbel zo grote lading in hetzelfde punt, dan verdubbelt haar energie maar niet de potentiaal."
+          "uitleg": "\\(\\text{N/C}\\) is de eenheid van \\(E\\). Zet je een dubbel zo grote lading in hetzelfde punt, dan verdubbelt \\(E_{p}=q\\,V\\) maar niet \\(V\\) zelf."
         },
         {
           "type": "meerkeuze",
@@ -1266,27 +1266,27 @@
         },
         {
           "type": "meerkeuze",
-          "vraag": "Hoe reken je joule om naar elektronvolt?",
+          "vraag": "Een elektron wint \\(3{,}2\\cdot 10^{-17}\\ \\text{J}\\). Hoeveel elektronvolt is dat?",
           "opties": [
-            "je deelt door 1,6·10⁻¹⁹",
-            "je vermenigvuldigt met 1,6·10⁻¹⁹",
-            "je deelt door 6,02·10²³",
-            "je vermenigvuldigt met 9·10⁹"
+            "\\(200\\ \\text{eV}\\)",
+            "\\(2{,}0\\ \\text{eV}\\)",
+            "\\(5{,}1\\cdot 10^{-36}\\ \\text{eV}\\)",
+            "\\(3{,}2\\cdot 10^{-17}\\ \\text{eV}\\)"
           ],
           "antwoord": 0,
-          "uitleg": "Eén elektronvolt is 1,6·10⁻¹⁹ joule, dus zitten er heel veel elektronvolt in één joule. De omgekeerde omzetting doe je door te vermenigvuldigen."
+          "uitleg": "Delen door \\(1{,}602\\cdot 10^{-19}\\): \\(\\dfrac{3{,}2\\cdot 10^{-17}}{1{,}602\\cdot 10^{-19}}\\approx 200\\ \\text{eV}\\). Omgekeerd vermenigvuldig je."
         },
         {
           "type": "meerkeuze",
-          "vraag": "Een elektron doorloopt een spanning van 500 V. Hoeveel energie wint het?",
+          "vraag": "Een elektron doorloopt een spanning van \\(500\\ \\text{V}\\). Hoeveel energie wint het?",
           "opties": [
-            "500 eV",
-            "500 J",
-            "0,5 eV",
-            "1,6·10⁻¹⁹ eV"
+            "\\(500\\ \\text{eV}\\)",
+            "\\(500\\ \\text{J}\\)",
+            "\\(0{,}50\\ \\text{eV}\\)",
+            "\\(1{,}6\\cdot 10^{-19}\\ \\text{eV}\\)"
           ],
           "antwoord": 0,
-          "uitleg": "Eén elementaire lading door één volt geeft precies één elektronvolt. Daarom is die eenheid in de deeltjesfysica zo handig."
+          "uitleg": "\\(W=q\\,U\\), en één elementaire lading door één volt is per afspraak \\(1\\ \\text{eV}\\). In joule is dat \\(500\\cdot 1{,}602\\cdot 10^{-19}=8{,}0\\cdot 10^{-17}\\ \\text{J}\\)."
         },
         {
           "type": "invultekst",
@@ -1296,40 +1296,40 @@
             "de spanning",
             "potentiaalverschil"
           ],
-          "uitleg": "Het symbool is U en de eenheid de volt. Een spanningsbron houdt dat verschil in stand."
+          "uitleg": "Het symbool is \\(U\\) en de eenheid \\(\\text{V}\\). Een spanningsbron houdt dat verschil in stand."
         },
         {
           "type": "waarofniet",
-          "vraag": "Tussen twee punten op hetzelfde equipotentiaaloppervlak staat een spanning van nul.",
+          "vraag": "Tussen twee punten op hetzelfde equipotentiaaloppervlak geldt \\(U=0\\).",
           "antwoord": true,
           "uitleg": "Hun potentialen zijn gelijk, dus is het verschil nul. Daarom loopt er tussen zulke punten ook geen stroom."
         },
         {
           "type": "meerkeuze",
-          "vraag": "Waarom zit er in de formule voor potentiaal van een puntlading r en niet r kwadraat?",
+          "vraag": "Waarom staat er in \\(V=k\\dfrac{q}{r}\\) een \\(r\\) en geen \\(r^{2}\\)?",
           "opties": [
             "potentiaal gaat over energie, en die telt de afstand maar één keer",
-            "potentiaal is altijd veel kleiner dan de veldsterkte in dat punt",
-            "potentiaal heeft geen zin, dus mag het kwadraat wegvallen",
-            "potentiaal wordt per seconde gemeten en veldsterkte niet"
+            "\\(V\\) is altijd veel kleiner dan \\(E\\) in dat punt",
+            "\\(V\\) heeft geen zin, dus mag het kwadraat wegvallen",
+            "\\(V\\) wordt per seconde gemeten en \\(E\\) niet"
           ],
           "antwoord": 0,
-          "uitleg": "De kracht gaat met r² en de arbeid is kracht maal afstand, dus valt er één r weg. Veldsterkte heeft r² in de noemer, potentiaal gewoon r."
+          "uitleg": "\\(F\\) gaat met \\(r^{2}\\) en arbeid is kracht maal afstand, dus valt er één \\(r\\) weg. Vandaar \\(E=k\\dfrac{|q|}{r^{2}}\\) naast \\(V=k\\dfrac{q}{r}\\). Let op: \\(V\\) draagt wel het teken van \\(q\\)."
         },
         {
           "type": "meerkeuze",
           "vraag": "Welke uitspraken gelden voor een homogeen veld? Kruis alles aan wat juist is.",
           "opties": [
-            "de spanning is de veldsterkte maal de afstand",
+            "\\(U=E\\cdot d\\)",
             "de equipotentiaallijnen zijn evenwijdige rechten",
-            "de potentiaal is overal tussen de platen even groot",
-            "de veldsterkte neemt af naarmate je verder van de plaat zit"
+            "\\(V\\) is overal tussen de platen even groot",
+            "\\(E\\) neemt af naarmate je verder van de plaat zit"
           ],
           "antwoord": [
             0,
             1
           ],
-          "uitleg": "De veldsterkte is overal gelijk, maar de potentiaal niet: die daalt gelijkmatig van de ene plaat naar de andere."
+          "uitleg": "\\(E\\) is overal gelijk, maar \\(V\\) niet: die daalt gelijkmatig van de ene plaat naar de andere. Uit \\(U=E\\cdot d\\) volgt ook \\(E=\\dfrac{U}{d}\\), in \\(\\text{V/m}\\)."
         },
         {
           "type": "meerkeuze",
@@ -1345,7 +1345,7 @@
         },
         {
           "type": "waarofniet",
-          "vraag": "Een spanning van nul volt betekent dat er geen lading aanwezig is.",
+          "vraag": "\\(U=0\\) betekent dat er geen lading aanwezig is.",
           "antwoord": false,
           "uitleg": "Het betekent alleen dat de twee punten dezelfde potentiaal hebben. Er kan op beide plaatsen evenveel lading zitten."
         }

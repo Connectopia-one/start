@@ -8,15 +8,31 @@
    "blokken": [
     {
      "soort": "tekst",
-     "html": "Een elektrische kracht verricht arbeid <strong>als de lading verplaatst wordt in de zin van de kracht</strong>. Je rekent die arbeid net zoals bij elke andere kracht: kracht maal verplaatsing. Wordt een lading van <strong>2 C</strong> over <strong>0,5 m</strong> verplaatst door een kracht van <strong>6 N</strong> in dezelfde zin, dan is de arbeid <strong>3 J</strong>. Arbeid en energie worden uitgedrukt in <strong>joule</strong>."
+     "html": "Een elektrische kracht verricht arbeid <strong>als de lading verplaatst wordt in de zin van de kracht</strong>. Je rekent die arbeid zoals bij elke andere kracht:"
     },
     {
      "soort": "tekst",
-     "html": "De arbeid van de elektrische kracht <strong>hangt niet af van de weg die de lading aflegt</strong>, alleen van het begin- en het eindpunt. De elektrische kracht is dus conservatief, net als de zwaartekracht. Daarom <strong>verandert een lading die loodrecht op de veldlijnen verplaatst wordt niet van potentiële energie</strong>."
+     "html": "\\[W = F\\cdot d\\]"
     },
     {
      "soort": "tekst",
-     "html": "Het verband met de beweging: <strong>de verrichte arbeid is gelijk aan de winst aan kinetische energie</strong>. <strong>Kinetische energie</strong> is de energie die een deeltje heeft <strong>door zijn beweging</strong>."
+     "html": "met \\(d\\) de verplaatsing in de zin van \\(F\\), \\(W\\) in joule \\(\\text{J}\\). Wordt een lading van \\(2\\ \\text{C}\\) over \\(0{,}50\\ \\text{m}\\) verplaatst door een kracht van \\(6{,}0\\ \\text{N}\\) in dezelfde zin, dan is \\(W = 6{,}0\\cdot 0{,}50 = 3{,}0\\ \\text{J}\\). Staat de verplaatsing loodrecht op de kracht, dan is \\(W = 0\\)."
+    },
+    {
+     "soort": "tekst",
+     "html": "Ken je de spanning in plaats van de kracht, dan reken je rechtstreeks met de lading:"
+    },
+    {
+     "soort": "tekst",
+     "html": "\\[W = q\\cdot U\\]"
+    },
+    {
+     "soort": "tekst",
+     "html": "De arbeid van de elektrische kracht <strong>hangt niet af van de weg die de lading aflegt</strong>, alleen van begin- en eindpunt. De elektrische kracht is dus conservatief, net als de zwaartekracht. Daarom verandert \\(E_{p}\\) niet als je een lading loodrecht op de veldlijnen verplaatst."
+    },
+    {
+     "soort": "tekst",
+     "html": "Het verband met de beweging is de arbeid-energiestelling: \\(W = \\Delta E_{k}\\), met \\(E_{k} = \\tfrac{1}{2}m\\,v^{2}\\) de <strong>kinetische energie</strong> of bewegingsenergie: de energie die een deeltje door zijn beweging heeft. Daarin is \\(m\\) de massa en \\(v\\) de snelheid."
     }
    ]
   },
@@ -25,19 +41,39 @@
    "blokken": [
     {
      "soort": "tekst",
-     "html": "De elektrische potentiële energie van een lading kan je het best vergelijken <strong>met de hoogte-energie van een bal boven de grond</strong>. Ze <strong>hangt af van de grootte van de lading zelf</strong> én <strong>van de plaats in het elektrisch veld</strong>."
+     "html": "De elektrische potentiële energie van een lading in een punt is"
     },
     {
      "soort": "tekst",
-     "html": "Beweegt een <strong>positieve lading vanzelf van de positieve naar de negatieve plaat</strong>, dan <strong>daalt haar potentiële energie en stijgt haar kinetische</strong>. Om een <strong>positieve lading naar de positieve plaat te duwen, moet je zelf arbeid leveren</strong>. En de potentiële energie van een <strong>negatieve lading die naar de negatieve plaat beweegt, stijgt</strong>, <strong>want de lading gaat tegen de kracht in</strong>."
+     "html": "\\[E_{p} = q\\cdot V\\]"
     },
     {
      "soort": "tekst",
-     "html": "Bij de beweging van een lading in een elektrisch veld <strong>blijft de som van de kinetische en de potentiële energie behouden</strong>. Daarop berust de aanpak: <strong>je stelt de gewonnen kinetische energie gelijk aan de verloren potentiële</strong> om <strong>de snelheid te berekenen waarmee een lading uit rust bij de andere plaat aankomt</strong>. Daarvoor heb je <strong>de spanning tussen de twee platen</strong> en <strong>de massa van het geladen deeltje</strong> nodig."
+     "html": "Ze hangt dus af van <strong>twee</strong> dingen: van de lading \\(q\\) zelf én van de plaats, via de potentiaal \\(V\\). Je kan ze het best vergelijken met de hoogte-energie van een bal boven de grond: laat je los, dan wordt ze beweging."
     },
     {
      "soort": "tekst",
-     "html": "Vertrekt een <strong>elektron uit rust bij de negatieve plaat</strong> naar de positieve, dan <strong>wordt het versneld en komt het met maximale snelheid aan</strong>. Een <strong>elektron gaat bij dezelfde spanning veel sneller dan een proton</strong>, want <strong>het elektron heeft een veel kleinere massa</strong>: bijna tweeduizend keer kleiner."
+     "html": "Beweegt een positieve lading vanzelf van de positieve naar de negatieve plaat, dan daalt \\(E_{p}\\) en stijgt \\(E_{k}\\). Om een positieve lading naar de positieve plaat te duwen moet je zelf arbeid leveren. En \\(E_{p}\\) van een negatieve lading die naar de negatieve plaat beweegt <strong>stijgt</strong>, want die gaat tegen de kracht in."
+    },
+    {
+     "soort": "tekst",
+     "html": "Zonder wrijving blijft \\(E_{k} + E_{p}\\) behouden. Een elektron dat uit rust bij de negatieve plaat vertrekt, wordt dus versneld en komt met zijn maximale snelheid bij de andere plaat aan: alles wat \\(E_{p}\\) verliest, wordt beweging. Zo bereken je die snelheid:"
+    },
+    {
+     "soort": "tekst",
+     "html": "\\[q\\,U = \\tfrac{1}{2}m\\,v^{2} \\qquad\\Longrightarrow\\qquad v = \\sqrt{\\dfrac{2q\\,U}{m}}\\]"
+    },
+    {
+     "soort": "tekst",
+     "html": "Je hebt daarvoor de lading \\(q\\), de spanning \\(U\\) en de massa \\(m\\) nodig, maar niet de afstand tussen de platen en niet de tijd. Een elektron dat uit rust \\(500\\ \\text{V}\\) doorloopt, met \\(m = 9{,}11\\cdot 10^{-31}\\ \\text{kg}\\):"
+    },
+    {
+     "soort": "tekst",
+     "html": "\\[v = \\sqrt{\\dfrac{2\\cdot 1{,}602\\cdot 10^{-19}\\cdot 500}{9{,}11\\cdot 10^{-31}}} \\approx 1{,}3\\cdot 10^{7}\\ \\text{m/s}\\]"
+    },
+    {
+     "soort": "tekst",
+     "html": "Een proton krijgt bij dezelfde spanning dezelfde energie, want \\(|q|\\) is even groot. Het is wel ruim \\(1800\\) keer zwaarder, en door die veel grotere massa gaat het ruim \\(42\\) keer trager. Omgekeerd gaat een elektron door zijn veel kleinere massa bij dezelfde spanning dus veel sneller."
     }
    ]
   },
@@ -46,19 +82,47 @@
    "blokken": [
     {
      "soort": "tekst",
-     "html": "De <strong>elektrische potentiaal in een punt</strong> is <strong>de potentiële energie per eenheid van lading in dat punt</strong>. Ze staat in <strong>volt</strong>. Ze is <strong>een eigenschap van het punt, niet van de lading</strong>: de <strong>potentiaal van een punt hangt dus niet af van de lading die je erin zet</strong>."
+     "html": "De elektrische potentiaal in een punt is de potentiële energie per eenheid van lading:"
     },
     {
      "soort": "tekst",
-     "html": "De <strong>elektrische spanning tussen twee punten</strong> is <strong>het verschil tussen de potentialen van die twee punten</strong>. Met één woord heet dat verschil gewoon <strong>spanning</strong>. Ligt punt A op <strong>120 V</strong> en punt B op <strong>45 V</strong>, dan staat er tussen A en B <strong>75 V</strong>. Een <strong>spanning van nul volt betekent niet dat er geen lading aanwezig is</strong>, alleen dat de twee punten op dezelfde potentiaal liggen."
+     "html": "\\[V = \\dfrac{E_{p}}{q} \\qquad\\text{in}\\qquad \\text{V} = \\text{J/C}\\]"
     },
     {
      "soort": "tekst",
-     "html": "Twee rekenvoorbeelden. Verliest een lading van <strong>4 mC</strong> <strong>0,8 J</strong> potentiële energie tussen twee punten, dan staat er <strong>200 V</strong> tussen die punten. Zit een lading van <strong>5 mC</strong> in een punt met een potentiaal van <strong>40 V</strong>, dan heeft ze daar <strong>0,2 J</strong> potentiële energie."
+     "html": "Ze hoort bij het punt en niet bij de lading die je erin zet: zet je er een dubbel zo grote lading in, dan verdubbelt \\(E_{p}\\) maar niet \\(V\\). Rond één puntlading geldt"
     },
     {
      "soort": "tekst",
-     "html": "Een <strong>positieve lading beweegt vanzelf van een hoge naar een lage potentiaal</strong>, zoals water van hoog naar laag stroomt. Wat een <strong>spanningsbron in een kring in stand houdt</strong>, is precies <strong>een potentiaalverschil tussen haar twee polen</strong>."
+     "html": "\\[V = k\\,\\dfrac{q}{r}\\]"
+    },
+    {
+     "soort": "tekst",
+     "html": "met een \\(r\\) en geen \\(r^{2}\\): potentiaal gaat over energie, en energie is kracht maal afstand, dus valt er één \\(r\\) weg. Let ook op het teken: \\(V\\) draagt het teken van \\(q\\), terwijl \\(E\\) met \\(|q|\\) rekent."
+    },
+    {
+     "soort": "tekst",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\"></th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">veldsterkte</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">potentiaal</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">formule</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">\\(E = k\\dfrac{|q|}{r^{2}}\\)</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">\\(V = k\\dfrac{q}{r}\\)</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">eenheid</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">\\(\\text{N/C} = \\text{V/m}\\)</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">\\(\\text{V} = \\text{J/C}\\)</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">hoort bij</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">de kracht: \\(F = E\\,q\\)</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">de energie: \\(E_{p} = V\\,q\\)</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">soort</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">vector</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">getal met teken</td></tr></table>"
+    },
+    {
+     "soort": "tekst",
+     "html": "De spanning tussen twee punten is het verschil van hun potentialen:"
+    },
+    {
+     "soort": "tekst",
+     "html": "\\[U_{AB} = V_{A} - V_{B}\\]"
+    },
+    {
+     "soort": "tekst",
+     "html": "Een spanning hoort dus altijd bij twee punten, nooit bij één punt alleen. Is \\(V_{A} = 120\\ \\text{V}\\) en \\(V_{B} = 45\\ \\text{V}\\), dan is \\(U_{AB} = 75\\ \\text{V}\\). En \\(U = 0\\) betekent niet dat er geen lading is, enkel dat de twee punten even hoog liggen."
+    },
+    {
+     "soort": "tekst",
+     "html": "Twee rekenvoorbeelden. Verliest een lading van \\(4{,}0\\ \\text{mC}\\) onderweg \\(0{,}80\\ \\text{J}\\), dan is \\(U = \\dfrac{W}{q} = \\dfrac{0{,}80}{4{,}0\\cdot 10^{-3}} = 200\\ \\text{V}\\). Zit een lading van \\(5{,}0\\ \\text{mC}\\) in een punt met \\(V = 40\\ \\text{V}\\), dan is \\(E_{p} = 5{,}0\\cdot 10^{-3}\\cdot 40 = 0{,}20\\ \\text{J}\\)."
+    },
+    {
+     "soort": "tekst",
+     "html": "Een positieve lading beweegt vanzelf van hoge naar lage potentiaal, zoals water van hoog naar laag. Een negatieve lading doet net het omgekeerde. Wat een spanningsbron in een kring in stand houdt, is precies dat potentiaalverschil tussen haar polen."
     }
    ]
   },
@@ -67,19 +131,28 @@
    "blokken": [
     {
      "soort": "tekst",
-     "html": "Een lijn waarop de potentiaal overal dezelfde is, heet een <strong>equipotentiaallijn</strong>. Ze staat altijd <strong>loodrecht op de veldlijnen</strong>. Rond één puntlading zien die lijnen eruit <strong>als cirkels rond de lading heen</strong>."
+     "html": "Een lijn waarop \\(V\\) overal dezelfde is, heet een <strong>equipotentiaallijn</strong> (in de ruimte: een equipotentiaaloppervlak). Ze staat altijd <strong>loodrecht op de veldlijnen</strong>."
+    },
+    {
+     "soort": "figuur",
+     "html": "<svg viewBox=\"0 0 470 196\" width=\"470\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"6\" y=\"4\" width=\"222\" height=\"168\" rx=\"8\" fill=\"#ffffff\" stroke=\"#e4ded0\" stroke-width=\"1.2\"/><text x=\"117.0\" y=\"188.0\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"10\" font-weight=\"600\" fill=\"#6b7260\">rond een puntlading: cirkels</text><rect x=\"240\" y=\"4\" width=\"222\" height=\"168\" rx=\"8\" fill=\"#ffffff\" stroke=\"#e4ded0\" stroke-width=\"1.2\"/><text x=\"351.0\" y=\"188.0\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"10\" font-weight=\"600\" fill=\"#6b7260\">tussen twee platen: rechten</text><circle cx=\"117.0\" cy=\"86\" r=\"30\" fill=\"none\" stroke=\"#c17f2b\" stroke-width=\"1.2\" stroke-dasharray=\"4 3\"/><circle cx=\"117.0\" cy=\"86\" r=\"48\" fill=\"none\" stroke=\"#c17f2b\" stroke-width=\"1.2\" stroke-dasharray=\"4 3\"/><circle cx=\"117.0\" cy=\"86\" r=\"66\" fill=\"none\" stroke=\"#c17f2b\" stroke-width=\"1.2\" stroke-dasharray=\"4 3\"/><line x1=\"131.0\" y1=\"86.0\" x2=\"191.0\" y2=\"86.0\" stroke=\"#2f5d50\" stroke-width=\"1.3\"/><polygon points=\"178.0,86.0 169.0,89.1 169.0,82.9\" fill=\"#2f5d50\"/><line x1=\"126.9\" y1=\"95.9\" x2=\"169.3\" y2=\"138.3\" stroke=\"#2f5d50\" stroke-width=\"1.3\"/><polygon points=\"160.1,129.1 151.6,125.0 156.0,120.6\" fill=\"#2f5d50\"/><line x1=\"117.0\" y1=\"100.0\" x2=\"117.0\" y2=\"160.0\" stroke=\"#2f5d50\" stroke-width=\"1.3\"/><polygon points=\"117.0,147.0 113.9,138.0 120.1,138.0\" fill=\"#2f5d50\"/><line x1=\"107.1\" y1=\"95.9\" x2=\"64.7\" y2=\"138.3\" stroke=\"#2f5d50\" stroke-width=\"1.3\"/><polygon points=\"73.9,129.1 78.0,120.6 82.4,125.0\" fill=\"#2f5d50\"/><line x1=\"103.0\" y1=\"86.0\" x2=\"43.0\" y2=\"86.0\" stroke=\"#2f5d50\" stroke-width=\"1.3\"/><polygon points=\"56.0,86.0 65.0,82.9 65.0,89.1\" fill=\"#2f5d50\"/><line x1=\"107.1\" y1=\"76.1\" x2=\"64.7\" y2=\"33.7\" stroke=\"#2f5d50\" stroke-width=\"1.3\"/><polygon points=\"73.9,42.9 82.4,47.0 78.0,51.4\" fill=\"#2f5d50\"/><line x1=\"117.0\" y1=\"72.0\" x2=\"117.0\" y2=\"12.0\" stroke=\"#2f5d50\" stroke-width=\"1.3\"/><polygon points=\"117.0,25.0 120.1,34.0 113.9,34.0\" fill=\"#2f5d50\"/><line x1=\"126.9\" y1=\"76.1\" x2=\"169.3\" y2=\"33.7\" stroke=\"#2f5d50\" stroke-width=\"1.3\"/><polygon points=\"160.1,42.9 156.0,51.4 151.6,47.0\" fill=\"#2f5d50\"/><circle cx=\"117.0\" cy=\"86.0\" r=\"12\" fill=\"#b4452c\"/><line x1=\"113.6\" y1=\"86.0\" x2=\"120.4\" y2=\"86.0\" stroke=\"#ffffff\" stroke-width=\"1.8\" stroke-linecap=\"round\"/><line x1=\"117.0\" y1=\"82.6\" x2=\"117.0\" y2=\"89.4\" stroke=\"#ffffff\" stroke-width=\"1.8\" stroke-linecap=\"round\"/><rect x=\"269\" y=\"28\" width=\"9\" height=\"116\" fill=\"#b4452c\" opacity=\"0.8\"/><rect x=\"424\" y=\"28\" width=\"9\" height=\"116\" fill=\"#2f6d9e\" opacity=\"0.8\"/><line x1=\"314.5\" y1=\"34\" x2=\"314.5\" y2=\"138\" stroke=\"#c17f2b\" stroke-width=\"1.2\" stroke-dasharray=\"4 3\"/><line x1=\"351.0\" y1=\"34\" x2=\"351.0\" y2=\"138\" stroke=\"#c17f2b\" stroke-width=\"1.2\" stroke-dasharray=\"4 3\"/><line x1=\"387.5\" y1=\"34\" x2=\"387.5\" y2=\"138\" stroke=\"#c17f2b\" stroke-width=\"1.2\" stroke-dasharray=\"4 3\"/><line x1=\"280\" y1=\"52\" x2=\"422\" y2=\"52\" stroke=\"#2f5d50\" stroke-width=\"1.3\"/><polygon points=\"373.5,52.0 364.5,55.1 364.5,48.9\" fill=\"#2f5d50\"/><line x1=\"280\" y1=\"86\" x2=\"422\" y2=\"86\" stroke=\"#2f5d50\" stroke-width=\"1.3\"/><polygon points=\"373.5,86.0 364.5,89.1 364.5,82.9\" fill=\"#2f5d50\"/><line x1=\"280\" y1=\"120\" x2=\"422\" y2=\"120\" stroke=\"#2f5d50\" stroke-width=\"1.3\"/><polygon points=\"373.5,120.0 364.5,123.1 364.5,116.9\" fill=\"#2f5d50\"/><text x=\"273.0\" y=\"22.0\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"12\" fill=\"#b4452c\">+</text><text x=\"429.0\" y=\"22.0\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"13\" fill=\"#2f6d9e\">–</text></svg>",
+     "onderschrift": "De stippellijnen zijn de equipotentiaallijnen, de volle lijnen met een pijl de veldlijnen."
     },
     {
      "soort": "tekst",
-     "html": "Een <strong>lading die je langs een equipotentiaallijn verplaatst, kost geen arbeid</strong>, want de potentiaal verandert niet. Zo staat er ook <strong>tussen twee punten op hetzelfde equipotentiaaloppervlak een spanning van nul</strong>."
+     "html": "Een lading langs zo'n lijn verplaatsen kost geen arbeid: \\(V\\) verandert niet, dus \\(E_{p}\\) ook niet. Tussen twee punten op hetzelfde equipotentiaaloppervlak staat dan ook \\(U = 0\\)."
     },
     {
      "soort": "tekst",
-     "html": "In een <strong>homogeen veld</strong> geldt: <strong>de spanning is de veldsterkte maal de afstand</strong> en de <strong>equipotentiaallijnen zijn evenwijdige rechten</strong>. Staan twee platen <strong>2 cm uit elkaar met een veldsterkte van 5000 N/C</strong> ertussen, dan staat er <strong>100 V</strong> over."
+     "html": "In een homogeen veld zijn de equipotentiaallijnen evenwijdige rechten en geldt"
     },
     {
      "soort": "tekst",
-     "html": "Waarom staat er in de formule voor de potentiaal van een puntlading <strong>r en niet r kwadraat</strong>? Omdat <strong>potentiaal over energie gaat, en die telt de afstand maar één keer</strong>, terwijl een kracht ze twee keer meetelt."
+     "html": "\\[U = E\\cdot d \\qquad\\Longleftrightarrow\\qquad E = \\dfrac{U}{d}\\]"
+    },
+    {
+     "soort": "tekst",
+     "html": "Staan twee platen \\(2{,}0\\ \\text{cm}\\) uit elkaar met \\(E = 5000\\ \\text{N/C}\\) ertussen, dan is \\(U = 5000\\cdot 0{,}020 = 100\\ \\text{V}\\). Daaruit zie je meteen waarom \\(\\text{N/C}\\) en \\(\\text{V/m}\\) dezelfde eenheid zijn."
     }
    ]
   },
@@ -88,23 +161,29 @@
    "blokken": [
     {
      "soort": "tekst",
-     "html": "Voor deeltjes is de joule een onhandig grote eenheid. Daarom gebruikt men de <strong>elektronvolt</strong>: dat is <strong>ongeveer 1,6·10⁻¹⁹ J</strong>, de energie die één elektron wint als het een spanning van één volt doorloopt."
+     "html": "Voor deeltjes is de joule een onhandig grote eenheid. Daarom rekent men in <strong>elektronvolt</strong>: de energie die één elementaire lading wint bij één volt."
     },
     {
      "soort": "tekst",
-     "html": "Daarom wint een <strong>elektron dat een spanning van 500 V doorloopt</strong> precies <strong>500 eV</strong>. Omgekeerd reken je <strong>joule om naar elektronvolt door te delen door 1,6·10⁻¹⁹</strong>."
+     "html": "\\[1\\ \\text{eV} = e\\cdot 1\\ \\text{V} = 1{,}602\\cdot 10^{-19}\\ \\text{J}\\]"
+    },
+    {
+     "soort": "tekst",
+     "html": "Een elektron dat \\(500\\ \\text{V}\\) doorloopt wint dus precies \\(500\\ \\text{eV}\\), of \\(8{,}0\\cdot 10^{-17}\\ \\text{J}\\). Van joule naar elektronvolt deel je door \\(1{,}602\\cdot 10^{-19}\\); omgekeerd vermenigvuldig je."
     }
    ]
   }
  ],
  "onthoud": [
-  "Arbeid van de elektrische kracht hangt niet van de weg af.",
-  "Potentiële plus kinetische energie blijft behouden.",
-  "Potentiaal is energie per eenheid van lading, in volt.",
-  "Spanning is het verschil tussen twee potentialen.",
+  "\\(W = F\\cdot d = q\\cdot U\\), en \\(W = \\Delta E_{k}\\).",
+  "\\(W\\) hangt niet van de weg af, enkel van begin- en eindpunt.",
+  "\\(E_{p} = q\\cdot V\\), en \\(E_{k} + E_{p}\\) blijft behouden.",
+  "\\(q\\,U = \\tfrac{1}{2}m\\,v^{2}\\), dus \\(v = \\sqrt{\\dfrac{2q\\,U}{m}}\\).",
+  "\\(V = \\dfrac{E_{p}}{q}\\), in \\(\\text{V} = \\text{J/C}\\).",
+  "\\(U_{AB} = V_{A} - V_{B}\\): een spanning hoort bij twee punten.",
+  "\\(V = k\\dfrac{q}{r}\\): één \\(r\\), en mét het teken van \\(q\\).",
   "Equipotentiaallijnen staan loodrecht op de veldlijnen.",
-  "Langs een equipotentiaallijn kost verplaatsen geen arbeid.",
-  "In een homogeen veld is U de veldsterkte maal de afstand.",
-  "Eén elektronvolt is ongeveer 1,6·10⁻¹⁹ joule."
+  "In een homogeen veld: \\(U = E\\cdot d\\).",
+  "\\(1\\ \\text{eV} = 1{,}602\\cdot 10^{-19}\\ \\text{J}\\)."
  ]
 }

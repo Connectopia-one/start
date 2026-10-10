@@ -269,46 +269,95 @@ OEFENBUNDELS["oefenbundel-elektrische-energie-potentiaal-en-spanning-beyond"] = 
     onder="{aantal} oefeningen op papier, met een antwoordblad achteraan.",
     hoe=HOE,
     reeksen=[
-        dict(kop="Eenheden en symbolen",
+        dict(kop="Symbolen en eenheden",
              opdracht="Vul de tabel aan.",
              oefeningen=[
                  ("tabel", ["grootheid", "symbool", "eenheid"],
-                  [["spanning", None, None], ["lading", None, None], ["energie", None, None]],
-                  "spanning: U, volt · lading: q, coulomb · energie: E of W, joule", WW),
+                  [["arbeid of energie", None, None], ["lading", None, None],
+                   ["spanning", None, None], ["potentiaal", None, None],
+                   ["veldsterkte", None, None]],
+                  r"arbeid of energie: \(W\) of \(E\), \(\text{J}\) · lading: \(q\), \(\text{C}\) · "
+                  r"spanning: \(U\), \(\text{V}\) · potentiaal: \(V\), \(\text{V}\) · "
+                  r"veldsterkte: \(E\), \(\text{N/C}\)", WW),
              ]),
-        dict(kop="Rekenen met U = W/q",
-             opdracht="Reken uit.",
+        dict(kop=r"Rekenen met \(W=q\,U\)",
+             opdracht=r"Schrijf eerst de formule op en zet elke lading in coulomb.",
              oefeningen=[
-                 ("kort", "Een lading van 3 C doorloopt een spanning van 12 V. Welke energie komt er vrij?",
-                  "36 J, want 12 · 3.", W),
-                 ("kort", "Over een spanning van 9 V komt 45 J vrij. Welke lading is er gepasseerd?",
-                  "5 C, want 45 gedeeld door 9.", W),
-                 ("kort", "Een lading van 0,5 C geeft 110 J af. Over welke spanning ging ze?",
-                  "220 V, want 110 gedeeld door 0,5.", W),
+                 ("kort", r"Een lading van \(3{,}0\ \text{C}\) doorloopt \(12\ \text{V}\). Welke energie komt vrij?",
+                  r"\(W=q\,U=3{,}0\cdot 12=36\ \text{J}\).", W),
+                 ("kort", r"Over \(9{,}0\ \text{V}\) komt \(45\ \text{J}\) vrij. Welke lading is gepasseerd?",
+                  r"\(q=\dfrac{W}{U}=\dfrac{45}{9{,}0}=5{,}0\ \text{C}\).", W),
+                 ("kort", r"Een lading van \(0{,}50\ \text{C}\) geeft \(110\ \text{J}\) af. Over welke spanning ging ze?",
+                  r"\(U=\dfrac{W}{q}=\dfrac{110}{0{,}50}=220\ \text{V}\).", W),
+                 ("kort", r"Een lading van \(250\ \mu\text{C}\) doorloopt \(400\ \text{V}\). Hoeveel energie wint ze?",
+                  r"\(W=250\cdot 10^{-6}\cdot 400=0{,}10\ \text{J}\).", W),
+                 ("kort", r"Een lading van \(2{,}0\ \text{mC}\) zit in een punt met \(V=75\ \text{V}\). Hoe groot is \(E_{p}\)?",
+                  r"\(E_{p}=q\,V=2{,}0\cdot 10^{-3}\cdot 75=0{,}15\ \text{J}\).", W),
              ]),
-        dict(kop="Potentiaal en spanning",
+        dict(kop="Potentiaal, spanning en veld",
              opdracht="Antwoord kort.",
              oefeningen=[
-                 ("rij", [("de energie per eenheid van lading in een punt", "de potentiaal"),
-                          ("het verschil in potentiaal tussen twee punten", "de spanning")],
+                 ("rij", [(r"de energie per eenheid van lading in een punt", "de potentiaal"),
+                          (r"het verschil in potentiaal tussen twee punten", "de spanning"),
+                          (r"de kracht per eenheid van lading in een punt", "de veldsterkte")],
                   "Hoe heet dat?", WL),
-                 ("waar", "Spanning is een verschil tussen twee punten, potentiaal hoort bij één punt.", True),
-                 ("waar", "Een positieve lading beweegt vanzelf van een lage naar een hoge potentiaal.", False),
-                 ("waar", "Het nulpunt van de potentiaal kies je zelf, bijvoorbeeld de aarde.", True),
+                 ("kort", r"\(V_{A}=80\ \text{V}\) en \(V_{B}=-20\ \text{V}\). Hoe groot is \(U_{AB}\)?",
+                  r"\(U_{AB}=80-(-20)=100\ \text{V}\).", W),
+                 ("kort", r"Twee platen staan \(5{,}0\ \text{cm}\) uit elkaar, met \(U=250\ \text{V}\). Hoe groot is \(E\)?",
+                  r"\(E=\dfrac{U}{d}=\dfrac{250}{0{,}050}=5{,}0\cdot 10^{3}\ \text{V/m}\).", W),
+                 ("waar", r"Een spanning hoort bij twee punten, een potentiaal bij één punt.", True),
+                 ("waar", r"Een positieve lading beweegt vanzelf van lage naar hoge potentiaal.", False),
+                 ("waar", r"Het nulpunt van \(V\) kies je zelf, bijvoorbeeld de aarde.", True),
+                 ("waar", r"\(V\) in een punt wordt groter als je er een grotere proeflading in zet.", False),
+             ]),
+        dict(kop="Snelheid uit een spanning",
+             opdracht=r"Gebruik \(q\,U=\tfrac{1}{2}m\,v^{2}\). Neem \(e=1{,}602\cdot 10^{-19}\ \text{C}\), "
+                      r"\(m_{e}=9{,}11\cdot 10^{-31}\ \text{kg}\) en \(m_{p}=1{,}67\cdot 10^{-27}\ \text{kg}\).",
+             oefeningen=[
+                 ("open", r"Een elektron vertrekt uit rust en doorloopt \(250\ \text{V}\). Bereken \(v\).",
+                  r"\(v=\sqrt{\dfrac{2\cdot 1{,}602\cdot 10^{-19}\cdot 250}{9{,}11\cdot 10^{-31}}}"
+                  r"\approx 9{,}4\cdot 10^{6}\ \text{m/s}\).", 5),
+                 ("open", r"Een proton doorloopt dezelfde \(250\ \text{V}\). Bereken \(v\) en vergelijk.",
+                  r"\(v\approx 2{,}2\cdot 10^{5}\ \text{m/s}\): ruim \(42\) keer trager, want "
+                  r"\(\sqrt{m_{p}/m_{e}}\approx 42\). De energie is wel even groot.", 5),
+                 ("open", r"Een alfadeeltje \((q=2e,\ m=6{,}64\cdot 10^{-27}\ \text{kg})\) doorloopt "
+                  r"\(1{,}0\ \text{kV}\). Hoeveel energie wint het, in \(\text{eV}\) en in \(\text{J}\)?",
+                  r"\(2000\ \text{eV}\), want \(q=2e\). In joule: "
+                  r"\(2000\cdot 1{,}602\cdot 10^{-19}=3{,}2\cdot 10^{-16}\ \text{J}\).", 5),
+             ]),
+        dict(kop="Vraagstukken",
+             opdracht="Teken of schrijf eerst op wat je weet, en reken dan pas.",
+             oefeningen=[
+                 ("open", r"Twee platen staan \(4{,}0\ \text{cm}\) uit elkaar met \(U=200\ \text{V}\). "
+                  r"Bereken \(E\), en daarna de kracht op een elektron ertussen.",
+                  r"\(E=\dfrac{200}{0{,}040}=5{,}0\cdot 10^{3}\ \text{V/m}\), en daarmee "
+                  r"\(F=E\,q\approx 8{,}0\cdot 10^{-16}\ \text{N}\).", 6),
+                 ("open", r"Een lading \(q_{1}=+2{,}0\ \text{nC}\) staat in \(x=0\) en \(q_{2}=-2{,}0\ \text{nC}\) "
+                  r"in \(x=0{,}20\ \text{m}\). Hoe groot is \(V\) in het midden?",
+                  r"Potentiaal telt als gewoon getal op, met teken. Beide liggen op \(0{,}10\ \text{m}\), "
+                  r"dus \(V=k\dfrac{+2{,}0\cdot 10^{-9}}{0{,}10}+k\dfrac{-2{,}0\cdot 10^{-9}}{0{,}10}=0\). "
+                  r"Het veld is daar wel niet nul.", 6),
+                 ("open", r"Een stofdeeltje met \(m=3{,}0\cdot 10^{-15}\ \text{kg}\) zweeft stil tussen twee "
+                  r"horizontale platen op \(2{,}0\ \text{cm}\) met \(U=600\ \text{V}\). Hoe groot is zijn lading?",
+                  r"Stil zweven betekent \(E\,q=m\,g\). Met \(E=\dfrac{600}{0{,}020}=3{,}0\cdot 10^{4}\ \text{V/m}\) "
+                  r"volgt \(q=\dfrac{3{,}0\cdot 10^{-15}\cdot 9{,}81}{3{,}0\cdot 10^{4}}\approx "
+                  r"9{,}8\cdot 10^{-19}\ \text{C}\), ongeveer zes elementaire ladingen.", 6),
              ]),
         dict(kop="Uitleggen",
              opdracht="Antwoord in volle zinnen.",
              oefeningen=[
-                 ("open", "Een elektron vertrekt uit rust en doorloopt een spanning van 100 V. Wat gebeurt er met de energie? Leg uit.",
-                  "De elektrische energie die het verliest, wordt kinetische energie: het elektron "
-                  "versnelt. De som van beide blijft gelijk, er gaat niets verloren.", 5),
+                 ("open", r"Waarom kost het geen arbeid om een lading langs een equipotentiaallijn te verplaatsen?",
+                  r"\(V\) verandert niet, dus \(E_{p}=q\,V\) ook niet, dus \(W=0\). De verplaatsing staat "
+                  r"daar ook loodrecht op de kracht.", 5),
                  ("open", "Waarom is een vogel op een hoogspanningsdraad niet in gevaar?",
-                  "Zijn twee pootjes zitten op bijna hetzelfde punt van de draad, dus is de spanning "
-                  "ertussen bijna nul. Zonder spanningsverschil loopt er geen stroom door hem.", 6),
+                  r"Zijn twee pootjes zitten op bijna hetzelfde punt van de draad, dus \(U\) ertussen is "
+                  r"bijna nul. Zonder spanningsverschil loopt er geen stroom door hem.", 5),
                  ("open", "Waarom vervoert men elektriciteit over grote afstand bij een heel hoge spanning?",
-                  "Bij een hoge spanning volstaat een kleine stroom voor hetzelfde vermogen. De "
-                  "verliezen in de kabels hangen van het kwadraat van de stroom af, dus blijven ze "
-                  "zo veel kleiner.", 6),
+                  r"Bij een hoge \(U\) volstaat een kleine \(I\) voor hetzelfde vermogen, en de verliezen "
+                  r"in de kabels gaan met \(I^{2}\).", 5),
+                 ("open", r"Een leerling zegt: waar \(V=0\) is, is ook \(E=0\). Waarom klopt dat niet?",
+                  r"Midden tussen twee tegengestelde ladingen is \(V=0\) maar wijzen beide velden dezelfde "
+                  r"kant op, dus is \(E\) daar juist het grootst. \(V\) is een getal, \(E\) een vector.", 5),
              ]),
     ],
 )

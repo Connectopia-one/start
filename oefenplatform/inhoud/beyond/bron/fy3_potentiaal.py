@@ -11,12 +11,18 @@ elektronvolt.
 Het rode draadje is het verschil tussen energie en potentiaal. Energie hangt
 af van de lading die je verplaatst, potentiaal niet: dat is een eigenschap van
 het punt, net zoals veldsterkte dat is voor de kracht.
+
+De formules staan in notatie, tussen \\( en \\): W = q U, V = Ep / q,
+U = V_A - V_B, U = E d, q U = een half m v^2 en V = k q / r. Dat vroeg Enya
+Vermeyen, leerkracht wiskunde en fysica, op 10 oktober 2026: zonder notatie
+kan een leerkracht er in de les niets mee. Een leerling moet die symbolen
+leren lezen, dus staan ze er ook in de vraag en niet enkel in de uitleg.
 """
 
 DEEL1 = [
     dict(
         type="meerkeuze",
-        vraag="Wanneer verricht een elektrische kracht arbeid?",
+        vraag=r"Wanneer verricht een elektrische kracht arbeid \(W\)?",
         opties=[
             "als de lading verplaatst wordt in de zin van de kracht",
             "als de lading stil blijft liggen in het elektrisch veld",
@@ -24,27 +30,29 @@ DEEL1 = [
             "als het veld van zin verandert zonder dat er iets beweegt",
         ],
         antwoord=0,
-        uitleg="Arbeid is kracht maal verplaatsing in de zin van die kracht. Beweegt de "
-        "lading loodrecht op de kracht, dan is de arbeid nul.",
+        uitleg=r"\(W=F\cdot d\), met \(d\) de verplaatsing in de zin van de kracht. "
+        r"Beweegt de lading loodrecht op de kracht, dan is \(W=0\).",
     ),
     dict(
         type="meerkeuze",
-        vraag="Een lading van 2 C wordt over 0,5 m verplaatst door een kracht van 6 N in dezelfde zin. Hoeveel arbeid is er verricht?",
+        vraag=r"Een lading van \(2\ \text{C}\) wordt over \(0{,}50\ \text{m}\) verplaatst door "
+        r"een kracht van \(6{,}0\ \text{N}\) in dezelfde zin. Hoeveel arbeid is er verricht?",
         opties=[
-            "3 J",
-            "12 J",
-            "1,5 J",
-            "24 J",
+            r"\(3{,}0\ \text{J}\)",
+            r"\(12\ \text{J}\)",
+            r"\(1{,}5\ \text{J}\)",
+            r"\(24\ \text{J}\)",
         ],
         antwoord=0,
-        uitleg="Arbeid is kracht maal afstand: 6 maal 0,5 is 3 joule. De grootte van de "
-        "lading speelt hier geen rol meer, want die zit al in de kracht.",
+        uitleg=r"\(W=F\cdot d=6{,}0\cdot 0{,}50=3{,}0\ \text{J}\). De grootte van de lading "
+        r"speelt hier geen rol meer, want die zit al in \(F\).",
     ),
     dict(
         type="invultekst",
-        vraag="In welke eenheid druk je arbeid en energie uit?",
+        vraag=r"In welke eenheid druk je arbeid \(W\) en energie uit?",
         antwoord=["joule", "J", "de joule"],
-        uitleg="Het symbool is J. Eén joule is één newton maal één meter.",
+        uitleg=r"Het symbool is \(\text{J}\): "
+        r"\(1\ \text{J}=1\ \text{N}\cdot\text{m}=1\ \text{C}\cdot\text{V}\).",
     ),
     dict(
         type="meerkeuze",
@@ -56,15 +64,15 @@ DEEL1 = [
             "beide soorten energie blijven precies even groot",
         ],
         antwoord=0,
-        uitleg="Het veld duwt de lading vooruit, dus wint ze snelheid. De som van de twee "
-        "soorten energie blijft wel gelijk, want er is geen wrijving in het spel.",
+        uitleg=r"Het veld duwt de lading vooruit, dus wint ze snelheid. "
+        r"\(E_{p}+E_{k}\) blijft wel gelijk, want er is geen wrijving in het spel.",
     ),
     dict(
         type="waarofniet",
         vraag="Om een positieve lading naar de positieve plaat te duwen, moet je zelf arbeid leveren.",
         antwoord=True,
-        uitleg="Je gaat dan tegen de elektrische kracht in. Die arbeid komt als elektrische "
-        "potentiële energie in de lading terecht, zoals een bal die je omhoog tilt.",
+        uitleg=r"Je gaat dan tegen de elektrische kracht in. Die arbeid komt als \(E_{p}\) "
+        r"in de lading terecht, zoals een bal die je omhoog tilt.",
     ),
     dict(
         type="meerkeuze",
@@ -89,8 +97,8 @@ DEEL1 = [
             "ze hangt af van de snelheid waarmee de lading beweegt",
         ],
         antwoord=[0, 1],
-        uitleg="Massa en snelheid horen bij de kinetische energie. Potentiële energie is "
-        "lading maal potentiaal, dus lading maal iets van de plaats.",
+        uitleg=r"Massa en snelheid horen bij \(E_{k}\). Er geldt \(E_{p}=q\cdot V\): de "
+        r"lading zelf maal iets wat enkel van de plaats afhangt.",
     ),
     dict(
         type="meerkeuze",
@@ -107,60 +115,61 @@ DEEL1 = [
     ),
     dict(
         type="meerkeuze",
-        vraag="Hoe bereken je de snelheid waarmee een lading uit rust bij de andere plaat aankomt?",
+        vraag=r"Hoe bereken je de snelheid \(v\) waarmee een lading uit rust bij de andere plaat aankomt?",
         opties=[
-            "je stelt de gewonnen kinetische energie gelijk aan de verloren potentiële",
-            "je deelt de spanning tussen de platen door de afstand ertussen",
-            "je vermenigvuldigt de veldsterkte met de massa van het deeltje",
-            "je deelt de lading van het deeltje door zijn eigen massa",
+            r"met \(q\,U=\tfrac{1}{2}m\,v^{2}\)",
+            r"met \(v=\dfrac{U}{d}\)",
+            r"met \(v=E\cdot m\)",
+            r"met \(v=\dfrac{q}{m}\)",
         ],
         antwoord=0,
-        uitleg="Q maal U is gelijk aan een half m maal v kwadraat. Daaruit haal je v, en "
-        "dat werkt omdat er onderweg geen energie verloren gaat.",
+        uitleg=r"Alle gewonnen energie \(q\,U\) zit in de beweging, dus "
+        r"\(v=\sqrt{\dfrac{2q\,U}{m}}\). Dat werkt omdat er onderweg niets verloren gaat.",
     ),
     dict(
         type="waarofniet",
-        vraag="De arbeid van de elektrische kracht hangt af van de weg die de lading aflegt.",
+        vraag=r"De arbeid \(W\) van de elektrische kracht hangt af van de weg die de lading aflegt.",
         antwoord=False,
         uitleg="Alleen begin- en eindpunt tellen, net als bij de zwaartekracht. Daarom kan "
         "je met potentiële energie rekenen zonder de baan te kennen.",
     ),
     dict(
         type="meerkeuze",
-        vraag="Een lading van 4 mC verliest 0,8 J potentiële energie tussen twee punten. Welke spanning staat er tussen die punten?",
+        vraag=r"Een lading van \(4{,}0\ \text{mC}\) verliest \(0{,}80\ \text{J}\) potentiële "
+        r"energie tussen twee punten. Welke spanning \(U\) staat er tussen die punten?",
         opties=[
-            "200 V",
-            "3,2 V",
-            "0,005 V",
-            "20 V",
+            r"\(200\ \text{V}\)",
+            r"\(3{,}2\ \text{V}\)",
+            r"\(0{,}005\ \text{V}\)",
+            r"\(20\ \text{V}\)",
         ],
         antwoord=0,
-        uitleg="Spanning is energie per eenheid van lading: 0,8 gedeeld door 0,004 is 200 "
-        "volt. Let op de omzetting van millicoulomb naar coulomb.",
+        uitleg=r"\(U=\dfrac{W}{q}=\dfrac{0{,}80}{4{,}0\cdot 10^{-3}}=200\ \text{V}\). "
+        r"Let op de omzetting van millicoulomb naar coulomb.",
     ),
     dict(
         type="invultekst",
         vraag="Welke energie heeft een deeltje door zijn beweging?",
         antwoord=["kinetische energie", "kinetische", "bewegingsenergie"],
-        uitleg="Ze is een half maal de massa maal het kwadraat van de snelheid. Potentiële "
-        "energie hangt daarentegen af van de plaats.",
+        uitleg=r"\(E_{k}=\tfrac{1}{2}m\,v^{2}\). \(E_{p}\) hangt daarentegen af van de "
+        r"plaats en niet van de snelheid.",
     ),
     dict(
         type="meerkeuze",
-        vraag="Twee platen staan 2 cm uit elkaar met een veldsterkte van 5000 N/C ertussen. Welke spanning staat erover?",
+        vraag=r"Twee platen staan \(2{,}0\ \text{cm}\) uit elkaar met \(E=5000\ \text{N/C}\) "
+        r"ertussen. Welke spanning staat erover?",
         opties=[
-            "100 V",
-            "250 V",
-            "10 V",
-            "2500 V",
+            r"\(100\ \text{V}\)",
+            r"\(250\ \text{V}\)",
+            r"\(10\ \text{V}\)",
+            r"\(2500\ \text{V}\)",
         ],
         antwoord=0,
-        uitleg="In een homogeen veld is de spanning de veldsterkte maal de afstand: 5000 "
-        "maal 0,02 is 100 volt.",
+        uitleg=r"In een homogeen veld geldt \(U=E\cdot d=5000\cdot 0{,}020=100\ \text{V}\).",
     ),
     dict(
         type="waarofniet",
-        vraag="Bij de beweging van een lading in een elektrisch veld blijft de som van de kinetische en de potentiële energie behouden.",
+        vraag=r"Bij de beweging van een lading in een elektrisch veld blijft \(E_{k}+E_{p}\) behouden.",
         antwoord=True,
         uitleg="Zolang er geen wrijving of botsingen zijn, gaat de ene energievorm volledig "
         "in de andere over. Dat is de wet van behoud van energie.",
@@ -181,16 +190,16 @@ DEEL1 = [
     ),
     dict(
         type="meerkeuze",
-        vraag="Welke grootheden heb je nodig om de maximale snelheid van een lading tussen twee platen te berekenen? Kruis alles aan wat juist is.",
+        vraag=r"Welke grootheden heb je nodig om \(v\) van een lading tussen twee platen te berekenen? Kruis alles aan wat juist is.",
         opties=[
-            "de spanning tussen de twee platen",
-            "de massa van het geladen deeltje",
-            "de afstand tussen de twee platen",
-            "de tijd die het deeltje onderweg is",
+            r"de spanning \(U\) tussen de platen",
+            r"de massa \(m\) van het deeltje",
+            r"de afstand \(d\) tussen de platen",
+            r"de tijd \(t\) die het onderweg is",
         ],
         antwoord=[0, 1],
-        uitleg="Uit Q maal U is gelijk aan een half m maal v kwadraat volgt v. De afstand "
-        "en de tijd heb je daarvoor niet nodig.",
+        uitleg=r"Uit \(q\,U=\tfrac{1}{2}m\,v^{2}\) volgt \(v\). De lading \(q\) heb je ook "
+        r"nodig, maar \(d\) en \(t\) niet.",
     ),
     dict(
         type="meerkeuze",
@@ -202,8 +211,9 @@ DEEL1 = [
             "het elektron verliest onderweg geen enkele energie",
         ],
         antwoord=0,
-        uitleg="Beide krijgen dezelfde energie, want hun lading is even groot. Een kleinere "
-        "massa betekent bij dezelfde energie een veel hogere snelheid.",
+        uitleg=r"Beide krijgen dezelfde \(q\,U\), want \(|q|\) is even groot. Uit "
+        r"\(v=\sqrt{\dfrac{2q\,U}{m}}\) volgt dat een kleinere \(m\) een hogere \(v\) geeft: "
+        r"een elektron is ruim \(1800\) keer lichter dan een proton.",
     ),
     dict(
         type="waarofniet",
@@ -214,73 +224,74 @@ DEEL1 = [
     ),
     dict(
         type="meerkeuze",
-        vraag="Wat is het verband tussen de arbeid van de elektrische kracht en de kinetische energie?",
+        vraag=r"Wat is het verband tussen de arbeid \(W\) van de elektrische kracht en \(E_{k}\)?",
         opties=[
-            "de verrichte arbeid is gelijk aan de winst aan kinetische energie",
-            "de verrichte arbeid is gelijk aan de massa maal de snelheid",
-            "de verrichte arbeid is altijd het dubbele van die energie",
-            "de verrichte arbeid heeft met die energie niets te maken",
+            r"\(W=\Delta E_{k}\)",
+            r"\(W=m\cdot v\)",
+            r"\(W=2\,E_{k}\)",
+            r"\(W\) en \(E_{k}\) hebben niets met elkaar te maken",
         ],
         antwoord=0,
-        uitleg="Dat is de arbeid-energiestelling. Wat de potentiële energie verliest, komt "
-        "als beweging terug.",
+        uitleg=r"Dat is de arbeid-energiestelling. Wat \(E_{p}\) verliest, komt als beweging "
+        r"terug: \(-\Delta E_{p}=\Delta E_{k}\).",
     ),
     dict(
         type="invultekst",
-        vraag="Hoeveel joule is één elektronvolt ongeveer?",
+        vraag=r"Hoeveel joule is \(1\ \text{eV}\) ongeveer?",
         antwoord=["1,6·10⁻¹⁹ J", "1,6e-19", "1,6·10⁻¹⁹"],
-        uitleg="Het is de energie die één elementaire lading wint bij één volt spanning. "
-        "Daarom is het een handige eenheid voor deeltjes.",
+        uitleg=r"\(1\ \text{eV}=e\cdot 1\ \text{V}=1{,}602\cdot 10^{-19}\ \text{J}\): de "
+        r"energie die één elementaire lading wint bij één volt. \(e\) staat in de bijlage "
+        r"die je op het examen krijgt.",
     ),
 ]
 
 DEEL2 = [
     dict(
         type="meerkeuze",
-        vraag="Wat is de elektrische potentiaal in een punt?",
+        vraag=r"Wat is de elektrische potentiaal \(V\) in een punt?",
         opties=[
-            "de potentiële energie per eenheid van lading in dat punt",
-            "de kracht per eenheid van lading in dat punt",
-            "de energie die een lading er per seconde verliest",
-            "de lading die in dat punt aanwezig is",
+            r"\(V=\dfrac{E_{p}}{q}\)",
+            r"\(V=\dfrac{F}{q}\)",
+            r"\(V=\dfrac{E_{p}}{t}\)",
+            r"\(V=q\)",
         ],
         antwoord=0,
-        uitleg="Je deelt de potentiële energie door de lading, net zoals je bij de "
-        "veldsterkte de kracht door de lading deelt. Zo krijg je een eigenschap van het "
-        "punt zelf.",
+        uitleg=r"Je deelt \(E_{p}\) door \(q\), net zoals je bij de veldsterkte \(F\) door "
+        r"\(q\) deelt. Zo krijg je een eigenschap van het punt zelf, en niet van de lading "
+        r"die je erin zet.",
     ),
     dict(
         type="invultekst",
-        vraag="In welke eenheid druk je de elektrische potentiaal uit?",
+        vraag=r"In welke eenheid druk je de elektrische potentiaal \(V\) uit?",
         antwoord=["volt", "V", "de volt"],
-        uitleg="Eén volt is één joule per coulomb. Het potentiaalverschil tussen twee "
-        "punten heet de spanning, en staat in dezelfde eenheid.",
+        uitleg=r"\(1\ \text{V}=1\ \text{J/C}\). Het potentiaalverschil tussen twee punten "
+        r"heet de spanning, en staat in dezelfde eenheid.",
     ),
     dict(
         type="meerkeuze",
-        vraag="Wat is de elektrische spanning tussen twee punten?",
+        vraag=r"Wat is de spanning \(U_{AB}\) tussen twee punten \(A\) en \(B\)?",
         opties=[
-            "het verschil tussen de potentialen van die twee punten",
-            "de som van de potentialen van die twee punten",
-            "de potentiaal van het punt met de grootste lading",
-            "de kracht die tussen die twee punten werkt",
+            r"\(U_{AB}=V_{A}-V_{B}\)",
+            r"\(U_{AB}=V_{A}+V_{B}\)",
+            r"\(U_{AB}=V_{A}\cdot V_{B}\)",
+            r"\(U_{AB}=F_{A}-F_{B}\)",
         ],
         antwoord=0,
-        uitleg="Daarom heet ze ook het potentiaalverschil. Een spanning is dus altijd "
-        "tussen twee punten, nooit in één punt alleen.",
+        uitleg=r"Daarom heet \(U\) ook het potentiaalverschil. Een spanning hoort dus altijd "
+        r"bij twee punten, nooit bij één punt alleen.",
     ),
     dict(
         type="meerkeuze",
-        vraag="Punt A ligt op 120 V en punt B op 45 V. Welke spanning staat er tussen A en B?",
+        vraag=r"\(V_{A}=120\ \text{V}\) en \(V_{B}=45\ \text{V}\). Hoe groot is \(U_{AB}\)?",
         opties=[
-            "75 V",
-            "165 V",
-            "45 V",
-            "120 V",
+            r"\(75\ \text{V}\)",
+            r"\(165\ \text{V}\)",
+            r"\(45\ \text{V}\)",
+            r"\(120\ \text{V}\)",
         ],
         antwoord=0,
-        uitleg="Je neemt het verschil: 120 min 45 is 75 volt. Het teken zegt enkel welke "
-        "kant van de twee de hoogste potentiaal heeft.",
+        uitleg=r"\(U_{AB}=V_{A}-V_{B}=120-45=75\ \text{V}\). Het teken zegt enkel welk punt "
+        r"de hoogste potentiaal heeft.",
     ),
     dict(
         type="invultekst",
@@ -325,29 +336,29 @@ DEEL2 = [
     ),
     dict(
         type="meerkeuze",
-        vraag="Een lading van 5 mC zit in een punt met een potentiaal van 40 V. Hoeveel potentiële energie heeft ze daar?",
+        vraag=r"Een lading van \(5{,}0\ \text{mC}\) zit in een punt met \(V=40\ \text{V}\). "
+        r"Hoe groot is \(E_{p}\) daar?",
         opties=[
-            "0,2 J",
-            "8 J",
-            "200 J",
-            "0,000125 J",
+            r"\(0{,}20\ \text{J}\)",
+            r"\(8{,}0\ \text{J}\)",
+            r"\(200\ \text{J}\)",
+            r"\(1{,}25\cdot 10^{-4}\ \text{J}\)",
         ],
         antwoord=0,
-        uitleg="De energie is de lading maal de potentiaal: 0,005 maal 40 is 0,2 joule.",
+        uitleg=r"\(E_{p}=q\cdot V=5{,}0\cdot 10^{-3}\cdot 40=0{,}20\ \text{J}\).",
     ),
     dict(
         type="meerkeuze",
-        vraag="Welke uitspraken over potentiaal zijn juist? Kruis alles aan wat juist is.",
+        vraag=r"Welke uitspraken over \(V\) zijn juist? Kruis alles aan wat juist is.",
         opties=[
-            "ze is een eigenschap van het punt, niet van de lading",
-            "ze wordt in volt uitgedrukt",
-            "ze wordt in newton per coulomb uitgedrukt",
-            "ze wordt groter naarmate de proeflading groter is",
+            "ze hoort bij het punt, niet bij de lading",
+            r"ze staat in \(\text{V}\)",
+            r"ze staat in \(\text{N/C}\)",
+            r"ze groeit mee met de proeflading \(q\)",
         ],
         antwoord=[0, 1],
-        uitleg="Newton per coulomb is de eenheid van veldsterkte. Zet je een dubbel zo "
-        "grote lading in hetzelfde punt, dan verdubbelt haar energie maar niet de "
-        "potentiaal.",
+        uitleg=r"\(\text{N/C}\) is de eenheid van \(E\). Zet je een dubbel zo grote lading in "
+        r"hetzelfde punt, dan verdubbelt \(E_{p}=q\,V\) maar niet \(V\) zelf.",
     ),
     dict(
         type="meerkeuze",
@@ -371,69 +382,73 @@ DEEL2 = [
     ),
     dict(
         type="meerkeuze",
-        vraag="Hoe reken je joule om naar elektronvolt?",
+        vraag=r"Een elektron wint \(3{,}2\cdot 10^{-17}\ \text{J}\). Hoeveel elektronvolt is dat?",
         opties=[
-            "je deelt door 1,6·10⁻¹⁹",
-            "je vermenigvuldigt met 1,6·10⁻¹⁹",
-            "je deelt door 6,02·10²³",
-            "je vermenigvuldigt met 9·10⁹",
+            r"\(200\ \text{eV}\)",
+            r"\(2{,}0\ \text{eV}\)",
+            r"\(5{,}1\cdot 10^{-36}\ \text{eV}\)",
+            r"\(3{,}2\cdot 10^{-17}\ \text{eV}\)",
         ],
         antwoord=0,
-        uitleg="Eén elektronvolt is 1,6·10⁻¹⁹ joule, dus zitten er heel veel elektronvolt in "
-        "één joule. De omgekeerde omzetting doe je door te vermenigvuldigen.",
+        uitleg=r"Delen door \(1{,}602\cdot 10^{-19}\): "
+        r"\(\dfrac{3{,}2\cdot 10^{-17}}{1{,}602\cdot 10^{-19}}\approx 200\ \text{eV}\). "
+        r"Omgekeerd vermenigvuldig je.",
     ),
     dict(
         type="meerkeuze",
-        vraag="Een elektron doorloopt een spanning van 500 V. Hoeveel energie wint het?",
+        vraag=r"Een elektron doorloopt een spanning van \(500\ \text{V}\). Hoeveel energie wint het?",
         opties=[
-            "500 eV",
-            "500 J",
-            "0,5 eV",
-            "1,6·10⁻¹⁹ eV",
+            r"\(500\ \text{eV}\)",
+            r"\(500\ \text{J}\)",
+            r"\(0{,}50\ \text{eV}\)",
+            r"\(1{,}6\cdot 10^{-19}\ \text{eV}\)",
         ],
         antwoord=0,
-        uitleg="Eén elementaire lading door één volt geeft precies één elektronvolt. "
-        "Daarom is die eenheid in de deeltjesfysica zo handig.",
+        uitleg=r"\(W=q\,U\), en één elementaire lading door één volt is per afspraak "
+        r"\(1\ \text{eV}\). In joule is dat \(500\cdot 1{,}602\cdot 10^{-19}=8{,}0\cdot "
+        r"10^{-17}\ \text{J}\).",
     ),
     dict(
         type="invultekst",
         vraag="Hoe noem je het verschil in potentiaal tussen twee punten, met één woord?",
         antwoord=["spanning", "de spanning", "potentiaalverschil"],
-        uitleg="Het symbool is U en de eenheid de volt. Een spanningsbron houdt dat "
-        "verschil in stand.",
+        uitleg=r"Het symbool is \(U\) en de eenheid \(\text{V}\). Een spanningsbron houdt "
+        r"dat verschil in stand.",
     ),
     dict(
         type="waarofniet",
-        vraag="Tussen twee punten op hetzelfde equipotentiaaloppervlak staat een spanning van nul.",
+        vraag=r"Tussen twee punten op hetzelfde equipotentiaaloppervlak geldt \(U=0\).",
         antwoord=True,
         uitleg="Hun potentialen zijn gelijk, dus is het verschil nul. Daarom loopt er "
         "tussen zulke punten ook geen stroom.",
     ),
     dict(
         type="meerkeuze",
-        vraag="Waarom zit er in de formule voor potentiaal van een puntlading r en niet r kwadraat?",
+        vraag=r"Waarom staat er in \(V=k\dfrac{q}{r}\) een \(r\) en geen \(r^{2}\)?",
         opties=[
             "potentiaal gaat over energie, en die telt de afstand maar één keer",
-            "potentiaal is altijd veel kleiner dan de veldsterkte in dat punt",
-            "potentiaal heeft geen zin, dus mag het kwadraat wegvallen",
-            "potentiaal wordt per seconde gemeten en veldsterkte niet",
+            r"\(V\) is altijd veel kleiner dan \(E\) in dat punt",
+            r"\(V\) heeft geen zin, dus mag het kwadraat wegvallen",
+            r"\(V\) wordt per seconde gemeten en \(E\) niet",
         ],
         antwoord=0,
-        uitleg="De kracht gaat met r² en de arbeid is kracht maal afstand, dus valt er één "
-        "r weg. Veldsterkte heeft r² in de noemer, potentiaal gewoon r.",
+        uitleg=r"\(F\) gaat met \(r^{2}\) en arbeid is kracht maal afstand, dus valt er één "
+        r"\(r\) weg. Vandaar \(E=k\dfrac{|q|}{r^{2}}\) naast \(V=k\dfrac{q}{r}\). Let op: "
+        r"\(V\) draagt wel het teken van \(q\).",
     ),
     dict(
         type="meerkeuze",
         vraag="Welke uitspraken gelden voor een homogeen veld? Kruis alles aan wat juist is.",
         opties=[
-            "de spanning is de veldsterkte maal de afstand",
+            r"\(U=E\cdot d\)",
             "de equipotentiaallijnen zijn evenwijdige rechten",
-            "de potentiaal is overal tussen de platen even groot",
-            "de veldsterkte neemt af naarmate je verder van de plaat zit",
+            r"\(V\) is overal tussen de platen even groot",
+            r"\(E\) neemt af naarmate je verder van de plaat zit",
         ],
         antwoord=[0, 1],
-        uitleg="De veldsterkte is overal gelijk, maar de potentiaal niet: die daalt "
-        "gelijkmatig van de ene plaat naar de andere.",
+        uitleg=r"\(E\) is overal gelijk, maar \(V\) niet: die daalt gelijkmatig van de ene "
+        r"plaat naar de andere. Uit \(U=E\cdot d\) volgt ook \(E=\dfrac{U}{d}\), in "
+        r"\(\text{V/m}\).",
     ),
     dict(
         type="meerkeuze",
@@ -450,7 +465,7 @@ DEEL2 = [
     ),
     dict(
         type="waarofniet",
-        vraag="Een spanning van nul volt betekent dat er geen lading aanwezig is.",
+        vraag=r"\(U=0\) betekent dat er geen lading aanwezig is.",
         antwoord=False,
         uitleg="Het betekent alleen dat de twee punten dezelfde potentiaal hebben. Er kan "
         "op beide plaatsen evenveel lading zitten.",

@@ -6832,3 +6832,60 @@ def veldpatronen(breedte=470):
     kader(cel_b, cel_h, "homogeen: overal even sterk")
     homogeen(cel_b, cel_h)
     return _svg(breedte, cel_h * 2, "".join(d))
+
+
+def equipotentiaal(breedte=470):
+    r"""Equipotentiaallijnen naast de veldlijnen, in twee gevallen.
+
+    Links rond een puntlading: de veldlijnen lopen stervormig naar buiten, de
+    equipotentiaallijnen zijn cirkels eromheen. Rechts tussen twee platen: de
+    veldlijnen lopen recht van plus naar min, de equipotentiaallijnen staan er
+    als evenwijdige rechten dwars op.
+
+    Wat je op de tekening moet zien, en wat met woorden alleen niet lukt: de
+    twee soorten lijnen staan overal loodrecht op elkaar. Daarom kost het geen
+    arbeid om een lading langs zo'n stippellijn te verplaatsen.
+    """
+    import math
+    cel_b, cel_h = 234, 196
+    VELD = FOREST
+    EQUI = AMBER
+    d = []
+
+    def kader(kx, titel):
+        d.append(f'<rect x="{kx+6}" y="4" width="{cel_b-12}" height="{cel_h-28}" rx="8" '
+                 f'fill="#ffffff" stroke="{BORDER}" stroke-width="1.2"/>')
+        d.append(_tekst(kx + cel_b / 2, cel_h - 8, titel, 10, DIM, "middle", True))
+
+    kader(0, "rond een puntlading: cirkels")
+    kader(cel_b, "tussen twee platen: rechten")
+
+    # links: puntlading met cirkels eromheen
+    cx, cy = cel_b / 2, 86
+    for straal in (30, 48, 66):
+        d.append(f'<circle cx="{cx}" cy="{cy}" r="{straal}" fill="none" stroke="{EQUI}" '
+                 f'stroke-width="1.2" stroke-dasharray="4 3"/>')
+    for i in range(8):
+        hoek = math.radians(i * 45)
+        c, s = math.cos(hoek), math.sin(hoek)
+        d.append(f'<line x1="{cx + 14*c:.1f}" y1="{cy + 14*s:.1f}" '
+                 f'x2="{cx + 74*c:.1f}" y2="{cy + 74*s:.1f}" stroke="{VELD}" stroke-width="1.3"/>')
+        d.append(_pijlkop(cx + 56 * c, cy + 56 * s, hoek, VELD))
+    d.append(_teken(cx, cy, "+", 12))
+
+    # rechts: twee platen met rechten ertussen
+    kx = cel_b
+    xl, xr = kx + 44, kx + cel_b - 44
+    d.append(f'<rect x="{xl-9}" y="{cy-58}" width="9" height="116" fill="{LADING_PLUS}" opacity="0.8"/>')
+    d.append(f'<rect x="{xr}" y="{cy-58}" width="9" height="116" fill="{LADING_MIN}" opacity="0.8"/>')
+    for deel in (1, 2, 3):
+        x = xl + (xr - xl) * deel / 4
+        d.append(f'<line x1="{x:.1f}" y1="{cy-52}" x2="{x:.1f}" y2="{cy+52}" stroke="{EQUI}" '
+                 f'stroke-width="1.2" stroke-dasharray="4 3"/>')
+    for dy in (-34, 0, 34):
+        d.append(f'<line x1="{xl+2}" y1="{cy+dy}" x2="{xr-2}" y2="{cy+dy}" stroke="{VELD}" stroke-width="1.3"/>')
+        d.append(_pijlkop(xl + (xr - xl) * 0.62, cy + dy, 0.0, VELD))
+    d.append(_tekst(xl - 5, cy - 64, "+", 12, LADING_PLUS))
+    d.append(_tekst(xr + 5, cy - 64, "–", 13, LADING_MIN))
+
+    return _svg(breedte, cel_h, "".join(d))

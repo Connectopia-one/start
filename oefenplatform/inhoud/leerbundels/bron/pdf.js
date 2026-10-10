@@ -73,7 +73,17 @@ const KATEX = path.join(__dirname, "..", "..", "..", "node_modules", "katex", "d
           let ouder = el.parentElement;
           while (ouder && !ouder.clientWidth) ouder = ouder.parentElement;
           if (!ouder) continue;
-          const ruimte = ouder.clientWidth;
+          /*
+            clientWidth telt de binnenmarge mee. Op het antwoordblad staat
+            elk nummer in de marge van 30 px, en een formule die op een
+            volgende regel begint start dus 30 px verder. Reken je met de
+            volle clientWidth, dan steekt ze precies die 30 px uit.
+          */
+          const vorm = getComputedStyle(ouder);
+          const ruimte =
+            ouder.clientWidth -
+            parseFloat(vorm.paddingLeft || 0) -
+            parseFloat(vorm.paddingRight || 0);
           /*
             De hoogte van de doos opmeten helpt niet. Een formule op haar
             eigen regel krijgt van KaTeX een blok dat precies zo breed is

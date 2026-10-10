@@ -361,106 +361,114 @@ BUNDELS["elektrische-energie-potentiaal-en-spanning-beyond"] = dict(
     onder="Van arbeid op een lading naar potentiaal, spanning en de elektronvolt.",
     secties=[
         dict(kop="Arbeid van de elektrische kracht", blokken=[
-            ("p", "Een elektrische kracht verricht arbeid <strong>als de lading verplaatst wordt in "
-                  "de zin van de kracht</strong>. Je rekent die arbeid net zoals bij elke andere "
-                  "kracht: kracht maal verplaatsing. Wordt een lading van <strong>2 C</strong> over "
-                  "<strong>0,5 m</strong> verplaatst door een kracht van <strong>6 N</strong> in "
-                  "dezelfde zin, dan is de arbeid <strong>3 J</strong>. Arbeid en energie worden "
-                  "uitgedrukt in <strong>joule</strong>."),
-            ("p", "De arbeid van de elektrische kracht <strong>hangt niet af van de weg die de "
-                  "lading aflegt</strong>, alleen van het begin- en het eindpunt. De elektrische "
-                  "kracht is dus conservatief, net als de zwaartekracht. Daarom "
-                  "<strong>verandert een lading die loodrecht op de veldlijnen verplaatst wordt niet "
-                  "van potentiële energie</strong>."),
-            ("p", "Het verband met de beweging: <strong>de verrichte arbeid is gelijk aan de winst "
-                  "aan kinetische energie</strong>. <strong>Kinetische energie</strong> is de "
-                  "energie die een deeltje heeft <strong>door zijn beweging</strong>."),
+            ("p", r"Een elektrische kracht verricht arbeid <strong>als de lading verplaatst wordt in "
+                  r"de zin van de kracht</strong>. Je rekent die arbeid zoals bij elke andere kracht:"),
+            ("p", r"\[W = F\cdot d\]"),
+            ("p", r"met \(d\) de verplaatsing in de zin van \(F\), \(W\) in joule \(\text{J}\). Wordt een "
+                  r"lading van \(2\ \text{C}\) over \(0{,}50\ \text{m}\) verplaatst door een kracht van "
+                  r"\(6{,}0\ \text{N}\) in dezelfde zin, dan is \(W = 6{,}0\cdot 0{,}50 = 3{,}0\ \text{J}\). "
+                  r"Staat de verplaatsing loodrecht op de kracht, dan is \(W = 0\)."),
+            ("p", r"Ken je de spanning in plaats van de kracht, dan reken je rechtstreeks met de lading:"),
+            ("p", r"\[W = q\cdot U\]"),
+            ("p", r"De arbeid van de elektrische kracht <strong>hangt niet af van de weg die de lading "
+                  r"aflegt</strong>, alleen van begin- en eindpunt. De elektrische kracht is dus "
+                  r"conservatief, net als de zwaartekracht. Daarom verandert \(E_{p}\) niet als je een "
+                  r"lading loodrecht op de veldlijnen verplaatst."),
+            ("p", r"Het verband met de beweging is de arbeid-energiestelling: \(W = \Delta E_{k}\), met "
+                  r"\(E_{k} = \tfrac{1}{2}m\,v^{2}\) de <strong>kinetische energie</strong> of "
+                  r"bewegingsenergie: de energie die een deeltje door zijn beweging heeft. Daarin is "
+                  r"\(m\) de massa en \(v\) de snelheid."),
         ]),
         dict(kop="Potentiële energie in een veld", blokken=[
-            ("p", "De elektrische potentiële energie van een lading kan je het best vergelijken "
-                  "<strong>met de hoogte-energie van een bal boven de grond</strong>. Ze "
-                  "<strong>hangt af van de grootte van de lading zelf</strong> én "
-                  "<strong>van de plaats in het elektrisch veld</strong>."),
-            ("p", "Beweegt een <strong>positieve lading vanzelf van de positieve naar de negatieve "
-                  "plaat</strong>, dan <strong>daalt haar potentiële energie en stijgt haar "
-                  "kinetische</strong>. Om een <strong>positieve lading naar de positieve plaat te "
-                  "duwen, moet je zelf arbeid leveren</strong>. En de potentiële energie van een "
-                  "<strong>negatieve lading die naar de negatieve plaat beweegt, stijgt</strong>, "
-                  "<strong>want de lading gaat tegen de kracht in</strong>."),
-            ("p", "Bij de beweging van een lading in een elektrisch veld "
-                  "<strong>blijft de som van de kinetische en de potentiële energie "
-                  "behouden</strong>. Daarop berust de aanpak: "
-                  "<strong>je stelt de gewonnen kinetische energie gelijk aan de verloren "
-                  "potentiële</strong> om <strong>de snelheid te berekenen waarmee een lading uit "
-                  "rust bij de andere plaat aankomt</strong>. Daarvoor heb je "
-                  "<strong>de spanning tussen de twee platen</strong> en "
-                  "<strong>de massa van het geladen deeltje</strong> nodig."),
-            ("p", "Vertrekt een <strong>elektron uit rust bij de negatieve plaat</strong> naar de "
-                  "positieve, dan <strong>wordt het versneld en komt het met maximale snelheid "
-                  "aan</strong>. Een <strong>elektron gaat bij dezelfde spanning veel sneller dan "
-                  "een proton</strong>, want <strong>het elektron heeft een veel kleinere "
-                  "massa</strong>: bijna tweeduizend keer kleiner."),
+            ("p", r"De elektrische potentiële energie van een lading in een punt is"),
+            ("p", r"\[E_{p} = q\cdot V\]"),
+            ("p", r"Ze hangt dus af van <strong>twee</strong> dingen: van de lading \(q\) zelf én van de "
+                  r"plaats, via de potentiaal \(V\). Je kan ze het best vergelijken met de hoogte-energie "
+                  r"van een bal boven de grond: laat je los, dan wordt ze beweging."),
+            ("p", r"Beweegt een positieve lading vanzelf van de positieve naar de negatieve plaat, dan "
+                  r"daalt \(E_{p}\) en stijgt \(E_{k}\). Om een positieve lading naar de positieve plaat te "
+                  r"duwen moet je zelf arbeid leveren. En \(E_{p}\) van een negatieve lading die naar de "
+                  r"negatieve plaat beweegt <strong>stijgt</strong>, want die gaat tegen de kracht in."),
+            ("p", r"Zonder wrijving blijft \(E_{k} + E_{p}\) behouden. Een elektron dat uit rust bij de "
+                  r"negatieve plaat vertrekt, wordt dus versneld en komt met zijn maximale snelheid bij de "
+                  r"andere plaat aan: alles wat \(E_{p}\) verliest, wordt beweging. Zo bereken je die "
+                  r"snelheid:"),
+            ("p", r"\[q\,U = \tfrac{1}{2}m\,v^{2} \qquad\Longrightarrow\qquad v = \sqrt{\dfrac{2q\,U}{m}}\]"),
+            ("p", r"Je hebt daarvoor de lading \(q\), de spanning \(U\) en de massa \(m\) nodig, maar niet "
+                  r"de afstand tussen de platen en niet de tijd. Een elektron dat uit rust "
+                  r"\(500\ \text{V}\) doorloopt, met \(m = 9{,}11\cdot 10^{-31}\ \text{kg}\):"),
+            ("p", r"\[v = \sqrt{\dfrac{2\cdot 1{,}602\cdot 10^{-19}\cdot 500}{9{,}11\cdot 10^{-31}}} "
+                  r"\approx 1{,}3\cdot 10^{7}\ \text{m/s}\]"),
+            ("p", r"Een proton krijgt bij dezelfde spanning dezelfde energie, want \(|q|\) is even groot. "
+                  r"Het is wel ruim \(1800\) keer zwaarder, en door die veel grotere massa gaat het ruim "
+                  r"\(42\) keer trager. Omgekeerd gaat een elektron door zijn veel kleinere massa bij "
+                  r"dezelfde spanning dus veel sneller."),
         ]),
         dict(kop="Potentiaal en spanning", blokken=[
-            ("p", "De <strong>elektrische potentiaal in een punt</strong> is "
-                  "<strong>de potentiële energie per eenheid van lading in dat punt</strong>. Ze "
-                  "staat in <strong>volt</strong>. Ze is <strong>een eigenschap van het punt, niet "
-                  "van de lading</strong>: de <strong>potentiaal van een punt hangt dus niet af van "
-                  "de lading die je erin zet</strong>."),
-            ("p", "De <strong>elektrische spanning tussen twee punten</strong> is "
-                  "<strong>het verschil tussen de potentialen van die twee punten</strong>. Met één "
-                  "woord heet dat verschil gewoon <strong>spanning</strong>. Ligt punt A op "
-                  "<strong>120 V</strong> en punt B op <strong>45 V</strong>, dan staat er tussen A "
-                  "en B <strong>75 V</strong>. Een <strong>spanning van nul volt betekent niet dat "
-                  "er geen lading aanwezig is</strong>, alleen dat de twee punten op dezelfde "
-                  "potentiaal liggen."),
-            ("p", "Twee rekenvoorbeelden. Verliest een lading van <strong>4 mC</strong> "
-                  "<strong>0,8 J</strong> potentiële energie tussen twee punten, dan staat er "
-                  "<strong>200 V</strong> tussen die punten. Zit een lading van "
-                  "<strong>5 mC</strong> in een punt met een potentiaal van <strong>40 V</strong>, "
-                  "dan heeft ze daar <strong>0,2 J</strong> potentiële energie."),
-            ("p", "Een <strong>positieve lading beweegt vanzelf van een hoge naar een lage "
-                  "potentiaal</strong>, zoals water van hoog naar laag stroomt. Wat een "
-                  "<strong>spanningsbron in een kring in stand houdt</strong>, is precies "
-                  "<strong>een potentiaalverschil tussen haar twee polen</strong>."),
+            ("p", r"De elektrische potentiaal in een punt is de potentiële energie per eenheid van lading:"),
+            ("p", r"\[V = \dfrac{E_{p}}{q} \qquad\text{in}\qquad \text{V} = \text{J/C}\]"),
+            ("p", r"Ze hoort bij het punt en niet bij de lading die je erin zet: zet je er een dubbel zo "
+                  r"grote lading in, dan verdubbelt \(E_{p}\) maar niet \(V\). Rond één puntlading geldt"),
+            ("p", r"\[V = k\,\dfrac{q}{r}\]"),
+            ("p", r"met een \(r\) en geen \(r^{2}\): potentiaal gaat over energie, en energie is kracht maal "
+                  r"afstand, dus valt er één \(r\) weg. Let ook op het teken: \(V\) draagt het teken van "
+                  r"\(q\), terwijl \(E\) met \(|q|\) rekent."),
+            ("p", tabel(["", "veldsterkte", "potentiaal"], [
+                ["formule", r"\(E = k\dfrac{|q|}{r^{2}}\)", r"\(V = k\dfrac{q}{r}\)"],
+                ["eenheid", r"\(\text{N/C} = \text{V/m}\)", r"\(\text{V} = \text{J/C}\)"],
+                ["hoort bij", r"de kracht: \(F = E\,q\)", r"de energie: \(E_{p} = V\,q\)"],
+                ["soort", "vector", "getal met teken"],
+            ])),
+            ("p", r"De spanning tussen twee punten is het verschil van hun potentialen:"),
+            ("p", r"\[U_{AB} = V_{A} - V_{B}\]"),
+            ("p", r"Een spanning hoort dus altijd bij twee punten, nooit bij één punt alleen. Is "
+                  r"\(V_{A} = 120\ \text{V}\) en \(V_{B} = 45\ \text{V}\), dan is \(U_{AB} = 75\ \text{V}\). "
+                  r"En \(U = 0\) betekent niet dat er geen lading is, enkel dat de twee punten even hoog "
+                  r"liggen."),
+            ("p", r"Twee rekenvoorbeelden. Verliest een lading van \(4{,}0\ \text{mC}\) onderweg "
+                  r"\(0{,}80\ \text{J}\), dan is "
+                  r"\(U = \dfrac{W}{q} = \dfrac{0{,}80}{4{,}0\cdot 10^{-3}} = 200\ \text{V}\). Zit een "
+                  r"lading van \(5{,}0\ \text{mC}\) in een punt met \(V = 40\ \text{V}\), dan is "
+                  r"\(E_{p} = 5{,}0\cdot 10^{-3}\cdot 40 = 0{,}20\ \text{J}\)."),
+            ("p", r"Een positieve lading beweegt vanzelf van hoge naar lage potentiaal, zoals water van "
+                  r"hoog naar laag. Een negatieve lading doet net het omgekeerde. Wat een spanningsbron "
+                  r"in een kring in stand houdt, is precies dat potentiaalverschil tussen haar polen."),
         ]),
         dict(kop="Equipotentiaallijnen", blokken=[
-            ("p", "Een lijn waarop de potentiaal overal dezelfde is, heet een "
-                  "<strong>equipotentiaallijn</strong>. Ze staat altijd "
-                  "<strong>loodrecht op de veldlijnen</strong>. Rond één puntlading zien die lijnen "
-                  "eruit <strong>als cirkels rond de lading heen</strong>."),
-            ("p", "Een <strong>lading die je langs een equipotentiaallijn verplaatst, kost geen "
-                  "arbeid</strong>, want de potentiaal verandert niet. Zo staat er ook "
-                  "<strong>tussen twee punten op hetzelfde equipotentiaaloppervlak een spanning van "
-                  "nul</strong>."),
-            ("p", "In een <strong>homogeen veld</strong> geldt: "
-                  "<strong>de spanning is de veldsterkte maal de afstand</strong> en de "
-                  "<strong>equipotentiaallijnen zijn evenwijdige rechten</strong>. Staan twee platen "
-                  "<strong>2 cm uit elkaar met een veldsterkte van 5000 N/C</strong> ertussen, dan "
-                  "staat er <strong>100 V</strong> over."),
-            ("p", "Waarom staat er in de formule voor de potentiaal van een puntlading "
-                  "<strong>r en niet r kwadraat</strong>? Omdat <strong>potentiaal over energie "
-                  "gaat, en die telt de afstand maar één keer</strong>, terwijl een kracht ze twee "
-                  "keer meetelt."),
+            ("p", r"Een lijn waarop \(V\) overal dezelfde is, heet een <strong>equipotentiaallijn</strong> "
+                  r"(in de ruimte: een equipotentiaaloppervlak). Ze staat altijd <strong>loodrecht op de "
+                  r"veldlijnen</strong>."),
+            ("fig", svg.equipotentiaal(), "De stippellijnen zijn de equipotentiaallijnen, de volle lijnen "
+                                          "met een pijl de veldlijnen."),
+            ("p", r"Een lading langs zo'n lijn verplaatsen kost geen arbeid: \(V\) verandert niet, dus "
+                  r"\(E_{p}\) ook niet. Tussen twee punten op hetzelfde equipotentiaaloppervlak staat dan "
+                  r"ook \(U = 0\)."),
+            ("p", r"In een homogeen veld zijn de equipotentiaallijnen evenwijdige rechten en geldt"),
+            ("p", r"\[U = E\cdot d \qquad\Longleftrightarrow\qquad E = \dfrac{U}{d}\]"),
+            ("p", r"Staan twee platen \(2{,}0\ \text{cm}\) uit elkaar met \(E = 5000\ \text{N/C}\) ertussen, "
+                  r"dan is \(U = 5000\cdot 0{,}020 = 100\ \text{V}\). Daaruit zie je meteen waarom "
+                  r"\(\text{N/C}\) en \(\text{V/m}\) dezelfde eenheid zijn."),
         ]),
         dict(kop="De elektronvolt", blokken=[
-            ("p", "Voor deeltjes is de joule een onhandig grote eenheid. Daarom gebruikt men de "
-                  "<strong>elektronvolt</strong>: dat is <strong>ongeveer 1,6·10⁻¹⁹ J</strong>, de "
-                  "energie die één elektron wint als het een spanning van één volt doorloopt."),
-            ("p", "Daarom wint een <strong>elektron dat een spanning van 500 V doorloopt</strong> "
-                  "precies <strong>500 eV</strong>. Omgekeerd reken je "
-                  "<strong>joule om naar elektronvolt door te delen door 1,6·10⁻¹⁹</strong>."),
+            ("p", r"Voor deeltjes is de joule een onhandig grote eenheid. Daarom rekent men in "
+                  r"<strong>elektronvolt</strong>: de energie die één elementaire lading wint bij één volt."),
+            ("p", r"\[1\ \text{eV} = e\cdot 1\ \text{V} = 1{,}602\cdot 10^{-19}\ \text{J}\]"),
+            ("p", r"Een elektron dat \(500\ \text{V}\) doorloopt wint dus precies \(500\ \text{eV}\), of "
+                  r"\(8{,}0\cdot 10^{-17}\ \text{J}\). Van joule naar elektronvolt deel je door "
+                  r"\(1{,}602\cdot 10^{-19}\); omgekeerd vermenigvuldig je."),
         ]),
     ],
     onthoud=[
-        "Arbeid van de elektrische kracht hangt niet van de weg af.",
-        "Potentiële plus kinetische energie blijft behouden.",
-        "Potentiaal is energie per eenheid van lading, in volt.",
-        "Spanning is het verschil tussen twee potentialen.",
-        "Equipotentiaallijnen staan loodrecht op de veldlijnen.",
-        "Langs een equipotentiaallijn kost verplaatsen geen arbeid.",
-        "In een homogeen veld is U de veldsterkte maal de afstand.",
-        "Eén elektronvolt is ongeveer 1,6·10⁻¹⁹ joule.",
+        r"\(W = F\cdot d = q\cdot U\), en \(W = \Delta E_{k}\).",
+        r"\(W\) hangt niet van de weg af, enkel van begin- en eindpunt.",
+        r"\(E_{p} = q\cdot V\), en \(E_{k} + E_{p}\) blijft behouden.",
+        r"\(q\,U = \tfrac{1}{2}m\,v^{2}\), dus \(v = \sqrt{\dfrac{2q\,U}{m}}\).",
+        r"\(V = \dfrac{E_{p}}{q}\), in \(\text{V} = \text{J/C}\).",
+        r"\(U_{AB} = V_{A} - V_{B}\): een spanning hoort bij twee punten.",
+        r"\(V = k\dfrac{q}{r}\): één \(r\), en mét het teken van \(q\).",
+        r"Equipotentiaallijnen staan loodrecht op de veldlijnen.",
+        r"In een homogeen veld: \(U = E\cdot d\).",
+        r"\(1\ \text{eV} = 1{,}602\cdot 10^{-19}\ \text{J}\).",
     ],
 )
 
