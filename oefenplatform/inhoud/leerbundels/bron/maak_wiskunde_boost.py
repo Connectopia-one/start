@@ -940,42 +940,46 @@ BUNDELS["formules-omvormen-en-eerstegraadsvergelijkingen-boost-doorstroom"] = di
     onder="Termen en factoren, haakjes uitwerken en ontbinden, vergelijkingen en ongelijkheden oplossen, en formules naar een andere letter omvormen.",
     secties=[
         dict(kop="Termen en factoren", blokken=[
-            ("p", "Een <strong>term</strong> is een stuk dat door een plus of een min van de rest gescheiden "
-                  "is; een <strong>factor</strong> is een stuk dat vermenigvuldigd wordt. In 3x + 5y zijn 3x "
-                  "en 5y de twee termen; in 3xy zijn 3, x en y de factoren."),
-            ("p", "<strong>Gelijksoortige termen</strong> hebben precies dezelfde letters met dezelfde "
-                  "exponenten. Alleen die mag je samennemen: 3x + 5x is 8x, maar 3x + 5y blijft staan zoals "
-                  "het staat, en 3x + 3x² ook."),
-            ("p", "De <strong>graad</strong> van een vergelijking is de hoogste exponent van de onbekende. "
-                  "Een formule is <strong>lineair in x</strong> als x enkel in de <strong>eerste macht</strong> "
-                  "voorkomt, dus zonder kwadraat en zonder wortel. Een lineair verband tussen twee grootheden "
-                  "geeft een <strong>rechte</strong> als grafiek."),
+            ("p", r"Een <strong>term</strong> is een stuk dat door een plus of een min van de rest gescheiden "
+                  r"is; een <strong>factor</strong> is een stuk dat vermenigvuldigd wordt. In \(3x + 5y\) zijn "
+                  r"\(3x\) en \(5y\) de twee termen; in \(3xy\) zijn \(3\), \(x\) en \(y\) de factoren."),
+            ("p", r"<strong>Gelijksoortige termen</strong> hebben precies dezelfde letters met dezelfde "
+                  r"exponenten. Alleen die mag je samennemen: \(3x + 5x = 8x\), maar \(3x + 5y\) blijft staan "
+                  r"zoals het staat, en \(3x + 3x^{2}\) ook."),
+            ("p", r"De <strong>graad</strong> van een vergelijking is de hoogste exponent van de onbekende. "
+                  r"Een formule is <strong>lineair in \(x\)</strong> als \(x\) enkel in de <strong>eerste "
+                  r"macht</strong> voorkomt, dus zonder kwadraat en zonder wortel. Een lineair verband tussen "
+                  r"twee grootheden geeft een <strong>rechte</strong> als grafiek."),
         ]),
         dict(kop="Haakjes uitwerken", blokken=[
-            ("p", "Met de distributieve eigenschap: elke term binnen de haakjes wordt met de factor ervoor "
-                  "vermenigvuldigd."),
+            ("p", r"Met de distributieve eigenschap: elke term binnen de haakjes wordt met de factor ervoor "
+                  r"vermenigvuldigd."),
             ("p", tabel(["Uitdrukking", "Uitgewerkt"], [
-                ["3(x + 4)", "3x + 12"],
-                ["2(x + 4)", "2x + 8"],
-                ["−2(x − 5)", "−2x + 10"],
-                ["(x + 3)(x + 2)", "x² + 5x + 6"],
-                ["(x + 3)²", "x² + 6x + 9"],
-                ["(x − 3)²", "x² − 6x + 9"],
-                ["(x + 3)(x − 3)", "x² − 9"],
+                [r"\(3(x + 4)\)", r"\(3x + 12\)"],
+                [r"\(2(x + 4)\)", r"\(2x + 8\)"],
+                [r"\(-2(x - 5)\)", r"\(-2x + 10\)"],
+                [r"\((x + 3)(x + 2)\)", r"\(x^{2} + 5x + 6\)"],
+                [r"\((x + 3)^{2}\)", r"\(x^{2} + 6x + 9\)"],
+                [r"\((x - 3)^{2}\)", r"\(x^{2} - 6x + 9\)"],
+                [r"\((x + 3)(x - 3)\)", r"\(x^{2} - 9\)"],
             ])),
-            ("kader", "<strong>Let op het minteken vóór de haakjes.</strong> Bij −2(x − 5) verandert élke "
-                      "term van teken: je krijgt −2x + 10 en niet −2x − 10. Dat is de fout die het vaakst "
-                      "gemaakt wordt."),
-            ("p", "De laatste drie regels zijn de <strong>merkwaardige producten</strong>: "
-                  "(a + b)² = a² + 2ab + b², (a − b)² = a² − 2ab + b², en (a + b)(a − b) = a² − b². Je herkent "
-                  "ze zowel om uit te werken als om te ontbinden."),
+            ("kader", r"<strong>Let op het minteken vóór de haakjes.</strong> Bij \(-2(x - 5)\) verandert "
+                      r"élke term van teken: je krijgt \(-2x + 10\) en niet \(-2x - 10\). Dat is de fout die "
+                      r"het vaakst gemaakt wordt."),
+        ]),
+        dict(kop="De merkwaardige producten", blokken=[
+            ("p", r"De laatste drie regels van die tabel zijn de <strong>merkwaardige producten</strong>:"),
+            ("p", r"\[(a + b)^{2} = a^{2} + 2ab + b^{2}\]"),
+            ("p", r"\[(a - b)^{2} = a^{2} - 2ab + b^{2}\]"),
+            ("p", r"\[(a + b)(a - b) = a^{2} - b^{2}\]"),
+            ("p", r"Je herkent ze zowel om uit te werken als om te ontbinden."),
         ]),
         dict(kop="Ontbinden in factoren", blokken=[
             ("p", "Ontbinden is het omgekeerde van uitwerken: van een som een product maken."),
             ("p", tabel(["Techniek", "Voorbeeld", "Ontbonden"], [
-                ["gemeenschappelijke factor", "6x + 9", "3(2x + 3)"],
-                ["verschil van twee kwadraten", "x² − 16", "(x + 4)(x − 4)"],
-                ["volkomen kwadraat", "x² + 10x + 25", "(x + 5)²"],
+                ["gemeenschappelijke factor", r"\(6x + 9\)", r"\(3(2x + 3)\)"],
+                ["verschil van twee kwadraten", r"\(x^{2} - 16\)", r"\((x + 4)(x - 4)\)"],
+                ["volkomen kwadraat", r"\(x^{2} + 10x + 25\)", r"\((x + 5)^{2}\)"],
             ])),
             ("p", "Ontbinden is nuttig omdat een <strong>product nul is zodra één factor nul is</strong>."),
         ]),
@@ -983,54 +987,55 @@ BUNDELS["formules-omvormen-en-eerstegraadsvergelijkingen-boost-doorstroom"] = di
             ("p", "Een vergelijking is een <strong>balans</strong>: <strong>wat je links doet, moet je rechts "
                   "ook doen, anders klopt de gelijkheid niet meer</strong>. Je mag bij beide leden hetzelfde "
                   "optellen of aftrekken, en beide leden met hetzelfde getal vermenigvuldigen of erdoor delen."),
-            ("p", "Vermenigvuldig je beide leden met <strong>min 1</strong>, dan blijft de gelijkheid gewoon "
-                  "kloppen: alle tekens draaien om, links én rechts."),
+            ("p", r"Vermenigvuldig je beide leden met <strong>\(-1\)</strong>, dan blijft de gelijkheid gewoon "
+                  r"kloppen: alle tekens draaien om, links én rechts."),
             ("kader", "<strong>Wat nooit mag: beide leden delen door nul.</strong> En dus ook niet delen door "
                       "een <em>letter</em> waarvan je niet weet of ze nul is: daarmee laat je stiekem een "
                       "oplossing verdwijnen."),
         ]),
         dict(kop="Een vergelijking oplossen", blokken=[
             ("p", tabel(["Stap", "Wat je doet"], [
-                ["1", "haakjes uitwerken"],
-                ["2", "noemers wegwerken door met de kleinste gemene veelvoud te vermenigvuldigen"],
-                ["3", "alle termen met x naar links, alle getallen naar rechts"],
-                ["4", "gelijksoortige termen samennemen"],
-                ["5", "delen door de coëfficiënt van x"],
-                ["6", "de oplossing invullen in de oorspronkelijke vergelijking om te controleren"],
+                [r"\(1\)", "haakjes uitwerken"],
+                [r"\(2\)", "noemers wegwerken door met de kleinste gemene veelvoud te vermenigvuldigen"],
+                [r"\(3\)", r"alle termen met \(x\) naar links, alle getallen naar rechts"],
+                [r"\(4\)", "gelijksoortige termen samennemen"],
+                [r"\(5\)", r"delen door de coëfficiënt van \(x\)"],
+                [r"\(6\)", "de oplossing invullen in de oorspronkelijke vergelijking om te controleren"],
             ])),
             ("p", tabel(["Vergelijking", "Tussenstap", "Oplossing"], [
-                ["3x + 5 = 20", "3x = 15", "x = 5"],
-                ["5x − 3 = 12", "5x = 15", "x = 3"],
-                ["2x − 7 = x + 3", "x = 10", "x = 10"],
-                ["2(x + 4) = 18", "2x + 8 = 18", "x = 5"],
-                ["x/3 + 2 = 5", "x/3 = 3", "x = 9"],
+                [r"\(3x + 5 = 20\)", r"\(3x = 15\)", r"\(x = 5\)"],
+                [r"\(5x - 3 = 12\)", r"\(5x = 15\)", r"\(x = 3\)"],
+                [r"\(2x - 7 = x + 3\)", r"\(x - 7 = 3\)", r"\(x = 10\)"],
+                [r"\(2(x + 4) = 18\)", r"\(2x + 8 = 18\)", r"\(x = 5\)"],
+                [r"\(\tfrac{x}{3} + 2 = 5\)", r"\(\tfrac{x}{3} = 3\)", r"\(x = 9\)"],
             ])),
-            ("p", "Een eerstegraadsvergelijking heeft dus <strong>niet altijd precies één</strong> oplossing. "
-                  "Komt er <strong>0 = 0</strong> uit, dan is élke waarde van x een oplossing; komt er "
-                  "<strong>0 = 5</strong> uit, dan heeft de vergelijking <strong>geen</strong> oplossing."),
-            ("p", "<strong>Grafisch oplossen</strong> kan ook: teken het linkerlid en het rechterlid elk als "
-                  "een functie en zoek het <strong>snijpunt</strong>. De x-waarde van dat snijpunt is de "
-                  "oplossing."),
+            ("p", r"Een eerstegraadsvergelijking heeft dus <strong>niet altijd precies één</strong> oplossing. "
+                  r"Komt er <strong>\(0 = 0\)</strong> uit, dan is élke waarde van \(x\) een oplossing; komt er "
+                  r"<strong>\(0 = 5\)</strong> uit, dan heeft de vergelijking <strong>geen</strong> oplossing "
+                  r"en is de oplossingenverzameling \(\emptyset\)."),
+            ("p", r"<strong>Grafisch oplossen</strong> kan ook: teken het linkerlid en het rechterlid elk als "
+                  r"een functie en zoek het <strong>snijpunt</strong>. De \(x\)-waarde van dat snijpunt is de "
+                  r"oplossing."),
         ]),
         dict(kop="Nulwaarden en tekenverloop", blokken=[
-            ("p", "De <strong>nulwaarde</strong> van een functie is de x-waarde waarvoor de functiewaarde nul "
-                  "is. De oplossing van <strong>f(x) = 0</strong> is dus precies de x-waarde waar de grafiek "
-                  "de <strong>x-as snijdt</strong>."),
-            ("p", "De oplossing van <strong>f(x) > 0</strong> lees je af uit het "
-                  "<strong>tekenverloop</strong>: waar staat de functie positief? Zo wordt een ongelijkheid "
-                  "een vraag over de grafiek."),
+            ("p", r"De <strong>nulwaarde</strong> van een functie is de \(x\)-waarde waarvoor de functiewaarde "
+                  r"nul is. De oplossing van <strong>\(f(x) = 0\)</strong> is dus precies de \(x\)-waarde waar "
+                  r"de grafiek de <strong>\(x\)-as snijdt</strong>."),
+            ("p", r"De oplossing van <strong>\(f(x) > 0\)</strong> lees je af uit het "
+                  r"<strong>tekenverloop</strong>: waar staat de functie positief? Zo wordt een ongelijkheid "
+                  r"een vraag over de grafiek."),
         ]),
         dict(kop="Ongelijkheden", blokken=[
             ("p", "Een <strong>ongelijkheid</strong> los je op zoals een vergelijking, met één extra regel: "
                   "<strong>vermenigvuldig of deel je door een negatief getal, dan draait het teken om</strong>. "
                   "Bij delen door een <em>positief</em> getal gebeurt er niets met het teken."),
-            ("p", "Uit −3x > 9 volgt dus x < −3, en uit −2x > 6 volgt x < −3."),
+            ("p", r"Uit \(-3x > 9\) volgt dus \(x < -3\), en uit \(-2x > 6\) volgt \(x < -3\)."),
             ("p", "De <strong>oplossingenverzameling</strong> van een ongelijkheid noteer je meestal als een "
                   "<strong>interval</strong>:"),
             ("p", tabel(["Ongelijkheid", "In woorden", "Als interval"], [
-                ["x ≥ 3", "alle x groter dan of gelijk aan 3", "[3, +∞["],
-                ["x ≤ 4", "alle x kleiner dan of gelijk aan 4", "]−∞, 4]"],
-                ["x < −3", "alle x kleiner dan min 3", "]−∞, −3["],
+                [r"\(x \geq 3\)", r"alle \(x\) groter dan of gelijk aan \(3\)", r"\(\left[3, +\infty\right[\)"],
+                [r"\(x \leq 4\)", r"alle \(x\) kleiner dan of gelijk aan \(4\)", r"\(\left]-\infty, 4\right]\)"],
+                [r"\(x < -3\)", r"alle \(x\) kleiner dan \(-3\)", r"\(\left]-\infty, -3\right[\)"],
             ])),
         ]),
         dict(kop="Formules omvormen", blokken=[
@@ -1038,27 +1043,30 @@ BUNDELS["formules-omvormen-en-eerstegraadsvergelijkingen-boost-doorstroom"] = di
                   "zoekt. Werk van buiten naar binnen: eerst de breuk weg, dan de optelling, dan de "
                   "vermenigvuldiging, en pas op het einde de wortel of het kwadraat."),
             ("p", tabel(["Formule", "Wat het is", "Omgevormd"], [
-                ["ρ = m / V", "massadichtheid is massa gedeeld door volume", "m = ρ · V"],
-                ["U = I · R", "de wet van Ohm: spanning is stroom maal weerstand", "R = U / I"],
-                ["F = m · g", "de zwaartekracht is massa maal valversnelling", "m = F / g"],
-                ["p = F / A", "druk is kracht gedeeld door oppervlakte", "A = F / p"],
-                ["x = x₀ + v · t", "eenparig rechtlijnige beweging", "t = (x − x₀) / v"],
-                ["c = n / V", "molaire concentratie is aantal mol per volume", "V = n / c"],
-                ["F = k · u", "veerkracht is veerconstante maal uitrekking", "u = F / k"],
-                ["O = z²", "de oppervlakte van een vierkant", "z = √O, de vierkantswortel van O"],
-                ["y = ax + b", "de eerstegraadsfunctie", "x = (y − b) / a"],
+                [r"\(\rho = \tfrac{m}{V}\)", "massadichtheid is massa per volume", r"\(m = \rho \cdot V\)"],
+                [r"\(U = I \cdot R\)", "de wet van Ohm: spanning, stroom en weerstand", r"\(R = \tfrac{U}{I}\)"],
+                [r"\(F = m \cdot g\)", "de zwaartekracht", r"\(m = \tfrac{F}{g}\)"],
+                [r"\(p = \tfrac{F}{A}\)", "druk is kracht per oppervlakte", r"\(A = \tfrac{F}{p}\)"],
+                [r"\(x = x_{0} + v \cdot t\)", "eenparig rechtlijnige beweging", r"\(t = \tfrac{x - x_{0}}{v}\)"],
+                [r"\(c = \tfrac{n}{V}\)", "molaire concentratie", r"\(V = \tfrac{n}{c}\)"],
+                [r"\(F = k \cdot u\)", "veerkracht: veerconstante maal uitrekking", r"\(u = \tfrac{F}{k}\)"],
+                [r"\(A = z^{2}\)", "de oppervlakte van een vierkant", r"\(z = \sqrt{A}\)"],
+                [r"\(y = ax + b\)", "de eerstegraadsfunctie", r"\(x = \tfrac{y - b}{a}\)"],
             ])),
-            ("p", "Met die omgevormde formules reken je meteen: 3 liter water met een dichtheid van 1 kg per "
-                  "liter weegt <strong>3 kg</strong>; bij 12 volt en 3 ampère is de weerstand "
-                  "12 : 3 = <strong>4 ohm</strong>; een vierkant met oppervlakte 49 heeft een zijde van "
-                  "<strong>7</strong>."),
-            ("p", "Uit p = F / A lees je ook af wat er gebeurt als je de <strong>oppervlakte kleiner</strong> "
-                  "maakt bij dezelfde kracht: de <strong>druk wordt groter</strong>. Daarom prikt een naald "
-                  "wel en een vingertop niet."),
-            ("kader", "Niet elke formule is lineair. Bij de <strong>kinetische energie</strong>, "
-                      "E = ½ · m · v², staat de snelheid in het <strong>kwadraat</strong>. Verdubbelt de "
-                      "snelheid, dan wordt de energie <strong>vier</strong> keer zo groot. De energie is dus "
-                      "<em>niet</em> recht evenredig met de snelheid."),
+        ]),
+        dict(kop="De omgevormde formule gebruiken", blokken=[
+            ("p", r"Met die omgevormde formules reken je meteen: \(3\) liter water met \(\rho = 1\) kg per "
+                  r"liter weegt <strong>\(3\) kg</strong>; bij \(U = 12\) volt en \(I = 3\) ampère is "
+                  r"\(R = \tfrac{12}{3} = \) <strong>\(4\) ohm</strong>; een vierkant met oppervlakte \(49\) "
+                  r"heeft een zijde van <strong>\(7\)</strong>."),
+            ("p", r"Uit \(p = \tfrac{F}{A}\) lees je ook af wat er gebeurt als je de <strong>oppervlakte "
+                  r"kleiner</strong> maakt bij dezelfde kracht: de <strong>druk wordt groter</strong>. Daarom "
+                  r"prikt een naald wel en een vingertop niet."),
+            ("kader", r"Niet elke formule is lineair. Bij de <strong>kinetische energie</strong> "
+                      r"\(E_{k} = \tfrac{1}{2}mv^{2}\) staat de snelheid in het <strong>kwadraat</strong>: "
+                      r"\((2v)^{2} = 4v^{2}\). Verdubbelt de snelheid, dan wordt de energie "
+                      r"<strong>vier</strong> keer zo groot. De energie is dus <em>niet</em> recht evenredig "
+                      r"met de snelheid."),
             ("weetje", "Controleer je omvorming altijd met een <strong>getallenvoorbeeld</strong> dat je al "
                        "kent: een tekenfout of een verkeerde bewerking valt dan meteen op, en dat merk je "
                        "liever nu dan op het examen."),
@@ -1066,31 +1074,33 @@ BUNDELS["formules-omvormen-en-eerstegraadsvergelijkingen-boost-doorstroom"] = di
         dict(kop="Vraagstukken met één onbekende", blokken=[
             ("p", "Kies een onbekende, schrijf op waar ze voor staat, vertaal de zinnen in een vergelijking, "
                   "los op, en controleer of het antwoord bij het verhaal past."),
-            ("p", "<em>De som van drie opeenvolgende getallen is 48.</em> Noem het kleinste x, dan zijn de "
-                  "andere x + 1 en x + 2. Samen 3x + 3 = 48, dus x = 15 en de getallen zijn 15, 16 en 17."),
-            ("p", "<em>Een taxi vraagt 4 euro opstap en 1,5 euro per kilometer.</em> Bij een rit van 19 euro "
-                  "hoort de vergelijking <strong>4 + 1,5x = 19</strong>, dus 1,5x = 15 en x = <strong>10 "
-                  "kilometer</strong>."),
-            ("p", "<em>Twee abonnementen: A kost 20 euro plus 0,10 euro per minuut, B kost 8 euro plus 0,20 "
-                  "euro per minuut. Vanaf wanneer is A goedkoper?</em> Zet ze gelijk: 20 + 0,10x = 8 + 0,20x "
-                  "geeft 12 = 0,10x en dus x = 120. Vanaf <strong>meer dan 120 minuten</strong> is A "
-                  "goedkoper. Het snijpunt van de twee rechten is precies het omslagpunt."),
+            ("p", r"<em>De som van drie opeenvolgende getallen is \(48\).</em> Noem het kleinste \(x\), dan "
+                  r"zijn de andere \(x + 1\) en \(x + 2\). Samen \(3x + 3 = 48\), dus \(x = 15\) en de getallen "
+                  r"zijn \(15\), \(16\) en \(17\)."),
+            ("p", r"<em>Een taxi vraagt \(4\) euro opstap en \(1{,}5\) euro per kilometer.</em> Bij een rit van "
+                  r"\(19\) euro hoort de vergelijking <strong>\(4 + 1{,}5x = 19\)</strong>, dus "
+                  r"\(1{,}5x = 15\) en \(x = \) <strong>\(10\) kilometer</strong>."),
+            ("p", r"<em>Twee abonnementen: A kost \(20\) euro plus \(0{,}10\) euro per minuut, B kost \(8\) "
+                  r"euro plus \(0{,}20\) euro per minuut. Vanaf wanneer is A goedkoper?</em> Zet ze gelijk: "
+                  r"\(20 + 0{,}10x = 8 + 0{,}20x\) geeft \(12 = 0{,}10x\) en dus \(x = 120\). Vanaf "
+                  r"<strong>meer dan \(120\) minuten</strong> is A goedkoper. Het snijpunt van de twee rechten "
+                  r"is precies het omslagpunt."),
         ]),
     ],
     onthoud=[
-        "Alleen gelijksoortige termen mag je samennemen: 3x + 5x = 8x, maar 3x + 5y niet.",
-        "Lineair in x betekent: x enkel in de eerste macht, dus de grafiek is een rechte.",
+        r"Alleen gelijksoortige termen mag je samennemen: \(3x + 5x = 8x\), maar \(3x + 5y\) niet.",
+        r"Lineair in \(x\) betekent: \(x\) enkel in de eerste macht, dus de grafiek is een rechte.",
         "Bij een minteken voor de haakjes verandert elke term van teken.",
-        "(a + b)² = a² + 2ab + b², (a − b)² = a² − 2ab + b², (a + b)(a − b) = a² − b².",
+        r"\((a + b)^{2} = a^{2} + 2ab + b^{2}\) en \((a + b)(a - b) = a^{2} - b^{2}\).",
         "Wat je links doet, doe je rechts; delen door nul of door een letter die nul kan zijn mag nooit.",
-        "0 = 0 betekent elke x is een oplossing; 0 = 5 betekent geen enkele.",
+        r"\(0 = 0\) betekent elke \(x\) is een oplossing; \(0 = 5\) betekent geen enkele.",
         "Grafisch oplossen: teken beide leden als functie en zoek het snijpunt.",
-        "De nulwaarde is de x waar de grafiek de x-as snijdt; f(x) > 0 lees je uit het tekenverloop.",
+        r"De nulwaarde is de \(x\) waar de grafiek de \(x\)-as snijdt; \(f(x) > 0\) lees je uit het tekenverloop.",
         "Bij delen door een negatief getal draait het ongelijkheidsteken om; bij een positief niet.",
-        "De oplossingenverzameling van een ongelijkheid noteer je als interval: x ≤ 4 wordt ]−∞, 4].",
+        r"\(x \leq 4\) wordt als interval \(\left]-\infty, 4\right]\).",
         "Een formule omvormen: de gezochte letter isoleren, van buiten naar binnen.",
         "Controleer elke omvorming met een getallenvoorbeeld.",
-        "E = ½mv²: bij dubbele snelheid vier keer zoveel energie, dus niet recht evenredig.",
+        r"\(E_{k} = \tfrac{1}{2}mv^{2}\): bij dubbele snelheid vier keer zoveel energie.",
     ],
 )
 

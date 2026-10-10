@@ -8,15 +8,15 @@
    "blokken": [
     {
      "soort": "tekst",
-     "html": "Een <strong>term</strong> is een stuk dat door een plus of een min van de rest gescheiden is; een <strong>factor</strong> is een stuk dat vermenigvuldigd wordt. In 3x + 5y zijn 3x en 5y de twee termen; in 3xy zijn 3, x en y de factoren."
+     "html": "Een <strong>term</strong> is een stuk dat door een plus of een min van de rest gescheiden is; een <strong>factor</strong> is een stuk dat vermenigvuldigd wordt. In \\(3x + 5y\\) zijn \\(3x\\) en \\(5y\\) de twee termen; in \\(3xy\\) zijn \\(3\\), \\(x\\) en \\(y\\) de factoren."
     },
     {
      "soort": "tekst",
-     "html": "<strong>Gelijksoortige termen</strong> hebben precies dezelfde letters met dezelfde exponenten. Alleen die mag je samennemen: 3x + 5x is 8x, maar 3x + 5y blijft staan zoals het staat, en 3x + 3x² ook."
+     "html": "<strong>Gelijksoortige termen</strong> hebben precies dezelfde letters met dezelfde exponenten. Alleen die mag je samennemen: \\(3x + 5x = 8x\\), maar \\(3x + 5y\\) blijft staan zoals het staat, en \\(3x + 3x^{2}\\) ook."
     },
     {
      "soort": "tekst",
-     "html": "De <strong>graad</strong> van een vergelijking is de hoogste exponent van de onbekende. Een formule is <strong>lineair in x</strong> als x enkel in de <strong>eerste macht</strong> voorkomt, dus zonder kwadraat en zonder wortel. Een lineair verband tussen twee grootheden geeft een <strong>rechte</strong> als grafiek."
+     "html": "De <strong>graad</strong> van een vergelijking is de hoogste exponent van de onbekende. Een formule is <strong>lineair in \\(x\\)</strong> als \\(x\\) enkel in de <strong>eerste macht</strong> voorkomt, dus zonder kwadraat en zonder wortel. Een lineair verband tussen twee grootheden geeft een <strong>rechte</strong> als grafiek."
     }
    ]
   },
@@ -29,15 +29,36 @@
     },
     {
      "soort": "tekst",
-     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Uitdrukking</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Uitgewerkt</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">3(x + 4)</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">3x + 12</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">2(x + 4)</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">2x + 8</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">−2(x − 5)</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">−2x + 10</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">(x + 3)(x + 2)</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">x² + 5x + 6</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">(x + 3)²</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">x² + 6x + 9</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">(x − 3)²</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">x² − 6x + 9</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">(x + 3)(x − 3)</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">x² − 9</td></tr></table>"
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Uitdrukking</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Uitgewerkt</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">\\(3(x + 4)\\)</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">\\(3x + 12\\)</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">\\(2(x + 4)\\)</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">\\(2x + 8\\)</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">\\(-2(x - 5)\\)</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">\\(-2x + 10\\)</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">\\((x + 3)(x + 2)\\)</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">\\(x^{2} + 5x + 6\\)</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">\\((x + 3)^{2}\\)</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">\\(x^{2} + 6x + 9\\)</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">\\((x - 3)^{2}\\)</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">\\(x^{2} - 6x + 9\\)</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">\\((x + 3)(x - 3)\\)</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">\\(x^{2} - 9\\)</td></tr></table>"
     },
     {
      "soort": "kader",
-     "html": "<strong>Let op het minteken vóór de haakjes.</strong> Bij −2(x − 5) verandert élke term van teken: je krijgt −2x + 10 en niet −2x − 10. Dat is de fout die het vaakst gemaakt wordt."
+     "html": "<strong>Let op het minteken vóór de haakjes.</strong> Bij \\(-2(x - 5)\\) verandert élke term van teken: je krijgt \\(-2x + 10\\) en niet \\(-2x - 10\\). Dat is de fout die het vaakst gemaakt wordt."
+    }
+   ]
+  },
+  {
+   "kop": "De merkwaardige producten",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "De laatste drie regels van die tabel zijn de <strong>merkwaardige producten</strong>:"
     },
     {
      "soort": "tekst",
-     "html": "De laatste drie regels zijn de <strong>merkwaardige producten</strong>: (a + b)² = a² + 2ab + b², (a − b)² = a² − 2ab + b², en (a + b)(a − b) = a² − b². Je herkent ze zowel om uit te werken als om te ontbinden."
+     "html": "\\[(a + b)^{2} = a^{2} + 2ab + b^{2}\\]"
+    },
+    {
+     "soort": "tekst",
+     "html": "\\[(a - b)^{2} = a^{2} - 2ab + b^{2}\\]"
+    },
+    {
+     "soort": "tekst",
+     "html": "\\[(a + b)(a - b) = a^{2} - b^{2}\\]"
+    },
+    {
+     "soort": "tekst",
+     "html": "Je herkent ze zowel om uit te werken als om te ontbinden."
     }
    ]
   },
@@ -50,7 +71,7 @@
     },
     {
      "soort": "tekst",
-     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Techniek</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Voorbeeld</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Ontbonden</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">gemeenschappelijke factor</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">6x + 9</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">3(2x + 3)</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">verschil van twee kwadraten</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">x² − 16</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">(x + 4)(x − 4)</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">volkomen kwadraat</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">x² + 10x + 25</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">(x + 5)²</td></tr></table>"
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Techniek</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Voorbeeld</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Ontbonden</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">gemeenschappelijke factor</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">\\(6x + 9\\)</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">\\(3(2x + 3)\\)</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">verschil van twee kwadraten</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">\\(x^{2} - 16\\)</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">\\((x + 4)(x - 4)\\)</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">volkomen kwadraat</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">\\(x^{2} + 10x + 25\\)</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">\\((x + 5)^{2}\\)</td></tr></table>"
     },
     {
      "soort": "tekst",
@@ -67,7 +88,7 @@
     },
     {
      "soort": "tekst",
-     "html": "Vermenigvuldig je beide leden met <strong>min 1</strong>, dan blijft de gelijkheid gewoon kloppen: alle tekens draaien om, links én rechts."
+     "html": "Vermenigvuldig je beide leden met <strong>\\(-1\\)</strong>, dan blijft de gelijkheid gewoon kloppen: alle tekens draaien om, links én rechts."
     },
     {
      "soort": "kader",
@@ -80,19 +101,19 @@
    "blokken": [
     {
      "soort": "tekst",
-     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Stap</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Wat je doet</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">1</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">haakjes uitwerken</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">2</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">noemers wegwerken door met de kleinste gemene veelvoud te vermenigvuldigen</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">3</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">alle termen met x naar links, alle getallen naar rechts</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">4</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">gelijksoortige termen samennemen</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">5</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">delen door de coëfficiënt van x</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">6</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">de oplossing invullen in de oorspronkelijke vergelijking om te controleren</td></tr></table>"
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Stap</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Wat je doet</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">\\(1\\)</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">haakjes uitwerken</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">\\(2\\)</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">noemers wegwerken door met de kleinste gemene veelvoud te vermenigvuldigen</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">\\(3\\)</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">alle termen met \\(x\\) naar links, alle getallen naar rechts</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">\\(4\\)</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">gelijksoortige termen samennemen</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">\\(5\\)</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">delen door de coëfficiënt van \\(x\\)</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">\\(6\\)</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">de oplossing invullen in de oorspronkelijke vergelijking om te controleren</td></tr></table>"
     },
     {
      "soort": "tekst",
-     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Vergelijking</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Tussenstap</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Oplossing</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">3x + 5 = 20</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">3x = 15</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">x = 5</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">5x − 3 = 12</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">5x = 15</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">x = 3</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">2x − 7 = x + 3</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">x = 10</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">x = 10</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">2(x + 4) = 18</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">2x + 8 = 18</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">x = 5</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">x/3 + 2 = 5</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">x/3 = 3</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">x = 9</td></tr></table>"
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Vergelijking</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Tussenstap</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Oplossing</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">\\(3x + 5 = 20\\)</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">\\(3x = 15\\)</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">\\(x = 5\\)</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">\\(5x - 3 = 12\\)</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">\\(5x = 15\\)</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">\\(x = 3\\)</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">\\(2x - 7 = x + 3\\)</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">\\(x - 7 = 3\\)</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">\\(x = 10\\)</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">\\(2(x + 4) = 18\\)</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">\\(2x + 8 = 18\\)</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">\\(x = 5\\)</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">\\(\\tfrac{x}{3} + 2 = 5\\)</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">\\(\\tfrac{x}{3} = 3\\)</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">\\(x = 9\\)</td></tr></table>"
     },
     {
      "soort": "tekst",
-     "html": "Een eerstegraadsvergelijking heeft dus <strong>niet altijd precies één</strong> oplossing. Komt er <strong>0 = 0</strong> uit, dan is élke waarde van x een oplossing; komt er <strong>0 = 5</strong> uit, dan heeft de vergelijking <strong>geen</strong> oplossing."
+     "html": "Een eerstegraadsvergelijking heeft dus <strong>niet altijd precies één</strong> oplossing. Komt er <strong>\\(0 = 0\\)</strong> uit, dan is élke waarde van \\(x\\) een oplossing; komt er <strong>\\(0 = 5\\)</strong> uit, dan heeft de vergelijking <strong>geen</strong> oplossing en is de oplossingenverzameling \\(\\emptyset\\)."
     },
     {
      "soort": "tekst",
-     "html": "<strong>Grafisch oplossen</strong> kan ook: teken het linkerlid en het rechterlid elk als een functie en zoek het <strong>snijpunt</strong>. De x-waarde van dat snijpunt is de oplossing."
+     "html": "<strong>Grafisch oplossen</strong> kan ook: teken het linkerlid en het rechterlid elk als een functie en zoek het <strong>snijpunt</strong>. De \\(x\\)-waarde van dat snijpunt is de oplossing."
     }
    ]
   },
@@ -101,11 +122,11 @@
    "blokken": [
     {
      "soort": "tekst",
-     "html": "De <strong>nulwaarde</strong> van een functie is de x-waarde waarvoor de functiewaarde nul is. De oplossing van <strong>f(x) = 0</strong> is dus precies de x-waarde waar de grafiek de <strong>x-as snijdt</strong>."
+     "html": "De <strong>nulwaarde</strong> van een functie is de \\(x\\)-waarde waarvoor de functiewaarde nul is. De oplossing van <strong>\\(f(x) = 0\\)</strong> is dus precies de \\(x\\)-waarde waar de grafiek de <strong>\\(x\\)-as snijdt</strong>."
     },
     {
      "soort": "tekst",
-     "html": "De oplossing van <strong>f(x) > 0</strong> lees je af uit het <strong>tekenverloop</strong>: waar staat de functie positief? Zo wordt een ongelijkheid een vraag over de grafiek."
+     "html": "De oplossing van <strong>\\(f(x) > 0\\)</strong> lees je af uit het <strong>tekenverloop</strong>: waar staat de functie positief? Zo wordt een ongelijkheid een vraag over de grafiek."
     }
    ]
   },
@@ -118,7 +139,7 @@
     },
     {
      "soort": "tekst",
-     "html": "Uit −3x > 9 volgt dus x < −3, en uit −2x > 6 volgt x < −3."
+     "html": "Uit \\(-3x > 9\\) volgt dus \\(x < -3\\), en uit \\(-2x > 6\\) volgt \\(x < -3\\)."
     },
     {
      "soort": "tekst",
@@ -126,7 +147,7 @@
     },
     {
      "soort": "tekst",
-     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Ongelijkheid</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">In woorden</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Als interval</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">x ≥ 3</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">alle x groter dan of gelijk aan 3</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">[3, +∞[</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">x ≤ 4</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">alle x kleiner dan of gelijk aan 4</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">]−∞, 4]</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">x < −3</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">alle x kleiner dan min 3</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">]−∞, −3[</td></tr></table>"
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Ongelijkheid</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">In woorden</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Als interval</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">\\(x \\geq 3\\)</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">alle \\(x\\) groter dan of gelijk aan \\(3\\)</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">\\(\\left[3, +\\infty\\right[\\)</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">\\(x \\leq 4\\)</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">alle \\(x\\) kleiner dan of gelijk aan \\(4\\)</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">\\(\\left]-\\infty, 4\\right]\\)</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">\\(x < -3\\)</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">alle \\(x\\) kleiner dan \\(-3\\)</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">\\(\\left]-\\infty, -3\\right[\\)</td></tr></table>"
     }
    ]
   },
@@ -139,19 +160,24 @@
     },
     {
      "soort": "tekst",
-     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Formule</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Wat het is</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Omgevormd</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">ρ = m / V</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">massadichtheid is massa gedeeld door volume</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">m = ρ · V</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">U = I · R</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">de wet van Ohm: spanning is stroom maal weerstand</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">R = U / I</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">F = m · g</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">de zwaartekracht is massa maal valversnelling</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">m = F / g</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">p = F / A</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">druk is kracht gedeeld door oppervlakte</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">A = F / p</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">x = x₀ + v · t</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">eenparig rechtlijnige beweging</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">t = (x − x₀) / v</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">c = n / V</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">molaire concentratie is aantal mol per volume</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">V = n / c</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">F = k · u</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">veerkracht is veerconstante maal uitrekking</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">u = F / k</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">O = z²</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">de oppervlakte van een vierkant</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">z = √O, de vierkantswortel van O</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">y = ax + b</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">de eerstegraadsfunctie</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">x = (y − b) / a</td></tr></table>"
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Formule</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Wat het is</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Omgevormd</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">\\(\\rho = \\tfrac{m}{V}\\)</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">massadichtheid is massa per volume</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">\\(m = \\rho \\cdot V\\)</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">\\(U = I \\cdot R\\)</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">de wet van Ohm: spanning, stroom en weerstand</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">\\(R = \\tfrac{U}{I}\\)</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">\\(F = m \\cdot g\\)</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">de zwaartekracht</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">\\(m = \\tfrac{F}{g}\\)</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">\\(p = \\tfrac{F}{A}\\)</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">druk is kracht per oppervlakte</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">\\(A = \\tfrac{F}{p}\\)</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">\\(x = x_{0} + v \\cdot t\\)</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">eenparig rechtlijnige beweging</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">\\(t = \\tfrac{x - x_{0}}{v}\\)</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">\\(c = \\tfrac{n}{V}\\)</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">molaire concentratie</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">\\(V = \\tfrac{n}{c}\\)</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">\\(F = k \\cdot u\\)</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">veerkracht: veerconstante maal uitrekking</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">\\(u = \\tfrac{F}{k}\\)</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">\\(A = z^{2}\\)</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">de oppervlakte van een vierkant</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">\\(z = \\sqrt{A}\\)</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">\\(y = ax + b\\)</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">de eerstegraadsfunctie</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">\\(x = \\tfrac{y - b}{a}\\)</td></tr></table>"
+    }
+   ]
+  },
+  {
+   "kop": "De omgevormde formule gebruiken",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Met die omgevormde formules reken je meteen: \\(3\\) liter water met \\(\\rho = 1\\) kg per liter weegt <strong>\\(3\\) kg</strong>; bij \\(U = 12\\) volt en \\(I = 3\\) ampère is \\(R = \\tfrac{12}{3} = \\) <strong>\\(4\\) ohm</strong>; een vierkant met oppervlakte \\(49\\) heeft een zijde van <strong>\\(7\\)</strong>."
     },
     {
      "soort": "tekst",
-     "html": "Met die omgevormde formules reken je meteen: 3 liter water met een dichtheid van 1 kg per liter weegt <strong>3 kg</strong>; bij 12 volt en 3 ampère is de weerstand 12 : 3 = <strong>4 ohm</strong>; een vierkant met oppervlakte 49 heeft een zijde van <strong>7</strong>."
-    },
-    {
-     "soort": "tekst",
-     "html": "Uit p = F / A lees je ook af wat er gebeurt als je de <strong>oppervlakte kleiner</strong> maakt bij dezelfde kracht: de <strong>druk wordt groter</strong>. Daarom prikt een naald wel en een vingertop niet."
+     "html": "Uit \\(p = \\tfrac{F}{A}\\) lees je ook af wat er gebeurt als je de <strong>oppervlakte kleiner</strong> maakt bij dezelfde kracht: de <strong>druk wordt groter</strong>. Daarom prikt een naald wel en een vingertop niet."
     },
     {
      "soort": "kader",
-     "html": "Niet elke formule is lineair. Bij de <strong>kinetische energie</strong>, E = ½ · m · v², staat de snelheid in het <strong>kwadraat</strong>. Verdubbelt de snelheid, dan wordt de energie <strong>vier</strong> keer zo groot. De energie is dus <em>niet</em> recht evenredig met de snelheid."
+     "html": "Niet elke formule is lineair. Bij de <strong>kinetische energie</strong> \\(E_{k} = \\tfrac{1}{2}mv^{2}\\) staat de snelheid in het <strong>kwadraat</strong>: \\((2v)^{2} = 4v^{2}\\). Verdubbelt de snelheid, dan wordt de energie <strong>vier</strong> keer zo groot. De energie is dus <em>niet</em> recht evenredig met de snelheid."
     },
     {
      "soort": "weetje",
@@ -168,32 +194,32 @@
     },
     {
      "soort": "tekst",
-     "html": "<em>De som van drie opeenvolgende getallen is 48.</em> Noem het kleinste x, dan zijn de andere x + 1 en x + 2. Samen 3x + 3 = 48, dus x = 15 en de getallen zijn 15, 16 en 17."
+     "html": "<em>De som van drie opeenvolgende getallen is \\(48\\).</em> Noem het kleinste \\(x\\), dan zijn de andere \\(x + 1\\) en \\(x + 2\\). Samen \\(3x + 3 = 48\\), dus \\(x = 15\\) en de getallen zijn \\(15\\), \\(16\\) en \\(17\\)."
     },
     {
      "soort": "tekst",
-     "html": "<em>Een taxi vraagt 4 euro opstap en 1,5 euro per kilometer.</em> Bij een rit van 19 euro hoort de vergelijking <strong>4 + 1,5x = 19</strong>, dus 1,5x = 15 en x = <strong>10 kilometer</strong>."
+     "html": "<em>Een taxi vraagt \\(4\\) euro opstap en \\(1{,}5\\) euro per kilometer.</em> Bij een rit van \\(19\\) euro hoort de vergelijking <strong>\\(4 + 1{,}5x = 19\\)</strong>, dus \\(1{,}5x = 15\\) en \\(x = \\) <strong>\\(10\\) kilometer</strong>."
     },
     {
      "soort": "tekst",
-     "html": "<em>Twee abonnementen: A kost 20 euro plus 0,10 euro per minuut, B kost 8 euro plus 0,20 euro per minuut. Vanaf wanneer is A goedkoper?</em> Zet ze gelijk: 20 + 0,10x = 8 + 0,20x geeft 12 = 0,10x en dus x = 120. Vanaf <strong>meer dan 120 minuten</strong> is A goedkoper. Het snijpunt van de twee rechten is precies het omslagpunt."
+     "html": "<em>Twee abonnementen: A kost \\(20\\) euro plus \\(0{,}10\\) euro per minuut, B kost \\(8\\) euro plus \\(0{,}20\\) euro per minuut. Vanaf wanneer is A goedkoper?</em> Zet ze gelijk: \\(20 + 0{,}10x = 8 + 0{,}20x\\) geeft \\(12 = 0{,}10x\\) en dus \\(x = 120\\). Vanaf <strong>meer dan \\(120\\) minuten</strong> is A goedkoper. Het snijpunt van de twee rechten is precies het omslagpunt."
     }
    ]
   }
  ],
  "onthoud": [
-  "Alleen gelijksoortige termen mag je samennemen: 3x + 5x = 8x, maar 3x + 5y niet.",
-  "Lineair in x betekent: x enkel in de eerste macht, dus de grafiek is een rechte.",
+  "Alleen gelijksoortige termen mag je samennemen: \\(3x + 5x = 8x\\), maar \\(3x + 5y\\) niet.",
+  "Lineair in \\(x\\) betekent: \\(x\\) enkel in de eerste macht, dus de grafiek is een rechte.",
   "Bij een minteken voor de haakjes verandert elke term van teken.",
-  "(a + b)² = a² + 2ab + b², (a − b)² = a² − 2ab + b², (a + b)(a − b) = a² − b².",
+  "\\((a + b)^{2} = a^{2} + 2ab + b^{2}\\) en \\((a + b)(a - b) = a^{2} - b^{2}\\).",
   "Wat je links doet, doe je rechts; delen door nul of door een letter die nul kan zijn mag nooit.",
-  "0 = 0 betekent elke x is een oplossing; 0 = 5 betekent geen enkele.",
+  "\\(0 = 0\\) betekent elke \\(x\\) is een oplossing; \\(0 = 5\\) betekent geen enkele.",
   "Grafisch oplossen: teken beide leden als functie en zoek het snijpunt.",
-  "De nulwaarde is de x waar de grafiek de x-as snijdt; f(x) > 0 lees je uit het tekenverloop.",
+  "De nulwaarde is de \\(x\\) waar de grafiek de \\(x\\)-as snijdt; \\(f(x) > 0\\) lees je uit het tekenverloop.",
   "Bij delen door een negatief getal draait het ongelijkheidsteken om; bij een positief niet.",
-  "De oplossingenverzameling van een ongelijkheid noteer je als interval: x ≤ 4 wordt ]−∞, 4].",
+  "\\(x \\leq 4\\) wordt als interval \\(\\left]-\\infty, 4\\right]\\).",
   "Een formule omvormen: de gezochte letter isoleren, van buiten naar binnen.",
   "Controleer elke omvorming met een getallenvoorbeeld.",
-  "E = ½mv²: bij dubbele snelheid vier keer zoveel energie, dus niet recht evenredig."
+  "\\(E_{k} = \\tfrac{1}{2}mv^{2}\\): bij dubbele snelheid vier keer zoveel energie."
  ]
 }
