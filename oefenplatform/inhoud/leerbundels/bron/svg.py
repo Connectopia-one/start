@@ -6584,3 +6584,171 @@ def histogram(klassen, breedte=470, hoogte=224, xlabel="", ylabel="aantal"):
     if xlabel:
         d.append(_tekst(breedte - rechts + 6, hoogte - onder + 32, xlabel, 10.5, DIM, "end", True))
     return _svg(breedte, hoogte, "".join(d))
+
+
+# ---------------------------------------------------------------------------
+# Elektrostatica. Enya Vermeyen, leerkracht wiskunde en fysica, schreef op
+# 10 oktober 2026 dat er bij de theorie van fysica geen enkele afbeelding
+# stond, terwijl fysica net bij uitstek via afbeeldingen werkt, en noemde de
+# elektroscoop als voorbeeld van iets waar leerlingen zelfs mét een tekening
+# nog moeite mee hebben. Ze had gelijk: in de drieëntwintig fysicabundels van
+# 🌍 Beyond stond geen enkele figuur. Deze drie zijn de eerste.
+# ---------------------------------------------------------------------------
+
+LADING_MIN = "#2f6d9e"    # negatief, koel
+LADING_PLUS = "#b4452c"   # positief, warm
+GLAS = "#eef4f6"
+METAAL = "#cdd4d8"
+
+
+def _teken(x, y, soort, r=7.2):
+    """Een plus- of minteken in een bolletje, zoals in een schoolboek."""
+    kleur = LADING_PLUS if soort == "+" else LADING_MIN
+    streep = (f'<line x1="{x-3.4:.1f}" y1="{y:.1f}" x2="{x+3.4:.1f}" y2="{y:.1f}" '
+              f'stroke="#ffffff" stroke-width="1.8" stroke-linecap="round"/>')
+    if soort == "+":
+        streep += (f'<line x1="{x:.1f}" y1="{y-3.4:.1f}" x2="{x:.1f}" y2="{y+3.4:.1f}" '
+                   f'stroke="#ffffff" stroke-width="1.8" stroke-linecap="round"/>')
+    return f'<circle cx="{x:.1f}" cy="{y:.1f}" r="{r}" fill="{kleur}"/>' + streep
+
+
+def _staaf(x, y, breed, soort, label):
+    """Een geladen staaf, liggend, met haar tekens erop."""
+    kleur = LADING_PLUS if soort == "+" else LADING_MIN
+    d = [f'<rect x="{x:.1f}" y="{y:.1f}" width="{breed:.1f}" height="19" rx="9.5" '
+         f'fill="#ffffff" stroke="{kleur}" stroke-width="1.8"/>']
+    aantal = max(3, int(breed // 26))
+    for i in range(aantal):
+        cx = x + breed * (i + 0.5) / aantal
+        d.append(_teken(cx, y + 9.5, soort, 6.4))
+    d.append(_tekst(x + breed / 2, y + 36, label, 9.5, kleur, "middle", True))
+    return "".join(d)
+
+
+def _elektroscoop(cx, geladen):
+    """Eén elektroscoop. De bladen hangen samen of wijken uit."""
+    import math
+    d = []
+    # de glazen stolp met de voet
+    d.append(f'<path d="M{cx-58} 88 h116 v104 h-116 z" fill="{GLAS}" stroke="{DIM}" stroke-width="1.4"/>')
+    d.append(f'<rect x="{cx-70}" y="192" width="140" height="11" rx="3" fill="{METAAL}" stroke="{DIM}" stroke-width="1.2"/>')
+    # de stop bovenaan, isolerend, en de metalen staaf erdoor
+    d.append(f'<rect x="{cx-26}" y="78" width="52" height="14" rx="4" fill="{AMBER}" opacity="0.65"/>')
+    d.append(f'<line x1="{cx}" y1="42" x2="{cx}" y2="146" stroke="{DIM}" stroke-width="4" stroke-linecap="round"/>')
+    d.append(f'<circle cx="{cx}" cy="34" r="15" fill="{METAAL}" stroke="{DIM}" stroke-width="1.4"/>')
+    # de twee blaadjes: samen als er geen lading op staat, uitgeweken als wel
+    schuin = 23.0 if geladen else 2.0
+    dx = 44 * math.tan(math.radians(schuin))
+    for kant in (-1, 1):
+        top1, top2 = cx + kant * 1.5, cx + kant * 4.5
+        d.append(f'<path d="M{top1:.1f} 146 L{top2:.1f} 146 L{top2 + kant*dx:.1f} 190 '
+                 f'L{top1 + kant*dx:.1f} 190 Z" fill="{METAAL}" stroke="{DIM}" stroke-width="1.2"/>')
+    if geladen:
+        for tx, ty in [(cx, 34), (cx - 12, 104), (cx + 12, 126)]:
+            d.append(_teken(tx, ty, "-", 6.6))
+        for kant in (-1, 1):
+            d.append(_teken(cx + kant * (3 + dx), 174, "-", 6.6))
+        # twee pijltjes die zeggen welke kant de bladen op gaan
+        for kant in (-1, 1):
+            van, tot = cx + kant * 31, cx + kant * 50
+            d.append(f'<path d="M{van:.1f} 186 H{tot:.1f}" stroke="{LADING_MIN}" stroke-width="1.6"/>')
+            d.append(f'<path d="M{tot:.1f} 186 l{-kant*6} -4 v8 z" fill="{LADING_MIN}"/>')
+    return "".join(d)
+
+
+def elektroscoop(breedte=470):
+    """Twee elektroscopen naast elkaar: ongeladen en negatief geladen.
+
+    Het punt van de tekening is het verschil tussen de twee bladen. Links
+    hangen ze samen omdat er niets op staat; rechts dragen ze allebei dezelfde
+    negatieve lading, dus stoten ze elkaar af en wijken ze uit.
+    """
+    h = 240
+    d = [_elektroscoop(148, False), _elektroscoop(352, True)]
+    # de onderdelen staan één keer benoemd, bij de linkse. De aanwijslijn
+    # loopt gerust over het glas heen: het glas is doorzichtig.
+    for ly, naam, tot in [(38, "knop", 130), (112, "staaf", 144), (170, "blaadjes", 144)]:
+        d.append(f'<path d="M72 {ly-3.5} H{tot}" stroke="{DIM}" '
+                 f'stroke-width="0.9" stroke-dasharray="3 3"/>')
+        d.append(f'<circle cx="{tot}" cy="{ly-3.5}" r="1.8" fill="{DIM}"/>')
+        d.append(_tekst(68, ly, naam, 9.5, DIM, "end"))
+    d.append(_tekst(148, 224, "ongeladen", 10.5, DIM, "middle", True))
+    d.append(_tekst(352, 224, "negatief geladen", 10.5, LADING_MIN, "middle", True))
+    return _svg(breedte, h, "".join(d))
+
+
+def influentie(breedte=470):
+    """Een negatief geladen staaf bij een metalen bol, zonder aanraking.
+
+    De vrije elektronen vluchten naar de verste kant, dus de dichtste kant
+    blijft positief achter. In totaal verandert de lading van de bol niet.
+    """
+    h = 214
+    cx, cy, r = 330, 98, 58
+    d = [_staaf(20, 88, 138, "-", "negatief geladen staaf")]
+    # de bol op een isolerende voet
+    d.append(f'<rect x="{cx-9}" y="{cy+r-4}" width="18" height="24" fill="{AMBER}" opacity="0.65"/>')
+    d.append(f'<rect x="{cx-40}" y="{cy+r+20}" width="80" height="9" rx="3" fill="{AMBER}" opacity="0.65"/>')
+    d.append(f'<circle cx="{cx}" cy="{cy}" r="{r}" fill="{METAAL}" stroke="{DIM}" stroke-width="1.6"/>')
+    # links de positieve kant, rechts de elektronen die weggeduwd zijn
+    for ty in (-26, 0, 26):
+        d.append(_teken(cx - 38, cy + ty, "+", 6.6))
+    for ty in (-30, -10, 10, 30):
+        d.append(_teken(cx + 39, cy + ty, "-", 6.6))
+    # de pijl die zegt waar de elektronen naartoe gaan
+    d.append(f'<path d="M{cx-14} {cy} H{cx+14}" stroke="{LADING_MIN}" stroke-width="2"/>')
+    d.append(f'<path d="M{cx+16} {cy} l-7 -4.5 v9 z" fill="{LADING_MIN}"/>')
+    d.append(_tekst(cx, cy - 14, "elektronen", 9, LADING_MIN, "middle", True))
+    # de tussenruimte, want de staaf raakt de bol niet aan
+    d.append(f'<path d="M162 56 H268" stroke="{DIM}" stroke-width="1.2" stroke-dasharray="4 4"/>')
+    d.append(f'<path d="M162 56 l7 -4 v8 z" fill="{DIM}"/>')
+    d.append(f'<path d="M268 56 l-7 -4 v8 z" fill="{DIM}"/>')
+    d.append(_tekst(215, 48, "geen contact", 9.5, DIM))
+    d.append(_tekst(cx - 48, 196, "dichtste kant: positief", 9.5, LADING_PLUS, "middle"))
+    d.append(_tekst(cx + 70, 196, "verste kant: negatief", 9.5, LADING_MIN, "middle"))
+    return _svg(breedte, h, "".join(d))
+
+
+def polarisatie(breedte=470):
+    """Dezelfde isolator zonder en met een geladen staaf ernaast.
+
+    In een isolator kunnen de elektronen hun atoom niet verlaten. De moleculen
+    worden dipolen en draaien zich alleen maar een beetje, met hun positieve
+    kant naar de negatieve staaf toe.
+    """
+    import math
+    h = 206
+
+    def dipool(x, y, graden):
+        """Eén molecule als een ovaaltje met een plus- en een mintekenkant.
+
+        Bij 0 graden staat de pluskant links. Let daarop: de pluskant moet
+        naar de negatieve staaf wijzen, anders spreekt de tekening haar eigen
+        bijschrift tegen.
+        """
+        hoek = math.radians(graden)
+        dx, dy = 10.5 * math.cos(hoek), 10.5 * math.sin(hoek)
+        return (f'<ellipse cx="{x:.1f}" cy="{y:.1f}" rx="15" ry="8.5" fill="#ffffff" '
+                f'stroke="{DIM}" stroke-width="1.1" '
+                f'transform="rotate({graden:.0f} {x:.1f} {y:.1f})"/>'
+                + _teken(x - dx, y - dy, "+", 5.6) + _teken(x + dx, y + dy, "-", 5.6))
+
+    d = []
+    # links: door elkaar, want er staat niets in de buurt
+    kris = [18, 142, 73, 205, 101, 160]
+    d.append(f'<rect x="22" y="56" width="166" height="104" rx="8" fill="{GLAS}" stroke="{DIM}" stroke-width="1.4"/>')
+    for i, graden in enumerate(kris):
+        d.append(dipool(56 + (i % 3) * 49, 84 + (i // 3) * 46, graden))
+    d.append(_tekst(105, 180, "zonder staaf: door elkaar", 10, DIM))
+
+    # rechts: allemaal met hun pluskant naar de staaf, die links ernaast staat
+    d.append(f'<rect x="282" y="56" width="166" height="104" rx="8" fill="{GLAS}" stroke="{DIM}" stroke-width="1.4"/>')
+    for i in range(6):
+        d.append(dipool(316 + (i % 3) * 49, 84 + (i // 3) * 46, 0))
+    d.append(f'<rect x="246" y="60" width="18" height="96" rx="9" fill="#ffffff" stroke="{LADING_MIN}" stroke-width="1.8"/>')
+    for ty in (80, 108, 136):
+        d.append(_teken(255, ty, "-", 6.2))
+    d.append(_tekst(255, 46, "staaf", 9, LADING_MIN))
+    d.append(_tekst(365, 180, "met staaf: de pluskant naar de staaf", 10, LADING_MIN, "middle", True))
+    d.append(_tekst(235, 199, "de moleculen verhuizen niet, ze draaien alleen", 9.5, DIM, "middle"))
+    return _svg(breedte, h, "".join(d))

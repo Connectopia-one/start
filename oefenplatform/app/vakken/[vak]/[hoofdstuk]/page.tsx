@@ -21,6 +21,7 @@ import { Leerbundel, type LeerbundelBlok } from "@/components/Leerbundel";
 import { Leestekst, type Woord } from "@/components/Leestekst";
 import { Prent } from "@/components/Prent";
 import { vindPrent } from "@/lib/prent";
+import { Leidraad } from "@/components/Leidraad";
 import { MeldingKnop } from "@/components/MeldingKnop";
 import { TerugNaarVak } from "@/components/TerugNaarVak";
 import { heeftKlikbareBundel } from "@/lib/leerbundel";
@@ -330,6 +331,8 @@ export default async function HoofdstukPage({
             vraag: v.vraag,
           }))}
         />
+
+        <Leidraad />
 
         <TerugNaarVak
           href={niveau ? `/niveaus/${niveau.slug}/${vak.slug}` : "/"}

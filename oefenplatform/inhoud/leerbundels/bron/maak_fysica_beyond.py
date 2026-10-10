@@ -27,6 +27,7 @@ De bundelsleutels eindigen op "-beyond".
 import sys, pathlib
 sys.path.insert(0, str(pathlib.Path(__file__).parent))
 import bundel
+import svg
 
 VAK = "Fysica"
 BEYOND = "🌍 Beyond — 5de en 6de middelbaar"
@@ -37,127 +38,167 @@ BUNDELS = {}
 # ───────────────────── 1. Elektrische lading, geleiders en influentie
 BUNDELS["elektrische-lading-geleiders-en-influentie-beyond"] = dict(
     vak=VAK, niveau=BEYOND, titel="Elektrische lading, geleiders en influentie",
-    onder="Waar lading vandaan komt, waarom metaal geleidt en wat influentie doet.",
+    onder="De grootheid Q, waarom metaal geleidt, en wat influentie met een voorwerp doet.",
     secties=[
-        dict(kop="Twee soorten lading, en één deeltje dat verhuist", blokken=[
-            ("p", "Er zijn <strong>twee soorten elektrische lading</strong>: "
-                  "<strong>positief en negatief</strong>. Gelijksoortige ladingen stoten elkaar af, "
-                  "ongelijksoortige trekken elkaar aan. Lading wordt uitgedrukt in "
-                  "<strong>coulomb</strong>, met het symbool C."),
-            ("p", "Als een voorwerp elektrisch geladen wordt, is het altijd "
-                  "<strong>het elektron dat verhuist</strong>, want dat zit het losst van de kern. "
-                  "De protonen en de neutronen blijven waar ze zijn. Daarom betekent "
-                  "<strong>negatief</strong> dat er <strong>elektronen bij gekomen</strong> zijn en "
-                  "<strong>positief</strong> dat er <strong>elektronen weggegaan</strong> zijn. Een "
-                  "voorwerp dat elektronen verloren heeft, draagt dus een "
-                  "<strong>positief</strong> teken."),
-            ("p", "Bij het laden door wrijving wordt er <strong>geen nieuwe lading gemaakt</strong>: "
-                  "ze verhuist alleen van het ene voorwerp naar het andere. Daardoor krijgen twee "
-                  "voorwerpen die je tegen elkaar wrijft <strong>een even grote maar tegengestelde "
-                  "lading</strong>. En omdat er alleen hele elektronen kunnen verhuizen, is "
-                  "<strong>de lading van een voorwerp altijd een veelvoud van de lading van één "
-                  "elektron</strong>."),
-            ("p", "De <strong>tribo-elektrische reeks</strong> dient <strong>om te zien welke stof "
-                  "bij wrijving elektronen opneemt</strong> en welke ze afgeeft. Wrijf je een "
-                  "<strong>pvc-staaf met een wollen doek</strong>, dan "
-                  "<strong>wordt de staaf negatief en de doek positief</strong>: het pvc neemt "
-                  "elektronen van de wol op."),
+        dict(kop="De grootheid Q en haar eenheid", blokken=[
+            ("p", r"Er zijn <strong>twee soorten elektrische lading</strong>: "
+                  r"<strong>positief en negatief</strong>. Gelijksoortige ladingen stoten elkaar af, "
+                  r"ongelijksoortige trekken elkaar aan. De <strong>grootheid</strong> heet "
+                  r"<strong>\(Q\)</strong> en haar <strong>eenheid</strong> is de "
+                  r"<strong>coulomb</strong>, met symbool \(\text{C}\). Let op dat verschil: "
+                  r"\(Q\) is wat je meet, \(\text{C}\) is waarin je het uitdrukt. Je schrijft dus "
+                  r"\(Q=-8\ \text{nC}\), en dat lees je als een lading van min acht nanocoulomb."),
+            ("p", tabel(["Voorvoegsel", "Betekent", "Voorbeeld"], [
+                [r"milli (\(\text{mC}\))", r"\(10^{-3}\)", r"\(2\ \text{mC}=2\cdot 10^{-3}\ \text{C}\)"],
+                [r"micro (\(\mu\text{C}\))", r"\(10^{-6}\)", r"\(5\ \mu\text{C}=5\cdot 10^{-6}\ \text{C}\)"],
+                [r"nano (\(\text{nC}\))", r"\(10^{-9}\)", r"\(8\ \text{nC}=8\cdot 10^{-9}\ \text{C}\)"],
+                [r"pico (\(\text{pC}\))", r"\(10^{-12}\)", r"\(4\ \text{pC}=4\cdot 10^{-12}\ \text{C}\)"],
+            ])),
+            ("p", r"De kleinste lading die er bestaat is de <strong>elementaire lading</strong> "
+                  r"\(e\), de lading van één proton en, op het teken na, van één elektron:"),
+            ("p", r"\[e=1{,}602\cdot 10^{-19}\ \text{C}\]"),
+            ("p", r"Daarom is <strong>de lading van een voorwerp altijd een geheel veelvoud van "
+                  r"\(e\)</strong>. Dat schrijf je als \(Q=n\cdot e\), met \(n\) het aantal "
+                  r"elektronen te veel of te weinig. Je kan er geen half elektron bij of af doen; "
+                  r"dat heet de <strong>kwantisatie van de lading</strong>. Heeft een voorwerp "
+                  r"\(5{,}0\cdot 10^{12}\) elektronen te veel, dan is "
+                  r"\(Q=-5{,}0\cdot 10^{12}\cdot 1{,}602\cdot 10^{-19}\ \text{C}"
+                  r"\approx -8{,}0\cdot 10^{-7}\ \text{C}\). Omgekeerd hoort bij "
+                  r"\(Q=-4{,}8\cdot 10^{-9}\ \text{C}\) een aantal "
+                  r"\(n=\dfrac{|Q|}{e}\approx 3{,}0\cdot 10^{10}\) elektronen."),
+            ("kader", r"<strong>Een neutraal voorwerp bevat niet géén lading.</strong> Het bevat er "
+                      r"enorm veel, maar evenveel positieve als negatieve, dus \(Q=0\) in totaal. "
+                      r"Neutraal is geen derde soort lading maar een evenwicht tussen de twee."),
+        ]),
+        dict(kop="Eén deeltje dat verhuist", blokken=[
+            ("p", r"Als een voorwerp elektrisch geladen wordt, is het altijd "
+                  r"<strong>het elektron dat verhuist</strong>, want dat zit het losst van de kern. "
+                  r"De protonen en de neutronen blijven waar ze zijn. Daarom betekent "
+                  r"<strong>negatief</strong> dat er <strong>elektronen bij gekomen</strong> zijn en "
+                  r"<strong>positief</strong> dat er <strong>elektronen weggegaan</strong> zijn. Een "
+                  r"voorwerp dat elektronen verloren heeft, draagt dus een "
+                  r"<strong>positief</strong> teken."),
+            ("p", r"Bij het laden door wrijving wordt er <strong>geen nieuwe lading gemaakt</strong>: "
+                  r"ze verhuist alleen van het ene voorwerp naar het andere. Daarom geldt achteraf "
+                  r"<strong>\(Q_{1}=-Q_{2}\)</strong>, en dus \(Q_{1}+Q_{2}=0\), net als voor het "
+                  r"wrijven. Dat is het <strong>behoud van lading</strong>."),
+            ("p", r"De <strong>tribo-elektrische reeks</strong> dient <strong>om te zien welke stof "
+                  r"bij wrijving elektronen opneemt</strong> en welke ze afgeeft. Wrijf je een "
+                  r"<strong>pvc-staaf met een wollen doek</strong>, dan "
+                  r"<strong>wordt de staaf negatief en de doek positief</strong>: het pvc neemt "
+                  r"elektronen van de wol op."),
         ]),
         dict(kop="Geleider of isolator", blokken=[
-            ("p", "Het verschil tussen een <strong>geleider</strong> en een "
-                  "<strong>isolator</strong> zit op atomaire schaal: "
-                  "<strong>een geleider heeft vrije elektronen, een isolator niet</strong>. Die "
-                  "<strong>vrije elektronen</strong> zijn de elektronen in een metaal "
-                  "<strong>die niet aan één atoom vastzitten</strong> maar door het hele stuk "
-                  "metaal kunnen bewegen. Een <strong>isolator</strong> is dus een stof "
-                  "<strong>waarin de elektronen niet vrij kunnen bewegen</strong>: daar "
-                  "<strong>blijven de elektronen bij hun eigen atoom zitten</strong> en "
-                  "<strong>blijft aangebrachte lading plaatselijk staan</strong>."),
-            ("p", "<strong>Koper</strong> en <strong>aluminium</strong> zijn goede geleiders; glas, "
-                  "rubber en plastic zijn isolatoren. Lading die je op een geleider aanbrengt, "
-                  "<strong>verspreidt zich meteen over het hele oppervlak</strong>, want de vrije "
-                  "elektronen duwen elkaar zo ver mogelijk uiteen."),
-            ("p", "Een <strong>isolator kan je wél elektrisch laden</strong>, bijvoorbeeld door "
-                  "wrijving: de lading blijft dan gewoon zitten op de plaats waar ze terechtkwam. "
-                  "Dat metaal zo goed geleidt, merk je ook aan de warmte: een "
-                  "<strong>metalen kruk voelt kouder aan dan een houten deur van dezelfde "
-                  "temperatuur</strong>, want <strong>metaal geleidt de warmte veel sneller van je "
-                  "hand weg</strong>."),
+            ("p", r"Het verschil tussen een <strong>geleider</strong> en een "
+                  r"<strong>isolator</strong> zit op atomaire schaal: "
+                  r"<strong>een geleider heeft vrije elektronen, een isolator niet</strong>. Die "
+                  r"<strong>vrije elektronen</strong> zijn de elektronen in een metaal "
+                  r"<strong>die niet aan één atoom vastzitten</strong> maar door het hele stuk "
+                  r"metaal kunnen bewegen. Een <strong>isolator</strong> is dus een stof "
+                  r"<strong>waarin de elektronen niet vrij kunnen bewegen</strong>: daar "
+                  r"<strong>blijven de elektronen bij hun eigen atoom zitten</strong> en "
+                  r"<strong>blijft aangebrachte lading plaatselijk staan</strong>."),
+            ("p", r"<strong>Koper</strong> en <strong>aluminium</strong> zijn goede geleiders; glas, "
+                  r"rubber en plastic zijn isolatoren. Lading die je op een geleider aanbrengt, "
+                  r"<strong>verspreidt zich meteen over het hele oppervlak</strong>, want de vrije "
+                  r"elektronen duwen elkaar zo ver mogelijk uiteen."),
+            ("p", r"Een <strong>isolator kan je wél elektrisch laden</strong>, bijvoorbeeld door "
+                  r"wrijving: de lading blijft dan gewoon zitten op de plaats waar ze terechtkwam."),
         ]),
         dict(kop="De elektroscoop", blokken=[
-            ("p", "Een <strong>elektroscoop</strong> is het toestel "
-                  "<strong>met twee blaadjes dat aantoont dat een voorwerp geladen is</strong>. De "
-                  "<strong>blaadjes wijken uit elkaar</strong> omdat ze <strong>dezelfde lading "
-                  "dragen en elkaar daarom afstoten</strong>."),
-            ("p", "Laad je een elektroscoop <strong>door contact</strong> met een negatieve staaf, "
-                  "dan <strong>blijven de blaadjes uit elkaar staan</strong>, ook nadat je de staaf "
-                  "weghaalt: de lading is echt op de elektroscoop overgegaan."),
+            ("p", r"Een <strong>elektroscoop</strong> is het toestel "
+                  r"<strong>met twee blaadjes dat aantoont dat een voorwerp geladen is</strong>. De "
+                  r"<strong>blaadjes wijken uit elkaar</strong> omdat ze <strong>dezelfde lading "
+                  r"dragen en elkaar daarom afstoten</strong>. Hoe groter \(|Q|\), hoe verder ze "
+                  r"uit elkaar staan."),
+            ("fig", svg.elektroscoop(),
+             "Links een elektroscoop zonder lading, rechts dezelfde na het laden met een negatieve staaf."),
+            ("p", r"Laad je een elektroscoop <strong>door contact</strong> met een negatieve staaf, "
+                  r"dan <strong>blijven de blaadjes uit elkaar staan</strong>, ook nadat je de staaf "
+                  r"weghaalt: de lading is echt op de elektroscoop overgegaan. Breng je de staaf "
+                  r"alleen maar in de buurt, dan vallen de blaadjes weer samen zodra je ze weghaalt."),
         ]),
         dict(kop="Laden door contact", blokken=[
-            ("p", "Raak je een <strong>neutrale metalen bol aan met een negatief geladen "
-                  "staaf</strong>, dan <strong>lopen er elektronen naar de bol en wordt die "
-                  "negatief</strong>. <strong>Laden door contact geeft het voorwerp dus dezelfde "
-                  "soort lading</strong> als het geladen voorwerp."),
-            ("p", "Raken <strong>twee gelijke metalen bollen</strong> elkaar even aan, de ene met "
-                  "<strong>8 nC</strong> en de andere ongeladen, dan verdeelt de lading zich "
-                  "eerlijk: <strong>elke bol draagt daarna 4 nC</strong>."),
-            ("p", "<strong>Aarden</strong> betekent een geleider met de aarde verbinden, zodat "
-                  "lading er onbeperkt naartoe kan weglopen of vandaan kan komen. Op een "
-                  "<strong>vochtige dag</strong> lopen de ladingen van een voorwerp trouwens "
-                  "<strong>vanzelf weg</strong>, want het water in de lucht geleidt."),
+            ("p", r"Raak je een <strong>neutrale metalen bol aan met een negatief geladen "
+                  r"staaf</strong>, dan <strong>lopen er elektronen naar de bol en wordt die "
+                  r"negatief</strong>. <strong>Laden door contact geeft het voorwerp dus dezelfde "
+                  r"soort lading</strong> als het geladen voorwerp."),
+            ("p", r"Omdat lading behouden blijft, kan je zo'n contact ook gewoon narekenen. Raken "
+                  r"<strong>twee even grote metalen bollen</strong> met \(Q_{1}=+12\ \text{nC}\) en "
+                  r"\(Q_{2}=-4\ \text{nC}\) elkaar even aan, dan blijft de som "
+                  r"\(Q_{1}+Q_{2}=+8\ \text{nC}\) en verdeelt die zich eerlijk: "
+                  r"<strong>elke bol draagt daarna \(+4\ \text{nC}\)</strong>. Zijn de bollen niet "
+                  r"even groot, dan krijgt de grootste een groter deel."),
+            ("p", r"<strong>Aarden</strong> betekent een geleider met de aarde verbinden, zodat "
+                  r"lading er onbeperkt naartoe kan weglopen of vandaan kan komen. Op een "
+                  r"<strong>vochtige dag</strong> lopen de ladingen van een voorwerp trouwens "
+                  r"<strong>vanzelf weg</strong>, want het water in de lucht geleidt."),
         ]),
         dict(kop="Influentie en polarisatie", blokken=[
-            ("p", "<strong>Influentie</strong> is het verschijnsel waarbij een geladen voorwerp "
-                  "<strong>de lading in een ander voorwerp verschuift zonder het aan te "
-                  "raken</strong>. Breng je een geleider <strong>in de buurt van een negatief "
-                  "geladen staaf</strong>, dan <strong>worden de vrije elektronen naar de verste "
-                  "kant geduwd</strong> en blijft de dichtste kant positief. Het voorwerp "
-                  "<strong>blijft in totaal even geladen als ervoor</strong>, dus "
-                  "<strong>een voorwerp dat enkel door influentie beïnvloed werd, is daarna zelf "
-                  "niet geladen</strong>."),
-            ("p", "Het verschil tussen influentie <strong>bij een geleider en bij een "
-                  "isolator</strong>: <strong>bij een geleider verhuizen de elektronen door het "
-                  "hele voorwerp</strong>, bij een isolator <strong>draaien de moleculen zich een "
-                  "beetje</strong>. Dat verschuiven van de ladingen binnen de moleculen van een "
-                  "isolator heet <strong>polarisatie</strong>, en zo'n molecule met "
-                  "<strong>de ene kant lichtpositief en de andere lichtnegatief</strong> heet een "
-                  "<strong>dipool</strong>."),
-            ("p", "Daarom trekt een <strong>geladen staaf ook een neutraal stukje papier "
-                  "aan</strong>: <strong>de lading in het papier verschuift en de dichtste kant "
-                  "trekt</strong>. Dezelfde verklaring geldt voor een <strong>neutraal voorwerp bij "
-                  "een geladen staaf</strong> in het algemeen, en voor een "
-                  "<strong>opgeblazen ballon die na wrijven aan de muur kleeft</strong>: "
-                  "<strong>de ballon trekt de lading in de muur naar zich toe</strong>."),
-            ("p", "Met influentie kan je een geleider ook écht laden, <strong>zonder hem ooit aan "
-                  "te raken met het geladen voorwerp</strong>. Houd je een negatieve staaf bij een "
-                  "metalen bol, <strong>aard je de bol even en haal je dan de staaf weg</strong>, "
-                  "dan is de bol <strong>positief</strong>, want <strong>er liepen elektronen naar "
-                  "de aarde weg</strong>. Laden kan dus <strong>door wrijving</strong>, "
-                  "<strong>door contact met een geladen voorwerp</strong> en "
-                  "<strong>door influentie met een aarding erbij</strong>; verwarmen hoort daar "
-                  "niet bij."),
+            ("p", r"<strong>Influentie</strong> is het verschijnsel waarbij een geladen voorwerp "
+                  r"<strong>de lading in een ander voorwerp verschuift zonder het aan te "
+                  r"raken</strong>. Breng je een geleider <strong>in de buurt van een negatief "
+                  r"geladen staaf</strong>, dan <strong>worden de vrije elektronen naar de verste "
+                  r"kant geduwd</strong> en blijft de dichtste kant positief."),
+            ("fig", svg.influentie(),
+             "Een negatief geladen staaf vlak bij een metalen bol, zonder ze aan te raken."),
+            ("p", r"Het voorwerp <strong>blijft in totaal even geladen als ervoor</strong>, dus "
+                  r"\(Q=0\) blijft \(Q=0\): <strong>een voorwerp dat enkel door influentie "
+                  r"beïnvloed werd, is daarna zelf niet geladen</strong>."),
+            ("p", r"Het verschil tussen influentie <strong>bij een geleider en bij een "
+                  r"isolator</strong>: <strong>bij een geleider verhuizen de elektronen door het "
+                  r"hele voorwerp</strong>, bij een isolator <strong>draaien de moleculen zich een "
+                  r"beetje</strong>. Dat verschuiven van de ladingen binnen de moleculen van een "
+                  r"isolator heet <strong>polarisatie</strong>, en zo'n molecule met "
+                  r"<strong>de ene kant lichtpositief en de andere lichtnegatief</strong> heet een "
+                  r"<strong>dipool</strong>."),
+            ("fig", svg.polarisatie(),
+             "Dezelfde isolator, links op zichzelf en rechts met een negatief geladen staaf ernaast."),
+            ("p", r"Daarom trekt een <strong>geladen staaf ook een neutraal stukje papier "
+                  r"aan</strong>: <strong>de lading in het papier verschuift en de dichtste kant "
+                  r"trekt</strong>. Omdat de kracht met \(\tfrac{1}{r^{2}}\) afneemt, weegt die "
+                  r"dichte kant zwaarder door dan de afstoting van de verdere kant. Dezelfde "
+                  r"verklaring geldt voor een <strong>opgeblazen ballon die na wrijven aan de muur "
+                  r"kleeft</strong>: <strong>de ballon trekt de lading in de muur naar zich "
+                  r"toe</strong>."),
+            ("p", r"Met influentie kan je een geleider ook écht laden, <strong>zonder hem ooit aan "
+                  r"te raken met het geladen voorwerp</strong>. Houd je een negatieve staaf bij een "
+                  r"metalen bol, <strong>aard je de bol even en haal je dan de staaf weg</strong>, "
+                  r"dan is de bol <strong>positief</strong>, want <strong>er liepen elektronen naar "
+                  r"de aarde weg</strong>. Laden kan dus <strong>door wrijving</strong>, "
+                  r"<strong>door contact met een geladen voorwerp</strong> en "
+                  r"<strong>door influentie met een aarding erbij</strong>; verwarmen hoort daar "
+                  r"niet bij."),
+            ("p", tabel(["Manier van laden", "Raak je het aan?", "Welk teken krijgt het?"], [
+                ["wrijving", "ja, met de andere stof", "hangt af van de tribo-elektrische reeks"],
+                ["contact", "ja, met het geladen voorwerp", "hetzelfde als het geladen voorwerp"],
+                ["influentie met aarding", "nee", "het tegengestelde van het geladen voorwerp"],
+            ])),
         ]),
         dict(kop="Elektrostatica in toepassingen", blokken=[
-            ("p", "Een <strong>fotokopieertoestel</strong> en de <strong>poedercoating van "
-                  "metaal</strong> berusten op elektrostatica. In een kopieertoestel wordt "
-                  "<strong>de toner niet met een laagje lijm</strong> op het papier gebracht, maar "
-                  "<strong>door elektrische aantrekking</strong> vastgehouden en daarna "
-                  "ingebrand."),
-            ("p", "<strong>Poedercoating met geladen poeder werkt beter dan gewoon spuiten</strong> "
-                  "omdat <strong>het geladen poeder naar het hele werkstuk getrokken wordt</strong>, "
-                  "ook naar de achterkant en de hoeken. Zo blijft er veel minder verf in de lucht "
-                  "hangen."),
+            ("p", r"Een <strong>fotokopieertoestel</strong> en de <strong>poedercoating van "
+                  r"metaal</strong> berusten op elektrostatica. In een kopieertoestel wordt "
+                  r"<strong>de toner niet met een laagje lijm</strong> op het papier gebracht, maar "
+                  r"<strong>door elektrische aantrekking</strong> vastgehouden en daarna "
+                  r"ingebrand."),
+            ("p", r"<strong>Poedercoating met geladen poeder werkt beter dan gewoon spuiten</strong> "
+                  r"omdat <strong>het geladen poeder naar het hele werkstuk getrokken wordt</strong>, "
+                  r"ook naar de achterkant en de hoeken. Zo blijft er veel minder verf in de lucht "
+                  r"hangen."),
         ]),
     ],
     onthoud=[
-        "Er zijn twee soorten lading; alleen elektronen verhuizen.",
-        "Negatief is elektronen erbij, positief is elektronen eraf.",
-        "Wrijven maakt geen lading bij: de twee voorwerpen worden tegengesteld geladen.",
-        "Een geleider heeft vrije elektronen, een isolator niet.",
-        "Lading op een geleider gaat meteen naar het hele oppervlak.",
-        "Laden kan door wrijving, door contact en door influentie met aarding.",
-        "Influentie verschuift lading; het voorwerp blijft in totaal neutraal.",
-        "Bij een isolator draaien de moleculen: dat is polarisatie.",
+        r"De grootheid is \(Q\), de eenheid de coulomb \(\text{C}\).",
+        r"\(Q=n\cdot e\) met \(e=1{,}602\cdot 10^{-19}\ \text{C}\): lading komt in hele pakjes.",
+        r"Een neutraal voorwerp heeft \(Q=0\), niet géén lading.",
+        r"Er zijn twee soorten lading; alleen elektronen verhuizen.",
+        r"Negatief is elektronen erbij, positief is elektronen eraf.",
+        r"Wrijven maakt geen lading bij: achteraf is \(Q_{1}=-Q_{2}\).",
+        r"Een geleider heeft vrije elektronen, een isolator niet.",
+        r"Lading op een geleider gaat meteen naar het hele oppervlak.",
+        r"Laden kan door wrijving, door contact en door influentie met aarding.",
+        r"Influentie verschuift lading; het voorwerp blijft in totaal neutraal.",
+        r"Bij een isolator draaien de moleculen: dat is polarisatie.",
     ],
 )
 

@@ -68,16 +68,45 @@ OEFENBUNDELS["oefenbundel-elektrische-lading-geleiders-en-influentie-beyond"] = 
                           ("twee positieve ladingen", "afstoten")],
                   "Wat gebeurt er?", WW),
              ]),
-        dict(kop="Lading rekenen",
-             opdracht="Reken uit. De elementaire lading e is 1,6 · 10⁻¹⁹ C.",
+        dict(kop="Eenheden omzetten",
+             opdracht=r"Schrijf elke lading in coulomb, in de vorm \(a\cdot 10^{n}\ \text{C}\).",
              oefeningen=[
-                 ("kort", "Een voorwerp mist 5 · 10¹² elektronen. Welke lading heeft het?",
-                  "+8 · 10⁻⁷ C, want 5 · 10¹² · 1,6 · 10⁻¹⁹ C, en het mist elektronen dus is het positief.", WL),
-                 ("kort", "Hoeveel elektronen zitten er in een lading van −3,2 · 10⁻¹⁷ C?",
-                  "200 elektronen, want 3,2 · 10⁻¹⁷ gedeeld door 1,6 · 10⁻¹⁹.", WL),
-                 ("open", "Een geladen bol van +4 nC en een van −2 nC raken elkaar aan en worden weer gescheiden. Welke lading heeft elk nu? Leg uit.",
-                  "Elk heeft +1 nC. De totale lading blijft bewaard: +4 en −2 geeft samen +2 nC, en "
-                  "twee gelijke bollen verdelen dat gelijk. Lading verdwijnt niet, ze verschuift.", 6),
+                 ("rij", [(r"\(7\ \text{nC}\)", r"\(7\cdot 10^{-9}\ \text{C}\)"),
+                          (r"\(2{,}5\ \mu\text{C}\)", r"\(2{,}5\cdot 10^{-6}\ \text{C}\)"),
+                          (r"\(40\ \text{pC}\)", r"\(4{,}0\cdot 10^{-11}\ \text{C}\)"),
+                          (r"\(0{,}8\ \text{mC}\)", r"\(8\cdot 10^{-4}\ \text{C}\)")],
+                  "Hoeveel coulomb?", WW),
+             ]),
+        dict(kop="Rekenen met Q = n · e",
+             opdracht=r"Reken uit met \(e=1{,}602\cdot 10^{-19}\ \text{C}\). Schrijf eerst de formule op.",
+             oefeningen=[
+                 ("kort", r"Een voorwerp mist \(5{,}0\cdot 10^{12}\) elektronen. Hoe groot is \(Q\)?",
+                  r"\(Q=+8{,}0\cdot 10^{-7}\ \text{C}\): "
+                  r"\(5{,}0\cdot 10^{12}\cdot 1{,}602\cdot 10^{-19}\ \text{C}\), en missen betekent positief.", WL),
+                 ("kort", r"Hoeveel elektronen horen bij \(Q=-3{,}2\cdot 10^{-17}\ \text{C}\)?",
+                  r"\(n=\dfrac{3{,}2\cdot 10^{-17}}{1{,}602\cdot 10^{-19}}\approx 2{,}0\cdot 10^{2}\) elektronen te veel.", WL),
+                 ("kort", r"Hoeveel elektronen te veel zitten er op een bol met \(Q=-1{,}0\ \mu\text{C}\)?",
+                  r"\(n=\dfrac{1{,}0\cdot 10^{-6}}{1{,}602\cdot 10^{-19}}\approx 6{,}2\cdot 10^{12}\) elektronen.", WL),
+                 ("open", r"Kan een voorwerp een lading van \(2{,}5\cdot 10^{-19}\ \text{C}\) dragen? Leg uit met \(Q=n\cdot e\).",
+                  r"Nee. \(n=\dfrac{2{,}5\cdot 10^{-19}}{1{,}602\cdot 10^{-19}}\approx 1{,}56\), en dat is geen geheel getal. "
+                  r"Lading is gekwantiseerd: ze komt in hele pakjes \(e\), dus enkel gehele veelvouden bestaan.", 5),
+             ]),
+        dict(kop="Lading verdelen",
+             opdracht="Gebruik telkens dat de totale lading behouden blijft.",
+             oefeningen=[
+                 ("open", r"Een bol met \(+4\ \text{nC}\) en een even grote bol met \(-2\ \text{nC}\) raken elkaar aan en worden weer gescheiden. Welke lading draagt elk nu? Leg uit.",
+                  r"Elk \(+1\ \text{nC}\). De som blijft \(+4-2=+2\ \text{nC}\), en twee even grote bollen "
+                  r"verdelen dat gelijk. Lading verdwijnt niet, ze verschuift.", 5),
+                 ("open", r"Bol A draagt \(+9\ \text{nC}\). Je raakt er de even grote neutrale bol B mee aan en scheidt ze weer. Daarna raak je met B de even grote neutrale bol C aan. Welke lading draagt elke bol op het einde?",
+                  r"Na het eerste contact: A en B elk \(+4{,}5\ \text{nC}\). Na het tweede: B en C elk "
+                  r"\(+2{,}25\ \text{nC}\), terwijl A op \(+4{,}5\ \text{nC}\) blijft. De som is nog altijd "
+                  r"\(4{,}5+2{,}25+2{,}25=+9\ \text{nC}\), en dat is een goede controle.", 7),
+                 ("tabel", ["Stap", r"\(Q_{A}\)", r"\(Q_{B}\)"],
+                  [["in het begin", r"\(+12\ \text{nC}\)", r"\(0\)"],
+                   ["na één contact", None, None],
+                   ["na een tweede contact", None, None]],
+                  r"na één contact elk \(+6\ \text{nC}\); een tweede contact verandert niets meer, "
+                  r"want ze dragen dan al evenveel", "150px"),
              ]),
         dict(kop="Waar of niet waar",
              opdracht="Kruis aan.",
@@ -86,6 +115,27 @@ OEFENBUNDELS["oefenbundel-elektrische-lading-geleiders-en-influentie-beyond"] = 
                  ("waar", "Alle lading van een geladen geleider zit op het buitenoppervlak.", True),
                  ("waar", "Bij influentie moet het geladen voorwerp het andere aanraken.", False),
                  ("waar", "Een geladen ballon trekt een neutraal papiertje aan.", True),
+                 ("waar", r"Een neutraal voorwerp bevat helemaal geen lading.", False),
+             ]),
+        dict(kop="Influentie stap voor stap",
+             opdracht="Vul in welk teken de bol draagt na elke stap.",
+             oefeningen=[
+                 ("tabel", ["Stap", "Teken van de bol in totaal"],
+                  [["de neutrale bol staat alleen", None],
+                   ["je houdt er een negatieve staaf bij", None],
+                   ["je aardt de bol, de staaf blijft erbij", None],
+                   ["je haalt de aarding weg, dan de staaf", None]],
+                  r"neutraal; nog altijd neutraal, de lading is enkel verschoven; positief, want de "
+                  r"weggeduwde elektronen lopen naar de aarde; positief, nu gelijkmatig verdeeld", "210px"),
+                 ("open", "Leg uit waarom laden door influentie het tegengestelde teken geeft en laden door contact hetzelfde teken.",
+                  "Bij contact vloeit er lading van het geladen voorwerp naar het andere, dus dragen ze "
+                  "achteraf dezelfde soort. Bij influentie met aarding duwt de staaf de gelijknamige "
+                  "lading weg naar de aarde; wat achterblijft is de tegengestelde soort.", 6),
+                 ("kies", "Je brengt een negatieve staaf bij een elektroscoop zonder ze aan te raken. Wat zie je?",
+                  ["de blaadjes blijven samen, want de bol blijft neutraal",
+                   "de blaadjes wijken uit, en vallen weer samen als je de staaf weghaalt",
+                   "de blaadjes wijken uit en blijven zo staan",
+                   "de blaadjes bewegen alleen als je de staaf aanraakt"], 1),
              ]),
         dict(kop="Uitleggen",
              opdracht="Antwoord in volle zinnen.",
@@ -101,10 +151,13 @@ OEFENBUNDELS["oefenbundel-elektrische-lading-geleiders-en-influentie-beyond"] = 
                  ("open", "Waarom zet men een brandstoftank aan de aarde voor men hem vult?",
                   "Het stromen van de brandstof laadt de tank op. Een aardverbinding laat die lading "
                   "wegvloeien, zodat er geen vonk kan overslaan bij de dampen.", 5),
+                 ("open", "Een elektroscoop staat op een vochtige dag na een halve minuut weer met gesloten blaadjes. Leg uit waarom, en wat je eraan kan doen.",
+                  "Waterdamp in de lucht geleidt, dus lekt de lading langzaam weg naar de omgeving en "
+                  "vallen de blaadjes samen. In een droge ruimte, of met een droger toestel onder de "
+                  "stolp, blijft de lading veel langer staan.", 6),
              ]),
     ],
 )
-
 # ============================================================
 OEFENBUNDELS["oefenbundel-de-wet-van-coulomb-en-het-elektrisch-veld-beyond"] = dict(
     vak=VAK, niveau=BEYOND, titel="De wet van Coulomb en het elektrisch veld",

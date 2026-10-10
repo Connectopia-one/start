@@ -1,16 +1,28 @@
 # -*- coding: utf-8 -*-
-"""Elektrische lading, geleiders en influentie — 🌍 Beyond, fysica.
+r"""Elektrische lading, geleiders en influentie — 🌍 Beyond, fysica.
 
-Deel 1 gaat over lading zelf: waar ze vandaan komt, het verschil tussen een
-geleider en een isolator op atomaire schaal, en laden door wrijving met de
-tribo-elektrische reeks erbij. Deel 2 gaat over de twee andere manieren om te
-laden: door contact, waarbij de lading zich over de voorwerpen verdeelt, en
-door influentie, met en zonder aarding, plus de toepassingen in technische
-systemen.
+Deel 1 gaat over lading zelf: de grootheid \(Q\) en haar eenheid, de
+elementaire lading, het verschil tussen een geleider en een isolator op
+atomaire schaal, en laden door wrijving met de tribo-elektrische reeks erbij.
+Deel 2 gaat over de twee andere manieren om te laden: door contact, waarbij de
+lading zich over de voorwerpen verdeelt, en door influentie, met en zonder
+aarding, plus de toepassingen in technische systemen.
 
 Het verhaal van dit thema is telkens hetzelfde: lading ontstaat niet, ze
 verhuist. Alleen elektronen bewegen, en elke vraag naar het teken van een
 voorwerp is dus een vraag naar welke kant die elektronen op gegaan zijn.
+
+In echte wetenschappelijke notatie, tussen \( en \); zie
+oefenplatform/lib/wiskunde.ts. Enya Vermeyen, leerkracht wiskunde en fysica,
+schreef op 10 oktober 2026 dat het symbool \(Q\) voor de grootheid elektrische
+lading nergens in dit hoofdstuk stond, en dat er daardoor nuances ontbreken
+waar een leerkracht fysica wel op let. Ze had gelijk: de hele tekst sprak over
+"lading" en noemde enkel de eenheid. \(Q\), \(e\) en het verband \(Q=n\cdot e\)
+staan er nu in, met rekenvragen erbij.
+
+De elementaire lading \(e=1{,}602\cdot 10^{-19}\ \text{C}\) staat in het
+formularium dat het kind op het examen krijgt, dus de vragen geven ze mee waar
+ze nodig is.
 """
 
 DEEL1 = [
@@ -27,6 +39,70 @@ DEEL1 = [
         uitleg="Protonen zitten vast in de kern en kunnen niet verhuizen. Een voorwerp "
         "wordt dus negatief door elektronen bij te krijgen, en positief door er te "
         "verliezen.",
+    ),
+    dict(
+        type="invultekst",
+        vraag="Welk symbool gebruik je voor de grootheid elektrische lading? Schrijf de letter.",
+        antwoord=["Q", "q"],
+        uitleg=r"De grootheid is \(Q\), de eenheid is de coulomb met symbool \(\text{C}\). "
+        r"Let op het verschil: \(Q\) is wat je meet, \(\text{C}\) is waarin je het uitdrukt.",
+    ),
+    dict(
+        type="invultekst",
+        vraag="In welke eenheid druk je elektrische lading uit?",
+        antwoord=["coulomb", "C", "de coulomb"],
+        uitleg=r"Het symbool is \(\text{C}\). Je schrijft dus bijvoorbeeld "
+        r"\(Q=-8\ \text{nC}\), en dat lees je als een lading van min acht nanocoulomb.",
+    ),
+    dict(
+        type="meerkeuze",
+        vraag=r"Hoe groot is de elementaire lading \(e\)?",
+        opties=[
+            r"\(1{,}602\cdot 10^{-19}\ \text{C}\)",
+            r"\(1{,}602\cdot 10^{-19}\ \text{kg}\)",
+            r"\(9{,}109\cdot 10^{-31}\ \text{C}\)",
+            r"\(6{,}022\cdot 10^{23}\ \text{C}\)",
+        ],
+        antwoord=0,
+        uitleg=r"Dat is de lading van één proton, en op het teken na ook die van één "
+        r"elektron. \(9{,}109\cdot 10^{-31}\ \text{kg}\) is de massa van een elektron en "
+        r"\(6{,}022\cdot 10^{23}\) is het getal van Avogadro.",
+    ),
+    dict(
+        type="meerkeuze",
+        vraag=r"Een voorwerp heeft \(5{,}0\cdot 10^{12}\) elektronen te veel. Hoe groot is \(Q\)? "
+        r"Neem \(e=1{,}602\cdot 10^{-19}\ \text{C}\).",
+        opties=[
+            r"\(-8{,}0\cdot 10^{-7}\ \text{C}\)",
+            r"\(+8{,}0\cdot 10^{-7}\ \text{C}\)",
+            r"\(-5{,}0\cdot 10^{12}\ \text{C}\)",
+            r"\(-3{,}1\cdot 10^{31}\ \text{C}\)",
+        ],
+        antwoord=0,
+        uitleg=r"\(Q=n\cdot e=5{,}0\cdot 10^{12}\cdot 1{,}602\cdot 10^{-19}\ \text{C}"
+        r"\approx 8{,}0\cdot 10^{-7}\ \text{C}\), en te véél elektronen betekent een "
+        r"negatief teken. De laatste optie is wat je krijgt als je deelt in plaats van "
+        r"vermenigvuldigt.",
+    ),
+    dict(
+        type="meerkeuze",
+        vraag=r"Een bolletje draagt \(Q=8\ \text{nC}\). Hoeveel coulomb is dat?",
+        opties=[
+            r"\(8\cdot 10^{-9}\ \text{C}\)",
+            r"\(8\cdot 10^{-6}\ \text{C}\)",
+            r"\(8\cdot 10^{-12}\ \text{C}\)",
+            r"\(8\cdot 10^{9}\ \text{C}\)",
+        ],
+        antwoord=0,
+        uitleg=r"Nano betekent \(10^{-9}\). Micro is \(10^{-6}\) en pico is \(10^{-12}\); "
+        r"in de elektrostatica kom je die drie alle drie tegen.",
+    ),
+    dict(
+        type="waarofniet",
+        vraag=r"De lading van een voorwerp is altijd een geheel veelvoud van \(e\).",
+        antwoord=True,
+        uitleg=r"Lading komt in pakjes: \(Q=n\cdot e\) met \(n\) een geheel getal. Je kan "
+        r"er geen half elektron bij of af doen. Dat heet de kwantisatie van de lading.",
     ),
     dict(
         type="meerkeuze",
@@ -61,14 +137,33 @@ DEEL1 = [
         antwoord=0,
         uitleg="De gelijke ladingen stoten elkaar af en de vrije elektronen kunnen bewegen, "
         "dus gaan ze zo ver mogelijk uit elkaar. Op een isolator blijft de lading wel "
-        "plaatselijk zitten.",
+        "plaatselijk staan.",
     ),
     dict(
-        type="waarofniet",
-        vraag="Bij het laden door wrijving wordt er nieuwe lading gemaakt.",
-        antwoord=False,
-        uitleg="Er wordt niets gemaakt: er verhuizen elektronen van het ene voorwerp naar "
-        "het andere. Samen blijven de twee voorwerpen even geladen als voordien.",
+        type="meerkeuze",
+        vraag="Welke stoffen zijn goede geleiders? Kruis alles aan wat juist is.",
+        opties=[
+            "koper",
+            "aluminium",
+            "glas",
+            "rubber",
+        ],
+        antwoord=[0, 1],
+        uitleg="Metalen hebben vrije elektronen en geleiden dus. Glas en rubber zijn "
+        "isolatoren, en daarom zit het handvat van gereedschap in kunststof.",
+    ),
+    dict(
+        type="meerkeuze",
+        vraag="Welke uitspraken over een isolator zijn juist? Kruis alles aan wat juist is.",
+        opties=[
+            "de elektronen blijven bij hun eigen atoom zitten",
+            "de aangebrachte lading blijft plaatselijk staan",
+            "de elektronen bewegen er vrij door het materiaal",
+            "de aangebrachte lading verdwijnt er meteen weer",
+        ],
+        antwoord=[0, 1],
+        uitleg="Zonder vrije elektronen kan de lading niet weglopen of zich verspreiden. "
+        "Daarom kan je op een kunststof staaf één kant laden en de andere niet.",
     ),
     dict(
         type="meerkeuze",
@@ -110,6 +205,28 @@ DEEL1 = [
         "lading van de kernen overheersen, en dat noemen we positief geladen.",
     ),
     dict(
+        type="waarofniet",
+        vraag=r"Wrijf je twee voorwerpen tegen elkaar, dan geldt achteraf \(Q_{1}=-Q_{2}\).",
+        antwoord=True,
+        uitleg=r"Wat het ene verliest, wint het andere, dus \(Q_{1}+Q_{2}=0\), net als voor "
+        r"het wrijven. Dat is het behoud van lading.",
+    ),
+    dict(
+        type="waarofniet",
+        vraag="Een isolator kan je niet elektrisch laden.",
+        antwoord=False,
+        uitleg="Je kan een isolator juist heel goed laden, bijvoorbeeld door wrijving. De "
+        "lading blijft er alleen plaatselijk zitten in plaats van zich te verspreiden.",
+    ),
+    dict(
+        type="waarofniet",
+        vraag=r"Een neutraal voorwerp bevat helemaal geen lading.",
+        antwoord=False,
+        uitleg=r"Het bevat er enorm veel, maar evenveel positieve als negatieve, dus "
+        r"\(Q=0\) in totaal. Neutraal is geen derde soort lading maar een evenwicht tussen "
+        r"de twee.",
+    ),
+    dict(
         type="invultekst",
         vraag="Hoe noem je het toestel met twee blaadjes dat aantoont dat een voorwerp geladen is?",
         antwoord=["elektroscoop", "een elektroscoop", "de elektroscoop"],
@@ -129,108 +246,6 @@ DEEL1 = [
         uitleg="De lading verdeelt zich over het hele metaal, dus ook over de twee "
         "blaadjes. Gelijke ladingen stoten elkaar af, en de blaadjes wijken uit.",
     ),
-    dict(
-        type="waarofniet",
-        vraag="Een isolator kan je niet elektrisch laden.",
-        antwoord=False,
-        uitleg="Je kan een isolator juist heel goed laden, bijvoorbeeld door wrijving. De "
-        "lading blijft er alleen plaatselijk zitten in plaats van zich te verspreiden.",
-    ),
-    dict(
-        type="meerkeuze",
-        vraag="Welke stoffen zijn goede geleiders? Kruis alles aan wat juist is.",
-        opties=[
-            "koper",
-            "aluminium",
-            "glas",
-            "rubber",
-        ],
-        antwoord=[0, 1],
-        uitleg="Metalen hebben vrije elektronen en geleiden dus. Glas en rubber zijn "
-        "isolatoren, en daarom zit het handvat van gereedschap in kunststof.",
-    ),
-    dict(
-        type="meerkeuze",
-        vraag="Waarom kleeft een opgeblazen ballon na wrijven aan de muur?",
-        opties=[
-            "de ballon trekt de lading in de muur naar zich toe",
-            "de lading van de ballon loopt gewoon de muur in",
-            "de lucht in de ballon duwt hem tegen de muur aan",
-            "de wrijvingswarmte maakt het oppervlak een beetje kleverig",
-        ],
-        antwoord=0,
-        uitleg="De geladen ballon verschuift de lading in de muur een beetje, zodat de "
-        "dichtste kant tegengesteld geladen is. Die aantrekking is sterker dan de "
-        "afstoting van de verdere kant.",
-    ),
-    dict(
-        type="meerkeuze",
-        vraag="Hoeveel soorten elektrische lading zijn er?",
-        opties=[
-            "twee, positief en negatief",
-            "drie, positief, negatief en neutraal",
-            "één, die enkel groter of kleiner wordt",
-            "vier, twee sterke en twee zwakke soorten",
-        ],
-        antwoord=0,
-        uitleg="Neutraal is geen derde soort maar evenveel van de twee. Gelijke soorten "
-        "stoten elkaar af, ongelijke trekken elkaar aan.",
-    ),
-    dict(
-        type="waarofniet",
-        vraag="Twee voorwerpen die je tegen elkaar wrijft, krijgen een even grote maar tegengestelde lading.",
-        antwoord=True,
-        uitleg="Wat het ene verliest, wint het andere. Daarom is de som van de twee "
-        "ladingen nog altijd nul, net als voor het wrijven.",
-    ),
-    dict(
-        type="invultekst",
-        vraag="In welke eenheid druk je elektrische lading uit?",
-        antwoord=["coulomb", "C", "de coulomb"],
-        uitleg="Het symbool is C. De lading van één elektron is ongeveer 1,6·10⁻¹⁹ C, dus "
-        "één coulomb is een enorme hoeveelheid.",
-    ),
-    dict(
-        type="meerkeuze",
-        vraag="Waarom voelt een metalen kruk kouder aan dan een houten deur van dezelfde temperatuur?",
-        opties=[
-            "metaal geleidt de warmte veel sneller van je hand weg",
-            "metaal is altijd een aantal graden kouder dan hout",
-            "metaal neemt lading van je hand over en koelt daardoor",
-            "hout geeft juist warmte aan je hand af bij aanraking",
-        ],
-        antwoord=0,
-        uitleg="Diezelfde vrije elektronen die het metaal elektrisch laten geleiden, voeren "
-        "ook warmte af. Een goede elektrische geleider is daarom meestal ook een goede "
-        "warmtegeleider.",
-    ),
-    dict(
-        type="meerkeuze",
-        vraag="Welke uitspraken over een isolator zijn juist? Kruis alles aan wat juist is.",
-        opties=[
-            "de elektronen blijven bij hun eigen atoom zitten",
-            "de aangebrachte lading blijft plaatselijk staan",
-            "de elektronen bewegen er vrij door het materiaal",
-            "de aangebrachte lading verdwijnt er meteen weer",
-        ],
-        antwoord=[0, 1],
-        uitleg="Zonder vrije elektronen kan de lading niet weglopen of zich verspreiden. "
-        "Daarom kan je op een kunststof staaf één kant laden en de andere niet.",
-    ),
-    dict(
-        type="waarofniet",
-        vraag="De lading van een voorwerp is altijd een veelvoud van de lading van één elektron.",
-        antwoord=True,
-        uitleg="Lading komt in pakjes: je kan er geen half elektron bij of af doen. Die "
-        "kleinste lading noemt men de elementaire lading.",
-    ),
-    dict(
-        type="invultekst",
-        vraag="Hoe noem je een stof waarin de elektronen niet vrij kunnen bewegen?",
-        antwoord=["isolator", "een isolator", "isolatoren"],
-        uitleg="Glas, rubber, kunststof en droge lucht zijn isolatoren. Een geleider heeft "
-        "wel vrije elektronen.",
-    ),
 ]
 
 DEEL2 = [
@@ -249,16 +264,19 @@ DEEL2 = [
     ),
     dict(
         type="meerkeuze",
-        vraag="Twee gelijke metalen bollen, de ene met 8 nC en de andere ongeladen, raken elkaar even aan. Hoe eindigt dat?",
+        vraag=r"Twee gelijke metalen bollen met \(Q_{1}=+12\ \text{nC}\) en "
+        r"\(Q_{2}=-4\ \text{nC}\) raken elkaar even aan. Welke lading draagt elke bol daarna?",
         opties=[
-            "elke bol draagt daarna 4 nC",
-            "elke bol draagt daarna 8 nC",
-            "de eerste houdt 8 nC en de tweede blijft op nul",
-            "de lading verdwijnt en beide staan op nul",
+            r"\(+4\ \text{nC}\)",
+            r"\(+8\ \text{nC}\)",
+            r"\(+16\ \text{nC}\)",
+            r"\(0\ \text{nC}\)",
         ],
         antwoord=0,
-        uitleg="De lading verdeelt zich over twee even grote bollen, dus elk de helft. Zijn "
-        "de bollen niet even groot, dan krijgt de grootste een groter deel.",
+        uitleg=r"Lading blijft behouden, dus de som blijft "
+        r"\(Q_{1}+Q_{2}=+12-4=+8\ \text{nC}\). Over twee even grote bollen verdeelt die "
+        r"zich eerlijk: elk \(+4\ \text{nC}\). Zijn de bollen niet even groot, dan krijgt "
+        r"de grootste een groter deel.",
     ),
     dict(
         type="invultekst",
@@ -283,11 +301,11 @@ DEEL2 = [
     ),
     dict(
         type="waarofniet",
-        vraag="Een voorwerp dat enkel door influentie beïnvloed werd, is daarna zelf geladen.",
+        vraag=r"Een voorwerp dat enkel door influentie beïnvloed werd, heeft achteraf \(Q\neq 0\).",
         antwoord=False,
-        uitleg="De lading is enkel verschoven: de ene kant is positief, de andere negatief, "
-        "en samen is dat nog altijd nul. Haal je de staaf weg, dan verdeelt alles zich "
-        "weer gelijkmatig.",
+        uitleg=r"De lading is enkel verschoven: de ene kant is positief, de andere negatief, "
+        r"en samen is dat nog altijd \(Q=0\). Haal je de staaf weg, dan verdeelt alles zich "
+        r"weer gelijkmatig.",
     ),
     dict(
         type="meerkeuze",
@@ -326,16 +344,16 @@ DEEL2 = [
     ),
     dict(
         type="meerkeuze",
-        vraag="Welke manieren om een voorwerp te laden bestaan er? Kruis alles aan wat juist is.",
+        vraag="Op welke manieren kan je een voorwerp elektrisch laden? Kruis alles aan wat juist is.",
         opties=[
-            "door wrijving met een ander voorwerp",
-            "door contact met een geladen voorwerp",
-            "door het voorwerp sterk op te warmen",
-            "door het voorwerp in twee te breken",
+            "door het met een andere stof te wrijven",
+            "door het met een geladen voorwerp aan te raken",
+            "door influentie met een aarding erbij",
+            "door het voorwerp op te warmen",
         ],
-        antwoord=[0, 1],
-        uitleg="De derde manier is influentie met aarding. Opwarmen of breken verplaatst "
-        "geen elektronen van het ene voorwerp naar het andere.",
+        antwoord=[0, 1, 2],
+        uitleg="Opwarmen verplaatst geen elektronen van of naar het voorwerp. Op een vochtige "
+        "dag lekt de lading trouwens snel via het water in de lucht weg.",
     ),
     dict(
         type="waarofniet",
@@ -354,9 +372,9 @@ DEEL2 = [
             "papier draagt altijd een kleine lading van zichzelf mee",
         ],
         antwoord=0,
-        uitleg="Door polarisatie komt de tegengestelde lading het dichtst bij de staaf te "
-        "liggen. De wet van Coulomb zegt dan dat de aantrekking van die dichte kant "
-        "sterker is dan de afstoting van de verdere kant.",
+        uitleg=r"Door polarisatie komt de tegengestelde lading het dichtst bij de staaf te "
+        r"liggen. Omdat de kracht met \(\tfrac{1}{r^{2}}\) afneemt, weegt die dichte kant "
+        r"zwaarder door dan de afstoting van de verdere kant.",
     ),
     dict(
         type="meerkeuze",
@@ -437,16 +455,19 @@ DEEL2 = [
     ),
     dict(
         type="meerkeuze",
-        vraag="Op welke manieren kan je een voorwerp elektrisch laden? Kruis alles aan wat juist is.",
+        vraag=r"Een bol draagt \(Q=-4{,}8\cdot 10^{-9}\ \text{C}\). Hoeveel elektronen zitten "
+        r"er te veel op? Neem \(e=1{,}602\cdot 10^{-19}\ \text{C}\).",
         opties=[
-            "door het met een andere stof te wrijven",
-            "door het met een geladen voorwerp aan te raken",
-            "door influentie met een aarding erbij",
-            "door het voorwerp op te warmen",
+            r"\(3{,}0\cdot 10^{10}\)",
+            r"\(7{,}7\cdot 10^{-28}\)",
+            r"\(3{,}0\cdot 10^{-10}\)",
+            r"\(4{,}8\cdot 10^{9}\)",
         ],
-        antwoord=[0, 1, 2],
-        uitleg="Opwarmen verplaatst geen elektronen van of naar het voorwerp. Op een vochtige "
-        "dag lekt de lading trouwens snel via het water in de lucht weg.",
+        antwoord=0,
+        uitleg=r"Uit \(Q=n\cdot e\) volgt \(n=\dfrac{|Q|}{e}="
+        r"\dfrac{4{,}8\cdot 10^{-9}}{1{,}602\cdot 10^{-19}}\approx 3{,}0\cdot 10^{10}\). "
+        r"De tweede optie krijg je als je vermenigvuldigt in plaats van deelt. Een aantal "
+        r"deeltjes kan nooit kleiner dan één zijn.",
     ),
     dict(
         type="invultekst",

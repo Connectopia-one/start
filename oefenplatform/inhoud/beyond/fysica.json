@@ -18,6 +18,67 @@
           "uitleg": "Protonen zitten vast in de kern en kunnen niet verhuizen. Een voorwerp wordt dus negatief door elektronen bij te krijgen, en positief door er te verliezen."
         },
         {
+          "type": "invultekst",
+          "vraag": "Welk symbool gebruik je voor de grootheid elektrische lading? Schrijf de letter.",
+          "antwoord": [
+            "Q",
+            "q"
+          ],
+          "uitleg": "De grootheid is \\(Q\\), de eenheid is de coulomb met symbool \\(\\text{C}\\). Let op het verschil: \\(Q\\) is wat je meet, \\(\\text{C}\\) is waarin je het uitdrukt."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "In welke eenheid druk je elektrische lading uit?",
+          "antwoord": [
+            "coulomb",
+            "C",
+            "de coulomb"
+          ],
+          "uitleg": "Het symbool is \\(\\text{C}\\). Je schrijft dus bijvoorbeeld \\(Q=-8\\ \\text{nC}\\), en dat lees je als een lading van min acht nanocoulomb."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Hoe groot is de elementaire lading \\(e\\)?",
+          "opties": [
+            "\\(1{,}602\\cdot 10^{-19}\\ \\text{C}\\)",
+            "\\(1{,}602\\cdot 10^{-19}\\ \\text{kg}\\)",
+            "\\(9{,}109\\cdot 10^{-31}\\ \\text{C}\\)",
+            "\\(6{,}022\\cdot 10^{23}\\ \\text{C}\\)"
+          ],
+          "antwoord": 0,
+          "uitleg": "Dat is de lading van één proton, en op het teken na ook die van één elektron. \\(9{,}109\\cdot 10^{-31}\\ \\text{kg}\\) is de massa van een elektron en \\(6{,}022\\cdot 10^{23}\\) is het getal van Avogadro."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Een voorwerp heeft \\(5{,}0\\cdot 10^{12}\\) elektronen te veel. Hoe groot is \\(Q\\)? Neem \\(e=1{,}602\\cdot 10^{-19}\\ \\text{C}\\).",
+          "opties": [
+            "\\(-8{,}0\\cdot 10^{-7}\\ \\text{C}\\)",
+            "\\(+8{,}0\\cdot 10^{-7}\\ \\text{C}\\)",
+            "\\(-5{,}0\\cdot 10^{12}\\ \\text{C}\\)",
+            "\\(-3{,}1\\cdot 10^{31}\\ \\text{C}\\)"
+          ],
+          "antwoord": 0,
+          "uitleg": "\\(Q=n\\cdot e=5{,}0\\cdot 10^{12}\\cdot 1{,}602\\cdot 10^{-19}\\ \\text{C}\\approx 8{,}0\\cdot 10^{-7}\\ \\text{C}\\), en te véél elektronen betekent een negatief teken. De laatste optie is wat je krijgt als je deelt in plaats van vermenigvuldigt."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Een bolletje draagt \\(Q=8\\ \\text{nC}\\). Hoeveel coulomb is dat?",
+          "opties": [
+            "\\(8\\cdot 10^{-9}\\ \\text{C}\\)",
+            "\\(8\\cdot 10^{-6}\\ \\text{C}\\)",
+            "\\(8\\cdot 10^{-12}\\ \\text{C}\\)",
+            "\\(8\\cdot 10^{9}\\ \\text{C}\\)"
+          ],
+          "antwoord": 0,
+          "uitleg": "Nano betekent \\(10^{-9}\\). Micro is \\(10^{-6}\\) en pico is \\(10^{-12}\\); in de elektrostatica kom je die drie alle drie tegen."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "De lading van een voorwerp is altijd een geheel veelvoud van \\(e\\).",
+          "antwoord": true,
+          "uitleg": "Lading komt in pakjes: \\(Q=n\\cdot e\\) met \\(n\\) een geheel getal. Je kan er geen half elektron bij of af doen. Dat heet de kwantisatie van de lading."
+        },
+        {
           "type": "meerkeuze",
           "vraag": "Wat is het verschil tussen een geleider en een isolator op atomaire schaal?",
           "opties": [
@@ -49,13 +110,37 @@
             "ze verdwijnt binnen enkele seconden volledig weg"
           ],
           "antwoord": 0,
-          "uitleg": "De gelijke ladingen stoten elkaar af en de vrije elektronen kunnen bewegen, dus gaan ze zo ver mogelijk uit elkaar. Op een isolator blijft de lading wel plaatselijk zitten."
+          "uitleg": "De gelijke ladingen stoten elkaar af en de vrije elektronen kunnen bewegen, dus gaan ze zo ver mogelijk uit elkaar. Op een isolator blijft de lading wel plaatselijk staan."
         },
         {
-          "type": "waarofniet",
-          "vraag": "Bij het laden door wrijving wordt er nieuwe lading gemaakt.",
-          "antwoord": false,
-          "uitleg": "Er wordt niets gemaakt: er verhuizen elektronen van het ene voorwerp naar het andere. Samen blijven de twee voorwerpen even geladen als voordien."
+          "type": "meerkeuze",
+          "vraag": "Welke stoffen zijn goede geleiders? Kruis alles aan wat juist is.",
+          "opties": [
+            "koper",
+            "aluminium",
+            "glas",
+            "rubber"
+          ],
+          "antwoord": [
+            0,
+            1
+          ],
+          "uitleg": "Metalen hebben vrije elektronen en geleiden dus. Glas en rubber zijn isolatoren, en daarom zit het handvat van gereedschap in kunststof."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Welke uitspraken over een isolator zijn juist? Kruis alles aan wat juist is.",
+          "opties": [
+            "de elektronen blijven bij hun eigen atoom zitten",
+            "de aangebrachte lading blijft plaatselijk staan",
+            "de elektronen bewegen er vrij door het materiaal",
+            "de aangebrachte lading verdwijnt er meteen weer"
+          ],
+          "antwoord": [
+            0,
+            1
+          ],
+          "uitleg": "Zonder vrije elektronen kan de lading niet weglopen of zich verspreiden. Daarom kan je op een kunststof staaf één kant laden en de andere niet."
         },
         {
           "type": "meerkeuze",
@@ -97,6 +182,24 @@
           "uitleg": "Alleen elektronen bewegen. Een tekort aan elektronen laat de positieve lading van de kernen overheersen, en dat noemen we positief geladen."
         },
         {
+          "type": "waarofniet",
+          "vraag": "Wrijf je twee voorwerpen tegen elkaar, dan geldt achteraf \\(Q_{1}=-Q_{2}\\).",
+          "antwoord": true,
+          "uitleg": "Wat het ene verliest, wint het andere, dus \\(Q_{1}+Q_{2}=0\\), net als voor het wrijven. Dat is het behoud van lading."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "Een isolator kan je niet elektrisch laden.",
+          "antwoord": false,
+          "uitleg": "Je kan een isolator juist heel goed laden, bijvoorbeeld door wrijving. De lading blijft er alleen plaatselijk zitten in plaats van zich te verspreiden."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "Een neutraal voorwerp bevat helemaal geen lading.",
+          "antwoord": false,
+          "uitleg": "Het bevat er enorm veel, maar evenveel positieve als negatieve, dus \\(Q=0\\) in totaal. Neutraal is geen derde soort lading maar een evenwicht tussen de twee."
+        },
+        {
           "type": "invultekst",
           "vraag": "Hoe noem je het toestel met twee blaadjes dat aantoont dat een voorwerp geladen is?",
           "antwoord": [
@@ -117,110 +220,6 @@
           ],
           "antwoord": 0,
           "uitleg": "De lading verdeelt zich over het hele metaal, dus ook over de twee blaadjes. Gelijke ladingen stoten elkaar af, en de blaadjes wijken uit."
-        },
-        {
-          "type": "waarofniet",
-          "vraag": "Een isolator kan je niet elektrisch laden.",
-          "antwoord": false,
-          "uitleg": "Je kan een isolator juist heel goed laden, bijvoorbeeld door wrijving. De lading blijft er alleen plaatselijk zitten in plaats van zich te verspreiden."
-        },
-        {
-          "type": "meerkeuze",
-          "vraag": "Welke stoffen zijn goede geleiders? Kruis alles aan wat juist is.",
-          "opties": [
-            "koper",
-            "aluminium",
-            "glas",
-            "rubber"
-          ],
-          "antwoord": [
-            0,
-            1
-          ],
-          "uitleg": "Metalen hebben vrije elektronen en geleiden dus. Glas en rubber zijn isolatoren, en daarom zit het handvat van gereedschap in kunststof."
-        },
-        {
-          "type": "meerkeuze",
-          "vraag": "Waarom kleeft een opgeblazen ballon na wrijven aan de muur?",
-          "opties": [
-            "de ballon trekt de lading in de muur naar zich toe",
-            "de lading van de ballon loopt gewoon de muur in",
-            "de lucht in de ballon duwt hem tegen de muur aan",
-            "de wrijvingswarmte maakt het oppervlak een beetje kleverig"
-          ],
-          "antwoord": 0,
-          "uitleg": "De geladen ballon verschuift de lading in de muur een beetje, zodat de dichtste kant tegengesteld geladen is. Die aantrekking is sterker dan de afstoting van de verdere kant."
-        },
-        {
-          "type": "meerkeuze",
-          "vraag": "Hoeveel soorten elektrische lading zijn er?",
-          "opties": [
-            "twee, positief en negatief",
-            "drie, positief, negatief en neutraal",
-            "één, die enkel groter of kleiner wordt",
-            "vier, twee sterke en twee zwakke soorten"
-          ],
-          "antwoord": 0,
-          "uitleg": "Neutraal is geen derde soort maar evenveel van de twee. Gelijke soorten stoten elkaar af, ongelijke trekken elkaar aan."
-        },
-        {
-          "type": "waarofniet",
-          "vraag": "Twee voorwerpen die je tegen elkaar wrijft, krijgen een even grote maar tegengestelde lading.",
-          "antwoord": true,
-          "uitleg": "Wat het ene verliest, wint het andere. Daarom is de som van de twee ladingen nog altijd nul, net als voor het wrijven."
-        },
-        {
-          "type": "invultekst",
-          "vraag": "In welke eenheid druk je elektrische lading uit?",
-          "antwoord": [
-            "coulomb",
-            "C",
-            "de coulomb"
-          ],
-          "uitleg": "Het symbool is C. De lading van één elektron is ongeveer 1,6·10⁻¹⁹ C, dus één coulomb is een enorme hoeveelheid."
-        },
-        {
-          "type": "meerkeuze",
-          "vraag": "Waarom voelt een metalen kruk kouder aan dan een houten deur van dezelfde temperatuur?",
-          "opties": [
-            "metaal geleidt de warmte veel sneller van je hand weg",
-            "metaal is altijd een aantal graden kouder dan hout",
-            "metaal neemt lading van je hand over en koelt daardoor",
-            "hout geeft juist warmte aan je hand af bij aanraking"
-          ],
-          "antwoord": 0,
-          "uitleg": "Diezelfde vrije elektronen die het metaal elektrisch laten geleiden, voeren ook warmte af. Een goede elektrische geleider is daarom meestal ook een goede warmtegeleider."
-        },
-        {
-          "type": "meerkeuze",
-          "vraag": "Welke uitspraken over een isolator zijn juist? Kruis alles aan wat juist is.",
-          "opties": [
-            "de elektronen blijven bij hun eigen atoom zitten",
-            "de aangebrachte lading blijft plaatselijk staan",
-            "de elektronen bewegen er vrij door het materiaal",
-            "de aangebrachte lading verdwijnt er meteen weer"
-          ],
-          "antwoord": [
-            0,
-            1
-          ],
-          "uitleg": "Zonder vrije elektronen kan de lading niet weglopen of zich verspreiden. Daarom kan je op een kunststof staaf één kant laden en de andere niet."
-        },
-        {
-          "type": "waarofniet",
-          "vraag": "De lading van een voorwerp is altijd een veelvoud van de lading van één elektron.",
-          "antwoord": true,
-          "uitleg": "Lading komt in pakjes: je kan er geen half elektron bij of af doen. Die kleinste lading noemt men de elementaire lading."
-        },
-        {
-          "type": "invultekst",
-          "vraag": "Hoe noem je een stof waarin de elektronen niet vrij kunnen bewegen?",
-          "antwoord": [
-            "isolator",
-            "een isolator",
-            "isolatoren"
-          ],
-          "uitleg": "Glas, rubber, kunststof en droge lucht zijn isolatoren. Een geleider heeft wel vrije elektronen."
         }
       ]
     },
@@ -243,15 +242,15 @@
         },
         {
           "type": "meerkeuze",
-          "vraag": "Twee gelijke metalen bollen, de ene met 8 nC en de andere ongeladen, raken elkaar even aan. Hoe eindigt dat?",
+          "vraag": "Twee gelijke metalen bollen met \\(Q_{1}=+12\\ \\text{nC}\\) en \\(Q_{2}=-4\\ \\text{nC}\\) raken elkaar even aan. Welke lading draagt elke bol daarna?",
           "opties": [
-            "elke bol draagt daarna 4 nC",
-            "elke bol draagt daarna 8 nC",
-            "de eerste houdt 8 nC en de tweede blijft op nul",
-            "de lading verdwijnt en beide staan op nul"
+            "\\(+4\\ \\text{nC}\\)",
+            "\\(+8\\ \\text{nC}\\)",
+            "\\(+16\\ \\text{nC}\\)",
+            "\\(0\\ \\text{nC}\\)"
           ],
           "antwoord": 0,
-          "uitleg": "De lading verdeelt zich over twee even grote bollen, dus elk de helft. Zijn de bollen niet even groot, dan krijgt de grootste een groter deel."
+          "uitleg": "Lading blijft behouden, dus de som blijft \\(Q_{1}+Q_{2}=+12-4=+8\\ \\text{nC}\\). Over twee even grote bollen verdeelt die zich eerlijk: elk \\(+4\\ \\text{nC}\\). Zijn de bollen niet even groot, dan krijgt de grootste een groter deel."
         },
         {
           "type": "invultekst",
@@ -277,9 +276,9 @@
         },
         {
           "type": "waarofniet",
-          "vraag": "Een voorwerp dat enkel door influentie beïnvloed werd, is daarna zelf geladen.",
+          "vraag": "Een voorwerp dat enkel door influentie beïnvloed werd, heeft achteraf \\(Q\\neq 0\\).",
           "antwoord": false,
-          "uitleg": "De lading is enkel verschoven: de ene kant is positief, de andere negatief, en samen is dat nog altijd nul. Haal je de staaf weg, dan verdeelt alles zich weer gelijkmatig."
+          "uitleg": "De lading is enkel verschoven: de ene kant is positief, de andere negatief, en samen is dat nog altijd \\(Q=0\\). Haal je de staaf weg, dan verdeelt alles zich weer gelijkmatig."
         },
         {
           "type": "meerkeuze",
@@ -317,18 +316,19 @@
         },
         {
           "type": "meerkeuze",
-          "vraag": "Welke manieren om een voorwerp te laden bestaan er? Kruis alles aan wat juist is.",
+          "vraag": "Op welke manieren kan je een voorwerp elektrisch laden? Kruis alles aan wat juist is.",
           "opties": [
-            "door wrijving met een ander voorwerp",
-            "door contact met een geladen voorwerp",
-            "door het voorwerp sterk op te warmen",
-            "door het voorwerp in twee te breken"
+            "door het met een andere stof te wrijven",
+            "door het met een geladen voorwerp aan te raken",
+            "door influentie met een aarding erbij",
+            "door het voorwerp op te warmen"
           ],
           "antwoord": [
             0,
-            1
+            1,
+            2
           ],
-          "uitleg": "De derde manier is influentie met aarding. Opwarmen of breken verplaatst geen elektronen van het ene voorwerp naar het andere."
+          "uitleg": "Opwarmen verplaatst geen elektronen van of naar het voorwerp. Op een vochtige dag lekt de lading trouwens snel via het water in de lucht weg."
         },
         {
           "type": "waarofniet",
@@ -346,7 +346,7 @@
             "papier draagt altijd een kleine lading van zichzelf mee"
           ],
           "antwoord": 0,
-          "uitleg": "Door polarisatie komt de tegengestelde lading het dichtst bij de staaf te liggen. De wet van Coulomb zegt dan dat de aantrekking van die dichte kant sterker is dan de afstoting van de verdere kant."
+          "uitleg": "Door polarisatie komt de tegengestelde lading het dichtst bij de staaf te liggen. Omdat de kracht met \\(\\tfrac{1}{r^{2}}\\) afneemt, weegt die dichte kant zwaarder door dan de afstoting van de verdere kant."
         },
         {
           "type": "meerkeuze",
@@ -427,19 +427,15 @@
         },
         {
           "type": "meerkeuze",
-          "vraag": "Op welke manieren kan je een voorwerp elektrisch laden? Kruis alles aan wat juist is.",
+          "vraag": "Een bol draagt \\(Q=-4{,}8\\cdot 10^{-9}\\ \\text{C}\\). Hoeveel elektronen zitten er te veel op? Neem \\(e=1{,}602\\cdot 10^{-19}\\ \\text{C}\\).",
           "opties": [
-            "door het met een andere stof te wrijven",
-            "door het met een geladen voorwerp aan te raken",
-            "door influentie met een aarding erbij",
-            "door het voorwerp op te warmen"
+            "\\(3{,}0\\cdot 10^{10}\\)",
+            "\\(7{,}7\\cdot 10^{-28}\\)",
+            "\\(3{,}0\\cdot 10^{-10}\\)",
+            "\\(4{,}8\\cdot 10^{9}\\)"
           ],
-          "antwoord": [
-            0,
-            1,
-            2
-          ],
-          "uitleg": "Opwarmen verplaatst geen elektronen van of naar het voorwerp. Op een vochtige dag lekt de lading trouwens snel via het water in de lucht weg."
+          "antwoord": 0,
+          "uitleg": "Uit \\(Q=n\\cdot e\\) volgt \\(n=\\dfrac{|Q|}{e}=\\dfrac{4{,}8\\cdot 10^{-9}}{1{,}602\\cdot 10^{-19}}\\approx 3{,}0\\cdot 10^{10}\\). De tweede optie krijg je als je vermenigvuldigt in plaats van deelt. Een aantal deeltjes kan nooit kleiner dan één zijn."
         },
         {
           "type": "invultekst",

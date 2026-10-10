@@ -1,6 +1,7 @@
 import Link from "next/link";
 import { notFound } from "next/navigation";
 import { Header } from "@/components/Header";
+import { Leidraad } from "@/components/Leidraad";
 import {
   HoofdstukTegels,
   type HoofdstukTegel,
@@ -126,6 +127,8 @@ export default async function NiveauVakPage({
           hoofdstukken={tegels}
           kinderen={kinderen ?? []}
         />
+
+        <Leidraad />
       </main>
     </>
   );
