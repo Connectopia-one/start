@@ -9645,3 +9645,71 @@ def scalairteken(breedte=470):
                  f'fill="none" stroke="{DIM}" stroke-width="1.2"/>')
         d.append(_tekst(px + paneel / 2, 154, teken, 12, INK, "middle", True))
     return _svg(breedte, h, "\n".join(d))
+
+
+def _vlakvorm(ox, oy, kleur=None, vul_op="0.10", schaal=1.0):
+    """Een vlak in perspectief, als parallellogram. Geeft (svg, middelpunt)."""
+    kleur = kleur or FOREST
+    hoeken = [(x * schaal, y * schaal) for x, y in
+              ((0, 34), (70, 10), (120, 46), (50, 70))]
+    punten = " ".join(f"{ox + x},{oy + y}" for x, y in hoeken)
+    mx = ox + sum(x for x, _ in hoeken) / 4
+    my = oy + sum(y for _, y in hoeken) / 4
+    return (f'<polygon points="{punten}" fill="{kleur}" fill-opacity="{vul_op}" '
+            f'stroke="{kleur}" stroke-width="1.4"/>'), (mx, my)
+
+
+def rechteenvlak(breedte=470):
+    """De drie mogelijke liggingen van een rechte ten opzichte van een vlak."""
+    h = 192
+    marge, tussen = 6, 10
+    paneel = (breedte - 2 * marge - 2 * tussen) / 3
+    gevallen = ["ze ligt in het vlak", "ze is er evenwijdig mee", "ze snijdt het"]
+    d = []
+    for i, onder in enumerate(gevallen):
+        px = marge + i * (paneel + tussen)
+        d.append(f'<rect x="{px}" y="{24}" width="{paneel}" height="{124}" rx="8" '
+                 f'fill="{PAPER}" stroke="{BORDER}" stroke-width="1.2"/>')
+        ox = px + (paneel - 120) / 2
+        oy = 66
+        vlak, (mx, my) = _vlakvorm(ox, oy)
+        d.append(vlak)
+        d.append(_tekst(ox + 118, oy + 66, "α", 12, FOREST, "start", True))
+        if i == 0:
+            d.append(f'<line x1="{mx - 30:.1f}" y1="{my + 10:.1f}" x2="{mx + 30:.1f}" '
+                     f'y2="{my - 10:.1f}" stroke="{AMBER}" stroke-width="2.4" '
+                     f'stroke-linecap="round"/>')
+            d.append(_tekst(mx + 36, my - 12, "a", 12, AMBER, "start", True))
+        elif i == 1:
+            d.append(f'<line x1="{mx - 30:.1f}" y1="{my - 24:.1f}" x2="{mx + 30:.1f}" '
+                     f'y2="{my - 44:.1f}" stroke="{AMBER}" stroke-width="2.4" '
+                     f'stroke-linecap="round"/>')
+            d.append(f'<line x1="{mx:.1f}" y1="{my - 34:.1f}" x2="{mx:.1f}" y2="{my:.1f}" '
+                     f'stroke="{DIM}" stroke-width="1" stroke-dasharray="3 3"/>')
+            d.append(_tekst(mx + 36, my - 46, "a", 12, AMBER, "start", True))
+        else:
+            d.append(f'<line x1="{mx - 20:.1f}" y1="{my - 42:.1f}" x2="{mx + 16:.1f}" '
+                     f'y2="{my + 36:.1f}" stroke="{AMBER}" stroke-width="2.4" '
+                     f'stroke-linecap="round"/>')
+            d.append(f'<circle cx="{mx:.1f}" cy="{my:.1f}" r="4" fill="{INK}"/>')
+            d.append(_tekst(mx - 28, my - 48, "a", 12, AMBER, "end", True))
+        d.append(_tekst(px + paneel / 2, 170, onder, 10.5, INK, "middle", True))
+    return _svg(breedte, h, "\n".join(d))
+
+
+def normaalvector(breedte=470):
+    """Een vlak met zijn normaalvector, en een richtingsvector die erin ligt."""
+    h = 190
+    schaal = 1.45
+    ox, oy = (breedte - 120 * schaal) / 2 - 24, 64
+    vlak, (mx, my) = _vlakvorm(ox, oy, schaal=schaal)
+    d = [vlak]
+    d.append(_vectorpijl(mx, my, mx, my - 64, DARK, dik=2.6))
+    d.append(_tekst(mx + 10, my - 58, "n", 12.5, DARK, "start", True))
+    d.append(_vectorpijl(mx, my, mx + 56, my - 20, AMBER))
+    d.append(_tekst(mx + 64, my - 18, "v", 12.5, AMBER, "start", True))
+    d.append(f'<path d="M{mx} {my - 16} L{mx + 14:.1f} {my - 21:.1f} L{mx + 14:.1f} '
+             f'{my - 5:.1f}" fill="none" stroke="{DIM}" stroke-width="1.2"/>')
+    d.append(f'<circle cx="{mx:.1f}" cy="{my:.1f}" r="3" fill="{INK}"/>')
+    d.append(_tekst(ox + 122 * schaal + 4, oy + 66 * schaal, "α", 12.5, FOREST, "start", True))
+    return _svg(breedte, h, "\n".join(d))

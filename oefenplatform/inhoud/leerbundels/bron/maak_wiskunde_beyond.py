@@ -26,7 +26,7 @@ alles nog in woorden stond en had gelijk: een leerling van de derde graad moet
 
 De omzetting gebeurt thema per thema, samen met de vragen van dat thema, zodat
 een kind in de bundel dezelfde schrijfwijze terugvindt als in de oefening.
-Omgezet: thema 1 tot 20. De andere thema's staan nog in woorden.
+Omgezet: thema 1 tot 21. De andere thema's staan nog in woorden.
 """
 import sys, pathlib
 sys.path.insert(0, str(pathlib.Path(__file__).parent))
@@ -2675,44 +2675,60 @@ BUNDELS["rechten-en-vlakken-in-de-ruimte-beyond"] = dict(
     onder="Vectoriële, parametrische en cartesische vergelijkingen, onderlinge ligging, afstanden en hoeken.",
     secties=[
         dict(kop="De vergelijking van een rechte", blokken=[
-            ("p", "<strong>Om de vergelijking van een rechte op te stellen heb je een punt en een "
-                  "richtingsvector nodig</strong>: het punt zegt waar ze ligt, de richtingsvector welke "
-                  "kant ze op loopt. Twee punten volstaan ook, want daar haal je de richtingsvector uit."),
-            ("p", "In de <strong>parametrische vergelijkingen</strong> geeft <strong>elke waarde van de "
-                  "parameter een ander punt van de rechte</strong>; laat je de parameter alle reële "
-                  "waarden doorlopen, dan krijg je de hele rechte. In de ruimte zijn dat <strong>drie</strong> "
-                  "vergelijkingen, één per coördinaat, allemaal met dezelfde parameter."),
-            ("p", "<strong>Een rechte in de ruimte heeft twee cartesische vergelijkingen, geen één</strong>: "
-                  "ze is de doorsnede van twee vlakken. <strong>In het vlak heeft een rechte er wel precies "
-                  "één</strong>. <strong>Van parametrisch naar cartesisch werk je de parameter weg</strong>: "
-                  "je drukt hem uit in één vergelijking en vult die in de twee andere in."),
-            ("p", "<strong>Of een punt op een rechte ligt, controleer je door zijn coördinaten in de "
-                  "vergelijkingen in te vullen.</strong> Bij de parametrische vorm moet er voor alle drie "
-                  "dezelfde parameterwaarde uitkomen."),
+            ("p", r"<strong>Om de vergelijking van een rechte op te stellen heb je een punt en een "
+                  r"richtingsvector \(\vec{v}\) nodig</strong>: het punt zegt waar ze ligt, "
+                  r"\(\vec{v}\) welke kant ze op loopt. Twee punten volstaan ook, want daar haal je "
+                  r"\(\vec{v}\) uit. <strong>Een rechte heeft oneindig veel richtingsvectoren</strong>: "
+                  r"elk veelvoud \(k \cdot \vec{v}\) met \(k \neq 0\) is er ook een."),
+            ("p", r"De <strong>vectoriële vergelijking</strong> is \(\overrightarrow{OP} = "
+                  r"\overrightarrow{OP_{0}} + t \cdot \vec{v}\). Schrijf je dat per coördinaat uit, dan "
+                  r"krijg je de <strong>parametrische vergelijkingen</strong>: \(\left\{\begin{array}{l} "
+                  r"x = x_{0} + at \\ y = y_{0} + bt \\ z = z_{0} + ct \end{array}\right.\) Die beschrijving "
+                  r"bestaat in de ruimte uit <strong>drie</strong> vergelijkingen, één per coördinaat, met "
+                  r"dezelfde \(t\). <strong>Elke waarde van \(t\) geeft een ander punt van de "
+                  r"rechte</strong>; laat je \(t\) heel \(\mathbb{R}\) doorlopen, dan krijg je de hele rechte."),
         ]),
-        dict(kop="De vergelijking van een vlak", blokken=[
-            ("p", "<strong>Een vlak ligt vast door één punt en twee richtingsvectoren die niet evenwijdig "
-                  "zijn</strong>, of door <strong>drie punten die niet op eenzelfde rechte liggen</strong>. "
-                  "<strong>Drie punten op één rechte bepalen geen vlak</strong>, want daar gaan oneindig "
-                  "veel vlakken door. Daarom staat een tafel met drie poten nooit te wiebelen. In de "
-                  "<strong>parametrische vergelijkingen van een vlak staan twee parameters</strong>, één "
-                  "per richtingsvector."),
-            ("p", "<strong>De cartesische vergelijking van een vlak heeft de vorm: a maal x plus b maal y "
-                  "plus c maal z plus d is nul.</strong> Eén vergelijking van de eerste graad in drie "
-                  "onbekenden. <strong>De coëfficiënten van x, y en z vormen samen een "
-                  "normaalvector</strong> van dat vlak: voor <strong>twee x min drie y plus z min vijf is "
-                  "nul</strong> is de eerste coördinaat daarvan <strong>twee</strong>. Ken je <strong>een "
-                  "punt en een normaalvector, dan kan je die cartesische vergelijking opstellen</strong>. "
-                  "Het vlak door de x-as en de y-as heeft als vergelijking <strong>z is gelijk aan "
-                  "nul</strong>."),
-            ("p", "<strong>Met een drie bij drie determinant stel je de cartesische vergelijking op door "
-                  "die determinant gelijk te stellen aan nul.</strong> In de determinant staan de "
-                  "verbindingsvector naar een onbekend punt en de twee richtingsvectoren. Nul betekent "
-                  "<strong>dat de drie vectoren in eenzelfde vlak liggen</strong>; was de determinant niet "
-                  "nul, dan zouden ze de hele ruimte opspannen."),
-            ("p", "Omgekeerd, <strong>van cartesisch naar parametrisch zoek je een punt en twee "
-                  "richtingsvectoren van het vlak</strong>. Twee van de drie onbekenden mag je vrij kiezen, "
-                  "en die twee vrijheidsgraden worden je twee parameters."),
+        dict(kop="Van parametrisch naar cartesisch", blokken=[
+            ("p", r"<strong>Een rechte in de ruimte heeft twee cartesische vergelijkingen, geen "
+                  r"één</strong>: ze is de doorsnede van twee vlakken. <strong>In het vlak heeft een "
+                  r"rechte er wel precies één</strong>, namelijk \(ax + by + c = 0\)."),
+            ("p", r"<strong>Van parametrisch naar cartesisch werk je \(t\) weg</strong>: je drukt hem uit "
+                  r"in één vergelijking en vult die in de twee andere in. Er blijven twee vergelijkingen "
+                  r"over. <strong>Of een punt op een rechte ligt, controleer je door zijn coördinaten in "
+                  r"de vergelijkingen in te vullen.</strong> Bij de parametrische vorm moet er voor alle "
+                  r"drie dezelfde waarde van \(t\) uitkomen."),
+        ]),
+        dict(kop="Waardoor een vlak vastligt", blokken=[
+            ("p", r"<strong>Een vlak \(\alpha\) ligt vast door één punt en twee richtingsvectoren die niet "
+                  r"evenwijdig zijn</strong>, of door <strong>drie punten die niet op eenzelfde rechte "
+                  r"liggen</strong>. <strong>Drie punten op één rechte bepalen geen vlak</strong>, want "
+                  r"daar gaan oneindig veel vlakken door. Daarom staat een tafel met drie poten nooit te "
+                  r"wiebelen. In de <strong>parametrische vergelijkingen van een vlak staan twee "
+                  r"parameters</strong>, \(s\) en \(t\), één per richtingsvector."),
+        ]),
+        dict(kop="De cartesische vergelijking van een vlak", blokken=[
+            ("fig", svg.normaalvector(),
+             "De groene pijl staat recht op het vlak, de oranje ligt erin. Het haakje tussen de twee "
+             "markeert de rechte hoek."),
+            ("p", r"<strong>De cartesische vergelijking van een vlak heeft de vorm \(ax + by + cz + d = "
+                  r"0\)</strong>: zo ziet ze eruit, één vergelijking van de eerste graad in drie onbekenden. "
+                  r"<strong>De coëfficiënten van \(x\), \(y\) en \(z\) lees je rechtstreeks af als een "
+                  r"normaalvector \(\vec{n}(a, b, c)\)</strong> van dat vlak. Voor \(2x - 3y + z - 5 = 0\) is dat \(\vec{n}(2, -3, 1)\), "
+                  r"met eerste coördinaat <strong>\(2\)</strong>."),
+            ("p", r"Ken je <strong>een punt en een normaalvector, dan kan je die cartesische vergelijking "
+                  r"opstellen</strong>: \(\vec{n}\) geeft \(a\), \(b\) en \(c\), en het punt bepaalt "
+                  r"\(d\). Het vlak door de \(x\)-as en de \(y\)-as heeft als vergelijking <strong>\(z = "
+                  r"0\)</strong>, want al zijn punten hebben derde coördinaat nul."),
+        ]),
+        dict(kop="Met een determinant", blokken=[
+            ("p", r"<strong>Met een determinant van orde \(3\) stel je de cartesische vergelijking op door "
+                  r"die determinant gelijk te stellen aan \(0\).</strong> In de determinant staan "
+                  r"\(\overrightarrow{P_{0}P}\) naar een onbekend punt en de twee richtingsvectoren. Nul "
+                  r"betekent <strong>dat de drie vectoren in eenzelfde vlak liggen</strong>; was de "
+                  r"determinant niet nul, dan zouden ze de hele ruimte opspannen."),
+            ("p", r"Omgekeerd, <strong>van cartesisch naar parametrisch zoek je een punt en twee "
+                  r"richtingsvectoren van het vlak</strong>. Twee van de drie onbekenden mag je vrij "
+                  r"kiezen, en die twee vrijheidsgraden worden \(s\) en \(t\)."),
         ]),
         dict(kop="Onderlinge ligging", blokken=[
             ("p", tabel(["Wat je vergelijkt", "Mogelijke liggingen"], [
@@ -2720,50 +2736,70 @@ BUNDELS["rechten-en-vlakken-in-de-ruimte-beyond"] = dict(
                 ["een rechte en een vlak", "in het vlak, evenwijdig ernaast, of snijdend"],
                 ["twee vlakken", "samenvallend, evenwijdig, of snijdend volgens een rechte"],
             ])),
-            ("p", "<strong>Kruisende rechten zijn rechten die niet evenwijdig zijn en toch geen snijpunt "
-                  "hebben.</strong> Ze liggen niet in eenzelfde vlak; denk aan twee wegen boven elkaar met "
-                  "een brug ertussen. Dat bestaat alleen in de ruimte, en daarom zijn <strong>twee rechten "
-                  "die elkaar niet snijden niet noodzakelijk evenwijdig</strong>. <strong>Twee evenwijdige "
-                  "rechten liggen wél altijd in eenzelfde vlak</strong>, en door twee kruisende rechten "
-                  "gaat net geen enkel vlak."),
-            ("p", "<strong>Twee vlakken zijn evenwijdig als hun normaalvectoren veelvouden van elkaar "
-                  "zijn.</strong> Ze <strong>vallen samen als je de ene vergelijking uit de andere kan "
-                  "vermenigvuldigen</strong>; anders liggen ze er netjes naast. <strong>Twee vlakken die "
-                  "niet evenwijdig zijn, snijden elkaar volgens een rechte</strong>, nooit in één punt."),
-            ("p", "<strong>Een rechte is evenwijdig met een vlak als haar richtingsvector loodrecht op de "
-                  "normaalvector staat</strong>, dus als hun scalair product nul is. Ligt er dan ook nog "
-                  "een punt van de rechte in het vlak, dan ligt ze er helemaal in; in de praktijk "
-                  "<strong>volstaat het dat twee van haar punten in het vlak liggen</strong>. "
-                  "<strong>Loodrecht op het vlak staat ze als haar richtingsvector evenwijdig is met de "
-                  "normaalvector.</strong>"),
+            ("p", r"Een rechte heeft ten opzichte van een vlak dus drie mogelijke liggingen, en twee rechten "
+                  r"ten opzichte van elkaar vier. <strong>Kruisende rechten zijn rechten die niet "
+                  r"evenwijdig zijn en toch geen snijpunt "
+                  r"hebben.</strong> Ze liggen niet in eenzelfde vlak; denk aan twee wegen boven elkaar "
+                  r"met een brug ertussen. Dat bestaat alleen in de ruimte, en daarom zijn <strong>twee "
+                  r"rechten die elkaar niet snijden niet noodzakelijk evenwijdig</strong>. <strong>Twee "
+                  r"evenwijdige rechten liggen wél altijd in eenzelfde vlak</strong>, en door twee "
+                  r"kruisende rechten gaat net geen enkel vlak."),
         ]),
-        dict(kop="Afstanden en hoeken", blokken=[
-            ("p", "<strong>De afstand van een punt tot een vlak meet je langs de loodlijn uit dat punt op "
-                  "het vlak</strong>, want de afstand is altijd de kortste. <strong>De afstand tussen twee "
-                  "evenwijdige vlakken bereken je als de afstand van een punt van het ene tot het "
-                  "andere</strong>; welk punt je kiest maakt niet uit. <strong>Tussen twee samenvallende "
-                  "vlakken is de afstand nul</strong>, en ook <strong>tussen twee snijdende rechten is ze "
-                  "nul</strong>, want ze hebben een punt gemeen."),
-            ("p", "<strong>De hoek tussen twee vlakken is de hoek tussen hun normaalvectoren</strong>, "
-                  "waarvan je de scherpe neemt. <strong>Tussen twee evenwijdige vlakken is die hoek "
-                  "nul</strong> graden. <strong>De hoek tussen twee rechten vind je uit het scalair "
-                  "product van hun richtingsvectoren</strong>, ook bij kruisende rechten, want de hoek "
-                  "hangt enkel van de richtingen af."),
-            ("weetje", "Bij een <strong>hellend dakvlak en de verticale gevel eronder</strong> is de hoek "
-                       "tussen de twee vlakken <strong>de hoek tussen hun normaalvectoren, als scherpe hoek "
-                       "genomen</strong>. De hellingshoek van het dak met de grond is een andere hoek."),
+        dict(kop="Een rechte en een vlak", blokken=[
+            ("fig", svg.rechteenvlak(),
+             "Drie keer dezelfde rechte \\(a\\) bij hetzelfde vlak \\(\\alpha\\). In het derde vakje staat "
+             "een bolletje op het snijpunt."),
+            ("p", r"<strong>Een rechte is evenwijdig met een vlak als \(\vec{v} \perp \vec{n}\)</strong>, "
+                  r"dus als \(\vec{v} \cdot \vec{n} = 0\). Ligt er dan ook nog een punt van de rechte in "
+                  r"het vlak, dan behoort ze er volledig toe; in de praktijk <strong>volstaat het dat twee van "
+                  r"haar punten in het vlak liggen</strong>. <strong>Loodrecht op het vlak staat ze als "
+                  r"\(\vec{v} \parallel \vec{n}\)</strong>, want \(\vec{n}\) staat zelf al loodrecht op "
+                  r"het vlak."),
+        ]),
+        dict(kop="Twee vlakken", blokken=[
+            ("p", r"<strong>Twee vlakken zijn evenwijdig als \(\vec{n_{1}} = k \cdot \vec{n_{2}}\)</strong>, "
+                  r"dus je kijkt of hun normaalvectoren veelvouden van elkaar zijn: dezelfde richting loodrecht "
+                  r"erop betekent dezelfde stand. Ze <strong>vallen samen als je de ene vergelijking uit "
+                  r"de andere kan vermenigvuldigen</strong>; anders liggen ze er netjes naast. "
+                  r"<strong>Twee vlakken die niet evenwijdig zijn, snijden elkaar volgens een "
+                  r"rechte</strong>, nooit in één punt."),
+        ]),
+        dict(kop="Afstanden", blokken=[
+            ("p", r"<strong>De afstand van een punt \(P\) tot een vlak meet je langs de loodlijn uit dat "
+                  r"punt op het vlak</strong>, want de afstand is altijd de kortste. In formule: "
+                  r"\(d(P, \alpha) = \dfrac{|a x_{P} + b y_{P} + c z_{P} + d|}{\sqrt{a^{2} + b^{2} + "
+                  r"c^{2}}}\)."),
+            ("p", r"<strong>De afstand tussen twee evenwijdige vlakken bereken je als de afstand van een "
+                  r"punt van het ene tot het andere</strong>; welk punt je kiest maakt niet uit, want hoe "
+                  r"groot die afstand is, is overal hetzelfde. "
+                  r"<strong>Tussen twee samenvallende vlakken is de afstand \(0\)</strong>, en ook "
+                  r"<strong>tussen twee snijdende rechten is ze \(0\)</strong>, want ze hebben een punt "
+                  r"gemeen."),
+        ]),
+        dict(kop="Hoeken", blokken=[
+            ("p", r"<strong>De hoek tussen twee vlakken is de hoek tussen \(\vec{n_{1}}\) en "
+                  r"\(\vec{n_{2}}\)</strong>, waarvan je de scherpe neemt: \(\cos \theta = "
+                  r"\dfrac{\vec{n_{1}} \cdot \vec{n_{2}}}{\|\vec{n_{1}}\| \cdot \|\vec{n_{2}}\|}\). "
+                  r"<strong>Tussen twee evenwijdige vlakken is die hoek \(0^{\circ}\)</strong>, want hun "
+                  r"normaalvectoren wijzen dezelfde kant op."),
+            ("p", r"<strong>De hoek tussen twee rechten vind je uit het scalair product van hun "
+                  r"richtingsvectoren</strong>, ook bij kruisende rechten, want de hoek hangt enkel van de "
+                  r"richtingen af."),
+            ("weetje", r"Bij een <strong>hellend dakvlak en de verticale gevel eronder</strong> is de hoek "
+                       r"tussen de twee vlakken <strong>de hoek tussen hun normaalvectoren, als scherpe "
+                       r"hoek genomen</strong>. De hellingshoek van het dak met de grond is een andere hoek."),
         ]),
     ],
     onthoud=[
-        "Voor de vergelijking van een rechte heb je een punt en een richtingsvector nodig.",
-        "Een rechte in de ruimte heeft twee cartesische vergelijkingen, in het vlak precies één.",
-        "Een vlak ligt vast door drie punten die niet op eenzelfde rechte liggen.",
-        "Cartesische vergelijking van een vlak: a maal x plus b maal y plus c maal z plus d is nul.",
-        "De coëfficiënten van x, y en z vormen samen een normaalvector van dat vlak.",
-        "Kruisende rechten zijn niet evenwijdig en hebben toch geen snijpunt.",
-        "Twee vlakken zijn evenwijdig als hun normaalvectoren veelvouden van elkaar zijn.",
-        "De afstand van een punt tot een vlak meet je langs de loodlijn uit dat punt op het vlak.",
-        "De hoek tussen twee vlakken is de scherpe hoek tussen hun normaalvectoren.",
+        r"Voor de vergelijking van een rechte heb je een punt en een richtingsvector \(\vec{v}\) nodig.",
+        r"\(\overrightarrow{OP} = \overrightarrow{OP_{0}} + t \cdot \vec{v}\) geeft drie parametrische vergelijkingen.",
+        r"Een rechte in de ruimte heeft twee cartesische vergelijkingen, in het vlak precies één.",
+        r"Een vlak ligt vast door drie punten die niet op eenzelfde rechte liggen.",
+        r"Cartesische vergelijking van een vlak: \(ax + by + cz + d = 0\), met \(\vec{n}(a, b, c)\).",
+        r"Twee rechten in de ruimte kunnen ook kruisen: niet evenwijdig en toch zonder snijpunt.",
+        r"Evenwijdige vlakken: \(\vec{n_{1}} = k \cdot \vec{n_{2}}\). Niet evenwijdig: ze snijden volgens een rechte.",
+        r"Een rechte is evenwijdig met een vlak als \(\vec{v} \perp \vec{n}\), en loodrecht erop als \(\vec{v} \parallel \vec{n}\).",
+        r"\(d(P, \alpha) = \dfrac{|a x_{P} + b y_{P} + c z_{P} + d|}{\sqrt{a^{2} + b^{2} + c^{2}}}\).",
     ],
 )
 

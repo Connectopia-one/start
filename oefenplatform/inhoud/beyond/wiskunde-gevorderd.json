@@ -8193,25 +8193,25 @@
           "type": "meerkeuze",
           "vraag": "Wat heb je nodig om de vergelijking van een rechte in de ruimte op te stellen?",
           "opties": [
-            "een punt en een richtingsvector",
+            "een punt en een richtingsvector \\(\\vec{v}\\)",
             "een punt en een normaalvector van die rechte",
             "twee richtingsvectoren die niet evenwijdig zijn",
             "drie punten die niet op één rechte liggen"
           ],
           "antwoord": 0,
-          "uitleg": "Het punt zegt waar ze ligt, de richtingsvector welke kant ze op loopt. Twee punten volstaan ook, want daar haal je de richtingsvector uit."
+          "uitleg": "Het punt zegt waar ze ligt, \\(\\vec{v}\\) welke kant ze op loopt. Twee punten volstaan ook, want daar haal je \\(\\vec{v}\\) uit."
         },
         {
           "type": "meerkeuze",
-          "vraag": "Wat is de rol van de parameter in een parametrische vergelijking?",
+          "vraag": "Wat is de rol van de parameter \\(t\\) in \\(\\overrightarrow{OP} = \\overrightarrow{OP_{0}} + t \\cdot \\vec{v}\\)?",
           "opties": [
-            "elke waarde ervan geeft een ander punt van de rechte",
+            "elke waarde van \\(t\\) geeft een ander punt van de rechte",
             "ze geeft de lengte aan van de richtingsvector zelf",
             "ze geeft de hoek aan die de rechte met de assen maakt",
             "ze bepaalt het aantal snijpunten met de drie assen"
           ],
           "antwoord": 0,
-          "uitleg": "Laat je de parameter alle reële waarden doorlopen, dan krijg je de hele rechte."
+          "uitleg": "Laat je \\(t\\) alle waarden van \\(\\mathbb{R}\\) doorlopen, dan krijg je de hele rechte."
         },
         {
           "type": "invultekst",
@@ -8220,7 +8220,7 @@
             "3",
             "drie"
           ],
-          "uitleg": "Eén per coördinaat, en alle drie met dezelfde parameter erin."
+          "uitleg": "Eén per coördinaat: \\(x = x_{0} + at\\), \\(y = y_{0} + bt\\) en \\(z = z_{0} + ct\\), alle drie met dezelfde \\(t\\)."
         },
         {
           "type": "waarofniet",
@@ -8232,21 +8232,21 @@
           "type": "meerkeuze",
           "vraag": "Hoe ziet de cartesische vergelijking van een vlak eruit?",
           "opties": [
-            "a maal x plus b maal y plus c maal z plus d is nul",
-            "y is gelijk aan a maal x plus b, met twee onbekenden",
-            "x in het kwadraat plus y in het kwadraat is gelijk aan r in het kwadraat",
-            "x is gelijk aan a, y is gelijk aan b, z is gelijk aan c"
+            "\\(ax + by + cz + d = 0\\)",
+            "\\(y = ax + b\\)",
+            "\\(x^{2} + y^{2} = r^{2}\\)",
+            "\\(x = a\\), \\(y = b\\), \\(z = c\\)"
           ],
           "antwoord": 0,
           "uitleg": "Eén vergelijking van de eerste graad in drie onbekenden."
         },
         {
           "type": "meerkeuze",
-          "vraag": "Wat lees je rechtstreeks af uit de coëfficiënten van x, y en z in die vergelijking?",
+          "vraag": "Wat lees je rechtstreeks af uit \\(a\\), \\(b\\) en \\(c\\) in \\(ax + by + cz + d = 0\\)?",
           "opties": [
-            "een normaalvector van het vlak",
+            "een normaalvector \\(\\vec{n}(a, b, c)\\) van het vlak",
             "een richtingsvector die in het vlak ligt",
-            "het punt waar het vlak de z-as snijdt",
+            "het punt waar het vlak de \\(z\\)-as snijdt",
             "de afstand van het vlak tot de oorsprong"
           ],
           "antwoord": 0,
@@ -8265,19 +8265,19 @@
             "2",
             "twee"
           ],
-          "uitleg": "Eén per richtingsvector. Een rechte heeft er maar één."
+          "uitleg": "Eén per richtingsvector, dus \\(s\\) en \\(t\\). Een rechte heeft er maar één."
         },
         {
           "type": "meerkeuze",
-          "vraag": "Hoe stel je met een drie bij drie determinant de cartesische vergelijking van een vlak op?",
+          "vraag": "Hoe stel je met een determinant van orde \\(3\\) de cartesische vergelijking van een vlak op?",
           "opties": [
-            "je stelt de determinant gelijk aan nul",
-            "je stelt de determinant gelijk aan één",
-            "je berekent de determinant en deelt door drie",
-            "je neemt de determinant van de normaalvector alleen"
+            "je stelt de determinant gelijk aan \\(0\\)",
+            "je stelt de determinant gelijk aan \\(1\\)",
+            "je berekent de determinant en deelt door \\(3\\)",
+            "je neemt de determinant van \\(\\vec{n}\\) alleen"
           ],
           "antwoord": 0,
-          "uitleg": "In de determinant staan de verbindingsvector naar een onbekend punt en de twee richtingsvectoren. Nul betekent dat ze in één vlak liggen."
+          "uitleg": "In de determinant staan \\(\\overrightarrow{P_{0}P}\\) naar een onbekend punt en de twee richtingsvectoren. Nul betekent dat ze in één vlak liggen."
         },
         {
           "type": "waarofniet",
@@ -8289,13 +8289,13 @@
           "type": "meerkeuze",
           "vraag": "Hoe ga je van de parametrische naar de cartesische vergelijkingen van een rechte?",
           "opties": [
-            "je werkt de parameter weg uit de vergelijkingen",
-            "je vult voor de parameter het getal nul in",
+            "je werkt de parameter \\(t\\) weg uit de vergelijkingen",
+            "je vult \\(t = 0\\) in",
             "je telt de drie vergelijkingen bij elkaar op",
             "je berekent de determinant van de coëfficiënten"
           ],
           "antwoord": 0,
-          "uitleg": "Je drukt de parameter uit in één vergelijking en vult die in de twee andere in. Er blijven twee vergelijkingen over."
+          "uitleg": "Je drukt \\(t\\) uit in één vergelijking en vult die in de twee andere in. Er blijven twee vergelijkingen over."
         },
         {
           "type": "invultekst",
@@ -8308,21 +8308,21 @@
         },
         {
           "type": "meerkeuze",
-          "vraag": "Wat is de cartesische vergelijking van het vlak door de x-as en de y-as?",
+          "vraag": "Wat is de cartesische vergelijking van het vlak door de \\(x\\)-as en de \\(y\\)-as?",
           "opties": [
-            "z is gelijk aan nul",
-            "x is gelijk aan nul",
-            "x plus y is gelijk aan nul",
-            "x plus y plus z is gelijk aan nul"
+            "\\(z = 0\\)",
+            "\\(x = 0\\)",
+            "\\(x + y = 0\\)",
+            "\\(x + y + z = 0\\)"
           ],
           "antwoord": 0,
-          "uitleg": "Alle punten van dat vlak hebben derde coördinaat nul. De z-as is er de normaal van."
+          "uitleg": "Alle punten van dat vlak hebben derde coördinaat nul. De \\(z\\)-as is er de normaal van."
         },
         {
           "type": "waarofniet",
           "vraag": "Een rechte heeft oneindig veel richtingsvectoren.",
           "antwoord": true,
-          "uitleg": "Elk veelvoud van een richtingsvector is er ook een, behalve de nulvector."
+          "uitleg": "Elk veelvoud \\(k \\cdot \\vec{v}\\) met \\(k \\neq 0\\) is er ook een."
         },
         {
           "type": "meerkeuze",
@@ -8330,15 +8330,15 @@
           "opties": [
             "je vult zijn coördinaten in de vergelijkingen in",
             "je berekent de afstand van dat punt tot de oorsprong",
-            "je vergelijkt zijn coördinaten met de richtingsvector",
-            "je telt zijn coördinaten op en kijkt of je nul krijgt"
+            "je vergelijkt zijn coördinaten met \\(\\vec{v}\\)",
+            "je telt zijn coördinaten op en kijkt of je \\(0\\) krijgt"
           ],
           "antwoord": 0,
-          "uitleg": "Bij de parametrische vorm moet er voor alle drie dezelfde parameterwaarde uitkomen."
+          "uitleg": "Bij de parametrische vorm moet er voor alle drie dezelfde waarde van \\(t\\) uitkomen."
         },
         {
           "type": "meerkeuze",
-          "vraag": "Je kent een punt van een vlak en een normaalvector ervan. Wat kan je opstellen?",
+          "vraag": "Je kent een punt van een vlak en een normaalvector \\(\\vec{n}\\) ervan. Wat kan je opstellen?",
           "opties": [
             "de cartesische vergelijking van dat vlak",
             "enkel de parametrische vergelijkingen ervan",
@@ -8346,26 +8346,26 @@
             "enkel de vectoriële vergelijking van dat vlak"
           ],
           "antwoord": 0,
-          "uitleg": "De normaalvector geeft de coëfficiënten, het punt bepaalt de laatste term."
+          "uitleg": "\\(\\vec{n}\\) geeft \\(a\\), \\(b\\) en \\(c\\); het punt bepaalt \\(d\\)."
         },
         {
           "type": "waarofniet",
           "vraag": "In het vlak heeft een rechte precies één cartesische vergelijking.",
           "antwoord": true,
-          "uitleg": "Daar is het a maal x plus b maal y plus c is nul. Pas in de ruimte heb je er twee nodig."
+          "uitleg": "Daar is het \\(ax + by + c = 0\\). Pas in de ruimte heb je er twee nodig."
         },
         {
           "type": "invultekst",
-          "vraag": "Een vlak heeft als vergelijking twee x min drie y plus z min vijf is nul. Wat is de eerste coördinaat van een normaalvector? Schrijf het cijfer.",
+          "vraag": "Een vlak heeft als vergelijking \\(2x - 3y + z - 5 = 0\\). Wat is de eerste coördinaat van \\(\\vec{n}\\)? Schrijf het cijfer.",
           "antwoord": [
             "2",
             "twee"
           ],
-          "uitleg": "De coëfficiënten van x, y en z zijn samen de normaalvector."
+          "uitleg": "\\(\\vec{n}(2, -3, 1)\\): de coëfficiënten van \\(x\\), \\(y\\) en \\(z\\) samen."
         },
         {
           "type": "meerkeuze",
-          "vraag": "Waarom stel je die drie bij drie determinant gelijk aan nul?",
+          "vraag": "Waarom stel je die determinant van orde \\(3\\) gelijk aan \\(0\\)?",
           "opties": [
             "omdat de drie vectoren dan in eenzelfde vlak liggen",
             "omdat de drie vectoren dan loodrecht op elkaar staan",
@@ -8377,15 +8377,15 @@
         },
         {
           "type": "meerkeuze",
-          "vraag": "Je hebt de cartesische vergelijking van een vlak en wil de parametrische. Hoe pak je dat aan?",
+          "vraag": "Je hebt \\(ax + by + cz + d = 0\\) en wil de parametrische vergelijkingen. Hoe pak je dat aan?",
           "opties": [
             "je zoekt een punt en twee richtingsvectoren van het vlak",
-            "je zoekt de normaalvector en gebruikt die als parameter",
+            "je zoekt \\(\\vec{n}\\) en gebruikt die als parameter",
             "je stelt elke coördinaat gelijk aan een eigen parameter",
-            "je berekent de determinant van de drie coëfficiënten"
+            "je berekent de determinant van \\(a\\), \\(b\\) en \\(c\\)"
           ],
           "antwoord": 0,
-          "uitleg": "Twee van de drie onbekenden mag je vrij kiezen. Die twee vrijheidsgraden worden je twee parameters."
+          "uitleg": "Twee van de drie onbekenden mag je vrij kiezen. Die twee vrijheidsgraden worden \\(s\\) en \\(t\\)."
         }
       ]
     },
@@ -8437,10 +8437,10 @@
           "type": "meerkeuze",
           "vraag": "Hoe ga je na of twee vlakken evenwijdig zijn?",
           "opties": [
-            "je kijkt of hun normaalvectoren veelvouden van elkaar zijn",
-            "je kijkt of hun normaalvectoren loodrecht op elkaar staan",
-            "je berekent het scalair product van hun normaalvectoren",
-            "je vergelijkt de laatste term van beide vergelijkingen"
+            "je kijkt of \\(\\vec{n_{1}} = k \\cdot \\vec{n_{2}}\\)",
+            "je kijkt of \\(\\vec{n_{1}} \\perp \\vec{n_{2}}\\)",
+            "je berekent \\(\\vec{n_{1}} \\cdot \\vec{n_{2}}\\) en vergelijkt met \\(1\\)",
+            "je vergelijkt \\(d\\) van beide vergelijkingen"
           ],
           "antwoord": 0,
           "uitleg": "Dezelfde richting loodrecht erop betekent dezelfde stand."
@@ -8450,9 +8450,9 @@
           "vraag": "Twee vlakken zijn evenwijdig. Wanneer vallen ze samen?",
           "opties": [
             "als je de ene vergelijking uit de andere kan vermenigvuldigen",
-            "als hun twee normaalvectoren precies even lang zijn geworden",
-            "als hun laatste termen allebei gelijk zijn aan nul",
-            "als ze allebei door de oorsprong van het stelsel gaan"
+            "als \\(\\|\\vec{n_{1}}\\| = \\|\\vec{n_{2}}\\|\\)",
+            "als \\(d = 0\\) bij allebei",
+            "als ze allebei door de oorsprong gaan"
           ],
           "antwoord": 0,
           "uitleg": "Dan is het twee keer hetzelfde vlak, enkel anders opgeschreven. Anders liggen ze er netjes naast."
@@ -8476,13 +8476,13 @@
           "type": "meerkeuze",
           "vraag": "Hoe bereken je de hoek tussen twee vlakken?",
           "opties": [
-            "als de hoek tussen hun normaalvectoren",
+            "als de hoek tussen \\(\\vec{n_{1}}\\) en \\(\\vec{n_{2}}\\)",
             "als de hoek tussen hun twee richtingsvectoren",
             "als de som van hun hoeken met het grondvlak",
             "als het verschil van hun laatste twee termen"
           ],
           "antwoord": 0,
-          "uitleg": "Je neemt de scherpe hoek van de twee die je zo krijgt."
+          "uitleg": "Je rekent met \\(\\cos \\theta = \\dfrac{\\vec{n_{1}} \\cdot \\vec{n_{2}}}{\\|\\vec{n_{1}}\\| \\cdot \\|\\vec{n_{2}}\\|}\\) en neemt de scherpe hoek van de twee die je zo krijgt."
         },
         {
           "type": "waarofniet",
@@ -8492,15 +8492,15 @@
         },
         {
           "type": "meerkeuze",
-          "vraag": "Hoe bereken je de afstand van een punt tot een vlak?",
+          "vraag": "Hoe bereken je de afstand van een punt \\(P\\) tot een vlak \\(\\alpha: ax + by + cz + d = 0\\)?",
           "opties": [
-            "langs de loodlijn uit dat punt op het vlak",
-            "langs de kortste zijde van het vlak naar dat punt",
-            "als het verschil van hun twee normaalvectoren",
-            "als de afstand van dat punt tot de oorsprong"
+            "\\(d(P, \\alpha) = \\dfrac{|a x_{P} + b y_{P} + c z_{P} + d|}{\\sqrt{a^{2} + b^{2} + c^{2}}}\\)",
+            "\\(d(P, \\alpha) = \\dfrac{a x_{P} + b y_{P} + c z_{P} + d}{a^{2} + b^{2} + c^{2}}\\)",
+            "\\(d(P, \\alpha) = |a x_{P} + b y_{P} + c z_{P} + d|\\)",
+            "\\(d(P, \\alpha) = \\|\\overrightarrow{OP}\\|\\)"
           ],
           "antwoord": 0,
-          "uitleg": "De afstand is altijd de kortste, en die loopt loodrecht."
+          "uitleg": "Je meet langs de loodlijn uit \\(P\\) op het vlak: de afstand is altijd de kortste, en die loopt loodrecht."
         },
         {
           "type": "invultekst",
@@ -8516,12 +8516,12 @@
           "vraag": "Wanneer behoort een rechte volledig tot een vlak?",
           "opties": [
             "als twee van haar punten in het vlak liggen",
-            "als haar richtingsvector gelijk is aan de normaalvector",
+            "als \\(\\vec{v} = \\vec{n}\\)",
             "als ze het vlak in precies één punt snijdt",
-            "als ze loodrecht op de normaalvector van het vlak staat"
+            "als \\(\\vec{v} \\perp \\vec{n}\\)"
           ],
           "antwoord": 0,
-          "uitleg": "Twee punten volstaan. Enkel loodrecht op de normaalvector staan maakt haar evenwijdig, meer niet."
+          "uitleg": "Twee punten volstaan. Enkel \\(\\vec{v} \\perp \\vec{n}\\) maakt haar evenwijdig, meer niet."
         },
         {
           "type": "waarofniet",
@@ -8533,20 +8533,20 @@
           "type": "meerkeuze",
           "vraag": "Hoe ga je na of een rechte evenwijdig is met een vlak?",
           "opties": [
-            "je kijkt of haar richtingsvector loodrecht op de normaalvector staat",
-            "je kijkt of haar richtingsvector evenwijdig met de normaalvector is",
+            "je kijkt of \\(\\vec{v} \\perp \\vec{n}\\)",
+            "je kijkt of \\(\\vec{v} \\parallel \\vec{n}\\)",
             "je berekent de afstand van de rechte tot de oorsprong",
             "je vult een punt van het vlak in de rechte in"
           ],
           "antwoord": 0,
-          "uitleg": "Het scalair product moet nul zijn. Ligt er dan ook nog een punt van de rechte in het vlak, dan ligt ze er helemaal in."
+          "uitleg": "Dus \\(\\vec{v} \\cdot \\vec{n} = 0\\). Ligt er dan ook nog een punt van de rechte in het vlak, dan ligt ze er helemaal in."
         },
         {
           "type": "meerkeuze",
           "vraag": "Hoe bereken je de afstand tussen twee evenwijdige vlakken?",
           "opties": [
             "je neemt een punt van het ene en zijn afstand tot het andere",
-            "je neemt het verschil van hun twee normaalvectoren",
+            "je neemt het verschil van \\(\\vec{n_{1}}\\) en \\(\\vec{n_{2}}\\)",
             "je neemt de afstand van beide vlakken tot de oorsprong",
             "je neemt het midden tussen de twee vlakken in de ruimte"
           ],
@@ -8572,22 +8572,22 @@
           "type": "meerkeuze",
           "vraag": "Wanneer staat een rechte loodrecht op een vlak?",
           "opties": [
-            "als haar richtingsvector evenwijdig is met de normaalvector",
-            "als haar richtingsvector loodrecht op de normaalvector staat",
-            "als ze het vlak snijdt in een punt van de x-as",
+            "als \\(\\vec{v} \\parallel \\vec{n}\\)",
+            "als \\(\\vec{v} \\perp \\vec{n}\\)",
+            "als ze het vlak snijdt in een punt van de \\(x\\)-as",
             "als ze evenwijdig loopt met een zijde van dat vlak"
           ],
           "antwoord": 0,
-          "uitleg": "De normaalvector staat zelf al loodrecht op het vlak, dus de rechte moet zijn richting volgen."
+          "uitleg": "\\(\\vec{n}\\) staat zelf al loodrecht op het vlak, dus de rechte moet zijn richting volgen."
         },
         {
           "type": "meerkeuze",
           "vraag": "Een hellend dakvlak en de verticale gevel eronder. Wat is de hoek tussen die twee vlakken?",
           "opties": [
-            "de hoek tussen hun normaalvectoren, als scherpe hoek genomen",
+            "de hoek tussen \\(\\vec{n_{1}}\\) en \\(\\vec{n_{2}}\\), als scherpe hoek genomen",
             "de hoek die het dak maakt met de horizontale grond eronder",
-            "de som van de hellingshoek en negentig graden",
-            "altijd negentig graden, want een gevel staat recht"
+            "de hellingshoek plus \\(90^{\\circ}\\)",
+            "altijd \\(90^{\\circ}\\), want een gevel staat recht"
           ],
           "antwoord": 0,
           "uitleg": "Je stelt beide vlakken op met hun vergelijking en rekent met de normaalvectoren. De hellingshoek met de grond is een andere hoek."
