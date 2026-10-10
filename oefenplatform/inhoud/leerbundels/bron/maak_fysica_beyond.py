@@ -508,7 +508,7 @@ BUNDELS["elektrodynamica-stroom-weerstand-en-schakelingen-beyond"] = dict(
             ("p", r"Een <strong>elektrisch schema</strong> is een tekening van een stroomkring met "
                   r"symbolen in plaats van voorwerpen. Het toont welke onderdelen met elkaar verbonden "
                   r"zijn; de werkelijke plaats, de lengte of de kleur van de draden doet er niet toe."),
-            ("fig", svg.schemasymbolen(), "De symbolen die in elk schema terugkomen."),
+            ("fig", svg.kringsymbolen(), "De symbolen die in elk schema terugkomen."),
             ("p", r"Een <strong>ampèremeter</strong> zet je <strong>in serie</strong> met het onderdeel "
                   r"waarvan je de stroom meet, want die stroom moet er echt door. Daarom heeft hij een "
                   r"heel kleine eigen weerstand: anders verandert hij de stroom die hij wil meten. Een "

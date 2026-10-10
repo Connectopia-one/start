@@ -6939,7 +6939,7 @@ def _bron(cx, cy, label=None, staand=True):
     return "".join(uit)
 
 
-def schemasymbolen(breedte=470):
+def kringsymbolen(breedte=470):
     r"""De symbolen die in een elektrisch schema terugkomen.
 
     Een schema toont welke onderdelen met elkaar verbonden zijn, niet hoe lang

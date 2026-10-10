@@ -25,8 +25,9 @@ DEEL1 = [
             "de spanning die de winding aan de kring levert",
         ],
         antwoord=0,
-        uitleg="Je kan ze zien als het aantal veldlijnen dat door de winding gaat. In de "
-        "formule staat de cosinus van de hoek met de normaal op het vlak.",
+        uitleg="\\(\\Phi = B\\,A\\,\\cos\\alpha\\), met \\(\\alpha\\) de hoek tussen het "
+        "veld en de normaal op het vlak van de winding. Je kan de flux zien als het aantal "
+        "veldlijnen dat door de winding gaat.",
     ),
     dict(
         type="meerkeuze",
@@ -38,28 +39,31 @@ DEEL1 = [
             "het aantal vrije elektronen in de draad",
         ],
         antwoord=[0, 1, 2],
-        uitleg="Ze is het grootst als de winding loodrecht in het veld staat. Het materiaal "
-        "van de draad verandert aan de flux zelf niets.",
+        uitleg="In \\(\\Phi = B\\,A\\,\\cos\\alpha\\) staan precies die drie. Ze is het "
+        "grootst als de winding loodrecht in het veld staat, want dan is "
+        "\\(\\cos\\alpha = 1\\). Het materiaal van de draad verandert aan de flux zelf "
+        "niets.",
     ),
     dict(
         type="invultekst",
         vraag="In welke eenheid druk je de magnetische flux uit?",
         antwoord=["weber", "Wb", "de weber"],
-        uitleg="Eén weber is één tesla maal één vierkante meter. Het symbool van de "
-        "grootheid is de Griekse letter phi.",
+        uitleg="\\(1\\ \\text{Wb} = 1\\ \\text{T}\\cdot\\text{m}^{2}\\). Het symbool van "
+        "de grootheid is de Griekse letter \\(\\Phi\\).",
     ),
     dict(
         type="meerkeuze",
-        vraag="Een winding van 0,02 m² staat loodrecht in een veld van 0,5 T. Hoe groot is de flux?",
+        vraag="Een winding van \\(0{,}020\\ \\text{m}^{2}\\) staat loodrecht in een veld "
+        "van \\(0{,}50\\ \\text{T}\\). Hoe groot is \\(\\Phi\\)?",
         opties=[
-            "0,01 Wb",
-            "25 Wb",
-            "0,04 Wb",
-            "10 Wb",
+            "\\(0{,}010\\ \\text{Wb}\\)",
+            "\\(25\\ \\text{Wb}\\)",
+            "\\(0{,}040\\ \\text{Wb}\\)",
+            "\\(10\\ \\text{Wb}\\)",
         ],
         antwoord=0,
-        uitleg="De flux is B maal A: 0,5 maal 0,02 is 0,01 weber. De cosinus is hier één, "
-        "want de winding staat loodrecht op het veld.",
+        uitleg="\\(\\Phi = B\\,A = 0{,}50\\cdot 0{,}020 = 0{,}010\\ \\text{Wb}\\). De "
+        "cosinus is hier één, want de winding staat loodrecht op het veld.",
     ),
     dict(
         type="meerkeuze",
@@ -71,8 +75,9 @@ DEEL1 = [
             "de inductiespanning hangt af van de stof rond de spoel heen",
         ],
         antwoord=0,
-        uitleg="Ze is het aantal windingen maal de fluxverandering per seconde. Een grote "
-        "maar onveranderlijke flux levert dus niets op.",
+        uitleg="\\(U = -N\\,\\dfrac{\\Delta\\Phi}{\\Delta t}\\): het aantal windingen maal "
+        "de fluxverandering per seconde. Een grote maar onveranderlijke flux levert dus "
+        "niets op, want dan is \\(\\Delta\\Phi = 0\\).",
     ),
     dict(
         type="waarofniet",
@@ -129,16 +134,17 @@ DEEL1 = [
     ),
     dict(
         type="meerkeuze",
-        vraag="Een spoel met 200 windingen ziet de flux in 0,1 s met 0,004 Wb veranderen. Hoe groot is de inductiespanning?",
+        vraag="Een spoel met \\(200\\) windingen ziet de flux in \\(0{,}10\\ \\text{s}\\) "
+        "met \\(0{,}0040\\ \\text{Wb}\\) veranderen. Hoe groot is \\(U\\)?",
         opties=[
-            "8 V",
-            "0,8 V",
-            "80 V",
-            "0,08 V",
+            "\\(8{,}0\\ \\text{V}\\)",
+            "\\(0{,}80\\ \\text{V}\\)",
+            "\\(80\\ \\text{V}\\)",
+            "\\(0{,}080\\ \\text{V}\\)",
         ],
         antwoord=0,
-        uitleg="N maal de fluxverandering gedeeld door de tijd: 200 maal 0,004 gedeeld door "
-        "0,1 is 8 volt.",
+        uitleg="\\(U = N\\,\\dfrac{\\Delta\\Phi}{\\Delta t} = "
+        "200\\cdot\\dfrac{0{,}0040}{0{,}10} = 8{,}0\\ \\text{V}\\).",
     ),
     dict(
         type="meerkeuze",
@@ -150,15 +156,15 @@ DEEL1 = [
             "ze wordt vier keer zo groot",
         ],
         antwoord=0,
-        uitleg="Het aantal windingen staat als factor in de wet van Faraday. Elke winding "
-        "levert immers haar eigen bijdrage.",
+        uitleg="\\(N\\) staat als factor in \\(U = -N\\,\\dfrac{\\Delta\\Phi}{\\Delta t}\\). "
+        "Elke winding levert immers haar eigen bijdrage.",
     ),
     dict(
         type="invultekst",
         vraag="Hoe noem je de wet die zegt dat een inductiestroom zijn eigen oorzaak tegenwerkt?",
         antwoord=["wet van Lenz", "Lenz", "lenz"],
-        uitleg="Ze volgt uit het behoud van energie. In de wet van Faraday staat ze als het "
-        "minteken.",
+        uitleg="Ze volgt uit het behoud van energie. In "
+        "\\(U = -N\\,\\dfrac{\\Delta\\Phi}{\\Delta t}\\) staat ze als het minteken.",
     ),
     dict(
         type="meerkeuze",
@@ -170,14 +176,15 @@ DEEL1 = [
             "ze wisselt daar van teken",
         ],
         antwoord=0,
-        uitleg="De inductiespanning volgt de steilheid van de fluxgrafiek. Een vlak stuk "
-        "betekent geen verandering, dus geen spanning.",
+        uitleg="\\(U\\) volgt de steilheid van de fluxgrafiek, want "
+        "\\(\\dfrac{\\Delta\\Phi}{\\Delta t}\\) is net die helling. Een vlak stuk betekent "
+        "geen verandering, dus geen spanning.",
     ),
     dict(
         type="waarofniet",
         vraag="Hoe steiler de fluxgrafiek loopt, hoe kleiner de inductiespanning op dat ogenblik is.",
         antwoord=False,
-        uitleg="Juist omgekeerd: de spanning is de fluxverandering per seconde, dus een "
+        uitleg="Juist omgekeerd: \\(U = -N\\,\\dfrac{\\Delta\\Phi}{\\Delta t}\\), dus een "
         "steile helling betekent een snelle verandering en dus een grote spanning.",
     ),
     dict(
@@ -203,8 +210,8 @@ DEEL1 = [
             "de weerstand van de draad daalt bij snelheid",
         ],
         antwoord=0,
-        uitleg="In de wet van Faraday staat de verandering per seconde. Dezelfde verandering "
-        "in de helft van de tijd geeft dus het dubbele.",
+        uitleg="In \\(U = -N\\,\\dfrac{\\Delta\\Phi}{\\Delta t}\\) staat \\(\\Delta t\\) in "
+        "de noemer. Dezelfde verandering in de helft van de tijd geeft dus het dubbele.",
     ),
     dict(
         type="meerkeuze",
@@ -230,8 +237,8 @@ DEEL1 = [
         type="invultekst",
         vraag="Hoe noem je de wet die de inductiespanning met de fluxverandering verbindt?",
         antwoord=["wet van Faraday", "Faraday", "inductiewet"],
-        uitleg="Ze luidt dat de inductiespanning min N maal de fluxverandering per seconde "
-        "is. Het minteken komt van de wet van Lenz.",
+        uitleg="\\(U = -N\\,\\dfrac{\\Delta\\Phi}{\\Delta t}\\). Het minteken komt van de "
+        "wet van Lenz.",
     ),
 ]
 
@@ -285,16 +292,18 @@ DEEL2 = [
     ),
     dict(
         type="meerkeuze",
-        vraag="Een transformator heeft 500 windingen primair en 50 secundair. Wat doet hij met een spanning van 230 V?",
+        vraag="Een transformator heeft \\(500\\) windingen primair en \\(50\\) secundair. "
+        "Wat doet hij met \\(230\\ \\text{V}\\)?",
         opties=[
-            "hij verlaagt ze tot 23 V",
-            "hij verhoogt ze tot 2300 V",
-            "hij laat ze op 230 V staan",
-            "hij verlaagt ze tot 115 V",
+            "hij verlaagt ze tot \\(23\\ \\text{V}\\)",
+            "hij verhoogt ze tot \\(2300\\ \\text{V}\\)",
+            "hij laat ze op \\(230\\ \\text{V}\\) staan",
+            "hij verlaagt ze tot \\(115\\ \\text{V}\\)",
         ],
         antwoord=0,
-        uitleg="De spanningen verhouden zich als de windingen: tien keer minder windingen "
-        "geeft tien keer minder spanning.",
+        uitleg="\\(\\dfrac{U_{1}}{U_{2}} = \\dfrac{N_{1}}{N_{2}}\\), dus "
+        "\\(U_{2} = 230\\cdot\\dfrac{50}{500} = 23\\ \\text{V}\\): tien keer minder "
+        "windingen geeft tien keer minder spanning.",
     ),
     dict(
         type="meerkeuze",
@@ -306,8 +315,9 @@ DEEL2 = [
             "een scheidingstransformator, want hij verandert niets",
         ],
         antwoord=0,
-        uitleg="Meer windingen secundair betekent een hogere spanning. De stroom wordt dan "
-        "wel evenredig kleiner, want de energie kan niet uit het niets komen.",
+        uitleg="\\(\\dfrac{U_{1}}{U_{2}} = \\dfrac{N_{1}}{N_{2}}\\): vier keer zoveel "
+        "windingen secundair geeft vier keer de spanning. De stroom wordt dan wel evenredig "
+        "kleiner, want \\(U_{1}I_{1} = U_{2}I_{2}\\) bij een ideale transformator.",
     ),
     dict(
         type="waarofniet",
@@ -326,8 +336,10 @@ DEEL2 = [
             "bij een hogere spanning is de kans op blikseminslag kleiner",
         ],
         antwoord=0,
-        uitleg="Hetzelfde vermogen bij een hogere spanning betekent een kleinere stroom. Het "
-        "verlies in de kabels gaat met het kwadraat van de stroom, dus daalt het sterk.",
+        uitleg="\\(P = U\\,I\\): hetzelfde vermogen bij een hogere spanning betekent een "
+        "kleinere stroom. Het verlies in de kabels is \\(P_{\\text{verlies}} = R\\,I^{2}\\), "
+        "dus met het kwadraat van die stroom; tien keer minder stroom is honderd keer "
+        "minder verlies.",
     ),
     dict(
         type="invultekst",
@@ -445,14 +457,15 @@ DEEL2 = [
         type="waarofniet",
         vraag="Een transformator kan het vermogen groter maken dan het vermogen dat erin gaat.",
         antwoord=False,
-        uitleg="Energie komt niet uit het niets. Gaat de spanning omhoog, dan gaat de stroom "
-        "evenredig omlaag, en in het beste geval blijft het vermogen gelijk.",
+        uitleg="Energie komt niet uit het niets: \\(U_{1}I_{1} = U_{2}I_{2}\\) in het "
+        "beste geval. Gaat de spanning omhoog, dan gaat de stroom evenredig omlaag.",
     ),
     dict(
         type="invultekst",
         vraag="Welke twee spoelen heeft een transformator?",
         antwoord=["primaire en secundaire", "primair en secundair", "primaire, secundaire"],
         uitleg="De primaire krijgt de spanning binnen, de secundaire geeft ze weer af. Hun "
-        "aantal windingen bepaalt de verhouding.",
+        "aantal windingen bepaalt de verhouding: "
+        "\\(\\dfrac{U_{1}}{U_{2}} = \\dfrac{N_{1}}{N_{2}}\\).",
     ),
 ]
