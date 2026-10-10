@@ -9807,3 +9807,117 @@ def discriminant(breedte=470):
         d.append(_tekst(cx, 24, naam, 11.5, DARK, "middle", True))
         d.append(_tekst(cx, 172, onder, 10, DIM))
     return _svg(breedte, h, "".join(d))
+
+
+def pythagorasvierkanten(breedte=470):
+    r"""De driehoek 3-4-5 met op elke zijde het vierkant van die zijde."""
+    u = 19.0
+    x0, y0 = 197.0, 142.0
+    h = 226
+    ax, ay = x0, y0 - 3 * u
+    cx2, cy2 = x0 + 4 * u, y0
+    d = [f'<rect x="5" y="4" width="{breedte-10}" height="{h-26}" rx="7" '
+         f'fill="{PAPER}" stroke="{BORDER}" stroke-width="1.2"/>']
+    # het vierkant op de staande rechthoekszijde
+    d.append(f'<rect x="{x0-3*u}" y="{ay}" width="{3*u}" height="{3*u}" '
+             f'fill="{FOREST}" fill-opacity="0.14" stroke="{FOREST}" stroke-width="1.6"/>')
+    d.append(_tekst(x0 - 1.5 * u, y0 - 1.5 * u + 4, "a² = 9", 11, FOREST, "middle", True))
+    # het vierkant op de liggende rechthoekszijde
+    d.append(f'<rect x="{x0}" y="{y0}" width="{4*u}" height="{4*u}" '
+             f'fill="{DIM}" fill-opacity="0.12" stroke="{DIM}" stroke-width="1.6"/>')
+    d.append(_tekst(x0 + 2 * u, y0 + 2 * u + 4, "b² = 16", 11, DIM, "middle", True))
+    # het vierkant op de schuine zijde
+    hoek = [(ax, ay), (cx2, cy2), (cx2 + 3 * u, cy2 - 4 * u), (ax + 3 * u, ay - 4 * u)]
+    punten = " ".join(f"{px:.1f},{py:.1f}" for px, py in hoek)
+    d.append(f'<polygon points="{punten}" fill="{AMBER}" fill-opacity="0.14" '
+             f'stroke="{AMBER}" stroke-width="1.6"/>')
+    mx = sum(p[0] for p in hoek) / 4
+    my = sum(p[1] for p in hoek) / 4
+    d.append(_tekst(mx, my + 4, "c² = 25", 11, AMBER, "middle", True))
+    # de driehoek zelf
+    d.append(f'<polygon points="{ax},{ay} {x0},{y0} {cx2},{cy2}" fill="{PAPER}" '
+             f'stroke="{DARK}" stroke-width="2.2"/>')
+    d.append(f'<path d="M{x0} {y0-11} L{x0+11} {y0-11} L{x0+11} {y0}" fill="none" '
+             f'stroke="{DARK}" stroke-width="1.2"/>')
+    d.append(_tekst(x0 + 5, y0 - 26, "a = 3", 9.5, DARK, "start"))
+    d.append(_tekst(x0 + 2 * u, y0 - 6, "b = 4", 9.5, DARK, "middle"))
+    d.append(_tekst(x0 + 2.4 * u, y0 - 2.4 * u, "c = 5", 9.5, AMBER, "middle", True))
+    return _svg(breedte, h, "\n".join(d))
+
+
+def puntafstand(breedte=470):
+    r"""De afstand tussen A(1, 2) en B(4, 6) als schuine zijde van een driehoek."""
+    u = 26.0
+    ox, oy = 150.0, 205.0
+    h = 230
+    d = [f'<rect x="5" y="4" width="{breedte-10}" height="{h-26}" rx="7" '
+         f'fill="{PAPER}" stroke="{BORDER}" stroke-width="1.2"/>']
+    for i in range(1, 8):
+        d.append(f'<line x1="{ox+i*u}" y1="{oy}" x2="{ox+i*u}" y2="{oy-7*u}" '
+                 f'stroke="{BORDER}" stroke-width="1"/>')
+        d.append(f'<line x1="{ox}" y1="{oy-i*u}" x2="{ox+7*u}" y2="{oy-i*u}" '
+                 f'stroke="{BORDER}" stroke-width="1"/>')
+    d.append(f'<line x1="{ox-14}" y1="{oy}" x2="{ox+7*u+14}" y2="{oy}" stroke="{INK}" '
+             f'stroke-width="1.4"/>')
+    d.append(f'<line x1="{ox}" y1="{oy+14}" x2="{ox}" y2="{oy-7*u-14}" stroke="{INK}" '
+             f'stroke-width="1.4"/>')
+    for i in range(1, 8):
+        d.append(_tekst(ox + i * u, oy + 15, str(i), 8.5, DIM, "middle"))
+        d.append(_tekst(ox - 7, oy - i * u + 3, str(i), 8.5, DIM, "end"))
+    d.append(_tekst(ox + 7 * u + 10, oy + 15, "x", 9.5, DIM, "middle"))
+    d.append(_tekst(ox - 9, oy - 7 * u - 6, "y", 9.5, DIM, "end"))
+    apx, apy = ox + 1 * u, oy - 2 * u
+    bpx, bpy = ox + 4 * u, oy - 6 * u
+    d.append(f'<line x1="{apx}" y1="{apy}" x2="{bpx}" y2="{apy}" stroke="{FOREST}" '
+             f'stroke-width="2.6" stroke-dasharray="5 3"/>')
+    d.append(f'<line x1="{bpx}" y1="{apy}" x2="{bpx}" y2="{bpy}" stroke="{DIM}" '
+             f'stroke-width="2.6" stroke-dasharray="5 3"/>')
+    d.append(f'<line x1="{apx}" y1="{apy}" x2="{bpx}" y2="{bpy}" stroke="{AMBER}" '
+             f'stroke-width="2.8"/>')
+    d.append(_tekst((apx + bpx) / 2, apy + 15, "3", 10, FOREST, "middle", True))
+    d.append(_tekst(bpx + 8, (apy + bpy) / 2 + 3, "4", 10, DIM, "start", True))
+    d.append(_tekst((apx + bpx) / 2 - 12, (apy + bpy) / 2 - 4, "5", 10.5, AMBER, "end", True))
+    for px, py, naam, dx, dy, anker in ((apx, apy, "A(1, 2)", -8, 14, "end"),
+                                        (bpx, bpy, "B(4, 6)", 10, -6, "start")):
+        d.append(f'<circle cx="{px}" cy="{py}" r="4" fill="{DARK}"/>')
+        d.append(_tekst(px + dx, py + dy, naam, 10, DARK, anker, True))
+    return _svg(breedte, h, "\n".join(d))
+
+
+def driehoekabc(breedte=470):
+    r"""Een willekeurige driehoek met de zijden a, b, c en de hoeken alfa, bèta, gamma."""
+    import math
+    h = 212
+    A = (105.0, 176.0)
+    B = (378.0, 176.0)
+    C = (236.0, 46.0)
+    d = [f'<rect x="5" y="4" width="{breedte-10}" height="{h-26}" rx="7" '
+         f'fill="{PAPER}" stroke="{BORDER}" stroke-width="1.2"/>']
+    d.append(f'<polygon points="{A[0]},{A[1]} {B[0]},{B[1]} {C[0]},{C[1]}" '
+             f'fill="{FOREST}" fill-opacity="0.07" stroke="{DARK}" stroke-width="2.2"/>')
+
+    def boog(top, p1, p2, r, kleur):
+        h1 = math.atan2(p1[1] - top[1], p1[0] - top[0])
+        h2 = math.atan2(p2[1] - top[1], p2[0] - top[0])
+        x1, y1 = top[0] + r * math.cos(h1), top[1] + r * math.sin(h1)
+        x2, y2 = top[0] + r * math.cos(h2), top[1] + r * math.sin(h2)
+        verschil = (h2 - h1) % (2 * math.pi)
+        kant = 0 if verschil > math.pi else 1
+        mid = h1 + (verschil - 2 * math.pi if verschil > math.pi else verschil) / 2
+        return (f'<path d="M{x1:.1f} {y1:.1f} A {r} {r} 0 0 {kant} {x2:.1f} {y2:.1f}" '
+                f'fill="none" stroke="{kleur}" stroke-width="1.6"/>',
+                top[0] + (r + 13) * math.cos(mid), top[1] + (r + 13) * math.sin(mid) + 4)
+
+    for top, p1, p2, naam in ((A, B, C, "α"), (B, C, A, "β"), (C, A, B, "γ")):
+        pad, lx, ly = boog(top, p1, p2, 24, AMBER)
+        d.append(pad)
+        d.append(_tekst(lx, ly, naam, 12, AMBER, "middle", True))
+    for px, py, naam, dx, dy, anker in ((A[0], A[1], "A", -10, 6, "end"),
+                                        (B[0], B[1], "B", 10, 6, "start"),
+                                        (C[0], C[1], "C", 0, -10, "middle")):
+        d.append(f'<circle cx="{px}" cy="{py}" r="3.4" fill="{DARK}"/>')
+        d.append(_tekst(px + dx, py + dy, naam, 11, DARK, anker, True))
+    for p1, p2, naam, dx, dy in ((A, B, "c", 0, 17), (B, C, "a", 13, 0), (A, C, "b", -13, 0)):
+        d.append(_tekst((p1[0] + p2[0]) / 2 + dx, (p1[1] + p2[1]) / 2 + dy + 4,
+                        naam, 12, FOREST, "middle", True))
+    return _svg(breedte, h, "\n".join(d))

@@ -2149,45 +2149,45 @@
           "type": "meerkeuze",
           "vraag": "Wat zegt de stelling van Pythagoras?",
           "opties": [
-            "in een rechthoekige driehoek is de som van de kwadraten van de rechthoekszijden gelijk aan het kwadraat van de schuine zijde",
-            "in elke driehoek is de som van de kwadraten van twee zijden gelijk aan het kwadraat van de derde zijde",
-            "in een rechthoekige driehoek is de som van de rechthoekszijden gelijk aan de schuine zijde",
-            "in elke driehoek is de langste zijde gelijk aan de som van de twee andere zijden"
+            "in een rechthoekige driehoek is \\(a^{2} + b^{2} = c^{2}\\), met \\(c\\) de schuine zijde",
+            "in elke driehoek is \\(a^{2} + b^{2} = c^{2}\\), met \\(c\\) de langste zijde",
+            "in een rechthoekige driehoek is \\(a + b = c\\), met \\(c\\) de schuine zijde",
+            "in elke driehoek is \\(c = a + b\\), met \\(c\\) de langste zijde"
           ],
           "antwoord": 0,
           "uitleg": "De stelling geldt uitsluitend voor rechthoekige driehoeken, en de schuine zijde staat altijd tegenover de rechte hoek."
         },
         {
           "type": "meerkeuze",
-          "vraag": "Een rechthoekige driehoek heeft rechthoekszijden 6 en 8. Hoe lang is de schuine zijde?",
+          "vraag": "Een rechthoekige driehoek heeft rechthoekszijden \\(6\\) en \\(8\\). Hoe lang is de schuine zijde?",
           "opties": [
-            "10",
-            "14",
-            "48",
-            "ongeveer 7"
+            "\\(10\\)",
+            "\\(14\\)",
+            "\\(48\\)",
+            "ongeveer \\(7\\)"
           ],
           "antwoord": 0,
-          "uitleg": "36 plus 64 is 100, en de wortel van 100 is 10."
+          "uitleg": "\\(36 + 64 = 100\\), en \\(\\sqrt{100} = 10\\)."
         },
         {
           "type": "meerkeuze",
-          "vraag": "Een rechthoekige driehoek heeft een schuine zijde van 13 en een rechthoekszijde van 5. Hoe lang is de andere rechthoekszijde?",
+          "vraag": "Een rechthoekige driehoek heeft een schuine zijde van \\(13\\) en een rechthoekszijde van \\(5\\). Hoe lang is de andere rechthoekszijde?",
           "opties": [
-            "12",
-            "8",
-            "18",
-            "ongeveer 14"
+            "\\(12\\)",
+            "\\(8\\)",
+            "\\(18\\)",
+            "ongeveer \\(14\\)"
           ],
           "antwoord": 0,
-          "uitleg": "169 min 25 is 144, en de wortel van 144 is 12. Let op: hier trek je af in plaats van op te tellen."
+          "uitleg": "\\(169 - 25 = 144\\), en \\(\\sqrt{144} = 12\\). Let op: hier trek je af in plaats van op te tellen."
         },
         {
           "type": "meerkeuze",
-          "vraag": "Een driehoek heeft zijden 9, 12 en 15. Is hij rechthoekig?",
+          "vraag": "Een driehoek heeft zijden \\(9\\), \\(12\\) en \\(15\\). Is hij rechthoekig?",
           "opties": [
-            "ja, want 81 plus 144 is precies 225",
-            "nee, want 9 plus 12 is niet gelijk aan 15",
-            "ja, want alle drie de zijden zijn veelvouden van 3",
+            "ja, want \\(81 + 144\\) is precies \\(225\\)",
+            "nee, want \\(9 + 12\\) is niet gelijk aan \\(15\\)",
+            "ja, want alle drie de zijden zijn veelvouden van \\(3\\)",
             "dat kan je zonder de hoeken niet bepalen"
           ],
           "antwoord": 0,
@@ -2195,75 +2195,75 @@
         },
         {
           "type": "meerkeuze",
-          "vraag": "Een driehoek heeft zijden 4, 5 en 7. Is hij rechthoekig?",
+          "vraag": "Een driehoek heeft zijden \\(4\\), \\(5\\) en \\(7\\). Is hij rechthoekig?",
           "opties": [
-            "nee, want 16 plus 25 is 41 en dat is geen 49",
-            "ja, want 4 plus 5 is groter dan 7",
-            "ja, want 16 plus 25 komt dicht genoeg bij 49",
+            "nee, want \\(16 + 25 = 41\\) en dat is geen \\(49\\)",
+            "ja, want \\(4 + 5\\) is groter dan \\(7\\)",
+            "ja, want \\(16 + 25\\) komt dicht genoeg bij \\(49\\)",
             "dat hangt af van welke hoek je meet"
           ],
           "antwoord": 0,
-          "uitleg": "Bijna klopt niet. 41 tegenover 49 betekent dat de grootste hoek stomp is."
+          "uitleg": "Bijna klopt niet. \\(41\\) tegenover \\(49\\) betekent dat de grootste hoek stomp is."
         },
         {
           "type": "meerkeuze",
-          "vraag": "Een ladder van 5 meter staat met de voet 3 meter van de muur. Hoe hoog reikt hij?",
+          "vraag": "Een ladder van \\(5\\) meter staat met de voet \\(3\\) meter van de muur. Hoe hoog reikt hij?",
           "opties": [
-            "4 meter",
-            "2 meter",
-            "ongeveer 5,8 meter",
-            "8 meter"
+            "\\(4\\) meter",
+            "\\(2\\) meter",
+            "ongeveer \\(5{,}8\\) meter",
+            "\\(8\\) meter"
           ],
           "antwoord": 0,
-          "uitleg": "25 min 9 is 16, en de wortel daarvan is 4."
+          "uitleg": "\\(25 - 9 = 16\\), en \\(\\sqrt{16} = 4\\)."
         },
         {
           "type": "meerkeuze",
-          "vraag": "Wat is de afstand tussen de punten A(1, 2) en B(4, 6)?",
+          "vraag": "Wat is de afstand tussen de punten \\(A(1, 2)\\) en \\(B(4, 6)\\)?",
           "opties": [
-            "5",
-            "7",
-            "ongeveer 3,6",
-            "25"
+            "\\(5\\)",
+            "\\(7\\)",
+            "ongeveer \\(3{,}6\\)",
+            "\\(25\\)"
           ],
           "antwoord": 0,
-          "uitleg": "Het verschil in x is 3 en in y is 4. Dan 9 plus 16 is 25, en de wortel is 5."
+          "uitleg": "Het verschil in \\(x\\) is \\(3\\) en in \\(y\\) is \\(4\\). Dan \\(\\sqrt{9 + 16} = \\sqrt{25} = 5\\)."
         },
         {
           "type": "meerkeuze",
-          "vraag": "Wat is de afstand tussen A(min 2, 1) en B(1, 5)?",
+          "vraag": "Wat is de afstand tussen \\(A(-2, 1)\\) en \\(B(1, 5)\\)?",
           "opties": [
-            "5",
-            "4",
-            "ongeveer 3,2",
-            "7"
+            "\\(5\\)",
+            "\\(4\\)",
+            "ongeveer \\(3{,}2\\)",
+            "\\(7\\)"
           ],
           "antwoord": 0,
-          "uitleg": "Het verschil in x is 3 en in y is 4, dus weer de driehoek 3-4-5."
+          "uitleg": "Het verschil in \\(x\\) is \\(3\\) en in \\(y\\) is \\(4\\), dus weer de driehoek met zijden \\(3\\), \\(4\\) en \\(5\\)."
         },
         {
           "type": "meerkeuze",
           "vraag": "Welke formule geeft de afstand tussen twee punten in het vlak?",
           "opties": [
-            "de wortel uit het kwadraat van het verschil in x plus het kwadraat van het verschil in y",
-            "het verschil in x plus het verschil in y, samen gedeeld door twee",
-            "de wortel uit het verschil in x plus het verschil in y",
-            "het kwadraat van het verschil in x plus het kwadraat van het verschil in y"
+            "\\(\\sqrt{(x_{2} - x_{1})^{2} + (y_{2} - y_{1})^{2}}\\)",
+            "\\(\\tfrac{(x_{2} - x_{1}) + (y_{2} - y_{1})}{2}\\)",
+            "\\(\\sqrt{(x_{2} - x_{1}) + (y_{2} - y_{1})}\\)",
+            "\\((x_{2} - x_{1})^{2} + (y_{2} - y_{1})^{2}\\)"
           ],
           "antwoord": 0,
           "uitleg": "Het is Pythagoras op de rechthoekige driehoek die de twee punten met hun horizontale en verticale verschil maken."
         },
         {
           "type": "meerkeuze",
-          "vraag": "Een balk is 3 bij 4 bij 12. Hoe lang is de ruimtediagonaal?",
+          "vraag": "Een balk is \\(3\\) bij \\(4\\) bij \\(12\\). Hoe lang is de ruimtediagonaal?",
           "opties": [
-            "13",
-            "19",
-            "12",
-            "ongeveer 14,4"
+            "\\(13\\)",
+            "\\(19\\)",
+            "\\(12\\)",
+            "ongeveer \\(14{,}4\\)"
           ],
           "antwoord": 0,
-          "uitleg": "Eerst de diagonaal van de bodem: wortel uit 9 plus 16 is 5. Dan wortel uit 25 plus 144 is 13."
+          "uitleg": "Eerst de diagonaal van de bodem: \\(\\sqrt{9 + 16} = 5\\). Dan \\(\\sqrt{25 + 144} = 13\\)."
         },
         {
           "type": "meerkeuze",
@@ -2279,7 +2279,7 @@
         },
         {
           "type": "meerkeuze",
-          "vraag": "Een televisie van 40 inch: wat wordt daarmee gemeten?",
+          "vraag": "Een televisie van \\(40\\) inch: wat wordt daarmee gemeten?",
           "opties": [
             "de diagonaal van het scherm",
             "de breedte van het scherm",
@@ -2309,9 +2309,9 @@
         },
         {
           "type": "waarofniet",
-          "vraag": "Een driehoek met zijden 5, 12 en 13 is rechthoekig.",
+          "vraag": "Een driehoek met zijden \\(5\\), \\(12\\) en \\(13\\) is rechthoekig.",
           "antwoord": true,
-          "uitleg": "25 plus 144 is 169, en dat is 13 in het kwadraat."
+          "uitleg": "\\(25 + 144 = 169\\), en dat is \\(13\\) in het kwadraat."
         },
         {
           "type": "waarofniet",
@@ -2327,28 +2327,28 @@
         },
         {
           "type": "invultekst",
-          "vraag": "Een rechthoekige driehoek heeft rechthoekszijden 9 en 12. Hoe lang is de schuine zijde?",
+          "vraag": "Een rechthoekige driehoek heeft rechthoekszijden \\(9\\) en \\(12\\). Hoe lang is de schuine zijde?",
           "antwoord": [
             "15"
           ],
-          "uitleg": "81 plus 144 is 225."
+          "uitleg": "\\(81 + 144 = 225\\)."
         },
         {
           "type": "invultekst",
-          "vraag": "Wat is de afstand tussen A(0, 0) en B(6, 8)?",
+          "vraag": "Wat is de afstand tussen A(\\(0\\), \\(0\\)) en B(\\(6\\), \\(8\\))?",
           "antwoord": [
             "10"
           ],
-          "uitleg": "36 plus 64 is 100."
+          "uitleg": "\\(36 + 64 = 100\\)."
         },
         {
           "type": "invultekst",
-          "vraag": "Een vierkant heeft een zijde van 1. Hoe lang is de diagonaal? Typ bijvoorbeeld 2√3.",
+          "vraag": "Een vierkant heeft een zijde van \\(1\\). Hoe lang is de diagonaal? Typ bijvoorbeeld 2√3.",
           "antwoord": [
             "√2",
             "wortel 2"
           ],
-          "uitleg": "1 plus 1 is 2, dus de diagonaal is de wortel van 2. Dat is meteen het klassieke irrationale getal."
+          "uitleg": "\\(1 + 1 = 2\\), dus de diagonaal is \\(\\sqrt{2}\\). Dat is meteen het klassieke irrationale getal."
         }
       ]
     },
@@ -2361,10 +2361,10 @@
           "type": "meerkeuze",
           "vraag": "Wat is de sinus van een scherpe hoek in een rechthoekige driehoek?",
           "opties": [
-            "de overstaande rechthoekszijde gedeeld door de schuine zijde",
-            "de aanliggende rechthoekszijde gedeeld door de schuine zijde",
-            "de overstaande gedeeld door de aanliggende rechthoekszijde",
-            "de schuine zijde gedeeld door de overstaande rechthoekszijde"
+            "\\(\\sin\\alpha = \\tfrac{\\text{overstaande}}{\\text{schuine zijde}}\\)",
+            "\\(\\sin\\alpha = \\tfrac{\\text{aanliggende}}{\\text{schuine zijde}}\\)",
+            "\\(\\sin\\alpha = \\tfrac{\\text{overstaande}}{\\text{aanliggende}}\\)",
+            "\\(\\sin\\alpha = \\tfrac{\\text{schuine zijde}}{\\text{overstaande}}\\)"
           ],
           "antwoord": 0,
           "uitleg": "Ezelsbruggetje SOS CAS TOA: Sinus is Overstaande op Schuine."
@@ -2373,10 +2373,10 @@
           "type": "meerkeuze",
           "vraag": "Wat is de cosinus van een scherpe hoek in een rechthoekige driehoek?",
           "opties": [
-            "de aanliggende rechthoekszijde gedeeld door de schuine zijde",
-            "de overstaande rechthoekszijde gedeeld door de schuine zijde",
-            "de aanliggende gedeeld door de overstaande rechthoekszijde",
-            "de schuine zijde gedeeld door de aanliggende rechthoekszijde"
+            "\\(\\cos\\alpha = \\tfrac{\\text{aanliggende}}{\\text{schuine zijde}}\\)",
+            "\\(\\cos\\alpha = \\tfrac{\\text{overstaande}}{\\text{schuine zijde}}\\)",
+            "\\(\\cos\\alpha = \\tfrac{\\text{aanliggende}}{\\text{overstaande}}\\)",
+            "\\(\\cos\\alpha = \\tfrac{\\text{schuine zijde}}{\\text{aanliggende}}\\)"
           ],
           "antwoord": 0,
           "uitleg": "Cosinus is Aanliggende op Schuine."
@@ -2385,10 +2385,10 @@
           "type": "meerkeuze",
           "vraag": "Wat is de tangens van een scherpe hoek?",
           "opties": [
-            "de overstaande gedeeld door de aanliggende rechthoekszijde",
-            "de aanliggende gedeeld door de overstaande rechthoekszijde",
-            "de overstaande rechthoekszijde gedeeld door de schuine zijde",
-            "de schuine zijde gedeeld door de aanliggende rechthoekszijde"
+            "\\(\\tan\\alpha = \\tfrac{\\text{overstaande}}{\\text{aanliggende}}\\)",
+            "\\(\\tan\\alpha = \\tfrac{\\text{aanliggende}}{\\text{overstaande}}\\)",
+            "\\(\\tan\\alpha = \\tfrac{\\text{overstaande}}{\\text{schuine zijde}}\\)",
+            "\\(\\tan\\alpha = \\tfrac{\\text{schuine zijde}}{\\text{aanliggende}}\\)"
           ],
           "antwoord": 0,
           "uitleg": "Tangens is Overstaande op Aanliggende. Daarom werkt de tangens zo goed bij hellingen."
@@ -2421,77 +2421,77 @@
           "type": "meerkeuze",
           "vraag": "Wat zegt de grondformule van de goniometrie?",
           "opties": [
-            "sinus kwadraat plus cosinus kwadraat is gelijk aan één",
-            "sinus plus cosinus is gelijk aan één",
-            "sinus gedeeld door cosinus is gelijk aan één",
-            "sinus kwadraat min cosinus kwadraat is gelijk aan één"
+            "\\(\\sin^{2}\\alpha + \\cos^{2}\\alpha = 1\\)",
+            "\\(\\sin\\alpha + \\cos\\alpha = 1\\)",
+            "\\(\\tfrac{\\sin\\alpha}{\\cos\\alpha} = 1\\)",
+            "\\(\\sin^{2}\\alpha - \\cos^{2}\\alpha = 1\\)"
           ],
           "antwoord": 0,
-          "uitleg": "Ze volgt rechtstreeks uit Pythagoras op de goniometrische cirkel met straal 1."
+          "uitleg": "Ze volgt rechtstreeks uit Pythagoras op de goniometrische cirkel met straal \\(1\\)."
         },
         {
           "type": "meerkeuze",
-          "vraag": "De sinus van een hoek is 0,6. Wat is de cosinus als de hoek scherp is?",
+          "vraag": "\\(\\sin\\alpha = 0{,}6\\) en \\(\\alpha\\) is scherp. Hoeveel is \\(\\cos\\alpha\\)?",
           "opties": [
-            "0,8",
-            "0,4",
-            "1,6",
-            "0,36"
+            "\\(0{,}8\\)",
+            "\\(0{,}4\\)",
+            "\\(1{,}6\\)",
+            "\\(0{,}36\\)"
           ],
           "antwoord": 0,
-          "uitleg": "0,36 plus cosinus kwadraat is 1, dus cosinus kwadraat is 0,64 en de cosinus is 0,8."
+          "uitleg": "\\(0{,}36 + \\cos^{2}\\alpha = 1\\), dus \\(\\cos^{2}\\alpha = 0{,}64\\) en \\(\\cos\\alpha = 0{,}8\\)."
         },
         {
           "type": "meerkeuze",
           "vraag": "Hoe druk je de tangens uit met de sinus en de cosinus?",
           "opties": [
-            "tangens is sinus gedeeld door cosinus",
-            "tangens is cosinus gedeeld door sinus",
-            "tangens is sinus maal cosinus",
-            "tangens is sinus plus cosinus"
+            "\\(\\tan\\alpha = \\tfrac{\\sin\\alpha}{\\cos\\alpha}\\)",
+            "\\(\\tan\\alpha = \\tfrac{\\cos\\alpha}{\\sin\\alpha}\\)",
+            "\\(\\tan\\alpha = \\sin\\alpha \\cdot \\cos\\alpha\\)",
+            "\\(\\tan\\alpha = \\sin\\alpha + \\cos\\alpha\\)"
           ],
           "antwoord": 0,
           "uitleg": "Beide verhoudingen hebben de schuine zijde als noemer, en die valt bij het delen weg."
         },
         {
           "type": "meerkeuze",
-          "vraag": "Wat is de sinus van 30 graden?",
+          "vraag": "Hoeveel is \\(\\sin 30^\\circ\\)?",
           "opties": [
-            "0,5",
-            "ongeveer 0,87",
-            "1",
-            "ongeveer 0,58"
+            "\\(0{,}5\\)",
+            "ongeveer \\(0{,}87\\)",
+            "\\(1\\)",
+            "ongeveer \\(0{,}58\\)"
           ],
           "antwoord": 0,
-          "uitleg": "Bij 30 graden is de overstaande zijde precies de helft van de schuine zijde."
+          "uitleg": "Bij \\(30^\\circ\\) is de overstaande zijde precies de helft van de schuine zijde."
         },
         {
           "type": "meerkeuze",
-          "vraag": "Wat is de cosinus van 0 graden?",
+          "vraag": "Hoeveel is \\(\\cos 0^\\circ\\)?",
           "opties": [
-            "1",
-            "0",
-            "0,5",
+            "\\(1\\)",
+            "\\(0\\)",
+            "\\(0{,}5\\)",
             "dat bestaat niet"
           ],
           "antwoord": 0,
-          "uitleg": "Op de goniometrische cirkel ligt het punt bij 0 graden helemaal rechts, met x-waarde 1."
+          "uitleg": "Op de goniometrische cirkel ligt het punt bij \\(0^\\circ\\) helemaal rechts, met \\(x\\)-waarde \\(1\\)."
         },
         {
           "type": "meerkeuze",
           "vraag": "Wat is de straal van de goniometrische cirkel?",
           "opties": [
-            "1",
-            "2",
-            "pi",
+            "\\(1\\)",
+            "\\(2\\)",
+            "\\(\\pi\\)",
             "afhankelijk van de hoek"
           ],
           "antwoord": 0,
-          "uitleg": "Door straal 1 te kiezen zijn de cosinus en de sinus gewoon de x- en de y-coördinaat van het punt."
+          "uitleg": "Door straal \\(1\\) te kiezen zijn de cosinus en de sinus gewoon de \\(x\\)- en de \\(y\\)-coördinaat van het punt."
         },
         {
           "type": "meerkeuze",
-          "vraag": "Hoe heten twee hoeken die samen 180 graden geven?",
+          "vraag": "Hoe heten twee hoeken die samen \\(180^\\circ\\) geven?",
           "opties": [
             "supplementair",
             "complementair",
@@ -2499,11 +2499,11 @@
             "tegengesteld"
           ],
           "antwoord": 0,
-          "uitleg": "Samen 90 graden heet complementair. Supplementaire hoeken hebben dezelfde sinus."
+          "uitleg": "Samen \\(90^\\circ\\) heet complementair. Supplementaire hoeken hebben dezelfde sinus."
         },
         {
           "type": "meerkeuze",
-          "vraag": "Hoe heten twee hoeken die samen 90 graden geven?",
+          "vraag": "Hoe heten twee hoeken die samen \\(90^\\circ\\) geven?",
           "opties": [
             "complementair",
             "supplementair",
@@ -2511,7 +2511,7 @@
             "gelijk"
           ],
           "antwoord": 0,
-          "uitleg": "Bij complementaire hoeken wisselen sinus en cosinus van plaats: de sinus van 30 is de cosinus van 60."
+          "uitleg": "Bij complementaire hoeken wisselen sinus en cosinus van plaats: \\(\\sin 30^\\circ = \\cos 60^\\circ\\)."
         },
         {
           "type": "waarofniet",
@@ -2521,9 +2521,9 @@
         },
         {
           "type": "waarofniet",
-          "vraag": "De tangens van 45 graden is gelijk aan één.",
+          "vraag": "\\(\\tan 45^\\circ = 1\\).",
           "antwoord": true,
-          "uitleg": "Bij 45 graden zijn de twee rechthoekszijden even lang, dus hun verhouding is 1."
+          "uitleg": "Bij \\(45^\\circ\\) zijn de twee rechthoekszijden even lang, dus hun verhouding is \\(1\\)."
         },
         {
           "type": "waarofniet",
@@ -2539,15 +2539,15 @@
         },
         {
           "type": "invultekst",
-          "vraag": "De sinus van een scherpe hoek is 0,8. Hoeveel is de cosinus?",
+          "vraag": "\\(\\sin\\alpha = 0{,}8\\) en \\(\\alpha\\) is scherp. Hoeveel is \\(\\cos\\alpha\\)?",
           "antwoord": [
             "0,6"
           ],
-          "uitleg": "0,64 plus 0,36 is 1."
+          "uitleg": "\\(0{,}64 + 0{,}36 = 1\\), dus \\(\\cos\\alpha = 0{,}6\\)."
         },
         {
           "type": "invultekst",
-          "vraag": "Hoeveel is de tangens van 45 graden?",
+          "vraag": "Hoeveel is \\(\\tan 45^\\circ\\)?",
           "antwoord": [
             "1"
           ],
@@ -2573,9 +2573,9 @@
           "type": "meerkeuze",
           "vraag": "Hoeveel graden is de som van de hoeken in elke driehoek?",
           "opties": [
-            "180",
-            "360",
-            "90",
+            "\\(180\\)",
+            "\\(360\\)",
+            "\\(90\\)",
             "dat hangt af van de vorm"
           ],
           "antwoord": 0,
@@ -2591,7 +2591,7 @@
             "als je enkel de drie hoeken kent"
           ],
           "antwoord": 0,
-          "uitleg": "De cosinusregel is de algemene versie van Pythagoras, met een correctieterm voor de hoek."
+          "uitleg": "\\(a^{2} = b^{2} + c^{2} - 2bc\\cos\\alpha\\): de algemene versie van Pythagoras, met een correctieterm voor de hoek."
         },
         {
           "type": "meerkeuze",
@@ -2603,16 +2603,16 @@
             "alleen in een gelijkbenige driehoek"
           ],
           "antwoord": 0,
-          "uitleg": "De sinusregel koppelt een zijde aan de hoek die ertegenover ligt, telkens per paar."
+          "uitleg": "\\(\\tfrac{a}{\\sin\\alpha} = \\tfrac{b}{\\sin\\beta} = \\tfrac{c}{\\sin\\gamma}\\): de sinusregel koppelt een zijde aan de hoek die ertegenover ligt, telkens per paar."
         },
         {
           "type": "meerkeuze",
           "vraag": "Welke uitspraak over de sinusregel klopt?",
           "opties": [
-            "de verhouding van een zijde tot de sinus van de hoek ertegenover is voor alle drie de paren gelijk",
-            "de som van de drie zijden gedeeld door de som van de drie sinussen is altijd gelijk aan één",
-            "de sinus van een hoek is de zijde ertegenover gedeeld door de omtrek",
-            "de sinusregel geldt enkel in een scherphoekige driehoek"
+            "\\(\\tfrac{a}{\\sin\\alpha} = \\tfrac{b}{\\sin\\beta} = \\tfrac{c}{\\sin\\gamma}\\)",
+            "\\(\\tfrac{a + b + c}{\\sin\\alpha + \\sin\\beta + \\sin\\gamma} = 1\\)",
+            "\\(\\sin\\alpha = \\tfrac{a}{a + b + c}\\)",
+            "\\(\\tfrac{a}{\\sin\\alpha} = \\tfrac{\\sin\\beta}{b} = \\tfrac{c}{\\sin\\gamma}\\)"
           ],
           "antwoord": 0,
           "uitleg": "Die gelijke verhouding is precies de diameter van de omgeschreven cirkel."
@@ -2624,28 +2624,28 @@
             "je rekenmachine geeft de scherpe hoek terug, terwijl de stompe hoek de juiste kan zijn",
             "de sinusregel geldt dan niet meer en je moet altijd overschakelen op de cosinusregel",
             "je moet de zijden eerst van groot naar klein ordenen",
-            "de som van de hoeken is dan geen 180 graden meer"
+            "de som van de hoeken is dan geen \\(180^\\circ\\) meer"
           ],
           "antwoord": 0,
           "uitleg": "Supplementaire hoeken hebben dezelfde sinus, dus stem je uitkomst af op de gegevens van de opgave."
         },
         {
           "type": "meerkeuze",
-          "vraag": "In een driehoek zijn twee hoeken 40 en 65 graden. Hoe groot is de derde?",
+          "vraag": "In een driehoek zijn twee hoeken \\(40^\\circ\\) en \\(65^\\circ\\). Hoe groot is de derde?",
           "opties": [
-            "75",
-            "105",
-            "85",
-            "55"
+            "\\(75^\\circ\\)",
+            "\\(105^\\circ\\)",
+            "\\(85^\\circ\\)",
+            "\\(55^\\circ\\)"
           ],
           "antwoord": 0,
-          "uitleg": "180 min 40 min 65 is 75."
+          "uitleg": "\\(180^\\circ - 40^\\circ - 65^\\circ = 75^\\circ\\)."
         },
         {
           "type": "meerkeuze",
           "vraag": "Wat wordt de cosinusregel als de ingesloten hoek recht is?",
           "opties": [
-            "de stelling van Pythagoras, want de cosinus van 90 graden is nul",
+            "de stelling van Pythagoras, want de cosinus van \\(90^\\circ\\) is nul",
             "de sinusregel, want dan zijn alle verhoudingen gelijk",
             "een gelijkheid die altijd klopt, welke drie zijden je ook invult",
             "onbruikbaar, want je mag geen rechte hoek invullen"
@@ -2655,7 +2655,7 @@
         },
         {
           "type": "meerkeuze",
-          "vraag": "Je kent van een driehoek de zijden 7 en 9 en de hoek van 40 graden ertussen. Wat bereken je eerst?",
+          "vraag": "Je kent van een driehoek de zijden \\(7\\) en \\(9\\) en de hoek van \\(40^\\circ\\) ertussen. Wat bereken je eerst?",
           "opties": [
             "de derde zijde met de cosinusregel",
             "de tweede hoek met de sinusregel",
@@ -2691,7 +2691,7 @@
         },
         {
           "type": "meerkeuze",
-          "vraag": "Twee landmeters staan 200 meter uit elkaar en meten elk de hoek naar dezelfde boom. Wat kunnen ze berekenen?",
+          "vraag": "Twee landmeters staan \\(200\\) meter uit elkaar en meten elk de hoek naar dezelfde boom. Wat kunnen ze berekenen?",
           "opties": [
             "de afstand van elke landmeter tot de boom, met de sinusregel",
             "enkel de hoogte van de boom, en niet de afstand",
@@ -2715,9 +2715,9 @@
         },
         {
           "type": "meerkeuze",
-          "vraag": "Kan een driehoek zijden 3, 4 en 9 hebben?",
+          "vraag": "Kan een driehoek zijden \\(3\\), \\(4\\) en \\(9\\) hebben?",
           "opties": [
-            "nee, want 3 plus 4 is kleiner dan 9",
+            "nee, want \\(3 + 4\\) is kleiner dan \\(9\\)",
             "ja, want alle drie de getallen zijn verschillend",
             "ja, maar dan is hij stomphoekig",
             "dat hangt af van de hoeken"
@@ -2741,7 +2741,7 @@
           "type": "waarofniet",
           "vraag": "Twee hoeken van een driehoek kennen volstaat om de derde te kennen.",
           "antwoord": true,
-          "uitleg": "De som is altijd 180 graden."
+          "uitleg": "De som is altijd \\(180^\\circ\\)."
         },
         {
           "type": "waarofniet",
@@ -2751,12 +2751,12 @@
         },
         {
           "type": "invultekst",
-          "vraag": "Twee hoeken van een driehoek zijn 55 en 72 graden. Hoeveel graden is de derde?",
+          "vraag": "Twee hoeken van een driehoek zijn \\(55^\\circ\\) en \\(72^\\circ\\). Hoeveel graden is de derde?",
           "antwoord": [
             "53",
             "53 graden"
           ],
-          "uitleg": "180 min 55 min 72."
+          "uitleg": "\\(180 - 55 - 72\\)."
         },
         {
           "type": "invultekst",
@@ -2769,7 +2769,7 @@
         },
         {
           "type": "invultekst",
-          "vraag": "Hoeveel is de cosinus van 90 graden?",
+          "vraag": "Hoeveel is de cosinus van \\(90^\\circ\\)?",
           "antwoord": [
             "0",
             "nul"
@@ -2790,7 +2790,7 @@
             "richting, zin en grootte",
             "lengte, breedte en hoogte",
             "beginpunt, middelpunt en eindpunt",
-            "x-waarde, y-waarde en hoek"
+            "\\(x\\)-waarde, \\(y\\)-waarde en hoek"
           ],
           "antwoord": 0,
           "uitleg": "De richting is de stand van de rechte, de zin is welke kant op, en de grootte is de lengte."
@@ -2813,8 +2813,8 @@
           "opties": [
             "de vector met grootte nul, zonder richting of zin",
             "de vector die op de oorsprong begint",
-            "de vector met coördinaten 1 en 0",
-            "de vector die loodrecht op de x-as staat en op nul begint"
+            "de vector met coördinaten \\(1\\) en \\(0\\)",
+            "de vector die loodrecht op de \\(x\\)-as staat en op nul begint"
           ],
           "antwoord": 0,
           "uitleg": "Tel je een vector op bij zijn tegengestelde, dan krijg je de nulvector."
@@ -2824,8 +2824,8 @@
           "vraag": "Wat is een eenheidsvector?",
           "opties": [
             "een vector met grootte één",
-            "een vector die langs de x-as ligt",
-            "een vector met coördinaten 1 en 1",
+            "een vector die langs de \\(x\\)-as ligt",
+            "een vector met coördinaten \\(1\\) en \\(1\\)",
             "een vector die bij elke verschuiving hoort"
           ],
           "antwoord": 0,
@@ -2833,27 +2833,27 @@
         },
         {
           "type": "meerkeuze",
-          "vraag": "Een vector heeft coördinaten (3, 4). Wat is zijn norm?",
+          "vraag": "Een vector heeft coördinaten \\((3, 4)\\). Wat is zijn norm?",
           "opties": [
-            "5",
-            "7",
-            "12",
-            "ongeveer 3,5"
+            "\\(5\\)",
+            "\\(7\\)",
+            "\\(12\\)",
+            "ongeveer \\(3{,}5\\)"
           ],
           "antwoord": 0,
-          "uitleg": "De norm is de lengte, en die bereken je met Pythagoras: wortel uit 9 plus 16."
+          "uitleg": "De norm is de lengte, en die bereken je met Pythagoras: \\(\\sqrt{9 + 16} = 5\\)."
         },
         {
           "type": "meerkeuze",
-          "vraag": "Een vector heeft coördinaten (min 6, 8). Wat is zijn norm?",
+          "vraag": "Een vector heeft coördinaten \\((-6, 8)\\). Wat is zijn norm?",
           "opties": [
-            "10",
-            "2",
-            "14",
-            "min 10"
+            "\\(10\\)",
+            "\\(2\\)",
+            "\\(14\\)",
+            "\\(-10\\)"
           ],
           "antwoord": 0,
-          "uitleg": "De kwadraten maken het teken onbelangrijk: 36 plus 64 is 100."
+          "uitleg": "De kwadraten maken het teken onbelangrijk: \\(36 + 64 = 100\\)."
         },
         {
           "type": "meerkeuze",
@@ -2865,7 +2865,7 @@
             "de vectoren eerst even lang maken en dan optellen"
           ],
           "antwoord": 0,
-          "uitleg": "(2, 1) plus (3, 5) geeft (5, 6)."
+          "uitleg": "\\((2, 1) + (3, 5) = (5, 6)\\)."
         },
         {
           "type": "meerkeuze",
@@ -2881,24 +2881,24 @@
         },
         {
           "type": "meerkeuze",
-          "vraag": "A ligt op (1, 2) en B op (4, 7). Wat zijn de coördinaten van de vector van A naar B?",
+          "vraag": "A ligt op \\((1, 2)\\) en B op \\((4, 7)\\). Wat zijn de coördinaten van de vector van A naar B?",
           "opties": [
-            "(3, 5)",
-            "(5, 9)",
-            "(min 3, min 5)",
-            "(4, 14)"
+            "\\((3, 5)\\)",
+            "\\((5, 9)\\)",
+            "\\((-3, -5)\\)",
+            "\\((4, 14)\\)"
           ],
           "antwoord": 0,
-          "uitleg": "4 min 1 is 3, en 7 min 2 is 5."
+          "uitleg": "\\(4 - 1 = 3\\), en \\(7 - 2 = 5\\)."
         },
         {
           "type": "meerkeuze",
-          "vraag": "Wat gebeurt er als je een vector met min 2 vermenigvuldigt?",
+          "vraag": "Wat gebeurt er als je een vector met \\(-2\\) vermenigvuldigt?",
           "opties": [
             "hij wordt twee keer zo lang en keert van zin om",
             "hij wordt twee keer zo lang en houdt dezelfde zin",
             "hij wordt half zo lang en keert van zin om",
-            "hij blijft even lang maar draait 90 graden"
+            "hij blijft even lang maar draait \\(90^\\circ\\)"
           ],
           "antwoord": 0,
           "uitleg": "Het getal bepaalt de lengte, het teken bepaalt de zin."
@@ -2917,15 +2917,15 @@
         },
         {
           "type": "meerkeuze",
-          "vraag": "Twee krachten van 3 en 4 newton werken loodrecht op elkaar. Hoe groot is de resulterende kracht?",
+          "vraag": "Twee krachten van \\(3\\) en \\(4\\) newton werken loodrecht op elkaar. Hoe groot is de resulterende kracht?",
           "opties": [
-            "5 newton",
-            "7 newton",
-            "1 newton",
-            "12 newton"
+            "\\(5\\) newton",
+            "\\(7\\) newton",
+            "\\(1\\) newton",
+            "\\(12\\) newton"
           ],
           "antwoord": 0,
-          "uitleg": "Loodrecht betekent Pythagoras. Werkten ze in dezelfde zin, dan was het wel 7."
+          "uitleg": "Loodrecht betekent Pythagoras. Werkten ze in dezelfde zin, dan was het wel \\(7\\)."
         },
         {
           "type": "meerkeuze",
@@ -2965,19 +2965,19 @@
         },
         {
           "type": "invultekst",
-          "vraag": "Wat is de norm van de vector met coördinaten (5, 12)?",
+          "vraag": "Wat is de norm van de vector met coördinaten \\((5, 12)\\)?",
           "antwoord": [
             "13"
           ],
-          "uitleg": "25 plus 144 is 169."
+          "uitleg": "\\(25 + 144 = 169\\)."
         },
         {
           "type": "invultekst",
-          "vraag": "A ligt op (2, 3) en B op (7, 3). Wat is de norm van de vector van A naar B?",
+          "vraag": "A ligt op \\((2, 3)\\) en B op \\((7, 3)\\). Wat is de norm van de vector van A naar B?",
           "antwoord": [
             "5"
           ],
-          "uitleg": "De y-waarden zijn gelijk, dus de vector ligt horizontaal en is 5 lang."
+          "uitleg": "De \\(y\\)-waarden zijn gelijk, dus de vector ligt horizontaal en is \\(5\\) lang."
         },
         {
           "type": "invultekst",

@@ -687,98 +687,124 @@ BUNDELS["pythagoras-en-de-rechthoekige-driehoek-boost-doorstroom"] = dict(
     onder="De stelling van Pythagoras, de afstand tussen twee punten, en sinus, cosinus en tangens.",
     secties=[
         dict(kop="De stelling van Pythagoras", blokken=[
-            ("p", "In een <strong>rechthoekige</strong> driehoek is het kwadraat van de schuine zijde gelijk "
-                  "aan de som van de kwadraten van de twee rechthoekszijden: <strong>a² + b² = c²</strong>, "
-                  "met c de schuine zijde."),
-            ("p", "De <strong>schuine zijde</strong> (hypotenusa) ligt tegenover de rechte hoek en is altijd "
-                  "de langste zijde van de driehoek. De stelling geldt <strong>alleen</strong> in een "
-                  "rechthoekige driehoek; in andere driehoeken heb je de cosinusregel nodig."),
+            ("p", r"In een <strong>rechthoekige</strong> driehoek is het kwadraat van de schuine zijde gelijk "
+                  r"aan de som van de kwadraten van de twee rechthoekszijden:"),
+            ("p", r"\[a^{2} + b^{2} = c^{2}\]"),
+            ("p", r"met \(c\) de schuine zijde. De naam <strong>kwadraat</strong> is hier letterlijk te nemen: "
+                  r"zet op elke zijde het vierkant van die zijde, en de twee kleine vierkanten hebben samen "
+                  r"precies de oppervlakte van het grote."),
+            ("fig", svg.pythagorasvierkanten(),
+             "de twee kleine vierkanten vullen samen precies het grote"),
+            ("p", r"De <strong>schuine zijde</strong> (hypotenusa) ligt tegenover de rechte hoek en is altijd "
+                  r"de langste zijde van de driehoek. De stelling geldt <strong>alleen</strong> in een "
+                  r"rechthoekige driehoek; in andere driehoeken heb je de cosinusregel nodig."),
+        ]),
+        dict(kop="Rekenen met de stelling", blokken=[
             ("p", tabel(["Gegeven", "Berekening", "Resultaat"], [
-                ["rechthoekszijden 6 en 8", "√(36 + 64) = √100", "10"],
-                ["rechthoekszijden 9 en 12", "√(81 + 144) = √225", "15"],
-                ["schuine zijde 13, één zijde 5", "√(169 − 25) = √144", "12"],
-                ["vierkant met zijde 1", "√(1 + 1) = √2", "√2"],
+                [r"rechthoekszijden \(6\) en \(8\)", r"\(\sqrt{36 + 64} = \sqrt{100}\)", r"\(10\)"],
+                [r"rechthoekszijden \(9\) en \(12\)", r"\(\sqrt{81 + 144} = \sqrt{225}\)", r"\(15\)"],
+                [r"schuine zijde \(13\), één zijde \(5\)", r"\(\sqrt{169 - 25} = \sqrt{144}\)", r"\(12\)"],
+                [r"vierkant met zijde \(1\)", r"\(\sqrt{1 + 1}\)", r"\(\sqrt{2}\)"],
             ])),
-            ("p", "<strong>Omgekeerd</strong> kan je met de stelling nagaan óf een driehoek rechthoekig is. "
-                  "Zijden 9, 12 en 15: 81 + 144 is 225 en dat is 15², dus ja. Zijden 5, 12 en 13: 25 + 144 is "
-                  "169 en dat is 13², dus ook. Zijden 4, 5 en 7: 16 + 25 is 41, maar 7² is 49, dus nee."),
-            ("weetje", "Een televisie van 40 inch: dat is de <strong>diagonaal</strong> van het scherm, niet "
-                       "de breedte. Met Pythagoras en de beeldverhouding reken je breedte en hoogte eruit."),
+            ("p", r"Ken je de schuine zijde en één rechthoekszijde, dan <strong>trek je af</strong> in plaats "
+                  r"van op te tellen: \(b^{2} = c^{2} - a^{2}\). Pas daarna neem je de wortel. Dat is de "
+                  r"fout die het vaakst gemaakt wordt."),
+            ("p", r"<strong>Omgekeerd</strong> kan je met de stelling nagaan óf een driehoek rechthoekig is. "
+                  r"Zijden \(9\), \(12\) en \(15\): \(81 + 144 = 225 = 15^{2}\), dus ja. Zijden \(5\), \(12\) "
+                  r"en \(13\): \(25 + 144 = 169 = 13^{2}\), dus ook. Zijden \(4\), \(5\) en \(7\): "
+                  r"\(16 + 25 = 41\), maar \(7^{2} = 49\), dus nee."),
+            ("kader", r"Is \(a^{2} + b^{2}\) <em>kleiner</em> dan \(c^{2}\), zoals \(41\) tegenover \(49\), "
+                      r"dan is de grootste hoek <strong>stomp</strong>. Is ze groter, dan is die hoek "
+                      r"<strong>scherp</strong>. De stelling vertelt dus meer dan enkel ja of nee."),
+            ("weetje", r"Een televisie van \(40\) inch: dat is de <strong>diagonaal</strong> van het scherm, "
+                       r"niet de breedte. Met Pythagoras en de beeldverhouding reken je breedte en hoogte eruit."),
         ]),
         dict(kop="Toepassingen", blokken=[
-            ("p", "<strong>De ladder tegen de muur.</strong> Een ladder van 5 meter met de voet 3 meter van "
-                  "de muur reikt √(25 − 9) = 4 meter hoog. De ladder is de schuine zijde, de muur en de grond "
-                  "zijn de rechthoekszijden."),
-            ("p", "<strong>De afstand tussen twee punten</strong> in het vlak is niets anders dan Pythagoras "
-                  "op het verschil in x en het verschil in y:"),
-            ("p", "afstand AB = √((x₂ − x₁)² + (y₂ − y₁)²)"),
+            ("p", r"<strong>De ladder tegen de muur.</strong> Een ladder van \(5\) meter met de voet \(3\) "
+                  r"meter van de muur reikt \(\sqrt{25 - 9} = 4\) meter hoog. De ladder is de schuine zijde, "
+                  r"de muur en de grond zijn de rechthoekszijden."),
+            ("p", r"<strong>De afstand tussen twee punten</strong> in het vlak is niets anders dan Pythagoras "
+                  r"op het verschil in \(x\) en het verschil in \(y\):"),
+            ("p", r"\[\left|AB\right| = \sqrt{(x_{2} - x_{1})^{2} + (y_{2} - y_{1})^{2}}\]"),
+            ("fig", svg.puntafstand(),
+             r"het verschil in \(x\) en het verschil in \(y\) vormen de rechthoekszijden"),
+        ]),
+        dict(kop="Afstand en ruimte", blokken=[
             ("p", tabel(["Punten", "Verschillen", "Afstand"], [
-                ["A(1, 2) en B(4, 6)", "3 en 4", "√25 = 5"],
-                ["A(−2, 1) en B(1, 5)", "3 en 4", "√25 = 5"],
-                ["A(0, 0) en B(6, 8)", "6 en 8", "√100 = 10"],
+                [r"\(A(1, 2)\) en \(B(4, 6)\)", r"\(3\) en \(4\)", r"\(\sqrt{25} = 5\)"],
+                [r"\(A(-2, 1)\) en \(B(1, 5)\)", r"\(3\) en \(4\)", r"\(\sqrt{25} = 5\)"],
+                [r"\(A(0, 0)\) en \(B(6, 8)\)", r"\(6\) en \(8\)", r"\(\sqrt{100} = 10\)"],
             ])),
-            ("p", "Een afstand is <strong>nooit negatief</strong>, ook niet als het ene punt links van het "
-                  "andere ligt: de verschillen worden gekwadrateerd, en een kwadraat is positief."),
-            ("p", "<strong>De ruimtediagonaal van een balk.</strong> Daar pas je Pythagoras <strong>twee "
-                  "keer</strong> toe: eerst op de diagonaal van het grondvlak, en dan op die diagonaal samen "
-                  "met de hoogte. Bij een balk 3 bij 4 bij 12: de grondvlakdiagonaal is √(9 + 16) = 5, en de "
-                  "ruimtediagonaal √(25 + 144) = 13."),
+            ("p", r"Een afstand is <strong>nooit negatief</strong>, ook niet als het ene punt links van het "
+                  r"andere ligt: de verschillen worden gekwadrateerd, en een kwadraat is positief. Daarom "
+                  r"maakt het ook niet uit welk punt je \(A\) noemt en welk \(B\)."),
+            ("p", r"<strong>De ruimtediagonaal van een balk.</strong> Daar pas je Pythagoras <strong>twee "
+                  r"keer</strong> toe: eerst op de diagonaal van het grondvlak, en dan op die diagonaal samen "
+                  r"met de hoogte. Bij een balk \(3\) bij \(4\) bij \(12\) is de grondvlakdiagonaal "
+                  r"\(\sqrt{9 + 16} = 5\) en de ruimtediagonaal \(\sqrt{25 + 144} = 13\). In één formule: "
+                  r"\(d = \sqrt{l^{2} + b^{2} + h^{2}}\)."),
         ]),
         dict(kop="Sinus, cosinus en tangens", blokken=[
-            ("p", "In een rechthoekige driehoek horen bij elke scherpe hoek drie verhoudingen:"),
+            ("p", r"In een rechthoekige driehoek horen bij elke scherpe hoek \(\alpha\) drie verhoudingen:"),
             ("p", tabel(["Naam", "Verhouding", "Ezelsbruggetje"], [
-                ["sinus", "overstaande zijde op schuine zijde", "SOS"],
-                ["cosinus", "aanliggende zijde op schuine zijde", "CAS"],
-                ["tangens", "overstaande zijde op aanliggende zijde", "TOA"],
+                [r"\(\sin\alpha\)", r"\(\tfrac{\text{overstaande}}{\text{schuine zijde}}\)", "SOS"],
+                [r"\(\cos\alpha\)", r"\(\tfrac{\text{aanliggende}}{\text{schuine zijde}}\)", "CAS"],
+                [r"\(\tan\alpha\)", r"\(\tfrac{\text{overstaande}}{\text{aanliggende}}\)", "TOA"],
             ])),
-            ("p", "Samen vormen ze <strong>SOSCASTOA</strong>. Welke je kiest, hangt af van wat je kent en "
-                  "wat je zoekt. Ken je de <strong>kijkhoek</strong> naar de top van een boom en je "
-                  "<strong>afstand</strong> tot de boom, dan ken je de aanliggende zijde en zoek je de "
-                  "overstaande: dat is de <strong>tangens</strong>. Ken je de <strong>lengte van een "
-                  "helling</strong> (de schuine zijde) en de hellingshoek, en zoek je het hoogteverschil (de "
-                  "overstaande), dan is het de <strong>sinus</strong>."),
-            ("p", "De <strong>tangens uitgedrukt in de andere twee</strong>: tan α = sin α / cos α."),
+            ("p", r"Samen vormen ze <strong>SOSCASTOA</strong>. Welke je kiest, hangt af van wat je kent en "
+                  r"wat je zoekt. Ken je de <strong>kijkhoek</strong> naar de top van een boom en je "
+                  r"<strong>afstand</strong> tot de boom, dan ken je de aanliggende zijde en zoek je de "
+                  r"overstaande: dat is de <strong>tangens</strong>. Ken je de <strong>lengte van een "
+                  r"helling</strong> (de schuine zijde) en de hellingshoek, en zoek je het hoogteverschil (de "
+                  r"overstaande), dan is het de <strong>sinus</strong>."),
+            ("p", r"De <strong>tangens uitgedrukt in de andere twee</strong>: beide verhoudingen hebben de "
+                  r"schuine zijde als noemer, en die valt bij het delen weg."),
+            ("p", r"\[\tan\alpha = \frac{\sin\alpha}{\cos\alpha}\]"),
         ]),
         dict(kop="Waarden en eigenschappen", blokken=[
-            ("p", tabel(["Hoek", "sinus", "cosinus", "tangens"], [
-                ["0°", "0", "1", "0"],
-                ["30°", "0,5", "√3/2", "√3/3"],
-                ["45°", "√2/2", "√2/2", "1"],
-                ["60°", "√3/2", "0,5", "√3"],
-                ["90°", "1", "0", "bestaat niet"],
+            ("p", tabel([r"\(\alpha\)", r"\(\sin\alpha\)", r"\(\cos\alpha\)", r"\(\tan\alpha\)"], [
+                [r"\(0^\circ\)", r"\(0\)", r"\(1\)", r"\(0\)"],
+                [r"\(30^\circ\)", r"\(\tfrac{1}{2}\)", r"\(\tfrac{\sqrt{3}}{2}\)", r"\(\tfrac{\sqrt{3}}{3}\)"],
+                [r"\(45^\circ\)", r"\(\tfrac{\sqrt{2}}{2}\)", r"\(\tfrac{\sqrt{2}}{2}\)", r"\(1\)"],
+                [r"\(60^\circ\)", r"\(\tfrac{\sqrt{3}}{2}\)", r"\(\tfrac{1}{2}\)", r"\(\sqrt{3}\)"],
+                [r"\(90^\circ\)", r"\(1\)", r"\(0\)", "bestaat niet"],
             ])),
-            ("p", "De sinus en de cosinus van een scherpe hoek zijn <strong>altijd kleiner dan 1</strong>: ze "
-                  "zijn een verhouding waarbij de schuine zijde de grootste is, dus de breuk is kleiner dan "
-                  "één. De cosinus kan nooit groter dan 1 worden. De tangens kan dat wél, want daar staat de "
-                  "schuine zijde niet in."),
-            ("p", "De <strong>goniometrische cirkel</strong> is de cirkel met straal <strong>1</strong> rond "
-                  "de oorsprong. Daarop lees je de cosinus af op de x-as en de sinus op de y-as, en daar zie "
-                  "je ook meteen waarom geen van beide buiten het gebied van min 1 tot 1 kan komen."),
-            ("p", "De <strong>grondformule van de goniometrie</strong>: sin²α + cos²α = 1. Het is Pythagoras "
-                  "op de goniometrische cirkel. Daarmee bereken je de ene uit de andere: is de sinus 0,6, dan "
-                  "is cos²α = 1 − 0,36 = 0,64 en dus de cosinus 0,8. Is de sinus 0,8, dan is de cosinus 0,6."),
+            ("p", r"De sinus en de cosinus van een scherpe hoek zijn <strong>altijd kleiner dan \(1\)</strong>: "
+                  r"ze zijn een verhouding waarbij de schuine zijde de grootste is, dus de breuk is kleiner "
+                  r"dan één. De cosinus kan nooit groter dan \(1\) worden. De tangens kan dat wél, want daar "
+                  r"staat de schuine zijde niet in."),
+            ("p", r"De <strong>goniometrische cirkel</strong> is de cirkel met straal \(1\) rond de oorsprong. "
+                  r"Daarop lees je de cosinus af op de \(x\)-as en de sinus op de \(y\)-as, en daar zie je ook "
+                  r"meteen waarom geen van beide buiten het gebied van \(-1\) tot \(1\) kan komen."),
+            ("fig", svg.goniocirkel(), r"de cirkel met straal \(1\) rond de oorsprong"),
+        ]),
+        dict(kop="De grondformule", blokken=[
+            ("p", r"De <strong>grondformule van de goniometrie</strong> is Pythagoras op die cirkel:"),
+            ("p", r"\[\sin^{2}\alpha + \cos^{2}\alpha = 1\]"),
+            ("p", r"Daarmee bereken je de ene uit de andere. Is \(\sin\alpha = 0{,}6\), dan is "
+                  r"\(\cos^{2}\alpha = 1 - 0{,}36 = 0{,}64\) en dus \(\cos\alpha = 0{,}8\). Is "
+                  r"\(\sin\alpha = 0{,}8\), dan is \(\cos\alpha = 0{,}6\)."),
         ]),
         dict(kop="Namen voor hoekenparen", blokken=[
             ("p", tabel(["Naam", "Samen", "Voorbeeld"], [
-                ["complementaire hoeken", "90°", "30° en 60°"],
-                ["supplementaire hoeken", "180°", "50° en 130°"],
+                ["complementaire hoeken", r"\(90^\circ\)", r"\(30^\circ\) en \(60^\circ\)"],
+                ["supplementaire hoeken", r"\(180^\circ\)", r"\(50^\circ\) en \(130^\circ\)"],
             ])),
-            ("p", "Twee <strong>complementaire</strong> hoeken hebben níét dezelfde sinus: de sinus van de "
-                  "ene is de cosinus van de andere. sin 30° is 0,5 en sin 60° is √3/2."),
+            ("p", r"Twee <strong>complementaire</strong> hoeken hebben níét dezelfde sinus: de sinus van de "
+                  r"ene is de cosinus van de andere, dus \(\sin 30^\circ = \cos 60^\circ\). "
+                  r"<strong>Supplementaire</strong> hoeken hebben wél dezelfde sinus."),
         ]),
     ],
     onthoud=[
-        "a² + b² = c², enkel in een rechthoekige driehoek.",
+        r"\(a^{2} + b^{2} = c^{2}\), enkel in een rechthoekige driehoek, en omgekeerd ook.",
         "De schuine zijde ligt tegenover de rechte hoek en is de langste zijde.",
-        "Omgekeerd: klopt a² + b² = c², dan is de driehoek rechthoekig.",
-        "Afstand AB = √((x₂ − x₁)² + (y₂ − y₁)²), en die is nooit negatief.",
+        r"Ken je \(c\), dan trek je af: \(b^{2} = c^{2} - a^{2}\).",
+        r"\(\left|AB\right| = \sqrt{(x_{2} - x_{1})^{2} + (y_{2} - y_{1})^{2}}\), en die is nooit negatief.",
         "Ruimtediagonaal: Pythagoras twee keer, eerst in het grondvlak.",
-        "SOSCASTOA: sinus overstaande op schuine, cosinus aanliggende op schuine, tangens overstaande op aanliggende.",
-        "tan α = sin α / cos α.",
-        "sin²α + cos²α = 1, de grondformule.",
-        "sin 30° = 0,5, cos 0° = 1, tan 45° = 1.",
-        "De goniometrische cirkel heeft straal 1.",
-        "Complementair is samen 90°, supplementair is samen 180°.",
+        "SOSCASTOA houdt de sinus, de cosinus en de tangens uit elkaar.",
+        r"\(\tan\alpha = \tfrac{\sin\alpha}{\cos\alpha}\), en \(\sin^{2}\alpha + \cos^{2}\alpha = 1\) op de cirkel met straal \(1\).",
+        r"\(\sin 30^\circ = \tfrac{1}{2}\), \(\cos 0^\circ = 1\), \(\tan 45^\circ = 1\).",
+        r"Complementair is samen \(90^\circ\), supplementair is samen \(180^\circ\).",
     ],
 )
 
@@ -789,39 +815,42 @@ BUNDELS["sinusregel-cosinusregel-en-vectoren-boost-doorstroom"] = dict(
     onder="Een willekeurige driehoek oplossen, en rekenen met grootheden die ook een richting hebben.",
     secties=[
         dict(kop="Wat je altijd weet over een driehoek", blokken=[
-            ("p", "De som van de hoeken van <strong>elke</strong> driehoek is <strong>180 graden</strong>. "
-                  "Ken je er twee, dan ken je de derde: bij 40 en 65 graden is de derde 75 graden, bij 55 en "
-                  "72 graden is ze 53 graden."),
+            ("p", "De som van de hoeken van <strong>elke</strong> driehoek is <strong>\\(180^\\circ\\)</strong>. "
+                  r"Ken je er twee, dan ken je de derde: bij \(40^\circ\) en \(65^\circ\) is de derde "
+                  r"\(75^\circ\), bij \(55^\circ\) en \(72^\circ\) is ze \(53^\circ\)."),
+            ("fig", svg.driehoekabc(), r"de zijde \(a\) ligt tegenover de hoek \(\alpha\)"),
             ("p", "De <strong>langste zijde</strong> ligt altijd tegenover de <strong>grootste hoek</strong>. "
                   "En de <strong>driehoeksongelijkheid</strong> zegt dat elke zijde kleiner moet zijn dan de "
-                  "twee andere samen: zijden 3, 4 en 9 kunnen dus geen driehoek vormen, want 3 + 4 is kleiner "
-                  "dan 9."),
+                  "twee andere samen: zijden \\(3\\), \\(4\\) en \\(9\\) kunnen dus geen driehoek vormen, want \\(3 + 4\\) is kleiner "
+                  "dan \\(9\\)."),
             ("p", "<strong>Een driehoek oplossen</strong> betekent: alle zijden en alle hoeken berekenen uit "
                   "wat je gegeven krijgt."),
         ]),
         dict(kop="De cosinusregel", blokken=[
-            ("p", "<strong>a² = b² + c² − 2bc · cos α</strong>, met α de hoek tegenover zijde a."),
+            ("p", r"\[a^{2} = b^{2} + c^{2} - 2bc\cos\alpha\]"),
+            ("p", r"met \(\alpha\) de hoek tegenover zijde \(a\)."),
             ("p", "Je gebruikt hem in twee gevallen: als je <strong>twee zijden en de ingesloten hoek</strong> "
                   "kent en de derde zijde zoekt, of als je <strong>alle drie de zijden</strong> kent en een "
-                  "hoek zoekt. In dat tweede geval vorm je de formule om naar cos α en gebruik je daarna de "
+                  r"hoek zoekt. In dat tweede geval vorm je de formule om naar \(\cos\alpha\) en gebruik je daarna de "
                   "inverse cosinus."),
-            ("p", "Ken je de zijden 7 en 9 en de hoek van 40 graden ertussen, dan bereken je met de "
+            ("p", "Ken je de zijden \\(7\\) en \\(9\\) en de hoek van \\(40^\\circ\\) ertussen, dan bereken je met de "
                   "cosinusregel <strong>eerst de derde zijde</strong>. Pas daarna kan je met de sinusregel de "
                   "overige hoeken zoeken."),
             ("kader", "<strong>De cosinusregel is een uitbreiding van de stelling van Pythagoras naar elke driehoek.</strong> Is de ingesloten "
-                      "hoek recht, dan is cos 90° gelijk aan 0, valt de hele laatste term weg, en blijft "
-                      "a² = b² + c² over. Pythagoras is dus het bijzondere geval."),
+                      r"hoek recht, dan is \(\cos 90^\circ = 0\), valt de hele laatste term weg, en blijft "
+                      r"\(a^{2} = b^{2} + c^{2}\) over. Pythagoras is dus het bijzondere geval."),
         ]),
         dict(kop="De sinusregel", blokken=[
-            ("p", "<strong>a / sin α = b / sin β = c / sin γ</strong>: in elke driehoek staat elke zijde in "
-                  "dezelfde verhouding tot de sinus van de hoek ertegenover."),
+            ("p", r"\[\frac{a}{\sin\alpha} = \frac{b}{\sin\beta} = \frac{c}{\sin\gamma}\]"),
+            ("p", r"In elke driehoek staat elke zijde in dezelfde verhouding tot de sinus van de hoek "
+                  r"ertegenover."),
             ("p", "Je gebruikt hem als je een <strong>zijde met de hoek ertegenover</strong> kent, plus nog "
                   "één zijde of één hoek. De regel werkt in <strong>elke</strong> driehoek, niet alleen in "
                   "rechthoekige."),
             ("p", "Eén valkuil: in een <strong>stomphoekige</strong> driehoek heeft de vergelijking "
-                  "sin α = 0,6 twee oplossingen onder de 180 graden, een scherpe en een stompe. Kijk altijd "
+                  r"\(\sin\alpha = 0{,}6\) twee oplossingen onder de \(180^\circ\), een scherpe en een stompe. Kijk altijd "
                   "welke van de twee bij de tekening past; de langste zijde verraadt welke hoek de grootste is."),
-            ("p", "<strong>Twee landmeters</strong> die 200 meter uit elkaar staan en elk de hoek naar "
+            ("p", "<strong>Twee landmeters</strong> die \\(200\\) meter uit elkaar staan en elk de hoek naar "
                   "dezelfde boom meten, kennen één zijde en twee hoeken. Met de sinusregel berekenen ze de "
                   "afstand tot de boom, zonder er ooit naartoe te stappen."),
         ]),
@@ -830,58 +859,59 @@ BUNDELS["sinusregel-cosinusregel-en-vectoren-boost-doorstroom"] = dict(
                 ["twee zijden en de hoek ertussen", "de cosinusregel"],
                 ["drie zijden", "de cosinusregel"],
                 ["een zijde en de hoek ertegenover, plus nog iets", "de sinusregel"],
-                ["twee hoeken", "180° min de twee, voor de derde"],
+                ["twee hoeken", "\\(180^\\circ\\) min de twee, voor de derde"],
             ])),
-            ("weetje", "cos 90° is 0, sin 90° is 1. Die twee waarden verklaren waarom de cosinusregel in een "
-                       "rechthoekige driehoek in Pythagoras verandert."),
+            ("weetje", r"\(\cos 90^\circ = 0\) en \(\sin 90^\circ = 1\). Die twee waarden verklaren waarom de "
+                       r"cosinusregel in een rechthoekige driehoek in Pythagoras verandert."),
         ]),
         dict(kop="Wat is een vector?", blokken=[
-            ("p", "Sommige grootheden hebben genoeg aan een getal: een massa van 3 kilogram, een temperatuur "
-                  "van 18 graden. Andere niet: een kracht van 5 newton zegt niets zolang je niet weet "
+            ("p", "Sommige grootheden hebben genoeg aan een getal: een massa van \\(3\\) kilogram, een temperatuur "
+                  "van \\(18\\) graden. Andere niet: een kracht van \\(5\\) newton zegt niets zolang je niet weet "
                   "waarheen. Zo'n grootheid is een <strong>vector</strong>."),
             ("p", "Een vector heeft drie kenmerken: <strong>richting</strong>, <strong>zin</strong> en "
                   "<strong>grootte</strong>."),
             ("p", tabel(["Kenmerk", "Wat het is", "Voorbeeld"], [
                 ["richting", "de rechte waarop hij ligt", "de noord-zuidlijn"],
                 ["zin", "welke van de twee kanten op die rechte", "naar het noorden of naar het zuiden"],
-                ["grootte (norm)", "hoe lang de pijl is", "5 newton"],
+                ["grootte (norm)", "hoe lang de pijl is", "\\(5\\) newton"],
             ])),
             ("p", "Richting en zin zijn dus niet hetzelfde: twee vectoren op dezelfde rechte maar tegengesteld "
                   "gericht hebben <em>dezelfde richting</em> en een <em>tegengestelde zin</em>."),
             ("p", "Twee vectoren zijn <strong>gelijk</strong> als ze dezelfde richting, zin en grootte hebben, "
                   "ook al liggen ze ergens anders in het vlak. Een vector heeft geen vast aangrijpingspunt."),
             ("p", "De <strong>nulvector</strong> is de vector met grootte nul; hij heeft geen richting en "
-                  "geen zin. Een <strong>eenheidsvector</strong> is een vector met grootte precies 1."),
+                  "geen zin. Een <strong>eenheidsvector</strong> is een vector met grootte precies \\(1\\)."),
         ]),
         dict(kop="Rekenen met vectoren", blokken=[
             ("p", "Met <strong>coördinaten</strong> wordt rekenen eenvoudig. De <strong>norm</strong> (de "
-                  "grootte) van een vector (x, y) is √(x² + y²): dat is Pythagoras."),
+                  r"grootte) van een vector \((x, y)\) is \(\sqrt{x^{2} + y^{2}}\): dat is Pythagoras."),
             ("p", tabel(["Vector", "Berekening", "Norm"], [
-                ["(3, 4)", "√(9 + 16)", "5"],
-                ["(−6, 8)", "√(36 + 64)", "10"],
-                ["(5, 12)", "√(25 + 144)", "13"],
+                [r"\((3, 4)\)", r"\(\sqrt{9 + 16}\)", r"\(5\)"],
+                [r"\((-6, 8)\)", r"\(\sqrt{36 + 64}\)", r"\(10\)"],
+                [r"\((5, 12)\)", r"\(\sqrt{25 + 144}\)", r"\(13\)"],
             ])),
             ("p", "Een norm is een lengte en kan dus <strong>nooit negatief</strong> zijn."),
-            ("p", "<strong>Optellen</strong> doe je componentsgewijs: je telt de x'en bij elkaar en de y's bij "
+            ("p", r"<strong>Optellen</strong> doe je componentsgewijs: je telt de \(x\)'en bij elkaar en de \(y\)'s bij "
                   "elkaar op. Grafisch teken je de som met de <strong>kop-staartmethode</strong>: zet de "
                   "staart van de tweede vector aan de kop van de eerste, en de som loopt van de eerste staart "
                   "naar de tweede kop. (Met de parallellogrammethode kom je op hetzelfde uit.)"),
             ("p", "De <strong>vector van A naar B</strong> vind je door de coördinaten van A van die van B af "
-                  "te trekken. Van A(1, 2) naar B(4, 7) is dat (3, 5). Van A(2, 3) naar B(7, 3) is dat (5, 0), "
-                  "met norm 5."),
+                  r"te trekken. Van \(A(1, 2)\) naar \(B(4, 7)\) is dat \((3, 5)\). Van \(A(2, 3)\) naar "
+                  r"\(B(7, 3)\) is dat \((5, 0)\), met norm \(5\)."),
+            ("fig", svg.vectoroptelling(), "de kop van de eerste vector is de staart van de tweede"),
             ("p", "De <strong>formule van Chasles-Möbius</strong> zegt dat je een vector van A naar B mag "
                   "opsplitsen via elk tussenpunt: de vector van A naar B is de vector van A naar C plus die "
                   "van C naar B. Handig om een omweg in stukken te knippen."),
             ("p", "Een vector <strong>met een getal vermenigvuldigen</strong> maakt hem langer of korter maar "
                   "verandert de richting niet. Bij een <strong>negatief</strong> getal draait wel de "
-                  "<em>zin</em> om: maal min 2 wordt de vector dubbel zo lang en wijst hij de andere kant op."),
+                  "<em>zin</em> om: maal \\(-2\\) wordt de vector dubbel zo lang en wijst hij de andere kant op."),
             ("kader", "<strong>De som van twee vectoren is niet altijd langer dan elk van de twee.</strong> "
                       "Wijzen ze tegen elkaar in, dan heffen ze elkaar gedeeltelijk of helemaal op. Twee "
                       "gelijke vectoren met tegengestelde zin geven samen de nulvector."),
         ]),
         dict(kop="Vectoren in de natuurkunde", blokken=[
-            ("p", "Werken twee krachten van 3 en 4 newton <strong>loodrecht</strong> op elkaar, dan is de "
-                  "<strong>resulterende kracht</strong> √(9 + 16) = 5 newton. De kop-staartmethode maakt er "
+            ("p", "Werken twee krachten van \\(3\\) en \\(4\\) newton <strong>loodrecht</strong> op elkaar, dan is de "
+                  r"<strong>resulterende kracht</strong> \(\sqrt{9 + 16} = 5\) newton. De kop-staartmethode maakt er "
                   "een rechthoekige driehoek van, en dan is het gewoon Pythagoras."),
             ("p", "Een vector <strong>ontbinden in zijn componenten</strong> is het omgekeerde: je splitst één "
                   "vector op in een horizontaal en een verticaal stuk. Zo reken je bij een helling uit welk "
@@ -889,14 +919,14 @@ BUNDELS["sinusregel-cosinusregel-en-vectoren-boost-doorstroom"] = dict(
         ]),
     ],
     onthoud=[
-        "De hoeken van elke driehoek zijn samen 180 graden.",
-        "Elke zijde is kleiner dan de twee andere samen; 3, 4 en 9 kan dus niet.",
-        "Cosinusregel a² = b² + c² − 2bc·cos α: bij twee zijden met de hoek ertussen, of bij drie zijden.",
+        "De hoeken van elke driehoek zijn samen \\(180^\\circ\\).",
+        "Elke zijde is kleiner dan de twee andere samen; \\(3\\), \\(4\\) en \\(9\\) kan dus niet.",
+        r"Cosinusregel \(a^{2} = b^{2} + c^{2} - 2bc\cos\alpha\): bij twee zijden met de hoek ertussen, of bij drie zijden.",
         "Bij een rechte hoek valt de laatste term weg en blijft Pythagoras over.",
-        "Sinusregel a/sin α = b/sin β = c/sin γ, geldig in elke driehoek.",
-        "In een stomphoekige driehoek heeft sin α = k twee mogelijke hoeken: kijk welke past.",
+        r"Sinusregel \(\tfrac{a}{\sin\alpha} = \tfrac{b}{\sin\beta} = \tfrac{c}{\sin\gamma}\), geldig in elke driehoek.",
+        r"In een stomphoekige driehoek heeft \(\sin\alpha = k\) twee mogelijke hoeken: kijk welke past.",
         "Een vector heeft richting, zin en grootte; richting is de rechte, zin is de kant.",
-        "De norm van (x, y) is √(x² + y²) en is nooit negatief.",
+        r"De norm van \((x, y)\) is \(\sqrt{x^{2} + y^{2}}\) en is nooit negatief.",
         "Vector van A naar B: coördinaten van B min die van A.",
         "Chasles-Möbius: AB is AC plus CB, via elk tussenpunt.",
         "Maal een negatief getal draait de zin om, niet de richting.",

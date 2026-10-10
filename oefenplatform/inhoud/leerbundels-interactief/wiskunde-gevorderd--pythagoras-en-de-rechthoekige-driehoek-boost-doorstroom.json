@@ -8,23 +8,49 @@
    "blokken": [
     {
      "soort": "tekst",
-     "html": "In een <strong>rechthoekige</strong> driehoek is het kwadraat van de schuine zijde gelijk aan de som van de kwadraten van de twee rechthoekszijden: <strong>a² + b² = c²</strong>, met c de schuine zijde."
+     "html": "In een <strong>rechthoekige</strong> driehoek is het kwadraat van de schuine zijde gelijk aan de som van de kwadraten van de twee rechthoekszijden:"
+    },
+    {
+     "soort": "tekst",
+     "html": "\\[a^{2} + b^{2} = c^{2}\\]"
+    },
+    {
+     "soort": "tekst",
+     "html": "met \\(c\\) de schuine zijde. De naam <strong>kwadraat</strong> is hier letterlijk te nemen: zet op elke zijde het vierkant van die zijde, en de twee kleine vierkanten hebben samen precies de oppervlakte van het grote."
+    },
+    {
+     "soort": "figuur",
+     "html": "<svg viewBox=\"0 0 470 226\" width=\"470\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"5\" y=\"4\" width=\"460\" height=\"200\" rx=\"7\" fill=\"#ffffff\" stroke=\"#e4ded0\" stroke-width=\"1.2\"/>\n<rect x=\"140.0\" y=\"85.0\" width=\"57.0\" height=\"57.0\" fill=\"#2f5d50\" fill-opacity=\"0.14\" stroke=\"#2f5d50\" stroke-width=\"1.6\"/>\n<text x=\"168.5\" y=\"117.5\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"11\" font-weight=\"600\" fill=\"#2f5d50\">a² = 9</text>\n<rect x=\"197.0\" y=\"142.0\" width=\"76.0\" height=\"76.0\" fill=\"#6b7260\" fill-opacity=\"0.12\" stroke=\"#6b7260\" stroke-width=\"1.6\"/>\n<text x=\"235.0\" y=\"184.0\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"11\" font-weight=\"600\" fill=\"#6b7260\">b² = 16</text>\n<polygon points=\"197.0,85.0 273.0,142.0 330.0,66.0 254.0,9.0\" fill=\"#c17f2b\" fill-opacity=\"0.14\" stroke=\"#c17f2b\" stroke-width=\"1.6\"/>\n<text x=\"263.5\" y=\"79.5\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"11\" font-weight=\"600\" fill=\"#c17f2b\">c² = 25</text>\n<polygon points=\"197.0,85.0 197.0,142.0 273.0,142.0\" fill=\"#ffffff\" stroke=\"#234539\" stroke-width=\"2.2\"/>\n<path d=\"M197.0 131.0 L208.0 131.0 L208.0 142.0\" fill=\"none\" stroke=\"#234539\" stroke-width=\"1.2\"/>\n<text x=\"202.0\" y=\"116.0\" text-anchor=\"start\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"9.5\" fill=\"#234539\">a = 3</text>\n<text x=\"235.0\" y=\"136.0\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"9.5\" fill=\"#234539\">b = 4</text>\n<text x=\"242.6\" y=\"96.4\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"9.5\" font-weight=\"600\" fill=\"#c17f2b\">c = 5</text></svg>",
+     "onderschrift": "de twee kleine vierkanten vullen samen precies het grote"
     },
     {
      "soort": "tekst",
      "html": "De <strong>schuine zijde</strong> (hypotenusa) ligt tegenover de rechte hoek en is altijd de langste zijde van de driehoek. De stelling geldt <strong>alleen</strong> in een rechthoekige driehoek; in andere driehoeken heb je de cosinusregel nodig."
+    }
+   ]
+  },
+  {
+   "kop": "Rekenen met de stelling",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Gegeven</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Berekening</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Resultaat</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">rechthoekszijden \\(6\\) en \\(8\\)</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">\\(\\sqrt{36 + 64} = \\sqrt{100}\\)</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">\\(10\\)</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">rechthoekszijden \\(9\\) en \\(12\\)</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">\\(\\sqrt{81 + 144} = \\sqrt{225}\\)</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">\\(15\\)</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">schuine zijde \\(13\\), één zijde \\(5\\)</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">\\(\\sqrt{169 - 25} = \\sqrt{144}\\)</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">\\(12\\)</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">vierkant met zijde \\(1\\)</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">\\(\\sqrt{1 + 1}\\)</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">\\(\\sqrt{2}\\)</td></tr></table>"
     },
     {
      "soort": "tekst",
-     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Gegeven</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Berekening</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Resultaat</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">rechthoekszijden 6 en 8</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">√(36 + 64) = √100</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">10</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">rechthoekszijden 9 en 12</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">√(81 + 144) = √225</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">15</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">schuine zijde 13, één zijde 5</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">√(169 − 25) = √144</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">12</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">vierkant met zijde 1</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">√(1 + 1) = √2</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">√2</td></tr></table>"
+     "html": "Ken je de schuine zijde en één rechthoekszijde, dan <strong>trek je af</strong> in plaats van op te tellen: \\(b^{2} = c^{2} - a^{2}\\). Pas daarna neem je de wortel. Dat is de fout die het vaakst gemaakt wordt."
     },
     {
      "soort": "tekst",
-     "html": "<strong>Omgekeerd</strong> kan je met de stelling nagaan óf een driehoek rechthoekig is. Zijden 9, 12 en 15: 81 + 144 is 225 en dat is 15², dus ja. Zijden 5, 12 en 13: 25 + 144 is 169 en dat is 13², dus ook. Zijden 4, 5 en 7: 16 + 25 is 41, maar 7² is 49, dus nee."
+     "html": "<strong>Omgekeerd</strong> kan je met de stelling nagaan óf een driehoek rechthoekig is. Zijden \\(9\\), \\(12\\) en \\(15\\): \\(81 + 144 = 225 = 15^{2}\\), dus ja. Zijden \\(5\\), \\(12\\) en \\(13\\): \\(25 + 144 = 169 = 13^{2}\\), dus ook. Zijden \\(4\\), \\(5\\) en \\(7\\): \\(16 + 25 = 41\\), maar \\(7^{2} = 49\\), dus nee."
+    },
+    {
+     "soort": "kader",
+     "html": "Is \\(a^{2} + b^{2}\\) <em>kleiner</em> dan \\(c^{2}\\), zoals \\(41\\) tegenover \\(49\\), dan is de grootste hoek <strong>stomp</strong>. Is ze groter, dan is die hoek <strong>scherp</strong>. De stelling vertelt dus meer dan enkel ja of nee."
     },
     {
      "soort": "weetje",
-     "html": "Een televisie van 40 inch: dat is de <strong>diagonaal</strong> van het scherm, niet de breedte. Met Pythagoras en de beeldverhouding reken je breedte en hoogte eruit."
+     "html": "Een televisie van \\(40\\) inch: dat is de <strong>diagonaal</strong> van het scherm, niet de breedte. Met Pythagoras en de beeldverhouding reken je breedte en hoogte eruit."
     }
    ]
   },
@@ -33,27 +59,37 @@
    "blokken": [
     {
      "soort": "tekst",
-     "html": "<strong>De ladder tegen de muur.</strong> Een ladder van 5 meter met de voet 3 meter van de muur reikt √(25 − 9) = 4 meter hoog. De ladder is de schuine zijde, de muur en de grond zijn de rechthoekszijden."
+     "html": "<strong>De ladder tegen de muur.</strong> Een ladder van \\(5\\) meter met de voet \\(3\\) meter van de muur reikt \\(\\sqrt{25 - 9} = 4\\) meter hoog. De ladder is de schuine zijde, de muur en de grond zijn de rechthoekszijden."
     },
     {
      "soort": "tekst",
-     "html": "<strong>De afstand tussen twee punten</strong> in het vlak is niets anders dan Pythagoras op het verschil in x en het verschil in y:"
+     "html": "<strong>De afstand tussen twee punten</strong> in het vlak is niets anders dan Pythagoras op het verschil in \\(x\\) en het verschil in \\(y\\):"
     },
     {
      "soort": "tekst",
-     "html": "afstand AB = √((x₂ − x₁)² + (y₂ − y₁)²)"
+     "html": "\\[\\left|AB\\right| = \\sqrt{(x_{2} - x_{1})^{2} + (y_{2} - y_{1})^{2}}\\]"
+    },
+    {
+     "soort": "figuur",
+     "html": "<svg viewBox=\"0 0 470 230\" width=\"470\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"5\" y=\"4\" width=\"460\" height=\"204\" rx=\"7\" fill=\"#ffffff\" stroke=\"#e4ded0\" stroke-width=\"1.2\"/>\n<line x1=\"176.0\" y1=\"205.0\" x2=\"176.0\" y2=\"23.0\" stroke=\"#e4ded0\" stroke-width=\"1\"/>\n<line x1=\"150.0\" y1=\"179.0\" x2=\"332.0\" y2=\"179.0\" stroke=\"#e4ded0\" stroke-width=\"1\"/>\n<line x1=\"202.0\" y1=\"205.0\" x2=\"202.0\" y2=\"23.0\" stroke=\"#e4ded0\" stroke-width=\"1\"/>\n<line x1=\"150.0\" y1=\"153.0\" x2=\"332.0\" y2=\"153.0\" stroke=\"#e4ded0\" stroke-width=\"1\"/>\n<line x1=\"228.0\" y1=\"205.0\" x2=\"228.0\" y2=\"23.0\" stroke=\"#e4ded0\" stroke-width=\"1\"/>\n<line x1=\"150.0\" y1=\"127.0\" x2=\"332.0\" y2=\"127.0\" stroke=\"#e4ded0\" stroke-width=\"1\"/>\n<line x1=\"254.0\" y1=\"205.0\" x2=\"254.0\" y2=\"23.0\" stroke=\"#e4ded0\" stroke-width=\"1\"/>\n<line x1=\"150.0\" y1=\"101.0\" x2=\"332.0\" y2=\"101.0\" stroke=\"#e4ded0\" stroke-width=\"1\"/>\n<line x1=\"280.0\" y1=\"205.0\" x2=\"280.0\" y2=\"23.0\" stroke=\"#e4ded0\" stroke-width=\"1\"/>\n<line x1=\"150.0\" y1=\"75.0\" x2=\"332.0\" y2=\"75.0\" stroke=\"#e4ded0\" stroke-width=\"1\"/>\n<line x1=\"306.0\" y1=\"205.0\" x2=\"306.0\" y2=\"23.0\" stroke=\"#e4ded0\" stroke-width=\"1\"/>\n<line x1=\"150.0\" y1=\"49.0\" x2=\"332.0\" y2=\"49.0\" stroke=\"#e4ded0\" stroke-width=\"1\"/>\n<line x1=\"332.0\" y1=\"205.0\" x2=\"332.0\" y2=\"23.0\" stroke=\"#e4ded0\" stroke-width=\"1\"/>\n<line x1=\"150.0\" y1=\"23.0\" x2=\"332.0\" y2=\"23.0\" stroke=\"#e4ded0\" stroke-width=\"1\"/>\n<line x1=\"136.0\" y1=\"205.0\" x2=\"346.0\" y2=\"205.0\" stroke=\"#23291f\" stroke-width=\"1.4\"/>\n<line x1=\"150.0\" y1=\"219.0\" x2=\"150.0\" y2=\"9.0\" stroke=\"#23291f\" stroke-width=\"1.4\"/>\n<text x=\"176.0\" y=\"220.0\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"8.5\" fill=\"#6b7260\">1</text>\n<text x=\"143.0\" y=\"182.0\" text-anchor=\"end\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"8.5\" fill=\"#6b7260\">1</text>\n<text x=\"202.0\" y=\"220.0\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"8.5\" fill=\"#6b7260\">2</text>\n<text x=\"143.0\" y=\"156.0\" text-anchor=\"end\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"8.5\" fill=\"#6b7260\">2</text>\n<text x=\"228.0\" y=\"220.0\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"8.5\" fill=\"#6b7260\">3</text>\n<text x=\"143.0\" y=\"130.0\" text-anchor=\"end\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"8.5\" fill=\"#6b7260\">3</text>\n<text x=\"254.0\" y=\"220.0\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"8.5\" fill=\"#6b7260\">4</text>\n<text x=\"143.0\" y=\"104.0\" text-anchor=\"end\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"8.5\" fill=\"#6b7260\">4</text>\n<text x=\"280.0\" y=\"220.0\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"8.5\" fill=\"#6b7260\">5</text>\n<text x=\"143.0\" y=\"78.0\" text-anchor=\"end\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"8.5\" fill=\"#6b7260\">5</text>\n<text x=\"306.0\" y=\"220.0\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"8.5\" fill=\"#6b7260\">6</text>\n<text x=\"143.0\" y=\"52.0\" text-anchor=\"end\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"8.5\" fill=\"#6b7260\">6</text>\n<text x=\"332.0\" y=\"220.0\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"8.5\" fill=\"#6b7260\">7</text>\n<text x=\"143.0\" y=\"26.0\" text-anchor=\"end\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"8.5\" fill=\"#6b7260\">7</text>\n<text x=\"342.0\" y=\"220.0\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"9.5\" fill=\"#6b7260\">x</text>\n<text x=\"141.0\" y=\"17.0\" text-anchor=\"end\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"9.5\" fill=\"#6b7260\">y</text>\n<line x1=\"176.0\" y1=\"153.0\" x2=\"254.0\" y2=\"153.0\" stroke=\"#2f5d50\" stroke-width=\"2.6\" stroke-dasharray=\"5 3\"/>\n<line x1=\"254.0\" y1=\"153.0\" x2=\"254.0\" y2=\"49.0\" stroke=\"#6b7260\" stroke-width=\"2.6\" stroke-dasharray=\"5 3\"/>\n<line x1=\"176.0\" y1=\"153.0\" x2=\"254.0\" y2=\"49.0\" stroke=\"#c17f2b\" stroke-width=\"2.8\"/>\n<text x=\"215.0\" y=\"168.0\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"10\" font-weight=\"600\" fill=\"#2f5d50\">3</text>\n<text x=\"262.0\" y=\"104.0\" text-anchor=\"start\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"10\" font-weight=\"600\" fill=\"#6b7260\">4</text>\n<text x=\"203.0\" y=\"97.0\" text-anchor=\"end\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"10.5\" font-weight=\"600\" fill=\"#c17f2b\">5</text>\n<circle cx=\"176.0\" cy=\"153.0\" r=\"4\" fill=\"#234539\"/>\n<text x=\"168.0\" y=\"167.0\" text-anchor=\"end\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"10\" font-weight=\"600\" fill=\"#234539\">A(1, 2)</text>\n<circle cx=\"254.0\" cy=\"49.0\" r=\"4\" fill=\"#234539\"/>\n<text x=\"264.0\" y=\"43.0\" text-anchor=\"start\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"10\" font-weight=\"600\" fill=\"#234539\">B(4, 6)</text></svg>",
+     "onderschrift": "het verschil in \\(x\\) en het verschil in \\(y\\) vormen de rechthoekszijden"
+    }
+   ]
+  },
+  {
+   "kop": "Afstand en ruimte",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Punten</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Verschillen</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Afstand</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">\\(A(1, 2)\\) en \\(B(4, 6)\\)</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">\\(3\\) en \\(4\\)</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">\\(\\sqrt{25} = 5\\)</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">\\(A(-2, 1)\\) en \\(B(1, 5)\\)</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">\\(3\\) en \\(4\\)</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">\\(\\sqrt{25} = 5\\)</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">\\(A(0, 0)\\) en \\(B(6, 8)\\)</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">\\(6\\) en \\(8\\)</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">\\(\\sqrt{100} = 10\\)</td></tr></table>"
     },
     {
      "soort": "tekst",
-     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Punten</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Verschillen</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Afstand</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">A(1, 2) en B(4, 6)</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">3 en 4</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">√25 = 5</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">A(−2, 1) en B(1, 5)</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">3 en 4</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">√25 = 5</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">A(0, 0) en B(6, 8)</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">6 en 8</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">√100 = 10</td></tr></table>"
+     "html": "Een afstand is <strong>nooit negatief</strong>, ook niet als het ene punt links van het andere ligt: de verschillen worden gekwadrateerd, en een kwadraat is positief. Daarom maakt het ook niet uit welk punt je \\(A\\) noemt en welk \\(B\\)."
     },
     {
      "soort": "tekst",
-     "html": "Een afstand is <strong>nooit negatief</strong>, ook niet als het ene punt links van het andere ligt: de verschillen worden gekwadrateerd, en een kwadraat is positief."
-    },
-    {
-     "soort": "tekst",
-     "html": "<strong>De ruimtediagonaal van een balk.</strong> Daar pas je Pythagoras <strong>twee keer</strong> toe: eerst op de diagonaal van het grondvlak, en dan op die diagonaal samen met de hoogte. Bij een balk 3 bij 4 bij 12: de grondvlakdiagonaal is √(9 + 16) = 5, en de ruimtediagonaal √(25 + 144) = 13."
+     "html": "<strong>De ruimtediagonaal van een balk.</strong> Daar pas je Pythagoras <strong>twee keer</strong> toe: eerst op de diagonaal van het grondvlak, en dan op die diagonaal samen met de hoogte. Bij een balk \\(3\\) bij \\(4\\) bij \\(12\\) is de grondvlakdiagonaal \\(\\sqrt{9 + 16} = 5\\) en de ruimtediagonaal \\(\\sqrt{25 + 144} = 13\\). In één formule: \\(d = \\sqrt{l^{2} + b^{2} + h^{2}}\\)."
     }
    ]
   },
@@ -62,11 +98,11 @@
    "blokken": [
     {
      "soort": "tekst",
-     "html": "In een rechthoekige driehoek horen bij elke scherpe hoek drie verhoudingen:"
+     "html": "In een rechthoekige driehoek horen bij elke scherpe hoek \\(\\alpha\\) drie verhoudingen:"
     },
     {
      "soort": "tekst",
-     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Naam</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Verhouding</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Ezelsbruggetje</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">sinus</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">overstaande zijde op schuine zijde</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">SOS</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">cosinus</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">aanliggende zijde op schuine zijde</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">CAS</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">tangens</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">overstaande zijde op aanliggende zijde</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">TOA</td></tr></table>"
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Naam</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Verhouding</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Ezelsbruggetje</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">\\(\\sin\\alpha\\)</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">\\(\\tfrac{\\text{overstaande}}{\\text{schuine zijde}}\\)</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">SOS</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">\\(\\cos\\alpha\\)</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">\\(\\tfrac{\\text{aanliggende}}{\\text{schuine zijde}}\\)</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">CAS</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">\\(\\tan\\alpha\\)</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">\\(\\tfrac{\\text{overstaande}}{\\text{aanliggende}}\\)</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">TOA</td></tr></table>"
     },
     {
      "soort": "tekst",
@@ -74,7 +110,11 @@
     },
     {
      "soort": "tekst",
-     "html": "De <strong>tangens uitgedrukt in de andere twee</strong>: tan α = sin α / cos α."
+     "html": "De <strong>tangens uitgedrukt in de andere twee</strong>: beide verhoudingen hebben de schuine zijde als noemer, en die valt bij het delen weg."
+    },
+    {
+     "soort": "tekst",
+     "html": "\\[\\tan\\alpha = \\frac{\\sin\\alpha}{\\cos\\alpha}\\]"
     }
    ]
   },
@@ -83,19 +123,37 @@
    "blokken": [
     {
      "soort": "tekst",
-     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Hoek</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">sinus</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">cosinus</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">tangens</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">0°</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">0</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">1</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">0</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">30°</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">0,5</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">√3/2</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">√3/3</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">45°</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">√2/2</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">√2/2</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">1</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">60°</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">√3/2</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">0,5</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">√3</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">90°</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">1</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">0</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">bestaat niet</td></tr></table>"
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">\\(\\alpha\\)</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">\\(\\sin\\alpha\\)</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">\\(\\cos\\alpha\\)</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">\\(\\tan\\alpha\\)</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">\\(0^\\circ\\)</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">\\(0\\)</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">\\(1\\)</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">\\(0\\)</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">\\(30^\\circ\\)</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">\\(\\tfrac{1}{2}\\)</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">\\(\\tfrac{\\sqrt{3}}{2}\\)</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">\\(\\tfrac{\\sqrt{3}}{3}\\)</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">\\(45^\\circ\\)</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">\\(\\tfrac{\\sqrt{2}}{2}\\)</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">\\(\\tfrac{\\sqrt{2}}{2}\\)</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">\\(1\\)</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">\\(60^\\circ\\)</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">\\(\\tfrac{\\sqrt{3}}{2}\\)</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">\\(\\tfrac{1}{2}\\)</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">\\(\\sqrt{3}\\)</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">\\(90^\\circ\\)</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">\\(1\\)</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">\\(0\\)</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">bestaat niet</td></tr></table>"
     },
     {
      "soort": "tekst",
-     "html": "De sinus en de cosinus van een scherpe hoek zijn <strong>altijd kleiner dan 1</strong>: ze zijn een verhouding waarbij de schuine zijde de grootste is, dus de breuk is kleiner dan één. De cosinus kan nooit groter dan 1 worden. De tangens kan dat wél, want daar staat de schuine zijde niet in."
+     "html": "De sinus en de cosinus van een scherpe hoek zijn <strong>altijd kleiner dan \\(1\\)</strong>: ze zijn een verhouding waarbij de schuine zijde de grootste is, dus de breuk is kleiner dan één. De cosinus kan nooit groter dan \\(1\\) worden. De tangens kan dat wél, want daar staat de schuine zijde niet in."
     },
     {
      "soort": "tekst",
-     "html": "De <strong>goniometrische cirkel</strong> is de cirkel met straal <strong>1</strong> rond de oorsprong. Daarop lees je de cosinus af op de x-as en de sinus op de y-as, en daar zie je ook meteen waarom geen van beide buiten het gebied van min 1 tot 1 kan komen."
+     "html": "De <strong>goniometrische cirkel</strong> is de cirkel met straal \\(1\\) rond de oorsprong. Daarop lees je de cosinus af op de \\(x\\)-as en de sinus op de \\(y\\)-as, en daar zie je ook meteen waarom geen van beide buiten het gebied van \\(-1\\) tot \\(1\\) kan komen."
+    },
+    {
+     "soort": "figuur",
+     "html": "<svg viewBox=\"0 0 470 268\" width=\"470\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"5\" y=\"4\" width=\"460\" height=\"242\" rx=\"7\" fill=\"#ffffff\" stroke=\"#e4ded0\" stroke-width=\"1.2\"/>\n<line x1=\"107.0\" y1=\"128.0\" x2=\"363.0\" y2=\"128.0\" stroke=\"#23291f\" stroke-width=\"1.4\"/>\n<line x1=\"235.0\" y1=\"10.0\" x2=\"235.0\" y2=\"246.0\" stroke=\"#23291f\" stroke-width=\"1.4\"/>\n<circle cx=\"235.0\" cy=\"128.0\" r=\"94.0\" fill=\"none\" stroke=\"#234539\" stroke-width=\"1.8\"/>\n<circle cx=\"329.0\" cy=\"128.0\" r=\"2.6\" fill=\"#6b7260\"/>\n<text x=\"345.0\" y=\"120.0\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"9\" fill=\"#6b7260\">0</text>\n<circle cx=\"235.0\" cy=\"34.0\" r=\"2.6\" fill=\"#6b7260\"/>\n<text x=\"251.0\" y=\"28.0\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"9\" fill=\"#6b7260\">π/2</text>\n<circle cx=\"141.0\" cy=\"128.0\" r=\"2.6\" fill=\"#6b7260\"/>\n<text x=\"127.0\" y=\"120.0\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"9\" fill=\"#6b7260\">π</text>\n<circle cx=\"235.0\" cy=\"222.0\" r=\"2.6\" fill=\"#6b7260\"/>\n<text x=\"255.0\" y=\"238.0\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"9\" fill=\"#6b7260\">3π/2</text>\n<line x1=\"235.0\" y1=\"128.0\" x2=\"292.9\" y2=\"53.9\" stroke=\"#234539\" stroke-width=\"2\"/>\n<text x=\"259.9\" y=\"85.0\" text-anchor=\"end\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"10\" font-weight=\"600\" fill=\"#234539\">1</text>\n<circle cx=\"292.9\" cy=\"53.9\" r=\"4\" fill=\"#234539\"/>\n<text x=\"300.9\" y=\"45.9\" text-anchor=\"start\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"11\" font-weight=\"600\" fill=\"#234539\">P</text>\n<line x1=\"292.9\" y1=\"53.9\" x2=\"292.9\" y2=\"128.0\" stroke=\"#6b7260\" stroke-width=\"1.2\" stroke-dasharray=\"4 3\"/>\n<line x1=\"292.9\" y1=\"53.9\" x2=\"235.0\" y2=\"53.9\" stroke=\"#6b7260\" stroke-width=\"1.2\" stroke-dasharray=\"4 3\"/>\n<line x1=\"235.0\" y1=\"128.0\" x2=\"292.9\" y2=\"128.0\" stroke=\"#c17f2b\" stroke-width=\"3.2\"/>\n<line x1=\"235.0\" y1=\"128.0\" x2=\"235.0\" y2=\"53.9\" stroke=\"#2f5d50\" stroke-width=\"3.2\"/>\n<text x=\"263.9\" y=\"144.0\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"10\" font-weight=\"600\" fill=\"#c17f2b\">cos α</text>\n<text x=\"227.0\" y=\"95.0\" text-anchor=\"end\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"10\" font-weight=\"600\" fill=\"#2f5d50\">sin α</text>\n<path d=\"M261.0 128.0 A 26 26 0 0 0 251.0 107.5\" fill=\"none\" stroke=\"#6b7260\" stroke-width=\"1.2\"/>\n<text x=\"269.0\" y=\"116.0\" text-anchor=\"start\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"10.5\" fill=\"#6b7260\">α</text>\n<text x=\"235.0\" y=\"262.0\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"9\" fill=\"#6b7260\">het beeldpunt P heeft de cosinus als x en de sinus als y</text></svg>",
+     "onderschrift": "de cirkel met straal \\(1\\) rond de oorsprong"
+    }
+   ]
+  },
+  {
+   "kop": "De grondformule",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "De <strong>grondformule van de goniometrie</strong> is Pythagoras op die cirkel:"
     },
     {
      "soort": "tekst",
-     "html": "De <strong>grondformule van de goniometrie</strong>: sin²α + cos²α = 1. Het is Pythagoras op de goniometrische cirkel. Daarmee bereken je de ene uit de andere: is de sinus 0,6, dan is cos²α = 1 − 0,36 = 0,64 en dus de cosinus 0,8. Is de sinus 0,8, dan is de cosinus 0,6."
+     "html": "\\[\\sin^{2}\\alpha + \\cos^{2}\\alpha = 1\\]"
+    },
+    {
+     "soort": "tekst",
+     "html": "Daarmee bereken je de ene uit de andere. Is \\(\\sin\\alpha = 0{,}6\\), dan is \\(\\cos^{2}\\alpha = 1 - 0{,}36 = 0{,}64\\) en dus \\(\\cos\\alpha = 0{,}8\\). Is \\(\\sin\\alpha = 0{,}8\\), dan is \\(\\cos\\alpha = 0{,}6\\)."
     }
    ]
   },
@@ -104,26 +162,24 @@
    "blokken": [
     {
      "soort": "tekst",
-     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Naam</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Samen</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Voorbeeld</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">complementaire hoeken</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">90°</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">30° en 60°</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">supplementaire hoeken</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">180°</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">50° en 130°</td></tr></table>"
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Naam</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Samen</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Voorbeeld</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">complementaire hoeken</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">\\(90^\\circ\\)</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">\\(30^\\circ\\) en \\(60^\\circ\\)</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">supplementaire hoeken</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">\\(180^\\circ\\)</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">\\(50^\\circ\\) en \\(130^\\circ\\)</td></tr></table>"
     },
     {
      "soort": "tekst",
-     "html": "Twee <strong>complementaire</strong> hoeken hebben níét dezelfde sinus: de sinus van de ene is de cosinus van de andere. sin 30° is 0,5 en sin 60° is √3/2."
+     "html": "Twee <strong>complementaire</strong> hoeken hebben níét dezelfde sinus: de sinus van de ene is de cosinus van de andere, dus \\(\\sin 30^\\circ = \\cos 60^\\circ\\). <strong>Supplementaire</strong> hoeken hebben wél dezelfde sinus."
     }
    ]
   }
  ],
  "onthoud": [
-  "a² + b² = c², enkel in een rechthoekige driehoek.",
+  "\\(a^{2} + b^{2} = c^{2}\\), enkel in een rechthoekige driehoek, en omgekeerd ook.",
   "De schuine zijde ligt tegenover de rechte hoek en is de langste zijde.",
-  "Omgekeerd: klopt a² + b² = c², dan is de driehoek rechthoekig.",
-  "Afstand AB = √((x₂ − x₁)² + (y₂ − y₁)²), en die is nooit negatief.",
+  "Ken je \\(c\\), dan trek je af: \\(b^{2} = c^{2} - a^{2}\\).",
+  "\\(\\left|AB\\right| = \\sqrt{(x_{2} - x_{1})^{2} + (y_{2} - y_{1})^{2}}\\), en die is nooit negatief.",
   "Ruimtediagonaal: Pythagoras twee keer, eerst in het grondvlak.",
-  "SOSCASTOA: sinus overstaande op schuine, cosinus aanliggende op schuine, tangens overstaande op aanliggende.",
-  "tan α = sin α / cos α.",
-  "sin²α + cos²α = 1, de grondformule.",
-  "sin 30° = 0,5, cos 0° = 1, tan 45° = 1.",
-  "De goniometrische cirkel heeft straal 1.",
-  "Complementair is samen 90°, supplementair is samen 180°."
+  "SOSCASTOA houdt de sinus, de cosinus en de tangens uit elkaar.",
+  "\\(\\tan\\alpha = \\tfrac{\\sin\\alpha}{\\cos\\alpha}\\), en \\(\\sin^{2}\\alpha + \\cos^{2}\\alpha = 1\\) op de cirkel met straal \\(1\\).",
+  "\\(\\sin 30^\\circ = \\tfrac{1}{2}\\), \\(\\cos 0^\\circ = 1\\), \\(\\tan 45^\\circ = 1\\).",
+  "Complementair is samen \\(90^\\circ\\), supplementair is samen \\(180^\\circ\\)."
  ]
 }
