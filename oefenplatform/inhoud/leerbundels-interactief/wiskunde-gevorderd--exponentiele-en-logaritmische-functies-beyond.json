@@ -8,19 +8,19 @@
    "blokken": [
     {
      "soort": "tekst",
-     "html": "<strong>Het domein van a tot de macht x zijn alle reële getallen</strong>: je mag elke exponent nemen, ook negatieve en gebroken. <strong>Het bereik zijn de strikt positieve getallen</strong>: een macht van een positief grondtal wordt nooit nul of negatief. <strong>Zonder transformatie kan zo'n functie dus geen negatieve waarden aannemen.</strong>"
+     "html": "Neem \\(f(x)=a^{x}\\) met \\(a>0\\). Dan is <strong>\\(\\text{dom}\\,f=\\mathbb{R}\\)</strong>: je mag elke exponent nemen, ook negatieve en gebroken. Het bereik is wel beperkt, want <strong>\\(\\text{ber}\\,f=\\left]0,+\\infty\\right[\\)</strong>: een macht van een positief grondtal wordt nooit \\(0\\) of negatief. <strong>Zonder transformatie kan zo'n functie dus geen negatieve waarden aannemen.</strong>"
     },
     {
      "soort": "tekst",
-     "html": "Elke grafiek van a tot de macht x gaat door <strong>het punt nul en één</strong>, want elk grondtal tot de macht nul is één, en door <strong>het punt één en a</strong>. Dat tweede punt is handig: <strong>in x gelijk aan één lees je het grondtal rechtstreeks af</strong>. Gaat de grafiek door het punt één en vijf, dan is het grondtal <strong>vijf</strong>. Zo is ook de functiewaarde van <strong>drie tot de macht x in twee gelijk aan negen</strong>."
+     "html": "Elke grafiek van \\(a^{x}\\) gaat door <strong>\\((0,1)\\)</strong>, want \\(a^{0}=1\\) bij elk grondtal, en door <strong>\\((1,a)\\)</strong>, want \\(a^{1}=a\\). Dat tweede punt is handig: <strong>in \\(x=1\\) lees je het grondtal rechtstreeks af</strong>. Gaat de grafiek door \\((1,5)\\), dan is \\(a=5\\). Zo is ook \\(f(2)=3^{2}=9\\) voor \\(f(x)=3^{x}\\)."
     },
     {
      "soort": "tekst",
-     "html": "<strong>Is a groter dan één, dan stijgt de functie</strong>; dat geldt dus ook voor grondtal <strong>e</strong>, dat ongeveer 2,718 is. <strong>Ligt a tussen nul en één, dan daalt ze</strong>: een half tot de macht drie is een achtste. <strong>Het getal één is niet toegelaten als grondtal, omdat de grafiek dan een horizontale rechte wordt</strong>, en een constante functie groeit niet."
+     "html": "<strong>Is \\(a>1\\), dan stijgt de functie</strong>; dat geldt dus ook voor grondtal \\(e\\), want \\(e\\approx 2{,}718\\). <strong>Is \\(0<a<1\\), dan daalt ze</strong>: \\(\\left(\\tfrac{1}{2}\\right)^{3}=\\tfrac{1}{8}\\), dus hoe groter de exponent, hoe kleiner de uitkomst. <strong>\\(a=1\\) is niet toegelaten, omdat de grafiek dan de horizontale rechte \\(y=1\\) wordt</strong>: \\(1^{x}=1\\) voor elke \\(x\\), en een constante functie groeit niet."
     },
     {
      "soort": "tekst",
-     "html": "<strong>Twee tot de macht x heeft de rechte y is nul als horizontale asymptoot.</strong> <strong>De grafiek snijdt haar asymptoot nooit</strong>; ze nadert die alleen oneindig dicht. Schuif je de grafiek op, dan schuift de asymptoot mee: <strong>twee tot de macht x, plus vijf, heeft de rechte y is vijf</strong>, en <strong>twee tot de macht x, min vier, is vier eenheden naar beneden geschoven</strong>, met asymptoot y is min vier. <strong>Spiegel je twee tot de macht x om de horizontale as, dan wordt het bereik de strikt negatieve getallen.</strong>"
+     "html": "<strong>\\(f(x)=2^{x}\\) heeft de rechte \\(y=0\\) als horizontale asymptoot</strong>, want voor \\(x\\to-\\infty\\) kruipen de waarden naar \\(0\\). <strong>De grafiek snijdt haar asymptoot nooit</strong>; ze nadert die alleen oneindig dicht. Schuif je de grafiek op, dan schuift de asymptoot mee: <strong>\\(2^{x}+5\\) heeft de rechte \\(y=5\\)</strong>, en <strong>\\(2^{x}-4\\) is \\(4\\) omlaag geschoven</strong>, met asymptoot \\(y=-4\\). De \\(-4\\) staat buiten de macht, dus hij werkt op de functiewaarde. <strong>Spiegel je \\(2^{x}\\) om de \\(x\\)-as, dan wordt het bereik \\(\\left]-\\infty,0\\right[\\)</strong>, want alle functiewaarden wisselen van teken."
     }
    ]
   },
@@ -29,15 +29,15 @@
    "blokken": [
     {
      "soort": "tekst",
-     "html": "<strong>Het domein van de logaritmische functie bestaat uit alle getallen strikt groter dan nul</strong>: alleen strikt positieve argumenten hebben een logaritme. Daarom heeft ze <strong>een verticale asymptoot</strong>: voor x die naar nul kruipt, duikt de logaritme naar min oneindig, dus de y-as is die asymptoot."
+     "html": "Voor \\(f(x)=\\log_{a}x\\) is <strong>\\(\\text{dom}\\,f=\\left]0,+\\infty\\right[\\)</strong>: alleen strikt positieve argumenten hebben een logaritme, dus het domein bestaat uit alle getallen strikt groter dan \\(0\\). Daarom heeft ze <strong>een verticale asymptoot</strong>: voor \\(x\\to 0^{+}\\) duikt de logaritme naar \\(-\\infty\\), dus de \\(y\\)-as is die asymptoot."
     },
     {
      "soort": "tekst",
-     "html": "<strong>Haar grafiek gaat altijd door het punt één en nul</strong>, want de logaritme van één is nul bij elk grondtal. Dat is net het spiegelbeeld van het punt nul en één van de exponentiële functie."
+     "html": "<strong>Haar grafiek gaat altijd door \\((1,0)\\)</strong>, want \\(\\log_{a}1=0\\) bij elk grondtal. Dat is net het spiegelbeeld van het punt \\((0,1)\\) van de exponentiële functie."
     },
     {
      "soort": "tekst",
-     "html": "<strong>De exponentiële functie en de logaritmische functie met hetzelfde grondtal zijn elkaars spiegelbeeld om de eerste bissectrice.</strong> Het zijn elkaars inverse functies, en inverse functies spiegelen altijd om de rechte y is x."
+     "html": "<strong>\\(a^{x}\\) en \\(\\log_{a}x\\) met hetzelfde grondtal spiegelen om de rechte \\(y=x\\).</strong> Het zijn elkaars inverse functies, en inverse functies spiegelen altijd om de eerste bissectrice."
     }
    ]
   },
@@ -46,19 +46,19 @@
    "blokken": [
     {
      "soort": "tekst",
-     "html": "Een <strong>groeifactor</strong> is het getal waarmee je per tijdseenheid vermenigvuldigt. <strong>Hij is nooit negatief.</strong> Bij een toename van p procent is hij <strong>één plus p gedeeld door honderd</strong>; bij een afname blijft er p procent over."
+     "html": "Een <strong>groeifactor</strong> is het getal waarmee je per tijdseenheid vermenigvuldigt. <strong>Hij is nooit negatief.</strong> Bij een toename van \\(p\\%\\) is hij <strong>\\(1+\\tfrac{p}{100}\\)</strong>; bij een afname blijft er \\(p\\%\\) over."
     },
     {
      "soort": "tekst",
-     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Situatie</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Groeifactor</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">In woorden</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">drie procent groei per jaar</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">1,03</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">één plus drie honderdsten</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">twintig procent daling per jaar</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">0,8</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">er blijft tachtig procent over</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">vijf procent samengestelde intrest</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">1,05</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">elk jaar met dezelfde factor</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">van honderd naar honderdvijftig</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">1,5</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">honderdvijftig gedeeld door honderd</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">groeifactor 1,12 gegeven</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">twaalf procent erbij</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">trek één af en maal honderd</td></tr></table>"
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Situatie</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Groeifactor</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Hoe je eraan komt</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">\\(3\\%\\) groei per jaar</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">\\(1{,}03\\)</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">\\(1+\\tfrac{3}{100}\\)</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">\\(20\\%\\) daling per jaar</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">\\(0{,}8\\)</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">er blijft \\(80\\%\\) over</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">\\(5\\%\\) samengestelde intrest</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">\\(1{,}05\\)</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">elk jaar dezelfde factor</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">van \\(100\\) naar \\(150\\)</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">\\(1{,}5\\)</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">\\(\\tfrac{150}{100}\\)</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">groeifactor \\(1{,}12\\)</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">\\(12\\%\\) erbij</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">\\(1{,}12-1=0{,}12\\)</td></tr></table>"
     },
     {
      "soort": "tekst",
-     "html": "<strong>Een groeifactor kleiner dan één betekent dat de hoeveelheid afneemt.</strong> Bij precies één blijft alles gelijk."
+     "html": "<strong>Een groeifactor kleiner dan \\(1\\) betekent dat de hoeveelheid afneemt.</strong> Bij precies \\(1\\) blijft alles gelijk."
     },
     {
      "soort": "tekst",
-     "html": "Groeifactoren combineer je door te <strong>vermenigvuldigen</strong>, nooit door op te tellen. <strong>Van een maandfactor naar een jaarfactor verhef je tot de macht twaalf</strong>, en <strong>is de jaarfactor twee, dan is de factor per twee jaar vier</strong>. Daaruit volgt ook een bekende valstrik: <strong>een stijging met tien procent gevolgd door een daling met tien procent brengt je niet terug bij de beginwaarde</strong>, want 1,1 maal 0,9 is 0,99, dus je verliest één procent."
+     "html": "Groeifactoren combineer je door te <strong>vermenigvuldigen</strong>, nooit door op te tellen. <strong>Ken je de factor \\(g\\) per maand, dan is de factor per jaar \\(g^{12}\\)</strong>, en <strong>is de jaarfactor \\(2\\), dan is de factor per twee jaar \\(2^{2}=4\\)</strong>. Daaruit volgt ook een bekende valstrik: <strong>een stijging met \\(10\\%\\) gevolgd door een daling met \\(10\\%\\) brengt je niet terug bij de beginwaarde</strong>, want \\(1{,}1\\cdot 0{,}9=0{,}99\\), dus je verliest \\(1\\%\\)."
     }
    ]
   },
@@ -67,40 +67,49 @@
    "blokken": [
     {
      "soort": "tekst",
-     "html": "In het model <strong>b maal a tot de macht x</strong> is <strong>b de beginwaarde</strong>: bij <strong>tweehonderd maal 1,05 tot de macht x</strong> is de beginwaarde <strong>tweehonderd</strong>, want voor x gelijk aan nul is de macht één."
+     "html": "In het model <strong>\\(N(x)=b\\cdot a^{x}\\)</strong> is <strong>\\(b\\) de beginwaarde</strong>: bij \\(N(x)=200\\cdot 1{,}05^{x}\\) is \\(N(0)=200\\cdot 1=200\\), want voor \\(x=0\\) is de macht \\(1\\)."
     },
     {
      "soort": "tekst",
-     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Soort groei</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Vorm</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Waaraan je ze herkent</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">lineaire groei</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">a maal x plus b</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">elke tijdseenheid komt hetzelfde getal erbij</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">exponentiële groei</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">b maal a tot de macht x</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">elke tijdseenheid dezelfde vermenigvuldigingsfactor</td></tr></table>"
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Soort groei</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Vorm</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Waaraan je ze herkent</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">lineaire groei</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">\\(f(x)=ax+b\\)</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">elke tijdseenheid komt hetzelfde getal erbij</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">exponentiële groei</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">\\(f(x)=b\\cdot a^{x}\\)</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">elke tijdseenheid dezelfde factor</td></tr></table>"
     },
     {
      "soort": "tekst",
-     "html": "Staat in een tabel bij elke stap van één in x <strong>dezelfde vermenigvuldigingsfactor</strong>, dan past een <strong>exponentieel model</strong>. De rij <strong>3, 6, 12, 24</strong> is exponentieel, telkens maal twee. Een rij met een vaste toename is lineair. <strong>Kies een lineair model als de verandering per tijdseenheid even groot blijft</strong>: een vast bedrag sparen per maand is lineair, intrest op intrest is exponentieel. <strong>Bij exponentiële groei komt er niet elke tijdseenheid evenveel bij</strong>, maar elke tijdseenheid hetzelfde percentage, en dus in absolute aantallen steeds meer."
+     "html": "Staat in een tabel bij elke stap van \\(1\\) in \\(x\\) <strong>dezelfde vermenigvuldigingsfactor</strong>, dan past een <strong>exponentieel model</strong>. De rij <strong>\\(3,\\ 6,\\ 12,\\ 24\\)</strong> is exponentieel, telkens maal \\(2\\); \\(3,\\ 6,\\ 9,\\ 12\\) heeft een vaste toename en is dus lineair. <strong>Kies een lineair model als de verandering per tijdseenheid even groot blijft</strong>: een vast bedrag sparen per maand is lineair, intrest op intrest is exponentieel. <strong>Bij exponentiële groei komt er niet elke tijdseenheid evenveel bij</strong>, maar elke tijdseenheid hetzelfde percentage, en dus in absolute aantallen steeds meer. Een populatie van \\(500\\) die met \\(8\\%\\) per jaar groeit, staat na tien jaar op \\(500\\cdot 1{,}08^{10}\\approx 1079\\), niet op \\(500+10\\cdot 40=900\\)."
     },
     {
      "soort": "tekst",
-     "html": "De <strong>verdubbelingstijd</strong> is <strong>de tijd die nodig is om twee keer zo groot te worden</strong>, en bij exponentiële groei is die altijd even lang, waar je ook begint te meten. De <strong>halveringstijd hoort bij een groeifactor kleiner dan één</strong>; radioactief verval is het bekendste voorbeeld. Heeft een stof een halveringstijd van vijf jaar, dan blijft er <strong>na tien jaar een kwart</strong> over."
+     "html": "De <strong>verdubbelingstijd</strong> is <strong>de tijd die nodig is om twee keer zo groot te worden</strong>, en bij exponentiële groei is die altijd even lang, waar je ook begint te meten. De <strong>halveringstijd hoort bij een groeifactor kleiner dan \\(1\\)</strong>; radioactief verval is het bekendste voorbeeld. Heeft een stof een halveringstijd van \\(5\\) jaar, dan blijft er <strong>na \\(10\\) jaar \\(\\left(\\tfrac{1}{2}\\right)^{2}=\\tfrac{1}{4}\\)</strong> over."
     },
     {
      "soort": "tekst",
-     "html": "<strong>Om te berekenen na hoeveel jaar een bedrag met groeifactor 1,05 verdubbeld is, heb je een logaritme nodig</strong>, want de onbekende staat in de exponent: je lost 1,05 tot de macht t is twee op. Honderd delen door het percentage is enkel een ruwe vuistregel."
+     "html": "<strong>Om te berekenen na hoeveel jaar een bedrag met groeifactor \\(1{,}05\\) verdubbeld is, heb je een logaritme nodig</strong>, want de onbekende staat in de exponent. Je lost \\(1{,}05^{t}=2\\) op:"
+    },
+    {
+     "soort": "tekst",
+     "html": "\\[t=\\frac{\\ln 2}{\\ln 1{,}05}\\approx 14{,}2\\ \\text{jaar}\\]"
+    },
+    {
+     "soort": "tekst",
+     "html": "\\(\\tfrac{100}{5}=20\\) is enkel een ruwe vuistregel, en een slechte."
     },
     {
      "soort": "kader",
-     "html": "Twee grenzen aan zo'n model. <strong>Een zuiver exponentieel model voorspelt een groei die nooit stopt</strong>, terwijl echte groei vastloopt op voedsel, ruimte of geld. En <strong>een groeimodel heeft vaak een praktisch domein</strong>, omdat een negatieve tijd meestal geen betekenis heeft."
+     "html": "Twee grenzen aan zo'n model. <strong>Een zuiver exponentieel model voorspelt een groei die nooit stopt</strong>, terwijl echte groei vastloopt op voedsel, ruimte of geld. En <strong>een groeimodel heeft vaak een praktisch domein</strong>, omdat een negatieve tijd meestal geen betekenis heeft: de functie bestaat wiskundig voor elke \\(x\\), maar in de context tel je pas vanaf het begin van de meting."
     }
    ]
   }
  ],
  "onthoud": [
-  "Het domein van a tot de macht x zijn alle reële getallen, het bereik de strikt positieve getallen.",
-  "Is a groter dan één, dan stijgt de functie; ligt a tussen nul en één, dan daalt ze.",
-  "Twee tot de macht x heeft de rechte y is nul als horizontale asymptoot.",
-  "De logaritmische functie heeft als domein de getallen strikt groter dan nul en gaat door het punt één en nul.",
-  "Exponentiële en logaritmische functie met hetzelfde grondtal zijn elkaars spiegelbeeld om de eerste bissectrice.",
-  "Bij een toename van p procent is de groeifactor één plus p gedeeld door honderd.",
-  "Groeifactoren combineer je door te vermenigvuldigen, nooit door op te tellen.",
-  "In het model b maal a tot de macht x is b de beginwaarde.",
-  "De verdubbelingstijd is de tijd die nodig is om twee keer zo groot te worden."
+  "\\(\\text{dom}\\,a^{x}=\\mathbb{R}\\) en \\(\\text{ber}\\,a^{x}=\\left]0,+\\infty\\right[\\).",
+  "Is \\(a>1\\), dan stijgt \\(a^{x}\\); is \\(0<a<1\\), dan daalt ze. \\(a=1\\) is niet toegelaten.",
+  "\\(2^{x}\\) heeft de rechte \\(y=0\\) als horizontale asymptoot en snijdt die nooit.",
+  "\\(a^{x}\\) gaat door \\((0,1)\\) en \\((1,a)\\); \\(\\log_{a}x\\) gaat door \\((1,0)\\).",
+  "\\(\\text{dom}\\log_{a}x=\\left]0,+\\infty\\right[\\), met de \\(y\\)-as als verticale asymptoot.",
+  "\\(a^{x}\\) en \\(\\log_{a}x\\) spiegelen om de rechte \\(y=x\\).",
+  "Bij een toename van \\(p\\%\\) is de groeifactor \\(1+\\tfrac{p}{100}\\), en nooit negatief.",
+  "Groeifactoren combineer je door te vermenigvuldigen: per jaar is dat \\(g^{12}\\) uit een maandfactor.",
+  "In \\(N(x)=b\\cdot a^{x}\\) is \\(b\\) de beginwaarde.",
+  "De verdubbelingstijd volgt uit \\(a^{t}=2\\), dus \\(t=\\tfrac{\\ln 2}{\\ln a}\\)."
  ]
 }

@@ -656,103 +656,105 @@ BUNDELS["exponentiele-en-logaritmische-functies-beyond"] = dict(
     onder="De twee grafieken en hun asymptoten, en groeimodellen met groeifactor, verdubbelings- en halveringstijd.",
     secties=[
         dict(kop="De exponentiële functie", blokken=[
-            ("p", "<strong>Het domein van a tot de macht x zijn alle reële getallen</strong>: je mag elke "
-                  "exponent nemen, ook negatieve en gebroken. <strong>Het bereik zijn de strikt positieve "
-                  "getallen</strong>: een macht van een positief grondtal wordt nooit nul of negatief. "
-                  "<strong>Zonder transformatie kan zo'n functie dus geen negatieve waarden aannemen.</strong>"),
-            ("p", "Elke grafiek van a tot de macht x gaat door <strong>het punt nul en één</strong>, want "
-                  "elk grondtal tot de macht nul is één, en door <strong>het punt één en a</strong>. Dat "
-                  "tweede punt is handig: <strong>in x gelijk aan één lees je het grondtal rechtstreeks "
-                  "af</strong>. Gaat de grafiek door het punt één en vijf, dan is het grondtal "
-                  "<strong>vijf</strong>. Zo is ook de functiewaarde van <strong>drie tot de macht x in "
-                  "twee gelijk aan negen</strong>."),
-            ("p", "<strong>Is a groter dan één, dan stijgt de functie</strong>; dat geldt dus ook voor "
-                  "grondtal <strong>e</strong>, dat ongeveer 2,718 is. <strong>Ligt a tussen nul en één, "
-                  "dan daalt ze</strong>: een half tot de macht drie is een achtste. <strong>Het getal één "
-                  "is niet toegelaten als grondtal, omdat de grafiek dan een horizontale rechte "
-                  "wordt</strong>, en een constante functie groeit niet."),
-            ("p", "<strong>Twee tot de macht x heeft de rechte y is nul als horizontale asymptoot.</strong> "
-                  "<strong>De grafiek snijdt haar asymptoot nooit</strong>; ze nadert die alleen oneindig "
-                  "dicht. Schuif je de grafiek op, dan schuift de asymptoot mee: <strong>twee tot de macht "
-                  "x, plus vijf, heeft de rechte y is vijf</strong>, en <strong>twee tot de macht x, min "
-                  "vier, is vier eenheden naar beneden geschoven</strong>, met asymptoot y is min vier. "
-                  "<strong>Spiegel je twee tot de macht x om de horizontale as, dan wordt het bereik de "
-                  "strikt negatieve getallen.</strong>"),
+            ("p", r"Neem \(f(x)=a^{x}\) met \(a>0\). Dan is <strong>\(\text{dom}\,f=\mathbb{R}\)</strong>: je mag "
+                  r"elke exponent nemen, ook negatieve en gebroken. Het bereik is wel beperkt, want "
+                  r"<strong>\(\text{ber}\,f=\left]0,+\infty\right[\)</strong>: een macht van een positief grondtal "
+                  r"wordt nooit \(0\) of negatief. <strong>Zonder transformatie kan zo'n functie dus geen negatieve "
+                  r"waarden aannemen.</strong>"),
+            ("p", r"Elke grafiek van \(a^{x}\) gaat door <strong>\((0,1)\)</strong>, want \(a^{0}=1\) bij elk "
+                  r"grondtal, en door <strong>\((1,a)\)</strong>, want \(a^{1}=a\). Dat tweede punt is handig: "
+                  r"<strong>in \(x=1\) lees je het grondtal rechtstreeks af</strong>. Gaat de grafiek door "
+                  r"\((1,5)\), dan is \(a=5\). Zo is ook \(f(2)=3^{2}=9\) voor \(f(x)=3^{x}\)."),
+            ("p", r"<strong>Is \(a>1\), dan stijgt de functie</strong>; dat geldt dus ook voor grondtal \(e\), "
+                  r"want \(e\approx 2{,}718\). <strong>Is \(0<a<1\), dan daalt ze</strong>: "
+                  r"\(\left(\tfrac{1}{2}\right)^{3}=\tfrac{1}{8}\), dus hoe groter de exponent, hoe kleiner de "
+                  r"uitkomst. <strong>\(a=1\) is niet toegelaten, omdat de grafiek dan de horizontale rechte "
+                  r"\(y=1\) wordt</strong>: \(1^{x}=1\) voor elke \(x\), en een constante functie groeit niet."),
+            ("p", r"<strong>\(f(x)=2^{x}\) heeft de rechte \(y=0\) als horizontale asymptoot</strong>, want voor "
+                  r"\(x\to-\infty\) kruipen de waarden naar \(0\). <strong>De grafiek snijdt haar asymptoot "
+                  r"nooit</strong>; ze nadert die alleen oneindig dicht. Schuif je de grafiek op, dan schuift de "
+                  r"asymptoot mee: <strong>\(2^{x}+5\) heeft de rechte \(y=5\)</strong>, en <strong>\(2^{x}-4\) is "
+                  r"\(4\) omlaag geschoven</strong>, met asymptoot \(y=-4\). De \(-4\) staat buiten de macht, dus "
+                  r"hij werkt op de functiewaarde. <strong>Spiegel je \(2^{x}\) om de \(x\)-as, dan wordt het "
+                  r"bereik \(\left]-\infty,0\right[\)</strong>, want alle functiewaarden wisselen van teken."),
         ]),
         dict(kop="De logaritmische functie", blokken=[
-            ("p", "<strong>Het domein van de logaritmische functie bestaat uit alle getallen strikt groter "
-                  "dan nul</strong>: alleen strikt positieve argumenten hebben een logaritme. Daarom heeft "
-                  "ze <strong>een verticale asymptoot</strong>: voor x die naar nul kruipt, duikt de "
-                  "logaritme naar min oneindig, dus de y-as is die asymptoot."),
-            ("p", "<strong>Haar grafiek gaat altijd door het punt één en nul</strong>, want de logaritme van "
-                  "één is nul bij elk grondtal. Dat is net het spiegelbeeld van het punt nul en één van de "
-                  "exponentiële functie."),
-            ("p", "<strong>De exponentiële functie en de logaritmische functie met hetzelfde grondtal zijn "
-                  "elkaars spiegelbeeld om de eerste bissectrice.</strong> Het zijn elkaars inverse "
-                  "functies, en inverse functies spiegelen altijd om de rechte y is x."),
+            ("p", r"Voor \(f(x)=\log_{a}x\) is <strong>\(\text{dom}\,f=\left]0,+\infty\right[\)</strong>: alleen "
+                  r"strikt positieve argumenten hebben een logaritme, dus het domein bestaat uit alle getallen "
+                  r"strikt groter dan \(0\). Daarom heeft ze <strong>een verticale asymptoot</strong>: voor "
+                  r"\(x\to 0^{+}\) duikt de logaritme naar \(-\infty\), dus de \(y\)-as is die asymptoot."),
+            ("p", r"<strong>Haar grafiek gaat altijd door \((1,0)\)</strong>, want \(\log_{a}1=0\) bij elk "
+                  r"grondtal. Dat is net het spiegelbeeld van het punt \((0,1)\) van de exponentiële functie."),
+            ("p", r"<strong>\(a^{x}\) en \(\log_{a}x\) met hetzelfde grondtal spiegelen om de rechte "
+                  r"\(y=x\).</strong> Het zijn elkaars inverse functies, en inverse functies spiegelen altijd om "
+                  r"de eerste bissectrice."),
         ]),
         dict(kop="Groeifactor en procenten", blokken=[
-            ("p", "Een <strong>groeifactor</strong> is het getal waarmee je per tijdseenheid "
-                  "vermenigvuldigt. <strong>Hij is nooit negatief.</strong> Bij een toename van p procent "
-                  "is hij <strong>één plus p gedeeld door honderd</strong>; bij een afname blijft er p "
-                  "procent over."),
-            ("p", tabel(["Situatie", "Groeifactor", "In woorden"], [
-                ["drie procent groei per jaar", "1,03", "één plus drie honderdsten"],
-                ["twintig procent daling per jaar", "0,8", "er blijft tachtig procent over"],
-                ["vijf procent samengestelde intrest", "1,05", "elk jaar met dezelfde factor"],
-                ["van honderd naar honderdvijftig", "1,5", "honderdvijftig gedeeld door honderd"],
-                ["groeifactor 1,12 gegeven", "twaalf procent erbij", "trek één af en maal honderd"],
+            ("p", r"Een <strong>groeifactor</strong> is het getal waarmee je per tijdseenheid vermenigvuldigt. "
+                  r"<strong>Hij is nooit negatief.</strong> Bij een toename van \(p\%\) is hij "
+                  r"<strong>\(1+\tfrac{p}{100}\)</strong>; bij een afname blijft er \(p\%\) over."),
+            ("p", tabel(["Situatie", "Groeifactor", "Hoe je eraan komt"], [
+                [r"\(3\%\) groei per jaar", r"\(1{,}03\)", r"\(1+\dfrac{3}{100}\)"],
+                [r"\(20\%\) daling per jaar", r"\(0{,}8\)", r"er blijft \(80\%\) over"],
+                [r"\(5\%\) samengestelde intrest", r"\(1{,}05\)", r"elk jaar dezelfde factor"],
+                [r"van \(100\) naar \(150\)", r"\(1{,}5\)", r"\(\dfrac{150}{100}\)"],
+                [r"groeifactor \(1{,}12\)", r"\(12\%\) erbij", r"\(1{,}12-1=0{,}12\)"],
             ])),
-            ("p", "<strong>Een groeifactor kleiner dan één betekent dat de hoeveelheid afneemt.</strong> Bij "
-                  "precies één blijft alles gelijk."),
-            ("p", "Groeifactoren combineer je door te <strong>vermenigvuldigen</strong>, nooit door op te "
-                  "tellen. <strong>Van een maandfactor naar een jaarfactor verhef je tot de macht "
-                  "twaalf</strong>, en <strong>is de jaarfactor twee, dan is de factor per twee jaar "
-                  "vier</strong>. Daaruit volgt ook een bekende valstrik: <strong>een stijging met tien "
-                  "procent gevolgd door een daling met tien procent brengt je niet terug bij de "
-                  "beginwaarde</strong>, want 1,1 maal 0,9 is 0,99, dus je verliest één procent."),
+            ("p", r"<strong>Een groeifactor kleiner dan \(1\) betekent dat de hoeveelheid afneemt.</strong> Bij "
+                  r"precies \(1\) blijft alles gelijk."),
+            ("p", r"Groeifactoren combineer je door te <strong>vermenigvuldigen</strong>, nooit door op te tellen. "
+                  r"<strong>Ken je de factor \(g\) per maand, dan is de factor per jaar \(g^{12}\)</strong>, en "
+                  r"<strong>is de jaarfactor \(2\), dan is de factor per twee jaar \(2^{2}=4\)</strong>. Daaruit "
+                  r"volgt ook een bekende valstrik: <strong>een stijging met \(10\%\) gevolgd door een daling met "
+                  r"\(10\%\) brengt je niet terug bij de beginwaarde</strong>, want \(1{,}1\cdot 0{,}9=0{,}99\), "
+                  r"dus je verliest \(1\%\)."),
         ]),
         dict(kop="Groeimodellen", blokken=[
-            ("p", "In het model <strong>b maal a tot de macht x</strong> is <strong>b de "
-                  "beginwaarde</strong>: bij <strong>tweehonderd maal 1,05 tot de macht x</strong> is de "
-                  "beginwaarde <strong>tweehonderd</strong>, want voor x gelijk aan nul is de macht één."),
+            ("p", r"In het model <strong>\(N(x)=b\cdot a^{x}\)</strong> is <strong>\(b\) de beginwaarde</strong>: "
+                  r"bij \(N(x)=200\cdot 1{,}05^{x}\) is \(N(0)=200\cdot 1=200\), want voor \(x=0\) is de macht "
+                  r"\(1\)."),
             ("p", tabel(["Soort groei", "Vorm", "Waaraan je ze herkent"], [
-                ["lineaire groei", "a maal x plus b", "elke tijdseenheid komt hetzelfde getal erbij"],
-                ["exponentiële groei", "b maal a tot de macht x", "elke tijdseenheid dezelfde vermenigvuldigingsfactor"],
+                [r"lineaire groei", r"\(f(x)=ax+b\)", r"elke tijdseenheid komt hetzelfde getal erbij"],
+                [r"exponentiële groei", r"\(f(x)=b\cdot a^{x}\)", r"elke tijdseenheid dezelfde factor"],
             ])),
-            ("p", "Staat in een tabel bij elke stap van één in x <strong>dezelfde "
-                  "vermenigvuldigingsfactor</strong>, dan past een <strong>exponentieel model</strong>. De "
-                  "rij <strong>3, 6, 12, 24</strong> is exponentieel, telkens maal twee. Een rij met een "
-                  "vaste toename is lineair. <strong>Kies een lineair model als de verandering per "
-                  "tijdseenheid even groot blijft</strong>: een vast bedrag sparen per maand is lineair, "
-                  "intrest op intrest is exponentieel. <strong>Bij exponentiële groei komt er niet elke "
-                  "tijdseenheid evenveel bij</strong>, maar elke tijdseenheid hetzelfde percentage, en dus "
-                  "in absolute aantallen steeds meer."),
-            ("p", "De <strong>verdubbelingstijd</strong> is <strong>de tijd die nodig is om twee keer zo "
-                  "groot te worden</strong>, en bij exponentiële groei is die altijd even lang, waar je ook "
-                  "begint te meten. De <strong>halveringstijd hoort bij een groeifactor kleiner dan "
-                  "één</strong>; radioactief verval is het bekendste voorbeeld. Heeft een stof een "
-                  "halveringstijd van vijf jaar, dan blijft er <strong>na tien jaar een kwart</strong> over."),
-            ("p", "<strong>Om te berekenen na hoeveel jaar een bedrag met groeifactor 1,05 verdubbeld is, "
-                  "heb je een logaritme nodig</strong>, want de onbekende staat in de exponent: je lost "
-                  "1,05 tot de macht t is twee op. Honderd delen door het percentage is enkel een ruwe "
-                  "vuistregel."),
-            ("kader", "Twee grenzen aan zo'n model. <strong>Een zuiver exponentieel model voorspelt een "
-                      "groei die nooit stopt</strong>, terwijl echte groei vastloopt op voedsel, ruimte of "
-                      "geld. En <strong>een groeimodel heeft vaak een praktisch domein</strong>, omdat een "
-                      "negatieve tijd meestal geen betekenis heeft."),
+            ("p", r"Staat in een tabel bij elke stap van \(1\) in \(x\) <strong>dezelfde "
+                  r"vermenigvuldigingsfactor</strong>, dan past een <strong>exponentieel model</strong>. De rij "
+                  r"<strong>\(3,\ 6,\ 12,\ 24\)</strong> is exponentieel, telkens maal \(2\); \(3,\ 6,\ 9,\ 12\) "
+                  r"heeft een vaste toename en is dus lineair. <strong>Kies een lineair model als de verandering "
+                  r"per tijdseenheid even groot blijft</strong>: een vast bedrag sparen per maand is lineair, "
+                  r"intrest op intrest is exponentieel. <strong>Bij exponentiële groei komt er niet elke "
+                  r"tijdseenheid evenveel bij</strong>, maar elke tijdseenheid hetzelfde percentage, en dus in "
+                  r"absolute aantallen steeds meer. Een populatie van \(500\) die met \(8\%\) per jaar groeit, "
+                  r"staat na tien jaar op \(500\cdot 1{,}08^{10}\approx 1079\), niet op \(500+10\cdot 40=900\)."),
+            ("p", r"De <strong>verdubbelingstijd</strong> is <strong>de tijd die nodig is om twee keer zo groot te "
+                  r"worden</strong>, en bij exponentiële groei is die altijd even lang, waar je ook begint te "
+                  r"meten. De <strong>halveringstijd hoort bij een groeifactor kleiner dan \(1\)</strong>; "
+                  r"radioactief verval is het bekendste voorbeeld. Heeft een stof een halveringstijd van \(5\) "
+                  r"jaar, dan blijft er <strong>na \(10\) jaar \(\left(\tfrac{1}{2}\right)^{2}=\tfrac{1}{4}\)</strong> "
+                  r"over."),
+            ("p", r"<strong>Om te berekenen na hoeveel jaar een bedrag met groeifactor \(1{,}05\) verdubbeld is, "
+                  r"heb je een logaritme nodig</strong>, want de onbekende staat in de exponent. Je lost "
+                  r"\(1{,}05^{t}=2\) op:"),
+            ("p", r"\[t=\frac{\ln 2}{\ln 1{,}05}\approx 14{,}2\ \text{jaar}\]"),
+            ("p", r"De vuistregel \(\tfrac{100}{5}=20\) zit er met vijf jaar flink naast."),
+            ("kader", r"Twee grenzen aan zo'n model. <strong>Een zuiver exponentieel model voorspelt een groei die "
+                      r"nooit stopt</strong>, terwijl echte groei vastloopt op voedsel, ruimte of geld. En "
+                      r"<strong>een groeimodel heeft vaak een praktisch domein</strong>, omdat een negatieve tijd "
+                      r"meestal geen betekenis heeft: de functie bestaat wiskundig voor elke \(x\), maar in de "
+                      r"context tel je pas vanaf het begin van de meting."),
         ]),
     ],
     onthoud=[
-        "Het domein van a tot de macht x zijn alle reële getallen, het bereik de strikt positieve getallen.",
-        "Is a groter dan één, dan stijgt de functie; ligt a tussen nul en één, dan daalt ze.",
-        "Twee tot de macht x heeft de rechte y is nul als horizontale asymptoot.",
-        "De logaritmische functie heeft als domein de getallen strikt groter dan nul en gaat door het punt één en nul.",
-        "Exponentiële en logaritmische functie met hetzelfde grondtal zijn elkaars spiegelbeeld om de eerste bissectrice.",
-        "Bij een toename van p procent is de groeifactor één plus p gedeeld door honderd.",
-        "Groeifactoren combineer je door te vermenigvuldigen, nooit door op te tellen.",
-        "In het model b maal a tot de macht x is b de beginwaarde.",
-        "De verdubbelingstijd is de tijd die nodig is om twee keer zo groot te worden.",
+        r"\(\text{dom}\,a^{x}=\mathbb{R}\) en \(\text{ber}\,a^{x}=\left]0,+\infty\right[\).",
+        r"Is \(a>1\), dan stijgt \(a^{x}\); is \(0<a<1\), dan daalt ze. \(a=1\) is niet toegelaten.",
+        r"\(2^{x}\) heeft de rechte \(y=0\) als horizontale asymptoot en snijdt die nooit.",
+        r"\(a^{x}\) gaat door \((0,1)\) en \((1,a)\); \(\log_{a}x\) gaat door \((1,0)\).",
+        r"\(\text{dom}\log_{a}x=\left]0,+\infty\right[\), met de \(y\)-as als verticale asymptoot.",
+        r"\(a^{x}\) en \(\log_{a}x\) spiegelen om de rechte \(y=x\).",
+        r"Bij een toename van \(p\%\) is de groeifactor \(1+\tfrac{p}{100}\), en nooit negatief.",
+        r"Groeifactoren combineer je door te vermenigvuldigen: per jaar is dat \(g^{12}\) uit een maandfactor.",
+        r"In \(N(x)=b\cdot a^{x}\) is \(b\) de beginwaarde.",
+        r"De verdubbelingstijd volgt uit \(a^{t}=2\), dus \(t=\tfrac{\ln 2}{\ln a}\).",
     ],
 )
 
