@@ -1647,32 +1647,34 @@ BUNDELS["statistiek-voorstellingen-centrum-en-spreiding-boost-doorstroom"] = dic
             ])),
             ("p", "Gegevens staan <strong>niet-gegroepeerd</strong> (elke losse waarde apart) of "
                   "<strong>gegroepeerd</strong> in <strong>klassen</strong>. Bij veel verschillende waarden is "
-                  "groeperen overzichtelijker. Het <strong>klassenmidden</strong> is het gemiddelde van de twee "
-                  "grenzen: bij de klasse van 10 tot 20 is dat 15, bij 20 tot 30 is dat 25. Daarmee reken je "
-                  "verder als je de losse waarden niet meer hebt."),
+                  "groeperen overzichtelijker. Het <strong>klassenmidden</strong> is het gemiddelde van de "
+                  "twee grenzen: bij de klasse \\(\\left[10, 20\\right[\\) is dat "
+                  "\\(\\frac{10 + 20}{2} = 15\\), bij \\(\\left[20, 30\\right[\\) is dat \\(25\\). Daarmee "
+                  "reken je verder als je de losse waarden niet meer hebt."),
         ]),
         dict(kop="De frequentietabel", blokken=[
             ("p", "De <strong>absolute frequentie</strong> is hoeveel keer een waarde voorkomt. De "
                   "<strong>relatieve frequentie</strong> is welk deel van het geheel dat is, meestal in "
-                  "procent: 10 fietsers op 25 leerlingen is 10/25 = <strong>40 %</strong>; 20 op 50 is ook "
-                  "40 %. Alle relatieve frequenties samen geven <strong>100 %</strong>."),
+                  "procent: \\(10\\) fietsers op \\(25\\) leerlingen geeft "
+                  "\\(\\frac{10}{25} = 0{,}4 = 40\\,\\%\\); \\(20\\) op \\(50\\) geeft ook "
+                  "\\(40\\,\\%\\). Alle relatieve frequenties samen geven \\(100\\,\\%\\)."),
         ]),
         dict(kop="De voorstellingen", blokken=[
             ("p", tabel(["Diagram", "Waarvoor", "Kenmerk"], [
                 ["staafdiagram", "categorieën vergelijken", "de staven staan LOS van elkaar"],
                 ["histogram", "gegevens in klassen", "de staven RAKEN elkaar"],
-                ["cirkeldiagram", "het aandeel in één geheel", "alles samen is 100 %"],
+                ["cirkeldiagram", "het aandeel in één geheel", r"alles samen is \(100\,\%\)"],
                 ["lijndiagram", "een verloop in de tijd", "de lijn toont stijging of daling"],
                 ["boxplot", "spreiding in vijf getallen", "kleinste, drie kwartielen, grootste"],
                 ["dotplot", "elke meting apart", "één punt per meting boven haar waarde"],
             ])),
+        ]),
+        dict(kop="Staven los of staven tegen elkaar", blokken=[
             ("p", "Het verschil tussen een staafdiagram en een histogram zit in de ruimte tussen de staven: "
                   "bij <strong>klassen</strong> sluiten de intervallen op elkaar aan, dus raken de staven "
                   "elkaar. Bij losse categorieën niet."),
             ("p", "Een <strong>cirkeldiagram</strong> is niet geschikt voor een verloop in de tijd; daarvoor "
                   "neem je een lijndiagram. En bij veel categorieën wordt een cirkeldiagram onleesbaar."),
-            ("p", "Een <strong>dotplot</strong> zet elke meting als een punt boven haar waarde. Zo zie je "
-                  "meteen waar de waarden zich opstapelen en welke er ver vanaf liggen."),
         ]),
         dict(kop="De vorm van een verdeling", blokken=[
             ("p", "Een verdeling is <strong>symmetrisch</strong> als links en rechts van het midden ongeveer "
@@ -1681,18 +1683,25 @@ BUNDELS["statistiek-voorstellingen-centrum-en-spreiding-boost-doorstroom"] = dic
                   "staart naar rechts. Zo zien lonen eruit: veel mensen rond een gewoon loon, enkelen met heel "
                   "veel meer."),
             ("p", "Een <strong>uitschieter</strong> is een waarde die ver van de rest ligt. Ga altijd na of "
-                  "het een meetfout is of een echte waarneming. Toont een dotplot twee "
+                  "het een meetfout is of een echte waarneming. Toont een <strong>dotplot</strong> twee "
                   "<strong>clusters</strong>, twee opstapelingen ver uit elkaar, dan zit er vaak een verborgen "
                   "verschil achter: twee klassen samen, twee toestellen, twee meetdagen."),
         ]),
+        dict(kop="Een dotplot van zestien metingen", blokken=[
+            ("fig", svg.dotplot([4, 5, 5, 6, 6, 6, 7, 7, 7, 7, 8, 8, 8, 9, 9, 10]),
+             "elk bolletje is één meting, boven de waarde die ze kreeg"),
+        ]),
         dict(kop="De centrummaten", blokken=[
             ("p", tabel(["Maat", "Hoe je ze vindt", "Voorbeeld"], [
-                ["rekenkundig gemiddelde", "de som gedeeld door het aantal", "4, 8, 10, 14 geeft 36 : 4 = 9"],
-                ["mediaan", "de middelste van de gerangschikte reeks", "3, 7, 8, 12, 20 geeft 8"],
-                ["modus", "de waarde die het vaakst voorkomt", "2, 3, 3, 5, 9 geeft 3"],
+                ["rekenkundig gemiddelde", "de som gedeeld door het aantal",
+                 r"\(4,\ 8,\ 10,\ 14\) geeft \(\frac{36}{4} = 9\)"],
+                ["mediaan", "de middelste van de gerangschikte reeks",
+                 r"\(3,\ 7,\ 8,\ 12,\ 20\) geeft \(8\)"],
+                ["modus", "de waarde die het vaakst voorkomt", r"\(2,\ 3,\ 3,\ 5,\ 9\) geeft \(3\)"],
             ])),
+            ("p", "\\[\\bar{x} = \\frac{x_{1} + x_{2} + \\cdots + x_{n}}{n}\\]"),
             ("p", "Bij een <strong>even</strong> aantal waarden is de mediaan het gemiddelde van de twee "
-                  "middelste: bij 4, 6, 9 en 11 is dat 7,5."),
+                  "middelste: bij \\(4,\\ 6,\\ 9,\\ 11\\) is dat \\(\\frac{6 + 9}{2} = 7{,}5\\)."),
             ("p", "Een reeks kan <strong>twee modi</strong> hebben, als twee waarden even vaak én het vaakst "
                   "voorkomen. En de modus is de enige centrummaat die ook bij "
                   "<strong>categorische</strong> gegevens werkt: met haarkleuren kan je niet rekenen, maar je "
@@ -1702,39 +1711,53 @@ BUNDELS["statistiek-voorstellingen-centrum-en-spreiding-boost-doorstroom"] = dic
                       "enkel kijkt wie in het midden staat. Alleen bij een symmetrische verdeling vallen de "
                       "twee ongeveer samen."),
         ]),
+        dict(kop="De tekens", blokken=[
+            ("p", tabel(["Teken", "Wat het betekent"], [
+                [r"\(\bar{x}\)", "het rekenkundig gemiddelde"],
+                [r"\(Q_{1},\ Q_{2},\ Q_{3}\)", r"het eerste, tweede en derde kwartiel; \(Q_{2}\) is de mediaan"],
+                [r"\(Q_{3} - Q_{1}\)", "de interkwartielafstand"],
+                [r"\(x_{\max} - x_{\min}\)", "de variatiebreedte"],
+                [r"\(\sigma\)", "de standaardafwijking"],
+            ])),
+        ]),
         dict(kop="De spreidingsmaten", blokken=[
             ("p", "Het centrum alleen zegt te weinig. Twee klassen kunnen hetzelfde gemiddelde hebben terwijl "
                   "de punten in de ene klas veel verder uit elkaar liggen. Daarvoor heb je een "
                   "<strong>spreidingsmaat</strong> nodig."),
             ("p", tabel(["Maat", "Wat ze is", "Gevoelig voor uitschieters?"], [
-                ["variatiebreedte", "de grootste min de kleinste waarde", "ja, heel erg"],
+                ["variatiebreedte", r"\(x_{\max} - x_{\min}\)", "ja, heel erg"],
                 ["kwartielen", "de waarden die een kwart, de helft en drie kwart onder zich laten", "nee"],
-                ["interkwartielafstand", "het derde kwartiel min het eerste", "nee"],
+                ["interkwartielafstand", r"\(Q_{3} - Q_{1}\)", "nee"],
                 ["standaardafwijking", "hoe ver de waarden gemiddeld van het gemiddelde liggen", "ja"],
             ])),
-            ("p", "Het <strong>eerste kwartiel</strong> laat een kwart van de gegevens onder zich, het "
-                  "<strong>tweede</strong> is de mediaan, het <strong>derde</strong> laat driekwart onder zich. "
-                  "De <strong>interkwartielafstand</strong> is de breedte van de <strong>doos van de "
-                  "boxplot</strong>, en die doos bevat precies de <strong>middelste helft</strong> van de "
-                  "gegevens. Omdat de uiterste waarden erbuiten vallen, is die maat ongevoelig voor één "
-                  "uitschieter, terwijl de variatiebreedte er meteen door opblaast."),
-            ("p", "Een <strong>kleine standaardafwijking</strong> betekent dat de waarden dicht bij elkaar "
-                  "liggen. Heeft klas A bij hetzelfde gemiddelde een grotere standaardafwijking dan klas B, "
-                  "dan liggen in klas A de punten verder uit elkaar."),
+            ("p", "Het <strong>eerste kwartiel \\(Q_{1}\\)</strong> laat een kwart van de gegevens onder "
+                  "zich, <strong>\\(Q_{2}\\)</strong> is de mediaan, <strong>\\(Q_{3}\\)</strong> laat "
+                  "driekwart onder zich. De <strong>interkwartielafstand \\(Q_{3} - Q_{1}\\)</strong> is de "
+                  "breedte van de <strong>doos van de boxplot</strong>, en die doos bevat precies de "
+                  "<strong>middelste helft</strong> van de gegevens. Omdat de uiterste waarden erbuiten "
+                  "vallen, is die maat ongevoelig voor één uitschieter, terwijl de variatiebreedte er meteen "
+                  "door opblaast."),
+        ]),
+        dict(kop="Een boxplot lezen", blokken=[
+            ("fig", svg.boxplot([3, 5, 5, 6, 8, 9, 11, 11, 14], stap=2),
+             "de doos loopt van het eerste tot het derde kwartiel, met de mediaan als streep erin"),
+            ("p", "Een <strong>kleine standaardafwijking \\(\\sigma\\)</strong> betekent dat de waarden dicht "
+                  "bij elkaar liggen. Heeft klas A bij hetzelfde gemiddelde een grotere \\(\\sigma\\) dan "
+                  "klas B, dan liggen in klas A de punten verder uit elkaar."),
         ]),
     ],
     onthoud=[
         "Numeriek is rekenbaar; categorisch is geordend (zeer goed, goed, zwak) of niet.",
         "Klassenmidden is het gemiddelde van de twee klassengrenzen.",
-        "Absolute frequentie is het aantal, relatieve het aandeel; samen 100 %.",
+        r"Absolute frequentie is het aantal, relatieve het aandeel; samen \(100\,\%\).",
         "Staafdiagram: staven los. Histogram: staven raken elkaar.",
         "Cirkeldiagram voor aandelen, lijndiagram voor verloop in de tijd.",
         "Boxplot: kleinste, drie kwartielen, grootste. De doos is de middelste helft.",
-        "Gemiddelde is de som gedeeld door het aantal; mediaan is de middelste; modus komt het vaakst voor.",
+        r"\(\bar{x}\) is de som gedeeld door het aantal; de mediaan is de middelste; de modus komt het vaakst voor.",
         "Bij een even aantal is de mediaan het gemiddelde van de twee middelste.",
-        "Het gemiddelde is gevoelig voor uitschieters, de mediaan niet.",
-        "Interkwartielafstand is Q3 min Q1 en is ongevoelig voor uitschieters.",
-        "De standaardafwijking meet hoe ver de waarden gemiddeld van het gemiddelde liggen.",
+        r"Het gemiddelde \(\bar{x}\) is gevoelig voor uitschieters, de mediaan niet.",
+        r"De interkwartielafstand \(Q_{3} - Q_{1}\) is ongevoelig voor uitschieters.",
+        r"De standaardafwijking \(\sigma\) meet hoe ver de waarden gemiddeld van het gemiddelde liggen.",
     ],
 )
 

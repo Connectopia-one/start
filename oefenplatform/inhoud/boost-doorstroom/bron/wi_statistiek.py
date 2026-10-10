@@ -54,16 +54,16 @@ DEEL1 = [
     dict(
         type="meerkeuze",
         vraag="Van 25 leerlingen komen er 10 met de fiets. Wat is de relatieve frequentie?",
-        opties=["40 procent", "10 procent", "25 procent", "15 procent"],
+        opties=[r"\(40\,\%\)", r"\(10\,\%\)", r"\(25\,\%\)", r"\(15\,\%\)"],
         antwoord=0,
-        uitleg="10 gedeeld door 25 is 0,4.",
+        uitleg=r"\(\frac{10}{25} = 0{,}4 = 40\,\%\).",
     ),
     dict(
         type="meerkeuze",
-        vraag="Wat is het klassenmidden van de klasse van 10 tot 20?",
-        opties=["15", "10", "20", "5"],
+        vraag=r"Wat is het klassenmidden van de klasse \(\left[10, 20\right[\)?",
+        opties=[r"\(15\)", r"\(10\)", r"\(20\)", r"\(5\)"],
         antwoord=0,
-        uitleg="Het gemiddelde van de twee grenzen. Je gebruikt het om met gegroepeerde gegevens te rekenen.",
+        uitleg=r"\(\frac{10 + 20}{2} = 15\), het gemiddelde van de twee grenzen. Je gebruikt het om met gegroepeerde gegevens te rekenen.",
     ),
     dict(
         type="meerkeuze",
@@ -99,7 +99,7 @@ DEEL1 = [
             "om het aantal uitschieters te tellen",
         ],
         antwoord=0,
-        uitleg="Alle sectoren samen zijn honderd procent. Bij veel categorieën wordt het onleesbaar.",
+        uitleg="Alle sectoren samen zijn \\(100\\,\\%\\). Bij veel categorieën wordt het onleesbaar.",
     ),
     dict(
         type="meerkeuze",
@@ -175,7 +175,7 @@ DEEL1 = [
     ),
     dict(
         type="waarofniet",
-        vraag="Alle relatieve frequenties samen geven honderd procent.",
+        vraag=r"Alle relatieve frequenties samen geven \(100\,\%\).",
         antwoord=True,
         uitleg="Ze verdelen het geheel onder elkaar.",
     ),
@@ -187,9 +187,9 @@ DEEL1 = [
     ),
     dict(
         type="invultekst",
-        vraag="Wat is het klassenmidden van de klasse van 20 tot 30?",
+        vraag=r"Wat is het klassenmidden van de klasse \(\left[20, 30\right[\)?",
         antwoord=["25"],
-        uitleg="Het gemiddelde van de grenzen.",
+        uitleg=r"\(\frac{20 + 30}{2} = 25\), het gemiddelde van de grenzen.",
     ),
     dict(
         type="invultekst",
@@ -201,14 +201,14 @@ DEEL1 = [
         type="invultekst",
         vraag="Van 50 mensen kiezen er 20 voor soep. Hoeveel procent is dat?",
         antwoord=["40", "40 procent", "40%"],
-        uitleg="20 gedeeld door 50.",
+        uitleg=r"\(\frac{20}{50} = 0{,}4 = 40\,\%\).",
     ),
 ]
 
 DEEL2 = [
     dict(
         type="meerkeuze",
-        vraag="Hoe bereken je het rekenkundig gemiddelde?",
+        vraag=r"Hoe bereken je het rekenkundig gemiddelde \(\bar{x}\)?",
         opties=[
             "de som van alle waarden gedeeld door het aantal waarden",
             "de middelste waarde van de gerangschikte reeks",
@@ -220,24 +220,24 @@ DEEL2 = [
     ),
     dict(
         type="meerkeuze",
-        vraag="Wat is de mediaan van 3, 7, 8, 12 en 20?",
-        opties=["8", "10", "12", "7"],
+        vraag=r"Wat is de mediaan van \(3,\ 7,\ 8,\ 12,\ 20\)?",
+        opties=[r"\(8\)", r"\(10\)", r"\(12\)", r"\(7\)"],
         antwoord=0,
-        uitleg="De reeks staat al gerangschikt; 8 is de derde van vijf waarden.",
+        uitleg=r"De reeks staat al gerangschikt; \(8\) is de derde van vijf waarden.",
     ),
     dict(
         type="meerkeuze",
-        vraag="Wat is de mediaan van 4, 6, 9 en 11?",
-        opties=["7,5", "6", "9", "7"],
+        vraag=r"Wat is de mediaan van \(4,\ 6,\ 9,\ 11\)?",
+        opties=[r"\(7{,}5\)", r"\(6\)", r"\(9\)", r"\(7\)"],
         antwoord=0,
-        uitleg="Bij een even aantal neem je het gemiddelde van de twee middelste.",
+        uitleg=r"Bij een even aantal neem je het gemiddelde van de twee middelste: \(\frac{6 + 9}{2} = 7{,}5\).",
     ),
     dict(
         type="meerkeuze",
-        vraag="Wat is de modus van 2, 3, 3, 5 en 9?",
-        opties=["3", "5", "4,4", "2"],
+        vraag=r"Wat is de modus van \(2,\ 3,\ 3,\ 5,\ 9\)?",
+        opties=[r"\(3\)", r"\(5\)", r"\(4{,}4\)", r"\(2\)"],
         antwoord=0,
-        uitleg="De waarde die het vaakst voorkomt. Het gemiddelde is hier 4,4.",
+        uitleg=r"De waarde die het vaakst voorkomt. Het gemiddelde is hier \(4{,}4\).",
     ),
     dict(
         type="meerkeuze",
@@ -265,7 +265,7 @@ DEEL2 = [
     ),
     dict(
         type="meerkeuze",
-        vraag="Wat is het eerste kwartiel?",
+        vraag=r"Wat is het eerste kwartiel \(Q_{1}\)?",
         opties=[
             "de waarde waaronder een kwart van de gegevens ligt",
             "de waarde waaronder de helft van de gegevens ligt",
@@ -273,7 +273,7 @@ DEEL2 = [
             "het gemiddelde van het eerste kwart van de reeks",
         ],
         antwoord=0,
-        uitleg="Het tweede kwartiel is de mediaan, het derde laat driekwart onder zich.",
+        uitleg=r"\(Q_{2}\) is de mediaan, \(Q_{3}\) laat driekwart onder zich.",
     ),
     dict(
         type="meerkeuze",
@@ -285,7 +285,7 @@ DEEL2 = [
             "het gemiddelde van de vier kwartielen samen",
         ],
         antwoord=0,
-        uitleg="Dat is de breedte van de doos van de boxplot: de middelste helft van de gegevens.",
+        uitleg=r"Dat is \(Q_{3} - Q_{1}\), de breedte van de doos van de boxplot: de middelste helft van de gegevens.",
     ),
     dict(
         type="meerkeuze",
@@ -301,7 +301,7 @@ DEEL2 = [
     ),
     dict(
         type="meerkeuze",
-        vraag="Wat meet de standaardafwijking?",
+        vraag=r"Wat meet de standaardafwijking \(\sigma\)?",
         opties=[
             "hoe ver de waarden gemiddeld van het gemiddelde af liggen",
             "hoe ver de grootste en de kleinste waarde uit elkaar liggen",
@@ -325,10 +325,10 @@ DEEL2 = [
     ),
     dict(
         type="meerkeuze",
-        vraag="Wat is het gemiddelde van 4, 8, 10 en 14?",
-        opties=["9", "10", "8", "36"],
+        vraag=r"Wat is het gemiddelde van \(4,\ 8,\ 10,\ 14\)?",
+        opties=[r"\(9\)", r"\(10\)", r"\(8\)", r"\(36\)"],
         antwoord=0,
-        uitleg="De som is 36, gedeeld door 4.",
+        uitleg=r"\(\frac{4 + 8 + 10 + 14}{4} = \frac{36}{4} = 9\).",
     ),
     dict(
         type="meerkeuze",
@@ -368,20 +368,20 @@ DEEL2 = [
     ),
     dict(
         type="invultekst",
-        vraag="Wat is de mediaan van 2, 5, 6, 9 en 20?",
+        vraag=r"Wat is de mediaan van \(2,\ 5,\ 6,\ 9,\ 20\)?",
         antwoord=["6"],
         uitleg="De middelste van vijf gerangschikte waarden.",
     ),
     dict(
         type="invultekst",
-        vraag="Hoe noem je het verschil tussen het derde en het eerste kwartiel?",
+        vraag=r"Hoe noem je het verschil tussen \(Q_{3}\) en \(Q_{1}\)?",
         antwoord=["interkwartielafstand", "de interkwartielafstand"],
         uitleg="Dat is de breedte van de doos van de boxplot.",
     ),
     dict(
         type="invultekst",
-        vraag="Wat is het gemiddelde van 6, 10 en 14?",
+        vraag=r"Wat is het gemiddelde van \(6,\ 10,\ 14\)?",
         antwoord=["10"],
-        uitleg="De som is 30, gedeeld door 3.",
+        uitleg=r"\(\frac{6 + 10 + 14}{3} = \frac{30}{3} = 10\).",
     ),
 ]

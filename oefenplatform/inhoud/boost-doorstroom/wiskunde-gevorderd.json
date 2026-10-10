@@ -5162,25 +5162,25 @@
           "type": "meerkeuze",
           "vraag": "Van 25 leerlingen komen er 10 met de fiets. Wat is de relatieve frequentie?",
           "opties": [
-            "40 procent",
-            "10 procent",
-            "25 procent",
-            "15 procent"
+            "\\(40\\,\\%\\)",
+            "\\(10\\,\\%\\)",
+            "\\(25\\,\\%\\)",
+            "\\(15\\,\\%\\)"
           ],
           "antwoord": 0,
-          "uitleg": "10 gedeeld door 25 is 0,4."
+          "uitleg": "\\(\\frac{10}{25} = 0{,}4 = 40\\,\\%\\)."
         },
         {
           "type": "meerkeuze",
-          "vraag": "Wat is het klassenmidden van de klasse van 10 tot 20?",
+          "vraag": "Wat is het klassenmidden van de klasse \\(\\left[10, 20\\right[\\)?",
           "opties": [
-            "15",
-            "10",
-            "20",
-            "5"
+            "\\(15\\)",
+            "\\(10\\)",
+            "\\(20\\)",
+            "\\(5\\)"
           ],
           "antwoord": 0,
-          "uitleg": "Het gemiddelde van de twee grenzen. Je gebruikt het om met gegroepeerde gegevens te rekenen."
+          "uitleg": "\\(\\frac{10 + 20}{2} = 15\\), het gemiddelde van de twee grenzen. Je gebruikt het om met gegroepeerde gegevens te rekenen."
         },
         {
           "type": "meerkeuze",
@@ -5216,7 +5216,7 @@
             "om het aantal uitschieters te tellen"
           ],
           "antwoord": 0,
-          "uitleg": "Alle sectoren samen zijn honderd procent. Bij veel categorieën wordt het onleesbaar."
+          "uitleg": "Alle sectoren samen zijn \\(100\\,\\%\\). Bij veel categorieën wordt het onleesbaar."
         },
         {
           "type": "meerkeuze",
@@ -5292,7 +5292,7 @@
         },
         {
           "type": "waarofniet",
-          "vraag": "Alle relatieve frequenties samen geven honderd procent.",
+          "vraag": "Alle relatieve frequenties samen geven \\(100\\,\\%\\).",
           "antwoord": true,
           "uitleg": "Ze verdelen het geheel onder elkaar."
         },
@@ -5304,11 +5304,11 @@
         },
         {
           "type": "invultekst",
-          "vraag": "Wat is het klassenmidden van de klasse van 20 tot 30?",
+          "vraag": "Wat is het klassenmidden van de klasse \\(\\left[20, 30\\right[\\)?",
           "antwoord": [
             "25"
           ],
-          "uitleg": "Het gemiddelde van de grenzen."
+          "uitleg": "\\(\\frac{20 + 30}{2} = 25\\), het gemiddelde van de grenzen."
         },
         {
           "type": "invultekst",
@@ -5327,7 +5327,7 @@
             "40 procent",
             "40%"
           ],
-          "uitleg": "20 gedeeld door 50."
+          "uitleg": "\\(\\frac{20}{50} = 0{,}4 = 40\\,\\%\\)."
         }
       ]
     },
@@ -5338,7 +5338,7 @@
       "vragen": [
         {
           "type": "meerkeuze",
-          "vraag": "Hoe bereken je het rekenkundig gemiddelde?",
+          "vraag": "Hoe bereken je het rekenkundig gemiddelde \\(\\bar{x}\\)?",
           "opties": [
             "de som van alle waarden gedeeld door het aantal waarden",
             "de middelste waarde van de gerangschikte reeks",
@@ -5350,39 +5350,39 @@
         },
         {
           "type": "meerkeuze",
-          "vraag": "Wat is de mediaan van 3, 7, 8, 12 en 20?",
+          "vraag": "Wat is de mediaan van \\(3,\\ 7,\\ 8,\\ 12,\\ 20\\)?",
           "opties": [
-            "8",
-            "10",
-            "12",
-            "7"
+            "\\(8\\)",
+            "\\(10\\)",
+            "\\(12\\)",
+            "\\(7\\)"
           ],
           "antwoord": 0,
-          "uitleg": "De reeks staat al gerangschikt; 8 is de derde van vijf waarden."
+          "uitleg": "De reeks staat al gerangschikt; \\(8\\) is de derde van vijf waarden."
         },
         {
           "type": "meerkeuze",
-          "vraag": "Wat is de mediaan van 4, 6, 9 en 11?",
+          "vraag": "Wat is de mediaan van \\(4,\\ 6,\\ 9,\\ 11\\)?",
           "opties": [
-            "7,5",
-            "6",
-            "9",
-            "7"
+            "\\(7{,}5\\)",
+            "\\(6\\)",
+            "\\(9\\)",
+            "\\(7\\)"
           ],
           "antwoord": 0,
-          "uitleg": "Bij een even aantal neem je het gemiddelde van de twee middelste."
+          "uitleg": "Bij een even aantal neem je het gemiddelde van de twee middelste: \\(\\frac{6 + 9}{2} = 7{,}5\\)."
         },
         {
           "type": "meerkeuze",
-          "vraag": "Wat is de modus van 2, 3, 3, 5 en 9?",
+          "vraag": "Wat is de modus van \\(2,\\ 3,\\ 3,\\ 5,\\ 9\\)?",
           "opties": [
-            "3",
-            "5",
-            "4,4",
-            "2"
+            "\\(3\\)",
+            "\\(5\\)",
+            "\\(4{,}4\\)",
+            "\\(2\\)"
           ],
           "antwoord": 0,
-          "uitleg": "De waarde die het vaakst voorkomt. Het gemiddelde is hier 4,4."
+          "uitleg": "De waarde die het vaakst voorkomt. Het gemiddelde is hier \\(4{,}4\\)."
         },
         {
           "type": "meerkeuze",
@@ -5410,7 +5410,7 @@
         },
         {
           "type": "meerkeuze",
-          "vraag": "Wat is het eerste kwartiel?",
+          "vraag": "Wat is het eerste kwartiel \\(Q_{1}\\)?",
           "opties": [
             "de waarde waaronder een kwart van de gegevens ligt",
             "de waarde waaronder de helft van de gegevens ligt",
@@ -5418,7 +5418,7 @@
             "het gemiddelde van het eerste kwart van de reeks"
           ],
           "antwoord": 0,
-          "uitleg": "Het tweede kwartiel is de mediaan, het derde laat driekwart onder zich."
+          "uitleg": "\\(Q_{2}\\) is de mediaan, \\(Q_{3}\\) laat driekwart onder zich."
         },
         {
           "type": "meerkeuze",
@@ -5430,7 +5430,7 @@
             "het gemiddelde van de vier kwartielen samen"
           ],
           "antwoord": 0,
-          "uitleg": "Dat is de breedte van de doos van de boxplot: de middelste helft van de gegevens."
+          "uitleg": "Dat is \\(Q_{3} - Q_{1}\\), de breedte van de doos van de boxplot: de middelste helft van de gegevens."
         },
         {
           "type": "meerkeuze",
@@ -5446,7 +5446,7 @@
         },
         {
           "type": "meerkeuze",
-          "vraag": "Wat meet de standaardafwijking?",
+          "vraag": "Wat meet de standaardafwijking \\(\\sigma\\)?",
           "opties": [
             "hoe ver de waarden gemiddeld van het gemiddelde af liggen",
             "hoe ver de grootste en de kleinste waarde uit elkaar liggen",
@@ -5470,15 +5470,15 @@
         },
         {
           "type": "meerkeuze",
-          "vraag": "Wat is het gemiddelde van 4, 8, 10 en 14?",
+          "vraag": "Wat is het gemiddelde van \\(4,\\ 8,\\ 10,\\ 14\\)?",
           "opties": [
-            "9",
-            "10",
-            "8",
-            "36"
+            "\\(9\\)",
+            "\\(10\\)",
+            "\\(8\\)",
+            "\\(36\\)"
           ],
           "antwoord": 0,
-          "uitleg": "De som is 36, gedeeld door 4."
+          "uitleg": "\\(\\frac{4 + 8 + 10 + 14}{4} = \\frac{36}{4} = 9\\)."
         },
         {
           "type": "meerkeuze",
@@ -5518,7 +5518,7 @@
         },
         {
           "type": "invultekst",
-          "vraag": "Wat is de mediaan van 2, 5, 6, 9 en 20?",
+          "vraag": "Wat is de mediaan van \\(2,\\ 5,\\ 6,\\ 9,\\ 20\\)?",
           "antwoord": [
             "6"
           ],
@@ -5526,7 +5526,7 @@
         },
         {
           "type": "invultekst",
-          "vraag": "Hoe noem je het verschil tussen het derde en het eerste kwartiel?",
+          "vraag": "Hoe noem je het verschil tussen \\(Q_{3}\\) en \\(Q_{1}\\)?",
           "antwoord": [
             "interkwartielafstand",
             "de interkwartielafstand"
@@ -5535,11 +5535,11 @@
         },
         {
           "type": "invultekst",
-          "vraag": "Wat is het gemiddelde van 6, 10 en 14?",
+          "vraag": "Wat is het gemiddelde van \\(6,\\ 10,\\ 14\\)?",
           "antwoord": [
             "10"
           ],
-          "uitleg": "De som is 30, gedeeld door 3."
+          "uitleg": "\\(\\frac{6 + 10 + 14}{3} = \\frac{30}{3} = 10\\)."
         }
       ]
     },
