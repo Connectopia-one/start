@@ -8685,3 +8685,97 @@ def koordeenraaklijn(breedte=470):
                     "schuift het rechtse punt naar links, dan valt de oranje lijn op de groene",
                     9, DIM, "middle"))
     return _svg(breedte, h, "\n".join(d))
+
+
+def tweerijen(breedte=470):
+    r"""De punten van een rekenkundige rij naast die van een meetkundige rij."""
+    h = 196
+    gap = 14
+    w = (breedte - gap) / 2
+    ox, oy = 32, 132
+    top, rechts = 24, w - 16
+    panelen = (
+        ([3, 7, 11, 15, 19, 23], "rekenkundige rij", "uₙ = 3 + (n − 1) · 4", False),
+        ([2, 6, 18, 54, 162], "meetkundige rij", "uₙ = 2 · 3ⁿ⁻¹", True),
+    )
+    d = []
+    for i, (waarden, naam, formule, krom) in enumerate(panelen):
+        X = i * (w + gap)
+        top_waarde = max(waarden)
+        n = len(waarden)
+        d.append(f'<rect x="{X+4}" y="6" width="{w-8:.1f}" height="{h-44}" rx="7" '
+                 f'fill="#ffffff" stroke="{BORDER}" stroke-width="1.2"/>')
+        d.append(f'<line x1="{X+ox}" y1="{top}" x2="{X+ox}" y2="{oy}" stroke="{INK}" '
+                 f'stroke-width="1.5"/>')
+        d.append(f'<line x1="{X+ox}" y1="{oy}" x2="{X+rechts:.1f}" y2="{oy}" '
+                 f'stroke="{INK}" stroke-width="1.5"/>')
+        d.append(_tekst(X + ox - 8, top + 4, "uₙ", 9.5, DIM, "end"))
+        d.append(_tekst(X + rechts + 2, oy + 14, "n", 9.5, DIM, "middle"))
+
+        eind = rechts - 18
+
+        def plek(k, v):
+            px = X + ox + (k / (n - 1)) * (eind - ox)
+            py = oy - (v / top_waarde) * (oy - top)
+            return px, py
+
+        if krom:
+            baan = []
+            for s in range(61):
+                u = s / 60 * (n - 1)
+                px = X + ox + (u / (n - 1)) * (eind - ox)
+                py = oy - (2 * 3 ** u / top_waarde) * (oy - top)
+                baan.append(f"{px:.1f},{py:.1f}")
+            d.append(f'<polyline points="{" ".join(baan)}" fill="none" stroke="{AMBER}" '
+                     f'stroke-width="1.8" stroke-dasharray="6 4"/>')
+        else:
+            a = plek(0, waarden[0])
+            b = plek(n - 1, waarden[-1])
+            d.append(f'<line x1="{a[0]:.1f}" y1="{a[1]:.1f}" x2="{b[0]:.1f}" y2="{b[1]:.1f}" '
+                     f'stroke="{AMBER}" stroke-width="1.8" stroke-dasharray="6 4"/>')
+        for k, v in enumerate(waarden):
+            px, py = plek(k, v)
+            d.append(f'<circle cx="{px:.1f}" cy="{py:.1f}" r="3.4" fill="{FOREST}" '
+                     f'stroke="#ffffff" stroke-width="1.2"/>')
+            if k == 0:
+                d.append(_tekst(px + 8, py - 10, str(v), 8.5, DIM, "start"))
+            else:
+                d.append(_tekst(px, py - 9, str(v), 8.5, DIM, "middle"))
+            d.append(_tekst(px, oy + 13, str(k + 1), 8.5, DIM, "middle"))
+        d.append(_tekst(X + w / 2, h - 22, naam, 10.5, DARK, "middle", True))
+        d.append(_tekst(X + w / 2, h - 7, formule, 10, AMBER, "middle"))
+    return _svg(breedte, h, "\n".join(d))
+
+
+def meetkundigesom(breedte=470):
+    r"""De stukken 1, een half, een vierde ... die samen de lengte twee vullen."""
+    h = 140
+    links, rechts = 26, breedte - 26
+    eenheid = (rechts - links) / 2.0
+    y, hoog = 54, 36
+    d = []
+    stukken = [1.0]
+    while stukken[-1] > 0.02:
+        stukken.append(stukken[-1] / 2)
+    x = links
+    namen = ["1", "½", "¼", "⅛"]
+    for i, s in enumerate(stukken):
+        br = s * eenheid
+        kleur = FOREST if i % 2 == 0 else AMBER
+        d.append(f'<rect x="{x:.1f}" y="{y}" width="{br:.1f}" height="{hoog}" '
+                 f'fill="{kleur}" fill-opacity="0.22" stroke="{kleur}" stroke-width="1.3"/>')
+        if i < len(namen):
+            d.append(_tekst(x + br / 2, y + hoog / 2 + 5, namen[i], 13, DARK, "middle", True))
+        x += br
+    d.append(f'<line x1="{links}" y1="{y+hoog+10}" x2="{rechts}" y2="{y+hoog+10}" '
+             f'stroke="{INK}" stroke-width="1.4"/>')
+    for v, label in ((0, "0"), (1, "1"), (2, "2")):
+        tx = links + v * eenheid
+        d.append(f'<line x1="{tx:.1f}" y1="{y+hoog+10}" x2="{tx:.1f}" y2="{y+hoog+17}" '
+                 f'stroke="{INK}" stroke-width="1.4"/>')
+        d.append(_tekst(tx, y + hoog + 30, label, 10, DIM, "middle"))
+
+    d.append(f'<line x1="{rechts}" y1="{y-16}" x2="{rechts}" y2="{y+hoog+10}" '
+             f'stroke="{DARK}" stroke-width="1.3" stroke-dasharray="5 3"/>')
+    d.append(_tekst(rechts - 6, y - 20, "hier stopt de som", 10, DARK, "end", True))
+    return _svg(breedte, h, "\n".join(d))

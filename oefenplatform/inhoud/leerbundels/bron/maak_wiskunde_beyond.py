@@ -26,7 +26,7 @@ alles nog in woorden stond en had gelijk: een leerling van de derde graad moet
 
 De omzetting gebeurt thema per thema, samen met de vragen van dat thema, zodat
 een kind in de bundel dezelfde schrijfwijze terugvindt als in de oefening.
-Omgezet: thema 1 tot 7. De andere thema's staan nog in woorden.
+Omgezet: thema 1 tot 10. De andere thema's staan nog in woorden.
 """
 import sys, pathlib
 sys.path.insert(0, str(pathlib.Path(__file__).parent))
@@ -1125,102 +1125,159 @@ BUNDELS["rijen-en-hun-limiet-beyond"] = dict(
     onder="Rekenkundige en meetkundige rijen, hun sommen, en wat convergeren betekent.",
     secties=[
         dict(kop="Twee soorten rijen", blokken=[
-            ("p", tabel(["Soort rij", "Wat je telkens doet", "Hoe het vaste getal heet"], [
-                ["rekenkundige rij", "telkens hetzelfde getal optellen", "het verschil"],
-                ["meetkundige rij", "telkens met hetzelfde getal vermenigvuldigen", "de reden"],
+            ("p", r"Een rij is een lijstje getallen met een vaste volgorde. Je noteert de "
+                  r"\(n\)-de term als \(u_{n}\), dus \(u_{1}\) is de eerste term, \(u_{2}\) de "
+                  r"tweede. Er zijn twee soorten die telkens terugkomen."),
+            ("p", tabel(["Soort rij", "Wat je telkens doet", "Het vaste getal", "In symbolen"], [
+                ["rekenkundige rij", "telkens hetzelfde getal optellen",
+                 r"het verschil \(d\)", r"\(u_{n+1} = u_{n} + d\)"],
+                ["meetkundige rij", "telkens met hetzelfde getal vermenigvuldigen",
+                 r"de reden \(q\)", r"\(u_{n+1} = u_{n} \cdot q\)"],
             ])),
-            ("p", "In de rij <strong>drie, zeven, elf, vijftien</strong> is het <strong>verschil "
-                  "vier</strong>. In de rij <strong>twee, zes, achttien, vierenvijftig</strong> is de "
-                  "<strong>reden drie</strong>; dat is dus <strong>geen rekenkundige rij</strong>, want "
-                  "het verschil groeit telkens terwijl de factor gelijk blijft. In de rij <strong>één, een "
-                  "derde, een negende</strong> is de reden <strong>een derde</strong>."),
-            ("p", "<strong>Een recursief voorschrift berekent elke term uit de vorige term</strong>, en "
-                  "daarom heb je er altijd een beginterm bij nodig. Een <strong>expliciet "
-                  "voorschrift</strong> geeft de n-de term rechtstreeks: bij <strong>vier n min één</strong> "
-                  "is de <strong>eerste term drie</strong>."),
         ]),
-        dict(kop="Termen en sommen berekenen", blokken=[
-            ("p", "<strong>Het expliciete voorschrift van een rekenkundige rij is: de eerste term plus n "
-                  "min één, maal het verschil.</strong> Om bij de n-de term te komen tel je het verschil "
-                  "n min één keer op. Zo is de <strong>tiende term van drie, zeven, elf gelijk aan "
-                  "negenendertig</strong>: drie plus negen maal vier, dus negen stappen en niet tien. Bij "
-                  "een meetkundige rij vermenigvuldig je: de <strong>vijfde term van twee, zes, achttien "
-                  "is honderdtweeënzestig</strong>, namelijk twee maal drie tot de vierde."),
-            ("p", "<strong>De som van de eerste n termen van een rekenkundige rij is n maal het gemiddelde "
-                  "van de eerste en de laatste term.</strong> Je legt de rij twee keer naast elkaar, een "
-                  "keer vooruit en een keer achteruit, en elk paar geeft dan dezelfde som. Zo is de "
-                  "<strong>som van de getallen één tot en met tien gelijk aan vijfenvijftig</strong>."),
-            ("p", "Voor de <strong>som van de eerste n termen van een meetkundige rij</strong> heb je "
-                  "<strong>de eerste term, de reden en het aantal termen</strong> nodig, want in de formule "
-                  "staat de reden tot de macht n. Die formule werkt niet als de reden één is."),
+        dict(kop="De twee rijen in beeld", blokken=[
+            ("fig", svg.tweerijen(),
+             "Links de rij 3, 7, 11, 15, 19, 23. Rechts de rij 2, 6, 18, 54, 162."),
+            ("p", r"<strong>De punten \((n,\ u_{n})\) van een rekenkundige rij liggen op een "
+                  r"rechte</strong>, met \(d\) als richtingscoëfficiënt. Daarom hoort een "
+                  r"rekenkundige rij bij <strong>lineaire groei</strong> en een meetkundige rij "
+                  r"bij <strong>exponentiële groei</strong>: een vaste factor per stap is net wat "
+                  r"\(f(x) = a \cdot b^{x}\) doet."),
+        ]),
+        dict(kop="Het verschil en de reden vinden", blokken=[
+            ("p", r"Het verschil haal je uit een aftrekking, de reden uit een deling: "
+                  r"\(d = u_{n+1} - u_{n}\) en \(q = \dfrac{u_{n+1}}{u_{n}}\)."),
+            ("p", tabel(["Rij", "Soort", "Vast getal"], [
+                [r"\(3,\ 7,\ 11,\ 15,\ \dots\)", "rekenkundig", r"\(d = 4\)"],
+                [r"\(2,\ 6,\ 18,\ 54,\ \dots\)", "meetkundig", r"\(q = 3\)"],
+                [r"\(1,\ \tfrac{1}{3},\ \tfrac{1}{9},\ \dots\)", "meetkundig",
+                 r"\(q = \tfrac{1}{3}\)"],
+            ])),
+            ("p", r"De rij \(2,\ 6,\ 18,\ 54,\ \dots\) is dus <strong>geen rekenkundige "
+                  r"rij</strong>: het verschil groeit telkens (\(4\), dan \(12\), dan \(36\)) "
+                  r"terwijl de factor \(3\) blijft."),
+        ]),
+        dict(kop="Recursief of expliciet", blokken=[
+            ("p", r"<strong>Een recursief voorschrift berekent \(u_{n+1}\) uit \(u_{n}\)</strong>, "
+                  r"en daarom heb je er altijd een beginterm bij nodig. Een <strong>expliciet "
+                  r"voorschrift</strong> geeft \(u_{n}\) rechtstreeks, zonder dat je eerst alle "
+                  r"vorige termen moet berekenen."),
+            ("kader", r"recursief: \(u_{1} = 3\) en \(u_{n+1} = u_{n} + 4\)<br>"
+                      r"expliciet: \(u_{n} = 4n - 1\)<br>"
+                      r"Twee schrijfwijzen van dezelfde rij. Vul \(n = 1\) in en je vindt "
+                      r"\(u_{1} = 3\)."),
+        ]),
+        dict(kop="De n-de term van een rekenkundige rij", blokken=[
+            ("p", r"<strong>Het expliciete voorschrift van een rekenkundige rij is "
+                  r"\(u_{n} = u_{1} + (n-1)\,d\).</strong> Om bij de \(n\)-de term te komen tel "
+                  r"je het verschil precies \(n-1\) keer op bij de eerste term. Zo is de tiende "
+                  r"term van \(3,\ 7,\ 11,\ \dots\) gelijk aan "
+                  r"\(u_{10} = 3 + 9 \cdot 4 = 39\): negen stappen en niet tien, want \(u_{1}\) "
+                  r"staat er al."),
+        ]),
+        dict(kop="De n-de term van een meetkundige rij", blokken=[
+            ("p", r"Bij een meetkundige rij vermenigvuldig je in plaats van op te tellen: "
+                  r"\(u_{n} = u_{1} \cdot q^{\,n-1}\). De vijfde term van \(2,\ 6,\ 18,\ \dots\) "
+                  r"is dus \(u_{5} = 2 \cdot 3^{4} = 2 \cdot 81 = 162\)."),
+        ]),
+        dict(kop="De som van een rekenkundige rij", blokken=[
+            ("p", r"<strong>De som van de eerste \(n\) termen van een rekenkundige rij is "
+                  r"\(S_{n} = n \cdot \dfrac{u_{1} + u_{n}}{2}\)</strong>, dus \(n\) maal het "
+                  r"gemiddelde van de eerste en de laatste term. Je legt de rij twee keer naast "
+                  r"elkaar, een keer vooruit en een keer achteruit; elk paar geeft dan dezelfde "
+                  r"som \(u_{1} + u_{n}\). Zo is "
+                  r"\(1 + 2 + 3 + \dots + 10 = 10 \cdot \dfrac{1 + 10}{2} = 55\)."),
+        ]),
+        dict(kop="De som van een meetkundige rij", blokken=[
+            ("p", r"<strong>Voor een meetkundige rij met \(q \neq 1\) geldt "
+                  r"\(S_{n} = u_{1} \cdot \dfrac{1 - q^{\,n}}{1 - q}\).</strong> Je hebt er dus "
+                  r"<strong>de eerste term, de reden en het aantal termen</strong> voor nodig, "
+                  r"want \(q\) staat er tot de macht \(n\) in. Die formule werkt niet als de "
+                  r"reden één is: dan wordt de noemer nul en reken je gewoon "
+                  r"\(S_{n} = n \cdot u_{1}\)."),
         ]),
         dict(kop="Hoe een rij verloopt", blokken=[
-            ("p", "<strong>Een rekenkundige rij daalt als het verschil negatief is.</strong> Alleen het "
-                  "teken van het verschil beslist: een rij die begint bij min honderd met verschil drie "
-                  "stijgt gewoon. <strong>De punten van een rekenkundige rij liggen op een rechte</strong>, "
-                  "met het verschil als richtingscoëfficiënt; daarom hoort ze bij <strong>lineaire "
-                  "groei</strong>. Bij een <strong>meetkundige rij hoort exponentiële groei</strong>."),
-            ("p", "Een <strong>meetkundige rij met een reden groter dan één en een positieve eerste term "
-                  "stijgt, met een toenemende stijging</strong>: elke stap wordt groter dan de vorige. "
-                  "<strong>Bij reden één blijft elke term gelijk</strong> en is de rij constant, dus zo'n "
-                  "rij stijgt zeker niet steeds sneller. <strong>Bij een negatieve reden wisselen de "
-                  "termen van teken</strong>; zo'n rij heet <strong>alternerend</strong>, en je herkent "
-                  "haar aan een factor min één tot de macht n in het voorschrift."),
-            ("weetje", "Zet je geld op een rekening met <strong>samengestelde intrest</strong>, dan vormen "
-                       "de jaarlijkse saldo's een <strong>meetkundige rij</strong>: elk jaar dezelfde "
-                       "groeifactor. Bij enkelvoudige intrest zou je elk jaar hetzelfde bedrag optellen, en "
-                       "dan is de rij rekenkundig."),
+            ("p", r"<strong>Een rekenkundige rij daalt als \(d < 0\).</strong> Alleen het teken "
+                  r"van het verschil beslist: een rij die begint bij \(u_{1} = -100\) met "
+                  r"\(d = 3\) stijgt gewoon."),
+            ("p", r"Een <strong>meetkundige rij met \(q > 1\) en \(u_{1} > 0\) stijgt, met een "
+                  r"toenemende stijging</strong>: elke stap wordt groter dan de vorige, want je "
+                  r"vermenigvuldigt telkens een groter getal met dezelfde \(q\). "
+                  r"<strong>Bij \(q = 1\) blijft elke term gelijk</strong> en is de rij constant, "
+                  r"dus zo'n rij stijgt zeker niet steeds sneller. <strong>Bij \(q < 0\) wisselen "
+                  r"de termen van teken</strong>: ze zijn om beurten positief en negatief. Zo'n "
+                  r"rij heet <strong>alternerend</strong>, en je herkent haar aan een factor "
+                  r"\((-1)^{n}\) in het voorschrift."),
+            ("weetje", r"Zet je geld op een rekening met <strong>samengestelde intrest</strong>, "
+                       r"dan vormen de jaarlijkse saldo's een <strong>meetkundige rij</strong>: "
+                       r"elk jaar dezelfde groeifactor \(q\). Bij enkelvoudige intrest tel je elk "
+                       r"jaar hetzelfde bedrag op, en dan is de rij rekenkundig."),
         ]),
         dict(kop="Convergeren en divergeren", blokken=[
-            ("p", "<strong>Een rij convergeert als haar termen een vast eindig getal naderen</strong>; dat "
-                  "getal is haar limiet. Gaat ze naar oneindig of blijft ze springen, dan "
-                  "<strong>divergeert</strong> ze. <strong>Een divergente rij kan dus naar plus oneindig "
-                  "gaan</strong>: divergent betekent alleen dat er geen eindige limiet is."),
+            ("p", r"<strong>Een rij convergeert als haar termen een vast eindig getal "
+                  r"naderen</strong>: \(\lim\limits_{n \to +\infty} u_{n} = L\). Gaat ze naar "
+                  r"oneindig of blijft ze springen, dan <strong>divergeert</strong> ze. "
+                  r"<strong>Een divergente rij kan dus naar \(+\infty\) gaan</strong>: divergent "
+                  r"betekent alleen dat er geen eindige limiet is."),
+            ("kader", r"<strong>Bij een rij spreek je alleen over de limiet op oneindig, omdat "
+                      r"\(n\) enkel in de natuurlijke getallen \(\mathbb{N}\) ligt.</strong> Er "
+                      r"zijn geen tussenwaarden om naartoe te kruipen: tussen \(u_{3}\) en "
+                      r"\(u_{4}\) ligt niets."),
+        ]),
+        dict(kop="Limieten van bekende rijen", blokken=[
             ("p", tabel(["Rij", "Limiet", "Waarom"], [
-                ["één gedeeld door n", "nul", "hoe groter n, hoe kleiner de breuk"],
-                ["twee n plus één, gedeeld door n", "twee", "splits op in twee plus één op n"],
-                ["twee tot de macht n", "plus oneindig", "bij een reden groter dan één groeien de termen onbeperkt"],
-                ["min één tot de macht n", "bestaat niet", "de rij blijft springen tussen min één en één"],
-                ["een meetkundige rij met reden tussen min één en één", "nul", "telkens met een kleiner getal vermenigvuldigen"],
+                [r"\(\dfrac{1}{n}\)", r"\(0\)", "hoe groter n, hoe kleiner de breuk"],
+                [r"\(\dfrac{2n + 1}{n}\)", r"\(2\)",
+                 r"splits op in \(2 + \dfrac{1}{n}\)"],
+                [r"\(2^{\,n}\)", r"\(+\infty\)", "bij een reden groter dan één groeien de termen onbeperkt"],
+                [r"\((-1)^{n}\)", "bestaat niet", r"de rij blijft springen tussen \(-1\) en \(1\)"],
+                [r"\(q^{\,n}\) met \(-1 < q < 1\)", r"\(0\)",
+                 "telkens met een kleiner getal vermenigvuldigen"],
             ])),
-            ("p", "<strong>Een rekenkundige rij met verschil twee convergeert niet</strong>: ze blijft met "
-                  "twee per stap toenemen. Alleen een rekenkundige rij met verschil nul convergeert. Voor "
-                  "<strong>twee convergente rijen is de limiet van de som de som van de limieten</strong>, "
-                  "net als bij functies."),
-            ("kader", "<strong>Bij een rij spreek je alleen over de limiet op oneindig, omdat een rij enkel "
-                      "in de natuurlijke getallen gedefinieerd is.</strong> Er zijn geen tussenwaarden om "
-                      "naartoe te kruipen: tussen de derde en de vierde term ligt niets."),
+            ("p", r"<strong>Een rekenkundige rij met \(d = 2\) convergeert niet</strong>: ze "
+                  r"blijft met twee per stap toenemen. Alleen een rekenkundige rij met "
+                  r"\(d = 0\) convergeert. Voor <strong>twee convergente rijen is de limiet van "
+                  r"de som de som van de limieten</strong>, net als bij functies."),
+        ]),
+        dict(kop="De somrij", blokken=[
+            ("p", r"<strong>De somrij van een rij is de rij \(S_{1},\ S_{2},\ S_{3},\ \dots\) "
+                  r"van de som van de eerste \(n\) termen.</strong> Haar \(n\)-de term is dus "
+                  r"\(S_{n} = u_{1} + u_{2} + \dots + u_{n}\). <strong>De somrij van een "
+                  r"meetkundige rij met \(q = \tfrac{1}{2}\) convergeert.</strong>"),
+            ("fig", svg.meetkundigesom(),
+             r"De stukken 1, ½, ¼, ⅛ … achter elkaar gelegd. Elk volgend stuk is half "
+             r"zo lang als het vorige."),
         ]),
         dict(kop="De oneindige meetkundige som", blokken=[
-            ("p", "<strong>De somrij van een rij is de rij van de som van de eerste n termen.</strong> Haar "
-                  "n-de term is dus de som tot en met de n-de term van de oorspronkelijke rij. <strong>De "
-                  "somrij van een meetkundige rij met reden een half convergeert.</strong>"),
-            ("p", "<strong>De som van een oneindige meetkundige rij bereken je als de eerste term gedeeld "
-                  "door één min de reden.</strong> De reden tot de macht n kruipt immers naar nul, dus uit "
-                  "de gewone somformule blijft dat over. Zo is <strong>één plus een half plus een vierde "
-                  "plus een achtste, en zo verder, gelijk aan twee</strong>."),
-            ("p", "<strong>Niet elke oneindige meetkundige rij heeft een eindige som.</strong> De "
-                  "voorwaarde is dat <strong>de absolute waarde van de reden kleiner is dan één</strong>; "
-                  "bij reden twee groeit de som onbeperkt."),
-            ("p", "Een voorbeeld uit de praktijk: een <strong>bal die telkens tot zeventig procent van de "
-                  "vorige hoogte stuitert</strong>. Omdat nul komma zeven onder één ligt, kan je <strong>de "
-                  "totale afgelegde hoogte berekenen</strong>: oneindig veel sprongen geven samen een "
-                  "eindige hoogte."),
-            ("weetje", "<strong>Nul komma negen negen negen, met oneindig veel negens, is gelijk aan "
-                       "één.</strong> Het is de som van een meetkundige rij met eerste term negen tienden "
-                       "en reden een tiende, en die som is precies één."),
+            ("p", r"<strong>De som van een oneindige meetkundige rij is "
+                  r"\(S = \dfrac{u_{1}}{1 - q}\).</strong> In de gewone somformule kruipt "
+                  r"\(q^{\,n}\) immers naar nul, en dan blijft dit over. Zo is "
+                  r"\(1 + \tfrac{1}{2} + \tfrac{1}{4} + \tfrac{1}{8} + \dots = "
+                  r"\dfrac{1}{1 - 0{,}5} = 2\)."),
+            ("p", r"<strong>Niet elke oneindige meetkundige rij heeft een eindige som.</strong> "
+                  r"De voorwaarde is dat <strong>de absolute waarde van de reden kleiner is dan "
+                  r"één</strong>, dus \(|q| < 1\); bij \(q = 2\) groeit de som onbeperkt."),
+        ]),
+        dict(kop="Een bal die uitstuitert", blokken=[
+            ("p", r"Een voorbeeld uit de praktijk: een <strong>bal die telkens tot \(70\%\) van "
+                  r"de vorige hoogte stuitert</strong>. Omdat \(q = 0{,}7\) onder één ligt, kan "
+                  r"je <strong>de totale afgelegde hoogte berekenen</strong>: oneindig veel "
+                  r"sprongen geven samen een eindige hoogte."),
+            ("weetje", r"<strong>\(0{,}999\dots\), met oneindig veel negens, is gelijk aan "
+                       r"\(1\).</strong> Het is de som van een meetkundige rij met "
+                       r"\(u_{1} = \tfrac{9}{10}\) en \(q = \tfrac{1}{10}\), en "
+                       r"\(\dfrac{0{,}9}{1 - 0{,}1} = 1\)."),
         ]),
     ],
     onthoud=[
-        "Een rekenkundige rij telt telkens het verschil op, een meetkundige rij vermenigvuldigt telkens met de reden.",
-        "Een recursief voorschrift berekent elke term uit de vorige en heeft een beginterm nodig.",
-        "De n-de term van een rekenkundige rij is de eerste term plus n min één, maal het verschil.",
-        "De som van n termen van een rekenkundige rij is n maal het gemiddelde van de eerste en de laatste term.",
-        "Een rekenkundige rij hoort bij lineaire groei, een meetkundige rij bij exponentiële groei.",
-        "Bij een negatieve reden wisselen de termen van teken: de rij is alternerend.",
-        "Een rij convergeert als haar termen een vast eindig getal naderen.",
-        "De som van een oneindige meetkundige rij is de eerste term gedeeld door één min de reden.",
-        "Die som is alleen eindig als de absolute waarde van de reden kleiner is dan één.",
+        r"Rekenkundig: \(u_{n+1} = u_{n} + d\). Meetkundig: \(u_{n+1} = u_{n} \cdot q\).",
+        r"Een recursief voorschrift berekent elke term uit de vorige en heeft een beginterm nodig.",
+        r"\(u_{n} = u_{1} + (n-1)\,d\) en \(u_{n} = u_{1} \cdot q^{\,n-1}\).",
+        r"\(S_{n} = n \cdot \dfrac{u_{1} + u_{n}}{2}\) en \(S_{n} = u_{1} \cdot \dfrac{1 - q^{\,n}}{1 - q}\).",
+        r"Een rekenkundige rij hoort bij lineaire groei, een meetkundige rij bij exponentiële groei.",
+        r"Bij \(q < 0\) wisselen de termen van teken: de rij is alternerend.",
+        r"Een rij convergeert als haar termen een vast eindig getal naderen.",
+        r"De oneindige meetkundige som is \(S = \dfrac{u_{1}}{1 - q}\), en bestaat alleen als \(|q| < 1\).",
     ],
 )
 

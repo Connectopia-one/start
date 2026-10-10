@@ -19,7 +19,7 @@ krijgen. Het achtervoegsel houdt ze uit elkaar van wiskunde gevorderd van
 
 Wiskunde staat hier in echte notatie, tussen \( en \), net als in de vragen en
 in de leerbundels. Zie oefenplatform/lib/wiskunde.ts. De omzetting gebeurt
-thema per thema; omgezet zijn thema 1 tot 7.
+thema per thema; omgezet zijn thema 1 tot 10.
 """
 import sys, pathlib
 sys.path.insert(0, str(pathlib.Path(__file__).parent))
@@ -754,44 +754,112 @@ OEFENBUNDELS["oefenbundel-rijen-en-hun-limiet-beyond"] = dict(
     hoe=HOE,
     reeksen=[
         dict(kop="Rekenkundig of meetkundig",
-             opdracht="Kijk naar het verschil én naar de factor tussen twee opeenvolgende termen.",
+             opdracht=r"Kijk naar \(u_{n+1} - u_{n}\) én naar \(\dfrac{u_{n+1}}{u_{n}}\).",
              oefeningen=[
-                 ("tabel", ["Rij", "Soort", "Verschil of reden"],
-                  [["2, 9, 16, 23", None, None], ["3, 12, 48, 192", None, None],
-                   ["100, 50, 25, 12,5", None, None], ["20, 17, 14, 11", None, None]],
-                  "rekenkundig met verschil 7; meetkundig met reden 4; meetkundig met reden een half; rekenkundig met verschil min 3",
-                  "170px"),
+                 ("tabel", ["Rij", "Soort", r"\(d\) of \(q\)"],
+                  [[r"\(2,\ 9,\ 16,\ 23,\ \dots\)", None, None],
+                   [r"\(3,\ 12,\ 48,\ 192,\ \dots\)", None, None],
+                   [r"\(100,\ 50,\ 25,\ 12{,}5,\ \dots\)", None, None],
+                   [r"\(20,\ 17,\ 14,\ 11,\ \dots\)", None, None],
+                   [r"\(5,\ -10,\ 20,\ -40,\ \dots\)", None, None]],
+                  r"rekenkundig, \(d = 7\); meetkundig, \(q = 4\); meetkundig, "
+                  r"\(q = \tfrac{1}{2}\); rekenkundig, \(d = -3\); meetkundig, \(q = -2\)",
+                  "160px"),
              ]),
-        dict(kop="Termen en sommen",
-             opdracht="Schrijf de formule op die je gebruikt, en vul dan pas in.",
+        dict(kop="Het expliciete voorschrift",
+             opdracht=r"Gebruik \(u_{n} = u_{1} + (n-1)\,d\) of \(u_{n} = u_{1} \cdot q^{\,n-1}\), "
+                      r"en werk uit tot er geen haakjes meer staan.",
              oefeningen=[
-                 ("kort", "Een rekenkundige rij begint bij vijf met verschil drie. Wat is de twintigste term?", "62", W),
-                 ("kort", "Een meetkundige rij begint bij drie met reden twee. Wat is de zesde term?", "96", W),
-                 ("kort", "Hoeveel is de som van de getallen één tot en met honderd?", "5050", W),
-                 ("open", "Leg uit waarom je bij de tiende term van een rekenkundige rij negen keer het verschil optelt en niet tien keer.",
-                  "De eerste term staat er al. Van de eerste naar de tiende zet je negen stappen.", 2),
+                 ("rij", [(r"\(2,\ 9,\ 16,\ 23,\ \dots\)", r"\(u_{n} = 7n - 5\)"),
+                          (r"\(3,\ 12,\ 48,\ \dots\)", r"\(u_{n} = 3 \cdot 4^{\,n-1}\)"),
+                          (r"\(20,\ 17,\ 14,\ \dots\)", r"\(u_{n} = 23 - 3n\)"),
+                          (r"\(1,\ \tfrac{1}{2},\ \tfrac{1}{4},\ \dots\)",
+                           r"\(u_{n} = \left(\tfrac{1}{2}\right)^{\,n-1}\)")],
+                  r"Schrijf het expliciete voorschrift \(u_{n}\).", WL),
              ]),
-        dict(kop="Convergeren of divergeren",
+        dict(kop="Termen berekenen",
+             opdracht="Schrijf eerst de formule op die je gebruikt, en vul dan pas in.",
+             oefeningen=[
+                 ("kort", r"\(u_{1} = 5\) en \(d = 3\). Hoeveel is \(u_{20}\)?", r"\(62\)", W),
+                 ("kort", r"\(u_{1} = 3\) en \(q = 2\). Hoeveel is \(u_{6}\)?", r"\(96\)", W),
+                 ("kort", r"\(u_{n} = 4n - 1\). Hoeveel is \(u_{12}\)?", r"\(47\)", W),
+                 ("kort", r"\(u_{1} = 64\) en \(q = \tfrac{1}{2}\). Hoeveel is \(u_{7}\)?",
+                  r"\(1\)", W),
+             ]),
+        dict(kop="Sommen berekenen",
+             opdracht=r"Zoek eerst \(u_{n}\) of het aantal termen, en vul dan de somformule in.",
+             oefeningen=[
+                 ("kort", r"Hoeveel is \(1 + 2 + 3 + \dots + 100\)?", r"\(5050\)", W),
+                 ("kort", r"Hoeveel is \(2 + 4 + 6 + \dots + 50\)?", r"\(650\)", W),
+                 ("kort", r"\(u_{1} = 5\) en \(d = 3\). Hoeveel is \(S_{10}\)?", r"\(185\)", W),
+                 ("kort", r"\(u_{1} = 3\) en \(q = 2\). Hoeveel is \(S_{6}\)?", r"\(189\)", W),
+             ]),
+        dict(kop="Terugrekenen",
+             opdracht="Hier is het gevraagde getal niet de term maar het vaste getal zelf. "
+                      "Stel een vergelijking op.",
+             oefeningen=[
+                 ("kort", r"Rekenkundig: \(u_{3} = 11\) en \(u_{7} = 27\). Hoeveel is \(d\)?",
+                  r"\(d = \dfrac{27 - 11}{4} = 4\)", WW),
+                 ("kort", r"Meetkundig: \(u_{2} = 6\) en \(u_{5} = 162\). Hoeveel is \(q\)?",
+                  r"\(q^{3} = 27\), dus \(q = 3\)", WW),
+                 ("kort", r"\(u_{1} = 4\) en \(d = 5\). Vanaf welke \(n\) is \(u_{n} > 100\)?",
+                  r"\(5n - 1 > 100\), dus vanaf \(n = 21\)", WW),
+             ]),
+        dict(kop="Limieten",
              opdracht="Schrijf de limiet op, of noteer dat ze niet bestaat.",
              oefeningen=[
-                 ("rij", [("twee gedeeld door n", "0"), ("drie n min één, gedeeld door n", "3"),
-                          ("drie tot de macht n", "plus oneindig"), ("min één tot de macht n", "bestaat niet")],
-                  "Wat is de limiet?", WW),
-                 ("waar", "Een divergente rij kan naar plus oneindig gaan.", True),
-                 ("waar", "Een rekenkundige rij met verschil drie convergeert.", False),
+                 ("rij", [(r"\(\lim\limits_{n \to +\infty} \dfrac{2}{n}\)", r"\(0\)"),
+                          (r"\(\lim\limits_{n \to +\infty} \dfrac{3n - 1}{n}\)", r"\(3\)"),
+                          (r"\(\lim\limits_{n \to +\infty} \dfrac{5n^{2} + n}{n^{2}}\)", r"\(5\)"),
+                          (r"\(\lim\limits_{n \to +\infty} 3^{\,n}\)", r"\(+\infty\)"),
+                          (r"\(\lim\limits_{n \to +\infty} (-1)^{n}\)", "bestaat niet")],
+                  "Hoeveel is de limiet?", WW),
              ]),
         dict(kop="De oneindige meetkundige som",
-             opdracht="Ga eerst na of de som bestaat. Bereken ze dan met de eerste term gedeeld door één min de reden.",
+             opdracht=r"Ga eerst na of \(|q| < 1\). Bereken de som dan met "
+                      r"\(S = \dfrac{u_{1}}{1 - q}\).",
              oefeningen=[
                  ("tabel", ["Rij", "Bestaat de som?", "Zo ja, hoeveel"],
-                  [["1, een derde, een negende, ...", None, None],
-                   ["2, 1, een half, ...", None, None],
-                   ["1, 2, 4, 8, ...", None, None]],
-                  "ja, anderhalf; ja, vier; nee, de reden is groter dan één", "170px"),
-                 ("open", "Een bal valt van twee meter en stuitert telkens tot zestig procent van de vorige hoogte. Kan je de totale hoogte van alle sprongen berekenen? Leg uit.",
-                  "Ja, want de reden nul komma zes ligt tussen nul en één. De oneindige som bestaat dus, ook al zijn er oneindig veel sprongen.", 4),
+                  [[r"\(1,\ \tfrac{1}{3},\ \tfrac{1}{9},\ \dots\)", None, None],
+                   [r"\(2,\ 1,\ \tfrac{1}{2},\ \dots\)", None, None],
+                   [r"\(1,\ 2,\ 4,\ 8,\ \dots\)", None, None],
+                   [r"\(9,\ -3,\ 1,\ \dots\)", None, None]],
+                  r"ja, \(\tfrac{3}{2}\); ja, \(4\); nee, \(|q| = 2\); ja, \(\tfrac{27}{4}\)",
+                  "160px"),
+                 ("kort", r"Schrijf \(0{,}363636\dots\) als een breuk.",
+                  r"\(\dfrac{36/100}{1 - 1/100} = \dfrac{4}{11}\)", WW),
+             ]),
+        dict(kop="Waar of niet waar",
+             opdracht="Zet een kruisje, en verbeter in gedachten wat niet klopt.",
+             oefeningen=[
+                 ("waar", r"De punten \((n,\ u_{n})\) van een rekenkundige rij liggen op een rechte.", True),
+                 ("waar", r"Een divergente rij kan naar \(+\infty\) gaan.", True),
+                 ("waar", r"Een rekenkundige rij met \(d = 3\) convergeert.", False),
+                 ("waar", "Elke oneindige meetkundige rij heeft een eindige som.", False),
+                 ("waar", r"Bij \(q = 1\) is een meetkundige rij constant.", True),
+                 ("waar", r"Een meetkundige rij met \(q < 0\) is alternerend.", True),
+                 ("waar", r"De formule \(S_{n} = u_{1} \cdot \dfrac{1 - q^{\,n}}{1 - q}\) werkt ook als \(q = 1\).", False),
+                 ("waar", r"Het getal \(0{,}999\dots\) is net iets kleiner dan \(1\).", False),
+             ]),
+        dict(kop="Uitleggen",
+             opdracht="Schrijf in volle zinnen, en noem de formule of de voorwaarde die je gebruikt.",
+             oefeningen=[
+                 ("open", r"Leg uit waarom je bij \(u_{10}\) van een rekenkundige rij negen keer "
+                          r"\(d\) optelt en niet tien keer.",
+                  r"\(u_{1}\) staat er al. Van de eerste naar de tiende term zet je negen stappen, "
+                  r"dus \(u_{10} = u_{1} + 9d\).", 3),
+                 ("open", r"Een bal valt van twee meter en stuitert telkens tot \(60\%\) van de "
+                          r"vorige hoogte. Kan je de totale hoogte van alle sprongen berekenen? Leg uit.",
+                  r"Ja. De sprongen vormen een meetkundige rij met \(q = 0{,}6\), en omdat "
+                  r"\(|q| < 1\) bestaat de oneindige som. Oneindig veel sprongen geven samen een "
+                  r"eindige hoogte.", 3),
+                 ("open", r"Leg uit waarom \(\lim\limits_{n \to +\infty} \dfrac{3n - 1}{n} = 3\) "
+                          r"en niet \(+\infty\), hoewel teller en noemer allebei onbeperkt groeien.",
+                  r"Splits op: \(\dfrac{3n-1}{n} = 3 - \dfrac{1}{n}\). De tweede term kruipt naar "
+                  r"nul, dus blijft \(3\) over. Het gaat om de verhouding, niet om de grootte.", 3),
                  ("open", "Leg uit waarom je bij een rij alleen over de limiet op oneindig spreekt.",
-                  "Een rij is alleen in de natuurlijke getallen gedefinieerd. Tussen de derde en de vierde term ligt niets, dus er is geen tussenwaarde om naartoe te kruipen.", 3),
+                  r"Een rij is alleen gedefinieerd voor \(n \in \mathbb{N}\). Tussen \(u_{3}\) en "
+                  r"\(u_{4}\) ligt niets, dus er is geen tussenwaarde om naartoe te kruipen.", 3),
              ]),
     ],
 )
