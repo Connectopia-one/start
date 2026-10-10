@@ -7793,12 +7793,12 @@
         },
         {
           "type": "meerkeuze",
-          "vraag": "Wat is een puntvector?",
+          "vraag": "Wat is de puntvector van een punt \\(P\\)?",
           "opties": [
-            "de vector van de oorsprong naar een punt",
+            "\\(\\overrightarrow{OP}\\), de vector van de oorsprong naar \\(P\\)",
             "de vector tussen twee willekeurig gekozen punten",
             "een vector die maar één enkele coördinaat heeft",
-            "een vector met een lengte die gelijk is aan één"
+            "een vector met \\(\\|\\vec{v}\\| = 1\\)"
           ],
           "antwoord": 0,
           "uitleg": "Zijn coördinaten zijn precies die van het punt zelf."
@@ -7820,19 +7820,19 @@
         },
         {
           "type": "meerkeuze",
-          "vraag": "Hoe bereken je de coördinaten van de vector van A naar B?",
+          "vraag": "Hoe bereken je de coördinaten van \\(\\overrightarrow{AB}\\)?",
           "opties": [
-            "de coördinaten van B min die van A",
-            "de coördinaten van A min die van B",
-            "de coördinaten van A en B bij elkaar opgeteld",
-            "het gemiddelde van de coördinaten van A en B"
+            "\\(\\overrightarrow{AB} = (x_{B} - x_{A},\\ y_{B} - y_{A},\\ z_{B} - z_{A})\\)",
+            "\\(\\overrightarrow{AB} = (x_{A} - x_{B},\\ y_{A} - y_{B},\\ z_{A} - z_{B})\\)",
+            "\\(\\overrightarrow{AB} = (x_{A} + x_{B},\\ y_{A} + y_{B},\\ z_{A} + z_{B})\\)",
+            "het gemiddelde van de coördinaten van \\(A\\) en \\(B\\)"
           ],
           "antwoord": 0,
-          "uitleg": "Eindpunt min beginpunt. Draai je het om, dan krijg je de tegengestelde vector."
+          "uitleg": "Eindpunt min beginpunt. Draai je het om, dan krijg je \\(\\overrightarrow{BA} = -\\overrightarrow{AB}\\)."
         },
         {
           "type": "meerkeuze",
-          "vraag": "Wat is de norm van een vector?",
+          "vraag": "Wat is de norm \\(\\|\\vec{v}\\|\\) van een vector?",
           "opties": [
             "zijn lengte",
             "zijn richting in het assenstelsel",
@@ -7840,79 +7840,79 @@
             "de som van zijn drie coördinaten samen"
           ],
           "antwoord": 0,
-          "uitleg": "Je berekent ze met de wortel uit de som van de kwadraten van de coördinaten."
+          "uitleg": "Je berekent ze als \\(\\|\\vec{v}\\| = \\sqrt{v_{1}^{2} + v_{2}^{2} + v_{3}^{2}}\\)."
         },
         {
           "type": "waarofniet",
           "vraag": "De norm van een vector kan negatief zijn.",
           "antwoord": false,
-          "uitleg": "Een lengte is nooit negatief. Alleen de nulvector heeft norm nul."
+          "uitleg": "Een lengte is nooit negatief: \\(\\|\\vec{v}\\| \\ge 0\\). Alleen \\(\\vec{0}\\) heeft norm nul."
         },
         {
           "type": "invultekst",
-          "vraag": "Een vector heeft als coördinaten drie, nul en vier. Hoe groot is zijn norm? Schrijf het cijfer.",
+          "vraag": "Bereken \\(\\|\\vec{v}\\|\\) voor \\(\\vec{v}(3, 0, 4)\\). Schrijf het cijfer.",
           "antwoord": [
             "5",
             "vijf"
           ],
-          "uitleg": "De wortel uit negen plus nul plus zestien, dus de wortel uit vijfentwintig."
+          "uitleg": "\\(\\sqrt{9 + 0 + 16} = \\sqrt{25} = 5\\)."
         },
         {
           "type": "meerkeuze",
           "vraag": "Hoe tel je twee vectoren op in coördinaten?",
           "opties": [
-            "coördinaat per coördinaat",
+            "\\(\\vec{u} + \\vec{v} = (u_{1} + v_{1},\\ u_{2} + v_{2},\\ u_{3} + v_{3})\\)",
             "door hun normen bij elkaar op te tellen",
             "door de coördinaten kruiselings te vermenigvuldigen",
             "door de grootste coördinaten van beide te nemen"
           ],
           "antwoord": 0,
-          "uitleg": "De eerste bij de eerste, de tweede bij de tweede, de derde bij de derde."
+          "uitleg": "Coördinaat per coördinaat: de eerste bij de eerste, en zo verder."
         },
         {
           "type": "waarofniet",
-          "vraag": "De optelling van vectoren is commutatief.",
+          "vraag": "Er geldt \\(\\vec{u} + \\vec{v} = \\vec{v} + \\vec{u}\\).",
           "antwoord": true,
-          "uitleg": "De volgorde maakt niets uit. Grafisch zie je dat aan de parallellogramregel."
+          "uitleg": "De optelling van vectoren is commutatief. Grafisch zie je dat aan de parallellogramregel."
         },
         {
           "type": "meerkeuze",
           "vraag": "Wat is het neutraal element voor de optelling van vectoren?",
           "opties": [
-            "de nulvector",
-            "de vector met overal een één als coördinaat",
-            "de vector die een lengte van precies één heeft",
+            "de nulvector \\(\\vec{0}\\)",
+            "de vector \\((1, 1, 1)\\)",
+            "een vector met \\(\\|\\vec{v}\\| = 1\\)",
             "de tegengestelde van de vector die je optelt"
           ],
           "antwoord": 0,
-          "uitleg": "Alle coördinaten nul, en optellen verandert dan niets."
+          "uitleg": "Alle coördinaten nul, en \\(\\vec{v} + \\vec{0} = \\vec{v}\\)."
         },
         {
           "type": "invultekst",
-          "vraag": "Je vermenigvuldigt de vector met coördinaten twee, min één en drie met het getal twee. Wat is de eerste coördinaat van het resultaat? Schrijf het cijfer.",
+          "vraag": "Bereken de eerste coördinaat van \\(2 \\cdot \\vec{v}\\) voor \\(\\vec{v}(2, -1, 3)\\). Schrijf het cijfer.",
           "antwoord": [
             "4",
             "vier"
           ],
-          "uitleg": "Elke coördinaat afzonderlijk maal twee."
+          "uitleg": "Elke coördinaat afzonderlijk maal \\(2\\), dus \\(2 \\cdot 2 = 4\\)."
         },
         {
           "type": "meerkeuze",
-          "vraag": "Wat is het symmetrisch element van een vector bij de optelling?",
+          "vraag": "Wat is het symmetrisch element van \\(\\vec{v}\\) bij de optelling?",
           "opties": [
-            "de tegengestelde vector",
+            "\\(-\\vec{v}\\), de tegengestelde vector",
             "de vector met dezelfde lengte en dezelfde zin",
             "de vector die er loodrecht op staat in de ruimte",
-            "de nulvector, want die verandert niets eraan"
+            "de nulvector \\(\\vec{0}\\), want die verandert niets eraan"
           ],
           "antwoord": 0,
-          "uitleg": "Alle coördinaten van teken veranderd. Samen geven ze de nulvector."
+          "uitleg": "Alle coördinaten van teken veranderd, en \\(\\vec{v} + (-\\vec{v}) = \\vec{0}\\)."
         },
         {
           "type": "waarofniet",
-          "vraag": "Een vector vermenigvuldigen met een negatief getal keert zijn zin om.",
+          "vraag": "In \\(k \\cdot \\vec{v}\\) met \\(k < 0\\) keert de zin van de vector om.",
           "antwoord": true,
-          "uitleg": "De richting blijft dezelfde, de pijl wijst de andere kant op en de lengte verandert met de grootte van dat getal."
+          "uitleg": "De richting blijft dezelfde, de pijl wijst de andere kant op, en \\(\\|k \\cdot \\vec{v}\\| = |k| \\cdot \\|\\vec{v}\\|\\)."
         },
         {
           "type": "meerkeuze",
@@ -7924,19 +7924,19 @@
             "de vector tussen de twee snijpunten met de assen"
           ],
           "antwoord": 0,
-          "uitleg": "Hij geeft de richting aan waarin de rechte loopt. Elk veelvoud ervan is ook een richtingsvector."
+          "uitleg": "Hij geeft de richting aan waarin de rechte loopt. Elk veelvoud \\(k \\cdot \\vec{v}\\) met \\(k \\neq 0\\) is ook een richtingsvector."
         },
         {
           "type": "meerkeuze",
           "vraag": "Wat betekent het dat je een vector ontbindt in zijn componenten?",
           "opties": [
-            "je schrijft hem als een som van vectoren langs de assen",
+            "je schrijft hem als \\(\\vec{v} = v_{1}\\vec{e_{x}} + v_{2}\\vec{e_{y}} + v_{3}\\vec{e_{z}}\\)",
             "je deelt hem in gelijke stukken op langs zijn eigen richting",
-            "je berekent zijn lengte uit de drie gegeven coördinaten",
+            "je berekent \\(\\|\\vec{v}\\|\\) uit de drie gegeven coördinaten",
             "je zoekt alle vectoren die er loodrecht op staan"
           ],
           "antwoord": 0,
-          "uitleg": "Elke coördinaat is de lengte van één component. Dat kan grafisch en door te rekenen."
+          "uitleg": "Elke coördinaat is de lengte van één component langs een as. Dat kan grafisch en door te rekenen."
         },
         {
           "type": "waarofniet",
@@ -7946,12 +7946,12 @@
         },
         {
           "type": "invultekst",
-          "vraag": "Hoe ver liggen de punten met coördinaten één, twee, drie en één, twee, acht uit elkaar? Schrijf het cijfer.",
+          "vraag": "Hoe ver liggen \\(A(1, 2, 3)\\) en \\(B(1, 2, 8)\\) uit elkaar? Schrijf het cijfer.",
           "antwoord": [
             "5",
             "vijf"
           ],
-          "uitleg": "Alleen de derde coördinaat verschilt, en acht min drie is vijf."
+          "uitleg": "\\(\\overrightarrow{AB} = (0, 0, 5)\\), dus \\(\\|\\overrightarrow{AB}\\| = 5\\)."
         },
         {
           "type": "meerkeuze",
@@ -7969,9 +7969,9 @@
           "type": "meerkeuze",
           "vraag": "Op een voorwerp werken twee krachten tegelijk. Hoe vind je de resulterende kracht?",
           "opties": [
-            "door de twee krachtvectoren op te tellen",
+            "als \\(\\vec{F_{1}} + \\vec{F_{2}}\\)",
             "door de twee grootten van de krachten op te tellen",
-            "door het verschil van de twee krachten te nemen",
+            "als \\(\\vec{F_{1}} - \\vec{F_{2}}\\)",
             "door de grootste van de twee krachten te kiezen"
           ],
           "antwoord": 0,
@@ -7986,7 +7986,7 @@
       "vragen": [
         {
           "type": "meerkeuze",
-          "vraag": "Wat levert het scalair product van twee vectoren op?",
+          "vraag": "Wat levert het scalair product \\(\\vec{u} \\cdot \\vec{v}\\) op?",
           "opties": [
             "een getal",
             "een vector die op beide loodrecht staat",
@@ -7998,11 +7998,11 @@
         },
         {
           "type": "meerkeuze",
-          "vraag": "Hoe bereken je het scalair product in coördinaten?",
+          "vraag": "Hoe bereken je \\(\\vec{u} \\cdot \\vec{v}\\) in coördinaten?",
           "opties": [
-            "je telt de producten van de overeenkomstige coördinaten op",
+            "\\(\\vec{u} \\cdot \\vec{v} = u_{1}v_{1} + u_{2}v_{2} + u_{3}v_{3}\\)",
             "je telt alle coördinaten van beide vectoren bij elkaar op",
-            "je vermenigvuldigt de normen van de twee vectoren",
+            "\\(\\vec{u} \\cdot \\vec{v} = \\|\\vec{u}\\| \\cdot \\|\\vec{v}\\|\\)",
             "je trekt de coördinaten van elkaar af en telt die op"
           ],
           "antwoord": 0,
@@ -8010,18 +8010,18 @@
         },
         {
           "type": "invultekst",
-          "vraag": "Bereken het scalair product van de vectoren met coördinaten één, twee, drie en twee, nul, één. Schrijf het cijfer.",
+          "vraag": "Bereken \\(\\vec{u} \\cdot \\vec{v}\\) voor \\(\\vec{u}(1, 2, 3)\\) en \\(\\vec{v}(2, 0, 1)\\). Schrijf het cijfer.",
           "antwoord": [
             "5",
             "vijf"
           ],
-          "uitleg": "Twee plus nul plus drie."
+          "uitleg": "\\(1 \\cdot 2 + 2 \\cdot 0 + 3 \\cdot 1 = 2 + 0 + 3 = 5\\)."
         },
         {
           "type": "waarofniet",
-          "vraag": "Het scalair product van twee vectoren die loodrecht op elkaar staan, is nul.",
+          "vraag": "Er geldt \\(\\vec{u} \\perp \\vec{v} \\iff \\vec{u} \\cdot \\vec{v} = 0\\).",
           "antwoord": true,
-          "uitleg": "Dat is net het criterium voor loodrechte stand, en het werkt ook omgekeerd."
+          "uitleg": "Dat is net het criterium voor loodrechte stand, en het werkt in de twee richtingen."
         },
         {
           "type": "meerkeuze",
@@ -8033,59 +8033,59 @@
             "je kijkt of hun richtingsvectoren toevallig evenwijdig zijn"
           ],
           "antwoord": 0,
-          "uitleg": "Komt daar nul uit, dan staan ze loodrecht, tenminste in een orthonormaal assenstelsel."
+          "uitleg": "Komt daar \\(0\\) uit, dan staan ze loodrecht, tenminste in een orthonormaal assenstelsel."
         },
         {
           "type": "waarofniet",
-          "vraag": "Het scalair product is commutatief.",
+          "vraag": "Er geldt \\(\\vec{u} \\cdot \\vec{v} = \\vec{v} \\cdot \\vec{u}\\).",
           "antwoord": true,
-          "uitleg": "De volgorde van de twee vectoren verandert niets aan de uitkomst."
+          "uitleg": "Het scalair product is commutatief: de volgorde verandert niets aan de uitkomst."
         },
         {
           "type": "meerkeuze",
-          "vraag": "Hoe bereken je de hoek tussen twee vectoren?",
+          "vraag": "Hoe bereken je de hoek \\(\\theta\\) tussen twee vectoren?",
           "opties": [
-            "uit het scalair product gedeeld door het product van de normen",
-            "uit de som van de normen gedeeld door het scalair product",
+            "\\(\\cos \\theta = \\dfrac{\\vec{u} \\cdot \\vec{v}}{\\|\\vec{u}\\| \\cdot \\|\\vec{v}\\|}\\)",
+            "\\(\\cos \\theta = \\dfrac{\\|\\vec{u}\\| + \\|\\vec{v}\\|}{\\vec{u} \\cdot \\vec{v}}\\)",
             "uit het verschil van de coördinaten van de twee vectoren",
-            "uit het scalair product vermenigvuldigd met de twee normen"
+            "\\(\\cos \\theta = \\vec{u} \\cdot \\vec{v} \\cdot \\|\\vec{u}\\| \\cdot \\|\\vec{v}\\|\\)"
           ],
           "antwoord": 0,
-          "uitleg": "Die breuk is de cosinus van de hoek. Met de inverse cosinus vind je de hoek zelf."
+          "uitleg": "Met \\(\\theta = \\arccos\\) van die breuk vind je de hoek zelf."
         },
         {
           "type": "invultekst",
-          "vraag": "Hoe ver ligt het punt met coördinaten twee, drie, zes van de oorsprong? Schrijf het cijfer.",
+          "vraag": "Hoe ver ligt \\(P(2, 3, 6)\\) van de oorsprong? Schrijf het cijfer.",
           "antwoord": [
             "7",
             "zeven"
           ],
-          "uitleg": "De wortel uit vier plus negen plus zesendertig, dus de wortel uit negenenveertig."
+          "uitleg": "\\(\\sqrt{4 + 9 + 36} = \\sqrt{49} = 7\\)."
         },
         {
           "type": "meerkeuze",
-          "vraag": "Hoe bereken je het midden van een lijnstuk?",
+          "vraag": "Hoe bereken je het midden \\(M\\) van het lijnstuk \\([AB]\\)?",
           "opties": [
-            "je neemt het gemiddelde van de coördinaten van de twee uiteinden",
+            "\\(M\\left(\\dfrac{x_{A} + x_{B}}{2},\\ \\dfrac{y_{A} + y_{B}}{2},\\ \\dfrac{z_{A} + z_{B}}{2}\\right)\\)",
             "je telt de coördinaten van de twee uiteinden gewoon op",
             "je trekt de coördinaten van de twee uiteinden van elkaar af",
-            "je deelt de coördinaten van het verste punt door twee"
+            "je deelt de coördinaten van het verste punt door \\(2\\)"
           ],
           "antwoord": 0,
-          "uitleg": "Coördinaat per coördinaat optellen en door twee delen."
+          "uitleg": "Coördinaat per coördinaat optellen en door twee delen: het gemiddelde dus."
         },
         {
           "type": "waarofniet",
           "vraag": "Het zwaartepunt van een driehoek is het gemiddelde van de coördinaten van de drie hoekpunten.",
           "antwoord": true,
-          "uitleg": "Je telt de drie hoekpunten coördinaat per coördinaat op en deelt door drie."
+          "uitleg": "Je telt de drie hoekpunten coördinaat per coördinaat op en deelt door \\(3\\)."
         },
         {
           "type": "meerkeuze",
           "vraag": "Hoe vind je het zwaartepunt van een viervlak?",
           "opties": [
-            "je deelt de som van de vier hoekpunten door vier",
-            "je deelt de som van de vier hoekpunten door drie",
+            "je deelt de som van de vier hoekpunten door \\(4\\)",
+            "je deelt de som van de vier hoekpunten door \\(3\\)",
             "je neemt het midden van de langste ribbe ervan",
             "je neemt het zwaartepunt van het grondvlak alleen"
           ],
@@ -8094,12 +8094,12 @@
         },
         {
           "type": "invultekst",
-          "vraag": "Wat is de eerste coördinaat van het midden van het lijnstuk tussen de punten twee, vier, zes en vier, acht, tien? Schrijf het cijfer.",
+          "vraag": "Wat is de eerste coördinaat van het midden van \\([AB]\\) met \\(A(2, 4, 6)\\) en \\(B(4, 8, 10)\\)? Schrijf het cijfer.",
           "antwoord": [
             "3",
             "drie"
           ],
-          "uitleg": "Twee plus vier is zes, gedeeld door twee is drie."
+          "uitleg": "\\(\\dfrac{2 + 4}{2} = 3\\)."
         },
         {
           "type": "meerkeuze",
@@ -8107,7 +8107,7 @@
           "opties": [
             "een vector die loodrecht op dat vlak staat",
             "een vector die volledig in dat vlak ligt",
-            "een vector met een lengte die gelijk is aan één",
+            "een vector met \\(\\|\\vec{n}\\| = 1\\)",
             "een vector van de oorsprong naar dat vlak toe"
           ],
           "antwoord": 0,
@@ -8115,52 +8115,52 @@
         },
         {
           "type": "waarofniet",
-          "vraag": "Het scalair product van een vector met zichzelf is gelijk aan zijn norm.",
+          "vraag": "Er geldt \\(\\vec{v} \\cdot \\vec{v} = \\|\\vec{v}\\|\\).",
           "antwoord": false,
-          "uitleg": "Het is het kwadraat van zijn norm. De norm zelf krijg je er pas uit na worteltrekken."
+          "uitleg": "Het is \\(\\vec{v} \\cdot \\vec{v} = \\|\\vec{v}\\|^{2}\\). De norm zelf krijg je er pas uit na worteltrekken."
         },
         {
           "type": "meerkeuze",
           "vraag": "Hoe zie je aan de coördinaten dat twee vectoren evenwijdig zijn?",
           "opties": [
-            "de ene is een veelvoud van de andere",
-            "hun scalair product is gelijk aan nul",
-            "ze hebben allebei dezelfde norm gekregen",
-            "hun coördinaten tellen samen op tot nul"
+            "\\(\\vec{u} = k \\cdot \\vec{v}\\) voor een getal \\(k\\)",
+            "\\(\\vec{u} \\cdot \\vec{v} = 0\\)",
+            "\\(\\|\\vec{u}\\| = \\|\\vec{v}\\|\\)",
+            "hun coördinaten tellen samen op tot \\(0\\)"
           ],
           "antwoord": 0,
-          "uitleg": "Alle coördinaten verschillen dan met dezelfde factor."
+          "uitleg": "Alle coördinaten verschillen dan met dezelfde factor \\(k\\)."
         },
         {
           "type": "meerkeuze",
-          "vraag": "Hoe bereken je de afstand tussen twee punten in de ruimte?",
+          "vraag": "Hoe bereken je de afstand \\(|AB|\\) tussen twee punten in de ruimte?",
           "opties": [
-            "als de norm van de vector tussen die twee punten",
+            "\\(|AB| = \\|\\overrightarrow{AB}\\|\\)",
             "als de som van de verschillen van hun coördinaten",
             "als het scalair product van hun twee puntvectoren",
-            "als het verschil van de normen van hun puntvectoren"
+            "als \\(\\|\\overrightarrow{OB}\\| - \\|\\overrightarrow{OA}\\|\\)"
           ],
           "antwoord": 0,
           "uitleg": "Eerst de vector van het ene naar het andere punt, dan zijn lengte."
         },
         {
           "type": "waarofniet",
-          "vraag": "Is het scalair product van twee vectoren negatief, dan is de hoek ertussen scherp.",
+          "vraag": "Is \\(\\vec{u} \\cdot \\vec{v} < 0\\), dan is de hoek tussen de twee vectoren scherp.",
           "antwoord": false,
-          "uitleg": "Dan is de hoek stomp. Bij een scherpe hoek is het scalair product positief, bij een rechte hoek nul."
+          "uitleg": "Dan is de hoek stomp. Bij een scherpe hoek is \\(\\vec{u} \\cdot \\vec{v} > 0\\), bij een rechte hoek \\(0\\)."
         },
         {
           "type": "invultekst",
-          "vraag": "De drie hoekpunten van een driehoek hebben als eerste coördinaat nul, drie en zes. Wat is de eerste coördinaat van het zwaartepunt? Schrijf het cijfer.",
+          "vraag": "De eerste coördinaten van de drie hoekpunten van een driehoek zijn \\(0\\), \\(3\\) en \\(6\\). Wat is de eerste coördinaat van het zwaartepunt? Schrijf het cijfer.",
           "antwoord": [
             "3",
             "drie"
           ],
-          "uitleg": "Nul plus drie plus zes is negen, gedeeld door drie is drie."
+          "uitleg": "\\(\\dfrac{0 + 3 + 6}{3} = 3\\)."
         },
         {
           "type": "meerkeuze",
-          "vraag": "Een drone vliegt eerst drie meter naar het oosten en dan vier meter naar het noorden. Hoe vind je zijn verplaatsing?",
+          "vraag": "Een drone vliegt eerst \\(3\\) meter naar het oosten en dan \\(4\\) meter naar het noorden. Hoe vind je zijn verplaatsing?",
           "opties": [
             "als de som van de twee verplaatsingsvectoren",
             "als de som van de twee afgelegde afstanden",
@@ -8168,19 +8168,19 @@
             "als het scalair product van de twee richtingen"
           ],
           "antwoord": 0,
-          "uitleg": "De verplaatsing is vijf meter, niet zeven. De afgelegde weg is wel zeven meter."
+          "uitleg": "De verplaatsing is \\(\\sqrt{9 + 16} = 5\\) meter, niet \\(7\\). De afgelegde weg is wel \\(7\\) meter."
         },
         {
           "type": "meerkeuze",
           "vraag": "Waarom werkt het scalair product als criterium voor loodrechte stand?",
           "opties": [
-            "omdat de cosinus van negentig graden nul is",
+            "omdat \\(\\cos 90^{\\circ} = 0\\)",
             "omdat de norm van een vector nooit negatief wordt",
             "omdat loodrechte vectoren altijd dezelfde lengte hebben",
             "omdat de coördinaten van loodrechte vectoren nul zijn"
           ],
           "antwoord": 0,
-          "uitleg": "Het scalair product is het product van de normen maal die cosinus, en bij een rechte hoek valt alles weg."
+          "uitleg": "Er geldt \\(\\vec{u} \\cdot \\vec{v} = \\|\\vec{u}\\| \\cdot \\|\\vec{v}\\| \\cdot \\cos \\theta\\), en bij een rechte hoek valt alles weg."
         }
       ]
     },

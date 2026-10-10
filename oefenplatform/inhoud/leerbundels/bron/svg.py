@@ -9558,3 +9558,90 @@ def cayleytabel(breedte=470):
                             waarde, 12.5, kleur, "middle", i == j))
 
     return _svg(breedte, h, "\n".join(d))
+
+
+def _vectorpijl(x1, y1, x2, y2, kleur, dik=2.4, stip=False, maat=5.4):
+    """Een pijl van (x1, y1) naar (x2, y2), met de kop op het eindpunt."""
+    import math
+    hoek = math.atan2(y2 - y1, x2 - x1)
+    kort = maat * 0.7
+    ex, ey = x2 - kort * math.cos(hoek), y2 - kort * math.sin(hoek)
+    s = ' stroke-dasharray="6 4"' if stip else ""
+    return (f'<line x1="{x1:.1f}" y1="{y1:.1f}" x2="{ex:.1f}" y2="{ey:.1f}" '
+            f'stroke="{kleur}" stroke-width="{dik}" stroke-linecap="round"{s}/>'
+            + _pijlkop(x2, y2, hoek, kleur, maat))
+
+
+def vectoroptelling(breedte=470):
+    """Twee manieren om dezelfde som te tekenen.
+
+    Links kop aan staart, rechts de parallellogramregel. De somvector is in
+    allebei de vakjes dezelfde.
+    """
+    h = 214
+    marge, tussen = 8, 20
+    paneel = (breedte - 2 * marge - tussen) / 2
+    ux, uy = 86, -40
+    vx, vy = 34, -70
+    ax, ay = 40, 170
+    d = []
+    for i, kop in enumerate(["kop aan staart", "de parallellogramregel"]):
+        px = marge + i * (paneel + tussen)
+        d.append(_tekst(px + paneel / 2, 18, kop, 11.5, DARK, "middle", True))
+        d.append(f'<rect x="{px}" y="{28}" width="{paneel}" height="{h - 44}" rx="8" '
+                 f'fill="{PAPER}" stroke="{BORDER}" stroke-width="1.2"/>')
+        bx, by = px + ax, ay
+        sx, sy = bx + ux + vx, by + uy + vy
+        if i == 0:
+            d.append(_vectorpijl(bx, by, bx + ux, by + uy, FOREST))
+            d.append(_tekst(bx + ux / 2, by + uy / 2 + 19, "u", 12, FOREST, "middle", True))
+            d.append(_vectorpijl(bx + ux, by + uy, sx, sy, AMBER))
+            d.append(_tekst(bx + ux + vx / 2 + 15, by + uy + vy / 2 + 4, "v", 12, AMBER, "middle", True))
+            d.append(_vectorpijl(bx, by, sx, sy, DARK, dik=3.0))
+            d.append(_tekst(bx + (ux + vx) / 2 - 20, by + (uy + vy) / 2 - 12, "u + v", 12, DARK, "end", True))
+        else:
+            d.append(_vectorpijl(bx, by, bx + ux, by + uy, FOREST))
+            d.append(_tekst(bx + ux / 2, by + uy / 2 + 19, "u", 12, FOREST, "middle", True))
+            d.append(_vectorpijl(bx, by, bx + vx, by + vy, AMBER))
+            d.append(_tekst(bx + vx / 2 - 13, by + vy / 2 + 4, "v", 12, AMBER, "middle", True))
+            d.append(f'<line x1="{bx + ux}" y1="{by + uy}" x2="{sx}" y2="{sy}" '
+                     f'stroke="{AMBER}" stroke-width="1.4" stroke-dasharray="5 4"/>')
+            d.append(f'<line x1="{bx + vx}" y1="{by + vy}" x2="{sx}" y2="{sy}" '
+                     f'stroke="{FOREST}" stroke-width="1.4" stroke-dasharray="5 4"/>')
+            d.append(_vectorpijl(bx, by, sx, sy, DARK, dik=3.0))
+            d.append(_tekst(sx + 6, sy - 12, "u + v", 12, DARK, "end", True))
+        d.append(f'<circle cx="{bx}" cy="{by}" r="3" fill="{INK}"/>')
+    return _svg(breedte, h, "\n".join(d))
+
+
+def scalairteken(breedte=470):
+    """Het teken van het scalair product bij een scherpe, een rechte en een
+    stompe hoek, met telkens de twee vectoren getekend."""
+    import math
+    h = 182
+    marge, tussen = 6, 10
+    paneel = (breedte - 2 * marge - 2 * tussen) / 3
+    lengte = 58
+    gevallen = [(32, "scherp", "u · v &gt; 0"), (90, "recht", "u · v = 0"),
+                (140, "stomp", "u · v &lt; 0")]
+    d = []
+    for i, (graden, naam, teken) in enumerate(gevallen):
+        px = marge + i * (paneel + tussen)
+        cx, cy = px + paneel / 2 - 14, 114
+        d.append(_tekst(px + paneel / 2, 18, naam, 11.5, DARK, "middle", True))
+        d.append(f'<rect x="{px}" y="{28}" width="{paneel}" height="{104}" rx="8" '
+                 f'fill="{PAPER}" stroke="{BORDER}" stroke-width="1.2"/>')
+        d.append(_vectorpijl(cx, cy, cx + lengte, cy, FOREST))
+        d.append(_tekst(cx + lengte + 9, cy + 4, "u", 11.5, FOREST, "middle", True))
+        r = math.radians(graden)
+        ex, ey = cx + lengte * math.cos(r), cy - lengte * math.sin(r)
+        d.append(_vectorpijl(cx, cy, ex, ey, AMBER))
+        d.append(_tekst(ex + 9, ey - 3, "v", 11.5, AMBER, "middle", True))
+        boog = 20
+        bx, by = cx + boog, cy
+        gx, gy = cx + boog * math.cos(r), cy - boog * math.sin(r)
+        groot = 0
+        d.append(f'<path d="M{bx:.1f} {by:.1f} A{boog} {boog} 0 {groot} 0 {gx:.1f} {gy:.1f}" '
+                 f'fill="none" stroke="{DIM}" stroke-width="1.2"/>')
+        d.append(_tekst(px + paneel / 2, 154, teken, 12, INK, "middle", True))
+    return _svg(breedte, h, "\n".join(d))

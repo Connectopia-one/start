@@ -8,40 +8,72 @@
    "blokken": [
     {
      "soort": "tekst",
-     "html": "<strong>Een vrije vector is een richting, een zin en een lengte, zonder vast beginpunt.</strong> Je mag hem overal in de ruimte neerleggen; het blijft dezelfde vector. <strong>Twee pijlen met dezelfde coördinaten maar met een ander beginpunt zijn dus dezelfde vrije vector.</strong> Een <strong>puntvector</strong> is <strong>de vector van de oorsprong naar een punt</strong>, en zijn coördinaten zijn precies die van het punt."
+     "html": "Een vector schrijven we \\(\\vec{v}\\), de vector van \\(A\\) naar \\(B\\) schrijven we \\(\\overrightarrow{AB}\\), en zijn lengte \\(\\|\\vec{v}\\|\\). <strong>Een vrije vector is een richting, een zin en een lengte, zonder vast beginpunt.</strong> Je mag hem overal in de ruimte neerleggen; het blijft dezelfde vector. <strong>Twee pijlen met dezelfde coördinaten maar met een ander beginpunt zijn dus dezelfde vrije vector.</strong>"
     },
     {
      "soort": "tekst",
-     "html": "<strong>Een vector in de ruimte heeft drie coördinaten</strong>, één per as; in het vlak zijn het er twee. Je werkt in een <strong>orthonormaal assenstelsel</strong>: <strong>de assen staan loodrecht op elkaar en de eenheden zijn even lang</strong>. Alleen dan kloppen de formules voor de norm, de afstand en de hoek."
+     "html": "De <strong>puntvector</strong> van een punt \\(P\\) is <strong>\\(\\overrightarrow{OP}\\), de vector van de oorsprong naar dat punt</strong>, en zijn coördinaten zijn precies die van \\(P\\). <strong>Een vector in de ruimte heeft drie coördinaten</strong>, één per as, dus \\(\\vec{v}(v_{1}, v_{2}, v_{3})\\); in het vlak zijn het er twee."
     },
     {
-     "soort": "tekst",
-     "html": "<strong>De coördinaten van de vector van A naar B zijn die van B min die van A</strong>: eindpunt min beginpunt. Draai je het om, dan krijg je de tegengestelde vector. Een <strong>richtingsvector van een rechte is een vector die evenwijdig is met die rechte</strong>, en <strong>elke rechte heeft er oneindig veel</strong>, want elk veelvoud is er ook een."
+     "soort": "kader",
+     "html": "Je werkt altijd in een <strong>orthonormaal assenstelsel</strong>: <strong>de assen staan loodrecht op elkaar en de eenheden zijn even lang</strong>. Alleen dan kloppen de formules voor de norm, de afstand en de hoek."
     }
    ]
   },
   {
-   "kop": "Rekenen met vectoren",
+   "kop": "Van A naar B",
    "blokken": [
     {
      "soort": "tekst",
-     "html": "<strong>Optellen doe je coördinaat per coördinaat</strong>: de eerste bij de eerste, en zo verder. <strong>Grafisch leg je de staart van de tweede aan de kop van de eerste</strong>, en de somvector loopt van de eerste staart naar de laatste kop; met de parallellogramregel krijg je hetzelfde. <strong>De optelling van vectoren is commutatief</strong>, <strong>de nulvector is het neutraal element</strong> en <strong>het symmetrisch element is de tegengestelde vector</strong>, met alle coördinaten van teken veranderd."
+     "html": "<strong>De coördinaten van \\(\\overrightarrow{AB}\\) zijn die van \\(B\\) min die van \\(A\\)</strong>: \\(\\overrightarrow{AB} = (x_{B} - x_{A},\\ y_{B} - y_{A},\\ z_{B} - z_{A})\\), dus eindpunt min beginpunt. Draai je het om, dan krijg je de tegengestelde vector \\(\\overrightarrow{BA} = -\\overrightarrow{AB}\\)."
     },
     {
      "soort": "tekst",
-     "html": "<strong>Bij een vermenigvuldiging met een getal vermenigvuldig je elke coördinaat afzonderlijk</strong>: de vector twee, min één, drie maal twee heeft als eerste coördinaat <strong>vier</strong>. <strong>Met een negatief getal keert de zin om</strong>; de richting blijft dezelfde en de lengte verandert met de grootte van dat getal."
+     "html": "Een <strong>richtingsvector van een rechte is een vector die evenwijdig is met die rechte</strong>, en <strong>elke rechte heeft er oneindig veel</strong>: elk veelvoud \\(k \\cdot \\vec{v}\\) met \\(k \\neq 0\\) is er ook een."
+    }
+   ]
+  },
+  {
+   "kop": "Vectoren optellen",
+   "blokken": [
+    {
+     "soort": "figuur",
+     "html": "<svg viewBox=\"0 0 470 214\" width=\"470\" xmlns=\"http://www.w3.org/2000/svg\"><text x=\"116.5\" y=\"18.0\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"11.5\" font-weight=\"600\" fill=\"#234539\">kop aan staart</text>\n<rect x=\"8.0\" y=\"28\" width=\"217.0\" height=\"170\" rx=\"8\" fill=\"#ffffff\" stroke=\"#e4ded0\" stroke-width=\"1.2\"/>\n<line x1=\"48.0\" y1=\"170.0\" x2=\"130.6\" y2=\"131.6\" stroke=\"#2f5d50\" stroke-width=\"2.4\" stroke-linecap=\"round\"/><polygon points=\"138.9,127.7 131.5,134.9 128.7,128.8\" fill=\"#2f5d50\"/>\n<text x=\"91.0\" y=\"169.0\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"12\" font-weight=\"600\" fill=\"#2f5d50\">u</text>\n<line x1=\"134.0\" y1=\"130.0\" x2=\"166.3\" y2=\"63.4\" stroke=\"#c17f2b\" stroke-width=\"2.4\" stroke-linecap=\"round\"/><polygon points=\"170.4,55.1 169.1,65.3 163.1,62.4\" fill=\"#c17f2b\"/>\n<text x=\"166.0\" y=\"99.0\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"12\" font-weight=\"600\" fill=\"#c17f2b\">v</text>\n<line x1=\"48.0\" y1=\"170.0\" x2=\"165.2\" y2=\"62.6\" stroke=\"#234539\" stroke-width=\"3.0\" stroke-linecap=\"round\"/><polygon points=\"172.0,56.4 167.1,65.4 162.6,60.5\" fill=\"#234539\"/>\n<text x=\"88.0\" y=\"103.0\" text-anchor=\"end\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"12\" font-weight=\"600\" fill=\"#234539\">u + v</text>\n<circle cx=\"48.0\" cy=\"170\" r=\"3\" fill=\"#23291f\"/>\n<text x=\"353.5\" y=\"18.0\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"11.5\" font-weight=\"600\" fill=\"#234539\">de parallellogramregel</text>\n<rect x=\"245.0\" y=\"28\" width=\"217.0\" height=\"170\" rx=\"8\" fill=\"#ffffff\" stroke=\"#e4ded0\" stroke-width=\"1.2\"/>\n<line x1=\"285.0\" y1=\"170.0\" x2=\"367.6\" y2=\"131.6\" stroke=\"#2f5d50\" stroke-width=\"2.4\" stroke-linecap=\"round\"/><polygon points=\"375.9,127.7 368.5,134.9 365.7,128.8\" fill=\"#2f5d50\"/>\n<text x=\"328.0\" y=\"169.0\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"12\" font-weight=\"600\" fill=\"#2f5d50\">u</text>\n<line x1=\"285.0\" y1=\"170.0\" x2=\"317.3\" y2=\"103.4\" stroke=\"#c17f2b\" stroke-width=\"2.4\" stroke-linecap=\"round\"/><polygon points=\"321.4,95.1 320.1,105.3 314.1,102.4\" fill=\"#c17f2b\"/>\n<text x=\"289.0\" y=\"139.0\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"12\" font-weight=\"600\" fill=\"#c17f2b\">v</text>\n<line x1=\"371.0\" y1=\"130\" x2=\"405.0\" y2=\"60\" stroke=\"#c17f2b\" stroke-width=\"1.4\" stroke-dasharray=\"5 4\"/>\n<line x1=\"319.0\" y1=\"100\" x2=\"405.0\" y2=\"60\" stroke=\"#2f5d50\" stroke-width=\"1.4\" stroke-dasharray=\"5 4\"/>\n<line x1=\"285.0\" y1=\"170.0\" x2=\"402.2\" y2=\"62.6\" stroke=\"#234539\" stroke-width=\"3.0\" stroke-linecap=\"round\"/><polygon points=\"409.0,56.4 404.1,65.4 399.6,60.5\" fill=\"#234539\"/>\n<text x=\"411.0\" y=\"48.0\" text-anchor=\"end\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"12\" font-weight=\"600\" fill=\"#234539\">u + v</text>\n<circle cx=\"285.0\" cy=\"170\" r=\"3\" fill=\"#23291f\"/></svg>",
+     "onderschrift": "Dezelfde som, twee keer getekend. De dikke pijl is in allebei de vakjes \\(\\vec{u} + \\vec{v}\\)."
     },
     {
      "soort": "tekst",
-     "html": "<strong>De norm van een vector is zijn lengte</strong>, berekend als de wortel uit de som van de kwadraten van de coördinaten. <strong>Een norm kan nooit negatief zijn</strong>; alleen de nulvector heeft norm nul. De norm van de vector <strong>drie, nul, vier is vijf</strong>."
+     "html": "<strong>Optellen doe je coördinaat per coördinaat</strong>: \\(\\vec{u} + \\vec{v} = (u_{1} + v_{1},\\ u_{2} + v_{2},\\ u_{3} + v_{3})\\). <strong>Grafisch leg je de staart van de tweede aan de kop van de eerste</strong>, en de somvector loopt van de eerste staart naar de laatste kop; met de parallellogramregel krijg je hetzelfde."
     },
     {
      "soort": "tekst",
-     "html": "<strong>Een vector ontbinden in zijn componenten betekent hem schrijven als een som van vectoren langs de assen.</strong> Elke coördinaat is de lengte van één component, en dat kan grafisch en door te rekenen."
+     "html": "<strong>De optelling van vectoren is commutatief</strong>, want \\(\\vec{u} + \\vec{v} = \\vec{v} + \\vec{u}\\). <strong>De nulvector \\(\\vec{0}\\) is het neutraal element</strong> en <strong>het symmetrisch element is de tegengestelde vector \\(-\\vec{v}\\)</strong>, met alle coördinaten van teken veranderd."
+    }
+   ]
+  },
+  {
+   "kop": "Vermenigvuldigen met een getal",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "<strong>Bij \\(k \\cdot \\vec{v}\\) vermenigvuldig je elke coördinaat afzonderlijk</strong>: \\(2 \\cdot (2, -1, 3) = (4, -2, 6)\\), dus de eerste coördinaat is <strong>\\(4\\)</strong>. <strong>Met \\(k < 0\\) keert de zin om</strong>; de richting blijft dezelfde en \\(\\|k \\cdot \\vec{v}\\| = |k| \\cdot \\|\\vec{v}\\|\\)."
     },
     {
      "soort": "weetje",
-     "html": "Werken er <strong>twee krachten tegelijk op een voorwerp</strong>, dan vind je de <strong>resulterende kracht door de twee krachtvectoren op te tellen</strong>. Een kracht heeft immers een grootte én een richting. Enkel de getallen optellen klopt alleen als ze dezelfde kant op wijzen."
+     "html": "Werken er <strong>twee krachten tegelijk op een voorwerp</strong>, dan vind je de <strong>resulterende kracht als \\(\\vec{F_{1}} + \\vec{F_{2}}\\)</strong>. Een kracht heeft immers een grootte én een richting. Enkel de getallen optellen klopt alleen als ze dezelfde kant op wijzen."
+    }
+   ]
+  },
+  {
+   "kop": "De norm en de componenten",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "<strong>De norm van een vector is zijn lengte</strong>: \\(\\|\\vec{v}\\| = \\sqrt{v_{1}^{2} + v_{2}^{2} + v_{3}^{2}}\\). <strong>Een norm kan nooit negatief zijn</strong>, want \\(\\|\\vec{v}\\| \\ge 0\\); alleen \\(\\vec{0}\\) heeft norm nul. Zo is \\(\\|(3, 0, 4)\\| = \\sqrt{9 + 0 + 16} = \\sqrt{25} = \\mathbf{5}\\)."
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Een vector ontbinden in zijn componenten betekent dat je hem schrijft als een som van vectoren langs de assen</strong>: \\(\\vec{v} = v_{1}\\vec{e_{x}} + v_{2}\\vec{e_{y}} + v_{3}\\vec{e_{z}}\\). Elke coördinaat is de lengte van één component, en dat kan grafisch en door te rekenen."
     }
    ]
   },
@@ -50,19 +82,38 @@
    "blokken": [
     {
      "soort": "tekst",
-     "html": "<strong>Het scalair product van twee vectoren levert een getal op</strong>, geen vector; daar komt de naam vandaan. <strong>In coördinaten tel je de producten van de overeenkomstige coördinaten op</strong>: voor één, twee, drie en twee, nul, één geeft dat <strong>vijf</strong>. <strong>Het scalair product is commutatief.</strong>"
+     "html": "<strong>Het scalair product \\(\\vec{u} \\cdot \\vec{v}\\) levert een getal op</strong>, geen vector; daar komt de naam vandaan. <strong>In coördinaten tel je de producten van de overeenkomstige coördinaten op</strong>: \\(\\vec{u} \\cdot \\vec{v} = u_{1}v_{1} + u_{2}v_{2} + u_{3}v_{3}\\). Voor \\((1, 2, 3)\\) en \\((2, 0, 1)\\) geeft dat \\(2 + 0 + 3 = \\mathbf{5}\\). <strong>Het scalair product is commutatief</strong>, want \\(\\vec{u} \\cdot \\vec{v} = \\vec{v} \\cdot \\vec{u}\\)."
     },
     {
      "soort": "tekst",
-     "html": "<strong>Het scalair product van twee loodrechte vectoren is nul</strong>, en dat werkt ook omgekeerd: dat is het <strong>criterium voor loodrechte stand</strong>. <strong>Om na te gaan of twee rechten loodrecht staan, bereken je dus het scalair product van hun richtingsvectoren</strong>, tenminste in een orthonormaal assenstelsel. <strong>Het werkt omdat de cosinus van negentig graden nul is</strong>: het scalair product is het product van de normen maal die cosinus."
+     "html": "<strong>Het scalair product van een vector met zichzelf is het kwadraat van zijn norm</strong>: \\(\\vec{v} \\cdot \\vec{v} = \\|\\vec{v}\\|^{2}\\), dus niet de norm zelf."
+    }
+   ]
+  },
+  {
+   "kop": "Het teken en de hoek",
+   "blokken": [
+    {
+     "soort": "figuur",
+     "html": "<svg viewBox=\"0 0 470 182\" width=\"470\" xmlns=\"http://www.w3.org/2000/svg\"><text x=\"79.0\" y=\"18.0\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"11.5\" font-weight=\"600\" fill=\"#234539\">scherp</text>\n<rect x=\"6.0\" y=\"28\" width=\"146.0\" height=\"104\" rx=\"8\" fill=\"#ffffff\" stroke=\"#e4ded0\" stroke-width=\"1.2\"/>\n<line x1=\"65.0\" y1=\"114.0\" x2=\"119.2\" y2=\"114.0\" stroke=\"#2f5d50\" stroke-width=\"2.4\" stroke-linecap=\"round\"/><polygon points=\"128.4,114.0 118.7,117.3 118.7,110.7\" fill=\"#2f5d50\"/>\n<text x=\"132.0\" y=\"118.0\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"11.5\" font-weight=\"600\" fill=\"#2f5d50\">u</text>\n<line x1=\"65.0\" y1=\"114.0\" x2=\"111.0\" y2=\"85.3\" stroke=\"#c17f2b\" stroke-width=\"2.4\" stroke-linecap=\"round\"/><polygon points=\"118.8,80.4 112.3,88.4 108.7,82.7\" fill=\"#c17f2b\"/>\n<text x=\"123.2\" y=\"80.3\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"11.5\" font-weight=\"600\" fill=\"#c17f2b\">v</text>\n<path d=\"M85.0 114.0 A20 20 0 0 0 82.0 103.4\" fill=\"none\" stroke=\"#6b7260\" stroke-width=\"1.2\"/>\n<text x=\"79.0\" y=\"154.0\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"12\" font-weight=\"600\" fill=\"#23291f\">u · v &gt; 0</text>\n<text x=\"235.0\" y=\"18.0\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"11.5\" font-weight=\"600\" fill=\"#234539\">recht</text>\n<rect x=\"162.0\" y=\"28\" width=\"146.0\" height=\"104\" rx=\"8\" fill=\"#ffffff\" stroke=\"#e4ded0\" stroke-width=\"1.2\"/>\n<line x1=\"221.0\" y1=\"114.0\" x2=\"275.2\" y2=\"114.0\" stroke=\"#2f5d50\" stroke-width=\"2.4\" stroke-linecap=\"round\"/><polygon points=\"284.4,114.0 274.7,117.3 274.7,110.7\" fill=\"#2f5d50\"/>\n<text x=\"288.0\" y=\"118.0\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"11.5\" font-weight=\"600\" fill=\"#2f5d50\">u</text>\n<line x1=\"221.0\" y1=\"114.0\" x2=\"221.0\" y2=\"59.8\" stroke=\"#c17f2b\" stroke-width=\"2.4\" stroke-linecap=\"round\"/><polygon points=\"221.0,50.6 224.3,60.3 217.7,60.3\" fill=\"#c17f2b\"/>\n<text x=\"230.0\" y=\"53.0\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"11.5\" font-weight=\"600\" fill=\"#c17f2b\">v</text>\n<path d=\"M241.0 114.0 A20 20 0 0 0 221.0 94.0\" fill=\"none\" stroke=\"#6b7260\" stroke-width=\"1.2\"/>\n<text x=\"235.0\" y=\"154.0\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"12\" font-weight=\"600\" fill=\"#23291f\">u · v = 0</text>\n<text x=\"391.0\" y=\"18.0\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"11.5\" font-weight=\"600\" fill=\"#234539\">stomp</text>\n<rect x=\"318.0\" y=\"28\" width=\"146.0\" height=\"104\" rx=\"8\" fill=\"#ffffff\" stroke=\"#e4ded0\" stroke-width=\"1.2\"/>\n<line x1=\"377.0\" y1=\"114.0\" x2=\"431.2\" y2=\"114.0\" stroke=\"#2f5d50\" stroke-width=\"2.4\" stroke-linecap=\"round\"/><polygon points=\"440.4,114.0 430.7,117.3 430.7,110.7\" fill=\"#2f5d50\"/>\n<text x=\"444.0\" y=\"118.0\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"11.5\" font-weight=\"600\" fill=\"#2f5d50\">u</text>\n<line x1=\"377.0\" y1=\"114.0\" x2=\"335.5\" y2=\"79.1\" stroke=\"#c17f2b\" stroke-width=\"2.4\" stroke-linecap=\"round\"/><polygon points=\"328.4,73.2 338.0,76.9 333.7,82.1\" fill=\"#c17f2b\"/>\n<text x=\"341.6\" y=\"73.7\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"11.5\" font-weight=\"600\" fill=\"#c17f2b\">v</text>\n<path d=\"M397.0 114.0 A20 20 0 0 0 361.7 101.1\" fill=\"none\" stroke=\"#6b7260\" stroke-width=\"1.2\"/>\n<text x=\"391.0\" y=\"154.0\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"12\" font-weight=\"600\" fill=\"#23291f\">u · v &lt; 0</text></svg>",
+     "onderschrift": "Hoe wijder de hoek, hoe kleiner het scalair product. Bij een rechte hoek valt het op nul."
     },
     {
      "soort": "tekst",
-     "html": "<strong>De hoek tussen twee vectoren bereken je uit het scalair product gedeeld door het product van de normen</strong>; die breuk is de cosinus van de hoek. <strong>Is het scalair product negatief, dan is de hoek stomp</strong>, niet scherp: bij een scherpe hoek is het positief, bij een rechte hoek nul."
+     "html": "<strong>De hoek \\(\\theta\\) tussen twee vectoren bereken je uit \\(\\cos \\theta = \\dfrac{\\vec{u} \\cdot \\vec{v}}{\\|\\vec{u}\\| \\cdot \\|\\vec{v}\\|}\\)</strong>; die breuk is de cosinus van de hoek, en met \\(\\arccos\\) vind je de hoek zelf. <strong>Is \\(\\vec{u} \\cdot \\vec{v} < 0\\), dan is de hoek stomp</strong>, niet scherp: bij een scherpe hoek is hij positief, bij een rechte hoek nul."
+    }
+   ]
+  },
+  {
+   "kop": "Loodrecht en evenwijdig",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "<strong>Het scalair product van twee loodrechte vectoren is nul</strong>, en dat werkt ook omgekeerd: \\(\\vec{u} \\perp \\vec{v} \\iff \\vec{u} \\cdot \\vec{v} = 0\\). Dat is het <strong>criterium voor loodrechte stand</strong>. <strong>Om na te gaan of twee rechten loodrecht staan, bereken je dus het scalair product van hun richtingsvectoren</strong>, tenminste in een orthonormaal assenstelsel. <strong>Het werkt omdat \\(\\cos 90^{\\circ} = 0\\)</strong>: er geldt \\(\\vec{u} \\cdot \\vec{v} = \\|\\vec{u}\\| \\cdot \\|\\vec{v}\\| \\cdot \\cos \\theta\\), en bij een rechte hoek valt alles weg."
     },
     {
      "soort": "tekst",
-     "html": "<strong>Het scalair product van een vector met zichzelf is het kwadraat van zijn norm</strong>, niet de norm zelf. En <strong>twee vectoren zijn evenwijdig als de ene een veelvoud van de andere is</strong>: alle coördinaten verschillen dan met dezelfde factor. Een <strong>normaalvector van een vlak</strong> is <strong>een vector die loodrecht op dat vlak staat</strong>; zijn coördinaten lees je af uit de cartesische vergelijking."
+     "html": "<strong>Twee vectoren zijn evenwijdig als de ene een veelvoud van de andere is</strong>: \\(\\vec{u} \\parallel \\vec{v} \\iff \\vec{u} = k \\cdot \\vec{v}\\). Alle coördinaten verschillen dan met dezelfde factor \\(k\\). Een <strong>normaalvector \\(\\vec{n}\\) van een vlak</strong> is <strong>een vector die loodrecht op dat vlak staat</strong>; zijn coördinaten lees je af uit de cartesische vergelijking."
     }
    ]
   },
@@ -71,28 +122,28 @@
    "blokken": [
     {
      "soort": "tekst",
-     "html": "<strong>De afstand tussen twee punten is de norm van de vector tussen die twee punten</strong>: eerst de vector, dan zijn lengte. De punten <strong>één, twee, drie en één, twee, acht liggen vijf uit elkaar</strong>, en het punt <strong>twee, drie, zes ligt zeven van de oorsprong</strong>."
+     "html": "<strong>De afstand tussen twee punten is de norm van de vector tussen die twee punten</strong>: \\(|AB| = \\|\\overrightarrow{AB}\\|\\), dus eerst de vector, dan zijn lengte. Zo liggen \\(A(1, 2, 3)\\) en \\(B(1, 2, 8)\\) op <strong>\\(5\\)</strong> van elkaar, en ligt \\(P(2, 3, 6)\\) op \\(\\sqrt{4 + 9 + 36} = \\mathbf{7}\\) van de oorsprong."
     },
     {
      "soort": "tekst",
-     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Wat je zoekt</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Hoe je het berekent</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Voorbeeld</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">het midden van een lijnstuk</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">het gemiddelde van de coördinaten van de twee uiteinden</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">tussen twee, vier, zes en vier, acht, tien is de eerste coördinaat drie</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">het zwaartepunt van een driehoek</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">de som van de drie hoekpunten gedeeld door drie</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">bij eerste coördinaten nul, drie en zes wordt dat drie</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">het zwaartepunt van een viervlak</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">de som van de vier hoekpunten gedeeld door vier</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">hetzelfde recept, met vier punten</td></tr></table>"
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Wat je zoekt</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Hoe je het berekent</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Voorbeeld</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">het midden van een lijnstuk</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">\\(M\\left(\\dfrac{x_{A} + x_{B}}{2}, \\dfrac{y_{A} + y_{B}}{2}, \\dfrac{z_{A} + z_{B}}{2}\\right)\\)</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">tussen \\((2,4,6)\\) en \\((4,8,10)\\) is de eerste coördinaat \\(3\\)</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">het zwaartepunt van een driehoek</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">het gemiddelde van de coördinaten van de drie hoekpunten</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">bij eerste coördinaten \\(0\\), \\(3\\) en \\(6\\) wordt dat \\(3\\)</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">het zwaartepunt van een viervlak</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">de som van de vier hoekpunten gedeeld door vier</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">hetzelfde recept, met vier punten</td></tr></table>"
     },
     {
      "soort": "weetje",
-     "html": "Vliegt een drone <strong>eerst drie meter naar het oosten en dan vier meter naar het noorden</strong>, dan vind je zijn verplaatsing <strong>als de som van de twee verplaatsingsvectoren</strong>: vijf meter, niet zeven. De afgelegde weg is wel zeven meter."
+     "html": "Vliegt een drone <strong>eerst drie meter naar het oosten en dan vier meter naar het noorden</strong>, dan vind je zijn verplaatsing <strong>als de som van de twee verplaatsingsvectoren</strong>: \\(\\sqrt{9 + 16} = 5\\) meter, niet zeven. De afgelegde weg is wel zeven meter."
     }
    ]
   }
  ],
  "onthoud": [
   "Een vrije vector is een richting, een zin en een lengte, zonder vast beginpunt.",
-  "De coördinaten van de vector van A naar B zijn die van B min die van A.",
-  "Vectoren optellen doe je coördinaat per coördinaat.",
-  "De norm is de wortel uit de som van de kwadraten van de coördinaten.",
-  "Het scalair product levert een getal op: de som van de producten van de overeenkomstige coördinaten.",
-  "Het scalair product van twee loodrechte vectoren is nul.",
-  "Is het scalair product negatief, dan is de hoek stomp.",
-  "De afstand tussen twee punten is de norm van de vector tussen die twee punten.",
+  "\\(\\overrightarrow{AB} = (x_{B} - x_{A},\\ y_{B} - y_{A},\\ z_{B} - z_{A})\\): eindpunt min beginpunt.",
+  "Optellen doe je coördinaat per coördinaat; \\(\\vec{0}\\) is het neutraal element.",
+  "\\(\\|\\vec{v}\\| = \\sqrt{v_{1}^{2} + v_{2}^{2} + v_{3}^{2}}\\), en dat is nooit negatief.",
+  "\\(\\vec{u} \\cdot \\vec{v} = u_{1}v_{1} + u_{2}v_{2} + u_{3}v_{3}\\), en dat is een getal.",
+  "\\(\\vec{u} \\perp \\vec{v} \\iff \\vec{u} \\cdot \\vec{v} = 0\\); \\(\\vec{u} \\parallel \\vec{v} \\iff \\vec{u} = k \\cdot \\vec{v}\\).",
+  "Is \\(\\vec{u} \\cdot \\vec{v} < 0\\), dan is de hoek stomp.",
+  "\\(|AB| = \\|\\overrightarrow{AB}\\|\\): de afstand is de norm van de vector ertussen.",
   "Het zwaartepunt van een driehoek is de som van de drie hoekpunten gedeeld door drie."
  ]
 }

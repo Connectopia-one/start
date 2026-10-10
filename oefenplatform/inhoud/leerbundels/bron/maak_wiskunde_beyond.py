@@ -26,7 +26,7 @@ alles nog in woorden stond en had gelijk: een leerling van de derde graad moet
 
 De omzetting gebeurt thema per thema, samen met de vragen van dat thema, zodat
 een kind in de bundel dezelfde schrijfwijze terugvindt als in de oefening.
-Omgezet: thema 1 tot 19. De andere thema's staan nog in woorden.
+Omgezet: thema 1 tot 20. De andere thema's staan nog in woorden.
 """
 import sys, pathlib
 sys.path.insert(0, str(pathlib.Path(__file__).parent))
@@ -2553,94 +2553,119 @@ BUNDELS["punten-vectoren-en-afstanden-in-de-ruimte-beyond"] = dict(
     onder="Vectoren met hun coördinaten en hun norm, het scalair product, en afstanden, hoeken en zwaartepunten.",
     secties=[
         dict(kop="Vrije vector en puntvector", blokken=[
-            ("p", "<strong>Een vrije vector is een richting, een zin en een lengte, zonder vast "
-                  "beginpunt.</strong> Je mag hem overal in de ruimte neerleggen; het blijft dezelfde "
-                  "vector. <strong>Twee pijlen met dezelfde coördinaten maar met een ander beginpunt zijn "
-                  "dus dezelfde vrije vector.</strong> Een <strong>puntvector</strong> is <strong>de "
-                  "vector van de oorsprong naar een punt</strong>, en zijn coördinaten zijn precies die "
-                  "van het punt."),
-            ("p", "<strong>Een vector in de ruimte heeft drie coördinaten</strong>, één per as; in het "
-                  "vlak zijn het er twee. Je werkt in een <strong>orthonormaal assenstelsel</strong>: "
-                  "<strong>de assen staan loodrecht op elkaar en de eenheden zijn even lang</strong>. "
-                  "Alleen dan kloppen de formules voor de norm, de afstand en de hoek."),
-            ("p", "<strong>De coördinaten van de vector van A naar B zijn die van B min die van A</strong>: "
-                  "eindpunt min beginpunt. Draai je het om, dan krijg je de tegengestelde vector. Een "
-                  "<strong>richtingsvector van een rechte is een vector die evenwijdig is met die "
-                  "rechte</strong>, en <strong>elke rechte heeft er oneindig veel</strong>, want elk "
-                  "veelvoud is er ook een."),
+            ("p", r"Een vector schrijven we \(\vec{v}\), de vector van \(A\) naar \(B\) schrijven we "
+                  r"\(\overrightarrow{AB}\), en zijn lengte \(\|\vec{v}\|\). <strong>Een vrije vector is "
+                  r"een richting, een zin en een lengte, zonder vast beginpunt.</strong> Je mag hem overal "
+                  r"in de ruimte neerleggen; het blijft dezelfde vector. <strong>Twee pijlen met dezelfde "
+                  r"coördinaten maar met een ander beginpunt zijn dus dezelfde vrije vector.</strong>"),
+            ("p", r"De <strong>puntvector</strong> van een punt \(P\) is <strong>\(\overrightarrow{OP}\), "
+                  r"de vector van de oorsprong naar dat punt</strong>, en zijn coördinaten zijn precies "
+                  r"die van \(P\). <strong>Een vector in de ruimte heeft drie coördinaten</strong>, één "
+                  r"per as, dus \(\vec{v}(v_{1}, v_{2}, v_{3})\); in het vlak zijn het er twee."),
+            ("kader", r"Je werkt altijd in een <strong>orthonormaal assenstelsel</strong>: <strong>de "
+                      r"assen staan loodrecht op elkaar en de eenheden zijn even lang</strong>. Alleen dan "
+                      r"kloppen de formules voor de norm, de afstand en de hoek."),
         ]),
-        dict(kop="Rekenen met vectoren", blokken=[
-            ("p", "<strong>Optellen doe je coördinaat per coördinaat</strong>: de eerste bij de eerste, en "
-                  "zo verder. <strong>Grafisch leg je de staart van de tweede aan de kop van de "
-                  "eerste</strong>, en de somvector loopt van de eerste staart naar de laatste kop; met de "
-                  "parallellogramregel krijg je hetzelfde. <strong>De optelling van vectoren is "
-                  "commutatief</strong>, <strong>de nulvector is het neutraal element</strong> en "
-                  "<strong>het symmetrisch element is de tegengestelde vector</strong>, met alle "
-                  "coördinaten van teken veranderd."),
-            ("p", "<strong>Bij een vermenigvuldiging met een getal vermenigvuldig je elke coördinaat "
-                  "afzonderlijk</strong>: de vector twee, min één, drie maal twee heeft als eerste "
-                  "coördinaat <strong>vier</strong>. <strong>Met een negatief getal keert de zin om</strong>; "
-                  "de richting blijft dezelfde en de lengte verandert met de grootte van dat getal."),
-            ("p", "<strong>De norm van een vector is zijn lengte</strong>, berekend als de wortel uit de "
-                  "som van de kwadraten van de coördinaten. <strong>Een norm kan nooit negatief zijn</strong>; "
-                  "alleen de nulvector heeft norm nul. De norm van de vector <strong>drie, nul, vier is "
-                  "vijf</strong>."),
-            ("p", "<strong>Een vector ontbinden in zijn componenten betekent hem schrijven als een som van "
-                  "vectoren langs de assen.</strong> Elke coördinaat is de lengte van één component, en "
-                  "dat kan grafisch en door te rekenen."),
-            ("weetje", "Werken er <strong>twee krachten tegelijk op een voorwerp</strong>, dan vind je de "
-                       "<strong>resulterende kracht door de twee krachtvectoren op te tellen</strong>. Een "
-                       "kracht heeft immers een grootte én een richting. Enkel de getallen optellen klopt "
-                       "alleen als ze dezelfde kant op wijzen."),
+        dict(kop="Van A naar B", blokken=[
+            ("p", r"<strong>De coördinaten van \(\overrightarrow{AB}\) zijn die van \(B\) min die van "
+                  r"\(A\)</strong>: \(\overrightarrow{AB} = (x_{B} - x_{A},\ y_{B} - y_{A},\ z_{B} - "
+                  r"z_{A})\), dus eindpunt min beginpunt. Draai je het om, dan krijg je de tegengestelde "
+                  r"vector \(\overrightarrow{BA} = -\overrightarrow{AB}\)."),
+            ("p", r"Een <strong>richtingsvector van een rechte is een vector die evenwijdig is met die "
+                  r"rechte</strong>, en <strong>elke rechte heeft er oneindig veel</strong>: elk veelvoud "
+                  r"\(k \cdot \vec{v}\) met \(k \neq 0\) is er ook een."),
+        ]),
+        dict(kop="Vectoren optellen", blokken=[
+            ("fig", svg.vectoroptelling(),
+             "Dezelfde som, twee keer getekend. De dikke pijl is in allebei de vakjes \\(\\vec{u} + \\vec{v}\\)."),
+            ("p", r"<strong>Optellen doe je coördinaat per coördinaat</strong>: \(\vec{u} + \vec{v} = "
+                  r"(u_{1} + v_{1},\ u_{2} + v_{2},\ u_{3} + v_{3})\). <strong>Grafisch leg je de staart "
+                  r"van de tweede aan de kop van de eerste</strong>, en de somvector loopt van de eerste "
+                  r"staart naar de laatste kop; met de parallellogramregel krijg je hetzelfde."),
+            ("p", r"<strong>De optelling van vectoren is commutatief</strong>, want \(\vec{u} + \vec{v} = "
+                  r"\vec{v} + \vec{u}\). <strong>De nulvector \(\vec{0}\) is het neutraal element</strong> "
+                  r"en <strong>het symmetrisch element is de tegengestelde vector \(-\vec{v}\)</strong>, "
+                  r"met alle coördinaten van teken veranderd."),
+        ]),
+        dict(kop="Vermenigvuldigen met een getal", blokken=[
+            ("p", r"<strong>Bij \(k \cdot \vec{v}\) vermenigvuldig je elke coördinaat "
+                  r"afzonderlijk</strong>: \(2 \cdot (2, -1, 3) = (4, -2, 6)\), dus de eerste coördinaat "
+                  r"is <strong>\(4\)</strong>. <strong>Met \(k < 0\) keert de zin om</strong>; de richting "
+                  r"blijft dezelfde en \(\|k \cdot \vec{v}\| = |k| \cdot \|\vec{v}\|\)."),
+            ("weetje", r"Werken er <strong>twee krachten tegelijk op een voorwerp</strong>, dan vind je de "
+                       r"<strong>resulterende kracht als \(\vec{F_{1}} + \vec{F_{2}}\)</strong>. Een kracht "
+                       r"heeft immers een grootte én een richting. Enkel de getallen optellen klopt alleen "
+                       r"als ze dezelfde kant op wijzen."),
+        ]),
+        dict(kop="De norm en de componenten", blokken=[
+            ("p", r"<strong>De norm van een vector is zijn lengte</strong>: \(\|\vec{v}\| = \sqrt{v_{1}^{2} "
+                  r"+ v_{2}^{2} + v_{3}^{2}}\). <strong>Een norm kan nooit negatief zijn</strong>, want "
+                  r"\(\|\vec{v}\| \ge 0\); alleen \(\vec{0}\) heeft norm nul. Zo is \(\|(3, 0, 4)\| = "
+                  r"\sqrt{9 + 0 + 16} = \sqrt{25} = \mathbf{5}\)."),
+            ("p", r"<strong>Een vector ontbinden in zijn componenten betekent dat je hem schrijft als een "
+                  r"som van vectoren langs de assen</strong>: \(\vec{v} = v_{1}\vec{e_{x}} + v_{2}\vec{e_{y}} "
+                  r"+ v_{3}\vec{e_{z}}\). Elke coördinaat is de lengte van één component, en dat kan "
+                  r"grafisch en door te rekenen."),
         ]),
         dict(kop="Het scalair product", blokken=[
-            ("p", "<strong>Het scalair product van twee vectoren levert een getal op</strong>, geen "
-                  "vector; daar komt de naam vandaan. <strong>In coördinaten tel je de producten van de "
-                  "overeenkomstige coördinaten op</strong>: voor één, twee, drie en twee, nul, één geeft "
-                  "dat <strong>vijf</strong>. <strong>Het scalair product is commutatief.</strong>"),
-            ("p", "<strong>Het scalair product van twee loodrechte vectoren is nul</strong>, en dat werkt "
-                  "ook omgekeerd: dat is het <strong>criterium voor loodrechte stand</strong>. <strong>Om "
-                  "na te gaan of twee rechten loodrecht staan, bereken je dus het scalair product van hun "
-                  "richtingsvectoren</strong>, tenminste in een orthonormaal assenstelsel. <strong>Het "
-                  "werkt omdat de cosinus van negentig graden nul is</strong>: het scalair product is het "
-                  "product van de normen maal die cosinus."),
-            ("p", "<strong>De hoek tussen twee vectoren bereken je uit het scalair product gedeeld door "
-                  "het product van de normen</strong>; die breuk is de cosinus van de hoek. <strong>Is het "
-                  "scalair product negatief, dan is de hoek stomp</strong>, niet scherp: bij een scherpe "
-                  "hoek is het positief, bij een rechte hoek nul."),
-            ("p", "<strong>Het scalair product van een vector met zichzelf is het kwadraat van zijn "
-                  "norm</strong>, niet de norm zelf. En <strong>twee vectoren zijn evenwijdig als de ene "
-                  "een veelvoud van de andere is</strong>: alle coördinaten verschillen dan met dezelfde "
-                  "factor. Een <strong>normaalvector van een vlak</strong> is <strong>een vector die "
-                  "loodrecht op dat vlak staat</strong>; zijn coördinaten lees je af uit de cartesische "
-                  "vergelijking."),
+            ("p", r"<strong>Het scalair product \(\vec{u} \cdot \vec{v}\) levert een getal op</strong>, "
+                  r"geen vector; daar komt de naam vandaan. <strong>In coördinaten tel je de producten van "
+                  r"de overeenkomstige coördinaten op</strong>: \(\vec{u} \cdot \vec{v} = u_{1}v_{1} + "
+                  r"u_{2}v_{2} + u_{3}v_{3}\). Voor \((1, 2, 3)\) en \((2, 0, 1)\) geeft dat \(2 + 0 + 3 = "
+                  r"\mathbf{5}\). <strong>Het scalair product is commutatief</strong>, want \(\vec{u} "
+                  r"\cdot \vec{v} = \vec{v} \cdot \vec{u}\)."),
+            ("p", r"<strong>Het scalair product van een vector met zichzelf is het kwadraat van zijn "
+                  r"norm</strong>: \(\vec{v} \cdot \vec{v} = \|\vec{v}\|^{2}\), dus niet de norm zelf."),
+        ]),
+        dict(kop="Het teken en de hoek", blokken=[
+            ("fig", svg.scalairteken(),
+             "Hoe wijder de hoek, hoe kleiner het scalair product. Bij een rechte hoek valt het op nul."),
+            ("p", r"<strong>De hoek \(\theta\) tussen twee vectoren bereken je uit \(\cos \theta = "
+                  r"\dfrac{\vec{u} \cdot \vec{v}}{\|\vec{u}\| \cdot \|\vec{v}\|}\)</strong>; die breuk is "
+                  r"de cosinus van de hoek, en met \(\arccos\) vind je de hoek zelf. <strong>Is \(\vec{u} "
+                  r"\cdot \vec{v} < 0\), dan is de hoek stomp</strong>, niet scherp: bij een scherpe hoek "
+                  r"is hij positief, bij een rechte hoek nul."),
+        ]),
+        dict(kop="Loodrecht en evenwijdig", blokken=[
+            ("p", r"<strong>Het scalair product van twee loodrechte vectoren is nul</strong>, en dat werkt "
+                  r"ook omgekeerd: \(\vec{u} \perp \vec{v} \iff \vec{u} \cdot \vec{v} = 0\). Dat is het "
+                  r"<strong>criterium voor loodrechte stand</strong>. <strong>Om na "
+                  r"te gaan of twee rechten loodrecht staan, bereken je dus het scalair product van hun "
+                  r"richtingsvectoren</strong>, tenminste in een orthonormaal assenstelsel. <strong>Het "
+                  r"werkt omdat \(\cos 90^{\circ} = 0\)</strong>: er geldt \(\vec{u} \cdot \vec{v} = "
+                  r"\|\vec{u}\| \cdot \|\vec{v}\| \cdot \cos \theta\), en bij een rechte hoek valt alles weg."),
+            ("p", r"<strong>Twee vectoren zijn evenwijdig als de ene een veelvoud van de andere is</strong>: "
+                  r"\(\vec{u} \parallel \vec{v} \iff \vec{u} = k \cdot \vec{v}\). Alle coördinaten "
+                  r"verschillen dan met dezelfde factor \(k\). Een <strong>normaalvector \(\vec{n}\) van "
+                  r"een vlak</strong> is <strong>een vector die loodrecht op dat vlak staat</strong>; zijn "
+                  r"coördinaten lees je af uit de cartesische vergelijking."),
         ]),
         dict(kop="Afstanden, middens en zwaartepunten", blokken=[
-            ("p", "<strong>De afstand tussen twee punten is de norm van de vector tussen die twee "
-                  "punten</strong>: eerst de vector, dan zijn lengte. De punten <strong>één, twee, drie en "
-                  "één, twee, acht liggen vijf uit elkaar</strong>, en het punt <strong>twee, drie, zes "
-                  "ligt zeven van de oorsprong</strong>."),
+            ("p", r"<strong>De afstand tussen twee punten is de norm van de vector tussen die twee "
+                  r"punten</strong>: \(|AB| = \|\overrightarrow{AB}\|\), dus eerst de vector, dan zijn "
+                  r"lengte. Zo liggen \(A(1, 2, 3)\) en \(B(1, 2, 8)\) op <strong>\(5\)</strong> van "
+                  r"elkaar, en ligt \(P(2, 3, 6)\) op \(\sqrt{4 + 9 + 36} = \mathbf{7}\) van de oorsprong."),
             ("p", tabel(["Wat je zoekt", "Hoe je het berekent", "Voorbeeld"], [
-                ["het midden van een lijnstuk", "het gemiddelde van de coördinaten van de twee uiteinden", "tussen twee, vier, zes en vier, acht, tien is de eerste coördinaat drie"],
-                ["het zwaartepunt van een driehoek", "de som van de drie hoekpunten gedeeld door drie", "bij eerste coördinaten nul, drie en zes wordt dat drie"],
+                ["het midden van een lijnstuk", r"\(M\left(\dfrac{x_{A} + x_{B}}{2}, \dfrac{y_{A} + y_{B}}{2}, \dfrac{z_{A} + z_{B}}{2}\right)\)", r"tussen \((2,4,6)\) en \((4,8,10)\) is de eerste coördinaat \(3\)"],
+                ["het zwaartepunt van een driehoek", "het gemiddelde van de coördinaten van de drie hoekpunten", r"bij eerste coördinaten \(0\), \(3\) en \(6\) wordt dat \(3\)"],
                 ["het zwaartepunt van een viervlak", "de som van de vier hoekpunten gedeeld door vier", "hetzelfde recept, met vier punten"],
             ])),
-            ("weetje", "Vliegt een drone <strong>eerst drie meter naar het oosten en dan vier meter naar "
-                       "het noorden</strong>, dan vind je zijn verplaatsing <strong>als de som van de twee "
-                       "verplaatsingsvectoren</strong>: vijf meter, niet zeven. De afgelegde weg is wel "
-                       "zeven meter."),
+            ("weetje", r"Vliegt een drone <strong>eerst drie meter naar het oosten en dan vier meter naar "
+                       r"het noorden</strong>, dan vind je zijn verplaatsing <strong>als de som van de twee "
+                       r"verplaatsingsvectoren</strong>: \(\sqrt{9 + 16} = 5\) meter, niet zeven. De "
+                       r"afgelegde weg is wel zeven meter."),
         ]),
     ],
     onthoud=[
-        "Een vrije vector is een richting, een zin en een lengte, zonder vast beginpunt.",
-        "De coördinaten van de vector van A naar B zijn die van B min die van A.",
-        "Vectoren optellen doe je coördinaat per coördinaat.",
-        "De norm is de wortel uit de som van de kwadraten van de coördinaten.",
-        "Het scalair product levert een getal op: de som van de producten van de overeenkomstige coördinaten.",
-        "Het scalair product van twee loodrechte vectoren is nul.",
-        "Is het scalair product negatief, dan is de hoek stomp.",
-        "De afstand tussen twee punten is de norm van de vector tussen die twee punten.",
-        "Het zwaartepunt van een driehoek is de som van de drie hoekpunten gedeeld door drie.",
+        r"Een vrije vector is een richting, een zin en een lengte, zonder vast beginpunt.",
+        r"\(\overrightarrow{AB} = (x_{B} - x_{A},\ y_{B} - y_{A},\ z_{B} - z_{A})\): eindpunt min beginpunt.",
+        r"Optellen doe je coördinaat per coördinaat; \(\vec{0}\) is het neutraal element.",
+        r"\(\|\vec{v}\| = \sqrt{v_{1}^{2} + v_{2}^{2} + v_{3}^{2}}\), en dat is nooit negatief.",
+        r"\(\vec{u} \cdot \vec{v} = u_{1}v_{1} + u_{2}v_{2} + u_{3}v_{3}\), en dat is een getal.",
+        r"\(\vec{u} \perp \vec{v} \iff \vec{u} \cdot \vec{v} = 0\); \(\vec{u} \parallel \vec{v} \iff \vec{u} = k \cdot \vec{v}\).",
+        r"Is \(\vec{u} \cdot \vec{v} < 0\), dan is de hoek stomp.",
+        r"\(|AB| = \|\overrightarrow{AB}\|\): de afstand is de norm van de vector ertussen.",
+        r"Het zwaartepunt van een driehoek is de som van de drie hoekpunten gedeeld door drie.",
     ],
 )
 
