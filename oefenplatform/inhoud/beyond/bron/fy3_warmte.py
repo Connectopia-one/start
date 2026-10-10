@@ -3,8 +3,8 @@
 
 Deel 1 gaat over het verschil tussen temperatuur en warmte, over de
 calorimeter en het joulevat, over warmtecapaciteit en specifieke
-warmtecapaciteit, en over het rekenen met Q = C maal ΔT en Q = c maal m maal
-ΔT. Deel 2 gaat over de zes faseovergangen, het smelt-, kook- en
+warmtecapaciteit, en over het rekenen met \(Q = C\,\Delta T\) en
+\(Q = c\,m\,\Delta T\). Deel 2 gaat over de zes faseovergangen, het smelt-, kook- en
 sublimatiepunt, de specifieke smelt-, verdampings- en sublimatiewarmte, en
 over het lezen van een smelt- en een stolcurve.
 
@@ -25,8 +25,9 @@ DEEL1 = [
             "warmte en temperatuur zijn twee woorden voor hetzelfde",
         ],
         antwoord=0,
-        uitleg="Een kopje thee en een bad van dezelfde temperatuur bevatten heel "
-        "verschillende hoeveelheden warmte. Warmte staat in joule, temperatuur in kelvin.",
+        uitleg=r"Een kopje thee en een bad van dezelfde temperatuur bevatten heel "
+        r"verschillende hoeveelheden warmte. Warmte \(Q\) staat in joule, temperatuur "
+        r"\(T\) in kelvin.",
     ),
     dict(
         type="invultekst",
@@ -78,8 +79,8 @@ DEEL1 = [
             "de warmte die het per seconde aan de lucht afgeeft",
         ],
         antwoord=0,
-        uitleg="Ze hangt af van de stof én van de massa van dat ene voorwerp. Het symbool is "
-        "een grote C, in joule per kelvin.",
+        uitleg=r"Ze hangt af van de stof én van de massa van dat ene voorwerp. Het symbool "
+        r"is \(C\), in \(\text{J/K}\).",
     ),
     dict(
         type="meerkeuze",
@@ -91,40 +92,42 @@ DEEL1 = [
             "de warmte die één kilogram bij smelten opneemt",
         ],
         antwoord=0,
-        uitleg="Het symbool is een kleine c, in joule per kilogram per kelvin. Ze is een "
-        "eigenschap van de stof en niet van het voorwerp.",
+        uitleg=r"Het symbool is \(c\), in \(\text{J/(kg}\cdot\text{K)}\). Ze is een "
+        r"eigenschap van de stof en niet van het voorwerp.",
     ),
     dict(
         type="invultekst",
         vraag="Hoeveel joule heeft één kilogram water nodig om één kelvin op te warmen?",
         antwoord=["4186", "4180", "ongeveer 4200"],
-        uitleg="Dat is heel veel in vergelijking met metalen. Daarom is water zo'n goede "
-        "warmteopslag, en daarom koelt de zee zo langzaam af.",
+        uitleg=r"\(c_{\text{water}} = 4186\ \text{J/(kg}\cdot\text{K)}\), heel veel in "
+        r"vergelijking met metalen. Daarom is water zo'n goede warmteopslag, en daarom koelt "
+        r"de zee zo langzaam af.",
     ),
     dict(
         type="meerkeuze",
         vraag="Met welke formule bereken je de warmte die een massa nodig heeft om op te warmen?",
         opties=[
-            "Q is c maal m maal ΔT",
-            "Q is c maal m gedeeld door ΔT",
-            "Q is c plus m plus ΔT",
-            "Q is c maal ΔT gedeeld door m",
+            r"\(Q = c\,m\,\Delta T\)",
+            r"\(Q = \dfrac{c\,m}{\Delta T}\)",
+            r"\(Q = c + m + \Delta T\)",
+            r"\(Q = \dfrac{c\,\Delta T}{m}\)",
         ],
         antwoord=0,
-        uitleg="Ken je de warmtecapaciteit van het hele voorwerp, dan volstaat Q is C maal "
-        "ΔT. De massa zit dan al in die grote C.",
+        uitleg=r"Ken je de warmtecapaciteit van het hele voorwerp, dan volstaat "
+        r"\(Q = C\,\Delta T\). De massa zit dan al in die \(C\).",
     ),
     dict(
         type="meerkeuze",
-        vraag="Hoeveel warmte heeft 2 kg water nodig om 10 K op te warmen? Neem c gelijk aan 4186 J/(kg·K).",
+        vraag=r"Hoeveel warmte heeft \(2{,}0\) kg water nodig om \(10\) K op te warmen? Neem \(c = 4186\ \text{J/(kg}\cdot\text{K)}\).",
         opties=[
-            "ongeveer 83,7 kJ",
-            "ongeveer 8,37 kJ",
-            "ongeveer 41,9 kJ",
-            "ongeveer 837 kJ",
+            r"\(83{,}7\) kJ",
+            r"\(8{,}37\) kJ",
+            r"\(41{,}9\) kJ",
+            r"\(837\) kJ",
         ],
         antwoord=0,
-        uitleg="Q is 4186 maal 2 maal 10, dus 83 720 joule. Dat is ongeveer 84 kilojoule.",
+        uitleg=r"\(Q = c\,m\,\Delta T = 4186 \times 2{,}0 \times 10 = "
+        r"8{,}37 \times 10^{4}\) J, dus ongeveer \(84\) kJ.",
     ),
     dict(
         type="meerkeuze",
@@ -133,11 +136,11 @@ DEEL1 = [
             "water heeft een hoge waarde in vergelijking met metalen",
             "ze hangt af van de stof en niet van de massa",
             "ze is voor elke stof dezelfde waarde",
-            "ze wordt uitgedrukt in joule per kelvin",
+            r"ze wordt uitgedrukt in \(\text{J/K}\)",
         ],
         antwoord=[0, 1],
-        uitleg="Joule per kelvin is de eenheid van de gewone warmtecapaciteit. De "
-        "specifieke staat in joule per kilogram per kelvin.",
+        uitleg=r"\(\text{J/K}\) is de eenheid van de gewone warmtecapaciteit \(C\). De "
+        r"specifieke \(c\) staat in \(\text{J/(kg}\cdot\text{K)}\).",
     ),
     dict(
         type="meerkeuze",
@@ -161,12 +164,12 @@ DEEL1 = [
     ),
     dict(
         type="meerkeuze",
-        vraag="Je giet 1 kg water van 80 °C bij 1 kg water van 20 °C. Welke temperatuur krijg je?",
+        vraag=r"Je giet \(1{,}0\) kg water van \(80\ ^\circ\text{C}\) bij \(1{,}0\) kg water van \(20\ ^\circ\text{C}\). Welke temperatuur krijg je?",
         opties=[
-            "ongeveer 50 °C",
-            "ongeveer 60 °C",
-            "ongeveer 100 °C",
-            "ongeveer 30 °C",
+            r"\(50\ ^\circ\text{C}\)",
+            r"\(60\ ^\circ\text{C}\)",
+            r"\(100\ ^\circ\text{C}\)",
+            r"\(30\ ^\circ\text{C}\)",
         ],
         antwoord=0,
         uitleg="De massa's zijn gelijk, dus ligt het antwoord precies in het midden. De "
@@ -174,10 +177,10 @@ DEEL1 = [
     ),
     dict(
         type="waarofniet",
-        vraag="Een voorwerp van 1000 K bevat altijd meer warmte dan een voorwerp van 300 K.",
+        vraag=r"Een voorwerp van \(1000\) K bevat altijd meer warmte dan een voorwerp van \(300\) K.",
         antwoord=False,
-        uitleg="Een vonk van 1000 kelvin bevat veel minder energie dan een bad van 300 "
-        "kelvin. De massa en de stof tellen even hard mee als de temperatuur.",
+        uitleg=r"Een vonk van \(1000\) K bevat veel minder energie dan een bad van "
+        r"\(300\) K. De massa en de stof tellen even hard mee als de temperatuur.",
     ),
     dict(
         type="meerkeuze",
@@ -220,10 +223,10 @@ DEEL1 = [
     ),
     dict(
         type="waarofniet",
-        vraag="Een stijging van 10 K is hetzelfde als een stijging van 10 graden celsius.",
+        vraag=r"Een stijging van \(10\) K is hetzelfde als een stijging van \(10\ ^\circ\text{C}\).",
         antwoord=True,
-        uitleg="De twee schalen hebben even grote stappen, enkel hun nulpunt verschilt. Bij "
-        "een verschíl mag je dus wel in celsius rekenen.",
+        uitleg=r"De twee schalen hebben even grote stappen, enkel hun nulpunt verschilt. Bij "
+        r"een \(\Delta T\) mag je dus wel in celsius rekenen.",
     ),
     dict(
         type="invultekst",
@@ -245,7 +248,8 @@ DEEL2 = [
             "sublimeren",
         ],
         antwoord=0,
-        uitleg="De omgekeerde overgang heet stollen. Water doet dat bij nul graden celsius.",
+        uitleg=r"De omgekeerde overgang heet stollen. Water doet dat bij "
+        r"\(0\ ^\circ\text{C}\).",
     ),
     dict(
         type="meerkeuze",
@@ -297,41 +301,41 @@ DEEL2 = [
             "de warmte die één kilogram ervan bij stollen opneemt",
         ],
         antwoord=0,
-        uitleg="Het symbool is een kleine l, in joule per kilogram. Je rekent ermee als Q is "
-        "l maal m.",
+        uitleg=r"Het symbool is \(l\), in \(\text{J/kg}\). Je rekent ermee als "
+        r"\(Q = l\,m\).",
     ),
     dict(
         type="meerkeuze",
         vraag="Met welke formule bereken je de warmte voor een faseovergang?",
         opties=[
-            "Q is l maal m",
-            "Q is l maal m maal ΔT",
-            "Q is l gedeeld door m",
-            "Q is l maal ΔT",
+            r"\(Q = l\,m\)",
+            r"\(Q = l\,m\,\Delta T\)",
+            r"\(Q = \dfrac{l}{m}\)",
+            r"\(Q = l\,\Delta T\)",
         ],
         antwoord=0,
-        uitleg="Er staat geen ΔT in, want de temperatuur verandert niet. Dat is net het "
-        "kenmerk van een faseovergang.",
+        uitleg=r"Er staat geen \(\Delta T\) in, want de temperatuur verandert niet. Dat is "
+        r"net het kenmerk van een faseovergang.",
     ),
     dict(
         type="meerkeuze",
-        vraag="Hoeveel warmte heb je nodig om 0,5 kg ijs van 0 °C te laten smelten? Neem l gelijk aan 334 kJ/kg.",
+        vraag=r"Hoeveel warmte heb je nodig om \(0{,}50\) kg ijs van \(0\ ^\circ\text{C}\) te laten smelten? Neem \(l = 334\) kJ/kg.",
         opties=[
-            "ongeveer 167 kJ",
-            "ongeveer 334 kJ",
-            "ongeveer 668 kJ",
-            "ongeveer 84 kJ",
+            r"\(167\) kJ",
+            r"\(334\) kJ",
+            r"\(668\) kJ",
+            r"\(84\) kJ",
         ],
         antwoord=0,
-        uitleg="Q is l maal m, dus 334 maal 0,5 is 167 kilojoule. Daarna begint de "
-        "temperatuur pas te stijgen.",
+        uitleg=r"\(Q = l\,m = 334 \times 0{,}50 = 167\) kJ. Daarna begint de temperatuur "
+        r"pas te stijgen.",
     ),
     dict(
         type="waarofniet",
         vraag="De specifieke verdampingswarmte van water is kleiner dan zijn specifieke smeltwarmte.",
         antwoord=False,
-        uitleg="Ze is juist veel groter, ongeveer 2256 tegenover 334 kilojoule per kilogram. "
-        "Bij verdampen moeten de deeltjes helemaal los van elkaar.",
+        uitleg=r"Ze is juist veel groter: \(2256\) tegenover \(334\) kJ/kg. Bij verdampen "
+        r"moeten de deeltjes helemaal los van elkaar.",
     ),
     dict(
         type="meerkeuze",
@@ -352,12 +356,12 @@ DEEL2 = [
         opties=[
             "het hangt af van de druk boven de vloeistof",
             "bij lagere druk ligt het kookpunt lager",
-            "het is voor elke vloeistof honderd graden celsius",
+            r"het is voor elke vloeistof \(100\ ^\circ\text{C}\)",
             "het is altijd hoger dan het smeltpunt van de stof",
         ],
         antwoord=[0, 1, 3],
-        uitleg="Honderd graden is het kookpunt van water bij normale druk, niet van elke "
-        "vloeistof. Hoog in de bergen kookt water bij een lagere temperatuur.",
+        uitleg=r"\(100\ ^\circ\text{C}\) is het kookpunt van water bij normale druk, niet "
+        r"van elke vloeistof. Hoog in de bergen kookt water bij een lagere temperatuur.",
     ),
     dict(
         type="meerkeuze",
@@ -369,8 +373,8 @@ DEEL2 = [
             "de pan houdt de damp vast en die kookt het eten mee",
         ],
         antwoord=0,
-        uitleg="Het water wordt dan heter dan honderd graden zonder weg te koken. Heter water "
-        "gaart het eten sneller.",
+        uitleg=r"Het water wordt dan heter dan \(100\ ^\circ\text{C}\) zonder weg te "
+        r"koken. Heter water gaart het eten sneller.",
     ),
     dict(
         type="invultekst",
@@ -413,16 +417,16 @@ DEEL2 = [
     ),
     dict(
         type="meerkeuze",
-        vraag="Je wil 1 kg water van 20 °C eerst opwarmen tot 100 °C en dan laten verdampen. Welk deel kost de meeste warmte?",
+        vraag=r"Je wil \(1{,}0\) kg water van \(20\ ^\circ\text{C}\) eerst opwarmen tot \(100\ ^\circ\text{C}\) en dan laten verdampen. Welk deel kost de meeste warmte?",
         opties=[
-            "het verdampen, want dat vraagt ongeveer 2256 kJ",
-            "het opwarmen, want dat vraagt ongeveer 2256 kJ",
-            "de twee delen vragen ongeveer evenveel warmte",
-            "het opwarmen, want een faseovergang kost geen warmte",
+            r"het verdampen, want dat vraagt \(2256\) kJ",
+            r"het opwarmen, want dat vraagt \(2256\) kJ",
+            r"de twee delen vragen ongeveer evenveel warmte",
+            r"het opwarmen, want een faseovergang kost niets",
         ],
         antwoord=0,
-        uitleg="Het opwarmen vraagt 4186 maal 1 maal 80, dus ongeveer 335 kilojoule. Het "
-        "verdampen vraagt bijna zeven keer zoveel.",
+        uitleg=r"Het opwarmen vraagt \(4186 \times 1{,}0 \times 80 \approx 335\) kJ. Het "
+        r"verdampen vraagt bijna zeven keer zoveel.",
     ),
     dict(
         type="waarofniet",
@@ -441,8 +445,8 @@ DEEL2 = [
             "het zout houdt de warmte van de weg beter vast",
         ],
         antwoord=0,
-        uitleg="Pekel bevriest pas onder nul graden, dus blijft het water vloeibaar. Bij "
-        "strenge vorst werkt dat niet meer.",
+        uitleg=r"Pekel bevriest pas onder \(0\ ^\circ\text{C}\), dus blijft het water "
+        r"vloeibaar. Bij strenge vorst werkt dat niet meer.",
     ),
     dict(
         type="invultekst",

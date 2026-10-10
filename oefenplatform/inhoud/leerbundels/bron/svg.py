@@ -7909,3 +7909,59 @@ def gaswetten(breedte=470):
     d.append(_tekst(ox + 56, oy - 8, "door 0 K", 8.5, AMBER, "start", True))
 
     return _svg(cel_b * 3, cel_h, "\n".join(d))
+
+
+def verwarmingscurve(breedte=470):
+    r"""De verwarmingscurve van water, van ijs tot stoom.
+
+    Op de horizontale as de warmte die je toevoert, op de verticale as de
+    temperatuur. De twee vlakke stukken zijn het smelten en het koken: daar
+    gaat alle warmte naar de faseovergang en beweegt de thermometer niet.
+    Dat is net het stuk dat bij een smelt- of stolcurve het vaakst verkeerd
+    gelezen wordt.
+    """
+    import math
+    h = 206
+    d = []
+    ox, oy, top, rechts = 54, 180, 22, 450
+    y0, y100 = 132, 70
+
+    d.append(f'<rect x="4" y="4" width="{breedte-8}" height="{h-34}" rx="8" '
+             f'fill="#ffffff" stroke="{BORDER}" stroke-width="1.2"/>')
+    d.append(f'<line x1="{ox}" y1="{top}" x2="{ox}" y2="{oy+6}" stroke="{DIM}" '
+             f'stroke-width="1.3"/>')
+    d.append(f'<line x1="{ox-6}" y1="{oy}" x2="{rechts}" y2="{oy}" stroke="{DIM}" '
+             f'stroke-width="1.3"/>')
+    d.append(_pijlkop(rechts, oy, 0.0, DIM, 4.5))
+    d.append(_pijlkop(ox, top, -math.pi / 2, DIM, 4.5))
+    d.append(_tekst(ox - 10, top + 4, "T", 10, DIM, "end"))
+    d.append(_tekst(rechts - 8, oy + 15, "warmte Q", 10, DIM, "end"))
+
+    # ── de twee hulplijnen met hun temperatuur
+    for y, naam in ((y0, "0 °C"), (y100, "100 °C")):
+        d.append(f'<line x1="{ox}" y1="{y}" x2="{rechts-14}" y2="{y}" stroke="{BORDER}" '
+                 f'stroke-width="1.1" stroke-dasharray="4 4"/>')
+        d.append(_tekst(ox - 7, y + 4, naam, 9, DIM, "end"))
+
+    # ── de curve zelf
+    xs = [58, 104, 158, 228, 372, 436]
+    ys = [150, y0, y0, y100, y100, 44]
+    punten = " ".join(f"{x},{y}" for x, y in zip(xs, ys))
+    d.append(f'<polyline points="{punten}" fill="none" stroke="{FOREST}" stroke-width="2.4" '
+             f'stroke-linejoin="round"/>')
+
+    # ── de vlakke stukken dikker, want daar zit de faseovergang
+    d.append(f'<line x1="{xs[1]}" y1="{y0}" x2="{xs[2]}" y2="{y0}" stroke="{AMBER}" '
+             f'stroke-width="3.4"/>')
+    d.append(f'<line x1="{xs[3]}" y1="{y100}" x2="{xs[4]}" y2="{y100}" stroke="{AMBER}" '
+             f'stroke-width="3.4"/>')
+
+    d.append(_tekst(78, 166, "ijs", 9.5, DIM, "middle"))
+    d.append(_tekst(131, y0 - 8, "smelten", 9.5, AMBER, "middle", True))
+    d.append(_tekst(203, 124, "water", 9.5, DIM, "middle"))
+    d.append(_tekst(300, y100 - 8, "koken", 9.5, AMBER, "middle", True))
+    d.append(_tekst(420, 90, "stoom", 9.5, DIM, "middle"))
+
+    d.append(_tekst(breedte / 2, h - 10,
+                    "op een vlak stuk verandert de temperatuur niet", 9, DIM, "middle"))
+    return _svg(breedte, h, "\n".join(d))

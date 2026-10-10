@@ -2043,124 +2043,133 @@ BUNDELS["warmteleer-temperatuur-warmte-en-faseovergangen-beyond"] = dict(
     onder="Opwarmen, warmte uitwisselen en van fase veranderen zonder dat de thermometer beweegt.",
     secties=[
         dict(kop="Warmte is niet hetzelfde als temperatuur", blokken=[
-            ("p", "Het verschil tussen warmte en temperatuur: "
-                  "<strong>warmte is energie die stroomt, temperatuur is een toestand</strong>. "
-                  "Warmte staat daarom in <strong>joule</strong>, temperatuur in kelvin. Een "
-                  "<strong>voorwerp van 1000 K bevat niet altijd meer warmte dan een voorwerp van "
-                  "300 K</strong>: een vonk bevat veel minder energie dan een bad, want de massa en "
-                  "de stof tellen even hard mee."),
-            ("p", "<strong>Warmte stroomt van het warme naar het koude voorwerp</strong>, nooit "
-                  "spontaan de andere kant op. Daarom "
-                  "<strong>houden twee voorwerpen die elkaar raken niet elk hun eigen "
-                  "temperatuur</strong>: er stroomt warmte tot ze gelijk staan. Die toestand "
-                  "<strong>waarin twee voorwerpen geen warmte meer uitwisselen</strong>, heet "
-                  "<strong>thermisch evenwicht</strong>."),
-            ("p", "Een <strong>stijging van 10 K is hetzelfde als een stijging van 10 graden "
-                  "celsius</strong>: de twee schalen hebben even grote stappen, enkel hun nulpunt "
-                  "verschilt. Bij een verschil mag je dus wel in celsius rekenen."),
-            ("p", "Warmte verplaatst zich op drie manieren: "
-                  "<strong>geleiding, door contact tussen de deeltjes</strong>, "
-                  "<strong>stroming, doordat warm water of lucht stijgt</strong>, en "
-                  "<strong>straling, doordat een warm voorwerp licht uitzendt</strong>. Daarom zit er "
-                  "<strong>tussen de twee glazen van een thermosfles een vacuüm</strong>: "
-                  "<strong>zonder deeltjes kan er geen warmte geleid of gestroomd worden</strong>, "
-                  "en de spiegelende wand houdt de straling tegen."),
+            ("p", "<strong>Warmte \\(Q\\) is energie die stroomt, temperatuur \\(T\\) is een "
+                  "toestand.</strong> Warmte staat daarom in <strong>joule</strong>, "
+                  "temperatuur in kelvin. Een voorwerp van \\(1000\\) K bevat "
+                  "<strong>niet</strong> altijd meer warmte dan een voorwerp van \\(300\\) K: "
+                  "een vonk bevat veel minder energie dan een bad, want de massa en de stof "
+                  "tellen even hard mee."),
+            ("p", "<strong>Warmte stroomt van het warme naar het koude voorwerp</strong>, "
+                  "nooit spontaan de andere kant op. Twee voorwerpen die elkaar raken, houden "
+                  "dus <strong>niet</strong> elk hun eigen temperatuur: er stroomt warmte tot "
+                  "ze gelijk staan. Die toestand heet <strong>thermisch evenwicht</strong>. "
+                  "Een stijging van \\(10\\) K is hetzelfde als een stijging van "
+                  "\\(10\\ ^\\circ\\text{C}\\): de twee schalen hebben even grote stappen, "
+                  "enkel hun nulpunt verschilt, dus bij een \\(\\Delta T\\) mag je wel in "
+                  "celsius rekenen."),
+        ]),
+        dict(kop="De drie wegen van de warmte", blokken=[
+            ("p", "Warmte verplaatst zich op drie manieren: <strong>geleiding</strong>, door "
+                  "contact tussen de deeltjes, <strong>stroming</strong>, doordat warm water "
+                  "of warme lucht stijgt, en <strong>straling</strong>, doordat een warm "
+                  "voorwerp licht uitzendt. Daarom zit er tussen de twee glazen van een "
+                  "<strong>thermosfles</strong> een <strong>vacuüm</strong>: zonder deeltjes "
+                  "kan er niets geleid of gestroomd worden, en de spiegelende wand houdt de "
+                  "straling tegen."),
         ]),
         dict(kop="Meten met een calorimeter", blokken=[
-            ("p", "Een <strong>calorimeter</strong> gebruik je "
-                  "<strong>om een hoeveelheid uitgewisselde warmte te meten</strong>. Bij een "
-                  "calorimeterproef geldt: <strong>de warmte die de ene stof afgeeft, neemt de "
-                  "andere op</strong>, en <strong>het vat moet zo goed mogelijk geïsoleerd "
-                  "zijn</strong>. De twee stoffen hoeven niet dezelfde massa te hebben."),
-            ("p", "Met een <strong>joulevat</strong> meet je "
-                  "<strong>hoeveel warmte een elektrische weerstand aan water geeft</strong>. Je "
-                  "meet spanning, stroom en tijd, en de temperatuurstijging van het water laat zien "
-                  "dat die energie warmte geworden is."),
+            ("p", "Een <strong>calorimeter</strong> gebruik je om een hoeveelheid uitgewisselde "
+                  "warmte te meten. Bij een calorimeterproef geldt: de warmte die de ene stof "
+                  "afgeeft, neemt de andere op, en het vat moet zo goed mogelijk "
+                  "<strong>geïsoleerd</strong> zijn. De twee stoffen hoeven niet dezelfde massa "
+                  "te hebben. Met een <strong>joulevat</strong> meet je hoeveel warmte een "
+                  "elektrische weerstand aan water geeft: je meet spanning, stroom en tijd, en "
+                  "de temperatuurstijging laat zien dat die energie warmte geworden is."),
         ]),
         dict(kop="Warmtecapaciteit", blokken=[
-            ("p", "De <strong>warmtecapaciteit van een voorwerp</strong> is "
-                  "<strong>de warmte die het nodig heeft om één kelvin op te warmen</strong>, met "
-                  "het symbool grote C in joule per kelvin. De "
-                  "<strong>specifieke warmtecapaciteit van een stof</strong> is "
-                  "<strong>de warmte voor één kilogram en één kelvin</strong>, met het symbool "
-                  "kleine c; ze <strong>hangt af van de stof en niet van de massa</strong>, en "
-                  "<strong>water heeft een hoge waarde in vergelijking met metalen</strong>."),
-            ("p", "Eén kilogram water heeft <strong>4186</strong> joule nodig om één kelvin op te "
-                  "warmen. Daarom warmt <strong>een pan sneller op dan het water erin</strong>: "
-                  "<strong>het metaal heeft een veel lagere specifieke warmtecapaciteit</strong>."),
-            ("p", "De formule is <strong>Q is c maal m maal ΔT</strong>; ken je de warmtecapaciteit "
-                  "van het hele voorwerp, dan volstaat Q is C maal ΔT. "
-                  "<strong>2 kg water 10 K</strong> opwarmen vraagt "
-                  "<strong>ongeveer 83,7 kJ</strong>. Giet je "
-                  "<strong>1 kg water van 80 °C bij 1 kg water van 20 °C</strong>, dan krijg je "
-                  "<strong>ongeveer 50 °C</strong>: bij gelijke massa's ligt het antwoord precies in "
-                  "het midden."),
+            ("kader", "<strong>Opwarmen</strong><br>"
+                      "\\[Q = c\\,m\\,\\Delta T \\qquad Q = C\\,\\Delta T\\]"
+                      "\\(C\\) is de <strong>warmtecapaciteit</strong> van een voorwerp, in "
+                      "\\(\\text{J/K}\\); \\(c\\) is de <strong>specifieke "
+                      "warmtecapaciteit</strong> van een stof: de warmte voor één kilogram "
+                      "en één kelvin, in \\(\\text{J/(kg}\\cdot\\text{K)}\\). In \\(C\\) zit "
+                      "de massa al mee."),
+            ("p", "\\(c\\) hangt af van de stof en niet van de massa, en water heeft een hoge "
+                  "waarde in vergelijking met metalen: "
+                  "\\(c_{\\text{water}} = 4186\\ \\text{J/(kg}\\cdot\\text{K)}\\). Daarom warmt "
+                  "een <strong>pan</strong> sneller op dan het water erin: het metaal heeft een "
+                  "veel lagere \\(c\\)."),
+        ]),
+        dict(kop="Rekenen aan het opwarmen", blokken=[
+            ("p", "\\(2{,}0\\) kg water \\(10\\) K opwarmen vraagt "
+                  "\\(Q = 4186 \\times 2{,}0 \\times 10 = 8{,}37 \\times 10^{4}\\) J, dus "
+                  "ongeveer \\(84\\) kJ. Giet je \\(1{,}0\\) kg water van "
+                  "\\(80\\ ^\\circ\\text{C}\\) bij \\(1{,}0\\) kg water van "
+                  "\\(20\\ ^\\circ\\text{C}\\), dan krijg je \\(50\\ ^\\circ\\text{C}\\): bij "
+                  "gelijke massa's ligt het antwoord precies in het midden, want de warmte die "
+                  "het ene afgeeft, neemt het andere op."),
         ]),
         dict(kop="De zes faseovergangen", blokken=[
-            ("p", "De zes faseovergangen komen in drie paren: "
-                  "<strong>smelten en stollen</strong>, "
-                  "<strong>verdampen en condenseren</strong> en "
-                  "<strong>sublimeren en rijpen</strong>. "
-                  "<strong>Smelten</strong> is de overgang van vast naar vloeibaar, "
-                  "<strong>condenseren</strong> die van gas naar vloeistof, "
-                  "<strong>sublimeren</strong> die van vast rechtstreeks naar gas, en "
-                  "<strong>rijpen</strong> die van gas rechtstreeks naar vast."),
-            ("p", "<strong>Smelten</strong>, <strong>verdampen</strong> en "
-                  "<strong>sublimeren</strong> nemen warmte op, want ze gaan naar een lossere "
-                  "toestand. Stollen, condenseren en rijpen geven warmte af: "
-                  "<strong>bij stollen geeft een stof warmte af aan haar omgeving</strong>."),
-            ("p", "<strong>Tijdens het smelten blijft de temperatuur van een zuivere stof "
-                  "gelijk</strong>, want alle warmte gaat naar het losmaken van de deeltjes. Op een "
-                  "<strong>smeltcurve</strong> zie je daarom "
-                  "<strong>een stijging, dan een horizontaal stuk, dan weer een stijging</strong>, en "
-                  "op een <strong>stolcurve</strong> "
-                  "<strong>een daling, dan een horizontaal stuk, dan weer een daling</strong>. Een "
-                  "<strong>mengsel heeft niet één scherp smeltpunt</strong> zoals een zuivere stof: "
-                  "het smelt over een temperatuurgebied, dus is dat stuk niet vlak."),
+            ("fig", svg.faseovergangen(),
+             "Oranje: er gaat warmte bij. Blauw: er gaat warmte weg."),
+        ]),
+        dict(kop="Welke nemen warmte op?", blokken=[
+            ("p", "De zes faseovergangen komen in drie paren: <strong>smelten en "
+                  "stollen</strong>, <strong>verdampen en condenseren</strong>, "
+                  "<strong>sublimeren en rijpen</strong>. Smelten is vast naar vloeibaar, "
+                  "condenseren gas naar vloeistof, sublimeren vast rechtstreeks naar gas, en "
+                  "rijpen gas rechtstreeks naar vast. <strong>Smelten, verdampen en "
+                  "sublimeren</strong> nemen warmte op, want ze gaan naar een lossere toestand; "
+                  "stollen, condenseren en rijpen geven warmte af aan hun omgeving."),
+        ]),
+        dict(kop="Een vlak stuk op de curve", blokken=[
+            ("fig", svg.verwarmingscurve(),
+             "Dezelfde massa water, van ijs tot stoom, bij steeds meer toegevoerde warmte."),
+            ("p", "Tijdens het smelten blijft de temperatuur van een zuivere stof "
+                  "<strong>gelijk</strong>, want alle warmte gaat naar het losmaken van de "
+                  "deeltjes. Op een <strong>smeltcurve</strong> zie je daarom een stijging, dan "
+                  "een horizontaal stuk, dan weer een stijging; op een "
+                  "<strong>stolcurve</strong> een daling, dan een horizontaal stuk, dan weer "
+                  "een daling. Een <strong>mengsel</strong> heeft geen scherp smeltpunt zoals "
+                  "een zuivere stof: het smelt over een temperatuurgebied, dus is dat stuk niet "
+                  "vlak."),
         ]),
         dict(kop="Rekenen aan een faseovergang", blokken=[
-            ("p", "De <strong>specifieke smeltwarmte van een stof</strong> is "
-                  "<strong>de warmte om één kilogram ervan te laten smelten</strong>, met het "
-                  "symbool kleine l in joule per kilogram. De formule voor een faseovergang is "
-                  "<strong>Q is l maal m</strong>: er staat geen ΔT in, want de temperatuur "
-                  "verandert niet."),
-            ("p", "<strong>0,5 kg ijs van 0 °C</strong> laten smelten vraagt "
-                  "<strong>ongeveer 167 kJ</strong>, met l gelijk aan 334 kJ/kg."),
-            ("p", "De <strong>specifieke verdampingswarmte van water is niet kleiner dan zijn "
-                  "specifieke smeltwarmte</strong> maar juist veel groter: ongeveer 2256 tegenover "
-                  "334 kilojoule per kilogram. Wil je <strong>1 kg water van 20 °C eerst opwarmen "
-                  "tot 100 °C en dan laten verdampen</strong>, dan kost "
-                  "<strong>het verdampen de meeste warmte, want dat vraagt ongeveer "
-                  "2256 kJ</strong> tegenover ongeveer 335 kJ voor het opwarmen."),
-            ("p", "Daarom <strong>voelt het koel aan als er water op je huid verdampt</strong>: "
-                  "<strong>het verdampende water neemt warmte van je huid mee</strong>. Dat is net "
+            ("kader", "<strong>Van fase veranderen</strong><br>"
+                      "\\[Q = l\\,m\\]"
+                      "\\(l\\) is de <strong>specifieke smelt-, verdampings- of "
+                      "sublimatiewarmte</strong>: de warmte per kilogram, in "
+                      "\\(\\text{J/kg}\\). Er staat geen "
+                      "\\(\\Delta T\\) in, want de temperatuur verandert niet."),
+        ]),
+        dict(kop="Smelten en verdampen in cijfers", blokken=[
+            ("p", "\\(0{,}50\\) kg ijs van \\(0\\ ^\\circ\\text{C}\\) laten smelten vraagt "
+                  "\\(Q = 334 \\times 0{,}50 = 167\\) kJ. De specifieke verdampingswarmte van "
+                  "water is <strong>veel groter</strong> dan zijn smeltwarmte: \\(2256\\) "
+                  "tegenover \\(334\\) kJ/kg. Wil je \\(1{,}0\\) kg water "
+                  "opwarmen van \\(20\\) naar \\(100\\ ^\\circ\\text{C}\\) en dan laten "
+                  "verdampen, dan kost het <strong>verdampen</strong> veruit het meest: "
+                  "\\(2256\\) tegenover \\(335\\) kJ."),
+            ("p", "Daarom voelt het <strong>koel</strong> aan als er water op je huid "
+                  "verdampt: het verdampende water neemt die warmte van je huid mee. Dat is net "
                   "waarom zweten werkt."),
         ]),
         dict(kop="Kookpunt en smeltpunt verschuiven", blokken=[
-            ("p", "Het <strong>kookpunt hangt af van de druk boven de vloeistof</strong>: "
-                  "<strong>bij lagere druk ligt het kookpunt lager</strong>, en het "
-                  "<strong>is altijd hoger dan het smeltpunt van de stof</strong>. Honderd graden is "
-                  "het kookpunt van water bij normale druk, niet van elke vloeistof."),
-            ("p", "Daarom gaat <strong>koken in een snelkookpan sneller</strong>: "
-                  "<strong>de hogere druk duwt het kookpunt van water naar boven</strong>, en heter "
-                  "water gaart het eten vlugger. Hoog in de bergen kookt water juist bij een lagere "
-                  "temperatuur."),
-            ("p", "<strong>Men strooit zout op een besneeuwde weg</strong> omdat "
-                  "<strong>het zout het smeltpunt van het ijs verlaagt</strong>: pekel bevriest pas "
-                  "onder nul graden. Bij strenge vorst werkt dat niet meer."),
+            ("p", "Het <strong>kookpunt</strong> hangt af van de druk boven de vloeistof: bij "
+                  "lagere druk ligt het lager, en het is altijd hoger dan het smeltpunt van de "
+                  "stof. \\(100\\ ^\\circ\\text{C}\\) is het kookpunt van water bij normale "
+                  "druk, niet van elke vloeistof. Daarom gaat koken in een "
+                  "<strong>snelkookpan</strong> sneller: de hogere druk duwt het kookpunt naar "
+                  "boven, en heter water gaart het eten vlugger."),
+        ]),
+        dict(kop="Zout op een besneeuwde weg", blokken=[
+            ("p", "Men strooit <strong>zout</strong> op een besneeuwde weg omdat het zout het "
+                  "smeltpunt van het ijs <strong>verlaagt</strong>: pekel bevriest pas onder "
+                  "\\(0\\ ^\\circ\\text{C}\\). Bij strenge vorst werkt dat niet meer."),
         ]),
     ],
     onthoud=[
-        "Warmte is energie die stroomt; temperatuur is een toestand.",
-        "Warmte gaat altijd van warm naar koud tot thermisch evenwicht.",
+        "Warmte is energie die stroomt en gaat altijd van warm naar koud, tot het "
+        "thermisch evenwicht.",
         "Geleiding, stroming en straling zijn de drie wegen.",
-        "Q = c · m · ΔT voor opwarmen; water heeft c ongeveer 4186.",
+        "Opwarmen: \\(Q = c\\,m\\,\\Delta T\\); water heeft \\(c = 4186\\).",
         "Zes faseovergangen; smelten, verdampen en sublimeren nemen warmte op.",
-        "Tijdens een faseovergang blijft de temperatuur gelijk: Q = l · m.",
-        "Verdampingswarmte van water is veel groter dan zijn smeltwarmte.",
+        "Tijdens een faseovergang blijft \\(T\\) gelijk: \\(Q = l\\,m\\); verdampen kost "
+        "veel meer dan smelten.",
         "Lagere druk verlaagt het kookpunt; zout verlaagt het smeltpunt.",
     ],
 )
+
 
 # ───────────────────── 16. Harmonische trillingen
 BUNDELS["harmonische-trillingen-beyond"] = dict(
