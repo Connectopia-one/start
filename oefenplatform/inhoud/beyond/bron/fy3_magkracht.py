@@ -25,8 +25,11 @@ DEEL1 = [
             "de gravitatiekracht",
         ],
         antwoord=0,
-        uitleg="De kracht op één bewegende lading heet de lorentzkracht. Het is in wezen "
-        "dezelfde kracht, want een stroom is niets anders dan bewegende ladingen.",
+        uitleg="De laplacekracht schrijf je \\(F = B\\,I\\,\\ell\\,\\sin\\alpha\\), met "
+        "\\(\\ell\\) de lengte van de draad in het veld en \\(\\alpha\\) de hoek tussen de "
+        "draad en de veldlijnen. De kracht op één bewegende lading heet de lorentzkracht; "
+        "het is in wezen dezelfde kracht, want een stroom is niets anders dan bewegende "
+        "ladingen.",
     ),
     dict(
         type="meerkeuze",
@@ -45,9 +48,9 @@ DEEL1 = [
         type="waarofniet",
         vraag="Een draad die evenwijdig met de veldlijnen ligt, voelt geen magnetische kracht.",
         antwoord=True,
-        uitleg="In de formule staat de sinus van de hoek tussen de draad en het veld, en "
-        "die is nul bij nul graden. De kracht is het grootst als de draad loodrecht op "
-        "het veld staat.",
+        uitleg="In \\(F = B\\,I\\,\\ell\\,\\sin\\alpha\\) staat de sinus van de hoek tussen "
+        "de draad en het veld, en \\(\\sin 0^{\\circ} = 0\\). De kracht is het grootst bij "
+        "\\(\\alpha = 90^{\\circ}\\), want dan is \\(\\sin\\alpha = 1\\).",
     ),
     dict(
         type="meerkeuze",
@@ -59,21 +62,23 @@ DEEL1 = [
             "van de spanning van de bron erachter",
         ],
         antwoord=[0, 1],
-        uitleg="Ook de magnetische inductie en de hoek met het veld tellen mee. De "
-        "weerstand telt alleen onrechtstreeks, want die bepaalt de stroom.",
+        uitleg="In \\(F = B\\,I\\,\\ell\\,\\sin\\alpha\\) staan \\(I\\) en \\(\\ell\\), en "
+        "ook \\(B\\) en de hoek tellen mee. De weerstand telt alleen onrechtstreeks, want "
+        "die bepaalt de stroom.",
     ),
     dict(
         type="meerkeuze",
-        vraag="Een draad van 0,5 m ligt loodrecht in een veld van 0,2 T en voert 3 A. Hoe groot is de kracht?",
+        vraag="Een draad van \\(0{,}50\\ \\text{m}\\) ligt loodrecht in een veld van "
+        "\\(0{,}20\\ \\text{T}\\) en voert \\(3{,}0\\ \\text{A}\\). Hoe groot is \\(F\\)?",
         opties=[
-            "0,3 N",
-            "3,2 N",
-            "0,03 N",
-            "30 N",
+            "\\(0{,}30\\ \\text{N}\\)",
+            "\\(3{,}2\\ \\text{N}\\)",
+            "\\(0{,}030\\ \\text{N}\\)",
+            "\\(30\\ \\text{N}\\)",
         ],
         antwoord=0,
-        uitleg="De kracht is B maal I maal l: 0,2 maal 3 maal 0,5 is 0,3 newton. Bij een "
-        "schuine hoek komt er nog een sinus bij.",
+        uitleg="\\(F = B\\,I\\,\\ell = 0{,}20\\cdot 3{,}0\\cdot 0{,}50 = 0{,}30\\ \\text{N}\\). "
+        "Loodrecht is \\(\\sin\\alpha = 1\\); bij een schuine hoek komt die sinus er nog bij.",
     ),
     dict(
         type="meerkeuze",
@@ -92,8 +97,9 @@ DEEL1 = [
         type="invultekst",
         vraag="Hoe noem je de kracht op één bewegende lading in een magnetisch veld?",
         antwoord=["lorentzkracht", "de lorentzkracht", "lorentz"],
-        uitleg="De kracht op een hele stroomvoerende draad heet de laplacekracht. Beide "
-        "staan loodrecht op het veld en op de beweging.",
+        uitleg="\\(F = q\\,v\\,B\\,\\sin\\alpha\\). De kracht op een hele stroomvoerende "
+        "draad heet de laplacekracht, \\(F = B\\,I\\,\\ell\\,\\sin\\alpha\\). Beide staan "
+        "loodrecht op het veld en op de beweging.",
     ),
     dict(
         type="meerkeuze",
@@ -125,9 +131,10 @@ DEEL1 = [
         type="waarofniet",
         vraag="De kracht tussen twee evenwijdige stroomvoerende draden wordt kleiner als ze dichter bij elkaar liggen.",
         antwoord=False,
-        uitleg="Ze wordt juist groter. Het veld van een rechte draad neemt af met de "
-        "afstand, dus is het veld op de plaats van de andere draad sterker als ze dichter "
-        "liggen.",
+        uitleg="Ze wordt juist groter: \\(\\dfrac{F}{\\ell} = "
+        "\\dfrac{\\mu_{0}I_{1}I_{2}}{2\\pi d}\\), met \\(d\\) in de noemer. Het veld van "
+        "een rechte draad neemt af met de afstand, dus is het veld op de plaats van de "
+        "andere draad sterker als ze dichter liggen.",
     ),
     dict(
         type="meerkeuze",
@@ -152,22 +159,23 @@ DEEL1 = [
             "ze valt weg, want kracht ontstaat enkel bij 90 graden",
         ],
         antwoord=0,
-        uitleg="De formule bevat de sinus van de hoek tussen draad en veld. Bij nul graden "
-        "is de kracht nul en bij negentig graden het grootst.",
+        uitleg="\\(\\sin 30^{\\circ} = 0{,}50\\), dus blijft er van "
+        "\\(F = B\\,I\\,\\ell\\,\\sin\\alpha\\) nog de helft over. Bij "
+        "\\(0^{\\circ}\\) is de kracht nul en bij \\(90^{\\circ}\\) het grootst.",
     ),
     dict(
         type="invultekst",
         vraag="Met welk symbool schrijf je de magnetische inductie?",
         antwoord=["B", "de B", "B-vector"],
-        uitleg="De eenheid is de tesla. De magnetische kracht schrijf je met F met een B "
-        "als index.",
+        uitleg="De eenheid is de tesla, \\(\\text{T}\\). De magnetische kracht op een "
+        "lading schrijf je \\(F_{B} = q\\,v\\,B\\,\\sin\\alpha\\).",
     ),
     dict(
         type="waarofniet",
         vraag="Een stilstaande lading in een magnetisch veld voelt een magnetische kracht.",
         antwoord=False,
-        uitleg="In de formule staat de snelheid, en die is dan nul. Alleen een bewegende "
-        "lading voelt het magnetisch veld.",
+        uitleg="In \\(F = q\\,v\\,B\\,\\sin\\alpha\\) staat \\(v\\), en die is dan nul. "
+        "Alleen een bewegende lading voelt het magnetisch veld.",
     ),
     dict(
         type="meerkeuze",
@@ -249,21 +257,24 @@ DEEL2 = [
             "van de tijd die het deeltje al onderweg is",
         ],
         antwoord=[0, 1],
-        uitleg="Ook het veld en de hoek tussen snelheid en veld tellen mee. De massa speelt "
-        "pas een rol als je de baan wil berekenen.",
+        uitleg="\\(F = q\\,v\\,B\\,\\sin\\alpha\\): de massa staat er niet in. Ze speelt "
+        "pas een rol als je de straal van de baan wil berekenen, "
+        "\\(r = \\dfrac{m\\,v}{q\\,B}\\).",
     ),
     dict(
         type="meerkeuze",
-        vraag="Een lading van 2 mC beweegt met 500 m/s loodrecht door een veld van 0,4 T. Hoe groot is de kracht?",
+        vraag="Een lading van \\(2{,}0\\ \\text{mC}\\) beweegt met "
+        "\\(500\\ \\text{m/s}\\) loodrecht door een veld van \\(0{,}40\\ \\text{T}\\). "
+        "Hoe groot is \\(F\\)?",
         opties=[
-            "0,4 N",
-            "4 N",
-            "0,04 N",
-            "250 N",
+            "\\(0{,}40\\ \\text{N}\\)",
+            "\\(4{,}0\\ \\text{N}\\)",
+            "\\(0{,}040\\ \\text{N}\\)",
+            "\\(250\\ \\text{N}\\)",
         ],
         antwoord=0,
-        uitleg="De kracht is q maal v maal B: 0,002 maal 500 maal 0,4 is 0,4 newton. Let "
-        "op de omzetting van millicoulomb naar coulomb.",
+        uitleg="\\(F = q\\,v\\,B = 2{,}0\\cdot 10^{-3}\\cdot 500\\cdot 0{,}40 = "
+        "0{,}40\\ \\text{N}\\). Let op de omzetting van millicoulomb naar coulomb.",
     ),
     dict(
         type="meerkeuze",
@@ -283,8 +294,9 @@ DEEL2 = [
         type="waarofniet",
         vraag="Een magnetisch veld kan de snelheid van een lading niet groter maken.",
         antwoord=True,
-        uitleg="De kracht staat loodrecht op de beweging, dus verricht ze geen arbeid. Ze "
-        "verandert alleen de richting, niet de grootte van de snelheid.",
+        uitleg="De kracht staat loodrecht op de beweging, dus is \\(W = F\\,d\\,\\cos 90^"
+        "{\\circ} = 0\\): ze verricht geen arbeid. Ze verandert alleen de richting, niet "
+        "de grootte van de snelheid.",
     ),
     dict(
         type="meerkeuze",
@@ -296,8 +308,9 @@ DEEL2 = [
             "de temperatuur van de omgeving",
         ],
         antwoord=[0, 1, 2],
-        uitleg="Ook de lading zelf telt mee. Een sneller of zwaarder deeltje maakt een "
-        "ruimere bocht, een sterker veld een krappere.",
+        uitleg="\\(r = \\dfrac{m\\,v}{q\\,B}\\): ook de lading zelf staat erin. Een "
+        "sneller of zwaarder deeltje maakt een ruimere bocht, een sterker veld een "
+        "krappere.",
     ),
     dict(
         type="meerkeuze",
@@ -309,7 +322,8 @@ DEEL2 = [
             "de tijd die ze onderweg zijn",
         ],
         antwoord=0,
-        uitleg="De straal is recht evenredig met de massa. Op dat principe berust de "
+        uitleg="In \\(r = \\dfrac{m\\,v}{q\\,B}\\) staat \\(m\\) in de teller, dus is de "
+        "straal recht evenredig met de massa. Op dat principe berust de "
         "massaspectrometer.",
     ),
     dict(
@@ -429,8 +443,9 @@ DEEL2 = [
             "de baan wordt dan een rechte lijn",
         ],
         antwoord=0,
-        uitleg="In de formule voor de straal staat B in de noemer. Een sterker veld dwingt "
-        "het deeltje dus in een nauwere bocht.",
+        uitleg="In \\(r = \\dfrac{m\\,v}{q\\,B}\\) staat \\(B\\) in de noemer, dus "
+        "\\(B\\) maal 2 geeft \\(r\\) gedeeld door 2. Een sterker veld dwingt het deeltje "
+        "in een nauwere bocht.",
     ),
     dict(
         type="waarofniet",
@@ -450,14 +465,17 @@ DEEL2 = [
             "aan de spanning die de detector aangeeft",
         ],
         antwoord=0,
-        uitleg="Zwaardere deeltjes maken een wijdere bocht bij dezelfde lading en snelheid. "
-        "De plaats waar ze aankomen, verraadt dus hun massa.",
+        uitleg="\\(r = \\dfrac{m\\,v}{q\\,B}\\): zwaardere deeltjes maken een wijdere "
+        "bocht bij dezelfde lading en snelheid. De plaats waar ze aankomen, verraadt dus "
+        "hun massa.",
     ),
     dict(
         type="invultekst",
         vraag="Hoe noem je de baan van een lading die loodrecht een homogeen magnetisch veld binnenkomt?",
         antwoord=["cirkelbaan", "een cirkel", "cirkel"],
-        uitleg="De lorentzkracht werkt daarbij als middelpuntzoekende kracht. Komt de lading "
-        "schuin binnen, dan wordt het een schroeflijn.",
+        uitleg="De lorentzkracht werkt daarbij als middelpuntzoekende kracht: "
+        "\\(q\\,v\\,B = \\dfrac{m\\,v^{2}}{r}\\), en daaruit volgt "
+        "\\(r = \\dfrac{m\\,v}{q\\,B}\\). Komt de lading schuin binnen, dan wordt het een "
+        "schroeflijn.",
     ),
 ]

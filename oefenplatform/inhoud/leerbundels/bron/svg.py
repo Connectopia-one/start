@@ -7130,3 +7130,109 @@ def magneetvelden(breedte=470):
     kader(cel_b, cel_h, "hoefijzer: homogeen tussen de benen")
     hoefijzer(cel_b, cel_h)
     return _svg(breedte, cel_h * 2, "".join(d))
+
+
+def magneetkracht(breedte=470):
+    r"""Drie tekeningen bij de kracht van een magnetisch veld.
+
+    Links de laplacekracht op een draad: het veld het blad in, de stroom naar
+    rechts, de kracht naar boven. Rechts twee evenwijdige draden, een keer met
+    gelijke en een keer met tegengestelde stroomzin. Onderaan de cirkelbaan van
+    een positieve lading in een veld dat uit het blad komt.
+    """
+    import math
+    cel_b, cel_h = 234, 178
+    KRACHT = AMBER
+    d = []
+
+    def kader(kx, ky, titel, breed=None):
+        b = breed or cel_b
+        d.append(f'<rect x="{kx+6}" y="{ky+4}" width="{b-12}" height="{cel_h-28}" rx="8" '
+                 f'fill="#ffffff" stroke="{BORDER}" stroke-width="1.2"/>')
+        d.append(_tekst(kx + b / 2, ky + cel_h - 8, titel, 10, DIM, "middle", True))
+
+    def kruisje(x, y, r=4.0):
+        """Het veld dat het blad in gaat: de pluimen van een wegvliegende pijl."""
+        return (f'<line x1="{x-r}" y1="{y-r}" x2="{x+r}" y2="{y+r}" stroke="{DIM}" '
+                f'stroke-width="1.2"/>'
+                f'<line x1="{x-r}" y1="{y+r}" x2="{x+r}" y2="{y-r}" stroke="{DIM}" '
+                f'stroke-width="1.2"/>')
+
+    def stip(x, y):
+        """Het veld dat uit het blad komt: de punt van een pijl die naar je toe wijst."""
+        return (f'<circle cx="{x}" cy="{y}" r="5" fill="none" stroke="{DIM}" '
+                f'stroke-width="1.1"/>'
+                f'<circle cx="{x}" cy="{y}" r="1.6" fill="{DIM}"/>')
+
+    # ── 1. de kracht op een draad
+    kader(0, 0, "draad in een veld: F staat loodrecht op allebei")
+    cy = 104
+    # de kruisjes blijven weg waar de draad en de krachtpijl staan
+    for ay in (42, 62, 82, 124):
+        for ax in range(30, 210, 30):
+            if ax == 120 and ay != 124:
+                continue
+            d.append(kruisje(ax, ay))
+    d.append(f'<line x1="22" y1="{cy}" x2="206" y2="{cy}" stroke="{DRAAD}" stroke-width="2.4"/>')
+    d.append(_pijlkop(204, cy, 0.0, DRAAD, 6.0))
+    d.append(_tekst(196, cy - 9, "I", 11.5, DRAAD, "middle", True))
+    d.append(f'<line x1="120" y1="{cy-3}" x2="120" y2="{cy-56}" stroke="{KRACHT}" '
+             f'stroke-width="2.2"/>')
+    d.append(_pijlkop(120, cy - 56, -math.pi / 2, KRACHT, 6.0))
+    d.append(_tekst(132, cy - 50, "F", 11.5, KRACHT, "middle", True))
+    d.append(_tekst(117, 28, "B het blad in", 9.5, DIM, "middle"))
+
+    # ── 2. twee evenwijdige draden
+    kx = cel_b
+    kader(kx, 0, "gelijke zin trekt aan, tegengestelde stoot af")
+    for i, (zin, tekst) in enumerate(((1, "aantrekken"), (-1, "afstoten"))):
+        bx = kx + 32 + i * 104
+        boven, onder = 38, 116
+        for dx in (0, 48):
+            d.append(f'<line x1="{bx+dx}" y1="{boven}" x2="{bx+dx}" y2="{onder}" '
+                     f'stroke="{DRAAD}" stroke-width="2.2"/>')
+        d.append(_pijlkop(bx, boven + 4, -math.pi / 2, DRAAD, 5.0))
+        if zin == 1:
+            d.append(_pijlkop(bx + 48, boven + 4, -math.pi / 2, DRAAD, 5.0))
+        else:
+            d.append(_pijlkop(bx + 48, onder - 4, math.pi / 2, DRAAD, 5.0))
+        my = (boven + onder) / 2
+        for kant, x0 in ((1, bx), (-1, bx + 48)):
+            richting = kant * zin
+            begin = x0 + kant * 5
+            eind = begin + richting * 12
+            d.append(f'<line x1="{begin}" y1="{my}" x2="{eind}" y2="{my}" '
+                     f'stroke="{KRACHT}" stroke-width="2.0"/>')
+            d.append(_pijlkop(eind, my, 0.0 if richting > 0 else math.pi, KRACHT, 5.0))
+        d.append(_tekst(bx + 24, onder + 18, tekst, 9.5, DIM, "middle", True))
+
+    # ── 3. de cirkelbaan van een lading
+    ky = cel_h
+    kader(0, ky, "een lading loodrecht in het veld draait rond", cel_b * 2)
+    mx, my = 150, ky + 82
+    straal = 46
+    for ax in range(34, 374, 40):
+        for ay in (ky + 34, ky + 72, ky + 110):
+            if (ax - mx) ** 2 + (ay - my) ** 2 > (straal + 22) ** 2:
+                d.append(stip(ax, ay))
+    d.append(f'<circle cx="{mx}" cy="{my}" r="{straal}" fill="none" stroke="{FOREST}" '
+             f'stroke-width="1.6"/>')
+    # Met B uit het blad draait een positieve lading mét de wijzers mee:
+    # F = q v x B wijst dan naar het middelpunt. Draait ze de andere kant op,
+    # dan wijst de kracht naar buiten en is er geen cirkel.
+    d.append(_pijlkop(mx, my - straal, 0.0, FOREST, 5.5))
+    d.append(_pijlkop(mx, my + straal, math.pi, FOREST, 5.5))
+    px, py = mx + straal, my
+    d.append(f'<circle cx="{px}" cy="{py}" r="7" fill="{LADING_PLUS}"/>')
+    d.append(_tekst(px, py + 3.6, "+", 11, "#ffffff", "middle", True))
+    d.append(f'<line x1="{px}" y1="{py+10}" x2="{px}" y2="{py+44}" stroke="{DRAAD}" '
+             f'stroke-width="2.0"/>')
+    d.append(_pijlkop(px, py + 44, math.pi / 2, DRAAD, 5.5))
+    d.append(_tekst(px + 11, py + 40, "v", 11.5, DRAAD, "middle", True))
+    d.append(f'<line x1="{px-10}" y1="{py}" x2="{px-36}" y2="{py}" stroke="{KRACHT}" '
+             f'stroke-width="2.0"/>')
+    d.append(_pijlkop(px - 36, py, math.pi, KRACHT, 5.5))
+    d.append(_tekst(px - 23, py - 9, "F", 11.5, KRACHT, "middle", True))
+    d.append(_tekst(412, ky + 76, "B uit het blad", 9.5, DIM, "middle"))
+
+    return _svg(cel_b * 2, cel_h * 2, "\n".join(d))

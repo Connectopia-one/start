@@ -751,30 +751,47 @@ BUNDELS["de-magnetische-kracht-op-een-stroom-en-op-een-lading-beyond"] = dict(
             ("p", "De kracht op een stroomvoerende geleider in een magnetisch veld heet de "
                   "<strong>laplacekracht</strong>. Ze staat "
                   "<strong>loodrecht op de draad en loodrecht op het veld</strong>, dus loodrecht op "
-                  "het vlak van die twee."),
-            ("p", "De kracht hangt af <strong>van de stroomsterkte door de draad</strong>, "
+                  "het vlak van die twee. In formule: "
+                  "\\[F = B\\,I\\,\\ell\\,\\sin\\alpha\\] "
+                  "met \\(B\\) in tesla, \\(I\\) in ampère, \\(\\ell\\) de lengte van de draad "
+                  "in het veld in meter, en \\(\\alpha\\) de hoek tussen de draad en de veldlijnen."),
+            ("p", "Uit die ene formule lees je alles af. De kracht hangt af "
+                  "<strong>van de stroomsterkte door de draad</strong>, "
                   "<strong>van de sterkte van het magnetisch veld</strong> en "
                   "<strong>van de lengte van de draad in het veld</strong>. Ze is dus "
                   "<strong>recht evenredig met de stroomsterkte</strong> en "
                   "<strong>recht evenredig met de magnetische inductie</strong>. Van de eigen "
-                  "weerstand van de draad hangt ze niet af."),
-            ("p", "Ook de hoek telt mee. De kracht is <strong>het grootst als de draad loodrecht op "
-                  "de veldlijnen staat</strong>, en een <strong>draad die evenwijdig met de "
-                  "veldlijnen ligt, voelt geen magnetische kracht</strong>. Staat een draad "
+                  "weerstand van de draad hangt ze niet af: die staat niet in de formule en telt "
+                  "enkel onrechtstreeks mee, omdat ze de stroom bepaalt."),
+            ("p", "Ook de hoek telt mee, via \\(\\sin\\alpha\\). De kracht is "
+                  "<strong>het grootst als de draad loodrecht op de veldlijnen staat</strong>, want "
+                  "\\(\\sin 90^{\\circ} = 1\\), en een <strong>draad die evenwijdig met de "
+                  "veldlijnen ligt, voelt geen magnetische kracht</strong>, want "
+                  "\\(\\sin 0^{\\circ} = 0\\). Staat een draad "
                   "<strong>onder 30 graden met de veldlijnen</strong> in plaats van loodrecht, dan "
                   "<strong>wordt de kracht kleiner, want de sinus van 30 graden is maar een "
-                  "half</strong>."),
-            ("p", "Rekenen: een draad van <strong>0,5 m</strong> die loodrecht in een veld van "
-                  "<strong>0,2 T</strong> ligt en <strong>3 A</strong> voert, voelt een kracht van "
-                  "<strong>0,3 N</strong>. De zin van die kracht vind je "
+                  "half</strong>: er blijft \\(0{,}50\\,B\\,I\\,\\ell\\) over."),
+            ("p", "Rekenen: een draad van \\(\\ell = 0{,}50\\ \\text{m}\\) die loodrecht in een "
+                  "veld van \\(B = 0{,}20\\ \\text{T}\\) ligt en \\(I = 3{,}0\\ \\text{A}\\) voert, "
+                  "voelt \\[F = 0{,}20\\cdot 3{,}0\\cdot 0{,}50 = 0{,}30\\ \\text{N}\\] "
+                  "De zin van die kracht vind je "
                   "<strong>met je rechterhand: vingers in de stroomzin, veld in de handpalm, duim "
                   "geeft de kracht</strong>."),
-            ("p", "Twee evenwijdige draden werken ook op elkaar. Voeren ze "
+            ("fig", svg.magneetkracht(),
+             "Links: het veld gaat het blad in, de stroom naar rechts, dus staat de kracht "
+             "omhoog. Rechts: twee draden met dezelfde stroomzin trekken elkaar aan. Onderaan: "
+             "het veld komt uit het blad, dus draait een positieve lading met de wijzers mee en "
+             "wijst de kracht altijd naar het middelpunt."),
+            ("p", "Twee evenwijdige draden werken ook op elkaar, want elke draad ligt in het veld "
+                  "van de andere. Voeren ze "
                   "<strong>stroom in dezelfde zin</strong>, dan "
                   "<strong>trekken ze elkaar aan</strong>; voeren ze "
                   "<strong>stroom in tegengestelde zin</strong>, dan "
-                  "<strong>stoten ze elkaar af</strong>. Die kracht "
-                  "<strong>wordt groter als ze dichter bij elkaar liggen</strong>, niet kleiner."),
+                  "<strong>stoten ze elkaar af</strong>. Per meter draad geldt "
+                  "\\[\\dfrac{F}{\\ell} = \\dfrac{\\mu_{0}\\,I_{1}\\,I_{2}}{2\\pi d}\\] "
+                  "met \\(d\\) de afstand tussen de twee draden. Omdat \\(d\\) in de noemer staat, "
+                  "<strong>wordt die kracht groter als ze dichter bij elkaar liggen</strong>, niet "
+                  "kleiner."),
         ]),
         dict(kop="Motor en luidspreker", blokken=[
             ("p", "Een <strong>luidspreker</strong> werkt doordat "
@@ -783,50 +800,75 @@ BUNDELS["de-magnetische-kracht-op-een-stroom-en-op-een-lading-beyond"] = dict(
                   "van zin wisselt, wisselt ook de kracht van zin."),
             ("p", "De <strong>spoel van een gelijkstroommotor draait</strong> omdat "
                   "<strong>de krachten op de twee zijden in tegengestelde zin wijzen</strong>: in de "
-                  "ene zijde loopt de stroom de ene kant op, in de andere de andere kant. De "
+                  "ene zijde loopt de stroom de ene kant op, in de andere de andere kant. Met "
+                  "\\(N\\) windingen en een spoel met oppervlakte \\(A\\) is het koppel "
+                  "\\(M = N\\,B\\,I\\,A\\,\\sin\\alpha\\). De "
                   "<strong>collector</strong> dient <strong>om de stroom elke halve omwenteling om "
                   "te keren</strong>, zodat het koppel altijd dezelfde kant op blijft duwen."),
         ]),
         dict(kop="De lorentzkracht op een lading", blokken=[
             ("p", "De kracht op één bewegende lading in een magnetisch veld heet de "
-                  "<strong>lorentzkracht</strong>. Ze hangt af "
-                  "<strong>van de grootte van de lading</strong> en "
+                  "<strong>lorentzkracht</strong>: "
+                  "\\[F = q\\,v\\,B\\,\\sin\\alpha\\] "
+                  "met \\(q\\) de lading in coulomb, \\(v\\) haar snelheid in meter per seconde en "
+                  "\\(\\alpha\\) de hoek tussen de snelheid en het veld. Het is dezelfde kracht als "
+                  "de laplacekracht, maar dan op één deeltje in plaats van op een hele draad vol "
+                  "bewegende ladingen."),
+            ("p", "Ze hangt dus af <strong>van de grootte van de lading</strong> en "
                   "<strong>van de snelheid van de lading</strong>, en natuurlijk ook van het veld en "
-                  "van de hoek ermee. Een <strong>stilstaande lading in een magnetisch veld voelt "
-                  "geen magnetische kracht</strong>, want zonder snelheid is er geen kracht. Een "
+                  "van de hoek ermee. De massa staat er níet in. Een <strong>stilstaande lading in "
+                  "een magnetisch veld voelt geen magnetische kracht</strong>, want \\(v = 0\\). Een "
                   "lading die <strong>precies evenwijdig met de veldlijnen</strong> beweegt, voelt "
-                  "<strong>geen enkele kracht, want de hoek met het veld is nul</strong>."),
-            ("p", "Rekenen: een lading van <strong>2 mC</strong> die met <strong>500 m/s</strong> "
-                  "loodrecht door een veld van <strong>0,4 T</strong> beweegt, voelt een kracht van "
-                  "<strong>0,4 N</strong>."),
+                  "<strong>geen enkele kracht, want de hoek met het veld is nul</strong> en "
+                  "\\(\\sin 0^{\\circ} = 0\\)."),
+            ("p", "Rekenen: een lading van \\(q = 2{,}0\\ \\text{mC}\\) die met "
+                  "\\(v = 500\\ \\text{m/s}\\) loodrecht door een veld van "
+                  "\\(B = 0{,}40\\ \\text{T}\\) beweegt, voelt "
+                  "\\[F = 2{,}0\\cdot 10^{-3}\\cdot 500\\cdot 0{,}40 = 0{,}40\\ \\text{N}\\] "
+                  "Let op de omzetting van millicoulomb naar coulomb."),
             ("p", "De <strong>magnetische kracht op een lading staat loodrecht op haar "
-                  "snelheid</strong>. Daardoor verricht ze geen arbeid en "
+                  "snelheid</strong>. Daardoor is \\(W = F\\,d\\,\\cos 90^{\\circ} = 0\\): ze "
+                  "verricht geen arbeid, en dus "
                   "<strong>kan een magnetisch veld de snelheid van een lading niet groter "
-                  "maken</strong>: het buigt haar alleen af."),
+                  "maken</strong>. Het buigt haar alleen af. Daarin verschilt ze van een elektrisch "
+                  "veld, dat wel arbeid levert."),
         ]),
         dict(kop="De cirkelbaan", blokken=[
             ("p", "Een lading die <strong>loodrecht een homogeen magnetisch veld "
                   "binnenkomt</strong>, volgt een <strong>cirkelbaan</strong>, want de kracht blijft "
-                  "loodrecht op de snelheid staan en werkt dus als middelpuntzoekende kracht. Een "
-                  "<strong>deeltje dat schuin binnenkomt, gaat niet rechtdoor</strong>: het volgt "
-                  "een schroeflijn."),
-            ("p", "De straal van die cirkelbaan hangt af van <strong>de massa van het "
-                  "deeltje</strong>, <strong>de snelheid van het deeltje</strong> en "
-                  "<strong>de sterkte van het magnetisch veld</strong>, en ook van zijn lading. "
-                  "<strong>Verdubbel je het magnetisch veld</strong>, dan "
-                  "<strong>wordt de straal half zo groot</strong>. Een sneller deeltje maakt een "
-                  "ruimere bocht."),
+                  "loodrecht op de snelheid staan en werkt dus als middelpuntzoekende kracht. Stel "
+                  "de twee aan elkaar gelijk: "
+                  "\\[q\\,v\\,B = \\dfrac{m\\,v^{2}}{r} \\quad\\Longrightarrow\\quad "
+                  "r = \\dfrac{m\\,v}{q\\,B}\\] "
+                  "Een <strong>deeltje dat schuin binnenkomt, gaat niet rechtdoor</strong>: het stuk "
+                  "van de snelheid langs het veld loopt door, het stuk dwars erop maakt een cirkel, "
+                  "en samen geeft dat een schroeflijn."),
+            ("p", "In \\(r = \\dfrac{m\\,v}{q\\,B}\\) lees je af waar de straal van afhangt: van "
+                  "<strong>de massa van het deeltje</strong>, <strong>de snelheid van het "
+                  "deeltje</strong> en <strong>de sterkte van het magnetisch veld</strong>, en ook "
+                  "van zijn lading. <strong>Verdubbel je het magnetisch veld</strong>, dan "
+                  "<strong>wordt de straal half zo groot</strong>, want \\(B\\) staat in de noemer. "
+                  "Een sneller deeltje maakt een ruimere bocht, want \\(v\\) staat in de teller."),
             ("p", "Maken <strong>twee deeltjes met dezelfde lading en snelheid</strong> in hetzelfde "
                   "veld een bocht met een andere straal, dan verschilt <strong>hun massa</strong>. "
                   "Vliegen een <strong>positieve en een negatieve lading</strong> met dezelfde "
                   "snelheid het veld binnen, dan <strong>buigen ze naar tegengestelde kanten "
-                  "af</strong>."),
+                  "af</strong>: het teken van \\(q\\) keert de zin van de kracht om, maar de grootte "
+                  "van \\(r\\) blijft gelijk."),
+            ("kader", "De omlooptijd van zo'n cirkelbaan is merkwaardig: uit "
+                      "\\(T = \\dfrac{2\\pi r}{v}\\) en \\(r = \\dfrac{m v}{q B}\\) volgt "
+                      "\\(T = \\dfrac{2\\pi m}{q\\,B}\\). Daar staat geen \\(v\\) meer in. Een "
+                      "sneller deeltje maakt een ruimere bocht, maar doet er even lang over. "
+                      "Net daarom werkt een cyclotron: de duwtjes mogen altijd op hetzelfde ritme "
+                      "komen."),
         ]),
         dict(kop="Toepassingen", blokken=[
             ("p", "De <strong>massaspectrometer</strong> is het toestel dat "
                   "<strong>ionen op hun massa scheidt met een magnetisch veld</strong>. Je weet "
                   "<strong>aan de straal van de bocht die het deeltje beschrijft</strong> of het "
-                  "zwaar of licht is: een zwaar deeltje maakt een ruimere bocht."),
+                  "zwaar of licht is: een zwaar deeltje maakt een ruimere bocht, want "
+                  "\\(r \\sim m\\). Uit de gemeten straal haal je de massa terug: "
+                  "\\(m = \\dfrac{q\\,B\\,r}{v}\\)."),
             ("p", "Een <strong>cyclotron</strong> dient <strong>om geladen deeltjes tot hoge "
                   "snelheid te versnellen</strong>. Daarin <strong>doet het magnetisch veld niet het "
                   "versnellende werk</strong>: het houdt de deeltjes in hun cirkelbaan, terwijl een "
@@ -834,19 +876,22 @@ BUNDELS["de-magnetische-kracht-op-een-stroom-en-op-een-lading-beyond"] = dict(
                   "<strong>massaspectrometer</strong> en het <strong>cyclotron</strong> berusten dus "
                   "beide op de kracht op bewegende ladingen."),
             ("p", "Een <strong>hallsensor</strong> dient <strong>om de sterkte van een magnetisch "
-                  "veld te meten</strong>. En je ziet het "
+                  "veld te meten</strong>: het veld duwt de ladingen in een plaatje naar één zijde, "
+                  "en de spanning die daardoor ontstaat is evenredig met \\(B\\). En je ziet het "
                   "<strong>noorderlicht vooral in de buurt van de polen</strong> omdat "
-                  "<strong>het aardmagnetisch veld de geladen deeltjes daarheen leidt</strong>. "
+                  "<strong>het aardmagnetisch veld de geladen deeltjes daarheen leidt</strong>: ze "
+                  "volgen een schroeflijn rond de veldlijnen, en die komen bij de polen samen. "
                   "<strong>Zuurstof geeft daarbij meestal groen licht</strong>."),
         ]),
     ],
     onthoud=[
-        "Laplacekracht: op een stroomvoerende draad, loodrecht op draad en veld.",
-        "Evenwijdig met het veld is er geen kracht; loodrecht is ze maximaal.",
-        "Gelijke stroomzin trekt aan, tegengestelde stoot af.",
-        "Lorentzkracht: op een bewegende lading, loodrecht op haar snelheid.",
-        "Een magnetisch veld buigt af maar versnelt niet.",
-        "Loodrecht binnenkomen geeft een cirkelbaan; zwaarder is een ruimere bocht.",
+        r"Laplacekracht: \(F = B\,I\,\ell\,\sin\alpha\), loodrecht op draad en veld.",
+        r"Evenwijdig met het veld is \(\sin\alpha = 0\); loodrecht is de kracht maximaal.",
+        "Gelijke stroomzin trekt aan, tegengestelde stoot af; dichterbij is sterker.",
+        r"Lorentzkracht: \(F = q\,v\,B\,\sin\alpha\), loodrecht op de snelheid.",
+        "Een magnetisch veld verricht geen arbeid: het buigt af maar versnelt niet.",
+        r"Cirkelbaan: \(r = \dfrac{m\,v}{q\,B}\); zwaarder of sneller is een ruimere bocht.",
+        r"Omlooptijd \(T = \dfrac{2\pi m}{q\,B}\), onafhankelijk van de snelheid.",
         "Collector: keert de stroom elke halve omwenteling om.",
     ],
 )

@@ -601,24 +601,97 @@ OEFENBUNDELS["oefenbundel-de-magnetische-kracht-op-een-stroom-en-op-een-lading-b
     onder="{aantal} oefeningen op papier, met een antwoordblad achteraan.",
     hoe=HOE,
     reeksen=[
-        dict(kop="Rekenen met F = B · I · l",
-             opdracht="Reken uit. De draad staat loodrecht op het veld.",
+        dict(kop="De laplacekracht op een draad",
+             opdracht=r"Gebruik \(F = B\,I\,\ell\,\sin\alpha\). Waar geen hoek staat, ligt de "
+                      r"draad loodrecht op het veld.",
              oefeningen=[
-                 ("kort", "B = 0,4 T, I = 3 A, l = 0,2 m. Hoe groot is de kracht?",
-                  "0,24 N, want 0,4 · 3 · 0,2.", W),
-                 ("kort", "F = 0,6 N, I = 5 A, l = 0,3 m. Hoe groot is B?",
-                  "0,4 T, want 0,6 gedeeld door (5 · 0,3).", W),
-                 ("kort", "B = 0,5 T, l = 0,4 m, F = 1 N. Hoe groot is de stroom?",
-                  "5 A, want 1 gedeeld door (0,5 · 0,4).", W),
+                 ("kort", r"\(B = 0{,}40\ \text{T}\), \(I = 3{,}0\ \text{A}\), "
+                          r"\(\ell = 0{,}20\ \text{m}\). Hoe groot is \(F\)?",
+                  r"\(F = 0{,}40\cdot 3{,}0\cdot 0{,}20 = 0{,}24\ \text{N}\)", W),
+                 ("kort", r"\(F = 0{,}60\ \text{N}\), \(I = 5{,}0\ \text{A}\), "
+                          r"\(\ell = 0{,}30\ \text{m}\). Hoe groot is \(B\)?",
+                  r"\(B = \dfrac{0{,}60}{5{,}0\cdot 0{,}30} = 0{,}40\ \text{T}\)", W),
+                 ("kort", r"\(B = 0{,}50\ \text{T}\), \(\ell = 0{,}40\ \text{m}\), "
+                          r"\(F = 1{,}0\ \text{N}\). Hoe groot is \(I\)?",
+                  r"\(I = \dfrac{1{,}0}{0{,}50\cdot 0{,}40} = 5{,}0\ \text{A}\)", W),
+                 ("kort", r"Een draad van \(25\ \text{cm}\) in een veld van "
+                          r"\(0{,}60\ \text{T}\) voelt \(0{,}45\ \text{N}\). Welke stroom loopt "
+                          r"erdoor?",
+                  r"\(I = \dfrac{0{,}45}{0{,}60\cdot 0{,}25} = 3{,}0\ \text{A}\)", W),
+                 ("kort", r"\(B = 0{,}25\ \text{T}\), \(I = 4{,}0\ \text{A}\), "
+                          r"\(\ell = 0{,}60\ \text{m}\), maar nu onder \(30^{\circ}\). Hoe groot "
+                          r"is \(F\)?",
+                  r"\(F = 0{,}25\cdot 4{,}0\cdot 0{,}60\cdot 0{,}50 = 0{,}30\ \text{N}\)", W),
+                 ("kort", r"\(B = 0{,}80\ \text{T}\), \(I = 2{,}5\ \text{A}\), "
+                          r"\(\ell = 0{,}12\ \text{m}\), onder \(45^{\circ}\). Hoe groot is "
+                          r"\(F\)?",
+                  r"\(F = 0{,}24\cdot \sin 45^{\circ} = 0{,}17\ \text{N}\)", W),
              ]),
-        dict(kop="Rekenen met F = q · v · B",
-             opdracht="Reken uit. De lading beweegt loodrecht op het veld.",
+        dict(kop="De lorentzkracht op een lading",
+             opdracht=r"Gebruik \(F = q\,v\,B\,\sin\alpha\). De elementaire lading is "
+                      r"\(e = 1{,}6\cdot 10^{-19}\ \text{C}\).",
              oefeningen=[
-                 ("kort", "q = 2 · 10⁻⁶ C, v = 3 · 10⁵ m/s, B = 0,2 T. Hoe groot is de kracht?",
-                  "0,12 N, want 2 · 10⁻⁶ · 3 · 10⁵ · 0,2.", WL),
-                 ("open", "Een elektron beweegt precies langs de veldlijnen. Welke kracht voelt het? Leg uit.",
-                  "Geen enkele. De magnetische kracht werkt alleen op de component van de snelheid "
-                  "die dwars op het veld staat, en die is hier nul.", 5),
+                 ("kort", r"\(q = 2{,}0\cdot 10^{-6}\ \text{C}\), "
+                          r"\(v = 3{,}0\cdot 10^{5}\ \text{m/s}\), \(B = 0{,}20\ \text{T}\), "
+                          r"loodrecht. Hoe groot is \(F\)?",
+                  r"\(F = 2{,}0\cdot 10^{-6}\cdot 3{,}0\cdot 10^{5}\cdot 0{,}20 = "
+                  r"0{,}12\ \text{N}\)", W),
+                 ("kort", r"Een elektron vliegt met \(2{,}0\cdot 10^{6}\ \text{m/s}\) loodrecht "
+                          r"door een veld van \(0{,}50\ \text{T}\). Hoe groot is \(F\)?",
+                  r"\(F = 1{,}6\cdot 10^{-19}\cdot 2{,}0\cdot 10^{6}\cdot 0{,}50 = "
+                  r"1{,}6\cdot 10^{-13}\ \text{N}\)", W),
+                 ("kort", r"Een proton vliegt met \(4{,}0\cdot 10^{5}\ \text{m/s}\) loodrecht "
+                          r"door een veld van \(0{,}30\ \text{T}\). Hoe groot is \(F\)?",
+                  r"\(F = 1{,}9\cdot 10^{-14}\ \text{N}\)", W),
+                 ("kort", r"Een lading voelt \(0{,}080\ \text{N}\) bij "
+                          r"\(v = 200\ \text{m/s}\) loodrecht in \(B = 0{,}40\ \text{T}\). Hoe "
+                          r"groot is \(q\)?",
+                  r"\(q = \dfrac{0{,}080}{200\cdot 0{,}40} = 1{,}0\ \text{mC}\)", W),
+                 ("open", "Een elektron beweegt precies langs de veldlijnen. Welke kracht voelt "
+                          "het? Leg uit.",
+                  r"Geen enkele: \(\sin 0^{\circ} = 0\). De magnetische kracht werkt alleen op "
+                  r"het stuk van de snelheid dat dwars op het veld staat, en dat is hier nul.", 5),
+             ]),
+        dict(kop="De cirkelbaan",
+             opdracht=r"Gebruik \(r = \dfrac{m\,v}{q\,B}\) en \(T = \dfrac{2\pi m}{q\,B}\). "
+                      r"Een proton weegt \(1{,}67\cdot 10^{-27}\ \text{kg}\), een elektron "
+                      r"\(9{,}11\cdot 10^{-31}\ \text{kg}\).",
+             oefeningen=[
+                 ("kort", r"Een proton met \(v = 2{,}0\cdot 10^{6}\ \text{m/s}\) komt loodrecht "
+                          r"in een veld van \(0{,}50\ \text{T}\). Hoe groot is \(r\)?",
+                  r"\(r = \dfrac{1{,}67\cdot 10^{-27}\cdot 2{,}0\cdot 10^{6}}"
+                  r"{1{,}6\cdot 10^{-19}\cdot 0{,}50} = 4{,}2\ \text{cm}\)", W),
+                 ("kort", r"Een elektron met \(v = 1{,}0\cdot 10^{7}\ \text{m/s}\) in een veld "
+                          r"van \(0{,}020\ \text{T}\). Hoe groot is \(r\)?",
+                  r"\(r = 2{,}8\cdot 10^{-3}\ \text{m}\), dus \(2{,}8\ \text{mm}\)", W),
+                 ("kort", r"Hoe lang doet het proton van de eerste opgave over één ronde?",
+                  r"\(T = \dfrac{2\pi\cdot 1{,}67\cdot 10^{-27}}{1{,}6\cdot 10^{-19}\cdot 0{,}50} "
+                  r"= 1{,}3\cdot 10^{-7}\ \text{s}\)", W),
+                 ("kort", r"Twee ionen met dezelfde lading en snelheid maken bochten met straal "
+                          r"\(12\ \text{cm}\) en \(18\ \text{cm}\). Hoe verhouden hun massa's "
+                          r"zich?",
+                  r"\(r \sim m\), dus \(m_{1}:m_{2} = 2:3\)", W),
+                 ("open", r"Een deeltje komt schuin, onder \(60^{\circ}\) met de veldlijnen, een "
+                          r"homogeen veld binnen. Beschrijf zijn baan en leg uit waarom ze er zo "
+                          r"uitziet.",
+                  r"Het stuk van de snelheid langs het veld loopt gewoon door, het stuk dwars "
+                  r"erop maakt een cirkel. Samen geeft dat een schroeflijn.", 6),
+             ]),
+        dict(kop="Hoe verandert het?",
+             opdracht="Vul de rijtjes aan. Alles wat niet genoemd wordt, blijft gelijk.",
+             oefeningen=[
+                 ("rij", [(r"de stroom maal 2", r"\(F\) maal 2"),
+                          (r"de hoek van \(90^{\circ}\) naar \(30^{\circ}\)", r"\(F\) maal \(0{,}50\)")],
+                  r"Wat gebeurt er met de laplacekracht \(F\)?", WL),
+                 ("rij", [(r"\(B\) maal 3 en \(\ell\) maal 2", r"\(F\) maal 6"),
+                          (r"de draad evenwijdig met het veld", r"\(F\) wordt nul")],
+                  r"Wat gebeurt er met de laplacekracht \(F\)?", WL),
+                 ("rij", [(r"de snelheid maal 2", r"\(r\) maal 2"),
+                          (r"\(B\) maal 4", r"\(r\) gedeeld door 4")],
+                  r"Wat gebeurt er met de straal \(r\)?", WL),
+                 ("rij", [(r"de massa maal 2", r"\(r\) maal 2"),
+                          (r"de snelheid maal 2 én \(B\) maal 2", r"\(r\) blijft gelijk")],
+                  r"Wat gebeurt er met de straal \(r\)?", WL),
              ]),
         dict(kop="Waar of niet waar",
              opdracht="Kruis aan.",
@@ -628,29 +701,31 @@ OEFENBUNDELS["oefenbundel-de-magnetische-kracht-op-een-stroom-en-op-een-lading-b
                  ("waar", "De magnetische kracht verandert de grootte van de snelheid van een lading.", False),
                  ("waar", "Een lading dwars op een homogeen veld beschrijft een cirkel.", True),
                  ("waar", "Twee parallelle draden met stroom in dezelfde zin trekken elkaar aan.", True),
+                 ("waar", r"In \(F = B\,I\,\ell\,\sin\alpha\) staat ook de weerstand van de draad.", False),
+                 ("waar", r"De omlooptijd \(T = \dfrac{2\pi m}{qB}\) hangt niet van de snelheid af.", True),
              ]),
-        dict(kop="Toepassingen",
-             opdracht="Antwoord kort.",
+        dict(kop="Toepassingen en uitleg",
+             opdracht="Antwoord kort, en bij de laatste drie in volle zinnen.",
              oefeningen=[
                  ("rij", [("scheidt ionen volgens hun massa", "een massaspectrometer"),
                           ("zet elektrische energie om in beweging", "een elektromotor")],
                   "Welk toestel?", WL),
-             ]),
-        dict(kop="Uitleggen",
-             opdracht="Antwoord in volle zinnen.",
-             oefeningen=[
+                 ("rij", [("meet de sterkte van een magnetisch veld", "een hallsensor"),
+                          ("versnelt deeltjes in een spiraal", "een cyclotron")],
+                  "Welk toestel?", WL),
                  ("open", "Waarom verandert de magnetische kracht de snelheid van een lading niet in grootte?",
-                  "Ze staat altijd loodrecht op de snelheid, dus verricht ze geen arbeid. Zonder "
-                  "arbeid verandert de kinetische energie niet, en dus ook de grootte van de "
-                  "snelheid niet; alleen de richting draait.", 6),
+                  r"Ze staat loodrecht op de snelheid, dus \(W = F\,d\,\cos 90^{\circ} = 0\). "
+                  r"Zonder arbeid verandert de kinetische energie niet, en dus de snelheid niet "
+                  r"in grootte; alleen de richting draait.", 5),
                  ("open", "Leg uit hoe een elektromotor draait.",
-                  "Door de wikkeling loopt stroom in een magnetisch veld, dus werkt er een kracht op "
-                  "de twee zijden van de lus, in tegengestelde zin. Dat koppel doet de as draaien; "
-                  "een commutator keert de stroom elke halve omwenteling om zodat het koppel in "
-                  "dezelfde zin blijft duwen.", 7),
-                 ("open", "Twee parallelle draden hangen naast elkaar. Hoe weet je of ze elkaar aantrekken of afstoten?",
-                  "Door de zin van de twee stromen te vergelijken: dezelfde zin trekt aan, "
-                  "tegengestelde zin stoot af. Elke draad zit in het veld van de andere.", 5),
+                  "Door de wikkeling loopt stroom in een magnetisch veld, dus werken er op de twee "
+                  "zijden van de lus krachten in tegengestelde zin. Dat koppel doet de as draaien; "
+                  "een collector keert de stroom elke halve omwenteling om.", 6),
+                 ("open", r"In een cyclotron krijgt een deeltje bij elke ronde een duw. Waarom mag "
+                          r"die duw altijd op hetzelfde ritme komen, ook al gaat het deeltje "
+                          r"steeds sneller?",
+                  r"In \(T = \dfrac{2\pi m}{q\,B}\) staat geen snelheid: een sneller deeltje maakt "
+                  r"een ruimere bocht, maar doet over één ronde even lang.", 5),
              ]),
     ],
 )
