@@ -550,105 +550,103 @@ BUNDELS["tweedegraadsfuncties-en-transformaties-beyond"] = dict(
     onder="De parabool met haar top, nulwaarden en symmetrieas, en de vier transformaties van een grafiek.",
     secties=[
         dict(kop="De parabool", blokken=[
-            ("p", "<strong>De grafiek van een tweedegraadsfunctie heet een parabool.</strong> Die van "
-                  "één gedeeld door x heet een hyperbool, die van een eerstegraadsfunctie een rechte."),
-            ("p", "<strong>Alleen het teken van de coëfficiënt van x kwadraat bepaalt de opening.</strong> "
-                  "Is <strong>a positief, dan is het een dalparabool</strong> met een minimum. Is a "
-                  "negatief, dan krijg je een <strong>bergparabool</strong>, en die heeft "
-                  "<strong>geen</strong> minimum maar een maximum. <strong>Hoe groter de absolute waarde van "
-                  "a, hoe smaller de parabool</strong>: een grote a rekt de grafiek verticaal uit."),
-            ("p", "<strong>De symmetrieas gaat altijd door de top.</strong> Ze is de verticale rechte door "
-                  "de top, dus haar vergelijking is van de vorm x is een getal: bij een top in het punt "
-                  "<strong>twee en zeven</strong> is dat <strong>x is gelijk aan twee</strong>."),
-            ("p", "Om <strong>één parabool vast te leggen heb je minstens drie punten nodig</strong>, want "
-                  "er zijn drie onbekende coëfficiënten a, b en c."),
+            ("p", r"<strong>De grafiek van een tweedegraadsfunctie \(f(x)=ax^{2}+bx+c\) heet een "
+                  r"parabool.</strong> Die van \(f(x)=\tfrac{1}{x}\) heet een hyperbool, die van een "
+                  r"eerstegraadsfunctie een rechte."),
+            ("p", r"<strong>Alleen het teken van \(a\) bepaalt de opening.</strong> Is \(a>0\), dan is het "
+                  r"een <strong>dalparabool</strong> met een minimum. Is \(a<0\), dan krijg je een "
+                  r"<strong>bergparabool</strong>, en die heeft geen minimum maar een maximum. "
+                  r"<strong>Hoe groter \(|a|\), hoe smaller de parabool</strong>: een grote \(|a|\) rekt de "
+                  r"grafiek verticaal uit."),
+            ("p", r"<strong>De symmetrieas gaat altijd door de top.</strong> Ze is de verticale rechte door "
+                  r"de top, dus haar vergelijking is van de vorm \(x=\) een getal: bij een top \((2,7)\) is "
+                  r"dat \(x=2\)."),
+            ("p", r"Om één parabool vast te leggen heb je minstens <strong>drie punten</strong> nodig, want "
+                  r"er zijn drie onbekende coëfficiënten \(a\), \(b\) en \(c\)."),
         ]),
         dict(kop="Top, nulwaarden en discriminant", blokken=[
-            ("p", "De <strong>x van de top is min b gedeeld door twee a</strong>. De "
-                  "<strong>discriminant is b kwadraat min vier a c</strong>, en haar teken beslist over het "
-                  "aantal reële nulwaarden: <strong>positief geeft er twee, nul geeft er één</strong> (de "
-                  "parabool raakt de x-as dan precies in haar top), en bij een <strong>negatieve "
-                  "discriminant zijn er nul</strong> reële nulwaarden, want de parabool ligt dan volledig "
-                  "boven of volledig onder de as."),
-            ("p", "<strong>Heeft een parabool twee nulwaarden, dan ligt de x van de top precies in het "
-                  "midden ertussen.</strong> Het gemiddelde van de nulwaarden geeft dus de top."),
-            ("p", tabel(["Vraag over x kwadraat min zes x plus vijf", "Antwoord", "Hoe"], [
-                ["de x van de top", "drie", "min b op twee a, dus zes gedeeld door twee"],
-                ["de y van de top", "min vier", "vul drie in: negen min achttien plus vijf"],
-                ["de nulwaarden", "één en vijf", "twee getallen met som zes en product vijf"],
-                ["het snijpunt met de verticale as", "y is vijf", "vul nul in, enkel de constante term blijft"],
+            ("p", r"De \(x\) van de top is <strong>\(x=\dfrac{-b}{2a}\)</strong>. De discriminant is "
+                  r"<strong>\(D=b^{2}-4ac\)</strong>, en haar teken beslist over het aantal reële "
+                  r"nulwaarden: \(D>0\) geeft er twee, \(D=0\) geeft er één (de parabool raakt de \(x\)-as "
+                  r"dan precies in haar top), en bij \(D<0\) zijn er nul, want de parabool ligt dan "
+                  r"volledig boven of volledig onder de as."),
+            ("p", r"<strong>Heeft een parabool twee nulwaarden, dan ligt de \(x\) van de top precies in het "
+                  r"midden ertussen.</strong> Het gemiddelde van de nulwaarden geeft dus de top."),
+            ("p", tabel([r"Vraag over \(f(x)=x^{2}-6x+5\)", "Antwoord", "Hoe"], [
+                [r"de \(x\) van de top", r"\(3\)", r"\(\dfrac{-b}{2a}=\dfrac{6}{2}\)"],
+                [r"de \(y\) van de top", r"\(-4\)", r"\(f(3)=9-18+5\)"],
+                ["de nulwaarden", r"\(1\) en \(5\)", r"\((x-1)(x-5)\): som \(6\), product \(5\)"],
+                [r"het snijpunt met de \(y\)-as", r"\(y=5\)", r"\(f(0)=c\)"],
             ])),
-            ("p", "Nog een voorbeeld: de <strong>top van min x kwadraat plus vier x</strong> is het punt "
-                  "<strong>twee en vier</strong>. Min b op twee a is min vier gedeeld door min twee, dus "
-                  "twee, en invullen geeft min vier plus acht."),
-            ("p", "Een <strong>dalparabool met top in drie en min vier</strong> heeft als bereik "
-                  "<strong>alle getallen vanaf min vier</strong>: de top is het laagste punt. En "
-                  "<strong>een parabool kan de verticale as niet twee keer snijden</strong>, want voor x "
-                  "gelijk aan nul is er maar één functiewaarde, namelijk c."),
-            ("weetje", "Bij de hoogte van een <strong>opgegooide bal</strong>, die een bergparabool volgt, "
-                       "is <strong>de top het hoogste punt van de baan</strong>. De landing is de tweede "
-                       "nulwaarde en de beginhoogte lees je af op de verticale as."),
+            ("p", r"Nog een voorbeeld: de top van \(f(x)=-x^{2}+4x\) is \((2,4)\), want "
+                  r"\(\dfrac{-4}{-2}=2\) en \(f(2)=-4+8=4\)."),
+            ("p", r"Een dalparabool met top \((3,-4)\) heeft als bereik \(\left[-4,+\infty\right[\): de top "
+                  r"is het laagste punt. En een parabool kan de \(y\)-as niet twee keer snijden, want voor "
+                  r"\(x=0\) is er maar één functiewaarde, namelijk \(c\)."),
+            ("p", r"Omgekeerd legt de discriminant een onbekende coëfficiënt vast. Voor welke \(m\) raakt "
+                  r"\(y=x^{2}-6x+m\) de \(x\)-as? Raken wil zeggen \(D=0\), dus \(36-4m=0\) en \(m=9\); "
+                  r"het voorschrift wordt \((x-3)^{2}\)."),
+            ("weetje", r"Bij de hoogte van een <strong>opgegooide bal</strong>, die een bergparabool volgt, "
+                       r"is de top het hoogste punt van de baan. De landing is de tweede nulwaarde en de "
+                       r"beginhoogte lees je af op de \(y\)-as."),
         ]),
         dict(kop="De topvorm", blokken=[
-            ("p", "Staat een voorschrift in de vorm <strong>a maal x min p, in het kwadraat, plus q</strong>, "
-                  "dan lees je <strong>de coördinaten van de top meteen af: p en q</strong>. Dat heet de "
-                  "<strong>topvorm</strong>. Let op het minteken in de haakjes: x min drie geeft een top in "
-                  "drie, niet in min drie."),
-            ("p", "Zo heeft <strong>x min vier, in het kwadraat, plus één</strong> haar top in "
-                  "<strong>x gelijk aan vier</strong>, en is bij <strong>x min twee, in het kwadraat, plus "
-                  "zeven</strong> de <strong>kleinste functiewaarde zeven</strong>, want een kwadraat is "
-                  "minstens nul. Bij <strong>twee maal x min één, in het kwadraat, plus drie</strong> is de "
-                  "<strong>y van de top drie</strong>: de factor twee verandert de breedte, niet de ligging "
-                  "van de top."),
-            ("p", "Omgekeerd kan je uit de topvorm een voorschrift opbouwen. Een parabool met "
-                  "<strong>top in vier en twee die door het punt vijf en vijf gaat</strong>, heeft als "
-                  "voorschrift <strong>drie maal x min vier, in het kwadraat, plus twee</strong>: vul het "
-                  "extra punt in, dan is a plus twee gelijk aan vijf."),
+            ("p", r"Staat een voorschrift in de vorm <strong>\(f(x)=a(x-p)^{2}+q\)</strong>, dan lees je de "
+                  r"top meteen af: \((p,q)\). Dat heet de <strong>topvorm</strong>. Let op het minteken in "
+                  r"de haakjes: \((x-3)^{2}\) geeft een top in \(x=3\), niet in \(x=-3\)."),
+            ("p", r"Zo heeft \((x-4)^{2}+1\) haar top in \(x=4\), en is bij \((x-2)^{2}+7\) de kleinste "
+                  r"functiewaarde \(7\), want een kwadraat is minstens \(0\). Bij \(2(x-1)^{2}+3\) is de "
+                  r"\(y\) van de top \(3\): de factor \(2\) verandert de breedte, niet de ligging van de "
+                  r"top."),
+            ("p", r"Omgekeerd kan je uit de topvorm een voorschrift opbouwen. Een parabool met top "
+                  r"\((4,2)\) die door \((5,5)\) gaat, heeft als voorschrift \(y=3(x-4)^{2}+2\): vul het "
+                  r"extra punt in, dan is \(a\cdot 1+2=5\)."),
         ]),
         dict(kop="De vier transformaties", blokken=[
             ("p", tabel(["Schrijfwijze", "Wat de grafiek doet", "Geheugensteun"], [
-                ["f van x plus drie, buiten de haakjes", "drie eenheden omhoog", "buiten de haakjes werkt verticaal"],
-                ["f van x min vijf, buiten de haakjes", "vijf eenheden omlaag", "de hele grafiek zakt, ook de top"],
-                ["f van x min twee, binnen de haakjes", "twee eenheden naar rechts", "binnen de haakjes werkt omgekeerd"],
-                ["f van x plus drie, binnen de haakjes", "drie eenheden naar links", "ook hier omgekeerd dan het voelt"],
-                ["min f van x", "spiegeling om de horizontale as", "elke functiewaarde wisselt van teken"],
-                ["drie maal f van x", "verticale uitrekking met factor drie", "de grafiek wordt driemaal zo hoog"],
+                [r"\(f(x)+3\)", r"\(3\) omhoog", "buiten de haakjes werkt verticaal"],
+                [r"\(f(x)-5\)", r"\(5\) omlaag", "de hele grafiek zakt, ook de top"],
+                [r"\(f(x-2)\)", r"\(2\) naar rechts", "binnen de haakjes werkt omgekeerd"],
+                [r"\(f(x+3)\)", r"\(3\) naar links", "ook hier omgekeerd dan het voelt"],
+                [r"\(-f(x)\)", r"spiegeling om de \(x\)-as", "elke functiewaarde wisselt van teken"],
+                [r"\(f(-x)\)", r"spiegeling om de \(y\)-as", r"je vult \(-x\) in in plaats van \(x\)"],
+                [r"\(3f(x)\)", r"verticale uitrekking met factor \(3\)", "de grafiek wordt driemaal zo hoog"],
             ])),
-            ("p", "<strong>Twee maal x kwadraat is dus smaller dan x kwadraat</strong>, niet breder: elke "
-                  "functiewaarde verdubbelt, dus de parabool loopt sneller omhoog."),
-            ("p", "Twee voorbeelden met meerdere stappen. Van <strong>x kwadraat naar x plus één, in het "
-                  "kwadraat, min drie</strong> ga je met <strong>één naar links en drie naar "
-                  "beneden</strong>; de top komt op min één en min drie. Van <strong>x kwadraat naar twee "
-                  "maal x min één, in het kwadraat, plus drie</strong> ga je met <strong>één naar rechts, "
-                  "verticaal uitrekken met twee, en drie omhoog</strong>."),
-            ("p", "<strong>Spiegel je een dalparabool om de horizontale as, dan krijg je een bergparabool "
-                  "met een maximum</strong>: het teken van a draait om."),
+            ("p", r"<strong>\(2x^{2}\) is dus smaller dan \(x^{2}\)</strong>, niet breder: elke "
+                  r"functiewaarde verdubbelt, dus de parabool loopt sneller omhoog."),
+            ("p", r"Twee voorbeelden met meerdere stappen. Van \(x^{2}\) naar \((x+1)^{2}-3\) ga je met "
+                  r"<strong>\(1\) naar links en \(3\) omlaag</strong>; de top komt op \((-1,-3)\). Van "
+                  r"\(x^{2}\) naar \(2(x-1)^{2}+3\) ga je met <strong>\(1\) naar rechts, verticaal "
+                  r"uitrekken met \(2\), en \(3\) omhoog</strong>."),
+            ("p", r"<strong>Spiegel je een dalparabool om de \(x\)-as, dan krijg je een bergparabool met een "
+                  r"maximum</strong>: het teken van \(a\) draait om."),
         ]),
         dict(kop="Wat een transformatie wel en niet verandert", blokken=[
-            ("p", "<strong>Een verticale uitrekking laat de nulwaarden onveranderd</strong>, want nul maal "
-                  "een factor blijft nul. Elke verschuiving verplaatst de nulwaarden wel."),
-            ("p", "<strong>Een verticale verschuiving verandert het bereik</strong>, want alle "
-                  "functiewaarden schuiven mee op, maar ze <strong>laat de symmetrieas op haar "
-                  "plaats</strong>: de x van de top blijft dezelfde. Ze <strong>kan wel het tekenverloop "
-                  "veranderen</strong>, want de nulwaarden verschuiven: een dalparabool die net onder de as "
-                  "lag, kan er na twee omhoog helemaal boven komen, en dan zijn de nulwaarden weg."),
-            ("p", "<strong>Een horizontale verschuiving verandert het domein van een tweedegraadsfunctie "
-                  "niet</strong>: dat is en blijft heel R. Bij een wortelfunctie zou het wel veranderen."),
-            ("weetje", "<strong>De linkertak van een gewone dalparabool daalt, met een afnemende "
-                       "daling</strong>: ze gaat omlaag, maar steeds minder steil, tot ze in de top even "
-                       "vlak loopt."),
+            ("p", r"<strong>Een verticale uitrekking laat de nulwaarden onveranderd</strong>, want "
+                  r"\(3\cdot 0=0\). Elke verschuiving verplaatst de nulwaarden wel."),
+            ("p", r"<strong>Een verticale verschuiving verandert het bereik</strong>, want alle "
+                  r"functiewaarden schuiven mee op, maar ze <strong>laat de symmetrieas op haar "
+                  r"plaats</strong>: de \(x\) van de top blijft dezelfde. Ze kan wel het tekenverloop "
+                  r"veranderen, want de nulwaarden verschuiven: een dalparabool die net onder de as lag, "
+                  r"kan er na \(2\) omhoog helemaal boven komen, en dan zijn de nulwaarden weg."),
+            ("p", r"<strong>Een horizontale verschuiving verandert het domein van een tweedegraadsfunctie "
+                  r"niet</strong>: dat is en blijft \(\mathbb{R}\). Bij een wortelfunctie zou het wel "
+                  r"veranderen."),
+            ("weetje", r"<strong>De linkertak van een gewone dalparabool daalt, met een afnemende "
+                       r"daling</strong>: ze gaat omlaag, maar steeds minder steil, tot ze in de top even "
+                       r"vlak loopt."),
         ]),
     ],
     onthoud=[
-        "De grafiek van een tweedegraadsfunctie heet een parabool.",
-        "Is a positief, dan is het een dalparabool; is a negatief, een bergparabool.",
-        "De x van de top is min b gedeeld door twee a; de symmetrieas gaat door de top.",
-        "De discriminant is b kwadraat min vier a c.",
-        "In de topvorm a maal x min p, in het kwadraat, plus q is de top het punt p en q.",
-        "Buiten de haakjes werkt verticaal, binnen de haakjes werkt omgekeerd.",
-        "Min f van x is een spiegeling om de horizontale as.",
-        "Een verticale uitrekking laat de nulwaarden onveranderd.",
-        "Een verticale verschuiving verandert het bereik, maar laat de symmetrieas op haar plaats.",
+        r"De grafiek van \(f(x)=ax^{2}+bx+c\) heet een parabool.",
+        r"\(a>0\): dalparabool. \(a<0\): bergparabool. Hoe groter \(|a|\), hoe smaller.",
+        r"De \(x\) van de top is \(\dfrac{-b}{2a}\); de symmetrieas gaat door de top.",
+        r"\(D=b^{2}-4ac\), en \(D=0\) betekent dat de parabool de \(x\)-as raakt.",
+        r"In de topvorm \(a(x-p)^{2}+q\) is de top \((p,q)\).",
+        r"Buiten de haakjes werkt verticaal, binnen de haakjes werkt omgekeerd.",
+        r"\(-f(x)\) spiegelt om de \(x\)-as, \(f(-x)\) om de \(y\)-as.",
+        r"Een verticale uitrekking laat de nulwaarden onveranderd.",
+        r"Een verticale verschuiving verandert het bereik, maar laat de symmetrieas staan.",
     ],
 )
 

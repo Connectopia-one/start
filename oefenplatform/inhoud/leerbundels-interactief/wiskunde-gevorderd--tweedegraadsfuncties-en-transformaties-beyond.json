@@ -8,19 +8,19 @@
    "blokken": [
     {
      "soort": "tekst",
-     "html": "<strong>De grafiek van een tweedegraadsfunctie heet een parabool.</strong> Die van één gedeeld door x heet een hyperbool, die van een eerstegraadsfunctie een rechte."
+     "html": "<strong>De grafiek van een tweedegraadsfunctie \\(f(x)=ax^{2}+bx+c\\) heet een parabool.</strong> Die van \\(f(x)=\\tfrac{1}{x}\\) heet een hyperbool, die van een eerstegraadsfunctie een rechte."
     },
     {
      "soort": "tekst",
-     "html": "<strong>Alleen het teken van de coëfficiënt van x kwadraat bepaalt de opening.</strong> Is <strong>a positief, dan is het een dalparabool</strong> met een minimum. Is a negatief, dan krijg je een <strong>bergparabool</strong>, en die heeft <strong>geen</strong> minimum maar een maximum. <strong>Hoe groter de absolute waarde van a, hoe smaller de parabool</strong>: een grote a rekt de grafiek verticaal uit."
+     "html": "<strong>Alleen het teken van \\(a\\) bepaalt de opening.</strong> Is \\(a>0\\), dan is het een <strong>dalparabool</strong> met een minimum. Is \\(a<0\\), dan krijg je een <strong>bergparabool</strong>, en die heeft geen minimum maar een maximum. <strong>Hoe groter \\(|a|\\), hoe smaller de parabool</strong>: een grote \\(|a|\\) rekt de grafiek verticaal uit."
     },
     {
      "soort": "tekst",
-     "html": "<strong>De symmetrieas gaat altijd door de top.</strong> Ze is de verticale rechte door de top, dus haar vergelijking is van de vorm x is een getal: bij een top in het punt <strong>twee en zeven</strong> is dat <strong>x is gelijk aan twee</strong>."
+     "html": "<strong>De symmetrieas gaat altijd door de top.</strong> Ze is de verticale rechte door de top, dus haar vergelijking is van de vorm \\(x=\\) een getal: bij een top \\((2,7)\\) is dat \\(x=2\\)."
     },
     {
      "soort": "tekst",
-     "html": "Om <strong>één parabool vast te leggen heb je minstens drie punten nodig</strong>, want er zijn drie onbekende coëfficiënten a, b en c."
+     "html": "Om één parabool vast te leggen heb je minstens <strong>drie punten</strong> nodig, want er zijn drie onbekende coëfficiënten \\(a\\), \\(b\\) en \\(c\\)."
     }
    ]
   },
@@ -29,27 +29,31 @@
    "blokken": [
     {
      "soort": "tekst",
-     "html": "De <strong>x van de top is min b gedeeld door twee a</strong>. De <strong>discriminant is b kwadraat min vier a c</strong>, en haar teken beslist over het aantal reële nulwaarden: <strong>positief geeft er twee, nul geeft er één</strong> (de parabool raakt de x-as dan precies in haar top), en bij een <strong>negatieve discriminant zijn er nul</strong> reële nulwaarden, want de parabool ligt dan volledig boven of volledig onder de as."
+     "html": "De \\(x\\) van de top is <strong>\\(x=\\dfrac{-b}{2a}\\)</strong>. De discriminant is <strong>\\(D=b^{2}-4ac\\)</strong>, en haar teken beslist over het aantal reële nulwaarden: \\(D>0\\) geeft er twee, \\(D=0\\) geeft er één (de parabool raakt de \\(x\\)-as dan precies in haar top), en bij \\(D<0\\) zijn er nul, want de parabool ligt dan volledig boven of volledig onder de as."
     },
     {
      "soort": "tekst",
-     "html": "<strong>Heeft een parabool twee nulwaarden, dan ligt de x van de top precies in het midden ertussen.</strong> Het gemiddelde van de nulwaarden geeft dus de top."
+     "html": "<strong>Heeft een parabool twee nulwaarden, dan ligt de \\(x\\) van de top precies in het midden ertussen.</strong> Het gemiddelde van de nulwaarden geeft dus de top."
     },
     {
      "soort": "tekst",
-     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Vraag over x kwadraat min zes x plus vijf</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Antwoord</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Hoe</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">de x van de top</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">drie</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">min b op twee a, dus zes gedeeld door twee</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">de y van de top</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">min vier</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">vul drie in: negen min achttien plus vijf</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">de nulwaarden</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">één en vijf</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">twee getallen met som zes en product vijf</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">het snijpunt met de verticale as</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">y is vijf</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">vul nul in, enkel de constante term blijft</td></tr></table>"
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Vraag over \\(f(x)=x^{2}-6x+5\\)</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Antwoord</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Hoe</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">de \\(x\\) van de top</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">\\(3\\)</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">\\(\\dfrac{-b}{2a}=\\dfrac{6}{2}\\)</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">de \\(y\\) van de top</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">\\(-4\\)</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">\\(f(3)=9-18+5\\)</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">de nulwaarden</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">\\(1\\) en \\(5\\)</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">\\((x-1)(x-5)\\): som \\(6\\), product \\(5\\)</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">het snijpunt met de \\(y\\)-as</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">\\(y=5\\)</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">\\(f(0)=c\\)</td></tr></table>"
     },
     {
      "soort": "tekst",
-     "html": "Nog een voorbeeld: de <strong>top van min x kwadraat plus vier x</strong> is het punt <strong>twee en vier</strong>. Min b op twee a is min vier gedeeld door min twee, dus twee, en invullen geeft min vier plus acht."
+     "html": "Nog een voorbeeld: de top van \\(f(x)=-x^{2}+4x\\) is \\((2,4)\\), want \\(\\dfrac{-4}{-2}=2\\) en \\(f(2)=-4+8=4\\)."
     },
     {
      "soort": "tekst",
-     "html": "Een <strong>dalparabool met top in drie en min vier</strong> heeft als bereik <strong>alle getallen vanaf min vier</strong>: de top is het laagste punt. En <strong>een parabool kan de verticale as niet twee keer snijden</strong>, want voor x gelijk aan nul is er maar één functiewaarde, namelijk c."
+     "html": "Een dalparabool met top \\((3,-4)\\) heeft als bereik \\(\\left[-4,+\\infty\\right[\\): de top is het laagste punt. En een parabool kan de \\(y\\)-as niet twee keer snijden, want voor \\(x=0\\) is er maar één functiewaarde, namelijk \\(c\\)."
+    },
+    {
+     "soort": "tekst",
+     "html": "Omgekeerd legt de discriminant een onbekende coëfficiënt vast. Voor welke \\(m\\) raakt \\(y=x^{2}-6x+m\\) de \\(x\\)-as? Raken wil zeggen \\(D=0\\), dus \\(36-4m=0\\) en \\(m=9\\); het voorschrift wordt \\((x-3)^{2}\\)."
     },
     {
      "soort": "weetje",
-     "html": "Bij de hoogte van een <strong>opgegooide bal</strong>, die een bergparabool volgt, is <strong>de top het hoogste punt van de baan</strong>. De landing is de tweede nulwaarde en de beginhoogte lees je af op de verticale as."
+     "html": "Bij de hoogte van een <strong>opgegooide bal</strong>, die een bergparabool volgt, is de top het hoogste punt van de baan. De landing is de tweede nulwaarde en de beginhoogte lees je af op de \\(y\\)-as."
     }
    ]
   },
@@ -58,15 +62,15 @@
    "blokken": [
     {
      "soort": "tekst",
-     "html": "Staat een voorschrift in de vorm <strong>a maal x min p, in het kwadraat, plus q</strong>, dan lees je <strong>de coördinaten van de top meteen af: p en q</strong>. Dat heet de <strong>topvorm</strong>. Let op het minteken in de haakjes: x min drie geeft een top in drie, niet in min drie."
+     "html": "Staat een voorschrift in de vorm <strong>\\(f(x)=a(x-p)^{2}+q\\)</strong>, dan lees je de top meteen af: \\((p,q)\\). Dat heet de <strong>topvorm</strong>. Let op het minteken in de haakjes: \\((x-3)^{2}\\) geeft een top in \\(x=3\\), niet in \\(x=-3\\)."
     },
     {
      "soort": "tekst",
-     "html": "Zo heeft <strong>x min vier, in het kwadraat, plus één</strong> haar top in <strong>x gelijk aan vier</strong>, en is bij <strong>x min twee, in het kwadraat, plus zeven</strong> de <strong>kleinste functiewaarde zeven</strong>, want een kwadraat is minstens nul. Bij <strong>twee maal x min één, in het kwadraat, plus drie</strong> is de <strong>y van de top drie</strong>: de factor twee verandert de breedte, niet de ligging van de top."
+     "html": "Zo heeft \\((x-4)^{2}+1\\) haar top in \\(x=4\\), en is bij \\((x-2)^{2}+7\\) de kleinste functiewaarde \\(7\\), want een kwadraat is minstens \\(0\\). Bij \\(2(x-1)^{2}+3\\) is de \\(y\\) van de top \\(3\\): de factor \\(2\\) verandert de breedte, niet de ligging van de top."
     },
     {
      "soort": "tekst",
-     "html": "Omgekeerd kan je uit de topvorm een voorschrift opbouwen. Een parabool met <strong>top in vier en twee die door het punt vijf en vijf gaat</strong>, heeft als voorschrift <strong>drie maal x min vier, in het kwadraat, plus twee</strong>: vul het extra punt in, dan is a plus twee gelijk aan vijf."
+     "html": "Omgekeerd kan je uit de topvorm een voorschrift opbouwen. Een parabool met top \\((4,2)\\) die door \\((5,5)\\) gaat, heeft als voorschrift \\(y=3(x-4)^{2}+2\\): vul het extra punt in, dan is \\(a\\cdot 1+2=5\\)."
     }
    ]
   },
@@ -75,19 +79,19 @@
    "blokken": [
     {
      "soort": "tekst",
-     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Schrijfwijze</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Wat de grafiek doet</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Geheugensteun</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">f van x plus drie, buiten de haakjes</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">drie eenheden omhoog</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">buiten de haakjes werkt verticaal</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">f van x min vijf, buiten de haakjes</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">vijf eenheden omlaag</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">de hele grafiek zakt, ook de top</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">f van x min twee, binnen de haakjes</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">twee eenheden naar rechts</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">binnen de haakjes werkt omgekeerd</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">f van x plus drie, binnen de haakjes</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">drie eenheden naar links</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">ook hier omgekeerd dan het voelt</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">min f van x</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">spiegeling om de horizontale as</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">elke functiewaarde wisselt van teken</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">drie maal f van x</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">verticale uitrekking met factor drie</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">de grafiek wordt driemaal zo hoog</td></tr></table>"
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Schrijfwijze</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Wat de grafiek doet</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Geheugensteun</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">\\(f(x)+3\\)</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">\\(3\\) omhoog</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">buiten de haakjes werkt verticaal</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">\\(f(x)-5\\)</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">\\(5\\) omlaag</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">de hele grafiek zakt, ook de top</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">\\(f(x-2)\\)</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">\\(2\\) naar rechts</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">binnen de haakjes werkt omgekeerd</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">\\(f(x+3)\\)</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">\\(3\\) naar links</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">ook hier omgekeerd dan het voelt</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">\\(-f(x)\\)</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">spiegeling om de \\(x\\)-as</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">elke functiewaarde wisselt van teken</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">\\(f(-x)\\)</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">spiegeling om de \\(y\\)-as</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">je vult \\(-x\\) in in plaats van \\(x\\)</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">\\(3f(x)\\)</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">verticale uitrekking met factor \\(3\\)</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">de grafiek wordt driemaal zo hoog</td></tr></table>"
     },
     {
      "soort": "tekst",
-     "html": "<strong>Twee maal x kwadraat is dus smaller dan x kwadraat</strong>, niet breder: elke functiewaarde verdubbelt, dus de parabool loopt sneller omhoog."
+     "html": "<strong>\\(2x^{2}\\) is dus smaller dan \\(x^{2}\\)</strong>, niet breder: elke functiewaarde verdubbelt, dus de parabool loopt sneller omhoog."
     },
     {
      "soort": "tekst",
-     "html": "Twee voorbeelden met meerdere stappen. Van <strong>x kwadraat naar x plus één, in het kwadraat, min drie</strong> ga je met <strong>één naar links en drie naar beneden</strong>; de top komt op min één en min drie. Van <strong>x kwadraat naar twee maal x min één, in het kwadraat, plus drie</strong> ga je met <strong>één naar rechts, verticaal uitrekken met twee, en drie omhoog</strong>."
+     "html": "Twee voorbeelden met meerdere stappen. Van \\(x^{2}\\) naar \\((x+1)^{2}-3\\) ga je met <strong>\\(1\\) naar links en \\(3\\) omlaag</strong>; de top komt op \\((-1,-3)\\). Van \\(x^{2}\\) naar \\(2(x-1)^{2}+3\\) ga je met <strong>\\(1\\) naar rechts, verticaal uitrekken met \\(2\\), en \\(3\\) omhoog</strong>."
     },
     {
      "soort": "tekst",
-     "html": "<strong>Spiegel je een dalparabool om de horizontale as, dan krijg je een bergparabool met een maximum</strong>: het teken van a draait om."
+     "html": "<strong>Spiegel je een dalparabool om de \\(x\\)-as, dan krijg je een bergparabool met een maximum</strong>: het teken van \\(a\\) draait om."
     }
    ]
   },
@@ -96,15 +100,15 @@
    "blokken": [
     {
      "soort": "tekst",
-     "html": "<strong>Een verticale uitrekking laat de nulwaarden onveranderd</strong>, want nul maal een factor blijft nul. Elke verschuiving verplaatst de nulwaarden wel."
+     "html": "<strong>Een verticale uitrekking laat de nulwaarden onveranderd</strong>, want \\(3\\cdot 0=0\\). Elke verschuiving verplaatst de nulwaarden wel."
     },
     {
      "soort": "tekst",
-     "html": "<strong>Een verticale verschuiving verandert het bereik</strong>, want alle functiewaarden schuiven mee op, maar ze <strong>laat de symmetrieas op haar plaats</strong>: de x van de top blijft dezelfde. Ze <strong>kan wel het tekenverloop veranderen</strong>, want de nulwaarden verschuiven: een dalparabool die net onder de as lag, kan er na twee omhoog helemaal boven komen, en dan zijn de nulwaarden weg."
+     "html": "<strong>Een verticale verschuiving verandert het bereik</strong>, want alle functiewaarden schuiven mee op, maar ze <strong>laat de symmetrieas op haar plaats</strong>: de \\(x\\) van de top blijft dezelfde. Ze kan wel het tekenverloop veranderen, want de nulwaarden verschuiven: een dalparabool die net onder de as lag, kan er na \\(2\\) omhoog helemaal boven komen, en dan zijn de nulwaarden weg."
     },
     {
      "soort": "tekst",
-     "html": "<strong>Een horizontale verschuiving verandert het domein van een tweedegraadsfunctie niet</strong>: dat is en blijft heel R. Bij een wortelfunctie zou het wel veranderen."
+     "html": "<strong>Een horizontale verschuiving verandert het domein van een tweedegraadsfunctie niet</strong>: dat is en blijft \\(\\mathbb{R}\\). Bij een wortelfunctie zou het wel veranderen."
     },
     {
      "soort": "weetje",
@@ -114,14 +118,14 @@
   }
  ],
  "onthoud": [
-  "De grafiek van een tweedegraadsfunctie heet een parabool.",
-  "Is a positief, dan is het een dalparabool; is a negatief, een bergparabool.",
-  "De x van de top is min b gedeeld door twee a; de symmetrieas gaat door de top.",
-  "De discriminant is b kwadraat min vier a c.",
-  "In de topvorm a maal x min p, in het kwadraat, plus q is de top het punt p en q.",
+  "De grafiek van \\(f(x)=ax^{2}+bx+c\\) heet een parabool.",
+  "\\(a>0\\): dalparabool. \\(a<0\\): bergparabool. Hoe groter \\(|a|\\), hoe smaller.",
+  "De \\(x\\) van de top is \\(\\dfrac{-b}{2a}\\); de symmetrieas gaat door de top.",
+  "\\(D=b^{2}-4ac\\), en \\(D=0\\) betekent dat de parabool de \\(x\\)-as raakt.",
+  "In de topvorm \\(a(x-p)^{2}+q\\) is de top \\((p,q)\\).",
   "Buiten de haakjes werkt verticaal, binnen de haakjes werkt omgekeerd.",
-  "Min f van x is een spiegeling om de horizontale as.",
+  "\\(-f(x)\\) spiegelt om de \\(x\\)-as, \\(f(-x)\\) om de \\(y\\)-as.",
   "Een verticale uitrekking laat de nulwaarden onveranderd.",
-  "Een verticale verschuiving verandert het bereik, maar laat de symmetrieas op haar plaats."
+  "Een verticale verschuiving verandert het bereik, maar laat de symmetrieas staan."
  ]
 }
