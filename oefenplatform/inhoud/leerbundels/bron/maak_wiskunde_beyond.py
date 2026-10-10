@@ -26,7 +26,7 @@ alles nog in woorden stond en had gelijk: een leerling van de derde graad moet
 
 De omzetting gebeurt thema per thema, samen met de vragen van dat thema, zodat
 een kind in de bundel dezelfde schrijfwijze terugvindt als in de oefening.
-Omgezet: thema 1 tot 13. De andere thema's staan nog in woorden.
+Omgezet: thema 1 tot 14. De andere thema's staan nog in woorden.
 """
 import sys, pathlib
 sys.path.insert(0, str(pathlib.Path(__file__).parent))
@@ -1689,108 +1689,119 @@ BUNDELS["telproblemen-en-het-binomium-beyond"] = dict(
     onder="Faculteit, permutaties, variaties en combinaties, de driehoek van Pascal en het binomium van Newton.",
     secties=[
         dict(kop="Faculteit en permutaties", blokken=[
-            ("p", "<strong>n faculteit is het product van alle natuurlijke getallen van één tot en met "
-                  "n.</strong> <strong>Vijf faculteit is dus honderdtwintig</strong>. <strong>Nul "
-                  "faculteit is één</strong>: dat is een afspraak die alle formules kloppend houdt, want "
-                  "er is precies één manier om niets te rangschikken."),
-            ("p", "Een <strong>permutatie</strong> is een rangschikking van álle elementen. <strong>Vijf "
-                  "verschillende boeken naast elkaar zetten kan op honderdtwintig manieren</strong>, dus "
-                  "op vijf faculteit manieren."),
-            ("p", "Een <strong>herhalingspermutatie is een rangschikking van alle elementen waarvan er "
-                  "enkele gelijk zijn</strong>. Je deelt dan door de faculteiten van de groepjes gelijke "
-                  "elementen: met de letters van <strong>MAMA</strong> maak je <strong>zes</strong> "
-                  "verschillende woorden, want vier faculteit gedeeld door twee faculteit maal twee "
-                  "faculteit."),
+            ("p", r"<strong>\(n! = n \cdot (n-1) \cdot \ldots \cdot 2 \cdot 1\).</strong> Zo is "
+                  r"<strong>\(5! = 120\)</strong>. <strong>\(0! = 1\)</strong>: dat is een afspraak "
+                  r"die alle formules kloppend houdt, want er is precies één manier om niets te "
+                  r"rangschikken."),
+            ("p", r"Een <strong>permutatie</strong> is een rangschikking van álle elementen, en er "
+                  r"zijn er \(n!\). <strong>Vijf verschillende boeken naast elkaar zetten kan op "
+                  r"\(120\) manieren.</strong>"),
+            ("p", r"Een <strong>herhalingspermutatie is een rangschikking van alle elementen waarvan "
+                  r"er enkele gelijk zijn</strong>. Je deelt dan door de faculteiten van de groepjes "
+                  r"gelijke elementen: met de letters van <strong>MAMA</strong> maak je "
+                  r"\(\dfrac{4!}{2!\,2!} = \) <strong>\(6\)</strong> verschillende woorden."),
         ]),
         dict(kop="Variaties en combinaties", blokken=[
-            ("p", tabel(["Soort", "Telt de volgorde mee?", "Voorbeeld"], [
-                ["variatie", "ja", "goud, zilver en brons op een podium"],
-                ["combinatie", "nee", "drie leden van een jury kiezen uit twaalf"],
-                ["herhalingsvariatie", "ja, en herhaling is toegelaten", "een code van vier cijfers"],
+            ("p", tabel(["Soort", "Telt de volgorde mee?", "Formule"], [
+                ["variatie", "ja", r"\(V_{n}^{p} = \dfrac{n!}{(n-p)!}\)"],
+                ["combinatie", "nee", r"\(\binom{n}{p} = \dfrac{n!}{p!\,(n-p)!}\)"],
+                ["herhalingsvariatie", "ja, en herhaling is toegelaten", r"\(n^{p}\)"],
             ])),
-            ("p", "<strong>Bij een variatie telt de volgorde mee en bij een combinatie niet.</strong> "
-                  "Daarom zijn er <strong>altijd minder combinaties dan variaties</strong> bij dezelfde n "
-                  "en p: bij een combinatie vallen alle volgordes van dezelfde keuze samen. <strong>Bij "
-                  "een herhalingsvariatie mag een element wel meer dan één keer voorkomen</strong>; bij "
-                  "een gewone variatie niet. Zo bestaan er <strong>tienduizend codes van vier "
-                  "cijfers</strong> als elk cijfer van nul tot negen mag en herhaling toegelaten is."),
-            ("p", "Drie uitkomsten om bij de hand te hebben. <strong>Twee personen kiezen uit vijf zonder "
-                  "volgorde kan op tien manieren</strong>. <strong>Zes mensen die elkaar allemaal één keer "
-                  "een hand geven, geven vijftien handdrukken</strong>. En <strong>één persoon kiezen uit "
-                  "tien kan op tien manieren</strong>. <strong>Een jury van drie uit twaalf kandidaten is "
-                  "een combinatie</strong>, want de volgorde van de drie telt niet mee; zou je een "
-                  "voorzitter, een secretaris en een penningmeester kiezen, dan was het een variatie."),
-            ("p", "<strong>Het aantal manieren om p uit n te kiezen is even groot als het aantal manieren "
-                  "om n min p uit n te kiezen</strong>: wie je kiest, bepaalt meteen wie je niet kiest."),
+            ("p", r"<strong>Bij een variatie telt de volgorde mee en bij een combinatie niet.</strong> "
+                  r"Daarom zijn er <strong>altijd minder combinaties dan variaties</strong> bij "
+                  r"dezelfde \(n\) en \(p\): \(\binom{n}{p} = \dfrac{V_{n}^{p}}{p!}\), want alle "
+                  r"volgordes van dezelfde keuze vallen samen. <strong>Bij een herhalingsvariatie mag "
+                  r"een element wel meer dan één keer voorkomen</strong>; bij een gewone variatie "
+                  r"niet. Zo bestaan er <strong>\(10^{4} = 10\,000\) codes van vier cijfers</strong> "
+                  r"als elk cijfer van nul tot negen mag."),
+            ("p", r"Drie uitkomsten om bij de hand te hebben: "
+                  r"<strong>\(\binom{5}{2} = 10\)</strong>, <strong>\(\binom{6}{2} = 15\)</strong> "
+                  r"handdrukken als zes mensen elkaar allemaal één keer een hand geven en "
+                  r"<strong>\(\binom{10}{1} = 10\)</strong>. <strong>Een jury van drie uit twaalf "
+                  r"kandidaten is een combinatie</strong>, dus \(\binom{12}{3}\); zou je een "
+                  r"voorzitter, een secretaris en een penningmeester kiezen, dan was het een variatie."),
+            ("p", r"<strong>\(\binom{n}{p} = \binom{n}{n-p}\)</strong>: wie je kiest, bepaalt meteen "
+                  r"wie je niet kiest."),
         ]),
         dict(kop="De drie telregels", blokken=[
-            ("p", "<strong>De somregel gebruik je als je moet kiezen tussen twee mogelijkheden die elkaar "
-                  "uitsluiten.</strong> <strong>De productregel gebruik je bij keuzes die na elkaar "
-                  "komen</strong>: eerst een hoofdgerecht en daarna een dessert. <strong>Of-of betekent "
-                  "optellen, en-en betekent vermenigvuldigen</strong>, en dat onderscheid is de kern van "
-                  "elk telprobleem."),
-            ("p", "<strong>De complementregel zegt: tel het aantal gevallen dat niet voldoet en trek dat "
-                  "van het totaal af.</strong> Bij een opgave met de woorden minstens of hoogstens is dat "
-                  "vaak veel korter werk."),
-            ("weetje", "<strong>Het sommatieteken dient om een lange som kort te schrijven met een lopende "
-                       "index.</strong> Onder het teken staat waar de index begint, erboven waar hij "
-                       "eindigt."),
+            ("p", r"<strong>De somregel gebruik je als je moet kiezen tussen twee mogelijkheden die "
+                  r"elkaar uitsluiten.</strong> <strong>De productregel gebruik je bij keuzes die na "
+                  r"elkaar komen</strong>: eerst een hoofdgerecht en daarna een dessert. "
+                  r"<strong>Of-of betekent optellen, en-en betekent vermenigvuldigen</strong>, en dat "
+                  r"onderscheid is de kern van elk telprobleem."),
+            ("p", r"<strong>De complementregel zegt: tel het aantal gevallen dat niet voldoet en trek "
+                  r"dat van het totaal af.</strong> Bij een opgave met de woorden minstens of "
+                  r"hoogstens is dat vaak veel korter werk."),
+            ("weetje", r"<strong>Het sommatieteken \(\sum\) dient om een lange som kort te schrijven "
+                       r"met een lopende index.</strong> In \(\sum_{k=1}^{n} k\) staat onder het teken "
+                       r"waar de index begint, erboven waar hij eindigt."),
         ]),
         dict(kop="De driehoek van Pascal", blokken=[
-            ("p", "<strong>In de driehoek van Pascal staan de binomiaalcoëfficiënten, rij per rij.</strong> "
-                  "<strong>Je berekent een getal als de som van de twee getallen schuin erboven</strong>, "
-                  "en dat is net wat <strong>de formule van Stifel-Pascal</strong> in symbolen zegt: "
-                  "<strong>één binomiaalcoëfficiënt als de som van twee andere uit de vorige rij</strong>. "
-                  "Daarmee bouw je de hele driehoek op zonder één faculteit te berekenen."),
-            ("p", "<strong>Aan het begin en op het einde van elke rij staat een één</strong>: er is maar "
-                  "één manier om niets te kiezen en maar één manier om alles te kiezen. <strong>Nul "
-                  "elementen kiezen uit n kan dus op één manier.</strong> <strong>Elke rij is "
-                  "symmetrisch, omdat p elementen kiezen hetzelfde is als n min p elementen "
-                  "weglaten.</strong> <strong>De som van alle getallen in een rij is een macht van "
-                  "twee</strong>: rij n telt op tot twee tot de macht n, en dat is ook het aantal "
-                  "deelverzamelingen van een verzameling met n elementen. Zo is de <strong>som van de rij "
-                  "één, drie, drie, één gelijk aan acht</strong>."),
-            ("p", "Twee aantallen die je rechtstreeks uit de driehoek haalt: <strong>twee elementen kiezen "
-                  "uit vier kan op zes manieren</strong>, het middelste getal van de rij één, vier, zes, "
-                  "vier, één."),
-            ("kader", "<strong>De driehoek van Pascal heeft wel degelijk met kansrekening te maken.</strong> "
-                      "De binomiale verdeling gebruikt net die coëfficiënten: ze tellen op hoeveel manieren "
-                      "k successen in n pogingen kunnen vallen."),
+            ("p", r"<strong>In de driehoek van Pascal staan de binomiaalcoëfficiënten "
+                  r"\(\binom{n}{k}\), rij per rij.</strong> <strong>Je berekent een getal als de som "
+                  r"van de twee getallen schuin erboven</strong>, en dat is net wat <strong>de formule "
+                  r"van Stifel-Pascal</strong> zegt: "
+                  r"\(\binom{n}{k} = \binom{n-1}{k-1} + \binom{n-1}{k}\). Daarmee bouw je de hele "
+                  r"driehoek op zonder één faculteit te berekenen."),
+            ("fig", svg.pascaldriehoek(),
+             r"De rijen \(n = 0\) tot \(n = 6\), met rechts de som van elke rij."),
+        ]),
+        dict(kop="Wat je uit de driehoek afleest", blokken=[
+            ("p", r"<strong>\(\binom{n}{0} = \binom{n}{n} = 1\)</strong>: er is maar één manier om "
+                  r"niets te kiezen en maar één manier om alles te kiezen. <strong>Elke rij is "
+                  r"symmetrisch, omdat \(p\) elementen kiezen hetzelfde is als \(n - p\) elementen "
+                  r"weglaten.</strong>"),
+        ]),
+        dict(kop="De som van een rij", blokken=[
+            ("p", r"<strong>\(\sum_{k=0}^{n} \binom{n}{k} = 2^{n}\)</strong>: de som van rij \(n\) is "
+                  r"een macht van twee, en dat is ook het aantal deelverzamelingen van een "
+                  r"verzameling met \(n\) elementen. Zo is de <strong>som van \(1,\ 3,\ 3,\ 1\) gelijk "
+                  r"aan \(8\)</strong>, en leest de rij \(1,\ 4,\ 6,\ 4,\ 1\) je meteen "
+                  r"<strong>\(\binom{4}{2} = 6\)</strong> voor."),
+            ("kader", r"<strong>De driehoek van Pascal heeft wel degelijk met kansrekening te "
+                      r"maken.</strong> De binomiale verdeling gebruikt net \(\binom{n}{k}\): die telt "
+                      r"op hoeveel manieren \(k\) successen in \(n\) pogingen kunnen vallen."),
         ]),
         dict(kop="Het binomium van Newton", blokken=[
-            ("p", "<strong>Het binomium van Newton geeft de uitwerking van een tweeterm tot een "
-                  "willekeurige macht.</strong> Elke term bestaat uit een binomiaalcoëfficiënt maal een "
-                  "macht van a maal een macht van b. <strong>Het heet zo omdat het over een macht van een "
-                  "tweeterm gaat</strong>, en een binomium is een som van twee termen."),
-            ("p", "<strong>a plus b, tot de derde macht, is a tot de derde, plus drie a kwadraat b, plus "
-                  "drie a b kwadraat, plus b tot de derde.</strong> De coëfficiënten één, drie, drie, één "
-                  "zijn de vierde rij van de driehoek. <strong>De coëfficiënt bij a kwadraat b is dus "
-                  "drie</strong>: je kiest uit de drie factoren er één waaruit je b neemt. <strong>a plus "
-                  "b, tot de vijfde macht, heeft zes termen</strong>, altijd één meer dan de exponent. En "
-                  "in <strong>één plus x, tot de vierde macht, heeft x kwadraat coëfficiënt zes</strong>."),
-            ("p", "<strong>Bij a min b tot de macht n wisselen de tekens van term tot term</strong>, want "
-                  "je past dezelfde formule toe met min b in plaats van b. En de bekendste valstrik: "
-                  "<strong>a plus b in het kwadraat is niet a kwadraat plus b kwadraat</strong>, want de "
-                  "middelste term twee ab ontbreekt; de tweede rij van Pascal is één, twee, één."),
-            ("p", "<strong>Eén bepaalde term vind je zonder alles uit te werken met de algemene term uit "
-                  "het binomium van Newton</strong>: je vult de juiste index in en krijgt meteen de "
-                  "coëfficiënt en de twee machten."),
-            ("kader", "<strong>Een identiteit met binomiaalcoëfficiënten bewijs je door beide leden met "
-                      "faculteiten uit te schrijven en te vereenvoudigen.</strong> Een paar getallen "
-                      "invullen toont alleen dat het dáár klopt. Een telkundige redenering mag ook, als ze "
-                      "voor alle n geldt."),
+            ("p", r"<strong>Het binomium van Newton geeft de uitwerking van een tweeterm tot een "
+                  r"willekeurige macht.</strong> <strong>Het heet zo omdat het over een macht van een "
+                  r"tweeterm gaat</strong>, en een binomium is een som van twee termen."),
+            ("kader", r"\(\left(a + b\right)^{n} = \displaystyle\sum_{k=0}^{n} \binom{n}{k} "
+                      r"a^{\,n-k} b^{k}\)<br>"
+                      r"Elke term is een binomiaalcoëfficiënt maal een macht van \(a\) maal een macht "
+                      r"van \(b\)."),
+            ("p", r"<strong>\(\left(a + b\right)^{3} = a^{3} + 3a^{2}b + 3ab^{2} + b^{3}\).</strong> "
+                  r"De coëfficiënten \(1,\ 3,\ 3,\ 1\) zijn de vierde rij van de driehoek. <strong>De "
+                  r"coëfficiënt bij \(a^{2}b\) is dus \(3\)</strong>: je kiest uit de drie factoren er "
+                  r"één waaruit je \(b\) neemt. <strong>\(\left(a + b\right)^{5}\) heeft zes "
+                  r"termen</strong>, altijd één meer dan de exponent. En in "
+                  r"<strong>\(\left(1 + x\right)^{4}\) heeft \(x^{2}\) coëfficiënt \(6\)</strong>."),
+        ]),
+        dict(kop="Valstrikken en de algemene term", blokken=[
+            ("p", r"<strong>Bij \(\left(a - b\right)^{n}\) wisselen de tekens van term tot "
+                  r"term</strong>, want je past dezelfde formule toe met \(-b\) in plaats van \(b\). "
+                  r"En de bekendste valstrik: <strong>\(\left(a + b\right)^{2} \neq a^{2} + "
+                  r"b^{2}\)</strong>, want de middelste term \(2ab\) ontbreekt; de tweede rij van "
+                  r"Pascal is \(1,\ 2,\ 1\)."),
+            ("p", r"<strong>Eén bepaalde term vind je zonder alles uit te werken met de algemene term "
+                  r"\(\binom{n}{k} a^{\,n-k} b^{k}\)</strong>: je vult de juiste \(k\) in en krijgt "
+                  r"meteen de coëfficiënt en de twee machten."),
+            ("kader", r"<strong>Een identiteit met binomiaalcoëfficiënten bewijs je door beide leden "
+                      r"met faculteiten uit te schrijven en te vereenvoudigen.</strong> Een paar "
+                      r"getallen invullen toont alleen dat het dáár klopt. Een telkundige redenering "
+                      r"mag ook, als ze voor alle \(n\) geldt."),
         ]),
     ],
     onthoud=[
-        "n faculteit is het product van alle natuurlijke getallen van één tot en met n; nul faculteit is één.",
-        "Een permutatie is een rangschikking van alle elementen: vijf boeken kan op honderdtwintig manieren.",
-        "Bij een variatie telt de volgorde mee, bij een combinatie niet.",
-        "Bij een herhalingsvariatie mag een element meer dan één keer voorkomen.",
-        "Of-of betekent optellen, en-en betekent vermenigvuldigen.",
-        "Complementregel: tel de gevallen die niet voldoen en trek dat van het totaal af.",
-        "In de driehoek van Pascal is elk getal de som van de twee getallen schuin erboven.",
-        "De som van rij n van de driehoek van Pascal is twee tot de macht n.",
-        "a plus b in het kwadraat is niet a kwadraat plus b kwadraat: de middelste term twee ab ontbreekt.",
+        r"\(n! = n \cdot (n-1) \cdot \ldots \cdot 1\), en \(0! = 1\).",
+        r"Een permutatie is een rangschikking van alle elementen: er zijn er \(n!\).",
+        r"Bij een variatie telt de volgorde mee, bij een combinatie niet.",
+        r"\(V_{n}^{p} = \dfrac{n!}{(n-p)!}\) en \(\binom{n}{p} = \dfrac{n!}{p!\,(n-p)!}\).",
+        r"Of-of betekent optellen, en-en betekent vermenigvuldigen.",
+        r"Complementregel: tel de gevallen die niet voldoen en trek dat van het totaal af.",
+        r"In de driehoek van Pascal is elk getal de som van de twee getallen schuin erboven.",
+        r"\(\sum_{k=0}^{n} \binom{n}{k} = 2^{n}\).",
+        r"\(\left(a + b\right)^{2} \neq a^{2} + b^{2}\): de middelste term \(2ab\) ontbreekt.",
     ],
 )
 

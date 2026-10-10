@@ -5311,31 +5311,31 @@
       "vragen": [
         {
           "type": "meerkeuze",
-          "vraag": "Wat betekent n faculteit?",
+          "vraag": "Wat betekent \\(n!\\)?",
           "opties": [
-            "het product van alle natuurlijke getallen van één tot en met n",
-            "de som van alle natuurlijke getallen van één tot en met n",
-            "het getal n vermenigvuldigd met zichzelf, n keer na elkaar",
-            "het aantal delers dat het getal n in totaal heeft"
+            "\\(n \\cdot (n-1) \\cdot \\ldots \\cdot 2 \\cdot 1\\)",
+            "\\(1 + 2 + \\ldots + n\\)",
+            "\\(n^{n}\\)",
+            "het aantal delers van \\(n\\)"
           ],
           "antwoord": 0,
-          "uitleg": "Vijf faculteit is dus vijf maal vier maal drie maal twee maal één."
+          "uitleg": "\\(5! = 5 \\cdot 4 \\cdot 3 \\cdot 2 \\cdot 1\\)."
         },
         {
           "type": "meerkeuze",
           "vraag": "Op hoeveel manieren kan je vijf verschillende boeken naast elkaar zetten?",
           "opties": [
-            "honderdtwintig",
-            "vijfentwintig",
-            "vijftien",
-            "tien"
+            "\\(120\\)",
+            "\\(25\\)",
+            "\\(15\\)",
+            "\\(10\\)"
           ],
           "antwoord": 0,
-          "uitleg": "Dat is een permutatie van vijf elementen, dus vijf faculteit."
+          "uitleg": "Dat is een permutatie van vijf elementen, dus \\(5! = 120\\)."
         },
         {
           "type": "invultekst",
-          "vraag": "Hoeveel is nul faculteit? Schrijf het getal.",
+          "vraag": "Hoeveel is \\(0!\\)? Schrijf het getal.",
           "antwoord": [
             "1",
             "een",
@@ -5359,19 +5359,19 @@
             "bij een combinatie gebruik je alle elementen en bij een variatie niet"
           ],
           "antwoord": 0,
-          "uitleg": "Daarom zijn er altijd minder combinaties dan variaties: elke combinatie staat voor meerdere volgordes."
+          "uitleg": "\\(V_{n}^{p} = \\dfrac{n!}{(n-p)!}\\) en \\(\\binom{n}{p} = \\dfrac{n!}{p!\\,(n-p)!}\\): elke combinatie staat voor \\(p!\\) volgordes."
         },
         {
           "type": "meerkeuze",
           "vraag": "Hoeveel codes van vier cijfers bestaan er, als elk cijfer van nul tot negen mag en herhaling toegelaten is?",
           "opties": [
-            "tienduizend",
-            "vijfduizend",
-            "vijfduizendveertig",
-            "tweehonderd"
+            "\\(10\\,000\\)",
+            "\\(5000\\)",
+            "\\(5040\\)",
+            "\\(200\\)"
           ],
           "antwoord": 0,
-          "uitleg": "Vier keer tien keuzes na elkaar, dus tien tot de vierde. Dat is een herhalingsvariatie."
+          "uitleg": "Vier keer tien keuzes na elkaar, dus \\(10^{4}\\). Dat is een herhalingsvariatie."
         },
         {
           "type": "waarofniet",
@@ -5381,12 +5381,12 @@
         },
         {
           "type": "invultekst",
-          "vraag": "Op hoeveel manieren kan je twee personen kiezen uit vijf, als de volgorde niet telt? Schrijf het getal.",
+          "vraag": "Hoeveel is \\(\\binom{5}{2}\\)? Schrijf het getal.",
           "antwoord": [
             "10",
             "tien"
           ],
-          "uitleg": "Vijf maal vier gedeeld door twee, want elk tweetal telde je dubbel."
+          "uitleg": "\\(\\dfrac{5 \\cdot 4}{2} = 10\\), want elk tweetal telde je dubbel."
         },
         {
           "type": "meerkeuze",
@@ -5420,28 +5420,28 @@
         },
         {
           "type": "invultekst",
-          "vraag": "Hoeveel is vijf faculteit? Schrijf het getal.",
+          "vraag": "Hoeveel is \\(5!\\)? Schrijf het getal.",
           "antwoord": [
             "120",
             "honderdtwintig"
           ],
-          "uitleg": "Vijf maal vier is twintig, maal drie is zestig, maal twee is honderdtwintig."
+          "uitleg": "\\(5 \\cdot 4 = 20\\), maal \\(3\\) is \\(60\\), maal \\(2\\) is \\(120\\)."
         },
         {
           "type": "meerkeuze",
           "vraag": "Hoeveel verschillende woorden kan je maken met de letters van MAMA?",
           "opties": [
-            "zes",
-            "vierentwintig",
-            "twaalf",
-            "vier"
+            "\\(6\\)",
+            "\\(24\\)",
+            "\\(12\\)",
+            "\\(4\\)"
           ],
           "antwoord": 0,
-          "uitleg": "Vier faculteit gedeeld door twee faculteit maal twee faculteit, want de twee M's en de twee A's zijn onderling niet te onderscheiden. Dat is een herhalingspermutatie."
+          "uitleg": "\\(\\dfrac{4!}{2!\\,2!} = 6\\), want de twee M's en de twee A's zijn onderling niet te onderscheiden. Dat is een herhalingspermutatie."
         },
         {
           "type": "waarofniet",
-          "vraag": "Het aantal manieren om p uit n te kiezen is even groot als het aantal manieren om n min p uit n te kiezen.",
+          "vraag": "\\(\\binom{n}{p} = \\binom{n}{n-p}\\).",
           "antwoord": true,
           "uitleg": "Wie je kiest, bepaalt meteen wie je niet kiest. Daarom is de driehoek van Pascal symmetrisch."
         },
@@ -5449,13 +5449,13 @@
           "type": "meerkeuze",
           "vraag": "Zes mensen geven elkaar allemaal één keer een hand. Hoeveel handdrukken zijn dat?",
           "opties": [
-            "vijftien",
-            "dertig",
-            "zesendertig",
-            "twaalf"
+            "\\(15\\)",
+            "\\(30\\)",
+            "\\(36\\)",
+            "\\(12\\)"
           ],
           "antwoord": 0,
-          "uitleg": "Je kiest telkens twee mensen uit zes, zonder volgorde: zes maal vijf gedeeld door twee."
+          "uitleg": "Je kiest telkens twee mensen uit zes, zonder volgorde: \\(\\binom{6}{2} = \\dfrac{6 \\cdot 5}{2} = 15\\)."
         },
         {
           "type": "meerkeuze",
@@ -5471,18 +5471,18 @@
         },
         {
           "type": "waarofniet",
-          "vraag": "Bij dezelfde n en p zijn er altijd meer combinaties dan variaties.",
+          "vraag": "Bij dezelfde \\(n\\) en \\(p\\) zijn er altijd meer combinaties dan variaties.",
           "antwoord": false,
-          "uitleg": "Net minder: bij een combinatie vallen alle volgordes van dezelfde keuze samen."
+          "uitleg": "Net minder: \\(\\binom{n}{p} = \\dfrac{V_{n}^{p}}{p!}\\), want alle volgordes van dezelfde keuze vallen samen."
         },
         {
           "type": "invultekst",
-          "vraag": "Op hoeveel manieren kan je één persoon kiezen uit tien? Schrijf het getal.",
+          "vraag": "Hoeveel is \\(\\binom{10}{1}\\)? Schrijf het getal.",
           "antwoord": [
             "10",
             "tien"
           ],
-          "uitleg": "Eén uit n kiezen kan altijd op n manieren."
+          "uitleg": "Eén uit \\(n\\) kiezen kan altijd op \\(n\\) manieren."
         },
         {
           "type": "meerkeuze",
@@ -5494,11 +5494,11 @@
             "een herhalingsvariatie, want iemand kan twee keer meedoen"
           ],
           "antwoord": 0,
-          "uitleg": "Zou je een voorzitter, een secretaris en een penningmeester kiezen, dan was het wel een variatie."
+          "uitleg": "Dus \\(\\binom{12}{3}\\). Zou je een voorzitter, een secretaris en een penningmeester kiezen, dan was het wel een variatie."
         },
         {
           "type": "meerkeuze",
-          "vraag": "Waarvoor dient het sommatieteken?",
+          "vraag": "Waarvoor dient het sommatieteken \\(\\sum\\)?",
           "opties": [
             "om een lange som kort te schrijven met een lopende index",
             "om aan te geven dat je twee getallen moet optellen",
@@ -5506,7 +5506,7 @@
             "om een product van veel factoren kort op te schrijven"
           ],
           "antwoord": 0,
-          "uitleg": "Onder het teken staat waar de index begint, erboven waar hij eindigt."
+          "uitleg": "In \\(\\sum_{k=1}^{n} k\\) staat onder het teken waar de index begint en erboven waar hij eindigt."
         }
       ]
     },
@@ -5519,13 +5519,13 @@
           "type": "meerkeuze",
           "vraag": "Wat staat er in de driehoek van Pascal?",
           "opties": [
-            "de binomiaalcoëfficiënten, rij per rij",
-            "de faculteiten van de natuurlijke getallen",
-            "de machten van het getal twee op volgorde",
+            "de binomiaalcoëfficiënten \\(\\binom{n}{k}\\), rij per rij",
+            "de faculteiten \\(n!\\) op volgorde",
+            "de machten \\(2^{n}\\) op volgorde",
             "de priemgetallen in een driehoekig patroon"
           ],
           "antwoord": 0,
-          "uitleg": "Rij n bevat de coëfficiënten die je nodig hebt om een tweeterm tot de macht n uit te werken."
+          "uitleg": "Rij \\(n\\) bevat de coëfficiënten die je nodig hebt om een tweeterm tot de macht \\(n\\) uit te werken."
         },
         {
           "type": "meerkeuze",
@@ -5537,16 +5537,16 @@
             "als het verschil van de twee getallen schuin erboven"
           ],
           "antwoord": 0,
-          "uitleg": "Dat is net wat de formule van Stifel-Pascal in symbolen zegt."
+          "uitleg": "Dat is de formule van Stifel-Pascal: \\(\\binom{n}{k} = \\binom{n-1}{k-1} + \\binom{n-1}{k}\\)."
         },
         {
           "type": "invultekst",
-          "vraag": "Hoeveel termen heeft a plus b, tot de vijfde macht, volledig uitgewerkt? Schrijf het cijfer.",
+          "vraag": "Hoeveel termen heeft \\(\\left(a + b\\right)^{5}\\), volledig uitgewerkt? Schrijf het cijfer.",
           "antwoord": [
             "6",
             "zes"
           ],
-          "uitleg": "Altijd één meer dan de exponent, want de macht van a loopt van vijf tot nul."
+          "uitleg": "Altijd één meer dan de exponent, want de macht van \\(a\\) loopt van \\(5\\) tot \\(0\\)."
         },
         {
           "type": "waarofniet",
@@ -5556,42 +5556,42 @@
         },
         {
           "type": "meerkeuze",
-          "vraag": "Hoe werk je a plus b, tot de derde macht, uit?",
+          "vraag": "Hoe werk je \\(\\left(a + b\\right)^{3}\\) uit?",
           "opties": [
-            "a tot de derde, plus drie a kwadraat b, plus drie a b kwadraat, plus b tot de derde",
-            "a tot de derde plus b tot de derde, en verder niets",
-            "a tot de derde, plus a kwadraat maal b, plus a maal b kwadraat, plus b tot de derde",
-            "drie a tot de derde, plus drie b tot de derde, bij elkaar opgeteld"
+            "\\(a^{3} + 3a^{2}b + 3ab^{2} + b^{3}\\)",
+            "\\(a^{3} + b^{3}\\)",
+            "\\(a^{3} + a^{2}b + ab^{2} + b^{3}\\)",
+            "\\(3a^{3} + 3b^{3}\\)"
           ],
           "antwoord": 0,
-          "uitleg": "De coëfficiënten één, drie, drie, één zijn net de vierde rij van de driehoek van Pascal."
+          "uitleg": "De coëfficiënten \\(1,\\ 3,\\ 3,\\ 1\\) zijn net de vierde rij van de driehoek van Pascal."
         },
         {
           "type": "meerkeuze",
-          "vraag": "Welke coëfficiënt hoort bij a kwadraat b in de uitwerking van a plus b tot de derde?",
+          "vraag": "Welke coëfficiënt hoort bij \\(a^{2}b\\) in \\(\\left(a + b\\right)^{3}\\)?",
           "opties": [
-            "drie",
-            "één",
-            "twee",
-            "zes"
+            "\\(3\\)",
+            "\\(1\\)",
+            "\\(2\\)",
+            "\\(6\\)"
           ],
           "antwoord": 0,
-          "uitleg": "Je kiest uit de drie factoren er één waaruit je b neemt, en dat kan op drie manieren."
+          "uitleg": "Je kiest uit de drie factoren er één waaruit je \\(b\\) neemt: \\(\\binom{3}{1} = 3\\)."
         },
         {
           "type": "waarofniet",
-          "vraag": "De som van alle getallen in een rij van de driehoek van Pascal is een macht van twee.",
+          "vraag": "\\(\\sum_{k=0}^{n} \\binom{n}{k} = 2^{n}\\).",
           "antwoord": true,
-          "uitleg": "Rij n telt op tot twee tot de macht n. Dat is ook het aantal deelverzamelingen van een verzameling met n elementen."
+          "uitleg": "Rij \\(n\\) telt op tot \\(2^{n}\\). Dat is ook het aantal deelverzamelingen van een verzameling met \\(n\\) elementen."
         },
         {
           "type": "invultekst",
-          "vraag": "Op hoeveel manieren kan je twee elementen kiezen uit vier? Schrijf het getal.",
+          "vraag": "Hoeveel is \\(\\binom{4}{2}\\)? Schrijf het getal.",
           "antwoord": [
             "6",
             "zes"
           ],
-          "uitleg": "Dat is het middelste getal van de rij één, vier, zes, vier, één."
+          "uitleg": "Dat is het middelste getal van de rij \\(1,\\ 4,\\ 6,\\ 4,\\ 1\\)."
         },
         {
           "type": "meerkeuze",
@@ -5603,70 +5603,70 @@
             "het bewijst dat elke veelterm een nulwaarde heeft"
           ],
           "antwoord": 0,
-          "uitleg": "Elke term bestaat uit een binomiaalcoëfficiënt maal een macht van a maal een macht van b."
+          "uitleg": "\\(\\left(a + b\\right)^{n} = \\sum_{k=0}^{n} \\binom{n}{k} a^{\\,n-k} b^{k}\\)."
         },
         {
           "type": "waarofniet",
-          "vraag": "a plus b, in het kwadraat, is gelijk aan a kwadraat plus b kwadraat.",
+          "vraag": "\\(\\left(a + b\\right)^{2} = a^{2} + b^{2}\\).",
           "antwoord": false,
-          "uitleg": "De middelste term twee ab ontbreekt. De tweede rij van Pascal is één, twee, één."
+          "uitleg": "De middelste term \\(2ab\\) ontbreekt. De tweede rij van Pascal is \\(1,\\ 2,\\ 1\\)."
         },
         {
           "type": "meerkeuze",
           "vraag": "Welk getal staat er altijd aan het begin en op het einde van een rij in de driehoek van Pascal?",
           "opties": [
-            "één",
-            "nul",
-            "twee",
-            "het rijnummer"
+            "\\(1\\)",
+            "\\(0\\)",
+            "\\(2\\)",
+            "het rijnummer \\(n\\)"
           ],
           "antwoord": 0,
-          "uitleg": "Er is maar één manier om niets te kiezen en maar één manier om alles te kiezen."
+          "uitleg": "\\(\\binom{n}{0} = \\binom{n}{n} = 1\\): er is maar één manier om niets te kiezen en maar één om alles te kiezen."
         },
         {
           "type": "invultekst",
-          "vraag": "Welke coëfficiënt heeft x kwadraat in de uitwerking van één plus x, tot de vierde macht? Schrijf het getal.",
+          "vraag": "Welke coëfficiënt heeft \\(x^{2}\\) in \\(\\left(1 + x\\right)^{4}\\)? Schrijf het getal.",
           "antwoord": [
             "6",
             "zes"
           ],
-          "uitleg": "De rij is één, vier, zes, vier, één, en je neemt het getal bij x kwadraat."
+          "uitleg": "De rij is \\(1,\\ 4,\\ 6,\\ 4,\\ 1\\), en je neemt het getal bij \\(x^{2}\\)."
         },
         {
           "type": "meerkeuze",
           "vraag": "Hoe vind je één bepaalde term van een macht van een tweeterm zonder alles uit te werken?",
           "opties": [
-            "met de algemene term uit het binomium van Newton",
+            "met de algemene term \\(\\binom{n}{k} a^{\\,n-k} b^{k}\\)",
             "door de hele driehoek van Pascal uit te schrijven",
             "door de macht in kleinere machten op te splitsen",
             "door de twee termen apart tot die macht te verheffen"
           ],
           "antwoord": 0,
-          "uitleg": "Je vult de juiste index in en krijgt meteen de coëfficiënt en de twee machten."
+          "uitleg": "Je vult de juiste \\(k\\) in en krijgt meteen de coëfficiënt en de twee machten."
         },
         {
           "type": "waarofniet",
-          "vraag": "Bij a min b tot de macht n wisselen de tekens van term tot term.",
+          "vraag": "Bij \\(\\left(a - b\\right)^{n}\\) wisselen de tekens van term tot term.",
           "antwoord": true,
-          "uitleg": "Je past het binomium toe met min b in plaats van b, en elke oneven macht van min b is negatief."
+          "uitleg": "Je past het binomium toe met \\(-b\\) in plaats van \\(b\\), en elke oneven macht van \\(-b\\) is negatief."
         },
         {
           "type": "meerkeuze",
-          "vraag": "Op hoeveel manieren kan je nul elementen kiezen uit n?",
+          "vraag": "Hoeveel is \\(\\binom{n}{0}\\)?",
           "opties": [
-            "één",
-            "nul",
-            "n",
-            "n faculteit"
+            "\\(1\\)",
+            "\\(0\\)",
+            "\\(n\\)",
+            "\\(n!\\)"
           ],
           "antwoord": 0,
-          "uitleg": "Niets kiezen kan precies op één manier, en daarom is die binomiaalcoëfficiënt gelijk aan één."
+          "uitleg": "Niets kiezen kan precies op één manier."
         },
         {
           "type": "meerkeuze",
           "vraag": "Waarom is elke rij van de driehoek van Pascal symmetrisch?",
           "opties": [
-            "omdat p elementen kiezen hetzelfde is als n min p elementen weglaten",
+            "omdat \\(p\\) kiezen hetzelfde is als \\(n - p\\) weglaten",
             "omdat elk getal de som is van de twee getallen die er schuin boven staan",
             "omdat elke rij altijd begint en eindigt met het getal één",
             "omdat de som van elke rij een macht van twee is"
@@ -5678,16 +5678,16 @@
           "type": "waarofniet",
           "vraag": "De driehoek van Pascal heeft niets te maken met kansrekening.",
           "antwoord": false,
-          "uitleg": "De binomiale verdeling gebruikt net die coëfficiënten: ze tellen op hoeveel manieren k successen in n pogingen kunnen vallen."
+          "uitleg": "De binomiale verdeling gebruikt net \\(\\binom{n}{k}\\): die telt op hoeveel manieren \\(k\\) successen in \\(n\\) pogingen kunnen vallen."
         },
         {
           "type": "invultekst",
-          "vraag": "Hoeveel is de som van de rij één, drie, drie, één uit de driehoek van Pascal? Schrijf het getal.",
+          "vraag": "Hoeveel is \\(1 + 3 + 3 + 1\\), een rij uit de driehoek van Pascal? Schrijf het getal.",
           "antwoord": [
             "8",
             "acht"
           ],
-          "uitleg": "Acht is twee tot de derde, en drie is het rijnummer."
+          "uitleg": "\\(8 = 2^{3}\\), en \\(3\\) is het rijnummer."
         },
         {
           "type": "meerkeuze",
@@ -5699,7 +5699,7 @@
             "door de twee leden van elkaar af te trekken en dan af te ronden"
           ],
           "antwoord": 0,
-          "uitleg": "Een paar getallen invullen toont alleen dat het dáár klopt. Een telkundige redenering mag ook, als ze voor alle n geldt."
+          "uitleg": "Een paar getallen invullen toont alleen dat het dáár klopt. Een telkundige redenering mag ook, als ze voor alle \\(n\\) geldt."
         },
         {
           "type": "meerkeuze",

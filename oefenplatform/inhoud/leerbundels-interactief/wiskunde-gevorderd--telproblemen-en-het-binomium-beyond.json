@@ -8,15 +8,15 @@
    "blokken": [
     {
      "soort": "tekst",
-     "html": "<strong>n faculteit is het product van alle natuurlijke getallen van één tot en met n.</strong> <strong>Vijf faculteit is dus honderdtwintig</strong>. <strong>Nul faculteit is één</strong>: dat is een afspraak die alle formules kloppend houdt, want er is precies één manier om niets te rangschikken."
+     "html": "<strong>\\(n! = n \\cdot (n-1) \\cdot \\ldots \\cdot 2 \\cdot 1\\).</strong> Zo is <strong>\\(5! = 120\\)</strong>. <strong>\\(0! = 1\\)</strong>: dat is een afspraak die alle formules kloppend houdt, want er is precies één manier om niets te rangschikken."
     },
     {
      "soort": "tekst",
-     "html": "Een <strong>permutatie</strong> is een rangschikking van álle elementen. <strong>Vijf verschillende boeken naast elkaar zetten kan op honderdtwintig manieren</strong>, dus op vijf faculteit manieren."
+     "html": "Een <strong>permutatie</strong> is een rangschikking van álle elementen, en er zijn er \\(n!\\). <strong>Vijf verschillende boeken naast elkaar zetten kan op \\(120\\) manieren.</strong>"
     },
     {
      "soort": "tekst",
-     "html": "Een <strong>herhalingspermutatie is een rangschikking van alle elementen waarvan er enkele gelijk zijn</strong>. Je deelt dan door de faculteiten van de groepjes gelijke elementen: met de letters van <strong>MAMA</strong> maak je <strong>zes</strong> verschillende woorden, want vier faculteit gedeeld door twee faculteit maal twee faculteit."
+     "html": "Een <strong>herhalingspermutatie is een rangschikking van alle elementen waarvan er enkele gelijk zijn</strong>. Je deelt dan door de faculteiten van de groepjes gelijke elementen: met de letters van <strong>MAMA</strong> maak je \\(\\dfrac{4!}{2!\\,2!} = \\) <strong>\\(6\\)</strong> verschillende woorden."
     }
    ]
   },
@@ -25,19 +25,19 @@
    "blokken": [
     {
      "soort": "tekst",
-     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Soort</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Telt de volgorde mee?</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Voorbeeld</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">variatie</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">ja</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">goud, zilver en brons op een podium</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">combinatie</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">nee</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">drie leden van een jury kiezen uit twaalf</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">herhalingsvariatie</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">ja, en herhaling is toegelaten</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een code van vier cijfers</td></tr></table>"
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Soort</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Telt de volgorde mee?</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Formule</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">variatie</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">ja</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">\\(V_{n}^{p} = \\dfrac{n!}{(n-p)!}\\)</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">combinatie</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">nee</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">\\(\\binom{n}{p} = \\dfrac{n!}{p!\\,(n-p)!}\\)</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">herhalingsvariatie</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">ja, en herhaling is toegelaten</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">\\(n^{p}\\)</td></tr></table>"
     },
     {
      "soort": "tekst",
-     "html": "<strong>Bij een variatie telt de volgorde mee en bij een combinatie niet.</strong> Daarom zijn er <strong>altijd minder combinaties dan variaties</strong> bij dezelfde n en p: bij een combinatie vallen alle volgordes van dezelfde keuze samen. <strong>Bij een herhalingsvariatie mag een element wel meer dan één keer voorkomen</strong>; bij een gewone variatie niet. Zo bestaan er <strong>tienduizend codes van vier cijfers</strong> als elk cijfer van nul tot negen mag en herhaling toegelaten is."
+     "html": "<strong>Bij een variatie telt de volgorde mee en bij een combinatie niet.</strong> Daarom zijn er <strong>altijd minder combinaties dan variaties</strong> bij dezelfde \\(n\\) en \\(p\\): \\(\\binom{n}{p} = \\dfrac{V_{n}^{p}}{p!}\\), want alle volgordes van dezelfde keuze vallen samen. <strong>Bij een herhalingsvariatie mag een element wel meer dan één keer voorkomen</strong>; bij een gewone variatie niet. Zo bestaan er <strong>\\(10^{4} = 10\\,000\\) codes van vier cijfers</strong> als elk cijfer van nul tot negen mag."
     },
     {
      "soort": "tekst",
-     "html": "Drie uitkomsten om bij de hand te hebben. <strong>Twee personen kiezen uit vijf zonder volgorde kan op tien manieren</strong>. <strong>Zes mensen die elkaar allemaal één keer een hand geven, geven vijftien handdrukken</strong>. En <strong>één persoon kiezen uit tien kan op tien manieren</strong>. <strong>Een jury van drie uit twaalf kandidaten is een combinatie</strong>, want de volgorde van de drie telt niet mee; zou je een voorzitter, een secretaris en een penningmeester kiezen, dan was het een variatie."
+     "html": "Drie uitkomsten om bij de hand te hebben: <strong>\\(\\binom{5}{2} = 10\\)</strong>, <strong>\\(\\binom{6}{2} = 15\\)</strong> handdrukken als zes mensen elkaar allemaal één keer een hand geven en <strong>\\(\\binom{10}{1} = 10\\)</strong>. <strong>Een jury van drie uit twaalf kandidaten is een combinatie</strong>, dus \\(\\binom{12}{3}\\); zou je een voorzitter, een secretaris en een penningmeester kiezen, dan was het een variatie."
     },
     {
      "soort": "tekst",
-     "html": "<strong>Het aantal manieren om p uit n te kiezen is even groot als het aantal manieren om n min p uit n te kiezen</strong>: wie je kiest, bepaalt meteen wie je niet kiest."
+     "html": "<strong>\\(\\binom{n}{p} = \\binom{n}{n-p}\\)</strong>: wie je kiest, bepaalt meteen wie je niet kiest."
     }
    ]
   },
@@ -54,7 +54,7 @@
     },
     {
      "soort": "weetje",
-     "html": "<strong>Het sommatieteken dient om een lange som kort te schrijven met een lopende index.</strong> Onder het teken staat waar de index begint, erboven waar hij eindigt."
+     "html": "<strong>Het sommatieteken \\(\\sum\\) dient om een lange som kort te schrijven met een lopende index.</strong> In \\(\\sum_{k=1}^{n} k\\) staat onder het teken waar de index begint, erboven waar hij eindigt."
     }
    ]
   },
@@ -63,19 +63,34 @@
    "blokken": [
     {
      "soort": "tekst",
-     "html": "<strong>In de driehoek van Pascal staan de binomiaalcoëfficiënten, rij per rij.</strong> <strong>Je berekent een getal als de som van de twee getallen schuin erboven</strong>, en dat is net wat <strong>de formule van Stifel-Pascal</strong> in symbolen zegt: <strong>één binomiaalcoëfficiënt als de som van twee andere uit de vorige rij</strong>. Daarmee bouw je de hele driehoek op zonder één faculteit te berekenen."
+     "html": "<strong>In de driehoek van Pascal staan de binomiaalcoëfficiënten \\(\\binom{n}{k}\\), rij per rij.</strong> <strong>Je berekent een getal als de som van de twee getallen schuin erboven</strong>, en dat is net wat <strong>de formule van Stifel-Pascal</strong> zegt: \\(\\binom{n}{k} = \\binom{n-1}{k-1} + \\binom{n-1}{k}\\). Daarmee bouw je de hele driehoek op zonder één faculteit te berekenen."
     },
     {
-     "soort": "tekst",
-     "html": "<strong>Aan het begin en op het einde van elke rij staat een één</strong>: er is maar één manier om niets te kiezen en maar één manier om alles te kiezen. <strong>Nul elementen kiezen uit n kan dus op één manier.</strong> <strong>Elke rij is symmetrisch, omdat p elementen kiezen hetzelfde is als n min p elementen weglaten.</strong> <strong>De som van alle getallen in een rij is een macht van twee</strong>: rij n telt op tot twee tot de macht n, en dat is ook het aantal deelverzamelingen van een verzameling met n elementen. Zo is de <strong>som van de rij één, drie, drie, één gelijk aan acht</strong>."
-    },
+     "soort": "figuur",
+     "html": "<svg viewBox=\"0 0 470 288\" width=\"470\" xmlns=\"http://www.w3.org/2000/svg\"><text x=\"192.0\" y=\"16.0\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"10\" fill=\"#6b7260\">driehoek van Pascal</text>\n<text x=\"400.0\" y=\"16.0\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"10\" fill=\"#6b7260\">som van de rij</text>\n<line x1=\"170.0\" y1=\"139.0\" x2=\"192.0\" y2=\"157.0\" stroke=\"#c17f2b\" stroke-width=\"1.6\"/>\n<line x1=\"214.0\" y1=\"139.0\" x2=\"192.0\" y2=\"157.0\" stroke=\"#c17f2b\" stroke-width=\"1.6\"/>\n<circle cx=\"192.0\" cy=\"30.0\" r=\"13\" fill=\"none\" stroke=\"none\" stroke-width=\"1.4\"/>\n<text x=\"192.0\" y=\"34.0\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"11.5\" fill=\"#234539\">1</text>\n<text x=\"368.0\" y=\"34.0\" text-anchor=\"end\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"10.5\" fill=\"#6b7260\">2⁰</text>\n<text x=\"378.0\" y=\"34.0\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"10.5\" fill=\"#6b7260\">=</text>\n<text x=\"392.0\" y=\"34.0\" text-anchor=\"start\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"10.5\" font-weight=\"600\" fill=\"#234539\">1</text>\n<circle cx=\"170.0\" cy=\"63.0\" r=\"13\" fill=\"none\" stroke=\"none\" stroke-width=\"1.4\"/>\n<text x=\"170.0\" y=\"67.0\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"11.5\" fill=\"#234539\">1</text>\n<circle cx=\"214.0\" cy=\"63.0\" r=\"13\" fill=\"none\" stroke=\"none\" stroke-width=\"1.4\"/>\n<text x=\"214.0\" y=\"67.0\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"11.5\" fill=\"#234539\">1</text>\n<text x=\"368.0\" y=\"67.0\" text-anchor=\"end\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"10.5\" fill=\"#6b7260\">2¹</text>\n<text x=\"378.0\" y=\"67.0\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"10.5\" fill=\"#6b7260\">=</text>\n<text x=\"392.0\" y=\"67.0\" text-anchor=\"start\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"10.5\" font-weight=\"600\" fill=\"#234539\">2</text>\n<circle cx=\"148.0\" cy=\"96.0\" r=\"13\" fill=\"none\" stroke=\"none\" stroke-width=\"1.4\"/>\n<text x=\"148.0\" y=\"100.0\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"11.5\" fill=\"#234539\">1</text>\n<circle cx=\"192.0\" cy=\"96.0\" r=\"13\" fill=\"none\" stroke=\"none\" stroke-width=\"1.4\"/>\n<text x=\"192.0\" y=\"100.0\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"11.5\" fill=\"#234539\">2</text>\n<circle cx=\"236.0\" cy=\"96.0\" r=\"13\" fill=\"none\" stroke=\"none\" stroke-width=\"1.4\"/>\n<text x=\"236.0\" y=\"100.0\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"11.5\" fill=\"#234539\">1</text>\n<text x=\"368.0\" y=\"100.0\" text-anchor=\"end\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"10.5\" fill=\"#6b7260\">2²</text>\n<text x=\"378.0\" y=\"100.0\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"10.5\" fill=\"#6b7260\">=</text>\n<text x=\"392.0\" y=\"100.0\" text-anchor=\"start\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"10.5\" font-weight=\"600\" fill=\"#234539\">4</text>\n<circle cx=\"126.0\" cy=\"129.0\" r=\"13\" fill=\"none\" stroke=\"none\" stroke-width=\"1.4\"/>\n<text x=\"126.0\" y=\"133.0\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"11.5\" fill=\"#234539\">1</text>\n<circle cx=\"170.0\" cy=\"129.0\" r=\"13\" fill=\"#ffffff\" stroke=\"#c17f2b\" stroke-width=\"1.4\"/>\n<text x=\"170.0\" y=\"133.0\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"11.5\" font-weight=\"600\" fill=\"#c17f2b\">3</text>\n<circle cx=\"214.0\" cy=\"129.0\" r=\"13\" fill=\"#ffffff\" stroke=\"#c17f2b\" stroke-width=\"1.4\"/>\n<text x=\"214.0\" y=\"133.0\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"11.5\" font-weight=\"600\" fill=\"#c17f2b\">3</text>\n<circle cx=\"258.0\" cy=\"129.0\" r=\"13\" fill=\"none\" stroke=\"none\" stroke-width=\"1.4\"/>\n<text x=\"258.0\" y=\"133.0\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"11.5\" fill=\"#234539\">1</text>\n<text x=\"368.0\" y=\"133.0\" text-anchor=\"end\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"10.5\" fill=\"#6b7260\">2³</text>\n<text x=\"378.0\" y=\"133.0\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"10.5\" fill=\"#6b7260\">=</text>\n<text x=\"392.0\" y=\"133.0\" text-anchor=\"start\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"10.5\" font-weight=\"600\" fill=\"#234539\">8</text>\n<circle cx=\"104.0\" cy=\"162.0\" r=\"13\" fill=\"none\" stroke=\"none\" stroke-width=\"1.4\"/>\n<text x=\"104.0\" y=\"166.0\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"11.5\" fill=\"#234539\">1</text>\n<circle cx=\"148.0\" cy=\"162.0\" r=\"13\" fill=\"none\" stroke=\"none\" stroke-width=\"1.4\"/>\n<text x=\"148.0\" y=\"166.0\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"11.5\" fill=\"#234539\">4</text>\n<circle cx=\"192.0\" cy=\"162.0\" r=\"13\" fill=\"#ffffff\" stroke=\"#c17f2b\" stroke-width=\"1.4\"/>\n<text x=\"192.0\" y=\"166.0\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"11.5\" font-weight=\"600\" fill=\"#c17f2b\">6</text>\n<circle cx=\"236.0\" cy=\"162.0\" r=\"13\" fill=\"none\" stroke=\"none\" stroke-width=\"1.4\"/>\n<text x=\"236.0\" y=\"166.0\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"11.5\" fill=\"#234539\">4</text>\n<circle cx=\"280.0\" cy=\"162.0\" r=\"13\" fill=\"none\" stroke=\"none\" stroke-width=\"1.4\"/>\n<text x=\"280.0\" y=\"166.0\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"11.5\" fill=\"#234539\">1</text>\n<text x=\"368.0\" y=\"166.0\" text-anchor=\"end\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"10.5\" fill=\"#6b7260\">2⁴</text>\n<text x=\"378.0\" y=\"166.0\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"10.5\" fill=\"#6b7260\">=</text>\n<text x=\"392.0\" y=\"166.0\" text-anchor=\"start\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"10.5\" font-weight=\"600\" fill=\"#234539\">16</text>\n<circle cx=\"82.0\" cy=\"195.0\" r=\"13\" fill=\"none\" stroke=\"none\" stroke-width=\"1.4\"/>\n<text x=\"82.0\" y=\"199.0\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"11.5\" fill=\"#234539\">1</text>\n<circle cx=\"126.0\" cy=\"195.0\" r=\"13\" fill=\"none\" stroke=\"none\" stroke-width=\"1.4\"/>\n<text x=\"126.0\" y=\"199.0\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"11.5\" fill=\"#234539\">5</text>\n<circle cx=\"170.0\" cy=\"195.0\" r=\"13\" fill=\"none\" stroke=\"none\" stroke-width=\"1.4\"/>\n<text x=\"170.0\" y=\"199.0\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"11.5\" fill=\"#234539\">10</text>\n<circle cx=\"214.0\" cy=\"195.0\" r=\"13\" fill=\"none\" stroke=\"none\" stroke-width=\"1.4\"/>\n<text x=\"214.0\" y=\"199.0\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"11.5\" fill=\"#234539\">10</text>\n<circle cx=\"258.0\" cy=\"195.0\" r=\"13\" fill=\"none\" stroke=\"none\" stroke-width=\"1.4\"/>\n<text x=\"258.0\" y=\"199.0\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"11.5\" fill=\"#234539\">5</text>\n<circle cx=\"302.0\" cy=\"195.0\" r=\"13\" fill=\"none\" stroke=\"none\" stroke-width=\"1.4\"/>\n<text x=\"302.0\" y=\"199.0\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"11.5\" fill=\"#234539\">1</text>\n<text x=\"368.0\" y=\"199.0\" text-anchor=\"end\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"10.5\" fill=\"#6b7260\">2⁵</text>\n<text x=\"378.0\" y=\"199.0\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"10.5\" fill=\"#6b7260\">=</text>\n<text x=\"392.0\" y=\"199.0\" text-anchor=\"start\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"10.5\" font-weight=\"600\" fill=\"#234539\">32</text>\n<circle cx=\"60.0\" cy=\"228.0\" r=\"13\" fill=\"none\" stroke=\"none\" stroke-width=\"1.4\"/>\n<text x=\"60.0\" y=\"232.0\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"11.5\" fill=\"#234539\">1</text>\n<circle cx=\"104.0\" cy=\"228.0\" r=\"13\" fill=\"none\" stroke=\"none\" stroke-width=\"1.4\"/>\n<text x=\"104.0\" y=\"232.0\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"11.5\" fill=\"#234539\">6</text>\n<circle cx=\"148.0\" cy=\"228.0\" r=\"13\" fill=\"none\" stroke=\"none\" stroke-width=\"1.4\"/>\n<text x=\"148.0\" y=\"232.0\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"11.5\" fill=\"#234539\">15</text>\n<circle cx=\"192.0\" cy=\"228.0\" r=\"13\" fill=\"none\" stroke=\"none\" stroke-width=\"1.4\"/>\n<text x=\"192.0\" y=\"232.0\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"11.5\" fill=\"#234539\">20</text>\n<circle cx=\"236.0\" cy=\"228.0\" r=\"13\" fill=\"none\" stroke=\"none\" stroke-width=\"1.4\"/>\n<text x=\"236.0\" y=\"232.0\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"11.5\" fill=\"#234539\">15</text>\n<circle cx=\"280.0\" cy=\"228.0\" r=\"13\" fill=\"none\" stroke=\"none\" stroke-width=\"1.4\"/>\n<text x=\"280.0\" y=\"232.0\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"11.5\" fill=\"#234539\">6</text>\n<circle cx=\"324.0\" cy=\"228.0\" r=\"13\" fill=\"none\" stroke=\"none\" stroke-width=\"1.4\"/>\n<text x=\"324.0\" y=\"232.0\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"11.5\" fill=\"#234539\">1</text>\n<text x=\"368.0\" y=\"232.0\" text-anchor=\"end\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"10.5\" fill=\"#6b7260\">2⁶</text>\n<text x=\"378.0\" y=\"232.0\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"10.5\" fill=\"#6b7260\">=</text>\n<text x=\"392.0\" y=\"232.0\" text-anchor=\"start\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"10.5\" font-weight=\"600\" fill=\"#234539\">64</text>\n<text x=\"235.0\" y=\"280.0\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"9.5\" fill=\"#6b7260\">elk getal is de som van de twee die er schuin boven staan</text></svg>",
+     "onderschrift": "De rijen \\(n = 0\\) tot \\(n = 6\\), met rechts de som van elke rij."
+    }
+   ]
+  },
+  {
+   "kop": "Wat je uit de driehoek afleest",
+   "blokken": [
     {
      "soort": "tekst",
-     "html": "Twee aantallen die je rechtstreeks uit de driehoek haalt: <strong>twee elementen kiezen uit vier kan op zes manieren</strong>, het middelste getal van de rij één, vier, zes, vier, één."
+     "html": "<strong>\\(\\binom{n}{0} = \\binom{n}{n} = 1\\)</strong>: er is maar één manier om niets te kiezen en maar één manier om alles te kiezen. <strong>Elke rij is symmetrisch, omdat \\(p\\) elementen kiezen hetzelfde is als \\(n - p\\) elementen weglaten.</strong>"
+    }
+   ]
+  },
+  {
+   "kop": "De som van een rij",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "<strong>\\(\\sum_{k=0}^{n} \\binom{n}{k} = 2^{n}\\)</strong>: de som van rij \\(n\\) is een macht van twee, en dat is ook het aantal deelverzamelingen van een verzameling met \\(n\\) elementen. Zo is de <strong>som van \\(1,\\ 3,\\ 3,\\ 1\\) gelijk aan \\(8\\)</strong>, en leest de rij \\(1,\\ 4,\\ 6,\\ 4,\\ 1\\) je meteen <strong>\\(\\binom{4}{2} = 6\\)</strong> voor."
     },
     {
      "soort": "kader",
-     "html": "<strong>De driehoek van Pascal heeft wel degelijk met kansrekening te maken.</strong> De binomiale verdeling gebruikt net die coëfficiënten: ze tellen op hoeveel manieren k successen in n pogingen kunnen vallen."
+     "html": "<strong>De driehoek van Pascal heeft wel degelijk met kansrekening te maken.</strong> De binomiale verdeling gebruikt net \\(\\binom{n}{k}\\): die telt op hoeveel manieren \\(k\\) successen in \\(n\\) pogingen kunnen vallen."
     }
    ]
   },
@@ -84,36 +99,45 @@
    "blokken": [
     {
      "soort": "tekst",
-     "html": "<strong>Het binomium van Newton geeft de uitwerking van een tweeterm tot een willekeurige macht.</strong> Elke term bestaat uit een binomiaalcoëfficiënt maal een macht van a maal een macht van b. <strong>Het heet zo omdat het over een macht van een tweeterm gaat</strong>, en een binomium is een som van twee termen."
-    },
-    {
-     "soort": "tekst",
-     "html": "<strong>a plus b, tot de derde macht, is a tot de derde, plus drie a kwadraat b, plus drie a b kwadraat, plus b tot de derde.</strong> De coëfficiënten één, drie, drie, één zijn de vierde rij van de driehoek. <strong>De coëfficiënt bij a kwadraat b is dus drie</strong>: je kiest uit de drie factoren er één waaruit je b neemt. <strong>a plus b, tot de vijfde macht, heeft zes termen</strong>, altijd één meer dan de exponent. En in <strong>één plus x, tot de vierde macht, heeft x kwadraat coëfficiënt zes</strong>."
-    },
-    {
-     "soort": "tekst",
-     "html": "<strong>Bij a min b tot de macht n wisselen de tekens van term tot term</strong>, want je past dezelfde formule toe met min b in plaats van b. En de bekendste valstrik: <strong>a plus b in het kwadraat is niet a kwadraat plus b kwadraat</strong>, want de middelste term twee ab ontbreekt; de tweede rij van Pascal is één, twee, één."
-    },
-    {
-     "soort": "tekst",
-     "html": "<strong>Eén bepaalde term vind je zonder alles uit te werken met de algemene term uit het binomium van Newton</strong>: je vult de juiste index in en krijgt meteen de coëfficiënt en de twee machten."
+     "html": "<strong>Het binomium van Newton geeft de uitwerking van een tweeterm tot een willekeurige macht.</strong> <strong>Het heet zo omdat het over een macht van een tweeterm gaat</strong>, en een binomium is een som van twee termen."
     },
     {
      "soort": "kader",
-     "html": "<strong>Een identiteit met binomiaalcoëfficiënten bewijs je door beide leden met faculteiten uit te schrijven en te vereenvoudigen.</strong> Een paar getallen invullen toont alleen dat het dáár klopt. Een telkundige redenering mag ook, als ze voor alle n geldt."
+     "html": "\\(\\left(a + b\\right)^{n} = \\displaystyle\\sum_{k=0}^{n} \\binom{n}{k} a^{\\,n-k} b^{k}\\)<br>Elke term is een binomiaalcoëfficiënt maal een macht van \\(a\\) maal een macht van \\(b\\)."
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>\\(\\left(a + b\\right)^{3} = a^{3} + 3a^{2}b + 3ab^{2} + b^{3}\\).</strong> De coëfficiënten \\(1,\\ 3,\\ 3,\\ 1\\) zijn de vierde rij van de driehoek. <strong>De coëfficiënt bij \\(a^{2}b\\) is dus \\(3\\)</strong>: je kiest uit de drie factoren er één waaruit je \\(b\\) neemt. <strong>\\(\\left(a + b\\right)^{5}\\) heeft zes termen</strong>, altijd één meer dan de exponent. En in <strong>\\(\\left(1 + x\\right)^{4}\\) heeft \\(x^{2}\\) coëfficiënt \\(6\\)</strong>."
+    }
+   ]
+  },
+  {
+   "kop": "Valstrikken en de algemene term",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "<strong>Bij \\(\\left(a - b\\right)^{n}\\) wisselen de tekens van term tot term</strong>, want je past dezelfde formule toe met \\(-b\\) in plaats van \\(b\\). En de bekendste valstrik: <strong>\\(\\left(a + b\\right)^{2} \\neq a^{2} + b^{2}\\)</strong>, want de middelste term \\(2ab\\) ontbreekt; de tweede rij van Pascal is \\(1,\\ 2,\\ 1\\)."
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Eén bepaalde term vind je zonder alles uit te werken met de algemene term \\(\\binom{n}{k} a^{\\,n-k} b^{k}\\)</strong>: je vult de juiste \\(k\\) in en krijgt meteen de coëfficiënt en de twee machten."
+    },
+    {
+     "soort": "kader",
+     "html": "<strong>Een identiteit met binomiaalcoëfficiënten bewijs je door beide leden met faculteiten uit te schrijven en te vereenvoudigen.</strong> Een paar getallen invullen toont alleen dat het dáár klopt. Een telkundige redenering mag ook, als ze voor alle \\(n\\) geldt."
     }
    ]
   }
  ],
  "onthoud": [
-  "n faculteit is het product van alle natuurlijke getallen van één tot en met n; nul faculteit is één.",
-  "Een permutatie is een rangschikking van alle elementen: vijf boeken kan op honderdtwintig manieren.",
+  "\\(n! = n \\cdot (n-1) \\cdot \\ldots \\cdot 1\\), en \\(0! = 1\\).",
+  "Een permutatie is een rangschikking van alle elementen: er zijn er \\(n!\\).",
   "Bij een variatie telt de volgorde mee, bij een combinatie niet.",
-  "Bij een herhalingsvariatie mag een element meer dan één keer voorkomen.",
+  "\\(V_{n}^{p} = \\dfrac{n!}{(n-p)!}\\) en \\(\\binom{n}{p} = \\dfrac{n!}{p!\\,(n-p)!}\\).",
   "Of-of betekent optellen, en-en betekent vermenigvuldigen.",
   "Complementregel: tel de gevallen die niet voldoen en trek dat van het totaal af.",
   "In de driehoek van Pascal is elk getal de som van de twee getallen schuin erboven.",
-  "De som van rij n van de driehoek van Pascal is twee tot de macht n.",
-  "a plus b in het kwadraat is niet a kwadraat plus b kwadraat: de middelste term twee ab ontbreekt."
+  "\\(\\sum_{k=0}^{n} \\binom{n}{k} = 2^{n}\\).",
+  "\\(\\left(a + b\\right)^{2} \\neq a^{2} + b^{2}\\): de middelste term \\(2ab\\) ontbreekt."
  ]
 }

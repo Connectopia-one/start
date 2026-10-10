@@ -19,7 +19,7 @@ krijgen. Het achtervoegsel houdt ze uit elkaar van wiskunde gevorderd van
 
 Wiskunde staat hier in echte notatie, tussen \( en \), net als in de vragen en
 in de leerbundels. Zie oefenplatform/lib/wiskunde.ts. De omzetting gebeurt
-thema per thema; omgezet zijn thema 1 tot 13.
+thema per thema; omgezet zijn thema 1 tot 14.
 """
 import sys, pathlib
 sys.path.insert(0, str(pathlib.Path(__file__).parent))
@@ -1195,46 +1195,105 @@ OEFENBUNDELS["oefenbundel-telproblemen-en-het-binomium-beyond"] = dict(
     hoe=HOE,
     reeksen=[
         dict(kop="Welk telprobleem",
-             opdracht="Schrijf bij elke situatie op of het een permutatie, een variatie of een combinatie is.",
+             opdracht="Schrijf bij elke situatie op of het een permutatie, een variatie of een "
+                      "combinatie is.",
              oefeningen=[
                  ("rij", [("zes atleten over goud, zilver en brons", "variatie, de volgorde telt"),
                           ("vier leden kiezen uit een club van twintig", "combinatie"),
                           ("zeven boeken op een rij zetten", "permutatie"),
-                          ("een pincode van vier cijfers", "herhalingsvariatie")],
+                          ("een pincode van vier cijfers", "herhalingsvariatie"),
+                          ("de letters van KOKOS herschikken", "herhalingspermutatie")],
                   "Welk telprobleem?", WL),
-                 ("open", "Leg uit waarom er bij dezelfde n en p altijd minder combinaties dan variaties zijn.",
-                  "Bij een combinatie vallen alle volgordes van dezelfde keuze samen. Elke combinatie staat dus voor meerdere variaties.", 3),
              ]),
-        dict(kop="Tellen",
-             opdracht="Reken uit. Schrijf eerst op of je optelt of vermenigvuldigt.",
+        dict(kop="Faculteit en combinaties",
+             opdracht="Reken uit. Vereenvoudig eerst de breuk met faculteiten.",
              oefeningen=[
-                 ("rij", [("vier faculteit", "24"), ("zes faculteit gedeeld door vier faculteit", "30"),
-                          ("twee kiezen uit zes zonder volgorde", "15"), ("drie kiezen uit vijf zonder volgorde", "10")],
+                 ("rij", [(r"\(4!\)", r"\(24\)"), (r"\(\dfrac{6!}{4!}\)", r"\(30\)"),
+                          (r"\(\binom{6}{2}\)", r"\(15\)"), (r"\(\binom{5}{3}\)", r"\(10\)"),
+                          (r"\(\binom{7}{0}\)", r"\(1\)")],
                   "Reken uit.", W),
-                 ("open", "Een menu heeft vier voorgerechten, zes hoofdgerechten en drie desserts. Hoeveel menu's kan je samenstellen? Welke regel gebruik je?",
-                  "De productregel: keuzes die na elkaar komen vermenigvuldig je. Vier maal zes maal drie is tweeënzeventig.", 3),
-                 ("open", "Acht mensen geven elkaar allemaal één keer een hand. Hoeveel handdrukken zijn dat?",
-                  "Je kiest telkens twee uit acht zonder volgorde: acht maal zeven gedeeld door twee, dus achtentwintig.", 3),
-                 ("open", "Hoeveel verschillende woorden maak je met de letters van het woord KOKOS? Schrijf je redenering.",
-                  "Vijf faculteit gedeeld door twee faculteit maal twee faculteit, want er zijn twee K's en twee O's. Dat is honderdtwintig gedeeld door vier, dus dertig.", 4),
+             ]),
+        dict(kop="Variaties en herhalingen",
+             opdracht="Schrijf eerst op welke formule je gebruikt, en reken dan pas uit.",
+             oefeningen=[
+                 ("kort", r"\(V_{6}^{3}\)", r"\(6 \cdot 5 \cdot 4 = 120\)", WW),
+                 ("kort", "Hoeveel codes van drie letters bestaan er, uit een alfabet van 26?",
+                  r"\(26^{3} = 17\,576\)", WW),
+                 ("kort", "Op hoeveel manieren verdeel je goud, zilver en brons onder acht atleten?",
+                  r"\(8 \cdot 7 \cdot 6 = 336\)", WW),
+                 ("kort", "Hoeveel verschillende woorden maak je met de letters van KOKOS?",
+                  r"\(\dfrac{5!}{2!\,2!} = 30\)", WW),
+             ]),
+        dict(kop="De telregels toepassen",
+             opdracht="Zeg er telkens bij of je de somregel, de productregel of de complementregel "
+                      "gebruikt.",
+             oefeningen=[
+                 ("kort", "Een menu heeft vier voorgerechten, zes hoofdgerechten en drie desserts. "
+                          "Hoeveel menu's?",
+                  r"productregel: \(4 \cdot 6 \cdot 3 = 72\)", WL),
+                 ("kort", "Je neemt één hoofdgerecht uit zes óf één slaatje uit vier. Hoeveel keuzes?",
+                  r"somregel: \(6 + 4 = 10\)", WL),
+                 ("kort", "Acht mensen geven elkaar allemaal één keer een hand. Hoeveel handdrukken?",
+                  r"\(\binom{8}{2} = 28\)", WL),
+                 ("kort", "Hoeveel pincodes van vier cijfers bevatten minstens één nul?",
+                  r"complementregel: \(10^{4} - 9^{4} = 3439\)", WL),
              ]),
         dict(kop="De driehoek van Pascal",
              opdracht="Vul de rijen aan. Elk getal is de som van de twee schuin erboven.",
              oefeningen=[
                  ("tabel", ["Rijnummer", "De rij", "Som van de rij"],
-                  [["drie", None, None], ["vier", None, None], ["vijf", None, None]],
-                  "1 3 3 1 en 8; 1 4 6 4 1 en 16; 1 5 10 10 5 1 en 32", "200px"),
-                 ("open", "Leg uit waarom elke rij van de driehoek van Pascal symmetrisch is.",
-                  "p elementen kiezen is hetzelfde als n min p elementen weglaten. Elke keuze hoort bij precies één groep die je niet kiest.", 3),
+                  [[r"\(n = 3\)", None, None], [r"\(n = 4\)", None, None],
+                   [r"\(n = 5\)", None, None]],
+                  r"\(1\ 3\ 3\ 1\) en \(8\); \(1\ 4\ 6\ 4\ 1\) en \(16\); "
+                  r"\(1\ 5\ 10\ 10\ 5\ 1\) en \(32\)", "200px"),
+                 ("kort", r"\(\binom{7}{2}\)", r"\(21\)", W),
+                 ("kort", r"\(\sum_{k=0}^{6} \binom{6}{k}\)", r"\(2^{6} = 64\)", WW),
              ]),
-        dict(kop="Het binomium van Newton",
-             opdracht="Werk uit of lees één term af. Gebruik de juiste rij van de driehoek.",
+        dict(kop="Het binomium uitwerken",
+             opdracht="Gebruik de juiste rij van de driehoek van Pascal.",
              oefeningen=[
-                 ("open", "Werk a plus b, tot de vierde macht, volledig uit.",
-                  "a tot de vierde, plus vier a tot de derde b, plus zes a kwadraat b kwadraat, plus vier a b tot de derde, plus b tot de vierde.", 4),
-                 ("kort", "Welke coëfficiënt hoort bij x tot de derde in de uitwerking van één plus x, tot de vijfde macht?", "10", W),
-                 ("kort", "Hoeveel termen heeft a plus b, tot de zevende macht, volledig uitgewerkt?", "8", W),
-                 ("waar", "Bij a min b tot de macht n wisselen de tekens van term tot term.", True),
+                 ("kort", r"\(\left(a + b\right)^{4}\)",
+                  r"\(a^{4} + 4a^{3}b + 6a^{2}b^{2} + 4ab^{3} + b^{4}\)", WL),
+                 ("kort", r"\(\left(x - 2\right)^{3}\)", r"\(x^{3} - 6x^{2} + 12x - 8\)", WL),
+                 ("kort", r"\(\left(1 + x\right)^{5}\)",
+                  r"\(1 + 5x + 10x^{2} + 10x^{3} + 5x^{4} + x^{5}\)", WL),
+             ]),
+        dict(kop="Eén term aflezen",
+             opdracht=r"Gebruik de algemene term \(\binom{n}{k} a^{\,n-k} b^{k}\); werk niet alles uit.",
+             oefeningen=[
+                 ("kort", r"De coëfficiënt van \(x^{3}\) in \(\left(1 + x\right)^{5}\)", r"\(10\)", W),
+                 ("kort", r"Het aantal termen van \(\left(a + b\right)^{7}\)", r"\(8\)", W),
+                 ("kort", r"De coëfficiënt van \(a^{2}b^{3}\) in \(\left(a + b\right)^{5}\)",
+                  r"\(\binom{5}{3} = 10\)", WW),
+             ]),
+        dict(kop="Waar of niet waar",
+             opdracht="Zet een kruisje, en verbeter in gedachten wat niet klopt.",
+             oefeningen=[
+                 ("waar", r"Bij \(\left(a - b\right)^{n}\) wisselen de tekens van term tot term.", True),
+                 ("waar", r"\(\binom{n}{p} = \binom{n}{n-p}\).", True),
+                 ("waar", r"\(0! = 0\).", False),
+                 ("waar", "Bij een combinatie telt de volgorde mee.", False),
+                 ("waar", r"De som van rij \(n\) van de driehoek van Pascal is \(2^{n}\).", True),
+                 ("waar", r"\(\left(a + b\right)^{2} = a^{2} + b^{2}\).", False),
+                 ("waar", "Bij een herhalingsvariatie mag een element meer dan één keer voorkomen.", True),
+                 ("waar", r"Bij dezelfde \(n\) en \(p\) zijn er meer combinaties dan variaties.", False),
+             ]),
+        dict(kop="Uitleggen",
+             opdracht="Schrijf in volle zinnen, en noem de regel die je gebruikt.",
+             oefeningen=[
+                 ("open", r"Leg uit waarom er bij dezelfde \(n\) en \(p\) altijd minder combinaties "
+                          r"dan variaties zijn.",
+                  r"Bij een combinatie vallen alle \(p!\) volgordes van dezelfde keuze samen, dus "
+                  r"\(\binom{n}{p} = \dfrac{V_{n}^{p}}{p!}\).", 3),
+                 ("open", "Leg uit waarom elke rij van de driehoek van Pascal symmetrisch is.",
+                  r"\(p\) elementen kiezen is hetzelfde als \(n - p\) elementen weglaten. Elke keuze "
+                  r"hoort bij precies één groep die je niet kiest.", 3),
+                 ("open", "Wanneer gebruik je de somregel en wanneer de productregel?",
+                  "De somregel bij keuzes die elkaar uitsluiten, dus of-of. De productregel bij "
+                  "keuzes die na elkaar komen, dus en-en.", 3),
+                 ("open", r"Leg uit waarom \(\binom{n}{0} = 1\).",
+                  "Er is precies één manier om niets te kiezen: de lege keuze. Daarom staat er aan "
+                  "het begin van elke rij een één.", 3),
              ]),
     ],
 )

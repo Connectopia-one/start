@@ -9049,3 +9049,47 @@ def machtswortels(breedte=470):
     d.append(_tekst(breedte / 2, h - 8,
                     "de drie hoeken liggen 120 graden uit elkaar", 9.5, DIM, "middle"))
     return _svg(breedte, h, "\n".join(d))
+
+
+def pascaldriehoek(breedte=470):
+    r"""De eerste zeven rijen van de driehoek van Pascal, met de rijsommen."""
+    h = 288
+    cx = 192
+    dx, dy = 44, 33
+    boven = 34
+    rijen = [[1]]
+    for _ in range(6):
+        vorige = rijen[-1]
+        rijen.append([1] + [vorige[k] + vorige[k + 1] for k in range(len(vorige) - 1)] + [1])
+
+    def plek(n, k):
+        return cx + (k - n / 2) * dx, boven + n * dy
+
+    d = [_tekst(cx, 16, "driehoek van Pascal", 10, DIM, "middle"),
+         _tekst(400, 16, "som van de rij", 10, DIM, "middle")]
+
+    ax, ay = plek(4, 2)
+    for k in (1, 2):
+        bx, by = plek(3, k)
+        d.append(f'<line x1="{bx:.1f}" y1="{by+6:.1f}" x2="{ax:.1f}" y2="{ay-9:.1f}" '
+                 f'stroke="{AMBER}" stroke-width="1.6"/>')
+
+    for n, rij in enumerate(rijen):
+        for k, waarde in enumerate(rij):
+            x, y = plek(n, k)
+            vet = (n, k) in ((3, 1), (3, 2), (4, 2))
+            d.append(f'<circle cx="{x:.1f}" cy="{y-4:.1f}" r="13" '
+                     f'fill="{"#ffffff" if vet else "none"}" '
+                     f'stroke="{AMBER if vet else "none"}" stroke-width="1.4"/>')
+            d.append(_tekst(x, y, str(waarde), 11.5, AMBER if vet else DARK, "middle", vet))
+        d.append(_tekst(368, boven + n * dy, f"2^{n}".replace("^0", "⁰")
+                        .replace("^1", "¹").replace("^2", "²").replace("^3", "³")
+                        .replace("^4", "⁴").replace("^5", "⁵").replace("^6", "⁶"),
+                        10.5, DIM, "end"))
+        d.append(_tekst(378, boven + n * dy, "=", 10.5, DIM, "middle"))
+        d.append(_tekst(392, boven + n * dy, str(sum(rij)), 10.5, DARK, "start", True))
+
+    d.append(_tekst(breedte / 2, h - 8,
+                    "elk getal is de som van de twee die er schuin boven staan",
+                    9.5, DIM, "middle"))
+    return _svg(breedte, h, "\n".join(d))
