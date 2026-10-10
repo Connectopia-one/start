@@ -4731,7 +4731,7 @@
             "46"
           ],
           "antwoord": 0,
-          "uitleg": "De productregel: 4 maal 6."
+          "uitleg": "De productregel: \\(4 \\cdot 6 = 24\\)."
         },
         {
           "type": "meerkeuze",
@@ -4743,7 +4743,7 @@
             "100"
           ],
           "antwoord": 0,
-          "uitleg": "10 maal 10 maal 10. De cijfers mogen zich herhalen."
+          "uitleg": "\\(10 \\cdot 10 \\cdot 10 = 1000\\). De cijfers mogen zich herhalen."
         },
         {
           "type": "meerkeuze",
@@ -4755,7 +4755,7 @@
             "18"
           ],
           "antwoord": 0,
-          "uitleg": "6 maal 6. In het boomdiagram splitst elke tak in zes."
+          "uitleg": "\\(6 \\cdot 6 = 36\\). In het boomdiagram splitst elke tak in zes."
         },
         {
           "type": "meerkeuze",
@@ -4767,7 +4767,7 @@
             "10"
           ],
           "antwoord": 0,
-          "uitleg": "5 maal 4 maal 3: wie goud haalt, kan geen zilver meer halen."
+          "uitleg": "\\(5 \\cdot 4 \\cdot 3 = 60\\): wie goud haalt, kan geen zilver meer halen."
         },
         {
           "type": "meerkeuze",
@@ -4803,7 +4803,7 @@
             "een boomdiagram werkt enkel met dobbelstenen"
           ],
           "antwoord": 0,
-          "uitleg": "Je gebruikt dan enkel de productregel: 2 tot de tiende macht."
+          "uitleg": "Je gebruikt dan enkel de productregel: \\(2^{10} = 1024\\)."
         },
         {
           "type": "meerkeuze",
@@ -4815,7 +4815,7 @@
             "12"
           ],
           "antwoord": 0,
-          "uitleg": "3 maal 4 maal 2."
+          "uitleg": "\\(3 \\cdot 4 \\cdot 2 = 24\\)."
         },
         {
           "type": "meerkeuze",
@@ -4827,7 +4827,7 @@
             "4096"
           ],
           "antwoord": 0,
-          "uitleg": "6 tot de vierde macht."
+          "uitleg": "\\(6^{4} = 1296\\)."
         },
         {
           "type": "meerkeuze",
@@ -4839,7 +4839,7 @@
             "4"
           ],
           "antwoord": 0,
-          "uitleg": "1 met 6, 2 met 5, 3 met 4, en die drie ook omgekeerd."
+          "uitleg": "\\((1, 6)\\), \\((2, 5)\\) en \\((3, 4)\\), en die drie ook omgekeerd."
         },
         {
           "type": "meerkeuze",
@@ -4891,7 +4891,7 @@
           "antwoord": [
             "8"
           ],
-          "uitleg": "2 maal 2 maal 2."
+          "uitleg": "\\(2 \\cdot 2 \\cdot 2 = 8\\)."
         },
         {
           "type": "invultekst",
@@ -4967,7 +4967,7 @@
             "15"
           ],
           "antwoord": 0,
-          "uitleg": "14 plus 11 is 25, min de 5 die dubbel geteld zijn."
+          "uitleg": "\\(14 + 11 = 25\\), min de \\(5\\) die dubbel geteld zijn."
         },
         {
           "type": "meerkeuze",
@@ -5015,7 +5015,7 @@
             "12"
           ],
           "antwoord": 0,
-          "uitleg": "22 plus 18 min 6 is 34, en 40 min 34 is 6."
+          "uitleg": "\\(22 + 18 - 6 = 34\\), en \\(40 - 34 = 6\\)."
         },
         {
           "type": "meerkeuze",
@@ -5039,7 +5039,7 @@
             "9"
           ],
           "antwoord": 0,
-          "uitleg": "14 min de 7 in de doorsnede."
+          "uitleg": "\\(14 - 7 = 7\\): de doorsnede gaat eraf."
         },
         {
           "type": "meerkeuze",
@@ -5051,7 +5051,7 @@
             "17"
           ],
           "antwoord": 0,
-          "uitleg": "10 door 2, 6 door 3, en 3 door allebei: 10 plus 6 min 3."
+          "uitleg": "\\(10\\) door \\(2\\), \\(6\\) door \\(3\\) en \\(3\\) door allebei: \\(10 + 6 - 3 = 13\\)."
         },
         {
           "type": "meerkeuze",
@@ -5104,7 +5104,7 @@
           "antwoord": [
             "17"
           ],
-          "uitleg": "12 plus 9 min 4."
+          "uitleg": "\\(12 + 9 - 4 = 17\\)."
         },
         {
           "type": "invultekst",

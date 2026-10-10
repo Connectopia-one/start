@@ -25,11 +25,21 @@
     },
     {
      "soort": "tekst",
-     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Situatie</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Berekening</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Aantal</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">4 broeken en 6 truien</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">4 · 6</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">24</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">5 truien en 3 broeken</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">5 · 3</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">15</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">3 voorgerechten, 4 hoofdgerechten, 2 desserts</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">3 · 4 · 2</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">24</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">drie cijferschijven met 0 tot 9</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">10 · 10 · 10</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">1000</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">vier schijven met zes tekens</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">6⁴</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">1296</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">twee dobbelstenen</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">6 · 6</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">36</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">drie muntworpen</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">2 · 2 · 2</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">8</td></tr></table>"
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Situatie</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Berekening</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Aantal</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">4 broeken en 6 truien</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">\\(4 \\cdot 6\\)</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">\\(24\\)</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">5 truien en 3 broeken</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">\\(5 \\cdot 3\\)</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">\\(15\\)</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">3 voorgerechten, 4 hoofdgerechten, 2 desserts</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">\\(3 \\cdot 4 \\cdot 2\\)</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">\\(24\\)</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">drie cijferschijven met 0 tot 9</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">\\(10 \\cdot 10 \\cdot 10\\)</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">\\(1000\\)</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">vier schijven met zes tekens</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">\\(6^{4}\\)</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">\\(1296\\)</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">twee dobbelstenen</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">\\(6 \\cdot 6\\)</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">\\(36\\)</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">drie muntworpen</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">\\(2 \\cdot 2 \\cdot 2\\)</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">\\(8\\)</td></tr></table>"
     },
     {
      "soort": "tekst",
-     "html": "Bij tien muntworpen zouden er 1024 paden zijn. Dat tekent niemand nog uit, en dan gebruik je <strong>alleen</strong> nog de productregel: 2¹⁰. Een boomdiagram is dus niet voor elk <strong>telprobleem</strong> de beste aanpak."
+     "html": "Bij tien muntworpen zouden er \\(1024\\) paden zijn. Dat tekent niemand nog uit, en dan gebruik je <strong>alleen</strong> nog de productregel: \\(2^{10}\\). Een boomdiagram is dus niet voor elk <strong>telprobleem</strong> de beste aanpak."
+    }
+   ]
+  },
+  {
+   "kop": "Een boompje van twee keuzes",
+   "blokken": [
+    {
+     "soort": "figuur",
+     "html": "<svg viewBox=\"0 0 470 159.0\" width=\"470\" xmlns=\"http://www.w3.org/2000/svg\"><circle cx=\"235.0\" cy=\"20\" r=\"5\" fill=\"#2f5d50\"/><line x1=\"235.0\" y1=\"25\" x2=\"78.3\" y2=\"39.0\" stroke=\"#e4ded0\" stroke-width=\"1.6\"/><rect x=\"34.3\" y=\"39.0\" width=\"88\" height=\"30\" rx=\"8\" fill=\"#ffffff\" stroke=\"#2f5d50\" stroke-width=\"1.4\"/><text x=\"78.3\" y=\"58.0\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"11\" font-weight=\"600\" fill=\"#234539\">soep</text><line x1=\"78.3\" y1=\"69.0\" x2=\"53.3\" y2=\"117.0\" stroke=\"#e4ded0\" stroke-width=\"1.4\"/><rect x=\"29.3\" y=\"117.0\" width=\"48.0\" height=\"30\" rx=\"8\" fill=\"#ffffff\" stroke=\"#c17f2b\" stroke-width=\"1.4\"/><text x=\"53.3\" y=\"136.0\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"10\" fill=\"#234539\">vis</text><line x1=\"78.3\" y1=\"69.0\" x2=\"103.3\" y2=\"117.0\" stroke=\"#e4ded0\" stroke-width=\"1.4\"/><rect x=\"79.3\" y=\"117.0\" width=\"48.0\" height=\"30\" rx=\"8\" fill=\"#ffffff\" stroke=\"#c17f2b\" stroke-width=\"1.4\"/><text x=\"103.3\" y=\"136.0\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"10\" fill=\"#234539\">vlees</text><line x1=\"235.0\" y1=\"25\" x2=\"235.0\" y2=\"39.0\" stroke=\"#e4ded0\" stroke-width=\"1.6\"/><rect x=\"191.0\" y=\"39.0\" width=\"88\" height=\"30\" rx=\"8\" fill=\"#ffffff\" stroke=\"#2f5d50\" stroke-width=\"1.4\"/><text x=\"235.0\" y=\"58.0\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"11\" font-weight=\"600\" fill=\"#234539\">salade</text><line x1=\"235.0\" y1=\"69.0\" x2=\"210.0\" y2=\"117.0\" stroke=\"#e4ded0\" stroke-width=\"1.4\"/><rect x=\"186.0\" y=\"117.0\" width=\"48.0\" height=\"30\" rx=\"8\" fill=\"#ffffff\" stroke=\"#c17f2b\" stroke-width=\"1.4\"/><text x=\"210.0\" y=\"136.0\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"10\" fill=\"#234539\">vis</text><line x1=\"235.0\" y1=\"69.0\" x2=\"260.0\" y2=\"117.0\" stroke=\"#e4ded0\" stroke-width=\"1.4\"/><rect x=\"236.0\" y=\"117.0\" width=\"48.0\" height=\"30\" rx=\"8\" fill=\"#ffffff\" stroke=\"#c17f2b\" stroke-width=\"1.4\"/><text x=\"260.0\" y=\"136.0\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"10\" fill=\"#234539\">vlees</text><line x1=\"235.0\" y1=\"25\" x2=\"391.7\" y2=\"39.0\" stroke=\"#e4ded0\" stroke-width=\"1.6\"/><rect x=\"347.7\" y=\"39.0\" width=\"88\" height=\"30\" rx=\"8\" fill=\"#ffffff\" stroke=\"#2f5d50\" stroke-width=\"1.4\"/><text x=\"391.7\" y=\"58.0\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"11\" font-weight=\"600\" fill=\"#234539\">paté</text><line x1=\"391.7\" y1=\"69.0\" x2=\"366.7\" y2=\"117.0\" stroke=\"#e4ded0\" stroke-width=\"1.4\"/><rect x=\"342.7\" y=\"117.0\" width=\"48.0\" height=\"30\" rx=\"8\" fill=\"#ffffff\" stroke=\"#c17f2b\" stroke-width=\"1.4\"/><text x=\"366.7\" y=\"136.0\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"10\" fill=\"#234539\">vis</text><line x1=\"391.7\" y1=\"69.0\" x2=\"416.7\" y2=\"117.0\" stroke=\"#e4ded0\" stroke-width=\"1.4\"/><rect x=\"392.7\" y=\"117.0\" width=\"48.0\" height=\"30\" rx=\"8\" fill=\"#ffffff\" stroke=\"#c17f2b\" stroke-width=\"1.4\"/><text x=\"416.7\" y=\"136.0\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"10\" fill=\"#234539\">vlees</text></svg>",
+     "onderschrift": "drie keuzes maal twee keuzes geeft \\(3 \\cdot 2 = 6\\) paden"
     }
    ]
   },
@@ -42,11 +52,16 @@
     },
     {
      "soort": "tekst",
-     "html": "Vijf lopers en drie plaatsen op het podium: wie goud haalt, kan geen zilver meer halen. Dus 5 · 4 · 3 = <strong>60</strong> mogelijke volgordes."
-    },
+     "html": "Vijf lopers en drie plaatsen op het podium: wie goud haalt, kan geen zilver meer halen. Dus \\(5 \\cdot 4 \\cdot 3 = 60\\) mogelijke volgordes."
+    }
+   ]
+  },
+  {
+   "kop": "Zeven valt het vaakst",
+   "blokken": [
     {
      "soort": "weetje",
-     "html": "Bij twee dobbelstenen zijn er 36 uitkomsten, en in <strong>zes</strong> daarvan is de som 7: 1-6, 2-5, 3-4 en die drie ook omgekeerd. Zeven is daarmee de som die het vaakst valt, en daar draaien heel wat gezelschapsspelen op."
+     "html": "Bij twee dobbelstenen zijn er \\(36\\) uitkomsten, en in <strong>zes</strong> daarvan is de som \\(7\\): \\((1, 6)\\), \\((2, 5)\\), \\((3, 4)\\) en die drie ook omgekeerd. Zeven is daarmee de som die het vaakst valt, en daar draaien heel wat gezelschapsspelen op."
     }
    ]
   },
@@ -56,6 +71,11 @@
     {
      "soort": "tekst",
      "html": "Een <strong>venndiagram</strong> toont twee (of meer) groepen als kringen die elkaar overlappen. De overlapping is de <strong>doorsnede</strong>: de elementen die in <strong>allebei</strong> zitten. Alles samen heet de <strong>vereniging</strong>. Wat <strong>buiten</strong> de kringen staat, voldoet aan geen van de twee voorwaarden."
+    },
+    {
+     "soort": "figuur",
+     "html": "<svg viewBox=\"0 0 470 226\" width=\"470\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"14\" y=\"14\" width=\"442\" height=\"196\" rx=\"12\" fill=\"#ffffff\" stroke=\"#e4ded0\" stroke-width=\"1.2\"/><circle cx=\"183.0\" cy=\"112\" r=\"92\" fill=\"#2f5d50\" fill-opacity=\"0.10\" stroke=\"#2f5d50\" stroke-width=\"1.8\"/><circle cx=\"287.0\" cy=\"112\" r=\"92\" fill=\"#c17f2b\" fill-opacity=\"0.10\" stroke=\"#c17f2b\" stroke-width=\"1.8\"/><text x=\"117.0\" y=\"22.0\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"12\" font-weight=\"600\" fill=\"#2f5d50\">Frans</text><text x=\"353.0\" y=\"22.0\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"12\" font-weight=\"600\" fill=\"#c17f2b\">Duits</text><text x=\"135.0\" y=\"116.0\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"11.5\" fill=\"#234539\">16</text><text x=\"235.0\" y=\"116.0\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"11.5\" fill=\"#23291f\">6</text><text x=\"335.0\" y=\"116.0\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"11.5\" fill=\"#234539\">12</text><text x=\"235.0\" y=\"218.0\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"10\" fill=\"#6b7260\">40 leerlingen; 6 volgen geen van de twee</text></svg>",
+     "onderschrift": "vul eerst het midden in: \\(6\\) leerlingen volgen allebei de talen"
     },
     {
      "soort": "tekst",
@@ -68,27 +88,53 @@
    ]
   },
   {
+   "kop": "De tekens van de verzamelingen",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Wat je in het diagram ziet, schrijf je zo op:"
+    },
+    {
+     "soort": "tekst",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Teken</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Wat het betekent</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">\\(A \\cap B\\)</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">de doorsnede: wie in allebei zit</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">\\(A \\cup B\\)</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">de vereniging: wie in minstens één van de twee zit</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">\\(\\left|A\\right|\\)</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">het aantal elementen van \\(A\\)</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">\\(A \\cap B = \\emptyset\\)</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">\\(A\\) en \\(B\\) zijn disjunct</td></tr></table>"
+    }
+   ]
+  },
+  {
    "kop": "De somregel en de complementregel",
    "blokken": [
     {
      "soort": "tekst",
-     "html": "De <strong>somregel</strong>: tel de twee groepen op en trek de doorsnede <strong>één keer</strong> af. Wie in allebei zit, heb je anders twee keer geteld. Alleen bij <strong>disjuncte</strong> groepen mag je gewoon optellen, want dan is er niets dubbel."
+     "html": "De <strong>somregel</strong>: tel de twee groepen op en trek de doorsnede <strong>één keer</strong> af, want wie in allebei zit heb je anders twee keer geteld."
+    },
+    {
+     "soort": "tekst",
+     "html": "\\[\\left|A \\cup B\\right| = \\left|A\\right| + \\left|B\\right| - \\left|A \\cap B\\right|\\]"
+    },
+    {
+     "soort": "tekst",
+     "html": "Alleen bij <strong>disjuncte</strong> groepen mag je gewoon optellen: dan is \\(\\left|A \\cap B\\right| = 0\\) en valt de aftrekking weg."
     },
     {
      "soort": "tekst",
      "html": "De <strong>complementregel</strong>: het aantal dat <em>niet</em> aan de voorwaarde voldoet is het <strong>geheel min</strong> het aantal dat er wel aan voldoet."
+    }
+   ]
+  },
+  {
+   "kop": "Rekenen met de twee regels",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Situatie</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Somregel</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Complement</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">25 leerlingen, 14 voetbal, 11 zwemmen, 5 allebei</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">\\(14 + 11 - 5 = 20\\)</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">\\(25 - 20 = 5\\) doen niets</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">40 leerlingen, 22 Frans, 18 Duits, 6 allebei</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">\\(22 + 18 - 6 = 34\\)</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">\\(40 - 34 = 6\\) doen geen van beide</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">30 leerlingen, 12 piano, 9 gitaar, 4 allebei</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">\\(12 + 9 - 4 = 17\\)</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">\\(30 - 17 = 13\\) spelen niets</td></tr></table>"
     },
     {
      "soort": "tekst",
-     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Situatie</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Somregel</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Complement</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">25 leerlingen, 14 voetbal, 11 zwemmen, 5 allebei</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">14 + 11 − 5 = 20</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">25 − 20 = 5 doen niets</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">40 leerlingen, 22 Frans, 18 Duits, 6 allebei</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">22 + 18 − 6 = 34</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">40 − 34 = 6 doen geen van beide</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">30 leerlingen, 12 piano, 9 gitaar, 4 allebei</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">12 + 9 − 4 = 17</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">30 − 17 = 13 spelen niets</td></tr></table>"
+     "html": "Wil je weten hoeveel er <strong>enkel</strong> tot één groep horen, dan trek je de doorsnede van die groep af. Bij \\(30\\) mensen, \\(18\\) vlees, \\(14\\) vis en \\(7\\) allebei eten er \\(14 - 7 = 7\\) enkel vis."
     },
     {
      "soort": "tekst",
-     "html": "Wil je weten hoeveel er <strong>enkel</strong> tot één groep horen, dan trek je de doorsnede van die groep af. Bij 30 mensen, 18 vlees, 14 vis en 7 allebei eten er 14 − 7 = <strong>7</strong> enkel vis."
-    },
-    {
-     "soort": "tekst",
-     "html": "Ook bij getallen werkt dit. Van 1 tot en met 20 zijn er 10 deelbaar door 2, 6 door 3 en 3 door allebei (6, 12 en 18). Deelbaar door 2 <em>of</em> door 3 zijn er dus 10 + 6 − 3 = <strong>13</strong>."
+     "html": "Ook bij getallen werkt dit. Van \\(1\\) tot en met \\(20\\) zijn er \\(10\\) deelbaar door \\(2\\), \\(6\\) door \\(3\\) en \\(3\\) door allebei (\\(6\\), \\(12\\) en \\(18\\)). Deelbaar door \\(2\\) <em>of</em> door \\(3\\) zijn er dus \\(10 + 6 - 3 = 13\\)."
     },
     {
      "soort": "kader",
@@ -115,8 +161,8 @@
   "Productregel: vermenigvuldig het aantal keuzes van elke stap.",
   "Met terugleggen blijft het aantal keuzes gelijk, zonder terugleggen daalt het.",
   "Venndiagram: de overlapping is de doorsnede, alles samen is de vereniging.",
-  "Disjunct betekent geen enkel element gemeen.",
-  "Somregel: A + B min de doorsnede, één keer afgetrokken.",
+  "Disjunct betekent geen enkel element gemeen: \\(A \\cap B = \\emptyset\\).",
+  "Somregel: \\(\\left|A \\cup B\\right| = \\left|A\\right| + \\left|B\\right| - \\left|A \\cap B\\right|\\).",
   "Complementregel: het geheel min wie wel voldoet.",
   "Bij 'minstens één' is het vaak sneller het tegendeel te tellen."
  ]

@@ -1528,17 +1528,21 @@ BUNDELS["telproblemen-met-boom-en-venndiagram-boost-doorstroom"] = dict(
             ("p", "Wat het boomdiagram je laat <em>zien</em>, zegt de <strong>productregel</strong> in één "
                   "zin: <strong>vermenigvuldig het aantal keuzes van elke stap met elkaar</strong>."),
             ("p", tabel(["Situatie", "Berekening", "Aantal"], [
-                ["4 broeken en 6 truien", "4 · 6", "24"],
-                ["5 truien en 3 broeken", "5 · 3", "15"],
-                ["3 voorgerechten, 4 hoofdgerechten, 2 desserts", "3 · 4 · 2", "24"],
-                ["drie cijferschijven met 0 tot 9", "10 · 10 · 10", "1000"],
-                ["vier schijven met zes tekens", "6⁴", "1296"],
-                ["twee dobbelstenen", "6 · 6", "36"],
-                ["drie muntworpen", "2 · 2 · 2", "8"],
+                ["4 broeken en 6 truien", r"\(4 \cdot 6\)", r"\(24\)"],
+                ["5 truien en 3 broeken", r"\(5 \cdot 3\)", r"\(15\)"],
+                ["3 voorgerechten, 4 hoofdgerechten, 2 desserts", r"\(3 \cdot 4 \cdot 2\)", r"\(24\)"],
+                ["drie cijferschijven met 0 tot 9", r"\(10 \cdot 10 \cdot 10\)", r"\(1000\)"],
+                ["vier schijven met zes tekens", r"\(6^{4}\)", r"\(1296\)"],
+                ["twee dobbelstenen", r"\(6 \cdot 6\)", r"\(36\)"],
+                ["drie muntworpen", r"\(2 \cdot 2 \cdot 2\)", r"\(8\)"],
             ])),
-            ("p", "Bij tien muntworpen zouden er 1024 paden zijn. Dat tekent niemand nog uit, en dan gebruik "
-                  "je <strong>alleen</strong> nog de productregel: 2¹⁰. Een boomdiagram is dus niet voor "
-                  "elk <strong>telprobleem</strong> de beste aanpak."),
+            ("p", "Bij tien muntworpen zouden er \\(1024\\) paden zijn. Dat tekent niemand nog uit, en dan "
+                  "gebruik je <strong>alleen</strong> nog de productregel: \\(2^{10}\\). Een boomdiagram is "
+                  "dus niet voor elk <strong>telprobleem</strong> de beste aanpak."),
+        ]),
+        dict(kop="Een boompje van twee keuzes", blokken=[
+            ("fig", svg.mogelijkhedenboom(["soep", "salade", "paté"], ["vis", "vlees"]),
+             r"drie keuzes maal twee keuzes geeft \(3 \cdot 2 = 6\) paden"),
         ]),
         dict(kop="Met of zonder terugleggen", blokken=[
             ("p", "Bij <strong>terugleggen</strong> blijft het aantal keuzes elke stap gelijk: elke tak "
@@ -1546,38 +1550,62 @@ BUNDELS["telproblemen-met-boom-en-venndiagram-boost-doorstroom"] = dict(
                   "<strong>daalt</strong> het aantal keuzes bij elke stap, want wat je getrokken hebt, ligt "
                   "eruit."),
             ("p", "Vijf lopers en drie plaatsen op het podium: wie goud haalt, kan geen zilver meer halen. "
-                  "Dus 5 · 4 · 3 = <strong>60</strong> mogelijke volgordes."),
-            ("weetje", "Bij twee dobbelstenen zijn er 36 uitkomsten, en in <strong>zes</strong> daarvan is de "
-                       "som 7: 1-6, 2-5, 3-4 en die drie ook omgekeerd. Zeven is daarmee de som die het vaakst "
-                       "valt, en daar draaien heel wat gezelschapsspelen op."),
+                  "Dus \\(5 \\cdot 4 \\cdot 3 = 60\\) mogelijke volgordes."),
+        ]),
+        dict(kop="Zeven valt het vaakst", blokken=[
+            ("weetje", "Bij twee dobbelstenen zijn er \\(36\\) uitkomsten, en in <strong>zes</strong> daarvan "
+                       "is de som \\(7\\): \\((1, 6)\\), \\((2, 5)\\), \\((3, 4)\\) en die drie ook "
+                       "omgekeerd. Zeven is daarmee de som die het vaakst valt, en daar draaien heel wat "
+                       "gezelschapsspelen op."),
         ]),
         dict(kop="Het venndiagram", blokken=[
             ("p", "Een <strong>venndiagram</strong> toont twee (of meer) groepen als kringen die elkaar "
                   "overlappen. De overlapping is de <strong>doorsnede</strong>: de elementen die in "
                   "<strong>allebei</strong> zitten. Alles samen heet de <strong>vereniging</strong>. Wat "
                   "<strong>buiten</strong> de kringen staat, voldoet aan geen van de twee voorwaarden."),
+            ("fig", svg.venndiagram("Frans", "Duits", 16, 6, 12,
+                                    buiten="40 leerlingen; 6 volgen geen van de twee"),
+             r"vul eerst het midden in: \(6\) leerlingen volgen allebei de talen"),
             ("p", "Zijn de groepen <strong>disjunct</strong>, dan hebben ze <strong>geen enkel element "
                   "gemeen</strong> en raken de kringen elkaar niet; hun doorsnede is leeg."),
             ("p", "Het werkt het vlotst als je <strong>eerst de doorsnede</strong> invult: de rest van elke "
                   "kring is dan het aantal van die groep min de doorsnede, en zo tel je niets dubbel."),
         ]),
+        dict(kop="De tekens van de verzamelingen", blokken=[
+            ("p", "Wat je in het diagram ziet, schrijf je zo op:"),
+            ("p", tabel(["Teken", "Wat het betekent"], [
+                [r"\(A \cap B\)", "de doorsnede: wie in allebei zit"],
+                [r"\(A \cup B\)", "de vereniging: wie in minstens één van de twee zit"],
+                [r"\(\left|A\right|\)", r"het aantal elementen van \(A\)"],
+                [r"\(A \cap B = \emptyset\)", r"\(A\) en \(B\) zijn disjunct"],
+            ])),
+        ]),
         dict(kop="De somregel en de complementregel", blokken=[
             ("p", "De <strong>somregel</strong>: tel de twee groepen op en trek de doorsnede <strong>één "
-                  "keer</strong> af. Wie in allebei zit, heb je anders twee keer geteld. Alleen bij "
-                  "<strong>disjuncte</strong> groepen mag je gewoon optellen, want dan is er niets dubbel."),
+                  "keer</strong> af, want wie in allebei zit heb je anders twee keer geteld."),
+            ("p", "\\[\\left|A \\cup B\\right| = \\left|A\\right| + \\left|B\\right| - "
+                  "\\left|A \\cap B\\right|\\]"),
+            ("p", "Alleen bij <strong>disjuncte</strong> groepen mag je gewoon optellen: dan is "
+                  "\\(\\left|A \\cap B\\right| = 0\\) en valt de aftrekking weg."),
             ("p", "De <strong>complementregel</strong>: het aantal dat <em>niet</em> aan de voorwaarde "
                   "voldoet is het <strong>geheel min</strong> het aantal dat er wel aan voldoet."),
+        ]),
+        dict(kop="Rekenen met de twee regels", blokken=[
             ("p", tabel(["Situatie", "Somregel", "Complement"], [
-                ["25 leerlingen, 14 voetbal, 11 zwemmen, 5 allebei", "14 + 11 − 5 = 20", "25 − 20 = 5 doen niets"],
-                ["40 leerlingen, 22 Frans, 18 Duits, 6 allebei", "22 + 18 − 6 = 34", "40 − 34 = 6 doen geen van beide"],
-                ["30 leerlingen, 12 piano, 9 gitaar, 4 allebei", "12 + 9 − 4 = 17", "30 − 17 = 13 spelen niets"],
+                ["25 leerlingen, 14 voetbal, 11 zwemmen, 5 allebei",
+                 r"\(14 + 11 - 5 = 20\)", r"\(25 - 20 = 5\) doen niets"],
+                ["40 leerlingen, 22 Frans, 18 Duits, 6 allebei",
+                 r"\(22 + 18 - 6 = 34\)", r"\(40 - 34 = 6\) doen geen van beide"],
+                ["30 leerlingen, 12 piano, 9 gitaar, 4 allebei",
+                 r"\(12 + 9 - 4 = 17\)", r"\(30 - 17 = 13\) spelen niets"],
             ])),
             ("p", "Wil je weten hoeveel er <strong>enkel</strong> tot één groep horen, dan trek je de "
-                  "doorsnede van die groep af. Bij 30 mensen, 18 vlees, 14 vis en 7 allebei eten er "
-                  "14 − 7 = <strong>7</strong> enkel vis."),
-            ("p", "Ook bij getallen werkt dit. Van 1 tot en met 20 zijn er 10 deelbaar door 2, 6 door 3 en 3 "
-                  "door allebei (6, 12 en 18). Deelbaar door 2 <em>of</em> door 3 zijn er dus "
-                  "10 + 6 − 3 = <strong>13</strong>."),
+                  "doorsnede van die groep af. Bij \\(30\\) mensen, \\(18\\) vlees, \\(14\\) vis en \\(7\\) "
+                  "allebei eten er \\(14 - 7 = 7\\) enkel vis."),
+            ("p", "Ook bij getallen werkt dit. Van \\(1\\) tot en met \\(20\\) zijn er \\(10\\) deelbaar "
+                  "door \\(2\\), \\(6\\) door \\(3\\) en \\(3\\) door allebei (\\(6\\), \\(12\\) en "
+                  "\\(18\\)). Deelbaar door \\(2\\) <em>of</em> door \\(3\\) zijn er dus "
+                  "\\(10 + 6 - 3 = 13\\)."),
             ("kader", "Soms is het <strong>veel sneller te tellen wat er niet aan de voorwaarde voldoet</strong> "
                       "en dat van het geheel af te trekken. Bij <em>minstens één keer zes in vier worpen</em> "
                       "tel je liever de worpenreeksen zónder zes; dat is één berekening in plaats van vier."),
@@ -1598,8 +1626,8 @@ BUNDELS["telproblemen-met-boom-en-venndiagram-boost-doorstroom"] = dict(
         "Productregel: vermenigvuldig het aantal keuzes van elke stap.",
         "Met terugleggen blijft het aantal keuzes gelijk, zonder terugleggen daalt het.",
         "Venndiagram: de overlapping is de doorsnede, alles samen is de vereniging.",
-        "Disjunct betekent geen enkel element gemeen.",
-        "Somregel: A + B min de doorsnede, één keer afgetrokken.",
+        r"Disjunct betekent geen enkel element gemeen: \(A \cap B = \emptyset\).",
+        r"Somregel: \(\left|A \cup B\right| = \left|A\right| + \left|B\right| - \left|A \cap B\right|\).",
         "Complementregel: het geheel min wie wel voldoet.",
         "Bij 'minstens één' is het vaak sneller het tegendeel te tellen.",
     ],
