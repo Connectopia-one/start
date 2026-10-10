@@ -4901,37 +4901,37 @@
       "vragen": [
         {
           "type": "meerkeuze",
-          "vraag": "Wat is de imaginaire eenheid i?",
+          "vraag": "Wat is de imaginaire eenheid \\(i\\)?",
           "opties": [
-            "het getal waarvan het kwadraat min één is",
-            "het getal waarvan het kwadraat één is",
-            "de vierkantswortel uit het getal één",
-            "een ander woord voor het getal oneindig"
+            "het getal met \\(i^{2} = -1\\)",
+            "het getal met \\(i^{2} = 1\\)",
+            "het getal \\(\\sqrt{1}\\)",
+            "een ander woord voor \\(\\infty\\)"
           ],
           "antwoord": 0,
-          "uitleg": "Met i erbij heeft elke tweedegraadsvergelijking oplossingen, ook als de discriminant negatief is."
+          "uitleg": "Met \\(i\\) erbij heeft elke tweedegraadsvergelijking oplossingen, ook als de discriminant negatief is."
         },
         {
           "type": "meerkeuze",
-          "vraag": "Wat is het reëel deel van drie min vijf i?",
+          "vraag": "Wat is het reëel deel van \\(3 - 5i\\)?",
           "opties": [
-            "drie",
-            "min vijf",
-            "vijf",
-            "min drie"
+            "\\(3\\)",
+            "\\(-5\\)",
+            "\\(5\\)",
+            "\\(-3\\)"
           ],
           "antwoord": 0,
-          "uitleg": "Het reëel deel is het getal zonder i. Het imaginair deel is min vijf, dus zonder de i erbij."
+          "uitleg": "Het reëel deel is het getal zonder \\(i\\). Het imaginair deel is \\(-5\\), dus zonder de \\(i\\) erbij."
         },
         {
           "type": "invultekst",
-          "vraag": "Hoeveel is i tot de vierde macht? Schrijf het getal.",
+          "vraag": "Hoeveel is \\(i^{4}\\)? Schrijf het getal.",
           "antwoord": [
             "1",
             "een",
             "één"
           ],
-          "uitleg": "i in het kwadraat is min één, en min één in het kwadraat is één. De machten van i herhalen zich dus om de vier."
+          "uitleg": "\\(i^{2} = -1\\) en \\((-1)^{2} = 1\\). De machten van \\(i\\) herhalen zich dus om de vier."
         },
         {
           "type": "waarofniet",
@@ -4941,27 +4941,27 @@
         },
         {
           "type": "meerkeuze",
-          "vraag": "Wat is het toegevoegde complexe getal van twee plus drie i?",
+          "vraag": "Wat is het toegevoegde complexe getal van \\(2 + 3i\\)?",
           "opties": [
-            "twee min drie i",
-            "min twee plus drie i",
-            "min twee min drie i",
-            "drie plus twee i"
+            "\\(2 - 3i\\)",
+            "\\(-2 + 3i\\)",
+            "\\(-2 - 3i\\)",
+            "\\(3 + 2i\\)"
           ],
           "antwoord": 0,
           "uitleg": "Alleen het imaginair deel wisselt van teken."
         },
         {
           "type": "meerkeuze",
-          "vraag": "Hoeveel is de modulus van drie plus vier i?",
+          "vraag": "Hoeveel is \\(|3 + 4i|\\)?",
           "opties": [
-            "vijf",
-            "zeven",
-            "twaalf",
-            "één"
+            "\\(5\\)",
+            "\\(7\\)",
+            "\\(12\\)",
+            "\\(1\\)"
           ],
           "antwoord": 0,
-          "uitleg": "De modulus is de afstand tot de oorsprong, dus de wortel uit negen plus zestien."
+          "uitleg": "De modulus is de afstand tot de oorsprong: \\(\\sqrt{9 + 16} = 5\\)."
         },
         {
           "type": "waarofniet",
@@ -4971,30 +4971,30 @@
         },
         {
           "type": "invultekst",
-          "vraag": "Wat is het imaginair deel van zeven min twee i? Schrijf het getal.",
+          "vraag": "Wat is het imaginair deel van \\(7 - 2i\\)? Schrijf het getal.",
           "antwoord": [
             "-2",
             "min 2"
           ],
-          "uitleg": "Het imaginair deel is het getal bij i, dus min twee, en niet min twee i."
+          "uitleg": "Het imaginair deel is het getal bij \\(i\\), dus \\(-2\\), en niet \\(-2i\\)."
         },
         {
           "type": "meerkeuze",
-          "vraag": "Hoeveel is twee plus drie i, plus één min i?",
+          "vraag": "Hoeveel is \\(\\left(2 + 3i\\right) + \\left(1 - i\\right)\\)?",
           "opties": [
-            "drie plus twee i",
-            "drie plus vier i",
-            "één plus twee i",
-            "twee plus twee i"
+            "\\(3 + 2i\\)",
+            "\\(3 + 4i\\)",
+            "\\(1 + 2i\\)",
+            "\\(2 + 2i\\)"
           ],
           "antwoord": 0,
           "uitleg": "Je telt de reële delen samen en de imaginaire delen samen, net als bij vectoren."
         },
         {
           "type": "waarofniet",
-          "vraag": "Een complex getal maal zijn toegevoegde is altijd een reëel getal.",
+          "vraag": "\\(z \\cdot \\overline{z}\\) is altijd een reëel getal.",
           "antwoord": true,
-          "uitleg": "Je krijgt het kwadraat van de modulus, dus een niet-negatief reëel getal. Daarom gebruik je de toegevoegde net om te delen."
+          "uitleg": "Je krijgt \\(|z|^{2}\\), dus een niet-negatief reëel getal. Daarom gebruik je de toegevoegde net om te delen."
         },
         {
           "type": "meerkeuze",
@@ -5010,7 +5010,7 @@
         },
         {
           "type": "invultekst",
-          "vraag": "Hoeveel is de modulus van vijf i? Schrijf het getal.",
+          "vraag": "Hoeveel is \\(|5i|\\)? Schrijf het getal.",
           "antwoord": [
             "5",
             "vijf"
@@ -5027,7 +5027,7 @@
             "het argument van het getal"
           ],
           "antwoord": 0,
-          "uitleg": "Horizontaal het reëel deel, verticaal het imaginair deel. Elk complex getal is dus een punt in het vlak."
+          "uitleg": "Horizontaal \\(a\\), verticaal \\(b\\). Elk getal \\(z = a + bi\\) is dus een punt in het vlak."
         },
         {
           "type": "waarofniet",
@@ -5037,15 +5037,15 @@
         },
         {
           "type": "meerkeuze",
-          "vraag": "Hoeveel is één plus i, in het kwadraat?",
+          "vraag": "Hoeveel is \\(\\left(1 + i\\right)^{2}\\)?",
           "opties": [
-            "twee i",
-            "twee",
-            "min twee",
-            "één plus twee i"
+            "\\(2i\\)",
+            "\\(2\\)",
+            "\\(-2\\)",
+            "\\(1 + 2i\\)"
           ],
           "antwoord": 0,
-          "uitleg": "Werk uit: één plus twee i plus i in het kwadraat. Dat laatste is min één, dus blijft twee i over."
+          "uitleg": "\\(1 + 2i + i^{2} = 1 + 2i - 1 = 2i\\)."
         },
         {
           "type": "meerkeuze",
@@ -5061,18 +5061,18 @@
         },
         {
           "type": "waarofniet",
-          "vraag": "i tot de derde macht is gelijk aan i.",
+          "vraag": "\\(i^{3} = i\\).",
           "antwoord": false,
-          "uitleg": "i tot de derde is i kwadraat maal i, dus min één maal i, en dat is min i. Pas i tot de vijfde is weer i."
+          "uitleg": "\\(i^{3} = i^{2} \\cdot i = -i\\). Pas \\(i^{5}\\) is weer \\(i\\)."
         },
         {
           "type": "invultekst",
-          "vraag": "Hoeveel is i tot de derde macht? Schrijf het antwoord.",
+          "vraag": "Hoeveel is \\(i^{3}\\)? Schrijf het antwoord.",
           "antwoord": [
             "-i",
             "min i"
           ],
-          "uitleg": "i kwadraat is min één, en dat maal i geeft min i."
+          "uitleg": "\\(i^{2} = -1\\), en dat maal \\(i\\) geeft \\(-i\\)."
         },
         {
           "type": "meerkeuze",
@@ -5088,7 +5088,7 @@
         },
         {
           "type": "meerkeuze",
-          "vraag": "Wat gebeurt er met een punt in het vlak van Gauss als je het toegevoegde getal neemt?",
+          "vraag": "Wat gebeurt er met het punt \\(z\\) in het vlak van Gauss als je \\(\\overline{z}\\) neemt?",
           "opties": [
             "het spiegelt om de horizontale as",
             "het spiegelt om de verticale as",
@@ -5109,10 +5109,10 @@
           "type": "meerkeuze",
           "vraag": "Hoe ziet de goniometrische vorm van een complex getal eruit?",
           "opties": [
-            "de modulus maal de cosinus van het argument plus i maal de sinus ervan",
-            "het reëel deel maal de cosinus plus het imaginair deel maal de sinus",
-            "de modulus maal het argument, plus i maal de modulus",
-            "de cosinus van de modulus plus i maal de sinus van de modulus"
+            "\\(z = r\\left(\\cos\\theta + i\\sin\\theta\\right)\\)",
+            "\\(z = a\\cos\\theta + b\\sin\\theta\\)",
+            "\\(z = r\\,\\theta + i\\,r\\)",
+            "\\(z = \\cos r + i\\sin r\\)"
           ],
           "antwoord": 0,
           "uitleg": "Zo zie je de twee gegevens die een complex getal vastleggen meteen staan: hoe ver en onder welke hoek."
@@ -5131,12 +5131,12 @@
         },
         {
           "type": "invultekst",
-          "vraag": "Hoeveel oplossingen heeft de vergelijking z tot de derde is acht in de complexe getallen? Schrijf het cijfer.",
+          "vraag": "Hoeveel oplossingen heeft \\(z^{3} = 8\\) in \\(\\mathbb{C}\\)? Schrijf het cijfer.",
           "antwoord": [
             "3",
             "drie"
           ],
-          "uitleg": "Een vergelijking van de vorm z tot de macht n is a heeft er altijd precies n. Twee is er één van; de twee andere zijn niet reëel."
+          "uitleg": "\\(z^{n} = a\\) heeft er altijd precies \\(n\\). Twee is er één van; de twee andere zijn niet reëel."
         },
         {
           "type": "waarofniet",
@@ -5148,17 +5148,17 @@
           "type": "meerkeuze",
           "vraag": "Wat zegt de formule van de Moivre?",
           "opties": [
-            "je verheft de modulus tot de macht n en vermenigvuldigt het argument met n",
-            "je vermenigvuldigt de modulus met n en verheft het argument tot de macht n",
-            "je verheft zowel de modulus als het argument tot de macht n",
-            "je verheft de modulus tot de macht n en laat het argument gelijk"
+            "\\(z^{n} = r^{n}\\left(\\cos n\\theta + i\\sin n\\theta\\right)\\)",
+            "\\(z^{n} = n\\,r\\left(\\cos\\theta^{n} + i\\sin\\theta^{n}\\right)\\)",
+            "\\(z^{n} = r^{n}\\left(\\cos\\theta^{n} + i\\sin\\theta^{n}\\right)\\)",
+            "\\(z^{n} = r^{n}\\left(\\cos\\theta + i\\sin\\theta\\right)\\)"
           ],
           "antwoord": 0,
           "uitleg": "Ze volgt rechtstreeks uit de regel voor vermenigvuldigen, n keer na elkaar toegepast."
         },
         {
           "type": "meerkeuze",
-          "vraag": "Waar liggen de n oplossingen van z tot de macht n is a in het vlak van Gauss?",
+          "vraag": "Waar liggen de \\(n\\) oplossingen van \\(z^{n} = a\\) in het vlak van Gauss?",
           "opties": [
             "op één cirkel, gelijkmatig over de omtrek verdeeld",
             "op één rechte door de oorsprong van het hele vlak",
@@ -5170,29 +5170,29 @@
         },
         {
           "type": "waarofniet",
-          "vraag": "Een tweedegraadsvergelijking met een negatieve discriminant heeft geen oplossingen in de complexe getallen.",
+          "vraag": "Een tweedegraadsvergelijking met \\(D < 0\\) heeft geen oplossingen in \\(\\mathbb{C}\\).",
           "antwoord": false,
-          "uitleg": "Ze heeft er net twee. Daarvoor werden de complexe getallen ingevoerd. In de reële getallen zijn er inderdaad geen."
+          "uitleg": "Ze heeft er net twee. Daarvoor werden de complexe getallen ingevoerd. In \\(\\mathbb{R}\\) zijn er inderdaad geen."
         },
         {
           "type": "invultekst",
-          "vraag": "Los op in de complexe getallen: x kwadraat plus één is nul. Schrijf de oplossing met het plusteken.",
+          "vraag": "Los op in \\(\\mathbb{C}\\): \\(x^{2} + 1 = 0\\). Schrijf de oplossing met het plusteken.",
           "antwoord": [
             "i"
           ],
-          "uitleg": "x kwadraat is min één, dus x is i of min i."
+          "uitleg": "\\(x^{2} = -1\\), dus \\(x = i\\) of \\(x = -i\\)."
         },
         {
           "type": "meerkeuze",
-          "vraag": "Wat zijn de oplossingen van x kwadraat min twee x plus vijf is nul?",
+          "vraag": "Wat zijn de oplossingen van \\(x^{2} - 2x + 5 = 0\\)?",
           "opties": [
-            "één plus twee i en één min twee i",
-            "twee plus i en twee min i",
-            "min één plus twee i en min één min twee i",
-            "één plus vier i en één min vier i"
+            "\\(1 + 2i\\) en \\(1 - 2i\\)",
+            "\\(2 + i\\) en \\(2 - i\\)",
+            "\\(-1 + 2i\\) en \\(-1 - 2i\\)",
+            "\\(1 + 4i\\) en \\(1 - 4i\\)"
           ],
           "antwoord": 0,
-          "uitleg": "De discriminant is vier min twintig, dus min zestien. De wortel daaruit is vier i, en gedeeld door twee geeft dat twee i."
+          "uitleg": "\\(D = 4 - 20 = -16\\), dus \\(\\sqrt{D} = 4i\\), en \\(\\dfrac{2 \\pm 4i}{2} = 1 \\pm 2i\\)."
         },
         {
           "type": "waarofniet",
@@ -5204,17 +5204,17 @@
           "type": "meerkeuze",
           "vraag": "Hoe ga je van de cartesische naar de goniometrische vorm?",
           "opties": [
-            "je berekent de modulus en het argument uit het reëel en imaginair deel",
-            "je berekent de cosinus en de sinus van het reëel deel",
-            "je vermenigvuldigt het reëel deel met het imaginair deel",
-            "je verwisselt het reëel deel en het imaginair deel gewoon van plaats"
+            "je berekent \\(r = \\sqrt{a^{2} + b^{2}}\\) en \\(\\theta\\) uit \\(\\tan\\theta = \\dfrac{b}{a}\\)",
+            "je berekent \\(\\cos a\\) en \\(\\sin a\\)",
+            "je vermenigvuldigt \\(a\\) met \\(b\\)",
+            "je verwisselt \\(a\\) en \\(b\\) van plaats"
           ],
           "antwoord": 0,
-          "uitleg": "De modulus is de wortel uit de som van de kwadraten, en het argument vind je met de tangens, met het juiste kwadrant erbij."
+          "uitleg": "Let bij het argument altijd op het kwadrant waarin het punt ligt; de tangens alleen volstaat niet."
         },
         {
           "type": "invultekst",
-          "vraag": "Hoeveel graden is het argument van het getal i? Schrijf het getal.",
+          "vraag": "Hoeveel graden is het argument van \\(i\\)? Schrijf het getal.",
           "antwoord": [
             "90",
             "negentig"
@@ -5225,31 +5225,31 @@
           "type": "meerkeuze",
           "vraag": "Waarom is de goniometrische vorm handig bij machtsverheffen?",
           "opties": [
-            "omdat je dan alleen de modulus moet machtsverheffen en het argument vermenigvuldigen",
-            "omdat de cosinus en de sinus van een hoek altijd tussen min één en plus één liggen",
+            "omdat je dan alleen \\(r\\) tot de macht \\(n\\) verheft en \\(\\theta\\) met \\(n\\) vermenigvuldigt",
+            "omdat \\(\\cos\\theta\\) en \\(\\sin\\theta\\) altijd tussen \\(-1\\) en \\(1\\) liggen",
             "omdat je dan helemaal geen rekenregel meer nodig hebt bij machten",
             "omdat het resultaat dan altijd een reëel getal wordt"
           ],
           "antwoord": 0,
-          "uitleg": "Probeer één plus i tot de tiende in cartesische vorm en je ziet het verschil meteen."
+          "uitleg": "Probeer \\(\\left(1 + i\\right)^{10}\\) eens in cartesische vorm en je ziet het verschil meteen."
         },
         {
           "type": "waarofniet",
-          "vraag": "De modulus van een product van twee complexe getallen is de som van hun moduli.",
+          "vraag": "\\(|z_{1} \\cdot z_{2}| = |z_{1}| + |z_{2}|\\).",
           "antwoord": false,
-          "uitleg": "Het is net het product van de moduli. Het zijn de argumenten die worden opgeteld."
+          "uitleg": "Het is net \\(|z_{1}| \\cdot |z_{2}|\\). Het zijn de argumenten die worden opgeteld."
         },
         {
           "type": "meerkeuze",
-          "vraag": "Hoeveel n-de machtswortels heeft een complex getal dat niet nul is?",
+          "vraag": "Hoeveel \\(n\\)-de machtswortels heeft een complex getal dat niet nul is?",
           "opties": [
-            "precies n",
-            "precies twee",
-            "precies één",
+            "precies \\(n\\)",
+            "precies \\(2\\)",
+            "precies \\(1\\)",
             "oneindig veel"
           ],
           "antwoord": 0,
-          "uitleg": "In de reële getallen zijn dat er hoogstens twee. In de complexe getallen zijn het er altijd n."
+          "uitleg": "In \\(\\mathbb{R}\\) zijn dat er hoogstens twee. In \\(\\mathbb{C}\\) zijn het er altijd \\(n\\)."
         },
         {
           "type": "meerkeuze",
@@ -5261,17 +5261,17 @@
             "omdat men wortels uit positieve getallen eenvoudiger wou schrijven"
           ],
           "antwoord": 0,
-          "uitleg": "Een getal waarvan het kwadraat min één is, bestond niet. Door het toe te voegen, kreeg elke veeltermvergelijking oplossingen."
+          "uitleg": "Een getal met \\(i^{2} = -1\\) bestond niet. Door het toe te voegen, kreeg elke veeltermvergelijking oplossingen."
         },
         {
           "type": "waarofniet",
-          "vraag": "Een veelterm van graad n heeft in de complexe getallen precies n nulwaarden, als je ze met hun multipliciteit telt.",
+          "vraag": "Een veelterm van graad \\(n\\) heeft in \\(\\mathbb{C}\\) precies \\(n\\) nulwaarden, als je ze met hun multipliciteit telt.",
           "antwoord": true,
-          "uitleg": "Dat is de hoofdstelling van de algebra. In de reële getallen kunnen het er minder zijn."
+          "uitleg": "Dat is de hoofdstelling van de algebra. In \\(\\mathbb{R}\\) kunnen het er minder zijn."
         },
         {
           "type": "invultekst",
-          "vraag": "Hoeveel is de modulus van min drie? Schrijf het getal.",
+          "vraag": "Hoeveel is \\(|-3|\\)? Schrijf het getal.",
           "antwoord": [
             "3",
             "drie"
@@ -5280,7 +5280,7 @@
         },
         {
           "type": "meerkeuze",
-          "vraag": "Wat doet een vermenigvuldiging met i met een punt in het vlak van Gauss?",
+          "vraag": "Wat doet een vermenigvuldiging met \\(i\\) met een punt in het vlak van Gauss?",
           "opties": [
             "het draait een kwart slag rond de oorsprong",
             "het spiegelt om de horizontale reële as",
@@ -5288,16 +5288,16 @@
             "het verdubbelt de afstand tot de oorsprong"
           ],
           "antwoord": 0,
-          "uitleg": "De modulus van i is één en haar argument negentig graden, dus de afstand blijft en de hoek groeit met een kwart draai."
+          "uitleg": "\\(|i| = 1\\) en \\(\\arg i = 90^\\circ\\), dus de afstand blijft en de hoek groeit met een kwart draai."
         },
         {
           "type": "meerkeuze",
           "vraag": "Welk argument heeft een negatief reëel getal?",
           "opties": [
-            "honderdtachtig graden",
-            "nul graden",
-            "negentig graden",
-            "tweehonderdzeventig graden"
+            "\\(180^\\circ\\)",
+            "\\(0^\\circ\\)",
+            "\\(90^\\circ\\)",
+            "\\(270^\\circ\\)"
           ],
           "antwoord": 0,
           "uitleg": "Het ligt links van de oorsprong op de reële as, dus een halve draai vanaf de positieve kant."

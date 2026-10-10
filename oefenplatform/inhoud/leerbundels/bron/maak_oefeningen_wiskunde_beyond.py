@@ -19,7 +19,7 @@ krijgen. Het achtervoegsel houdt ze uit elkaar van wiskunde gevorderd van
 
 Wiskunde staat hier in echte notatie, tussen \( en \), net als in de vragen en
 in de leerbundels. Zie oefenplatform/lib/wiskunde.ts. De omzetting gebeurt
-thema per thema; omgezet zijn thema 1 tot 12.
+thema per thema; omgezet zijn thema 1 tot 13.
 """
 import sys, pathlib
 sys.path.insert(0, str(pathlib.Path(__file__).parent))
@@ -1091,46 +1091,99 @@ OEFENBUNDELS["oefenbundel-complexe-getallen-beyond"] = dict(
     hoe=HOE,
     reeksen=[
         dict(kop="Machten van i",
-             opdracht="Reken uit. De machten van i herhalen zich om de vier.",
+             opdracht=r"Reken uit. De machten van \(i\) herhalen zich om de vier.",
              oefeningen=[
-                 ("rij", [("i in het kwadraat", "min 1"), ("i tot de derde", "min i"),
-                          ("i tot de vierde", "1"), ("i tot de zesde", "min 1")],
+                 ("rij", [(r"\(i^{5}\)", r"\(i\)"), (r"\(i^{6}\)", r"\(-1\)"),
+                          (r"\(i^{7}\)", r"\(-i\)"), (r"\(i^{8}\)", r"\(1\)"),
+                          (r"\(i^{11}\)", r"\(-i\)")],
                   "Reken uit.", W),
              ]),
-        dict(kop="Rekenen in cartesische vorm",
-             opdracht="Werk uit en schrijf het antwoord als een reëel deel plus een imaginair deel maal i.",
+        dict(kop="Optellen en vermenigvuldigen",
+             opdracht=r"Werk uit en schrijf het antwoord als \(a + bi\).",
              oefeningen=[
-                 ("rij", [("vier plus i, plus twee min drie i", "zes min twee i"),
-                          ("twee min i, min één plus twee i", "één min drie i"),
-                          ("de toegevoegde van vijf min twee i", "vijf plus twee i"),
-                          ("twee min i, in het kwadraat", "drie min vier i")],
+                 ("rij", [(r"\(\left(4 + i\right) + \left(2 - 3i\right)\)", r"\(6 - 2i\)"),
+                          (r"\(\left(2 - i\right) - \left(1 + 2i\right)\)", r"\(1 - 3i\)"),
+                          (r"\(\overline{5 - 2i}\)", r"\(5 + 2i\)"),
+                          (r"\(\left(2 - i\right)^{2}\)", r"\(3 - 4i\)")],
                   "Reken uit.", WL),
-                 ("open", "Deel één door twee plus i. Schrijf elke stap op.",
-                  "Vermenigvuldig teller en noemer met twee min i. De noemer wordt vier plus één, dus vijf. Het resultaat is twee vijfden min een vijfde i.", 4),
-                 ("open", "Leg uit waarom een complex getal maal zijn toegevoegde altijd een reëel getal is.",
-                  "De gemengde termen vallen tegen elkaar weg en wat overblijft is het kwadraat van het reëel deel plus dat van het imaginair deel, dus het kwadraat van de modulus.", 3),
              ]),
-        dict(kop="Het vlak van Gauss",
-             opdracht="Vul de tabel aan. De modulus is een afstand en dus nooit negatief.",
+        dict(kop="Delen door een complex getal",
+             opdracht="Vermenigvuldig teller en noemer met de toegevoegde van de noemer.",
+             oefeningen=[
+                 ("kort", r"\(\dfrac{1}{2 + i}\)", r"\(\dfrac{2}{5} - \dfrac{1}{5}i\)", WW),
+                 ("kort", r"\(\dfrac{3 + i}{1 - i}\)", r"\(1 + 2i\)", WW),
+                 ("kort", r"\(\dfrac{i}{1 + i}\)", r"\(\dfrac{1}{2} + \dfrac{1}{2}i\)", WW),
+             ]),
+        dict(kop="Modulus en argument",
+             opdracht="Vul de tabel aan. Een modulus is een afstand en dus nooit negatief.",
              oefeningen=[
                  ("tabel", ["Getal", "Modulus", "Argument in graden"],
-                  [["drie", None, None], ["min twee", None, None],
-                   ["vier i", None, None], ["één plus i", None, None]],
-                  "3 en 0; 2 en 180; 4 en 90; de wortel uit twee en 45", "150px"),
-                 ("kort", "Wat doet een vermenigvuldiging met i met een punt in het vlak van Gauss?", "het draait een kwart slag", WL),
-                 ("waar", "Je kan twee complexe getallen van klein naar groot ordenen.", False),
+                  [[r"\(3\)", None, None], [r"\(-2\)", None, None],
+                   [r"\(4i\)", None, None], [r"\(1 + i\)", None, None],
+                   [r"\(-i\)", None, None]],
+                  r"\(3\) en \(0^\circ\); \(2\) en \(180^\circ\); \(4\) en \(90^\circ\); "
+                  r"\(\sqrt{2}\) en \(45^\circ\); \(1\) en \(270^\circ\)", "150px"),
+                 ("kort", r"\(|6 - 8i|\)", r"\(10\)", W),
+                 ("kort", r"\(|-5 + 12i|\)", r"\(13\)", W),
              ]),
-        dict(kop="Goniometrische vorm en vergelijkingen",
-             opdracht="Werk met de modulus en het argument. Bij machten gebruik je de formule van de Moivre.",
+        dict(kop="Wat de bewerkingen in het vlak doen",
+             opdracht="Antwoord in één zin, met de draai of de spiegeling erbij.",
+             oefeningen=[
+                 ("kort", r"Wat doet een vermenigvuldiging met \(i\) met een punt?",
+                  "het draait een kwart slag rond de oorsprong", WL),
+                 ("kort", r"Wat doet \(z \mapsto \overline{z}\) met een punt?",
+                  "het spiegelt om de reële as", WL),
+             ]),
+        dict(kop="Goniometrische vorm en de Moivre",
+             opdracht=r"Werk met \(r\) en \(\theta\). Bij machten gebruik je de formule van de Moivre.",
              oefeningen=[
                  ("tabel", ["Bewerking", "Met de moduli", "Met de argumenten"],
-                  [["vermenigvuldigen", None, None], ["delen", None, None], ["tot de macht n", None, None]],
-                  "vermenigvuldigen en optellen; delen en aftrekken; tot de macht n en met n vermenigvuldigen", "180px"),
-                 ("open", "Los op in de complexe getallen: x kwadraat min vier x plus dertien is nul.",
-                  "De discriminant is zestien min tweeënvijftig, dus min zesendertig. De wortel is zes i. De oplossingen zijn twee plus drie i en twee min drie i, elkaars toegevoegde.", 5),
-                 ("kort", "Hoeveel oplossingen heeft z tot de vijfde is gelijk aan één in de complexe getallen?", "5", W),
-                 ("open", "Waar liggen de n oplossingen van z tot de macht n is a in het vlak van Gauss? Beschrijf het in woorden.",
-                  "Op één cirkel rond de oorsprong, gelijkmatig over de omtrek verdeeld. Ze vormen de hoekpunten van een regelmatige veelhoek.", 3),
+                  [["vermenigvuldigen", None, None], ["delen", None, None],
+                   [r"tot de macht \(n\)", None, None]],
+                  r"vermenigvuldigen en optellen; delen en aftrekken; tot de macht \(n\) en met "
+                  r"\(n\) vermenigvuldigen", "180px"),
+                 ("kort", r"Schrijf \(1 + i\) in goniometrische vorm.",
+                  r"\(\sqrt{2}\left(\cos 45^\circ + i\sin 45^\circ\right)\)", WL),
+                 ("kort", r"Bereken \(\left(1 + i\right)^{8}\) met de Moivre.",
+                  r"\(\left(\sqrt{2}\right)^{8} = 16\) en \(8 \cdot 45^\circ = 360^\circ\), dus \(16\)", WL),
+             ]),
+        dict(kop="Vergelijkingen oplossen",
+             opdracht=r"Los op in \(\mathbb{C}\). Vergeet de tweede oplossing niet.",
+             oefeningen=[
+                 ("kort", r"\(x^{2} + 9 = 0\)", r"\(x = 3i\) of \(x = -3i\)", WW),
+                 ("kort", r"\(x^{2} - 4x + 13 = 0\)", r"\(x = 2 \pm 3i\)", WW),
+                 ("kort", r"Hoeveel oplossingen heeft \(z^{5} = 1\) in \(\mathbb{C}\)?", r"\(5\)", W),
+             ]),
+        dict(kop="Waar of niet waar",
+             opdracht="Zet een kruisje, en verbeter in gedachten wat niet klopt.",
+             oefeningen=[
+                 ("waar", "Je kan twee complexe getallen van klein naar groot ordenen.", False),
+                 ("waar", "Elk reëel getal is ook een complex getal.", True),
+                 ("waar", r"\(i^{3} = -i\).", True),
+                 ("waar", r"\(|z_{1} \cdot z_{2}| = |z_{1}| + |z_{2}|\).", False),
+                 ("waar", "Het toegevoegde nemen spiegelt het punt om de reële as.", True),
+                 ("waar", r"Een tweedegraadsvergelijking met \(D < 0\) heeft geen oplossingen in \(\mathbb{C}\).", False),
+                 ("waar", r"\(z \cdot \overline{z}\) is altijd een reëel getal.", True),
+                 ("waar", r"De modulus van \(-3\) is \(-3\).", False),
+             ]),
+        dict(kop="Uitleggen",
+             opdracht="Schrijf in volle zinnen, en noem de regel die je gebruikt.",
+             oefeningen=[
+                 ("open", r"Leg uit waarom \(z \cdot \overline{z}\) altijd een reëel getal is.",
+                  r"De gemengde termen vallen tegen elkaar weg; wat overblijft is "
+                  r"\(a^{2} + b^{2} = |z|^{2}\), en dat is reëel en niet negatief.", 3),
+                 ("open", "Waarom vermenigvuldig je bij het delen teller en noemer met de "
+                          "toegevoegde van de noemer?",
+                  r"Omdat de noemer dan \(|z|^{2}\) wordt, dus reëel. Met een reële noemer kan je "
+                  r"gewoon verder rekenen.", 3),
+                 ("open", r"Waar liggen de \(n\) oplossingen van \(z^{n} = a\) in het vlak van "
+                          r"Gauss? Beschrijf het.",
+                  "Op één cirkel rond de oorsprong, gelijkmatig over de omtrek verdeeld. Ze vormen "
+                  "de hoekpunten van een regelmatige veelhoek.", 3),
+                 ("open", "Waarom is de goniometrische vorm handiger dan de cartesische bij "
+                          "machtsverheffen?",
+                  r"Met de Moivre verhef je enkel \(r\) tot de macht \(n\) en vermenigvuldig je "
+                  r"\(\theta\) met \(n\). In cartesische vorm moet je alle haakjes uitwerken.", 3),
              ]),
     ],
 )

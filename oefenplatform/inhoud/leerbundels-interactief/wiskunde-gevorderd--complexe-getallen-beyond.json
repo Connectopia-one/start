@@ -8,15 +8,28 @@
    "blokken": [
     {
      "soort": "tekst",
-     "html": "<strong>De imaginaire eenheid i is het getal waarvan het kwadraat min één is.</strong> <strong>De complexe getallen werden ingevoerd omdat niet elke vergelijking een oplossing had in de reële getallen</strong>: een getal met kwadraat min één bestond niet, en door het toe te voegen kreeg elke veeltermvergelijking oplossingen."
+     "html": "<strong>De imaginaire eenheid \\(i\\) is het getal met \\(i^{2} = -1\\).</strong> <strong>De complexe getallen werden ingevoerd omdat niet elke vergelijking een oplossing had in \\(\\mathbb{R}\\)</strong>: zo'n getal bestond niet, en door het toe te voegen kreeg elke veeltermvergelijking oplossingen."
     },
     {
      "soort": "tekst",
-     "html": "De machten van i <strong>herhalen zich om de vier</strong>: i, dan min één, dan <strong>min i</strong>, dan <strong>één</strong>. <strong>i tot de derde is dus niet i maar min i</strong>, en <strong>i tot de vierde is één</strong>. Pas i tot de vijfde is weer i."
+     "html": "De machten van \\(i\\) <strong>herhalen zich om de vier</strong>:"
+    },
+    {
+     "soort": "kader",
+     "html": "\\(i^{1} = i\\) &nbsp;·&nbsp; \\(i^{2} = -1\\) &nbsp;·&nbsp; \\(i^{3} = -i\\) &nbsp;·&nbsp; \\(i^{4} = 1\\)<br><strong>\\(i^{3}\\) is dus niet \\(i\\) maar \\(-i\\)</strong>; pas \\(i^{5}\\) is weer \\(i\\)."
+    }
+   ]
+  },
+  {
+   "kop": "De cartesische vorm",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Een complex getal schrijf je in <strong>cartesische vorm</strong> als \\(z = a + bi\\), met \\(a\\) het reëel deel en \\(b\\) het imaginair deel. Bij <strong>\\(3 - 5i\\)</strong> is het <strong>reëel deel \\(3\\)</strong>; bij <strong>\\(7 - 2i\\)</strong> is het <strong>imaginair deel \\(-2\\)</strong>, dus zonder de \\(i\\) erbij."
     },
     {
      "soort": "tekst",
-     "html": "Een complex getal schrijf je in <strong>cartesische vorm</strong> als een reëel deel plus een imaginair deel maal i. Bij <strong>drie min vijf i</strong> is het <strong>reëel deel drie</strong>; bij <strong>zeven min twee i</strong> is het <strong>imaginair deel min twee</strong>, dus zonder de i erbij. <strong>Elk reëel getal is ook een complex getal</strong>, met imaginair deel nul. <strong>Een zuiver imaginair getal heeft reëel deel nul.</strong>"
+     "html": "<strong>Elk reëel getal is ook een complex getal</strong>, met \\(b = 0\\). <strong>Een zuiver imaginair getal heeft \\(a = 0\\).</strong>"
     },
     {
      "soort": "kader",
@@ -29,11 +42,11 @@
    "blokken": [
     {
      "soort": "tekst",
-     "html": "<strong>Optellen doe je deel per deel</strong>: twee plus drie i, plus één min i, geeft <strong>drie plus twee i</strong>, net als bij vectoren. Bij vermenigvuldigen werk je uit en gebruik je dat i in het kwadraat min één is: <strong>één plus i, in het kwadraat, is twee i</strong>."
+     "html": "<strong>Optellen doe je deel per deel</strong>: \\(\\left(2 + 3i\\right) + \\left(1 - i\\right) = 3 + 2i\\), net als bij vectoren. Bij vermenigvuldigen werk je uit en gebruik je \\(i^{2} = -1\\): <strong>\\(\\left(1 + i\\right)^{2} = 1 + 2i - 1 = 2i\\)</strong>."
     },
     {
      "soort": "tekst",
-     "html": "Het <strong>toegevoegde complexe getal</strong> krijg je door enkel het imaginair deel van teken te laten wisselen: dat van <strong>twee plus drie i is twee min drie i</strong>. <strong>Een complex getal maal zijn toegevoegde is altijd een reëel getal</strong>, namelijk het kwadraat van de modulus. Daarom <strong>deel je door een complex getal door teller en noemer met de toegevoegde van de noemer te vermenigvuldigen</strong>: de noemer wordt dan reëel. Apart delen werkt niet, net zoals bij een breuk met een wortel."
+     "html": "Het <strong>toegevoegde complexe getal</strong> \\(\\overline{z}\\) krijg je door enkel het imaginair deel van teken te laten wisselen: <strong>\\(\\overline{2 + 3i} = 2 - 3i\\)</strong>. <strong>\\(z \\cdot \\overline{z}\\) is altijd reëel</strong>, namelijk \\(|z|^{2}\\). Daarom <strong>deel je door een complex getal door teller en noemer met de toegevoegde van de noemer te vermenigvuldigen</strong>: de noemer wordt dan reëel. Apart delen werkt niet, net zoals bij een breuk met een wortel."
     }
    ]
   },
@@ -45,12 +58,31 @@
      "html": "Elk complex getal is een <strong>punt in het vlak van Gauss</strong>: horizontaal het reëel deel, en <strong>op de verticale as het imaginair deel</strong>. De reële getallen liggen dus op de horizontale as, de zuiver imaginaire op de verticale."
     },
     {
+     "soort": "figuur",
+     "html": "<svg viewBox=\"0 0 470 296\" width=\"470\" xmlns=\"http://www.w3.org/2000/svg\"><line x1=\"26\" y1=\"148\" x2=\"440\" y2=\"148\" stroke=\"#23291f\" stroke-width=\"1.5\"/>\n<line x1=\"136\" y1=\"26\" x2=\"136\" y2=\"250\" stroke=\"#23291f\" stroke-width=\"1.5\"/>\n<text x=\"446.0\" y=\"152.0\" text-anchor=\"start\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"10\" fill=\"#6b7260\">Re</text>\n<text x=\"144.0\" y=\"32.0\" text-anchor=\"start\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"10\" fill=\"#6b7260\">Im</text>\n<line x1=\"160\" y1=\"144\" x2=\"160\" y2=\"152\" stroke=\"#23291f\" stroke-width=\"1.3\"/>\n<line x1=\"184\" y1=\"144\" x2=\"184\" y2=\"152\" stroke=\"#23291f\" stroke-width=\"1.3\"/>\n<line x1=\"208\" y1=\"144\" x2=\"208\" y2=\"152\" stroke=\"#23291f\" stroke-width=\"1.3\"/>\n<text x=\"208.0\" y=\"165.0\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"9.5\" fill=\"#6b7260\">3</text>\n<line x1=\"132\" y1=\"124\" x2=\"140\" y2=\"124\" stroke=\"#23291f\" stroke-width=\"1.3\"/>\n<line x1=\"132\" y1=\"100\" x2=\"140\" y2=\"100\" stroke=\"#23291f\" stroke-width=\"1.3\"/>\n<line x1=\"132\" y1=\"76\" x2=\"140\" y2=\"76\" stroke=\"#23291f\" stroke-width=\"1.3\"/>\n<line x1=\"132\" y1=\"52\" x2=\"140\" y2=\"52\" stroke=\"#23291f\" stroke-width=\"1.3\"/>\n<text x=\"126.0\" y=\"56.0\" text-anchor=\"end\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"9.5\" fill=\"#6b7260\">4</text>\n<text x=\"126.0\" y=\"248.0\" text-anchor=\"end\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"9.5\" fill=\"#6b7260\">−4</text>\n<line x1=\"208\" y1=\"52\" x2=\"208\" y2=\"148\" stroke=\"#6b7260\" stroke-width=\"1.1\" stroke-dasharray=\"4 4\"/>\n<line x1=\"208\" y1=\"52\" x2=\"136\" y2=\"52\" stroke=\"#6b7260\" stroke-width=\"1.1\" stroke-dasharray=\"4 4\"/>\n<line x1=\"208\" y1=\"244\" x2=\"136\" y2=\"244\" stroke=\"#6b7260\" stroke-width=\"1.1\" stroke-dasharray=\"4 4\"/>\n<line x1=\"136\" y1=\"148\" x2=\"208\" y2=\"52\" stroke=\"#2f5d50\" stroke-width=\"2.4\"/>\n<polygon points=\"211.6,47.2 208.1,58.1 202.1,53.6\" fill=\"#2f5d50\"/>\n<line x1=\"136\" y1=\"148\" x2=\"208\" y2=\"244\" stroke=\"#c17f2b\" stroke-width=\"2\"/>\n<path d=\"M 176 148 A 40 40 0 0 0 160.0 116.0\" fill=\"none\" stroke=\"#234539\" stroke-width=\"1.5\"/>\n<text x=\"188.0\" y=\"134.0\" text-anchor=\"start\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"12\" font-weight=\"600\" fill=\"#234539\">θ</text>\n<circle cx=\"208\" cy=\"52\" r=\"4\" fill=\"#2f5d50\" stroke=\"#ffffff\" stroke-width=\"1.3\"/>\n<circle cx=\"208\" cy=\"244\" r=\"4\" fill=\"#c17f2b\" stroke=\"#ffffff\" stroke-width=\"1.3\"/>\n<text x=\"220.0\" y=\"56.0\" text-anchor=\"start\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"11.5\" font-weight=\"600\" fill=\"#2f5d50\">z = 3 + 4i</text>\n<text x=\"220.0\" y=\"248.0\" text-anchor=\"start\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"11.5\" font-weight=\"600\" fill=\"#c17f2b\">z = 3 − 4i</text>\n<line x1=\"220\" y1=\"233\" x2=\"228\" y2=\"233\" stroke=\"#c17f2b\" stroke-width=\"1.5\"/>\n<text x=\"178.0\" y=\"78.0\" text-anchor=\"end\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"10\" font-weight=\"600\" fill=\"#234539\">|z| = 5</text>\n<text x=\"235.0\" y=\"288.0\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"9.5\" fill=\"#6b7260\">de toegevoegde is de spiegeling om de reële as</text></svg>",
+     "onderschrift": "\\(z = 3 + 4i\\) met zijn modulus, zijn argument en zijn toegevoegde."
+    }
+   ]
+  },
+  {
+   "kop": "Modulus en argument",
+   "blokken": [
+    {
      "soort": "tekst",
-     "html": "De <strong>modulus</strong> is de afstand tot de oorsprong. Die van <strong>drie plus vier i is vijf</strong> (de wortel uit negen plus zestien), die van <strong>vijf i is vijf</strong>, en die van <strong>min drie is drie</strong>: een modulus is nooit negatief, en voor een reëel getal is ze de absolute waarde. Het <strong>argument</strong> is <strong>de hoek met de positieve reële as</strong>. Samen leggen modulus en argument het getal volledig vast. Het argument van <strong>i is negentig graden</strong>, dat van een <strong>negatief reëel getal honderdtachtig graden</strong>."
+     "html": "De <strong>modulus</strong> \\(|z| = \\sqrt{a^{2} + b^{2}}\\) is de afstand tot de oorsprong. Zo is <strong>\\(|3 + 4i| = 5\\)</strong>, <strong>\\(|5i| = 5\\)</strong> en <strong>\\(|-3| = 3\\)</strong>: een modulus is nooit negatief, en voor een reëel getal is ze de absolute waarde."
     },
     {
      "soort": "tekst",
-     "html": "Daarmee krijgen de bewerkingen een meetkundige betekenis. <strong>Optellen is dezelfde constructie als het optellen van twee vectoren</strong>: je legt de pijlen achter elkaar. <strong>Het toegevoegde nemen spiegelt het punt om de horizontale as.</strong> En <strong>vermenigvuldigen met i draait het punt een kwart slag rond de oorsprong</strong>, want de modulus van i is één en haar argument negentig graden."
+     "html": "Het <strong>argument</strong> \\(\\theta\\) is <strong>de hoek met de positieve reële as</strong>. Samen leggen modulus en argument het getal volledig vast. Het argument van <strong>\\(i\\) is \\(90^\\circ\\)</strong>, dat van een <strong>negatief reëel getal \\(180^\\circ\\)</strong>."
+    }
+   ]
+  },
+  {
+   "kop": "Wat de bewerkingen in het vlak doen",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "<strong>Optellen is dezelfde constructie als het optellen van twee vectoren</strong>: je legt de pijlen achter elkaar. <strong>Het toegevoegde nemen spiegelt het punt om de horizontale as.</strong> En <strong>vermenigvuldigen met \\(i\\) draait het punt een kwart slag rond de oorsprong</strong>, want \\(|i| = 1\\) en \\(\\arg i = 90^\\circ\\)."
     }
    ]
   },
@@ -59,49 +91,76 @@
    "blokken": [
     {
      "soort": "tekst",
-     "html": "<strong>De goniometrische vorm is de modulus maal de cosinus van het argument plus i maal de sinus ervan.</strong> Zo zie je de twee gegevens meteen staan: hoe ver en onder welke hoek. <strong>Van cartesisch naar goniometrisch bereken je de modulus en het argument uit het reëel en imaginair deel</strong>: de modulus is de wortel uit de som van de kwadraten, en het argument vind je met de tangens, met het juiste kwadrant erbij."
+     "html": "<strong>\\(z = r\\left(\\cos\\theta + i\\sin\\theta\\right)\\)</strong>, met \\(r = |z|\\) en \\(\\theta = \\arg z\\). Zo zie je de twee gegevens meteen staan: hoe ver en onder welke hoek. <strong>Van cartesisch naar goniometrisch bereken je \\(r = \\sqrt{a^{2} + b^{2}}\\) en \\(\\theta\\) uit \\(\\tan\\theta = \\dfrac{b}{a}\\)</strong>, met het juiste kwadrant erbij."
     },
     {
      "soort": "tekst",
-     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Bewerking</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Met de moduli</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Met de argumenten</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">vermenigvuldigen</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">vermenigvuldigen</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">optellen</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">delen</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">delen</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">aftrekken</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">tot de macht n verheffen</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">tot de macht n verheffen</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">met n vermenigvuldigen</td></tr></table>"
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Bewerking</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Met de moduli</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Met de argumenten</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">vermenigvuldigen</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">vermenigvuldigen</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">optellen</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">delen</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">delen</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">aftrekken</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">tot de macht \\(n\\) verheffen</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">tot de macht \\(n\\) verheffen</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">met \\(n\\) vermenigvuldigen</td></tr></table>"
     },
     {
      "soort": "tekst",
-     "html": "Vermenigvuldigen is dus <strong>uitrekken en draaien tegelijk</strong>, delen is krimpen en terugdraaien. <strong>De modulus van een product is het product van de moduli, niet hun som</strong>; het zijn de argumenten die worden opgeteld. De regel voor machten heet de <strong>formule van de Moivre</strong>: <strong>je verheft de modulus tot de macht n en vermenigvuldigt het argument met n</strong>. Ze volgt rechtstreeks uit de regel voor vermenigvuldigen, n keer toegepast. <strong>Daarom is de goniometrische vorm zo handig bij machtsverheffen</strong>: probeer één plus i tot de tiende maar eens in cartesische vorm."
+     "html": "Vermenigvuldigen is dus <strong>uitrekken en draaien tegelijk</strong>, delen is krimpen en terugdraaien. <strong>\\(|z_{1} z_{2}| = |z_{1}| \\cdot |z_{2}|\\), niet hun som</strong>; het zijn de argumenten die worden opgeteld."
     }
    ]
   },
   {
-   "kop": "Vergelijkingen in de complexe getallen",
+   "kop": "De formule van de Moivre",
+   "blokken": [
+    {
+     "soort": "kader",
+     "html": "\\(z^{n} = r^{n}\\left(\\cos n\\theta + i\\sin n\\theta\\right)\\)<br>Je verheft de modulus tot de macht \\(n\\) en vermenigvuldigt het argument met \\(n\\)."
+    },
+    {
+     "soort": "tekst",
+     "html": "Ze volgt rechtstreeks uit de regel voor vermenigvuldigen, \\(n\\) keer toegepast. <strong>Daarom is de goniometrische vorm zo handig bij machtsverheffen</strong>: probeer \\(\\left(1 + i\\right)^{10}\\) maar eens in cartesische vorm."
+    }
+   ]
+  },
+  {
+   "kop": "Vergelijkingen oplossen",
    "blokken": [
     {
      "soort": "tekst",
-     "html": "<strong>Een tweedegraadsvergelijking met een negatieve discriminant heeft wel degelijk oplossingen in de complexe getallen</strong>, namelijk twee. In de reële getallen zijn er inderdaad geen. Zo heeft <strong>x kwadraat plus één is nul</strong> als oplossingen <strong>i</strong> en min i, en <strong>x kwadraat min twee x plus vijf is nul</strong> de oplossingen <strong>één plus twee i en één min twee i</strong>: de discriminant is min zestien, de wortel daaruit is vier i."
+     "html": "<strong>Een tweedegraadsvergelijking met \\(D < 0\\) heeft wel degelijk oplossingen in \\(\\mathbb{C}\\)</strong>, namelijk twee. In \\(\\mathbb{R}\\) zijn er inderdaad geen. Zo heeft <strong>\\(x^{2} + 1 = 0\\)</strong> als oplossingen <strong>\\(i\\)</strong> en \\(-i\\), en <strong>\\(x^{2} - 2x + 5 = 0\\)</strong> de oplossingen <strong>\\(1 + 2i\\) en \\(1 - 2i\\)</strong>: \\(D = -16\\), dus \\(\\sqrt{D} = 4i\\)."
     },
     {
      "soort": "tekst",
      "html": "<strong>De twee complexe oplossingen van een tweedegraadsvergelijking met reële coëfficiënten zijn elkaars toegevoegde</strong>: ze verschillen alleen in het teken voor de wortel uit de discriminant."
+    }
+   ]
+  },
+  {
+   "kop": "n oplossingen op één cirkel",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "<strong>\\(z^{3} = 8\\) heeft drie oplossingen</strong> in \\(\\mathbb{C}\\); algemeen heeft <strong>\\(z^{n} = a\\) er precies \\(n\\)</strong>, en <strong>een complex getal dat niet nul is heeft precies \\(n\\) \\(n\\)-de machtswortels</strong>."
+    },
+    {
+     "soort": "figuur",
+     "html": "<svg viewBox=\"0 0 470 262\" width=\"470\" xmlns=\"http://www.w3.org/2000/svg\"><line x1=\"94\" y1=\"132\" x2=\"330\" y2=\"132\" stroke=\"#23291f\" stroke-width=\"1.4\"/>\n<line x1=\"212\" y1=\"24\" x2=\"212\" y2=\"240\" stroke=\"#23291f\" stroke-width=\"1.4\"/>\n<text x=\"336.0\" y=\"136.0\" text-anchor=\"start\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"9.5\" fill=\"#6b7260\">Re</text>\n<text x=\"220.0\" y=\"22.0\" text-anchor=\"start\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"9.5\" fill=\"#6b7260\">Im</text>\n<circle cx=\"212\" cy=\"132\" r=\"84\" fill=\"none\" stroke=\"#6b7260\" stroke-width=\"1.2\" stroke-dasharray=\"5 4\"/>\n<polygon points=\"296.0,132.0 170.0,59.3 170.0,204.7\" fill=\"#2f5d50\" fill-opacity=\"0.1\" stroke=\"#2f5d50\" stroke-width=\"1.4\"/>\n<line x1=\"212\" y1=\"132\" x2=\"296.0\" y2=\"132.0\" stroke=\"#c17f2b\" stroke-width=\"1.6\"/>\n<circle cx=\"296.0\" cy=\"132.0\" r=\"4.5\" fill=\"#c17f2b\" stroke=\"#ffffff\" stroke-width=\"1.3\"/>\n<text x=\"308.0\" y=\"136.0\" text-anchor=\"start\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"10.5\" font-weight=\"600\" fill=\"#234539\">2</text>\n<line x1=\"212\" y1=\"132\" x2=\"170.0\" y2=\"59.3\" stroke=\"#c17f2b\" stroke-width=\"1.6\"/>\n<circle cx=\"170.0\" cy=\"59.3\" r=\"4.5\" fill=\"#c17f2b\" stroke=\"#ffffff\" stroke-width=\"1.3\"/>\n<text x=\"160.0\" y=\"51.3\" text-anchor=\"end\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"10.5\" font-weight=\"600\" fill=\"#234539\">−1 + i√3</text>\n<line x1=\"212\" y1=\"132\" x2=\"170.0\" y2=\"204.7\" stroke=\"#c17f2b\" stroke-width=\"1.6\"/>\n<circle cx=\"170.0\" cy=\"204.7\" r=\"4.5\" fill=\"#c17f2b\" stroke=\"#ffffff\" stroke-width=\"1.3\"/>\n<text x=\"160.0\" y=\"220.7\" text-anchor=\"end\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"10.5\" font-weight=\"600\" fill=\"#234539\">−1 − i√3</text>\n<text x=\"254.0\" y=\"122.0\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"9.5\" fill=\"#6b7260\">r = 2</text>\n<text x=\"235.0\" y=\"254.0\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"9.5\" fill=\"#6b7260\">de drie hoeken liggen 120 graden uit elkaar</text></svg>",
+     "onderschrift": "De drie oplossingen van \\(z^{3} = 8\\): één reële en twee die het niet zijn."
     },
     {
      "soort": "tekst",
-     "html": "<strong>De vergelijking z tot de derde is acht heeft drie oplossingen</strong> in de complexe getallen; algemeen heeft <strong>z tot de macht n is a er precies n</strong>, en <strong>een complex getal dat niet nul is heeft precies n n-de machtswortels</strong>. <strong>Die n oplossingen liggen op één cirkel, gelijkmatig over de omtrek verdeeld</strong>: ze hebben dezelfde modulus en hun argumenten verschillen telkens evenveel, dus ze vormen de hoekpunten van een regelmatige veelhoek."
+     "html": "<strong>Die \\(n\\) oplossingen liggen op één cirkel, gelijkmatig over de omtrek verdeeld</strong>: ze hebben dezelfde modulus en hun argumenten verschillen telkens evenveel, dus ze vormen de hoekpunten van een regelmatige veelhoek."
     },
     {
      "soort": "weetje",
-     "html": "<strong>Een veelterm van graad n heeft in de complexe getallen precies n nulwaarden</strong>, als je ze met hun multipliciteit telt. Dat is de hoofdstelling van de algebra. In de reële getallen kunnen het er minder zijn."
+     "html": "<strong>Een veelterm van graad \\(n\\) heeft in \\(\\mathbb{C}\\) precies \\(n\\) nulwaarden</strong>, als je ze met hun multipliciteit telt. Dat is de hoofdstelling van de algebra. In \\(\\mathbb{R}\\) kunnen het er minder zijn."
     }
    ]
   }
  ],
  "onthoud": [
-  "De imaginaire eenheid i is het getal waarvan het kwadraat min één is.",
-  "De machten van i herhalen zich om de vier: i, min één, min i, één.",
-  "Bij zeven min twee i is het imaginair deel min twee, zonder de i erbij.",
-  "Het toegevoegde van twee plus drie i is twee min drie i.",
+  "De imaginaire eenheid \\(i\\) is het getal met \\(i^{2} = -1\\).",
+  "De machten van \\(i\\) herhalen zich om de vier: \\(i,\\ -1,\\ -i,\\ 1\\).",
+  "Bij \\(7 - 2i\\) is het imaginair deel \\(-2\\), zonder de \\(i\\) erbij.",
+  "\\(\\overline{2 + 3i} = 2 - 3i\\), en \\(z \\cdot \\overline{z} = |z|^{2}\\) is reëel.",
   "Delen doe je door teller en noemer met de toegevoegde van de noemer te vermenigvuldigen.",
-  "De modulus is de afstand tot de oorsprong, het argument de hoek met de positieve reële as.",
-  "Bij vermenigvuldigen vermenigvuldig je de moduli en tel je de argumenten op.",
-  "Formule van de Moivre: verhef de modulus tot de macht n en vermenigvuldig het argument met n.",
-  "z tot de macht n is a heeft precies n oplossingen, gelijkmatig verdeeld op één cirkel."
+  "\\(|z| = \\sqrt{a^{2} + b^{2}}\\) is de afstand tot de oorsprong, \\(\\theta\\) de hoek met de positieve reële as.",
+  "Vermenigvuldigen: moduli vermenigvuldigen, argumenten optellen.",
+  "Moivre: \\(z^{n} = r^{n}\\left(\\cos n\\theta + i\\sin n\\theta\\right)\\).",
+  "\\(z^{n} = a\\) heeft precies \\(n\\) oplossingen, gelijkmatig verdeeld op één cirkel."
  ]
 }

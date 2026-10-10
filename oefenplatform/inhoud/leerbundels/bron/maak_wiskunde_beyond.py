@@ -26,7 +26,7 @@ alles nog in woorden stond en had gelijk: een leerling van de derde graad moet
 
 De omzetting gebeurt thema per thema, samen met de vragen van dat thema, zodat
 een kind in de bundel dezelfde schrijfwijze terugvindt als in de oefening.
-Omgezet: thema 1 tot 12. De andere thema's staan nog in woorden.
+Omgezet: thema 1 tot 13. De andere thema's staan nog in woorden.
 """
 import sys, pathlib
 sys.path.insert(0, str(pathlib.Path(__file__).parent))
@@ -1561,104 +1561,125 @@ BUNDELS["complexe-getallen-beyond"] = dict(
     onder="De imaginaire eenheid, het vlak van Gauss, de goniometrische vorm en de formule van de Moivre.",
     secties=[
         dict(kop="De imaginaire eenheid", blokken=[
-            ("p", "<strong>De imaginaire eenheid i is het getal waarvan het kwadraat min één is.</strong> "
-                  "<strong>De complexe getallen werden ingevoerd omdat niet elke vergelijking een oplossing "
-                  "had in de reële getallen</strong>: een getal met kwadraat min één bestond niet, en door "
-                  "het toe te voegen kreeg elke veeltermvergelijking oplossingen."),
-            ("p", "De machten van i <strong>herhalen zich om de vier</strong>: i, dan min één, dan "
-                  "<strong>min i</strong>, dan <strong>één</strong>. <strong>i tot de derde is dus niet i "
-                  "maar min i</strong>, en <strong>i tot de vierde is één</strong>. Pas i tot de vijfde is "
-                  "weer i."),
-            ("p", "Een complex getal schrijf je in <strong>cartesische vorm</strong> als een reëel deel "
-                  "plus een imaginair deel maal i. Bij <strong>drie min vijf i</strong> is het "
-                  "<strong>reëel deel drie</strong>; bij <strong>zeven min twee i</strong> is het "
-                  "<strong>imaginair deel min twee</strong>, dus zonder de i erbij. <strong>Elk reëel getal "
-                  "is ook een complex getal</strong>, met imaginair deel nul. <strong>Een zuiver imaginair "
-                  "getal heeft reëel deel nul.</strong>"),
-            ("kader", "<strong>Je kan twee complexe getallen niet van klein naar groot ordenen.</strong> "
-                      "Hun moduli kan je wel vergelijken, maar de getallen zelf niet."),
+            ("p", r"<strong>De imaginaire eenheid \(i\) is het getal met \(i^{2} = -1\).</strong> "
+                  r"<strong>De complexe getallen werden ingevoerd omdat niet elke vergelijking een "
+                  r"oplossing had in \(\mathbb{R}\)</strong>: zo'n getal bestond niet, en door het "
+                  r"toe te voegen kreeg elke veeltermvergelijking oplossingen."),
+            ("p", r"De machten van \(i\) <strong>herhalen zich om de vier</strong>:"),
+            ("kader", r"\(i^{1} = i\) &nbsp;·&nbsp; \(i^{2} = -1\) &nbsp;·&nbsp; \(i^{3} = -i\) "
+                      r"&nbsp;·&nbsp; \(i^{4} = 1\)<br>"
+                      r"<strong>\(i^{3}\) is dus niet \(i\) maar \(-i\)</strong>; pas \(i^{5}\) is "
+                      r"weer \(i\)."),
+        ]),
+        dict(kop="De cartesische vorm", blokken=[
+            ("p", r"Een complex getal schrijf je in <strong>cartesische vorm</strong> als "
+                  r"\(z = a + bi\), met \(a\) het reëel deel en \(b\) het imaginair deel. Bij "
+                  r"<strong>\(3 - 5i\)</strong> is het <strong>reëel deel \(3\)</strong>; bij "
+                  r"<strong>\(7 - 2i\)</strong> is het <strong>imaginair deel \(-2\)</strong>, dus "
+                  r"zonder de \(i\) erbij."),
+            ("p", r"<strong>Elk reëel getal is ook een complex getal</strong>, met \(b = 0\). "
+                  r"<strong>Een zuiver imaginair getal heeft \(a = 0\).</strong>"),
+            ("kader", r"<strong>Je kan twee complexe getallen niet van klein naar groot "
+                      r"ordenen.</strong> Hun moduli kan je wel vergelijken, maar de getallen zelf "
+                      r"niet."),
         ]),
         dict(kop="Rekenen in cartesische vorm", blokken=[
-            ("p", "<strong>Optellen doe je deel per deel</strong>: twee plus drie i, plus één min i, geeft "
-                  "<strong>drie plus twee i</strong>, net als bij vectoren. Bij vermenigvuldigen werk je "
-                  "uit en gebruik je dat i in het kwadraat min één is: <strong>één plus i, in het kwadraat, "
-                  "is twee i</strong>."),
-            ("p", "Het <strong>toegevoegde complexe getal</strong> krijg je door enkel het imaginair deel "
-                  "van teken te laten wisselen: dat van <strong>twee plus drie i is twee min drie i</strong>. "
-                  "<strong>Een complex getal maal zijn toegevoegde is altijd een reëel getal</strong>, "
-                  "namelijk het kwadraat van de modulus. Daarom <strong>deel je door een complex getal door "
-                  "teller en noemer met de toegevoegde van de noemer te vermenigvuldigen</strong>: de noemer "
-                  "wordt dan reëel. Apart delen werkt niet, net zoals bij een breuk met een wortel."),
+            ("p", r"<strong>Optellen doe je deel per deel</strong>: "
+                  r"\(\left(2 + 3i\right) + \left(1 - i\right) = 3 + 2i\), net als bij vectoren. "
+                  r"Bij vermenigvuldigen werk je uit en gebruik je \(i^{2} = -1\): "
+                  r"<strong>\(\left(1 + i\right)^{2} = 1 + 2i - 1 = 2i\)</strong>."),
+            ("p", r"Het <strong>toegevoegde complexe getal</strong> \(\overline{z}\) krijg je door "
+                  r"enkel het imaginair deel van teken te laten wisselen: "
+                  r"<strong>\(\overline{2 + 3i} = 2 - 3i\)</strong>. <strong>\(z \cdot \overline{z}\) "
+                  r"is altijd reëel</strong>, namelijk \(|z|^{2}\). Daarom <strong>deel je door een "
+                  r"complex getal door teller en noemer met de toegevoegde van de noemer te "
+                  r"vermenigvuldigen</strong>: de noemer wordt dan reëel. Apart delen werkt niet, "
+                  r"net zoals bij een breuk met een wortel."),
         ]),
         dict(kop="Het vlak van Gauss", blokken=[
-            ("p", "Elk complex getal is een <strong>punt in het vlak van Gauss</strong>: horizontaal het "
-                  "reëel deel, en <strong>op de verticale as het imaginair deel</strong>. De reële getallen "
-                  "liggen dus op de horizontale as, de zuiver imaginaire op de verticale."),
-            ("p", "De <strong>modulus</strong> is de afstand tot de oorsprong. Die van <strong>drie plus "
-                  "vier i is vijf</strong> (de wortel uit negen plus zestien), die van <strong>vijf i is "
-                  "vijf</strong>, en die van <strong>min drie is drie</strong>: een modulus is nooit "
-                  "negatief, en voor een reëel getal is ze de absolute waarde. Het "
-                  "<strong>argument</strong> is <strong>de hoek met de positieve reële as</strong>. Samen "
-                  "leggen modulus en argument het getal volledig vast. Het argument van <strong>i is "
-                  "negentig graden</strong>, dat van een <strong>negatief reëel getal honderdtachtig "
-                  "graden</strong>."),
-            ("p", "Daarmee krijgen de bewerkingen een meetkundige betekenis. <strong>Optellen is dezelfde "
-                  "constructie als het optellen van twee vectoren</strong>: je legt de pijlen achter "
-                  "elkaar. <strong>Het toegevoegde nemen spiegelt het punt om de horizontale as.</strong> "
-                  "En <strong>vermenigvuldigen met i draait het punt een kwart slag rond de "
-                  "oorsprong</strong>, want de modulus van i is één en haar argument negentig graden."),
+            ("p", r"Elk complex getal is een <strong>punt in het vlak van Gauss</strong>: "
+                  r"horizontaal het reëel deel, en <strong>op de verticale as het imaginair "
+                  r"deel</strong>. De reële getallen liggen dus op de horizontale as, de zuiver "
+                  r"imaginaire op de verticale."),
+            ("fig", svg.vlakvangauss(),
+             r"\(z = 3 + 4i\) met zijn modulus, zijn argument en zijn toegevoegde."),
+        ]),
+        dict(kop="Modulus en argument", blokken=[
+            ("p", r"De <strong>modulus</strong> \(|z| = \sqrt{a^{2} + b^{2}}\) is de afstand tot de "
+                  r"oorsprong. Zo is <strong>\(|3 + 4i| = 5\)</strong>, <strong>\(|5i| = 5\)</strong> "
+                  r"en <strong>\(|-3| = 3\)</strong>: een modulus is nooit negatief, en voor een reëel "
+                  r"getal is ze de absolute waarde."),
+            ("p", r"Het <strong>argument</strong> \(\theta\) is <strong>de hoek met de positieve "
+                  r"reële as</strong>. Samen leggen modulus en argument het getal volledig vast. Het "
+                  r"argument van <strong>\(i\) is \(90^\circ\)</strong>, dat van een <strong>negatief "
+                  r"reëel getal \(180^\circ\)</strong>."),
+        ]),
+        dict(kop="Wat de bewerkingen in het vlak doen", blokken=[
+            ("p", r"<strong>Optellen is dezelfde constructie als het optellen van twee "
+                  r"vectoren</strong>: je legt de pijlen achter elkaar. <strong>Het toegevoegde nemen "
+                  r"spiegelt het punt om de horizontale as.</strong> En <strong>vermenigvuldigen met "
+                  r"\(i\) draait het punt een kwart slag rond de oorsprong</strong>, want "
+                  r"\(|i| = 1\) en \(\arg i = 90^\circ\)."),
         ]),
         dict(kop="De goniometrische vorm", blokken=[
-            ("p", "<strong>De goniometrische vorm is de modulus maal de cosinus van het argument plus i "
-                  "maal de sinus ervan.</strong> Zo zie je de twee gegevens meteen staan: hoe ver en onder "
-                  "welke hoek. <strong>Van cartesisch naar goniometrisch bereken je de modulus en het "
-                  "argument uit het reëel en imaginair deel</strong>: de modulus is de wortel uit de som "
-                  "van de kwadraten, en het argument vind je met de tangens, met het juiste kwadrant erbij."),
+            ("p", r"<strong>\(z = r\left(\cos\theta + i\sin\theta\right)\)</strong>, met \(r = |z|\) "
+                  r"en \(\theta = \arg z\). Zo zie je de twee gegevens meteen staan: hoe ver en onder "
+                  r"welke hoek. <strong>Van cartesisch naar goniometrisch bereken je "
+                  r"\(r = \sqrt{a^{2} + b^{2}}\) en \(\theta\) uit \(\tan\theta = \dfrac{b}{a}\)</strong>, "
+                  r"met het juiste kwadrant erbij."),
             ("p", tabel(["Bewerking", "Met de moduli", "Met de argumenten"], [
                 ["vermenigvuldigen", "vermenigvuldigen", "optellen"],
                 ["delen", "delen", "aftrekken"],
-                ["tot de macht n verheffen", "tot de macht n verheffen", "met n vermenigvuldigen"],
+                [r"tot de macht \(n\) verheffen", r"tot de macht \(n\) verheffen",
+                 r"met \(n\) vermenigvuldigen"],
             ])),
-            ("p", "Vermenigvuldigen is dus <strong>uitrekken en draaien tegelijk</strong>, delen is krimpen "
-                  "en terugdraaien. <strong>De modulus van een product is het product van de moduli, niet "
-                  "hun som</strong>; het zijn de argumenten die worden opgeteld. De regel voor machten "
-                  "heet de <strong>formule van de Moivre</strong>: <strong>je verheft de modulus tot de "
-                  "macht n en vermenigvuldigt het argument met n</strong>. Ze volgt rechtstreeks uit de "
-                  "regel voor vermenigvuldigen, n keer toegepast. <strong>Daarom is de goniometrische vorm "
-                  "zo handig bij machtsverheffen</strong>: probeer één plus i tot de tiende maar eens in "
-                  "cartesische vorm."),
+            ("p", r"Vermenigvuldigen is dus <strong>uitrekken en draaien tegelijk</strong>, delen is "
+                  r"krimpen en terugdraaien. <strong>\(|z_{1} z_{2}| = |z_{1}| \cdot |z_{2}|\), niet "
+                  r"hun som</strong>; het zijn de argumenten die worden opgeteld."),
         ]),
-        dict(kop="Vergelijkingen in de complexe getallen", blokken=[
-            ("p", "<strong>Een tweedegraadsvergelijking met een negatieve discriminant heeft wel degelijk "
-                  "oplossingen in de complexe getallen</strong>, namelijk twee. In de reële getallen zijn "
-                  "er inderdaad geen. Zo heeft <strong>x kwadraat plus één is nul</strong> als oplossingen "
-                  "<strong>i</strong> en min i, en <strong>x kwadraat min twee x plus vijf is nul</strong> "
-                  "de oplossingen <strong>één plus twee i en één min twee i</strong>: de discriminant is "
-                  "min zestien, de wortel daaruit is vier i."),
-            ("p", "<strong>De twee complexe oplossingen van een tweedegraadsvergelijking met reële "
-                  "coëfficiënten zijn elkaars toegevoegde</strong>: ze verschillen alleen in het teken voor "
-                  "de wortel uit de discriminant."),
-            ("p", "<strong>De vergelijking z tot de derde is acht heeft drie oplossingen</strong> in de "
-                  "complexe getallen; algemeen heeft <strong>z tot de macht n is a er precies n</strong>, "
-                  "en <strong>een complex getal dat niet nul is heeft precies n n-de machtswortels</strong>. "
-                  "<strong>Die n oplossingen liggen op één cirkel, gelijkmatig over de omtrek "
-                  "verdeeld</strong>: ze hebben dezelfde modulus en hun argumenten verschillen telkens "
-                  "evenveel, dus ze vormen de hoekpunten van een regelmatige veelhoek."),
-            ("weetje", "<strong>Een veelterm van graad n heeft in de complexe getallen precies n "
-                       "nulwaarden</strong>, als je ze met hun multipliciteit telt. Dat is de hoofdstelling "
-                       "van de algebra. In de reële getallen kunnen het er minder zijn."),
+        dict(kop="De formule van de Moivre", blokken=[
+            ("kader", r"\(z^{n} = r^{n}\left(\cos n\theta + i\sin n\theta\right)\)<br>"
+                      r"Je verheft de modulus tot de macht \(n\) en vermenigvuldigt het argument "
+                      r"met \(n\)."),
+            ("p", r"Ze volgt rechtstreeks uit de regel voor vermenigvuldigen, \(n\) keer toegepast. "
+                  r"<strong>Daarom is de goniometrische vorm zo handig bij machtsverheffen</strong>: "
+                  r"probeer \(\left(1 + i\right)^{10}\) maar eens in cartesische vorm."),
+        ]),
+        dict(kop="Vergelijkingen oplossen", blokken=[
+            ("p", r"<strong>Een tweedegraadsvergelijking met \(D < 0\) heeft wel degelijk "
+                  r"oplossingen in \(\mathbb{C}\)</strong>, namelijk twee. In \(\mathbb{R}\) zijn er "
+                  r"inderdaad geen. Zo heeft <strong>\(x^{2} + 1 = 0\)</strong> als oplossingen "
+                  r"<strong>\(i\)</strong> en \(-i\), en <strong>\(x^{2} - 2x + 5 = 0\)</strong> de "
+                  r"oplossingen <strong>\(1 + 2i\) en \(1 - 2i\)</strong>: \(D = -16\), dus "
+                  r"\(\sqrt{D} = 4i\)."),
+            ("p", r"<strong>De twee complexe oplossingen van een tweedegraadsvergelijking met reële "
+                  r"coëfficiënten zijn elkaars toegevoegde</strong>: ze verschillen alleen in het "
+                  r"teken voor de wortel uit de discriminant."),
+        ]),
+        dict(kop="n oplossingen op één cirkel", blokken=[
+            ("p", r"<strong>\(z^{3} = 8\) heeft drie oplossingen</strong> in \(\mathbb{C}\); "
+                  r"algemeen heeft <strong>\(z^{n} = a\) er precies \(n\)</strong>, en <strong>een "
+                  r"complex getal dat niet nul is heeft precies \(n\) \(n\)-de machtswortels</strong>."),
+            ("fig", svg.machtswortels(),
+             r"De drie oplossingen van \(z^{3} = 8\): één reële en twee die het niet zijn."),
+            ("p", r"<strong>Die \(n\) oplossingen liggen op één cirkel, gelijkmatig over de omtrek "
+                  r"verdeeld</strong>: ze hebben dezelfde modulus en hun argumenten verschillen "
+                  r"telkens evenveel, dus ze vormen de hoekpunten van een regelmatige veelhoek."),
+            ("weetje", r"<strong>Een veelterm van graad \(n\) heeft in \(\mathbb{C}\) precies \(n\) "
+                       r"nulwaarden</strong>, als je ze met hun multipliciteit telt. Dat is de "
+                       r"hoofdstelling van de algebra. In \(\mathbb{R}\) kunnen het er minder zijn."),
         ]),
     ],
     onthoud=[
-        "De imaginaire eenheid i is het getal waarvan het kwadraat min één is.",
-        "De machten van i herhalen zich om de vier: i, min één, min i, één.",
-        "Bij zeven min twee i is het imaginair deel min twee, zonder de i erbij.",
-        "Het toegevoegde van twee plus drie i is twee min drie i.",
-        "Delen doe je door teller en noemer met de toegevoegde van de noemer te vermenigvuldigen.",
-        "De modulus is de afstand tot de oorsprong, het argument de hoek met de positieve reële as.",
-        "Bij vermenigvuldigen vermenigvuldig je de moduli en tel je de argumenten op.",
-        "Formule van de Moivre: verhef de modulus tot de macht n en vermenigvuldig het argument met n.",
-        "z tot de macht n is a heeft precies n oplossingen, gelijkmatig verdeeld op één cirkel.",
+        r"De imaginaire eenheid \(i\) is het getal met \(i^{2} = -1\).",
+        r"De machten van \(i\) herhalen zich om de vier: \(i,\ -1,\ -i,\ 1\).",
+        r"Bij \(7 - 2i\) is het imaginair deel \(-2\), zonder de \(i\) erbij.",
+        r"\(\overline{2 + 3i} = 2 - 3i\), en \(z \cdot \overline{z} = |z|^{2}\) is reëel.",
+        r"Delen doe je door teller en noemer met de toegevoegde van de noemer te vermenigvuldigen.",
+        r"\(|z| = \sqrt{a^{2} + b^{2}}\) is de afstand tot de oorsprong, \(\theta\) de hoek met de positieve reële as.",
+        r"Vermenigvuldigen: moduli vermenigvuldigen, argumenten optellen.",
+        r"Moivre: \(z^{n} = r^{n}\left(\cos n\theta + i\sin n\theta\right)\).",
+        r"\(z^{n} = a\) heeft precies \(n\) oplossingen, gelijkmatig verdeeld op één cirkel.",
     ],
 )
 

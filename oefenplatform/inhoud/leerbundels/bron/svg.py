@@ -8957,3 +8957,95 @@ def tussenkrommen(breedte=470):
     d.append(_tekst(breedte / 2, h - 8,
                     "het gekleurde gebied ligt tussen x = 0 en x = 1", 9.5, DIM, "middle"))
     return _svg(breedte, h, "\n".join(d))
+
+
+def vlakvangauss(breedte=470):
+    r"""Het vlak van Gauss met z = 3 + 4i, de modulus, het argument en de toegevoegde."""
+    import math
+    h = 296
+    ox, oy = 136, 148
+    e = 24
+    a, b = 3, 4
+    px, py = ox + a * e, oy - b * e
+    qx, qy = ox + a * e, oy + b * e
+    hoek = math.atan2(b, a)
+
+    d = [f'<line x1="26" y1="{oy}" x2="{breedte-30}" y2="{oy}" stroke="{INK}" stroke-width="1.5"/>',
+         f'<line x1="{ox}" y1="26" x2="{ox}" y2="{h-46}" stroke="{INK}" stroke-width="1.5"/>',
+         _tekst(breedte - 24, oy + 4, "Re", 10, DIM, "start"),
+         _tekst(ox + 8, 32, "Im", 10, DIM, "start")]
+
+    for k in (1, 2, 3):
+        d.append(f'<line x1="{ox+k*e}" y1="{oy-4}" x2="{ox+k*e}" y2="{oy+4}" '
+                 f'stroke="{INK}" stroke-width="1.3"/>')
+    d.append(_tekst(ox + a * e, oy + 17, "3", 9.5, DIM, "middle"))
+    for k in (1, 2, 3, 4):
+        d.append(f'<line x1="{ox-4}" y1="{oy-k*e}" x2="{ox+4}" y2="{oy-k*e}" '
+                 f'stroke="{INK}" stroke-width="1.3"/>')
+    d.append(_tekst(ox - 10, oy - b * e + 4, "4", 9.5, DIM, "end"))
+    d.append(_tekst(ox - 10, oy + b * e + 4, "−4", 9.5, DIM, "end"))
+
+    d.append(f'<line x1="{px}" y1="{py}" x2="{px}" y2="{oy}" stroke="{DIM}" '
+             f'stroke-width="1.1" stroke-dasharray="4 4"/>')
+    d.append(f'<line x1="{px}" y1="{py}" x2="{ox}" y2="{py}" stroke="{DIM}" '
+             f'stroke-width="1.1" stroke-dasharray="4 4"/>')
+    d.append(f'<line x1="{qx}" y1="{qy}" x2="{ox}" y2="{qy}" stroke="{DIM}" '
+             f'stroke-width="1.1" stroke-dasharray="4 4"/>')
+
+    d.append(f'<line x1="{ox}" y1="{oy}" x2="{px}" y2="{py}" stroke="{FOREST}" stroke-width="2.4"/>')
+    d.append(_pijlkop(px, py, -hoek, FOREST, 6.0))
+    d.append(f'<line x1="{ox}" y1="{oy}" x2="{qx}" y2="{qy}" stroke="{AMBER}" stroke-width="2"/>')
+
+    r = 40
+    d.append(f'<path d="M {ox+r} {oy} A {r} {r} 0 0 0 '
+             f'{ox + r*math.cos(hoek):.1f} {oy - r*math.sin(hoek):.1f}" fill="none" '
+             f'stroke="{DARK}" stroke-width="1.5"/>')
+    d.append(_tekst(ox + r + 12, oy - 14, "θ", 12, DARK, "start", True))
+
+    d.append(f'<circle cx="{px}" cy="{py}" r="4" fill="{FOREST}" stroke="#ffffff" stroke-width="1.3"/>')
+    d.append(f'<circle cx="{qx}" cy="{qy}" r="4" fill="{AMBER}" stroke="#ffffff" stroke-width="1.3"/>')
+    d.append(_tekst(px + 12, py + 4, "z = 3 + 4i", 11.5, FOREST, "start", True))
+    d.append(_tekst(qx + 12, qy + 4, "z = 3 − 4i", 11.5, AMBER, "start", True))
+    d.append(f'<line x1="{qx+12}" y1="{qy-11}" x2="{qx+20}" y2="{qy-11}" '
+             f'stroke="{AMBER}" stroke-width="1.5"/>')
+    d.append(_tekst(px - 30, py + 26, "|z| = 5", 10, DARK, "end", True))
+    d.append(_tekst(breedte / 2, h - 8,
+                    "de toegevoegde is de spiegeling om de reële as", 9.5, DIM, "middle"))
+    return _svg(breedte, h, "\n".join(d))
+
+
+def machtswortels(breedte=470):
+    r"""De drie oplossingen van z tot de derde is acht, op één cirkel."""
+    import math
+    h = 262
+    cx, cy = 212, 132
+    e = 42
+    r = 2 * e
+    d = [f'<line x1="{cx-r-34}" y1="{cy}" x2="{cx+r+34}" y2="{cy}" stroke="{INK}" stroke-width="1.4"/>',
+         f'<line x1="{cx}" y1="{cy-r-24}" x2="{cx}" y2="{cy+r+24}" stroke="{INK}" stroke-width="1.4"/>',
+         _tekst(cx + r + 40, cy + 4, "Re", 9.5, DIM, "start"),
+         _tekst(cx + 8, cy - r - 26, "Im", 9.5, DIM, "start"),
+         f'<circle cx="{cx}" cy="{cy}" r="{r}" fill="none" stroke="{DIM}" '
+         f'stroke-width="1.2" stroke-dasharray="5 4"/>']
+
+    punten = []
+    for k in range(3):
+        hoek = k * 2 * math.pi / 3
+        x = cx + r * math.cos(hoek)
+        y = cy - r * math.sin(hoek)
+        punten.append((x, y))
+    d.append(f'<polygon points="{" ".join(f"{x:.1f},{y:.1f}" for x, y in punten)}" '
+             f'fill="{FOREST}" fill-opacity="0.1" stroke="{FOREST}" stroke-width="1.4"/>')
+
+    labels = ("2", "−1 + i√3", "−1 − i√3")
+    ankers = (("start", 12, 4), ("end", -10, -8), ("end", -10, 16))
+    for (x, y), label, (anker, dx, dy) in zip(punten, labels, ankers):
+        d.append(f'<line x1="{cx}" y1="{cy}" x2="{x:.1f}" y2="{y:.1f}" stroke="{AMBER}" '
+                 f'stroke-width="1.6"/>')
+        d.append(f'<circle cx="{x:.1f}" cy="{y:.1f}" r="4.5" fill="{AMBER}" stroke="#ffffff" '
+                 f'stroke-width="1.3"/>')
+        d.append(_tekst(x + dx, y + dy, label, 10.5, DARK, anker, True))
+    d.append(_tekst(cx + r / 2, cy - 10, "r = 2", 9.5, DIM, "middle"))
+    d.append(_tekst(breedte / 2, h - 8,
+                    "de drie hoeken liggen 120 graden uit elkaar", 9.5, DIM, "middle"))
+    return _svg(breedte, h, "\n".join(d))
