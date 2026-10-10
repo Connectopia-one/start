@@ -30,6 +30,9 @@ import sys
 import unicodedata
 
 HIER = pathlib.Path(__file__).parent
+sys.path.insert(0, str(HIER.parents[1]))
+
+from notatie import zonder_notatie  # noqa: E402  (pad moet eerst klaarstaan)
 
 # Woorden die in elke tekst staan en dus niets zeggen over de inhoud.
 STOP = set("""
@@ -62,7 +65,13 @@ EENHEID = re.compile(r"^\d+([,.]\d+)?$")
 
 
 def plat(tekst: str) -> str:
-    """Kleine letters, zonder accenten en zonder leestekens."""
+    """Kleine letters, zonder accenten en zonder leestekens.
+
+    Eerst gaat de wiskundige notatie eruit. Anders leest dit script \tfrac,
+    dfrac en text als inhoudswoorden en meldt het die als gat in de bundel,
+    terwijl het markering is en geen woord.
+    """
+    tekst = zonder_notatie(tekst)
     zonder = unicodedata.normalize("NFKD", tekst)
     zonder = "".join(c for c in zonder if not unicodedata.combining(c))
     return re.sub(r"[^a-z0-9³²/]+", " ", zonder.lower())

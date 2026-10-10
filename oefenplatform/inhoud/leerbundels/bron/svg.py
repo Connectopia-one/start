@@ -6889,3 +6889,152 @@ def equipotentiaal(breedte=470):
     d.append(_tekst(xr + 5, cy - 64, "–", 13, LADING_MIN))
 
     return _svg(breedte, cel_h, "".join(d))
+
+
+# ───────────────────────── stroomkringen
+DRAAD = "#2f5d50"
+
+
+def _draad(punten):
+    """Een draad langs een rij punten, met rechte hoeken zoals in een schema."""
+    d = " ".join(("M" if i == 0 else "L") + f"{x:.1f} {y:.1f}" for i, (x, y) in enumerate(punten))
+    return f'<path d="{d}" fill="none" stroke="{DRAAD}" stroke-width="1.6" stroke-linejoin="round"/>'
+
+
+def _weerstand(cx, cy, label, breed=44, hoog=17, staand=False, kant="rechts"):
+    """Het rechthoekje van een weerstand, met zijn waarde ernaast.
+
+    Bij een staande weerstand zegt `kant` aan welke zijde het opschrift komt.
+    Dat moet je kiezen: staat de weerstand in de rechterdraad van de kring,
+    dan valt een opschrift rechts buiten het kader.
+    """
+    b, h = (hoog, breed) if staand else (breed, hoog)
+    uit = [f'<rect x="{cx-b/2:.1f}" y="{cy-h/2:.1f}" width="{b}" height="{h}" rx="2" '
+           f'fill="#ffffff" stroke="{DRAAD}" stroke-width="1.6"/>']
+    if label:
+        if staand and kant == "links":
+            uit.append(_tekst(cx - b / 2 - 6, cy + 4, label, 10, INK, "end"))
+        elif staand:
+            uit.append(_tekst(cx + b / 2 + 6, cy + 4, label, 10, INK, "start"))
+        else:
+            uit.append(_tekst(cx, cy - h / 2 - 6, label, 10, INK))
+    return "".join(uit)
+
+
+def _bron(cx, cy, label=None, staand=True):
+    """Het symbool van een spanningsbron: een lange dunne en een korte dikke streep."""
+    uit = []
+    if staand:
+        uit.append(f'<line x1="{cx-11}" y1="{cy-4}" x2="{cx+11}" y2="{cy-4}" stroke="{DRAAD}" stroke-width="1.6"/>')
+        uit.append(f'<line x1="{cx-6}" y1="{cy+4}" x2="{cx+6}" y2="{cy+4}" stroke="{DRAAD}" stroke-width="3.4"/>')
+        if label:
+            # rechts van het symbool, binnen de kring: links ervan is er
+            # geen plaats meer tot aan de rand van het kader
+            uit.append(_tekst(cx + 16, cy + 4, label, 10, INK, "start"))
+    else:
+        uit.append(f'<line x1="{cx-4}" y1="{cy-11}" x2="{cx-4}" y2="{cy+11}" stroke="{DRAAD}" stroke-width="1.6"/>')
+        uit.append(f'<line x1="{cx+4}" y1="{cy-6}" x2="{cx+4}" y2="{cy+6}" stroke="{DRAAD}" stroke-width="3.4"/>')
+        if label:
+            uit.append(_tekst(cx, cy - 16, label, 10, INK))
+    return "".join(uit)
+
+
+def schemasymbolen(breedte=470):
+    r"""De symbolen die in een elektrisch schema terugkomen.
+
+    Een schema toont welke onderdelen met elkaar verbonden zijn, niet hoe lang
+    of hoe dik de draden zijn. Wie de symbolen niet kent, kan een schema niet
+    lezen, en met woorden alleen leer je ze niet.
+    """
+    d = []
+    vak_b, vak_h = 78, 74
+    namen = ["spanningsbron", "weerstand", "lamp", "schakelaar", "ampèremeter", "voltmeter"]
+    for i, naam in enumerate(namen):
+        kx = (i % 6) * vak_b
+        cx, cy = kx + vak_b / 2, 30
+        d.append(f'<line x1="{kx+8}" y1="{cy}" x2="{cx-17:.1f}" y2="{cy}" stroke="{DRAAD}" stroke-width="1.6"/>')
+        d.append(f'<line x1="{cx+17:.1f}" y1="{cy}" x2="{kx+vak_b-8}" y2="{cy}" stroke="{DRAAD}" stroke-width="1.6"/>')
+        if naam == "spanningsbron":
+            d.append(_bron(cx, cy, None, staand=False))
+        elif naam == "weerstand":
+            d.append(_weerstand(cx, cy, None, 34, 15))
+        elif naam == "lamp":
+            d.append(f'<circle cx="{cx}" cy="{cy}" r="11" fill="#ffffff" stroke="{DRAAD}" stroke-width="1.6"/>')
+            d.append(f'<line x1="{cx-7.8:.1f}" y1="{cy-7.8:.1f}" x2="{cx+7.8:.1f}" y2="{cy+7.8:.1f}" stroke="{DRAAD}" stroke-width="1.4"/>')
+            d.append(f'<line x1="{cx-7.8:.1f}" y1="{cy+7.8:.1f}" x2="{cx+7.8:.1f}" y2="{cy-7.8:.1f}" stroke="{DRAAD}" stroke-width="1.4"/>')
+        elif naam == "schakelaar":
+            d.append(f'<circle cx="{cx-11}" cy="{cy}" r="2.2" fill="{DRAAD}"/>')
+            d.append(f'<circle cx="{cx+11}" cy="{cy}" r="2.2" fill="{DRAAD}"/>')
+            d.append(f'<line x1="{cx-11}" y1="{cy}" x2="{cx+9}" y2="{cy-12}" stroke="{DRAAD}" stroke-width="1.6"/>')
+        else:
+            d.append(f'<circle cx="{cx}" cy="{cy}" r="11" fill="#ffffff" stroke="{DRAAD}" stroke-width="1.6"/>')
+            d.append(_tekst(cx, cy + 4, "A" if naam == "ampèremeter" else "V", 11, DARK, "middle", True))
+        d.append(_tekst(cx, 58, naam, 9.5, DIM))
+    return _svg(breedte, 68, "".join(d))
+
+
+def schakelingen(breedte=470):
+    r"""Serie, parallel en de gemengde schakeling van de fiche, als schema.
+
+    De getallen zijn die van de rekenvoorbeelden in de bundel, zodat de
+    tekening en de berekening over dezelfde kring gaan.
+    """
+    cel_b, cel_h = 234, 168
+    d = []
+
+    def kader(kx, ky, titel, breed=None):
+        breed = breed or cel_b
+        d.append(f'<rect x="{kx+6}" y="{ky+4}" width="{breed-12}" height="{cel_h-28}" rx="8" '
+                 f'fill="#ffffff" stroke="{BORDER}" stroke-width="1.2"/>')
+        d.append(_tekst(kx + breed / 2, ky + cel_h - 8, titel, 10, DIM, "middle", True))
+
+    def serie(kx, ky):
+        l, r = kx + 36, kx + cel_b - 36
+        b, o = ky + 32, ky + 108
+        d.append(_draad([(l, b), (r, b), (r, o), (l, o), (l, b)]))
+        d.append(f'<rect x="{l+28}" y="{b-9}" width="44" height="18" fill="#ffffff"/>')
+        d.append(_weerstand(l + 50, b, "4,0 Ω"))
+        d.append(f'<rect x="{r-72}" y="{b-9}" width="44" height="18" fill="#ffffff"/>')
+        d.append(_weerstand(r - 50, b, "6,0 Ω"))
+        d.append(f'<rect x="{l-12}" y="{(b+o)/2-12}" width="24" height="24" fill="#ffffff"/>')
+        d.append(_bron(l, (b + o) / 2, "20 V"))
+
+    def parallel(kx, ky):
+        # de rechterdraad blijft van de rand: daar staat het opschrift van
+        # de rechtse tak
+        l, r = kx + 30, kx + cel_b - 58
+        b, o = ky + 30, ky + 110
+        m = (l + r) / 2 + 20
+        d.append(_draad([(l, b), (r, b), (r, o), (l, o), (l, b)]))
+        d.append(_draad([(m, b), (m, o)]))
+        d.append(f'<rect x="{m-9}" y="{(b+o)/2-22}" width="18" height="44" fill="#ffffff"/>')
+        d.append(_weerstand(m, (b + o) / 2, "6,0 Ω", staand=True))
+        d.append(f'<rect x="{r-9}" y="{(b+o)/2-22}" width="18" height="44" fill="#ffffff"/>')
+        d.append(_weerstand(r, (b + o) / 2, "12 Ω", staand=True))
+        d.append(f'<rect x="{l-12}" y="{(b+o)/2-12}" width="24" height="24" fill="#ffffff"/>')
+        d.append(_bron(l, (b + o) / 2, "24 V"))
+
+    def gemengd(kx, ky):
+        # dit vakje is twee keer zo breed, dus de kring mag ruimer staan
+        l, r = kx + 120, kx + cel_b * 2 - 150
+        b, o = ky + 30, ky + 110
+        m = (l + r) / 2 + 30
+        d.append(_draad([(l, b), (r, b), (r, o), (l, o), (l, b)]))
+        d.append(_draad([(m, b), (m, o)]))
+        # de weerstand in serie staat vóór de splitsing, in de bovenste draad
+        d.append(f'<rect x="{l+16}" y="{b-9}" width="44" height="18" fill="#ffffff"/>')
+        d.append(_weerstand(l + 38, b, "10 Ω"))
+        d.append(f'<rect x="{m-9}" y="{(b+o)/2-22}" width="18" height="44" fill="#ffffff"/>')
+        d.append(_weerstand(m, (b + o) / 2, "20 Ω", staand=True))
+        d.append(f'<rect x="{r-9}" y="{(b+o)/2-22}" width="18" height="44" fill="#ffffff"/>')
+        d.append(_weerstand(r, (b + o) / 2, "20 Ω", staand=True))
+        d.append(f'<rect x="{l-12}" y="{(b+o)/2-12}" width="24" height="24" fill="#ffffff"/>')
+        d.append(_bron(l, (b + o) / 2, "40 V"))
+
+    kader(0, 0, "serie: één weg")
+    serie(0, 0)
+    kader(cel_b, 0, "parallel: twee wegen")
+    parallel(cel_b, 0)
+    kader(0, cel_h, "gemengd: de twee van 20 Ω staan parallel", cel_b * 2)
+    gemengd(0, cel_h)
+    return _svg(breedte, cel_h * 2, "".join(d))

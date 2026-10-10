@@ -477,107 +477,116 @@ BUNDELS["elektrodynamica-stroom-weerstand-en-schakelingen-beyond"] = dict(
     vak=VAK, niveau=BEYOND, titel="Elektrodynamica: stroom, weerstand en schakelingen",
     onder="Stroom, spanning en weerstand, en hoe je er serie en parallel mee rekent.",
     secties=[
-        dict(kop="Stroom, spanning en weerstand", blokken=[
-            ("p", "De <strong>elektrische stroomsterkte</strong> is <strong>de lading die per "
-                  "seconde door een doorsnede gaat</strong>. Ze staat in <strong>ampère</strong>. De "
-                  "<strong>afgesproken zin van de stroom is die van de positieve lading, dus van "
-                  "plus naar min</strong>, terwijl de elektronen in werkelijkheid de andere kant op "
-                  "lopen."),
-            ("p", "In een stroomkring <strong>worden de elektronen niet door de draad "
-                  "opgebruikt</strong>: ze draaien rond en er komen er net zo veel terug als er "
-                  "vertrekken. Wat wél verbruikt wordt, is energie."),
-            ("p", "De <strong>wet van Ohm</strong> zegt dat "
-                  "<strong>de weerstand de spanning gedeeld door de stroomsterkte is</strong>, dus "
-                  "ook dat <strong>de spanning de weerstand maal de stroomsterkte is</strong>. "
-                  "<strong>Bij gelijke spanning geeft een grotere weerstand een kleinere "
-                  "stroom</strong>, en de wet <strong>geldt voor een weerstand waarvan de waarde "
-                  "niet verandert</strong>. Weerstand staat in <strong>ohm</strong>."),
-            ("p", "Drie keer rekenen. Staat er <strong>12 V</strong> over een weerstand waar "
-                  "<strong>3 A</strong> door loopt, dan is die weerstand <strong>4 Ω</strong>. Loopt "
-                  "er <strong>0,4 A</strong> door een weerstand van <strong>25 Ω</strong>, dan staat "
-                  "er <strong>10 V</strong> over. Staat een <strong>lamp van 6 Ω</strong> op een "
-                  "bron van <strong>9 V</strong>, dan loopt er <strong>1,5 A</strong>. En "
-                  "<strong>verdubbel je bij gelijke spanning de weerstand</strong>, dan "
-                  "<strong>wordt de stroom half zo groot</strong>."),
-            ("p", "De weerstand van een draad hangt af <strong>van de lengte van de draad</strong> "
-                  "en <strong>van de dikte van de draad</strong>: lang en dun geeft veel weerstand, "
-                  "kort en dik weinig. Ook de stof zelf telt mee. Een "
-                  "<strong>draad wordt warm als er stroom door loopt</strong> omdat "
-                  "<strong>de elektronen tegen de atomen van het rooster botsen</strong>."),
+        dict(kop="Stroomsterkte, spanning en weerstand", blokken=[
+            ("p", r"De <strong>elektrische stroomsterkte</strong> is de lading die per seconde door "
+                  r"een doorsnede gaat:"),
+            ("p", r"\[I = \dfrac{\Delta q}{\Delta t} \qquad\text{in}\qquad 1\ \text{A} = 1\ \text{C/s}\]"),
+            ("p", r"Het is dus niet de snelheid van één elektron en ook niet het aantal elektronen in "
+                  r"de draad. De afgesproken zin van de stroom is die van de positieve lading, van plus "
+                  r"naar min; de elektronen bewegen in werkelijkheid net de andere kant op. Die afspraak "
+                  r"dateert van voor men wist welk deeltje er beweegt."),
+            ("p", r"De <strong>wet van Ohm</strong> legt het verband tussen de drie grootheden:"),
+            ("p", r"\[U = R\,I \qquad\Longleftrightarrow\qquad R = \dfrac{U}{I} \qquad\Longleftrightarrow"
+                  r"\qquad I = \dfrac{U}{R}\]"),
+            ("p", r"met \(R\) in ohm: \(1\ \Omega = 1\ \text{V/A}\). Staat er \(12\ \text{V}\) over een "
+                  r"weerstand waar \(3{,}0\ \text{A}\) door loopt, dan is \(R = 4{,}0\ \Omega\). Loopt er "
+                  r"\(0{,}40\ \text{A}\) door \(25\ \Omega\), dan staat er \(10\ \text{V}\) over. En een "
+                  r"lamp van \(6{,}0\ \Omega\) op \(9{,}0\ \text{V}\) trekt \(1{,}5\ \text{A}\). Verdubbel "
+                  r"je bij gelijke \(U\) de weerstand, dan wordt \(I\) half zo groot."),
+            ("p", r"Let op wat \(R\) wél en niet bepaalt. De weerstand van een draad hangt af van de "
+                  r"stof, van de lengte en van de doorsnede:"),
+            ("p", r"\[R = \rho\,\dfrac{\ell}{A}\]"),
+            ("p", r"en ook van de temperatuur. \(U\) en \(I\) bepalen \(R\) niet, ze volgen er juist uit. "
+                  r"Een weerstand waarvoor \(U = R\,I\) met een vaste \(R\) opgaat, heet ohms; een "
+                  r"gloeilamp is dat niet, want warm is haar \(R\) groter."),
+            ("p", r"Een draad wordt warm omdat de elektronen tegen de atomen van het rooster botsen en "
+                  r"daarbij energie afgeven. Dat is precies wat weerstand betekent. De elektronen zelf "
+                  r"worden niet opgebruikt: er loopt er evenveel terug naar de bron als eruit vertrekt. "
+                  r"Wat opgebruikt wordt, is energie."),
         ]),
-        dict(kop="Meten en schema's", blokken=[
-            ("p", "Een <strong>ampèremeter zet je in serie</strong> met het onderdeel waarvan je de "
-                  "stroom meet, want de stroom moet er door. Hij heeft een "
-                  "<strong>heel kleine eigen weerstand</strong>, want <strong>anders verandert hij "
-                  "de stroom die hij wil meten</strong>. Het toestel dat de spanning tussen twee "
-                  "punten meet, is de <strong>voltmeter</strong>; die zet je er juist naast."),
-            ("p", "Een tekening van een stroomkring met symbolen in plaats van voorwerpen heet een "
-                  "<strong>elektrisch schema</strong>. Daarin hebben onder meer "
-                  "<strong>de schakelaar</strong> en <strong>de voltmeter</strong> hun eigen "
-                  "symbool. Een <strong>schakelaar in open stand laat de stroom niet verder "
-                  "lopen</strong>: de kring is dan onderbroken. Een "
-                  "<strong>regelbare weerstand</strong> laat je de stroom in een kring instellen."),
-            ("p", "Het verschil tussen <strong>gelijkstroom en wisselstroom</strong>: "
-                  "<strong>gelijkstroom loopt altijd in dezelfde zin</strong>, wisselstroom keert "
-                  "voortdurend van zin om. Een batterij geeft gelijkstroom, het stopcontact "
-                  "wisselstroom."),
+        dict(kop="Het elektrisch schema", blokken=[
+            ("p", r"Een <strong>elektrisch schema</strong> is een tekening van een stroomkring met "
+                  r"symbolen in plaats van voorwerpen. Het toont welke onderdelen met elkaar verbonden "
+                  r"zijn; de werkelijke plaats, de lengte of de kleur van de draden doet er niet toe."),
+            ("fig", svg.schemasymbolen(), "De symbolen die in elk schema terugkomen."),
+            ("p", r"Een <strong>ampèremeter</strong> zet je <strong>in serie</strong> met het onderdeel "
+                  r"waarvan je de stroom meet, want die stroom moet er echt door. Daarom heeft hij een "
+                  r"heel kleine eigen weerstand: anders verandert hij de stroom die hij wil meten. Een "
+                  r"<strong>voltmeter</strong> zet je er juist <strong>parallel over</strong>, want die "
+                  r"meet het verschil tussen twee punten, en hij heeft om dezelfde reden een heel grote "
+                  r"weerstand."),
+            ("p", r"Een open schakelaar onderbreekt de kring, en dan loopt er nergens stroom: de stroom "
+                  r"heeft een gesloten weg nodig. En het verschil tussen gelijk- en wisselstroom: "
+                  r"<strong>gelijkstroom loopt altijd in dezelfde zin</strong>. Een batterij levert "
+                  r"gelijkstroom, het stopcontact wisselstroom, waarbij de zin voortdurend omkeert."),
         ]),
-        dict(kop="Serieschakeling", blokken=[
-            ("p", "In een <strong>serieschakeling</strong> is de "
-                  "<strong>stroomsterkte in elk onderdeel even groot</strong>; dat is dus "
-                  "<strong>de grootheid die overal even groot is</strong>. Verder geldt: "
-                  "<strong>de spanningen over de weerstanden tellen samen tot de "
-                  "bronspanning</strong>, en de <strong>vervangingsweerstand is de som van de "
-                  "weerstanden</strong>. De <strong>som van de deelspanningen is dus niet groter dan "
-                  "de bronspanning</strong>, maar precies gelijk."),
-            ("p", "Die ene weerstand die je in de plaats van een hele schakeling mag denken, heet "
-                  "de <strong>vervangingsweerstand</strong>. Twee weerstanden van "
-                  "<strong>4 Ω en 6 Ω in serie</strong> geven <strong>10 Ω</strong>."),
-            ("p", "Rekenen met drie weerstanden: <strong>2 Ω, 3 Ω en 5 Ω in serie op een bron van "
-                  "20 V</strong> geven samen 10 Ω, dus loopt er <strong>2 A</strong>. Over de "
-                  "weerstand van <strong>3 Ω</strong> staat dan <strong>6 V</strong>."),
-            ("p", "Omdat de stroom door alles moet, dooft <strong>één kapotte lamp de hele "
-                  "reeks</strong> als de lampen <strong>in serie</strong> staan. Dan "
-                  "<strong>blijft de rest dus niet werken</strong>."),
-        ]),
-        dict(kop="Parallelschakeling", blokken=[
-            ("p", "In een <strong>parallelschakeling</strong> staat "
-                  "<strong>over elke tak dezelfde spanning</strong> en "
-                  "<strong>tellen de stromen van de takken samen tot de hoofdstroom</strong>; "
-                  "<strong>de totale stroom is dus de som van de deelstromen</strong>. "
-                  "<strong>Door de kleinste weerstand loopt de grootste stroom</strong>, en "
-                  "<strong>door elke tak loopt dus niet dezelfde stroom</strong>."),
-            ("p", "De <strong>vervangingsweerstand is kleiner dan de kleinste weerstand</strong>: "
-                  "<strong>hoe meer weerstanden je parallel bijzet, hoe kleiner de totale weerstand "
-                  "wordt</strong>. <strong>Twee gelijke weerstanden parallel geven samen de helft "
-                  "van één ervan.</strong> Twee weerstanden van <strong>4 Ω en 6 Ω parallel</strong> "
-                  "geven <strong>2,4 Ω</strong>."),
-            ("p", "Staan <strong>6 Ω en 12 Ω parallel op 24 V</strong>, dan loopt er 4 A door de "
-                  "eerste en 2 A door de tweede, dus <strong>levert de bron 6 A</strong>."),
-            ("p", "Omdat <strong>elke lamp haar eigen weg naar de bron heeft</strong>, "
-                  "<strong>blijven de andere lampen branden als er in een parallelschakeling één "
-                  "lamp stukgaat</strong>. Daarom staan de lampen in een huis parallel."),
+        dict(kop="Serie en parallel", blokken=[
+            ("p", r"De ene weerstand die je in de plaats van een hele schakeling mag denken, heet de "
+                  r"<strong>vervangingsweerstand</strong> \(R_{v}\) (ook vervangweerstand of "
+                  r"substitutieweerstand). Ze geeft bij dezelfde spanning dezelfde totale stroom, en "
+                  r"daarmee reken je een schakeling stap voor stap uit."),
+            ("p", r"In een <strong>serieschakeling</strong> is er maar één weg. De stroom is dus in elk "
+                  r"onderdeel even groot, de deelspanningen tellen samen tot de bronspanning (nooit meer "
+                  r"dan dat), en de weerstanden tellen gewoon op:"),
+            ("p", r"\[R_{v} = R_{1} + R_{2} + R_{3}\]"),
+            ("p", r"In een <strong>parallelschakeling</strong> heeft elke tak zijn eigen weg naar de "
+                  r"bron. Over elke tak staat dezelfde spanning, de deelstromen van de takken tellen "
+                  r"samen tot de hoofdstroom, en door de kleinste weerstand loopt de grootste stroom:"),
+            ("p", r"\[\dfrac{1}{R_{v}} = \dfrac{1}{R_{1}} + \dfrac{1}{R_{2}} \qquad\text{of, voor twee "
+                  r"weerstanden,}\qquad R_{v} = \dfrac{R_{1}R_{2}}{R_{1}+R_{2}}\]"),
+            ("fig", svg.schakelingen(), "Dezelfde kringen als in de rekenvoorbeelden hieronder."),
+            ("p", r"Twee weerstanden van \(4{,}0\ \Omega\) en \(6{,}0\ \Omega\) geven in serie "
+                  r"\(10\ \Omega\) en parallel \(\dfrac{24}{10} = 2{,}4\ \Omega\). In serie ligt "
+                  r"\(R_{v}\) dus altijd boven de grootste, parallel altijd onder de kleinste. Bij "
+                  r"\(n\) gelijke weerstanden parallel is \(R_{v} = \dfrac{R}{n}\): twee van "
+                  r"\(10\ \Omega\) geven \(5{,}0\ \Omega\)."),
+            ("p", r"Staan \(2{,}0\ \Omega\), \(3{,}0\ \Omega\) en \(5{,}0\ \Omega\) in serie op "
+                  r"\(20\ \text{V}\), dan is \(R_{v} = 10\ \Omega\) en \(I = 2{,}0\ \text{A}\) door alle "
+                  r"drie. Over de \(3{,}0\ \Omega\) staat dan \(3{,}0 \cdot 2{,}0 = 6{,}0\ \text{V}\), en "
+                  r"de drie deelspanningen \(4{,}0 + 6{,}0 + 10 = 20\ \text{V}\) kloppen weer met de bron."),
+            ("p", r"Staan \(6{,}0\ \Omega\) en \(12\ \Omega\) parallel op \(24\ \text{V}\), dan loopt er "
+                  r"\(4{,}0\ \text{A}\) door de eerste en \(2{,}0\ \text{A}\) door de tweede, dus levert "
+                  r"de bron \(6{,}0\ \text{A}\). Dat klopt met \(R_{v} = 4{,}0\ \Omega\)."),
+            ("p", r"Omdat elke lamp haar eigen weg naar de bron heeft, blijven de andere lampen branden "
+                  r"als er in een parallelschakeling één lamp stukgaat. Staan de lampen in serie "
+                  r"geschakeld, dan dooft één kapotte lamp de hele reeks, want dan is de kring "
+                  r"onderbroken. Daarom staan de lampen in een huis parallel."),
         ]),
         dict(kop="Gemengde schakelingen", blokken=[
-            ("p", "Bij een <strong>gemengde schakeling reken je eerst het parallelle stuk uit en "
-                  "pas daarna de serie</strong>. Je vervangt het parallelle stuk door één weerstand "
-                  "en houdt zo een gewone serieschakeling over."),
-            ("p", "Een voorbeeld dat in drie stappen gaat. Een weerstand van "
-                  "<strong>10 Ω in serie met twee parallelle weerstanden van elk 20 Ω</strong>: die "
-                  "twee geven samen 10 Ω, dus is de totale weerstand <strong>20 Ω</strong>. Staat "
-                  "die schakeling op <strong>40 V</strong>, dan levert de bron "
-                  "<strong>2 A</strong>. Over het <strong>parallelle stuk</strong> staat dan "
-                  "2 A maal 10 Ω, dus <strong>20 V</strong>."),
+            ("p", r"Bij een gemengde schakeling werk je <strong>van binnen naar buiten</strong>: eerst "
+                  r"het parallelle stuk, dan de serie. Je vervangt het parallelle stuk door één "
+                  r"weerstand en houdt een gewone serieschakeling over."),
+            ("p", r"Neem \(10\ \Omega\) in serie met twee parallelle weerstanden van elk \(20\ \Omega\), "
+                  r"op \(40\ \text{V}\). In drie stappen:"),
+            ("p", r"\[R_{\text{par}} = \dfrac{20}{2} = 10\ \Omega \qquad R_{v} = 10 + 10 = 20\ \Omega "
+                  r"\qquad I = \dfrac{40}{20} = 2{,}0\ \text{A}\]"),
+            ("p", r"Die hele \(2{,}0\ \text{A}\) gaat door de weerstand van \(10\ \Omega\), waarover dus "
+                  r"\(10 \cdot 2{,}0 = 20\ \text{V}\) staat. Van de \(40\ \text{V}\) blijft er dan "
+                  r"\(20\ \text{V}\) over voor het parallelle stuk, en door elke tak van \(20\ \Omega\) "
+                  r"loopt \(\dfrac{20}{20} = 1{,}0\ \text{A}\). Samen weer \(2{,}0\ \text{A}\): dat is "
+                  r"je controle."),
+        ]),
+        dict(kop="Vermogen en energie", blokken=[
+            ("p", r"Het <strong>vermogen</strong> dat een toestel omzet, is"),
+            ("p", r"\[P = U\,I = R\,I^{2} = \dfrac{U^{2}}{R} \qquad\text{in watt:}\qquad "
+                  r"1\ \text{W} = 1\ \text{J/s}\]"),
+            ("p", r"en de energie die het over een tijd \(t\) verbruikt is \(E = P\,t\), in joule of in "
+                  r"kilowattuur (\(1\ \text{kWh} = 3{,}6\cdot 10^{6}\ \text{J}\)). Dat \(P = R\,I^{2}\) "
+                  r"verklaart waarom men elektriciteit over grote afstand bij een heel hoge spanning "
+                  r"vervoert: bij een hoge \(U\) volstaat een kleine \(I\) voor hetzelfde vermogen, en de "
+                  r"verliezen in de kabels gaan met het kwadraat van die stroom."),
         ]),
     ],
     onthoud=[
-        "Stroomsterkte is lading per seconde, in ampère.",
-        "Wet van Ohm: U = R · I.",
-        "Een ampèremeter staat in serie, een voltmeter ernaast.",
-        "In serie: dezelfde stroom, spanningen tellen op, weerstanden tellen op.",
-        "Parallel: dezelfde spanning, stromen tellen op, totale weerstand daalt.",
-        "Twee gelijke weerstanden parallel geven de helft.",
-        "Gemengd: eerst het parallelle stuk, dan de serie.",
+        r"\(I = \dfrac{\Delta q}{\Delta t}\), in \(\text{A} = \text{C/s}\).",
+        r"Wet van Ohm: \(U = R\,I\), met \(1\ \Omega = 1\ \text{V/A}\).",
+        r"\(R = \rho\dfrac{\ell}{A}\): stof, lengte en doorsnede, niet \(U\) of \(I\).",
+        r"Een ampèremeter staat in serie, een voltmeter ernaast.",
+        r"Serie: dezelfde \(I\), spanningen tellen op, \(R_{v} = R_{1}+R_{2}\).",
+        r"Parallel: dezelfde \(U\), stromen tellen op, \(\dfrac{1}{R_{v}} = \dfrac{1}{R_{1}}+\dfrac{1}{R_{2}}\).",
+        r"\(n\) gelijke weerstanden parallel geven \(\dfrac{R}{n}\).",
+        r"Gemengd: eerst het parallelle stuk, dan de serie.",
+        r"\(P = U\,I = R\,I^{2} = \dfrac{U^{2}}{R}\), in watt.",
     ],
 )
 

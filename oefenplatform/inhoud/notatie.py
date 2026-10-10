@@ -29,3 +29,15 @@ def zichtbaar(tekst: str) -> str:
     tekst = MARKERING.sub("", tekst)
     tekst = COMMANDO.sub(r"\1", tekst)
     return tekst.replace("{", "").replace("}", "")
+
+
+def zonder_notatie(tekst: str) -> str:
+    r"""De tekst zonder enige LaTeX, ook zonder de namen van de commando's.
+
+    `zichtbaar` laat die namen met opzet staan, want daar weegt een grote
+    formule mee. Voor wie woorden telt, zoals de dekkingscontrole van de
+    leerbundels, zijn ze juist ruis: \tfrac{R}{2} is geen woord "tfracr2".
+    """
+    tekst = MARKERING.sub(" ", tekst)
+    tekst = COMMANDO.sub(" ", tekst)
+    return tekst.replace("{", " ").replace("}", " ")

@@ -4,86 +4,115 @@
  "onder": "Stroom, spanning en weerstand, en hoe je er serie en parallel mee rekent.",
  "secties": [
   {
-   "kop": "Stroom, spanning en weerstand",
+   "kop": "Stroomsterkte, spanning en weerstand",
    "blokken": [
     {
      "soort": "tekst",
-     "html": "De <strong>elektrische stroomsterkte</strong> is <strong>de lading die per seconde door een doorsnede gaat</strong>. Ze staat in <strong>ampère</strong>. De <strong>afgesproken zin van de stroom is die van de positieve lading, dus van plus naar min</strong>, terwijl de elektronen in werkelijkheid de andere kant op lopen."
+     "html": "De <strong>elektrische stroomsterkte</strong> is de lading die per seconde door een doorsnede gaat:"
     },
     {
      "soort": "tekst",
-     "html": "In een stroomkring <strong>worden de elektronen niet door de draad opgebruikt</strong>: ze draaien rond en er komen er net zo veel terug als er vertrekken. Wat wél verbruikt wordt, is energie."
+     "html": "\\[I = \\dfrac{\\Delta q}{\\Delta t} \\qquad\\text{in}\\qquad 1\\ \\text{A} = 1\\ \\text{C/s}\\]"
     },
     {
      "soort": "tekst",
-     "html": "De <strong>wet van Ohm</strong> zegt dat <strong>de weerstand de spanning gedeeld door de stroomsterkte is</strong>, dus ook dat <strong>de spanning de weerstand maal de stroomsterkte is</strong>. <strong>Bij gelijke spanning geeft een grotere weerstand een kleinere stroom</strong>, en de wet <strong>geldt voor een weerstand waarvan de waarde niet verandert</strong>. Weerstand staat in <strong>ohm</strong>."
+     "html": "Het is dus niet de snelheid van één elektron en ook niet het aantal elektronen in de draad. De afgesproken zin van de stroom is die van de positieve lading, van plus naar min; de elektronen bewegen in werkelijkheid net de andere kant op. Die afspraak dateert van voor men wist welk deeltje er beweegt."
     },
     {
      "soort": "tekst",
-     "html": "Drie keer rekenen. Staat er <strong>12 V</strong> over een weerstand waar <strong>3 A</strong> door loopt, dan is die weerstand <strong>4 Ω</strong>. Loopt er <strong>0,4 A</strong> door een weerstand van <strong>25 Ω</strong>, dan staat er <strong>10 V</strong> over. Staat een <strong>lamp van 6 Ω</strong> op een bron van <strong>9 V</strong>, dan loopt er <strong>1,5 A</strong>. En <strong>verdubbel je bij gelijke spanning de weerstand</strong>, dan <strong>wordt de stroom half zo groot</strong>."
+     "html": "De <strong>wet van Ohm</strong> legt het verband tussen de drie grootheden:"
     },
     {
      "soort": "tekst",
-     "html": "De weerstand van een draad hangt af <strong>van de lengte van de draad</strong> en <strong>van de dikte van de draad</strong>: lang en dun geeft veel weerstand, kort en dik weinig. Ook de stof zelf telt mee. Een <strong>draad wordt warm als er stroom door loopt</strong> omdat <strong>de elektronen tegen de atomen van het rooster botsen</strong>."
+     "html": "\\[U = R\\,I \\qquad\\Longleftrightarrow\\qquad R = \\dfrac{U}{I} \\qquad\\Longleftrightarrow\\qquad I = \\dfrac{U}{R}\\]"
+    },
+    {
+     "soort": "tekst",
+     "html": "met \\(R\\) in ohm: \\(1\\ \\Omega = 1\\ \\text{V/A}\\). Staat er \\(12\\ \\text{V}\\) over een weerstand waar \\(3{,}0\\ \\text{A}\\) door loopt, dan is \\(R = 4{,}0\\ \\Omega\\). Loopt er \\(0{,}40\\ \\text{A}\\) door \\(25\\ \\Omega\\), dan staat er \\(10\\ \\text{V}\\) over. En een lamp van \\(6{,}0\\ \\Omega\\) op \\(9{,}0\\ \\text{V}\\) trekt \\(1{,}5\\ \\text{A}\\). Verdubbel je bij gelijke \\(U\\) de weerstand, dan wordt \\(I\\) half zo groot."
+    },
+    {
+     "soort": "tekst",
+     "html": "Let op wat \\(R\\) wél en niet bepaalt. De weerstand van een draad hangt af van de stof, van de lengte en van de doorsnede:"
+    },
+    {
+     "soort": "tekst",
+     "html": "\\[R = \\rho\\,\\dfrac{\\ell}{A}\\]"
+    },
+    {
+     "soort": "tekst",
+     "html": "en ook van de temperatuur. \\(U\\) en \\(I\\) bepalen \\(R\\) niet, ze volgen er juist uit. Een weerstand waarvoor \\(U = R\\,I\\) met een vaste \\(R\\) opgaat, heet ohms; een gloeilamp is dat niet, want warm is haar \\(R\\) groter."
+    },
+    {
+     "soort": "tekst",
+     "html": "Een draad wordt warm omdat de elektronen tegen de atomen van het rooster botsen en daarbij energie afgeven. Dat is precies wat weerstand betekent. De elektronen zelf worden niet opgebruikt: er loopt er evenveel terug naar de bron als eruit vertrekt. Wat opgebruikt wordt, is energie."
     }
    ]
   },
   {
-   "kop": "Meten en schema's",
+   "kop": "Het elektrisch schema",
    "blokken": [
     {
      "soort": "tekst",
-     "html": "Een <strong>ampèremeter zet je in serie</strong> met het onderdeel waarvan je de stroom meet, want de stroom moet er door. Hij heeft een <strong>heel kleine eigen weerstand</strong>, want <strong>anders verandert hij de stroom die hij wil meten</strong>. Het toestel dat de spanning tussen twee punten meet, is de <strong>voltmeter</strong>; die zet je er juist naast."
+     "html": "Een <strong>elektrisch schema</strong> is een tekening van een stroomkring met symbolen in plaats van voorwerpen. Het toont welke onderdelen met elkaar verbonden zijn; de werkelijke plaats, de lengte of de kleur van de draden doet er niet toe."
+    },
+    {
+     "soort": "figuur",
+     "html": "<svg viewBox=\"0 0 470 68\" width=\"470\" xmlns=\"http://www.w3.org/2000/svg\"><line x1=\"8\" y1=\"30\" x2=\"22.0\" y2=\"30\" stroke=\"#2f5d50\" stroke-width=\"1.6\"/><line x1=\"56.0\" y1=\"30\" x2=\"70\" y2=\"30\" stroke=\"#2f5d50\" stroke-width=\"1.6\"/><line x1=\"35.0\" y1=\"19\" x2=\"35.0\" y2=\"41\" stroke=\"#2f5d50\" stroke-width=\"1.6\"/><line x1=\"43.0\" y1=\"24\" x2=\"43.0\" y2=\"36\" stroke=\"#2f5d50\" stroke-width=\"3.4\"/><text x=\"39.0\" y=\"58.0\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"9.5\" fill=\"#6b7260\">spanningsbron</text><line x1=\"86\" y1=\"30\" x2=\"100.0\" y2=\"30\" stroke=\"#2f5d50\" stroke-width=\"1.6\"/><line x1=\"134.0\" y1=\"30\" x2=\"148\" y2=\"30\" stroke=\"#2f5d50\" stroke-width=\"1.6\"/><rect x=\"100.0\" y=\"22.5\" width=\"34\" height=\"15\" rx=\"2\" fill=\"#ffffff\" stroke=\"#2f5d50\" stroke-width=\"1.6\"/><text x=\"117.0\" y=\"58.0\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"9.5\" fill=\"#6b7260\">weerstand</text><line x1=\"164\" y1=\"30\" x2=\"178.0\" y2=\"30\" stroke=\"#2f5d50\" stroke-width=\"1.6\"/><line x1=\"212.0\" y1=\"30\" x2=\"226\" y2=\"30\" stroke=\"#2f5d50\" stroke-width=\"1.6\"/><circle cx=\"195.0\" cy=\"30\" r=\"11\" fill=\"#ffffff\" stroke=\"#2f5d50\" stroke-width=\"1.6\"/><line x1=\"187.2\" y1=\"22.2\" x2=\"202.8\" y2=\"37.8\" stroke=\"#2f5d50\" stroke-width=\"1.4\"/><line x1=\"187.2\" y1=\"37.8\" x2=\"202.8\" y2=\"22.2\" stroke=\"#2f5d50\" stroke-width=\"1.4\"/><text x=\"195.0\" y=\"58.0\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"9.5\" fill=\"#6b7260\">lamp</text><line x1=\"242\" y1=\"30\" x2=\"256.0\" y2=\"30\" stroke=\"#2f5d50\" stroke-width=\"1.6\"/><line x1=\"290.0\" y1=\"30\" x2=\"304\" y2=\"30\" stroke=\"#2f5d50\" stroke-width=\"1.6\"/><circle cx=\"262.0\" cy=\"30\" r=\"2.2\" fill=\"#2f5d50\"/><circle cx=\"284.0\" cy=\"30\" r=\"2.2\" fill=\"#2f5d50\"/><line x1=\"262.0\" y1=\"30\" x2=\"282.0\" y2=\"18\" stroke=\"#2f5d50\" stroke-width=\"1.6\"/><text x=\"273.0\" y=\"58.0\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"9.5\" fill=\"#6b7260\">schakelaar</text><line x1=\"320\" y1=\"30\" x2=\"334.0\" y2=\"30\" stroke=\"#2f5d50\" stroke-width=\"1.6\"/><line x1=\"368.0\" y1=\"30\" x2=\"382\" y2=\"30\" stroke=\"#2f5d50\" stroke-width=\"1.6\"/><circle cx=\"351.0\" cy=\"30\" r=\"11\" fill=\"#ffffff\" stroke=\"#2f5d50\" stroke-width=\"1.6\"/><text x=\"351.0\" y=\"34.0\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"11\" font-weight=\"600\" fill=\"#234539\">A</text><text x=\"351.0\" y=\"58.0\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"9.5\" fill=\"#6b7260\">ampèremeter</text><line x1=\"398\" y1=\"30\" x2=\"412.0\" y2=\"30\" stroke=\"#2f5d50\" stroke-width=\"1.6\"/><line x1=\"446.0\" y1=\"30\" x2=\"460\" y2=\"30\" stroke=\"#2f5d50\" stroke-width=\"1.6\"/><circle cx=\"429.0\" cy=\"30\" r=\"11\" fill=\"#ffffff\" stroke=\"#2f5d50\" stroke-width=\"1.6\"/><text x=\"429.0\" y=\"34.0\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"11\" font-weight=\"600\" fill=\"#234539\">V</text><text x=\"429.0\" y=\"58.0\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"9.5\" fill=\"#6b7260\">voltmeter</text></svg>",
+     "onderschrift": "De symbolen die in elk schema terugkomen."
     },
     {
      "soort": "tekst",
-     "html": "Een tekening van een stroomkring met symbolen in plaats van voorwerpen heet een <strong>elektrisch schema</strong>. Daarin hebben onder meer <strong>de schakelaar</strong> en <strong>de voltmeter</strong> hun eigen symbool. Een <strong>schakelaar in open stand laat de stroom niet verder lopen</strong>: de kring is dan onderbroken. Een <strong>regelbare weerstand</strong> laat je de stroom in een kring instellen."
+     "html": "Een <strong>ampèremeter</strong> zet je <strong>in serie</strong> met het onderdeel waarvan je de stroom meet, want die stroom moet er echt door. Daarom heeft hij een heel kleine eigen weerstand: anders verandert hij de stroom die hij wil meten. Een <strong>voltmeter</strong> zet je er juist <strong>parallel over</strong>, want die meet het verschil tussen twee punten, en hij heeft om dezelfde reden een heel grote weerstand."
     },
     {
      "soort": "tekst",
-     "html": "Het verschil tussen <strong>gelijkstroom en wisselstroom</strong>: <strong>gelijkstroom loopt altijd in dezelfde zin</strong>, wisselstroom keert voortdurend van zin om. Een batterij geeft gelijkstroom, het stopcontact wisselstroom."
+     "html": "Een open schakelaar onderbreekt de kring, en dan loopt er nergens stroom: de stroom heeft een gesloten weg nodig. En het verschil tussen gelijk- en wisselstroom: <strong>gelijkstroom loopt altijd in dezelfde zin</strong>. Een batterij levert gelijkstroom, het stopcontact wisselstroom, waarbij de zin voortdurend omkeert."
     }
    ]
   },
   {
-   "kop": "Serieschakeling",
+   "kop": "Serie en parallel",
    "blokken": [
     {
      "soort": "tekst",
-     "html": "In een <strong>serieschakeling</strong> is de <strong>stroomsterkte in elk onderdeel even groot</strong>; dat is dus <strong>de grootheid die overal even groot is</strong>. Verder geldt: <strong>de spanningen over de weerstanden tellen samen tot de bronspanning</strong>, en de <strong>vervangingsweerstand is de som van de weerstanden</strong>. De <strong>som van de deelspanningen is dus niet groter dan de bronspanning</strong>, maar precies gelijk."
+     "html": "De ene weerstand die je in de plaats van een hele schakeling mag denken, heet de <strong>vervangingsweerstand</strong> \\(R_{v}\\) (ook vervangweerstand of substitutieweerstand). Ze geeft bij dezelfde spanning dezelfde totale stroom, en daarmee reken je een schakeling stap voor stap uit."
     },
     {
      "soort": "tekst",
-     "html": "Die ene weerstand die je in de plaats van een hele schakeling mag denken, heet de <strong>vervangingsweerstand</strong>. Twee weerstanden van <strong>4 Ω en 6 Ω in serie</strong> geven <strong>10 Ω</strong>."
+     "html": "In een <strong>serieschakeling</strong> is er maar één weg. De stroom is dus in elk onderdeel even groot, de deelspanningen tellen samen tot de bronspanning (nooit meer dan dat), en de weerstanden tellen gewoon op:"
     },
     {
      "soort": "tekst",
-     "html": "Rekenen met drie weerstanden: <strong>2 Ω, 3 Ω en 5 Ω in serie op een bron van 20 V</strong> geven samen 10 Ω, dus loopt er <strong>2 A</strong>. Over de weerstand van <strong>3 Ω</strong> staat dan <strong>6 V</strong>."
+     "html": "\\[R_{v} = R_{1} + R_{2} + R_{3}\\]"
     },
     {
      "soort": "tekst",
-     "html": "Omdat de stroom door alles moet, dooft <strong>één kapotte lamp de hele reeks</strong> als de lampen <strong>in serie</strong> staan. Dan <strong>blijft de rest dus niet werken</strong>."
-    }
-   ]
-  },
-  {
-   "kop": "Parallelschakeling",
-   "blokken": [
-    {
-     "soort": "tekst",
-     "html": "In een <strong>parallelschakeling</strong> staat <strong>over elke tak dezelfde spanning</strong> en <strong>tellen de stromen van de takken samen tot de hoofdstroom</strong>; <strong>de totale stroom is dus de som van de deelstromen</strong>. <strong>Door de kleinste weerstand loopt de grootste stroom</strong>, en <strong>door elke tak loopt dus niet dezelfde stroom</strong>."
+     "html": "In een <strong>parallelschakeling</strong> heeft elke tak zijn eigen weg naar de bron. Over elke tak staat dezelfde spanning, de deelstromen van de takken tellen samen tot de hoofdstroom, en door de kleinste weerstand loopt de grootste stroom:"
     },
     {
      "soort": "tekst",
-     "html": "De <strong>vervangingsweerstand is kleiner dan de kleinste weerstand</strong>: <strong>hoe meer weerstanden je parallel bijzet, hoe kleiner de totale weerstand wordt</strong>. <strong>Twee gelijke weerstanden parallel geven samen de helft van één ervan.</strong> Twee weerstanden van <strong>4 Ω en 6 Ω parallel</strong> geven <strong>2,4 Ω</strong>."
+     "html": "\\[\\dfrac{1}{R_{v}} = \\dfrac{1}{R_{1}} + \\dfrac{1}{R_{2}} \\qquad\\text{of, voor twee weerstanden,}\\qquad R_{v} = \\dfrac{R_{1}R_{2}}{R_{1}+R_{2}}\\]"
+    },
+    {
+     "soort": "figuur",
+     "html": "<svg viewBox=\"0 0 470 336\" width=\"470\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"6\" y=\"4\" width=\"222\" height=\"140\" rx=\"8\" fill=\"#ffffff\" stroke=\"#e4ded0\" stroke-width=\"1.2\"/><text x=\"117.0\" y=\"160.0\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"10\" font-weight=\"600\" fill=\"#6b7260\">serie: één weg</text><path d=\"M36.0 32.0 L198.0 32.0 L198.0 108.0 L36.0 108.0 L36.0 32.0\" fill=\"none\" stroke=\"#2f5d50\" stroke-width=\"1.6\" stroke-linejoin=\"round\"/><rect x=\"64\" y=\"23\" width=\"44\" height=\"18\" fill=\"#ffffff\"/><rect x=\"64.0\" y=\"23.5\" width=\"44\" height=\"17\" rx=\"2\" fill=\"#ffffff\" stroke=\"#2f5d50\" stroke-width=\"1.6\"/><text x=\"86.0\" y=\"17.5\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"10\" fill=\"#23291f\">4,0 Ω</text><rect x=\"126\" y=\"23\" width=\"44\" height=\"18\" fill=\"#ffffff\"/><rect x=\"126.0\" y=\"23.5\" width=\"44\" height=\"17\" rx=\"2\" fill=\"#ffffff\" stroke=\"#2f5d50\" stroke-width=\"1.6\"/><text x=\"148.0\" y=\"17.5\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"10\" fill=\"#23291f\">6,0 Ω</text><rect x=\"24\" y=\"58.0\" width=\"24\" height=\"24\" fill=\"#ffffff\"/><line x1=\"25\" y1=\"66.0\" x2=\"47\" y2=\"66.0\" stroke=\"#2f5d50\" stroke-width=\"1.6\"/><line x1=\"30\" y1=\"74.0\" x2=\"42\" y2=\"74.0\" stroke=\"#2f5d50\" stroke-width=\"3.4\"/><text x=\"52.0\" y=\"74.0\" text-anchor=\"start\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"10\" fill=\"#23291f\">20 V</text><rect x=\"240\" y=\"4\" width=\"222\" height=\"140\" rx=\"8\" fill=\"#ffffff\" stroke=\"#e4ded0\" stroke-width=\"1.2\"/><text x=\"351.0\" y=\"160.0\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"10\" font-weight=\"600\" fill=\"#6b7260\">parallel: twee wegen</text><path d=\"M264.0 30.0 L410.0 30.0 L410.0 110.0 L264.0 110.0 L264.0 30.0\" fill=\"none\" stroke=\"#2f5d50\" stroke-width=\"1.6\" stroke-linejoin=\"round\"/><path d=\"M357.0 30.0 L357.0 110.0\" fill=\"none\" stroke=\"#2f5d50\" stroke-width=\"1.6\" stroke-linejoin=\"round\"/><rect x=\"348.0\" y=\"48.0\" width=\"18\" height=\"44\" fill=\"#ffffff\"/><rect x=\"348.5\" y=\"48.0\" width=\"17\" height=\"44\" rx=\"2\" fill=\"#ffffff\" stroke=\"#2f5d50\" stroke-width=\"1.6\"/><text x=\"371.5\" y=\"74.0\" text-anchor=\"start\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"10\" fill=\"#23291f\">6,0 Ω</text><rect x=\"401\" y=\"48.0\" width=\"18\" height=\"44\" fill=\"#ffffff\"/><rect x=\"401.5\" y=\"48.0\" width=\"17\" height=\"44\" rx=\"2\" fill=\"#ffffff\" stroke=\"#2f5d50\" stroke-width=\"1.6\"/><text x=\"424.5\" y=\"74.0\" text-anchor=\"start\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"10\" fill=\"#23291f\">12 Ω</text><rect x=\"252\" y=\"58.0\" width=\"24\" height=\"24\" fill=\"#ffffff\"/><line x1=\"253\" y1=\"66.0\" x2=\"275\" y2=\"66.0\" stroke=\"#2f5d50\" stroke-width=\"1.6\"/><line x1=\"258\" y1=\"74.0\" x2=\"270\" y2=\"74.0\" stroke=\"#2f5d50\" stroke-width=\"3.4\"/><text x=\"280.0\" y=\"74.0\" text-anchor=\"start\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"10\" fill=\"#23291f\">24 V</text><rect x=\"6\" y=\"172\" width=\"456\" height=\"140\" rx=\"8\" fill=\"#ffffff\" stroke=\"#e4ded0\" stroke-width=\"1.2\"/><text x=\"234.0\" y=\"328.0\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"10\" font-weight=\"600\" fill=\"#6b7260\">gemengd: de twee van 20 Ω staan parallel</text><path d=\"M120.0 198.0 L318.0 198.0 L318.0 278.0 L120.0 278.0 L120.0 198.0\" fill=\"none\" stroke=\"#2f5d50\" stroke-width=\"1.6\" stroke-linejoin=\"round\"/><path d=\"M249.0 198.0 L249.0 278.0\" fill=\"none\" stroke=\"#2f5d50\" stroke-width=\"1.6\" stroke-linejoin=\"round\"/><rect x=\"136\" y=\"189\" width=\"44\" height=\"18\" fill=\"#ffffff\"/><rect x=\"136.0\" y=\"189.5\" width=\"44\" height=\"17\" rx=\"2\" fill=\"#ffffff\" stroke=\"#2f5d50\" stroke-width=\"1.6\"/><text x=\"158.0\" y=\"183.5\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"10\" fill=\"#23291f\">10 Ω</text><rect x=\"240.0\" y=\"216.0\" width=\"18\" height=\"44\" fill=\"#ffffff\"/><rect x=\"240.5\" y=\"216.0\" width=\"17\" height=\"44\" rx=\"2\" fill=\"#ffffff\" stroke=\"#2f5d50\" stroke-width=\"1.6\"/><text x=\"263.5\" y=\"242.0\" text-anchor=\"start\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"10\" fill=\"#23291f\">20 Ω</text><rect x=\"309\" y=\"216.0\" width=\"18\" height=\"44\" fill=\"#ffffff\"/><rect x=\"309.5\" y=\"216.0\" width=\"17\" height=\"44\" rx=\"2\" fill=\"#ffffff\" stroke=\"#2f5d50\" stroke-width=\"1.6\"/><text x=\"332.5\" y=\"242.0\" text-anchor=\"start\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"10\" fill=\"#23291f\">20 Ω</text><rect x=\"108\" y=\"226.0\" width=\"24\" height=\"24\" fill=\"#ffffff\"/><line x1=\"109\" y1=\"234.0\" x2=\"131\" y2=\"234.0\" stroke=\"#2f5d50\" stroke-width=\"1.6\"/><line x1=\"114\" y1=\"242.0\" x2=\"126\" y2=\"242.0\" stroke=\"#2f5d50\" stroke-width=\"3.4\"/><text x=\"136.0\" y=\"242.0\" text-anchor=\"start\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"10\" fill=\"#23291f\">40 V</text></svg>",
+     "onderschrift": "Dezelfde kringen als in de rekenvoorbeelden hieronder."
     },
     {
      "soort": "tekst",
-     "html": "Staan <strong>6 Ω en 12 Ω parallel op 24 V</strong>, dan loopt er 4 A door de eerste en 2 A door de tweede, dus <strong>levert de bron 6 A</strong>."
+     "html": "Twee weerstanden van \\(4{,}0\\ \\Omega\\) en \\(6{,}0\\ \\Omega\\) geven in serie \\(10\\ \\Omega\\) en parallel \\(\\dfrac{24}{10} = 2{,}4\\ \\Omega\\). In serie ligt \\(R_{v}\\) dus altijd boven de grootste, parallel altijd onder de kleinste. Bij \\(n\\) gelijke weerstanden parallel is \\(R_{v} = \\dfrac{R}{n}\\): twee van \\(10\\ \\Omega\\) geven \\(5{,}0\\ \\Omega\\)."
     },
     {
      "soort": "tekst",
-     "html": "Omdat <strong>elke lamp haar eigen weg naar de bron heeft</strong>, <strong>blijven de andere lampen branden als er in een parallelschakeling één lamp stukgaat</strong>. Daarom staan de lampen in een huis parallel."
+     "html": "Staan \\(2{,}0\\ \\Omega\\), \\(3{,}0\\ \\Omega\\) en \\(5{,}0\\ \\Omega\\) in serie op \\(20\\ \\text{V}\\), dan is \\(R_{v} = 10\\ \\Omega\\) en \\(I = 2{,}0\\ \\text{A}\\) door alle drie. Over de \\(3{,}0\\ \\Omega\\) staat dan \\(3{,}0 \\cdot 2{,}0 = 6{,}0\\ \\text{V}\\), en de drie deelspanningen \\(4{,}0 + 6{,}0 + 10 = 20\\ \\text{V}\\) kloppen weer met de bron."
+    },
+    {
+     "soort": "tekst",
+     "html": "Staan \\(6{,}0\\ \\Omega\\) en \\(12\\ \\Omega\\) parallel op \\(24\\ \\text{V}\\), dan loopt er \\(4{,}0\\ \\text{A}\\) door de eerste en \\(2{,}0\\ \\text{A}\\) door de tweede, dus levert de bron \\(6{,}0\\ \\text{A}\\). Dat klopt met \\(R_{v} = 4{,}0\\ \\Omega\\)."
+    },
+    {
+     "soort": "tekst",
+     "html": "Omdat elke lamp haar eigen weg naar de bron heeft, blijven de andere lampen branden als er in een parallelschakeling één lamp stukgaat. Staan de lampen in serie geschakeld, dan dooft één kapotte lamp de hele reeks, want dan is de kring onderbroken. Daarom staan de lampen in een huis parallel."
     }
    ]
   },
@@ -92,22 +121,49 @@
    "blokken": [
     {
      "soort": "tekst",
-     "html": "Bij een <strong>gemengde schakeling reken je eerst het parallelle stuk uit en pas daarna de serie</strong>. Je vervangt het parallelle stuk door één weerstand en houdt zo een gewone serieschakeling over."
+     "html": "Bij een gemengde schakeling werk je <strong>van binnen naar buiten</strong>: eerst het parallelle stuk, dan de serie. Je vervangt het parallelle stuk door één weerstand en houdt een gewone serieschakeling over."
     },
     {
      "soort": "tekst",
-     "html": "Een voorbeeld dat in drie stappen gaat. Een weerstand van <strong>10 Ω in serie met twee parallelle weerstanden van elk 20 Ω</strong>: die twee geven samen 10 Ω, dus is de totale weerstand <strong>20 Ω</strong>. Staat die schakeling op <strong>40 V</strong>, dan levert de bron <strong>2 A</strong>. Over het <strong>parallelle stuk</strong> staat dan 2 A maal 10 Ω, dus <strong>20 V</strong>."
+     "html": "Neem \\(10\\ \\Omega\\) in serie met twee parallelle weerstanden van elk \\(20\\ \\Omega\\), op \\(40\\ \\text{V}\\). In drie stappen:"
+    },
+    {
+     "soort": "tekst",
+     "html": "\\[R_{\\text{par}} = \\dfrac{20}{2} = 10\\ \\Omega \\qquad R_{v} = 10 + 10 = 20\\ \\Omega \\qquad I = \\dfrac{40}{20} = 2{,}0\\ \\text{A}\\]"
+    },
+    {
+     "soort": "tekst",
+     "html": "Die hele \\(2{,}0\\ \\text{A}\\) gaat door de weerstand van \\(10\\ \\Omega\\), waarover dus \\(10 \\cdot 2{,}0 = 20\\ \\text{V}\\) staat. Van de \\(40\\ \\text{V}\\) blijft er dan \\(20\\ \\text{V}\\) over voor het parallelle stuk, en door elke tak van \\(20\\ \\Omega\\) loopt \\(\\dfrac{20}{20} = 1{,}0\\ \\text{A}\\). Samen weer \\(2{,}0\\ \\text{A}\\): dat is je controle."
+    }
+   ]
+  },
+  {
+   "kop": "Vermogen en energie",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Het <strong>vermogen</strong> dat een toestel omzet, is"
+    },
+    {
+     "soort": "tekst",
+     "html": "\\[P = U\\,I = R\\,I^{2} = \\dfrac{U^{2}}{R} \\qquad\\text{in watt:}\\qquad 1\\ \\text{W} = 1\\ \\text{J/s}\\]"
+    },
+    {
+     "soort": "tekst",
+     "html": "en de energie die het over een tijd \\(t\\) verbruikt is \\(E = P\\,t\\), in joule of in kilowattuur (\\(1\\ \\text{kWh} = 3{,}6\\cdot 10^{6}\\ \\text{J}\\)). Dat \\(P = R\\,I^{2}\\) verklaart waarom men elektriciteit over grote afstand bij een heel hoge spanning vervoert: bij een hoge \\(U\\) volstaat een kleine \\(I\\) voor hetzelfde vermogen, en de verliezen in de kabels gaan met het kwadraat van die stroom."
     }
    ]
   }
  ],
  "onthoud": [
-  "Stroomsterkte is lading per seconde, in ampère.",
-  "Wet van Ohm: U = R · I.",
+  "\\(I = \\dfrac{\\Delta q}{\\Delta t}\\), in \\(\\text{A} = \\text{C/s}\\).",
+  "Wet van Ohm: \\(U = R\\,I\\), met \\(1\\ \\Omega = 1\\ \\text{V/A}\\).",
+  "\\(R = \\rho\\dfrac{\\ell}{A}\\): stof, lengte en doorsnede, niet \\(U\\) of \\(I\\).",
   "Een ampèremeter staat in serie, een voltmeter ernaast.",
-  "In serie: dezelfde stroom, spanningen tellen op, weerstanden tellen op.",
-  "Parallel: dezelfde spanning, stromen tellen op, totale weerstand daalt.",
-  "Twee gelijke weerstanden parallel geven de helft.",
-  "Gemengd: eerst het parallelle stuk, dan de serie."
+  "Serie: dezelfde \\(I\\), spanningen tellen op, \\(R_{v} = R_{1}+R_{2}\\).",
+  "Parallel: dezelfde \\(U\\), stromen tellen op, \\(\\dfrac{1}{R_{v}} = \\dfrac{1}{R_{1}}+\\dfrac{1}{R_{2}}\\).",
+  "\\(n\\) gelijke weerstanden parallel geven \\(\\dfrac{R}{n}\\).",
+  "Gemengd: eerst het parallelle stuk, dan de serie.",
+  "\\(P = U\\,I = R\\,I^{2} = \\dfrac{U^{2}}{R}\\), in watt."
  ]
 }

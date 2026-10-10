@@ -368,64 +368,96 @@ OEFENBUNDELS["oefenbundel-elektrodynamica-stroom-weerstand-en-schakelingen-beyon
     onder="{aantal} oefeningen op papier, met een antwoordblad achteraan.",
     hoe=HOE,
     reeksen=[
-        dict(kop="De wet van Ohm",
-             opdracht="Reken uit met U = R · I.",
+        dict(kop=r"De wet van Ohm",
+             opdracht=r"Vul aan met \(U=R\,I\).",
              oefeningen=[
-                 ("rij", [("U = 12 V, R = 4 Ω", "I = 3 A"), ("U = 9 V, I = 0,3 A", "R = 30 Ω"),
-                          ("R = 220 Ω, I = 0,05 A", "U = 11 V")],
+                 ("rij", [(r"\(U=12\ \text{V}\), \(R=4{,}0\ \Omega\)", r"\(I=3{,}0\ \text{A}\)"),
+                          (r"\(U=9{,}0\ \text{V}\), \(I=0{,}30\ \text{A}\)", r"\(R=30\ \Omega\)"),
+                          (r"\(R=220\ \Omega\), \(I=0{,}050\ \text{A}\)", r"\(U=11\ \text{V}\)")],
                   "Wat ontbreekt?", WW),
-                 ("rij", [("U = 230 V, R = 46 Ω", "I = 5 A"), ("U = 1,5 V, I = 0,25 A", "R = 6 Ω"),
-                          ("R = 100 Ω, I = 0,12 A", "U = 12 V")],
+                 ("rij", [(r"\(U=230\ \text{V}\), \(R=46\ \Omega\)", r"\(I=5{,}0\ \text{A}\)"),
+                          (r"\(U=1{,}5\ \text{V}\), \(I=0{,}25\ \text{A}\)", r"\(R=6{,}0\ \Omega\)"),
+                          (r"\(R=100\ \Omega\), \(I=0{,}12\ \text{A}\)", r"\(U=12\ \text{V}\)")],
                   "Wat ontbreekt?", WW),
+                 ("kort", r"Door een draad gaat \(60\ \text{C}\) in \(20\ \text{s}\). Hoe groot is \(I\)?",
+                  r"\(I=\dfrac{\Delta q}{\Delta t}=\dfrac{60}{20}=3{,}0\ \text{A}\).", W),
+                 ("kort", r"Hoeveel lading passeert er in \(5{,}0\ \text{min}\) bij \(I=0{,}40\ \text{A}\)?",
+                  r"\(\Delta q=I\,\Delta t=0{,}40\cdot 300=120\ \text{C}\).", W),
+             ]),
+        dict(kop=r"Vervangingsweerstand",
+             opdracht=r"Reken \(R_{v}\) uit. Schrijf erbij of het serie of parallel is.",
+             oefeningen=[
+                 ("kort", r"\(6{,}0\ \Omega\) en \(12\ \Omega\) in serie.",
+                  r"\(R_{v}=6{,}0+12=18\ \Omega\).", W),
+                 ("kort", r"Diezelfde twee in parallel.",
+                  r"\(R_{v}=\dfrac{6{,}0\cdot 12}{18}=4{,}0\ \Omega\).", W),
+                 ("kort", r"Drie weerstanden van elk \(30\ \Omega\) in parallel.",
+                  r"\(R_{v}=\dfrac{30}{3}=10\ \Omega\).", W),
+                 ("kort", r"\(R_{v}=8{,}0\ \Omega\) en \(R_{1}=24\ \Omega\) staan parallel. Hoe groot is \(R_{2}\)?",
+                  r"\(\dfrac{1}{R_{2}}=\dfrac{1}{8{,}0}-\dfrac{1}{24}=\dfrac{2}{24}\), dus "
+                  r"\(R_{2}=12\ \Omega\).", W),
+                 ("open", r"Leg uit waarom \(R_{v}\) bij parallel altijd kleiner is dan de kleinste weerstand.",
+                  r"Elke extra tak geeft de stroom een extra weg, dus loopt er bij dezelfde \(U\) in "
+                  r"totaal meer stroom. Meer \(I\) bij dezelfde \(U\) betekent een kleinere \(R\).", 5),
              ]),
         dict(kop="Serie of parallel",
-             opdracht="Reken de vervangweerstand uit.",
-             oefeningen=[
-                 ("kort", "Twee weerstanden van 6 Ω en 12 Ω staan in serie. Hoe groot is de vervangweerstand?",
-                  "18 Ω, want bij serie tel je op.", W),
-                 ("kort", "Diezelfde twee staan in parallel. Hoe groot is de vervangweerstand?",
-                  "4 Ω, want 1/6 + 1/12 is 3/12, dus 12/3.", W),
-                 ("kort", "Drie weerstanden van elk 30 Ω staan in parallel. Hoe groot is de vervangweerstand?",
-                  "10 Ω, want bij n gelijke weerstanden is het R gedeeld door n.", W),
-                 ("open", "Leg uit waarom de vervangweerstand bij parallel altijd kleiner is dan de kleinste weerstand.",
-                  "Elke extra tak geeft de stroom een extra weg, dus kan er in totaal meer stroom "
-                  "door bij dezelfde spanning. Meer stroom bij dezelfde spanning betekent een "
-                  "kleinere weerstand.", 6),
-             ]),
-        dict(kop="Wat geldt waar",
              opdracht="Schrijf serie of parallel.",
              oefeningen=[
-                 ("rij", [("de stroom is overal dezelfde", "serie"),
-                          ("de spanning is over elke tak dezelfde", "parallel"),
-                          ("de spanningen tellen op tot de bronspanning", "serie")],
+                 ("rij", [(r"\(I\) is overal dezelfde", "serie"),
+                          (r"\(U\) is over elke tak dezelfde", "parallel"),
+                          (r"\(R_{v}=R_{1}+R_{2}\)", "serie")],
                   "Serie of parallel?", WW),
-                 ("rij", [("de stromen van de takken tellen op", "parallel"),
+                 ("rij", [(r"de stromen van de takken tellen op", "parallel"),
                           ("één lamp stuk en alles valt uit", "serie"),
                           ("één lamp stuk en de rest blijft branden", "parallel")],
                   "Serie of parallel?", WW),
              ]),
-        dict(kop="Vermogen en energie",
-             opdracht="Reken uit met P = U · I.",
+        dict(kop="Een schakeling doorrekenen",
+             opdracht="Reken stap voor stap en controleer je antwoord op het einde.",
              oefeningen=[
-                 ("kort", "Een toestel op 230 V trekt 2 A. Welk vermogen heeft het?",
-                  "460 W, want 230 · 2.", W),
-                 ("kort", "Een lamp van 60 W hangt op 230 V. Welke stroom loopt erdoor?",
-                  "ongeveer 0,26 A, want 60 gedeeld door 230.", W),
-                 ("kort", "Een toestel van 1500 W draait 2 uur. Hoeveel kWh verbruikt het?",
-                  "3 kWh, want 1,5 kW maal 2 h.", W),
+                 ("open", r"\(4{,}0\ \Omega\), \(6{,}0\ \Omega\) en \(10\ \Omega\) staan in serie op "
+                  r"\(40\ \text{V}\). Bereken \(I\) en de drie deelspanningen.",
+                  r"\(R_{v}=20\ \Omega\), dus \(I=2{,}0\ \text{A}\). De deelspanningen zijn "
+                  r"\(8{,}0\), \(12\) en \(20\ \text{V}\), samen weer \(40\ \text{V}\).", 6),
+                 ("open", r"\(20\ \Omega\) en \(30\ \Omega\) staan parallel op \(60\ \text{V}\). Bereken "
+                  r"beide takstromen, de hoofdstroom en \(R_{v}\).",
+                  r"\(I_{1}=3{,}0\ \text{A}\) en \(I_{2}=2{,}0\ \text{A}\), samen \(5{,}0\ \text{A}\). "
+                  r"\(R_{v}=\dfrac{60}{5{,}0}=12\ \Omega\), wat klopt met \(\dfrac{20\cdot 30}{50}\).", 6),
+                 ("open", r"\(5{,}0\ \Omega\) staat in serie met twee parallelle weerstanden van "
+                  r"\(12\ \Omega\) en \(24\ \Omega\), op \(30\ \text{V}\). Bereken \(R_{v}\), \(I\) en de "
+                  r"spanning over het parallelle stuk.",
+                  r"\(R_{\text{par}}=\dfrac{12\cdot 24}{36}=8{,}0\ \Omega\), dus \(R_{v}=13\ \Omega\) en "
+                  r"\(I\approx 2{,}3\ \text{A}\). Over het parallelle stuk staat "
+                  r"\(8{,}0\cdot 2{,}3\approx 18{,}5\ \text{V}\).", 7),
+             ]),
+        dict(kop=r"Vermogen en energie",
+             opdracht=r"Reken uit met \(P=U\,I\).",
+             oefeningen=[
+                 ("kort", r"Een toestel op \(230\ \text{V}\) trekt \(2{,}0\ \text{A}\). Welk vermogen?",
+                  r"\(P=230\cdot 2{,}0=460\ \text{W}\).", W),
+                 ("kort", r"Een lamp van \(60\ \text{W}\) hangt op \(230\ \text{V}\). Welke stroom?",
+                  r"\(I=\dfrac{60}{230}\approx 0{,}26\ \text{A}\).", W),
+                 ("kort", r"Een toestel van \(1500\ \text{W}\) draait \(2{,}0\ \text{h}\). Hoeveel kWh?",
+                  r"\(E=1{,}5\cdot 2{,}0=3{,}0\ \text{kWh}\).", W),
+                 ("kort", r"Door een weerstand van \(15\ \Omega\) loopt \(2{,}0\ \text{A}\). Hoeveel warmte per seconde?",
+                  r"\(P=R\,I^{2}=15\cdot 4{,}0=60\ \text{W}\), dus \(60\ \text{J}\) per seconde.", W),
              ]),
         dict(kop="Uitleggen",
              opdracht="Antwoord in volle zinnen.",
              oefeningen=[
                  ("open", "Waarom worden de lampjes van een oude kerstslinger zwakker als je er een bijsteekt?",
-                  "Ze staan in serie. Een lampje erbij maakt de totale weerstand groter, dus daalt "
-                  "de stroom, en moet de bronspanning over meer lampjes verdeeld worden.", 6),
-                 ("open", "Waarom staan de stopcontacten in een huis in parallel en niet in serie?",
-                  "Zo staat op elk stopcontact dezelfde 230 V, en blijft de rest werken als één "
-                  "toestel uitvalt of uitgetrokken wordt.", 5),
-                 ("open", "Een kabel wordt warm. Waarvan hangt die warmte af?",
-                  "Van het kwadraat van de stroom en van de weerstand van de kabel. Daarom neemt men "
-                  "voor een grote stroom een dikkere kabel: die heeft minder weerstand.", 5),
+                  r"Ze staan in serie. Een lampje erbij maakt \(R_{v}\) groter, dus daalt \(I\), en "
+                  r"moet de bronspanning over meer lampjes verdeeld worden.", 5),
+                 ("open", "Waarom staan de stopcontacten in een huis parallel en niet in serie?",
+                  r"Zo staat op elk stopcontact dezelfde \(230\ \text{V}\), en blijft de rest werken "
+                  r"als één toestel uitvalt.", 5),
+                 ("open", r"Waarom neemt men voor een grote stroom een dikkere kabel?",
+                  r"De warmte is \(P=R\,I^{2}\), en \(R=\rho\dfrac{\ell}{A}\). Een grotere doorsnede "
+                  r"\(A\) geeft een kleinere \(R\), dus minder warmte bij dezelfde stroom.", 5),
+                 ("open", r"Waarom heeft een ampèremeter een heel kleine en een voltmeter een heel grote eigen weerstand?",
+                  r"De ampèremeter staat in serie, dus telt zijn \(R\) bij die van de kring en zou hij "
+                  r"de stroom verkleinen. De voltmeter staat parallel, dus zou een kleine \(R\) stroom "
+                  r"wegtrekken bij het onderdeel.", 6),
              ]),
     ],
 )
