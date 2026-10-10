@@ -7455,3 +7455,77 @@ def krachtenbeeld(breedte=470):
     d.append(_tekst(352, ky + 126, "en het moment ook", 9.5, DIM, "middle"))
 
     return _svg(cel_b * 2, cel_h * 2, "\n".join(d))
+
+
+def newtonkrachten(breedte=470):
+    r"""Twee tekeningen bij de wetten van Newton.
+
+    Links een vrijlichaamsschema van een kist die geduwd wordt, met de
+    resulterende kracht eronder. Rechts een actie-reactiepaar, waarbij de
+    twee krachten op verschillende lichamen aangrijpen en elkaar dus niet
+    opheffen.
+    """
+    import math
+    cel_b, cel_h = 234, 196
+    KRACHT = AMBER
+    d = []
+
+    def kader(kx, ky, titel):
+        d.append(f'<rect x="{kx+6}" y="{ky+4}" width="{cel_b-12}" height="{cel_h-28}" rx="8" '
+                 f'fill="#ffffff" stroke="{BORDER}" stroke-width="1.2"/>')
+        d.append(_tekst(kx + cel_b / 2, ky + cel_h - 8, titel, 10, DIM, "middle", True))
+
+    def pijl(x0, y0, x1, y1, kleur, breed=2.0):
+        d.append(f'<line x1="{x0:.1f}" y1="{y0:.1f}" x2="{x1:.1f}" y2="{y1:.1f}" '
+                 f'stroke="{kleur}" stroke-width="{breed}"/>')
+        d.append(_pijlkop(x1, y1, math.atan2(y1 - y0, x1 - x0), kleur, 5.5))
+
+    # ── 1. het vrijlichaamsschema van een geduwde kist
+    kader(0, 0, "alle krachten op één lichaam: tel ze op")
+    vloer = 108
+    d.append(f'<line x1="18" y1="{vloer}" x2="216" y2="{vloer}" stroke="{DIM}" '
+             f'stroke-width="1.6"/>')
+    kb, kh = 38, 30
+    kxl, kxr = 98, 98 + kb
+    d.append(f'<rect x="{kxl}" y="{vloer-kh}" width="{kb}" height="{kh}" rx="2" '
+             f'fill="{PAPER}" stroke="{INK}" stroke-width="1.4"/>')
+    mx, my = kxl + kb / 2, vloer - kh / 2
+    # elke pijl vertrekt aan de rand van de kist, met haar opschrift erbuiten
+    pijl(kxr, my, kxr + 44, my, KRACHT)
+    d.append(_tekst(kxr + 50, my + 4, "20 N", 9.5, KRACHT, "start", True))
+    pijl(kxl, my, kxl - 30, my, FOREST)
+    d.append(_tekst(kxl - 36, my + 4, "5 N", 9.5, FOREST, "end", True))
+    pijl(mx, vloer, mx, vloer + 28, KRACHT)
+    d.append(_tekst(mx + 8, vloer + 26, "Fz", 9.5, KRACHT, "start", True))
+    pijl(mx, vloer - kh, mx, vloer - kh - 28, DRAAD)
+    d.append(_tekst(mx + 8, vloer - kh - 24, "FN", 9.5, DRAAD, "start", True))
+    d.append(_tekst(kxr + 50, my - 8, "duwen", 8.5, DIM, "start"))
+    d.append(_tekst(kxl - 36, my - 8, "wrijving", 8.5, DIM, "end"))
+    d.append(_tekst(117, 152, "omhoog en omlaag heffen elkaar op", 9, DIM, "middle"))
+    pijl(62, 166, 102, 166, FOREST, 2.6)
+    d.append(_tekst(110, 170, "Fres = 15 N", 10, FOREST, "start", True))
+
+    # ── 2. actie en reactie
+    kx = cel_b
+    kader(kx, 0, "actie en reactie: twee lichamen, geen evenwicht")
+    grond = 112
+    d.append(f'<line x1="{kx+18}" y1="{grond}" x2="{kx+216}" y2="{grond}" stroke="{DIM}" '
+             f'stroke-width="1.6"/>')
+    d.append(f'<rect x="{kx+180}" y="{grond-70}" width="22" height="70" fill="{BORDER}" '
+             f'stroke="{DIM}" stroke-width="1.2"/>')
+    d.append(_tekst(kx + 191, grond + 14, "muur", 9, DIM, "middle"))
+    d.append(f'<rect x="{kx+40}" y="{grond-48}" width="32" height="48" rx="3" '
+             f'fill="{PAPER}" stroke="{INK}" stroke-width="1.4"/>')
+    d.append(_tekst(kx + 56, grond + 14, "jij", 9, DIM, "middle"))
+    # jouw kracht grijpt aan op de muur, de hare op jou; de opschriften staan
+    # elk aan de kant waar hun eigen pijl naartoe wijst
+    pijl(kx + 158, grond - 46, kx + 180, grond - 46, KRACHT, 2.2)
+    d.append(_tekst(kx + 152, grond - 50, "jij op de muur", 8.5, KRACHT, "end"))
+    d.append(_tekst(kx + 152, grond - 39, "200 N", 9, KRACHT, "end", True))
+    pijl(kx + 94, grond - 16, kx + 72, grond - 16, DRAAD, 2.2)
+    d.append(_tekst(kx + 124, grond - 24, "de muur op jou", 8.5, DRAAD, "middle"))
+    d.append(_tekst(kx + 124, grond - 13, "200 N", 9, DRAAD, "middle", True))
+    d.append(_tekst(kx + cel_b / 2, grond + 36, "even groot en tegengesteld,", 9.5, DIM, "middle"))
+    d.append(_tekst(kx + cel_b / 2, grond + 48, "maar elk op een ánder lichaam", 9.5, DIM, "middle"))
+
+    return _svg(cel_b * 2, cel_h, "\n".join(d))

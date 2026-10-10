@@ -57,21 +57,23 @@ DEEL1 = [
             "de resulterende kracht is de snelheid maal de tijd",
         ],
         antwoord=0,
-        uitleg="Daaruit volgt dat dezelfde kracht een zwaar lichaam minder versnelt. De "
+        uitleg="\\(F = m\\,a\\), dus \\(a = \\dfrac{F}{m}\\): dezelfde kracht versnelt een "
+        "zwaar lichaam minder. De "
         "versnelling wijst altijd in de zin van de resulterende kracht.",
     ),
     dict(
         type="meerkeuze",
-        vraag="Op een lichaam van 4 kg werkt een resulterende kracht van 12 N. Hoe groot is de versnelling?",
+        vraag="Op een lichaam van \\(4{,}0\\ \\text{kg}\\) werkt een resulterende kracht van "
+        "\\(12\\ \\text{N}\\). Hoe groot is \\(a\\)?",
         opties=[
-            "3 m/s²",
-            "48 m/s²",
-            "0,33 m/s²",
-            "16 m/s²",
+            "\\(3{,}0\\ \\text{m/s}^{2}\\)",
+            "\\(48\\ \\text{m/s}^{2}\\)",
+            "\\(0{,}33\\ \\text{m/s}^{2}\\)",
+            "\\(16\\ \\text{m/s}^{2}\\)",
         ],
         antwoord=0,
-        uitleg="Deel de kracht door de massa: 12 gedeeld door 4 is 3 meter per seconde "
-        "kwadraat.",
+        uitleg="Uit \\(F = m\\,a\\) volgt \\(a = \\dfrac{F}{m} = \\dfrac{12}{4{,}0} = "
+        "3{,}0\\ \\text{m/s}^{2}\\).",
     ),
     dict(
         type="meerkeuze",
@@ -83,7 +85,7 @@ DEEL1 = [
             "de vrachtwagen versnelt niet, want hij is te zwaar",
         ],
         antwoord=0,
-        uitleg="De versnelling is de kracht gedeeld door de massa. Tien keer meer massa "
+        uitleg="\\(a = \\dfrac{F}{m}\\). Tien keer meer massa "
         "betekent dus tien keer minder versnelling.",
     ),
     dict(
@@ -121,23 +123,25 @@ DEEL1 = [
     ),
     dict(
         type="meerkeuze",
-        vraag="Een kist van 5 kg wordt met 20 N geduwd en voelt 5 N wrijving. Hoe groot is de versnelling?",
+        vraag="Een kist van \\(5{,}0\\ \\text{kg}\\) wordt met \\(20\\ \\text{N}\\) geduwd en "
+        "voelt \\(5{,}0\\ \\text{N}\\) wrijving. Hoe groot is \\(a\\)?",
         opties=[
-            "3 m/s²",
-            "4 m/s²",
-            "5 m/s²",
-            "1 m/s²",
+            "\\(3{,}0\\ \\text{m/s}^{2}\\)",
+            "\\(4{,}0\\ \\text{m/s}^{2}\\)",
+            "\\(5{,}0\\ \\text{m/s}^{2}\\)",
+            "\\(1{,}0\\ \\text{m/s}^{2}\\)",
         ],
         antwoord=0,
-        uitleg="De resulterende kracht is 20 min 5 is 15 newton, en 15 gedeeld door 5 is 3 "
-        "meter per seconde kwadraat.",
+        uitleg="Eerst de resulterende kracht: "
+        "\\(F_{\\text{res}} = 20 - 5{,}0 = 15\\ \\text{N}\\). Dan "
+        "\\(a = \\dfrac{15}{5{,}0} = 3{,}0\\ \\text{m/s}^{2}\\).",
     ),
     dict(
         type="waarofniet",
         vraag="Een grotere massa heeft bij dezelfde kracht een grotere versnelling.",
         antwoord=False,
-        uitleg="Net omgekeerd: massa staat in de noemer. Een zwaarder lichaam is trager te "
-        "versnellen én trager te stoppen.",
+        uitleg="Net omgekeerd: in \\(a = \\dfrac{F}{m}\\) staat de massa in de noemer. Een "
+        "zwaarder lichaam is trager te versnellen én trager te stoppen.",
     ),
     dict(
         type="meerkeuze",
@@ -194,16 +198,19 @@ DEEL1 = [
     ),
     dict(
         type="meerkeuze",
-        vraag="Welke kracht moet je op een lichaam van 2 kg uitoefenen om het vanuit rust in 5 s tot 10 m/s te brengen?",
+        vraag="Welke kracht moet je op een lichaam van \\(2{,}0\\ \\text{kg}\\) uitoefenen om "
+        "het vanuit rust in \\(5{,}0\\ \\text{s}\\) tot \\(10\\ \\text{m/s}\\) te brengen?",
         opties=[
-            "4 N",
-            "20 N",
-            "1 N",
-            "100 N",
+            "\\(4{,}0\\ \\text{N}\\)",
+            "\\(20\\ \\text{N}\\)",
+            "\\(1{,}0\\ \\text{N}\\)",
+            "\\(100\\ \\text{N}\\)",
         ],
         antwoord=0,
-        uitleg="De versnelling is 10 gedeeld door 5 is 2 meter per seconde kwadraat, en 2 "
-        "maal 2 is 4 newton.",
+        uitleg="Eerst de versnelling: "
+        "\\(a = \\dfrac{\\Delta v}{\\Delta t} = \\dfrac{10}{5{,}0} = "
+        "2{,}0\\ \\text{m/s}^{2}\\). Dan \\(F = m\\,a = 2{,}0\\cdot 2{,}0 = "
+        "4{,}0\\ \\text{N}\\).",
     ),
     dict(
         type="meerkeuze",

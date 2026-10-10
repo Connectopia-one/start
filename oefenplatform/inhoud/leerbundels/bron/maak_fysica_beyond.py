@@ -1227,20 +1227,34 @@ BUNDELS["de-wetten-van-newton-beyond"] = dict(
         ]),
         dict(kop="De tweede wet: F = m · a", blokken=[
             ("p", "De <strong>tweede wet van Newton</strong> zegt dat "
-                  "<strong>de resulterende kracht de massa maal de versnelling is</strong>. De "
+                  "<strong>de resulterende kracht de massa maal de versnelling is</strong>: "
+                  "\\[F_{\\text{res}} = m\\,a \\quad\\text{en dus}\\quad "
+                  "a = \\dfrac{F_{\\text{res}}}{m}\\] "
+                  "De "
                   "<strong>resulterende kracht</strong> is <strong>de vectoriële som van alle "
                   "krachten</strong> en ze <strong>wijst in dezelfde zin als de versnelling</strong>: "
                   "<strong>de versnelling wijst altijd in dezelfde zin als de resulterende "
-                  "kracht</strong>. Versnelling staat in <strong>m/s²</strong>."),
-            ("p", "Drie keer rekenen. Werkt op een lichaam van <strong>4 kg</strong> een "
-                  "resulterende kracht van <strong>12 N</strong>, dan is de versnelling "
-                  "<strong>3 m/s²</strong>. Wordt een <strong>kist van 5 kg met 20 N geduwd</strong> "
-                  "terwijl ze <strong>5 N wrijving</strong> voelt, dan blijft er 15 N over en is de "
-                  "versnelling <strong>3 m/s²</strong>. Om een lichaam van "
-                  "<strong>2 kg vanuit rust in 5 s tot 10 m/s</strong> te brengen, heb je "
-                  "<strong>4 N</strong> nodig."),
-            ("p", "De massa werkt tegen: een <strong>grotere massa heeft bij dezelfde kracht een "
-                  "kleinere versnelling</strong>. Krijgen een <strong>wagen van 1000 kg en een "
+                  "kracht</strong>. Versnelling staat in \\(\\text{m/s}^{2}\\)."),
+            ("fig", svg.newtonkrachten(),
+             "Links tel je eerst alle krachten op één lichaam samen; wat overblijft is de "
+             "resulterende kracht, en die deel je door de massa. Rechts twee krachten die "
+             "even groot en tegengesteld zijn maar op verschillende lichamen aangrijpen, en "
+             "elkaar daarom niet opheffen."),
+            ("p", "Drie keer rekenen. Werkt op een lichaam van \\(4{,}0\\ \\text{kg}\\) een "
+                  "resulterende kracht van \\(12\\ \\text{N}\\), dan is "
+                  "\\(a = \\dfrac{12}{4{,}0} = 3{,}0\\ \\text{m/s}^{2}\\). Wordt een "
+                  "kist van \\(5{,}0\\ \\text{kg}\\) met \\(20\\ \\text{N}\\) "
+                  "geduwd terwijl ze \\(5{,}0\\ \\text{N}\\) wrijving voelt, dan is "
+                  "\\(F_{\\text{res}} = 15\\ \\text{N}\\) en "
+                  "\\(a = 3{,}0\\ \\text{m/s}^{2}\\). Om een lichaam van "
+                  "\\(2{,}0\\ \\text{kg}\\) vanuit rust in \\(5{,}0\\ \\text{s}\\) "
+                  "tot \\(10\\ \\text{m/s}\\) te brengen, reken je eerst "
+                  "\\(a = \\dfrac{\\Delta v}{\\Delta t} = 2{,}0\\ \\text{m/s}^{2}\\) "
+                  "en dan \\(F = 2{,}0\\cdot 2{,}0 = 4{,}0\\ \\text{N}\\)."),
+            ("p", "De massa werkt tegen, want ze staat in de noemer van "
+                  "\\(a = \\dfrac{F}{m}\\): een <strong>grotere massa heeft bij dezelfde "
+                  "kracht een kleinere versnelling</strong>. Krijgen een <strong>wagen van 1000 kg "
+                  "en een "
                   "vrachtwagen van 10 000 kg dezelfde kracht</strong>, dan "
                   "<strong>versnelt de wagen tien keer zo hard als de vrachtwagen</strong>. Daarom "
                   "verklaart de <strong>tweede wet</strong> ook waarom een "
@@ -1254,7 +1268,9 @@ BUNDELS["de-wetten-van-newton-beyond"] = dict(
                   "versnelling."),
             ("p", "Een <strong>steen valt in een luchtledige buis even snel als een veertje</strong> "
                   "omdat <strong>er geen luchtweerstand is, dus werkt enkel de zwaartekracht</strong>. "
-                  "In de tweede wet valt de massa dan aan beide kanten weg."),
+                  "In de tweede wet valt de massa dan aan beide kanten weg: uit "
+                  "\\(m\\,g = m\\,a\\) volgt \\(a = g\\), ongeacht hoe zwaar het "
+                  "voorwerp is."),
         ]),
         dict(kop="De derde wet: actie en reactie", blokken=[
             ("p", "De <strong>derde wet van Newton</strong> zegt dat "
@@ -1303,7 +1319,7 @@ BUNDELS["de-wetten-van-newton-beyond"] = dict(
     onthoud=[
         "Eerste wet: zonder resulterende kracht verandert de bewegingstoestand niet.",
         "Massa is de maat van de traagheid.",
-        "Tweede wet: F = m · a; de versnelling volgt de resulterende kracht.",
+        r"Tweede wet: \(F_{\text{res}} = m\,a\), dus \(a = \dfrac{F_{\text{res}}}{m}\).",
         "Dezelfde kracht geeft een tien keer zwaarder lichaam tien keer minder versnelling.",
         "Derde wet: elke kracht heeft een even grote tegengestelde kracht.",
         "Actie en reactie heffen elkaar niet op: ze werken op twee lichamen.",

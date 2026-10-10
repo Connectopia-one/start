@@ -991,7 +991,7 @@ OEFENBUNDELS["oefenbundel-de-wetten-van-newton-beyond"] = dict(
         dict(kop="Welke wet?",
              opdracht="Schrijf eerste, tweede of derde.",
              oefeningen=[
-                 ("rij", [("F = m · a", "tweede"), ("actie en reactie", "derde"),
+                 ("rij", [(r"\(F = m\,a\)", "tweede"), ("actie en reactie", "derde"),
                           ("zonder resultante blijft de snelheid gelijk", "eerste")],
                   "Welke wet van Newton?", WW),
                  ("rij", [("een bal blijft rollen op een glad vlak", "eerste"),
@@ -1000,21 +1000,53 @@ OEFENBUNDELS["oefenbundel-de-wetten-van-newton-beyond"] = dict(
                   "Welke wet van Newton?", WW),
              ]),
         dict(kop="Rekenen met F = m · a",
-             opdracht="Reken uit.",
+             opdracht=r"Gebruik \(F_{\text{res}} = m\,a\). Waar een gewicht gevraagd wordt, "
+                      r"geldt \(F_{z} = m\,g\) met \(g = 9{,}81\ \text{N/kg}\).",
              oefeningen=[
-                 ("rij", [("m = 4 kg, a = 3 m/s²", "F = 12 N"), ("F = 50 N, m = 10 kg", "a = 5 m/s²"),
-                          ("F = 18 N, a = 6 m/s²", "m = 3 kg")],
-                  "Wat ontbreekt?", WW),
-                 ("kort", "Een kar van 800 kg versnelt met 2,5 m/s². Welke resultante werkt erop?",
-                  "2000 N, want 800 · 2,5.", W),
-                 ("kort", "Hoe groot is het gewicht van 15 kg op aarde? Neem g gelijk aan 9,81 m/s².",
-                  "ongeveer 147 N, want 15 · 9,81.", WW),
+                 ("rij", [(r"\(m = 4{,}0\ \text{kg}\), \(a = 3{,}0\ \text{m/s}^{2}\)",
+                           r"\(F = 12\ \text{N}\)"),
+                          (r"\(F = 50\ \text{N}\), \(m = 10\ \text{kg}\)",
+                           r"\(a = 5{,}0\ \text{m/s}^{2}\)"),
+                          (r"\(F = 18\ \text{N}\), \(a = 6{,}0\ \text{m/s}^{2}\)",
+                           r"\(m = 3{,}0\ \text{kg}\)")],
+                  "Wat ontbreekt?", WL),
+                 ("kort", r"Een kar van \(800\ \text{kg}\) versnelt met "
+                          r"\(2{,}5\ \text{m/s}^{2}\). Welke resultante werkt erop?",
+                  r"\(F = 800\cdot 2{,}5 = 2000\ \text{N}\)", W),
+                 ("kort", r"Hoe groot is het gewicht van \(15\ \text{kg}\) op aarde?",
+                  r"\(F_{z} = 15\cdot 9{,}81 = 147\ \text{N}\)", W),
+                 ("kort", r"Een slee van \(25\ \text{kg}\) wordt met \(90\ \text{N}\) getrokken "
+                          r"en voelt \(15\ \text{N}\) wrijving. Hoe groot is \(a\)?",
+                  r"\(F_{\text{res}} = 75\ \text{N}\), dus "
+                  r"\(a = \dfrac{75}{25} = 3{,}0\ \text{m/s}^{2}\)", W),
+                 ("kort", r"Een fietser van \(70\ \text{kg}\) gaat van \(0\) naar "
+                          r"\(8{,}0\ \text{m/s}\) in \(4{,}0\ \text{s}\). Welke resultante is "
+                          r"daarvoor nodig?",
+                  r"\(a = \dfrac{8{,}0}{4{,}0} = 2{,}0\ \text{m/s}^{2}\), dus "
+                  r"\(F = 70\cdot 2{,}0 = 140\ \text{N}\)", W),
+                 ("kort", r"Een wagen van \(1200\ \text{kg}\) remt van \(20\ \text{m/s}\) naar "
+                          r"stilstand in \(5{,}0\ \text{s}\). Hoe groot is de remkracht?",
+                  r"\(a = \dfrac{-20}{5{,}0} = -4{,}0\ \text{m/s}^{2}\), dus "
+                  r"\(F = 4800\ \text{N}\) tegen de rijrichting in", W),
+             ]),
+        dict(kop="Hoe verandert het?",
+             opdracht=r"Vul aan voor \(a = \dfrac{F}{m}\).",
+             oefeningen=[
+                 ("rij", [("de kracht maal 3", r"\(a\) maal 3"),
+                          ("de massa maal 2", r"\(a\) gedeeld door 2")],
+                  r"Wat gebeurt er met \(a\)?", WL),
+                 ("rij", [("de kracht maal 4 en de massa maal 2", r"\(a\) maal 2"),
+                          ("de resulterende kracht wordt nul", r"\(a\) wordt nul")],
+                  r"Wat gebeurt er met \(a\)?", WL),
              ]),
         dict(kop="Massa of gewicht",
              opdracht="Schrijf massa of gewicht.",
              oefeningen=[
                  ("rij", [("staat in kilogram", "massa"), ("staat in newton", "gewicht"),
                           ("is op de maan kleiner dan op aarde", "gewicht")],
+                  "Massa of gewicht?", WW),
+                 ("rij", [("is de maat van de traagheid", "massa"),
+                          ("is een kracht", "gewicht")],
                   "Massa of gewicht?", WW),
              ]),
         dict(kop="Waar of niet waar",
@@ -1024,6 +1056,8 @@ OEFENBUNDELS["oefenbundel-de-wetten-van-newton-beyond"] = dict(
                  ("waar", "Actie en reactie werken op twee verschillende lichamen.", True),
                  ("waar", "Actie en reactie heffen elkaar op, dus kan niets bewegen.", False),
                  ("waar", "Bij dezelfde kracht versnelt een grotere massa minder.", True),
+                 ("waar", r"In \(a = \dfrac{F}{m}\) staat de massa in de teller.", False),
+                 ("waar", "Afremmen is ook een versnelling, maar met een tegengestelde zin.", True),
              ]),
         dict(kop="Uitleggen",
              opdracht="Antwoord in volle zinnen.",
@@ -1031,14 +1065,19 @@ OEFENBUNDELS["oefenbundel-de-wetten-van-newton-beyond"] = dict(
                  ("open", "Waarom schiet je naar voren als een bus plots remt?",
                   "Je lichaam had de snelheid van de bus en houdt die volgens de eerste wet, want er "
                   "werkt geen kracht op jou die je mee afremt. De bus vertraagt wel, en dus schuif "
-                  "je naar voren ten opzichte van de bus.", 6),
+                  "je naar voren ten opzichte van de bus.", 5),
                  ("open", "Actie en reactie zijn even groot en tegengesteld. Leg uit waarom een raket toch vooruit komt.",
                   "De twee krachten werken op verschillende lichamen: de raket duwt het gas naar "
                   "achter en het gas duwt de raket naar voor. Op de raket zelf blijft dus één kracht "
-                  "over, en die versnelt hem.", 6),
+                  "over, en die versnelt hem.", 5),
                  ("open", "Een lift versnelt naar boven. Waarom voel je je zwaarder?",
                   "De vloer moet je gewicht dragen én je versnellen, dus duwt ze harder dan je "
-                  "gewicht. Die grotere kracht van de vloer voel je als zwaarder zijn.", 6),
+                  "gewicht. Die grotere kracht van de vloer voel je als zwaarder zijn.", 5),
+                 ("open", r"Een steen en een veertje vallen in een luchtledige buis even snel. "
+                          r"Leg uit met \(F = m\,a\).",
+                  r"Zonder lucht werkt enkel de zwaartekracht, dus \(m\,g = m\,a\). De massa "
+                  r"staat aan allebei de kanten en valt weg: \(a = g\), hoe zwaar het voorwerp "
+                  r"ook is.", 5),
              ]),
     ],
 )
