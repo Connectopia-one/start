@@ -52,8 +52,8 @@ PATCHES = [
      "Een negatieve exponent betekent dat het getal negatief is.", "schrap-oefening", None),
     ("oefenbundel-ordenen-afronden-en-intervallen",
      "Waarom gebruiken wetenschappers machten van tien", "schrap-oefening", None),
-    ("oefenbundel-functies-en-de-rechte", "de parabool y = x²", "vervang-oefening",
-     ("kies", "de horizontale rechte y = 4", ["wel een functie", "geen functie"], 0)),
+    ("oefenbundel-functies-en-de-rechte", r"de parabool \(y = x^{2}\)", "vervang-oefening",
+     ("kies", r"de dalende rechte \(y = -x + 5\)", ["wel een functie", "geen functie"], 0)),
 ]
 
 TEKSTFIXES = [("Wiskunde gevorderd", VAK, 9)]

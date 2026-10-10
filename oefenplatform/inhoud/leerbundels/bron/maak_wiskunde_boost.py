@@ -1249,112 +1249,129 @@ BUNDELS["functies-en-de-rechte-boost-doorstroom"] = dict(
     onder="Het functiebegrip met domein en bereik, de vier voorstellingswijzen, en alles over de eerstegraadsfunctie.",
     secties=[
         dict(kop="Wat is een functie?", blokken=[
-            ("p", "Een verband tussen twee grootheden is een <strong>functie</strong> als er bij elke x "
-                  "<strong>hoogstens één</strong> y hoort. Eén invoer, één uitkomst. Op de grafiek betekent "
-                  "dat: een <strong>verticale lijn</strong> mag de grafiek maar één keer snijden. Dat heet de "
-                  "verticalelijntest, en daarom is een verticale rechte zelf géén functie."),
-            ("p", "Omgekeerd mag het wél: dezelfde y bij verschillende x'en. Bij y = x² hoort y = 4 bij zowel "
-                  "x = 2 als x = −2, en dat is prima."),
-            ("p", "De <strong>onafhankelijke variabele</strong> kies je zelf en staat op de "
-                  "<strong>horizontale</strong> as; de <strong>afhankelijke</strong> volgt eruit en staat op "
-                  "de <strong>verticale</strong> as. Bij <em>de kost hangt af van het aantal kilometer</em> is "
-                  "het aantal kilometer de onafhankelijke variabele."),
+            ("p", r"Een verband tussen twee grootheden is een <strong>functie</strong> als er bij elke \(x\) "
+                  r"<strong>hoogstens één</strong> \(y\) hoort. Eén invoer, één uitkomst. Op de grafiek "
+                  r"betekent dat: een <strong>verticale lijn</strong> mag de grafiek maar één keer snijden. "
+                  r"Dat heet de verticalelijntest, en daarom is een verticale rechte zelf géén functie."),
+            ("p", r"Omgekeerd mag het wél: dezelfde \(y\) bij verschillende \(x\)'en. Bij \(y = x^{2}\) hoort "
+                  r"\(y = 4\) bij zowel \(x = 2\) als \(x = -2\), en dat is prima."),
+            ("p", r"De <strong>onafhankelijke variabele</strong> kies je zelf en staat op de "
+                  r"<strong>horizontale</strong> as; de <strong>afhankelijke</strong> volgt eruit en staat op "
+                  r"de <strong>verticale</strong> as. Bij <em>de kost hangt af van het aantal kilometer</em> "
+                  r"is het aantal kilometer de onafhankelijke variabele."),
         ]),
         dict(kop="Functiewaarde, domein en bereik", blokken=[
-            ("p", "<strong>f(4)</strong> lees je als <em>de functiewaarde in 4</em>: vul 4 in voor x. Voor "
-                  "f(x) = 3x − 2 is f(4) = 10, en voor f(x) = 2x + 7 is f(5) = 17."),
-            ("p", "De omgekeerde vraag is een vergelijking: <em>voor welke x is f(x) = 13?</em> Dan los je "
-                  "3x − 2 = 13 op en vind je x = 5. Voor f(x) = 4x − 1 en f(x) = 11 vind je x = 3."),
-            ("p", "Het <strong>domein</strong> is de verzameling van alle x-waarden waarvoor de functie een "
-                  "waarde geeft. Het <strong>bereik</strong> is de verzameling van alle y-waarden die ze "
-                  "aanneemt. Bij f(x) = 1/x is het domein alle reële getallen <strong>behalve nul</strong>, "
-                  "want delen door nul mag niet."),
+            ("p", r"<strong>\(f(4)\)</strong> lees je als <em>de functiewaarde in \(4\)</em>: vul \(4\) in "
+                  r"voor \(x\). Voor \(f(x) = 3x - 2\) is \(f(4) = 10\), en voor \(f(x) = 2x + 7\) is "
+                  r"\(f(5) = 17\)."),
+            ("p", r"De omgekeerde vraag is een vergelijking: <em>voor welke \(x\) is \(f(x) = 13\)?</em> Dan "
+                  r"los je \(3x - 2 = 13\) op en vind je \(x = 5\). Voor \(f(x) = 4x - 1\) en \(f(x) = 11\) "
+                  r"vind je \(x = 3\)."),
+            ("p", r"Het <strong>domein</strong> is de verzameling van alle \(x\)-waarden waarvoor de functie "
+                  r"een waarde geeft. Het <strong>bereik</strong> is de verzameling van alle \(y\)-waarden "
+                  r"die ze aanneemt. Bij \(f(x) = \tfrac{1}{x}\) is het domein \(\mathbb{R}\) <strong>zonder "
+                  r"\(0\)</strong>, want delen door nul mag niet."),
         ]),
         dict(kop="De vier voorstellingswijzen", blokken=[
             ("p", "Dezelfde functie kan er op vier manieren staan, en je moet van elke naar elke kunnen "
                   "overstappen: de <strong>verwoording</strong>, een <strong>tabel</strong>, een "
                   "<strong>grafiek</strong> en het <strong>voorschrift</strong>."),
             ("p", tabel(["Vorm", "Voorbeeld"], [
-                ["verwoording", "je betaalt 5 euro opstap en 3 euro per kilometer"],
-                ["tabel", "1 → 8, 2 → 11, 3 → 14"],
-                ["grafiek", "een rechte die de y-as snijdt in 5 en per stap 3 stijgt"],
-                ["voorschrift", "f(x) = 3x + 5"],
+                ["verwoording", r"je betaalt \(5\) euro opstap en \(3\) euro per kilometer"],
+                ["tabel", r"\(1 \to 8\), \(2 \to 11\), \(3 \to 14\)"],
+                ["grafiek", r"een rechte die de \(y\)-as snijdt in \(5\) en per stap \(3\) stijgt"],
+                ["voorschrift", r"\(f(x) = 3x + 5\)"],
             ])),
+        ]),
+        dict(kop="Van tabel naar voorschrift", blokken=[
             ("p", "Bij een <strong>grafiek</strong> hoort altijd een <strong>ijk</strong> op de assen: zonder "
                   "getallen op de assen kan je geen enkele waarde aflezen en toont de tekening alleen nog een "
                   "vorm."),
-            ("p", "Uit een <strong>tabel</strong> lees je af wat voor groei het is. Bij 1 → 4, 2 → 7, 3 → 10 "
-                  "komt er telkens 3 bij: dat is <strong>lineaire groei</strong>, met voorschrift 3x + 1. Bij "
-                  "1 → 1, 2 → 4, 3 → 9 zijn de verschillen 3 en 5, dus <strong>niet lineair</strong>: hier "
-                  "staat y = x²."),
+            ("p", r"Uit een <strong>tabel</strong> lees je af wat voor groei het is. Bij \(1 \to 4\), "
+                  r"\(2 \to 7\), \(3 \to 10\) komt er telkens \(3\) bij: dat is <strong>lineaire "
+                  r"groei</strong>, met voorschrift \(y = 3x + 1\). Bij \(1 \to 1\), \(2 \to 4\), "
+                  r"\(3 \to 9\) zijn de verschillen \(3\) en \(5\), dus <strong>niet lineair</strong>: hier "
+                  r"staat \(y = x^{2}\)."),
         ]),
         dict(kop="De eerstegraadsfunctie", blokken=[
-            ("p", "Het voorschrift <strong>f(x) = ax + b</strong> geeft altijd een <strong>rechte</strong>."),
-            ("p", "<strong>a</strong> is de <strong>richtingscoëfficiënt</strong>: hoeveel y stijgt per "
-                  "eenheid x. Is a = 3, dan gaat de rechte drie omhoog per stap naar rechts. Is a negatief, "
-                  "dan <strong>daalt</strong> de rechte van links naar rechts. Is a nul, dan loopt ze "
-                  "<strong>horizontaal</strong> en luidt het voorschrift y = b."),
-            ("p", "<strong>b</strong> is de y-waarde waar de rechte de <strong>verticale as</strong> snijdt. "
-                  "Vul x = 0 in en je houdt b over. Bij een taxirit is b de opstapprijs."),
-            ("p", "Twee rechten zijn <strong>evenwijdig</strong> als hun richtingscoëfficiënten "
-                  "<strong>gelijk</strong> zijn. (Staan ze loodrecht op elkaar, dan is het product van hun "
-                  "richtingscoëfficiënten min één.)"),
+            ("p", r"Het voorschrift <strong>\(f(x) = ax + b\)</strong> geeft altijd een <strong>rechte</strong>."),
+            ("fig", svg.rechtegrafiek(), r"\(a = 2\) is het trapje, \(b = 3\) is het snijpunt met de \(y\)-as"),
+            ("p", r"<strong>\(a\)</strong> is de <strong>richtingscoëfficiënt</strong>: hoeveel \(y\) stijgt "
+                  r"per eenheid \(x\). Is \(a = 3\), dan gaat de rechte drie omhoog per stap naar rechts. Is "
+                  r"\(a\) negatief, dan <strong>daalt</strong> de rechte van links naar rechts. Is \(a = 0\), "
+                  r"dan loopt ze <strong>horizontaal</strong> en luidt het voorschrift \(y = b\)."),
+        ]),
+        dict(kop="Wat a en b betekenen", blokken=[
+            ("p", r"<strong>\(b\)</strong> is de \(y\)-waarde waar de rechte de <strong>verticale as</strong> "
+                  r"snijdt. Vul \(x = 0\) in en je houdt \(b\) over. Bij een taxirit is \(b\) de opstapprijs."),
+            ("p", r"Twee rechten zijn <strong>evenwijdig</strong> als hun richtingscoëfficiënten "
+                  r"<strong>gelijk</strong> zijn. Staan ze loodrecht op elkaar, dan is het product van hun "
+                  r"richtingscoëfficiënten \(-1\)."),
         ]),
         dict(kop="Lineair of recht evenredig", blokken=[
-            ("p", "Een verband is <strong>recht evenredig</strong> als een verdubbeling van de ene een "
-                  "verdubbeling van de andere geeft. Het voorschrift is dan y = ax, dus <strong>zonder "
-                  "b</strong>, en de rechte gaat <strong>door de oorsprong</strong>."),
-            ("p", "Een verband is <strong>lineair</strong> zodra de grafiek een rechte is, met of zonder b. "
-                  "Elk recht evenredig verband is dus lineair, maar niet omgekeerd: bij y = 2x + 5 betaal je "
-                  "bij nul kilometer al 5 euro, en dan verdubbelt het totaal niet mee."),
+            ("p", r"Een verband is <strong>recht evenredig</strong> als een verdubbeling van de ene een "
+                  r"verdubbeling van de andere geeft. Het voorschrift is dan \(y = ax\), dus <strong>zonder "
+                  r"\(b\)</strong>, en de rechte gaat <strong>door de oorsprong</strong>."),
+            ("p", r"Een verband is <strong>lineair</strong> zodra de grafiek een rechte is, met of zonder "
+                  r"\(b\). Elk recht evenredig verband is dus lineair, maar niet omgekeerd: bij "
+                  r"\(y = 2x + 5\) betaal je bij nul kilometer al \(5\) euro, en dan verdubbelt het totaal "
+                  r"niet mee."),
         ]),
         dict(kop="De vergelijking van een rechte opstellen", blokken=[
-            ("p", "De <strong>richtingscoëfficiënt uit twee punten</strong> is het verschil in y gedeeld door "
-                  "het verschil in x:"),
-            ("p", tabel(["Punten", "Verschil y op verschil x", "rico"], [
-                ["(1, 2) en (4, 11)", "9 op 3", "3"],
-                ["(2, 3) en (5, 12)", "9 op 3", "3"],
-                ["(0, 5) en (2, 1)", "−4 op 2", "−2"],
+            ("p", r"De <strong>richtingscoëfficiënt uit twee punten</strong> is het verschil in \(y\) gedeeld "
+                  r"door het verschil in \(x\):"),
+            ("p", r"\[a = \frac{y_{2} - y_{1}}{x_{2} - x_{1}}\]"),
+            ("p", tabel(["Punten", "Verschil in y op verschil in x", "rico"], [
+                [r"\((1, 2)\) en \((4, 11)\)", r"\(\tfrac{9}{3}\)", r"\(3\)"],
+                [r"\((2, 3)\) en \((5, 12)\)", r"\(\tfrac{9}{3}\)", r"\(3\)"],
+                [r"\((0, 5)\) en \((2, 1)\)", r"\(\tfrac{-4}{2}\)", r"\(-2\)"],
             ])),
-            ("p", "<strong>Met een rico en een punt.</strong> Ligt het punt op de y-as, zoals (0, 3), dan lees "
-                  "je b meteen af: rico 2 geeft y = 2x + 3. Ligt het punt elders, zoals (1, 6) bij rico 4, dan "
-                  "vul je in: 6 = 4 · 1 + b, dus b = 2 en y = 4x + 2."),
-            ("p", "<strong>Twee punten volstaan</strong> om een rechte vast te leggen: bereken eerst de rico, "
-                  "vul daarna één van de twee punten in om b te vinden."),
-            ("p", "<strong>Snijpunt met de x-as.</strong> Stel y gelijk aan nul. Bij y = 2x − 8 geeft dat "
-                  "x = 4, dus het punt (4, 0); het snijpunt met de y-as is (0, −8). Bij y = 3x − 12 ligt het "
-                  "snijpunt met de x-as bij x = 4."),
+        ]),
+        dict(kop="Met een rico en een punt", blokken=[
+            ("p", r"<strong>Met een rico en een punt.</strong> Ligt het punt op de \(y\)-as, zoals "
+                  r"\((0, 3)\), dan lees je \(b\) meteen af: rico \(2\) geeft \(y = 2x + 3\). Ligt het punt "
+                  r"elders, zoals \((1, 6)\) bij rico \(4\), dan vul je in: \(6 = 4 \cdot 1 + b\), dus "
+                  r"\(b = 2\) en \(y = 4x + 2\)."),
+            ("p", r"<strong>Twee punten volstaan</strong> om een rechte vast te leggen: bereken eerst de "
+                  r"rico, vul daarna één van de twee punten in om \(b\) te vinden."),
+            ("p", r"<strong>Snijpunt met de \(x\)-as.</strong> Stel \(y = 0\). Bij \(y = 2x - 8\) geeft dat "
+                  r"\(x = 4\), dus het punt \((4, 0)\); het snijpunt met de \(y\)-as is \((0, -8)\). Bij "
+                  r"\(y = 3x - 12\) ligt het snijpunt met de \(x\)-as bij \(x = 4\)."),
         ]),
         dict(kop="Modellen uit de praktijk", blokken=[
             ("p", "De fiche noemt uitdrukkelijk een aantal situaties waarin een eerstegraadsfunctie het model is:"),
             ("p", tabel(["Situatie", "Model", "Wat a en b zijn"], [
-                ["rechtlijnige beweging", "s = 18t + 5", "a is de snelheid, b de beginpositie"],
-                ["vaste en variabele kosten", "k = 0,40n + 60", "a is de prijs per stuk, b de opstartkosten"],
-                ["hydrostatische druk", "p = 0,1d + 1", "1 bar per 10 meter diepte, plus 1 bar lucht"],
-                ["energiegebruik", "kost = prijs per kWh · verbruik + vast abonnement", "a is de eenheidsprijs"],
-                ["lineaire afschrijving", "w = 20000 − 2000t", "a is het jaarlijkse verlies"],
+                ["rechtlijnige beweging", r"\(s = 18t + 5\)", r"\(a\) is de snelheid, \(b\) de beginpositie"],
+                ["vaste en variabele kosten", r"\(k = 0{,}40n + 60\)",
+                 r"\(a\) is de prijs per stuk, \(b\) de opstartkosten"],
+                ["hydrostatische druk", r"\(p = 0{,}1d + 1\)",
+                 r"\(1\) bar per \(10\) meter diepte, plus \(1\) bar lucht"],
+                ["energiegebruik", r"\(k = p \cdot v + a\)", r"\(p\) is de prijs per kWh"],
+                ["lineaire afschrijving", r"\(w = 20\,000 - 2\,000t\)", r"\(a\) is het jaarlijkse verlies"],
             ])),
-            ("p", "Een fietser aan 18 km/u die al 5 kilometer ver is: s = 18t + 5. Een drukkerij met 60 euro "
-                  "opstartkosten en 0,40 euro per affiche: k = 0,40n + 60. Bij 30 meter diepte is de druk "
-                  "1 + 3 = <strong>4 bar</strong>. Een machine van 20 000 euro die in tien jaar lineair tot "
-                  "nul wordt afgeschreven, verliest <strong>2000 euro per jaar</strong> en is na vier jaar nog "
-                  "12 000 euro waard."),
+        ]),
+        dict(kop="Rekenen met die modellen", blokken=[
+            ("p", r"Een fietser aan \(18\) km/u die al \(5\) kilometer ver is: \(s = 18t + 5\). Een drukkerij "
+                  r"met \(60\) euro opstartkosten en \(0{,}40\) euro per affiche: \(k = 0{,}40n + 60\). Bij "
+                  r"\(30\) meter diepte is de druk \(1 + 3 = \) <strong>\(4\) bar</strong>. Een machine van "
+                  r"\(20\,000\) euro die in tien jaar lineair tot nul wordt afgeschreven, verliest "
+                  r"<strong>\(2\,000\) euro per jaar</strong> en is na vier jaar nog \(12\,000\) euro waard."),
             ("kader", "Bij vaste én variabele kosten is de totale kost wél <strong>lineair</strong>, maar "
                       "<strong>niet recht evenredig</strong>: door de vaste kosten gaat de rechte niet door de "
                       "oorsprong, en tweemaal zoveel affiches kost dus geen tweemaal zoveel geld."),
         ]),
     ],
     onthoud=[
-        "Functie: bij elke x hoogstens één y. Verticale lijn snijdt de grafiek maar één keer.",
+        r"Functie: bij elke \(x\) hoogstens één \(y\). Een verticale lijn snijdt de grafiek maar één keer.",
         "Onafhankelijke variabele horizontaal, afhankelijke verticaal.",
-        "Domein zijn de x-waarden, bereik zijn de y-waarden.",
+        r"Domein zijn de \(x\)-waarden, bereik zijn de \(y\)-waarden.",
         "Vier voorstellingswijzen: verwoording, tabel, grafiek, voorschrift.",
-        "f(x) = ax + b: a is de richtingscoëfficiënt, b het snijpunt met de y-as.",
-        "Rico uit twee punten: verschil in y gedeeld door verschil in x.",
+        r"\(f(x) = ax + b\): \(a\) is de richtingscoëfficiënt, \(b\) het snijpunt met de \(y\)-as.",
+        r"\(a = \tfrac{y_{2} - y_{1}}{x_{2} - x_{1}}\), de rico uit twee punten.",
         "Evenwijdige rechten hebben dezelfde richtingscoëfficiënt.",
-        "Recht evenredig gaat door de oorsprong (y = ax); lineair hoeft dat niet.",
+        r"Recht evenredig gaat door de oorsprong \((y = ax)\); lineair hoeft dat niet.",
         "Lineaire groei: elke stap komt er hetzelfde bij.",
-        "Snijpunt met de x-as: stel y gelijk aan nul.",
+        r"Snijpunt met de \(x\)-as: stel \(y = 0\).",
     ],
 )
 

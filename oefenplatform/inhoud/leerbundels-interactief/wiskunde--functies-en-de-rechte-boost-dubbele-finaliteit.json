@@ -8,11 +8,11 @@
    "blokken": [
     {
      "soort": "tekst",
-     "html": "Een verband tussen twee grootheden is een <strong>functie</strong> als er bij elke x <strong>hoogstens één</strong> y hoort. Eén invoer, één uitkomst. Op de grafiek betekent dat: een <strong>verticale lijn</strong> mag de grafiek maar één keer snijden. Dat heet de verticalelijntest, en daarom is een verticale rechte zelf géén functie."
+     "html": "Een verband tussen twee grootheden is een <strong>functie</strong> als er bij elke \\(x\\) <strong>hoogstens één</strong> \\(y\\) hoort. Eén invoer, één uitkomst. Op de grafiek betekent dat: een <strong>verticale lijn</strong> mag de grafiek maar één keer snijden. Dat heet de verticalelijntest, en daarom is een verticale rechte zelf géén functie."
     },
     {
      "soort": "tekst",
-     "html": "Omgekeerd mag het wél: dezelfde y bij verschillende x'en. Bij y = x² hoort y = 4 bij zowel x = 2 als x = −2, en dat is prima."
+     "html": "Omgekeerd mag het wél: dezelfde \\(y\\) bij verschillende \\(x\\)'en. Bij \\(y = x^{2}\\) hoort \\(y = 4\\) bij zowel \\(x = 2\\) als \\(x = -2\\), en dat is prima."
     },
     {
      "soort": "tekst",
@@ -25,15 +25,15 @@
    "blokken": [
     {
      "soort": "tekst",
-     "html": "<strong>f(4)</strong> lees je als <em>de functiewaarde in 4</em>: vul 4 in voor x. Voor f(x) = 3x − 2 is f(4) = 10, en voor f(x) = 2x + 7 is f(5) = 17."
+     "html": "<strong>\\(f(4)\\)</strong> lees je als <em>de functiewaarde in \\(4\\)</em>: vul \\(4\\) in voor \\(x\\). Voor \\(f(x) = 3x - 2\\) is \\(f(4) = 10\\), en voor \\(f(x) = 2x + 7\\) is \\(f(5) = 17\\)."
     },
     {
      "soort": "tekst",
-     "html": "De omgekeerde vraag is een vergelijking: <em>voor welke x is f(x) = 13?</em> Dan los je 3x − 2 = 13 op en vind je x = 5. Voor f(x) = 4x − 1 en f(x) = 11 vind je x = 3."
+     "html": "De omgekeerde vraag is een vergelijking: <em>voor welke \\(x\\) is \\(f(x) = 13\\)?</em> Dan los je \\(3x - 2 = 13\\) op en vind je \\(x = 5\\). Voor \\(f(x) = 4x - 1\\) en \\(f(x) = 11\\) vind je \\(x = 3\\)."
     },
     {
      "soort": "tekst",
-     "html": "Het <strong>domein</strong> is de verzameling van alle x-waarden waarvoor de functie een waarde geeft. Het <strong>bereik</strong> is de verzameling van alle y-waarden die ze aanneemt. Bij f(x) = 1/x is het domein alle reële getallen <strong>behalve nul</strong>, want delen door nul mag niet."
+     "html": "Het <strong>domein</strong> is de verzameling van alle \\(x\\)-waarden waarvoor de functie een waarde geeft. Het <strong>bereik</strong> is de verzameling van alle \\(y\\)-waarden die ze aanneemt. Bij \\(f(x) = \\tfrac{1}{x}\\) is het domein \\(\\mathbb{R}\\) <strong>zonder \\(0\\)</strong>, want delen door nul mag niet."
     }
    ]
   },
@@ -46,15 +46,20 @@
     },
     {
      "soort": "tekst",
-     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Vorm</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Voorbeeld</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">verwoording</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">je betaalt 5 euro opstap en 3 euro per kilometer</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">tabel</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">1 → 8, 2 → 11, 3 → 14</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">grafiek</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een rechte die de y-as snijdt in 5 en per stap 3 stijgt</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">voorschrift</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">f(x) = 3x + 5</td></tr></table>"
-    },
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Vorm</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Voorbeeld</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">verwoording</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">je betaalt \\(5\\) euro opstap en \\(3\\) euro per kilometer</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">tabel</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">\\(1 \\to 8\\), \\(2 \\to 11\\), \\(3 \\to 14\\)</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">grafiek</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een rechte die de \\(y\\)-as snijdt in \\(5\\) en per stap \\(3\\) stijgt</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">voorschrift</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">\\(f(x) = 3x + 5\\)</td></tr></table>"
+    }
+   ]
+  },
+  {
+   "kop": "Van tabel naar voorschrift",
+   "blokken": [
     {
      "soort": "tekst",
      "html": "Bij een <strong>grafiek</strong> hoort altijd een <strong>ijk</strong> op de assen: zonder getallen op de assen kan je geen enkele waarde aflezen en toont de tekening alleen nog een vorm."
     },
     {
      "soort": "tekst",
-     "html": "Uit een <strong>tabel</strong> lees je af wat voor groei het is. Bij 1 → 4, 2 → 7, 3 → 10 komt er telkens 3 bij: dat is <strong>lineaire groei</strong>, met voorschrift 3x + 1. Bij 1 → 1, 2 → 4, 3 → 9 zijn de verschillen 3 en 5, dus <strong>niet lineair</strong>: hier staat y = x²."
+     "html": "Uit een <strong>tabel</strong> lees je af wat voor groei het is. Bij \\(1 \\to 4\\), \\(2 \\to 7\\), \\(3 \\to 10\\) komt er telkens \\(3\\) bij: dat is <strong>lineaire groei</strong>, met voorschrift \\(y = 3x + 1\\). Bij \\(1 \\to 1\\), \\(2 \\to 4\\), \\(3 \\to 9\\) zijn de verschillen \\(3\\) en \\(5\\), dus <strong>niet lineair</strong>: hier staat \\(y = x^{2}\\)."
     }
    ]
   },
@@ -63,19 +68,29 @@
    "blokken": [
     {
      "soort": "tekst",
-     "html": "Het voorschrift <strong>f(x) = ax + b</strong> geeft altijd een <strong>rechte</strong>."
+     "html": "Het voorschrift <strong>\\(f(x) = ax + b\\)</strong> geeft altijd een <strong>rechte</strong>."
+    },
+    {
+     "soort": "figuur",
+     "html": "<svg viewBox=\"0 0 470 236\" width=\"470\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"5\" y=\"4\" width=\"460\" height=\"210\" rx=\"7\" fill=\"#ffffff\" stroke=\"#e4ded0\" stroke-width=\"1.2\"/>\n<line x1=\"223.0\" y1=\"212.0\" x2=\"223.0\" y2=\"16.0\" stroke=\"#e4ded0\" stroke-width=\"1\"/>\n<line x1=\"251.0\" y1=\"212.0\" x2=\"251.0\" y2=\"16.0\" stroke=\"#e4ded0\" stroke-width=\"1\"/>\n<line x1=\"279.0\" y1=\"212.0\" x2=\"279.0\" y2=\"16.0\" stroke=\"#e4ded0\" stroke-width=\"1\"/>\n<line x1=\"307.0\" y1=\"212.0\" x2=\"307.0\" y2=\"16.0\" stroke=\"#e4ded0\" stroke-width=\"1\"/>\n<line x1=\"195.0\" y1=\"184.0\" x2=\"307.0\" y2=\"184.0\" stroke=\"#e4ded0\" stroke-width=\"1\"/>\n<line x1=\"195.0\" y1=\"156.0\" x2=\"307.0\" y2=\"156.0\" stroke=\"#e4ded0\" stroke-width=\"1\"/>\n<line x1=\"195.0\" y1=\"128.0\" x2=\"307.0\" y2=\"128.0\" stroke=\"#e4ded0\" stroke-width=\"1\"/>\n<line x1=\"195.0\" y1=\"100.0\" x2=\"307.0\" y2=\"100.0\" stroke=\"#e4ded0\" stroke-width=\"1\"/>\n<line x1=\"195.0\" y1=\"72.0\" x2=\"307.0\" y2=\"72.0\" stroke=\"#e4ded0\" stroke-width=\"1\"/>\n<line x1=\"195.0\" y1=\"44.0\" x2=\"307.0\" y2=\"44.0\" stroke=\"#e4ded0\" stroke-width=\"1\"/>\n<line x1=\"195.0\" y1=\"16.0\" x2=\"307.0\" y2=\"16.0\" stroke=\"#e4ded0\" stroke-width=\"1\"/>\n<line x1=\"181.0\" y1=\"212.0\" x2=\"321.0\" y2=\"212.0\" stroke=\"#23291f\" stroke-width=\"1.4\"/>\n<line x1=\"195.0\" y1=\"226.0\" x2=\"195.0\" y2=\"4.0\" stroke=\"#23291f\" stroke-width=\"1.4\"/>\n<text x=\"223.0\" y=\"226.0\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"8.5\" fill=\"#6b7260\">1</text>\n<text x=\"251.0\" y=\"226.0\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"8.5\" fill=\"#6b7260\">2</text>\n<text x=\"279.0\" y=\"226.0\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"8.5\" fill=\"#6b7260\">3</text>\n<text x=\"307.0\" y=\"226.0\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"8.5\" fill=\"#6b7260\">4</text>\n<text x=\"188.0\" y=\"187.0\" text-anchor=\"end\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"8.5\" fill=\"#6b7260\">1</text>\n<text x=\"188.0\" y=\"159.0\" text-anchor=\"end\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"8.5\" fill=\"#6b7260\">2</text>\n<text x=\"188.0\" y=\"131.0\" text-anchor=\"end\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"8.5\" fill=\"#6b7260\">3</text>\n<text x=\"188.0\" y=\"103.0\" text-anchor=\"end\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"8.5\" fill=\"#6b7260\">4</text>\n<text x=\"188.0\" y=\"75.0\" text-anchor=\"end\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"8.5\" fill=\"#6b7260\">5</text>\n<text x=\"188.0\" y=\"47.0\" text-anchor=\"end\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"8.5\" fill=\"#6b7260\">6</text>\n<text x=\"188.0\" y=\"19.0\" text-anchor=\"end\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"8.5\" fill=\"#6b7260\">7</text>\n<text x=\"317.0\" y=\"226.0\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"9.5\" fill=\"#6b7260\">x</text>\n<text x=\"186.0\" y=\"12.0\" text-anchor=\"end\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"9.5\" fill=\"#6b7260\">y</text>\n<line x1=\"195.0\" y1=\"128.0\" x2=\"251.0\" y2=\"16.0\" stroke=\"#234539\" stroke-width=\"2.6\"/>\n<line x1=\"223.0\" y1=\"72.0\" x2=\"251.0\" y2=\"72.0\" stroke=\"#c17f2b\" stroke-width=\"2.4\" stroke-dasharray=\"4 3\"/>\n<line x1=\"251.0\" y1=\"72.0\" x2=\"251.0\" y2=\"16.0\" stroke=\"#c17f2b\" stroke-width=\"2.4\" stroke-dasharray=\"4 3\"/>\n<text x=\"237.0\" y=\"86.0\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"10\" font-weight=\"600\" fill=\"#c17f2b\">1</text>\n<text x=\"260.0\" y=\"48.0\" text-anchor=\"start\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"10\" font-weight=\"600\" fill=\"#c17f2b\">2</text>\n<circle cx=\"195.0\" cy=\"128.0\" r=\"4\" fill=\"#2f5d50\"/>\n<text x=\"204.0\" y=\"145.0\" text-anchor=\"start\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"10\" font-weight=\"600\" fill=\"#2f5d50\">b = 3</text>\n<text x=\"261.0\" y=\"18.0\" text-anchor=\"start\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"10.5\" font-weight=\"600\" fill=\"#234539\">y = 2x + 3</text></svg>",
+     "onderschrift": "\\(a = 2\\) is het trapje, \\(b = 3\\) is het snijpunt met de \\(y\\)-as"
     },
     {
      "soort": "tekst",
-     "html": "<strong>a</strong> is de <strong>richtingscoëfficiënt</strong>: hoeveel y stijgt per eenheid x. Is a = 3, dan gaat de rechte drie omhoog per stap naar rechts. Is a negatief, dan <strong>daalt</strong> de rechte van links naar rechts. Is a nul, dan loopt ze <strong>horizontaal</strong> en luidt het voorschrift y = b."
+     "html": "<strong>\\(a\\)</strong> is de <strong>richtingscoëfficiënt</strong>: hoeveel \\(y\\) stijgt per eenheid \\(x\\). Is \\(a = 3\\), dan gaat de rechte drie omhoog per stap naar rechts. Is \\(a\\) negatief, dan <strong>daalt</strong> de rechte van links naar rechts. Is \\(a = 0\\), dan loopt ze <strong>horizontaal</strong> en luidt het voorschrift \\(y = b\\)."
+    }
+   ]
+  },
+  {
+   "kop": "Wat a en b betekenen",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "<strong>\\(b\\)</strong> is de \\(y\\)-waarde waar de rechte de <strong>verticale as</strong> snijdt. Vul \\(x = 0\\) in en je houdt \\(b\\) over. Bij een taxirit is \\(b\\) de opstapprijs."
     },
     {
      "soort": "tekst",
-     "html": "<strong>b</strong> is de y-waarde waar de rechte de <strong>verticale as</strong> snijdt. Vul x = 0 in en je houdt b over. Bij een taxirit is b de opstapprijs."
-    },
-    {
-     "soort": "tekst",
-     "html": "Twee rechten zijn <strong>evenwijdig</strong> als hun richtingscoëfficiënten <strong>gelijk</strong> zijn. (Staan ze loodrecht op elkaar, dan is het product van hun richtingscoëfficiënten min één.)"
+     "html": "Twee rechten zijn <strong>evenwijdig</strong> als hun richtingscoëfficiënten <strong>gelijk</strong> zijn. Staan ze loodrecht op elkaar, dan is het product van hun richtingscoëfficiënten \\(-1\\)."
     }
    ]
   },
@@ -84,11 +99,11 @@
    "blokken": [
     {
      "soort": "tekst",
-     "html": "Een verband is <strong>recht evenredig</strong> als een verdubbeling van de ene een verdubbeling van de andere geeft. Het voorschrift is dan y = ax, dus <strong>zonder b</strong>, en de rechte gaat <strong>door de oorsprong</strong>."
+     "html": "Een verband is <strong>recht evenredig</strong> als een verdubbeling van de ene een verdubbeling van de andere geeft. Het voorschrift is dan \\(y = ax\\), dus <strong>zonder \\(b\\)</strong>, en de rechte gaat <strong>door de oorsprong</strong>."
     },
     {
      "soort": "tekst",
-     "html": "Een verband is <strong>lineair</strong> zodra de grafiek een rechte is, met of zonder b. Elk recht evenredig verband is dus lineair, maar niet omgekeerd: bij y = 2x + 5 betaal je bij nul kilometer al 5 euro, en dan verdubbelt het totaal niet mee."
+     "html": "Een verband is <strong>lineair</strong> zodra de grafiek een rechte is, met of zonder \\(b\\). Elk recht evenredig verband is dus lineair, maar niet omgekeerd: bij \\(y = 2x + 5\\) betaal je bij nul kilometer al \\(5\\) euro, en dan verdubbelt het totaal niet mee."
     }
    ]
   },
@@ -97,23 +112,32 @@
    "blokken": [
     {
      "soort": "tekst",
-     "html": "De <strong>richtingscoëfficiënt uit twee punten</strong> is het verschil in y gedeeld door het verschil in x:"
+     "html": "De <strong>richtingscoëfficiënt uit twee punten</strong> is het verschil in \\(y\\) gedeeld door het verschil in \\(x\\):"
     },
     {
      "soort": "tekst",
-     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Punten</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Verschil y op verschil x</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">rico</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">(1, 2) en (4, 11)</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">9 op 3</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">3</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">(2, 3) en (5, 12)</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">9 op 3</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">3</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">(0, 5) en (2, 1)</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">−4 op 2</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">−2</td></tr></table>"
+     "html": "\\[a = \\frac{y_{2} - y_{1}}{x_{2} - x_{1}}\\]"
     },
     {
      "soort": "tekst",
-     "html": "<strong>Met een rico en een punt.</strong> Ligt het punt op de y-as, zoals (0, 3), dan lees je b meteen af: rico 2 geeft y = 2x + 3. Ligt het punt elders, zoals (1, 6) bij rico 4, dan vul je in: 6 = 4 · 1 + b, dus b = 2 en y = 4x + 2."
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Punten</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Verschil in y op verschil in x</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">rico</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">\\((1, 2)\\) en \\((4, 11)\\)</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">\\(\\tfrac{9}{3}\\)</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">\\(3\\)</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">\\((2, 3)\\) en \\((5, 12)\\)</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">\\(\\tfrac{9}{3}\\)</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">\\(3\\)</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">\\((0, 5)\\) en \\((2, 1)\\)</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">\\(\\tfrac{-4}{2}\\)</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">\\(-2\\)</td></tr></table>"
+    }
+   ]
+  },
+  {
+   "kop": "Met een rico en een punt",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "<strong>Met een rico en een punt.</strong> Ligt het punt op de \\(y\\)-as, zoals \\((0, 3)\\), dan lees je \\(b\\) meteen af: rico \\(2\\) geeft \\(y = 2x + 3\\). Ligt het punt elders, zoals \\((1, 6)\\) bij rico \\(4\\), dan vul je in: \\(6 = 4 \\cdot 1 + b\\), dus \\(b = 2\\) en \\(y = 4x + 2\\)."
     },
     {
      "soort": "tekst",
-     "html": "<strong>Twee punten volstaan</strong> om een rechte vast te leggen: bereken eerst de rico, vul daarna één van de twee punten in om b te vinden."
+     "html": "<strong>Twee punten volstaan</strong> om een rechte vast te leggen: bereken eerst de rico, vul daarna één van de twee punten in om \\(b\\) te vinden."
     },
     {
      "soort": "tekst",
-     "html": "<strong>Snijpunt met de x-as.</strong> Stel y gelijk aan nul. Bij y = 2x − 8 geeft dat x = 4, dus het punt (4, 0); het snijpunt met de y-as is (0, −8). Bij y = 3x − 12 ligt het snijpunt met de x-as bij x = 4."
+     "html": "<strong>Snijpunt met de \\(x\\)-as.</strong> Stel \\(y = 0\\). Bij \\(y = 2x - 8\\) geeft dat \\(x = 4\\), dus het punt \\((4, 0)\\); het snijpunt met de \\(y\\)-as is \\((0, -8)\\). Bij \\(y = 3x - 12\\) ligt het snijpunt met de \\(x\\)-as bij \\(x = 4\\)."
     }
    ]
   },
@@ -126,11 +150,16 @@
     },
     {
      "soort": "tekst",
-     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Situatie</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Model</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Wat a en b zijn</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">rechtlijnige beweging</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">s = 18t + 5</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">a is de snelheid, b de beginpositie</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">vaste en variabele kosten</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">k = 0,40n + 60</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">a is de prijs per stuk, b de opstartkosten</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">hydrostatische druk</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">p = 0,1d + 1</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">1 bar per 10 meter diepte, plus 1 bar lucht</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">energiegebruik</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">kost = prijs per kWh · verbruik + vast abonnement</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">a is de eenheidsprijs</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">lineaire afschrijving</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">w = 20000 − 2000t</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">a is het jaarlijkse verlies</td></tr></table>"
-    },
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Situatie</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Model</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Wat a en b zijn</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">rechtlijnige beweging</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">\\(s = 18t + 5\\)</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">\\(a\\) is de snelheid, \\(b\\) de beginpositie</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">vaste en variabele kosten</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">\\(k = 0{,}40n + 60\\)</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">\\(a\\) is de prijs per stuk, \\(b\\) de opstartkosten</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">hydrostatische druk</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">\\(p = 0{,}1d + 1\\)</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">\\(1\\) bar per \\(10\\) meter diepte, plus \\(1\\) bar lucht</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">energiegebruik</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">\\(k = p \\cdot v + a\\)</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">\\(p\\) is de prijs per kWh</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">lineaire afschrijving</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">\\(w = 20\\,000 - 2\\,000t\\)</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">\\(a\\) is het jaarlijkse verlies</td></tr></table>"
+    }
+   ]
+  },
+  {
+   "kop": "Rekenen met die modellen",
+   "blokken": [
     {
      "soort": "tekst",
-     "html": "Een fietser aan 18 km/u die al 5 kilometer ver is: s = 18t + 5. Een drukkerij met 60 euro opstartkosten en 0,40 euro per affiche: k = 0,40n + 60. Bij 30 meter diepte is de druk 1 + 3 = <strong>4 bar</strong>. Een machine van 20 000 euro die in tien jaar lineair tot nul wordt afgeschreven, verliest <strong>2000 euro per jaar</strong> en is na vier jaar nog 12 000 euro waard."
+     "html": "Een fietser aan \\(18\\) km/u die al \\(5\\) kilometer ver is: \\(s = 18t + 5\\). Een drukkerij met \\(60\\) euro opstartkosten en \\(0{,}40\\) euro per affiche: \\(k = 0{,}40n + 60\\). Bij \\(30\\) meter diepte is de druk \\(1 + 3 = \\) <strong>\\(4\\) bar</strong>. Een machine van \\(20\\,000\\) euro die in tien jaar lineair tot nul wordt afgeschreven, verliest <strong>\\(2\\,000\\) euro per jaar</strong> en is na vier jaar nog \\(12\\,000\\) euro waard."
     },
     {
      "soort": "kader",
@@ -140,15 +169,15 @@
   }
  ],
  "onthoud": [
-  "Functie: bij elke x hoogstens één y. Verticale lijn snijdt de grafiek maar één keer.",
+  "Functie: bij elke \\(x\\) hoogstens één \\(y\\). Een verticale lijn snijdt de grafiek maar één keer.",
   "Onafhankelijke variabele horizontaal, afhankelijke verticaal.",
-  "Domein zijn de x-waarden, bereik zijn de y-waarden.",
+  "Domein zijn de \\(x\\)-waarden, bereik zijn de \\(y\\)-waarden.",
   "Vier voorstellingswijzen: verwoording, tabel, grafiek, voorschrift.",
-  "f(x) = ax + b: a is de richtingscoëfficiënt, b het snijpunt met de y-as.",
-  "Rico uit twee punten: verschil in y gedeeld door verschil in x.",
+  "\\(f(x) = ax + b\\): \\(a\\) is de richtingscoëfficiënt, \\(b\\) het snijpunt met de \\(y\\)-as.",
+  "\\(a = \\tfrac{y_{2} - y_{1}}{x_{2} - x_{1}}\\), de rico uit twee punten.",
   "Evenwijdige rechten hebben dezelfde richtingscoëfficiënt.",
-  "Recht evenredig gaat door de oorsprong (y = ax); lineair hoeft dat niet.",
+  "Recht evenredig gaat door de oorsprong \\((y = ax)\\); lineair hoeft dat niet.",
   "Lineaire groei: elke stap komt er hetzelfde bij.",
-  "Snijpunt met de x-as: stel y gelijk aan nul."
+  "Snijpunt met de \\(x\\)-as: stel \\(y = 0\\)."
  ]
 }

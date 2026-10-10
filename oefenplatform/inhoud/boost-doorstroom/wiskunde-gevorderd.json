@@ -3851,10 +3851,10 @@
           "type": "meerkeuze",
           "vraag": "Wanneer is een verband een functie?",
           "opties": [
-            "als bij elke x hoogstens één y hoort",
-            "als bij elke y hoogstens één x hoort",
+            "als bij elke \\(x\\) hoogstens één \\(y\\) hoort",
+            "als bij elke \\(y\\) hoogstens één \\(x\\) hoort",
             "als de grafiek een rechte is",
-            "als x en y allebei positief zijn"
+            "als \\(x\\) en \\(y\\) allebei positief zijn"
           ],
           "antwoord": 0,
           "uitleg": "Een verticale lijn mag de grafiek dus maar één keer snijden. Dat heet de verticalelijntest."
@@ -3875,22 +3875,22 @@
           "type": "meerkeuze",
           "vraag": "Wat is het domein van een functie?",
           "opties": [
-            "de verzameling van alle x-waarden waarvoor de functie een waarde geeft",
-            "de verzameling van alle y-waarden die de functie aanneemt",
+            "de verzameling van alle \\(x\\)-waarden waarvoor de functie een waarde geeft",
+            "de verzameling van alle \\(y\\)-waarden die de functie aanneemt",
             "de verzameling van de nulwaarden van de functie",
             "de verzameling van alle punten op de grafiek"
           ],
           "antwoord": 0,
-          "uitleg": "Het bereik is de tegenhanger: dat zijn de y-waarden die er uitkomen."
+          "uitleg": "Het bereik is de tegenhanger: dat zijn de \\(y\\)-waarden die er uitkomen."
         },
         {
           "type": "meerkeuze",
           "vraag": "Wat is het bereik van een functie?",
           "opties": [
-            "de verzameling van alle y-waarden die de functie aanneemt",
-            "de verzameling van alle x-waarden waarvoor ze bestaat",
-            "de afstand tussen de kleinste en de grootste x-waarde",
-            "het aantal snijpunten met de x-as"
+            "de verzameling van alle \\(y\\)-waarden die de functie aanneemt",
+            "de verzameling van alle \\(x\\)-waarden waarvoor ze bestaat",
+            "de afstand tussen de kleinste en de grootste \\(x\\)-waarde",
+            "het aantal snijpunten met de \\(x\\)-as"
           ],
           "antwoord": 0,
           "uitleg": "Op de grafiek lees je het bereik af door naar de verticale as te kijken."
@@ -3909,39 +3909,39 @@
         },
         {
           "type": "meerkeuze",
-          "vraag": "Voor f(x) is 3x min 2, hoeveel is f(4)?",
+          "vraag": "Voor \\(f(x) = 3x - 2\\), hoeveel is \\(f(4)\\)?",
           "opties": [
-            "10",
-            "14",
-            "5",
-            "12"
+            "\\(10\\)",
+            "\\(14\\)",
+            "\\(5\\)",
+            "\\(12\\)"
           ],
           "antwoord": 0,
-          "uitleg": "3 maal 4 is 12, min 2 is 10."
+          "uitleg": "\\(3 \\cdot 4 = 12\\), en \\(12 - 2 = 10\\)."
         },
         {
           "type": "meerkeuze",
-          "vraag": "Voor f(x) is 3x min 2, voor welke x is f(x) gelijk aan 13?",
+          "vraag": "Voor \\(f(x) = 3x - 2\\), voor welke \\(x\\) is \\(f(x) = 13\\)?",
           "opties": [
-            "5",
-            "11",
-            "4",
-            "39"
+            "\\(5\\)",
+            "\\(11\\)",
+            "\\(4\\)",
+            "\\(39\\)"
           ],
           "antwoord": 0,
-          "uitleg": "3x is 15, dus x is 5. Je lost een vergelijking op in plaats van in te vullen."
+          "uitleg": "\\(3x = 15\\), dus \\(x = 5\\). Je lost een vergelijking op in plaats van in te vullen."
         },
         {
           "type": "meerkeuze",
-          "vraag": "Wat is het domein van de functie f(x) is 1 op x?",
+          "vraag": "Wat is het domein van de functie \\(f(x) = \\tfrac{1}{x}\\)?",
           "opties": [
-            "alle reële getallen behalve nul",
-            "alle positieve reële getallen",
-            "alle reële getallen",
-            "alle gehele getallen behalve nul"
+            "\\(\\mathbb{R}\\) zonder \\(0\\)",
+            "alle positieve getallen van \\(\\mathbb{R}\\)",
+            "heel \\(\\mathbb{R}\\)",
+            "\\(\\mathbb{Z}\\) zonder \\(0\\)"
           ],
           "antwoord": 0,
-          "uitleg": "Delen door nul mag niet, dus x is nul valt weg."
+          "uitleg": "Delen door nul mag niet, dus \\(x = 0\\) valt weg."
         },
         {
           "type": "meerkeuze",
@@ -3953,7 +3953,7 @@
             "het verschil van de twee blijft altijd gelijk"
           ],
           "antwoord": 0,
-          "uitleg": "De grafiek is een rechte door de oorsprong, met voorschrift y is ax."
+          "uitleg": "De grafiek is een rechte door de oorsprong, met voorschrift \\(y = ax\\)."
         },
         {
           "type": "meerkeuze",
@@ -3965,23 +3965,23 @@
             "een lineair verband heeft altijd een negatieve helling"
           ],
           "antwoord": 0,
-          "uitleg": "Bij y is 2x plus 5 is het verband lineair maar niet recht evenredig: bij nul kilometer betaal je al 5 euro."
+          "uitleg": "Bij \\(y = 2x + 5\\) is het verband lineair maar niet recht evenredig: bij nul kilometer betaal je al \\(5\\) euro."
         },
         {
           "type": "meerkeuze",
-          "vraag": "Een tabel geeft bij x is 1, 2, 3 de waarden 4, 7, 10. Wat voor groei is dat?",
+          "vraag": "Een tabel geeft bij \\(x = 1, 2, 3\\) de waarden \\(4\\), \\(7\\), \\(10\\). Wat voor groei is dat?",
           "opties": [
-            "lineaire groei, want er komt telkens 3 bij",
+            "lineaire groei, want er komt telkens \\(3\\) bij",
             "kwadratische groei, want de verschillen stijgen",
             "omgekeerd evenredig, want de waarden stijgen",
             "geen enkel herkenbaar verband"
           ],
           "antwoord": 0,
-          "uitleg": "Bij lineaire groei is het verschil per stap constant. Het voorschrift is 3x plus 1."
+          "uitleg": "Bij lineaire groei is het verschil per stap constant. Het voorschrift is \\(y = 3x + 1\\)."
         },
         {
           "type": "meerkeuze",
-          "vraag": "Een tabel geeft bij x is 1, 2, 3 de waarden 1, 4, 9. Wat voor groei is dat?",
+          "vraag": "Een tabel geeft bij \\(x = 1, 2, 3\\) de waarden \\(1\\), \\(4\\), \\(9\\). Wat voor groei is dat?",
           "opties": [
             "niet-lineaire groei, want de verschillen worden groter",
             "lineaire groei, want de waarden stijgen elke stap",
@@ -3989,7 +3989,7 @@
             "constante groei zonder toename"
           ],
           "antwoord": 0,
-          "uitleg": "De verschillen zijn 3 en 5, dus geen rechte. Dit is het kwadratische verband y is x kwadraat."
+          "uitleg": "De verschillen zijn \\(3\\) en \\(5\\), dus geen rechte. Dit is het kwadratische verband \\(y = x^{2}\\)."
         },
         {
           "type": "meerkeuze",
@@ -4005,13 +4005,13 @@
         },
         {
           "type": "waarofniet",
-          "vraag": "Bij een functie mag dezelfde y-waarde bij meerdere x-waarden horen.",
+          "vraag": "Bij een functie mag dezelfde \\(y\\)-waarde bij meerdere \\(x\\)-waarden horen.",
           "antwoord": true,
-          "uitleg": "Dat is geen probleem: bij y is x kwadraat hoort y is 4 bij zowel x is 2 als x is min 2."
+          "uitleg": "Dat is geen probleem: bij \\(y = x^{2}\\) hoort \\(y = 4\\) bij zowel \\(x = 2\\) als \\(x = -2\\)."
         },
         {
           "type": "waarofniet",
-          "vraag": "Bij een functie mogen bij dezelfde x-waarde twee verschillende y-waarden horen.",
+          "vraag": "Bij een functie mogen bij dezelfde \\(x\\)-waarde twee verschillende \\(y\\)-waarden horen.",
           "antwoord": false,
           "uitleg": "Dan is het geen functie meer. Een verticale lijn zou de grafiek twee keer snijden."
         },
@@ -4025,32 +4025,32 @@
           "type": "waarofniet",
           "vraag": "Elk lineair verband is ook recht evenredig.",
           "antwoord": false,
-          "uitleg": "Alleen als het door de oorsprong gaat, dus als b gelijk is aan nul."
+          "uitleg": "Alleen als het door de oorsprong gaat, dus als \\(b = 0\\)."
         },
         {
           "type": "invultekst",
-          "vraag": "Voor f(x) is 2x plus 7, hoeveel is f(5)?",
+          "vraag": "Voor \\(f(x) = 2x + 7\\), hoeveel is \\(f(5)\\)?",
           "antwoord": [
             "17"
           ],
-          "uitleg": "10 plus 7."
+          "uitleg": "\\(10 + 7\\)."
         },
         {
           "type": "invultekst",
-          "vraag": "Voor f(x) is 4x min 1, voor welke x is f(x) gelijk aan 11?",
+          "vraag": "Voor \\(f(x) = 4x - 1\\), voor welke \\(x\\) is \\(f(x) = 11\\)?",
           "antwoord": [
             "3"
           ],
-          "uitleg": "4x is 12."
+          "uitleg": "\\(4x = 12\\)."
         },
         {
           "type": "invultekst",
-          "vraag": "Hoe heet de verzameling van alle y-waarden die een functie aanneemt?",
+          "vraag": "Hoe heet de verzameling van alle \\(y\\)-waarden die een functie aanneemt?",
           "antwoord": [
             "bereik",
             "het bereik"
           ],
-          "uitleg": "De x-waarden vormen het domein."
+          "uitleg": "De \\(x\\)-waarden vormen het domein."
         }
       ]
     },
@@ -4061,75 +4061,75 @@
       "vragen": [
         {
           "type": "meerkeuze",
-          "vraag": "Wat betekent de a in het voorschrift f(x) is ax plus b?",
+          "vraag": "Wat betekent de \\(a\\) in het voorschrift \\(f(x) = ax + b\\)?",
           "opties": [
-            "de richtingscoëfficiënt: hoeveel y stijgt per eenheid x",
-            "de hoogte waarop de rechte de y-as snijdt",
-            "de x-waarde waar de rechte de x-as snijdt",
-            "de hoek die de rechte met de x-as maakt, in graden"
+            "de richtingscoëfficiënt: hoeveel \\(y\\) stijgt per eenheid \\(x\\)",
+            "de hoogte waarop de rechte de \\(y\\)-as snijdt",
+            "de \\(x\\)-waarde waar de rechte de \\(x\\)-as snijdt",
+            "de hoek die de rechte met de \\(x\\)-as maakt, in graden"
           ],
           "antwoord": 0,
-          "uitleg": "Is a gelijk aan 3, dan gaat de rechte drie omhoog per stap naar rechts."
+          "uitleg": "Is \\(a = 3\\), dan gaat de rechte drie omhoog per stap naar rechts."
         },
         {
           "type": "meerkeuze",
-          "vraag": "Wat betekent de b in het voorschrift f(x) is ax plus b?",
+          "vraag": "Wat betekent de \\(b\\) in het voorschrift \\(f(x) = ax + b\\)?",
           "opties": [
-            "de y-waarde waar de rechte de verticale as snijdt",
+            "de \\(y\\)-waarde waar de rechte de verticale as snijdt",
             "de helling van de rechte",
             "de nulwaarde van de functie",
-            "het aantal snijpunten met de x-as"
+            "het aantal snijpunten met de \\(x\\)-as"
           ],
           "antwoord": 0,
-          "uitleg": "Vul x is nul in en je houdt b over. Bij een taxirit is b de opstapprijs."
+          "uitleg": "Vul \\(x = 0\\) in en je houdt \\(b\\) over. Bij een taxirit is \\(b\\) de opstapprijs."
         },
         {
           "type": "meerkeuze",
-          "vraag": "Wat is de richtingscoëfficiënt van de rechte door (1, 2) en (4, 11)?",
+          "vraag": "Wat is de richtingscoëfficiënt van de rechte door \\((1, 2)\\) en \\((4, 11)\\)?",
           "opties": [
-            "3",
-            "9",
-            "min 3",
-            "1 op 3"
+            "\\(3\\)",
+            "\\(9\\)",
+            "\\(-3\\)",
+            "\\(\\tfrac{1}{3}\\)"
           ],
           "antwoord": 0,
-          "uitleg": "Het verschil in y gedeeld door het verschil in x: 9 gedeeld door 3."
+          "uitleg": "Het verschil in \\(y\\) gedeeld door het verschil in \\(x\\): \\(\\tfrac{9}{3}\\)."
         },
         {
           "type": "meerkeuze",
-          "vraag": "Wat is de richtingscoëfficiënt van de rechte door (0, 5) en (2, 1)?",
+          "vraag": "Wat is de richtingscoëfficiënt van de rechte door \\((0, 5)\\) en \\((2, 1)\\)?",
           "opties": [
-            "min 2",
-            "2",
-            "min 4",
-            "4"
+            "\\(-2\\)",
+            "\\(2\\)",
+            "\\(-4\\)",
+            "\\(4\\)"
           ],
           "antwoord": 0,
-          "uitleg": "Het verschil in y is min 4 over een verschil in x van 2. De rechte daalt dus."
+          "uitleg": "Het verschil in \\(y\\) is \\(-4\\) over een verschil in \\(x\\) van \\(2\\). De rechte daalt dus."
         },
         {
           "type": "meerkeuze",
-          "vraag": "Wat is het voorschrift van de rechte met richtingscoëfficiënt 2 door het punt (0, 3)?",
+          "vraag": "Wat is het voorschrift van de rechte met richtingscoëfficiënt \\(2\\) door het punt \\(\\left(0, 3\\right)\\)?",
           "opties": [
-            "y is 2x plus 3",
-            "y is 3x plus 2",
-            "y is 2x min 3",
-            "y is 2x"
+            "\\(y = 2x + 3\\)",
+            "\\(y = 3x + 2\\)",
+            "\\(y = 2x - 3\\)",
+            "\\(y = 2x\\)"
           ],
           "antwoord": 0,
-          "uitleg": "Het punt ligt op de y-as, dus je kan b meteen aflezen."
+          "uitleg": "Het punt ligt op de \\(y\\)-as, dus je kan b meteen aflezen."
         },
         {
           "type": "meerkeuze",
-          "vraag": "Wat is het voorschrift van de rechte met richtingscoëfficiënt 4 door het punt (1, 6)?",
+          "vraag": "Wat is het voorschrift van de rechte met richtingscoëfficiënt \\(4\\) door het punt \\(\\left(1, 6\\right)\\)?",
           "opties": [
-            "y is 4x plus 2",
-            "y is 4x plus 6",
-            "y is 4x min 2",
-            "y is 6x plus 4"
+            "\\(y = 4x + 2\\)",
+            "\\(y = 4x + 6\\)",
+            "\\(y = 4x - 2\\)",
+            "\\(y = 6x + 4\\)"
           ],
           "antwoord": 0,
-          "uitleg": "Vul in: 6 is 4 maal 1 plus b, dus b is 2."
+          "uitleg": "Vul in: \\(6 = 4 \\cdot 1 + b\\), dus \\(b = 2\\)."
         },
         {
           "type": "meerkeuze",
@@ -4141,7 +4141,7 @@
             "ze bestaat niet"
           ],
           "antwoord": 0,
-          "uitleg": "De y-waarde verandert niet als x verandert. Het voorschrift is dan y is b."
+          "uitleg": "De \\(y\\)-waarde verandert niet als \\(x\\) verandert. Het voorschrift is dan \\(y = b\\)."
         },
         {
           "type": "meerkeuze",
@@ -4149,89 +4149,89 @@
           "opties": [
             "ze zijn gelijk",
             "ze zijn tegengesteld",
-            "hun product is min één",
+            "hun product is \\(-1\\)",
             "ze zijn allebei nul"
           ],
           "antwoord": 0,
-          "uitleg": "Bij loodrechte rechten is het product van de richtingscoëfficiënten wel min één."
+          "uitleg": "Bij loodrechte rechten is het product van de richtingscoëfficiënten wel \\(-1\\)."
         },
         {
           "type": "meerkeuze",
-          "vraag": "Een fietser rijdt aan 18 kilometer per uur en is al 5 kilometer ver. Welk voorschrift hoort bij de afgelegde weg?",
+          "vraag": "Een fietser rijdt aan \\(18\\) kilometer per uur en is al \\(5\\) kilometer ver. Welk voorschrift hoort bij de afgelegde weg?",
           "opties": [
-            "s is 18t plus 5",
-            "s is 5t plus 18",
-            "s is 18t min 5",
-            "s is 23t"
+            "\\(s = 18t + 5\\)",
+            "\\(s = 5t + 18\\)",
+            "\\(s = 18t - 5\\)",
+            "\\(s = 23t\\)"
           ],
           "antwoord": 0,
-          "uitleg": "Dit is de eenparig rechtlijnige beweging: de beginpositie is b en de snelheid is de richtingscoëfficiënt."
+          "uitleg": "Dit is de eenparig rechtlijnige beweging: de beginpositie is \\(b\\) en de snelheid is de richtingscoëfficiënt."
         },
         {
           "type": "meerkeuze",
-          "vraag": "Een drukkerij rekent 60 euro opstartkosten plus 0,40 euro per affiche. Wat is het voorschrift van de totale kost?",
+          "vraag": "Een drukkerij rekent \\(60\\) euro opstartkosten plus \\(0{,}40\\) euro per affiche. Wat is het voorschrift van de totale kost?",
           "opties": [
-            "k is 0,40n plus 60",
-            "k is 60n plus 0,40",
-            "k is 60,40n",
-            "k is 0,40n min 60"
+            "\\(k = 0{,}40n + 60\\)",
+            "\\(k = 60n + 0{,}40\\)",
+            "\\(k = 60{,}40n\\)",
+            "\\(k = 0{,}40n - 60\\)"
           ],
           "antwoord": 0,
-          "uitleg": "De opstartkosten zijn de vaste kosten en dus de b. De prijs per stuk is de richtingscoëfficiënt."
+          "uitleg": "De opstartkosten zijn de vaste kosten en dus de \\(b\\). De prijs per stuk is de richtingscoëfficiënt."
         },
         {
           "type": "meerkeuze",
-          "vraag": "Een machine van 20 000 euro wordt in tien jaar lineair afgeschreven tot nul. Hoeveel is ze na vier jaar waard?",
+          "vraag": "Een machine van \\(20\\,000\\) euro wordt in tien jaar lineair afgeschreven tot nul. Hoeveel is ze na vier jaar waard?",
           "opties": [
-            "12 000 euro",
-            "8 000 euro",
-            "16 000 euro",
-            "10 000 euro"
+            "\\(12\\,000\\) euro",
+            "\\(8\\,000\\) euro",
+            "\\(16\\,000\\) euro",
+            "\\(10\\,000\\) euro"
           ],
           "antwoord": 0,
-          "uitleg": "Per jaar 2000 euro minder. Na vier jaar is dat 8000 euro minder dan 20 000."
+          "uitleg": "Per jaar \\(2\\,000\\) euro minder. Na vier jaar is dat \\(8\\,000\\) euro minder dan \\(20\\,000\\)."
         },
         {
           "type": "meerkeuze",
-          "vraag": "De hydrostatische druk stijgt met ongeveer 1 bar per 10 meter diepte, bovenop 1 bar aan de oppervlakte. Welke druk hoort bij 30 meter?",
+          "vraag": "De hydrostatische druk stijgt met ongeveer \\(1\\) bar per \\(10\\) meter diepte, bovenop \\(1\\) bar aan de oppervlakte. Welke druk hoort bij \\(30\\) meter?",
           "opties": [
-            "4 bar",
-            "3 bar",
-            "30 bar",
-            "31 bar"
+            "\\(4\\) bar",
+            "\\(3\\) bar",
+            "\\(30\\) bar",
+            "\\(31\\) bar"
           ],
           "antwoord": 0,
-          "uitleg": "1 bar lucht plus 3 bar water. Het verband is lineair maar niet recht evenredig."
+          "uitleg": "\\(1\\) bar lucht plus \\(3\\) bar water. Het verband is lineair maar niet recht evenredig."
         },
         {
           "type": "meerkeuze",
-          "vraag": "Waar snijdt de rechte y is 2x min 8 de x-as?",
+          "vraag": "Waar snijdt de rechte \\(y = 2x - 8\\) de \\(x\\)-as?",
           "opties": [
-            "in (4, 0)",
-            "in (0, 4)",
-            "in (min 4, 0)",
-            "in (0, min 8)"
+            "in \\((4, 0)\\)",
+            "in \\((0, 4)\\)",
+            "in \\((-4, 0)\\)",
+            "in \\((0, -8)\\)"
           ],
           "antwoord": 0,
-          "uitleg": "Stel y gelijk aan nul: 2x is 8, dus x is 4. Het punt (0, min 8) is het snijpunt met de y-as."
+          "uitleg": "Stel \\(y = 0\\): \\(2x = 8\\), dus \\(x = 4\\). Het punt \\(\\left(0, -8\\right)\\) is het snijpunt met de \\(y\\)-as."
         },
         {
           "type": "waarofniet",
           "vraag": "Een rechte met een negatieve richtingscoëfficiënt daalt van links naar rechts.",
           "antwoord": true,
-          "uitleg": "Hoe groter x, hoe kleiner y."
+          "uitleg": "Hoe groter \\(x\\), hoe kleiner \\(y\\)."
         },
         {
           "type": "waarofniet",
           "vraag": "Een verticale rechte is de grafiek van een functie.",
           "antwoord": false,
-          "uitleg": "Bij één x-waarde horen dan oneindig veel y-waarden, en dat mag niet bij een functie."
+          "uitleg": "Bij één \\(x\\)-waarde horen dan oneindig veel \\(y\\)-waarden, en dat mag niet bij een functie."
         },
         {
           "type": "waarofniet",
           "vraag": "Twee punten volstaan om de vergelijking van een rechte te bepalen.",
           "antwoord": true,
-          "uitleg": "Uit de twee punten haal je de richtingscoëfficiënt, en daarna vul je één punt in om b te vinden."
+          "uitleg": "Uit de twee punten haal je de richtingscoëfficiënt, en daarna vul je één punt in om \\(b\\) te vinden."
         },
         {
           "type": "waarofniet",
@@ -4241,29 +4241,29 @@
         },
         {
           "type": "invultekst",
-          "vraag": "Wat is de richtingscoëfficiënt van de rechte door (2, 3) en (5, 12)?",
+          "vraag": "Wat is de richtingscoëfficiënt van de rechte door \\((2, 3)\\) en \\((5, 12)\\)?",
           "antwoord": [
             "3"
           ],
-          "uitleg": "9 gedeeld door 3."
+          "uitleg": "\\(\\tfrac{9}{3}\\)."
         },
         {
           "type": "invultekst",
-          "vraag": "Waar snijdt de rechte y is 3x min 12 de x-as? Geef de x-waarde.",
+          "vraag": "Waar snijdt de rechte \\(y = 3x - 12\\) de \\(x\\)-as? Geef de \\(x\\)-waarde.",
           "antwoord": [
             "4"
           ],
-          "uitleg": "Stel y gelijk aan nul."
+          "uitleg": "Stel \\(y = 0\\)."
         },
         {
           "type": "invultekst",
-          "vraag": "Een machine van 20 000 euro wordt in tien jaar lineair afgeschreven. Hoeveel euro per jaar?",
+          "vraag": "Een machine van \\(20\\,000\\) euro wordt in tien jaar lineair afgeschreven. Hoeveel euro per jaar?",
           "antwoord": [
             "2000",
             "2 000",
             "2000 euro"
           ],
-          "uitleg": "20 000 gedeeld door 10."
+          "uitleg": "\\(20\\,000 : 10\\)."
         }
       ]
     },

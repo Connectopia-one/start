@@ -9921,3 +9921,42 @@ def driehoekabc(breedte=470):
         d.append(_tekst((p1[0] + p2[0]) / 2 + dx, (p1[1] + p2[1]) / 2 + dy + 4,
                         naam, 12, FOREST, "middle", True))
     return _svg(breedte, h, "\n".join(d))
+
+
+def rechtegrafiek(breedte=470):
+    r"""De rechte y = 2x + 3 met het snijpunt b en de rico als trapje."""
+    u = 28.0
+    ox, oy = 195.0, 212.0
+    h = 236
+    d = [f'<rect x="5" y="4" width="{breedte-10}" height="{h-26}" rx="7" '
+         f'fill="{PAPER}" stroke="{BORDER}" stroke-width="1.2"/>']
+    for i in range(1, 5):
+        d.append(f'<line x1="{ox+i*u}" y1="{oy}" x2="{ox+i*u}" y2="{oy-7*u}" '
+                 f'stroke="{BORDER}" stroke-width="1"/>')
+    for i in range(1, 8):
+        d.append(f'<line x1="{ox}" y1="{oy-i*u}" x2="{ox+4*u}" y2="{oy-i*u}" '
+                 f'stroke="{BORDER}" stroke-width="1"/>')
+    d.append(f'<line x1="{ox-14}" y1="{oy}" x2="{ox+4*u+14}" y2="{oy}" stroke="{INK}" '
+             f'stroke-width="1.4"/>')
+    d.append(f'<line x1="{ox}" y1="{oy+14}" x2="{ox}" y2="{oy-7*u-12}" stroke="{INK}" '
+             f'stroke-width="1.4"/>')
+    for i in range(1, 5):
+        d.append(_tekst(ox + i * u, oy + 14, str(i), 8.5, DIM, "middle"))
+    for i in range(1, 8):
+        d.append(_tekst(ox - 7, oy - i * u + 3, str(i), 8.5, DIM, "end"))
+    d.append(_tekst(ox + 4 * u + 10, oy + 14, "x", 9.5, DIM, "middle"))
+    d.append(_tekst(ox - 9, oy - 7 * u - 4, "y", 9.5, DIM, "end"))
+    x1, y1 = ox, oy - 3 * u
+    x2, y2 = ox + 2 * u, oy - 7 * u
+    d.append(f'<line x1="{x1}" y1="{y1}" x2="{x2}" y2="{y2}" stroke="{DARK}" stroke-width="2.6"/>')
+    tx, ty = ox + 1 * u, oy - 5 * u
+    d.append(f'<line x1="{tx}" y1="{ty}" x2="{tx+u}" y2="{ty}" stroke="{AMBER}" '
+             f'stroke-width="2.4" stroke-dasharray="4 3"/>')
+    d.append(f'<line x1="{tx+u}" y1="{ty}" x2="{tx+u}" y2="{ty-2*u}" stroke="{AMBER}" '
+             f'stroke-width="2.4" stroke-dasharray="4 3"/>')
+    d.append(_tekst(tx + u / 2, ty + 14, "1", 10, AMBER, "middle", True))
+    d.append(_tekst(tx + u + 9, ty - u + 4, "2", 10, AMBER, "start", True))
+    d.append(f'<circle cx="{x1}" cy="{y1}" r="4" fill="{FOREST}"/>')
+    d.append(_tekst(x1 + 9, y1 + 17, "b = 3", 10, FOREST, "start", True))
+    d.append(_tekst(x2 + 10, y2 + 2, "y = 2x + 3", 10.5, DARK, "start", True))
+    return _svg(breedte, h, "\n".join(d))
