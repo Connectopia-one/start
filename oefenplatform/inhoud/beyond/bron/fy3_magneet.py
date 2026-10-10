@@ -30,7 +30,7 @@ DEEL1 = [
     dict(
         type="invultekst",
         vraag="Hoe noem je de kleine gebiedjes in een ferromagnetische stof waarin de elementaire magneetjes dezelfde kant op staan?",
-        antwoord=["weissgebieden", "weissgebied", "magneculen"],
+        antwoord=["weissgebieden", "weissgebied", "weiss-gebieden", "weiss gebieden"],
         uitleg="In een onmagnetisch stuk ijzer wijzen die gebiedjes alle kanten op. In een "
         "magneet staan ze netjes in dezelfde zin.",
     ),
@@ -280,8 +280,9 @@ DEEL2 = [
             "als bogen van het ene uiteinde naar het andere",
         ],
         antwoord=0,
-        uitleg="De cirkels liggen in vlakken loodrecht op de draad. Hoe verder van de draad, "
-        "hoe verder de cirkels uit elkaar en hoe zwakker het veld.",
+        uitleg=r"De cirkels liggen in vlakken loodrecht op de draad. Hoe verder van de draad, "
+        r"hoe verder de cirkels uit elkaar en hoe zwakker het veld: "
+        r"\(B=\dfrac{\mu_{0}I}{2\pi r}\).",
     ),
     dict(
         type="meerkeuze",
@@ -331,14 +332,15 @@ DEEL2 = [
     ),
     dict(
         type="invultekst",
-        vraag="In welke eenheid druk je de magnetische inductie uit?",
+        vraag=r"In welke eenheid druk je de magnetische inductie \(B\) uit?",
         antwoord=["tesla", "T", "de tesla"],
-        uitleg="Het symbool van de grootheid is B. Eén tesla is een heel sterk veld; het "
-        "veld van de aarde is maar enkele tienduizendsten ervan.",
+        uitleg=r"Het symbool van de grootheid is \(B\), dat van de eenheid \(\text{T}\). "
+        r"\(1\ \text{T}\) is een heel sterk veld: dat van de aarde is ongeveer "
+        r"\(5\cdot 10^{-5}\ \text{T}\).",
     ),
     dict(
         type="meerkeuze",
-        vraag="Wat gebeurt er met het veld rond een rechte draad als je de stroom verdubbelt?",
+        vraag=r"Wat gebeurt er met \(B\) rond een rechte draad als je \(I\) verdubbelt?",
         opties=[
             "het wordt twee keer zo sterk",
             "het wordt vier keer zo sterk",
@@ -346,12 +348,12 @@ DEEL2 = [
             "het wordt half zo sterk",
         ],
         antwoord=0,
-        uitleg="De magnetische inductie is recht evenredig met de stroomsterkte. Ze is "
-        "omgekeerd evenredig met de afstand tot de draad.",
+        uitleg=r"\(B=\dfrac{\mu_{0}I}{2\pi r}\): \(B\) is recht evenredig met \(I\) en "
+        r"omgekeerd evenredig met \(r\).",
     ),
     dict(
         type="meerkeuze",
-        vraag="Wat gebeurt er met het veld rond een rechte draad als je twee keer zo ver gaat staan?",
+        vraag=r"Wat gebeurt er met \(B\) rond een rechte draad als je twee keer zo ver gaat staan?",
         opties=[
             "het wordt half zo sterk",
             "het wordt vier keer zo zwak",
@@ -359,21 +361,22 @@ DEEL2 = [
             "het wordt twee keer zo sterk",
         ],
         antwoord=0,
-        uitleg="Bij een rechte draad staat r in de noemer, niet r². Dat is anders dan bij de "
-        "wet van Coulomb.",
+        uitleg=r"In \(B=\dfrac{\mu_{0}I}{2\pi r}\) staat \(r\) in de noemer en geen "
+        r"\(r^{2}\). Dat is anders dan bij de wet van Coulomb.",
     ),
     dict(
         type="meerkeuze",
-        vraag="Waarvan hangt het veld binnen in een spoel af? Kruis alles aan wat juist is.",
+        vraag=r"Waarvan hangt \(B\) binnen in een spoel af? Kruis alles aan wat juist is.",
         opties=[
-            "van het aantal windingen per meter",
-            "van de stroom die erdoor loopt",
+            r"van het aantal windingen per meter \(\tfrac{N}{\ell}\)",
+            r"van de stroom \(I\) erdoor",
             "van de lengte van de draad in meter",
-            "van de spanning over de hele kring",
+            r"van de spanning \(U\) over de hele kring",
         ],
         antwoord=[0, 1],
-        uitleg="Ook de stof in de spoel telt mee, via de permeabiliteit. De spanning werkt "
-        "alleen onrechtstreeks, want die bepaalt de stroom.",
+        uitleg=r"\(B=\mu_{0}\,\dfrac{N}{\ell}\,I\). Ook de stof in de spoel telt mee, via de "
+        r"permeabiliteit \(\mu\). De spanning werkt alleen onrechtstreeks, want die bepaalt "
+        r"de stroom.",
     ),
     dict(
         type="waarofniet",

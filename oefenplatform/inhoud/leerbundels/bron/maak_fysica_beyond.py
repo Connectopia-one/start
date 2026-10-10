@@ -613,7 +613,9 @@ BUNDELS["magneten-en-het-magnetisch-veld-beyond"] = dict(
                   "<strong>door hem sterk op te warmen</strong> of <strong>door er hard op te "
                   "slaan</strong>. Een <strong>magneet die lang in het vuur ligt, stopt met "
                   "werken</strong> omdat <strong>de warmte de weissgebieden weer door elkaar "
-                  "schudt</strong>."),
+                  "schudt</strong>. Boven een bepaalde temperatuur, de "
+                  "<strong>curietemperatuur</strong>, houdt elke ordening op; voor ijzer ligt die "
+                  "rond \\(770\\ ^{\\circ}\\text{C}\\)."),
         ]),
         dict(kop="Twee polen, altijd", blokken=[
             ("p", "Elke magneet heeft een <strong>noordpool en een zuidpool</strong>. "
@@ -629,7 +631,8 @@ BUNDELS["magneten-en-het-magnetisch-veld-beyond"] = dict(
                   "in de buurt van de geografische noordpool</strong>. Daarom "
                   "<strong>wijst de noordpool van een kompasnaald naar het noorden</strong>: "
                   "<strong>daar ligt de magnetische zuidpool van de aarde</strong>, en "
-                  "ongelijknamige polen trekken elkaar aan."),
+                  "ongelijknamige polen trekken elkaar aan. Het veld van de aarde is zwak: "
+                  "ongeveer \\(5\\cdot 10^{-5}\\ \\text{T}\\)."),
         ]),
         dict(kop="Magnetische influentie", blokken=[
             ("p", "<strong>Magnetische influentie</strong> is het verschijnsel waarbij een magneet "
@@ -650,11 +653,25 @@ BUNDELS["magneten-en-het-magnetisch-veld-beyond"] = dict(
             ("p", "<strong>Hoe dichter de magnetische veldlijnen bij elkaar liggen, hoe sterker het "
                   "veld.</strong> Een <strong>kompasnaald gaat met haar noordpool mee met de zin van "
                   "de veldlijn staan</strong>, dus niet ertegenin."),
+        ]),
+        dict(kop="De grootte van B", blokken=[
+            ("p", "Het veld zelf heeft een symbool en een eenheid. De "
+                  "<strong>magnetische inductie</strong> of <strong>magnetische veldsterkte</strong> "
+                  "noteren we \\(B\\), en ze staat in <strong>tesla</strong>, \\(\\text{T}\\). Eén "
+                  "tesla is veel: \\[1\\ \\text{T} = 1\\ \\dfrac{\\text{N}}{\\text{A}\\cdot "
+                  "\\text{m}} = 1\\ \\dfrac{\\text{V}\\cdot \\text{s}}{\\text{m}^{2}}\\] "
+                  "Een koelkastmagneet zit rond \\(5\\ \\text{mT}\\), een sterke labomagneet rond "
+                  "\\(1\\ \\text{T}\\), een MRI-toestel op \\(1{,}5\\) tot \\(3\\ \\text{T}\\). "
+                  "Omdat \\(1\\ \\text{T}\\) zo groot is, wordt ook de oudere eenheid gauss nog "
+                  "gebruikt: \\(1\\ \\text{T} = 10^{4}\\ \\text{G}\\)."),
             ("p", "Twee patronen om te kennen: rond een gewone staafmagneet krijg je een "
                   "<strong>dipoolveld</strong>, en tussen de twee benen van een "
-                  "<strong>hoefijzermagneet</strong> een <strong>homogeen veld</strong>. De "
-                  "<strong>magnetische inductie</strong> krijgt het symbool <strong>B</strong> en "
-                  "staat in <strong>tesla</strong>."),
+                  "<strong>hoefijzermagneet</strong> een <strong>homogeen veld</strong>, waar "
+                  "\\(B\\) overal dezelfde grootte en dezelfde richting heeft."),
+            ("fig", svg.magneetvelden(),
+             "De vier patronen die je moet kunnen tekenen. Buiten een magneet lopen de lijnen "
+             "van noord naar zuid; rond een rechte draad zijn het cirkels, en in een spoel "
+             "liggen ze binnenin bijna recht naast elkaar."),
         ]),
         dict(kop="Het veld van een stroom", blokken=[
             ("p", "Rond een <strong>rechte stroomvoerende draad</strong> ziet het magnetisch veld "
@@ -662,12 +679,22 @@ BUNDELS["magneten-en-het-magnetisch-veld-beyond"] = dict(
                   "<strong>rechterhandregel</strong> dient <strong>om de zin van die veldlijnen rond "
                   "de draad te vinden</strong>: duim in de stroomzin, de vingers krullen mee met het "
                   "veld. Het is de regel waarmee je <strong>met je rechterhand de zin van een "
-                  "magnetisch veld vindt</strong>."),
-            ("p", "<strong>Verdubbel je de stroom</strong> door een rechte draad, dan "
-                  "<strong>wordt het veld twee keer zo sterk</strong>. Ga je "
+                  "magnetisch veld vindt</strong>. In sommige boeken heet diezelfde regel de "
+                  "<strong>kurkentrekkerregel</strong>: draai een kurkentrekker in de stroomzin "
+                  "en hij draait mee met de veldlijnen."),
+            ("p", "Voor zo'n rechte draad kan je \\(B\\) ook uitrekenen. Op een afstand \\(r\\) van "
+                  "een draad waar een stroom \\(I\\) door loopt, geldt "
+                  "\\[B = \\dfrac{\\mu_{0}\\,I}{2\\pi r}\\] "
+                  "met \\(\\mu_{0} = 4\\pi \\cdot 10^{-7}\\ \\text{T}\\cdot\\text{m/A}\\), de "
+                  "magnetische permeabiliteit van het vacuüm."),
+            ("p", "Uit die formule lees je de twee verhoudingen af. "
+                  "<strong>Verdubbel je de stroom</strong> door een rechte draad, dan "
+                  "<strong>wordt het veld twee keer zo sterk</strong>, want \\(B\\) is "
+                  "rechtstreeks evenredig met \\(I\\). Ga je "
                   "<strong>twee keer zo ver staan</strong>, dan wordt het "
                   "<strong>half zo sterk</strong>: bij een rechte draad gaat het met één keer de "
-                  "afstand."),
+                  "afstand, dus \\(B \\sim \\dfrac{1}{r}\\) en niet met het kwadraat zoals bij het "
+                  "elektrisch veld van een puntlading."),
             ("p", "In het midden van een <strong>stroomvoerende cirkelvormige lus</strong> "
                   "<strong>staat het veld loodrecht op het vlak van de lus</strong>. De "
                   "<strong>noordpool van een stroomvoerende spoel</strong> vind je "
@@ -675,16 +702,27 @@ BUNDELS["magneten-en-het-magnetisch-veld-beyond"] = dict(
                   "noord</strong>."),
             ("p", "Het veld <strong>binnen in een lange stroomvoerende spoel is nagenoeg "
                   "homogeen</strong>, en het hangt af <strong>van het aantal windingen per "
-                  "meter</strong> en <strong>van de stroom die erdoor loopt</strong>. Zet je "
+                  "meter</strong> en <strong>van de stroom die erdoor loopt</strong>: "
+                  "\\[B = \\mu_{0}\\,\\dfrac{N}{\\ell}\\,I\\] "
+                  "met \\(N\\) het aantal windingen en \\(\\ell\\) de lengte van de spoel. Let op "
+                  "het verschil met de rechte draad: hier staat geen \\(r\\) in, dus het veld is "
+                  "binnenin overal ongeveer even groot. Zet je "
                   "<strong>twee stroomvoerende spoelen met hun noordpolen naar elkaar toe</strong>, "
                   "dan <strong>stoten ze elkaar af, net als twee gewone magneten</strong>."),
+            ("kader", "De twee formules naast elkaar: bij een rechte draad is "
+                      "\\(B = \\dfrac{\\mu_{0}I}{2\\pi r}\\), dus hoe verder, hoe zwakker. Bij een "
+                      "lange spoel is \\(B = \\mu_{0}\\dfrac{N}{\\ell}I\\), dus hoe dichter de "
+                      "windingen op elkaar, hoe sterker. In beide staat \\(\\mu_{0}\\) en in beide "
+                      "is \\(B\\) evenredig met \\(I\\)."),
         ]),
         dict(kop="De elektromagneet", blokken=[
             ("p", "Het verschil tussen een <strong>permanente magneet en een elektromagneet</strong>: "
                   "<strong>een elektromagneet werkt alleen als er stroom loopt</strong>. Een "
                   "<strong>ijzeren kern</strong> in een elektromagneet dient "
                   "<strong>om het magnetisch veld veel sterker te maken</strong>, want de "
-                  "weissgebieden in het ijzer richten zich mee."),
+                  "weissgebieden in het ijzer richten zich mee. In een formule vervang je dan "
+                  "\\(\\mu_{0}\\) door \\(\\mu = \\mu_{r}\\,\\mu_{0}\\), en voor zacht ijzer is die "
+                  "relatieve permeabiliteit \\(\\mu_{r}\\) enkele honderden tot enkele duizenden."),
             ("p", "Een <strong>schrootkraan</strong> en een <strong>elektrische deurbel</strong> "
                   "berusten op een elektromagneet. Bij de schrootkraan geldt: "
                   "<strong>de stroom aan betekent oppakken, de stroom af betekent lossen</strong>. "
@@ -696,8 +734,10 @@ BUNDELS["magneten-en-het-magnetisch-veld-beyond"] = dict(
         "Magnetiseren is de weissgebieden gelijk richten; warmte of slaan wist het.",
         "Elke magneet heeft twee polen; een losse pool bestaat niet.",
         "Veldlijnen lopen buiten van noord naar zuid en zijn gesloten.",
-        "Rond een rechte draad zijn de veldlijnen cirkels; rechterhandregel.",
-        "In een spoel is het veld homogeen en hangt het af van n/l en I.",
+        r"B is de magnetische inductie, in tesla: \(1\ \text{T} = 1\ \text{N/(A}\cdot\text{m)}\).",
+        r"Rechte draad: \(B = \dfrac{\mu_{0}I}{2\pi r}\), dus \(B \sim \dfrac{1}{r}\); rechterhandregel.",
+        r"Lange spoel: \(B = \mu_{0}\dfrac{N}{\ell}I\), binnenin homogeen.",
+        r"\(\mu_{0} = 4\pi\cdot 10^{-7}\ \text{T}\cdot\text{m/A}\).",
         "Een elektromagneet werkt alleen met stroom; een ijzeren kern versterkt.",
     ],
 )

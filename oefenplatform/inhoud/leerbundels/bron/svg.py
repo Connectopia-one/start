@@ -7038,3 +7038,95 @@ def schakelingen(breedte=470):
     kader(0, cel_h, "gemengd: de twee van 20 Ω staan parallel", cel_b * 2)
     gemengd(0, cel_h)
     return _svg(breedte, cel_h * 2, "".join(d))
+
+
+# ───────────────────────── magnetische velden
+NOORD = "#b4452c"   # dezelfde warme kleur als een positieve lading
+ZUID = "#2f6d9e"
+
+
+def magneetvelden(breedte=470):
+    r"""De vier veldpatronen die bij magnetisme horen.
+
+    Een staafmagneet, een rechte stroomvoerende draad, een spoel en een
+    hoefijzermagneet. Buiten een magneet lopen de veldlijnen van noord naar
+    zuid; binnenin lopen ze door, want een magnetische veldlijn is een
+    gesloten lus en heeft geen begin of einde.
+    """
+    import math
+    cel_b, cel_h = 234, 186
+    VELD = FOREST
+    d = []
+
+    def kader(kx, ky, titel):
+        d.append(f'<rect x="{kx+6}" y="{ky+4}" width="{cel_b-12}" height="{cel_h-28}" rx="8" '
+                 f'fill="#ffffff" stroke="{BORDER}" stroke-width="1.2"/>')
+        d.append(_tekst(kx + cel_b / 2, ky + cel_h - 8, titel, 10, DIM, "middle", True))
+
+    def staaf(kx, ky):
+        cy = ky + 80
+        x0, x1 = kx + 78, kx + cel_b - 78
+        for boog, kant in ((34, -1), (56, -1), (34, 1), (56, 1)):
+            # een lus van de noordpool naar de zuidpool, langs boven of onder
+            mx = (x0 + x1) / 2
+            pad = (f"M{x1} {cy} C{x1+boog} {cy + kant*boog*0.5:.0f} "
+                   f"{mx+boog*0.9:.0f} {cy + kant*boog:.0f} {mx:.0f} {cy + kant*boog:.0f} "
+                   f"C{mx-boog*0.9:.0f} {cy + kant*boog:.0f} {x0-boog} {cy + kant*boog*0.5:.0f} "
+                   f"{x0} {cy}")
+            d.append(f'<path d="{pad}" fill="none" stroke="{VELD}" stroke-width="1.3"/>')
+            d.append(_pijlkop(mx, cy + kant * boog, math.pi, VELD))
+        d.append(f'<rect x="{x0}" y="{cy-13}" width="{(x1-x0)/2}" height="26" fill="{ZUID}" opacity="0.85"/>')
+        d.append(f'<rect x="{(x0+x1)/2}" y="{cy-13}" width="{(x1-x0)/2}" height="26" fill="{NOORD}" opacity="0.85"/>')
+        d.append(_tekst(x0 + (x1 - x0) / 4, cy + 4, "Z", 11, "#ffffff", "middle", True))
+        d.append(_tekst(x1 - (x1 - x0) / 4, cy + 4, "N", 11, "#ffffff", "middle", True))
+
+    def draad(kx, ky):
+        cx, cy = kx + cel_b / 2, ky + 80
+        for straal in (22, 38, 54):
+            d.append(f'<circle cx="{cx}" cy="{cy}" r="{straal}" fill="none" stroke="{VELD}" stroke-width="1.3"/>')
+            # de pijl bovenaan wijst naar links: tegen de klok in, bij een
+            # stroom die uit het blad komt
+            d.append(_pijlkop(cx, cy - straal, math.pi, VELD))
+        d.append(f'<circle cx="{cx}" cy="{cy}" r="9" fill="#ffffff" stroke="{INK}" stroke-width="1.4"/>')
+        d.append(f'<circle cx="{cx}" cy="{cy}" r="2.6" fill="{INK}"/>')
+        d.append(_tekst(cx, cy + 74, "stroom uit het blad", 9.5, DIM))
+
+    def spoel(kx, ky):
+        cy = ky + 78
+        x0, x1 = kx + 56, kx + cel_b - 56
+        n = 6
+        stap = (x1 - x0) / n
+        for i in range(n):
+            x = x0 + i * stap
+            d.append(f'<ellipse cx="{x+stap/2:.1f}" cy="{cy}" rx="{stap/2.6:.1f}" ry="30" '
+                     f'fill="none" stroke="{INK}" stroke-width="1.5"/>')
+        for dy in (-13, 0, 13):
+            d.append(f'<line x1="{x0+6}" y1="{cy+dy}" x2="{x1-6}" y2="{cy+dy}" stroke="{VELD}" stroke-width="1.3"/>')
+            d.append(_pijlkop((x0 + x1) / 2, cy + dy, 0.0, VELD))
+        d.append(_tekst(x0 - 14, cy + 4, "Z", 11, ZUID, "middle", True))
+        d.append(_tekst(x1 + 14, cy + 4, "N", 11, NOORD, "middle", True))
+
+    def hoefijzer(kx, ky):
+        cx, cy = kx + cel_b / 2, ky + 74
+        # een U op zijn kop: twee benen met de polen naar elkaar toe
+        d.append(f'<path d="M{cx-46} {cy-34} L{cx-46} {cy+22} A46 46 0 0 0 {cx+46} {cy+22} '
+                 f'L{cx+46} {cy-34}" fill="none" stroke="{INK}" stroke-width="13" stroke-linecap="butt"/>')
+        d.append(f'<rect x="{cx-52}" y="{cy-40}" width="13" height="16" fill="{NOORD}"/>')
+        d.append(f'<rect x="{cx+39}" y="{cy-40}" width="13" height="16" fill="{ZUID}"/>')
+        d.append(_tekst(cx - 46, cy - 48, "N", 10.5, NOORD, "middle", True))
+        d.append(_tekst(cx + 46, cy - 48, "Z", 10.5, ZUID, "middle", True))
+        # de lijnen lopen door de opening tussen de twee poolvlakken, dus
+        # binnen de hoogte van die vlakken (cy-40 tot cy-24)
+        for dy in (-37, -32, -27):
+            d.append(f'<line x1="{cx-39}" y1="{cy+dy}" x2="{cx+39}" y2="{cy+dy}" stroke="{VELD}" stroke-width="1.3"/>')
+            d.append(_pijlkop(cx, cy + dy, 0.0, VELD))
+
+    kader(0, 0, "staafmagneet: van noord naar zuid")
+    staaf(0, 0)
+    kader(cel_b, 0, "rechte draad: cirkels rond de draad")
+    draad(cel_b, 0)
+    kader(0, cel_h, "spoel: binnenin nagenoeg homogeen")
+    spoel(0, cel_h)
+    kader(cel_b, cel_h, "hoefijzer: homogeen tussen de benen")
+    hoefijzer(cel_b, cel_h)
+    return _svg(breedte, cel_h * 2, "".join(d))

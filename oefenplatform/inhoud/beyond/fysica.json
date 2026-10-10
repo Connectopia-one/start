@@ -1827,7 +1827,8 @@
           "antwoord": [
             "weissgebieden",
             "weissgebied",
-            "magneculen"
+            "weiss-gebieden",
+            "weiss gebieden"
           ],
           "uitleg": "In een onmagnetisch stuk ijzer wijzen die gebiedjes alle kanten op. In een magneet staan ze netjes in dezelfde zin."
         },
@@ -2076,7 +2077,7 @@
             "als bogen van het ene uiteinde naar het andere"
           ],
           "antwoord": 0,
-          "uitleg": "De cirkels liggen in vlakken loodrecht op de draad. Hoe verder van de draad, hoe verder de cirkels uit elkaar en hoe zwakker het veld."
+          "uitleg": "De cirkels liggen in vlakken loodrecht op de draad. Hoe verder van de draad, hoe verder de cirkels uit elkaar en hoe zwakker het veld: \\(B=\\dfrac{\\mu_{0}I}{2\\pi r}\\)."
         },
         {
           "type": "meerkeuze",
@@ -2122,17 +2123,17 @@
         },
         {
           "type": "invultekst",
-          "vraag": "In welke eenheid druk je de magnetische inductie uit?",
+          "vraag": "In welke eenheid druk je de magnetische inductie \\(B\\) uit?",
           "antwoord": [
             "tesla",
             "T",
             "de tesla"
           ],
-          "uitleg": "Het symbool van de grootheid is B. Eén tesla is een heel sterk veld; het veld van de aarde is maar enkele tienduizendsten ervan."
+          "uitleg": "Het symbool van de grootheid is \\(B\\), dat van de eenheid \\(\\text{T}\\). \\(1\\ \\text{T}\\) is een heel sterk veld: dat van de aarde is ongeveer \\(5\\cdot 10^{-5}\\ \\text{T}\\)."
         },
         {
           "type": "meerkeuze",
-          "vraag": "Wat gebeurt er met het veld rond een rechte draad als je de stroom verdubbelt?",
+          "vraag": "Wat gebeurt er met \\(B\\) rond een rechte draad als je \\(I\\) verdubbelt?",
           "opties": [
             "het wordt twee keer zo sterk",
             "het wordt vier keer zo sterk",
@@ -2140,11 +2141,11 @@
             "het wordt half zo sterk"
           ],
           "antwoord": 0,
-          "uitleg": "De magnetische inductie is recht evenredig met de stroomsterkte. Ze is omgekeerd evenredig met de afstand tot de draad."
+          "uitleg": "\\(B=\\dfrac{\\mu_{0}I}{2\\pi r}\\): \\(B\\) is recht evenredig met \\(I\\) en omgekeerd evenredig met \\(r\\)."
         },
         {
           "type": "meerkeuze",
-          "vraag": "Wat gebeurt er met het veld rond een rechte draad als je twee keer zo ver gaat staan?",
+          "vraag": "Wat gebeurt er met \\(B\\) rond een rechte draad als je twee keer zo ver gaat staan?",
           "opties": [
             "het wordt half zo sterk",
             "het wordt vier keer zo zwak",
@@ -2152,22 +2153,22 @@
             "het wordt twee keer zo sterk"
           ],
           "antwoord": 0,
-          "uitleg": "Bij een rechte draad staat r in de noemer, niet r². Dat is anders dan bij de wet van Coulomb."
+          "uitleg": "In \\(B=\\dfrac{\\mu_{0}I}{2\\pi r}\\) staat \\(r\\) in de noemer en geen \\(r^{2}\\). Dat is anders dan bij de wet van Coulomb."
         },
         {
           "type": "meerkeuze",
-          "vraag": "Waarvan hangt het veld binnen in een spoel af? Kruis alles aan wat juist is.",
+          "vraag": "Waarvan hangt \\(B\\) binnen in een spoel af? Kruis alles aan wat juist is.",
           "opties": [
-            "van het aantal windingen per meter",
-            "van de stroom die erdoor loopt",
+            "van het aantal windingen per meter \\(\\tfrac{N}{\\ell}\\)",
+            "van de stroom \\(I\\) erdoor",
             "van de lengte van de draad in meter",
-            "van de spanning over de hele kring"
+            "van de spanning \\(U\\) over de hele kring"
           ],
           "antwoord": [
             0,
             1
           ],
-          "uitleg": "Ook de stof in de spoel telt mee, via de permeabiliteit. De spanning werkt alleen onrechtstreeks, want die bepaalt de stroom."
+          "uitleg": "\\(B=\\mu_{0}\\,\\dfrac{N}{\\ell}\\,I\\). Ook de stof in de spoel telt mee, via de permeabiliteit \\(\\mu\\). De spanning werkt alleen onrechtstreeks, want die bepaalt de stroom."
         },
         {
           "type": "waarofniet",

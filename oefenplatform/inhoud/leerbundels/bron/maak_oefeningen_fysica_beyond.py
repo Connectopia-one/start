@@ -468,31 +468,94 @@ OEFENBUNDELS["oefenbundel-magneten-en-het-magnetisch-veld-beyond"] = dict(
     onder="{aantal} oefeningen op papier, met een antwoordblad achteraan.",
     hoe=HOE,
     reeksen=[
-        dict(kop="Aantrekken of afstoten",
-             opdracht="Schrijf aantrekken of afstoten.",
+        dict(kop="Polen en stoffen",
+             opdracht="Vul de twee rijtjes aan.",
              oefeningen=[
                  ("rij", [("noordpool bij noordpool", "afstoten"),
                           ("noordpool bij zuidpool", "aantrekken"),
                           ("zuidpool bij zuidpool", "afstoten")],
-                  "Wat gebeurt er?", WW),
-             ]),
-        dict(kop="Wordt het aangetrokken?",
-             opdracht="Schrijf ja of nee.",
-             oefeningen=[
+                  "Aantrekken of afstoten?", WW),
+                 ("rij", [("twee spoelen, noordpool naar noordpool", "afstoten"),
+                          ("de noordpool van een kompasnaald bij de zuidpool van een magneet", "aantrekken")],
+                  "Aantrekken of afstoten?", WW),
                  ("rij", [("ijzer", "ja"), ("koper", "nee"), ("nikkel", "ja")],
                   "Trekt een magneet het aan?", WW),
                  ("rij", [("aluminium", "nee"), ("kobalt", "ja"), ("glas", "nee")],
                   "Trekt een magneet het aan?", WW),
              ]),
-        dict(kop="Begrippen",
-             opdracht="Antwoord kort.",
+        dict(kop="Eenheden en begrippen",
+             opdracht=r"Zet om en antwoord kort. Eén tesla is \(10^{4}\) gauss.",
              oefeningen=[
+                 ("rij", [(r"\(5{,}0\ \text{mT}\) in tesla", r"\(5{,}0\cdot 10^{-3}\ \text{T}\)"),
+                          (r"\(5\cdot 10^{-5}\ \text{T}\) in microtesla", r"\(50\ \mu\text{T}\)")],
+                  "Zet om.", WL),
+                 ("rij", [(r"\(0{,}25\ \text{T}\) in millitesla", r"\(250\ \text{mT}\)"),
+                          (r"\(1{,}5\ \text{T}\) in gauss", r"\(1{,}5\cdot 10^{4}\ \text{G}\)")],
+                  "Zet om.", WL),
                  ("rij", [("de gebiedjes waarin de elementaire magneetjes gelijk staan", "weissgebieden"),
                           ("de eenheid van magnetische inductie", "tesla")],
                   "Hoe heet dat?", WL),
                  ("rij", [("de regel voor de zin van het veld van een stroomdraad", "de rechterhandregel"),
                           ("het aantal veldlijnen door een oppervlak", "de flux")],
                   "Hoe heet dat?", WL),
+                 ("rij", [(r"het symbool \(\mu_{0}\)", "de permeabiliteit van het vacuüm"),
+                          ("de temperatuur waarboven ijzer niet magnetisch blijft", "de curietemperatuur")],
+                  "Hoe heet dat?", WL),
+             ]),
+        dict(kop="Het veld van een rechte draad",
+             opdracht=r"Gebruik \(B = \dfrac{\mu_{0}I}{2\pi r}\) met "
+                      r"\(\mu_{0} = 4\pi\cdot 10^{-7}\ \text{T}\cdot\text{m/A}\). "
+                      r"Je mag rekenen met \(\dfrac{\mu_{0}}{2\pi} = 2\cdot 10^{-7}\).",
+             oefeningen=[
+                 ("kort", r"Door een rechte draad loopt \(I = 5{,}0\ \text{A}\). Hoe groot is "
+                          r"\(B\) op \(r = 0{,}10\ \text{m}\) van de draad?",
+                  r"\(B = 2\cdot 10^{-7}\cdot\dfrac{5{,}0}{0{,}10} = 1{,}0\cdot 10^{-5}\ \text{T}\)", W),
+                 ("kort", r"Zelfde draad, maar \(I = 10\ \text{A}\) en \(r = 0{,}050\ \text{m}\). "
+                          r"Hoe groot is \(B\)?",
+                  r"\(B = 2\cdot 10^{-7}\cdot\dfrac{10}{0{,}050} = 4{,}0\cdot 10^{-5}\ \text{T}\)", W),
+                 ("kort", r"Op \(2{,}0\ \text{cm}\) van een draad meet je "
+                          r"\(B = 1{,}0\cdot 10^{-4}\ \text{T}\). Welke stroom loopt erdoor?",
+                  r"\(I = \dfrac{B\,r}{2\cdot 10^{-7}} = 10\ \text{A}\)", W),
+                 ("kort", r"Een hoogspanningsdraad voert \(100\ \text{A}\). Op welke afstand is "
+                          r"zijn veld even sterk als dat van de aarde, \(5{,}0\cdot 10^{-5}\ \text{T}\)?",
+                  r"\(r = \dfrac{2\cdot 10^{-7}\cdot 100}{5{,}0\cdot 10^{-5}} = 0{,}40\ \text{m}\)", W),
+                 ("rij", [(r"de stroom maal 3, de afstand gelijk", r"\(B\) maal 3"),
+                          (r"de afstand maal 4, de stroom gelijk", r"\(B\) gedeeld door 4")],
+                  r"Wat gebeurt er met \(B\)?", WL),
+                 ("rij", [(r"de stroom maal 2 en de afstand maal 2", r"\(B\) blijft gelijk"),
+                          (r"de stroom maal 6 en de afstand maal 2", r"\(B\) maal 3")],
+                  r"Wat gebeurt er met \(B\)?", WL),
+                 ("open", r"Een draad geeft op \(0{,}10\ \text{m}\) een veld van "
+                          r"\(8{,}0\ \mu\text{T}\). Je verdrievoudigt de stroom en gaat tegelijk "
+                          r"op \(0{,}60\ \text{m}\) staan. Hoe groot is \(B\) dan? Reken met de "
+                          r"verhouding, niet met de formule.",
+                  r"\(B \sim \dfrac{I}{r}\): de stroom maal 3 geeft maal 3, de afstand maal 6 "
+                  r"geeft gedeeld door 6, samen maal \(\tfrac{1}{2}\). Dus "
+                  r"\(B = 4{,}0\ \mu\text{T}\).", 5),
+             ]),
+        dict(kop="Het veld in een spoel",
+             opdracht=r"Gebruik \(B = \mu_{0}\dfrac{N}{\ell}I\) met "
+                      r"\(\mu_{0} = 4\pi\cdot 10^{-7}\ \text{T}\cdot\text{m/A}\).",
+             oefeningen=[
+                 ("kort", r"Een spoel van \(0{,}25\ \text{m}\) heeft \(500\) windingen en voert "
+                          r"\(2{,}0\ \text{A}\). Hoe groot is \(B\) binnenin?",
+                  r"\(N/\ell = 2000\ \text{m}^{-1}\), dus "
+                  r"\(B = 5{,}0\cdot 10^{-3}\ \text{T}\)", W),
+                 ("kort", r"Een spoel van \(0{,}40\ \text{m}\) met \(200\) windingen voert "
+                          r"\(1{,}5\ \text{A}\). Hoe groot is \(B\)?",
+                  r"\(N/\ell = 500\ \text{m}^{-1}\), dus "
+                  r"\(B = 9{,}4\cdot 10^{-4}\ \text{T}\)", W),
+                 ("kort", r"Welke stroom heb je nodig voor \(B = 20\ \text{mT}\) in een spoel "
+                          r"van \(0{,}50\ \text{m}\) met \(1000\) windingen?",
+                  r"\(I = \dfrac{B}{\mu_{0}\,N/\ell} = 8{,}0\ \text{A}\)", W),
+                 ("kort", r"Hoeveel windingen per meter heb je nodig voor \(B = 10\ \text{mT}\) "
+                          r"bij \(I = 4{,}0\ \text{A}\)?",
+                  r"\(N/\ell = B/(\mu_{0}I) = 2{,}0\cdot 10^{3}\) per meter", W),
+                 ("open", r"Twee spoelen voeren dezelfde stroom. De eerste heeft \(300\) "
+                          r"windingen over \(0{,}30\ \text{m}\), de tweede \(300\) windingen over "
+                          r"\(0{,}15\ \text{m}\). Welke maakt het sterkste veld, en hoeveel keer?",
+                  r"Enkel \(N/\ell\) verschilt: \(1000\) tegen \(2000\) windingen per meter. De "
+                  r"tweede maakt dus een twee keer zo sterk veld.", 5),
              ]),
         dict(kop="Waar of niet waar",
              opdracht="Kruis aan.",
@@ -502,6 +565,9 @@ OEFENBUNDELS["oefenbundel-magneten-en-het-magnetisch-veld-beyond"] = dict(
                  ("waar", "De geografische noordpool van de aarde ligt bij de magnetische zuidpool.", True),
                  ("waar", "Een rechte stroomdraad maakt rechte veldlijnen langs de draad.", False),
                  ("waar", "Een spoel met stroom gedraagt zich als een staafmagneet.", True),
+                 ("waar", r"Het veld van een rechte draad daalt met het kwadraat van de afstand.", False),
+                 ("waar", r"In de formule voor het veld in een spoel staat geen afstand tot de as.", True),
+                 ("waar", r"Eén tesla is een kleine eenheid: een koelkastmagneet zit rond \(1\ \text{T}\).", False),
              ]),
         dict(kop="Uitleggen",
              opdracht="Antwoord in volle zinnen.",
@@ -509,14 +575,22 @@ OEFENBUNDELS["oefenbundel-magneten-en-het-magnetisch-veld-beyond"] = dict(
                  ("open", "Leg uit waarom je een stuk ijzer kan magnetiseren en een stuk koper niet.",
                   "In ijzer zitten weissgebieden met elementaire magneetjes die je in dezelfde "
                   "richting kan zetten. Koper heeft die gebiedjes niet, dus valt er niets te "
-                  "richten.", 6),
+                  "richten.", 5),
                  ("open", "Een kompasnaald wijst naar het noorden. Hoe komt dat, en wat gebeurt er met een magneet in de buurt?",
                   "De aarde heeft zelf een magnetisch veld, en de naald draait zich in dat veld. Een "
                   "magneet dichtbij maakt een veel sterker veld ter plaatse, dus wijst de naald dan "
-                  "naar de magneet.", 6),
+                  "naar de magneet.", 5),
                  ("open", "Hoe maak je het veld van een elektromagneet sterker? Noem drie manieren.",
-                  "Meer stroom door de spoel, meer wikkelingen in de spoel, en een kern van zacht "
+                  "Meer stroom door de spoel, meer wikkelingen per meter, en een kern van zacht "
                   "ijzer in de spoel.", 5),
+                 ("open", r"Het veld van een puntlading gaat met \(\dfrac{1}{r^{2}}\), dat van een "
+                          r"rechte stroomdraad met \(\dfrac{1}{r}\). Leg uit waarom dat niet "
+                          r"dezelfde macht is.",
+                  r"Een puntlading straalt in alle richtingen van de ruimte uit, dus spreidt haar "
+                  r"veld zich over een bol met oppervlakte \(4\pi r^{2}\). Een lange draad is "
+                  r"lang in één richting, dus spreidt het veld zich enkel rondom uit, over een "
+                  r"cilinder met omtrek \(2\pi r\). Eén richting minder betekent één macht van "
+                  r"\(r\) minder.", 6),
              ]),
     ],
 )
