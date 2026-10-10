@@ -8823,3 +8823,137 @@ def primitievenfamilie(breedte=470):
     d.append(_tekst(breedte / 2, h - 6,
                     "in x = 2 hebben alle drie dezelfde helling", 9.5, AMBER, "middle"))
     return _svg(breedte, h, "\n".join(d))
+
+
+def riemannsom(breedte=470):
+    r"""Een ondersom en een bovensom met zes rechthoekjes onder dezelfde kromme."""
+    h = 186
+    gap = 14
+    w = (breedte - gap) / 2
+    ox, oy = 26, 132
+    top, rechts = 22, w - 16
+    n = 6
+    xmax, ymax = 3.0, 3.8
+
+    def f(x):
+        return 0.35 * x * x + 0.4
+
+    d = []
+    for i, naam in enumerate(("ondersom", "bovensom")):
+        X = i * (w + gap)
+
+        def sx(x, X=X):
+            return X + ox + x / xmax * (rechts - ox)
+
+        def sy(y):
+            return oy - y / ymax * (oy - top)
+
+        d.append(f'<rect x="{X+4}" y="6" width="{w-8:.1f}" height="{h-42}" rx="7" '
+                 f'fill="#ffffff" stroke="{BORDER}" stroke-width="1.2"/>')
+        for k in range(n):
+            a = k * xmax / n
+            b = (k + 1) * xmax / n
+            hoogte = f(a) if i == 0 else f(b)
+            d.append(f'<rect x="{sx(a):.1f}" y="{sy(hoogte):.1f}" '
+                     f'width="{sx(b)-sx(a):.1f}" height="{sy(0)-sy(hoogte):.1f}" '
+                     f'fill="{AMBER}" fill-opacity="0.2" stroke="{AMBER}" stroke-width="1"/>')
+        punten = []
+        for k in range(61):
+            x = k / 60 * xmax
+            punten.append(f"{sx(x):.1f},{sy(f(x)):.1f}")
+        d.append(f'<polyline points="{" ".join(punten)}" fill="none" stroke="{FOREST}" '
+                 f'stroke-width="2.2"/>')
+        d.append(f'<line x1="{X+ox}" y1="{top}" x2="{X+ox}" y2="{oy}" stroke="{INK}" '
+                 f'stroke-width="1.5"/>')
+        d.append(f'<line x1="{X+ox}" y1="{oy}" x2="{X+rechts+10:.1f}" y2="{oy}" '
+                 f'stroke="{INK}" stroke-width="1.5"/>')
+        d.append(_tekst(X + ox, oy + 14, "a", 9.5, DIM, "middle"))
+        d.append(_tekst(sx(xmax), oy + 14, "b", 9.5, DIM, "middle"))
+        d.append(_tekst(X + w / 2, h - 20, naam, 10.5, DARK, "middle", True))
+        d.append(_tekst(X + w / 2, h - 6,
+                        "laagste hoogte per reepje" if i == 0 else "hoogste hoogte per reepje",
+                        9, DIM, "middle"))
+    return _svg(breedte, h, "\n".join(d))
+
+
+def georienteerd(breedte=470):
+    r"""De sinus over nul tot twee pi: een plus-stuk boven en een min-stuk onder de as."""
+    import math
+    h = 182
+    ox, rechts = 34, breedte - 34
+    mid, amp = 86, 56
+
+    def sx(x):
+        return ox + x / (2 * math.pi) * (rechts - ox)
+
+    def sy(y):
+        return mid - y * amp
+
+    d = []
+    for tak, kleur, teken in ((0, FOREST, "+"), (1, AMBER, "−")):
+        punten = [f"{sx(tak*math.pi):.1f},{mid:.1f}"]
+        for k in range(41):
+            x = (tak + k / 40) * math.pi
+            punten.append(f"{sx(x):.1f},{sy(math.sin(x)):.1f}")
+        punten.append(f"{sx((tak+1)*math.pi):.1f},{mid:.1f}")
+        d.append(f'<polygon points="{" ".join(punten)}" fill="{kleur}" fill-opacity="0.22" '
+                 f'stroke="none"/>')
+        d.append(_tekst(sx((tak + 0.5) * math.pi), mid + (-22 if tak == 0 else 36),
+                        teken, 20, kleur, "middle", True))
+    punten = []
+    for k in range(97):
+        x = k / 96 * 2 * math.pi
+        punten.append(f"{sx(x):.1f},{sy(math.sin(x)):.1f}")
+    d.append(f'<polyline points="{" ".join(punten)}" fill="none" stroke="{DARK}" '
+             f'stroke-width="2.2"/>')
+    d.append(f'<line x1="{ox-10}" y1="{mid}" x2="{rechts+14}" y2="{mid}" stroke="{INK}" '
+             f'stroke-width="1.5"/>')
+    for x, label in ((0, "0"), (math.pi, "π"), (2 * math.pi, "2π")):
+        d.append(f'<line x1="{sx(x):.1f}" y1="{mid}" x2="{sx(x):.1f}" y2="{mid+6}" '
+                 f'stroke="{INK}" stroke-width="1.4"/>')
+        d.append(_tekst(sx(x), mid + 20, label, 10, DIM, "middle"))
+    d.append(_tekst(breedte / 2, h - 22,
+                    "de twee stukken zijn even groot, dus de integraal is nul",
+                    10, DARK, "middle", True))
+    d.append(_tekst(breedte / 2, h - 6,
+                    "de werkelijke oppervlakte is wel 4", 9.5, DIM, "middle"))
+    return _svg(breedte, h, "\n".join(d))
+
+
+def tussenkrommen(breedte=470):
+    r"""Het gebied tussen de rechte y = x en de parabool y = x kwadraat."""
+    import math
+    h = 214
+    ox, oy = 44, 168
+    top, rechts = 24, breedte - 86
+    xmax, ymax = 1.25, 1.3
+    xp = math.sqrt(ymax)
+
+    def sx(x):
+        return ox + x / xmax * (rechts - ox)
+
+    def sy(y):
+        return oy - y / ymax * (oy - top)
+
+    d = []
+    boven = [f"{sx(k/40):.1f},{sy(k/40):.1f}" for k in range(41)]
+    onder = [f"{sx(k/40):.1f},{sy((k/40)**2):.1f}" for k in range(40, -1, -1)]
+    d.append(f'<polygon points="{" ".join(boven + onder)}" fill="{AMBER}" '
+             f'fill-opacity="0.26" stroke="none"/>')
+    d.append(f'<line x1="{ox}" y1="{top}" x2="{ox}" y2="{oy}" stroke="{INK}" stroke-width="1.5"/>')
+    d.append(f'<line x1="{ox}" y1="{oy}" x2="{rechts+16}" y2="{oy}" stroke="{INK}" stroke-width="1.5"/>')
+    rechte = [f"{sx(k/40*xmax):.1f},{sy(k/40*xmax):.1f}" for k in range(41)]
+    parab = [f"{sx(k/40*xp):.1f},{sy((k/40*xp)**2):.1f}" for k in range(41)]
+    d.append(f'<polyline points="{" ".join(rechte)}" fill="none" stroke="{FOREST}" stroke-width="2.2"/>')
+    d.append(f'<polyline points="{" ".join(parab)}" fill="none" stroke="{AMBER}" stroke-width="2.2"/>')
+    d.append(_tekst(sx(xmax) + 8, sy(xmax) + 4, "y = x", 10.5, FOREST, "start"))
+    d.append(_tekst(sx(xp) + 8, sy(ymax) + 4, "y = x\u00b2", 10.5, AMBER, "start"))
+    for x in (0, 1):
+        d.append(f'<circle cx="{sx(x):.1f}" cy="{sy(x):.1f}" r="3.4" fill="{INK}" '
+                 f'stroke="#ffffff" stroke-width="1.2"/>')
+        d.append(f'<line x1="{sx(x):.1f}" y1="{oy}" x2="{sx(x):.1f}" y2="{oy+6}" '
+                 f'stroke="{INK}" stroke-width="1.4"/>')
+        d.append(_tekst(sx(x), oy + 20, str(x), 10, DIM, "middle"))
+    d.append(_tekst(breedte / 2, h - 8,
+                    "het gekleurde gebied ligt tussen x = 0 en x = 1", 9.5, DIM, "middle"))
+    return _svg(breedte, h, "\n".join(d))

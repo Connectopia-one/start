@@ -8,15 +8,25 @@
    "blokken": [
     {
      "soort": "tekst",
-     "html": "<strong>Een Riemannsom is de som van de oppervlakten van rechthoekjes onder een grafiek.</strong> Je verdeelt het interval in smalle stukjes en benadert elk stukje door een rechthoekje. <strong>De dx in een integraal komt overeen met de breedte van die rechthoekjes</strong>; de functiewaarde is de hoogte."
+     "html": "<strong>Een Riemannsom is de som van de oppervlakten van rechthoekjes onder een grafiek</strong>, dus \\(\\sum f(x_{i})\\,\\Delta x\\). Je verdeelt \\([a,\\ b]\\) in smalle stukjes en benadert elk stukje door een rechthoekje. <strong>De \\(dx\\) in een integraal komt overeen met de breedte van die rechthoekjes</strong>; \\(f(x)\\) is de hoogte."
     },
+    {
+     "soort": "figuur",
+     "html": "<svg viewBox=\"0 0 470 186\" width=\"470\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"4.0\" y=\"6\" width=\"220.0\" height=\"144\" rx=\"7\" fill=\"#ffffff\" stroke=\"#e4ded0\" stroke-width=\"1.2\"/>\n<rect x=\"26.0\" y=\"120.4\" width=\"31.0\" height=\"11.6\" fill=\"#c17f2b\" fill-opacity=\"0.2\" stroke=\"#c17f2b\" stroke-width=\"1\"/>\n<rect x=\"57.0\" y=\"117.9\" width=\"31.0\" height=\"14.1\" fill=\"#c17f2b\" fill-opacity=\"0.2\" stroke=\"#c17f2b\" stroke-width=\"1\"/>\n<rect x=\"88.0\" y=\"110.3\" width=\"31.0\" height=\"21.7\" fill=\"#c17f2b\" fill-opacity=\"0.2\" stroke=\"#c17f2b\" stroke-width=\"1\"/>\n<rect x=\"119.0\" y=\"97.6\" width=\"31.0\" height=\"34.4\" fill=\"#c17f2b\" fill-opacity=\"0.2\" stroke=\"#c17f2b\" stroke-width=\"1\"/>\n<rect x=\"150.0\" y=\"79.9\" width=\"31.0\" height=\"52.1\" fill=\"#c17f2b\" fill-opacity=\"0.2\" stroke=\"#c17f2b\" stroke-width=\"1\"/>\n<rect x=\"181.0\" y=\"57.1\" width=\"31.0\" height=\"74.9\" fill=\"#c17f2b\" fill-opacity=\"0.2\" stroke=\"#c17f2b\" stroke-width=\"1\"/>\n<polyline points=\"26.0,120.4 29.1,120.4 32.2,120.3 35.3,120.2 38.4,120.0 41.5,119.8 44.6,119.5 47.7,119.2 50.8,118.8 53.9,118.4 57.0,117.9 60.1,117.4 63.2,116.8 66.3,116.1 69.4,115.5 72.5,114.7 75.6,113.9 78.7,113.1 81.8,112.2 84.9,111.3 88.0,110.3 91.1,109.3 94.2,108.2 97.3,107.0 100.4,105.8 103.5,104.6 106.6,103.3 109.7,102.0 112.8,100.6 115.9,99.1 119.0,97.6 122.1,96.1 125.2,94.5 128.3,92.8 131.4,91.1 134.5,89.4 137.6,87.6 140.7,85.7 143.8,83.8 146.9,81.9 150.0,79.9 153.1,77.8 156.2,75.7 159.3,73.6 162.4,71.4 165.5,69.1 168.6,66.8 171.7,64.5 174.8,62.1 177.9,59.6 181.0,57.1 184.1,54.5 187.2,51.9 190.3,49.3 193.4,46.6 196.5,43.8 199.6,41.0 202.7,38.1 205.8,35.2 208.9,32.3 212.0,29.2\" fill=\"none\" stroke=\"#2f5d50\" stroke-width=\"2.2\"/>\n<line x1=\"26.0\" y1=\"22\" x2=\"26.0\" y2=\"132\" stroke=\"#23291f\" stroke-width=\"1.5\"/>\n<line x1=\"26.0\" y1=\"132\" x2=\"222.0\" y2=\"132\" stroke=\"#23291f\" stroke-width=\"1.5\"/>\n<text x=\"26.0\" y=\"146.0\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"9.5\" fill=\"#6b7260\">a</text>\n<text x=\"212.0\" y=\"146.0\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"9.5\" fill=\"#6b7260\">b</text>\n<text x=\"114.0\" y=\"166.0\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"10.5\" font-weight=\"600\" fill=\"#234539\">ondersom</text>\n<text x=\"114.0\" y=\"180.0\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"9\" fill=\"#6b7260\">laagste hoogte per reepje</text>\n<rect x=\"246.0\" y=\"6\" width=\"220.0\" height=\"144\" rx=\"7\" fill=\"#ffffff\" stroke=\"#e4ded0\" stroke-width=\"1.2\"/>\n<rect x=\"268.0\" y=\"117.9\" width=\"31.0\" height=\"14.1\" fill=\"#c17f2b\" fill-opacity=\"0.2\" stroke=\"#c17f2b\" stroke-width=\"1\"/>\n<rect x=\"299.0\" y=\"110.3\" width=\"31.0\" height=\"21.7\" fill=\"#c17f2b\" fill-opacity=\"0.2\" stroke=\"#c17f2b\" stroke-width=\"1\"/>\n<rect x=\"330.0\" y=\"97.6\" width=\"31.0\" height=\"34.4\" fill=\"#c17f2b\" fill-opacity=\"0.2\" stroke=\"#c17f2b\" stroke-width=\"1\"/>\n<rect x=\"361.0\" y=\"79.9\" width=\"31.0\" height=\"52.1\" fill=\"#c17f2b\" fill-opacity=\"0.2\" stroke=\"#c17f2b\" stroke-width=\"1\"/>\n<rect x=\"392.0\" y=\"57.1\" width=\"31.0\" height=\"74.9\" fill=\"#c17f2b\" fill-opacity=\"0.2\" stroke=\"#c17f2b\" stroke-width=\"1\"/>\n<rect x=\"423.0\" y=\"29.2\" width=\"31.0\" height=\"102.8\" fill=\"#c17f2b\" fill-opacity=\"0.2\" stroke=\"#c17f2b\" stroke-width=\"1\"/>\n<polyline points=\"268.0,120.4 271.1,120.4 274.2,120.3 277.3,120.2 280.4,120.0 283.5,119.8 286.6,119.5 289.7,119.2 292.8,118.8 295.9,118.4 299.0,117.9 302.1,117.4 305.2,116.8 308.3,116.1 311.4,115.5 314.5,114.7 317.6,113.9 320.7,113.1 323.8,112.2 326.9,111.3 330.0,110.3 333.1,109.3 336.2,108.2 339.3,107.0 342.4,105.8 345.5,104.6 348.6,103.3 351.7,102.0 354.8,100.6 357.9,99.1 361.0,97.6 364.1,96.1 367.2,94.5 370.3,92.8 373.4,91.1 376.5,89.4 379.6,87.6 382.7,85.7 385.8,83.8 388.9,81.9 392.0,79.9 395.1,77.8 398.2,75.7 401.3,73.6 404.4,71.4 407.5,69.1 410.6,66.8 413.7,64.5 416.8,62.1 419.9,59.6 423.0,57.1 426.1,54.5 429.2,51.9 432.3,49.3 435.4,46.6 438.5,43.8 441.6,41.0 444.7,38.1 447.8,35.2 450.9,32.3 454.0,29.2\" fill=\"none\" stroke=\"#2f5d50\" stroke-width=\"2.2\"/>\n<line x1=\"268.0\" y1=\"22\" x2=\"268.0\" y2=\"132\" stroke=\"#23291f\" stroke-width=\"1.5\"/>\n<line x1=\"268.0\" y1=\"132\" x2=\"464.0\" y2=\"132\" stroke=\"#23291f\" stroke-width=\"1.5\"/>\n<text x=\"268.0\" y=\"146.0\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"9.5\" fill=\"#6b7260\">a</text>\n<text x=\"454.0\" y=\"146.0\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"9.5\" fill=\"#6b7260\">b</text>\n<text x=\"356.0\" y=\"166.0\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"10.5\" font-weight=\"600\" fill=\"#234539\">bovensom</text>\n<text x=\"356.0\" y=\"180.0\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"9\" fill=\"#6b7260\">hoogste hoogte per reepje</text></svg>",
+     "onderschrift": "Zes rechthoekjes onder dezelfde kromme, een keer te laag en een keer te hoog."
+    }
+   ]
+  },
+  {
+   "kop": "Onder, boven en ertussen",
+   "blokken": [
     {
      "soort": "tekst",
      "html": "<strong>De ondersom is het kleinst en de bovensom het grootst</strong>: de ondersom gebruikt in elk stukje de laagste functiewaarde, de bovensom de hoogste, en de echte oppervlakte ligt ertussen. <strong>Een ondersom is dus nooit groter dan de werkelijke oppervlakte.</strong> <strong>Hoe meer deelintervallen je gebruikt, hoe beter de benadering</strong>, want de rechthoekjes volgen de kromme dan nauwer."
     },
     {
      "soort": "tekst",
-     "html": "<strong>De limiet van Riemannsommen levert een exacte oppervlakte op omdat onder- en bovensom naar hetzelfde getal kruipen.</strong> De werkelijke oppervlakte ligt er altijd tussen, dus als de twee samenvallen is er maar één getal mogelijk. Dat getal is de integraal."
+     "html": "<strong>De limiet van Riemannsommen levert een exacte oppervlakte op omdat onder- en bovensom naar hetzelfde getal kruipen.</strong> De werkelijke oppervlakte ligt er altijd tussen, dus als de twee samenvallen is er maar één getal mogelijk. Dat getal is \\(\\int_{a}^{b} f(x)\\,dx\\)."
     }
    ]
   },
@@ -25,15 +35,33 @@
    "blokken": [
     {
      "soort": "tekst",
-     "html": "<strong>De georiënteerde oppervlakte is een oppervlakte die onder de x-as negatief meetelt.</strong> Dat is wat de bepaalde integraal rechtstreeks berekent. Ligt een functie op het hele interval onder de x-as, dan is <strong>haar bepaalde integraal daar negatief</strong>. <strong>Een bepaalde integraal is dus niet altijd positief</strong>, en ze kan zelfs nul worden als de stukken elkaar opheffen. <strong>Een werkelijke oppervlakte kan nooit negatief zijn</strong>; alleen de georiënteerde."
+     "html": "<strong>De georiënteerde oppervlakte is een oppervlakte die onder de x-as negatief meetelt.</strong> Dat is wat de bepaalde integraal rechtstreeks berekent. Ligt \\(f\\) op heel \\([a,\\ b]\\) onder de x-as, dan is <strong>\\(\\int_{a}^{b} f(x)\\,dx < 0\\)</strong>."
+    },
+    {
+     "soort": "figuur",
+     "html": "<svg viewBox=\"0 0 470 182\" width=\"470\" xmlns=\"http://www.w3.org/2000/svg\"><polygon points=\"34.0,86.0 34.0,86.0 39.0,81.6 44.0,77.2 49.1,72.9 54.1,68.7 59.1,64.6 64.2,60.6 69.2,56.7 74.2,53.1 79.2,49.6 84.2,46.4 89.3,43.4 94.3,40.7 99.3,38.3 104.3,36.1 109.4,34.3 114.4,32.7 119.4,31.5 124.5,30.7 129.5,30.2 134.5,30.0 139.5,30.2 144.6,30.7 149.6,31.5 154.6,32.7 159.6,34.3 164.7,36.1 169.7,38.3 174.7,40.7 179.7,43.4 184.8,46.4 189.8,49.6 194.8,53.1 199.8,56.7 204.8,60.6 209.9,64.6 214.9,68.7 219.9,72.9 224.9,77.2 230.0,81.6 235.0,86.0 235.0,86.0\" fill=\"#2f5d50\" fill-opacity=\"0.22\" stroke=\"none\"/>\n<text x=\"134.5\" y=\"64.0\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"20\" font-weight=\"600\" fill=\"#2f5d50\">+</text>\n<polygon points=\"235.0,86.0 235.0,86.0 240.0,90.4 245.1,94.8 250.1,99.1 255.1,103.3 260.1,107.4 265.1,111.4 270.2,115.3 275.2,118.9 280.2,122.4 285.2,125.6 290.3,128.6 295.3,131.3 300.3,133.7 305.4,135.9 310.4,137.7 315.4,139.3 320.4,140.5 325.4,141.3 330.5,141.8 335.5,142.0 340.5,141.8 345.6,141.3 350.6,140.5 355.6,139.3 360.6,137.7 365.6,135.9 370.7,133.7 375.7,131.3 380.7,128.6 385.8,125.6 390.8,122.4 395.8,118.9 400.8,115.3 405.9,111.4 410.9,107.4 415.9,103.3 420.9,99.1 425.9,94.8 431.0,90.4 436.0,86.0 436.0,86.0\" fill=\"#c17f2b\" fill-opacity=\"0.22\" stroke=\"none\"/>\n<text x=\"335.5\" y=\"122.0\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"20\" font-weight=\"600\" fill=\"#c17f2b\">−</text>\n<polyline points=\"34.0,86.0 38.2,82.3 42.4,78.7 46.6,75.1 50.8,71.5 54.9,68.0 59.1,64.6 63.3,61.2 67.5,58.0 71.7,54.9 75.9,51.9 80.1,49.1 84.2,46.4 88.4,43.9 92.6,41.6 96.8,39.4 101.0,37.5 105.2,35.8 109.4,34.3 113.6,33.0 117.8,31.9 121.9,31.1 126.1,30.5 130.3,30.1 134.5,30.0 138.7,30.1 142.9,30.5 147.1,31.1 151.2,31.9 155.4,33.0 159.6,34.3 163.8,35.8 168.0,37.5 172.2,39.4 176.4,41.6 180.6,43.9 184.8,46.4 188.9,49.1 193.1,51.9 197.3,54.9 201.5,58.0 205.7,61.2 209.9,64.6 214.1,68.0 218.2,71.5 222.4,75.1 226.6,78.7 230.8,82.3 235.0,86.0 239.2,89.7 243.4,93.3 247.6,96.9 251.7,100.5 255.9,104.0 260.1,107.4 264.3,110.8 268.5,114.0 272.7,117.1 276.9,120.1 281.1,122.9 285.2,125.6 289.4,128.1 293.6,130.4 297.8,132.6 302.0,134.5 306.2,136.2 310.4,137.7 314.6,139.0 318.8,140.1 322.9,140.9 327.1,141.5 331.3,141.9 335.5,142.0 339.7,141.9 343.9,141.5 348.1,140.9 352.2,140.1 356.4,139.0 360.6,137.7 364.8,136.2 369.0,134.5 373.2,132.6 377.4,130.4 381.6,128.1 385.8,125.6 389.9,122.9 394.1,120.1 398.3,117.1 402.5,114.0 406.7,110.8 410.9,107.4 415.1,104.0 419.2,100.5 423.4,96.9 427.6,93.3 431.8,89.7 436.0,86.0\" fill=\"none\" stroke=\"#234539\" stroke-width=\"2.2\"/>\n<line x1=\"24\" y1=\"86\" x2=\"450\" y2=\"86\" stroke=\"#23291f\" stroke-width=\"1.5\"/>\n<line x1=\"34.0\" y1=\"86\" x2=\"34.0\" y2=\"92\" stroke=\"#23291f\" stroke-width=\"1.4\"/>\n<text x=\"34.0\" y=\"106.0\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"10\" fill=\"#6b7260\">0</text>\n<line x1=\"235.0\" y1=\"86\" x2=\"235.0\" y2=\"92\" stroke=\"#23291f\" stroke-width=\"1.4\"/>\n<text x=\"235.0\" y=\"106.0\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"10\" fill=\"#6b7260\">π</text>\n<line x1=\"436.0\" y1=\"86\" x2=\"436.0\" y2=\"92\" stroke=\"#23291f\" stroke-width=\"1.4\"/>\n<text x=\"436.0\" y=\"106.0\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"10\" fill=\"#6b7260\">2π</text>\n<text x=\"235.0\" y=\"160.0\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"10\" font-weight=\"600\" fill=\"#234539\">de twee stukken zijn even groot, dus de integraal is nul</text>\n<text x=\"235.0\" y=\"176.0\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"9.5\" fill=\"#6b7260\">de werkelijke oppervlakte is wel 4</text></svg>",
+     "onderschrift": "\\(\\int_{0}^{2\\pi} \\sin x\\,dx\\): het bovenste stuk telt positief, het onderste negatief."
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Een bepaalde integraal is dus niet altijd positief</strong>, en ze kan zelfs nul worden als de stukken elkaar opheffen. <strong>Een werkelijke oppervlakte kan nooit negatief zijn</strong>; alleen de georiënteerde."
     },
     {
      "soort": "tekst",
      "html": "<strong>Snijdt de grafiek de x-as midden in het interval, dan splits je in de nulwaarde en tel je de stukken positief op.</strong> Anders heffen een positief en een negatief stuk elkaar op en krijg je een te kleine of zelfs een nul-uitkomst."
+    }
+   ]
+  },
+  {
+   "kop": "Twee eigenschappen van de grenzen",
+   "blokken": [
+    {
+     "soort": "kader",
+     "html": "\\(\\int_{a}^{a} f(x)\\,dx = 0\\): onder- en bovengrens vallen samen.<br>\\(\\int_{b}^{a} f(x)\\,dx = -\\int_{a}^{b} f(x)\\,dx\\): de grenzen verwisselen wisselt het teken."
     },
     {
      "soort": "tekst",
-     "html": "Twee eigenschappen die je vaak gebruikt: <strong>de integraal van twee tot twee is nul</strong>, want onder- en bovengrens vallen samen, en <strong>verwissel je de twee grenzen, dan wisselt het resultaat van teken</strong>. <strong>De bovengrens is de rechterkant van het interval waarover je integreert</strong>; de grenzen staan op de x-as, niet op de y-as."
+     "html": "<strong>De bovengrens \\(b\\) is de rechterkant van het interval waarover je integreert</strong>; de grenzen staan op de x-as, niet op de y-as. Dat verwarren leidt tot heel vreemde uitkomsten."
     }
    ]
   },
@@ -42,7 +70,7 @@
    "blokken": [
     {
      "soort": "tekst",
-     "html": "<strong>Het gevolg van de hoofdstelling van de integraalrekening zegt: de integraal van a tot b is de primitieve in b min de primitieve in a.</strong> Daarmee hoef je geen rechthoekjes meer te tellen; een primitieve zoeken volstaat. <strong>Dat invullen en aftrekken noteer je kort met een rechte streep achter de primitieve en de grenzen erbij</strong>, zodat je eerst de primitieve opschrijft en pas daarna invult."
+     "html": "<strong>Het gevolg van de hoofdstelling van de integraalrekening zegt: \\(\\int_{a}^{b} f(x)\\,dx = F(b) - F(a)\\).</strong> Daarmee hoef je geen rechthoekjes meer te tellen; een primitieve \\(F\\) zoeken volstaat. <strong>Dat invullen en aftrekken noteer je kort als \\(\\left[F(x)\\right]_{a}^{b}\\)</strong>, zodat je eerst de primitieve opschrijft en pas daarna invult."
     },
     {
      "soort": "tekst",
@@ -50,11 +78,16 @@
     },
     {
      "soort": "tekst",
-     "html": "<strong>De middelwaardestelling van de integraalrekening</strong> zegt dat er <strong>een punt is waar de functiewaarde gelijk is aan de gemiddelde waarde</strong>. Er bestaat dus een rechthoek met dezelfde breedte en dezelfde oppervlakte als het gebied onder de kromme."
-    },
+     "html": "<strong>De middelwaardestelling van de integraalrekening</strong> zegt dat er een \\(c\\) bestaat met <strong>\\(f(c) = \\dfrac{1}{b-a}\\displaystyle\\int_{a}^{b} f(x)\\,dx\\)</strong>, dus een punt waar de functiewaarde gelijk is aan de gemiddelde waarde. Er bestaat dan een rechthoek met dezelfde breedte en dezelfde oppervlakte als het gebied onder de kromme."
+    }
+   ]
+  },
+  {
+   "kop": "Vier om na te rekenen",
+   "blokken": [
     {
      "soort": "tekst",
-     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Integraal</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Uitkomst</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Hoe</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">van nul tot drie van het getal twee</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">zes</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een rechthoek van drie breed en twee hoog</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">van nul tot twee van drie x kwadraat</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">acht</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">de primitieve is x tot de derde</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">van één tot twee van één gedeeld door x kwadraat</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een half</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">de primitieve is min één gedeeld door x</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">van nul tot één van x min x kwadraat</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een zesde</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een half min een derde</td></tr></table>"
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Integraal</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Uitkomst</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Hoe</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">\\(\\int_{0}^{3} 2\\,dx\\)</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">\\(6\\)</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een rechthoek van \\(3\\) breed en \\(2\\) hoog</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">\\(\\int_{0}^{2} 3x^{2}\\,dx\\)</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">\\(8\\)</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">de primitieve is \\(x^{3}\\)</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">\\(\\int_{1}^{2} \\dfrac{1}{x^{2}}\\,dx\\)</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">\\(\\tfrac{1}{2}\\)</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">de primitieve is \\(-\\dfrac{1}{x}\\)</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">\\(\\int_{0}^{1} \\left(x - x^{2}\\right)dx\\)</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">\\(\\tfrac{1}{6}\\)</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">\\(\\tfrac{1}{2} - \\tfrac{1}{3}\\)</td></tr></table>"
     }
    ]
   },
@@ -63,7 +96,12 @@
    "blokken": [
     {
      "soort": "tekst",
-     "html": "<strong>De oppervlakte tussen twee krommen is de integraal van de bovenste functie min de onderste.</strong> Het hoogteverschil is de hoogte van elk reepje. Als <strong>grenzen neem je meestal de x-waarden van hun snijpunten</strong>; die vind je door de twee voorschriften aan elkaar gelijk te stellen."
+     "html": "<strong>De oppervlakte tussen twee krommen is \\(\\int_{a}^{b} \\left(\\text{boven} - \\text{onder}\\right)dx\\).</strong> Het hoogteverschil is de hoogte van elk reepje. Als <strong>grenzen neem je meestal de x-waarden van hun snijpunten</strong>; die vind je door \\(f(x) = g(x)\\) op te lossen."
+    },
+    {
+     "soort": "figuur",
+     "html": "<svg viewBox=\"0 0 470 214\" width=\"470\" xmlns=\"http://www.w3.org/2000/svg\"><polygon points=\"44.0,168.0 50.8,165.2 57.6,162.5 64.4,159.7 71.2,156.9 78.0,154.2 84.8,151.4 91.6,148.6 98.4,145.8 105.2,143.1 112.0,140.3 118.8,137.5 125.6,134.8 132.4,132.0 139.2,129.2 146.0,126.5 152.8,123.7 159.6,120.9 166.4,118.2 173.2,115.4 180.0,112.6 186.8,109.8 193.6,107.1 200.4,104.3 207.2,101.5 214.0,98.8 220.8,96.0 227.6,93.2 234.4,90.5 241.2,87.7 248.0,84.9 254.8,82.2 261.6,79.4 268.4,76.6 275.2,73.8 282.0,71.1 288.8,68.3 295.6,65.5 302.4,62.8 309.2,60.0 316.0,57.2 316.0,57.2 309.2,62.7 302.4,68.0 295.6,73.2 288.8,78.3 282.0,83.2 275.2,88.0 268.4,92.6 261.6,97.1 254.8,101.5 248.0,105.7 241.2,109.8 234.4,113.7 227.6,117.5 220.8,121.2 214.0,124.7 207.2,128.1 200.4,131.4 193.6,134.5 186.8,137.5 180.0,140.3 173.2,143.0 166.4,145.6 159.6,148.0 152.8,150.3 146.0,152.4 139.2,154.4 132.4,156.3 125.6,158.0 118.8,159.6 112.0,161.1 105.2,162.4 98.4,163.6 91.6,164.6 84.8,165.5 78.0,166.3 71.2,166.9 64.4,167.4 57.6,167.7 50.8,167.9 44.0,168.0\" fill=\"#c17f2b\" fill-opacity=\"0.26\" stroke=\"none\"/>\n<line x1=\"44\" y1=\"24\" x2=\"44\" y2=\"168\" stroke=\"#23291f\" stroke-width=\"1.5\"/>\n<line x1=\"44\" y1=\"168\" x2=\"400\" y2=\"168\" stroke=\"#23291f\" stroke-width=\"1.5\"/>\n<polyline points=\"44.0,168.0 52.5,164.5 61.0,161.1 69.5,157.6 78.0,154.2 86.5,150.7 95.0,147.2 103.5,143.8 112.0,140.3 120.5,136.8 129.0,133.4 137.5,129.9 146.0,126.5 154.5,123.0 163.0,119.5 171.5,116.1 180.0,112.6 188.5,109.2 197.0,105.7 205.5,102.2 214.0,98.8 222.5,95.3 231.0,91.8 239.5,88.4 248.0,84.9 256.5,81.5 265.0,78.0 273.5,74.5 282.0,71.1 290.5,67.6 299.0,64.2 307.5,60.7 316.0,57.2 324.5,53.8 333.0,50.3 341.5,46.8 350.0,43.4 358.5,39.9 367.0,36.5 375.5,33.0 384.0,29.5\" fill=\"none\" stroke=\"#2f5d50\" stroke-width=\"2.2\"/>\n<polyline points=\"44.0,168.0 51.8,167.9 59.5,167.6 67.3,167.2 75.0,166.6 82.8,165.8 90.5,164.8 98.3,163.6 106.0,162.2 113.8,160.7 121.5,159.0 129.3,157.1 137.0,155.0 144.8,152.8 152.5,150.4 160.3,147.8 168.1,145.0 175.8,142.0 183.6,138.8 191.3,135.5 199.1,132.0 206.8,128.3 214.6,124.4 222.3,120.4 230.1,116.2 237.8,111.8 245.6,107.2 253.3,102.4 261.1,97.4 268.8,92.3 276.6,87.0 284.3,81.5 292.1,75.8 299.9,70.0 307.6,64.0 315.4,57.8 323.1,51.4 330.9,44.8 338.6,38.0 346.4,31.1 354.1,24.0\" fill=\"none\" stroke=\"#c17f2b\" stroke-width=\"2.2\"/>\n<text x=\"392.0\" y=\"33.5\" text-anchor=\"start\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"10.5\" fill=\"#2f5d50\">y = x</text>\n<text x=\"362.1\" y=\"28.0\" text-anchor=\"start\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"10.5\" fill=\"#c17f2b\">y = x²</text>\n<circle cx=\"44.0\" cy=\"168.0\" r=\"3.4\" fill=\"#23291f\" stroke=\"#ffffff\" stroke-width=\"1.2\"/>\n<line x1=\"44.0\" y1=\"168\" x2=\"44.0\" y2=\"174\" stroke=\"#23291f\" stroke-width=\"1.4\"/>\n<text x=\"44.0\" y=\"188.0\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"10\" fill=\"#6b7260\">0</text>\n<circle cx=\"316.0\" cy=\"57.2\" r=\"3.4\" fill=\"#23291f\" stroke=\"#ffffff\" stroke-width=\"1.2\"/>\n<line x1=\"316.0\" y1=\"168\" x2=\"316.0\" y2=\"174\" stroke=\"#23291f\" stroke-width=\"1.4\"/>\n<text x=\"316.0\" y=\"188.0\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"10\" fill=\"#6b7260\">1</text>\n<text x=\"235.0\" y=\"206.0\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"9.5\" fill=\"#6b7260\">het gekleurde gebied ligt tussen x = 0 en x = 1</text></svg>",
+     "onderschrift": "Het gebied tussen \\(y = x\\) en \\(y = x^{2}\\), met oppervlakte \\(\\tfrac{1}{6}\\)."
     },
     {
      "soort": "tekst",
@@ -71,7 +109,7 @@
     },
     {
      "soort": "tekst",
-     "html": "Twee voorbeelden: de <strong>oppervlakte tussen y is x en y is x kwadraat, tussen hun twee snijpunten, is een zesde</strong> (de snijpunten liggen in nul en één, en daar ligt de rechte boven de parabool), en de <strong>oppervlakte onder de rechte y is twee tussen nul en vijf is tien</strong>. Lopen twee grafieken evenwijdig met de ene overal drie hoger, dan is de oppervlakte over een interval van lengte vier gelijk aan <strong>twaalf</strong>."
+     "html": "Nog twee: de oppervlakte onder \\(y = 2\\) tussen \\(x = 0\\) en \\(x = 5\\) is <strong>\\(10\\)</strong>. Lopen twee grafieken evenwijdig met de ene overal \\(3\\) hoger, dan is de oppervlakte over een interval van lengte \\(4\\) gelijk aan <strong>\\(12\\)</strong>."
     }
    ]
   },
@@ -80,11 +118,11 @@
    "blokken": [
     {
      "soort": "tekst",
-     "html": "<strong>Bij een omwentelingslichaam om de x-as neem je pi maal de integraal van f tot de tweede macht.</strong> <strong>Je kwadrateert de functie dus onder het integraalteken</strong>: elke dunne schijf is een cirkel met straal f van x, en in de oppervlakte van een cirkel staat de straal in het kwadraat. <strong>De inhoud hangt af van de as waarrond je de kromme laat draaien</strong>: rond de x-as of rond de y-as geeft een heel ander lichaam."
+     "html": "<strong>Bij een omwentelingslichaam om de x-as is \\(V = \\pi \\displaystyle\\int_{a}^{b} f(x)^{2}\\,dx\\).</strong> <strong>Je kwadrateert de functie dus onder het integraalteken</strong>, tot de tweede macht: elke dunne schijf is een cirkel met straal \\(f(x)\\), en de oppervlakte van een cirkel is \\(\\pi r^{2}\\). <strong>De inhoud hangt af van de as waarrond je de kromme laat draaien</strong>: rond de x-as of rond de y-as geeft een heel ander lichaam."
     },
     {
      "soort": "tekst",
-     "html": "<strong>In de formule voor de booglengte staat onder de wortel: één plus de afgeleide in het kwadraat.</strong> Ze volgt uit Pythagoras op een heel klein stukje kromme, met een horizontale dx en een verticale dy."
+     "html": "<strong>De booglengte is \\(L = \\displaystyle\\int_{a}^{b} \\sqrt{1 + f'(x)^{2}}\\,dx\\)</strong>: onder de wortel staat <strong>één plus de afgeleide in het kwadraat</strong>. Ze volgt uit Pythagoras op een heel klein stukje kromme, met een horizontale \\(dx\\) en een verticale \\(dy\\)."
     }
    ]
   },
@@ -97,24 +135,23 @@
     },
     {
      "soort": "tekst",
-     "html": "<strong>De eenheden rekenen mee</strong>: integreer je een snelheid in meter per seconde over seconden, dan is het resultaat in <strong>meter</strong>. Die controle vangt veel fouten."
+     "html": "Integreer je de snelheid van een wagen over een tijdsinterval, dan krijg je de verplaatsing. <strong>En de eenheid rekent mee</strong>: een snelheid in \\(\\text{m/s}\\) maal seconden geeft \\(\\text{m}\\), want \\(\\text{m/s} \\cdot \\text{s} = \\text{m}\\). Die controle vangt veel fouten."
     },
     {
      "soort": "kader",
-     "html": "<strong>ICT gebruik je bij een integraal als de opgave dat met het icoon aangeeft, en ook dan toon je je werkwijze.</strong> Functioneel gebruik betekent dat ICT het rekenwerk ondersteunt, terwijl je redenering en je tussenstappen op papier staan."
+     "html": "<strong>Op het examen gebruik je ICT bij een integraal als de opgave dat met het icoon aangeeft, en ook dan toon je je werkwijze.</strong> Functioneel gebruik betekent dat ICT het rekenwerk ondersteunt, terwijl je redenering en je tussenstappen op papier staan."
     }
    ]
   }
  ],
  "onthoud": [
-  "Een Riemannsom is de som van de oppervlakten van rechthoekjes onder een grafiek.",
+  "Een Riemannsom is \\(\\sum f(x_{i})\\,\\Delta x\\): rechthoekjes onder een grafiek.",
   "De ondersom is het kleinst en de bovensom het grootst; de echte oppervlakte ligt ertussen.",
   "De bepaalde integraal geeft de georiënteerde oppervlakte: onder de x-as telt ze negatief mee.",
-  "Verwissel je de twee grenzen, dan wisselt het resultaat van teken.",
-  "De integraal van a tot b is de primitieve in b min de primitieve in a.",
-  "De oppervlakte tussen twee krommen is de integraal van de bovenste functie min de onderste.",
-  "Omwentelingslichaam om de x-as: pi maal de integraal van f tot de tweede macht.",
-  "In de formule voor de booglengte staat onder de wortel één plus de afgeleide in het kwadraat.",
+  "\\(\\int_{b}^{a} f(x)\\,dx = -\\int_{a}^{b} f(x)\\,dx\\) en \\(\\int_{a}^{a} f(x)\\,dx = 0\\).",
+  "\\(\\int_{a}^{b} f(x)\\,dx = \\left[F(x)\\right]_{a}^{b} = F(b) - F(a)\\).",
+  "Oppervlakte tussen twee krommen: \\(\\int_{a}^{b}\\left(\\text{boven} - \\text{onder}\\right)dx\\).",
+  "Omwentelingslichaam: \\(V = \\pi \\int_{a}^{b} f(x)^{2}dx\\). Booglengte: \\(L = \\int_{a}^{b} \\sqrt{1 + f'(x)^{2}}\\,dx\\).",
   "De integraal van de snelheid over de tijd is de verplaatsing, niet de afgelegde weg."
  ]
 }

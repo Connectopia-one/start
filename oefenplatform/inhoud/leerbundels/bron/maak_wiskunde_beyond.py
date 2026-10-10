@@ -26,7 +26,7 @@ alles nog in woorden stond en had gelijk: een leerling van de derde graad moet
 
 De omzetting gebeurt thema per thema, samen met de vragen van dat thema, zodat
 een kind in de bundel dezelfde schrijfwijze terugvindt als in de oefening.
-Omgezet: thema 1 tot 11. De andere thema's staan nog in woorden.
+Omgezet: thema 1 tot 12. De andere thema's staan nog in woorden.
 """
 import sys, pathlib
 sys.path.insert(0, str(pathlib.Path(__file__).parent))
@@ -1422,107 +1422,136 @@ BUNDELS["de-bepaalde-integraal-en-haar-toepassingen-beyond"] = dict(
     onder="Van Riemannsommen naar de hoofdstelling, en wat je met een integraal allemaal berekent.",
     secties=[
         dict(kop="Riemannsommen", blokken=[
-            ("p", "<strong>Een Riemannsom is de som van de oppervlakten van rechthoekjes onder een "
-                  "grafiek.</strong> Je verdeelt het interval in smalle stukjes en benadert elk stukje "
-                  "door een rechthoekje. <strong>De dx in een integraal komt overeen met de breedte van "
-                  "die rechthoekjes</strong>; de functiewaarde is de hoogte."),
-            ("p", "<strong>De ondersom is het kleinst en de bovensom het grootst</strong>: de ondersom "
-                  "gebruikt in elk stukje de laagste functiewaarde, de bovensom de hoogste, en de echte "
-                  "oppervlakte ligt ertussen. <strong>Een ondersom is dus nooit groter dan de werkelijke "
-                  "oppervlakte.</strong> <strong>Hoe meer deelintervallen je gebruikt, hoe beter de "
-                  "benadering</strong>, want de rechthoekjes volgen de kromme dan nauwer."),
-            ("p", "<strong>De limiet van Riemannsommen levert een exacte oppervlakte op omdat onder- en "
-                  "bovensom naar hetzelfde getal kruipen.</strong> De werkelijke oppervlakte ligt er altijd "
-                  "tussen, dus als de twee samenvallen is er maar één getal mogelijk. Dat getal is de "
-                  "integraal."),
+            ("p", r"<strong>Een Riemannsom is de som van de oppervlakten van rechthoekjes onder "
+                  r"een grafiek</strong>, dus \(\sum f(x_{i})\,\Delta x\). Je verdeelt \([a,\ b]\) "
+                  r"in smalle stukjes en benadert elk stukje door een rechthoekje. <strong>De "
+                  r"\(dx\) in een integraal komt overeen met de breedte van die "
+                  r"rechthoekjes</strong>; \(f(x)\) is de hoogte."),
+            ("fig", svg.riemannsom(),
+             "Zes rechthoekjes onder dezelfde kromme, een keer te laag en een keer te hoog."),
+        ]),
+        dict(kop="Onder, boven en ertussen", blokken=[
+            ("p", r"<strong>De ondersom is het kleinst en de bovensom het grootst</strong>: de "
+                  r"ondersom gebruikt in elk stukje de laagste functiewaarde, de bovensom de "
+                  r"hoogste, en de echte oppervlakte ligt ertussen. <strong>Een ondersom is dus "
+                  r"nooit groter dan de werkelijke oppervlakte.</strong> <strong>Hoe meer "
+                  r"deelintervallen je gebruikt, hoe beter de benadering</strong>, want de "
+                  r"rechthoekjes volgen de kromme dan nauwer."),
+            ("p", r"<strong>De limiet van Riemannsommen levert een exacte oppervlakte op omdat "
+                  r"onder- en bovensom naar hetzelfde getal kruipen.</strong> De werkelijke "
+                  r"oppervlakte ligt er altijd tussen, dus als de twee samenvallen is er maar één "
+                  r"getal mogelijk. Dat getal is \(\int_{a}^{b} f(x)\,dx\)."),
         ]),
         dict(kop="De georiënteerde oppervlakte", blokken=[
-            ("p", "<strong>De georiënteerde oppervlakte is een oppervlakte die onder de x-as negatief "
-                  "meetelt.</strong> Dat is wat de bepaalde integraal rechtstreeks berekent. Ligt een "
-                  "functie op het hele interval onder de x-as, dan is <strong>haar bepaalde integraal daar "
-                  "negatief</strong>. <strong>Een bepaalde integraal is dus niet altijd positief</strong>, "
-                  "en ze kan zelfs nul worden als de stukken elkaar opheffen. <strong>Een werkelijke "
-                  "oppervlakte kan nooit negatief zijn</strong>; alleen de georiënteerde."),
-            ("p", "<strong>Snijdt de grafiek de x-as midden in het interval, dan splits je in de nulwaarde "
-                  "en tel je de stukken positief op.</strong> Anders heffen een positief en een negatief "
-                  "stuk elkaar op en krijg je een te kleine of zelfs een nul-uitkomst."),
-            ("p", "Twee eigenschappen die je vaak gebruikt: <strong>de integraal van twee tot twee is "
-                  "nul</strong>, want onder- en bovengrens vallen samen, en <strong>verwissel je de twee "
-                  "grenzen, dan wisselt het resultaat van teken</strong>. <strong>De bovengrens is de "
-                  "rechterkant van het interval waarover je integreert</strong>; de grenzen staan op de "
-                  "x-as, niet op de y-as."),
+            ("p", r"<strong>De georiënteerde oppervlakte is een oppervlakte die onder de x-as "
+                  r"negatief meetelt.</strong> Dat is wat de bepaalde integraal rechtstreeks "
+                  r"berekent. Ligt \(f\) op heel \([a,\ b]\) onder de x-as, dan is "
+                  r"<strong>\(\int_{a}^{b} f(x)\,dx < 0\)</strong>."),
+            ("fig", svg.georienteerd(),
+             r"\(\int_{0}^{2\pi} \sin x\,dx\): het bovenste stuk telt positief, het onderste negatief."),
+            ("p", r"<strong>Een bepaalde integraal is dus niet altijd positief</strong>, en ze kan "
+                  r"zelfs nul worden als de stukken elkaar opheffen. <strong>Een werkelijke "
+                  r"oppervlakte kan nooit negatief zijn</strong>; alleen de georiënteerde."),
+            ("p", r"<strong>Snijdt de grafiek de x-as midden in het interval, dan splits je in de "
+                  r"nulwaarde en tel je de stukken positief op.</strong> Anders heffen een positief "
+                  r"en een negatief stuk elkaar op en krijg je een te kleine of zelfs een "
+                  r"nul-uitkomst."),
+        ]),
+        dict(kop="Twee eigenschappen van de grenzen", blokken=[
+            ("kader", r"\(\int_{a}^{a} f(x)\,dx = 0\): onder- en bovengrens vallen samen.<br>"
+                      r"\(\int_{b}^{a} f(x)\,dx = -\int_{a}^{b} f(x)\,dx\): de grenzen verwisselen "
+                      r"wisselt het teken."),
+            ("p", r"<strong>De bovengrens \(b\) is de rechterkant van het interval waarover je "
+                  r"integreert</strong>; de grenzen staan op de x-as, niet op de y-as. Dat "
+                  r"verwarren leidt tot heel vreemde uitkomsten."),
         ]),
         dict(kop="De hoofdstelling", blokken=[
-            ("p", "<strong>Het gevolg van de hoofdstelling van de integraalrekening zegt: de integraal van "
-                  "a tot b is de primitieve in b min de primitieve in a.</strong> Daarmee hoef je geen "
-                  "rechthoekjes meer te tellen; een primitieve zoeken volstaat. <strong>Dat invullen en "
-                  "aftrekken noteer je kort met een rechte streep achter de primitieve en de grenzen "
-                  "erbij</strong>, zodat je eerst de primitieve opschrijft en pas daarna invult."),
-            ("p", "<strong>De hoofdstelling geldt voor continue functies</strong>, niet voor elke functie: "
-                  "bij een sprong moet je het interval eerst opsplitsen."),
-            ("p", "<strong>De middelwaardestelling van de integraalrekening</strong> zegt dat er "
-                  "<strong>een punt is waar de functiewaarde gelijk is aan de gemiddelde waarde</strong>. "
-                  "Er bestaat dus een rechthoek met dezelfde breedte en dezelfde oppervlakte als het gebied "
-                  "onder de kromme."),
+            ("p", r"<strong>Het gevolg van de hoofdstelling van de integraalrekening zegt: "
+                  r"\(\int_{a}^{b} f(x)\,dx = F(b) - F(a)\).</strong> Daarmee hoef je geen "
+                  r"rechthoekjes meer te tellen; een primitieve \(F\) zoeken volstaat. <strong>Dat "
+                  r"invullen en aftrekken noteer je kort als \(\left[F(x)\right]_{a}^{b}\)</strong>, "
+                  r"zodat je eerst de primitieve opschrijft en pas daarna invult."),
+            ("p", r"<strong>De hoofdstelling geldt voor continue functies</strong>, niet voor elke "
+                  r"functie: bij een sprong moet je het interval eerst opsplitsen."),
+            ("p", r"<strong>De middelwaardestelling van de integraalrekening</strong> zegt dat er "
+                  r"een \(c\) bestaat met "
+                  r"<strong>\(f(c) = \dfrac{1}{b-a}\displaystyle\int_{a}^{b} f(x)\,dx\)</strong>, "
+                  r"dus een punt waar de functiewaarde gelijk is aan de gemiddelde waarde. Er "
+                  r"bestaat dan een rechthoek met dezelfde breedte en dezelfde oppervlakte als het "
+                  r"gebied onder de kromme."),
+        ]),
+        dict(kop="Vier om na te rekenen", blokken=[
             ("p", tabel(["Integraal", "Uitkomst", "Hoe"], [
-                ["van nul tot drie van het getal twee", "zes", "een rechthoek van drie breed en twee hoog"],
-                ["van nul tot twee van drie x kwadraat", "acht", "de primitieve is x tot de derde"],
-                ["van één tot twee van één gedeeld door x kwadraat", "een half", "de primitieve is min één gedeeld door x"],
-                ["van nul tot één van x min x kwadraat", "een zesde", "een half min een derde"],
+                [r"\(\int_{0}^{3} 2\,dx\)", r"\(6\)", r"een rechthoek van \(3\) breed en \(2\) hoog"],
+                [r"\(\int_{0}^{2} 3x^{2}\,dx\)", r"\(8\)", r"de primitieve is \(x^{3}\)"],
+                [r"\(\int_{1}^{2} \dfrac{1}{x^{2}}\,dx\)", r"\(\tfrac{1}{2}\)",
+                 r"de primitieve is \(-\dfrac{1}{x}\)"],
+                [r"\(\int_{0}^{1} \left(x - x^{2}\right)dx\)", r"\(\tfrac{1}{6}\)",
+                 r"\(\tfrac{1}{2} - \tfrac{1}{3}\)"],
             ])),
         ]),
         dict(kop="Oppervlakte tussen twee krommen", blokken=[
-            ("p", "<strong>De oppervlakte tussen twee krommen is de integraal van de bovenste functie min "
-                  "de onderste.</strong> Het hoogteverschil is de hoogte van elk reepje. Als "
-                  "<strong>grenzen neem je meestal de x-waarden van hun snijpunten</strong>; die vind je "
-                  "door de twee voorschriften aan elkaar gelijk te stellen."),
-            ("p", "<strong>Kruisen twee krommen elkaar midden in het interval, dan splits je in het "
-                  "snijpunt</strong>, want daar wisselen boven en onder van rol. <strong>Maak eerst een "
-                  "schets om te zien welke kromme boven ligt en waar ze elkaar snijden</strong>; zonder "
-                  "schets zet je de twee functies gemakkelijk in de verkeerde volgorde."),
-            ("p", "Twee voorbeelden: de <strong>oppervlakte tussen y is x en y is x kwadraat, tussen hun "
-                  "twee snijpunten, is een zesde</strong> (de snijpunten liggen in nul en één, en daar ligt "
-                  "de rechte boven de parabool), en de <strong>oppervlakte onder de rechte y is twee tussen "
-                  "nul en vijf is tien</strong>. Lopen twee grafieken evenwijdig met de ene overal drie "
-                  "hoger, dan is de oppervlakte over een interval van lengte vier gelijk aan "
-                  "<strong>twaalf</strong>."),
+            ("p", r"<strong>De oppervlakte tussen twee krommen is "
+                  r"\(\int_{a}^{b} \left(\text{boven} - \text{onder}\right)dx\).</strong> Het "
+                  r"hoogteverschil is de hoogte van elk reepje. Als <strong>grenzen neem je "
+                  r"meestal de x-waarden van hun snijpunten</strong>; die vind je door "
+                  r"\(f(x) = g(x)\) op te lossen."),
+            ("fig", svg.tussenkrommen(),
+             r"Het gebied tussen \(y = x\) en \(y = x^{2}\), met oppervlakte \(\tfrac{1}{6}\)."),
+            ("p", r"<strong>Kruisen twee krommen elkaar midden in het interval, dan splits je in "
+                  r"het snijpunt</strong>, want daar wisselen boven en onder van rol. <strong>Maak "
+                  r"eerst een schets om te zien welke kromme boven ligt en waar ze elkaar "
+                  r"snijden</strong>; zonder schets zet je de twee functies gemakkelijk in de "
+                  r"verkeerde volgorde."),
+            ("p", r"Nog twee: de oppervlakte onder \(y = 2\) tussen \(x = 0\) en \(x = 5\) is "
+                  r"<strong>\(10\)</strong>. Lopen twee grafieken evenwijdig met de ene overal "
+                  r"\(3\) hoger, dan is de oppervlakte over een interval van lengte \(4\) gelijk "
+                  r"aan <strong>\(12\)</strong>."),
         ]),
         dict(kop="Omwentelingslichaam en booglengte", blokken=[
-            ("p", "<strong>Bij een omwentelingslichaam om de x-as neem je pi maal de integraal van f tot "
-                  "de tweede macht.</strong> <strong>Je kwadrateert de functie dus onder het "
-                  "integraalteken</strong>: elke dunne schijf is een cirkel met straal f van x, en in de "
-                  "oppervlakte van een cirkel staat de straal in het kwadraat. <strong>De inhoud hangt af "
-                  "van de as waarrond je de kromme laat draaien</strong>: rond de x-as of rond de y-as "
-                  "geeft een heel ander lichaam."),
-            ("p", "<strong>In de formule voor de booglengte staat onder de wortel: één plus de afgeleide in "
-                  "het kwadraat.</strong> Ze volgt uit Pythagoras op een heel klein stukje kromme, met een "
-                  "horizontale dx en een verticale dy."),
+            ("p", r"<strong>Bij een omwentelingslichaam om de x-as is "
+                  r"\(V = \pi \displaystyle\int_{a}^{b} f(x)^{2}\,dx\).</strong> <strong>Je "
+                  r"kwadrateert de functie dus onder het integraalteken</strong>, tot de tweede "
+                  r"macht: elke dunne schijf "
+                  r"is een cirkel met straal \(f(x)\), en de oppervlakte van een cirkel is "
+                  r"\(\pi r^{2}\). <strong>De inhoud hangt af van de as waarrond je de kromme laat "
+                  r"draaien</strong>: rond de x-as of rond de y-as geeft een heel ander lichaam."),
+            ("p", r"<strong>De booglengte is "
+                  r"\(L = \displaystyle\int_{a}^{b} \sqrt{1 + f'(x)^{2}}\,dx\)</strong>: onder de "
+                  r"wortel staat <strong>één plus de afgeleide in het kwadraat</strong>. Ze volgt "
+                  r"uit Pythagoras op een heel klein stukje kromme, met een horizontale \(dx\) en "
+                  r"een verticale \(dy\)."),
         ]),
         dict(kop="Integralen met een betekenis", blokken=[
             ("p", tabel(["Wat je integreert", "Wat je krijgt", "Let op"], [
-                ["de snelheid over de tijd", "de verplaatsing", "niet de afgelegde weg, want achteruit telt negatief"],
-                ["de versnelling over de tijd", "de verandering van de snelheid", "één stap terug in dezelfde ketting"],
-                ["het debiet van een kraan over de tijd", "de totale hoeveelheid water", "liter per seconde maal seconden geeft liter"],
-                ["de marginale kost over een aantal stuks", "de toename van de totale kost", "de marginale kost is de afgeleide van de totale"],
+                ["de snelheid over de tijd", "de verplaatsing",
+                 "niet de afgelegde weg, want achteruit telt negatief"],
+                ["de versnelling over de tijd", "de verandering van de snelheid",
+                 "één stap terug in dezelfde ketting"],
+                ["het debiet van een kraan over de tijd", "de totale hoeveelheid water",
+                 "liter per seconde maal seconden geeft liter"],
+                ["de marginale kost over een aantal stuks", "de toename van de totale kost",
+                 "de marginale kost is de afgeleide van de totale"],
             ])),
-            ("p", "<strong>De eenheden rekenen mee</strong>: integreer je een snelheid in meter per seconde "
-                  "over seconden, dan is het resultaat in <strong>meter</strong>. Die controle vangt veel "
-                  "fouten."),
-            ("kader", "<strong>ICT gebruik je bij een integraal als de opgave dat met het icoon aangeeft, "
-                      "en ook dan toon je je werkwijze.</strong> Functioneel gebruik betekent dat ICT het "
-                      "rekenwerk ondersteunt, terwijl je redenering en je tussenstappen op papier staan."),
+            ("p", r"Integreer je de snelheid van een wagen over een tijdsinterval, dan krijg je "
+                  r"de verplaatsing. <strong>En de eenheid rekent mee</strong>: een snelheid in "
+                  r"\(\text{m/s}\) maal seconden geeft \(\text{m}\), want "
+                  r"\(\text{m/s} \cdot \text{s} = \text{m}\). Die controle vangt veel fouten."),
+            ("kader", r"<strong>Op het examen gebruik je ICT bij een integraal als de opgave dat met het icoon "
+                      r"aangeeft, en ook dan toon je je werkwijze.</strong> Functioneel gebruik "
+                      r"betekent dat ICT het rekenwerk ondersteunt, terwijl je redenering en je "
+                      r"tussenstappen op papier staan."),
         ]),
     ],
     onthoud=[
-        "Een Riemannsom is de som van de oppervlakten van rechthoekjes onder een grafiek.",
-        "De ondersom is het kleinst en de bovensom het grootst; de echte oppervlakte ligt ertussen.",
-        "De bepaalde integraal geeft de georiënteerde oppervlakte: onder de x-as telt ze negatief mee.",
-        "Verwissel je de twee grenzen, dan wisselt het resultaat van teken.",
-        "De integraal van a tot b is de primitieve in b min de primitieve in a.",
-        "De oppervlakte tussen twee krommen is de integraal van de bovenste functie min de onderste.",
-        "Omwentelingslichaam om de x-as: pi maal de integraal van f tot de tweede macht.",
-        "In de formule voor de booglengte staat onder de wortel één plus de afgeleide in het kwadraat.",
-        "De integraal van de snelheid over de tijd is de verplaatsing, niet de afgelegde weg.",
+        r"Een Riemannsom is \(\sum f(x_{i})\,\Delta x\): rechthoekjes onder een grafiek.",
+        r"De ondersom is het kleinst en de bovensom het grootst; de echte oppervlakte ligt ertussen.",
+        r"De bepaalde integraal geeft de georiënteerde oppervlakte: onder de x-as telt ze negatief mee.",
+        r"\(\int_{b}^{a} f(x)\,dx = -\int_{a}^{b} f(x)\,dx\) en \(\int_{a}^{a} f(x)\,dx = 0\).",
+        r"\(\int_{a}^{b} f(x)\,dx = \left[F(x)\right]_{a}^{b} = F(b) - F(a)\).",
+        r"Oppervlakte tussen twee krommen: \(\int_{a}^{b}\left(\text{boven} - \text{onder}\right)dx\).",
+        r"Omwentelingslichaam: \(V = \pi \int_{a}^{b} f(x)^{2}dx\). Booglengte: \(L = \int_{a}^{b} \sqrt{1 + f'(x)^{2}}\,dx\).",
+        r"De integraal van de snelheid over de tijd is de verplaatsing, niet de afgelegde weg.",
     ],
 )
 

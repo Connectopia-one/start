@@ -19,7 +19,7 @@ krijgen. Het achtervoegsel houdt ze uit elkaar van wiskunde gevorderd van
 
 Wiskunde staat hier in echte notatie, tussen \( en \), net als in de vragen en
 in de leerbundels. Zie oefenplatform/lib/wiskunde.ts. De omzetting gebeurt
-thema per thema; omgezet zijn thema 1 tot 11.
+thema per thema; omgezet zijn thema 1 tot 12.
 """
 import sys, pathlib
 sys.path.insert(0, str(pathlib.Path(__file__).parent))
@@ -987,40 +987,99 @@ OEFENBUNDELS["oefenbundel-de-bepaalde-integraal-en-haar-toepassingen-beyond"] = 
         dict(kop="Riemannsommen",
              opdracht="Vul in. Denk aan de laagste en de hoogste functiewaarde per stukje.",
              oefeningen=[
-                 ("tabel", ["Som", "Welke functiewaarde per stukje", "Groter of kleiner dan de oppervlakte"],
+                 ("tabel", ["Som", "Welke functiewaarde per stukje", "Groter of kleiner"],
                   [["ondersom", None, None], ["bovensom", None, None]],
                   "de laagste, dus kleiner; de hoogste, dus groter", "200px"),
-                 ("open", "Leg uit waarom de limiet van Riemannsommen een exacte oppervlakte geeft.",
-                  "De werkelijke oppervlakte ligt altijd tussen de onder- en de bovensom. Kruipen die twee naar hetzelfde getal, dan blijft er maar één mogelijkheid over.", 4),
-                 ("waar", "Hoe meer deelintervallen je neemt, hoe beter de benadering.", True),
+                 ("kort", r"Waarmee komt de \(dx\) overeen bij de rechthoekjes?",
+                  "met hun breedte", WW),
              ]),
-        dict(kop="Georiënteerde oppervlakte",
-             opdracht="Bereken de integraal en zeg daarna wat de werkelijke oppervlakte is.",
+        dict(kop="Snel uitrekenen",
+             opdracht="Zoek een primitieve, vul de grenzen in en trek af.",
              oefeningen=[
-                 ("open", "Bereken de integraal van min één tot één van x tot de derde. Is dat ook de werkelijke oppervlakte? Leg uit.",
-                  "De integraal is nul: het stuk links van de as is negatief en heft het stuk rechts op. De werkelijke oppervlakte is niet nul; daarvoor splits je in nul en telt je de twee stukken positief op.", 5),
-                 ("waar", "Een werkelijke oppervlakte kan negatief zijn.", False),
-                 ("kort", "Wat gebeurt er met de uitkomst als je de twee grenzen van een bepaalde integraal verwisselt?", "ze wisselt van teken", WL),
+                 ("rij", [(r"\(\int_{0}^{4} 3\,dx\)", r"\(12\)"),
+                          (r"\(\int_{1}^{3} x\,dx\)", r"\(4\)"),
+                          (r"\(\int_{0}^{2} x^{3}\,dx\)", r"\(4\)"),
+                          (r"\(\int_{1}^{4} \dfrac{1}{\sqrt{x}}\,dx\)", r"\(2\)"),
+                          (r"\(\int_{0}^{\pi/2} \sin x\,dx\)", r"\(1\)")],
+                  "Reken uit.", WW),
+             ]),
+        dict(kop="Met de hoofdstelling",
+             opdracht=r"Schrijf eerst \(\left[F(x)\right]_{a}^{b}\) op, en vul dan pas in.",
+             oefeningen=[
+                 ("kort", r"\(\int_{0}^{1} e^{2x}\,dx\)", r"\(\dfrac{e^{2} - 1}{2}\)", WW),
+                 ("kort", r"\(\int_{1}^{e} \dfrac{\ln x}{x}\,dx\)", r"\(\dfrac{1}{2}\)", WW),
+                 ("kort", r"\(\int_{-1}^{1} x^{2}\,dx\)", r"\(\dfrac{2}{3}\)", WW),
+                 ("kort", r"\(\int_{0}^{1} \dfrac{2x}{x^{2} + 1}\,dx\)", r"\(\ln 2\)", WW),
+             ]),
+        dict(kop="Georiënteerd of werkelijk",
+             opdracht="Reken de integraal uit, en kijk daarna of dat ook de werkelijke oppervlakte is.",
+             oefeningen=[
+                 ("kort", r"\(\int_{-1}^{1} x^{3}\,dx\)", r"\(0\)", W),
+                 ("kort", r"\(\int_{0}^{2\pi} \sin x\,dx\)", r"\(0\)", W),
+                 ("kort", r"De werkelijke oppervlakte tussen \(y = x^{3}\) en de x-as op \([-1,\ 1]\)",
+                  r"\(2 \cdot \tfrac{1}{4} = \tfrac{1}{2}\)", WW),
              ]),
         dict(kop="Oppervlakte tussen twee krommen",
              opdracht="Maak eerst een schets, zoek de snijpunten, en integreer de bovenste min de onderste.",
              oefeningen=[
-                 ("open", "Bereken de oppervlakte tussen y is twee x en y is x kwadraat, tussen hun twee snijpunten.",
-                  "De snijpunten liggen in nul en twee. Daar ligt de rechte boven. De integraal van twee x min x kwadraat van nul tot twee geeft vier min acht derden, dus vier derden.", 6),
-                 ("open", "Waarom splits je de integraal als twee krommen elkaar midden in het interval kruisen?",
-                  "Na het snijpunt wordt de andere kromme de bovenste, dus het verschil wisselt van teken. Zonder splitsen heffen de stukken elkaar gedeeltelijk op.", 3),
+                 ("kort", r"Tussen \(y = 2x\) en \(y = x^{2}\), tussen hun snijpunten",
+                  r"snijpunten \(0\) en \(2\); \(4 - \tfrac{8}{3} = \tfrac{4}{3}\)", WL),
+                 ("kort", r"Tussen \(y = x\) en \(y = x^{3}\) op \([0,\ 1]\)",
+                  r"\(\tfrac{1}{2} - \tfrac{1}{4} = \tfrac{1}{4}\)", WL),
+             ]),
+        dict(kop="Omwenteling en booglengte",
+             opdracht=r"Gebruik \(V = \pi\int_{a}^{b} f(x)^{2}dx\) en "
+                      r"\(L = \int_{a}^{b}\sqrt{1 + f'(x)^{2}}\,dx\).",
+             oefeningen=[
+                 ("kort", r"Inhoud als \(y = x\) op \([0,\ 1]\) om de x-as draait",
+                  r"\(\pi\int_{0}^{1} x^{2}dx = \dfrac{\pi}{3}\)", WL),
+                 ("kort", r"Inhoud als \(y = 2\) op \([0,\ 3]\) om de x-as draait",
+                  r"\(\pi\int_{0}^{3} 4\,dx = 12\pi\)", WL),
+                 ("kort", r"Schrijf de booglengte-integraal op van \(y = x^{2}\) op \([0,\ 1]\)",
+                  r"\(\int_{0}^{1}\sqrt{1 + 4x^{2}}\,dx\)", WL),
              ]),
         dict(kop="Toepassingen",
              opdracht="Schrijf telkens op wat je integreert, en controleer de eenheid van je antwoord.",
              oefeningen=[
                  ("tabel", ["Wat je integreert", "Wat je krijgt"],
                   [["de snelheid over de tijd", None], ["de versnelling over de tijd", None],
-                   ["het debiet van een kraan over de tijd", None], ["de marginale kost over een aantal stuks", None]],
-                  "de verplaatsing; de verandering van de snelheid; de totale hoeveelheid water; de toename van de totale kost",
-                  "280px"),
-                 ("kort", "Welke formule gebruik je voor de inhoud van een omwentelingslichaam om de x-as?", "pi maal de integraal van f in het kwadraat", WL),
-                 ("open", "Een wagen rijdt eerst vooruit en daarna een stuk achteruit. Geeft de integraal van zijn snelheid de afgelegde weg? Leg uit.",
-                  "Nee, de verplaatsing. Achteruit is de snelheid negatief, en die trekt de integraal af. Voor de afgelegde weg neem je de stukken positief.", 4),
+                   ["het debiet van een kraan over de tijd", None],
+                   ["de marginale kost over een aantal stuks", None]],
+                  "de verplaatsing; de verandering van de snelheid; de totale hoeveelheid water; "
+                  "de toename van de totale kost", "280px"),
+                 ("kort", r"Een kraan geeft \(0{,}5\) liter per seconde, \(40\) s lang. Hoeveel liter?",
+                  r"\(20\) l", WW),
+                 ("kort", r"\(v(t) = 3t\) m/s. Welke verplaatsing tussen \(t = 0\) en \(t = 4\) s?",
+                  r"\(\left[1{,}5\,t^{2}\right]_{0}^{4} = 24\) m", WW),
+             ]),
+        dict(kop="Waar of niet waar",
+             opdracht="Zet een kruisje, en verbeter in gedachten wat niet klopt.",
+             oefeningen=[
+                 ("waar", "Een ondersom is nooit groter dan de werkelijke oppervlakte.", True),
+                 ("waar", "Hoe meer deelintervallen je neemt, hoe beter de benadering.", True),
+                 ("waar", "Een werkelijke oppervlakte kan negatief zijn.", False),
+                 ("waar", r"\(\int_{b}^{a} f(x)\,dx = -\int_{a}^{b} f(x)\,dx\).", True),
+                 ("waar", "De hoofdstelling geldt ook voor een functie met een sprong.", False),
+                 ("waar", "De bovengrens van een integraal is de grootste functiewaarde.", False),
+                 ("waar", "De inhoud van een omwentelingslichaam hangt af van de as waarrond je draait.", True),
+                 ("waar", r"\(\int_{a}^{a} f(x)\,dx = f(a)\).", False),
+             ]),
+        dict(kop="Uitleggen",
+             opdracht="Schrijf in volle zinnen, en noem de regel of de voorwaarde die je gebruikt.",
+             oefeningen=[
+                 ("open", "Leg uit waarom de limiet van Riemannsommen een exacte oppervlakte geeft.",
+                  "De werkelijke oppervlakte ligt altijd tussen de onder- en de bovensom. Kruipen "
+                  "die twee naar hetzelfde getal, dan blijft er maar één mogelijkheid over.", 3),
+                 ("open", r"Een wagen rijdt eerst vooruit en daarna een stuk achteruit. Geeft "
+                          r"\(\int v\,dt\) de afgelegde weg? Leg uit.",
+                  "Nee, de verplaatsing. Achteruit is de snelheid negatief, en die trekt de "
+                  "integraal af. Voor de afgelegde weg neem je de stukken positief.", 3),
+                 ("open", "Waarom maak je eerst een schets bij een oppervlakte tussen twee krommen?",
+                  "Om te zien welke kromme boven ligt en waar ze elkaar snijden. Zonder schets zet "
+                  "je de twee in de verkeerde volgorde en krijg je een negatieve uitkomst.", 3),
+                 ("open", "Leg uit waarom je bij een omwentelingslichaam de functie kwadrateert.",
+                  r"Elke dunne schijf is een cirkel met straal \(f(x)\), en de oppervlakte van een "
+                  r"cirkel is \(\pi r^{2}\). Die straal staat dus in het kwadraat.", 3),
              ]),
     ],
 )
