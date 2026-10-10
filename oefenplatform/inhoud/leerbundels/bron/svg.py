@@ -9504,3 +9504,57 @@ def graafmatrix(breedte=470):
         d.append(_tekst(mx - 2, my + 5 + (i + 0.65) * cel, naam, 10, AMBER, "end", True))
     d.append(s)
     return _svg(breedte, h, "\n".join(d))
+
+
+def cayleytabel(breedte=470):
+    """De Cayley-tabel van de vier draaiingen van een vierkant.
+
+    De rij en de kolom van het neutraal element zijn gemarkeerd, en de
+    spiegelas van linksboven naar rechtsonder staat er in stippellijn bij.
+    """
+    namen = ["e", "r", "r²", "r³"]
+    n = len(namen)
+    cel_b, cel_h = 78, 36
+    tabel_b = (n + 1) * cel_b
+    ox = (breedte - tabel_b) / 2
+    oy = 30
+    h = oy + (n + 1) * cel_h + 10
+    d = []
+
+    # de rij en de kolom van het neutraal element
+    d.append(f'<rect x="{ox + cel_b}" y="{oy + cel_h}" width="{cel_b}" '
+             f'height="{n * cel_h}" fill="{FOREST}" fill-opacity="0.13"/>')
+    d.append(f'<rect x="{ox + cel_b}" y="{oy + cel_h}" width="{n * cel_b}" '
+             f'height="{cel_h}" fill="{FOREST}" fill-opacity="0.13"/>')
+
+    for i in range(n):
+        d.append(f'<rect x="{ox + (i + 1) * cel_b}" y="{oy + (i + 1) * cel_h}" '
+                 f'width="{cel_b}" height="{cel_h}" fill="{AMBER}" fill-opacity="0.15"/>')
+
+    # kopregel en kopkolom
+    d.append(f'<rect x="{ox}" y="{oy}" width="{tabel_b}" height="{cel_h}" '
+             f'fill="{DARK}" fill-opacity="0.08"/>')
+    d.append(f'<rect x="{ox}" y="{oy}" width="{cel_b}" height="{(n + 1) * cel_h}" '
+             f'fill="{DARK}" fill-opacity="0.08"/>')
+
+    for i in range(n + 2):
+        y = oy + i * cel_h
+        d.append(f'<line x1="{ox}" y1="{y}" x2="{ox + tabel_b}" y2="{y}" '
+                 f'stroke="{BORDER}" stroke-width="1.2"/>')
+        x = ox + i * cel_b
+        if i <= n + 1:
+            d.append(f'<line x1="{x}" y1="{oy}" x2="{x}" y2="{oy + (n + 1) * cel_h}" '
+                     f'stroke="{BORDER}" stroke-width="1.2"/>')
+
+    d.append(_tekst(ox + cel_b / 2, oy + cel_h * 0.66, "∗", 15, DIM, "middle", True))
+    for j, naam in enumerate(namen):
+        d.append(_tekst(ox + (j + 1.5) * cel_b, oy + cel_h * 0.66, naam, 12.5, DARK, "middle", True))
+        d.append(_tekst(ox + cel_b / 2, oy + (j + 1.66) * cel_h, naam, 12.5, DARK, "middle", True))
+    for i in range(n):
+        for j in range(n):
+            waarde = namen[(i + j) % n]
+            kleur = AMBER if i == j else INK
+            d.append(_tekst(ox + (j + 1.5) * cel_b, oy + (i + 1.66) * cel_h,
+                            waarde, 12.5, kleur, "middle", i == j))
+
+    return _svg(breedte, h, "\n".join(d))

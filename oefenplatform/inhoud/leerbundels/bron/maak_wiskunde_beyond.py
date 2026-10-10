@@ -26,7 +26,7 @@ alles nog in woorden stond en had gelijk: een leerling van de derde graad moet
 
 De omzetting gebeurt thema per thema, samen met de vragen van dat thema, zodat
 een kind in de bundel dezelfde schrijfwijze terugvindt als in de oefening.
-Omgezet: thema 1 tot 18. De andere thema's staan nog in woorden.
+Omgezet: thema 1 tot 19. De andere thema's staan nog in woorden.
 """
 import sys, pathlib
 sys.path.insert(0, str(pathlib.Path(__file__).parent))
@@ -2424,97 +2424,126 @@ BUNDELS["algebraische-structuren-en-groepen-beyond"] = dict(
     onder="De vier eigenschappen van een groep, de Cayley-tabel, en de uniciteit van het neutraal en het invers element.",
     secties=[
         dict(kop="Wat een groep is", blokken=[
-            ("p", "<strong>Een verzameling met een bewerking is een groep als ze aan vier eigenschappen "
-                  "voldoet</strong>: de bewerking is <strong>intern</strong> en <strong>associatief</strong>, "
-                  "er is een <strong>neutraal element</strong>, en elk element heeft een <strong>invers "
-                  "element</strong>."),
-            ("p", tabel(["Eigenschap", "Wat ze zegt", "Voorbeeld"], [
-                ["intern", "het resultaat ligt altijd weer in de verzameling", "de optelling in de gehele getallen wel, de deling niet"],
-                ["associatief", "de haakjes mogen verschuiven zonder gevolg", "a met (b met c) geeft hetzelfde als (a met b) met c"],
-                ["neutraal element", "het laat elk ander element ongewijzigd", "nul bij de optelling, één bij de vermenigvuldiging"],
-                ["invers element", "samen met a geeft het het neutraal element", "het tegengestelde, of het omgekeerde"],
+            ("p", r"We schrijven de bewerking \(\ast\) en de verzameling \(G\), samen \((G, \ast)\). Het "
+                  r"neutraal element noemen we \(e\) en het invers element van \(a\) schrijven we "
+                  r"\(a^{-1}\). <strong>Een verzameling met een bewerking is een groep als ze aan vier "
+                  r"eigenschappen voldoet</strong>: de bewerking is <strong>intern</strong> en "
+                  r"<strong>associatief</strong>, er is een <strong>neutraal element</strong>, en elk "
+                  r"element heeft een <strong>invers element</strong>."),
+            ("p", tabel(["Eigenschap", "In symbolen", "Voorbeeld"], [
+                ["intern", r"\(a \ast b \in G\)", r"de optelling in \(\mathbb{Z}\) wel, de deling niet"],
+                ["associatief", r"\(a \ast (b \ast c) = (a \ast b) \ast c\)", "de haakjes mogen verschuiven"],
+                ["neutraal element", r"\(a \ast e = e \ast a = a\)", r"\(0\) bij de optelling, \(1\) bij de vermenigvuldiging"],
+                ["invers element", r"\(a \ast a^{-1} = a^{-1} \ast a = e\)", "het tegengestelde, of het omgekeerde"],
             ])),
-            ("p", "<strong>Een groep heet commutatief als de volgorde van de twee elementen niets "
-                  "uitmaakt.</strong> Dat is een vijfde eigenschap die erbij komt, dus <strong>niet elke "
-                  "groep is commutatief</strong>: de vermenigvuldiging van matrices bijvoorbeeld niet. "
-                  "<strong>Een eindige groep is een groep met een eindig aantal elementen</strong>, maar "
-                  "<strong>een groep hoeft niet eindig te zijn</strong>: de gehele getallen met de "
-                  "optelling vormen een oneindige groep."),
-            ("p", "<strong>Om aan te tonen dat iets een groep is, ga je de vier eigenschappen één voor één "
-                  "na.</strong> Eén tegenvoorbeeld bij één eigenschap volstaat om te besluiten dat het "
-                  "geen groep is."),
         ]),
-        dict(kop="Voorbeelden en tegenvoorbeelden", blokken=[
-            ("p", "<strong>De gehele getallen vormen met de optelling een groep</strong>: de optelling is "
-                  "intern en associatief, <strong>nul is het neutraal element</strong> en elk geheel getal "
-                  "heeft zijn tegengestelde. Het <strong>invers element van zeven is min zeven</strong>."),
-            ("p", "<strong>De natuurlijke getallen vormen met de optelling geen groep</strong>: er zijn "
-                  "geen negatieve getallen, dus drie heeft geen tegengestelde binnen de verzameling. "
-                  "<strong>De gehele getallen vormen met de vermenigvuldiging evenmin een groep</strong>: "
-                  "het invers van drie zou een derde zijn, en dat is geen geheel getal. Alleen één en min "
-                  "één hebben er een."),
-            ("p", "<strong>De reële getallen zonder nul vormen met de vermenigvuldiging wél een "
-                  "groep</strong>, met <strong>één</strong> als neutraal element. Nul moet eruit, want "
-                  "<strong>nul heeft geen invers element voor de vermenigvuldiging</strong>: er bestaat "
-                  "geen getal dat maal nul één geeft."),
-            ("p", "<strong>De matrices van orde twee vormen onder de optelling een groep, en ze is "
-                  "bovendien commutatief</strong>: de nulmatrix is het neutraal element en elke matrix "
-                  "heeft haar tegengestelde. Bij de vermenigvuldiging lukt het niet."),
-            ("weetje", "Een voorbeeld uit de meetkunde: de <strong>vier draaiingen die een vierkant op "
-                       "zichzelf afbeelden</strong>, met na elkaar uitvoeren als bewerking, vormen een "
-                       "<strong>eindige commutatieve groep</strong>. De draaiing over nul graden is het "
-                       "neutraal element en elke draaiing heeft haar tegendraaiing."),
+        dict(kop="Commutatief, eindig of oneindig", blokken=[
+            ("p", r"<strong>Een groep heet commutatief als \(a \ast b = b \ast a\) voor alle \(a\) en "
+                  r"\(b\).</strong> Dat is een vijfde eigenschap die erbij komt, dus <strong>niet elke "
+                  r"groep is commutatief</strong>: de vermenigvuldiging van matrices bijvoorbeeld niet. "
+                  r"<strong>Een eindige groep is een groep met een eindig aantal elementen</strong>, maar "
+                  r"<strong>een groep hoeft niet eindig te zijn</strong>: \((\mathbb{Z}, +)\) is een "
+                  r"oneindige groep."),
+            ("p", r"<strong>Om aan te tonen dat iets een groep is, ga je de vier eigenschappen één voor "
+                  r"één na.</strong> Eén tegenvoorbeeld bij één eigenschap volstaat om te besluiten dat "
+                  r"het geen groep is."),
+        ]),
+        dict(kop="Groep of geen groep", blokken=[
+            ("p", tabel(["Verzameling met bewerking", "Groep?", "Waarom"], [
+                [r"\((\mathbb{Z}, +)\)", "ja", r"\(e = 0\), en elk getal heeft zijn tegengestelde"],
+                [r"\((\mathbb{N}, +)\)", "nee", r"\(3\) heeft geen tegengestelde in \(\mathbb{N}\)"],
+                [r"\((\mathbb{Z}, \cdot)\)", "nee", r"het invers van \(3\) zou \(\tfrac{1}{3}\) zijn"],
+                [r"\((\mathbb{R}_{0}, \cdot)\)", "ja", r"\(e = 1\), en elk getal behalve \(0\) heeft zijn omgekeerde"],
+            ])),
+            ("p", r"<strong>\((\mathbb{Z}, +)\) is een groep</strong>: de optelling is intern en "
+                  r"associatief, <strong>\(0\) is het neutraal element</strong> en elk geheel getal heeft "
+                  r"zijn tegengestelde. Het <strong>invers element van zeven is \(-7\)</strong>, want "
+                  r"\(7 + (-7) = 0\)."),
+        ]),
+        dict(kop="Waarom nul eruit moet", blokken=[
+            ("p", r"<strong>\((\mathbb{N}, +)\) is geen groep</strong>: er zijn geen negatieve getallen, "
+                  r"dus \(3\) heeft geen tegengestelde binnen de verzameling. <strong>\((\mathbb{Z}, "
+                  r"\cdot)\) is evenmin een groep</strong>: het invers van \(3\) zou \(\tfrac{1}{3}\) zijn, "
+                  r"en dat is geen geheel getal. De meeste gehele getallen hebben daar dus geen invers "
+                  r"element; alleen \(1\) en \(-1\) hebben er een."),
+            ("p", r"<strong>\((\mathbb{R}_{0}, \cdot)\) is wél een groep</strong>, met \(e = 1\). Hierin is "
+                  r"\(\mathbb{R}_{0}\) de verzameling van de reële getallen zonder nul. Nul moet eruit, "
+                  r"want <strong>nul heeft geen invers element voor de vermenigvuldiging</strong>: er "
+                  r"bestaat geen \(x\) met \(0 \cdot x = 1\)."),
+            ("p", r"<strong>De matrices van orde \(2\) vormen onder de optelling een groep, en ze is "
+                  r"bovendien commutatief</strong>: de nulmatrix \(O\) is het neutraal element en elke "
+                  r"matrix heeft haar tegengestelde. Bij de vermenigvuldiging lukt het niet, want een "
+                  r"matrix met \(\det A = 0\) heeft geen inverse."),
         ]),
         dict(kop="De Cayley-tabel", blokken=[
-            ("p", "<strong>In een Cayley-tabel staat het resultaat van de bewerking voor elk paar "
-                  "elementen</strong>: rij voor het eerste element, kolom voor het tweede, en in het vakje "
-                  "het resultaat. Een groep met <strong>vijf elementen</strong> geeft dus een tabel met "
-                  "<strong>vijfentwintig</strong> vakjes, en een groep met zes elementen heeft "
-                  "<strong>zes</strong> rijen. <strong>Van een oneindige groep kan je de volledige tabel "
-                  "niet opstellen</strong>, want ze zou oneindig veel rijen hebben."),
-            ("p", "Uit de tabel lees je de eigenschappen af. <strong>Is de tabel symmetrisch om de "
-                  "hoofddiagonaal, dan is de groep commutatief.</strong> <strong>Het neutraal element "
-                  "herken je doordat zijn rij en zijn kolom gewoon de kopregel herhalen.</strong> <strong>Het "
-                  "invers element van a vind je door in de rij van a te zoeken waar het neutraal element "
-                  "staat</strong>; de kolom waarin dat vakje staat, wijst het aan. En <strong>is elk "
-                  "element zijn eigen invers, dan staat op de hoofddiagonaal overal het neutraal "
-                  "element</strong>."),
-            ("p", "<strong>In de Cayley-tabel van een groep komt elk element precies één keer voor in elke "
-                  "rij.</strong> Zou een element twee keer voorkomen, dan had je twee oplossingen voor "
-                  "dezelfde vergelijking, en dat kan niet in een groep."),
+            ("fig", svg.cayleytabel(),
+             "De vier draaiingen van een vierkant, met \\(r\\) voor de draaiing over \\(90^{\\circ}\\). "
+             "De groene rij en kolom zijn die van \\(e\\); de oranje vakjes op de diagonaal zijn "
+             "\\(a \\ast a\\)."),
+            ("weetje", r"De <strong>vier draaiingen die een vierkant op zichzelf afbeelden</strong>, "
+                       r"met na elkaar uitvoeren als bewerking, vormen een <strong>eindige commutatieve "
+                       r"groep</strong>. De draaiing over \(0^{\circ}\) is het neutraal element en elke "
+                       r"draaiing heeft haar tegendraaiing."),
+            ("p", r"<strong>In een Cayley-tabel staat het resultaat \(a \ast b\) voor elk paar "
+                  r"elementen</strong>: rij voor \(a\), kolom voor \(b\), en in het vakje het resultaat. "
+                  r"Een groep met <strong>vijf elementen</strong> geeft dus een tabel met \(5 \cdot 5 = "
+                  r"\mathbf{25}\) vakjes, vijfentwintig dus, de kopregel en de kopkolom niet meegerekend. "
+                  r"Een groep met zes elementen heeft <strong>zes</strong> rijen. "
+                  r"<strong>Van een oneindige groep kan je de volledige tabel niet opstellen</strong>, "
+                  r"want ze zou oneindig veel rijen hebben."),
         ]),
-        dict(kop="Uniciteit en rekenen in een groep", blokken=[
-            ("p", "<strong>Een groep heeft juist één neutraal element</strong> en <strong>elk element heeft "
-                  "juist één invers element</strong>. Dat heet de <strong>uniciteit</strong>: allebei zijn ze "
-                  "<strong>uniek</strong>, en dat is te bewijzen. Let op wat je precies bewijst: <strong>dat er één bestaat, is een van de vier "
-                  "eigenschappen; dat het er maar één is, moet je aantonen.</strong> <strong>Het bewijs "
-                  "begint door te veronderstellen dat er twee neutrale elementen zijn</strong>; daarna "
-                  "bewerk je ze met elkaar en toont elk van de twee aan dat het resultaat de andere is."),
-            ("p", "Twee rekenregels voor inversen. <strong>Het invers van het invers van a is "
-                  "a</strong>: twee keer omkeren brengt je terug bij het begin. En bij een product "
-                  "<strong>keert de volgorde om</strong>: het invers van a bewerkt met b is eerst het "
-                  "invers van b en dan dat van a, <strong>niet andersom</strong>. <strong>Dat komt omdat "
-                  "je het binnenste paar eerst moet kunnen wegwerken</strong>: zet je ze omgekeerd naast "
-                  "elkaar, dan valt eerst b weg en pas daarna a. Bij een commutatieve groep maakt dat "
-                  "verschil natuurlijk niets uit."),
-            ("p", "<strong>In een groep mag je links en rechts van het gelijkheidsteken hetzelfde element "
-                  "wegwerken</strong> door beide leden met zijn invers te bewerken. Dat is het hele idee "
-                  "achter het oplossen van vergelijkingen in een groep, en <strong>de kant volgt a</strong>: "
-                  "bij <strong>a bewerkt met x is b</strong> bewerk je <strong>links</strong> met het "
-                  "invers van a, bij <strong>x bewerkt met a is b</strong> bewerk je <strong>rechts</strong>. "
-                  "In een groep die niet commutatief is, is die kant belangrijk."),
+        dict(kop="Wat je uit de tabel afleest", blokken=[
+            ("p", r"<strong>Is de tabel symmetrisch om de hoofddiagonaal, dan is de groep "
+                  r"commutatief.</strong> <strong>Het neutraal element herken je doordat zijn rij en zijn "
+                  r"kolom gewoon de kopregel herhalen</strong>, want \(e \ast b = b\). <strong>Het invers "
+                  r"element van \(a\) vind je door in de rij van \(a\) te zoeken waar \(e\) staat</strong>; "
+                  r"de kolom waarin dat vakje staat, wijst \(a^{-1}\) aan. En <strong>geldt \(a \ast a = e\) "
+                  r"voor elk element, dan staat op de hoofddiagonaal overal \(e\)</strong>: elk element is "
+                  r"dan zijn eigen invers."),
+            ("kader", r"<strong>In de Cayley-tabel van een groep komt elk element precies één keer voor in "
+                      r"elke rij.</strong> Zou een element twee keer voorkomen, dan had \(a \ast x = b\) "
+                      r"twee oplossingen, en dat kan niet in een groep."),
+        ]),
+        dict(kop="Uniciteit", blokken=[
+            ("p", r"<strong>Een groep heeft juist één neutraal element</strong> en <strong>elk element "
+                  r"heeft juist één invers element</strong>. Dat heet de <strong>uniciteit</strong>: "
+                  r"allebei zijn ze <strong>uniek</strong>, en dat is te bewijzen. Let op wat je precies "
+                  r"bewijst: <strong>dat er één bestaat, is een van de vier eigenschappen; dat het er maar "
+                  r"één is, moet je aantonen.</strong>"),
+            ("p", r"<strong>Het bewijs begint door te veronderstellen dat er twee neutrale elementen \(e\) "
+                  r"en \(e'\) zijn.</strong> Bereken dan \(e \ast e'\) op twee manieren. Omdat \(e'\) "
+                  r"neutraal is, geldt \(e \ast e' = e\). Omdat \(e\) neutraal is, geldt \(e \ast e' = "
+                  r"e'\). Dus \(e = e'\), en er was er maar één."),
+        ]),
+        dict(kop="Twee rekenregels voor inversen", blokken=[
+            ("p", r"<strong>Het invers van het invers van \(a\) is \(a\)</strong>: \((a^{-1})^{-1} = a\), "
+                  r"want twee keer omkeren brengt je terug bij het begin."),
+            ("p", r"Bij een product <strong>keert de volgorde om</strong>: \((a \ast b)^{-1} = b^{-1} \ast "
+                  r"a^{-1}\), <strong>niet andersom</strong>. <strong>Dat komt omdat je het binnenste paar "
+                  r"eerst moet kunnen wegwerken</strong>: in \(a \ast b \ast b^{-1} \ast a^{-1}\) valt "
+                  r"eerst \(b \ast b^{-1} = e\) weg en pas daarna \(a \ast a^{-1} = e\). Bij een "
+                  r"commutatieve groep maakt dat verschil natuurlijk niets uit."),
+        ]),
+        dict(kop="Vergelijkingen oplossen in een groep", blokken=[
+            ("p", r"<strong>Uit \(a \ast x = a \ast y\) volgt \(x = y\)</strong>: je bewerkt beide leden "
+                  r"links met \(a^{-1}\) en werkt zo hetzelfde element aan allebei de kanten weg. Dat is "
+                  r"het hele idee achter het oplossen van vergelijkingen in een groep."),
+            ("kader", r"<strong>De kant volgt \(a\).</strong> Bij \(a \ast x = b\) bewerk je "
+                      r"<strong>links</strong> met \(a^{-1}\) en vind je \(x = a^{-1} \ast b\). Bij \(x "
+                      r"\ast a = b\) bewerk je <strong>rechts</strong> en vind je \(x = b \ast a^{-1}\). In "
+                      r"een groep die niet commutatief is, is die kant belangrijk."),
         ]),
     ],
     onthoud=[
-        "Een groep: intern, associatief, een neutraal element, en voor elk element een invers element.",
-        "Niet elke groep is commutatief: de vermenigvuldiging van matrices bijvoorbeeld niet.",
-        "Eén tegenvoorbeeld bij één eigenschap volstaat om te besluiten dat het geen groep is.",
-        "De gehele getallen vormen met de optelling een groep, met nul als neutraal element.",
-        "De reële getallen zonder nul vormen met de vermenigvuldiging een groep; nul heeft geen invers element.",
-        "Is de Cayley-tabel symmetrisch om de hoofddiagonaal, dan is de groep commutatief.",
-        "In de Cayley-tabel van een groep komt elk element precies één keer voor in elke rij.",
-        "Een groep heeft juist één neutraal element en elk element heeft juist één invers element.",
-        "Het invers van a bewerkt met b is eerst het invers van b en dan dat van a.",
+        r"Een groep \((G, \ast)\): intern, associatief, een neutraal element \(e\), en voor elk element een \(a^{-1}\).",
+        r"Commutatief betekent \(a \ast b = b \ast a\); niet elke groep is dat.",
+        r"Eén tegenvoorbeeld bij één eigenschap volstaat om te besluiten dat het geen groep is.",
+        r"\((\mathbb{Z}, +)\) is een groep met \(e = 0\); \((\mathbb{N}, +)\) en \((\mathbb{Z}, \cdot)\) niet.",
+        r"\((\mathbb{R}_{0}, \cdot)\) is een groep met \(e = 1\); nul heeft geen invers element.",
+        r"Is de Cayley-tabel symmetrisch om de hoofddiagonaal, dan is de groep commutatief.",
+        r"In de Cayley-tabel van een groep komt elk element precies één keer voor in elke rij.",
+        r"Het neutraal element en het invers element zijn allebei uniek.",
+        r"\((a^{-1})^{-1} = a\) en \((a \ast b)^{-1} = b^{-1} \ast a^{-1}\).",
     ],
 )
 
