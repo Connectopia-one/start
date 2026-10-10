@@ -25,34 +25,35 @@ DEEL1 = [
             "als de kracht loodrecht op de verplaatsing staat",
         ],
         antwoord=0,
-        uitleg="Duw je tegen een muur die niet wijkt, dan is de arbeid nul, hoe moe je ook "
-        "wordt. Fysische arbeid is iets anders dan inspanning.",
+        uitleg=r"\[W = F\,s\cos\alpha\] Duw je tegen een muur die niet wijkt, dan is "
+        r"\(s = 0\) en dus \(W = 0\), hoe moe je ook wordt. Fysische arbeid is iets anders "
+        r"dan inspanning.",
     ),
     dict(
         type="meerkeuze",
-        vraag="Een kracht van 40 N verplaatst een kist 3 m in dezelfde zin. Hoeveel arbeid is er verricht?",
+        vraag=r"Een kracht van \(45\) N verplaatst een kist \(3{,}2\) m in dezelfde zin. Hoeveel arbeid is er verricht?",
         opties=[
-            "120 J",
-            "13 J",
-            "43 J",
-            "1200 J",
+            r"\(144\) J",
+            r"\(14\) J",
+            r"\(48\) J",
+            r"\(1{,}4 \times 10^{3}\) J",
         ],
         antwoord=0,
-        uitleg="Arbeid is kracht maal verplaatsing: 40 maal 3 is 120 joule.",
+        uitleg=r"\(W = F\,s\cos 0^\circ = 45 \times 3{,}2 = 144\) J.",
     ),
     dict(
         type="invultekst",
         vraag="In welke eenheid druk je arbeid uit?",
         antwoord=["joule", "J", "de joule"],
-        uitleg="Eén joule is één newton maal één meter. Het is ook de eenheid van energie, "
-        "want arbeid is een omzetting van energie.",
+        uitleg=r"\(1\ \text{J} = 1\ \text{N}\,\text{m}\). Het is ook de eenheid van energie, "
+        r"want arbeid is een omzetting van energie.",
     ),
     dict(
         type="waarofniet",
         vraag="Een kelner die een blad met glazen horizontaal draagt, verricht arbeid op dat blad.",
         antwoord=False,
-        uitleg="Hij duwt het blad omhoog en beweegt het vooruit, dus staat de kracht "
-        "loodrecht op de verplaatsing. De arbeid van die kracht is daarom nul.",
+        uitleg=r"Hij duwt het blad omhoog en beweegt het vooruit, dus \(\alpha = 90^\circ\) en "
+        r"\(\cos 90^\circ = 0\). De arbeid van die kracht is dus nul.",
     ),
     dict(
         type="meerkeuze",
@@ -64,12 +65,13 @@ DEEL1 = [
             "als de verplaatsing tegen de kracht in gaat",
         ],
         antwoord=[0, 1, 2],
-        uitleg="Gaat de verplaatsing tegen de kracht in, dan is de arbeid negatief en dus "
-        "niet nul. Daarom verricht de zwaartekracht geen arbeid als je horizontaal schuift.",
+        uitleg=r"Gaat de verplaatsing tegen de kracht in, dan is \(\cos 180^\circ = -1\) en is "
+        r"\(W\) negatief, dus niet nul. De zwaartekracht verricht geen arbeid als je "
+        r"horizontaal schuift, want dan is \(\alpha = 90^\circ\).",
     ),
     dict(
         type="meerkeuze",
-        vraag="Wat lees je af uit de oppervlakte onder een F(x)-grafiek?",
+        vraag=r"Wat lees je af uit de oppervlakte onder een \(F(x)\)-grafiek?",
         opties=[
             "de verrichte arbeid",
             "de snelheid van het lichaam",
@@ -77,8 +79,9 @@ DEEL1 = [
             "de massa van het lichaam",
         ],
         antwoord=0,
-        uitleg="Kracht maal afstand is arbeid, en dat is precies een oppervlakte. Zo kan je "
-        "ook met een kracht rekenen die onderweg verandert.",
+        uitleg=r"Kracht maal afstand is arbeid, en dat is precies een oppervlakte: "
+        r"\(W = \int F\,\mathrm{d}x\). Zo reken je ook met een kracht die onderweg "
+        r"verandert.",
     ),
     dict(
         type="meerkeuze",
@@ -90,8 +93,9 @@ DEEL1 = [
             "een duwkracht die je constant houdt",
         ],
         antwoord=[0, 1],
-        uitleg="De veerkracht groeit met de uitrekking en de gravitatiekracht daalt met r². "
-        "Voor hun arbeid neem je de oppervlakte onder de grafiek of een integraal.",
+        uitleg=r"De veerkracht groeit met \(F = k\,x\) en de gravitatiekracht daalt met "
+        r"\(\dfrac{1}{r^{2}}\). Voor hun arbeid neem je de oppervlakte onder de grafiek, "
+        r"dus \(\int F\,\mathrm{d}x\).",
     ),
     dict(
         type="meerkeuze",
@@ -130,34 +134,35 @@ DEEL1 = [
         type="waarofniet",
         vraag="De arbeid van de wrijvingskracht is altijd negatief.",
         antwoord=True,
-        uitleg="Ze wijst tegen de beweging in, dus onttrekt ze energie aan het lichaam. Die "
-        "energie komt als warmte in het oppervlak en het lichaam terecht.",
+        uitleg=r"Ze wijst tegen de beweging in, dus \(\cos 180^\circ = -1\) en onttrekt ze "
+        r"energie aan het lichaam. Die energie komt als warmte terecht in het oppervlak en "
+        r"het lichaam.",
     ),
     dict(
         type="meerkeuze",
-        vraag="Je tilt een doos van 10 kg 1,5 m hoog. Hoeveel arbeid lever je? Neem g gelijk aan 10 N/kg.",
+        vraag=r"Je tilt een doos van \(10\) kg \(1{,}5\) m hoog. Hoeveel arbeid lever je? Neem \(g = 9{,}81\ \text{N/kg}\).",
         opties=[
-            "150 J",
-            "15 J",
-            "100 J",
-            "1500 J",
+            r"\(147\) J",
+            r"\(15\) J",
+            r"\(98\) J",
+            r"\(1{,}5 \times 10^{3}\) J",
         ],
         antwoord=0,
-        uitleg="De zwaartekracht is 100 newton en de hoogte 1,5 meter: samen 150 joule. Die "
-        "energie zit daarna als potentiële energie in de doos.",
+        uitleg=r"\(W = m\,g\,h = 10 \times 9{,}81 \times 1{,}5 = 147\) J. Die energie zit "
+        r"daarna als potentiële energie in de doos.",
     ),
     dict(
         type="meerkeuze",
-        vraag="Een kist schuift 4 m over een vloer met een wrijvingskracht van 25 N. Hoeveel arbeid verricht de wrijving?",
+        vraag=r"Een kist schuift \(4{,}0\) m over een vloer met een wrijvingskracht van \(25\) N. Hoeveel arbeid verricht de wrijving?",
         opties=[
-            "−100 J",
-            "100 J",
-            "−6,25 J",
-            "−29 J",
+            r"\(-100\) J",
+            r"\(+100\) J",
+            r"\(-6{,}3\) J",
+            r"\(-29\) J",
         ],
         antwoord=0,
-        uitleg="De wrijving wijst tegen de beweging in, dus is haar arbeid negatief: 25 maal "
-        "4 is 100 joule die als warmte verdwijnt.",
+        uitleg=r"\(W = F\,s\cos 180^\circ = -25 \times 4{,}0 = -100\) J. Die \(100\) J "
+        r"verdwijnt als warmte.",
     ),
     dict(
         type="waarofniet",
@@ -176,21 +181,22 @@ DEEL1 = [
             "dat hangt af van de massa van de satelliet",
         ],
         antwoord=0,
-        uitleg="Daarom blijft de snelheid van zo'n satelliet constant. Een kracht loodrecht "
-        "op de beweging verandert enkel de richting.",
+        uitleg=r"Met \(\alpha = 90^\circ\) is \(W = 0\). Daarom blijft \(\lvert v \rvert\) van "
+        r"zo'n satelliet constant: een kracht loodrecht op de beweging verandert enkel de "
+        r"richting.",
     ),
     dict(
         type="meerkeuze",
-        vraag="Een kracht van 20 N duwt onder een hoek van 60 graden met de verplaatsing. Hoeveel arbeid levert ze over 5 m?",
+        vraag=r"Een kracht van \(20\) N duwt onder \(\alpha = 60^\circ\) met de verplaatsing. Hoeveel arbeid levert ze over \(5{,}0\) m?",
         opties=[
-            "50 J",
-            "100 J",
-            "87 J",
-            "25 J",
+            r"\(50\) J",
+            r"\(100\) J",
+            r"\(87\) J",
+            r"\(25\) J",
         ],
         antwoord=0,
-        uitleg="Alleen de component langs de verplaatsing telt: de cosinus van 60 graden is "
-        "een half, dus 20 maal 0,5 maal 5 is 50 joule.",
+        uitleg=r"Enkel de component langs de verplaatsing telt: "
+        r"\(W = 20 \times 5{,}0 \times \cos 60^\circ = 20 \times 5{,}0 \times 0{,}5 = 50\) J.",
     ),
     dict(
         type="meerkeuze",
@@ -198,7 +204,7 @@ DEEL1 = [
         opties=[
             "arbeid wordt uitgedrukt in joule",
             "arbeid is negatief als de kracht tegen de verplaatsing in werkt",
-            "bij een niet-constante kracht reken je met een integraal",
+            r"bij een veranderlijke \(F\) reken je \(\int F\,\mathrm{d}x\)",
             "arbeid is een vector en heeft dus een richting",
         ],
         antwoord=[0, 1, 2],
@@ -237,37 +243,38 @@ DEEL1 = [
 DEEL2 = [
     dict(
         type="meerkeuze",
-        vraag="Hoe bereken je de kinetische energie van een lichaam?",
+        vraag=r"Hoe bereken je de kinetische energie \(E_{k}\) van een lichaam?",
         opties=[
-            "een half maal de massa maal het kwadraat van de snelheid",
-            "de massa maal de snelheid",
-            "de massa maal het kwadraat van de snelheid",
-            "een half maal de massa maal de snelheid",
+            r"\(E_{k} = \tfrac{1}{2}m\,v^{2}\)",
+            r"\(E_{k} = m\,v\)",
+            r"\(E_{k} = m\,v^{2}\)",
+            r"\(E_{k} = \tfrac{1}{2}m\,v\)",
         ],
         antwoord=0,
-        uitleg="Door dat kwadraat heeft twee keer zo snel rijden vier keer zo veel energie. "
-        "Dat is waarom een botsing bij hoge snelheid zo veel zwaarder is.",
+        uitleg=r"Door dat kwadraat heeft twee keer zo snel rijden vier keer zo veel energie. "
+        r"Dat is waarom een botsing bij hoge snelheid zo veel zwaarder is.",
     ),
     dict(
         type="meerkeuze",
-        vraag="Hoeveel kinetische energie heeft een auto van 1000 kg die 20 m/s rijdt?",
+        vraag=r"Hoeveel kinetische energie heeft een auto van \(1{,}0 \times 10^{3}\) kg die \(20\) m/s rijdt?",
         opties=[
-            "200 000 J",
-            "20 000 J",
-            "400 000 J",
-            "10 000 J",
+            r"\(2{,}0 \times 10^{5}\) J",
+            r"\(2{,}0 \times 10^{4}\) J",
+            r"\(4{,}0 \times 10^{5}\) J",
+            r"\(1{,}0 \times 10^{4}\) J",
         ],
         antwoord=0,
-        uitleg="Een half maal 1000 maal 400 is 200 000 joule, dus 200 kilojoule.",
+        uitleg=r"\(E_{k} = \tfrac{1}{2} \times 1000 \times 400 = 2{,}0 \times 10^{5}\) J, "
+        r"dus \(200\) kJ.",
     ),
     dict(
         type="meerkeuze",
         vraag="Welke uitspraken over kinetische en potentiële energie zijn juist? Kruis alles aan wat juist is.",
         opties=[
-            "kinetische energie is de helft van de massa maal het kwadraat van de snelheid",
-            "potentiële energie is de massa maal g maal de hoogte",
-            "twee keer zo snel betekent vier keer zoveel kinetische energie",
-            "potentiële energie hangt ook van de snelheid af",
+            r"\(E_{k} = \tfrac{1}{2}m\,v^{2}\)",
+            r"\(E_{p} = m\,g\,h\)",
+            r"dubbele \(v\) geeft vier keer zoveel \(E_{k}\)",
+            r"\(E_{p}\) hangt ook van \(v\) af",
         ],
         antwoord=[0, 1, 2],
         uitleg="Potentiële energie hangt alleen van de hoogte en de massa af. De snelheid "
@@ -277,8 +284,8 @@ DEEL2 = [
         type="invultekst",
         vraag="Hoe bereken je de gravitationele potentiële energie vlak bij het aardoppervlak?",
         antwoord=["m·g·h", "mgh", "m g h"],
-        uitleg="Ze is massa maal g maal hoogte. Welke hoogte je als nulpunt kiest, mag je "
-        "zelf bepalen, want alleen het verschil telt.",
+        uitleg=r"\(E_{p} = m\,g\,h\). Welke hoogte je als nulpunt kiest, mag je zelf bepalen, "
+        r"want alleen het verschil \(\Delta E_{p}\) telt.",
     ),
     dict(
         type="meerkeuze",
@@ -290,7 +297,7 @@ DEEL2 = [
             "3000 J",
         ],
         antwoord=0,
-        uitleg="Massa maal g maal hoogte: 2 maal 10 maal 15 is 300 joule.",
+        uitleg=r"\(E_{p} = m\,g\,h = 2 \times 10 \times 15 = 300\) J.",
     ),
     dict(
         type="meerkeuze",
@@ -302,25 +309,25 @@ DEEL2 = [
             "ongeveer 300 m/s",
         ],
         antwoord=0,
-        uitleg="Alle 300 joule wordt kinetische energie: 300 is een half maal 2 maal v "
-        "kwadraat, dus v kwadraat is 300 en v is ongeveer 17 meter per seconde.",
+        uitleg=r"Alle \(300\) J wordt kinetische energie: \(m\,g\,h = \tfrac{1}{2}m\,v^{2}\), "
+        r"dus \(v = \sqrt{2gh} = \sqrt{300} \approx 17\) m/s. De massa valt weg.",
     ),
     dict(
         type="waarofniet",
         vraag="De potentiële energie van een veer is recht evenredig met haar uitrekking zelf.",
         antwoord=False,
-        uitleg="Ze gaat met het kwádraat van die uitrekking: ze is een half maal k maal de "
-        "uitrekking in het kwadraat. Twee keer zo ver uitrekken slaat dus vier keer zo veel "
-        "energie op.",
+        uitleg=r"Ze gaat met het kwádraat van de uitrekking: "
+        r"\(E_{\text{veer}} = \tfrac{1}{2}k\,x^{2}\). Twee keer zo ver uitrekken slaat dus "
+        r"vier keer zo veel energie op.",
     ),
     dict(
         type="meerkeuze",
         vraag="Wat zegt het arbeid-energietheorema?",
         opties=[
-            "de totale arbeid op een lichaam is gelijk aan zijn verandering van kinetische energie",
-            "de totale arbeid op een lichaam is gelijk aan zijn potentiële energie",
-            "de arbeid van een kracht is altijd gelijk aan nul",
-            "de arbeid is de kinetische energie gedeeld door de tijd",
+            r"\(W_{\text{tot}} = \Delta E_{k}\)",
+            r"\(W_{\text{tot}} = E_{p}\)",
+            r"\(W = 0\) voor elke kracht",
+            r"\(W = \dfrac{E_{k}}{t}\)",
         ],
         antwoord=0,
         uitleg="Remt een lichaam af, dan is de totale arbeid negatief. Daarom kan je er de "
@@ -336,8 +343,8 @@ DEEL2 = [
             "50 m/s",
         ],
         antwoord=0,
-        uitleg="Stel m maal g maal h gelijk aan een half m maal v kwadraat; de massa valt "
-        "weg. Dan is v de wortel uit 2 maal 10 maal 5, dus 10 meter per seconde.",
+        uitleg=r"Stel \(m\,g\,h = \tfrac{1}{2}m\,v^{2}\); de massa valt weg en er blijft "
+        r"\(v = \sqrt{2gh} = \sqrt{2 \times 10 \times 5} = 10\) m/s over.",
     ),
     dict(
         type="waarofniet",
@@ -350,10 +357,10 @@ DEEL2 = [
         type="meerkeuze",
         vraag="Welke uitspraken over vermogen zijn juist? Kruis alles aan wat juist is.",
         opties=[
-            "het is de arbeid gedeeld door de tijd",
-            "het staat in watt",
-            "één watt is één joule per seconde",
-            "het staat in joule",
+            r"\(P = \dfrac{W}{t}\)",
+            r"het staat in watt",
+            r"\(1\ \text{W} = 1\ \text{J/s}\)",
+            r"het staat in joule",
         ],
         antwoord=[0, 1, 2],
         uitleg="Joule is de eenheid van arbeid en energie, niet van vermogen. Twee motoren "
@@ -382,8 +389,8 @@ DEEL2 = [
             "de energie die een lichaam in totaal bevat",
         ],
         antwoord=0,
-        uitleg="De eenheid is de watt, en één watt is één joule per seconde. Twee motoren "
-        "kunnen dezelfde arbeid leveren en toch een ander vermogen hebben.",
+        uitleg=r"\(P = \dfrac{W}{t}\), in watt, en \(1\ \text{W} = 1\ \text{J/s}\). Twee "
+        r"motoren kunnen dezelfde arbeid leveren en toch een ander vermogen hebben.",
     ),
     dict(
         type="invultekst",
@@ -394,16 +401,16 @@ DEEL2 = [
     ),
     dict(
         type="meerkeuze",
-        vraag="Een lift levert 60 000 J arbeid in 20 s. Hoe groot is zijn vermogen?",
+        vraag=r"Een lift levert \(6{,}0 \times 10^{4}\) J arbeid in \(20\) s. Hoe groot is zijn vermogen?",
         opties=[
-            "3000 W",
-            "1 200 000 W",
-            "300 W",
-            "0,0003 W",
+            r"\(3{,}0 \times 10^{3}\) W",
+            r"\(1{,}2 \times 10^{6}\) W",
+            r"\(3{,}0 \times 10^{2}\) W",
+            r"\(3{,}3 \times 10^{-4}\) W",
         ],
         antwoord=0,
-        uitleg="Deel de arbeid door de tijd: 60 000 gedeeld door 20 is 3000 watt, dus 3 "
-        "kilowatt.",
+        uitleg=r"\(P = \dfrac{W}{t} = \dfrac{6{,}0 \times 10^{4}}{20} = 3{,}0 \times "
+        r"10^{3}\) W, dus \(3\) kW.",
     ),
     dict(
         type="waarofniet",
@@ -414,16 +421,16 @@ DEEL2 = [
     ),
     dict(
         type="meerkeuze",
-        vraag="Hoeveel joule is één kilowattuur?",
+        vraag=r"Hoeveel joule is één kilowattuur?",
         opties=[
-            "3 600 000 J",
-            "1000 J",
-            "3600 J",
-            "60 000 J",
+            r"\(3{,}6 \times 10^{6}\) J",
+            r"\(1{,}0 \times 10^{3}\) J",
+            r"\(3{,}6 \times 10^{3}\) J",
+            r"\(6{,}0 \times 10^{4}\) J",
         ],
         antwoord=0,
-        uitleg="Duizend watt gedurende 3600 seconden: 1000 maal 3600 is 3,6 miljoen joule. "
-        "Zo rekent de elektriciteitsmeter thuis.",
+        uitleg=r"\(E = P\,t = 1000 \times 3600 = 3{,}6 \times 10^{6}\) J. Zo rekent de "
+        r"elektriciteitsmeter thuis.",
     ),
     dict(
         type="meerkeuze",
@@ -442,8 +449,9 @@ DEEL2 = [
         type="waarofniet",
         vraag="In een gesloten systeem zonder wrijving blijft de som van de kinetische en de potentiële energie gelijk.",
         antwoord=True,
-        uitleg="Dat is de wet van behoud van mechanische energie. Met wrijving klopt die som "
-        "niet meer, want er verdwijnt energie als warmte.",
+        uitleg=r"Dat is het behoud van mechanische energie: \(E_{k} + E_{p}\) blijft "
+        r"constant. Met wrijving klopt die som niet meer, want er verdwijnt energie als "
+        r"warmte.",
     ),
     dict(
         type="meerkeuze",
@@ -455,7 +463,8 @@ DEEL2 = [
             "de energie blijft gelijk, want wrijving telt niet mee",
         ],
         antwoord=0,
-        uitleg="De arbeid van de wrijving is precies de energie die als warmte verdwijnt. "
-        "Daarom komt de kist trager beneden dan zonder wrijving.",
+        uitleg=r"Dan geldt \(E_{p} = E_{k} + Q\), met \(Q = \lvert W_{\text{wrijving}} \rvert\) "
+        r"de energie die als warmte verdwijnt. Daarom komt de kist trager beneden dan "
+        r"zonder wrijving.",
     ),
 ]

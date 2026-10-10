@@ -7773,3 +7773,78 @@ def cirkelbeweging(breedte=470):
                     9.5, DIM, "middle"))
 
     return _svg(cel_b * 2, cel_h, "\n".join(d))
+
+
+def arbeid_energie(breedte=470):
+    r"""Twee tekeningen bij arbeid, energie en vermogen.
+
+    Links een F(x)-grafiek waarvan de oppervlakte de arbeid is, ook bij een
+    kracht die onderweg verandert. Rechts een kar die van een helling rolt,
+    met balkjes die laten zien hoe Ep in Ek overgaat.
+    """
+    import math
+    cel_b, cel_h = 234, 210
+    d = []
+
+    def kader(kx, ky, titel):
+        d.append(f'<rect x="{kx+6}" y="{ky+4}" width="{cel_b-12}" height="{cel_h-30}" rx="8" '
+                 f'fill="#ffffff" stroke="{BORDER}" stroke-width="1.2"/>')
+        d.append(_tekst(kx + cel_b / 2, ky + cel_h - 9, titel, 10, DIM, "middle", True))
+
+    # ── 1. de oppervlakte onder F(x) is de arbeid
+    kader(0, 0, "de oppervlakte onder F(x) is W")
+    ox, oy, top, rechts = 34, 134, 28, 210
+    d.append(f'<line x1="{ox}" y1="{top}" x2="{ox}" y2="{oy+6}" stroke="{DIM}" '
+             f'stroke-width="1.3"/>')
+    d.append(f'<line x1="{ox-6}" y1="{oy}" x2="{rechts}" y2="{oy}" stroke="{DIM}" '
+             f'stroke-width="1.3"/>')
+    d.append(_pijlkop(rechts, oy, 0.0, DIM, 4.2))
+    d.append(_pijlkop(ox, top, -math.pi / 2, DIM, 4.2))
+    d.append(_tekst(rechts - 4, oy + 14, "x", 10, DIM, "middle"))
+    d.append(_tekst(ox - 12, top + 5, "F", 10, DIM, "middle"))
+    # een kracht die eerst vast is en daarna lineair groeit
+    x1, x2, x3 = ox + 10, ox + 80, ox + 150
+    f1, f2 = oy - 38, oy - 86
+    d.append(f'<path d="M{x1} {oy} L{x1} {f1} L{x2} {f1} L{x3} {f2} L{x3} {oy} Z" '
+             f'fill="{AMBER}" fill-opacity="0.18" stroke="none"/>')
+    d.append(f'<polyline points="{x1},{f1} {x2},{f1} {x3},{f2}" fill="none" '
+             f'stroke="{FOREST}" stroke-width="2.2"/>')
+    d.append(_tekst((x1 + x3) / 2, oy - 22, "W", 12, AMBER, "middle", True))
+    d.append(_tekst(117, 160, "vaste kracht: W = F x", 9.5, DIM, "middle"))
+    d.append(_tekst(117, 173, "veranderlijke kracht: de oppervlakte", 9.5, DIM, "middle"))
+
+    # ── 2. van Ep naar Ek
+    kx = cel_b
+    kader(kx, 0, "Ep gaat over in Ek, samen blijft het gelijk")
+    hx0, hy0 = kx + 32, 42
+    hx1, hy1 = kx + 150, 118
+    d.append(f'<path d="M{hx0} {hy0} Q {hx0+56} {hy0+58} {hx1} {hy1} L{kx+206} {hy1}" '
+             f'fill="none" stroke="{DIM}" stroke-width="1.8"/>')
+    d.append(f'<line x1="{hx0}" y1="{hy1}" x2="{hx0}" y2="{hy0}" stroke="{DIM}" '
+             f'stroke-width="0.9" stroke-dasharray="3 3"/>')
+    d.append(_tekst(hx0 - 10, (hy0 + hy1) / 2, "h", 9.5, DIM, "middle", True))
+    # drie balkjes: boven, halverwege en beneden
+    def meter(bx, by, deel, naam):
+        br, bh = 15, 34
+        d.append(f'<rect x="{bx}" y="{by-bh}" width="{br}" height="{bh}" fill="{PAPER}" '
+                 f'stroke="{BORDER}" stroke-width="1"/>')
+        hoog = bh * deel
+        d.append(f'<rect x="{bx}" y="{by-bh}" width="{br}" height="{hoog:.1f}" '
+                 f'fill="{DRAAD}" fill-opacity="0.5"/>')
+        d.append(f'<rect x="{bx}" y="{by-bh+hoog:.1f}" width="{br}" height="{bh-hoog:.1f}" '
+                 f'fill="{AMBER}" fill-opacity="0.5"/>')
+        d.append(_tekst(bx + br / 2, by + 11, naam, 8.5, DIM, "middle"))
+    d.append(f'<circle cx="{hx0}" cy="{hy0-6}" r="5" fill="{DARK}"/>')
+    d.append(f'<circle cx="{hx1}" cy="{hy1-6}" r="5" fill="{DARK}"/>')
+    # de drie balkjes staan op één rij onder de helling, zodat ze de baan niet raken
+    meter(kx + 44, 158, 1.0, "boven")
+    meter(kx + 104, 158, 0.5, "halfweg")
+    meter(kx + 164, 158, 0.0, "beneden")
+    d.append(f'<rect x="{kx+178}" y="36" width="11" height="9" fill="{DRAAD}" '
+             f'fill-opacity="0.5"/>')
+    d.append(_tekst(kx + 194, 44, "Ep", 9.5, DRAAD, "start", True))
+    d.append(f'<rect x="{kx+178}" y="52" width="11" height="9" fill="{AMBER}" '
+             f'fill-opacity="0.5"/>')
+    d.append(_tekst(kx + 194, 60, "Ek", 9.5, AMBER, "start", True))
+
+    return _svg(cel_b * 2, cel_h, "\n".join(d))

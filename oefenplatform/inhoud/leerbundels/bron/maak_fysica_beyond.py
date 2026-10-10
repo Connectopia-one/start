@@ -1768,113 +1768,141 @@ BUNDELS["arbeid-energie-en-vermogen-beyond"] = dict(
     vak=VAK, niveau=BEYOND, titel="Arbeid, energie en vermogen",
     onder="Wanneer een kracht arbeid verricht, en waar de energie naartoe gaat.",
     secties=[
-        dict(kop="Arbeid", blokken=[
-            ("p", "Een kracht verricht <strong>arbeid</strong> "
-                  "<strong>als het aangrijpingspunt verplaatst wordt in de zin van de "
-                  "kracht</strong>. Arbeid staat in <strong>joule</strong>. Verplaatst een kracht "
-                  "van <strong>40 N</strong> een kist <strong>3 m</strong> in dezelfde zin, dan is "
-                  "de arbeid <strong>120 J</strong>."),
-            ("p", "Een kracht verricht <strong>geen arbeid</strong> "
-                  "<strong>als er geen verplaatsing is</strong>, "
-                  "<strong>als de kracht loodrecht op de verplaatsing staat</strong> of "
-                  "<strong>als de kracht zelf nul is</strong>. Daarom "
-                  "<strong>verricht een kelner die een blad met glazen horizontaal draagt geen "
-                  "arbeid op dat blad</strong>, en verricht ook "
-                  "<strong>de normaalkracht op een lichaam dat over een vlakke vloer schuift geen "
-                  "arbeid</strong>. Om dezelfde reden verricht "
-                  "<strong>de middelpuntzoekende kracht op een satelliet in een cirkelbaan</strong> "
-                  "<strong>nul arbeid, want ze staat loodrecht op de beweging</strong>."),
-            ("p", "<strong>Arbeid kan negatief zijn.</strong> Ze is "
-                  "<strong>negatief als de kracht tegen de verplaatsing in werkt</strong>, en "
-                  "daarom is <strong>de arbeid van de wrijvingskracht altijd negatief</strong>. "
-                  "Schuift een <strong>kist 4 m over een vloer met een wrijvingskracht van "
-                  "25 N</strong>, dan verricht de wrijving <strong>−100 J</strong>."),
-            ("p", "Staat de kracht schuin, dan telt alleen de component langs de verplaatsing mee. "
-                  "Een kracht van <strong>20 N onder een hoek van 60 graden</strong> levert over "
-                  "<strong>5 m</strong> <strong>50 J</strong>, want de cosinus van 60 graden is een "
-                  "half."),
-            ("p", "Twee hefoefeningen. Til je een <strong>doos van 10 kg 1,5 m hoog</strong>, dan "
-                  "lever je <strong>150 J</strong>, met g gelijk aan 10 N/kg. Loop je met een "
-                  "<strong>tas van 5 kg een trap van 3 m</strong> op, dan is dat ook "
-                  "<strong>150 J</strong>."),
-            ("p", "De <strong>oppervlakte onder een F(x)-grafiek</strong> is "
-                  "<strong>de verrichte arbeid</strong>; die oppervlakte heet dus gewoon "
-                  "<strong>arbeid</strong>. Bij een "
-                  "<strong>niet-constante kracht reken je met een integraal</strong>, want dan kan "
-                  "je niet gewoon kracht maal weg nemen. Niet constant zijn onder meer "
-                  "<strong>de veerkracht</strong> en "
-                  "<strong>de gravitatiekracht op grote afstandsverschillen</strong>."),
+        dict(kop="Wat arbeid is", blokken=[
+            ("p", "Een kracht verricht <strong>arbeid</strong> als haar aangrijpingspunt "
+                  "verplaatst wordt in de zin van de kracht. Arbeid staat in "
+                  "<strong>joule</strong>, en \\(1\\ \\text{J} = 1\\ \\text{N}\\,\\text{m}\\). "
+                  "Het is ook de eenheid van energie, want arbeid is een omzetting van "
+                  "energie."),
+            ("kader", "<strong>De formule van de arbeid</strong><br>"
+                      "\\[W = F\\,s\\cos\\alpha\\]"
+                      "\\(\\alpha\\) is de hoek tussen de kracht en de verplaatsing. Bij "
+                      "\\(\\alpha = 0^\\circ\\) is \\(\\cos\\alpha = 1\\) en is "
+                      "\\(W = F\\,s\\); bij \\(90^\\circ\\) is \\(W = 0\\); bij "
+                      "\\(180^\\circ\\) is \\(W\\) negatief. Verplaatst een kracht van "
+                      "\\(45\\) N een kist \\(3{,}2\\) m in dezelfde zin, dan is "
+                      "\\(W = 144\\) J."),
+            ("p", "Een kracht verricht <strong>geen arbeid</strong> als er geen verplaatsing "
+                  "is, als ze <strong>loodrecht</strong> op de verplaatsing staat, of als ze "
+                  "zelf nul is. Daarom verricht een <strong>kelner</strong> die een blad met "
+                  "glazen horizontaal draagt geen arbeid op dat blad, en verricht ook de "
+                  "<strong>normaalkracht</strong> op een lichaam dat over een vlakke vloer "
+                  "schuift geen arbeid. Om dezelfde reden is de arbeid van de "
+                  "<strong>middelpuntzoekende kracht</strong> op een satelliet in een "
+                  "cirkelbaan nul. Duw je tegen een muur die niet wijkt, dan is \\(s = 0\\) "
+                  "en dus ook \\(W = 0\\), hoe moe je ook wordt."),
+        ]),
+        dict(kop="Positieve en negatieve arbeid", blokken=[
+            ("p", "<strong>Arbeid kan negatief zijn</strong>, namelijk als de kracht tegen de "
+                  "verplaatsing in werkt: \\(\\cos 180^\\circ = -1\\). Daarom is de arbeid van "
+                  "de <strong>wrijvingskracht altijd negatief</strong>. Schuift een kist "
+                  "\\(4{,}0\\) m over een vloer met een wrijvingskracht van \\(25\\) N, dan is "
+                  "\\(W = -100\\) J, en die \\(100\\) J verdwijnt als warmte."),
+            ("p", "Staat de kracht <strong>schuin</strong>, dan telt enkel de component langs "
+                  "de verplaatsing mee. Een kracht van \\(20\\) N onder \\(60^\\circ\\) levert "
+                  "over \\(5{,}0\\) m \\(W = 20 \\times 5{,}0 \\times 0{,}5 = 50\\) J. Twee "
+                  "hefoefeningen: til je een doos van \\(10\\) kg \\(1{,}5\\) m hoog, dan is "
+                  "\\(W = m\\,g\\,h = 147\\) J met \\(g = 9{,}81\\ \\text{N/kg}\\); loop je "
+                  "met een tas van \\(5\\) kg een trap van \\(3\\) m op, dan is dat "
+                  "\\(150\\) J met \\(g = 10\\ \\text{N/kg}\\). Hoe lang de trap is of hoe "
+                  "traag je gaat, verandert daar niets aan."),
+        ]),
+        dict(kop="Arbeid van een veranderlijke kracht", blokken=[
+            ("fig", svg.arbeid_energie(),
+             "Links de oppervlakte onder F(x), rechts de omzetting van Ep in Ek."),
+            ("p", "De <strong>oppervlakte onder een \\(F(x)\\)-grafiek</strong> is de "
+                  "verrichte arbeid; die oppervlakte heet dus gewoon de "
+                  "<strong>arbeid</strong>. Bij een kracht die onderweg verandert, kan je niet "
+                  "gewoon kracht maal weg nemen en reken je met een "
+                  "<strong>integraal</strong>: \\[W = \\int F\\,\\mathrm{d}x\\] Niet constant "
+                  "zijn onder meer de <strong>veerkracht</strong> \\(F = k\\,x\\) en de "
+                  "<strong>gravitatiekracht</strong> over grote afstandsverschillen, die met "
+                  "\\(\\dfrac{1}{r^{2}}\\) daalt."),
         ]),
         dict(kop="Conservatieve krachten", blokken=[
-            ("p", "Een <strong>conservatieve kracht</strong> is "
-                  "<strong>een kracht waarvan de arbeid niet van de gevolgde weg afhangt</strong>. "
-                  "<strong>De zwaartekracht</strong> en <strong>de veerkracht</strong> zijn "
+            ("p", "Een <strong>conservatieve kracht</strong> is een kracht waarvan de arbeid "
+                  "<strong>niet van de gevolgde weg</strong> afhangt: alleen het begin- en het "
+                  "eindpunt tellen. Daarom kan je er een potentiële energie bij definiëren. "
+                  "De <strong>zwaartekracht</strong> en de <strong>veerkracht</strong> zijn "
                   "conservatief, net als de gravitatiekracht en de coulombkracht."),
-            ("p", "Een kracht waarvan de arbeid <strong>wél van de gevolgde weg afhangt</strong>, "
-                  "heet <strong>niet-conservatief</strong>. Wrijving is daarvan het voorbeeld: hoe "
-                  "langer de weg, hoe meer energie er als warmte verdwijnt."),
+            ("p", "Een kracht waarvan de arbeid <strong>wél van de weg afhangt</strong>, heet "
+                  "<strong>niet-conservatief</strong> of dissipatief. Wrijving is daarvan het "
+                  "voorbeeld: hoe langer de weg, hoe meer energie er als warmte verdwijnt. "
+                  "Ook de normaalkracht, de <strong>luchtweerstand</strong>, de spierkracht "
+                  "en een motorkracht zijn niet conservatief. Bij een <strong>botsing</strong> "
+                  "gaat een deel van de energie in andere <strong>energievormen</strong> over, "
+                  "zoals warmte en geluid."),
         ]),
         dict(kop="Kinetische en potentiële energie", blokken=[
-            ("p", "De <strong>kinetische energie</strong> bereken je als "
-                  "<strong>een half maal de massa maal het kwadraat van de snelheid</strong>, dus "
-                  "<strong>de helft van de massa maal het kwadraat van de snelheid</strong>. Daarom "
-                  "betekent <strong>twee keer zo snel vier keer zoveel kinetische energie</strong>. "
-                  "Een <strong>auto van 1000 kg die 20 m/s rijdt</strong>, heeft "
-                  "<strong>200 000 J</strong>."),
-            ("p", "De <strong>gravitationele potentiële energie vlak bij het aardoppervlak</strong> "
-                  "reken je als <strong>m·g·h</strong>: "
-                  "<strong>de massa maal g maal de hoogte</strong>. Een "
-                  "<strong>steen van 2 kg op 15 m hoogte</strong> heeft "
-                  "<strong>300 J</strong>, en hij raakt de grond met "
-                  "<strong>ongeveer 17 m/s</strong> als je de luchtweerstand verwaarloost."),
-            ("p", "De <strong>potentiële energie van een veer is niet recht evenredig met haar "
-                  "uitrekking zelf</strong> maar met het kwadraat ervan: twee keer zo ver uitrekken "
-                  "kost vier keer zoveel energie."),
+            ("kader", "\\[E_{k} = \\tfrac{1}{2}m\\,v^{2} \\qquad E_{p} = m\\,g\\,h \\qquad "
+                      "E_{\\text{veer}} = \\tfrac{1}{2}k\\,x^{2}\\]"
+                      "In \\(E_{k}\\) staat \\(v\\) in het kwadraat, dus <strong>twee keer zo "
+                      "snel is vier keer zoveel energie</strong>. Welke hoogte je als nulpunt "
+                      "voor \\(E_{p}\\) kiest, mag je zelf bepalen, meestal het "
+                      "<strong>aardoppervlak</strong>: alleen \\(\\Delta E_{p}\\) telt."),
+            ("p", "Een auto van \\(1{,}0 \\times 10^{3}\\) kg die \\(20\\) m/s rijdt heeft "
+                  "\\(E_{k} = \\tfrac{1}{2} \\times 1000 \\times 400 = 2{,}0 \\times 10^{5}\\) "
+                  "J, dus \\(200\\) kJ. Een steen van \\(2\\) kg op \\(15\\) m hoogte heeft "
+                  "\\(E_{p} = 300\\) J en raakt de grond met "
+                  "\\(v = \\sqrt{2gh} = \\sqrt{300} \\approx 17\\) m/s. De "
+                  "<strong>veerenergie</strong> is niet recht evenredig met de uitrekking maar "
+                  "met het <strong>kwadraat</strong> ervan: twee keer zo ver uitrekken kost "
+                  "vier keer zoveel energie."),
         ]),
-        dict(kop="Behoud van energie", blokken=[
-            ("p", "Het <strong>arbeid-energietheorema</strong> zegt dat "
-                  "<strong>de totale arbeid op een lichaam gelijk is aan zijn verandering van "
-                  "kinetische energie</strong>."),
-            ("p", "<strong>In een gesloten systeem zonder wrijving blijft de som van de kinetische "
-                  "en de potentiële energie gelijk.</strong> Bij een "
-                  "<strong>slingerende schommel</strong> wisselen "
-                  "<strong>kinetische energie</strong> en "
-                  "<strong>gravitationele potentiële energie</strong> elkaar daarom voortdurend af."),
-            ("p", "Glijdt een <strong>slee van 20 kg zonder wrijving van een heuvel van 5 m "
-                  "hoog</strong>, dan is hij beneden <strong>10 m/s</strong> snel, met g gelijk aan "
-                  "10 N/kg. <strong>Bij die berekening speelt de massa van de slee geen rol</strong>, "
-                  "want ze valt aan beide kanten van de gelijkheid weg."),
-            ("p", "Met wrijving erbij geldt het behoud nog altijd, maar met een extra post: glijdt "
-                  "een <strong>kist met wrijving een helling af</strong>, dan "
-                  "<strong>wordt de potentiële energie kinetische energie plus warmte</strong>. "
-                  "Valt een <strong>bal van 2 m hoog en stuitert hij tot 1,4 m</strong>, dan is de "
-                  "rest van de energie <strong>bij de botsing als warmte en geluid "
-                  "vrijgekomen</strong>."),
+        dict(kop="Het arbeid-energietheorema", blokken=[
+            ("p", "Het <strong>arbeid-energietheorema</strong> zegt dat de totale arbeid op "
+                  "een lichaam gelijk is aan zijn verandering van kinetische energie: "
+                  "\\[W_{\\text{tot}} = \\Delta E_{k}\\] Remt een lichaam af, dan is die "
+                  "arbeid negatief. Je kan er de eindsnelheid mee berekenen zonder de tijd te "
+                  "kennen."),
+        ]),
+        dict(kop="Behoud van mechanische energie", blokken=[
+            ("p", "In een gesloten systeem <strong>zonder wrijving</strong> blijft "
+                  "\\(E_{k} + E_{p}\\) constant. Dat is het behoud van mechanische energie. "
+                  "Bij een <strong>slingerende schommel</strong> wisselen kinetische en "
+                  "gravitationele potentiële energie elkaar daarom voortdurend af: boven is "
+                  "alles potentieel, beneden alles kinetisch. Glijdt een slee van \\(20\\) kg "
+                  "zonder wrijving van een heuvel van \\(5\\) m hoog, dan geeft "
+                  "\\(m\\,g\\,h = \\tfrac{1}{2}m\\,v^{2}\\) meteen "
+                  "\\(v = \\sqrt{2gh} = 10\\) m/s, met \\(g = 10\\ \\text{N/kg}\\). De "
+                  "<strong>massa valt weg</strong>, dus een zware en een lichte slee komen "
+                  "even snel beneden."),
+        ]),
+        dict(kop="Energie en wrijving", blokken=[
+            ("p", "<strong>Met wrijving</strong> geldt het behoud nog altijd, maar met een "
+                  "extra post: \\[E_{p} = E_{k} + Q\\] met \\(Q\\) de warmte, gelijk aan de "
+                  "grootte van de arbeid van de wrijving. Glijdt een kist met wrijving een "
+                  "helling af, dan wordt de potentiële energie kinetische energie "
+                  "<strong>plus warmte</strong>, en komt ze trager beneden. Stuitert een bal "
+                  "van \\(2\\) m hoog maar tot \\(1{,}4\\) m, dan is de rest als "
+                  "<strong>warmte en geluid</strong> vrijgekomen: energie gaat nooit verloren, "
+                  "ze verandert van vorm."),
         ]),
         dict(kop="Vermogen", blokken=[
-            ("p", "<strong>Vermogen</strong> is <strong>de arbeid die per seconde verricht "
-                  "wordt</strong>, dus <strong>de arbeid gedeeld door de tijd</strong>. Het staat in "
-                  "<strong>watt</strong>, en <strong>één watt is één joule per seconde</strong>. Een "
-                  "<strong>lift die 60 000 J arbeid in 20 s</strong> levert, heeft een vermogen van "
-                  "<strong>3000 W</strong>."),
-            ("p", "<strong>Wie een doos sneller even hoog tilt, levert daardoor niet meer "
-                  "arbeid</strong>: de arbeid is dezelfde, alleen het vermogen is groter."),
-            ("p", "Op een elektriciteitsfactuur staat de energie in kilowattuur: "
-                  "<strong>één kilowattuur is 3 600 000 J</strong>, want 1000 watt gedurende 3600 "
-                  "seconden."),
+            ("p", "<strong>Vermogen</strong> is de arbeid die per seconde verricht wordt: "
+                  "\\[P = \\dfrac{W}{t}\\] Het staat in <strong>watt</strong>, en "
+                  "\\(1\\ \\text{W} = 1\\ \\text{J/s}\\). Een lift die "
+                  "\\(6{,}0 \\times 10^{4}\\) J arbeid levert in \\(20\\) s, heeft "
+                  "\\(P = 3{,}0 \\times 10^{3}\\) W, dus \\(3\\) kW. Wie een doos "
+                  "<strong>sneller</strong> even hoog tilt, levert daardoor niet meer arbeid: "
+                  "alleen het vermogen is groter."),
+            ("p", "Op een elektriciteitsfactuur staat de energie in <strong>kilowattuur</strong>. "
+                  "Dat is geen vermogen maar een hoeveelheid energie: "
+                  "\\(E = P\\,t = 1000 \\times 3600 = 3{,}6 \\times 10^{6}\\) J."),
         ]),
     ],
     onthoud=[
-        "Arbeid is kracht maal verplaatsing in de zin van de kracht, in joule.",
-        "Loodrecht op de beweging betekent geen arbeid.",
-        "Wrijving levert altijd negatieve arbeid.",
-        "De oppervlakte onder F(x) is de arbeid; niet-constant vraagt een integraal.",
+        "\\(W = F\\,s\\cos\\alpha\\), in joule; \\(1\\ \\text{J} = 1\\ \\text{N}\\,\\text{m}\\).",
+        "Loodrecht op de beweging betekent \\(W = 0\\); tegen de beweging in, \\(W < 0\\), "
+        "zoals bij wrijving.",
+        "De oppervlakte onder \\(F(x)\\) is \\(W\\); veranderlijk vraagt \\(\\int F\\,\\mathrm{d}x\\). "
         "Conservatief: de arbeid hangt niet van de weg af.",
-        "Kinetische energie is ½mv², potentiële m·g·h.",
-        "Zonder wrijving blijft de som van kinetische en potentiële energie gelijk.",
-        "Vermogen is arbeid per seconde, in watt; 1 kWh is 3,6 miljoen joule.",
+        "\\(E_{k} = \\tfrac{1}{2}m\\,v^{2}\\), \\(E_{p} = m\\,g\\,h\\), \\(E_{\\text{veer}} = \\tfrac{1}{2}k\\,x^{2}\\).",
+        "\\(W_{\\text{tot}} = \\Delta E_{k}\\), en zonder wrijving blijft \\(E_{k} + E_{p}\\) gelijk.",
+        "\\(P = \\dfrac{W}{t}\\), in watt; \\(1\\) kWh is \\(3{,}6 \\times 10^{6}\\) J.",
     ],
 )
+
 
 # ───────────────────── 14. De gaswetten en de algemene gaswet
 BUNDELS["de-gaswetten-en-de-algemene-gaswet-beyond"] = dict(

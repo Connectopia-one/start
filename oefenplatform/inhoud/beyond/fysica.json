@@ -5440,19 +5440,19 @@
             "als de kracht loodrecht op de verplaatsing staat"
           ],
           "antwoord": 0,
-          "uitleg": "Duw je tegen een muur die niet wijkt, dan is de arbeid nul, hoe moe je ook wordt. Fysische arbeid is iets anders dan inspanning."
+          "uitleg": "\\[W = F\\,s\\cos\\alpha\\] Duw je tegen een muur die niet wijkt, dan is \\(s = 0\\) en dus \\(W = 0\\), hoe moe je ook wordt. Fysische arbeid is iets anders dan inspanning."
         },
         {
           "type": "meerkeuze",
-          "vraag": "Een kracht van 40 N verplaatst een kist 3 m in dezelfde zin. Hoeveel arbeid is er verricht?",
+          "vraag": "Een kracht van \\(45\\) N verplaatst een kist \\(3{,}2\\) m in dezelfde zin. Hoeveel arbeid is er verricht?",
           "opties": [
-            "120 J",
-            "13 J",
-            "43 J",
-            "1200 J"
+            "\\(144\\) J",
+            "\\(14\\) J",
+            "\\(48\\) J",
+            "\\(1{,}4 \\times 10^{3}\\) J"
           ],
           "antwoord": 0,
-          "uitleg": "Arbeid is kracht maal verplaatsing: 40 maal 3 is 120 joule."
+          "uitleg": "\\(W = F\\,s\\cos 0^\\circ = 45 \\times 3{,}2 = 144\\) J."
         },
         {
           "type": "invultekst",
@@ -5462,13 +5462,13 @@
             "J",
             "de joule"
           ],
-          "uitleg": "Eén joule is één newton maal één meter. Het is ook de eenheid van energie, want arbeid is een omzetting van energie."
+          "uitleg": "\\(1\\ \\text{J} = 1\\ \\text{N}\\,\\text{m}\\). Het is ook de eenheid van energie, want arbeid is een omzetting van energie."
         },
         {
           "type": "waarofniet",
           "vraag": "Een kelner die een blad met glazen horizontaal draagt, verricht arbeid op dat blad.",
           "antwoord": false,
-          "uitleg": "Hij duwt het blad omhoog en beweegt het vooruit, dus staat de kracht loodrecht op de verplaatsing. De arbeid van die kracht is daarom nul."
+          "uitleg": "Hij duwt het blad omhoog en beweegt het vooruit, dus \\(\\alpha = 90^\\circ\\) en \\(\\cos 90^\\circ = 0\\). De arbeid van die kracht is dus nul."
         },
         {
           "type": "meerkeuze",
@@ -5484,11 +5484,11 @@
             1,
             2
           ],
-          "uitleg": "Gaat de verplaatsing tegen de kracht in, dan is de arbeid negatief en dus niet nul. Daarom verricht de zwaartekracht geen arbeid als je horizontaal schuift."
+          "uitleg": "Gaat de verplaatsing tegen de kracht in, dan is \\(\\cos 180^\\circ = -1\\) en is \\(W\\) negatief, dus niet nul. De zwaartekracht verricht geen arbeid als je horizontaal schuift, want dan is \\(\\alpha = 90^\\circ\\)."
         },
         {
           "type": "meerkeuze",
-          "vraag": "Wat lees je af uit de oppervlakte onder een F(x)-grafiek?",
+          "vraag": "Wat lees je af uit de oppervlakte onder een \\(F(x)\\)-grafiek?",
           "opties": [
             "de verrichte arbeid",
             "de snelheid van het lichaam",
@@ -5496,7 +5496,7 @@
             "de massa van het lichaam"
           ],
           "antwoord": 0,
-          "uitleg": "Kracht maal afstand is arbeid, en dat is precies een oppervlakte. Zo kan je ook met een kracht rekenen die onderweg verandert."
+          "uitleg": "Kracht maal afstand is arbeid, en dat is precies een oppervlakte: \\(W = \\int F\\,\\mathrm{d}x\\). Zo reken je ook met een kracht die onderweg verandert."
         },
         {
           "type": "meerkeuze",
@@ -5511,7 +5511,7 @@
             0,
             1
           ],
-          "uitleg": "De veerkracht groeit met de uitrekking en de gravitatiekracht daalt met r². Voor hun arbeid neem je de oppervlakte onder de grafiek of een integraal."
+          "uitleg": "De veerkracht groeit met \\(F = k\\,x\\) en de gravitatiekracht daalt met \\(\\dfrac{1}{r^{2}}\\). Voor hun arbeid neem je de oppervlakte onder de grafiek, dus \\(\\int F\\,\\mathrm{d}x\\)."
         },
         {
           "type": "meerkeuze",
@@ -5554,31 +5554,31 @@
           "type": "waarofniet",
           "vraag": "De arbeid van de wrijvingskracht is altijd negatief.",
           "antwoord": true,
-          "uitleg": "Ze wijst tegen de beweging in, dus onttrekt ze energie aan het lichaam. Die energie komt als warmte in het oppervlak en het lichaam terecht."
+          "uitleg": "Ze wijst tegen de beweging in, dus \\(\\cos 180^\\circ = -1\\) en onttrekt ze energie aan het lichaam. Die energie komt als warmte terecht in het oppervlak en het lichaam."
         },
         {
           "type": "meerkeuze",
-          "vraag": "Je tilt een doos van 10 kg 1,5 m hoog. Hoeveel arbeid lever je? Neem g gelijk aan 10 N/kg.",
+          "vraag": "Je tilt een doos van \\(10\\) kg \\(1{,}5\\) m hoog. Hoeveel arbeid lever je? Neem \\(g = 9{,}81\\ \\text{N/kg}\\).",
           "opties": [
-            "150 J",
-            "15 J",
-            "100 J",
-            "1500 J"
+            "\\(147\\) J",
+            "\\(15\\) J",
+            "\\(98\\) J",
+            "\\(1{,}5 \\times 10^{3}\\) J"
           ],
           "antwoord": 0,
-          "uitleg": "De zwaartekracht is 100 newton en de hoogte 1,5 meter: samen 150 joule. Die energie zit daarna als potentiële energie in de doos."
+          "uitleg": "\\(W = m\\,g\\,h = 10 \\times 9{,}81 \\times 1{,}5 = 147\\) J. Die energie zit daarna als potentiële energie in de doos."
         },
         {
           "type": "meerkeuze",
-          "vraag": "Een kist schuift 4 m over een vloer met een wrijvingskracht van 25 N. Hoeveel arbeid verricht de wrijving?",
+          "vraag": "Een kist schuift \\(4{,}0\\) m over een vloer met een wrijvingskracht van \\(25\\) N. Hoeveel arbeid verricht de wrijving?",
           "opties": [
-            "−100 J",
-            "100 J",
-            "−6,25 J",
-            "−29 J"
+            "\\(-100\\) J",
+            "\\(+100\\) J",
+            "\\(-6{,}3\\) J",
+            "\\(-29\\) J"
           ],
           "antwoord": 0,
-          "uitleg": "De wrijving wijst tegen de beweging in, dus is haar arbeid negatief: 25 maal 4 is 100 joule die als warmte verdwijnt."
+          "uitleg": "\\(W = F\\,s\\cos 180^\\circ = -25 \\times 4{,}0 = -100\\) J. Die \\(100\\) J verdwijnt als warmte."
         },
         {
           "type": "waarofniet",
@@ -5596,19 +5596,19 @@
             "dat hangt af van de massa van de satelliet"
           ],
           "antwoord": 0,
-          "uitleg": "Daarom blijft de snelheid van zo'n satelliet constant. Een kracht loodrecht op de beweging verandert enkel de richting."
+          "uitleg": "Met \\(\\alpha = 90^\\circ\\) is \\(W = 0\\). Daarom blijft \\(\\lvert v \\rvert\\) van zo'n satelliet constant: een kracht loodrecht op de beweging verandert enkel de richting."
         },
         {
           "type": "meerkeuze",
-          "vraag": "Een kracht van 20 N duwt onder een hoek van 60 graden met de verplaatsing. Hoeveel arbeid levert ze over 5 m?",
+          "vraag": "Een kracht van \\(20\\) N duwt onder \\(\\alpha = 60^\\circ\\) met de verplaatsing. Hoeveel arbeid levert ze over \\(5{,}0\\) m?",
           "opties": [
-            "50 J",
-            "100 J",
-            "87 J",
-            "25 J"
+            "\\(50\\) J",
+            "\\(100\\) J",
+            "\\(87\\) J",
+            "\\(25\\) J"
           ],
           "antwoord": 0,
-          "uitleg": "Alleen de component langs de verplaatsing telt: de cosinus van 60 graden is een half, dus 20 maal 0,5 maal 5 is 50 joule."
+          "uitleg": "Enkel de component langs de verplaatsing telt: \\(W = 20 \\times 5{,}0 \\times \\cos 60^\\circ = 20 \\times 5{,}0 \\times 0{,}5 = 50\\) J."
         },
         {
           "type": "meerkeuze",
@@ -5616,7 +5616,7 @@
           "opties": [
             "arbeid wordt uitgedrukt in joule",
             "arbeid is negatief als de kracht tegen de verplaatsing in werkt",
-            "bij een niet-constante kracht reken je met een integraal",
+            "bij een veranderlijke \\(F\\) reken je \\(\\int F\\,\\mathrm{d}x\\)",
             "arbeid is een vector en heeft dus een richting"
           ],
           "antwoord": [
@@ -5663,36 +5663,36 @@
       "vragen": [
         {
           "type": "meerkeuze",
-          "vraag": "Hoe bereken je de kinetische energie van een lichaam?",
+          "vraag": "Hoe bereken je de kinetische energie \\(E_{k}\\) van een lichaam?",
           "opties": [
-            "een half maal de massa maal het kwadraat van de snelheid",
-            "de massa maal de snelheid",
-            "de massa maal het kwadraat van de snelheid",
-            "een half maal de massa maal de snelheid"
+            "\\(E_{k} = \\tfrac{1}{2}m\\,v^{2}\\)",
+            "\\(E_{k} = m\\,v\\)",
+            "\\(E_{k} = m\\,v^{2}\\)",
+            "\\(E_{k} = \\tfrac{1}{2}m\\,v\\)"
           ],
           "antwoord": 0,
           "uitleg": "Door dat kwadraat heeft twee keer zo snel rijden vier keer zo veel energie. Dat is waarom een botsing bij hoge snelheid zo veel zwaarder is."
         },
         {
           "type": "meerkeuze",
-          "vraag": "Hoeveel kinetische energie heeft een auto van 1000 kg die 20 m/s rijdt?",
+          "vraag": "Hoeveel kinetische energie heeft een auto van \\(1{,}0 \\times 10^{3}\\) kg die \\(20\\) m/s rijdt?",
           "opties": [
-            "200 000 J",
-            "20 000 J",
-            "400 000 J",
-            "10 000 J"
+            "\\(2{,}0 \\times 10^{5}\\) J",
+            "\\(2{,}0 \\times 10^{4}\\) J",
+            "\\(4{,}0 \\times 10^{5}\\) J",
+            "\\(1{,}0 \\times 10^{4}\\) J"
           ],
           "antwoord": 0,
-          "uitleg": "Een half maal 1000 maal 400 is 200 000 joule, dus 200 kilojoule."
+          "uitleg": "\\(E_{k} = \\tfrac{1}{2} \\times 1000 \\times 400 = 2{,}0 \\times 10^{5}\\) J, dus \\(200\\) kJ."
         },
         {
           "type": "meerkeuze",
           "vraag": "Welke uitspraken over kinetische en potentiële energie zijn juist? Kruis alles aan wat juist is.",
           "opties": [
-            "kinetische energie is de helft van de massa maal het kwadraat van de snelheid",
-            "potentiële energie is de massa maal g maal de hoogte",
-            "twee keer zo snel betekent vier keer zoveel kinetische energie",
-            "potentiële energie hangt ook van de snelheid af"
+            "\\(E_{k} = \\tfrac{1}{2}m\\,v^{2}\\)",
+            "\\(E_{p} = m\\,g\\,h\\)",
+            "dubbele \\(v\\) geeft vier keer zoveel \\(E_{k}\\)",
+            "\\(E_{p}\\) hangt ook van \\(v\\) af"
           ],
           "antwoord": [
             0,
@@ -5709,7 +5709,7 @@
             "mgh",
             "m g h"
           ],
-          "uitleg": "Ze is massa maal g maal hoogte. Welke hoogte je als nulpunt kiest, mag je zelf bepalen, want alleen het verschil telt."
+          "uitleg": "\\(E_{p} = m\\,g\\,h\\). Welke hoogte je als nulpunt kiest, mag je zelf bepalen, want alleen het verschil \\(\\Delta E_{p}\\) telt."
         },
         {
           "type": "meerkeuze",
@@ -5721,7 +5721,7 @@
             "3000 J"
           ],
           "antwoord": 0,
-          "uitleg": "Massa maal g maal hoogte: 2 maal 10 maal 15 is 300 joule."
+          "uitleg": "\\(E_{p} = m\\,g\\,h = 2 \\times 10 \\times 15 = 300\\) J."
         },
         {
           "type": "meerkeuze",
@@ -5733,22 +5733,22 @@
             "ongeveer 300 m/s"
           ],
           "antwoord": 0,
-          "uitleg": "Alle 300 joule wordt kinetische energie: 300 is een half maal 2 maal v kwadraat, dus v kwadraat is 300 en v is ongeveer 17 meter per seconde."
+          "uitleg": "Alle \\(300\\) J wordt kinetische energie: \\(m\\,g\\,h = \\tfrac{1}{2}m\\,v^{2}\\), dus \\(v = \\sqrt{2gh} = \\sqrt{300} \\approx 17\\) m/s. De massa valt weg."
         },
         {
           "type": "waarofniet",
           "vraag": "De potentiële energie van een veer is recht evenredig met haar uitrekking zelf.",
           "antwoord": false,
-          "uitleg": "Ze gaat met het kwádraat van die uitrekking: ze is een half maal k maal de uitrekking in het kwadraat. Twee keer zo ver uitrekken slaat dus vier keer zo veel energie op."
+          "uitleg": "Ze gaat met het kwádraat van de uitrekking: \\(E_{\\text{veer}} = \\tfrac{1}{2}k\\,x^{2}\\). Twee keer zo ver uitrekken slaat dus vier keer zo veel energie op."
         },
         {
           "type": "meerkeuze",
           "vraag": "Wat zegt het arbeid-energietheorema?",
           "opties": [
-            "de totale arbeid op een lichaam is gelijk aan zijn verandering van kinetische energie",
-            "de totale arbeid op een lichaam is gelijk aan zijn potentiële energie",
-            "de arbeid van een kracht is altijd gelijk aan nul",
-            "de arbeid is de kinetische energie gedeeld door de tijd"
+            "\\(W_{\\text{tot}} = \\Delta E_{k}\\)",
+            "\\(W_{\\text{tot}} = E_{p}\\)",
+            "\\(W = 0\\) voor elke kracht",
+            "\\(W = \\dfrac{E_{k}}{t}\\)"
           ],
           "antwoord": 0,
           "uitleg": "Remt een lichaam af, dan is de totale arbeid negatief. Daarom kan je er de eindsnelheid mee berekenen zonder de tijd te kennen."
@@ -5763,7 +5763,7 @@
             "50 m/s"
           ],
           "antwoord": 0,
-          "uitleg": "Stel m maal g maal h gelijk aan een half m maal v kwadraat; de massa valt weg. Dan is v de wortel uit 2 maal 10 maal 5, dus 10 meter per seconde."
+          "uitleg": "Stel \\(m\\,g\\,h = \\tfrac{1}{2}m\\,v^{2}\\); de massa valt weg en er blijft \\(v = \\sqrt{2gh} = \\sqrt{2 \\times 10 \\times 5} = 10\\) m/s over."
         },
         {
           "type": "waarofniet",
@@ -5775,9 +5775,9 @@
           "type": "meerkeuze",
           "vraag": "Welke uitspraken over vermogen zijn juist? Kruis alles aan wat juist is.",
           "opties": [
-            "het is de arbeid gedeeld door de tijd",
+            "\\(P = \\dfrac{W}{t}\\)",
             "het staat in watt",
-            "één watt is één joule per seconde",
+            "\\(1\\ \\text{W} = 1\\ \\text{J/s}\\)",
             "het staat in joule"
           ],
           "antwoord": [
@@ -5812,7 +5812,7 @@
             "de energie die een lichaam in totaal bevat"
           ],
           "antwoord": 0,
-          "uitleg": "De eenheid is de watt, en één watt is één joule per seconde. Twee motoren kunnen dezelfde arbeid leveren en toch een ander vermogen hebben."
+          "uitleg": "\\(P = \\dfrac{W}{t}\\), in watt, en \\(1\\ \\text{W} = 1\\ \\text{J/s}\\). Twee motoren kunnen dezelfde arbeid leveren en toch een ander vermogen hebben."
         },
         {
           "type": "invultekst",
@@ -5826,15 +5826,15 @@
         },
         {
           "type": "meerkeuze",
-          "vraag": "Een lift levert 60 000 J arbeid in 20 s. Hoe groot is zijn vermogen?",
+          "vraag": "Een lift levert \\(6{,}0 \\times 10^{4}\\) J arbeid in \\(20\\) s. Hoe groot is zijn vermogen?",
           "opties": [
-            "3000 W",
-            "1 200 000 W",
-            "300 W",
-            "0,0003 W"
+            "\\(3{,}0 \\times 10^{3}\\) W",
+            "\\(1{,}2 \\times 10^{6}\\) W",
+            "\\(3{,}0 \\times 10^{2}\\) W",
+            "\\(3{,}3 \\times 10^{-4}\\) W"
           ],
           "antwoord": 0,
-          "uitleg": "Deel de arbeid door de tijd: 60 000 gedeeld door 20 is 3000 watt, dus 3 kilowatt."
+          "uitleg": "\\(P = \\dfrac{W}{t} = \\dfrac{6{,}0 \\times 10^{4}}{20} = 3{,}0 \\times 10^{3}\\) W, dus \\(3\\) kW."
         },
         {
           "type": "waarofniet",
@@ -5846,13 +5846,13 @@
           "type": "meerkeuze",
           "vraag": "Hoeveel joule is één kilowattuur?",
           "opties": [
-            "3 600 000 J",
-            "1000 J",
-            "3600 J",
-            "60 000 J"
+            "\\(3{,}6 \\times 10^{6}\\) J",
+            "\\(1{,}0 \\times 10^{3}\\) J",
+            "\\(3{,}6 \\times 10^{3}\\) J",
+            "\\(6{,}0 \\times 10^{4}\\) J"
           ],
           "antwoord": 0,
-          "uitleg": "Duizend watt gedurende 3600 seconden: 1000 maal 3600 is 3,6 miljoen joule. Zo rekent de elektriciteitsmeter thuis."
+          "uitleg": "\\(E = P\\,t = 1000 \\times 3600 = 3{,}6 \\times 10^{6}\\) J. Zo rekent de elektriciteitsmeter thuis."
         },
         {
           "type": "meerkeuze",
@@ -5870,7 +5870,7 @@
           "type": "waarofniet",
           "vraag": "In een gesloten systeem zonder wrijving blijft de som van de kinetische en de potentiële energie gelijk.",
           "antwoord": true,
-          "uitleg": "Dat is de wet van behoud van mechanische energie. Met wrijving klopt die som niet meer, want er verdwijnt energie als warmte."
+          "uitleg": "Dat is het behoud van mechanische energie: \\(E_{k} + E_{p}\\) blijft constant. Met wrijving klopt die som niet meer, want er verdwijnt energie als warmte."
         },
         {
           "type": "meerkeuze",
@@ -5882,7 +5882,7 @@
             "de energie blijft gelijk, want wrijving telt niet mee"
           ],
           "antwoord": 0,
-          "uitleg": "De arbeid van de wrijving is precies de energie die als warmte verdwijnt. Daarom komt de kist trager beneden dan zonder wrijving."
+          "uitleg": "Dan geldt \\(E_{p} = E_{k} + Q\\), met \\(Q = \\lvert W_{\\text{wrijving}} \\rvert\\) de energie die als warmte verdwijnt. Daarom komt de kist trager beneden dan zonder wrijving."
         }
       ]
     },
