@@ -6134,11 +6134,11 @@
       "vragen": [
         {
           "type": "meerkeuze",
-          "vraag": "Hoe ziet de grafiek van een normale verdeling eruit?",
+          "vraag": "Hoe ziet de grafiek van een normale verdeling \\(N(\\mu, \\sigma^{2})\\) eruit?",
           "opties": [
-            "klokvormig en symmetrisch rond het gemiddelde",
+            "klokvormig en symmetrisch rond \\(\\mu\\)",
             "klokvormig maar met een lange staart naar rechts",
-            "een rechte die gelijkmatig stijgt tot aan het gemiddelde",
+            "een rechte die gelijkmatig stijgt tot aan \\(\\mu\\)",
             "een trapjeslijn met één stap per waarde"
           ],
           "antwoord": 0,
@@ -6148,37 +6148,37 @@
           "type": "meerkeuze",
           "vraag": "Wat bepaalt waar de top van de Gausskromme ligt?",
           "opties": [
-            "het gemiddelde",
-            "de standaardafwijking",
-            "het aantal metingen",
+            "het gemiddelde \\(\\mu\\)",
+            "de standaardafwijking \\(\\sigma\\)",
+            "het aantal metingen \\(n\\)",
             "de grootste meetwaarde"
           ],
           "antwoord": 0,
-          "uitleg": "Het gemiddelde schuift de kromme naar links of naar rechts. De standaardafwijking maakt haar breder of smaller."
+          "uitleg": "\\(\\mu\\) schuift de kromme naar links of naar rechts. \\(\\sigma\\) maakt haar breder of smaller."
         },
         {
           "type": "invultekst",
-          "vraag": "Een meting is precies gelijk aan het gemiddelde. Welke z-score heeft ze? Schrijf het getal.",
+          "vraag": "Een meting is precies gelijk aan \\(\\mu\\). Welke z-score heeft ze? Schrijf het getal.",
           "antwoord": [
             "0",
             "nul"
           ],
-          "uitleg": "De z-score meet hoeveel standaardafwijkingen je van het gemiddelde af zit. Op het gemiddelde zelf is dat nul."
+          "uitleg": "De z-score meet hoeveel standaardafwijkingen je van \\(\\mu\\) af zit. Op \\(\\mu\\) zelf is dat nul."
         },
         {
           "type": "waarofniet",
-          "vraag": "De standaardafwijking bepaalt hoe breed de Gausskromme is.",
+          "vraag": "De standaardafwijking \\(\\sigma\\) bepaalt hoe breed de Gausskromme is.",
           "antwoord": true,
-          "uitleg": "Een kleine standaardafwijking geeft een smalle, hoge klok; een grote geeft een brede, platte."
+          "uitleg": "Een kleine \\(\\sigma\\) geeft een smalle, hoge klok; een grote \\(\\sigma\\) geeft een brede, platte."
         },
         {
           "type": "meerkeuze",
-          "vraag": "Hoe bereken je de z-score van een meting?",
+          "vraag": "Welke formule geeft de z-score van een meting \\(x\\)?",
           "opties": [
-            "het verschil met het gemiddelde, gedeeld door de standaardafwijking",
-            "het verschil met het gemiddelde, maal de standaardafwijking ervan",
-            "de meting gedeeld door het gemiddelde van alle metingen",
-            "de meting min de standaardafwijking van de verdeling"
+            "\\(z = \\dfrac{x - \\mu}{\\sigma}\\)",
+            "\\(z = \\dfrac{x - \\sigma}{\\mu}\\)",
+            "\\(z = (x - \\mu) \\cdot \\sigma\\)",
+            "\\(z = \\dfrac{x}{\\mu}\\)"
           ],
           "antwoord": 0,
           "uitleg": "Zo wordt elke verdeling omgezet naar de standaardnormale, en kan je metingen uit verschillende groepen vergelijken."
@@ -6187,67 +6187,67 @@
           "type": "meerkeuze",
           "vraag": "Hoe groot is de totale oppervlakte onder een Gausskromme?",
           "opties": [
-            "één",
-            "honderd",
-            "nul",
-            "gelijk aan het gemiddelde"
+            "\\(1\\)",
+            "\\(100\\)",
+            "\\(0\\)",
+            "gelijk aan \\(\\mu\\)"
           ],
           "antwoord": 0,
-          "uitleg": "Alle kans samen is één. Een kans is dus een stuk van die oppervlakte."
+          "uitleg": "Alle kans samen is \\(1\\). Een kans is dus een stuk van die oppervlakte."
         },
         {
           "type": "waarofniet",
-          "vraag": "Bij een continue verdeling is de kans op precies één welbepaalde waarde gelijk aan nul.",
+          "vraag": "Bij een continue verdeling geldt \\(P(X = a) = 0\\) voor elke afzonderlijke waarde \\(a\\).",
           "antwoord": true,
           "uitleg": "Een enkele waarde heeft geen breedte, dus ook geen oppervlakte. Daarom reken je altijd met intervallen."
         },
         {
           "type": "invultekst",
-          "vraag": "Welk gemiddelde heeft de standaardnormale verdeling? Schrijf het getal.",
+          "vraag": "Welk gemiddelde \\(\\mu\\) heeft de standaardnormale verdeling? Schrijf het getal.",
           "antwoord": [
             "0",
             "nul"
           ],
-          "uitleg": "Ze is de normale verdeling na omzetting naar z-scores."
+          "uitleg": "Ze is de normale verdeling na omzetting naar z-scores, dus \\(N(0, 1)\\)."
         },
         {
           "type": "meerkeuze",
-          "vraag": "Welke standaardafwijking heeft de standaardnormale verdeling?",
+          "vraag": "Welke standaardafwijking \\(\\sigma\\) heeft de standaardnormale verdeling?",
           "opties": [
-            "één",
-            "nul",
-            "honderd",
+            "\\(1\\)",
+            "\\(0\\)",
+            "\\(100\\)",
             "dezelfde als de oorspronkelijke"
           ],
           "antwoord": 0,
-          "uitleg": "Gemiddelde nul en standaardafwijking één, zodat één eenheid op de as precies één standaardafwijking is."
+          "uitleg": "Dus \\(N(0, 1)\\): één eenheid op de as is precies één standaardafwijking."
         },
         {
           "type": "waarofniet",
-          "vraag": "Ongeveer vijfennegentig procent van de metingen ligt binnen één standaardafwijking van het gemiddelde.",
+          "vraag": "Ongeveer \\(95\\,\\%\\) van de metingen ligt binnen één standaardafwijking van \\(\\mu\\).",
           "antwoord": false,
-          "uitleg": "Binnen één standaardafwijking ligt ongeveer achtenzestig procent. Vijfennegentig procent hoort bij twee standaardafwijkingen."
+          "uitleg": "Binnen \\(\\mu \\pm \\sigma\\) ligt ongeveer \\(68\\,\\%\\). De \\(95\\,\\%\\) hoort bij \\(\\mu \\pm 2\\sigma\\)."
         },
         {
           "type": "meerkeuze",
-          "vraag": "Hoeveel procent van de metingen ligt ongeveer binnen twee standaardafwijkingen van het gemiddelde?",
+          "vraag": "Hoeveel procent van de metingen ligt ongeveer binnen \\(\\mu \\pm 2\\sigma\\)?",
           "opties": [
-            "vijfennegentig",
-            "achtenzestig",
-            "negenennegentig",
-            "vijftig"
+            "\\(95\\,\\%\\)",
+            "\\(68\\,\\%\\)",
+            "\\(99\\,\\%\\)",
+            "\\(50\\,\\%\\)"
           ],
           "antwoord": 0,
-          "uitleg": "Dat is de bekende vuistregel: ongeveer achtenzestig, vijfennegentig en negenennegentig komma zeven procent bij één, twee en drie standaardafwijkingen."
+          "uitleg": "Dat is de vuistregel: ongeveer \\(68\\,\\%\\), \\(95\\,\\%\\) en \\(99{,}7\\,\\%\\) bij één, twee en drie standaardafwijkingen."
         },
         {
           "type": "invultekst",
-          "vraag": "Het gemiddelde is zeventig en de standaardafwijking vijf. Welke z-score heeft een meting van tachtig? Schrijf het getal.",
+          "vraag": "Er geldt \\(\\mu = 70\\) en \\(\\sigma = 5\\). Welke z-score heeft een meting van \\(80\\)? Schrijf het getal.",
           "antwoord": [
             "2",
             "twee"
           ],
-          "uitleg": "Tien verschil gedeeld door vijf."
+          "uitleg": "\\(z = \\dfrac{80 - 70}{5} = 2\\)."
         },
         {
           "type": "meerkeuze",
@@ -6256,7 +6256,7 @@
             "je kijkt of het histogram ongeveer klokvormig is",
             "je kijkt of alle waarden positief zijn",
             "je kijkt of er precies honderd metingen zijn",
-            "je kijkt of het gemiddelde groter is dan nul"
+            "je kijkt of \\(\\mu\\) groter is dan nul"
           ],
           "antwoord": 0,
           "uitleg": "Je kan er ook de dichtheidsfunctie met de geschatte parameters over tekenen en vergelijken."
@@ -6265,16 +6265,16 @@
           "type": "waarofniet",
           "vraag": "Een z-score kan negatief zijn.",
           "antwoord": true,
-          "uitleg": "Dan ligt de meting onder het gemiddelde. Het teken zegt aan welke kant ze zit."
+          "uitleg": "Dan ligt de meting onder \\(\\mu\\). Het teken zegt aan welke kant ze zit."
         },
         {
           "type": "meerkeuze",
-          "vraag": "Wat betekent een z-score van min anderhalf?",
+          "vraag": "Wat betekent \\(z = -1{,}5\\)?",
           "opties": [
-            "de meting ligt anderhalve standaardafwijking onder het gemiddelde",
-            "de meting ligt anderhalve standaardafwijking boven het gemiddelde",
-            "de meting is anderhalve eenheid kleiner dan het gemiddelde",
-            "de kans op die meting is anderhalf procent"
+            "de meting ligt \\(1{,}5\\) standaardafwijking onder \\(\\mu\\)",
+            "de meting ligt \\(1{,}5\\) standaardafwijking boven \\(\\mu\\)",
+            "de meting is \\(1{,}5\\) eenheid kleiner dan \\(\\mu\\)",
+            "de kans op die meting is \\(1{,}5\\,\\%\\)"
           ],
           "antwoord": 0,
           "uitleg": "De z-score telt in standaardafwijkingen, niet in de eenheid van de meting zelf."
@@ -6299,36 +6299,36 @@
         },
         {
           "type": "invultekst",
-          "vraag": "Hoeveel procent van de metingen ligt links van het gemiddelde bij een normale verdeling? Schrijf het getal.",
+          "vraag": "Hoeveel procent van de metingen ligt links van \\(\\mu\\) bij een normale verdeling? Schrijf het getal.",
           "antwoord": [
             "50",
             "vijftig"
           ],
-          "uitleg": "De kromme is symmetrisch om het gemiddelde, dus de oppervlakte valt in twee gelijke helften uiteen."
+          "uitleg": "De kromme is symmetrisch om \\(\\mu\\), dus de oppervlakte valt in twee gelijke helften uiteen."
         },
         {
           "type": "meerkeuze",
-          "vraag": "Twee Gausskrommen hebben hetzelfde gemiddelde, maar de ene is smaller. Wat betekent dat?",
+          "vraag": "Twee Gausskrommen hebben hetzelfde \\(\\mu\\), maar de ene is smaller. Wat betekent dat?",
           "opties": [
-            "bij de smalle liggen de metingen dichter bij het gemiddelde",
-            "bij de smalle liggen de metingen verder van het gemiddelde",
+            "bij de smalle liggen de metingen dichter bij \\(\\mu\\)",
+            "bij de smalle liggen de metingen verder van \\(\\mu\\)",
             "de smalle hoort bij een grotere groep metingen",
             "de smalle heeft een kleinere totale oppervlakte"
           ],
           "antwoord": 0,
-          "uitleg": "Smaller betekent een kleinere standaardafwijking, dus minder spreiding. De oppervlakte blijft bij allebei één."
+          "uitleg": "Smaller betekent een kleinere \\(\\sigma\\), dus minder spreiding. De oppervlakte blijft bij allebei \\(1\\)."
         },
         {
           "type": "meerkeuze",
-          "vraag": "Wat is het verschil tussen het gemiddelde van een populatie en dat van een steekproef?",
+          "vraag": "Wat is het verschil tussen \\(\\mu\\) van een populatie en \\(\\overline{x}\\) van een steekproef?",
           "opties": [
-            "het eerste is de echte waarde, het tweede een schatting ervan",
-            "het eerste is een schatting, het tweede de echte waarde",
-            "het eerste gebruikt meer cijfers na de komma dan het tweede",
+            "\\(\\mu\\) is de echte waarde, \\(\\overline{x}\\) een schatting ervan",
+            "\\(\\mu\\) is een schatting, \\(\\overline{x}\\) de echte waarde",
+            "\\(\\mu\\) gebruikt meer cijfers na de komma dan \\(\\overline{x}\\)",
             "er is geen verschil, het zijn twee namen voor hetzelfde"
           ],
           "antwoord": 0,
-          "uitleg": "Daarom krijgen ze ook een ander symbool. Je kent het populatiegemiddelde meestal niet en schat het uit je steekproef."
+          "uitleg": "Daarom krijgen ze ook een ander symbool. Je kent \\(\\mu\\) meestal niet en schat het uit je steekproef."
         }
       ]
     },
@@ -6363,12 +6363,12 @@
         },
         {
           "type": "invultekst",
-          "vraag": "Een significantieniveau alfa van nul komma nul vijf. Hoeveel procent is dat? Schrijf het getal.",
+          "vraag": "Het significantieniveau is \\(\\alpha = 0{,}05\\). Hoeveel procent is dat? Schrijf het getal.",
           "antwoord": [
             "5",
             "vijf"
           ],
-          "uitleg": "Dat is de kans die je aanvaardt om de nulhypothese onterecht te verwerpen."
+          "uitleg": "Dat is de kans die je aanvaardt om \\(H_{0}\\) onterecht te verwerpen."
         },
         {
           "type": "waarofniet",
@@ -6408,12 +6408,12 @@
         },
         {
           "type": "invultekst",
-          "vraag": "Tussen welke twee getallen ligt de correlatiecoëfficiënt? Schrijf het kleinste.",
+          "vraag": "De correlatiecoëfficiënt \\(r\\) ligt tussen twee getallen. Schrijf het kleinste.",
           "antwoord": [
             "-1",
             "min 1"
           ],
-          "uitleg": "Ze loopt van min één tot plus één. Het teken geeft de richting, de grootte de sterkte van het lineaire verband."
+          "uitleg": "Er geldt \\(-1 \\le r \\le 1\\). Het teken geeft de richting, de grootte de sterkte van het lineaire verband."
         },
         {
           "type": "meerkeuze",
@@ -6429,16 +6429,16 @@
         },
         {
           "type": "waarofniet",
-          "vraag": "De nulhypothese is de uitspraak die je met je onderzoek wil aantonen.",
+          "vraag": "De nulhypothese \\(H_{0}\\) is de uitspraak die je met je onderzoek wil aantonen.",
           "antwoord": false,
-          "uitleg": "Het is net omgekeerd: de nulhypothese is wat je probeert te verwerpen. Wat je wil aantonen, staat in de alternatieve hypothese."
+          "uitleg": "Het is net omgekeerd: \\(H_{0}\\) is wat je probeert te verwerpen. Wat je wil aantonen, staat in \\(H_{1}\\)."
         },
         {
           "type": "meerkeuze",
           "vraag": "Wat is de p-waarde?",
           "opties": [
-            "de kans op zo'n resultaat of extremer, als de nulhypothese waar is",
-            "de kans dat de nulhypothese waar is, gegeven dit ene resultaat",
+            "de kans op zo'n resultaat of extremer, als \\(H_{0}\\) waar is",
+            "de kans dat \\(H_{0}\\) waar is, gegeven dit ene resultaat",
             "de kans dat je onderzoek achteraf herhaalbaar blijkt te zijn",
             "het aandeel van de hele populatie dat in de steekproef zit"
           ],
@@ -6447,27 +6447,27 @@
         },
         {
           "type": "invultekst",
-          "vraag": "De p-waarde is nul komma nul twee en het significantieniveau nul komma nul vijf. Verwerp je de nulhypothese? Schrijf ja of nee.",
+          "vraag": "De p-waarde is \\(0{,}02\\) en \\(\\alpha = 0{,}05\\). Verwerp je \\(H_{0}\\)? Schrijf ja of nee.",
           "antwoord": [
             "ja"
           ],
-          "uitleg": "De p-waarde ligt onder het significantieniveau, dus het resultaat is te onwaarschijnlijk om nog bij de nulhypothese te passen."
+          "uitleg": "Er geldt \\(p < \\alpha\\), dus het resultaat is te onwaarschijnlijk om nog bij \\(H_{0}\\) te passen."
         },
         {
           "type": "meerkeuze",
           "vraag": "Wat is een type I-fout?",
           "opties": [
-            "de nulhypothese verwerpen terwijl ze eigenlijk waar is",
-            "de nulhypothese behouden terwijl ze eigenlijk vals is",
+            "\\(H_{0}\\) verwerpen terwijl ze eigenlijk waar is",
+            "\\(H_{0}\\) behouden terwijl ze eigenlijk vals is",
             "een rekenfout maken bij het bepalen van de p-waarde",
             "de verkeerde alternatieve hypothese kiezen vooraf"
           ],
           "antwoord": 0,
-          "uitleg": "De kans daarop is net het significantieniveau dat je vooraf kiest. Een vals alarm, dus."
+          "uitleg": "De kans daarop is net \\(\\alpha\\), dat je vooraf kiest. Een vals alarm, dus."
         },
         {
           "type": "waarofniet",
-          "vraag": "Een type II-fout is de nulhypothese onterecht niet verwerpen.",
+          "vraag": "Een type II-fout is \\(H_{0}\\) onterecht niet verwerpen.",
           "antwoord": true,
           "uitleg": "Er was wel degelijk een effect, maar je onderzoek vond het niet. Dat gebeurt vaker bij een kleine steekproef."
         },
@@ -6489,7 +6489,7 @@
           "opties": [
             "of er een verband is tussen twee numerieke grootheden",
             "hoe vaak elke afzonderlijke waarde voorkomt",
-            "hoeveel procent van de metingen boven het gemiddelde ligt",
+            "hoeveel procent van de metingen boven \\(\\mu\\) ligt",
             "wat de standaardafwijking van de gegevens is"
           ],
           "antwoord": 0,
@@ -6497,18 +6497,18 @@
         },
         {
           "type": "waarofniet",
-          "vraag": "Een correlatiecoëfficiënt dicht bij nul wijst op een sterk lineair verband.",
+          "vraag": "Een correlatiecoëfficiënt \\(r\\) dicht bij \\(0\\) wijst op een sterk lineair verband.",
           "antwoord": false,
-          "uitleg": "Dicht bij nul betekent net dat er nauwelijks lineair verband is. Sterk is ze als ze dicht bij min één of plus één ligt."
+          "uitleg": "Dicht bij \\(0\\) betekent net dat er nauwelijks lineair verband is. Sterk is ze als \\(r\\) dicht bij \\(-1\\) of \\(1\\) ligt."
         },
         {
           "type": "invultekst",
-          "vraag": "Hoe noemen we de kans die je vooraf aanvaardt om de nulhypothese onterecht te verwerpen? Schrijf het woord.",
+          "vraag": "Hoe noemen we \\(\\alpha\\), de kans die je vooraf aanvaardt om \\(H_{0}\\) onterecht te verwerpen? Schrijf het woord.",
           "antwoord": [
             "significantieniveau",
             "alfa"
           ],
-          "uitleg": "Meestal kiest men vijf procent, soms één procent als een vals alarm duur uitvalt."
+          "uitleg": "Meestal kiest men \\(0{,}05\\), soms \\(0{,}01\\) als een vals alarm duur uitvalt."
         },
         {
           "type": "meerkeuze",
@@ -6524,10 +6524,10 @@
         },
         {
           "type": "meerkeuze",
-          "vraag": "Je verwerpt de nulhypothese niet. Wat besluit je?",
+          "vraag": "Je verwerpt \\(H_{0}\\) niet. Wat besluit je?",
           "opties": [
-            "er is onvoldoende bewijs tegen de nulhypothese gevonden",
-            "de nulhypothese is hiermee bewezen waar",
+            "er is onvoldoende bewijs tegen \\(H_{0}\\) gevonden",
+            "\\(H_{0}\\) is hiermee bewezen waar",
             "het onderzoek is mislukt en moet overgedaan worden",
             "de alternatieve hypothese is hiermee verworpen"
           ],

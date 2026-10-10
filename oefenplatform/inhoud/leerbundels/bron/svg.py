@@ -9199,3 +9199,123 @@ def binomiaalstaven(breedte=470):
         d.append(_tekst(gx, top - 14, "E(X) = 5", 10, AMBER, "middle", True))
         d.append(_tekst(ox + paneel, oy + 28, "k", 10, DIM, "end"))
     return _svg(breedte, h, "\n".join(d))
+
+
+def vuistregel(breedte=470):
+    """De Gausskromme met de drie percentages van de vuistregel eronder.
+
+    De klok is de echte dichtheidsfunctie, de banden liggen precies op
+    één, twee en drie keer sigma, en de percentages zijn de bekende
+    68, 95 en 99,7.
+    """
+    import math
+    h = 252
+    links, rechts = 34, breedte - 22
+    as_y, top = 168, 40
+    span = 3.6
+
+    def px(z):
+        return links + (z + span) / (2 * span) * (rechts - links)
+
+    def py(z):
+        return as_y - math.exp(-0.5 * z * z) * (as_y - top)
+
+    d = []
+    banden = ((-1, 1, 0.30), (-2, -1, 0.20), (1, 2, 0.20), (-3, -2, 0.11), (2, 3, 0.11))
+    for a, b, dek in banden:
+        stap = (b - a) / 60
+        pad = [f"M {px(a):.1f} {as_y}"]
+        pad += [f"L {px(a + i * stap):.1f} {py(a + i * stap):.1f}" for i in range(61)]
+        pad.append(f"L {px(b):.1f} {as_y} Z")
+        d.append(f'<path d="{" ".join(pad)}" fill="{FOREST}" fill-opacity="{dek}"/>')
+
+    lijn = " ".join(f"{'M' if i == 0 else 'L'} {px(-span + i * 2 * span / 240):.1f} "
+                    f"{py(-span + i * 2 * span / 240):.1f}" for i in range(241))
+    d.append(f'<path d="{lijn}" fill="none" stroke="{FOREST}" stroke-width="2.2"/>')
+    d.append(f'<line x1="{links - 6}" y1="{as_y}" x2="{rechts + 6}" y2="{as_y}" '
+             f'stroke="{INK}" stroke-width="1.6"/>')
+
+    namen = {-3: "μ−3σ", -2: "μ−2σ", -1: "μ−σ",
+             0: "μ", 1: "μ+σ", 2: "μ+2σ", 3: "μ+3σ"}
+    for z in (-3, -2, -1, 0, 1, 2, 3):
+        d.append(f'<line x1="{px(z):.1f}" y1="{as_y - 5}" x2="{px(z):.1f}" y2="{as_y + 5}" '
+                 f'stroke="{DIM}" stroke-width="1.2"/>')
+        d.append(_tekst(px(z), as_y + 19, namen[z], 9.5, DIM, "middle", z == 0))
+
+    d.append(_tekst(px(0), 128, "68 %", 11.5, DARK, "middle", True))
+
+    def haak(z, y, label):
+        a, b = px(-z), px(z)
+        d.append(f'<path d="M{a:.1f} {y-5} V{y} H{b:.1f} V{y-5}" fill="none" '
+                 f'stroke="{AMBER}" stroke-width="1.4"/>')
+        d.append(_tekst((a + b) / 2, y + 14, label, 10, AMBER, "middle", True))
+
+    haak(2, 206, "95 %")
+    haak(3, 236, "99,7 %")
+    return _svg(breedte, h, "\n".join(d))
+
+
+def correlatiewolken(breedte=470):
+    """Drie puntenwolken naast elkaar, met hun correlatiecoëfficiënt erbij.
+
+    Links een sterk stijgend verband, in het midden nauwelijks verband, rechts
+    een sterk dalend verband. De waarde van r wordt uit de punten zelf
+    gerekend, dus het cijfer onder een wolk hoort altijd bij die wolk.
+    """
+    import math
+    h = 178
+    marge, tussen = 8, 14
+    paneel = (breedte - 2 * marge - 2 * tussen) / 3
+    xs = list(range(1, 13))
+    schok_a = (1.5, -2.2, 1.0, 2.6, -1.3, 0.5, -2.4, 1.9, -0.8, 2.1, -1.7, 1.2)
+    schok_b = (3.1, -2.4, 1.2, -3.0, 2.7, -1.1, 3.4, -2.8, 0.6, 2.2, -3.3, 2.6)
+    schok_c = (-0.8, 1.0, -0.4, 0.7, -1.2, 0.9, -0.6, 1.3, -1.0, 0.5, -0.9, 0.8)
+    sets = (
+        [(x, 1.0 + 0.75 * x + s) for x, s in zip(xs, schok_a)],
+        [(x, 5.5 + s) for x, s in zip(xs, schok_b)],
+        [(x, 10.5 - 0.7 * x + s) for x, s in zip(xs, schok_c)],
+    )
+
+    def correlatie(punten):
+        n = len(punten)
+        gx = sum(p[0] for p in punten) / n
+        gy = sum(p[1] for p in punten) / n
+        boven = sum((p[0] - gx) * (p[1] - gy) for p in punten)
+        onder = math.sqrt(sum((p[0] - gx) ** 2 for p in punten)
+                          * sum((p[1] - gy) ** 2 for p in punten))
+        return boven / onder
+
+    d = []
+    for i, punten in enumerate(sets):
+        ox = marge + i * (paneel + tussen)
+        oy, top = 152, 26
+        xmin, xmax = 0, 13
+        ymin, ymax = -1, 11
+
+        def px(v, ox=ox):
+            return ox + 20 + (v - xmin) / (xmax - xmin) * (paneel - 26)
+
+        def py(v, oy=oy, top=top):
+            return oy - (v - ymin) / (ymax - ymin) * (oy - top)
+
+        d.append(f'<line x1="{ox + 20}" y1="{top - 4}" x2="{ox + 20}" y2="{oy}" '
+                 f'stroke="{INK}" stroke-width="1.4"/>')
+        d.append(f'<line x1="{ox + 20}" y1="{oy}" x2="{ox + paneel:.1f}" y2="{oy}" '
+                 f'stroke="{INK}" stroke-width="1.4"/>')
+
+        n = len(punten)
+        gx = sum(p[0] for p in punten) / n
+        gy = sum(p[1] for p in punten) / n
+        noemer = sum((p[0] - gx) ** 2 for p in punten)
+        a = sum((p[0] - gx) * (p[1] - gy) for p in punten) / noemer
+        b = gy - a * gx
+        x1, x2 = min(p[0] for p in punten), max(p[0] for p in punten)
+        d.append(f'<line x1="{px(x1):.1f}" y1="{py(a * x1 + b):.1f}" x2="{px(x2):.1f}" '
+                 f'y2="{py(a * x2 + b):.1f}" stroke="{AMBER}" stroke-width="1.8"/>')
+        for x, y in punten:
+            d.append(f'<circle cx="{px(x):.1f}" cy="{py(y):.1f}" r="2.6" fill="{FOREST}"/>')
+
+        r = correlatie(punten)
+        tekst = f"r ≈ {r:.1f}".replace(".", ",").replace("-", "−").replace("−0,0", "0,0")
+        d.append(_tekst(ox + 20 + (paneel - 26) / 2, 16, tekst, 11, DARK, "middle", True))
+    return _svg(breedte, h, "\n".join(d))

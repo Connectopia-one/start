@@ -26,7 +26,7 @@ alles nog in woorden stond en had gelijk: een leerling van de derde graad moet
 
 De omzetting gebeurt thema per thema, samen met de vragen van dat thema, zodat
 een kind in de bundel dezelfde schrijfwijze terugvindt als in de oefening.
-Omgezet: thema 1 tot 15. De andere thema's staan nog in woorden.
+Omgezet: thema 1 tot 16. De andere thema's staan nog in woorden.
 """
 import sys, pathlib
 sys.path.insert(0, str(pathlib.Path(__file__).parent))
@@ -1975,114 +1975,146 @@ BUNDELS["statistiek-normale-verdeling-en-hypothesetoets-beyond"] = dict(
     vak=VAK, niveau=BEYOND, titel="Statistiek: normale verdeling en hypothesetoets",
     onder="De Gausskromme en de z-score, steekproeven en vertekening, samenhang en causaliteit, en toetsen met een p-waarde.",
     secties=[
-        dict(kop="De normale verdeling", blokken=[
-            ("p", "<strong>De grafiek van een normale verdeling is klokvormig en symmetrisch rond het "
-                  "gemiddelde</strong>; die kromme heet de <strong>Gausskromme</strong>. <strong>Het "
-                  "gemiddelde bepaalt waar de top ligt</strong> en <strong>de standaardafwijking bepaalt "
-                  "hoe breed de kromme is</strong>: klein geeft een smalle, hoge klok, groot een brede, "
-                  "platte. Hebben <strong>twee Gausskrommen hetzelfde gemiddelde en is de ene "
-                  "smaller</strong>, dan <strong>liggen bij die smalle de metingen dichter bij het "
-                  "gemiddelde</strong>."),
-            ("p", "<strong>De totale oppervlakte onder een Gausskromme is één</strong>, want alle kans "
-                  "samen is één. <strong>Een kans komt dus overeen met de oppervlakte onder de "
-                  "kromme</strong>; de hoogte alleen zegt niets. Daaruit volgt ook dat <strong>bij een "
-                  "continue verdeling de kans op precies één welbepaalde waarde nul is</strong>: een "
-                  "enkele waarde heeft geen breedte. En <strong>vijftig procent van de metingen ligt links "
-                  "van het gemiddelde</strong>."),
-            ("p", "<strong>De Gausskromme raakt de horizontale as niet.</strong> Ze nadert die wel, maar "
-                  "bereikt haar nooit, dus elke waarde blijft in principe mogelijk. <strong>Of de normale "
-                  "verdeling een geschikt model is, beoordeel je door te kijken of het histogram ongeveer "
-                  "klokvormig is</strong>; je kan er ook de dichtheidsfunctie met de geschatte parameters "
-                  "over tekenen. Is een histogram duidelijk scheef, dan past het model niet."),
+        dict(kop="De Gausskromme", blokken=[
+            ("p", r"""<strong>De grafiek van een normale verdeling \(N(\mu, \sigma^{2})\) is klokvormig en
+                  symmetrisch rond \(\mu\)</strong>; die kromme heet de <strong>Gausskromme</strong>.
+                  <strong>\(\mu\) bepaalt waar de top ligt</strong> en <strong>\(\sigma\) bepaalt hoe
+                  breed de kromme is</strong>: een kleine \(\sigma\) geeft een smalle, hoge klok, een
+                  grote \(\sigma\) een brede, platte."""),
+            ("p", r"""Hebben <strong>twee Gausskrommen hetzelfde \(\mu\) en is de ene smaller</strong>,
+                  dan <strong>liggen bij die smalle de metingen dichter bij \(\mu\)</strong>. De
+                  oppervlakte blijft bij allebei \(1\)."""),
+        ]),
+        dict(kop="Een kans is een oppervlakte", blokken=[
+            ("p", r"""<strong>De totale oppervlakte onder een Gausskromme is \(1\)</strong>, want alle
+                  kans samen is \(1\). <strong>Een kans komt dus overeen met de oppervlakte onder de
+                  kromme</strong>; de hoogte alleen zegt niets. Daaruit volgt ook dat <strong>bij een
+                  continue verdeling \(P(X = a) = 0\) is voor elke afzonderlijke waarde \(a\)</strong>:
+                  een enkele waarde heeft geen breedte, dus reken je altijd met intervallen. En
+                  <strong>\(50\,\%\), dus vijftig procent, van de metingen ligt links van
+                  \(\mu\)</strong>."""),
+        ]),
+        dict(kop="De staarten van de kromme", blokken=[
+            ("p", r"""<strong>De Gausskromme raakt de horizontale as niet.</strong> Ze nadert die wel,
+                  maar bereikt haar nooit, dus elke waarde blijft in principe mogelijk."""),
+        ]),
+        dict(kop="Een kans in beeld", blokken=[
+            ("fig", svg.normaalkromme(70, 5, tot=80, xlabel="score"),
+             "Een verdeling met μ = 70 en σ = 5. Het gekleurde stuk loopt tot de score 80."),
+            ("p", r"""Het gekleurde stuk is \(P(X < 80)\). Je leest het af als een oppervlakte, niet als
+                  een hoogte, en je ziet meteen dat een score van \(80\) hoog zit: bijna alle
+                  oppervlakte ligt links ervan."""),
         ]),
         dict(kop="De z-score", blokken=[
-            ("p", "<strong>De z-score bereken je als het verschil met het gemiddelde, gedeeld door de "
-                  "standaardafwijking.</strong> Ze meet dus <strong>hoeveel standaardafwijkingen je van "
-                  "het gemiddelde af zit</strong>, en daardoor kan je metingen uit verschillende groepen "
-                  "vergelijken. <strong>Een meting die precies gelijk is aan het gemiddelde heeft z-score "
-                  "nul</strong>, en bij een <strong>gemiddelde van zeventig met standaardafwijking vijf "
-                  "heeft een meting van tachtig z-score twee</strong>."),
-            ("p", "<strong>Een z-score kan negatief zijn</strong>: dan ligt de meting onder het "
-                  "gemiddelde. <strong>Een z-score van min anderhalf betekent dat de meting anderhalve "
-                  "standaardafwijking onder het gemiddelde ligt</strong>; de z-score telt in "
-                  "standaardafwijkingen, niet in de eenheid van de meting zelf."),
-            ("p", "<strong>De standaardnormale verdeling heeft gemiddelde nul en standaardafwijking "
-                  "één.</strong> Ze is de normale verdeling na omzetting naar z-scores, zodat één eenheid "
-                  "op de as precies één standaardafwijking is."),
-            ("p", tabel(["Binnen hoeveel standaardafwijkingen", "Ongeveer welk deel van de metingen"], [
-                ["één", "achtenzestig procent"],
-                ["twee", "vijfennegentig procent"],
-                ["drie", "negenennegentig komma zeven procent"],
-            ])),
-            ("kader", "Let op de eerste rij: <strong>binnen één standaardafwijking ligt ongeveer "
-                      "achtenzestig procent, niet vijfennegentig.</strong> Vijfennegentig procent hoort bij "
-                      "twee standaardafwijkingen."),
+            ("p", r"""<strong>De z-score bereken je als \(z = \dfrac{x - \mu}{\sigma}\).</strong> Ze meet
+                  dus <strong>hoeveel standaardafwijkingen je van \(\mu\) af zit</strong>, en daardoor kan
+                  je metingen uit verschillende groepen vergelijken. <strong>Een meting die precies gelijk
+                  is aan \(\mu\) heeft \(z = 0\)</strong>, en bij <strong>\(\mu = 70\) en \(\sigma = 5\)
+                  heeft een meting van \(80\) als z-score \(z = \dfrac{80 - 70}{5} = 2\)</strong>."""),
+            ("p", r"""<strong>Een z-score kan negatief zijn</strong>: dan ligt de meting onder \(\mu\).
+                  <strong>\(z = -1{,}5\) betekent dat de meting \(1{,}5\) standaardafwijking onder
+                  \(\mu\) ligt</strong>; de z-score telt in standaardafwijkingen, niet in de eenheid van
+                  de meting zelf."""),
         ]),
-        dict(kop="Steekproeven", blokken=[
-            ("p", "<strong>Het gemiddelde van een populatie is de echte waarde, dat van een steekproef een "
-                  "schatting ervan.</strong> Daarom krijgen ze een ander symbool: je kent het "
-                  "populatiegemiddelde meestal niet."),
-            ("p", "<strong>Een steekproef is representatief als ze op de belangrijke kenmerken op de "
-                  "populatie lijkt.</strong> Grootte alleen helpt niet: een heel grote maar scheve "
-                  "steekproef blijft scheef. <strong>Randomisatie betekent iedereen uit de populatie "
-                  "evenveel kans geven om gekozen te worden</strong>, en dat is de beste bescherming tegen "
-                  "vertekening."),
-            ("p", "<strong>Een steekproeffout komt door het toeval van de trekking, een niet-steekproeffout "
-                  "door de opzet.</strong> Toeval kan je inschatten en kleiner maken: <strong>een grotere "
-                  "aselecte steekproef geeft doorgaans een betrouwbaarder resultaat</strong>. Een fout in "
-                  "de opzet blijft ook bij duizend deelnemers bestaan."),
-            ("p", "Laat een krant haar lezers online stemmen over een stelling, dan heb je "
-                  "<strong>vrijwillige respons</strong>: wie zich sterk betrokken voelt, stemt vaker. De "
-                  "groep die antwoordt is dan niet toevallig samengesteld, en meer stemmen lost dat niet op."),
+        dict(kop="De standaardnormale verdeling", blokken=[
+            ("p", r"""<strong>De standaardnormale verdeling is \(N(0, 1)\)</strong>, dus met
+                  <strong>\(\mu = 0\)</strong> en <strong>\(\sigma = 1\)</strong>. Ze is de normale
+                  verdeling na omzetting naar z-scores, zodat één eenheid op de as precies één
+                  standaardafwijking is."""),
+        ]),
+        dict(kop="De vuistregel", blokken=[
+            ("fig", svg.vuistregel(),
+             "De drie banden rond μ, met het deel van de metingen dat er telkens in valt."),
+            ("p", r"""Binnen <strong>\(\mu \pm \sigma\)</strong> ligt ongeveer <strong>\(68\,\%\)</strong>
+                  van de metingen, binnen <strong>\(\mu \pm 2\sigma\)</strong> ongeveer
+                  <strong>\(95\,\%\)</strong> en binnen \(\mu \pm 3\sigma\) ongeveer \(99{,}7\,\%\). Let
+                  op de eerste: <strong>binnen één standaardafwijking is het achtenzestig procent, niet
+                  vijfennegentig</strong>."""),
+        ]),
+        dict(kop="Past het model wel?", blokken=[
+            ("p", r"""<strong>Of de normale verdeling een geschikt model is voor je gegevens,
+                  beoordeel je door te kijken of het histogram ongeveer klokvormig is</strong>; je kan er ook de dichtheidsfunctie
+                  met de geschatte parameters over tekenen. Is een histogram duidelijk scheef, dan past
+                  het model niet, hoe mooi het rekenwerk er ook uitziet."""),
+        ]),
+        dict(kop="Populatie en steekproef", blokken=[
+            ("p", r"""<strong>Het gemiddelde \(\mu\) van een populatie is de echte waarde, het gemiddelde
+                  \(\overline{x}\) van een steekproef een schatting ervan.</strong> Daarom krijgen ze een
+                  ander symbool: je kent \(\mu\) meestal niet."""),
+            ("p", r"""<strong>Een steekproef is representatief als ze op de belangrijke kenmerken op de
+                  populatie lijkt.</strong> Grootte alleen helpt niet: een heel grote maar scheve
+                  steekproef blijft scheef. <strong>Randomisatie betekent iedereen uit de populatie
+                  evenveel kans geven om gekozen te worden</strong>, en dat is de beste bescherming tegen
+                  vertekening."""),
+        ]),
+        dict(kop="Twee soorten fouten in een onderzoeksopzet", blokken=[
+            ("p", r"""<strong>Een steekproeffout komt door het toeval van de trekking, een
+                  niet-steekproeffout door de opzet.</strong> Toeval kan je inschatten en kleiner maken:
+                  <strong>een grotere aselecte steekproef geeft doorgaans een betrouwbaarder
+                  resultaat</strong>. Een fout in de opzet blijft ook bij duizend deelnemers bestaan."""),
+            ("p", r"""Laat een krant haar lezers online stemmen over een stelling, dan heb je
+                  <strong>vrijwillige respons</strong>: wie zich sterk betrokken voelt, stemt vaker. De
+                  groep die antwoordt is dan niet toevallig samengesteld, en meer stemmen lost dat niet
+                  op."""),
+        ]),
+        dict(kop="Spreidingsdiagram en trendlijn", blokken=[
+            ("p", r"""<strong>In een spreidingsdiagram lees je af of er een verband is tussen twee
+                  numerieke grootheden.</strong> Elk punt is één waarneming met twee kenmerken. Een
+                  <strong>trendlijn is een rechte of kromme die het patroon in de puntenwolk
+                  samenvat</strong>; ze gaat meestal niet door de punten zelf, maar loopt er zo dicht
+                  mogelijk langs."""),
+        ]),
+        dict(kop="De correlatiecoëfficiënt", blokken=[
+            ("fig", svg.correlatiewolken(),
+             "Drie puntenwolken met hun trendlijn. Boven elke wolk staat de r die uit die punten volgt."),
+            ("p", r"""<strong>De correlatiecoëfficiënt ligt tussen \(-1\) en \(1\)</strong>, dus
+                  \(-1 \le r \le 1\). Het teken geeft de richting, de grootte de sterkte van het
+                  lineaire verband. <strong>Dicht bij \(0\) betekent dus net dat er nauwelijks lineair
+                  verband is</strong>; sterk is ze dicht bij \(-1\) of \(1\)."""),
         ]),
         dict(kop="Samenhang is geen oorzaak", blokken=[
-            ("p", "<strong>In een spreidingsdiagram lees je af of er een verband is tussen twee numerieke "
-                  "grootheden.</strong> Elk punt is één waarneming met twee kenmerken. Een "
-                  "<strong>trendlijn is een rechte of kromme die het patroon in de puntenwolk "
-                  "samenvat</strong>; ze gaat meestal niet door de punten zelf."),
-            ("p", "<strong>De correlatiecoëfficiënt ligt tussen min één en plus één.</strong> Het teken "
-                  "geeft de richting, de grootte de sterkte van het lineaire verband. <strong>Dicht bij "
-                  "nul betekent dus net dat er nauwelijks lineair verband is</strong>; sterk is ze dicht "
-                  "bij min één of plus één."),
-            ("kader", "<strong>Sterke samenhang betekent niet dat de ene de oorzaak van de andere is.</strong> "
-                      "Het kan ook komen van een <strong>derde verborgen variabele</strong>, van omgekeerde "
-                      "oorzaak en gevolg, of gewoon van toeval. In de zomer worden er meer ijsjes verkocht "
-                      "en gebeuren er meer verdrinkingen: de verborgen variabele is <strong>het warme "
-                      "weer</strong>, dat allebei de aantallen verhoogt."),
+            ("kader", r"""<strong>Sterke samenhang betekent niet dat de ene de oorzaak van de andere
+                      is.</strong> Het kan ook komen van een <strong>derde verborgen variabele</strong>,
+                      van omgekeerde oorzaak en gevolg, of gewoon van toeval. In de zomer worden er meer
+                      ijsjes verkocht en gebeuren er meer verdrinkingen: de verborgen variabele is
+                      <strong>het warme weer</strong>, dat allebei de aantallen verhoogt."""),
         ]),
         dict(kop="De hypothesetoets", blokken=[
-            ("p", "<strong>De nulhypothese is niet wat je wil aantonen, maar wat je probeert te "
-                  "verwerpen.</strong> Wat je wil aantonen, staat in de alternatieve hypothese."),
-            ("p", "<strong>De p-waarde is de kans op zo'n resultaat of extremer, als de nulhypothese waar "
-                  "is.</strong> Ze zegt niets over de kans dat de hypothese klopt, alleen hoe verrassend je "
-                  "resultaat zou zijn mocht ze kloppen. Je vergelijkt ze met het "
-                  "<strong>significantieniveau</strong> alfa, <strong>de kans die je vooraf aanvaardt om "
-                  "de nulhypothese onterecht te verwerpen</strong>. Alfa gelijk aan nul komma nul vijf is "
-                  "<strong>vijf procent</strong>; soms kiest men één procent als een vals alarm duur "
-                  "uitvalt. <strong>Ligt de p-waarde onder alfa, dan verwerp je</strong>: bij een p-waarde "
-                  "van nul komma nul twee en alfa nul komma nul vijf is het antwoord <strong>ja</strong>."),
+            ("p", r"""<strong>De nulhypothese \(H_{0}\) is niet de uitspraak die je wil aantonen,
+                  maar wat je probeert te verwerpen.</strong> Wat je wil aantonen, staat in de alternatieve hypothese
+                  \(H_{1}\)."""),
+            ("p", r"""<strong>De p-waarde is de kans op zo'n resultaat of extremer, als \(H_{0}\) waar
+                  is.</strong> Ze zegt niets over de kans dat de hypothese klopt, alleen hoe verrassend
+                  je resultaat zou zijn mocht ze kloppen. Je vergelijkt ze met het
+                  <strong>significantieniveau \(\alpha\)</strong>, <strong>de kans die je vooraf
+                  aanvaardt om \(H_{0}\) onterecht te verwerpen</strong>. Zo is \(\alpha = 0{,}05\)
+                  gelijk aan <strong>\(5\,\%\)</strong>, dus vijf procent; soms kiest men \(0{,}01\) als een vals alarm
+                  duur uitvalt. <strong>Geldt \(p < \alpha\), dan verwerp je</strong>: bij \(p = 0{,}02\)
+                  en \(\alpha = 0{,}05\) is het antwoord <strong>ja</strong>."""),
+        ]),
+        dict(kop="Type I en type II", blokken=[
             ("p", tabel(["Soort fout", "Wat er gebeurt", "Hoe je het noemt"], [
-                ["type I", "de nulhypothese verwerpen terwijl ze waar is", "een vals alarm; de kans erop is alfa"],
-                ["type II", "de nulhypothese onterecht niet verwerpen", "er was wel een effect, maar je vond het niet"],
+                [r"type I", r"\(H_{0}\) verwerpen terwijl ze waar is", r"een vals alarm; de kans erop is \(\alpha\)"],
+                [r"type II", r"\(H_{0}\) onterecht niet verwerpen", r"er was wel een effect, maar je vond het niet"],
             ])),
-            ("p", "Een type II-fout gebeurt vaker bij een kleine steekproef. <strong>Een eenzijdige toets "
-                  "gebruik je als je vooraf een richting verwacht</strong>, bijvoorbeeld een stijging; "
-                  "vermoed je alleen dat er íéts verandert, dan toets je tweezijdig."),
-            ("kader", "<strong>Verwerp je de nulhypothese niet, dan besluit je dat er onvoldoende bewijs "
-                      "tegen gevonden is.</strong> Geen bewijs vinden is niet hetzelfde als bewijzen dat er "
-                      "niets is: misschien was je steekproef gewoon te klein."),
+            ("p", r"""Een type II-fout gebeurt vaker bij een kleine steekproef. <strong>Een eenzijdige
+                  toets gebruik je als je vooraf een richting verwacht</strong>, bijvoorbeeld een
+                  stijging; vermoed je alleen dat er íéts verandert, dan toets je tweezijdig."""),
+            ("kader", r"""<strong>Verwerp je \(H_{0}\) niet, dan besluit je dat er onvoldoende bewijs
+                      tegen gevonden is.</strong> Geen bewijs vinden is niet hetzelfde als bewijzen dat
+                      er niets is: misschien was je steekproef gewoon te klein."""),
         ]),
     ],
     onthoud=[
-        "De Gausskromme is klokvormig en symmetrisch rond het gemiddelde.",
-        "Het gemiddelde bepaalt waar de top ligt, de standaardafwijking hoe breed de kromme is.",
-        "Een kans is de oppervlakte onder de kromme; de totale oppervlakte is één.",
-        "De z-score is het verschil met het gemiddelde, gedeeld door de standaardafwijking.",
-        "Binnen één standaardafwijking ligt ongeveer achtenzestig procent, binnen twee ongeveer vijfennegentig procent.",
-        "Een steekproef is representatief als ze op de belangrijke kenmerken op de populatie lijkt.",
-        "Sterke samenhang betekent niet dat de ene de oorzaak van de andere is.",
-        "De p-waarde is de kans op zo'n resultaat of extremer, als de nulhypothese waar is.",
-        "Ligt de p-waarde onder alfa, dan verwerp je de nulhypothese.",
+        r"De Gausskromme van \(N(\mu, \sigma^{2})\) is klokvormig en symmetrisch rond \(\mu\).",
+        r"\(\mu\) bepaalt waar de top ligt, \(\sigma\) hoe breed de kromme is.",
+        r"Een kans is de oppervlakte onder de kromme; de totale oppervlakte is \(1\).",
+        r"\(z = \dfrac{x - \mu}{\sigma}\), en de standaardnormale verdeling is \(N(0, 1)\).",
+        r"Binnen \(\mu \pm \sigma\) ligt ongeveer \(68\,\%\), binnen \(\mu \pm 2\sigma\) ongeveer \(95\,\%\).",
+        r"Een steekproef is representatief als ze op de belangrijke kenmerken op de populatie lijkt.",
+        r"\(-1 \le r \le 1\), en sterke samenhang is nog geen oorzakelijk verband.",
+        r"De p-waarde is de kans op zo'n resultaat of extremer, als \(H_{0}\) waar is.",
+        r"Geldt \(p < \alpha\), dan verwerp je \(H_{0}\).",
     ],
 )
 
