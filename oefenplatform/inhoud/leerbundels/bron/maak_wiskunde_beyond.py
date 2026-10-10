@@ -26,7 +26,7 @@ alles nog in woorden stond en had gelijk: een leerling van de derde graad moet
 
 De omzetting gebeurt thema per thema, samen met de vragen van dat thema, zodat
 een kind in de bundel dezelfde schrijfwijze terugvindt als in de oefening.
-Omgezet: thema 1 tot 17. De andere thema's staan nog in woorden.
+Omgezet: thema 1 tot 18. De andere thema's staan nog in woorden.
 """
 import sys, pathlib
 sys.path.insert(0, str(pathlib.Path(__file__).parent))
@@ -2261,99 +2261,160 @@ BUNDELS["stelsels-oplossen-en-matrixmodellen-beyond"] = dict(
     onder="Gauss-Jordan, de rang en de vrijheidsgraden, en matrices die een toestand laten evolueren.",
     secties=[
         dict(kop="Een stelsel als matrix", blokken=[
-            ("p", "<strong>In de uitgebreide coëfficiëntenmatrix staan de coëfficiënten én de constanten "
-                  "uit het rechterlid.</strong> Die constanten komen in een extra kolom, meestal met een "
-                  "streep ervoor."),
-            ("p", "<strong>Twee stelsels heten gelijkwaardig als ze dezelfde oplossingenverzameling "
-                  "hebben.</strong> Elke <strong>elementaire rijoperatie maakt een gelijkwaardig "
-                  "stelsel</strong> en <strong>verandert de oplossingenverzameling dus niet</strong>; "
-                  "daarom mag je ze blijven toepassen tot de oplossing eruit af te lezen is. "
-                  "<strong>Rijen optellen en verwisselen mag omdat die bewerkingen een gelijkwaardig "
-                  "stelsel opleveren</strong> — de determinant verandert er wél door, maar die telt hier "
-                  "niet. <strong>Een rij met nul vermenigvuldigen mag niet</strong>: dan gooi je een hele "
-                  "vergelijking weg. Vermenigvuldigen mag alleen met een getal dat niet nul is."),
-            ("p", "<strong>De methode van Gauss-Jordan vormt de matrix met rijoperaties om naar de "
-                  "rijcanonieke vorm.</strong> In die vorm lees je de oplossing meteen af, of zie je dat "
-                  "er geen of oneindig veel zijn."),
+            ("p", r"<strong>In de uitgebreide coëfficiëntenmatrix \(\left(A \mid B\right)\) staan de "
+                  r"coëfficiënten én de constanten uit het rechterlid.</strong> Die constanten komen in "
+                  r"een extra kolom, achter een streep. Het stelsel "
+                  r"\(\left\{\begin{array}{l} x + 2y = 5 \\ 3x - y = 1 \end{array}\right.\) wordt zo "
+                  r"\(\left(\begin{array}{cc|c} 1 & 2 & 5 \\ 3 & -1 & 1 \end{array}\right)\). Alleen de "
+                  r"getallen blijven over; de letters en de plustekens zitten in de plaats waar een getal "
+                  r"staat."),
+            ("p", r"<strong>Twee stelsels heten gelijkwaardig als ze dezelfde oplossingenverzameling "
+                  r"hebben.</strong> Elke <strong>elementaire rijoperatie maakt een gelijkwaardig "
+                  r"stelsel</strong> en <strong>verandert de oplossingenverzameling dus niet</strong>; "
+                  r"daarom mag je ze blijven toepassen tot de oplossing eruit af te lezen is."),
+        ]),
+        dict(kop="Wat je met een rij mag doen", blokken=[
+            ("p", tabel(["Rijoperatie", "In symbolen", "Mag het?"], [
+                ["twee rijen verwisselen", r"\(R_{i} \leftrightarrow R_{j}\)", "ja"],
+                ["een rij maal een getal", r"\(R_{i} \to k \cdot R_{i}\) met \(k \neq 0\)", "ja"],
+                ["een veelvoud van een rij bij een andere optellen", r"\(R_{i} \to R_{i} + k \cdot R_{j}\)", "ja"],
+                ["een rij maal nul", r"\(R_{i} \to 0 \cdot R_{i}\)", "nee"],
+            ])),
+            ("p", r"<strong>Rijen optellen en verwisselen mag omdat die bewerkingen een gelijkwaardig "
+                  r"stelsel opleveren</strong> — \(\det A\) verandert er wél door, maar die telt hier niet "
+                  r"mee. <strong>Een rij met nul vermenigvuldigen mag niet</strong>: dan gooi je een hele "
+                  r"vergelijking weg en kan je plots oplossingen krijgen die er eerst niet waren. "
+                  r"Vermenigvuldigen mag dus alleen met een getal dat niet nul is; \(R_{i} \to 0 \cdot R_{i}\) "
+                  r"mag je nooit uitvoeren."),
+            ("p", r"<strong>De methode van Gauss-Jordan vormt \(\left(A \mid B\right)\) met rijoperaties "
+                  r"om naar de rijcanonieke vorm.</strong> In die vorm lees je de oplossing meteen af, of "
+                  r"zie je dat er geen of oneindig veel zijn. Zo eindigt een bepaald stelsel met drie "
+                  r"onbekenden op \(\left(\begin{array}{ccc|c} 1 & 0 & 0 & 2 \\ 0 & 1 & 0 & -1 \\ "
+                  r"0 & 0 & 1 & 4 \end{array}\right)\), en dat betekent gewoon \(x = 2\), \(y = -1\) en "
+                  r"\(z = 4\)."),
+        ]),
+        dict(kop="Drie standen van twee rechten", blokken=[
+            ("fig", svg.driegevallen(),
+             "Twee vergelijkingen met twee onbekenden zijn twee rechten. Links snijden ze elkaar, in het "
+             "midden liggen ze op elkaar, rechts lopen ze naast elkaar."),
+            ("p", r"Meetkundig: <strong>twee evenwijdige rechten die niet samenvallen geven een strijdig "
+                  r"stelsel</strong>. Ze snijden elkaar nergens, dus er is geen enkel punt dat aan allebei "
+                  r"de vergelijkingen voldoet. Liggen ze op elkaar, dan voldoet élk punt van die rechte."),
         ]),
         dict(kop="Bepaald, onbepaald of strijdig", blokken=[
             ("p", tabel(["Soort stelsel", "Wat geldt voor de rangen", "Hoeveel oplossingen"], [
-                ["bepaald", "beide rangen gelijk aan het aantal onbekenden", "één"],
-                ["onbepaald", "beide rangen gelijk, maar kleiner dan het aantal onbekenden", "oneindig veel"],
-                ["strijdig", "de rang van de coëfficiëntenmatrix is de kleinste", "nul"],
+                ["bepaald", r"\(\text{rang}(A) = \text{rang}(A \mid B) = n\)", "één"],
+                ["onbepaald", r"\(\text{rang}(A) = \text{rang}(A \mid B) < n\)", "oneindig veel"],
+                ["strijdig", r"\(\text{rang}(A) < \text{rang}(A \mid B)\)", "nul"],
             ])),
-            ("p", "<strong>Een bepaald stelsel heeft precies één oplossing</strong>, en daarvoor moeten "
-                  "<strong>beide rangen gelijk zijn aan het aantal onbekenden</strong>: bij vier "
-                  "onbekenden dus rang <strong>vier</strong>. Evenveel vergelijkingen als onbekenden "
-                  "volstaat niet, want twee keer dezelfde vergelijking telt maar één keer mee. Je kan zo'n "
-                  "stelsel ook <strong>met de inverse matrix oplossen, als de coëfficiëntenmatrix vierkant "
-                  "en inverteerbaar is</strong>."),
-            ("p", "<strong>Een onbepaald stelsel heeft oneindig veel oplossingen</strong>, die je schrijft "
-                  "met parameters. <strong>Een vrijheidsgraad is een onbekende die je vrij mag kiezen, "
-                  "waarna de rest vastligt</strong>, en het aantal vrijheidsgraden is het aantal "
-                  "onbekenden min de rang: bij <strong>drie onbekenden en rang twee is dat "
-                  "één</strong>. Je <strong>noteert de oplossingenverzameling als een verzameling van "
-                  "koppels of drietallen met een parameter erin</strong>, zodat je ziet hoe de oplossingen "
-                  "van elkaar afhangen."),
-            ("p", "<strong>Een strijdig stelsel heeft nul oplossingen</strong>: de "
-                  "oplossingenverzameling is leeg. Je <strong>herkent het in de rijcanonieke vorm aan een "
-                  "rij met overal nullen links en een getal dat niet nul is rechts</strong>. Die rij zegt "
-                  "letterlijk dat nul gelijk is aan dat getal; een rij met overal nullen, ook rechts, is "
-                  "net onschuldig. Meetkundig: <strong>twee evenwijdige rechten die niet samenvallen geven "
-                  "een strijdig stelsel</strong>."),
-            ("kader", "<strong>Een stelsel met meer onbekenden dan vergelijkingen heeft niet altijd "
-                      "oplossingen.</strong> Het kan nog strijdig zijn. Heeft het er wel, dan zijn het "
-                      "meteen oneindig veel."),
+            ("p", r"Hierin is \(n\) het aantal onbekenden. Je vergelijkt dus twee rangen met elkaar, en "
+                  r"daarna de gemeenschappelijke rang met \(n\). Die twee vergelijkingen samen beslissen "
+                  r"alles."),
         ]),
-        dict(kop="Matrixmodellen", blokken=[
-            ("p", "<strong>Een overgangsmatrix beschrijft hoe een toestand overgaat in de volgende "
-                  "toestand.</strong> Je vermenigvuldigt de huidige toestand ermee en krijgt de volgende. "
-                  "<strong>Een overgangsmatrix is altijd vierkant</strong>, want ze zet een toestand om in "
-                  "een toestand van dezelfde soort. <strong>Een nul erin betekent dat die overgang niet "
-                  "voorkomt.</strong>"),
-            ("p", "<strong>De toestand na twee overgangen bereken je met het kwadraat van de "
-                  "overgangsmatrix</strong>, en na vijf stappen verhef je haar tot de "
-                  "<strong>vijfde</strong> macht: één macht per stap. Voor tien jaar klantenverloop neem "
-                  "je dus <strong>de beginverdeling maal de overgangsmatrix tot de tiende macht</strong>."),
+        dict(kop="Het bepaalde stelsel", blokken=[
+            ("p", r"<strong>Een bepaald stelsel heeft precies één oplossing</strong>, en daarvoor moeten "
+                  r"<strong>beide rangen gelijk zijn aan het aantal onbekenden</strong>: bij vier "
+                  r"onbekenden dus \(\text{rang}(A) = 4\). Evenveel vergelijkingen als onbekenden volstaat "
+                  r"niet, want twee keer dezelfde vergelijking telt maar één keer mee in de rang."),
+            ("p", r"Je kan zo'n stelsel ook <strong>met de inverse matrix oplossen, als \(A\) vierkant en "
+                  r"inverteerbaar is</strong>. Schrijf het stelsel als \(A \cdot X = B\) en vermenigvuldig "
+                  r"links met \(A^{-1}\): uit \(A^{-1} \cdot A \cdot X = A^{-1} \cdot B\) volgt "
+                  r"\(X = A^{-1} \cdot B\), want \(A^{-1} \cdot A = I\). Dat mag precies wanneer "
+                  r"\(\det A \neq 0\)."),
+        ]),
+        dict(kop="Het onbepaalde stelsel", blokken=[
+            ("p", r"<strong>Een onbepaald stelsel heeft oneindig veel oplossingen</strong>, die je schrijft "
+                  r"met parameters. <strong>Een vrijheidsgraad is een onbekende die je vrij mag kiezen, "
+                  r"waarna de rest vastligt</strong>, en het aantal vrijheidsgraden is "
+                  r"\(n - \text{rang}(A)\): bij <strong>drie onbekenden en rang twee is dat "
+                  r"\(3 - 2 = 1\)</strong>."),
+            ("p", r"Je <strong>noteert de oplossingenverzameling als een verzameling van koppels of "
+                  r"drietallen met een parameter erin</strong>, bijvoorbeeld "
+                  r"\(V = \{(x, y, z) \mid x = 1 + t,\ y = 2 - t,\ z = t\}\). Zo zie je meteen hoe de "
+                  r"oplossingen van elkaar afhangen. Elke waarde die je voor \(t\) invult, geeft één "
+                  r"oplossing van het stelsel."),
+        ]),
+        dict(kop="Het strijdige stelsel", blokken=[
+            ("p", r"<strong>Een strijdig stelsel heeft nul oplossingen</strong>: de oplossingenverzameling "
+                  r"is leeg, dus \(V = \emptyset\). Je <strong>herkent het in de rijcanonieke vorm aan een "
+                  r"rij met overal nullen links en een getal dat niet nul is rechts</strong>, zoals "
+                  r"\(\left(\begin{array}{ccc|c} 0 & 0 & 0 & 5 \end{array}\right)\). Die rij zegt letterlijk "
+                  r"dat \(0 = 5\), en dat kan niet."),
+            ("kader", r"Een rij \(\left(\begin{array}{ccc|c} 0 & 0 & 0 & 0 \end{array}\right)\) is net "
+                      r"onschuldig: die zegt \(0 = 0\) en betekent gewoon dat één vergelijking niets nieuws "
+                      r"toevoegde. <strong>Een stelsel met meer onbekenden dan vergelijkingen heeft niet "
+                      r"altijd oplossingen.</strong> Het kan nog strijdig zijn. Heeft het er wel, dan zijn "
+                      r"het meteen oneindig veel."),
+        ]),
+        dict(kop="Een stelsel uit een context", blokken=[
+            ("p", r"Ken je het <strong>totaalbedrag van drie bestellingen met telkens dezelfde drie "
+                  r"artikelen</strong>, dan kan je <strong>de prijs per artikel berekenen als het stelsel "
+                  r"bepaald is</strong>. Drie vergelijkingen met drie onbekenden, maar enkel als de drie "
+                  r"bestellingen echt nieuwe informatie geven; anders is het stelsel onbepaald of strijdig. "
+                  r"Bestelling drie die precies het dubbel van bestelling één is, voegt bijvoorbeeld niets "
+                  r"toe: die rij valt in de rijcanonieke vorm weg."),
+        ]),
+        dict(kop="Matrices die een toestand verplaatsen", blokken=[
+            ("p", r"<strong>Een overgangsmatrix \(T\) beschrijft hoe een toestand overgaat in de volgende "
+                  r"toestand.</strong> Je vermenigvuldigt de huidige toestand ermee en krijgt de volgende: "
+                  r"\(X_{1} = T \cdot X_{0}\). <strong>Een overgangsmatrix is altijd vierkant</strong>, "
+                  r"want ze zet een toestand om in een toestand van dezelfde soort. <strong>Een nul erin "
+                  r"betekent dat die overgang niet voorkomt.</strong>"),
+            ("p", r"<strong>De toestand na twee overgangen bereken je met het kwadraat van de "
+                  r"overgangsmatrix</strong>, dus \(X_{2} = T^{2} \cdot X_{0}\), en na vijf stappen verhef "
+                  r"je haar tot de <strong>vijfde</strong> macht: \(X_{5} = T^{5} \cdot X_{0}\), één macht "
+                  r"per stap. Voor tien jaar klantenverloop neem je dus \(X_{10} = T^{10} \cdot X_{0}\), "
+                  r"en wat eruit komt is de verdeling over de merken na die tien jaar."),
+        ]),
+        dict(kop="Vier soorten matrixmodellen", blokken=[
             ("p", tabel(["Soort matrix", "Wat ze beschrijft", "Kenmerk"], [
                 ["Markov-matrix", "overgangskansen tussen toestanden", "elke kolom telt op tot één"],
                 ["Lesliematrix", "hoe een populatie per leeftijdsgroep evolueert", "met overlevingskansen en nakomelingen"],
                 ["migratiematrix", "hoeveel inwoners van de ene streek naar de andere verhuizen", "de toestanden zijn de streken"],
                 ["verbindingsmatrix", "welke knopen van een graaf verbonden zijn", "een één bij een verbinding, anders een nul"],
             ])),
-            ("p", "<strong>Een graaf is een tekening met punten en verbindingen ertussen</strong>; die "
-                  "punten heten knopen. Elke graaf kan je als matrix schrijven en elke zo'n matrix als "
-                  "graaf tekenen: <strong>een graaf met vier knopen geeft een verbindingsmatrix van orde "
-                  "vier</strong>. Een <strong>directe wegen matrix laat zien welke knopen rechtstreeks "
-                  "verbonden zijn</strong>; omwegen vind je pas in haar machten terug, want <strong>het "
-                  "kwadraat van een verbindingsmatrix telt de wegen van lengte twee</strong>."),
-            ("p", "<strong>Een evenwichtstoestand is een toestand die na de overgang gelijk blijft.</strong> "
-                  "Je <strong>ziet dat een model stabiliseert doordat de opeenvolgende toestanden bijna niet "
-                  "meer van elkaar verschillen</strong>. <strong>Niet elk matrixmodel komt in evenwicht</strong>: "
-                  "sommige blijven schommelen of groeien onbeperkt, dus dat moet je nagaan."),
-            ("kader", "<strong>Een matrixmodel voorspelt niet met zekerheid wat er zal gebeuren.</strong> "
-                      "Het rekent uit wat er gebeurt als de overgangen gelijk blijven. Verandert er iets in "
-                      "de werkelijkheid, dan klopt het model niet meer. <strong>De rekenapp gebruik je "
-                      "omdat je vaak hoge machten nodig hebt</strong>: het model opstellen en de uitkomst "
-                      "duiden blijft jouw werk."),
+            ("weetje", r"Bij een Markov-matrix telt elke kolom op tot \(1\), want alle kansen samen vanuit "
+                       r"één toestand vormen een zekerheid. Loopt een kolom niet op \(1\) uit, dan is er "
+                       r"ergens een overgang vergeten."),
         ]),
-        dict(kop="Een stelsel uit een context", blokken=[
-            ("p", "Ken je het <strong>totaalbedrag van drie bestellingen met telkens dezelfde drie "
-                  "artikelen</strong>, dan kan je <strong>de prijs per artikel berekenen als het stelsel "
-                  "bepaald is</strong>. Drie vergelijkingen met drie onbekenden, maar enkel als de drie "
-                  "bestellingen echt nieuwe informatie geven; anders is het stelsel onbepaald of strijdig."),
+        dict(kop="Grafen en hun matrix", blokken=[
+            ("fig", svg.graafmatrix(),
+             "Vier knopen met vier verbindingen, en daarnaast het rooster van nullen en enen dat er "
+             "precies hetzelfde in staat."),
+            ("p", r"<strong>Een graaf is een tekening met punten en verbindingen ertussen</strong>; die "
+                  r"punten heten knopen. Elke graaf kan je als matrix schrijven en elke zo'n matrix als "
+                  r"graaf tekenen: <strong>een graaf met vier knopen geeft een verbindingsmatrix van orde "
+                  r"\(4\)</strong>, één rij en één kolom per knoop."),
+            ("p", r"Een <strong>directe wegen matrix laat zien welke knopen rechtstreeks verbonden "
+                  r"zijn</strong>; omwegen vind je pas in haar machten terug, want <strong>het kwadraat "
+                  r"van een verbindingsmatrix telt de wegen van lengte \(2\)</strong>. Dat komt doordat "
+                  r"elk element van \(M^{2}\) een rij tegen een kolom is, en dat telt precies de "
+                  r"tussenstops die met allebei de knopen verbonden zijn."),
+        ]),
+        dict(kop="Komt het model tot rust?", blokken=[
+            ("p", r"<strong>Een evenwichtstoestand is een toestand die na de overgang gelijk blijft</strong>, "
+                  r"dus een \(X\) waarvoor \(T \cdot X = X\). Je <strong>ziet dat een model stabiliseert "
+                  r"doordat de opeenvolgende toestanden bijna niet meer van elkaar verschillen</strong>: je "
+                  r"rekent een aantal stappen na elkaar uit en kijkt of de getallen stilvallen."),
+            ("kader", r"<strong>Niet elk matrixmodel komt in evenwicht</strong>: sommige blijven schommelen "
+                      r"of groeien onbeperkt, dus dat moet je nagaan. <strong>Een matrixmodel voorspelt ook "
+                      r"niet met zekerheid wat er zal gebeuren.</strong> Het rekent uit wat er gebeurt als "
+                      r"de overgangen gelijk blijven. Verandert er iets in de werkelijkheid, dan klopt het "
+                      r"model niet meer. <strong>De rekenapp gebruik je omdat je vaak hoge machten "
+                      r"\(T^{k}\) nodig hebt</strong>: het model opstellen en de uitkomst duiden blijft "
+                      r"jouw werk."),
         ]),
     ],
     onthoud=[
-        "In de uitgebreide coëfficiëntenmatrix staan de coëfficiënten én de constanten uit het rechterlid.",
-        "Elementaire rijoperaties veranderen de oplossingenverzameling niet; een rij met nul vermenigvuldigen mag niet.",
-        "Gauss-Jordan vormt de matrix met rijoperaties om naar de rijcanonieke vorm.",
-        "Een bepaald stelsel heeft precies één oplossing: beide rangen zijn gelijk aan het aantal onbekenden.",
-        "Het aantal vrijheidsgraden is het aantal onbekenden min de rang.",
-        "Strijdig: een rij met overal nullen links en een getal dat niet nul is rechts.",
-        "De toestand na twee overgangen bereken je met het kwadraat van de overgangsmatrix.",
-        "Een evenwichtstoestand is een toestand die na de overgang gelijk blijft.",
-        "Uit drie bestellingen bereken je de prijs per artikel alleen als het stelsel bepaald is.",
+        r"In \(\left(A \mid B\right)\) staan de coëfficiënten én de constanten uit het rechterlid.",
+        r"\(R_{i} \leftrightarrow R_{j}\) en \(R_{i} \to k \cdot R_{i}\) met \(k \neq 0\) mogen; maal nul mag niet.",
+        r"Gauss-Jordan vormt \(\left(A \mid B\right)\) om naar de rijcanonieke vorm.",
+        r"Bepaald: \(\text{rang}(A) = \text{rang}(A \mid B) = n\), dus precies één oplossing.",
+        r"Het aantal vrijheidsgraden is \(n - \text{rang}(A)\).",
+        r"Strijdig: \(\text{rang}(A) < \text{rang}(A \mid B)\), en \(V = \emptyset\).",
+        r"Is \(\det A \neq 0\), dan geeft \(A \cdot X = B\) meteen \(X = A^{-1} \cdot B\).",
+        r"\(X_{k} = T^{k} \cdot X_{0}\): één macht van de overgangsmatrix per stap.",
+        r"Een evenwichtstoestand is een \(X\) waarvoor \(T \cdot X = X\).",
     ],
 )
 

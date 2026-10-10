@@ -6954,7 +6954,7 @@
       "vragen": [
         {
           "type": "meerkeuze",
-          "vraag": "Wat staat er in de uitgebreide coëfficiëntenmatrix van een stelsel?",
+          "vraag": "Wat staat er in de uitgebreide coëfficiëntenmatrix \\((A \\mid B)\\) van een stelsel?",
           "opties": [
             "de coëfficiënten én de constanten uit het rechterlid",
             "alleen de coëfficiënten van de onbekenden, kolom per kolom",
@@ -6962,7 +6962,7 @@
             "de oplossingen van het stelsel, rij per rij"
           ],
           "antwoord": 0,
-          "uitleg": "De constanten komen in een extra kolom, meestal met een streep ervoor."
+          "uitleg": "De constanten komen in een extra kolom achter de streep, zoals in \\(\\left(\\begin{array}{cc|c} 1 & 2 & 5 \\\\ 3 & -1 & 1 \\end{array}\\right)\\)."
         },
         {
           "type": "meerkeuze",
@@ -6996,9 +6996,9 @@
           "type": "meerkeuze",
           "vraag": "Wat doet de methode van Gauss-Jordan?",
           "opties": [
-            "ze vormt de matrix met rijoperaties om naar de rijcanonieke vorm",
-            "ze berekent de determinant door naar een rij te ontwikkelen",
-            "ze vermenigvuldigt het stelsel met zijn eigen getransponeerde",
+            "ze vormt \\((A \\mid B)\\) met rijoperaties om naar de rijcanonieke vorm",
+            "ze berekent \\(\\det A\\) door naar een rij te ontwikkelen",
+            "ze vermenigvuldigt het stelsel met \\(A^{T}\\)",
             "ze lost elke vergelijking apart op en vergelijkt daarna"
           ],
           "antwoord": 0,
@@ -7008,13 +7008,13 @@
           "type": "meerkeuze",
           "vraag": "Wanneer is een stelsel strijdig?",
           "opties": [
-            "als de rang van de coëfficiëntenmatrix kleiner is dan die van de uitgebreide",
-            "als de rang van de coëfficiëntenmatrix gelijk is aan die van de uitgebreide",
-            "als er meer onbekenden zijn dan vergelijkingen in het stelsel",
-            "als de determinant van de coëfficiëntenmatrix verschillend is van nul"
+            "als \\(\\text{rang}(A) < \\text{rang}(A \\mid B)\\)",
+            "als \\(\\text{rang}(A) = \\text{rang}(A \\mid B)\\)",
+            "als er meer onbekenden zijn dan vergelijkingen",
+            "als \\(\\det A \\neq 0\\)"
           ],
           "antwoord": 0,
-          "uitleg": "Er staat dan ergens een rij die zegt dat nul gelijk is aan een getal dat niet nul is."
+          "uitleg": "Er staat dan ergens een rij die zegt dat \\(0\\) gelijk is aan een getal dat niet nul is."
         },
         {
           "type": "waarofniet",
@@ -7024,25 +7024,25 @@
         },
         {
           "type": "invultekst",
-          "vraag": "Een stelsel met drie onbekenden heeft twee gelijke rangen, allebei gelijk aan twee. Hoeveel vrijheidsgraden heeft het? Schrijf het cijfer.",
+          "vraag": "Een stelsel met \\(3\\) onbekenden heeft \\(\\text{rang}(A) = \\text{rang}(A \\mid B) = 2\\). Hoeveel vrijheidsgraden heeft het? Schrijf het cijfer.",
           "antwoord": [
             "1",
             "een",
             "één"
           ],
-          "uitleg": "Het aantal onbekenden min de rang, dus drie min twee."
+          "uitleg": "Het aantal onbekenden min de rang: \\(3 - 2 = 1\\)."
         },
         {
           "type": "meerkeuze",
           "vraag": "Hoe herken je een strijdig stelsel in de rijcanonieke vorm?",
           "opties": [
-            "aan een rij met overal nullen links en een getal dat niet nul is rechts",
-            "aan een rij met overal nullen, ook in de allerlaatste kolom helemaal rechts",
+            "aan een rij \\(\\left(\\begin{array}{ccc|c} 0 & 0 & 0 & 5 \\end{array}\\right)\\)",
+            "aan een rij \\(\\left(\\begin{array}{ccc|c} 0 & 0 & 0 & 0 \\end{array}\\right)\\)",
             "aan twee rijen die precies aan elkaar gelijk zijn",
-            "aan een kolom waarin geen enkele één voorkomt"
+            "aan een kolom waarin geen enkele \\(1\\) voorkomt"
           ],
           "antwoord": 0,
-          "uitleg": "Die rij zegt letterlijk dat nul gelijk is aan dat getal, en dat kan niet. Een rij met overal nullen is net onschuldig."
+          "uitleg": "Die rij zegt letterlijk dat \\(0 = 5\\), en dat kan niet. Een rij met overal nullen, ook rechts, is net onschuldig."
         },
         {
           "type": "waarofniet",
@@ -7052,19 +7052,19 @@
         },
         {
           "type": "meerkeuze",
-          "vraag": "Wanneer heeft een stelsel precies één oplossing?",
+          "vraag": "Wanneer heeft een stelsel met \\(n\\) onbekenden precies één oplossing?",
           "opties": [
-            "als beide rangen gelijk zijn aan het aantal onbekenden",
+            "als \\(\\text{rang}(A) = \\text{rang}(A \\mid B) = n\\)",
             "als beide rangen gelijk zijn aan het aantal vergelijkingen",
-            "als de rang van de uitgebreide matrix de grootste is",
-            "als het aantal vergelijkingen gelijk is aan het aantal onbekenden"
+            "als \\(\\text{rang}(A \\mid B) > \\text{rang}(A)\\)",
+            "als het aantal vergelijkingen gelijk is aan \\(n\\)"
           ],
           "antwoord": 0,
           "uitleg": "Evenveel vergelijkingen als onbekenden volstaat niet: twee keer dezelfde vergelijking telt maar één keer mee."
         },
         {
           "type": "invultekst",
-          "vraag": "Een stelsel met vier onbekenden heeft precies één oplossing. Welke rang heeft de coëfficiëntenmatrix? Schrijf het cijfer.",
+          "vraag": "Een stelsel met \\(4\\) onbekenden heeft precies één oplossing. Hoeveel is \\(\\text{rang}(A)\\)? Schrijf het cijfer.",
           "antwoord": [
             "4",
             "vier"
@@ -7073,21 +7073,21 @@
         },
         {
           "type": "meerkeuze",
-          "vraag": "Wanneer kan je een stelsel oplossen met de inverse matrix?",
+          "vraag": "Wanneer kan je \\(A \\cdot X = B\\) oplossen als \\(X = A^{-1} \\cdot B\\)?",
           "opties": [
-            "als de coëfficiëntenmatrix vierkant en inverteerbaar is",
+            "als \\(A\\) vierkant is en \\(\\det A \\neq 0\\)",
             "als het stelsel meer onbekenden heeft dan vergelijkingen",
-            "als alle constanten in het rechterlid nul zijn",
+            "als alle constanten in \\(B\\) nul zijn",
             "altijd, want elke matrix heeft een inverse"
           ],
           "antwoord": 0,
-          "uitleg": "Je vermenigvuldigt dan links met de inverse en leest de oplossing meteen af."
+          "uitleg": "Je vermenigvuldigt dan links met \\(A^{-1}\\) en leest de oplossing meteen af."
         },
         {
           "type": "waarofniet",
-          "vraag": "Bij een elementaire rijoperatie mag je een rij met nul vermenigvuldigen.",
+          "vraag": "Bij een elementaire rijoperatie mag je \\(R_{i} \\to 0 \\cdot R_{i}\\) uitvoeren.",
           "antwoord": false,
-          "uitleg": "Dan gooi je een hele vergelijking weg en verandert de oplossingenverzameling. Vermenigvuldigen mag alleen met een getal dat niet nul is."
+          "uitleg": "Dan gooi je een hele vergelijking weg en verandert de oplossingenverzameling. Alleen \\(R_{i} \\to k \\cdot R_{i}\\) met \\(k \\neq 0\\) mag."
         },
         {
           "type": "meerkeuze",
@@ -7099,15 +7099,15 @@
             "het verschil tussen het aantal rijen en het aantal kolommen"
           ],
           "antwoord": 0,
-          "uitleg": "Elke vrijheidsgraad wordt in je antwoord een parameter."
+          "uitleg": "Elke vrijheidsgraad wordt in je antwoord een parameter. Hun aantal is \\(n - \\text{rang}(A)\\)."
         },
         {
           "type": "meerkeuze",
           "vraag": "Hoe noteer je de oplossingenverzameling van een onbepaald stelsel?",
           "opties": [
-            "als een verzameling van koppels of drietallen met een parameter erin",
+            "als \\(\\{(x, y, z) \\mid x = 1 + t,\\ y = 2 - t,\\ z = t\\}\\)",
             "als één enkel getal, namelijk de kleinste oplossing die je vindt",
-            "als het aantal oplossingen, dus als oneindig",
+            "als het aantal oplossingen, dus als \\(\\infty\\)",
             "als de rijcanonieke matrix zelf, zonder meer"
           ],
           "antwoord": 0,
@@ -7127,7 +7127,7 @@
             "nul",
             "geen"
           ],
-          "uitleg": "De oplossingenverzameling is leeg."
+          "uitleg": "De oplossingenverzameling is leeg: \\(V = \\emptyset\\)."
         },
         {
           "type": "meerkeuze",
@@ -7146,12 +7146,12 @@
           "vraag": "Waarom mag je bij Gauss-Jordan rijen optellen en verwisselen?",
           "opties": [
             "omdat die bewerkingen een gelijkwaardig stelsel opleveren",
-            "omdat de determinant daardoor niet verandert",
+            "omdat \\(\\det A\\) daardoor niet verandert",
             "omdat de matrix daardoor vierkant wordt",
             "omdat het aantal onbekenden daardoor stap voor stap afneemt"
           ],
           "antwoord": 0,
-          "uitleg": "De oplossingen blijven dezelfde, en dat is het enige wat telt. De determinant verandert er wél door."
+          "uitleg": "De oplossingen blijven dezelfde, en dat is het enige wat telt. \\(\\det A\\) verandert er wél door."
         }
       ]
     },
@@ -7162,7 +7162,7 @@
       "vragen": [
         {
           "type": "meerkeuze",
-          "vraag": "Wat beschrijft een overgangsmatrix?",
+          "vraag": "Wat beschrijft een overgangsmatrix \\(T\\)?",
           "opties": [
             "hoe een toestand overgaat in de volgende toestand",
             "hoeveel elementen een verzameling in totaal heeft",
@@ -7170,7 +7170,7 @@
             "de oplossingen van een stelsel vergelijkingen"
           ],
           "antwoord": 0,
-          "uitleg": "Je vermenigvuldigt de huidige toestand met de matrix en krijgt de volgende."
+          "uitleg": "Je rekent \\(X_{1} = T \\cdot X_{0}\\): de huidige toestand maal de matrix geeft de volgende."
         },
         {
           "type": "meerkeuze",
@@ -7186,7 +7186,7 @@
         },
         {
           "type": "invultekst",
-          "vraag": "In een verbindingsmatrix staat een één waar er een verbinding is. Welk getal staat er waar er geen is? Schrijf het cijfer.",
+          "vraag": "In een verbindingsmatrix staat een \\(1\\) waar er een verbinding is. Welk getal staat er waar er geen is? Schrijf het cijfer.",
           "antwoord": [
             "0",
             "nul"
@@ -7195,7 +7195,7 @@
         },
         {
           "type": "waarofniet",
-          "vraag": "In een Markov-matrix telt elke kolom op tot één.",
+          "vraag": "In een Markov-matrix telt elke kolom op tot \\(1\\).",
           "antwoord": true,
           "uitleg": "Elke kolom bevat de kansen waarmee één toestand naar alle mogelijke volgende toestanden gaat, en samen is dat zeker."
         },
@@ -7215,40 +7215,40 @@
           "type": "meerkeuze",
           "vraag": "Hoe bereken je de toestand na twee overgangen?",
           "opties": [
-            "door de begintoestand met het kwadraat van de overgangsmatrix te vermenigvuldigen",
-            "door de begintoestand met twee te vermenigvuldigen",
-            "door de overgangsmatrix met het getal twee te vermenigvuldigen en toe te passen",
-            "door de twee toestanden bij elkaar op te tellen"
+            "\\(X_{2} = T^{2} \\cdot X_{0}\\)",
+            "\\(X_{2} = 2 \\cdot X_{0}\\)",
+            "\\(X_{2} = (2T) \\cdot X_{0}\\)",
+            "\\(X_{2} = X_{0} + X_{1}\\)"
           ],
           "antwoord": 0,
           "uitleg": "Twee keer dezelfde overgang toepassen is net de matrix in het kwadraat."
         },
         {
           "type": "waarofniet",
-          "vraag": "Het kwadraat van een verbindingsmatrix telt hoeveel wegen van lengte twee er tussen twee knopen zijn.",
+          "vraag": "Het kwadraat van een verbindingsmatrix telt hoeveel wegen van lengte \\(2\\) er tussen twee knopen zijn.",
           "antwoord": true,
           "uitleg": "Elk element is een rij tegen een kolom, en dat telt precies de tussenstops die beide verbindingen hebben."
         },
         {
           "type": "invultekst",
-          "vraag": "Je wil de toestand na vijf overgangen. Tot welke macht verhef je de overgangsmatrix? Schrijf het cijfer.",
+          "vraag": "Je wil \\(X_{5}\\), de toestand na vijf overgangen. Tot welke macht verhef je \\(T\\)? Schrijf het cijfer.",
           "antwoord": [
             "5",
             "vijf"
           ],
-          "uitleg": "Eén macht per stap."
+          "uitleg": "Eén macht per stap: \\(X_{5} = T^{5} \\cdot X_{0}\\)."
         },
         {
           "type": "meerkeuze",
           "vraag": "Wat is een evenwichtstoestand bij een matrixmodel?",
           "opties": [
-            "een toestand die na de overgang gelijk blijft",
+            "een toestand \\(X\\) waarvoor \\(T \\cdot X = X\\)",
             "een toestand waarin alle getallen even groot zijn",
             "de toestand waarmee het model begint te rekenen",
             "de toestand waarin alle elementen nul zijn geworden"
           ],
           "antwoord": 0,
-          "uitleg": "Vermenigvuldigen met de overgangsmatrix verandert er dan niets meer aan."
+          "uitleg": "Vermenigvuldigen met \\(T\\) verandert er dan niets meer aan."
         },
         {
           "type": "waarofniet",
@@ -7270,12 +7270,12 @@
         },
         {
           "type": "invultekst",
-          "vraag": "Een graaf heeft vier knopen. Welke orde heeft zijn verbindingsmatrix? Schrijf het cijfer.",
+          "vraag": "Een graaf heeft \\(4\\) knopen. Welke orde heeft zijn verbindingsmatrix? Schrijf het cijfer.",
           "antwoord": [
             "4",
             "vier"
           ],
-          "uitleg": "Eén rij en één kolom per knoop, dus een vierkante matrix van orde vier."
+          "uitleg": "Eén rij en één kolom per knoop, dus een vierkante matrix van orde \\(4\\)."
         },
         {
           "type": "meerkeuze",
@@ -7283,7 +7283,7 @@
           "opties": [
             "de opeenvolgende toestanden verschillen bijna niet meer van elkaar",
             "de overgangsmatrix wordt na een tijd de nulmatrix",
-            "de determinant van de overgangsmatrix wordt uiteindelijk gelijk aan nul",
+            "\\(\\det T\\) wordt uiteindelijk gelijk aan nul",
             "alle elementen van de toestand worden even groot"
           ],
           "antwoord": 0,
@@ -7297,7 +7297,7 @@
         },
         {
           "type": "meerkeuze",
-          "vraag": "Wat betekent een nul in een overgangsmatrix?",
+          "vraag": "Wat betekent een \\(0\\) in een overgangsmatrix?",
           "opties": [
             "die overgang komt niet voor",
             "die overgang gebeurt altijd",
@@ -7311,7 +7311,7 @@
           "type": "meerkeuze",
           "vraag": "Waarom gebruik je bij deze modellen een rekenapp?",
           "opties": [
-            "omdat je vaak hoge machten van een matrix nodig hebt",
+            "omdat je vaak hoge machten \\(T^{k}\\) nodig hebt",
             "omdat de matrices te groot zijn om op te schrijven",
             "omdat je anders de overgangsmatrix niet kan opstellen",
             "omdat de uitkomsten anders niet nauwkeurig genoeg zijn"
@@ -7351,10 +7351,10 @@
           "type": "meerkeuze",
           "vraag": "Elk jaar wisselt een deel van de klanten van merk. Hoe bereken je de verdeling over tien jaar?",
           "opties": [
-            "de beginverdeling maal de overgangsmatrix tot de tiende macht",
-            "de beginverdeling maal tien, en dan de matrix erbij optellen",
-            "de overgangsmatrix maal tien, en dan vermenigvuldigen",
-            "de beginverdeling gedeeld door de overgangsmatrix"
+            "\\(X_{10} = T^{10} \\cdot X_{0}\\)",
+            "\\(X_{10} = 10 \\cdot X_{0} + T\\)",
+            "\\(X_{10} = (10T) \\cdot X_{0}\\)",
+            "\\(X_{10} = X_{0} : T\\)"
           ],
           "antwoord": 0,
           "uitleg": "Elke macht van de matrix is één jaar verder. Vaak stabiliseert zo'n model naar een vaste marktverdeling."

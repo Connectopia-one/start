@@ -9427,3 +9427,80 @@ def dimensieregel(breedte=470):
              f'{buiten_b - buiten_a:.1f} 0" fill="none" stroke="{FOREST}" stroke-width="1.6"/>')
     d.append(_tekst((buiten_a + buiten_b) / 2, y - 34, "blijven over", 10, FOREST, "middle"))
     return _svg(breedte, h, "\n".join(d))
+
+
+def driegevallen(breedte=470):
+    """Twee rechten in drie standen: snijdend, samenvallend en evenwijdig.
+
+    Elk vakje hoort bij één soort stelsel, met onder het vakje hoeveel
+    oplossingen dat geeft.
+    """
+    h = 190
+    marge, tussen = 6, 12
+    paneel = (breedte - 2 * marge - 2 * tussen) / 3
+    zijde = 116
+    top = 26
+    d = []
+    gevallen = [
+        ("snijdend", "één oplossing", [((0, 1), (10, 9)), ((0, 9), (10, 1))], (5, 5)),
+        ("samenvallend", "oneindig veel", [((0, 2), (10, 8)), ((0, 2), (10, 8))], None),
+        ("evenwijdig", "geen oplossing", [((0, 1.5), (10, 6.5)), ((0, 4.5), (10, 9.5))], None),
+    ]
+    for i, (kop, onder, lijnen, snij) in enumerate(gevallen):
+        px = marge + i * (paneel + tussen)
+        ox = px + (paneel - zijde) / 2
+        d.append(_tekst(px + paneel / 2, top - 8, kop, 11.5, DARK, "middle", True))
+        d.append(f'<rect x="{ox:.1f}" y="{top}" width="{zijde}" height="{zijde}" rx="8" '
+                 f'fill="{PAPER}" stroke="{BORDER}" stroke-width="1.2"/>')
+
+        def xx(v):
+            return ox + 8 + v / 10 * (zijde - 16)
+
+        def yy(v):
+            return top + zijde - 8 - v / 10 * (zijde - 16)
+
+        samen = kop == "samenvallend"
+        for j, ((x1, y1), (x2, y2)) in enumerate(lijnen):
+            kleur = FOREST if j == 0 else AMBER
+            dik = 5.4 if samen and j == 0 else 2.2
+            stip = ' stroke-dasharray="7 5"' if samen and j == 1 else ""
+            d.append(f'<line x1="{xx(x1):.1f}" y1="{yy(y1):.1f}" x2="{xx(x2):.1f}" '
+                     f'y2="{yy(y2):.1f}" stroke="{kleur}" stroke-width="{dik}" '
+                     f'stroke-linecap="round"{stip}/>')
+        if snij:
+            d.append(f'<circle cx="{xx(snij[0]):.1f}" cy="{yy(snij[1]):.1f}" r="4.6" '
+                     f'fill="{INK}"/>')
+        d.append(_tekst(px + paneel / 2, top + zijde + 22, onder, 11, INK, "middle", True))
+    return _svg(breedte, h, "\n".join(d))
+
+
+def graafmatrix(breedte=470):
+    """Een graaf met vier knopen naast zijn verbindingsmatrix.
+
+    Elke verbinding in de tekening geeft twee enen in de matrix, één aan
+    elke kant van de hoofddiagonaal.
+    """
+    h = 204
+    knopen = {"A": (58, 50), "B": (168, 50), "C": (113, 116), "D": (113, 180)}
+    verbindingen = [("A", "B"), ("A", "C"), ("B", "C"), ("C", "D")]
+    d = []
+    for a, b in verbindingen:
+        (x1, y1), (x2, y2) = knopen[a], knopen[b]
+        d.append(f'<line x1="{x1}" y1="{y1}" x2="{x2}" y2="{y2}" stroke="{FOREST}" '
+                 f'stroke-width="2"/>')
+    for naam, (x, y) in knopen.items():
+        d.append(f'<circle cx="{x}" cy="{y}" r="15" fill="{PAPER}" stroke="{DARK}" '
+                 f'stroke-width="1.8"/>')
+        d.append(_tekst(x, y + 4.5, naam, 11.5, DARK, "middle", True))
+
+    rijen = [[0, 1, 1, 0], [1, 0, 1, 0], [1, 1, 0, 1], [0, 0, 1, 0]]
+    cel = 27
+    mx, my = 288, 58
+    s, b, _ = _matrixraster(mx, my, rijen, cel_b=cel, cel_h=cel)
+    namen = ["A", "B", "C", "D"]
+    for j, naam in enumerate(namen):
+        d.append(_tekst(mx + 9 + (j + 0.5) * cel, my - 7, naam, 10, AMBER, "middle", True))
+    for i, naam in enumerate(namen):
+        d.append(_tekst(mx - 2, my + 5 + (i + 0.65) * cel, naam, 10, AMBER, "end", True))
+    d.append(s)
+    return _svg(breedte, h, "\n".join(d))
