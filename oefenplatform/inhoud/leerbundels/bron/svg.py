@@ -8179,3 +8179,75 @@ def emspectrum(breedte=470):
     d.append(_tekst(lx + stap / 2, top + hoog + 38, "400 tot 700 nm", 8.5, AMBER,
                     "middle", True))
     return _svg(breedte, h, "\n".join(d))
+
+
+def fotoelektrisch(breedte=470):
+    r"""De kinetische energie van het losgeslagen elektron tegen de frequentie.
+
+    Onder \(f_{0}\) komt er niets los; daarboven loopt \(E_{k}\) rechtlijnig
+    omhoog met helling \(h\). Doorgetrokken naar links snijdt de rechte de
+    verticale as op \(-W\).
+    """
+    import math
+    h = 212
+    d = []
+    d.append(f'<rect x="5" y="4" width="{breedte-10}" height="{h-28}" rx="7" '
+             f'fill="#ffffff" stroke="{BORDER}" stroke-width="1.2"/>')
+    ox, oy, top, rechts, onder = 60, 130, 30, 434, 166
+    d.append(f'<line x1="{ox}" y1="{top}" x2="{ox}" y2="{onder+6}" stroke="{INK}" '
+             f'stroke-width="1.4"/>')
+    d.append(f'<line x1="{ox}" y1="{oy}" x2="{rechts}" y2="{oy}" stroke="{INK}" '
+             f'stroke-width="1.4"/>')
+    d.append(_pijlkop(ox, top, -math.pi / 2, INK, 4.5))
+    d.append(_pijlkop(rechts, oy, 0.0, INK, 4.5))
+    d.append(_tekst(ox - 8, top + 4, "Eₖ", 10, INK, "end", True))
+    d.append(_tekst(rechts - 2, oy + 16, "f", 10, INK, "end", True))
+
+    f0 = 172
+    eind_x, eind_y = 420, 44
+    d.append(f'<line x1="{f0}" y1="{oy}" x2="{eind_x}" y2="{eind_y}" stroke="{FOREST}" '
+             f'stroke-width="2.4"/>')
+    helling = (oy - eind_y) / (eind_x - f0)
+    d.append(f'<line x1="{ox}" y1="{oy + helling * (f0 - ox):.1f}" x2="{f0}" y2="{oy}" '
+             f'stroke="{FOREST}" stroke-width="1.6" stroke-dasharray="5 4"/>')
+    d.append(f'<circle cx="{f0}" cy="{oy}" r="3.4" fill="{DARK}"/>')
+    d.append(_tekst(f0, oy + 17, "f₀", 10, DARK, "middle", True))
+    d.append(_tekst(ox - 8, oy + helling * (f0 - ox) + 4, "−W", 10, AMBER, "end", True))
+    d.append(f'<circle cx="{ox}" cy="{oy + helling * (f0 - ox):.1f}" r="3.0" fill="{AMBER}"/>')
+    d.append(_tekst(252, 80, "helling = h", 10, AMBER, "end", True))
+    d.append(f'<line x1="{ox}" y1="{oy}" x2="{f0}" y2="{oy}" stroke="{DIM}" '
+             f'stroke-width="3.0"/>')
+    d.append(_tekst((ox + f0) / 2, oy - 8, "niets komt los", 9, DIM, "middle"))
+    d.append(_tekst(breedte / 2, h - 8, "links van f₀ blijft de lijn op nul", 9, DIM, "middle"))
+    return _svg(breedte, h, "\n".join(d))
+
+
+def tweespleten(breedte=470):
+    r"""Het tweespletenexperiment met elektronen, één per één afgevuurd."""
+    import math, random
+    cel_b, cel_h = breedte / 3, 186
+    d = []
+    rng = random.Random(7)
+
+    def kans(u):
+        return math.cos(3 * math.pi * (u - 0.5)) ** 2 * math.exp(-((u - 0.5) * 2.4) ** 2)
+
+    for i, aantal in enumerate((15, 150, 1200)):
+        px = i * cel_b
+        d.append(f'<rect x="{px+5:.1f}" y="4" width="{cel_b-10:.1f}" height="{cel_h-34}" '
+                 f'rx="7" fill="#ffffff" stroke="{BORDER}" stroke-width="1.2"/>')
+        links, rechts2 = px + 14, px + cel_b - 14
+        boven, laag = 20, cel_h - 50
+        gezet = 0
+        while gezet < aantal:
+            u = rng.random()
+            if rng.random() > kans(u):
+                continue
+            x = links + u * (rechts2 - links)
+            y = boven + rng.random() * (laag - boven)
+            d.append(f'<circle cx="{x:.1f}" cy="{y:.1f}" r="1.5" fill="{FOREST}" '
+                     f'fill-opacity="0.75"/>')
+            gezet += 1
+        d.append(_tekst(px + cel_b / 2, cel_h - 22, f"{aantal} elektronen", 9, DIM, "middle"))
+    d.append(_tekst(breedte / 2, cel_h - 6, "elk elektron landt als één stip", 9, DIM, "middle"))
+    return _svg(breedte, cel_h, "\n".join(d))

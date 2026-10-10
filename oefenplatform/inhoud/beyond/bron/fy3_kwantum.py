@@ -40,15 +40,15 @@ DEEL1 = [
             "van de tijd dat je het licht laat schijnen",
         ],
         antwoord=0,
-        uitleg="Onder de drempelfrequentie komt er niets los, hoe fel je ook schijnt. Dat "
-        "was met een golfmodel alleen niet te verklaren.",
+        uitleg=r"Onder de drempelfrequentie \(f_{0}\) komt er niets los, hoe fel je ook "
+        r"schijnt. Dat was met een golfmodel alleen niet te verklaren.",
     ),
     dict(
         type="invultekst",
         vraag="Hoe noem je de laagste frequentie waarbij er elektronen loskomen?",
         antwoord=["de drempelfrequentie", "drempelfrequentie", "grensfrequentie"],
-        uitleg="Daaronder heeft een foton te weinig energie om een elektron los te maken. "
-        "Ze hangt af van het metaal.",
+        uitleg=r"Onder \(f_{0}\) heeft een foton te weinig energie om een elektron los te "
+        r"maken. Ze hangt af van het metaal.",
     ),
     dict(
         type="meerkeuze",
@@ -67,25 +67,25 @@ DEEL1 = [
         type="meerkeuze",
         vraag="Hoe bereken je de energie van een foton?",
         opties=[
-            "de constante van Planck maal de frequentie",
-            "de constante van Planck gedeeld door de frequentie",
-            "de constante van Planck maal de golflengte",
-            "de frequentie gedeeld door de constante van Planck",
+            r"\(E = h\,f\)",
+            r"\(E = \dfrac{h}{f}\)",
+            r"\(E = h\,\lambda\)",
+            r"\(E = \dfrac{f}{h}\)",
         ],
         antwoord=0,
-        uitleg="Die constante krijgt het symbool h en staat in joule maal seconde. Een "
-        "hogere frequentie geeft dus een energierijker foton.",
+        uitleg=r"\(h = 6{,}63 \times 10^{-34}\ \text{J}\cdot\text{s}\) is de constante van "
+        r"Planck. Een hogere \(f\) geeft dus een energierijker foton.",
     ),
     dict(
         type="invultekst",
         vraag="Welke constante staat in de formule van de energie van een foton?",
         antwoord=["van Planck", "Planck", "h"],
-        uitleg="Ze is ongeveer 6,63 maal tien tot de macht min 34 joule maal seconde. Op het "
-        "examen staat ze in de bijlage.",
+        uitleg=r"Ze is \(h = 6{,}63 \times 10^{-34}\ \text{J}\cdot\text{s}\). Op het examen "
+        r"staat ze in de bijlage.",
     ),
     dict(
         type="meerkeuze",
-        vraag="Een metaal heeft een drempelfrequentie van 6 maal 10¹⁴ Hz. Wat gebeurt er bij licht van 4 maal 10¹⁴ Hz?",
+        vraag=r"Een metaal heeft \(f_{0} = 6 \times 10^{14}\) Hz. Wat gebeurt er bij licht van \(4 \times 10^{14}\) Hz?",
         opties=[
             "er komt geen enkel elektron los",
             "er komen elektronen los met weinig energie",
@@ -133,8 +133,8 @@ DEEL1 = [
         type="waarofniet",
         vraag="Blauw licht heeft een energierijker foton dan rood licht.",
         antwoord=True,
-        uitleg="Blauw heeft een hogere frequentie, en de energie is h maal de frequentie. "
-        "Daarom kan blauw licht elektronen losmaken waar rood dat niet lukt.",
+        uitleg=r"Blauw heeft een hogere \(f\), en \(E = h\,f\). Daarom kan blauw licht "
+        r"elektronen losmaken waar rood dat niet lukt.",
     ),
     dict(
         type="meerkeuze",
@@ -151,16 +151,16 @@ DEEL1 = [
     ),
     dict(
         type="meerkeuze",
-        vraag="Hoeveel energie heeft een foton van 5 maal 10¹⁴ Hz ongeveer? Neem h gelijk aan 6,63 · 10⁻³⁴ J·s.",
+        vraag=r"Hoe groot is \(E\) van een foton met \(f = 5 \times 10^{14}\) Hz? Neem \(h = 6{,}63 \times 10^{-34}\) J·s.",
         opties=[
-            "ongeveer 3,3 · 10⁻¹⁹ J",
-            "ongeveer 3,3 · 10⁻²⁰ J",
-            "ongeveer 1,3 · 10⁻⁴⁸ J",
-            "ongeveer 7,5 · 10⁴⁷ J",
+            r"ongeveer \(3{,}3 \times 10^{-19}\) J",
+            r"ongeveer \(3{,}3 \times 10^{-20}\) J",
+            r"ongeveer \(1{,}3 \times 10^{-48}\) J",
+            r"ongeveer \(7{,}5 \times 10^{47}\) J",
         ],
         antwoord=0,
-        uitleg="E is h maal f, dus 6,63 maal 5 is ongeveer 33, met tien tot de macht min 20. "
-        "Dat is 3,3 maal tien tot de macht min 19 joule.",
+        uitleg=r"\(E = h\,f = 6{,}63 \times 10^{-34} \times 5 \times 10^{14} "
+        r"= 3{,}3 \times 10^{-19}\) J.",
     ),
     dict(
         type="meerkeuze",
@@ -192,21 +192,21 @@ DEEL1 = [
             "het verschil wordt lading van het elektron",
         ],
         antwoord=0,
-        uitleg="Een deel gaat naar het losmaken zelf en de rest naar de beweging. Daarom "
-        "vliegen de elektronen bij blauw licht sneller weg dan bij groen.",
+        uitleg=r"\(E_{k} = h\,f - W\): een deel gaat naar het losmaken zelf en de rest naar "
+        r"de beweging. Daarom vliegen de elektronen bij blauw licht sneller weg.",
     ),
     dict(
         type="meerkeuze",
         vraag="Welk verband bestaat er tussen de energie van een foton en de golflengte?",
         opties=[
-            "een kleinere golflengte geeft een energierijker foton",
-            "een grotere golflengte geeft een energierijker foton",
-            "de golflengte heeft met de energie niets te maken",
-            "de energie is recht evenredig met de golflengte",
+            r"een kleinere \(\lambda\) geeft een energierijker foton",
+            r"een grotere \(\lambda\) geeft een energierijker foton",
+            r"\(\lambda\) heeft met de energie niets te maken",
+            r"\(E\) is recht evenredig met \(\lambda\)",
         ],
         antwoord=0,
-        uitleg="Een kleine golflengte hoort bij een hoge frequentie. Daarom is "
-        "gammastraling zo energierijk en een radiogolf niet.",
+        uitleg=r"\(E = \dfrac{h\,c}{\lambda}\), want een kleine \(\lambda\) hoort bij een "
+        r"hoge \(f\). Daarom is gammastraling zo energierijk en een radiogolf niet.",
     ),
     dict(
         type="meerkeuze",
@@ -218,8 +218,8 @@ DEEL1 = [
             "de kleur van het metaaloppervlak",
         ],
         antwoord=[0, 1],
-        uitleg="Je vermenigvuldigt die twee met elkaar. De intensiteit zegt alleen hoeveel "
-        "fotonen er aankomen.",
+        uitleg=r"\(E_{\min} = h\,f_{0}\), dus je vermenigvuldigt die twee. De intensiteit "
+        r"zegt alleen hoeveel fotonen er aankomen.",
     ),
     dict(
         type="waarofniet",
@@ -353,8 +353,8 @@ DEEL2 = [
             "een deeltje heeft geen plaats en geen impuls",
         ],
         antwoord=0,
-        uitleg="Hoe scherper je het ene kent, hoe vager het andere wordt. Dat komt niet door "
-        "slechte toestellen maar door de natuur zelf.",
+        uitleg=r"\(\Delta x \cdot \Delta p \geq \dfrac{h}{4\pi}\): hoe scherper je het ene "
+        r"kent, hoe vager het andere wordt. Dat is de natuur zelf, niet het toestel.",
     ),
     dict(
         type="waarofniet",
@@ -386,8 +386,8 @@ DEEL2 = [
             "een voetbal beweegt daarvoor veel te langzaam",
         ],
         antwoord=0,
-        uitleg="Bij een elektron is die golflengte wel meetbaar. Daarom zie je kwantumgedrag "
-        "alleen bij heel kleine deeltjes.",
+        uitleg=r"De Broglie: \(\lambda = \dfrac{h}{m\,v}\), dus een grote \(m\) geeft een "
+        r"piepkleine \(\lambda\). Bij een elektron is ze wel meetbaar.",
     ),
     dict(
         type="waarofniet",

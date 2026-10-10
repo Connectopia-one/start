@@ -2618,113 +2618,156 @@ BUNDELS["kwantumfysica-het-foto-elektrisch-effect-en-dualiteit-beyond"] = dict(
     onder="Twee proeven die licht een deeltje maakten en materie een golf.",
     secties=[
         dict(kop="Het foto-elektrisch effect", blokken=[
-            ("p", "Bij het <strong>foto-elektrisch effect</strong> "
-                  "<strong>slaat licht elektronen uit een metaaloppervlak los</strong>. Of er "
-                  "elektronen loskomen, hangt af "
-                  "<strong>van de frequentie van het licht</strong> en niet van hoe fel het schijnt. "
-                  "De laagste frequentie waarbij er elektronen loskomen heet de "
-                  "<strong>drempelfrequentie</strong>."),
-            ("p", "Boven die drempel doet een grotere intensiteit dit: "
-                  "<strong>er komen meer elektronen los, met dezelfde energie</strong>. Kort samen: "
-                  "<strong>de frequentie beslist of er elektronen loskomen</strong> en "
-                  "<strong>de intensiteit beslist hoeveel elektronen er loskomen</strong>. Heeft een "
-                  "metaal een <strong>drempelfrequentie van 6 maal 10¹⁴ Hz</strong> en schijn je "
-                  "licht van <strong>4 maal 10¹⁴ Hz</strong>, dan "
-                  "<strong>komt er geen enkel elektron los</strong>, hoe fel je ook schijnt."),
-            ("p", "Het <strong>klassieke golfmodel verklaart het foto-elektrisch effect niet</strong>, "
-                  "want <strong>het voorspelt dat fel rood licht ook elektronen losmaakt</strong>: "
-                  "genoeg energie, enkel wat langer wachten. Dat gebeurt niet. "
-                  "<strong>Bij het foto-elektrisch effect neemt één elektron de energie van "
-                  "meerdere fotonen niet samen op</strong>: elk elektron krijgt precies één foton, "
-                  "en dat ene foton moet op zich genoeg energie hebben. Daarom "
-                  "<strong>laat het foto-elektrisch effect zien dat licht ook een deeltjeskarakter "
-                  "heeft</strong>."),
+            ("p", "Schijn je licht op een metaaloppervlak, dan kunnen er "
+                  "<strong>elektronen uit losgeslagen</strong> worden. Dat heet het "
+                  "<strong>foto-elektrisch effect</strong>. Het licht geeft zijn energie in "
+                  "één keer door aan één elektron, en als dat genoeg is, komt het elektron "
+                  "los."),
+        ]),
+        dict(kop="De frequentie beslist", blokken=[
+            ("p", "Het verrassende is <strong>waarvan het afhangt</strong> of er elektronen "
+                  "<strong>loskomen</strong>: van de <strong>frequentie</strong> van het "
+                  "licht, niet van hoe fel het schijnt. De laagste frequentie waarbij er "
+                  "iets loskomt heet de <strong>drempelfrequentie</strong> of "
+                  "grensfrequentie \\(f_{0}\\). Daaronder komt er "
+                  "<strong>geen enkel</strong> elektron los, hoe lang en hoe fel je ook "
+                  "schijnt. Heeft een metaal \\(f_{0} = 6 \\times 10^{14}\\) Hz, dan doet licht "
+                  "van \\(4 \\times 10^{14}\\) Hz helemaal niets."),
+            ("p", "Boven die drempel verandert een <strong>grotere intensiteit</strong> alleen "
+                  "het <strong>aantal</strong>: er komen meer elektronen los, elk met "
+                  "<strong>dezelfde</strong> energie. Meer intensiteit betekent meer fotonen, "
+                  "geen krachtigere fotonen. Kort: de frequentie beslist "
+                  "<strong>of</strong>, de intensiteit beslist <strong>hoeveel</strong>."),
         ]),
         dict(kop="De energie van een foton", blokken=[
-            ("p", "De energie van een foton bereken je als "
-                  "<strong>de constante van Planck maal de frequentie</strong>; de constante in die "
-                  "formule is die <strong>van Planck</strong>, met symbool h. Een foton van "
-                  "<strong>5 maal 10¹⁴ Hz</strong> heeft met h gelijk aan 6,63 · 10⁻³⁴ J·s "
-                  "<strong>ongeveer 3,3 · 10⁻¹⁹ J</strong>."),
-            ("p", "Het verband met de golflengte: "
-                  "<strong>een kleinere golflengte geeft een energierijker foton</strong>. Daarom "
-                  "heeft <strong>blauw licht een energierijker foton dan rood licht</strong>. Om de "
-                  "minimale fotonenergie voor een metaal te bepalen heb je "
-                  "<strong>de drempelfrequentie van dat metaal</strong> en "
-                  "<strong>de constante van Planck</strong> nodig."),
-            ("p", "Wat er van de fotonenergie overblijft nadat het elektron los is: "
-                  "<strong>het verschil wordt kinetische energie van het elektron</strong>. Een deel "
-                  "gaat naar het losmaken zelf, de rest naar de snelheid."),
+            ("kader", "<strong>Eén pakketje tegelijk</strong><br>"
+                      "\\[E = h\\,f = \\dfrac{h\\,c}{\\lambda} \\qquad "
+                      "h = 6{,}63 \\times 10^{-34}\\ \\text{J}\\cdot\\text{s}\\]"
+                      "Een foton van \\(f = 5 \\times 10^{14}\\) Hz draagt dus "
+                      "\\(E = 3{,}3 \\times 10^{-19}\\) J."),
+            ("p", "Omdat een kleine \\(\\lambda\\) bij een hoge \\(f\\) hoort, heeft "
+                  "<strong>blauw</strong> licht een energierijker foton dan "
+                  "<strong>rood</strong>. Daarom kan blauw licht elektronen losmaken waar rood "
+                  "dat niet lukt. Om de minimale fotonenergie van een metaal te kennen heb je "
+                  "maar twee gegevens nodig: \\(f_{0}\\) en \\(h\\), want "
+                  "\\(E_{\\min} = h\\,f_{0}\\)."),
+        ]),
+        dict(kop="Wat er met de rest van de energie gebeurt", blokken=[
+            ("fig", svg.fotoelektrisch(),
+             "De kinetische energie van het losgeslagen elektron tegen de frequentie."),
+            ("kader", "<strong>De vergelijking van Einstein</strong><br>"
+                      "\\[E_{k} = h\\,f - W\\]"
+                      "\\(W\\) is de <strong>uittree-arbeid</strong>: wat het kost om het "
+                      "elektron los te maken. Wat overblijft, wordt de "
+                      "<strong>kinetische energie</strong> van het elektron."),
+            ("p", "De rechte snijdt de \\(f\\)-as precies in \\(f_{0}\\), want daar is "
+                  "\\(h\\,f = W\\) en blijft er niets over. Haar <strong>helling</strong> is "
+                  "\\(h\\): uit zo'n grafiek kan je de constante van Planck aflezen."),
+        ]),
+        dict(kop="Waarom het golfmodel tekortschiet", blokken=[
+            ("p", "Een <strong>golf</strong> zou energie langzaam kunnen opsparen. Het klassieke "
+                  "golfmodel voorspelt daarom dat fel rood licht na enige tijd ook elektronen "
+                  "losmaakt, en dat er een <strong>wachttijd</strong> is voor het eerste "
+                  "elektron. Geen van beide gebeurt."),
+            ("p", "Eén elektron neemt de energie van <strong>één</strong> foton op, alles of "
+                  "niets; het telt de energie van meerdere fotonen niet samen op. Net daarom bestaat er "
+                  "een scherpe \\(f_{0}\\), en net daarom laat deze proef zien dat licht ook "
+                  "een <strong>deeltjeskarakter</strong> heeft."),
         ]),
         dict(kop="Waar je het effect tegenkomt", blokken=[
-            ("p", "Met het foto-elektrisch effect werken "
-                  "<strong>een zonnepaneel op een dak</strong>, "
-                  "<strong>een fotocel in een bewegingsdetector</strong> en "
-                  "<strong>een rookdetector die met licht werkt</strong>. Een "
-                  "<strong>zonnecel</strong> werkt doordat "
-                  "<strong>het licht ladingen losmaakt die een stroom vormen</strong>."),
-            ("p", "<strong>Een fotocel in een bewegingsdetector zendt zelf geen licht uit om te "
-                  "meten</strong>: ze meet enkel het licht dat erop valt. Een "
-                  "<strong>rookdetector met licht</strong> gaat af omdat "
-                  "<strong>de rook de bundel verstrooit en de fotocel minder licht krijgt</strong>."),
+            ("p", "Een <strong>zonnepaneel</strong>, een <strong>fotocel</strong> in een "
+                  "bewegingsdetector en een <strong>rookdetector</strong> die met licht werkt, "
+                  "maken alle drie van licht een stroom. Een gloeilamp doet net het omgekeerde."),
         ]),
-        dict(kop="Materie als golf", blokken=[
-            ("p", "Het <strong>experiment van Davisson en Germer</strong> liet zien "
-                  "<strong>dat een bundel elektronen zich als een golf gedraagt</strong>. Ze "
-                  "stuurden hun elektronenbundel op <strong>nikkel</strong> en kregen een "
-                  "buigingspatroon: <strong>ook een elektron kan een buigingspatroon geven, net als "
-                  "licht</strong>. Wat die proef en de proef van Young gemeen hebben: "
-                  "<strong>ze laten allebei een golfkarakter zien</strong>."),
-            ("p", "Met de <strong>dualiteit</strong> van licht en materie bedoelt men dat "
-                  "<strong>ze zich soms als een golf en soms als een deeltje gedragen</strong>. Het "
-                  "golfmodel verklaart het best <strong>interferentie bij de proef van "
-                  "Young</strong>, <strong>buiging rond een smalle opening</strong> en "
-                  "<strong>breking bij de overgang naar glas</strong>; het deeltjesmodel is nodig "
-                  "voor <strong>het foto-elektrisch effect</strong> en "
-                  "<strong>de drempelfrequentie van een metaal</strong>. "
-                  "<strong>Licht is dus niet in werkelijkheid alleen een golf met het "
-                  "deeltjesmodel als rekentruc</strong>: beide kanten zijn even echt, je ziet er "
-                  "telkens één van."),
-            ("p", "Waarom we de golfkant van een voetbal niet merken: "
-                  "<strong>zijn golflengte is onvoorstelbaar klein door zijn grote massa</strong>. "
-                  "Bij een elektron is die golflengte wel van de orde van een atoom, en daar zie je "
-                  "het effect dus."),
+        dict(kop="Fotocel en rookdetector", blokken=[
+            ("p", "Een <strong>zonnecel</strong> werkt doordat het licht in een halfgeleider "
+                  "ladingen losmaakt die samen een stroom vormen; een zonneboiler werkt wel met "
+                  "warmte. Een fotocel zendt <strong>zelf geen licht uit</strong>: de bron "
+                  "staat ertegenover, en valt de bundel weg, dan valt de stroom weg. In een "
+                  "rookdetector verstrooit de rook de bundel, waardoor de cel minder licht "
+                  "krijgt en het alarm afgaat."),
         ]),
-        dict(kop="Kansen in plaats van banen", blokken=[
-            ("p", "De <strong>golffunctie</strong> van een deeltje beschrijft "
-                  "<strong>de kans om het deeltje op een bepaalde plaats te vinden</strong>; je "
-                  "bepaalt ze met de <strong>Schrödingervergelijking</strong>. Volgens de "
-                  "Kopenhaagse interpretatie <strong>valt ze bij een meting samen tot één "
-                  "uitkomst</strong>."),
-            ("p", "<strong>Volgens de kwantumfysica is de plaats van een elektron in een atoom een "
-                  "kansverdeling</strong>: <strong>sommige plaatsen zijn veel waarschijnlijker dan "
-                  "andere</strong>. Het gebied waar een elektron zich met grote kans bevindt heet "
-                  "een <strong>orbitaal</strong>. Een elektron "
-                  "<strong>heeft een golfkarakter én een deeltjeskarakter</strong> en "
-                  "<strong>zijn plaats in een atoom is een kansverdeling</strong>."),
-            ("p", "Het <strong>onzekerheidsbeginsel van Heisenberg</strong> zegt dat "
-                  "<strong>plaats en impuls niet samen scherp te kennen zijn</strong>. "
-                  "<strong>Dat komt niet doordat onze meettoestellen nog niet nauwkeurig genoeg "
-                  "zijn</strong>: het zit in de natuur zelf. Daarom "
-                  "<strong>kan je van een elektron geen baan tekenen zoals van een planeet</strong>, "
-                  "want <strong>plaats en snelheid zijn niet samen scherp te kennen</strong>."),
-            ("p", "Vuur je in het <strong>tweespletenexperiment</strong> de elektronen "
-                  "<strong>één per één</strong> af, dan "
-                  "<strong>staat er na lang wachten toch een patroon van strepen</strong>. Elk "
-                  "elektron komt als één stip aan, maar samen vormen ze het golfpatroon."),
+        dict(kop="Materie blijkt ook een golf", blokken=[
+            ("p", "<strong>Davisson en Germer</strong> stuurden een elektronenbundel van "
+                  "losse <strong>elektronen</strong> op een <strong>nikkelplaatje</strong>. Die "
+                  "regelmatige rijen atomen werkten als een rooster, en erachter verscheen een "
+                  "<strong>buigingspatroon</strong>. Dat kan alleen een golf geven. Hun proef "
+                  "en de proef van Young hebben dus hetzelfde gemeen: allebei tonen ze een "
+                  "<strong>golfkarakter</strong>, de ene bij materie, de andere bij licht."),
+            ("kader", "<strong>De golflengte van de Broglie</strong><br>"
+                      "\\[\\lambda = \\dfrac{h}{m\\,v}\\]"
+                      "Hoe groter de massa, hoe kleiner \\(\\lambda\\). De golfkant van een voetbal "
+                      "merken we daarom niet: zijn \\(\\lambda\\) is "
+                      "onvoorstelbaar klein; voor een elektron is ze van de orde van een atoom, "
+                      "en daar meet je ze dus wel."),
+        ]),
+        dict(kop="Dualiteit: twee gezichten", blokken=[
+            ("p", "Licht en materie gedragen zich <strong>soms als een golf en soms als een "
+                  "deeltje</strong>. Welk gezicht je ziet, hangt af van de proef die je doet. "
+                  "Het <strong>golfmodel</strong> verklaart interferentie bij Young, buiging "
+                  "rond een smalle opening en breking bij de overgang naar glas. Het "
+                  "<strong>deeltjesmodel</strong> verklaart het foto-elektrisch effect en de "
+                  "drempelfrequentie van een metaal."),
+        ]),
+        dict(kop="Geen van beide is het hele verhaal", blokken=[
+            ("p", "Het deeltjesmodel is dus <strong>geen rekentruc</strong> bovenop een golf: "
+                  "beide kanten beschrijven echt gedrag, en geen van de twee is in zijn eentje "
+                  "het hele verhaal. De vraag wat licht nu <em>echt</em> is, heeft geen van "
+                  "beide antwoorden."),
+        ]),
+        dict(kop="Eén elektron per keer", blokken=[
+            ("fig", svg.tweespleten(),
+             "Hetzelfde tweespletenexperiment, met steeds meer afgevuurde elektronen."),
+            ("p", "Vuur je in het tweespletenexperiment de elektronen <strong>één per "
+                  "één</strong> afvuurt, dan landt elk elektron als <strong>één stip</strong>. Toch "
+                  "staat er na lang wachten een <strong>patroon van strepen</strong>: de "
+                  "kansen van alle losse elektronen samen vormen het golfpatroon. Eén elektron "
+                  "interfereert dus met zichzelf."),
+        ]),
+        dict(kop="De golffunctie en het orbitaal", blokken=[
+            ("p", "De <strong>golffunctie</strong> van een deeltje geeft de <strong>kans</strong> "
+                  "om het op een bepaalde plaats te vinden, geen baan en geen spoor. Je bepaalt "
+                  "haar met de <strong>Schrödingervergelijking</strong>; daaruit volgen de "
+                  "kansen en de toegelaten energieën."),
+            ("p", "Volgens de <strong>Kopenhaagse interpretatie</strong> valt die golffunctie "
+                  "bij een <strong>meting</strong> samen tot één uitkomst: vóór de meting is er "
+                  "enkel een kansverdeling, erna één plaats. De meting hoort dus bij het "
+                  "verhaal."),
+        ]),
+        dict(kop="Het orbitaal", blokken=[
+            ("p", "In een atoom is de plaats van een elektron daarom een "
+                  "<strong>kansverdeling</strong>: sommige plaatsen zijn veel waarschijnlijker "
+                  "dan andere. Het gebied waar je het met grote kans vindt, heet een "
+                  "<strong>orbitaal</strong> of waarschijnlijkheidsgebied. Dat is een wolk van "
+                  "kansen, geen cirkelbaan: dat "
+                  "laatste was een ouder model."),
+        ]),
+        dict(kop="Het onzekerheidsbeginsel", blokken=[
+            ("kader", "<strong>Heisenberg</strong><br>"
+                      "\\[\\Delta x \\cdot \\Delta p \\geq \\dfrac{h}{4\\pi}\\]"
+                      "Hoe scherper je de <strong>plaats</strong> kent, hoe vager de "
+                      "<strong>impuls</strong>, en omgekeerd."),
+            ("p", "Dat komt <strong>niet</strong> doordat onze meettoestellen nog niet nauwkeurig "
+                  "genoeg zijn; het zit "
+                  "in de natuur zelf, en een beter toestel maakt er geen einde aan. En net "
+                  "daarom kan je van een elektron <strong>geen baan tekenen</strong> zoals van "
+                  "een planeet: een baan vraagt plaats en snelheid tegelijk scherp, en dat kan "
+                  "niet."),
         ]),
     ],
     onthoud=[
         "Foto-elektrisch effect: licht slaat elektronen uit een metaal.",
         "De frequentie beslist of, de intensiteit hoeveel.",
-        "E = h · f; kleinere golflengte is energierijker.",
+        "\\(E = h\\,f\\), met \\(h = 6{,}63 \\times 10^{-34}\\) J·s.",
+        "\\(E_{k} = h\\,f - W\\); de helling van de grafiek is \\(h\\).",
         "Davisson en Germer: elektronen buigen op nikkel, dus golf.",
-        "Dualiteit: golf en deeltje zijn beide echt.",
+        "\\(\\lambda = \\dfrac{h}{m\\,v}\\): bij grote massa onmeetbaar klein.",
+        "Dualiteit: golf en deeltje zijn allebei echt.",
         "De golffunctie geeft kansen; een orbitaal is zo'n kansgebied.",
-        "Heisenberg: plaats en impuls nooit samen scherp.",
-        "Eén per één door twee spleten geeft toch strepen.",
+        "\\(\\Delta x \\cdot \\Delta p \\geq \\dfrac{h}{4\\pi}\\): nooit samen scherp.",
     ],
 )
+
 
 # ───────────────────── 20. De atoomkern, radioactief verval en halveringstijd
 BUNDELS["de-atoomkern-radioactief-verval-en-halveringstijd-beyond"] = dict(

@@ -2025,24 +2025,31 @@ OEFENBUNDELS["oefenbundel-kwantumfysica-het-foto-elektrisch-effect-en-dualiteit-
     hoe=HOE,
     reeksen=[
         dict(kop="Komen er elektronen los?",
-             opdracht="De drempelfrequentie van het metaal is 5 · 10¹⁴ Hz. Schrijf ja of nee.",
+             opdracht=r"Het metaal heeft \(f_{0} = 5 \times 10^{14}\) Hz. Schrijf ja of nee.",
              oefeningen=[
-                 ("rij", [("licht van 7 · 10¹⁴ Hz", "ja"), ("licht van 3 · 10¹⁴ Hz", "nee"),
-                          ("heel fel licht van 3 · 10¹⁴ Hz", "nee")],
+                 ("rij", [(r"licht van \(7 \times 10^{14}\) Hz", "ja"),
+                          (r"licht van \(3 \times 10^{14}\) Hz", "nee"),
+                          (r"heel fel licht van \(3 \times 10^{14}\) Hz", "nee")],
                   "Komen er elektronen los?", WW),
-                 ("rij", [("zwak licht van 6 · 10¹⁴ Hz", "ja"), ("licht van 5 · 10¹⁴ Hz", "ja"),
+                 ("rij", [(r"zwak licht van \(6 \times 10^{14}\) Hz", "ja"),
+                          (r"licht van \(5 \times 10^{14}\) Hz", "ja"),
                           ("heel fel infrarood", "nee")],
                   "Komen er elektronen los?", WW),
              ]),
-        dict(kop="Rekenen met E = h · f",
-             opdracht="Neem h gelijk aan 6,63 · 10⁻³⁴ J·s.",
+        dict(kop=r"Rekenen met \(E = h\,f\)",
+             opdracht=r"Neem \(h = 6{,}63 \times 10^{-34}\) J·s.",
              oefeningen=[
-                 ("kort", "Welke energie heeft een foton van 4 · 10¹⁴ Hz?",
-                  "ongeveer 2,7 · 10⁻¹⁹ J.", WL),
-                 ("kort", "Welke energie heeft een foton van 1 · 10¹⁵ Hz?",
-                  "ongeveer 6,6 · 10⁻¹⁹ J.", WL),
+                 ("kort", r"Hoe groot is \(E\) van een foton met \(f = 4 \times 10^{14}\) Hz?",
+                  r"\(2{,}7 \times 10^{-19}\) J.", WL),
+                 ("kort", r"Hoe groot is \(E\) van een foton met \(f = 1 \times 10^{15}\) Hz?",
+                  r"\(6{,}6 \times 10^{-19}\) J.", WL),
+                 ("kort", r"Een metaal heeft \(f_{0} = 5 \times 10^{14}\) Hz. Hoe groot is de uittree-arbeid \(W\)?",
+                  r"\(W = h\,f_{0} = 3{,}3 \times 10^{-19}\) J.", WL),
+                 ("kort", r"Licht van \(8 \times 10^{14}\) Hz valt op datzelfde metaal. Hoe groot is \(E_{k}\)?",
+                  r"\(E_{k} = h\,f - W = 5{,}3 \times 10^{-19} - 3{,}3 \times 10^{-19} "
+                  r"= 2{,}0 \times 10^{-19}\) J.", WL),
                  ("kort", "Welk foton is energierijker: rood of blauw licht?",
-                  "blauw, want het heeft een hogere frequentie en een kleinere golflengte.", WL),
+                  r"Blauw, want het heeft een hogere \(f\) en een kleinere \(\lambda\).", WL),
              ]),
         dict(kop="Frequentie of intensiteit",
              opdracht="Schrijf de frequentie of de intensiteit.",
@@ -2064,31 +2071,52 @@ OEFENBUNDELS["oefenbundel-kwantumfysica-het-foto-elektrisch-effect-en-dualiteit-
                           ("de energie van één foton", "deeltjesmodel")],
                   "Welk model?", WW),
              ]),
+        dict(kop=r"De golflengte \(\lambda = \dfrac{h}{m\,v}\)",
+             opdracht=r"Neem \(h = 6{,}63 \times 10^{-34}\) J·s.",
+             oefeningen=[
+                 ("kort", r"Een elektron heeft \(m\,v = 2{,}0 \times 10^{-24}\) kg·m/s. Hoe groot is \(\lambda\)?",
+                  r"\(3{,}3 \times 10^{-10}\) m, ongeveer de grootte van een atoom.", WL),
+                 ("kort", r"Een bal van \(0{,}40\) kg loopt \(5{,}0\) m/s. Hoe groot is \(\lambda\)?",
+                  r"\(3{,}3 \times 10^{-34}\) m.", WL),
+                 ("kort", "Waarom meet niemand die laatste golflengte ooit?",
+                  "Ze is onvoorstelbaar veel kleiner dan een atoom.", WL),
+             ]),
+        dict(kop="Hoe heet dat?",
+             opdracht="Schrijf het begrip.",
+             oefeningen=[
+                 ("rij", [("het gebied waar een elektron met grote kans zit", "een orbitaal"),
+                          ("de laagste frequentie waarbij iets loskomt", "de drempelfrequentie"),
+                          ("de vergelijking die de golffunctie geeft", "die van Schrödinger")],
+                  "Hoe heet dat?", WL),
+             ]),
         dict(kop="Waar of niet waar",
              opdracht="Kruis aan.",
              oefeningen=[
                  ("waar", "Eén elektron kan de energie van meerdere fotonen samen opnemen.", False),
-                 ("waar", "Het experiment van Davisson en Germer liet het golfkarakter van elektronen zien.", True),
+                 ("waar", "Davisson en Germer lieten het golfkarakter van elektronen zien.", True),
                  ("waar", "Het onzekerheidsbeginsel komt door de beperkingen van onze meettoestellen.", False),
                  ("waar", "De golffunctie geeft de kans om een deeltje op een plaats te vinden.", True),
                  ("waar", "Van een elektron in een atoom kan je een baan tekenen zoals van een planeet.", False),
+                 ("waar", "Boven de drempelfrequentie geeft meer intensiteit meer elektronen.", True),
+                 ("waar", r"Een foton met een kleinere \(\lambda\) draagt minder energie.", False),
+                 ("waar", r"De helling van de grafiek van \(E_{k}\) tegen \(f\) is \(h\).", True),
              ]),
         dict(kop="Uitleggen",
              opdracht="Antwoord in volle zinnen.",
              oefeningen=[
-                 ("open", "Leg uit waarom het klassieke golfmodel het foto-elektrisch effect niet kan verklaren.",
-                  "Volgens dat model zou fel rood licht na wat wachten genoeg energie aanbrengen om "
-                  "elektronen los te maken. In werkelijkheid komt er met rood licht nooit één "
-                  "elektron los, hoe fel het ook schijnt, want elk elektron krijgt precies één foton "
-                  "en dat moet op zich genoeg energie hebben.", 7),
+                 ("open", "Waarom verklaart het klassieke golfmodel het foto-elektrisch effect niet?",
+                  "Volgens dat model zou fel rood licht na wat wachten genoeg energie "
+                  "aanbrengen. In werkelijkheid komt er met rood licht nooit één elektron los, "
+                  "want elk elektron krijgt precies één foton en dat moet op zich genoeg "
+                  "energie hebben.", 4),
                  ("open", "Waarom merken we het golfkarakter van een voetbal niet?",
-                  "Zijn massa is zo groot dat de bijhorende golflengte onvoorstelbaar klein wordt. "
-                  "Bij een elektron is die golflengte van de orde van een atoom, en daar zie je het "
-                  "effect dus wel.", 6),
-                 ("open", "Je vuurt elektronen één per één door twee spleten. Wat zie je na lang wachten, en waarom is dat merkwaardig?",
-                  "Er staat toch een patroon van strepen op het scherm. Merkwaardig is dat elk "
-                  "elektron als één stip aankomt, dus als deeltje, en dat ze samen toch het patroon "
-                  "van een golf vormen.", 7),
+                  r"Zijn massa is zo groot dat \(\lambda = \dfrac{h}{m\,v}\) onvoorstelbaar "
+                  r"klein wordt. Bij een elektron is ze van de orde van een atoom, en daar zie "
+                  r"je het effect dus wel.", 4),
+                 ("open", "Je vuurt elektronen één per één door twee spleten. Wat zie je, en waarom is dat merkwaardig?",
+                  "Na lang wachten staat er toch een patroon van strepen. Merkwaardig is dat "
+                  "elk elektron als één stip aankomt, dus als deeltje, en dat ze samen toch het "
+                  "patroon van een golf vormen.", 4),
              ]),
     ],
 )
