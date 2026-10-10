@@ -22,14 +22,14 @@ DEEL1 = [
         type="meerkeuze",
         vraag="Wat zegt de formule van Einstein over een massa?",
         opties=[
-            "elke massa is een hoeveelheid energie, namelijk m maal c kwadraat",
-            "elke massa wordt zwaarder naarmate ze sneller beweegt dan c",
-            "elke massa heeft een energie gelijk aan m maal c",
-            "elke massa valt met een versnelling gelijk aan c kwadraat",
+            r"elke massa is energie: \(E = m\,c^{2}\)",
+            r"elke massa wordt zwaarder boven \(c\)",
+            r"elke massa heeft energie \(E = m\,c\)",
+            r"elke massa valt met versnelling \(c^{2}\)",
         ],
         antwoord=0,
-        uitleg="Omdat c kwadraat enorm groot is, zit er in een kleine massa veel energie. In "
-        "de kernfysica rekent men ook met 931,49 MeV per atomaire massa-eenheid.",
+        uitleg=r"Omdat \(c^{2}\) enorm groot is, zit er in een kleine massa veel energie. In "
+        r"de kernfysica rekent men ook met \(931{,}49\) MeV per atomaire massa-eenheid.",
     ),
     dict(
         type="meerkeuze",
@@ -41,28 +41,28 @@ DEEL1 = [
             "het deel van de massa dat bij verval overblijft",
         ],
         antwoord=0,
-        uitleg="De kern weegt minder dan zijn delen apart. Die ontbrekende massa zit als "
-        "bindingsenergie in de kern.",
+        uitleg=r"De kern weegt minder dan zijn delen apart. Dat verschil \(\Delta m\) zit "
+        r"als bindingsenergie in de kern.",
     ),
     dict(
         type="invultekst",
         vraag="Hoe noem je de energie die nodig is om een kern in losse nucleonen te splitsen?",
         antwoord=["de bindingsenergie", "bindingsenergie", "kernbindingsenergie"],
-        uitleg="Ze is het massadefect maal c kwadraat. Per nucleon heet ze de specifieke "
-        "bindingsenergie.",
+        uitleg=r"\(E_{b} = \Delta m\,c^{2}\). Per nucleon heet ze de specifieke "
+        r"bindingsenergie.",
     ),
     dict(
         type="meerkeuze",
         vraag="Wat is de specifieke bindingsenergie van een kern?",
         opties=[
-            "de bindingsenergie gedeeld door het aantal nucleonen",
-            "de bindingsenergie maal het aantal nucleonen",
-            "de bindingsenergie gedeeld door het atoomnummer",
-            "de bindingsenergie van het hele atoom samen",
+            r"de bindingsenergie gedeeld door \(A\)",
+            r"de bindingsenergie maal \(A\)",
+            r"de bindingsenergie gedeeld door \(Z\)",
+            r"de bindingsenergie van het hele atoom",
         ],
         antwoord=0,
-        uitleg="Zo kan je kernen van verschillende grootte vergelijken. Hoe groter ze is, "
-        "hoe stabieler de kern.",
+        uitleg=r"\(\dfrac{E_{b}}{A}\) laat je kernen van verschillende grootte vergelijken. "
+        r"Hoe groter ze is, hoe stabieler de kern.",
     ),
     dict(
         type="waarofniet",
@@ -224,16 +224,16 @@ DEEL1 = [
     ),
     dict(
         type="meerkeuze",
-        vraag="Hoeveel energie zit er volgens Einstein in 1 g massa? Neem c gelijk aan 3 · 10⁸ m/s.",
+        vraag=r"Hoeveel energie zit er in \(1\) g massa? Neem \(c = 3 \times 10^{8}\) m/s.",
         opties=[
-            "ongeveer 9 · 10¹³ J",
-            "ongeveer 9 · 10¹⁶ J",
-            "ongeveer 3 · 10⁵ J",
-            "ongeveer 9 · 10⁶ J",
+            r"ongeveer \(9 \times 10^{13}\) J",
+            r"ongeveer \(9 \times 10^{16}\) J",
+            r"ongeveer \(3 \times 10^{5}\) J",
+            r"ongeveer \(9 \times 10^{6}\) J",
         ],
         antwoord=0,
-        uitleg="E is m maal c kwadraat, met m gelijk aan 0,001 kilogram. Dat is 0,001 maal 9 "
-        "maal tien tot de macht 16.",
+        uitleg=r"\(E = m\,c^{2} = 0{,}001 \times (3 \times 10^{8})^{2} "
+        r"= 9 \times 10^{13}\) J.",
     ),
     dict(
         type="waarofniet",
@@ -328,28 +328,28 @@ DEEL2 = [
             "de energie van één foton van de straling",
         ],
         antwoord=0,
-        uitleg="Ze krijgt het symbool D en staat in gray. De activiteit van de bron staat "
-        "wel in becquerel.",
+        uitleg=r"Ze krijgt het symbool \(D\) en staat in gray. De activiteit van de bron "
+        r"staat wel in becquerel.",
     ),
     dict(
         type="invultekst",
         vraag="In welke eenheid druk je de geabsorbeerde dosis uit?",
         antwoord=["gray", "Gy", "de gray"],
-        uitleg="Eén gray is één joule per kilogram. De equivalente en de effectieve dosis "
-        "staan wel in sievert.",
+        uitleg=r"\(1\ \text{Gy} = 1\ \text{J/kg}\). De equivalente en de effectieve dosis "
+        r"staan wel in sievert.",
     ),
     dict(
         type="meerkeuze",
         vraag="Wat is de equivalente dosis?",
         opties=[
-            "de geabsorbeerde dosis maal de stralingsweegfactor",
-            "de geabsorbeerde dosis maal de weefselweegfactor",
-            "de geabsorbeerde dosis gedeeld door de tijd",
-            "de geabsorbeerde dosis van het hele lichaam samen",
+            r"\(H = w_{R} \cdot D\), met de stralingsweegfactor",
+            r"\(H = w_{T} \cdot D\), met de weefselweegfactor",
+            r"\(H = \dfrac{D}{t}\), gedeeld door de tijd",
+            r"\(H = D\) van het hele lichaam samen",
         ],
         antwoord=0,
-        uitleg="Zo houd je er rekening mee dat alfastraling meer schade doet. Ze staat in "
-        "sievert.",
+        uitleg=r"Zo houd je er rekening mee dat alfastraling meer schade doet. \(H\) staat "
+        r"in sievert.",
     ),
     dict(
         type="meerkeuze",
@@ -374,15 +374,15 @@ DEEL2 = [
             "om de activiteit van de bron te berekenen",
         ],
         antwoord=0,
-        uitleg="Met die factor kom je van de equivalente naar de effectieve dosis. Het "
-        "beenmerg weegt bijvoorbeeld zwaarder dan de huid.",
+        uitleg=r"Met \(w_{T}\) kom je van de equivalente naar de effectieve dosis. Het "
+        r"beenmerg weegt bijvoorbeeld zwaarder dan de huid.",
     ),
     dict(
         type="waarofniet",
         vraag="De effectieve dosis houdt rekening met de soort straling en met het bestraalde weefsel.",
         antwoord=True,
-        uitleg="Ze is de geabsorbeerde dosis met beide weegfactoren erbij. Daarom is net zij "
-        "de maat voor het risico voor de mens.",
+        uitleg=r"\(E = \sum w_{T} \cdot H\), dus met beide weegfactoren erbij. Daarom is "
+        r"net zij de maat voor het risico voor de mens.",
     ),
     dict(
         type="meerkeuze",

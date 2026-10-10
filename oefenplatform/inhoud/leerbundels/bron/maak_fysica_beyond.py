@@ -2911,117 +2911,145 @@ BUNDELS["kernenergie-straling-en-haar-effecten-beyond"] = dict(
     onder="Van massadefect tot jodiumpil: waar de energie zit en wat de straling doet.",
     secties=[
         dict(kop="Massa is energie", blokken=[
-            ("p", "De formule van Einstein zegt over een massa: "
-                  "<strong>elke massa is een hoeveelheid energie, namelijk m maal c "
-                  "kwadraat</strong>. In <strong>1 g</strong> massa zit met c gelijk aan "
-                  "3 · 10⁸ m/s dus <strong>ongeveer 9 · 10¹³ J</strong>. En "
-                  "<strong>bij een kernproces blijft de totale massa van de deeltjes niet precies "
-                  "gelijk</strong>: een stukje massa wordt energie."),
-            ("p", "Het <strong>massadefect</strong> van een kern is "
-                  "<strong>het verschil tussen de massa van de losse nucleonen en de kern</strong>. "
-                  "De energie die nodig is om een kern in losse nucleonen te splitsen heet de "
-                  "<strong>bindingsenergie</strong>; de "
-                  "<strong>specifieke bindingsenergie</strong> is "
-                  "<strong>de bindingsenergie gedeeld door het aantal nucleonen</strong>. "
-                  "<strong>Een kern met een grotere specifieke bindingsenergie is stabieler</strong>."),
+            ("kader", "<strong>De formule van Einstein</strong><br>"
+                      "\\[E = m\\,c^{2}\\]"
+                      "Elke massa <strong>is</strong> een hoeveelheid energie. Omdat "
+                      "\\(c^{2}\\) enorm groot is, zit er in een kleine massa heel veel "
+                      "energie: in \\(1\\) g zit \\(9 \\times 10^{13}\\) J."),
+            ("p", "Bij een kernproces blijft de totale massa van de deeltjes dus "
+                  "<strong>niet</strong> gelijk: een stukje massa wordt energie, en net daar "
+                  "komt de opbrengst vandaan. Massa en energie samen blijven wel bewaard. In "
+                  "de kernfysica rekent men vaak met \\(931{,}49\\) MeV per atomaire "
+                  "massa-eenheid."),
+        ]),
+        dict(kop="Massadefect en bindingsenergie", blokken=[
+            ("kader", "<strong>Wat de kern samenhoudt</strong><br>"
+                      "\\[E_{b} = \\Delta m\\,c^{2} \\qquad \\text{per nucleon: } "
+                      "\\dfrac{E_{b}}{A}\\]"
+                      "\\(\\Delta m\\) is het <strong>massadefect</strong>: het verschil "
+                      "tussen de massa van de losse nucleonen en die van de kern."),
+            ("p", "Een kern weegt dus <strong>minder</strong> dan haar delen apart. Die "
+                  "ontbrekende massa zit als <strong>bindingsenergie</strong> of "
+                  "kernbindingsenergie in de kern: "
+                  "precies de energie die je nodig hebt om haar weer in losse nucleonen te "
+                  "splitsen. Deel je door het aantal nucleonen, dan krijg je de "
+                  "<strong>specifieke bindingsenergie</strong>, en daarmee kan je kernen van "
+                  "heel verschillende grootte vergelijken: hoe groter ze is, hoe "
+                  "<strong>stabieler</strong> de kern."),
         ]),
         dict(kop="Splijting en fusie", blokken=[
-            ("p", "<strong>Kernsplijting</strong> is: "
-                  "<strong>een zware kern valt in twee lichtere kernen uiteen</strong>. Zowel "
-                  "<strong>fusie van twee lichte kernen</strong> als "
-                  "<strong>splijting van een zware kern</strong> levert energie, want in beide "
-                  "gevallen schuif je naar kernen met een grotere specifieke bindingsenergie. Bij "
-                  "fusie van lichte kernen komt energie vrij omdat "
-                  "<strong>de nieuwe kern een grotere specifieke bindingsenergie heeft</strong>."),
-            ("p", "De energie van de zon komt van <strong>kernfusie van waterstof tot "
-                  "helium</strong>. Een gewone kerncentrale gebruikt "
-                  "<strong>uranium</strong> als splijtstof. Een centrale op kernfusie zou boven een "
-                  "op kernsplijting <strong>veel minder langlevend afval en geen kettingreactie die "
-                  "ontspoort</strong> hebben."),
-            ("p", "De <strong>regelstaven</strong> in een kernreactor dienen hiervoor: "
-                  "<strong>ze vangen neutronen weg en houden de kettingreactie in de hand</strong>. "
-                  "Bij een kerncentrale op kernsplijting horen "
-                  "<strong>een reactorvat met splijtstaven en regelstaven</strong>, "
-                  "<strong>een stoomgenerator en een turbine</strong> en "
-                  "<strong>een betonnen koepel rond de reactor</strong>. "
-                  "<strong>Een kerncentrale op kernsplijting stoot bij het opwekken van stroom geen "
-                  "CO₂ uit</strong>; het probleem zit in het afval."),
+            ("fig", svg.bindingsenergiecurve(),
+             "De specifieke bindingsenergie van de lichtste tot de zwaarste kernen."),
+            ("p", "<strong>Kernsplijting</strong> is een zware kern die in twee lichtere "
+                  "uiteenvalt; <strong>kernfusie</strong> is twee lichte kernen die "
+                  "samensmelten. Allebei leveren ze energie, want allebei schuiven ze naar "
+                  "kernen met een <strong>grotere</strong> specifieke bindingsenergie. Boven "
+                  "aan de curve ligt ijzer-56, de stabielste kern van allemaal."),
+        ]),
+        dict(kop="De kerncentrale", blokken=[
+            ("p", "De zon haalt haar energie uit <strong>kernfusie van waterstof tot "
+                  "helium</strong>. Een gewone kerncentrale op aarde werkt met "
+                  "<strong>kernsplijting</strong> en gebruikt <strong>uranium</strong>, ook uraan "
+                  "genoemd, als splijtstof. Bij zo'n "
+                  "centrale horen een <strong>reactorvat</strong> met splijtstaven en "
+                  "regelstaven, een <strong>stoomgenerator</strong> met een turbine, en een "
+                  "<strong>betonnen koepel</strong> rond de reactor."),
+            ("p", "De <strong>regelstaven</strong> in een kernreactor vangen neutronen weg en "
+                  "houden zo de "
+                  "kettingreactie in de hand. Bij het opwekken van stroom stoot een "
+                  "kerncentrale <strong>geen CO₂</strong> uit; het probleem zit in het afval. "
+                  "Een centrale op <strong>fusie</strong> zou daarin beter scoren: veel minder "
+                  "langlevend afval, en geen kettingreactie die ontspoort."),
         ]),
         dict(kop="Radioactief afval", blokken=[
-            ("p", "Radioactief afval wordt ingedeeld volgens twee kenmerken: "
-                  "<strong>de intensiteit van de straling en hoe lang ze duurt</strong>. In "
-                  "categorie A zit <strong>kortlevend laagactief en middelactief afval</strong>. "
-                  "Laagactief afval komt onder meer "
-                  "<strong>van beschermkledij en gereedschap uit een ziekenhuis of labo</strong>."),
-            ("p", "<strong>Voor hoogactief afval van categorie C ligt in België nog geen "
-                  "definitieve bergingsplaats vast</strong>: er is een onderzoekslabo in de kleilaag "
-                  "onder Mol, maar de keuze is niet gemaakt."),
+            ("p", "Afval wordt ingedeeld volgens <strong>twee</strong> kenmerken: hoe intens "
+                  "de straling is, dus de intensiteit, en hoe lang ze duurt. In "
+                  "<strong>categorie A</strong> zit kortlevend laagactief en middelactief "
+                  "afval, bijvoorbeeld beschermkledij en "
+                  "gereedschap uit een ziekenhuis of een labo."),
+            ("p", "Voor hoogactief afval van <strong>categorie C</strong> ligt in België nog "
+                  "<strong>geen</strong> definitieve bergingsplaats vast. Er is wel een "
+                  "onderzoekslabo in de kleilaag onder Mol, maar de keuze is niet gemaakt."),
         ]),
         dict(kop="Alfa, bèta en gamma onderweg", blokken=[
-            ("p", "<strong>Alfastraling</strong> heeft het grootste ioniserend vermogen, maar "
-                  "<strong>alfastraling heeft van de drie soorten niet het grootste doordringend "
-                  "vermogen</strong>: juist het kleinste. Die twee gaan omgekeerd samen, want wie "
-                  "veel ioniseert, raakt zijn energie snel kwijt."),
-            ("p", "Wat welke straling tegenhoudt: "
-                  "<strong>een blad papier houdt alfastraling tegen</strong>, "
-                  "<strong>een plaatje aluminium houdt bètastraling tegen</strong> en "
-                  "<strong>een dikke laag lood of beton zwakt gammastraling af</strong>."),
-            ("p", "Omdat alfa en bèta geladen zijn, "
-                  "<strong>buigt alfastraling af in een elektrisch veld</strong>. In een magnetisch "
-                  "veld geldt: <strong>alfa en bèta buigen naar tegengestelde kanten, gamma gaat "
-                  "recht</strong>, want gammastraling heeft geen lading."),
+            ("fig", svg.doordringend(),
+             "Drie soorten straling tegen een blad papier, aluminium en lood."),
+            ("p", "<strong>Alfastraling</strong> heeft het grootste "
+                  "<strong>ioniserend</strong> vermogen en het <strong>kleinste</strong> "
+                  "doordringend vermogen. Die twee gaan altijd omgekeerd samen: wie veel "
+                  "ioniseert, raakt zijn energie snel kwijt. Een blad papier houdt alfa tegen, "
+                  "een plaatje aluminium houdt bèta tegen, en een dikke laag lood of beton "
+                  "zwakt gamma af."),
         ]),
-        dict(kop="Dosis en bescherming", blokken=[
-            ("p", "Het verschil tussen bestraling en besmetting: "
-                  "<strong>bij besmetting zit de radioactieve stof op of in je lichaam</strong>. Zit "
-                  "ze in het lichaam, dan spreekt men van "
-                  "<strong>inwendige besmetting</strong>."),
-            ("p", "De <strong>geabsorbeerde dosis</strong> is "
-                  "<strong>de energie van de straling per kilogram weefsel</strong>, in "
-                  "<strong>gray</strong>. De <strong>equivalente dosis</strong> is "
-                  "<strong>de geabsorbeerde dosis maal de stralingsweegfactor</strong>. "
-                  "Alfastraling heeft een veel hogere stralingsweegfactor dan gammastraling omdat "
-                  "<strong>ze haar energie in een heel klein gebied afgeeft</strong>. De "
-                  "<strong>weefselweegfactor</strong> dient "
-                  "<strong>om te verrekenen dat sommige organen gevoeliger zijn</strong>, en "
-                  "<strong>de effectieve dosis houdt rekening met de soort straling en met het "
-                  "bestraalde weefsel</strong>."),
-            ("p", "Beschermen tegen ioniserende straling doe je door "
-                  "<strong>verder van de bron te gaan staan</strong>, "
-                  "<strong>zo kort mogelijk in de buurt van de bron te blijven</strong> en met "
-                  "<strong>een afscherming van lood of beton tussen jou en de bron</strong>: "
-                  "afstand, tijd en afscherming."),
-            ("p", "Bij een kernongeval deelt men jodiumpillen uit omdat "
-                  "<strong>de schildklier dan vol zit en geen radioactief jodium meer "
-                  "opneemt</strong>."),
+        dict(kop="Straling in een veld", blokken=[
+            ("p", "Alfa- en bètastraling zijn <strong>geladen</strong>, dus ze buigen af in "
+                  "een elektrisch én in een magnetisch veld. Omdat hun lading tegengesteld is, "
+                  "buigen ze naar <strong>tegengestelde</strong> kanten. "
+                  "<strong>Gammastraling</strong> heeft geen lading en gaat dus "
+                  "<strong>recht</strong> door."),
         ]),
-        dict(kop="Wat straling met een cel doet, en waar ze helpt", blokken=[
-            ("p", "Het effect van ioniserende straling op een cel: "
-                  "<strong>ze kan het DNA beschadigen en de cel doen afsterven of muteren</strong>. "
-                  "<strong>Natuurlijke straling</strong> is "
-                  "<strong>straling van radon uit de bodem en van de kosmos</strong>; die is er "
-                  "altijd, ook zonder centrale in de buurt."),
-            ("p", "Toepassingen die ioniserende straling gebruiken: "
-                  "<strong>het doorstralen van voedsel om het langer te bewaren</strong>, "
-                  "<strong>radiotherapie tegen een tumor</strong> en "
-                  "<strong>een PET-scan met een radioactieve tracer</strong>. "
-                  "<strong>Doorstraald voedsel wordt zelf niet radioactief</strong>: de straling "
-                  "doodt de micro-organismen en gaat er dan door."),
-            ("p", "In een PET-scan gebruikt men een stof met een korte halveringstijd omdat "
-                  "<strong>de straling in het lichaam dan snel weer weg is</strong>."),
+        dict(kop="Bestraling en besmetting", blokken=[
+            ("p", "Bij <strong>bestraling</strong> sta je in de straling van een bron die "
+                  "buiten je blijft. Bij <strong>besmetting</strong> zit de radioactieve stof "
+                  "zelf op of in je lichaam; zit ze erin, dan heet dat een "
+                  "<strong>inwendige</strong> besmetting. Daarom is alfastraling van buiten "
+                  "ongevaarlijk, maar ingeslikt of ingeademd juist het gevaarlijkst."),
+        ]),
+        dict(kop="Drie soorten dosis", blokken=[
+            ("kader", "<strong>Van energie naar risico</strong><br>"
+                      "\\[D = \\dfrac{E}{m} \\quad [\\text{Gy}] \\qquad "
+                      "H = w_{R} \\cdot D \\quad [\\text{Sv}] \\qquad "
+                      "E_{\\text{eff}} = \\sum w_{T} \\cdot H\\]"
+                      "\\(1\\ \\text{Gy} = 1\\ \\text{J/kg}\\). De equivalente en de "
+                      "effectieve dosis staan in <strong>sievert</strong>."),
+            ("p", "De <strong>geabsorbeerde dosis</strong> \\(D\\) is de energie van de "
+                  "straling per kilogram weefsel. De <strong>stralingsweegfactor</strong> "
+                  "\\(w_{R}\\) verrekent dat de ene soort straling meer schade doet dan de "
+                  "andere: alfastraling scoort er veel hoger omdat ze al haar energie in een "
+                  "heel klein gebied afgeeft, zodat alle ionisaties op dezelfde paar cellen "
+                  "terechtkomen."),
+            ("p", "De <strong>weefselweegfactor</strong> \\(w_{T}\\) verrekent dat het ene "
+                  "orgaan gevoeliger is dan het andere: beenmerg weegt zwaarder dan huid. De "
+                  "<strong>effectieve dosis</strong> houdt dus rekening met de soort straling én "
+                  "met het bestraalde weefsel, en net daarom is zij de maat voor het risico "
+                  "voor de mens."),
+        ]),
+        dict(kop="Beschermen", blokken=[
+            ("p", "Tegen ioniserende straling werken drie dingen, en altijd dezelfde drie: "
+                  "<strong>afstand</strong> (verder van de bron gaan staan), "
+                  "<strong>tijd</strong> (zo kort mogelijk in de buurt blijven) en "
+                  "<strong>afscherming</strong> (lood of beton ertussen). De bron verwarmen "
+                  "doet niets: verval trekt zich daar niets van aan."),
+            ("p", "Bij een kernongeval deelt men <strong>jodiumpillen</strong> uit. De "
+                  "schildklier zit dan vol met gewoon jodium en neemt het radioactieve jodium "
+                  "uit de lucht niet meer op."),
+        ]),
+        dict(kop="Wat straling met een cel doet", blokken=[
+            ("p", "Ioniserende straling kan het <strong>DNA</strong> van een cel beschadigen, "
+                  "waardoor de cel kan afsterven of muteren. Een deel van de straling om ons heen "
+                  "is <strong>natuurlijk</strong>: radon uit de bodem en straling uit de "
+                  "kosmos. Die is er altijd, ook zonder centrale in de buurt."),
+            ("p", "Dezelfde straling helpt ook: <strong>radiotherapie</strong> tegen een "
+                  "tumor, een <strong>PET-scan</strong> met een radioactieve tracer, en het "
+                  "<strong>doorstralen</strong> van voedsel om het langer te bewaren. "
+                  "Doorstraald voedsel wordt <strong>niet</strong> zelf radioactief: de "
+                  "straling doodt de micro-organismen en gaat er dan gewoon door. In een "
+                  "PET-scan kiest men een stof met een <strong>korte halveringstijd</strong>, "
+                  "zodat de straling snel weer uit het lichaam weg is."),
         ]),
     ],
     onthoud=[
-        "E = m · c²; bij een kernproces verdwijnt er massa.",
-        "Massadefect geeft de bindingsenergie; per nucleon telt.",
-        "Splijting van zwaar en fusie van licht leveren beide energie.",
+        "\\(E = m\\,c^{2}\\); bij een kernproces verdwijnt er massa.",
+        "\\(E_{b} = \\Delta m\\,c^{2}\\); per nucleon telt: \\(\\tfrac{E_{b}}{A}\\).",
+        "Splijting van zwaar en fusie van licht leveren allebei energie.",
         "Regelstaven vangen neutronen en houden de reactie in de hand.",
         "Categorie C, hoogactief, heeft in België nog geen bergingsplaats.",
-        "Alfa ioniseert het sterkst, dringt het minst door.",
-        "Gray voor de geabsorbeerde dosis, met weegfactoren naar de effectieve dosis.",
+        "Alfa ioniseert het sterkst en dringt het minst door.",
+        "\\(D\\) in gray, \\(H = w_{R} \\cdot D\\) in sievert, dan \\(w_{T}\\) erbij.",
         "Afstand, tijd en afscherming beschermen je.",
     ],
 )
+
 
 # ───────────────────── 22. Veilig werken, meetinstrumenten en meetonzekerheid
 BUNDELS["veilig-werken-meetinstrumenten-en-meetonzekerheid-beyond"] = dict(

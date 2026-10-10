@@ -2232,26 +2232,34 @@ OEFENBUNDELS["oefenbundel-kernenergie-straling-en-haar-effecten-beyond"] = dict(
                           ("buigt niet af in een magnetisch veld", "gamma")],
                   "Welke straling?", WW),
              ]),
+        dict(kop=r"Rekenen met \(E = m\,c^{2}\)",
+             opdracht=r"Neem \(c = 3 \times 10^{8}\) m/s.",
+             oefeningen=[
+                 ("kort", r"Hoeveel energie zit er in \(2\) g massa?",
+                  r"\(1{,}8 \times 10^{14}\) J, want \(0{,}002 \times 9 \times 10^{16}\).", WL),
+                 ("kort", r"Hoeveel energie zit er in \(0{,}50\) kg massa?",
+                  r"\(4{,}5 \times 10^{16}\) J.", WL),
+                 ("kort", r"Bij een reactie verdwijnt \(1{,}0 \times 10^{-6}\) kg massa. Hoeveel energie komt vrij?",
+                  r"\(9 \times 10^{10}\) J.", WL),
+                 ("kort", r"Een kern heeft \(\Delta m\) en \(A = 56\). Hoe bereken je \(\dfrac{E_{b}}{A}\)?",
+                  r"Eerst \(E_{b} = \Delta m\,c^{2}\), dan delen door \(56\).", WL),
+             ]),
         dict(kop="Dosis",
              opdracht="Antwoord kort.",
              oefeningen=[
                  ("rij", [("de energie van de straling per kilogram weefsel", "de geabsorbeerde dosis"),
                           ("de eenheid daarvan", "gray")],
                   "Hoe heet dat?", WL),
-                 ("rij", [("de geabsorbeerde dosis maal de stralingsweegfactor", "de equivalente dosis"),
-                          ("houdt ook rekening met het bestraalde weefsel", "de effectieve dosis")],
+                 ("rij", [(r"\(H = w_{R} \cdot D\)", "de equivalente dosis"),
+                          (r"met \(w_{T}\) erbij", "de effectieve dosis")],
                   "Hoe heet dat?", WL),
+                 ("kort", r"Een weefsel krijgt \(D = 0{,}20\) Gy gammastraling, met \(w_{R} = 1\). Hoe groot is \(H\)?",
+                  r"\(H = 0{,}20\) Sv.", WL),
+                 ("kort", r"Dezelfde \(D\) maar alfastraling, met \(w_{R} = 20\). Hoe groot is \(H\) nu?",
+                  r"\(H = 4{,}0\) Sv, dus twintig keer zoveel.", WL),
              ]),
-        dict(kop="Rekenen met E = m · c²",
-             opdracht="Neem c gelijk aan 3 · 10⁸ m/s.",
-             oefeningen=[
-                 ("kort", "Hoeveel energie zit er in 2 g massa?",
-                  "ongeveer 1,8 · 10¹⁴ J, want 0,002 · 9 · 10¹⁶.", WL),
-                 ("kort", "Hoeveel energie zit er in 0,5 kg massa?",
-                  "4,5 · 10¹⁶ J.", WL),
-             ]),
-        dict(kop="Splijting of fusie",
-             opdracht="Schrijf splijting of fusie.",
+        dict(kop="Splijting, fusie en de centrale",
+             opdracht="Antwoord kort.",
              oefeningen=[
                  ("rij", [("een zware kern valt uiteen", "splijting"),
                           ("twee lichte kernen worden één", "fusie"),
@@ -2261,33 +2269,51 @@ OEFENBUNDELS["oefenbundel-kernenergie-straling-en-haar-effecten-beyond"] = dict(
                           ("waterstof wordt helium", "fusie"),
                           ("wordt met regelstaven in de hand gehouden", "splijting")],
                   "Splijting of fusie?", WW),
+                 ("kort", r"Waarom levert geen van beide energie bij ijzer-56?",
+                  r"Daar ligt de top van \(\dfrac{E_{b}}{A}\): verder omhoog kan niet.", WL),
+                 ("rij", [("remt de neutronen af", "de moderator"),
+                          ("slorpt neutronen op en regelt zo de reactie", "de regelstaven"),
+                          ("voert de warmte naar de stoomturbine", "het koelwater")],
+                  "Welk onderdeel van de centrale?", WW),
+                 ("rij", [("elke splijting maakt nieuwe neutronen die weer splijten", "de kettingreactie"),
+                          ("de kleinste massa waarin die reactie zich in stand houdt", "de kritische massa")],
+                  "Hoe heet dat?", WL),
+                 ("kort", r"Een centrale haalt een rendement van \(33\) %. Hoeveel elektrische energie krijg je uit \(900\) MW warmte?",
+                  r"\(300\) MW; de rest gaat als warmte weg.", WL),
              ]),
         dict(kop="Waar of niet waar",
              opdracht="Kruis aan.",
              oefeningen=[
                  ("waar", "Een kerncentrale op splijting stoot bij het opwekken van stroom CO₂ uit.", False),
                  ("waar", "Doorstraald voedsel wordt zelf radioactief.", False),
-                 ("waar", "Voor hoogactief afval van categorie C ligt in België al een definitieve bergingsplaats vast.", False),
+                 ("waar", "Voor hoogactief afval van categorie C ligt in België al een bergingsplaats vast.", False),
                  ("waar", "Bij een kernproces blijft de totale massa van de deeltjes precies gelijk.", False),
                  ("waar", "Natuurlijke straling komt onder meer van radon uit de bodem.", True),
+                 ("waar", r"In hoogactief afval zitten kernen met een \(T_{1/2}\) van duizenden jaren.", True),
+                 ("waar", r"Een kern met een grotere \(\tfrac{E_{b}}{A}\) is stabieler.", True),
+                 ("waar", "Alfastraling is van buiten het lichaam het gevaarlijkst.", False),
+                 ("waar", r"\(1\) Gy is \(1\) J per kilogram.", True),
+                 ("waar", "De effectieve dosis houdt rekening met het bestraalde weefsel.", True),
+                 ("waar", "Gammastraling buigt af in een elektrisch veld.", False),
              ]),
         dict(kop="Uitleggen",
              opdracht="Antwoord in volle zinnen.",
              oefeningen=[
-                 ("open", "Noem de drie manieren om je tegen ioniserende straling te beschermen, en leg elk in één zin uit.",
-                  "Afstand: de intensiteit daalt met het kwadraat van de afstand. Tijd: hoe korter "
-                  "je in de buurt blijft, hoe kleiner de dosis. Afscherming: lood of beton tussen "
-                  "jou en de bron zwakt de straling af.", 7),
+                 ("open", "Noem de drie manieren om je tegen ioniserende straling te beschermen.",
+                  "Afstand: de intensiteit daalt met het kwadraat van de afstand. Tijd: hoe "
+                  "korter je in de buurt blijft, hoe kleiner de dosis. Afscherming: lood of "
+                  "beton tussen jou en de bron zwakt de straling af.", 4),
                  ("open", "Waarom deelt men bij een kernongeval jodiumpillen uit?",
-                  "De schildklier neemt jodium op. Door ze met gewoon jodium te vullen, kan ze geen "
-                  "radioactief jodium meer opnemen, en blijft de dosis daar laag.", 6),
-                 ("open", "Waarom gebruikt men bij een PET-scan een stof met een korte halveringstijd?",
-                  "Dan is de straling in het lichaam snel weer weg, dus blijft de dosis voor de "
-                  "patiënt beperkt terwijl het beeld toch gemaakt kan worden.", 6),
+                  "De schildklier neemt jodium op. Door ze met gewoon jodium te vullen, kan ze "
+                  "geen radioactief jodium meer opnemen, en blijft de dosis daar laag.", 4),
+                 ("open", "Waarom heeft alfastraling een veel hogere stralingsweegfactor dan gamma?",
+                  "Alfastraling geeft al haar energie in een heel klein gebied af, dus komen "
+                  "alle ionisaties op dezelfde paar cellen terecht. Dat doet veel meer schade "
+                  "dan dezelfde energie die over een groot volume verdeeld wordt.", 4),
                  ("open", "Leg uit wat het verschil is tussen bestraling en besmetting.",
-                  "Bij bestraling blijft de bron buiten je lichaam en stopt het zodra je weggaat. "
-                  "Bij besmetting zit de radioactieve stof op of in je lichaam, en blijft ze dus "
-                  "stralen tot ze verwijderd of vervallen is.", 7),
+                  "Bij bestraling blijft de bron buiten je lichaam en stopt het zodra je "
+                  "weggaat. Bij besmetting zit de radioactieve stof op of in je lichaam, en "
+                  "blijft ze stralen tot ze verwijderd of vervallen is.", 4),
              ]),
     ],
 )

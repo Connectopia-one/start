@@ -8335,3 +8335,80 @@ def nuclidenkaart(breedte=470):
     d.append(_tekst(breedte / 2, h - 8,
                     "de band buigt bij zware kernen weg van de streepjeslijn", 9, DIM, "middle"))
     return _svg(breedte, h, "\n".join(d))
+
+
+def bindingsenergiecurve(breedte=470):
+    r"""De specifieke bindingsenergie per nucleon tegen het massagetal."""
+    import math
+    h = 222
+    d = []
+    d.append(f'<rect x="5" y="4" width="{breedte-10}" height="{h-28}" rx="7" '
+             f'fill="#ffffff" stroke="{BORDER}" stroke-width="1.2"/>')
+    ox, oy, top, rechts = 66, 182, 32, 440
+    sx = (rechts - ox) / 245.0
+    sy = (oy - top) / 9.6
+    px = lambda a: ox + a * sx
+    py = lambda e: oy - e * sy
+
+    d.append(f'<line x1="{ox}" y1="{top-4}" x2="{ox}" y2="{oy}" stroke="{INK}" '
+             f'stroke-width="1.4"/>')
+    d.append(f'<line x1="{ox}" y1="{oy}" x2="{rechts}" y2="{oy}" stroke="{INK}" '
+             f'stroke-width="1.4"/>')
+    d.append(_pijlkop(ox, top - 4, -math.pi / 2, INK, 4.5))
+    d.append(_pijlkop(rechts, oy, 0.0, INK, 4.5))
+    d.append(_tekst(ox - 10, top - 14, "Eb/A (MeV)", 9, INK, "end", True))
+    d.append(_tekst(rechts - 2, oy + 16, "A", 10, INK, "end", True))
+    for e in (2, 4, 6, 8):
+        d.append(f'<line x1="{ox-4}" y1="{py(e):.1f}" x2="{ox}" y2="{py(e):.1f}" '
+                 f'stroke="{INK}" stroke-width="1.1"/>')
+        d.append(_tekst(ox - 8, py(e) + 3.5, str(e), 8, DIM, "end"))
+
+    kernen = [(2, 1.1), (4, 7.07), (7, 5.6), (12, 7.68), (16, 7.98), (20, 8.03),
+              (27, 8.33), (40, 8.55), (56, 8.79), (75, 8.70), (100, 8.60),
+              (140, 8.33), (180, 8.00), (208, 7.87), (238, 7.57)]
+    punten = " ".join(f"{px(a):.1f},{py(e):.1f}" for a, e in kernen)
+    d.append(f'<polyline points="{punten}" fill="none" stroke="{FOREST}" '
+             f'stroke-width="2.4"/>')
+    d.append(f'<circle cx="{px(56):.1f}" cy="{py(8.79):.1f}" r="3.6" fill="{DARK}"/>')
+    d.append(_tekst(px(56), py(8.79) - 10, "ijzer-56", 9, DARK, "middle", True))
+
+    y = py(2.2)
+    d.append(f'<line x1="{px(10):.1f}" y1="{y:.1f}" x2="{px(46):.1f}" y2="{y:.1f}" '
+             f'stroke="{AMBER}" stroke-width="1.8"/>')
+    d.append(_pijlkop(px(46), y, 0.0, AMBER, 5.0))
+    d.append(_tekst(px(28), y - 7, "fusie", 9.5, AMBER, "middle", True))
+    d.append(f'<line x1="{px(230):.1f}" y1="{y:.1f}" x2="{px(120):.1f}" y2="{y:.1f}" '
+             f'stroke="{AMBER}" stroke-width="1.8"/>')
+    d.append(_pijlkop(px(120), y, math.pi, AMBER, 5.0))
+    d.append(_tekst(px(175), y - 7, "splijting", 9.5, AMBER, "middle", True))
+    d.append(_tekst(breedte / 2, h - 8, "beide pijlen wijzen naar de top", 9, DIM, "middle"))
+    return _svg(breedte, h, "\n".join(d))
+
+
+def doordringend(breedte=470):
+    r"""Hoe ver alfa-, bèta- en gammastraling door drie afschermingen raken."""
+    import math
+    h = 216
+    d = []
+    d.append(f'<rect x="5" y="4" width="{breedte-10}" height="{h-28}" rx="7" '
+             f'fill="#ffffff" stroke="{BORDER}" stroke-width="1.2"/>')
+    boven, onder = 32, 158
+    muren = ((212, 4, "papier"), (296, 9, "aluminium"), (386, 17, "lood"))
+    for x, dik, naam in muren:
+        d.append(f'<rect x="{x}" y="{boven}" width="{dik}" height="{onder-boven}" '
+                 f'fill="{DARK}" fill-opacity="0.22" stroke="{DARK}" stroke-width="1.1"/>')
+        d.append(_tekst(x + dik / 2, onder + 15, naam, 8.5, DIM, "middle"))
+
+    rijen = ((58, "alfa", 208), (95, "bèta", 292), (132, "gamma", 386))
+    for y, naam, eind in rijen:
+        d.append(_tekst(48, y + 4, naam, 9.5, FOREST, "end", True))
+        d.append(f'<line x1="{56}" y1="{y}" x2="{eind-6}" y2="{y}" stroke="{FOREST}" '
+                 f'stroke-width="2.2"/>')
+        if naam != "gamma":
+            d.append(_pijlkop(eind - 4, y, 0.0, FOREST, 5.0))
+    d.append(f'<line x1="403" y1="132" x2="428" y2="132" stroke="{FOREST}" '
+             f'stroke-width="1.4" stroke-dasharray="4 3"/>')
+    d.append(_pijlkop(430, 132, 0.0, FOREST, 4.5))
+    d.append(_tekst(breedte / 2, h - 8, "elke soort raakt tot een andere muur",
+                    9, DIM, "middle"))
+    return _svg(breedte, h, "\n".join(d))

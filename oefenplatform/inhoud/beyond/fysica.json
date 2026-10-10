@@ -9104,13 +9104,13 @@
           "type": "meerkeuze",
           "vraag": "Wat zegt de formule van Einstein over een massa?",
           "opties": [
-            "elke massa is een hoeveelheid energie, namelijk m maal c kwadraat",
-            "elke massa wordt zwaarder naarmate ze sneller beweegt dan c",
-            "elke massa heeft een energie gelijk aan m maal c",
-            "elke massa valt met een versnelling gelijk aan c kwadraat"
+            "elke massa is energie: \\(E = m\\,c^{2}\\)",
+            "elke massa wordt zwaarder boven \\(c\\)",
+            "elke massa heeft energie \\(E = m\\,c\\)",
+            "elke massa valt met versnelling \\(c^{2}\\)"
           ],
           "antwoord": 0,
-          "uitleg": "Omdat c kwadraat enorm groot is, zit er in een kleine massa veel energie. In de kernfysica rekent men ook met 931,49 MeV per atomaire massa-eenheid."
+          "uitleg": "Omdat \\(c^{2}\\) enorm groot is, zit er in een kleine massa veel energie. In de kernfysica rekent men ook met \\(931{,}49\\) MeV per atomaire massa-eenheid."
         },
         {
           "type": "meerkeuze",
@@ -9122,7 +9122,7 @@
             "het deel van de massa dat bij verval overblijft"
           ],
           "antwoord": 0,
-          "uitleg": "De kern weegt minder dan zijn delen apart. Die ontbrekende massa zit als bindingsenergie in de kern."
+          "uitleg": "De kern weegt minder dan zijn delen apart. Dat verschil \\(\\Delta m\\) zit als bindingsenergie in de kern."
         },
         {
           "type": "invultekst",
@@ -9132,19 +9132,19 @@
             "bindingsenergie",
             "kernbindingsenergie"
           ],
-          "uitleg": "Ze is het massadefect maal c kwadraat. Per nucleon heet ze de specifieke bindingsenergie."
+          "uitleg": "\\(E_{b} = \\Delta m\\,c^{2}\\). Per nucleon heet ze de specifieke bindingsenergie."
         },
         {
           "type": "meerkeuze",
           "vraag": "Wat is de specifieke bindingsenergie van een kern?",
           "opties": [
-            "de bindingsenergie gedeeld door het aantal nucleonen",
-            "de bindingsenergie maal het aantal nucleonen",
-            "de bindingsenergie gedeeld door het atoomnummer",
-            "de bindingsenergie van het hele atoom samen"
+            "de bindingsenergie gedeeld door \\(A\\)",
+            "de bindingsenergie maal \\(A\\)",
+            "de bindingsenergie gedeeld door \\(Z\\)",
+            "de bindingsenergie van het hele atoom"
           ],
           "antwoord": 0,
-          "uitleg": "Zo kan je kernen van verschillende grootte vergelijken. Hoe groter ze is, hoe stabieler de kern."
+          "uitleg": "\\(\\dfrac{E_{b}}{A}\\) laat je kernen van verschillende grootte vergelijken. Hoe groter ze is, hoe stabieler de kern."
         },
         {
           "type": "waarofniet",
@@ -9303,15 +9303,15 @@
         },
         {
           "type": "meerkeuze",
-          "vraag": "Hoeveel energie zit er volgens Einstein in 1 g massa? Neem c gelijk aan 3 · 10⁸ m/s.",
+          "vraag": "Hoeveel energie zit er in \\(1\\) g massa? Neem \\(c = 3 \\times 10^{8}\\) m/s.",
           "opties": [
-            "ongeveer 9 · 10¹³ J",
-            "ongeveer 9 · 10¹⁶ J",
-            "ongeveer 3 · 10⁵ J",
-            "ongeveer 9 · 10⁶ J"
+            "ongeveer \\(9 \\times 10^{13}\\) J",
+            "ongeveer \\(9 \\times 10^{16}\\) J",
+            "ongeveer \\(3 \\times 10^{5}\\) J",
+            "ongeveer \\(9 \\times 10^{6}\\) J"
           ],
           "antwoord": 0,
-          "uitleg": "E is m maal c kwadraat, met m gelijk aan 0,001 kilogram. Dat is 0,001 maal 9 maal tien tot de macht 16."
+          "uitleg": "\\(E = m\\,c^{2} = 0{,}001 \\times (3 \\times 10^{8})^{2} = 9 \\times 10^{13}\\) J."
         },
         {
           "type": "waarofniet",
@@ -9410,7 +9410,7 @@
             "de energie van één foton van de straling"
           ],
           "antwoord": 0,
-          "uitleg": "Ze krijgt het symbool D en staat in gray. De activiteit van de bron staat wel in becquerel."
+          "uitleg": "Ze krijgt het symbool \\(D\\) en staat in gray. De activiteit van de bron staat wel in becquerel."
         },
         {
           "type": "invultekst",
@@ -9420,19 +9420,19 @@
             "Gy",
             "de gray"
           ],
-          "uitleg": "Eén gray is één joule per kilogram. De equivalente en de effectieve dosis staan wel in sievert."
+          "uitleg": "\\(1\\ \\text{Gy} = 1\\ \\text{J/kg}\\). De equivalente en de effectieve dosis staan wel in sievert."
         },
         {
           "type": "meerkeuze",
           "vraag": "Wat is de equivalente dosis?",
           "opties": [
-            "de geabsorbeerde dosis maal de stralingsweegfactor",
-            "de geabsorbeerde dosis maal de weefselweegfactor",
-            "de geabsorbeerde dosis gedeeld door de tijd",
-            "de geabsorbeerde dosis van het hele lichaam samen"
+            "\\(H = w_{R} \\cdot D\\), met de stralingsweegfactor",
+            "\\(H = w_{T} \\cdot D\\), met de weefselweegfactor",
+            "\\(H = \\dfrac{D}{t}\\), gedeeld door de tijd",
+            "\\(H = D\\) van het hele lichaam samen"
           ],
           "antwoord": 0,
-          "uitleg": "Zo houd je er rekening mee dat alfastraling meer schade doet. Ze staat in sievert."
+          "uitleg": "Zo houd je er rekening mee dat alfastraling meer schade doet. \\(H\\) staat in sievert."
         },
         {
           "type": "meerkeuze",
@@ -9456,13 +9456,13 @@
             "om de activiteit van de bron te berekenen"
           ],
           "antwoord": 0,
-          "uitleg": "Met die factor kom je van de equivalente naar de effectieve dosis. Het beenmerg weegt bijvoorbeeld zwaarder dan de huid."
+          "uitleg": "Met \\(w_{T}\\) kom je van de equivalente naar de effectieve dosis. Het beenmerg weegt bijvoorbeeld zwaarder dan de huid."
         },
         {
           "type": "waarofniet",
           "vraag": "De effectieve dosis houdt rekening met de soort straling en met het bestraalde weefsel.",
           "antwoord": true,
-          "uitleg": "Ze is de geabsorbeerde dosis met beide weegfactoren erbij. Daarom is net zij de maat voor het risico voor de mens."
+          "uitleg": "\\(E = \\sum w_{T} \\cdot H\\), dus met beide weegfactoren erbij. Daarom is net zij de maat voor het risico voor de mens."
         },
         {
           "type": "meerkeuze",
