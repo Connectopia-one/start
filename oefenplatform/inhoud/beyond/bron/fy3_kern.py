@@ -25,26 +25,26 @@ DEEL1 = [
             "het aantal protonen en elektronen samen",
         ],
         antwoord=0,
-        uitleg="Die twee heten samen de nucleonen, en het symbool is A. Het aantal protonen "
-        "apart is het atoomnummer Z.",
+        uitleg=r"Die twee heten samen de nucleonen, en het symbool is \(A\). Het aantal "
+        r"protonen apart is het atoomnummer \(Z\).",
     ),
     dict(
         type="invultekst",
         vraag="Hoe noem je de deeltjes van een atoomkern samen?",
         antwoord=["nucleonen", "de nucleonen", "kerndeeltjes"],
-        uitleg="Dat zijn de protonen en de neutronen. Hun aantal samen is het massagetal A.",
+        uitleg=r"Dat zijn de protonen en de neutronen. Hun aantal samen is het massagetal \(A\).",
     ),
     dict(
         type="meerkeuze",
-        vraag="Een nuclide heeft massagetal 23 en atoomnummer 11. Hoeveel neutronen heeft hij?",
+        vraag=r"Een nuclide heeft \(A = 23\) en \(Z = 11\). Hoeveel neutronen heeft hij?",
         opties=[
-            "12",
-            "11",
-            "23",
-            "34",
+            r"\(12\)",
+            r"\(11\)",
+            r"\(23\)",
+            r"\(34\)",
         ],
         antwoord=0,
-        uitleg="Het neutronental is A min Z, dus 23 min 11. Dit is natrium-23.",
+        uitleg=r"\(N = A - Z = 23 - 11 = 12\). Dit is natrium-23.",
     ),
     dict(
         type="meerkeuze",
@@ -56,8 +56,8 @@ DEEL1 = [
             "hoeveel keer de kern al vervallen is",
         ],
         antwoord=0,
-        uitleg="Het bepaalt welk element het is, en het heet ook het ladingsgetal. Het "
-        "symbool ervan is Z.",
+        uitleg=r"Het bepaalt welk element het is, en het heet ook het ladingsgetal. Het "
+        r"symbool ervan is \(Z\).",
     ),
     dict(
         type="meerkeuze",
@@ -89,8 +89,8 @@ DEEL1 = [
             "als X met het aantal neutronen erachter",
         ],
         antwoord=0,
-        uitleg="Je kan het massagetal ook linksboven bij het symbool zetten, met het "
-        "atoomnummer linksonder. Koolstof-14 is daarvan het bekendste geval.",
+        uitleg=r"Je kan het massagetal ook linksboven zetten en het atoomnummer linksonder: "
+        r"koolstof-14 wordt dan \(^{14}_{6}\text{C}\).",
     ),
     dict(
         type="meerkeuze",
@@ -120,7 +120,7 @@ DEEL1 = [
     ),
     dict(
         type="meerkeuze",
-        vraag="Waarom zijn zware kernen met Z groter dan 20 pas stabiel met meer neutronen dan protonen?",
+        vraag=r"Waarom zijn zware kernen met \(Z > 20\) pas stabiel met meer neutronen dan protonen?",
         opties=[
             "de extra neutronen geven kernkracht zonder extra afstoting",
             "de extra neutronen stoten de protonen van elkaar weg",
@@ -133,7 +133,7 @@ DEEL1 = [
     ),
     dict(
         type="waarofniet",
-        vraag="Bij lichte kernen met Z kleiner dan 20 zijn het aantal protonen en neutronen ongeveer gelijk.",
+        vraag=r"Bij lichte kernen met \(Z < 20\) geldt ongeveer \(N = Z\).",
         antwoord=True,
         uitleg="Koolstof-12 heeft zes van elk. Bij de zware kernen komen er verhoudingsgewijs "
         "meer neutronen bij.",
@@ -193,16 +193,16 @@ DEEL1 = [
     ),
     dict(
         type="meerkeuze",
-        vraag="Hoeveel protonen en neutronen heeft uranium-238, met atoomnummer 92?",
+        vraag=r"Hoeveel protonen en neutronen heeft uranium-238, met \(Z = 92\)?",
         opties=[
-            "92 protonen en 146 neutronen",
-            "92 protonen en 238 neutronen",
-            "146 protonen en 92 neutronen",
-            "119 protonen en 119 neutronen",
+            r"\(92\) protonen en \(146\) neutronen",
+            r"\(92\) protonen en \(238\) neutronen",
+            r"\(146\) protonen en \(92\) neutronen",
+            r"\(119\) protonen en \(119\) neutronen",
         ],
         antwoord=0,
-        uitleg="Het neutronental is 238 min 92. Zo'n zware kern heeft die neutronenovermaat "
-        "nodig om niet meteen uiteen te vallen.",
+        uitleg=r"\(N = A - Z = 238 - 92 = 146\). Zo'n zware kern heeft die "
+        r"neutronenovermaat nodig om niet meteen uiteen te vallen.",
     ),
     dict(
         type="meerkeuze",
@@ -230,12 +230,12 @@ DEEL1 = [
         opties=[
             "het massagetal is de som van protonen en neutronen",
             "het atoomnummer is gelijk aan het aantal protonen",
-            "het neutronental is de som van A en Z",
+            r"het neutronental is de som van \(A\) en \(Z\)",
             "het ladingsgetal is gelijk aan het aantal neutronen",
         ],
         antwoord=[0, 1],
-        uitleg="Het neutronental is A min Z, dus een verschil en geen som. En het "
-        "ladingsgetal is een ander woord voor het atoomnummer.",
+        uitleg=r"\(N = A - Z\), dus een verschil en geen som. En het ladingsgetal is een "
+        r"ander woord voor het atoomnummer.",
     ),
 ]
 
@@ -250,8 +250,8 @@ DEEL2 = [
             "een los neutron uit de kern",
         ],
         antwoord=0,
-        uitleg="Het massagetal daalt dus met vier en het atoomnummer met twee. Dat zijn de "
-        "regels van Soddy voor alfaverval.",
+        uitleg=r"\(^{A}_{Z}X \rightarrow\ ^{A-4}_{Z-2}Y + ^{4}_{2}\text{He}\): dat zijn de "
+        r"regels van Soddy voor alfaverval.",
     ),
     dict(
         type="meerkeuze",
@@ -263,8 +263,8 @@ DEEL2 = [
             "twee protonen en twee neutronen verlaten samen de kern",
         ],
         antwoord=0,
-        uitleg="Het atoomnummer stijgt daardoor met één en het massagetal blijft gelijk. Er "
-        "vertrekt ook een neutrino mee.",
+        uitleg=r"\(^{1}_{0}n \rightarrow\ ^{1}_{1}p + e^{-}\), dus \(Z\) stijgt met één en "
+        r"\(A\) blijft gelijk. Er vertrekt ook een antineutrino mee.",
     ),
     dict(
         type="invultekst",
@@ -283,54 +283,53 @@ DEEL2 = [
             "een neutron uit de kern",
         ],
         antwoord=0,
-        uitleg="Het massagetal en het atoomnummer blijven daarbij dezelfde. De kern raakt "
-        "alleen zijn overtollige energie kwijt.",
+        uitleg=r"\(A\) en \(Z\) blijven daarbij dezelfde. De kern raakt alleen zijn "
+        r"overtollige energie kwijt.",
     ),
     dict(
         type="meerkeuze",
-        vraag="Een kern met massagetal 226 en atoomnummer 88 doet alfaverval. Wat krijg je?",
+        vraag=r"Een kern met \(A = 226\) en \(Z = 88\) doet alfaverval. Wat krijg je?",
         opties=[
-            "massagetal 222 en atoomnummer 86",
-            "massagetal 222 en atoomnummer 88",
-            "massagetal 226 en atoomnummer 86",
-            "massagetal 224 en atoomnummer 87",
+            r"\(A = 222\) en \(Z = 86\)",
+            r"\(A = 222\) en \(Z = 88\)",
+            r"\(A = 226\) en \(Z = 86\)",
+            r"\(A = 224\) en \(Z = 87\)",
         ],
         antwoord=0,
-        uitleg="Bij alfaverval gaat er vier van A af en twee van Z. Zo wordt radium-226 "
-        "radon-222.",
+        uitleg=r"\(A\) daalt met vier en \(Z\) met twee, dus radium-226 wordt radon-222.",
     ),
     dict(
         type="meerkeuze",
         vraag="Welke uitspraken over de regels van Soddy zijn juist? Kruis alles aan wat juist is.",
         opties=[
-            "bij alfaverval daalt het massagetal met vier",
-            "bij bèta-min-verval stijgt het atoomnummer met één",
-            "bij gammaverval blijven A en Z dezelfde",
-            "bij alfaverval blijft het atoomnummer gelijk",
+            r"bij alfaverval daalt \(A\) met vier",
+            r"bij bèta-min-verval stijgt \(Z\) met één",
+            r"bij gammaverval blijven \(A\) en \(Z\) gelijk",
+            r"bij alfaverval blijft \(Z\) gelijk",
         ],
         antwoord=[0, 1, 2],
-        uitleg="Bij alfaverval daalt het atoomnummer juist met twee. In elke "
-        "reactievergelijking moeten A en Z links en rechts kloppen.",
+        uitleg=r"Bij alfaverval daalt \(Z\) juist met twee. In elke reactievergelijking "
+        r"moeten \(A\) en \(Z\) links en rechts kloppen.",
     ),
     dict(
         type="invultekst",
         vraag="Hoe noem je de tijd waarin de helft van de kernen vervalt?",
         antwoord=["de halveringstijd", "halveringstijd", "halfwaardetijd"],
-        uitleg="Ze krijgt het symbool T met een half eronder. Na twee zulke tijden is er nog "
-        "een kwart over.",
+        uitleg=r"Ze krijgt het symbool \(T_{1/2}\). Na twee zulke tijden is er nog een kwart "
+        r"over.",
     ),
     dict(
         type="meerkeuze",
-        vraag="Een stof heeft een halveringstijd van 8 dagen. Welk deel is er na 24 dagen nog over?",
+        vraag=r"Een stof heeft \(T_{1/2} = 8\) dagen. Welk deel is er na \(24\) dagen nog over?",
         opties=[
-            "een achtste",
-            "een derde",
-            "een kwart",
-            "een zestiende",
+            r"\(\tfrac{1}{8}\)",
+            r"\(\tfrac{1}{3}\)",
+            r"\(\tfrac{1}{4}\)",
+            r"\(\tfrac{1}{16}\)",
         ],
         antwoord=0,
-        uitleg="24 dagen zijn drie halveringstijden, dus de helft van de helft van de helft. "
-        "Dat geeft een achtste.",
+        uitleg=r"\(24\) dagen zijn drie halveringstijden, dus "
+        r"\(\left(\tfrac{1}{2}\right)^{3} = \tfrac{1}{8}\).",
     ),
     dict(
         type="waarofniet",
@@ -349,8 +348,7 @@ DEEL2 = [
             "de tijd waarin de helft van de kernen vervalt",
         ],
         antwoord=0,
-        uitleg="Ze staat in becquerel, dus in verval per seconde. Je berekent ze als de "
-        "desintegratieconstante maal het aantal kernen.",
+        uitleg=r"Ze staat in becquerel, dus in verval per seconde, en \(A = \lambda\,N\).",
     ),
     dict(
         type="invultekst",
@@ -363,14 +361,14 @@ DEEL2 = [
         type="meerkeuze",
         vraag="Hoe bereken je de desintegratieconstante uit de halveringstijd?",
         opties=[
-            "0,693 gedeeld door de halveringstijd",
-            "de halveringstijd gedeeld door 0,693",
-            "0,693 maal de halveringstijd",
-            "0,693 min de halveringstijd",
+            r"\(\lambda = \dfrac{0{,}693}{T_{1/2}}\)",
+            r"\(\lambda = \dfrac{T_{1/2}}{0{,}693}\)",
+            r"\(\lambda = 0{,}693 \cdot T_{1/2}\)",
+            r"\(\lambda = 0{,}693 - T_{1/2}\)",
         ],
         antwoord=0,
-        uitleg="Dat getal 0,693 is de natuurlijke logaritme van twee. Een korte "
-        "halveringstijd geeft dus een grote constante.",
+        uitleg=r"\(0{,}693 = \ln 2\). Een korte halveringstijd geeft dus een grote "
+        r"\(\lambda\).",
     ),
     dict(
         type="meerkeuze",
@@ -389,8 +387,8 @@ DEEL2 = [
         type="waarofniet",
         vraag="De activiteit van een bron daalt in de tijd op dezelfde manier als het aantal kernen.",
         antwoord=True,
-        uitleg="Ze is er recht evenredig mee, want A is lambda maal N. Beide grafieken "
-        "halveren dus na elke halveringstijd.",
+        uitleg=r"Ze is er recht evenredig mee, want \(A = \lambda\,N\). Beide grafieken "
+        r"halveren dus na elke halveringstijd.",
     ),
     dict(
         type="meerkeuze",
@@ -407,16 +405,16 @@ DEEL2 = [
     ),
     dict(
         type="meerkeuze",
-        vraag="Een bron heeft nu een activiteit van 800 Bq en een halveringstijd van 5 jaar. Welke activiteit heeft ze na 10 jaar?",
+        vraag=r"Een bron heeft \(A = 800\) Bq en \(T_{1/2} = 5\) jaar. Welke activiteit heeft ze na \(10\) jaar?",
         opties=[
-            "200 Bq",
-            "400 Bq",
-            "80 Bq",
-            "100 Bq",
+            r"\(200\) Bq",
+            r"\(400\) Bq",
+            r"\(80\) Bq",
+            r"\(100\) Bq",
         ],
         antwoord=0,
-        uitleg="Tien jaar zijn twee halveringstijden, dus een kwart van 800. De activiteit "
-        "volgt dezelfde wet als het aantal kernen.",
+        uitleg=r"Tien jaar zijn twee halveringstijden, dus \(\tfrac{1}{4} \times 800\). "
+        r"De activiteit volgt dezelfde wet als het aantal kernen.",
     ),
     dict(
         type="meerkeuze",

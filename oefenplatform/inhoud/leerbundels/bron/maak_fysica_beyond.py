@@ -2775,111 +2775,135 @@ BUNDELS["de-atoomkern-radioactief-verval-en-halveringstijd-beyond"] = dict(
     onder="Wat er in een kern zit, wanneer ze het niet volhoudt, en hoe snel ze verdwijnt.",
     secties=[
         dict(kop="Hoe je een kern benoemt", blokken=[
-            ("p", "Het <strong>massagetal</strong> van een nuclide is "
-                  "<strong>het aantal protonen en neutronen samen</strong>; het "
-                  "<strong>atoomnummer</strong> zegt <strong>hoeveel protonen de kern "
-                  "bevat</strong>. De deeltjes van een atoomkern heten samen "
-                  "<strong>nucleonen</strong>. Je schrijft een nuclide van element X met massagetal "
-                  "14 <strong>als X-14, met het massagetal achter de naam</strong>."),
-            ("p", "Heeft een nuclide <strong>massagetal 23 en atoomnummer 11</strong>, dan heeft "
-                  "hij <strong>12</strong> neutronen: 23 min 11. "
-                  "<strong>Uranium-238, met atoomnummer 92</strong>, heeft "
-                  "<strong>92 protonen en 146 neutronen</strong>. Zodra je massagetal en "
-                  "atoomnummer kent, liggen "
-                  "<strong>het aantal protonen in de kern</strong>, "
-                  "<strong>het aantal neutronen in de kern</strong> en "
-                  "<strong>om welk element het gaat</strong> vast. Kort: "
-                  "<strong>het massagetal is de som van protonen en neutronen</strong> en "
-                  "<strong>het atoomnummer is gelijk aan het aantal protonen</strong>."),
-            ("p", "<strong>Isotopen</strong> van een element zijn "
-                  "<strong>kernen met hetzelfde aantal protonen en een ander aantal "
-                  "neutronen</strong>. <strong>Twee isotopen van hetzelfde element hebben hetzelfde "
-                  "atoomnummer</strong>, en "
-                  "<strong>een nuclide met een ander aantal neutronen is geen ander "
-                  "element</strong>: enkel het aantal protonen bepaalt het element. "
-                  "<strong>Koolstof-12 en koolstof-14</strong> verschillen dus "
-                  "<strong>in hun aantal neutronen</strong>."),
+            ("kader", "<strong>Drie getallen</strong><br>"
+                      "\\[A = Z + N \\qquad N = A - Z\\]"
+                      "\\(A\\) is het <strong>massagetal</strong>: het aantal protonen en "
+                      "neutronen samen, de <strong>nucleonen</strong> of kerndeeltjes. \\(Z\\) is het "
+                      "<strong>atoomnummer</strong> of ladingsgetal: het aantal protonen. "
+                      "\\(N\\) is het neutronental."),
+            ("p", "Je schrijft een nuclide als <strong>X-14</strong>, met het massagetal achter "
+                  "de naam, of met beide getallen bij het symbool: "
+                  "\\(^{14}_{\\ 6}\\text{C}\\). Een nuclide met \\(A = 23\\) en \\(Z = 11\\) "
+                  "heeft dus \\(N = 12\\) neutronen; uranium-238 met \\(Z = 92\\) heeft er "
+                  "\\(146\\)."),
+            ("p", "Zodra je \\(A\\) en \\(Z\\) kent, liggen het aantal protonen, het aantal "
+                  "neutronen én het element vast. De <strong>halveringstijd</strong> volgt er "
+                  "niet uit: die moet je opzoeken."),
         ]),
-        dict(kop="Wat een kern stabiel houdt", blokken=[
-            ("p", "De kracht die de nucleonen samenhoudt is "
-                  "<strong>de sterke kernkracht</strong>. In een kern spelen twee krachten tegen "
-                  "elkaar in: <strong>de sterke kernkracht, die alle nucleonen aantrekt</strong> en "
-                  "<strong>de coulombkracht, die de protonen afstoot</strong>. De kernkracht werkt "
-                  "enkel over heel korte afstand, de afstoting over de hele kern."),
-            ("p", "<strong>Bij lichte kernen met Z kleiner dan 20 zijn het aantal protonen en "
-                  "neutronen ongeveer gelijk</strong>. Zware kernen met Z groter dan 20 zijn pas "
-                  "stabiel met meer neutronen dan protonen, want "
-                  "<strong>de extra neutronen geven kernkracht zonder extra afstoting</strong>."),
-            ("p", "De strook stabiele kernen op een nuclidenkaart heet de "
-                  "<strong>stabiliteitsband</strong>. Uit de plaats van een kern op die kaart lees "
-                  "je <strong>of hij stabiel is en welk verval hij anders zal doen</strong>: "
-                  "<strong>een kern onder de stabiliteitsband heeft te veel neutronen en vervalt via "
-                  "bèta-min-straling</strong>."),
-            ("p", "Een <strong>radionuclide</strong> is "
-                  "<strong>een kern die onstabiel is en spontaan vervalt</strong>. "
-                  "<strong>Je kan dat verval niet versnellen door hem te verwarmen</strong>: "
-                  "temperatuur, druk en chemie laten de kern onverschillig."),
+        dict(kop="Isotopen", blokken=[
+            ("p", "<strong>Isotopen</strong> van een element zijn kernen met "
+                  "<strong>hetzelfde \\(Z\\)</strong> en een <strong>ander \\(N\\)</strong>, "
+                  "dus hetzelfde element met een ander massagetal. Koolstof-12 en koolstof-14 "
+                  "verschillen alleen in hun aantal neutronen: zes tegenover acht."),
+            ("p", "Een ander aantal neutronen maakt dus <strong>geen ander element</strong>; "
+                  "alleen het aantal protonen bepaalt welk element het is. Koolstof-14 is wel "
+                  "onstabiel, en net dat maakt de koolstofdatering mogelijk."),
+        ]),
+        dict(kop="Wat een kern samenhoudt", blokken=[
+            ("p", "In een kern spelen twee krachten tegen elkaar in. De <strong>sterke "
+                  "kernkracht</strong> is de kracht die alle nucleonen aantrekt, maar ze werkt "
+                  "enkel over een "
+                  "heel korte afstand. De <strong>coulombkracht</strong> is de kracht die de "
+                  "protonen afstoot, en die werkt over de hele kern. De gravitatie is "
+                  "volkomen "
+                  "verwaarloosbaar."),
+            ("p", "Bij lichte kernen met \\(Z < 20\\) is \\(N \\approx Z\\): koolstof-12 heeft "
+                  "zes van elk. Bij zware kernen met \\(Z > 20\\) zijn er "
+                  "<strong>meer neutronen dan protonen</strong> nodig, want elk extra neutron "
+                  "geeft wel kernkracht maar <strong>geen</strong> extra afstoting."),
+        ]),
+        dict(kop="De stabiliteitsband", blokken=[
+            ("fig", svg.nuclidenkaart(),
+             "Een nuclidenkaart met het neutronental tegen het atoomnummer."),
+            ("p", "De strook stabiele kernen heet de <strong>stabiliteitsband</strong>. Uit de "
+                  "plaats van een kern lees je of hij stabiel is en, zo niet, welk verval hij "
+                  "zal doen. Die band heet ook de stabiliteitszone. <strong>Boven</strong> de "
+                  "band heeft een kern te veel neutronen en "
+                  "vervalt hij via <strong>bèta-min</strong>, <strong>onder</strong> de band "
+                  "te veel protonen en dus <strong>bèta-plus</strong>."),
+        ]),
+        dict(kop="Radionucliden", blokken=[
+            ("p", "Een <strong>radionuclide</strong> is een kern die onstabiel is en "
+                  "<strong>spontaan</strong> vervalt. Spontaan betekent: van zichzelf, niet "
+                  "van iets wat je eraan doet. Verwarmen, samenpersen of in een verbinding "
+                  "stoppen kan het verval niet versnellen, want verval is een "
+                  "kernproces. Daarom blijft langlevend radioactief afval ook duizenden jaren "
+                  "een probleem."),
         ]),
         dict(kop="De vier soorten verval", blokken=[
-            ("p", "Bij <strong>alfaverval</strong> zendt een kern "
-                  "<strong>een kern van helium, met twee protonen en twee neutronen</strong> uit. "
-                  "Bij <strong>bèta-min-verval</strong> "
-                  "<strong>wordt een neutron een proton en vertrekt er een elektron</strong>; bij "
-                  "bèta-plus-verval vliegt er een <strong>positron</strong> weg. "
-                  "<strong>Gammastraling</strong> is "
-                  "<strong>een foton met heel veel energie uit de kern</strong>."),
-            ("p", "De <strong>regels van Soddy</strong> in drie regels: "
-                  "<strong>bij alfaverval daalt het massagetal met vier</strong>, "
-                  "<strong>bij bèta-min-verval stijgt het atoomnummer met één</strong> en "
-                  "<strong>bij gammaverval blijven A en Z dezelfde</strong>. Daarom "
-                  "<strong>verandert de kern bij gammaverval niet in een ander element</strong>; ze "
-                  "raakt enkel energie kwijt. Doet een kern met "
-                  "<strong>massagetal 226 en atoomnummer 88</strong> alfaverval, dan krijg je "
-                  "<strong>massagetal 222 en atoomnummer 86</strong>."),
+            ("kader", "<strong>De regels van Soddy</strong><br>"
+                      "\\[\\alpha:\\ ^{A}_{Z}X \\rightarrow\\ ^{A-4}_{Z-2}Y + ^{4}_{2}\\text{He} "
+                      "\\qquad \\beta^{-}:\\ ^{1}_{0}n \\rightarrow\\ ^{1}_{1}p + e^{-}\\]"
+                      "Bij \\(\\alpha\\) daalt \\(A\\) met vier en \\(Z\\) met twee. Bij "
+                      "\\(\\beta^{-}\\) blijft \\(A\\) gelijk en stijgt \\(Z\\) met één. Bij "
+                      "\\(\\gamma\\) blijven \\(A\\) en \\(Z\\) allebei gelijk."),
         ]),
-        dict(kop="Halveringstijd en activiteit", blokken=[
-            ("p", "De <strong>halveringstijd</strong> is "
-                  "<strong>de tijd waarin de helft van de kernen vervalt</strong>. "
-                  "<strong>Na één halveringstijd is de helft van de kernen vervallen</strong>, "
-                  "<strong>ze ligt voor elk radionuclide vast</strong> en "
-                  "<strong>een kortere halveringstijd geeft bij dezelfde hoeveelheid een hogere "
-                  "activiteit</strong>. <strong>Na twee halveringstijden is een radioactieve stof "
-                  "niet volledig vervallen</strong> maar nog voor een kwart over. Bij een "
-                  "halveringstijd van <strong>8 dagen</strong> is er na "
-                  "<strong>24 dagen</strong> nog <strong>een achtste</strong> over, want dat zijn "
-                  "drie halveringen."),
-            ("p", "De <strong>activiteit</strong> van een radionuclide is "
-                  "<strong>het aantal kernen dat per seconde vervalt</strong>. Ze "
-                  "<strong>staat in becquerel</strong>, ze "
-                  "<strong>is de desintegratieconstante maal het aantal kernen</strong> en ze "
-                  "<strong>halveert na elke halveringstijd</strong>. "
-                  "<strong>De activiteit van een bron daalt in de tijd op dezelfde manier als het "
-                  "aantal kernen</strong>. Een bron van <strong>800 Bq</strong> met een "
-                  "halveringstijd van <strong>5 jaar</strong> staat na "
-                  "<strong>10 jaar</strong> op <strong>200 Bq</strong>."),
-            ("p", "De <strong>desintegratieconstante</strong> bereken je als "
-                  "<strong>0,693 gedeeld door de halveringstijd</strong>; 0,693 is de natuurlijke "
-                  "logaritme van twee. Om het aantal kernen in een massa stof te berekenen heb je "
-                  "<strong>de massa van de stof</strong>, "
-                  "<strong>de molaire massa van de stof</strong> en "
-                  "<strong>het getal van Avogadro</strong> nodig."),
-            ("p", "De <strong>koolstof-14-methode</strong> om ouderdom te bepalen werkt omdat "
-                  "<strong>het gehalte koolstof-14 na de dood met een vaste halveringstijd "
-                  "daalt</strong>. Zolang een organisme leeft, vult het zijn voorraad aan; daarna "
-                  "niet meer."),
+        dict(kop="Alfa, bèta en gamma", blokken=[
+            ("p", "Bij <strong>alfaverval</strong> vertrekt een heliumkern met twee protonen "
+                  "en twee neutronen. Bij <strong>bèta-min</strong> wordt een neutron een "
+                  "proton en vliegt er een elektron weg, samen met een antineutrino. Bij "
+                  "<strong>bèta-plus</strong> gebeurt het omgekeerde en vertrekt er een "
+                  "<strong>positron</strong> of antielektron, het antideeltje van het elektron. "
+                  "Bij <strong>gammaverval</strong> vertrekt er <strong>gammastraling</strong>, "
+                  "een foton met heel veel energie: "
+                  "de kern "
+                  "verandert niet van element, ze raakt enkel haar overtollige energie kwijt."),
+            ("p", "Een kern met \\(A = 226\\) en \\(Z = 88\\) die alfaverval doet, wordt dus "
+                  "een kern met \\(A = 222\\) en \\(Z = 86\\): radium-226 wordt radon-222. In "
+                  "elke reactievergelijking moeten \\(A\\) en \\(Z\\) links en rechts kloppen."),
+        ]),
+        dict(kop="Halveringstijd", blokken=[
+            ("fig", svg.vervalcurve(),
+             "Het aantal kernen dat nog niet vervallen is, tegen de tijd."),
+            ("kader", "<strong>Elke keer de helft</strong><br>"
+                      "\\[N(t) = N_{0}\\left(\\tfrac{1}{2}\\right)^{t/T_{1/2}}\\]"
+                      "\\(T_{1/2}\\) is de <strong>halveringstijd</strong> of halfwaardetijd: de tijd "
+                      "waarin de "
+                      "helft van de kernen vervalt. Ze ligt voor elk radionuclide vast."),
+        ]),
+        dict(kop="Rekenen met halveringen", blokken=[
+            ("p", "Na één halveringstijd is de <strong>helft</strong> vervallen, na twee een "
+                  "kwart over, na drie een achtste. Een stof met \\(T_{1/2} = 8\\) dagen heeft "
+                  "na \\(24\\) dagen dus nog \\(\\left(\\tfrac{1}{2}\\right)^{3} = "
+                  "\\tfrac{1}{8}\\) over. <strong>Volledig</strong> verdwijnen gebeurt in dit "
+                  "model nooit: van een radioactieve stof gaat telkens maar de helft weg."),
+        ]),
+        dict(kop="Activiteit", blokken=[
+            ("kader", "<strong>Hoeveel vervallen er per seconde?</strong><br>"
+                      "\\[A = \\lambda\\,N \\qquad \\lambda = \\dfrac{\\ln 2}{T_{1/2}} "
+                      "= \\dfrac{0{,}693}{T_{1/2}}\\]"
+                      "De <strong>activiteit</strong> \\(A\\) staat in "
+                      "<strong>becquerel</strong>: één Bq is één verval per seconde. "
+                      "\\(\\lambda\\) is de <strong>desintegratieconstante</strong>."),
+            ("p", "Omdat \\(A\\) recht evenredig is met \\(N\\), daalt ze op precies dezelfde "
+                  "manier: ze <strong>halveert na elke halveringstijd</strong>. Een bron van "
+                  "\\(800\\) Bq met \\(T_{1/2} = 5\\) jaar staat na \\(10\\) jaar op "
+                  "\\(200\\) Bq. Een <strong>kortere</strong> halveringstijd geeft een grotere "
+                  "\\(\\lambda\\), en dus bij dezelfde hoeveelheid een <strong>hogere</strong> "
+                  "activiteit."),
+            ("p", "Om \\(N\\) uit een massa te halen heb je de massa, de "
+                  "<strong>molaire massa</strong> en het <strong>getal van Avogadro</strong> "
+                  "nodig. Een dosis staat in <strong>gray</strong> of "
+                  "<strong>sievert</strong>."),
+        ]),
+        dict(kop="De koolstof-14-methode", blokken=[
+            ("p", "Zolang een organisme leeft, vult het zijn voorraad koolstof-14 aan. Na de "
+                  "dood stopt dat, en daalt het gehalte met een vaste halveringstijd van "
+                  "ongeveer \\(5730\\) jaar. Uit wat er nog over is, lees je dus af hoelang "
+                  "geleden het gestorven is, en zo bepaal je de ouderdom."),
         ]),
     ],
     onthoud=[
-        "A is protonen plus neutronen, Z is het aantal protonen.",
-        "Isotopen: zelfde Z, ander aantal neutronen.",
+        "\\(A = Z + N\\); isotopen hebben zelfde \\(Z\\), ander \\(N\\).",
         "Sterke kernkracht trekt aan, coulombkracht stoot protonen af.",
         "De stabiliteitsband zegt of en hoe een kern vervalt.",
-        "Alfa: A −4, Z −2. Bèta-min: Z +1. Gamma: niets verandert.",
+        "\\(\\alpha\\): \\(A-4\\), \\(Z-2\\). \\(\\beta^{-}\\): \\(Z+1\\). \\(\\gamma\\): niets verandert.",
         "Verval versnel je met niets: niet met warmte, niet met chemie.",
-        "Halveringstijd: na n keer blijft (1/2)ⁿ over.",
-        "Activiteit in becquerel, is λ · N, halveert mee.",
+        "\\(N(t) = N_{0}\\left(\\tfrac{1}{2}\\right)^{t/T_{1/2}}\\).",
+        "\\(A = \\lambda\\,N\\) in becquerel, met \\(\\lambda = \\tfrac{0{,}693}{T_{1/2}}\\).",
     ],
 )
+
 
 # ───────────────────── 21. Kernenergie, straling en haar effecten
 BUNDELS["kernenergie-straling-en-haar-effecten-beyond"] = dict(

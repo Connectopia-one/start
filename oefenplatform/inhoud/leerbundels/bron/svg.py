@@ -8251,3 +8251,87 @@ def tweespleten(breedte=470):
         d.append(_tekst(px + cel_b / 2, cel_h - 22, f"{aantal} elektronen", 9, DIM, "middle"))
     d.append(_tekst(breedte / 2, cel_h - 6, "elk elektron landt als één stip", 9, DIM, "middle"))
     return _svg(breedte, cel_h, "\n".join(d))
+
+
+def vervalcurve(breedte=470):
+    r"""Het aantal kernen tegen de tijd, met drie halveringstijden gemerkt."""
+    import math
+    h = 212
+    d = []
+    d.append(f'<rect x="5" y="4" width="{breedte-10}" height="{h-28}" rx="7" '
+             f'fill="#ffffff" stroke="{BORDER}" stroke-width="1.2"/>')
+    ox, oy, top, rechts = 64, 166, 34, 434
+    d.append(f'<line x1="{ox}" y1="{top-4}" x2="{ox}" y2="{oy}" stroke="{INK}" '
+             f'stroke-width="1.4"/>')
+    d.append(f'<line x1="{ox}" y1="{oy}" x2="{rechts}" y2="{oy}" stroke="{INK}" '
+             f'stroke-width="1.4"/>')
+    d.append(_pijlkop(ox, top - 4, -math.pi / 2, INK, 4.5))
+    d.append(_pijlkop(rechts, oy, 0.0, INK, 4.5))
+    d.append(_tekst(ox - 10, top - 14, "N", 10, INK, "end", True))
+    d.append(_tekst(rechts - 2, oy + 16, "t", 10, INK, "end", True))
+
+    T = 104
+    hoog = oy - top
+    punten = []
+    for i in range(201):
+        x = ox + (rechts - 14 - ox) * i / 200
+        y = oy - hoog * 0.5 ** ((x - ox) / T)
+        punten.append(f"{x:.1f},{y:.1f}")
+    d.append(f'<polyline points="{" ".join(punten)}" fill="none" stroke="{FOREST}" '
+             f'stroke-width="2.4"/>')
+
+    for n, naam in ((1, "T½"), (2, "2T½"), (3, "3T½")):
+        x = ox + n * T
+        y = oy - hoog * 0.5 ** n
+        d.append(f'<line x1="{ox}" y1="{y:.1f}" x2="{x}" y2="{y:.1f}" stroke="{AMBER}" '
+                 f'stroke-width="1.3" stroke-dasharray="4 4"/>')
+        d.append(f'<line x1="{x}" y1="{y:.1f}" x2="{x}" y2="{oy}" stroke="{AMBER}" '
+                 f'stroke-width="1.3" stroke-dasharray="4 4"/>')
+        d.append(f'<circle cx="{x}" cy="{y:.1f}" r="3.2" fill="{DARK}"/>')
+        d.append(_tekst(x, oy + 15, naam, 9, DARK, "middle", True))
+    for n, naam in ((0, "N₀"), (1, "N₀/2"), (2, "N₀/4"), (3, "N₀/8")):
+        y = oy - hoog * 0.5 ** n
+        d.append(_tekst(ox - 8, y + 4, naam, 8.5, DIM, "end"))
+    d.append(_tekst(breedte / 2, h - 8, "elke halveringstijd blijft de helft over",
+                    9, DIM, "middle"))
+    return _svg(breedte, h, "\n".join(d))
+
+
+def nuclidenkaart(breedte=470):
+    r"""De stabiliteitsband op een kaart van het neutronental tegen \(Z\)."""
+    import math
+    h = 232
+    d = []
+    d.append(f'<rect x="5" y="4" width="{breedte-10}" height="{h-28}" rx="7" '
+             f'fill="#ffffff" stroke="{BORDER}" stroke-width="1.2"/>')
+    ox, oy, top, rechts = 58, 186, 30, 436
+    sx = (rechts - ox) / 100.0
+    sy = (oy - top) / 160.0
+    px = lambda z: ox + z * sx
+    py = lambda n: oy - n * sy
+
+    d.append(f'<line x1="{ox}" y1="{top-4}" x2="{ox}" y2="{oy}" stroke="{INK}" '
+             f'stroke-width="1.4"/>')
+    d.append(f'<line x1="{ox}" y1="{oy}" x2="{rechts}" y2="{oy}" stroke="{INK}" '
+             f'stroke-width="1.4"/>')
+    d.append(_pijlkop(ox, top - 4, -math.pi / 2, INK, 4.5))
+    d.append(_pijlkop(rechts, oy, 0.0, INK, 4.5))
+    d.append(_tekst(ox - 10, top + 2, "N", 10, INK, "end", True))
+    d.append(_tekst(rechts - 2, oy + 16, "Z", 10, INK, "end", True))
+
+    d.append(f'<line x1="{px(0):.1f}" y1="{py(0):.1f}" x2="{px(100):.1f}" '
+             f'y2="{py(100):.1f}" stroke="{DIM}" stroke-width="1.2" '
+             f'stroke-dasharray="5 4"/>')
+    d.append(_tekst(px(100) + 2, py(100) + 2, "N = Z", 9, DIM, "start"))
+
+    band = " ".join(f"{px(z):.1f},{py(z + 0.006 * z * z):.1f}" for z in range(0, 101, 4))
+    d.append(f'<polyline points="{band}" fill="none" stroke="{FOREST}" '
+             f'stroke-width="11" stroke-opacity="0.28" stroke-linecap="round"/>')
+    d.append(f'<polyline points="{band}" fill="none" stroke="{FOREST}" '
+             f'stroke-width="1.8"/>')
+    d.append(_tekst(px(52), py(100), "stabiele kernen", 9, FOREST, "middle", True))
+    d.append(_tekst(px(8), py(146), "te veel neutronen: bèta-min", 9, AMBER, "start", True))
+    d.append(_tekst(px(96), py(26), "te veel protonen: bèta-plus", 9, AMBER, "end", True))
+    d.append(_tekst(breedte / 2, h - 8,
+                    "de band buigt bij zware kernen weg van de streepjeslijn", 9, DIM, "middle"))
+    return _svg(breedte, h, "\n".join(d))
