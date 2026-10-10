@@ -9093,3 +9093,109 @@ def pascaldriehoek(breedte=470):
                     "elk getal is de som van de twee die er schuin boven staan",
                     9.5, DIM, "middle"))
     return _svg(breedte, h, "\n".join(d))
+
+
+def kansboom(breedte=470):
+    """Twee knikkers uit een zak van drie groene en twee oranje, zonder terugleggen.
+
+    De kansen op de tweede laag verschillen per tak, en dat is net de reden
+    waarom de twee trekkingen niet onafhankelijk zijn. De vier padkansen
+    rechts tellen samen tot één.
+    """
+    h = 252
+
+    def breukje(x, y, teller, noemer, kleur, grootte=9.5, anker="middle"):
+        b = 9
+        return (_tekst(x, y - 3, teller, grootte, kleur, anker)
+                + f'<line x1="{x-b:.1f}" y1="{y:.1f}" x2="{x+b:.1f}" y2="{y:.1f}" '
+                  f'stroke="{kleur}" stroke-width="1.1"/>'
+                + _tekst(x, y + 11, noemer, grootte, kleur, anker))
+
+    rx, ry = 26, 124
+    x1, x2 = 150, 282
+    y1 = (64, 184)
+    y2 = (34, 104, 154, 214)
+    vakb, vakh = 66, 26
+
+    d = [_tekst(rx, ry - 26, "zak", 9.5, DIM, "middle"),
+         f'<circle cx="{rx}" cy="{ry}" r="6" fill="{FOREST}"/>',
+         _tekst(rx, ry + 22, "3 groen", 9, FOREST, "middle"),
+         _tekst(rx, ry + 33, "2 oranje", 9, AMBER, "middle"),
+         _tekst(x1, 16, "eerste knikker", 9.5, DIM, "middle"),
+         _tekst(x2, 16, "tweede knikker", 9.5, DIM, "middle"),
+         _tekst(breedte - 14, 16, "kans op dit pad", 9.5, DIM, "end")]
+
+    eerste = (("groen", FOREST, "3", "5"), ("oranje", AMBER, "2", "5"))
+    tweede = ((("groen", FOREST, "2", "4"), ("oranje", AMBER, "2", "4")),
+              (("groen", FOREST, "3", "4"), ("oranje", AMBER, "1", "4")))
+    paden = (("6", "20"), ("6", "20"), ("6", "20"), ("2", "20"))
+
+    def vak(cx, cy, naam, kleur):
+        return (f'<rect x="{cx - vakb/2:.1f}" y="{cy - vakh/2:.1f}" width="{vakb}" '
+                f'height="{vakh}" rx="9" fill="{PAPER}" stroke="{kleur}" stroke-width="1.4"/>'
+                + _tekst(cx, cy + 4, naam, 10.5, kleur, "middle", True))
+
+    for i, (naam, kleur, t, n) in enumerate(eerste):
+        d.append(f'<line x1="{rx + 7}" y1="{ry}" x2="{x1 - vakb/2:.1f}" y2="{y1[i]}" '
+                 f'stroke="{kleur}" stroke-width="1.6"/>')
+        mx, my = (rx + 7 + x1 - vakb / 2) / 2, (ry + y1[i]) / 2
+        d.append(breukje(mx, my - 18, t, n, kleur))
+        d.append(vak(x1, y1[i], naam, kleur))
+        for j, (naam2, kleur2, t2, n2) in enumerate(tweede[i]):
+            k = 2 * i + j
+            d.append(f'<line x1="{x1 + vakb/2:.1f}" y1="{y1[i]}" x2="{x2 - vakb/2:.1f}" '
+                     f'y2="{y2[k]}" stroke="{kleur2}" stroke-width="1.6"/>')
+            mx, my = (x1 + vakb / 2 + x2 - vakb / 2) / 2, (y1[i] + y2[k]) / 2
+            d.append(breukje(mx, my - 18, t2, n2, kleur2))
+            d.append(vak(x2, y2[k], naam2, kleur2))
+            pt, pn = paden[k]
+            d.append(f'<line x1="{x2 + vakb/2 + 8:.1f}" y1="{y2[k]}" x2="{breedte - 54}" '
+                     f'y2="{y2[k]}" stroke="{BORDER}" stroke-width="1.2"/>')
+            d.append(breukje(breedte - 34, y2[k] - 1, pt, pn, DARK, 10.5))
+
+    d.append(_tekst(breedte - 34, h - 10, "samen 20/20", 9.5, DIM, "middle"))
+    return _svg(breedte, h, "\n".join(d))
+
+
+def binomiaalstaven(breedte=470):
+    """Twee binomiale verdelingen met dezelfde verwachtingswaarde.
+
+    Links n = 10 en p = 0,5, rechts n = 20 en p = 0,25. Beide hebben
+    E(X) = 5, maar rechts is de standaardafwijking groter en liggen de
+    staven dus meer verspreid.
+    """
+    import math
+    h = 222
+    marge, tussen = 10, 26
+    paneel = (breedte - 2 * marge - tussen) / 2
+
+    def kansen(n, p):
+        return [math.comb(n, k) * p ** k * (1 - p) ** (n - k) for k in range(n + 1)]
+
+    gevallen = ((10, 0.5, "n = 10 en p = 0,5", "\u03c3 \u2248 1,6", (0, 5, 10)),
+                (20, 0.25, "n = 20 en p = 0,25", "\u03c3 \u2248 1,9", (0, 5, 10, 15, 20)))
+    hoogste = max(max(kansen(n, p)) for n, p, _, _, _ in gevallen)
+    oy, top = 182, 60
+    d = []
+    for i, (n, p, kop, sig, merken) in enumerate(gevallen):
+        ox = marge + i * (paneel + tussen)
+        breed = paneel / (n + 1)
+        ks = kansen(n, p)
+        d.append(_tekst(ox + paneel / 2, 16, kop, 10.5, DARK, "middle", True))
+        d.append(_tekst(ox + paneel / 2, 30, sig, 9.5, DIM, "middle"))
+        d.append(f'<line x1="{ox}" y1="{oy}" x2="{ox + paneel:.1f}" y2="{oy}" '
+                 f'stroke="{INK}" stroke-width="1.6"/>')
+        for k, kans in enumerate(ks):
+            hh = kans / hoogste * (oy - top)
+            bx = ox + k * breed
+            d.append(f'<rect x="{bx + 0.8:.1f}" y="{oy - hh:.1f}" width="{breed - 1.6:.1f}" '
+                     f'height="{hh:.1f}" fill="{FOREST}" fill-opacity="0.26" '
+                     f'stroke="{FOREST}" stroke-width="0.9"/>')
+            if k in merken:
+                d.append(_tekst(bx + breed / 2, oy + 14, str(k), 9.5, DIM, "middle"))
+        gx = ox + n * p * breed + breed / 2
+        d.append(f'<line x1="{gx:.1f}" y1="{top - 8}" x2="{gx:.1f}" y2="{oy + 5}" '
+                 f'stroke="{AMBER}" stroke-width="1.6" stroke-dasharray="5 4"/>')
+        d.append(_tekst(gx, top - 14, "E(X) = 5", 10, AMBER, "middle", True))
+        d.append(_tekst(ox + paneel, oy + 28, "k", 10, DIM, "end"))
+    return _svg(breedte, h, "\n".join(d))

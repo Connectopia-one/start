@@ -26,7 +26,7 @@ alles nog in woorden stond en had gelijk: een leerling van de derde graad moet
 
 De omzetting gebeurt thema per thema, samen met de vragen van dat thema, zodat
 een kind in de bundel dezelfde schrijfwijze terugvindt als in de oefening.
-Omgezet: thema 1 tot 14. De andere thema's staan nog in woorden.
+Omgezet: thema 1 tot 15. De andere thema's staan nog in woorden.
 """
 import sys, pathlib
 sys.path.insert(0, str(pathlib.Path(__file__).parent))
@@ -1810,101 +1810,163 @@ BUNDELS["kansrekenen-en-kansverdelingen-beyond"] = dict(
     vak=VAK, niveau=BEYOND, titel="Kansrekenen en kansverdelingen",
     onder="Laplace, kansbomen en kruistabellen, voorwaardelijke kans, en de binomiale verdeling.",
     secties=[
-        dict(kop="Wat een kans is", blokken=[
-            ("p", "<strong>De wet van Laplace zegt: de kans is het aantal gunstige gedeeld door het aantal "
-                  "mogelijke uitkomsten.</strong> Ze geldt alleen als alle uitkomsten even waarschijnlijk "
-                  "zijn, dus bij een eerlijke dobbelsteen of munt."),
+        dict(kop="De wet van Laplace", blokken=[
+            ("p", r"""<strong>De wet van Laplace zegt
+                  \(P(A) = \dfrac{\text{aantal gunstige uitkomsten}}{\text{aantal mogelijke uitkomsten}}\).</strong>
+                  Ze geldt alleen als alle uitkomsten even waarschijnlijk zijn, dus bij een eerlijke
+                  dobbelsteen of een eerlijke munt. Staat er een gewicht in de dobbelsteen, dan mag je
+                  deze formule niet gebruiken."""),
             ("p", tabel(["Vraag", "Kans", "Hoe"], [
-                ["een even getal met een dobbelsteen", "een half", "drie gunstige van de zes"],
-                ["een zes met een dobbelsteen", "een zesde", "één gunstige van de zes"],
-                ["een getal kleiner dan drie", "een derde", "één en twee, dus twee van de zes"],
-                ["harten uit een spel van tweeënvijftig kaarten", "een vierde", "dertien harten op tweeënvijftig"],
+                [r"een even getal met een dobbelsteen", r"\(\tfrac{1}{2}\)", r"drie gunstige van de zes"],
+                [r"een zes met een dobbelsteen", r"\(\tfrac{1}{6}\)", r"één gunstige van de zes"],
+                [r"een getal kleiner dan drie", r"\(\tfrac{1}{3}\)", r"één en twee, dus twee van de zes"],
+                [r"harten uit een spel van \(52\) kaarten", r"\(\tfrac{1}{4}\)", r"dertien harten op tweeënvijftig"],
             ])),
-            ("p", "<strong>Een kans kan nooit groter zijn dan één</strong>: ze ligt altijd tussen nul en "
-                  "één. Krijg je meer dan één, dan zit er een fout in je redenering. <strong>De som van de "
-                  "kansen op alle mogelijke uitkomsten samen is één</strong>, want er gebeurt altijd iets. "
-                  "<strong>Een kans gelijk aan nul betekent dat de gebeurtenis bij dit experiment niet kan "
-                  "voorkomen</strong>, zoals een zeven gooien met een gewone dobbelsteen."),
-            ("p", "De <strong>uitkomstenverzameling is de verzameling van alle mogelijke uitkomsten</strong>: "
-                  "bij één worp met een dobbelsteen de getallen één tot en met zes. Het verschil met een "
-                  "gebeurtenis: <strong>een gebeurtenis kan uit meerdere uitkomsten bestaan</strong>, zoals "
-                  "een even getal gooien."),
-            ("weetje", "<strong>Bij heel veel herhalingen komt de relatieve frequentie dicht bij de kans te "
-                       "liggen.</strong> Dat is net wat een kans in de praktijk betekent. Bij tien worpen "
-                       "kan het nog ver uit elkaar liggen."),
         ]),
-        dict(kop="Kansbomen, kruistabellen en voorwaardelijke kans", blokken=[
-            ("p", "<strong>In een kansboom vermenigvuldig je de kansen op de takken van één pad.</strong> "
-                  "<strong>Verschillende paden die allemaal voldoen, tel je daarna op.</strong> Na elkaar "
-                  "betekent dus vermenigvuldigen, of-of betekent optellen, op voorwaarde dat de gevallen "
-                  "elkaar uitsluiten. Zo is de <strong>kans op twee keer kop bij twee worpen met een munt "
-                  "een vierde</strong>: een half maal een half."),
-            ("p", "<strong>In een kruistabel zet je de aantallen voor elke combinatie van twee "
-                  "kenmerken.</strong> De randtotalen geven je de gewone kansen, de cellen de kansen op "
-                  "beide kenmerken samen."),
-            ("p", "<strong>Een voorwaardelijke kans is de kans op A als je al weet dat B gebeurd is.</strong> "
-                  "Je kijkt dan alleen nog naar de gevallen waarin B optreedt, dus naar één rij of één "
-                  "kolom van de kruistabel."),
-            ("p", "<strong>Twee gebeurtenissen zijn onafhankelijk als de ene de kans op de andere niet "
-                  "verandert</strong>; dan is de kans op allebei samen gewoon het product. <strong>Twee "
-                  "keer een kaart trekken zonder terugleggen is niet onafhankelijk</strong>, want de eerste "
-                  "kaart verandert wat er nog in het spel zit. Mét terugleggen wel."),
-            ("p", "<strong>De complementregel voor kansen zegt: de kans dat iets niet gebeurt is één min "
-                  "de kans dat het wel gebeurt.</strong> Is de kans op een gebeurtenis nul komma drie, dan "
-                  "is de kans dat ze niet gebeurt <strong>nul komma zeven</strong>. Daarom bereken je "
-                  "<strong>de kans op minstens één succes als één min de kans op nul successen</strong>."),
+        dict(kop="Wat een kans wel en niet kan zijn", blokken=[
+            ("p", r"""<strong>Een kans kan nooit groter zijn dan \(1\)</strong>: er geldt altijd
+                  \(0 \le P(A) \le 1\). Krijg je meer dan \(1\), dan zit er een fout in je redenering.
+                  <strong>De som van de kansen op alle mogelijke uitkomsten samen is \(1\)</strong>,
+                  want er gebeurt altijd iets. En <strong>\(P(A) = 0\) betekent dat de gebeurtenis bij
+                  dit experiment niet kan voorkomen</strong>, zoals een zeven gooien met een gewone
+                  dobbelsteen."""),
+            ("p", r"""De <strong>uitkomstenverzameling \(\Omega\) is de verzameling van alle mogelijke
+                  uitkomsten</strong>: bij één worp met een dobbelsteen is
+                  \(\Omega = \{1, 2, 3, 4, 5, 6\}\). Het verschil met een gebeurtenis:
+                  <strong>een gebeurtenis kan uit meerdere uitkomsten bestaan</strong>, zoals een even
+                  getal gooien, dat staat voor \(\{2, 4, 6\}\)."""),
+            ("weetje", r"""<strong>Bij heel veel herhalingen komt de relatieve frequentie dicht bij de
+                       kans te liggen.</strong> Dat is net wat een kans in de praktijk betekent. Bij tien
+                       worpen kan het nog ver uit elkaar liggen."""),
+        ]),
+        dict(kop="Kansbomen", blokken=[
+            ("p", r"""<strong>In een kansboom vermenigvuldig je de kansen op de takken van één
+                  pad.</strong> <strong>Verschillende paden die allemaal voldoen, tel je daarna
+                  op.</strong> Na elkaar betekent dus vermenigvuldigen, of-of betekent optellen, op
+                  voorwaarde dat de gevallen elkaar uitsluiten. Zo is de <strong>kans op twee keer kop
+                  bij twee worpen met een munt \(\tfrac{1}{4}\)</strong>, want
+                  \(\tfrac{1}{2} \cdot \tfrac{1}{2} = \tfrac{1}{4}\)."""),
+            ("p", r"""Een goede controle achteraf: de kansen van alle paden samen moeten \(1\) geven.
+                  Komt er iets anders uit, dan ben je een pad vergeten of heb je ergens opgeteld waar je
+                  had moeten vermenigvuldigen."""),
+        ]),
+        dict(kop="Een kansboom in beeld", blokken=[
+            ("fig", svg.kansboom(),
+             "Twee knikkers uit een zak met drie groene en twee oranje, zonder terugleggen. "
+             "De breuken op de tweede laag verschillen per tak."),
+            ("p", r"""Lees de tweede laag goed: na een groene knikker blijven er nog twee groene van de
+                  vier over, na een oranje knikker nog drie groene van de vier. <strong>De kans van de
+                  tweede trekking hangt dus af van de eerste.</strong> De kans op twee keer groen is
+                  \(\tfrac{3}{5} \cdot \tfrac{2}{4} = \tfrac{6}{20} = \tfrac{3}{10}\)."""),
+        ]),
+        dict(kop="Kruistabellen en de voorwaardelijke kans", blokken=[
+            ("p", r"""<strong>In een kruistabel zet je de aantallen voor elke combinatie van twee
+                  kenmerken.</strong> De randtotalen geven je \(P(A)\) en \(P(B)\), de cellen geven je
+                  \(P(A \cap B)\)."""),
+        ]),
+        dict(kop="De voorwaardelijke kans", blokken=[
+            ("p", r"""<strong>Een voorwaardelijke kans \(P(A \mid B)\) is de kans op \(A\) als je al weet
+                  dat \(B\) gebeurd is</strong>, en je berekent ze met
+                  \(P(A \mid B) = \dfrac{P(A \cap B)}{P(B)}\). Je kijkt dan alleen nog naar de gevallen
+                  waarin \(B\) optreedt, dus naar één rij of één kolom van de kruistabel."""),
+            ("kader", r"""Doen er in een klas van \(25\) leerlingen \(10\) aan sport, en spelen \(4\) van
+                      die tien voetbal, dan is \(P(\text{voetbal} \mid \text{sport}) = \dfrac{4}{10} =
+                      \tfrac{2}{5}\). Je deelt door het aantal sporters, niet door \(25\). Dat is de
+                      fout die het vaakst gemaakt wordt."""),
+        ]),
+        dict(kop="Onafhankelijk of niet", blokken=[
+            ("p", r"""<strong>Twee gebeurtenissen zijn onafhankelijk als de ene de kans op de andere niet
+                  verandert</strong>, dus als \(P(A \mid B) = P(A)\). Dan en alleen dan geldt
+                  <strong>\(P(A \cap B) = P(A) \cdot P(B)\)</strong>."""),
+            ("p", r"""<strong>Twee keer een kaart trekken zonder terugleggen is niet
+                  onafhankelijk</strong>, want de eerste kaart verandert wat er nog in het spel zit.
+                  Mét terugleggen zijn de twee trekkingen wel onafhankelijk, en dan mag je de kansen
+                  gewoon vermenigvuldigen."""),
+        ]),
+        dict(kop="De somregel en de complementregel", blokken=[
+            ("p", r"""<strong>De algemene somregel is
+                  \(P(A \cup B) = P(A) + P(B) - P(A \cap B)\).</strong> Je trekt de doorsnede er weer af,
+                  want anders tel je de gevallen die in \(A\) én in \(B\) zitten twee keer mee. Sluiten
+                  \(A\) en \(B\) elkaar uit, dan is \(P(A \cap B) = 0\) en blijft \(P(A) + P(B)\) over."""),
+            ("p", r"""<strong>De complementregel zegt \(P(\overline{A}) = 1 - P(A)\).</strong> Is
+                  \(P(A) = 0{,}3\), dan is \(P(\overline{A}) = 0{,}7\). Daarom bereken je
+                  <strong>\(P(X \ge 1) = 1 - P(X = 0)\)</strong>: het tegengestelde van minstens één is
+                  precies nul. Bij een opgave met minstens of hoogstens scheelt dat vaak veel
+                  rekenwerk."""),
         ]),
         dict(kop="Kansvariabelen", blokken=[
-            ("p", "<strong>Een kansvariabele is een grootheid die aan elke uitkomst een getal "
-                  "toekent.</strong> Bij tien worpen met een munt kan dat het aantal keer kop zijn."),
-            ("p", "<strong>Een discrete kansvariabele neemt losse waarden aan, een continue elke waarde in "
-                  "een interval.</strong> Het aantal defecte stukken is discreet; <strong>de tijd die een "
-                  "trein te laat is, is continu</strong>, want tijd kan elke waarde in een interval "
-                  "aannemen. <strong>De som van alle kansen in een kansverdeling is één.</strong>"),
-            ("p", "<strong>De verwachtingswaarde is het gemiddelde dat je op lange termijn zou "
-                  "meten.</strong> Bij één enkel experiment zegt ze niets met zekerheid. <strong>Ze hoeft "
-                  "zelf geen mogelijke uitkomst te zijn</strong>: het gemiddelde aantal kinderen per gezin "
-                  "is één komma zeven, en zoveel kinderen heeft geen enkel gezin."),
+            ("p", r"""<strong>Een kansvariabele \(X\) is een grootheid die aan elke uitkomst een getal
+                  toekent.</strong> Bij tien worpen met een munt kan \(X\) het aantal keer kop zijn."""),
+            ("p", r"""<strong>Een discrete kansvariabele neemt losse waarden aan, een continue elke
+                  waarde in een interval.</strong> Het aantal defecte stukken is discreet, en ook het
+                  aantal reizigers op een trein; <strong>de tijd die een trein te laat is, is
+                  continu</strong>, net als de lengte van een volwassene. <strong>De som van alle kansen
+                  in een kansverdeling is \(1\).</strong>"""),
         ]),
-        dict(kop="De binomiale verdeling", blokken=[
-            ("p", "<strong>Een Bernoulli-experiment heeft precies twee mogelijke uitkomsten</strong>, "
-                  "succes of mislukking, en bestaat uit <strong>één</strong> poging. Herhaal je het, dan "
-                  "krijg je een binomiale verdeling."),
-            ("p", "<strong>Een kansvariabele is binomiaal verdeeld bij een vast aantal onafhankelijke "
-                  "pogingen met telkens dezelfde slaagkans.</strong> Drie voorwaarden dus; valt er één weg, "
-                  "dan is de verdeling niet binomiaal. <strong>De slaagkans mag dus niet van poging tot "
-                  "poging verschillen</strong>, en daarom voldoet een trekking zonder terugleggen uit een "
-                  "kleine groep vaak niet. <strong>Het aantal zessen in vijftig worpen met een dobbelsteen "
-                  "is wel binomiaal verdeeld.</strong>"),
-            ("p", "<strong>In de formule voor de kans op precies k successen uit n pogingen staat een "
-                  "binomiaalcoëfficiënt maal p tot de k maal één min p tot de n min k.</strong> Die "
-                  "coëfficiënt telt op hoeveel verschillende volgordes die k successen kunnen hebben."),
-            ("p", tabel(["Grootheid", "Formule", "Voorbeeld"], [
-                ["verwachtingswaarde", "het aantal pogingen maal de kans per poging", "tien worpen met een munt: vijf keer kop"],
-                ["verwachtingswaarde", "zelfde formule", "twintig stukken met kans nul komma één: twee foute stukken"],
-                ["standaardafwijking", "de wortel uit n maal p maal één min p", "onder de wortel staat de variantie"],
+        dict(kop="De verwachtingswaarde", blokken=[
+            ("p", r"""<strong>De verwachtingswaarde \(E(X)\) is het gemiddelde dat je op lange termijn
+                  zou meten.</strong> Bij één enkel experiment zegt ze niets met zekerheid. <strong>Ze
+                  hoeft zelf geen mogelijke uitkomst te zijn</strong>: het gemiddelde aantal kinderen per
+                  gezin is \(1{,}7\), en zoveel kinderen heeft geen enkel gezin."""),
+        ]),
+        dict(kop="Bernoulli en binomiaal", blokken=[
+            ("p", r"""<strong>Een Bernoulli-experiment heeft precies twee mogelijke uitkomsten</strong>,
+                  succes of mislukking, en bestaat uit <strong>één</strong> poging. Herhaal je het
+                  \(n\) keer, dan krijg je een binomiale verdeling, genoteerd als
+                  \(X \sim \text{Bin}(n, p)\)."""),
+        ]),
+        dict(kop="Wanneer een verdeling binomiaal is", blokken=[
+            ("p", r"""<strong>\(X\) is binomiaal verdeeld bij een vast aantal onafhankelijke pogingen met
+                  telkens dezelfde slaagkans.</strong> Drie voorwaarden dus: een vaste \(n\),
+                  onafhankelijk, en een vaste \(p\). Valt er één weg, dan is de verdeling niet binomiaal.
+                  <strong>De slaagkans mag niet van poging tot poging verschillen</strong>, en daarom
+                  voldoet een trekking zonder terugleggen uit een kleine groep vaak niet. <strong>Het
+                  aantal zessen in vijftig worpen met een dobbelsteen is wel binomiaal verdeeld</strong>,
+                  met \(n = 50\) en \(p = \tfrac{1}{6}\)."""),
+        ]),
+        dict(kop="De binomiale kansformule", blokken=[
+            ("p", r"""<strong>De kans op precies \(k\) successen uit \(n\) pogingen is
+                  \(P(X = k) = \binom{n}{k}\,p^{k}\,(1-p)^{\,n-k}\).</strong> De binomiaalcoëfficiënt
+                  \(\binom{n}{k}\) telt op hoeveel verschillende volgordes die \(k\) successen kunnen
+                  hebben; \(p^{k}\) hoort bij de successen en \((1-p)^{\,n-k}\) bij de mislukkingen."""),
+            ("p", r"""Daarbij hoort <strong>\(E(X) = n \cdot p\)</strong>, een variantie
+                  \(\text{Var}(X) = n\,p\,(1-p)\) en een standaardafwijking
+                  <strong>\(\sigma = \sqrt{n\,p\,(1-p)}\)</strong>, dus de wortel uit de variantie.
+                  Die variantie is het grootst als \(p = 0{,}5\): dan is het resultaat het minst
+                  voorspelbaar."""),
+            ("p", tabel(["Voorbeeld", "n en p", "E(X)"], [
+                [r"\(10\) worpen met een munt, aantal keer kop", r"\(n = 10\), \(p = 0{,}5\)", r"\(5\)"],
+                [r"\(20\) stukken van een machine, aantal fouten", r"\(n = 20\), \(p = 0{,}1\)", r"\(2\)"],
+                [r"\(50\) worpen, aantal zessen", r"\(n = 50\), \(p = \tfrac{1}{6}\)", r"ongeveer \(8{,}3\)"],
             ])),
-            ("p", "<strong>Een grotere standaardafwijking betekent dat de uitkomsten verder uit elkaar "
-                  "liggen</strong>; ze meet hoe sterk de waarden rond de verwachtingswaarde schommelen. "
-                  "Hebben <strong>twee binomiale verdelingen dezelfde verwachtingswaarde maar een "
-                  "verschillende standaardafwijking</strong>, dan <strong>liggen de uitkomsten bij de ene "
-                  "meer verspreid dan bij de andere</strong>: gemiddeld hetzelfde resultaat, maar bij de "
-                  "ene schommelt het sterker."),
-            ("kader", "<strong>Aan de rekenapp laat je de kansen, de verwachtingswaarde en de "
-                      "standaardafwijking berekenen.</strong> Beoordelen of het model past en wat het "
-                      "antwoord betekent, blijft jouw werk."),
+        ]),
+        dict(kop="Twee verdelingen naast elkaar", blokken=[
+            ("fig", svg.binomiaalstaven(),
+             "Twee binomiale verdelingen met dezelfde verwachtingswaarde vijf. "
+             "Rechts staan de staven over een breder gebied."),
+        ]),
+        dict(kop="Wat de standaardafwijking zegt", blokken=[
+            ("p", r"""<strong>Een grotere standaardafwijking betekent dat de uitkomsten verder uit elkaar
+                  liggen</strong>; \(\sigma\) meet hoe sterk de waarden rond \(E(X)\) schommelen. Hebben
+                  <strong>twee binomiale verdelingen dezelfde \(E(X)\) maar een verschillende
+                  \(\sigma\)</strong>, dan <strong>liggen de uitkomsten bij de ene meer verspreid dan bij
+                  de andere</strong>: gemiddeld hetzelfde resultaat, maar bij de ene schommelt het
+                  sterker van keer tot keer."""),
+            ("kader", r"""<strong>Aan de rekenapp laat je de kansen, \(E(X)\) en \(\sigma\)
+                      berekenen.</strong> Beoordelen of het model past en wat het antwoord in de context
+                      van de opgave betekent, blijft jouw werk."""),
         ]),
     ],
     onthoud=[
-        "Laplace: de kans is het aantal gunstige gedeeld door het aantal mogelijke uitkomsten.",
-        "Een kans ligt altijd tussen nul en één.",
-        "In een kansboom vermenigvuldig je de kansen langs één pad en tel je verschillende paden op.",
-        "Een voorwaardelijke kans is de kans op A als je al weet dat B gebeurd is.",
-        "De kans op minstens één succes is één min de kans op nul successen.",
-        "Een discrete kansvariabele neemt losse waarden aan, een continue elke waarde in een interval.",
-        "De verwachtingswaarde is het gemiddelde op lange termijn en hoeft zelf geen mogelijke uitkomst te zijn.",
-        "Binomiaal verdeeld: een vast aantal onafhankelijke pogingen met telkens dezelfde slaagkans.",
-        "De binomiale verwachtingswaarde is het aantal pogingen maal de kans per poging.",
+        r"Laplace: \(P(A) = \dfrac{\text{gunstige uitkomsten}}{\text{mogelijke uitkomsten}}\), en altijd \(0 \le P(A) \le 1\).",
+        r"In een kansboom vermenigvuldig je langs één pad en tel je verschillende paden op.",
+        r"\(P(A \mid B) = \dfrac{P(A \cap B)}{P(B)}\): je deelt door de voorwaarde, niet door het totaal.",
+        r"Onafhankelijk betekent \(P(A \cap B) = P(A) \cdot P(B)\); zonder terugleggen geldt dat niet.",
+        r"Somregel \(P(A \cup B) = P(A) + P(B) - P(A \cap B)\), complementregel \(P(\overline{A}) = 1 - P(A)\).",
+        r"\(P(X \ge 1) = 1 - P(X = 0)\).",
+        r"Discreet is losse waarden, continu is elke waarde in een interval.",
+        r"\(X \sim \text{Bin}(n, p)\): vast aantal, onafhankelijk, vaste slaagkans.",
+        r"\(P(X = k) = \binom{n}{k}\,p^{k}\,(1-p)^{\,n-k}\), \(E(X) = n \cdot p\), \(\sigma = \sqrt{n\,p\,(1-p)}\).",
     ],
 )
 

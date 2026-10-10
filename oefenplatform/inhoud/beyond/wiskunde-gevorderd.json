@@ -5722,50 +5722,50 @@
       "vragen": [
         {
           "type": "meerkeuze",
-          "vraag": "Wat zegt de wet van Laplace?",
+          "vraag": "Welke formule is de wet van Laplace?",
           "opties": [
-            "de kans is het aantal gunstige gedeeld door het aantal mogelijke uitkomsten",
-            "de kans is het aantal mogelijke gedeeld door het aantal gunstige uitkomsten",
-            "de kans is het aantal gunstige uitkomsten maal het aantal pogingen",
-            "de kans is één gedeeld door het aantal gunstige uitkomsten samen"
+            "\\(P(A) = \\dfrac{\\text{aantal gunstige uitkomsten}}{\\text{aantal mogelijke uitkomsten}}\\)",
+            "\\(P(A) = \\dfrac{\\text{aantal mogelijke uitkomsten}}{\\text{aantal gunstige uitkomsten}}\\)",
+            "\\(P(A) = \\text{aantal gunstige uitkomsten} \\cdot \\text{aantal pogingen}\\)",
+            "\\(P(A) = \\dfrac{1}{\\text{aantal gunstige uitkomsten}}\\)"
           ],
           "antwoord": 0,
           "uitleg": "Ze geldt alleen als alle uitkomsten even waarschijnlijk zijn, dus bij een eerlijke dobbelsteen of munt."
         },
         {
           "type": "meerkeuze",
-          "vraag": "Hoe groot is de kans op een even getal met een eerlijke dobbelsteen?",
+          "vraag": "Je gooit met een eerlijke dobbelsteen. Hoe groot is \\(P(\\text{even getal})\\)?",
           "opties": [
-            "een half",
-            "een derde",
-            "een zesde",
-            "twee derde"
+            "\\(\\tfrac{1}{2}\\)",
+            "\\(\\tfrac{1}{3}\\)",
+            "\\(\\tfrac{1}{6}\\)",
+            "\\(\\tfrac{2}{3}\\)"
           ],
           "antwoord": 0,
-          "uitleg": "Drie gunstige uitkomsten van de zes mogelijke."
+          "uitleg": "Drie gunstige uitkomsten van de zes mogelijke, dus \\(\\tfrac{3}{6} = \\tfrac{1}{2}\\)."
         },
         {
           "type": "invultekst",
-          "vraag": "Hoe groot is de kans op een zes met een eerlijke dobbelsteen? Schrijf ze als breuk.",
+          "vraag": "Hoe groot is \\(P(6)\\) bij een eerlijke dobbelsteen? Schrijf ze als breuk.",
           "antwoord": [
             "1/6"
           ],
-          "uitleg": "Eén gunstige uitkomst van de zes."
+          "uitleg": "Eén gunstige uitkomst van de zes, dus \\(P(6) = \\tfrac{1}{6}\\)."
         },
         {
           "type": "waarofniet",
-          "vraag": "Een kans kan groter zijn dan één.",
+          "vraag": "Een kans kan groter zijn dan \\(1\\).",
           "antwoord": false,
-          "uitleg": "Een kans ligt altijd tussen nul en één. Krijg je meer dan één, dan zit er een fout in je redenering."
+          "uitleg": "Er geldt altijd \\(0 \\le P(A) \\le 1\\). Krijg je meer dan \\(1\\), dan zit er een fout in je redenering."
         },
         {
           "type": "meerkeuze",
-          "vraag": "Wat zegt de complementregel voor kansen?",
+          "vraag": "Welke formule is de complementregel?",
           "opties": [
-            "de kans dat iets niet gebeurt is één min de kans dat het wel gebeurt",
-            "de kans dat iets niet gebeurt is gelijk aan de kans dat het wel gebeurt",
-            "de kans op twee gebeurtenissen samen is de som van de twee kansen",
-            "de kans op twee gebeurtenissen samen is het product van de kansen"
+            "\\(P(\\overline{A}) = 1 - P(A)\\)",
+            "\\(P(\\overline{A}) = P(A)\\)",
+            "\\(P(\\overline{A}) = P(A) - 1\\)",
+            "\\(P(\\overline{A}) = \\dfrac{1}{P(A)}\\)"
           ],
           "antwoord": 0,
           "uitleg": "Bij een opgave met minstens of hoogstens scheelt dat vaak veel rekenwerk."
@@ -5774,13 +5774,13 @@
           "type": "meerkeuze",
           "vraag": "Je gooit twee keer met een munt. Hoe groot is de kans op twee keer kop?",
           "opties": [
-            "een vierde",
-            "een half",
-            "een derde",
-            "een achtste"
+            "\\(\\tfrac{1}{4}\\)",
+            "\\(\\tfrac{1}{2}\\)",
+            "\\(\\tfrac{1}{3}\\)",
+            "\\(\\tfrac{1}{8}\\)"
           ],
           "antwoord": 0,
-          "uitleg": "Een half maal een half, want de twee worpen zijn onafhankelijk."
+          "uitleg": "De twee worpen zijn onafhankelijk, dus \\(\\tfrac{1}{2} \\cdot \\tfrac{1}{2} = \\tfrac{1}{4}\\)."
         },
         {
           "type": "waarofniet",
@@ -5790,30 +5790,30 @@
         },
         {
           "type": "invultekst",
-          "vraag": "De kans op een gebeurtenis is nul komma drie. Hoe groot is de kans dat ze niet gebeurt? Schrijf het getal.",
+          "vraag": "Er geldt \\(P(A) = 0{,}3\\). Bereken \\(P(\\overline{A})\\). Schrijf het getal.",
           "antwoord": [
             "0,7",
             "0.7"
           ],
-          "uitleg": "Eén min nul komma drie, volgens de complementregel."
+          "uitleg": "Volgens de complementregel is \\(P(\\overline{A}) = 1 - 0{,}3 = 0{,}7\\)."
         },
         {
           "type": "meerkeuze",
-          "vraag": "Wat is een voorwaardelijke kans?",
+          "vraag": "Welke formule hoort bij de voorwaardelijke kans \\(P(A \\mid B)\\)?",
           "opties": [
-            "de kans op A, als je al weet dat B gebeurd is",
-            "de kans dat A en B allebei gebeuren",
-            "de kans dat A gebeurt maar B niet",
-            "de kans dat A gebeurt, of B, of allebei samen"
+            "\\(P(A \\mid B) = \\dfrac{P(A \\cap B)}{P(B)}\\)",
+            "\\(P(A \\mid B) = \\dfrac{P(A \\cap B)}{P(A)}\\)",
+            "\\(P(A \\mid B) = P(A) \\cdot P(B)\\)",
+            "\\(P(A \\mid B) = P(A) - P(B)\\)"
           ],
           "antwoord": 0,
-          "uitleg": "Je kijkt dan alleen nog naar de gevallen waarin B optreedt. Dat is één rij of één kolom van de kruistabel."
+          "uitleg": "Je kijkt dan alleen nog naar de gevallen waarin \\(B\\) optreedt. Dat is één rij of één kolom van de kruistabel."
         },
         {
           "type": "waarofniet",
-          "vraag": "Twee gebeurtenissen zijn onafhankelijk als de ene de kans op de andere niet verandert.",
+          "vraag": "Als \\(A\\) en \\(B\\) onafhankelijk zijn, dan geldt \\(P(A \\cap B) = P(A) \\cdot P(B)\\).",
           "antwoord": true,
-          "uitleg": "Dan is de kans op allebei samen gewoon het product van de twee kansen."
+          "uitleg": "Onafhankelijk betekent net dat de ene de kans op de andere niet verandert, dus \\(P(A \\mid B) = P(A)\\)."
         },
         {
           "type": "meerkeuze",
@@ -5825,23 +5825,23 @@
             "de verwachtingswaarden van twee kansvariabelen"
           ],
           "antwoord": 0,
-          "uitleg": "De randtotalen geven je dan de gewone kansen, de cellen de kansen op beide kenmerken samen."
+          "uitleg": "De randtotalen geven je dan \\(P(A)\\) en \\(P(B)\\), de cellen geven je \\(P(A \\cap B)\\)."
         },
         {
           "type": "invultekst",
-          "vraag": "Je trekt één kaart uit een spel van tweeënvijftig. Hoe groot is de kans op harten? Schrijf ze als breuk.",
+          "vraag": "Je trekt één kaart uit een spel van \\(52\\). Hoe groot is \\(P(\\text{harten})\\)? Schrijf ze als breuk.",
           "antwoord": [
             "1/4"
           ],
-          "uitleg": "Dertien harten op tweeënvijftig kaarten."
+          "uitleg": "Dertien harten op tweeënvijftig kaarten, dus \\(\\tfrac{13}{52} = \\tfrac{1}{4}\\)."
         },
         {
           "type": "meerkeuze",
           "vraag": "Hoe groot is de som van de kansen op alle mogelijke uitkomsten samen?",
           "opties": [
-            "één",
-            "nul",
-            "honderd",
+            "\\(1\\)",
+            "\\(0\\)",
+            "\\(100\\)",
             "het aantal uitkomsten"
           ],
           "antwoord": 0,
@@ -5855,7 +5855,7 @@
         },
         {
           "type": "meerkeuze",
-          "vraag": "Wat is de uitkomstenverzameling van een experiment?",
+          "vraag": "Wat is de uitkomstenverzameling \\(\\Omega\\) van een experiment?",
           "opties": [
             "de verzameling van alle mogelijke uitkomsten",
             "de verzameling van de gunstige uitkomsten",
@@ -5863,19 +5863,19 @@
             "de verzameling van de uitkomsten die je waarnam"
           ],
           "antwoord": 0,
-          "uitleg": "Bij één worp met een dobbelsteen zijn dat de getallen één tot en met zes."
+          "uitleg": "Bij één worp met een dobbelsteen is \\(\\Omega = \\{1, 2, 3, 4, 5, 6\\}\\)."
         },
         {
           "type": "meerkeuze",
-          "vraag": "Wanneer tel je twee kansen bij elkaar op?",
+          "vraag": "Wat is de algemene somregel voor \\(P(A \\cup B)\\)?",
           "opties": [
-            "als er verschillende paden zijn die allemaal voldoen",
-            "als er twee dingen na elkaar moeten gebeuren",
-            "als de twee gebeurtenissen onafhankelijk zijn",
-            "als je een voorwaardelijke kans moet gaan berekenen"
+            "\\(P(A) + P(B) - P(A \\cap B)\\)",
+            "\\(P(A) + P(B) + P(A \\cap B)\\)",
+            "\\(P(A) \\cdot P(B) - P(A \\cap B)\\)",
+            "\\(P(A) + P(B)\\)"
           ],
           "antwoord": 0,
-          "uitleg": "Na elkaar betekent vermenigvuldigen. Of-of betekent optellen, op voorwaarde dat de gevallen elkaar uitsluiten."
+          "uitleg": "Sluiten \\(A\\) en \\(B\\) elkaar uit, dan is \\(P(A \\cap B) = 0\\) en blijft gewoon \\(P(A) + P(B)\\) over."
         },
         {
           "type": "waarofniet",
@@ -5885,15 +5885,18 @@
         },
         {
           "type": "invultekst",
-          "vraag": "Hoe groot is de kans op een getal kleiner dan drie met een eerlijke dobbelsteen? Schrijf ze als breuk.",
+          "vraag": "In een klas van \\(25\\) leerlingen doen er \\(10\\) aan sport, en \\(4\\) van die tien spelen voetbal. Bereken \\(P(\\text{voetbal} \\mid \\text{sport})\\). Schrijf ze als breuk.",
           "antwoord": [
-            "1/3"
+            "2/5",
+            "4/10",
+            "0,4",
+            "0.4"
           ],
-          "uitleg": "Twee gunstige uitkomsten, één en twee, op zes mogelijke."
+          "uitleg": "Je deelt door het aantal sporters, niet door \\(25\\): \\(\\dfrac{4}{10} = \\tfrac{2}{5}\\)."
         },
         {
           "type": "meerkeuze",
-          "vraag": "Wat betekent een kans gelijk aan nul?",
+          "vraag": "Wat betekent \\(P(A) = 0\\)?",
           "opties": [
             "de gebeurtenis kan bij dit experiment niet voorkomen",
             "de gebeurtenis is heel onwaarschijnlijk maar mogelijk",
@@ -5913,7 +5916,7 @@
             "er is geen verschil tussen die twee begrippen"
           ],
           "antwoord": 0,
-          "uitleg": "Een even getal gooien is een gebeurtenis die drie uitkomsten omvat: twee, vier en zes."
+          "uitleg": "Een even getal gooien is een gebeurtenis met drie uitkomsten: \\(\\{2, 4, 6\\}\\)."
         }
       ]
     },
@@ -5924,7 +5927,7 @@
       "vragen": [
         {
           "type": "meerkeuze",
-          "vraag": "Wat is een kansvariabele?",
+          "vraag": "Wat is een kansvariabele \\(X\\)?",
           "opties": [
             "een grootheid die aan elke uitkomst een getal toekent",
             "de kans op een welbepaalde uitkomst van het experiment",
@@ -5932,7 +5935,7 @@
             "een getal dat je vrij mag kiezen in de opgave"
           ],
           "antwoord": 0,
-          "uitleg": "Bij tien worpen met een munt kan de kansvariabele bijvoorbeeld het aantal keer kop zijn."
+          "uitleg": "Bij tien worpen met een munt kan \\(X\\) bijvoorbeeld het aantal keer kop zijn."
         },
         {
           "type": "meerkeuze",
@@ -5948,22 +5951,22 @@
         },
         {
           "type": "invultekst",
-          "vraag": "Je gooit tien keer met een eerlijke munt. Hoeveel keer kop verwacht je? Schrijf het getal.",
+          "vraag": "Je gooit \\(10\\) keer met een eerlijke munt en \\(X\\) is het aantal keer kop. Bereken \\(E(X)\\). Schrijf het getal.",
           "antwoord": [
             "5",
             "vijf"
           ],
-          "uitleg": "Het aantal pogingen maal de kans per poging, dus tien maal een half."
+          "uitleg": "Er geldt \\(E(X) = n \\cdot p = 10 \\cdot \\tfrac{1}{2} = 5\\)."
         },
         {
           "type": "waarofniet",
           "vraag": "Een Bernoulli-experiment heeft precies twee mogelijke uitkomsten.",
           "antwoord": true,
-          "uitleg": "Succes of mislukking. Een rij van zulke experimenten na elkaar geeft een binomiale verdeling."
+          "uitleg": "Succes of mislukking. Een rij van \\(n\\) zulke experimenten na elkaar geeft een binomiale verdeling."
         },
         {
           "type": "meerkeuze",
-          "vraag": "Wanneer is een kansvariabele binomiaal verdeeld?",
+          "vraag": "Wanneer is \\(X\\) binomiaal verdeeld, dus \\(X \\sim \\text{Bin}(n, p)\\)?",
           "opties": [
             "bij een vast aantal onafhankelijke pogingen met telkens dezelfde slaagkans",
             "bij een vast aantal pogingen waarbij de slaagkans telkens weer verandert",
@@ -5971,64 +5974,64 @@
             "bij elk experiment waarvan de uitkomsten getallen zijn"
           ],
           "antwoord": 0,
-          "uitleg": "Drie voorwaarden dus: een vast aantal, onafhankelijk, en een vaste kans. Valt er één weg, dan is de verdeling niet binomiaal."
+          "uitleg": "Drie voorwaarden dus: een vaste \\(n\\), onafhankelijk, en een vaste \\(p\\). Valt er één weg, dan is de verdeling niet binomiaal."
         },
         {
           "type": "meerkeuze",
-          "vraag": "Hoe bereken je de verwachtingswaarde van een binomiale verdeling?",
+          "vraag": "Welke formule geeft de verwachtingswaarde van een binomiale verdeling?",
           "opties": [
-            "het aantal pogingen maal de kans per poging",
-            "het aantal pogingen gedeeld door de kans per poging",
-            "de kans per poging gedeeld door het aantal pogingen",
-            "het aantal pogingen maal één min de kans per poging"
+            "\\(E(X) = n \\cdot p\\)",
+            "\\(E(X) = \\dfrac{n}{p}\\)",
+            "\\(E(X) = \\dfrac{p}{n}\\)",
+            "\\(E(X) = n \\cdot (1 - p)\\)"
           ],
           "antwoord": 0,
-          "uitleg": "Bij honderd worpen met kans nul komma twee verwacht je twintig successen."
+          "uitleg": "Bij \\(n = 100\\) en \\(p = 0{,}2\\) verwacht je \\(E(X) = 20\\) successen."
         },
         {
           "type": "waarofniet",
-          "vraag": "Bij een binomiale verdeling mag de slaagkans van poging tot poging verschillen.",
+          "vraag": "Bij een binomiale verdeling mag de slaagkans \\(p\\) van poging tot poging verschillen.",
           "antwoord": false,
           "uitleg": "Dan is ze niet binomiaal. Een trekking zonder terugleggen uit een kleine groep voldoet daarom vaak niet."
         },
         {
           "type": "invultekst",
-          "vraag": "Een machine maakt twintig stukken, elk met kans nul komma één op een fout. Hoeveel foute stukken verwacht je? Schrijf het getal.",
+          "vraag": "Een machine maakt \\(20\\) stukken, elk met kans \\(p = 0{,}1\\) op een fout. Bereken \\(E(X)\\). Schrijf het getal.",
           "antwoord": [
             "2",
             "twee"
           ],
-          "uitleg": "Twintig maal nul komma één."
+          "uitleg": "Er geldt \\(E(X) = 20 \\cdot 0{,}1 = 2\\)."
         },
         {
           "type": "meerkeuze",
-          "vraag": "Hoe bereken je de standaardafwijking bij een binomiale verdeling?",
+          "vraag": "Welke formule geeft de standaardafwijking van een binomiale verdeling?",
           "opties": [
-            "de wortel uit het aantal pogingen maal p maal één min p",
-            "het aantal pogingen maal p maal één min p, zonder wortel",
-            "de wortel uit het aantal pogingen maal de kans p",
-            "het aantal pogingen gedeeld door de wortel uit p"
+            "\\(\\sigma = \\sqrt{n\\,p\\,(1-p)}\\)",
+            "\\(\\sigma = \\sqrt{n\\,p}\\)",
+            "\\(\\sigma = n\\,p\\,(1-p)\\)",
+            "\\(\\sigma = \\dfrac{n}{\\sqrt{p}}\\)"
           ],
           "antwoord": 0,
-          "uitleg": "Onder de wortel staat de variantie. Zij is het grootst als p gelijk is aan een half."
+          "uitleg": "Onder de wortel staat de variantie \\(\\text{Var}(X) = n\\,p\\,(1-p)\\). Zij is het grootst als \\(p = 0{,}5\\)."
         },
         {
           "type": "waarofniet",
-          "vraag": "De som van alle kansen in een kansverdeling is gelijk aan één.",
+          "vraag": "De som van alle kansen in een kansverdeling is gelijk aan \\(1\\).",
           "antwoord": true,
           "uitleg": "De kansvariabele neemt zeker één van haar waarden aan."
         },
         {
           "type": "meerkeuze",
-          "vraag": "Wat staat er in de formule voor de kans op precies k successen uit n pogingen?",
+          "vraag": "Welke formule geeft de kans op precies \\(k\\) successen uit \\(n\\) pogingen?",
           "opties": [
-            "een binomiaalcoëfficiënt maal p tot de k maal één min p tot de n min k",
-            "een binomiaalcoëfficiënt maal p tot de n maal één min p tot de macht k",
-            "p tot de k maal één min p tot de n, zonder coëfficiënt ervoor",
-            "n maal p tot de k, gedeeld door k faculteit, zonder meer"
+            "\\(P(X = k) = \\binom{n}{k}\\,p^{k}\\,(1-p)^{\\,n-k}\\)",
+            "\\(P(X = k) = \\binom{n}{k}\\,p^{\\,n}\\,(1-p)^{k}\\)",
+            "\\(P(X = k) = \\binom{n}{k}\\,p^{\\,n-k}\\,(1-p)^{k}\\)",
+            "\\(P(X = k) = p^{k}\\,(1-p)^{\\,n-k}\\)"
           ],
           "antwoord": 0,
-          "uitleg": "De coëfficiënt telt op hoeveel verschillende volgordes die k successen kunnen hebben."
+          "uitleg": "De binomiaalcoëfficiënt \\(\\binom{n}{k}\\) telt op hoeveel verschillende volgordes die \\(k\\) successen kunnen hebben."
         },
         {
           "type": "invultekst",
@@ -6038,11 +6041,11 @@
             "een",
             "één"
           ],
-          "uitleg": "Eén poging met twee mogelijke uitkomsten. Herhaal je ze n keer, dan krijg je een binomiale verdeling."
+          "uitleg": "Eén poging met twee mogelijke uitkomsten. Herhaal je ze \\(n\\) keer, dan krijg je een binomiale verdeling."
         },
         {
           "type": "meerkeuze",
-          "vraag": "Wat betekent de verwachtingswaarde in de praktijk?",
+          "vraag": "Wat betekent \\(E(X)\\) in de praktijk?",
           "opties": [
             "het gemiddelde dat je op lange termijn zou meten",
             "de uitkomst die het vaakst zal voorkomen",
@@ -6050,13 +6053,13 @@
             "de uitkomst die je met zekerheid zal krijgen"
           ],
           "antwoord": 0,
-          "uitleg": "Bij één enkel experiment zegt ze niets met zekerheid. Pas over heel veel herhalingen klopt ze gemiddeld."
+          "uitleg": "Bij één enkel experiment zegt \\(E(X)\\) niets met zekerheid. Pas over heel veel herhalingen klopt ze gemiddeld."
         },
         {
           "type": "waarofniet",
-          "vraag": "De verwachtingswaarde moet zelf een mogelijke uitkomst zijn.",
+          "vraag": "De verwachtingswaarde \\(E(X)\\) moet zelf een mogelijke uitkomst zijn.",
           "antwoord": false,
-          "uitleg": "Het gemiddelde aantal kinderen per gezin is één komma zeven, en zoveel kinderen heeft geen enkel gezin."
+          "uitleg": "Het gemiddelde aantal kinderen per gezin is \\(1{,}7\\), en zoveel kinderen heeft geen enkel gezin."
         },
         {
           "type": "meerkeuze",
@@ -6068,7 +6071,7 @@
             "de som van de ogen bij vijftig worpen samen"
           ],
           "antwoord": 0,
-          "uitleg": "Vast aantal worpen, telkens dezelfde kans op zes, en de worpen beïnvloeden elkaar niet."
+          "uitleg": "Vast aantal worpen \\(n = 50\\), telkens dezelfde kans \\(p = \\tfrac{1}{6}\\), en de worpen beïnvloeden elkaar niet."
         },
         {
           "type": "meerkeuze",
@@ -6084,13 +6087,13 @@
         },
         {
           "type": "waarofniet",
-          "vraag": "Een grotere standaardafwijking betekent dat de uitkomsten verder uit elkaar liggen.",
+          "vraag": "Een grotere standaardafwijking \\(\\sigma\\) betekent dat de uitkomsten verder uit elkaar liggen.",
           "antwoord": true,
-          "uitleg": "Ze meet hoe sterk de waarden rond de verwachtingswaarde schommelen."
+          "uitleg": "Ze meet hoe sterk de waarden rond \\(E(X)\\) schommelen."
         },
         {
           "type": "invultekst",
-          "vraag": "De kans op minstens één succes bereken je als één min de kans op hoeveel successen? Schrijf het getal.",
+          "vraag": "Je berekent \\(P(X \\ge 1)\\) als \\(1 - P(X = k)\\). Welke \\(k\\) vul je in? Schrijf het getal.",
           "antwoord": [
             "0",
             "nul",
@@ -6102,7 +6105,7 @@
           "type": "meerkeuze",
           "vraag": "Wat laat je bij een binomiale verdeling aan de rekenapp over?",
           "opties": [
-            "de kansen, de verwachtingswaarde en de standaardafwijking berekenen",
+            "de kansen, \\(E(X)\\) en \\(\\sigma\\) berekenen",
             "beslissen of de verdeling in deze opgave wel echt binomiaal is",
             "de nulhypothese en de alternatieve hypothese opstellen",
             "het resultaat in de context van de opgave uitleggen"
@@ -6112,7 +6115,7 @@
         },
         {
           "type": "meerkeuze",
-          "vraag": "Twee binomiale verdelingen hebben dezelfde verwachtingswaarde, maar een verschillende standaardafwijking. Wat betekent dat?",
+          "vraag": "Twee binomiale verdelingen hebben dezelfde \\(E(X)\\), maar een verschillende \\(\\sigma\\). Wat betekent dat?",
           "opties": [
             "de uitkomsten liggen bij de ene meer verspreid dan bij de andere",
             "de ene verdeling heeft meer mogelijke uitkomsten dan de andere",
