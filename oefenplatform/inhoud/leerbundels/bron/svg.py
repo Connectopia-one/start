@@ -9319,3 +9319,111 @@ def correlatiewolken(breedte=470):
         tekst = f"r ≈ {r:.1f}".replace(".", ",").replace("-", "−").replace("−0,0", "0,0")
         d.append(_tekst(ox + 20 + (paneel - 26) / 2, 16, tekst, 11, DARK, "middle", True))
     return _svg(breedte, h, "\n".join(d))
+
+
+def _matrixhaken(x, y, b, h, kleur):
+    """De twee ronde haken rond een matrix, als twee bogen."""
+    d = 7
+    return (f'<path d="M{x + d} {y} q-{d} {h/2:.1f} 0 {h:.1f}" fill="none" '
+            f'stroke="{kleur}" stroke-width="1.6" stroke-linecap="round"/>'
+            f'<path d="M{x + b - d} {y} q{d} {h/2:.1f} 0 {h:.1f}" fill="none" '
+            f'stroke="{kleur}" stroke-width="1.6" stroke-linecap="round"/>')
+
+
+def _matrixraster(x, y, rijen, cel_b=34, cel_h=26, kleur=None, markeer=()):
+    """Een matrix getekend als getallen tussen ronde haken.
+
+    markeer = lijst van (rij, kolom, kleur); gebruik rij of kolom None om een
+    hele rij of kolom te markeren.
+    """
+    kleur = kleur or INK
+    n, m = len(rijen), len(rijen[0])
+    b, h = m * cel_b + 18, n * cel_h + 10
+    d = []
+    for r, k, kl in markeer:
+        if r is None:
+            d.append(f'<rect x="{x + 9 + k * cel_b:.1f}" y="{y + 5}" width="{cel_b}" '
+                     f'height="{n * cel_h}" rx="6" fill="{kl}" fill-opacity="0.16"/>')
+        elif k is None:
+            d.append(f'<rect x="{x + 9}" y="{y + 5 + r * cel_h:.1f}" width="{m * cel_b}" '
+                     f'height="{cel_h}" rx="6" fill="{kl}" fill-opacity="0.16"/>')
+        else:
+            d.append(f'<rect x="{x + 9 + k * cel_b:.1f}" y="{y + 5 + r * cel_h:.1f}" '
+                     f'width="{cel_b}" height="{cel_h}" rx="6" fill="{kl}" fill-opacity="0.22"/>')
+    d.append(_matrixhaken(x, y, b, h, kleur))
+    for i, rij in enumerate(rijen):
+        for j, waarde in enumerate(rij):
+            d.append(_tekst(x + 9 + (j + 0.5) * cel_b, y + 5 + (i + 0.65) * cel_h,
+                            str(waarde), 11.5, kleur))
+    return "".join(d), b, h
+
+
+def matrixproduct(breedte=470):
+    """Het product van een matrix 2 bij 3 met een matrix 3 bij 2.
+
+    De eerste rij van A en de eerste kolom van B zijn gemarkeerd, en het
+    element dat daaruit volgt staat gemarkeerd in het product. Daaronder
+    staat de berekening van dat ene element.
+    """
+    h = 164
+    y = 34
+    a = [[1, 2, 3], [4, 5, 6]]
+    b = [[7, 8], [9, 10], [11, 12]]
+    c = [[58, 64], [139, 154]]
+
+    sa, ba, ha = _matrixraster(0, 0, a, markeer=[(0, None, FOREST)])
+    sb, bb, hb = _matrixraster(0, 0, b, markeer=[(None, 0, AMBER)])
+    sc, bc, hc = _matrixraster(0, 0, c, markeer=[(0, 0, AMBER)])
+    tekens = 2 * 18 + 2 * 14
+    totaal = ba + bb + bc + tekens
+    x = (breedte - totaal) / 2
+
+    def plaats(s, bx, hh, xx):
+        return f'<g transform="translate({xx:.1f},{y + (hb - hh) / 2:.1f})">{s}</g>'
+
+    d = [plaats(sa, ba, ha, x)]
+    xm = x + ba + 7
+    d.append(_tekst(xm + 9, y + hb / 2 + 5, "·", 20, DIM, "middle", True))
+    x2 = x + ba + 18 + 14
+    d.append(plaats(sb, bb, hb, x2))
+    d.append(_tekst(x2 + bb + 9, y + hb / 2 + 4, "=", 13, DIM))
+    x3 = x2 + bb + 18 + 14
+    d.append(plaats(sc, bc, hc, x3))
+
+    d.append(_tekst(breedte / 2, h - 16,
+                    "1 · 7 + 2 · 9 + 3 · 11 = 58", 11.5, DARK, "middle", True))
+    return _svg(breedte, h, "\n".join(d))
+
+
+def dimensieregel(breedte=470):
+    """Waarom (2 bij 3) maal (3 bij 4) een matrix van 2 bij 4 geeft.
+
+    De twee binnenste getallen moeten gelijk zijn en vallen weg, de twee
+    buitenste blijven over.
+    """
+    h = 150
+    y = 74
+    delen = [("(2", FOREST), ("×", DIM), ("3)", AMBER), ("·", DIM),
+             ("(3", AMBER), ("×", DIM), ("4)", FOREST), ("=", DIM),
+             ("2", FOREST), ("×", DIM), ("4", FOREST)]
+    breedtes = [20, 16, 20, 16, 20, 16, 20, 22, 14, 16, 14]
+    x = (breedte - sum(breedtes)) / 2
+    plaatsen = []
+    for (tekst, kleur), b in zip(delen, breedtes):
+        plaatsen.append(x + b / 2)
+        d_tekst = _tekst(x + b / 2, y + 6, tekst, 17, kleur, "middle", True)
+        x += b
+        plaatsen[-1] = (plaatsen[-1], d_tekst)
+    d = [t for _, t in plaatsen]
+    px = [p for p, _ in plaatsen]
+
+    binnen_a, binnen_b = px[2], px[4]
+    d.append(f'<path d="M{binnen_a:.1f} {y + 14} q{(binnen_b - binnen_a) / 2:.1f} 22 '
+             f'{binnen_b - binnen_a:.1f} 0" fill="none" stroke="{AMBER}" stroke-width="1.6"/>')
+    d.append(_tekst((binnen_a + binnen_b) / 2, y + 48, "moeten gelijk zijn", 10, AMBER, "middle"))
+
+    buiten_a, buiten_b = px[0], px[6]
+    d.append(f'<path d="M{buiten_a:.1f} {y - 16} q{(buiten_b - buiten_a) / 2:.1f} -24 '
+             f'{buiten_b - buiten_a:.1f} 0" fill="none" stroke="{FOREST}" stroke-width="1.6"/>')
+    d.append(_tekst((buiten_a + buiten_b) / 2, y - 34, "blijven over", 10, FOREST, "middle"))
+    return _svg(breedte, h, "\n".join(d))

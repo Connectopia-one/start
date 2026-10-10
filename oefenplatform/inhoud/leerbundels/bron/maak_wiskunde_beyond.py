@@ -26,7 +26,7 @@ alles nog in woorden stond en had gelijk: een leerling van de derde graad moet
 
 De omzetting gebeurt thema per thema, samen met de vragen van dat thema, zodat
 een kind in de bundel dezelfde schrijfwijze terugvindt als in de oefening.
-Omgezet: thema 1 tot 16. De andere thema's staan nog in woorden.
+Omgezet: thema 1 tot 17. De andere thema's staan nog in woorden.
 """
 import sys, pathlib
 sys.path.insert(0, str(pathlib.Path(__file__).parent))
@@ -2123,106 +2123,135 @@ BUNDELS["matrices-en-hun-bewerkingen-beyond"] = dict(
     vak=VAK, niveau=BEYOND, titel="Matrices en hun bewerkingen",
     onder="Dimensie, optellen en vermenigvuldigen, bijzondere matrices, en de determinant, de inverse en de rang.",
     secties=[
-        dict(kop="Dimensie en bewerkingen", blokken=[
-            ("p", "<strong>Een matrix van dimensie drie bij vier heeft drie rijen en vier kolommen.</strong> "
-                  "Eerst de rijen, dan de kolommen: die volgorde omdraaien is de meest gemaakte fout van "
-                  "het hoofdstuk. Een matrix van <strong>twee bij vijf heeft tien elementen</strong>, en "
-                  "een <strong>kolommatrix met vier elementen heeft vier rijen</strong>."),
-            ("p", "<strong>Twee matrices kan je optellen als ze precies dezelfde dimensie hebben</strong>, "
-                  "want je telt element per element op. <strong>Bij een vermenigvuldiging met een reëel "
-                  "getal vermenigvuldig je elk element met dat getal</strong>; dat heet de scalaire "
-                  "vermenigvuldiging en is iets heel anders dan het product van twee matrices."),
-            ("p", "<strong>Het product A maal B kan je berekenen als het aantal kolommen van A gelijk is "
-                  "aan het aantal rijen van B.</strong> Elk element van het product is een rij van A tegen "
-                  "een kolom van B, en die twee moeten even lang zijn. Zo heeft het <strong>product van "
-                  "een matrix twee bij drie met een matrix drie bij vier de dimensie twee bij vier</strong>: "
-                  "de binnenste getallen vallen weg, de buitenste blijven over."),
-            ("kader", "<strong>Het vermenigvuldigen van matrices is niet commutatief.</strong> A maal B is "
-                      "in het algemeen iets anders dan B maal A, en soms bestaat maar één van de twee. Dat "
-                      "is het grote verschil met gewone getallen."),
+        dict(kop="Dimensie", blokken=[
+            ("p", r"""<strong>Een matrix van dimensie \(3 \times 4\) heeft \(3\) rijen en \(4\)
+                  kolommen.</strong> Eerst de rijen, dan de kolommen: die volgorde omdraaien is de meest
+                  gemaakte fout van het hoofdstuk. Een matrix van <strong>\(2 \times 5\) heeft \(10\)
+                  elementen</strong>, en een <strong>kolommatrix met \(4\) elementen heeft \(4\)
+                  rijen</strong>, dus dimensie \(4 \times 1\). <strong>Een vierkante matrix heeft
+                  evenveel rijen als kolommen</strong>, en alleen zij kan een determinant of een inverse
+                  hebben."""),
+        ]),
+        dict(kop="Optellen en met een getal vermenigvuldigen", blokken=[
+            ("p", r"""<strong>Je kan \(A + B\) berekenen als \(A\) en \(B\) precies dezelfde dimensie
+                  hebben</strong>, want je telt element per element op en elk element moet een partner
+                  hebben. <strong>Bij \(k \cdot A\) met \(k \in \mathbb{R}\) vermenigvuldig je elk element
+                  met \(k\)</strong>; dat heet de scalaire vermenigvuldiging en is iets heel anders dan
+                  het product van twee matrices."""),
+        ]),
+        dict(kop="Wanneer een product bestaat", blokken=[
+            ("fig", svg.dimensieregel(),
+             "De twee binnenste getallen van een matrixproduct en de twee buitenste."),
+            ("p", r"""<strong>Het product \(A \cdot B\) kan je berekenen als het aantal kolommen van
+                  \(A\) gelijk is aan het aantal rijen van \(B\).</strong> Zo heeft het <strong>product
+                  van een matrix \(2 \times 3\) met een matrix \(3 \times 4\) de dimensie \(2 \times
+                  4\)</strong>: de binnenste getallen vallen weg, de buitenste blijven over."""),
+        ]),
+        dict(kop="Hoe het product gerekend wordt", blokken=[
+            ("fig", svg.matrixproduct(),
+             "De eerste rij van de linkermatrix tegen de eerste kolom van de rechtermatrix."),
+            ("p", r"""Elk element van het product is een rij van \(A\) tegen een kolom van \(B\), en die
+                  twee moeten even lang zijn. Het element linksboven komt dus uit de eerste rij en de
+                  eerste kolom, het element rechtsonder uit de laatste rij en de laatste kolom."""),
+        ]),
+        dict(kop="Niet commutatief", blokken=[
+            ("kader", r"""<strong>Het vermenigvuldigen van matrices is niet commutatief.</strong>
+                      \(A \cdot B\) is in het algemeen iets anders dan \(B \cdot A\), en soms bestaat maar
+                      één van de twee. Dat is het grote verschil met gewone getallen."""),
         ]),
         dict(kop="Bijzondere matrices", blokken=[
             ("p", tabel(["Soort matrix", "Wat ze is", "Weetje"], [
-                ["vierkante matrix", "evenveel rijen als kolommen", "alleen zij kan een determinant of een inverse hebben"],
-                ["nulmatrix", "elk element is nul", "niet te verwarren met een matrix met determinant nul"],
-                ["eenheidsmatrix", "enen op de hoofddiagonaal, elders nullen", "van orde drie staan er dus drie enen"],
-                ["diagonaalmatrix", "vierkant, en alles buiten de hoofddiagonaal is nul", "de eenheidsmatrix is er een bijzonder geval van"],
-                ["symmetrische matrix", "gelijk aan haar getransponeerde", "ze is dan noodzakelijk vierkant"],
+                [r"vierkante matrix", r"evenveel rijen als kolommen", r"alleen zij kan een determinant of een inverse hebben"],
+                [r"nulmatrix \(O\)", r"elk element is nul", r"niet te verwarren met een matrix met \(\det A = 0\)"],
+                [r"eenheidsmatrix \(I\)", r"enen op de hoofddiagonaal, elders nullen", r"in \(I_{3}\) staan dus \(3\) enen"],
+                [r"diagonaalmatrix", r"vierkant, en alles buiten de hoofddiagonaal is nul", r"\(I\) is er een bijzonder geval van"],
+                [r"symmetrische matrix", r"\(A = A^{T}\)", r"ze is dan noodzakelijk vierkant"],
             ])),
-            ("p", "<strong>De eenheidsmatrix is het neutraal element voor de vermenigvuldiging van "
-                  "vierkante matrices</strong>: vermenigvuldigen ermee verandert niets. Een matrix met "
-                  "<strong>determinant nul</strong> heet een niet-inverteerbare of singuliere matrix, en "
-                  "dat is iets anders dan een nulmatrix."),
-            ("p", "<strong>Transponeren maakt van de rijen kolommen en van de kolommen rijen.</strong> Een "
-                  "matrix van twee bij vijf wordt zo een matrix van vijf bij twee, met dus "
-                  "<strong>vijf</strong> rijen. <strong>De getransponeerde van een product A maal B is de "
-                  "getransponeerde van B maal de getransponeerde van A</strong>: de volgorde draait om, "
-                  "anders zouden de dimensies niet meer passen."),
-            ("p", "<strong>De matrices van een vaste dimensie vormen met de optelling de structuur van een "
-                  "commutatieve groep</strong>: de nulmatrix is het neutraal element en de tegengestelde matrix het "
-                  "symmetrisch element."),
-            ("weetje", "<strong>Bij matrices bestaan er nuldelers.</strong> Twee matrices die geen van "
-                       "beide nul zijn, kunnen samen toch de nulmatrix geven. Bij reële getallen kan dat "
-                       "niet."),
+            ("p", r"""<strong>\(I\) is het neutraal element voor de vermenigvuldiging van vierkante
+                  matrices</strong>: er geldt \(A \cdot I = I \cdot A = A\). Een matrix met
+                  <strong>\(\det A = 0\)</strong> heet een niet-inverteerbare of singuliere matrix, en dat
+                  is iets anders dan de nulmatrix."""),
         ]),
-        dict(kop="De determinant", blokken=[
-            ("p", "<strong>De determinant van een matrix van orde twee is het product van de "
-                  "hoofddiagonaal min het product van de andere diagonaal</strong>: linksboven maal "
-                  "rechtsonder, min rechtsboven maal linksonder. Voor de matrix met op de eerste rij één "
-                  "en twee en op de tweede rij drie en vier is dat <strong>min twee</strong>. De "
-                  "<strong>determinant van de eenheidsmatrix is één</strong>, en een matrix met "
-                  "<strong>twee volledig gelijke rijen heeft determinant nul</strong>."),
-            ("p", "<strong>Alleen vierkante matrices hebben een determinant.</strong> Bij een rechthoekige "
-                  "matrix is ze niet gedefinieerd; de rang kan je er wel van bepalen."),
-            ("p", "<strong>De minor van een element is de determinant die overblijft als je zijn rij en "
-                  "kolom schrapt.</strong> Een <strong>cofactor is die minor met een teken dat van de "
-                  "plaats afhangt</strong>, afwisselend als een schaakbord, te beginnen met plus "
-                  "linksboven. <strong>Een determinant van orde drie bereken je met de hand door te "
-                  "ontwikkelen naar een rij of een kolom, met minoren en cofactoren</strong>; kies er een "
-                  "met veel nullen, dan valt het meeste rekenwerk weg."),
-            ("p", "<strong>De determinant is nuttig omdat je er in één berekening mee ziet of een matrix "
-                  "inverteerbaar is</strong>, en daarmee ook of een stelsel met die coëfficiëntenmatrix "
-                  "precies één oplossing heeft."),
+        dict(kop="Transponeren", blokken=[
+            ("p", r"""<strong>Wie een matrix transponeert, maakt van de rijen kolommen en van de
+                  kolommen rijen.</strong>
+                  Een matrix van \(2 \times 5\) wordt zo een matrix van \(5 \times 2\), met dus
+                  <strong>\(5\)</strong> rijen. <strong>Er geldt \((A \cdot B)^{T} = B^{T} \cdot
+                  A^{T}\)</strong>: de volgorde draait om, anders zouden de dimensies niet meer
+                  passen."""),
         ]),
-        dict(kop="Inverse en rang", blokken=[
-            ("p", "<strong>Een vierkante matrix is inverteerbaar als haar determinant verschillend is van "
-                  "nul.</strong> Determinant nul betekent dat rijen van elkaar afhangen, en dan kan je de "
-                  "bewerking niet ongedaan maken: <strong>zo'n matrix heeft geen inverse</strong>. "
-                  "<strong>Een rechthoekige matrix heeft er evenmin een.</strong> <strong>Vermenigvuldig "
-                  "je een matrix met haar inverse, dan krijg je de eenheidsmatrix</strong>, in beide "
-                  "volgordes."),
-            ("p", "<strong>De rang van een matrix is het aantal rijen dat niet nul is in haar rijcanonieke "
-                  "vorm.</strong> De rang zegt dus hoeveel rijen echt nieuwe informatie geven. De "
-                  "<strong>rang van de eenheidsmatrix van orde drie is drie</strong> en de <strong>rang "
-                  "van de nulmatrix is nul</strong>. <strong>Een matrix heeft maar één rijcanonieke "
-                  "vorm</strong>, welke rijoperaties je ook kiest, en daarom is de rang eenduidig bepaald."),
-            ("p", "<strong>Een vierkante matrix van orde n is inverteerbaar als haar rang gelijk is aan "
-                  "n.</strong> Volle rang, determinant verschillend van nul en inverteerbaar zijn drie "
-                  "manieren om hetzelfde te zeggen."),
-            ("p", "<strong>De drie elementaire rijoperaties</strong> zijn: <strong>rijen verwisselen, een "
-                  "rij met een getal vermenigvuldigen, of een veelvoud van een rij bij een andere "
-                  "tellen</strong>. Ze veranderen de rang niet en houden een stelsel gelijkwaardig. "
-                  "Vermenigvuldigen met nul mag niet."),
-            ("p", "Een praktijkvoorbeeld van het product: zet een winkel <strong>de bestelde aantallen in "
-                  "één matrix en de eenheidsprijzen in een andere</strong>, dan geeft hun product <strong>de "
-                  "totale prijs per bestelling</strong>, want elk element is een rij aantallen tegen een "
-                  "kolom prijzen."),
-            ("kader", "<strong>Bij de inverse van een matrix van orde drie laat je het rekenwerk aan de "
-                      "rekenapp over, maar je controleert het resultaat met de eenheidsmatrix.</strong> Het "
-                      "product met de oorspronkelijke matrix moet de eenheidsmatrix geven. Die controle "
-                      "kost één bewerking en vangt elke tikfout."),
+        dict(kop="De structuur van de optelling", blokken=[
+            ("p", r"""<strong>De matrices van een vaste dimensie vormen met de optelling een commutatieve
+                  groep</strong>: \(O\) is het neutraal element, \(-A\) het symmetrisch element, en
+                  \(A + B = B + A\)."""),
+            ("weetje", r"""<strong>Bij matrices bestaan er nuldelers.</strong> Er geldt
+                       \(\begin{pmatrix} 1 & 0 \\ 0 & 0 \end{pmatrix} \cdot
+                       \begin{pmatrix} 0 & 0 \\ 0 & 1 \end{pmatrix} = O\), en geen van beide factoren is
+                       de nulmatrix. Bij reële getallen kan dat niet."""),
+        ]),
+        dict(kop="De determinant van orde twee", blokken=[
+            ("p", r"""<strong>Er geldt \(\det\begin{pmatrix} a & b \\ c & d \end{pmatrix} = ad - bc\)</strong>:
+                  linksboven maal rechtsonder, min rechtsboven maal linksonder. Zo is
+                  \(\det\begin{pmatrix} 1 & 2 \\ 3 & 4 \end{pmatrix} = 1 \cdot 4 - 2 \cdot 3 =
+                  \mathbf{-2}\). Verder is <strong>\(\det I = 1\)</strong>, en een matrix met
+                  <strong>twee volledig gelijke rijen heeft \(\det A = 0\)</strong>."""),
+            ("p", r"""<strong>Alleen vierkante matrices hebben een determinant.</strong> Bij een
+                  rechthoekige matrix is ze niet gedefinieerd; de rang kan je er wel van bepalen."""),
+            ("p", r"""<strong>De determinant is nuttig omdat je er in één berekening mee ziet of een
+                  matrix inverteerbaar is</strong>, en daarmee ook of een stelsel met die
+                  coëfficiëntenmatrix precies één oplossing heeft."""),
+        ]),
+        dict(kop="Minoren en cofactoren", blokken=[
+            ("p", r"""<strong>De minor \(M_{ij}\) is de determinant die overblijft als je rij \(i\) en
+                  kolom \(j\) schrapt.</strong> De <strong>cofactor is \(C_{ij} = (-1)^{\,i+j} \cdot
+                  M_{ij}\)</strong>: het teken wisselt af als een schaakbord, te beginnen met plus
+                  linksboven."""),
+            ("p", r"""<strong>Een determinant van orde \(3\) bereken je met de hand door te ontwikkelen
+                  naar een rij of een kolom, met minoren en cofactoren</strong>; kies er een met veel
+                  nullen, dan valt het meeste rekenwerk weg."""),
+        ]),
+        dict(kop="De inverse", blokken=[
+            ("p", r"""<strong>Een vierkante matrix is inverteerbaar als \(\det A \neq 0\).</strong>
+                  \(\det A = 0\) betekent dat rijen van elkaar afhangen, en dan kan je de bewerking niet
+                  ongedaan maken: <strong>zo'n matrix heeft geen inverse</strong>. <strong>Een
+                  rechthoekige matrix heeft er evenmin een.</strong> En <strong>\(A \cdot A^{-1} =
+                  A^{-1} \cdot A = I\)</strong>, in beide volgordes."""),
+        ]),
+        dict(kop="De rang", blokken=[
+            ("p", r"""<strong>De rang \(\text{rang}(A)\) is het aantal rijen dat niet nul is in de
+                  rijcanonieke vorm.</strong> Ze zegt hoeveel rijen echt nieuwe informatie geven. Zo is
+                  <strong>\(\text{rang}(I_{3}) = 3\)</strong> en <strong>\(\text{rang}(O) = 0\)</strong>.
+                  <strong>Een matrix heeft maar één rijcanonieke vorm</strong>, welke rijoperaties je ook
+                  kiest, en daarom is de rang eenduidig bepaald."""),
+            ("p", r"""<strong>Een vierkante matrix van orde \(n\) is inverteerbaar als
+                  \(\text{rang}(A) = n\).</strong> Volle rang, \(\det A \neq 0\) en inverteerbaarheid zijn
+                  drie manieren om hetzelfde te zeggen."""),
+        ]),
+        dict(kop="De drie elementaire rijoperaties", blokken=[
+            ("p", r"""<strong>Rijen verwisselen \((R_{i} \leftrightarrow R_{j})\), een rij met een getal
+                  vermenigvuldigen \((R_{i} \to k \cdot R_{i}\) met \(k \neq 0)\), of een veelvoud van een
+                  rij bij een andere tellen \((R_{i} \to R_{i} + k \cdot R_{j})\).</strong> Dat zijn de drie operaties die je mag uitvoeren bij het
+                  omvormen naar de rijcanonieke vorm. Ze veranderen de rang niet en houden een stelsel
+                  gelijkwaardig. Vermenigvuldigen met \(0\) mag niet."""),
+        ]),
+        dict(kop="Matrices in de praktijk", blokken=[
+            ("p", r"""Zet een winkel <strong>de bestelde aantallen in een matrix \(A\) en de
+                  eenheidsprijzen in een kolommatrix \(P\)</strong>, dan geeft \(A \cdot P\) <strong>de
+                  totale prijs per bestelling</strong>, want elk element is een rij aantallen tegen de
+                  kolom prijzen."""),
+            ("kader", r"""<strong>Bij \(A^{-1}\) van een matrix van orde \(3\) laat je het rekenwerk aan
+                      de rekenapp over, maar je controleert met \(A \cdot A^{-1} = I\).</strong> Die
+                      controle kost één bewerking en vangt elke tikfout."""),
         ]),
     ],
     onthoud=[
-        "Een matrix van dimensie drie bij vier heeft drie rijen en vier kolommen.",
-        "Twee matrices optellen kan alleen als ze precies dezelfde dimensie hebben.",
-        "A maal B bestaat als het aantal kolommen van A gelijk is aan het aantal rijen van B.",
-        "Het vermenigvuldigen van matrices is niet commutatief.",
-        "De eenheidsmatrix is het neutraal element voor de vermenigvuldiging van vierkante matrices.",
-        "De getransponeerde van A maal B is de getransponeerde van B maal de getransponeerde van A.",
-        "Determinant van orde twee: het product van de hoofddiagonaal min het product van de andere diagonaal.",
-        "Een vierkante matrix is inverteerbaar als haar determinant verschillend is van nul.",
-        "De rang is het aantal rijen dat niet nul is in de rijcanonieke vorm.",
+        r"Dimensie \(3 \times 4\): \(3\) rijen en \(4\) kolommen. \(A + B\) kan alleen bij precies dezelfde dimensie.",
+        r"\(A \cdot B\) bestaat als het aantal kolommen van \(A\) gelijk is aan het aantal rijen van \(B\).",
+        r"\(A \cdot B \neq B \cdot A\) in het algemeen, en \((A \cdot B)^{T} = B^{T} \cdot A^{T}\).",
+        r"\(A \cdot I = I \cdot A = A\), en \(A \cdot A^{-1} = I\).",
+        r"\(\det\begin{pmatrix} a & b \\ c & d \end{pmatrix} = ad - bc\), en \(\det I = 1\).",
+        r"\(C_{ij} = (-1)^{\,i+j} \cdot M_{ij}\).",
+        r"De rang is het aantal rijen dat niet nul is in de rijcanonieke vorm; \(A\) is inverteerbaar precies als \(\det A \neq 0\), dus als \(\text{rang}(A) = n\).",
     ],
 )
 

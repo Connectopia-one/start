@@ -4,23 +4,57 @@
  "onder": "Dimensie, optellen en vermenigvuldigen, bijzondere matrices, en de determinant, de inverse en de rang.",
  "secties": [
   {
-   "kop": "Dimensie en bewerkingen",
+   "kop": "Dimensie",
    "blokken": [
     {
      "soort": "tekst",
-     "html": "<strong>Een matrix van dimensie drie bij vier heeft drie rijen en vier kolommen.</strong> Eerst de rijen, dan de kolommen: die volgorde omdraaien is de meest gemaakte fout van het hoofdstuk. Een matrix van <strong>twee bij vijf heeft tien elementen</strong>, en een <strong>kolommatrix met vier elementen heeft vier rijen</strong>."
+     "html": "<strong>Een matrix van dimensie \\(3 \\times 4\\) heeft \\(3\\) rijen en \\(4\\)\n                  kolommen.</strong> Eerst de rijen, dan de kolommen: die volgorde omdraaien is de meest\n                  gemaakte fout van het hoofdstuk. Een matrix van <strong>\\(2 \\times 5\\) heeft \\(10\\)\n                  elementen</strong>, en een <strong>kolommatrix met \\(4\\) elementen heeft \\(4\\)\n                  rijen</strong>, dus dimensie \\(4 \\times 1\\). <strong>Een vierkante matrix heeft\n                  evenveel rijen als kolommen</strong>, en alleen zij kan een determinant of een inverse\n                  hebben."
+    }
+   ]
+  },
+  {
+   "kop": "Optellen en met een getal vermenigvuldigen",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "<strong>Je kan \\(A + B\\) berekenen als \\(A\\) en \\(B\\) precies dezelfde dimensie\n                  hebben</strong>, want je telt element per element op en elk element moet een partner\n                  hebben. <strong>Bij \\(k \\cdot A\\) met \\(k \\in \\mathbb{R}\\) vermenigvuldig je elk element\n                  met \\(k\\)</strong>; dat heet de scalaire vermenigvuldiging en is iets heel anders dan\n                  het product van twee matrices."
+    }
+   ]
+  },
+  {
+   "kop": "Wanneer een product bestaat",
+   "blokken": [
+    {
+     "soort": "figuur",
+     "html": "<svg viewBox=\"0 0 470 150\" width=\"470\" xmlns=\"http://www.w3.org/2000/svg\"><text x=\"148.0\" y=\"80.0\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"17\" font-weight=\"600\" fill=\"#2f5d50\">(2</text>\n<text x=\"166.0\" y=\"80.0\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"17\" font-weight=\"600\" fill=\"#6b7260\">×</text>\n<text x=\"184.0\" y=\"80.0\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"17\" font-weight=\"600\" fill=\"#c17f2b\">3)</text>\n<text x=\"202.0\" y=\"80.0\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"17\" font-weight=\"600\" fill=\"#6b7260\">·</text>\n<text x=\"220.0\" y=\"80.0\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"17\" font-weight=\"600\" fill=\"#c17f2b\">(3</text>\n<text x=\"238.0\" y=\"80.0\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"17\" font-weight=\"600\" fill=\"#6b7260\">×</text>\n<text x=\"256.0\" y=\"80.0\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"17\" font-weight=\"600\" fill=\"#2f5d50\">4)</text>\n<text x=\"277.0\" y=\"80.0\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"17\" font-weight=\"600\" fill=\"#6b7260\">=</text>\n<text x=\"295.0\" y=\"80.0\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"17\" font-weight=\"600\" fill=\"#2f5d50\">2</text>\n<text x=\"310.0\" y=\"80.0\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"17\" font-weight=\"600\" fill=\"#6b7260\">×</text>\n<text x=\"325.0\" y=\"80.0\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"17\" font-weight=\"600\" fill=\"#2f5d50\">4</text>\n<path d=\"M184.0 88 q18.0 22 36.0 0\" fill=\"none\" stroke=\"#c17f2b\" stroke-width=\"1.6\"/>\n<text x=\"202.0\" y=\"122.0\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"10\" fill=\"#c17f2b\">moeten gelijk zijn</text>\n<path d=\"M148.0 58 q54.0 -24 108.0 0\" fill=\"none\" stroke=\"#2f5d50\" stroke-width=\"1.6\"/>\n<text x=\"202.0\" y=\"40.0\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"10\" fill=\"#2f5d50\">blijven over</text></svg>",
+     "onderschrift": "De twee binnenste getallen van een matrixproduct en de twee buitenste."
     },
     {
      "soort": "tekst",
-     "html": "<strong>Twee matrices kan je optellen als ze precies dezelfde dimensie hebben</strong>, want je telt element per element op. <strong>Bij een vermenigvuldiging met een reëel getal vermenigvuldig je elk element met dat getal</strong>; dat heet de scalaire vermenigvuldiging en is iets heel anders dan het product van twee matrices."
+     "html": "<strong>Het product \\(A \\cdot B\\) kan je berekenen als het aantal kolommen van\n                  \\(A\\) gelijk is aan het aantal rijen van \\(B\\).</strong> Zo heeft het <strong>product\n                  van een matrix \\(2 \\times 3\\) met een matrix \\(3 \\times 4\\) de dimensie \\(2 \\times\n                  4\\)</strong>: de binnenste getallen vallen weg, de buitenste blijven over."
+    }
+   ]
+  },
+  {
+   "kop": "Hoe het product gerekend wordt",
+   "blokken": [
+    {
+     "soort": "figuur",
+     "html": "<svg viewBox=\"0 0 470 164\" width=\"470\" xmlns=\"http://www.w3.org/2000/svg\"><g transform=\"translate(57.0,47.0)\"><rect x=\"9\" y=\"5.0\" width=\"102\" height=\"26\" rx=\"6\" fill=\"#2f5d50\" fill-opacity=\"0.16\"/><path d=\"M7 0 q-7 31.0 0 62.0\" fill=\"none\" stroke=\"#23291f\" stroke-width=\"1.6\" stroke-linecap=\"round\"/><path d=\"M113 0 q7 31.0 0 62.0\" fill=\"none\" stroke=\"#23291f\" stroke-width=\"1.6\" stroke-linecap=\"round\"/><text x=\"26.0\" y=\"21.9\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"11.5\" fill=\"#23291f\">1</text><text x=\"60.0\" y=\"21.9\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"11.5\" fill=\"#23291f\">2</text><text x=\"94.0\" y=\"21.9\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"11.5\" fill=\"#23291f\">3</text><text x=\"26.0\" y=\"47.9\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"11.5\" fill=\"#23291f\">4</text><text x=\"60.0\" y=\"47.9\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"11.5\" fill=\"#23291f\">5</text><text x=\"94.0\" y=\"47.9\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"11.5\" fill=\"#23291f\">6</text></g>\n<text x=\"193.0\" y=\"83.0\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"20\" font-weight=\"600\" fill=\"#6b7260\">·</text>\n<g transform=\"translate(209.0,34.0)\"><rect x=\"9.0\" y=\"5\" width=\"34\" height=\"78\" rx=\"6\" fill=\"#c17f2b\" fill-opacity=\"0.16\"/><path d=\"M7 0 q-7 44.0 0 88.0\" fill=\"none\" stroke=\"#23291f\" stroke-width=\"1.6\" stroke-linecap=\"round\"/><path d=\"M79 0 q7 44.0 0 88.0\" fill=\"none\" stroke=\"#23291f\" stroke-width=\"1.6\" stroke-linecap=\"round\"/><text x=\"26.0\" y=\"21.9\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"11.5\" fill=\"#23291f\">7</text><text x=\"60.0\" y=\"21.9\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"11.5\" fill=\"#23291f\">8</text><text x=\"26.0\" y=\"47.9\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"11.5\" fill=\"#23291f\">9</text><text x=\"60.0\" y=\"47.9\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"11.5\" fill=\"#23291f\">10</text><text x=\"26.0\" y=\"73.9\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"11.5\" fill=\"#23291f\">11</text><text x=\"60.0\" y=\"73.9\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"11.5\" fill=\"#23291f\">12</text></g>\n<text x=\"304.0\" y=\"82.0\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"13\" fill=\"#6b7260\">=</text>\n<g transform=\"translate(327.0,47.0)\"><rect x=\"9.0\" y=\"5.0\" width=\"34\" height=\"26\" rx=\"6\" fill=\"#c17f2b\" fill-opacity=\"0.22\"/><path d=\"M7 0 q-7 31.0 0 62.0\" fill=\"none\" stroke=\"#23291f\" stroke-width=\"1.6\" stroke-linecap=\"round\"/><path d=\"M79 0 q7 31.0 0 62.0\" fill=\"none\" stroke=\"#23291f\" stroke-width=\"1.6\" stroke-linecap=\"round\"/><text x=\"26.0\" y=\"21.9\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"11.5\" fill=\"#23291f\">58</text><text x=\"60.0\" y=\"21.9\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"11.5\" fill=\"#23291f\">64</text><text x=\"26.0\" y=\"47.9\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"11.5\" fill=\"#23291f\">139</text><text x=\"60.0\" y=\"47.9\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"11.5\" fill=\"#23291f\">154</text></g>\n<text x=\"235.0\" y=\"148.0\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"11.5\" font-weight=\"600\" fill=\"#234539\">1 · 7 + 2 · 9 + 3 · 11 = 58</text></svg>",
+     "onderschrift": "De eerste rij van de linkermatrix tegen de eerste kolom van de rechtermatrix."
     },
     {
      "soort": "tekst",
-     "html": "<strong>Het product A maal B kan je berekenen als het aantal kolommen van A gelijk is aan het aantal rijen van B.</strong> Elk element van het product is een rij van A tegen een kolom van B, en die twee moeten even lang zijn. Zo heeft het <strong>product van een matrix twee bij drie met een matrix drie bij vier de dimensie twee bij vier</strong>: de binnenste getallen vallen weg, de buitenste blijven over."
-    },
+     "html": "Elk element van het product is een rij van \\(A\\) tegen een kolom van \\(B\\), en die\n                  twee moeten even lang zijn. Het element linksboven komt dus uit de eerste rij en de\n                  eerste kolom, het element rechtsonder uit de laatste rij en de laatste kolom."
+    }
+   ]
+  },
+  {
+   "kop": "Niet commutatief",
+   "blokken": [
     {
      "soort": "kader",
-     "html": "<strong>Het vermenigvuldigen van matrices is niet commutatief.</strong> A maal B is in het algemeen iets anders dan B maal A, en soms bestaat maar één van de twee. Dat is het grote verschil met gewone getallen."
+     "html": "<strong>Het vermenigvuldigen van matrices is niet commutatief.</strong>\n                      \\(A \\cdot B\\) is in het algemeen iets anders dan \\(B \\cdot A\\), en soms bestaat maar\n                      één van de twee. Dat is het grote verschil met gewone getallen."
     }
    ]
   },
@@ -29,86 +63,118 @@
    "blokken": [
     {
      "soort": "tekst",
-     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Soort matrix</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Wat ze is</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Weetje</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">vierkante matrix</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">evenveel rijen als kolommen</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">alleen zij kan een determinant of een inverse hebben</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">nulmatrix</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">elk element is nul</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">niet te verwarren met een matrix met determinant nul</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">eenheidsmatrix</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">enen op de hoofddiagonaal, elders nullen</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">van orde drie staan er dus drie enen</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">diagonaalmatrix</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">vierkant, en alles buiten de hoofddiagonaal is nul</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">de eenheidsmatrix is er een bijzonder geval van</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">symmetrische matrix</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">gelijk aan haar getransponeerde</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">ze is dan noodzakelijk vierkant</td></tr></table>"
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Soort matrix</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Wat ze is</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Weetje</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">vierkante matrix</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">evenveel rijen als kolommen</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">alleen zij kan een determinant of een inverse hebben</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">nulmatrix \\(O\\)</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">elk element is nul</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">niet te verwarren met een matrix met \\(\\det A = 0\\)</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">eenheidsmatrix \\(I\\)</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">enen op de hoofddiagonaal, elders nullen</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">in \\(I_{3}\\) staan dus \\(3\\) enen</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">diagonaalmatrix</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">vierkant, en alles buiten de hoofddiagonaal is nul</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">\\(I\\) is er een bijzonder geval van</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">symmetrische matrix</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">\\(A = A^{T}\\)</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">ze is dan noodzakelijk vierkant</td></tr></table>"
     },
     {
      "soort": "tekst",
-     "html": "<strong>De eenheidsmatrix is het neutraal element voor de vermenigvuldiging van vierkante matrices</strong>: vermenigvuldigen ermee verandert niets. Een matrix met <strong>determinant nul</strong> heet een niet-inverteerbare of singuliere matrix, en dat is iets anders dan een nulmatrix."
-    },
+     "html": "<strong>\\(I\\) is het neutraal element voor de vermenigvuldiging van vierkante\n                  matrices</strong>: er geldt \\(A \\cdot I = I \\cdot A = A\\). Een matrix met\n                  <strong>\\(\\det A = 0\\)</strong> heet een niet-inverteerbare of singuliere matrix, en dat\n                  is iets anders dan de nulmatrix."
+    }
+   ]
+  },
+  {
+   "kop": "Transponeren",
+   "blokken": [
     {
      "soort": "tekst",
-     "html": "<strong>Transponeren maakt van de rijen kolommen en van de kolommen rijen.</strong> Een matrix van twee bij vijf wordt zo een matrix van vijf bij twee, met dus <strong>vijf</strong> rijen. <strong>De getransponeerde van een product A maal B is de getransponeerde van B maal de getransponeerde van A</strong>: de volgorde draait om, anders zouden de dimensies niet meer passen."
-    },
+     "html": "<strong>Wie een matrix transponeert, maakt van de rijen kolommen en van de\n                  kolommen rijen.</strong>\n                  Een matrix van \\(2 \\times 5\\) wordt zo een matrix van \\(5 \\times 2\\), met dus\n                  <strong>\\(5\\)</strong> rijen. <strong>Er geldt \\((A \\cdot B)^{T} = B^{T} \\cdot\n                  A^{T}\\)</strong>: de volgorde draait om, anders zouden de dimensies niet meer\n                  passen."
+    }
+   ]
+  },
+  {
+   "kop": "De structuur van de optelling",
+   "blokken": [
     {
      "soort": "tekst",
-     "html": "<strong>De matrices van een vaste dimensie vormen met de optelling de structuur van een commutatieve groep</strong>: de nulmatrix is het neutraal element en de tegengestelde matrix het symmetrisch element."
+     "html": "<strong>De matrices van een vaste dimensie vormen met de optelling een commutatieve\n                  groep</strong>: \\(O\\) is het neutraal element, \\(-A\\) het symmetrisch element, en\n                  \\(A + B = B + A\\)."
     },
     {
      "soort": "weetje",
-     "html": "<strong>Bij matrices bestaan er nuldelers.</strong> Twee matrices die geen van beide nul zijn, kunnen samen toch de nulmatrix geven. Bij reële getallen kan dat niet."
+     "html": "<strong>Bij matrices bestaan er nuldelers.</strong> Er geldt\n                       \\(\\begin{pmatrix} 1 & 0 \\\\ 0 & 0 \\end{pmatrix} \\cdot\n                       \\begin{pmatrix} 0 & 0 \\\\ 0 & 1 \\end{pmatrix} = O\\), en geen van beide factoren is\n                       de nulmatrix. Bij reële getallen kan dat niet."
     }
    ]
   },
   {
-   "kop": "De determinant",
+   "kop": "De determinant van orde twee",
    "blokken": [
     {
      "soort": "tekst",
-     "html": "<strong>De determinant van een matrix van orde twee is het product van de hoofddiagonaal min het product van de andere diagonaal</strong>: linksboven maal rechtsonder, min rechtsboven maal linksonder. Voor de matrix met op de eerste rij één en twee en op de tweede rij drie en vier is dat <strong>min twee</strong>. De <strong>determinant van de eenheidsmatrix is één</strong>, en een matrix met <strong>twee volledig gelijke rijen heeft determinant nul</strong>."
+     "html": "<strong>Er geldt \\(\\det\\begin{pmatrix} a & b \\\\ c & d \\end{pmatrix} = ad - bc\\)</strong>:\n                  linksboven maal rechtsonder, min rechtsboven maal linksonder. Zo is\n                  \\(\\det\\begin{pmatrix} 1 & 2 \\\\ 3 & 4 \\end{pmatrix} = 1 \\cdot 4 - 2 \\cdot 3 =\n                  \\mathbf{-2}\\). Verder is <strong>\\(\\det I = 1\\)</strong>, en een matrix met\n                  <strong>twee volledig gelijke rijen heeft \\(\\det A = 0\\)</strong>."
     },
     {
      "soort": "tekst",
-     "html": "<strong>Alleen vierkante matrices hebben een determinant.</strong> Bij een rechthoekige matrix is ze niet gedefinieerd; de rang kan je er wel van bepalen."
+     "html": "<strong>Alleen vierkante matrices hebben een determinant.</strong> Bij een\n                  rechthoekige matrix is ze niet gedefinieerd; de rang kan je er wel van bepalen."
     },
     {
      "soort": "tekst",
-     "html": "<strong>De minor van een element is de determinant die overblijft als je zijn rij en kolom schrapt.</strong> Een <strong>cofactor is die minor met een teken dat van de plaats afhangt</strong>, afwisselend als een schaakbord, te beginnen met plus linksboven. <strong>Een determinant van orde drie bereken je met de hand door te ontwikkelen naar een rij of een kolom, met minoren en cofactoren</strong>; kies er een met veel nullen, dan valt het meeste rekenwerk weg."
-    },
-    {
-     "soort": "tekst",
-     "html": "<strong>De determinant is nuttig omdat je er in één berekening mee ziet of een matrix inverteerbaar is</strong>, en daarmee ook of een stelsel met die coëfficiëntenmatrix precies één oplossing heeft."
+     "html": "<strong>De determinant is nuttig omdat je er in één berekening mee ziet of een\n                  matrix inverteerbaar is</strong>, en daarmee ook of een stelsel met die\n                  coëfficiëntenmatrix precies één oplossing heeft."
     }
    ]
   },
   {
-   "kop": "Inverse en rang",
+   "kop": "Minoren en cofactoren",
    "blokken": [
     {
      "soort": "tekst",
-     "html": "<strong>Een vierkante matrix is inverteerbaar als haar determinant verschillend is van nul.</strong> Determinant nul betekent dat rijen van elkaar afhangen, en dan kan je de bewerking niet ongedaan maken: <strong>zo'n matrix heeft geen inverse</strong>. <strong>Een rechthoekige matrix heeft er evenmin een.</strong> <strong>Vermenigvuldig je een matrix met haar inverse, dan krijg je de eenheidsmatrix</strong>, in beide volgordes."
+     "html": "<strong>De minor \\(M_{ij}\\) is de determinant die overblijft als je rij \\(i\\) en\n                  kolom \\(j\\) schrapt.</strong> De <strong>cofactor is \\(C_{ij} = (-1)^{\\,i+j} \\cdot\n                  M_{ij}\\)</strong>: het teken wisselt af als een schaakbord, te beginnen met plus\n                  linksboven."
     },
     {
      "soort": "tekst",
-     "html": "<strong>De rang van een matrix is het aantal rijen dat niet nul is in haar rijcanonieke vorm.</strong> De rang zegt dus hoeveel rijen echt nieuwe informatie geven. De <strong>rang van de eenheidsmatrix van orde drie is drie</strong> en de <strong>rang van de nulmatrix is nul</strong>. <strong>Een matrix heeft maar één rijcanonieke vorm</strong>, welke rijoperaties je ook kiest, en daarom is de rang eenduidig bepaald."
+     "html": "<strong>Een determinant van orde \\(3\\) bereken je met de hand door te ontwikkelen\n                  naar een rij of een kolom, met minoren en cofactoren</strong>; kies er een met veel\n                  nullen, dan valt het meeste rekenwerk weg."
+    }
+   ]
+  },
+  {
+   "kop": "De inverse",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "<strong>Een vierkante matrix is inverteerbaar als \\(\\det A \\neq 0\\).</strong>\n                  \\(\\det A = 0\\) betekent dat rijen van elkaar afhangen, en dan kan je de bewerking niet\n                  ongedaan maken: <strong>zo'n matrix heeft geen inverse</strong>. <strong>Een\n                  rechthoekige matrix heeft er evenmin een.</strong> En <strong>\\(A \\cdot A^{-1} =\n                  A^{-1} \\cdot A = I\\)</strong>, in beide volgordes."
+    }
+   ]
+  },
+  {
+   "kop": "De rang",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "<strong>De rang \\(\\text{rang}(A)\\) is het aantal rijen dat niet nul is in de\n                  rijcanonieke vorm.</strong> Ze zegt hoeveel rijen echt nieuwe informatie geven. Zo is\n                  <strong>\\(\\text{rang}(I_{3}) = 3\\)</strong> en <strong>\\(\\text{rang}(O) = 0\\)</strong>.\n                  <strong>Een matrix heeft maar één rijcanonieke vorm</strong>, welke rijoperaties je ook\n                  kiest, en daarom is de rang eenduidig bepaald."
     },
     {
      "soort": "tekst",
-     "html": "<strong>Een vierkante matrix van orde n is inverteerbaar als haar rang gelijk is aan n.</strong> Volle rang, determinant verschillend van nul en inverteerbaar zijn drie manieren om hetzelfde te zeggen."
-    },
+     "html": "<strong>Een vierkante matrix van orde \\(n\\) is inverteerbaar als\n                  \\(\\text{rang}(A) = n\\).</strong> Volle rang, \\(\\det A \\neq 0\\) en inverteerbaarheid zijn\n                  drie manieren om hetzelfde te zeggen."
+    }
+   ]
+  },
+  {
+   "kop": "De drie elementaire rijoperaties",
+   "blokken": [
     {
      "soort": "tekst",
-     "html": "<strong>De drie elementaire rijoperaties</strong> zijn: <strong>rijen verwisselen, een rij met een getal vermenigvuldigen, of een veelvoud van een rij bij een andere tellen</strong>. Ze veranderen de rang niet en houden een stelsel gelijkwaardig. Vermenigvuldigen met nul mag niet."
-    },
+     "html": "<strong>Rijen verwisselen \\((R_{i} \\leftrightarrow R_{j})\\), een rij met een getal\n                  vermenigvuldigen \\((R_{i} \\to k \\cdot R_{i}\\) met \\(k \\neq 0)\\), of een veelvoud van een\n                  rij bij een andere tellen \\((R_{i} \\to R_{i} + k \\cdot R_{j})\\).</strong> Dat zijn de drie operaties die je mag uitvoeren bij het\n                  omvormen naar de rijcanonieke vorm. Ze veranderen de rang niet en houden een stelsel\n                  gelijkwaardig. Vermenigvuldigen met \\(0\\) mag niet."
+    }
+   ]
+  },
+  {
+   "kop": "Matrices in de praktijk",
+   "blokken": [
     {
      "soort": "tekst",
-     "html": "Een praktijkvoorbeeld van het product: zet een winkel <strong>de bestelde aantallen in één matrix en de eenheidsprijzen in een andere</strong>, dan geeft hun product <strong>de totale prijs per bestelling</strong>, want elk element is een rij aantallen tegen een kolom prijzen."
+     "html": "Zet een winkel <strong>de bestelde aantallen in een matrix \\(A\\) en de\n                  eenheidsprijzen in een kolommatrix \\(P\\)</strong>, dan geeft \\(A \\cdot P\\) <strong>de\n                  totale prijs per bestelling</strong>, want elk element is een rij aantallen tegen de\n                  kolom prijzen."
     },
     {
      "soort": "kader",
-     "html": "<strong>Bij de inverse van een matrix van orde drie laat je het rekenwerk aan de rekenapp over, maar je controleert het resultaat met de eenheidsmatrix.</strong> Het product met de oorspronkelijke matrix moet de eenheidsmatrix geven. Die controle kost één bewerking en vangt elke tikfout."
+     "html": "<strong>Bij \\(A^{-1}\\) van een matrix van orde \\(3\\) laat je het rekenwerk aan\n                      de rekenapp over, maar je controleert met \\(A \\cdot A^{-1} = I\\).</strong> Die\n                      controle kost één bewerking en vangt elke tikfout."
     }
    ]
   }
  ],
  "onthoud": [
-  "Een matrix van dimensie drie bij vier heeft drie rijen en vier kolommen.",
-  "Twee matrices optellen kan alleen als ze precies dezelfde dimensie hebben.",
-  "A maal B bestaat als het aantal kolommen van A gelijk is aan het aantal rijen van B.",
-  "Het vermenigvuldigen van matrices is niet commutatief.",
-  "De eenheidsmatrix is het neutraal element voor de vermenigvuldiging van vierkante matrices.",
-  "De getransponeerde van A maal B is de getransponeerde van B maal de getransponeerde van A.",
-  "Determinant van orde twee: het product van de hoofddiagonaal min het product van de andere diagonaal.",
-  "Een vierkante matrix is inverteerbaar als haar determinant verschillend is van nul.",
-  "De rang is het aantal rijen dat niet nul is in de rijcanonieke vorm."
+  "Dimensie \\(3 \\times 4\\): \\(3\\) rijen en \\(4\\) kolommen. \\(A + B\\) kan alleen bij precies dezelfde dimensie.",
+  "\\(A \\cdot B\\) bestaat als het aantal kolommen van \\(A\\) gelijk is aan het aantal rijen van \\(B\\).",
+  "\\(A \\cdot B \\neq B \\cdot A\\) in het algemeen, en \\((A \\cdot B)^{T} = B^{T} \\cdot A^{T}\\).",
+  "\\(A \\cdot I = I \\cdot A = A\\), en \\(A \\cdot A^{-1} = I\\).",
+  "\\(\\det\\begin{pmatrix} a & b \\\\ c & d \\end{pmatrix} = ad - bc\\), en \\(\\det I = 1\\).",
+  "\\(C_{ij} = (-1)^{\\,i+j} \\cdot M_{ij}\\).",
+  "De rang is het aantal rijen dat niet nul is in de rijcanonieke vorm; \\(A\\) is inverteerbaar precies als \\(\\det A \\neq 0\\), dus als \\(\\text{rang}(A) = n\\)."
  ]
 }
