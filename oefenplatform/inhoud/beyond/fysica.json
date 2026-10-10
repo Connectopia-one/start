@@ -468,43 +468,43 @@
         },
         {
           "type": "meerkeuze",
-          "vraag": "Wat zegt de wet van Coulomb over het verband tussen de kracht en de afstand?",
+          "vraag": "Welk verband tussen \\(F\\) en \\(r\\) staat in \\(F=k\\,\\dfrac{|q_{1}q_{2}|}{r^{2}}\\)?",
           "opties": [
-            "de kracht is omgekeerd evenredig met het kwadraat van r",
-            "de kracht is omgekeerd evenredig met de afstand r zelf",
-            "de kracht is recht evenredig met het kwadraat van r",
-            "de kracht blijft gelijk hoe groot de afstand ook wordt"
+            "\\(F\\sim\\dfrac{1}{r^{2}}\\)",
+            "\\(F\\sim\\dfrac{1}{r}\\)",
+            "\\(F\\sim r^{2}\\)",
+            "\\(F\\) hangt niet van \\(r\\) af"
           ],
           "antwoord": 0,
-          "uitleg": "In de formule staat r² in de noemer. Twee keer zo ver betekent dus vier keer zo weinig kracht."
+          "uitleg": "\\(r^{2}\\) staat in de noemer, dus \\(F\\) is omgekeerd evenredig met het kwadraat van de afstand: twee keer zo ver is vier keer zo weinig kracht."
         },
         {
           "type": "meerkeuze",
-          "vraag": "Twee puntladingen trekken elkaar aan met 8 N. Je verdubbelt de afstand. Hoe groot is de kracht dan?",
+          "vraag": "Twee puntladingen trekken elkaar aan met \\(F=8{,}0\\ \\text{N}\\). Je verdubbelt \\(r\\). Hoe groot is \\(F\\) dan?",
           "opties": [
-            "2 N",
-            "4 N",
-            "8 N",
-            "16 N"
+            "\\(2{,}0\\ \\text{N}\\)",
+            "\\(4{,}0\\ \\text{N}\\)",
+            "\\(8{,}0\\ \\text{N}\\)",
+            "\\(16\\ \\text{N}\\)"
           ],
           "antwoord": 0,
-          "uitleg": "De kracht gaat met het kwadraat van de afstand: twee keer verder is vier keer minder. 8 gedeeld door 4 is 2 newton."
+          "uitleg": "\\(F\\sim\\tfrac{1}{r^{2}}\\), dus twee keer verder is vier keer minder: \\(\\tfrac{8{,}0}{4}=2{,}0\\ \\text{N}\\)."
         },
         {
           "type": "meerkeuze",
-          "vraag": "Twee puntladingen stoten elkaar af met 6 N. Je verdrievoudigt één van de twee ladingen. Hoe groot is de kracht?",
+          "vraag": "Twee puntladingen stoten elkaar af met \\(F=6{,}0\\ \\text{N}\\). Je vervangt \\(q_{1}\\) door \\(3q_{1}\\). Hoe groot is \\(F\\) dan?",
           "opties": [
-            "18 N",
-            "6 N",
-            "2 N",
-            "54 N"
+            "\\(18\\ \\text{N}\\)",
+            "\\(6{,}0\\ \\text{N}\\)",
+            "\\(2{,}0\\ \\text{N}\\)",
+            "\\(54\\ \\text{N}\\)"
           ],
           "antwoord": 0,
-          "uitleg": "De kracht is recht evenredig met elk van de twee ladingen. Drie keer zo veel lading betekent dus drie keer zo veel kracht."
+          "uitleg": "\\(F\\) is recht evenredig met elk van de twee ladingen, want ze staan beide in de teller. Drie keer \\(q_{1}\\) geeft dus drie keer \\(F\\)."
         },
         {
           "type": "waarofniet",
-          "vraag": "De kracht die lading A op lading B uitoefent, is even groot als die van B op A.",
+          "vraag": "De kracht van lading A op lading B is even groot als die van B op A.",
           "antwoord": true,
           "uitleg": "Dat is de derde wet van Newton: actie en reactie. Ook al is de ene lading veel groter dan de andere, de twee krachten blijven even groot en tegengesteld."
         },
@@ -567,16 +567,16 @@
           "type": "meerkeuze",
           "vraag": "Welke grootheden staan in de wet van Coulomb? Kruis alles aan wat juist is.",
           "opties": [
-            "de grootte van de beide ladingen",
-            "de afstand tussen de twee ladingen",
-            "de massa van de twee geladen voorwerpen",
-            "de temperatuur van de twee voorwerpen"
+            "de grootte van \\(q_{1}\\) en \\(q_{2}\\)",
+            "de afstand \\(r\\) ertussen",
+            "de massa \\(m\\) van de twee voorwerpen",
+            "de temperatuur \\(T\\) van de twee voorwerpen"
           ],
           "antwoord": [
             0,
             1
           ],
-          "uitleg": "Massa en temperatuur spelen geen rol. Wel staat er een constante k in, en die hangt af van de stof tussen de twee ladingen."
+          "uitleg": "Massa en temperatuur komen in \\(F=k\\,\\dfrac{|q_{1}q_{2}|}{r^{2}}\\) niet voor. Wel staat er een constante \\(k\\) in, en die hangt af van de stof ertussen."
         },
         {
           "type": "invultekst",
@@ -608,7 +608,7 @@
         },
         {
           "type": "meerkeuze",
-          "vraag": "Twee puntladingen van 2 µC en 3 µC trekken of stoten elkaar. Wat gebeurt er als je beide verdubbelt?",
+          "vraag": "Twee puntladingen zijn \\(q_{1}=2\\ \\mu\\text{C}\\) en \\(q_{2}=3\\ \\mu\\text{C}\\). Wat gebeurt er met \\(F\\) als je beide verdubbelt?",
           "opties": [
             "de kracht wordt vier keer zo groot",
             "de kracht wordt twee keer zo groot",
@@ -616,19 +616,19 @@
             "de kracht blijft precies even groot"
           ],
           "antwoord": 0,
-          "uitleg": "In de teller staat het product van de twee ladingen, dus twee maal twee is vier. De afstand is niet veranderd."
+          "uitleg": "In de teller staat \\(q_{1}\\cdot q_{2}\\), dus \\(2\\cdot 2=4\\). \\(r\\) is niet veranderd."
         },
         {
           "type": "meerkeuze",
-          "vraag": "Waar is de kracht van een geladen bol op een puntlading het grootst?",
+          "vraag": "Bereken \\(F\\) tussen \\(q_{1}=2{,}0\\ \\mu\\text{C}\\) en \\(q_{2}=3{,}0\\ \\mu\\text{C}\\) op \\(r=0{,}30\\ \\text{m}\\). Neem \\(k=8{,}99\\cdot 10^{9}\\ \\text{N}\\,\\text{m}^{2}\\text{/C}^{2}\\).",
           "opties": [
-            "vlak bij het oppervlak van de bol",
-            "precies in het midden van de bol zelf",
-            "op grote afstand van de bol vandaan",
-            "overal rond de bol even groot gespreid"
+            "\\(0{,}60\\ \\text{N}\\)",
+            "\\(0{,}18\\ \\text{N}\\)",
+            "\\(6{,}0\\ \\text{N}\\)",
+            "\\(1{,}8\\cdot 10^{-4}\\ \\text{N}\\)"
           ],
           "antwoord": 0,
-          "uitleg": "Buiten de bol werkt ze alsof alle lading in het middelpunt zat, dus neemt ze af met het kwadraat van de afstand. Dicht bij het oppervlak is ze daarom het sterkst."
+          "uitleg": "\\(F=8{,}99\\cdot 10^{9}\\cdot\\dfrac{2{,}0\\cdot 10^{-6}\\cdot 3{,}0\\cdot 10^{-6}}{0{,}30^{2}}=\\dfrac{5{,}39\\cdot 10^{-2}}{0{,}09}\\approx 0{,}60\\ \\text{N}\\). Wie \\(r\\) vergeet te kwadrateren komt op \\(0{,}18\\ \\text{N}\\) uit."
         },
         {
           "type": "invultekst",
@@ -659,7 +659,7 @@
             0,
             1
           ],
-          "uitleg": "In lucht is ze ongeveer 9·10⁹ N·m²/C². In water ligt ze tientallen keren lager, en daarom werken ionen in water veel minder hard op elkaar in."
+          "uitleg": "In lucht is \\(k\\approx 8{,}99\\cdot 10^{9}\\ \\text{N}\\,\\text{m}^{2}\\text{/C}^{2}\\). In water ligt ze tientallen keren lager, en daarom werken ionen in water veel minder hard op elkaar in."
         },
         {
           "type": "meerkeuze",
@@ -671,7 +671,7 @@
             "de staaf geeft wat lading af en trekt die daarna terug aan"
           ],
           "antwoord": 0,
-          "uitleg": "Door influentie of polarisatie komt de tegengestelde lading het dichtst bij de staaf. Omdat de kracht met r² afneemt, wint die aantrekking het van de afstoting verderop."
+          "uitleg": "Door influentie of polarisatie komt de tegengestelde lading het dichtst bij de staaf. Omdat \\(F\\sim\\tfrac{1}{r^{2}}\\), wint die aantrekking het van de afstoting verderop."
         }
       ]
     },
@@ -682,25 +682,25 @@
       "vragen": [
         {
           "type": "meerkeuze",
-          "vraag": "Wat is de elektrische veldsterkte in een punt?",
+          "vraag": "Wat is de elektrische veldsterkte \\(E\\) in een punt?",
           "opties": [
-            "de kracht per eenheid van lading in dat punt",
-            "de kracht op een lading van één coulomb per meter",
-            "de arbeid die nodig is om er een lading te brengen",
-            "de lading die er per seconde langs stroomt"
+            "\\(E=\\dfrac{F}{q}\\), de kracht per eenheid van lading",
+            "\\(E=F\\cdot q\\), de kracht maal de lading",
+            "\\(E=\\dfrac{W}{q}\\), de arbeid per eenheid van lading",
+            "\\(E=\\dfrac{q}{t}\\), de lading per seconde"
           ],
           "antwoord": 0,
-          "uitleg": "Je deelt de kracht op een proeflading door de grootte van die lading. Zo krijg je een eigenschap van het punt zelf, los van de lading die je erin zet."
+          "uitleg": "Je deelt de kracht op een proeflading door die lading zelf. Zo krijg je een eigenschap van het punt, los van wat je erin zet. \\(\\tfrac{W}{q}\\) is de potentiaal en \\(\\tfrac{q}{t}\\) is de stroomsterkte."
         },
         {
           "type": "invultekst",
-          "vraag": "In welke eenheid druk je de elektrische veldsterkte uit?",
+          "vraag": "In welke eenheid druk je \\(E\\) uit? Schrijf ze als een breuk met een schuine streep.",
           "antwoord": [
             "N/C",
             "newton per coulomb",
             "V/m"
           ],
-          "uitleg": "Newton per coulomb, want ze is kracht gedeeld door lading. Volt per meter is daarmee gelijkwaardig."
+          "uitleg": "Newton per coulomb, want \\(E=\\tfrac{F}{q}\\). \\(1\\ \\text{N/C}=1\\ \\text{V/m}\\), dus volt per meter is evengoed juist."
         },
         {
           "type": "meerkeuze",
@@ -760,7 +760,7 @@
         },
         {
           "type": "meerkeuze",
-          "vraag": "Een positieve lading zit in een punt waar het veld naar rechts wijst. Welke kant op werkt de kracht?",
+          "vraag": "Een positieve lading zit in een punt waar \\(\\vec{E}\\) naar rechts wijst. Welke kant op werkt \\(\\vec{F}\\)?",
           "opties": [
             "naar rechts, in de zin van het veld",
             "naar links, dus tegen het veld in",
@@ -774,10 +774,10 @@
           "type": "meerkeuze",
           "vraag": "Welke uitspraken over het veld van een puntlading zijn juist? Kruis alles aan wat juist is.",
           "opties": [
-            "het neemt af met het kwadraat van de afstand",
-            "het hangt niet af van de proeflading die je erin zet",
-            "het is overal rond de lading even sterk gespreid",
-            "het wijst altijd naar de lading toe, wat haar teken ook is"
+            "\\(E\\sim\\dfrac{1}{r^{2}}\\)",
+            "\\(E\\) hangt niet af van de proeflading die je erin zet",
+            "\\(E\\) is overal rond de lading even groot",
+            "\\(\\vec{E}\\) wijst altijd naar de lading toe, wat haar teken ook is"
           ],
           "antwoord": [
             0,
@@ -787,33 +787,33 @@
         },
         {
           "type": "meerkeuze",
-          "vraag": "In een punt is de veldsterkte 200 N/C. Welke kracht werkt er op een lading van 3 mC?",
+          "vraag": "In een punt is \\(E=200\\ \\text{N/C}\\). Welke kracht werkt er op \\(q=3\\ \\text{mC}\\)?",
           "opties": [
-            "0,6 N",
-            "600 N",
-            "67 N",
-            "0,015 N"
+            "\\(0{,}6\\ \\text{N}\\)",
+            "\\(600\\ \\text{N}\\)",
+            "\\(67\\ \\text{N}\\)",
+            "\\(0{,}015\\ \\text{N}\\)"
           ],
           "antwoord": 0,
-          "uitleg": "De kracht is de veldsterkte maal de lading: 200 maal 0,003 is 0,6 newton. Let op de omzetting van millicoulomb naar coulomb."
+          "uitleg": "Uit \\(E=\\tfrac{F}{q}\\) volgt \\(F=E\\cdot q=200\\cdot 3\\cdot 10^{-3}=0{,}6\\ \\text{N}\\). Wie de millicoulomb vergeet om te zetten komt op \\(600\\ \\text{N}\\) uit."
         },
         {
           "type": "meerkeuze",
-          "vraag": "Op een lading van 5 µC werkt in een punt een kracht van 0,1 N. Hoe groot is de veldsterkte daar?",
+          "vraag": "Op \\(q=5\\ \\mu\\text{C}\\) werkt in een punt een kracht \\(F=0{,}1\\ \\text{N}\\). Hoe groot is \\(E\\)?",
           "opties": [
-            "20 000 N/C",
-            "0,5 N/C",
-            "500 N/C",
-            "50 000 N/C"
+            "\\(2{,}0\\cdot 10^{4}\\ \\text{N/C}\\)",
+            "\\(0{,}5\\ \\text{N/C}\\)",
+            "\\(5{,}0\\cdot 10^{2}\\ \\text{N/C}\\)",
+            "\\(5{,}0\\cdot 10^{4}\\ \\text{N/C}\\)"
           ],
           "antwoord": 0,
-          "uitleg": "Deel de kracht door de lading: 0,1 gedeeld door 5·10⁻⁶ is 2·10⁴ newton per coulomb."
+          "uitleg": "\\(E=\\dfrac{F}{q}=\\dfrac{0{,}1}{5\\cdot 10^{-6}}=2{,}0\\cdot 10^{4}\\ \\text{N/C}\\)."
         },
         {
           "type": "waarofniet",
-          "vraag": "In een homogeen veld is de kracht op een lading overal even groot.",
+          "vraag": "In een homogeen veld is \\(F\\) op een gegeven lading overal even groot.",
           "antwoord": true,
-          "uitleg": "Homogeen betekent dat de veldsterkte overal dezelfde is, en de kracht volgt daaruit. In een radiaal veld hangt ze wel af van waar je zit."
+          "uitleg": "Homogeen betekent dat \\(E\\) overal dezelfde is, en \\(F=E\\cdot q\\) volgt daaruit. In een radiaal veld hangt \\(E\\) wel af van waar je zit."
         },
         {
           "type": "meerkeuze",
@@ -839,15 +839,15 @@
         },
         {
           "type": "meerkeuze",
-          "vraag": "Waarom is een auto een veilige plaats bij onweer?",
+          "vraag": "Hoe groot is \\(E\\) op \\(r=0{,}10\\ \\text{m}\\) van een puntlading \\(q=5{,}0\\ \\text{nC}\\)? Neem \\(k=8{,}99\\cdot 10^{9}\\ \\text{N}\\,\\text{m}^{2}\\text{/C}^{2}\\).",
           "opties": [
-            "het metalen koetswerk leidt de lading rond de inzittenden",
-            "de rubberen banden houden de bliksem volledig tegen",
-            "de lucht in de auto geleidt de lading niet verder",
-            "het glas van de ruiten weerkaatst de blikseminslag"
+            "\\(4{,}5\\cdot 10^{3}\\ \\text{N/C}\\)",
+            "\\(4{,}5\\cdot 10^{2}\\ \\text{N/C}\\)",
+            "\\(4{,}5\\cdot 10^{4}\\ \\text{N/C}\\)",
+            "\\(45\\ \\text{N/C}\\)"
           ],
           "antwoord": 0,
-          "uitleg": "De auto werkt als een kooi van Faraday: de lading blijft op de buitenkant en binnenin is er geen veld. De banden hebben er weinig mee te maken."
+          "uitleg": "\\(E=k\\dfrac{|q|}{r^{2}}=8{,}99\\cdot 10^{9}\\cdot\\dfrac{5{,}0\\cdot 10^{-9}}{0{,}10^{2}}=\\dfrac{45}{0{,}010}\\approx 4{,}5\\cdot 10^{3}\\ \\text{N/C}\\). Wie \\(r\\) niet kwadrateert komt op \\(4{,}5\\cdot 10^{2}\\ \\text{N/C}\\) uit."
         },
         {
           "type": "waarofniet",
@@ -861,14 +861,15 @@
           "opties": [
             "het radiale veld rond een puntlading",
             "het homogene veld tussen twee platen",
-            "het spiraalveld rond een draaiende lading",
-            "het golvende veld tussen drie gelijke ladingen"
+            "het dipoolveld tussen twee ongelijknamige ladingen",
+            "het spiraalveld rond een draaiende lading"
           ],
           "antwoord": [
             0,
-            1
+            1,
+            2
           ],
-          "uitleg": "Het derde patroon is het dipoolveld tussen twee ongelijknamige ladingen. Een spiraal- of golfveld bestaat in dit verband niet."
+          "uitleg": "Dat zijn de drie patronen die je moet kennen. Een spiraalveld bestaat in dit verband niet; een spiraal hoort bij het magnetisch veld rond een spoel."
         },
         {
           "type": "meerkeuze",
@@ -888,19 +889,19 @@
         },
         {
           "type": "waarofniet",
-          "vraag": "De veldsterkte tussen twee geladen platen wordt kleiner naarmate je dichter bij de positieve plaat komt.",
+          "vraag": "\\(E\\) tussen twee geladen platen wordt kleiner naarmate je dichter bij de positieve plaat komt.",
           "antwoord": false,
-          "uitleg": "Tussen twee platen is het veld homogeen, dus overal even sterk. Alleen bij een puntlading of een bol hangt de sterkte van de afstand af."
+          "uitleg": "Tussen twee platen is het veld homogeen, dus \\(E\\) is overal even groot. Alleen bij een puntlading of een bol hangt \\(E\\) van \\(r\\) af."
         },
         {
           "type": "invultekst",
-          "vraag": "Met welk symbool schrijf je de elektrische veldsterkte?",
+          "vraag": "Met welk symbool schrijf je de elektrische veldsterkte? Schrijf de letter.",
           "antwoord": [
             "E",
             "de E",
             "E-vector"
           ],
-          "uitleg": "De elektrische kracht schrijf je met F. In de formule E is gelijk aan F gedeeld door Q zie je meteen hoe de twee samenhangen."
+          "uitleg": "De kracht schrijf je met \\(F\\) en de lading met \\(q\\). In \\(E=\\dfrac{F}{q}\\) zie je meteen hoe de drie samenhangen."
         }
       ]
     },

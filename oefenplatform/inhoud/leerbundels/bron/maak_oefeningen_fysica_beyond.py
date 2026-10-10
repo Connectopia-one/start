@@ -165,57 +165,104 @@ OEFENBUNDELS["oefenbundel-de-wet-van-coulomb-en-het-elektrisch-veld-beyond"] = d
     hoe=HOE,
     reeksen=[
         dict(kop="Hoeveel keer groter of kleiner",
-             opdracht="De kracht was 12 N. Schrijf de nieuwe kracht.",
+             opdracht=r"De kracht was \(12\ \text{N}\). Schrijf de nieuwe kracht.",
              oefeningen=[
-                 ("rij", [("de afstand verdubbelt", "3 N"), ("de afstand halveert", "48 N"),
-                          ("de afstand wordt drie keer groter", "1,33 N")],
+                 ("rij", [(r"\(r\) wordt \(2r\)", r"\(3\ \text{N}\)"),
+                          (r"\(r\) wordt \(\tfrac{r}{2}\)", r"\(48\ \text{N}\)"),
+                          (r"\(r\) wordt \(3r\)", r"\(1{,}3\ \text{N}\)")],
                   "Welke kracht nu?", WW),
-                 ("rij", [("één lading verdubbelt", "24 N"), ("beide ladingen verdubbelen", "48 N"),
-                          ("één lading wordt drie keer kleiner", "4 N")],
+                 ("rij", [(r"\(q_{1}\) wordt \(2q_{1}\)", r"\(24\ \text{N}\)"),
+                          ("beide ladingen verdubbelen", r"\(48\ \text{N}\)"),
+                          (r"\(q_{1}\) wordt \(\tfrac{q_{1}}{3}\)", r"\(4\ \text{N}\)")],
                   "Welke kracht nu?", WW),
-                 ("open", "Leg uit waarom het halveren van de afstand de kracht vier keer zo groot maakt.",
-                  "De afstand staat in het kwadraat in de noemer. Halveren betekent delen door twee, "
-                  "en het kwadraat daarvan is delen door vier; een deling door een vierde is een "
-                  "vermenigvuldiging met vier.", 5),
+                 ("open", r"Leg uit waarom \(r\) halveren de kracht vier keer zo groot maakt.",
+                  r"\(r\) staat in het kwadraat in de noemer: halveren geeft "
+                  r"\(\left(\tfrac{r}{2}\right)^{2}=\tfrac{r^{2}}{4}\), dus maal vier.", 5),
+             ]),
+        dict(kop="Rekenen met de wet van Coulomb",
+             opdracht=r"Neem \(k=8{,}99\cdot 10^{9}\ \text{N}\,\text{m}^{2}\text{/C}^{2}\). Schrijf eerst de formule op, zet de ladingen in coulomb en kwadrateer \(r\).",
+             oefeningen=[
+                 ("open", r"Bereken \(F\) tussen \(q_{1}=4{,}0\ \mu\text{C}\) en \(q_{2}=-6{,}0\ \mu\text{C}\) "
+                  r"op \(r=0{,}20\ \text{m}\). Trekken ze aan of stoten ze af?",
+                  r"Invullen geeft \[F=8{,}99\cdot 10^{9}\cdot"
+                  r"\dfrac{4{,}0\cdot 10^{-6}\cdot 6{,}0\cdot 10^{-6}}{0{,}20^{2}}\approx 5{,}4\ \text{N}\] "
+                  r"De ladingen zijn ongelijknamig, dus trekken ze elkaar aan.", 5),
+                 ("open", r"Twee even grote ladingen \(q\) op \(r=0{,}50\ \text{m}\) stoten elkaar af met "
+                  r"\(F=9{,}0\cdot 10^{-3}\ \text{N}\). Hoe groot is \(q\)?",
+                  r"Vorm om: \[q^{2}=\dfrac{F\cdot r^{2}}{k}=\dfrac{9{,}0\cdot 10^{-3}\cdot 0{,}25}"
+                  r"{8{,}99\cdot 10^{9}}\approx 2{,}50\cdot 10^{-13}\] Dus "
+                  r"\(q\approx 5{,}0\cdot 10^{-7}\ \text{C}=0{,}50\ \mu\text{C}\). Ze stoten af, dus zijn "
+                  r"ze gelijknamig; het teken zelf volgt hier niet uit.", 5),
+                 ("open", r"Op \(r=0{,}30\ \text{m}\) van \(q=-2{,}0\ \mu\text{C}\): bereken \(E\) en zeg welke kant "
+                  r"\(\vec{E}\) op wijst.",
+                  r"Met \(E=k\dfrac{|q|}{r^{2}}\): \[E=8{,}99\cdot 10^{9}\cdot"
+                  r"\dfrac{2{,}0\cdot 10^{-6}}{0{,}090}\approx 2{,}0\cdot 10^{5}\ \text{N/C}\] "
+                  r"De lading is negatief, dus \(\vec{E}\) wijst naar de lading toe.", 5),
+             ]),
+        dict(kop="Twee ladingen tegelijk",
+             opdracht="Teken eerst de twee krachtpijlen, en reken dan pas.",
+             oefeningen=[
+                 ("open", r"\(q_{1}=+3{,}0\ \mu\text{C}\) staat in \(x=0\) en \(q_{2}=+3{,}0\ \mu\text{C}\) in "
+                  r"\(x=0{,}40\ \text{m}\). Bereken de resulterende kracht op \(q_{3}=+1{,}0\ \mu\text{C}\) in "
+                  r"\(x=0{,}10\ \text{m}\).",
+                  r"Van \(q_{1}\), op \(0{,}10\ \text{m}\): \(F_{1}=8{,}99\cdot 10^{9}\cdot"
+                  r"\dfrac{3{,}0\cdot 10^{-12}}{0{,}010}\approx 2{,}70\ \text{N}\) naar rechts. "
+                  r"Van \(q_{2}\), op \(0{,}30\ \text{m}\): \(F_{2}\approx 0{,}30\ \text{N}\) naar links. "
+                  r"Ze liggen op één lijn, dus \(F=2{,}70-0{,}30\approx 2{,}4\ \text{N}\) naar rechts.", 8),
+                 ("open", r"Twee positieve ladingen \(q\) en \(4q\) staan op afstand \(d\). Op welke plaats tussen "
+                  r"de twee is \(E=0\)? Reken het uit in functie van \(d\).",
+                  r"Noem \(x\) de afstand tot \(q\). Dan is "
+                  r"\(k\dfrac{q}{x^{2}}=k\dfrac{4q}{(d-x)^{2}}\), dus \((d-x)^{2}=4x^{2}\) en \(d-x=2x\). "
+                  r"Daaruit volgt \(x=\tfrac{d}{3}\), dus dicht bij de kleinste lading.", 8),
+                 ("kies", r"Twee ladingen staan in twee hoekpunten van een vierkant. Waarom tel je de krachten op een derde lading niet gewoon op?",
+                  [r"omdat \(\vec{F}_{1}\) en \(\vec{F}_{2}\) een andere richting hebben",
+                   "omdat de twee krachten altijd even groot zijn",
+                   "omdat de afstand tot beide ladingen dezelfde is",
+                   "omdat ladingen in een vierkant niet op elkaar inwerken"], 0),
              ]),
         dict(kop="De veldsterkte",
-             opdracht="Reken uit met F = E · q.",
+             opdracht=r"Reken uit met \(E=\dfrac{F}{q}\).",
              oefeningen=[
-                 ("kort", "De veldsterkte is 400 N/C. Welke kracht werkt op een lading van 2 mC?",
-                  "0,8 N, want 400 · 0,002.", W),
-                 ("kort", "Op een lading van 4 µC werkt een kracht van 0,2 N. Hoe groot is E?",
-                  "50 000 N/C, want 0,2 gedeeld door 4 · 10⁻⁶.", W),
-                 ("kort", "In welke eenheid staat de elektrische veldsterkte?",
-                  "newton per coulomb, N/C.", WW),
+                 ("kort", r"\(E=400\ \text{N/C}\). Welke kracht werkt op \(q=2\ \text{mC}\)?",
+                  r"\(F=400\cdot 2\cdot 10^{-3}=0{,}8\ \text{N}\)", WW),
+                 ("kort", r"Op \(q=4\ \mu\text{C}\) werkt \(F=0{,}2\ \text{N}\). Hoe groot is \(E\)?",
+                  r"\(E=\dfrac{0{,}2}{4\cdot 10^{-6}}=5{,}0\cdot 10^{4}\ \text{N/C}\)", WW),
+                 ("kort", r"In welke eenheid staat \(E\)? Geef beide schrijfwijzen.",
+                  r"\(\text{N/C}\), en dat is hetzelfde als \(\text{V/m}\)", WW),
              ]),
         dict(kop="Veldlijnen",
              opdracht="Antwoord kort.",
              oefeningen=[
                  ("rij", [("rond één positieve puntlading", "een radiaal veld"),
-                          ("tussen twee geladen platen", "een homogeen veld")],
+                          ("tussen twee geladen platen", "een homogeen veld"),
+                          ("tussen een positieve en een negatieve lading", "een dipoolveld")],
                   "Welk patroon?", WL),
                  ("waar", "Veldlijnen kunnen elkaar snijden als de ladingen groot genoeg zijn.", False),
                  ("waar", "Veldlijnen lopen van de positieve naar de negatieve lading.", True),
                  ("waar", "Dicht bij elkaar liggende veldlijnen betekenen een sterk veld.", True),
-                 ("waar", "In een homogeen veld is de kracht op een lading overal even groot.", True),
+                 ("waar", r"In een homogeen veld is \(F\) op een gegeven lading overal even groot.", True),
+                 ("waar", r"Binnen in een geladen holle geleider geldt \(E=0\).", True),
              ]),
         dict(kop="Uitleggen",
              opdracht="Antwoord in volle zinnen.",
              oefeningen=[
                  ("open", "Waarom is een vliegtuig een veilige plaats bij bliksem?",
-                  "Het metalen omhulsel werkt als een kooi van Faraday: de lading blijft op het "
-                  "buitenoppervlak en binnen is er geen veld, dus de inzittenden merken er niets van.", 5),
+                  r"Het metalen omhulsel werkt als een kooi van Faraday: de lading blijft aan de "
+                  r"buitenkant en binnenin is \(E=0\).", 5),
                  ("open", "Drie gelijke positieve ladingen staan op één rechte, op gelijke afstand. Welke kracht voelt de middelste? Leg uit.",
-                  "Geen enkele. De twee buitenste oefenen elk een kracht uit die even groot is en "
-                  "tegengesteld van zin, dus heffen de twee krachten elkaar precies op.", 5),
+                  r"Geen enkele, \(\vec{F}=\vec{0}\): de twee buitenste trekken even hard en in "
+                  r"tegengestelde zin.", 5),
                  ("open", "De wet van Coulomb en de gravitatiewet lijken sterk op elkaar. Noem één gelijkenis en één verschil.",
-                  "Gelijkenis: beide hebben het product van de twee grootheden in de teller en het "
-                  "kwadraat van de afstand in de noemer. Verschil: gravitatie trekt altijd aan, de "
-                  "coulombkracht kan ook afstoten.", 6),
+                  r"Gelijkenis: \(F=k\,\dfrac{|q_{1}q_{2}|}{r^{2}}\) en \(F=G\,\dfrac{m_{1}m_{2}}{r^{2}}\) "
+                  r"hebben allebei \(r^{2}\) onder. Verschil: gravitatie trekt altijd aan, de "
+                  r"coulombkracht kan ook afstoten.", 5),
+                 ("open", r"Een leerling berekent \(F\) tussen twee ladingen van \(3\ \mu\text{C}\) op "
+                  r"\(20\ \text{cm}\) en krijgt \(4{,}0\cdot 10^{-3}\ \text{N}\). Zoek zijn twee fouten.",
+                  r"Hij rekende in cm in plaats van in m, en kwadrateerde \(r\) niet: "
+                  r"\(F\approx 2{,}0\ \text{N}\).", 5),
              ]),
     ],
 )
-
 # ============================================================
 OEFENBUNDELS["oefenbundel-elektrische-energie-potentiaal-en-spanning-beyond"] = dict(
     vak=VAK, niveau=BEYOND, titel="Elektrische energie, potentiaal en spanning",

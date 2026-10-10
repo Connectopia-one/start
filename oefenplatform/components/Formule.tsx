@@ -69,7 +69,14 @@ export function Formule({
         ) : (
           <span
             key={i}
-            className={stuk.blok ? "my-2 block overflow-x-auto" : className}
+            /* Een lange formule mag de pagina niet breder maken dan het
+               scherm: op een gsm is dat meteen een horizontale schuifbalk
+               over de hele pagina. Ze krijgt dus haar eigen schuifruimte. */
+            className={
+              stuk.blok
+                ? "my-2 block overflow-x-auto"
+                : `inline-block max-w-full overflow-x-auto align-bottom${className ? " " + className : ""}`
+            }
             /* De html komt van KaTeX zelf, uit de latex hierboven; de gewone
                tekst eromheen gaat door React en wordt dus ontsmet. */
             dangerouslySetInnerHTML={{ __html: teken(stuk.latex, stuk.blok) }}

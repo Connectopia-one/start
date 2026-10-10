@@ -208,120 +208,150 @@ BUNDELS["de-wet-van-coulomb-en-het-elektrisch-veld-beyond"] = dict(
     onder="Hoe sterk twee ladingen aan elkaar trekken, en hoe je dat als een veld beschrijft.",
     secties=[
         dict(kop="Een kracht die op afstand werkt", blokken=[
-            ("p", "De elektrische kracht is een <strong>veldkracht</strong>: ze "
-                  "<strong>werkt op afstand, zonder dat er contact nodig is</strong>. Een "
-                  "<strong>puntlading</strong> is daarbij een lading <strong>die zo klein is dat je "
-                  "ze als één punt mag beschouwen</strong>."),
-            ("p", "De kracht tussen twee puntladingen heet de <strong>coulombkracht</strong>, naar "
-                  "de man die ze beschreef. <strong>Gelijksoortige ladingen stoten elkaar af</strong> "
-                  "en <strong>ongelijksoortige trekken elkaar aan</strong>. Twee ladingen die elkaar "
-                  "afstoten, <strong>hoeven niet allebei positief te zijn</strong>: twee negatieve "
-                  "ladingen stoten elkaar even goed af. Kracht wordt uitgedrukt in "
-                  "<strong>newton</strong>."),
-            ("p", "De kracht die lading A op lading B uitoefent, is "
-                  "<strong>even groot als die van B op A</strong>, maar tegengesteld van zin. Dat is "
-                  "de derde wet van Newton, ook hier."),
-            ("p", "Een <strong>neutraal voorwerp</strong> wordt toch <strong>aangetrokken</strong> "
-                  "door een geladen <strong>staaf</strong> omdat "
-                  "<strong>de dichtste kant tegengesteld geladen is en dus harder trekt</strong>. De "
-                  "staaf verschuift de ladingen in het voorwerp; de aantrekking van de nabije kant "
-                  "weegt zwaarder dan de afstoting van de verre kant, want de kracht daalt met het "
-                  "kwadraat van de afstand."),
+            ("p", r"De elektrische kracht is een <strong>veldkracht</strong>: ze "
+                  r"<strong>werkt op afstand, zonder dat er contact nodig is</strong>. Een "
+                  r"<strong>puntlading</strong> is daarbij een lading <strong>die zo klein is dat je "
+                  r"ze als één punt mag beschouwen</strong>."),
+            ("p", r"De kracht tussen twee puntladingen heet de <strong>coulombkracht</strong>, naar "
+                  r"de man die ze beschreef. <strong>Gelijksoortige ladingen stoten elkaar af</strong> "
+                  r"en <strong>ongelijksoortige trekken elkaar aan</strong>. Twee ladingen die elkaar "
+                  r"afstoten, <strong>hoeven niet allebei positief te zijn</strong>: twee negatieve "
+                  r"ladingen stoten elkaar even goed af. Kracht wordt uitgedrukt in "
+                  r"<strong>newton</strong>, met symbool \(\text{N}\)."),
+            ("p", r"De kracht van lading A op lading B is <strong>even groot als die van B op "
+                  r"A</strong>, maar tegengesteld van zin: \(\vec{F}_{AB}=-\vec{F}_{BA}\). Dat is "
+                  r"de derde wet van Newton, ook hier, en ze geldt ook als de ene lading veel groter "
+                  r"is dan de andere."),
+            ("p", r"Een <strong>neutraal voorwerp</strong> wordt toch <strong>aangetrokken</strong> "
+                  r"door een geladen <strong>staaf</strong> omdat "
+                  r"<strong>de dichtste kant tegengesteld geladen is en dus harder trekt</strong>. De "
+                  r"staaf verschuift de ladingen in het voorwerp; omdat \(F\sim\tfrac{1}{r^{2}}\), "
+                  r"weegt de aantrekking van de nabije kant zwaarder dan de afstoting van de verre."),
         ]),
         dict(kop="De wet van Coulomb", blokken=[
-            ("p", "In de <strong>wet van Coulomb</strong> staan precies drie dingen: "
-                  "<strong>de grootte van de beide ladingen</strong> en "
-                  "<strong>de afstand tussen de twee ladingen</strong>. De kracht is "
-                  "<strong>recht evenredig met het product van de twee ladingen</strong> en "
-                  "<strong>omgekeerd evenredig met het kwadraat van de afstand r</strong>."),
-            ("p", "Rekenen met die verhoudingen gaat zo. Trekken twee puntladingen elkaar aan met "
-                  "<strong>8 N</strong> en <strong>verdubbel je de afstand</strong>, dan wordt de "
-                  "kracht vier keer zo klein: <strong>2 N</strong>. Stoten ze elkaar af met "
-                  "<strong>6 N</strong> en <strong>verdrievoudig je één van de twee ladingen</strong>, "
-                  "dan wordt de kracht drie keer zo groot: <strong>18 N</strong>. "
-                  "<strong>Verdubbel je beide ladingen</strong>, dan wordt de kracht "
-                  "<strong>vier keer zo groot</strong>."),
-            ("p", "De constante <strong>k</strong> in die wet "
-                  "<strong>hangt af van de stof tussen de twee ladingen</strong> en "
-                  "<strong>staat in de bijlage die je op het examen krijgt</strong>. Omdat water de "
-                  "ladingen afschermt, is <strong>de elektrische kracht tussen twee ladingen zwakker "
-                  "in water dan in lucht</strong>, niet sterker."),
-            ("p", "De <strong>wet van Coulomb en de gravitatiewet hebben dezelfde vorm</strong>: "
-                  "een product boven en een kwadraat van de afstand onder. Het verschil is dat de "
-                  "gravitatie altijd aantrekt en de coulombkracht ook kan afstoten."),
+            ("p", r"In de <strong>wet van Coulomb</strong> staan precies drie dingen: "
+                  r"<strong>de grootte van \(q_{1}\) en \(q_{2}\)</strong> en "
+                  r"<strong>de afstand \(r\) ertussen</strong>."),
+            ("p", r"\[F = k\,\frac{|q_{1}\cdot q_{2}|}{r^{2}}\]"),
+            ("p", r"De kracht is dus <strong>recht evenredig met het product van de twee "
+                  r"ladingen</strong> en <strong>omgekeerd evenredig met \(r^{2}\)</strong>. Massa en "
+                  r"temperatuur komen er niet in voor."),
+            ("p", r"Een voorbeeld met getallen, met "
+                  r"\(k=8{,}99\cdot 10^{9}\ \text{N}\,\text{m}^{2}\text{/C}^{2}\). Neem "
+                  r"\(q_{1}=2{,}0\ \mu\text{C}\), \(q_{2}=3{,}0\ \mu\text{C}\) en "
+                  r"\(r=0{,}30\ \text{m}\):"),
+            ("p", r"\[F = 8{,}99\cdot 10^{9}\cdot\frac{2{,}0\cdot 10^{-6}\cdot 3{,}0\cdot 10^{-6}}"
+                  r"{0{,}30^{2}} = \frac{5{,}39\cdot 10^{-2}}{0{,}090}\approx 0{,}60\ \text{N}\]"),
+            ("p", r"Zet de ladingen altijd eerst in coulomb en vergeet \(r\) niet te kwadrateren. "
+                  r"Dat zijn de twee fouten die het vaakst gemaakt worden."),
+            ("p", r"Vaak moet je niet rekenen maar redeneren met verhoudingen:"),
+            ("p", tabel(["Wat verandert er?", "Wat doet \\(F\\)?", "Waarom"], [
+                [r"\(r\) wordt \(2r\)", r"\(\tfrac{1}{4}\) zo groot", r"\(F\sim\tfrac{1}{r^{2}}\)"],
+                [r"\(q_{1}\) wordt \(3q_{1}\)", r"\(3\) keer zo groot", r"\(q_{1}\) staat in de teller"],
+                [r"beide ladingen verdubbelen", r"\(4\) keer zo groot", r"\(2\cdot 2=4\)"],
+                [r"\(r\) wordt \(\tfrac{r}{2}\)", r"\(4\) keer zo groot", r"halve afstand, kwadraat eronder"],
+            ])),
+            ("p", r"Trekken twee puntladingen elkaar dus aan met \(F=8{,}0\ \text{N}\) en verdubbel "
+                  r"je \(r\), dan blijft er \(2{,}0\ \text{N}\) over. Stoten ze elkaar af met "
+                  r"\(F=6{,}0\ \text{N}\) en vervang je \(q_{1}\) door \(3q_{1}\), dan wordt het "
+                  r"\(18\ \text{N}\)."),
+            ("p", r"De constante <strong>\(k\)</strong> <strong>hangt af van de stof tussen de twee "
+                  r"ladingen</strong> en <strong>staat in de bijlage die je op het examen "
+                  r"krijgt</strong>. Omdat water de ladingen afschermt, is <strong>de elektrische "
+                  r"kracht tussen twee ladingen zwakker in water dan in lucht</strong>, niet sterker."),
+            ("kader", r"De <strong>wet van Coulomb en de gravitatiewet hebben dezelfde vorm</strong>: "
+                      r"\(F=k\,\dfrac{|q_{1}q_{2}|}{r^{2}}\) naast "
+                      r"\(F=G\,\dfrac{m_{1}m_{2}}{r^{2}}\). Een product boven, een kwadraat van de "
+                      r"afstand onder. Het verschil is dat de gravitatie altijd aantrekt en de "
+                      r"coulombkracht ook kan afstoten."),
         ]),
         dict(kop="Meer dan één lading: optellen als vectoren", blokken=[
-            ("p", "De <strong>resulterende kracht op een lading die door twee andere ladingen "
-                  "beïnvloed wordt</strong>, vind je door <strong>de twee krachten op te tellen als "
-                  "vectoren</strong>. Daarom reken je bij twee ladingen in twee hoekpunten van een "
-                  "vierkant <strong>de kracht op een derde lading niet zomaar op door op te "
-                  "tellen</strong>: <strong>de twee krachten wijzen in een andere richting</strong>."),
-            ("p", "Staan <strong>drie gelijke positieve ladingen op één rechte lijn, op gelijke "
-                  "afstand van elkaar</strong>, dan voelt de middelste <strong>geen enkele "
-                  "kracht</strong>, want <strong>de twee krachten heffen elkaar op</strong>: ze zijn "
-                  "even groot en tegengesteld van zin."),
-            ("p", "De kracht van een <strong>geladen bol</strong> op een puntlading is het grootst "
-                  "<strong>vlak bij het oppervlak van de bol</strong>, want daar is de afstand tot "
-                  "de lading het kleinst."),
+            ("p", r"De <strong>resulterende kracht op een lading die door twee andere ladingen "
+                  r"beïnvloed wordt</strong>, vind je door <strong>de twee krachten op te tellen als "
+                  r"vectoren</strong>: \(\vec{F}=\vec{F}_{1}+\vec{F}_{2}\). Daarom reken je bij twee "
+                  r"ladingen in twee hoekpunten van een vierkant <strong>de kracht op een derde "
+                  r"lading niet zomaar op door op te tellen</strong>: <strong>de twee krachten "
+                  r"wijzen in een andere richting</strong>. Alleen als ze op één lijn liggen, "
+                  r"volstaat optellen of aftrekken."),
+            ("p", r"Staan <strong>drie gelijke positieve ladingen op één rechte lijn, op gelijke "
+                  r"afstand van elkaar</strong>, dan voelt de middelste <strong>geen enkele "
+                  r"kracht</strong>, want <strong>de twee krachten heffen elkaar op</strong>: ze zijn "
+                  r"even groot en tegengesteld van zin, dus \(\vec{F}=\vec{0}\)."),
+            ("p", r"De kracht van een <strong>geladen bol</strong> op een puntlading is het grootst "
+                  r"<strong>vlak bij het oppervlak van de bol</strong>. Buiten de bol werkt ze alsof "
+                  r"alle lading in het middelpunt zat, dus geldt \(F\sim\tfrac{1}{r^{2}}\) gewoon "
+                  r"verder."),
         ]),
         dict(kop="De elektrische veldsterkte", blokken=[
-            ("p", "De <strong>elektrische veldsterkte in een punt</strong> is "
-                  "<strong>de kracht per eenheid van lading in dat punt</strong>. Ze krijgt het "
-                  "symbool <strong>E</strong> en staat in <strong>N/C</strong>, newton per coulomb. "
-                  "Je berekent de kracht dus als F = E · q."),
-            ("p", "Twee rekenvoorbeelden. Is de veldsterkte in een punt <strong>200 N/C</strong>, "
-                  "dan werkt op een lading van <strong>3 mC</strong> een kracht van "
-                  "<strong>0,6 N</strong>. Werkt op een lading van <strong>5 µC</strong> in een punt "
-                  "een kracht van <strong>0,1 N</strong>, dan is de veldsterkte daar "
-                  "<strong>20 000 N/C</strong>."),
-            ("p", "Het veld <strong>van een puntlading neemt af met het kwadraat van de "
-                  "afstand</strong> en <strong>hangt niet af van de proeflading die je erin "
-                  "zet</strong>: het veld hoort bij de lading die het maakt. Zit een "
-                  "<strong>positieve lading in een punt waar het veld naar rechts wijst</strong>, "
-                  "dan werkt de kracht ook <strong>naar rechts, in de zin van het veld</strong>; op "
-                  "een negatieve lading werkt ze er tegenin."),
+            ("p", r"De <strong>elektrische veldsterkte in een punt</strong> is "
+                  r"<strong>de kracht per eenheid van lading in dat punt</strong>. Ze krijgt het "
+                  r"symbool <strong>\(E\)</strong>:"),
+            ("p", r"\[E = \frac{F}{q}\qquad\text{in}\qquad \text{N/C} = \text{V/m}\]"),
+            ("p", r"Daaruit volgt meteen \(F=E\cdot q\). Twee rekenvoorbeelden. Is "
+                  r"\(E=200\ \text{N/C}\), dan werkt op \(q=3\ \text{mC}\) een kracht "
+                  r"\(F=200\cdot 3\cdot 10^{-3}=0{,}6\ \text{N}\). Werkt op \(q=5\ \mu\text{C}\) een "
+                  r"kracht \(F=0{,}1\ \text{N}\), dan is "
+                  r"\(E=\dfrac{0{,}1}{5\cdot 10^{-6}}=2{,}0\cdot 10^{4}\ \text{N/C}\)."),
+            ("p", r"Rond één puntlading kan je \(E\) ook rechtstreeks berekenen, door in de wet van "
+                  r"Coulomb de proeflading weg te delen:"),
+            ("p", r"\[E = k\,\frac{|q|}{r^{2}}\]"),
+            ("p", r"Op \(r=0{,}10\ \text{m}\) van \(q=5{,}0\ \text{nC}\) geeft dat "
+                  r"\(E=8{,}99\cdot 10^{9}\cdot\dfrac{5{,}0\cdot 10^{-9}}{0{,}10^{2}}"
+                  r"\approx 4{,}5\cdot 10^{3}\ \text{N/C}\)."),
+            ("p", r"Het veld <strong>van een puntlading neemt af met het kwadraat van de "
+                  r"afstand</strong> en <strong>hangt niet af van de proeflading die je erin "
+                  r"zet</strong>: het veld hoort bij de lading die het maakt. Zit een "
+                  r"<strong>positieve lading in een punt waar \(\vec{E}\) naar rechts wijst</strong>, "
+                  r"dan werkt de kracht ook <strong>naar rechts, in de zin van het veld</strong>; op "
+                  r"een negatieve lading werkt ze er tegenin."),
         ]),
         dict(kop="Veldlijnen en veldpatronen", blokken=[
-            ("p", "Een elektrisch veld in een punt stel je in een tekening voor "
-                  "<strong>met een pijl die de zin en de grootte van het veld aangeeft</strong>, en "
-                  "het hele veld met <strong>veldlijnen</strong>. De afspraak over hun zin: "
-                  "<strong>ze lopen weg van de positieve en naar de negatieve lading</strong>."),
-            ("p", "Drie regels over veldlijnen. <strong>Ze vertrekken bij een positieve lading en "
-                  "eindigen bij een negatieve.</strong> <strong>Ze snijden elkaar nooit</strong>, "
-                  "want in één punt kan het veld maar één zin hebben: "
-                  "<strong>twee veldlijnen kunnen elkaar dus niet kruisen</strong>. En "
-                  "<strong>hoe dichter de veldlijnen bij elkaar liggen, hoe sterker het veld daar "
-                  "is</strong>."),
-            ("p", "Twee patronen komen steeds terug. Rond <strong>één positieve puntlading</strong> "
-                  "krijg je een <strong>radiaal veld</strong>: <strong>rechte lijnen die stervormig "
-                  "naar buiten wijzen</strong>. Tussen <strong>twee evenwijdige, tegengesteld "
-                  "geladen platen</strong> krijg je een <strong>homogeen veld</strong>: daar is "
-                  "<strong>de veldsterkte overal dezelfde</strong>, zijn de "
-                  "<strong>veldlijnen recht en parallel</strong> en lopen ze "
-                  "<strong>van de positieve naar de negatieve plaat</strong>. Omdat zo'n veld overal "
-                  "even sterk is, <strong>wordt de veldsterkte niet kleiner naarmate je dichter bij "
-                  "de positieve plaat komt</strong>, en is <strong>de kracht op een lading er overal "
-                  "even groot</strong>. Tussen <strong>twee ongelijknamige puntladingen</strong> "
-                  "krijg je nog een derde patroon, het <strong>dipoolveld</strong>."),
+            ("p", r"Een elektrisch veld in een punt stel je in een tekening voor "
+                  r"<strong>met een pijl die de zin en de grootte van het veld aangeeft</strong>, en "
+                  r"het hele veld met <strong>veldlijnen</strong>. De afspraak over hun zin: "
+                  r"<strong>ze lopen weg van de positieve en naar de negatieve lading</strong>. Dat "
+                  r"is de zin van de kracht op een positieve proeflading."),
+            ("p", r"Drie regels over veldlijnen. <strong>Ze vertrekken bij een positieve lading en "
+                  r"eindigen bij een negatieve.</strong> <strong>Ze snijden elkaar nooit</strong>, "
+                  r"want in één punt kan het veld maar één zin hebben. En "
+                  r"<strong>hoe dichter de veldlijnen bij elkaar liggen, hoe sterker het veld daar "
+                  r"is</strong>."),
+            ("fig", svg.veldpatronen(),
+             "De patronen die je moet kunnen herkennen en tekenen."),
+            ("p", r"Rond <strong>één positieve puntlading</strong> krijg je een <strong>radiaal "
+                  r"veld</strong>: <strong>rechte lijnen die stervormig naar buiten wijzen</strong>. "
+                  r"Rond een negatieve lading wijst hetzelfde patroon naar binnen. Tussen "
+                  r"<strong>twee ongelijknamige puntladingen</strong> krijg je het "
+                  r"<strong>dipoolveld</strong>, in gebogen bogen van plus naar min."),
+            ("p", r"Tussen <strong>twee evenwijdige, tegengesteld geladen platen</strong> krijg je "
+                  r"een <strong>homogeen veld</strong>: daar is <strong>\(E\) overal "
+                  r"dezelfde</strong>, zijn de <strong>veldlijnen recht en parallel</strong> en lopen "
+                  r"ze <strong>van de positieve naar de negatieve plaat</strong>. Omdat zo'n veld "
+                  r"overal even sterk is, <strong>wordt \(E\) niet kleiner naarmate je dichter bij "
+                  r"de positieve plaat komt</strong>, en is <strong>de kracht op een lading er overal "
+                  r"even groot</strong>. Alleen aan de randen van de platen wijken de lijnen af."),
         ]),
         dict(kop="De kooi van Faraday", blokken=[
-            ("p", "<strong>Binnen in een geladen holle geleider is er geen veld</strong>, "
-                  "<strong>want de ladingen heffen elkaar daar op</strong>. Alle lading zit op het "
-                  "buitenoppervlak. Een metalen omhulsel dat de binnenkant zo tegen een elektrisch "
-                  "veld afschermt, heet een <strong>kooi van Faraday</strong>."),
-            ("p", "Daarom is <strong>een auto een veilige plaats bij onweer</strong>: "
-                  "<strong>het metalen koetswerk leidt de lading rond de inzittenden</strong> naar "
-                  "de grond. Hetzelfde principe zit in de afscherming van een gevoelige meetkabel."),
+            ("p", r"<strong>Binnen in een geladen holle geleider is er geen veld</strong>: "
+                  r"\(E=0\), <strong>want de ladingen heffen elkaar daar op</strong>. Alle lading "
+                  r"zit op het buitenoppervlak. Een metalen omhulsel dat de binnenkant zo tegen een "
+                  r"elektrisch veld afschermt, heet een <strong>kooi van Faraday</strong>."),
+            ("p", r"Daarom is <strong>een auto een veilige plaats bij onweer</strong>: het metalen "
+                  r"koetswerk leidt de lading rond de inzittenden naar de grond, en binnenin blijft "
+                  r"\(E=0\). De rubberen banden hebben er weinig mee te maken. Hetzelfde principe "
+                  r"zit in de afscherming van een gevoelige meetkabel."),
         ]),
     ],
     onthoud=[
-        "Coulomb: kracht ∝ product van de ladingen, ∝ 1/r².",
-        "Dubbele afstand is vier keer minder kracht.",
-        "Krachten van meerdere ladingen tel je op als vectoren.",
-        "Veldsterkte E is de kracht per eenheid van lading, in N/C.",
-        "Veldlijnen lopen van plus naar min en snijden elkaar nooit.",
-        "Radiaal rond een puntlading, homogeen tussen twee platen.",
-        "In een holle geleider is het veld nul: de kooi van Faraday.",
+        r"\(F = k\,\dfrac{|q_{1}q_{2}|}{r^{2}}\), met \(k\approx 8{,}99\cdot 10^{9}\ \text{N}\,\text{m}^{2}\text{/C}^{2}\) in lucht.",
+        r"\(F\sim\tfrac{1}{r^{2}}\): dubbele afstand is vier keer minder kracht.",
+        r"Zet de ladingen in coulomb en kwadrateer \(r\) voor je deelt.",
+        r"Krachten van meerdere ladingen tel je op als vectoren.",
+        r"\(E=\dfrac{F}{q}\), in \(\text{N/C}\), en dus \(F=E\cdot q\).",
+        r"Rond één puntlading geldt \(E=k\,\dfrac{|q|}{r^{2}}\).",
+        r"Veldlijnen lopen van plus naar min en snijden elkaar nooit.",
+        r"Radiaal rond een puntlading, dipool tussen twee, homogeen tussen twee platen.",
+        r"In een holle geleider is \(E=0\): de kooi van Faraday.",
     ],
 )
 

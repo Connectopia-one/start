@@ -229,9 +229,9 @@ def render(bundel):
     <h1>Antwoorden</h1>
     <p class="onder">Dit blad is voor wie meekijkt. Scheur het eraf voor je de bundel geeft.</p>
   </div>
-  <div class="antwlijst">{"".join(antwoordblokken)}</div>
   <p class="nakijken">Een fout antwoord is het interessantste stuk van de bundel: vraag hoe je
   kind eraan kwam voor je zegt wat juist is. Vaak zit de vergissing één stap eerder dan je denkt.</p>
+  <div class="antwlijst">{"".join(antwoordblokken)}</div>
 </div>
 
 <div class="voet">

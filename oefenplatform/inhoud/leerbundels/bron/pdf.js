@@ -47,6 +47,68 @@ const KATEX = path.join(__dirname, "..", "..", "..", "node_modules", "katex", "d
           strict: false,
         });
       });
+
+      /*
+        Een formule mag nooit breder worden dan de kolom waarin ze staat.
+        Op het antwoordblad staan twee smalle kolommen naast elkaar, en een
+        te brede formule schoof daar gewoon over de buurkolom heen. Omdat
+        .katex op nowrap staat (een formule mag niet middenin afbreken),
+        lost afbreken dat niet op: wat te breed is, wordt hier kleiner
+        gezet. Tot 60 procent; blijft ze dan nog te breed, dan is de opgave
+        zelf te lang en moet ze korter geschreven worden.
+      */
+      /*
+        Meten moet op de breedte van een blad gebeuren, niet op die van het
+        browservenster. Dat venster is standaard 1280 px breed; daar paste
+        elke formule, dus werd er niets verkleind, en p.pdf() zette de
+        bladzijde daarna zelf opnieuw op A4, waar ze alsnog over de
+        buurkolom schoof. 688 px is 182 mm bij 96 dpi: A4 min de marges van
+        @page in stijl.css.
+      */
+      await p.emulateMedia({ media: "print" });
+      await p.setViewportSize({ width: 688, height: 1123 });
+
+      await p.evaluate(() => {
+        for (const el of document.querySelectorAll(".katex")) {
+          let ouder = el.parentElement;
+          while (ouder && !ouder.clientWidth) ouder = ouder.parentElement;
+          if (!ouder) continue;
+          const ruimte = ouder.clientWidth;
+          /*
+            De hoogte van de doos opmeten helpt niet. Een formule op haar
+            eigen regel krijgt van KaTeX een blok dat precies zo breed is
+            als de kolom, en elk element daarbinnen ook; wat eruit steekt
+            zijn de letters zelf. Daarom wordt hier gemeten waar de inhoud
+            staat en niet waar de doos eindigt. Enkel binnen .katex-html:
+            daarnaast zet KaTeX dezelfde formule nog eens in MathML, voor
+            wie voorleessoftware gebruikt, en die telt anders mee.
+          */
+          const bereik = document.createRange();
+          bereik.selectNodeContents(el.querySelector(".katex-html") || el);
+          let links = Infinity;
+          let rechts = -Infinity;
+          for (const vak of bereik.getClientRects()) {
+            links = Math.min(links, vak.left);
+            rechts = Math.max(rechts, vak.right);
+          }
+          const breed = Math.max(
+            el.getBoundingClientRect().width,
+            rechts > links ? rechts - links : 0,
+          );
+          if (breed > ruimte && ruimte > 0) {
+            /*
+              In pixels en niet in procent. Een formule op haar eigen regel
+              staat bij KaTeX al op 1,21 em; zet je daar een percentage
+              overheen, dan gooi je die 1,21 weg en wordt ze veel kleiner
+              dan nodig.
+            */
+            const nu = parseFloat(getComputedStyle(el).fontSize);
+            el.style.display = "inline-block";
+            el.style.fontSize =
+              Math.max(nu * 0.6, nu * (ruimte / breed) * 0.97) + "px";
+          }
+        }
+      });
     } else {
       console.warn(
         `  ! ${naam} bevat formules maar KaTeX staat niet in ${KATEX}.` +
@@ -61,6 +123,7 @@ const KATEX = path.join(__dirname, "..", "..", "..", "node_modules", "katex", "d
     format: "A4",
     printBackground: true,
   });
+  await p.emulateMedia({ media: "screen" });
   await p.setViewportSize({ width: 794, height: 1123 });
   await p.screenshot({ path: path.join(__dirname, naam + "-p1.png") });
   await b.close();

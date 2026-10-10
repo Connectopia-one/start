@@ -12,15 +12,15 @@
     },
     {
      "soort": "tekst",
-     "html": "De kracht tussen twee puntladingen heet de <strong>coulombkracht</strong>, naar de man die ze beschreef. <strong>Gelijksoortige ladingen stoten elkaar af</strong> en <strong>ongelijksoortige trekken elkaar aan</strong>. Twee ladingen die elkaar afstoten, <strong>hoeven niet allebei positief te zijn</strong>: twee negatieve ladingen stoten elkaar even goed af. Kracht wordt uitgedrukt in <strong>newton</strong>."
+     "html": "De kracht tussen twee puntladingen heet de <strong>coulombkracht</strong>, naar de man die ze beschreef. <strong>Gelijksoortige ladingen stoten elkaar af</strong> en <strong>ongelijksoortige trekken elkaar aan</strong>. Twee ladingen die elkaar afstoten, <strong>hoeven niet allebei positief te zijn</strong>: twee negatieve ladingen stoten elkaar even goed af. Kracht wordt uitgedrukt in <strong>newton</strong>, met symbool \\(\\text{N}\\)."
     },
     {
      "soort": "tekst",
-     "html": "De kracht die lading A op lading B uitoefent, is <strong>even groot als die van B op A</strong>, maar tegengesteld van zin. Dat is de derde wet van Newton, ook hier."
+     "html": "De kracht van lading A op lading B is <strong>even groot als die van B op A</strong>, maar tegengesteld van zin: \\(\\vec{F}_{AB}=-\\vec{F}_{BA}\\). Dat is de derde wet van Newton, ook hier, en ze geldt ook als de ene lading veel groter is dan de andere."
     },
     {
      "soort": "tekst",
-     "html": "Een <strong>neutraal voorwerp</strong> wordt toch <strong>aangetrokken</strong> door een geladen <strong>staaf</strong> omdat <strong>de dichtste kant tegengesteld geladen is en dus harder trekt</strong>. De staaf verschuift de ladingen in het voorwerp; de aantrekking van de nabije kant weegt zwaarder dan de afstoting van de verre kant, want de kracht daalt met het kwadraat van de afstand."
+     "html": "Een <strong>neutraal voorwerp</strong> wordt toch <strong>aangetrokken</strong> door een geladen <strong>staaf</strong> omdat <strong>de dichtste kant tegengesteld geladen is en dus harder trekt</strong>. De staaf verschuift de ladingen in het voorwerp; omdat \\(F\\sim\\tfrac{1}{r^{2}}\\), weegt de aantrekking van de nabije kant zwaarder dan de afstoting van de verre."
     }
    ]
   },
@@ -29,19 +29,47 @@
    "blokken": [
     {
      "soort": "tekst",
-     "html": "In de <strong>wet van Coulomb</strong> staan precies drie dingen: <strong>de grootte van de beide ladingen</strong> en <strong>de afstand tussen de twee ladingen</strong>. De kracht is <strong>recht evenredig met het product van de twee ladingen</strong> en <strong>omgekeerd evenredig met het kwadraat van de afstand r</strong>."
+     "html": "In de <strong>wet van Coulomb</strong> staan precies drie dingen: <strong>de grootte van \\(q_{1}\\) en \\(q_{2}\\)</strong> en <strong>de afstand \\(r\\) ertussen</strong>."
     },
     {
      "soort": "tekst",
-     "html": "Rekenen met die verhoudingen gaat zo. Trekken twee puntladingen elkaar aan met <strong>8 N</strong> en <strong>verdubbel je de afstand</strong>, dan wordt de kracht vier keer zo klein: <strong>2 N</strong>. Stoten ze elkaar af met <strong>6 N</strong> en <strong>verdrievoudig je één van de twee ladingen</strong>, dan wordt de kracht drie keer zo groot: <strong>18 N</strong>. <strong>Verdubbel je beide ladingen</strong>, dan wordt de kracht <strong>vier keer zo groot</strong>."
+     "html": "\\[F = k\\,\\frac{|q_{1}\\cdot q_{2}|}{r^{2}}\\]"
     },
     {
      "soort": "tekst",
-     "html": "De constante <strong>k</strong> in die wet <strong>hangt af van de stof tussen de twee ladingen</strong> en <strong>staat in de bijlage die je op het examen krijgt</strong>. Omdat water de ladingen afschermt, is <strong>de elektrische kracht tussen twee ladingen zwakker in water dan in lucht</strong>, niet sterker."
+     "html": "De kracht is dus <strong>recht evenredig met het product van de twee ladingen</strong> en <strong>omgekeerd evenredig met \\(r^{2}\\)</strong>. Massa en temperatuur komen er niet in voor."
     },
     {
      "soort": "tekst",
-     "html": "De <strong>wet van Coulomb en de gravitatiewet hebben dezelfde vorm</strong>: een product boven en een kwadraat van de afstand onder. Het verschil is dat de gravitatie altijd aantrekt en de coulombkracht ook kan afstoten."
+     "html": "Een voorbeeld met getallen, met \\(k=8{,}99\\cdot 10^{9}\\ \\text{N}\\,\\text{m}^{2}\\text{/C}^{2}\\). Neem \\(q_{1}=2{,}0\\ \\mu\\text{C}\\), \\(q_{2}=3{,}0\\ \\mu\\text{C}\\) en \\(r=0{,}30\\ \\text{m}\\):"
+    },
+    {
+     "soort": "tekst",
+     "html": "\\[F = 8{,}99\\cdot 10^{9}\\cdot\\frac{2{,}0\\cdot 10^{-6}\\cdot 3{,}0\\cdot 10^{-6}}{0{,}30^{2}} = \\frac{5{,}39\\cdot 10^{-2}}{0{,}090}\\approx 0{,}60\\ \\text{N}\\]"
+    },
+    {
+     "soort": "tekst",
+     "html": "Zet de ladingen altijd eerst in coulomb en vergeet \\(r\\) niet te kwadrateren. Dat zijn de twee fouten die het vaakst gemaakt worden."
+    },
+    {
+     "soort": "tekst",
+     "html": "Vaak moet je niet rekenen maar redeneren met verhoudingen:"
+    },
+    {
+     "soort": "tekst",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Wat verandert er?</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Wat doet \\(F\\)?</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Waarom</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">\\(r\\) wordt \\(2r\\)</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">\\(\\tfrac{1}{4}\\) zo groot</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">\\(F\\sim\\tfrac{1}{r^{2}}\\)</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">\\(q_{1}\\) wordt \\(3q_{1}\\)</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">\\(3\\) keer zo groot</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">\\(q_{1}\\) staat in de teller</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">beide ladingen verdubbelen</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">\\(4\\) keer zo groot</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">\\(2\\cdot 2=4\\)</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">\\(r\\) wordt \\(\\tfrac{r}{2}\\)</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">\\(4\\) keer zo groot</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">halve afstand, kwadraat eronder</td></tr></table>"
+    },
+    {
+     "soort": "tekst",
+     "html": "Trekken twee puntladingen elkaar dus aan met \\(F=8{,}0\\ \\text{N}\\) en verdubbel je \\(r\\), dan blijft er \\(2{,}0\\ \\text{N}\\) over. Stoten ze elkaar af met \\(F=6{,}0\\ \\text{N}\\) en vervang je \\(q_{1}\\) door \\(3q_{1}\\), dan wordt het \\(18\\ \\text{N}\\)."
+    },
+    {
+     "soort": "tekst",
+     "html": "De constante <strong>\\(k\\)</strong> <strong>hangt af van de stof tussen de twee ladingen</strong> en <strong>staat in de bijlage die je op het examen krijgt</strong>. Omdat water de ladingen afschermt, is <strong>de elektrische kracht tussen twee ladingen zwakker in water dan in lucht</strong>, niet sterker."
+    },
+    {
+     "soort": "kader",
+     "html": "De <strong>wet van Coulomb en de gravitatiewet hebben dezelfde vorm</strong>: \\(F=k\\,\\dfrac{|q_{1}q_{2}|}{r^{2}}\\) naast \\(F=G\\,\\dfrac{m_{1}m_{2}}{r^{2}}\\). Een product boven, een kwadraat van de afstand onder. Het verschil is dat de gravitatie altijd aantrekt en de coulombkracht ook kan afstoten."
     }
    ]
   },
@@ -50,15 +78,15 @@
    "blokken": [
     {
      "soort": "tekst",
-     "html": "De <strong>resulterende kracht op een lading die door twee andere ladingen beïnvloed wordt</strong>, vind je door <strong>de twee krachten op te tellen als vectoren</strong>. Daarom reken je bij twee ladingen in twee hoekpunten van een vierkant <strong>de kracht op een derde lading niet zomaar op door op te tellen</strong>: <strong>de twee krachten wijzen in een andere richting</strong>."
+     "html": "De <strong>resulterende kracht op een lading die door twee andere ladingen beïnvloed wordt</strong>, vind je door <strong>de twee krachten op te tellen als vectoren</strong>: \\(\\vec{F}=\\vec{F}_{1}+\\vec{F}_{2}\\). Daarom reken je bij twee ladingen in twee hoekpunten van een vierkant <strong>de kracht op een derde lading niet zomaar op door op te tellen</strong>: <strong>de twee krachten wijzen in een andere richting</strong>. Alleen als ze op één lijn liggen, volstaat optellen of aftrekken."
     },
     {
      "soort": "tekst",
-     "html": "Staan <strong>drie gelijke positieve ladingen op één rechte lijn, op gelijke afstand van elkaar</strong>, dan voelt de middelste <strong>geen enkele kracht</strong>, want <strong>de twee krachten heffen elkaar op</strong>: ze zijn even groot en tegengesteld van zin."
+     "html": "Staan <strong>drie gelijke positieve ladingen op één rechte lijn, op gelijke afstand van elkaar</strong>, dan voelt de middelste <strong>geen enkele kracht</strong>, want <strong>de twee krachten heffen elkaar op</strong>: ze zijn even groot en tegengesteld van zin, dus \\(\\vec{F}=\\vec{0}\\)."
     },
     {
      "soort": "tekst",
-     "html": "De kracht van een <strong>geladen bol</strong> op een puntlading is het grootst <strong>vlak bij het oppervlak van de bol</strong>, want daar is de afstand tot de lading het kleinst."
+     "html": "De kracht van een <strong>geladen bol</strong> op een puntlading is het grootst <strong>vlak bij het oppervlak van de bol</strong>. Buiten de bol werkt ze alsof alle lading in het middelpunt zat, dus geldt \\(F\\sim\\tfrac{1}{r^{2}}\\) gewoon verder."
     }
    ]
   },
@@ -67,15 +95,31 @@
    "blokken": [
     {
      "soort": "tekst",
-     "html": "De <strong>elektrische veldsterkte in een punt</strong> is <strong>de kracht per eenheid van lading in dat punt</strong>. Ze krijgt het symbool <strong>E</strong> en staat in <strong>N/C</strong>, newton per coulomb. Je berekent de kracht dus als F = E · q."
+     "html": "De <strong>elektrische veldsterkte in een punt</strong> is <strong>de kracht per eenheid van lading in dat punt</strong>. Ze krijgt het symbool <strong>\\(E\\)</strong>:"
     },
     {
      "soort": "tekst",
-     "html": "Twee rekenvoorbeelden. Is de veldsterkte in een punt <strong>200 N/C</strong>, dan werkt op een lading van <strong>3 mC</strong> een kracht van <strong>0,6 N</strong>. Werkt op een lading van <strong>5 µC</strong> in een punt een kracht van <strong>0,1 N</strong>, dan is de veldsterkte daar <strong>20 000 N/C</strong>."
+     "html": "\\[E = \\frac{F}{q}\\qquad\\text{in}\\qquad \\text{N/C} = \\text{V/m}\\]"
     },
     {
      "soort": "tekst",
-     "html": "Het veld <strong>van een puntlading neemt af met het kwadraat van de afstand</strong> en <strong>hangt niet af van de proeflading die je erin zet</strong>: het veld hoort bij de lading die het maakt. Zit een <strong>positieve lading in een punt waar het veld naar rechts wijst</strong>, dan werkt de kracht ook <strong>naar rechts, in de zin van het veld</strong>; op een negatieve lading werkt ze er tegenin."
+     "html": "Daaruit volgt meteen \\(F=E\\cdot q\\). Twee rekenvoorbeelden. Is \\(E=200\\ \\text{N/C}\\), dan werkt op \\(q=3\\ \\text{mC}\\) een kracht \\(F=200\\cdot 3\\cdot 10^{-3}=0{,}6\\ \\text{N}\\). Werkt op \\(q=5\\ \\mu\\text{C}\\) een kracht \\(F=0{,}1\\ \\text{N}\\), dan is \\(E=\\dfrac{0{,}1}{5\\cdot 10^{-6}}=2{,}0\\cdot 10^{4}\\ \\text{N/C}\\)."
+    },
+    {
+     "soort": "tekst",
+     "html": "Rond één puntlading kan je \\(E\\) ook rechtstreeks berekenen, door in de wet van Coulomb de proeflading weg te delen:"
+    },
+    {
+     "soort": "tekst",
+     "html": "\\[E = k\\,\\frac{|q|}{r^{2}}\\]"
+    },
+    {
+     "soort": "tekst",
+     "html": "Op \\(r=0{,}10\\ \\text{m}\\) van \\(q=5{,}0\\ \\text{nC}\\) geeft dat \\(E=8{,}99\\cdot 10^{9}\\cdot\\dfrac{5{,}0\\cdot 10^{-9}}{0{,}10^{2}}\\approx 4{,}5\\cdot 10^{3}\\ \\text{N/C}\\)."
+    },
+    {
+     "soort": "tekst",
+     "html": "Het veld <strong>van een puntlading neemt af met het kwadraat van de afstand</strong> en <strong>hangt niet af van de proeflading die je erin zet</strong>: het veld hoort bij de lading die het maakt. Zit een <strong>positieve lading in een punt waar \\(\\vec{E}\\) naar rechts wijst</strong>, dan werkt de kracht ook <strong>naar rechts, in de zin van het veld</strong>; op een negatieve lading werkt ze er tegenin."
     }
    ]
   },
@@ -84,15 +128,24 @@
    "blokken": [
     {
      "soort": "tekst",
-     "html": "Een elektrisch veld in een punt stel je in een tekening voor <strong>met een pijl die de zin en de grootte van het veld aangeeft</strong>, en het hele veld met <strong>veldlijnen</strong>. De afspraak over hun zin: <strong>ze lopen weg van de positieve en naar de negatieve lading</strong>."
+     "html": "Een elektrisch veld in een punt stel je in een tekening voor <strong>met een pijl die de zin en de grootte van het veld aangeeft</strong>, en het hele veld met <strong>veldlijnen</strong>. De afspraak over hun zin: <strong>ze lopen weg van de positieve en naar de negatieve lading</strong>. Dat is de zin van de kracht op een positieve proeflading."
     },
     {
      "soort": "tekst",
-     "html": "Drie regels over veldlijnen. <strong>Ze vertrekken bij een positieve lading en eindigen bij een negatieve.</strong> <strong>Ze snijden elkaar nooit</strong>, want in één punt kan het veld maar één zin hebben: <strong>twee veldlijnen kunnen elkaar dus niet kruisen</strong>. En <strong>hoe dichter de veldlijnen bij elkaar liggen, hoe sterker het veld daar is</strong>."
+     "html": "Drie regels over veldlijnen. <strong>Ze vertrekken bij een positieve lading en eindigen bij een negatieve.</strong> <strong>Ze snijden elkaar nooit</strong>, want in één punt kan het veld maar één zin hebben. En <strong>hoe dichter de veldlijnen bij elkaar liggen, hoe sterker het veld daar is</strong>."
+    },
+    {
+     "soort": "figuur",
+     "html": "<svg viewBox=\"0 0 470 372\" width=\"470\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"6\" y=\"4\" width=\"222\" height=\"158\" rx=\"8\" fill=\"#ffffff\" stroke=\"#e4ded0\" stroke-width=\"1.2\"/><text x=\"117.0\" y=\"178.0\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"10\" font-weight=\"600\" fill=\"#6b7260\">radiaal: weg van een positieve lading</text><line x1=\"132.0\" y1=\"82.0\" x2=\"177.0\" y2=\"82.0\" stroke=\"#2f5d50\" stroke-width=\"1.3\"/><polygon points=\"166.0,82.0 157.0,85.1 157.0,78.9\" fill=\"#2f5d50\"/><line x1=\"127.6\" y1=\"92.6\" x2=\"159.4\" y2=\"124.4\" stroke=\"#2f5d50\" stroke-width=\"1.3\"/><polygon points=\"151.6,116.6 143.1,112.5 147.5,108.1\" fill=\"#2f5d50\"/><line x1=\"117.0\" y1=\"97.0\" x2=\"117.0\" y2=\"142.0\" stroke=\"#2f5d50\" stroke-width=\"1.3\"/><polygon points=\"117.0,131.0 113.9,122.0 120.1,122.0\" fill=\"#2f5d50\"/><line x1=\"106.4\" y1=\"92.6\" x2=\"74.6\" y2=\"124.4\" stroke=\"#2f5d50\" stroke-width=\"1.3\"/><polygon points=\"82.4,116.6 86.5,108.1 90.9,112.5\" fill=\"#2f5d50\"/><line x1=\"102.0\" y1=\"82.0\" x2=\"57.0\" y2=\"82.0\" stroke=\"#2f5d50\" stroke-width=\"1.3\"/><polygon points=\"68.0,82.0 77.0,78.9 77.0,85.1\" fill=\"#2f5d50\"/><line x1=\"106.4\" y1=\"71.4\" x2=\"74.6\" y2=\"39.6\" stroke=\"#2f5d50\" stroke-width=\"1.3\"/><polygon points=\"82.4,47.4 90.9,51.5 86.5,55.9\" fill=\"#2f5d50\"/><line x1=\"117.0\" y1=\"67.0\" x2=\"117.0\" y2=\"22.0\" stroke=\"#2f5d50\" stroke-width=\"1.3\"/><polygon points=\"117.0,33.0 120.1,42.0 113.9,42.0\" fill=\"#2f5d50\"/><line x1=\"127.6\" y1=\"71.4\" x2=\"159.4\" y2=\"39.6\" stroke=\"#2f5d50\" stroke-width=\"1.3\"/><polygon points=\"151.6,47.4 147.5,55.9 143.1,51.5\" fill=\"#2f5d50\"/><circle cx=\"117.0\" cy=\"82.0\" r=\"13\" fill=\"#b4452c\"/><line x1=\"113.6\" y1=\"82.0\" x2=\"120.4\" y2=\"82.0\" stroke=\"#ffffff\" stroke-width=\"1.8\" stroke-linecap=\"round\"/><line x1=\"117.0\" y1=\"78.6\" x2=\"117.0\" y2=\"85.4\" stroke=\"#ffffff\" stroke-width=\"1.8\" stroke-linecap=\"round\"/><rect x=\"240\" y=\"4\" width=\"222\" height=\"158\" rx=\"8\" fill=\"#ffffff\" stroke=\"#e4ded0\" stroke-width=\"1.2\"/><text x=\"351.0\" y=\"178.0\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"10\" font-weight=\"600\" fill=\"#6b7260\">radiaal: naar een negatieve lading toe</text><line x1=\"366.0\" y1=\"82.0\" x2=\"411.0\" y2=\"82.0\" stroke=\"#2f5d50\" stroke-width=\"1.3\"/><polygon points=\"376.0,82.0 385.0,78.9 385.0,85.1\" fill=\"#2f5d50\"/><line x1=\"361.6\" y1=\"92.6\" x2=\"393.4\" y2=\"124.4\" stroke=\"#2f5d50\" stroke-width=\"1.3\"/><polygon points=\"368.7,99.7 377.2,103.8 372.8,108.2\" fill=\"#2f5d50\"/><line x1=\"351.0\" y1=\"97.0\" x2=\"351.0\" y2=\"142.0\" stroke=\"#2f5d50\" stroke-width=\"1.3\"/><polygon points=\"351.0,107.0 354.1,116.0 347.9,116.0\" fill=\"#2f5d50\"/><line x1=\"340.4\" y1=\"92.6\" x2=\"308.6\" y2=\"124.4\" stroke=\"#2f5d50\" stroke-width=\"1.3\"/><polygon points=\"333.3,99.7 329.2,108.2 324.8,103.8\" fill=\"#2f5d50\"/><line x1=\"336.0\" y1=\"82.0\" x2=\"291.0\" y2=\"82.0\" stroke=\"#2f5d50\" stroke-width=\"1.3\"/><polygon points=\"326.0,82.0 317.0,85.1 317.0,78.9\" fill=\"#2f5d50\"/><line x1=\"340.4\" y1=\"71.4\" x2=\"308.6\" y2=\"39.6\" stroke=\"#2f5d50\" stroke-width=\"1.3\"/><polygon points=\"333.3,64.3 324.8,60.2 329.2,55.8\" fill=\"#2f5d50\"/><line x1=\"351.0\" y1=\"67.0\" x2=\"351.0\" y2=\"22.0\" stroke=\"#2f5d50\" stroke-width=\"1.3\"/><polygon points=\"351.0,57.0 347.9,48.0 354.1,48.0\" fill=\"#2f5d50\"/><line x1=\"361.6\" y1=\"71.4\" x2=\"393.4\" y2=\"39.6\" stroke=\"#2f5d50\" stroke-width=\"1.3\"/><polygon points=\"368.7,64.3 372.8,55.8 377.2,60.2\" fill=\"#2f5d50\"/><circle cx=\"351.0\" cy=\"82.0\" r=\"13\" fill=\"#2f6d9e\"/><line x1=\"347.6\" y1=\"82.0\" x2=\"354.4\" y2=\"82.0\" stroke=\"#ffffff\" stroke-width=\"1.8\" stroke-linecap=\"round\"/><rect x=\"6\" y=\"190\" width=\"222\" height=\"158\" rx=\"8\" fill=\"#ffffff\" stroke=\"#e4ded0\" stroke-width=\"1.2\"/><text x=\"117.0\" y=\"364.0\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"10\" font-weight=\"600\" fill=\"#6b7260\">dipool: van plus naar min</text><path d=\"M70 268 Q117 160 164 268\" fill=\"none\" stroke=\"#2f5d50\" stroke-width=\"1.3\"/><polygon points=\"122.0,214.0 113.0,217.1 113.0,210.9\" fill=\"#2f5d50\"/><path d=\"M70 268 Q117 216 164 268\" fill=\"none\" stroke=\"#2f5d50\" stroke-width=\"1.3\"/><polygon points=\"122.0,242.0 113.0,245.1 113.0,238.9\" fill=\"#2f5d50\"/><path d=\"M70 268 Q117 268 164 268\" fill=\"none\" stroke=\"#2f5d50\" stroke-width=\"1.3\"/><polygon points=\"122.0,268.0 113.0,271.1 113.0,264.9\" fill=\"#2f5d50\"/><path d=\"M70 268 Q117 320 164 268\" fill=\"none\" stroke=\"#2f5d50\" stroke-width=\"1.3\"/><polygon points=\"122.0,294.0 113.0,297.1 113.0,290.9\" fill=\"#2f5d50\"/><path d=\"M70 268 Q117 376 164 268\" fill=\"none\" stroke=\"#2f5d50\" stroke-width=\"1.3\"/><polygon points=\"122.0,322.0 113.0,325.1 113.0,318.9\" fill=\"#2f5d50\"/><circle cx=\"56.0\" cy=\"268.0\" r=\"13\" fill=\"#b4452c\"/><line x1=\"52.6\" y1=\"268.0\" x2=\"59.4\" y2=\"268.0\" stroke=\"#ffffff\" stroke-width=\"1.8\" stroke-linecap=\"round\"/><line x1=\"56.0\" y1=\"264.6\" x2=\"56.0\" y2=\"271.4\" stroke=\"#ffffff\" stroke-width=\"1.8\" stroke-linecap=\"round\"/><circle cx=\"178.0\" cy=\"268.0\" r=\"13\" fill=\"#2f6d9e\"/><line x1=\"174.6\" y1=\"268.0\" x2=\"181.4\" y2=\"268.0\" stroke=\"#ffffff\" stroke-width=\"1.8\" stroke-linecap=\"round\"/><rect x=\"240\" y=\"190\" width=\"222\" height=\"158\" rx=\"8\" fill=\"#ffffff\" stroke=\"#e4ded0\" stroke-width=\"1.2\"/><text x=\"351.0\" y=\"364.0\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"10\" font-weight=\"600\" fill=\"#6b7260\">homogeen: overal even sterk</text><rect x=\"265\" y=\"212\" width=\"9\" height=\"112\" fill=\"#b4452c\" opacity=\"0.8\"/><rect x=\"428\" y=\"212\" width=\"9\" height=\"112\" fill=\"#2f6d9e\" opacity=\"0.8\"/><line x1=\"276\" y1=\"228\" x2=\"426\" y2=\"228\" stroke=\"#2f5d50\" stroke-width=\"1.3\"/><polygon points=\"356.0,228.0 347.0,231.1 347.0,224.9\" fill=\"#2f5d50\"/><line x1=\"276\" y1=\"248\" x2=\"426\" y2=\"248\" stroke=\"#2f5d50\" stroke-width=\"1.3\"/><polygon points=\"356.0,248.0 347.0,251.1 347.0,244.9\" fill=\"#2f5d50\"/><line x1=\"276\" y1=\"268\" x2=\"426\" y2=\"268\" stroke=\"#2f5d50\" stroke-width=\"1.3\"/><polygon points=\"356.0,268.0 347.0,271.1 347.0,264.9\" fill=\"#2f5d50\"/><line x1=\"276\" y1=\"288\" x2=\"426\" y2=\"288\" stroke=\"#2f5d50\" stroke-width=\"1.3\"/><polygon points=\"356.0,288.0 347.0,291.1 347.0,284.9\" fill=\"#2f5d50\"/><line x1=\"276\" y1=\"308\" x2=\"426\" y2=\"308\" stroke=\"#2f5d50\" stroke-width=\"1.3\"/><polygon points=\"356.0,308.0 347.0,311.1 347.0,304.9\" fill=\"#2f5d50\"/><text x=\"269.0\" y=\"206.0\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"12\" fill=\"#b4452c\">+</text><text x=\"433.0\" y=\"206.0\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"13\" fill=\"#2f6d9e\">–</text></svg>",
+     "onderschrift": "De patronen die je moet kunnen herkennen en tekenen."
     },
     {
      "soort": "tekst",
-     "html": "Twee patronen komen steeds terug. Rond <strong>één positieve puntlading</strong> krijg je een <strong>radiaal veld</strong>: <strong>rechte lijnen die stervormig naar buiten wijzen</strong>. Tussen <strong>twee evenwijdige, tegengesteld geladen platen</strong> krijg je een <strong>homogeen veld</strong>: daar is <strong>de veldsterkte overal dezelfde</strong>, zijn de <strong>veldlijnen recht en parallel</strong> en lopen ze <strong>van de positieve naar de negatieve plaat</strong>. Omdat zo'n veld overal even sterk is, <strong>wordt de veldsterkte niet kleiner naarmate je dichter bij de positieve plaat komt</strong>, en is <strong>de kracht op een lading er overal even groot</strong>. Tussen <strong>twee ongelijknamige puntladingen</strong> krijg je nog een derde patroon, het <strong>dipoolveld</strong>."
+     "html": "Rond <strong>één positieve puntlading</strong> krijg je een <strong>radiaal veld</strong>: <strong>rechte lijnen die stervormig naar buiten wijzen</strong>. Rond een negatieve lading wijst hetzelfde patroon naar binnen. Tussen <strong>twee ongelijknamige puntladingen</strong> krijg je het <strong>dipoolveld</strong>, in gebogen bogen van plus naar min."
+    },
+    {
+     "soort": "tekst",
+     "html": "Tussen <strong>twee evenwijdige, tegengesteld geladen platen</strong> krijg je een <strong>homogeen veld</strong>: daar is <strong>\\(E\\) overal dezelfde</strong>, zijn de <strong>veldlijnen recht en parallel</strong> en lopen ze <strong>van de positieve naar de negatieve plaat</strong>. Omdat zo'n veld overal even sterk is, <strong>wordt \\(E\\) niet kleiner naarmate je dichter bij de positieve plaat komt</strong>, en is <strong>de kracht op een lading er overal even groot</strong>. Alleen aan de randen van de platen wijken de lijnen af."
     }
    ]
   },
@@ -101,22 +154,24 @@
    "blokken": [
     {
      "soort": "tekst",
-     "html": "<strong>Binnen in een geladen holle geleider is er geen veld</strong>, <strong>want de ladingen heffen elkaar daar op</strong>. Alle lading zit op het buitenoppervlak. Een metalen omhulsel dat de binnenkant zo tegen een elektrisch veld afschermt, heet een <strong>kooi van Faraday</strong>."
+     "html": "<strong>Binnen in een geladen holle geleider is er geen veld</strong>: \\(E=0\\), <strong>want de ladingen heffen elkaar daar op</strong>. Alle lading zit op het buitenoppervlak. Een metalen omhulsel dat de binnenkant zo tegen een elektrisch veld afschermt, heet een <strong>kooi van Faraday</strong>."
     },
     {
      "soort": "tekst",
-     "html": "Daarom is <strong>een auto een veilige plaats bij onweer</strong>: <strong>het metalen koetswerk leidt de lading rond de inzittenden</strong> naar de grond. Hetzelfde principe zit in de afscherming van een gevoelige meetkabel."
+     "html": "Daarom is <strong>een auto een veilige plaats bij onweer</strong>: het metalen koetswerk leidt de lading rond de inzittenden naar de grond, en binnenin blijft \\(E=0\\). De rubberen banden hebben er weinig mee te maken. Hetzelfde principe zit in de afscherming van een gevoelige meetkabel."
     }
    ]
   }
  ],
  "onthoud": [
-  "Coulomb: kracht ∝ product van de ladingen, ∝ 1/r².",
-  "Dubbele afstand is vier keer minder kracht.",
+  "\\(F = k\\,\\dfrac{|q_{1}q_{2}|}{r^{2}}\\), met \\(k\\approx 8{,}99\\cdot 10^{9}\\ \\text{N}\\,\\text{m}^{2}\\text{/C}^{2}\\) in lucht.",
+  "\\(F\\sim\\tfrac{1}{r^{2}}\\): dubbele afstand is vier keer minder kracht.",
+  "Zet de ladingen in coulomb en kwadrateer \\(r\\) voor je deelt.",
   "Krachten van meerdere ladingen tel je op als vectoren.",
-  "Veldsterkte E is de kracht per eenheid van lading, in N/C.",
+  "\\(E=\\dfrac{F}{q}\\), in \\(\\text{N/C}\\), en dus \\(F=E\\cdot q\\).",
+  "Rond één puntlading geldt \\(E=k\\,\\dfrac{|q|}{r^{2}}\\).",
   "Veldlijnen lopen van plus naar min en snijden elkaar nooit.",
-  "Radiaal rond een puntlading, homogeen tussen twee platen.",
-  "In een holle geleider is het veld nul: de kooi van Faraday."
+  "Radiaal rond een puntlading, dipool tussen twee, homogeen tussen twee platen.",
+  "In een holle geleider is \\(E=0\\): de kooi van Faraday."
  ]
 }

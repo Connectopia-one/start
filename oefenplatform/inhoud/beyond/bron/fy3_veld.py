@@ -1,5 +1,5 @@
 # -*- coding: utf-8 -*-
-"""De wet van Coulomb en het elektrisch veld — 🌍 Beyond, fysica.
+r"""De wet van Coulomb en het elektrisch veld — 🌍 Beyond, fysica.
 
 Deel 1 gaat over de kracht zelf: dat ze een veldkracht is, hoe ze met het
 kwadraat van de afstand afneemt, en hoe je met de wet van Coulomb rekent, ook
@@ -8,9 +8,16 @@ eromheen: de veldsterkte, de drie patronen die de fiche noemt (radiaal,
 dipool en homogeen), de zin van de veldlijnen, en de schermwerking van een
 holle geleider.
 
-De fiche vraagt om veldlijnen te tekenen; dat kan hier niet, dus vragen de
-vragen naar het patroon in woorden. De rekenvragen geven de nodige waarden
-mee, want op het examen staan de formules en de constanten in een bijlage.
+In echte wetenschappelijke notatie, tussen \( en \); zie
+oefenplatform/lib/wiskunde.ts. De twee formules van dit thema:
+
+    \[F = k\,\frac{|q_{1}\cdot q_{2}|}{r^{2}}\]   en   \[E = \frac{F}{q}\]
+
+De fiche vraagt om veldlijnen te tekenen. Dat kan in een vraag niet, dus
+vragen de vragen naar het patroon in woorden; in de leerbundel staan de vier
+patronen wel getekend (zie svg.veldlijnen in leerbundels/bron/svg.py). De
+rekenvragen geven de nodige waarden mee, want op het examen staan de formules
+en de constanten in een bijlage.
 """
 
 DEEL1 = [
@@ -29,46 +36,46 @@ DEEL1 = [
     ),
     dict(
         type="meerkeuze",
-        vraag="Wat zegt de wet van Coulomb over het verband tussen de kracht en de afstand?",
+        vraag=r"Welk verband tussen \(F\) en \(r\) staat in \(F=k\,\dfrac{|q_{1}q_{2}|}{r^{2}}\)?",
         opties=[
-            "de kracht is omgekeerd evenredig met het kwadraat van r",
-            "de kracht is omgekeerd evenredig met de afstand r zelf",
-            "de kracht is recht evenredig met het kwadraat van r",
-            "de kracht blijft gelijk hoe groot de afstand ook wordt",
+            r"\(F\sim\dfrac{1}{r^{2}}\)",
+            r"\(F\sim\dfrac{1}{r}\)",
+            r"\(F\sim r^{2}\)",
+            r"\(F\) hangt niet van \(r\) af",
         ],
         antwoord=0,
-        uitleg="In de formule staat r² in de noemer. Twee keer zo ver betekent dus vier "
-        "keer zo weinig kracht.",
+        uitleg=r"\(r^{2}\) staat in de noemer, dus \(F\) is omgekeerd evenredig met het "
+        r"kwadraat van de afstand: twee keer zo ver is vier keer zo weinig kracht.",
     ),
     dict(
         type="meerkeuze",
-        vraag="Twee puntladingen trekken elkaar aan met 8 N. Je verdubbelt de afstand. Hoe groot is de kracht dan?",
+        vraag=r"Twee puntladingen trekken elkaar aan met \(F=8{,}0\ \text{N}\). Je verdubbelt \(r\). Hoe groot is \(F\) dan?",
         opties=[
-            "2 N",
-            "4 N",
-            "8 N",
-            "16 N",
+            r"\(2{,}0\ \text{N}\)",
+            r"\(4{,}0\ \text{N}\)",
+            r"\(8{,}0\ \text{N}\)",
+            r"\(16\ \text{N}\)",
         ],
         antwoord=0,
-        uitleg="De kracht gaat met het kwadraat van de afstand: twee keer verder is vier "
-        "keer minder. 8 gedeeld door 4 is 2 newton.",
+        uitleg=r"\(F\sim\tfrac{1}{r^{2}}\), dus twee keer verder is vier keer minder: "
+        r"\(\tfrac{8{,}0}{4}=2{,}0\ \text{N}\).",
     ),
     dict(
         type="meerkeuze",
-        vraag="Twee puntladingen stoten elkaar af met 6 N. Je verdrievoudigt één van de twee ladingen. Hoe groot is de kracht?",
+        vraag=r"Twee puntladingen stoten elkaar af met \(F=6{,}0\ \text{N}\). Je vervangt \(q_{1}\) door \(3q_{1}\). Hoe groot is \(F\) dan?",
         opties=[
-            "18 N",
-            "6 N",
-            "2 N",
-            "54 N",
+            r"\(18\ \text{N}\)",
+            r"\(6{,}0\ \text{N}\)",
+            r"\(2{,}0\ \text{N}\)",
+            r"\(54\ \text{N}\)",
         ],
         antwoord=0,
-        uitleg="De kracht is recht evenredig met elk van de twee ladingen. Drie keer zo "
-        "veel lading betekent dus drie keer zo veel kracht.",
+        uitleg=r"\(F\) is recht evenredig met elk van de twee ladingen, want ze staan beide "
+        r"in de teller. Drie keer \(q_{1}\) geeft dus drie keer \(F\).",
     ),
     dict(
         type="waarofniet",
-        vraag="De kracht die lading A op lading B uitoefent, is even groot als die van B op A.",
+        vraag=r"De kracht van lading A op lading B is even groot als die van B op A.",
         antwoord=True,
         uitleg="Dat is de derde wet van Newton: actie en reactie. Ook al is de ene lading "
         "veel groter dan de andere, de twee krachten blijven even groot en tegengesteld.",
@@ -132,14 +139,14 @@ DEEL1 = [
         type="meerkeuze",
         vraag="Welke grootheden staan in de wet van Coulomb? Kruis alles aan wat juist is.",
         opties=[
-            "de grootte van de beide ladingen",
-            "de afstand tussen de twee ladingen",
-            "de massa van de twee geladen voorwerpen",
-            "de temperatuur van de twee voorwerpen",
+            r"de grootte van \(q_{1}\) en \(q_{2}\)",
+            r"de afstand \(r\) ertussen",
+            r"de massa \(m\) van de twee voorwerpen",
+            r"de temperatuur \(T\) van de twee voorwerpen",
         ],
         antwoord=[0, 1],
-        uitleg="Massa en temperatuur spelen geen rol. Wel staat er een constante k in, en "
-        "die hangt af van de stof tussen de twee ladingen.",
+        uitleg=r"Massa en temperatuur komen in \(F=k\,\dfrac{|q_{1}q_{2}|}{r^{2}}\) niet voor. "
+        r"Wel staat er een constante \(k\) in, en die hangt af van de stof ertussen.",
     ),
     dict(
         type="invultekst",
@@ -172,7 +179,7 @@ DEEL1 = [
     ),
     dict(
         type="meerkeuze",
-        vraag="Twee puntladingen van 2 µC en 3 µC trekken of stoten elkaar. Wat gebeurt er als je beide verdubbelt?",
+        vraag=r"Twee puntladingen zijn \(q_{1}=2\ \mu\text{C}\) en \(q_{2}=3\ \mu\text{C}\). Wat gebeurt er met \(F\) als je beide verdubbelt?",
         opties=[
             "de kracht wordt vier keer zo groot",
             "de kracht wordt twee keer zo groot",
@@ -180,22 +187,22 @@ DEEL1 = [
             "de kracht blijft precies even groot",
         ],
         antwoord=0,
-        uitleg="In de teller staat het product van de twee ladingen, dus twee maal twee is "
-        "vier. De afstand is niet veranderd.",
+        uitleg=r"In de teller staat \(q_{1}\cdot q_{2}\), dus \(2\cdot 2=4\). \(r\) is niet veranderd.",
     ),
     dict(
         type="meerkeuze",
-        vraag="Waar is de kracht van een geladen bol op een puntlading het grootst?",
+        vraag=r"Bereken \(F\) tussen \(q_{1}=2{,}0\ \mu\text{C}\) en \(q_{2}=3{,}0\ \mu\text{C}\) "
+        r"op \(r=0{,}30\ \text{m}\). Neem \(k=8{,}99\cdot 10^{9}\ \text{N}\,\text{m}^{2}\text{/C}^{2}\).",
         opties=[
-            "vlak bij het oppervlak van de bol",
-            "precies in het midden van de bol zelf",
-            "op grote afstand van de bol vandaan",
-            "overal rond de bol even groot gespreid",
+            r"\(0{,}60\ \text{N}\)",
+            r"\(0{,}18\ \text{N}\)",
+            r"\(6{,}0\ \text{N}\)",
+            r"\(1{,}8\cdot 10^{-4}\ \text{N}\)",
         ],
         antwoord=0,
-        uitleg="Buiten de bol werkt ze alsof alle lading in het middelpunt zat, dus neemt "
-        "ze af met het kwadraat van de afstand. Dicht bij het oppervlak is ze daarom het "
-        "sterkst.",
+        uitleg=r"\(F=8{,}99\cdot 10^{9}\cdot\dfrac{2{,}0\cdot 10^{-6}\cdot 3{,}0\cdot 10^{-6}}"
+        r"{0{,}30^{2}}=\dfrac{5{,}39\cdot 10^{-2}}{0{,}09}\approx 0{,}60\ \text{N}\). "
+        r"Wie \(r\) vergeet te kwadrateren komt op \(0{,}18\ \text{N}\) uit.",
     ),
     dict(
         type="invultekst",
@@ -221,8 +228,9 @@ DEEL1 = [
             "ze wordt kleiner naarmate de ladingen groter zijn",
         ],
         antwoord=[0, 1],
-        uitleg="In lucht is ze ongeveer 9·10⁹ N·m²/C². In water ligt ze tientallen keren "
-        "lager, en daarom werken ionen in water veel minder hard op elkaar in.",
+        uitleg=r"In lucht is \(k\approx 8{,}99\cdot 10^{9}\ \text{N}\,\text{m}^{2}\text{/C}^{2}\). "
+        r"In water ligt ze tientallen keren lager, en daarom werken ionen in water veel "
+        r"minder hard op elkaar in.",
     ),
     dict(
         type="meerkeuze",
@@ -234,32 +242,33 @@ DEEL1 = [
             "de staaf geeft wat lading af en trekt die daarna terug aan",
         ],
         antwoord=0,
-        uitleg="Door influentie of polarisatie komt de tegengestelde lading het dichtst bij "
-        "de staaf. Omdat de kracht met r² afneemt, wint die aantrekking het van de "
-        "afstoting verderop.",
+        uitleg=r"Door influentie of polarisatie komt de tegengestelde lading het dichtst bij "
+        r"de staaf. Omdat \(F\sim\tfrac{1}{r^{2}}\), wint die aantrekking het van de "
+        r"afstoting verderop.",
     ),
 ]
 
 DEEL2 = [
     dict(
         type="meerkeuze",
-        vraag="Wat is de elektrische veldsterkte in een punt?",
+        vraag=r"Wat is de elektrische veldsterkte \(E\) in een punt?",
         opties=[
-            "de kracht per eenheid van lading in dat punt",
-            "de kracht op een lading van één coulomb per meter",
-            "de arbeid die nodig is om er een lading te brengen",
-            "de lading die er per seconde langs stroomt",
+            r"\(E=\dfrac{F}{q}\), de kracht per eenheid van lading",
+            r"\(E=F\cdot q\), de kracht maal de lading",
+            r"\(E=\dfrac{W}{q}\), de arbeid per eenheid van lading",
+            r"\(E=\dfrac{q}{t}\), de lading per seconde",
         ],
         antwoord=0,
-        uitleg="Je deelt de kracht op een proeflading door de grootte van die lading. Zo "
-        "krijg je een eigenschap van het punt zelf, los van de lading die je erin zet.",
+        uitleg=r"Je deelt de kracht op een proeflading door die lading zelf. Zo krijg je een "
+        r"eigenschap van het punt, los van wat je erin zet. \(\tfrac{W}{q}\) is de "
+        r"potentiaal en \(\tfrac{q}{t}\) is de stroomsterkte.",
     ),
     dict(
         type="invultekst",
-        vraag="In welke eenheid druk je de elektrische veldsterkte uit?",
+        vraag=r"In welke eenheid druk je \(E\) uit? Schrijf ze als een breuk met een schuine streep.",
         antwoord=["N/C", "newton per coulomb", "V/m"],
-        uitleg="Newton per coulomb, want ze is kracht gedeeld door lading. Volt per meter "
-        "is daarmee gelijkwaardig.",
+        uitleg=r"Newton per coulomb, want \(E=\tfrac{F}{q}\). "
+        r"\(1\ \text{N/C}=1\ \text{V/m}\), dus volt per meter is evengoed juist.",
     ),
     dict(
         type="meerkeuze",
@@ -317,7 +326,7 @@ DEEL2 = [
     ),
     dict(
         type="meerkeuze",
-        vraag="Een positieve lading zit in een punt waar het veld naar rechts wijst. Welke kant op werkt de kracht?",
+        vraag=r"Een positieve lading zit in een punt waar \(\vec{E}\) naar rechts wijst. Welke kant op werkt \(\vec{F}\)?",
         opties=[
             "naar rechts, in de zin van het veld",
             "naar links, dus tegen het veld in",
@@ -332,10 +341,10 @@ DEEL2 = [
         type="meerkeuze",
         vraag="Welke uitspraken over het veld van een puntlading zijn juist? Kruis alles aan wat juist is.",
         opties=[
-            "het neemt af met het kwadraat van de afstand",
-            "het hangt niet af van de proeflading die je erin zet",
-            "het is overal rond de lading even sterk gespreid",
-            "het wijst altijd naar de lading toe, wat haar teken ook is",
+            r"\(E\sim\dfrac{1}{r^{2}}\)",
+            r"\(E\) hangt niet af van de proeflading die je erin zet",
+            r"\(E\) is overal rond de lading even groot",
+            r"\(\vec{E}\) wijst altijd naar de lading toe, wat haar teken ook is",
         ],
         antwoord=[0, 1],
         uitleg="De veldsterkte is een eigenschap van het punt zelf. Daarom staat er in haar "
@@ -343,36 +352,35 @@ DEEL2 = [
     ),
     dict(
         type="meerkeuze",
-        vraag="In een punt is de veldsterkte 200 N/C. Welke kracht werkt er op een lading van 3 mC?",
+        vraag=r"In een punt is \(E=200\ \text{N/C}\). Welke kracht werkt er op \(q=3\ \text{mC}\)?",
         opties=[
-            "0,6 N",
-            "600 N",
-            "67 N",
-            "0,015 N",
+            r"\(0{,}6\ \text{N}\)",
+            r"\(600\ \text{N}\)",
+            r"\(67\ \text{N}\)",
+            r"\(0{,}015\ \text{N}\)",
         ],
         antwoord=0,
-        uitleg="De kracht is de veldsterkte maal de lading: 200 maal 0,003 is 0,6 newton. "
-        "Let op de omzetting van millicoulomb naar coulomb.",
+        uitleg=r"Uit \(E=\tfrac{F}{q}\) volgt \(F=E\cdot q=200\cdot 3\cdot 10^{-3}=0{,}6\ \text{N}\). "
+        r"Wie de millicoulomb vergeet om te zetten komt op \(600\ \text{N}\) uit.",
     ),
     dict(
         type="meerkeuze",
-        vraag="Op een lading van 5 µC werkt in een punt een kracht van 0,1 N. Hoe groot is de veldsterkte daar?",
+        vraag=r"Op \(q=5\ \mu\text{C}\) werkt in een punt een kracht \(F=0{,}1\ \text{N}\). Hoe groot is \(E\)?",
         opties=[
-            "20 000 N/C",
-            "0,5 N/C",
-            "500 N/C",
-            "50 000 N/C",
+            r"\(2{,}0\cdot 10^{4}\ \text{N/C}\)",
+            r"\(0{,}5\ \text{N/C}\)",
+            r"\(5{,}0\cdot 10^{2}\ \text{N/C}\)",
+            r"\(5{,}0\cdot 10^{4}\ \text{N/C}\)",
         ],
         antwoord=0,
-        uitleg="Deel de kracht door de lading: 0,1 gedeeld door 5·10⁻⁶ is 2·10⁴ newton per "
-        "coulomb.",
+        uitleg=r"\(E=\dfrac{F}{q}=\dfrac{0{,}1}{5\cdot 10^{-6}}=2{,}0\cdot 10^{4}\ \text{N/C}\).",
     ),
     dict(
         type="waarofniet",
-        vraag="In een homogeen veld is de kracht op een lading overal even groot.",
+        vraag=r"In een homogeen veld is \(F\) op een gegeven lading overal even groot.",
         antwoord=True,
-        uitleg="Homogeen betekent dat de veldsterkte overal dezelfde is, en de kracht volgt "
-        "daaruit. In een radiaal veld hangt ze wel af van waar je zit.",
+        uitleg=r"Homogeen betekent dat \(E\) overal dezelfde is, en \(F=E\cdot q\) volgt "
+        r"daaruit. In een radiaal veld hangt \(E\) wel af van waar je zit.",
     ),
     dict(
         type="meerkeuze",
@@ -396,16 +404,18 @@ DEEL2 = [
     ),
     dict(
         type="meerkeuze",
-        vraag="Waarom is een auto een veilige plaats bij onweer?",
+        vraag=r"Hoe groot is \(E\) op \(r=0{,}10\ \text{m}\) van een puntlading \(q=5{,}0\ \text{nC}\)? "
+        r"Neem \(k=8{,}99\cdot 10^{9}\ \text{N}\,\text{m}^{2}\text{/C}^{2}\).",
         opties=[
-            "het metalen koetswerk leidt de lading rond de inzittenden",
-            "de rubberen banden houden de bliksem volledig tegen",
-            "de lucht in de auto geleidt de lading niet verder",
-            "het glas van de ruiten weerkaatst de blikseminslag",
+            r"\(4{,}5\cdot 10^{3}\ \text{N/C}\)",
+            r"\(4{,}5\cdot 10^{2}\ \text{N/C}\)",
+            r"\(4{,}5\cdot 10^{4}\ \text{N/C}\)",
+            r"\(45\ \text{N/C}\)",
         ],
         antwoord=0,
-        uitleg="De auto werkt als een kooi van Faraday: de lading blijft op de buitenkant "
-        "en binnenin is er geen veld. De banden hebben er weinig mee te maken.",
+        uitleg=r"\(E=k\dfrac{|q|}{r^{2}}=8{,}99\cdot 10^{9}\cdot\dfrac{5{,}0\cdot 10^{-9}}"
+        r"{0{,}10^{2}}=\dfrac{45}{0{,}010}\approx 4{,}5\cdot 10^{3}\ \text{N/C}\). "
+        r"Wie \(r\) niet kwadrateert komt op \(4{,}5\cdot 10^{2}\ \text{N/C}\) uit.",
     ),
     dict(
         type="waarofniet",
@@ -420,12 +430,12 @@ DEEL2 = [
         opties=[
             "het radiale veld rond een puntlading",
             "het homogene veld tussen twee platen",
+            "het dipoolveld tussen twee ongelijknamige ladingen",
             "het spiraalveld rond een draaiende lading",
-            "het golvende veld tussen drie gelijke ladingen",
         ],
-        antwoord=[0, 1],
-        uitleg="Het derde patroon is het dipoolveld tussen twee ongelijknamige ladingen. "
-        "Een spiraal- of golfveld bestaat in dit verband niet.",
+        antwoord=[0, 1, 2],
+        uitleg="Dat zijn de drie patronen die je moet kennen. Een spiraalveld bestaat in dit "
+        "verband niet; een spiraal hoort bij het magnetisch veld rond een spoel.",
     ),
     dict(
         type="meerkeuze",
@@ -442,16 +452,16 @@ DEEL2 = [
     ),
     dict(
         type="waarofniet",
-        vraag="De veldsterkte tussen twee geladen platen wordt kleiner naarmate je dichter bij de positieve plaat komt.",
+        vraag=r"\(E\) tussen twee geladen platen wordt kleiner naarmate je dichter bij de positieve plaat komt.",
         antwoord=False,
-        uitleg="Tussen twee platen is het veld homogeen, dus overal even sterk. Alleen bij "
-        "een puntlading of een bol hangt de sterkte van de afstand af.",
+        uitleg=r"Tussen twee platen is het veld homogeen, dus \(E\) is overal even groot. "
+        r"Alleen bij een puntlading of een bol hangt \(E\) van \(r\) af.",
     ),
     dict(
         type="invultekst",
-        vraag="Met welk symbool schrijf je de elektrische veldsterkte?",
+        vraag="Met welk symbool schrijf je de elektrische veldsterkte? Schrijf de letter.",
         antwoord=["E", "de E", "E-vector"],
-        uitleg="De elektrische kracht schrijf je met F. In de formule E is gelijk aan F "
-        "gedeeld door Q zie je meteen hoe de twee samenhangen.",
+        uitleg=r"De kracht schrijf je met \(F\) en de lading met \(q\). In \(E=\dfrac{F}{q}\) "
+        r"zie je meteen hoe de drie samenhangen.",
     ),
 ]

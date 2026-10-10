@@ -6752,3 +6752,83 @@ def polarisatie(breedte=470):
     d.append(_tekst(365, 180, "met staaf: de pluskant naar de staaf", 10, LADING_MIN, "middle", True))
     d.append(_tekst(235, 199, "de moleculen verhuizen niet, ze draaien alleen", 9.5, DIM, "middle"))
     return _svg(breedte, h, "".join(d))
+
+
+def _pijlkop(x, y, hoek, kleur, maat=5.0):
+    """Een driehoekje op (x, y), met de punt in de richting hoek (radialen)."""
+    import math
+    c, s = math.cos(hoek), math.sin(hoek)
+    punten = []
+    for px, py in ((maat, 0.0), (-maat * 0.8, maat * 0.62), (-maat * 0.8, -maat * 0.62)):
+        punten.append(f"{x + px*c - py*s:.1f},{y + px*s + py*c:.1f}")
+    return f'<polygon points="{" ".join(punten)}" fill="{kleur}"/>'
+
+
+def veldpatronen(breedte=470):
+    r"""De vier veldlijnenpatronen die de vakfiche noemt, in één figuur.
+
+    Radiaal rond een positieve en rond een negatieve puntlading, het dipool-
+    veld tussen twee ongelijknamige ladingen, en het homogene veld tussen twee
+    platen. De afspraak over de zin staat in elk vak: weg van positief, naar
+    negatief toe.
+
+    De fiche vraagt om veldlijnen te kunnen tekenen. In een meerkeuzevraag kan
+    dat niet, dus staan ze hier.
+    """
+    import math
+    cel_b, cel_h = 234, 186
+    VELD = FOREST
+    d = []
+
+    def kader(kx, ky, titel):
+        d.append(f'<rect x="{kx+6}" y="{ky+4}" width="{cel_b-12}" height="{cel_h-28}" rx="8" '
+                 f'fill="#ffffff" stroke="{BORDER}" stroke-width="1.2"/>')
+        d.append(_tekst(kx + cel_b / 2, ky + cel_h - 8, titel, 10, DIM, "middle", True))
+
+    def radiaal(kx, ky, soort):
+        cx, cy = kx + cel_b / 2, ky + 82
+        for i in range(8):
+            hoek = math.radians(i * 45)
+            c, s = math.cos(hoek), math.sin(hoek)
+            r0, r1 = 15, 60
+            d.append(f'<line x1="{cx + r0*c:.1f}" y1="{cy + r0*s:.1f}" '
+                     f'x2="{cx + r1*c:.1f}" y2="{cy + r1*s:.1f}" stroke="{VELD}" stroke-width="1.3"/>')
+            # de punt staat halfweg, zodat ze niet tegen de rand aanloopt
+            rp = 44 if soort == "+" else 30
+            d.append(_pijlkop(cx + rp * c, cy + rp * s, hoek if soort == "+" else hoek + math.pi, VELD))
+        d.append(_teken(cx, cy, soort, 13))
+
+    def dipool(kx, ky):
+        cy = ky + 82
+        xl, xr = kx + 56, kx + cel_b - 56
+        for boog in (-54, -26, 0, 26, 54):
+            mx, my = (xl + xr) / 2, cy + boog
+            pad = f"M{xl+14} {cy} Q{mx:.0f} {my + boog:.0f} {xr-14} {cy}"
+            d.append(f'<path d="{pad}" fill="none" stroke="{VELD}" stroke-width="1.3"/>')
+            # halverwege een bezier: het punt en de raaklijn
+            px = ((xl + 14) + 2 * mx + (xr - 14)) / 4
+            py = (cy + 2 * (my + boog) + cy) / 4
+            d.append(_pijlkop(px, py, 0.0, VELD))
+        d.append(_teken(xl, cy, "+", 13))
+        d.append(_teken(xr, cy, "-", 13))
+
+    def homogeen(kx, ky):
+        cy = ky + 82
+        xl, xr = kx + 40, kx + cel_b - 40
+        d.append(f'<rect x="{xl-9}" y="{cy-56}" width="9" height="112" fill="{LADING_PLUS}" opacity="0.8"/>')
+        d.append(f'<rect x="{xr}" y="{cy-56}" width="9" height="112" fill="{LADING_MIN}" opacity="0.8"/>')
+        for dy in (-40, -20, 0, 20, 40):
+            d.append(f'<line x1="{xl+2}" y1="{cy+dy}" x2="{xr-2}" y2="{cy+dy}" stroke="{VELD}" stroke-width="1.3"/>')
+            d.append(_pijlkop((xl + xr) / 2, cy + dy, 0.0, VELD))
+        d.append(_tekst(xl - 5, cy - 62, "+", 12, LADING_PLUS))
+        d.append(_tekst(xr + 5, cy - 62, "–", 13, LADING_MIN))
+
+    kader(0, 0, "radiaal: weg van een positieve lading")
+    radiaal(0, 0, "+")
+    kader(cel_b, 0, "radiaal: naar een negatieve lading toe")
+    radiaal(cel_b, 0, "-")
+    kader(0, cel_h, "dipool: van plus naar min")
+    dipool(0, cel_h)
+    kader(cel_b, cel_h, "homogeen: overal even sterk")
+    homogeen(cel_b, cel_h)
+    return _svg(breedte, cel_h * 2, "".join(d))
