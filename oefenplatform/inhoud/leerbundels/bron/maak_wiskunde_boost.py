@@ -329,108 +329,132 @@ BUNDELS["reele-getallen-wortels-en-machten-boost-doorstroom"] = dict(
         dict(kop="De getallenverzamelingen", blokken=[
             ("p", "De getallen zitten in elkaar als een reeks dozen. Elke doos bevat de vorige helemaal."),
             ("p", tabel(["Verzameling", "Teken", "Wat er nieuw bij komt", "Voorbeeld"], [
-                ["natuurlijke getallen", "ℕ", "tellen vanaf 0", "0, 1, 2, 3"],
-                ["gehele getallen", "ℤ", "de negatieve getallen", "min 7, min 1"],
-                ["rationale getallen", "ℚ", "alles wat je als breuk kan schrijven", "3/4, 0,125, min 2/5"],
-                ["reële getallen", "ℝ", "de getallen die géén breuk zijn", "√2, π"],
+                ["natuurlijke getallen", r"\(\mathbb{N}\)", r"tellen vanaf \(0\)", r"\(0, 1, 2, 3\)"],
+                ["gehele getallen", r"\(\mathbb{Z}\)", "de negatieve getallen", r"\(-7, -1\)"],
+                ["rationale getallen", r"\(\mathbb{Q}\)", "alles wat je als breuk kan schrijven",
+                 r"\(\tfrac{3}{4}\), \(0{,}125\), \(-\tfrac{2}{5}\)"],
+                ["reële getallen", r"\(\mathbb{R}\)", "de getallen die géén breuk zijn", r"\(\sqrt{2}\), \(\pi\)"],
             ])),
             ("p", "Elk natuurlijk getal is dus ook een geheel getal, elk geheel getal ook rationaal, en elk "
-                  "rationaal getal ook reëel. Omgekeerd geldt dat niet. Het getal <strong>min 7</strong> "
-                  "hoort bij de gehele getallen maar niet bij de natuurlijke: dat is de eerste doos waarin "
-                  "het past."),
+                  "rationaal getal ook reëel. Omgekeerd geldt dat niet. In symbolen: "
+                  "\\(\\mathbb{N} \\subset \\mathbb{Z} \\subset \\mathbb{Q} \\subset \\mathbb{R}\\). Het "
+                  "getal <strong>\\(-7\\)</strong> hoort bij \\(\\mathbb{Z}\\) maar niet bij "
+                  "\\(\\mathbb{N}\\): dat is de eerste doos waarin het past. Vraagt een opgave tot welke "
+                  "verzameling een getal behoort maar niet tot de kleinere ervoor, zoek dan net "
+                  "die doos."),
         ]),
         dict(kop="Rationaal of irrationaal", blokken=[
             ("p", "Een <strong>rationaal</strong> getal kan je schrijven als een breuk van twee gehele "
-                  "getallen. In decimale vorm is ze <strong>eindig</strong> (0,125) of "
-                  "<strong>repeterend</strong>, dus met een stukje dat zich eindeloos herhaalt "
-                  "(0,333… of 0,142857142857…). Allebei die vormen betekenen: het is een breuk."),
+                  "getallen. In decimale vorm is ze <strong>begrensd</strong>, dus eindig (\\(0{,}125\\)), of "
+                  "<strong>onbegrensd repeterend</strong>, met een stukje dat zich eindeloos herhaalt "
+                  "(\\(0{,}333\\ldots\\) of \\(0{,}142857142857\\ldots\\)). Allebei die vormen betekenen: "
+                  "het is een breuk."),
             ("p", "Een <strong>irrationaal</strong> getal heeft een decimale vorm die "
-                  "<strong>oneindig én niet-repeterend</strong> is: ze stopt nooit en herhaalt nooit "
-                  "een patroon. Je kan het dus niet als breuk van twee gehele "
-                  "getallen schrijven. √2, √3, √5 en π zijn zo. En dáárom volstaan de rationale getallen "
-                  "niet om de getallenas te vullen: er blijven gaten open, en juist daar liggen de "
-                  "irrationale getallen."),
-            ("weetje", "√9 is géén irrationaal getal: dat is gewoon 3. Enkel een wortel die niet mooi "
-                       "uitkomt, is irrationaal."),
-            ("p", "Over <strong>π</strong>: het is irrationaal, dus 22/7 en 3,14 zijn benaderingen en niet "
-                  "de echte waarde. De decimalen van π zijn tot vandaag nooit in herhaling gevallen."),
+                  "<strong>onbegrensd én niet-repeterend</strong> is: ze stopt nooit en herhaalt nooit "
+                  "een patroon. Je kan het dus niet als breuk van twee gehele getallen schrijven. "
+                  "\\(\\sqrt{2}\\), \\(\\sqrt{3}\\), \\(\\sqrt{5}\\) en \\(\\pi\\) zijn zo. En dáárom "
+                  "volstaan de rationale getallen niet om de getallenas te vullen: er blijven gaten open, "
+                  "en juist daar liggen de irrationale getallen. Er bestaan immers lengtes die je niet "
+                  "als breuk kan schrijven: de schuine zijde van een rechthoekige driehoek met "
+                  "rechthoekszijden \\(1\\) en \\(1\\) meet \\(\\sqrt{2}\\). Die "
+                  "uitkomst valt buiten \\(\\mathbb{Q}\\), terwijl de oppervlakte van een "
+                  "rechthoek met zijden \\(3\\) en \\(4\\) er gewoon in blijft."),
+        ]),
+        dict(kop="Waarom \\(\\mathbb{R}\\) nodig is", blokken=[
+            ("weetje", "\\(\\sqrt{9}\\) is géén irrationaal getal: dat is gewoon \\(3\\). Enkel een wortel "
+                       "die niet mooi uitkomt, is irrationaal."),
+            ("p", "Over <strong>\\(\\pi\\)</strong>: het is irrationaal, dus \\(\\tfrac{22}{7}\\) en "
+                  "\\(3{,}14\\) zijn benaderingen en niet de echte waarde. De decimalen van \\(\\pi\\) "
+                  "zijn tot vandaag nooit in herhaling gevallen. De uitspraak dat \\(\\pi\\) gelijk is "
+                  "aan een breuk klopt dus nooit: geen enkele breuk geeft het exact weer."),
         ]),
         dict(kop="Breuk, kommagetal en procent", blokken=[
             ("p", "Dezelfde waarde in drie kleren. Van breuk naar kommagetal deel je de teller door de "
-                  "noemer; van kommagetal naar procent vermenigvuldig je met 100."),
+                  "noemer; van kommagetal naar procent vermenigvuldig je met \\(100\\)."),
             ("p", tabel(["Breuk", "Kommagetal", "Procent"], [
-                ["1/2", "0,5", "50 %"],
-                ["2/5", "0,4", "40 %"],
-                ["3/5", "0,6", "60 %"],
-                ["3/4", "0,75", "75 %"],
-                ["3/8", "0,375", "37,5 %"],
-                ["1/8", "0,125", "12,5 %"],
+                [r"\(\tfrac{1}{2}\)", r"\(0{,}5\)", r"\(50 \%\)"],
+                [r"\(\tfrac{2}{5}\)", r"\(0{,}4\)", r"\(40 \%\)"],
+                [r"\(\tfrac{3}{5}\)", r"\(0{,}6\)", r"\(60 \%\)"],
+                [r"\(\tfrac{3}{4}\)", r"\(0{,}75\)", r"\(75 \%\)"],
+                [r"\(\tfrac{3}{8}\)", r"\(0{,}375\)", r"\(37{,}5 \%\)"],
+                [r"\(\tfrac{1}{8}\)", r"\(0{,}125\)", r"\(12{,}5 \%\)"],
             ])),
-            ("p", "Omgekeerd: 0,75 is 75/100, en dat vereenvoudig je door teller en noemer door 25 te delen "
-                  "tot 3/4. 0,4 is 4/10, gedeeld door 2 wordt dat 2/5."),
+            ("p", "Omgekeerd: \\(0{,}75 = \\tfrac{75}{100}\\), en dat vereenvoudig je door teller en noemer "
+                  "door \\(25\\) te delen tot \\(\\tfrac{3}{4}\\). En \\(0{,}4 = \\tfrac{4}{10}\\), gedeeld "
+                  "door \\(2\\) wordt dat \\(\\tfrac{2}{5}\\)."),
         ]),
         dict(kop="Wortels", blokken=[
-            ("p", "De <strong>vierkantswortel</strong> van a is het positieve getal dat in het kwadraat a "
-                  "geeft. De <strong>derdemachtswortel</strong> van a is het getal dat tot de derde macht a "
-                  "geeft: de derdemachtswortel van 27 is 3, van 64 is 4, van 125 is 5."),
+            ("p", "De <strong>vierkantswortel</strong> \\(\\sqrt{a}\\) is het positieve getal dat in het "
+                  "kwadraat \\(a\\) geeft. De <strong>derdemachtswortel</strong> \\(\\sqrt[3]{a}\\) is het "
+                  "getal dat tot de derde macht \\(a\\) geeft: \\(\\sqrt[3]{27} = 3\\), "
+                  "\\(\\sqrt[3]{64} = 4\\) en \\(\\sqrt[3]{125} = 5\\)."),
             ("p", "<strong>Vereenvoudigen</strong> doe je door het grootste volkomen kwadraat uit de wortel "
                   "te halen:"),
             ("p", tabel(["Wortel", "Splitsen", "Vereenvoudigd"], [
-                ["√18", "√(9 · 2)", "3√2"],
-                ["√50", "√(25 · 2)", "5√2"],
-                ["√72", "√(36 · 2)", "6√2"],
+                [r"\(\sqrt{18}\)", r"\(\sqrt{9 \cdot 2}\)", r"\(3\sqrt{2}\)"],
+                [r"\(\sqrt{50}\)", r"\(\sqrt{25 \cdot 2}\)", r"\(5\sqrt{2}\)"],
+                [r"\(\sqrt{72}\)", r"\(\sqrt{36 \cdot 2}\)", r"\(6\sqrt{2}\)"],
             ])),
-            ("p", "De regel erachter: <strong>de wortel van een product is het product van de wortels</strong>. "
-                  "Daarom is √3 · √12 gelijk aan √36, dus 6, en √5 · √20 gelijk aan √100, dus 10."),
-            ("kader", "<strong>De wortel van een som is níét de som van de wortels.</strong> √(9 + 16) is "
-                      "√25 en dus 5, niet 3 + 4 = 7. Reken de som eerst uit en trek daarna pas de wortel."),
+            ("kader", "De regel erachter, voor positieve \\(a\\) en \\(b\\): "
+                      "\\[\\sqrt{a \\cdot b} = \\sqrt{a} \\cdot \\sqrt{b}\\]"),
+            ("p", "Daarom is \\(\\sqrt{3} \\cdot \\sqrt{12} = \\sqrt{36} = 6\\) en "
+                  "\\(\\sqrt{5} \\cdot \\sqrt{20} = \\sqrt{100} = 10\\)."),
+        ]),
+        dict(kop="Rekenen met wortels", blokken=[
+            ("kader", "<strong>De wortel van een som is níét de som van de wortels.</strong> "
+                      "\\(\\sqrt{9 + 16} = \\sqrt{25} = 5\\), en niet \\(3 + 4 = 7\\). Reken de som eerst "
+                      "uit en trek daarna pas de wortel."),
             ("p", "Je kan wortels wel <strong>optellen</strong> als ze precies dezelfde wortel zijn, net als "
-                  "gelijksoortige termen: √3 + √3 is 2√3."),
+                  "gelijksoortige termen: \\(\\sqrt{3} + \\sqrt{3} = 2\\sqrt{3}\\)."),
             ("p", "Een noemer <strong>wortelvrij maken</strong> doe je door teller en noemer met diezelfde "
-                  "wortel te vermenigvuldigen. 1/√5 wordt zo √5/5."),
-            ("p", "Let op met √(a²) als a negatief is: dat is niet a maar <strong>min a</strong>, want een "
-                  "wortel is nooit negatief. In het algemeen is √(a²) gelijk aan de absolute waarde van a."),
+                  "wortel te vermenigvuldigen: \\(\\dfrac{1}{\\sqrt{5}} = \\dfrac{\\sqrt{5}}{5}\\)."),
+            ("p", "Let op met \\(\\sqrt{a^{2}}\\) als \\(a < 0\\): dat is niet \\(a\\) maar "
+                  "<strong>\\(-a\\)</strong>, want het resultaat van een wortel is altijd positief. In het "
+                  "algemeen is "
+                  "\\(\\sqrt{a^{2}} = |a|\\), de absolute waarde van \\(a\\)."),
         ]),
         dict(kop="Machten", blokken=[
             ("p", tabel(["Regel", "In symbolen", "Voorbeeld"], [
-                ["zelfde grondtal, vermenigvuldigen", "aᵐ · aⁿ = aᵐ⁺ⁿ", "a⁴ · a³ = a⁷"],
-                ["zelfde grondtal, delen", "aᵐ : aⁿ = aᵐ⁻ⁿ", "a⁶ : a² = a⁴"],
-                ["macht van een macht", "(aᵐ)ⁿ = aᵐ·ⁿ", "(a³)² = a⁶"],
-                ["macht van een product", "(ab)ⁿ = aⁿbⁿ", "(2a)³ = 8a³"],
-                ["exponent nul", "a⁰ = 1", "5⁰ = 1"],
-                ["negatieve exponent", "a⁻ⁿ = 1/aⁿ", "2⁻³ = 1/8, 3⁻² = 1/9"],
+                ["zelfde grondtal, vermenigvuldigen", r"\(a^{m} \cdot a^{n} = a^{m+n}\)", r"\(a^{4} \cdot a^{3} = a^{7}\)"],
+                ["zelfde grondtal, delen", r"\(\dfrac{a^{m}}{a^{n}} = a^{m-n}\)", r"\(\dfrac{a^{6}}{a^{2}} = a^{4}\)"],
+                ["macht van een macht", r"\(\left(a^{m}\right)^{n} = a^{m \cdot n}\)", r"\(\left(a^{3}\right)^{2} = a^{6}\)"],
+                ["macht van een product", r"\((ab)^{n} = a^{n} b^{n}\)", r"\((2a)^{3} = 8a^{3}\)"],
+                ["exponent nul", r"\(a^{0} = 1\)", r"\(5^{0} = 1\)"],
+                ["negatieve exponent", r"\(a^{-n} = \dfrac{1}{a^{n}}\)", r"\(2^{-3} = \tfrac{1}{8}\), \(3^{-2} = \tfrac{1}{9}\)"],
             ])),
             ("p", "Bij vermenigvuldigen <strong>tel je de exponenten op</strong>, je vermenigvuldigt ze niet. "
                   "Dat is de fout die het vaakst gemaakt wordt. Bij een <strong>macht van een macht</strong> "
                   "vermenigvuldig je ze wél."),
-            ("p", "Bij (2a)³ krijgt élke factor de exponent: 2³ · a³, dus 8a³. Vergeet het getal vooraan niet."),
-            ("weetje", "Een <strong>negatieve exponent</strong> maakt van de macht een breuk met 1 in de "
-                       "teller. Het getal zelf wordt daar niet negatief van: 2⁻³ is 1/8, een positief getal."),
+            ("p", "Bij \\((2a)^{3}\\) krijgt élke factor de exponent: \\(2^{3} \\cdot a^{3} = 8a^{3}\\). "
+                  "Vergeet het getal vooraan niet."),
+            ("weetje", "Een <strong>negatieve exponent</strong> maakt van de macht een breuk met \\(1\\) in "
+                       "de teller. Het getal zelf wordt daar niet negatief van: \\(2^{-3} = \\tfrac{1}{8}\\), "
+                       "een positief getal."),
         ]),
         dict(kop="Rekeneigenschappen", blokken=[
             ("p", "Drie namen die je moet kunnen herkennen:"),
             ("p", tabel(["Naam", "Wat ze zegt", "Voorbeeld"], [
-                ["commutativiteit", "de volgorde mag wisselen (commutatief)", "3 + 5 = 5 + 3"],
-                ["associativiteit", "de haakjes mogen verschuiven (associatief)", "(2 + 8) + 5 = 2 + (8 + 5)"],
-                ["distributiviteit", "de factor wordt over de som verdeeld (distributief)", "3 · (20 + 7) = 3 · 20 + 3 · 7"],
+                ["commutativiteit", "de volgorde mag wisselen (commutatief)", r"\(3 + 5 = 5 + 3\)"],
+                ["associativiteit", "de haakjes mogen verschuiven (associatief)", r"\((2 + 8) + 5 = 2 + (8 + 5)\)"],
+                ["distributiviteit", "de factor wordt over de som verdeeld (distributief)", r"\(3 \cdot (20 + 7) = 3 \cdot 20 + 3 \cdot 7\)"],
             ])),
             ("p", "De distributieve eigenschap is degene die je later bij het uitwerken van haakjes en bij "
                   "het ontbinden in factoren voortdurend gebruikt."),
-            ("p", "Sommige berekeningen kunnen <strong>enkel in de reële getallen</strong>: de wortel van 2 "
-                  "bestaat niet als breuk en dus niet in ℚ. De wortel van een negatief getal bestaat zelfs in "
-                  "ℝ niet."),
+            ("p", "Sommige berekeningen kunnen <strong>enkel in \\(\\mathbb{R}\\)</strong>: \\(\\sqrt{2}\\) "
+                  "bestaat niet als breuk en dus niet in \\(\\mathbb{Q}\\). De wortel van een negatief getal "
+                  "bestaat zelfs in \\(\\mathbb{R}\\) niet."),
         ]),
     ],
     onthoud=[
-        "ℕ zit in ℤ, ℤ in ℚ, ℚ in ℝ; omgekeerd geldt het niet.",
+        r"\(\mathbb{N} \subset \mathbb{Z} \subset \mathbb{Q} \subset \mathbb{R}\); omgekeerd geldt het niet.",
         "Rationaal: de decimale vorm stopt of herhaalt zich. Irrationaal: geen van beide.",
-        "√9 is 3, dus rationaal. √2, √3 en π zijn irrationaal.",
-        "√a · √b = √(ab), maar √(a + b) is NIET √a + √b.",
-        "√3 + √3 = 2√3: gelijke wortels mag je optellen.",
-        "1/√5 wortelvrij maken: teller en noemer maal √5, dus √5/5.",
-        "aᵐ · aⁿ = aᵐ⁺ⁿ (optellen), (aᵐ)ⁿ = aᵐⁿ (vermenigvuldigen).",
-        "a⁰ = 1 en a⁻ⁿ = 1/aⁿ.",
-        "(2a)³ = 8a³: elke factor krijgt de exponent.",
+        r"\(\sqrt{9} = 3\), dus rationaal. \(\sqrt{2}\), \(\sqrt{3}\) en \(\pi\) zijn irrationaal.",
+        r"\(\sqrt{a \cdot b} = \sqrt{a} \cdot \sqrt{b}\), maar \(\sqrt{a + b} \neq \sqrt{a} + \sqrt{b}\).",
+        r"\(\sqrt{3} + \sqrt{3} = 2\sqrt{3}\): gelijke wortels mag je optellen.",
+        r"\(\dfrac{1}{\sqrt{5}}\) wortelvrij maken: teller en noemer maal \(\sqrt{5}\), dus \(\dfrac{\sqrt{5}}{5}\).",
+        r"\(a^{m} \cdot a^{n} = a^{m+n}\) (optellen), \(\left(a^{m}\right)^{n} = a^{m \cdot n}\) (vermenigvuldigen).",
+        r"\(a^{0} = 1\) en \(a^{-n} = \dfrac{1}{a^{n}}\).",
+        r"\((2a)^{3} = 8a^{3}\): elke factor krijgt de exponent.",
         "Commutatief is volgorde, associatief is haakjes verschuiven, distributief is uitdelen.",
     ],
 )
