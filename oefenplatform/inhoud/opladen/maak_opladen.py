@@ -142,63 +142,76 @@ def sqlkaarten(lijst):
 # Vanaf hier staat alles van déze ronde. Enkel dit wijzigt.
 # ════════════════════════════════════════════════════════════
 
-BESTAND = "opladen-basis-hoekje.html"
-TITEL = "Plakpagina Basis en de uitdagingshoek"
-SLEUTEL = "connectopia-plakpagina-basis-hoekje-8-oktober"
-VOET = "Bijgewerkt op 8 oktober 2026, 's avonds laat"
-INTRO = """<p>Twee nieuwe vakken bij 🧱 <strong>Basis</strong>, allebei een opfrissing zoals de
-      wiskunde die er al staat: <strong>Frans</strong> (de woordenschat die in elke oefening
-      terugkomt) en <strong>Nederlands</strong> (woordsoorten, de d- en t-regel, zinsdelen,
-      meervoud en hoofdletters). Elk vijf thema&#8217;s, tien hoofdstukken, 200 vragen.</p>
-      <p>En een <strong>vierde reeks</strong> in 🔭 de uitdagingshoek, met jouw veertig vragen
-      erin verwerkt. Daar moet je niets nieuws aanmaken: de vier vakken bestaan al.</p>"""
+BESTAND = "opladen-notatie.html"
+TITEL = "Plakpagina wiskundige notatie"
+SLEUTEL = "connectopia-plakpagina-notatie-10-oktober"
+VOET = "Bijgewerkt op 10 oktober 2026"
+INTRO = """<p>Na de opmerking van Enya staan <strong>wiskunde gevorderd</strong> en
+      <strong>fysica</strong> van 🌍 Beyond volledig in <strong>echte wiskundige notatie</strong>,
+      met tekeningen bij de theorie en veel zwaardere oefenbundels.</p>
+      <p>De site staat al online, maar de vragen in jouw databank zijn nog de oude. Daarvoor zijn
+      de twee bestanden hieronder: zonder die stap blijft er bij een kind nog altijd
+      &#8220;wortel uit vijftig&#8221; staan in plaats van de formule.</p>
+      <p>Onderaan staan ook de bundels van twee vakken die er nog helemaal niet in zaten.</p>"""
 
-BASIS_CAT = "🧱 Basis"
-HOEKJE = "🔭 De uitdagingshoek"
+BEYOND = "🌍 Beyond doorstroom"
 
 # (afvinksleutel, naam, categorie, map, bestandsnaam, waarom)
 VRAGEN = [
-    ("basis-frans", "Frans", BASIS_CAT, "basis", "frans",
-     "Nieuw vak, dus er staat nog niets in. Vervangen aanzetten kan geen kwaad."),
-    ("basis-nederlands", "Nederlands", BASIS_CAT, "basis", "nederlands",
-     "Nieuw vak, dus er staat nog niets in. Vervangen aanzetten kan geen kwaad."),
+    ("wg-beyond", "Wiskunde gevorderd", BEYOND, "beyond", "wiskunde-gevorderd",
+     "Alle 44 hoofdstukken zitten in dit ene bestand, dus vervangen moet aan. "
+     "De antwoorden van de kinderen blijven staan."),
+    ("fy-beyond", "Fysica", BEYOND, "beyond", "fysica",
+     "Zelfde als hierboven: alle 46 hoofdstukken zitten erin, dus vervangen aan."),
 ]
 
-HOEKJE_VRAGEN = [
-    ("hk-ruimte", "De ruimte", HOEKJE, "hoekje", "de-ruimte",
-     "Het bestand draagt alle vier de hoofdstukken, dus vervangen moet hier echt aan. "
-     "De antwoorden van de kinderen blijven staan."),
-    ("hk-code", "Coderen en computers", HOEKJE, "hoekje", "coderen-en-computers",
-     "Zelfde als hierboven: alle vier de hoofdstukken zitten erin, dus vervangen aan."),
-    ("hk-belgie", "Geschiedenis van België", HOEKJE, "hoekje", "geschiedenis-van-belgie",
-     "Zelfde als hierboven: alle vier de hoofdstukken zitten erin, dus vervangen aan."),
-    ("hk-paradox", "Paradoxen en weetjes", HOEKJE, "hoekje", "paradoxen-en-weetjes",
-     "Zelfde als hierboven: alle vier de hoofdstukken zitten erin, dus vervangen aan."),
+# (afvinksleutel, naam, categorie, zipnaam)
+LEER_OM = [
+    ("l-wg", "Wiskunde gevorderd", BEYOND, "wiskunde-gevorderd-beyond"),
+    ("l-fy", "Fysica", BEYOND, "fysica-beyond"),
+]
+OEF_OM = [
+    ("o-wg", "Wiskunde gevorderd", BEYOND, "wiskunde-gevorderd-beyond"),
+    ("o-fy", "Fysica", BEYOND, "fysica-beyond"),
+]
+LEER_NIEUW = [
+    ("l-sgw", "Sociale en gedragswetenschappen", BEYOND, "sociale-en-gedragswetenschappen-beyond-doorstroom"),
+    ("l-fr", "Filosofie en recht", BEYOND, "filosofie-en-recht-beyond-doorstroom"),
+]
+OEF_NIEUW = [
+    ("o-sgw", "Sociale en gedragswetenschappen", BEYOND, "sociale-en-gedragswetenschappen-beyond-doorstroom"),
+    ("o-fr", "Filosofie en recht", BEYOND, "filosofie-en-recht-beyond-doorstroom"),
 ]
 
 SECTIES = [
-    dict(kop="Maak eerst de twee nieuwe vakken",
-         uitleg="Ga naar <span class=\"pad\">Beheer</span>, <span class=\"pad\">Vakken</span>, "
-                "kies de categorie <span class=\"pad\">🧱 Basis</span> en klik op "
-                "<span class=\"pad\">Een vak toevoegen</span>. Doe dat twee keer: één vak "
-                "<span class=\"pad\">Frans</span> en één vak <span class=\"pad\">Nederlands</span>. "
-                "Het vinkje voor de rekenmachine laat je hier uit. Zonder vak is er niets om de "
-                "vragen in te plakken.",
-         kaarten=[]),
-    dict(kop="Plak de vragen in de twee nieuwe vakken",
-         uitleg="Open het vak dat je net maakte, klik op <span class=\"pad\">Vragen importeren</span> "
-                "en plak met ctrl+V. Het bestand kiest zelf de categorie, dus de tien hoofdstukken "
-                "komen onder 🧱 Basis terecht. Het eerste hoofdstuk van een nieuw vak wordt vanzelf "
-                "gratis, net zoals bij de andere vakken.",
+    dict(kop="Laad de twee vragenbestanden opnieuw in",
+         uitleg="Open het vak in <span class=\"pad\">Beheer</span>, "
+                "<span class=\"pad\">Vakken</span>, categorie "
+                "<span class=\"pad\">🌍 Beyond doorstroom</span>, klik op "
+                "<span class=\"pad\">Vragen importeren</span>, plak met ctrl+V en zet "
+                "<span class=\"pad\">Bestaande vragen vervangen</span> aan. Zonder dat vinkje "
+                "krijg je alles dubbel. Dit is de stap die de notatie bij de kinderen brengt.",
          kaarten=vraagkaarten(VRAGEN)),
-    dict(kop="De vierde reeks van de uitdagingshoek",
-         uitleg="Deze vier vakken bestaan al, dus je hoeft niets aan te maken. Open elk vak in "
-                "<span class=\"pad\">🔭 De uitdagingshoek</span>, klik op "
-                "<span class=\"pad\">Vragen importeren</span>, plak en zet "
-                "<span class=\"pad\">Bestaande vragen vervangen</span> aan. Elk bestand draagt alle "
-                "vier de hoofdstukken, dus zonder dat vinkje krijg je alles dubbel. De voortgang van "
-                "de kinderen blijft bewaard.",
-         kaarten=vraagkaarten(HOEKJE_VRAGEN)),
+    dict(kop="Vervang de leerbundels van die twee vakken",
+         uitleg="Ga naar <span class=\"pad\">Beheer</span>, <span class=\"pad\">Leerstof</span>. "
+                "Pak de zip uit en sleep alle pdf&#8217;s er in één keer in: het formulier zoekt "
+                "zelf het juiste hoofdstuk en vraagt of het de oude mag vervangen. Zeg ja, want "
+                "in de oude staat de theorie nog in woorden.",
+         kaarten=zipkaarten(LEER_OM, "leerbundels", "leerbundels")),
+    dict(kop="Vervang ook de oefenbundels",
+         uitleg="Zelfde plek en zelfde werkwijze. Deze zijn niet alleen in notatie herschreven, "
+                "ze zijn ook veel groter geworden: waar er elf oefeningen stonden, staan er nu "
+                "een dertigtal, met echt rekenwerk in plaats van enkel begrippen.",
+         kaarten=zipkaarten(OEF_OM, "oefenbundels", "oefenbundels")),
+    dict(kop="Twee vakken die nog geen enkele bundel hebben",
+         uitleg="Sociale en gedragswetenschappen en filosofie en recht staan wel in het "
+                "oefenplatform, maar er hangt nog geen leerstof aan. Hier is er niets te "
+                "vervangen, je laadt ze gewoon op. Twintig leerbundels per vak.",
+         kaarten=zipkaarten(LEER_NIEUW, "leerbundels", "leerbundels")),
+    dict(kop="En hun oefenbundels",
+         uitleg="Zelfde twee vakken, zelfde werkwijze. Twintig oefenbundels per vak, elk met een "
+                "antwoordblad achteraan dat je eraf scheurt voor je ze aan een kind geeft.",
+         kaarten=zipkaarten(OEF_NIEUW, "oefenbundels", "oefenbundels")),
 ]
 
 
