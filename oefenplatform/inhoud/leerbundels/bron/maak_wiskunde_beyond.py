@@ -434,112 +434,113 @@ BUNDELS["een-functie-aflezen-van-haar-grafiek-beyond"] = dict(
     onder="Domein, bereik, symmetrie, verloop en asymptoten, en wat een inverse functie is.",
     secties=[
         dict(kop="Domein, bereik en voorstellingswijzen", blokken=[
-            ("p", "<strong>Het domein van een functie zijn alle x-waarden waarvoor ze bestaat.</strong> Het "
-                  "ligt op de horizontale as. <strong>Het bereik is de verzameling van alle functiewaarden "
-                  "die ze aanneemt</strong>, en dat lees je af op de verticale as. Bij <strong>één gedeeld "
-                  "door x min vijf</strong> hoort <strong>vijf</strong> niet bij het domein, want dan wordt "
-                  "de noemer nul."),
-            ("p", "Het <strong>praktisch domein</strong> is <strong>het stuk van het domein dat zinvol is in "
-                  "de context</strong>. Bij een model voor de hoogte van een plant is een negatieve tijd "
-                  "betekenisloos, ook al staat die in het wiskundige domein."),
-            ("p", "Een functie kan je op <strong>vier manieren voorstellen</strong>: met een "
-                  "<strong>verwoording</strong>, met een <strong>tabel</strong>, met een "
-                  "<strong>grafiek</strong> en met een <strong>voorschrift</strong>. Je moet van elke "
-                  "voorstellingswijze naar elke andere kunnen overstappen."),
-            ("kader", "<strong>Een verticale rechte mag de grafiek van een functie hoogstens één keer "
-                      "snijden.</strong> Bij twee snijpunten zouden er voor dezelfde x twee functiewaarden "
-                      "zijn, en dan is het geen functie meer."),
+            ("p", r"<strong>\(\text{dom}\,f\) zijn alle \(x\) waarvoor \(f(x)\) bestaat.</strong> Het "
+                  r"domein ligt op de \(x\)-as. <strong>\(\text{ber}\,f\) is de verzameling van alle "
+                  r"waarden \(f(x)\) die ze aanneemt</strong>, en dat lees je af op de \(y\)-as. Bij "
+                  r"\(f(x)=\dfrac{1}{x-5}\) hoort \(5\) niet bij het domein, want dan wordt de noemer "
+                  r"\(0\)."),
+            ("p", r"Het <strong>praktisch domein</strong> is het stuk van het domein dat zinvol is in de "
+                  r"context. Bij een model voor de hoogte van een plant is een negatieve tijd "
+                  r"betekenisloos, ook al hoort ze bij het wiskundige domein."),
+            ("p", r"Een functie kan je op <strong>vier manieren voorstellen</strong>: met een "
+                  r"<strong>verwoording</strong>, met een <strong>tabel</strong>, met een "
+                  r"<strong>grafiek</strong> en met een <strong>voorschrift</strong>. Je moet van elke "
+                  r"voorstellingswijze naar elke andere kunnen overstappen."),
+            ("kader", r"<strong>Een verticale rechte mag de grafiek van een functie hoogstens één keer "
+                      r"snijden.</strong> Bij twee snijpunten zouden er voor dezelfde \(x\) twee waarden "
+                      r"\(f(x)\) zijn, en dan is het geen functie meer."),
         ]),
         dict(kop="Nulwaarden, tekenverloop en symmetrie", blokken=[
-            ("p", "Een <strong>nulwaarde is een getal</strong>, een <strong>nulpunt is een punt op de "
-                  "grafiek</strong>. De nulwaarde is de x waarvoor de functie nul wordt; het nulpunt is het "
-                  "punt met die x en met y gelijk aan nul. <strong>Snijdt een grafiek de x-as in drie "
-                  "punten, dan heeft de functie drie nulwaarden.</strong>"),
-            ("p", "In een <strong>tekenverloop</strong> lees je af <strong>waar de functiewaarden positief "
-                  "of negatief zijn</strong>, dus boven of onder de x-as. Stijgen en dalen is iets anders: "
-                  "dat is het waardeverloop, en dat lees je af uit de afgeleide."),
-            ("p", tabel(["Soort symmetrie", "Wat geldt voor de waarden", "Hoe de grafiek ligt"], [
-                ["even functie", "de waarde in min x is dezelfde als in x", "symmetrisch om de verticale as"],
-                ["oneven functie", "de waarde in min x is het tegengestelde", "symmetrisch om de oorsprong"],
+            ("p", r"Een <strong>nulwaarde is een getal</strong>, een <strong>nulpunt is een punt</strong>. "
+                  r"De nulwaarde is de \(x\) waarvoor \(f(x)=0\); het nulpunt is \((x,0)\). Snijdt een "
+                  r"grafiek de \(x\)-as in drie punten, dan heeft de functie drie nulwaarden."),
+            ("p", r"In een <strong>tekenverloop</strong> lees je af waar \(f(x)>0\) en waar \(f(x)<0\), dus "
+                  r"boven of onder de \(x\)-as. Stijgen en dalen is iets anders: dat is het verloop, en dat "
+                  r"lees je af uit \(f'\)."),
+            ("p", tabel(["Soort symmetrie", "Wat geldt", "Hoe de grafiek ligt", "Voorbeeld"], [
+                ["even functie", r"\(f(-x)=f(x)\)", r"symmetrisch om de \(y\)-as", r"\(f(x)=x^{2}\)"],
+                ["oneven functie", r"\(f(-x)=-f(x)\)", "symmetrisch om de oorsprong", r"\(f(x)=x^{3}\)"],
             ])),
-            ("kader", "Verwissel die twee niet. <strong>Een grafiek die symmetrisch is om de oorsprong hoort "
-                      "bij een oneven functie</strong>, niet bij een even functie. Bij een oneven functie "
-                      "legt een halve draai om de oorsprong de grafiek op zichzelf."),
+            ("kader", r"Verwissel die twee niet. <strong>Een grafiek die symmetrisch is om de oorsprong "
+                      r"hoort bij een oneven functie</strong>, niet bij een even functie. Bij een oneven "
+                      r"functie legt een halve draai om de oorsprong de grafiek op zichzelf."),
         ]),
         dict(kop="Het verloop lezen", blokken=[
-            ("p", "<strong>Een toenemende stijging betekent dat de grafiek stijgt en daarbij almaar steiler "
-                  "wordt.</strong> Bij een afnemende stijging gaat ze wel nog omhoog, maar met een kleinere "
-                  "helling. Blijft de helling gelijk, dan spreek je van lineaire groei."),
-            ("p", "<strong>Een buigpunt is het punt waar hol in bol overgaat.</strong> Het gaat dus over de "
-                  "kromming, niet over de richting. Waar stijgen in dalen overgaat, ligt een maximum."),
-            ("p", "<strong>In een maximum bereikt de functie niet altijd haar grootste waarde op het hele "
-                  "domein.</strong> Dat geldt alleen voor een <strong>absoluut maximum</strong>. Een "
-                  "<strong>plaatselijk maximum</strong> is enkel de hoogste waarde in zijn eigen omgeving; "
-                  "verderop kan de grafiek nog hoger gaan."),
-            ("p", "Bij een golvende grafiek horen nog twee woorden. De <strong>amplitude</strong> is de "
-                  "afstand van de evenwichtslijn tot de top: schommelt een sinusgrafiek tussen min drie en "
-                  "drie rond de x-as, dan is de amplitude <strong>drie</strong>. De "
-                  "<strong>periode</strong> is de kleinste verschuiving waarna het beeld weer hetzelfde is: "
-                  "herhaalt een grafiek zich om de vier eenheden, dan is de periode <strong>vier</strong>."),
+            ("p", r"<strong>Een toenemende stijging betekent dat de grafiek stijgt en daarbij almaar "
+                  r"steiler wordt.</strong> Bij een afnemende stijging gaat ze wel nog omhoog, maar met een "
+                  r"kleinere helling. Blijft de helling gelijk, dan spreek je van lineaire groei."),
+            ("p", r"<strong>Een buigpunt is het punt waar hol in bol overgaat.</strong> Het gaat dus over "
+                  r"de kromming, niet over de richting. Waar stijgen in dalen overgaat, ligt een maximum."),
+            ("p", r"<strong>In een maximum bereikt de functie niet altijd haar grootste waarde op het hele "
+                  r"domein.</strong> Dat geldt alleen voor een <strong>absoluut maximum</strong>. Een "
+                  r"<strong>plaatselijk maximum</strong> is enkel de hoogste waarde in zijn eigen omgeving; "
+                  r"verderop kan de grafiek nog hoger gaan."),
+            ("p", r"Bij een golvende grafiek horen nog twee woorden. De <strong>amplitude</strong> is de "
+                  r"afstand van de evenwichtslijn tot de top: schommelt een sinusgrafiek tussen \(-3\) en "
+                  r"\(3\) rond de \(x\)-as, dan is de amplitude \(\tfrac{3-(-3)}{2}=3\). De "
+                  r"<strong>periode</strong> is de kleinste \(p>0\) waarvoor \(f(x+p)=f(x)\) voor elke "
+                  r"\(x\): herhaalt een grafiek zich om de vier eenheden, dan is de periode \(4\)."),
         ]),
         dict(kop="Gedrag op oneindig en asymptoten", blokken=[
-            ("p", "<strong>Het gedrag van een functie op oneindig is wat er met de functiewaarden gebeurt "
-                  "als x heel groot of heel klein wordt.</strong> Oneindig is geen getal, dus de functie "
-                  "heeft daar geen waarde; je kijkt naar waar de waarden naartoe kruipen."),
-            ("p", "<strong>Een horizontale asymptoot betekent dat de grafiek op oneindig een vaste hoogte "
-                  "nadert.</strong> <strong>Niet elke functie heeft een asymptoot</strong>: een gewone "
-                  "parabool of een rechte heeft er geen enkele. Asymptoten horen vooral bij rationale, "
-                  "exponentiële en logaritmische functies."),
+            ("p", r"<strong>Het gedrag van \(f\) op oneindig is wat er met \(f(x)\) gebeurt als "
+                  r"\(x\to+\infty\) of \(x\to-\infty\).</strong> Oneindig is geen getal, dus de functie "
+                  r"heeft daar geen waarde; je kijkt naar waar de waarden naartoe kruipen."),
+            ("p", r"<strong>Een horizontale asymptoot betekent dat de grafiek op oneindig een vaste hoogte "
+                  r"nadert.</strong> Bij een rationale functie wegen voor grote \(|x|\) alleen de hoogste "
+                  r"graden mee: \(f(x)=\dfrac{2x+1}{x-3}\) heeft dus \(y=2\) als horizontale asymptoot. Een "
+                  r"<strong>verticale asymptoot</strong> ligt waar de noemer \(0\) wordt en de teller niet, "
+                  r"hier dus bij \(x=3\)."),
+            ("p", r"<strong>Niet elke functie heeft een asymptoot</strong>: een parabool of een rechte "
+                  r"heeft er geen enkele. Asymptoten horen vooral bij rationale, exponentiële en "
+                  r"logaritmische functies."),
         ]),
         dict(kop="De inverse functie", blokken=[
-            ("p", "De <strong>inverse functie</strong> maakt ongedaan wat de functie doet. Je vindt haar "
-                  "voorschrift door <strong>x en y te verwisselen en dan naar y op te lossen</strong>. Let "
-                  "op: <strong>één gedeeld door de functie is iets anders dan de inverse functie</strong>, "
-                  "ook al lijkt de notatie erop."),
-            ("p", "<strong>De grafieken van een functie en haar inverse zijn elkaars spiegelbeeld om de "
-                  "eerste bissectrice</strong>, de rechte met vergelijking <strong>y is gelijk aan "
-                  "x</strong>. Die deelt het eerste en het derde kwadrant doormidden; min x is de tweede "
-                  "bissectrice. Spiegelen werkt alleen netjes in een orthonormaal assenstelsel. Bij dat "
-                  "spiegelen <strong>wisselen de twee coördinaten van plaats</strong>: het punt nul en twee "
-                  "op de y-as wordt <strong>het punt twee en nul op de x-as</strong>. Daarom is ook "
-                  "<strong>het domein van de inverse het bereik van de oorspronkelijke functie</strong>."),
-            ("p", "<strong>Een functie is niet inverteerbaar als een horizontale rechte haar grafiek meer "
-                  "dan één keer snijdt</strong>; bij een inverteerbare functie mag dat dus "
-                  "<strong>hoogstens één keer</strong>. Anders hoort dezelfde functiewaarde bij meerdere "
-                  "x-waarden en weet de inverse niet welke ze moet teruggeven. Daarom is <strong>de "
-                  "kwadraatfunctie niet inverteerbaar op heel haar domein</strong>: twee en min twee hebben "
-                  "hetzelfde kwadraat. Beperk je ze <strong>tot de getallen groter dan of gelijk aan "
-                  "nul</strong>, dan is ze strikt stijgend en is <strong>de vierkantswortel haar "
-                  "inverse</strong>. <strong>Ook niet elke rechte is inverteerbaar</strong>: een "
-                  "horizontale rechte wordt na spiegeling een verticale rechte, en dat is geen functie."),
+            ("p", r"De <strong>inverse functie \(f^{-1}\)</strong> maakt ongedaan wat \(f\) doet. Je vindt "
+                  r"haar voorschrift door <strong>\(x\) en \(y\) te verwisselen en dan naar \(y\) op te "
+                  r"lossen</strong>. Voor \(f(x)=\dfrac{2x-1}{3}\) geeft \(x=\dfrac{2y-1}{3}\) dat "
+                  r"\(3x+1=2y\), dus \(f^{-1}(x)=\dfrac{3x+1}{2}\). Let op: <strong>\(f^{-1}\) is niet "
+                  r"\(\dfrac{1}{f}\)</strong>, ook al lijkt de notatie erop."),
+            ("p", r"<strong>De grafieken van \(f\) en \(f^{-1}\) zijn elkaars spiegelbeeld om de eerste "
+                  r"bissectrice</strong>, de rechte \(y=x\). Die deelt het eerste en het derde kwadrant "
+                  r"doormidden; \(y=-x\) is de tweede bissectrice. Spiegelen werkt alleen netjes in een "
+                  r"orthonormaal assenstelsel. Daarbij wisselen de coördinaten van plaats: \((0,2)\) wordt "
+                  r"\((2,0)\). Daarom geldt ook <strong>\(\text{dom}\,f^{-1}=\text{ber}\,f\)</strong>."),
+            ("p", r"<strong>Een functie is niet inverteerbaar als een horizontale rechte haar grafiek meer "
+                  r"dan één keer snijdt</strong>; bij een inverteerbare functie mag dat hoogstens één keer. "
+                  r"Anders hoort dezelfde waarde bij meerdere \(x\)-waarden en weet \(f^{-1}\) niet welke "
+                  r"ze moet teruggeven. Daarom is \(f(x)=x^{2}\) niet inverteerbaar op heel "
+                  r"\(\mathbb{R}\): \(2\) en \(-2\) hebben hetzelfde kwadraat. Beperk je het domein tot "
+                  r"\(\left[0,+\infty\right[\), dan is ze strikt stijgend en is \(f^{-1}(x)=\sqrt{x}\). "
+                  r"<strong>Ook niet elke rechte is inverteerbaar</strong>: \(y=c\) wordt na spiegeling een "
+                  r"verticale rechte, en dat is geen functie."),
             ("p", tabel(["Functie", "Haar inverse", "Waarom"], [
-                ["de exponentiële functie met grondtal a", "de logaritmische functie met grondtal a", "de logaritme geeft net de exponent terug"],
-                ["de kwadraatfunctie op de niet-negatieve getallen", "de vierkantswortel", "kwadrateren en worteltrekken heffen elkaar daar op"],
-                ["x plus drie", "x min drie", "wat de functie erbij doet, haalt de inverse er weer af"],
-                ["twee maal x", "de helft, dus voor tien geeft ze vijf", "de functie verdubbelt, de inverse halveert"],
+                [r"\(f(x)=a^{x}\)", r"\(f^{-1}(x)=\log_{a}x\)", "de logaritme geeft net de exponent terug"],
+                [r"\(f(x)=x^{2}\) op \(\left[0,+\infty\right[\)", r"\(f^{-1}(x)=\sqrt{x}\)", "kwadrateren en worteltrekken heffen elkaar daar op"],
+                [r"\(f(x)=x+3\)", r"\(f^{-1}(x)=x-3\)", "wat de functie erbij doet, haalt de inverse er weer af"],
+                [r"\(f(x)=2x\)", r"\(f^{-1}(x)=\tfrac{x}{2}\)", r"de functie verdubbelt, dus \(f^{-1}(10)=5\)"],
             ])),
-            ("p", "De <strong>boogsinus is de inverse van de sinus op een beperkt domein</strong>. "
-                  "<strong>Men beperkt het domein omdat de sinus anders dezelfde waarde oneindig vaak "
-                  "aanneemt</strong>: zonder beperking zou de boogsinus bij één getal oneindig veel hoeken "
-                  "moeten teruggeven. Boogsinus, boogcosinus en boogtangens heten samen de "
-                  "<strong>cyclometrische functies</strong>."),
-            ("weetje", "Twee gevolgen die je meteen mag gebruiken. <strong>De inverse van een strikt "
-                       "stijgende functie is zelf ook strikt stijgend</strong>, want spiegelen draait de "
-                       "volgorde van de punten niet om. En ligt een grafiek <strong>symmetrisch om de eerste "
-                       "bissectrice, dan is de functie haar eigen inverse</strong>: één gedeeld door x is zo "
-                       "een functie."),
+            ("p", r"<strong>\(\arcsin\) is de inverse van \(\sin\) op een beperkt domein</strong>, meestal "
+                  r"\(\left[-\tfrac{\pi}{2},\tfrac{\pi}{2}\right]\). Men beperkt het domein omdat de sinus "
+                  r"anders dezelfde waarde oneindig vaak aanneemt: zonder beperking zou \(\arcsin\) bij één "
+                  r"getal oneindig veel hoeken moeten teruggeven. \(\arcsin\), \(\arccos\) en \(\arctan\) "
+                  r"heten samen de <strong>cyclometrische functies</strong>."),
+            ("weetje", r"Twee gevolgen die je meteen mag gebruiken. <strong>De inverse van een strikt "
+                       r"stijgende functie is zelf ook strikt stijgend</strong>, want spiegelen draait de "
+                       r"volgorde van de punten niet om. En ligt een grafiek symmetrisch om \(y=x\), dan is "
+                       r"<strong>de functie haar eigen inverse</strong>: \(f(x)=\tfrac{1}{x}\) is zo een "
+                       r"functie."),
         ]),
     ],
     onthoud=[
-        "Het domein zijn alle x-waarden waarvoor de functie bestaat, het bereik alle functiewaarden die ze aanneemt.",
-        "Een verticale rechte mag de grafiek van een functie hoogstens één keer snijden.",
-        "Een nulwaarde is een getal, een nulpunt is een punt op de grafiek.",
-        "Een even functie is symmetrisch om de verticale as, een oneven functie om de oorsprong.",
-        "Een buigpunt is het punt waar hol in bol overgaat.",
-        "Een plaatselijk maximum is enkel de hoogste waarde in zijn eigen omgeving.",
-        "Bij een horizontale asymptoot nadert de grafiek op oneindig een vaste hoogte.",
-        "De inverse functie vind je door x en y te verwisselen en naar y op te lossen.",
-        "Een functie en haar inverse zijn elkaars spiegelbeeld om de eerste bissectrice, y is gelijk aan x.",
+        r"\(\text{dom}\,f\) zijn alle \(x\) waarvoor \(f(x)\) bestaat, \(\text{ber}\,f\) alle waarden die ze aanneemt.",
+        r"Een verticale rechte mag de grafiek van een functie hoogstens één keer snijden.",
+        r"Een nulwaarde is een getal, een nulpunt is het punt \((x,0)\).",
+        r"Even: \(f(-x)=f(x)\), symmetrisch om de \(y\)-as. Oneven: \(f(-x)=-f(x)\), om de oorsprong.",
+        r"Een buigpunt is het punt waar hol in bol overgaat.",
+        r"Een plaatselijk maximum is enkel de hoogste waarde in zijn eigen omgeving.",
+        r"Bij een rationale functie geven de hoogste graden de horizontale asymptoot.",
+        r"\(f^{-1}\) vind je door \(x\) en \(y\) te verwisselen en naar \(y\) op te lossen; \(f^{-1}\neq\tfrac{1}{f}\).",
+        r"\(f\) en \(f^{-1}\) zijn elkaars spiegelbeeld om \(y=x\), en \(\text{dom}\,f^{-1}=\text{ber}\,f\).",
     ],
 )
 
