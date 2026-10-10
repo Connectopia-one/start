@@ -30,21 +30,21 @@ DEEL1 = [
         ],
         antwoord=0,
         uitleg="Ze heeft geen stof nodig, want het zijn de elektrische en magnetische velden "
-        "die trillen. In vacuüm is haar snelheid ongeveer 300 000 kilometer per seconde.",
+        r"die trillen. In vacuüm is \(c = 3{,}00 \times 10^{8}\ \text{m/s}\).",
     ),
     dict(
         type="invultekst",
         vraag="Hoe groot is de lichtsnelheid in vacuüm, in meter per seconde?",
         antwoord=["300000000", "3 · 10⁸", "ongeveer 300000 km/s"],
-        uitleg="Preciezer is dat 299 792 458 meter per seconde. In glas of water gaat licht "
-        "langzamer.",
+        uitleg=r"Preciezer is \(c = 2{,}998 \times 10^{8}\ \text{m/s}\). In glas of water gaat "
+        r"licht langzamer.",
     ),
     dict(
         type="waarofniet",
         vraag="Licht gaat in water langzamer dan in vacuüm.",
         antwoord=True,
-        uitleg="Daarom heeft water een brekingsindex groter dan één. Dat vertragen is net "
-        "wat de breking veroorzaakt.",
+        uitleg=r"Daarom heeft water \(n > 1\), want \(n = \dfrac{c}{v}\). Dat vertragen is net "
+        r"wat de breking veroorzaakt.",
     ),
     dict(
         type="meerkeuze",
@@ -115,12 +115,12 @@ DEEL1 = [
             "het punt waar de lens het licht weerkaatst",
         ],
         antwoord=0,
-        uitleg="De afstand van de lens tot dat punt is de brandpuntsafstand. Een bolle lens "
-        "heeft er een aan elke kant.",
+        uitleg=r"De afstand van de lens tot dat punt is de brandpuntsafstand \(f\). Een bolle "
+        r"lens heeft er een aan elke kant.",
     ),
     dict(
         type="meerkeuze",
-        vraag="Een voorwerp staat verder dan tweemaal de brandpuntsafstand van een bolle lens. Welk beeld krijg je?",
+        vraag=r"Een voorwerp staat verder dan \(2f\) van een bolle lens. Welk beeld krijg je?",
         opties=[
             "een reëel, omgekeerd en kleiner beeld",
             "een reëel, rechtopstaand en groter beeld",
@@ -128,8 +128,8 @@ DEEL1 = [
             "een virtueel, omgekeerd en kleiner beeld",
         ],
         antwoord=0,
-        uitleg="Dat is wat de lens van een fototoestel doet. Staat het voorwerp binnen de "
-        "brandpuntsafstand, dan krijg je een virtueel en groter beeld.",
+        uitleg=r"Dat is wat de lens van een fototoestel doet. Staat het voorwerp binnen \(f\), "
+        r"dan krijg je een virtueel en groter beeld.",
     ),
     dict(
         type="meerkeuze",
@@ -148,14 +148,14 @@ DEEL1 = [
         type="meerkeuze",
         vraag="Welk verband bestaat er tussen de energie van een foton en de golf?",
         opties=[
-            "de energie stijgt met de frequentie en daalt met de golflengte",
-            "de energie daalt met de frequentie en stijgt met de golflengte",
-            "de energie stijgt met zowel de frequentie als de golflengte",
-            "de energie hangt alleen van de amplitude van de golf af",
+            r"de energie stijgt met \(f\) en daalt met \(\lambda\)",
+            r"de energie daalt met \(f\) en stijgt met \(\lambda\)",
+            r"de energie stijgt met zowel \(f\) als \(\lambda\)",
+            r"de energie hangt enkel van de amplitude \(A\) af",
         ],
         antwoord=0,
-        uitleg="Daarom is gammastraling zo gevaarlijk en een radiogolf niet. De formule is "
-        "de constante van Planck maal de frequentie.",
+        uitleg=r"Daarom is gammastraling zo gevaarlijk en een radiogolf niet. De formule is "
+        r"\(E = h\,f\), met \(h = 6{,}63 \times 10^{-34}\ \text{J}\cdot\text{s}\).",
     ),
     dict(
         type="meerkeuze",
@@ -227,8 +227,8 @@ DEEL1 = [
         type="invultekst",
         vraag="Hoe noem je het kleinste pakketje energie van licht?",
         antwoord=["een foton", "foton", "lichtkwantum"],
-        uitleg="De energie ervan is de constante van Planck maal de frequentie. Licht "
-        "gedraagt zich dus zowel als een golf als als een deeltje.",
+        uitleg=r"De energie ervan is \(E = h\,f\). Licht gedraagt zich dus zowel als een golf "
+        r"als als een deeltje.",
     ),
     dict(
         type="meerkeuze",
@@ -263,21 +263,21 @@ DEEL2 = [
         type="waarofniet",
         vraag="Geluid loopt in warme lucht sneller dan in koude lucht.",
         antwoord=True,
-        uitleg="De deeltjes bewegen daar sneller en geven de stoot vlugger door. Rond 20 "
-        "graden is het ongeveer 343 meter per seconde.",
+        uitleg=r"De deeltjes bewegen daar sneller en geven de stoot vlugger door. Rond "
+        r"\(20\ ^\circ\text{C}\) is \(v = 343\) m/s.",
     ),
     dict(
         type="meerkeuze",
-        vraag="Je ziet een bliksem en hoort de donder 6 s later. Hoe ver is het onweer ongeveer?",
+        vraag=r"Je ziet een bliksem en hoort de donder \(6{,}0\) s later. Hoe ver is het onweer ongeveer?",
         opties=[
-            "ongeveer 2 km",
-            "ongeveer 6 km",
-            "ongeveer 340 m",
-            "ongeveer 20 km",
+            r"ongeveer \(2\) km",
+            r"ongeveer \(6\) km",
+            r"ongeveer \(340\) m",
+            r"ongeveer \(20\) km",
         ],
         antwoord=0,
-        uitleg="Geluid doet ongeveer 340 meter per seconde, dus 6 maal 340 is ruim 2000 "
-        "meter. Het licht is er zo goed als meteen.",
+        uitleg=r"Met \(v = 340\) m/s is \(d = v\,t = 340 \times 6{,}0 = 2040\) m. Het licht is "
+        r"er zo goed als meteen.",
     ),
     dict(
         type="meerkeuze",
@@ -316,27 +316,27 @@ DEEL2 = [
         type="meerkeuze",
         vraag="Welke frequenties kan een mens normaal horen?",
         opties=[
-            "van ongeveer 20 Hz tot ongeveer 20 000 Hz",
-            "van ongeveer 2 Hz tot ongeveer 2000 Hz",
-            "van ongeveer 200 Hz tot ongeveer 200 000 Hz",
-            "van ongeveer 20 Hz tot ongeveer 200 Hz",
+            r"van \(20\) Hz tot \(20\,000\) Hz",
+            r"van \(2\) Hz tot \(2000\) Hz",
+            r"van \(200\) Hz tot \(200\,000\) Hz",
+            r"van \(20\) Hz tot \(200\) Hz",
         ],
         antwoord=0,
-        uitleg="Met de jaren verdwijnt de bovenkant van dat gebied. Daaronder heet het "
-        "infrasoon en daarboven ultrasoon.",
+        uitleg=r"Met de jaren verdwijnt de bovenkant van dat gebied. Onder \(20\) Hz heet het "
+        r"infrasoon, erboven ultrasoon.",
     ),
     dict(
         type="meerkeuze",
         vraag="Wat is ultrasoon geluid?",
         opties=[
-            "geluid met een frequentie boven de 20 000 Hz",
-            "geluid met een frequentie onder de 20 Hz",
+            r"geluid met \(f > 20\,000\) Hz",
+            r"geluid met \(f < 20\) Hz",
             "geluid dat luider is dan de pijndrempel",
             "geluid dat sneller loopt dan in lucht",
         ],
         antwoord=0,
-        uitleg="Een vleermuis en een echografie werken ermee. Onder de 20 hertz heet het "
-        "infrasoon, en dat voel je eerder dan dat je het hoort.",
+        uitleg=r"Een vleermuis en een echografie werken ermee. Onder \(20\) Hz heet het "
+        r"infrasoon, en dat voel je eerder dan dat je het hoort.",
     ),
     dict(
         type="meerkeuze",
@@ -355,21 +355,21 @@ DEEL2 = [
         type="meerkeuze",
         vraag="Waar ligt de gehoordrempel van een mens op de decibelschaal?",
         opties=[
-            "bij 0 dB",
-            "bij 20 dB",
-            "bij 80 dB",
-            "bij 120 dB",
+            r"bij \(0\) dB",
+            r"bij \(20\) dB",
+            r"bij \(80\) dB",
+            r"bij \(120\) dB",
         ],
         antwoord=0,
-        uitleg="Rond 80 decibel ligt de gevaargrens en rond 120 de pijndrempel. De schaal "
-        "begint dus bij het zachtste wat we nog horen.",
+        uitleg=r"Rond \(80\) dB ligt de gevaargrens en rond \(120\) dB de pijndrempel. De "
+        r"schaal begint dus bij het zachtste wat we nog horen.",
     ),
     dict(
         type="invultekst",
         vraag="Vanaf hoeveel decibel spreekt men van de gevaargrens voor het gehoor?",
         antwoord=["80", "80 dB", "tachtig"],
-        uitleg="Daarboven kan langdurige blootstelling schade geven. De pijndrempel ligt "
-        "rond 120 decibel.",
+        uitleg=r"Daarboven kan langdurige blootstelling schade geven. De pijndrempel ligt rond "
+        r"\(120\) dB.",
     ),
     dict(
         type="waarofniet",
@@ -414,15 +414,15 @@ DEEL2 = [
             "ze blijft ongeveer dezelfde",
         ],
         antwoord=0,
-        uitleg="Het vermogen verdeelt zich over een boloppervlak, en dat gaat met het "
-        "kwadraat van de afstand. Halveer je de afstand, dan verviervoudigt de intensiteit.",
+        uitleg=r"Het vermogen verdeelt zich over een boloppervlak, dus \(I \sim \dfrac{1}{r^{2}}\). "
+        r"Halveer je \(r\), dan verviervoudigt \(I\).",
     ),
     dict(
         type="waarofniet",
-        vraag="Een geluid van 60 dB is twee keer zo intens als een geluid van 30 dB.",
+        vraag=r"Een geluid van \(60\) dB is twee keer zo intens als een geluid van \(30\) dB.",
         antwoord=False,
-        uitleg="De decibelschaal is logaritmisch: elke 10 decibel is tien keer zo intens. "
-        "60 tegenover 30 decibel is dus duizend keer zo intens.",
+        uitleg=r"De decibelschaal is logaritmisch: elke \(10\) dB is tien keer zo intens. "
+        r"\(60\) dB tegenover \(30\) dB is dus \(10^{3}\) keer zo intens.",
     ),
     dict(
         type="meerkeuze",
@@ -439,16 +439,16 @@ DEEL2 = [
     ),
     dict(
         type="meerkeuze",
-        vraag="Een snaar heeft een grondfrequentie van 220 Hz. Welke frequentie heeft de derde harmonische?",
+        vraag=r"Een snaar heeft een grondfrequentie van \(220\) Hz. Welke frequentie heeft de derde harmonische?",
         opties=[
-            "660 Hz",
-            "440 Hz",
-            "223 Hz",
-            "73 Hz",
+            r"\(660\) Hz",
+            r"\(440\) Hz",
+            r"\(223\) Hz",
+            r"\(73\) Hz",
         ],
         antwoord=0,
-        uitleg="De n-de harmonische is n maal de grondfrequentie. De tweede zou dus 440 "
-        "hertz zijn.",
+        uitleg=r"\(f_{n} = n\,f_{1}\), dus \(f_{3} = 3 \times 220 = 660\) Hz. De tweede zou "
+        r"\(440\) Hz zijn.",
     ),
     dict(
         type="meerkeuze",

@@ -8092,3 +8092,90 @@ def golfbeeld(breedte=470):
     d.append(_tekst(ox + span / 6, mid - amp - 10, "buik", 9, AMBER, "middle", True))
     d.append(_tekst(rechts, mid + amp + 16, "knoop", 9, AMBER, "end", True))
     return _svg(cel_b * 2, cel_h, "\n".join(d))
+
+
+def lensbeeld(breedte=470):
+    r"""De stralengang door een bolle lens.
+
+    Het voorwerp staat verder dan \(2f\); de twee hulpstralen snijden elkaar
+    rechts van de lens en geven daar een omgekeerd, kleiner beeld.
+    """
+    import math
+    h = 206
+    d = []
+    d.append(f'<rect x="5" y="4" width="{breedte-10}" height="{h-28}" rx="7" '
+             f'fill="#ffffff" stroke="{BORDER}" stroke-width="1.2"/>')
+    as_y = 108
+    lens_x = 250
+    f = 70
+    d.append(f'<line x1="30" y1="{as_y}" x2="440" y2="{as_y}" stroke="{BORDER}" '
+             f'stroke-width="1.1" stroke-dasharray="4 4"/>')
+    d.append(f'<ellipse cx="{lens_x}" cy="{as_y}" rx="9" ry="64" fill="{FOREST}" '
+             f'fill-opacity="0.12" stroke="{FOREST}" stroke-width="1.6"/>')
+
+    for x, naam in ((lens_x - f, "F"), (lens_x + f, "F"),
+                    (lens_x - 2 * f, "2F"), (lens_x + 2 * f, "2F")):
+        d.append(f'<circle cx="{x}" cy="{as_y}" r="2.8" fill="{DARK}"/>')
+        d.append(_tekst(x, as_y + 16, naam, 9, DIM, "middle"))
+
+    vx, vh = 80, 56
+    d.append(f'<line x1="{vx}" y1="{as_y}" x2="{vx}" y2="{as_y-vh}" stroke="{FOREST}" '
+             f'stroke-width="2.4"/>')
+    d.append(_pijlkop(vx, as_y - vh, -math.pi / 2, FOREST, 5.0))
+    d.append(_tekst(vx, as_y - vh - 10, "voorwerp", 9, FOREST, "middle", True))
+
+    do = lens_x - vx
+    di = 1 / (1 / f - 1 / do)
+    bx = lens_x + di
+    bh = vh * di / do
+
+    straal = f'stroke="{AMBER}" stroke-width="1.5"'
+    d.append(f'<line x1="{vx}" y1="{as_y-vh}" x2="{lens_x}" y2="{as_y-vh}" {straal}/>')
+    d.append(f'<line x1="{lens_x}" y1="{as_y-vh}" x2="{bx:.1f}" y2="{as_y+bh:.1f}" {straal}/>')
+    d.append(f'<line x1="{vx}" y1="{as_y-vh}" x2="{bx:.1f}" y2="{as_y+bh:.1f}" {straal}/>')
+
+    d.append(f'<line x1="{bx:.1f}" y1="{as_y}" x2="{bx:.1f}" y2="{as_y+bh:.1f}" '
+             f'stroke="{DARK}" stroke-width="2.4"/>')
+    d.append(_pijlkop(bx, as_y + bh, math.pi / 2, DARK, 5.0))
+    d.append(_tekst(bx + 4, as_y + bh + 16, "beeld", 9, DARK, "start", True))
+    d.append(_tekst(breedte / 2, h - 8,
+                    "voorwerp links van 2F, beeld tussen F en 2F", 9, DIM, "middle"))
+    return _svg(breedte, h, "\n".join(d))
+
+
+def emspectrum(breedte=470):
+    r"""Het elektromagnetisch spectrum als één balk van radiogolf tot gamma."""
+    import math
+    h = 160
+    namen = ["radio", "micro", "infrarood", "licht", "uv", "röntgen", "gamma"]
+    d = []
+    d.append(f'<rect x="5" y="4" width="{breedte-10}" height="{h-28}" rx="7" '
+             f'fill="#ffffff" stroke="{BORDER}" stroke-width="1.2"/>')
+    links, rechts = 30, 440
+    top, hoog = 56, 34
+    stap = (rechts - links) / len(namen)
+
+    d.append(_tekst(links, 32, "grote λ", 9, DIM, "start"))
+    d.append(_tekst(rechts, 32, "hoge f", 9, DIM, "end"))
+    d.append(f'<line x1="{links+46}" y1="28" x2="{rechts-42}" y2="28" stroke="{BORDER}" '
+             f'stroke-width="1.2"/>')
+    d.append(_pijlkop(rechts - 42, 28, 0.0, BORDER, 4.5))
+
+    for i, naam in enumerate(namen):
+        x = links + i * stap
+        dek = 0.10 + i * 0.075
+        d.append(f'<rect x="{x:.1f}" y="{top}" width="{stap:.1f}" height="{hoog}" '
+                 f'fill="{FOREST}" fill-opacity="{dek:.2f}" stroke="{BORDER}" '
+                 f'stroke-width="1"/>')
+        d.append(_tekst(x + stap / 2, top + hoog + 16, naam, 8.5, INK, "middle"))
+
+    lx = links + 3 * stap
+    d.append(f'<line x1="{lx:.1f}" y1="{top+hoog+24}" x2="{lx+stap:.1f}" '
+             f'y2="{top+hoog+24}" stroke="{AMBER}" stroke-width="1.6"/>')
+    d.append(f'<line x1="{lx:.1f}" y1="{top+hoog+24}" x2="{lx:.1f}" y2="{top+hoog+19}" '
+             f'stroke="{AMBER}" stroke-width="1.6"/>')
+    d.append(f'<line x1="{lx+stap:.1f}" y1="{top+hoog+24}" x2="{lx+stap:.1f}" '
+             f'y2="{top+hoog+19}" stroke="{AMBER}" stroke-width="1.6"/>')
+    d.append(_tekst(lx + stap / 2, top + hoog + 38, "400 tot 700 nm", 8.5, AMBER,
+                    "middle", True))
+    return _svg(breedte, h, "\n".join(d))

@@ -2432,117 +2432,185 @@ BUNDELS["licht-geluid-en-het-elektromagnetisch-spectrum-beyond"] = dict(
     onder="Van spiegel en lens tot decibel en dopplereffect.",
     secties=[
         dict(kop="Licht als elektromagnetische golf", blokken=[
-            ("p", "Een <strong>elektromagnetische golf</strong> is "
-                  "<strong>een transversale golf die in vacuüm met de lichtsnelheid loopt</strong>. "
-                  "Die lichtsnelheid is <strong>300000000</strong> meter per seconde, en "
-                  "<strong>licht gaat in water langzamer dan in vacuüm</strong>."),
-            ("p", "Het verschil tussen regelmatige en diffuse weerkaatsing: "
-                  "<strong>bij een ruw oppervlak kaatsen de stralen alle kanten op</strong>. Daarom "
-                  "zie je in een blad papier geen beeld en in een spiegel wel."),
-            ("p", "Het beeld in een vlakke spiegel <strong>is virtueel</strong>, "
-                  "<strong>staat rechtop</strong> en "
-                  "<strong>is even groot als het voorwerp</strong>. Een "
-                  "<strong>virtueel beeld</strong> is "
-                  "<strong>een beeld dat je niet op een scherm kan opvangen</strong>: de stralen "
-                  "komen er niet echt samen, ze lijken er enkel vandaan te komen."),
-            ("p", "Een <strong>kernschaduw</strong> ontstaat doordat "
-                  "<strong>daar geen licht van de bron meer toe komt</strong>. "
-                  "<strong>Bij een maansverduistering staat de maan niet tussen de zon en de "
-                  "aarde</strong> maar de aarde tussen de zon en de maan; staat de maan ertussen, "
-                  "dan is het een zonsverduistering."),
-            ("p", "Het <strong>brandpunt van een bolle lens</strong> is "
-                  "<strong>het punt waar stralen langs de optische as samenkomen</strong>. Staat een "
-                  "<strong>voorwerp verder dan tweemaal de brandpuntsafstand</strong>, dan krijg je "
-                  "<strong>een reëel, omgekeerd en kleiner beeld</strong>, zoals in een fototoestel."),
+            ("p", "Een <strong>elektromagnetische golf</strong> is een "
+                  "<strong>transversale</strong> golf waarin een elektrisch en een magnetisch "
+                  "veld samen trillen. Ze heeft <strong>geen stof nodig</strong>: licht, "
+                  "radiogolven en röntgenstraling lopen ook door vacuüm. Geluid kan dat niet, "
+                  "want dat is een <strong>mechanische</strong> golf."),
+            ("kader", "<strong>De lichtsnelheid</strong><br>"
+                      "\\[c = 3{,}00 \\times 10^{8}\\ \\text{m/s} \\qquad n = \\dfrac{c}{v}\\]"
+                      "Dat is \\(300\\,000\\,000\\) meter per seconde. In een stof "
+                      "gaat licht langzamer, en net dat drukt de brekingsindex \\(n\\) uit."),
+            ("p", "In water is \\(n \\approx 1{,}33\\), in glas ongeveer \\(1{,}5\\). Licht "
+                  "gaat er dus \\(1{,}33\\) of \\(1{,}5\\) keer trager dan in vacuüm, en "
+                  "daarom breekt het aan het oppervlak."),
         ]),
-        dict(kop="Het spectrum van radiogolf tot gamma", blokken=[
-            ("p", "Van lage naar hoge frequentie liggen de soorten straling zo: "
-                  "<strong>radiogolven, microgolven, infrarood, licht, uv, röntgen, "
-                  "gamma</strong>. Het verband met het pakketje energie: "
-                  "<strong>de energie stijgt met de frequentie en daalt met de golflengte</strong>. "
-                  "Dat kleinste pakketje energie van licht heet een <strong>foton</strong>."),
+        dict(kop="Weerkaatsing en de vlakke spiegel", blokken=[
+            ("p", "Bij een <strong>glad</strong> oppervlak kaatsen alle stralen netjes dezelfde "
+                  "kant op: dat is <strong>regelmatige</strong> weerkaatsing. Bij een "
+                  "<strong>ruw</strong> oppervlak kaatsen ze alle kanten op, en dat heet "
+                  "<strong>diffuse</strong> weerkaatsing. Daarom zie je jezelf in een spiegel "
+                  "en niet in een blad papier."),
+        ]),
+        dict(kop="Het beeld in een vlakke spiegel", blokken=[
+            ("p", "Het beeld in een vlakke spiegel is <strong>virtueel</strong>, staat "
+                  "<strong>rechtop</strong> en is <strong>even groot</strong> als het voorwerp. "
+                  "Het ligt even ver achter de spiegel als het voorwerp ervoor. Links en rechts "
+                  "lijken verwisseld, boven en onder niet."),
+            ("p", "Een <strong>virtueel beeld</strong> kan je <strong>niet</strong> op een "
+                  "scherm opvangen: de stralen komen er niet echt samen, ze lijken er enkel "
+                  "vandaan te komen. Een <strong>reëel beeld</strong> kan je er wel op vangen."),
+        ]),
+        dict(kop="Schaduw en verduistering", blokken=[
+            ("p", "In de <strong>kernschaduw</strong> komt er van de bron <strong>geen</strong> "
+                  "licht meer toe, in de <strong>bijschaduw</strong> nog van een deel ervan. "
+                  "Een puntbron geeft daarom alleen kernschaduw, een grote lamp allebei."),
+            ("p", "Bij een <strong>zonsverduistering</strong> staat de <strong>maan</strong> "
+                  "tussen de zon en de aarde; bij een <strong>maansverduistering</strong> staat "
+                  "de <strong>aarde</strong> ertussen en valt haar schaduw op de maan."),
+        ]),
+        dict(kop="De bolle lens", blokken=[
+            ("fig", svg.lensbeeld(),
+             "Twee hulpstralen vanuit de top van het voorwerp snijden elkaar rechts."),
+            ("p", "Het <strong>brandpunt</strong> \\(F\\) van een bolle lens is het punt waar "
+                  "stralen die <strong>evenwijdig met de optische as</strong> binnenkomen, "
+                  "samenkomen. De afstand van de lens tot dat punt is de "
+                  "<strong>brandpuntsafstand</strong> \\(f\\). Een bolle lens heeft een "
+                  "brandpunt aan elke kant."),
+        ]),
+        dict(kop="Welk beeld krijg je?", blokken=[
+            ("p", "Staat het voorwerp <strong>verder dan \\(2f\\)</strong>, dan is het beeld "
+                  "<strong>reëel, omgekeerd en kleiner</strong>. Dat doet de lens van een "
+                  "fototoestel. Staat het <strong>tussen \\(f\\) en \\(2f\\)</strong>, dan is "
+                  "het beeld reëel, omgekeerd en <strong>groter</strong>, zoals bij een "
+                  "beamer. Staat het <strong>binnen \\(f\\)</strong>, dan krijg je een "
+                  "<strong>virtueel</strong>, rechtopstaand en groter beeld: een vergrootglas."),
+        ]),
+        dict(kop="Het elektromagnetisch spectrum", blokken=[
+            ("fig", svg.emspectrum(),
+             "Eén balk, van radiogolven links tot gammastraling rechts."),
+            ("p", "Van lage naar hoge frequentie: <strong>radiogolven, microgolven, infrarood, "
+                  "zichtbaar licht, uv, röntgen, gamma</strong>. Het zijn allemaal dezelfde "
+                  "soort golf, met dezelfde snelheid in vacuüm; alleen \\(\\lambda\\) en "
+                  "\\(f\\) verschillen. Zichtbaar licht is maar een smalle strook in het midden."),
+        ]),
+        dict(kop="Het foton", blokken=[
+            ("kader", "<strong>De energie van een foton</strong><br>"
+                      "\\[E = h\\,f = \\dfrac{h\\,c}{\\lambda} \\qquad "
+                      "h = 6{,}63 \\times 10^{-34}\\ \\text{J}\\cdot\\text{s}\\]"
+                      "Een <strong>foton</strong> is het kleinste pakketje energie van licht. "
+                      "Hoe hoger \\(f\\), hoe groter \\(E\\): de energie stijgt met de frequentie "
+                      "en daalt met de golflengte. Een foton heet ook een lichtkwantum."),
             ("p", "<strong>Ioniserend</strong> zijn <strong>röntgenstraling</strong>, "
-                  "<strong>gammastraling</strong> en "
-                  "<strong>hoogenergetische uv-straling</strong>: die fotonen dragen genoeg energie "
-                  "om een elektron uit een molecule te slaan. "
-                  "<strong>Microgolven worden in een magnetron niet gebruikt omdat ze ioniserend "
-                  "zijn</strong> maar omdat ze watermoleculen doen trillen, wat warmte geeft."),
+                  "<strong>gammastraling</strong> en harde <strong>uv-straling</strong>: hun "
+                  "fotonen dragen genoeg energie om een elektron uit een atoom te slaan. "
+                  "Radiogolven en microgolven kunnen dat niet. Een magnetron verwarmt dan ook "
+                  "niet door te ioniseren, maar door watermoleculen te laten trillen."),
+        ]),
+        dict(kop="Waar het spectrum voor dient", blokken=[
             ("p", "<strong>Radiogolven</strong> gebruikt men voor communicatie over grote afstand "
-                  "omdat <strong>ze een groot doordringend vermogen hebben en goed afbuigen</strong>. "
-                  "Een <strong>bagagescanner op de luchthaven</strong> werkt met "
-                  "<strong>röntgenstraling</strong>, die door een koffer gaat en door metaal niet."),
-            ("p", "Beschermen tegen hoogenergetische straling doe je met "
-                  "<strong>zonnecrème en een zonnebril tegen uv-straling</strong>, "
-                  "<strong>een loden schort bij een röntgenfoto</strong> en door "
-                  "<strong>zo weinig en zo kort mogelijk blootgesteld te worden</strong>."),
-            ("p", "De <strong>proef van Young</strong> laat zien "
-                  "<strong>dat licht zich als een golf gedraagt</strong>: achter twee spleten "
-                  "ontstaat een patroon van lichte en donkere strepen. "
-                  "<strong>Voor interferentie van licht heb je twee coherente bronnen nodig</strong>, "
-                  "en daar zorgt die dubbele spleet voor."),
+                  "omdat ze een groot doordringend vermogen hebben en goed afbuigen. "
+                  "<strong>Infrarood</strong> zit in een nachtkijker en een warmtecamera. "
+                  "<strong>Röntgenstraling</strong> gaat door een koffer maar niet door metaal: "
+                  "dat is wat een bagagescanner op de luchthaven gebruikt."),
         ]),
-        dict(kop="Geluid: snelheid, toonhoogte en klankkleur", blokken=[
-            ("p", "Geluid loopt het snelst <strong>in staal</strong>: hoe steviger de deeltjes aan "
-                  "elkaar hangen, hoe vlugger de verdichting doorgeeft. "
-                  "<strong>Geluid loopt in warme lucht sneller dan in koude lucht</strong>, want de "
-                  "moleculen bewegen er heftiger. Zie je een bliksem en hoor je de donder "
-                  "<strong>6 s</strong> later, dan is het onweer "
-                  "<strong>ongeveer 2 km</strong> ver, met 340 m/s."),
-            ("p", "Het verband met wat je hoort: "
-                  "<strong>een hogere frequentie geeft een hogere toon</strong>. Het verschil tussen "
-                  "een viool en een fluit op dezelfde toon hoor je "
-                  "<strong>aan de klankkleur, dus aan de vorm van het patroon</strong>; die "
-                  "klankkleur heet ook <strong>timbre</strong>."),
-            ("p", "Een mens hoort normaal <strong>van ongeveer 20 Hz tot ongeveer 20 000 Hz</strong>. "
-                  "<strong>Ultrasoon</strong> geluid is <strong>geluid met een frequentie boven de "
-                  "20 000 Hz</strong>, gebruikt bij "
-                  "<strong>een echografie bij de dokter</strong>, door "
-                  "<strong>een vleermuis die zijn weg zoekt</strong> en in "
-                  "<strong>een sonar die de diepte van de zee meet</strong>."),
+        dict(kop="Beschermen tegen straling", blokken=[
+            ("p", "Welke maatregelen beschermen tegen hoogenergetische straling? Die met "
+                  "<strong>zonnecrème en een zonnebril</strong> tegen uv, een "
+                  "<strong>loden schort</strong> bij een röntgenfoto, en door zo kort en zo "
+                  "weinig mogelijk blootgesteld te worden. Gammastraling gaat door glas heen "
+                  "alsof het er niet is; daar heb je lood of beton voor nodig. "
+                  "<strong>Afstand, tijd en afscherming</strong> zijn de drie sleutels."),
         ]),
-        dict(kop="Decibel en gehoorschade", blokken=[
-            ("p", "De gehoordrempel van een mens ligt <strong>bij 0 dB</strong>. Van de gevaargrens "
-                  "voor het gehoor spreekt men vanaf <strong>80</strong> decibel. "
-                  "<strong>Gehoorschade hangt zowel van het geluidsniveau als van de duur van de "
-                  "blootstelling af</strong>: zacht en lang kan even schadelijk zijn als hard en "
-                  "kort."),
-            ("p", "De decibelschaal is logaritmisch: "
-                  "<strong>een geluid van 60 dB is niet twee keer zo intens als een geluid van "
-                  "30 dB</strong> maar duizend keer. Ga je "
-                  "<strong>twee keer zo dicht bij een geluidsbron staan</strong>, dan wordt de "
-                  "intensiteit <strong>vier keer zo groot</strong>, want ze daalt met het kwadraat "
-                  "van de afstand."),
-            ("p", "Blijvende gehoorschade in het binnenoor ontstaat doordat "
-                  "<strong>de trilhaartjes van de haarcellen afbreken en niet terug groeien</strong>. "
-                  "Voorkomen doe je door <strong>oordopjes te dragen die het geluid gelijkmatig "
-                  "dempen</strong>, <strong>verder van de luidspreker te gaan staan</strong> en "
-                  "<strong>tussendoor een pauze te nemen op een stillere plek</strong>."),
+        dict(kop="De proef van Young", blokken=[
+            ("p", "Laat je licht door <strong>twee smalle spleten</strong> vallen, dan "
+                  "verschijnt op het scherm erachter een patroon van <strong>lichte en donkere "
+                  "strepen</strong>. Dat is <strong>interferentie</strong>, en dat kan alleen "
+                  "een golf. De proef van Young bewijst dus dat licht zich als een golf "
+                  "gedraagt."),
+            ("p", "Voor interferentie heb je <strong>twee coherente bronnen</strong> nodig: "
+                  "dezelfde frequentie en een <strong>vast faseverschil</strong>. Eén bron "
+                  "achter twee spleten zorgt daar vanzelf voor."),
         ]),
-        dict(kop="Snaren en het dopplereffect", blokken=[
-            ("p", "De <strong>grondfrequentie van een snaar</strong> is "
-                  "<strong>de laagste frequentie waarop ze als staande golf kan trillen</strong>. De "
-                  "harmonischen zijn er de veelvouden van: bij een grondfrequentie van "
-                  "<strong>220 Hz</strong> heeft de derde harmonische "
-                  "<strong>660 Hz</strong>."),
-            ("p", "Het <strong>dopplereffect</strong> bij geluid is dat "
-                  "<strong>de waargenomen frequentie verschilt als bron en waarnemer "
-                  "bewegen</strong>: een ziekenwagen klinkt hoger als hij nadert. "
-                  "<strong>Bij het dopplereffect verandert de frequentie die de bron zelf uitzendt "
-                  "niet</strong>; enkel de golven komen dichter op elkaar of verder uit elkaar bij "
-                  "de waarnemer."),
+        dict(kop="Geluid is een mechanische golf", blokken=[
+            ("p", "Geluid loopt het <strong>snelst in vaste stoffen</strong>: in staal sneller "
+                  "dan in water, en in water sneller dan in lucht. Hoe steviger de deeltjes aan "
+                  "elkaar hangen, hoe vlugger ze de verdichting doorgeven. In "
+                  "<strong>vacuüm</strong> loopt geluid helemaal niet, want er is niets om door "
+                  "te gaan."),
+            ("p", "In <strong>warme</strong> lucht gaat geluid sneller dan in koude: rond "
+                  "\\(20\\ ^\\circ\\text{C}\\) is \\(v = 343\\) m/s. Zie je een bliksem en hoor "
+                  "je de donder \\(6{,}0\\) s later, dan is het onweer "
+                  "\\(d = v\\,t = 340 \\times 6{,}0 = 2040\\) m ver. Het licht is er zo goed "
+                  "als meteen."),
+        ]),
+        dict(kop="Toonhoogte, toonsterkte en klankkleur", blokken=[
+            ("p", "De <strong>frequentie</strong> bepaalt de <strong>toonhoogte</strong>: een "
+                  "hogere \\(f\\) geeft een hogere toon. De <strong>amplitude</strong> bepaalt "
+                  "hoe <strong>luid</strong> het klinkt. De <strong>vorm</strong> van het "
+                  "patroon in de tijd bepaalt de <strong>klankkleur</strong> of "
+                  "<strong>timbre</strong>: daaraan hoor je het verschil tussen een viool en "
+                  "een fluit die dezelfde toon spelen."),
+        ]),
+        dict(kop="Het gehoorgebied", blokken=[
+            ("p", "Een mens hoort normaal van \\(20\\) Hz tot \\(20\\,000\\) Hz. Daaronder "
+                  "heet het <strong>infrasoon</strong>, daarboven <strong>ultrasoon</strong>. "
+                  "Een echografie bij de dokter, een vleermuis die zijn weg zoekt en een sonar die de diepte van de zee meet, "
+                  "zijn drie toepassingen van ultrasoon geluid: ze meten een afstand uit de "
+                  "tijd die de echo nodig heeft. Met de jaren verdwijnt de bovenkant van het "
+                  "gehoorgebied."),
+        ]),
+        dict(kop="De decibelschaal", blokken=[
+            ("kader", "<strong>Logaritmisch, niet gewoon</strong><br>"
+                      "\\[+10\\ \\text{dB} \;\\Rightarrow\; I \\times 10 \\qquad "
+                      "I \\sim \\dfrac{1}{r^{2}}\\]"
+                      "\\(0\\) dB is de gehoordrempel, \\(80\\) dB de gevaargrens en \\(120\\) "
+                      "dB de pijndrempel. \\(60\\) dB is dus \\(10^{3}\\) keer zo intens als "
+                      "\\(30\\) dB, niet twee keer."),
+            ("p", "Omdat het vermogen zich over een boloppervlak verdeelt, gaat de intensiteit "
+                  "met \\(\\dfrac{1}{r^{2}}\\): ga je <strong>twee keer zo dicht</strong> bij "
+                  "een geluidsbron staan, dan wordt de geluidsintensiteit <strong>vier keer</strong> "
+                  "zo groot."),
+        ]),
+        dict(kop="Gehoorschade voorkomen", blokken=[
+            ("p", "Blijvende gehoorschade ontstaat doordat de <strong>trilhaartjes van de "
+                  "haarcellen</strong> in het binnenoor afbreken; die groeien niet terug. "
+                  "Schade hangt <strong>zowel van het geluidsniveau als van de duur van de "
+                  "blootstelling</strong> af, dus een lange avond kan erger zijn dan één knal. "
+                  "Wat helpt: <strong>oordopjes</strong> die gelijkmatig dempen, "
+                  "<strong>verder</strong> van de luidspreker staan en tussendoor een "
+                  "<strong>pauze</strong> op een stillere plek."),
+        ]),
+        dict(kop="Grondtoon en boventonen", blokken=[
+            ("kader", "<strong>De harmonischen van een snaar</strong><br>"
+                      "\\[f_{n} = n\\,f_{1}\\]"
+                      "\\(f_{1}\\) is de <strong>grondfrequentie</strong>: de laagste frequentie "
+                      "waarop de snaar als staande golf kan trillen. Bij \\(f_{1} = 220\\) Hz heeft "
+                      "de derde harmonische \\(f_{3} = 660\\) Hz."),
+            ("p", "De boventonen klinken mee naast de grondtoon, en hun onderlinge sterkte "
+                  "maakt de klankkleur van het instrument."),
+        ]),
+        dict(kop="Het dopplereffect", blokken=[
+            ("p", "Bij het <strong>dopplereffect</strong> verschilt de <strong>waargenomen</strong> "
+                  "frequentie omdat bron en waarnemer ten opzichte van elkaar bewegen. Een "
+                  "ziekenwagen die <strong>nadert</strong> klinkt <strong>hoger</strong>, een "
+                  "die wegrijdt lager. Wat de bron <strong>uitzendt</strong> verandert niet; "
+                  "daarom hoort de bestuurder zelf niets veranderen."),
         ]),
     ],
     onthoud=[
-        "Licht is een transversale EM-golf, in vacuüm 3 · 10⁸ m/s.",
+        "Licht is een transversale EM-golf; \\(c = 3{,}00 \\times 10^{8}\\) m/s.",
         "Een spiegelbeeld is virtueel, rechtop en even groot.",
+        "Verder dan \\(2f\\): reëel, omgekeerd en kleiner; binnen \\(f\\): virtueel en groter.",
         "Radio, micro, infrarood, licht, uv, röntgen, gamma.",
-        "Ioniserend: röntgen, gamma en harde uv.",
-        "Young laat zien dat licht een golf is.",
-        "Geluid: hoger in frequentie is hoger van toon; timbre is de klankkleur.",
-        "20 Hz tot 20 000 Hz; boven 80 dB wordt het gevaarlijk.",
+        "\\(E = h\\,f\\); ioniserend zijn röntgen, gamma en harde uv.",
+        "Young: interferentie bewijst dat licht een golf is.",
+        "Geluid: \\(f\\) is de toonhoogte, \\(A\\) de sterkte, de vorm het timbre.",
+        "\\(20\\) Hz tot \\(20\\,000\\) Hz; \\(+10\\) dB is tien keer zo intens.",
         "Doppler verandert wat je hoort, niet wat de bron uitzendt.",
     ],
 )
+
 
 # ───────────────────── 19. Kwantumfysica: het foto-elektrisch effect en dualiteit
 BUNDELS["kwantumfysica-het-foto-elektrisch-effect-en-dualiteit-beyond"] = dict(
