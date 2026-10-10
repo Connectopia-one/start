@@ -1383,110 +1383,130 @@ BUNDELS["de-parabool-transformaties-en-functiekenmerken-boost-doorstroom"] = dic
     secties=[
         dict(kop="De parabool", blokken=[
             ("p", "De grafiek van een <strong>tweedegraadsfunctie</strong> heet een <strong>parabool</strong>. "
-                  "(De grafiek van f(x) = c/x heet een hyperbool; verwar die twee niet.)"),
-            ("p", "Het teken van <strong>a</strong> bepaalt de opening: is a groter dan nul, dan opent de "
-                  "parabool <strong>naar boven</strong>; is a kleiner dan nul, naar beneden. Daarom spiegelt "
-                  "y = −x² de parabool y = x² om de horizontale as."),
+                  "(De grafiek van \\(f(x) = \\dfrac{c}{x}\\) heet een hyperbool; verwar die twee niet.)"),
+            ("p", "Het teken van \\(a\\) bepaalt de opening: bij \\(a > 0\\) opent de parabool "
+                  "<strong>naar boven</strong>, bij \\(a < 0\\) naar beneden. Daarom spiegelt "
+                  "\\(y = -x^{2}\\) de parabool \\(y = x^{2}\\) om de horizontale as."),
             ("p", "De <strong>top</strong> is het hoogste of laagste punt. Opent de parabool naar beneden, dan "
                   "is de top het hoogste punt en dus het <strong>maximum</strong>; opent ze naar boven, dan is "
                   "de top het minimum en is er <strong>geen maximum</strong>, want ze loopt aan beide kanten "
                   "onbeperkt omhoog."),
-            ("p", "De <strong>symmetrieas</strong> is de <strong>verticale</strong> rechte door de top. Bij "
-                  "een top (4, −1) is dat de rechte x = 4. Een parabool is dus symmetrisch: twee punten met "
-                  "dezelfde y-waarde liggen even ver van die as."),
+            ("p", "De <strong>symmetrieas</strong> is de <strong>verticale</strong> rechte door de top. Bij een "
+                  "top \\((4, -1)\\) is dat de rechte \\(x = 4\\). Een parabool is dus <strong>symmetrisch</strong>: "
+                  "twee punten met dezelfde \\(y\\)-waarde liggen even ver van die as."),
+            ("fig", svg.paraboolgrafiek(),
+             "De parabool \\(y = x^{2} - 4x + 3\\): de twee groene punten zijn de nulwaarden, het oranje punt "
+             "is de top en de stippellijn is de symmetrieas."),
         ]),
-        dict(kop="Nulwaarden", blokken=[
-            ("p", "Een <strong>nulwaarde</strong> is een x-waarde waarvoor f(x) = 0: op de grafiek is dat een "
-                  "snijpunt met de x-as. Een parabool kan er <strong>twee, één of geen</strong> hebben."),
+        dict(kop="Nulwaarden en snijpunten", blokken=[
+            ("p", "Een <strong>nulwaarde</strong> is een \\(x\\)-waarde waarvoor \\(f(x) = 0\\): op de grafiek "
+                  "is dat een snijpunt met de \\(x\\)-as. Een parabool kan er <strong>twee, één of geen</strong> "
+                  "hebben."),
             ("p", tabel(["Functie", "Nulwaarden", "Waarom"], [
-                ["f(x) = x² − 9", "twee: 3 en −3", "x² = 9"],
-                ["f(x) = x² + 4", "geen", "x² + 4 is altijd groter dan nul"],
-                ["f(x) = (x − 2)²", "één (dubbel): 2", "de parabool raakt de as"],
+                [r"\(f(x) = x^{2} - 9\)", r"twee: \(3\) en \(-3\)", r"\(x^{2} = 9\)"],
+                [r"\(f(x) = x^{2} + 4\)", "geen", r"\(x^{2} + 4\) is altijd groter dan nul"],
+                [r"\(f(x) = (x - 2)^{2}\)", r"één (dubbel): \(2\)", "de parabool raakt de as"],
             ])),
             ("p", "De <strong>symmetrieas ligt precies in het midden tussen de twee nulwaarden</strong>. Bij "
-                  "nulwaarden −2 en 6 is dat x = 2; bij nulwaarden 1 en 9 is dat x = 5."),
-            ("p", "Het <strong>snijpunt met de verticale as</strong> vind je door x = 0 in te vullen. Bij "
-                  "f(x) = x² − 2x − 8 is dat het punt (0, −8): gewoon de c."),
+                  "nulwaarden \\(-2\\) en \\(6\\) is dat \\(x = \\dfrac{-2 + 6}{2} = 2\\); bij nulwaarden "
+                  "\\(1\\) en \\(9\\) is dat \\(x = 5\\)."),
+            ("p", "Het <strong>snijpunt met de verticale as</strong> vind je door \\(x = 0\\) in te vullen. Bij "
+                  "\\(f(x) = x^{2} - 2x - 8\\) is dat het punt \\((0, -8)\\): gewoon de \\(c\\)."),
         ]),
         dict(kop="De vorm a(x − p)² + q", blokken=[
-            ("p", "In deze vorm lees je de <strong>top meteen af</strong>: ze ligt in het punt "
-                  "<strong>(p, q)</strong>."),
+            ("p", "In \\(f(x) = a(x - p)^{2} + q\\) lees je de <strong>top meteen af</strong>: ze ligt in het "
+                  "punt \\((p, q)\\)."),
             ("p", tabel(["Voorschrift", "Top", "Let op"], [
-                ["(x − 3)² + 5", "(3, 5)", "min in de haakjes, dus p is positief"],
-                ["(x + 2)² − 7", "(−2, −7)", "x + 2 is x − (−2)"],
-                ["(x − 6)² + 2", "(6, 2)", "de kleinste functiewaarde is 2"],
+                [r"\((x - 3)^{2} + 5\)", r"\((3, 5)\)", r"min in de haakjes, dus \(p\) is positief"],
+                [r"\((x + 2)^{2} - 7\)", r"\((-2, -7)\)", r"\(x + 2\) is \(x - (-2)\)"],
+                [r"\((x - 6)^{2} + 2\)", r"\((6, 2)\)", r"de kleinste functiewaarde is \(2\)"],
             ])),
-            ("p", "Je bouwt deze grafiek stap voor stap op vanuit y = x²:"),
+            ("kader", "Het minteken in de haakjes is contra-intuïtief: <strong>\\((x - 5)^{2}\\) ligt vijf "
+                      "eenheden rechts</strong> van \\(x^{2}\\), niet links. Vul maar in: bij \\(x = 5\\) is de "
+                      "waarde nul, en daar ligt dus de top."),
+        ]),
+        dict(kop="Opbouwen vanuit y = x²", blokken=[
+            ("p", "Je bouwt de grafiek van \\(a(x - p)^{2} + q\\) stap voor stap op vanuit \\(y = x^{2}\\):"),
             ("p", tabel(["Wat er verandert", "Wat de grafiek doet"], [
-                ["p", "schuift horizontaal; (x − 5)² gaat vijf naar RECHTS"],
-                ["q", "schuift verticaal, omhoog bij positieve q"],
-                ["a groter dan 1", "rekt verticaal uit: de parabool wordt smaller"],
-                ["a tussen 0 en 1", "drukt samen: de parabool wordt breder"],
-                ["a negatief", "spiegelt om de horizontale as"],
+                [r"\(p\)", r"schuift horizontaal; \((x - 5)^{2}\) gaat vijf naar RECHTS"],
+                [r"\(q\)", r"schuift verticaal, omhoog bij \(q > 0\)"],
+                [r"\(a > 1\)", "rekt verticaal uit: de parabool wordt smaller"],
+                [r"\(0 < a < 1\)", "drukt samen: de parabool wordt breder"],
+                [r"\(a < 0\)", "spiegelt om de horizontale as"],
             ])),
-            ("kader", "Het minteken in de haakjes is contra-intuïtief: <strong>(x − 5)² ligt vijf eenheden "
-                      "rechts</strong> van x², niet links. Vul maar in: bij x = 5 is de waarde nul, en daar "
-                      "ligt dus de top."),
         ]),
         dict(kop="De functiekenmerken", blokken=[
             ("p", "Van elke functie moet je een rij kenmerken kunnen aflezen uit haar grafiek of voorschrift:"),
             ("p", tabel(["Kenmerk", "Wat het is"], [
-                ["domein", "de x-waarden waarvoor ze bestaat"],
-                ["bereik", "de y-waarden die ze aanneemt"],
-                ["nulwaarden", "waar de grafiek de x-as snijdt"],
+                ["domein", r"de \(x\)-waarden waarvoor ze bestaat"],
+                ["bereik", r"de \(y\)-waarden die ze aanneemt"],
+                ["nulwaarden", r"waar de grafiek de \(x\)-as snijdt"],
                 ["tekenverloop", "waar de functiewaarde positief, nul of negatief is"],
                 ["verloopschema", "waar de functie stijgt en waar ze daalt"],
                 ["extrema", "de grootste of kleinste functiewaarde"],
                 ["symmetrie", "de as waarom de grafiek zichzelf spiegelt"],
             ])),
+        ]),
+        dict(kop="Domein en bereik", blokken=[
             ("p", "Het <strong>domein van elke veeltermfunctie</strong>, en dus ook van een parabool, is "
-                  "<strong>alle reële getallen</strong>: je mag elk getal invullen."),
-            ("p", "Het <strong>bereik</strong> wordt door de top begrensd. Bij f(x) = x² is dat alle getallen "
-                  "groter dan of gelijk aan nul; bij g(x) = (x − 1)² + 4 alle getallen groter dan of gelijk "
-                  "aan 4. Het bereik van een tweedegraadsfunctie is dus <strong>nooit</strong> de hele "
-                  "verzameling van de reële getallen."),
-            ("p", "<strong>Stijgen en dalen.</strong> Bij f(x) = x² − 4x ligt de top bij x = 2 en opent de "
-                  "parabool naar boven, dus daalt ze <strong>links van x = 2</strong> en stijgt ze daarna. "
-                  "Dat lees je af in het verloopschema, niet in het tekenverloop."),
+                  "<strong>\\(\\mathbb{R}\\)</strong>, de verzameling van alle reële getallen: je mag elk getal invullen."),
+            ("p", "Het <strong>bereik</strong> wordt door de top begrensd. Bij \\(f(x) = x^{2}\\) is dat "
+                  "\\(\\left[0, +\\infty\\right[\\); bij \\(g(x) = (x - 1)^{2} + 4\\) is dat "
+                  "\\(\\left[4, +\\infty\\right[\\). Opent de parabool naar beneden, dan krijg je een bereik "
+                  "van de vorm \\(\\left]-\\infty, q\\right]\\). Het bereik van een tweedegraadsfunctie is dus "
+                  "<strong>nooit</strong> de hele verzameling \\(\\mathbb{R}\\) van de reële getallen."),
+        ]),
+        dict(kop="Stijgen, dalen en extrema", blokken=[
+            ("p", "Bij \\(f(x) = x^{2} - 4x\\) ligt de top bij \\(x = 2\\) en opent de parabool naar boven, dus "
+                  "daalt ze <strong>links van \\(x = 2\\)</strong> en stijgt ze daarna. Dat lees je af in het "
+                  "verloopschema, niet in het tekenverloop."),
             ("p", "Een <strong>extremum</strong> is een grootste of kleinste functiewaarde. Een parabool heeft "
                   "er precies één, namelijk in de top."),
         ]),
         dict(kop="De vormen op een rij", blokken=[
             ("p", tabel(["Voorschrift", "Grafiek", "Wat je er direct uit leest"], [
-                ["f(x) = ax + b", "rechte", "rico a, snijpunt met de y-as b"],
-                ["f(x) = ax²", "parabool met top in de oorsprong", "de opening"],
-                ["f(x) = ax² + bx + c", "parabool", "het snijpunt met de y-as (de c)"],
-                ["f(x) = a(x − p)² + q", "parabool", "de top (p, q)"],
-                ["f(x) = a(x − x₁)(x − x₂)", "parabool", "de nulwaarden x₁ en x₂"],
-                ["f(x) = c/x", "hyperbool met twee takken", "het omgekeerd evenredige verband"],
+                [r"\(f(x) = ax + b\)", "rechte", r"rico \(a\), snijpunt met de \(y\)-as \(b\)"],
+                [r"\(f(x) = ax^{2}\)", "parabool met top in de oorsprong", "de opening"],
+                [r"\(f(x) = ax^{2} + bx + c\)", "parabool", r"het snijpunt met de \(y\)-as (de \(c\))"],
+                [r"\(f(x) = a(x - p)^{2} + q\)", "parabool", r"de top \((p, q)\)"],
+                [r"\(f(x) = a(x - x_{1})(x - x_{2})\)", "parabool",
+                 r"de nulwaarden \(x_{1}\) en \(x_{2}\)"],
+                [r"\(f(x) = \dfrac{c}{x}\)", "hyperbool met twee takken",
+                 "het omgekeerd evenredige verband"],
             ])),
-            ("p", "Welke vorm het handigst is, hangt af van wat je zoekt: de <strong>productvorm</strong> "
-                  "geeft de nulwaarden cadeau (een product is nul zodra één factor nul is, dus bij nulwaarden "
-                  "2 en 5 hoort f(x) = (x − 2)(x − 5)), de <strong>topvorm</strong> geeft de top."),
+        ]),
+        dict(kop="Welke vorm wanneer", blokken=[
+            ("p", "Welke vorm het handigst is, hangt af van wat je zoekt: de <strong>productvorm</strong> geeft "
+                  "de nulwaarden cadeau (een product is nul zodra één factor nul is, dus bij nulwaarden "
+                  "\\(2\\) en \\(5\\) hoort \\(f(x) = (x - 2)(x - 5)\\)), de <strong>topvorm</strong> geeft de "
+                  "top."),
             ("p", "Omgekeerd kan je uit een <strong>grafiek het voorschrift afleiden</strong>: lees de top af "
-                  "voor p en q, en gebruik één ander punt om a te berekenen."),
+                  "voor \\(p\\) en \\(q\\), en gebruik één ander punt om \\(a\\) te berekenen."),
         ]),
         dict(kop="De omgekeerd evenredige functie", blokken=[
-            ("p", "Bij <strong>f(x) = 6/x</strong> blijft het <strong>product</strong> van x en y telkens 6: "
-                  "verdubbelt x, dan halveert y. Dat is een <strong>omgekeerd evenredig</strong> verband."),
+            ("p", "Bij <strong>\\(f(x) = \\dfrac{6}{x}\\)</strong> blijft het <strong>product</strong> van "
+                  "\\(x\\) en \\(y\\) telkens \\(6\\): verdubbelt \\(x\\), dan halveert \\(y\\). Dat is een "
+                  "<strong>omgekeerd evenredig</strong> verband."),
             ("p", "De grafiek is een <strong>hyperbool met twee takken</strong>: één bij de positieve, één bij "
-                  "de negatieve x-waarden. Het getal <strong>nul hoort niet bij het domein</strong>, want je "
-                  "mag niet door nul delen; de grafiek nadert de verticale as wel maar raakt hem nooit."),
+                  "de negatieve \\(x\\)-waarden. Het getal <strong>nul hoort niet bij het domein</strong>, want "
+                  "je mag niet door nul delen; het domein is dus "
+                  "\\(\\mathbb{R} \\setminus \\{0\\}\\). De grafiek nadert de verticale as wel maar raakt hem "
+                  "nooit."),
             ("p", "Deze functie heeft <strong>geen nulwaarde</strong>: een breuk met een teller die niet nul "
                   "is, wordt zelf nooit nul."),
         ]),
     ],
     onthoud=[
-        "De grafiek van een tweedegraadsfunctie is een parabool; die van c/x een hyperbool.",
-        "a > 0 opent naar boven, a < 0 naar beneden.",
-        "Bij a(x − p)² + q is de top (p, q); (x + 2)² geeft p = −2.",
-        "(x − 5)² ligt vijf eenheden naar RECHTS.",
+        r"De grafiek van een tweedegraadsfunctie is een parabool, die van \(\dfrac{c}{x}\) een hyperbool.",
+        r"\(a > 0\) opent naar boven, \(a < 0\) naar beneden.",
+        r"Bij \(a(x - p)^{2} + q\) is de top \((p, q)\); \((x + 2)^{2}\) geeft \(p = -2\).",
+        r"\((x - 5)^{2}\) ligt vijf eenheden naar RECHTS.",
         "Een parabool heeft twee, één of geen nulwaarden.",
         "De symmetrieas is de verticale rechte door de top, in het midden tussen de nulwaarden.",
-        "Domein van elke veeltermfunctie: alle reële getallen. Het bereik wordt door de top begrensd.",
+        r"Domein van elke veeltermfunctie: \(\mathbb{R}\). Het bereik wordt door de top begrensd.",
         "Tekenverloop is positief of negatief; verloopschema is stijgen of dalen.",
         "Productvorm geeft de nulwaarden, topvorm geeft de top.",
-        "Bij f(x) = c/x hoort x = 0 niet bij het domein en is er geen nulwaarde.",
+        r"Bij \(f(x) = \dfrac{c}{x}\) hoort \(x = 0\) niet bij het domein en is er geen nulwaarde.",
     ],
 )
 

@@ -9960,3 +9960,55 @@ def rechtegrafiek(breedte=470):
     d.append(_tekst(x1 + 9, y1 + 17, "b = 3", 10, FOREST, "start", True))
     d.append(_tekst(x2 + 10, y2 + 2, "y = 2x + 3", 10.5, DARK, "start", True))
     return _svg(breedte, h, "\n".join(d))
+
+
+def paraboolgrafiek(breedte=470):
+    r"""De parabool y = x² − 4x + 3 met haar nulwaarden, top en symmetrieas."""
+    u = 26.0
+    ox, oy = 183.0, 126.0
+    h = 222
+
+    def px(x):
+        return ox + x * u
+
+    def py(y):
+        return oy - y * u
+
+    d = [f'<rect x="5" y="4" width="{breedte-10}" height="{h-26}" rx="7" '
+         f'fill="{PAPER}" stroke="{BORDER}" stroke-width="1.2"/>']
+    for i in range(-1, 6):
+        d.append(f'<line x1="{px(i)}" y1="{py(-2)}" x2="{px(i)}" y2="{py(4)}" '
+                 f'stroke="{BORDER}" stroke-width="1"/>')
+    for j in range(-2, 5):
+        d.append(f'<line x1="{px(-1)}" y1="{py(j)}" x2="{px(5)}" y2="{py(j)}" '
+                 f'stroke="{BORDER}" stroke-width="1"/>')
+    d.append(f'<line x1="{px(-1)-12}" y1="{py(0)}" x2="{px(5)+14}" y2="{py(0)}" '
+             f'stroke="{INK}" stroke-width="1.4"/>')
+    d.append(f'<line x1="{px(0)}" y1="{py(-2)+12}" x2="{px(0)}" y2="{py(4)-12}" '
+             f'stroke="{INK}" stroke-width="1.4"/>')
+    d.append(_tekst(px(5) + 11, py(0) + 14, "x", 9.5, DIM, "middle"))
+    d.append(_tekst(px(0) - 10, py(4) - 15, "y", 9.5, DIM, "end"))
+    for i in (-1, 1, 3, 4, 5):
+        d.append(_tekst(px(i), py(0) - 8, str(i), 8.5, DIM, "middle"))
+    for j in (-2, -1, 1, 2, 3, 4):
+        d.append(_tekst(px(0) - 7, py(j) + 3, str(j), 8.5, DIM, "end"))
+
+    # de symmetrieas, de verticale rechte door de top
+    d.append(f'<line x1="{px(2)}" y1="{py(-2)}" x2="{px(2)}" y2="{py(4)}" '
+             f'stroke="{AMBER}" stroke-width="2" stroke-dasharray="5 4"/>')
+    d.append(_tekst(px(2) + 8, py(4) + 2, "x = 2", 10, AMBER, "start", True))
+
+    # de parabool zelf, afgekapt waar ze het raster verlaat
+    punten = []
+    x = -0.28
+    while x <= 4.29:
+        punten.append(f"{px(x):.1f},{py(x * x - 4 * x + 3):.1f}")
+        x += 0.08
+    d.append(f'<polyline points="{" ".join(punten)}" fill="none" stroke="{DARK}" '
+             f'stroke-width="2.6"/>')
+
+    for x0 in (1, 3):
+        d.append(f'<circle cx="{px(x0)}" cy="{py(0)}" r="4.2" fill="{FOREST}"/>')
+    d.append(f'<circle cx="{px(2)}" cy="{py(-1)}" r="4.2" fill="{AMBER}"/>')
+    d.append(_tekst(px(2) + 9, py(-1) + 17, "top (2, −1)", 10, AMBER, "start", True))
+    return _svg(breedte, h, "\n".join(d))
