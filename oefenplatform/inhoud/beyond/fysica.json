@@ -5901,7 +5901,7 @@
             "druk, kracht, oppervlakte en tijd"
           ],
           "antwoord": 0,
-          "uitleg": "Samen liggen ze vast in de algemene gaswet. Ken je er drie, dan volgt de vierde eruit."
+          "uitleg": "Samen liggen ze vast in de algemene gaswet \\(\\dfrac{p\\,V}{T} = \\text{cte}\\). Ken je er drie, dan volgt de vierde eruit."
         },
         {
           "type": "invultekst",
@@ -5911,19 +5911,19 @@
             "K",
             "de kelvin"
           ],
-          "uitleg": "Nul kelvin is het absolute nulpunt, bij min 273 graden celsius. Rekenen in celsius geeft meteen een fout antwoord."
+          "uitleg": "Nul kelvin is het absolute nulpunt, bij \\(-273\\ ^\\circ\\text{C}\\). Rekenen in celsius geeft meteen een fout antwoord."
         },
         {
           "type": "meerkeuze",
-          "vraag": "Hoeveel kelvin is 27 graden celsius?",
+          "vraag": "Hoeveel kelvin is \\(27\\ ^\\circ\\text{C}\\)?",
           "opties": [
-            "300 K",
-            "246 K",
-            "27 K",
-            "273 K"
+            "\\(300\\) K",
+            "\\(246\\) K",
+            "\\(27\\) K",
+            "\\(273\\) K"
           ],
           "antwoord": 0,
-          "uitleg": "Tel er 273 bij: 27 plus 273 is 300 kelvin. Omgekeerd trek je er 273 van af."
+          "uitleg": "\\(T = \\theta + 273 = 27 + 273 = 300\\) K. Omgekeerd trek je er \\(273\\) van af."
         },
         {
           "type": "meerkeuze",
@@ -5935,7 +5935,7 @@
             "volume gedeeld door temperatuur blijft gelijk"
           ],
           "antwoord": 0,
-          "uitleg": "Pers je een gas in de helft van het volume, dan verdubbelt de druk. Zo'n proces heet isotherm."
+          "uitleg": "\\[p\\,V = \\text{cte} \\quad\\text{of}\\quad p_{1}V_{1} = p_{2}V_{2}\\] Pers je een gas in de helft van het volume, dan verdubbelt de druk. Zo'n proces heet isotherm."
         },
         {
           "type": "invultekst",
@@ -5949,15 +5949,15 @@
         },
         {
           "type": "meerkeuze",
-          "vraag": "Een gas van 6 L bij 100 kPa wordt bij dezelfde temperatuur samengeperst tot 2 L. Welke druk heeft het dan?",
+          "vraag": "Een gas van \\(6{,}0\\) L bij \\(100\\) kPa wordt bij dezelfde temperatuur samengeperst tot \\(2{,}0\\) L. Welke druk heeft het dan?",
           "opties": [
-            "300 kPa",
-            "33 kPa",
-            "200 kPa",
-            "600 kPa"
+            "\\(300\\) kPa",
+            "\\(33\\) kPa",
+            "\\(200\\) kPa",
+            "\\(600\\) kPa"
           ],
           "antwoord": 0,
-          "uitleg": "Het product van druk en volume blijft gelijk: 100 maal 6 is 600, en 600 gedeeld door 2 is 300 kilopascal."
+          "uitleg": "\\(p_{2} = \\dfrac{p_{1}V_{1}}{V_{2}} = \\dfrac{100 \\times 6{,}0}{2{,}0} = 300\\) kPa."
         },
         {
           "type": "meerkeuze",
@@ -5969,19 +5969,19 @@
             "het volume blijft gelijk hoe warm je het gas ook maakt"
           ],
           "antwoord": 0,
-          "uitleg": "Verwarm je een ballon, dan zet hij uit. Dat heet een isobaar proces."
+          "uitleg": "\\[\\dfrac{V}{T} = \\text{cte}\\] Verwarm je een ballon, dan zet hij uit. Dat heet een isobaar proces."
         },
         {
           "type": "meerkeuze",
-          "vraag": "Een gas van 2 L bij 300 K wordt bij gelijke druk tot 600 K verwarmd. Welk volume heeft het dan?",
+          "vraag": "Een gas van \\(2{,}0\\) L bij \\(300\\) K wordt bij gelijke druk tot \\(600\\) K verwarmd. Welk volume heeft het dan?",
           "opties": [
-            "4 L",
-            "1 L",
-            "8 L",
-            "2 L"
+            "\\(4{,}0\\) L",
+            "\\(1{,}0\\) L",
+            "\\(8{,}0\\) L",
+            "\\(2{,}0\\) L"
           ],
           "antwoord": 0,
-          "uitleg": "Volume gedeeld door temperatuur blijft gelijk, en de temperatuur verdubbelt. Had je in celsius gerekend, dan was het antwoord fout geweest."
+          "uitleg": "\\(\\dfrac{V}{T}\\) blijft gelijk, en \\(T\\) verdubbelt. Had je in celsius gerekend, dan was het antwoord fout geweest."
         },
         {
           "type": "waarofniet",
@@ -5991,19 +5991,19 @@
         },
         {
           "type": "meerkeuze",
-          "vraag": "Een gesloten vat met gas staat op 2 bar bij 250 K. Tot welke druk stijgt het bij 500 K?",
+          "vraag": "Een gesloten vat met gas staat op \\(2{,}0\\) bar bij \\(250\\) K. Tot welke druk stijgt het bij \\(500\\) K?",
           "opties": [
-            "4 bar",
-            "1 bar",
-            "2 bar",
-            "8 bar"
+            "\\(4{,}0\\) bar",
+            "\\(1{,}0\\) bar",
+            "\\(2{,}0\\) bar",
+            "\\(8{,}0\\) bar"
           ],
           "antwoord": 0,
-          "uitleg": "Druk gedeeld door temperatuur blijft gelijk bij constant volume. De temperatuur verdubbelt, dus de druk ook."
+          "uitleg": "Bij constant volume blijft \\(\\dfrac{p}{T}\\) gelijk. \\(T\\) verdubbelt, dus \\(p\\) ook."
         },
         {
           "type": "meerkeuze",
-          "vraag": "Hoe ziet een p(V)-grafiek van een isotherm proces eruit?",
+          "vraag": "Hoe ziet een \\(p(V)\\)-grafiek van een isotherm proces eruit?",
           "opties": [
             "een kromme die daalt zoals een omgekeerde evenredigheid",
             "een rechte door de oorsprong",
@@ -6011,14 +6011,14 @@
             "een stijgende parabool"
           ],
           "antwoord": 0,
-          "uitleg": "Het product van de twee blijft constant, dus is het een hyperbool. Een V(T)-grafiek bij constante druk is wel een rechte."
+          "uitleg": "\\(p\\,V = \\text{cte}\\), dus is het een hyperbool. Een \\(V(T)\\)-grafiek bij constante druk is wel een rechte."
         },
         {
           "type": "meerkeuze",
           "vraag": "Welke uitspraken over een isotherm proces zijn juist? Kruis alles aan wat juist is.",
           "opties": [
-            "het product van druk en volume blijft gelijk",
-            "de p(V)-grafiek is een hyperbool",
+            "het product \\(p\\,V\\) blijft gelijk",
+            "de \\(p(V)\\)-grafiek is een hyperbool",
             "de temperatuur verandert tijdens het proces niet",
             "het volume is recht evenredig met de druk"
           ],
@@ -6054,17 +6054,17 @@
           "type": "meerkeuze",
           "vraag": "Welke grafieken horen bij welke gaswet? Kruis alles aan wat juist is.",
           "opties": [
-            "bij constante druk is de V(T)-grafiek een rechte door de oorsprong",
-            "bij constant volume is de p(T)-grafiek een rechte door de oorsprong",
-            "bij constante temperatuur daalt de p(V)-grafiek als een kromme",
-            "bij constante druk is de V(T)-grafiek een dalende kromme"
+            "bij constante druk is de \\(V(T)\\)-grafiek een rechte door de oorsprong",
+            "bij constant volume is de \\(p(T)\\)-grafiek een rechte door de oorsprong",
+            "bij constante temperatuur daalt de \\(p(V)\\)-grafiek als een kromme",
+            "bij constante druk is de \\(V(T)\\)-grafiek een dalende kromme"
           ],
           "antwoord": [
             0,
             1,
             2
           ],
-          "uitleg": "De eerste twee gelden alleen met de temperatuur in kelvin. In graden celsius snijden die rechten de as pas bij min 273."
+          "uitleg": "De eerste twee gelden alleen met \\(T\\) in kelvin. In graden celsius snijden die rechten de as pas bij \\(-273\\)."
         },
         {
           "type": "waarofniet",
@@ -6074,15 +6074,15 @@
         },
         {
           "type": "meerkeuze",
-          "vraag": "Een ballon van 3 L bij 20 °C wordt bij gelijke druk in een koelkast op 5 °C gelegd. Welk volume krijgt hij ongeveer?",
+          "vraag": "Een ballon van \\(3{,}0\\) L bij \\(20\\ ^\\circ\\text{C}\\) wordt bij gelijke druk in een koelkast op \\(5\\ ^\\circ\\text{C}\\) gelegd. Welk volume krijgt hij ongeveer?",
           "opties": [
-            "ongeveer 2,85 L",
-            "ongeveer 0,75 L",
-            "ongeveer 3,15 L",
-            "ongeveer 12 L"
+            "\\(2{,}85\\) L",
+            "\\(0{,}75\\) L",
+            "\\(3{,}15\\) L",
+            "\\(12{,}0\\) L"
           ],
           "antwoord": 0,
-          "uitleg": "Zet eerst om naar kelvin: 293 en 278. Dan is 3 maal 278 gedeeld door 293 ongeveer 2,85 liter."
+          "uitleg": "Zet eerst om naar kelvin: \\(293\\) en \\(278\\). Dan is \\(V_{2} = \\dfrac{3{,}0 \\times 278}{293} \\approx 2{,}85\\) L."
         },
         {
           "type": "meerkeuze",
@@ -6123,55 +6123,55 @@
           "type": "meerkeuze",
           "vraag": "Wat zegt de algemene gaswet voor een vaste hoeveelheid gas?",
           "opties": [
-            "p maal V gedeeld door T blijft constant",
-            "p maal V maal T blijft constant",
-            "p gedeeld door V maal T blijft constant",
-            "p plus V plus T blijft constant"
+            "\\(\\dfrac{p\\,V}{T}\\) blijft constant",
+            "\\(p\\,V\\,T\\) blijft constant",
+            "\\(\\dfrac{p\\,T}{V}\\) blijft constant",
+            "\\(p + V + T\\) blijft constant"
           ],
           "antwoord": 0,
-          "uitleg": "De drie afzonderlijke gaswetten zijn bijzondere gevallen daarvan. Houd je er één constant, dan blijft de rest over."
+          "uitleg": "\\[\\dfrac{p_{1}V_{1}}{T_{1}} = \\dfrac{p_{2}V_{2}}{T_{2}}\\] De drie afzonderlijke gaswetten zijn bijzondere gevallen daarvan. Houd je er één constant, dan blijft de rest over."
         },
         {
           "type": "meerkeuze",
           "vraag": "Hoe luidt de ideale gaswet?",
           "opties": [
-            "p maal V is n maal R maal T",
-            "p maal V is m maal R maal T",
-            "p gedeeld door V is n maal R maal T",
-            "p maal T is n maal R maal V"
+            "\\(p\\,V = n\\,R\\,T\\)",
+            "\\(p\\,V = m\\,R\\,T\\)",
+            "\\(\\dfrac{p}{V} = n\\,R\\,T\\)",
+            "\\(p\\,T = n\\,R\\,V\\)"
           ],
           "antwoord": 0,
-          "uitleg": "Hier staat n voor de stofhoeveelheid in mol en R voor de universele gasconstante. Die staat in de bijlage van het examen."
+          "uitleg": "Hier staat \\(n\\) voor de stofhoeveelheid in mol en \\(R\\) voor de universele gasconstante. Die staat in de bijlage van het examen."
         },
         {
           "type": "invultekst",
-          "vraag": "Hoe noem je de constante R uit de ideale gaswet?",
+          "vraag": "Hoe noem je de constante \\(R\\) uit de ideale gaswet?",
           "antwoord": [
             "gasconstante",
             "de gasconstante",
             "universele gasconstante"
           ],
-          "uitleg": "Ze is ongeveer 8,31 joule per mol per kelvin. Dezelfde waarde geldt voor elk gas, en dat is net het bijzondere eraan."
+          "uitleg": "\\(R = 8{,}31\\ \\text{J/(mol}\\cdot\\text{K)}\\). Dezelfde waarde geldt voor elk gas, en dat is net het bijzondere eraan."
         },
         {
           "type": "meerkeuze",
-          "vraag": "Een gas gaat van 2 L bij 300 K en 100 kPa naar 400 K en 200 kPa. Welk volume krijgt het?",
+          "vraag": "Een gas gaat van \\(2{,}0\\) L bij \\(300\\) K en \\(100\\) kPa naar \\(400\\) K en \\(200\\) kPa. Welk volume krijgt het?",
           "opties": [
-            "ongeveer 1,33 L",
-            "ongeveer 3 L",
-            "ongeveer 0,75 L",
-            "ongeveer 2,67 L"
+            "\\(1{,}33\\) L",
+            "\\(3{,}00\\) L",
+            "\\(0{,}75\\) L",
+            "\\(2{,}67\\) L"
           ],
           "antwoord": 0,
-          "uitleg": "p maal V gedeeld door T blijft gelijk: 2 maal 100 gedeeld door 300 is 0,667, dus V is 0,667 maal 400 gedeeld door 200 is 1,33 liter."
+          "uitleg": "\\(V_{2} = \\dfrac{p_{1}V_{1}T_{2}}{T_{1}p_{2}} = \\dfrac{100 \\times 2{,}0 \\times 400}{300 \\times 200} = 1{,}33\\) L."
         },
         {
           "type": "meerkeuze",
           "vraag": "Welke uitspraken over de ideale gaswet zijn juist? Kruis alles aan wat juist is.",
           "opties": [
             "ze geldt ook voor een mengsel van gassen zoals lucht",
-            "de stofhoeveelheid n staat erin in mol",
-            "de constante R is voor elk gas dezelfde",
+            "de stofhoeveelheid \\(n\\) staat erin in mol",
+            "de constante \\(R\\) is voor elk gas dezelfde",
             "de temperatuur mag je erin in graden celsius invullen"
           ],
           "antwoord": [
@@ -6234,31 +6234,31 @@
             "-273",
             "min 273"
           ],
-          "uitleg": "Preciezer is dat min 273,15 graden celsius. Lager dan nul kelvin kan niet."
+          "uitleg": "Preciezer is dat \\(-273{,}15\\ ^\\circ\\text{C}\\). Lager dan \\(0\\) K kan niet."
         },
         {
           "type": "meerkeuze",
           "vraag": "Wat verstaat men onder normomstandigheden?",
           "opties": [
-            "nul graden celsius en een druk van 101,3 kPa",
-            "twintig graden celsius en een druk van 100 kPa",
-            "vijfentwintig graden celsius en een druk van 1 kPa",
-            "nul kelvin en een druk van nul pascal"
+            "\\(0\\ ^\\circ\\text{C}\\) en een druk van \\(101{,}3\\) kPa",
+            "\\(20\\ ^\\circ\\text{C}\\) en een druk van \\(100\\) kPa",
+            "\\(25\\ ^\\circ\\text{C}\\) en een druk van \\(1{,}0\\) kPa",
+            "\\(0\\) K en een druk van \\(0\\) Pa"
           ],
           "antwoord": 0,
-          "uitleg": "Onder die omstandigheden neemt één mol gas ongeveer 22,4 liter in. Zo kan je metingen van verschillende dagen met elkaar vergelijken."
+          "uitleg": "Onder die omstandigheden neemt één mol gas ongeveer \\(22{,}4\\) L in. Zo kan je metingen van verschillende dagen met elkaar vergelijken."
         },
         {
           "type": "meerkeuze",
           "vraag": "Hoeveel liter neemt één mol van een ideaal gas in bij normomstandigheden?",
           "opties": [
-            "ongeveer 22,4 L",
-            "ongeveer 1 L",
-            "ongeveer 24,5 L",
-            "ongeveer 100 L"
+            "\\(22{,}4\\) L",
+            "\\(1{,}0\\) L",
+            "\\(24{,}5\\) L",
+            "\\(100\\) L"
           ],
           "antwoord": 0,
-          "uitleg": "Dat geldt voor élk ideaal gas, hoe zwaar zijn deeltjes ook zijn. Bij kamertemperatuur is het ongeveer 24 liter."
+          "uitleg": "Dat geldt voor élk ideaal gas, hoe zwaar zijn deeltjes ook zijn. Bij kamertemperatuur is het ongeveer \\(24\\) L."
         },
         {
           "type": "waarofniet",
@@ -6268,25 +6268,25 @@
         },
         {
           "type": "meerkeuze",
-          "vraag": "Hoeveel mol gas zit er in een vat van 0,025 m³ bij 300 K en 100 kPa? Neem R gelijk aan 8,31.",
+          "vraag": "Hoeveel mol gas zit er in een vat van \\(0{,}025\\ \\text{m}^{3}\\) bij \\(300\\) K en \\(100\\) kPa? Neem \\(R = 8{,}31\\).",
           "opties": [
-            "ongeveer 1 mol",
-            "ongeveer 10 mol",
-            "ongeveer 0,1 mol",
-            "ongeveer 100 mol"
+            "\\(1{,}0\\) mol",
+            "\\(10{,}0\\) mol",
+            "\\(0{,}10\\) mol",
+            "\\(100\\) mol"
           ],
           "antwoord": 0,
-          "uitleg": "n is p maal V gedeeld door R maal T: 100 000 maal 0,025 gedeeld door 8,31 maal 300 is ongeveer 1 mol. Let op de eenheden: pascal en kubieke meter."
+          "uitleg": "\\(n = \\dfrac{p\\,V}{R\\,T} = \\dfrac{1{,}0 \\times 10^{5} \\times 0{,}025}{8{,}31 \\times 300} \\approx 1{,}0\\) mol. Let op de eenheden: pascal en kubieke meter."
         },
         {
           "type": "waarofniet",
           "vraag": "Als je bij gelijk volume en gelijke temperatuur meer gas in een vat pompt, blijft de druk gelijk.",
           "antwoord": false,
-          "uitleg": "De druk stijgt, want meer deeltjes betekent meer botsingen tegen de wand. In de ideale gaswet is n recht evenredig met p."
+          "uitleg": "De druk stijgt, want meer deeltjes betekent meer botsingen tegen de wand. In \\(p\\,V = n\\,R\\,T\\) is \\(n\\) recht evenredig met \\(p\\)."
         },
         {
           "type": "meerkeuze",
-          "vraag": "Waarom staat er op een spuitbus dat je hem niet boven 50 °C mag bewaren?",
+          "vraag": "Waarom staat er op een spuitbus dat je hem niet boven \\(50\\ ^\\circ\\text{C}\\) mag bewaren?",
           "opties": [
             "bij constant volume stijgt de druk mee met de temperatuur",
             "het gas erin lost bij warmte op in de vloeistof",
@@ -6314,7 +6314,7 @@
         },
         {
           "type": "meerkeuze",
-          "vraag": "Een duiker ademt op 20 m diepte lucht in bij ongeveer 3 bar. Waarom mag hij bij het opstijgen niet de adem inhouden?",
+          "vraag": "Een duiker ademt op \\(20\\) m diepte lucht in bij ongeveer \\(3\\) bar. Waarom mag hij bij het opstijgen niet de adem inhouden?",
           "opties": [
             "de lucht in zijn longen zet bij de dalende druk sterk uit",
             "de lucht in zijn longen koelt bij het stijgen snel af",
@@ -6322,13 +6322,13 @@
             "de lucht wordt bij het stijgen zwaarder dan water"
           ],
           "antwoord": 0,
-          "uitleg": "Bij constante temperatuur is het product van druk en volume constant. Van 3 naar 1 bar betekent dus een drie keer zo groot volume."
+          "uitleg": "Bij constante temperatuur is \\(p\\,V\\) constant. Van \\(3\\) naar \\(1\\) bar betekent dus een drie keer zo groot volume."
         },
         {
           "type": "waarofniet",
           "vraag": "De ideale gaswet geldt ook voor een mengsel van gassen zoals lucht.",
           "antwoord": true,
-          "uitleg": "Je telt dan alle deeltjes samen als n. Welke soorten het zijn, maakt voor de wet niet uit."
+          "uitleg": "Je telt dan alle deeltjes samen als \\(n\\). Welke soorten het zijn, maakt voor de wet niet uit."
         },
         {
           "type": "invultekst",
@@ -6338,7 +6338,7 @@
             "stofhoeveelheid",
             "het aantal mol"
           ],
-          "uitleg": "Ze staat in mol en krijgt het symbool n. Blijft ze constant, dan volstaat de algemene gaswet."
+          "uitleg": "Ze staat in mol en krijgt het symbool \\(n\\). Blijft ze constant, dan volstaat de algemene gaswet \\(\\dfrac{p\\,V}{T} = \\text{cte}\\)."
         }
       ]
     },

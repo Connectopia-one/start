@@ -8,70 +8,78 @@
    "blokken": [
     {
      "soort": "tekst",
-     "html": "De <strong>toestandsgrootheden van een gas</strong> zijn <strong>druk, volume, temperatuur en stofhoeveelheid</strong>. Ken je er drie, dan volgt de vierde eruit."
+     "html": "De <strong>toestandsgrootheden van een gas</strong> zijn <strong>druk \\(p\\), volume \\(V\\), temperatuur \\(T\\) en stofhoeveelheid \\(n\\)</strong>. Ken je er drie, dan volgt de vierde eruit."
     },
     {
-     "soort": "tekst",
-     "html": "De temperatuur moet je in de gaswetten altijd in <strong>kelvin</strong> invullen. Je <strong>mag de temperatuur dus niet in graden celsius invullen, ook niet als je overal dezelfde eenheid gebruikt</strong>, want de wetten gelden voor de absolute temperatuur. <strong>27 graden celsius</strong> is <strong>300 K</strong>: je telt er 273 bij."
+     "soort": "kader",
+     "html": "<strong>Altijd in kelvin</strong><br>\\[T(\\text{K}) = \\theta(^\\circ\\text{C}) + 273\\]Je <strong>mag de temperatuur niet in graden celsius invullen</strong>, ook niet als je overal dezelfde eenheid gebruikt: de wetten gelden voor de absolute temperatuur. \\(27\\ ^\\circ\\text{C}\\) is dus \\(300\\) K, en \\(0\\) K ligt bij \\(-273\\ ^\\circ\\text{C}\\)."
     }
    ]
   },
   {
-   "kop": "De drie afzonderlijke gaswetten",
+   "kop": "Isotherm: bij constante temperatuur",
    "blokken": [
     {
      "soort": "tekst",
-     "html": "Bij <strong>constante temperatuur</strong> geldt: <strong>het product van druk en volume blijft gelijk</strong>. Zo'n proces heet <strong>isotherm</strong>: <strong>de temperatuur verandert tijdens het proces niet</strong>, en <strong>druk en volume zijn omgekeerd evenredig</strong>. Wordt een gas van <strong>6 L bij 100 kPa</strong> bij dezelfde temperatuur samengeperst tot <strong>2 L</strong>, dan is de druk <strong>300 kPa</strong>."
-    },
-    {
-     "soort": "tekst",
-     "html": "Bij <strong>constante druk</strong> geldt: <strong>het volume is recht evenredig met de absolute temperatuur</strong>. Zo'n proces heet <strong>isobaar</strong>. Een gas van <strong>2 L bij 300 K</strong> dat bij gelijke druk tot <strong>600 K</strong> verwarmd wordt, heeft <strong>4 L</strong>. Een <strong>ballon van 3 L bij 20 °C</strong> die in een koelkast op <strong>5 °C</strong> gelegd wordt, krimpt tot <strong>ongeveer 2,85 L</strong>: zet eerst om naar 293 en 278 kelvin."
-    },
-    {
-     "soort": "tekst",
-     "html": "Bij <strong>constant volume</strong> geldt: <strong>bij constant volume stijgt de druk van een gas als je het verwarmt</strong>. Zo'n proces heet <strong>isochoor</strong>, dus <strong>verloopt een isochoor proces niet bij constante druk</strong> maar bij constant volume. Een <strong>gesloten vat op 2 bar bij 250 K</strong> komt bij <strong>500 K</strong> op <strong>4 bar</strong>."
-    },
-    {
-     "soort": "tekst",
-     "html": "De drie namen samen: <strong>isobaar, bij constante druk</strong>, <strong>isochoor, bij constant volume</strong>, en isotherm, bij constante temperatuur."
+     "html": "Bij <strong>constante temperatuur</strong> blijft het product van druk en volume gelijk: \\[p\\,V = \\text{cte} \\quad\\text{of}\\quad p_{1}V_{1} = p_{2}V_{2}\\] Zo'n proces heet <strong>isotherm</strong>: de temperatuur verandert tijdens het proces niet, en druk en volume zijn <strong>omgekeerd evenredig</strong>. Wordt een gas van \\(6{,}0\\) L bij \\(100\\) kPa bij dezelfde temperatuur samengeperst tot \\(2{,}0\\) L, dan is \\(p_{2} = \\dfrac{100 \\times 6{,}0}{2{,}0} = 300\\) kPa."
     }
    ]
   },
   {
-   "kop": "De grafieken",
+   "kop": "Isobaar: bij constante druk",
    "blokken": [
     {
      "soort": "tekst",
-     "html": "Een <strong>p(V)-grafiek van een isotherm proces</strong> is <strong>een kromme die daalt zoals een omgekeerde evenredigheid</strong>, dus <strong>een hyperbool</strong>. Een <strong>V(T)-grafiek bij constante druk</strong>, met T in kelvin, is <strong>een rechte die door de oorsprong gaat</strong>, en <strong>bij constant volume is de p(T)-grafiek een rechte door de oorsprong</strong>. In graden celsius snijden die rechten de as pas bij min 273."
-    },
-    {
-     "soort": "tekst",
-     "html": "Een <strong>p(T)-grafiek van een isotherm proces</strong> is iets anders: dat is <strong>één verticale lijn, want de temperatuur verandert niet</strong> terwijl de druk wel verandert."
+     "html": "Bij <strong>constante druk</strong> is het volume recht evenredig met de absolute temperatuur: \\[\\dfrac{V}{T} = \\text{cte}\\] Zo'n proces heet <strong>isobaar</strong>. Een gas van \\(2{,}0\\) L bij \\(300\\) K dat bij gelijke druk tot \\(600\\) K verwarmd wordt, heeft \\(4{,}0\\) L. Een ballon van \\(3{,}0\\) L bij \\(20\\ ^\\circ\\text{C}\\) die in een koelkast op \\(5\\ ^\\circ\\text{C}\\) gelegd wordt, krimpt tot \\(V_{2} = \\dfrac{3{,}0 \\times 278}{293} \\approx 2{,}85\\) L: zet eerst om naar \\(293\\) en \\(278\\) kelvin."
     }
    ]
   },
   {
-   "kop": "De algemene en de ideale gaswet",
+   "kop": "Isochoor: bij constant volume",
    "blokken": [
     {
      "soort": "tekst",
-     "html": "De <strong>algemene gaswet</strong> voor een vaste hoeveelheid gas zegt dat <strong>p maal V gedeeld door T constant blijft</strong>. De drie afzonderlijke wetten zijn daar bijzondere gevallen van. Gaat een gas van <strong>2 L bij 300 K en 100 kPa naar 400 K en 200 kPa</strong>, dan krijgt het <strong>ongeveer 1,33 L</strong>."
+     "html": "Bij <strong>constant volume</strong> stijgt de druk als je het gas verwarmt: \\[\\dfrac{p}{T} = \\text{cte}\\] Zo'n proces heet <strong>isochoor</strong>, dus verloopt een isochoor proces <strong>niet</strong> bij constante druk maar bij constant volume. Een gesloten vat op \\(2{,}0\\) bar bij \\(250\\) K komt bij \\(500\\) K op \\(4{,}0\\) bar. De drie namen samen: <strong>isobaar</strong> bij constante druk, <strong>isochoor</strong> bij constant volume, <strong>isotherm</strong> bij constante temperatuur."
+    }
+   ]
+  },
+  {
+   "kop": "De drie grafieken",
+   "blokken": [
+    {
+     "soort": "figuur",
+     "html": "<svg viewBox=\"0 0 468 158\" width=\"468\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"5\" y=\"4\" width=\"146\" height=\"128\" rx=\"7\" fill=\"#ffffff\" stroke=\"#e4ded0\" stroke-width=\"1.2\"/>\n<line x1=\"30\" y1=\"24\" x2=\"30\" y2=\"108\" stroke=\"#6b7260\" stroke-width=\"1.3\"/>\n<line x1=\"24\" y1=\"102\" x2=\"138\" y2=\"102\" stroke=\"#6b7260\" stroke-width=\"1.3\"/>\n<polygon points=\"142.0,102.0 134.8,104.5 134.8,99.5\" fill=\"#6b7260\"/>\n<polygon points=\"30.0,20.0 32.5,27.2 27.5,27.2\" fill=\"#6b7260\"/>\n<text x=\"134.0\" y=\"115.0\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"9.5\" fill=\"#6b7260\">V</text>\n<text x=\"19.0\" y=\"28.0\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"9.5\" fill=\"#6b7260\">p</text>\n<text x=\"140.0\" y=\"20.0\" text-anchor=\"end\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"8.5\" font-weight=\"600\" fill=\"#234539\">isotherm</text>\n<text x=\"78.0\" y=\"148.0\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"9\" fill=\"#6b7260\">p maal V blijft gelijk</text>\n<polyline points=\"44.0,36.0 47.0,47.6 50.0,55.8 53.0,61.8 56.0,66.5 59.0,70.1 62.0,73.1 65.0,75.6 68.0,77.7 71.0,79.5 74.0,81.0 77.0,82.3 80.0,83.5 83.0,84.6 86.0,85.5 89.0,86.3 92.0,87.1 95.0,87.8 98.0,88.4 101.0,89.0 104.0,89.5 107.0,90.0 110.0,90.5 113.0,90.9 116.0,91.3 119.0,91.6 122.0,92.0 125.0,92.3 128.0,92.6\" fill=\"none\" stroke=\"#2f5d50\" stroke-width=\"2.2\"/>\n<text x=\"118.0\" y=\"58.0\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"9\" font-weight=\"600\" fill=\"#2f5d50\">hyperbool</text>\n<rect x=\"161\" y=\"4\" width=\"146\" height=\"128\" rx=\"7\" fill=\"#ffffff\" stroke=\"#e4ded0\" stroke-width=\"1.2\"/>\n<line x1=\"186\" y1=\"24\" x2=\"186\" y2=\"108\" stroke=\"#6b7260\" stroke-width=\"1.3\"/>\n<line x1=\"180\" y1=\"102\" x2=\"294\" y2=\"102\" stroke=\"#6b7260\" stroke-width=\"1.3\"/>\n<polygon points=\"298.0,102.0 290.8,104.5 290.8,99.5\" fill=\"#6b7260\"/>\n<polygon points=\"186.0,20.0 188.5,27.2 183.5,27.2\" fill=\"#6b7260\"/>\n<text x=\"290.0\" y=\"115.0\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"9.5\" fill=\"#6b7260\">T (K)</text>\n<text x=\"175.0\" y=\"28.0\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"9.5\" fill=\"#6b7260\">V</text>\n<text x=\"296.0\" y=\"20.0\" text-anchor=\"end\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"8.5\" font-weight=\"600\" fill=\"#234539\">isobaar</text>\n<text x=\"234.0\" y=\"148.0\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"9\" fill=\"#6b7260\">V stijgt recht met T</text>\n<line x1=\"186\" y1=\"102\" x2=\"282\" y2=\"34\" stroke=\"#2f5d50\" stroke-width=\"2.2\"/>\n<circle cx=\"186\" cy=\"102\" r=\"3\" fill=\"#234539\"/>\n<text x=\"226.0\" y=\"94.0\" text-anchor=\"start\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"8.5\" font-weight=\"600\" fill=\"#c17f2b\">door 0 K</text>\n<rect x=\"317\" y=\"4\" width=\"146\" height=\"128\" rx=\"7\" fill=\"#ffffff\" stroke=\"#e4ded0\" stroke-width=\"1.2\"/>\n<line x1=\"342\" y1=\"24\" x2=\"342\" y2=\"108\" stroke=\"#6b7260\" stroke-width=\"1.3\"/>\n<line x1=\"336\" y1=\"102\" x2=\"450\" y2=\"102\" stroke=\"#6b7260\" stroke-width=\"1.3\"/>\n<polygon points=\"454.0,102.0 446.8,104.5 446.8,99.5\" fill=\"#6b7260\"/>\n<polygon points=\"342.0,20.0 344.5,27.2 339.5,27.2\" fill=\"#6b7260\"/>\n<text x=\"446.0\" y=\"115.0\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"9.5\" fill=\"#6b7260\">T (K)</text>\n<text x=\"331.0\" y=\"28.0\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"9.5\" fill=\"#6b7260\">p</text>\n<text x=\"452.0\" y=\"20.0\" text-anchor=\"end\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"8.5\" font-weight=\"600\" fill=\"#234539\">isochoor</text>\n<text x=\"390.0\" y=\"148.0\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"9\" fill=\"#6b7260\">p stijgt recht met T</text>\n<line x1=\"342\" y1=\"102\" x2=\"438\" y2=\"46\" stroke=\"#2f5d50\" stroke-width=\"2.2\"/>\n<circle cx=\"342\" cy=\"102\" r=\"3\" fill=\"#234539\"/>\n<text x=\"398.0\" y=\"94.0\" text-anchor=\"start\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"8.5\" font-weight=\"600\" fill=\"#c17f2b\">door 0 K</text></svg>",
+     "onderschrift": "Dezelfde drie wetten, elk in de grafiek waarin je ze herkent."
     },
     {
      "soort": "tekst",
-     "html": "De <strong>ideale gaswet</strong> luidt: <strong>p maal V is n maal R maal T</strong>. Hier is n de stofhoeveelheid en R de <strong>gasconstante</strong>, ongeveer 8,31 joule per mol per kelvin; die <strong>constante R is voor elk gas dezelfde</strong>. De grootheid die je <strong>naast druk, volume en temperatuur moet kennen</strong>, is dus <strong>de stofhoeveelheid</strong>, en die <strong>staat erin in mol</strong>. De wet <strong>geldt ook voor een mengsel van gassen zoals lucht</strong>: je telt dan alle deeltjes samen als n."
+     "html": "Een <strong>\\(p(V)\\)-grafiek van een isotherm proces</strong> is een kromme die daalt zoals een omgekeerde evenredigheid, dus een <strong>hyperbool</strong>. Een <strong>\\(V(T)\\)-grafiek bij constante druk</strong> is, met \\(T\\) in kelvin, een <strong>rechte door de oorsprong</strong>, en bij constant volume is de <strong>\\(p(T)\\)-grafiek</strong> er ook een. In graden celsius snijden die rechten de as pas bij \\(-273\\). Een \\(p(T)\\)-grafiek van een isotherm proces is iets anders: dat is één <strong>verticale lijn</strong>, want \\(T\\) verandert niet terwijl de druk wel verandert."
+    }
+   ]
+  },
+  {
+   "kop": "De algemene gaswet",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Voor een vaste hoeveelheid gas geldt: \\[\\dfrac{p\\,V}{T} = \\text{cte} \\quad\\text{of}\\quad \\dfrac{p_{1}V_{1}}{T_{1}} = \\dfrac{p_{2}V_{2}}{T_{2}}\\] De drie afzonderlijke wetten zijn daar bijzondere gevallen van: houd je er één grootheid constant, dan blijft telkens een van de drie over. Gaat een gas van \\(2{,}0\\) L bij \\(300\\) K en \\(100\\) kPa naar \\(400\\) K en \\(200\\) kPa, dan krijgt het \\(V_{2} = \\dfrac{100 \\times 2{,}0 \\times 400}{300 \\times 200} = 1{,}33\\) L."
+    }
+   ]
+  },
+  {
+   "kop": "De ideale gaswet",
+   "blokken": [
+    {
+     "soort": "kader",
+     "html": "<strong>De ideale gaswet</strong><br>\\[p\\,V = n\\,R\\,T\\]\\(n\\) is de stofhoeveelheid in mol en \\(R = 8{,}31\\ \\text{J/(mol}\\cdot\\text{K)}\\) de <strong>universele gasconstante</strong>, dezelfde voor elk gas. Vul in met \\(p\\) in pascal, \\(V\\) in kubieke meter en \\(T\\) in kelvin."
     },
     {
      "soort": "tekst",
-     "html": "Vul de grootheden in SI-eenheden in: <strong>de druk in pascal</strong>, <strong>het volume in kubieke meter</strong> en <strong>de temperatuur in kelvin</strong>. In een vat van <strong>0,025 m³ bij 300 K en 100 kPa</strong> zit zo <strong>ongeveer 1 mol</strong> gas."
+     "html": "De grootheid die je <strong>naast druk, volume en temperatuur</strong> moet kennen, is dus de <strong>stofhoeveelheid</strong>, en die staat in mol. De wet geldt ook voor een <strong>mengsel</strong> van gassen zoals lucht: je telt dan alle deeltjes samen als \\(n\\). In een vat van \\(0{,}025\\ \\text{m}^{3}\\) bij \\(300\\) K en \\(100\\) kPa zit \\(n = \\dfrac{1{,}0 \\times 10^{5} \\times 0{,}025}{8{,}31 \\times 300} \\approx 1{,}0\\) mol gas."
     },
     {
      "soort": "tekst",
-     "html": "Twee deeltjes van dezelfde wet. <strong>Twee verschillende gassen bij dezelfde druk en temperatuur bevatten in hetzelfde volume evenveel deeltjes.</strong> En <strong>pomp je bij gelijk volume en gelijke temperatuur meer gas in een vat, dan blijft de druk niet gelijk</strong>: ze stijgt, want n en p zijn recht evenredig."
-    },
-    {
-     "soort": "tekst",
-     "html": "Bij <strong>normomstandigheden</strong>, <strong>nul graden celsius en een druk van 101,3 kPa</strong>, neemt één mol van een ideaal gas <strong>ongeveer 22,4 L</strong> in."
+     "html": "Twee gevolgen van dezelfde wet. <strong>Twee verschillende gassen bij dezelfde druk en temperatuur bevatten in hetzelfde volume evenveel deeltjes.</strong> En pomp je bij gelijk volume en gelijke temperatuur meer gas in een vat, dan blijft de druk <strong>niet</strong> gelijk: ze stijgt, want \\(n\\) en \\(p\\) zijn recht evenredig. Bij <strong>normomstandigheden</strong>, \\(0\\ ^\\circ\\text{C}\\) en \\(101{,}3\\) kPa, neemt één mol van een ideaal gas ongeveer \\(22{,}4\\) L in."
     }
    ]
   },
@@ -80,11 +88,11 @@
    "blokken": [
     {
      "soort": "tekst",
-     "html": "Een <strong>ideaal gas</strong> is een gas waarvan <strong>de deeltjes zelf geen eigen volume hebben</strong> en <strong>geen kracht op elkaar uitoefenen</strong>. De botsingen zijn volkomen elastisch. Zo'n gas bestaat niet echt, maar bij lage druk en hoge temperatuur komen echte gassen er dicht bij: een <strong>reëel gas wijkt niet het meest af bij hoge temperatuur en lage druk</strong> maar juist bij lage temperatuur en hoge druk, dicht bij het condenseren."
+     "html": "Een <strong>ideaal gas</strong> is een gas waarvan de deeltjes zelf geen eigen volume hebben en geen kracht op elkaar uitoefenen; de botsingen zijn volkomen <strong>elastisch</strong>. Zo'n gas bestaat niet echt, maar bij lage druk en hoge temperatuur komen echte gassen er dicht bij. Een <strong>reëel gas</strong> wijkt dus niet het meest af bij hoge temperatuur en lage druk maar juist bij <strong>lage temperatuur en hoge druk</strong>, dicht bij het condenseren."
     },
     {
      "soort": "tekst",
-     "html": "Het deeltjesmodel verklaart ook waar de grootheden vandaan komen. De <strong>druk van een gas op de wand</strong> komt <strong>van de botsingen van de deeltjes tegen die wand</strong>. De <strong>temperatuur van een gas</strong> zegt <strong>hoe groot de gemiddelde kinetische energie van de deeltjes is</strong>. Het <strong>absolute nulpunt</strong> ligt bij <strong>−273</strong> graden celsius, preciezer bij min 273,15."
+     "html": "Het <strong>deeltjesmodel</strong> verklaart ook waar de grootheden vandaan komen. De <strong>druk</strong> van een gas op de wand komt van de botsingen van de deeltjes tegen die wand. De <strong>temperatuur</strong> zegt hoe groot de gemiddelde kinetische energie van de deeltjes is. Het <strong>absolute nulpunt</strong> ligt bij \\(-273\\ ^\\circ\\text{C}\\), preciezer bij \\(-273{,}15\\)."
     }
    ]
   },
@@ -93,26 +101,26 @@
    "blokken": [
     {
      "soort": "tekst",
-     "html": "De druk in een <strong>fietsband stijgt als je lang gepompt hebt</strong> omdat <strong>de lucht samengeperst en ook warmer geworden is</strong>."
+     "html": "De druk in een <strong>fietsband</strong> stijgt als je lang gepompt hebt omdat de lucht samengeperst en ook warmer geworden is."
     },
     {
      "soort": "tekst",
-     "html": "Op een <strong>spuitbus</strong> staat dat je hem <strong>niet boven 50 °C mag bewaren</strong> omdat <strong>bij constant volume de druk mee stijgt met de temperatuur</strong>."
+     "html": "Op een <strong>spuitbus</strong> staat dat je hem niet boven \\(50\\ ^\\circ\\text{C}\\) mag bewaren, omdat bij constant volume de druk mee stijgt met de temperatuur: de bus kan niet uitzetten."
     },
     {
      "soort": "tekst",
-     "html": "Een <strong>duiker die op 20 m diepte lucht inademt bij ongeveer 3 bar</strong>, mag bij het opstijgen <strong>de adem niet inhouden</strong>, want <strong>de lucht in zijn longen zet bij de dalende druk sterk uit</strong>: van 3 naar 1 bar is een drie keer zo groot volume."
+     "html": "Een <strong>duiker</strong> die op \\(20\\) m diepte lucht inademt bij ongeveer \\(3\\) bar, mag bij het opstijgen de adem niet inhouden, want de lucht in zijn longen zet bij de dalende druk sterk uit: van \\(3\\) naar \\(1\\) bar is een drie keer zo groot volume."
     }
    ]
   }
  ],
  "onthoud": [
-  "Toestandsgrootheden: druk, volume, temperatuur en stofhoeveelheid.",
-  "Reken altijd in kelvin: celsius plus 273.",
-  "Isotherm: p·V constant. Isobaar: V/T constant. Isochoor: p/T constant.",
-  "Algemene gaswet: p·V/T blijft constant.",
-  "Ideale gaswet: p·V = n·R·T, met pascal, m³, kelvin en mol.",
-  "Eén mol neemt bij normomstandigheden ongeveer 22,4 liter in.",
-  "Druk komt van botsingen, temperatuur is gemiddelde kinetische energie."
+  "Toestandsgrootheden: \\(p\\), \\(V\\), \\(T\\) en \\(n\\).",
+  "Reken altijd in kelvin: \\(T = \\theta + 273\\).",
+  "Isotherm: \\(p\\,V = \\text{cte}\\). Isobaar: \\(\\dfrac{V}{T} = \\text{cte}\\). Isochoor: \\(\\dfrac{p}{T} = \\text{cte}\\).",
+  "Algemene gaswet: \\(\\dfrac{p\\,V}{T}\\) blijft constant.",
+  "Ideale gaswet: \\(p\\,V = n\\,R\\,T\\), met pascal, \\(\\text{m}^{3}\\), kelvin en mol.",
+  "Eén mol neemt bij normomstandigheden ongeveer \\(22{,}4\\) L in.",
+  "Druk komt van botsingen, \\(T\\) is de gemiddelde kinetische energie."
  ]
 }

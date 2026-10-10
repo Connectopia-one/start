@@ -1911,119 +1911,131 @@ BUNDELS["de-gaswetten-en-de-algemene-gaswet-beyond"] = dict(
     secties=[
         dict(kop="Vier toestandsgrootheden", blokken=[
             ("p", "De <strong>toestandsgrootheden van een gas</strong> zijn "
-                  "<strong>druk, volume, temperatuur en stofhoeveelheid</strong>. Ken je er drie, "
-                  "dan volgt de vierde eruit."),
-            ("p", "De temperatuur moet je in de gaswetten altijd in "
-                  "<strong>kelvin</strong> invullen. Je "
-                  "<strong>mag de temperatuur dus niet in graden celsius invullen, ook niet als je "
-                  "overal dezelfde eenheid gebruikt</strong>, want de wetten gelden voor de "
-                  "absolute temperatuur. <strong>27 graden celsius</strong> is "
-                  "<strong>300 K</strong>: je telt er 273 bij."),
+                  "<strong>druk \\(p\\), volume \\(V\\), temperatuur \\(T\\) en "
+                  "stofhoeveelheid \\(n\\)</strong>. Ken je er drie, dan volgt de vierde "
+                  "eruit."),
+            ("kader", "<strong>Altijd in kelvin</strong><br>"
+                      "\\[T(\\text{K}) = \\theta(^\\circ\\text{C}) + 273\\]"
+                      "Je <strong>mag de temperatuur niet in graden celsius invullen</strong>, "
+                      "ook niet als je overal dezelfde eenheid gebruikt: de wetten gelden voor "
+                      "de absolute temperatuur. \\(27\\ ^\\circ\\text{C}\\) is dus "
+                      "\\(300\\) K, en \\(0\\) K ligt bij \\(-273\\ ^\\circ\\text{C}\\)."),
         ]),
-        dict(kop="De drie afzonderlijke gaswetten", blokken=[
-            ("p", "Bij <strong>constante temperatuur</strong> geldt: "
-                  "<strong>het product van druk en volume blijft gelijk</strong>. Zo'n proces heet "
-                  "<strong>isotherm</strong>: <strong>de temperatuur verandert tijdens het proces "
-                  "niet</strong>, en <strong>druk en volume zijn omgekeerd evenredig</strong>. Wordt "
-                  "een gas van <strong>6 L bij 100 kPa</strong> bij dezelfde temperatuur "
-                  "samengeperst tot <strong>2 L</strong>, dan is de druk <strong>300 kPa</strong>."),
-            ("p", "Bij <strong>constante druk</strong> geldt: "
-                  "<strong>het volume is recht evenredig met de absolute temperatuur</strong>. Zo'n "
-                  "proces heet <strong>isobaar</strong>. Een gas van "
-                  "<strong>2 L bij 300 K</strong> dat bij gelijke druk tot <strong>600 K</strong> "
-                  "verwarmd wordt, heeft <strong>4 L</strong>. Een "
-                  "<strong>ballon van 3 L bij 20 °C</strong> die in een koelkast op "
-                  "<strong>5 °C</strong> gelegd wordt, krimpt tot "
-                  "<strong>ongeveer 2,85 L</strong>: zet eerst om naar 293 en 278 kelvin."),
-            ("p", "Bij <strong>constant volume</strong> geldt: "
-                  "<strong>bij constant volume stijgt de druk van een gas als je het "
-                  "verwarmt</strong>. Zo'n proces heet <strong>isochoor</strong>, dus "
-                  "<strong>verloopt een isochoor proces niet bij constante druk</strong> maar bij "
-                  "constant volume. Een <strong>gesloten vat op 2 bar bij 250 K</strong> komt bij "
-                  "<strong>500 K</strong> op <strong>4 bar</strong>."),
-            ("p", "De drie namen samen: <strong>isobaar, bij constante druk</strong>, "
-                  "<strong>isochoor, bij constant volume</strong>, en isotherm, bij constante "
-                  "temperatuur."),
+        dict(kop="Isotherm: bij constante temperatuur", blokken=[
+            ("p", "Bij <strong>constante temperatuur</strong> blijft het product van druk en "
+                  "volume gelijk: \\[p\\,V = \\text{cte} \\quad\\text{of}\\quad "
+                  "p_{1}V_{1} = p_{2}V_{2}\\] Zo'n proces heet <strong>isotherm</strong>: de "
+                  "temperatuur verandert tijdens het proces niet, en druk en volume zijn "
+                  "<strong>omgekeerd evenredig</strong>. Wordt een gas van \\(6{,}0\\) L bij "
+                  "\\(100\\) kPa bij dezelfde temperatuur samengeperst tot \\(2{,}0\\) L, dan "
+                  "is \\(p_{2} = \\dfrac{100 \\times 6{,}0}{2{,}0} = 300\\) kPa."),
         ]),
-        dict(kop="De grafieken", blokken=[
-            ("p", "Een <strong>p(V)-grafiek van een isotherm proces</strong> is "
-                  "<strong>een kromme die daalt zoals een omgekeerde evenredigheid</strong>, dus "
-                  "<strong>een hyperbool</strong>. Een "
-                  "<strong>V(T)-grafiek bij constante druk</strong>, met T in kelvin, is "
-                  "<strong>een rechte die door de oorsprong gaat</strong>, en "
-                  "<strong>bij constant volume is de p(T)-grafiek een rechte door de "
-                  "oorsprong</strong>. In graden celsius snijden die rechten de as pas bij min 273."),
-            ("p", "Een <strong>p(T)-grafiek van een isotherm proces</strong> is iets anders: dat is "
-                  "<strong>één verticale lijn, want de temperatuur verandert niet</strong> terwijl "
-                  "de druk wel verandert."),
+        dict(kop="Isobaar: bij constante druk", blokken=[
+            ("p", "Bij <strong>constante druk</strong> is het volume recht evenredig met de "
+                  "absolute temperatuur: \\[\\dfrac{V}{T} = \\text{cte}\\] Zo'n proces heet "
+                  "<strong>isobaar</strong>. Een gas van \\(2{,}0\\) L bij \\(300\\) K dat bij "
+                  "gelijke druk tot \\(600\\) K verwarmd wordt, heeft \\(4{,}0\\) L. Een ballon "
+                  "van \\(3{,}0\\) L bij \\(20\\ ^\\circ\\text{C}\\) die in een koelkast op "
+                  "\\(5\\ ^\\circ\\text{C}\\) gelegd wordt, krimpt tot "
+                  "\\(V_{2} = \\dfrac{3{,}0 \\times 278}{293} \\approx 2{,}85\\) L: zet eerst "
+                  "om naar \\(293\\) en \\(278\\) kelvin."),
         ]),
-        dict(kop="De algemene en de ideale gaswet", blokken=[
-            ("p", "De <strong>algemene gaswet</strong> voor een vaste hoeveelheid gas zegt dat "
-                  "<strong>p maal V gedeeld door T constant blijft</strong>. De drie afzonderlijke "
-                  "wetten zijn daar bijzondere gevallen van. Gaat een gas van "
-                  "<strong>2 L bij 300 K en 100 kPa naar 400 K en 200 kPa</strong>, dan krijgt het "
-                  "<strong>ongeveer 1,33 L</strong>."),
-            ("p", "De <strong>ideale gaswet</strong> luidt: "
-                  "<strong>p maal V is n maal R maal T</strong>. Hier is n de stofhoeveelheid en R "
-                  "de <strong>gasconstante</strong>, ongeveer 8,31 joule per mol per kelvin; die "
-                  "<strong>constante R is voor elk gas dezelfde</strong>. De grootheid die je "
-                  "<strong>naast druk, volume en temperatuur moet kennen</strong>, is dus "
-                  "<strong>de stofhoeveelheid</strong>, en die <strong>staat erin in mol</strong>. "
-                  "De wet <strong>geldt ook voor een mengsel van gassen zoals lucht</strong>: je "
-                  "telt dan alle deeltjes samen als n."),
-            ("p", "Vul de grootheden in SI-eenheden in: <strong>de druk in pascal</strong>, "
-                  "<strong>het volume in kubieke meter</strong> en "
-                  "<strong>de temperatuur in kelvin</strong>. In een vat van "
-                  "<strong>0,025 m³ bij 300 K en 100 kPa</strong> zit zo "
-                  "<strong>ongeveer 1 mol</strong> gas."),
-            ("p", "Twee deeltjes van dezelfde wet. "
-                  "<strong>Twee verschillende gassen bij dezelfde druk en temperatuur bevatten in "
-                  "hetzelfde volume evenveel deeltjes.</strong> En "
-                  "<strong>pomp je bij gelijk volume en gelijke temperatuur meer gas in een vat, dan "
-                  "blijft de druk niet gelijk</strong>: ze stijgt, want n en p zijn recht evenredig."),
-            ("p", "Bij <strong>normomstandigheden</strong>, "
-                  "<strong>nul graden celsius en een druk van 101,3 kPa</strong>, neemt één mol van "
-                  "een ideaal gas <strong>ongeveer 22,4 L</strong> in."),
+        dict(kop="Isochoor: bij constant volume", blokken=[
+            ("p", "Bij <strong>constant volume</strong> stijgt de druk als je het gas "
+                  "verwarmt: \\[\\dfrac{p}{T} = \\text{cte}\\] Zo'n proces heet "
+                  "<strong>isochoor</strong>, dus verloopt een isochoor proces "
+                  "<strong>niet</strong> bij constante druk maar bij constant volume. Een "
+                  "gesloten vat op \\(2{,}0\\) bar bij \\(250\\) K komt bij \\(500\\) K op "
+                  "\\(4{,}0\\) bar. De drie namen samen: <strong>isobaar</strong> bij "
+                  "constante druk, <strong>isochoor</strong> bij constant volume, "
+                  "<strong>isotherm</strong> bij constante temperatuur."),
+        ]),
+        dict(kop="De drie grafieken", blokken=[
+            ("fig", svg.gaswetten(),
+             "Dezelfde drie wetten, elk in de grafiek waarin je ze herkent."),
+            ("p", "Een <strong>\\(p(V)\\)-grafiek van een isotherm proces</strong> is een "
+                  "kromme die daalt zoals een omgekeerde evenredigheid, dus een "
+                  "<strong>hyperbool</strong>. Een <strong>\\(V(T)\\)-grafiek bij constante "
+                  "druk</strong> is, met \\(T\\) in kelvin, een <strong>rechte door de "
+                  "oorsprong</strong>, en bij constant volume is de "
+                  "<strong>\\(p(T)\\)-grafiek</strong> er ook een. In graden celsius snijden "
+                  "die rechten de as pas bij \\(-273\\). Een \\(p(T)\\)-grafiek van een "
+                  "isotherm proces is iets anders: dat is één <strong>verticale lijn</strong>, "
+                  "want \\(T\\) verandert niet terwijl de druk wel verandert."),
+        ]),
+        dict(kop="De algemene gaswet", blokken=[
+            ("p", "Voor een vaste hoeveelheid gas geldt: "
+                  "\\[\\dfrac{p\\,V}{T} = \\text{cte} \\quad\\text{of}\\quad "
+                  "\\dfrac{p_{1}V_{1}}{T_{1}} = \\dfrac{p_{2}V_{2}}{T_{2}}\\] De drie "
+                  "afzonderlijke wetten zijn daar bijzondere gevallen van: houd je er één "
+                  "grootheid constant, dan blijft telkens een van de drie over. Gaat een gas "
+                  "van \\(2{,}0\\) L bij \\(300\\) K en \\(100\\) kPa naar \\(400\\) K en "
+                  "\\(200\\) kPa, dan krijgt het "
+                  "\\(V_{2} = \\dfrac{100 \\times 2{,}0 \\times 400}{300 \\times 200} = "
+                  "1{,}33\\) L."),
+        ]),
+        dict(kop="De ideale gaswet", blokken=[
+            ("kader", "<strong>De ideale gaswet</strong><br>"
+                      "\\[p\\,V = n\\,R\\,T\\]"
+                      "\\(n\\) is de stofhoeveelheid in mol en "
+                      "\\(R = 8{,}31\\ \\text{J/(mol}\\cdot\\text{K)}\\) de "
+                      "<strong>universele gasconstante</strong>, dezelfde voor elk gas. Vul in met "
+                      "\\(p\\) in pascal, \\(V\\) in kubieke meter en \\(T\\) in kelvin."),
+            ("p", "De grootheid die je <strong>naast druk, volume en temperatuur</strong> moet "
+                  "kennen, is dus de <strong>stofhoeveelheid</strong>, en die staat in mol. De "
+                  "wet geldt ook voor een <strong>mengsel</strong> van gassen zoals lucht: je "
+                  "telt dan alle deeltjes samen als \\(n\\). In een vat van "
+                  "\\(0{,}025\\ \\text{m}^{3}\\) bij \\(300\\) K en \\(100\\) kPa zit "
+                  "\\(n = \\dfrac{1{,}0 \\times 10^{5} \\times 0{,}025}{8{,}31 \\times 300} "
+                  "\\approx 1{,}0\\) mol gas."),
+            ("p", "Twee gevolgen van dezelfde wet. <strong>Twee verschillende gassen bij "
+                  "dezelfde druk en temperatuur bevatten in hetzelfde volume evenveel "
+                  "deeltjes.</strong> En pomp je bij gelijk volume en gelijke temperatuur meer "
+                  "gas in een vat, dan blijft de druk <strong>niet</strong> gelijk: ze stijgt, "
+                  "want \\(n\\) en \\(p\\) zijn recht evenredig. Bij "
+                  "<strong>normomstandigheden</strong>, \\(0\\ ^\\circ\\text{C}\\) en "
+                  "\\(101{,}3\\) kPa, neemt één mol van een ideaal gas ongeveer "
+                  "\\(22{,}4\\) L in."),
         ]),
         dict(kop="Ideaal en reëel", blokken=[
-            ("p", "Een <strong>ideaal gas</strong> is een gas waarvan "
-                  "<strong>de deeltjes zelf geen eigen volume hebben</strong> en "
-                  "<strong>geen kracht op elkaar uitoefenen</strong>. De botsingen zijn volkomen "
-                  "elastisch. Zo'n gas bestaat niet echt, maar bij lage druk en hoge temperatuur "
-                  "komen echte gassen er dicht bij: een "
-                  "<strong>reëel gas wijkt niet het meest af bij hoge temperatuur en lage "
-                  "druk</strong> maar juist bij lage temperatuur en hoge druk, dicht bij het "
-                  "condenseren."),
-            ("p", "Het deeltjesmodel verklaart ook waar de grootheden vandaan komen. De "
-                  "<strong>druk van een gas op de wand</strong> komt "
-                  "<strong>van de botsingen van de deeltjes tegen die wand</strong>. De "
-                  "<strong>temperatuur van een gas</strong> zegt "
-                  "<strong>hoe groot de gemiddelde kinetische energie van de deeltjes is</strong>. "
-                  "Het <strong>absolute nulpunt</strong> ligt bij "
-                  "<strong>−273</strong> graden celsius, preciezer bij min 273,15."),
+            ("p", "Een <strong>ideaal gas</strong> is een gas waarvan de deeltjes zelf geen "
+                  "eigen volume hebben en geen kracht op elkaar uitoefenen; de botsingen zijn "
+                  "volkomen <strong>elastisch</strong>. Zo'n gas bestaat niet echt, maar bij "
+                  "lage druk en hoge temperatuur komen echte gassen er dicht bij. Een "
+                  "<strong>reëel gas</strong> wijkt dus niet het meest af bij hoge temperatuur "
+                  "en lage druk maar juist bij <strong>lage temperatuur en hoge druk</strong>, "
+                  "dicht bij het condenseren."),
+            ("p", "Het <strong>deeltjesmodel</strong> verklaart ook waar de grootheden vandaan "
+                  "komen. De <strong>druk</strong> van een gas op de wand komt van de "
+                  "botsingen van de deeltjes tegen die wand. De <strong>temperatuur</strong> "
+                  "zegt hoe groot de gemiddelde kinetische energie van de deeltjes is. Het "
+                  "<strong>absolute nulpunt</strong> ligt bij \\(-273\\ ^\\circ\\text{C}\\), "
+                  "preciezer bij \\(-273{,}15\\)."),
         ]),
         dict(kop="Drie situaties uit het dagelijks leven", blokken=[
-            ("p", "De druk in een <strong>fietsband stijgt als je lang gepompt hebt</strong> omdat "
-                  "<strong>de lucht samengeperst en ook warmer geworden is</strong>."),
-            ("p", "Op een <strong>spuitbus</strong> staat dat je hem "
-                  "<strong>niet boven 50 °C mag bewaren</strong> omdat "
-                  "<strong>bij constant volume de druk mee stijgt met de temperatuur</strong>."),
-            ("p", "Een <strong>duiker die op 20 m diepte lucht inademt bij ongeveer 3 bar</strong>, "
-                  "mag bij het opstijgen <strong>de adem niet inhouden</strong>, want "
-                  "<strong>de lucht in zijn longen zet bij de dalende druk sterk uit</strong>: van 3 "
-                  "naar 1 bar is een drie keer zo groot volume."),
+            ("p", "De druk in een <strong>fietsband</strong> stijgt als je lang gepompt hebt "
+                  "omdat de lucht samengeperst en ook warmer geworden is."),
+            ("p", "Op een <strong>spuitbus</strong> staat dat je hem niet boven "
+                  "\\(50\\ ^\\circ\\text{C}\\) mag bewaren, omdat bij constant volume de druk "
+                  "mee stijgt met de temperatuur: de bus kan niet uitzetten."),
+            ("p", "Een <strong>duiker</strong> die op \\(20\\) m diepte lucht inademt bij "
+                  "ongeveer \\(3\\) bar, mag bij het opstijgen de adem niet inhouden, want de "
+                  "lucht in zijn longen zet bij de dalende druk sterk uit: van \\(3\\) naar "
+                  "\\(1\\) bar is een drie keer zo groot volume."),
         ]),
     ],
     onthoud=[
-        "Toestandsgrootheden: druk, volume, temperatuur en stofhoeveelheid.",
-        "Reken altijd in kelvin: celsius plus 273.",
-        "Isotherm: p·V constant. Isobaar: V/T constant. Isochoor: p/T constant.",
-        "Algemene gaswet: p·V/T blijft constant.",
-        "Ideale gaswet: p·V = n·R·T, met pascal, m³, kelvin en mol.",
-        "Eén mol neemt bij normomstandigheden ongeveer 22,4 liter in.",
-        "Druk komt van botsingen, temperatuur is gemiddelde kinetische energie.",
+        "Toestandsgrootheden: \\(p\\), \\(V\\), \\(T\\) en \\(n\\).",
+        "Reken altijd in kelvin: \\(T = \\theta + 273\\).",
+        "Isotherm: \\(p\\,V = \\text{cte}\\). Isobaar: \\(\\dfrac{V}{T} = \\text{cte}\\). "
+        "Isochoor: \\(\\dfrac{p}{T} = \\text{cte}\\).",
+        "Algemene gaswet: \\(\\dfrac{p\\,V}{T}\\) blijft constant.",
+        "Ideale gaswet: \\(p\\,V = n\\,R\\,T\\), met pascal, \\(\\text{m}^{3}\\), kelvin en mol.",
+        "Eén mol neemt bij normomstandigheden ongeveer \\(22{,}4\\) L in.",
+        "Druk komt van botsingen, \\(T\\) is de gemiddelde kinetische energie.",
     ],
 )
+
 
 # ───────────────────── 15. Warmteleer: temperatuur, warmte en faseovergangen
 BUNDELS["warmteleer-temperatuur-warmte-en-faseovergangen-beyond"] = dict(

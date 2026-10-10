@@ -7848,3 +7848,64 @@ def arbeid_energie(breedte=470):
     d.append(_tekst(kx + 194, 60, "Ek", 9.5, AMBER, "start", True))
 
     return _svg(cel_b * 2, cel_h, "\n".join(d))
+
+
+def gaswetten(breedte=470):
+    r"""De drie gaswetten, elk in hun eigen grafiek.
+
+    Links een isotherm proces: p tegenover V geeft een hyperbool. In het
+    midden een isobaar proces: V tegenover T geeft een rechte door de
+    oorsprong. Rechts een isochoor proces: p tegenover T geeft er ook een.
+    Dat die twee rechten door de oorsprong gaan, geldt alleen met T in
+    kelvin; daarom staat de eenheid bij de as.
+    """
+    import math
+    cel_b, cel_h = 156, 158
+    d = []
+
+    def paneel(px, tag, y_naam, x_naam, onder):
+        d.append(f'<rect x="{px+5}" y="4" width="{cel_b-10}" height="{cel_h-30}" rx="7" '
+                 f'fill="#ffffff" stroke="{BORDER}" stroke-width="1.2"/>')
+        ox, oy, top = px + 30, 102, 24
+        rechts = px + cel_b - 18
+        d.append(f'<line x1="{ox}" y1="{top}" x2="{ox}" y2="{oy+6}" stroke="{DIM}" '
+                 f'stroke-width="1.3"/>')
+        d.append(f'<line x1="{ox-6}" y1="{oy}" x2="{rechts}" y2="{oy}" stroke="{DIM}" '
+                 f'stroke-width="1.3"/>')
+        d.append(_pijlkop(rechts, oy, 0.0, DIM, 4.0))
+        d.append(_pijlkop(ox, top, -math.pi / 2, DIM, 4.0))
+        d.append(_tekst(rechts - 4, oy + 13, x_naam, 9.5, DIM, "middle"))
+        d.append(_tekst(ox - 11, top + 4, y_naam, 9.5, DIM, "middle"))
+        d.append(_tekst(px + cel_b - 16, 20, tag, 8.5, DARK, "end", True))
+        d.append(_tekst(px + cel_b / 2, cel_h - 10, onder, 9, DIM, "middle"))
+        return ox, oy, top, rechts
+
+    # ── isotherm: p(V) is een hyperbool
+    ox, oy, top, rechts = paneel(0, "isotherm", "p", "V", "p maal V blijft gelijk")
+    x0, x1 = ox + 14, rechts - 10
+    k = (oy - top - 12) * (x0 - ox)
+    punten = []
+    for i in range(29):
+        x = x0 + (x1 - x0) * i / 28
+        punten.append(f"{x:.1f},{oy - k / (x - ox):.1f}")
+    d.append(f'<polyline points="{" ".join(punten)}" fill="none" stroke="{FOREST}" '
+             f'stroke-width="2.2"/>')
+    d.append(_tekst(ox + 88, oy - 44, "hyperbool", 9, FOREST, "middle", True))
+
+    # ── isobaar: V(T) is een rechte door de oorsprong
+    ox, oy, top, rechts = paneel(cel_b, "isobaar", "V", "T (K)", "V stijgt recht met T")
+    ex, ey = rechts - 12, top + 10
+    d.append(f'<line x1="{ox}" y1="{oy}" x2="{ex}" y2="{ey}" stroke="{FOREST}" '
+             f'stroke-width="2.2"/>')
+    d.append(f'<circle cx="{ox}" cy="{oy}" r="3" fill="{DARK}"/>')
+    d.append(_tekst(ox + 40, oy - 8, "door 0 K", 8.5, AMBER, "start", True))
+
+    # ── isochoor: p(T) is er ook een
+    ox, oy, top, rechts = paneel(cel_b * 2, "isochoor", "p", "T (K)", "p stijgt recht met T")
+    ex, ey = rechts - 12, top + 22
+    d.append(f'<line x1="{ox}" y1="{oy}" x2="{ex}" y2="{ey}" stroke="{FOREST}" '
+             f'stroke-width="2.2"/>')
+    d.append(f'<circle cx="{ox}" cy="{oy}" r="3" fill="{DARK}"/>')
+    d.append(_tekst(ox + 56, oy - 8, "door 0 K", 8.5, AMBER, "start", True))
+
+    return _svg(cel_b * 3, cel_h, "\n".join(d))

@@ -4,7 +4,7 @@
 Deel 1 gaat over de vier toestandsgrootheden en over de drie afzonderlijke
 gaswetten: bij constante temperatuur, bij constante druk en bij constant
 volume. Daar hoort het rekenen bij, altijd in kelvin, en het lezen van een
-p(V)-, een V(T)- en een p(T)-grafiek. Deel 2 gaat over de algemene en de
+\(p(V)\)-, een \(V(T)\)- en een \(p(T)\)-grafiek. Deel 2 gaat over de algemene en de
 ideale gaswet, de gasconstante, het verschil tussen een ideaal en een reëel
 gas, de normomstandigheden, en wat je met het deeltjesmodel kan verklaren.
 
@@ -24,27 +24,27 @@ DEEL1 = [
             "druk, kracht, oppervlakte en tijd",
         ],
         antwoord=0,
-        uitleg="Samen liggen ze vast in de algemene gaswet. Ken je er drie, dan volgt de "
-        "vierde eruit.",
+        uitleg=r"Samen liggen ze vast in de algemene gaswet \(\dfrac{p\,V}{T} = \text{cte}\). "
+        r"Ken je er drie, dan volgt de vierde eruit.",
     ),
     dict(
         type="invultekst",
         vraag="In welke eenheid moet je de temperatuur in de gaswetten invullen?",
         antwoord=["kelvin", "K", "de kelvin"],
-        uitleg="Nul kelvin is het absolute nulpunt, bij min 273 graden celsius. Rekenen in "
-        "celsius geeft meteen een fout antwoord.",
+        uitleg=r"Nul kelvin is het absolute nulpunt, bij \(-273\ ^\circ\text{C}\). "
+        r"Rekenen in celsius geeft meteen een fout antwoord.",
     ),
     dict(
         type="meerkeuze",
-        vraag="Hoeveel kelvin is 27 graden celsius?",
+        vraag=r"Hoeveel kelvin is \(27\ ^\circ\text{C}\)?",
         opties=[
-            "300 K",
-            "246 K",
-            "27 K",
-            "273 K",
+            r"\(300\) K",
+            r"\(246\) K",
+            r"\(27\) K",
+            r"\(273\) K",
         ],
         antwoord=0,
-        uitleg="Tel er 273 bij: 27 plus 273 is 300 kelvin. Omgekeerd trek je er 273 van af.",
+        uitleg=r"\(T = \theta + 273 = 27 + 273 = 300\) K. Omgekeerd trek je er \(273\) van af.",
     ),
     dict(
         type="meerkeuze",
@@ -56,8 +56,9 @@ DEEL1 = [
             "volume gedeeld door temperatuur blijft gelijk",
         ],
         antwoord=0,
-        uitleg="Pers je een gas in de helft van het volume, dan verdubbelt de druk. Zo'n "
-        "proces heet isotherm.",
+        uitleg=r"\[p\,V = \text{cte} \quad\text{of}\quad p_{1}V_{1} = p_{2}V_{2}\] "
+        r"Pers je een gas in de helft van het volume, dan verdubbelt de druk. Zo'n proces "
+        r"heet isotherm.",
     ),
     dict(
         type="invultekst",
@@ -68,16 +69,16 @@ DEEL1 = [
     ),
     dict(
         type="meerkeuze",
-        vraag="Een gas van 6 L bij 100 kPa wordt bij dezelfde temperatuur samengeperst tot 2 L. Welke druk heeft het dan?",
+        vraag=r"Een gas van \(6{,}0\) L bij \(100\) kPa wordt bij dezelfde temperatuur samengeperst tot \(2{,}0\) L. Welke druk heeft het dan?",
         opties=[
-            "300 kPa",
-            "33 kPa",
-            "200 kPa",
-            "600 kPa",
+            r"\(300\) kPa",
+            r"\(33\) kPa",
+            r"\(200\) kPa",
+            r"\(600\) kPa",
         ],
         antwoord=0,
-        uitleg="Het product van druk en volume blijft gelijk: 100 maal 6 is 600, en 600 "
-        "gedeeld door 2 is 300 kilopascal.",
+        uitleg=r"\(p_{2} = \dfrac{p_{1}V_{1}}{V_{2}} = \dfrac{100 \times 6{,}0}{2{,}0} "
+        r"= 300\) kPa.",
     ),
     dict(
         type="meerkeuze",
@@ -89,20 +90,21 @@ DEEL1 = [
             "het volume blijft gelijk hoe warm je het gas ook maakt",
         ],
         antwoord=0,
-        uitleg="Verwarm je een ballon, dan zet hij uit. Dat heet een isobaar proces.",
+        uitleg=r"\[\dfrac{V}{T} = \text{cte}\] Verwarm je een ballon, dan zet hij uit. Dat "
+        r"heet een isobaar proces.",
     ),
     dict(
         type="meerkeuze",
-        vraag="Een gas van 2 L bij 300 K wordt bij gelijke druk tot 600 K verwarmd. Welk volume heeft het dan?",
+        vraag=r"Een gas van \(2{,}0\) L bij \(300\) K wordt bij gelijke druk tot \(600\) K verwarmd. Welk volume heeft het dan?",
         opties=[
-            "4 L",
-            "1 L",
-            "8 L",
-            "2 L",
+            r"\(4{,}0\) L",
+            r"\(1{,}0\) L",
+            r"\(8{,}0\) L",
+            r"\(2{,}0\) L",
         ],
         antwoord=0,
-        uitleg="Volume gedeeld door temperatuur blijft gelijk, en de temperatuur verdubbelt. "
-        "Had je in celsius gerekend, dan was het antwoord fout geweest.",
+        uitleg=r"\(\dfrac{V}{T}\) blijft gelijk, en \(T\) verdubbelt. Had je in celsius "
+        r"gerekend, dan was het antwoord fout geweest.",
     ),
     dict(
         type="waarofniet",
@@ -113,20 +115,20 @@ DEEL1 = [
     ),
     dict(
         type="meerkeuze",
-        vraag="Een gesloten vat met gas staat op 2 bar bij 250 K. Tot welke druk stijgt het bij 500 K?",
+        vraag=r"Een gesloten vat met gas staat op \(2{,}0\) bar bij \(250\) K. Tot welke druk stijgt het bij \(500\) K?",
         opties=[
-            "4 bar",
-            "1 bar",
-            "2 bar",
-            "8 bar",
+            r"\(4{,}0\) bar",
+            r"\(1{,}0\) bar",
+            r"\(2{,}0\) bar",
+            r"\(8{,}0\) bar",
         ],
         antwoord=0,
-        uitleg="Druk gedeeld door temperatuur blijft gelijk bij constant volume. De "
-        "temperatuur verdubbelt, dus de druk ook.",
+        uitleg=r"Bij constant volume blijft \(\dfrac{p}{T}\) gelijk. \(T\) verdubbelt, "
+        r"dus \(p\) ook.",
     ),
     dict(
         type="meerkeuze",
-        vraag="Hoe ziet een p(V)-grafiek van een isotherm proces eruit?",
+        vraag=r"Hoe ziet een \(p(V)\)-grafiek van een isotherm proces eruit?",
         opties=[
             "een kromme die daalt zoals een omgekeerde evenredigheid",
             "een rechte door de oorsprong",
@@ -134,15 +136,15 @@ DEEL1 = [
             "een stijgende parabool",
         ],
         antwoord=0,
-        uitleg="Het product van de twee blijft constant, dus is het een hyperbool. Een "
-        "V(T)-grafiek bij constante druk is wel een rechte.",
+        uitleg=r"\(p\,V = \text{cte}\), dus is het een hyperbool. Een \(V(T)\)-grafiek "
+        r"bij constante druk is wel een rechte.",
     ),
     dict(
         type="meerkeuze",
         vraag="Welke uitspraken over een isotherm proces zijn juist? Kruis alles aan wat juist is.",
         opties=[
-            "het product van druk en volume blijft gelijk",
-            "de p(V)-grafiek is een hyperbool",
+            r"het product \(p\,V\) blijft gelijk",
+            r"de \(p(V)\)-grafiek is een hyperbool",
             "de temperatuur verandert tijdens het proces niet",
             "het volume is recht evenredig met de druk",
         ],
@@ -174,14 +176,14 @@ DEEL1 = [
         type="meerkeuze",
         vraag="Welke grafieken horen bij welke gaswet? Kruis alles aan wat juist is.",
         opties=[
-            "bij constante druk is de V(T)-grafiek een rechte door de oorsprong",
-            "bij constant volume is de p(T)-grafiek een rechte door de oorsprong",
-            "bij constante temperatuur daalt de p(V)-grafiek als een kromme",
-            "bij constante druk is de V(T)-grafiek een dalende kromme",
+            r"bij constante druk is de \(V(T)\)-grafiek een rechte door de oorsprong",
+            r"bij constant volume is de \(p(T)\)-grafiek een rechte door de oorsprong",
+            r"bij constante temperatuur daalt de \(p(V)\)-grafiek als een kromme",
+            r"bij constante druk is de \(V(T)\)-grafiek een dalende kromme",
         ],
         antwoord=[0, 1, 2],
-        uitleg="De eerste twee gelden alleen met de temperatuur in kelvin. In graden celsius "
-        "snijden die rechten de as pas bij min 273.",
+        uitleg=r"De eerste twee gelden alleen met \(T\) in kelvin. In graden celsius "
+        r"snijden die rechten de as pas bij \(-273\).",
     ),
     dict(
         type="waarofniet",
@@ -192,16 +194,16 @@ DEEL1 = [
     ),
     dict(
         type="meerkeuze",
-        vraag="Een ballon van 3 L bij 20 °C wordt bij gelijke druk in een koelkast op 5 °C gelegd. Welk volume krijgt hij ongeveer?",
+        vraag=r"Een ballon van \(3{,}0\) L bij \(20\ ^\circ\text{C}\) wordt bij gelijke druk in een koelkast op \(5\ ^\circ\text{C}\) gelegd. Welk volume krijgt hij ongeveer?",
         opties=[
-            "ongeveer 2,85 L",
-            "ongeveer 0,75 L",
-            "ongeveer 3,15 L",
-            "ongeveer 12 L",
+            r"\(2{,}85\) L",
+            r"\(0{,}75\) L",
+            r"\(3{,}15\) L",
+            r"\(12{,}0\) L",
         ],
         antwoord=0,
-        uitleg="Zet eerst om naar kelvin: 293 en 278. Dan is 3 maal 278 gedeeld door 293 "
-        "ongeveer 2,85 liter.",
+        uitleg=r"Zet eerst om naar kelvin: \(293\) en \(278\). Dan is "
+        r"\(V_{2} = \dfrac{3{,}0 \times 278}{293} \approx 2{,}85\) L.",
     ),
     dict(
         type="meerkeuze",
@@ -237,55 +239,56 @@ DEEL2 = [
         type="meerkeuze",
         vraag="Wat zegt de algemene gaswet voor een vaste hoeveelheid gas?",
         opties=[
-            "p maal V gedeeld door T blijft constant",
-            "p maal V maal T blijft constant",
-            "p gedeeld door V maal T blijft constant",
-            "p plus V plus T blijft constant",
+            r"\(\dfrac{p\,V}{T}\) blijft constant",
+            r"\(p\,V\,T\) blijft constant",
+            r"\(\dfrac{p\,T}{V}\) blijft constant",
+            r"\(p + V + T\) blijft constant",
         ],
         antwoord=0,
-        uitleg="De drie afzonderlijke gaswetten zijn bijzondere gevallen daarvan. Houd je er "
-        "één constant, dan blijft de rest over.",
+        uitleg=r"\[\dfrac{p_{1}V_{1}}{T_{1}} = \dfrac{p_{2}V_{2}}{T_{2}}\] De drie "
+        r"afzonderlijke gaswetten zijn bijzondere gevallen daarvan. Houd je er één "
+        r"constant, dan blijft de rest over.",
     ),
     dict(
         type="meerkeuze",
         vraag="Hoe luidt de ideale gaswet?",
         opties=[
-            "p maal V is n maal R maal T",
-            "p maal V is m maal R maal T",
-            "p gedeeld door V is n maal R maal T",
-            "p maal T is n maal R maal V",
+            r"\(p\,V = n\,R\,T\)",
+            r"\(p\,V = m\,R\,T\)",
+            r"\(\dfrac{p}{V} = n\,R\,T\)",
+            r"\(p\,T = n\,R\,V\)",
         ],
         antwoord=0,
-        uitleg="Hier staat n voor de stofhoeveelheid in mol en R voor de universele "
-        "gasconstante. Die staat in de bijlage van het examen.",
+        uitleg=r"Hier staat \(n\) voor de stofhoeveelheid in mol en \(R\) voor de "
+        r"universele gasconstante. Die staat in de bijlage van het examen.",
     ),
     dict(
         type="invultekst",
-        vraag="Hoe noem je de constante R uit de ideale gaswet?",
+        vraag=r"Hoe noem je de constante \(R\) uit de ideale gaswet?",
         antwoord=["gasconstante", "de gasconstante", "universele gasconstante"],
-        uitleg="Ze is ongeveer 8,31 joule per mol per kelvin. Dezelfde waarde geldt voor elk "
-        "gas, en dat is net het bijzondere eraan.",
+        uitleg=r"\(R = 8{,}31\ \text{J/(mol}\cdot\text{K)}\). Dezelfde waarde geldt "
+        r"voor elk gas, en dat is net het bijzondere eraan.",
     ),
     dict(
         type="meerkeuze",
-        vraag="Een gas gaat van 2 L bij 300 K en 100 kPa naar 400 K en 200 kPa. Welk volume krijgt het?",
+        vraag=r"Een gas gaat van \(2{,}0\) L bij \(300\) K en \(100\) kPa naar \(400\) K en \(200\) kPa. Welk volume krijgt het?",
         opties=[
-            "ongeveer 1,33 L",
-            "ongeveer 3 L",
-            "ongeveer 0,75 L",
-            "ongeveer 2,67 L",
+            r"\(1{,}33\) L",
+            r"\(3{,}00\) L",
+            r"\(0{,}75\) L",
+            r"\(2{,}67\) L",
         ],
         antwoord=0,
-        uitleg="p maal V gedeeld door T blijft gelijk: 2 maal 100 gedeeld door 300 is "
-        "0,667, dus V is 0,667 maal 400 gedeeld door 200 is 1,33 liter.",
+        uitleg=r"\(V_{2} = \dfrac{p_{1}V_{1}T_{2}}{T_{1}p_{2}} = "
+        r"\dfrac{100 \times 2{,}0 \times 400}{300 \times 200} = 1{,}33\) L.",
     ),
     dict(
         type="meerkeuze",
         vraag="Welke uitspraken over de ideale gaswet zijn juist? Kruis alles aan wat juist is.",
         opties=[
             "ze geldt ook voor een mengsel van gassen zoals lucht",
-            "de stofhoeveelheid n staat erin in mol",
-            "de constante R is voor elk gas dezelfde",
+            r"de stofhoeveelheid \(n\) staat erin in mol",
+            r"de constante \(R\) is voor elk gas dezelfde",
             "de temperatuur mag je erin in graden celsius invullen",
         ],
         antwoord=[0, 1, 2],
@@ -342,35 +345,35 @@ DEEL2 = [
     ),
     dict(
         type="invultekst",
-        vraag="Bij welke temperatuur in graden celsius ligt het absolute nulpunt?",
+        vraag=r"Bij welke temperatuur in graden celsius ligt het absolute nulpunt?",
         antwoord=["−273", "-273", "min 273"],
-        uitleg="Preciezer is dat min 273,15 graden celsius. Lager dan nul kelvin kan niet.",
+        uitleg=r"Preciezer is dat \(-273{,}15\ ^\circ\text{C}\). Lager dan \(0\) K kan niet.",
     ),
     dict(
         type="meerkeuze",
         vraag="Wat verstaat men onder normomstandigheden?",
         opties=[
-            "nul graden celsius en een druk van 101,3 kPa",
-            "twintig graden celsius en een druk van 100 kPa",
-            "vijfentwintig graden celsius en een druk van 1 kPa",
-            "nul kelvin en een druk van nul pascal",
+            r"\(0\ ^\circ\text{C}\) en een druk van \(101{,}3\) kPa",
+            r"\(20\ ^\circ\text{C}\) en een druk van \(100\) kPa",
+            r"\(25\ ^\circ\text{C}\) en een druk van \(1{,}0\) kPa",
+            r"\(0\) K en een druk van \(0\) Pa",
         ],
         antwoord=0,
-        uitleg="Onder die omstandigheden neemt één mol gas ongeveer 22,4 liter in. Zo kan je "
-        "metingen van verschillende dagen met elkaar vergelijken.",
+        uitleg=r"Onder die omstandigheden neemt één mol gas ongeveer \(22{,}4\) L in. Zo "
+        r"kan je metingen van verschillende dagen met elkaar vergelijken.",
     ),
     dict(
         type="meerkeuze",
         vraag="Hoeveel liter neemt één mol van een ideaal gas in bij normomstandigheden?",
         opties=[
-            "ongeveer 22,4 L",
-            "ongeveer 1 L",
-            "ongeveer 24,5 L",
-            "ongeveer 100 L",
+            r"\(22{,}4\) L",
+            r"\(1{,}0\) L",
+            r"\(24{,}5\) L",
+            r"\(100\) L",
         ],
         antwoord=0,
-        uitleg="Dat geldt voor élk ideaal gas, hoe zwaar zijn deeltjes ook zijn. Bij "
-        "kamertemperatuur is het ongeveer 24 liter.",
+        uitleg=r"Dat geldt voor élk ideaal gas, hoe zwaar zijn deeltjes ook zijn. Bij "
+        r"kamertemperatuur is het ongeveer \(24\) L.",
     ),
     dict(
         type="waarofniet",
@@ -381,27 +384,28 @@ DEEL2 = [
     ),
     dict(
         type="meerkeuze",
-        vraag="Hoeveel mol gas zit er in een vat van 0,025 m³ bij 300 K en 100 kPa? Neem R gelijk aan 8,31.",
+        vraag=r"Hoeveel mol gas zit er in een vat van \(0{,}025\ \text{m}^{3}\) bij \(300\) K en \(100\) kPa? Neem \(R = 8{,}31\).",
         opties=[
-            "ongeveer 1 mol",
-            "ongeveer 10 mol",
-            "ongeveer 0,1 mol",
-            "ongeveer 100 mol",
+            r"\(1{,}0\) mol",
+            r"\(10{,}0\) mol",
+            r"\(0{,}10\) mol",
+            r"\(100\) mol",
         ],
         antwoord=0,
-        uitleg="n is p maal V gedeeld door R maal T: 100 000 maal 0,025 gedeeld door 8,31 "
-        "maal 300 is ongeveer 1 mol. Let op de eenheden: pascal en kubieke meter.",
+        uitleg=r"\(n = \dfrac{p\,V}{R\,T} = \dfrac{1{,}0 \times 10^{5} \times 0{,}025}"
+        r"{8{,}31 \times 300} \approx 1{,}0\) mol. Let op de eenheden: pascal en "
+        r"kubieke meter.",
     ),
     dict(
         type="waarofniet",
         vraag="Als je bij gelijk volume en gelijke temperatuur meer gas in een vat pompt, blijft de druk gelijk.",
         antwoord=False,
-        uitleg="De druk stijgt, want meer deeltjes betekent meer botsingen tegen de wand. In "
-        "de ideale gaswet is n recht evenredig met p.",
+        uitleg=r"De druk stijgt, want meer deeltjes betekent meer botsingen tegen de wand. "
+        r"In \(p\,V = n\,R\,T\) is \(n\) recht evenredig met \(p\).",
     ),
     dict(
         type="meerkeuze",
-        vraag="Waarom staat er op een spuitbus dat je hem niet boven 50 °C mag bewaren?",
+        vraag=r"Waarom staat er op een spuitbus dat je hem niet boven \(50\ ^\circ\text{C}\) mag bewaren?",
         opties=[
             "bij constant volume stijgt de druk mee met de temperatuur",
             "het gas erin lost bij warmte op in de vloeistof",
@@ -427,7 +431,7 @@ DEEL2 = [
     ),
     dict(
         type="meerkeuze",
-        vraag="Een duiker ademt op 20 m diepte lucht in bij ongeveer 3 bar. Waarom mag hij bij het opstijgen niet de adem inhouden?",
+        vraag=r"Een duiker ademt op \(20\) m diepte lucht in bij ongeveer \(3\) bar. Waarom mag hij bij het opstijgen niet de adem inhouden?",
         opties=[
             "de lucht in zijn longen zet bij de dalende druk sterk uit",
             "de lucht in zijn longen koelt bij het stijgen snel af",
@@ -435,21 +439,21 @@ DEEL2 = [
             "de lucht wordt bij het stijgen zwaarder dan water",
         ],
         antwoord=0,
-        uitleg="Bij constante temperatuur is het product van druk en volume constant. Van 3 "
-        "naar 1 bar betekent dus een drie keer zo groot volume.",
+        uitleg=r"Bij constante temperatuur is \(p\,V\) constant. Van \(3\) naar "
+        r"\(1\) bar betekent dus een drie keer zo groot volume.",
     ),
     dict(
         type="waarofniet",
         vraag="De ideale gaswet geldt ook voor een mengsel van gassen zoals lucht.",
         antwoord=True,
-        uitleg="Je telt dan alle deeltjes samen als n. Welke soorten het zijn, maakt voor de "
-        "wet niet uit.",
+        uitleg=r"Je telt dan alle deeltjes samen als \(n\). Welke soorten het zijn, maakt "
+        r"voor de wet niet uit.",
     ),
     dict(
         type="invultekst",
         vraag="Welke grootheid moet je naast druk, volume en temperatuur kennen om de ideale gaswet te gebruiken?",
         antwoord=["de stofhoeveelheid", "stofhoeveelheid", "het aantal mol"],
-        uitleg="Ze staat in mol en krijgt het symbool n. Blijft ze constant, dan volstaat de "
-        "algemene gaswet.",
+        uitleg=r"Ze staat in mol en krijgt het symbool \(n\). Blijft ze constant, dan "
+        r"volstaat de algemene gaswet \(\dfrac{p\,V}{T} = \text{cte}\).",
     ),
 ]
