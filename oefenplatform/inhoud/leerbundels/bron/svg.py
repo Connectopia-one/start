@@ -8550,3 +8550,138 @@ def stemvierluik(breedte=470):
     d.append(_tekst(breedte / 2, h - 4, "elk vak brengt een stuk van het antwoord",
                     9, DIM, "middle"))
     return _svg(breedte, h, "\n".join(d))
+
+
+def goniocirkel(breedte=470):
+    r"""De goniometrische cirkel met het beeldpunt, de cosinus en de sinus."""
+    import math
+    h = 268
+    cx, cy, r = 235.0, 128.0, 94.0
+    hoek = math.radians(52)
+    px, py = cx + r * math.cos(hoek), cy - r * math.sin(hoek)
+    d = [f'<rect x="5" y="4" width="{breedte-10}" height="{h-26}" rx="7" '
+         f'fill="#ffffff" stroke="{BORDER}" stroke-width="1.2"/>']
+    d.append(f'<line x1="{cx-128}" y1="{cy}" x2="{cx+128}" y2="{cy}" stroke="{INK}" '
+             f'stroke-width="1.4"/>')
+    d.append(f'<line x1="{cx}" y1="{cy-118}" x2="{cx}" y2="{cy+118}" stroke="{INK}" '
+             f'stroke-width="1.4"/>')
+    d.append(f'<circle cx="{cx}" cy="{cy}" r="{r}" fill="none" stroke="{DARK}" '
+             f'stroke-width="1.8"/>')
+    # de vier assen­punten
+    for ex, ey, tekst, ax, ay in ((cx + r, cy, "0", 16, -8), (cx, cy - r, "π/2", 16, -6),
+                                  (cx - r, cy, "π", -14, -8), (cx, cy + r, "3π/2", 20, 16)):
+        d.append(f'<circle cx="{ex}" cy="{ey}" r="2.6" fill="{DIM}"/>')
+        d.append(_tekst(ex + ax, ey + ay, tekst, 9, DIM, "middle"))
+    # de stralen en het beeldpunt
+    d.append(f'<line x1="{cx}" y1="{cy}" x2="{px:.1f}" y2="{py:.1f}" stroke="{DARK}" '
+             f'stroke-width="2"/>')
+    d.append(_tekst((cx + px) / 2 - 4, (cy + py) / 2 - 6, "1", 10, DARK, "end", True))
+    d.append(f'<circle cx="{px:.1f}" cy="{py:.1f}" r="4" fill="{DARK}"/>')
+    d.append(_tekst(px + 8, py - 8, "P", 11, DARK, "start", True))
+    # projecties
+    d.append(f'<line x1="{px:.1f}" y1="{py:.1f}" x2="{px:.1f}" y2="{cy}" stroke="{DIM}" '
+             f'stroke-width="1.2" stroke-dasharray="4 3"/>')
+    d.append(f'<line x1="{px:.1f}" y1="{py:.1f}" x2="{cx}" y2="{py:.1f}" stroke="{DIM}" '
+             f'stroke-width="1.2" stroke-dasharray="4 3"/>')
+    d.append(f'<line x1="{cx}" y1="{cy}" x2="{px:.1f}" y2="{cy}" stroke="{AMBER}" '
+             f'stroke-width="3.2"/>')
+    d.append(f'<line x1="{cx}" y1="{cy}" x2="{cx}" y2="{py:.1f}" stroke="{FOREST}" '
+             f'stroke-width="3.2"/>')
+    d.append(_tekst((cx + px) / 2, cy + 16, "cos α", 10, AMBER, "middle", True))
+    d.append(_tekst(cx - 8, (cy + py) / 2 + 4, "sin α", 10, FOREST, "end", True))
+    # hoekje
+    d.append(f'<path d="M{cx+26} {cy} A 26 26 0 0 0 {cx+26*math.cos(hoek):.1f} '
+             f'{cy-26*math.sin(hoek):.1f}" fill="none" stroke="{DIM}" stroke-width="1.2"/>')
+    d.append(_tekst(cx + 34, cy - 12, "α", 10.5, DIM, "start"))
+    d.append(_tekst(breedte / 2, h - 6,
+                    "het beeldpunt P heeft de cosinus als x en de sinus als y",
+                    9, DIM, "middle"))
+    return _svg(breedte, h, "\n".join(d))
+
+
+def drieonderbrekingen(breedte=470):
+    r"""Een sprong, een perforatie en een pool, elk in een eigen vakje."""
+    h = 176
+    gap = 12
+    w = (breedte - 2 * gap) / 3
+    ox, oy, top, onder = 22, 94, 22, 126
+    d = []
+    for i, naam in enumerate(("een sprong", "een perforatie", "een pool")):
+        X = i * (w + gap)
+        rechts = X + w - 14
+        d.append(f'<rect x="{X+5}" y="6" width="{w-10:.1f}" height="{h-46}" rx="7" '
+                 f'fill="#ffffff" stroke="{BORDER}" stroke-width="1.2"/>')
+        d.append(f'<line x1="{X+ox}" y1="{top}" x2="{X+ox}" y2="{onder}" stroke="{INK}" stroke-width="1.4"/>')
+        d.append(f'<line x1="{X+ox}" y1="{oy}" x2="{rechts:.1f}" y2="{oy}" stroke="{INK}" stroke-width="1.4"/>')
+        m = X + ox + (rechts - X - ox) / 2
+        if i == 0:
+            d.append(f'<line x1="{X+ox+6}" y1="{oy-14}" x2="{m-2:.1f}" y2="{oy-14}" '
+                     f'stroke="{FOREST}" stroke-width="2.2"/>')
+            d.append(f'<line x1="{m+2:.1f}" y1="{oy-54}" x2="{rechts-6:.1f}" y2="{oy-54}" '
+                     f'stroke="{FOREST}" stroke-width="2.2"/>')
+            d.append(f'<circle cx="{m-2:.1f}" cy="{oy-14}" r="3" fill="{FOREST}"/>')
+            d.append(f'<circle cx="{m+2:.1f}" cy="{oy-54}" r="3" fill="#ffffff" stroke="{FOREST}" stroke-width="1.6"/>')
+        elif i == 1:
+            d.append(f'<line x1="{X+ox+6}" y1="{oy-10}" x2="{rechts-6:.1f}" y2="{oy-58}" '
+                     f'stroke="{FOREST}" stroke-width="2.2"/>')
+            d.append(f'<circle cx="{m:.1f}" cy="{oy-34:.1f}" r="4" fill="#ffffff" stroke="{FOREST}" stroke-width="1.8"/>')
+        else:
+            d.append(f'<line x1="{m:.1f}" y1="{top}" x2="{m:.1f}" y2="{onder}" stroke="{AMBER}" '
+                     f'stroke-width="1.4" stroke-dasharray="4 3"/>')
+            for kant in (1, -1):
+                punten = []
+                for k in range(31):
+                    s = 0.13 + k / 30 * 0.87
+                    px = m + kant * (rechts - 6 - m) * s
+                    hoogte = min(0.13 / s, 1.0)
+                    py = (oy - (oy - top) * hoogte) if kant > 0 else (oy + (onder - oy) * hoogte)
+                    punten.append(f"{px:.1f},{py:.1f}")
+                d.append(f'<polyline points="{" ".join(punten)}" fill="none" stroke="{FOREST}" stroke-width="2.2"/>')
+        d.append(_tekst(X + w / 2, h - 24, naam, 10, DARK, "middle", True))
+    d.append(_tekst(breedte / 2, h - 6,
+                    "drie manieren waarop een grafiek in één punt kan afwijken", 9, DIM, "middle"))
+    return _svg(breedte, h, "\n".join(d))
+
+
+def koordeenraaklijn(breedte=470):
+    r"""De koorde door twee punten en de raaklijn die eruit ontstaat als h naar nul gaat."""
+    h = 252
+    ox, oy, top, rechts = 34, 172, 26, 436
+    def f(t):
+        return 0.22 + 0.72 * t * t
+    def px(t):
+        return ox + t * (rechts - ox)
+    def py(t):
+        return oy - f(t) * (oy - top)
+    ta, tb = 0.34, 0.78
+    d = [f'<rect x="5" y="4" width="{breedte-10}" height="{h-26}" rx="7" '
+         f'fill="#ffffff" stroke="{BORDER}" stroke-width="1.2"/>']
+    d.append(f'<line x1="{ox}" y1="{top}" x2="{ox}" y2="{oy}" stroke="{INK}" stroke-width="1.4"/>')
+    d.append(f'<line x1="{ox}" y1="{oy}" x2="{rechts}" y2="{oy}" stroke="{INK}" stroke-width="1.4"/>')
+    punten = [f"{px(k/60):.1f},{py(k/60):.1f}" for k in range(61)]
+    d.append(f'<polyline points="{" ".join(punten)}" fill="none" stroke="{DARK}" stroke-width="2.2"/>')
+    # de koorde, doorgetrokken
+    rc = (py(tb) - py(ta)) / (px(tb) - px(ta))
+    x0, x1 = px(ta) - 70, px(tb) + 36
+    d.append(f'<line x1="{x0:.1f}" y1="{py(ta) + rc*(x0-px(ta)):.1f}" x2="{x1:.1f}" '
+             f'y2="{py(ta) + rc*(x1-px(ta)):.1f}" stroke="{AMBER}" stroke-width="2"/>')
+    # de raaklijn in a
+    helling = (1.44 * ta) * (oy - top) / (rechts - ox)
+    x0, x1 = px(ta) - 90, px(ta) + 118
+    d.append(f'<line x1="{x0:.1f}" y1="{py(ta) + helling*(px(ta)-x0):.1f}" x2="{x1:.1f}" '
+             f'y2="{py(ta) - helling*(x1-px(ta)):.1f}" stroke="{FOREST}" stroke-width="2" '
+             f'stroke-dasharray="7 4"/>')
+    for t, naam in ((ta, "a"), (tb, "a + h")):
+        d.append(f'<circle cx="{px(t):.1f}" cy="{py(t):.1f}" r="4" fill="{DARK}"/>')
+        d.append(f'<line x1="{px(t):.1f}" y1="{py(t):.1f}" x2="{px(t):.1f}" y2="{oy}" '
+                 f'stroke="{DIM}" stroke-width="1.1" stroke-dasharray="4 3"/>')
+        d.append(_tekst(px(t), oy + 16, naam, 10, DIM, "middle"))
+    d.append(f'<line x1="{px(ta):.1f}" y1="{oy+30}" x2="{px(tb):.1f}" y2="{oy+30}" '
+             f'stroke="{DIM}" stroke-width="1.2"/>')
+    d.append(_tekst((px(ta) + px(tb)) / 2, oy + 44, "h", 10, DIM, "middle", True))
+    d.append(_tekst(px(tb) + 40, py(tb) - 26, "koorde", 10, AMBER, "start", True))
+    d.append(_tekst(px(ta) + 118, py(ta) - helling*118 - 14, "raaklijn", 10, FOREST, "middle", True))
+    d.append(_tekst(breedte / 2, h - 6,
+                    "schuift het rechtse punt naar links, dan valt de oranje lijn op de groene",
+                    9, DIM, "middle"))
+    return _svg(breedte, h, "\n".join(d))

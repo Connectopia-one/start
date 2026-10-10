@@ -8,19 +8,23 @@
    "blokken": [
     {
      "soort": "tekst",
-     "html": "<strong>De som van de hoeken in een driehoek is honderdtachtig graden.</strong> Ken je twee hoeken, dan volgt de derde daar meteen uit."
+     "html": "De som van de hoeken in een driehoek is \\(180^\\circ\\). Ken je twee hoeken, dan volgt de derde daar meteen uit: \\(\\widehat{C} = 180^\\circ - \\widehat{A} - \\widehat{B}\\)."
     },
     {
      "soort": "tekst",
      "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Wat je kent</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Welke regel</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Waarom</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een zijde samen met de hoek ertegenover</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">de sinusregel</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">die koppelt telkens een zijde aan haar overstaande hoek</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">twee zijden en de hoek ertussen</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">de cosinusregel</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">er is geen zijde met haar overstaande hoek bekend</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">de drie zijden</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">de cosinusregel</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">de sinusregel heeft altijd één gekende hoek nodig</td></tr></table>"
     },
     {
+     "soort": "kader",
+     "html": "Sinusregel: \\(\\dfrac{a}{\\sin A} = \\dfrac{b}{\\sin B} = \\dfrac{c}{\\sin C}\\). Cosinusregel: \\(a^{2} = b^{2} + c^{2} - 2bc\\cos A\\)."
+    },
+    {
      "soort": "tekst",
-     "html": "<strong>De cosinusregel voor zijde a tegenover hoek A luidt: a kwadraat is b kwadraat plus c kwadraat min twee bc maal de cosinus van A.</strong> De hoek in de formule is altijd de hoek tegenover de zijde die je zoekt."
+     "html": "In de cosinusregel is de hoek altijd die tegenover de zijde die je zoekt. Ken je de drie zijden, dan vorm je ze om naar \\(\\cos A = \\dfrac{b^{2} + c^{2} - a^{2}}{2bc}\\) en lees je de hoek af met de inverse cosinus."
     },
     {
      "soort": "kader",
-     "html": "<strong>De cosinusregel is een veralgemening van de stelling van Pythagoras.</strong> Bij een rechte hoek is de cosinus nul, dus valt de laatste term weg en blijft Pythagoras over."
+     "html": "De cosinusregel is een veralgemening van de stelling van Pythagoras. Bij \\(\\widehat{A} = 90^\\circ\\) is \\(\\cos A = 0\\), dus valt de laatste term weg en blijft \\(a^{2} = b^{2} + c^{2}\\) over."
     }
    ]
   },
@@ -29,11 +33,11 @@
    "blokken": [
     {
      "soort": "tekst",
-     "html": "<strong>Pi radialen is honderdtachtig graden</strong>, en daaruit volgt elke andere omzetting. <strong>Twee pi radialen is driehonderdzestig graden</strong>, een volledige omwenteling. <strong>Negentig graden is pi gedeeld door twee</strong> radialen en <strong>pi gedeeld door drie radialen is zestig graden</strong>. <strong>Eén radiaal is ongeveer zevenenvijftig graden</strong>, want honderdtachtig gedeeld door pi is ongeveer 57,3."
+     "html": "Een radiaal is de hoek waarbij de boog even lang is als de straal. Omdat een halve cirkel \\(\\pi\\) radialen meet, is \\(\\pi\\) radialen hetzelfde als \\(180^\\circ\\), en daaruit volgt elke andere omzetting. Zo is \\(2\\pi\\) radialen gelijk aan \\(360^\\circ\\), een volledige omwenteling, is \\(90^\\circ\\) gelijk aan \\(\\dfrac{\\pi}{2}\\) en is \\(\\dfrac{\\pi}{3}\\) gelijk aan \\(60^\\circ\\)."
     },
     {
      "soort": "tekst",
-     "html": "<strong>Van graden naar radialen vermenigvuldig je met pi en deel je door honderdtachtig.</strong> De andere kant op doe je net het omgekeerde. Zet altijd eerst je rekenapp in de juiste stand."
+     "html": "Eén radiaal zelf is ongeveer \\(57^\\circ\\), want \\(\\dfrac{180}{\\pi} \\approx 57{,}3\\). Van graden naar radialen vermenigvuldig je met \\(\\dfrac{\\pi}{180}\\); de andere kant op met \\(\\dfrac{180}{\\pi}\\). Zet altijd eerst je rekenapp in de juiste stand, anders klopt geen enkele uitkomst."
     }
    ]
   },
@@ -41,24 +45,56 @@
    "kop": "De goniometrische cirkel",
    "blokken": [
     {
-     "soort": "tekst",
-     "html": "<strong>De goniometrische cirkel heeft straal één.</strong> Door de straal op één te zetten, zijn de coördinaten van het beeldpunt meteen de cosinus en de sinus. <strong>De cosinus is de x-coördinaat en de sinus de y-coördinaat</strong>; die twee verwisselen is de klassieke fout."
+     "soort": "figuur",
+     "html": "<svg viewBox=\"0 0 470 268\" width=\"470\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"5\" y=\"4\" width=\"460\" height=\"242\" rx=\"7\" fill=\"#ffffff\" stroke=\"#e4ded0\" stroke-width=\"1.2\"/>\n<line x1=\"107.0\" y1=\"128.0\" x2=\"363.0\" y2=\"128.0\" stroke=\"#23291f\" stroke-width=\"1.4\"/>\n<line x1=\"235.0\" y1=\"10.0\" x2=\"235.0\" y2=\"246.0\" stroke=\"#23291f\" stroke-width=\"1.4\"/>\n<circle cx=\"235.0\" cy=\"128.0\" r=\"94.0\" fill=\"none\" stroke=\"#234539\" stroke-width=\"1.8\"/>\n<circle cx=\"329.0\" cy=\"128.0\" r=\"2.6\" fill=\"#6b7260\"/>\n<text x=\"345.0\" y=\"120.0\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"9\" fill=\"#6b7260\">0</text>\n<circle cx=\"235.0\" cy=\"34.0\" r=\"2.6\" fill=\"#6b7260\"/>\n<text x=\"251.0\" y=\"28.0\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"9\" fill=\"#6b7260\">π/2</text>\n<circle cx=\"141.0\" cy=\"128.0\" r=\"2.6\" fill=\"#6b7260\"/>\n<text x=\"127.0\" y=\"120.0\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"9\" fill=\"#6b7260\">π</text>\n<circle cx=\"235.0\" cy=\"222.0\" r=\"2.6\" fill=\"#6b7260\"/>\n<text x=\"255.0\" y=\"238.0\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"9\" fill=\"#6b7260\">3π/2</text>\n<line x1=\"235.0\" y1=\"128.0\" x2=\"292.9\" y2=\"53.9\" stroke=\"#234539\" stroke-width=\"2\"/>\n<text x=\"259.9\" y=\"85.0\" text-anchor=\"end\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"10\" font-weight=\"600\" fill=\"#234539\">1</text>\n<circle cx=\"292.9\" cy=\"53.9\" r=\"4\" fill=\"#234539\"/>\n<text x=\"300.9\" y=\"45.9\" text-anchor=\"start\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"11\" font-weight=\"600\" fill=\"#234539\">P</text>\n<line x1=\"292.9\" y1=\"53.9\" x2=\"292.9\" y2=\"128.0\" stroke=\"#6b7260\" stroke-width=\"1.2\" stroke-dasharray=\"4 3\"/>\n<line x1=\"292.9\" y1=\"53.9\" x2=\"235.0\" y2=\"53.9\" stroke=\"#6b7260\" stroke-width=\"1.2\" stroke-dasharray=\"4 3\"/>\n<line x1=\"235.0\" y1=\"128.0\" x2=\"292.9\" y2=\"128.0\" stroke=\"#c17f2b\" stroke-width=\"3.2\"/>\n<line x1=\"235.0\" y1=\"128.0\" x2=\"235.0\" y2=\"53.9\" stroke=\"#2f5d50\" stroke-width=\"3.2\"/>\n<text x=\"263.9\" y=\"144.0\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"10\" font-weight=\"600\" fill=\"#c17f2b\">cos α</text>\n<text x=\"227.0\" y=\"95.0\" text-anchor=\"end\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"10\" font-weight=\"600\" fill=\"#2f5d50\">sin α</text>\n<path d=\"M261.0 128.0 A 26 26 0 0 0 251.0 107.5\" fill=\"none\" stroke=\"#6b7260\" stroke-width=\"1.2\"/>\n<text x=\"269.0\" y=\"116.0\" text-anchor=\"start\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"10.5\" fill=\"#6b7260\">α</text>\n<text x=\"235.0\" y=\"262.0\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"9\" fill=\"#6b7260\">het beeldpunt P heeft de cosinus als x en de sinus als y</text></svg>",
+     "onderschrift": "Dezelfde hoek, twee aflezingen: de ene op de liggende as, de andere op de staande."
     },
     {
      "soort": "tekst",
-     "html": "Daaruit lees je de bekende waarden af. <strong>De cosinus van nul graden is één</strong> (het beeldpunt ligt helemaal rechts), <strong>de sinus is gelijk aan één bij negentig graden</strong> (het beeldpunt ligt bovenaan), en <strong>de sinus van dertig graden is een half</strong>, net als de cosinus van zestig graden. <strong>De sinus van een hoek kan nooit groter zijn dan één</strong>, want ze is een coördinaat op een cirkel met straal één. De tangens kent die grens niet."
+     "html": "De goniometrische cirkel heeft straal \\(1\\). Door de straal op \\(1\\) te zetten zijn de coördinaten van het beeldpunt meteen \\((\\cos\\alpha,\\ \\sin\\alpha)\\). De cosinus is dus de \\(x\\)-coördinaat en de sinus de \\(y\\)-coördinaat; die twee verwisselen is de klassieke fout."
+    }
+   ]
+  },
+  {
+   "kop": "De waarden die je uit het hoofd kent",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Uit de cirkel lees je de bekende waarden af. \\(\\cos 0^\\circ = 1\\), want het beeldpunt ligt helemaal rechts. \\(\\sin 90^\\circ = 1\\), want dan ligt het bovenaan. En \\(\\sin 30^\\circ = \\tfrac{1}{2}\\), net als \\(\\cos 60^\\circ\\)."
     },
     {
      "soort": "tekst",
-     "html": "<strong>De grondformule van de goniometrie luidt: de sinus in het kwadraat plus de cosinus in het kwadraat is één.</strong> Ze volgt rechtstreeks uit Pythagoras op die cirkel. De sinus gedeeld door de cosinus is de tangens. <strong>Je gebruikt de grondformule vooral om de ene goniometrische functie in de andere om te zetten</strong>: ken je de sinus, dan haal je er de cosinus uit, op het teken na, en dat teken bepaal je met het kwadrant."
+     "html": "Omdat de sinus een coördinaat is op een cirkel met straal \\(1\\), geldt altijd \\(-1 \\leq \\sin\\alpha \\leq 1\\): groter dan \\(1\\) kan ze nooit worden. De tangens kent die grens niet, want \\(\\tan\\alpha = \\dfrac{\\sin\\alpha}{\\cos\\alpha}\\) loopt naar oneindig zodra de cosinus naar nul gaat."
+    }
+   ]
+  },
+  {
+   "kop": "De grondformule",
+   "blokken": [
+    {
+     "soort": "kader",
+     "html": "\\(\\sin^{2}x + \\cos^{2}x = 1\\)"
     },
     {
      "soort": "tekst",
-     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Verband tussen twee hoeken</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Hun som of vorm</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Wat geldt</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">tegengesteld</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">de ene is min de andere</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">dezelfde cosinus, tegengestelde sinus</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">supplementair</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">samen honderdtachtig graden</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">dezelfde sinus, tegengestelde cosinus</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">complementair</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">samen negentig graden</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">de sinus van de ene is de cosinus van de andere</td></tr></table>"
+     "html": "Ze volgt rechtstreeks uit Pythagoras op de cirkel met straal \\(1\\): de twee coördinaten van het beeldpunt zijn de rechthoekszijden, de straal is de schuine zijde. Je gebruikt de grondformule vooral om de ene goniometrische functie in de andere om te zetten: ken je \\(\\sin x\\), dan is \\(\\cos x = \\pm\\sqrt{1 - \\sin^{2}x}\\), en het teken bepaal je met het kwadrant."
+    }
+   ]
+  },
+  {
+   "kop": "Hoeken die bij elkaar horen",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Verband tussen twee hoeken</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Hun som of vorm</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Wat geldt</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">tegengesteld</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">\\(\\alpha\\) en \\(-\\alpha\\)</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">dezelfde cosinus, tegengestelde sinus</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">supplementair</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">samen \\(180^\\circ\\)</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">dezelfde sinus, tegengestelde cosinus</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">complementair</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">samen \\(90^\\circ\\)</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">de sinus van de ene is de cosinus van de andere</td></tr></table>"
     },
     {
      "soort": "tekst",
-     "html": "Bij <strong>tegengestelde hoeken</strong> spiegelt het beeldpunt om de horizontale as; bij <strong>supplementaire hoeken</strong> om de verticale as. Bij <strong>complementaire hoeken</strong> zie je het meteen in een rechthoekige driehoek: de overstaande zijde van de ene is de aanliggende van de andere. Hieruit volgt ook dat <strong>de sinus van min x gelijk is aan min de sinus van x</strong>: de sinus is een oneven functie, de cosinus een even."
+     "html": "Bij tegengestelde hoeken spiegelt het beeldpunt om de horizontale as, dus \\(\\cos(-\\alpha) = \\cos\\alpha\\) en \\(\\sin(-\\alpha) = -\\sin\\alpha\\). Bij supplementaire hoeken spiegelt het om de verticale as: \\(\\sin(180^\\circ - \\alpha) = \\sin\\alpha\\) en \\(\\cos(180^\\circ - \\alpha) = -\\cos\\alpha\\)."
+    },
+    {
+     "soort": "tekst",
+     "html": "Bij complementaire hoeken zie je het meteen in een rechthoekige driehoek: de overstaande zijde van de ene is de aanliggende van de andere, dus \\(\\sin(90^\\circ - \\alpha) = \\cos\\alpha\\). Uit de eerste rij volgt ook dat de sinus een oneven functie is en de cosinus een even."
     }
    ]
   },
@@ -66,24 +102,33 @@
    "kop": "De algemene sinusfunctie",
    "blokken": [
     {
-     "soort": "tekst",
-     "html": "Schrijf een golvende grafiek als <strong>a maal de sinus van b maal x min c, plus d</strong>. Elk van die vier letters doet iets anders."
+     "soort": "kader",
+     "html": "\\(y = a\\sin(bx - c) + d\\)"
     },
     {
      "soort": "tekst",
-     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Letter</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Wat ze doet</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Voorbeeld</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">a</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">de amplitude, de hoogte van de golf</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">drie maal de sinus van x heeft amplitude drie</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">b</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">perst de grafiek samen, de periode wordt twee pi gedeeld door b</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">de sinus van twee x heeft periode pi</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">c</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">zorgt voor een horizontale verschuiving, de faseverschuiving</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">het schuift de hele golf opzij</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">d</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">schuift verticaal en bepaalt de evenwichtslijn</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">de sinus van x, plus vier, schommelt rond y is vier</td></tr></table>"
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Letter</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Wat ze doet</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Voorbeeld</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">a</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">de amplitude, de hoogte van de golf</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">\\(y = 3\\sin x\\) heeft amplitude \\(3\\)</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">b</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">perst de grafiek samen, de periode wordt \\(\\dfrac{2\\pi}{b}\\)</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">\\(y = \\sin 2x\\) heeft periode \\(\\pi\\)</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">c</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">zorgt voor een horizontale verschuiving, de faseverschuiving</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">het schuift de hele golf opzij</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">d</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">schuift verticaal en bepaalt de evenwichtslijn</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">\\(y = \\sin x + 4\\) schommelt rond \\(y = 4\\)</td></tr></table>"
     },
     {
      "soort": "tekst",
-     "html": "<strong>De periode van de gewone sinusfunctie is twee pi</strong>: na één volledige omwenteling begint het beeld opnieuw. <strong>De sinus van drie x heeft een periode die drie keer korter is.</strong> De <strong>frequentie van een periodieke functie</strong> is <strong>het aantal volledige schommelingen per eenheid</strong>, dus één gedeeld door de periode."
+     "html": "De periode van \\(y = \\sin x\\) is \\(2\\pi\\): na één volledige omwenteling begint het beeld opnieuw. De grafiek van \\(y = \\sin 3x\\) heeft een periode die drie keer korter is. De frequentie van een periodieke functie is het aantal volledige schommelingen per eenheid, dus \\(f = \\dfrac{1}{T}\\)."
+    }
+   ]
+  },
+  {
+   "kop": "Amplitude, bereik en nulwaarden",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "De amplitude kan niet negatief zijn, want ze is een afstand. Een negatieve factor voor de sinus spiegelt de grafiek wel om de evenwichtslijn."
     },
     {
      "soort": "tekst",
-     "html": "<strong>De amplitude kan niet negatief zijn</strong>, want ze is een afstand. Een negatieve factor voor de sinus spiegelt de grafiek wel om de evenwichtslijn. Het bereik volgt uit a en d: <strong>twee maal de sinus van x, plus één, loopt van min één tot en met drie</strong>, en <strong>de grootste waarde van vijf maal de sinus van x is vijf</strong>. <strong>Tussen nul en twee pi, de grenzen inbegrepen, heeft de sinus drie nulwaarden</strong>: in nul, in pi en in twee pi."
+     "html": "Het bereik volgt uit \\(a\\) en \\(d\\): \\(y = 2\\sin x + 1\\) loopt over \\([-1,\\ 3]\\), en de grootste waarde van \\(y = 5\\sin x\\) is \\(5\\). Op \\([0,\\ 2\\pi]\\), de grenzen inbegrepen, heeft \\(y = \\sin x\\) drie nulwaarden: in \\(0\\), in \\(\\pi\\) en in \\(2\\pi\\)."
     },
     {
      "soort": "weetje",
-     "html": "<strong>Een sinusfunctie is een geschikt model voor het getij aan de kust.</strong> Het water stijgt en daalt met een vaste periode rond een gemiddeld peil, en dat is precies wat zo'n functie beschrijft."
+     "html": "Een sinusfunctie is een geschikt model voor het getij aan de kust. Het water stijgt en daalt met een vaste periode rond een gemiddeld peil, en dat is precies wat zo'n functie beschrijft."
     }
    ]
   },
@@ -91,29 +136,33 @@
    "kop": "Goniometrische formules",
    "blokken": [
     {
-     "soort": "tekst",
-     "html": "<strong>De verdubbelingsformule voor de sinus luidt: de sinus van twee x is twee maal de sinus van x maal de cosinus van x.</strong> Ze volgt uit de somformule met twee gelijke hoeken; gewoon maal twee werkt niet. <strong>De cosinus van twee x is evenmin twee maal de cosinus van x</strong>: de juiste formule is de cosinus in het kwadraat min de sinus in het kwadraat. Een goniometrisch getal is geen factor die je zomaar buiten haalt."
+     "soort": "kader",
+     "html": "\\(\\sin 2x = 2\\sin x\\cos x\\) en \\(\\cos 2x = \\cos^{2}x - \\sin^{2}x\\)"
     },
     {
      "soort": "tekst",
-     "html": "<strong>De formules van Simpson zetten een som van sinussen om in een product.</strong> Ze heten daarom ook de som-naar-productformules, en ze zijn handig om een vergelijking te ontbinden in factoren."
+     "html": "De verdubbelingsformules volgen uit de somformules met twee gelijke hoeken. Gewoon maal twee werkt niet: \\(\\cos 2x\\) is dus géén \\(2\\cos x\\). Een goniometrisch getal is geen factor die je zomaar buiten haalt."
+    },
+    {
+     "soort": "tekst",
+     "html": "De formules van Simpson zetten een som van sinussen om in een product. Ze heten daarom ook de som-naar-productformules, en ze zijn handig om een vergelijking te ontbinden in factoren: een product is nul zodra één factor nul is."
     },
     {
      "soort": "kader",
-     "html": "<strong>Een goniometrische identiteit bewijs je door één lid te herleiden tot het andere met bekende formules.</strong> Enkele hoeken invullen toont alleen dat ze daar klopt, niet dat ze altijd klopt. Een grafiek is een aanwijzing, geen bewijs."
+     "html": "Een goniometrische identiteit bewijs je door één lid te herleiden tot het andere met bekende formules. Enkele hoeken invullen toont alleen dat ze daar klopt, niet dat ze altijd klopt. Een grafiek is een aanwijzing, geen bewijs."
     }
    ]
   }
  ],
  "onthoud": [
-  "De som van de hoeken in een driehoek is honderdtachtig graden.",
+  "De som van de hoeken in een driehoek is \\(180^\\circ\\).",
   "Ken je een zijde met haar overstaande hoek, dan gebruik je de sinusregel; anders de cosinusregel.",
-  "Cosinusregel: a kwadraat is b kwadraat plus c kwadraat min twee bc maal de cosinus van A.",
-  "Pi radialen is honderdtachtig graden.",
-  "Op de goniometrische cirkel is de cosinus de x-coördinaat en de sinus de y-coördinaat.",
-  "Grondformule: de sinus in het kwadraat plus de cosinus in het kwadraat is één.",
+  "\\(a^{2} = b^{2} + c^{2} - 2bc\\cos A\\).",
+  "\\(\\pi\\) radialen is \\(180^\\circ\\); van graden naar radialen: maal \\(\\dfrac{\\pi}{180}\\).",
+  "Op de cirkel is \\(\\cos\\alpha\\) de \\(x\\)-coördinaat en \\(\\sin\\alpha\\) de \\(y\\)-coördinaat.",
+  "\\(\\sin^{2}x + \\cos^{2}x = 1\\).",
   "Supplementaire hoeken hebben dezelfde sinus, tegengestelde hoeken dezelfde cosinus.",
-  "In de algemene sinusfunctie is a de amplitude en is de periode twee pi gedeeld door b.",
-  "De sinus van twee x is twee maal de sinus van x maal de cosinus van x."
+  "In \\(y = a\\sin(bx - c) + d\\) is \\(a\\) de amplitude en is de periode \\(\\dfrac{2\\pi}{b}\\).",
+  "\\(\\sin 2x = 2\\sin x\\cos x\\)."
  ]
 }

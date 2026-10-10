@@ -2449,17 +2449,17 @@
           "type": "meerkeuze",
           "vraag": "Hoeveel graden is de som van de hoeken in een driehoek?",
           "opties": [
-            "180",
-            "90",
-            "270",
-            "360"
+            "\\(180^\\circ\\)",
+            "\\(90^\\circ\\)",
+            "\\(270^\\circ\\)",
+            "\\(360^\\circ\\)"
           ],
           "antwoord": 0,
-          "uitleg": "Ken je twee hoeken, dan volgt de derde daar meteen uit."
+          "uitleg": "Ken je twee hoeken, dan volgt de derde daar meteen uit: \\(\\widehat{C} = 180^\\circ - \\widehat{A} - \\widehat{B}\\)."
         },
         {
           "type": "meerkeuze",
-          "vraag": "Wanneer gebruik je de sinusregel?",
+          "vraag": "Wanneer gebruik je de sinusregel \\(\\dfrac{a}{\\sin A} = \\dfrac{b}{\\sin B}\\)?",
           "opties": [
             "als je een zijde kent samen met de hoek ertegenover",
             "als je de drie zijden van de driehoek al kent",
@@ -2471,95 +2471,95 @@
         },
         {
           "type": "invultekst",
-          "vraag": "Hoeveel graden is pi radialen? Schrijf het getal.",
+          "vraag": "Hoeveel graden is \\(\\pi\\) radialen? Schrijf het getal.",
           "antwoord": [
             "180",
             "honderdtachtig"
           ],
-          "uitleg": "Een halve cirkel is pi radialen en ook honderdtachtig graden. Daaruit volgt elke andere omzetting."
+          "uitleg": "Een halve cirkel is \\(\\pi\\) radialen en ook \\(180^\\circ\\). Daaruit volgt elke andere omzetting."
         },
         {
           "type": "waarofniet",
           "vraag": "De cosinusregel is een veralgemening van de stelling van Pythagoras.",
           "antwoord": true,
-          "uitleg": "Bij een rechte hoek is de cosinus nul, dus valt de laatste term weg en blijft Pythagoras over."
+          "uitleg": "Bij \\(\\widehat{A} = 90^\\circ\\) is \\(\\cos A = 0\\), dus valt de laatste term weg en blijft \\(a^{2} = b^{2} + c^{2}\\) over."
         },
         {
           "type": "meerkeuze",
-          "vraag": "Hoe luidt de cosinusregel voor zijde a tegenover hoek A?",
+          "vraag": "Hoe luidt de cosinusregel voor zijde \\(a\\) tegenover hoek \\(A\\)?",
           "opties": [
-            "a kwadraat is b kwadraat plus c kwadraat min twee bc maal de cosinus van A",
-            "a kwadraat is b kwadraat plus c kwadraat plus twee bc maal de cosinus van A",
-            "a kwadraat is b kwadraat min c kwadraat min twee bc maal de cosinus van A",
-            "a is b plus c min twee maal b maal c maal de cosinus van hoek A"
+            "\\(a^{2} = b^{2} + c^{2} - 2bc\\cos A\\)",
+            "\\(a^{2} = b^{2} + c^{2} + 2bc\\cos A\\)",
+            "\\(a^{2} = b^{2} - c^{2} - 2bc\\cos A\\)",
+            "\\(a = b + c - 2bc\\cos A\\)"
           ],
           "antwoord": 0,
           "uitleg": "De hoek in de formule is altijd de hoek tegenover de zijde die je zoekt."
         },
         {
           "type": "meerkeuze",
-          "vraag": "Hoeveel radialen is negentig graden?",
+          "vraag": "Hoeveel radialen is \\(90^\\circ\\)?",
           "opties": [
-            "pi gedeeld door twee",
-            "pi gedeeld door drie",
-            "pi gedeeld door vier",
-            "twee maal pi"
+            "\\(\\dfrac{\\pi}{2}\\)",
+            "\\(\\dfrac{\\pi}{3}\\)",
+            "\\(\\dfrac{\\pi}{4}\\)",
+            "\\(2\\pi\\)"
           ],
           "antwoord": 0,
-          "uitleg": "Pi radialen is honderdtachtig graden, dus de helft daarvan is pi op twee."
+          "uitleg": "\\(\\pi\\) radialen is \\(180^\\circ\\), dus de helft daarvan is \\(\\dfrac{\\pi}{2}\\)."
         },
         {
           "type": "waarofniet",
-          "vraag": "Eén radiaal is ongeveer zevenenvijftig graden.",
+          "vraag": "Eén radiaal is ongeveer \\(57^\\circ\\).",
           "antwoord": true,
-          "uitleg": "Honderdtachtig gedeeld door pi is ongeveer 57,3."
+          "uitleg": "\\(\\dfrac{180}{\\pi} \\approx 57{,}3\\)."
         },
         {
           "type": "invultekst",
-          "vraag": "Hoeveel graden is twee pi radialen? Schrijf het getal.",
+          "vraag": "Hoeveel graden is \\(2\\pi\\) radialen? Schrijf het getal.",
           "antwoord": [
             "360",
             "driehonderdzestig"
           ],
-          "uitleg": "Twee pi radialen is een volledige omwenteling."
+          "uitleg": "\\(2\\pi\\) radialen is een volledige omwenteling."
         },
         {
           "type": "meerkeuze",
           "vraag": "Welke straal heeft de goniometrische cirkel?",
           "opties": [
-            "één",
-            "twee",
-            "pi",
-            "honderdtachtig"
+            "\\(1\\)",
+            "\\(2\\)",
+            "\\(\\pi\\)",
+            "\\(180\\)"
           ],
           "antwoord": 0,
-          "uitleg": "Door de straal op één te zetten, zijn de coördinaten van het beeldpunt meteen de cosinus en de sinus."
+          "uitleg": "Door de straal op \\(1\\) te zetten, zijn de coördinaten van het beeldpunt meteen \\((\\cos\\alpha,\\ \\sin\\alpha)\\)."
         },
         {
           "type": "waarofniet",
-          "vraag": "Op de goniometrische cirkel is de cosinus van een hoek de y-coördinaat van het beeldpunt.",
+          "vraag": "Op de goniometrische cirkel is \\(\\cos\\alpha\\) de \\(y\\)-coördinaat van het beeldpunt.",
           "antwoord": false,
-          "uitleg": "De cosinus is de x-coördinaat en de sinus de y-coördinaat. Die twee verwisselen is de klassieke fout."
+          "uitleg": "\\(\\cos\\alpha\\) is de \\(x\\)-coördinaat en \\(\\sin\\alpha\\) de \\(y\\)-coördinaat. Die twee verwisselen is de klassieke fout."
         },
         {
           "type": "meerkeuze",
-          "vraag": "Voor welke hoek tussen nul en honderdtachtig graden is de sinus gelijk aan één?",
+          "vraag": "Voor welke hoek tussen \\(0^\\circ\\) en \\(180^\\circ\\) is \\(\\sin\\alpha = 1\\)?",
           "opties": [
-            "negentig graden",
-            "nul graden",
-            "zestig graden",
-            "honderdtachtig graden"
+            "\\(90^\\circ\\)",
+            "\\(0^\\circ\\)",
+            "\\(60^\\circ\\)",
+            "\\(180^\\circ\\)"
           ],
           "antwoord": 0,
-          "uitleg": "Het beeldpunt ligt dan bovenaan de cirkel, met y-coördinaat één."
+          "uitleg": "Het beeldpunt ligt dan bovenaan de cirkel, met \\(y\\)-coördinaat \\(1\\)."
         },
         {
           "type": "invultekst",
-          "vraag": "Hoeveel is de sinus van dertig graden? Schrijf het als breuk.",
+          "vraag": "Hoeveel is \\(\\sin 30^\\circ\\)? Schrijf het als breuk.",
           "antwoord": [
             "1/2"
           ],
-          "uitleg": "Dertig graden is een van de hoeken die je uit het hoofd moet kennen. De cosinus van zestig graden is hetzelfde getal."
+          "uitleg": "\\(30^\\circ\\) is een van de hoeken die je uit het hoofd moet kennen. \\(\\cos 60^\\circ\\) is hetzelfde getal."
         },
         {
           "type": "meerkeuze",
@@ -2583,44 +2583,44 @@
           "type": "meerkeuze",
           "vraag": "Hoe luidt de grondformule van de goniometrie?",
           "opties": [
-            "de sinus in het kwadraat plus de cosinus in het kwadraat is één",
-            "de sinus in het kwadraat min de cosinus in het kwadraat is één",
-            "de sinus plus de cosinus van dezelfde hoek is gelijk aan één",
-            "de sinus gedeeld door de cosinus van die hoek is gelijk aan één"
+            "\\(\\sin^{2}x + \\cos^{2}x = 1\\)",
+            "\\(\\sin^{2}x - \\cos^{2}x = 1\\)",
+            "\\(\\sin x + \\cos x = 1\\)",
+            "\\(\\dfrac{\\sin x}{\\cos x} = 1\\)"
           ],
           "antwoord": 0,
-          "uitleg": "Ze volgt rechtstreeks uit Pythagoras op de goniometrische cirkel met straal één. De sinus gedeeld door de cosinus is de tangens."
+          "uitleg": "Ze volgt rechtstreeks uit Pythagoras op de goniometrische cirkel met straal \\(1\\). \\(\\dfrac{\\sin x}{\\cos x}\\) is de tangens."
         },
         {
           "type": "meerkeuze",
-          "vraag": "Hoeveel is de cosinus van nul graden?",
+          "vraag": "Hoeveel is \\(\\cos 0^\\circ\\)?",
           "opties": [
-            "één",
-            "nul",
-            "min één",
-            "een half"
+            "\\(1\\)",
+            "\\(0\\)",
+            "\\(-1\\)",
+            "\\(\\tfrac{1}{2}\\)"
           ],
           "antwoord": 0,
-          "uitleg": "Het beeldpunt ligt dan helemaal rechts op de cirkel, met x-coördinaat één."
+          "uitleg": "Het beeldpunt ligt dan helemaal rechts op de cirkel, met \\(x\\)-coördinaat \\(1\\)."
         },
         {
           "type": "waarofniet",
-          "vraag": "De sinus van een hoek kan groter zijn dan één.",
+          "vraag": "\\(\\sin\\alpha\\) kan groter zijn dan \\(1\\).",
           "antwoord": false,
-          "uitleg": "De sinus is een coördinaat op een cirkel met straal één, dus ze blijft altijd tussen min één en één. De tangens kent die grens niet."
+          "uitleg": "De sinus is een coördinaat op een cirkel met straal \\(1\\), dus \\(-1 \\leq \\sin\\alpha \\leq 1\\). De tangens kent die grens niet."
         },
         {
           "type": "invultekst",
-          "vraag": "Hoeveel graden is pi gedeeld door drie radialen? Schrijf het getal.",
+          "vraag": "Hoeveel graden is \\(\\dfrac{\\pi}{3}\\) radialen? Schrijf het getal.",
           "antwoord": [
             "60",
             "zestig"
           ],
-          "uitleg": "Honderdtachtig gedeeld door drie is zestig."
+          "uitleg": "\\(\\dfrac{180}{3} = 60\\)."
         },
         {
           "type": "meerkeuze",
-          "vraag": "Twee hoeken zijn tegengesteld. Wat geldt voor hun goniometrische getallen?",
+          "vraag": "Twee hoeken zijn tegengesteld: \\(\\alpha\\) en \\(-\\alpha\\). Wat geldt voor hun goniometrische getallen?",
           "opties": [
             "dezelfde cosinus, tegengestelde sinus",
             "dezelfde sinus, tegengestelde cosinus",
@@ -2628,16 +2628,16 @@
             "allebei een tegengestelde sinus en cosinus"
           ],
           "antwoord": 0,
-          "uitleg": "Het beeldpunt spiegelt om de horizontale as, dus de x-coördinaat blijft en de y-coördinaat wisselt van teken."
+          "uitleg": "Het beeldpunt spiegelt om de horizontale as, dus \\(\\cos(-\\alpha) = \\cos\\alpha\\) en \\(\\sin(-\\alpha) = -\\sin\\alpha\\)."
         },
         {
           "type": "meerkeuze",
           "vraag": "Hoe zet je een hoek in graden om naar radialen?",
           "opties": [
-            "vermenigvuldigen met pi en delen door honderdtachtig",
-            "vermenigvuldigen met honderdtachtig en delen door pi",
-            "vermenigvuldigen met twee pi en delen door honderd",
-            "delen door pi en daarna vermenigvuldigen met zestig"
+            "vermenigvuldigen met \\(\\dfrac{\\pi}{180}\\)",
+            "vermenigvuldigen met \\(\\dfrac{180}{\\pi}\\)",
+            "vermenigvuldigen met \\(\\dfrac{2\\pi}{100}\\)",
+            "delen door \\(\\pi\\), dan maal \\(60\\)"
           ],
           "antwoord": 0,
           "uitleg": "De andere kant op doe je net het omgekeerde. Zet altijd eerst je rekenapp in de juiste stand."
@@ -2651,46 +2651,46 @@
       "vragen": [
         {
           "type": "meerkeuze",
-          "vraag": "Wat is de amplitude van drie maal de sinus van x?",
+          "vraag": "Wat is de amplitude van \\(y = 3\\sin x\\)?",
           "opties": [
-            "drie",
-            "één",
-            "zes",
-            "twee pi"
+            "\\(3\\)",
+            "\\(1\\)",
+            "\\(6\\)",
+            "\\(2\\pi\\)"
           ],
           "antwoord": 0,
           "uitleg": "De amplitude is de factor voor de sinus, dus de afstand van de evenwichtslijn tot de top."
         },
         {
           "type": "meerkeuze",
-          "vraag": "Wat is de periode van de sinus van twee x?",
+          "vraag": "Wat is de periode van \\(y = \\sin 2x\\)?",
           "opties": [
-            "pi",
-            "twee pi",
-            "vier pi",
-            "een half"
+            "\\(\\pi\\)",
+            "\\(2\\pi\\)",
+            "\\(4\\pi\\)",
+            "\\(\\tfrac{1}{2}\\)"
           ],
           "antwoord": 0,
-          "uitleg": "De gewone periode twee pi wordt gedeeld door de factor voor x, dus hier door twee."
+          "uitleg": "De gewone periode \\(2\\pi\\) wordt gedeeld door de factor voor \\(x\\), dus hier door \\(2\\)."
         },
         {
           "type": "invultekst",
-          "vraag": "Welke evenwichtslijn heeft de grafiek van de sinus van x, plus vier? Schrijf de y-waarde.",
+          "vraag": "Welke evenwichtslijn heeft de grafiek van \\(y = \\sin x + 4\\)? Schrijf de \\(y\\)-waarde.",
           "antwoord": [
             "4",
             "vier"
           ],
-          "uitleg": "De hele grafiek schuift vier omhoog, dus ze schommelt rond de rechte y is vier."
+          "uitleg": "De hele grafiek schuift vier omhoog, dus ze schommelt rond de rechte \\(y = 4\\)."
         },
         {
           "type": "waarofniet",
-          "vraag": "De periode van de gewone sinusfunctie is twee pi.",
+          "vraag": "De periode van \\(y = \\sin x\\) is \\(2\\pi\\).",
           "antwoord": true,
           "uitleg": "Na één volledige omwenteling op de goniometrische cirkel begint het beeld opnieuw."
         },
         {
           "type": "meerkeuze",
-          "vraag": "Wat doet het getal c in a maal de sinus van b maal x min c, plus d?",
+          "vraag": "Wat doet \\(c\\) in \\(y = a\\sin(bx - c) + d\\)?",
           "opties": [
             "het zorgt voor een horizontale verschuiving",
             "het zorgt voor een verticale verschuiving",
@@ -2698,19 +2698,19 @@
             "het bepaalt de periode van de grafiek"
           ],
           "antwoord": 0,
-          "uitleg": "Dat heet de faseverschuiving. Het getal d schuift verticaal en bepaalt de evenwichtslijn."
+          "uitleg": "Dat heet de faseverschuiving. Het getal \\(d\\) schuift verticaal en bepaalt de evenwichtslijn."
         },
         {
           "type": "meerkeuze",
-          "vraag": "Wat is het bereik van twee maal de sinus van x, plus één?",
+          "vraag": "Wat is het bereik van \\(y = 2\\sin x + 1\\)?",
           "opties": [
-            "van min één tot en met drie",
-            "van min twee tot en met twee",
-            "van nul tot en met drie",
-            "van min drie tot en met drie"
+            "\\([-1,\\ 3]\\)",
+            "\\([-2,\\ 2]\\)",
+            "\\([0,\\ 3]\\)",
+            "\\([-3,\\ 3]\\)"
           ],
           "antwoord": 0,
-          "uitleg": "De sinus loopt van min één tot één, maal twee geeft min twee tot twee, plus één schuift alles één omhoog."
+          "uitleg": "\\(\\sin x\\) loopt van \\(-1\\) tot \\(1\\), maal \\(2\\) geeft \\(-2\\) tot \\(2\\), plus \\(1\\) schuift alles één omhoog."
         },
         {
           "type": "waarofniet",
@@ -2720,12 +2720,12 @@
         },
         {
           "type": "invultekst",
-          "vraag": "Hoeveel keer korter is de periode van de sinus van drie x dan die van de gewone sinus? Schrijf het cijfer.",
+          "vraag": "Hoeveel keer korter is de periode van \\(y = \\sin 3x\\) dan die van \\(y = \\sin x\\)? Schrijf het cijfer.",
           "antwoord": [
             "3",
             "drie"
           ],
-          "uitleg": "De factor voor x perst de grafiek samen: ze doorloopt haar beeld drie keer zo snel."
+          "uitleg": "De factor voor \\(x\\) perst de grafiek samen: ze doorloopt haar beeld drie keer zo snel."
         },
         {
           "type": "meerkeuze",
@@ -2737,17 +2737,17 @@
             "om de periode van een sinusfunctie te vinden"
           ],
           "antwoord": 0,
-          "uitleg": "Ken je de sinus, dan haal je er de cosinus uit, op het teken na. Dat teken bepaal je met het kwadrant."
+          "uitleg": "Ken je \\(\\sin x\\), dan haal je \\(\\cos x = \\pm\\sqrt{1 - \\sin^{2}x}\\) eruit. Dat teken bepaal je met het kwadrant."
         },
         {
           "type": "waarofniet",
-          "vraag": "De sinus van min x is gelijk aan min de sinus van x.",
+          "vraag": "\\(\\sin(-x) = -\\sin x\\).",
           "antwoord": true,
           "uitleg": "De sinus is een oneven functie: haar grafiek is symmetrisch om de oorsprong. De cosinus is even."
         },
         {
           "type": "meerkeuze",
-          "vraag": "Twee hoeken zijn supplementair, hun som is dus honderdtachtig graden. Wat geldt dan?",
+          "vraag": "Twee hoeken zijn supplementair, hun som is dus \\(180^\\circ\\). Wat geldt dan?",
           "opties": [
             "dezelfde sinus, tegengestelde cosinus",
             "dezelfde cosinus, tegengestelde sinus",
@@ -2755,34 +2755,34 @@
             "de sinus van de ene is de cosinus van de andere"
           ],
           "antwoord": 0,
-          "uitleg": "Het beeldpunt spiegelt om de verticale as: de hoogte blijft, de x-coördinaat keert. Het laatste antwoord hoort bij complementaire hoeken."
+          "uitleg": "Het beeldpunt spiegelt om de verticale as: \\(\\sin(180^\\circ - \\alpha) = \\sin\\alpha\\) en \\(\\cos(180^\\circ - \\alpha) = -\\cos\\alpha\\). Het laatste antwoord hoort bij complementaire hoeken."
         },
         {
           "type": "invultekst",
-          "vraag": "Hoeveel nulwaarden heeft de sinus van x tussen nul en twee pi, de grenzen inbegrepen? Schrijf het cijfer.",
+          "vraag": "Hoeveel nulwaarden heeft \\(y = \\sin x\\) op \\([0,\\ 2\\pi]\\), de grenzen inbegrepen? Schrijf het cijfer.",
           "antwoord": [
             "3",
             "drie"
           ],
-          "uitleg": "In nul, in pi en in twee pi. De grafiek kruist de as dus drie keer op dat interval."
+          "uitleg": "In \\(0\\), in \\(\\pi\\) en in \\(2\\pi\\). De grafiek kruist de as dus drie keer op dat interval."
         },
         {
           "type": "meerkeuze",
           "vraag": "Hoe luidt de verdubbelingsformule voor de sinus?",
           "opties": [
-            "de sinus van twee x is twee maal de sinus van x maal de cosinus van x",
-            "de sinus van twee x is gewoon twee keer de sinus van de hoek x",
-            "de sinus van twee x is de sinus van de hoek x in het kwadraat, maal twee",
-            "de sinus van twee x is de sinus van x plus de cosinus van x"
+            "\\(\\sin 2x = 2\\sin x\\cos x\\)",
+            "\\(\\sin 2x = 2\\sin x\\)",
+            "\\(\\sin 2x = 2\\sin^{2}x\\)",
+            "\\(\\sin 2x = \\sin x + \\cos x\\)"
           ],
           "antwoord": 0,
           "uitleg": "Ze volgt uit de somformule met twee gelijke hoeken. Gewoon maal twee werkt niet."
         },
         {
           "type": "waarofniet",
-          "vraag": "De cosinus van twee x is gelijk aan twee maal de cosinus van x.",
+          "vraag": "\\(\\cos 2x = 2\\cos x\\).",
           "antwoord": false,
-          "uitleg": "De juiste formule is de cosinus in het kwadraat min de sinus in het kwadraat. Een goniometrisch getal is geen factor die je zomaar buiten haalt."
+          "uitleg": "De juiste formule is \\(\\cos 2x = \\cos^{2}x - \\sin^{2}x\\). Een goniometrisch getal is geen factor die je zomaar buiten haalt."
         },
         {
           "type": "meerkeuze",
@@ -2806,7 +2806,7 @@
             "de verschuiving ten opzichte van de gewone sinus"
           ],
           "antwoord": 0,
-          "uitleg": "De frequentie is één gedeeld door de periode. De hoogte van de top is de amplitude."
+          "uitleg": "De frequentie is \\(f = \\dfrac{1}{T}\\). De hoogte van de top is de amplitude."
         },
         {
           "type": "waarofniet",
@@ -2816,24 +2816,24 @@
         },
         {
           "type": "invultekst",
-          "vraag": "Wat is de grootste waarde van vijf maal de sinus van x? Schrijf het getal.",
+          "vraag": "Wat is de grootste waarde van \\(y = 5\\sin x\\)? Schrijf het getal.",
           "antwoord": [
             "5",
             "vijf"
           ],
-          "uitleg": "De sinus wordt hoogstens één, dus de functie hoogstens vijf."
+          "uitleg": "\\(\\sin x\\) wordt hoogstens \\(1\\), dus de functie hoogstens \\(5\\)."
         },
         {
           "type": "meerkeuze",
-          "vraag": "Twee hoeken zijn complementair, hun som is dus negentig graden. Wat geldt dan?",
+          "vraag": "Twee hoeken zijn complementair, hun som is dus \\(90^\\circ\\). Wat geldt dan?",
           "opties": [
             "de sinus van de ene is de cosinus van de andere",
             "ze hebben allebei precies dezelfde sinus",
             "ze hebben allebei een tegengestelde cosinus",
-            "hun sinussen zijn samen gelijk aan het getal één"
+            "hun sinussen zijn samen gelijk aan één"
           ],
           "antwoord": 0,
-          "uitleg": "In een rechthoekige driehoek zijn de twee scherpe hoeken complementair, en daar zie je het meteen: de overstaande zijde van de ene is de aanliggende van de andere."
+          "uitleg": "\\(\\sin(90^\\circ - \\alpha) = \\cos\\alpha\\). In een rechthoekige driehoek zijn de twee scherpe hoeken complementair, en daar zie je het meteen: de overstaande zijde van de ene is de aanliggende van de andere."
         },
         {
           "type": "meerkeuze",
@@ -2856,46 +2856,46 @@
       "vragen": [
         {
           "type": "meerkeuze",
-          "vraag": "Wat betekent: de limiet van f voor x naar a is b?",
+          "vraag": "Wat betekent \\(\\lim\\limits_{x \\to a} f(x) = b\\)?",
           "opties": [
-            "de functiewaarden naderen b als x dicht genoeg bij a komt",
-            "de functiewaarde in a is precies gelijk aan het getal b",
-            "de functie bereikt de waarde b ergens tussen a en b",
-            "de grafiek snijdt de rechte y is b in het punt a"
+            "de functiewaarden naderen \\(b\\) als \\(x\\) dicht genoeg bij \\(a\\) komt",
+            "de functiewaarde in \\(a\\) is precies gelijk aan \\(b\\)",
+            "de functie bereikt de waarde \\(b\\) ergens tussen \\(a\\) en \\(b\\)",
+            "de grafiek snijdt de rechte \\(y = b\\) in het punt \\(a\\)"
           ],
           "antwoord": 0,
-          "uitleg": "Een limiet zegt iets over de buurt van a, niet over a zelf. De functie hoeft daar zelfs niet gedefinieerd te zijn."
+          "uitleg": "Een limiet zegt iets over de buurt van \\(a\\), niet over \\(a\\) zelf. De functie hoeft daar zelfs niet gedefinieerd te zijn."
         },
         {
           "type": "meerkeuze",
-          "vraag": "In de epsilon-deltadefinitie van een limiet: welk getal is eerst gegeven?",
+          "vraag": "In de \\(\\varepsilon\\)-\\(\\delta\\)-definitie van een limiet: welk getal is eerst gegeven?",
           "opties": [
-            "epsilon, de gewenste nauwkeurigheid op de y-as",
-            "delta, de toegelaten afstand op de x-as rond a",
-            "de waarde a waar de limiet wordt genomen",
-            "de limietwaarde b die je wil bereiken"
+            "\\(\\varepsilon\\), de gewenste nauwkeurigheid op de \\(y\\)-as",
+            "\\(\\delta\\), de toegelaten afstand op de \\(x\\)-as rond \\(a\\)",
+            "de waarde \\(a\\) waar de limiet wordt genomen",
+            "de limietwaarde \\(b\\) die je wil bereiken"
           ],
           "antwoord": 0,
-          "uitleg": "Iemand daagt je uit met een epsilon, en jij moet er een delta bij vinden. Die volgorde omdraaien maakt de definitie betekenisloos."
+          "uitleg": "Iemand daagt je uit met een \\(\\varepsilon\\), en jij moet er een \\(\\delta\\) bij vinden. Die volgorde omdraaien maakt de definitie betekenisloos."
         },
         {
           "type": "invultekst",
-          "vraag": "Hoeveel is de limiet voor x naar twee van x kwadraat min vier, gedeeld door x min twee? Schrijf het getal.",
+          "vraag": "Hoeveel is \\(\\lim\\limits_{x \\to 2} \\dfrac{x^{2} - 4}{x - 2}\\)? Schrijf het getal.",
           "antwoord": [
             "4",
             "vier"
           ],
-          "uitleg": "Teller en noemer worden allebei nul. Ontbind de teller en schrap x min twee: er blijft x plus twee over, en dat is vier in twee."
+          "uitleg": "Teller en noemer worden allebei \\(0\\). Ontbind de teller tot \\((x-2)(x+2)\\) en schrap \\(x - 2\\): er blijft \\(x + 2\\) over, en dat is \\(4\\) in \\(x = 2\\)."
         },
         {
           "type": "waarofniet",
-          "vraag": "Een functie moet in a gedefinieerd zijn om daar een limiet te hebben.",
+          "vraag": "Een functie moet in \\(a\\) gedefinieerd zijn om daar een limiet te hebben.",
           "antwoord": false,
-          "uitleg": "Net niet: in het voorbeeld hierboven bestaat de functie niet in twee, maar de limiet bestaat wel. Daar ligt een perforatie."
+          "uitleg": "Net niet: in het voorbeeld hierboven bestaat de functie niet in \\(x = 2\\), maar de limiet bestaat wel. Daar ligt een perforatie."
         },
         {
           "type": "meerkeuze",
-          "vraag": "Bij een rationale functie geven teller en noemer allebei nul. Wat doe je?",
+          "vraag": "Bij een rationale functie geven teller en noemer allebei \\(0\\). Wat doe je?",
           "opties": [
             "ontbinden en de gemeenschappelijke factor schrappen",
             "meteen besluiten dat de limiet nul moet zijn",
@@ -2903,13 +2903,13 @@
             "de teller en de noemer bij elkaar optellen"
           ],
           "antwoord": 0,
-          "uitleg": "Nul gedeeld door nul is een onbepaaldheid: je weet nog niets. Na het schrappen blijkt er een perforatie of een pool te liggen."
+          "uitleg": "\\(\\dfrac{0}{0}\\) is een onbepaaldheid: je weet nog niets. Na het schrappen blijkt er een perforatie of een pool te liggen."
         },
         {
           "type": "meerkeuze",
-          "vraag": "Bij een rationale functie is de teller niet nul en de noemer wel. Wat besluit je?",
+          "vraag": "Bij een rationale functie is de teller niet \\(0\\) en de noemer wel. Wat besluit je?",
           "opties": [
-            "er ligt een pool, dus de limiet is plus of min oneindig",
+            "er ligt een pool, dus de limiet is \\(\\pm\\infty\\)",
             "er ligt een perforatie, dus de limiet is een gewoon getal",
             "de limiet is nul, want de noemer wordt heel klein",
             "de limiet bestaat niet en je kan er niets over zeggen"
@@ -2925,16 +2925,16 @@
         },
         {
           "type": "invultekst",
-          "vraag": "Hoeveel is de limiet voor x naar plus oneindig van drie x kwadraat plus één, gedeeld door x kwadraat min vijf? Schrijf het getal.",
+          "vraag": "Hoeveel is \\(\\lim\\limits_{x \\to +\\infty} \\dfrac{3x^{2} + 1}{x^{2} - 5}\\)? Schrijf het getal.",
           "antwoord": [
             "3",
             "drie"
           ],
-          "uitleg": "Bij gelijke graad delen de hoogstegraadstermen elkaar: drie x kwadraat op x kwadraat is drie."
+          "uitleg": "Bij gelijke graad delen de hoogstegraadstermen elkaar: \\(\\dfrac{3x^{2}}{x^{2}} = 3\\)."
         },
         {
           "type": "meerkeuze",
-          "vraag": "Je hebt oneindig min oneindig met twee wortels. Welke truc gebruik je?",
+          "vraag": "Je hebt \\(\\infty - \\infty\\) met twee wortels. Welke truc gebruik je?",
           "opties": [
             "vermenigvuldigen met de toegevoegde tweeterm",
             "de regel van de l'Hôpital meteen toepassen",
@@ -2942,29 +2942,29 @@
             "de hoogstegraadsterm uit de noemer afzonderen"
           ],
           "antwoord": 0,
-          "uitleg": "Het verschil maal de som geeft het verschil van de kwadraten, en daarmee verdwijnen de wortels uit de teller."
+          "uitleg": "\\((a-b)(a+b) = a^{2} - b^{2}\\), en daarmee verdwijnen de wortels uit de teller."
         },
         {
           "type": "waarofniet",
-          "vraag": "De regel van de l'Hôpital mag je toepassen op twee gedeeld door nul.",
+          "vraag": "De regel van de l'Hôpital mag je toepassen op \\(\\dfrac{2}{0}\\).",
           "antwoord": false,
-          "uitleg": "Twee gedeeld door nul is geen onbepaaldheid maar een pool: het antwoord is oneindig. L'Hôpital geldt alleen bij echte onbepaaldheden."
+          "uitleg": "\\(\\dfrac{2}{0}\\) is geen onbepaaldheid maar een pool: het antwoord is oneindig. L'Hôpital geldt alleen bij echte onbepaaldheden."
         },
         {
           "type": "meerkeuze",
           "vraag": "Op welke vormen mag je de regel van de l'Hôpital rechtstreeks toepassen?",
           "opties": [
-            "nul op nul en oneindig op oneindig",
-            "nul op nul en nul maal een getal",
-            "oneindig plus oneindig en nul op één",
+            "\\(\\dfrac{0}{0}\\) en \\(\\dfrac{\\infty}{\\infty}\\)",
+            "\\(\\dfrac{0}{0}\\) en \\(0 \\cdot a\\)",
+            "\\(\\infty + \\infty\\) en \\(\\dfrac{0}{1}\\)",
             "elke breuk met een nul in de noemer"
           ],
           "antwoord": 0,
-          "uitleg": "De andere onbepaaldheden, zoals nul maal oneindig of oneindig min oneindig, moet je eerst omvormen tot een van die twee breuken."
+          "uitleg": "De andere onbepaaldheden, zoals \\(0 \\cdot \\infty\\) of \\(\\infty - \\infty\\), moet je eerst omvormen tot een van die twee breuken."
         },
         {
           "type": "invultekst",
-          "vraag": "Hoeveel is de limiet voor x naar plus oneindig van twee x plus één, gedeeld door x kwadraat? Schrijf het getal.",
+          "vraag": "Hoeveel is \\(\\lim\\limits_{x \\to +\\infty} \\dfrac{2x + 1}{x^{2}}\\)? Schrijf het getal.",
           "antwoord": [
             "0",
             "nul"
@@ -2985,9 +2985,9 @@
         },
         {
           "type": "waarofniet",
-          "vraag": "De limiet voor x naar nul van één gedeeld door x bestaat.",
+          "vraag": "\\(\\lim\\limits_{x \\to 0} \\dfrac{1}{x}\\) bestaat.",
           "antwoord": false,
-          "uitleg": "Van links kruipt ze naar min oneindig en van rechts naar plus oneindig. Die twee zijn verschillend, dus de limiet bestaat niet."
+          "uitleg": "Van links kruipt ze naar \\(-\\infty\\) en van rechts naar \\(+\\infty\\). Die twee zijn verschillend, dus de limiet bestaat niet."
         },
         {
           "type": "meerkeuze",
@@ -3011,17 +3011,17 @@
             "het aantal nulwaarden dat ze heeft"
           ],
           "antwoord": 0,
-          "uitleg": "Voor heel grote x verdwijnen de lagere termen in het niet bij de hoogste."
+          "uitleg": "Voor heel grote \\(x\\) verdwijnen de lagere termen in het niet bij de hoogste."
         },
         {
           "type": "waarofniet",
-          "vraag": "De limiet voor x naar nul van één gedeeld door x kwadraat is plus oneindig.",
+          "vraag": "\\(\\lim\\limits_{x \\to 0} \\dfrac{1}{x^{2}} = +\\infty\\).",
           "antwoord": true,
-          "uitleg": "Een kwadraat is langs beide kanten positief, dus de breuk gaat aan beide zijden naar plus oneindig. Hier bestaat de limiet dus wel."
+          "uitleg": "Een kwadraat is langs beide kanten positief, dus de breuk gaat aan beide zijden naar \\(+\\infty\\). Hier bestaat de limiet dus wel."
         },
         {
           "type": "invultekst",
-          "vraag": "Hoeveel is de limiet voor x naar drie van x plus vijf? Schrijf het getal.",
+          "vraag": "Hoeveel is \\(\\lim\\limits_{x \\to 3} (x + 5)\\)? Schrijf het getal.",
           "antwoord": [
             "8",
             "acht"
@@ -3038,7 +3038,7 @@
             "de teller en de noemer bij elkaar optellen"
           ],
           "antwoord": 0,
-          "uitleg": "Zo haal je de grootste macht uit de wortel en zie je meteen welke term de limiet bepaalt."
+          "uitleg": "Zo haal je de grootste macht uit de wortel, bijvoorbeeld \\(\\sqrt{x^{2}+x} = |x|\\sqrt{1 + \\tfrac{1}{x}}\\), en zie je welke term de limiet bepaalt."
         },
         {
           "type": "meerkeuze",
@@ -3050,7 +3050,7 @@
             "een limiet die oneindig groot blijkt te worden"
           ],
           "antwoord": 0,
-          "uitleg": "Nul op nul kan alles opleveren: een getal, oneindig of niets. Je moet eerst herschrijven."
+          "uitleg": "\\(\\dfrac{0}{0}\\) kan alles opleveren: een getal, oneindig of niets. Je moet eerst herschrijven."
         }
       ]
     },
@@ -3061,12 +3061,12 @@
       "vragen": [
         {
           "type": "meerkeuze",
-          "vraag": "Wanneer is een functie continu in een punt a?",
+          "vraag": "Wanneer is een functie continu in een punt \\(a\\)?",
           "opties": [
-            "als de functiewaarde in a bestaat en gelijk is aan de limiet daar",
-            "als de functie in a stijgt of in a daalt",
-            "als de limiet in a bestaat, wat de functiewaarde daar ook is",
-            "als de functie in a een afgeleide heeft die nul is"
+            "als \\(f(a)\\) bestaat en gelijk is aan \\(\\lim\\limits_{x \\to a} f(x)\\)",
+            "als de functie in \\(a\\) stijgt of in \\(a\\) daalt",
+            "als de limiet in \\(a\\) bestaat, wat \\(f(a)\\) ook is",
+            "als de functie in \\(a\\) een afgeleide heeft die \\(0\\) is"
           ],
           "antwoord": 0,
           "uitleg": "Drie dingen moeten kloppen: de limiet bestaat, de functiewaarde bestaat, en ze zijn gelijk."
@@ -3081,47 +3081,47 @@
             "ze heeft nergens een scherpe knik of een hoekpunt"
           ],
           "antwoord": 0,
-          "uitleg": "Een knik mag wel: de absolute waarde is continu in nul, maar daar niet afleidbaar."
+          "uitleg": "Een knik mag wel: \\(f(x) = |x|\\) is continu in \\(0\\), maar daar niet afleidbaar."
         },
         {
           "type": "invultekst",
-          "vraag": "Hoeveel verticale asymptoten heeft één gedeeld door x min drie? Schrijf het cijfer.",
+          "vraag": "Hoeveel verticale asymptoten heeft \\(f(x) = \\dfrac{1}{x - 3}\\)? Schrijf het cijfer.",
           "antwoord": [
             "1",
             "een",
             "één"
           ],
-          "uitleg": "Alleen in x gelijk aan drie wordt de noemer nul."
+          "uitleg": "Alleen in \\(x = 3\\) wordt de noemer nul."
         },
         {
           "type": "waarofniet",
           "vraag": "Een verticale asymptoot hoort bij een pool van de functie.",
           "antwoord": true,
-          "uitleg": "In een pool gaat de functiewaarde naar plus of min oneindig, en dat is precies wat een verticale asymptoot beschrijft."
+          "uitleg": "In een pool gaat de functiewaarde naar \\(\\pm\\infty\\), en dat is precies wat een verticale asymptoot beschrijft."
         },
         {
           "type": "meerkeuze",
           "vraag": "Hoe vind je de horizontale asymptoot van een functie?",
           "opties": [
-            "door de limiet op plus en min oneindig te berekenen",
-            "door de noemer gelijk te stellen aan het getal nul",
+            "door \\(\\lim\\limits_{x \\to \\pm\\infty} f(x)\\) te berekenen",
+            "door de noemer gelijk te stellen aan \\(0\\)",
             "door de nulwaarden van de functie te berekenen",
-            "door de afgeleide gelijk te stellen aan het getal nul"
+            "door \\(f'(x) = 0\\) op te lossen"
           ],
           "antwoord": 0,
           "uitleg": "De noemer nulstellen geeft net de verticale asymptoten, niet de horizontale."
         },
         {
           "type": "meerkeuze",
-          "vraag": "Welke horizontale asymptoot heeft drie x plus één, gedeeld door x min twee?",
+          "vraag": "Welke horizontale asymptoot heeft \\(f(x) = \\dfrac{3x + 1}{x - 2}\\)?",
           "opties": [
-            "de rechte y is drie",
-            "de rechte y is nul",
-            "de rechte y is twee",
-            "de rechte x is twee"
+            "\\(y = 3\\)",
+            "\\(y = 0\\)",
+            "\\(y = 2\\)",
+            "\\(x = 2\\)"
           ],
           "antwoord": 0,
-          "uitleg": "Teller en noemer hebben dezelfde graad, dus je deelt de hoogste coëfficiënten: drie op één."
+          "uitleg": "Teller en noemer hebben dezelfde graad, dus je deelt de hoogste coëfficiënten: \\(\\dfrac{3}{1}\\)."
         },
         {
           "type": "waarofniet",
@@ -3131,12 +3131,12 @@
         },
         {
           "type": "invultekst",
-          "vraag": "De verticale asymptoot van één gedeeld door x min drie heeft als vergelijking x is een getal. Welk getal?",
+          "vraag": "De verticale asymptoot van \\(f(x) = \\dfrac{1}{x - 3}\\) heeft als vergelijking \\(x = \\) welk getal?",
           "antwoord": [
             "3",
             "drie"
           ],
-          "uitleg": "Voor x gelijk aan drie wordt de noemer nul en schiet de functie naar oneindig."
+          "uitleg": "Voor \\(x = 3\\) wordt de noemer nul en schiet de functie naar oneindig."
         },
         {
           "type": "meerkeuze",
@@ -3148,7 +3148,7 @@
             "als de teller en de noemer allebei de graad twee hebben, precies"
           ],
           "antwoord": 0,
-          "uitleg": "Bij gelijke graad krijg je een horizontale asymptoot, bij een lagere teller is dat de x-as zelf."
+          "uitleg": "Bij gelijke graad krijg je een horizontale asymptoot, bij een lagere teller is dat de \\(x\\)-as zelf."
         },
         {
           "type": "waarofniet",
@@ -3160,21 +3160,21 @@
           "type": "meerkeuze",
           "vraag": "In de formules van Cauchy voor een schuine asymptoot: hoe bereken je de richtingscoëfficiënt?",
           "opties": [
-            "als de limiet op oneindig van f van x gedeeld door x",
-            "als de limiet op oneindig van f van x min het getal x",
-            "als de limiet op oneindig van f van x zelf",
-            "als de functiewaarde van f in het getal één"
+            "\\(m = \\lim\\limits_{x \\to \\infty} \\dfrac{f(x)}{x}\\)",
+            "\\(m = \\lim\\limits_{x \\to \\infty} \\left(f(x) - x\\right)\\)",
+            "\\(m = \\lim\\limits_{x \\to \\infty} f(x)\\)",
+            "\\(m = f(1)\\)"
           ],
           "antwoord": 0,
-          "uitleg": "Daarna vind je het snijpunt met de y-as als de limiet van f van x min die richtingscoëfficiënt maal x."
+          "uitleg": "Daarna vind je het snijpunt met de \\(y\\)-as als \\(q = \\lim\\limits_{x \\to \\infty} \\left(f(x) - m\\,x\\right)\\)."
         },
         {
           "type": "invultekst",
-          "vraag": "De schuine asymptoot van x kwadraat plus één, gedeeld door x, is y is gelijk aan wat? Schrijf het antwoord.",
+          "vraag": "De schuine asymptoot van \\(f(x) = \\dfrac{x^{2} + 1}{x}\\) is \\(y = \\) wat? Schrijf het antwoord.",
           "antwoord": [
             "x"
           ],
-          "uitleg": "Deel uit: je krijgt x plus één op x. De tweede term kruipt naar nul, dus de asymptoot is de rechte y is x."
+          "uitleg": "Deel uit: \\(f(x) = x + \\dfrac{1}{x}\\). De tweede term kruipt naar nul, dus de asymptoot is \\(y = x\\)."
         },
         {
           "type": "meerkeuze",
@@ -3192,19 +3192,19 @@
           "type": "waarofniet",
           "vraag": "Een functie die in een punt afleidbaar is, is daar zeker ook continu.",
           "antwoord": true,
-          "uitleg": "Omgekeerd geldt het niet: de absolute waarde is continu in nul, maar heeft er een knik en dus geen afgeleide."
+          "uitleg": "Omgekeerd geldt het niet: \\(f(x) = |x|\\) is continu in \\(0\\), maar heeft er een knik en dus geen afgeleide."
         },
         {
           "type": "meerkeuze",
-          "vraag": "Welke functie is niet continu in nul?",
+          "vraag": "Welke functie is niet continu in \\(x = 0\\)?",
           "opties": [
-            "één gedeeld door x",
-            "x kwadraat min drie",
-            "de sinus van x",
-            "e tot de macht x"
+            "\\(f(x) = \\dfrac{1}{x}\\)",
+            "\\(f(x) = x^{2} - 3\\)",
+            "\\(f(x) = \\sin x\\)",
+            "\\(f(x) = e^{x}\\)"
           ],
           "antwoord": 0,
-          "uitleg": "Die functie bestaat niet in nul en heeft er een verticale asymptoot. De drie andere zijn overal continu."
+          "uitleg": "Die functie bestaat niet in \\(0\\) en heeft er een verticale asymptoot. De drie andere zijn overal continu."
         },
         {
           "type": "meerkeuze",
@@ -3256,7 +3256,7 @@
             "omdat de grafiek dan symmetrisch om de oorsprong komt te liggen"
           ],
           "antwoord": 0,
-          "uitleg": "Bij een continue functie valt de limiet samen met de functiewaarde, en dat maakt het rekenwerk eenvoudig."
+          "uitleg": "Bij een continue functie is \\(\\lim\\limits_{x \\to a} f(x) = f(a)\\), en dat maakt het rekenwerk eenvoudig."
         }
       ]
     },
@@ -3267,89 +3267,89 @@
       "vragen": [
         {
           "type": "meerkeuze",
-          "vraag": "Wat berekent een differentiequotiënt?",
+          "vraag": "Wat berekent een differentiequotiënt \\(\\dfrac{f(b) - f(a)}{b - a}\\)?",
           "opties": [
             "de gemiddelde verandering over een interval",
             "de verandering op één welbepaald ogenblik",
             "het verschil tussen twee functiewaarden",
-            "de oppervlakte onder de grafiek van f"
+            "de oppervlakte onder de grafiek van \\(f\\)"
           ],
           "antwoord": 0,
-          "uitleg": "Je deelt het verschil in functiewaarden door het verschil in x. Enkel het verschil van de functiewaarden is de teller alleen."
+          "uitleg": "Je deelt het verschil in functiewaarden door het verschil in \\(x\\). Enkel het verschil van de functiewaarden is de teller alleen."
         },
         {
           "type": "meerkeuze",
-          "vraag": "Wat stelt de afgeleide van een functie in een punt meetkundig voor?",
+          "vraag": "Wat stelt \\(f'(a)\\) meetkundig voor?",
           "opties": [
             "de richtingscoëfficiënt van de raaklijn in dat punt",
             "de hoogte van de grafiek in dat welbepaalde punt",
             "de afstand van dat punt tot de horizontale as",
-            "de oppervlakte tussen de grafiek en de x-as"
+            "de oppervlakte tussen de grafiek en de \\(x\\)-as"
           ],
           "antwoord": 0,
           "uitleg": "De raaklijn is de rechte die de kromme in dat punt het best benadert, en haar helling is de afgeleide."
         },
         {
           "type": "invultekst",
-          "vraag": "Neem x kwadraat. Hoeveel is de afgeleide in x gelijk aan drie? Schrijf het getal.",
+          "vraag": "Neem \\(f(x) = x^{2}\\). Hoeveel is \\(f'(3)\\)? Schrijf het getal.",
           "antwoord": [
             "6",
             "zes"
           ],
-          "uitleg": "De afgeleide functie is twee x, en twee maal drie is zes."
+          "uitleg": "\\(f'(x) = 2x\\), en \\(2 \\cdot 3 = 6\\)."
         },
         {
           "type": "waarofniet",
           "vraag": "De afgeleide in een punt is de limiet van het differentiequotiënt.",
           "antwoord": true,
-          "uitleg": "Je laat het tweede punt naar het eerste kruipen. De koorde wordt dan de raaklijn."
+          "uitleg": "\\(f'(a) = \\lim\\limits_{h \\to 0} \\dfrac{f(a+h) - f(a)}{h}\\): je laat het tweede punt naar het eerste kruipen. De koorde wordt dan de raaklijn."
         },
         {
           "type": "meerkeuze",
-          "vraag": "Wat is de afgeleide van x tot de macht n?",
+          "vraag": "Wat is \\(\\left(x^{n}\\right)'\\)?",
           "opties": [
-            "n maal x tot de macht n min één",
-            "n maal x tot de macht n plus één",
-            "x tot de macht n min één",
-            "n min één, maal x tot de macht n"
+            "\\(n\\,x^{n-1}\\)",
+            "\\(n\\,x^{n+1}\\)",
+            "\\(x^{n-1}\\)",
+            "\\((n-1)\\,x^{n}\\)"
           ],
           "antwoord": 0,
           "uitleg": "De exponent komt vooraan en gaat zelf met één omlaag."
         },
         {
           "type": "meerkeuze",
-          "vraag": "Wat is de afgeleide van de sinus van x?",
+          "vraag": "Wat is \\(\\left(\\sin x\\right)'\\)?",
           "opties": [
-            "de cosinus van x",
-            "min de cosinus van x",
-            "min de sinus van x",
-            "de tangens van x"
+            "\\(\\cos x\\)",
+            "\\(-\\cos x\\)",
+            "\\(-\\sin x\\)",
+            "\\(\\tan x\\)"
           ],
           "antwoord": 0,
-          "uitleg": "En de afgeleide van de cosinus is min de sinus. Dat minteken is het detail dat het vaakst wegvalt."
+          "uitleg": "En \\(\\left(\\cos x\\right)' = -\\sin x\\). Dat minteken is het detail dat het vaakst wegvalt."
         },
         {
           "type": "waarofniet",
-          "vraag": "De afgeleide van e tot de macht x is x maal e tot de macht x min één.",
+          "vraag": "\\(\\left(e^{x}\\right)' = x\\,e^{x-1}\\).",
           "antwoord": false,
-          "uitleg": "De machtsregel geldt alleen als x in de basis staat, niet in de exponent. De afgeleide van e tot de macht x is e tot de macht x zelf."
+          "uitleg": "De machtsregel geldt alleen als \\(x\\) in de basis staat, niet in de exponent. \\(\\left(e^{x}\\right)' = e^{x}\\)."
         },
         {
           "type": "invultekst",
-          "vraag": "De afgeleide van de natuurlijke logaritme van x is één gedeeld door wat? Schrijf het antwoord.",
+          "vraag": "\\(\\left(\\ln x\\right)' = \\dfrac{1}{\\ \\ }\\). Wat komt er in de noemer? Schrijf het antwoord.",
           "antwoord": [
             "x"
           ],
-          "uitleg": "Daarom is de logaritmische functie overal stijgend op haar domein: één op x is daar altijd positief."
+          "uitleg": "Daarom is de logaritmische functie overal stijgend op haar domein: \\(\\dfrac{1}{x}\\) is daar altijd positief."
         },
         {
           "type": "meerkeuze",
           "vraag": "Hoe luidt de productregel voor afgeleiden?",
           "opties": [
-            "de afgeleide van de eerste maal de tweede, plus de eerste maal de afgeleide van de tweede",
-            "de afgeleide van de eerste maal de afgeleide van de tweede, zonder meer",
-            "de afgeleide van de eerste maal de tweede, min de eerste maal de afgeleide van de tweede",
-            "de som van de twee afgeleiden, gedeeld door het product van de twee functies"
+            "\\(\\left(u\\,v\\right)' = u'v + u\\,v'\\)",
+            "\\(\\left(u\\,v\\right)' = u'v'\\)",
+            "\\(\\left(u\\,v\\right)' = u'v - u\\,v'\\)",
+            "\\(\\left(u\\,v\\right)' = \\dfrac{u' + v'}{u\\,v}\\)"
           ],
           "antwoord": 0,
           "uitleg": "Het minteken hoort bij de quotiëntregel, niet bij de productregel."
@@ -3358,23 +3358,23 @@
           "type": "waarofniet",
           "vraag": "De afgeleide van een product is het product van de afgeleiden.",
           "antwoord": false,
-          "uitleg": "Probeer het met x maal x: de afgeleide is twee x, niet één maal één. Daarvoor bestaat net de productregel."
+          "uitleg": "Probeer het met \\(x \\cdot x\\): de afgeleide is \\(2x\\), niet \\(1 \\cdot 1\\). Daarvoor bestaat net de productregel."
         },
         {
           "type": "meerkeuze",
-          "vraag": "Wat staat er in de noemer van de quotiëntregel?",
+          "vraag": "Wat staat er in de noemer van \\(\\left(\\dfrac{u}{v}\\right)'\\)?",
           "opties": [
-            "de noemer van de breuk, in het kwadraat",
-            "de teller van de breuk, in het kwadraat",
-            "de noemer van de breuk, zonder meer",
-            "het product van teller en noemer samen"
+            "\\(v^{2}\\)",
+            "\\(u^{2}\\)",
+            "\\(v\\)",
+            "\\(u\\,v\\)"
           ],
           "antwoord": 0,
-          "uitleg": "De teller is de afgeleide van de teller maal de noemer, min de teller maal de afgeleide van de noemer."
+          "uitleg": "Voluit: \\(\\left(\\dfrac{u}{v}\\right)' = \\dfrac{u'v - u\\,v'}{v^{2}}\\)."
         },
         {
           "type": "invultekst",
-          "vraag": "Hoeveel is de afgeleide van vijf x plus twee? Schrijf het getal.",
+          "vraag": "Hoeveel is \\(\\left(5x + 2\\right)'\\)? Schrijf het getal.",
           "antwoord": [
             "5",
             "vijf"
@@ -3383,12 +3383,12 @@
         },
         {
           "type": "meerkeuze",
-          "vraag": "Wat zegt de kettingregel?",
+          "vraag": "Wat zegt de kettingregel voor \\(\\left(f(g(x))\\right)'\\)?",
           "opties": [
-            "de afgeleide van de buitenste functie, maal de afgeleide van de binnenste",
-            "de afgeleide van de buitenste functie, plus die van de binnenste functie",
-            "de afgeleide van de binnenste functie, gedeeld door de buitenste functie",
-            "de afgeleide van de buitenste functie, met de binnenste onveranderd erin"
+            "\\(f'(g(x)) \\cdot g'(x)\\)",
+            "\\(f'(g(x)) + g'(x)\\)",
+            "\\(\\dfrac{g'(x)}{f(g(x))}\\)",
+            "\\(f'(g(x))\\)"
           ],
           "antwoord": 0,
           "uitleg": "Je leidt af van buiten naar binnen en vermenigvuldigt onderweg. De binnenste afgeleide vergeten is de klassieke fout."
@@ -3401,22 +3401,22 @@
         },
         {
           "type": "meerkeuze",
-          "vraag": "Je stelt de raaklijn op aan de grafiek van x kwadraat in het punt met x gelijk aan drie. Welke vergelijking krijg je?",
+          "vraag": "Je stelt de raaklijn op aan \\(f(x) = x^{2}\\) in \\(x = 3\\). Welke vergelijking krijg je?",
           "opties": [
-            "y is zes x min negen",
-            "y is zes x plus negen",
-            "y is drie x min negen",
-            "y is negen x min zes"
+            "\\(y = 6x - 9\\)",
+            "\\(y = 6x + 9\\)",
+            "\\(y = 3x - 9\\)",
+            "\\(y = 9x - 6\\)"
           ],
           "antwoord": 0,
-          "uitleg": "De helling is zes en het raakpunt is drie en negen. Invullen geeft negen is achttien plus q, dus q is min negen."
+          "uitleg": "De helling is \\(f'(3) = 6\\) en het raakpunt is \\((3,\\ 9)\\). Invullen geeft \\(9 = 18 + q\\), dus \\(q = -9\\)."
         },
         {
           "type": "meerkeuze",
           "vraag": "Wat staat er op de verticale as van een hellinggrafiek?",
           "opties": [
-            "de afgeleide van de oorspronkelijke functie",
-            "de functiewaarden van de oorspronkelijke functie",
+            "\\(f'(x)\\), de afgeleide functie",
+            "\\(f(x)\\), de functiewaarden zelf",
             "de oppervlakte onder de oorspronkelijke grafiek",
             "het verschil tussen twee opeenvolgende waarden"
           ],
@@ -3425,22 +3425,22 @@
         },
         {
           "type": "waarofniet",
-          "vraag": "Waar de functie een vloeiend maximum heeft, snijdt haar afgeleide de x-as.",
+          "vraag": "Waar \\(f\\) een vloeiend maximum heeft, snijdt \\(f'\\) de \\(x\\)-as.",
           "antwoord": true,
           "uitleg": "In de top loopt de raaklijn horizontaal, dus is de afgeleide daar nul en wisselt ze van teken."
         },
         {
           "type": "invultekst",
-          "vraag": "Neem x tot de derde. Hoeveel is de afgeleide in x gelijk aan twee? Schrijf het getal.",
+          "vraag": "Neem \\(f(x) = x^{3}\\). Hoeveel is \\(f'(2)\\)? Schrijf het getal.",
           "antwoord": [
             "12",
             "twaalf"
           ],
-          "uitleg": "De afgeleide functie is drie x kwadraat, en drie maal vier is twaalf."
+          "uitleg": "\\(f'(x) = 3x^{2}\\), en \\(3 \\cdot 4 = 12\\)."
         },
         {
           "type": "meerkeuze",
-          "vraag": "Een functie geeft de afgelegde weg in functie van de tijd. Wat is dan haar afgeleide?",
+          "vraag": "Een functie \\(s(t)\\) geeft de afgelegde weg in functie van de tijd. Wat is \\(s'(t)\\)?",
           "opties": [
             "de snelheid op dat ogenblik",
             "de versnelling op dat ogenblik",
@@ -3452,12 +3452,12 @@
         },
         {
           "type": "meerkeuze",
-          "vraag": "Wat is de afgeleide van de cosinus van x?",
+          "vraag": "Wat is \\(\\left(\\cos x\\right)'\\)?",
           "opties": [
-            "min de sinus van x",
-            "de sinus van x",
-            "min de cosinus van x",
-            "de tangens van x"
+            "\\(-\\sin x\\)",
+            "\\(\\sin x\\)",
+            "\\(-\\cos x\\)",
+            "\\(\\tan x\\)"
           ],
           "antwoord": 0,
           "uitleg": "Sinus wordt cosinus, en cosinus wordt min sinus. Pas na vier keer afleiden sta je weer bij het begin."
@@ -3471,7 +3471,7 @@
       "vragen": [
         {
           "type": "meerkeuze",
-          "vraag": "Wat weet je als de afgeleide op een interval positief is?",
+          "vraag": "Wat weet je als \\(f'(x) > 0\\) op een interval?",
           "opties": [
             "de functie stijgt op dat interval",
             "de functie is positief op dat interval",
@@ -3483,7 +3483,7 @@
         },
         {
           "type": "meerkeuze",
-          "vraag": "De afgeleide is nul in a en wisselt daar van plus naar min. Wat heeft de functie in a?",
+          "vraag": "\\(f'(a) = 0\\) en \\(f'\\) wisselt daar van plus naar min. Wat heeft \\(f\\) in \\(a\\)?",
           "opties": [
             "een maximum",
             "een minimum",
@@ -3495,22 +3495,22 @@
         },
         {
           "type": "invultekst",
-          "vraag": "Neem x tot de derde min drie x. Hoeveel extrema heeft die functie? Schrijf het cijfer.",
+          "vraag": "Neem \\(f(x) = x^{3} - 3x\\). Hoeveel extrema heeft die functie? Schrijf het cijfer.",
           "antwoord": [
             "2",
             "twee"
           ],
-          "uitleg": "De afgeleide drie x kwadraat min drie is nul in min één en in één, en wisselt daar telkens van teken."
+          "uitleg": "\\(f'(x) = 3x^{2} - 3\\) is nul in \\(-1\\) en in \\(1\\), en wisselt daar telkens van teken."
         },
         {
           "type": "waarofniet",
-          "vraag": "Elk punt waar de afgeleide nul is, is een extremum.",
+          "vraag": "Elk punt waar \\(f'(x) = 0\\) is een extremum.",
           "antwoord": false,
-          "uitleg": "Bij x tot de derde is de afgeleide nul in nul, maar de functie blijft stijgen. Zonder tekenwissel is er geen extremum."
+          "uitleg": "Bij \\(f(x) = x^{3}\\) is \\(f'(0) = 0\\), maar de functie blijft stijgen. Zonder tekenwissel is er geen extremum."
         },
         {
           "type": "meerkeuze",
-          "vraag": "Wat weet je als de tweede afgeleide op een interval positief is?",
+          "vraag": "Wat weet je als \\(f''(x) > 0\\) op een interval?",
           "opties": [
             "de grafiek is daar hol, met de holle kant naar boven",
             "de grafiek is daar bol, met de holle kant naar onder",
@@ -3524,23 +3524,23 @@
           "type": "meerkeuze",
           "vraag": "Hoe vind je de buigpunten van een functie?",
           "opties": [
-            "waar de tweede afgeleide nul is en van teken wisselt",
-            "waar de eerste afgeleide nul is en van teken wisselt",
-            "waar de functie zelf nul is en van teken wisselt",
-            "waar de tweede afgeleide haar grootste waarde heeft"
+            "waar \\(f''(x) = 0\\) en \\(f''\\) van teken wisselt",
+            "waar \\(f'(x) = 0\\) en \\(f'\\) van teken wisselt",
+            "waar \\(f(x) = 0\\) en \\(f\\) van teken wisselt",
+            "waar \\(f''\\) haar grootste waarde heeft"
           ],
           "antwoord": 0,
           "uitleg": "Zonder tekenwissel is het geen buigpunt, net zoals bij de extrema met de eerste afgeleide."
         },
         {
           "type": "waarofniet",
-          "vraag": "In een buigpunt is de eerste afgeleide altijd nul.",
+          "vraag": "In een buigpunt is \\(f'\\) altijd nul.",
           "antwoord": false,
           "uitleg": "Dat kan, maar hoeft niet. Een buigpunt kan midden op een stijgend stuk liggen; alleen de kromming verandert er."
         },
         {
           "type": "invultekst",
-          "vraag": "De afgeleide heeft twee nulwaarden. In hoeveel stukken verdelen die de getallenas in het tekenschema? Schrijf het cijfer.",
+          "vraag": "\\(f'\\) heeft twee nulwaarden. In hoeveel stukken verdelen die de getallenas in het tekenschema? Schrijf het cijfer.",
           "antwoord": [
             "3",
             "drie"
@@ -3549,19 +3549,19 @@
         },
         {
           "type": "meerkeuze",
-          "vraag": "De eerste afgeleide is nul in a en de tweede afgeleide is daar positief. Wat besluit je?",
+          "vraag": "\\(f'(a) = 0\\) en \\(f''(a) > 0\\). Wat besluit je?",
           "opties": [
-            "in a ligt een minimum",
-            "in a ligt een maximum",
-            "in a ligt een buigpunt",
-            "in a is de functie niet afleidbaar"
+            "in \\(a\\) ligt een minimum",
+            "in \\(a\\) ligt een maximum",
+            "in \\(a\\) ligt een buigpunt",
+            "in \\(a\\) is \\(f\\) niet afleidbaar"
           ],
           "antwoord": 0,
           "uitleg": "Dat is de tweede-afgeleidetest: de grafiek is daar hol, dus het vlakke punt is het laagste van zijn omgeving."
         },
         {
           "type": "waarofniet",
-          "vraag": "De stelling van Rolle eist dat de functiewaarden in de twee uiteinden gelijk zijn.",
+          "vraag": "De stelling van Rolle eist dat \\(f(a) = f(b)\\) in de twee uiteinden.",
           "antwoord": true,
           "uitleg": "Pas dan kan je besluiten dat er ergens tussenin een punt ligt met een horizontale raaklijn."
         },
@@ -3575,16 +3575,16 @@
             "de gemiddelde verandering is gelijk aan het gemiddelde van de waarden"
           ],
           "antwoord": 0,
-          "uitleg": "Er is dus een punt waar de ogenblikkelijke verandering gelijk is aan de gemiddelde. Rolle is het bijzondere geval waarin de koorde horizontaal loopt."
+          "uitleg": "Er is dus een \\(c\\) met \\(f'(c) = \\dfrac{f(b) - f(a)}{b - a}\\). Rolle is het bijzondere geval waarin de koorde horizontaal loopt."
         },
         {
           "type": "invultekst",
-          "vraag": "Neem x kwadraat. Hoeveel is de gemiddelde verandering tussen één en drie? Schrijf het getal.",
+          "vraag": "Neem \\(f(x) = x^{2}\\). Hoeveel is de gemiddelde verandering tussen \\(1\\) en \\(3\\)? Schrijf het getal.",
           "antwoord": [
             "4",
             "vier"
           ],
-          "uitleg": "Negen min één is acht, gedeeld door drie min één is vier."
+          "uitleg": "\\(\\dfrac{9 - 1}{3 - 1} = 4\\)."
         },
         {
           "type": "meerkeuze",
@@ -3593,7 +3593,7 @@
             "zelf een veranderlijke kiezen en het functievoorschrift opstellen",
             "meteen de afgeleide nemen van de gegeven getallen",
             "een tabel maken met alle mogelijke uitkomsten naast elkaar gezet",
-            "meteen de tweede afgeleide gelijkstellen aan het getal nul"
+            "meteen de tweede afgeleide gelijkstellen aan nul"
           ],
           "antwoord": 0,
           "uitleg": "Zonder voorschrift valt er niets af te leiden. Pas daarna bereken je de extrema en controleer je of het een maximum of een minimum is."
@@ -3608,9 +3608,9 @@
           "type": "meerkeuze",
           "vraag": "Wat staat er allemaal in een samenvattende tabel bij een functieonderzoek?",
           "opties": [
-            "het teken van de eerste en de tweede afgeleide, met stijgen, dalen, hol, bol, extrema en buigpunten",
-            "enkel het teken van de eerste afgeleide, met het stijgen, het dalen en de extrema die daaruit volgen",
-            "enkel de nulwaarden van de functie en haar snijpunt met de verticale as",
+            "het teken van \\(f'\\) en \\(f''\\), met stijgen, dalen, hol, bol, extrema en buigpunten",
+            "enkel het teken van \\(f'\\), met het stijgen, het dalen en de extrema",
+            "enkel de nulwaarden van \\(f\\) en haar snijpunt met de verticale as",
             "de limieten op oneindig en de vergelijkingen van alle asymptoten samen"
           ],
           "antwoord": 0,
@@ -3620,10 +3620,10 @@
           "type": "meerkeuze",
           "vraag": "Een functie stijgt, maar steeds trager. Wat geldt voor haar afgeleiden?",
           "opties": [
-            "de eerste is positief en de tweede is negatief",
-            "de eerste is negatief en de tweede is positief",
-            "de eerste en de tweede zijn allebei positief",
-            "de eerste en de tweede zijn allebei negatief"
+            "\\(f' > 0\\) en \\(f'' < 0\\)",
+            "\\(f' < 0\\) en \\(f'' > 0\\)",
+            "\\(f' > 0\\) en \\(f'' > 0\\)",
+            "\\(f' < 0\\) en \\(f'' < 0\\)"
           ],
           "antwoord": 0,
           "uitleg": "Stijgen betekent een positieve eerste afgeleide. Trager stijgen betekent dat die afgeleide zelf daalt, dus de tweede is negatief."
@@ -3632,17 +3632,17 @@
           "type": "waarofniet",
           "vraag": "Een functie kan een maximum bereiken in een punt waar ze niet afleidbaar is.",
           "antwoord": true,
-          "uitleg": "Denk aan een scherpe punt, zoals bij min de absolute waarde van x. Daar ligt een maximum zonder raaklijn."
+          "uitleg": "Denk aan een scherpe punt, zoals bij \\(f(x) = -|x|\\). Daar ligt een maximum zonder raaklijn."
         },
         {
           "type": "invultekst",
-          "vraag": "Neem x tot de derde min drie x. Bij welke x ligt het minimum? Schrijf het getal.",
+          "vraag": "Neem \\(f(x) = x^{3} - 3x\\). Bij welke \\(x\\) ligt het minimum? Schrijf het getal.",
           "antwoord": [
             "1",
             "een",
             "één"
           ],
-          "uitleg": "De afgeleide is nul in min één en één. De tweede afgeleide zes x is positief in één, dus daar ligt het minimum."
+          "uitleg": "\\(f'\\) is nul in \\(-1\\) en \\(1\\). \\(f''(x) = 6x\\) is positief in \\(1\\), dus daar ligt het minimum."
         },
         {
           "type": "meerkeuze",
@@ -3658,7 +3658,7 @@
         },
         {
           "type": "meerkeuze",
-          "vraag": "De afgeleide van een functie is overal positief. Wat besluit je?",
+          "vraag": "\\(f'(x) > 0\\) op heel het domein. Wat besluit je?",
           "opties": [
             "de functie is overal strikt stijgend en dus inverteerbaar",
             "de functie heeft precies één maximum op haar domein",

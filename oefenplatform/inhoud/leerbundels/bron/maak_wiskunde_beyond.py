@@ -26,11 +26,12 @@ alles nog in woorden stond en had gelijk: een leerling van de derde graad moet
 
 De omzetting gebeurt thema per thema, samen met de vragen van dat thema, zodat
 een kind in de bundel dezelfde schrijfwijze terugvindt als in de oefening.
-Omgezet: thema 1. De andere thema's staan nog in woorden.
+Omgezet: thema 1 tot 7. De andere thema's staan nog in woorden.
 """
 import sys, pathlib
 sys.path.insert(0, str(pathlib.Path(__file__).parent))
 import bundel
+import svg
 
 VAK = "Wiskunde gevorderd"
 BEYOND = "🌍 Beyond — 5de en 6de middelbaar"
@@ -764,107 +765,123 @@ BUNDELS["goniometrische-functies-en-goniometrie-beyond"] = dict(
     onder="Driehoeken oplossen met de sinus- en cosinusregel, de goniometrische cirkel, en de algemene sinusfunctie.",
     secties=[
         dict(kop="Driehoeken oplossen", blokken=[
-            ("p", "<strong>De som van de hoeken in een driehoek is honderdtachtig graden.</strong> Ken je "
-                  "twee hoeken, dan volgt de derde daar meteen uit."),
+            ("p", r"De som van de hoeken in een driehoek is \(180^\circ\). Ken je twee hoeken, dan "
+                  r"volgt de derde daar meteen uit: \(\widehat{C} = 180^\circ - \widehat{A} - \widehat{B}\)."),
             ("p", tabel(["Wat je kent", "Welke regel", "Waarom"], [
                 ["een zijde samen met de hoek ertegenover", "de sinusregel", "die koppelt telkens een zijde aan haar overstaande hoek"],
                 ["twee zijden en de hoek ertussen", "de cosinusregel", "er is geen zijde met haar overstaande hoek bekend"],
                 ["de drie zijden", "de cosinusregel", "de sinusregel heeft altijd één gekende hoek nodig"],
             ])),
-            ("p", "<strong>De cosinusregel voor zijde a tegenover hoek A luidt: a kwadraat is b kwadraat "
-                  "plus c kwadraat min twee bc maal de cosinus van A.</strong> De hoek in de formule is "
-                  "altijd de hoek tegenover de zijde die je zoekt."),
-            ("kader", "<strong>De cosinusregel is een veralgemening van de stelling van Pythagoras.</strong> "
-                      "Bij een rechte hoek is de cosinus nul, dus valt de laatste term weg en blijft "
-                      "Pythagoras over."),
+            ("kader", r"Sinusregel: \(\dfrac{a}{\sin A} = \dfrac{b}{\sin B} = \dfrac{c}{\sin C}\). "
+                      r"Cosinusregel: \(a^{2} = b^{2} + c^{2} - 2bc\cos A\)."),
+            ("p", r"In de cosinusregel is de hoek altijd die tegenover de zijde die je zoekt. Ken je "
+                  r"de drie zijden, dan vorm je ze om naar "
+                  r"\(\cos A = \dfrac{b^{2} + c^{2} - a^{2}}{2bc}\) en lees je de hoek af met de "
+                  r"inverse cosinus."),
+            ("kader", r"De cosinusregel is een veralgemening van de stelling van Pythagoras. Bij "
+                      r"\(\widehat{A} = 90^\circ\) is \(\cos A = 0\), dus valt de laatste term weg "
+                      r"en blijft \(a^{2} = b^{2} + c^{2}\) over."),
         ]),
         dict(kop="Graden en radialen", blokken=[
-            ("p", "<strong>Pi radialen is honderdtachtig graden</strong>, en daaruit volgt elke andere "
-                  "omzetting. <strong>Twee pi radialen is driehonderdzestig graden</strong>, een volledige "
-                  "omwenteling. <strong>Negentig graden is pi gedeeld door twee</strong> radialen en "
-                  "<strong>pi gedeeld door drie radialen is zestig graden</strong>. <strong>Eén radiaal is "
-                  "ongeveer zevenenvijftig graden</strong>, want honderdtachtig gedeeld door pi is ongeveer "
-                  "57,3."),
-            ("p", "<strong>Van graden naar radialen vermenigvuldig je met pi en deel je door "
-                  "honderdtachtig.</strong> De andere kant op doe je net het omgekeerde. Zet altijd eerst "
-                  "je rekenapp in de juiste stand."),
+            ("p", r"Een radiaal is de hoek waarbij de boog even lang is als de straal. Omdat een "
+                  r"halve cirkel \(\pi\) radialen meet, is \(\pi\) radialen hetzelfde als "
+                  r"\(180^\circ\), en daaruit volgt elke andere omzetting. Zo is \(2\pi\) radialen "
+                  r"gelijk aan \(360^\circ\), een volledige omwenteling, is \(90^\circ\) gelijk aan "
+                  r"\(\dfrac{\pi}{2}\) en is \(\dfrac{\pi}{3}\) gelijk aan \(60^\circ\)."),
+            ("p", r"Eén radiaal zelf is ongeveer \(57^\circ\), want \(\dfrac{180}{\pi} \approx 57{,}3\). "
+                  r"Van graden naar radialen vermenigvuldig je met \(\dfrac{\pi}{180}\); de andere "
+                  r"kant op met \(\dfrac{180}{\pi}\). Zet altijd eerst je rekenapp in de juiste "
+                  r"stand, anders klopt geen enkele uitkomst."),
         ]),
         dict(kop="De goniometrische cirkel", blokken=[
-            ("p", "<strong>De goniometrische cirkel heeft straal één.</strong> Door de straal op één te "
-                  "zetten, zijn de coördinaten van het beeldpunt meteen de cosinus en de sinus. <strong>De "
-                  "cosinus is de x-coördinaat en de sinus de y-coördinaat</strong>; die twee verwisselen is "
-                  "de klassieke fout."),
-            ("p", "Daaruit lees je de bekende waarden af. <strong>De cosinus van nul graden is één</strong> "
-                  "(het beeldpunt ligt helemaal rechts), <strong>de sinus is gelijk aan één bij negentig "
-                  "graden</strong> (het beeldpunt ligt bovenaan), en <strong>de sinus van dertig graden is "
-                  "een half</strong>, net als de cosinus van zestig graden. <strong>De sinus van een hoek "
-                  "kan nooit groter zijn dan één</strong>, want ze is een coördinaat op een cirkel met "
-                  "straal één. De tangens kent die grens niet."),
-            ("p", "<strong>De grondformule van de goniometrie luidt: de sinus in het kwadraat plus de "
-                  "cosinus in het kwadraat is één.</strong> Ze volgt rechtstreeks uit Pythagoras op die "
-                  "cirkel. De sinus gedeeld door de cosinus is de tangens. <strong>Je gebruikt de "
-                  "grondformule vooral om de ene goniometrische functie in de andere om te zetten</strong>: "
-                  "ken je de sinus, dan haal je er de cosinus uit, op het teken na, en dat teken bepaal je "
-                  "met het kwadrant."),
+            ("fig", svg.goniocirkel(),
+             "Dezelfde hoek, twee aflezingen: de ene op de liggende as, de andere op de staande."),
+            ("p", r"De goniometrische cirkel heeft straal \(1\). Door de straal op \(1\) te zetten "
+                  r"zijn de coördinaten van het beeldpunt meteen \((\cos\alpha,\ \sin\alpha)\). De "
+                  r"cosinus is dus de \(x\)-coördinaat en de sinus de \(y\)-coördinaat; die twee "
+                  r"verwisselen is de klassieke fout."),
+        ]),
+        dict(kop="De waarden die je uit het hoofd kent", blokken=[
+            ("p", r"Uit de cirkel lees je de bekende waarden af. \(\cos 0^\circ = 1\), want het "
+                  r"beeldpunt ligt helemaal rechts. \(\sin 90^\circ = 1\), want dan ligt het "
+                  r"bovenaan. En \(\sin 30^\circ = \tfrac{1}{2}\), net als \(\cos 60^\circ\)."),
+            ("p", r"Omdat de sinus een coördinaat is op een cirkel met straal \(1\), geldt altijd "
+                  r"\(-1 \leq \sin\alpha \leq 1\): groter dan \(1\) kan ze nooit worden. De tangens "
+                  r"kent die grens niet, want \(\tan\alpha = \dfrac{\sin\alpha}{\cos\alpha}\) loopt "
+                  r"naar oneindig zodra de cosinus naar nul gaat."),
+        ]),
+        dict(kop="De grondformule", blokken=[
+            ("kader", r"\(\sin^{2}x + \cos^{2}x = 1\)"),
+            ("p", r"Ze volgt rechtstreeks uit Pythagoras op de cirkel met straal \(1\): de twee "
+                  r"coördinaten van het beeldpunt zijn de rechthoekszijden, de straal is de "
+                  r"schuine zijde. Je gebruikt de grondformule vooral om de ene goniometrische "
+                  r"functie in de andere om te zetten: ken je \(\sin x\), dan is "
+                  r"\(\cos x = \pm\sqrt{1 - \sin^{2}x}\), en het teken bepaal je met het kwadrant."),
+        ]),
+        dict(kop="Hoeken die bij elkaar horen", blokken=[
             ("p", tabel(["Verband tussen twee hoeken", "Hun som of vorm", "Wat geldt"], [
-                ["tegengesteld", "de ene is min de andere", "dezelfde cosinus, tegengestelde sinus"],
-                ["supplementair", "samen honderdtachtig graden", "dezelfde sinus, tegengestelde cosinus"],
-                ["complementair", "samen negentig graden", "de sinus van de ene is de cosinus van de andere"],
+                ["tegengesteld", r"\(\alpha\) en \(-\alpha\)", "dezelfde cosinus, tegengestelde sinus"],
+                ["supplementair", r"samen \(180^\circ\)", "dezelfde sinus, tegengestelde cosinus"],
+                ["complementair", r"samen \(90^\circ\)", "de sinus van de ene is de cosinus van de andere"],
             ])),
-            ("p", "Bij <strong>tegengestelde hoeken</strong> spiegelt het beeldpunt om de horizontale as; "
-                  "bij <strong>supplementaire hoeken</strong> om de verticale as. Bij "
-                  "<strong>complementaire hoeken</strong> zie je het meteen in een rechthoekige driehoek: "
-                  "de overstaande zijde van de ene is de aanliggende van de andere. Hieruit volgt ook dat "
-                  "<strong>de sinus van min x gelijk is aan min de sinus van x</strong>: de sinus is een "
-                  "oneven functie, de cosinus een even."),
+            ("p", r"Bij tegengestelde hoeken spiegelt het beeldpunt om de horizontale as, dus "
+                  r"\(\cos(-\alpha) = \cos\alpha\) en \(\sin(-\alpha) = -\sin\alpha\). Bij "
+                  r"supplementaire hoeken spiegelt het om de verticale as: "
+                  r"\(\sin(180^\circ - \alpha) = \sin\alpha\) en "
+                  r"\(\cos(180^\circ - \alpha) = -\cos\alpha\)."),
+            ("p", r"Bij complementaire hoeken zie je het meteen in een rechthoekige driehoek: de "
+                  r"overstaande zijde van de ene is de aanliggende van de andere, dus "
+                  r"\(\sin(90^\circ - \alpha) = \cos\alpha\). Uit de eerste rij volgt ook dat de "
+                  r"sinus een oneven functie is en de cosinus een even."),
         ]),
         dict(kop="De algemene sinusfunctie", blokken=[
-            ("p", "Schrijf een golvende grafiek als <strong>a maal de sinus van b maal x min c, plus "
-                  "d</strong>. Elk van die vier letters doet iets anders."),
+            ("kader", r"\(y = a\sin(bx - c) + d\)"),
             ("p", tabel(["Letter", "Wat ze doet", "Voorbeeld"], [
-                ["a", "de amplitude, de hoogte van de golf", "drie maal de sinus van x heeft amplitude drie"],
-                ["b", "perst de grafiek samen, de periode wordt twee pi gedeeld door b", "de sinus van twee x heeft periode pi"],
+                ["a", "de amplitude, de hoogte van de golf", r"\(y = 3\sin x\) heeft amplitude \(3\)"],
+                ["b", r"perst de grafiek samen, de periode wordt \(\dfrac{2\pi}{b}\)", r"\(y = \sin 2x\) heeft periode \(\pi\)"],
                 ["c", "zorgt voor een horizontale verschuiving, de faseverschuiving", "het schuift de hele golf opzij"],
-                ["d", "schuift verticaal en bepaalt de evenwichtslijn", "de sinus van x, plus vier, schommelt rond y is vier"],
+                ["d", "schuift verticaal en bepaalt de evenwichtslijn", r"\(y = \sin x + 4\) schommelt rond \(y = 4\)"],
             ])),
-            ("p", "<strong>De periode van de gewone sinusfunctie is twee pi</strong>: na één volledige "
-                  "omwenteling begint het beeld opnieuw. <strong>De sinus van drie x heeft een periode die "
-                  "drie keer korter is.</strong> De <strong>frequentie van een periodieke functie</strong> is <strong>het aantal "
-                  "volledige schommelingen per eenheid</strong>, dus één gedeeld door de periode."),
-            ("p", "<strong>De amplitude kan niet negatief zijn</strong>, want ze is een afstand. Een "
-                  "negatieve factor voor de sinus spiegelt de grafiek wel om de evenwichtslijn. Het bereik "
-                  "volgt uit a en d: <strong>twee maal de sinus van x, plus één, loopt van min één tot en "
-                  "met drie</strong>, en <strong>de grootste waarde van vijf maal de sinus van x is "
-                  "vijf</strong>. <strong>Tussen nul en twee pi, de grenzen inbegrepen, heeft de sinus drie "
-                  "nulwaarden</strong>: in nul, in pi en in twee pi."),
-            ("weetje", "<strong>Een sinusfunctie is een geschikt model voor het getij aan de kust.</strong> "
-                       "Het water stijgt en daalt met een vaste periode rond een gemiddeld peil, en dat is "
-                       "precies wat zo'n functie beschrijft."),
+            ("p", r"De periode van \(y = \sin x\) is \(2\pi\): na één volledige omwenteling begint "
+                  r"het beeld opnieuw. De grafiek van \(y = \sin 3x\) heeft een periode die drie "
+                  r"keer korter is. De frequentie van een periodieke functie is het aantal "
+                  r"volledige schommelingen per eenheid, dus \(f = \dfrac{1}{T}\)."),
+        ]),
+        dict(kop="Amplitude, bereik en nulwaarden", blokken=[
+            ("p", r"De amplitude kan niet negatief zijn, want ze is een afstand. Een negatieve "
+                  r"factor voor de sinus spiegelt de grafiek wel om de evenwichtslijn."),
+            ("p", r"Het bereik volgt uit \(a\) en \(d\): \(y = 2\sin x + 1\) loopt over "
+                  r"\([-1,\ 3]\), en de grootste waarde van \(y = 5\sin x\) is \(5\). Op "
+                  r"\([0,\ 2\pi]\), de grenzen inbegrepen, heeft \(y = \sin x\) drie nulwaarden: in "
+                  r"\(0\), in \(\pi\) en in \(2\pi\)."),
+            ("weetje", r"Een sinusfunctie is een geschikt model voor het getij aan de kust. Het "
+                       r"water stijgt en daalt met een vaste periode rond een gemiddeld peil, en "
+                       r"dat is precies wat zo'n functie beschrijft."),
         ]),
         dict(kop="Goniometrische formules", blokken=[
-            ("p", "<strong>De verdubbelingsformule voor de sinus luidt: de sinus van twee x is twee maal de "
-                  "sinus van x maal de cosinus van x.</strong> Ze volgt uit de somformule met twee gelijke "
-                  "hoeken; gewoon maal twee werkt niet. <strong>De cosinus van twee x is evenmin twee maal "
-                  "de cosinus van x</strong>: de juiste formule is de cosinus in het kwadraat min de sinus "
-                  "in het kwadraat. Een goniometrisch getal is geen factor die je zomaar buiten haalt."),
-            ("p", "<strong>De formules van Simpson zetten een som van sinussen om in een product.</strong> "
-                  "Ze heten daarom ook de som-naar-productformules, en ze zijn handig om een vergelijking "
-                  "te ontbinden in factoren."),
-            ("kader", "<strong>Een goniometrische identiteit bewijs je door één lid te herleiden tot het "
-                      "andere met bekende formules.</strong> Enkele hoeken invullen toont alleen dat ze "
-                      "daar klopt, niet dat ze altijd klopt. Een grafiek is een aanwijzing, geen bewijs."),
+            ("kader", r"\(\sin 2x = 2\sin x\cos x\) en \(\cos 2x = \cos^{2}x - \sin^{2}x\)"),
+            ("p", r"De verdubbelingsformules volgen uit de somformules met twee gelijke hoeken. "
+                  r"Gewoon maal twee werkt niet: \(\cos 2x\) is dus géén \(2\cos x\). Een "
+                  r"goniometrisch getal is geen factor die je zomaar buiten haalt."),
+            ("p", r"De formules van Simpson zetten een som van sinussen om in een product. Ze heten "
+                  r"daarom ook de som-naar-productformules, en ze zijn handig om een vergelijking "
+                  r"te ontbinden in factoren: een product is nul zodra één factor nul is."),
+            ("kader", r"Een goniometrische identiteit bewijs je door één lid te herleiden tot het "
+                      r"andere met bekende formules. Enkele hoeken invullen toont alleen dat ze "
+                      r"daar klopt, niet dat ze altijd klopt. Een grafiek is een aanwijzing, geen "
+                      r"bewijs."),
         ]),
     ],
     onthoud=[
-        "De som van de hoeken in een driehoek is honderdtachtig graden.",
+        r"De som van de hoeken in een driehoek is \(180^\circ\).",
         "Ken je een zijde met haar overstaande hoek, dan gebruik je de sinusregel; anders de cosinusregel.",
-        "Cosinusregel: a kwadraat is b kwadraat plus c kwadraat min twee bc maal de cosinus van A.",
-        "Pi radialen is honderdtachtig graden.",
-        "Op de goniometrische cirkel is de cosinus de x-coördinaat en de sinus de y-coördinaat.",
-        "Grondformule: de sinus in het kwadraat plus de cosinus in het kwadraat is één.",
+        r"\(a^{2} = b^{2} + c^{2} - 2bc\cos A\).",
+        r"\(\pi\) radialen is \(180^\circ\); van graden naar radialen: maal \(\dfrac{\pi}{180}\).",
+        r"Op de cirkel is \(\cos\alpha\) de \(x\)-coördinaat en \(\sin\alpha\) de \(y\)-coördinaat.",
+        r"\(\sin^{2}x + \cos^{2}x = 1\).",
         "Supplementaire hoeken hebben dezelfde sinus, tegengestelde hoeken dezelfde cosinus.",
-        "In de algemene sinusfunctie is a de amplitude en is de periode twee pi gedeeld door b.",
-        "De sinus van twee x is twee maal de sinus van x maal de cosinus van x.",
+        r"In \(y = a\sin(bx - c) + d\) is \(a\) de amplitude en is de periode \(\dfrac{2\pi}{b}\).",
+        r"\(\sin 2x = 2\sin x\cos x\).",
     ],
 )
 
@@ -874,105 +891,116 @@ BUNDELS["limieten-continuiteit-en-asymptoten-beyond"] = dict(
     onder="Wat een limiet is, hoe je onbepaaldheden wegwerkt, en hoe je alle soorten asymptoten vindt.",
     secties=[
         dict(kop="Wat een limiet zegt", blokken=[
-            ("p", "<strong>De limiet van f voor x naar a is b</strong> betekent: <strong>de functiewaarden "
-                  "naderen b als x dicht genoeg bij a komt</strong>. Een limiet zegt dus iets over de "
-                  "<strong>buurt</strong> van a, niet over a zelf. <strong>Een functie hoeft in a niet "
-                  "gedefinieerd te zijn om daar een limiet te hebben.</strong>"),
-            ("p", "In de <strong>epsilon-deltadefinitie</strong> is <strong>epsilon eerst gegeven</strong>: "
-                  "de gewenste nauwkeurigheid op de y-as. Iemand daagt je uit met een epsilon, en jij moet "
-                  "er een delta bij vinden. Die volgorde omdraaien maakt de definitie betekenisloos."),
-            ("p", "<strong>De limiet in een punt bestaat als de linkerlimiet en de rechterlimiet gelijk "
-                  "zijn.</strong> Verschillen ze, dan maakt de grafiek daar een sprong. Daarom "
-                  "<strong>bestaat de limiet voor x naar nul van één gedeeld door x niet</strong>: van "
-                  "links kruipt ze naar min oneindig, van rechts naar plus oneindig. Bij <strong>één "
-                  "gedeeld door x kwadraat is de limiet in nul wel plus oneindig</strong>, want een "
-                  "kwadraat is langs beide kanten positief."),
-            ("p", "Is de functie <strong>continu</strong>, dan mag je gewoon invullen: de "
-                  "<strong>limiet voor x naar drie van x plus vijf is acht</strong>."),
+            ("p", r"\(\lim\limits_{x \to a} f(x) = b\) betekent: de functiewaarden naderen \(b\) als "
+                  r"\(x\) dicht genoeg bij \(a\) komt. Een limiet zegt dus iets over de buurt van "
+                  r"\(a\), niet over \(a\) zelf. Een functie hoeft in \(a\) zelfs niet gedefinieerd "
+                  r"te zijn om daar een limiet te hebben."),
+            ("p", r"In de \(\varepsilon\)-\(\delta\)-definitie is \(\varepsilon\) eerst gegeven: de "
+                  r"gewenste nauwkeurigheid op de \(y\)-as. Iemand daagt je uit met een "
+                  r"\(\varepsilon\), en jij moet er een \(\delta\) bij vinden zodat alle \(x\) "
+                  r"binnen \(\delta\) van \(a\) een beeld binnen \(\varepsilon\) van \(b\) hebben. "
+                  r"Die volgorde omdraaien maakt de definitie betekenisloos."),
+            ("p", r"De limiet in een punt bestaat als de linkerlimiet en de rechterlimiet gelijk "
+                  r"zijn. Daarom bestaat \(\lim\limits_{x \to 0} \dfrac{1}{x}\) niet: van links "
+                  r"kruipt ze naar \(-\infty\), van rechts naar \(+\infty\). Bij "
+                  r"\(\dfrac{1}{x^{2}}\) is de limiet in \(0\) wél \(+\infty\), want een kwadraat "
+                  r"is langs beide kanten positief."),
+            ("p", r"Is de functie continu, dan mag je gewoon invullen: "
+                  r"\(\lim\limits_{x \to 3} (x + 5) = 8\)."),
+        ]),
+        dict(kop="Wat er in één punt kan misgaan", blokken=[
+            ("fig", svg.drieonderbrekingen(),
+             "Links springt de grafiek, in het midden ontbreekt één punt, rechts loopt ze weg langs een rechte."),
+            ("p", r"Een perforatie is een punt dat op de grafiek ontbreekt terwijl de limiet er wel "
+                  r"bestaat; je tekent er een open bolletje. Bij een sprong verschillen de linker- "
+                  r"en de rechterlimiet. En bij een pool gaat de functiewaarde naar \(\pm\infty\)."),
         ]),
         dict(kop="Onbepaaldheden wegwerken", blokken=[
-            ("p", "<strong>Een onbepaaldheid is een vorm waaruit je de uitkomst nog niet kan "
-                  "afleiden.</strong> Nul op nul kan alles opleveren: een getal, oneindig of niets. Je moet "
-                  "eerst herschrijven."),
+            ("p", r"Een onbepaaldheid is een vorm waaruit je de uitkomst nog niet kan afleiden. "
+                  r"\(\dfrac{0}{0}\) kan alles opleveren: een getal, oneindig of niets. Je moet "
+                  r"eerst herschrijven."),
             ("p", tabel(["Wat je krijgt", "Wat je doet", "Voorbeeld"], [
-                ["teller en noemer allebei nul", "ontbinden en de gemeenschappelijke factor schrappen", "x kwadraat min vier op x min twee geeft in twee de limiet vier"],
-                ["teller niet nul, noemer wel", "er ligt een pool, dus plus of min oneindig", "met een tekenonderzoek links en rechts bepaal je het teken"],
-                ["oneindig min oneindig met twee wortels", "vermenigvuldigen met de toegevoegde tweeterm", "het verschil maal de som laat de wortels verdwijnen"],
-                ["een breuk op oneindig", "de hoogstegraadstermen tegen elkaar afwegen", "drie x kwadraat plus één op x kwadraat min vijf geeft drie"],
+                [r"\(\dfrac{0}{0}\)", "ontbinden en de gemeenschappelijke factor schrappen",
+                 r"\(\lim\limits_{x \to 2} \dfrac{x^{2}-4}{x-2} = 4\)"],
+                [r"teller \(\neq 0\), noemer \(= 0\)", r"er ligt een pool, dus \(\pm\infty\)",
+                 "met een tekenonderzoek links en rechts bepaal je het teken"],
+                [r"\(\infty - \infty\) met twee wortels", "vermenigvuldigen met de toegevoegde tweeterm",
+                 r"\((a-b)(a+b) = a^{2} - b^{2}\) laat de wortels verdwijnen"],
+                [r"\(\dfrac{\infty}{\infty}\)", "de hoogstegraadstermen tegen elkaar afwegen",
+                 r"\(\lim\limits_{x \to +\infty} \dfrac{3x^{2}+1}{x^{2}-5} = 3\)"],
             ])),
-            ("p", "<strong>De limiet voor x naar plus oneindig van twee x plus één, gedeeld door x "
-                  "kwadraat, is nul</strong>: de noemer groeit sneller dan de teller. In het algemeen "
-                  "<strong>bepaalt enkel de term met de hoogste graad het gedrag van een veeltermfunctie op "
-                  "oneindig</strong>. Bij een <strong>irrationale functie</strong> is de eerste stap "
-                  "<strong>de hoogstegraadsterm buiten de wortel afzonderen</strong>."),
-            ("p", "<strong>De regel van de l'Hôpital mag je rechtstreeks toepassen op nul op nul en op "
-                  "oneindig op oneindig.</strong> De andere onbepaaldheden, zoals nul maal oneindig of "
-                  "oneindig min oneindig, moet je eerst omvormen tot een van die twee breuken. <strong>Op "
-                  "twee gedeeld door nul mag je l'Hôpital niet toepassen</strong>: dat is geen "
-                  "onbepaaldheid maar een pool."),
-            ("p", "De gewone <strong>rekenregels</strong> helpen zolang de limieten bestaan en eindig zijn: "
-                  "<strong>de limiet van een som is de som van de limieten</strong>. Bij oneindig moet je "
-                  "opletten voor onbepaaldheden."),
-            ("weetje", "<strong>Een perforatie is een punt dat op de grafiek ontbreekt terwijl de limiet er "
-                       "wel bestaat.</strong> Je tekent er een open bolletje. De functie is er niet "
-                       "gedefinieerd, maar de grafiek loopt er verder gewoon door."),
+            ("p", r"\(\lim\limits_{x \to +\infty} \dfrac{2x+1}{x^{2}} = 0\): de noemer groeit "
+                  r"sneller dan de teller. In het algemeen bepaalt enkel de term met de hoogste "
+                  r"graad het gedrag van een veeltermfunctie op oneindig. Bij een irrationale "
+                  r"functie is de eerste stap de hoogstegraadsterm buiten de wortel afzonderen, "
+                  r"bijvoorbeeld \(\sqrt{x^{2}+x} = |x|\sqrt{1 + \tfrac{1}{x}}\)."),
+        ]),
+        dict(kop="De regel van de l'Hôpital", blokken=[
+            ("kader", r"Mag rechtstreeks op \(\dfrac{0}{0}\) en op \(\dfrac{\infty}{\infty}\): "
+                      r"\(\lim \dfrac{f(x)}{g(x)} = \lim \dfrac{f'(x)}{g'(x)}\)."),
+            ("p", r"De andere onbepaaldheden, zoals \(0 \cdot \infty\) of \(\infty - \infty\), moet "
+                  r"je eerst omvormen tot een van die twee breuken. Op \(\dfrac{2}{0}\) mag je "
+                  r"l'Hôpital niet toepassen: dat is geen onbepaaldheid maar een pool."),
+            ("p", r"De gewone rekenregels helpen zolang de limieten bestaan en eindig zijn: de "
+                  r"limiet van een som is de som van de limieten. Bij oneindig moet je opletten "
+                  r"voor onbepaaldheden."),
         ]),
         dict(kop="Continuïteit", blokken=[
-            ("p", "<strong>Een functie is continu in a als de functiewaarde in a bestaat en gelijk is aan "
-                  "de limiet daar.</strong> Drie dingen moeten dus kloppen: de limiet bestaat, de "
-                  "functiewaarde bestaat, en ze zijn gelijk. <strong>Op een grafiek betekent continuïteit "
-                  "dat je ze kan tekenen zonder je pen op te heffen.</strong> Een knik mag wel."),
-            ("p", "<strong>Elke veeltermfunctie is continu op heel haar domein</strong>: er zit geen noemer "
-                  "en geen wortel in, dus nergens een pool of een sprong. <strong>Eén gedeeld door x is "
-                  "niet continu in nul</strong>, want die functie bestaat daar niet. <strong>Verschillen de "
-                  "linker- en de rechterlimiet in een punt, dan zie je een sprong in de grafiek</strong>; "
-                  "bij een gat zijn de twee limieten net wel gelijk, maar ontbreekt de functiewaarde."),
-            ("p", "<strong>Continuïteit is belangrijk omdat je de limiet dan mag berekenen door gewoon in "
-                  "te vullen.</strong> En <strong>een functie die in een punt afleidbaar is, is daar zeker "
-                  "ook continu</strong>; omgekeerd geldt het niet, want de absolute waarde is continu in "
-                  "nul maar heeft er een knik en dus geen afgeleide."),
+            ("kader", r"\(f\) is continu in \(a\) als \(f(a)\) bestaat en "
+                      r"\(\lim\limits_{x \to a} f(x) = f(a)\)."),
+            ("p", r"Drie dingen moeten dus kloppen: de limiet bestaat, de functiewaarde bestaat, en "
+                  r"ze zijn gelijk. Op een grafiek betekent continuïteit dat je ze kan tekenen "
+                  r"zonder je pen op te heffen. Een knik mag wel."),
+            ("p", r"Elke veeltermfunctie is continu op heel haar domein: er zit geen noemer en geen "
+                  r"wortel in, dus nergens een pool of een sprong. \(f(x) = \dfrac{1}{x}\) is niet "
+                  r"continu in \(0\), want die functie bestaat daar niet. Verschillen de linker- en "
+                  r"de rechterlimiet, dan zie je een sprong; bij een gat zijn de twee limieten net "
+                  r"wel gelijk, maar ontbreekt de functiewaarde."),
+            ("p", r"Continuïteit is belangrijk omdat je de limiet dan mag berekenen door gewoon in "
+                  r"te vullen. En een functie die in een punt afleidbaar is, is daar zeker ook "
+                  r"continu; omgekeerd geldt het niet, want \(f(x) = |x|\) is continu in \(0\) maar "
+                  r"heeft er een knik en dus geen afgeleide."),
         ]),
-        dict(kop="Asymptoten", blokken=[
+        dict(kop="De drie soorten asymptoten", blokken=[
             ("p", tabel(["Soort asymptoot", "Hoe je ze vindt", "Wanneer ze er is"], [
                 ["verticaal", "de noemer nulstellen", "bij een pool van de functie"],
-                ["horizontaal", "de limiet op plus en min oneindig berekenen", "als die limiet een getal is"],
+                ["horizontaal", r"\(\lim\limits_{x \to \pm\infty} f(x)\) berekenen", "als die limiet een getal is"],
                 ["schuin", "de euclidische deling, of de formules van Cauchy", "als de graad van de teller precies één hoger is"],
             ])),
-            ("p", "<strong>Eén gedeeld door x min drie heeft één verticale asymptoot</strong>, met "
-                  "vergelijking <strong>x is drie</strong>. <strong>Een verticale asymptoot hoort bij een "
-                  "pool</strong>: daar gaat de functiewaarde naar plus of min oneindig."),
-            ("p", "<strong>Drie x plus één, gedeeld door x min twee, heeft de rechte y is drie als "
-                  "horizontale asymptoot</strong>: teller en noemer hebben dezelfde graad, dus je deelt de "
-                  "hoogste coëfficiënten. <strong>Een grafiek mag haar horizontale asymptoot snijden</strong>, "
-                  "zelfs meermaals; alleen op oneindig moet ze er onbeperkt dicht bij komen. Een verticale "
-                  "asymptoot snijden kan niet."),
-            ("p", "Bij een <strong>schuine asymptoot</strong> werk je met de <strong>euclidische "
-                  "deling</strong>: <strong>het quotiënt van de deling is de vergelijking van de "
-                  "asymptoot</strong>, want de rest gedeeld door de noemer kruipt naar nul. Zo heeft "
-                  "<strong>x kwadraat plus één, gedeeld door x, als schuine asymptoot y is x</strong>. "
-                  "Met de <strong>formules van Cauchy</strong> gaat het ook: de "
-                  "<strong>richtingscoëfficiënt is de limiet op oneindig van f van x gedeeld door x</strong>, "
-                  "en daarna vind je het snijpunt met de y-as als de limiet van f van x min die "
-                  "richtingscoëfficiënt maal x."),
-            ("p", "<strong>Een functie kan aan dezelfde kant niet tegelijk een horizontale en een schuine "
-                  "asymptoot hebben</strong>: allebei beschrijven ze het gedrag op oneindig, en dat kan maar "
-                  "één ding tegelijk zijn. Aan de andere kant kan het wel anders lopen. <strong>Een gewone "
-                  "parabool heeft nul asymptoten</strong>: ze groeit wel naar oneindig, maar nadert daarbij "
-                  "geen enkele rechte."),
-            ("kader", "<strong>Teken asymptoten als stippellijnen</strong>, want ze horen niet bij de "
-                      "grafiek. Een asymptoot is een hulplijn die het gedrag beschrijft."),
+            ("p", r"\(f(x) = \dfrac{1}{x-3}\) heeft één verticale asymptoot, met vergelijking "
+                  r"\(x = 3\). Een verticale asymptoot hoort bij een pool: daar gaat de "
+                  r"functiewaarde naar \(\pm\infty\)."),
+            ("p", r"\(f(x) = \dfrac{3x+1}{x-2}\) heeft \(y = 3\) als horizontale asymptoot: teller "
+                  r"en noemer hebben dezelfde graad, dus je deelt de hoogste coëfficiënten. Een "
+                  r"grafiek mag haar horizontale asymptoot snijden, zelfs meermaals; alleen op "
+                  r"oneindig moet ze er onbeperkt dicht bij komen. Een verticale asymptoot snijden "
+                  r"kan niet."),
+        ]),
+        dict(kop="De schuine asymptoot", blokken=[
+            ("p", r"Bij een schuine asymptoot werk je met de euclidische deling: het quotiënt is de "
+                  r"vergelijking van de asymptoot, want de rest gedeeld door de noemer kruipt naar "
+                  r"nul. Zo is \(\dfrac{x^{2}+1}{x} = x + \dfrac{1}{x}\), met \(y = x\) als schuine "
+                  r"asymptoot."),
+            ("kader", r"Formules van Cauchy: \(m = \lim\limits_{x \to \infty} \dfrac{f(x)}{x}\) en "
+                      r"\(q = \lim\limits_{x \to \infty} \left(f(x) - m\,x\right)\)."),
+            ("p", r"Een functie kan aan dezelfde kant niet tegelijk een horizontale en een schuine "
+                  r"asymptoot hebben: allebei beschrijven ze het gedrag op oneindig, en dat kan "
+                  r"maar één ding tegelijk zijn. Aan de andere kant kan het wel anders lopen. Een "
+                  r"gewone parabool heeft nul asymptoten: ze groeit wel naar oneindig, maar nadert "
+                  r"daarbij geen enkele rechte."),
+            ("kader", r"Teken asymptoten als stippellijnen, want ze horen niet bij de grafiek. Een "
+                      r"asymptoot is een hulplijn die het gedrag beschrijft."),
         ]),
     ],
     onthoud=[
-        "Een limiet zegt iets over de buurt van a, niet over a zelf.",
+        r"Een limiet zegt iets over de buurt van \(a\), niet over \(a\) zelf.",
         "De limiet in een punt bestaat als de linkerlimiet en de rechterlimiet gelijk zijn.",
-        "Bij nul op nul ontbind je en schrap je de gemeenschappelijke factor.",
+        r"Bij \(\dfrac{0}{0}\) ontbind je en schrap je de gemeenschappelijke factor.",
         "Op oneindig bepaalt enkel de term met de hoogste graad het gedrag van een veeltermfunctie.",
-        "De regel van de l'Hôpital pas je rechtstreeks toe op nul op nul en op oneindig op oneindig.",
-        "Een functie is continu in a als de functiewaarde in a bestaat en gelijk is aan de limiet daar.",
+        r"L'Hôpital mag rechtstreeks op \(\dfrac{0}{0}\) en \(\dfrac{\infty}{\infty}\).",
+        r"\(f\) is continu in \(a\) als \(\lim\limits_{x \to a} f(x) = f(a)\).",
         "Een functie die in een punt afleidbaar is, is daar ook continu; omgekeerd niet.",
-        "Een verticale asymptoot hoort bij een pool; je vindt ze door de noemer nul te stellen.",
-        "Bij een schuine asymptoot is het quotiënt van de euclidische deling de vergelijking van de asymptoot.",
+        "Verticale asymptoot: noemer nulstellen. Schuine: het quotiënt van de deling.",
     ],
 )
 
@@ -982,110 +1010,112 @@ BUNDELS["afgeleiden-en-het-verloop-van-een-functie-beyond"] = dict(
     onder="Van differentiequotiënt naar raaklijn, de rekenregels, en het volledige functieonderzoek.",
     secties=[
         dict(kop="Van gemiddelde naar ogenblikkelijke verandering", blokken=[
-            ("p", "<strong>Een differentiequotiënt berekent de gemiddelde verandering over een "
-                  "interval</strong>: je deelt het verschil in functiewaarden door het verschil in x. Voor "
-                  "<strong>x kwadraat tussen één en drie</strong> is dat <strong>vier</strong>: negen min "
-                  "één is acht, gedeeld door twee."),
-            ("p", "<strong>De afgeleide in een punt is de limiet van het differentiequotiënt.</strong> Je "
-                  "laat het tweede punt naar het eerste kruipen; de koorde wordt dan de raaklijn. "
-                  "<strong>Meetkundig is de afgeleide de richtingscoëfficiënt van de raaklijn in dat "
-                  "punt</strong>."),
-            ("p", "Een voorbeeld van begin tot eind: de <strong>raaklijn aan x kwadraat in het punt met x "
-                  "gelijk aan drie</strong> is <strong>y is zes x min negen</strong>. De helling is zes, "
-                  "het raakpunt is drie en negen, en invullen geeft q is min negen."),
+            ("fig", svg.koordeenraaklijn(),
+             "Twee punten geven een rechte; schuiven ze naar elkaar toe, dan blijft er één rechte over."),
+            ("p", r"Een differentiequotiënt \(\dfrac{f(b) - f(a)}{b - a}\) berekent de gemiddelde "
+                  r"verandering over een interval. Voor \(f(x) = x^{2}\) tussen \(1\) en \(3\) is "
+                  r"dat \(\dfrac{9 - 1}{3 - 1} = 4\)."),
+            ("kader", r"\(f'(a) = \lim\limits_{h \to 0} \dfrac{f(a+h) - f(a)}{h}\)"),
+            ("p", r"Je laat het tweede punt naar het eerste kruipen; de koorde wordt dan de "
+                  r"raaklijn. Meetkundig is \(f'(a)\) dus de richtingscoëfficiënt van de raaklijn "
+                  r"in dat punt. Een voorbeeld van begin tot eind: de raaklijn aan \(f(x) = x^{2}\) "
+                  r"in \(x = 3\) is \(y = 6x - 9\). De helling is \(f'(3) = 6\), het raakpunt is "
+                  r"\((3,\ 9)\), en invullen geeft \(q = -9\)."),
         ]),
         dict(kop="De rekenregels", blokken=[
             ("p", tabel(["Functie", "Haar afgeleide", "Let op"], [
-                ["x tot de macht n", "n maal x tot de macht n min één", "de exponent komt vooraan en gaat zelf met één omlaag"],
-                ["een constante functie", "nul", "de grafiek is een horizontale rechte"],
-                ["vijf x plus twee", "vijf", "de afgeleide van een rechte is haar richtingscoëfficiënt"],
-                ["de sinus van x", "de cosinus van x", "en de cosinus van x geeft min de sinus van x"],
-                ["e tot de macht x", "e tot de macht x", "de machtsregel geldt hier niet, x staat in de exponent"],
-                ["de natuurlijke logaritme van x", "één gedeeld door x", "altijd positief, dus de functie stijgt overal"],
+                [r"\(x^{n}\)", r"\(n\,x^{n-1}\)", "de exponent komt vooraan en gaat zelf met één omlaag"],
+                [r"\(c\)", r"\(0\)", "de grafiek is een horizontale rechte"],
+                [r"\(5x + 2\)", r"\(5\)", "de afgeleide van een rechte is haar richtingscoëfficiënt"],
+                [r"\(\sin x\)", r"\(\cos x\)", r"en \(\left(\cos x\right)' = -\sin x\)"],
+                [r"\(e^{x}\)", r"\(e^{x}\)", r"de machtsregel geldt hier niet, \(x\) staat in de exponent"],
+                [r"\(\ln x\)", r"\(\dfrac{1}{x}\)", "altijd positief, dus de functie stijgt overal"],
             ])),
-            ("p", "Zo is de afgeleide van <strong>x kwadraat in drie gelijk aan zes</strong> en die van "
-                  "<strong>x tot de derde in twee gelijk aan twaalf</strong>. Sinus wordt cosinus, en "
-                  "cosinus wordt min sinus: pas na vier keer afleiden sta je weer bij het begin."),
-            ("p", "<strong>De productregel</strong> luidt: <strong>de afgeleide van de eerste maal de "
-                  "tweede, plus de eerste maal de afgeleide van de tweede</strong>. <strong>De afgeleide "
-                  "van een product is dus niet het product van de afgeleiden</strong>: probeer het met x "
-                  "maal x, de afgeleide is twee x en niet één. Bij de <strong>quotiëntregel</strong> staat "
-                  "<strong>de noemer van de breuk in het kwadraat in de noemer</strong>, en in de teller "
-                  "de afgeleide van de teller maal de noemer, min de teller maal de afgeleide van de "
-                  "noemer. Het minteken hoort dus bij de quotiëntregel, niet bij de productregel."),
-            ("p", "<strong>De kettingregel</strong> zegt: <strong>de afgeleide van de buitenste functie, "
-                  "maal de afgeleide van de binnenste</strong>. Je leidt af van buiten naar binnen en "
-                  "vermenigvuldigt onderweg. De binnenste afgeleide vergeten is de klassieke fout."),
+            ("p", r"Zo is \(f'(3) = 6\) voor \(f(x) = x^{2}\), en \(f'(2) = 12\) voor "
+                  r"\(f(x) = x^{3}\). Sinus wordt cosinus, en cosinus wordt min sinus: pas na vier "
+                  r"keer afleiden sta je weer bij het begin."),
+        ]),
+        dict(kop="Product, quotiënt en ketting", blokken=[
+            ("kader", r"\(\left(u\,v\right)' = u'v + u\,v'\), "
+                      r"\(\left(\dfrac{u}{v}\right)' = \dfrac{u'v - u\,v'}{v^{2}}\) en "
+                      r"\(\left(f(g(x))\right)' = f'(g(x)) \cdot g'(x)\)"),
+            ("p", r"De afgeleide van een product is dus niet het product van de afgeleiden: "
+                  r"probeer het met \(x \cdot x\), de afgeleide is \(2x\) en niet \(1\). Bij de "
+                  r"quotiëntregel staat de noemer in het kwadraat onderaan, en let op het "
+                  r"minteken: dat hoort bij de quotiëntregel, niet bij de productregel."),
+            ("p", r"De kettingregel leid je af van buiten naar binnen, en onderweg vermenigvuldig "
+                  r"je. De binnenste afgeleide vergeten is de klassieke fout: "
+                  r"\(\left(\sin 3x\right)' = 3\cos 3x\), niet \(\cos 3x\)."),
         ]),
         dict(kop="De hellinggrafiek", blokken=[
-            ("p", "<strong>Op de verticale as van een hellinggrafiek staat de afgeleide van de "
-                  "oorspronkelijke functie.</strong> Een hellinggrafiek is dus gewoon de grafiek van de "
-                  "afgeleide functie."),
-            ("p", "<strong>Waar de functie een vloeiend maximum heeft, snijdt haar afgeleide de "
-                  "x-as</strong>: in de top loopt de raaklijn horizontaal, dus is de afgeleide daar nul en "
-                  "wisselt ze van teken."),
+            ("p", r"Op de verticale as van een hellinggrafiek staat \(f'(x)\). Een hellinggrafiek "
+                  r"is dus gewoon de grafiek van de afgeleide functie."),
+            ("p", r"Waar \(f\) een vloeiend maximum heeft, snijdt \(f'\) de \(x\)-as: in de top "
+                  r"loopt de raaklijn horizontaal, dus is de afgeleide daar nul en wisselt ze van "
+                  r"teken."),
         ]),
         dict(kop="Stijgen, dalen en extrema", blokken=[
-            ("p", "<strong>Is de afgeleide op een interval positief, dan stijgt de functie daar.</strong> "
-                  "Het teken van de afgeleide gaat over de richting, niet over de hoogte: een stijgende "
-                  "functie kan best negatieve waarden hebben."),
-            ("p", "<strong>Is de afgeleide nul in a en wisselt ze daar van plus naar min, dan heeft de "
-                  "functie in a een maximum</strong>; van min naar plus geeft een minimum. <strong>Niet elk "
-                  "punt waar de afgeleide nul is, is een extremum</strong>: bij x tot de derde is de "
-                  "afgeleide nul in nul, maar de functie blijft stijgen. Zonder tekenwissel is er geen "
-                  "extremum. En <strong>een functie kan een maximum bereiken in een punt waar ze niet "
-                  "afleidbaar is</strong>, zoals in de scherpe punt van min de absolute waarde van x."),
-            ("p", "<strong>x tot de derde min drie x heeft twee extrema</strong>: de afgeleide drie x "
-                  "kwadraat min drie is nul in min één en in één. Het <strong>minimum ligt bij x gelijk aan "
-                  "één</strong>. <strong>Twee nulwaarden van de afgeleide verdelen de getallenas in drie "
-                  "stukken</strong> in het tekenschema."),
-            ("p", "<strong>Is de tweede afgeleide op een interval positief, dan is de grafiek daar hol</strong>, "
-                  "met de holle kant naar boven: de helling neemt toe. <strong>Buigpunten vind je waar de "
-                  "tweede afgeleide nul is en van teken wisselt.</strong> <strong>De eerste afgeleide hoeft "
-                  "in een buigpunt niet nul te zijn</strong>: een buigpunt kan midden op een stijgend stuk "
-                  "liggen, want alleen de kromming verandert er. Is de eerste afgeleide nul in a en de "
-                  "tweede daar positief, dan ligt er <strong>een minimum</strong>; dat is de "
-                  "tweede-afgeleidetest."),
-            ("p", "<strong>Stijgt een functie steeds trager, dan is haar eerste afgeleide positief en haar "
-                  "tweede negatief.</strong> Stijgen geeft een positieve eerste afgeleide; trager stijgen "
-                  "betekent dat die afgeleide zelf daalt."),
-            ("p", "In de <strong>samenvattende tabel van een functieonderzoek</strong> zet je <strong>het "
-                  "teken van de eerste en de tweede afgeleide, met stijgen, dalen, hol, bol, extrema en "
-                  "buigpunten</strong>. Daarmee kan je de grafiek schetsen zonder nog één punt te berekenen."),
+            ("p", r"Is \(f'(x) > 0\) op een interval, dan stijgt de functie daar. Het teken van de "
+                  r"afgeleide gaat over de richting, niet over de hoogte: een stijgende functie kan "
+                  r"best negatieve waarden hebben."),
+            ("p", r"Is \(f'(a) = 0\) en wisselt \(f'\) daar van plus naar min, dan heeft \(f\) in "
+                  r"\(a\) een maximum; van min naar plus geeft een minimum. Niet elk punt waar de "
+                  r"afgeleide nul is, is een extremum: bij \(f(x) = x^{3}\) is \(f'(0) = 0\), maar "
+                  r"de functie blijft stijgen. En een functie kan een maximum bereiken in een punt "
+                  r"waar ze niet afleidbaar is, zoals in de scherpe punt van \(f(x) = -|x|\)."),
+            ("p", r"\(f(x) = x^{3} - 3x\) heeft twee extrema: \(f'(x) = 3x^{2} - 3\) is nul in "
+                  r"\(-1\) en in \(1\). Het minimum ligt bij \(x = 1\). Twee nulwaarden van de "
+                  r"afgeleide verdelen de getallenas in drie stukken in het tekenschema."),
         ]),
-        dict(kop="Twee stellingen en de toepassingen", blokken=[
-            ("p", "<strong>De stelling van Rolle eist dat de functiewaarden in de twee uiteinden gelijk "
-                  "zijn.</strong> Pas dan kan je besluiten dat er ergens tussenin een punt ligt met een "
-                  "horizontale raaklijn. <strong>De middelwaardestelling van Lagrange</strong> zegt dat "
-                  "<strong>ergens de raaklijn evenwijdig is met de koorde tussen de uiteinden</strong>: er "
-                  "is dus een punt waar de ogenblikkelijke verandering gelijk is aan de gemiddelde. Rolle "
-                  "is het bijzondere geval waarin die koorde horizontaal loopt."),
-            ("p", "<strong>De eerste stap bij een extremumprobleem met context is zelf een veranderlijke "
-                  "kiezen en het functievoorschrift opstellen.</strong> Zonder voorschrift valt er niets af "
-                  "te leiden. Daarna bereken je de extrema, en <strong>je gaat na of je oplossing in het "
-                  "praktisch domein ligt</strong>: een negatieve lengte is wiskundig misschien een "
-                  "oplossing, in de opgave niet."),
-            ("p", "Twee toepassingen uit de praktijk. Geeft een functie de <strong>afgelegde weg in functie "
-                  "van de tijd</strong>, dan is haar afgeleide <strong>de snelheid op dat ogenblik</strong>; "
-                  "de afgeleide van de snelheid is de versnelling, en de gemiddelde snelheid is het "
-                  "differentiequotiënt over het hele interval. Kent een bedrijf zijn <strong>totale kost in "
-                  "functie van het aantal stuks</strong>, dan is de <strong>marginale kost de afgeleide van "
-                  "de totale kost</strong>: ze zegt wat één extra stuk ongeveer kost."),
-            ("weetje", "<strong>Is de afgeleide overal positief, dan is de functie overal strikt stijgend "
-                       "en dus inverteerbaar.</strong> Strikt stijgend betekent immers dat elke "
-                       "functiewaarde maar één keer voorkomt."),
+        dict(kop="Hol, bol en buigpunten", blokken=[
+            ("p", r"Is \(f''(x) > 0\) op een interval, dan is de grafiek daar hol, met de holle "
+                  r"kant naar boven: de helling neemt toe. Buigpunten vind je waar \(f''(x) = 0\) "
+                  r"én \(f''\) van teken wisselt."),
+            ("p", r"\(f'\) hoeft in een buigpunt niet nul te zijn: een buigpunt kan midden op een "
+                  r"stijgend stuk liggen, want alleen de kromming verandert er. Is \(f'(a) = 0\) en "
+                  r"\(f''(a) > 0\), dan ligt er een minimum; dat is de tweede-afgeleidetest."),
+            ("p", r"Stijgt een functie steeds trager, dan is \(f' > 0\) en \(f'' < 0\). Stijgen "
+                  r"geeft een positieve eerste afgeleide; trager stijgen betekent dat die afgeleide "
+                  r"zelf daalt. In de samenvattende tabel van een functieonderzoek zet je het teken "
+                  r"van \(f'\) en \(f''\), met stijgen, dalen, hol, bol, extrema en buigpunten. "
+                  r"Daarmee schets je de grafiek zonder nog één punt te berekenen."),
+        ]),
+        dict(kop="Rolle en Lagrange", blokken=[
+            ("p", r"De stelling van Rolle eist dat \(f(a) = f(b)\) in de twee uiteinden. Pas dan "
+                  r"kan je besluiten dat er ergens tussenin een punt ligt met een horizontale "
+                  r"raaklijn."),
+            ("kader", r"Middelwaardestelling van Lagrange: er is een \(c\) tussen \(a\) en \(b\) "
+                      r"met \(f'(c) = \dfrac{f(b) - f(a)}{b - a}\)."),
+            ("p", r"Ergens is de raaklijn dus evenwijdig met de koorde tussen de uiteinden: er is "
+                  r"een punt waar de ogenblikkelijke verandering gelijk is aan de gemiddelde. Rolle "
+                  r"is het bijzondere geval waarin die koorde horizontaal loopt."),
+        ]),
+        dict(kop="Toepassingen", blokken=[
+            ("p", r"De eerste stap bij een extremumprobleem met context is zelf een veranderlijke "
+                  r"kiezen en het functievoorschrift opstellen. Zonder voorschrift valt er niets af "
+                  r"te leiden. Daarna bereken je de extrema, en je gaat na of je oplossing in het "
+                  r"praktisch domein ligt: een negatieve lengte is wiskundig misschien een "
+                  r"oplossing, in de opgave niet."),
+            ("p", r"Geeft \(s(t)\) de afgelegde weg in functie van de tijd, dan is \(s'(t)\) de "
+                  r"snelheid op dat ogenblik; de afgeleide daarvan is de versnelling, en de "
+                  r"gemiddelde snelheid is het differentiequotiënt over het hele interval. Kent een "
+                  r"bedrijf zijn totale kost in functie van het aantal stuks, dan is de marginale "
+                  r"kost de afgeleide van die totale kost: ze zegt wat één extra stuk ongeveer kost."),
+            ("weetje", r"Is \(f'(x) > 0\) op heel het domein, dan is \(f\) overal strikt stijgend "
+                       r"en dus inverteerbaar. Strikt stijgend betekent immers dat elke "
+                       r"functiewaarde maar één keer voorkomt."),
         ]),
     ],
     onthoud=[
         "Een differentiequotiënt berekent de gemiddelde verandering over een interval.",
-        "De afgeleide in een punt is de richtingscoëfficiënt van de raaklijn in dat punt.",
-        "De afgeleide van x tot de macht n is n maal x tot de macht n min één.",
-        "De afgeleide van een product is niet het product van de afgeleiden.",
-        "Kettingregel: de afgeleide van de buitenste functie maal de afgeleide van de binnenste.",
-        "Waar de functie een vloeiend maximum heeft, snijdt haar afgeleide de x-as.",
+        r"\(f'(a)\) is de richtingscoëfficiënt van de raaklijn in dat punt.",
+        r"\(\left(x^{n}\right)' = n\,x^{n-1}\).",
+        r"\(\left(u\,v\right)' = u'v + u\,v'\): niet het product van de afgeleiden.",
+        r"Kettingregel: \(\left(f(g(x))\right)' = f'(g(x)) \cdot g'(x)\).",
+        r"Waar \(f\) een vloeiend maximum heeft, snijdt \(f'\) de \(x\)-as.",
         "Is de afgeleide nul zonder tekenwissel, dan is er geen extremum.",
-        "Buigpunten vind je waar de tweede afgeleide nul is en van teken wisselt.",
-        "De stelling van Rolle eist dat de functiewaarden in de twee uiteinden gelijk zijn.",
+        r"Buigpunten: \(f''(x) = 0\) én een tekenwissel.",
+        r"Rolle eist \(f(a) = f(b)\); Lagrange geeft een raaklijn evenwijdig met de koorde.",
     ],
 )
 

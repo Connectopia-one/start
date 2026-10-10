@@ -13,43 +13,47 @@ Deel 2 is continuïteit en het verband tussen limieten en asymptoten.
 DEEL1 = [
     dict(
         type="meerkeuze",
-        vraag="Wat betekent: de limiet van f voor x naar a is b?",
+        vraag=r"Wat betekent \(\lim\limits_{x \to a} f(x) = b\)?",
         opties=[
-            "de functiewaarden naderen b als x dicht genoeg bij a komt",
-            "de functiewaarde in a is precies gelijk aan het getal b",
-            "de functie bereikt de waarde b ergens tussen a en b",
-            "de grafiek snijdt de rechte y is b in het punt a",
+            r"de functiewaarden naderen \(b\) als \(x\) dicht genoeg bij \(a\) komt",
+            r"de functiewaarde in \(a\) is precies gelijk aan \(b\)",
+            r"de functie bereikt de waarde \(b\) ergens tussen \(a\) en \(b\)",
+            r"de grafiek snijdt de rechte \(y = b\) in het punt \(a\)",
         ],
         antwoord=0,
-        uitleg="Een limiet zegt iets over de buurt van a, niet over a zelf. De functie hoeft daar zelfs niet gedefinieerd te zijn.",
+        uitleg=r"Een limiet zegt iets over de buurt van \(a\), niet over \(a\) zelf. De functie "
+        r"hoeft daar zelfs niet gedefinieerd te zijn.",
     ),
     dict(
         type="meerkeuze",
-        vraag="In de epsilon-deltadefinitie van een limiet: welk getal is eerst gegeven?",
+        vraag=r"In de \(\varepsilon\)-\(\delta\)-definitie van een limiet: welk getal is eerst gegeven?",
         opties=[
-            "epsilon, de gewenste nauwkeurigheid op de y-as",
-            "delta, de toegelaten afstand op de x-as rond a",
-            "de waarde a waar de limiet wordt genomen",
-            "de limietwaarde b die je wil bereiken",
+            r"\(\varepsilon\), de gewenste nauwkeurigheid op de \(y\)-as",
+            r"\(\delta\), de toegelaten afstand op de \(x\)-as rond \(a\)",
+            r"de waarde \(a\) waar de limiet wordt genomen",
+            r"de limietwaarde \(b\) die je wil bereiken",
         ],
         antwoord=0,
-        uitleg="Iemand daagt je uit met een epsilon, en jij moet er een delta bij vinden. Die volgorde omdraaien maakt de definitie betekenisloos.",
+        uitleg=r"Iemand daagt je uit met een \(\varepsilon\), en jij moet er een \(\delta\) bij "
+        r"vinden. Die volgorde omdraaien maakt de definitie betekenisloos.",
     ),
     dict(
         type="invultekst",
-        vraag="Hoeveel is de limiet voor x naar twee van x kwadraat min vier, gedeeld door x min twee? Schrijf het getal.",
+        vraag=r"Hoeveel is \(\lim\limits_{x \to 2} \dfrac{x^{2} - 4}{x - 2}\)? Schrijf het getal.",
         antwoord=["4", "vier"],
-        uitleg="Teller en noemer worden allebei nul. Ontbind de teller en schrap x min twee: er blijft x plus twee over, en dat is vier in twee.",
+        uitleg=r"Teller en noemer worden allebei \(0\). Ontbind de teller tot \((x-2)(x+2)\) en "
+        r"schrap \(x - 2\): er blijft \(x + 2\) over, en dat is \(4\) in \(x = 2\).",
     ),
     dict(
         type="waarofniet",
-        vraag="Een functie moet in a gedefinieerd zijn om daar een limiet te hebben.",
+        vraag=r"Een functie moet in \(a\) gedefinieerd zijn om daar een limiet te hebben.",
         antwoord=False,
-        uitleg="Net niet: in het voorbeeld hierboven bestaat de functie niet in twee, maar de limiet bestaat wel. Daar ligt een perforatie.",
+        uitleg=r"Net niet: in het voorbeeld hierboven bestaat de functie niet in \(x = 2\), maar de "
+        r"limiet bestaat wel. Daar ligt een perforatie.",
     ),
     dict(
         type="meerkeuze",
-        vraag="Bij een rationale functie geven teller en noemer allebei nul. Wat doe je?",
+        vraag=r"Bij een rationale functie geven teller en noemer allebei \(0\). Wat doe je?",
         opties=[
             "ontbinden en de gemeenschappelijke factor schrappen",
             "meteen besluiten dat de limiet nul moet zijn",
@@ -57,35 +61,38 @@ DEEL1 = [
             "de teller en de noemer bij elkaar optellen",
         ],
         antwoord=0,
-        uitleg="Nul gedeeld door nul is een onbepaaldheid: je weet nog niets. Na het schrappen blijkt er een perforatie of een pool te liggen.",
+        uitleg=r"\(\dfrac{0}{0}\) is een onbepaaldheid: je weet nog niets. Na het schrappen blijkt "
+        r"er een perforatie of een pool te liggen.",
     ),
     dict(
         type="meerkeuze",
-        vraag="Bij een rationale functie is de teller niet nul en de noemer wel. Wat besluit je?",
+        vraag=r"Bij een rationale functie is de teller niet \(0\) en de noemer wel. Wat besluit je?",
         opties=[
-            "er ligt een pool, dus de limiet is plus of min oneindig",
+            r"er ligt een pool, dus de limiet is \(\pm\infty\)",
             "er ligt een perforatie, dus de limiet is een gewoon getal",
             "de limiet is nul, want de noemer wordt heel klein",
             "de limiet bestaat niet en je kan er niets over zeggen",
         ],
         antwoord=0,
-        uitleg="Een heel kleine noemer maakt de breuk heel groot. Met een tekenonderzoek links en rechts bepaal je welk teken.",
+        uitleg="Een heel kleine noemer maakt de breuk heel groot. Met een tekenonderzoek links en "
+        "rechts bepaal je welk teken.",
     ),
     dict(
         type="waarofniet",
         vraag="Een perforatie is een punt dat op de grafiek ontbreekt, terwijl de limiet er wel bestaat.",
         antwoord=True,
-        uitleg="Je tekent er een open bolletje. De functie is er niet gedefinieerd, maar de grafiek loopt er verder gewoon door.",
+        uitleg="Je tekent er een open bolletje. De functie is er niet gedefinieerd, maar de grafiek "
+        "loopt er verder gewoon door.",
     ),
     dict(
         type="invultekst",
-        vraag="Hoeveel is de limiet voor x naar plus oneindig van drie x kwadraat plus één, gedeeld door x kwadraat min vijf? Schrijf het getal.",
+        vraag=r"Hoeveel is \(\lim\limits_{x \to +\infty} \dfrac{3x^{2} + 1}{x^{2} - 5}\)? Schrijf het getal.",
         antwoord=["3", "drie"],
-        uitleg="Bij gelijke graad delen de hoogstegraadstermen elkaar: drie x kwadraat op x kwadraat is drie.",
+        uitleg=r"Bij gelijke graad delen de hoogstegraadstermen elkaar: \(\dfrac{3x^{2}}{x^{2}} = 3\).",
     ),
     dict(
         type="meerkeuze",
-        vraag="Je hebt oneindig min oneindig met twee wortels. Welke truc gebruik je?",
+        vraag=r"Je hebt \(\infty - \infty\) met twee wortels. Welke truc gebruik je?",
         opties=[
             "vermenigvuldigen met de toegevoegde tweeterm",
             "de regel van de l'Hôpital meteen toepassen",
@@ -93,29 +100,31 @@ DEEL1 = [
             "de hoogstegraadsterm uit de noemer afzonderen",
         ],
         antwoord=0,
-        uitleg="Het verschil maal de som geeft het verschil van de kwadraten, en daarmee verdwijnen de wortels uit de teller.",
+        uitleg=r"\((a-b)(a+b) = a^{2} - b^{2}\), en daarmee verdwijnen de wortels uit de teller.",
     ),
     dict(
         type="waarofniet",
-        vraag="De regel van de l'Hôpital mag je toepassen op twee gedeeld door nul.",
+        vraag=r"De regel van de l'Hôpital mag je toepassen op \(\dfrac{2}{0}\).",
         antwoord=False,
-        uitleg="Twee gedeeld door nul is geen onbepaaldheid maar een pool: het antwoord is oneindig. L'Hôpital geldt alleen bij echte onbepaaldheden.",
+        uitleg=r"\(\dfrac{2}{0}\) is geen onbepaaldheid maar een pool: het antwoord is oneindig. "
+        r"L'Hôpital geldt alleen bij echte onbepaaldheden.",
     ),
     dict(
         type="meerkeuze",
         vraag="Op welke vormen mag je de regel van de l'Hôpital rechtstreeks toepassen?",
         opties=[
-            "nul op nul en oneindig op oneindig",
-            "nul op nul en nul maal een getal",
-            "oneindig plus oneindig en nul op één",
+            r"\(\dfrac{0}{0}\) en \(\dfrac{\infty}{\infty}\)",
+            r"\(\dfrac{0}{0}\) en \(0 \cdot a\)",
+            r"\(\infty + \infty\) en \(\dfrac{0}{1}\)",
             "elke breuk met een nul in de noemer",
         ],
         antwoord=0,
-        uitleg="De andere onbepaaldheden, zoals nul maal oneindig of oneindig min oneindig, moet je eerst omvormen tot een van die twee breuken.",
+        uitleg=r"De andere onbepaaldheden, zoals \(0 \cdot \infty\) of \(\infty - \infty\), moet je "
+        r"eerst omvormen tot een van die twee breuken.",
     ),
     dict(
         type="invultekst",
-        vraag="Hoeveel is de limiet voor x naar plus oneindig van twee x plus één, gedeeld door x kwadraat? Schrijf het getal.",
+        vraag=r"Hoeveel is \(\lim\limits_{x \to +\infty} \dfrac{2x + 1}{x^{2}}\)? Schrijf het getal.",
         antwoord=["0", "nul"],
         uitleg="De noemer groeit sneller dan de teller, dus de breuk kruipt naar nul.",
     ),
@@ -133,9 +142,10 @@ DEEL1 = [
     ),
     dict(
         type="waarofniet",
-        vraag="De limiet voor x naar nul van één gedeeld door x bestaat.",
+        vraag=r"\(\lim\limits_{x \to 0} \dfrac{1}{x}\) bestaat.",
         antwoord=False,
-        uitleg="Van links kruipt ze naar min oneindig en van rechts naar plus oneindig. Die twee zijn verschillend, dus de limiet bestaat niet.",
+        uitleg=r"Van links kruipt ze naar \(-\infty\) en van rechts naar \(+\infty\). Die twee zijn "
+        r"verschillend, dus de limiet bestaat niet.",
     ),
     dict(
         type="meerkeuze",
@@ -147,7 +157,8 @@ DEEL1 = [
             "de limiet van de som is de som gedeeld door twee",
         ],
         antwoord=0,
-        uitleg="Dat geldt zolang beide limieten bestaan en eindig zijn. Bij oneindig moet je opletten voor onbepaaldheden.",
+        uitleg="Dat geldt zolang beide limieten bestaan en eindig zijn. Bij oneindig moet je "
+        "opletten voor onbepaaldheden.",
     ),
     dict(
         type="meerkeuze",
@@ -159,17 +170,18 @@ DEEL1 = [
             "het aantal nulwaarden dat ze heeft",
         ],
         antwoord=0,
-        uitleg="Voor heel grote x verdwijnen de lagere termen in het niet bij de hoogste.",
+        uitleg=r"Voor heel grote \(x\) verdwijnen de lagere termen in het niet bij de hoogste.",
     ),
     dict(
         type="waarofniet",
-        vraag="De limiet voor x naar nul van één gedeeld door x kwadraat is plus oneindig.",
+        vraag=r"\(\lim\limits_{x \to 0} \dfrac{1}{x^{2}} = +\infty\).",
         antwoord=True,
-        uitleg="Een kwadraat is langs beide kanten positief, dus de breuk gaat aan beide zijden naar plus oneindig. Hier bestaat de limiet dus wel.",
+        uitleg=r"Een kwadraat is langs beide kanten positief, dus de breuk gaat aan beide zijden "
+        r"naar \(+\infty\). Hier bestaat de limiet dus wel.",
     ),
     dict(
         type="invultekst",
-        vraag="Hoeveel is de limiet voor x naar drie van x plus vijf? Schrijf het getal.",
+        vraag=r"Hoeveel is \(\lim\limits_{x \to 3} (x + 5)\)? Schrijf het getal.",
         antwoord=["8", "acht"],
         uitleg="De functie is continu, dus je mag gewoon invullen.",
     ),
@@ -183,7 +195,8 @@ DEEL1 = [
             "de teller en de noemer bij elkaar optellen",
         ],
         antwoord=0,
-        uitleg="Zo haal je de grootste macht uit de wortel en zie je meteen welke term de limiet bepaalt.",
+        uitleg=r"Zo haal je de grootste macht uit de wortel, bijvoorbeeld "
+        r"\(\sqrt{x^{2}+x} = |x|\sqrt{1 + \tfrac{1}{x}}\), en zie je welke term de limiet bepaalt.",
     ),
     dict(
         type="meerkeuze",
@@ -195,19 +208,20 @@ DEEL1 = [
             "een limiet die oneindig groot blijkt te worden",
         ],
         antwoord=0,
-        uitleg="Nul op nul kan alles opleveren: een getal, oneindig of niets. Je moet eerst herschrijven.",
+        uitleg=r"\(\dfrac{0}{0}\) kan alles opleveren: een getal, oneindig of niets. Je moet eerst "
+        r"herschrijven.",
     ),
 ]
 
 DEEL2 = [
     dict(
         type="meerkeuze",
-        vraag="Wanneer is een functie continu in een punt a?",
+        vraag=r"Wanneer is een functie continu in een punt \(a\)?",
         opties=[
-            "als de functiewaarde in a bestaat en gelijk is aan de limiet daar",
-            "als de functie in a stijgt of in a daalt",
-            "als de limiet in a bestaat, wat de functiewaarde daar ook is",
-            "als de functie in a een afgeleide heeft die nul is",
+            r"als \(f(a)\) bestaat en gelijk is aan \(\lim\limits_{x \to a} f(x)\)",
+            r"als de functie in \(a\) stijgt of in \(a\) daalt",
+            r"als de limiet in \(a\) bestaat, wat \(f(a)\) ook is",
+            r"als de functie in \(a\) een afgeleide heeft die \(0\) is",
         ],
         antwoord=0,
         uitleg="Drie dingen moeten kloppen: de limiet bestaat, de functiewaarde bestaat, en ze zijn gelijk.",
@@ -222,55 +236,58 @@ DEEL2 = [
             "ze heeft nergens een scherpe knik of een hoekpunt",
         ],
         antwoord=0,
-        uitleg="Een knik mag wel: de absolute waarde is continu in nul, maar daar niet afleidbaar.",
+        uitleg=r"Een knik mag wel: \(f(x) = |x|\) is continu in \(0\), maar daar niet afleidbaar.",
     ),
     dict(
         type="invultekst",
-        vraag="Hoeveel verticale asymptoten heeft één gedeeld door x min drie? Schrijf het cijfer.",
+        vraag=r"Hoeveel verticale asymptoten heeft \(f(x) = \dfrac{1}{x - 3}\)? Schrijf het cijfer.",
         antwoord=["1", "een", "één"],
-        uitleg="Alleen in x gelijk aan drie wordt de noemer nul.",
+        uitleg=r"Alleen in \(x = 3\) wordt de noemer nul.",
     ),
     dict(
         type="waarofniet",
         vraag="Een verticale asymptoot hoort bij een pool van de functie.",
         antwoord=True,
-        uitleg="In een pool gaat de functiewaarde naar plus of min oneindig, en dat is precies wat een verticale asymptoot beschrijft.",
+        uitleg=r"In een pool gaat de functiewaarde naar \(\pm\infty\), en dat is precies wat een "
+        r"verticale asymptoot beschrijft.",
     ),
     dict(
         type="meerkeuze",
         vraag="Hoe vind je de horizontale asymptoot van een functie?",
         opties=[
-            "door de limiet op plus en min oneindig te berekenen",
-            "door de noemer gelijk te stellen aan het getal nul",
+            r"door \(\lim\limits_{x \to \pm\infty} f(x)\) te berekenen",
+            r"door de noemer gelijk te stellen aan \(0\)",
             "door de nulwaarden van de functie te berekenen",
-            "door de afgeleide gelijk te stellen aan het getal nul",
+            r"door \(f'(x) = 0\) op te lossen",
         ],
         antwoord=0,
         uitleg="De noemer nulstellen geeft net de verticale asymptoten, niet de horizontale.",
     ),
     dict(
         type="meerkeuze",
-        vraag="Welke horizontale asymptoot heeft drie x plus één, gedeeld door x min twee?",
+        vraag=r"Welke horizontale asymptoot heeft \(f(x) = \dfrac{3x + 1}{x - 2}\)?",
         opties=[
-            "de rechte y is drie",
-            "de rechte y is nul",
-            "de rechte y is twee",
-            "de rechte x is twee",
+            r"\(y = 3\)",
+            r"\(y = 0\)",
+            r"\(y = 2\)",
+            r"\(x = 2\)",
         ],
         antwoord=0,
-        uitleg="Teller en noemer hebben dezelfde graad, dus je deelt de hoogste coëfficiënten: drie op één.",
+        uitleg=r"Teller en noemer hebben dezelfde graad, dus je deelt de hoogste coëfficiënten: "
+        r"\(\dfrac{3}{1}\).",
     ),
     dict(
         type="waarofniet",
         vraag="Een grafiek mag haar horizontale asymptoot nooit snijden.",
         antwoord=False,
-        uitleg="Dat mag wel, zelfs meermaals. Alleen op oneindig moet ze er onbeperkt dicht bij komen. Een verticale asymptoot snijden kan niet.",
+        uitleg="Dat mag wel, zelfs meermaals. Alleen op oneindig moet ze er onbeperkt dicht bij "
+        "komen. Een verticale asymptoot snijden kan niet.",
     ),
     dict(
         type="invultekst",
-        vraag="De verticale asymptoot van één gedeeld door x min drie heeft als vergelijking x is een getal. Welk getal?",
+        vraag=r"De verticale asymptoot van \(f(x) = \dfrac{1}{x - 3}\) heeft als vergelijking \(x = \) welk getal?",
         antwoord=["3", "drie"],
-        uitleg="Voor x gelijk aan drie wordt de noemer nul en schiet de functie naar oneindig.",
+        uitleg=r"Voor \(x = 3\) wordt de noemer nul en schiet de functie naar oneindig.",
     ),
     dict(
         type="meerkeuze",
@@ -282,31 +299,35 @@ DEEL2 = [
             "als de teller en de noemer allebei de graad twee hebben, precies",
         ],
         antwoord=0,
-        uitleg="Bij gelijke graad krijg je een horizontale asymptoot, bij een lagere teller is dat de x-as zelf.",
+        uitleg=r"Bij gelijke graad krijg je een horizontale asymptoot, bij een lagere teller is dat "
+        r"de \(x\)-as zelf.",
     ),
     dict(
         type="waarofniet",
         vraag="Een functie kan aan dezelfde kant tegelijk een horizontale en een schuine asymptoot hebben.",
         antwoord=False,
-        uitleg="Allebei beschrijven ze het gedrag op oneindig, en dat kan maar één ding tegelijk zijn. Aan de andere kant kan het wel anders lopen.",
+        uitleg="Allebei beschrijven ze het gedrag op oneindig, en dat kan maar één ding tegelijk "
+        "zijn. Aan de andere kant kan het wel anders lopen.",
     ),
     dict(
         type="meerkeuze",
         vraag="In de formules van Cauchy voor een schuine asymptoot: hoe bereken je de richtingscoëfficiënt?",
         opties=[
-            "als de limiet op oneindig van f van x gedeeld door x",
-            "als de limiet op oneindig van f van x min het getal x",
-            "als de limiet op oneindig van f van x zelf",
-            "als de functiewaarde van f in het getal één",
+            r"\(m = \lim\limits_{x \to \infty} \dfrac{f(x)}{x}\)",
+            r"\(m = \lim\limits_{x \to \infty} \left(f(x) - x\right)\)",
+            r"\(m = \lim\limits_{x \to \infty} f(x)\)",
+            r"\(m = f(1)\)",
         ],
         antwoord=0,
-        uitleg="Daarna vind je het snijpunt met de y-as als de limiet van f van x min die richtingscoëfficiënt maal x.",
+        uitleg=r"Daarna vind je het snijpunt met de \(y\)-as als "
+        r"\(q = \lim\limits_{x \to \infty} \left(f(x) - m\,x\right)\).",
     ),
     dict(
         type="invultekst",
-        vraag="De schuine asymptoot van x kwadraat plus één, gedeeld door x, is y is gelijk aan wat? Schrijf het antwoord.",
+        vraag=r"De schuine asymptoot van \(f(x) = \dfrac{x^{2} + 1}{x}\) is \(y = \) wat? Schrijf het antwoord.",
         antwoord=["x"],
-        uitleg="Deel uit: je krijgt x plus één op x. De tweede term kruipt naar nul, dus de asymptoot is de rechte y is x.",
+        uitleg=r"Deel uit: \(f(x) = x + \dfrac{1}{x}\). De tweede term kruipt naar nul, dus de "
+        r"asymptoot is \(y = x\).",
     ),
     dict(
         type="meerkeuze",
@@ -318,25 +339,28 @@ DEEL2 = [
             "het quotiënt geeft de verticale asymptoten van de functie",
         ],
         antwoord=0,
-        uitleg="De rest gedeeld door de noemer kruipt naar nul op oneindig, dus blijft het quotiënt over als asymptoot.",
+        uitleg="De rest gedeeld door de noemer kruipt naar nul op oneindig, dus blijft het quotiënt "
+        "over als asymptoot.",
     ),
     dict(
         type="waarofniet",
         vraag="Een functie die in een punt afleidbaar is, is daar zeker ook continu.",
         antwoord=True,
-        uitleg="Omgekeerd geldt het niet: de absolute waarde is continu in nul, maar heeft er een knik en dus geen afgeleide.",
+        uitleg=r"Omgekeerd geldt het niet: \(f(x) = |x|\) is continu in \(0\), maar heeft er een "
+        r"knik en dus geen afgeleide.",
     ),
     dict(
         type="meerkeuze",
-        vraag="Welke functie is niet continu in nul?",
+        vraag=r"Welke functie is niet continu in \(x = 0\)?",
         opties=[
-            "één gedeeld door x",
-            "x kwadraat min drie",
-            "de sinus van x",
-            "e tot de macht x",
+            r"\(f(x) = \dfrac{1}{x}\)",
+            r"\(f(x) = x^{2} - 3\)",
+            r"\(f(x) = \sin x\)",
+            r"\(f(x) = e^{x}\)",
         ],
         antwoord=0,
-        uitleg="Die functie bestaat niet in nul en heeft er een verticale asymptoot. De drie andere zijn overal continu.",
+        uitleg=r"Die functie bestaat niet in \(0\) en heeft er een verticale asymptoot. De drie "
+        r"andere zijn overal continu.",
     ),
     dict(
         type="meerkeuze",
@@ -372,7 +396,8 @@ DEEL2 = [
             "als een arcering van het gebied rond de grafiek",
         ],
         antwoord=0,
-        uitleg="Een asymptoot is een hulplijn die het gedrag beschrijft. Ze is zelf geen deel van de grafiek.",
+        uitleg="Een asymptoot is een hulplijn die het gedrag beschrijft. Ze is zelf geen deel van "
+        "de grafiek.",
     ),
     dict(
         type="meerkeuze",
@@ -384,6 +409,7 @@ DEEL2 = [
             "omdat de grafiek dan symmetrisch om de oorsprong komt te liggen",
         ],
         antwoord=0,
-        uitleg="Bij een continue functie valt de limiet samen met de functiewaarde, en dat maakt het rekenwerk eenvoudig.",
+        uitleg=r"Bij een continue functie is \(\lim\limits_{x \to a} f(x) = f(a)\), en dat maakt het "
+        r"rekenwerk eenvoudig.",
     ),
 ]

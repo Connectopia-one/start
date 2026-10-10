@@ -7,16 +7,21 @@
    "kop": "Van gemiddelde naar ogenblikkelijke verandering",
    "blokken": [
     {
-     "soort": "tekst",
-     "html": "<strong>Een differentiequotiënt berekent de gemiddelde verandering over een interval</strong>: je deelt het verschil in functiewaarden door het verschil in x. Voor <strong>x kwadraat tussen één en drie</strong> is dat <strong>vier</strong>: negen min één is acht, gedeeld door twee."
+     "soort": "figuur",
+     "html": "<svg viewBox=\"0 0 470 252\" width=\"470\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"5\" y=\"4\" width=\"460\" height=\"226\" rx=\"7\" fill=\"#ffffff\" stroke=\"#e4ded0\" stroke-width=\"1.2\"/>\n<line x1=\"34\" y1=\"26\" x2=\"34\" y2=\"172\" stroke=\"#23291f\" stroke-width=\"1.4\"/>\n<line x1=\"34\" y1=\"172\" x2=\"436\" y2=\"172\" stroke=\"#23291f\" stroke-width=\"1.4\"/>\n<polyline points=\"34.0,139.9 40.7,139.9 47.4,139.8 54.1,139.6 60.8,139.4 67.5,139.2 74.2,138.8 80.9,138.4 87.6,138.0 94.3,137.5 101.0,137.0 107.7,136.3 114.4,135.7 121.1,134.9 127.8,134.2 134.5,133.3 141.2,132.4 147.9,131.4 154.6,130.4 161.3,129.3 168.0,128.2 174.7,127.0 181.4,125.7 188.1,124.4 194.8,123.1 201.5,121.6 208.2,120.1 214.9,118.6 221.6,117.0 228.3,115.3 235.0,113.6 241.7,111.8 248.4,110.0 255.1,108.1 261.8,106.1 268.5,104.1 275.2,102.0 281.9,99.9 288.6,97.7 295.3,95.5 302.0,93.2 308.7,90.8 315.4,88.4 322.1,85.9 328.8,83.3 335.5,80.8 342.2,78.1 348.9,75.4 355.6,72.6 362.3,69.8 369.0,66.9 375.7,63.9 382.4,60.9 389.1,57.9 395.8,54.7 402.5,51.6 409.2,48.3 415.9,45.0 422.6,41.7 429.3,38.2 436.0,34.8\" fill=\"none\" stroke=\"#234539\" stroke-width=\"2.2\"/>\n<line x1=\"100.7\" y1=\"148.2\" x2=\"383.6\" y2=\"65.4\" stroke=\"#c17f2b\" stroke-width=\"2\"/>\n<line x1=\"80.7\" y1=\"143.7\" x2=\"288.7\" y2=\"106.7\" stroke=\"#2f5d50\" stroke-width=\"2\" stroke-dasharray=\"7 4\"/>\n<circle cx=\"170.7\" cy=\"127.7\" r=\"4\" fill=\"#234539\"/>\n<line x1=\"170.7\" y1=\"127.7\" x2=\"170.7\" y2=\"172\" stroke=\"#6b7260\" stroke-width=\"1.1\" stroke-dasharray=\"4 3\"/>\n<text x=\"170.7\" y=\"188.0\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"10\" fill=\"#6b7260\">a</text>\n<circle cx=\"347.6\" cy=\"75.9\" r=\"4\" fill=\"#234539\"/>\n<line x1=\"347.6\" y1=\"75.9\" x2=\"347.6\" y2=\"172\" stroke=\"#6b7260\" stroke-width=\"1.1\" stroke-dasharray=\"4 3\"/>\n<text x=\"347.6\" y=\"188.0\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"10\" fill=\"#6b7260\">a + h</text>\n<line x1=\"170.7\" y1=\"202\" x2=\"347.6\" y2=\"202\" stroke=\"#6b7260\" stroke-width=\"1.2\"/>\n<text x=\"259.1\" y=\"216.0\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"10\" font-weight=\"600\" fill=\"#6b7260\">h</text>\n<text x=\"387.6\" y=\"49.9\" text-anchor=\"start\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"10\" font-weight=\"600\" fill=\"#c17f2b\">koorde</text>\n<text x=\"288.7\" y=\"92.7\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"10\" font-weight=\"600\" fill=\"#2f5d50\">raaklijn</text>\n<text x=\"235.0\" y=\"246.0\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"9\" fill=\"#6b7260\">schuift het rechtse punt naar links, dan valt de oranje lijn op de groene</text></svg>",
+     "onderschrift": "Twee punten geven een rechte; schuiven ze naar elkaar toe, dan blijft er één rechte over."
     },
     {
      "soort": "tekst",
-     "html": "<strong>De afgeleide in een punt is de limiet van het differentiequotiënt.</strong> Je laat het tweede punt naar het eerste kruipen; de koorde wordt dan de raaklijn. <strong>Meetkundig is de afgeleide de richtingscoëfficiënt van de raaklijn in dat punt</strong>."
+     "html": "Een differentiequotiënt \\(\\dfrac{f(b) - f(a)}{b - a}\\) berekent de gemiddelde verandering over een interval. Voor \\(f(x) = x^{2}\\) tussen \\(1\\) en \\(3\\) is dat \\(\\dfrac{9 - 1}{3 - 1} = 4\\)."
+    },
+    {
+     "soort": "kader",
+     "html": "\\(f'(a) = \\lim\\limits_{h \\to 0} \\dfrac{f(a+h) - f(a)}{h}\\)"
     },
     {
      "soort": "tekst",
-     "html": "Een voorbeeld van begin tot eind: de <strong>raaklijn aan x kwadraat in het punt met x gelijk aan drie</strong> is <strong>y is zes x min negen</strong>. De helling is zes, het raakpunt is drie en negen, en invullen geeft q is min negen."
+     "html": "Je laat het tweede punt naar het eerste kruipen; de koorde wordt dan de raaklijn. Meetkundig is \\(f'(a)\\) dus de richtingscoëfficiënt van de raaklijn in dat punt. Een voorbeeld van begin tot eind: de raaklijn aan \\(f(x) = x^{2}\\) in \\(x = 3\\) is \\(y = 6x - 9\\). De helling is \\(f'(3) = 6\\), het raakpunt is \\((3,\\ 9)\\), en invullen geeft \\(q = -9\\)."
     }
    ]
   },
@@ -25,19 +30,28 @@
    "blokken": [
     {
      "soort": "tekst",
-     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Functie</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Haar afgeleide</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Let op</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">x tot de macht n</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">n maal x tot de macht n min één</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">de exponent komt vooraan en gaat zelf met één omlaag</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een constante functie</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">nul</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">de grafiek is een horizontale rechte</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">vijf x plus twee</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">vijf</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">de afgeleide van een rechte is haar richtingscoëfficiënt</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">de sinus van x</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">de cosinus van x</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">en de cosinus van x geeft min de sinus van x</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">e tot de macht x</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">e tot de macht x</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">de machtsregel geldt hier niet, x staat in de exponent</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">de natuurlijke logaritme van x</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">één gedeeld door x</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">altijd positief, dus de functie stijgt overal</td></tr></table>"
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Functie</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Haar afgeleide</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Let op</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">\\(x^{n}\\)</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">\\(n\\,x^{n-1}\\)</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">de exponent komt vooraan en gaat zelf met één omlaag</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">\\(c\\)</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">\\(0\\)</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">de grafiek is een horizontale rechte</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">\\(5x + 2\\)</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">\\(5\\)</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">de afgeleide van een rechte is haar richtingscoëfficiënt</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">\\(\\sin x\\)</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">\\(\\cos x\\)</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">en \\(\\left(\\cos x\\right)' = -\\sin x\\)</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">\\(e^{x}\\)</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">\\(e^{x}\\)</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">de machtsregel geldt hier niet, \\(x\\) staat in de exponent</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">\\(\\ln x\\)</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">\\(\\dfrac{1}{x}\\)</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">altijd positief, dus de functie stijgt overal</td></tr></table>"
     },
     {
      "soort": "tekst",
-     "html": "Zo is de afgeleide van <strong>x kwadraat in drie gelijk aan zes</strong> en die van <strong>x tot de derde in twee gelijk aan twaalf</strong>. Sinus wordt cosinus, en cosinus wordt min sinus: pas na vier keer afleiden sta je weer bij het begin."
+     "html": "Zo is \\(f'(3) = 6\\) voor \\(f(x) = x^{2}\\), en \\(f'(2) = 12\\) voor \\(f(x) = x^{3}\\). Sinus wordt cosinus, en cosinus wordt min sinus: pas na vier keer afleiden sta je weer bij het begin."
+    }
+   ]
+  },
+  {
+   "kop": "Product, quotiënt en ketting",
+   "blokken": [
+    {
+     "soort": "kader",
+     "html": "\\(\\left(u\\,v\\right)' = u'v + u\\,v'\\), \\(\\left(\\dfrac{u}{v}\\right)' = \\dfrac{u'v - u\\,v'}{v^{2}}\\) en \\(\\left(f(g(x))\\right)' = f'(g(x)) \\cdot g'(x)\\)"
     },
     {
      "soort": "tekst",
-     "html": "<strong>De productregel</strong> luidt: <strong>de afgeleide van de eerste maal de tweede, plus de eerste maal de afgeleide van de tweede</strong>. <strong>De afgeleide van een product is dus niet het product van de afgeleiden</strong>: probeer het met x maal x, de afgeleide is twee x en niet één. Bij de <strong>quotiëntregel</strong> staat <strong>de noemer van de breuk in het kwadraat in de noemer</strong>, en in de teller de afgeleide van de teller maal de noemer, min de teller maal de afgeleide van de noemer. Het minteken hoort dus bij de quotiëntregel, niet bij de productregel."
+     "html": "De afgeleide van een product is dus niet het product van de afgeleiden: probeer het met \\(x \\cdot x\\), de afgeleide is \\(2x\\) en niet \\(1\\). Bij de quotiëntregel staat de noemer in het kwadraat onderaan, en let op het minteken: dat hoort bij de quotiëntregel, niet bij de productregel."
     },
     {
      "soort": "tekst",
-     "html": "<strong>De kettingregel</strong> zegt: <strong>de afgeleide van de buitenste functie, maal de afgeleide van de binnenste</strong>. Je leidt af van buiten naar binnen en vermenigvuldigt onderweg. De binnenste afgeleide vergeten is de klassieke fout."
+     "html": "De kettingregel leid je af van buiten naar binnen, en onderweg vermenigvuldig je. De binnenste afgeleide vergeten is de klassieke fout: \\(\\left(\\sin 3x\\right)' = 3\\cos 3x\\), niet \\(\\cos 3x\\)."
     }
    ]
   },
@@ -46,11 +60,11 @@
    "blokken": [
     {
      "soort": "tekst",
-     "html": "<strong>Op de verticale as van een hellinggrafiek staat de afgeleide van de oorspronkelijke functie.</strong> Een hellinggrafiek is dus gewoon de grafiek van de afgeleide functie."
+     "html": "Op de verticale as van een hellinggrafiek staat \\(f'(x)\\). Een hellinggrafiek is dus gewoon de grafiek van de afgeleide functie."
     },
     {
      "soort": "tekst",
-     "html": "<strong>Waar de functie een vloeiend maximum heeft, snijdt haar afgeleide de x-as</strong>: in de top loopt de raaklijn horizontaal, dus is de afgeleide daar nul en wisselt ze van teken."
+     "html": "Waar \\(f\\) een vloeiend maximum heeft, snijdt \\(f'\\) de \\(x\\)-as: in de top loopt de raaklijn horizontaal, dus is de afgeleide daar nul en wisselt ze van teken."
     }
    ]
   },
@@ -59,61 +73,79 @@
    "blokken": [
     {
      "soort": "tekst",
-     "html": "<strong>Is de afgeleide op een interval positief, dan stijgt de functie daar.</strong> Het teken van de afgeleide gaat over de richting, niet over de hoogte: een stijgende functie kan best negatieve waarden hebben."
+     "html": "Is \\(f'(x) > 0\\) op een interval, dan stijgt de functie daar. Het teken van de afgeleide gaat over de richting, niet over de hoogte: een stijgende functie kan best negatieve waarden hebben."
     },
     {
      "soort": "tekst",
-     "html": "<strong>Is de afgeleide nul in a en wisselt ze daar van plus naar min, dan heeft de functie in a een maximum</strong>; van min naar plus geeft een minimum. <strong>Niet elk punt waar de afgeleide nul is, is een extremum</strong>: bij x tot de derde is de afgeleide nul in nul, maar de functie blijft stijgen. Zonder tekenwissel is er geen extremum. En <strong>een functie kan een maximum bereiken in een punt waar ze niet afleidbaar is</strong>, zoals in de scherpe punt van min de absolute waarde van x."
+     "html": "Is \\(f'(a) = 0\\) en wisselt \\(f'\\) daar van plus naar min, dan heeft \\(f\\) in \\(a\\) een maximum; van min naar plus geeft een minimum. Niet elk punt waar de afgeleide nul is, is een extremum: bij \\(f(x) = x^{3}\\) is \\(f'(0) = 0\\), maar de functie blijft stijgen. En een functie kan een maximum bereiken in een punt waar ze niet afleidbaar is, zoals in de scherpe punt van \\(f(x) = -|x|\\)."
     },
     {
      "soort": "tekst",
-     "html": "<strong>x tot de derde min drie x heeft twee extrema</strong>: de afgeleide drie x kwadraat min drie is nul in min één en in één. Het <strong>minimum ligt bij x gelijk aan één</strong>. <strong>Twee nulwaarden van de afgeleide verdelen de getallenas in drie stukken</strong> in het tekenschema."
-    },
-    {
-     "soort": "tekst",
-     "html": "<strong>Is de tweede afgeleide op een interval positief, dan is de grafiek daar hol</strong>, met de holle kant naar boven: de helling neemt toe. <strong>Buigpunten vind je waar de tweede afgeleide nul is en van teken wisselt.</strong> <strong>De eerste afgeleide hoeft in een buigpunt niet nul te zijn</strong>: een buigpunt kan midden op een stijgend stuk liggen, want alleen de kromming verandert er. Is de eerste afgeleide nul in a en de tweede daar positief, dan ligt er <strong>een minimum</strong>; dat is de tweede-afgeleidetest."
-    },
-    {
-     "soort": "tekst",
-     "html": "<strong>Stijgt een functie steeds trager, dan is haar eerste afgeleide positief en haar tweede negatief.</strong> Stijgen geeft een positieve eerste afgeleide; trager stijgen betekent dat die afgeleide zelf daalt."
-    },
-    {
-     "soort": "tekst",
-     "html": "In de <strong>samenvattende tabel van een functieonderzoek</strong> zet je <strong>het teken van de eerste en de tweede afgeleide, met stijgen, dalen, hol, bol, extrema en buigpunten</strong>. Daarmee kan je de grafiek schetsen zonder nog één punt te berekenen."
+     "html": "\\(f(x) = x^{3} - 3x\\) heeft twee extrema: \\(f'(x) = 3x^{2} - 3\\) is nul in \\(-1\\) en in \\(1\\). Het minimum ligt bij \\(x = 1\\). Twee nulwaarden van de afgeleide verdelen de getallenas in drie stukken in het tekenschema."
     }
    ]
   },
   {
-   "kop": "Twee stellingen en de toepassingen",
+   "kop": "Hol, bol en buigpunten",
    "blokken": [
     {
      "soort": "tekst",
-     "html": "<strong>De stelling van Rolle eist dat de functiewaarden in de twee uiteinden gelijk zijn.</strong> Pas dan kan je besluiten dat er ergens tussenin een punt ligt met een horizontale raaklijn. <strong>De middelwaardestelling van Lagrange</strong> zegt dat <strong>ergens de raaklijn evenwijdig is met de koorde tussen de uiteinden</strong>: er is dus een punt waar de ogenblikkelijke verandering gelijk is aan de gemiddelde. Rolle is het bijzondere geval waarin die koorde horizontaal loopt."
+     "html": "Is \\(f''(x) > 0\\) op een interval, dan is de grafiek daar hol, met de holle kant naar boven: de helling neemt toe. Buigpunten vind je waar \\(f''(x) = 0\\) én \\(f''\\) van teken wisselt."
     },
     {
      "soort": "tekst",
-     "html": "<strong>De eerste stap bij een extremumprobleem met context is zelf een veranderlijke kiezen en het functievoorschrift opstellen.</strong> Zonder voorschrift valt er niets af te leiden. Daarna bereken je de extrema, en <strong>je gaat na of je oplossing in het praktisch domein ligt</strong>: een negatieve lengte is wiskundig misschien een oplossing, in de opgave niet."
+     "html": "\\(f'\\) hoeft in een buigpunt niet nul te zijn: een buigpunt kan midden op een stijgend stuk liggen, want alleen de kromming verandert er. Is \\(f'(a) = 0\\) en \\(f''(a) > 0\\), dan ligt er een minimum; dat is de tweede-afgeleidetest."
     },
     {
      "soort": "tekst",
-     "html": "Twee toepassingen uit de praktijk. Geeft een functie de <strong>afgelegde weg in functie van de tijd</strong>, dan is haar afgeleide <strong>de snelheid op dat ogenblik</strong>; de afgeleide van de snelheid is de versnelling, en de gemiddelde snelheid is het differentiequotiënt over het hele interval. Kent een bedrijf zijn <strong>totale kost in functie van het aantal stuks</strong>, dan is de <strong>marginale kost de afgeleide van de totale kost</strong>: ze zegt wat één extra stuk ongeveer kost."
+     "html": "Stijgt een functie steeds trager, dan is \\(f' > 0\\) en \\(f'' < 0\\). Stijgen geeft een positieve eerste afgeleide; trager stijgen betekent dat die afgeleide zelf daalt. In de samenvattende tabel van een functieonderzoek zet je het teken van \\(f'\\) en \\(f''\\), met stijgen, dalen, hol, bol, extrema en buigpunten. Daarmee schets je de grafiek zonder nog één punt te berekenen."
+    }
+   ]
+  },
+  {
+   "kop": "Rolle en Lagrange",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "De stelling van Rolle eist dat \\(f(a) = f(b)\\) in de twee uiteinden. Pas dan kan je besluiten dat er ergens tussenin een punt ligt met een horizontale raaklijn."
+    },
+    {
+     "soort": "kader",
+     "html": "Middelwaardestelling van Lagrange: er is een \\(c\\) tussen \\(a\\) en \\(b\\) met \\(f'(c) = \\dfrac{f(b) - f(a)}{b - a}\\)."
+    },
+    {
+     "soort": "tekst",
+     "html": "Ergens is de raaklijn dus evenwijdig met de koorde tussen de uiteinden: er is een punt waar de ogenblikkelijke verandering gelijk is aan de gemiddelde. Rolle is het bijzondere geval waarin die koorde horizontaal loopt."
+    }
+   ]
+  },
+  {
+   "kop": "Toepassingen",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "De eerste stap bij een extremumprobleem met context is zelf een veranderlijke kiezen en het functievoorschrift opstellen. Zonder voorschrift valt er niets af te leiden. Daarna bereken je de extrema, en je gaat na of je oplossing in het praktisch domein ligt: een negatieve lengte is wiskundig misschien een oplossing, in de opgave niet."
+    },
+    {
+     "soort": "tekst",
+     "html": "Geeft \\(s(t)\\) de afgelegde weg in functie van de tijd, dan is \\(s'(t)\\) de snelheid op dat ogenblik; de afgeleide daarvan is de versnelling, en de gemiddelde snelheid is het differentiequotiënt over het hele interval. Kent een bedrijf zijn totale kost in functie van het aantal stuks, dan is de marginale kost de afgeleide van die totale kost: ze zegt wat één extra stuk ongeveer kost."
     },
     {
      "soort": "weetje",
-     "html": "<strong>Is de afgeleide overal positief, dan is de functie overal strikt stijgend en dus inverteerbaar.</strong> Strikt stijgend betekent immers dat elke functiewaarde maar één keer voorkomt."
+     "html": "Is \\(f'(x) > 0\\) op heel het domein, dan is \\(f\\) overal strikt stijgend en dus inverteerbaar. Strikt stijgend betekent immers dat elke functiewaarde maar één keer voorkomt."
     }
    ]
   }
  ],
  "onthoud": [
   "Een differentiequotiënt berekent de gemiddelde verandering over een interval.",
-  "De afgeleide in een punt is de richtingscoëfficiënt van de raaklijn in dat punt.",
-  "De afgeleide van x tot de macht n is n maal x tot de macht n min één.",
-  "De afgeleide van een product is niet het product van de afgeleiden.",
-  "Kettingregel: de afgeleide van de buitenste functie maal de afgeleide van de binnenste.",
-  "Waar de functie een vloeiend maximum heeft, snijdt haar afgeleide de x-as.",
+  "\\(f'(a)\\) is de richtingscoëfficiënt van de raaklijn in dat punt.",
+  "\\(\\left(x^{n}\\right)' = n\\,x^{n-1}\\).",
+  "\\(\\left(u\\,v\\right)' = u'v + u\\,v'\\): niet het product van de afgeleiden.",
+  "Kettingregel: \\(\\left(f(g(x))\\right)' = f'(g(x)) \\cdot g'(x)\\).",
+  "Waar \\(f\\) een vloeiend maximum heeft, snijdt \\(f'\\) de \\(x\\)-as.",
   "Is de afgeleide nul zonder tekenwissel, dan is er geen extremum.",
-  "Buigpunten vind je waar de tweede afgeleide nul is en van teken wisselt.",
-  "De stelling van Rolle eist dat de functiewaarden in de twee uiteinden gelijk zijn."
+  "Buigpunten: \\(f''(x) = 0\\) én een tekenwissel.",
+  "Rolle eist \\(f(a) = f(b)\\); Lagrange geeft een raaklijn evenwijdig met de koorde."
  ]
 }

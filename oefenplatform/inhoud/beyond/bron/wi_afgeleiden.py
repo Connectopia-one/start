@@ -14,84 +14,89 @@ en de extremumproblemen.
 DEEL1 = [
     dict(
         type="meerkeuze",
-        vraag="Wat berekent een differentiequotiënt?",
+        vraag=r"Wat berekent een differentiequotiënt \(\dfrac{f(b) - f(a)}{b - a}\)?",
         opties=[
             "de gemiddelde verandering over een interval",
             "de verandering op één welbepaald ogenblik",
             "het verschil tussen twee functiewaarden",
-            "de oppervlakte onder de grafiek van f",
+            r"de oppervlakte onder de grafiek van \(f\)",
         ],
         antwoord=0,
-        uitleg="Je deelt het verschil in functiewaarden door het verschil in x. Enkel het verschil van de functiewaarden is de teller alleen.",
+        uitleg=r"Je deelt het verschil in functiewaarden door het verschil in \(x\). Enkel het "
+        r"verschil van de functiewaarden is de teller alleen.",
     ),
     dict(
         type="meerkeuze",
-        vraag="Wat stelt de afgeleide van een functie in een punt meetkundig voor?",
+        vraag=r"Wat stelt \(f'(a)\) meetkundig voor?",
         opties=[
             "de richtingscoëfficiënt van de raaklijn in dat punt",
             "de hoogte van de grafiek in dat welbepaalde punt",
             "de afstand van dat punt tot de horizontale as",
-            "de oppervlakte tussen de grafiek en de x-as",
+            r"de oppervlakte tussen de grafiek en de \(x\)-as",
         ],
         antwoord=0,
-        uitleg="De raaklijn is de rechte die de kromme in dat punt het best benadert, en haar helling is de afgeleide.",
+        uitleg="De raaklijn is de rechte die de kromme in dat punt het best benadert, en haar "
+        "helling is de afgeleide.",
     ),
     dict(
         type="invultekst",
-        vraag="Neem x kwadraat. Hoeveel is de afgeleide in x gelijk aan drie? Schrijf het getal.",
+        vraag=r"Neem \(f(x) = x^{2}\). Hoeveel is \(f'(3)\)? Schrijf het getal.",
         antwoord=["6", "zes"],
-        uitleg="De afgeleide functie is twee x, en twee maal drie is zes.",
+        uitleg=r"\(f'(x) = 2x\), en \(2 \cdot 3 = 6\).",
     ),
     dict(
         type="waarofniet",
         vraag="De afgeleide in een punt is de limiet van het differentiequotiënt.",
         antwoord=True,
-        uitleg="Je laat het tweede punt naar het eerste kruipen. De koorde wordt dan de raaklijn.",
+        uitleg=r"\(f'(a) = \lim\limits_{h \to 0} \dfrac{f(a+h) - f(a)}{h}\): je laat het tweede punt "
+        r"naar het eerste kruipen. De koorde wordt dan de raaklijn.",
     ),
     dict(
         type="meerkeuze",
-        vraag="Wat is de afgeleide van x tot de macht n?",
+        vraag=r"Wat is \(\left(x^{n}\right)'\)?",
         opties=[
-            "n maal x tot de macht n min één",
-            "n maal x tot de macht n plus één",
-            "x tot de macht n min één",
-            "n min één, maal x tot de macht n",
+            r"\(n\,x^{n-1}\)",
+            r"\(n\,x^{n+1}\)",
+            r"\(x^{n-1}\)",
+            r"\((n-1)\,x^{n}\)",
         ],
         antwoord=0,
         uitleg="De exponent komt vooraan en gaat zelf met één omlaag.",
     ),
     dict(
         type="meerkeuze",
-        vraag="Wat is de afgeleide van de sinus van x?",
+        vraag=r"Wat is \(\left(\sin x\right)'\)?",
         opties=[
-            "de cosinus van x",
-            "min de cosinus van x",
-            "min de sinus van x",
-            "de tangens van x",
+            r"\(\cos x\)",
+            r"\(-\cos x\)",
+            r"\(-\sin x\)",
+            r"\(\tan x\)",
         ],
         antwoord=0,
-        uitleg="En de afgeleide van de cosinus is min de sinus. Dat minteken is het detail dat het vaakst wegvalt.",
+        uitleg=r"En \(\left(\cos x\right)' = -\sin x\). Dat minteken is het detail dat het vaakst wegvalt.",
     ),
     dict(
         type="waarofniet",
-        vraag="De afgeleide van e tot de macht x is x maal e tot de macht x min één.",
+        vraag=r"\(\left(e^{x}\right)' = x\,e^{x-1}\).",
         antwoord=False,
-        uitleg="De machtsregel geldt alleen als x in de basis staat, niet in de exponent. De afgeleide van e tot de macht x is e tot de macht x zelf.",
+        uitleg=r"De machtsregel geldt alleen als \(x\) in de basis staat, niet in de exponent. "
+        r"\(\left(e^{x}\right)' = e^{x}\).",
     ),
     dict(
         type="invultekst",
-        vraag="De afgeleide van de natuurlijke logaritme van x is één gedeeld door wat? Schrijf het antwoord.",
+        vraag=r"\(\left(\ln x\right)' = \dfrac{1}{\ \ }\). Wat komt er in de noemer? Schrijf het antwoord.",
         antwoord=["x"],
-        uitleg="Daarom is de logaritmische functie overal stijgend op haar domein: één op x is daar altijd positief.",
+        uitleg=r"Daarom is de logaritmische functie overal stijgend op haar domein: \(\dfrac{1}{x}\) "
+        r"is daar altijd positief.",
     ),
     dict(
         type="meerkeuze",
         vraag="Hoe luidt de productregel voor afgeleiden?",
         opties=[
-            "de afgeleide van de eerste maal de tweede, plus de eerste maal de afgeleide van de tweede",
-            "de afgeleide van de eerste maal de afgeleide van de tweede, zonder meer",
-            "de afgeleide van de eerste maal de tweede, min de eerste maal de afgeleide van de tweede",
-            "de som van de twee afgeleiden, gedeeld door het product van de twee functies",
+            r"\(\left(u\,v\right)' = u'v + u\,v'\)",
+            r"\(\left(u\,v\right)' = u'v'\)",
+            r"\(\left(u\,v\right)' = u'v - u\,v'\)",
+            r"\(\left(u\,v\right)' = \dfrac{u' + v'}{u\,v}\)",
         ],
         antwoord=0,
         uitleg="Het minteken hoort bij de quotiëntregel, niet bij de productregel.",
@@ -100,37 +105,39 @@ DEEL1 = [
         type="waarofniet",
         vraag="De afgeleide van een product is het product van de afgeleiden.",
         antwoord=False,
-        uitleg="Probeer het met x maal x: de afgeleide is twee x, niet één maal één. Daarvoor bestaat net de productregel.",
+        uitleg=r"Probeer het met \(x \cdot x\): de afgeleide is \(2x\), niet \(1 \cdot 1\). Daarvoor "
+        r"bestaat net de productregel.",
     ),
     dict(
         type="meerkeuze",
-        vraag="Wat staat er in de noemer van de quotiëntregel?",
+        vraag=r"Wat staat er in de noemer van \(\left(\dfrac{u}{v}\right)'\)?",
         opties=[
-            "de noemer van de breuk, in het kwadraat",
-            "de teller van de breuk, in het kwadraat",
-            "de noemer van de breuk, zonder meer",
-            "het product van teller en noemer samen",
+            r"\(v^{2}\)",
+            r"\(u^{2}\)",
+            r"\(v\)",
+            r"\(u\,v\)",
         ],
         antwoord=0,
-        uitleg="De teller is de afgeleide van de teller maal de noemer, min de teller maal de afgeleide van de noemer.",
+        uitleg=r"Voluit: \(\left(\dfrac{u}{v}\right)' = \dfrac{u'v - u\,v'}{v^{2}}\).",
     ),
     dict(
         type="invultekst",
-        vraag="Hoeveel is de afgeleide van vijf x plus twee? Schrijf het getal.",
+        vraag=r"Hoeveel is \(\left(5x + 2\right)'\)? Schrijf het getal.",
         antwoord=["5", "vijf"],
         uitleg="De afgeleide van een rechte is haar richtingscoëfficiënt, en die van een constante is nul.",
     ),
     dict(
         type="meerkeuze",
-        vraag="Wat zegt de kettingregel?",
+        vraag=r"Wat zegt de kettingregel voor \(\left(f(g(x))\right)'\)?",
         opties=[
-            "de afgeleide van de buitenste functie, maal de afgeleide van de binnenste",
-            "de afgeleide van de buitenste functie, plus die van de binnenste functie",
-            "de afgeleide van de binnenste functie, gedeeld door de buitenste functie",
-            "de afgeleide van de buitenste functie, met de binnenste onveranderd erin",
+            r"\(f'(g(x)) \cdot g'(x)\)",
+            r"\(f'(g(x)) + g'(x)\)",
+            r"\(\dfrac{g'(x)}{f(g(x))}\)",
+            r"\(f'(g(x))\)",
         ],
         antwoord=0,
-        uitleg="Je leidt af van buiten naar binnen en vermenigvuldigt onderweg. De binnenste afgeleide vergeten is de klassieke fout.",
+        uitleg="Je leidt af van buiten naar binnen en vermenigvuldigt onderweg. De binnenste "
+        "afgeleide vergeten is de klassieke fout.",
     ),
     dict(
         type="waarofniet",
@@ -140,22 +147,23 @@ DEEL1 = [
     ),
     dict(
         type="meerkeuze",
-        vraag="Je stelt de raaklijn op aan de grafiek van x kwadraat in het punt met x gelijk aan drie. Welke vergelijking krijg je?",
+        vraag=r"Je stelt de raaklijn op aan \(f(x) = x^{2}\) in \(x = 3\). Welke vergelijking krijg je?",
         opties=[
-            "y is zes x min negen",
-            "y is zes x plus negen",
-            "y is drie x min negen",
-            "y is negen x min zes",
+            r"\(y = 6x - 9\)",
+            r"\(y = 6x + 9\)",
+            r"\(y = 3x - 9\)",
+            r"\(y = 9x - 6\)",
         ],
         antwoord=0,
-        uitleg="De helling is zes en het raakpunt is drie en negen. Invullen geeft negen is achttien plus q, dus q is min negen.",
+        uitleg=r"De helling is \(f'(3) = 6\) en het raakpunt is \((3,\ 9)\). Invullen geeft "
+        r"\(9 = 18 + q\), dus \(q = -9\).",
     ),
     dict(
         type="meerkeuze",
         vraag="Wat staat er op de verticale as van een hellinggrafiek?",
         opties=[
-            "de afgeleide van de oorspronkelijke functie",
-            "de functiewaarden van de oorspronkelijke functie",
+            r"\(f'(x)\), de afgeleide functie",
+            r"\(f(x)\), de functiewaarden zelf",
             "de oppervlakte onder de oorspronkelijke grafiek",
             "het verschil tussen twee opeenvolgende waarden",
         ],
@@ -164,19 +172,20 @@ DEEL1 = [
     ),
     dict(
         type="waarofniet",
-        vraag="Waar de functie een vloeiend maximum heeft, snijdt haar afgeleide de x-as.",
+        vraag=r"Waar \(f\) een vloeiend maximum heeft, snijdt \(f'\) de \(x\)-as.",
         antwoord=True,
-        uitleg="In de top loopt de raaklijn horizontaal, dus is de afgeleide daar nul en wisselt ze van teken.",
+        uitleg="In de top loopt de raaklijn horizontaal, dus is de afgeleide daar nul en wisselt ze "
+        "van teken.",
     ),
     dict(
         type="invultekst",
-        vraag="Neem x tot de derde. Hoeveel is de afgeleide in x gelijk aan twee? Schrijf het getal.",
+        vraag=r"Neem \(f(x) = x^{3}\). Hoeveel is \(f'(2)\)? Schrijf het getal.",
         antwoord=["12", "twaalf"],
-        uitleg="De afgeleide functie is drie x kwadraat, en drie maal vier is twaalf.",
+        uitleg=r"\(f'(x) = 3x^{2}\), en \(3 \cdot 4 = 12\).",
     ),
     dict(
         type="meerkeuze",
-        vraag="Een functie geeft de afgelegde weg in functie van de tijd. Wat is dan haar afgeleide?",
+        vraag=r"Een functie \(s(t)\) geeft de afgelegde weg in functie van de tijd. Wat is \(s'(t)\)?",
         opties=[
             "de snelheid op dat ogenblik",
             "de versnelling op dat ogenblik",
@@ -184,26 +193,28 @@ DEEL1 = [
             "de totale afstand van de hele rit",
         ],
         antwoord=0,
-        uitleg="De afgeleide van de snelheid is op haar beurt de versnelling. De gemiddelde snelheid is het differentiequotiënt over het hele interval.",
+        uitleg="De afgeleide van de snelheid is op haar beurt de versnelling. De gemiddelde "
+        "snelheid is het differentiequotiënt over het hele interval.",
     ),
     dict(
         type="meerkeuze",
-        vraag="Wat is de afgeleide van de cosinus van x?",
+        vraag=r"Wat is \(\left(\cos x\right)'\)?",
         opties=[
-            "min de sinus van x",
-            "de sinus van x",
-            "min de cosinus van x",
-            "de tangens van x",
+            r"\(-\sin x\)",
+            r"\(\sin x\)",
+            r"\(-\cos x\)",
+            r"\(\tan x\)",
         ],
         antwoord=0,
-        uitleg="Sinus wordt cosinus, en cosinus wordt min sinus. Pas na vier keer afleiden sta je weer bij het begin.",
+        uitleg="Sinus wordt cosinus, en cosinus wordt min sinus. Pas na vier keer afleiden sta je "
+        "weer bij het begin.",
     ),
 ]
 
 DEEL2 = [
     dict(
         type="meerkeuze",
-        vraag="Wat weet je als de afgeleide op een interval positief is?",
+        vraag=r"Wat weet je als \(f'(x) > 0\) op een interval?",
         opties=[
             "de functie stijgt op dat interval",
             "de functie is positief op dat interval",
@@ -211,11 +222,12 @@ DEEL2 = [
             "de functie heeft daar een maximum",
         ],
         antwoord=0,
-        uitleg="Het teken van de afgeleide gaat over de richting, niet over de hoogte. Een stijgende functie kan best negatieve waarden hebben.",
+        uitleg="Het teken van de afgeleide gaat over de richting, niet over de hoogte. Een "
+        "stijgende functie kan best negatieve waarden hebben.",
     ),
     dict(
         type="meerkeuze",
-        vraag="De afgeleide is nul in a en wisselt daar van plus naar min. Wat heeft de functie in a?",
+        vraag=r"\(f'(a) = 0\) en \(f'\) wisselt daar van plus naar min. Wat heeft \(f\) in \(a\)?",
         opties=[
             "een maximum",
             "een minimum",
@@ -227,19 +239,20 @@ DEEL2 = [
     ),
     dict(
         type="invultekst",
-        vraag="Neem x tot de derde min drie x. Hoeveel extrema heeft die functie? Schrijf het cijfer.",
+        vraag=r"Neem \(f(x) = x^{3} - 3x\). Hoeveel extrema heeft die functie? Schrijf het cijfer.",
         antwoord=["2", "twee"],
-        uitleg="De afgeleide drie x kwadraat min drie is nul in min één en in één, en wisselt daar telkens van teken.",
+        uitleg=r"\(f'(x) = 3x^{2} - 3\) is nul in \(-1\) en in \(1\), en wisselt daar telkens van teken.",
     ),
     dict(
         type="waarofniet",
-        vraag="Elk punt waar de afgeleide nul is, is een extremum.",
+        vraag=r"Elk punt waar \(f'(x) = 0\) is een extremum.",
         antwoord=False,
-        uitleg="Bij x tot de derde is de afgeleide nul in nul, maar de functie blijft stijgen. Zonder tekenwissel is er geen extremum.",
+        uitleg=r"Bij \(f(x) = x^{3}\) is \(f'(0) = 0\), maar de functie blijft stijgen. Zonder "
+        r"tekenwissel is er geen extremum.",
     ),
     dict(
         type="meerkeuze",
-        vraag="Wat weet je als de tweede afgeleide op een interval positief is?",
+        vraag=r"Wat weet je als \(f''(x) > 0\) op een interval?",
         opties=[
             "de grafiek is daar hol, met de holle kant naar boven",
             "de grafiek is daar bol, met de holle kant naar onder",
@@ -247,49 +260,53 @@ DEEL2 = [
             "de functie heeft daar een buigpunt liggen",
         ],
         antwoord=0,
-        uitleg="Een positieve tweede afgeleide betekent dat de helling toeneemt, dus de kromme buigt naar boven open.",
+        uitleg="Een positieve tweede afgeleide betekent dat de helling toeneemt, dus de kromme "
+        "buigt naar boven open.",
     ),
     dict(
         type="meerkeuze",
         vraag="Hoe vind je de buigpunten van een functie?",
         opties=[
-            "waar de tweede afgeleide nul is en van teken wisselt",
-            "waar de eerste afgeleide nul is en van teken wisselt",
-            "waar de functie zelf nul is en van teken wisselt",
-            "waar de tweede afgeleide haar grootste waarde heeft",
+            r"waar \(f''(x) = 0\) en \(f''\) van teken wisselt",
+            r"waar \(f'(x) = 0\) en \(f'\) van teken wisselt",
+            r"waar \(f(x) = 0\) en \(f\) van teken wisselt",
+            r"waar \(f''\) haar grootste waarde heeft",
         ],
         antwoord=0,
         uitleg="Zonder tekenwissel is het geen buigpunt, net zoals bij de extrema met de eerste afgeleide.",
     ),
     dict(
         type="waarofniet",
-        vraag="In een buigpunt is de eerste afgeleide altijd nul.",
+        vraag=r"In een buigpunt is \(f'\) altijd nul.",
         antwoord=False,
-        uitleg="Dat kan, maar hoeft niet. Een buigpunt kan midden op een stijgend stuk liggen; alleen de kromming verandert er.",
+        uitleg="Dat kan, maar hoeft niet. Een buigpunt kan midden op een stijgend stuk liggen; "
+        "alleen de kromming verandert er.",
     ),
     dict(
         type="invultekst",
-        vraag="De afgeleide heeft twee nulwaarden. In hoeveel stukken verdelen die de getallenas in het tekenschema? Schrijf het cijfer.",
+        vraag=r"\(f'\) heeft twee nulwaarden. In hoeveel stukken verdelen die de getallenas in het tekenschema? Schrijf het cijfer.",
         antwoord=["3", "drie"],
         uitleg="Twee grenzen geven drie intervallen: links, tussen en rechts.",
     ),
     dict(
         type="meerkeuze",
-        vraag="De eerste afgeleide is nul in a en de tweede afgeleide is daar positief. Wat besluit je?",
+        vraag=r"\(f'(a) = 0\) en \(f''(a) > 0\). Wat besluit je?",
         opties=[
-            "in a ligt een minimum",
-            "in a ligt een maximum",
-            "in a ligt een buigpunt",
-            "in a is de functie niet afleidbaar",
+            r"in \(a\) ligt een minimum",
+            r"in \(a\) ligt een maximum",
+            r"in \(a\) ligt een buigpunt",
+            r"in \(a\) is \(f\) niet afleidbaar",
         ],
         antwoord=0,
-        uitleg="Dat is de tweede-afgeleidetest: de grafiek is daar hol, dus het vlakke punt is het laagste van zijn omgeving.",
+        uitleg="Dat is de tweede-afgeleidetest: de grafiek is daar hol, dus het vlakke punt is het "
+        "laagste van zijn omgeving.",
     ),
     dict(
         type="waarofniet",
-        vraag="De stelling van Rolle eist dat de functiewaarden in de twee uiteinden gelijk zijn.",
+        vraag=r"De stelling van Rolle eist dat \(f(a) = f(b)\) in de twee uiteinden.",
         antwoord=True,
-        uitleg="Pas dan kan je besluiten dat er ergens tussenin een punt ligt met een horizontale raaklijn.",
+        uitleg="Pas dan kan je besluiten dat er ergens tussenin een punt ligt met een horizontale "
+        "raaklijn.",
     ),
     dict(
         type="meerkeuze",
@@ -301,13 +318,14 @@ DEEL2 = [
             "de gemiddelde verandering is gelijk aan het gemiddelde van de waarden",
         ],
         antwoord=0,
-        uitleg="Er is dus een punt waar de ogenblikkelijke verandering gelijk is aan de gemiddelde. Rolle is het bijzondere geval waarin de koorde horizontaal loopt.",
+        uitleg=r"Er is dus een \(c\) met \(f'(c) = \dfrac{f(b) - f(a)}{b - a}\). Rolle is het "
+        r"bijzondere geval waarin de koorde horizontaal loopt.",
     ),
     dict(
         type="invultekst",
-        vraag="Neem x kwadraat. Hoeveel is de gemiddelde verandering tussen één en drie? Schrijf het getal.",
+        vraag=r"Neem \(f(x) = x^{2}\). Hoeveel is de gemiddelde verandering tussen \(1\) en \(3\)? Schrijf het getal.",
         antwoord=["4", "vier"],
-        uitleg="Negen min één is acht, gedeeld door drie min één is vier.",
+        uitleg=r"\(\dfrac{9 - 1}{3 - 1} = 4\).",
     ),
     dict(
         type="meerkeuze",
@@ -316,52 +334,58 @@ DEEL2 = [
             "zelf een veranderlijke kiezen en het functievoorschrift opstellen",
             "meteen de afgeleide nemen van de gegeven getallen",
             "een tabel maken met alle mogelijke uitkomsten naast elkaar gezet",
-            "meteen de tweede afgeleide gelijkstellen aan het getal nul",
+            "meteen de tweede afgeleide gelijkstellen aan nul",
         ],
         antwoord=0,
-        uitleg="Zonder voorschrift valt er niets af te leiden. Pas daarna bereken je de extrema en controleer je of het een maximum of een minimum is.",
+        uitleg="Zonder voorschrift valt er niets af te leiden. Pas daarna bereken je de extrema en "
+        "controleer je of het een maximum of een minimum is.",
     ),
     dict(
         type="waarofniet",
         vraag="Bij een extremumprobleem met context moet je nagaan of je oplossing in het praktisch domein ligt.",
         antwoord=True,
-        uitleg="Een negatieve lengte of een breedte groter dan de beschikbare omheining is wiskundig misschien een oplossing, maar in de opgave niet.",
+        uitleg="Een negatieve lengte of een breedte groter dan de beschikbare omheining is "
+        "wiskundig misschien een oplossing, maar in de opgave niet.",
     ),
     dict(
         type="meerkeuze",
         vraag="Wat staat er allemaal in een samenvattende tabel bij een functieonderzoek?",
         opties=[
-            "het teken van de eerste en de tweede afgeleide, met stijgen, dalen, hol, bol, extrema en buigpunten",
-            "enkel het teken van de eerste afgeleide, met het stijgen, het dalen en de extrema die daaruit volgen",
-            "enkel de nulwaarden van de functie en haar snijpunt met de verticale as",
+            r"het teken van \(f'\) en \(f''\), met stijgen, dalen, hol, bol, extrema en buigpunten",
+            r"enkel het teken van \(f'\), met het stijgen, het dalen en de extrema",
+            r"enkel de nulwaarden van \(f\) en haar snijpunt met de verticale as",
             "de limieten op oneindig en de vergelijkingen van alle asymptoten samen",
         ],
         antwoord=0,
-        uitleg="De tabel zet alles onder elkaar zodat je de grafiek kan schetsen zonder één punt te berekenen.",
+        uitleg="De tabel zet alles onder elkaar zodat je de grafiek kan schetsen zonder één punt te "
+        "berekenen.",
     ),
     dict(
         type="meerkeuze",
         vraag="Een functie stijgt, maar steeds trager. Wat geldt voor haar afgeleiden?",
         opties=[
-            "de eerste is positief en de tweede is negatief",
-            "de eerste is negatief en de tweede is positief",
-            "de eerste en de tweede zijn allebei positief",
-            "de eerste en de tweede zijn allebei negatief",
+            r"\(f' > 0\) en \(f'' < 0\)",
+            r"\(f' < 0\) en \(f'' > 0\)",
+            r"\(f' > 0\) en \(f'' > 0\)",
+            r"\(f' < 0\) en \(f'' < 0\)",
         ],
         antwoord=0,
-        uitleg="Stijgen betekent een positieve eerste afgeleide. Trager stijgen betekent dat die afgeleide zelf daalt, dus de tweede is negatief.",
+        uitleg="Stijgen betekent een positieve eerste afgeleide. Trager stijgen betekent dat die "
+        "afgeleide zelf daalt, dus de tweede is negatief.",
     ),
     dict(
         type="waarofniet",
         vraag="Een functie kan een maximum bereiken in een punt waar ze niet afleidbaar is.",
         antwoord=True,
-        uitleg="Denk aan een scherpe punt, zoals bij min de absolute waarde van x. Daar ligt een maximum zonder raaklijn.",
+        uitleg=r"Denk aan een scherpe punt, zoals bij \(f(x) = -|x|\). Daar ligt een maximum zonder "
+        r"raaklijn.",
     ),
     dict(
         type="invultekst",
-        vraag="Neem x tot de derde min drie x. Bij welke x ligt het minimum? Schrijf het getal.",
+        vraag=r"Neem \(f(x) = x^{3} - 3x\). Bij welke \(x\) ligt het minimum? Schrijf het getal.",
         antwoord=["1", "een", "één"],
-        uitleg="De afgeleide is nul in min één en één. De tweede afgeleide zes x is positief in één, dus daar ligt het minimum.",
+        uitleg=r"\(f'\) is nul in \(-1\) en \(1\). \(f''(x) = 6x\) is positief in \(1\), dus daar "
+        r"ligt het minimum.",
     ),
     dict(
         type="meerkeuze",
@@ -373,11 +397,12 @@ DEEL2 = [
             "het verschil tussen de kost en de opbrengst",
         ],
         antwoord=0,
-        uitleg="Ze zegt wat één extra stuk ongeveer kost. De totale kost gedeeld door het aantal is de gemiddelde kost.",
+        uitleg="Ze zegt wat één extra stuk ongeveer kost. De totale kost gedeeld door het aantal is "
+        "de gemiddelde kost.",
     ),
     dict(
         type="meerkeuze",
-        vraag="De afgeleide van een functie is overal positief. Wat besluit je?",
+        vraag=r"\(f'(x) > 0\) op heel het domein. Wat besluit je?",
         opties=[
             "de functie is overal strikt stijgend en dus inverteerbaar",
             "de functie heeft precies één maximum op haar domein",
@@ -385,6 +410,7 @@ DEEL2 = [
             "de functie is overal hol, met de holle kant naar boven",
         ],
         antwoord=0,
-        uitleg="Strikt stijgend betekent dat elke functiewaarde maar één keer voorkomt, en dat is net de voorwaarde voor een inverse.",
+        uitleg="Strikt stijgend betekent dat elke functiewaarde maar één keer voorkomt, en dat is "
+        "net de voorwaarde voor een inverse.",
     ),
 ]
