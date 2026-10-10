@@ -1333,108 +1333,156 @@ BUNDELS["rechtlijnige-beweging-erb-en-evrb-beyond"] = dict(
     onder="Grafieken lezen en rekenen aan een beweging met en zonder versnelling.",
     secties=[
         dict(kop="De eenparig rechtlijnige beweging", blokken=[
-            ("p", "Een <strong>eenparig rechtlijnige beweging</strong> is "
-                  "<strong>een beweging op een rechte lijn met constante snelheid</strong>. De "
-                  "afkorting <strong>ERB</strong> staat voor "
-                  "<strong>eenparig rechtlijnige beweging</strong>. Bij een ERB zijn "
-                  "<strong>de gemiddelde en de ogenblikkelijke snelheid even groot</strong>."),
-            ("p", "De <strong>x(t)-grafiek van een ERB</strong> is "
-                  "<strong>een rechte met een constante helling</strong>, en de "
-                  "<strong>a(t)-grafiek valt samen met de tijdas</strong>, want er is geen "
-                  "versnelling."),
-            ("p", "Rekenen: een <strong>auto die 150 km in 2 uur</strong> rijdt, heeft een "
-                  "gemiddelde snelheid van <strong>75 km/h</strong>. Een "
-                  "<strong>trein met 20 m/s</strong> komt in <strong>2 minuten</strong> "
-                  "<strong>2400 m</strong> verder. Vertrekken "
-                  "<strong>twee fietsers samen, de ene met 4 m/s en de andere met 6 m/s</strong>, "
-                  "dan liggen ze na <strong>30 s</strong> <strong>60 m</strong> uit elkaar. En "
-                  "<strong>72 km/h</strong> is <strong>20</strong> meter per seconde: je deelt door "
-                  "3,6."),
+            ("p", "Een <strong>eenparig rechtlijnige beweging</strong> is een beweging op een "
+                  "rechte lijn met <strong>constante snelheid</strong>. De afkorting "
+                  "<strong>ERB</strong> staat voor <strong>eenparig rechtlijnige "
+                  "beweging</strong>. De versnelling is er nul, \\(a = 0\\), en dus is ook "
+                  "\\(\\sum \\vec{F} = \\vec{0}\\): dat is de eerste wet van Newton. Bij een ERB "
+                  "zijn de gemiddelde en de ogenblikkelijke snelheid even groot."),
+            ("kader", "<strong>De twee formules van een ERB</strong><br>"
+                      "\\[v = \\dfrac{\\Delta x}{\\Delta t} \\qquad\\text{en}\\qquad "
+                      "x = x_{0} + v\\,t\\]"
+                      "\\(x_{0}\\) is de plaats op \\(t = 0\\). De eenheid van \\(v\\) is "
+                      "\\(\\text{m/s}\\); van km/h naar m/s deel je door \\(3{,}6\\), "
+                      "omgekeerd vermenigvuldig je ermee. Zo is \\(108\\) km/h gelijk aan "
+                      "\\(\\dfrac{108}{3{,}6} = 30\\) m/s."),
+            ("p", "Rekenen aan een ERB. Een <strong>auto</strong> die \\(243\\) km aflegt in "
+                  "\\(2\\) h \\(30\\) min, heeft \\(v_{\\text{gem}} = \\dfrac{243\\ "
+                  "\\text{km}}{2{,}5\\ \\text{h}} = 97{,}2\\) km/h. Een <strong>trein</strong> "
+                  "met \\(27\\) m/s komt in \\(3\\) min \\(20\\) s, dus in \\(200\\) s, "
+                  "\\(27 \\times 200 = 5400\\) m verder, of \\(5{,}4 \\times 10^{3}\\) m. "
+                  "Vertrekken <strong>twee fietsers</strong> samen met \\(4{,}5\\) m/s en "
+                  "\\(7{,}0\\) m/s, dan groeit hun onderlinge afstand met "
+                  "\\(\\Delta v = 2{,}5\\) m/s, en liggen ze na \\(40\\) s \\(100\\) m uit "
+                  "elkaar."),
         ]),
         dict(kop="Weg, verplaatsing en snelheid", blokken=[
             ("p", "<strong>Afgelegde weg en verplaatsing zijn niet altijd even groot.</strong> "
-                  "Rijdt een <strong>fietser 3 km naar het noorden en daarna 3 km terug</strong>, "
-                  "dan is de <strong>weg 6 km en de verplaatsing 0 km</strong>: hij staat weer waar "
-                  "hij vertrok."),
-            ("p", "Een snelheid <strong>heeft een grootte, een richting en een zin</strong> en "
-                  "<strong>wordt voorgesteld door een vector</strong>. Daarom "
-                  "<strong>kan een snelheid langs de x-as wel negatief zijn</strong>: dat betekent "
-                  "dat het lichaam de andere kant op gaat."),
-            ("p", "Het verschil tussen de <strong>gemiddelde en de ogenblikkelijke snelheid</strong>: "
-                  "<strong>de gemiddelde snelheid kijkt naar een heel traject, de ogenblikkelijke "
-                  "naar één moment</strong>. Om een gemiddelde snelheid te berekenen heb je "
-                  "<strong>de afgelegde weg</strong> en "
-                  "<strong>de tijdsduur van de beweging</strong> nodig; je deelt de eerste door de "
-                  "tweede."),
+                  "De afgelegde weg \\(s\\) telt elke meter mee; de verplaatsing is "
+                  "\\(\\Delta x = x_{\\text{eind}} - x_{\\text{begin}}\\). Rijdt een "
+                  "<strong>fietser</strong> \\(4{,}5\\) km naar het noorden en daarna "
+                  "\\(1{,}5\\) km terug, dan is \\(s = 6{,}0\\) km en \\(\\Delta x = 3{,}0\\) km "
+                  "naar het noorden. Gaat hij de volle \\(4{,}5\\) km terug, dan is "
+                  "\\(\\Delta x = 0\\) terwijl hij toch \\(9{,}0\\) km heeft gefietst."),
+            ("p", "Een snelheid heeft <strong>een grootte, een richting en een zin</strong> en "
+                  "wordt voorgesteld door een vector \\(\\vec{v}\\). Daarom kan een snelheid "
+                  "langs de \\(x\\)-as wel degelijk <strong>negatief</strong> zijn: het teken "
+                  "zegt de zin van de beweging langs die as. Alleen de grootte "
+                  "\\(\\lvert v \\rvert\\) blijft altijd positief. "
+                  "\\(\\text{m/s}^{2}\\) is níét de eenheid van een snelheid maar van een "
+                  "versnelling."),
+            ("p", "Het verschil tussen de twee snelheden: "
+                  "\\(v_{\\text{gem}} = \\dfrac{\\Delta x}{\\Delta t}\\) kijkt naar een heel "
+                  "traject, terwijl de <strong>ogenblikkelijke snelheid</strong> diezelfde "
+                  "verhouding is voor een heel klein tijdsinterval, dus op één moment. Dat is "
+                  "wat je op een snelheidsmeter leest. Om \\(v_{\\text{gem}}\\) te berekenen heb "
+                  "je enkel de <strong>afgelegde weg</strong> en de <strong>tijdsduur</strong> "
+                  "nodig; de massa \\(m\\) en de versnelling \\(a\\) doen daar niets toe."),
+        ]),
+        dict(kop="De zes bewegingsgrafieken", blokken=[
+            ("fig", svg.bewegingsgrafieken(),
+             "Boven een ERB, onder een EVRB. De ingekleurde oppervlakte onder een "
+             "v(t)-grafiek is telkens de verplaatsing."),
         ]),
         dict(kop="Grafieken lezen", blokken=[
-            ("p", "Drie dingen over een <strong>x(t)-grafiek</strong>: "
-                  "<strong>de helling van de grafiek is de snelheid</strong> op dat ogenblik, "
-                  "<strong>een horizontaal stuk betekent dat het lichaam stilstaat</strong>, en "
-                  "<strong>een dalend stuk betekent dat het terugkeert naar het vertrekpunt</strong>. "
-                  "Loopt een x(t)-grafiek <strong>eerst stijgend en daarna dalend</strong>, dan "
-                  "<strong>keert het lichaam onderweg om en komt het terug</strong>."),
-            ("p", "De <strong>oppervlakte onder een v(t)-grafiek</strong> stelt "
-                  "<strong>de verplaatsing van het lichaam</strong> voor; dat is dus "
-                  "<strong>de grootheid die je uit die oppervlakte afleest</strong>. En de "
-                  "<strong>oppervlakte onder een a(t)-grafiek geeft de "
-                  "snelheidsverandering</strong>."),
+            ("p", "Wat je uit een <strong>\\(x(t)\\)-grafiek</strong> afleest: de "
+                  "<strong>helling is de snelheid</strong>, want "
+                  "\\(\\dfrac{\\Delta x}{\\Delta t} = v\\). Een horizontaal stuk betekent dat "
+                  "het lichaam <strong>stilstaat</strong>, een dalend stuk dat het "
+                  "<strong>terugkeert naar het vertrekpunt</strong>. Loopt zo'n grafiek eerst "
+                  "stijgend en daarna dalend, dan keert het lichaam onderweg om; op het hoogste "
+                  "punt van de grafiek is \\(v = 0\\). De oppervlakte onder een "
+                  "\\(x(t)\\)-grafiek betekent niets."),
+            ("p", "Wat je uit de twee andere grafieken afleest: de oppervlakte onder een "
+                  "<strong>\\(v(t)\\)-grafiek</strong> is de <strong>verplaatsing</strong>, want "
+                  "\\(\\Delta x = v\\,\\Delta t\\) voor elk smal stukje, en een stuk onder de as "
+                  "telt negatief mee. De oppervlakte onder een "
+                  "<strong>\\(a(t)\\)-grafiek</strong> geeft op dezelfde manier de "
+                  "<strong>snelheidsverandering</strong> \\(\\Delta v = a\\,\\Delta t\\). Bij een "
+                  "ERB valt die \\(a(t)\\)-grafiek samen met de tijdas."),
         ]),
         dict(kop="De eenparig veranderlijke rechtlijnige beweging", blokken=[
-            ("p", "Bij een <strong>eenparig veranderlijke rechtlijnige beweging</strong> "
-                  "<strong>blijft de versnelling dezelfde</strong>, is "
-                  "<strong>de v(t)-grafiek een rechte</strong> en is "
-                  "<strong>de x(t)-grafiek een parabool</strong>. Die "
-                  "<strong>v(t)-grafiek is dus een schuine rechte</strong>. Een "
-                  "<strong>vrije val zonder luchtweerstand</strong> en "
-                  "<strong>een auto die gelijkmatig optrekt</strong> zijn er voorbeelden van."),
-            ("p", "Rekenen met de versnelling. Een <strong>auto die in 8 s van 0 naar 24 m/s</strong> "
-                  "gaat, heeft een versnelling van <strong>3 m/s²</strong>. Een "
-                  "<strong>fietser die van 10 m/s naar stilstand remt in 5 s</strong> heeft een "
-                  "versnelling van <strong>−2 m/s²</strong>. Een "
-                  "<strong>negatieve versnelling betekent niet altijd dat het lichaam "
-                  "vertraagt</strong>: ze betekent enkel dat de versnelling tegen de positieve zin "
-                  "van de as in wijst."),
-            ("p", "Rekenen met weg en snelheid. Een <strong>wagen die uit rust vertrekt met "
-                  "2 m/s²</strong> komt in <strong>6 s</strong> <strong>36 m</strong> ver en rijdt "
-                  "dan <strong>12 m/s</strong>. Een <strong>auto met 15 m/s die remt met "
-                  "3 m/s²</strong> heeft <strong>37,5 m</strong> nodig om te stoppen, en "
-                  "<strong>bij dubbele snelheid is de remweg vier keer zo lang</strong>, want de "
-                  "snelheid staat in het kwadraat."),
-            ("p", "Een inhaaloefening: rijdt een <strong>wagen met 20 m/s voorbij een stilstaande "
-                  "motor die meteen vertrekt met 4 m/s²</strong>, dan haalt de motor hem in "
-                  "<strong>na 10 s</strong> in, want dan hebben beide 200 m afgelegd."),
+            ("p", "Bij een <strong>eenparig veranderlijke rechtlijnige beweging</strong> (EVRB) "
+                  "blijft de <strong>versnelling</strong> dezelfde: elke seconde verandert de "
+                  "snelheid met evenveel. De \\(v(t)\\)-grafiek is dan een schuine rechte en de "
+                  "\\(x(t)\\)-grafiek een parabool. Een <strong>vrije val zonder "
+                  "luchtweerstand</strong> en een <strong>auto die gelijkmatig optrekt</strong> "
+                  "zijn voorbeelden; een kind op een <strong>draaimolen</strong> niet, want die "
+                  "beweging is niet rechtlijnig."),
+            ("kader", "<strong>De vier formules van een EVRB</strong><br>"
+                      "\\[a = \\dfrac{\\Delta v}{\\Delta t} \\qquad v = v_{0} + a\\,t\\]"
+                      "\\[x = x_{0} + v_{0}\\,t + \\tfrac{1}{2}a\\,t^{2} \\qquad "
+                      "v^{2} = v_{0}^{2} + 2a\\,\\Delta x\\]"
+                      "De laatste gebruik je als je de tijd niet kent of niet nodig hebt."),
         ]),
-        dict(kop="De vrije val", blokken=[
-            ("p", "Een <strong>vrije val</strong> is een beweging "
-                  "<strong>waarbij enkel de zwaartekracht werkt en de beginsnelheid nul is</strong>. "
-                  "De <strong>valversnelling op aarde</strong> is ongeveer "
-                  "<strong>9,81 m/s²</strong>; in oefeningen rekenen we vaak met 10."),
-            ("p", "Drie dingen gelden voor een vrije val zonder luchtweerstand: "
-                  "<strong>de versnelling blijft de hele val even groot</strong>, "
-                  "<strong>de snelheid groeit recht evenredig met de tijd</strong> en "
-                  "<strong>de afgelegde hoogte groeit met het kwadraat van de tijd</strong>. De "
-                  "<strong>valtijd hangt niet af van de massa van het voorwerp</strong>."),
-            ("p", "Rekenen: een <strong>steen valt na 3 s</strong> met <strong>30 m/s</strong>, met "
-                  "g gelijk aan 10 m/s². Doet een steen <strong>2 s</strong> over het bereiken van "
-                  "de bodem van een put, dan is die put <strong>20 m</strong> diep."),
-            ("p", "Gooi je een <strong>bal recht omhoog</strong>, dan geldt in het hoogste punt: "
-                  "<strong>de snelheid is nul en de versnelling niet</strong>, want de zwaartekracht "
-                  "blijft werken. Gooi je hem met <strong>20 m/s</strong> omhoog, dan duurt het "
-                  "<strong>2 s</strong> tot het hoogste punt."),
+        dict(kop="Rekenen aan een EVRB", blokken=[
+            ("p", "Rekenen met de versnelling. Een auto die in \\(8{,}0\\) s van \\(12\\) m/s "
+                  "naar \\(30\\) m/s gaat, heeft \\(a = \\dfrac{30 - 12}{8{,}0} = 2{,}25\\ "
+                  "\\text{m/s}^{2}\\). Een fietser die van \\(10\\) m/s tot stilstand remt in "
+                  "\\(5{,}0\\) s, heeft \\(a = \\dfrac{0 - 10}{5{,}0} = -2{,}0\\ "
+                  "\\text{m/s}^{2}\\). Een <strong>negatieve versnelling betekent niet altijd "
+                  "vertragen</strong>: ze betekent dat \\(\\vec{a}\\) tegen de positieve zin van "
+                  "de as in wijst. Is \\(v\\) ook negatief, dan versnelt het lichaam juist."),
+            ("p", "Rekenen met weg en snelheid. Een <strong>wagen</strong> die uit rust vertrekt "
+                  "met \\(2{,}5\\ \\text{m/s}^{2}\\) komt in \\(6{,}0\\) s "
+                  "\\(x = \\tfrac{1}{2}a\\,t^{2} = 45\\) m ver en rijdt dan "
+                  "\\(v = a\\,t = 15\\) m/s; zijn gemiddelde over die rit was maar "
+                  "\\(7{,}5\\) m/s. Een auto met \\(22\\) m/s die remt met \\(4{,}0\\ "
+                  "\\text{m/s}^{2}\\) heeft een <strong>remweg</strong> van "
+                  "\\(\\dfrac{v_{0}^{2}}{2a} = \\dfrac{484}{8{,}0} = 60{,}5\\) m. Omdat "
+                  "\\(v_{0}\\) daar in het kwadraat staat, is de remweg bij "
+                  "<strong>dubbele snelheid vier keer zo lang</strong>."),
+            ("p", "Een <strong>inhaaloefening</strong>. Een wagen rijdt met \\(25\\) m/s voorbij "
+                  "een stilstaande <strong>motor</strong>, die meteen vertrekt met \\(4{,}0\\ "
+                  "\\text{m/s}^{2}\\). Stel de twee plaatsen gelijk: "
+                  "\\(25\\,t = \\tfrac{1}{2} \\times 4{,}0 \\times t^{2}\\), dus "
+                  "\\(t = \\dfrac{2v}{a} = 12{,}5\\) s. Beide hebben dan \\(312{,}5\\) m "
+                  "afgelegd, en de motor rijdt op dat ogenblik \\(50\\) m/s, dubbel zo snel als "
+                  "de wagen."),
+        ]),
+        dict(kop="De vrije val en de verticale worp", blokken=[
+            ("p", "Een <strong>vrije val</strong> is een beweging waarbij enkel de "
+                  "zwaartekracht werkt en de beginsnelheid nul is. De "
+                  "<strong>valversnelling</strong> op aarde is \\(g = 9{,}81\\ "
+                  "\\text{m/s}^{2}\\); in oefeningen rekent men soms met \\(10\\). Op de maan is "
+                  "\\(g\\) ongeveer zes keer kleiner. Een vrije val is dus een EVRB met "
+                  "\\(v_{0} = 0\\) en \\(a = g\\):"),
+            ("kader", "\\[v = g\\,t \\qquad\\text{en}\\qquad h = \\tfrac{1}{2}g\\,t^{2}\\]"
+                      "Een <strong>steen</strong> valt na \\(3{,}0\\) s met "
+                      "\\(v = 9{,}81 \\times 3{,}0 = 29{,}4\\) m/s en is dan \\(44{,}1\\) m "
+                      "gevallen. Doet een steen \\(2{,}0\\) s over de bodem van een "
+                      "<strong>put</strong>, dan is die put \\(h = 0{,}5 \\times 9{,}81 \\times "
+                      "4{,}0 = 19{,}6\\) m diep."),
+        ]),
+        dict(kop="Valtijd, massa en de verticale worp", blokken=[
+            ("p", "Drie dingen gelden voor een vrije val zonder luchtweerstand: de versnelling "
+                  "blijft de hele val even groot, de snelheid groeit recht evenredig met de "
+                  "tijd, en de afgelegde hoogte groeit met het kwadraat van de tijd. De "
+                  "<strong>valtijd hangt niet af van de massa van het voorwerp</strong>: uit \\(m\\,g = m\\,a\\) "
+                  "volgt altijd \\(a = g\\), want de massa valt links en rechts weg. Een steen "
+                  "en een pluim vallen dus even snel."),
+            ("p", "Gooi je een <strong>bal</strong> recht omhoog, dan heb je een "
+                  "<strong>verticale worp</strong>. In het hoogste punt is \\(v = 0\\) maar "
+                  "blijft \\(a = g\\) omlaag wijzen, want de zwaartekracht blijft werken; "
+                  "daarom valt de bal meteen weer terug. Gooi je hem met \\(24\\) m/s omhoog, "
+                  "dan geeft \\(v = v_{0} - g\\,t = 0\\) een stijgtijd van "
+                  "\\(t = \\dfrac{24}{9{,}81} = 2{,}45\\) s; de hele vlucht duurt \\(4{,}89\\) s, "
+                  "want het terugvallen duurt even lang."),
         ]),
     ],
     onthoud=[
-        "ERB: rechte lijn, constante snelheid, x(t) een rechte, a(t) op de as.",
-        "Weg en verplaatsing zijn niet hetzelfde; snelheid is een vector.",
-        "Helling van x(t) is de snelheid; oppervlakte onder v(t) is de verplaatsing.",
-        "EVRB: constante versnelling, v(t) een rechte, x(t) een parabool.",
-        "Negatieve versnelling betekent niet automatisch vertragen.",
-        "Dubbele snelheid is vier keer de remweg.",
-        "Vrije val: g is ongeveer 9,81 m/s², onafhankelijk van de massa.",
-        "In het hoogste punt is de snelheid nul, de versnelling niet.",
+        "ERB: \\(a = 0\\), \\(v\\) constant, \\(x = x_{0} + v\\,t\\), \\(x(t)\\) een rechte.",
+        "Weg en verplaatsing zijn niet hetzelfde; \\(\\vec{v}\\) is een vector.",
+        "Helling van \\(x(t)\\) is \\(v\\); oppervlakte onder \\(v(t)\\) is \\(\\Delta x\\).",
+        "EVRB: \\(v = v_{0} + a\\,t\\) en \\(x = x_{0} + v_{0}t + \\tfrac{1}{2}a\\,t^{2}\\).",
+        "Zonder tijd: \\(v^{2} = v_{0}^{2} + 2a\\,\\Delta x\\), handig voor een remweg.",
+        "Een negatieve \\(a\\) betekent niet automatisch vertragen.",
+        "Dubbele snelheid is vier keer de remweg, want \\(v_{0}\\) staat in het kwadraat.",
+        "Vrije val: \\(g = 9{,}81\\ \\text{m/s}^{2}\\), onafhankelijk van de massa.",
+        "In het hoogste punt van een worp is \\(v = 0\\), maar \\(a\\) niet.",
     ],
 )
+
 
 # ───────────────────── 11. De horizontale worp
 BUNDELS["de-horizontale-worp-beyond"] = dict(

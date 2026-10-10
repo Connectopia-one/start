@@ -7529,3 +7529,78 @@ def newtonkrachten(breedte=470):
     d.append(_tekst(kx + cel_b / 2, grond + 48, "maar elk op een ánder lichaam", 9.5, DIM, "middle"))
 
     return _svg(cel_b * 2, cel_h, "\n".join(d))
+
+
+def bewegingsgrafieken(breedte=470):
+    r"""De zes bewegingsgrafieken van een ERB en van een EVRB.
+
+    Bovenaan de drie grafieken van een eenparig rechtlijnige beweging, onderaan
+    dezelfde drie voor een eenparig veranderlijke beweging. Onder elke
+    v(t)-grafiek staat de oppervlakte ingekleurd, want dat is de verplaatsing;
+    dat verband is net wat je op een grafiek moet kunnen zien.
+    """
+    import math
+    cel_b, cel_h = 156, 150
+    d = []
+
+    def paneel(px, py, tag, as_naam, onder):
+        d.append(f'<rect x="{px+5}" y="{py+4}" width="{cel_b-10}" height="{cel_h-30}" rx="7" '
+                 f'fill="#ffffff" stroke="{BORDER}" stroke-width="1.2"/>')
+        ox, oy, top = px + 28, py + 92, py + 20
+        rechts = px + cel_b - 18
+        d.append(f'<line x1="{ox}" y1="{top}" x2="{ox}" y2="{oy+6}" stroke="{DIM}" '
+                 f'stroke-width="1.3"/>')
+        d.append(f'<line x1="{ox-6}" y1="{oy}" x2="{rechts}" y2="{oy}" stroke="{DIM}" '
+                 f'stroke-width="1.3"/>')
+        d.append(_pijlkop(rechts, oy, 0.0, DIM, 4.0))
+        d.append(_pijlkop(ox, top, -math.pi / 2, DIM, 4.0))
+        d.append(_tekst(rechts - 2, oy + 13, "t", 9.5, DIM, "middle"))
+        d.append(_tekst(ox - 10, top + 4, as_naam, 9.5, DIM, "middle"))
+        d.append(_tekst(px + 14, py + 16, tag, 8.5, DARK, "start", True))
+        d.append(_tekst(px + cel_b / 2, py + cel_h - 10, onder, 9, DIM, "middle"))
+        return ox, oy, top, rechts
+
+    # ── bovenste rij: de eenparig rechtlijnige beweging
+    ox, oy, top, rechts = paneel(0, 0, "ERB", "x", "rechte: de helling is v")
+    d.append(f'<line x1="{ox+4}" y1="{oy-12}" x2="{rechts-10}" y2="{top+12}" '
+             f'stroke="{FOREST}" stroke-width="2.2"/>')
+
+    ox, oy, top, rechts = paneel(cel_b, 0, "ERB", "v", "vlak: de opp. is de weg")
+    vy = oy - 42
+    d.append(f'<rect x="{ox+1}" y="{vy}" width="{rechts-10-ox}" height="{oy-vy}" '
+             f'fill="{AMBER}" fill-opacity="0.16"/>')
+    d.append(f'<line x1="{ox+1}" y1="{vy}" x2="{rechts-10}" y2="{vy}" stroke="{FOREST}" '
+             f'stroke-width="2.2"/>')
+    d.append(_tekst((ox + rechts - 10) / 2, oy - 16, "v maal t", 9, AMBER, "middle", True))
+
+    ox, oy, top, rechts = paneel(cel_b * 2, 0, "ERB", "a", "op de as: a blijft nul")
+    d.append(f'<line x1="{ox+1}" y1="{oy-1.5}" x2="{rechts-10}" y2="{oy-1.5}" '
+             f'stroke="{FOREST}" stroke-width="2.4"/>')
+    d.append(_tekst((ox + rechts - 10) / 2, oy - 10, "a is 0", 9, FOREST, "middle", True))
+
+    # ── onderste rij: de eenparig veranderlijke rechtlijnige beweging
+    ry = cel_h
+    ox, oy, top, rechts = paneel(0, ry, "EVRB", "x", "parabool: steeds steiler")
+    punten = []
+    for i in range(25):
+        f = i / 24
+        punten.append(f"{ox + 2 + f * (rechts - 12 - ox):.1f},"
+                      f"{oy - 8 - (oy - 8 - (top + 10)) * f * f:.1f}")
+    d.append(f'<polyline points="{" ".join(punten)}" fill="none" stroke="{FOREST}" '
+             f'stroke-width="2.2"/>')
+
+    ox, oy, top, rechts = paneel(cel_b, ry, "EVRB", "v", "schuin: de helling is a")
+    ex, ey = rechts - 10, top + 14
+    d.append(f'<path d="M{ox+1} {oy} L{ex} {ey} L{ex} {oy} Z" fill="{AMBER}" '
+             f'fill-opacity="0.16"/>')
+    d.append(f'<line x1="{ox+1}" y1="{oy}" x2="{ex}" y2="{ey}" stroke="{FOREST}" '
+             f'stroke-width="2.2"/>')
+    d.append(_tekst(ox + 92, oy - 13, "halve opp.", 9, AMBER, "middle", True))
+
+    ox, oy, top, rechts = paneel(cel_b * 2, ry, "EVRB", "a", "vlak: a blijft gelijk")
+    ay = oy - 40
+    d.append(f'<line x1="{ox+1}" y1="{ay}" x2="{rechts-10}" y2="{ay}" stroke="{FOREST}" '
+             f'stroke-width="2.2"/>')
+    d.append(_tekst((ox + rechts - 10) / 2, ay - 8, "a is constant", 9, FOREST, "middle", True))
+
+    return _svg(cel_b * 3, cel_h * 2, "\n".join(d))

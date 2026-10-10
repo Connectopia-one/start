@@ -12,226 +12,230 @@ verticale worp en inhaalproblemen.
 De fiche vraagt om grafieken op te stellen; dat kan hier niet, dus vragen de
 vragen naar het verloop van zo'n grafiek in woorden en naar wat je eruit
 afleest.
+
+De formules staan in gewone wiskundige notatie, tussen \\( en \\). Daarom
+staan de teksten hier in rauwe strings: r"\\(v = v_{0} + a\\,t\\)".
 """
 
 DEEL1 = [
     dict(
         type="meerkeuze",
-        vraag="Wat is een eenparig rechtlijnige beweging?",
+        vraag="Wat betekent een eenparig rechtlijnige beweging in formules?",
         opties=[
-            "een beweging op een rechte lijn met constante snelheid",
-            "een beweging op een rechte lijn met constante versnelling",
-            "een beweging op een cirkel met constante snelheid",
-            "een beweging waarbij de snelheid gelijkmatig toeneemt",
+            r"\(\vec{v}\) blijft constant, dus \(a = 0\)",
+            r"\(a\) blijft constant, dus \(\vec{v}\) groeit",
+            r"\(x\) blijft constant, dus \(v = 0\)",
+            r"\(v\) groeit met \(t^{2}\), dus \(a\) groeit",
         ],
         antwoord=0,
-        uitleg="De versnelling is dan nul, dus is ook de resulterende kracht nul. Dat is de "
-        "eerste wet van Newton.",
+        uitleg=r"Met \(a = 0\) is ook \(\sum \vec{F} = \vec{0}\): dat is de eerste wet van "
+        r"Newton. De plaats volgt dan \(x = x_{0} + v\,t\).",
     ),
     dict(
         type="invultekst",
         vraag="Waarvoor staat de afkorting ERB?",
         antwoord=["eenparig rechtlijnige beweging", "eenparig rechtlijnig", "ERB"],
-        uitleg="De snelheid blijft daarbij constant in grootte én in zin. Verandert de "
-        "snelheid gelijkmatig, dan spreek je van een EVRB.",
+        uitleg=r"De snelheid blijft constant in grootte én in zin, dus \(x = x_{0} + v\,t\). "
+        r"Verandert \(v\) gelijkmatig, dan heb je een EVRB met \(v = v_{0} + a\,t\).",
     ),
     dict(
         type="meerkeuze",
-        vraag="Hoe ziet de x(t)-grafiek van een ERB eruit?",
+        vraag=r"Hoe ziet de \(x(t)\)-grafiek van een ERB eruit?",
         opties=[
             "een rechte met een constante helling",
             "een rechte die evenwijdig met de tijdas loopt",
             "een parabool die steeds steiler wordt",
-            "een kromme die naar een vaste waarde toe buigt",
+            "een kromme die naar een vaste waarde buigt",
         ],
         antwoord=0,
-        uitleg="De helling van die rechte is precies de snelheid. Bij een EVRB krijg je wel "
-        "een parabool.",
+        uitleg=r"De helling is \(\dfrac{\Delta x}{\Delta t} = v\). Bij een EVRB krijg je de "
+        r"parabool \(x = x_{0} + v_{0}\,t + \tfrac{1}{2}a\,t^{2}\).",
     ),
     dict(
         type="meerkeuze",
-        vraag="Wat lees je af uit de helling van een x(t)-grafiek?",
+        vraag=r"Wat stelt \(\dfrac{\Delta x}{\Delta t}\) voor op een \(x(t)\)-grafiek?",
         opties=[
-            "de snelheid op dat ogenblik",
-            "de versnelling op dat ogenblik",
-            "de afgelegde weg tot dan toe",
-            "de kracht die op het lichaam werkt",
+            r"\(v\), de snelheid op dat stuk",
+            r"\(a\), de versnelling op dat stuk",
+            r"\(s\), de afgelegde weg tot dan",
+            r"\(F\), de kracht op het lichaam",
         ],
         antwoord=0,
-        uitleg="Positie per tijd is snelheid. De helling van een v(t)-grafiek geeft op "
-        "dezelfde manier de versnelling.",
+        uitleg=r"Plaats per tijd is snelheid. Op een \(v(t)\)-grafiek geeft "
+        r"\(\dfrac{\Delta v}{\Delta t}\) op dezelfde manier \(a\).",
     ),
     dict(
         type="meerkeuze",
-        vraag="Wat stelt de oppervlakte onder een v(t)-grafiek voor?",
+        vraag=r"Wat stelt de oppervlakte onder een \(v(t)\)-grafiek voor?",
         opties=[
-            "de verplaatsing van het lichaam",
-            "de versnelling van het lichaam",
-            "de kracht op het lichaam",
-            "de tijd die het lichaam onderweg was",
+            r"de verplaatsing \(\Delta x\)",
+            r"de versnelling \(a\)",
+            r"de kracht \(F\)",
+            r"de tijdsduur \(\Delta t\)",
         ],
         antwoord=0,
-        uitleg="Snelheid maal tijd is afstand, en dat is precies wat die oppervlakte "
-        "voorstelt. Ligt een stuk onder de as, dan telt het negatief mee.",
+        uitleg=r"Snelheid maal tijd is afstand: \(\Delta x = v\,\Delta t\) voor elk smal "
+        r"stukje. Ligt een stuk onder de as, dan telt het negatief mee.",
     ),
     dict(
         type="waarofniet",
         vraag="Afgelegde weg en verplaatsing zijn altijd even groot.",
         antwoord=False,
-        uitleg="Wie heen en weer loopt, legt een weg af maar heeft een verplaatsing van nul. "
-        "Alleen bij een beweging in één zin vallen de twee samen.",
+        uitleg=r"De verplaatsing is \(\Delta x = x_{\text{eind}} - x_{\text{begin}}\); wie "
+        r"heen en weer loopt, heeft \(\Delta x = 0\) maar wel een weg afgelegd.",
     ),
     dict(
         type="meerkeuze",
-        vraag="Een fietser rijdt 3 km naar het noorden en daarna 3 km terug. Hoe groot zijn de afgelegde weg en de verplaatsing?",
+        vraag=r"Een fietser rijdt \(4{,}5\) km naar het noorden en daarna \(1{,}5\) km terug. Hoe groot zijn de weg \(s\) en de verplaatsing \(\Delta x\)?",
         opties=[
-            "weg 6 km en verplaatsing 0 km",
-            "weg 0 km en verplaatsing 6 km",
-            "weg 6 km en verplaatsing 6 km",
-            "weg 3 km en verplaatsing 3 km",
+            r"\(s = 6{,}0\) km en \(\Delta x = 3{,}0\) km",
+            r"\(s = 3{,}0\) km en \(\Delta x = 6{,}0\) km",
+            r"\(s = 6{,}0\) km en \(\Delta x = 6{,}0\) km",
+            r"\(s = 4{,}5\) km en \(\Delta x = 1{,}5\) km",
         ],
         antwoord=0,
-        uitleg="De verplaatsing is het verschil tussen begin- en eindpunt, en dat is nul. De "
-        "weg telt elke meter mee, ook de terugweg.",
+        uitleg=r"De weg telt elke meter mee: \(4{,}5 + 1{,}5 = 6{,}0\) km. De verplaatsing is "
+        r"het verschil: \(4{,}5 - 1{,}5 = 3{,}0\) km naar het noorden.",
     ),
     dict(
         type="meerkeuze",
-        vraag="Wat is het verschil tussen de gemiddelde en de ogenblikkelijke snelheid?",
+        vraag=r"Wat is het verschil tussen \(v_{\text{gem}}\) en de ogenblikkelijke snelheid \(v\)?",
         opties=[
-            "de gemiddelde snelheid kijkt naar een heel traject, de ogenblikkelijke naar één moment",
-            "de gemiddelde snelheid is altijd kleiner dan de ogenblikkelijke snelheid",
-            "de gemiddelde snelheid geldt enkel voor een ERB en de andere voor een EVRB",
-            "de gemiddelde snelheid staat in meter per seconde en de andere in kilometer per uur",
+            r"\(v_{\text{gem}}\) geldt over een traject, \(v\) op één ogenblik",
+            r"\(v_{\text{gem}}\) is altijd kleiner dan \(v\) op dat ogenblik",
+            r"\(v_{\text{gem}}\) hoort bij een ERB en \(v\) bij een EVRB",
+            r"\(v_{\text{gem}}\) staat in km/h en \(v\) in m/s",
         ],
         antwoord=0,
-        uitleg="De ogenblikkelijke snelheid lees je af op de snelheidsmeter. Bij een ERB "
-        "zijn de twee gelijk.",
+        uitleg=r"\(v_{\text{gem}} = \dfrac{\Delta x}{\Delta t}\) over het hele traject, "
+        r"terwijl \(v\) die verhouding is voor een heel klein tijdsinterval. Dat is wat je "
+        r"op een snelheidsmeter leest. Bij een ERB vallen de twee samen.",
     ),
     dict(
         type="invultekst",
-        vraag="Hoeveel meter per seconde is 72 km/h?",
-        antwoord=["20", "20 m/s", "twintig"],
-        uitleg="Deel door 3,6 om van kilometer per uur naar meter per seconde te gaan. "
-        "Omgekeerd vermenigvuldig je met 3,6.",
+        vraag=r"Hoeveel meter per seconde is \(108\) km/h?",
+        antwoord=["30", "30 m/s", "dertig"],
+        uitleg=r"Deel door \(3{,}6\): \(\dfrac{108}{3{,}6} = 30\) m/s. Omgekeerd "
+        r"vermenigvuldig je met \(3{,}6\).",
     ),
     dict(
         type="meerkeuze",
-        vraag="Een auto rijdt 150 km in 2 uur. Wat is zijn gemiddelde snelheid?",
+        vraag=r"Een auto legt \(243\) km af in \(2\) h \(30\) min. Hoe groot is \(v_{\text{gem}}\)?",
         opties=[
-            "75 km/h",
-            "300 km/h",
-            "50 km/h",
-            "25 km/h",
+            r"\(97{,}2\) km/h",
+            r"\(121{,}5\) km/h",
+            r"\(81{,}0\) km/h",
+            r"\(48{,}6\) km/h",
         ],
         antwoord=0,
-        uitleg="Deel de afstand door de tijd: 150 gedeeld door 2 is 75 kilometer per uur. "
-        "Hoe hard hij onderweg reed, weet je daarmee niet.",
+        uitleg=r"\(v_{\text{gem}} = \dfrac{243\ \text{km}}{2{,}5\ \text{h}} = 97{,}2\) km/h, "
+        r"of \(27\) m/s. Hoe hard hij onderweg reed, weet je daarmee niet.",
     ),
     dict(
         type="waarofniet",
-        vraag="Een a(t)-grafiek van een ERB valt samen met de tijdas.",
+        vraag=r"De \(a(t)\)-grafiek van een ERB valt samen met de tijdas.",
         antwoord=True,
-        uitleg="De versnelling is er nul, dus loopt de lijn op de hoogte nul. Bij een EVRB "
-        "loopt ze horizontaal op een andere hoogte.",
+        uitleg=r"Daar is \(a = \dfrac{\Delta v}{\Delta t} = 0\), dus loopt de lijn op hoogte "
+        r"nul. Bij een EVRB loopt ze horizontaal op een andere hoogte.",
     ),
     dict(
         type="meerkeuze",
-        vraag="Welke uitspraken over een x(t)-grafiek zijn juist? Kruis alles aan wat juist is.",
+        vraag=r"Welke uitspraken over een \(x(t)\)-grafiek zijn juist? Kruis alles aan wat juist is.",
         opties=[
-            "de helling van de grafiek is de snelheid",
-            "een horizontaal stuk betekent dat het lichaam stilstaat",
-            "een dalend stuk betekent dat het terugkeert naar het vertrekpunt",
-            "de oppervlakte onder de grafiek is de verplaatsing",
+            r"de helling is de snelheid \(v\)",
+            "een horizontaal stuk betekent stilstand",
+            "een dalend stuk betekent terugkeren",
+            r"de oppervlakte eronder is \(\Delta x\)",
         ],
         antwoord=[0, 1, 2],
-        uitleg="De oppervlakte onder een v(t)-grafiek is de verplaatsing, niet die onder een "
-        "x(t)-grafiek. Daar lees je de plaats rechtstreeks op de verticale as af.",
+        uitleg=r"De oppervlakte onder een \(v(t)\)-grafiek is de verplaatsing, niet die onder "
+        r"een \(x(t)\)-grafiek. Daar lees je \(x\) rechtstreeks op de verticale as af.",
     ),
     dict(
         type="meerkeuze",
         vraag="Welke uitspraken over een snelheid zijn juist? Kruis alles aan wat juist is.",
         opties=[
             "ze heeft een grootte, een richting en een zin",
-            "ze wordt voorgesteld door een vector",
+            r"ze wordt voorgesteld door een vector \(\vec{v}\)",
             "ze is altijd positief, hoe het lichaam ook beweegt",
-            "ze wordt in meter per seconde kwadraat uitgedrukt",
+            r"ze wordt uitgedrukt in \(\text{m/s}^{2}\)",
         ],
         antwoord=[0, 1],
-        uitleg="Beweegt een lichaam tegen de zin van de x-as, dan is de snelheid langs die "
-        "as negatief. Meter per seconde kwadraat is de eenheid van versnelling.",
+        uitleg=r"Beweegt een lichaam tegen de zin van de \(x\)-as, dan is \(v\) langs die as "
+        r"negatief. \(\text{m/s}^{2}\) is de eenheid van versnelling.",
     ),
     dict(
         type="meerkeuze",
-        vraag="Een x(t)-grafiek loopt eerst stijgend en daarna dalend. Wat doet het lichaam?",
+        vraag=r"Een \(x(t)\)-grafiek loopt eerst stijgend en daarna dalend. Wat doet het lichaam?",
         opties=[
             "het keert onderweg om en komt terug",
             "het versnelt eerst en vertraagt dan",
-            "het staat eerst stil en vertrekt daarna",
+            "het staat eerst stil en vertrekt dan",
             "het beweegt de hele tijd dezelfde kant op",
         ],
         antwoord=0,
-        uitleg="De helling wisselt van teken, dus ook de snelheid. Op het hoogste punt van "
-        "de grafiek is de snelheid even nul.",
+        uitleg=r"De helling wisselt van teken, dus ook \(v\). Op het hoogste punt van de "
+        r"grafiek is \(v = 0\).",
     ),
     dict(
         type="waarofniet",
-        vraag="Een snelheid langs de x-as kan nooit negatief zijn.",
+        vraag=r"Een snelheid langs de \(x\)-as kan nooit negatief zijn.",
         antwoord=False,
-        uitleg="Ze kan dat wel: het teken zegt de zin van de beweging langs die as. Alleen "
-        "de grootte van de snelheid blijft altijd positief.",
+        uitleg=r"Het teken zegt de zin van de beweging langs die as. Alleen de grootte "
+        r"\(\lvert v \rvert\) blijft altijd positief.",
     ),
     dict(
         type="meerkeuze",
-        vraag="Welke gegevens heb je nodig om een gemiddelde snelheid te berekenen? Kruis alles aan wat juist is.",
+        vraag=r"Welke gegevens heb je nodig voor \(v_{\text{gem}}\)? Kruis alles aan wat juist is.",
         opties=[
-            "de afgelegde weg",
-            "de tijdsduur van de beweging",
-            "de massa van het lichaam",
-            "de versnelling van het lichaam",
+            r"de afgelegde weg \(s\)",
+            r"de tijdsduur \(\Delta t\)",
+            r"de massa \(m\) van het lichaam",
+            r"de versnelling \(a\)",
         ],
         antwoord=[0, 1],
-        uitleg="Je deelt de afgelegde weg door de tijdsduur. De massa en de versnelling doen "
-        "daar niets toe.",
+        uitleg=r"Je rekent \(v_{\text{gem}} = \dfrac{s}{\Delta t}\). De massa en de "
+        r"versnelling doen daar niets toe.",
     ),
     dict(
         type="meerkeuze",
-        vraag="Twee fietsers vertrekken samen, de ene met 4 m/s en de andere met 6 m/s. Hoe ver liggen ze na 30 s uit elkaar?",
+        vraag=r"Twee fietsers vertrekken samen met \(4{,}5\) m/s en \(7{,}0\) m/s. Hoe ver liggen ze na \(40\) s uit elkaar?",
         opties=[
-            "60 m",
-            "300 m",
-            "120 m",
-            "30 m",
+            r"\(100\) m",
+            r"\(460\) m",
+            r"\(280\) m",
+            r"\(40\) m",
         ],
         antwoord=0,
-        uitleg="Het verschil in snelheid is 2 meter per seconde: 2 maal 30 is 60 meter. Je "
-        "kan ook beide afstanden apart uitrekenen en aftrekken.",
+        uitleg=r"Reken met het verschil: \(\Delta v = 7{,}0 - 4{,}5 = 2{,}5\) m/s, dus "
+        r"\(2{,}5 \times 40 = 100\) m. Je kan ook \(280 - 180\) nemen.",
     ),
     dict(
         type="meerkeuze",
-        vraag="Een trein rijdt met 20 m/s. Hoe ver komt hij in 2 minuten?",
+        vraag=r"Een trein rijdt met \(27\) m/s. Hoe ver komt hij in \(3\) min \(20\) s?",
         opties=[
-            "2400 m",
-            "40 m",
-            "1200 m",
-            "240 m",
+            r"\(5{,}4 \times 10^{3}\) m",
+            r"\(1{,}6 \times 10^{3}\) m",
+            r"\(8{,}1 \times 10^{2}\) m",
+            r"\(9{,}0 \times 10^{1}\) m",
         ],
         antwoord=0,
-        uitleg="Zet de tijd eerst om: 2 minuten is 120 seconden, en 20 maal 120 is 2400 "
-        "meter.",
+        uitleg=r"Zet de tijd eerst om: \(3\) min \(20\) s is \(200\) s, en "
+        r"\(27 \times 200 = 5400\) m. Dat is \(5{,}4\) km.",
     ),
     dict(
         type="invultekst",
-        vraag="Welke grootheid lees je af uit de oppervlakte onder een v(t)-grafiek?",
+        vraag=r"Welke grootheid lees je af uit de oppervlakte onder een \(v(t)\)-grafiek?",
         antwoord=["de verplaatsing", "verplaatsing", "de afgelegde weg"],
-        uitleg="Snelheid maal tijd is afstand. De helling van diezelfde grafiek geeft de "
-        "versnelling.",
+        uitleg=r"Snelheid maal tijd is afstand. De helling van diezelfde grafiek geeft "
+        r"\(a\).",
     ),
     dict(
         type="waarofniet",
-        vraag="Bij een ERB zijn de gemiddelde en de ogenblikkelijke snelheid even groot.",
+        vraag=r"Bij een ERB zijn \(v_{\text{gem}}\) en de ogenblikkelijke snelheid even groot.",
         antwoord=True,
-        uitleg="De snelheid verandert niet, dus kan het gemiddelde niet anders uitvallen. "
-        "Bij een EVRB lopen de twee wel uiteen.",
+        uitleg=r"De snelheid verandert niet, dus kan het gemiddelde niet anders uitvallen. "
+        r"Bij een EVRB lopen de twee wel uiteen.",
     ),
 ]
 
@@ -240,18 +244,18 @@ DEEL2 = [
         type="meerkeuze",
         vraag="Welke uitspraken over een eenparig veranderlijke rechtlijnige beweging zijn juist? Kruis alles aan wat juist is.",
         opties=[
-            "de versnelling blijft dezelfde",
-            "de v(t)-grafiek is een rechte",
-            "de x(t)-grafiek is een parabool",
-            "de snelheid blijft dezelfde",
+            r"\(a\) blijft dezelfde",
+            r"de \(v(t)\)-grafiek is een rechte",
+            r"de \(x(t)\)-grafiek is een parabool",
+            r"\(v\) blijft dezelfde",
         ],
         antwoord=[0, 1, 2],
-        uitleg="Een constante snelheid hoort juist bij een eenparige beweging. Hier verandert "
-        "de snelheid elke seconde met dezelfde hoeveelheid.",
+        uitleg=r"Een constante \(v\) hoort bij een ERB. Hier verandert \(v\) elke seconde "
+        r"met dezelfde hoeveelheid: \(v = v_{0} + a\,t\).",
     ),
     dict(
         type="meerkeuze",
-        vraag="Hoe ziet de v(t)-grafiek van een EVRB eruit?",
+        vraag=r"Hoe ziet de \(v(t)\)-grafiek van een EVRB eruit?",
         opties=[
             "een schuine rechte",
             "een horizontale rechte",
@@ -259,133 +263,133 @@ DEEL2 = [
             "een kromme die afvlakt naar een grens",
         ],
         antwoord=0,
-        uitleg="De helling van die rechte is de versnelling. De x(t)-grafiek is dan een "
-        "parabool.",
+        uitleg=r"De helling van die rechte is \(a\). De \(x(t)\)-grafiek is dan de parabool "
+        r"\(x = x_{0} + v_{0}\,t + \tfrac{1}{2}a\,t^{2}\).",
     ),
     dict(
         type="meerkeuze",
-        vraag="Een auto gaat in 8 s van 0 naar 24 m/s. Hoe groot is zijn versnelling?",
+        vraag=r"Een auto gaat in \(8{,}0\) s van \(12\) m/s naar \(30\) m/s. Hoe groot is \(a\)?",
         opties=[
-            "3 m/s²",
-            "192 m/s²",
-            "0,33 m/s²",
-            "32 m/s²",
+            r"\(2{,}25\ \text{m/s}^{2}\)",
+            r"\(3{,}75\ \text{m/s}^{2}\)",
+            r"\(0{,}44\ \text{m/s}^{2}\)",
+            r"\(18{,}0\ \text{m/s}^{2}\)",
         ],
         antwoord=0,
-        uitleg="De snelheidsverandering gedeeld door de tijd: 24 gedeeld door 8 is 3 meter "
-        "per seconde kwadraat.",
+        uitleg=r"\(a = \dfrac{\Delta v}{\Delta t} = \dfrac{30 - 12}{8{,}0} = 2{,}25\ "
+        r"\text{m/s}^{2}\). Let op dat je de beginsnelheid eerst aftrekt.",
     ),
     dict(
         type="meerkeuze",
-        vraag="Een fietser remt van 10 m/s naar stilstand in 5 s. Hoe groot is zijn versnelling?",
+        vraag=r"Een fietser remt van \(10\) m/s tot stilstand in \(5{,}0\) s. Hoe groot is \(a\)?",
         opties=[
-            "−2 m/s²",
-            "2 m/s²",
-            "−50 m/s²",
-            "−0,5 m/s²",
+            r"\(-2{,}0\ \text{m/s}^{2}\)",
+            r"\(+2{,}0\ \text{m/s}^{2}\)",
+            r"\(-50\ \text{m/s}^{2}\)",
+            r"\(-0{,}5\ \text{m/s}^{2}\)",
         ],
         antwoord=0,
-        uitleg="Het teken min betekent dat de versnelling tegen de bewegingszin in wijst. "
-        "Dat noemt men ook een vertraging.",
+        uitleg=r"\(a = \dfrac{0 - 10}{5{,}0} = -2{,}0\ \text{m/s}^{2}\). Het minteken zegt "
+        r"dat \(\vec{a}\) tegen de bewegingszin in wijst; men noemt dat een vertraging.",
     ),
     dict(
         type="waarofniet",
-        vraag="Een negatieve versnelling betekent altijd dat het lichaam vertraagt.",
+        vraag=r"Een negatieve \(a\) betekent altijd dat het lichaam vertraagt.",
         antwoord=False,
-        uitleg="Het betekent dat de versnelling tegen de zin van de as in wijst. Beweegt het "
-        "lichaam ook die kant op, dan versnelt het juist.",
+        uitleg=r"Ze betekent dat \(\vec{a}\) tegen de zin van de as in wijst. Is \(v\) ook "
+        r"negatief, dan versnelt het lichaam juist.",
     ),
     dict(
         type="meerkeuze",
-        vraag="Een wagen vertrekt uit rust met 2 m/s². Hoe ver komt hij in 6 s?",
+        vraag=r"Een wagen vertrekt uit rust met \(2{,}5\ \text{m/s}^{2}\). Hoe ver komt hij in \(6{,}0\) s?",
         opties=[
-            "36 m",
-            "12 m",
-            "72 m",
-            "6 m",
+            r"\(45\) m",
+            r"\(15\) m",
+            r"\(90\) m",
+            r"\(7{,}5\) m",
         ],
         antwoord=0,
-        uitleg="De afstand is een half maal a maal t kwadraat: 0,5 maal 2 maal 36 is 36 "
-        "meter.",
+        uitleg=r"Met \(v_{0} = 0\) wordt \(x = \tfrac{1}{2}a\,t^{2} = 0{,}5 \times 2{,}5 "
+        r"\times 36 = 45\) m. Vergeet die factor een half niet.",
     ),
     dict(
         type="meerkeuze",
-        vraag="Diezelfde wagen: hoe snel rijdt hij na die 6 s?",
+        vraag=r"Diezelfde wagen: hoe snel rijdt hij na die \(6{,}0\) s?",
         opties=[
-            "12 m/s",
-            "36 m/s",
-            "6 m/s",
-            "3 m/s",
+            r"\(15\) m/s",
+            r"\(45\) m/s",
+            r"\(7{,}5\) m/s",
+            r"\(2{,}5\) m/s",
         ],
         antwoord=0,
-        uitleg="De snelheid is a maal t: 2 maal 6 is 12 meter per seconde. De gemiddelde "
-        "snelheid over die rit was maar 6 meter per seconde.",
+        uitleg=r"\(v = a\,t = 2{,}5 \times 6{,}0 = 15\) m/s. Zijn gemiddelde over die rit was "
+        r"maar \(\dfrac{0 + 15}{2} = 7{,}5\) m/s.",
     ),
     dict(
         type="invultekst",
         vraag="Hoe groot is de valversnelling op aarde ongeveer?",
         antwoord=["9,81 m/s²", "9,81", "ongeveer 10"],
-        uitleg="Men rekent vaak met 9,81 of afgerond met 10. Op de maan is ze zes keer "
-        "kleiner.",
+        uitleg=r"Men rekent met \(g = 9{,}81\ \text{m/s}^{2}\), of afgerond met \(10\). Op de "
+        r"maan is \(g\) zes keer kleiner.",
     ),
     dict(
         type="meerkeuze",
-        vraag="Hoe snel valt een steen na 3 s vrije val, met g gelijk aan 10 m/s²?",
+        vraag=r"Hoe snel valt een steen na \(3{,}0\) s vrije val? Neem \(g = 9{,}81\ \text{m/s}^{2}\).",
         opties=[
-            "30 m/s",
-            "45 m/s",
-            "10 m/s",
-            "3,3 m/s",
+            r"\(29{,}4\) m/s",
+            r"\(44{,}1\) m/s",
+            r"\(9{,}81\) m/s",
+            r"\(3{,}27\) m/s",
         ],
         antwoord=0,
-        uitleg="De snelheid is g maal t: 10 maal 3 is 30 meter per seconde. De afgelegde "
-        "hoogte is daarbij 45 meter.",
+        uitleg=r"\(v = g\,t = 9{,}81 \times 3{,}0 = 29{,}4\) m/s. De gevallen hoogte is "
+        r"intussen \(\tfrac{1}{2}g\,t^{2} = 44{,}1\) m.",
     ),
     dict(
         type="meerkeuze",
-        vraag="Hoe diep is een put als een steen er 2 s over doet om de bodem te raken? Neem g gelijk aan 10 m/s².",
+        vraag=r"Hoe diep is een put als een steen er \(2{,}0\) s over doet? Neem \(g = 9{,}81\ \text{m/s}^{2}\).",
         opties=[
-            "20 m",
-            "40 m",
-            "10 m",
-            "5 m",
+            r"\(19{,}6\) m",
+            r"\(39{,}2\) m",
+            r"\(9{,}81\) m",
+            r"\(4{,}91\) m",
         ],
         antwoord=0,
-        uitleg="De hoogte is een half maal g maal t kwadraat: 0,5 maal 10 maal 4 is 20 "
-        "meter. Het geluid van de plons doet er ook nog even over.",
+        uitleg=r"\(h = \tfrac{1}{2}g\,t^{2} = 0{,}5 \times 9{,}81 \times 4{,}0 = 19{,}6\) m. "
+        r"Het geluid van de plons doet er ook nog even over.",
     ),
     dict(
         type="waarofniet",
         vraag="Bij een vrije val hangt de valtijd af van de massa van het voorwerp.",
         antwoord=False,
-        uitleg="Zonder luchtweerstand valt alles even snel. De zwaartekracht is wel groter "
-        "op een zware massa, maar die massa is evenredig moeilijker te versnellen.",
+        uitleg=r"Zonder luchtweerstand geeft \(m\,g = m\,a\) altijd \(a = g\): de massa valt "
+        r"links en rechts weg.",
     ),
     dict(
         type="meerkeuze",
         vraag="Je gooit een bal recht omhoog. Wat gebeurt er in het hoogste punt?",
         opties=[
-            "de snelheid is nul en de versnelling niet",
-            "de snelheid en de versnelling zijn allebei nul",
-            "de versnelling is nul en de snelheid niet",
-            "de versnelling keert daar van zin om",
+            r"\(v = 0\) maar \(a = g\) omlaag",
+            r"\(v = 0\) en \(a = 0\)",
+            r"\(a = 0\) maar \(v \neq 0\)",
+            r"\(\vec{a}\) keert daar van zin om",
         ],
         antwoord=0,
-        uitleg="De zwaartekracht blijft ook in het hoogste punt werken, dus blijft de "
-        "versnelling 9,81 omlaag. Daarom valt de bal meteen weer terug.",
+        uitleg=r"De zwaartekracht blijft ook daar werken, dus blijft \(a = 9{,}81\ "
+        r"\text{m/s}^{2}\) omlaag. Daarom valt de bal meteen weer terug.",
     ),
     dict(
         type="meerkeuze",
-        vraag="Je gooit een bal met 20 m/s recht omhoog. Hoe lang duurt het tot hij het hoogste punt bereikt? Neem g gelijk aan 10 m/s².",
+        vraag=r"Je gooit een bal met \(24\) m/s recht omhoog. Hoe lang duurt het tot het hoogste punt? Neem \(g = 9{,}81\ \text{m/s}^{2}\).",
         opties=[
-            "2 s",
-            "4 s",
-            "1 s",
-            "20 s",
+            r"\(2{,}45\) s",
+            r"\(4{,}89\) s",
+            r"\(1{,}22\) s",
+            r"\(24{,}5\) s",
         ],
         antwoord=0,
-        uitleg="De snelheid moet van 20 naar nul met 10 per seconde eraf. De hele vlucht "
-        "duurt dus 4 seconden, want het terugvallen duurt even lang.",
+        uitleg=r"Zet \(v = v_{0} - g\,t = 0\), dus \(t = \dfrac{24}{9{,}81} = 2{,}45\) s. De "
+        r"hele vlucht duurt \(4{,}89\) s, want het terugvallen duurt even lang.",
     ),
     dict(
         type="meerkeuze",
@@ -393,71 +397,72 @@ DEEL2 = [
         opties=[
             "een vrije val zonder luchtweerstand",
             "een auto die gelijkmatig optrekt",
-            "een fietser die met constante snelheid rijdt",
-            "een kind op een draaimolen aan één stuk door",
+            "een fietser met constante snelheid",
+            "een kind op een draaimolen",
         ],
         antwoord=[0, 1],
-        uitleg="Bij een draaimolen verandert de richting voortdurend, dus is de beweging "
-        "niet rechtlijnig. Een constante snelheid hoort bij een ERB.",
+        uitleg=r"Bij een draaimolen verandert de richting voortdurend, dus is de beweging "
+        r"niet rechtlijnig. Een constante \(v\) hoort bij een ERB.",
     ),
     dict(
         type="meerkeuze",
-        vraag="Een auto rijdt met 15 m/s en remt met 3 m/s². Hoeveel meter heeft hij nodig om te stoppen?",
+        vraag=r"Een auto rijdt \(22\) m/s en remt met \(4{,}0\ \text{m/s}^{2}\). Hoe lang is zijn remweg?",
         opties=[
-            "37,5 m",
-            "75 m",
-            "5 m",
-            "22,5 m",
+            r"\(60{,}5\) m",
+            r"\(121\) m",
+            r"\(5{,}5\) m",
+            r"\(30{,}3\) m",
         ],
         antwoord=0,
-        uitleg="Gebruik v kwadraat gedeeld door 2 maal a: 225 gedeeld door 6 is 37,5 meter. "
-        "Bij de dubbele snelheid is die remweg vier keer zo lang.",
+        uitleg=r"Gebruik \(v^{2} = v_{0}^{2} + 2a\,\Delta x\) met \(v = 0\): "
+        r"\(\Delta x = \dfrac{v_{0}^{2}}{2a} = \dfrac{484}{8{,}0} = 60{,}5\) m.",
     ),
     dict(
         type="waarofniet",
         vraag="Bij dubbele snelheid is de remweg vier keer zo lang.",
         antwoord=True,
-        uitleg="De remweg gaat met het kwadraat van de snelheid. Daarom is een kleine "
-        "snelheidsverhoging in de bebouwde kom zo gevaarlijk.",
+        uitleg=r"In \(\Delta x = \dfrac{v_{0}^{2}}{2a}\) staat \(v_{0}\) in het kwadraat. "
+        r"Daarom is een kleine snelheidsverhoging in de bebouwde kom zo gevaarlijk.",
     ),
     dict(
         type="meerkeuze",
-        vraag="Een wagen rijdt met 20 m/s voorbij een stilstaande motor, die meteen vertrekt met 4 m/s². Wanneer haalt de motor hem in?",
+        vraag=r"Een wagen rijdt met \(25\) m/s voorbij een stilstaande motor, die meteen vertrekt met \(4{,}0\ \text{m/s}^{2}\). Wanneer haalt de motor hem in?",
         opties=[
-            "na 10 s",
-            "na 5 s",
-            "na 20 s",
-            "na 2 s",
+            r"na \(12{,}5\) s",
+            r"na \(6{,}25\) s",
+            r"na \(25{,}0\) s",
+            r"na \(2{,}50\) s",
         ],
         antwoord=0,
-        uitleg="Stel de twee afstanden gelijk: 20 maal t is 0,5 maal 4 maal t kwadraat. Dat "
-        "geeft t is 10 seconden, en dan hebben beide 200 meter afgelegd.",
+        uitleg=r"Stel de twee plaatsen gelijk: \(25\,t = \tfrac{1}{2} \times 4{,}0 \times "
+        r"t^{2}\), dus \(t = \dfrac{2 v}{a} = 12{,}5\) s. Beide hebben dan \(312{,}5\) m "
+        r"afgelegd, en de motor rijdt op dat ogenblik \(50\) m/s.",
     ),
     dict(
         type="meerkeuze",
         vraag="Welke uitspraken over een vrije val zonder luchtweerstand zijn juist? Kruis alles aan wat juist is.",
         opties=[
-            "de versnelling blijft de hele val even groot",
-            "de snelheid groeit recht evenredig met de tijd",
-            "de afgelegde hoogte groeit met het kwadraat van de tijd",
-            "een zwaarder voorwerp valt sneller naar beneden",
+            r"\(a\) blijft de hele val even groot",
+            r"\(v\) groeit recht evenredig met \(t\)",
+            r"de hoogte groeit met \(t^{2}\)",
+            "een zwaarder voorwerp valt sneller",
         ],
         antwoord=[0, 1, 2],
-        uitleg="Zonder luchtweerstand vallen een steen en een pluim even snel. De massa staat "
-        "niet in de formules van een vrije val.",
+        uitleg=r"Zonder luchtweerstand vallen een steen en een pluim even snel: in \(v = g\,t\) "
+        r"en \(h = \tfrac{1}{2}g\,t^{2}\) staat geen massa.",
     ),
     dict(
         type="waarofniet",
-        vraag="De oppervlakte onder een a(t)-grafiek geeft de snelheidsverandering.",
+        vraag=r"De oppervlakte onder een \(a(t)\)-grafiek geeft \(\Delta v\).",
         antwoord=True,
-        uitleg="Versnelling maal tijd is snelheid, net zoals snelheid maal tijd afstand is. "
-        "De drie grafieken hangen zo met elkaar samen.",
+        uitleg=r"\(\Delta v = a\,\Delta t\), net zoals \(\Delta x = v\,\Delta t\). Zo hangen "
+        r"de drie grafieken met elkaar samen.",
     ),
     dict(
         type="invultekst",
         vraag="Hoe noem je een beweging waarbij enkel de zwaartekracht werkt en de beginsnelheid nul is?",
         antwoord=["vrije val", "een vrije val", "val"],
-        uitleg="Ze is een EVRB met een versnelling van 9,81 meter per seconde kwadraat. "
-        "Gooi je het voorwerp eerst omhoog, dan spreek je van een verticale worp.",
+        uitleg=r"Ze is een EVRB met \(a = g = 9{,}81\ \text{m/s}^{2}\). Gooi je het voorwerp "
+        r"eerst omhoog, dan spreek je van een verticale worp.",
     ),
 ]
