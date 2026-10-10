@@ -180,26 +180,26 @@ BUNDELS["logica-symbolen-waarheidstabellen-en-poorten-boost-doorstroom"] = dict(
             ("p", "Een <strong>logische uitspraak</strong> is een zin waarvan je kan zeggen of hij "
                   "<strong>waar of vals</strong> is. <em>Zeven is een priemgetal</em> is er een. <em>Hoe laat "
                   "is het?</em> niet: bij een vraag past geen waarheidswaarde. Bij een bevel evenmin. Ook "
-                  "<em>x is groter dan 3</em> is pas een uitspraak als je weet wat x is."),
-            ("p", "Uitspraken krijgen een letter: p, q, r. De <strong>waarheidswaarde</strong> is waar (1) of "
+                  "<em>\\(x\\) is groter dan 3</em> is pas een uitspraak als je weet wat \\(x\\) is."),
+            ("p", "Uitspraken krijgen een letter: \\(p\\), \\(q\\), \\(r\\). De <strong>waarheidswaarde</strong> is waar (1) of "
                   "vals (0)."),
         ]),
         dict(kop="De bewerkingen en hun symbolen", blokken=[
             ("p", tabel(["Naam", "Symbool", "Lees als", "Waar wanneer"], [
-                ["negatie (ontkenning)", "¬p", "niet p", "als p vals is"],
-                ["conjunctie", "p ∧ q", "p en q", "als p en q allebei waar zijn"],
-                ["disjunctie", "p ∨ q", "p of q", "als minstens één van de twee waar is"],
-                ["implicatie", "p ⇒ q", "als p dan q", "altijd, behalve als p waar is en q vals"],
-                ["equivalentie", "p ⇔ q", "p als en slechts als q", "als p en q dezelfde waarheidswaarde hebben"],
+                ["negatie (ontkenning)", "\\(\\neg p\\)", "niet \\(p\\)", "als \\(p\\) vals is"],
+                ["conjunctie", "\\(p \\land q\\)", "\\(p\\) en \\(q\\)", "als \\(p\\) en \\(q\\) allebei waar zijn"],
+                ["disjunctie", "\\(p \\lor q\\)", "\\(p\\) of \\(q\\)", "als minstens één van de twee waar is"],
+                ["implicatie", "\\(p \\Rightarrow q\\)", "als \\(p\\) dan \\(q\\)", "altijd, behalve als \\(p\\) waar is en \\(q\\) vals"],
+                ["equivalentie", "\\(p \\Leftrightarrow q\\)", "\\(p\\) als en slechts als \\(q\\)", "als \\(p\\) en \\(q\\) dezelfde waarheidswaarde hebben"],
             ])),
             ("p", "De <strong>negatie</strong>, ook <em>ontkenning</em> genoemd, keert de waarheidswaarde om "
-                  "en doet niets anders: is p waar, dan is ¬p vals, en omgekeerd."),
-            ("p", "Het dakje ∧ is <em>en</em>, het omgekeerde dakje ∨ is <em>of</em>. Een ezelsbruggetje: ∧ "
-                  "lijkt op de A van <em>and</em>. Je mag ze dus nooit door elkaar gebruiken: p ∧ q vraagt "
-                  "allebei, p ∨ q neemt genoegen met één."),
+                  "en doet niets anders: is \\(p\\) waar, dan is \\(\\neg p\\) vals, en omgekeerd."),
+            ("p", "Het dakje \\(\\land\\) is <em>en</em>, het omgekeerde dakje \\(\\lor\\) is <em>of</em>. Een ezelsbruggetje: \\(\\land\\) "
+                  "lijkt op de A van <em>and</em>. Je mag ze dus nooit door elkaar gebruiken: \\(p \\land q\\) vraagt "
+                  "allebei, \\(p \\lor q\\) neemt genoegen met één."),
             ("kader", "De <strong>logische 'of' verschilt van de 'of' in de omgangstaal</strong>. "
                       "<em>Koffie of thee?</em> betekent in het dagelijks leven meestal één van beide. In de "
-                      "logica is p ∨ q ook waar als p en q <strong>allebei</strong> waar zijn."),
+                      "logica is \\(p \\lor q\\) ook waar als \\(p\\) en \\(q\\) <strong>allebei</strong> waar zijn."),
             ("p", "Bij de <strong>equivalentie</strong> geldt: allebei waar of allebei vals maakt ze waar; "
                   "verschillen ze, dan is ze vals."),
         ]),
@@ -207,40 +207,40 @@ BUNDELS["logica-symbolen-waarheidstabellen-en-poorten-boost-doorstroom"] = dict(
             ("p", "Een <strong>waarheidstabel</strong> zet alle mogelijke combinaties onder elkaar. Elke "
                   "variabele <strong>verdubbelt</strong> het aantal rijen: twee variabelen geven "
                   "<strong>vier</strong> rijen, drie variabelen <strong>acht</strong>, vier variabelen "
-                  "<strong>zestien</strong>, en n variabelen 2 tot de macht n."),
-            ("p", tabel(["p", "q", "¬p", "p ∧ q", "p ∨ q", "p ⇒ q", "p ⇔ q"], [
+                  "<strong>zestien</strong>, en \\(n\\) variabelen \\(2^{n}\\)."),
+            ("p", tabel(["\\(p\\)", "\\(q\\)", "\\(\\neg p\\)", "\\(p \\land q\\)", "\\(p \\lor q\\)", "\\(p \\Rightarrow q\\)", "\\(p \\Leftrightarrow q\\)"], [
                 ["1", "1", "0", "1", "1", "1", "1"],
                 ["1", "0", "0", "0", "1", "0", "0"],
                 ["0", "1", "1", "0", "1", "1", "0"],
                 ["0", "0", "1", "0", "0", "1", "1"],
             ])),
-            ("p", "Is p waar en q vals, dan is p ∧ q dus <strong>vals</strong> (de conjunctie vraagt allebei) "
-                  "en p ∨ q <strong>waar</strong> (de disjunctie neemt genoegen met één)."),
+            ("p", "Is \\(p\\) waar en \\(q\\) vals, dan is \\(p \\land q\\) dus <strong>vals</strong> (de conjunctie vraagt allebei) "
+                  "en \\(p \\lor q\\) <strong>waar</strong> (de disjunctie neemt genoegen met één)."),
             ("weetje", "De implicatie is de lastigste rij. <em>Als het regent, neem ik mijn paraplu mee</em> "
-                       "is pas gelogen op de dag dat het regent én je je paraplu thuis laat. Is p vals, dan is "
+                       "is pas gelogen op de dag dat het regent én je je paraplu thuis laat. Is \\(p\\) vals, dan is "
                        "de implicatie net <strong>waar</strong>: je hebt niets beloofd voor die dag."),
         ]),
         dict(kop="Tautologie en contradictie", blokken=[
             ("p", "Een <strong>tautologie</strong> is een uitspraak die <strong>bij elke mogelijke "
-                  "invulling waar</strong> is. p ∨ ¬p is er een: het regent of het regent niet, wat er ook "
+                  "invulling waar</strong> is. \\(p \\lor \\neg p\\) is er een: het regent of het regent niet, wat er ook "
                   "gebeurt. In de waarheidstabel staat dan in de hele kolom een 1."),
             ("p", "Een <strong>contradictie</strong> is het omgekeerde: <strong>bij elke invulling "
-                  "vals</strong>. p ∧ ¬p is er een: het regent én het regent niet, dat kan nooit samen."),
+                  "vals</strong>. \\(p \\land \\neg p\\) is er een: het regent én het regent niet, dat kan nooit samen."),
         ]),
         dict(kop="Kwantoren", blokken=[
             ("p", "Een <strong>kwantor</strong> zegt over hoeveel gevallen een uitspraak gaat."),
             ("p", tabel(["Kwantor", "Naam", "Lees als"], [
-                ["∀", "universele kwantor", "voor alle, voor elke waarde geldt"],
-                ["∃", "existentiële kwantor", "er bestaat minstens één"],
+                ["\\(\\forall\\)", "universele kwantor", "voor alle, voor elke waarde geldt"],
+                ["\\(\\exists\\)", "existentiële kwantor", "er bestaat minstens één"],
             ])),
-            ("p", "<strong>Eén tegenvoorbeeld volstaat om een uitspraak met ∀ te weerleggen.</strong> "
+            ("p", "<strong>Eén tegenvoorbeeld volstaat om een uitspraak met \\(\\forall\\) te weerleggen.</strong> "
                   "<em>Alle priemgetallen zijn oneven</em> sneuvelt op het getal 2."),
-            ("p", "De <strong>negatie van ∀ is ∃ met een negatie erachter</strong>. De ontkenning van "
+            ("p", "De <strong>negatie van \\(\\forall\\) is \\(\\exists\\) met een negatie erachter</strong>. De ontkenning van "
                   "<em>alle leerlingen slaagden</em> is dus niet <em>geen enkele leerling slaagde</em>, maar "
                   "<strong>minstens één leerling slaagde niet</strong>."),
         ]),
         dict(kop="Nodige en voldoende voorwaarden", blokken=[
-            ("p", "Bij een implicatie p ⇒ q hoort een manier van spreken die je moet kunnen lezen."),
+            ("p", "Bij een implicatie \\(p \\Rightarrow q\\) hoort een manier van spreken die je moet kunnen lezen."),
             ("p", "Een voorwaarde is <strong>nodig</strong> als ze niet gemist kan worden, en "
                   "<strong>voldoende</strong> als ze op zichzelf al genoeg is: is ze waar, dan is de uitspraak "
                   "zeker waar."),
@@ -251,22 +251,22 @@ BUNDELS["logica-symbolen-waarheidstabellen-en-poorten-boost-doorstroom"] = dict(
                   "hebben, maar niet nodig."),
         ]),
         dict(kop="Rond de implicatie", blokken=[
-            ("p", tabel(["Naam", "Vorm", "Zelfde waarde als p ⇒ q?"], [
-                ["de implicatie zelf", "p ⇒ q", "—"],
-                ["het omgekeerde", "q ⇒ p", "nee"],
-                ["het tegengestelde", "¬p ⇒ ¬q", "nee"],
-                ["de contrapositie", "¬q ⇒ ¬p", "ja, altijd"],
+            ("p", tabel(["Naam", "Vorm", "Zelfde waarde als \\(p \\Rightarrow q\\)?"], [
+                ["de implicatie zelf", "\\(p \\Rightarrow q\\)", "—"],
+                ["het omgekeerde", "\\(q \\Rightarrow p\\)", "nee"],
+                ["het tegengestelde", "\\(\\neg p \\Rightarrow \\neg q\\)", "nee"],
+                ["de contrapositie", "\\(\\neg q \\Rightarrow \\neg p\\)", "ja, altijd"],
             ])),
             ("p", "<em>Als het een hond is, dan is het een dier</em> is waar. Het omgekeerde is dat duidelijk "
                   "niet. Maar de contrapositie, <em>als het geen dier is, dan is het geen hond</em>, is even "
                   "waar als de oorspronkelijke uitspraak."),
         ]),
         dict(kop="De wetten van De Morgan", blokken=[
-            ("p", "¬(p ∧ q) is hetzelfde als ¬p ∨ ¬q, en ¬(p ∨ q) is hetzelfde als ¬p ∧ ¬q. Let op hoe "
+            ("p", "\\(\\neg(p \\land q)\\) is hetzelfde als \\(\\neg p \\lor \\neg q\\), en \\(\\neg(p \\lor q)\\) is hetzelfde als \\(\\neg p \\land \\neg q\\). Let op hoe "
                   "<em>en</em> en <em>of</em> daarbij van plaats wisselen."),
             ("p", "<em>Het is niet zo dat het regent en waait</em> vertaal je dus als "
-                  "<strong>¬(p ∧ q)</strong>: de negatie staat voor het hele stuk."),
-            ("kader", "<strong>¬(p ∧ q) is niet hetzelfde als ¬p ∧ ¬q.</strong> Het eerste zegt: "
+                  "<strong>\\(\\neg(p \\land q)\\)</strong>: de negatie staat voor het hele stuk."),
+            ("kader", "<strong>\\(\\neg(p \\land q)\\) is niet hetzelfde als \\(\\neg p \\land \\neg q\\).</strong> Het eerste zegt: "
                       "<em>niet allebei</em>. Het tweede zegt: <em>geen van beide</em>. Dat is iets anders."),
         ]),
         dict(kop="Tegenvoorbeelden", blokken=[
@@ -280,7 +280,7 @@ BUNDELS["logica-symbolen-waarheidstabellen-en-poorten-boost-doorstroom"] = dict(
         ]),
         dict(kop="Wat je moet kunnen bewijzen", blokken=[
             ("p", "De vakfiche geeft een lijst met bewijzen die je moet kunnen aanvullen en verklaren:"),
-            ("p", "de stelling van <strong>Pythagoras</strong>, de <strong>irrationaliteit van √2</strong>, de "
+            ("p", "de stelling van <strong>Pythagoras</strong>, de <strong>irrationaliteit van \\(\\sqrt{2}\\)</strong>, de "
                   "eigenschappen van de <strong>tweedegraadsfuncties</strong>, de <strong>grondformule</strong> "
                   "van de goniometrie, en de <strong>sinus- en cosinusregel</strong>. De som van de hoeken in "
                   "een vierhoek staat er dus níét bij."),
@@ -291,11 +291,11 @@ BUNDELS["logica-symbolen-waarheidstabellen-en-poorten-boost-doorstroom"] = dict(
             ("p", "Een computer rekent met stroom die er is (1) of niet is (0), en met <strong>logische "
                   "poorten</strong> die precies de bewerkingen hierboven uitvoeren."),
             ("p", tabel(["Poort", "Wat ze doet", "Hoort bij"], [
-                ["EN-poort", "geeft alleen een signaal door als beide ingangen een signaal krijgen", "de conjunctie ∧"],
-                ["OF-poort", "geeft een signaal door zodra minstens één ingang een signaal krijgt", "de disjunctie ∨"],
-                ["NIET-poort", "keert het signaal om dat op haar ingang binnenkomt", "de negatie ¬"],
-                ["NEN-poort", "een EN-poort met een NIET erachter", "¬(p ∧ q)"],
-                ["NOF-poort", "een OF-poort met een NIET erachter", "¬(p ∨ q)"],
+                ["EN-poort", "geeft alleen een signaal door als beide ingangen een signaal krijgen", "de conjunctie \\(\\land\\)"],
+                ["OF-poort", "geeft een signaal door zodra minstens één ingang een signaal krijgt", "de disjunctie \\(\\lor\\)"],
+                ["NIET-poort", "keert het signaal om dat op haar ingang binnenkomt", "de negatie \\(\\neg\\)"],
+                ["NEN-poort", "een EN-poort met een NIET erachter", "\\(\\neg(p \\land q)\\)"],
+                ["NOF-poort", "een OF-poort met een NIET erachter", "\\(\\neg(p \\lor q)\\)"],
             ])),
             ("p", "In een <strong>schakeling</strong> zet je die poorten achter elkaar, en met een waarheidstabel "
                   "reken je na wat er uitkomt. Een lamp die alleen brandt als de "
@@ -309,16 +309,16 @@ BUNDELS["logica-symbolen-waarheidstabellen-en-poorten-boost-doorstroom"] = dict(
     ],
     onthoud=[
         "Een logische uitspraak is waar of vals; een vraag of een bevel is er geen.",
-        "¬ is niet, ∧ is en, ∨ is of, ⇒ is als … dan, ⇔ is als en slechts als.",
+        "\\(\\neg\\) is niet, \\(\\land\\) is en, \\(\\lor\\) is of, \\(\\Rightarrow\\) is als … dan, \\(\\Leftrightarrow\\) is als en slechts als.",
         "De logische 'of' is ook waar als allebei waar zijn.",
         "Elke variabele verdubbelt de tabel: 2 geeft 4 rijen, 3 geeft 8, 4 geeft 16.",
-        "p ⇒ q is enkel vals als p waar is en q vals.",
-        "Een tautologie is altijd waar (p ∨ ¬p), een contradictie altijd vals (p ∧ ¬p).",
-        "∀ is 'voor alle', ∃ is 'er bestaat'; de negatie van 'alle slaagden' is 'minstens één slaagde niet'.",
+        "\\(p \\Rightarrow q\\) is enkel vals als \\(p\\) waar is en \\(q\\) vals.",
+        "Een tautologie is altijd waar (\\(p \\lor \\neg p\\)), een contradictie altijd vals (\\(p \\land \\neg p\\)).",
+        "\\(\\forall\\) is 'voor alle', \\(\\exists\\) is 'er bestaat'; de negatie van 'alle slaagden' is 'minstens één slaagde niet'.",
         "Nodig kan niet gemist worden, voldoende is op zichzelf genoeg.",
-        "De contrapositie ¬q ⇒ ¬p heeft altijd dezelfde waarde; het omgekeerde q ⇒ p niet.",
-        "De Morgan: ¬(p ∧ q) is ¬p ∨ ¬q, en dat is iets anders dan ¬p ∧ ¬q.",
-        "Bewijzen op de fiche: Pythagoras, irrationaliteit van √2, tweedegraadsfuncties, grondformule, sinus- en cosinusregel.",
+        "De contrapositie \\(\\neg q \\Rightarrow \\neg p\\) heeft altijd dezelfde waarde; het omgekeerde \\(q \\Rightarrow p\\) niet.",
+        "De Morgan: \\(\\neg(p \\land q)\\) is \\(\\neg p \\lor \\neg q\\), en dat is iets anders dan \\(\\neg p \\land \\neg q\\).",
+        "Bewijzen op de fiche: Pythagoras, irrationaliteit van \\(\\sqrt{2}\\), tweedegraadsfuncties, grondformule, sinus- en cosinusregel.",
         "Het formularium uit bijlage 1 mag mee op het examen, de bewijzenlijst niet.",
         "EN-, OF- en NIET-poort; NEN en NOF zijn hun omgekeerden.",
     ],

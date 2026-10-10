@@ -8,11 +8,11 @@
    "blokken": [
     {
      "soort": "tekst",
-     "html": "Een <strong>logische uitspraak</strong> is een zin waarvan je kan zeggen of hij <strong>waar of vals</strong> is. <em>Zeven is een priemgetal</em> is er een. <em>Hoe laat is het?</em> niet: bij een vraag past geen waarheidswaarde. Bij een bevel evenmin. Ook <em>x is groter dan 3</em> is pas een uitspraak als je weet wat x is."
+     "html": "Een <strong>logische uitspraak</strong> is een zin waarvan je kan zeggen of hij <strong>waar of vals</strong> is. <em>Zeven is een priemgetal</em> is er een. <em>Hoe laat is het?</em> niet: bij een vraag past geen waarheidswaarde. Bij een bevel evenmin. Ook <em>\\(x\\) is groter dan 3</em> is pas een uitspraak als je weet wat \\(x\\) is."
     },
     {
      "soort": "tekst",
-     "html": "Uitspraken krijgen een letter: p, q, r. De <strong>waarheidswaarde</strong> is waar (1) of vals (0)."
+     "html": "Uitspraken krijgen een letter: \\(p\\), \\(q\\), \\(r\\). De <strong>waarheidswaarde</strong> is waar (1) of vals (0)."
     }
    ]
   },
@@ -21,19 +21,19 @@
    "blokken": [
     {
      "soort": "tekst",
-     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Naam</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Symbool</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Lees als</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Waar wanneer</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">negatie (ontkenning)</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">¬p</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">niet p</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">als p vals is</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">conjunctie</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">p ∧ q</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">p en q</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">als p en q allebei waar zijn</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">disjunctie</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">p ∨ q</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">p of q</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">als minstens één van de twee waar is</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">implicatie</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">p ⇒ q</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">als p dan q</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">altijd, behalve als p waar is en q vals</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">equivalentie</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">p ⇔ q</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">p als en slechts als q</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">als p en q dezelfde waarheidswaarde hebben</td></tr></table>"
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Naam</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Symbool</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Lees als</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Waar wanneer</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">negatie (ontkenning)</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">\\(\\neg p\\)</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">niet \\(p\\)</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">als \\(p\\) vals is</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">conjunctie</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">\\(p \\land q\\)</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">\\(p\\) en \\(q\\)</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">als \\(p\\) en \\(q\\) allebei waar zijn</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">disjunctie</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">\\(p \\lor q\\)</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">\\(p\\) of \\(q\\)</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">als minstens één van de twee waar is</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">implicatie</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">\\(p \\Rightarrow q\\)</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">als \\(p\\) dan \\(q\\)</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">altijd, behalve als \\(p\\) waar is en \\(q\\) vals</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">equivalentie</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">\\(p \\Leftrightarrow q\\)</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">\\(p\\) als en slechts als \\(q\\)</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">als \\(p\\) en \\(q\\) dezelfde waarheidswaarde hebben</td></tr></table>"
     },
     {
      "soort": "tekst",
-     "html": "De <strong>negatie</strong>, ook <em>ontkenning</em> genoemd, keert de waarheidswaarde om en doet niets anders: is p waar, dan is ¬p vals, en omgekeerd."
+     "html": "De <strong>negatie</strong>, ook <em>ontkenning</em> genoemd, keert de waarheidswaarde om en doet niets anders: is \\(p\\) waar, dan is \\(\\neg p\\) vals, en omgekeerd."
     },
     {
      "soort": "tekst",
-     "html": "Het dakje ∧ is <em>en</em>, het omgekeerde dakje ∨ is <em>of</em>. Een ezelsbruggetje: ∧ lijkt op de A van <em>and</em>. Je mag ze dus nooit door elkaar gebruiken: p ∧ q vraagt allebei, p ∨ q neemt genoegen met één."
+     "html": "Het dakje \\(\\land\\) is <em>en</em>, het omgekeerde dakje \\(\\lor\\) is <em>of</em>. Een ezelsbruggetje: \\(\\land\\) lijkt op de A van <em>and</em>. Je mag ze dus nooit door elkaar gebruiken: \\(p \\land q\\) vraagt allebei, \\(p \\lor q\\) neemt genoegen met één."
     },
     {
      "soort": "kader",
-     "html": "De <strong>logische 'of' verschilt van de 'of' in de omgangstaal</strong>. <em>Koffie of thee?</em> betekent in het dagelijks leven meestal één van beide. In de logica is p ∨ q ook waar als p en q <strong>allebei</strong> waar zijn."
+     "html": "De <strong>logische 'of' verschilt van de 'of' in de omgangstaal</strong>. <em>Koffie of thee?</em> betekent in het dagelijks leven meestal één van beide. In de logica is \\(p \\lor q\\) ook waar als \\(p\\) en \\(q\\) <strong>allebei</strong> waar zijn."
     },
     {
      "soort": "tekst",
@@ -46,19 +46,19 @@
    "blokken": [
     {
      "soort": "tekst",
-     "html": "Een <strong>waarheidstabel</strong> zet alle mogelijke combinaties onder elkaar. Elke variabele <strong>verdubbelt</strong> het aantal rijen: twee variabelen geven <strong>vier</strong> rijen, drie variabelen <strong>acht</strong>, vier variabelen <strong>zestien</strong>, en n variabelen 2 tot de macht n."
+     "html": "Een <strong>waarheidstabel</strong> zet alle mogelijke combinaties onder elkaar. Elke variabele <strong>verdubbelt</strong> het aantal rijen: twee variabelen geven <strong>vier</strong> rijen, drie variabelen <strong>acht</strong>, vier variabelen <strong>zestien</strong>, en \\(n\\) variabelen \\(2^{n}\\)."
     },
     {
      "soort": "tekst",
-     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">p</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">q</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">¬p</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">p ∧ q</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">p ∨ q</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">p ⇒ q</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">p ⇔ q</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">1</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">1</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">0</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">1</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">1</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">1</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">1</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">1</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">0</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">0</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">0</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">1</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">0</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">0</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">0</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">1</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">1</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">0</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">1</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">1</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">0</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">0</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">0</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">1</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">0</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">0</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">1</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">1</td></tr></table>"
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">\\(p\\)</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">\\(q\\)</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">\\(\\neg p\\)</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">\\(p \\land q\\)</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">\\(p \\lor q\\)</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">\\(p \\Rightarrow q\\)</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">\\(p \\Leftrightarrow q\\)</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">1</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">1</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">0</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">1</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">1</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">1</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">1</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">1</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">0</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">0</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">0</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">1</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">0</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">0</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">0</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">1</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">1</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">0</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">1</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">1</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">0</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">0</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">0</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">1</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">0</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">0</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">1</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">1</td></tr></table>"
     },
     {
      "soort": "tekst",
-     "html": "Is p waar en q vals, dan is p ∧ q dus <strong>vals</strong> (de conjunctie vraagt allebei) en p ∨ q <strong>waar</strong> (de disjunctie neemt genoegen met één)."
+     "html": "Is \\(p\\) waar en \\(q\\) vals, dan is \\(p \\land q\\) dus <strong>vals</strong> (de conjunctie vraagt allebei) en \\(p \\lor q\\) <strong>waar</strong> (de disjunctie neemt genoegen met één)."
     },
     {
      "soort": "weetje",
-     "html": "De implicatie is de lastigste rij. <em>Als het regent, neem ik mijn paraplu mee</em> is pas gelogen op de dag dat het regent én je je paraplu thuis laat. Is p vals, dan is de implicatie net <strong>waar</strong>: je hebt niets beloofd voor die dag."
+     "html": "De implicatie is de lastigste rij. <em>Als het regent, neem ik mijn paraplu mee</em> is pas gelogen op de dag dat het regent én je je paraplu thuis laat. Is \\(p\\) vals, dan is de implicatie net <strong>waar</strong>: je hebt niets beloofd voor die dag."
     }
    ]
   },
@@ -67,11 +67,11 @@
    "blokken": [
     {
      "soort": "tekst",
-     "html": "Een <strong>tautologie</strong> is een uitspraak die <strong>bij elke mogelijke invulling waar</strong> is. p ∨ ¬p is er een: het regent of het regent niet, wat er ook gebeurt. In de waarheidstabel staat dan in de hele kolom een 1."
+     "html": "Een <strong>tautologie</strong> is een uitspraak die <strong>bij elke mogelijke invulling waar</strong> is. \\(p \\lor \\neg p\\) is er een: het regent of het regent niet, wat er ook gebeurt. In de waarheidstabel staat dan in de hele kolom een 1."
     },
     {
      "soort": "tekst",
-     "html": "Een <strong>contradictie</strong> is het omgekeerde: <strong>bij elke invulling vals</strong>. p ∧ ¬p is er een: het regent én het regent niet, dat kan nooit samen."
+     "html": "Een <strong>contradictie</strong> is het omgekeerde: <strong>bij elke invulling vals</strong>. \\(p \\land \\neg p\\) is er een: het regent én het regent niet, dat kan nooit samen."
     }
    ]
   },
@@ -84,15 +84,15 @@
     },
     {
      "soort": "tekst",
-     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Kwantor</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Naam</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Lees als</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">∀</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">universele kwantor</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">voor alle, voor elke waarde geldt</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">∃</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">existentiële kwantor</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">er bestaat minstens één</td></tr></table>"
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Kwantor</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Naam</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Lees als</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">\\(\\forall\\)</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">universele kwantor</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">voor alle, voor elke waarde geldt</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">\\(\\exists\\)</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">existentiële kwantor</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">er bestaat minstens één</td></tr></table>"
     },
     {
      "soort": "tekst",
-     "html": "<strong>Eén tegenvoorbeeld volstaat om een uitspraak met ∀ te weerleggen.</strong> <em>Alle priemgetallen zijn oneven</em> sneuvelt op het getal 2."
+     "html": "<strong>Eén tegenvoorbeeld volstaat om een uitspraak met \\(\\forall\\) te weerleggen.</strong> <em>Alle priemgetallen zijn oneven</em> sneuvelt op het getal 2."
     },
     {
      "soort": "tekst",
-     "html": "De <strong>negatie van ∀ is ∃ met een negatie erachter</strong>. De ontkenning van <em>alle leerlingen slaagden</em> is dus niet <em>geen enkele leerling slaagde</em>, maar <strong>minstens één leerling slaagde niet</strong>."
+     "html": "De <strong>negatie van \\(\\forall\\) is \\(\\exists\\) met een negatie erachter</strong>. De ontkenning van <em>alle leerlingen slaagden</em> is dus niet <em>geen enkele leerling slaagde</em>, maar <strong>minstens één leerling slaagde niet</strong>."
     }
    ]
   },
@@ -101,7 +101,7 @@
    "blokken": [
     {
      "soort": "tekst",
-     "html": "Bij een implicatie p ⇒ q hoort een manier van spreken die je moet kunnen lezen."
+     "html": "Bij een implicatie \\(p \\Rightarrow q\\) hoort een manier van spreken die je moet kunnen lezen."
     },
     {
      "soort": "tekst",
@@ -118,7 +118,7 @@
    "blokken": [
     {
      "soort": "tekst",
-     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Naam</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Vorm</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Zelfde waarde als p ⇒ q?</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">de implicatie zelf</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">p ⇒ q</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">—</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">het omgekeerde</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">q ⇒ p</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">nee</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">het tegengestelde</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">¬p ⇒ ¬q</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">nee</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">de contrapositie</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">¬q ⇒ ¬p</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">ja, altijd</td></tr></table>"
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Naam</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Vorm</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Zelfde waarde als \\(p \\Rightarrow q\\)?</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">de implicatie zelf</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">\\(p \\Rightarrow q\\)</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">—</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">het omgekeerde</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">\\(q \\Rightarrow p\\)</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">nee</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">het tegengestelde</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">\\(\\neg p \\Rightarrow \\neg q\\)</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">nee</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">de contrapositie</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">\\(\\neg q \\Rightarrow \\neg p\\)</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">ja, altijd</td></tr></table>"
     },
     {
      "soort": "tekst",
@@ -131,15 +131,15 @@
    "blokken": [
     {
      "soort": "tekst",
-     "html": "¬(p ∧ q) is hetzelfde als ¬p ∨ ¬q, en ¬(p ∨ q) is hetzelfde als ¬p ∧ ¬q. Let op hoe <em>en</em> en <em>of</em> daarbij van plaats wisselen."
+     "html": "\\(\\neg(p \\land q)\\) is hetzelfde als \\(\\neg p \\lor \\neg q\\), en \\(\\neg(p \\lor q)\\) is hetzelfde als \\(\\neg p \\land \\neg q\\). Let op hoe <em>en</em> en <em>of</em> daarbij van plaats wisselen."
     },
     {
      "soort": "tekst",
-     "html": "<em>Het is niet zo dat het regent en waait</em> vertaal je dus als <strong>¬(p ∧ q)</strong>: de negatie staat voor het hele stuk."
+     "html": "<em>Het is niet zo dat het regent en waait</em> vertaal je dus als <strong>\\(\\neg(p \\land q)\\)</strong>: de negatie staat voor het hele stuk."
     },
     {
      "soort": "kader",
-     "html": "<strong>¬(p ∧ q) is niet hetzelfde als ¬p ∧ ¬q.</strong> Het eerste zegt: <em>niet allebei</em>. Het tweede zegt: <em>geen van beide</em>. Dat is iets anders."
+     "html": "<strong>\\(\\neg(p \\land q)\\) is niet hetzelfde als \\(\\neg p \\land \\neg q\\).</strong> Het eerste zegt: <em>niet allebei</em>. Het tweede zegt: <em>geen van beide</em>. Dat is iets anders."
     }
    ]
   },
@@ -165,7 +165,7 @@
     },
     {
      "soort": "tekst",
-     "html": "de stelling van <strong>Pythagoras</strong>, de <strong>irrationaliteit van √2</strong>, de eigenschappen van de <strong>tweedegraadsfuncties</strong>, de <strong>grondformule</strong> van de goniometrie, en de <strong>sinus- en cosinusregel</strong>. De som van de hoeken in een vierhoek staat er dus níét bij."
+     "html": "de stelling van <strong>Pythagoras</strong>, de <strong>irrationaliteit van \\(\\sqrt{2}\\)</strong>, de eigenschappen van de <strong>tweedegraadsfuncties</strong>, de <strong>grondformule</strong> van de goniometrie, en de <strong>sinus- en cosinusregel</strong>. De som van de hoeken in een vierhoek staat er dus níét bij."
     },
     {
      "soort": "tekst",
@@ -182,7 +182,7 @@
     },
     {
      "soort": "tekst",
-     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Poort</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Wat ze doet</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Hoort bij</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">EN-poort</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">geeft alleen een signaal door als beide ingangen een signaal krijgen</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">de conjunctie ∧</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">OF-poort</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">geeft een signaal door zodra minstens één ingang een signaal krijgt</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">de disjunctie ∨</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">NIET-poort</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">keert het signaal om dat op haar ingang binnenkomt</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">de negatie ¬</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">NEN-poort</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een EN-poort met een NIET erachter</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">¬(p ∧ q)</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">NOF-poort</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een OF-poort met een NIET erachter</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">¬(p ∨ q)</td></tr></table>"
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Poort</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Wat ze doet</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Hoort bij</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">EN-poort</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">geeft alleen een signaal door als beide ingangen een signaal krijgen</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">de conjunctie \\(\\land\\)</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">OF-poort</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">geeft een signaal door zodra minstens één ingang een signaal krijgt</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">de disjunctie \\(\\lor\\)</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">NIET-poort</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">keert het signaal om dat op haar ingang binnenkomt</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">de negatie \\(\\neg\\)</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">NEN-poort</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een EN-poort met een NIET erachter</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">\\(\\neg(p \\land q)\\)</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">NOF-poort</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een OF-poort met een NIET erachter</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">\\(\\neg(p \\lor q)\\)</td></tr></table>"
     },
     {
      "soort": "tekst",
@@ -197,16 +197,16 @@
  ],
  "onthoud": [
   "Een logische uitspraak is waar of vals; een vraag of een bevel is er geen.",
-  "¬ is niet, ∧ is en, ∨ is of, ⇒ is als … dan, ⇔ is als en slechts als.",
+  "\\(\\neg\\) is niet, \\(\\land\\) is en, \\(\\lor\\) is of, \\(\\Rightarrow\\) is als … dan, \\(\\Leftrightarrow\\) is als en slechts als.",
   "De logische 'of' is ook waar als allebei waar zijn.",
   "Elke variabele verdubbelt de tabel: 2 geeft 4 rijen, 3 geeft 8, 4 geeft 16.",
-  "p ⇒ q is enkel vals als p waar is en q vals.",
-  "Een tautologie is altijd waar (p ∨ ¬p), een contradictie altijd vals (p ∧ ¬p).",
-  "∀ is 'voor alle', ∃ is 'er bestaat'; de negatie van 'alle slaagden' is 'minstens één slaagde niet'.",
+  "\\(p \\Rightarrow q\\) is enkel vals als \\(p\\) waar is en \\(q\\) vals.",
+  "Een tautologie is altijd waar (\\(p \\lor \\neg p\\)), een contradictie altijd vals (\\(p \\land \\neg p\\)).",
+  "\\(\\forall\\) is 'voor alle', \\(\\exists\\) is 'er bestaat'; de negatie van 'alle slaagden' is 'minstens één slaagde niet'.",
   "Nodig kan niet gemist worden, voldoende is op zichzelf genoeg.",
-  "De contrapositie ¬q ⇒ ¬p heeft altijd dezelfde waarde; het omgekeerde q ⇒ p niet.",
-  "De Morgan: ¬(p ∧ q) is ¬p ∨ ¬q, en dat is iets anders dan ¬p ∧ ¬q.",
-  "Bewijzen op de fiche: Pythagoras, irrationaliteit van √2, tweedegraadsfuncties, grondformule, sinus- en cosinusregel.",
+  "De contrapositie \\(\\neg q \\Rightarrow \\neg p\\) heeft altijd dezelfde waarde; het omgekeerde \\(q \\Rightarrow p\\) niet.",
+  "De Morgan: \\(\\neg(p \\land q)\\) is \\(\\neg p \\lor \\neg q\\), en dat is iets anders dan \\(\\neg p \\land \\neg q\\).",
+  "Bewijzen op de fiche: Pythagoras, irrationaliteit van \\(\\sqrt{2}\\), tweedegraadsfuncties, grondformule, sinus- en cosinusregel.",
   "Het formularium uit bijlage 1 mag mee op het examen, de bewijzenlijst niet.",
   "EN-, OF- en NIET-poort; NEN en NOF zijn hun omgekeerden."
  ]

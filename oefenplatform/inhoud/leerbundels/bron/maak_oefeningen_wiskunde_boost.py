@@ -210,12 +210,12 @@ OEFENBUNDELS["oefenbundel-een-opgave-aanpakken-van-context-naar-wiskunde-boost-d
         dict(kop="Doordenkers",
              opdracht="Neem je tijd.",
              oefeningen=[
-                 ("open", r"Iemand beweert: \"elk oneven getal in het kwadraat is oneven\". Hoe toon je aan "
+                 ("open", r"Iemand beweert: 'elk oneven getal in het kwadraat is oneven'. Hoe toon je aan "
                           r"dat dit waar is, en waarom volstaan drie voorbeelden niet?",
                   r"Voorbeelden illustreren maar bewijzen niet. Een redenering wel: een oneven getal is "
                   r"\(2n + 1\), en \((2n+1)^{2} = 4n^{2} + 4n + 1\), dus opnieuw één meer dan een viervoud, "
                   r"en dat is oneven.", 6),
-                 ("open", r"Iemand beweert: \"als je een getal kwadrateert, wordt het groter\". Geef een "
+                 ("open", r"Iemand beweert: 'als je een getal kwadrateert, wordt het groter'. Geef een "
                           r"tegenvoorbeeld en leg uit waarom één genoeg is.",
                   r"Neem \(0{,}5\): \(0{,}5^{2} = 0{,}25\), kleiner dus. Eén geval waarin het niet opgaat, "
                   r"breekt de uitspraak, want ze beweerde dat het altijd zo is.", 6),
@@ -239,21 +239,21 @@ OEFENBUNDELS["oefenbundel-logica-symbolen-waarheidstabellen-en-poorten-boost-doo
                  ("kies", "Waar woon jij?", ["wel een uitspraak", "geen uitspraak"], 1),
              ]),
         dict(kop="In symbolen",
-             opdracht="p is 'het sneeuwt' en q is 'de school is dicht'. Schrijf elke zin in symbolen.",
+             opdracht="\\(p\\) is 'het sneeuwt' en \\(q\\) is 'de school is dicht'. Schrijf elke zin in symbolen.",
              oefeningen=[
-                 ("rij", [("het sneeuwt en de school is dicht", "p ∧ q"),
-                          ("het sneeuwt niet", "¬p"),
-                          ("als het sneeuwt, is de school dicht", "p ⇒ q"),
-                          ("het sneeuwt of de school is dicht", "p ∨ q")],
+                 ("rij", [("het sneeuwt en de school is dicht", "\\(p \\land q\\)"),
+                          ("het sneeuwt niet", "\\(\\neg p\\)"),
+                          ("als het sneeuwt, is de school dicht", "\\(p \\Rightarrow q\\)"),
+                          ("het sneeuwt of de school is dicht", "\\(p \\lor q\\)")],
                   "In symbolen", W),
-                 ("rij", [("het is niet zo dat het sneeuwt en de school dicht is", "¬(p ∧ q)"),
-                          ("de school is dicht als en slechts als het sneeuwt", "q ⇔ p")],
+                 ("rij", [("het is niet zo dat het sneeuwt en de school dicht is", "\\(\\neg(p \\land q)\\)"),
+                          ("de school is dicht als en slechts als het sneeuwt", "\\(q \\Leftrightarrow p\\)")],
                   "In symbolen", WW),
              ]),
         dict(kop="De waarheidstabel invullen",
              opdracht="Vul 1 voor waar en 0 voor vals in.",
              oefeningen=[
-                 ("tabel", ["p", "q", "p ∧ q", "p ∨ q", "p ⇒ q"],
+                 ("tabel", ["\\(p\\)", "\\(q\\)", "\\(p \\land q\\)", "\\(p \\lor q\\)", "\\(p \\Rightarrow q\\)"],
                   [["1", "1", None, None, None],
                    ["1", "0", None, None, None],
                    ["0", "1", None, None, None],
@@ -270,8 +270,8 @@ OEFENBUNDELS["oefenbundel-logica-symbolen-waarheidstabellen-en-poorten-boost-doo
         dict(kop="Tautologie, contradictie of geen van beide?",
              opdracht="Vul de waarheidstabel in op je kladblad en beslis daarna.",
              oefeningen=[
-                 ("rij", [("p ∨ ¬p", "tautologie"), ("p ∧ ¬p", "contradictie"),
-                          ("p ⇒ p", "tautologie"), ("p ∧ q", "geen van beide")],
+                 ("rij", [("\\(p \\lor \\neg p\\)", "tautologie"), ("\\(p \\land \\neg p\\)", "contradictie"),
+                          ("\\(p \\Rightarrow p\\)", "tautologie"), ("\\(p \\land q\\)", "geen van beide")],
                   "Wat is het?", WW),
              ]),
         dict(kop="Kwantoren en negatie",
@@ -281,8 +281,8 @@ OEFENBUNDELS["oefenbundel-logica-symbolen-waarheidstabellen-en-poorten-boost-doo
                           ("er bestaat een even priemgetal", "geen enkel priemgetal is even"),
                           ("alle leerlingen waren aanwezig", "minstens één leerling was afwezig")],
                   "De negatie", WL),
-                 ("kort", "Welk symbool betekent 'voor alle'?", "∀", W),
-                 ("kort", "Welk symbool betekent 'er bestaat'?", "∃", W),
+                 ("kort", "Welk symbool betekent 'voor alle'?", "\\(\\forall\\)", W),
+                 ("kort", "Welk symbool betekent 'er bestaat'?", "\\(\\exists\\)", W),
              ]),
         dict(kop="Nodig of voldoende?",
              opdracht="'Als een getal deelbaar is door 6, dan is het deelbaar door 3.' Duid aan.",
@@ -297,7 +297,7 @@ OEFENBUNDELS["oefenbundel-logica-symbolen-waarheidstabellen-en-poorten-boost-doo
              oefeningen=[
                  ("kort", "Elk getal deelbaar door 4 is deelbaar door 8.", "12 (of 4, 20, 28)", WW),
                  ("kort", "Elk priemgetal is oneven.", "2", W),
-                 ("kort", "De wortel van een som is de som van de wortels.", "√(9 + 16) = 5, niet 7", WL),
+                 ("kort", "De wortel van een som is de som van de wortels.", r"\(\sqrt{9 + 16} = 5\), niet \(7\)", WL),
              ]),
         dict(kop="Welke poort?",
              opdracht="Schrijf bij elke schakeling welke poort past.",
@@ -306,6 +306,62 @@ OEFENBUNDELS["oefenbundel-logica-symbolen-waarheidstabellen-en-poorten-boost-doo
                           ("het licht gaat aan bij beweging of bij een druk op de knop", "een OF-poort"),
                           ("het signaal wordt omgekeerd van 0 naar 1", "een NIET-poort")],
                   "Welke poort?", WW),
+             ]),
+        dict(kop="Nog vier in symbolen",
+             opdracht=r"Zelfde \(p\) en \(q\). Schrijf elke zin in symbolen.",
+             oefeningen=[
+                 ("rij", [("het sneeuwt niet en de school is niet dicht", r"\(\neg p \land \neg q\)"),
+                          ("het is niet zo dat het sneeuwt of dat de school dicht is",
+                           r"\(\neg(p \lor q)\)"),
+                          ("als de school niet dicht is, sneeuwt het niet", r"\(\neg q \Rightarrow \neg p\)"),
+                          ("als de school dicht is, sneeuwt het", r"\(q \Rightarrow p\)")],
+                  "In symbolen", WW),
+             ]),
+        dict(kop="Zelfde waarheidswaarde?",
+             opdracht=r"Heeft de vorm altijd dezelfde waarheidswaarde als \(p \Rightarrow q\)? Schrijf ja of nee.",
+             oefeningen=[
+                 ("rij", [(r"\(q \Rightarrow p\)", "nee, dat is het omgekeerde"),
+                          (r"\(\neg p \Rightarrow \neg q\)", "nee, dat is het tegengestelde"),
+                          (r"\(\neg q \Rightarrow \neg p\)", "ja, dat is de contrapositie")],
+                  "Ja of nee?", WL),
+             ]),
+        dict(kop="De wetten van De Morgan",
+             opdracht="Schrijf de gelijkwaardige vorm, zonder haakjes rond de negatie.",
+             oefeningen=[
+                 ("rij", [(r"\(\neg(p \land q)\)", r"\(\neg p \lor \neg q\)"),
+                          (r"\(\neg(p \lor q)\)", r"\(\neg p \land \neg q\)")],
+                  "Gelijkwaardig met", WW),
+             ]),
+        dict(kop="De omgekeerde poorten",
+             opdracht="Kruis aan.",
+             oefeningen=[
+                 ("kies", r"Welke poort voert \(\neg(p \land q)\) uit?",
+                  ["een NEN-poort", "een NOF-poort", "een OF-poort", "twee NIET-poorten"], 0),
+             ]),
+        dict(kop="Uitleggen",
+             opdracht="Antwoord in volle zinnen.",
+             oefeningen=[
+                 ("open", r"Waarom is \(p \Rightarrow q\) waar zodra \(p\) vals is?",
+                  r"Een implicatie is een belofte over de gevallen waarin \(p\) klopt. Is \(p\) vals, dan "
+                  r"is er niets beloofd en kan de belofte niet gebroken zijn, dus geldt ze als waar.", 5),
+                 ("open", r"Waarom volstaat één tegenvoorbeeld om een uitspraak met \(\forall\) te "
+                          r"weerleggen, terwijl honderd voorbeelden ze niet bewijzen?",
+                  r"\(\forall\) beweert dat het in élk geval opgaat, dus één geval waarin het misgaat maakt "
+                  r"de uitspraak vals. Voorbeelden tonen alleen de gevallen die je zelf koos; de gevallen "
+                  r"die je niet bekeek, kunnen nog altijd tegenspreken.", 6),
+             ]),
+        dict(kop="Doordenkers",
+             opdracht="Neem je tijd.",
+             oefeningen=[
+                 ("open", r"Iemand zegt dat de ontkenning van 'alle leerlingen slaagden' gelijk is aan 'geen "
+                          r"enkele leerling slaagde'. Wat is er mis, en wat is de juiste ontkenning?",
+                  r"De negatie van \(\forall\) is \(\exists\) met een negatie erachter, niet \(\forall\) met "
+                  r"een negatie. De juiste ontkenning is: minstens één leerling slaagde niet.", 5),
+                 ("open", r"Vul de waarheidstabel van \(\neg(p \land q)\) en van \(\neg p \land \neg q\) in "
+                          r"en zeg in welke rij ze verschillen.",
+                  r"Ze verschillen in de rijen waar precies één van de twee waar is. Is \(p\) waar en \(q\) "
+                  r"vals, dan is \(\neg(p \land q)\) waar (niet allebei) maar \(\neg p \land \neg q\) vals "
+                  r"(want \(p\) is wel waar).", 6),
              ]),
         dict(kop="Wat mag mee op het examen?",
              opdracht="Duid aan of de uitspraak klopt.",

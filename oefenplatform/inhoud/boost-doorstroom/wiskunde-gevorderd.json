@@ -450,45 +450,45 @@
           "type": "meerkeuze",
           "vraag": "Welk symbool staat voor de conjunctie, dus voor 'en'?",
           "opties": [
-            "∧",
-            "∨",
-            "¬",
-            "⇒"
+            "\\(\\land\\)",
+            "\\(\\lor\\)",
+            "\\(\\neg\\)",
+            "\\(\\Rightarrow\\)"
           ],
           "antwoord": 0,
-          "uitleg": "Het dakje ∧ is 'en', het omgekeerde dakje ∨ is 'of'. Ezelsbruggetje: ∧ lijkt op de A van 'and'."
+          "uitleg": "Het dakje \\(\\land\\) is 'en', het omgekeerde dakje \\(\\lor\\) is 'of'. Ezelsbruggetje: \\(\\land\\) lijkt op de A van 'and'."
         },
         {
           "type": "meerkeuze",
           "vraag": "Welk symbool staat voor de disjunctie, dus voor 'of'?",
           "opties": [
-            "∨",
-            "∧",
-            "⇔",
-            "∀"
+            "\\(\\lor\\)",
+            "\\(\\land\\)",
+            "\\(\\Leftrightarrow\\)",
+            "\\(\\forall\\)"
           ],
           "antwoord": 0,
-          "uitleg": "De ∨ is de disjunctie. Ze is waar zodra minstens één van de twee waar is."
+          "uitleg": "De \\(\\lor\\) is de disjunctie. Ze is waar zodra minstens één van de twee waar is."
         },
         {
           "type": "meerkeuze",
-          "vraag": "Wat betekent het symbool ¬ voor een uitspraak p?",
+          "vraag": "Wat betekent het symbool \\(\\neg\\) voor een uitspraak \\(p\\)?",
           "opties": [
             "de negatie: de uitspraak die precies de omgekeerde waarheidswaarde heeft",
-            "de implicatie: als p waar is, dan volgt er iets anders uit",
-            "de kwantor: p geldt voor alle waarden die je kan invullen",
-            "de equivalentie: p en de andere uitspraak zijn altijd samen waar"
+            "de implicatie: als \\(p\\) waar is, dan volgt er iets anders uit",
+            "de kwantor: \\(p\\) geldt voor alle waarden die je kan invullen",
+            "de equivalentie: \\(p\\) en de andere uitspraak zijn altijd samen waar"
           ],
           "antwoord": 0,
-          "uitleg": "Is p waar, dan is ¬p vals, en omgekeerd. Meer doet de negatie niet."
+          "uitleg": "Is \\(p\\) waar, dan is \\(\\neg p\\) vals, en omgekeerd. Meer doet de negatie niet."
         },
         {
           "type": "meerkeuze",
           "vraag": "Hoe verschilt de logische 'of' van de 'of' in de omgangstaal?",
           "opties": [
-            "in de logica is 'p of q' ook waar als p en q allebei waar zijn",
+            "in de logica is '\\(p\\) of \\(q\\)' ook waar als \\(p\\) en \\(q\\) allebei waar zijn",
             "in de logica mag 'of' enkel tussen twee getallen staan, nooit tussen zinnen",
-            "in de logica is 'p of q' alleen waar als precies één van de twee waar is",
+            "in de logica is '\\(p\\) of \\(q\\)' alleen waar als precies één van de twee waar is",
             "in de logica is 'of' hetzelfde als 'en', in de omgangstaal niet"
           ],
           "antwoord": 0,
@@ -496,24 +496,24 @@
         },
         {
           "type": "meerkeuze",
-          "vraag": "Wanneer is de implicatie p ⇒ q vals?",
+          "vraag": "Wanneer is de implicatie \\(p \\Rightarrow q\\) vals?",
           "opties": [
-            "alleen als p waar is en q vals",
-            "alleen als p vals is en q waar",
-            "telkens als p en q verschillende waarheidswaarden hebben",
-            "telkens als p vals is, wat q ook is"
+            "alleen als \\(p\\) waar is en \\(q\\) vals",
+            "alleen als \\(p\\) vals is en \\(q\\) waar",
+            "telkens als \\(p\\) en \\(q\\) verschillende waarheidswaarden hebben",
+            "telkens als \\(p\\) vals is, wat \\(q\\) ook is"
           ],
           "antwoord": 0,
-          "uitleg": "Een belofte breek je alleen door de voorwaarde te vervullen en het gevolg te laten. Is p vals, dan is de implicatie waar."
+          "uitleg": "Een belofte breek je alleen door de voorwaarde te vervullen en het gevolg te laten. Is \\(p\\) vals, dan is de implicatie waar."
         },
         {
           "type": "meerkeuze",
-          "vraag": "Wanneer is de equivalentie p ⇔ q waar?",
+          "vraag": "Wanneer is de equivalentie \\(p \\Leftrightarrow q\\) waar?",
           "opties": [
-            "als p en q dezelfde waarheidswaarde hebben",
-            "als p en q allebei waar zijn, en anders nooit",
+            "als \\(p\\) en \\(q\\) dezelfde waarheidswaarde hebben",
+            "als \\(p\\) en \\(q\\) allebei waar zijn, en anders nooit",
             "als minstens één van de twee uitspraken waar is",
-            "als p waar is, ongeacht wat de uitspraak q zegt"
+            "als \\(p\\) waar is, ongeacht wat de uitspraak \\(q\\) zegt"
           ],
           "antwoord": 0,
           "uitleg": "Allebei waar of allebei vals: dan zijn ze equivalent. Verschillen ze, dan is de equivalentie vals."
@@ -528,7 +528,7 @@
             "een uitspraak waarin twee keer hetzelfde symbool staat"
           ],
           "antwoord": 0,
-          "uitleg": "p ∨ ¬p is een tautologie: het regent of het regent niet, wat er ook gebeurt."
+          "uitleg": "\\(p \\lor \\neg p\\) is een tautologie: het regent of het regent niet, wat er ook gebeurt."
         },
         {
           "type": "meerkeuze",
@@ -540,11 +540,11 @@
             "een uitspraak met twee negaties er vlak achter elkaar"
           ],
           "antwoord": 0,
-          "uitleg": "p ∧ ¬p is een contradictie: het regent én het regent niet, dat kan nooit samen."
+          "uitleg": "\\(p \\land \\neg p\\) is een contradictie: het regent én het regent niet, dat kan nooit samen."
         },
         {
           "type": "meerkeuze",
-          "vraag": "Wat betekent de kwantor ∀?",
+          "vraag": "Wat betekent de kwantor \\(\\forall\\)?",
           "opties": [
             "voor elke waarde geldt de uitspraak",
             "er bestaat minstens één waarde waarvoor de uitspraak geldt",
@@ -552,7 +552,7 @@
             "er bestaat geen enkele waarde waarvoor de uitspraak geldt"
           ],
           "antwoord": 0,
-          "uitleg": "∀ is de universele kwantor, uit te spreken als 'voor alle'. ∃ is 'er bestaat'."
+          "uitleg": "\\(\\forall\\) is de universele kwantor, uit te spreken als 'voor alle'. \\(\\exists\\) is 'er bestaat'."
         },
         {
           "type": "meerkeuze",
@@ -588,29 +588,29 @@
             "de meeste leerlingen slaagden niet"
           ],
           "antwoord": 0,
-          "uitleg": "De negatie van ∀ is ∃ met een negatie erachter. Eén tegenvoorbeeld volstaat om 'alle' te breken."
+          "uitleg": "De negatie van \\(\\forall\\) is \\(\\exists\\) met een negatie erachter. Eén tegenvoorbeeld volstaat om 'alle' te breken."
         },
         {
           "type": "waarofniet",
-          "vraag": "De uitspraak p ∨ ¬p is een tautologie.",
+          "vraag": "De uitspraak \\(p \\lor \\neg p\\) is een tautologie.",
           "antwoord": true,
-          "uitleg": "Wat p ook is, één van de twee is waar. Dus de disjunctie is altijd waar."
+          "uitleg": "Wat \\(p\\) ook is, één van de twee is waar. Dus de disjunctie is altijd waar."
         },
         {
           "type": "waarofniet",
-          "vraag": "Als p vals is, dan is de implicatie p ⇒ q vals.",
+          "vraag": "Als \\(p\\) vals is, dan is de implicatie \\(p \\Rightarrow q\\) vals.",
           "antwoord": false,
-          "uitleg": "Bij een valse voorwaarde is de implicatie net waar. Ze breekt alleen bij p waar en q vals."
+          "uitleg": "Bij een valse voorwaarde is de implicatie net waar. Ze breekt alleen bij \\(p\\) waar en \\(q\\) vals."
         },
         {
           "type": "waarofniet",
-          "vraag": "De symbolen ∧ en ∨ mag je door elkaar gebruiken, want ze betekenen hetzelfde.",
+          "vraag": "De symbolen \\(\\land\\) en \\(\\lor\\) mag je door elkaar gebruiken, want ze betekenen hetzelfde.",
           "antwoord": false,
-          "uitleg": "∧ is 'en', ∨ is 'of'. p ∧ q vraagt allebei, p ∨ q neemt genoegen met één."
+          "uitleg": "\\(\\land\\) is 'en', \\(\\lor\\) is 'of'. \\(p \\land q\\) vraagt allebei, \\(p \\lor q\\) neemt genoegen met één."
         },
         {
           "type": "waarofniet",
-          "vraag": "Eén tegenvoorbeeld volstaat om een uitspraak met de kwantor ∀ te weerleggen.",
+          "vraag": "Eén tegenvoorbeeld volstaat om een uitspraak met de kwantor \\(\\forall\\) te weerleggen.",
           "antwoord": true,
           "uitleg": "'Alle priemgetallen zijn oneven' sneuvelt op het getal 2."
         },
@@ -630,7 +630,7 @@
             "∃",
             "er bestaat"
           ],
-          "uitleg": "∀ is 'voor alle', ∃ is 'er bestaat minstens één'."
+          "uitleg": "\\(\\forall\\) is 'voor alle', \\(\\exists\\) is 'er bestaat minstens één'."
         },
         {
           "type": "invultekst",
@@ -640,7 +640,7 @@
             "de negatie",
             "ontkenning"
           ],
-          "uitleg": "Het symbool ervoor is ¬."
+          "uitleg": "Het symbool ervoor is \\(\\neg\\)."
         }
       ]
     },
@@ -651,7 +651,7 @@
       "vragen": [
         {
           "type": "meerkeuze",
-          "vraag": "Hoeveel rijen telt de waarheidstabel van een uitspraak met twee variabelen p en q?",
+          "vraag": "Hoeveel rijen telt de waarheidstabel van een uitspraak met twee variabelen \\(p\\) en \\(q\\)?",
           "opties": [
             "vier",
             "twee",
@@ -659,7 +659,7 @@
             "acht"
           ],
           "antwoord": 0,
-          "uitleg": "Twee variabelen, elk twee waarden: 2 maal 2 is 4 combinaties."
+          "uitleg": "Twee variabelen, elk twee waarden: \\(2 \\cdot 2 = 4\\) combinaties."
         },
         {
           "type": "meerkeuze",
@@ -671,11 +671,11 @@
             "twaalf"
           ],
           "antwoord": 0,
-          "uitleg": "Elke variabele verdubbelt het aantal rijen: 2 tot de derde macht is 8."
+          "uitleg": "Elke variabele verdubbelt het aantal rijen: \\(2^{3} = 8\\)."
         },
         {
           "type": "meerkeuze",
-          "vraag": "p is waar en q is vals. Wat is de waarheidswaarde van p ∧ q?",
+          "vraag": "\\(p\\) is waar en \\(q\\) is vals. Wat is de waarheidswaarde van \\(p \\land q\\)?",
           "opties": [
             "vals",
             "waar",
@@ -687,7 +687,7 @@
         },
         {
           "type": "meerkeuze",
-          "vraag": "p is waar en q is vals. Wat is de waarheidswaarde van p ∨ q?",
+          "vraag": "\\(p\\) is waar en \\(q\\) is vals. Wat is de waarheidswaarde van \\(p \\lor q\\)?",
           "opties": [
             "waar",
             "vals",
@@ -749,13 +749,13 @@
           "type": "meerkeuze",
           "vraag": "Hoe vertaal je 'het is niet zo dat het regent en waait' in symbolen?",
           "opties": [
-            "¬(p ∧ q)",
-            "¬p ∧ ¬q",
-            "¬p ∨ q",
-            "p ∧ ¬q"
+            "\\(\\neg(p \\land q)\\)",
+            "\\(\\neg p \\land \\neg q\\)",
+            "\\(\\neg p \\lor q\\)",
+            "\\(p \\land \\neg q\\)"
           ],
           "antwoord": 0,
-          "uitleg": "De negatie staat voor het hele stuk. Let op: ¬(p ∧ q) is niet hetzelfde als ¬p ∧ ¬q."
+          "uitleg": "De negatie staat voor het hele stuk. Let op: \\(\\neg(p \\land q)\\) is niet hetzelfde als \\(\\neg p \\land \\neg q\\)."
         },
         {
           "type": "meerkeuze",
@@ -809,11 +809,11 @@
           "type": "waarofniet",
           "vraag": "Een waarheidstabel van vier variabelen telt zestien rijen.",
           "antwoord": true,
-          "uitleg": "2 tot de vierde macht is 16."
+          "uitleg": "\\(2^{4} = 16\\)."
         },
         {
           "type": "waarofniet",
-          "vraag": "¬(p ∧ q) betekent hetzelfde als ¬p ∧ ¬q.",
+          "vraag": "\\(\\neg(p \\land q)\\) betekent hetzelfde als \\(\\neg p \\land \\neg q\\).",
           "antwoord": false,
           "uitleg": "Het eerste zegt: niet allebei. Het tweede zegt: geen van beide. Dat is iets anders."
         },
@@ -821,7 +821,7 @@
           "type": "waarofniet",
           "vraag": "Een OF-poort geeft een signaal door zodra minstens één ingang een signaal krijgt.",
           "antwoord": true,
-          "uitleg": "Dat is de disjunctie, precies zoals ∨ in de logica."
+          "uitleg": "Dat is de disjunctie, precies zoals \\(\\lor\\) in de logica."
         },
         {
           "type": "waarofniet",
