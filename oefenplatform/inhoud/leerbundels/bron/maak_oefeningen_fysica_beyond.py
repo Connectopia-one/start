@@ -749,17 +749,86 @@ OEFENBUNDELS["oefenbundel-elektromagnetische-inductie-beyond"] = dict(
                   "Inductiespanning?", WW),
              ]),
         dict(kop="Rekenen met de flux",
-             opdracht="Reken uit. De flux is B maal het oppervlak, loodrecht gemeten.",
+             opdracht=r"Gebruik \(\Phi = B\,A\,\cos\alpha\), met \(\alpha\) de hoek tussen het "
+                      r"veld en de normaal op het vlak. Waar geen hoek staat, is de winding "
+                      r"loodrecht op het veld.",
              oefeningen=[
-                 ("kort", "B = 0,5 T en het oppervlak is 0,2 m². Hoe groot is de flux?",
-                  "0,1 Wb, want 0,5 · 0,2.", W),
-                 ("kort", "De flux gaat in 0,4 s van 0,8 Wb naar 0 Wb in één lus. Hoe groot is de inductiespanning?",
-                  "2 V, want 0,8 gedeeld door 0,4.", WW),
-                 ("kort", "Diezelfde fluxverandering in een spoel van 50 wikkelingen. Hoe groot is de spanning nu?",
-                  "100 V, want je vermenigvuldigt met het aantal wikkelingen.", WW),
+                 ("kort", r"\(B = 0{,}50\ \text{T}\) en \(A = 0{,}20\ \text{m}^{2}\). Hoe groot "
+                          r"is \(\Phi\)?",
+                  r"\(\Phi = 0{,}50\cdot 0{,}20 = 0{,}10\ \text{Wb}\)", W),
+                 ("kort", r"\(B = 0{,}80\ \text{T}\), \(A = 0{,}050\ \text{m}^{2}\), maar nu "
+                          r"onder \(\alpha = 60^{\circ}\). Hoe groot is \(\Phi\)?",
+                  r"\(\Phi = 0{,}80\cdot 0{,}050\cdot 0{,}50 = 0{,}020\ \text{Wb}\)", W),
+                 ("kort", r"\(\Phi = 0{,}012\ \text{Wb}\) door een winding van "
+                          r"\(0{,}030\ \text{m}^{2}\). Hoe groot is \(B\)?",
+                  r"\(B = \dfrac{0{,}012}{0{,}030} = 0{,}40\ \text{T}\)", W),
+                 ("kort", r"Hoe groot moet \(A\) zijn voor \(\Phi = 0{,}015\ \text{Wb}\) in een "
+                          r"veld van \(0{,}30\ \text{T}\)?",
+                  r"\(A = \dfrac{0{,}015}{0{,}30} = 0{,}050\ \text{m}^{2}\)", W),
+                 ("open", r"Een winding ligt plat in een veld, dus evenwijdig met de veldlijnen. "
+                          r"Hoe groot is \(\Phi\), en waarom?",
+                  r"Nul. De hoek met de normaal is dan \(90^{\circ}\) en "
+                  r"\(\cos 90^{\circ} = 0\): er gaat geen enkele veldlijn door de winding heen, "
+                  r"ze scheren er allemaal langs.", 5),
              ]),
-        dict(kop="Begrippen",
-             opdracht="Antwoord kort.",
+        dict(kop="Rekenen met de wet van Faraday",
+             opdracht=r"Gebruik \(U = N\,\dfrac{\Delta\Phi}{\Delta t}\). Het minteken van Lenz "
+                      r"laten we hier weg; het gaat om de grootte.",
+             oefeningen=[
+                 ("kort", r"De flux gaat in één lus in \(0{,}40\ \text{s}\) van "
+                          r"\(0{,}80\ \text{Wb}\) naar nul. Hoe groot is \(U\)?",
+                  r"\(U = \dfrac{0{,}80}{0{,}40} = 2{,}0\ \text{V}\)", W),
+                 ("kort", r"Dezelfde fluxverandering, maar in een spoel van \(50\) windingen. "
+                          r"Hoe groot is \(U\) nu?",
+                  r"\(U = 50\cdot 2{,}0 = 100\ \text{V}\)", W),
+                 ("kort", r"\(N = 400\), \(\Delta\Phi = 0{,}0030\ \text{Wb}\), "
+                          r"\(\Delta t = 0{,}020\ \text{s}\). Hoe groot is \(U\)?",
+                  r"\(U = 400\cdot\dfrac{0{,}0030}{0{,}020} = 60\ \text{V}\)", W),
+                 ("kort", r"\(N = 250\) en \(U = 5{,}0\ \text{V}\) gedurende "
+                          r"\(0{,}10\ \text{s}\). Hoe groot was \(\Delta\Phi\)?",
+                  r"\(\Delta\Phi = \dfrac{5{,}0\cdot 0{,}10}{250} = "
+                  r"2{,}0\cdot 10^{-3}\ \text{Wb}\)", W),
+                 ("kort", r"Een spoel van \(150\) windingen en \(A = 0{,}0040\ \text{m}^{2}\) "
+                          r"staat loodrecht in een veld dat in \(0{,}050\ \text{s}\) van nul naar "
+                          r"\(0{,}60\ \text{T}\) gaat. Hoe groot is \(U\)?",
+                  r"\(\Delta\Phi = 0{,}60\cdot 0{,}0040 = 2{,}4\cdot 10^{-3}\ \text{Wb}\), dus "
+                  r"\(U = 150\cdot\dfrac{2{,}4\cdot 10^{-3}}{0{,}050} = 7{,}2\ \text{V}\)", W),
+                 ("rij", [(r"het aantal windingen maal 2", r"\(U\) maal 2"),
+                          (r"dezelfde verandering in de helft van de tijd", r"\(U\) maal 2")],
+                  r"Wat gebeurt er met \(U\)?", WL),
+                 ("rij", [(r"\(\Delta\Phi\) maal 3", r"\(U\) maal 3"),
+                          (r"de flux blijft een tijdlang gelijk", r"\(U\) wordt nul")],
+                  r"Wat gebeurt er met \(U\)?", WL),
+             ]),
+        dict(kop="De transformator",
+             opdracht=r"Gebruik \(\dfrac{U_{1}}{U_{2}} = \dfrac{N_{1}}{N_{2}}\) en, voor een "
+                      r"ideale transformator, \(U_{1}I_{1} = U_{2}I_{2}\).",
+             oefeningen=[
+                 ("kort", r"\(U_{1} = 230\ \text{V}\), \(N_{1} = 1150\), \(N_{2} = 60\). Hoe "
+                          r"groot is \(U_{2}\)?",
+                  r"\(U_{2} = 230\cdot\dfrac{60}{1150} = 12\ \text{V}\)", W),
+                 ("kort", r"Hoeveel windingen secundair heb je nodig om van "
+                          r"\(230\ \text{V}\) naar \(46\ \text{V}\) te gaan, met \(1000\) "
+                          r"primair?",
+                  r"\(N_{2} = 1000\cdot\dfrac{46}{230} = 200\)", W),
+                 ("kort", r"Een laadblokje maakt van \(230\ \text{V}\) een spanning van "
+                          r"\(5{,}0\ \text{V}\), met \(2300\) windingen primair. Hoeveel "
+                          r"secundair?",
+                  r"\(N_{2} = 2300\cdot\dfrac{5{,}0}{230} = 50\)", W),
+                 ("kort", r"Een ideale transformator levert \(12\ \text{V}\) en "
+                          r"\(2{,}0\ \text{A}\) secundair, met \(230\ \text{V}\) primair. Hoe "
+                          r"groot is \(I_{1}\)?",
+                  r"\(P = 12\cdot 2{,}0 = 24\ \text{W}\), dus "
+                  r"\(I_{1} = \dfrac{24}{230} = 0{,}10\ \text{A}\)", W),
+                 ("open", r"Waarom wordt stroom over grote afstanden op hoogspanning vervoerd? "
+                          r"Gebruik \(P = U\,I\) en \(P_{\text{verlies}} = R\,I^{2}\) in je "
+                          r"antwoord.",
+                  r"Hetzelfde vermogen bij een hogere spanning betekent een kleinere stroom, want "
+                  r"\(P = U\,I\). Het verlies in de kabels is \(R\,I^{2}\), dus met het kwadraat "
+                  r"van die stroom: tien keer minder stroom is honderd keer minder verlies.", 5),
+             ]),
+        dict(kop="Begrippen en waar of niet waar",
+             opdracht="Antwoord kort, en kruis daarna aan.",
              oefeningen=[
                  ("rij", [("de zin van de inductiestroom werkt de verandering tegen", "de wet van Lenz"),
                           ("de kringstromen in een massief stuk metaal", "wervelstromen")],
@@ -767,22 +836,15 @@ OEFENBUNDELS["oefenbundel-elektromagnetische-inductie-beyond"] = dict(
                  ("rij", [("zet beweging om in elektrische energie", "een generator"),
                           ("verandert de spanning van wisselspanning", "een transformator")],
                   "Welk toestel?", WL),
-             ]),
-        dict(kop="Waar of niet waar",
-             opdracht="Kruis aan.",
-             oefeningen=[
+                 ("rij", [(r"de eenheid van \(\Phi\)", "de weber"),
+                          (r"de grootheid met symbool \(\Phi\)", "de magnetische flux")],
+                  "Hoe heet dat?", WL),
                  ("waar", "Een inductiespanning ontstaat alleen bij een veránderende flux.", True),
                  ("waar", "Hoe sneller de verandering, hoe groter de inductiespanning.", True),
                  ("waar", "Een transformator werkt ook op gelijkspanning.", False),
                  ("waar", "De wet van Lenz volgt uit het behoud van energie.", True),
-             ]),
-        dict(kop="De transformator",
-             opdracht="Reken uit met U₁/U₂ = N₁/N₂.",
-             oefeningen=[
-                 ("kort", "230 V primair, 1150 wikkelingen primair, 60 wikkelingen secundair. Welke spanning secundair?",
-                  "12 V, want 230 gedeeld door (1150/60).", WW),
-                 ("kort", "Hoeveel wikkelingen secundair heb je nodig om van 230 V naar 46 V te gaan, met 1000 primair?",
-                  "200 wikkelingen, want de verhouding is 5.", WW),
+                 ("waar", r"In \(U = -N\dfrac{\Delta\Phi}{\Delta t}\) staat ook de flux zelf.", False),
+                 ("waar", "Op een fluxgrafiek is de inductiespanning de helling, niet de hoogte.", True),
              ]),
         dict(kop="Uitleggen",
              opdracht="Antwoord in volle zinnen.",
@@ -790,15 +852,14 @@ OEFENBUNDELS["oefenbundel-elektromagnetische-inductie-beyond"] = dict(
                  ("open", "Een magneet die je in een koperen buis laat vallen, zakt heel langzaam. Leg uit.",
                   "De vallende magneet verandert de flux door de buis, dus ontstaan er "
                   "wervelstromen. Volgens de wet van Lenz werken die de beweging tegen, en dus "
-                  "remmen ze de magneet af.", 6),
+                  "remmen ze de magneet af.", 5),
                  ("open", "Waarom zou een inductiestroom die de verandering versterkt in plaats van tegenwerkt onmogelijk zijn?",
                   "Dan zou de verandering zichzelf versterken en zou er energie uit het niets "
-                  "blijven komen. Dat botst met het behoud van energie, en daarom draait de "
-                  "inductiestroom altijd de andere kant op.", 6),
+                  "blijven komen. Dat botst met het behoud van energie.", 5),
                  ("open", "Leg uit waarom een inductiekookplaat een pan verwarmt maar de plaat zelf nauwelijks.",
                   "De spoel onder de plaat maakt een snel wisselend magnetisch veld. In de metalen "
-                  "bodem van de pan wekt dat wervelstromen op, en die verwarmen juist die bodem; het "
-                  "glas van de plaat geleidt geen stroom en blijft dus koel.", 7),
+                  "bodem van de pan wekt dat wervelstromen op, en die verwarmen die bodem; het "
+                  "glas van de plaat geleidt geen stroom en blijft koel.", 5),
              ]),
     ],
 )

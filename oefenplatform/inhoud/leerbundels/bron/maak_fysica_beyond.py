@@ -903,14 +903,21 @@ BUNDELS["elektromagnetische-inductie-beyond"] = dict(
     secties=[
         dict(kop="De magnetische flux", blokken=[
             ("p", "De <strong>magnetische flux door een winding</strong> is "
-                  "<strong>het veld maal de doorsneden oppervlakte, met de hoek erbij</strong>. Ze "
+                  "<strong>het veld maal de doorsneden oppervlakte, met de hoek erbij</strong>: "
+                  "\\[\\Phi = B\\,A\\,\\cos\\alpha\\] "
+                  "met \\(\\alpha\\) de hoek tussen het veld en de normaal op het vlak van de "
+                  "winding. Je kan \\(\\Phi\\) zien als het aantal veldlijnen dat door de "
+                  "winding gaat. Ze "
                   "hangt dus af van <strong>de sterkte van het magnetisch veld</strong>, "
                   "<strong>de oppervlakte van de winding</strong> en "
                   "<strong>de hoek tussen de winding en het veld</strong>, en ze is het grootst als "
-                  "de winding loodrecht in het veld staat. Flux staat in "
-                  "<strong>weber</strong>."),
-            ("p", "Rekenen: een winding van <strong>0,02 m²</strong> die loodrecht in een veld van "
-                  "<strong>0,5 T</strong> staat, heeft een flux van <strong>0,01 Wb</strong>."),
+                  "de winding loodrecht in het veld staat, want dan is "
+                  "\\(\\cos\\alpha = 1\\). Flux staat in "
+                  "<strong>weber</strong>, en \\(1\\ \\text{Wb} = 1\\ "
+                  "\\text{T}\\cdot\\text{m}^{2}\\)."),
+            ("p", "Rekenen: een winding van \\(A = 0{,}020\\ \\text{m}^{2}\\) die loodrecht "
+                  "in een veld van \\(B = 0{,}50\\ \\text{T}\\) staat, heeft "
+                  "\\[\\Phi = 0{,}50\\cdot 0{,}020 = 0{,}010\\ \\text{Wb}\\]"),
             ("p", "De flux door een spoel laten veranderen kan je "
                   "<strong>door een magneet in of uit de spoel te bewegen</strong> of "
                   "<strong>door de spoel in het veld te laten draaien</strong>. Een "
@@ -921,20 +928,34 @@ BUNDELS["elektromagnetische-inductie-beyond"] = dict(
             ("p", "De <strong>inductiewet van Faraday</strong> zegt dat "
                   "<strong>de inductiespanning afhangt van hoe snel de flux verandert</strong>. Het "
                   "is dus <strong>de wet die de inductiespanning met de fluxverandering "
-                  "verbindt</strong>."),
-            ("p", "De inductiespanning van een spoel wordt bepaald door "
+                  "verbindt</strong>: "
+                  "\\[U = -N\\,\\dfrac{\\Delta\\Phi}{\\Delta t}\\] "
+                  "Het minteken is de wet van Lenz, verderop. Let op wat er níet in staat: de "
+                  "flux zelf. Een grote maar onveranderlijke flux levert niets op, want dan is "
+                  "\\(\\Delta\\Phi = 0\\)."),
+            ("p", "De inductiespanning van een spoel wordt dus bepaald door "
                   "<strong>het aantal windingen</strong> en "
                   "<strong>de snelheid waarmee de flux verandert</strong>. "
                   "<strong>Verdubbel je het aantal windingen</strong>, dan "
-                  "<strong>wordt ze twee keer zo groot</strong>. Een spoel met "
-                  "<strong>200 windingen</strong> die de flux <strong>in 0,1 s met 0,004 Wb</strong> "
-                  "ziet veranderen, geeft <strong>8 V</strong>."),
+                  "<strong>wordt ze twee keer zo groot</strong>, want \\(N\\) staat als factor "
+                  "vooraan. Een spoel met "
+                  "\\(N = 200\\) windingen die de flux in "
+                  "\\(\\Delta t = 0{,}10\\ \\text{s}\\) met "
+                  "\\(\\Delta\\Phi = 0{,}0040\\ \\text{Wb}\\) ziet veranderen, geeft "
+                  "\\[U = 200\\cdot\\dfrac{0{,}0040}{0{,}10} = 8{,}0\\ \\text{V}\\]"),
             ("p", "Een <strong>magneet die je sneller in een spoel duwt, levert meer spanning "
-                  "op</strong>, want <strong>de flux verandert dan in minder tijd evenveel</strong>. "
-                  "Op een fluxgrafiek lees je dat rechtstreeks af: "
+                  "op</strong>, want <strong>de flux verandert dan in minder tijd evenveel</strong>: "
+                  "\\(\\Delta t\\) staat in de noemer. "
+                  "Op een fluxgrafiek lees je dat rechtstreeks af, want "
+                  "\\(\\dfrac{\\Delta\\Phi}{\\Delta t}\\) is net de helling van die "
+                  "grafiek: "
                   "<strong>hoe steiler de fluxgrafiek loopt, hoe gróter de inductiespanning op dat "
                   "ogenblik</strong>, en waar de <strong>flux een tijdlang constant blijft, is de "
                   "inductiespanning nul</strong>."),
+            ("fig", svg.inductie(),
+             "Links duw je een noordpool naar de spoel toe; de spoel maakt aan die kant zelf een "
+             "noordpool en duwt terug. Onderaan: waar de fluxgrafiek vlak loopt, is de spanning "
+             "nul, en waar ze de andere kant op helt, keert de spanning van teken."),
             ("p", "<strong>Zonder een gesloten kring is er wel een inductiespanning, maar geen "
                   "inductiestroom</strong>: de spanning staat er, maar er kan niets lopen."),
             ("p", "Een <strong>rechthoekige winding die rondraait in een homogeen veld</strong> "
@@ -973,17 +994,25 @@ BUNDELS["elektromagnetische-inductie-beyond"] = dict(
             ("p", "Een <strong>transformator</strong> dient <strong>om een wisselspanning hoger of "
                   "lager te maken</strong>. Hij heeft twee spoelen: een "
                   "<strong>primaire en een secundaire</strong>. De spanningen staan in dezelfde "
-                  "verhouding als de aantallen windingen. Hij "
-                  "<strong>werkt niet op gelijkspanning</strong>, want dan verandert de flux niet."),
+                  "verhouding als de aantallen windingen: "
+                  "\\[\\dfrac{U_{1}}{U_{2}} = \\dfrac{N_{1}}{N_{2}}\\] "
+                  "Hij <strong>werkt niet op gelijkspanning</strong>, want dan verandert de flux "
+                  "niet en is \\(\\Delta\\Phi = 0\\)."),
             ("p", "Twee voorbeelden. Een transformator met <strong>500 windingen primair en 50 "
-                  "secundair</strong> <strong>verlaagt 230 V tot 23 V</strong>. Een transformator met "
+                  "secundair</strong> <strong>verlaagt 230 V tot 23 V</strong>, want "
+                  "\\(U_{2} = 230\\cdot\\dfrac{50}{500}\\). Een transformator met "
                   "<strong>100 windingen primair en 400 secundair</strong> is "
-                  "<strong>een optransformator, want hij verhoogt de spanning</strong>."),
+                  "<strong>een optransformator, want hij verhoogt de spanning</strong>, tot vier "
+                  "keer de ingangsspanning."),
             ("p", "Een transformator <strong>kan het vermogen niet groter maken dan het vermogen "
-                  "dat erin gaat</strong>: gaat de spanning omhoog, dan gaat de stroom omlaag. Dat "
+                  "dat erin gaat</strong>. In het beste geval geldt "
+                  "\\(U_{1}I_{1} = U_{2}I_{2}\\): gaat de spanning omhoog, dan gaat de stroom "
+                  "evenredig omlaag. Dat "
                   "is ook waarom <strong>stroom over grote afstanden op hoogspanning vervoerd "
                   "wordt</strong>: <strong>bij een kleinere stroom gaat er veel minder warmte "
-                  "verloren</strong> in de kabels."),
+                  "verloren</strong> in de kabels. Dat verlies is "
+                  "\\(P_{\\text{verlies}} = R\\,I^{2}\\), dus tien keer minder stroom is "
+                  "honderd keer minder verlies."),
             ("p", "De <strong>kern van een transformator is uit dunne, van elkaar geïsoleerde "
                   "plaatjes</strong> opgebouwd <strong>om de wervelstromen in de kern klein te "
                   "houden</strong>."),
@@ -991,6 +1020,7 @@ BUNDELS["elektromagnetische-inductie-beyond"] = dict(
         dict(kop="Wervelstromen", blokken=[
             ("p", "<strong>Wervelstromen</strong> zijn de kringstromen die "
                   "<strong>in een massief stuk metaal ontstaan bij een veranderende flux</strong>. "
+                  "Ze heten ook <strong>foucaultstromen</strong>. "
                   "Ze <strong>werken de beweging die ze veroorzaakt tegen</strong>, en "
                   "<strong>gleuven of dunne plaatjes maken ze veel kleiner</strong>. In een isolator "
                   "ontstaan ze niet, want daar zijn geen vrije elektronen."),
@@ -1005,11 +1035,13 @@ BUNDELS["elektromagnetische-inductie-beyond"] = dict(
         ]),
     ],
     onthoud=[
-        "Flux is veld maal oppervlakte, met de hoek erbij, in weber.",
-        "Faraday: de inductiespanning hangt af van hoe snel de flux verandert.",
+        r"Flux: \(\Phi = B\,A\,\cos\alpha\), in weber; \(1\ \text{Wb} = 1\ \text{T}\cdot\text{m}^{2}\).",
+        r"Faraday: \(U = -N\,\dfrac{\Delta\Phi}{\Delta t}\); de flux zelf staat er niet in.",
         "Meer windingen of sneller veranderen geeft meer spanning.",
-        "Lenz: de inductiestroom werkt zijn eigen oorzaak tegen.",
+        "Op een fluxgrafiek is de spanning de helling, niet de hoogte.",
+        "Lenz: de inductiestroom werkt zijn eigen oorzaak tegen; dat is het minteken.",
         "Zonder gesloten kring wel spanning, geen stroom.",
+        r"Transformator: \(\dfrac{U_{1}}{U_{2}} = \dfrac{N_{1}}{N_{2}}\), en \(U_{1}I_{1} = U_{2}I_{2}\).",
         "Een transformator werkt enkel op wisselspanning en maakt geen vermogen bij.",
         "Wervelstromen remmen en verwarmen; gleuven en plaatjes houden ze klein.",
     ],

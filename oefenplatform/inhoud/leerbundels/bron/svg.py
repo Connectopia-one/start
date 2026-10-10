@@ -7236,3 +7236,112 @@ def magneetkracht(breedte=470):
     d.append(_tekst(412, ky + 76, "B uit het blad", 9.5, DIM, "middle"))
 
     return _svg(cel_b * 2, cel_h * 2, "\n".join(d))
+
+
+def inductie(breedte=470):
+    r"""Drie tekeningen bij elektromagnetische inductie.
+
+    Links een magneet die in een spoel geduwd wordt, met de inductiestroom
+    die volgens de wet van Lenz een noordpool naar de magneet toe keert.
+    Rechts een transformator met zijn twee spoelen op één kern. Onderaan de
+    flux en de inductiespanning onder elkaar, zodat je ziet dat de spanning
+    de helling van de fluxgrafiek volgt en niet de flux zelf.
+    """
+    import math
+    cel_b, cel_h = 234, 186
+    d = []
+
+    def kader(kx, ky, titel, breed=None, hoog=None):
+        b = breed or cel_b
+        h = hoog or cel_h
+        d.append(f'<rect x="{kx+6}" y="{ky+4}" width="{b-12}" height="{h-28}" rx="8" '
+                 f'fill="#ffffff" stroke="{BORDER}" stroke-width="1.2"/>')
+        d.append(_tekst(kx + b / 2, ky + h - 8, titel, 10, DIM, "middle", True))
+
+    # ── 1. een magneet in een spoel
+    kader(0, 0, "duwen geeft stroom; de spoel duwt terug")
+    cy = 92
+    # de spoel: zes lussen op een rij
+    for i in range(6):
+        x = 78 + i * 20
+        d.append(f'<ellipse cx="{x}" cy="{cy}" rx="7" ry="30" fill="none" '
+                 f'stroke="{DRAAD}" stroke-width="1.6"/>')
+    # de aansluitdraden met de stroomzin erin
+    d.append(_draad([(78, cy + 30), (72, cy + 46), (186, cy + 46), (186, cy + 30)]))
+    d.append(_pijlkop(130, cy + 46, 0.0, DRAAD, 5.0))
+    d.append(_tekst(130, cy + 60, "inductiestroom", 9.5, DIM, "middle"))
+    # de magneet links ervan, noordpool naar de spoel toe
+    mx, my = 26, cy
+    d.append(f'<rect x="{mx}" y="{my-11}" width="20" height="22" fill="{ZUID}" opacity="0.85"/>')
+    d.append(f'<rect x="{mx+20}" y="{my-11}" width="20" height="22" fill="{NOORD}" opacity="0.85"/>')
+    d.append(_tekst(mx + 10, my + 4, "Z", 10, "#ffffff", "middle", True))
+    d.append(_tekst(mx + 30, my + 4, "N", 10, "#ffffff", "middle", True))
+    d.append(f'<line x1="{mx+44}" y1="{my}" x2="{mx+62}" y2="{my}" stroke="{AMBER}" '
+             f'stroke-width="2.0"/>')
+    d.append(_pijlkop(mx + 62, my, 0.0, AMBER, 5.5))
+    d.append(_tekst(mx + 54, my - 9, "v", 11, AMBER, "middle", True))
+    # de pool die de spoel zelf maakt staat naar de magneet toe: dat is de
+    # wet van Lenz, de spoel werkt zijn eigen oorzaak tegen
+    d.append(_tekst(78, my - 38, "N", 11, NOORD, "middle", True))
+    d.append(f'<line x1="78" y1="{my-34}" x2="78" y2="{my-26}" stroke="{NOORD}" '
+             f'stroke-width="1.4"/>')
+
+    # ── 2. de transformator
+    kx = cel_b
+    kader(kx, 0, "transformator: de verhouding van de windingen")
+    lx, rx = kx + 62, kx + 160
+    boven, onder = 44, 136
+    # de gesloten kern
+    d.append(f'<rect x="{lx}" y="{boven}" width="{rx-lx}" height="{onder-boven}" rx="4" '
+             f'fill="none" stroke="{DIM}" stroke-width="9" opacity="0.35"/>')
+    for i in range(4):
+        y = boven + 16 + i * 18
+        d.append(f'<ellipse cx="{lx}" cy="{y}" rx="16" ry="6" fill="none" stroke="{DRAAD}" '
+                 f'stroke-width="1.6"/>')
+    for i in range(8):
+        y = boven + 10 + i * 10
+        d.append(f'<ellipse cx="{rx}" cy="{y}" rx="16" ry="3.5" fill="none" stroke="{DRAAD}" '
+                 f'stroke-width="1.4"/>')
+    d.append(_tekst(lx - 28, boven + 50, "N₁", 11.5, DRAAD, "middle", True))
+    d.append(_tekst(lx - 28, boven + 66, "U₁", 10.5, DIM, "middle"))
+    d.append(_tekst(rx + 28, boven + 50, "N₂", 11.5, DRAAD, "middle", True))
+    d.append(_tekst(rx + 28, boven + 66, "U₂", 10.5, DIM, "middle"))
+    d.append(_tekst(kx + cel_b / 2, 30, "meer windingen is meer spanning", 9.5, DIM, "middle"))
+
+    # ── 3. de flux en de spanning onder elkaar
+    ky = cel_h
+    hoog = 196
+    kader(0, ky, "de spanning volgt de helling, niet de flux zelf", cel_b * 2, hoog)
+    x0, x1 = 54, 430
+
+    def as_stelsel(by, naam, eenheid):
+        d.append(f'<line x1="{x0}" y1="{by}" x2="{x1}" y2="{by}" stroke="{DIM}" '
+                 f'stroke-width="1.1"/>')
+        d.append(f'<line x1="{x0}" y1="{by-34}" x2="{x0}" y2="{by+16}" stroke="{DIM}" '
+                 f'stroke-width="1.1"/>')
+        d.append(_pijlkop(x1, by, 0.0, DIM, 4.0))
+        d.append(_tekst(x1 - 4, by + 13, "t", 9.5, DIM, "middle"))
+        d.append(_tekst(x0 - 20, by - 28, naam, 10.5, INK, "middle", True))
+        d.append(_tekst(x0 - 20, by - 16, eenheid, 8.5, DIM, "middle"))
+
+    # de flux: omhoog, vlak, omlaag
+    fy = ky + 60
+    as_stelsel(fy, "Φ", "(Wb)")
+    p1, p2, p3 = 160, 270, 390
+    d.append(f'<path d="M{x0+6} {fy} L{p1} {fy-30} L{p2} {fy-30} L{p3} {fy}" fill="none" '
+             f'stroke="{FOREST}" stroke-width="2.0"/>')
+    for x, naam in ((110, "stijgt"), (215, "vlak"), (330, "daalt")):
+        d.append(_tekst(x, fy + 13, naam, 9, DIM, "middle"))
+    # de spanning: constant, nul, tegengesteld
+    uy = ky + 138
+    as_stelsel(uy, "U", "(V)")
+    d.append(f'<path d="M{x0+6} {uy+22} L{p1} {uy+22} L{p1} {uy} L{p2} {uy} L{p2} {uy-22} '
+             f'L{p3} {uy-22} L{p3} {uy}" fill="none" stroke="{AMBER}" stroke-width="2.0"/>')
+    for x, y, naam in ((110, uy - 9, "een vaste waarde"), (215, uy - 9, "nul"),
+                       (330, uy + 15, "andere zin")):
+        d.append(_tekst(x, y, naam, 9, DIM, "middle"))
+    for x in (p1, p2, p3):
+        d.append(f'<line x1="{x}" y1="{fy-38}" x2="{x}" y2="{uy+26}" stroke="{BORDER}" '
+                 f'stroke-width="1" stroke-dasharray="3 3"/>')
+
+    return _svg(cel_b * 2, cel_h + hoog, "\n".join(d))
