@@ -2306,109 +2306,125 @@ BUNDELS["golven-en-hun-eigenschappen-beyond"] = dict(
     secties=[
         dict(kop="Wat een golf vervoert", blokken=[
             ("p", "Een golf vervoert <strong>energie, maar geen materie</strong>. De deeltjes "
-                  "<strong>trillen rond hun eigen evenwichtsstand</strong> en blijven dus ter "
-                  "plaatse; enkel de trilling schuift door. Hoe je de "
-                  "<strong>richting waarin de deeltjes heen en weer gaan</strong> noemt: de "
-                  "<strong>trilrichting</strong>."),
-            ("p", "Het verschil tussen een mechanische en een elektromagnetische golf: "
-                  "<strong>een mechanische golf heeft een stof nodig om door te gaan</strong>. "
-                  "Elektromagnetisch zijn onder andere "
-                  "<strong>zichtbaar licht</strong>, <strong>radiogolven</strong> en "
-                  "<strong>röntgenstraling</strong>; die lopen ook door vacuüm."),
-            ("p", "Een <strong>transversale</strong> golf is er een waarbij "
-                  "<strong>de deeltjes dwars op de voortplantingsrichting trillen</strong>. Trillen "
-                  "ze langs de voortplantingsrichting, dan is de golf "
-                  "<strong>longitudinaal</strong>: "
-                  "<strong>geluid in de lucht is een longitudinale golf</strong>, want de lucht "
-                  "verdicht en verdunt in de looprichting."),
+                  "trillen rond hun eigen evenwichtsstand en blijven dus ter plaatse; enkel de "
+                  "trilling schuift door. De richting waarin ze heen en weer gaan, heet de "
+                  "<strong>trilrichting</strong> of trillingsrichting."),
+            ("p", "Een <strong>mechanische golf heeft een stof nodig</strong> om door te gaan, "
+                  "een <strong>elektromagnetische</strong> niet: zichtbaar licht, radiogolven "
+                  "en röntgenstraling lopen ook door vacuüm, geluid niet. Een "
+                  "<strong>transversale</strong> golf is er een waarbij de deeltjes "
+                  "<strong>dwars</strong> op de voortplantingsrichting trillen; trillen ze "
+                  "<strong>langs</strong> die richting, dan is de golf "
+                  "<strong>longitudinaal</strong>. Geluid in de lucht bestaat uit "
+                  "longitudinale golven."),
+        ]),
+        dict(kop="De golf in beeld", blokken=[
+            ("fig", svg.golfbeeld(),
+             "Links een golf die doorloopt, rechts een golf die tussen twee wanden vastzit."),
+            ("p", "De <strong>golflengte \\(\\lambda\\)</strong> is de afstand tussen twee "
+                  "punten die in fase trillen, bijvoorbeeld van berg tot berg. De "
+                  "<strong>amplitude \\(A\\)</strong> is de grootste uitwijking, dwars op de "
+                  "golf. Twee heel verschillende dingen dus: \\(\\lambda\\) is een afstand "
+                  "<strong>langs</strong> de golf, \\(A\\) een uitwijking "
+                  "<strong>dwars</strong> erop."),
         ]),
         dict(kop="Golflengte, frequentie en snelheid", blokken=[
-            ("p", "De <strong>golflengte</strong> van een lopende golf is "
-                  "<strong>de afstand tussen twee punten die in fase trillen</strong>, bijvoorbeeld "
-                  "van berg tot berg. De snelheid bereken je als "
-                  "<strong>de golflengte maal de frequentie</strong>: een golf met een "
-                  "<strong>golflengte van 2 m en een frequentie van 50 Hz</strong> loopt "
-                  "<strong>100 m/s</strong>."),
-            ("p", "De snelheid van een golf hangt af "
-                  "<strong>van de stof waar de golf door loopt</strong>, niet van hoe hard je de "
-                  "bron aanslaat: <strong>een golf met een grotere amplitude loopt niet "
-                  "sneller</strong>. <strong>Alle deeltjes op een lopende golf trillen met dezelfde "
-                  "frequentie</strong>, want ze krijgen allemaal het ritme van de bron."),
-            ("p", "Het <strong>golfgetal</strong> is <strong>twee pi gedeeld door de "
-                  "golflengte</strong>, de ruimtelijke tegenhanger van de pulsatie. De "
-                  "<strong>golfvergelijking van een rechtslopende golf</strong> luidt "
-                  "<strong>y is A maal de sinus van ω maal t min k maal x</strong>. Daaruit lees je "
-                  "<strong>de amplitude van de golf</strong>, "
-                  "<strong>de pulsatie en dus de periode</strong> en "
-                  "<strong>het golfgetal en dus de golflengte</strong>."),
+            ("kader", "<strong>De golfsnelheid</strong><br>"
+                      "\\[v = \\lambda\\,f = \\dfrac{\\lambda}{T}\\]"
+                      "In één periode schuift de golf precies één golflengte op. Een golf met "
+                      "\\(\\lambda = 2{,}0\\) m en \\(f = 50\\) Hz loopt dus \\(100\\) m/s."),
+            ("p", "De snelheid hangt af van de <strong>stof</strong> waar de golf door loopt, "
+                  "niet van hoe hard je de bron aanslaat: een golf met een grotere amplitude "
+                  "loopt <strong>niet</strong> sneller. Alle deeltjes op een lopende golf "
+                  "trillen met <strong>dezelfde frequentie</strong>, want ze krijgen allemaal "
+                  "het ritme van de bron. Verhoog je \\(f\\), dan krimpt \\(\\lambda\\) en "
+                  "blijft \\(v\\) gelijk."),
+        ]),
+        dict(kop="De golfvergelijking", blokken=[
+            ("kader", "<strong>Eén vergelijking voor plaats en tijd</strong><br>"
+                      "\\[y(x,t) = A\\sin(\\omega t - k\\,x) \\qquad k = \\dfrac{2\\pi}{\\lambda}\\]"
+                      "\\(k\\) is het <strong>golfgetal</strong>, in \\(\\text{rad/m}\\): de "
+                      "ruimtelijke tegenhanger van de pulsatie "
+                      "\\(\\omega = \\dfrac{2\\pi}{T}\\). Het minteken hoort bij een golf die "
+                      "naar <strong>rechts</strong> loopt: een rechtslopende golf."),
+            ("p", "Daaruit lees je de <strong>amplitude</strong>, de <strong>pulsatie</strong> "
+                  "en dus \\(T\\), en het <strong>golfgetal</strong> en dus \\(\\lambda\\). De "
+                  "stof staat er niet in, al bepaalt die wel de snelheid."),
         ]),
         dict(kop="Wie wanneer begint te trillen", blokken=[
-            ("p", "<strong>Niet alle deeltjes van een lopende golf beginnen op hetzelfde ogenblik "
-                  "te trillen</strong>: de trilling moet er eerst toe komen. Trilt een bron al "
-                  "<strong>3 s</strong>, ligt een deeltje <strong>10 m</strong> verder en loopt de "
-                  "golf <strong>5 m/s</strong>, dan was de golf 2 s onderweg en trilt dat deeltje "
-                  "nog maar <strong>1 s</strong>."),
-            ("p", "Loopt een golf <strong>naar rechts</strong>, dan beweegt een deeltje dat net "
-                  "voor een berg ligt <strong>naar boven, want de berg schuift naar hem toe</strong>. "
-                  "Wie de vorm een klein stukje naar rechts schuift, ziet het meteen."),
+            ("p", "<strong>Niet alle deeltjes</strong> van een lopende golf beginnen op "
+                  "hetzelfde ogenblik te trillen: de trilling moet er eerst toe komen. Trilt "
+                  "een bron al \\(3{,}0\\) s, ligt een deeltje \\(10\\) m verder en loopt de "
+                  "golf \\(5{,}0\\) m/s, dan was de golf "
+                  "\\(\\dfrac{10}{5{,}0} = 2{,}0\\) s onderweg en trilt dat deeltje nog maar "
+                  "\\(1{,}0\\) s. Loopt een golf naar <strong>rechts</strong>, dan beweegt een "
+                  "deeltje dat net vóór een berg ligt <strong>naar boven</strong>, want die "
+                  "berg schuift naar hem toe."),
         ]),
         dict(kop="Huygens: weerkaatsen, breken, buigen", blokken=[
-            ("p", "Het <strong>principe van Huygens</strong> zegt dat "
-                  "<strong>elk punt van een golffront zelf als een nieuwe bron werkt</strong>. "
-                  "Daarmee verklaar je <strong>de weerkaatsing van een golf op een wand</strong>, "
-                  "<strong>de breking van een golf bij een andere stof</strong> en "
-                  "<strong>de buiging van een golf achter een opening</strong>. Die drie heten "
-                  "samen <strong>weerkaatsing of reflectie</strong>, "
-                  "<strong>breking of refractie</strong> en "
-                  "<strong>buiging of diffractie</strong>; het terugkaatsen op een wand heet dus "
-                  "ook <strong>reflectie</strong>, en het afbuigen achter een smalle opening "
-                  "<strong>buiging</strong>."),
-            ("p", "Bij breking verandert <strong>de snelheid van de golf</strong>, "
-                  "<strong>de golflengte van de golf</strong> en "
-                  "<strong>de richting van de golf</strong>, maar "
-                  "<strong>bij breking verandert de frequentie van de golf niet</strong>: die blijft "
-                  "van de bron. De <strong>wet van Snellius</strong> luidt: "
-                  "<strong>de sinus van i gedeeld door de sinus van r is n_r gedeeld door "
-                  "n_i</strong>. <strong>Bij de overgang naar een stof met een hogere brekingsindex "
-                  "buigt de straal naar de normaal toe</strong>."),
-            ("p", "Een <strong>brekingsindex van 1,5 betekent niet dat licht in die stof 1,5 keer "
-                  "sneller gaat dan in vacuüm</strong> maar juist 1,5 keer langzamer: de index is "
-                  "de lichtsnelheid in vacuüm gedeeld door die in de stof. Daarom "
-                  "<strong>lijkt een rietje in een glas water geknikt</strong>: "
-                  "<strong>het licht breekt bij de overgang van water naar lucht</strong>."),
-            ("p", "Buiging lukt beter bij een grote golflengte. Daarom "
-                  "<strong>hoor je een laag gebrom van een feest verder dan de hoge tonen</strong>: "
-                  "<strong>lage tonen hebben een grotere golflengte en buigen beter af</strong> rond "
-                  "huizen en hoeken."),
+            ("p", "Het <strong>principe van Huygens</strong> zegt dat elk punt van een "
+                  "golffront zelf als een <strong>nieuwe bron</strong> werkt. Daarmee verklaar "
+                  "je <strong>weerkaatsing</strong> of reflectie, waarbij de golf tegen een "
+                  "wand terugkaatst, <strong>breking</strong> of refractie, en "
+                  "<strong>buiging</strong> of diffractie, waarbij de golf kan afbuigen rond "
+                  "een hoek. Demping hoort er niet "
+                  "bij: dat is een verlies van energie en geen gevolg van het golffront."),
         ]),
-        dict(kop="Interferentie en staande golven", blokken=[
-            ("p", "<strong>Interferentie</strong> is "
-                  "<strong>twee golven die samen één nieuwe uitwijking geven</strong>. "
-                  "<strong>Constructieve</strong> interferentie treedt op "
-                  "<strong>als de twee golven er in fase aankomen</strong>; "
-                  "<strong>bij destructieve interferentie kunnen twee golven elkaar volledig "
-                  "uitdoven</strong>. Twee bronnen zijn <strong>coherent</strong> als "
-                  "<strong>ze dezelfde frequentie en een vast faseverschil hebben</strong>."),
-            ("p", "Een <strong>staande golf</strong> ontstaat "
-                  "<strong>door interferentie van een golf met haar eigen weerkaatsing</strong>. Een "
-                  "punt dat helemaal niet trilt is een <strong>knoop</strong>: "
-                  "<strong>een knoop trilt helemaal niet</strong> en "
-                  "<strong>een buik trilt met de grootste amplitude</strong>. In fase met elkaar "
-                  "trillen <strong>de punten tussen twee opeenvolgende knopen</strong>; over een "
-                  "knoop heen slaat de uitwijking om."),
+        dict(kop="Breking en de wet van Snellius", blokken=[
+            ("kader", "<strong>De wet van Snellius</strong><br>"
+                      "\\[\\dfrac{\\sin i}{\\sin r} = \\dfrac{n_{r}}{n_{i}} \\qquad "
+                      "n = \\dfrac{c}{v}\\]"
+                      "De wet geldt voor de <strong>sinussen</strong> van de hoeken, niet voor "
+                      "de hoeken zelf. Let op welke brekingsindex boven staat."),
+            ("p", "Bij breking veranderen de <strong>snelheid</strong>, de "
+                  "<strong>golflengte</strong> en de <strong>richting</strong>, maar de "
+                  "<strong>frequentie niet</strong>: die blijft van de bron. Bij de overgang "
+                  "naar een stof met een <strong>hogere</strong> brekingsindex breekt de straal "
+                  "naar de normaal <strong>toe</strong>. Een brekingsindex van \\(1{,}5\\) "
+                  "betekent dat licht er \\(1{,}5\\) keer <strong>langzamer</strong> gaat dan "
+                  "in vacuüm, want \\(n = \\dfrac{c}{v}\\). Daarom lijkt een rietje in een glas "
+                  "water geknikt."),
+            ("p", "Buiging lukt beter bij een grote golflengte. Daarom hoor je een laag "
+                  "gebrom van een feest verder dan de hoge tonen: lage tonen hebben een "
+                  "grotere \\(\\lambda\\) en buigen beter af rond huizen en hoeken. De buiging "
+                  "is het sterkst achter een smalle opening, even groot als "
+                  "\\(\\lambda\\) of kleiner."),
+        ]),
+        dict(kop="Interferentie", blokken=[
+            ("p", "<strong>Interferentie</strong> is twee golven die samen één nieuwe "
+                  "uitwijking geven: je telt de uitwijkingen punt per punt op, en daarna lopen "
+                  "beide golven gewoon verder. Van <strong>constructieve</strong> "
+                  "interferentie spreek je als ze er <strong>in fase</strong> aankomen; bij "
+                  "<strong>destructieve</strong> "
+                  "interferentie, in tegenfase en met dezelfde amplitude, kunnen ze elkaar "
+                  "volledig <strong>uitdoven</strong>. Een koptelefoon met ruisonderdrukking "
+                  "werkt zo. Twee bronnen zijn <strong>coherent</strong> als ze dezelfde "
+                  "frequentie en een <strong>vast faseverschil</strong> hebben; alleen dan "
+                  "blijft het patroon op zijn plaats staan."),
+        ]),
+        dict(kop="Staande golven", blokken=[
+            ("p", "Een <strong>staande golf</strong> ontstaat door interferentie van een golf "
+                  "met haar eigen <strong>weerkaatsing</strong>. Een punt dat helemaal niet "
+                  "trilt, heet een <strong>knoop</strong> of knooppunt; het punt dat het "
+                  "hevigst trilt, een "
+                  "<strong>buik</strong>. De knopen schuiven niet op, en dat is net het "
+                  "kenmerk van een staande golf. In fase met elkaar trillen de punten "
+                  "<strong>tussen twee opeenvolgende knopen</strong>; over een knoop heen is "
+                  "\\(\\Delta\\varphi = \\pi\\), dus tegenfase."),
         ]),
     ],
     onthoud=[
         "Een golf vervoert energie, geen materie.",
         "Mechanisch heeft een stof nodig; elektromagnetisch niet.",
         "Transversaal trilt dwars, longitudinaal langs de looprichting.",
-        "v = λ · f; de stof bepaalt v, de bron bepaalt f.",
-        "y = A · sin(ω·t − k·x), met k = 2π/λ.",
+        "\\(v = \\lambda\\,f\\); de stof bepaalt \\(v\\), de bron bepaalt \\(f\\).",
+        "\\(y(x,t) = A\\sin(\\omega t - k\\,x)\\), met \\(k = \\dfrac{2\\pi}{\\lambda}\\).",
         "Huygens verklaart weerkaatsing, breking en buiging.",
         "Bij breking verandert alles behalve de frequentie.",
         "Staande golf: knopen trillen niet, buiken maximaal.",
     ],
 )
+
 
 # ───────────────────── 18. Licht, geluid en het elektromagnetisch spectrum
 BUNDELS["licht-geluid-en-het-elektromagnetisch-spectrum-beyond"] = dict(

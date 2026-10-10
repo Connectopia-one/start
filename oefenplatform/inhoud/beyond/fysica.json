@@ -7338,63 +7338,63 @@
             "de afstand die de golf in één seconde aflegt"
           ],
           "antwoord": 0,
-          "uitleg": "Ze staat in meter en krijgt het symbool lambda. De afstand die de golf per seconde aflegt, is haar snelheid."
+          "uitleg": "Ze staat in meter en krijgt het symbool \\(\\lambda\\). De afstand die de golf per seconde aflegt, is haar snelheid."
         },
         {
           "type": "meerkeuze",
           "vraag": "Hoe bereken je de snelheid van een golf?",
           "opties": [
-            "de golflengte maal de frequentie",
-            "de golflengte gedeeld door de frequentie",
-            "de golflengte maal de periode",
-            "de frequentie gedeeld door de golflengte"
+            "\\(v = \\lambda\\,f\\)",
+            "\\(v = \\dfrac{\\lambda}{f}\\)",
+            "\\(v = \\lambda\\,T\\)",
+            "\\(v = \\dfrac{f}{\\lambda}\\)"
           ],
           "antwoord": 0,
-          "uitleg": "Je kan ook de golflengte door de periode delen, want dat is hetzelfde. In één periode schuift de golf precies één golflengte op."
+          "uitleg": "Je kan ook \\(v = \\dfrac{\\lambda}{T}\\) schrijven, want dat is hetzelfde. In één periode schuift de golf precies één golflengte op."
         },
         {
           "type": "meerkeuze",
-          "vraag": "Een golf heeft een golflengte van 2 m en een frequentie van 50 Hz. Hoe snel loopt ze?",
+          "vraag": "Een golf heeft \\(\\lambda = 2{,}0\\) m en \\(f = 50\\) Hz. Hoe snel loopt ze?",
           "opties": [
-            "100 m/s",
-            "25 m/s",
-            "52 m/s",
-            "0,04 m/s"
+            "\\(100\\) m/s",
+            "\\(25\\) m/s",
+            "\\(52\\) m/s",
+            "\\(0{,}04\\) m/s"
           ],
           "antwoord": 0,
-          "uitleg": "De snelheid is de golflengte maal de frequentie, dus 2 maal 50. Dat geeft 100 meter per seconde."
+          "uitleg": "\\(v = \\lambda\\,f = 2{,}0 \\times 50 = 100\\) m/s."
         },
         {
           "type": "meerkeuze",
           "vraag": "Wat is het golfgetal van een lopende golf?",
           "opties": [
-            "twee pi gedeeld door de golflengte",
-            "twee pi gedeeld door de periode",
-            "de golflengte gedeeld door twee pi",
-            "het aantal golven dat per seconde langskomt"
+            "\\(k = \\dfrac{2\\pi}{\\lambda}\\)",
+            "\\(k = \\dfrac{2\\pi}{T}\\)",
+            "\\(k = \\dfrac{\\lambda}{2\\pi}\\)",
+            "het aantal golven per seconde"
           ],
           "antwoord": 0,
-          "uitleg": "Het staat in radiaal per meter en krijgt het symbool k. De pulsatie is het tegenhangertje ervan, met de periode in de noemer."
+          "uitleg": "Het staat in \\(\\text{rad/m}\\) en krijgt het symbool \\(k\\). De pulsatie \\(\\omega = \\dfrac{2\\pi}{T}\\) is het tegenhangertje ervan."
         },
         {
           "type": "meerkeuze",
           "vraag": "Hoe luidt de golfvergelijking van een rechtslopende golf?",
           "opties": [
-            "y is A maal de sinus van ω maal t min k maal x",
-            "y is A maal de sinus van ω maal t plus k maal x",
-            "y is A maal de sinus van k maal x min ω maal t",
-            "y is A maal ω maal t min k maal x"
+            "\\(y = A\\sin(\\omega t - k\\,x)\\)",
+            "\\(y = A\\sin(\\omega t + k\\,x)\\)",
+            "\\(y = A\\sin(k\\,x - \\omega t)\\)",
+            "\\(y = A\\,\\omega\\,t - k\\,x\\)"
           ],
           "antwoord": 0,
-          "uitleg": "Het minteken voor de x hoort bij een golf die naar rechts loopt. Een plusteken geeft een linkslopende golf."
+          "uitleg": "Het minteken voor de \\(x\\) hoort bij een golf die naar rechts loopt. Een plusteken geeft een linkslopende golf."
         },
         {
           "type": "meerkeuze",
           "vraag": "Welke gegevens lees je uit de golfvergelijking? Kruis alles aan wat juist is.",
           "opties": [
             "de amplitude van de golf",
-            "de pulsatie en dus de periode",
-            "het golfgetal en dus de golflengte",
+            "de pulsatie \\(\\omega\\) en dus \\(T\\)",
+            "het golfgetal \\(k\\) en dus \\(\\lambda\\)",
             "de stof waar de golf door loopt"
           ],
           "antwoord": [
@@ -7412,15 +7412,15 @@
         },
         {
           "type": "meerkeuze",
-          "vraag": "Een bron trilt al 3 s en een deeltje ligt 10 m verder. De golf loopt 5 m/s. Hoelang trilt dat deeltje al?",
+          "vraag": "Een bron trilt al \\(3{,}0\\) s en een deeltje ligt \\(10\\) m verder. De golf loopt \\(5{,}0\\) m/s. Hoelang trilt dat deeltje al?",
           "opties": [
-            "1 s",
-            "2 s",
-            "3 s",
-            "5 s"
+            "\\(1{,}0\\) s",
+            "\\(2{,}0\\) s",
+            "\\(3{,}0\\) s",
+            "\\(5{,}0\\) s"
           ],
           "antwoord": 0,
-          "uitleg": "De golf doet 10 gedeeld door 5, dus 2 seconden over die afstand. Het deeltje trilt dus 3 min 2 is 1 seconde."
+          "uitleg": "De golf doet \\(\\dfrac{10}{5{,}0} = 2{,}0\\) s over die afstand, dus trilt het deeltje \\(3{,}0 - 2{,}0 = 1{,}0\\) s."
         },
         {
           "type": "meerkeuze",
@@ -7450,7 +7450,7 @@
             "van de afstand tot de bron"
           ],
           "antwoord": 0,
-          "uitleg": "Verhoog je de frequentie, dan krimpt de golflengte en blijft de snelheid gelijk. In water loopt geluid veel sneller dan in lucht."
+          "uitleg": "Verhoog je \\(f\\), dan krimpt \\(\\lambda\\) en blijft \\(v\\) gelijk. In water loopt geluid veel sneller dan in lucht."
         },
         {
           "type": "waarofniet",
@@ -7465,13 +7465,13 @@
             "de golf vervoert energie zonder materie mee te nemen",
             "de deeltjes trillen rond hun eigen evenwichtsstand",
             "de deeltjes schuiven met de golf mee naar voren",
-            "de golflengte is gelijk aan de amplitude"
+            "\\(\\lambda\\) is gelijk aan \\(A\\)"
           ],
           "antwoord": [
             0,
             1
           ],
-          "uitleg": "De golflengte is een afstand langs de golf, de amplitude een uitwijking dwars erop. En de deeltjes blijven waar ze zijn."
+          "uitleg": "\\(\\lambda\\) is een afstand langs de golf, \\(A\\) een uitwijking dwars erop. En de deeltjes blijven waar ze zijn."
         },
         {
           "type": "invultekst",
@@ -7532,19 +7532,19 @@
           "type": "meerkeuze",
           "vraag": "Hoe luidt de wet van Snellius?",
           "opties": [
-            "de sinus van i gedeeld door de sinus van r is n_r gedeeld door n_i",
-            "de sinus van i gedeeld door de sinus van r is n_i gedeeld door n_r",
-            "de sinus van i maal de sinus van r is n_i maal n_r",
-            "de hoek i gedeeld door de hoek r is n_r gedeeld door n_i"
+            "\\(\\dfrac{\\sin i}{\\sin r} = \\dfrac{n_{r}}{n_{i}}\\)",
+            "\\(\\dfrac{\\sin i}{\\sin r} = \\dfrac{n_{i}}{n_{r}}\\)",
+            "\\(\\sin i \\cdot \\sin r = n_{i}\\,n_{r}\\)",
+            "\\(\\dfrac{i}{r} = \\dfrac{n_{r}}{n_{i}}\\)"
           ],
           "antwoord": 0,
           "uitleg": "Let op welke brekingsindex boven staat. De wet geldt voor de sinussen van de hoeken, niet voor de hoeken zelf."
         },
         {
           "type": "waarofniet",
-          "vraag": "Een brekingsindex van 1,5 betekent dat licht in die stof 1,5 keer sneller gaat dan in vacuüm.",
+          "vraag": "Een brekingsindex van \\(1{,}5\\) betekent dat licht in die stof \\(1{,}5\\) keer sneller gaat dan in vacuüm.",
           "antwoord": false,
-          "uitleg": "Net 1,5 keer langzamer, want de brekingsindex is c gedeeld door de snelheid in de stof. Glas zit rond 1,5 en water rond 1,33."
+          "uitleg": "Net \\(1{,}5\\) keer langzamer, want \\(n = \\dfrac{c}{v}\\). Glas zit rond \\(1{,}5\\) en water rond \\(1{,}33\\)."
         },
         {
           "type": "waarofniet",
@@ -7683,7 +7683,7 @@
             "enkel de knopen onder elkaar"
           ],
           "antwoord": 0,
-          "uitleg": "Zij gaan samen omhoog en samen omlaag. Over een knoop heen is het faseverschil pi, dus tegenfase."
+          "uitleg": "Zij gaan samen omhoog en samen omlaag. Over een knoop heen is \\(\\Delta\\varphi = \\pi\\), dus tegenfase."
         },
         {
           "type": "waarofniet",

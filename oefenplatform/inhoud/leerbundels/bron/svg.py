@@ -8030,3 +8030,65 @@ def trillingsgrafiek(breedte=470):
              f'stroke-width="2.2" stroke-linejoin="round"/>')
 
     return _svg(cel_b * 2, cel_h, "\n".join(d))
+
+
+def golfbeeld(breedte=470):
+    r"""Een lopende golf en een staande golf naast elkaar.
+
+    Links staat de golflengte als pijl tussen twee toppen en de amplitude
+    als pijl vanaf de rustlijn. Rechts de staande golf: de twee uiterste
+    standen getekend, met de knopen als stip en de buiken ertussen.
+    """
+    import math
+    cel_b, cel_h = 234, 190
+    d = []
+
+    def paneel(px, tag, onder):
+        d.append(f'<rect x="{px+5}" y="4" width="{cel_b-10}" height="{cel_h-30}" rx="7" '
+                 f'fill="#ffffff" stroke="{BORDER}" stroke-width="1.2"/>')
+        mid = 94
+        ox, rechts = px + 20, px + cel_b - 16
+        d.append(f'<line x1="{ox}" y1="{mid}" x2="{rechts}" y2="{mid}" stroke="{BORDER}" '
+                 f'stroke-width="1.1" stroke-dasharray="4 4"/>')
+        d.append(_tekst(px + cel_b - 16, 20, tag, 8.5, DARK, "end", True))
+        d.append(_tekst(px + cel_b / 2, cel_h - 10, onder, 9, DIM, "middle"))
+        return ox, mid, rechts
+
+    # ── links: de lopende golf
+    ox, mid, rechts = paneel(0, "lopende golf", "λ tussen twee toppen")
+    amp = 34
+    d.append(_golf(ox, rechts, mid, amp, 2, FOREST))
+    span = rechts - ox
+    top1 = ox + span / 8
+    top2 = ox + 5 * span / 8
+    d.append(f'<line x1="{top1}" y1="{mid-amp-12}" x2="{top2}" y2="{mid-amp-12}" '
+             f'stroke="{AMBER}" stroke-width="1.6"/>')
+    d.append(_pijlkop(top1, mid - amp - 12, math.pi, AMBER, 4.0))
+    d.append(_pijlkop(top2, mid - amp - 12, 0.0, AMBER, 4.0))
+    d.append(_tekst((top1 + top2) / 2, mid - amp - 17, "λ", 10.5, AMBER, "middle", True))
+    dal = ox + 3 * span / 8
+    d.append(f'<line x1="{dal}" y1="{mid}" x2="{dal}" y2="{mid+amp}" stroke="{AMBER}" '
+             f'stroke-width="1.6"/>')
+    d.append(_pijlkop(dal, mid + amp, math.pi / 2, AMBER, 4.0))
+    d.append(_tekst(dal + 13, mid + amp / 2 + 4, "A", 10, AMBER, "middle", True))
+    d.append(_pijlkop(rechts - 2, mid + amp + 22, 0.0, FOREST, 5.0))
+    d.append(f'<line x1="{rechts-44}" y1="{mid+amp+22}" x2="{rechts-4}" y2="{mid+amp+22}" '
+             f'stroke="{FOREST}" stroke-width="1.6"/>')
+    d.append(_tekst(rechts - 58, mid + amp + 26, "v", 10, FOREST, "end", True))
+
+    # ── rechts: de staande golf
+    ox, mid, rechts = paneel(cel_b, "staande golf", "knopen blijven op hun plaats")
+    span = rechts - ox
+    for teken, stijl in ((1, ""), (-1, ' stroke-dasharray="5 4"')):
+        punten = []
+        for i in range(121):
+            x = ox + span * i / 120
+            punten.append(f"{x:.1f},{mid - teken * amp * math.sin(3 * math.pi * i / 120):.1f}")
+        d.append(f'<polyline points="{" ".join(punten)}" fill="none" stroke="{FOREST}" '
+                 f'stroke-width="2.2"{stijl}/>')
+    for i in range(4):
+        x = ox + span * i / 3
+        d.append(f'<circle cx="{x:.1f}" cy="{mid}" r="3.4" fill="{DARK}"/>')
+    d.append(_tekst(ox + span / 6, mid - amp - 10, "buik", 9, AMBER, "middle", True))
+    d.append(_tekst(rechts, mid + amp + 16, "knoop", 9, AMBER, "end", True))
+    return _svg(cel_b * 2, cel_h, "\n".join(d))

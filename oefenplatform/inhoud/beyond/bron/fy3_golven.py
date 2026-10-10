@@ -5,7 +5,7 @@ Deel 1 gaat over wat een golf is en wat ze wel en niet vervoert, over
 mechanische en elektromagnetische golven, over transversaal en longitudinaal,
 en over de grootheden van een lopende golf: amplitude, periode, frequentie,
 golflengte, golfgetal, pulsatie en golfsnelheid, met de golfvergelijking
-y(x,t) = A · sin(ω · t − k · x). Deel 2 gaat over de eigenschappen: het
+\(y(x,t) = A\sin(\omega t - k\,x)\). Deel 2 gaat over de eigenschappen: het
 principe van Huygens, weerkaatsing, breking met de wet van Snellius, buiging,
 interferentie met haar constructieve en destructieve plekken, en de staande
 golf met haar buiken en knopen.
@@ -92,68 +92,67 @@ DEEL1 = [
             "de afstand die de golf in één seconde aflegt",
         ],
         antwoord=0,
-        uitleg="Ze staat in meter en krijgt het symbool lambda. De afstand die de golf per "
-        "seconde aflegt, is haar snelheid.",
+        uitleg=r"Ze staat in meter en krijgt het symbool \(\lambda\). De afstand die de "
+        r"golf per seconde aflegt, is haar snelheid.",
     ),
     dict(
         type="meerkeuze",
         vraag="Hoe bereken je de snelheid van een golf?",
         opties=[
-            "de golflengte maal de frequentie",
-            "de golflengte gedeeld door de frequentie",
-            "de golflengte maal de periode",
-            "de frequentie gedeeld door de golflengte",
+            r"\(v = \lambda\,f\)",
+            r"\(v = \dfrac{\lambda}{f}\)",
+            r"\(v = \lambda\,T\)",
+            r"\(v = \dfrac{f}{\lambda}\)",
         ],
         antwoord=0,
-        uitleg="Je kan ook de golflengte door de periode delen, want dat is hetzelfde. In "
-        "één periode schuift de golf precies één golflengte op.",
+        uitleg=r"Je kan ook \(v = \dfrac{\lambda}{T}\) schrijven, want dat is hetzelfde. "
+        r"In één periode schuift de golf precies één golflengte op.",
     ),
     dict(
         type="meerkeuze",
-        vraag="Een golf heeft een golflengte van 2 m en een frequentie van 50 Hz. Hoe snel loopt ze?",
+        vraag=r"Een golf heeft \(\lambda = 2{,}0\) m en \(f = 50\) Hz. Hoe snel loopt ze?",
         opties=[
-            "100 m/s",
-            "25 m/s",
-            "52 m/s",
-            "0,04 m/s",
+            r"\(100\) m/s",
+            r"\(25\) m/s",
+            r"\(52\) m/s",
+            r"\(0{,}04\) m/s",
         ],
         antwoord=0,
-        uitleg="De snelheid is de golflengte maal de frequentie, dus 2 maal 50. Dat geeft "
-        "100 meter per seconde.",
+        uitleg=r"\(v = \lambda\,f = 2{,}0 \times 50 = 100\) m/s.",
     ),
     dict(
         type="meerkeuze",
         vraag="Wat is het golfgetal van een lopende golf?",
         opties=[
-            "twee pi gedeeld door de golflengte",
-            "twee pi gedeeld door de periode",
-            "de golflengte gedeeld door twee pi",
-            "het aantal golven dat per seconde langskomt",
+            r"\(k = \dfrac{2\pi}{\lambda}\)",
+            r"\(k = \dfrac{2\pi}{T}\)",
+            r"\(k = \dfrac{\lambda}{2\pi}\)",
+            r"het aantal golven per seconde",
         ],
         antwoord=0,
-        uitleg="Het staat in radiaal per meter en krijgt het symbool k. De pulsatie is het "
-        "tegenhangertje ervan, met de periode in de noemer.",
+        uitleg=r"Het staat in \(\text{rad/m}\) en krijgt het symbool \(k\). De pulsatie "
+        r"\(\omega = \dfrac{2\pi}{T}\) is het tegenhangertje ervan.",
     ),
     dict(
         type="meerkeuze",
         vraag="Hoe luidt de golfvergelijking van een rechtslopende golf?",
         opties=[
-            "y is A maal de sinus van ω maal t min k maal x",
-            "y is A maal de sinus van ω maal t plus k maal x",
-            "y is A maal de sinus van k maal x min ω maal t",
-            "y is A maal ω maal t min k maal x",
+            r"\(y = A\sin(\omega t - k\,x)\)",
+            r"\(y = A\sin(\omega t + k\,x)\)",
+            r"\(y = A\sin(k\,x - \omega t)\)",
+            r"\(y = A\,\omega\,t - k\,x\)",
         ],
         antwoord=0,
-        uitleg="Het minteken voor de x hoort bij een golf die naar rechts loopt. Een "
-        "plusteken geeft een linkslopende golf.",
+        uitleg=r"Het minteken voor de \(x\) hoort bij een golf die naar rechts loopt. Een "
+        r"plusteken geeft een linkslopende golf.",
     ),
     dict(
         type="meerkeuze",
         vraag="Welke gegevens lees je uit de golfvergelijking? Kruis alles aan wat juist is.",
         opties=[
             "de amplitude van de golf",
-            "de pulsatie en dus de periode",
-            "het golfgetal en dus de golflengte",
+            r"de pulsatie \(\omega\) en dus \(T\)",
+            r"het golfgetal \(k\) en dus \(\lambda\)",
             "de stof waar de golf door loopt",
         ],
         antwoord=[0, 1, 2],
@@ -169,16 +168,16 @@ DEEL1 = [
     ),
     dict(
         type="meerkeuze",
-        vraag="Een bron trilt al 3 s en een deeltje ligt 10 m verder. De golf loopt 5 m/s. Hoelang trilt dat deeltje al?",
+        vraag=r"Een bron trilt al \(3{,}0\) s en een deeltje ligt \(10\) m verder. De golf loopt \(5{,}0\) m/s. Hoelang trilt dat deeltje al?",
         opties=[
-            "1 s",
-            "2 s",
-            "3 s",
-            "5 s",
+            r"\(1{,}0\) s",
+            r"\(2{,}0\) s",
+            r"\(3{,}0\) s",
+            r"\(5{,}0\) s",
         ],
         antwoord=0,
-        uitleg="De golf doet 10 gedeeld door 5, dus 2 seconden over die afstand. Het deeltje "
-        "trilt dus 3 min 2 is 1 seconde.",
+        uitleg=r"De golf doet \(\dfrac{10}{5{,}0} = 2{,}0\) s over die afstand, dus trilt "
+        r"het deeltje \(3{,}0 - 2{,}0 = 1{,}0\) s.",
     ),
     dict(
         type="meerkeuze",
@@ -210,8 +209,8 @@ DEEL1 = [
             "van de afstand tot de bron",
         ],
         antwoord=0,
-        uitleg="Verhoog je de frequentie, dan krimpt de golflengte en blijft de snelheid "
-        "gelijk. In water loopt geluid veel sneller dan in lucht.",
+        uitleg=r"Verhoog je \(f\), dan krimpt \(\lambda\) en blijft \(v\) gelijk. In "
+        r"water loopt geluid veel sneller dan in lucht.",
     ),
     dict(
         type="waarofniet",
@@ -227,11 +226,11 @@ DEEL1 = [
             "de golf vervoert energie zonder materie mee te nemen",
             "de deeltjes trillen rond hun eigen evenwichtsstand",
             "de deeltjes schuiven met de golf mee naar voren",
-            "de golflengte is gelijk aan de amplitude",
+            r"\(\lambda\) is gelijk aan \(A\)",
         ],
         antwoord=[0, 1],
-        uitleg="De golflengte is een afstand langs de golf, de amplitude een uitwijking "
-        "dwars erop. En de deeltjes blijven waar ze zijn.",
+        uitleg=r"\(\lambda\) is een afstand langs de golf, \(A\) een uitwijking dwars "
+        r"erop. En de deeltjes blijven waar ze zijn.",
     ),
     dict(
         type="invultekst",
@@ -280,21 +279,21 @@ DEEL2 = [
         type="meerkeuze",
         vraag="Hoe luidt de wet van Snellius?",
         opties=[
-            "de sinus van i gedeeld door de sinus van r is n_r gedeeld door n_i",
-            "de sinus van i gedeeld door de sinus van r is n_i gedeeld door n_r",
-            "de sinus van i maal de sinus van r is n_i maal n_r",
-            "de hoek i gedeeld door de hoek r is n_r gedeeld door n_i",
+            r"\(\dfrac{\sin i}{\sin r} = \dfrac{n_{r}}{n_{i}}\)",
+            r"\(\dfrac{\sin i}{\sin r} = \dfrac{n_{i}}{n_{r}}\)",
+            r"\(\sin i \cdot \sin r = n_{i}\,n_{r}\)",
+            r"\(\dfrac{i}{r} = \dfrac{n_{r}}{n_{i}}\)",
         ],
         antwoord=0,
-        uitleg="Let op welke brekingsindex boven staat. De wet geldt voor de sinussen van de "
-        "hoeken, niet voor de hoeken zelf.",
+        uitleg=r"Let op welke brekingsindex boven staat. De wet geldt voor de sinussen van "
+        r"de hoeken, niet voor de hoeken zelf.",
     ),
     dict(
         type="waarofniet",
-        vraag="Een brekingsindex van 1,5 betekent dat licht in die stof 1,5 keer sneller gaat dan in vacuüm.",
+        vraag=r"Een brekingsindex van \(1{,}5\) betekent dat licht in die stof \(1{,}5\) keer sneller gaat dan in vacuüm.",
         antwoord=False,
-        uitleg="Net 1,5 keer langzamer, want de brekingsindex is c gedeeld door de snelheid "
-        "in de stof. Glas zit rond 1,5 en water rond 1,33.",
+        uitleg=r"Net \(1{,}5\) keer langzamer, want \(n = \dfrac{c}{v}\). Glas zit rond "
+        r"\(1{,}5\) en water rond \(1{,}33\).",
     ),
     dict(
         type="waarofniet",
@@ -425,8 +424,8 @@ DEEL2 = [
             "enkel de knopen onder elkaar",
         ],
         antwoord=0,
-        uitleg="Zij gaan samen omhoog en samen omlaag. Over een knoop heen is het "
-        "faseverschil pi, dus tegenfase.",
+        uitleg=r"Zij gaan samen omhoog en samen omlaag. Over een knoop heen is "
+        r"\(\Delta\varphi = \pi\), dus tegenfase.",
     ),
     dict(
         type="waarofniet",
