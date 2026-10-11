@@ -1317,60 +1317,135 @@ zet("de-tweedegraadsfunctie-en-haar-parabool",
     titel="De tweedegraadsfunctie en haar parabool",
     reeksen=[
         dict(kop="De vorm van de parabool",
-             opdracht="Vul aan voor f(x) = ax² + bx + c.",
+             opdracht="Vul aan voor \\(f(x) = ax^{2} + bx + c\\).",
              oefeningen=[
-                 ("rij", [("a &gt; 0", "dalparabool, opent naar boven"),
-                          ("a &lt; 0", "bergparabool, opent naar beneden"),
-                          ("de x van de top", "−b / (2a)"),
-                          ("het snijpunt met de y-as", "(0, c)"),
-                          ("D &gt; 0", "twee snijpunten met de x-as"),
-                          ("D &lt; 0", "geen snijpunt met de x-as")],
+                 ("rij", [("\\(a > 0\\)", "dalparabool, opent naar boven"),
+                          ("\\(a < 0\\)", "bergparabool, opent naar beneden"),
+                          ("de \\(x\\) van de top", "\\(\\frac{-b}{2a}\\)"),
+                          ("het snijpunt met de \\(y\\)-as", "\\((0, c)\\)")],
                   "Vul aan.", WL),
+             ]),
+        dict(kop="Wat de discriminant zegt",
+             opdracht="Vul aan voor \\(f(x) = ax^{2} + bx + c\\).",
+             oefeningen=[
+                 ("rij", [("\\(D > 0\\)", "twee snijpunten met de \\(x\\)-as"),
+                          ("\\(D = 0\\)", "\u00e9\u00e9n snijpunt, de top raakt de as"),
+                          ("\\(D < 0\\)", "geen snijpunt met de \\(x\\)-as")],
+                  "Vul aan.", WL),
+             ]),
+        dict(kop="Waarom de symmetrieas?",
+             opdracht="Schrijf je antwoord in een volle zin.",
+             oefeningen=[
                  ("open", "Waarom ligt de top altijd op de symmetrieas?",
-                  "De parabool is symmetrisch om de verticale rechte x = −b/(2a); de top is het "
-                  "enige punt dat op die as ligt en dus het laagste of hoogste punt.", 3),
+                  "Ze is symmetrisch om de verticale rechte \\(x = \\frac{-b}{2a}\\), en de top is het "
+                  "enige punt dat op die as ligt.", 3),
+                 ("open", "Twee punten van een parabool hebben dezelfde \\(y\\)-waarde: "
+                          "\\((1, 8)\\) en \\((7, 8)\\). Waar ligt de symmetrieas?",
+                  "In het midden: \\(x = \\frac{1 + 7}{2} = 4\\). Twee punten op dezelfde hoogte "
+                  "liggen spiegelgelijk rond de as.", 3),
              ]),
         dict(kop="Toppen en nulpunten",
              opdracht="Bereken de top en de nulpunten.",
              oefeningen=[
                  ("tabel", ["functie", "top", "nulpunten"],
-                  [["f(x) = x² − 4x + 3", None, None],
-                   ["f(x) = −x² + 6x − 5", None, None],
-                   ["f(x) = x² + 2x + 5", None, None],
-                   ["f(x) = x² − 9", None, None]],
-                  "x²−4x+3: top (2, −1), nulpunten 1 en 3 · −x²+6x−5: top (3, 4), "
-                  "nulpunten 1 en 5 · x²+2x+5: top (−1, 4), geen nulpunten · "
-                  "x²−9: top (0, −9), nulpunten −3 en 3", "150px"),
-                 ("teken", "Schets de parabool van f(x) = x² − 4x + 3: zet de top, de "
-                           "nulpunten en het snijpunt met de y-as erop.",
-                  "Een dalparabool met top (2, −1), nulpunten (1, 0) en (3, 0), en (0, 3) op "
-                  "de y-as.", 65),
+                  [["\\(f(x) = x^{2} - 4x + 3\\)", None, None],
+                   ["\\(f(x) = -x^{2} + 6x - 5\\)", None, None],
+                   ["\\(f(x) = x^{2} + 2x + 5\\)", None, None],
+                   ["\\(f(x) = x^{2} - 9\\)", None, None]],
+                  "Top en nulpunten: \\((2, -1)\\) met \\(1\\) en \\(3\\) \u00b7 "
+                  "\\((3, 4)\\) met \\(1\\) en \\(5\\) \u00b7 \\((-1, 4)\\) zonder "
+                  "nulpunten \u00b7 \\((0, -9)\\) met \\(-3\\) en \\(3\\)", "150px"),
+             ]),
+        dict(kop="De parabool schetsen",
+             opdracht="Zet de drie punten er eerst op, dan pas de kromme.",
+             oefeningen=[
+                 ("teken", "Schets de parabool van \\(f(x) = x^{2} - 4x + 3\\): zet de top, de "
+                           "nulpunten en het snijpunt met de \\(y\\)-as erop.",
+                  "Een dalparabool met top \\((2, -1)\\), nulpunten \\((1, 0)\\) en \\((3, 0)\\), en "
+                  "\\((0, 3)\\) op de \\(y\\)-as.", 65),
+             ]),
+        dict(kop="Van topvorm naar top",
+             opdracht="Lees de top af zonder te rekenen.",
+             oefeningen=[
+                 ("rij", [("\\(f(x) = (x - 4)^{2} + 1\\)", "\\((4, 1)\\)"),
+                          ("\\(f(x) = (x + 1)^{2} - 2\\)", "\\((-1, -2)\\)"),
+                          ("\\(f(x) = -2(x - 3)^{2}\\)", "\\((3, 0)\\)"),
+                          ("\\(f(x) = x^{2} + 5\\)", "\\((0, 5)\\)")],
+                  "De top", WW),
+             ]),
+        dict(kop="Van gewone vorm naar topvorm",
+             opdracht="Bereken eerst de top, schrijf dan de topvorm op.",
+             oefeningen=[
+                 ("open", "Schrijf \\(f(x) = x^{2} - 6x + 11\\) in topvorm.",
+                  "Top-\\(x\\): \\(\\frac{6}{2} = 3\\); \\(f(3) = 9 - 18 + 11 = 2\\). Dus "
+                  "\\(f(x) = (x - 3)^{2} + 2\\).", 4),
+                 ("open", "Schrijf \\(f(x) = x^{2} + 4x + 1\\) in topvorm.",
+                  "Top-\\(x\\): \\(\\frac{-4}{2} = -2\\); \\(f(-2) = 4 - 8 + 1 = -3\\). Dus "
+                  "\\(f(x) = (x + 2)^{2} - 3\\).", 4),
+             ]),
+        dict(kop="De verschuivingen herkennen",
+             opdracht="Vertrek telkens van de basisparabool \\(y = x^{2}\\).",
+             oefeningen=[
+                 ("rij", [("\\(y = x^{2} - 5\\)", "\\(5\\) omlaag"),
+                          ("\\(y = (x + 3)^{2}\\)", "\\(3\\) naar links"),
+                          ("\\(y = -x^{2}\\)", "gespiegeld om de \\(x\\)-as"),
+                          ("\\(y = 4x^{2}\\)", "smaller, steiler")],
+                  "Wat verandert er?", WL),
+                 ("waar", "De factor \\(a\\) verschuift de top van \\(y = ax^{2}\\).", False),
+             ]),
+        dict(kop="Opening en extremum",
+             opdracht="Kruis aan of antwoord kort.",
+             oefeningen=[
+                 ("kies", "Welke functie heeft een maximum?",
+                  ["\\(f(x) = 2x^{2} - 7\\)", "\\(f(x) = -3x^{2} + 1\\)",
+                   "\\(f(x) = x^{2} + 4x\\)"], 1),
+                 ("rij", [("\\(f(x) = x^{2} - 4x + 3\\)", "minimum \\(-1\\)"),
+                          ("\\(f(x) = -x^{2} + 6x - 5\\)", "maximum \\(4\\)")],
+                  "Minimum of maximum, en welke waarde?", WL),
              ]),
         dict(kop="Teken van de functie",
-             opdracht="Bij f(x) = x² − 4x + 3.",
+             opdracht="Bij \\(f(x) = x^{2} - 4x + 3\\).",
              oefeningen=[
-                 ("open", "Voor welke x is f(x) &lt; 0?",
-                  "Tussen de nulpunten: voor x in ]1, 3[.", 2),
-                 ("open", "Voor welke x is f(x) &gt; 0?",
-                  "Buiten de nulpunten: voor x in ]−∞, 1[ ∪ ]3, +∞[.", 2),
-                 ("open", "Wat is de kleinste waarde die f kan aannemen, en bij welke x?",
-                  "De y-waarde van de top: −1, bij x = 2.", 2),
+                 ("open", "Voor welke \\(x\\) is \\(f(x) < 0\\)?",
+                  "Tussen de nulpunten: voor \\(x \\in \\left]1, 3\\right[\\).", 2),
+                 ("open", "Voor welke \\(x\\) is \\(f(x) > 0\\)?",
+                  "Buiten de nulpunten: voor \\(x \\in \\left]-\\infty, 1\\right[ \\cup "
+                  "\\left]3, +\\infty\\right[\\).", 2),
+                 ("open", "Wat is de kleinste waarde die \\(f\\) kan aannemen, en bij welke \\(x\\)?",
+                  "De \\(y\\)-waarde van de top: \\(-1\\), bij \\(x = 2\\).", 2),
              ]),
-        dict(kop="Een vraagstuk",
-             opdracht="Werk uit.",
+        dict(kop="Stijgen en dalen",
+             opdracht="Antwoord met een interval.",
              oefeningen=[
-                 ("open", "Een bal wordt omhoog geschoten. De hoogte is h(t) = −5t² + 20t. Na "
-                          "hoeveel seconden is hij het hoogst, en hoe hoog komt hij?",
-                  "t van de top: −20 / (2 · −5) = 2 seconden. h(2) = −20 + 40 = 20 meter.", 4),
+                 ("open", "Waar daalt \\(f(x) = x^{2} - 4x + 3\\), en waar stijgt ze?",
+                  "Dalend op \\(\\left]-\\infty, 2\\right]\\), stijgend op "
+                  "\\(\\left[2, +\\infty\\right[\\).", 3),
+                 ("waar", "Een parabool die naar onder opent, stijgt links van haar top.", True),
+             ]),
+        dict(kop="Een bal omhoog",
+             opdracht="De hoogte in meter na \\(t\\) seconden is \\(h(t) = -5t^{2} + 20t\\).",
+             oefeningen=[
+                 ("open", "Na hoeveel seconden is de bal het hoogst, en hoe hoog komt hij?",
+                  "De \\(t\\) van de top is \\(\\frac{-20}{2 \\cdot (-5)} = 2\\) seconden. "
+                  "\\(h(2) = -20 + 40 = 20\\) meter.", 4),
                  ("open", "Wanneer raakt de bal weer de grond?",
-                  "−5t² + 20t = 0 geeft −5t(t − 4) = 0, dus t = 0 of t = 4. Hij valt na "
-                  "4 seconden.", 3),
-                 ("open", "Een boer heeft 40 m draad voor een rechthoekige weide tegen een "
-                          "muur, dus hij omheint maar drie zijden. Welke afmetingen geven de "
-                          "grootste oppervlakte?",
-                  "Noem de twee zijden loodrecht op de muur x. Dan is de derde zijde 40 − 2x en "
-                  "de oppervlakte A = x(40 − 2x) = −2x² + 40x. De top ligt bij "
-                  "x = −40 / (2 · −2) = 10. De weide is dus 10 bij 20 m, met 200 m².", 6),
+                  "\\(-5t^{2} + 20t = 0\\) geeft \\(-5t(t - 4) = 0\\), dus \\(t = 0\\) of "
+                  "\\(t = 4\\). Hij valt na \\(4\\) seconden.", 3),
+             ]),
+        dict(kop="De weide van de boer",
+             opdracht="Werk uit met een tweedegraadsfunctie.",
+             oefeningen=[
+                 ("open", "Een boer heeft \\(40\\) meter draad voor een rechthoekige weide tegen een "
+                          "muur, dus hij omheint maar drie zijden. Welke afmetingen geven de grootste "
+                          "oppervlakte?",
+                  "Noem de zijden loodrecht op de muur \\(x\\). De derde zijde is \\(40 - 2x\\) en "
+                  "\\(A = x(40 - 2x) = -2x^{2} + 40x\\), met top bij \\(x = 10\\). Dus \\(10\\) "
+                  "bij \\(20\\) meter, met \\(200\\) vierkante meter.", 6),
+                 ("open", "Dezelfde boer zet nu een weide midden in de wei, dus met vier zijden "
+                          "omheind. Welke afmetingen geven dan de grootste oppervlakte?",
+                  "Nu is \\(2x + 2y = 40\\), dus \\(y = 20 - x\\) en "
+                  "\\(A = x(20 - x) = -x^{2} + 20x\\). De top ligt bij \\(x = 10\\), dus een "
+                  "vierkant van \\(10\\) bij \\(10\\) meter, met \\(100\\) vierkante meter.", 5),
              ]),
     ])
 

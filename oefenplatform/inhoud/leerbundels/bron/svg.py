@@ -10515,3 +10515,98 @@ def verticalelijntest(breedte=470):
         d.append(_tekst(x0 + vak / 2, y0 - 10, titel, 11, DARK, "middle", True))
         d.append(_tekst(x0 + vak / 2, y0 + hoog + 18, onder, 9.5, DIM, "middle"))
     return _svg(breedte, h, "\n".join(d))
+
+
+def paraboolverschuiving(breedte=470):
+    r"""Twee keer de basisparabool in stippellijn, met ernaast de verschoven parabool."""
+    h = 236
+    vak = (breedte - 42) / 2
+    d = [f'<rect x="5" y="4" width="{breedte-10}" height="{h-26}" rx="7" '
+         f'fill="{PAPER}" stroke="{BORDER}" stroke-width="1.2"/>']
+    u = 22.0
+    oy = 176.0
+
+    for k, (titel, ox_schuif, vx, vy, label) in enumerate([
+            ("omhoog", 0.0, 0.0, 3.0, "y = x\u00b2 + 3"),
+            ("naar rechts", -32.0, 2.0, 0.0, "y = (x \u2212 2)\u00b2")]):
+        links = 16 + k * (vak + 10)
+        ox = links + vak / 2 + ox_schuif
+
+        def px(x, ox=ox):
+            return ox + x * u
+
+        def py(y):
+            return oy - y * u
+
+        d.append(_tekst(links + vak / 2, 36, titel, 10.5, DIM, "middle", True))
+        d.append(f'<line x1="{px(-2.4)}" y1="{py(0)}" x2="{px(4.5) if vx else px(2.4)}" '
+                 f'y2="{py(0)}" stroke="{INK}" stroke-width="1.3"/>')
+        d.append(f'<line x1="{px(0)}" y1="{py(-0.4)}" x2="{px(0)}" y2="{py(5.5)}" '
+                 f'stroke="{INK}" stroke-width="1.3"/>')
+
+        basis, nieuw = [], []
+        x = -2.35
+        while x <= 4.45:
+            if abs(x) <= 2.35 and x * x <= 5.3:
+                basis.append(f"{px(x):.1f},{py(x * x):.1f}")
+            y2 = (x - vx) ** 2 + vy
+            if -2.4 <= x <= 4.5 and y2 <= 5.3:
+                nieuw.append(f"{px(x):.1f},{py(y2):.1f}")
+            x += 0.05
+        d.append(f'<polyline points="{" ".join(basis)}" fill="none" stroke="{DIM}" '
+                 f'stroke-width="1.8" stroke-dasharray="4 4"/>')
+        d.append(f'<polyline points="{" ".join(nieuw)}" fill="none" stroke="{DARK}" '
+                 f'stroke-width="2.6"/>')
+        d.append(f'<circle cx="{px(vx)}" cy="{py(vy)}" r="4.2" fill="{AMBER}"/>')
+        d.append(_tekst(links + vak / 2, oy + 32, label, 10.5, AMBER, "middle", True))
+    return _svg(breedte, h, "\n".join(d))
+
+
+def paraboolteken(breedte=470):
+    r"""Links de parabool y = x\u00b2 \u2212 4, rechts dezelfde tekens op een getallenlijn."""
+    h = 216
+    d = [f'<rect x="5" y="4" width="{breedte-10}" height="{h-26}" rx="7" '
+         f'fill="{PAPER}" stroke="{BORDER}" stroke-width="1.2"/>']
+    u = 16.0
+    ox, oy = 116.0, 112.0
+
+    def px(x):
+        return ox + x * u
+
+    def py(y):
+        return oy - y * u
+
+    d.append(_tekst(px(-3.5), 36, "y = x\u00b2 \u2212 4", 10.5, DIM, "start", True))
+    d.append(f'<line x1="{px(-3.5)}" y1="{py(0)}" x2="{px(3.5)}" y2="{py(0)}" '
+             f'stroke="{INK}" stroke-width="1.3"/>')
+    d.append(f'<line x1="{px(0)}" y1="{py(-4.6)}" x2="{px(0)}" y2="{py(5.2)}" '
+             f'stroke="{INK}" stroke-width="1.3"/>')
+    punten = []
+    x = -3.02
+    while x <= 3.03:
+        punten.append(f"{px(x):.1f},{py(x * x - 4):.1f}")
+        x += 0.05
+    d.append(f'<polyline points="{" ".join(punten)}" fill="none" stroke="{DARK}" '
+             f'stroke-width="2.6"/>')
+    for x0, dx, anker in ((-2, -9, "end"), (2, 9, "start")):
+        d.append(f'<circle cx="{px(x0)}" cy="{py(0)}" r="4.2" fill="{AMBER}"/>')
+        d.append(_tekst(px(x0) + dx, py(0) - 7, str(x0).replace("-", "\u2212"), 9.5, AMBER, anker, True))
+    d.append(f'<circle cx="{px(0)}" cy="{py(-4)}" r="4.2" fill="{AMBER}"/>')
+    d.append(_tekst(px(0) + 10, py(-4) + 4, "top (0, \u22124)", 9.5, AMBER, "start", True))
+
+    # dezelfde tekens, maar kort op een getallenlijn
+    ly = 112.0
+    la, lb = 256.0, 446.0
+    ma, mb = 307.0, 395.0
+    d.append(_tekst((la + lb) / 2, 36, "het teken van f(x)", 10.5, DIM, "middle", True))
+    d.append(f'<line x1="{la}" y1="{ly}" x2="{lb}" y2="{ly}" stroke="{INK}" stroke-width="1.3"/>')
+    for mx, lab in ((ma, "\u22122"), (mb, "2")):
+        d.append(f'<line x1="{mx}" y1="{ly-7}" x2="{mx}" y2="{ly+7}" stroke="{AMBER}" stroke-width="2"/>')
+        d.append(_tekst(mx, ly + 21, lab, 9.5, AMBER, "middle", True))
+    for mx, teken, kleur in (((la + ma) / 2, "+", FOREST), ((ma + mb) / 2, "\u2212", AMBER),
+                             ((mb + lb) / 2, "+", FOREST)):
+        d.append(_tekst(mx, ly - 13, teken, 16, kleur, "middle", True))
+    for mx, woord in (((la + ma) / 2, "boven de as"), ((ma + mb) / 2, "onder de as"),
+                      ((mb + lb) / 2, "boven de as")):
+        d.append(_tekst(mx, ly + 42, woord, 8.5, DIM, "middle"))
+    return _svg(breedte, h, "\n".join(d))

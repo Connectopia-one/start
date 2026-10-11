@@ -1173,64 +1173,88 @@ zet("de-tweedegraadsfunctie-en-haar-parabool",
     onder="De parabool met haar top en symmetrieas, wat je uit het voorschrift leest, de topvorm en de verschuivingen, en het onderzoek van de functie.",
     secties=[
         dict(kop="De parabool", blokken=[
-            ("p", "Het voorschrift is <strong>f(x) = ax² + bx + c</strong>, met a niet nul, en de grafiek "
-                  "heet <strong>een parabool</strong>. Ze ligt spiegelgelijk rond haar "
-                  "<strong>symmetrieas</strong>, de verticale rechte door de top; <strong>de top ligt dus "
-                  "altijd op de symmetrieas</strong>."),
-            ("p", "<strong>De top is het hoogste of het laagste punt.</strong> <strong>Bij een positieve a "
-                  "opent de parabool naar boven</strong> en is de top het laagste punt; <strong>bij een "
-                  "negatieve a is de top juist het hoogste punt</strong>."),
-            ("kader", tabel(["wat je zoekt", "waar je het leest", "voorbeeld"],
-                            [["<strong>de opening</strong>", "<strong>het teken van a</strong>", "bij min x² + 4 opent ze naar onder"],
-                             ["<strong>het snijpunt met de y-as</strong>", "<strong>de waarde van c</strong>, want f(0) = c",
-                              "<strong>2x² − 8 snijdt de y-as in (0, min 8)</strong>"],
-                             ["<strong>de x-waarde van de top</strong>", "<strong>min b gedeeld door 2a</strong> (die formule staat in het formularium)",
-                              "<strong>x² − 4x + 3 heeft top-x 2</strong>; <strong>x² − 6x heeft top-x 3</strong>"],
-                             ["<strong>de y-waarde van de top</strong>", "die top-x invullen",
-                              "<strong>f(2) = 4 − 8 + 3 = min 1, dus de top is (2, min 1)</strong>"],
-                             ["<strong>de nulwaarden</strong>", "<strong>f(x) gelijk aan nul stellen</strong> en de vergelijking oplossen", "de snijpunten met de x-as"]])),
-            ("p", "<strong>De top van f(x) = x² ligt in (0, 0)</strong>, de eenvoudigste parabool van "
-                  "allemaal."),
-            ("p", "<strong>Een parabool heeft niet altijd twee snijpunten met de x-as</strong>: dat hangt van "
-                  "de discriminant af, dus twee, één of geen. <strong>Ligt de top op de x-as, dan is er "
-                  "precies één nulwaarde</strong> en is de discriminant nul. En <strong>f(x) = x² + 2 heeft "
-                  "er geen</strong>: haar top ligt in (0, 2) en ze opent naar boven, dus ze blijft boven de "
-                  "x-as."),
-            ("p", "Uit <strong>f(x) = min x² + 4</strong> lees je in één keer: <strong>de parabool opent naar "
-                  "onder</strong>, <strong>de top ligt in (0, 4)</strong> en <strong>er zijn twee "
-                  "nulwaarden</strong>, namelijk 2 en min 2."),
+            ("p", r"Het voorschrift is <strong>\(f(x) = ax^{2} + bx + c\)</strong>, met \(a \neq 0\), en de "
+                  r"grafiek heet <strong>een parabool</strong>. Ze ligt spiegelgelijk rond haar "
+                  r"<strong>symmetrieas</strong>, de verticale rechte door de top; <strong>de top ligt dus "
+                  r"altijd op de symmetrieas</strong>."),
+            ("p", r"<strong>De top is het hoogste of het laagste punt.</strong> <strong>Bij \(a > 0\) "
+                  r"opent de parabool naar boven</strong> en is de top het laagste punt; <strong>bij "
+                  r"\(a < 0\) is de top juist het hoogste punt</strong>."),
+            ("fig", svg.paraboolgrafiek(),
+             "De parabool \\(y = x^{2} - 4x + 3\\): twee nulwaarden, de top en de symmetrieas."),
         ]),
-        dict(kop="De topvorm en de verschuivingen", blokken=[
-            ("p", "<strong>In de topvorm a(x − p)² + q is de top het punt (p, q).</strong> Daarom is die vorm "
-                  "zo handig: je leest de top zonder te rekenen. <strong>De top van (x − 4)² + 1 is "
-                  "(4, 1)</strong>, en <strong>x² − 4x + 3 wordt in topvorm (x − 2)² − 1</strong>."),
+        dict(kop="Welke kenmerken je uit het voorschrift leest", blokken=[
+            ("kader", tabel(["wat je zoekt", "waar je het leest", "voorbeeld"],
+                            [[r"<strong>de opening</strong>", r"<strong>het teken van \(a\)</strong>", r"bij \(-x^{2} + 4\) opent ze naar onder"],
+                             [r"<strong>het snijpunt met de \(y\)-as</strong>", r"<strong>de waarde van \(c\)</strong>, want \(f(0) = c\)",
+                              r"<strong>\(2x^{2} - 8\) snijdt de \(y\)-as in \((0, -8)\)</strong>"],
+                             [r"<strong>de \(x\)-waarde van de top</strong>", r"<strong>\(\frac{-b}{2a}\)</strong> (die formule staat in het formularium)",
+                              r"<strong>\(x^{2} - 4x + 3\) heeft top-\(x\) \(2\)</strong>; <strong>\(x^{2} - 6x\) heeft top-\(x\) \(3\)</strong>"]])),
+        ]),
+        dict(kop="De top en de nulwaarden berekenen", blokken=[
+            ("kader", tabel(["wat je zoekt", "waar je het leest", "voorbeeld"],
+                            [[r"<strong>de \(y\)-waarde van de top</strong>", r"die top-\(x\) invullen",
+                              r"<strong>\(f(2) = 4 - 8 + 3 = -1\), dus de top is \((2, -1)\)</strong>"],
+                             [r"<strong>de nulwaarden</strong>", r"<strong>\(f(x) = 0\) stellen</strong> en de vergelijking oplossen", r"de snijpunten met de \(x\)-as"]])),
+            ("p", r"<strong>De top van \(f(x) = x^{2}\) ligt in \((0, 0)\)</strong>, de eenvoudigste "
+                  r"parabool van allemaal."),
+        ]),
+        dict(kop="Twee, één of geen nulwaarde", blokken=[
+            ("p", r"<strong>Een parabool heeft niet altijd twee snijpunten met de \(x\)-as</strong>: dat "
+                  r"hangt van de discriminant \(D\) af, dus twee, één of geen. <strong>Ligt de top "
+                  r"op de \(x\)-as, dan is er precies één nulwaarde</strong> en is de discriminant "
+                  r"nul. En <strong>\(f(x) = x^{2} + 2\) heeft er geen</strong>: haar top ligt in "
+                  r"\((0, 2)\) en ze opent naar boven, dus ze blijft boven de \(x\)-as."),
+            ("p", r"Uit <strong>\(f(x) = -x^{2} + 4\)</strong> lees je in één keer: <strong>de "
+                  r"parabool opent naar onder</strong>, <strong>de top ligt in \((0, 4)\)</strong> en "
+                  r"<strong>er zijn twee nulwaarden</strong>, namelijk \(2\) en \(-2\)."),
+            ("weetje", r"De parabool is de baan van alles wat je weggooit. Een bal, een pijl, een "
+                       r"waterstraal uit een fontein: de zwaartekracht trekt even hard aan het begin "
+                       r"als op het einde, en die gelijkmatige kromming is precies een parabool."),
+        ]),
+        dict(kop="De topvorm", blokken=[
+            ("p", r"<strong>In de topvorm \(a(x - p)^{2} + q\) is de top het punt \((p, q)\).</strong> "
+                  r"Daarom is die vorm zo handig: je leest de top zonder te rekenen. <strong>De top van "
+                  r"\((x - 4)^{2} + 1\) is \((4, 1)\)</strong>, en <strong>\(x^{2} - 4x + 3\) wordt in "
+                  r"topvorm \((x - 2)^{2} - 1\)</strong>."),
+            ("p", r"Uit <strong>\(f(x) = (x + 1)^{2} - 2\)</strong> lees je dus: <strong>\(1\) naar "
+                  r"links</strong>, <strong>\(2\) omlaag</strong>, en <strong>de top ligt in "
+                  r"\((-1, -2)\)</strong>."),
+        ]),
+        dict(kop="De verschuivingen", blokken=[
             ("kader", tabel(["wat je verandert", "wat er met de basisparabool gebeurt"],
-                            [["<strong>x² + 3</strong>", "<strong>ze schuift 3 omhoog</strong>: een getal buiten het kwadraat verschuift verticaal"],
-                             ["<strong>(x − 2)²</strong>", "<strong>ze schuift 2 naar rechts</strong>; dat voelt omgekeerd aan, maar de top ligt in x = 2"],
-                             ["<strong>min x²</strong>", "<strong>ze spiegelt om de x-as</strong>: elke y-waarde keert om, dus ze opent naar onder"],
-                             ["<strong>a × x² met a groter dan 1</strong>", "<strong>de parabool wordt smaller</strong>, dus steiler"],
-                             ["<strong>a tussen 0 en 1</strong>", "<strong>ze wordt breder</strong>, dus vlakker"]])),
-            ("p", "Uit <strong>f(x) = (x + 1)² − 2</strong> lees je dus: <strong>één naar links</strong>, "
-                  "<strong>twee omlaag</strong>, en <strong>de top ligt in (min 1, min 2)</strong>."),
-            ("p", "Twee dingen die je niet mag verwarren. <strong>De factor a verandert de plaats van de top "
-                  "niet</strong>: bij f(x) = a × x² blijft de top in de oorsprong, alleen de breedte "
-                  "verandert. En <strong>een verschuiving naar boven laat de nulwaarden niet "
-                  "onveranderd</strong>: de grafiek komt hoger te liggen, dus de snijpunten met de x-as "
-                  "verschuiven of verdwijnen. <strong>Bij een verschuiving naar rechts veranderen wél niet: "
-                  "de vorm</strong>, <strong>de breedte</strong> en <strong>de richting van de "
-                  "opening</strong> — alleen de plaats van de top verandert."),
+                            [[r"<strong>\(x^{2} + 3\)</strong>", r"<strong>ze schuift \(3\) omhoog</strong>: een getal buiten het kwadraat verschuift verticaal"],
+                             [r"<strong>\((x - 2)^{2}\)</strong>", r"<strong>ze schuift \(2\) naar rechts</strong>; dat voelt omgekeerd aan, maar de top ligt in \(x = 2\)"],
+                             [r"<strong>het minteken in \(-x^{2}\)</strong>", r"<strong>ze spiegelt om de \(x\)-as</strong>: elke \(y\)-waarde keert om, dus ze opent naar onder"],
+                             [r"<strong>\(ax^{2}\) met \(a > 1\)</strong>", r"<strong>de parabool wordt smaller</strong>, dus steiler"],
+                             [r"<strong>\(0 < a < 1\)</strong>", r"<strong>ze wordt breder</strong>, dus vlakker"]])),
+            ("fig", svg.paraboolverschuiving(),
+             "In stippellijn de basisparabool \\(y = x^{2}\\), in het volle groen de verschoven parabool."),
+        ]),
+        dict(kop="Twee dingen die je niet mag verwarren", blokken=[
+            ("p", r"<strong>De factor \(a\) verandert de plaats van de top niet</strong>: bij "
+                  r"\(f(x) = ax^{2}\) blijft de top in de oorsprong, alleen de breedte verandert. En "
+                  r"<strong>een verschuiving naar boven laat de nulwaarden niet onveranderd</strong>: de "
+                  r"grafiek komt hoger te liggen, dus de snijpunten met de \(x\)-as verschuiven of "
+                  r"verdwijnen. <strong>Bij een verschuiving naar rechts veranderen wél niet: de "
+                  r"vorm</strong>, <strong>de breedte</strong> en <strong>de richting van de "
+                  r"opening</strong> — alleen de plaats van de top verandert."),
         ]),
         dict(kop="De functie onderzoeken", blokken=[
-            ("p", "Bij een functieonderzoek ga je na: <strong>de nulwaarden</strong>, <strong>waar de functie "
-                  "stijgt en daalt</strong>, <strong>het extremum</strong> en het teken. Een grafiek heeft "
-                  "geen lengte, dus die hoort er niet bij."),
-            ("p", "<strong>Het extremum is de y-waarde van de top</strong>: <strong>een parabool die naar "
-                  "boven opent heeft een minimum</strong>, een die naar onder opent een maximum. En "
-                  "<strong>f(x) = x² stijgt rechts van de top</strong>; links daalt ze, want de top is het "
-                  "keerpunt."),
-            ("p", "<strong>Een tekenonderzoek is nagaan waar f(x) positief is</strong>: boven de x-as "
-                  "positief, eronder negatief. <strong>f(x) = x² − 4 is negatief tussen min 2 en 2</strong>, "
-                  "want tussen de twee nulwaarden ligt de parabool onder de as."),
+            ("p", r"Bij een functieonderzoek ga je na: <strong>de nulwaarden</strong>, <strong>waar de "
+                  r"functie stijgt en daalt</strong>, <strong>het extremum</strong> en het teken. Een "
+                  r"grafiek heeft geen lengte, dus die hoort er niet bij."),
+            ("p", r"<strong>Het extremum is de \(y\)-waarde van de top</strong>: <strong>een parabool die "
+                  r"naar boven opent heeft een minimum</strong>, een die naar onder opent een maximum. En "
+                  r"<strong>\(f(x) = x^{2}\) stijgt rechts van de top</strong>; links daalt ze, want de "
+                  r"top is het keerpunt."),
+        ]),
+        dict(kop="Het tekenonderzoek", blokken=[
+            ("p", r"<strong>Een tekenonderzoek is nagaan waar \(f(x) > 0\) is</strong>: boven de \(x\)-as "
+                  r"positief, eronder negatief. <strong>\(f(x) = x^{2} - 4\) is negatief tussen \(-2\) en "
+                  r"\(2\)</strong>, want tussen de twee nulwaarden ligt de parabool onder de as."),
+            ("fig", svg.paraboolteken(),
+             "Links de parabool, rechts dezelfde tekens kort op een getallenlijn."),
         ]),
     ])
 

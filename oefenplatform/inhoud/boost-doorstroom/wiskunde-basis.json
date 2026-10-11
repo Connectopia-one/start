@@ -5421,13 +5421,13 @@
           "type": "meerkeuze",
           "vraag": "Wat is het voorschrift van een tweedegraadsfunctie?",
           "opties": [
-            "f(x) is ax kwadraat plus bx plus c",
-            "f(x) is ax plus b, zonder kwadraat",
-            "f(x) is a gedeeld door x ervan",
-            "f(x) is de wortel van x ervan"
+            "\\(f(x) = ax^{2} + bx + c\\)",
+            "\\(f(x) = ax + b\\), zonder kwadraat",
+            "\\(f(x) = \\frac{a}{x}\\) ervan",
+            "\\(f(x) = \\sqrt{x}\\) ervan"
           ],
           "antwoord": 0,
-          "uitleg": "Met a niet gelijk aan nul. Haar grafiek is een parabool."
+          "uitleg": "Met \\(a \\neq 0\\). Haar grafiek is een parabool."
         },
         {
           "type": "meerkeuze",
@@ -5445,22 +5445,22 @@
           "type": "meerkeuze",
           "vraag": "Wanneer opent een parabool naar boven?",
           "opties": [
-            "als a positief is",
-            "als a negatief is, altijd",
-            "als c positief is ervan",
-            "als b gelijk is aan nul"
+            "als \\(a > 0\\)",
+            "als \\(a < 0\\), altijd",
+            "als \\(c > 0\\) ervan",
+            "als \\(b = 0\\) ervan"
           ],
           "antwoord": 0,
-          "uitleg": "Bij een positieve a opent de parabool naar boven en is de top het laagste punt."
+          "uitleg": "Bij \\(a > 0\\) opent de parabool naar boven en is de top het laagste punt."
         },
         {
           "type": "meerkeuze",
           "vraag": "Wat is de top van een parabool?",
           "opties": [
             "het hoogste of laagste punt",
-            "het snijpunt met de y-as ervan",
-            "elk snijpunt met de x-as",
-            "het midden van de twee nulwaarden op de y-as"
+            "het snijpunt met de \\(y\\)-as ervan",
+            "elk snijpunt met de \\(x\\)-as",
+            "het midden van de nulwaarden op de \\(y\\)-as"
           ],
           "antwoord": 0,
           "uitleg": "Bij een opening naar boven het laagste punt, bij een opening naar onder het hoogste."
@@ -5477,48 +5477,48 @@
         },
         {
           "type": "waarofniet",
-          "vraag": "De x-waarde van de top is min b gedeeld door 2a.",
+          "vraag": "De \\(x\\)-waarde van de top is \\(\\frac{-b}{2a}\\).",
           "antwoord": true,
           "uitleg": "Die formule staat in het formularium, dat je op het examen mag gebruiken."
         },
         {
           "type": "waarofniet",
-          "vraag": "Een parabool heeft altijd twee snijpunten met de x-as.",
+          "vraag": "Een parabool heeft altijd twee snijpunten met de \\(x\\)-as.",
           "antwoord": false,
-          "uitleg": "Dat hangt van de discriminant af: twee, een of geen."
+          "uitleg": "Dat hangt van de discriminant \\(D\\) af: twee, één of geen."
         },
         {
           "type": "meerkeuze",
-          "vraag": "Waar ligt de top van f(x) is x kwadraat?",
+          "vraag": "Waar ligt de top van \\(f(x) = x^{2}\\)?",
           "opties": [
-            "in (0, 0)",
-            "in (1, 1) rechtsboven",
-            "in (0, 1) net erboven",
-            "in (min 1, 0) links"
+            "in \\((0, 0)\\)",
+            "in \\((1, 1)\\) rechtsboven",
+            "in \\((0, 1)\\) net erboven",
+            "in \\((-1, 0)\\) links"
           ],
           "antwoord": 0,
           "uitleg": "De eenvoudigste parabool: haar top ligt in de oorsprong."
         },
         {
           "type": "meerkeuze",
-          "vraag": "Waar snijdt f(x) is x kwadraat plus bx plus c de y-as?",
+          "vraag": "Waar snijdt \\(f(x) = x^{2} + bx + c\\) de \\(y\\)-as?",
           "opties": [
-            "in c",
-            "in b, iets hoger",
+            "in \\(c\\)",
+            "in \\(b\\), iets hoger",
             "in de top ervan",
-            "in min c ervan"
+            "in \\(-c\\) ervan"
           ],
           "antwoord": 0,
-          "uitleg": "f(0) is c. Dat lees je rechtstreeks uit het voorschrift."
+          "uitleg": "\\(f(0) = c\\). Dat lees je rechtstreeks uit het voorschrift."
         },
         {
           "type": "meerkeuze",
           "vraag": "Welke functies zijn van de tweede graad?",
           "opties": [
-            "f(x) is x kwadraat",
-            "f(x) is min 2x kwadraat plus 3",
-            "f(x) is x kwadraat min 4x",
-            "f(x) is 3x min 1, zonder meer"
+            "\\(f(x) = x^{2}\\)",
+            "\\(f(x) = -2x^{2} + 3\\)",
+            "\\(f(x) = x^{2} - 4x\\)",
+            "\\(f(x) = 3x - 1\\), zonder meer"
           ],
           "antwoord": [
             0,
@@ -5529,39 +5529,39 @@
         },
         {
           "type": "meerkeuze",
-          "vraag": "Wat is de x-waarde van de top van f(x) is x kwadraat min 4x plus 3?",
+          "vraag": "Wat is de \\(x\\)-waarde van de top van \\(f(x) = x^{2} - 4x + 3\\)?",
           "opties": [
-            "2",
-            "min 2 in totaal",
-            "4 in totaal",
-            "3 in totaal"
+            "\\(2\\)",
+            "\\(-2\\) in totaal",
+            "\\(4\\) in totaal",
+            "\\(3\\) in totaal"
           ],
           "antwoord": 0,
-          "uitleg": "Min b gedeeld door 2a is 4 gedeeld door 2, dus 2."
+          "uitleg": "\\(\\frac{-b}{2a} = \\frac{4}{2} = 2\\)."
         },
         {
           "type": "meerkeuze",
-          "vraag": "Wat is de y-waarde van de top van f(x) is x kwadraat min 4x plus 3?",
+          "vraag": "Wat is de \\(y\\)-waarde van de top van \\(f(x) = x^{2} - 4x + 3\\)?",
           "opties": [
-            "min 1",
-            "1, net erboven",
-            "3 in totaal",
-            "min 3 in totaal"
+            "\\(-1\\)",
+            "\\(1\\), net erboven",
+            "\\(3\\) in totaal",
+            "\\(-3\\) in totaal"
           ],
           "antwoord": 0,
-          "uitleg": "f(2) is 4 min 8 plus 3, dus min 1. De top is (2, min 1)."
+          "uitleg": "\\(f(2) = 4 - 8 + 3 = -1\\). De top is \\((2, -1)\\)."
         },
         {
           "type": "meerkeuze",
           "vraag": "Hoe vind je de nulwaarden van een tweedegraadsfunctie?",
           "opties": [
-            "f(x) gelijk aan nul stellen",
+            "\\(f(x) = 0\\) stellen",
             "de top berekenen en delen",
             "de symmetrieas tekenen ervan",
-            "f(0) berekenen, dat volstaat"
+            "\\(f(0)\\) berekenen, dat volstaat"
           ],
           "antwoord": 0,
-          "uitleg": "Je lost de tweedegraadsvergelijking op. De oplossingen zijn de snijpunten met de x-as."
+          "uitleg": "Je lost de tweedegraadsvergelijking op. De oplossingen zijn de snijpunten met de \\(x\\)-as."
         },
         {
           "type": "waarofniet",
@@ -5571,16 +5571,16 @@
         },
         {
           "type": "waarofniet",
-          "vraag": "Bij een negatieve a is de top van de parabool het laagste punt.",
+          "vraag": "Bij \\(a < 0\\) is de top van de parabool het laagste punt.",
           "antwoord": false,
           "uitleg": "Dan opent de parabool naar onder en is de top het hoogste punt."
         },
         {
           "type": "meerkeuze",
-          "vraag": "Wat kan je uit f(x) is min x kwadraat plus 4 afleiden?",
+          "vraag": "Wat kan je uit \\(f(x) = -x^{2} + 4\\) afleiden?",
           "opties": [
             "de parabool opent naar onder",
-            "de top ligt in (0, 4)",
+            "de top ligt in \\((0, 4)\\)",
             "er zijn twee nulwaarden",
             "de grafiek is een rechte"
           ],
@@ -5589,37 +5589,37 @@
             1,
             2
           ],
-          "uitleg": "a is min 1, dus naar onder. De nulwaarden zijn 2 en min 2."
+          "uitleg": "\\(a = -1\\), dus naar onder. De nulwaarden zijn \\(2\\) en \\(-2\\)."
         },
         {
           "type": "invultekst",
-          "vraag": "Hoeveel nulwaarden heeft een parabool waarvan de top op de x-as ligt? Een getal.",
+          "vraag": "Hoeveel nulwaarden heeft een parabool waarvan de top op de \\(x\\)-as ligt? Een getal.",
           "antwoord": [
             "1",
             "een",
             "één"
           ],
-          "uitleg": "Eén. De top raakt de x-as en de discriminant is dan nul."
+          "uitleg": "Één. De top raakt de \\(x\\)-as en de discriminant is dan \\(0\\)."
         },
         {
           "type": "meerkeuze",
-          "vraag": "Wat is het snijpunt van f(x) is 2x kwadraat min 8 met de y-as?",
+          "vraag": "Wat is het snijpunt van \\(f(x) = 2x^{2} - 8\\) met de \\(y\\)-as?",
           "opties": [
-            "(0, min 8)",
-            "(0, 8) net erboven",
-            "(min 8, 0) links",
-            "(2, min 8) ervan"
+            "\\((0, -8)\\)",
+            "\\((0, 8)\\) net erboven",
+            "\\((-8, 0)\\) links",
+            "\\((2, -8)\\) ervan"
           ],
           "antwoord": 0,
-          "uitleg": "f(0) is min 8. De waarde van c geeft meteen het snijpunt met de y-as."
+          "uitleg": "\\(f(0) = -8\\). De waarde van \\(c\\) geeft meteen het snijpunt met de \\(y\\)-as."
         },
         {
           "type": "meerkeuze",
           "vraag": "Welke kenmerken van een parabool lees je uit het voorschrift?",
           "opties": [
-            "de opening, uit het teken van a",
-            "het snijpunt met de y-as, uit c",
-            "de x-waarde van de top, uit min b door 2a",
+            "de opening, uit het teken van \\(a\\)",
+            "het snijpunt met de \\(y\\)-as, uit \\(c\\)",
+            "de \\(x\\)-waarde van de top, uit \\(\\frac{-b}{2a}\\)",
             "de kleur waarin de grafiek getekend is"
           ],
           "antwoord": [
@@ -5627,16 +5627,16 @@
             1,
             2
           ],
-          "uitleg": "Het teken van a, de waarde van c en de formule voor de top. De kleur zegt niets."
+          "uitleg": "Het teken van \\(a\\), de waarde van \\(c\\) en de formule voor de top. De kleur zegt niets."
         },
         {
           "type": "invultekst",
-          "vraag": "Wat is de x-waarde van de top van f(x) is x kwadraat min 6x? Een getal.",
+          "vraag": "Wat is de \\(x\\)-waarde van de top van \\(f(x) = x^{2} - 6x\\)? Een getal.",
           "antwoord": [
             "3",
             "drie"
           ],
-          "uitleg": "Min b gedeeld door 2a is 6 gedeeld door 2, dus 3."
+          "uitleg": "\\(\\frac{-b}{2a} = \\frac{6}{2} = 3\\)."
         }
       ]
     },
@@ -5647,43 +5647,43 @@
       "vragen": [
         {
           "type": "meerkeuze",
-          "vraag": "Wat doet f(x) is x kwadraat plus 3 met de basisparabool?",
+          "vraag": "Wat doet \\(f(x) = x^{2} + 3\\) met de basisparabool?",
           "opties": [
-            "ze schuift 3 omhoog",
-            "ze schuift 3 naar rechts",
-            "ze schuift 3 naar links ervan",
-            "ze wordt 3 keer zo breed"
+            "ze schuift \\(3\\) omhoog",
+            "ze schuift \\(3\\) naar rechts",
+            "ze schuift \\(3\\) naar links ervan",
+            "ze wordt \\(3\\) keer zo breed"
           ],
           "antwoord": 0,
           "uitleg": "Een getal buiten het kwadraat verschuift de parabool verticaal."
         },
         {
           "type": "meerkeuze",
-          "vraag": "Wat doet f(x) is (x min 2) in het kwadraat met de basisparabool?",
+          "vraag": "Wat doet \\(f(x) = (x - 2)^{2}\\) met de basisparabool?",
           "opties": [
-            "ze schuift 2 naar rechts",
-            "ze schuift 2 naar links ervan",
-            "ze schuift 2 omhoog ervan",
-            "ze schuift 2 omlaag ervan"
+            "ze schuift \\(2\\) naar rechts",
+            "ze schuift \\(2\\) naar links ervan",
+            "ze schuift \\(2\\) omhoog ervan",
+            "ze schuift \\(2\\) omlaag ervan"
           ],
           "antwoord": 0,
-          "uitleg": "Min 2 binnen de haakjes schuift naar rechts. Dat voelt omgekeerd aan, maar de top ligt in x is 2."
+          "uitleg": "\\(-2\\) binnen de haakjes schuift naar rechts. Dat voelt omgekeerd aan, maar de top ligt in \\(x = 2\\)."
         },
         {
           "type": "meerkeuze",
-          "vraag": "Wat doet het minteken in f(x) is min x kwadraat?",
+          "vraag": "Wat doet het minteken in \\(f(x) = -x^{2}\\)?",
           "opties": [
-            "ze spiegelt om de x-as",
-            "ze spiegelt om de y-as ervan",
-            "ze schuift een omlaag ervan",
+            "ze spiegelt om de \\(x\\)-as",
+            "ze spiegelt om de \\(y\\)-as ervan",
+            "ze schuift \\(1\\) omlaag ervan",
             "ze wordt smaller dan eerst"
           ],
           "antwoord": 0,
-          "uitleg": "Elke y-waarde keert om, dus de parabool opent naar onder."
+          "uitleg": "Elke \\(y\\)-waarde keert om, dus de parabool opent naar onder."
         },
         {
           "type": "meerkeuze",
-          "vraag": "Wat doet de factor a in f(x) is a maal x kwadraat als a groter is dan 1?",
+          "vraag": "Wat doet de factor \\(a\\) in \\(f(x) = ax^{2}\\) als \\(a > 1\\)?",
           "opties": [
             "de parabool wordt smaller",
             "de parabool wordt breder ervan",
@@ -5691,21 +5691,21 @@
             "de top verschuift naar rechts"
           ],
           "antwoord": 0,
-          "uitleg": "Elke y-waarde wordt vermenigvuldigd, dus de parabool wordt steiler en smaller."
+          "uitleg": "Elke \\(y\\)-waarde wordt vermenigvuldigd, dus de parabool wordt steiler en smaller."
         },
         {
           "type": "invultekst",
-          "vraag": "Waar ligt de top van f(x) is (x min 4) kwadraat plus 1? Hoogstens drie woorden.",
+          "vraag": "Waar ligt de top van \\(f(x) = (x - 4)^{2} + 1\\)? Hoogstens drie woorden.",
           "antwoord": [
             "(4, 1)",
             "4 en 1",
             "4 , 1"
           ],
-          "uitleg": "In (4, 1). De topvorm laat de top rechtstreeks lezen."
+          "uitleg": "In \\((4, 1)\\). De topvorm laat de top rechtstreeks lezen."
         },
         {
           "type": "waarofniet",
-          "vraag": "In de topvorm a maal (x min p) kwadraat plus q is de top het punt (p, q).",
+          "vraag": "In de topvorm \\(a(x - p)^{2} + q\\) is de top het punt \\((p, q)\\).",
           "antwoord": true,
           "uitleg": "Daarom is de topvorm zo handig: je leest de top zonder te rekenen."
         },
@@ -5713,11 +5713,11 @@
           "type": "waarofniet",
           "vraag": "Een verschuiving naar boven laat de nulwaarden onveranderd.",
           "antwoord": false,
-          "uitleg": "De grafiek komt hoger te liggen, dus de snijpunten met de x-as verschuiven of verdwijnen."
+          "uitleg": "De grafiek komt hoger te liggen, dus de snijpunten met de \\(x\\)-as verschuiven of verdwijnen."
         },
         {
           "type": "meerkeuze",
-          "vraag": "Waar stijgt f(x) is x kwadraat?",
+          "vraag": "Waar stijgt \\(f(x) = x^{2}\\)?",
           "opties": [
             "rechts van de top",
             "links van de top ervan",
@@ -5731,9 +5731,9 @@
           "type": "meerkeuze",
           "vraag": "Wat is het extremum van een parabool?",
           "opties": [
-            "de y-waarde van de top",
-            "de x-waarde van de top ervan",
-            "het snijpunt met de y-as",
+            "de \\(y\\)-waarde van de top",
+            "de \\(x\\)-waarde van de top ervan",
+            "het snijpunt met de \\(y\\)-as",
             "het verschil van de nulwaarden"
           ],
           "antwoord": 0,
@@ -5759,41 +5759,41 @@
           "type": "meerkeuze",
           "vraag": "Wat is een tekenonderzoek van een functie?",
           "opties": [
-            "nagaan waar f(x) positief is",
+            "nagaan waar \\(f(x) > 0\\) is",
             "nagaan hoe steil de grafiek loopt",
             "nagaan hoeveel letters er staan",
             "nagaan waar de grafiek stopt"
           ],
           "antwoord": 0,
-          "uitleg": "Waar de grafiek boven de x-as ligt is f(x) positief, eronder negatief."
+          "uitleg": "Waar de grafiek boven de \\(x\\)-as ligt is \\(f(x)\\) positief, eronder negatief."
         },
         {
           "type": "meerkeuze",
-          "vraag": "Waar is f(x) is x kwadraat min 4 negatief?",
+          "vraag": "Waar is \\(f(x) = x^{2} - 4\\) negatief?",
           "opties": [
-            "tussen min 2 en 2",
-            "buiten min 2 en 2 ervan",
+            "tussen \\(-2\\) en \\(2\\)",
+            "buiten \\(-2\\) en \\(2\\) ervan",
             "overal, altijd negatief",
-            "enkel in x is 0 ervan"
+            "enkel in \\(x = 0\\) ervan"
           ],
           "antwoord": 0,
-          "uitleg": "Tussen de twee nulwaarden ligt de parabool onder de x-as."
+          "uitleg": "Tussen de twee nulwaarden ligt de parabool onder de \\(x\\)-as."
         },
         {
           "type": "waarofniet",
           "vraag": "Een parabool die naar boven opent heeft een minimum.",
           "antwoord": true,
-          "uitleg": "De top is dan het laagste punt, en haar y-waarde is het minimum."
+          "uitleg": "De top is dan het laagste punt, en haar \\(y\\)-waarde is het minimum."
         },
         {
           "type": "waarofniet",
-          "vraag": "De factor a verandert de plaats van de top.",
+          "vraag": "De factor \\(a\\) verandert de plaats van de top.",
           "antwoord": false,
-          "uitleg": "Bij f(x) is a maal x kwadraat blijft de top in de oorsprong. Enkel de breedte verandert."
+          "uitleg": "Bij \\(f(x) = ax^{2}\\) blijft de top in de oorsprong. Enkel de breedte verandert."
         },
         {
           "type": "invultekst",
-          "vraag": "Hoe noem je de y-waarde van de top bij een parabool die naar boven opent? Eén woord.",
+          "vraag": "Hoe noem je de \\(y\\)-waarde van de top bij een parabool die naar boven opent? Eén woord.",
           "antwoord": [
             "minimum",
             "het minimum"
@@ -5802,43 +5802,43 @@
         },
         {
           "type": "meerkeuze",
-          "vraag": "Hoe schrijf je f(x) is x kwadraat min 4x plus 3 in topvorm?",
+          "vraag": "Hoe schrijf je \\(f(x) = x^{2} - 4x + 3\\) in topvorm?",
           "opties": [
-            "(x min 2) kwadraat min 1",
-            "(x plus 2) kwadraat min 1 ervan",
-            "(x min 2) kwadraat plus 1 ervan",
-            "(x min 4) kwadraat plus 3 ervan"
+            "\\((x - 2)^{2} - 1\\)",
+            "\\((x + 2)^{2} - 1\\) ervan",
+            "\\((x - 2)^{2} + 1\\) ervan",
+            "\\((x - 4)^{2} + 3\\) ervan"
           ],
           "antwoord": 0,
-          "uitleg": "De top is (2, min 1), dus p is 2 en q is min 1."
+          "uitleg": "De top is \\((2, -1)\\), dus \\(p = 2\\) en \\(q = -1\\)."
         },
         {
           "type": "meerkeuze",
-          "vraag": "Welke uitspraken horen bij f(x) is (x plus 1) kwadraat min 2?",
+          "vraag": "Welke uitspraken horen bij \\(f(x) = (x + 1)^{2} - 2\\)?",
           "opties": [
-            "een naar links",
-            "twee omlaag",
-            "de top ligt in (min 1, min 2)",
-            "drie naar rechts"
+            "\\(1\\) naar links",
+            "\\(2\\) omlaag",
+            "de top ligt in \\((-1, -2)\\)",
+            "\\(3\\) naar rechts"
           ],
           "antwoord": [
             0,
             1,
             2
           ],
-          "uitleg": "Plus 1 binnen de haakjes schuift naar links, min 2 schuift omlaag."
+          "uitleg": "\\(+1\\) binnen de haakjes schuift naar links, \\(-2\\) schuift omlaag."
         },
         {
           "type": "meerkeuze",
-          "vraag": "Wat gebeurt er met de parabool als a tussen 0 en 1 ligt?",
+          "vraag": "Wat gebeurt er met de parabool als \\(0 < a < 1\\)?",
           "opties": [
             "ze wordt breder",
             "ze wordt smaller ervan",
-            "ze spiegelt om de x-as",
+            "ze spiegelt om de \\(x\\)-as",
             "ze schuift naar rechts"
           ],
           "antwoord": 0,
-          "uitleg": "Elke y-waarde wordt kleiner, dus de parabool wordt vlakker en breder."
+          "uitleg": "Elke \\(y\\)-waarde wordt kleiner, dus de parabool wordt vlakker en breder."
         },
         {
           "type": "meerkeuze",
@@ -5847,7 +5847,7 @@
             "de vorm van de parabool",
             "de breedte van de parabool",
             "de richting van de opening",
-            "de x-waarde van de top"
+            "de \\(x\\)-waarde van de top"
           ],
           "antwoord": [
             0,
@@ -5858,13 +5858,13 @@
         },
         {
           "type": "invultekst",
-          "vraag": "Hoeveel nulwaarden heeft f(x) is x kwadraat plus 2? Een getal.",
+          "vraag": "Hoeveel nulwaarden heeft \\(f(x) = x^{2} + 2\\)? Een getal.",
           "antwoord": [
             "0",
             "geen",
             "nul"
           ],
-          "uitleg": "Geen. De top ligt in (0, 2) en de parabool opent naar boven, dus ze blijft boven de x-as."
+          "uitleg": "Geen. De top ligt in \\((0, 2)\\) en de parabool opent naar boven, dus ze blijft boven de \\(x\\)-as."
         }
       ]
     },
