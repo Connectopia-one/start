@@ -93,8 +93,9 @@ export default async function HomePage() {
             eronder. De kaders stonden eerst smaller, en dat viel op: de linker-
             en rechterrand sprongen dan halverwege de pagina naar binnen. */}
         {/* Wie hier voor het eerst komt, weet nog niet wat dit is en waarop het
-            steunt. Vier korte zinnen, en een link voor wie het naadje van de
-            kous wil. De volledige tekst staat op /over-ons. */}
+            steunt. Vier korte zinnen, de regel over wat we precies zijn, en
+            een link voor wie het naadje van de kous wil. De volledige tekst
+            staat op /over-ons. */}
         <section className="mt-5 rounded-xl border border-border bg-surface p-5">
           <h2 className="font-display text-base font-semibold text-ink">
             {startUitleg.kop}
@@ -109,6 +110,7 @@ export default async function HomePage() {
               </li>
             ))}
           </ul>
+          <p className="mt-3 text-sm text-ink">{startUitleg.slot}</p>
           <p className="mt-3 text-sm">
             <Link
               href={startUitleg.link}

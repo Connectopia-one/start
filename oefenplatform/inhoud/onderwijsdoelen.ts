@@ -174,6 +174,13 @@ export const startUitleg = {
     "Je oefent vooral met meerkeuzevragen, aangevuld met invulvragen en waar-of-niet.",
     "Bij elk hoofdstuk hoort een leerbundel met de theorie, zodat je de leerstof ook kan leren en niet enkel kan testen.",
   ],
+  /* Staat onder de vier punten. Kim, 11 oktober 2026: mensen moeten weten dat
+     wij een uitgebreide leidraad zijn van de officiële vakfiches, en dat je
+     daarnaast zelf nog moet oefenen en opzoeken. Dezelfde boodschap staat
+     uitgebreider op /over-ons en kort onder elk hoofdstuk, in
+     components/Leidraad.tsx; die drie moeten hetzelfde zeggen. */
+  slot:
+    "Ga je bij ons door een vak heen, dan heb je alle leerstof gezien die op dat examen gevraagd wordt. Zie het als een uitgebreide leidraad en blijf er daarnaast zelf genoeg bij oefenen en opzoeken.",
   linkTekst: "Bekijk welke doelen we gebruiken",
   link: "/onderwijsdoelen",
 };
