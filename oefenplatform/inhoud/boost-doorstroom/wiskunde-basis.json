@@ -7,31 +7,31 @@
       "vragen": [
         {
           "type": "meerkeuze",
-          "vraag": "Welke verzameling bevat alle natuurlijke getallen?",
+          "vraag": "Welke verzameling bevat alle natuurlijke getallen \\(\\mathbb{N}\\)?",
           "opties": [
-            "de gehele getallen",
-            "enkel de even getallen",
-            "enkel de priemgetallen",
-            "enkel de negatieve getallen"
+            "de gehele getallen \\(\\mathbb{Z}\\)",
+            "de negatieve gehele getallen \\(\\mathbb{Z}^{-}\\)",
+            "de irrationale getallen \\(\\mathbb{R} \\setminus \\mathbb{Q}\\)",
+            "de priemgetallen \\(\\mathbb{P}\\)"
           ],
           "antwoord": 0,
-          "uitleg": "De natuurlijke getallen zitten in de gehele getallen, die daarnaast ook de negatieve bevatten."
+          "uitleg": "De natuurlijke getallen zitten in de gehele getallen: \\(\\mathbb{N} \\subset \\mathbb{Z}\\). Die bevatten daarnaast ook de negatieve getallen."
         },
         {
           "type": "meerkeuze",
-          "vraag": "Tot welke verzameling hoort min vijf wel, maar niet tot de natuurlijke getallen?",
+          "vraag": "Tot welke verzameling hoort \\(-5\\) wel, maar niet tot \\(\\mathbb{N}\\)?",
           "opties": [
-            "de gehele getallen",
-            "de natuurlijke getallen",
-            "de irrationale getallen",
-            "de priemgetallen"
+            "de gehele getallen \\(\\mathbb{Z}\\)",
+            "de natuurlijke getallen \\(\\mathbb{N}\\)",
+            "de irrationale getallen \\(\\mathbb{R} \\setminus \\mathbb{Q}\\)",
+            "de priemgetallen \\(\\mathbb{P}\\)"
           ],
           "antwoord": 0,
-          "uitleg": "De gehele getallen voegen de negatieve getallen toe aan de natuurlijke."
+          "uitleg": "De gehele getallen voegen de negatieve getallen toe aan de natuurlijke: \\(-5 \\in \\mathbb{Z}\\)."
         },
         {
           "type": "invultekst",
-          "vraag": "Hoe noem je een getal dat je als breuk van twee gehele getallen kan schrijven? Eén woord.",
+          "vraag": "Hoe noem je een getal dat je als breuk \\(\\frac{a}{b}\\) van twee gehele getallen kan schrijven? Eén woord.",
           "antwoord": [
             "rationaal",
             "rationale",
@@ -43,23 +43,23 @@
           "type": "meerkeuze",
           "vraag": "Welke getallen zijn irrationaal?",
           "opties": [
-            "de vierkantswortel van 2",
-            "het getal pi",
-            "de vierkantswortel van 3",
-            "drie vierde"
+            "\\(\\sqrt{2}\\)",
+            "\\(\\pi\\)",
+            "\\(\\sqrt{3}\\)",
+            "\\(\\frac{3}{4}\\)"
           ],
           "antwoord": [
             0,
             1,
             2
           ],
-          "uitleg": "Drie getallen die je niet als breuk kan schrijven. Drie vierde is juist wel een breuk."
+          "uitleg": "Drie getallen die je niet als breuk kan schrijven. \\(\\frac{3}{4}\\) is juist wel een breuk."
         },
         {
           "type": "waarofniet",
-          "vraag": "Elk reëel getal is ook een rationaal getal.",
+          "vraag": "Elk reëel getal is ook een rationaal getal: \\(\\mathbb{R} \\subset \\mathbb{Q}\\).",
           "antwoord": false,
-          "uitleg": "Het is net omgekeerd: de reële getallen omvatten de rationale én de irrationale, zoals pi."
+          "uitleg": "Het is net omgekeerd: \\(\\mathbb{Q} \\subset \\mathbb{R}\\). De reële getallen omvatten de rationale én de irrationale, zoals \\(\\pi\\)."
         },
         {
           "type": "meerkeuze",
@@ -71,11 +71,11 @@
             "om getallen te kunnen afronden"
           ],
           "antwoord": 0,
-          "uitleg": "Tussen de breuken zitten gaten: de wortel van 2 en pi liggen op de as maar zijn geen breuk."
+          "uitleg": "Tussen de breuken zitten gaten: \\(\\sqrt{2}\\) en \\(\\pi\\) liggen op de as maar zijn geen breuk."
         },
         {
           "type": "meerkeuze",
-          "vraag": "Welke decimale vorm heeft een derde?",
+          "vraag": "Welke decimale vorm heeft \\(\\frac{1}{3}\\)?",
           "opties": [
             "onbegrensd repeterend",
             "begrensd decimaal",
@@ -83,11 +83,11 @@
             "geen decimale vorm"
           ],
           "antwoord": 0,
-          "uitleg": "0,333… met een cijfer dat zich blijft herhalen. Dat is onbegrensd repeterend."
+          "uitleg": "\\(0{,}333\\ldots\\) met een cijfer dat zich blijft herhalen. Dat is onbegrensd repeterend."
         },
         {
           "type": "meerkeuze",
-          "vraag": "Welke decimale vorm heeft het getal pi?",
+          "vraag": "Welke decimale vorm heeft \\(\\pi\\)?",
           "opties": [
             "onbegrensd niet-repeterend",
             "onbegrensd repeterend",
@@ -99,7 +99,7 @@
         },
         {
           "type": "invultekst",
-          "vraag": "Welke decimale vorm heeft het getal 0,25? Eén woord.",
+          "vraag": "Welke decimale vorm heeft \\(0{,}25\\)? Eén woord.",
           "antwoord": [
             "begrensd",
             "begrensde",
@@ -131,19 +131,19 @@
         },
         {
           "type": "meerkeuze",
-          "vraag": "Wat is 3 vijfde in procent?",
+          "vraag": "Wat is \\(\\frac{3}{5}\\) in procent?",
           "opties": [
-            "60 procent",
-            "35 procent",
-            "53 procent",
-            "30 procent"
+            "\\(60\\,\\%\\)",
+            "\\(35\\,\\%\\)",
+            "\\(53\\,\\%\\)",
+            "\\(30\\,\\%\\)"
           ],
           "antwoord": 0,
-          "uitleg": "3 gedeeld door 5 is 0,6, en dus 60 procent."
+          "uitleg": "\\(3 : 5 = 0{,}6 = 60\\,\\%\\)."
         },
         {
           "type": "waarofniet",
-          "vraag": "Het getal 7 is zowel natuurlijk, geheel, rationaal als reëel.",
+          "vraag": "Het getal \\(7\\) hoort tegelijk in \\(\\mathbb{N}\\), \\(\\mathbb{Z}\\), \\(\\mathbb{Q}\\) en \\(\\mathbb{R}\\).",
           "antwoord": true,
           "uitleg": "Elke kleinere verzameling zit in de grotere. Zeven hoort dus in alle vier."
         },
@@ -151,73 +151,73 @@
           "type": "meerkeuze",
           "vraag": "Welke getallen zijn rationaal?",
           "opties": [
-            "0,75",
-            "min twee derde",
-            "het getal 4",
-            "de vierkantswortel van 5"
+            "\\(0{,}75\\)",
+            "\\(-\\frac{2}{3}\\)",
+            "\\(4\\)",
+            "\\(\\sqrt{5}\\)"
           ],
           "antwoord": [
             0,
             1,
             2
           ],
-          "uitleg": "Drie getallen die je als breuk kan schrijven. De wortel van 5 lukt niet."
+          "uitleg": "Drie getallen die je als breuk kan schrijven. Bij \\(\\sqrt{5}\\) lukt dat niet."
         },
         {
           "type": "meerkeuze",
-          "vraag": "Hoe schrijf je 45 000 in wetenschappelijke notatie?",
+          "vraag": "Hoe schrijf je \\(45\\,000\\) in wetenschappelijke notatie?",
           "opties": [
-            "4,5 maal 10 tot de vierde",
-            "45 maal 10 tot de derde",
-            "0,45 maal 10 tot de vijfde",
-            "4,5 maal 10 tot de derde"
+            "\\(4{,}5 \\cdot 10^{4}\\)",
+            "\\(45 \\cdot 10^{3}\\)",
+            "\\(0{,}45 \\cdot 10^{5}\\)",
+            "\\(4{,}5 \\cdot 10^{3}\\)"
           ],
           "antwoord": 0,
-          "uitleg": "Het getal voor de macht moet tussen 1 en 10 liggen. 4,5 maal 10 000 is 45 000."
+          "uitleg": "Het getal voor de macht moet tussen \\(1\\) en \\(10\\) liggen, en \\(4{,}5 \\cdot 10\\,000 = 45\\,000\\)."
         },
         {
           "type": "invultekst",
-          "vraag": "Hoe schrijf je 0,003 in wetenschappelijke notatie? Gebruik de vorm 3 maal 10 tot de ...",
+          "vraag": "Hoe schrijf je \\(0{,}003\\) in wetenschappelijke notatie? Vul de exponent in: \\(3 \\cdot 10^{?}\\)",
           "antwoord": [
             "-3",
             "min 3",
             "min drie"
           ],
-          "uitleg": "3 maal 10 tot de macht min 3. Een getal kleiner dan 1 krijgt een negatieve exponent."
+          "uitleg": "\\(0{,}003 = 3 \\cdot 10^{-3}\\). Een getal kleiner dan \\(1\\) krijgt een negatieve exponent."
         },
         {
           "type": "waarofniet",
           "vraag": "In de wetenschappelijke notatie mag voor de macht elk getal staan.",
           "antwoord": false,
-          "uitleg": "Het moet tussen 1 en 10 liggen. Daarom is 45 maal 10 tot de derde niet correct genoteerd."
+          "uitleg": "Het moet tussen \\(1\\) en \\(10\\) liggen. Daarom is \\(45 \\cdot 10^{3}\\) niet correct genoteerd."
         },
         {
           "type": "meerkeuze",
           "vraag": "Welk getal is het grootste?",
           "opties": [
-            "0,8",
-            "drie vierde",
-            "zeven tiende",
-            "twee derde"
+            "\\(0{,}8\\)",
+            "\\(\\frac{3}{4}\\)",
+            "\\(\\frac{7}{10}\\)",
+            "\\(\\frac{2}{3}\\)"
           ],
           "antwoord": 0,
-          "uitleg": "0,8 tegen 0,75, 0,7 en ongeveer 0,67. Alles naar de decimale vorm brengen maakt het vergelijken makkelijk."
+          "uitleg": "\\(0{,}8\\) tegen \\(0{,}75\\), \\(0{,}7\\) en \\(\\approx 0{,}67\\). Alles naar de decimale vorm brengen maakt het vergelijken makkelijk."
         },
         {
           "type": "meerkeuze",
-          "vraag": "Wat is 12 procent van 250?",
+          "vraag": "Wat is \\(12\\,\\%\\) van \\(250\\)?",
           "opties": [
-            "30",
-            "25 in totaal",
-            "36 in totaal",
-            "24 in totaal"
+            "\\(30\\)",
+            "\\(25\\)",
+            "\\(36\\)",
+            "\\(24\\)"
           ],
           "antwoord": 0,
-          "uitleg": "12 procent is 0,12, en 0,12 maal 250 is 30."
+          "uitleg": "\\(12\\,\\%\\) is \\(0{,}12\\), en \\(0{,}12 \\cdot 250 = 30\\)."
         },
         {
           "type": "meerkeuze",
-          "vraag": "Waarom staat de wortel van 2 niet bij de rationale getallen?",
+          "vraag": "Waarom staat \\(\\sqrt{2}\\) niet bij de rationale getallen?",
           "opties": [
             "ze is geen breuk",
             "ze is negatief",
@@ -236,117 +236,117 @@
       "vragen": [
         {
           "type": "meerkeuze",
-          "vraag": "Wat is de vierkantswortel van 81?",
+          "vraag": "Wat is \\(\\sqrt{81}\\)?",
           "opties": [
-            "9",
-            "8 in totaal",
-            "18 in totaal",
-            "40 in totaal"
+            "\\(9\\)",
+            "\\(8\\)",
+            "\\(18\\)",
+            "\\(40{,}5\\)"
           ],
           "antwoord": 0,
-          "uitleg": "9 maal 9 is 81."
+          "uitleg": "\\(9 \\cdot 9 = 81\\)."
         },
         {
           "type": "meerkeuze",
-          "vraag": "Wat is de derdemachtswortel van 27?",
+          "vraag": "Wat is \\(\\sqrt[3]{27}\\)?",
           "opties": [
-            "3",
-            "9 in totaal",
-            "6 in totaal",
-            "27 in totaal"
+            "\\(3\\)",
+            "\\(9\\)",
+            "\\(6\\)",
+            "\\(27\\)"
           ],
           "antwoord": 0,
-          "uitleg": "3 maal 3 maal 3 is 27."
+          "uitleg": "\\(3 \\cdot 3 \\cdot 3 = 27\\)."
         },
         {
           "type": "invultekst",
-          "vraag": "Wat is de derdemachtswortel van 64? Een getal.",
+          "vraag": "Wat is \\(\\sqrt[3]{64}\\)? Een getal.",
           "antwoord": [
             "4",
             "vier"
           ],
-          "uitleg": "4 maal 4 maal 4 is 64."
+          "uitleg": "\\(4 \\cdot 4 \\cdot 4 = 64\\)."
         },
         {
           "type": "meerkeuze",
-          "vraag": "Hoe vereenvoudig je de wortel van 50?",
+          "vraag": "Hoe vereenvoudig je \\(\\sqrt{50}\\)?",
           "opties": [
-            "5 maal de wortel van 2",
-            "2 maal de wortel van 5",
-            "10 maal de wortel van 5",
-            "25 maal de wortel van 2"
+            "\\(5\\sqrt{2}\\)",
+            "\\(2\\sqrt{5}\\)",
+            "\\(10\\sqrt{5}\\)",
+            "\\(25\\sqrt{2}\\)"
           ],
           "antwoord": 0,
-          "uitleg": "50 is 25 maal 2, en de wortel van 25 is 5. Zo haal je het kwadraat uit de wortel."
+          "uitleg": "\\(50 = 25 \\cdot 2\\) en \\(\\sqrt{25} = 5\\). Zo haal je het kwadraat uit de wortel."
         },
         {
           "type": "waarofniet",
-          "vraag": "De wortel van 8 is gelijk aan 2 maal de wortel van 2.",
+          "vraag": "\\(\\sqrt{8} = 2\\sqrt{2}\\)",
           "antwoord": true,
-          "uitleg": "8 is 4 maal 2, en de wortel van 4 is 2."
+          "uitleg": "\\(8 = 4 \\cdot 2\\) en \\(\\sqrt{4} = 2\\)."
         },
         {
           "type": "meerkeuze",
-          "vraag": "Welke uitdrukkingen zijn gelijk aan 6?",
+          "vraag": "Welke uitdrukkingen zijn gelijk aan \\(6\\)?",
           "opties": [
-            "de wortel van 36",
-            "de wortel van 3 maal de wortel van 12",
-            "de derdemachtswortel van 216",
-            "de wortel van 9 plus de wortel van 16"
+            "\\(\\sqrt{36}\\)",
+            "\\(\\sqrt{3} \\cdot \\sqrt{12}\\)",
+            "\\(\\sqrt[3]{216}\\)",
+            "\\(\\sqrt{9} + \\sqrt{16}\\)"
           ],
           "antwoord": [
             0,
             1,
             2
           ],
-          "uitleg": "De wortel van 3 maal 12 is de wortel van 36, en 6 maal 6 maal 6 is 216. De laatste is 3 plus 4, dus 7."
+          "uitleg": "\\(\\sqrt{3} \\cdot \\sqrt{12} = \\sqrt{36}\\) en \\(6^{3} = 216\\). De laatste is \\(3 + 4 = 7\\)."
         },
         {
           "type": "meerkeuze",
-          "vraag": "Welke uitdrukkingen zijn gelijk aan 2 tot de vijfde?",
+          "vraag": "Welke uitdrukkingen zijn gelijk aan \\(2^{5}\\)?",
           "opties": [
-            "32",
-            "2 tot de derde maal 2 in het kwadraat",
-            "2 tot de zesde gedeeld door 2",
-            "2 maal 5"
+            "\\(32\\)",
+            "\\(2^{3} \\cdot 2^{2}\\)",
+            "\\(\\frac{2^{6}}{2}\\)",
+            "\\(2 \\cdot 5\\)"
           ],
           "antwoord": [
             0,
             1,
             2
           ],
-          "uitleg": "Bij hetzelfde grondtal tel je de exponenten op bij een product en trek je ze af bij een quotiënt. 2 maal 5 is gewoon 10."
+          "uitleg": "Bij hetzelfde grondtal tel je de exponenten op bij een product en trek je ze af bij een quotiënt. \\(2 \\cdot 5\\) is gewoon \\(10\\)."
         },
         {
           "type": "invultekst",
-          "vraag": "Wat is 10 tot de macht min 2 in decimale vorm? Een getal.",
+          "vraag": "Wat is \\(10^{-2}\\) in decimale vorm? Een getal.",
           "antwoord": [
             "0,01",
             "0.01"
           ],
-          "uitleg": "Een negatieve exponent betekent één gedeeld door de macht: 1 gedeeld door 100 is 0,01."
+          "uitleg": "Een negatieve exponent betekent \\(\\frac{1}{10^{2}} = \\frac{1}{100} = 0{,}01\\)."
         },
         {
           "type": "meerkeuze",
-          "vraag": "Wat is 3 tot de vierde gedeeld door 3 in het kwadraat?",
+          "vraag": "Wat is \\(\\frac{3^{4}}{3^{2}}\\)?",
           "opties": [
-            "9",
-            "3 in totaal",
-            "27 in totaal",
-            "81 in totaal"
+            "\\(9\\)",
+            "\\(3\\)",
+            "\\(27\\)",
+            "\\(81\\)"
           ],
           "antwoord": 0,
-          "uitleg": "Exponenten aftrekken: 4 min 2 is 2, dus 3 in het kwadraat is 9."
+          "uitleg": "Exponenten aftrekken: \\(4 - 2 = 2\\), dus \\(3^{2} = 9\\)."
         },
         {
           "type": "waarofniet",
-          "vraag": "Een getal tot de macht nul is altijd gelijk aan 1.",
+          "vraag": "\\(a^{0} = 1\\) voor elk grondtal \\(a\\) dat niet nul is.",
           "antwoord": true,
-          "uitleg": "Zolang het grondtal niet nul is. Het volgt uit de regel dat je exponenten aftrekt bij delen."
+          "uitleg": "Het volgt uit de regel dat je exponenten aftrekt bij delen: \\(\\frac{a^{3}}{a^{3}} = a^{0} = 1\\)."
         },
         {
           "type": "meerkeuze",
-          "vraag": "Hoe maak je de noemer van 1 gedeeld door de wortel van 3 wortelvrij?",
+          "vraag": "Hoe maak je de noemer van \\(\\frac{1}{\\sqrt{3}}\\) wortelvrij?",
           "opties": [
             "vermenigvuldig boven en onder met die wortel",
             "vermenigvuldig enkel de noemer met 3 zelf",
@@ -354,25 +354,25 @@
             "trek de wortel van beide delen af"
           ],
           "antwoord": 0,
-          "uitleg": "Je krijgt de wortel van 3 gedeeld door 3. De waarde blijft gelijk, de noemer wordt een geheel getal."
+          "uitleg": "Je krijgt \\(\\frac{\\sqrt{3}}{3}\\). De waarde blijft gelijk, de noemer wordt een geheel getal."
         },
         {
           "type": "meerkeuze",
-          "vraag": "Wat is de wortel van 2 plus 3 maal de wortel van 2?",
+          "vraag": "Wat is \\(\\sqrt{2} + 3\\sqrt{2}\\)?",
           "opties": [
-            "4 maal de wortel van 2",
-            "4 maal de wortel van 4",
-            "3 maal de wortel van 4",
-            "de wortel van 8"
+            "\\(4\\sqrt{2}\\)",
+            "\\(4\\sqrt{4}\\)",
+            "\\(3\\sqrt{4}\\)",
+            "\\(\\sqrt{8}\\)"
           ],
           "antwoord": 0,
-          "uitleg": "Gelijke wortelvormen tel je op als gelijke termen: 1 plus 3 keer de wortel van 2."
+          "uitleg": "Gelijke wortelvormen tel je op als gelijke termen: \\((1 + 3)\\sqrt{2}\\)."
         },
         {
           "type": "waarofniet",
-          "vraag": "De wortel van een som is gelijk aan de som van de wortels.",
+          "vraag": "\\(\\sqrt{a + b} = \\sqrt{a} + \\sqrt{b}\\)",
           "antwoord": false,
-          "uitleg": "Tegenvoorbeeld: de wortel van 9 plus 16 is 5, maar 3 plus 4 is 7. Een klassieke fout."
+          "uitleg": "Tegenvoorbeeld: \\(\\sqrt{9 + 16} = 5\\), maar \\(3 + 4 = 7\\). Een klassieke fout."
         },
         {
           "type": "meerkeuze",
@@ -392,7 +392,7 @@
         },
         {
           "type": "meerkeuze",
-          "vraag": "Welke eigenschap gebruik je als je 3 maal 7 plus 3 maal 3 schrijft als 3 maal 10?",
+          "vraag": "Welke eigenschap gebruik je als je \\(3 \\cdot 7 + 3 \\cdot 3\\) schrijft als \\(3 \\cdot 10\\)?",
           "opties": [
             "de distributiviteit",
             "de commutativiteit",
@@ -400,7 +400,7 @@
             "de afrondingsregel"
           ],
           "antwoord": 0,
-          "uitleg": "Je haalt de gemeenschappelijke factor 3 buiten. Dat is distributiviteit, van rechts naar links gelezen."
+          "uitleg": "Je haalt de gemeenschappelijke factor \\(3\\) buiten. Dat is distributiviteit, van rechts naar links gelezen."
         },
         {
           "type": "invultekst",
@@ -410,37 +410,37 @@
             "commutatief",
             "wisseleigenschap"
           ],
-          "uitleg": "De commutativiteit: 3 maal 5 is gelijk aan 5 maal 3."
+          "uitleg": "De commutativiteit: \\(3 \\cdot 5 = 5 \\cdot 3\\)."
         },
         {
           "type": "meerkeuze",
-          "vraag": "Wat is min 2 in de derde macht?",
+          "vraag": "Wat is \\((-2)^{3}\\)?",
           "opties": [
-            "min 8",
-            "8 in totaal",
-            "min 6",
-            "6 in totaal"
+            "\\(-8\\)",
+            "\\(8\\)",
+            "\\(-6\\)",
+            "\\(6\\)"
           ],
           "antwoord": 0,
-          "uitleg": "Een oneven exponent houdt het minteken: min 2 maal min 2 maal min 2 is min 8."
+          "uitleg": "Een oneven exponent houdt het minteken: \\((-2)(-2)(-2) = -8\\)."
         },
         {
           "type": "waarofniet",
-          "vraag": "Min 3 in het kwadraat is gelijk aan min 9.",
+          "vraag": "\\((-3)^{2} = -9\\)",
           "antwoord": false,
-          "uitleg": "Een even exponent maakt het resultaat positief: min 3 maal min 3 is 9. Let wel op de haakjes."
+          "uitleg": "Een even exponent maakt het resultaat positief: \\((-3)(-3) = 9\\). Let wel op de haakjes, want \\(-3^{2} = -9\\)."
         },
         {
           "type": "meerkeuze",
-          "vraag": "Wat is a tot de derde maal a tot de vijfde in lettervorm?",
+          "vraag": "Wat is \\(a^{3} \\cdot a^{5}\\)?",
           "opties": [
-            "a tot de achtste",
-            "a tot de vijftiende",
-            "a in het kwadraat",
-            "2a tot de achtste"
+            "\\(a^{8}\\)",
+            "\\(a^{15}\\)",
+            "\\(a^{2}\\)",
+            "\\(2a^{8}\\)"
           ],
           "antwoord": 0,
-          "uitleg": "Bij hetzelfde grondtal tel je de exponenten op: 3 plus 5 is 8."
+          "uitleg": "Bij hetzelfde grondtal tel je de exponenten op: \\(3 + 5 = 8\\)."
         },
         {
           "type": "meerkeuze",

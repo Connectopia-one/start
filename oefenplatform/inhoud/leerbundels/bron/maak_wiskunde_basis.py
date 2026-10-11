@@ -39,86 +39,111 @@ zet("de-reele-getallen-wortels-en-machten",
     secties=[
         dict(kop="De getallenverzamelingen", blokken=[
             ("p", "De verzamelingen zitten in elkaar als Russische poppetjes: elke kleinere zit volledig in "
-                  "de grotere. <strong>Het getal 7 is dus tegelijk natuurlijk, geheel, rationaal én "
-                  "reëel.</strong>"),
+                  "de grotere. <strong>Het getal 7 hoort dus tegelijk in \\(\\mathbb{N}\\), \\(\\mathbb{Z}\\), "
+                  "\\(\\mathbb{Q}\\) en \\(\\mathbb{R}\\)</strong> — natuurlijk, geheel, rationaal én reëel."),
+            ("fig", svg.getallenverzamelingen(),
+             "elke kleinere verzameling zit volledig in de grotere"),
             ("kader", tabel(["verzameling", "teken", "wat erbij komt", "voorbeelden"],
-                            [["de natuurlijke getallen", "ℕ", "de telgetallen", "0, 1, 2, 7"],
-                             ["<strong>de gehele getallen</strong>", "ℤ", "<strong>de negatieve getallen</strong>; <strong>alle natuurlijke getallen zitten erin</strong>",
-                              "<strong>min 5</strong>, min 1, 0, 7"],
-                             ["<strong>de rationale getallen</strong>", "ℚ", "alles wat je <strong>als breuk van twee gehele getallen</strong> kan schrijven",
-                              "<strong>0,75</strong>, <strong>min twee derde</strong>, <strong>4</strong>, 3/4"],
-                             ["<strong>de reële getallen</strong>", "ℝ", "ook <strong>de irrationale</strong>: wat géén breuk is",
-                              "<strong>de wortel van 2</strong>, <strong>pi</strong>, <strong>de wortel van 3</strong>"]])),
-            ("p", "<strong>Niet elk reëel getal is dus rationaal</strong>; het is net omgekeerd: de reële "
-                  "getallen omvatten de rationale én de irrationale. <strong>De reële getallen zijn nodig om "
-                  "de getallenas vol te maken</strong>: tussen de breuken zitten gaten, want de wortel van 2 "
-                  "en pi liggen wel op de as maar zijn geen breuk. <strong>De wortel van 2 staat niet bij de "
-                  "rationale getallen omdat ze geen breuk is</strong> — men kan bewijzen dat geen enkele "
-                  "breuk haar precies gelijk is."),
+                            [["de natuurlijke getallen", "\\(\\mathbb{N}\\)", "de telgetallen", "\\(0\\), \\(1\\), \\(2\\), \\(7\\)"],
+                             ["<strong>de gehele getallen</strong>", "\\(\\mathbb{Z}\\)", "<strong>de negatieve getallen</strong>; <strong>alle natuurlijke getallen zitten erin</strong>",
+                              "<strong>\\(-5\\)</strong>, \\(-1\\), \\(0\\), \\(7\\)"],
+                             ["<strong>de rationale getallen</strong>", "\\(\\mathbb{Q}\\)", "alles wat je <strong>als breuk \\(\\frac{a}{b}\\) van twee gehele getallen</strong> kan schrijven",
+                              "<strong>\\(0{,}75\\)</strong>, <strong>\\(-\\frac{2}{3}\\)</strong>, <strong>\\(4\\)</strong>, \\(\\frac{3}{4}\\)"],
+                             ["<strong>de reële getallen</strong>", "\\(\\mathbb{R}\\)", "ook <strong>de irrationale</strong>: wat géén breuk is, \\(\\mathbb{R} \\setminus \\mathbb{Q}\\)",
+                              "<strong>\\(\\sqrt{2}\\)</strong>, <strong>\\(\\pi\\)</strong>, <strong>\\(\\sqrt{3}\\)</strong>"]])),
+            ("p", "Het teken \\(\\subset\\) betekent “zit in”: \\(\\mathbb{N} \\subset \\mathbb{Z} \\subset "
+                  "\\mathbb{Q} \\subset \\mathbb{R}\\). Lees die ketting niet achterstevoren. "
+                  "<strong>Niet elk reëel getal is dus rationaal</strong>; het is net omgekeerd, want de reële "
+                  "getallen omvatten de rationale én de irrationale. En \\(-5 \\in \\mathbb{Z}\\) maar "
+                  "\\(-5 \\notin \\mathbb{N}\\): <strong>de gehele getallen voegen de negatieve toe aan de "
+                  "natuurlijke</strong>."),
+        ]),
+        dict(kop="Waarom de reële getallen nodig zijn", blokken=[
+            ("p", "<strong>De reële getallen zijn nodig om de getallenas vol te maken.</strong> Tussen de "
+                  "breuken zitten gaten: \\(\\sqrt{2}\\) en \\(\\pi\\) liggen wél op de as, maar ze zijn geen "
+                  "breuk. <strong>\\(\\sqrt{2}\\) staat niet bij de rationale getallen omdat ze geen breuk "
+                  "is</strong> — men kan bewijzen dat geen enkele breuk haar precies gelijk is."),
+            ("fig", svg.getallenlijn(470, 0, 4,
+                                     [(0, "0", svg.INK, False), (1, "1", svg.INK, False),
+                                      (2, "2", svg.INK, False), (3, "3", svg.INK, False),
+                                      (4, "4", svg.INK, False),
+                                      (0.75, "3/4", svg.FOREST, True),
+                                      (1.4142, "√2", svg.AMBER, True),
+                                      (3.1416, "π", svg.AMBER, True)], hoogte=96),
+             "de groene breuk is rationaal, de twee oranje getallen zijn het niet"),
         ]),
         dict(kop="De decimale vorm verraadt de soort", blokken=[
             ("kader", tabel(["decimale vorm", "wat ze betekent", "voorbeeld"],
-                            [["<strong>begrensd</strong> (eindig)", "na enkele cijfers stopt ze", "<strong>0,25</strong>"],
+                            [["<strong>begrensd</strong> (eindig)", "na enkele cijfers stopt ze", "<strong>\\(0{,}25\\)</strong>"],
                              ["<strong>onbegrensd repeterend</strong>", "de cijfers stoppen niet maar herhalen een patroon",
-                              "<strong>een derde</strong> = 0,333…"],
+                              "<strong>\\(\\frac{1}{3} = 0{,}333\\ldots\\)</strong>"],
                              ["<strong>onbegrensd niet-repeterend</strong>", "de cijfers stoppen nooit en herhalen nooit — <strong>dan is het getal irrationaal</strong>",
-                              "<strong>pi</strong>"]])),
-            ("p", "De vakfiche noemt vier <strong>vormen</strong> van een getal: de <strong>decimale "
+                              "<strong>\\(\\pi\\)</strong>"]])),
+            ("p", "De vakfiche noemt de <strong>vormen</strong> van een getal: de <strong>decimale "
                   "vorm</strong>, de <strong>wortelvorm</strong>, de <strong>breuk en het procent</strong>. "
                   "Een lettervorm is geen getalvorm. Omzetten van de ene vorm naar de andere "
                   "<strong>mag met ICT</strong>; de vakfiche vraagt dat zelfs uitdrukkelijk."),
-            ("p", "Van breuk naar procent deel je gewoon uit. <strong>Drie vijfde is 0,6, dus 60 "
-                  "procent.</strong> En omgekeerd werkt een procent als een kommagetal: <strong>12 procent "
-                  "van 250 is 0,12 × 250 = 30</strong>."),
+            ("p", "Van breuk naar procent deel je gewoon uit: <strong>\\(\\frac{3}{5} = 0{,}6 = 60\\,\\%\\)</strong>. "
+                  "En omgekeerd werkt een procent als een kommagetal: <strong>\\(12\\,\\%\\) van \\(250\\) is "
+                  "\\(0{,}12 \\cdot 250 = 30\\)</strong>."),
+            ("p", "Wil je getallen vergelijken, breng ze dan allemaal naar de decimale vorm. "
+                  "\\(0{,}8\\) tegen \\(\\frac{3}{4} = 0{,}75\\), \\(\\frac{7}{10} = 0{,}7\\) en "
+                  "\\(\\frac{2}{3} \\approx 0{,}67\\): <strong>\\(0{,}8\\) is dan duidelijk het grootste</strong>."),
         ]),
         dict(kop="De wetenschappelijke notatie", blokken=[
-            ("p", "Een getal in wetenschappelijke notatie is een getal <strong>tussen 1 en 10</strong>, maal "
-                  "een macht van tien. <strong>Voor de macht mag dus niet elk getal staan</strong>: 45 × 10³ "
-                  "is niet correct genoteerd, want 45 ligt niet tussen 1 en 10."),
+            ("p", "Een getal in wetenschappelijke notatie is een getal <strong>tussen \\(1\\) en \\(10\\)</strong>, maal "
+                  "een macht van tien: \\(a \\cdot 10^{n}\\) met \\(1 \\leq a < 10\\). <strong>Voor de macht mag "
+                  "dus niet elk getal staan</strong>: \\(45 \\cdot 10^{3}\\) is niet correct genoteerd, want "
+                  "\\(45\\) ligt niet tussen \\(1\\) en \\(10\\)."),
             ("kader", tabel(["getal", "wetenschappelijke notatie", "waarom"],
-                            [["<strong>45 000</strong>", "<strong>4,5 × 10⁴</strong>", "4,5 maal 10 000 is 45 000"],
-                             ["<strong>0,003</strong>", "<strong>3 × 10⁻³</strong>", "een getal kleiner dan 1 krijgt een <strong>negatieve</strong> exponent"]])),
+                            [["<strong>\\(45\\,000\\)</strong>", "<strong>\\(4{,}5 \\cdot 10^{4}\\)</strong>", "\\(4{,}5 \\cdot 10\\,000 = 45\\,000\\)"],
+                             ["<strong>\\(0{,}003\\)</strong>", "<strong>\\(3 \\cdot 10^{-3}\\)</strong>", "een getal kleiner dan \\(1\\) krijgt een <strong>negatieve</strong> exponent"]])),
         ]),
         dict(kop="Wortels", blokken=[
             ("p", "De vierkantswortel vraagt welk getal maal zichzelf je getal geeft; de derdemachtswortel "
-                  "welk getal drie keer maal zichzelf. <strong>De wortel van 81 is 9</strong> (9 × 9 = 81), "
-                  "<strong>de derdemachtswortel van 27 is 3</strong> en <strong>de derdemachtswortel van 64 "
-                  "is 4</strong>."),
+                  "welk getal drie keer maal zichzelf. <strong>\\(\\sqrt{81} = 9\\)</strong> want "
+                  "\\(9 \\cdot 9 = 81\\), <strong>\\(\\sqrt[3]{27} = 3\\)</strong> en "
+                  "<strong>\\(\\sqrt[3]{64} = 4\\)</strong>."),
             ("p", "<strong>Je vereenvoudigt een wortel door er een kwadraat uit te halen.</strong> "
-                  "<strong>De wortel van 50 is 5 maal de wortel van 2</strong>, want 50 = 25 × 2 en de "
-                  "wortel van 25 is 5. Net zo is <strong>de wortel van 8 gelijk aan 2 maal de wortel van "
-                  "2</strong>, want 8 = 4 × 2."),
+                  "<strong>\\(\\sqrt{50} = 5\\sqrt{2}\\)</strong>, want \\(50 = 25 \\cdot 2\\) en "
+                  "\\(\\sqrt{25} = 5\\). Net zo is <strong>\\(\\sqrt{8} = 2\\sqrt{2}\\)</strong>, "
+                  "want \\(8 = 4 \\cdot 2\\)."),
             ("kader", tabel(["regel", "wat ze zegt", "voorbeeld"],
                             [["wortels vermenigvuldigen", "de wortel van een product is het product van de wortels",
-                              "<strong>de wortel van 3 maal de wortel van 12</strong> is de wortel van 36, dus <strong>6</strong>"],
+                              "<strong>\\(\\sqrt{3} \\cdot \\sqrt{12} = \\sqrt{36} = 6\\)</strong>"],
                              ["gelijke wortelvormen optellen", "je telt ze op als gelijke termen",
-                              "<strong>de wortel van 2 plus 3 maal de wortel van 2 is 4 maal de wortel van 2</strong>"],
+                              "<strong>\\(\\sqrt{2} + 3\\sqrt{2} = 4\\sqrt{2}\\)</strong>"],
                              ["<strong>de noemer wortelvrij maken</strong>", "<strong>vermenigvuldig boven en onder met die wortel</strong>",
-                              "1 gedeeld door de wortel van 3 wordt de wortel van 3 gedeeld door 3"]])),
-            ("p", "En één valstrik: <strong>de wortel van een som is níét de som van de wortels</strong>. "
-                  "Het tegenvoorbeeld staat klaar: de wortel van 9 + 16 is de wortel van 25, dus 5, terwijl "
-                  "3 + 4 gelijk is aan 7."),
+                              "\\(\\frac{1}{\\sqrt{3}} = \\frac{\\sqrt{3}}{3}\\)"]])),
+            ("p", "En één valstrik: <strong>de wortel van een som is níét de som van de wortels</strong>, dus "
+                  "\\(\\sqrt{a + b} \\neq \\sqrt{a} + \\sqrt{b}\\). Het tegenvoorbeeld staat klaar: "
+                  "\\(\\sqrt{9 + 16} = \\sqrt{25} = 5\\), terwijl \\(3 + 4 = 7\\)."),
+            ("p", "Ook handig om te weten: \\(\\sqrt[3]{216} = 6\\), want \\(6^{3} = 216\\)."),
         ]),
         dict(kop="Machten", blokken=[
             ("kader", tabel(["regel", "voorbeeld"],
-                            [["bij een product tel je de exponenten op", "<strong>2³ × 2² = 2⁵ = 32</strong>; in lettervorm <strong>a³ × a⁵ = a⁸</strong>"],
-                             ["bij een quotiënt trek je ze af", "<strong>2⁶ gedeeld door 2 is 2⁵</strong>; <strong>3⁴ gedeeld door 3² is 3² = 9</strong>"],
-                             ["<strong>een negatieve exponent</strong> is één gedeeld door de macht", "<strong>10⁻² = 0,01</strong>"],
-                             ["<strong>een macht nul is altijd 1</strong>", "zolang het grondtal niet nul is; het volgt uit de aftrekregel"],
-                             ["een <strong>oneven</strong> exponent houdt het minteken", "<strong>(min 2)³ = min 8</strong>"],
-                             ["een <strong>even</strong> exponent maakt het positief", "<strong>(min 3)² = 9</strong>, dus niet min 9 — let op de haakjes"]])),
-            ("p", "Let op het verschil tussen een macht en een vermenigvuldiging: 2 × 5 is gewoon 10, en dat "
-                  "is iets heel anders dan 2⁵."),
+                            [["bij een product tel je de exponenten op", "<strong>\\(2^{3} \\cdot 2^{2} = 2^{5} = 32\\)</strong>; in lettervorm <strong>\\(a^{3} \\cdot a^{5} = a^{8}\\)</strong>"],
+                             ["bij een quotiënt trek je ze af", "<strong>\\(\\frac{2^{6}}{2} = 2^{5}\\)</strong>; <strong>\\(\\frac{3^{4}}{3^{2}} = 3^{2} = 9\\)</strong>"],
+                             ["<strong>een negatieve exponent</strong> is één gedeeld door de macht", "<strong>\\(10^{-2} = \\frac{1}{100} = 0{,}01\\)</strong>"],
+                             ["<strong>een macht nul is altijd 1</strong>", "\\(a^{0} = 1\\) zolang het grondtal niet nul is; het volgt uit de aftrekregel"],
+                             ["een <strong>oneven</strong> exponent houdt het minteken", "<strong>\\((-2)^{3} = -8\\)</strong>"],
+                             ["een <strong>even</strong> exponent maakt het positief", "<strong>\\((-3)^{2} = 9\\)</strong>, dus niet \\(-9\\) — let op de haakjes, want \\(-3^{2} = -9\\)"]])),
+            ("p", "Let op het verschil tussen een macht en een vermenigvuldiging: \\(2 \\cdot 5 = 10\\), en dat "
+                  "is iets heel anders dan \\(2^{5} = 32\\)."),
         ]),
         dict(kop="De bewerkingseigenschappen", blokken=[
             ("p", "De vakfiche noemt er <strong>drie</strong>, elk in woorden en in symbolen."),
             ("kader", tabel(["eigenschap", "wat ze zegt", "voorbeeld"],
                             [["<strong>de commutativiteit</strong> (de wisseleigenschap)", "<strong>de orde van twee factoren maakt niet uit</strong>",
-                              "3 × 5 = 5 × 3"],
+                              "\\(3 \\cdot 5 = 5 \\cdot 3\\)"],
                              ["<strong>de associativiteit</strong>", "de manier van groeperen maakt niet uit",
-                              "(2 + 3) + 4 = 2 + (3 + 4)"],
+                              "\\((2 + 3) + 4 = 2 + (3 + 4)\\)"],
                              ["<strong>de distributiviteit</strong>", "je verdeelt een factor over elke term, of je haalt hem er juist buiten",
-                              "<strong>3 × 7 + 3 × 3 = 3 × 10</strong>: de gemeenschappelijke factor 3 buiten haakjes"]])),
+                              "<strong>\\(3 \\cdot 7 + 3 \\cdot 3 = 3 \\cdot 10\\)</strong>: de gemeenschappelijke factor \\(3\\) buiten haakjes"]])),
+        ]),
+        dict(kop="Exact werken", blokken=[
+            ("p", "Transitiviteit staat er niet bij in dat rijtje; dat is een eigenschap van een orde, niet "
+                  "van een bewerking."),
             ("weetje", "<strong>Werk zo lang mogelijk exact</strong>, want <strong>afronden onderweg "
                        "vervalst je resultaat</strong>. De vakfiche zegt het letterlijk: hoe onnauwkeuriger "
                        "je tussenresultaten, hoe meer je eindresultaat afwijkt."),

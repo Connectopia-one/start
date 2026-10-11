@@ -10054,3 +10054,31 @@ def afgekapteas(breedte=470):
     d = paneeltje(marge, 0, 100, "as vanaf 0", [0, 25, 50, 75, 100])
     d += paneeltje(marge + paneel + tussen, 96, 99, "as vanaf 96", [96, 97, 98, 99])
     return _svg(breedte, h, "\n".join(d))
+
+
+def getallenverzamelingen(breedte=470):
+    """De vier verzamelingen als dozen in elkaar, ℝ erbij.
+
+    `getallensoorten` stopt bij ℚ, want daar stopt de eerste graad. Vanaf de
+    tweede graad komt ℝ erbij, en dan is net de buitenste ring het punt: daar
+    zitten de getallen die géén breuk zijn.
+    """
+    h = 258
+    lagen = [
+        ("ℝ  reële getallen", "de getallenas is nu vol", "√2 · π · √3", AMBER, 0),
+        ("ℚ  rationale getallen", "alles wat een breuk is", "−3/4 · 0,25 · 2,5", "#7a5b8f", 1),
+        ("ℤ  gehele getallen", "de negatieve erbij", "−7 · −1", "#5b7f9c", 2),
+        ("ℕ  natuurlijke", "om te tellen", "0 · 1 · 7", FOREST, 3),
+    ]
+    d = []
+    for kop, onder, voorbeeld, kleur, i in lagen:
+        pad = 18 + i * 44
+        y0 = 10 + i * 30
+        y1 = h - 16 - i * 30
+        d.append(f'<rect x="{pad}" y="{y0}" width="{breedte-2*pad}" height="{y1-y0}" rx="12" '
+                 f'fill="none" stroke="{kleur}" stroke-width="1.8"/>')
+        d.append(_tekst(pad + 13, y0 + 19, kop, 11.5, kleur, anker="start", vet=True))
+        if i < 3:
+            d.append(_tekst(breedte - pad - 13, y0 + 19, onder, 9, DIM, anker="end"))
+        d.append(_tekst(breedte / 2, y1 - 10, voorbeeld, 10.5, kleur))
+    return _svg(breedte, h, "".join(d))
