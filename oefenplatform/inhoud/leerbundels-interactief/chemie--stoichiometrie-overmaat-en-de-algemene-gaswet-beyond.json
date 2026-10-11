@@ -16,7 +16,7 @@
     },
     {
      "soort": "tekst",
-     "html": "Drie vergelijkingen om te kennen. Het verbranden van methaan is <strong>CH₄ + 2 O₂ → CO₂ + 2 H₂O</strong>: de coëfficiënt voor <strong>H₂O</strong> is <strong>2</strong>, want methaan heeft vier waterstofatomen en elke watermolecule gebruikt er twee. Bij propaan, C₃H₈ + … O₂ → 3 CO₂ + 4 H₂O, is de coëfficiënt voor O₂ <strong>5</strong>: rechts staan zes plus vier, dus tien zuurstofatomen. De vorming van aluminiumoxide is <strong>4 Al + 3 O₂ → 2 Al₂O₃</strong>."
+     "html": "Drie vergelijkingen om te kennen. Het verbranden van methaan is <strong>CH₄ + 2 O₂ → CO₂ + 2 H₂O</strong>: de coëfficiënt voor <strong>H₂O</strong> is <strong>\\(2\\)</strong>, want methaan heeft vier waterstofatomen en elke watermolecule gebruikt er twee. Bij propaan, C₃H₈ + … O₂ → 3 CO₂ + 4 H₂O, is de coëfficiënt voor O₂ <strong>\\(5\\)</strong>: rechts staan zes plus vier, dus tien zuurstofatomen. De vorming van aluminiumoxide is <strong>4 Al + 3 O₂ → 2 Al₂O₃</strong>."
     },
     {
      "soort": "tekst",
@@ -33,15 +33,15 @@
     },
     {
      "soort": "tekst",
-     "html": "Oefen de verhouding op <strong>N₂ + 3 H₂ → 2 NH₃</strong>, dus 1 op 3 op 2. Uit <strong>1 mol stikstofgas</strong> ontstaat <strong>2 mol</strong> ammoniak, en voor <strong>2 mol ammoniak</strong> is <strong>3 mol</strong> waterstofgas nodig."
+     "html": "Oefen de verhouding op <strong>N₂ + 3 H₂ → 2 NH₃</strong>, dus 1 op 3 op 2. Uit <strong>\\(1\\) mol stikstofgas</strong> ontstaat <strong>\\(2\\) mol</strong> ammoniak, en voor <strong>\\(2\\) mol ammoniak</strong> is <strong>\\(3\\) mol</strong> waterstofgas nodig."
     },
     {
      "soort": "tekst",
-     "html": "En op <strong>2 H₂ + O₂ → 2 H₂O</strong>, dus 2 op 1 op 2. Voor <strong>4 mol waterstofgas</strong> is <strong>2 mol</strong> zuurstofgas nodig, en uit <strong>3 mol waterstofgas</strong> komt <strong>3 mol</strong> water, want waterstofgas en water staan één op één."
+     "html": "En op <strong>2 H₂ + O₂ → 2 H₂O</strong>, dus 2 op 1 op 2. Voor <strong>\\(4\\) mol waterstofgas</strong> is <strong>\\(2\\) mol</strong> zuurstofgas nodig, en uit <strong>\\(3\\) mol waterstofgas</strong> komt <strong>\\(3\\) mol</strong> water, want waterstofgas en water staan één op één."
     },
     {
      "soort": "tekst",
-     "html": "Bij <strong>2 Mg + O₂ → 2 MgO</strong> geldt: <strong>per 2 mol magnesium is er 1 mol zuurstofgas nodig</strong> en <strong>er ontstaat evenveel mol magnesiumoxide als er magnesium reageert</strong>. Uit <strong>2 mol magnesium</strong> komt bij M(MgO) 40 g/mol dus <strong>80 gram</strong> magnesiumoxide. Bij de ontleding <strong>CaCO₃ → CaO + CO₂</strong> geeft <strong>100 gram kalksteen</strong> (M 100 g/mol) <strong>1 mol</strong> koolstofdioxide. En voor het volledig verbranden van <strong>1 mol propaan C₃H₈</strong> is <strong>5 mol</strong> zuurstofgas nodig."
+     "html": "Bij <strong>2 Mg + O₂ → 2 MgO</strong> geldt: <strong>per \\(2\\) mol magnesium is er \\(1\\) mol zuurstofgas nodig</strong> en <strong>er ontstaat evenveel mol magnesiumoxide als er magnesium reageert</strong>. Uit <strong>\\(2\\) mol magnesium</strong> komt bij M(MgO) \\(40\\) g/mol dus <strong>\\(80\\) gram</strong> magnesiumoxide. Bij de ontleding <strong>CaCO₃ → CaO + CO₂</strong> geeft <strong>100 gram kalksteen</strong> (M \\(100\\) g/mol) <strong>\\(1\\) mol</strong> koolstofdioxide. En voor het volledig verbranden van <strong>\\(1\\) mol propaan C₃H₈</strong> is <strong>\\(5\\) mol</strong> zuurstofgas nodig."
     }
    ]
   },
@@ -54,11 +54,11 @@
     },
     {
      "soort": "tekst",
-     "html": "Je vindt het limiterend reagens door <strong>van elke stof het aantal mol door haar coëfficiënt te delen</strong>; de kleinste uitkomst hoort bij het beperkend reagens. <strong>Het is dus niet altijd de stof waarvan je het minste mol hebt</strong>, want de coëfficiënten tellen mee. Met <strong>1 mol N₂ en 6 mol H₂</strong> voor N₂ + 3 H₂ → 2 NH₃ geeft 1/1 = 1 en 6/3 = 2, dus is <strong>het stikstofgas</strong> beperkend."
+     "html": "Je vindt het limiterend reagens door <strong>van elke stof het aantal mol door haar coëfficiënt te delen</strong>; de kleinste uitkomst hoort bij het beperkend reagens. <strong>Het is dus niet altijd de stof waarvan je het minste mol hebt</strong>, want de coëfficiënten tellen mee. Met <strong>1 mol N₂ en 6 mol H₂</strong> voor N₂ + 3 H₂ → 2 NH₃ geeft \\(\\tfrac{1}{1} = 1\\) en \\(\\tfrac{6}{3} = 2\\), dus is <strong>het stikstofgas</strong> beperkend."
     },
     {
      "soort": "tekst",
-     "html": "Laat je <strong>2 mol H₂ met 2 mol O₂</strong> reageren volgens 2 H₂ + O₂ → 2 H₂O, dan is <strong>het zuurstofgas in overmaat</strong> en ontstaat er <strong>2 mol</strong> water; één mol zuurstofgas blijft over. Algemeen geldt: <strong>van de stof in overmaat blijft er na de reactie over</strong> en <strong>de stof in overmaat bepaalt niet hoeveel product er ontstaat</strong>. In de industrie werkt men daarom soms <strong>met een overmaat van de goedkoopste stof</strong>, <strong>zodat de dure stof zo volledig mogelijk wegreageert</strong>; het overschot wordt vaak hergebruikt."
+     "html": "Laat je <strong>\\(2\\) mol H₂ met \\(2\\) mol O₂</strong> reageren volgens 2 H₂ + O₂ → 2 H₂O, dan is <strong>het zuurstofgas in overmaat</strong> en ontstaat er <strong>\\(2\\) mol</strong> water; één mol zuurstofgas blijft over. Algemeen geldt: <strong>van de stof in overmaat blijft er na de reactie over</strong> en <strong>de stof in overmaat bepaalt niet hoeveel product er ontstaat</strong>. In de industrie werkt men daarom soms <strong>met een overmaat van de goedkoopste stof</strong>, <strong>zodat de dure stof zo volledig mogelijk wegreageert</strong>; het overschot wordt vaak hergebruikt."
     }
    ]
   },
@@ -67,11 +67,11 @@
    "blokken": [
     {
      "soort": "tekst",
-     "html": "De <strong>algemene gaswet</strong> is <strong>p maal V is gelijk aan n maal R maal T</strong>, met R de algemene gasconstante. De temperatuur moet <strong>in kelvin</strong> staan, want nul kelvin is het absolute nulpunt: <strong>27 °C is 300 K</strong> en 25 °C is 298 K. <strong>De wet geldt ook voor een mengsel van gassen, met n het totale aantal mol</strong>, zoals bij lucht."
+     "html": "De <strong>algemene gaswet</strong> is <strong>p maal V is gelijk aan n maal R maal T</strong>, met R de algemene gasconstante. De temperatuur moet <strong>in kelvin</strong> staan, want nul kelvin is het absolute nulpunt: <strong>\\(27^{\\circ}\\text{C}\\) is \\(300\\) K</strong> en \\(25^{\\circ}\\text{C}\\) is \\(298\\) K. <strong>De wet geldt ook voor een mengsel van gassen, met n het totale aantal mol</strong>, zoals bij lucht."
     },
     {
      "soort": "tekst",
-     "html": "Bij de <strong>normomstandigheden</strong> is <strong>de temperatuur 0 °C of 273 K</strong> en neemt <strong>één mol gas er 22,4 liter</strong> in; bij 25 °C is het molair volume ongeveer 24,5 liter, dus spreek altijd af welke omstandigheden je bedoelt. <strong>2 mol gas</strong> neemt er <strong>44,8 L</strong> in, <strong>11,2 liter</strong> hoort bij <strong>0,5 mol</strong>, en de <strong>1 mol CO₂</strong> uit de ontleding van kalksteen is <strong>22,4 liter</strong> gas; in een warme oven is dat volume groter."
+     "html": "Bij de <strong>normomstandigheden</strong> is <strong>de temperatuur \\(0^{\\circ}\\text{C}\\) of \\(273\\) K</strong> en neemt <strong>één mol gas er \\(22{,}4\\) liter</strong> in; bij \\(25^{\\circ}\\text{C}\\) is het molair volume ongeveer \\(24{,}5\\) liter, dus spreek altijd af welke omstandigheden je bedoelt. <strong>\\(2\\) mol gas</strong> neemt er <strong>\\(44{,}8\\) L</strong> in, <strong>\\(11{,}2\\) liter</strong> hoort bij <strong>\\(0{,}5\\) mol</strong>, en de <strong>\\(1\\) mol CO₂</strong> uit de ontleding van kalksteen is <strong>\\(22{,}4\\) liter</strong> gas; in een warme oven is dat volume groter."
     },
     {
      "soort": "tekst",
@@ -91,6 +91,6 @@
   "Limiterend reagens: deel het aantal mol door de coëfficiënt, kleinste wint.",
   "De stof in overmaat blijft over en bepaalt de opbrengst niet.",
   "pV = nRT, met T altijd in kelvin.",
-  "Eén mol gas is 22,4 liter bij 0 °C; warmer betekent meer volume."
+  "Eén mol gas is \\(22{,}4\\) liter bij \\(0^{\\circ}\\text{C}\\); warmer betekent meer volume."
  ]
 }

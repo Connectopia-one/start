@@ -122,7 +122,7 @@ DEEL1 = [
         ],
         antwoord=[0, 1],
         uitleg="Ze gelden voor alle landen en gaan ook over armoede, gezondheid, "
-        "onderwijs en gelijkheid. Het streefjaar is 2030.",
+        r"onderwijs en gelijkheid. Het streefjaar is \(2030\).",
     ),
     dict(
         type="meerkeuze",
@@ -215,7 +215,7 @@ DEEL1 = [
         type="invultekst",
         vraag="Hoeveel duurzame ontwikkelingsdoelen zijn er?",
         antwoord=["17", "zeventien"],
-        uitleg="Ze werden in 2015 afgesproken bij de Verenigde Naties, met 2030 als "
+        uitleg=r"Ze werden in \(2015\) afgesproken bij de Verenigde Naties, met \(2030\) als "
         "streefjaar.",
     ),
     dict(
@@ -404,7 +404,7 @@ DEEL2 = [
         vraag="Een hoog rendement en een hoge atoomeconomie betekenen hetzelfde.",
         antwoord=False,
         uitleg="Het rendement meet hoeveel je er echt uithaalt, de atoomeconomie wat de "
-        "vergelijking in het beste geval toelaat. Je kan 100 % atoomeconomie hebben met "
+        r"vergelijking in het beste geval toelaat. Je kan \(100\,\%\) atoomeconomie hebben met "
         "een slecht rendement.",
     ),
     dict(

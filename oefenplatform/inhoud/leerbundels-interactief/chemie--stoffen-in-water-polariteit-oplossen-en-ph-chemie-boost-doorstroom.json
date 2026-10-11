@@ -8,7 +8,7 @@
    "blokken": [
     {
      "soort": "tekst",
-     "html": "Een binding is <strong>polair als het verschil in elektronegativiteit minstens 0,4 is</strong>. Onder die waarde geldt ze als <strong>apolair</strong>. Dat is een vaste afspraak, dus een <strong>verschil van 0,2 is apolair</strong>."
+     "html": "Een binding is <strong>polair als het verschil in elektronegativiteit minstens \\(0{,}4\\) is</strong>. Onder die waarde geldt ze als <strong>apolair</strong>. Dat is een vaste afspraak, dus een <strong>verschil van \\(0{,}2\\) is apolair</strong>."
     },
     {
      "soort": "tekst",
@@ -87,7 +87,7 @@
     },
     {
      "soort": "tekst",
-     "html": "Bij <strong>CaCl₂</strong> zijn er <strong>twee chloride-ionen</strong> nodig, want calcium geeft een ion met lading 2+ en elk chloride-ion heeft lading 1−. Bij <strong>HCl</strong> breekt de polaire binding en laat het waterstofatoom zijn elektron bij chloor achter."
+     "html": "Bij <strong>CaCl₂</strong> zijn er <strong>twee chloride-ionen</strong> nodig, want calcium geeft een ion met lading \\(2\\)+ en elk chloride-ion heeft lading \\(1\\)−. Bij <strong>HCl</strong> breekt de polaire binding en laat het waterstofatoom zijn elektron bij chloor achter."
     },
     {
      "soort": "tekst",
@@ -100,7 +100,7 @@
    "blokken": [
     {
      "soort": "tekst",
-     "html": "<strong>Zuiver water heeft een pH van 7</strong> en is neutraal: de concentratie H⁺ en OH⁻ zijn er gelijk. <strong>Onder zeven is een oplossing zuur</strong>, <strong>boven zeven basisch</strong>. Een oplossing met <strong>pH 3 is dus zuur</strong>."
+     "html": "<strong>Zuiver water heeft een pH van \\(7\\)</strong> en is neutraal: de concentratie H⁺ en OH⁻ zijn er gelijk. <strong>Onder zeven is een oplossing zuur</strong>, <strong>boven zeven basisch</strong>. Een oplossing met <strong>pH \\(3\\) is dus zuur</strong>."
     },
     {
      "soort": "tekst",
@@ -126,14 +126,14 @@
   }
  ],
  "onthoud": [
-  "Een binding is polair vanaf een verschil in elektronegativiteit van 0,4; eronder apolair.",
+  "Een binding is polair vanaf een verschil in elektronegativiteit van \\(0{,}4\\); eronder apolair.",
   "Water is polair omdat de molecule gebogen is; CO₂ en CCl₄ zijn symmetrisch en dus apolair.",
   "Waterstofbrug is het sterkst, dan ion-dipool, dan dipool, dan londonkracht.",
   "Gelijk lost op in gelijk; olie is apolair en lost niet op in water.",
   "Hydratatie is het omhullen van een ion door watermoleculen, met ion-dipoolkrachten.",
   "Een elektrolyt geeft ionen en geleidt; suiker en ethanol zijn niet-elektrolyten.",
   "Een zout dissocieert (de ionen bestonden al), een polaire molecule zoals HCl ioniseert.",
-  "pH 7 is neutraal, eronder zuur, erboven basisch; hoe lager de pH, hoe meer H⁺.",
+  "pH \\(7\\) is neutraal, eronder zuur, erboven basisch; hoe lager de pH, hoe meer H⁺.",
   "Lakmoes: rood in zuur, blauw in base. Fenolftaleïne: kleurloos in zuur en neutraal, paars in base."
  ]
 }

@@ -78,7 +78,7 @@ DEEL1 = [
             "ze wordt eerst langer en daarna korter, afhankelijk van de stof",
         ],
         antwoord=0,
-        uitleg="Een C-C is ongeveer 154 pm, een C=C 134 pm en een C≡C 120 pm. Meer "
+        uitleg=r"Een C-C is ongeveer \(154\) pm, een C=C \(134\) pm en een C≡C \(120\) pm. Meer "
         "bindingen betekent korter en sterker.",
     ),
     dict(
@@ -293,7 +293,7 @@ DEEL2 = [
             "het aantal bindende paren min het aantal vrije paren van het atoom",
         ],
         antwoord=0,
-        uitleg="Voor het stikstofatoom in NH₄⁺: 5 − 0 − 4 geeft +1. Dat verklaart de "
+        uitleg=r"Voor het stikstofatoom in NH₄⁺: \(5 - 0 - 4\) geeft +\(1\). Dat verklaart de "
         "lading van het hele ion.",
     ),
     dict(
@@ -367,9 +367,9 @@ DEEL2 = [
         vraag="Welke uitspraken over het ammoniumion NH₄⁺ zijn juist? Kruis alles aan wat juist is.",
         opties=[
             "het heeft vier bindende elektronenparen",
-            "het stikstofatoom heeft formele lading +1",
+            r"het stikstofatoom heeft formele lading +\(1\)",
             "het heeft nog één vrij elektronenpaar over",
-            "het stikstofatoom heeft formele lading −1",
+            r"het stikstofatoom heeft formele lading \(-1\)",
         ],
         antwoord=[0, 1],
         uitleg="Het vrije paar van de stikstof is in de vierde binding gaan zitten. "
@@ -384,7 +384,7 @@ DEEL2 = [
     ),
     dict(
         type="meerkeuze",
-        vraag="Een polyatomisch ion heeft een lading van 2−. Wat betekent dat voor de lewisstructuur?",
+        vraag=r"Een polyatomisch ion heeft een lading van \(2\)−. Wat betekent dat voor de lewisstructuur?",
         opties=[
             "er zitten twee elektronen meer in dan de neutrale atomen samen hebben",
             "er zitten twee protonen minder in dan de neutrale atomen samen hebben",

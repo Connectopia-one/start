@@ -19,7 +19,7 @@ DEEL1 = [
         type="meerkeuze",
         vraag="Wanneer is een binding tussen twee atomen polair?",
         opties=[
-            "als het verschil in elektronegativiteit minstens 0,4 is",
+            r"als het verschil in elektronegativiteit minstens \(0{,}4\) is",
             "als beide atomen een metaal zijn",
             "als de atomen evenveel elektronen hebben",
             "als de stof vast is bij kamertemperatuur",
@@ -167,9 +167,9 @@ DEEL1 = [
     ),
     dict(
         type="waarofniet",
-        vraag="Een binding met een verschil in elektronegativiteit van 0,2 is polair.",
+        vraag=r"Een binding met een verschil in elektronegativiteit van \(0{,}2\) is polair.",
         antwoord=False,
-        uitleg="De afspraak van de fiche legt de grens op 0,4. Onder die waarde geldt de binding als apolair.",
+        uitleg=r"De afspraak van de fiche legt de grens op \(0{,}4\). Onder die waarde geldt de binding als apolair.",
     ),
     dict(
         type="waarofniet",
@@ -268,13 +268,13 @@ DEEL2 = [
         type="meerkeuze",
         vraag="Hoe luidt de dissociatievergelijking van CaCl₂ in water?",
         opties=[
-            "CaCl₂ → Ca²⁺ + 2 Cl¹⁻",
+            r"CaCl₂ → Ca²⁺ + 2 Cl¹⁻",
             "CaCl₂ → Ca¹⁺ + Cl₂¹⁻",
             "CaCl₂ → Ca²⁺ + Cl²⁻",
             "CaCl₂ → CaCl¹⁺ + Cl¹⁻",
         ],
         antwoord=0,
-        uitleg="Calcium geeft een ion met lading 2+ en elk chloride-ion heeft lading 1−, dus zijn er twee chloride-ionen nodig.",
+        uitleg=r"Calcium geeft een ion met lading \(2\)+ en elk chloride-ion heeft lading \(1\)−, dus zijn er twee chloride-ionen nodig.",
     ),
     dict(
         type="meerkeuze",
@@ -290,7 +290,7 @@ DEEL2 = [
     ),
     dict(
         type="meerkeuze",
-        vraag="Wat geldt voor een oplossing met een pH van 3?",
+        vraag=r"Wat geldt voor een oplossing met een pH van \(3\)?",
         opties=[
             "ze is zuur",
             "ze is basisch",
@@ -338,7 +338,7 @@ DEEL2 = [
     ),
     dict(
         type="waarofniet",
-        vraag="Zuiver water heeft een pH van 7.",
+        vraag=r"Zuiver water heeft een pH van \(7\).",
         antwoord=True,
         uitleg="De concentratie H⁺ en OH⁻ zijn er gelijk, dus is de oplossing neutraal.",
     ),

@@ -63,7 +63,7 @@
     },
     {
      "soort": "tekst",
-     "html": "De <strong>orde</strong> lees je zo af. Verdubbel je een concentratie en <strong>verdubbelt de snelheid</strong>, dan is de reactie van <strong>eerste orde</strong> in die stof. Wordt de snelheid <strong>vier keer groter</strong>, dan is het <strong>tweede orde</strong>, want twee tot de macht twee is vier. <strong>Blijft de snelheid gelijk, dan is de reactie van nulde orde</strong> in die stof, want alles tot de macht nul is één; zo'n stof komt niet voor in de snelheidsbepalende stap. De <strong>totale orde</strong> is de som van de exponenten: bij <strong>v is k maal [A]² maal [B]</strong> is dat <strong>drie</strong>."
+     "html": "De <strong>orde</strong> lees je zo af. Verdubbel je een concentratie en <strong>verdubbelt de snelheid</strong>, dan is de reactie van <strong>eerste orde</strong> in die stof. Wordt de snelheid <strong>vier keer groter</strong>, dan is het <strong>tweede orde</strong>, want \\(2^{2}\\) is vier. <strong>Blijft de snelheid gelijk, dan is de reactie van nulde orde</strong> in die stof, want alles tot de macht \\(0\\) is één; zo'n stof komt niet voor in de snelheidsbepalende stap. De <strong>totale orde</strong> is de som van de exponenten: bij <strong>v is k maal [A]² maal [B]</strong> is dat <strong>drie</strong>."
     },
     {
      "soort": "tekst",

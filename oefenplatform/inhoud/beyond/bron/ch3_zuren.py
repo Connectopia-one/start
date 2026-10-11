@@ -333,11 +333,11 @@ DEEL2 = [
         opties=[
             "het ligt rond de pKz van de indicator",
             "het beslaat ongeveer twee pH-eenheden",
-            "het ligt altijd precies bij pH 7",
+            r"het ligt altijd precies bij pH \(7\)",
             "het is voor elke indicator hetzelfde",
         ],
         antwoord=[0, 1],
-        uitleg="Fenolftaleïen slaat om rond pH 9, methyloranje rond pH 4. Daarom kies je "
+        uitleg=r"Fenolftaleïen slaat om rond pH \(9\), methyloranje rond pH \(4\). Daarom kies je "
         "je indicator bij de titratie die je doet.",
     ),
     dict(
@@ -395,12 +395,12 @@ DEEL2 = [
     ),
     dict(
         type="meerkeuze",
-        vraag="Twee zuren hebben pKz 3 en pKz 5. Wat weet je?",
+        vraag=r"Twee zuren hebben pKz \(3\) en pKz \(5\). Wat weet je?",
         opties=[
-            "het zuur met pKz 3 is het sterkste van de twee",
-            "het zuur met pKz 5 is het sterkste van de twee",
+            r"het zuur met pKz \(3\) is het sterkste van de twee",
+            r"het zuur met pKz \(5\) is het sterkste van de twee",
             "de twee zuren zijn even sterk in water",
-            "het zuur met pKz 5 ioniseert volledig in water",
+            r"het zuur met pKz \(5\) ioniseert volledig in water",
         ],
         antwoord=0,
         uitleg="Hoe kleiner pKz, hoe groter Kz en hoe sterker het zuur. Twee eenheden "
@@ -437,7 +437,7 @@ DEEL2 = [
         type="invultekst",
         vraag="Welke indicator is kleurloos in zuur en roze in basisch midden?",
         antwoord=["fenolftaleïen", "fenolftaleine", "fenolftaleïne"],
-        uitleg="Haar omslag ligt rond pH 9. Daarom past ze goed bij de titratie van een "
+        uitleg=r"Haar omslag ligt rond pH \(9\). Daarom past ze goed bij de titratie van een "
         "zwak zuur met een sterke base.",
     ),
 ]

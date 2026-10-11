@@ -46,7 +46,7 @@ DEEL1 = [
             "de lading van het ion",
         ],
         antwoord=0,
-        uitleg="Elke nieuwe periode begint bij een nieuwe schil. Een element uit periode 3 heeft dus drie bezette schillen.",
+        uitleg=r"Elke nieuwe periode begint bij een nieuwe schil. Een element uit periode \(3\) heeft dus drie bezette schillen.",
     ),
     dict(
         type="meerkeuze",
@@ -98,7 +98,7 @@ DEEL1 = [
     ),
     dict(
         type="meerkeuze",
-        vraag="Zwavel staat in groep VIA en periode 3. Wat weet je daardoor over het atoom?",
+        vraag=r"Zwavel staat in groep VIA en periode \(3\). Wat weet je daardoor over het atoom?",
         opties=[
             "het heeft drie bezette schillen en zes valentie-elektronen",
             "het heeft zes bezette schillen en drie valentie-elektronen",
@@ -106,7 +106,7 @@ DEEL1 = [
             "het heeft zes bindingen en drie schillen",
         ],
         antwoord=0,
-        uitleg="De periode geeft het aantal schillen, de groep het aantal valentie-elektronen. De configuratie is dus 2, 8, 6.",
+        uitleg=r"De periode geeft het aantal schillen, de groep het aantal valentie-elektronen. De configuratie is dus \(2\), \(8\), \(6\).",
     ),
     dict(
         type="meerkeuze",
@@ -134,15 +134,15 @@ DEEL1 = [
     ),
     dict(
         type="meerkeuze",
-        vraag="Een element heeft de elektronenconfiguratie 2, 8, 3. In welke groep en periode staat het?",
+        vraag=r"Een element heeft de elektronenconfiguratie \(2\), \(8\), \(3\). In welke groep en periode staat het?",
         opties=[
-            "groep IIIA, periode 3",
-            "groep IIA, periode 3",
-            "groep IIIA, periode 2",
-            "groep VIIIA, periode 3",
+            r"groep IIIA, periode \(3\)",
+            r"groep IIA, periode \(3\)",
+            r"groep IIIA, periode \(2\)",
+            r"groep VIIIA, periode \(3\)",
         ],
         antwoord=0,
-        uitleg="Drie bezette schillen betekent periode 3, en drie valentie-elektronen betekent groep IIIA. Dat is aluminium.",
+        uitleg=r"Drie bezette schillen betekent periode \(3\), en drie valentie-elektronen betekent groep IIIA. Dat is aluminium.",
     ),
     dict(
         type="waarofniet",
@@ -172,7 +172,7 @@ DEEL1 = [
         type="waarofniet",
         vraag="De elementen van groep IIA hebben acht valentie-elektronen.",
         antwoord=False,
-        uitleg="Bij de hoofdgroepen geeft het groepsnummer het aantal valentie-elektronen, dus zijn het hier twee. Daarom vormen ze ionen met lading 2+.",
+        uitleg=r"Bij de hoofdgroepen geeft het groepsnummer het aantal valentie-elektronen, dus zijn het hier twee. Daarom vormen ze ionen met lading \(2\)+.",
     ),
     dict(
         type="invultekst",
@@ -188,7 +188,7 @@ DEEL1 = [
     ),
     dict(
         type="invultekst",
-        vraag="Hoeveel bezette schillen heeft een element uit periode 4?",
+        vraag=r"Hoeveel bezette schillen heeft een element uit periode \(4\)?",
         antwoord=["4", "vier"],
         uitleg="Het periodenummer is precies het aantal bezette schillen.",
     ),
@@ -217,10 +217,10 @@ DEEL2 = [
         type="meerkeuze",
         vraag="Welke lading krijgt een ion van een element uit groep IIA?",
         opties=[
-            "2+",
-            "2−",
-            "1+",
-            "6−",
+            r"\(2\)+",
+            r"\(2\)−",
+            r"\(1\)+",
+            r"\(6\)−",
         ],
         antwoord=0,
         uitleg="Het geeft zijn twee valentie-elektronen af, dus blijven er twee protonen zonder tegenlading over.",
@@ -229,10 +229,10 @@ DEEL2 = [
         type="meerkeuze",
         vraag="Welke lading krijgt een ion van een element uit groep VIIA?",
         opties=[
-            "1−",
-            "1+",
-            "7+",
-            "7−",
+            r"\(1\)−",
+            r"\(1\)+",
+            r"\(7\)+",
+            r"\(7\)−",
         ],
         antwoord=0,
         uitleg="Met zeven valentie-elektronen heeft het er maar één nodig om aan acht te komen. Het neemt er dus één op.",
@@ -323,7 +323,7 @@ DEEL2 = [
     ),
     dict(
         type="meerkeuze",
-        vraag="Een ion heeft tien elektronen en een lading van 1+. In welke groep staat het element?",
+        vraag=r"Een ion heeft tien elektronen en een lading van \(1\)+. In welke groep staat het element?",
         opties=[
             "groep IA",
             "groep IIA",
@@ -331,7 +331,7 @@ DEEL2 = [
             "groep VIIA",
         ],
         antwoord=0,
-        uitleg="Met lading 1+ heeft het één elektron afgegeven, dus had het atoom elf elektronen. Dat is natrium, groep IA.",
+        uitleg=r"Met lading \(1\)+ heeft het één elektron afgegeven, dus had het atoom elf elektronen. Dat is natrium, groep IA.",
     ),
     dict(
         type="waarofniet",
@@ -361,13 +361,13 @@ DEEL2 = [
         type="waarofniet",
         vraag="Het ion Na¹⁺ heeft dezelfde elektronenconfiguratie als neon.",
         antwoord=True,
-        uitleg="Natrium heeft 2, 8, 1 en geeft het laatste elektron af. Er blijft 2, 8 over, dus de configuratie van neon.",
+        uitleg=r"Natrium heeft \(2\), \(8\), \(1\) en geeft het laatste elektron af. Er blijft \(2\), \(8\) over, dus de configuratie van neon.",
     ),
     dict(
         type="invultekst",
         vraag="Hoeveel elektronen neemt een atoom uit groep VA op om een ion te vormen?",
         antwoord=["3", "drie"],
-        uitleg="Met vijf valentie-elektronen heeft het er drie nodig om aan acht te komen. Het ion heeft dus lading 3−.",
+        uitleg=r"Met vijf valentie-elektronen heeft het er drie nodig om aan acht te komen. Het ion heeft dus lading \(3\)−.",
     ),
     dict(
         type="invultekst",

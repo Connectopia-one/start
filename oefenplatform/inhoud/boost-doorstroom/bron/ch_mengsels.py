@@ -118,7 +118,7 @@ DEEL1 = [
             "het gewicht per oppervlakte",
         ],
         antwoord=0,
-        uitleg="De massadichtheid is de massa gedeeld door het volume, bijvoorbeeld in kg/m³ of in g/L. Daarom zinkt een stof met een grotere massadichtheid in water.",
+        uitleg=r"De massadichtheid is de massa gedeeld door het volume, bijvoorbeeld in kg/\(\text{m}^{3}\) of in g/L. Daarom zinkt een stof met een grotere massadichtheid in water.",
     ),
     dict(
         type="meerkeuze",
@@ -314,7 +314,7 @@ DEEL2 = [
         vraag="Waarom is bij een mengsel sprake van een kooktraject en niet van een kookpunt?",
         opties=[
             "de samenstelling verandert terwijl het kookt",
-            "een mengsel kookt altijd onder de 100 graden",
+            r"een mengsel kookt altijd onder de \(100\) graden",
             "de thermometer wordt onnauwkeurig in een mengsel",
             "een mengsel kan niet koken",
         ],

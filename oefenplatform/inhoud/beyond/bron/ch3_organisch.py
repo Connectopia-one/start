@@ -61,10 +61,10 @@ DEEL1 = [
     ),
     dict(
         type="waarofniet",
-        vraag="De brutoformule van een alkaan met n koolstofatomen is CnH2n+2.",
+        vraag=r"De brutoformule van een alkaan met n koolstofatomen is CnH\(2n+2\).",
         antwoord=True,
         uitleg="Butaan heeft vier koolstofatomen en dus tien waterstofatomen: C₄H₁₀. "
-        "Bij een alkeen is het CnH2n.",
+        "Bij een alkeen is het CₙH₂ₙ.",
     ),
     dict(
         type="meerkeuze",
@@ -102,8 +102,8 @@ DEEL1 = [
             "zes",
         ],
         antwoord=0,
-        uitleg="Het stamwoord zegt hoeveel koolstofatomen de hoofdketen heeft: meth- 1, "
-        "eth- 2, prop- 3, but- 4, pent- 5, hex- 6.",
+        uitleg=r"Het stamwoord zegt hoeveel koolstofatomen de hoofdketen heeft: meth\(- 1\), "
+        r"eth\(- 2\), prop\(- 3\), but\(- 4\), pent\(- 5\), hex\(- 6\).",
     ),
     dict(
         type="invultekst",
@@ -114,7 +114,7 @@ DEEL1 = [
     ),
     dict(
         type="meerkeuze",
-        vraag="Waarom staat er een cijfer in de naam but-2-een?",
+        vraag=r"Waarom staat er een cijfer in de naam but-\(2\)-een?",
         opties=[
             "het zegt bij welk koolstofatoom de dubbele binding begint",
             "het zegt hoeveel dubbele bindingen er zijn",
@@ -122,14 +122,14 @@ DEEL1 = [
             "het zegt hoeveel vertakkingen er zijn",
         ],
         antwoord=0,
-        uitleg="In but-1-een zit de dubbele binding vooraan, in but-2-een in het midden. "
+        uitleg=r"In but-\(1\)-een zit de dubbele binding vooraan, in but-\(2\)-een in het midden. "
         "Dat zijn twee verschillende stoffen.",
     ),
     dict(
         type="waarofniet",
         vraag="Bij het nummeren van de hoofdketen begin je aan de kant die de functionele groep het laagste nummer geeft.",
         antwoord=True,
-        uitleg="Daarom is het propaan-1-ol en niet propaan-3-ol: je kiest het kleinste "
+        uitleg=r"Daarom is het propaan-\(1\)-ol en niet propaan-\(3\)-ol: je kiest het kleinste "
         "nummer dat kan.",
     ),
     dict(
@@ -205,7 +205,7 @@ DEEL1 = [
             "propanal",
             "propanon",
             "propaanzuur",
-            "propaan-1-ol",
+            r"propaan-\(1\)-ol",
         ],
         antwoord=0,
         uitleg="De CHO-groep aan het uiteinde maakt er een aldehyde van, met drie "
@@ -243,7 +243,7 @@ DEEL2 = [
     ),
     dict(
         type="meerkeuze",
-        vraag="Welke beschrijvingen passen bij 2-methylbutaan? Kruis alles aan wat juist is.",
+        vraag=r"Welke beschrijvingen passen bij \(2\)-methylbutaan? Kruis alles aan wat juist is.",
         opties=[
             "vertakt",
             "verzadigd",
@@ -272,7 +272,7 @@ DEEL2 = [
         ],
         antwoord=0,
         uitleg="Je kijkt dus naar de buren van dat ene koolstofatoom, niet naar het "
-        "nummer in de naam. Propaan-2-ol is daarom secundair.",
+        r"nummer in de naam. Propaan-\(2\)-ol is daarom secundair.",
     ),
     dict(
         type="waarofniet",
@@ -400,7 +400,7 @@ DEEL2 = [
             "propaanzuur",
             "ethaanzuur",
             "propanal",
-            "propaan-1-ol",
+            r"propaan-\(1\)-ol",
         ],
         antwoord=0,
         uitleg="Tel het koolstofatoom van de COOH-groep mee: drie in totaal, dus "
@@ -423,7 +423,7 @@ DEEL2 = [
             "een lineaire keten is altijd langer dan een onvertakte",
         ],
         antwoord=0,
-        uitleg="De bindingshoek rond koolstof is ongeveer 109°, dus zelfs een onvertakte "
+        uitleg=r"De bindingshoek rond koolstof is ongeveer \(109^{\circ}\), dus zelfs een onvertakte "
         "keten staat in zigzag. We noemen ze lineair omdat er geen zijketen aan hangt.",
     ),
     dict(

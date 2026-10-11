@@ -8,7 +8,7 @@
    "blokken": [
     {
      "soort": "tekst",
-     "html": "Een keten is <strong>verzadigd</strong> als er <strong>enkel enkelvoudige bindingen tussen de koolstofatomen</strong> zitten: er kan geen waterstof meer bij. Een <strong>alkaan</strong> is verzadigd, en de <strong>brutoformule van een alkaan met n koolstofatomen is CnH2n+2</strong>: butaan heeft vier koolstofatomen en dus tien waterstofatomen, C₄H₁₀."
+     "html": "Een keten is <strong>verzadigd</strong> als er <strong>enkel enkelvoudige bindingen tussen de koolstofatomen</strong> zitten: er kan geen waterstof meer bij. Een <strong>alkaan</strong> is verzadigd, en de <strong>brutoformule van een alkaan met n koolstofatomen is CnH\\(2n+2\\)</strong>: butaan heeft vier koolstofatomen en dus tien waterstofatomen, C₄H₁₀."
     },
     {
      "soort": "tekst",
@@ -20,7 +20,7 @@
     },
     {
      "soort": "tekst",
-     "html": "Een keten kan <strong>vertakt</strong> of onvertakt zijn. <strong>2-methylbutaan</strong> is <strong>vertakt</strong> én <strong>verzadigd</strong>: de methylgroep aan het tweede koolstofatoom maakt de vertakking, en er zit geen dubbele binding in. Dat we een onvertakte keten <strong>lineair</strong> noemen, is eigenlijk een afspraak: <strong>een onvertakte keten is in werkelijkheid een zigzag, geen rechte lijn</strong>, want de bindingshoek rond koolstof is ongeveer 109°."
+     "html": "Een keten kan <strong>vertakt</strong> of onvertakt zijn. <strong>\\(2\\)-methylbutaan</strong> is <strong>vertakt</strong> én <strong>verzadigd</strong>: de methylgroep aan het tweede koolstofatoom maakt de vertakking, en er zit geen dubbele binding in. Dat we een onvertakte keten <strong>lineair</strong> noemen, is eigenlijk een afspraak: <strong>een onvertakte keten is in werkelijkheid een zigzag, geen rechte lijn</strong>, want de bindingshoek rond koolstof is ongeveer \\(109^{\\circ}\\)."
     }
    ]
   },
@@ -62,7 +62,7 @@
    "blokken": [
     {
      "soort": "tekst",
-     "html": "Een <strong>alcohol is secundair</strong> als <strong>het koolstofatoom met de OH-groep aan twee andere koolstofatomen zit</strong>. Je kijkt dus naar <strong>de buren van dat ene koolstofatoom</strong>, niet naar het nummer in de naam: propaan-2-ol is secundair."
+     "html": "Een <strong>alcohol is secundair</strong> als <strong>het koolstofatoom met de OH-groep aan twee andere koolstofatomen zit</strong>. Je kijkt dus naar <strong>de buren van dat ene koolstofatoom</strong>, niet naar het nummer in de naam: propaan-\\(2\\)-ol is secundair."
     },
     {
      "soort": "tekst",
@@ -75,11 +75,11 @@
    "blokken": [
     {
      "soort": "tekst",
-     "html": "Het <strong>stamwoord</strong> zegt hoeveel koolstofatomen <strong>de hoofdketen</strong> heeft: <strong>meth-</strong> 1, <strong>eth-</strong> 2, <strong>prop-</strong> 3, <strong>but-</strong> 4, <strong>pent-</strong> 5, <strong>hex-</strong> 6. In <strong>pentaan</strong> zitten er dus <strong>vijf</strong>."
+     "html": "Het <strong>stamwoord</strong> zegt hoeveel koolstofatomen <strong>de hoofdketen</strong> heeft: <strong>meth-</strong> \\(1\\), <strong>eth-</strong> \\(2\\), <strong>prop-</strong> \\(3\\), <strong>but-</strong> \\(4\\), <strong>pent-</strong> \\(5\\), <strong>hex-</strong> \\(6\\). In <strong>pentaan</strong> zitten er dus <strong>vijf</strong>."
     },
     {
      "soort": "tekst",
-     "html": "Een cijfer in de naam <strong>zegt bij welk koolstofatoom de functionele groep of de dubbele binding zit</strong>. In <strong>but-1-een</strong> zit de dubbele binding vooraan, in <strong>but-2-een</strong> in het midden: dat zijn twee verschillende stoffen. <strong>Bij het nummeren van de hoofdketen begin je aan de kant die de functionele groep het laagste nummer geeft</strong>, dus is het propaan-1-ol en niet propaan-3-ol."
+     "html": "Een cijfer in de naam <strong>zegt bij welk koolstofatoom de functionele groep of de dubbele binding zit</strong>. In <strong>but-\\(1\\)-een</strong> zit de dubbele binding vooraan, in <strong>but-\\(2\\)-een</strong> in het midden: dat zijn twee verschillende stoffen. <strong>Bij het nummeren van de hoofdketen begin je aan de kant die de functionele groep het laagste nummer geeft</strong>, dus is het propaan-\\(1\\)-ol en niet propaan-\\(3\\)-ol."
     },
     {
      "soort": "tekst",
@@ -106,7 +106,7 @@
   }
  ],
  "onthoud": [
-  "Alkaan CnH2n+2, alkeen een dubbele binding, alkyn een drievoudige.",
+  "Alkaan CnH\\(2n+2\\), alkeen een dubbele binding, alkyn een drievoudige.",
   "OH is alcohol, C=O aan het eind aldehyde, ertussen keton, COOH zuur.",
   "Ether: zuurstof tussen twee ketens. Ester: alcoholkant vooraan.",
   "Amine: stikstof met waterstof. Amide: stikstof plus C=O.",

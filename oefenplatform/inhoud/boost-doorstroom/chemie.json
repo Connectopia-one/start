@@ -120,7 +120,7 @@
             "het gewicht per oppervlakte"
           ],
           "antwoord": 0,
-          "uitleg": "De massadichtheid is de massa gedeeld door het volume, bijvoorbeeld in kg/m³ of in g/L. Daarom zinkt een stof met een grotere massadichtheid in water."
+          "uitleg": "De massadichtheid is de massa gedeeld door het volume, bijvoorbeeld in kg/\\(\\text{m}^{3}\\) of in g/L. Daarom zinkt een stof met een grotere massadichtheid in water."
         },
         {
           "type": "meerkeuze",
@@ -343,7 +343,7 @@
           "vraag": "Waarom is bij een mengsel sprake van een kooktraject en niet van een kookpunt?",
           "opties": [
             "de samenstelling verandert terwijl het kookt",
-            "een mengsel kookt altijd onder de 100 graden",
+            "een mengsel kookt altijd onder de \\(100\\) graden",
             "de thermometer wordt onnauwkeurig in een mengsel",
             "een mengsel kan niet koken"
           ],
@@ -476,7 +476,7 @@
         },
         {
           "type": "meerkeuze",
-          "vraag": "In de formule 3 H₂SO₄: wat is het getal 3?",
+          "vraag": "In de formule \\(3\\) H₂SO₄: wat is het getal \\(3\\)?",
           "opties": [
             "de coëfficiënt",
             "de index",
@@ -488,7 +488,7 @@
         },
         {
           "type": "meerkeuze",
-          "vraag": "In de formule H₂SO₄: wat betekent de 4 achter de O?",
+          "vraag": "In de formule H₂SO₄: wat betekent de \\(4\\) achter de O?",
           "opties": [
             "er zitten vier zuurstofatomen in de molecule",
             "er zijn vier moleculen van de stof",
@@ -512,7 +512,7 @@
         },
         {
           "type": "meerkeuze",
-          "vraag": "Hoeveel verschillende atoomsoorten komen voor in 2 Ca(NO₃)₂?",
+          "vraag": "Hoeveel verschillende atoomsoorten komen voor in \\(2\\) Ca(NO₃)₂?",
           "opties": [
             "drie",
             "twee",
@@ -520,7 +520,7 @@
             "zes"
           ],
           "antwoord": 0,
-          "uitleg": "Calcium, stikstof en zuurstof: drie elementen. De coëfficiënt 2 en de indexen veranderen het aantal soorten niet."
+          "uitleg": "Calcium, stikstof en zuurstof: drie elementen. De coëfficiënt \\(2\\) en de indexen veranderen het aantal soorten niet."
         },
         {
           "type": "meerkeuze",
@@ -593,9 +593,9 @@
         },
         {
           "type": "waarofniet",
-          "vraag": "Een coëfficiënt 2 voor H₂O betekent dat er twee zuurstofatomen in één molecule zitten.",
+          "vraag": "Een coëfficiënt \\(2\\) voor H₂O betekent dat er twee zuurstofatomen in één molecule zitten.",
           "antwoord": false,
-          "uitleg": "De coëfficiënt geldt voor het hele deeltje: 2 H₂O zijn twee watermoleculen, dus vier waterstof- en twee zuurstofatomen in totaal."
+          "uitleg": "De coëfficiënt geldt voor het hele deeltje: \\(2\\) H₂O zijn twee watermoleculen, dus vier waterstof- en twee zuurstofatomen in totaal."
         },
         {
           "type": "waarofniet",
@@ -622,7 +622,7 @@
         },
         {
           "type": "invultekst",
-          "vraag": "Hoeveel waterstofatomen zitten er in totaal in 3 H₂O?",
+          "vraag": "Hoeveel waterstofatomen zitten er in totaal in \\(3\\) H₂O?",
           "antwoord": [
             "6",
             "zes"
@@ -890,13 +890,13 @@
           "type": "meerkeuze",
           "vraag": "Welke coëfficiënten maken de vergelijking ... H₂ + ... O₂ → ... H₂O kloppend?",
           "opties": [
-            "2, 1 en 2",
-            "1, 1 en 1",
-            "1, 2 en 1",
-            "2, 2 en 1"
+            "\\(2\\), \\(1\\) en \\(2\\)",
+            "\\(1\\), \\(1\\) en \\(1\\)",
+            "\\(1\\), \\(2\\) en \\(1\\)",
+            "\\(2\\), \\(2\\) en \\(1\\)"
           ],
           "antwoord": 0,
-          "uitleg": "Met 2 H₂ en 1 O₂ heb je links vier waterstof- en twee zuurstofatomen. Rechts geeft 2 H₂O precies hetzelfde."
+          "uitleg": "Met \\(2\\) H₂ en \\(1\\) O₂ heb je links vier waterstof- en twee zuurstofatomen. Rechts geeft \\(2\\) H₂O precies hetzelfde."
         },
         {
           "type": "meerkeuze",
@@ -917,22 +917,22 @@
           "type": "meerkeuze",
           "vraag": "Welke coëfficiënten maken de vergelijking ... Fe + ... O₂ → ... Fe₂O₃ kloppend?",
           "opties": [
-            "4, 3 en 2",
-            "2, 1 en 1",
-            "2, 3 en 2",
-            "3, 2 en 1"
+            "\\(4\\), \\(3\\) en \\(2\\)",
+            "\\(2\\), \\(1\\) en \\(1\\)",
+            "\\(2\\), \\(3\\) en \\(2\\)",
+            "\\(3\\), \\(2\\) en \\(1\\)"
           ],
           "antwoord": 0,
-          "uitleg": "Rechts staan met 2 Fe₂O₃ vier ijzeratomen en zes zuurstofatomen. Links geven 4 Fe en 3 O₂ precies dat."
+          "uitleg": "Rechts staan met \\(2\\) Fe₂O₃ vier ijzeratomen en zes zuurstofatomen. Links geven \\(4\\) Fe en \\(3\\) O₂ precies dat."
         },
         {
           "type": "meerkeuze",
           "vraag": "Welke coëfficiënten maken de vergelijking ... CH₄ + ... O₂ → ... CO₂ + ... H₂O kloppend?",
           "opties": [
-            "1, 2, 1 en 2",
-            "1, 1, 1 en 1",
-            "2, 2, 2 en 1",
-            "1, 3, 1 en 2"
+            "\\(1\\), \\(2\\), \\(1\\) en \\(2\\)",
+            "\\(1\\), \\(1\\), \\(1\\) en \\(1\\)",
+            "\\(2\\), \\(2\\), \\(2\\) en \\(1\\)",
+            "\\(1\\), \\(3\\), \\(1\\) en \\(2\\)"
           ],
           "antwoord": 0,
           "uitleg": "Één CH₄ geeft één CO₂ en twee H₂O. Rechts staan dan vier zuurstofatomen, dus links twee O₂."
@@ -1029,9 +1029,9 @@
         },
         {
           "type": "waarofniet",
-          "vraag": "Een coëfficiënt 1 moet je in een reactievergelijking altijd uitdrukkelijk opschrijven.",
+          "vraag": "Een coëfficiënt \\(1\\) moet je in een reactievergelijking altijd uitdrukkelijk opschrijven.",
           "antwoord": false,
-          "uitleg": "Net als in de wiskunde laat men de één weg. Staat er niets voor een formule, dan is de coëfficiënt toch 1."
+          "uitleg": "Net als in de wiskunde laat men de één weg. Staat er niets voor een formule, dan is de coëfficiënt toch \\(1\\)."
         },
         {
           "type": "invultekst",
@@ -1060,7 +1060,7 @@
             "19 g",
             "negentien"
           ],
-          "uitleg": "Niets gaat verloren: 15 plus 4 is 19 gram."
+          "uitleg": "Niets gaat verloren: \\(15\\) plus \\(4\\) is \\(19\\) gram."
         },
         {
           "type": "invultekst",
@@ -1144,7 +1144,7 @@
         },
         {
           "type": "meerkeuze",
-          "vraag": "Een leerling meet dat de temperatuur van een oplossing stijgt van 20 naar 34 graden tijdens een reactie. Wat besluit ze?",
+          "vraag": "Een leerling meet dat de temperatuur van een oplossing stijgt van \\(20\\) naar \\(34\\) graden tijdens een reactie. Wat besluit ze?",
           "opties": [
             "de reactie is exo-energetisch",
             "de reactie is endo-energetisch",
@@ -1316,7 +1316,7 @@
             "soms positief, soms negatief"
           ],
           "antwoord": 0,
-          "uitleg": "Een proton heeft de eenheidslading +1, een elektron −1, en een neutron is ongeladen."
+          "uitleg": "Een proton heeft de eenheidslading +\\(1\\), een elektron \\(-1\\), en een neutron is ongeladen."
         },
         {
           "type": "meerkeuze",
@@ -1359,7 +1359,7 @@
         },
         {
           "type": "meerkeuze",
-          "vraag": "Een atoom heeft atoomnummer 17 en massagetal 35. Hoeveel neutronen zitten er in de kern?",
+          "vraag": "Een atoom heeft atoomnummer \\(17\\) en massagetal \\(35\\). Hoeveel neutronen zitten er in de kern?",
           "opties": [
             "achttien",
             "zeventien",
@@ -1367,7 +1367,7 @@
             "tweeënvijftig"
           ],
           "antwoord": 0,
-          "uitleg": "Het aantal neutronen is het massagetal min het atoomnummer: 35 min 17 is 18."
+          "uitleg": "Het aantal neutronen is het massagetal min het atoomnummer: \\(35\\) min \\(17\\) is \\(18\\)."
         },
         {
           "type": "meerkeuze",
@@ -1406,11 +1406,11 @@
             "een molecule"
           ],
           "antwoord": 0,
-          "uitleg": "Er is één proton meer dan elektronen, dus is de lading +1. Natrium geeft net één elektron af."
+          "uitleg": "Er is één proton meer dan elektronen, dus is de lading +\\(1\\). Natrium geeft net één elektron af."
         },
         {
           "type": "meerkeuze",
-          "vraag": "Hoeveel elektronen heeft het ion Cl¹⁻, als chloor atoomnummer 17 heeft?",
+          "vraag": "Hoeveel elektronen heeft het ion Cl¹⁻, als chloor atoomnummer \\(17\\) heeft?",
           "opties": [
             "achttien",
             "zestien",
@@ -1418,11 +1418,11 @@
             "vijfendertig"
           ],
           "antwoord": 0,
-          "uitleg": "Een negatieve lading van één betekent één elektron meer dan protonen: 17 plus 1 is 18."
+          "uitleg": "Een negatieve lading van één betekent één elektron meer dan protonen: \\(17\\) plus \\(1\\) is \\(18\\)."
         },
         {
           "type": "meerkeuze",
-          "vraag": "Hoeveel elektronen heeft het ion Mg²⁺, als magnesium atoomnummer 12 heeft?",
+          "vraag": "Hoeveel elektronen heeft het ion Mg²⁺, als magnesium atoomnummer \\(12\\) heeft?",
           "opties": [
             "tien",
             "veertien",
@@ -1430,7 +1430,7 @@
             "vierentwintig"
           ],
           "antwoord": 0,
-          "uitleg": "Twee positieve ladingen betekent twee elektronen minder dan protonen: 12 min 2 is 10."
+          "uitleg": "Twee positieve ladingen betekent twee elektronen minder dan protonen: \\(12\\) min \\(2\\) is \\(10\\)."
         },
         {
           "type": "waarofniet",
@@ -1464,12 +1464,12 @@
         },
         {
           "type": "invultekst",
-          "vraag": "Hoeveel neutronen zitten in een atoom met atoomnummer 26 en massagetal 56?",
+          "vraag": "Hoeveel neutronen zitten in een atoom met atoomnummer \\(26\\) en massagetal \\(56\\)?",
           "antwoord": [
             "30",
             "dertig"
           ],
-          "uitleg": "56 min 26 is 30 neutronen."
+          "uitleg": "\\(56\\) min \\(26\\) is \\(30\\) neutronen."
         },
         {
           "type": "invultekst",
@@ -1479,16 +1479,16 @@
             "een elektron",
             "het elektron"
           ],
-          "uitleg": "Het elektron heeft de eenheidslading −1 en een verwaarloosbare massa."
+          "uitleg": "Het elektron heeft de eenheidslading \\(-1\\) en een verwaarloosbare massa."
         },
         {
           "type": "invultekst",
-          "vraag": "Hoeveel protonen heeft het ion O²⁻, als zuurstof atoomnummer 8 heeft?",
+          "vraag": "Hoeveel protonen heeft het ion O²⁻, als zuurstof atoomnummer \\(8\\) heeft?",
           "antwoord": [
             "8",
             "acht"
           ],
-          "uitleg": "Het aantal protonen verandert nooit bij het vormen van een ion. Alleen het aantal elektronen gaat van 8 naar 10."
+          "uitleg": "Het aantal protonen verandert nooit bij het vormen van een ion. Alleen het aantal elektronen gaat van \\(8\\) naar \\(10\\)."
         },
         {
           "type": "invultekst",
@@ -1523,25 +1523,25 @@
           "type": "meerkeuze",
           "vraag": "Hoeveel is de atoommassa-eenheid u?",
           "opties": [
-            "1,66.10⁻²⁷ kg",
-            "6,02.10²³ kg",
-            "1,66.10²⁷ kg",
-            "9,11.10⁻³¹ kg"
+            "\\(1{,}66 \\cdot 10^{-27}\\) kg",
+            "\\(6{,}02 \\cdot 10^{23}\\) kg",
+            "\\(1{,}66 \\cdot 10^{27}\\) kg",
+            "\\(9{,}11 \\cdot 10^{-31}\\) kg"
           ],
           "antwoord": 0,
           "uitleg": "Die waarde staat in de bijlage die je op het examen mag gebruiken. Ze is ongeveer de massa van één nucleon."
         },
         {
           "type": "meerkeuze",
-          "vraag": "De relatieve atoommassa van koolstof is 12,0. Wat is de absolute massa van één koolstofatoom?",
+          "vraag": "De relatieve atoommassa van koolstof is \\(12{,}0\\). Wat is de absolute massa van één koolstofatoom?",
           "opties": [
-            "1,99.10⁻²⁶ kg",
-            "1,99.10⁻²⁷ kg",
-            "1,38.10⁻²⁸ kg",
-            "7,23.10²² kg"
+            "\\(1{,}99 \\cdot 10^{-26}\\) kg",
+            "\\(1{,}99 \\cdot 10^{-27}\\) kg",
+            "\\(1{,}38 \\cdot 10^{-28}\\) kg",
+            "\\(7{,}23 \\cdot 10^{22}\\) kg"
           ],
           "antwoord": 0,
-          "uitleg": "Je vermenigvuldigt de relatieve massa met u: 12,0 keer 1,66.10⁻²⁷ kg is 1,99.10⁻²⁶ kg."
+          "uitleg": "Je vermenigvuldigt de relatieve massa met u: \\(12{,}0\\) keer \\(1{,}66 \\cdot 10^{-27}\\) kg is \\(1{,}99 \\cdot 10^{-26}\\) kg."
         },
         {
           "type": "meerkeuze",
@@ -1572,24 +1572,24 @@
         },
         {
           "type": "meerkeuze",
-          "vraag": "Wat is de elektronenconfiguratie van natrium, met atoomnummer 11?",
+          "vraag": "Wat is de elektronenconfiguratie van natrium, met atoomnummer \\(11\\)?",
           "opties": [
-            "2, 8, 1",
-            "2, 9",
-            "8, 2, 1",
-            "2, 8, 8, 1"
+            "\\(2\\), \\(8\\), \\(1\\)",
+            "\\(2\\), \\(9\\)",
+            "\\(8\\), \\(2\\), \\(1\\)",
+            "\\(2\\), \\(8\\), \\(8\\), \\(1\\)"
           ],
           "antwoord": 0,
           "uitleg": "Je vult de schillen van binnen naar buiten: twee in de eerste, acht in de tweede, en de laatste blijft over voor de derde."
         },
         {
           "type": "meerkeuze",
-          "vraag": "Wat is de elektronenconfiguratie van zuurstof, met atoomnummer 8?",
+          "vraag": "Wat is de elektronenconfiguratie van zuurstof, met atoomnummer \\(8\\)?",
           "opties": [
-            "2, 6",
-            "2, 8",
-            "6, 2",
-            "2, 4, 2"
+            "\\(2\\), \\(6\\)",
+            "\\(2\\), \\(8\\)",
+            "\\(6\\), \\(2\\)",
+            "\\(2\\), \\(4\\), \\(2\\)"
           ],
           "antwoord": 0,
           "uitleg": "Twee elektronen vullen de eerste schil en de overige zes gaan in de tweede."
@@ -1631,7 +1631,7 @@
             "natrium heeft geen buitenste schil"
           ],
           "antwoord": 0,
-          "uitleg": "Natrium heeft de configuratie 2, 8, 1. Geeft het dat ene elektron af, dan blijft 2, 8 over, de configuratie van neon."
+          "uitleg": "Natrium heeft de configuratie \\(2\\), \\(8\\), \\(1\\). Geeft het dat ene elektron af, dan blijft \\(2\\), \\(8\\) over, de configuratie van neon."
         },
         {
           "type": "meerkeuze",
@@ -1686,7 +1686,7 @@
         },
         {
           "type": "invultekst",
-          "vraag": "Wat is de elektronenconfiguratie van chloor, met atoomnummer 17? Schrijf de aantallen met komma's.",
+          "vraag": "Wat is de elektronenconfiguratie van chloor, met atoomnummer \\(17\\)? Schrijf de aantallen met komma's.",
           "antwoord": [
             "2, 8, 7",
             "2,8,7"
@@ -1704,13 +1704,13 @@
         },
         {
           "type": "invultekst",
-          "vraag": "De relatieve atoommassa van helium is 4,0. Hoeveel is de absolute massa van één heliumatoom in kg? Noteer in wetenschappelijke notatie met drie beduidende cijfers.",
+          "vraag": "De relatieve atoommassa van helium is \\(4{,}0\\). Hoeveel is de absolute massa van één heliumatoom in kg? Noteer in wetenschappelijke notatie met drie beduidende cijfers.",
           "antwoord": [
             "6,64.10-27",
             "6,64.10⁻²⁷",
             "6,64e-27"
           ],
-          "uitleg": "4,0 keer 1,66.10⁻²⁷ kg geeft 6,64.10⁻²⁷ kg."
+          "uitleg": "\\(4{,}0\\) keer \\(1{,}66 \\cdot 10^{-27}\\) kg geeft \\(6{,}64 \\cdot 10^{-27}\\) kg."
         }
       ]
     },
@@ -1753,7 +1753,7 @@
             "de lading van het ion"
           ],
           "antwoord": 0,
-          "uitleg": "Elke nieuwe periode begint bij een nieuwe schil. Een element uit periode 3 heeft dus drie bezette schillen."
+          "uitleg": "Elke nieuwe periode begint bij een nieuwe schil. Een element uit periode \\(3\\) heeft dus drie bezette schillen."
         },
         {
           "type": "meerkeuze",
@@ -1808,7 +1808,7 @@
         },
         {
           "type": "meerkeuze",
-          "vraag": "Zwavel staat in groep VIA en periode 3. Wat weet je daardoor over het atoom?",
+          "vraag": "Zwavel staat in groep VIA en periode \\(3\\). Wat weet je daardoor over het atoom?",
           "opties": [
             "het heeft drie bezette schillen en zes valentie-elektronen",
             "het heeft zes bezette schillen en drie valentie-elektronen",
@@ -1816,7 +1816,7 @@
             "het heeft zes bindingen en drie schillen"
           ],
           "antwoord": 0,
-          "uitleg": "De periode geeft het aantal schillen, de groep het aantal valentie-elektronen. De configuratie is dus 2, 8, 6."
+          "uitleg": "De periode geeft het aantal schillen, de groep het aantal valentie-elektronen. De configuratie is dus \\(2\\), \\(8\\), \\(6\\)."
         },
         {
           "type": "meerkeuze",
@@ -1847,15 +1847,15 @@
         },
         {
           "type": "meerkeuze",
-          "vraag": "Een element heeft de elektronenconfiguratie 2, 8, 3. In welke groep en periode staat het?",
+          "vraag": "Een element heeft de elektronenconfiguratie \\(2\\), \\(8\\), \\(3\\). In welke groep en periode staat het?",
           "opties": [
-            "groep IIIA, periode 3",
-            "groep IIA, periode 3",
-            "groep IIIA, periode 2",
-            "groep VIIIA, periode 3"
+            "groep IIIA, periode \\(3\\)",
+            "groep IIA, periode \\(3\\)",
+            "groep IIIA, periode \\(2\\)",
+            "groep VIIIA, periode \\(3\\)"
           ],
           "antwoord": 0,
-          "uitleg": "Drie bezette schillen betekent periode 3, en drie valentie-elektronen betekent groep IIIA. Dat is aluminium."
+          "uitleg": "Drie bezette schillen betekent periode \\(3\\), en drie valentie-elektronen betekent groep IIIA. Dat is aluminium."
         },
         {
           "type": "waarofniet",
@@ -1885,7 +1885,7 @@
           "type": "waarofniet",
           "vraag": "De elementen van groep IIA hebben acht valentie-elektronen.",
           "antwoord": false,
-          "uitleg": "Bij de hoofdgroepen geeft het groepsnummer het aantal valentie-elektronen, dus zijn het hier twee. Daarom vormen ze ionen met lading 2+."
+          "uitleg": "Bij de hoofdgroepen geeft het groepsnummer het aantal valentie-elektronen, dus zijn het hier twee. Daarom vormen ze ionen met lading \\(2\\)+."
         },
         {
           "type": "invultekst",
@@ -1909,7 +1909,7 @@
         },
         {
           "type": "invultekst",
-          "vraag": "Hoeveel bezette schillen heeft een element uit periode 4?",
+          "vraag": "Hoeveel bezette schillen heeft een element uit periode \\(4\\)?",
           "antwoord": [
             "4",
             "vier"
@@ -1949,10 +1949,10 @@
           "type": "meerkeuze",
           "vraag": "Welke lading krijgt een ion van een element uit groep IIA?",
           "opties": [
-            "2+",
-            "2−",
-            "1+",
-            "6−"
+            "\\(2\\)+",
+            "\\(2\\)−",
+            "\\(1\\)+",
+            "\\(6\\)−"
           ],
           "antwoord": 0,
           "uitleg": "Het geeft zijn twee valentie-elektronen af, dus blijven er twee protonen zonder tegenlading over."
@@ -1961,10 +1961,10 @@
           "type": "meerkeuze",
           "vraag": "Welke lading krijgt een ion van een element uit groep VIIA?",
           "opties": [
-            "1−",
-            "1+",
-            "7+",
-            "7−"
+            "\\(1\\)−",
+            "\\(1\\)+",
+            "\\(7\\)+",
+            "\\(7\\)−"
           ],
           "antwoord": 0,
           "uitleg": "Met zeven valentie-elektronen heeft het er maar één nodig om aan acht te komen. Het neemt er dus één op."
@@ -2064,7 +2064,7 @@
         },
         {
           "type": "meerkeuze",
-          "vraag": "Een ion heeft tien elektronen en een lading van 1+. In welke groep staat het element?",
+          "vraag": "Een ion heeft tien elektronen en een lading van \\(1\\)+. In welke groep staat het element?",
           "opties": [
             "groep IA",
             "groep IIA",
@@ -2072,7 +2072,7 @@
             "groep VIIA"
           ],
           "antwoord": 0,
-          "uitleg": "Met lading 1+ heeft het één elektron afgegeven, dus had het atoom elf elektronen. Dat is natrium, groep IA."
+          "uitleg": "Met lading \\(1\\)+ heeft het één elektron afgegeven, dus had het atoom elf elektronen. Dat is natrium, groep IA."
         },
         {
           "type": "waarofniet",
@@ -2102,7 +2102,7 @@
           "type": "waarofniet",
           "vraag": "Het ion Na¹⁺ heeft dezelfde elektronenconfiguratie als neon.",
           "antwoord": true,
-          "uitleg": "Natrium heeft 2, 8, 1 en geeft het laatste elektron af. Er blijft 2, 8 over, dus de configuratie van neon."
+          "uitleg": "Natrium heeft \\(2\\), \\(8\\), \\(1\\) en geeft het laatste elektron af. Er blijft \\(2\\), \\(8\\) over, dus de configuratie van neon."
         },
         {
           "type": "invultekst",
@@ -2111,7 +2111,7 @@
             "3",
             "drie"
           ],
-          "uitleg": "Met vijf valentie-elektronen heeft het er drie nodig om aan acht te komen. Het ion heeft dus lading 3−."
+          "uitleg": "Met vijf valentie-elektronen heeft het er drie nodig om aan acht te komen. Het ion heeft dus lading \\(3\\)−."
         },
         {
           "type": "invultekst",
@@ -2499,7 +2499,7 @@
             "−II",
             "+II",
             "−I",
-            "0"
+            "\\(0\\)"
           ],
           "antwoord": 0,
           "uitleg": "Zuurstof neemt gewoonlijk twee elektronen op. In peroxiden is het wel −I, dus kijk altijd naar de formule."
@@ -2779,7 +2779,7 @@
             "een hydroxide",
             "hydroxiden"
           ],
-          "uitleg": "De groep OH staat er drie keer in, want aluminium vormt een ion met lading 3+."
+          "uitleg": "De groep OH staat er drie keer in, want aluminium vormt een ion met lading \\(3\\)+."
         },
         {
           "type": "invultekst",
@@ -3045,16 +3045,16 @@
             "C₃H₄"
           ],
           "antwoord": 0,
-          "uitleg": "Met drie koolstofatomen geeft de regel 2n plus 2 acht waterstofatomen."
+          "uitleg": "Met drie koolstofatomen geeft de regel 2n plus \\(2\\) acht waterstofatomen."
         },
         {
           "type": "meerkeuze",
           "vraag": "Hoe luidt de algemene formule van de n-alkanen?",
           "opties": [
-            "CnH2n+2",
-            "CnH2n",
-            "CnH2n-2",
-            "CnHn"
+            "CnH\\(2n+2\\)",
+            "CₙH₂ₙ",
+            "CnH\\(2n-2\\)",
+            "CₙHₙ"
           ],
           "antwoord": 0,
           "uitleg": "Elke extra koolstof brengt twee waterstofatomen mee, en aan de twee uiteinden komt er telkens één bij."
@@ -3081,7 +3081,7 @@
             "propaan"
           ],
           "antwoord": 0,
-          "uitleg": "Vijf koolstofatomen is pent-, en 2 keer 5 plus 2 is twaalf waterstofatomen."
+          "uitleg": "Vijf koolstofatomen is pent-, en \\(2\\) keer \\(5\\) plus \\(2\\) is twaalf waterstofatomen."
         },
         {
           "type": "meerkeuze",
@@ -3108,7 +3108,7 @@
             "C₁₀H₁₈"
           ],
           "antwoord": 0,
-          "uitleg": "Tien koolstofatomen geven 2 keer 10 plus 2, dus tweeëntwintig waterstofatomen."
+          "uitleg": "Tien koolstofatomen geven \\(2\\) keer \\(10\\) plus \\(2\\), dus tweeëntwintig waterstofatomen."
         },
         {
           "type": "meerkeuze",
@@ -3186,7 +3186,7 @@
             "C4H10",
             "C₄H₁₀"
           ],
-          "uitleg": "Vier koolstofatomen, en 2 keer 4 plus 2 is tien waterstofatomen."
+          "uitleg": "Vier koolstofatomen, en \\(2\\) keer \\(4\\) plus \\(2\\) is tien waterstofatomen."
         },
         {
           "type": "invultekst",
@@ -3195,7 +3195,7 @@
             "heptaan",
             "het heptaan"
           ],
-          "uitleg": "Hept- staat voor zeven, en 2 keer 7 plus 2 is zestien."
+          "uitleg": "Hept- staat voor zeven, en \\(2\\) keer \\(7\\) plus \\(2\\) is zestien."
         },
         {
           "type": "invultekst",
@@ -3204,7 +3204,7 @@
             "20",
             "twintig"
           ],
-          "uitleg": "2 keer 9 plus 2 is twintig. Dat alkaan heet nonaan."
+          "uitleg": "\\(2\\) keer \\(9\\) plus \\(2\\) is twintig. Dat alkaan heet nonaan."
         },
         {
           "type": "invultekst",
@@ -3232,7 +3232,7 @@
             "een COOH-groep aan het uiteinde"
           ],
           "antwoord": 0,
-          "uitleg": "Door die dubbele binding zijn er twee waterstofatomen minder dan bij het alkaan. De algemene formule wordt CnH2n."
+          "uitleg": "Door die dubbele binding zijn er twee waterstofatomen minder dan bij het alkaan. De algemene formule wordt CₙH₂ₙ."
         },
         {
           "type": "meerkeuze",
@@ -3362,7 +3362,7 @@
         },
         {
           "type": "waarofniet",
-          "vraag": "Een alkeen heeft de algemene formule CnH2n.",
+          "vraag": "Een alkeen heeft de algemene formule CₙH₂ₙ.",
           "antwoord": true,
           "uitleg": "Door de dubbele binding zitten er twee waterstofatomen minder in dan bij het alkaan met dezelfde keten."
         },
@@ -3439,7 +3439,7 @@
           "type": "meerkeuze",
           "vraag": "Wanneer is een binding tussen twee atomen polair?",
           "opties": [
-            "als het verschil in elektronegativiteit minstens 0,4 is",
+            "als het verschil in elektronegativiteit minstens \\(0{,}4\\) is",
             "als beide atomen een metaal zijn",
             "als de atomen evenveel elektronen hebben",
             "als de stof vast is bij kamertemperatuur"
@@ -3593,9 +3593,9 @@
         },
         {
           "type": "waarofniet",
-          "vraag": "Een binding met een verschil in elektronegativiteit van 0,2 is polair.",
+          "vraag": "Een binding met een verschil in elektronegativiteit van \\(0{,}2\\) is polair.",
           "antwoord": false,
-          "uitleg": "De afspraak van de fiche legt de grens op 0,4. Onder die waarde geldt de binding als apolair."
+          "uitleg": "De afspraak van de fiche legt de grens op \\(0{,}4\\). Onder die waarde geldt de binding als apolair."
         },
         {
           "type": "waarofniet",
@@ -3722,7 +3722,7 @@
             "CaCl₂ → CaCl¹⁺ + Cl¹⁻"
           ],
           "antwoord": 0,
-          "uitleg": "Calcium geeft een ion met lading 2+ en elk chloride-ion heeft lading 1−, dus zijn er twee chloride-ionen nodig."
+          "uitleg": "Calcium geeft een ion met lading \\(2\\)+ en elk chloride-ion heeft lading \\(1\\)−, dus zijn er twee chloride-ionen nodig."
         },
         {
           "type": "meerkeuze",
@@ -3741,7 +3741,7 @@
         },
         {
           "type": "meerkeuze",
-          "vraag": "Wat geldt voor een oplossing met een pH van 3?",
+          "vraag": "Wat geldt voor een oplossing met een pH van \\(3\\)?",
           "opties": [
             "ze is zuur",
             "ze is basisch",
@@ -3789,7 +3789,7 @@
         },
         {
           "type": "waarofniet",
-          "vraag": "Zuiver water heeft een pH van 7.",
+          "vraag": "Zuiver water heeft een pH van \\(7\\).",
           "antwoord": true,
           "uitleg": "De concentratie H⁺ en OH⁻ zijn er gelijk, dus is de oplossing neutraal."
         },
@@ -4135,8 +4135,8 @@
           "type": "meerkeuze",
           "vraag": "In de reactie 2 Mg + O₂ → 2 MgO: wat gebeurt er met magnesium?",
           "opties": [
-            "het wordt geoxideerd van 0 naar +II",
-            "het wordt gereduceerd van 0 naar −II",
+            "het wordt geoxideerd van \\(0\\) naar +II",
+            "het wordt gereduceerd van \\(0\\) naar −II",
             "het oxidatiegetal blijft nul",
             "het neemt twee elektronen op"
           ],
@@ -4153,16 +4153,16 @@
             "er is geen oxidator"
           ],
           "antwoord": 0,
-          "uitleg": "Zuurstof neemt de elektronen op en gaat van 0 naar −II. Wie elektronen opneemt, is de oxidator."
+          "uitleg": "Zuurstof neemt de elektronen op en gaat van \\(0\\) naar −II. Wie elektronen opneemt, is de oxidator."
         },
         {
           "type": "meerkeuze",
           "vraag": "Welke coëfficiënten maken de verbranding ... C₂H₆ + ... O₂ → ... CO₂ + ... H₂O kloppend?",
           "opties": [
-            "2, 7, 4 en 6",
-            "1, 3, 2 en 3",
-            "2, 5, 4 en 6",
-            "1, 7, 2 en 3"
+            "\\(2\\), \\(7\\), \\(4\\) en \\(6\\)",
+            "\\(1\\), \\(3\\), \\(2\\) en \\(3\\)",
+            "\\(2\\), \\(5\\), \\(4\\) en \\(6\\)",
+            "\\(1\\), \\(7\\), \\(2\\) en \\(3\\)"
           ],
           "antwoord": 0,
           "uitleg": "Twee moleculen ethaan geven vier CO₂ en zes H₂O. Rechts staan dan veertien zuurstofatomen, dus links zeven O₂."
@@ -4297,10 +4297,10 @@
           "type": "meerkeuze",
           "vraag": "Hoeveel deeltjes zitten er in één mol van een stof?",
           "opties": [
-            "6,02.10²³",
-            "6,02.10⁻²³",
-            "1,66.10⁻²⁷",
-            "6,02.10²²"
+            "\\(6{,}02 \\cdot 10^{23}\\)",
+            "\\(6{,}02 \\cdot 10^{-23}\\)",
+            "\\(1{,}66 \\cdot 10^{-27}\\)",
+            "\\(6{,}02 \\cdot 10^{22}\\)"
           ],
           "antwoord": 0,
           "uitleg": "Dat getal heet het getal van Avogadro. Het is een afspraak, zoals een dozijn er twaalf zijn, maar veel groter."
@@ -4322,75 +4322,75 @@
         },
         {
           "type": "meerkeuze",
-          "vraag": "Wat is de molaire massa van water, als H 1,0 en O 16,0 is?",
+          "vraag": "Wat is de molaire massa van water, als H \\(1{,}0\\) en O \\(16{,}0\\) is?",
           "opties": [
-            "18,0 g/mol",
-            "17,0 g/mol",
-            "16,0 g/mol",
-            "20,0 g/mol"
+            "\\(18{,}0\\) g/mol",
+            "\\(17{,}0\\) g/mol",
+            "\\(16{,}0\\) g/mol",
+            "\\(20{,}0\\) g/mol"
           ],
           "antwoord": 0,
-          "uitleg": "Twee keer 1,0 voor de waterstof en 16,0 voor de zuurstof: samen 18,0 g/mol."
+          "uitleg": "Twee keer \\(1{,}0\\) voor de waterstof en \\(16{,}0\\) voor de zuurstof: samen \\(18{,}0\\) g/mol."
         },
         {
           "type": "meerkeuze",
-          "vraag": "Wat is de molaire massa van CO₂, als C 12,0 en O 16,0 is?",
+          "vraag": "Wat is de molaire massa van CO₂, als C \\(12{,}0\\) en O \\(16{,}0\\) is?",
           "opties": [
-            "44,0 g/mol",
-            "28,0 g/mol",
-            "32,0 g/mol",
-            "40,0 g/mol"
+            "\\(44{,}0\\) g/mol",
+            "\\(28{,}0\\) g/mol",
+            "\\(32{,}0\\) g/mol",
+            "\\(40{,}0\\) g/mol"
           ],
           "antwoord": 0,
-          "uitleg": "12,0 voor de koolstof plus twee keer 16,0 voor de zuurstof: 44,0 g/mol."
+          "uitleg": "\\(12{,}0\\) voor de koolstof plus twee keer \\(16{,}0\\) voor de zuurstof: \\(44{,}0\\) g/mol."
         },
         {
           "type": "meerkeuze",
-          "vraag": "Hoeveel mol is 36,0 g water, als de molaire massa 18,0 g/mol is?",
+          "vraag": "Hoeveel mol is \\(36{,}0\\) g water, als de molaire massa \\(18{,}0\\) g/mol is?",
           "opties": [
-            "2,00 mol",
-            "0,500 mol",
-            "18,0 mol",
-            "648 mol"
+            "\\(2{,}00\\) mol",
+            "\\(0{,}500\\) mol",
+            "\\(18{,}0\\) mol",
+            "\\(648\\) mol"
           ],
           "antwoord": 0,
-          "uitleg": "Je deelt 36,0 door 18,0 en komt op 2,00 mol uit."
+          "uitleg": "Je deelt \\(36{,}0\\) door \\(18{,}0\\) en komt op \\(2{,}00\\) mol uit."
         },
         {
           "type": "meerkeuze",
-          "vraag": "Hoeveel weegt 0,500 mol natriumchloride, als de molaire massa 58,5 g/mol is?",
+          "vraag": "Hoeveel weegt \\(0{,}500\\) mol natriumchloride, als de molaire massa \\(58{,}5\\) g/mol is?",
           "opties": [
-            "29,3 g",
-            "58,5 g",
-            "117 g",
-            "11,7 g"
+            "\\(29{,}3\\) g",
+            "\\(58{,}5\\) g",
+            "\\(117\\) g",
+            "\\(11{,}7\\) g"
           ],
           "antwoord": 0,
-          "uitleg": "Je draait de formule om: m = n keer M, dus 0,500 keer 58,5 is 29,25 en afgerond 29,3 g."
+          "uitleg": "Je draait de formule om: m = n keer M, dus \\(0{,}500\\) keer \\(58{,}5\\) is \\(29{,}25\\) en afgerond \\(29{,}3\\) g."
         },
         {
           "type": "meerkeuze",
-          "vraag": "Hoeveel mol is 1,204.10²⁴ moleculen van een stof?",
+          "vraag": "Hoeveel mol is \\(1{,}204 \\cdot 10^{24}\\) moleculen van een stof?",
           "opties": [
-            "2,00 mol",
-            "0,500 mol",
-            "1,20 mol",
-            "20,0 mol"
+            "\\(2{,}00\\) mol",
+            "\\(0{,}500\\) mol",
+            "\\(1{,}20\\) mol",
+            "\\(20{,}0\\) mol"
           ],
           "antwoord": 0,
-          "uitleg": "Je deelt door het getal van Avogadro: 1,204.10²⁴ gedeeld door 6,02.10²³ is 2,00."
+          "uitleg": "Je deelt door het getal van Avogadro: \\(1{,}204 \\cdot 10^{24} : 6{,}02 \\cdot 10^{23}\\) is \\(2{,}00\\)."
         },
         {
           "type": "meerkeuze",
-          "vraag": "Hoeveel moleculen zitten er in 0,250 mol van een stof?",
+          "vraag": "Hoeveel moleculen zitten er in \\(0{,}250\\) mol van een stof?",
           "opties": [
-            "1,51.10²³",
-            "2,41.10²⁴",
-            "1,51.10²²",
-            "6,02.10²³"
+            "\\(1{,}51 \\cdot 10^{23}\\)",
+            "\\(2{,}41 \\cdot 10^{24}\\)",
+            "\\(1{,}51 \\cdot 10^{22}\\)",
+            "\\(6{,}02 \\cdot 10^{23}\\)"
           ],
           "antwoord": 0,
-          "uitleg": "Je vermenigvuldigt met het getal van Avogadro: 0,250 keer 6,02.10²³ geeft 1,51.10²³."
+          "uitleg": "Je vermenigvuldigt met het getal van Avogadro: \\(0{,}250\\) keer \\(6{,}02 \\cdot 10^{23}\\) geeft \\(1{,}51 \\cdot 10^{23}\\)."
         },
         {
           "type": "meerkeuze",
@@ -4421,7 +4421,7 @@
         },
         {
           "type": "meerkeuze",
-          "vraag": "Een leerling berekent de massa van 3 mol CO₂ en schrijft 132 g op. Hoe weet je zonder narekenen dat de orde klopt?",
+          "vraag": "Een leerling berekent de massa van \\(3\\) mol CO₂ en schrijft \\(132\\) g op. Hoe weet je zonder narekenen dat de orde klopt?",
           "opties": [
             "drie keer ruim veertig is ongeveer honderdtwintig",
             "drie mol weegt altijd ongeveer honderd gram",
@@ -4429,19 +4429,19 @@
             "de massa moet onder de tien gram blijven"
           ],
           "antwoord": 0,
-          "uitleg": "Zo'n schatting vooraf laat je meteen zien of je antwoord in de buurt ligt. 3 keer 44,0 is 132 g, dus klopt het."
+          "uitleg": "Zo'n schatting vooraf laat je meteen zien of je antwoord in de buurt ligt. \\(3\\) keer \\(44{,}0\\) is \\(132\\) g, dus klopt het."
         },
         {
           "type": "waarofniet",
           "vraag": "Eén mol van een stof bevat altijd evenveel deeltjes, welke stof het ook is.",
           "antwoord": true,
-          "uitleg": "Dat is net de afspraak achter de mol: telkens 6,02.10²³ deeltjes. De massa van die mol verschilt wel per stof."
+          "uitleg": "Dat is net de afspraak achter de mol: telkens \\(6{,}02 \\cdot 10^{23}\\) deeltjes. De massa van die mol verschilt wel per stof."
         },
         {
           "type": "waarofniet",
           "vraag": "Eén mol water en één mol koolstofdioxide hebben dezelfde massa.",
           "antwoord": false,
-          "uitleg": "Water is 18,0 g/mol en koolstofdioxide 44,0 g/mol. Het aantal deeltjes is gelijk, de massa niet."
+          "uitleg": "Water is \\(18{,}0\\) g/mol en koolstofdioxide \\(44{,}0\\) g/mol. Het aantal deeltjes is gelijk, de massa niet."
         },
         {
           "type": "waarofniet",
@@ -4463,43 +4463,43 @@
         },
         {
           "type": "invultekst",
-          "vraag": "Wat is de molaire massa van NaOH, als Na 23,0 en O 16,0 en H 1,0 is? Noteer in g/mol.",
+          "vraag": "Wat is de molaire massa van NaOH, als Na \\(23{,}0\\) en O \\(16{,}0\\) en H \\(1{,}0\\) is? Noteer in g/mol.",
           "antwoord": [
             "40,0",
             "40",
             "40,0 g/mol"
           ],
-          "uitleg": "23,0 plus 16,0 plus 1,0 is 40,0 g/mol."
+          "uitleg": "\\(23{,}0\\) plus \\(16{,}0\\) plus \\(1{,}0\\) is \\(40{,}0\\) g/mol."
         },
         {
           "type": "invultekst",
-          "vraag": "Hoeveel mol is 88,0 g CO₂, als de molaire massa 44,0 g/mol is?",
+          "vraag": "Hoeveel mol is \\(88{,}0\\) g CO₂, als de molaire massa \\(44{,}0\\) g/mol is?",
           "antwoord": [
             "2,00",
             "2",
             "2,00 mol"
           ],
-          "uitleg": "88,0 gedeeld door 44,0 is 2,00 mol."
+          "uitleg": "\\(88{,}0 : 44{,}0\\) is \\(2{,}00\\) mol."
         },
         {
           "type": "invultekst",
-          "vraag": "Hoeveel mol is 3,01.10²³ deeltjes?",
+          "vraag": "Hoeveel mol is \\(3{,}01 \\cdot 10^{23}\\) deeltjes?",
           "antwoord": [
             "0,500",
             "0,5",
             "0,500 mol"
           ],
-          "uitleg": "Dat is precies de helft van het getal van Avogadro, dus 0,500 mol."
+          "uitleg": "Dat is precies de helft van het getal van Avogadro, dus \\(0{,}500\\) mol."
         },
         {
           "type": "invultekst",
-          "vraag": "Hoeveel gram weegt 0,200 mol water, met een molaire massa van 18,0 g/mol?",
+          "vraag": "Hoeveel gram weegt \\(0{,}200\\) mol water, met een molaire massa van \\(18{,}0\\) g/mol?",
           "antwoord": [
             "3,60",
             "3,6",
             "3,60 g"
           ],
-          "uitleg": "0,200 keer 18,0 is 3,60 g."
+          "uitleg": "\\(0{,}200\\) keer \\(18{,}0\\) is \\(3{,}60\\) g."
         }
       ]
     },
@@ -4521,31 +4521,31 @@
             0,
             1
           ],
-          "uitleg": "De formule is c = n gedeeld door V. De massa per volume is de massaconcentratie, in gram per liter."
+          "uitleg": "De formule is \\(c = n\\) gedeeld door V. De massa per volume is de massaconcentratie, in gram per liter."
         },
         {
           "type": "meerkeuze",
-          "vraag": "Je lost 0,500 mol zout op tot 2,00 L oplossing. Wat is de molaire concentratie?",
+          "vraag": "Je lost \\(0{,}500\\) mol zout op tot \\(2{,}00\\) L oplossing. Wat is de molaire concentratie?",
           "opties": [
-            "0,250 mol/L",
-            "1,00 mol/L",
-            "4,00 mol/L",
-            "2,50 mol/L"
+            "\\(0{,}250\\) mol/L",
+            "\\(1{,}00\\) mol/L",
+            "\\(4{,}00\\) mol/L",
+            "\\(2{,}50\\) mol/L"
           ],
           "antwoord": 0,
-          "uitleg": "0,500 gedeeld door 2,00 is 0,250 mol/L."
+          "uitleg": "\\(0{,}500 : 2{,}00\\) is \\(0{,}250\\) mol/L."
         },
         {
           "type": "meerkeuze",
-          "vraag": "Je lost 0,100 mol op tot 250 mL oplossing. Wat is de molaire concentratie?",
+          "vraag": "Je lost \\(0{,}100\\) mol op tot \\(250\\) mL oplossing. Wat is de molaire concentratie?",
           "opties": [
-            "0,400 mol/L",
-            "0,025 mol/L",
-            "2,50 mol/L",
-            "25,0 mol/L"
+            "\\(0{,}400\\) mol/L",
+            "\\(0{,}025\\) mol/L",
+            "\\(2{,}50\\) mol/L",
+            "\\(25{,}0\\) mol/L"
           ],
           "antwoord": 0,
-          "uitleg": "Zet 250 mL eerst om in 0,250 L. Dan is 0,100 gedeeld door 0,250 gelijk aan 0,400 mol/L."
+          "uitleg": "Zet \\(250\\) mL eerst om in \\(0{,}250\\) L. Dan is \\(0{,}100 : 0{,}250\\) gelijk aan \\(0{,}400\\) mol/L."
         },
         {
           "type": "meerkeuze",
@@ -4561,22 +4561,22 @@
         },
         {
           "type": "meerkeuze",
-          "vraag": "Een oplossing bevat 40,0 g NaOH per liter. Wat is de molaire concentratie, met M gelijk aan 40,0 g/mol?",
+          "vraag": "Een oplossing bevat \\(40{,}0\\) g NaOH per liter. Wat is de molaire concentratie, met M gelijk aan \\(40{,}0\\) g/mol?",
           "opties": [
-            "1,00 mol/L",
-            "0,100 mol/L",
-            "40,0 mol/L",
-            "1600 mol/L"
+            "\\(1{,}00\\) mol/L",
+            "\\(0{,}100\\) mol/L",
+            "\\(40{,}0\\) mol/L",
+            "\\(1600\\) mol/L"
           ],
           "antwoord": 0,
-          "uitleg": "Deel de massaconcentratie door de molaire massa: 40,0 gedeeld door 40,0 is 1,00 mol/L."
+          "uitleg": "Deel de massaconcentratie door de molaire massa: \\(40{,}0 : 40{,}0\\) is \\(1{,}00\\) mol/L."
         },
         {
           "type": "meerkeuze",
           "vraag": "Welke formule gebruik je om een oplossing te verdunnen?",
           "opties": [
             "c₁V₁ = c₂V₂",
-            "c = n / V",
+            "\\(c = n\\) / V",
             "n = m / M",
             "n = N / NA"
           ],
@@ -4585,48 +4585,48 @@
         },
         {
           "type": "meerkeuze",
-          "vraag": "Je verdunt 50,0 mL van een oplossing van 1,00 mol/L tot 250 mL. Wat is de nieuwe concentratie?",
+          "vraag": "Je verdunt \\(50{,}0\\) mL van een oplossing van \\(1{,}00\\) mol/L tot \\(250\\) mL. Wat is de nieuwe concentratie?",
           "opties": [
-            "0,200 mol/L",
-            "0,500 mol/L",
-            "5,00 mol/L",
-            "0,050 mol/L"
+            "\\(0{,}200\\) mol/L",
+            "\\(0{,}500\\) mol/L",
+            "\\(5{,}00\\) mol/L",
+            "\\(0{,}050\\) mol/L"
           ],
           "antwoord": 0,
-          "uitleg": "Het volume wordt vijf keer groter, dus de concentratie vijf keer kleiner: 1,00 gedeeld door 5 is 0,200 mol/L."
+          "uitleg": "Het volume wordt vijf keer groter, dus de concentratie vijf keer kleiner: \\(1{,}00 : 5\\) is \\(0{,}200\\) mol/L."
         },
         {
           "type": "meerkeuze",
-          "vraag": "Je hebt 100 mL van 2,00 mol/L nodig uit een voorraad van 10,0 mol/L. Hoeveel neem je uit de voorraad?",
+          "vraag": "Je hebt \\(100\\) mL van \\(2{,}00\\) mol/L nodig uit een voorraad van \\(10{,}0\\) mol/L. Hoeveel neem je uit de voorraad?",
           "opties": [
-            "20,0 mL",
-            "50,0 mL",
-            "5,00 mL",
-            "200 mL"
+            "\\(20{,}0\\) mL",
+            "\\(50{,}0\\) mL",
+            "\\(5{,}00\\) mL",
+            "\\(200\\) mL"
           ],
           "antwoord": 0,
-          "uitleg": "Uit c₁V₁ = c₂V₂ volgt V₁ = 2,00 keer 100 gedeeld door 10,0, dus 20,0 mL. Daarna vul je aan tot 100 mL."
+          "uitleg": "Uit c₁V₁ = c₂V₂ volgt V₁ = \\(2{,}00\\) keer \\(100 : 10{,}0\\), dus \\(20{,}0\\) mL. Daarna vul je aan tot \\(100\\) mL."
         },
         {
           "type": "meerkeuze",
-          "vraag": "In de reactie 2 H₂ + O₂ → 2 H₂O reageert 4,00 mol H₂ volledig. Hoeveel mol O₂ is daarvoor nodig?",
+          "vraag": "In de reactie 2 H₂ + O₂ → 2 H₂O reageert \\(4{,}00\\) mol H₂ volledig. Hoeveel mol O₂ is daarvoor nodig?",
           "opties": [
-            "2,00 mol",
-            "4,00 mol",
-            "8,00 mol",
-            "1,00 mol"
+            "\\(2{,}00\\) mol",
+            "\\(4{,}00\\) mol",
+            "\\(8{,}00\\) mol",
+            "\\(1{,}00\\) mol"
           ],
           "antwoord": 0,
-          "uitleg": "De coëfficiënten geven de verhouding: op twee H₂ hoort één O₂. Dus bij 4,00 mol H₂ hoort 2,00 mol O₂."
+          "uitleg": "De coëfficiënten geven de verhouding: op twee H₂ hoort één O₂. Dus bij \\(4{,}00\\) mol H₂ hoort \\(2{,}00\\) mol O₂."
         },
         {
           "type": "meerkeuze",
-          "vraag": "In de reactie CaCO₃ + 2 HCl → CaCl₂ + H₂O + CO₂ reageert 1,00 mol kalksteen volledig. Hoeveel mol CO₂ ontstaat er?",
+          "vraag": "In de reactie CaCO₃ + 2 HCl → CaCl₂ + H₂O + CO₂ reageert \\(1{,}00\\) mol kalksteen volledig. Hoeveel mol CO₂ ontstaat er?",
           "opties": [
-            "1,00 mol",
-            "2,00 mol",
-            "0,500 mol",
-            "3,00 mol"
+            "\\(1{,}00\\) mol",
+            "\\(2{,}00\\) mol",
+            "\\(0{,}500\\) mol",
+            "\\(3{,}00\\) mol"
           ],
           "antwoord": 0,
           "uitleg": "De coëfficiënt bij CaCO₃ en bij CO₂ is in beide gevallen één, dus is de verhouding één op één."
@@ -4678,27 +4678,27 @@
         },
         {
           "type": "invultekst",
-          "vraag": "Je lost 0,300 mol op tot 1,50 L oplossing. Wat is de molaire concentratie in mol/L?",
+          "vraag": "Je lost \\(0{,}300\\) mol op tot \\(1{,}50\\) L oplossing. Wat is de molaire concentratie in mol/L?",
           "antwoord": [
             "0,200",
             "0,2",
             "0,200 mol/L"
           ],
-          "uitleg": "0,300 gedeeld door 1,50 is 0,200 mol/L."
+          "uitleg": "\\(0{,}300 : 1{,}50\\) is \\(0{,}200\\) mol/L."
         },
         {
           "type": "invultekst",
-          "vraag": "Hoeveel mol zit er in 500 mL van een oplossing van 0,400 mol/L?",
+          "vraag": "Hoeveel mol zit er in \\(500\\) mL van een oplossing van \\(0{,}400\\) mol/L?",
           "antwoord": [
             "0,200",
             "0,2",
             "0,200 mol"
           ],
-          "uitleg": "n = c keer V, dus 0,400 keer 0,500 L is 0,200 mol."
+          "uitleg": "\\(n = c\\) keer V, dus \\(0{,}400\\) keer \\(0{,}500\\) L is \\(0{,}200\\) mol."
         },
         {
           "type": "invultekst",
-          "vraag": "Je verdunt 25,0 mL van 0,800 mol/L tot 100 mL. Wat is de nieuwe concentratie in mol/L?",
+          "vraag": "Je verdunt \\(25{,}0\\) mL van \\(0{,}800\\) mol/L tot \\(100\\) mL. Wat is de nieuwe concentratie in mol/L?",
           "antwoord": [
             "0,200",
             "0,2",
@@ -4803,7 +4803,7 @@
         },
         {
           "type": "meerkeuze",
-          "vraag": "Welk glaswerk gebruik je om precies 25,0 mL af te meten?",
+          "vraag": "Welk glaswerk gebruik je om precies \\(25{,}0\\) mL af te meten?",
           "opties": [
             "een volpipet",
             "een maatbeker",
@@ -4851,12 +4851,12 @@
         },
         {
           "type": "meerkeuze",
-          "vraag": "Je moet een volume van ongeveer 40 mL afmeten. Welk instrument kies je?",
+          "vraag": "Je moet een volume van ongeveer \\(40\\) mL afmeten. Welk instrument kies je?",
           "opties": [
-            "een maatcilinder van 50 mL",
-            "een maatcilinder van 500 mL",
-            "een volpipet van 10 mL",
-            "een maatkolf van 1 L"
+            "een maatcilinder van \\(50\\) mL",
+            "een maatcilinder van \\(500\\) mL",
+            "een volpipet van \\(10\\) mL",
+            "een maatkolf van \\(1\\) L"
           ],
           "antwoord": 0,
           "uitleg": "Je kiest een instrument waarvan het meetbereik net boven je volume ligt. Een te grote cilinder leest veel grover af."
@@ -4877,7 +4877,7 @@
           "type": "waarofniet",
           "vraag": "Je houdt je altijd aan het meetbereik van een meetinstrument.",
           "antwoord": true,
-          "uitleg": "Buiten het bereik is de meting niet geldig en kan het toestel beschadigen. Een balans van 200 g belast je dus niet met een kilo."
+          "uitleg": "Buiten het bereik is de meting niet geldig en kan het toestel beschadigen. Een balans van \\(200\\) g belast je dus niet met een kilo."
         },
         {
           "type": "waarofniet",
@@ -4979,19 +4979,19 @@
         },
         {
           "type": "meerkeuze",
-          "vraag": "Hoeveel is 2,5 mg in gram?",
+          "vraag": "Hoeveel is \\(2{,}5\\) mg in gram?",
           "opties": [
-            "0,0025 g",
-            "0,025 g",
-            "2500 g",
-            "0,25 g"
+            "\\(0{,}0025\\) g",
+            "\\(0{,}025\\) g",
+            "\\(2500\\) g",
+            "\\(0{,}25\\) g"
           ],
           "antwoord": 0,
           "uitleg": "Milli betekent een duizendste, dus deel je door duizend."
         },
         {
           "type": "meerkeuze",
-          "vraag": "Hoeveel beduidende cijfers heeft het getal 0,00340?",
+          "vraag": "Hoeveel beduidende cijfers heeft het getal \\(0{,}00340\\)?",
           "opties": [
             "drie",
             "twee",
@@ -4999,16 +4999,16 @@
             "zes"
           ],
           "antwoord": 0,
-          "uitleg": "De nullen vooraan tellen niet mee, de nul achteraan wel. Dus 3, 4 en 0 zijn de beduidende cijfers."
+          "uitleg": "De nullen vooraan tellen niet mee, de nul achteraan wel. Dus \\(3\\), \\(4\\) en \\(0\\) zijn de beduidende cijfers."
         },
         {
           "type": "meerkeuze",
-          "vraag": "Hoe schrijf je 0,00450 in wetenschappelijke notatie?",
+          "vraag": "Hoe schrijf je \\(0{,}00450\\) in wetenschappelijke notatie?",
           "opties": [
-            "4,50.10⁻³",
-            "45,0.10⁻⁴",
-            "4,50.10³",
-            "0,450.10⁻²"
+            "\\(4{,}50 \\cdot 10^{-3}\\)",
+            "\\(45{,}0 \\cdot 10^{-4}\\)",
+            "\\(4{,}50 \\cdot 10^{3}\\)",
+            "\\(0{,}450 \\cdot 10^{-2}\\)"
           ],
           "antwoord": 0,
           "uitleg": "In de wetenschappelijke notatie staat er één cijfer verschillend van nul voor de komma. De drie beduidende cijfers blijven bewaard."
@@ -5104,7 +5104,7 @@
           "type": "waarofniet",
           "vraag": "Een centimeter is een honderdste van een meter.",
           "antwoord": true,
-          "uitleg": "Centi staat voor 10⁻², dus een honderdste."
+          "uitleg": "Centi staat voor \\(10^{-2}\\), dus een honderdste."
         },
         {
           "type": "invultekst",
@@ -5114,16 +5114,16 @@
             "10^3",
             "duizend"
           ],
-          "uitleg": "Kilo staat voor 10³, dus duizend keer de eenheid."
+          "uitleg": "Kilo staat voor \\(10^{3}\\), dus duizend keer de eenheid."
         },
         {
           "type": "invultekst",
-          "vraag": "Hoeveel is 0,75 L in mL?",
+          "vraag": "Hoeveel is \\(0{,}75\\) L in mL?",
           "antwoord": [
             "750",
             "750 mL"
           ],
-          "uitleg": "Eén liter is duizend milliliter, dus 0,75 keer duizend is 750 mL."
+          "uitleg": "Eén liter is duizend milliliter, dus \\(0{,}75\\) keer duizend is \\(750\\) mL."
         },
         {
           "type": "invultekst",

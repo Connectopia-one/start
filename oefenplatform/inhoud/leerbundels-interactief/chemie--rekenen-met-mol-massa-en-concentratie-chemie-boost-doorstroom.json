@@ -8,11 +8,11 @@
    "blokken": [
     {
      "soort": "tekst",
-     "html": "In <strong>één mol van een stof zitten 6,02.10²³ deeltjes</strong>. Dat getal heet het <strong>getal van Avogadro</strong> en staat in de bijlage die je op het examen mag gebruiken. Het is een afspraak, zoals een dozijn er twaalf zijn, maar veel groter."
+     "html": "In <strong>één mol van een stof zitten \\(6{,}02 \\cdot 10^{23}\\) deeltjes</strong>. Dat getal heet het <strong>getal van Avogadro</strong> en staat in de bijlage die je op het examen mag gebruiken. Het is een afspraak, zoals een dozijn er twaalf zijn, maar veel groter."
     },
     {
      "soort": "tekst",
-     "html": "<strong>Eén mol van een stof bevat altijd evenveel deeltjes, welke stof het ook is</strong>, en <strong>twee mol bevat twee keer zoveel deeltjes als één mol</strong>: het aantal deeltjes is recht evenredig met de stofhoeveelheid. De <strong>massa</strong> van die mol verschilt wel per stof: <strong>één mol water en één mol koolstofdioxide hebben niet dezelfde massa</strong>, want water is 18,0 g/mol en koolstofdioxide 44,0 g/mol."
+     "html": "<strong>Eén mol van een stof bevat altijd evenveel deeltjes, welke stof het ook is</strong>, en <strong>twee mol bevat twee keer zoveel deeltjes als één mol</strong>: het aantal deeltjes is recht evenredig met de stofhoeveelheid. De <strong>massa</strong> van die mol verschilt wel per stof: <strong>één mol water en één mol koolstofdioxide hebben niet dezelfde massa</strong>, want water is \\(18{,}0\\) g/mol en koolstofdioxide \\(44{,}0\\) g/mol."
     },
     {
      "soort": "tekst",
@@ -28,7 +28,7 @@
     },
     {
      "soort": "tekst",
-     "html": "<strong>1,204.10²⁴ moleculen is 2,00 mol</strong> (gedeeld door 6,02.10²³), en <strong>3,01.10²³ deeltjes is 0,500 mol</strong>, precies de helft. Omgekeerd zitten er in <strong>0,250 mol 1,51.10²³ moleculen</strong>."
+     "html": "<strong>\\(1{,}204 \\cdot 10^{24}\\) moleculen is \\(2{,}00\\) mol</strong> (gedeeld door \\(6{,}02 \\cdot 10^{23}\\)), en <strong>\\(3{,}01 \\cdot 10^{23}\\) deeltjes is \\(0{,}500\\) mol</strong>, precies de helft. Omgekeerd zitten er in <strong>\\(0{,}250\\) mol \\(1{,}51 \\cdot 10^{23}\\) moleculen</strong>."
     }
    ]
   },
@@ -37,19 +37,19 @@
    "blokken": [
     {
      "soort": "tekst",
-     "html": "De <strong>molaire massa</strong> zegt hoeveel gram één mol weegt, dus is haar eenheid <strong>g/mol</strong>. Je <strong>leest ze af uit de relatieve atoommassa's in het periodiek systeem</strong> door die van alle atomen in de formule op te tellen; je rondt af op 0,1."
+     "html": "De <strong>molaire massa</strong> zegt hoeveel gram één mol weegt, dus is haar eenheid <strong>g/mol</strong>. Je <strong>leest ze af uit de relatieve atoommassa's in het periodiek systeem</strong> door die van alle atomen in de formule op te tellen; je rondt af op \\(0{,}1\\)."
     },
     {
      "soort": "tekst",
-     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Stof</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Berekening</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Molaire massa</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">H₂O</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">2 × 1,0 + 16,0</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">18,0 g/mol</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">CO₂</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">12,0 + 2 × 16,0</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">44,0 g/mol</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">NaOH</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">23,0 + 16,0 + 1,0</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">40,0 g/mol</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">NaCl</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">23,0 + 35,5</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">58,5 g/mol</td></tr></table>"
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Stof</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Berekening</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Molaire massa</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">H₂O</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">\\(2 \\cdot 1{,}0 + 16{,}0\\)</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">\\(18{,}0\\) g/mol</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">CO₂</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">\\(12{,}0 + 2 \\cdot 16{,}0\\)</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">\\(44{,}0\\) g/mol</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">NaOH</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">\\(23{,}0 + 16{,}0 + 1{,}0\\)</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">\\(40{,}0\\) g/mol</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">NaCl</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">\\(23{,}0 + 35{,}5\\)</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">\\(58{,}5\\) g/mol</td></tr></table>"
     },
     {
      "soort": "tekst",
-     "html": "Rekenvoorbeelden: <strong>36,0 g water is 2,00 mol</strong>, <strong>88,0 g CO₂ is 2,00 mol</strong>, <strong>0,500 mol natriumchloride weegt 29,3 g</strong> en <strong>0,200 mol water weegt 3,60 g</strong>."
+     "html": "Rekenvoorbeelden: <strong>\\(36{,}0\\) g water is \\(2{,}00\\) mol</strong>, <strong>\\(88{,}0\\) g CO₂ is \\(2{,}00\\) mol</strong>, <strong>\\(0{,}500\\) mol natriumchloride weegt \\(29{,}3\\) g</strong> en <strong>\\(0{,}200\\) mol water weegt \\(3{,}60\\) g</strong>."
     },
     {
      "soort": "tekst",
-     "html": "Een <strong>schatting vooraf</strong> laat je zien of je antwoord in de goede orde ligt: <strong>drie keer ruim veertig is ongeveer honderdtwintig</strong>, en 3 mol CO₂ weegt inderdaad 132 g."
+     "html": "Een <strong>schatting vooraf</strong> laat je zien of je antwoord in de goede orde ligt: <strong>drie keer ruim veertig is ongeveer honderdtwintig</strong>, en \\(3\\) mol CO₂ weegt inderdaad \\(132\\) g."
     }
    ]
   },
@@ -58,15 +58,15 @@
    "blokken": [
     {
      "soort": "tekst",
-     "html": "De <strong>molaire concentratie is de stofhoeveelheid per volume</strong>: <strong>c = n / V</strong>, met als <strong>eenheid mol per liter</strong>, ook molariteit of M genoemd. De <strong>massaconcentratie is de massa per volume</strong>, met als <strong>eenheid g/L</strong>."
+     "html": "De <strong>molaire concentratie is de stofhoeveelheid per volume</strong>: <strong>\\(c = n\\) / V</strong>, met als <strong>eenheid mol per liter</strong>, ook molariteit of M genoemd. De <strong>massaconcentratie is de massa per volume</strong>, met als <strong>eenheid g/L</strong>."
     },
     {
      "soort": "tekst",
-     "html": "Rekenvoorbeelden: <strong>0,500 mol tot 2,00 L geeft 0,250 mol/L</strong>; <strong>0,100 mol tot 250 mL geeft 0,400 mol/L</strong> (zet eerst om naar 0,250 L); <strong>0,300 mol tot 1,50 L geeft 0,200 mol/L</strong>. En omgekeerd: in <strong>500 mL van 0,400 mol/L zit 0,200 mol</strong>."
+     "html": "Rekenvoorbeelden: <strong>\\(0{,}500\\) mol tot \\(2{,}00\\) L geeft \\(0{,}250\\) mol/L</strong>; <strong>\\(0{,}100\\) mol tot \\(250\\) mL geeft \\(0{,}400\\) mol/L</strong> (zet eerst om naar \\(0{,}250\\) L); <strong>\\(0{,}300\\) mol tot \\(1{,}50\\) L geeft \\(0{,}200\\) mol/L</strong>. En omgekeerd: in <strong>\\(500\\) mL van \\(0{,}400\\) mol/L zit \\(0{,}200\\) mol</strong>."
     },
     {
      "soort": "tekst",
-     "html": "Van <strong>massaconcentratie naar molaire concentratie</strong> deel je door de molaire massa: <strong>40,0 g NaOH per liter is 1,00 mol/L</strong>, want M is 40,0 g/mol."
+     "html": "Van <strong>massaconcentratie naar molaire concentratie</strong> deel je door de molaire massa: <strong>\\(40{,}0\\) g NaOH per liter is \\(1{,}00\\) mol/L</strong>, want M is \\(40{,}0\\) g/mol."
     }
    ]
   },
@@ -79,11 +79,11 @@
     },
     {
      "soort": "tekst",
-     "html": "<strong>50,0 mL van 1,00 mol/L tot 250 mL</strong> geeft <strong>0,200 mol/L</strong>: het volume wordt vijf keer groter. <strong>25,0 mL van 0,800 mol/L tot 100 mL</strong> geeft <strong>0,200 mol/L</strong>, want vier keer groter."
+     "html": "<strong>\\(50{,}0\\) mL van \\(1{,}00\\) mol/L tot \\(250\\) mL</strong> geeft <strong>\\(0{,}200\\) mol/L</strong>: het volume wordt vijf keer groter. <strong>\\(25{,}0\\) mL van \\(0{,}800\\) mol/L tot \\(100\\) mL</strong> geeft <strong>\\(0{,}200\\) mol/L</strong>, want vier keer groter."
     },
     {
      "soort": "tekst",
-     "html": "Omgekeerd: voor <strong>100 mL van 2,00 mol/L uit een voorraad van 10,0 mol/L</strong> neem je <strong>20,0 mL</strong> uit die voorraad en vul je aan tot 100 mL."
+     "html": "Omgekeerd: voor <strong>\\(100\\) mL van \\(2{,}00\\) mol/L uit een voorraad van \\(10{,}0\\) mol/L</strong> neem je <strong>\\(20{,}0\\) mL</strong> uit die voorraad en vul je aan tot \\(100\\) mL."
     }
    ]
   },
@@ -96,7 +96,7 @@
     },
     {
      "soort": "tekst",
-     "html": "In <strong>2 H₂ + O₂ → 2 H₂O</strong> hoort op twee H₂ één O₂, dus bij <strong>4,00 mol H₂ hoort 2,00 mol O₂</strong>. In <strong>CaCO₃ + 2 HCl → CaCl₂ + H₂O + CO₂</strong> is de verhouding tussen CaCO₃ en CO₂ één op één, dus geeft <strong>1,00 mol kalksteen 1,00 mol CO₂</strong>."
+     "html": "In <strong>2 H₂ + O₂ → 2 H₂O</strong> hoort op twee H₂ één O₂, dus bij <strong>\\(4{,}00\\) mol H₂ hoort \\(2{,}00\\) mol O₂</strong>. In <strong>CaCO₃ + 2 HCl → CaCl₂ + H₂O + CO₂</strong> is de verhouding tussen CaCO₃ en CO₂ één op één, dus geeft <strong>\\(1{,}00\\) mol kalksteen \\(1{,}00\\) mol CO₂</strong>."
     },
     {
      "soort": "tekst",
@@ -110,10 +110,10 @@
   }
  ],
  "onthoud": [
-  "Eén mol is 6,02.10²³ deeltjes; stofhoeveelheid betekent altijd het aantal mol.",
+  "Eén mol is \\(6{,}02 \\cdot 10^{23}\\) deeltjes; stofhoeveelheid betekent altijd het aantal mol.",
   "n = m / M, en n = het aantal deeltjes gedeeld door het getal van Avogadro; omgekeerd m = n · M.",
-  "De molaire massa in g/mol tel je op uit de relatieve atoommassa's: water 18,0, CO₂ 44,0, NaOH 40,0, NaCl 58,5.",
-  "Molaire concentratie c = n / V in mol/L; massaconcentratie is massa per volume in g/L.",
+  "De molaire massa in g/mol tel je op uit de relatieve atoommassa's: water \\(18{,}0\\), CO₂ \\(44{,}0\\), NaOH \\(40{,}0\\), NaCl \\(58{,}5\\).",
+  "Molaire concentratie \\(c = n\\) / V in mol/L; massaconcentratie is massa per volume in g/L.",
   "Van g/L naar mol/L deel je door de molaire massa.",
   "Verdunnen: c₁V₁ = c₂V₂, want het aantal mol blijft gelijk en het volume stijgt.",
   "Coëfficiënten gelden in mol, niet in gram: reken eerst naar mol, dan de verhouding, dan terug.",

@@ -24,7 +24,7 @@ DEEL1 = [
         ],
         antwoord=0,
         uitleg="Ze moet nauwkeurig afgebakend en meetbaar zijn. Hoe los het zout op is "
-        "geen onderzoeksvraag, hoeveel gram per 100 mL water wel.",
+        r"geen onderzoeksvraag, hoeveel gram per \(100\) mL water wel.",
     ),
     dict(
         type="meerkeuze",
@@ -102,7 +102,7 @@ DEEL1 = [
             "een systematische fout kan je met een gemiddelde wel wegwerken",
         ],
         antwoord=0,
-        uitleg="Een balans die 0,2 g te veel aangeeft, doet dat elke keer. Herhalen helpt "
+        uitleg=r"Een balans die \(0{,}2\) g te veel aangeeft, doet dat elke keer. Herhalen helpt "
         "dan niet, kalibreren wel.",
     ),
     dict(
@@ -209,7 +209,7 @@ DEEL1 = [
             "nauwkeurig gaat over de eenheid, precies over het aantal cijfers",
         ],
         antwoord=0,
-        uitleg="Vijf metingen die mooi samen liggen maar alle vijf 0,3 g te hoog, zijn "
+        uitleg=r"Vijf metingen die mooi samen liggen maar alle vijf \(0{,}3\) g te hoog, zijn "
         "precies maar niet nauwkeurig. Dat wijst op een systematische fout.",
     ),
     dict(
@@ -252,7 +252,7 @@ DEEL2 = [
             "een meting die je aan het eind uitvoert",
         ],
         antwoord=0,
-        uitleg="Het filter moet minstens 90 % van het zand tegenhouden: dat is een "
+        uitleg=r"Het filter moet minstens \(90\,\%\) van het zand tegenhouden: dat is een "
         "criterium. Je hebt maar één lesuur: dat is een randvoorwaarde.",
     ),
     dict(

@@ -88,7 +88,7 @@ BUNDELS["mengsels-zuivere-stoffen-en-scheidingstechnieken-chemie-boost-doorstroo
                   "<strong>massa en het volume van het staal zijn dat niet</strong>: die veranderen met "
                   "de hoeveelheid en zeggen dus niets over welke stof het is."),
             ("p", "De <strong>massadichtheid</strong> is de <strong>massa per volume</strong>, "
-                  "bijvoorbeeld in kg/m³ of in g/L. Daarom zinkt een stof met een grotere massadichtheid "
+                  r"bijvoorbeeld in kg/\(\text{m}^{3}\) of in g/L. Daarom zinkt een stof met een grotere massadichtheid "
                   "in water."),
             ("p", "De <strong>oplosbaarheid</strong> zegt <strong>hoeveel van een stof in een bepaald "
                   "volume oplosmiddel oplost</strong>, bij een bepaalde temperatuur."),
@@ -215,20 +215,20 @@ BUNDELS["enkelvoudige-en-samengestelde-stoffen-chemie-boost-doorstroom"] = dict(
         ]),
         dict(kop="Een formule lezen", blokken=[
             ("p", "De <strong>coëfficiënt</strong> staat <strong>vooraan</strong> en zegt "
-                  "<strong>hoeveel deeltjes van die stof er zijn</strong>. In 3 H₂SO₄ is "
-                  "<strong>3 de coëfficiënt</strong>."),
+                  r"<strong>hoeveel deeltjes van die stof er zijn</strong>. In \(3\) H₂SO₄ is "
+                  r"<strong>\(3\) de coëfficiënt</strong>."),
             ("p", "De <strong>index</strong> staat <strong>rechts onderaan bij een symbool</strong> en "
                   "zegt <strong>hoeveel atomen van dat element in één deeltje zitten</strong>. De "
-                  "<strong>4 achter de O in H₂SO₄</strong> betekent dus dat er "
+                  r"<strong>\(4\) achter de O in H₂SO₄</strong> betekent dus dat er "
                   "<strong>vier zuurstofatomen in de molecule</strong> zitten."),
             ("p", "In <strong>één molecule H₂SO₄</strong> zitten <strong>zeven atomen</strong>: twee "
                   "waterstof, één zwavel en vier zuurstof."),
-            ("p", "In <strong>2 Ca(NO₃)₂</strong> komen <strong>drie verschillende atoomsoorten</strong> "
+            ("p", r"In <strong>\(2\) Ca(NO₃)₂</strong> komen <strong>drie verschillende atoomsoorten</strong> "
                   "voor: calcium, stikstof en zuurstof. De coëfficiënt en de indexen veranderen het "
                   "aantal soorten niet."),
-            ("p", "Een <strong>coëfficiënt geldt voor het hele deeltje</strong>. <strong>2 H₂O zijn twee "
+            ("p", r"Een <strong>coëfficiënt geldt voor het hele deeltje</strong>. <strong>\(2\) H₂O zijn twee "
                   "watermoleculen</strong>, dus vier waterstof- en twee zuurstofatomen; het betekent niet "
-                  "dat er twee zuurstofatomen in één molecule zitten. In <strong>3 H₂O</strong> zitten "
+                  r"dat er twee zuurstofatomen in één molecule zitten. In <strong>\(3\) H₂O</strong> zitten "
                   "dus <strong>zes waterstofatomen</strong> in totaal."),
         ]),
         dict(kop="Enkelvoudig of samengesteld", blokken=[
@@ -347,20 +347,20 @@ BUNDELS["chemische-reacties-en-energie-chemie-boost-doorstroom"] = dict(
             ("p", "Je mag <strong>enkel de coëfficiënten aanpassen</strong>, nooit een "
                   "<strong>index</strong>: een index aanpassen maakt er een andere stof van, want H₂O₂ is "
                   "waterstofperoxide en niet meer water. Je mag ook geen stof bijschrijven die er niet in "
-                  "staat. En de <strong>coëfficiënt 1 schrijf je niet op</strong>: staat er niets voor "
-                  "een formule, dan is ze toch 1."),
+                  r"staat. En de <strong>coëfficiënt \(1\) schrijf je niet op</strong>: staat er niets voor "
+                  r"een formule, dan is ze toch \(1\)."),
             ("p", tabel(["Vergelijking", "Coëfficiënten"], [
-                ["H₂ + O₂ → H₂O", "2, 1 en 2"],
-                ["Fe + O₂ → Fe₂O₃", "4, 3 en 2"],
-                ["CH₄ + O₂ → CO₂ + H₂O", "1, 2, 1 en 2"],
-                ["C₂H₆ + O₂ → CO₂ + H₂O", "2, 7, 4 en 6"],
+                ["H₂ + O₂ → H₂O", r"\(2\), \(1\) en \(2\)"],
+                ["Fe + O₂ → Fe₂O₃", r"\(4\), \(3\) en \(2\)"],
+                ["CH₄ + O₂ → CO₂ + H₂O", r"\(1\), \(2\), \(1\) en \(2\)"],
+                ["C₂H₆ + O₂ → CO₂ + H₂O", r"\(2\), \(7\), \(4\) en \(6\)"],
             ])),
-            ("p", "<strong>2 H₂ + O₂ → 2 H₂O</strong>: links vier waterstof- en twee zuurstofatomen, "
-                  "rechts precies hetzelfde. Hoort er rechts <strong>2 H₂O</strong>, dan is de "
-                  "<strong>coëfficiënt voor O₂ gelijk aan 1</strong>."),
-            ("p", "<strong>4 Fe + 3 O₂ → 2 Fe₂O₃</strong>: rechts staan vier ijzeratomen en zes "
-                  "zuurstofatomen, dus links 4 Fe en 3 O₂."),
-            ("p", "<strong>CH₄ + 2 O₂ → CO₂ + 2 H₂O</strong>: één CH₄ geeft één CO₂ en twee H₂O, dus "
+            ("p", r"<strong>2 H₂ + O₂ → 2 H₂O</strong>: links vier waterstof- en twee zuurstofatomen, "
+                  r"rechts precies hetzelfde. Hoort er rechts <strong>\(2\) H₂O</strong>, dan is de "
+                  r"<strong>coëfficiënt voor O₂ gelijk aan \(1\)</strong>."),
+            ("p", r"<strong>4 Fe + 3 O₂ → 2 Fe₂O₃</strong>: rechts staan vier ijzeratomen en zes "
+                  r"zuurstofatomen, dus links \(4\) Fe en \(3\) O₂."),
+            ("p", r"<strong>CH₄ + 2 O₂ → CO₂ + 2 H₂O</strong>: één CH₄ geeft één CO₂ en twee H₂O, dus "
                   "rechts vier zuurstofatomen en links twee O₂."),
         ]),
         dict(kop="Exo- en endo-energetische reacties", blokken=[
@@ -374,7 +374,7 @@ BUNDELS["chemische-reacties-en-energie-chemie-boost-doorstroom"] = dict(
                   "<strong>Endo</strong>: een <strong>koudepakje dat koud wordt</strong>, het "
                   "<strong>ontleden van water met elektriciteit</strong>, en de "
                   "<strong>fotosynthese</strong>, waarvoor de plant lichtenergie nodig heeft."),
-            ("p", "Stijgt de temperatuur van een oplossing <strong>van 20 naar 34 graden</strong> tijdens "
+            ("p", r"Stijgt de temperatuur van een oplossing <strong>van \(20\) naar \(34\) graden</strong> tijdens "
                   "een reactie, dan komt er energie vrij: de reactie is <strong>exo-energetisch</strong>. "
                   "Voelt de beker <strong>koud</strong> aan, dan haalt de reactie warmte uit de beker en "
                   "uit je hand: dan is ze <strong>endo-energetisch</strong>, niet exo."),
@@ -438,9 +438,9 @@ BUNDELS["de-bouw-van-atomen-en-ionen-chemie-boost-doorstroom"] = dict(
     secties=[
         dict(kop="De elementaire deeltjes", blokken=[
             ("p", tabel(["Deeltje", "Waar", "Eenheidslading", "Massa"], [
-                ["proton", "in de kern", "+1", "ongeveer 1 u"],
-                ["neutron", "in de kern", "0", "ongeveer 1 u"],
-                ["elektron", "rond de kern", "−1", "verwaarloosbaar"],
+                ["proton", "in de kern", r"+\(1\)", r"ongeveer \(1\) u"],
+                ["neutron", "in de kern", r"\(0\)", r"ongeveer \(1\) u"],
+                ["elektron", "rond de kern", r"\(-1\)", "verwaarloosbaar"],
             ])),
             ("p", "In de <strong>atoomkern zitten de protonen en de neutronen</strong>, samen de "
                   "<strong>nucleonen</strong>. De <strong>elektronen bewegen eromheen</strong>."),
@@ -459,9 +459,9 @@ BUNDELS["de-bouw-van-atomen-en-ionen-chemie-boost-doorstroom"] = dict(
                   "heb je een ander element."),
             ("p", "Het <strong>massagetal A is het aantal protonen en neutronen samen</strong>, dus het "
                   "aantal nucleonen. De elektronen tellen niet mee, want hun massa is verwaarloosbaar."),
-            ("p", "<strong>Aantal neutronen = massagetal − atoomnummer.</strong> Bij atoomnummer 17 en "
-                  "massagetal 35 zijn dat <strong>achttien neutronen</strong>; bij atoomnummer 26 en "
-                  "massagetal 56 zijn het <strong>dertig neutronen</strong>."),
+            ("p", r"<strong>Aantal neutronen = massagetal − atoomnummer.</strong> Bij atoomnummer \(17\) en "
+                  r"massagetal \(35\) zijn dat <strong>achttien neutronen</strong>; bij atoomnummer \(26\) en "
+                  r"massagetal \(56\) zijn het <strong>dertig neutronen</strong>."),
             ("p", "In een <strong>neutraal atoom is het aantal elektronen gelijk aan het aantal "
                   "protonen</strong>, dus gelijk aan het <strong>atoomnummer</strong>. Het aantal "
                   "neutronen staat daar los van, en het massagetal geeft niet het aantal elektronen."),
@@ -470,23 +470,23 @@ BUNDELS["de-bouw-van-atomen-en-ionen-chemie-boost-doorstroom"] = dict(
                   "atoom protonen afgeeft, maar doordat het <strong>elektronen afgeeft</strong>, zodat er "
                   "meer protonen overblijven."),
             ("p", tabel(["Deeltje", "Protonen", "Elektronen", "Besluit"], [
-                ["elf protonen, tien elektronen", "11", "10", "een positief ion (Na¹⁺)"],
-                ["Cl¹⁻ (Z = 17)", "17", "18", "één elektron meer dan protonen"],
-                ["Mg²⁺ (Z = 12)", "12", "10", "twee elektronen minder"],
-                ["O²⁻ (Z = 8)", "8", "10", "het aantal protonen blijft 8"],
+                ["elf protonen, tien elektronen", r"\(11\)", r"\(10\)", "een positief ion (Na¹⁺)"],
+                [r"Cl¹⁻ (Z = \(17\))", r"\(17\)", r"\(18\)", "één elektron meer dan protonen"],
+                [r"Mg²⁺ (Z = \(12\))", r"\(12\)", r"\(10\)", "twee elektronen minder"],
+                [r"O²⁻ (Z = \(8\))", r"\(8\)", r"\(10\)", r"het aantal protonen blijft \(8\)"],
             ])),
         ]),
         dict(kop="Relatieve en absolute massa", blokken=[
             ("p", "De <strong>relatieve atoommassa</strong> is de <strong>massa van het atoom vergeleken "
                   "met de eenheid u</strong>. Ze is een verhouding en <strong>heeft dus geen "
                   "eenheid</strong>; ze wordt niet in gram uitgedrukt. Je leest ze af in het periodiek "
-                  "systeem, <strong>afgerond op 0,1</strong>."),
-            ("p", "De <strong>atoommassa-eenheid u is 1,66.10⁻²⁷ kg</strong>. Dat getal staat in de "
+                  r"systeem, <strong>afgerond op \(0{,}1\)</strong>."),
+            ("p", r"De <strong>atoommassa-eenheid u is \(1{,}66 \cdot 10^{-27}\) kg</strong>. Dat getal staat in de "
                   "bijlage die je op het examen mag gebruiken; het is ongeveer de massa van één nucleon."),
             ("p", "De <strong>absolute massa</strong> bereken je door de relatieve massa <strong>met u te "
-                  "vermenigvuldigen</strong>, niet erdoor te delen. Voor koolstof met Ar = 12,0: "
-                  "<strong>12,0 × 1,66.10⁻²⁷ kg = 1,99.10⁻²⁶ kg</strong>. Voor helium met Ar = 4,0: "
-                  "<strong>4,0 × 1,66.10⁻²⁷ kg = 6,64.10⁻²⁷ kg</strong>."),
+                  r"vermenigvuldigen</strong>, niet erdoor te delen. Voor koolstof met Ar = \(12{,}0\): "
+                  r"<strong>\(12{,}0 \cdot 1{,}66\).\(10^{-27}\) kg = \(1{,}99 \cdot 10^{-26}\) kg</strong>. Voor helium met Ar = \(4{,}0\): "
+                  r"<strong>\(4{,}0 \cdot 1{,}66\).\(10^{-27}\) kg = \(6{,}64 \cdot 10^{-27}\) kg</strong>."),
         ]),
         dict(kop="De elektronenconfiguratie volgens Bohr", blokken=[
             ("p", "De <strong>elektronenconfiguratie volgens Bohr</strong> beschrijft <strong>hoe de "
@@ -497,11 +497,11 @@ BUNDELS["de-bouw-van-atomen-en-ionen-chemie-boost-doorstroom"] = dict(
                   "<strong>derde tot acht</strong>. Je <strong>vult de schillen van binnen naar "
                   "buiten</strong>. De elektronen zitten niet mee in de kern."),
             ("p", tabel(["Element", "Z", "Configuratie"], [
-                ["zuurstof", "8", "2, 6"],
-                ["natrium", "11", "2, 8, 1"],
-                ["chloor", "17", "2, 8, 7"],
-                ["neon", "10", "2, 8"],
-                ["argon", "18", "2, 8, 8"],
+                ["zuurstof", r"\(8\)", r"\(2\), \(6\)"],
+                ["natrium", r"\(11\)", r"\(2\), \(8\), \(1\)"],
+                ["chloor", r"\(17\)", r"\(2\), \(8\), \(7\)"],
+                ["neon", r"\(10\)", r"\(2\), \(8\)"],
+                ["argon", r"\(18\)", r"\(2\), \(8\), \(8\)"],
             ])),
             ("p", "De <strong>edelgasconfiguratie</strong> is een <strong>volledig gevulde buitenste "
                   "schil</strong>. Die toestand is bijzonder stabiel, dus nemen atomen elektronen op of "
@@ -509,7 +509,7 @@ BUNDELS["de-bouw-van-atomen-en-ionen-chemie-boost-doorstroom"] = dict(
                   "buitenste schil; natrium heeft er één te veel en chloor één te weinig."),
             ("p", "<strong>Een natriumatoom geeft liever één elektron af dan er zeven op te "
                   "nemen</strong>, want <strong>met één minder heeft het al een volle buitenste "
-                  "schil</strong>: van 2, 8, 1 blijft 2, 8 over, de configuratie van neon."),
+                  r"schil</strong>: van \(2\), \(8\), \(1\) blijft \(2\), \(8\) over, de configuratie van neon."),
             ("p", "In het <strong>elektron-stipmodel</strong> tekent men <strong>stippen rond het symbool "
                   "voor de buitenste elektronen</strong>. Zo zie je meteen hoeveel valentie-elektronen een "
                   "atoom heeft. Het <strong>aantal elektronen in de buitenste schil bepaalt mee de "
@@ -518,13 +518,13 @@ BUNDELS["de-bouw-van-atomen-en-ionen-chemie-boost-doorstroom"] = dict(
     ],
     onthoud=[
         "Protonen en neutronen zitten in de kern en heten nucleonen; elektronen bewegen eromheen.",
-        "Proton +1, elektron −1, neutron 0; een elektron is bijna tweeduizend keer lichter dan een proton.",
+        r"Proton +\(1\), elektron \(-1\), neutron \(0\); een elektron is bijna tweeduizend keer lichter dan een proton.",
         "Atoomnummer Z is het aantal protonen; massagetal A is protonen plus neutronen.",
         "Aantal neutronen is A min Z; in een neutraal atoom is het aantal elektronen gelijk aan Z.",
         "Een ion ontstaat door elektronen op te nemen of af te geven; protonen bewegen nooit.",
-        "De relatieve atoommassa heeft geen eenheid; de absolute massa is Ar maal u, met u = 1,66.10⁻²⁷ kg.",
+        r"De relatieve atoommassa heeft geen eenheid; de absolute massa is Ar maal u, met u = \(1{,}66 \cdot 10^{-27}\) kg.",
         "Schillen vullen van binnen naar buiten: eerste twee, tweede acht, derde acht.",
-        "Natrium is 2, 8, 1 en chloor 2, 8, 7; een volle buitenste schil is de edelgasconfiguratie.",
+        r"Natrium is \(2\), \(8\), \(1\) en chloor \(2\), \(8\), \(7\); een volle buitenste schil is de edelgasconfiguratie.",
         "In het stipmodel staan de valentie-elektronen als stippen rond het symbool.",
     ],
 )
@@ -544,21 +544,21 @@ BUNDELS["het-periodiek-systeem-der-elementen-chemie-boost-doorstroom"] = dict(
                   "cijfers gelijk aan het aantal elektronen in de buitenste schil</strong>: groep VIA "
                   "heeft er zes, groep IIA twee."),
             ("p", "Het <strong>periodenummer is gelijk aan het aantal bezette schillen</strong>. Een "
-                  "element uit <strong>periode 4 heeft dus vier bezette schillen</strong>."),
+                  r"element uit <strong>periode \(4\) heeft dus vier bezette schillen</strong>."),
             ("p", "Het <strong>atoomnummer stijgt van links naar rechts in een periode</strong>, want de "
                   "elementen staan op volgorde van hun aantal protonen. Het <strong>aantal elementen per "
                   "periode is niet overal hetzelfde</strong>: de eerste heeft er twee, de tweede en de "
                   "derde acht, en daarna worden de perioden langer."),
-            ("p", "<strong>Zwavel staat in groep VIA en periode 3</strong>: drie bezette schillen en zes "
-                  "valentie-elektronen, dus de configuratie 2, 8, 6. En omgekeerd: een element met de "
-                  "configuratie <strong>2, 8, 3 staat in groep IIIA, periode 3</strong>, en dat is "
+            ("p", r"<strong>Zwavel staat in groep VIA en periode \(3\)</strong>: drie bezette schillen en zes "
+                  r"valentie-elektronen, dus de configuratie \(2\), \(8\), \(6\). En omgekeerd: een element met de "
+                  r"configuratie <strong>\(2\), \(8\), \(3\) staat in groep IIIA, periode \(3\)</strong>, en dat is "
                   "aluminium."),
         ]),
         dict(kop="De namen van de hoofdgroepen", blokken=[
             ("p", tabel(["Groep", "Naam", "Valentie-elektronen", "Voorbeelden"], [
-                ["IA", "alkalimetalen (zonder waterstof)", "1", "Li, Na, K"],
-                ["IIA", "aardalkalimetalen", "2", "Mg, Ca, Ba"],
-                ["VIIA", "halogenen", "7", "F, Cl, Br, I"],
+                ["IA", "alkalimetalen (zonder waterstof)", r"\(1\)", "Li, Na, K"],
+                ["IIA", "aardalkalimetalen", r"\(2\)", "Mg, Ca, Ba"],
+                ["VIIA", "halogenen", r"\(7\)", "F, Cl, Br, I"],
                 ["VIIIA", "edelgassen", "volle schil", "He, Ne, Ar"],
             ])),
             ("p", "De <strong>alkalimetalen</strong> hebben <strong>één valentie-elektron</strong> en "
@@ -575,23 +575,23 @@ BUNDELS["het-periodiek-systeem-der-elementen-chemie-boost-doorstroom"] = dict(
         ]),
         dict(kop="Ionen vormen uit de plaats in het systeem", blokken=[
             ("p", tabel(["Groep", "Elektronen op of af", "Lading van het ion"], [
-                ["IA", "één elektron af", "1+"],
-                ["IIA", "twee elektronen af", "2+"],
-                ["IIIA", "drie elektronen af", "3+"],
-                ["VA", "drie elektronen op", "3−"],
-                ["VIA", "twee elektronen op", "2−"],
-                ["VIIA", "één elektron op", "1−"],
+                ["IA", "één elektron af", r"\(1\)+"],
+                ["IIA", "twee elektronen af", r"\(2\)+"],
+                ["IIIA", "drie elektronen af", r"\(3\)+"],
+                ["VA", "drie elektronen op", r"\(3\)−"],
+                ["VIA", "twee elektronen op", r"\(2\)−"],
+                ["VIIA", "één elektron op", r"\(1\)−"],
             ])),
             ("p", "Een atoom uit <strong>groep IA geeft één elektron af</strong>, want dan houdt het de "
                   "configuratie van het edelgas ervoor. Een atoom uit <strong>groep IIA geeft er twee "
-                  "af</strong> en krijgt lading <strong>2+</strong>; <strong>aluminium uit groep IIIA "
+                  r"af</strong> en krijgt lading <strong>\(2\)+</strong>; <strong>aluminium uit groep IIIA "
                   "geeft er drie af</strong> en wordt <strong>Al³⁺</strong>."),
             ("p", "Een atoom uit <strong>groep VIIA neemt één elektron op</strong> en krijgt lading "
-                  "<strong>1−</strong>. <strong>Zuurstof neemt twee elektronen op</strong>, want het staat "
+                  r"<strong>\(1\)−</strong>. <strong>Zuurstof neemt twee elektronen op</strong>, want het staat "
                   "in groep VIA met zes valentie-elektronen: <strong>dan heeft het een volle buitenste "
                   "schil</strong>. De elementen van <strong>groep VIA vormen dus O²⁻ en S²⁻</strong>; een "
                   "atoom uit <strong>groep VA neemt drie elektronen op</strong>."),
-            ("p", "Een <strong>ion met tien elektronen en lading 1+</strong> heeft één elektron afgegeven, "
+            ("p", r"Een <strong>ion met tien elektronen en lading \(1\)+</strong> heeft één elektron afgegeven, "
                   "dus had het atoom er elf: dat is <strong>natrium, groep IA</strong>. Het ion "
                   "<strong>Na¹⁺ heeft dezelfde elektronenconfiguratie als neon</strong>."),
         ]),
@@ -618,7 +618,7 @@ BUNDELS["het-periodiek-systeem-der-elementen-chemie-boost-doorstroom"] = dict(
         "Bij een hoofdgroep geeft het groepsnummer het aantal valentie-elektronen.",
         "IA alkalimetalen, IIA aardalkalimetalen, VIIA halogenen, VIIIA edelgassen.",
         "Waterstof staat bij groep IA maar is geen alkalimetaal.",
-        "Groep IA geeft 1 elektron af, IIA 2, IIIA 3; VIIA neemt 1 op, VIA 2, VA 3.",
+        r"Groep IA geeft \(1\) elektron af, IIA \(2\), IIIA \(3\); VIIA neemt \(1\) op, VIA \(2\), VA \(3\).",
         "Na¹⁺ heeft de configuratie van neon; edelgassen vormen zelf geen ionen.",
         "Elektronegativiteit stijgt naar rechts en daalt naar onder; fluor heeft de hoogste.",
         "Een lage elektronegativiteit hoort bij een metaal, dat elektronen afgeeft.",
@@ -660,9 +660,9 @@ BUNDELS["chemische-bindingen-en-roosters-chemie-boost-doorstroom"] = dict(
                   "getekend. Een <strong>vrij elektronenpaar</strong> is een <strong>paar dat niet aan een "
                   "binding deelneemt</strong> en bij één atoom alleen blijft."),
             ("p", tabel(["Stof", "Binding", "Gedeelde paren"], [
-                ["H₂", "enkelvoudig", "1"],
-                ["O₂", "dubbel", "2"],
-                ["N₂", "drievoudig", "3"],
+                ["H₂", "enkelvoudig", r"\(1\)"],
+                ["O₂", "dubbel", r"\(2\)"],
+                ["N₂", "drievoudig", r"\(3\)"],
             ])),
             ("p", "Een <strong>dubbele binding bestaat uit twee gedeelde elektronenparen</strong>, dus "
                   "vier elektronen, niet twee. In <strong>O₂ zitten twee bindende elektronenparen</strong>: "
@@ -724,7 +724,7 @@ BUNDELS["chemische-bindingen-en-roosters-chemie-boost-doorstroom"] = dict(
             ("p", "<strong>Zuurstof is in de meeste verbindingen −II</strong>; in peroxiden is het −I, dus "
                   "kijk altijd naar de formule. <strong>Waterstof in HCl is +I</strong>, want chloor is "
                   "het meest elektronegatieve van de twee en krijgt de elektronen toegewezen."),
-            ("weetje", "De tabel met oxidatiegetallen in bijlage 2 mag je op het examen gebruiken. "
+            ("weetje", r"De tabel met oxidatiegetallen in bijlage \(2\) mag je op het examen gebruiken. "
                        "Veel metalen hebben er meerdere: ijzer is +II of +III, koper +I of +II. Daarom "
                        "staat er in een naam zoals ijzer(III)chloride een Romeins cijfer."),
         ]),
@@ -759,7 +759,7 @@ BUNDELS["anorganische-stofklassen-en-naamgeving-chemie-boost-doorstroom"] = dict
             ("p", "De <strong>functionele groep van een hydroxide is OH</strong>. In water geeft die groep "
                   "het <strong>hydroxide-ion OH⁻</strong> en maakt ze de oplossing basisch. "
                   "<strong>Al(OH)₃</strong> is een hydroxide, met de groep drie keer, want aluminium vormt "
-                  "een ion met lading 3+."),
+                  r"een ion met lading \(3\)+."),
             ("p", "Bij een <strong>anorganisch zuur staan de waterstofatomen vooraan</strong> in de "
                   "formule, zoals in <strong>HCl en H₂SO₄</strong>. Die waterstof komt in water als H⁺ "
                   "vrij. <strong>H₂O hoort niet bij de zuren</strong>, al begint de formule met "
@@ -881,7 +881,7 @@ BUNDELS["organische-stoffen-en-de-alkanen-chemie-boost-doorstroom"] = dict(
             ("p", "Een <strong>alkaan bestaat enkel uit koolstof en waterstof, met enkelvoudige "
                   "bindingen</strong>. Ze zijn verzadigd, en daarom horen ze bij de koolwaterstoffen. "
                   "Komt er zuurstof bij, dan gaat het om een andere stofklasse."),
-            ("p", "De <strong>algemene formule van de n-alkanen is CnH2n+2</strong>: elke extra koolstof "
+            ("p", r"De <strong>algemene formule van de n-alkanen is CnH\(2n+2\)</strong>: elke extra koolstof "
                   "brengt twee waterstofatomen mee, en aan de twee uiteinden komt er telkens één bij. Alle "
                   "<strong>alkanen hebben de uitgang -aan</strong>."),
             ("p", tabel(["Naam", "Formule", "Naam", "Formule"], [
@@ -952,7 +952,7 @@ BUNDELS["organische-stoffen-en-de-alkanen-chemie-boost-doorstroom"] = dict(
         ]),
     ],
     onthoud=[
-        "Een alkaan heeft enkel koolstof en waterstof met enkelvoudige bindingen; de formule is CnH2n+2.",
+        r"Een alkaan heeft enkel koolstof en waterstof met enkelvoudige bindingen; de formule is CnH\(2n+2\).",
         "Methaan CH₄, ethaan C₂H₆, propaan C₃H₈, butaan C₄H₁₀, pentaan C₅H₁₂, hexaan C₆H₁₄, heptaan C₇H₁₆, octaan C₈H₁₈, nonaan C₉H₂₀, decaan C₁₀H₂₂.",
         "Een alkeen heeft een dubbele binding (CnH2n), een alkyn een drievoudige; uitgang -een en -yn.",
         "Een alcohol heeft een OH-groep aan koolstof en is geen base; een carbonzuur heeft COOH en geeft H⁺ af.",
@@ -970,9 +970,9 @@ BUNDELS["stoffen-in-water-polariteit-oplossen-en-ph-chemie-boost-doorstroom"] = 
     onder="Polaire en apolaire stoffen, de vier intermoleculaire krachten, elektrolyten met dissociatie en ionisatie, en de pH met haar indicatoren.",
     secties=[
         dict(kop="Polair of apolair", blokken=[
-            ("p", "Een binding is <strong>polair als het verschil in elektronegativiteit minstens 0,4 "
+            ("p", r"Een binding is <strong>polair als het verschil in elektronegativiteit minstens \(0{,}4\) "
                   "is</strong>. Onder die waarde geldt ze als <strong>apolair</strong>. Dat is een "
-                  "vaste afspraak, dus een <strong>verschil van 0,2 is apolair</strong>."),
+                  r"vaste afspraak, dus een <strong>verschil van \(0{,}2\) is apolair</strong>."),
             ("p", "Bij een groot verschil trekt het ene atoom de elektronen duidelijk naar zich toe, en "
                   "krijgt de binding een <strong>plus- en een minkant</strong>."),
             ("p", "Een <strong>watermolecule is polair</strong> omdat ze <strong>gebogen is en zuurstof "
@@ -1034,12 +1034,12 @@ BUNDELS["stoffen-in-water-polariteit-oplossen-en-ph-chemie-boost-doorstroom"] = 
                   "zoals HCl heeft er nog geen. Dat is dus het verschil."),
             ("p", tabel(["Stof", "Wat gebeurt er", "Vergelijking"], [
                 ["NaCl", "dissocieert", "NaCl → Na¹⁺ + Cl¹⁻"],
-                ["CaCl₂", "dissocieert", "CaCl₂ → Ca²⁺ + 2 Cl¹⁻"],
+                ["CaCl₂", "dissocieert", r"CaCl₂ → Ca²⁺ + 2 Cl¹⁻"],
                 ["NaOH", "dissocieert", "NaOH → Na¹⁺ + OH¹⁻"],
                 ["HCl", "ioniseert", "HCl → H¹⁺ + Cl¹⁻"],
             ])),
             ("p", "Bij <strong>CaCl₂</strong> zijn er <strong>twee chloride-ionen</strong> nodig, want "
-                  "calcium geeft een ion met lading 2+ en elk chloride-ion heeft lading 1−. Bij "
+                  r"calcium geeft een ion met lading \(2\)+ en elk chloride-ion heeft lading \(1\)−. Bij "
                   "<strong>HCl</strong> breekt de polaire binding en laat het waterstofatoom zijn elektron "
                   "bij chloor achter."),
             ("p", "<strong>NaCl en HCl geleiden opgelost in water</strong>; <strong>suiker</strong> lost "
@@ -1048,9 +1048,9 @@ BUNDELS["stoffen-in-water-polariteit-oplossen-en-ph-chemie-boost-doorstroom"] = 
                   "gesmolten geleidt hetzelfde zout wel, en dan is het een <strong>geleider</strong>."),
         ]),
         dict(kop="De pH en de indicatoren", blokken=[
-            ("p", "<strong>Zuiver water heeft een pH van 7</strong> en is neutraal: de concentratie H⁺ en "
+            ("p", r"<strong>Zuiver water heeft een pH van \(7\)</strong> en is neutraal: de concentratie H⁺ en "
                   "OH⁻ zijn er gelijk. <strong>Onder zeven is een oplossing zuur</strong>, "
-                  "<strong>boven zeven basisch</strong>. Een oplossing met <strong>pH 3 is dus "
+                  r"<strong>boven zeven basisch</strong>. Een oplossing met <strong>pH \(3\) is dus "
                   "zuur</strong>."),
             ("p", "<strong>Hoe lager de pH, hoe meer H⁺ in de oplossing.</strong> Een hoge pH betekent "
                   "dus weinig H⁺ en veel OH⁻. Het <strong>waterstofion H⁺, ook een proton genoemd, maakt een oplossing zuur</strong>, en een "
@@ -1071,14 +1071,14 @@ BUNDELS["stoffen-in-water-polariteit-oplossen-en-ph-chemie-boost-doorstroom"] = 
         ]),
     ],
     onthoud=[
-        "Een binding is polair vanaf een verschil in elektronegativiteit van 0,4; eronder apolair.",
+        r"Een binding is polair vanaf een verschil in elektronegativiteit van \(0{,}4\); eronder apolair.",
         "Water is polair omdat de molecule gebogen is; CO₂ en CCl₄ zijn symmetrisch en dus apolair.",
         "Waterstofbrug is het sterkst, dan ion-dipool, dan dipool, dan londonkracht.",
         "Gelijk lost op in gelijk; olie is apolair en lost niet op in water.",
         "Hydratatie is het omhullen van een ion door watermoleculen, met ion-dipoolkrachten.",
         "Een elektrolyt geeft ionen en geleidt; suiker en ethanol zijn niet-elektrolyten.",
         "Een zout dissocieert (de ionen bestonden al), een polaire molecule zoals HCl ioniseert.",
-        "pH 7 is neutraal, eronder zuur, erboven basisch; hoe lager de pH, hoe meer H⁺.",
+        r"pH \(7\) is neutraal, eronder zuur, erboven basisch; hoe lager de pH, hoe meer H⁺.",
         "Lakmoes: rood in zuur, blauw in base. Fenolftaleïne: kleurloos in zuur en neutraal, paars in base.",
     ],
 )
@@ -1159,9 +1159,9 @@ BUNDELS["neerslag-gas-neutralisatie-en-redoxreacties-chemie-boost-doorstroom"] =
             ("p", "Een <strong>oxidator neemt elektronen op</strong> en wordt daarbij zelf gereduceerd. "
                   "Een <strong>reductor geeft elektronen af</strong>, <strong>wordt zelf "
                   "geoxideerd</strong> en zijn oxidatiegetal stijgt."),
-            ("p", "In <strong>2 Mg + O₂ → 2 MgO</strong> wordt <strong>magnesium geoxideerd van 0 naar "
+            ("p", r"In <strong>2 Mg + O₂ → 2 MgO</strong> wordt <strong>magnesium geoxideerd van 0 naar "
                   "+II</strong>: het geeft per atoom twee elektronen af en is dus de reductor. Het "
-                  "<strong>zuurstofgas is de oxidator</strong> en gaat van 0 naar −II."),
+                  r"<strong>zuurstofgas is de oxidator</strong> en gaat van \(0\) naar −II."),
             ("p", "In een <strong>enkelvoudige stof is het oxidatiegetal van elk atoom nul</strong>, dus "
                   "ook in O₂ en in Fe."),
             ("p", "<strong>Het verbranden van propaan en het roesten van ijzer zijn "
@@ -1187,7 +1187,7 @@ BUNDELS["neerslag-gas-neutralisatie-en-redoxreacties-chemie-boost-doorstroom"] =
             ("p", "Bij een <strong>slechte verbranding ontstaat koolstofmonoxide omdat er te weinig "
                   "zuurstof is</strong>: elk koolstofatoom krijgt dan maar één zuurstofatoom mee. "
                   "Koolstofmonoxide is kleurloos, geurloos en dodelijk."),
-            ("p", "Kloppend maken: <strong>2 C₂H₆ + 7 O₂ → 4 CO₂ + 6 H₂O</strong>. En om "
+            ("p", r"Kloppend maken: <strong>2 C₂H₆ + 7 O₂ → 4 CO₂ + 6 H₂O</strong>. En om "
                   "<strong>één molecule CH₄</strong> volledig te verbranden heb je <strong>twee "
                   "moleculen O₂</strong> nodig."),
         ]),
@@ -1211,15 +1211,15 @@ BUNDELS["rekenen-met-mol-massa-en-concentratie-chemie-boost-doorstroom"] = dict(
     onder="De mol en het getal van Avogadro, de molaire massa, de twee concentraties, verdunnen met c₁V₁ = c₂V₂ en de stoichiometrische berekeningen.",
     secties=[
         dict(kop="De mol en het getal van Avogadro", blokken=[
-            ("p", "In <strong>één mol van een stof zitten 6,02.10²³ deeltjes</strong>. Dat getal heet het "
+            ("p", r"In <strong>één mol van een stof zitten \(6{,}02 \cdot 10^{23}\) deeltjes</strong>. Dat getal heet het "
                   "<strong>getal van Avogadro</strong> en staat in de bijlage die je op het examen mag "
                   "gebruiken. Het is een afspraak, zoals een dozijn er twaalf zijn, maar veel groter."),
             ("p", "<strong>Eén mol van een stof bevat altijd evenveel deeltjes, welke stof het ook "
                   "is</strong>, en <strong>twee mol bevat twee keer zoveel deeltjes als één mol</strong>: "
                   "het aantal deeltjes is recht evenredig met de stofhoeveelheid. De "
                   "<strong>massa</strong> van die mol verschilt wel per stof: <strong>één mol water en "
-                  "één mol koolstofdioxide hebben niet dezelfde massa</strong>, want water is 18,0 g/mol "
-                  "en koolstofdioxide 44,0 g/mol."),
+                  r"één mol koolstofdioxide hebben niet dezelfde massa</strong>, want water is \(18{,}0\) g/mol "
+                  r"en koolstofdioxide \(44{,}0\) g/mol."),
             ("p", "De fiche spreekt af: <strong>vraagt men naar de stofhoeveelheid, dan bedoelt men het "
                   "aantal mol</strong>, niet de massa in gram. Anders staat er uitdrukkelijk massa of "
                   "aantal deeltjes."),
@@ -1233,51 +1233,51 @@ BUNDELS["rekenen-met-mol-massa-en-concentratie-chemie-boost-doorstroom"] = dict(
                   "overblijft is het aantal mol. Je hebt daarvoor enkel de <strong>massa van het "
                   "staal</strong> en de <strong>molaire massa van de stof</strong> nodig; het volume en "
                   "de temperatuur komen er niet bij."),
-            ("p", "<strong>1,204.10²⁴ moleculen is 2,00 mol</strong> (gedeeld door 6,02.10²³), en "
-                  "<strong>3,01.10²³ deeltjes is 0,500 mol</strong>, precies de helft. Omgekeerd zitten er "
-                  "in <strong>0,250 mol 1,51.10²³ moleculen</strong>."),
+            ("p", r"<strong>\(1{,}204 \cdot 10^{24}\) moleculen is \(2{,}00\) mol</strong> (gedeeld door \(6{,}02 \cdot 10^{23}\)), en "
+                  r"<strong>\(3{,}01 \cdot 10^{23}\) deeltjes is \(0{,}500\) mol</strong>, precies de helft. Omgekeerd zitten er "
+                  r"in <strong>\(0{,}250\) mol \(1{,}51 \cdot 10^{23}\) moleculen</strong>."),
         ]),
         dict(kop="De molaire massa", blokken=[
             ("p", "De <strong>molaire massa</strong> zegt hoeveel gram één mol weegt, dus is haar eenheid "
                   "<strong>g/mol</strong>. Je <strong>leest ze af uit de relatieve atoommassa's in het "
                   "periodiek systeem</strong> door die van alle atomen in de formule op te tellen; "
-                  "je rondt af op 0,1."),
+                  r"je rondt af op \(0{,}1\)."),
             ("p", tabel(["Stof", "Berekening", "Molaire massa"], [
-                ["H₂O", "2 × 1,0 + 16,0", "18,0 g/mol"],
-                ["CO₂", "12,0 + 2 × 16,0", "44,0 g/mol"],
-                ["NaOH", "23,0 + 16,0 + 1,0", "40,0 g/mol"],
-                ["NaCl", "23,0 + 35,5", "58,5 g/mol"],
+                ["H₂O", r"\(2 \cdot 1{,}0 + 16{,}0\)", r"\(18{,}0\) g/mol"],
+                ["CO₂", r"\(12{,}0 + 2 \cdot 16{,}0\)", r"\(44{,}0\) g/mol"],
+                ["NaOH", r"\(23{,}0 + 16{,}0 + 1{,}0\)", r"\(40{,}0\) g/mol"],
+                ["NaCl", r"\(23{,}0 + 35{,}5\)", r"\(58{,}5\) g/mol"],
             ])),
-            ("p", "Rekenvoorbeelden: <strong>36,0 g water is 2,00 mol</strong>, "
-                  "<strong>88,0 g CO₂ is 2,00 mol</strong>, <strong>0,500 mol natriumchloride weegt "
-                  "29,3 g</strong> en <strong>0,200 mol water weegt 3,60 g</strong>."),
+            ("p", r"Rekenvoorbeelden: <strong>\(36{,}0\) g water is \(2{,}00\) mol</strong>, "
+                  r"<strong>\(88{,}0\) g CO₂ is \(2{,}00\) mol</strong>, <strong>\(0{,}500\) mol natriumchloride weegt "
+                  r"\(29{,}3\) g</strong> en <strong>\(0{,}200\) mol water weegt \(3{,}60\) g</strong>."),
             ("p", "Een <strong>schatting vooraf</strong> laat je zien of je antwoord in de goede orde "
-                  "ligt: <strong>drie keer ruim veertig is ongeveer honderdtwintig</strong>, en 3 mol CO₂ "
-                  "weegt inderdaad 132 g."),
+                  r"ligt: <strong>drie keer ruim veertig is ongeveer honderdtwintig</strong>, en \(3\) mol CO₂ "
+                  r"weegt inderdaad \(132\) g."),
         ]),
         dict(kop="De twee concentraties", blokken=[
             ("p", "De <strong>molaire concentratie is de stofhoeveelheid per volume</strong>: "
-                  "<strong>c = n / V</strong>, met als <strong>eenheid mol per liter</strong>, ook "
+                  r"<strong>\(c = n\) / V</strong>, met als <strong>eenheid mol per liter</strong>, ook "
                   "molariteit of M genoemd. De <strong>massaconcentratie is de massa per volume</strong>, "
                   "met als <strong>eenheid g/L</strong>."),
-            ("p", "Rekenvoorbeelden: <strong>0,500 mol tot 2,00 L geeft 0,250 mol/L</strong>; "
-                  "<strong>0,100 mol tot 250 mL geeft 0,400 mol/L</strong> (zet eerst om naar 0,250 L); "
-                  "<strong>0,300 mol tot 1,50 L geeft 0,200 mol/L</strong>. En omgekeerd: in "
-                  "<strong>500 mL van 0,400 mol/L zit 0,200 mol</strong>."),
+            ("p", r"Rekenvoorbeelden: <strong>\(0{,}500\) mol tot \(2{,}00\) L geeft \(0{,}250\) mol/L</strong>; "
+                  r"<strong>\(0{,}100\) mol tot \(250\) mL geeft \(0{,}400\) mol/L</strong> (zet eerst om naar \(0{,}250\) L); "
+                  r"<strong>\(0{,}300\) mol tot \(1{,}50\) L geeft \(0{,}200\) mol/L</strong>. En omgekeerd: in "
+                  r"<strong>\(500\) mL van \(0{,}400\) mol/L zit \(0{,}200\) mol</strong>."),
             ("p", "Van <strong>massaconcentratie naar molaire concentratie</strong> deel je door de "
-                  "molaire massa: <strong>40,0 g NaOH per liter is 1,00 mol/L</strong>, want M is "
-                  "40,0 g/mol."),
+                  r"molaire massa: <strong>\(40{,}0\) g NaOH per liter is \(1{,}00\) mol/L</strong>, want M is "
+                  r"\(40{,}0\) g/mol."),
         ]),
         dict(kop="Verdunnen", blokken=[
             ("p", "Bij het verdunnen gebruik je <strong>c₁V₁ = c₂V₂</strong>. Dat werkt omdat je "
                   "<strong>enkel water toevoegt, zodat het aantal mol opgeloste stof gelijk "
                   "blijft</strong>: het volume stijgt en de concentratie daalt in dezelfde verhouding. De "
                   "<strong>concentratie stijgt dus niet als je water toevoegt</strong>, ze daalt."),
-            ("p", "<strong>50,0 mL van 1,00 mol/L tot 250 mL</strong> geeft <strong>0,200 mol/L</strong>: "
-                  "het volume wordt vijf keer groter. <strong>25,0 mL van 0,800 mol/L tot 100 mL</strong> "
-                  "geeft <strong>0,200 mol/L</strong>, want vier keer groter."),
-            ("p", "Omgekeerd: voor <strong>100 mL van 2,00 mol/L uit een voorraad van 10,0 mol/L</strong> "
-                  "neem je <strong>20,0 mL</strong> uit die voorraad en vul je aan tot 100 mL."),
+            ("p", r"<strong>\(50{,}0\) mL van \(1{,}00\) mol/L tot \(250\) mL</strong> geeft <strong>\(0{,}200\) mol/L</strong>: "
+                  r"het volume wordt vijf keer groter. <strong>\(25{,}0\) mL van \(0{,}800\) mol/L tot \(100\) mL</strong> "
+                  r"geeft <strong>\(0{,}200\) mol/L</strong>, want vier keer groter."),
+            ("p", r"Omgekeerd: voor <strong>\(100\) mL van \(2{,}00\) mol/L uit een voorraad van \(10{,}0\) mol/L</strong> "
+                  r"neem je <strong>\(20{,}0\) mL</strong> uit die voorraad en vul je aan tot \(100\) mL."),
         ]),
         dict(kop="Stoichiometrische berekeningen", blokken=[
             ("p", "De <strong>coëfficiënten in een reactievergelijking geven de verhouding in aantal "
@@ -1285,10 +1285,10 @@ BUNDELS["rekenen-met-mol-massa-en-concentratie-chemie-boost-doorstroom"] = dict(
                   "<strong>eerst de massa om in mol</strong>, dan <strong>gebruik je de verhouding uit de "
                   "coëfficiënten</strong>, en pas daarna reken je terug naar gram. Massa's gewoon bij "
                   "elkaar optellen of volumes vergelijken werkt niet."),
-            ("p", "In <strong>2 H₂ + O₂ → 2 H₂O</strong> hoort op twee H₂ één O₂, dus bij "
-                  "<strong>4,00 mol H₂ hoort 2,00 mol O₂</strong>. In "
-                  "<strong>CaCO₃ + 2 HCl → CaCl₂ + H₂O + CO₂</strong> is de verhouding tussen CaCO₃ en "
-                  "CO₂ één op één, dus geeft <strong>1,00 mol kalksteen 1,00 mol CO₂</strong>."),
+            ("p", r"In <strong>2 H₂ + O₂ → 2 H₂O</strong> hoort op twee H₂ één O₂, dus bij "
+                  r"<strong>\(4{,}00\) mol H₂ hoort \(2{,}00\) mol O₂</strong>. In "
+                  r"<strong>CaCO₃ + 2 HCl → CaCl₂ + H₂O + CO₂</strong> is de verhouding tussen CaCO₃ en "
+                  r"CO₂ één op één, dus geeft <strong>\(1{,}00\) mol kalksteen \(1{,}00\) mol CO₂</strong>."),
             ("p", "Een <strong>aflopende reactie gaat door tot een van de reagentia helemaal opgebruikt "
                   "is</strong>. Die stof heet het <strong>beperkende reagens</strong>: ze bepaalt hoeveel "
                   "product er maximaal kan ontstaan, en de andere stof blijft in overmaat over. De "
@@ -1299,10 +1299,10 @@ BUNDELS["rekenen-met-mol-massa-en-concentratie-chemie-boost-doorstroom"] = dict(
         ]),
     ],
     onthoud=[
-        "Eén mol is 6,02.10²³ deeltjes; stofhoeveelheid betekent altijd het aantal mol.",
+        r"Eén mol is \(6{,}02 \cdot 10^{23}\) deeltjes; stofhoeveelheid betekent altijd het aantal mol.",
         "n = m / M, en n = het aantal deeltjes gedeeld door het getal van Avogadro; omgekeerd m = n · M.",
-        "De molaire massa in g/mol tel je op uit de relatieve atoommassa's: water 18,0, CO₂ 44,0, NaOH 40,0, NaCl 58,5.",
-        "Molaire concentratie c = n / V in mol/L; massaconcentratie is massa per volume in g/L.",
+        r"De molaire massa in g/mol tel je op uit de relatieve atoommassa's: water \(18{,}0\), CO₂ \(44{,}0\), NaOH \(40{,}0\), NaCl \(58{,}5\).",
+        r"Molaire concentratie \(c = n\) / V in mol/L; massaconcentratie is massa per volume in g/L.",
         "Van g/L naar mol/L deel je door de molaire massa.",
         "Verdunnen: c₁V₁ = c₂V₂, want het aantal mol blijft gelijk en het volume stijgt.",
         "Coëfficiënten gelden in mol, niet in gram: reken eerst naar mol, dan de verhouding, dan terug.",
@@ -1357,7 +1357,7 @@ BUNDELS["veilig-werken-meten-en-onderzoek-chemie-boost-doorstroom"] = dict(
                   "<strong>glasscherven met de hand bij elkaar vegen</strong> horen daar net niet bij."),
             ("p", "Je <strong>houdt je altijd aan het meetbereik</strong> van een instrument: buiten dat "
                   "bereik is de meting niet geldig en kan het toestel beschadigen, dus belast je een "
-                  "balans van 200 g niet met een kilo."),
+                  r"balans van \(200\) g niet met een kilo."),
             ("p", "Een <strong>bunsenbrander laat je niet onbewaakt branden</strong>: een open vlam kan "
                   "altijd iets doen ontvlammen. En <strong>chemisch afval giet je niet in de "
                   "gootsteen</strong>, want het kan het water vervuilen of in de leiding reageren."),
@@ -1375,14 +1375,14 @@ BUNDELS["veilig-werken-meten-en-onderzoek-chemie-boost-doorstroom"] = dict(
                 ["balans", "de massa van een staal bepalen"],
                 ["pH-meter", "de pH nauwkeurig meten"],
             ])),
-            ("p", "Om <strong>precies 25,0 mL</strong> af te meten gebruik je een "
+            ("p", r"Om <strong>precies \(25{,}0\) mL</strong> af te meten gebruik je een "
                   "<strong>volpipet</strong>: die is voor één volume gemaakt en dus heel nauwkeurig, "
                   "terwijl een maatbeker maar een ruwe aanduiding geeft. Een <strong>maatkolf</strong> "
                   "heeft één streepje op de nek, dus vul je een oplossing daarmee aan tot een "
                   "<strong>nauwkeurig volume</strong>."),
             ("p", "Je <strong>kiest een instrument waarvan het meetbereik net boven je volume "
-                  "ligt</strong>: voor ongeveer 40 mL dus een <strong>maatcilinder van 50 mL</strong> en "
-                  "niet een van 500 mL, want een te grote cilinder leest veel grover af."),
+                  r"ligt</strong>: voor ongeveer \(40\) mL dus een <strong>maatcilinder van \(50\) mL</strong> en "
+                  r"niet een van \(500\) mL, want een te grote cilinder leest veel grover af."),
             ("p", "Je <strong>leest het volume in een maatcilinder af op ooghoogte, onderaan de holle "
                   "vloeistofspiegel</strong>. Die holle spiegel heet de meniscus, en op ooghoogte maak je "
                   "geen kijkfout."),
@@ -1396,31 +1396,31 @@ BUNDELS["veilig-werken-meten-en-onderzoek-chemie-boost-doorstroom"] = dict(
             ("p", "Een <strong>grootheid noteer je altijd samen met haar eenheid</strong>, want zonder "
                   "eenheid betekent een getal niets."),
             ("p", tabel(["Grootheid", "SI-eenheid", "Ook gebruikt"], [
-                ["volume V", "kubieke meter m³", "liter L"],
+                ["volume V", r"kubieke meter \(\text{m}^{3}\)", "liter L"],
                 ["massa m", "kilogram kg", "gram g"],
                 ["temperatuur θ", "—", "graden Celsius °C"],
                 ["absolute temperatuur T", "kelvin K", "—"],
-                ["massadichtheid ρ", "kg/m³", "g/L"],
+                ["massadichtheid ρ", r"kg/\(\text{m}^{3}\)", "g/L"],
                 ["stofhoeveelheid n", "mol", "—"],
                 ["molaire massa M", "—", "g/mol"],
                 ["molaire concentratie c", "—", "mol/L of M"],
                 ["massaconcentratie c", "—", "g/L"],
             ])),
             ("p", tabel(["Voorvoegsel", "Symbool", "Waarde"], [
-                ["mega", "M", "10⁶"], ["kilo", "k", "10³"], ["hecto", "h", "10²"],
-                ["deca", "da", "10¹"], ["deci", "d", "10⁻¹"], ["centi", "c", "10⁻²"],
-                ["milli", "m", "10⁻³"], ["micro", "μ", "10⁻⁶"], ["nano", "n", "10⁻⁹"],
+                ["mega", "M", r"\(10^{6}\)"], ["kilo", "k", r"\(10^{3}\)"], ["hecto", "h", r"\(10^{2}\)"],
+                ["deca", "da", r"\(10^{1}\)"], ["deci", "d", r"\(10^{-1}\)"], ["centi", "c", r"\(10^{-2}\)"],
+                ["milli", "m", r"\(10^{-3}\)"], ["micro", "μ", r"\(10^{-6}\)"], ["nano", "n", r"\(10^{-9}\)"],
             ])),
             ("p", "<strong>Milli en nano staan voor een waarde kleiner dan één</strong> (een duizendste "
                   "en een miljardste); <strong>kilo is duizend</strong> en mega een miljoen keer de "
                   "eenheid. <strong>Een centimeter is een honderdste van een meter.</strong>"),
-            ("p", "Omrekenen: <strong>2,5 mg is 0,0025 g</strong> en <strong>0,75 L is 750 mL</strong>."),
+            ("p", r"Omrekenen: <strong>\(2{,}5\) mg is \(0{,}0025\) g</strong> en <strong>\(0{,}75\) L is \(750\) mL</strong>."),
             ("p", "Een <strong>meting met een instrument is niet exact</strong>: elk instrument heeft een "
                   "beperkte nauwkeurigheid. Daarom noteer je het juiste aantal "
-                  "<strong>beduidende cijfers</strong>. In <strong>0,00340 zijn er drie</strong>: de "
+                  r"<strong>beduidende cijfers</strong>. In <strong>\(0{,}00340\) zijn er drie</strong>: de "
                   "nullen vooraan tellen niet mee, de nul achteraan wel."),
             ("p", "In de <strong>wetenschappelijke notatie</strong> staat er één cijfer verschillend van "
-                  "nul voor de komma: <strong>0,00450 wordt 4,50.10⁻³</strong>."),
+                  r"nul voor de komma: <strong>\(0{,}00450\) wordt \(4{,}50 \cdot 10^{-3}\)</strong>."),
             ("p", "Verbanden tussen grootheden: <strong>recht evenredig</strong>, "
                   "<strong>omgekeerd evenredig</strong>, <strong>lineair</strong> of "
                   "<strong>kwadratisch</strong>. Verdubbelt het volume van een oplossing en wordt de "
@@ -1478,8 +1478,8 @@ BUNDELS["veilig-werken-meten-en-onderzoek-chemie-boost-doorstroom"] = dict(
         "Volpipet en maatkolf zijn nauwkeurig, een maatbeker geeft een ruwe aanduiding.",
         "Lees een volume af op ooghoogte, onderaan de meniscus, met een instrument dat net groot genoeg is.",
         "SI: kubieke meter voor volume, kilogram voor massa, kelvin voor absolute temperatuur.",
-        "Kilo is 10³ en mega 10⁶; milli 10⁻³, micro 10⁻⁶ en nano 10⁻⁹.",
-        "In 0,00340 zijn er drie beduidende cijfers; 0,00450 wordt 4,50.10⁻³.",
+        r"Kilo is \(10^{3}\) en mega \(10^{6}\); milli \(10^{-3}\), micro \(10^{-6}\) en nano \(10^{-9}\).",
+        r"In \(0{,}00340\) zijn er drie beduidende cijfers; \(0{,}00450\) wordt \(4{,}50 \cdot 10^{-3}\).",
         "Een onderzoeksvraag is open, enkelvoudig, objectief, haalbaar, onderzoekbaar en relevant.",
     ],
 )

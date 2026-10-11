@@ -51,7 +51,7 @@ DEEL1 = [
     ),
     dict(
         type="meerkeuze",
-        vraag="In de formule 3 H₂SO₄: wat is het getal 3?",
+        vraag=r"In de formule \(3\) H₂SO₄: wat is het getal \(3\)?",
         opties=[
             "de coëfficiënt",
             "de index",
@@ -63,7 +63,7 @@ DEEL1 = [
     ),
     dict(
         type="meerkeuze",
-        vraag="In de formule H₂SO₄: wat betekent de 4 achter de O?",
+        vraag=r"In de formule H₂SO₄: wat betekent de \(4\) achter de O?",
         opties=[
             "er zitten vier zuurstofatomen in de molecule",
             "er zijn vier moleculen van de stof",
@@ -87,7 +87,7 @@ DEEL1 = [
     ),
     dict(
         type="meerkeuze",
-        vraag="Hoeveel verschillende atoomsoorten komen voor in 2 Ca(NO₃)₂?",
+        vraag=r"Hoeveel verschillende atoomsoorten komen voor in \(2\) Ca(NO₃)₂?",
         opties=[
             "drie",
             "twee",
@@ -95,7 +95,7 @@ DEEL1 = [
             "zes",
         ],
         antwoord=0,
-        uitleg="Calcium, stikstof en zuurstof: drie elementen. De coëfficiënt 2 en de indexen veranderen het aantal soorten niet.",
+        uitleg=r"Calcium, stikstof en zuurstof: drie elementen. De coëfficiënt \(2\) en de indexen veranderen het aantal soorten niet.",
     ),
     dict(
         type="meerkeuze",
@@ -165,9 +165,9 @@ DEEL1 = [
     ),
     dict(
         type="waarofniet",
-        vraag="Een coëfficiënt 2 voor H₂O betekent dat er twee zuurstofatomen in één molecule zitten.",
+        vraag=r"Een coëfficiënt \(2\) voor H₂O betekent dat er twee zuurstofatomen in één molecule zitten.",
         antwoord=False,
-        uitleg="De coëfficiënt geldt voor het hele deeltje: 2 H₂O zijn twee watermoleculen, dus vier waterstof- en twee zuurstofatomen in totaal.",
+        uitleg=r"De coëfficiënt geldt voor het hele deeltje: \(2\) H₂O zijn twee watermoleculen, dus vier waterstof- en twee zuurstofatomen in totaal.",
     ),
     dict(
         type="waarofniet",
@@ -189,7 +189,7 @@ DEEL1 = [
     ),
     dict(
         type="invultekst",
-        vraag="Hoeveel waterstofatomen zitten er in totaal in 3 H₂O?",
+        vraag=r"Hoeveel waterstofatomen zitten er in totaal in \(3\) H₂O?",
         antwoord=["6", "zes"],
         uitleg="Per molecule twee waterstofatomen, en drie moleculen: dat zijn zes waterstofatomen.",
     ),

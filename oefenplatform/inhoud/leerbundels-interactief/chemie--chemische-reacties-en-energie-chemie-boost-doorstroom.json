@@ -33,19 +33,19 @@
    "blokken": [
     {
      "soort": "tekst",
-     "html": "Je mag <strong>enkel de coëfficiënten aanpassen</strong>, nooit een <strong>index</strong>: een index aanpassen maakt er een andere stof van, want H₂O₂ is waterstofperoxide en niet meer water. Je mag ook geen stof bijschrijven die er niet in staat. En de <strong>coëfficiënt 1 schrijf je niet op</strong>: staat er niets voor een formule, dan is ze toch 1."
+     "html": "Je mag <strong>enkel de coëfficiënten aanpassen</strong>, nooit een <strong>index</strong>: een index aanpassen maakt er een andere stof van, want H₂O₂ is waterstofperoxide en niet meer water. Je mag ook geen stof bijschrijven die er niet in staat. En de <strong>coëfficiënt \\(1\\) schrijf je niet op</strong>: staat er niets voor een formule, dan is ze toch \\(1\\)."
     },
     {
      "soort": "tekst",
-     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Vergelijking</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Coëfficiënten</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">H₂ + O₂ → H₂O</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">2, 1 en 2</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Fe + O₂ → Fe₂O₃</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">4, 3 en 2</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">CH₄ + O₂ → CO₂ + H₂O</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">1, 2, 1 en 2</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">C₂H₆ + O₂ → CO₂ + H₂O</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">2, 7, 4 en 6</td></tr></table>"
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Vergelijking</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Coëfficiënten</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">H₂ + O₂ → H₂O</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">\\(2\\), \\(1\\) en \\(2\\)</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Fe + O₂ → Fe₂O₃</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">\\(4\\), \\(3\\) en \\(2\\)</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">CH₄ + O₂ → CO₂ + H₂O</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">\\(1\\), \\(2\\), \\(1\\) en \\(2\\)</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">C₂H₆ + O₂ → CO₂ + H₂O</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">\\(2\\), \\(7\\), \\(4\\) en \\(6\\)</td></tr></table>"
     },
     {
      "soort": "tekst",
-     "html": "<strong>2 H₂ + O₂ → 2 H₂O</strong>: links vier waterstof- en twee zuurstofatomen, rechts precies hetzelfde. Hoort er rechts <strong>2 H₂O</strong>, dan is de <strong>coëfficiënt voor O₂ gelijk aan 1</strong>."
+     "html": "<strong>2 H₂ + O₂ → 2 H₂O</strong>: links vier waterstof- en twee zuurstofatomen, rechts precies hetzelfde. Hoort er rechts <strong>\\(2\\) H₂O</strong>, dan is de <strong>coëfficiënt voor O₂ gelijk aan \\(1\\)</strong>."
     },
     {
      "soort": "tekst",
-     "html": "<strong>4 Fe + 3 O₂ → 2 Fe₂O₃</strong>: rechts staan vier ijzeratomen en zes zuurstofatomen, dus links 4 Fe en 3 O₂."
+     "html": "<strong>4 Fe + 3 O₂ → 2 Fe₂O₃</strong>: rechts staan vier ijzeratomen en zes zuurstofatomen, dus links \\(4\\) Fe en \\(3\\) O₂."
     },
     {
      "soort": "tekst",
@@ -70,7 +70,7 @@
     },
     {
      "soort": "tekst",
-     "html": "Stijgt de temperatuur van een oplossing <strong>van 20 naar 34 graden</strong> tijdens een reactie, dan komt er energie vrij: de reactie is <strong>exo-energetisch</strong>. Voelt de beker <strong>koud</strong> aan, dan haalt de reactie warmte uit de beker en uit je hand: dan is ze <strong>endo-energetisch</strong>, niet exo."
+     "html": "Stijgt de temperatuur van een oplossing <strong>van \\(20\\) naar \\(34\\) graden</strong> tijdens een reactie, dan komt er energie vrij: de reactie is <strong>exo-energetisch</strong>. Voelt de beker <strong>koud</strong> aan, dan haalt de reactie warmte uit de beker en uit je hand: dan is ze <strong>endo-energetisch</strong>, niet exo."
     }
    ]
   },

@@ -30,10 +30,10 @@ DEEL1 = [
         type="meerkeuze",
         vraag="Hoe luidt de uitgebalanceerde vergelijking voor het verbranden van methaan?",
         opties=[
-            "CH₄ + 2 O₂ → CO₂ + 2 H₂O",
+            r"CH₄ + 2 O₂ → CO₂ + 2 H₂O",
             "CH₄ + O₂ → CO₂ + H₂O",
-            "CH₄ + 3 O₂ → CO₂ + 2 H₂O",
-            "2 CH₄ + O₂ → 2 CO₂ + H₂O",
+            r"CH₄ + 3 O₂ → CO₂ + 2 H₂O",
+            r"2 CH₄ + O₂ → 2 CO₂ + H₂O",
         ],
         antwoord=0,
         uitleg="Links en rechts: één koolstof, vier waterstof en vier zuurstof. Begin bij "
@@ -41,22 +41,22 @@ DEEL1 = [
     ),
     dict(
         type="invultekst",
-        vraag="Welke coëfficiënt hoort voor O₂ in de reactie C₃H₈ + … O₂ → 3 CO₂ + 4 H₂O?",
+        vraag=r"Welke coëfficiënt hoort voor O₂ in de reactie C₃H₈ + … O₂ → 3 CO₂ + 4 H₂O?",
         antwoord=["5", "vijf"],
         uitleg="Rechts staan zes plus vier, dus tien zuurstofatomen. Tien gedeeld door "
         "twee geeft vijf moleculen O₂.",
     ),
     dict(
         type="meerkeuze",
-        vraag="In de reactie N₂ + 3 H₂ → 2 NH₃ reageert 1 mol stikstofgas. Hoeveel ammoniak ontstaat er?",
+        vraag=r"In de reactie N₂ + 3 H₂ → 2 NH₃ reageert 1 mol stikstofgas. Hoeveel ammoniak ontstaat er?",
         opties=[
-            "2 mol",
-            "1 mol",
-            "3 mol",
-            "6 mol",
+            r"\(2\) mol",
+            r"\(1\) mol",
+            r"\(3\) mol",
+            r"\(6\) mol",
         ],
         antwoord=0,
-        uitleg="De coëfficiënten geven de verhouding: 1 op 3 op 2. Per mol stikstofgas "
+        uitleg=r"De coëfficiënten geven de verhouding: \(1\) op \(3\) op \(2\). Per mol stikstofgas "
         "ontstaan er dus twee mol ammoniak.",
     ),
     dict(
@@ -68,15 +68,15 @@ DEEL1 = [
     ),
     dict(
         type="meerkeuze",
-        vraag="Hoeveel mol zuurstofgas is er nodig om 4 mol waterstofgas te laten reageren in 2 H₂ + O₂ → 2 H₂O?",
+        vraag=r"Hoeveel mol zuurstofgas is er nodig om 4 mol waterstofgas te laten reageren in 2 H₂ + O₂ → 2 H₂O?",
         opties=[
-            "2 mol",
-            "4 mol",
-            "1 mol",
-            "8 mol",
+            r"\(2\) mol",
+            r"\(4\) mol",
+            r"\(1\) mol",
+            r"\(8\) mol",
         ],
         antwoord=0,
-        uitleg="De verhouding is 2 op 1. Voor vier mol waterstofgas is dus twee mol "
+        uitleg=r"De verhouding is \(2\) op \(1\). Voor vier mol waterstofgas is dus twee mol "
         "zuurstofgas nodig.",
     ),
     dict(
@@ -94,35 +94,35 @@ DEEL1 = [
     ),
     dict(
         type="meerkeuze",
-        vraag="Welke uitspraken over de reactie 2 Mg + O₂ → 2 MgO zijn juist? Kruis alles aan wat juist is.",
+        vraag=r"Welke uitspraken over de reactie 2 Mg + O₂ → 2 MgO zijn juist? Kruis alles aan wat juist is.",
         opties=[
-            "per 2 mol magnesium is er 1 mol zuurstofgas nodig",
+            r"per \(2\) mol magnesium is er \(1\) mol zuurstofgas nodig",
             "er ontstaat evenveel mol magnesiumoxide als er magnesium reageert",
             "per mol magnesium is er een mol zuurstofgas nodig",
             "er ontstaat dubbel zoveel magnesiumoxide als er magnesium reageert",
         ],
         antwoord=[0, 1],
-        uitleg="De verhouding is 2 op 1 op 2. Magnesium en magnesiumoxide staan dus in "
+        uitleg=r"De verhouding is \(2\) op \(1\) op \(2\). Magnesium en magnesiumoxide staan dus in "
         "verhouding één op één.",
     ),
     dict(
         type="invultekst",
-        vraag="Hoeveel mol water ontstaat er uit 3 mol waterstofgas in 2 H₂ + O₂ → 2 H₂O?",
+        vraag=r"Hoeveel mol water ontstaat er uit 3 mol waterstofgas in 2 H₂ + O₂ → 2 H₂O?",
         antwoord=["3", "3 mol", "drie"],
-        uitleg="Waterstofgas en water staan in verhouding 2 op 2, dus één op één. Uit "
+        uitleg=r"Waterstofgas en water staan in verhouding \(2\) op \(2\), dus één op één. Uit "
         "drie mol waterstofgas komt drie mol water.",
     ),
     dict(
         type="meerkeuze",
-        vraag="Hoeveel gram magnesiumoxide ontstaat er uit 2 mol magnesium, met M(MgO) 40 g/mol?",
+        vraag=r"Hoeveel gram magnesiumoxide ontstaat er uit \(2\) mol magnesium, met M(MgO) \(40\) g/mol?",
         opties=[
-            "80 gram",
-            "40 gram",
-            "20 gram",
-            "120 gram",
+            r"\(80\) gram",
+            r"\(40\) gram",
+            r"\(20\) gram",
+            r"\(120\) gram",
         ],
         antwoord=0,
-        uitleg="Twee mol magnesium geeft twee mol magnesiumoxide, en twee maal 40 is 80 "
+        uitleg=r"Twee mol magnesium geeft twee mol magnesiumoxide, en twee maal \(40\) is \(80\) "
         "gram.",
     ),
     dict(
@@ -136,10 +136,10 @@ DEEL1 = [
         type="meerkeuze",
         vraag="Hoe luidt de uitgebalanceerde vergelijking voor de vorming van aluminiumoxide?",
         opties=[
-            "4 Al + 3 O₂ → 2 Al₂O₃",
-            "2 Al + 3 O₂ → Al₂O₃",
+            r"4 Al + 3 O₂ → 2 Al₂O₃",
+            r"2 Al + 3 O₂ → Al₂O₃",
             "Al + O₂ → Al₂O₃",
-            "2 Al + O₂ → 2 Al₂O₃",
+            r"2 Al + O₂ → 2 Al₂O₃",
         ],
         antwoord=0,
         uitleg="Rechts staan vier aluminium en zes zuurstof. Links moeten dat dus vier Al "
@@ -147,12 +147,12 @@ DEEL1 = [
     ),
     dict(
         type="meerkeuze",
-        vraag="Bij de ontleding CaCO₃ → CaO + CO₂ ontleedt 100 gram kalksteen, met M 100 g/mol. Hoeveel mol CO₂ ontstaat er?",
+        vraag=r"Bij de ontleding CaCO₃ → CaO + CO₂ ontleedt 100 gram kalksteen, met M 100 g/mol. Hoeveel mol CO₂ ontstaat er?",
         opties=[
-            "1 mol",
-            "2 mol",
-            "0,5 mol",
-            "100 mol",
+            r"\(1\) mol",
+            r"\(2\) mol",
+            r"\(0{,}5\) mol",
+            r"\(100\) mol",
         ],
         antwoord=0,
         uitleg="Honderd gram is één mol, en de verhouding is één op één. Er komt dus één "
@@ -173,7 +173,7 @@ DEEL1 = [
     ),
     dict(
         type="invultekst",
-        vraag="Welke coëfficiënt hoort voor H₂O in de reactie CH₄ + 2 O₂ → CO₂ + … H₂O?",
+        vraag=r"Welke coëfficiënt hoort voor H₂O in de reactie CH₄ + 2 O₂ → CO₂ + … H₂O?",
         antwoord=["2", "twee"],
         uitleg="Methaan heeft vier waterstofatomen, en elke watermolecule gebruikt er "
         "twee. Dus twee moleculen water.",
@@ -200,12 +200,12 @@ DEEL1 = [
     ),
     dict(
         type="meerkeuze",
-        vraag="Hoeveel mol zuurstofgas is nodig om 1 mol propaan C₃H₈ volledig te verbranden?",
+        vraag=r"Hoeveel mol zuurstofgas is nodig om \(1\) mol propaan C₃H₈ volledig te verbranden?",
         opties=[
-            "5 mol",
-            "3 mol",
-            "4 mol",
-            "7 mol",
+            r"\(5\) mol",
+            r"\(3\) mol",
+            r"\(4\) mol",
+            r"\(7\) mol",
         ],
         antwoord=0,
         uitleg="Er ontstaan drie CO₂ en vier H₂O, samen tien zuurstofatomen. Dat zijn "
@@ -220,9 +220,9 @@ DEEL1 = [
     ),
     dict(
         type="invultekst",
-        vraag="Hoeveel mol waterstofgas is nodig voor 2 mol ammoniak in N₂ + 3 H₂ → 2 NH₃?",
+        vraag=r"Hoeveel mol waterstofgas is nodig voor 2 mol ammoniak in N₂ + 3 H₂ → 2 NH₃?",
         antwoord=["3", "3 mol", "drie"],
-        uitleg="De verhouding tussen waterstofgas en ammoniak is 3 op 2. Voor twee mol "
+        uitleg=r"De verhouding tussen waterstofgas en ammoniak is \(3\) op \(2\). Voor twee mol "
         "ammoniak is dus drie mol waterstofgas nodig.",
     ),
 ]
@@ -243,7 +243,7 @@ DEEL2 = [
     ),
     dict(
         type="meerkeuze",
-        vraag="Je laat 2 mol H₂ reageren met 2 mol O₂ volgens 2 H₂ + O₂ → 2 H₂O. Welke stof is in overmaat?",
+        vraag=r"Je laat 2 mol H₂ reageren met 2 mol O₂ volgens 2 H₂ + O₂ → 2 H₂O. Welke stof is in overmaat?",
         opties=[
             "het zuurstofgas",
             "het waterstofgas",
@@ -256,7 +256,7 @@ DEEL2 = [
     ),
     dict(
         type="invultekst",
-        vraag="Hoeveel mol water ontstaat er uit 2 mol H₂ en 2 mol O₂ volgens 2 H₂ + O₂ → 2 H₂O?",
+        vraag=r"Hoeveel mol water ontstaat er uit 2 mol H₂ en 2 mol O₂ volgens 2 H₂ + O₂ → 2 H₂O?",
         antwoord=["2", "2 mol", "twee"],
         uitleg="Het waterstofgas is beperkend: twee mol ervan geeft twee mol water. Het "
         "overschot aan zuurstofgas doet niet meer mee.",
@@ -278,7 +278,7 @@ DEEL2 = [
         type="waarofniet",
         vraag="Het limiterend reagens is altijd de stof waarvan je het minste mol hebt.",
         antwoord=False,
-        uitleg="Niet altijd: de coëfficiënten tellen mee. Van een stof met coëfficiënt 3 "
+        uitleg=r"Niet altijd: de coëfficiënten tellen mee. Van een stof met coëfficiënt \(3\) "
         "heb je drie keer zoveel nodig.",
     ),
     dict(
@@ -304,39 +304,39 @@ DEEL2 = [
             "in joule per mol",
         ],
         antwoord=0,
-        uitleg="Nul kelvin is het absolute nulpunt. Reken dus eerst om: 25 °C is 298 K.",
+        uitleg=r"Nul kelvin is het absolute nulpunt. Reken dus eerst om: \(25^{\circ}\text{C}\) is \(298\) K.",
     ),
     dict(
         type="meerkeuze",
         vraag="Welke uitspraken over de normomstandigheden zijn juist? Kruis alles aan wat juist is.",
         opties=[
-            "de temperatuur is 0 °C of 273 K",
-            "één mol gas neemt er 22,4 liter in",
-            "de temperatuur is 25 °C of 298 K",
-            "één mol gas neemt er 24,0 liter in",
+            r"de temperatuur is \(0^{\circ}\text{C}\) of \(273\) K",
+            r"één mol gas neemt er \(22{,}4\) liter in",
+            r"de temperatuur is \(25^{\circ}\text{C}\) of \(298\) K",
+            r"één mol gas neemt er \(24{,}0\) liter in",
         ],
         antwoord=[0, 1],
-        uitleg="Bij 25 °C hoort een molair volume van ongeveer 24,5 liter. Spreek dus "
+        uitleg=r"Bij \(25^{\circ}\text{C}\) hoort een molair volume van ongeveer \(24{,}5\) liter. Spreek dus "
         "altijd af welke omstandigheden je bedoelt.",
     ),
     dict(
         type="invultekst",
-        vraag="Welk volume neemt 2 mol gas in bij normomstandigheden?",
+        vraag=r"Welk volume neemt \(2\) mol gas in bij normomstandigheden?",
         antwoord=["44,8 L", "44,8", "44,8 liter"],
-        uitleg="Twee keer 22,4 liter. Het molair volume geldt voor elk gas, wat zijn "
+        uitleg=r"Twee keer \(22{,}4\) liter. Het molair volume geldt voor elk gas, wat zijn "
         "molaire massa ook is.",
     ),
     dict(
         type="meerkeuze",
-        vraag="Bij de ontleding van 1 mol kalksteen komt 1 mol CO₂ vrij. Welk volume is dat bij normomstandigheden?",
+        vraag=r"Bij de ontleding van \(1\) mol kalksteen komt \(1\) mol CO₂ vrij. Welk volume is dat bij normomstandigheden?",
         opties=[
-            "22,4 liter",
-            "44,8 liter",
-            "11,2 liter",
-            "1,0 liter",
+            r"\(22{,}4\) liter",
+            r"\(44{,}8\) liter",
+            r"\(11{,}2\) liter",
+            r"\(1{,}0\) liter",
         ],
         antwoord=0,
-        uitleg="Eén mol gas is 22,4 liter bij 0 °C en normale druk. In een warme oven is "
+        uitleg=r"Eén mol gas is \(22{,}4\) liter bij \(0^{\circ}\text{C}\) en normale druk. In een warme oven is "
         "dat volume groter.",
     ),
     dict(
@@ -374,14 +374,14 @@ DEEL2 = [
     ),
     dict(
         type="invultekst",
-        vraag="Hoeveel kelvin is 27 °C?",
+        vraag=r"Hoeveel kelvin is \(27^{\circ}\text{C}\)?",
         antwoord=["300", "300 K", "300 kelvin"],
-        uitleg="Tel 273 bij de temperatuur in graden Celsius op. In de gaswet mag je "
+        uitleg=r"Tel \(273\) bij de temperatuur in graden Celsius op. In de gaswet mag je "
         "nooit met graden Celsius rekenen.",
     ),
     dict(
         type="meerkeuze",
-        vraag="Je hebt 1 mol N₂ en 6 mol H₂ voor N₂ + 3 H₂ → 2 NH₃. Welke stof is beperkend?",
+        vraag=r"Je hebt 1 mol N₂ en 6 mol H₂ voor N₂ + 3 H₂ → 2 NH₃. Welke stof is beperkend?",
         opties=[
             "het stikstofgas",
             "het waterstofgas",
@@ -389,8 +389,8 @@ DEEL2 = [
             "beide stoffen samen",
         ],
         antwoord=0,
-        uitleg="Deel door de coëfficiënt: 1 gedeeld door 1 is 1, en 6 gedeeld door 3 is "
-        "2. De kleinste uitkomst hoort bij het stikstofgas.",
+        uitleg=r"Deel door de coëfficiënt: \(1 : 1\) is \(1\), en \(6 : 3\) is "
+        r"\(2\). De kleinste uitkomst hoort bij het stikstofgas.",
     ),
     dict(
         type="meerkeuze",
@@ -407,15 +407,15 @@ DEEL2 = [
     ),
     dict(
         type="meerkeuze",
-        vraag="Hoeveel mol gas zit er in 11,2 liter bij normomstandigheden?",
+        vraag=r"Hoeveel mol gas zit er in \(11{,}2\) liter bij normomstandigheden?",
         opties=[
-            "0,5 mol",
-            "1,0 mol",
-            "2,0 mol",
-            "0,25 mol",
+            r"\(0{,}5\) mol",
+            r"\(1{,}0\) mol",
+            r"\(2{,}0\) mol",
+            r"\(0{,}25\) mol",
         ],
         antwoord=0,
-        uitleg="11,2 gedeeld door 22,4 is 0,5 mol. Zo reken je van volume naar "
+        uitleg=r"\(11{,}2 : 22{,}4\) is \(0{,}5\) mol. Zo reken je van volume naar "
         "stofhoeveelheid.",
     ),
     dict(

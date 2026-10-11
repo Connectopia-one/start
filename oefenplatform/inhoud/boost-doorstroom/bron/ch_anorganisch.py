@@ -191,7 +191,7 @@ DEEL1 = [
         type="invultekst",
         vraag="Tot welke stofklasse hoort Al(OH)₃?",
         antwoord=["hydroxide", "een hydroxide", "hydroxiden"],
-        uitleg="De groep OH staat er drie keer in, want aluminium vormt een ion met lading 3+.",
+        uitleg=r"De groep OH staat er drie keer in, want aluminium vormt een ion met lading \(3\)+.",
     ),
     dict(
         type="invultekst",

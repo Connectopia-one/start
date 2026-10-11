@@ -251,10 +251,10 @@ DEEL2 = [
     ),
     dict(
         type="meerkeuze",
-        vraag="In de reactie 2 Mg + O₂ → 2 MgO: wat gebeurt er met magnesium?",
+        vraag=r"In de reactie 2 Mg + O₂ → 2 MgO: wat gebeurt er met magnesium?",
         opties=[
-            "het wordt geoxideerd van 0 naar +II",
-            "het wordt gereduceerd van 0 naar −II",
+            r"het wordt geoxideerd van \(0\) naar +II",
+            r"het wordt gereduceerd van \(0\) naar −II",
             "het oxidatiegetal blijft nul",
             "het neemt twee elektronen op",
         ],
@@ -263,7 +263,7 @@ DEEL2 = [
     ),
     dict(
         type="meerkeuze",
-        vraag="In de reactie 2 Mg + O₂ → 2 MgO: welke stof is de oxidator?",
+        vraag=r"In de reactie 2 Mg + O₂ → 2 MgO: welke stof is de oxidator?",
         opties=[
             "het zuurstofgas",
             "het magnesium",
@@ -271,16 +271,16 @@ DEEL2 = [
             "er is geen oxidator",
         ],
         antwoord=0,
-        uitleg="Zuurstof neemt de elektronen op en gaat van 0 naar −II. Wie elektronen opneemt, is de oxidator.",
+        uitleg=r"Zuurstof neemt de elektronen op en gaat van \(0\) naar −II. Wie elektronen opneemt, is de oxidator.",
     ),
     dict(
         type="meerkeuze",
         vraag="Welke coëfficiënten maken de verbranding ... C₂H₆ + ... O₂ → ... CO₂ + ... H₂O kloppend?",
         opties=[
-            "2, 7, 4 en 6",
-            "1, 3, 2 en 3",
-            "2, 5, 4 en 6",
-            "1, 7, 2 en 3",
+            r"\(2\), \(7\), \(4\) en \(6\)",
+            r"\(1\), \(3\), \(2\) en \(3\)",
+            r"\(2\), \(5\), \(4\) en \(6\)",
+            r"\(1\), \(7\), \(2\) en \(3\)",
         ],
         antwoord=0,
         uitleg="Twee moleculen ethaan geven vier CO₂ en zes H₂O. Rechts staan dan veertien zuurstofatomen, dus links zeven O₂.",

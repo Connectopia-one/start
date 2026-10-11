@@ -20,7 +20,7 @@
     },
     {
      "soort": "tekst",
-     "html": "Hoeveel elektronen passen er in een subniveau? Een <strong>p-subniveau</strong> heeft drie orbitalen en dus <strong>zes</strong> plaatsen, s heeft er 2, een volledig <strong>d-subniveau</strong> heeft vijf orbitalen en dus <strong>tien</strong> plaatsen, en f heeft er 14."
+     "html": "Hoeveel elektronen passen er in een subniveau? Een <strong>p-subniveau</strong> heeft drie orbitalen en dus <strong>zes</strong> plaatsen, s heeft er \\(2\\), een volledig <strong>d-subniveau</strong> heeft vijf orbitalen en dus <strong>tien</strong> plaatsen, en f heeft er \\(14\\)."
     }
    ]
   },
@@ -58,19 +58,19 @@
    "blokken": [
     {
      "soort": "tekst",
-     "html": "Alle elementen van dezelfde <strong>groep</strong> hebben <strong>het aantal elektronen in het buitenste hoofdniveau</strong> gemeen, en daarom reageren ze op dezelfde manier. Het <strong>groepsnummer van een hoofdgroepelement heeft dus wél alles te maken met het aantal valentie-elektronen</strong>: groep 1 heeft er één, groep 2 twee, groep 16 zes en groep 17 zeven."
+     "html": "Alle elementen van dezelfde <strong>groep</strong> hebben <strong>het aantal elektronen in het buitenste hoofdniveau</strong> gemeen, en daarom reageren ze op dezelfde manier. Het <strong>groepsnummer van een hoofdgroepelement heeft dus wél alles te maken met het aantal valentie-elektronen</strong>: groep \\(1\\) heeft er één, groep \\(2\\) twee, groep \\(16\\) zes en groep \\(17\\) zeven."
     },
     {
      "soort": "tekst",
-     "html": "Een <strong>periode is een rij in het systeem</strong> en <strong>het nummer geeft het hoogste hoofdniveau</strong>. Een groep is de kolom. Drie groepsnamen om te kennen: <strong>groep 17 heet de halogenen</strong> (fluor, chloor, broom en jood, met zeven valentie-elektronen), <strong>groep 1 met lithium, natrium en kalium heet de alkalimetalen</strong>, die heftig met water reageren en een hydroxide vormen, en <strong>groep 16 met zuurstof, zwavel en selenium heet de zuurstofgroep</strong>, die graag twee elektronen opneemt tot een ion met lading 2−."
+     "html": "Een <strong>periode is een rij in het systeem</strong> en <strong>het nummer geeft het hoogste hoofdniveau</strong>. Een groep is de kolom. Drie groepsnamen om te kennen: <strong>groep \\(17\\) heet de halogenen</strong> (fluor, chloor, broom en jood, met zeven valentie-elektronen), <strong>groep \\(1\\) met lithium, natrium en kalium heet de alkalimetalen</strong>, die heftig met water reageren en een hydroxide vormen, en <strong>groep \\(16\\) met zuurstof, zwavel en selenium heet de zuurstofgroep</strong>, die graag twee elektronen opneemt tot een ion met lading \\(2\\)−."
     },
     {
      "soort": "tekst",
-     "html": "Het blok draagt de naam van het subniveau dat als laatste gevuld wordt. De <strong>overgangselementen</strong> of nevengroepelementen staan <strong>in het d-blok</strong>, waarvan <strong>een volledige rij tien elementen</strong> heeft. De <strong>zeldzame aarden staan in het f-blok</strong>, de twee rijen die onder het systeem apart staan; ze zitten in magneten en in de elektronica van een gsm. Zit het buitenste elektron in een p-orbitaal, dan staat het element in het <strong>p-blok</strong>, dus groep 13 tot 18. Een atoom met <strong>[Ar] 4s² 3d¹⁰ 4p⁵</strong> staat <strong>in groep 17, bij de halogenen</strong>: 2 plus 5 valentie-elektronen, dus broom."
+     "html": "Het blok draagt de naam van het subniveau dat als laatste gevuld wordt. De <strong>overgangselementen</strong> of nevengroepelementen staan <strong>in het d-blok</strong>, waarvan <strong>een volledige rij tien elementen</strong> heeft. De <strong>zeldzame aarden staan in het f-blok</strong>, de twee rijen die onder het systeem apart staan; ze zitten in magneten en in de elektronica van een gsm. Zit het buitenste elektron in een p-orbitaal, dan staat het element in het <strong>p-blok</strong>, dus groep \\(13\\) tot \\(18\\). Een atoom met <strong>[Ar] 4s² 3d¹⁰ 4p⁵</strong> staat <strong>in groep \\(17\\), bij de halogenen</strong>: \\(2\\) plus \\(5\\) valentie-elektronen, dus broom."
     },
     {
      "soort": "tekst",
-     "html": "De <strong>edelgassen</strong> zijn zo weinig reactief omdat <strong>hun buitenste hoofdniveau helemaal volgevuld is</strong>: acht valentie-elektronen, en dat is de edelgasconfiguratie waar de <strong>octetregel</strong> naar verwijst. <strong>Helium volgt die regel niet met acht</strong> maar met twee, want zijn enige hoofdniveau is dan al vol. Uit het groepsnummer volgt ook het verwachte oxidatiegetal: bij <strong>groep 2</strong> is dat <strong>+II</strong>, dus Mg²⁺."
+     "html": "De <strong>edelgassen</strong> zijn zo weinig reactief omdat <strong>hun buitenste hoofdniveau helemaal volgevuld is</strong>: acht valentie-elektronen, en dat is de edelgasconfiguratie waar de <strong>octetregel</strong> naar verwijst. <strong>Helium volgt die regel niet met acht</strong> maar met twee, want zijn enige hoofdniveau is dan al vol. Uit het groepsnummer volgt ook het verwachte oxidatiegetal: bij <strong>groep \\(2\\)</strong> is dat <strong>+II</strong>, dus Mg²⁺."
     }
    ]
   },
@@ -95,7 +95,7 @@
  "onthoud": [
   "Een orbitaal is een kansgebied; er passen twee elektronen met tegengestelde spin.",
   "Vier kwantumgetallen: hoofdniveau, subniveau, magnetisch niveau, spin.",
-  "s 2, p 6, d 10, f 14 elektronen.",
+  "s \\(2\\), p \\(6\\), d \\(10\\), f \\(14\\) elektronen.",
   "Hund: eerst elk orbitaal één elektron. Diagonaalregel: 4s voor 3d.",
   "Groep is de kolom en geeft de valentie-elektronen; periode is de rij.",
   "Naar rechts kleiner, naar beneden groter; fluor is het meest elektronegatief.",

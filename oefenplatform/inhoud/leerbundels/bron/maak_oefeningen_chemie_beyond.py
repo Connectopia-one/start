@@ -58,10 +58,10 @@ OEFENBUNDELS["oefenbundel-anorganische-stoffen-stofklassen-en-naamgeving-beyond"
         dict(kop="Binair, ternair of nog iets anders",
              opdracht="Schrijf hoeveel verschillende elementen erin zitten, en of de stof dus binair of ternair is.",
              oefeningen=[
-                 ("rij", [("CaCl₂", "2, binair"), ("NaNO₃", "3, ternair"), ("SO₃", "2, binair")],
+                 ("rij", [("CaCl₂", r"\(2\), binair"), ("NaNO₃", r"\(3\), ternair"), ("SO₃", r"\(2\), binair")],
                   "Hoeveel elementen, en wat is het?", WL),
-                 ("rij", [("KHCO₃", "4, geen van de twee"), ("Li₂O", "2, binair"),
-                          ("CuSO₄", "3, ternair")],
+                 ("rij", [("KHCO₃", r"\(4\), geen van de twee"), ("Li₂O", r"\(2\), binair"),
+                          ("CuSO₄", r"\(3\), ternair")],
                   "Hoeveel elementen, en wat is het?", WL),
                  ("open", "Leg uit waarom een binaire verbinding niet per se twee atomen heeft.",
                   "Binair zegt dat er twee verschillende elementen in zitten, niet twee atomen. "
@@ -82,9 +82,9 @@ OEFENBUNDELS["oefenbundel-anorganische-stoffen-stofklassen-en-naamgeving-beyond"
         dict(kop="De waardigheid",
              opdracht="Schrijf hoeveel protonen het zuur kan afstaan, of hoeveel OH-groepen het hydroxide heeft.",
              oefeningen=[
-                 ("rij", [("HNO₃", "1"), ("H₂CO₃", "2"), ("H₃PO₄", "3")],
+                 ("rij", [("HNO₃", r"\(1\)"), ("H₂CO₃", r"\(2\)"), ("H₃PO₄", r"\(3\)")],
                   "Hoeveel?", "90px"),
-                 ("rij", [("NaOH", "1"), ("Ca(OH)₂", "2"), ("Al(OH)₃", "3")],
+                 ("rij", [("NaOH", r"\(1\)"), ("Ca(OH)₂", r"\(2\)"), ("Al(OH)₃", r"\(3\)")],
                   "Hoeveel?", "90px"),
              ]),
         dict(kop="Naam of formule",
@@ -146,8 +146,8 @@ OEFENBUNDELS["oefenbundel-organische-stoffen-stofklassen-en-naamgeving-beyond"] 
                  ("rij", [("C₃H₈", "alkaan, verzadigd"), ("C₃H₆", "alkeen, onverzadigd"),
                           ("C₂H₂", "alkyn, onverzadigd")],
                   "Wat is het?", WL),
-                 ("kort", "Hoeveel waterstofatomen heeft een alkaan met zes koolstofatomen?", "14", W),
-                 ("kort", "Hoeveel waterstofatomen heeft een alkeen met vijf koolstofatomen?", "10", W),
+                 ("kort", "Hoeveel waterstofatomen heeft een alkaan met zes koolstofatomen?", r"\(14\)", W),
+                 ("kort", "Hoeveel waterstofatomen heeft een alkeen met vijf koolstofatomen?", r"\(10\)", W),
              ]),
         dict(kop="De IUPAC-naam",
              opdracht="Schrijf de naam volgens de regels.",
@@ -155,19 +155,19 @@ OEFENBUNDELS["oefenbundel-organische-stoffen-stofklassen-en-naamgeving-beyond"] 
                  ("rij", [("CH₃-CH₂-CH₂-CH₃", "butaan"), ("CH₃-CH₂-OH", "ethanol"),
                           ("CH₃-COOH", "ethaanzuur")],
                   "Welke naam?", WW),
-                 ("rij", [("CH₃-CO-CH₂-CH₃", "butanon"), ("CH₃-CHOH-CH₃", "propaan-2-ol"),
+                 ("rij", [("CH₃-CO-CH₂-CH₃", "butanon"), ("CH₃-CHOH-CH₃", r"propaan-\(2\)-ol"),
                           ("CH₂=CH-CH₃", "propeen")],
                   "Welke naam?", WW),
-                 ("open", "Leg uit waarom propaan-1-ol en niet propaan-3-ol de juiste naam is.",
+                 ("open", r"Leg uit waarom propaan-\(1\)-ol en niet propaan-\(3\)-ol de juiste naam is.",
                   "Je nummert de hoofdketen van de kant die de functionele groep het laagste nummer "
-                  "geeft. Van de andere kant geteld zou de OH-groep aan koolstof 3 hangen, en 1 is "
-                  "kleiner dan 3.", 5),
+                  r"geeft. Van de andere kant geteld zou de OH-groep aan koolstof \(3\) hangen, en \(1\) is "
+                  r"kleiner dan \(3\).", 5),
              ]),
         dict(kop="Primair, secundair of tertiair",
              opdracht="Schrijf primair, secundair of tertiair.",
              oefeningen=[
-                 ("rij", [("butaan-1-ol", "primair"), ("butaan-2-ol", "secundair"),
-                          ("2-methylpropaan-2-ol", "tertiair")],
+                 ("rij", [(r"butaan-\(1\)-ol", "primair"), (r"butaan-\(2\)-ol", "secundair"),
+                          (r"\(2\)-methylpropaan-\(2\)-ol", "tertiair")],
                   "Welke alcohol?", WW),
                  ("open", "Bij een alcohol tel je iets anders dan bij een amine. Leg beide regels uit.",
                   "Bij een alcohol kijk je naar het aantal koolstofatomen dat aan het koolstofatoom "
@@ -220,14 +220,14 @@ OEFENBUNDELS["oefenbundel-isomerie-en-chiraliteit-beyond"] = dict(
         dict(kop="Welk soort isomerie?",
              opdracht="Schrijf ketenisomerie, plaatsisomerie of functie-isomerie.",
              oefeningen=[
-                 ("rij", [("pentaan en 2-methylbutaan", "ketenisomerie"),
-                          ("butaan-1-ol en butaan-2-ol", "plaatsisomerie")],
+                 ("rij", [(r"pentaan en \(2\)-methylbutaan", "ketenisomerie"),
+                          (r"butaan-\(1\)-ol en butaan-\(2\)-ol", "plaatsisomerie")],
                   "Welk soort?", WL),
                  ("rij", [("propanal en propanon", "functie-isomerie"),
-                          ("pent-1-een en pent-2-een", "plaatsisomerie")],
+                          (r"pent-\(1\)-een en pent-\(2\)-een", "plaatsisomerie")],
                   "Welk soort?", WL),
                  ("rij", [("ethaanzuur en methylmethanoaat", "functie-isomerie"),
-                          ("hexaan en 2,3-dimethylbutaan", "ketenisomerie")],
+                          (r"hexaan en \(2{,}3\)-dimethylbutaan", "ketenisomerie")],
                   "Welk soort?", WL),
              ]),
         dict(kop="Zijn het isomeren?",
@@ -241,13 +241,13 @@ OEFENBUNDELS["oefenbundel-isomerie-en-chiraliteit-beyond"] = dict(
         dict(kop="Tellen",
              opdracht="Schrijf het aantal.",
              oefeningen=[
-                 ("rij", [("structuurisomeren van C₄H₁₀", "2"),
-                          ("structuurisomeren van C₅H₁₂", "3"),
-                          ("structuurisomeren van C₃H₈", "1")],
+                 ("rij", [("structuurisomeren van C₄H₁₀", r"\(2\)"),
+                          ("structuurisomeren van C₅H₁₂", r"\(3\)"),
+                          ("structuurisomeren van C₃H₈", r"\(1\)")],
                   "Hoeveel?", "90px"),
-                 ("rij", [("stereo-isomeren bij 1 asymmetrisch koolstofatoom", "2"),
-                          ("bij 2 asymmetrische koolstofatomen", "4"),
-                          ("bij 4 asymmetrische koolstofatomen", "16")],
+                 ("rij", [(r"stereo-isomeren bij \(1\) asymmetrisch koolstofatoom", r"\(2\)"),
+                          (r"bij \(2\) asymmetrische koolstofatomen", r"\(4\)"),
+                          (r"bij \(4\) asymmetrische koolstofatomen", r"\(16\)")],
                   "Hoeveel?", "90px"),
                  ("open", "Leg uit waarom er van methaan geen enkel isomeer bestaat.",
                   "Er is maar één manier om één koolstofatoom en vier waterstofatomen aan elkaar te "
@@ -256,7 +256,7 @@ OEFENBUNDELS["oefenbundel-isomerie-en-chiraliteit-beyond"] = dict(
         dict(kop="Z of E",
              opdracht="Antwoord kort.",
              oefeningen=[
-                 ("rij", [("but-2-een", "wel Z/E"), ("but-1-een", "geen Z/E"),
+                 ("rij", [(r"but-\(2\)-een", "wel Z/E"), (r"but-\(1\)-een", "geen Z/E"),
                           ("propeen", "geen Z/E")],
                   "Bestaat er Z/E-isomerie?", WL),
                  ("open", "Waarom bestaat er geen Z/E-isomerie rond een enkelvoudige binding?",
@@ -271,8 +271,8 @@ OEFENBUNDELS["oefenbundel-isomerie-en-chiraliteit-beyond"] = dict(
         dict(kop="Chiraal of niet",
              opdracht="Kruis aan of antwoord kort.",
              oefeningen=[
-                 ("rij", [("2-chloorbutaan", "chiraal"), ("propaan-2-ol", "niet chiraal"),
-                          ("2-broompropaan", "niet chiraal")],
+                 ("rij", [(r"\(2\)-chloorbutaan", "chiraal"), (r"propaan-\(2\)-ol", "niet chiraal"),
+                          (r"\(2\)-broompropaan", "niet chiraal")],
                   "Chiraal of niet?", WW),
                  ("open", "Wanneer is een koolstofatoom asymmetrisch?",
                   "Als er vier verschillende groepen aan hangen. Dan valt de molecule niet samen met "
@@ -297,24 +297,24 @@ OEFENBUNDELS["oefenbundel-atoombouw-orbitalen-en-het-periodiek-systeem-beyond"] 
         dict(kop="Hoeveel elektronen passen erin?",
              opdracht="Schrijf het aantal.",
              oefeningen=[
-                 ("rij", [("één orbitaal", "2"), ("een s-subniveau", "2"),
-                          ("een p-subniveau", "6")],
+                 ("rij", [("één orbitaal", r"\(2\)"), ("een s-subniveau", r"\(2\)"),
+                          ("een p-subniveau", r"\(6\)")],
                   "Hoeveel elektronen?", "90px"),
-                 ("rij", [("een d-subniveau", "10"), ("een f-subniveau", "14"),
-                          ("een p-subniveau in orbitalen", "3 orbitalen")],
+                 ("rij", [("een d-subniveau", r"\(10\)"), ("een f-subniveau", r"\(14\)"),
+                          ("een p-subniveau in orbitalen", r"\(3\) orbitalen")],
                   "Hoeveel?", "110px"),
              ]),
         dict(kop="De configuratie schrijven",
              opdracht="Schrijf de volledige elektronenconfiguratie.",
              oefeningen=[
-                 ("rij", [("stikstof, 7 elektronen", "1s² 2s² 2p³"),
-                          ("natrium, 11 elektronen", "1s² 2s² 2p⁶ 3s¹")],
+                 ("rij", [(r"stikstof, \(7\) elektronen", "1s² 2s² 2p³"),
+                          (r"natrium, \(11\) elektronen", "1s² 2s² 2p⁶ 3s¹")],
                   "Welke configuratie?", WL),
-                 ("rij", [("fluor, 9 elektronen", "1s² 2s² 2p⁵"),
-                          ("magnesium, 12 elektronen", "1s² 2s² 2p⁶ 3s²")],
+                 ("rij", [(r"fluor, \(9\) elektronen", "1s² 2s² 2p⁵"),
+                          (r"magnesium, \(12\) elektronen", "1s² 2s² 2p⁶ 3s²")],
                   "Welke configuratie?", WL),
-                 ("kort", "Hoeveel valentie-elektronen heeft een atoom met [Ne] 3s² 3p⁴?", "6", W),
-                 ("kort", "Hoeveel elektronen heeft het ion Mg²⁺?", "10", W),
+                 ("kort", "Hoeveel valentie-elektronen heeft een atoom met [Ne] 3s² 3p⁴?", r"\(6\)", W),
+                 ("kort", "Hoeveel elektronen heeft het ion Mg²⁺?", r"\(10\)", W),
              ]),
         dict(kop="Kwantumgetallen",
              opdracht="Schrijf welk kwantumgetal het is.",
@@ -341,11 +341,11 @@ OEFENBUNDELS["oefenbundel-atoombouw-orbitalen-en-het-periodiek-systeem-beyond"] 
         dict(kop="Plaats in het systeem",
              opdracht="Schrijf de groep en de periode.",
              oefeningen=[
-                 ("rij", [("[Ne] 3s¹", "groep 1, periode 3"),
-                          ("[Ar] 4s² 3d¹⁰ 4p³", "groep 15, periode 4")],
+                 ("rij", [("[Ne] 3s¹", r"groep \(1\), periode \(3\)"),
+                          ("[Ar] 4s² 3d¹⁰ 4p³", r"groep \(15\), periode \(4\)")],
                   "Groep en periode?", WL),
-                 ("rij", [("1s² 2s² 2p⁵", "groep 17, periode 2"),
-                          ("[Kr] 5s²", "groep 2, periode 5")],
+                 ("rij", [("1s² 2s² 2p⁵", r"groep \(17\), periode \(2\)"),
+                          ("[Kr] 5s²", r"groep \(2\), periode \(5\)")],
                   "Groep en periode?", WL),
                  ("rij", [("lithium, natrium, kalium", "de alkalimetalen"),
                           ("fluor, chloor, broom", "de halogenen"),
@@ -381,18 +381,18 @@ OEFENBUNDELS["oefenbundel-atoombinding-en-lewisstructuren-beyond"] = dict(
         dict(kop="Sigma en pi tellen",
              opdracht="Schrijf hoeveel sigma- en hoeveel pi-bindingen de molecule heeft.",
              oefeningen=[
-                 ("rij", [("H₂O", "2 sigma, 0 pi"), ("CH₄", "4 sigma, 0 pi")],
+                 ("rij", [("H₂O", r"\(2\) sigma, \(0\) pi"), ("CH₄", r"\(4\) sigma, \(0\) pi")],
                   "Hoeveel van elk?", WL),
-                 ("rij", [("CH₂=CH₂", "5 sigma, 1 pi"), ("HC≡CH", "3 sigma, 2 pi")],
+                 ("rij", [("CH₂=CH₂", r"\(5\) sigma, \(1\) pi"), ("HC≡CH", r"\(3\) sigma, \(2\) pi")],
                   "Hoeveel van elk?", WL),
-                 ("rij", [("CO₂", "2 sigma, 2 pi"), ("N₂", "1 sigma, 2 pi")],
+                 ("rij", [("CO₂", r"\(2\) sigma, \(2\) pi"), ("N₂", r"\(1\) sigma, \(2\) pi")],
                   "Hoeveel van elk?", WL),
              ]),
         dict(kop="Korter of langer",
              opdracht="Zet de drie bindingen in de juiste volgorde, van lang naar kort.",
              oefeningen=[
                  ("open", "C–C, C=C en C≡C: zet ze van lang naar kort en zeg waarom.",
-                  "C–C (ongeveer 154 pm), dan C=C (134 pm), dan C≡C (120 pm). Elke extra binding "
+                  r"C–C (ongeveer \(154\) pm), dan C=C (\(134\) pm), dan C≡C (\(120\) pm). Elke extra binding "
                   "trekt de twee atomen dichter naar elkaar, dus wordt de binding korter en sterker.", 5),
                  ("waar", "Tussen twee atomen kunnen meerdere sigma-bindingen naast elkaar liggen.", False),
                  ("waar", "Een pi-binding is zwakker dan een sigma-binding tussen dezelfde atomen.", True),
@@ -401,17 +401,17 @@ OEFENBUNDELS["oefenbundel-atoombinding-en-lewisstructuren-beyond"] = dict(
         dict(kop="Vrije elektronenparen tellen",
              opdracht="Schrijf hoeveel vrije elektronenparen het vetgedrukte atoom heeft.",
              oefeningen=[
-                 ("rij", [("<b>O</b> in H₂O", "2"), ("<b>N</b> in NH₃", "1"),
-                          ("<b>Cl</b> in Cl₂", "3")],
+                 ("rij", [("<b>O</b> in H₂O", r"\(2\)"), ("<b>N</b> in NH₃", r"\(1\)"),
+                          ("<b>Cl</b> in Cl₂", r"\(3\)")],
                   "Hoeveel vrije paren?", "90px"),
-                 ("rij", [("<b>N</b> in NH₄⁺", "0"), ("<b>O</b> in H₃O⁺", "1"),
-                          ("<b>C</b> in CH₄", "0")],
+                 ("rij", [("<b>N</b> in NH₄⁺", r"\(0\)"), ("<b>O</b> in H₃O⁺", r"\(1\)"),
+                          ("<b>C</b> in CH₄", r"\(0\)")],
                   "Hoeveel vrije paren?", "90px"),
              ]),
         dict(kop="Formele lading",
              opdracht="Reken met valentie-elektronen min vrije elektronen min aantal bindingen.",
              oefeningen=[
-                 ("rij", [("N in NH₄⁺", "+1"), ("O in H₃O⁺", "+1"), ("O in OH⁻", "−1")],
+                 ("rij", [("N in NH₄⁺", r"+\(1\)"), ("O in H₃O⁺", r"+\(1\)"), ("O in OH⁻", r"\(-1\)")],
                   "Welke formele lading?", WW),
                  ("open", "Leg uit waarin de formele lading verschilt van het oxidatiegetal.",
                   "Bij de formele lading verdeel je de elektronen van een binding eerlijk over de "
@@ -449,19 +449,19 @@ OEFENBUNDELS["oefenbundel-ruimtelijke-structuur-polariteit-en-intermoleculaire-k
         dict(kop="Het sterisch getal",
              opdracht="Schrijf het sterisch getal van het centrale atoom.",
              oefeningen=[
-                 ("rij", [("C in CH₄", "4"), ("O in H₂O", "4"), ("N in NH₃", "4")],
+                 ("rij", [("C in CH₄", r"\(4\)"), ("O in H₂O", r"\(4\)"), ("N in NH₃", r"\(4\)")],
                   "Sterisch getal?", "90px"),
-                 ("rij", [("C in CO₂", "2"), ("S in SO₂", "3"), ("C in CH₂=CH₂", "3")],
+                 ("rij", [("C in CO₂", r"\(2\)"), ("S in SO₂", r"\(3\)"), ("C in CH₂=CH₂", r"\(3\)")],
                   "Sterisch getal?", "90px"),
              ]),
         dict(kop="Vorm en hybridisatie",
              opdracht="Vul de tabel aan.",
              oefeningen=[
                  ("tabel", ["sterisch getal", "vorm zonder vrije paren", "hybridisatie", "hoek"],
-                  [["2", None, "sp", None],
-                   ["3", "vlakke driehoek", None, "120°"],
-                   ["4", None, "sp³", None]],
-                  "2: lineair, 180° · 3: sp² · 4: tetraëder, 109,5°", W),
+                  [[r"\(2\)", None, "sp", None],
+                   [r"\(3\)", "vlakke driehoek", None, r"\(120^{\circ}\)"],
+                   [r"\(4\)", None, "sp³", None]],
+                  r"\(2\): lineair, \(180^{\circ} \cdot 3\): sp² · \(4\): tetraëder, \(109{,}5^{\circ}\)", W),
                  ("rij", [("CH₄", "tetraëder"), ("NH₃", "piramide"), ("H₂O", "geknikt")],
                   "Welke vorm?", WW),
                  ("rij", [("CO₂", "lineair"), ("SO₂", "vlak geknikt"), ("NH₄⁺", "tetraëder")],
@@ -470,7 +470,7 @@ OEFENBUNDELS["oefenbundel-ruimtelijke-structuur-polariteit-en-intermoleculaire-k
         dict(kop="De bindingshoek",
              opdracht="Schrijf de werkelijke hoek en leg uit waarom ze afwijkt.",
              oefeningen=[
-                 ("rij", [("CH₄", "109,5°"), ("NH₃", "107°"), ("H₂O", "104,5°")],
+                 ("rij", [("CH₄", r"\(109{,}5^{\circ}\)"), ("NH₃", r"\(107^{\circ}\)"), ("H₂O", r"\(104{,}5^{\circ}\)")],
                   "Welke hoek?", W),
                  ("open", "Alle drie hebben sterisch getal vier. Leg uit waarom hun hoeken toch verschillen.",
                   "Een vrij elektronenpaar hangt dichter bij het centrale atoom en neemt meer plaats "
@@ -498,7 +498,7 @@ OEFENBUNDELS["oefenbundel-ruimtelijke-structuur-polariteit-en-intermoleculaire-k
                  ("rij", [("tussen Na⁺ en water", "ion-dipoolkracht"),
                           ("tussen Na⁺ en Cl⁻", "coulombkracht")],
                   "Welke kracht?", WL),
-                 ("rij", [("pentaan of butaan", "pentaan"), ("butaan of 2-methylpropaan", "butaan"),
+                 ("rij", [("pentaan of butaan", "pentaan"), (r"butaan of \(2\)-methylpropaan", "butaan"),
                           ("water of waterstofsulfide", "water")],
                   "Welke kookt bij de hoogste temperatuur?", WL),
              ]),
@@ -531,54 +531,54 @@ OEFENBUNDELS["oefenbundel-chemisch-rekenen-mol-molaire-massa-en-concentratie-bey
     hoe=HOE,
     reeksen=[
         dict(kop="Molaire massa",
-             opdracht="Reken met H 1, C 12, N 14, O 16, Na 23, S 32 en Cl 35,5 g/mol.",
+             opdracht=r"Reken met H \(1\), C \(12\), N \(14\), O \(16\), Na \(23\), S \(32\) en Cl \(35{,}5\) g/mol.",
              oefeningen=[
-                 ("rij", [("NH₃", "17 g/mol"), ("NaOH", "40 g/mol"), ("CO₂", "44 g/mol")],
+                 ("rij", [("NH₃", r"\(17\) g/mol"), ("NaOH", r"\(40\) g/mol"), ("CO₂", r"\(44\) g/mol")],
                   "Welke molaire massa?", WW),
-                 ("rij", [("H₂SO₄", "98 g/mol"), ("NaCl", "58,5 g/mol"),
-                          ("C₆H₁₂O₆", "180 g/mol")],
+                 ("rij", [("H₂SO₄", r"\(98\) g/mol"), ("NaCl", r"\(58{,}5\) g/mol"),
+                          ("C₆H₁₂O₆", r"\(180\) g/mol")],
                   "Welke molaire massa?", WW),
              ]),
         dict(kop="Van gram naar mol",
              opdracht="Reken uit. Schrijf eerst de formule op.",
              oefeningen=[
-                 ("kort", "Hoeveel mol is 34 g NH₃ (M = 17 g/mol)?", "2 mol", W),
-                 ("kort", "Hoeveel mol is 9 g water (M = 18 g/mol)?", "0,5 mol", W),
-                 ("kort", "Hoeveel gram weegt 0,25 mol NaOH (M = 40 g/mol)?", "10 g", W),
-                 ("kort", "Hoeveel gram weegt 3 mol CO₂ (M = 44 g/mol)?", "132 g", W),
+                 ("kort", r"Hoeveel mol is \(34\) g NH₃ (M = \(17\) g/mol)?", r"\(2\) mol", W),
+                 ("kort", r"Hoeveel mol is \(9\) g water (M = \(18\) g/mol)?", r"\(0{,}5\) mol", W),
+                 ("kort", r"Hoeveel gram weegt \(0{,}25\) mol NaOH (M = \(40\) g/mol)?", r"\(10\) g", W),
+                 ("kort", r"Hoeveel gram weegt \(3\) mol CO₂ (M = \(44\) g/mol)?", r"\(132\) g", W),
              ]),
         dict(kop="Deeltjes tellen",
-             opdracht="Reken met 6,022 × 10²³ deeltjes per mol.",
+             opdracht=r"Reken met \(6{,}022 \cdot 10^{23}\) deeltjes per mol.",
              oefeningen=[
-                 ("kort", "Hoeveel moleculen zitten er in 0,5 mol?", "3,011 × 10²³", WW),
-                 ("kort", "Hoeveel mol zuurstofatomen zitten er in 2 mol H₂SO₄?", "8 mol", W),
+                 ("kort", r"Hoeveel moleculen zitten er in \(0{,}5\) mol?", r"\(3{,}011 \cdot 10^{23}\)", WW),
+                 ("kort", r"Hoeveel mol zuurstofatomen zitten er in \(2\) mol H₂SO₄?", r"\(8\) mol", W),
                  ("open", "Achttien gram water en achttien gram glucose. In welk bekertje zitten de meeste moleculen, en waarom?",
-                  "In het water. Water heeft M = 18 g/mol, dus is dat één mol; glucose heeft "
-                  "M = 180 g/mol, dus maar een tiende van een mol. Dezelfde massa betekent dus niet "
+                  r"In het water. Water heeft M = \(18\) g/mol, dus is dat één mol; glucose heeft "
+                  r"M = \(180\) g/mol, dus maar een tiende van een mol. Dezelfde massa betekent dus niet "
                   "hetzelfde aantal deeltjes.", 6),
              ]),
         dict(kop="Gassen bij normomstandigheden",
-             opdracht="Reken met een molair volume van 22,4 L/mol.",
+             opdracht=r"Reken met een molair volume van \(22{,}4\) L/mol.",
              oefeningen=[
-                 ("rij", [("2 mol gas", "44,8 L"), ("0,5 mol gas", "11,2 L"),
-                          ("0,25 mol gas", "5,6 L")],
+                 ("rij", [(r"\(2\) mol gas", r"\(44{,}8\) L"), (r"\(0{,}5\) mol gas", r"\(11{,}2\) L"),
+                          (r"\(0{,}25\) mol gas", r"\(5{,}6\) L")],
                   "Welk volume?", WW),
-                 ("waar", "Eén mol gas neemt bij elke temperatuur 22,4 liter in.", False),
-                 ("waar", "Eén mol zuurstofgas en één mol waterstofgas nemen bij 0 °C hetzelfde volume in.", True),
+                 ("waar", r"Eén mol gas neemt bij elke temperatuur \(22{,}4\) liter in.", False),
+                 ("waar", r"Eén mol zuurstofgas en één mol waterstofgas nemen bij \(0^{\circ}\text{C}\) hetzelfde volume in.", True),
              ]),
         dict(kop="Concentratie",
              opdracht="Reken uit. Zet het volume altijd eerst in liter.",
              oefeningen=[
-                 ("kort", "0,4 mol in 2 L. Welke concentratie?", "0,2 mol/L", WW),
-                 ("kort", "Hoeveel mol zit er in 250 mL van 0,8 mol/L?", "0,2 mol", W),
-                 ("kort", "Hoeveel mol weeg je af voor 500 mL van 0,1 mol/L?", "0,05 mol", W),
-                 ("kort", "Hoeveel gram zout zit er in 300 g oplossing van 5 massaprocent?", "15 g", W),
+                 ("kort", r"\(0{,}4\) mol in \(2\) L. Welke concentratie?", r"\(0{,}2\) mol/L", WW),
+                 ("kort", r"Hoeveel mol zit er in \(250\) mL van \(0{,}8\) mol/L?", r"\(0{,}2\) mol", W),
+                 ("kort", r"Hoeveel mol weeg je af voor \(500\) mL van \(0{,}1\) mol/L?", r"\(0{,}05\) mol", W),
+                 ("kort", r"Hoeveel gram zout zit er in \(300\) g oplossing van \(5\) massaprocent?", r"\(15\) g", W),
              ]),
         dict(kop="Verdunnen",
              opdracht="Gebruik c₁ · V₁ = c₂ · V₂.",
              oefeningen=[
-                 ("kort", "20 mL van 1 mol/L verdund tot 100 mL. Welke concentratie?", "0,2 mol/L", WW),
-                 ("kort", "Hoeveel mL van 2 mol/L heb je nodig voor 500 mL van 0,1 mol/L?", "25 mL", W),
+                 ("kort", r"\(20\) mL van \(1\) mol/L verdund tot \(100\) mL. Welke concentratie?", r"\(0{,}2\) mol/L", WW),
+                 ("kort", r"Hoeveel mL van \(2\) mol/L heb je nodig voor \(500\) mL van \(0{,}1\) mol/L?", r"\(25\) mL", W),
                  ("open", "Leg uit waarom het aantal mol opgeloste stof bij verdunnen gelijk blijft.",
                   "Je giet er enkel oplosmiddel bij en haalt er niets uit. Het aantal deeltjes in de "
                   "beker blijft dus hetzelfde, alleen zitten ze in een groter volume, en daardoor "
@@ -590,10 +590,10 @@ OEFENBUNDELS["oefenbundel-chemisch-rekenen-mol-molaire-massa-en-concentratie-bey
                  ("rij", [("procent", "op honderd"), ("promille", "op duizend"),
                           ("ppm", "op een miljoen")],
                   "Op hoeveel?", WW),
-                 ("kort", "Hoeveel milligram per liter water is 1 ppm?", "1 mg", W),
-                 ("open", "Een verbinding bestaat uit 52,2 % koolstof, 13,0 % waterstof en 34,8 % zuurstof. Zoek de eenvoudigste formule (C 12, H 1, O 16).",
-                  "Deel elk percentage door de atoommassa: 52,2/12 = 4,35; 13,0/1 = 13,0; "
-                  "34,8/16 = 2,18. Deel door de kleinste: 2 : 6 : 1, dus C₂H₆O.", 6),
+                 ("kort", r"Hoeveel milligram per liter water is \(1\) ppm?", r"\(1\) mg", W),
+                 ("open", r"Een verbinding bestaat uit \(52{,}2\,\%\) koolstof, \(13{,}0\,\%\) waterstof en \(34{,}8\,\%\) zuurstof. Zoek de eenvoudigste formule (C \(12\), H \(1\), O \(16\)).",
+                  r"Deel elk percentage door de atoommassa: \(52\),\(\tfrac{2}{12} = 4{,}35\); \(13\),\(\tfrac{0}{1} = 13{,}0\); "
+                  r"\(34\),\(\tfrac{8}{16} = 2{,}18\). Deel door de kleinste: \(2 : 6 : 1\), dus C₂H₆O.", 6),
                  ("open", "Waarom vul je een maatkolf aan tot de maatstreep in plaats van eerst het water af te meten?",
                   "De opgeloste stof neemt zelf ook plaats in. De concentratie hoort bij het volume "
                   "van de hele oplossing, niet bij dat van het water alleen.", 5),
@@ -610,35 +610,35 @@ OEFENBUNDELS["oefenbundel-stoichiometrie-overmaat-en-de-algemene-gaswet-beyond"]
         dict(kop="Uitbalanceren",
              opdracht="Schrijf de coëfficiënten die ontbreken.",
              oefeningen=[
-                 ("rij", [("… H₂ + … O₂ → … H₂O", "2, 1, 2"),
-                          ("… Na + … Cl₂ → … NaCl", "2, 1, 2")],
+                 ("rij", [("… H₂ + … O₂ → … H₂O", r"\(2\), \(1\), \(2\)"),
+                          ("… Na + … Cl₂ → … NaCl", r"\(2\), \(1\), \(2\)")],
                   "Welke coëfficiënten?", WL),
-                 ("rij", [("… C₂H₆ + … O₂ → … CO₂ + … H₂O", "2, 7, 4, 6"),
-                          ("… Fe + … O₂ → … Fe₂O₃", "4, 3, 2")],
+                 ("rij", [("… C₂H₆ + … O₂ → … CO₂ + … H₂O", r"\(2\), \(7\), \(4\), \(6\)"),
+                          ("… Fe + … O₂ → … Fe₂O₃", r"\(4\), \(3\), \(2\)")],
                   "Welke coëfficiënten?", WL),
-                 ("rij", [("… CH₄ + … O₂ → … CO₂ + … H₂O", "1, 2, 1, 2"),
-                          ("… Al + … HCl → … AlCl₃ + … H₂", "2, 6, 2, 3")],
+                 ("rij", [("… CH₄ + … O₂ → … CO₂ + … H₂O", r"\(1\), \(2\), \(1\), \(2\)"),
+                          ("… Al + … HCl → … AlCl₃ + … H₂", r"\(2\), \(6\), \(2\), \(3\)")],
                   "Welke coëfficiënten?", WL),
                  ("waar", "Je mag de formule van een stof aanpassen om een vergelijking te laten kloppen.", False),
              ]),
         dict(kop="Rekenen met de verhouding",
-             opdracht="Gebruik N₂ + 3 H₂ → 2 NH₃.",
+             opdracht=r"Gebruik N₂ + 3 H₂ → 2 NH₃.",
              oefeningen=[
-                 ("kort", "Hoeveel mol NH₃ uit 3 mol N₂?", "6 mol", W),
-                 ("kort", "Hoeveel mol H₂ voor 4 mol NH₃?", "6 mol", W),
-                 ("kort", "Hoeveel mol N₂ voor 9 mol H₂?", "3 mol", W),
+                 ("kort", r"Hoeveel mol NH₃ uit \(3\) mol N₂?", r"\(6\) mol", W),
+                 ("kort", r"Hoeveel mol H₂ voor \(4\) mol NH₃?", r"\(6\) mol", W),
+                 ("kort", r"Hoeveel mol N₂ voor \(9\) mol H₂?", r"\(3\) mol", W),
              ]),
         dict(kop="Van gram naar gram",
              opdracht="Schrijf alle stappen op: gram, mol, verhouding, mol, gram.",
              oefeningen=[
-                 ("open", "Hoeveel gram MgO ontstaat er uit 4,8 g Mg? (2 Mg + O₂ → 2 MgO; "
-                  "Mg 24 g/mol, MgO 40 g/mol)",
-                  "4,8 g : 24 g/mol = 0,2 mol Mg. De verhouding Mg op MgO is 1 op 1, dus 0,2 mol "
-                  "MgO. 0,2 mol × 40 g/mol = 8 g MgO.", 6),
-                 ("open", "Hoeveel gram CO₂ komt er vrij uit 50 g CaCO₃? (CaCO₃ → CaO + CO₂; "
-                  "CaCO₃ 100 g/mol, CO₂ 44 g/mol)",
-                  "50 g : 100 g/mol = 0,5 mol CaCO₃. De verhouding is 1 op 1, dus 0,5 mol CO₂. "
-                  "0,5 mol × 44 g/mol = 22 g CO₂.", 6),
+                 ("open", r"Hoeveel gram MgO ontstaat er uit \(4{,}8\) g Mg? (2 Mg + O₂ → 2 MgO; "
+                  r"Mg \(24\) g/mol, MgO \(40\) g/mol)",
+                  r"\(4{,}8\) g : \(24\) g/mol = \(0{,}2\) mol Mg. De verhouding Mg op MgO is \(1\) op \(1\), dus \(0{,}2\) mol "
+                  r"MgO. \(0{,}2\,\text{mol} \cdot 40\) g/mol = \(8\) g MgO.", 6),
+                 ("open", r"Hoeveel gram CO₂ komt er vrij uit 50 g CaCO₃? (CaCO₃ → CaO + CO₂; "
+                  r"CaCO₃ \(100\) g/mol, CO₂ \(44\) g/mol)",
+                  r"\(50\) g : \(100\) g/mol = \(0{,}5\) mol CaCO₃. De verhouding is \(1\) op \(1\), dus \(0{,}5\) mol CO₂. "
+                  r"\(0{,}5\,\text{mol} \cdot 44\) g/mol = \(22\) g CO₂.", 6),
                  ("open", "Leg uit waarom je de verhouding uit de vergelijking niet rechtstreeks op massa's mag toepassen.",
                   "De coëfficiënten geven een verhouding in mol. Twee stoffen met dezelfde "
                   "stofhoeveelheid hebben meestal een heel andere massa, want hun molaire massa "
@@ -647,25 +647,25 @@ OEFENBUNDELS["oefenbundel-stoichiometrie-overmaat-en-de-algemene-gaswet-beyond"]
         dict(kop="Limiterend reagens",
              opdracht="Deel van elke stof het aantal mol door haar coëfficiënt.",
              oefeningen=[
-                 ("rij", [("3 mol H₂ en 3 mol O₂ in 2 H₂ + O₂ → 2 H₂O", "H₂ is beperkend"),
-                          ("2 mol N₂ en 3 mol H₂ in N₂ + 3 H₂ → 2 NH₃", "H₂ is beperkend")],
+                 ("rij", [(r"3 mol H₂ en 3 mol O₂ in 2 H₂ + O₂ → 2 H₂O", "H₂ is beperkend"),
+                          (r"2 mol N₂ en 3 mol H₂ in N₂ + 3 H₂ → 2 NH₃", "H₂ is beperkend")],
                   "Welke stof is beperkend?", WL),
-                 ("kort", "Hoeveel mol water uit 3 mol H₂ en 3 mol O₂?", "3 mol", W),
+                 ("kort", r"Hoeveel mol water uit \(3\) mol H₂ en \(3\) mol O₂?", r"\(3\) mol", W),
                  ("waar", "Het limiterend reagens is altijd de stof waarvan je het minste mol hebt.", False),
                  ("open", "Waarom werkt men in de industrie soms met een overmaat van de goedkoopste stof?",
                   "Dan is de dure stof het beperkend reagens en reageert ze zo volledig mogelijk weg. "
                   "Het overschot van de goedkope stof blijft over en wordt vaak hergebruikt.", 5),
              ]),
         dict(kop="De algemene gaswet",
-             opdracht="Reken met pV = nRT en een molair volume van 22,4 L/mol bij 0 °C.",
+             opdracht=r"Reken met pV = nRT en een molair volume van \(22{,}4\) L/mol bij \(0^{\circ}\text{C}\).",
              oefeningen=[
-                 ("rij", [("0 °C", "273 K"), ("27 °C", "300 K"), ("100 °C", "373 K")],
+                 ("rij", [(r"\(0^{\circ}\text{C}\)", r"\(273\) K"), (r"\(27^{\circ}\text{C}\)", r"\(300\) K"), (r"\(100^{\circ}\text{C}\)", r"\(373\) K")],
                   "Hoeveel kelvin?", W),
-                 ("kort", "Hoeveel mol gas zit er in 5,6 L bij normomstandigheden?", "0,25 mol", W),
-                 ("kort", "Welk volume neemt 1,5 mol gas in bij normomstandigheden?", "33,6 L", W),
+                 ("kort", r"Hoeveel mol gas zit er in \(5{,}6\) L bij normomstandigheden?", r"\(0{,}25\) mol", W),
+                 ("kort", r"Welk volume neemt \(1{,}5\) mol gas in bij normomstandigheden?", r"\(33{,}6\) L", W),
                  ("waar", "Bij hogere druk neemt een gas bij gelijke temperatuur meer plaats in.", False),
-                 ("open", "Een gas van 2 liter bij 300 K wordt opgewarmd tot 600 K bij gelijke druk. Welk volume krijg je, en waarom?",
-                  "4 liter. In pV = nRT staan V en T aan weerszijden van het gelijkheidsteken, dus "
+                 ("open", r"Een gas van \(2\) liter bij \(300\) K wordt opgewarmd tot \(600\) K bij gelijke druk. Welk volume krijg je, en waarom?",
+                  r"\(4\) liter. In pV = nRT staan V en T aan weerszijden van het gelijkheidsteken, dus "
                   "verdubbelt het volume als de temperatuur in kelvin verdubbelt.", 5),
              ]),
     ],
@@ -728,11 +728,11 @@ OEFENBUNDELS["oefenbundel-reactiesnelheid-botsingsmodel-en-energiediagram-beyond
         dict(kop="De snelheidsvergelijking",
              opdracht="Antwoord kort.",
              oefeningen=[
-                 ("rij", [("v = k·[A]·[B]", "totale orde 2"), ("v = k·[A]²·[B]", "totale orde 3"),
-                          ("v = k·[A]", "totale orde 1")],
+                 ("rij", [("v = k·[A]·[B]", r"totale orde \(2\)"), ("v = k·[A]²·[B]", r"totale orde \(3\)"),
+                          ("v = k·[A]", r"totale orde \(1\)")],
                   "Welke totale orde?", WL),
                  ("rij", [("[A] verdubbelt, v verdubbelt", "eerste orde"),
-                          ("[A] verdubbelt, v wordt 4 keer groter", "tweede orde"),
+                          (r"[A] verdubbelt, v wordt \(4\) keer groter", "tweede orde"),
                           ("[A] verdubbelt, v blijft gelijk", "nulde orde")],
                   "Welke orde in A?", WL),
                  ("open", "Van wat hangt de snelheidsconstante k af, en van wat niet?",
@@ -763,18 +763,18 @@ OEFENBUNDELS["oefenbundel-chemisch-evenwicht-en-de-wet-van-le-chatelier-beyond"]
         dict(kop="De evenwichtsconstante opschrijven",
              opdracht="Schrijf de uitdrukking van K.",
              oefeningen=[
-                 ("rij", [("H₂ + I₂ ⇌ 2 HI", "[HI]² / ([H₂]·[I₂])"),
-                          ("N₂ + 3 H₂ ⇌ 2 NH₃", "[NH₃]² / ([N₂]·[H₂]³)")],
+                 ("rij", [(r"H₂ + I₂ ⇌ \(2\) HI", "[HI]² / ([H₂]·[I₂])"),
+                          (r"N₂ + \(3\) H₂ ⇌ \(2\) NH₃", "[NH₃]² / ([N₂]·[H₂]³)")],
                   "Welke uitdrukking?", WL),
-                 ("rij", [("2 SO₂ + O₂ ⇌ 2 SO₃", "[SO₃]² / ([SO₂]²·[O₂])"),
-                          ("A + 2 B ⇌ 3 C", "[C]³ / ([A]·[B]²)")],
+                 ("rij", [(r"\(2\) SO₂ + O₂ ⇌ \(2\) SO₃", "[SO₃]² / ([SO₂]²·[O₂])"),
+                          (r"A + \(2\) B ⇌ \(3\) C", "[C]³ / ([A]·[B]²)")],
                   "Welke uitdrukking?", WL),
              ]),
         dict(kop="Wat zegt de waarde van K?",
              opdracht="Schrijf links, rechts of in het midden.",
              oefeningen=[
-                 ("rij", [("K = 1000", "rechts"), ("K = 1", "in het midden"),
-                          ("K = 0,001", "links")],
+                 ("rij", [(r"K = \(1000\)", "rechts"), (r"K = \(1\)", "in het midden"),
+                          (r"K = \(0{,}001\)", "links")],
                   "Waar ligt het evenwicht?", WW),
                  ("open", "Een reactie heeft een heel grote K en gebeurt toch niet zichtbaar. Leg uit hoe dat kan.",
                   "K gaat over de verhouding in het evenwicht, niet over de weg ernaartoe. De "
@@ -788,9 +788,9 @@ OEFENBUNDELS["oefenbundel-chemisch-evenwicht-en-de-wet-van-le-chatelier-beyond"]
                           ("product wegnemen", "naar rechts"),
                           ("een katalysator toevoegen", "geen verschuiving")],
                   "Welke kant op?", WL),
-                 ("rij", [("het volume verkleinen bij N₂ + 3 H₂ ⇌ 2 NH₃", "naar rechts"),
+                 ("rij", [(r"het volume verkleinen bij N₂ + \(3\) H₂ ⇌ \(2\) NH₃", "naar rechts"),
                           ("de druk verlagen bij diezelfde reactie", "naar links"),
-                          ("de druk verhogen bij H₂ + I₂ ⇌ 2 HI", "geen verschuiving")],
+                          (r"de druk verhogen bij H₂ + I₂ ⇌ \(2\) HI", "geen verschuiving")],
                   "Welke kant op?", WL),
                  ("open", "Een evenwicht is exo-energetisch naar rechts. Je verwarmt het. Welke kant gaat het op, en waarom?",
                   "Naar links. Warmte toevoegen is als iets toevoegen aan de kant waar het vrijkomt, "
@@ -810,13 +810,13 @@ OEFENBUNDELS["oefenbundel-chemisch-evenwicht-en-de-wet-van-le-chatelier-beyond"]
         dict(kop="Rendement en omzetting",
              opdracht="Reken of leg uit.",
              oefeningen=[
-                 ("kort", "Je haalt 7,5 g uit een reactie waar 10 g mogelijk was. Welk rendement?", "75 %", W),
-                 ("kort", "Van 2 mol beginstof reageert 0,5 mol. Welke omzettingsgraad?", "25 %", W),
+                 ("kort", r"Je haalt \(7{,}5\) g uit een reactie waar \(10\) g mogelijk was. Welk rendement?", r"\(75\,\%\)", W),
+                 ("kort", r"Van \(2\) mol beginstof reageert \(0{,}5\) mol. Welke omzettingsgraad?", r"\(25\,\%\)", W),
                  ("open", "Waarom haalt men in de industrie het product voortdurend uit een evenwichtsmengsel?",
                   "Door het product weg te nemen blijft Q kleiner dan K, dus blijft de heenreactie "
                   "doorlopen. Zo reageert er meer van de beginstoffen weg dan wanneer het evenwicht "
                   "gewoon mag stilvallen.", 6),
-                 ("open", "Waarom blijft de omzettingsgraad bij een evenwicht altijd onder 100 procent?",
+                 ("open", r"Waarom blijft de omzettingsgraad bij een evenwicht altijd onder \(100\) procent?",
                   "Bij een evenwicht blijft er van elke beginstof iets over: de terugreactie maakt "
                   "ze telkens opnieuw aan. Alleen een aflopende reactie kan een beginstof volledig "
                   "opgebruiken.", 5),
@@ -861,9 +861,9 @@ OEFENBUNDELS["oefenbundel-zuren-en-basen-en-het-doorgeven-van-protonen-beyond"] 
         dict(kop="Waardigheid",
              opdracht="Schrijf hoeveel protonen het zuur kan afstaan of de base kan opnemen.",
              oefeningen=[
-                 ("rij", [("HNO₃", "1"), ("H₂SO₄", "2"), ("H₃PO₄", "3")],
+                 ("rij", [("HNO₃", r"\(1\)"), ("H₂SO₄", r"\(2\)"), ("H₃PO₄", r"\(3\)")],
                   "Hoeveel?", "90px"),
-                 ("rij", [("OH⁻", "1"), ("CO₃²⁻", "2"), ("PO₄³⁻", "3")],
+                 ("rij", [("OH⁻", r"\(1\)"), ("CO₃²⁻", r"\(2\)"), ("PO₄³⁻", r"\(3\)")],
                   "Hoeveel?", "90px"),
              ]),
         dict(kop="Sterk of zwak",
@@ -885,7 +885,7 @@ OEFENBUNDELS["oefenbundel-zuren-en-basen-en-het-doorgeven-van-protonen-beyond"] 
                   "Azijnzuur is een zwak zuur, dus is zijn geconjugeerde base, het acetaation, sterk "
                   "genoeg om een proton van water af te pakken. Daarbij ontstaat OH⁻, en dat maakt "
                   "de oplossing basisch.", 6),
-                 ("open", "Twee bekers van 0,1 mol/L: één zoutzuur, één azijnzuur. Wat is gelijk en wat verschilt?",
+                 ("open", r"Twee bekers van \(0{,}1\) mol/L: één zoutzuur, één azijnzuur. Wat is gelijk en wat verschilt?",
                   "Het aantal mol zuur per liter is gelijk. Zoutzuur ioniseert bijna volledig en "
                   "geeft dus veel meer hydroxoniumionen, dus een veel lagere pH dan het azijnzuur.", 6),
              ]),
@@ -910,54 +910,54 @@ OEFENBUNDELS["oefenbundel-ph-poh-en-rekenen-met-zuren-en-basen-beyond"] = dict(
     hoe=HOE,
     reeksen=[
         dict(kop="pH en pOH",
-             opdracht="Vul de tabel aan. Reken bij 25 °C.",
+             opdracht=r"Vul de tabel aan. Reken bij \(25^{\circ}\text{C}\).",
              oefeningen=[
                  ("tabel", ["pH", "pOH", "zuur, basisch of neutraal"],
-                  [["3", None, None],
-                   [None, "1", None],
-                   ["7", None, None],
-                   [None, "9", None],
-                   ["12", None, None]],
-                  "pH 3: pOH 11, zuur · pOH 1: pH 13, basisch · pH 7: pOH 7, neutraal · "
-                  "pOH 9: pH 5, zuur · pH 12: pOH 2, basisch", W),
+                  [[r"\(3\)", None, None],
+                   [None, r"\(1\)", None],
+                   [r"\(7\)", None, None],
+                   [None, r"\(9\)", None],
+                   [r"\(12\)", None, None]],
+                  r"pH \(3\): pOH \(11\), zuur · pOH \(1\): pH \(13\), basisch · pH \(7\): pOH \(7\), neutraal · "
+                  r"pOH \(9\): pH \(5\), zuur · pH \(12\): pOH \(2\), basisch", W),
              ]),
         dict(kop="Van concentratie naar pH",
              opdracht="Reken uit. Alle zuren en basen hier zijn sterk.",
              oefeningen=[
-                 ("rij", [("0,1 mol/L HCl", "pH 1"), ("0,001 mol/L HCl", "pH 3"),
-                          ("10⁻⁵ mol/L HCl", "pH 5")],
+                 ("rij", [(r"\(0{,}1\) mol/L HCl", r"pH \(1\)"), (r"\(0{,}001\) mol/L HCl", r"pH \(3\)"),
+                          (r"\(10^{-5}\) mol/L HCl", r"pH \(5\)")],
                   "Welke pH?", WW),
-                 ("rij", [("0,01 mol/L NaOH", "pH 12"), ("0,1 mol/L NaOH", "pH 13"),
-                          ("10⁻⁴ mol/L NaOH", "pH 10")],
+                 ("rij", [(r"\(0{,}01\) mol/L NaOH", r"pH \(12\)"), (r"\(0{,}1\) mol/L NaOH", r"pH \(13\)"),
+                          (r"\(10^{-4}\) mol/L NaOH", r"pH \(10\)")],
                   "Welke pH?", WW),
-                 ("kort", "Welke pH heeft 0,05 mol/L H₂SO₄ (tweewaardig)?", "pH 1", W),
+                 ("kort", r"Welke pH heeft \(0{,}05\) mol/L H₂SO₄ (tweewaardig)?", r"pH \(1\)", W),
              ]),
         dict(kop="Van pH naar concentratie",
              opdracht="Schrijf de concentratie hydroxonium- of hydroxide-ionen.",
              oefeningen=[
-                 ("rij", [("pH 4", "[H₃O⁺] = 10⁻⁴ mol/L"), ("pH 9", "[OH⁻] = 10⁻⁵ mol/L")],
+                 ("rij", [(r"pH \(4\)", r"[H₃O⁺] = \(10^{-4}\) mol/L"), (r"pH \(9\)", r"[OH⁻] = \(10^{-5}\) mol/L")],
                   "Welke concentratie?", WL),
-                 ("rij", [("pH 2", "[H₃O⁺] = 10⁻² mol/L"), ("pOH 3", "[OH⁻] = 10⁻³ mol/L")],
+                 ("rij", [(r"pH \(2\)", r"[H₃O⁺] = \(10^{-2}\) mol/L"), (r"pOH \(3\)", r"[OH⁻] = \(10^{-3}\) mol/L")],
                   "Welke concentratie?", WL),
              ]),
         dict(kop="Hoeveel keer?",
              opdracht="Reken met de logaritmische schaal.",
              oefeningen=[
-                 ("rij", [("pH 2 tegenover pH 5", "1000 keer"), ("pH 3 tegenover pH 4", "10 keer"),
-                          ("pH 1 tegenover pH 5", "10 000 keer")],
+                 ("rij", [(r"pH \(2\) tegenover pH \(5\)", r"\(1000\) keer"), (r"pH \(3\) tegenover pH \(4\)", r"\(10\) keer"),
+                          (r"pH \(1\) tegenover pH \(5\)", r"\(10\,000\) keer")],
                   "Hoeveel keer meer H₃O⁺?", WL),
                  ("open", "Waarom gebruikt men een logaritmische schaal voor de zuurtegraad?",
-                  "De concentratie hydroxoniumionen loopt van ongeveer 1 mol/L tot 10⁻¹⁴ mol/L, dus "
+                  r"De concentratie hydroxoniumionen loopt van ongeveer \(1\) mol/L tot \(10^{-14}\) mol/L, dus "
                   "over veertien machten van tien. Met gewone getallen zou dat onhandelbaar zijn; de "
-                  "logaritme maakt er een handig getal van tussen 0 en 14.", 6),
+                  r"logaritme maakt er een handig getal van tussen \(0\) en \(14\).", 6),
              ]),
         dict(kop="Verdunnen en inkoken",
              opdracht="Schrijf wat er met de pH gebeurt.",
              oefeningen=[
-                 ("rij", [("een sterk zuur 10 keer verdunnen", "pH stijgt 1 eenheid"),
-                          ("een sterk zuur 100 keer verdunnen", "pH stijgt 2 eenheden")],
+                 ("rij", [(r"een sterk zuur \(10\) keer verdunnen", r"pH stijgt \(1\) eenheid"),
+                          (r"een sterk zuur \(100\) keer verdunnen", r"pH stijgt \(2\) eenheden")],
                   "Wat gebeurt er?", WL),
-                 ("waar", "Door een sterk zuur heel sterk te verdunnen kan de pH boven 7 komen.", False),
+                 ("waar", r"Door een sterk zuur heel sterk te verdunnen kan de pH boven \(7\) komen.", False),
                  ("waar", "Inkoken tot de helft van het volume doet de pH van een sterk zuur dalen.", True),
                  ("open", "Leg uit waarom de pH van een zwak zuur niet rechtstreeks uit zijn concentratie volgt.",
                   "Bij een zwak zuur staat maar een deel van de moleculen zijn proton af. Hoeveel "
@@ -967,8 +967,8 @@ OEFENBUNDELS["oefenbundel-ph-poh-en-rekenen-met-zuren-en-basen-beyond"] = dict(
         dict(kop="Mengen",
              opdracht="Antwoord in volle zinnen.",
              oefeningen=[
-                 ("open", "Je mengt gelijke volumes 0,1 mol/L HCl en 0,1 mol/L NaOH. Welke pH verwacht je, en waarom?",
-                  "pH 7. Het aantal mol hydroxonium en hydroxide is precies gelijk, dus reageren ze "
+                 ("open", r"Je mengt gelijke volumes \(0{,}1\) mol/L HCl en \(0{,}1\) mol/L NaOH. Welke pH verwacht je, en waarom?",
+                  r"pH \(7\). Het aantal mol hydroxonium en hydroxide is precies gelijk, dus reageren ze "
                   "volledig weg tot water. Wat overblijft is natriumchloride, en dat reageert niet "
                   "meer met water.", 6),
                  ("open", "Waarom neutraliseren een zwak en een sterk zuur van dezelfde concentratie evenveel base?",
@@ -997,13 +997,13 @@ OEFENBUNDELS["oefenbundel-buffers-en-zuurbasetitraties-beyond"] = dict(
                   "Buffert het?", WL),
              ]),
         dict(kop="Het juiste zuur kiezen",
-             opdracht="Welk zuur neem je voor die buffer? Kies uit melkzuur (pKz 3,9), azijnzuur (pKz 4,8), diwaterstoffosfaat (pKz 7,2) en ammonium (pKz 9,2).",
+             opdracht=r"Welk zuur neem je voor die buffer? Kies uit melkzuur (pKz \(3{,}9\)), azijnzuur (pKz \(4{,}8\)), diwaterstoffosfaat (pKz \(7{,}2\)) en ammonium (pKz \(9{,}2\)).",
              oefeningen=[
-                 ("rij", [("een buffer rond pH 7", "diwaterstoffosfaat"),
-                          ("een buffer rond pH 9", "ammonium"),
-                          ("een buffer rond pH 4", "melkzuur")],
+                 ("rij", [(r"een buffer rond pH \(7\)", "diwaterstoffosfaat"),
+                          (r"een buffer rond pH \(9\)", "ammonium"),
+                          (r"een buffer rond pH \(4\)", "melkzuur")],
                   "Welk zuur?", WL),
-                 ("kort", "Binnen welk gebied werkt een buffer met azijnzuur ongeveer?", "tussen pH 3,8 en pH 5,8", WL),
+                 ("kort", "Binnen welk gebied werkt een buffer met azijnzuur ongeveer?", r"tussen pH \(3{,}8\) en pH \(5{,}8\)", WL),
              ]),
         dict(kop="Wat gebeurt er in de buffer?",
              opdracht="Antwoord in volle zinnen.",
@@ -1016,7 +1016,7 @@ OEFENBUNDELS["oefenbundel-buffers-en-zuurbasetitraties-beyond"] = dict(
                   "De pH hangt af van de verhouding tussen het zuur en zijn geconjugeerde base, en "
                   "water verdunt beide even sterk. Die verhouding blijft dus gelijk; alleen de "
                   "capaciteit, dus hoeveel de buffer kan opvangen, wordt kleiner.", 6),
-                 ("open", "Twee buffers hebben dezelfde pH, maar de ene is 1 mol/L en de andere 0,01 mol/L. Wat verschilt er?",
+                 ("open", r"Twee buffers hebben dezelfde pH, maar de ene is \(1\) mol/L en de andere \(0{,}01\) mol/L. Wat verschilt er?",
                   "De capaciteit. De geconcentreerde buffer kan veel meer zuur of base opvangen voor "
                   "hij uitgeput is. De pH is bij het begin gelijk, want die volgt uit de verhouding, "
                   "niet uit de hoeveelheid.", 6),
@@ -1034,7 +1034,7 @@ OEFENBUNDELS["oefenbundel-buffers-en-zuurbasetitraties-beyond"] = dict(
              oefeningen=[
                  ("rij", [("waar het titrans in zit", "de buret"),
                           ("waar de onbekende oplossing in staat", "de erlenmeyer"),
-                          ("waarmee je precies 25 mL afmeet", "de pipet")],
+                          (r"waarmee je precies \(25\) mL afmeet", "de pipet")],
                   "Wat?", WL),
                  ("rij", [("waarmee je de buret spoelt", "met titrans"),
                           ("waar je op de meniscus afleest", "aan de onderkant")],
@@ -1043,17 +1043,17 @@ OEFENBUNDELS["oefenbundel-buffers-en-zuurbasetitraties-beyond"] = dict(
         dict(kop="Titratie rekenen",
              opdracht="Reken uit. Schrijf eerst het aantal mol titrans.",
              oefeningen=[
-                 ("kort", "25,0 mL eenwaardig zuur verbruikt 25,0 mL NaOH van 0,100 mol/L. Concentratie van het zuur?", "0,100 mol/L", WW),
-                 ("kort", "25,0 mL eenwaardig zuur verbruikt 12,5 mL NaOH van 0,100 mol/L. Concentratie van het zuur?", "0,0500 mol/L", WW),
-                 ("kort", "20,0 mL H₂SO₄ verbruikt 30,0 mL NaOH van 0,100 mol/L. Concentratie van het zuur?", "0,0750 mol/L", WW),
-                 ("kort", "10,0 mL NaOH verbruikt 15,0 mL HCl van 0,200 mol/L. Concentratie van de base?", "0,300 mol/L", WW),
+                 ("kort", r"\(25{,}0\) mL eenwaardig zuur verbruikt \(25{,}0\) mL NaOH van \(0{,}100\) mol/L. Concentratie van het zuur?", r"\(0{,}100\) mol/L", WW),
+                 ("kort", r"\(25{,}0\) mL eenwaardig zuur verbruikt \(12{,}5\) mL NaOH van \(0{,}100\) mol/L. Concentratie van het zuur?", r"\(0{,}0500\) mol/L", WW),
+                 ("kort", r"\(20{,}0\) mL H₂SO₄ verbruikt \(30{,}0\) mL NaOH van \(0{,}100\) mol/L. Concentratie van het zuur?", r"\(0{,}0750\) mol/L", WW),
+                 ("kort", r"\(10{,}0\) mL NaOH verbruikt \(15{,}0\) mL HCl van \(0{,}200\) mol/L. Concentratie van de base?", r"\(0{,}300\) mol/L", WW),
              ]),
         dict(kop="De curve lezen",
              opdracht="Antwoord kort of in volle zinnen.",
              oefeningen=[
-                 ("rij", [("sterk zuur met sterke base", "pH 7"),
-                          ("zwak zuur met sterke base", "boven pH 7"),
-                          ("zwakke base met sterk zuur", "onder pH 7")],
+                 ("rij", [("sterk zuur met sterke base", r"pH \(7\)"),
+                          ("zwak zuur met sterke base", r"boven pH \(7\)"),
+                          ("zwakke base met sterk zuur", r"onder pH \(7\)")],
                   "Waar ligt het equivalentiepunt?", WL),
                  ("open", "Waarom ligt er bij de titratie van een zwak zuur een vlak stuk in de curve?",
                   "Halverwege zitten het zwakke zuur en zijn geconjugeerde base samen in de "
@@ -1080,7 +1080,7 @@ OEFENBUNDELS["oefenbundel-oxidatiegetallen-en-redoxreacties-beyond"] = dict(
         dict(kop="Oxidatiegetallen van zwavel",
              opdracht="Bepaal het oxidatiegetal van zwavel.",
              oefeningen=[
-                 ("rij", [("S₈", "0"), ("H₂S", "−II"), ("SO₂", "+IV")],
+                 ("rij", [("S₈", r"\(0\)"), ("H₂S", "−II"), ("SO₂", "+IV")],
                   "Welk getal?", W),
                  ("rij", [("SO₃²⁻", "+IV"), ("SO₄²⁻", "+VI"), ("Na₂S", "−II")],
                   "Welk getal?", W),
@@ -1088,7 +1088,7 @@ OEFENBUNDELS["oefenbundel-oxidatiegetallen-en-redoxreacties-beyond"] = dict(
         dict(kop="Oxidatiegetallen van stikstof",
              opdracht="Bepaal het oxidatiegetal van stikstof.",
              oefeningen=[
-                 ("rij", [("N₂", "0"), ("NH₃", "−III"), ("NO", "+II")],
+                 ("rij", [("N₂", r"\(0\)"), ("NH₃", "−III"), ("NO", "+II")],
                   "Welk getal?", W),
                  ("rij", [("NO₂", "+IV"), ("NO₂⁻", "+III"), ("NH₄⁺", "−III")],
                   "Welk getal?", W),
@@ -1096,7 +1096,7 @@ OEFENBUNDELS["oefenbundel-oxidatiegetallen-en-redoxreacties-beyond"] = dict(
         dict(kop="Oxidatiegetallen van chloor en koolstof",
              opdracht="Bepaal het oxidatiegetal van het onderlijnde element.",
              oefeningen=[
-                 ("rij", [("chloor in Cl₂", "0"), ("chloor in NaCl", "−I"),
+                 ("rij", [("chloor in Cl₂", r"\(0\)"), ("chloor in NaCl", "−I"),
                           ("chloor in ClO₄⁻", "+VII")],
                   "Welk getal?", W),
                  ("rij", [("koolstof in CH₃OH", "−II"), ("koolstof in HCOOH", "+II"),
@@ -1110,11 +1110,11 @@ OEFENBUNDELS["oefenbundel-oxidatiegetallen-en-redoxreacties-beyond"] = dict(
         dict(kop="Oxidatie of reductie",
              opdracht="Schrijf oxidatie of reductie, met het aantal elektronen.",
              oefeningen=[
-                 ("rij", [("Mg wordt Mg²⁺", "oxidatie, 2 elektronen af"),
-                          ("Cl₂ wordt 2 Cl⁻", "reductie, 2 elektronen op")],
+                 ("rij", [("Mg wordt Mg²⁺", r"oxidatie, \(2\) elektronen af"),
+                          (r"Cl₂ wordt \(2\) Cl⁻", r"reductie, \(2\) elektronen op")],
                   "Wat gebeurt er?", WL),
-                 ("rij", [("Sn²⁺ wordt Sn⁴⁺", "oxidatie, 2 elektronen af"),
-                          ("MnO₄⁻ wordt Mn²⁺", "reductie, 5 elektronen op")],
+                 ("rij", [("Sn²⁺ wordt Sn⁴⁺", r"oxidatie, \(2\) elektronen af"),
+                          ("MnO₄⁻ wordt Mn²⁺", r"reductie, \(5\) elektronen op")],
                   "Wat gebeurt er?", WL),
              ]),
         dict(kop="Oxidator of reductor",
@@ -1130,7 +1130,7 @@ OEFENBUNDELS["oefenbundel-oxidatiegetallen-en-redoxreacties-beyond"] = dict(
                  ("waar", "Een stof die zuurstof opneemt, wordt gereduceerd.", False),
              ]),
         dict(kop="Gaat het door?",
-             opdracht="Gebruik deze waarden: Ag⁺/Ag +0,80 V · Cu²⁺/Cu +0,34 V · Pb²⁺/Pb −0,13 V · Zn²⁺/Zn −0,76 V · Mg²⁺/Mg −2,37 V.",
+             opdracht=r"Gebruik deze waarden: Ag⁺/Ag +\(0{,}80\) V · Cu²⁺/Cu +\(0{,}34\) V · Pb²⁺/Pb \(-0{,}13\) V · Zn²⁺/Zn \(-0{,}76\) V · Mg²⁺/Mg \(-2{,}37\) V.",
              oefeningen=[
                  ("rij", [("koper in een zilveroplossing", "ja"),
                           ("zilver in een koperoplossing", "nee"),
@@ -1184,11 +1184,11 @@ OEFENBUNDELS["oefenbundel-galvanische-cellen-en-elektrolyse-beyond"] = dict(
                  ("waar", "In beide gevallen is de anode de negatieve pool.", False),
              ]),
         dict(kop="Bronspanning rekenen",
-             opdracht="Gebruik: Ag⁺/Ag +0,80 V · Cu²⁺/Cu +0,34 V · Fe²⁺/Fe −0,44 V · Zn²⁺/Zn −0,76 V · Al³⁺/Al −1,66 V.",
+             opdracht=r"Gebruik: Ag⁺/Ag +\(0{,}80\) V · Cu²⁺/Cu +\(0{,}34\) V · Fe²⁺/Fe \(-0{,}44\) V · Zn²⁺/Zn \(-0{,}76\) V · Al³⁺/Al \(-1{,}66\) V.",
              oefeningen=[
-                 ("rij", [("zilver en koper", "0,46 V"), ("koper en ijzer", "0,78 V")],
+                 ("rij", [("zilver en koper", r"\(0{,}46\) V"), ("koper en ijzer", r"\(0{,}78\) V")],
                   "Welke bronspanning?", WW),
-                 ("rij", [("zink en zilver", "1,56 V"), ("aluminium en koper", "2,00 V")],
+                 ("rij", [("zink en zilver", r"\(1{,}56\) V"), ("aluminium en koper", r"\(2{,}00\) V")],
                   "Welke bronspanning?", WW),
                  ("kort", "Welk metaal is de anode in een cel van ijzer en zilver?", "het ijzer", WW),
                  ("kort", "Welk metaal is de kathode in een cel van aluminium en zink?", "het zink", WW),
@@ -1450,19 +1450,19 @@ OEFENBUNDELS["oefenbundel-organische-reacties-additie-eliminatie-en-condensatie-
              opdracht="Schrijf het product.",
              oefeningen=[
                  ("rij", [("propeen met diwaterstof", "propaan"),
-                          ("but-1-een met broom", "1,2-dibroombutaan"),
+                          (r"but-\(1\)-een met broom", r"\(1{,}2\)-dibroombutaan"),
                           ("etheen met water en een zuur", "ethanol")],
                   "Welk product?", WL),
                  ("rij", [("ethyn met twee keer diwaterstof", "ethaan"),
-                          ("propeen met broomwater", "1,2-dibroompropaan")],
+                          ("propeen met broomwater", r"\(1{,}2\)-dibroompropaan")],
                   "Welk product?", WL),
              ]),
         dict(kop="De regel van Markownikov",
              opdracht="Welk product overheerst?",
              oefeningen=[
-                 ("rij", [("propeen met HCl", "2-chloorpropaan"),
-                          ("propeen met water", "propaan-2-ol"),
-                          ("but-1-een met HBr", "2-broombutaan")],
+                 ("rij", [("propeen met HCl", r"\(2\)-chloorpropaan"),
+                          ("propeen met water", r"propaan-\(2\)-ol"),
+                          (r"but-\(1\)-een met HBr", r"\(2\)-broombutaan")],
                   "Welk product?", WL),
                  ("open", "Leg de regel van Markownikov in je eigen woorden uit.",
                   "Bij de additie van een asymmetrische stof over een dubbele binding gaat het "
@@ -1473,7 +1473,7 @@ OEFENBUNDELS["oefenbundel-organische-reacties-additie-eliminatie-en-condensatie-
         dict(kop="Verzadigingsgraad",
              opdracht="Hoeveel keer kan diwaterstof adderen?",
              oefeningen=[
-                 ("rij", [("propaan", "0"), ("propeen", "1"), ("propyn", "2")],
+                 ("rij", [("propaan", r"\(0\)"), ("propeen", r"\(1\)"), ("propyn", r"\(2\)")],
                   "Hoeveel keer?", "90px"),
                  ("kort", "Waarom ontkleurt broomwater bij een alkeen en niet bij een alkaan?", "het broom addeert aan de dubbele binding", WL),
              ]),
@@ -1483,11 +1483,11 @@ OEFENBUNDELS["oefenbundel-organische-reacties-additie-eliminatie-en-condensatie-
                  ("rij", [("ethanol met geconcentreerd zwavelzuur en warmte", "etheen en water"),
                           ("broomethaan met een base", "etheen en HBr")],
                   "Welk product?", WL),
-                 ("rij", [("propaan-1-ol, dehydrogenatie", "propanal"),
-                          ("propaan-2-ol, dehydrogenatie", "propanon"),
-                          ("butaan-2-ol, dehydrogenatie", "butanon")],
+                 ("rij", [(r"propaan-\(1\)-ol, dehydrogenatie", "propanal"),
+                          (r"propaan-\(2\)-ol, dehydrogenatie", "propanon"),
+                          (r"butaan-\(2\)-ol, dehydrogenatie", "butanon")],
                   "Welk product?", WL),
-                 ("kort", "Waarom geeft de dehydratatie van butaan-2-ol twee alkenen?", "het water kan aan twee kanten weggaan", WL),
+                 ("kort", r"Waarom geeft de dehydratatie van butaan-\(2\)-ol twee alkenen?", "het water kan aan twee kanten weggaan", WL),
                  ("open", "Waarom kan een tertiaire alcohol wel een dehydratatie en geen dehydrogenatie ondergaan?",
                   "Voor een dehydrogenatie moet er op het koolstofatoom met de OH-groep nog een "
                   "waterstofatoom zitten, en bij een tertiaire alcohol zitten daar drie "
@@ -1499,8 +1499,8 @@ OEFENBUNDELS["oefenbundel-organische-reacties-additie-eliminatie-en-condensatie-
              oefeningen=[
                  ("tabel", ["alcohol", "aantal ketens", "product bij oxidatie"],
                   [["primair", None, None], ["secundair", None, None], ["tertiair", None, None]],
-                  "primair: 1, aldehyde (en verder carbonzuur) · secundair: 2, keton · "
-                  "tertiair: 3, geen dehydrogenatie mogelijk", WW),
+                  r"primair: \(1\), aldehyde (en verder carbonzuur) · secundair: \(2\), keton · "
+                  r"tertiair: \(3\), geen dehydrogenatie mogelijk", WW),
                  ("kort", "Wat krijg je als je een primaire alcohol volledig oxideert?", "een carbonzuur", WW),
                  ("kort", "Waarom wordt wijn die te lang openstaat azijn?", "de alcohol oxideert tot azijnzuur", WL),
              ]),
@@ -1651,7 +1651,7 @@ OEFENBUNDELS["oefenbundel-nanomaterialen-beyond"] = dict(
              opdracht="Antwoord kort.",
              oefeningen=[
                  ("kort", "Hoeveel meter is één nanometer?", "een miljardste meter", WL),
-                 ("kort", "Tussen welke twee grenzen in nanometer ligt een nanomateriaal?", "tussen 1 en 100 nm", WL),
+                 ("kort", "Tussen welke twee grenzen in nanometer ligt een nanomateriaal?", r"tussen \(1\) en \(100\) nm", WL),
                  ("kort", "Welk toestel heb je nodig om zo'n deeltje te zien?", "een elektronenmicroscoop", WL),
                  ("waar", "Nanodeeltjes zijn met een gewone lichtmicroscoop goed te zien.", False),
              ]),
@@ -1753,7 +1753,7 @@ OEFENBUNDELS["oefenbundel-duurzame-chemie-en-de-circulaire-economie-beyond"] = d
              opdracht="Zet de treden in de goede volgorde, van de beste bovenaan naar de slechtste onderaan: hergebruik, preventie, storten, recyclage, verbranden.",
              oefeningen=[
                  ("tabel", ["plaats", "trede"],
-                  [["1 (beste)", None], ["2", None], ["3", None], ["4", None], ["5 (slechtste)", None]],
+                  [[r"\(1\) (beste)", None], [r"\(2\)", None], [r"\(3\)", None], [r"\(4\)", None], [r"\(5\) (slechtste)", None]],
                   "preventie, hergebruik, recyclage, verbranden, storten", WL),
                  ("kort", "Waarom staat preventie bovenaan?", "afval dat nooit ontstaat, hoeft nooit verwerkt", WL),
                  ("kort", "Hoe heet recycleren tot een product van mindere kwaliteit?", "downcycling", WW),
@@ -1788,12 +1788,12 @@ OEFENBUNDELS["oefenbundel-duurzame-chemie-en-de-circulaire-economie-beyond"] = d
              opdracht="Antwoord kort of in volle zinnen.",
              oefeningen=[
                  ("kort", "Wat meet de atoomeconomie?", "welk deel van de massa in het product zit", WL),
-                 ("kort", "Welke atoomeconomie heeft een additie zonder bijproduct?", "100 %", W),
+                 ("kort", "Welke atoomeconomie heeft een additie zonder bijproduct?", r"\(100\,\%\)", W),
                  ("open", "Leg uit waarom een hoog rendement en een hoge atoomeconomie niet hetzelfde zijn.",
                   "Het rendement zegt hoeveel je van het mogelijke product echt uit de reactie "
                   "haalt. De atoomeconomie zegt welk deel van de massa van de reagentia volgens de "
                   "reactievergelijking überhaupt in het product belandt. Een condensatie kan dus "
-                  "een rendement van 95 procent hebben en toch een matige atoomeconomie, want er "
+                  r"een rendement van \(95\) procent hebben en toch een matige atoomeconomie, want er "
                   "gaat bij elke koppeling water weg.", 8),
              ]),
         dict(kop="Groene chemie",
@@ -1842,11 +1842,11 @@ OEFENBUNDELS["oefenbundel-veilig-werken-meetinstrumenten-en-beduidende-cijfers-b
         dict(kop="Welk glaswerk?",
              opdracht="Schrijf welk glaswerk je gebruikt.",
              oefeningen=[
-                 ("rij", [("precies 500,0 mL oplossing aanmaken", "een maatkolf van 500 mL"),
-                          ("precies 25 mL overbrengen", "een volumetrische pipet"),
+                 ("rij", [(r"precies \(500{,}0\) mL oplossing aanmaken", r"een maatkolf van \(500\) mL"),
+                          (r"precies \(25\) mL overbrengen", "een volumetrische pipet"),
                           ("een volume aflezen tot op honderdsten bij een titratie", "een buret")],
                   "Welk glaswerk?", WL),
-                 ("rij", [("ongeveer 100 mL water bijgieten", "een maatcilinder of bekerglas"),
+                 ("rij", [(r"ongeveer \(100\) mL water bijgieten", "een maatcilinder of bekerglas"),
                           ("de oplossing die je titreert", "een erlenmeyer")],
                   "Welk glaswerk?", WL),
                  ("kort", "Waar lees je het volume af?", "aan de onderkant van de meniscus", WL),
@@ -1869,19 +1869,19 @@ OEFENBUNDELS["oefenbundel-veilig-werken-meetinstrumenten-en-beduidende-cijfers-b
                  ("rij", [("de kleinste en grootste waarde die het toestel meet", "het meetbereik"),
                           ("de kleinste stap die het kan onderscheiden", "de resolutie")],
                   "Hoe heet dat?", WL),
-                 ("open", "Waarom meet je 5 mL niet af in een maatcilinder van 500 mL?",
+                 ("open", r"Waarom meet je \(5\) mL niet af in een maatcilinder van \(500\) mL?",
                   "De streepjes van zo'n grote cilinder staan veel te ver uit elkaar voor zo'n klein "
-                  "volume, dus is de resolutie veel te grof. De onzekerheid op je 5 mL zou dan "
+                  r"volume, dus is de resolutie veel te grof. De onzekerheid op je \(5\) mL zou dan "
                   "groter zijn dan wat je wil meten.", 6),
              ]),
         dict(kop="Voorvoegsels",
              opdracht="Reken om.",
              oefeningen=[
-                 ("rij", [("1 mm in micrometer", "1000 µm"), ("1 kg in gram", "1000 g"),
-                          ("1 MJ in joule", "1 000 000 J")],
+                 ("rij", [(r"\(1\) mm in micrometer", r"\(1000\) µm"), (r"\(1\) kg in gram", r"\(1000\) g"),
+                          (r"\(1\) MJ in joule", r"\(1\,000\,000\) J")],
                   "Hoeveel?", WW),
-                 ("rij", [("2,5 nm in meter", "2,5·10⁻⁹ m"), ("0,5 mL in liter", "5·10⁻⁴ L"),
-                          ("300 mg in gram", "0,300 g")],
+                 ("rij", [(r"\(2{,}5\) nm in meter", r"\(2{,}5\cdot10^{-9}\) m"), (r"\(0{,}5\) mL in liter", r"\(5\cdot10^{-4}\) L"),
+                          (r"\(300\) mg in gram", r"\(0{,}300\) g")],
                   "Hoeveel?", WW),
                  ("kort", "Wat is de SI-basiseenheid van stofhoeveelheid?", "de mol", WW),
                  ("kort", "En van temperatuur?", "de kelvin", WW),
@@ -1889,17 +1889,17 @@ OEFENBUNDELS["oefenbundel-veilig-werken-meetinstrumenten-en-beduidende-cijfers-b
         dict(kop="Beduidende cijfers",
              opdracht="Hoeveel beduidende cijfers?",
              oefeningen=[
-                 ("rij", [("0,00310", "3"), ("45,0", "3"), ("1200", "2 (zonder komma)")],
+                 ("rij", [(r"\(0{,}00310\)", r"\(3\)"), (r"\(45{,}0\)", r"\(3\)"), (r"\(1200\)", r"\(2\) (zonder komma)")],
                   "Hoeveel?", WW),
-                 ("rij", [("2,5·10⁴", "2"), ("0,0008", "1"), ("10,04", "4")],
+                 ("rij", [(r"\(2{,}5\cdot10^{4}\)", r"\(2\)"), (r"\(0{,}0008\)", r"\(1\)"), (r"\(10{,}04\)", r"\(4\)")],
                   "Hoeveel?", WW),
              ]),
         dict(kop="Rekenen met meetwaarden",
              opdracht="Schrijf het resultaat met het juiste aantal cijfers.",
              oefeningen=[
-                 ("rij", [("3,2 × 1,478", "4,7"), ("25,0 ÷ 4,0", "6,3")],
+                 ("rij", [(r"\(3{,}2 \cdot 1{,}478\)", r"\(4{,}7\)"), (r"\(25{,}0\) ÷ \(4{,}0\)", r"\(6{,}3\)")],
                   "Welk resultaat?", WW),
-                 ("rij", [("14,25 g + 0,3 g", "14,6 g"), ("8,0 cm + 0,125 cm", "8,1 cm")],
+                 ("rij", [(r"\(14{,}25\) g + \(0{,}3\) g", r"\(14{,}6\) g"), (r"\(8{,}0\) cm + \(0{,}125\) cm", r"\(8{,}1\) cm")],
                   "Welk resultaat?", WW),
                  ("open", "Leg uit waarom je bij optellen een andere regel volgt dan bij vermenigvuldigen.",
                   "Bij optellen bepaalt de meetwaarde met het minst aantal decimalen hoe precies de "
@@ -1910,7 +1910,7 @@ OEFENBUNDELS["oefenbundel-veilig-werken-meetinstrumenten-en-beduidende-cijfers-b
         dict(kop="Wetenschappelijke notatie en evenredigheid",
              opdracht="Antwoord kort.",
              oefeningen=[
-                 ("rij", [("0,000 058", "5,8·10⁻⁵"), ("342 000", "3,42·10⁵")],
+                 ("rij", [(r"\(0{,}000\,058\)", r"\(5{,}8\cdot10^{-5}\)"), (r"\(342\,000\)", r"\(3{,}42\cdot10^{5}\)")],
                   "In wetenschappelijke notatie?", WW),
                  ("rij", [("een rechte door de oorsprong", "recht evenredig"),
                           ("het product van de twee blijft constant", "omgekeerd evenredig")],
@@ -1938,7 +1938,7 @@ OEFENBUNDELS["oefenbundel-wetenschappelijk-onderzoek-ontwerpen-en-stem-beyond"] 
                   "het kalk, en de temperatuur · hetzelfde stukje kalk in zuiver water", WL),
                  ("open", "Schrijf een goede onderzoeksvraag en een hypothese voor die proef.",
                   "Onderzoeksvraag: hoe beïnvloedt de concentratie van het zuur de tijd waarin een "
-                  "stukje kalk van 1 gram volledig oplost? Hypothese: bij een hogere concentratie "
+                  r"stukje kalk van \(1\) gram volledig oplost? Hypothese: bij een hogere concentratie "
                   "lost het kalk sneller op, want er zijn per liter meer hydroxoniumionen, en dus "
                   "meer botsingen per seconde.", 8),
              ]),
@@ -1966,7 +1966,7 @@ OEFENBUNDELS["oefenbundel-wetenschappelijk-onderzoek-ontwerpen-en-stem-beyond"] 
         dict(kop="Onderzoeken of ontwerpen",
              opdracht="Schrijf onderzoeken of ontwerpen.",
              oefeningen=[
-                 ("rij", [("hoe snel lost dit zout op bij 40 °C", "onderzoeken"),
+                 ("rij", [(r"hoe snel lost dit zout op bij \(40^{\circ}\text{C}\)", "onderzoeken"),
                           ("maak een houder die een ei een val van twee meter laat overleven", "ontwerpen"),
                           ("welke isolatie houdt het water het langst warm", "onderzoeken")],
                   "Wat is het?", WW),
@@ -1975,9 +1975,9 @@ OEFENBUNDELS["oefenbundel-wetenschappelijk-onderzoek-ontwerpen-en-stem-beyond"] 
         dict(kop="Criterium of randvoorwaarde",
              opdracht="Schrijf criterium of randvoorwaarde.",
              oefeningen=[
-                 ("rij", [("de houder weegt minder dan 100 gram", "criterium"),
+                 ("rij", [(r"de houder weegt minder dan \(100\) gram", "criterium"),
                           ("je hebt maar één lesuur", "randvoorwaarde"),
-                          ("het water blijft minstens 20 minuten boven 50 °C", "criterium")],
+                          (r"het water blijft minstens \(20\) minuten boven \(50^{\circ}\text{C}\)", "criterium")],
                   "Wat is het?", WW),
                  ("rij", [("je mag enkel materiaal uit de klas gebruiken", "randvoorwaarde"),
                           ("het budget is tien euro", "randvoorwaarde")],

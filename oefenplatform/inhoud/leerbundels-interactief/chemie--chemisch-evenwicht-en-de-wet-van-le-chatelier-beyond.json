@@ -25,11 +25,11 @@
    "blokken": [
     {
      "soort": "tekst",
-     "html": "Voor het evenwicht <strong>A + 2 B ⇌ C</strong> is <strong>K gelijk aan [C] gedeeld door [A] maal [B]²</strong>: de producten komen in de teller, de reagentia in de noemer, en <strong>de coëfficiënten staan als exponent</strong>. Bij N₂ + 3 H₂ ⇌ 2 NH₃ wordt dat [NH₃]² gedeeld door [N₂] maal [H₂]³."
+     "html": "Voor het evenwicht <strong>A + \\(2\\) B ⇌ C</strong> is <strong>K gelijk aan [C] gedeeld door [A] maal [B]²</strong>: de producten komen in de teller, de reagentia in de noemer, en <strong>de coëfficiënten staan als exponent</strong>. Bij N₂ + \\(3\\) H₂ ⇌ \\(2\\) NH₃ wordt dat [NH₃]² gedeeld door [N₂] maal [H₂]³."
     },
     {
      "soort": "tekst",
-     "html": "De <strong>evenwichtsconstante</strong> <strong>verandert enkel met de temperatuur</strong> en <strong>heeft de producten in de teller</strong>. Is ze <strong>heel groot</strong>, dan <strong>ligt het evenwicht sterk aan de kant van de producten</strong>; is ze <strong>gelijk aan 1</strong>, dan <strong>zijn teller en noemer ongeveer even groot</strong> en ligt het evenwicht in het midden. Een K van duizend ligt rechts, een K van een duizendste links. <strong>Een hoge K zegt niets over de snelheid</strong>, want <strong>K gaat over de verhouding in het evenwicht, niet over de weg ernaartoe</strong>."
+     "html": "De <strong>evenwichtsconstante</strong> <strong>verandert enkel met de temperatuur</strong> en <strong>heeft de producten in de teller</strong>. Is ze <strong>heel groot</strong>, dan <strong>ligt het evenwicht sterk aan de kant van de producten</strong>; is ze <strong>gelijk aan \\(1\\)</strong>, dan <strong>zijn teller en noemer ongeveer even groot</strong> en ligt het evenwicht in het midden. Een K van duizend ligt rechts, een K van een duizendste links. <strong>Een hoge K zegt niets over de snelheid</strong>, want <strong>K gaat over de verhouding in het evenwicht, niet over de weg ernaartoe</strong>."
     },
     {
      "soort": "tekst",
@@ -37,7 +37,7 @@
     },
     {
      "soort": "tekst",
-     "html": "De <strong>omzettingsgraad</strong> is <strong>het deel van een beginstof dat werkelijk gereageerd heeft</strong>: heeft 0,2 mol van 1 mol gereageerd, dan is dat 20 procent. Bij een evenwicht blijft die altijd onder de honderd procent. Het <strong>rendement</strong> is <strong>de werkelijke opbrengst gedeeld door de theoretische opbrengst</strong>: 8 gram van de 10 mogelijke is 80 procent."
+     "html": "De <strong>omzettingsgraad</strong> is <strong>het deel van een beginstof dat werkelijk gereageerd heeft</strong>: heeft \\(0{,}2\\) mol van \\(1\\) mol gereageerd, dan is dat \\(20\\) procent. Bij een evenwicht blijft die altijd onder de honderd procent. Het <strong>rendement</strong> is <strong>de werkelijke opbrengst gedeeld door de theoretische opbrengst</strong>: \\(8\\) gram van de \\(10\\) mogelijke is \\(80\\) procent."
     }
    ]
   },
@@ -54,7 +54,7 @@
     },
     {
      "soort": "tekst",
-     "html": "Druk werkt enkel bij gassen. Maak je <strong>het volume van een gasevenwicht kleiner</strong>, dan gaat het <strong>naar de kant met het minste aantal mol gas</strong>, want minder volume betekent meer druk. <strong>Verlaag je de druk</strong>, dan gaat het <strong>naar meer gas</strong>. In <strong>N₂ + 3 H₂ ⇌ 2 NH₃</strong> <strong>neemt de hoeveelheid ammoniak bij hogere druk toe, want rechts staan minder mol gas</strong>: links vier, rechts twee, en daarom werkt de industrie bij hoge druk. <strong>Een evenwicht met links en rechts evenveel mol gas verschuift niet door een drukverandering.</strong>"
+     "html": "Druk werkt enkel bij gassen. Maak je <strong>het volume van een gasevenwicht kleiner</strong>, dan gaat het <strong>naar de kant met het minste aantal mol gas</strong>, want minder volume betekent meer druk. <strong>Verlaag je de druk</strong>, dan gaat het <strong>naar meer gas</strong>. In <strong>N₂ + \\(3\\) H₂ ⇌ \\(2\\) NH₃</strong> <strong>neemt de hoeveelheid ammoniak bij hogere druk toe, want rechts staan minder mol gas</strong>: links vier, rechts twee, en daarom werkt de industrie bij hoge druk. <strong>Een evenwicht met links en rechts evenveel mol gas verschuift niet door een drukverandering.</strong>"
     },
     {
      "soort": "tekst",

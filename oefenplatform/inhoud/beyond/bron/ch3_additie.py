@@ -136,8 +136,8 @@ DEEL1 = [
         type="meerkeuze",
         vraag="Wat ontstaat er bij de additie van diwaterstof aan propanon?",
         opties=[
-            "propaan-2-ol",
-            "propaan-1-ol",
+            r"propaan-\(2\)-ol",
+            r"propaan-\(1\)-ol",
             "propanal",
             "propaanzuur",
         ],
@@ -182,10 +182,10 @@ DEEL1 = [
         type="meerkeuze",
         vraag="Je laat HCl adderen aan propeen. Welk product overheerst volgens Markownikov?",
         opties=[
-            "2-chloorpropaan",
-            "1-chloorpropaan",
-            "1,2-dichloorpropaan",
-            "propaan-2-ol",
+            r"\(2\)-chloorpropaan",
+            r"\(1\)-chloorpropaan",
+            r"\(1{,}2\)-dichloorpropaan",
+            r"propaan-\(2\)-ol",
         ],
         antwoord=0,
         uitleg="Het waterstofatoom gaat naar het eerste koolstofatoom, dat er al twee "
@@ -259,7 +259,7 @@ DEEL2 = [
         vraag="Wat ontstaat er bij de dehydrogenatie van een secundaire alcohol?",
         antwoord=["een keton", "keton", "ketonen"],
         uitleg="De C=O-groep komt in het midden van de keten te zitten. Daarom is propanon "
-        "het product van propaan-2-ol.",
+        r"het product van propaan-\(2\)-ol.",
     ),
     dict(
         type="meerkeuze",
@@ -329,7 +329,7 @@ DEEL2 = [
     ),
     dict(
         type="meerkeuze",
-        vraag="Je oxideert propaan-1-ol voorzichtig. Wat ontstaat er eerst?",
+        vraag=r"Je oxideert propaan-\(1\)-ol voorzichtig. Wat ontstaat er eerst?",
         opties=[
             "propanal",
             "propanon",
@@ -349,15 +349,15 @@ DEEL2 = [
     ),
     dict(
         type="meerkeuze",
-        vraag="Welk product krijg je uit butaan-2-ol bij een dehydrogenatie?",
+        vraag=r"Welk product krijg je uit butaan-\(2\)-ol bij een dehydrogenatie?",
         opties=[
             "butanon",
             "butanal",
             "butaanzuur",
-            "but-2-een",
+            r"but-\(2\)-een",
         ],
         antwoord=0,
-        uitleg="Butaan-2-ol is een secundaire alcohol, dus komt de C=O-groep in het "
+        uitleg=r"Butaan-\(2\)-ol is een secundaire alcohol, dus komt de C=O-groep in het "
         "midden. Dat geeft een keton.",
     ),
     dict(
@@ -382,7 +382,7 @@ DEEL2 = [
     ),
     dict(
         type="meerkeuze",
-        vraag="Waarom levert de dehydratatie van butaan-2-ol twee verschillende alkenen op?",
+        vraag=r"Waarom levert de dehydratatie van butaan-\(2\)-ol twee verschillende alkenen op?",
         opties=[
             "het water kan aan twee kanten van de OH-groep weggaan",
             "de keten kan tijdens de reactie vertakken",
@@ -390,8 +390,8 @@ DEEL2 = [
             "het zwavelzuur voegt zich bij een van de twee producten",
         ],
         antwoord=0,
-        uitleg="Er zit aan beide buuratomen een waterstofatoom. Dus krijg je but-1-een en "
-        "but-2-een naast elkaar.",
+        uitleg=r"Er zit aan beide buuratomen een waterstofatoom. Dus krijg je but-\(1\)-een en "
+        r"but-\(2\)-een naast elkaar.",
     ),
     dict(
         type="meerkeuze",

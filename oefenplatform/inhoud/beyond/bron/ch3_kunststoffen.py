@@ -292,7 +292,7 @@ DEEL2 = [
         ],
         antwoord=0,
         uitleg="PET is sterk, doorzichtig en laat weinig gas door. Daarom staat de "
-        "recyclagecode 1 op zo'n fles.",
+        r"recyclagecode \(1\) op zo'n fles.",
     ),
     dict(
         type="meerkeuze",

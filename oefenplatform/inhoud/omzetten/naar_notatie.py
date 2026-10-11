@@ -33,7 +33,7 @@ TEKENS = [
     (" \\ ", r" \setminus "),      # het verschil van twee verzamelingen
     ("…", r"\ldots"),             # de puntjes in "4,8 × … = 480" horen bij de som
 ]
-HOOG = {"⁻": "-",
+HOOG = {"⁻": "-", "⁺": "+", "ⁿ": "n",
         "⁰": "0", "¹": "1", "²": "2", "³": "3", "⁴": "4",
         "⁵": "5", "⁶": "6", "⁷": "7", "⁸": "8", "⁹": "9"}
 

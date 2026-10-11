@@ -29,7 +29,7 @@ DEEL1 = [
     ),
     dict(
         type="meerkeuze",
-        vraag="Welke ruimtelijke structuur hoort bij sterisch getal 4 zonder vrije elektronenparen?",
+        vraag=r"Welke ruimtelijke structuur hoort bij sterisch getal \(4\) zonder vrije elektronenparen?",
         opties=[
             "een tetraëder",
             "een vlakke driehoek",
@@ -42,22 +42,22 @@ DEEL1 = [
     ),
     dict(
         type="invultekst",
-        vraag="Welk hybridisatietype hoort bij sterisch getal 4?",
+        vraag=r"Welk hybridisatietype hoort bij sterisch getal \(4\)?",
         antwoord=["sp3", "sp³", "sp3-hybridisatie"],
         uitleg="Eén s-orbitaal en drie p-orbitalen mengen tot vier gelijke orbitalen. Bij "
-        "sterisch getal 3 is het sp² en bij 2 is het sp.",
+        r"sterisch getal \(3\) is het sp² en bij \(2\) is het sp.",
     ),
     dict(
         type="meerkeuze",
         vraag="Wat is de theoretische bindingshoek bij een tetraëder?",
         opties=[
-            "109,5°",
-            "120°",
-            "90°",
-            "180°",
+            r"\(109{,}5^{\circ}\)",
+            r"\(120^{\circ}\)",
+            r"\(90^{\circ}\)",
+            r"\(180^{\circ}\)",
         ],
         antwoord=0,
-        uitleg="Bij een vlakke driehoek is het 120° en bij een lineaire vorm 180°. De "
+        uitleg=r"Bij een vlakke driehoek is het \(120^{\circ}\) en bij een lineaire vorm \(180^{\circ}\). De "
         "werkelijke hoek wijkt af als er vrije paren zijn.",
     ),
     dict(
@@ -65,7 +65,7 @@ DEEL1 = [
         vraag="Een vrij elektronenpaar duwt harder op de bindingen dan een bindend paar.",
         antwoord=True,
         uitleg="Een vrij paar hangt dichter bij het centrale atoom en neemt meer plaats. "
-        "Daardoor is de hoek in water maar 104,5° in plaats van 109,5°.",
+        r"Daardoor is de hoek in water maar \(104{,}5^{\circ}\) in plaats van \(109{,}5^{\circ}\).",
     ),
     dict(
         type="meerkeuze",
@@ -78,7 +78,7 @@ DEEL1 = [
         ],
         antwoord=0,
         uitleg="Beide hebben sterisch getal vier, maar bij ammoniak is één hoek van de "
-        "tetraëder bezet door een vrij paar: 107° in plaats van 109,5°.",
+        r"tetraëder bezet door een vrij paar: \(107^{\circ}\) in plaats van \(109{,}5^{\circ}\).",
     ),
     dict(
         type="meerkeuze",
@@ -104,13 +104,13 @@ DEEL1 = [
         ],
         antwoord=[0, 1],
         uitleg="Twee dubbele bindingen tellen als twee partners, en er zijn geen vrije "
-        "paren op koolstof. Dus 180° en sp-hybridisatie.",
+        r"paren op koolstof. Dus \(180^{\circ}\) en sp-hybridisatie.",
     ),
     dict(
         type="invultekst",
-        vraag="Welke ruimtelijke structuur hoort bij sterisch getal 2?",
+        vraag=r"Welke ruimtelijke structuur hoort bij sterisch getal \(2\)?",
         antwoord=["lineair", "lineaire", "een lijn"],
-        uitleg="Twee partners gaan recht tegenover elkaar staan: 180°. Dat is de vorm van "
+        uitleg=r"Twee partners gaan recht tegenover elkaar staan: \(180^{\circ}\). Dat is de vorm van "
         "CO₂ en van ethyn rond de koolstofatomen.",
     ),
     dict(
@@ -124,14 +124,14 @@ DEEL1 = [
         ],
         antwoord=0,
         uitleg="Drie bindingspartners geeft sterisch getal drie, dus sp² en een vlakke "
-        "driehoek met hoeken van ongeveer 120°.",
+        r"driehoek met hoeken van ongeveer \(120^{\circ}\).",
     ),
     dict(
         type="waarofniet",
-        vraag="Een molecule met sterisch getal 3 en één vrij elektronenpaar is lineair.",
+        vraag=r"Een molecule met sterisch getal \(3\) en één vrij elektronenpaar is lineair.",
         antwoord=False,
         uitleg="Ze is vlak en geknikt. Zwaveldioxide is zo gebouwd: twee bindingen en één "
-        "vrij paar in een vlak, met een hoek van ongeveer 119°.",
+        r"vrij paar in een vlak, met een hoek van ongeveer \(119^{\circ}\).",
     ),
     dict(
         type="meerkeuze",
@@ -169,12 +169,12 @@ DEEL1 = [
             "ze hangt niet af van de vrije elektronenparen",
         ],
         antwoord=[0, 1],
-        uitleg="Methaan haalt netjes 109,5°, ammoniak 107° en water 104,5°: elk vrij paar "
+        uitleg=r"Methaan haalt netjes \(109{,}5^{\circ}\), ammoniak \(107^{\circ}\) en water \(104{,}5^{\circ}\): elk vrij paar "
         "duwt de hoek een stukje kleiner.",
     ),
     dict(
         type="invultekst",
-        vraag="Hoeveel bindingspartners heeft een centraal atoom met sterisch getal 4 en één vrij elektronenpaar?",
+        vraag=r"Hoeveel bindingspartners heeft een centraal atoom met sterisch getal \(4\) en één vrij elektronenpaar?",
         antwoord=["drie", "3"],
         uitleg="Vier min één vrij paar geeft drie partners, en dus de vorm van een "
         "piramide, zoals bij ammoniak.",
@@ -223,8 +223,8 @@ DEEL1 = [
         type="invultekst",
         vraag="Welke theoretische bindingshoek hoort bij sp²-hybridisatie?",
         antwoord=["120°", "120", "120 graden"],
-        uitleg="Drie richtingen in een vlak verdelen 360° eerlijk. Bij etheen meet men "
-        "daardoor hoeken van ongeveer 120°.",
+        uitleg=r"Drie richtingen in een vlak verdelen \(360^{\circ}\) eerlijk. Bij etheen meet men "
+        r"daardoor hoeken van ongeveer \(120^{\circ}\).",
     ),
 ]
 
@@ -279,8 +279,8 @@ DEEL2 = [
         type="waarofniet",
         vraag="Een waterstofbrug is sterker dan een gewone dipoolkracht.",
         antwoord=True,
-        uitleg="Daarom kookt water bij 100 °C, terwijl waterstofsulfide met bijna "
-        "dezelfde massa al bij −60 °C een gas is.",
+        uitleg=r"Daarom kookt water bij \(100^{\circ}\text{C}\), terwijl waterstofsulfide met bijna "
+        r"dezelfde massa al bij \(-60^{\circ}\text{C}\) een gas is.",
     ),
     dict(
         type="meerkeuze",

@@ -18,10 +18,10 @@ DEEL1 = [
         type="meerkeuze",
         vraag="Hoeveel deeltjes zitten er in één mol van een stof?",
         opties=[
-            "6,022 × 10²³",
-            "6,022 × 10²²",
-            "3,011 × 10²³",
-            "1,000 × 10²³",
+            r"\(6{,}022 \cdot 10^{23}\)",
+            r"\(6{,}022 \cdot 10^{22}\)",
+            r"\(3{,}011 \cdot 10^{23}\)",
+            r"\(1{,}000 \cdot 10^{23}\)",
         ],
         antwoord=0,
         uitleg="Dat is het getal van Avogadro. Het geldt voor atomen, moleculen en ionen "
@@ -29,21 +29,21 @@ DEEL1 = [
     ),
     dict(
         type="meerkeuze",
-        vraag="Wat is de molaire massa van water, als H 1 g/mol en O 16 g/mol weegt?",
+        vraag=r"Wat is de molaire massa van water, als H \(1\) g/mol en O \(16\) g/mol weegt?",
         opties=[
-            "18 g/mol",
-            "17 g/mol",
-            "20 g/mol",
-            "34 g/mol",
+            r"\(18\) g/mol",
+            r"\(17\) g/mol",
+            r"\(20\) g/mol",
+            r"\(34\) g/mol",
         ],
         antwoord=0,
-        uitleg="Twee keer 1 plus 16 is 18. Eén mol water weegt dus 18 gram.",
+        uitleg=r"Twee keer \(1\) plus \(16\) is \(18\). Eén mol water weegt dus \(18\) gram.",
     ),
     dict(
         type="invultekst",
-        vraag="Hoeveel mol water zit er in 36 gram water, met een molaire massa van 18 g/mol?",
+        vraag=r"Hoeveel mol water zit er in \(36\) gram water, met een molaire massa van \(18\) g/mol?",
         antwoord=["2", "2 mol", "twee"],
-        uitleg="n is m gedeeld door M: 36 gedeeld door 18 is 2 mol. Daarin zitten dus "
+        uitleg=r"n is m gedeeld door M: \(36 : 18\) is \(2\) mol. Daarin zitten dus "
         "twee keer het getal van Avogadro aan moleculen.",
     ),
     dict(
@@ -64,19 +64,19 @@ DEEL1 = [
         vraag="Eén mol zuurstofgas en één mol waterstofgas bevatten evenveel moleculen.",
         antwoord=True,
         uitleg="Het aantal is altijd het getal van Avogadro. Hun massa verschilt wel: "
-        "32 gram tegenover 2 gram.",
+        r"\(32\) gram tegenover \(2\) gram.",
     ),
     dict(
         type="meerkeuze",
-        vraag="Hoeveel weegt 0,5 mol koolstofdioxide, met een molaire massa van 44 g/mol?",
+        vraag=r"Hoeveel weegt \(0{,}5\) mol koolstofdioxide, met een molaire massa van \(44\) g/mol?",
         opties=[
-            "22 gram",
-            "44 gram",
-            "88 gram",
-            "11 gram",
+            r"\(22\) gram",
+            r"\(44\) gram",
+            r"\(88\) gram",
+            r"\(11\) gram",
         ],
         antwoord=0,
-        uitleg="m is n maal M: 0,5 maal 44 is 22 gram.",
+        uitleg=r"m is n maal M: \(0{,}5 \cdot 44\) is \(22\) gram.",
     ),
     dict(
         type="meerkeuze",
@@ -88,16 +88,16 @@ DEEL1 = [
             "het aantal deeltjes in de stof",
         ],
         antwoord=[0, 1],
-        uitleg="De massadichtheid is massa per volume, bijvoorbeeld in g/cm³. Voor water "
-        "is dat ongeveer 1 g/cm³.",
+        uitleg=r"De massadichtheid is massa per volume, bijvoorbeeld in g/\(\text{cm}^{3}\). Voor water "
+        r"is dat ongeveer \(1\) g/\(\text{cm}^{3}\).",
     ),
     dict(
         type="meerkeuze",
         vraag="Welke uitspraken over één mol ijzer zijn juist? Kruis alles aan wat juist is.",
         opties=[
-            "het bevat 6,022 × 10²³ atomen",
-            "het weegt 56 gram als de molaire massa 56 g/mol is",
-            "het bevat 56 atomen ijzer",
+            r"het bevat \(6{,}022 \cdot 10^{23}\) atomen",
+            r"het weegt \(56\) gram als de molaire massa \(56\) g/mol is",
+            r"het bevat \(56\) atomen ijzer",
             "het weegt altijd evenveel als één mol koper",
         ],
         antwoord=[0, 1],
@@ -106,22 +106,22 @@ DEEL1 = [
     ),
     dict(
         type="invultekst",
-        vraag="Hoeveel gram weegt 2 mol natriumchloride, met een molaire massa van 58,5 g/mol?",
+        vraag=r"Hoeveel gram weegt \(2\) mol natriumchloride, met een molaire massa van \(58{,}5\) g/mol?",
         antwoord=["117", "117 g", "117 gram"],
-        uitleg="Twee keer 58,5 is 117 gram. Dat is dus twee keer het getal van Avogadro "
+        uitleg=r"Twee keer \(58{,}5\) is \(117\) gram. Dat is dus twee keer het getal van Avogadro "
         "aan formule-eenheden.",
     ),
     dict(
         type="meerkeuze",
-        vraag="Hoeveel moleculen zitten er in 2 mol van een stof?",
+        vraag=r"Hoeveel moleculen zitten er in \(2\) mol van een stof?",
         opties=[
-            "ongeveer 1,2 × 10²⁴",
-            "ongeveer 1,2 × 10²³",
-            "ongeveer 3,0 × 10²³",
-            "ongeveer 6,0 × 10²³",
+            r"ongeveer \(1{,}2 \cdot 10^{24}\)",
+            r"ongeveer \(1{,}2 \cdot 10^{23}\)",
+            r"ongeveer \(3{,}0 \cdot 10^{23}\)",
+            r"ongeveer \(6{,}0 \cdot 10^{23}\)",
         ],
         antwoord=0,
-        uitleg="Twee keer 6,022 × 10²³ is 1,2044 × 10²⁴. Let op het verspringen van de "
+        uitleg=r"Twee keer \(6{,}022 \cdot 10^{23}\) is \(1{,}2044 \cdot 10^{24}\). Let op het verspringen van de "
         "exponent bij het verdubbelen.",
     ),
     dict(
@@ -133,27 +133,27 @@ DEEL1 = [
     ),
     dict(
         type="meerkeuze",
-        vraag="Wat is de molaire massa van zwavelzuur H₂SO₄, met H 1, S 32 en O 16 g/mol?",
+        vraag=r"Wat is de molaire massa van zwavelzuur H₂SO₄, met H \(1\), S \(32\) en O \(16\) g/mol?",
         opties=[
-            "98 g/mol",
-            "96 g/mol",
-            "82 g/mol",
-            "114 g/mol",
+            r"\(98\) g/mol",
+            r"\(96\) g/mol",
+            r"\(82\) g/mol",
+            r"\(114\) g/mol",
         ],
         antwoord=0,
-        uitleg="Twee keer 1, plus 32, plus vier keer 16: 2 plus 32 plus 64 is 98.",
+        uitleg=r"Twee keer \(1\), plus \(32\), plus vier keer \(16\): \(2\) plus \(32\) plus \(64\) is \(98\).",
     ),
     dict(
         type="meerkeuze",
         vraag="Welk volume neemt één mol gas in bij normomstandigheden?",
         opties=[
-            "22,4 liter",
-            "24,0 liter",
-            "1,0 liter",
-            "18,0 liter",
+            r"\(22{,}4\) liter",
+            r"\(24{,}0\) liter",
+            r"\(1{,}0\) liter",
+            r"\(18{,}0\) liter",
         ],
         antwoord=0,
-        uitleg="Dat is het molair volume bij 0 °C en normale druk. Het is voor elk gas "
+        uitleg=r"Dat is het molair volume bij \(0^{\circ}\text{C}\) en normale druk. Het is voor elk gas "
         "ongeveer gelijk.",
     ),
     dict(
@@ -171,7 +171,7 @@ DEEL1 = [
     ),
     dict(
         type="invultekst",
-        vraag="Hoeveel mol is 100 gram calciumcarbonaat, met een molaire massa van 100 g/mol?",
+        vraag=r"Hoeveel mol is \(100\) gram calciumcarbonaat, met een molaire massa van \(100\) g/mol?",
         antwoord=["1", "1 mol", "een"],
         uitleg="Honderd gedeeld door honderd is één mol. Daarin zitten één mol "
         "calciumionen en één mol carbonaationen.",
@@ -191,12 +191,12 @@ DEEL1 = [
     ),
     dict(
         type="meerkeuze",
-        vraag="Wat is de massa van 3 mol waterstofgas, met een molaire massa van 2 g/mol?",
+        vraag=r"Wat is de massa van \(3\) mol waterstofgas, met een molaire massa van \(2\) g/mol?",
         opties=[
-            "6 gram",
-            "3 gram",
-            "1,5 gram",
-            "2 gram",
+            r"\(6\) gram",
+            r"\(3\) gram",
+            r"\(1{,}5\) gram",
+            r"\(2\) gram",
         ],
         antwoord=0,
         uitleg="Drie maal twee is zes gram. Waterstofgas is H₂, dus twee gram per mol en "
@@ -204,7 +204,7 @@ DEEL1 = [
     ),
     dict(
         type="waarofniet",
-        vraag="Eén mol van een gas neemt altijd 22,4 liter in, bij elke temperatuur.",
+        vraag=r"Eén mol van een gas neemt altijd \(22{,}4\) liter in, bij elke temperatuur.",
         antwoord=False,
         uitleg="Dat geldt enkel bij normomstandigheden. Warm je het gas op, dan zet het "
         "uit en neemt het meer plaats in.",
@@ -221,31 +221,31 @@ DEEL1 = [
         vraag="Welke grootheid heeft als eenheid gram per kubieke centimeter?",
         antwoord=["massadichtheid", "dichtheid", "de dichtheid"],
         uitleg="Ze zegt hoeveel massa er in een bepaald volume zit. Voor water is dat "
-        "ongeveer 1 g/cm³, voor ijzer bijna 8.",
+        r"ongeveer \(1\) g/\(\text{cm}^{3}\), voor ijzer bijna \(8\).",
     ),
 ]
 
 DEEL2 = [
     dict(
         type="meerkeuze",
-        vraag="Wat is de molaire concentratie van een oplossing met 0,5 mol opgeloste stof in 2 liter?",
+        vraag=r"Wat is de molaire concentratie van een oplossing met \(0{,}5\) mol opgeloste stof in \(2\) liter?",
         opties=[
-            "0,25 mol/L",
-            "1,0 mol/L",
-            "2,5 mol/L",
-            "0,5 mol/L",
+            r"\(0{,}25\) mol/L",
+            r"\(1{,}0\) mol/L",
+            r"\(2{,}5\) mol/L",
+            r"\(0{,}5\) mol/L",
         ],
         antwoord=0,
-        uitleg="c is n gedeeld door V: 0,5 gedeeld door 2 is 0,25 mol per liter.",
+        uitleg=r"c is n gedeeld door V: \(0{,}5 : 2\) is \(0{,}25\) mol per liter.",
     ),
     dict(
         type="meerkeuze",
-        vraag="Wat betekent een massaprocent van 5 % in een oplossing?",
+        vraag=r"Wat betekent een massaprocent van \(5\,\%\) in een oplossing?",
         opties=[
-            "5 gram opgeloste stof per 100 gram oplossing",
-            "5 gram opgeloste stof per 100 milliliter water",
-            "5 mol opgeloste stof per 100 gram oplossing",
-            "5 milliliter opgeloste stof per 100 gram water",
+            r"\(5\) gram opgeloste stof per \(100\) gram oplossing",
+            r"\(5\) gram opgeloste stof per \(100\) milliliter water",
+            r"\(5\) mol opgeloste stof per \(100\) gram oplossing",
+            r"\(5\) milliliter opgeloste stof per \(100\) gram water",
         ],
         antwoord=0,
         uitleg="Let op het woord oplossing: de massa van het oplosmiddel én van de "
@@ -253,9 +253,9 @@ DEEL2 = [
     ),
     dict(
         type="invultekst",
-        vraag="Hoeveel gram zout zit er in 200 gram oplossing van 10 massaprocent?",
+        vraag=r"Hoeveel gram zout zit er in \(200\) gram oplossing van \(10\) massaprocent?",
         antwoord=["20", "20 g", "20 gram"],
-        uitleg="Tien procent van 200 gram is 20 gram zout, en dus 180 gram water.",
+        uitleg=r"Tien procent van \(200\) gram is \(20\) gram zout, en dus \(180\) gram water.",
     ),
     dict(
         type="meerkeuze",
@@ -279,25 +279,25 @@ DEEL2 = [
     ),
     dict(
         type="meerkeuze",
-        vraag="Je verdunt 10 mL van een oplossing van 2 mol/L tot 100 mL. Wat is de nieuwe concentratie?",
+        vraag=r"Je verdunt \(10\) mL van een oplossing van \(2\) mol/L tot \(100\) mL. Wat is de nieuwe concentratie?",
         opties=[
-            "0,2 mol/L",
-            "0,02 mol/L",
-            "2,0 mol/L",
-            "20 mol/L",
+            r"\(0{,}2\) mol/L",
+            r"\(0{,}02\) mol/L",
+            r"\(2{,}0\) mol/L",
+            r"\(20\) mol/L",
         ],
         antwoord=0,
         uitleg="Het volume wordt tien keer groter, dus de concentratie tien keer kleiner: "
-        "2 gedeeld door 10 is 0,2 mol/L.",
+        r"\(2 : 10\) is \(0{,}2\) mol/L.",
     ),
     dict(
         type="meerkeuze",
-        vraag="Wat betekent 1 ppm voor een stof in water? Kruis alles aan wat juist is.",
+        vraag=r"Wat betekent \(1\) ppm voor een stof in water? Kruis alles aan wat juist is.",
         opties=[
             "één deel op een miljoen",
-            "1 milligram per liter water",
+            r"\(1\) milligram per liter water",
             "één deel op duizend",
-            "1 gram per liter water",
+            r"\(1\) gram per liter water",
         ],
         antwoord=[0, 1],
         uitleg="Ppm is één deel op een miljoen. Omdat een liter water duizend gram weegt, "
@@ -314,22 +314,22 @@ DEEL2 = [
         ],
         antwoord=[0, 1],
         uitleg="De molaire concentratie rekent in mol per liter, het volumeprocent in "
-        "milliliter per 100 milliliter.",
+        r"milliliter per \(100\) milliliter.",
     ),
     dict(
         type="invultekst",
-        vraag="Hoeveel mol opgeloste stof zit er in 500 mL van een oplossing van 0,2 mol/L?",
+        vraag=r"Hoeveel mol opgeloste stof zit er in \(500\) mL van een oplossing van \(0{,}2\) mol/L?",
         antwoord=["0,1", "0,1 mol", "0.1"],
-        uitleg="n is c maal V, met V in liter: 0,2 maal 0,5 is 0,1 mol.",
+        uitleg=r"n is c maal V, met V in liter: \(0{,}2 \cdot 0{,}5\) is \(0{,}1\) mol.",
     ),
     dict(
         type="meerkeuze",
-        vraag="Een wijn van 12 volumeprocent alcohol. Wat betekent dat?",
+        vraag=r"Een wijn van \(12\) volumeprocent alcohol. Wat betekent dat?",
         opties=[
-            "12 mL alcohol per 100 mL wijn",
-            "12 gram alcohol per 100 mL wijn",
-            "12 mL alcohol per 100 gram wijn",
-            "12 mol alcohol per 100 mL wijn",
+            r"\(12\) mL alcohol per \(100\) mL wijn",
+            r"\(12\) gram alcohol per \(100\) mL wijn",
+            r"\(12\) mL alcohol per \(100\) gram wijn",
+            r"\(12\) mol alcohol per \(100\) mL wijn",
         ],
         antwoord=0,
         uitleg="Volumeprocent vergelijkt volumes met elkaar. Bij vaste stoffen in een "
@@ -344,7 +344,7 @@ DEEL2 = [
     ),
     dict(
         type="meerkeuze",
-        vraag="Een verbinding bestaat uit 40 % koolstof, 6,7 % waterstof en 53,3 % zuurstof. Welke formule past?",
+        vraag=r"Een verbinding bestaat uit \(40\,\%\) koolstof, \(6{,}7\,\%\) waterstof en \(53{,}3\,\%\) zuurstof. Welke formule past?",
         opties=[
             "CH₂O",
             "C₂H₄O",
@@ -352,20 +352,20 @@ DEEL2 = [
             "C₂H₆O",
         ],
         antwoord=0,
-        uitleg="Deel elk percentage door de atoommassa: 40/12, 6,7/1 en 53,3/16 geeft "
-        "ongeveer 3,3 : 6,7 : 3,3, dus 1 : 2 : 1.",
+        uitleg=r"Deel elk percentage door de atoommassa: \(\tfrac{40}{12}\), \(6\),\(\tfrac{7}{1}\) en \(53\),\(\tfrac{3}{16}\) geeft "
+        r"ongeveer \(3{,}3 : 6{,}7 : 3{,}3\), dus \(1 : 2 : 1\).",
     ),
     dict(
         type="meerkeuze",
-        vraag="Hoeveel massaprocent waterstof zit er in water, met H 1 en O 16 g/mol?",
+        vraag=r"Hoeveel massaprocent waterstof zit er in water, met H \(1\) en O \(16\) g/mol?",
         opties=[
-            "ongeveer 11 %",
-            "ongeveer 50 %",
-            "ongeveer 33 %",
-            "ongeveer 89 %",
+            r"ongeveer \(11\,\%\)",
+            r"ongeveer \(50\,\%\)",
+            r"ongeveer \(33\,\%\)",
+            r"ongeveer \(89\,\%\)",
         ],
         antwoord=0,
-        uitleg="Twee gram waterstof op achttien gram water is 2/18, dus ongeveer 11 "
+        uitleg=r"Twee gram waterstof op achttien gram water is \(\tfrac{2}{18}\), dus ongeveer \(11\) "
         "procent. Het aantal atomen en de massa zijn dus twee verschillende dingen.",
     ),
     dict(
@@ -386,20 +386,20 @@ DEEL2 = [
         vraag="Welk symbool gebruikt men voor de molaire concentratie?",
         antwoord=["c", "de c"],
         uitleg="c met als eenheid mol per liter. Men schrijft die eenheid ook als M, "
-        "bijvoorbeeld 0,1 M zoutzuur.",
+        r"bijvoorbeeld \(0{,}1\) M zoutzuur.",
     ),
     dict(
         type="meerkeuze",
-        vraag="Je moet 250 mL oplossing van 0,4 mol/L maken. Hoeveel mol stof weeg je af?",
+        vraag=r"Je moet \(250\) mL oplossing van \(0{,}4\) mol/L maken. Hoeveel mol stof weeg je af?",
         opties=[
-            "0,1 mol",
-            "0,4 mol",
-            "1,0 mol",
-            "0,04 mol",
+            r"\(0{,}1\) mol",
+            r"\(0{,}4\) mol",
+            r"\(1{,}0\) mol",
+            r"\(0{,}04\) mol",
         ],
         antwoord=0,
-        uitleg="n is c maal V: 0,4 maal 0,25 liter is 0,1 mol. Die massa weeg je af en je "
-        "vult daarna aan tot 250 mL.",
+        uitleg=r"n is c maal V: \(0{,}4 \cdot 0{,}25\) liter is \(0{,}1\) mol. Die massa weeg je af en je "
+        r"vult daarna aan tot \(250\) mL.",
     ),
     dict(
         type="meerkeuze",
@@ -416,9 +416,9 @@ DEEL2 = [
     ),
     dict(
         type="waarofniet",
-        vraag="Een oplossing van 1 mol/L bevat altijd één mol opgeloste stof, hoeveel je er ook van neemt.",
+        vraag=r"Een oplossing van \(1\) mol/L bevat altijd één mol opgeloste stof, hoeveel je er ook van neemt.",
         antwoord=False,
-        uitleg="Ze bevat één mol per liter. Neem je 100 mL, dan heb je maar 0,1 mol in "
+        uitleg=r"Ze bevat één mol per liter. Neem je \(100\) mL, dan heb je maar \(0{,}1\) mol in "
         "handen.",
     ),
     dict(
@@ -430,7 +430,7 @@ DEEL2 = [
     ),
     dict(
         type="invultekst",
-        vraag="Hoeveel liter is 250 milliliter?",
+        vraag=r"Hoeveel liter is \(250\) milliliter?",
         antwoord=["0,25", "0,25 L", "0.25"],
         uitleg="Duizend milliliter is één liter. In de formule n is c maal V hoort het "
         "volume altijd in liter.",

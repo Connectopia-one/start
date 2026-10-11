@@ -37,11 +37,11 @@
    "blokken": [
     {
      "soort": "tekst",
-     "html": "De <strong>coëfficiënt</strong> staat <strong>vooraan</strong> en zegt <strong>hoeveel deeltjes van die stof er zijn</strong>. In 3 H₂SO₄ is <strong>3 de coëfficiënt</strong>."
+     "html": "De <strong>coëfficiënt</strong> staat <strong>vooraan</strong> en zegt <strong>hoeveel deeltjes van die stof er zijn</strong>. In \\(3\\) H₂SO₄ is <strong>\\(3\\) de coëfficiënt</strong>."
     },
     {
      "soort": "tekst",
-     "html": "De <strong>index</strong> staat <strong>rechts onderaan bij een symbool</strong> en zegt <strong>hoeveel atomen van dat element in één deeltje zitten</strong>. De <strong>4 achter de O in H₂SO₄</strong> betekent dus dat er <strong>vier zuurstofatomen in de molecule</strong> zitten."
+     "html": "De <strong>index</strong> staat <strong>rechts onderaan bij een symbool</strong> en zegt <strong>hoeveel atomen van dat element in één deeltje zitten</strong>. De <strong>\\(4\\) achter de O in H₂SO₄</strong> betekent dus dat er <strong>vier zuurstofatomen in de molecule</strong> zitten."
     },
     {
      "soort": "tekst",
@@ -49,11 +49,11 @@
     },
     {
      "soort": "tekst",
-     "html": "In <strong>2 Ca(NO₃)₂</strong> komen <strong>drie verschillende atoomsoorten</strong> voor: calcium, stikstof en zuurstof. De coëfficiënt en de indexen veranderen het aantal soorten niet."
+     "html": "In <strong>\\(2\\) Ca(NO₃)₂</strong> komen <strong>drie verschillende atoomsoorten</strong> voor: calcium, stikstof en zuurstof. De coëfficiënt en de indexen veranderen het aantal soorten niet."
     },
     {
      "soort": "tekst",
-     "html": "Een <strong>coëfficiënt geldt voor het hele deeltje</strong>. <strong>2 H₂O zijn twee watermoleculen</strong>, dus vier waterstof- en twee zuurstofatomen; het betekent niet dat er twee zuurstofatomen in één molecule zitten. In <strong>3 H₂O</strong> zitten dus <strong>zes waterstofatomen</strong> in totaal."
+     "html": "Een <strong>coëfficiënt geldt voor het hele deeltje</strong>. <strong>\\(2\\) H₂O zijn twee watermoleculen</strong>, dus vier waterstof- en twee zuurstofatomen; het betekent niet dat er twee zuurstofatomen in één molecule zitten. In <strong>\\(3\\) H₂O</strong> zitten dus <strong>zes waterstofatomen</strong> in totaal."
     }
    ]
   },

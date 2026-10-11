@@ -67,12 +67,12 @@ DEEL1 = [
     ),
     dict(
         type="meerkeuze",
-        vraag="Welk glaswerk gebruik je om precies 250,0 mL oplossing te maken?",
+        vraag=r"Welk glaswerk gebruik je om precies \(250{,}0\) mL oplossing te maken?",
         opties=[
-            "een maatkolf van 250 mL",
-            "een maatcilinder van 250 mL",
-            "een bekerglas van 250 mL",
-            "een erlenmeyer van 250 mL",
+            r"een maatkolf van \(250\) mL",
+            r"een maatcilinder van \(250\) mL",
+            r"een bekerglas van \(250\) mL",
+            r"een erlenmeyer van \(250\) mL",
         ],
         antwoord=0,
         uitleg="Een maatkolf heeft één streepje en is daarvoor gekalibreerd. De "
@@ -126,7 +126,7 @@ DEEL1 = [
     ),
     dict(
         type="meerkeuze",
-        vraag="Waarom meet je 5 mL niet af in een maatcilinder van 500 mL?",
+        vraag=r"Waarom meet je \(5\) mL niet af in een maatcilinder van \(500\) mL?",
         opties=[
             "de streepjes staan daar veel te ver van elkaar",
             "de cilinder is te groot om goed vast te houden",
@@ -134,7 +134,7 @@ DEEL1 = [
             "de vloeistof reageert anders in een grote cilinder",
         ],
         antwoord=0,
-        uitleg="Een afleesfout van één streepje is daar al 5 mL. Kies altijd het "
+        uitleg=r"Een afleesfout van één streepje is daar al \(5\) mL. Kies altijd het "
         "instrument waarvan het bereik bij je volume past.",
     ),
     dict(
@@ -265,12 +265,12 @@ DEEL2 = [
             "een honderd",
         ],
         antwoord=0,
-        uitleg="Mega is 10⁶, kilo is 10³ en giga is 10⁹. De voorvoegsels gaan telkens "
+        uitleg=r"Mega is \(10^{6}\), kilo is \(10^{3}\) en giga is \(10^{9}\). De voorvoegsels gaan telkens "
         "drie machten van tien verder.",
     ),
     dict(
         type="meerkeuze",
-        vraag="Welk voorvoegsel staat voor 10⁻⁶?",
+        vraag=r"Welk voorvoegsel staat voor \(10^{-6}\)?",
         opties=[
             "micro",
             "milli",
@@ -278,18 +278,18 @@ DEEL2 = [
             "centi",
         ],
         antwoord=0,
-        uitleg="Milli is 10⁻³ en nano is 10⁻⁹. Micro zit er precies tussen.",
+        uitleg=r"Milli is \(10^{-3}\) en nano is \(10^{-9}\). Micro zit er precies tussen.",
     ),
     dict(
         type="invultekst",
         vraag="Hoeveel micrometer gaan er in één millimeter?",
         antwoord=["1000", "duizend", "1 000"],
-        uitleg="Milli is 10⁻³ en micro is 10⁻⁶, dus er zitten drie machten van tien "
+        uitleg=r"Milli is \(10^{-3}\) en micro is \(10^{-6}\), dus er zitten drie machten van tien "
         "tussen.",
     ),
     dict(
         type="meerkeuze",
-        vraag="Hoeveel beduidende cijfers heeft 0,00450?",
+        vraag=r"Hoeveel beduidende cijfers heeft \(0{,}00450\)?",
         opties=[
             "drie",
             "twee",
@@ -304,18 +304,18 @@ DEEL2 = [
         type="meerkeuze",
         vraag="Welke getallen hebben drie beduidende cijfers? Kruis alles aan wat juist is.",
         opties=[
-            "2,40",
-            "0,00106",
-            "0,0012",
-            "12 000",
+            r"\(2{,}40\)",
+            r"\(0{,}00106\)",
+            r"\(0{,}0012\)",
+            r"\(12\,000\)",
         ],
         antwoord=[0, 1],
-        uitleg="0,0012 heeft er twee. Bij 12 000 weet je het niet: schrijf het als "
-        "1,20·10⁴ als je er drie bedoelt.",
+        uitleg=r"\(0{,}0012\) heeft er twee. Bij \(12\,000\) weet je het niet: schrijf het als "
+        r"\(1{,}20\cdot10^{4}\) als je er drie bedoelt.",
     ),
     dict(
         type="meerkeuze",
-        vraag="Je vermenigvuldigt 2,5 met 3,142. Hoeveel beduidende cijfers heeft het antwoord?",
+        vraag=r"Je vermenigvuldigt \(2{,}5\) met \(3{,}142\). Hoeveel beduidende cijfers heeft het antwoord?",
         opties=[
             "twee",
             "drie",
@@ -324,16 +324,16 @@ DEEL2 = [
         ],
         antwoord=0,
         uitleg="Bij vermenigvuldigen en delen volg je de factor met het minste aantal "
-        "beduidende cijfers. Dus 7,9 en niet 7,855.",
+        r"beduidende cijfers. Dus \(7{,}9\) en niet \(7{,}855\).",
     ),
     dict(
         type="meerkeuze",
-        vraag="Je telt 12,11 g en 0,2 g op. Hoe schrijf je het resultaat?",
+        vraag=r"Je telt \(12{,}11\) g en \(0{,}2\) g op. Hoe schrijf je het resultaat?",
         opties=[
-            "12,3 g",
-            "12,31 g",
-            "12 g",
-            "12,310 g",
+            r"\(12{,}3\) g",
+            r"\(12{,}31\) g",
+            r"\(12\) g",
+            r"\(12{,}310\) g",
         ],
         antwoord=0,
         uitleg="Bij optellen en aftrekken kijk je naar het aantal decimalen, niet naar "
@@ -341,22 +341,22 @@ DEEL2 = [
     ),
     dict(
         type="invultekst",
-        vraag="Hoeveel beduidende cijfers heeft 1,0·10³?",
+        vraag=r"Hoeveel beduidende cijfers heeft \(1{,}0\cdot10^{3}\)?",
         antwoord=["2", "twee"],
         uitleg="De wetenschappelijke notatie maakt dat ondubbelzinnig: enkel de cijfers "
-        "voor de macht tellen mee. Daarom schrijf je 1000 zo als je er twee bedoelt.",
+        r"voor de macht tellen mee. Daarom schrijf je \(1000\) zo als je er twee bedoelt.",
     ),
     dict(
         type="meerkeuze",
-        vraag="Hoe schrijf je 0,000 072 in wetenschappelijke notatie?",
+        vraag=r"Hoe schrijf je \(0{,}000\,072\) in wetenschappelijke notatie?",
         opties=[
-            "7,2·10⁻⁵",
-            "7,2·10⁻⁴",
-            "72·10⁻⁶",
-            "0,72·10⁻⁴",
+            r"\(7{,}2\cdot10^{-5}\)",
+            r"\(7{,}2\cdot10^{-4}\)",
+            r"\(72\cdot10^{-6}\)",
+            r"\(0{,}72\cdot10^{-4}\)",
         ],
         antwoord=0,
-        uitleg="Er staat één cijfer voor de komma, van 1 tot 9. De komma schuift vijf "
+        uitleg=r"Er staat één cijfer voor de komma, van \(1\) tot \(9\). De komma schuift vijf "
         "plaatsen naar rechts, dus de exponent is min vijf.",
     ),
     dict(
@@ -409,7 +409,7 @@ DEEL2 = [
         type="waarofniet",
         vraag="Nullen vooraan een getal tellen mee als beduidend cijfer.",
         antwoord=False,
-        uitleg="Ze plaatsen enkel de komma. In 0,0045 zijn er dus twee beduidende "
+        uitleg=r"Ze plaatsen enkel de komma. In \(0{,}0045\) zijn er dus twee beduidende "
         "cijfers.",
     ),
     dict(
@@ -430,7 +430,7 @@ DEEL2 = [
         type="invultekst",
         vraag="Welke eenheid krijg je als je massa in gram deelt door volume in milliliter?",
         antwoord=["g/mL", "gram per milliliter", "g per mL"],
-        uitleg="Dat is de massadichtheid. In SI-eenheden zou dat kg/m³ zijn.",
+        uitleg=r"Dat is de massadichtheid. In SI-eenheden zou dat kg/\(\text{m}^{3}\) zijn.",
     ),
     dict(
         type="invultekst",

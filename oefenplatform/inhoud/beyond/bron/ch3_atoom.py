@@ -58,7 +58,7 @@ DEEL1 = [
             "de draairichting van het elektron om zijn eigen as",
         ],
         antwoord=0,
-        uitleg="n is 1, 2, 3 … Hoe groter n, hoe verder van de kern en hoe hoger de "
+        uitleg=r"n is \(1\), \(2\), \(3\) … Hoe groter n, hoe verder van de kern en hoe hoger de "
         "energie.",
     ),
     dict(
@@ -78,8 +78,8 @@ DEEL1 = [
             "veertien",
         ],
         antwoord=0,
-        uitleg="Een p-subniveau heeft drie orbitalen van twee elektronen. s heeft er 2, "
-        "d 10 en f 14.",
+        uitleg=r"Een p-subniveau heeft drie orbitalen van twee elektronen. s heeft er \(2\), "
+        r"d \(10\) en f \(14\).",
     ),
     dict(
         type="meerkeuze",
@@ -210,8 +210,8 @@ DEEL1 = [
             "acht",
         ],
         antwoord=0,
-        uitleg="De valentie-elektronen zijn die van het hoogste hoofdniveau: 2 plus 3 is "
-        "5. Dat is fosfor, uit de stikstofgroep.",
+        uitleg=r"De valentie-elektronen zijn die van het hoogste hoofdniveau: \(2\) plus \(3\) is "
+        r"\(5\). Dat is fosfor, uit de stikstofgroep.",
     ),
     dict(
         type="waarofniet",
@@ -246,7 +246,7 @@ DEEL2 = [
     ),
     dict(
         type="meerkeuze",
-        vraag="Hoe heet groep 17 van het periodiek systeem?",
+        vraag=r"Hoe heet groep \(17\) van het periodiek systeem?",
         opties=[
             "de halogenen",
             "de edelgassen",
@@ -261,7 +261,7 @@ DEEL2 = [
         type="invultekst",
         vraag="Hoe heet de groep met lithium, natrium en kalium?",
         antwoord=["alkalimetalen", "de alkalimetalen", "alkalimetaal"],
-        uitleg="Groep 1, met één valentie-elektron. Ze reageren heftig met water en "
+        uitleg=r"Groep \(1\), met één valentie-elektron. Ze reageren heftig met water en "
         "vormen daarbij een hydroxide.",
     ),
     dict(
@@ -347,12 +347,12 @@ DEEL2 = [
         type="waarofniet",
         vraag="Het groepsnummer van een hoofdgroepelement heeft niets te maken met het aantal valentie-elektronen.",
         antwoord=False,
-        uitleg="Het heeft er net alles mee te maken: groep 1 heeft er één, groep 2 twee, "
-        "groep 16 zes en groep 17 zeven.",
+        uitleg=r"Het heeft er net alles mee te maken: groep \(1\) heeft er één, groep \(2\) twee, "
+        r"groep \(16\) zes en groep \(17\) zeven.",
     ),
     dict(
         type="meerkeuze",
-        vraag="Welk oxidatiegetal verwacht je bij een element uit groep 2?",
+        vraag=r"Welk oxidatiegetal verwacht je bij een element uit groep \(2\)?",
         opties=[
             "+II",
             "+I",
@@ -380,20 +380,20 @@ DEEL2 = [
         type="invultekst",
         vraag="Hoe heet de groep met zuurstof, zwavel en selenium?",
         antwoord=["zuurstofgroep", "de zuurstofgroep", "zuurstofgroep 16"],
-        uitleg="Groep 16, met zes valentie-elektronen. Ze nemen er dus graag twee op en "
-        "vormen een ion met lading 2−.",
+        uitleg=r"Groep \(16\), met zes valentie-elektronen. Ze nemen er dus graag twee op en "
+        r"vormen een ion met lading \(2\)−.",
     ),
     dict(
         type="meerkeuze",
         vraag="Een atoom heeft de configuratie [Ar] 4s² 3d¹⁰ 4p⁵. In welke groep staat het?",
         opties=[
-            "in groep 17, bij de halogenen",
-            "in groep 15, bij de stikstofgroep",
-            "in groep 13, bij de aardmetalen",
-            "in groep 18, bij de edelgassen",
+            r"in groep \(17\), bij de halogenen",
+            r"in groep \(15\), bij de stikstofgroep",
+            r"in groep \(13\), bij de aardmetalen",
+            r"in groep \(18\), bij de edelgassen",
         ],
         antwoord=0,
-        uitleg="Tel de elektronen van het hoogste hoofdniveau: 2 in 4s en 5 in 4p is 7. "
+        uitleg=r"Tel de elektronen van het hoogste hoofdniveau: \(2\) in 4s en \(5\) in 4p is \(7\). "
         "Dat is broom.",
     ),
     dict(
@@ -442,6 +442,6 @@ DEEL2 = [
         vraag="In welk blok staat een element waarvan het buitenste elektron in een p-orbitaal zit?",
         antwoord=["p-blok", "het p-blok", "p"],
         uitleg="Het blok draagt de naam van het subniveau dat als laatste gevuld wordt. "
-        "Groep 13 tot 18 vormen samen het p-blok.",
+        r"Groep \(13\) tot \(18\) vormen samen het p-blok.",
     ),
 ]

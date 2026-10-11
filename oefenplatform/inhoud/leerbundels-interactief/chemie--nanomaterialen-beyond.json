@@ -8,7 +8,7 @@
    "blokken": [
     {
      "soort": "tekst",
-     "html": "Een <strong>nanometer</strong> is <strong>een miljardste van een meter</strong>, dus 10⁻⁹ m. Een nanomateriaal ligt tussen <strong>1 en 100</strong> nanometer: onder één nanometer kom je bij losse atomen en moleculen, erboven bij gewoon materiaal. Een atoom is ongeveer een tiende van een nanometer en een <strong>menselijke haar is duizenden keren groter</strong> dan een nanodeeltje, ongeveer 80 000 nanometer dik. <strong>Nanodeeltjes zijn met een gewone lichtmicroscoop niet te zien</strong>, want ze zijn kleiner dan de golflengte van licht; daarvoor heb je een <strong>elektronenmicroscoop</strong> nodig."
+     "html": "Een <strong>nanometer</strong> is <strong>een miljardste van een meter</strong>, dus \\(10^{-9}\\) m. Een nanomateriaal ligt tussen <strong>\\(1\\) en \\(100\\)</strong> nanometer: onder één nanometer kom je bij losse atomen en moleculen, erboven bij gewoon materiaal. Een atoom is ongeveer een tiende van een nanometer en een <strong>menselijke haar is duizenden keren groter</strong> dan een nanodeeltje, ongeveer \\(80\\,000\\) nanometer dik. <strong>Nanodeeltjes zijn met een gewone lichtmicroscoop niet te zien</strong>, want ze zijn kleiner dan de golflengte van licht; daarvoor heb je een <strong>elektronenmicroscoop</strong> nodig."
     },
     {
      "soort": "tekst",
@@ -29,7 +29,7 @@
     },
     {
      "soort": "tekst",
-     "html": "De bekendste <strong>buckyball</strong> bestaat uit <strong>60</strong> koolstofatomen, C₆₀, met de vorm van een voetbal uit vijf- en zeshoeken. Een <strong>koolstofnanobuis</strong> is <strong>een opgerolde laag koolstofatomen, dus 1D</strong>. Ze <strong>geleidt elektrische stroom goed</strong> omdat <strong>de elektronen van de pi-bindingen langs de hele buis kunnen bewegen</strong>, en ze is geschikt om een materiaal te versterken door <strong>haar grote sterkte bij een heel klein gewicht</strong>: nanobuizen in een kunststof geven een licht en stevig materiaal voor sportgerief en luchtvaart."
+     "html": "De bekendste <strong>buckyball</strong> bestaat uit <strong>\\(60\\)</strong> koolstofatomen, C₆₀, met de vorm van een voetbal uit vijf- en zeshoeken. Een <strong>koolstofnanobuis</strong> is <strong>een opgerolde laag koolstofatomen, dus 1D</strong>. Ze <strong>geleidt elektrische stroom goed</strong> omdat <strong>de elektronen van de pi-bindingen langs de hele buis kunnen bewegen</strong>, en ze is geschikt om een materiaal te versterken door <strong>haar grote sterkte bij een heel klein gewicht</strong>: nanobuizen in een kunststof geven een licht en stevig materiaal voor sportgerief en luchtvaart."
     }
    ]
   },
@@ -73,7 +73,7 @@
   }
  ],
  "onthoud": [
-  "Nano is 10⁻⁹ m; een nanomateriaal ligt tussen 1 en 100 nm.",
+  "Nano is \\(10^{-9}\\) m; een nanomateriaal ligt tussen \\(1\\) en \\(100\\) nm.",
   "0D deeltje, 1D buis, 2D laag, 3D nanostructuur in een blok.",
   "Top-down maalt of etst, bottom-up bouwt op vanuit atomen.",
   "Grafeen is 2D, de buckyball C₆₀ is 0D, de nanobuis is opgerold grafeen.",

@@ -24,7 +24,7 @@ DEEL1 = [
             "een biljoenste van een meter",
         ],
         antwoord=0,
-        uitleg="Nano staat voor 10⁻⁹. Een nanomateriaal meet ongeveer één tot honderd "
+        uitleg=r"Nano staat voor \(10^{-9}\). Een nanomateriaal meet ongeveer één tot honderd "
         "nanometer.",
     ),
     dict(
@@ -37,7 +37,7 @@ DEEL1 = [
             "de haar, maar slechts een paar keer",
         ],
         antwoord=0,
-        uitleg="Een haar is ongeveer 80 000 nanometer dik. Een atoom is ongeveer een "
+        uitleg=r"Een haar is ongeveer \(80\,000\) nanometer dik. Een atoom is ongeveer een "
         "tiende van een nanometer.",
     ),
     dict(

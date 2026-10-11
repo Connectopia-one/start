@@ -56,7 +56,7 @@ DEEL1 = [
             "+II",
         ],
         antwoord=0,
-        uitleg="Twee keer +I plus vier keer −II is −6. Zwavel moet dus +VI zijn om op nul "
+        uitleg=r"Twee keer +I plus vier keer −II is \(-6\). Zwavel moet dus +VI zijn om op nul "
         "uit te komen.",
     ),
     dict(
@@ -76,7 +76,7 @@ DEEL1 = [
             "+II",
         ],
         antwoord=0,
-        uitleg="Vier keer −II is −8, en het hele ion heeft lading −1. Mangaan moet dus "
+        uitleg=r"Vier keer −II is \(-8\), en het hele ion heeft lading \(-1\). Mangaan moet dus "
         "+VII zijn.",
     ),
     dict(
@@ -142,8 +142,8 @@ DEEL1 = [
             "+II",
         ],
         antwoord=0,
-        uitleg="Zeven keer −II is −14, het ion heeft lading −2. De twee chroomatomen "
-        "dragen dus samen +12.",
+        uitleg=r"Zeven keer −II is \(-14\), het ion heeft lading \(-2\). De twee chroomatomen "
+        r"dragen dus samen +\(12\).",
     ),
     dict(
         type="meerkeuze",
@@ -162,7 +162,7 @@ DEEL1 = [
         type="invultekst",
         vraag="Welk oxidatiegetal heeft stikstof in het nitraation NO₃⁻?",
         antwoord=["+V", "+5", "plus vijf"],
-        uitleg="Drie keer −II is −6, het ion heeft lading −1. Stikstof komt dus op +V uit.",
+        uitleg=r"Drie keer −II is \(-6\), het ion heeft lading \(-1\). Stikstof komt dus op +V uit.",
     ),
     dict(
         type="meerkeuze",
@@ -328,7 +328,7 @@ DEEL2 = [
     ),
     dict(
         type="meerkeuze",
-        vraag="Twee koppels: Cu²⁺/Cu met +0,34 V en Zn²⁺/Zn met −0,76 V. Welke reactie gaat spontaan door?",
+        vraag=r"Twee koppels: Cu²⁺/Cu met +\(0{,}34\) V en Zn²⁺/Zn met \(-0{,}76\) V. Welke reactie gaat spontaan door?",
         opties=[
             "zink wordt geoxideerd en het koperion gereduceerd",
             "koper wordt geoxideerd en het zinkion gereduceerd",

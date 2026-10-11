@@ -351,7 +351,7 @@ DEEL2 = [
             "zes",
         ],
         antwoord=0,
-        uitleg="Tel de exponenten op: 2 plus 1 is 3. De orde in A is twee en die in B is "
+        uitleg=r"Tel de exponenten op: \(2\) plus \(1\) is \(3\). De orde in A is twee en die in B is "
         "een.",
     ),
     dict(
@@ -371,14 +371,14 @@ DEEL2 = [
             "derde orde",
         ],
         antwoord=0,
-        uitleg="Twee tot de macht twee is vier. Bij eerste orde zou de snelheid gewoon "
+        uitleg=r"\(2^{2}\) is vier. Bij eerste orde zou de snelheid gewoon "
         "verdubbelen.",
     ),
     dict(
         type="waarofniet",
         vraag="Blijft de snelheid gelijk als je [B] verdubbelt, dan is de reactie van nulde orde in B.",
         antwoord=True,
-        uitleg="De exponent van [B] is dan nul, en alles tot de macht nul is één. Zo'n "
+        uitleg=r"De exponent van [B] is dan nul, en alles tot de macht \(0\) is één. Zo'n "
         "stof komt niet voor in de snelheidsbepalende stap.",
     ),
     dict(
@@ -399,7 +399,7 @@ DEEL2 = [
         ],
         antwoord=0,
         uitleg="De eenheid van k volgt uit de vergelijking: links staat mol/(L·s), en "
-        "[A] levert al mol/L. Dus blijft er 1/s over.",
+        r"[A] levert al mol/L. Dus blijft er \(1\)/s over.",
     ),
     dict(
         type="meerkeuze",

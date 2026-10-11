@@ -8,7 +8,7 @@
    "blokken": [
     {
      "soort": "tekst",
-     "html": "Een goede <strong>onderzoeksvraag</strong> is <strong>een vraag die je met een meting kan beantwoorden</strong>: nauwkeurig afgebakend en meetbaar. Hoe los het zout op is geen onderzoeksvraag, hoeveel gram per 100 mL water wel."
+     "html": "Een goede <strong>onderzoeksvraag</strong> is <strong>een vraag die je met een meting kan beantwoorden</strong>: nauwkeurig afgebakend en meetbaar. Hoe los het zout op is geen onderzoeksvraag, hoeveel gram per \\(100\\) mL water wel."
     },
     {
      "soort": "tekst",
@@ -33,7 +33,7 @@
     },
     {
      "soort": "tekst",
-     "html": "Je <strong>herhaalt een meting meerdere keren</strong> <strong>om toevallige afwijkingen te kunnen uitvlakken</strong>. Een <strong>systematische fout wijkt altijd naar dezelfde kant af</strong> en verdwijnt niet met een gemiddelde: een balans die 0,2 g te veel aangeeft, doet dat elke keer, en dan helpt kalibreren. Dat is ook het verschil tussen <strong>nauwkeurig en precies</strong>: <strong>nauwkeurig ligt dicht bij de echte waarde, precies dicht bij elkaar</strong>. Vijf metingen die mooi samen liggen maar alle vijf te hoog, zijn precies maar niet nauwkeurig."
+     "html": "Je <strong>herhaalt een meting meerdere keren</strong> <strong>om toevallige afwijkingen te kunnen uitvlakken</strong>. Een <strong>systematische fout wijkt altijd naar dezelfde kant af</strong> en verdwijnt niet met een gemiddelde: een balans die \\(0{,}2\\) g te veel aangeeft, doet dat elke keer, en dan helpt kalibreren. Dat is ook het verschil tussen <strong>nauwkeurig en precies</strong>: <strong>nauwkeurig ligt dicht bij de echte waarde, precies dicht bij elkaar</strong>. Vijf metingen die mooi samen liggen maar alle vijf te hoog, zijn precies maar niet nauwkeurig."
     },
     {
      "soort": "tekst",
@@ -67,7 +67,7 @@
     },
     {
      "soort": "tekst",
-     "html": "Een <strong>criterium</strong> is <strong>een eis waaraan de oplossing moet voldoen</strong>; een <strong>randvoorwaarde</strong> is <strong>een beperking waarbinnen je moet blijven werken</strong>, zoals het budget, de tijd en de beschikbare materialen. Het filter moet minstens 90 % van het zand tegenhouden: dat is een criterium. Je hebt maar één lesuur: dat is een randvoorwaarde. Criteria zijn <strong>best meetbaar opgeschreven</strong> en je <strong>legt ze vast voor je begint te bouwen</strong>; <strong>ze achteraf versoepelen zodat je ontwerp wel slaagt, is geen ontwerpen</strong>."
+     "html": "Een <strong>criterium</strong> is <strong>een eis waaraan de oplossing moet voldoen</strong>; een <strong>randvoorwaarde</strong> is <strong>een beperking waarbinnen je moet blijven werken</strong>, zoals het budget, de tijd en de beschikbare materialen. Het filter moet minstens \\(90\\,\\%\\) van het zand tegenhouden: dat is een criterium. Je hebt maar één lesuur: dat is een randvoorwaarde. Criteria zijn <strong>best meetbaar opgeschreven</strong> en je <strong>legt ze vast voor je begint te bouwen</strong>; <strong>ze achteraf versoepelen zodat je ontwerp wel slaagt, is geen ontwerpen</strong>."
     },
     {
      "soort": "tekst",

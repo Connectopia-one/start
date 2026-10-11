@@ -24,12 +24,12 @@ DEEL1 = [
             "het aantal mol zuur dat je in de oplossing gedaan hebt",
         ],
         antwoord=0,
-        uitleg="Is [H₃O⁺] gelijk aan 10⁻³ mol/L, dan is de pH 3. De schaal maakt van heel "
-        "kleine getallen een handig getal tussen 0 en 14.",
+        uitleg=r"Is [H₃O⁺] gelijk aan \(10^{-3}\) mol/L, dan is de pH \(3\). De schaal maakt van heel "
+        r"kleine getallen een handig getal tussen \(0\) en \(14\).",
     ),
     dict(
         type="meerkeuze",
-        vraag="Hoeveel is pH plus pOH bij 25 °C?",
+        vraag=r"Hoeveel is pH plus pOH bij \(25^{\circ}\text{C}\)?",
         opties=[
             "veertien",
             "zeven",
@@ -37,19 +37,19 @@ DEEL1 = [
             "een",
         ],
         antwoord=0,
-        uitleg="Dat volgt uit de ionisatieconstante van water, 10⁻¹⁴. Ken je de pH, dan "
+        uitleg=r"Dat volgt uit de ionisatieconstante van water, \(10^{-14}\). Ken je de pH, dan "
         "ken je dus ook de pOH.",
     ),
     dict(
         type="invultekst",
-        vraag="Welke pH heeft zuiver water bij 25 °C?",
+        vraag=r"Welke pH heeft zuiver water bij \(25^{\circ}\text{C}\)?",
         antwoord=["7", "pH 7", "zeven"],
-        uitleg="In zuiver water is [H₃O⁺] gelijk aan [OH⁻], namelijk 10⁻⁷ mol/L. Daarom "
-        "is pH 7 het neutrale punt.",
+        uitleg=r"In zuiver water is [H₃O⁺] gelijk aan [OH⁻], namelijk \(10^{-7}\) mol/L. Daarom "
+        r"is pH \(7\) het neutrale punt.",
     ),
     dict(
         type="meerkeuze",
-        vraag="Een oplossing heeft pH 4. Wat is haar pOH?",
+        vraag=r"Een oplossing heeft pH \(4\). Wat is haar pOH?",
         opties=[
             "tien",
             "vier",
@@ -58,11 +58,11 @@ DEEL1 = [
         ],
         antwoord=0,
         uitleg="Veertien min vier is tien. De concentratie hydroxide-ionen is dus "
-        "10⁻¹⁰ mol/L.",
+        r"\(10^{-10}\) mol/L.",
     ),
     dict(
         type="waarofniet",
-        vraag="Een oplossing met pH 3 bevat honderd keer meer hydroxoniumionen dan een oplossing met pH 5.",
+        vraag=r"Een oplossing met pH \(3\) bevat honderd keer meer hydroxoniumionen dan een oplossing met pH \(5\).",
         antwoord=True,
         uitleg="Elke pH-eenheid is een factor tien. Twee eenheden verschil is dus een "
         "factor honderd.",
@@ -71,9 +71,9 @@ DEEL1 = [
         type="meerkeuze",
         vraag="Welke uitspraken over een basische oplossing zijn juist? Kruis alles aan wat juist is.",
         opties=[
-            "haar pH is groter dan 7",
-            "haar pOH is kleiner dan 7",
-            "haar pH is kleiner dan 7",
+            r"haar pH is groter dan \(7\)",
+            r"haar pOH is kleiner dan \(7\)",
+            r"haar pH is kleiner dan \(7\)",
             "ze bevat geen hydroxoniumionen meer",
         ],
         antwoord=[0, 1],
@@ -82,26 +82,26 @@ DEEL1 = [
     ),
     dict(
         type="meerkeuze",
-        vraag="Wat is de waarde van de ionisatieconstante van water bij 25 °C?",
+        vraag=r"Wat is de waarde van de ionisatieconstante van water bij \(25^{\circ}\text{C}\)?",
         opties=[
-            "10⁻¹⁴",
-            "10⁻⁷",
-            "10⁻¹",
-            "10¹⁴",
+            r"\(10^{-14}\)",
+            r"\(10^{-7}\)",
+            r"\(10^{-1}\)",
+            r"\(10^{14}\)",
         ],
         antwoord=0,
-        uitleg="Kw is [H₃O⁺] maal [OH⁻]. In zuiver water is dat 10⁻⁷ maal 10⁻⁷.",
+        uitleg=r"Kw is [H₃O⁺] maal [OH⁻]. In zuiver water is dat \(10^{-7} \cdot 10^{-7}\).",
     ),
     dict(
         type="invultekst",
-        vraag="Welke pH heeft een oplossing met [H₃O⁺] gelijk aan 10⁻² mol/L?",
+        vraag=r"Welke pH heeft een oplossing met [H₃O⁺] gelijk aan \(10^{-2}\) mol/L?",
         antwoord=["2", "pH 2", "twee"],
         uitleg="De pH is de exponent zonder minteken. Dat is een flink zure oplossing, "
         "ongeveer zo zuur als citroensap.",
     ),
     dict(
         type="meerkeuze",
-        vraag="Een oplossing heeft pOH 2. Welke pH hoort daarbij?",
+        vraag=r"Een oplossing heeft pOH \(2\). Welke pH hoort daarbij?",
         opties=[
             "twaalf",
             "twee",
@@ -118,7 +118,7 @@ DEEL1 = [
         opties=[
             "ze is logaritmisch opgebouwd",
             "één eenheid verschil is een factor tien",
-            "ze loopt altijd van 0 tot 14 en nooit erbuiten",
+            r"ze loopt altijd van \(0\) tot \(14\) en nooit erbuiten",
             "één eenheid verschil is een factor twee",
         ],
         antwoord=[0, 1],
@@ -134,16 +134,16 @@ DEEL1 = [
     ),
     dict(
         type="meerkeuze",
-        vraag="Wat is de concentratie hydroxide-ionen in een oplossing met pH 9?",
+        vraag=r"Wat is de concentratie hydroxide-ionen in een oplossing met pH \(9\)?",
         opties=[
-            "10⁻⁵ mol/L",
-            "10⁻⁹ mol/L",
-            "10⁻⁷ mol/L",
-            "10⁵ mol/L",
+            r"\(10^{-5}\) mol/L",
+            r"\(10^{-9}\) mol/L",
+            r"\(10^{-7}\) mol/L",
+            r"\(10^{5}\) mol/L",
         ],
         antwoord=0,
         uitleg="pOH is veertien min negen, dus vijf. Daar hoort een concentratie van "
-        "10⁻⁵ mol/L bij.",
+        r"\(10^{-5}\) mol/L bij.",
     ),
     dict(
         type="meerkeuze",
@@ -155,31 +155,31 @@ DEEL1 = [
             "de pH is anders niet met een indicator te bepalen",
         ],
         antwoord=0,
-        uitleg="Van 1 mol/L tot 10⁻¹⁴ mol/L is een verschil van veertien machten. Met "
+        uitleg=r"Van \(1\) mol/L tot \(10^{-14}\) mol/L is een verschil van veertien machten. Met "
         "gewone getallen zou dat onhandelbaar zijn.",
     ),
     dict(
         type="invultekst",
-        vraag="Welke pOH heeft een oplossing met pH 11?",
+        vraag=r"Welke pOH heeft een oplossing met pH \(11\)?",
         antwoord=["3", "pOH 3", "drie"],
-        uitleg="Veertien min elf is drie. Hun som is bij 25 °C altijd veertien.",
+        uitleg=r"Veertien min elf is drie. Hun som is bij \(25^{\circ}\text{C}\) altijd veertien.",
     ),
     dict(
         type="meerkeuze",
         vraag="Welke oplossingen zijn zuur? Kruis alles aan wat juist is.",
         opties=[
-            "een oplossing met pH 2",
-            "een oplossing met pOH 12",
-            "een oplossing met pH 9",
-            "een oplossing met pOH 3",
+            r"een oplossing met pH \(2\)",
+            r"een oplossing met pOH \(12\)",
+            r"een oplossing met pH \(9\)",
+            r"een oplossing met pOH \(3\)",
         ],
         antwoord=[0, 1],
-        uitleg="pOH 12 hoort bij pH 2, dus zuur. pOH 3 hoort bij pH 11, en dat is "
+        uitleg=r"pOH \(12\) hoort bij pH \(2\), dus zuur. pOH \(3\) hoort bij pH \(11\), en dat is "
         "basisch.",
     ),
     dict(
         type="meerkeuze",
-        vraag="Twee oplossingen, één met pH 1 en één met pH 4. Hoeveel keer zuurder is de eerste?",
+        vraag=r"Twee oplossingen, één met pH \(1\) en één met pH \(4\). Hoeveel keer zuurder is de eerste?",
         opties=[
             "duizend keer",
             "honderd keer",
@@ -194,12 +194,12 @@ DEEL1 = [
         type="waarofniet",
         vraag="In een basische oplossing is er meer hydroxide dan hydroxonium.",
         antwoord=True,
-        uitleg="Hun product blijft 10⁻¹⁴. Zit er veel van het ene in, dan zit er dus "
+        uitleg=r"Hun product blijft \(10^{-14}\). Zit er veel van het ene in, dan zit er dus "
         "weinig van het andere in.",
     ),
     dict(
         type="meerkeuze",
-        vraag="Je meet een pH van 6,5 in regenwater. Wat besluit je?",
+        vraag=r"Je meet een pH van \(6{,}5\) in regenwater. Wat besluit je?",
         opties=[
             "het is lichtzuur, want de pH ligt onder zeven",
             "het is lichtbasisch, want de pH ligt boven zes",
@@ -215,47 +215,47 @@ DEEL1 = [
         vraag="De pH van een oplossing hangt niet af van de temperatuur.",
         antwoord=False,
         uitleg="De ionisatieconstante van water verandert met de temperatuur, en dus ook "
-        "het neutrale punt. Bij 25 °C is dat zeven.",
+        r"het neutrale punt. Bij \(25^{\circ}\text{C}\) is dat zeven.",
     ),
     dict(
         type="invultekst",
         vraag="Hoe noem je het product van de concentratie hydroxonium en hydroxide in water?",
         antwoord=["Kw", "ionisatieconstante", "waterconstante"],
-        uitleg="Bij 25 °C is die 10⁻¹⁴. Daaruit volgt dat pH en pOH samen veertien geven.",
+        uitleg=r"Bij \(25^{\circ}\text{C}\) is die \(10^{-14}\). Daaruit volgt dat pH en pOH samen veertien geven.",
     ),
 ]
 
 DEEL2 = [
     dict(
         type="meerkeuze",
-        vraag="Wat is de pH van 0,01 mol/L zoutzuur?",
+        vraag=r"Wat is de pH van \(0{,}01\) mol/L zoutzuur?",
         opties=[
-            "2",
-            "1",
-            "12",
-            "0,01",
+            r"\(2\)",
+            r"\(1\)",
+            r"\(12\)",
+            r"\(0{,}01\)",
         ],
         antwoord=0,
-        uitleg="Zoutzuur is een sterk zuur, dus [H₃O⁺] is 0,01 of 10⁻² mol/L. Daar hoort "
-        "pH 2 bij.",
+        uitleg=r"Zoutzuur is een sterk zuur, dus [H₃O⁺] is \(0{,}01\) of \(10^{-2}\) mol/L. Daar hoort "
+        r"pH \(2\) bij.",
     ),
     dict(
         type="meerkeuze",
-        vraag="Wat is de pH van 0,001 mol/L natriumhydroxide?",
+        vraag=r"Wat is de pH van \(0{,}001\) mol/L natriumhydroxide?",
         opties=[
-            "11",
-            "3",
-            "10",
-            "13",
+            r"\(11\)",
+            r"\(3\)",
+            r"\(10\)",
+            r"\(13\)",
         ],
         antwoord=0,
-        uitleg="Een sterke base geeft [OH⁻] gelijk aan 10⁻³, dus pOH 3 en pH 11.",
+        uitleg=r"Een sterke base geeft [OH⁻] gelijk aan \(10^{-3}\), dus pOH \(3\) en pH \(11\).",
     ),
     dict(
         type="invultekst",
-        vraag="Welke pH heeft 0,1 mol/L zoutzuur?",
+        vraag=r"Welke pH heeft \(0{,}1\) mol/L zoutzuur?",
         antwoord=["1", "pH 1", "een"],
-        uitleg="0,1 is 10⁻¹, dus pH 1. Zoutzuur ioniseert volledig, en daarom mag je de "
+        uitleg=r"\(0{,}1\) is \(10^{-1}\), dus pH \(1\). Zoutzuur ioniseert volledig, en daarom mag je de "
         "concentratie van het zuur rechtstreeks gebruiken.",
     ),
     dict(
@@ -289,7 +289,7 @@ DEEL2 = [
         ],
         antwoord=0,
         uitleg="Het aantal mol zuur blijft gelijk, het volume halveert, dus verdubbelt de "
-        "concentratie. De pH daalt met ongeveer 0,3.",
+        r"concentratie. De pH daalt met ongeveer \(0{,}3\).",
     ),
     dict(
         type="meerkeuze",
@@ -306,13 +306,13 @@ DEEL2 = [
     ),
     dict(
         type="invultekst",
-        vraag="Welke pH heeft 0,0001 mol/L zoutzuur?",
+        vraag=r"Welke pH heeft \(0{,}0001\) mol/L zoutzuur?",
         antwoord=["4", "pH 4", "vier"],
-        uitleg="0,0001 is 10⁻⁴, dus pH 4. Let goed op het aantal nullen voor de komma.",
+        uitleg=r"\(0{,}0001\) is \(10^{-4}\), dus pH \(4\). Let goed op het aantal nullen voor de komma.",
     ),
     dict(
         type="meerkeuze",
-        vraag="Twee oplossingen van 0,1 mol/L: één zoutzuur, één azijnzuur. Welke heeft de laagste pH?",
+        vraag=r"Twee oplossingen van \(0{,}1\) mol/L: één zoutzuur, één azijnzuur. Welke heeft de laagste pH?",
         opties=[
             "het zoutzuur, want het is een sterk zuur",
             "het azijnzuur, want het heeft meer koolstofatomen",
@@ -328,7 +328,7 @@ DEEL2 = [
         vraag="Waarom mag je bij een sterk zuur de concentratie van het zuur als [H₃O⁺] nemen?",
         opties=[
             "elk molecule staat zijn proton af, dus is de omzetting volledig",
-            "een sterk zuur heeft altijd een concentratie van 1 mol per liter",
+            r"een sterk zuur heeft altijd een concentratie van \(1\) mol per liter",
             "de zuurconstante van een sterk zuur is gelijk aan één",
             "de pH van een sterk zuur ligt altijd onder de één",
         ],
@@ -340,17 +340,17 @@ DEEL2 = [
         type="waarofniet",
         vraag="Bij een tweewaardig sterk zuur is de concentratie hydroxoniumionen dubbel die van het zuur.",
         antwoord=True,
-        uitleg="Zwavelzuur van 0,05 mol/L geeft ongeveer 0,1 mol/L hydroxoniumionen, dus "
-        "pH 1. Reken dus altijd eerst de waardigheid mee.",
+        uitleg=r"Zwavelzuur van \(0{,}05\) mol/L geeft ongeveer \(0{,}1\) mol/L hydroxoniumionen, dus "
+        r"pH \(1\). Reken dus altijd eerst de waardigheid mee.",
     ),
     dict(
         type="meerkeuze",
-        vraag="Een oplossing heeft pH 5. Wat is de concentratie hydroxoniumionen?",
+        vraag=r"Een oplossing heeft pH \(5\). Wat is de concentratie hydroxoniumionen?",
         opties=[
-            "10⁻⁵ mol/L",
-            "10⁻⁹ mol/L",
-            "5 mol/L",
-            "10⁵ mol/L",
+            r"\(10^{-5}\) mol/L",
+            r"\(10^{-9}\) mol/L",
+            r"\(5\) mol/L",
+            r"\(10^{5}\) mol/L",
         ],
         antwoord=0,
         uitleg="Je draait de logaritme om: [H₃O⁺] is tien tot de macht min de pH.",
@@ -370,17 +370,17 @@ DEEL2 = [
     ),
     dict(
         type="invultekst",
-        vraag="Welke pH heeft 0,01 mol/L natriumhydroxide?",
+        vraag=r"Welke pH heeft \(0{,}01\) mol/L natriumhydroxide?",
         antwoord=["12", "pH 12", "twaalf"],
-        uitleg="pOH is 2, dus pH is 14 min 2. Reken bij een base altijd eerst de pOH uit.",
+        uitleg=r"pOH is \(2\), dus pH is \(14\) min \(2\). Reken bij een base altijd eerst de pOH uit.",
     ),
     dict(
         type="meerkeuze",
         vraag="Je mengt gelijke volumes van een sterk zuur en een sterke base van dezelfde concentratie. Wat verwacht je?",
         opties=[
-            "een neutrale oplossing met pH 7",
-            "een zure oplossing met pH onder 7",
-            "een basische oplossing met pH boven 7",
+            r"een neutrale oplossing met pH \(7\)",
+            r"een zure oplossing met pH onder \(7\)",
+            r"een basische oplossing met pH boven \(7\)",
             "een oplossing waarvan de pH niet te voorspellen is",
         ],
         antwoord=0,
@@ -391,26 +391,26 @@ DEEL2 = [
         type="meerkeuze",
         vraag="Waarom daalt de pH van een sterk zuur niet onder nul bij gewone concentraties?",
         opties=[
-            "daarvoor zou de concentratie boven 1 mol per liter moeten liggen",
+            r"daarvoor zou de concentratie boven \(1\) mol per liter moeten liggen",
             "de pH-schaal staat negatieve waarden niet toe",
             "water neutraliseert het overschot aan zuur altijd",
             "een sterk zuur ioniseert nooit volledig in water",
         ],
         antwoord=0,
-        uitleg="pH 0 hoort bij 1 mol/L. Bij een nog hogere concentratie kan de pH "
+        uitleg=r"pH \(0\) hoort bij \(1\) mol/L. Bij een nog hogere concentratie kan de pH "
         "inderdaad negatief worden.",
     ),
     dict(
         type="meerkeuze",
         vraag="Welke oplossing heeft de hoogste pH?",
         opties=[
-            "0,1 mol/L natriumhydroxide",
-            "0,001 mol/L natriumhydroxide",
-            "0,1 mol/L azijnzuur",
-            "zuiver water bij 25 °C",
+            r"\(0{,}1\) mol/L natriumhydroxide",
+            r"\(0{,}001\) mol/L natriumhydroxide",
+            r"\(0{,}1\) mol/L azijnzuur",
+            r"zuiver water bij \(25^{\circ}\text{C}\)",
         ],
         antwoord=0,
-        uitleg="0,1 mol/L geeft pOH 1 en dus pH 13. De verdunde base komt maar aan pH 11.",
+        uitleg=r"\(0{,}1\) mol/L geeft pOH \(1\) en dus pH \(13\). De verdunde base komt maar aan pH \(11\).",
     ),
     dict(
         type="waarofniet",
@@ -428,7 +428,7 @@ DEEL2 = [
     ),
     dict(
         type="invultekst",
-        vraag="Hoeveel keer meer hydroxoniumionen zitten er in een oplossing van pH 2 dan in een van pH 4?",
+        vraag=r"Hoeveel keer meer hydroxoniumionen zitten er in een oplossing van pH \(2\) dan in een van pH \(4\)?",
         antwoord=["100", "honderd", "100 keer"],
         uitleg="Twee eenheden verschil op een logaritmische schaal is tien maal tien.",
     ),

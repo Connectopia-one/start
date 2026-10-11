@@ -28,7 +28,7 @@ DEEL1 = [
     ),
     dict(
         type="meerkeuze",
-        vraag="Butaan en 2-methylpropaan hebben dezelfde formule C₄H₁₀. Welk soort isomerie is dat?",
+        vraag=r"Butaan en \(2\)-methylpropaan hebben dezelfde formule C₄H₁₀. Welk soort isomerie is dat?",
         opties=[
             "ketenisomerie",
             "plaatsisomerie",
@@ -43,7 +43,7 @@ DEEL1 = [
         type="invultekst",
         vraag="Hoe heet de isomerie waarbij de functionele groep op een andere plaats in dezelfde keten zit?",
         antwoord=["plaatsisomerie", "plaats", "plaatsisomeer"],
-        uitleg="Propaan-1-ol en propaan-2-ol zijn plaatsisomeren: dezelfde keten, "
+        uitleg=r"Propaan-\(1\)-ol en propaan-\(2\)-ol zijn plaatsisomeren: dezelfde keten, "
         "dezelfde OH-groep, een andere plaats.",
     ),
     dict(
@@ -63,7 +63,7 @@ DEEL1 = [
         type="waarofniet",
         vraag="Twee isomeren hebben altijd hetzelfde smelt- en kookpunt.",
         antwoord=False,
-        uitleg="Butaan kookt bij −0,5 °C en 2-methylpropaan bij −12 °C. De vertakte "
+        uitleg=r"Butaan kookt bij \(-0{,}5^{\circ}\text{C}\) en \(2\)-methylpropaan bij \(-12^{\circ}\text{C}\). De vertakte "
         "keten raakt haar buren minder goed, dus is er minder energie nodig.",
     ),
     dict(
@@ -76,7 +76,7 @@ DEEL1 = [
             "vier",
         ],
         antwoord=0,
-        uitleg="Butaan en 2-methylpropaan, en meer niet. Bij C₅H₁₂ zijn er al drie.",
+        uitleg=r"Butaan en \(2\)-methylpropaan, en meer niet. Bij C₅H₁₂ zijn er al drie.",
     ),
     dict(
         type="meerkeuze",
@@ -88,15 +88,15 @@ DEEL1 = [
             "vijf",
         ],
         antwoord=0,
-        uitleg="Pentaan, 2-methylbutaan en 2,2-dimethylpropaan. Hoe langer de keten, hoe "
+        uitleg=r"Pentaan, \(2\)-methylbutaan en \(2{,}2\)-dimethylpropaan. Hoe langer de keten, hoe "
         "sneller het aantal isomeren oploopt.",
     ),
     dict(
         type="meerkeuze",
         vraag="Welke paren zijn isomeren van elkaar? Kruis alles aan wat juist is.",
         opties=[
-            "butaan en 2-methylpropaan",
-            "propaan-1-ol en propaan-2-ol",
+            r"butaan en \(2\)-methylpropaan",
+            r"propaan-\(1\)-ol en propaan-\(2\)-ol",
             "ethaangas en propaangas",
             "methanol en ethaanzuur",
         ],
@@ -113,7 +113,7 @@ DEEL1 = [
     ),
     dict(
         type="meerkeuze",
-        vraag="But-1-een en but-2-een zijn isomeren. Waarin verschillen ze?",
+        vraag=r"But-\(1\)-een en but-\(2\)-een zijn isomeren. Waarin verschillen ze?",
         opties=[
             "in de plaats van de dubbele binding",
             "in het aantal koolstofatomen van de keten",
@@ -207,7 +207,7 @@ DEEL1 = [
             "vier",
         ],
         antwoord=0,
-        uitleg="Butaan-1-ol en butaan-2-ol. De OH-groep aan het derde of vierde "
+        uitleg=r"Butaan-\(1\)-ol en butaan-\(2\)-ol. De OH-groep aan het derde of vierde "
         "koolstofatoom geeft dezelfde stof, want je mag de keten van de andere kant "
         "nummeren.",
     ),
@@ -239,7 +239,7 @@ DEEL2 = [
         ],
         antwoord=0,
         uitleg="Zitten aan één kant twee gelijke groepen, dan geeft draaien dezelfde "
-        "stof. But-2-een heeft wel een Z- en een E-vorm, but-1-een niet.",
+        r"stof. But-\(2\)-een heeft wel een Z- en een E-vorm, but-\(1\)-een niet.",
     ),
     dict(
         type="meerkeuze",
@@ -271,7 +271,7 @@ DEEL2 = [
             "negen",
         ],
         antwoord=0,
-        uitleg="Het aantal is 2ⁿ, met n het aantal asymmetrische koolstofatomen: 2³ is "
+        uitleg=r"Het aantal is \(2^{n}\), met n het aantal asymmetrische koolstofatomen: \(2^{3}\) is "
         "acht.",
     ),
     dict(
@@ -316,7 +316,7 @@ DEEL2 = [
     ),
     dict(
         type="meerkeuze",
-        vraag="Waaraan herken je dat but-2-een een Z- en een E-vorm heeft?",
+        vraag=r"Waaraan herken je dat but-\(2\)-een een Z- en een E-vorm heeft?",
         opties=[
             "aan elk koolstofatoom van de dubbele binding zit een methylgroep en een waterstofatoom",
             "aan elk koolstofatoom van de dubbele binding zitten twee methylgroepen samen",
@@ -348,7 +348,7 @@ DEEL2 = [
     ),
     dict(
         type="meerkeuze",
-        vraag="Waarom is propaan-2-ol niet chiraal?",
+        vraag=r"Waarom is propaan-\(2\)-ol niet chiraal?",
         opties=[
             "het middelste koolstofatoom draagt twee gelijke methylgroepen",
             "het middelste koolstofatoom draagt geen enkele OH-groep meer",
@@ -376,7 +376,7 @@ DEEL2 = [
         type="invultekst",
         vraag="Hoeveel stereo-isomeren horen bij een molecule met twee asymmetrische koolstofatomen?",
         antwoord=["vier", "4"],
-        uitleg="2² is vier. De regel 2ⁿ geldt voor elk extra asymmetrisch koolstofatoom.",
+        uitleg=r"\(2^{2}\) is vier. De regel \(2^{n}\) geldt voor elk extra asymmetrisch koolstofatoom.",
     ),
     dict(
         type="meerkeuze",
@@ -393,7 +393,7 @@ DEEL2 = [
     ),
     dict(
         type="meerkeuze",
-        vraag="Hoeveel asymmetrische koolstofatomen heeft 2-chloorbutaan?",
+        vraag=r"Hoeveel asymmetrische koolstofatomen heeft \(2\)-chloorbutaan?",
         opties=[
             "een",
             "geen",

@@ -95,15 +95,15 @@ DEEL1 = [
     ),
     dict(
         type="meerkeuze",
-        vraag="Een cel met Cu²⁺/Cu op +0,34 V en Zn²⁺/Zn op −0,76 V. Wat is de bronspanning?",
+        vraag=r"Een cel met Cu²⁺/Cu op +\(0{,}34\) V en Zn²⁺/Zn op \(-0{,}76\) V. Wat is de bronspanning?",
         opties=[
-            "1,10 V",
-            "0,42 V",
-            "0,34 V",
-            "0,76 V",
+            r"\(1{,}10\) V",
+            r"\(0{,}42\) V",
+            r"\(0{,}34\) V",
+            r"\(0{,}76\) V",
         ],
         antwoord=0,
-        uitleg="0,34 min min 0,76 is 1,10 volt. Koper is de kathode, zink de anode.",
+        uitleg=r"\(0{,}34\) min min \(0{,}76\) is \(1{,}10\) volt. Koper is de kathode, zink de anode.",
     ),
     dict(
         type="invultekst",

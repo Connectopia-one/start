@@ -16,7 +16,7 @@
     },
     {
      "soort": "tekst",
-     "html": "De <strong>algemene formule van de n-alkanen is CnH2n+2</strong>: elke extra koolstof brengt twee waterstofatomen mee, en aan de twee uiteinden komt er telkens één bij. Alle <strong>alkanen hebben de uitgang -aan</strong>."
+     "html": "De <strong>algemene formule van de n-alkanen is CnH\\(2n+2\\)</strong>: elke extra koolstof brengt twee waterstofatomen mee, en aan de twee uiteinden komt er telkens één bij. Alle <strong>alkanen hebben de uitgang -aan</strong>."
     },
     {
      "soort": "tekst",
@@ -92,7 +92,7 @@
   }
  ],
  "onthoud": [
-  "Een alkaan heeft enkel koolstof en waterstof met enkelvoudige bindingen; de formule is CnH2n+2.",
+  "Een alkaan heeft enkel koolstof en waterstof met enkelvoudige bindingen; de formule is CnH\\(2n+2\\).",
   "Methaan CH₄, ethaan C₂H₆, propaan C₃H₈, butaan C₄H₁₀, pentaan C₅H₁₂, hexaan C₆H₁₄, heptaan C₇H₁₆, octaan C₈H₁₈, nonaan C₉H₂₀, decaan C₁₀H₂₂.",
   "Een alkeen heeft een dubbele binding (CnH2n), een alkyn een drievoudige; uitgang -een en -yn.",
   "Een alcohol heeft een OH-groep aan koolstof en is geen base; een carbonzuur heeft COOH en geeft H⁺ af.",

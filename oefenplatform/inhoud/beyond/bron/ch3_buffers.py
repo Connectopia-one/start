@@ -82,12 +82,12 @@ DEEL1 = [
     ),
     dict(
         type="meerkeuze",
-        vraag="Een buffer is gemaakt met een zuur met pKz 5. Binnen welk pH-gebied werkt hij goed?",
+        vraag=r"Een buffer is gemaakt met een zuur met pKz \(5\). Binnen welk pH-gebied werkt hij goed?",
         opties=[
-            "ongeveer tussen pH 4 en pH 6",
-            "ongeveer tussen pH 1 en pH 9",
-            "ongeveer tussen pH 6 en pH 8",
-            "enkel precies bij pH 5",
+            r"ongeveer tussen pH \(4\) en pH \(6\)",
+            r"ongeveer tussen pH \(1\) en pH \(9\)",
+            r"ongeveer tussen pH \(6\) en pH \(8\)",
+            r"enkel precies bij pH \(5\)",
         ],
         antwoord=0,
         uitleg="Het bereik is ongeveer de pKz plus of min één eenheid. Daarbuiten is een "
@@ -123,7 +123,7 @@ DEEL1 = [
             "het bloed bevat een sterke base die alles neutraliseert",
         ],
         antwoord=0,
-        uitleg="Dat paar houdt de pH rond 7,4. Een afwijking van een paar tienden is al "
+        uitleg=r"Dat paar houdt de pH rond \(7{,}4\). Een afwijking van een paar tienden is al "
         "levensgevaarlijk.",
     ),
     dict(
@@ -148,7 +148,7 @@ DEEL1 = [
     ),
     dict(
         type="meerkeuze",
-        vraag="Welke stoffen kan je mengen om een buffer rond pH 9 te maken?",
+        vraag=r"Welke stoffen kan je mengen om een buffer rond pH \(9\) te maken?",
         opties=[
             "ammoniak met ammoniumchloride",
             "azijnzuur met natriumacetaat",
@@ -156,8 +156,8 @@ DEEL1 = [
             "zwavelzuur met natriumsulfaat",
         ],
         antwoord=0,
-        uitleg="Het ammoniumion heeft een pKz van ongeveer 9,2, dus ligt het bereik van "
-        "die buffer rond pH 9. Azijnzuur zou je rond pH 5 brengen.",
+        uitleg=r"Het ammoniumion heeft een pKz van ongeveer \(9{,}2\), dus ligt het bereik van "
+        r"die buffer rond pH \(9\). Azijnzuur zou je rond pH \(5\) brengen.",
     ),
     dict(
         type="meerkeuze",
@@ -169,7 +169,7 @@ DEEL1 = [
             "ze is onbeperkt zolang het paar aanwezig is",
         ],
         antwoord=[0, 1],
-        uitleg="Een buffer van 1 mol/L vangt veel meer op dan een van 0,01 mol/L, ook al "
+        uitleg=r"Een buffer van \(1\) mol/L vangt veel meer op dan een van \(0{,}01\) mol/L, ook al "
         "hebben ze dezelfde pH.",
     ),
     dict(
@@ -214,7 +214,7 @@ DEEL1 = [
     ),
     dict(
         type="waarofniet",
-        vraag="Een buffer met pKz 7 is geschikt om een oplossing rond pH 7 te houden.",
+        vraag=r"Een buffer met pKz \(7\) is geschikt om een oplossing rond pH \(7\) te houden.",
         antwoord=True,
         uitleg="Het bereik van een buffer ligt rond de pKz van zijn zuur. Daarom kies je "
         "het zuur op basis van de pH die je nodig hebt.",
@@ -266,9 +266,9 @@ DEEL2 = [
         type="meerkeuze",
         vraag="Bij welke pH ligt het equivalentiepunt van een sterk zuur met een sterke base?",
         opties=[
-            "bij pH 7, want er blijft een neutraal zout over",
-            "boven pH 7, want er blijft een basisch zout over",
-            "onder pH 7, want er blijft een zuur zout over",
+            r"bij pH \(7\), want er blijft een neutraal zout over",
+            r"boven pH \(7\), want er blijft een basisch zout over",
+            r"onder pH \(7\), want er blijft een zuur zout over",
             "dat is niet te voorspellen zonder de constanten",
         ],
         antwoord=0,
@@ -277,7 +277,7 @@ DEEL2 = [
     ),
     dict(
         type="waarofniet",
-        vraag="Bij de titratie van een zwak zuur met een sterke base ligt het equivalentiepunt boven pH 7.",
+        vraag=r"Bij de titratie van een zwak zuur met een sterke base ligt het equivalentiepunt boven pH \(7\).",
         antwoord=True,
         uitleg="Er blijft de geconjugeerde base van een zwak zuur over, en die maakt de "
         "oplossing basisch. Daarom past fenolftaleïen daar goed.",
@@ -287,7 +287,7 @@ DEEL2 = [
         vraag="Hoe kies je een geschikte indicator voor een titratie?",
         opties=[
             "haar omslaggebied moet binnen de pH-sprong van de curve vallen",
-            "haar omslaggebied moet precies bij pH 7 liggen",
+            r"haar omslaggebied moet precies bij pH \(7\) liggen",
             "ze moet dezelfde kleur hebben als de te titreren oplossing",
             "ze moet een sterker zuur zijn dan het zuur dat je titreert",
         ],
@@ -350,29 +350,29 @@ DEEL2 = [
     ),
     dict(
         type="meerkeuze",
-        vraag="Je titreert 20 mL zuur met 0,1 mol/L base en verbruikt 20 mL. Wat is de concentratie van het zuur, als het eenwaardig is?",
+        vraag=r"Je titreert \(20\) mL zuur met \(0{,}1\) mol/L base en verbruikt \(20\) mL. Wat is de concentratie van het zuur, als het eenwaardig is?",
         opties=[
-            "0,1 mol/L",
-            "0,2 mol/L",
-            "0,05 mol/L",
-            "0,02 mol/L",
+            r"\(0{,}1\) mol/L",
+            r"\(0{,}2\) mol/L",
+            r"\(0{,}05\) mol/L",
+            r"\(0{,}02\) mol/L",
         ],
         antwoord=0,
         uitleg="Gelijke volumes en gelijke waardigheid betekent gelijke concentratie: "
-        "0,1 maal 0,020 is 0,002 mol base, dus ook 0,002 mol zuur.",
+        r"\(0{,}1 \cdot 0{,}020\) is \(0{,}002\) mol base, dus ook \(0{,}002\) mol zuur.",
     ),
     dict(
         type="meerkeuze",
-        vraag="Je titreert 20 mL van een tweewaardig zuur met 0,1 mol/L base en verbruikt 40 mL. Wat is de concentratie van het zuur?",
+        vraag=r"Je titreert \(20\) mL van een tweewaardig zuur met \(0{,}1\) mol/L base en verbruikt \(40\) mL. Wat is de concentratie van het zuur?",
         opties=[
-            "0,1 mol/L",
-            "0,2 mol/L",
-            "0,05 mol/L",
-            "0,4 mol/L",
+            r"\(0{,}1\) mol/L",
+            r"\(0{,}2\) mol/L",
+            r"\(0{,}05\) mol/L",
+            r"\(0{,}4\) mol/L",
         ],
         antwoord=0,
-        uitleg="0,004 mol base neutraliseert 0,002 mol tweewaardig zuur. Dat is 0,002 "
-        "gedeeld door 0,020 liter.",
+        uitleg=r"\(0{,}004\) mol base neutraliseert \(0{,}002\) mol tweewaardig zuur. Dat is \(0{,}002\) "
+        r"gedeeld door \(0{,}020\) liter.",
     ),
     dict(
         type="meerkeuze",
@@ -389,7 +389,7 @@ DEEL2 = [
     ),
     dict(
         type="invultekst",
-        vraag="Welk glaswerk gebruik je om precies 20 mL van de onbekende oplossing af te meten?",
+        vraag=r"Welk glaswerk gebruik je om precies \(20\) mL van de onbekende oplossing af te meten?",
         antwoord=["pipet", "een pipet", "maatpipet"],
         uitleg="Een pipet is veel nauwkeuriger dan een maatbeker. Je vult ze met een "
         "pipetvuller, nooit met de mond.",
@@ -404,7 +404,7 @@ DEEL2 = [
             "de sprong verschuift naar een veel hogere pH",
         ],
         antwoord=0,
-        uitleg="Begin en einde liggen dichter bij pH 7, dus is er minder verschil te "
+        uitleg=r"Begin en einde liggen dichter bij pH \(7\), dus is er minder verschil te "
         "overbruggen. Daardoor is de omslag moeilijker te zien.",
     ),
     dict(

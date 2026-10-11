@@ -125,7 +125,7 @@
           "type": "waarofniet",
           "vraag": "De formule-eenheid van een ionverbinding geeft de kleinste verhouding van de ionen, niet één molecule.",
           "antwoord": true,
-          "uitleg": "NaCl bestaat niet als losse molecule: in het rooster staan de ionen in verhouding 1 op 1. Daarom spreken we van een formule-eenheid."
+          "uitleg": "NaCl bestaat niet als losse molecule: in het rooster staan de ionen in verhouding \\(1\\) op \\(1\\). Daarom spreken we van een formule-eenheid."
         },
         {
           "type": "meerkeuze",
@@ -500,9 +500,9 @@
         },
         {
           "type": "waarofniet",
-          "vraag": "De brutoformule van een alkaan met n koolstofatomen is CnH2n+2.",
+          "vraag": "De brutoformule van een alkaan met n koolstofatomen is CnH\\(2n+2\\).",
           "antwoord": true,
-          "uitleg": "Butaan heeft vier koolstofatomen en dus tien waterstofatomen: C₄H₁₀. Bij een alkeen is het CnH2n."
+          "uitleg": "Butaan heeft vier koolstofatomen en dus tien waterstofatomen: C₄H₁₀. Bij een alkeen is het CₙH₂ₙ."
         },
         {
           "type": "meerkeuze",
@@ -541,7 +541,7 @@
             "zes"
           ],
           "antwoord": 0,
-          "uitleg": "Het stamwoord zegt hoeveel koolstofatomen de hoofdketen heeft: meth- 1, eth- 2, prop- 3, but- 4, pent- 5, hex- 6."
+          "uitleg": "Het stamwoord zegt hoeveel koolstofatomen de hoofdketen heeft: meth\\(- 1\\), eth\\(- 2\\), prop\\(- 3\\), but\\(- 4\\), pent\\(- 5\\), hex\\(- 6\\)."
         },
         {
           "type": "invultekst",
@@ -555,7 +555,7 @@
         },
         {
           "type": "meerkeuze",
-          "vraag": "Waarom staat er een cijfer in de naam but-2-een?",
+          "vraag": "Waarom staat er een cijfer in de naam but-\\(2\\)-een?",
           "opties": [
             "het zegt bij welk koolstofatoom de dubbele binding begint",
             "het zegt hoeveel dubbele bindingen er zijn",
@@ -563,13 +563,13 @@
             "het zegt hoeveel vertakkingen er zijn"
           ],
           "antwoord": 0,
-          "uitleg": "In but-1-een zit de dubbele binding vooraan, in but-2-een in het midden. Dat zijn twee verschillende stoffen."
+          "uitleg": "In but-\\(1\\)-een zit de dubbele binding vooraan, in but-\\(2\\)-een in het midden. Dat zijn twee verschillende stoffen."
         },
         {
           "type": "waarofniet",
           "vraag": "Bij het nummeren van de hoofdketen begin je aan de kant die de functionele groep het laagste nummer geeft.",
           "antwoord": true,
-          "uitleg": "Daarom is het propaan-1-ol en niet propaan-3-ol: je kiest het kleinste nummer dat kan."
+          "uitleg": "Daarom is het propaan-\\(1\\)-ol en niet propaan-\\(3\\)-ol: je kiest het kleinste nummer dat kan."
         },
         {
           "type": "meerkeuze",
@@ -644,7 +644,7 @@
             "propanal",
             "propanon",
             "propaanzuur",
-            "propaan-1-ol"
+            "propaan-\\(1\\)-ol"
           ],
           "antwoord": 0,
           "uitleg": "De CHO-groep aan het uiteinde maakt er een aldehyde van, met drie koolstofatomen: propanal."
@@ -685,7 +685,7 @@
         },
         {
           "type": "meerkeuze",
-          "vraag": "Welke beschrijvingen passen bij 2-methylbutaan? Kruis alles aan wat juist is.",
+          "vraag": "Welke beschrijvingen passen bij \\(2\\)-methylbutaan? Kruis alles aan wat juist is.",
           "opties": [
             "vertakt",
             "verzadigd",
@@ -718,7 +718,7 @@
             "als de OH-groep aan het tweede koolstofatoom van de keten zit"
           ],
           "antwoord": 0,
-          "uitleg": "Je kijkt dus naar de buren van dat ene koolstofatoom, niet naar het nummer in de naam. Propaan-2-ol is daarom secundair."
+          "uitleg": "Je kijkt dus naar de buren van dat ene koolstofatoom, niet naar het nummer in de naam. Propaan-\\(2\\)-ol is daarom secundair."
         },
         {
           "type": "waarofniet",
@@ -848,7 +848,7 @@
             "propaanzuur",
             "ethaanzuur",
             "propanal",
-            "propaan-1-ol"
+            "propaan-\\(1\\)-ol"
           ],
           "antwoord": 0,
           "uitleg": "Tel het koolstofatoom van de COOH-groep mee: drie in totaal, dus propaanzuur."
@@ -869,7 +869,7 @@
             "een lineaire keten is altijd langer dan een onvertakte"
           ],
           "antwoord": 0,
-          "uitleg": "De bindingshoek rond koolstof is ongeveer 109°, dus zelfs een onvertakte keten staat in zigzag. We noemen ze lineair omdat er geen zijketen aan hangt."
+          "uitleg": "De bindingshoek rond koolstof is ongeveer \\(109^{\\circ}\\), dus zelfs een onvertakte keten staat in zigzag. We noemen ze lineair omdat er geen zijketen aan hangt."
         },
         {
           "type": "waarofniet",
@@ -907,7 +907,7 @@
         },
         {
           "type": "meerkeuze",
-          "vraag": "Butaan en 2-methylpropaan hebben dezelfde formule C₄H₁₀. Welk soort isomerie is dat?",
+          "vraag": "Butaan en \\(2\\)-methylpropaan hebben dezelfde formule C₄H₁₀. Welk soort isomerie is dat?",
           "opties": [
             "ketenisomerie",
             "plaatsisomerie",
@@ -925,7 +925,7 @@
             "plaats",
             "plaatsisomeer"
           ],
-          "uitleg": "Propaan-1-ol en propaan-2-ol zijn plaatsisomeren: dezelfde keten, dezelfde OH-groep, een andere plaats."
+          "uitleg": "Propaan-\\(1\\)-ol en propaan-\\(2\\)-ol zijn plaatsisomeren: dezelfde keten, dezelfde OH-groep, een andere plaats."
         },
         {
           "type": "meerkeuze",
@@ -943,7 +943,7 @@
           "type": "waarofniet",
           "vraag": "Twee isomeren hebben altijd hetzelfde smelt- en kookpunt.",
           "antwoord": false,
-          "uitleg": "Butaan kookt bij −0,5 °C en 2-methylpropaan bij −12 °C. De vertakte keten raakt haar buren minder goed, dus is er minder energie nodig."
+          "uitleg": "Butaan kookt bij \\(-0{,}5^{\\circ}\\text{C}\\) en \\(2\\)-methylpropaan bij \\(-12^{\\circ}\\text{C}\\). De vertakte keten raakt haar buren minder goed, dus is er minder energie nodig."
         },
         {
           "type": "meerkeuze",
@@ -955,7 +955,7 @@
             "vier"
           ],
           "antwoord": 0,
-          "uitleg": "Butaan en 2-methylpropaan, en meer niet. Bij C₅H₁₂ zijn er al drie."
+          "uitleg": "Butaan en \\(2\\)-methylpropaan, en meer niet. Bij C₅H₁₂ zijn er al drie."
         },
         {
           "type": "meerkeuze",
@@ -967,14 +967,14 @@
             "vijf"
           ],
           "antwoord": 0,
-          "uitleg": "Pentaan, 2-methylbutaan en 2,2-dimethylpropaan. Hoe langer de keten, hoe sneller het aantal isomeren oploopt."
+          "uitleg": "Pentaan, \\(2\\)-methylbutaan en \\(2{,}2\\)-dimethylpropaan. Hoe langer de keten, hoe sneller het aantal isomeren oploopt."
         },
         {
           "type": "meerkeuze",
           "vraag": "Welke paren zijn isomeren van elkaar? Kruis alles aan wat juist is.",
           "opties": [
-            "butaan en 2-methylpropaan",
-            "propaan-1-ol en propaan-2-ol",
+            "butaan en \\(2\\)-methylpropaan",
+            "propaan-\\(1\\)-ol en propaan-\\(2\\)-ol",
             "ethaangas en propaangas",
             "methanol en ethaanzuur"
           ],
@@ -996,7 +996,7 @@
         },
         {
           "type": "meerkeuze",
-          "vraag": "But-1-een en but-2-een zijn isomeren. Waarin verschillen ze?",
+          "vraag": "But-\\(1\\)-een en but-\\(2\\)-een zijn isomeren. Waarin verschillen ze?",
           "opties": [
             "in de plaats van de dubbele binding",
             "in het aantal koolstofatomen van de keten",
@@ -1089,7 +1089,7 @@
             "vier"
           ],
           "antwoord": 0,
-          "uitleg": "Butaan-1-ol en butaan-2-ol. De OH-groep aan het derde of vierde koolstofatoom geeft dezelfde stof, want je mag de keten van de andere kant nummeren."
+          "uitleg": "Butaan-\\(1\\)-ol en butaan-\\(2\\)-ol. De OH-groep aan het derde of vierde koolstofatoom geeft dezelfde stof, want je mag de keten van de andere kant nummeren."
         },
         {
           "type": "waarofniet",
@@ -1124,7 +1124,7 @@
             "de koolstofketen bestaat uit minstens vier koolstofatomen op een rij"
           ],
           "antwoord": 0,
-          "uitleg": "Zitten aan één kant twee gelijke groepen, dan geeft draaien dezelfde stof. But-2-een heeft wel een Z- en een E-vorm, but-1-een niet."
+          "uitleg": "Zitten aan één kant twee gelijke groepen, dan geeft draaien dezelfde stof. But-\\(2\\)-een heeft wel een Z- en een E-vorm, but-\\(1\\)-een niet."
         },
         {
           "type": "meerkeuze",
@@ -1158,7 +1158,7 @@
             "negen"
           ],
           "antwoord": 0,
-          "uitleg": "Het aantal is 2ⁿ, met n het aantal asymmetrische koolstofatomen: 2³ is acht."
+          "uitleg": "Het aantal is \\(2^{n}\\), met n het aantal asymmetrische koolstofatomen: \\(2^{3}\\) is acht."
         },
         {
           "type": "waarofniet",
@@ -1205,7 +1205,7 @@
         },
         {
           "type": "meerkeuze",
-          "vraag": "Waaraan herken je dat but-2-een een Z- en een E-vorm heeft?",
+          "vraag": "Waaraan herken je dat but-\\(2\\)-een een Z- en een E-vorm heeft?",
           "opties": [
             "aan elk koolstofatoom van de dubbele binding zit een methylgroep en een waterstofatoom",
             "aan elk koolstofatoom van de dubbele binding zitten twee methylgroepen samen",
@@ -1235,7 +1235,7 @@
         },
         {
           "type": "meerkeuze",
-          "vraag": "Waarom is propaan-2-ol niet chiraal?",
+          "vraag": "Waarom is propaan-\\(2\\)-ol niet chiraal?",
           "opties": [
             "het middelste koolstofatoom draagt twee gelijke methylgroepen",
             "het middelste koolstofatoom draagt geen enkele OH-groep meer",
@@ -1267,7 +1267,7 @@
             "vier",
             "4"
           ],
-          "uitleg": "2² is vier. De regel 2ⁿ geldt voor elk extra asymmetrisch koolstofatoom."
+          "uitleg": "\\(2^{2}\\) is vier. De regel \\(2^{n}\\) geldt voor elk extra asymmetrisch koolstofatoom."
         },
         {
           "type": "meerkeuze",
@@ -1283,7 +1283,7 @@
         },
         {
           "type": "meerkeuze",
-          "vraag": "Hoeveel asymmetrische koolstofatomen heeft 2-chloorbutaan?",
+          "vraag": "Hoeveel asymmetrische koolstofatomen heeft \\(2\\)-chloorbutaan?",
           "opties": [
             "een",
             "geen",
@@ -1377,7 +1377,7 @@
             "de draairichting van het elektron om zijn eigen as"
           ],
           "antwoord": 0,
-          "uitleg": "n is 1, 2, 3 … Hoe groter n, hoe verder van de kern en hoe hoger de energie."
+          "uitleg": "n is \\(1\\), \\(2\\), \\(3\\) … Hoe groter n, hoe verder van de kern en hoe hoger de energie."
         },
         {
           "type": "waarofniet",
@@ -1395,7 +1395,7 @@
             "veertien"
           ],
           "antwoord": 0,
-          "uitleg": "Een p-subniveau heeft drie orbitalen van twee elektronen. s heeft er 2, d 10 en f 14."
+          "uitleg": "Een p-subniveau heeft drie orbitalen van twee elektronen. s heeft er \\(2\\), d \\(10\\) en f \\(14\\)."
         },
         {
           "type": "meerkeuze",
@@ -1529,7 +1529,7 @@
             "acht"
           ],
           "antwoord": 0,
-          "uitleg": "De valentie-elektronen zijn die van het hoogste hoofdniveau: 2 plus 3 is 5. Dat is fosfor, uit de stikstofgroep."
+          "uitleg": "De valentie-elektronen zijn die van het hoogste hoofdniveau: \\(2\\) plus \\(3\\) is \\(5\\). Dat is fosfor, uit de stikstofgroep."
         },
         {
           "type": "waarofniet",
@@ -1567,7 +1567,7 @@
         },
         {
           "type": "meerkeuze",
-          "vraag": "Hoe heet groep 17 van het periodiek systeem?",
+          "vraag": "Hoe heet groep \\(17\\) van het periodiek systeem?",
           "opties": [
             "de halogenen",
             "de edelgassen",
@@ -1585,7 +1585,7 @@
             "de alkalimetalen",
             "alkalimetaal"
           ],
-          "uitleg": "Groep 1, met één valentie-elektron. Ze reageren heftig met water en vormen daarbij een hydroxide."
+          "uitleg": "Groep \\(1\\), met één valentie-elektron. Ze reageren heftig met water en vormen daarbij een hydroxide."
         },
         {
           "type": "meerkeuze",
@@ -1669,11 +1669,11 @@
           "type": "waarofniet",
           "vraag": "Het groepsnummer van een hoofdgroepelement heeft niets te maken met het aantal valentie-elektronen.",
           "antwoord": false,
-          "uitleg": "Het heeft er net alles mee te maken: groep 1 heeft er één, groep 2 twee, groep 16 zes en groep 17 zeven."
+          "uitleg": "Het heeft er net alles mee te maken: groep \\(1\\) heeft er één, groep \\(2\\) twee, groep \\(16\\) zes en groep \\(17\\) zeven."
         },
         {
           "type": "meerkeuze",
-          "vraag": "Welk oxidatiegetal verwacht je bij een element uit groep 2?",
+          "vraag": "Welk oxidatiegetal verwacht je bij een element uit groep \\(2\\)?",
           "opties": [
             "+II",
             "+I",
@@ -1706,19 +1706,19 @@
             "de zuurstofgroep",
             "zuurstofgroep 16"
           ],
-          "uitleg": "Groep 16, met zes valentie-elektronen. Ze nemen er dus graag twee op en vormen een ion met lading 2−."
+          "uitleg": "Groep \\(16\\), met zes valentie-elektronen. Ze nemen er dus graag twee op en vormen een ion met lading \\(2\\)−."
         },
         {
           "type": "meerkeuze",
           "vraag": "Een atoom heeft de configuratie [Ar] 4s² 3d¹⁰ 4p⁵. In welke groep staat het?",
           "opties": [
-            "in groep 17, bij de halogenen",
-            "in groep 15, bij de stikstofgroep",
-            "in groep 13, bij de aardmetalen",
-            "in groep 18, bij de edelgassen"
+            "in groep \\(17\\), bij de halogenen",
+            "in groep \\(15\\), bij de stikstofgroep",
+            "in groep \\(13\\), bij de aardmetalen",
+            "in groep \\(18\\), bij de edelgassen"
           ],
           "antwoord": 0,
-          "uitleg": "Tel de elektronen van het hoogste hoofdniveau: 2 in 4s en 5 in 4p is 7. Dat is broom."
+          "uitleg": "Tel de elektronen van het hoogste hoofdniveau: \\(2\\) in 4s en \\(5\\) in 4p is \\(7\\). Dat is broom."
         },
         {
           "type": "meerkeuze",
@@ -1767,7 +1767,7 @@
             "het p-blok",
             "p"
           ],
-          "uitleg": "Het blok draagt de naam van het subniveau dat als laatste gevuld wordt. Groep 13 tot 18 vormen samen het p-blok."
+          "uitleg": "Het blok draagt de naam van het subniveau dat als laatste gevuld wordt. Groep \\(13\\) tot \\(18\\) vormen samen het p-blok."
         }
       ]
     },
@@ -1838,7 +1838,7 @@
             "ze wordt eerst langer en daarna korter, afhankelijk van de stof"
           ],
           "antwoord": 0,
-          "uitleg": "Een C-C is ongeveer 154 pm, een C=C 134 pm en een C≡C 120 pm. Meer bindingen betekent korter en sterker."
+          "uitleg": "Een C-C is ongeveer \\(154\\) pm, een C=C \\(134\\) pm en een C≡C \\(120\\) pm. Meer bindingen betekent korter en sterker."
         },
         {
           "type": "meerkeuze",
@@ -2059,7 +2059,7 @@
             "het aantal bindende paren min het aantal vrije paren van het atoom"
           ],
           "antwoord": 0,
-          "uitleg": "Voor het stikstofatoom in NH₄⁺: 5 − 0 − 4 geeft +1. Dat verklaart de lading van het hele ion."
+          "uitleg": "Voor het stikstofatoom in NH₄⁺: \\(5 - 0 - 4\\) geeft +\\(1\\). Dat verklaart de lading van het hele ion."
         },
         {
           "type": "meerkeuze",
@@ -2133,9 +2133,9 @@
           "vraag": "Welke uitspraken over het ammoniumion NH₄⁺ zijn juist? Kruis alles aan wat juist is.",
           "opties": [
             "het heeft vier bindende elektronenparen",
-            "het stikstofatoom heeft formele lading +1",
+            "het stikstofatoom heeft formele lading +\\(1\\)",
             "het heeft nog één vrij elektronenpaar over",
-            "het stikstofatoom heeft formele lading −1"
+            "het stikstofatoom heeft formele lading \\(-1\\)"
           ],
           "antwoord": [
             0,
@@ -2154,7 +2154,7 @@
         },
         {
           "type": "meerkeuze",
-          "vraag": "Een polyatomisch ion heeft een lading van 2−. Wat betekent dat voor de lewisstructuur?",
+          "vraag": "Een polyatomisch ion heeft een lading van \\(2\\)−. Wat betekent dat voor de lewisstructuur?",
           "opties": [
             "er zitten twee elektronen meer in dan de neutrale atomen samen hebben",
             "er zitten twee protonen minder in dan de neutrale atomen samen hebben",
@@ -2231,7 +2231,7 @@
         },
         {
           "type": "meerkeuze",
-          "vraag": "Welke ruimtelijke structuur hoort bij sterisch getal 4 zonder vrije elektronenparen?",
+          "vraag": "Welke ruimtelijke structuur hoort bij sterisch getal \\(4\\) zonder vrije elektronenparen?",
           "opties": [
             "een tetraëder",
             "een vlakke driehoek",
@@ -2243,31 +2243,31 @@
         },
         {
           "type": "invultekst",
-          "vraag": "Welk hybridisatietype hoort bij sterisch getal 4?",
+          "vraag": "Welk hybridisatietype hoort bij sterisch getal \\(4\\)?",
           "antwoord": [
             "sp3",
             "sp³",
             "sp3-hybridisatie"
           ],
-          "uitleg": "Eén s-orbitaal en drie p-orbitalen mengen tot vier gelijke orbitalen. Bij sterisch getal 3 is het sp² en bij 2 is het sp."
+          "uitleg": "Eén s-orbitaal en drie p-orbitalen mengen tot vier gelijke orbitalen. Bij sterisch getal \\(3\\) is het sp² en bij \\(2\\) is het sp."
         },
         {
           "type": "meerkeuze",
           "vraag": "Wat is de theoretische bindingshoek bij een tetraëder?",
           "opties": [
-            "109,5°",
-            "120°",
-            "90°",
-            "180°"
+            "\\(109{,}5^{\\circ}\\)",
+            "\\(120^{\\circ}\\)",
+            "\\(90^{\\circ}\\)",
+            "\\(180^{\\circ}\\)"
           ],
           "antwoord": 0,
-          "uitleg": "Bij een vlakke driehoek is het 120° en bij een lineaire vorm 180°. De werkelijke hoek wijkt af als er vrije paren zijn."
+          "uitleg": "Bij een vlakke driehoek is het \\(120^{\\circ}\\) en bij een lineaire vorm \\(180^{\\circ}\\). De werkelijke hoek wijkt af als er vrije paren zijn."
         },
         {
           "type": "waarofniet",
           "vraag": "Een vrij elektronenpaar duwt harder op de bindingen dan een bindend paar.",
           "antwoord": true,
-          "uitleg": "Een vrij paar hangt dichter bij het centrale atoom en neemt meer plaats. Daardoor is de hoek in water maar 104,5° in plaats van 109,5°."
+          "uitleg": "Een vrij paar hangt dichter bij het centrale atoom en neemt meer plaats. Daardoor is de hoek in water maar \\(104{,}5^{\\circ}\\) in plaats van \\(109{,}5^{\\circ}\\)."
         },
         {
           "type": "meerkeuze",
@@ -2279,7 +2279,7 @@
             "ammoniak heeft een dubbele binding naar het stikstofatoom"
           ],
           "antwoord": 0,
-          "uitleg": "Beide hebben sterisch getal vier, maar bij ammoniak is één hoek van de tetraëder bezet door een vrij paar: 107° in plaats van 109,5°."
+          "uitleg": "Beide hebben sterisch getal vier, maar bij ammoniak is één hoek van de tetraëder bezet door een vrij paar: \\(107^{\\circ}\\) in plaats van \\(109{,}5^{\\circ}\\)."
         },
         {
           "type": "meerkeuze",
@@ -2306,17 +2306,17 @@
             0,
             1
           ],
-          "uitleg": "Twee dubbele bindingen tellen als twee partners, en er zijn geen vrije paren op koolstof. Dus 180° en sp-hybridisatie."
+          "uitleg": "Twee dubbele bindingen tellen als twee partners, en er zijn geen vrije paren op koolstof. Dus \\(180^{\\circ}\\) en sp-hybridisatie."
         },
         {
           "type": "invultekst",
-          "vraag": "Welke ruimtelijke structuur hoort bij sterisch getal 2?",
+          "vraag": "Welke ruimtelijke structuur hoort bij sterisch getal \\(2\\)?",
           "antwoord": [
             "lineair",
             "lineaire",
             "een lijn"
           ],
-          "uitleg": "Twee partners gaan recht tegenover elkaar staan: 180°. Dat is de vorm van CO₂ en van ethyn rond de koolstofatomen."
+          "uitleg": "Twee partners gaan recht tegenover elkaar staan: \\(180^{\\circ}\\). Dat is de vorm van CO₂ en van ethyn rond de koolstofatomen."
         },
         {
           "type": "meerkeuze",
@@ -2328,13 +2328,13 @@
             "sp⁴"
           ],
           "antwoord": 0,
-          "uitleg": "Drie bindingspartners geeft sterisch getal drie, dus sp² en een vlakke driehoek met hoeken van ongeveer 120°."
+          "uitleg": "Drie bindingspartners geeft sterisch getal drie, dus sp² en een vlakke driehoek met hoeken van ongeveer \\(120^{\\circ}\\)."
         },
         {
           "type": "waarofniet",
-          "vraag": "Een molecule met sterisch getal 3 en één vrij elektronenpaar is lineair.",
+          "vraag": "Een molecule met sterisch getal \\(3\\) en één vrij elektronenpaar is lineair.",
           "antwoord": false,
-          "uitleg": "Ze is vlak en geknikt. Zwaveldioxide is zo gebouwd: twee bindingen en één vrij paar in een vlak, met een hoek van ongeveer 119°."
+          "uitleg": "Ze is vlak en geknikt. Zwaveldioxide is zo gebouwd: twee bindingen en één vrij paar in een vlak, met een hoek van ongeveer \\(119^{\\circ}\\)."
         },
         {
           "type": "meerkeuze",
@@ -2373,11 +2373,11 @@
             0,
             1
           ],
-          "uitleg": "Methaan haalt netjes 109,5°, ammoniak 107° en water 104,5°: elk vrij paar duwt de hoek een stukje kleiner."
+          "uitleg": "Methaan haalt netjes \\(109{,}5^{\\circ}\\), ammoniak \\(107^{\\circ}\\) en water \\(104{,}5^{\\circ}\\): elk vrij paar duwt de hoek een stukje kleiner."
         },
         {
           "type": "invultekst",
-          "vraag": "Hoeveel bindingspartners heeft een centraal atoom met sterisch getal 4 en één vrij elektronenpaar?",
+          "vraag": "Hoeveel bindingspartners heeft een centraal atoom met sterisch getal \\(4\\) en één vrij elektronenpaar?",
           "antwoord": [
             "drie",
             "3"
@@ -2428,7 +2428,7 @@
             "120",
             "120 graden"
           ],
-          "uitleg": "Drie richtingen in een vlak verdelen 360° eerlijk. Bij etheen meet men daardoor hoeken van ongeveer 120°."
+          "uitleg": "Drie richtingen in een vlak verdelen \\(360^{\\circ}\\) eerlijk. Bij etheen meet men daardoor hoeken van ongeveer \\(120^{\\circ}\\)."
         }
       ]
     },
@@ -2487,7 +2487,7 @@
           "type": "waarofniet",
           "vraag": "Een waterstofbrug is sterker dan een gewone dipoolkracht.",
           "antwoord": true,
-          "uitleg": "Daarom kookt water bij 100 °C, terwijl waterstofsulfide met bijna dezelfde massa al bij −60 °C een gas is."
+          "uitleg": "Daarom kookt water bij \\(100^{\\circ}\\text{C}\\), terwijl waterstofsulfide met bijna dezelfde massa al bij \\(-60^{\\circ}\\text{C}\\) een gas is."
         },
         {
           "type": "meerkeuze",
@@ -2661,35 +2661,35 @@
           "type": "meerkeuze",
           "vraag": "Hoeveel deeltjes zitten er in één mol van een stof?",
           "opties": [
-            "6,022 × 10²³",
-            "6,022 × 10²²",
-            "3,011 × 10²³",
-            "1,000 × 10²³"
+            "\\(6{,}022 \\cdot 10^{23}\\)",
+            "\\(6{,}022 \\cdot 10^{22}\\)",
+            "\\(3{,}011 \\cdot 10^{23}\\)",
+            "\\(1{,}000 \\cdot 10^{23}\\)"
           ],
           "antwoord": 0,
           "uitleg": "Dat is het getal van Avogadro. Het geldt voor atomen, moleculen en ionen evengoed."
         },
         {
           "type": "meerkeuze",
-          "vraag": "Wat is de molaire massa van water, als H 1 g/mol en O 16 g/mol weegt?",
+          "vraag": "Wat is de molaire massa van water, als H \\(1\\) g/mol en O \\(16\\) g/mol weegt?",
           "opties": [
-            "18 g/mol",
-            "17 g/mol",
-            "20 g/mol",
-            "34 g/mol"
+            "\\(18\\) g/mol",
+            "\\(17\\) g/mol",
+            "\\(20\\) g/mol",
+            "\\(34\\) g/mol"
           ],
           "antwoord": 0,
-          "uitleg": "Twee keer 1 plus 16 is 18. Eén mol water weegt dus 18 gram."
+          "uitleg": "Twee keer \\(1\\) plus \\(16\\) is \\(18\\). Eén mol water weegt dus \\(18\\) gram."
         },
         {
           "type": "invultekst",
-          "vraag": "Hoeveel mol water zit er in 36 gram water, met een molaire massa van 18 g/mol?",
+          "vraag": "Hoeveel mol water zit er in \\(36\\) gram water, met een molaire massa van \\(18\\) g/mol?",
           "antwoord": [
             "2",
             "2 mol",
             "twee"
           ],
-          "uitleg": "n is m gedeeld door M: 36 gedeeld door 18 is 2 mol. Daarin zitten dus twee keer het getal van Avogadro aan moleculen."
+          "uitleg": "n is m gedeeld door M: \\(36 : 18\\) is \\(2\\) mol. Daarin zitten dus twee keer het getal van Avogadro aan moleculen."
         },
         {
           "type": "meerkeuze",
@@ -2707,19 +2707,19 @@
           "type": "waarofniet",
           "vraag": "Eén mol zuurstofgas en één mol waterstofgas bevatten evenveel moleculen.",
           "antwoord": true,
-          "uitleg": "Het aantal is altijd het getal van Avogadro. Hun massa verschilt wel: 32 gram tegenover 2 gram."
+          "uitleg": "Het aantal is altijd het getal van Avogadro. Hun massa verschilt wel: \\(32\\) gram tegenover \\(2\\) gram."
         },
         {
           "type": "meerkeuze",
-          "vraag": "Hoeveel weegt 0,5 mol koolstofdioxide, met een molaire massa van 44 g/mol?",
+          "vraag": "Hoeveel weegt \\(0{,}5\\) mol koolstofdioxide, met een molaire massa van \\(44\\) g/mol?",
           "opties": [
-            "22 gram",
-            "44 gram",
-            "88 gram",
-            "11 gram"
+            "\\(22\\) gram",
+            "\\(44\\) gram",
+            "\\(88\\) gram",
+            "\\(11\\) gram"
           ],
           "antwoord": 0,
-          "uitleg": "m is n maal M: 0,5 maal 44 is 22 gram."
+          "uitleg": "m is n maal M: \\(0{,}5 \\cdot 44\\) is \\(22\\) gram."
         },
         {
           "type": "meerkeuze",
@@ -2734,15 +2734,15 @@
             0,
             1
           ],
-          "uitleg": "De massadichtheid is massa per volume, bijvoorbeeld in g/cm³. Voor water is dat ongeveer 1 g/cm³."
+          "uitleg": "De massadichtheid is massa per volume, bijvoorbeeld in g/\\(\\text{cm}^{3}\\). Voor water is dat ongeveer \\(1\\) g/\\(\\text{cm}^{3}\\)."
         },
         {
           "type": "meerkeuze",
           "vraag": "Welke uitspraken over één mol ijzer zijn juist? Kruis alles aan wat juist is.",
           "opties": [
-            "het bevat 6,022 × 10²³ atomen",
-            "het weegt 56 gram als de molaire massa 56 g/mol is",
-            "het bevat 56 atomen ijzer",
+            "het bevat \\(6{,}022 \\cdot 10^{23}\\) atomen",
+            "het weegt \\(56\\) gram als de molaire massa \\(56\\) g/mol is",
+            "het bevat \\(56\\) atomen ijzer",
             "het weegt altijd evenveel als één mol koper"
           ],
           "antwoord": [
@@ -2753,25 +2753,25 @@
         },
         {
           "type": "invultekst",
-          "vraag": "Hoeveel gram weegt 2 mol natriumchloride, met een molaire massa van 58,5 g/mol?",
+          "vraag": "Hoeveel gram weegt \\(2\\) mol natriumchloride, met een molaire massa van \\(58{,}5\\) g/mol?",
           "antwoord": [
             "117",
             "117 g",
             "117 gram"
           ],
-          "uitleg": "Twee keer 58,5 is 117 gram. Dat is dus twee keer het getal van Avogadro aan formule-eenheden."
+          "uitleg": "Twee keer \\(58{,}5\\) is \\(117\\) gram. Dat is dus twee keer het getal van Avogadro aan formule-eenheden."
         },
         {
           "type": "meerkeuze",
-          "vraag": "Hoeveel moleculen zitten er in 2 mol van een stof?",
+          "vraag": "Hoeveel moleculen zitten er in \\(2\\) mol van een stof?",
           "opties": [
-            "ongeveer 1,2 × 10²⁴",
-            "ongeveer 1,2 × 10²³",
-            "ongeveer 3,0 × 10²³",
-            "ongeveer 6,0 × 10²³"
+            "ongeveer \\(1{,}2 \\cdot 10^{24}\\)",
+            "ongeveer \\(1{,}2 \\cdot 10^{23}\\)",
+            "ongeveer \\(3{,}0 \\cdot 10^{23}\\)",
+            "ongeveer \\(6{,}0 \\cdot 10^{23}\\)"
           ],
           "antwoord": 0,
-          "uitleg": "Twee keer 6,022 × 10²³ is 1,2044 × 10²⁴. Let op het verspringen van de exponent bij het verdubbelen."
+          "uitleg": "Twee keer \\(6{,}022 \\cdot 10^{23}\\) is \\(1{,}2044 \\cdot 10^{24}\\). Let op het verspringen van de exponent bij het verdubbelen."
         },
         {
           "type": "waarofniet",
@@ -2781,27 +2781,27 @@
         },
         {
           "type": "meerkeuze",
-          "vraag": "Wat is de molaire massa van zwavelzuur H₂SO₄, met H 1, S 32 en O 16 g/mol?",
+          "vraag": "Wat is de molaire massa van zwavelzuur H₂SO₄, met H \\(1\\), S \\(32\\) en O \\(16\\) g/mol?",
           "opties": [
-            "98 g/mol",
-            "96 g/mol",
-            "82 g/mol",
-            "114 g/mol"
+            "\\(98\\) g/mol",
+            "\\(96\\) g/mol",
+            "\\(82\\) g/mol",
+            "\\(114\\) g/mol"
           ],
           "antwoord": 0,
-          "uitleg": "Twee keer 1, plus 32, plus vier keer 16: 2 plus 32 plus 64 is 98."
+          "uitleg": "Twee keer \\(1\\), plus \\(32\\), plus vier keer \\(16\\): \\(2\\) plus \\(32\\) plus \\(64\\) is \\(98\\)."
         },
         {
           "type": "meerkeuze",
           "vraag": "Welk volume neemt één mol gas in bij normomstandigheden?",
           "opties": [
-            "22,4 liter",
-            "24,0 liter",
-            "1,0 liter",
-            "18,0 liter"
+            "\\(22{,}4\\) liter",
+            "\\(24{,}0\\) liter",
+            "\\(1{,}0\\) liter",
+            "\\(18{,}0\\) liter"
           ],
           "antwoord": 0,
-          "uitleg": "Dat is het molair volume bij 0 °C en normale druk. Het is voor elk gas ongeveer gelijk."
+          "uitleg": "Dat is het molair volume bij \\(0^{\\circ}\\text{C}\\) en normale druk. Het is voor elk gas ongeveer gelijk."
         },
         {
           "type": "meerkeuze",
@@ -2820,7 +2820,7 @@
         },
         {
           "type": "invultekst",
-          "vraag": "Hoeveel mol is 100 gram calciumcarbonaat, met een molaire massa van 100 g/mol?",
+          "vraag": "Hoeveel mol is \\(100\\) gram calciumcarbonaat, met een molaire massa van \\(100\\) g/mol?",
           "antwoord": [
             "1",
             "1 mol",
@@ -2842,19 +2842,19 @@
         },
         {
           "type": "meerkeuze",
-          "vraag": "Wat is de massa van 3 mol waterstofgas, met een molaire massa van 2 g/mol?",
+          "vraag": "Wat is de massa van \\(3\\) mol waterstofgas, met een molaire massa van \\(2\\) g/mol?",
           "opties": [
-            "6 gram",
-            "3 gram",
-            "1,5 gram",
-            "2 gram"
+            "\\(6\\) gram",
+            "\\(3\\) gram",
+            "\\(1{,}5\\) gram",
+            "\\(2\\) gram"
           ],
           "antwoord": 0,
           "uitleg": "Drie maal twee is zes gram. Waterstofgas is H₂, dus twee gram per mol en niet één."
         },
         {
           "type": "waarofniet",
-          "vraag": "Eén mol van een gas neemt altijd 22,4 liter in, bij elke temperatuur.",
+          "vraag": "Eén mol van een gas neemt altijd \\(22{,}4\\) liter in, bij elke temperatuur.",
           "antwoord": false,
           "uitleg": "Dat geldt enkel bij normomstandigheden. Warm je het gas op, dan zet het uit en neemt het meer plaats in."
         },
@@ -2872,7 +2872,7 @@
             "dichtheid",
             "de dichtheid"
           ],
-          "uitleg": "Ze zegt hoeveel massa er in een bepaald volume zit. Voor water is dat ongeveer 1 g/cm³, voor ijzer bijna 8."
+          "uitleg": "Ze zegt hoeveel massa er in een bepaald volume zit. Voor water is dat ongeveer \\(1\\) g/\\(\\text{cm}^{3}\\), voor ijzer bijna \\(8\\)."
         }
       ]
     },
@@ -2883,37 +2883,37 @@
       "vragen": [
         {
           "type": "meerkeuze",
-          "vraag": "Wat is de molaire concentratie van een oplossing met 0,5 mol opgeloste stof in 2 liter?",
+          "vraag": "Wat is de molaire concentratie van een oplossing met \\(0{,}5\\) mol opgeloste stof in \\(2\\) liter?",
           "opties": [
-            "0,25 mol/L",
-            "1,0 mol/L",
-            "2,5 mol/L",
-            "0,5 mol/L"
+            "\\(0{,}25\\) mol/L",
+            "\\(1{,}0\\) mol/L",
+            "\\(2{,}5\\) mol/L",
+            "\\(0{,}5\\) mol/L"
           ],
           "antwoord": 0,
-          "uitleg": "c is n gedeeld door V: 0,5 gedeeld door 2 is 0,25 mol per liter."
+          "uitleg": "c is n gedeeld door V: \\(0{,}5 : 2\\) is \\(0{,}25\\) mol per liter."
         },
         {
           "type": "meerkeuze",
-          "vraag": "Wat betekent een massaprocent van 5 % in een oplossing?",
+          "vraag": "Wat betekent een massaprocent van \\(5\\,\\%\\) in een oplossing?",
           "opties": [
-            "5 gram opgeloste stof per 100 gram oplossing",
-            "5 gram opgeloste stof per 100 milliliter water",
-            "5 mol opgeloste stof per 100 gram oplossing",
-            "5 milliliter opgeloste stof per 100 gram water"
+            "\\(5\\) gram opgeloste stof per \\(100\\) gram oplossing",
+            "\\(5\\) gram opgeloste stof per \\(100\\) milliliter water",
+            "\\(5\\) mol opgeloste stof per \\(100\\) gram oplossing",
+            "\\(5\\) milliliter opgeloste stof per \\(100\\) gram water"
           ],
           "antwoord": 0,
           "uitleg": "Let op het woord oplossing: de massa van het oplosmiddel én van de opgeloste stof samen."
         },
         {
           "type": "invultekst",
-          "vraag": "Hoeveel gram zout zit er in 200 gram oplossing van 10 massaprocent?",
+          "vraag": "Hoeveel gram zout zit er in \\(200\\) gram oplossing van \\(10\\) massaprocent?",
           "antwoord": [
             "20",
             "20 g",
             "20 gram"
           ],
-          "uitleg": "Tien procent van 200 gram is 20 gram zout, en dus 180 gram water."
+          "uitleg": "Tien procent van \\(200\\) gram is \\(20\\) gram zout, en dus \\(180\\) gram water."
         },
         {
           "type": "meerkeuze",
@@ -2935,24 +2935,24 @@
         },
         {
           "type": "meerkeuze",
-          "vraag": "Je verdunt 10 mL van een oplossing van 2 mol/L tot 100 mL. Wat is de nieuwe concentratie?",
+          "vraag": "Je verdunt \\(10\\) mL van een oplossing van \\(2\\) mol/L tot \\(100\\) mL. Wat is de nieuwe concentratie?",
           "opties": [
-            "0,2 mol/L",
-            "0,02 mol/L",
-            "2,0 mol/L",
-            "20 mol/L"
+            "\\(0{,}2\\) mol/L",
+            "\\(0{,}02\\) mol/L",
+            "\\(2{,}0\\) mol/L",
+            "\\(20\\) mol/L"
           ],
           "antwoord": 0,
-          "uitleg": "Het volume wordt tien keer groter, dus de concentratie tien keer kleiner: 2 gedeeld door 10 is 0,2 mol/L."
+          "uitleg": "Het volume wordt tien keer groter, dus de concentratie tien keer kleiner: \\(2 : 10\\) is \\(0{,}2\\) mol/L."
         },
         {
           "type": "meerkeuze",
-          "vraag": "Wat betekent 1 ppm voor een stof in water? Kruis alles aan wat juist is.",
+          "vraag": "Wat betekent \\(1\\) ppm voor een stof in water? Kruis alles aan wat juist is.",
           "opties": [
             "één deel op een miljoen",
-            "1 milligram per liter water",
+            "\\(1\\) milligram per liter water",
             "één deel op duizend",
-            "1 gram per liter water"
+            "\\(1\\) gram per liter water"
           ],
           "antwoord": [
             0,
@@ -2973,26 +2973,26 @@
             0,
             1
           ],
-          "uitleg": "De molaire concentratie rekent in mol per liter, het volumeprocent in milliliter per 100 milliliter."
+          "uitleg": "De molaire concentratie rekent in mol per liter, het volumeprocent in milliliter per \\(100\\) milliliter."
         },
         {
           "type": "invultekst",
-          "vraag": "Hoeveel mol opgeloste stof zit er in 500 mL van een oplossing van 0,2 mol/L?",
+          "vraag": "Hoeveel mol opgeloste stof zit er in \\(500\\) mL van een oplossing van \\(0{,}2\\) mol/L?",
           "antwoord": [
             "0,1",
             "0,1 mol",
             "0.1"
           ],
-          "uitleg": "n is c maal V, met V in liter: 0,2 maal 0,5 is 0,1 mol."
+          "uitleg": "n is c maal V, met V in liter: \\(0{,}2 \\cdot 0{,}5\\) is \\(0{,}1\\) mol."
         },
         {
           "type": "meerkeuze",
-          "vraag": "Een wijn van 12 volumeprocent alcohol. Wat betekent dat?",
+          "vraag": "Een wijn van \\(12\\) volumeprocent alcohol. Wat betekent dat?",
           "opties": [
-            "12 mL alcohol per 100 mL wijn",
-            "12 gram alcohol per 100 mL wijn",
-            "12 mL alcohol per 100 gram wijn",
-            "12 mol alcohol per 100 mL wijn"
+            "\\(12\\) mL alcohol per \\(100\\) mL wijn",
+            "\\(12\\) gram alcohol per \\(100\\) mL wijn",
+            "\\(12\\) mL alcohol per \\(100\\) gram wijn",
+            "\\(12\\) mol alcohol per \\(100\\) mL wijn"
           ],
           "antwoord": 0,
           "uitleg": "Volumeprocent vergelijkt volumes met elkaar. Bij vaste stoffen in een vloeistof gebruikt men liever massavolumeprocent."
@@ -3005,7 +3005,7 @@
         },
         {
           "type": "meerkeuze",
-          "vraag": "Een verbinding bestaat uit 40 % koolstof, 6,7 % waterstof en 53,3 % zuurstof. Welke formule past?",
+          "vraag": "Een verbinding bestaat uit \\(40\\,\\%\\) koolstof, \\(6{,}7\\,\\%\\) waterstof en \\(53{,}3\\,\\%\\) zuurstof. Welke formule past?",
           "opties": [
             "CH₂O",
             "C₂H₄O",
@@ -3013,19 +3013,19 @@
             "C₂H₆O"
           ],
           "antwoord": 0,
-          "uitleg": "Deel elk percentage door de atoommassa: 40/12, 6,7/1 en 53,3/16 geeft ongeveer 3,3 : 6,7 : 3,3, dus 1 : 2 : 1."
+          "uitleg": "Deel elk percentage door de atoommassa: \\(\\tfrac{40}{12}\\), \\(6\\),\\(\\tfrac{7}{1}\\) en \\(53\\),\\(\\tfrac{3}{16}\\) geeft ongeveer \\(3{,}3 : 6{,}7 : 3{,}3\\), dus \\(1 : 2 : 1\\)."
         },
         {
           "type": "meerkeuze",
-          "vraag": "Hoeveel massaprocent waterstof zit er in water, met H 1 en O 16 g/mol?",
+          "vraag": "Hoeveel massaprocent waterstof zit er in water, met H \\(1\\) en O \\(16\\) g/mol?",
           "opties": [
-            "ongeveer 11 %",
-            "ongeveer 50 %",
-            "ongeveer 33 %",
-            "ongeveer 89 %"
+            "ongeveer \\(11\\,\\%\\)",
+            "ongeveer \\(50\\,\\%\\)",
+            "ongeveer \\(33\\,\\%\\)",
+            "ongeveer \\(89\\,\\%\\)"
           ],
           "antwoord": 0,
-          "uitleg": "Twee gram waterstof op achttien gram water is 2/18, dus ongeveer 11 procent. Het aantal atomen en de massa zijn dus twee verschillende dingen."
+          "uitleg": "Twee gram waterstof op achttien gram water is \\(\\tfrac{2}{18}\\), dus ongeveer \\(11\\) procent. Het aantal atomen en de massa zijn dus twee verschillende dingen."
         },
         {
           "type": "meerkeuze",
@@ -3049,19 +3049,19 @@
             "c",
             "de c"
           ],
-          "uitleg": "c met als eenheid mol per liter. Men schrijft die eenheid ook als M, bijvoorbeeld 0,1 M zoutzuur."
+          "uitleg": "c met als eenheid mol per liter. Men schrijft die eenheid ook als M, bijvoorbeeld \\(0{,}1\\) M zoutzuur."
         },
         {
           "type": "meerkeuze",
-          "vraag": "Je moet 250 mL oplossing van 0,4 mol/L maken. Hoeveel mol stof weeg je af?",
+          "vraag": "Je moet \\(250\\) mL oplossing van \\(0{,}4\\) mol/L maken. Hoeveel mol stof weeg je af?",
           "opties": [
-            "0,1 mol",
-            "0,4 mol",
-            "1,0 mol",
-            "0,04 mol"
+            "\\(0{,}1\\) mol",
+            "\\(0{,}4\\) mol",
+            "\\(1{,}0\\) mol",
+            "\\(0{,}04\\) mol"
           ],
           "antwoord": 0,
-          "uitleg": "n is c maal V: 0,4 maal 0,25 liter is 0,1 mol. Die massa weeg je af en je vult daarna aan tot 250 mL."
+          "uitleg": "n is c maal V: \\(0{,}4 \\cdot 0{,}25\\) liter is \\(0{,}1\\) mol. Die massa weeg je af en je vult daarna aan tot \\(250\\) mL."
         },
         {
           "type": "meerkeuze",
@@ -3077,9 +3077,9 @@
         },
         {
           "type": "waarofniet",
-          "vraag": "Een oplossing van 1 mol/L bevat altijd één mol opgeloste stof, hoeveel je er ook van neemt.",
+          "vraag": "Een oplossing van \\(1\\) mol/L bevat altijd één mol opgeloste stof, hoeveel je er ook van neemt.",
           "antwoord": false,
-          "uitleg": "Ze bevat één mol per liter. Neem je 100 mL, dan heb je maar 0,1 mol in handen."
+          "uitleg": "Ze bevat één mol per liter. Neem je \\(100\\) mL, dan heb je maar \\(0{,}1\\) mol in handen."
         },
         {
           "type": "waarofniet",
@@ -3089,7 +3089,7 @@
         },
         {
           "type": "invultekst",
-          "vraag": "Hoeveel liter is 250 milliliter?",
+          "vraag": "Hoeveel liter is \\(250\\) milliliter?",
           "antwoord": [
             "0,25",
             "0,25 L",
@@ -3141,13 +3141,13 @@
           "type": "meerkeuze",
           "vraag": "In de reactie N₂ + 3 H₂ → 2 NH₃ reageert 1 mol stikstofgas. Hoeveel ammoniak ontstaat er?",
           "opties": [
-            "2 mol",
-            "1 mol",
-            "3 mol",
-            "6 mol"
+            "\\(2\\) mol",
+            "\\(1\\) mol",
+            "\\(3\\) mol",
+            "\\(6\\) mol"
           ],
           "antwoord": 0,
-          "uitleg": "De coëfficiënten geven de verhouding: 1 op 3 op 2. Per mol stikstofgas ontstaan er dus twee mol ammoniak."
+          "uitleg": "De coëfficiënten geven de verhouding: \\(1\\) op \\(3\\) op \\(2\\). Per mol stikstofgas ontstaan er dus twee mol ammoniak."
         },
         {
           "type": "waarofniet",
@@ -3159,13 +3159,13 @@
           "type": "meerkeuze",
           "vraag": "Hoeveel mol zuurstofgas is er nodig om 4 mol waterstofgas te laten reageren in 2 H₂ + O₂ → 2 H₂O?",
           "opties": [
-            "2 mol",
-            "4 mol",
-            "1 mol",
-            "8 mol"
+            "\\(2\\) mol",
+            "\\(4\\) mol",
+            "\\(1\\) mol",
+            "\\(8\\) mol"
           ],
           "antwoord": 0,
-          "uitleg": "De verhouding is 2 op 1. Voor vier mol waterstofgas is dus twee mol zuurstofgas nodig."
+          "uitleg": "De verhouding is \\(2\\) op \\(1\\). Voor vier mol waterstofgas is dus twee mol zuurstofgas nodig."
         },
         {
           "type": "meerkeuze",
@@ -3183,7 +3183,7 @@
           "type": "meerkeuze",
           "vraag": "Welke uitspraken over de reactie 2 Mg + O₂ → 2 MgO zijn juist? Kruis alles aan wat juist is.",
           "opties": [
-            "per 2 mol magnesium is er 1 mol zuurstofgas nodig",
+            "per \\(2\\) mol magnesium is er \\(1\\) mol zuurstofgas nodig",
             "er ontstaat evenveel mol magnesiumoxide als er magnesium reageert",
             "per mol magnesium is er een mol zuurstofgas nodig",
             "er ontstaat dubbel zoveel magnesiumoxide als er magnesium reageert"
@@ -3192,7 +3192,7 @@
             0,
             1
           ],
-          "uitleg": "De verhouding is 2 op 1 op 2. Magnesium en magnesiumoxide staan dus in verhouding één op één."
+          "uitleg": "De verhouding is \\(2\\) op \\(1\\) op \\(2\\). Magnesium en magnesiumoxide staan dus in verhouding één op één."
         },
         {
           "type": "invultekst",
@@ -3202,19 +3202,19 @@
             "3 mol",
             "drie"
           ],
-          "uitleg": "Waterstofgas en water staan in verhouding 2 op 2, dus één op één. Uit drie mol waterstofgas komt drie mol water."
+          "uitleg": "Waterstofgas en water staan in verhouding \\(2\\) op \\(2\\), dus één op één. Uit drie mol waterstofgas komt drie mol water."
         },
         {
           "type": "meerkeuze",
-          "vraag": "Hoeveel gram magnesiumoxide ontstaat er uit 2 mol magnesium, met M(MgO) 40 g/mol?",
+          "vraag": "Hoeveel gram magnesiumoxide ontstaat er uit \\(2\\) mol magnesium, met M(MgO) \\(40\\) g/mol?",
           "opties": [
-            "80 gram",
-            "40 gram",
-            "20 gram",
-            "120 gram"
+            "\\(80\\) gram",
+            "\\(40\\) gram",
+            "\\(20\\) gram",
+            "\\(120\\) gram"
           ],
           "antwoord": 0,
-          "uitleg": "Twee mol magnesium geeft twee mol magnesiumoxide, en twee maal 40 is 80 gram."
+          "uitleg": "Twee mol magnesium geeft twee mol magnesiumoxide, en twee maal \\(40\\) is \\(80\\) gram."
         },
         {
           "type": "waarofniet",
@@ -3238,10 +3238,10 @@
           "type": "meerkeuze",
           "vraag": "Bij de ontleding CaCO₃ → CaO + CO₂ ontleedt 100 gram kalksteen, met M 100 g/mol. Hoeveel mol CO₂ ontstaat er?",
           "opties": [
-            "1 mol",
-            "2 mol",
-            "0,5 mol",
-            "100 mol"
+            "\\(1\\) mol",
+            "\\(2\\) mol",
+            "\\(0{,}5\\) mol",
+            "\\(100\\) mol"
           ],
           "antwoord": 0,
           "uitleg": "Honderd gram is één mol, en de verhouding is één op één. Er komt dus één mol koolstofdioxide vrij."
@@ -3290,12 +3290,12 @@
         },
         {
           "type": "meerkeuze",
-          "vraag": "Hoeveel mol zuurstofgas is nodig om 1 mol propaan C₃H₈ volledig te verbranden?",
+          "vraag": "Hoeveel mol zuurstofgas is nodig om \\(1\\) mol propaan C₃H₈ volledig te verbranden?",
           "opties": [
-            "5 mol",
-            "3 mol",
-            "4 mol",
-            "7 mol"
+            "\\(5\\) mol",
+            "\\(3\\) mol",
+            "\\(4\\) mol",
+            "\\(7\\) mol"
           ],
           "antwoord": 0,
           "uitleg": "Er ontstaan drie CO₂ en vier H₂O, samen tien zuurstofatomen. Dat zijn vijf moleculen O₂."
@@ -3314,7 +3314,7 @@
             "3 mol",
             "drie"
           ],
-          "uitleg": "De verhouding tussen waterstofgas en ammoniak is 3 op 2. Voor twee mol ammoniak is dus drie mol waterstofgas nodig."
+          "uitleg": "De verhouding tussen waterstofgas en ammoniak is \\(3\\) op \\(2\\). Voor twee mol ammoniak is dus drie mol waterstofgas nodig."
         }
       ]
     },
@@ -3373,7 +3373,7 @@
           "type": "waarofniet",
           "vraag": "Het limiterend reagens is altijd de stof waarvan je het minste mol hebt.",
           "antwoord": false,
-          "uitleg": "Niet altijd: de coëfficiënten tellen mee. Van een stof met coëfficiënt 3 heb je drie keer zoveel nodig."
+          "uitleg": "Niet altijd: de coëfficiënten tellen mee. Van een stof met coëfficiënt \\(3\\) heb je drie keer zoveel nodig."
         },
         {
           "type": "meerkeuze",
@@ -3397,44 +3397,44 @@
             "in joule per mol"
           ],
           "antwoord": 0,
-          "uitleg": "Nul kelvin is het absolute nulpunt. Reken dus eerst om: 25 °C is 298 K."
+          "uitleg": "Nul kelvin is het absolute nulpunt. Reken dus eerst om: \\(25^{\\circ}\\text{C}\\) is \\(298\\) K."
         },
         {
           "type": "meerkeuze",
           "vraag": "Welke uitspraken over de normomstandigheden zijn juist? Kruis alles aan wat juist is.",
           "opties": [
-            "de temperatuur is 0 °C of 273 K",
-            "één mol gas neemt er 22,4 liter in",
-            "de temperatuur is 25 °C of 298 K",
-            "één mol gas neemt er 24,0 liter in"
+            "de temperatuur is \\(0^{\\circ}\\text{C}\\) of \\(273\\) K",
+            "één mol gas neemt er \\(22{,}4\\) liter in",
+            "de temperatuur is \\(25^{\\circ}\\text{C}\\) of \\(298\\) K",
+            "één mol gas neemt er \\(24{,}0\\) liter in"
           ],
           "antwoord": [
             0,
             1
           ],
-          "uitleg": "Bij 25 °C hoort een molair volume van ongeveer 24,5 liter. Spreek dus altijd af welke omstandigheden je bedoelt."
+          "uitleg": "Bij \\(25^{\\circ}\\text{C}\\) hoort een molair volume van ongeveer \\(24{,}5\\) liter. Spreek dus altijd af welke omstandigheden je bedoelt."
         },
         {
           "type": "invultekst",
-          "vraag": "Welk volume neemt 2 mol gas in bij normomstandigheden?",
+          "vraag": "Welk volume neemt \\(2\\) mol gas in bij normomstandigheden?",
           "antwoord": [
             "44,8 L",
             "44,8",
             "44,8 liter"
           ],
-          "uitleg": "Twee keer 22,4 liter. Het molair volume geldt voor elk gas, wat zijn molaire massa ook is."
+          "uitleg": "Twee keer \\(22{,}4\\) liter. Het molair volume geldt voor elk gas, wat zijn molaire massa ook is."
         },
         {
           "type": "meerkeuze",
-          "vraag": "Bij de ontleding van 1 mol kalksteen komt 1 mol CO₂ vrij. Welk volume is dat bij normomstandigheden?",
+          "vraag": "Bij de ontleding van \\(1\\) mol kalksteen komt \\(1\\) mol CO₂ vrij. Welk volume is dat bij normomstandigheden?",
           "opties": [
-            "22,4 liter",
-            "44,8 liter",
-            "11,2 liter",
-            "1,0 liter"
+            "\\(22{,}4\\) liter",
+            "\\(44{,}8\\) liter",
+            "\\(11{,}2\\) liter",
+            "\\(1{,}0\\) liter"
           ],
           "antwoord": 0,
-          "uitleg": "Eén mol gas is 22,4 liter bij 0 °C en normale druk. In een warme oven is dat volume groter."
+          "uitleg": "Eén mol gas is \\(22{,}4\\) liter bij \\(0^{\\circ}\\text{C}\\) en normale druk. In een warme oven is dat volume groter."
         },
         {
           "type": "waarofniet",
@@ -3471,13 +3471,13 @@
         },
         {
           "type": "invultekst",
-          "vraag": "Hoeveel kelvin is 27 °C?",
+          "vraag": "Hoeveel kelvin is \\(27^{\\circ}\\text{C}\\)?",
           "antwoord": [
             "300",
             "300 K",
             "300 kelvin"
           ],
-          "uitleg": "Tel 273 bij de temperatuur in graden Celsius op. In de gaswet mag je nooit met graden Celsius rekenen."
+          "uitleg": "Tel \\(273\\) bij de temperatuur in graden Celsius op. In de gaswet mag je nooit met graden Celsius rekenen."
         },
         {
           "type": "meerkeuze",
@@ -3489,7 +3489,7 @@
             "beide stoffen samen"
           ],
           "antwoord": 0,
-          "uitleg": "Deel door de coëfficiënt: 1 gedeeld door 1 is 1, en 6 gedeeld door 3 is 2. De kleinste uitkomst hoort bij het stikstofgas."
+          "uitleg": "Deel door de coëfficiënt: \\(1 : 1\\) is \\(1\\), en \\(6 : 3\\) is \\(2\\). De kleinste uitkomst hoort bij het stikstofgas."
         },
         {
           "type": "meerkeuze",
@@ -3505,15 +3505,15 @@
         },
         {
           "type": "meerkeuze",
-          "vraag": "Hoeveel mol gas zit er in 11,2 liter bij normomstandigheden?",
+          "vraag": "Hoeveel mol gas zit er in \\(11{,}2\\) liter bij normomstandigheden?",
           "opties": [
-            "0,5 mol",
-            "1,0 mol",
-            "2,0 mol",
-            "0,25 mol"
+            "\\(0{,}5\\) mol",
+            "\\(1{,}0\\) mol",
+            "\\(2{,}0\\) mol",
+            "\\(0{,}25\\) mol"
           ],
           "antwoord": 0,
-          "uitleg": "11,2 gedeeld door 22,4 is 0,5 mol. Zo reken je van volume naar stofhoeveelheid."
+          "uitleg": "\\(11{,}2 : 22{,}4\\) is \\(0{,}5\\) mol. Zo reken je van volume naar stofhoeveelheid."
         },
         {
           "type": "waarofniet",
@@ -3897,7 +3897,7 @@
             "zes"
           ],
           "antwoord": 0,
-          "uitleg": "Tel de exponenten op: 2 plus 1 is 3. De orde in A is twee en die in B is een."
+          "uitleg": "Tel de exponenten op: \\(2\\) plus \\(1\\) is \\(3\\). De orde in A is twee en die in B is een."
         },
         {
           "type": "waarofniet",
@@ -3915,13 +3915,13 @@
             "derde orde"
           ],
           "antwoord": 0,
-          "uitleg": "Twee tot de macht twee is vier. Bij eerste orde zou de snelheid gewoon verdubbelen."
+          "uitleg": "\\(2^{2}\\) is vier. Bij eerste orde zou de snelheid gewoon verdubbelen."
         },
         {
           "type": "waarofniet",
           "vraag": "Blijft de snelheid gelijk als je [B] verdubbelt, dan is de reactie van nulde orde in B.",
           "antwoord": true,
-          "uitleg": "De exponent van [B] is dan nul, en alles tot de macht nul is één. Zo'n stof komt niet voor in de snelheidsbepalende stap."
+          "uitleg": "De exponent van [B] is dan nul, en alles tot de macht \\(0\\) is één. Zo'n stof komt niet voor in de snelheidsbepalende stap."
         },
         {
           "type": "invultekst",
@@ -3942,7 +3942,7 @@
             "mol per seconde"
           ],
           "antwoord": 0,
-          "uitleg": "De eenheid van k volgt uit de vergelijking: links staat mol/(L·s), en [A] levert al mol/L. Dus blijft er 1/s over."
+          "uitleg": "De eenheid van k volgt uit de vergelijking: links staat mol/(L·s), en [A] levert al mol/L. Dus blijft er \\(1\\)/s over."
         },
         {
           "type": "meerkeuze",
@@ -4051,7 +4051,7 @@
         },
         {
           "type": "meerkeuze",
-          "vraag": "Hoe schrijf je de evenwichtsconstante voor het evenwicht A + 2 B ⇌ C?",
+          "vraag": "Hoe schrijf je de evenwichtsconstante voor het evenwicht A + \\(2\\) B ⇌ C?",
           "opties": [
             "K is [C] gedeeld door [A] maal [B]²",
             "K is [A] maal [B]² gedeeld door [C]",
@@ -4114,7 +4114,7 @@
           "type": "waarofniet",
           "vraag": "In de uitdrukking van de evenwichtsconstante staan de coëfficiënten als exponent.",
           "antwoord": true,
-          "uitleg": "Bij N₂ + 3 H₂ ⇌ 2 NH₃ wordt dat [NH₃]² gedeeld door [N₂] maal [H₂]³."
+          "uitleg": "Bij N₂ + \\(3\\) H₂ ⇌ \\(2\\) NH₃ wordt dat [NH₃]² gedeeld door [N₂] maal [H₂]³."
         },
         {
           "type": "meerkeuze",
@@ -4126,7 +4126,7 @@
             "de tijd die nodig is om het evenwicht te bereiken"
           ],
           "antwoord": 0,
-          "uitleg": "Heeft 0,2 mol van de 1 mol gereageerd, dan is de omzettingsgraad 20 procent. Bij een aflopende reactie zou dat 100 procent zijn."
+          "uitleg": "Heeft \\(0{,}2\\) mol van de \\(1\\) mol gereageerd, dan is de omzettingsgraad \\(20\\) procent. Bij een aflopende reactie zou dat \\(100\\) procent zijn."
         },
         {
           "type": "meerkeuze",
@@ -4185,7 +4185,7 @@
         },
         {
           "type": "meerkeuze",
-          "vraag": "Een evenwicht heeft K gelijk aan 1. Wat weet je dan?",
+          "vraag": "Een evenwicht heeft K gelijk aan \\(1\\). Wat weet je dan?",
           "opties": [
             "teller en noemer zijn in het evenwicht ongeveer even groot",
             "het evenwicht ligt helemaal aan de kant van de producten",
@@ -4324,7 +4324,7 @@
         },
         {
           "type": "meerkeuze",
-          "vraag": "In het evenwicht N₂ + 3 H₂ ⇌ 2 NH₃ verhoog je de druk. Wat gebeurt er met de hoeveelheid ammoniak?",
+          "vraag": "In het evenwicht N₂ + \\(3\\) H₂ ⇌ \\(2\\) NH₃ verhoog je de druk. Wat gebeurt er met de hoeveelheid ammoniak?",
           "opties": [
             "ze neemt toe, want rechts staan minder mol gas",
             "ze neemt af, want rechts staan meer mol gas",
@@ -4350,7 +4350,7 @@
             "het aantal mol product gedeeld door het aantal mol reagens"
           ],
           "antwoord": 0,
-          "uitleg": "Haal je 8 gram van de 10 gram die mogelijk was, dan is het rendement 80 procent. Bij een evenwicht blijft dat altijd onder de honderd."
+          "uitleg": "Haal je \\(8\\) gram van de \\(10\\) gram die mogelijk was, dan is het rendement \\(80\\) procent. Bij een evenwicht blijft dat altijd onder de honderd."
         },
         {
           "type": "meerkeuze",
@@ -4772,14 +4772,14 @@
           "opties": [
             "het ligt rond de pKz van de indicator",
             "het beslaat ongeveer twee pH-eenheden",
-            "het ligt altijd precies bij pH 7",
+            "het ligt altijd precies bij pH \\(7\\)",
             "het is voor elke indicator hetzelfde"
           ],
           "antwoord": [
             0,
             1
           ],
-          "uitleg": "Fenolftaleïen slaat om rond pH 9, methyloranje rond pH 4. Daarom kies je je indicator bij de titratie die je doet."
+          "uitleg": "Fenolftaleïen slaat om rond pH \\(9\\), methyloranje rond pH \\(4\\). Daarom kies je je indicator bij de titratie die je doet."
         },
         {
           "type": "waarofniet",
@@ -4838,12 +4838,12 @@
         },
         {
           "type": "meerkeuze",
-          "vraag": "Twee zuren hebben pKz 3 en pKz 5. Wat weet je?",
+          "vraag": "Twee zuren hebben pKz \\(3\\) en pKz \\(5\\). Wat weet je?",
           "opties": [
-            "het zuur met pKz 3 is het sterkste van de twee",
-            "het zuur met pKz 5 is het sterkste van de twee",
+            "het zuur met pKz \\(3\\) is het sterkste van de twee",
+            "het zuur met pKz \\(5\\) is het sterkste van de twee",
             "de twee zuren zijn even sterk in water",
-            "het zuur met pKz 5 ioniseert volledig in water"
+            "het zuur met pKz \\(5\\) ioniseert volledig in water"
           ],
           "antwoord": 0,
           "uitleg": "Hoe kleiner pKz, hoe groter Kz en hoe sterker het zuur. Twee eenheden verschil in pKz is een factor honderd in Kz."
@@ -4880,7 +4880,7 @@
             "fenolftaleine",
             "fenolftaleïne"
           ],
-          "uitleg": "Haar omslag ligt rond pH 9. Daarom past ze goed bij de titratie van een zwak zuur met een sterke base."
+          "uitleg": "Haar omslag ligt rond pH \\(9\\). Daarom past ze goed bij de titratie van een zwak zuur met een sterke base."
         }
       ]
     },
@@ -4899,11 +4899,11 @@
             "het aantal mol zuur dat je in de oplossing gedaan hebt"
           ],
           "antwoord": 0,
-          "uitleg": "Is [H₃O⁺] gelijk aan 10⁻³ mol/L, dan is de pH 3. De schaal maakt van heel kleine getallen een handig getal tussen 0 en 14."
+          "uitleg": "Is [H₃O⁺] gelijk aan \\(10^{-3}\\) mol/L, dan is de pH \\(3\\). De schaal maakt van heel kleine getallen een handig getal tussen \\(0\\) en \\(14\\)."
         },
         {
           "type": "meerkeuze",
-          "vraag": "Hoeveel is pH plus pOH bij 25 °C?",
+          "vraag": "Hoeveel is pH plus pOH bij \\(25^{\\circ}\\text{C}\\)?",
           "opties": [
             "veertien",
             "zeven",
@@ -4911,21 +4911,21 @@
             "een"
           ],
           "antwoord": 0,
-          "uitleg": "Dat volgt uit de ionisatieconstante van water, 10⁻¹⁴. Ken je de pH, dan ken je dus ook de pOH."
+          "uitleg": "Dat volgt uit de ionisatieconstante van water, \\(10^{-14}\\). Ken je de pH, dan ken je dus ook de pOH."
         },
         {
           "type": "invultekst",
-          "vraag": "Welke pH heeft zuiver water bij 25 °C?",
+          "vraag": "Welke pH heeft zuiver water bij \\(25^{\\circ}\\text{C}\\)?",
           "antwoord": [
             "7",
             "pH 7",
             "zeven"
           ],
-          "uitleg": "In zuiver water is [H₃O⁺] gelijk aan [OH⁻], namelijk 10⁻⁷ mol/L. Daarom is pH 7 het neutrale punt."
+          "uitleg": "In zuiver water is [H₃O⁺] gelijk aan [OH⁻], namelijk \\(10^{-7}\\) mol/L. Daarom is pH \\(7\\) het neutrale punt."
         },
         {
           "type": "meerkeuze",
-          "vraag": "Een oplossing heeft pH 4. Wat is haar pOH?",
+          "vraag": "Een oplossing heeft pH \\(4\\). Wat is haar pOH?",
           "opties": [
             "tien",
             "vier",
@@ -4933,11 +4933,11 @@
             "veertien"
           ],
           "antwoord": 0,
-          "uitleg": "Veertien min vier is tien. De concentratie hydroxide-ionen is dus 10⁻¹⁰ mol/L."
+          "uitleg": "Veertien min vier is tien. De concentratie hydroxide-ionen is dus \\(10^{-10}\\) mol/L."
         },
         {
           "type": "waarofniet",
-          "vraag": "Een oplossing met pH 3 bevat honderd keer meer hydroxoniumionen dan een oplossing met pH 5.",
+          "vraag": "Een oplossing met pH \\(3\\) bevat honderd keer meer hydroxoniumionen dan een oplossing met pH \\(5\\).",
           "antwoord": true,
           "uitleg": "Elke pH-eenheid is een factor tien. Twee eenheden verschil is dus een factor honderd."
         },
@@ -4945,9 +4945,9 @@
           "type": "meerkeuze",
           "vraag": "Welke uitspraken over een basische oplossing zijn juist? Kruis alles aan wat juist is.",
           "opties": [
-            "haar pH is groter dan 7",
-            "haar pOH is kleiner dan 7",
-            "haar pH is kleiner dan 7",
+            "haar pH is groter dan \\(7\\)",
+            "haar pOH is kleiner dan \\(7\\)",
+            "haar pH is kleiner dan \\(7\\)",
             "ze bevat geen hydroxoniumionen meer"
           ],
           "antwoord": [
@@ -4958,19 +4958,19 @@
         },
         {
           "type": "meerkeuze",
-          "vraag": "Wat is de waarde van de ionisatieconstante van water bij 25 °C?",
+          "vraag": "Wat is de waarde van de ionisatieconstante van water bij \\(25^{\\circ}\\text{C}\\)?",
           "opties": [
-            "10⁻¹⁴",
-            "10⁻⁷",
-            "10⁻¹",
-            "10¹⁴"
+            "\\(10^{-14}\\)",
+            "\\(10^{-7}\\)",
+            "\\(10^{-1}\\)",
+            "\\(10^{14}\\)"
           ],
           "antwoord": 0,
-          "uitleg": "Kw is [H₃O⁺] maal [OH⁻]. In zuiver water is dat 10⁻⁷ maal 10⁻⁷."
+          "uitleg": "Kw is [H₃O⁺] maal [OH⁻]. In zuiver water is dat \\(10^{-7} \\cdot 10^{-7}\\)."
         },
         {
           "type": "invultekst",
-          "vraag": "Welke pH heeft een oplossing met [H₃O⁺] gelijk aan 10⁻² mol/L?",
+          "vraag": "Welke pH heeft een oplossing met [H₃O⁺] gelijk aan \\(10^{-2}\\) mol/L?",
           "antwoord": [
             "2",
             "pH 2",
@@ -4980,7 +4980,7 @@
         },
         {
           "type": "meerkeuze",
-          "vraag": "Een oplossing heeft pOH 2. Welke pH hoort daarbij?",
+          "vraag": "Een oplossing heeft pOH \\(2\\). Welke pH hoort daarbij?",
           "opties": [
             "twaalf",
             "twee",
@@ -4996,7 +4996,7 @@
           "opties": [
             "ze is logaritmisch opgebouwd",
             "één eenheid verschil is een factor tien",
-            "ze loopt altijd van 0 tot 14 en nooit erbuiten",
+            "ze loopt altijd van \\(0\\) tot \\(14\\) en nooit erbuiten",
             "één eenheid verschil is een factor twee"
           ],
           "antwoord": [
@@ -5013,15 +5013,15 @@
         },
         {
           "type": "meerkeuze",
-          "vraag": "Wat is de concentratie hydroxide-ionen in een oplossing met pH 9?",
+          "vraag": "Wat is de concentratie hydroxide-ionen in een oplossing met pH \\(9\\)?",
           "opties": [
-            "10⁻⁵ mol/L",
-            "10⁻⁹ mol/L",
-            "10⁻⁷ mol/L",
-            "10⁵ mol/L"
+            "\\(10^{-5}\\) mol/L",
+            "\\(10^{-9}\\) mol/L",
+            "\\(10^{-7}\\) mol/L",
+            "\\(10^{5}\\) mol/L"
           ],
           "antwoord": 0,
-          "uitleg": "pOH is veertien min negen, dus vijf. Daar hoort een concentratie van 10⁻⁵ mol/L bij."
+          "uitleg": "pOH is veertien min negen, dus vijf. Daar hoort een concentratie van \\(10^{-5}\\) mol/L bij."
         },
         {
           "type": "meerkeuze",
@@ -5033,36 +5033,36 @@
             "de pH is anders niet met een indicator te bepalen"
           ],
           "antwoord": 0,
-          "uitleg": "Van 1 mol/L tot 10⁻¹⁴ mol/L is een verschil van veertien machten. Met gewone getallen zou dat onhandelbaar zijn."
+          "uitleg": "Van \\(1\\) mol/L tot \\(10^{-14}\\) mol/L is een verschil van veertien machten. Met gewone getallen zou dat onhandelbaar zijn."
         },
         {
           "type": "invultekst",
-          "vraag": "Welke pOH heeft een oplossing met pH 11?",
+          "vraag": "Welke pOH heeft een oplossing met pH \\(11\\)?",
           "antwoord": [
             "3",
             "pOH 3",
             "drie"
           ],
-          "uitleg": "Veertien min elf is drie. Hun som is bij 25 °C altijd veertien."
+          "uitleg": "Veertien min elf is drie. Hun som is bij \\(25^{\\circ}\\text{C}\\) altijd veertien."
         },
         {
           "type": "meerkeuze",
           "vraag": "Welke oplossingen zijn zuur? Kruis alles aan wat juist is.",
           "opties": [
-            "een oplossing met pH 2",
-            "een oplossing met pOH 12",
-            "een oplossing met pH 9",
-            "een oplossing met pOH 3"
+            "een oplossing met pH \\(2\\)",
+            "een oplossing met pOH \\(12\\)",
+            "een oplossing met pH \\(9\\)",
+            "een oplossing met pOH \\(3\\)"
           ],
           "antwoord": [
             0,
             1
           ],
-          "uitleg": "pOH 12 hoort bij pH 2, dus zuur. pOH 3 hoort bij pH 11, en dat is basisch."
+          "uitleg": "pOH \\(12\\) hoort bij pH \\(2\\), dus zuur. pOH \\(3\\) hoort bij pH \\(11\\), en dat is basisch."
         },
         {
           "type": "meerkeuze",
-          "vraag": "Twee oplossingen, één met pH 1 en één met pH 4. Hoeveel keer zuurder is de eerste?",
+          "vraag": "Twee oplossingen, één met pH \\(1\\) en één met pH \\(4\\). Hoeveel keer zuurder is de eerste?",
           "opties": [
             "duizend keer",
             "honderd keer",
@@ -5076,11 +5076,11 @@
           "type": "waarofniet",
           "vraag": "In een basische oplossing is er meer hydroxide dan hydroxonium.",
           "antwoord": true,
-          "uitleg": "Hun product blijft 10⁻¹⁴. Zit er veel van het ene in, dan zit er dus weinig van het andere in."
+          "uitleg": "Hun product blijft \\(10^{-14}\\). Zit er veel van het ene in, dan zit er dus weinig van het andere in."
         },
         {
           "type": "meerkeuze",
-          "vraag": "Je meet een pH van 6,5 in regenwater. Wat besluit je?",
+          "vraag": "Je meet een pH van \\(6{,}5\\) in regenwater. Wat besluit je?",
           "opties": [
             "het is lichtzuur, want de pH ligt onder zeven",
             "het is lichtbasisch, want de pH ligt boven zes",
@@ -5094,7 +5094,7 @@
           "type": "waarofniet",
           "vraag": "De pH van een oplossing hangt niet af van de temperatuur.",
           "antwoord": false,
-          "uitleg": "De ionisatieconstante van water verandert met de temperatuur, en dus ook het neutrale punt. Bij 25 °C is dat zeven."
+          "uitleg": "De ionisatieconstante van water verandert met de temperatuur, en dus ook het neutrale punt. Bij \\(25^{\\circ}\\text{C}\\) is dat zeven."
         },
         {
           "type": "invultekst",
@@ -5104,7 +5104,7 @@
             "ionisatieconstante",
             "waterconstante"
           ],
-          "uitleg": "Bij 25 °C is die 10⁻¹⁴. Daaruit volgt dat pH en pOH samen veertien geven."
+          "uitleg": "Bij \\(25^{\\circ}\\text{C}\\) is die \\(10^{-14}\\). Daaruit volgt dat pH en pOH samen veertien geven."
         }
       ]
     },
@@ -5115,37 +5115,37 @@
       "vragen": [
         {
           "type": "meerkeuze",
-          "vraag": "Wat is de pH van 0,01 mol/L zoutzuur?",
+          "vraag": "Wat is de pH van \\(0{,}01\\) mol/L zoutzuur?",
           "opties": [
-            "2",
-            "1",
-            "12",
-            "0,01"
+            "\\(2\\)",
+            "\\(1\\)",
+            "\\(12\\)",
+            "\\(0{,}01\\)"
           ],
           "antwoord": 0,
-          "uitleg": "Zoutzuur is een sterk zuur, dus [H₃O⁺] is 0,01 of 10⁻² mol/L. Daar hoort pH 2 bij."
+          "uitleg": "Zoutzuur is een sterk zuur, dus [H₃O⁺] is \\(0{,}01\\) of \\(10^{-2}\\) mol/L. Daar hoort pH \\(2\\) bij."
         },
         {
           "type": "meerkeuze",
-          "vraag": "Wat is de pH van 0,001 mol/L natriumhydroxide?",
+          "vraag": "Wat is de pH van \\(0{,}001\\) mol/L natriumhydroxide?",
           "opties": [
-            "11",
-            "3",
-            "10",
-            "13"
+            "\\(11\\)",
+            "\\(3\\)",
+            "\\(10\\)",
+            "\\(13\\)"
           ],
           "antwoord": 0,
-          "uitleg": "Een sterke base geeft [OH⁻] gelijk aan 10⁻³, dus pOH 3 en pH 11."
+          "uitleg": "Een sterke base geeft [OH⁻] gelijk aan \\(10^{-3}\\), dus pOH \\(3\\) en pH \\(11\\)."
         },
         {
           "type": "invultekst",
-          "vraag": "Welke pH heeft 0,1 mol/L zoutzuur?",
+          "vraag": "Welke pH heeft \\(0{,}1\\) mol/L zoutzuur?",
           "antwoord": [
             "1",
             "pH 1",
             "een"
           ],
-          "uitleg": "0,1 is 10⁻¹, dus pH 1. Zoutzuur ioniseert volledig, en daarom mag je de concentratie van het zuur rechtstreeks gebruiken."
+          "uitleg": "\\(0{,}1\\) is \\(10^{-1}\\), dus pH \\(1\\). Zoutzuur ioniseert volledig, en daarom mag je de concentratie van het zuur rechtstreeks gebruiken."
         },
         {
           "type": "meerkeuze",
@@ -5175,7 +5175,7 @@
             "ze wordt precies de helft van wat ze was"
           ],
           "antwoord": 0,
-          "uitleg": "Het aantal mol zuur blijft gelijk, het volume halveert, dus verdubbelt de concentratie. De pH daalt met ongeveer 0,3."
+          "uitleg": "Het aantal mol zuur blijft gelijk, het volume halveert, dus verdubbelt de concentratie. De pH daalt met ongeveer \\(0{,}3\\)."
         },
         {
           "type": "meerkeuze",
@@ -5194,17 +5194,17 @@
         },
         {
           "type": "invultekst",
-          "vraag": "Welke pH heeft 0,0001 mol/L zoutzuur?",
+          "vraag": "Welke pH heeft \\(0{,}0001\\) mol/L zoutzuur?",
           "antwoord": [
             "4",
             "pH 4",
             "vier"
           ],
-          "uitleg": "0,0001 is 10⁻⁴, dus pH 4. Let goed op het aantal nullen voor de komma."
+          "uitleg": "\\(0{,}0001\\) is \\(10^{-4}\\), dus pH \\(4\\). Let goed op het aantal nullen voor de komma."
         },
         {
           "type": "meerkeuze",
-          "vraag": "Twee oplossingen van 0,1 mol/L: één zoutzuur, één azijnzuur. Welke heeft de laagste pH?",
+          "vraag": "Twee oplossingen van \\(0{,}1\\) mol/L: één zoutzuur, één azijnzuur. Welke heeft de laagste pH?",
           "opties": [
             "het zoutzuur, want het is een sterk zuur",
             "het azijnzuur, want het heeft meer koolstofatomen",
@@ -5219,7 +5219,7 @@
           "vraag": "Waarom mag je bij een sterk zuur de concentratie van het zuur als [H₃O⁺] nemen?",
           "opties": [
             "elk molecule staat zijn proton af, dus is de omzetting volledig",
-            "een sterk zuur heeft altijd een concentratie van 1 mol per liter",
+            "een sterk zuur heeft altijd een concentratie van \\(1\\) mol per liter",
             "de zuurconstante van een sterk zuur is gelijk aan één",
             "de pH van een sterk zuur ligt altijd onder de één"
           ],
@@ -5230,16 +5230,16 @@
           "type": "waarofniet",
           "vraag": "Bij een tweewaardig sterk zuur is de concentratie hydroxoniumionen dubbel die van het zuur.",
           "antwoord": true,
-          "uitleg": "Zwavelzuur van 0,05 mol/L geeft ongeveer 0,1 mol/L hydroxoniumionen, dus pH 1. Reken dus altijd eerst de waardigheid mee."
+          "uitleg": "Zwavelzuur van \\(0{,}05\\) mol/L geeft ongeveer \\(0{,}1\\) mol/L hydroxoniumionen, dus pH \\(1\\). Reken dus altijd eerst de waardigheid mee."
         },
         {
           "type": "meerkeuze",
-          "vraag": "Een oplossing heeft pH 5. Wat is de concentratie hydroxoniumionen?",
+          "vraag": "Een oplossing heeft pH \\(5\\). Wat is de concentratie hydroxoniumionen?",
           "opties": [
-            "10⁻⁵ mol/L",
-            "10⁻⁹ mol/L",
-            "5 mol/L",
-            "10⁵ mol/L"
+            "\\(10^{-5}\\) mol/L",
+            "\\(10^{-9}\\) mol/L",
+            "\\(5\\) mol/L",
+            "\\(10^{5}\\) mol/L"
           ],
           "antwoord": 0,
           "uitleg": "Je draait de logaritme om: [H₃O⁺] is tien tot de macht min de pH."
@@ -5261,21 +5261,21 @@
         },
         {
           "type": "invultekst",
-          "vraag": "Welke pH heeft 0,01 mol/L natriumhydroxide?",
+          "vraag": "Welke pH heeft \\(0{,}01\\) mol/L natriumhydroxide?",
           "antwoord": [
             "12",
             "pH 12",
             "twaalf"
           ],
-          "uitleg": "pOH is 2, dus pH is 14 min 2. Reken bij een base altijd eerst de pOH uit."
+          "uitleg": "pOH is \\(2\\), dus pH is \\(14\\) min \\(2\\). Reken bij een base altijd eerst de pOH uit."
         },
         {
           "type": "meerkeuze",
           "vraag": "Je mengt gelijke volumes van een sterk zuur en een sterke base van dezelfde concentratie. Wat verwacht je?",
           "opties": [
-            "een neutrale oplossing met pH 7",
-            "een zure oplossing met pH onder 7",
-            "een basische oplossing met pH boven 7",
+            "een neutrale oplossing met pH \\(7\\)",
+            "een zure oplossing met pH onder \\(7\\)",
+            "een basische oplossing met pH boven \\(7\\)",
             "een oplossing waarvan de pH niet te voorspellen is"
           ],
           "antwoord": 0,
@@ -5285,25 +5285,25 @@
           "type": "meerkeuze",
           "vraag": "Waarom daalt de pH van een sterk zuur niet onder nul bij gewone concentraties?",
           "opties": [
-            "daarvoor zou de concentratie boven 1 mol per liter moeten liggen",
+            "daarvoor zou de concentratie boven \\(1\\) mol per liter moeten liggen",
             "de pH-schaal staat negatieve waarden niet toe",
             "water neutraliseert het overschot aan zuur altijd",
             "een sterk zuur ioniseert nooit volledig in water"
           ],
           "antwoord": 0,
-          "uitleg": "pH 0 hoort bij 1 mol/L. Bij een nog hogere concentratie kan de pH inderdaad negatief worden."
+          "uitleg": "pH \\(0\\) hoort bij \\(1\\) mol/L. Bij een nog hogere concentratie kan de pH inderdaad negatief worden."
         },
         {
           "type": "meerkeuze",
           "vraag": "Welke oplossing heeft de hoogste pH?",
           "opties": [
-            "0,1 mol/L natriumhydroxide",
-            "0,001 mol/L natriumhydroxide",
-            "0,1 mol/L azijnzuur",
-            "zuiver water bij 25 °C"
+            "\\(0{,}1\\) mol/L natriumhydroxide",
+            "\\(0{,}001\\) mol/L natriumhydroxide",
+            "\\(0{,}1\\) mol/L azijnzuur",
+            "zuiver water bij \\(25^{\\circ}\\text{C}\\)"
           ],
           "antwoord": 0,
-          "uitleg": "0,1 mol/L geeft pOH 1 en dus pH 13. De verdunde base komt maar aan pH 11."
+          "uitleg": "\\(0{,}1\\) mol/L geeft pOH \\(1\\) en dus pH \\(13\\). De verdunde base komt maar aan pH \\(11\\)."
         },
         {
           "type": "waarofniet",
@@ -5319,7 +5319,7 @@
         },
         {
           "type": "invultekst",
-          "vraag": "Hoeveel keer meer hydroxoniumionen zitten er in een oplossing van pH 2 dan in een van pH 4?",
+          "vraag": "Hoeveel keer meer hydroxoniumionen zitten er in een oplossing van pH \\(2\\) dan in een van pH \\(4\\)?",
           "antwoord": [
             "100",
             "honderd",
@@ -5403,12 +5403,12 @@
         },
         {
           "type": "meerkeuze",
-          "vraag": "Een buffer is gemaakt met een zuur met pKz 5. Binnen welk pH-gebied werkt hij goed?",
+          "vraag": "Een buffer is gemaakt met een zuur met pKz \\(5\\). Binnen welk pH-gebied werkt hij goed?",
           "opties": [
-            "ongeveer tussen pH 4 en pH 6",
-            "ongeveer tussen pH 1 en pH 9",
-            "ongeveer tussen pH 6 en pH 8",
-            "enkel precies bij pH 5"
+            "ongeveer tussen pH \\(4\\) en pH \\(6\\)",
+            "ongeveer tussen pH \\(1\\) en pH \\(9\\)",
+            "ongeveer tussen pH \\(6\\) en pH \\(8\\)",
+            "enkel precies bij pH \\(5\\)"
           ],
           "antwoord": 0,
           "uitleg": "Het bereik is ongeveer de pKz plus of min één eenheid. Daarbuiten is een van de twee deeltjes bijna op."
@@ -5448,7 +5448,7 @@
             "het bloed bevat een sterke base die alles neutraliseert"
           ],
           "antwoord": 0,
-          "uitleg": "Dat paar houdt de pH rond 7,4. Een afwijking van een paar tienden is al levensgevaarlijk."
+          "uitleg": "Dat paar houdt de pH rond \\(7{,}4\\). Een afwijking van een paar tienden is al levensgevaarlijk."
         },
         {
           "type": "waarofniet",
@@ -5470,7 +5470,7 @@
         },
         {
           "type": "meerkeuze",
-          "vraag": "Welke stoffen kan je mengen om een buffer rond pH 9 te maken?",
+          "vraag": "Welke stoffen kan je mengen om een buffer rond pH \\(9\\) te maken?",
           "opties": [
             "ammoniak met ammoniumchloride",
             "azijnzuur met natriumacetaat",
@@ -5478,7 +5478,7 @@
             "zwavelzuur met natriumsulfaat"
           ],
           "antwoord": 0,
-          "uitleg": "Het ammoniumion heeft een pKz van ongeveer 9,2, dus ligt het bereik van die buffer rond pH 9. Azijnzuur zou je rond pH 5 brengen."
+          "uitleg": "Het ammoniumion heeft een pKz van ongeveer \\(9{,}2\\), dus ligt het bereik van die buffer rond pH \\(9\\). Azijnzuur zou je rond pH \\(5\\) brengen."
         },
         {
           "type": "meerkeuze",
@@ -5493,7 +5493,7 @@
             0,
             1
           ],
-          "uitleg": "Een buffer van 1 mol/L vangt veel meer op dan een van 0,01 mol/L, ook al hebben ze dezelfde pH."
+          "uitleg": "Een buffer van \\(1\\) mol/L vangt veel meer op dan een van \\(0{,}01\\) mol/L, ook al hebben ze dezelfde pH."
         },
         {
           "type": "invultekst",
@@ -5537,7 +5537,7 @@
         },
         {
           "type": "waarofniet",
-          "vraag": "Een buffer met pKz 7 is geschikt om een oplossing rond pH 7 te houden.",
+          "vraag": "Een buffer met pKz \\(7\\) is geschikt om een oplossing rond pH \\(7\\) te houden.",
           "antwoord": true,
           "uitleg": "Het bereik van een buffer ligt rond de pKz van zijn zuur. Daarom kies je het zuur op basis van de pH die je nodig hebt."
         },
@@ -5596,9 +5596,9 @@
           "type": "meerkeuze",
           "vraag": "Bij welke pH ligt het equivalentiepunt van een sterk zuur met een sterke base?",
           "opties": [
-            "bij pH 7, want er blijft een neutraal zout over",
-            "boven pH 7, want er blijft een basisch zout over",
-            "onder pH 7, want er blijft een zuur zout over",
+            "bij pH \\(7\\), want er blijft een neutraal zout over",
+            "boven pH \\(7\\), want er blijft een basisch zout over",
+            "onder pH \\(7\\), want er blijft een zuur zout over",
             "dat is niet te voorspellen zonder de constanten"
           ],
           "antwoord": 0,
@@ -5606,7 +5606,7 @@
         },
         {
           "type": "waarofniet",
-          "vraag": "Bij de titratie van een zwak zuur met een sterke base ligt het equivalentiepunt boven pH 7.",
+          "vraag": "Bij de titratie van een zwak zuur met een sterke base ligt het equivalentiepunt boven pH \\(7\\).",
           "antwoord": true,
           "uitleg": "Er blijft de geconjugeerde base van een zwak zuur over, en die maakt de oplossing basisch. Daarom past fenolftaleïen daar goed."
         },
@@ -5615,7 +5615,7 @@
           "vraag": "Hoe kies je een geschikte indicator voor een titratie?",
           "opties": [
             "haar omslaggebied moet binnen de pH-sprong van de curve vallen",
-            "haar omslaggebied moet precies bij pH 7 liggen",
+            "haar omslaggebied moet precies bij pH \\(7\\) liggen",
             "ze moet dezelfde kleur hebben als de te titreren oplossing",
             "ze moet een sterker zuur zijn dan het zuur dat je titreert"
           ],
@@ -5679,27 +5679,27 @@
         },
         {
           "type": "meerkeuze",
-          "vraag": "Je titreert 20 mL zuur met 0,1 mol/L base en verbruikt 20 mL. Wat is de concentratie van het zuur, als het eenwaardig is?",
+          "vraag": "Je titreert \\(20\\) mL zuur met \\(0{,}1\\) mol/L base en verbruikt \\(20\\) mL. Wat is de concentratie van het zuur, als het eenwaardig is?",
           "opties": [
-            "0,1 mol/L",
-            "0,2 mol/L",
-            "0,05 mol/L",
-            "0,02 mol/L"
+            "\\(0{,}1\\) mol/L",
+            "\\(0{,}2\\) mol/L",
+            "\\(0{,}05\\) mol/L",
+            "\\(0{,}02\\) mol/L"
           ],
           "antwoord": 0,
-          "uitleg": "Gelijke volumes en gelijke waardigheid betekent gelijke concentratie: 0,1 maal 0,020 is 0,002 mol base, dus ook 0,002 mol zuur."
+          "uitleg": "Gelijke volumes en gelijke waardigheid betekent gelijke concentratie: \\(0{,}1 \\cdot 0{,}020\\) is \\(0{,}002\\) mol base, dus ook \\(0{,}002\\) mol zuur."
         },
         {
           "type": "meerkeuze",
-          "vraag": "Je titreert 20 mL van een tweewaardig zuur met 0,1 mol/L base en verbruikt 40 mL. Wat is de concentratie van het zuur?",
+          "vraag": "Je titreert \\(20\\) mL van een tweewaardig zuur met \\(0{,}1\\) mol/L base en verbruikt \\(40\\) mL. Wat is de concentratie van het zuur?",
           "opties": [
-            "0,1 mol/L",
-            "0,2 mol/L",
-            "0,05 mol/L",
-            "0,4 mol/L"
+            "\\(0{,}1\\) mol/L",
+            "\\(0{,}2\\) mol/L",
+            "\\(0{,}05\\) mol/L",
+            "\\(0{,}4\\) mol/L"
           ],
           "antwoord": 0,
-          "uitleg": "0,004 mol base neutraliseert 0,002 mol tweewaardig zuur. Dat is 0,002 gedeeld door 0,020 liter."
+          "uitleg": "\\(0{,}004\\) mol base neutraliseert \\(0{,}002\\) mol tweewaardig zuur. Dat is \\(0{,}002\\) gedeeld door \\(0{,}020\\) liter."
         },
         {
           "type": "meerkeuze",
@@ -5718,7 +5718,7 @@
         },
         {
           "type": "invultekst",
-          "vraag": "Welk glaswerk gebruik je om precies 20 mL van de onbekende oplossing af te meten?",
+          "vraag": "Welk glaswerk gebruik je om precies \\(20\\) mL van de onbekende oplossing af te meten?",
           "antwoord": [
             "pipet",
             "een pipet",
@@ -5736,7 +5736,7 @@
             "de sprong verschuift naar een veel hogere pH"
           ],
           "antwoord": 0,
-          "uitleg": "Begin en einde liggen dichter bij pH 7, dus is er minder verschil te overbruggen. Daardoor is de omslag moeilijker te zien."
+          "uitleg": "Begin en einde liggen dichter bij pH \\(7\\), dus is er minder verschil te overbruggen. Daardoor is de omslag moeilijker te zien."
         },
         {
           "type": "meerkeuze",
@@ -5823,7 +5823,7 @@
             "+II"
           ],
           "antwoord": 0,
-          "uitleg": "Twee keer +I plus vier keer −II is −6. Zwavel moet dus +VI zijn om op nul uit te komen."
+          "uitleg": "Twee keer +I plus vier keer −II is \\(-6\\). Zwavel moet dus +VI zijn om op nul uit te komen."
         },
         {
           "type": "waarofniet",
@@ -5841,7 +5841,7 @@
             "+II"
           ],
           "antwoord": 0,
-          "uitleg": "Vier keer −II is −8, en het hele ion heeft lading −1. Mangaan moet dus +VII zijn."
+          "uitleg": "Vier keer −II is \\(-8\\), en het hele ion heeft lading \\(-1\\). Mangaan moet dus +VII zijn."
         },
         {
           "type": "meerkeuze",
@@ -5908,7 +5908,7 @@
             "+II"
           ],
           "antwoord": 0,
-          "uitleg": "Zeven keer −II is −14, het ion heeft lading −2. De twee chroomatomen dragen dus samen +12."
+          "uitleg": "Zeven keer −II is \\(-14\\), het ion heeft lading \\(-2\\). De twee chroomatomen dragen dus samen +\\(12\\)."
         },
         {
           "type": "meerkeuze",
@@ -5933,7 +5933,7 @@
             "+5",
             "plus vijf"
           ],
-          "uitleg": "Drie keer −II is −6, het ion heeft lading −1. Stikstof komt dus op +V uit."
+          "uitleg": "Drie keer −II is \\(-6\\), het ion heeft lading \\(-1\\). Stikstof komt dus op +V uit."
         },
         {
           "type": "meerkeuze",
@@ -6106,7 +6106,7 @@
         },
         {
           "type": "meerkeuze",
-          "vraag": "Twee koppels: Cu²⁺/Cu met +0,34 V en Zn²⁺/Zn met −0,76 V. Welke reactie gaat spontaan door?",
+          "vraag": "Twee koppels: Cu²⁺/Cu met +\\(0{,}34\\) V en Zn²⁺/Zn met \\(-0{,}76\\) V. Welke reactie gaat spontaan door?",
           "opties": [
             "zink wordt geoxideerd en het koperion gereduceerd",
             "koper wordt geoxideerd en het zinkion gereduceerd",
@@ -6302,15 +6302,15 @@
         },
         {
           "type": "meerkeuze",
-          "vraag": "Een cel met Cu²⁺/Cu op +0,34 V en Zn²⁺/Zn op −0,76 V. Wat is de bronspanning?",
+          "vraag": "Een cel met Cu²⁺/Cu op +\\(0{,}34\\) V en Zn²⁺/Zn op \\(-0{,}76\\) V. Wat is de bronspanning?",
           "opties": [
-            "1,10 V",
-            "0,42 V",
-            "0,34 V",
-            "0,76 V"
+            "\\(1{,}10\\) V",
+            "\\(0{,}42\\) V",
+            "\\(0{,}34\\) V",
+            "\\(0{,}76\\) V"
           ],
           "antwoord": 0,
-          "uitleg": "0,34 min min 0,76 is 1,10 volt. Koper is de kathode, zink de anode."
+          "uitleg": "\\(0{,}34\\) min min \\(0{,}76\\) is \\(1{,}10\\) volt. Koper is de kathode, zink de anode."
         },
         {
           "type": "invultekst",
@@ -7682,8 +7682,8 @@
           "type": "meerkeuze",
           "vraag": "Wat ontstaat er bij de additie van diwaterstof aan propanon?",
           "opties": [
-            "propaan-2-ol",
-            "propaan-1-ol",
+            "propaan-\\(2\\)-ol",
+            "propaan-\\(1\\)-ol",
             "propanal",
             "propaanzuur"
           ],
@@ -7731,10 +7731,10 @@
           "type": "meerkeuze",
           "vraag": "Je laat HCl adderen aan propeen. Welk product overheerst volgens Markownikov?",
           "opties": [
-            "2-chloorpropaan",
-            "1-chloorpropaan",
-            "1,2-dichloorpropaan",
-            "propaan-2-ol"
+            "\\(2\\)-chloorpropaan",
+            "\\(1\\)-chloorpropaan",
+            "\\(1{,}2\\)-dichloorpropaan",
+            "propaan-\\(2\\)-ol"
           ],
           "antwoord": 0,
           "uitleg": "Het waterstofatoom gaat naar het eerste koolstofatoom, dat er al twee heeft. Het chlooratoom komt dus op het tweede terecht."
@@ -7812,7 +7812,7 @@
             "keton",
             "ketonen"
           ],
-          "uitleg": "De C=O-groep komt in het midden van de keten te zitten. Daarom is propanon het product van propaan-2-ol."
+          "uitleg": "De C=O-groep komt in het midden van de keten te zitten. Daarom is propanon het product van propaan-\\(2\\)-ol."
         },
         {
           "type": "meerkeuze",
@@ -7883,7 +7883,7 @@
         },
         {
           "type": "meerkeuze",
-          "vraag": "Je oxideert propaan-1-ol voorzichtig. Wat ontstaat er eerst?",
+          "vraag": "Je oxideert propaan-\\(1\\)-ol voorzichtig. Wat ontstaat er eerst?",
           "opties": [
             "propanal",
             "propanon",
@@ -7901,15 +7901,15 @@
         },
         {
           "type": "meerkeuze",
-          "vraag": "Welk product krijg je uit butaan-2-ol bij een dehydrogenatie?",
+          "vraag": "Welk product krijg je uit butaan-\\(2\\)-ol bij een dehydrogenatie?",
           "opties": [
             "butanon",
             "butanal",
             "butaanzuur",
-            "but-2-een"
+            "but-\\(2\\)-een"
           ],
           "antwoord": 0,
-          "uitleg": "Butaan-2-ol is een secundaire alcohol, dus komt de C=O-groep in het midden. Dat geeft een keton."
+          "uitleg": "Butaan-\\(2\\)-ol is een secundaire alcohol, dus komt de C=O-groep in het midden. Dat geeft een keton."
         },
         {
           "type": "meerkeuze",
@@ -7937,7 +7937,7 @@
         },
         {
           "type": "meerkeuze",
-          "vraag": "Waarom levert de dehydratatie van butaan-2-ol twee verschillende alkenen op?",
+          "vraag": "Waarom levert de dehydratatie van butaan-\\(2\\)-ol twee verschillende alkenen op?",
           "opties": [
             "het water kan aan twee kanten van de OH-groep weggaan",
             "de keten kan tijdens de reactie vertakken",
@@ -7945,7 +7945,7 @@
             "het zwavelzuur voegt zich bij een van de twee producten"
           ],
           "antwoord": 0,
-          "uitleg": "Er zit aan beide buuratomen een waterstofatoom. Dus krijg je but-1-een en but-2-een naast elkaar."
+          "uitleg": "Er zit aan beide buuratomen een waterstofatoom. Dus krijg je but-\\(1\\)-een en but-\\(2\\)-een naast elkaar."
         },
         {
           "type": "meerkeuze",
@@ -8286,7 +8286,7 @@
             "PA"
           ],
           "antwoord": 0,
-          "uitleg": "PET is sterk, doorzichtig en laat weinig gas door. Daarom staat de recyclagecode 1 op zo'n fles."
+          "uitleg": "PET is sterk, doorzichtig en laat weinig gas door. Daarom staat de recyclagecode \\(1\\) op zo'n fles."
         },
         {
           "type": "meerkeuze",
@@ -8458,7 +8458,7 @@
             "een biljoenste van een meter"
           ],
           "antwoord": 0,
-          "uitleg": "Nano staat voor 10⁻⁹. Een nanomateriaal meet ongeveer één tot honderd nanometer."
+          "uitleg": "Nano staat voor \\(10^{-9}\\). Een nanomateriaal meet ongeveer één tot honderd nanometer."
         },
         {
           "type": "meerkeuze",
@@ -8470,7 +8470,7 @@
             "de haar, maar slechts een paar keer"
           ],
           "antwoord": 0,
-          "uitleg": "Een haar is ongeveer 80 000 nanometer dik. Een atoom is ongeveer een tiende van een nanometer."
+          "uitleg": "Een haar is ongeveer \\(80\\,000\\) nanometer dik. Een atoom is ongeveer een tiende van een nanometer."
         },
         {
           "type": "invultekst",
@@ -9006,7 +9006,7 @@
             0,
             1
           ],
-          "uitleg": "Ze gelden voor alle landen en gaan ook over armoede, gezondheid, onderwijs en gelijkheid. Het streefjaar is 2030."
+          "uitleg": "Ze gelden voor alle landen en gaan ook over armoede, gezondheid, onderwijs en gelijkheid. Het streefjaar is \\(2030\\)."
         },
         {
           "type": "meerkeuze",
@@ -9103,7 +9103,7 @@
             "17",
             "zeventien"
           ],
-          "uitleg": "Ze werden in 2015 afgesproken bij de Verenigde Naties, met 2030 als streefjaar."
+          "uitleg": "Ze werden in \\(2015\\) afgesproken bij de Verenigde Naties, met \\(2030\\) als streefjaar."
         },
         {
           "type": "invultekst",
@@ -9299,7 +9299,7 @@
           "type": "waarofniet",
           "vraag": "Een hoog rendement en een hoge atoomeconomie betekenen hetzelfde.",
           "antwoord": false,
-          "uitleg": "Het rendement meet hoeveel je er echt uithaalt, de atoomeconomie wat de vergelijking in het beste geval toelaat. Je kan 100 % atoomeconomie hebben met een slecht rendement."
+          "uitleg": "Het rendement meet hoeveel je er echt uithaalt, de atoomeconomie wat de vergelijking in het beste geval toelaat. Je kan \\(100\\,\\%\\) atoomeconomie hebben met een slecht rendement."
         },
         {
           "type": "waarofniet",
@@ -9398,12 +9398,12 @@
         },
         {
           "type": "meerkeuze",
-          "vraag": "Welk glaswerk gebruik je om precies 250,0 mL oplossing te maken?",
+          "vraag": "Welk glaswerk gebruik je om precies \\(250{,}0\\) mL oplossing te maken?",
           "opties": [
-            "een maatkolf van 250 mL",
-            "een maatcilinder van 250 mL",
-            "een bekerglas van 250 mL",
-            "een erlenmeyer van 250 mL"
+            "een maatkolf van \\(250\\) mL",
+            "een maatcilinder van \\(250\\) mL",
+            "een bekerglas van \\(250\\) mL",
+            "een erlenmeyer van \\(250\\) mL"
           ],
           "antwoord": 0,
           "uitleg": "Een maatkolf heeft één streepje en is daarvoor gekalibreerd. De streepjes op een bekerglas zijn maar een ruwe aanduiding."
@@ -9459,7 +9459,7 @@
         },
         {
           "type": "meerkeuze",
-          "vraag": "Waarom meet je 5 mL niet af in een maatcilinder van 500 mL?",
+          "vraag": "Waarom meet je \\(5\\) mL niet af in een maatcilinder van \\(500\\) mL?",
           "opties": [
             "de streepjes staan daar veel te ver van elkaar",
             "de cilinder is te groot om goed vast te houden",
@@ -9467,7 +9467,7 @@
             "de vloeistof reageert anders in een grote cilinder"
           ],
           "antwoord": 0,
-          "uitleg": "Een afleesfout van één streepje is daar al 5 mL. Kies altijd het instrument waarvan het bereik bij je volume past."
+          "uitleg": "Een afleesfout van één streepje is daar al \\(5\\) mL. Kies altijd het instrument waarvan het bereik bij je volume past."
         },
         {
           "type": "waarofniet",
@@ -9609,11 +9609,11 @@
             "een honderd"
           ],
           "antwoord": 0,
-          "uitleg": "Mega is 10⁶, kilo is 10³ en giga is 10⁹. De voorvoegsels gaan telkens drie machten van tien verder."
+          "uitleg": "Mega is \\(10^{6}\\), kilo is \\(10^{3}\\) en giga is \\(10^{9}\\). De voorvoegsels gaan telkens drie machten van tien verder."
         },
         {
           "type": "meerkeuze",
-          "vraag": "Welk voorvoegsel staat voor 10⁻⁶?",
+          "vraag": "Welk voorvoegsel staat voor \\(10^{-6}\\)?",
           "opties": [
             "micro",
             "milli",
@@ -9621,7 +9621,7 @@
             "centi"
           ],
           "antwoord": 0,
-          "uitleg": "Milli is 10⁻³ en nano is 10⁻⁹. Micro zit er precies tussen."
+          "uitleg": "Milli is \\(10^{-3}\\) en nano is \\(10^{-9}\\). Micro zit er precies tussen."
         },
         {
           "type": "invultekst",
@@ -9631,11 +9631,11 @@
             "duizend",
             "1 000"
           ],
-          "uitleg": "Milli is 10⁻³ en micro is 10⁻⁶, dus er zitten drie machten van tien tussen."
+          "uitleg": "Milli is \\(10^{-3}\\) en micro is \\(10^{-6}\\), dus er zitten drie machten van tien tussen."
         },
         {
           "type": "meerkeuze",
-          "vraag": "Hoeveel beduidende cijfers heeft 0,00450?",
+          "vraag": "Hoeveel beduidende cijfers heeft \\(0{,}00450\\)?",
           "opties": [
             "drie",
             "twee",
@@ -9649,20 +9649,20 @@
           "type": "meerkeuze",
           "vraag": "Welke getallen hebben drie beduidende cijfers? Kruis alles aan wat juist is.",
           "opties": [
-            "2,40",
-            "0,00106",
-            "0,0012",
-            "12 000"
+            "\\(2{,}40\\)",
+            "\\(0{,}00106\\)",
+            "\\(0{,}0012\\)",
+            "\\(12\\,000\\)"
           ],
           "antwoord": [
             0,
             1
           ],
-          "uitleg": "0,0012 heeft er twee. Bij 12 000 weet je het niet: schrijf het als 1,20·10⁴ als je er drie bedoelt."
+          "uitleg": "\\(0{,}0012\\) heeft er twee. Bij \\(12\\,000\\) weet je het niet: schrijf het als \\(1{,}20\\cdot10^{4}\\) als je er drie bedoelt."
         },
         {
           "type": "meerkeuze",
-          "vraag": "Je vermenigvuldigt 2,5 met 3,142. Hoeveel beduidende cijfers heeft het antwoord?",
+          "vraag": "Je vermenigvuldigt \\(2{,}5\\) met \\(3{,}142\\). Hoeveel beduidende cijfers heeft het antwoord?",
           "opties": [
             "twee",
             "drie",
@@ -9670,40 +9670,40 @@
             "vijf"
           ],
           "antwoord": 0,
-          "uitleg": "Bij vermenigvuldigen en delen volg je de factor met het minste aantal beduidende cijfers. Dus 7,9 en niet 7,855."
+          "uitleg": "Bij vermenigvuldigen en delen volg je de factor met het minste aantal beduidende cijfers. Dus \\(7{,}9\\) en niet \\(7{,}855\\)."
         },
         {
           "type": "meerkeuze",
-          "vraag": "Je telt 12,11 g en 0,2 g op. Hoe schrijf je het resultaat?",
+          "vraag": "Je telt \\(12{,}11\\) g en \\(0{,}2\\) g op. Hoe schrijf je het resultaat?",
           "opties": [
-            "12,3 g",
-            "12,31 g",
-            "12 g",
-            "12,310 g"
+            "\\(12{,}3\\) g",
+            "\\(12{,}31\\) g",
+            "\\(12\\) g",
+            "\\(12{,}310\\) g"
           ],
           "antwoord": 0,
           "uitleg": "Bij optellen en aftrekken kijk je naar het aantal decimalen, niet naar het aantal beduidende cijfers. De minst nauwkeurige term heeft er één."
         },
         {
           "type": "invultekst",
-          "vraag": "Hoeveel beduidende cijfers heeft 1,0·10³?",
+          "vraag": "Hoeveel beduidende cijfers heeft \\(1{,}0\\cdot10^{3}\\)?",
           "antwoord": [
             "2",
             "twee"
           ],
-          "uitleg": "De wetenschappelijke notatie maakt dat ondubbelzinnig: enkel de cijfers voor de macht tellen mee. Daarom schrijf je 1000 zo als je er twee bedoelt."
+          "uitleg": "De wetenschappelijke notatie maakt dat ondubbelzinnig: enkel de cijfers voor de macht tellen mee. Daarom schrijf je \\(1000\\) zo als je er twee bedoelt."
         },
         {
           "type": "meerkeuze",
-          "vraag": "Hoe schrijf je 0,000 072 in wetenschappelijke notatie?",
+          "vraag": "Hoe schrijf je \\(0{,}000\\,072\\) in wetenschappelijke notatie?",
           "opties": [
-            "7,2·10⁻⁵",
-            "7,2·10⁻⁴",
-            "72·10⁻⁶",
-            "0,72·10⁻⁴"
+            "\\(7{,}2\\cdot10^{-5}\\)",
+            "\\(7{,}2\\cdot10^{-4}\\)",
+            "\\(72\\cdot10^{-6}\\)",
+            "\\(0{,}72\\cdot10^{-4}\\)"
           ],
           "antwoord": 0,
-          "uitleg": "Er staat één cijfer voor de komma, van 1 tot 9. De komma schuift vijf plaatsen naar rechts, dus de exponent is min vijf."
+          "uitleg": "Er staat één cijfer voor de komma, van \\(1\\) tot \\(9\\). De komma schuift vijf plaatsen naar rechts, dus de exponent is min vijf."
         },
         {
           "type": "meerkeuze",
@@ -9754,7 +9754,7 @@
           "type": "waarofniet",
           "vraag": "Nullen vooraan een getal tellen mee als beduidend cijfer.",
           "antwoord": false,
-          "uitleg": "Ze plaatsen enkel de komma. In 0,0045 zijn er dus twee beduidende cijfers."
+          "uitleg": "Ze plaatsen enkel de komma. In \\(0{,}0045\\) zijn er dus twee beduidende cijfers."
         },
         {
           "type": "waarofniet",
@@ -9776,7 +9776,7 @@
             "gram per milliliter",
             "g per mL"
           ],
-          "uitleg": "Dat is de massadichtheid. In SI-eenheden zou dat kg/m³ zijn."
+          "uitleg": "Dat is de massadichtheid. In SI-eenheden zou dat kg/\\(\\text{m}^{3}\\) zijn."
         },
         {
           "type": "invultekst",
@@ -9805,7 +9805,7 @@
             "een vraag die met ja of nee te beantwoorden is"
           ],
           "antwoord": 0,
-          "uitleg": "Ze moet nauwkeurig afgebakend en meetbaar zijn. Hoe los het zout op is geen onderzoeksvraag, hoeveel gram per 100 mL water wel."
+          "uitleg": "Ze moet nauwkeurig afgebakend en meetbaar zijn. Hoe los het zout op is geen onderzoeksvraag, hoeveel gram per \\(100\\) mL water wel."
         },
         {
           "type": "meerkeuze",
@@ -9880,7 +9880,7 @@
             "een systematische fout kan je met een gemiddelde wel wegwerken"
           ],
           "antwoord": 0,
-          "uitleg": "Een balans die 0,2 g te veel aangeeft, doet dat elke keer. Herhalen helpt dan niet, kalibreren wel."
+          "uitleg": "Een balans die \\(0{,}2\\) g te veel aangeeft, doet dat elke keer. Herhalen helpt dan niet, kalibreren wel."
         },
         {
           "type": "invultekst",
@@ -9990,7 +9990,7 @@
             "nauwkeurig gaat over de eenheid, precies over het aantal cijfers"
           ],
           "antwoord": 0,
-          "uitleg": "Vijf metingen die mooi samen liggen maar alle vijf 0,3 g te hoog, zijn precies maar niet nauwkeurig. Dat wijst op een systematische fout."
+          "uitleg": "Vijf metingen die mooi samen liggen maar alle vijf \\(0{,}3\\) g te hoog, zijn precies maar niet nauwkeurig. Dat wijst op een systematische fout."
         },
         {
           "type": "invultekst",
@@ -10041,7 +10041,7 @@
             "een meting die je aan het eind uitvoert"
           ],
           "antwoord": 0,
-          "uitleg": "Het filter moet minstens 90 % van het zand tegenhouden: dat is een criterium. Je hebt maar één lesuur: dat is een randvoorwaarde."
+          "uitleg": "Het filter moet minstens \\(90\\,\\%\\) van het zand tegenhouden: dat is een criterium. Je hebt maar één lesuur: dat is een randvoorwaarde."
         },
         {
           "type": "meerkeuze",

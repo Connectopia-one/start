@@ -131,7 +131,7 @@ DEEL1 = [
         vraag="De formule-eenheid van een ionverbinding geeft de kleinste verhouding van de ionen, niet één molecule.",
         antwoord=True,
         uitleg="NaCl bestaat niet als losse molecule: in het rooster staan de ionen in "
-        "verhouding 1 op 1. Daarom spreken we van een formule-eenheid.",
+        r"verhouding \(1\) op \(1\). Daarom spreken we van een formule-eenheid.",
     ),
     dict(
         type="meerkeuze",

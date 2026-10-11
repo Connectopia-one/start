@@ -58,7 +58,7 @@
     },
     {
      "soort": "tekst",
-     "html": "De <strong>zuurconstante</strong> van een zuur HA in water is <strong>Kz is [H₃O⁺] maal [A⁻] gedeeld door [HA]</strong>, gewoon de evenwichtsconstante van de protolyse; het water staat er niet in, want het is in overmaat. De <strong>baseconstante Kb</strong> heeft dezelfde vorm met het hydroxide-ion in de teller. Een <strong>kleine pKz-waarde</strong> hoort bij een <strong>sterk</strong> zuur, want pKz is de negatieve logaritme van Kz: van twee zuren met <strong>pKz 3 en pKz 5</strong> is <strong>het zuur met pKz 3 het sterkste</strong>, en twee eenheden verschil is een factor honderd."
+     "html": "De <strong>zuurconstante</strong> van een zuur HA in water is <strong>Kz is [H₃O⁺] maal [A⁻] gedeeld door [HA]</strong>, gewoon de evenwichtsconstante van de protolyse; het water staat er niet in, want het is in overmaat. De <strong>baseconstante Kb</strong> heeft dezelfde vorm met het hydroxide-ion in de teller. Een <strong>kleine pKz-waarde</strong> hoort bij een <strong>sterk</strong> zuur, want pKz is de negatieve logaritme van Kz: van twee zuren met <strong>pKz \\(3\\) en pKz \\(5\\)</strong> is <strong>het zuur met pKz \\(3\\) het sterkste</strong>, en twee eenheden verschil is een factor honderd."
     },
     {
      "soort": "tekst",
@@ -75,7 +75,7 @@
     },
     {
      "soort": "tekst",
-     "html": "Een <strong>pH-meter</strong> meet de pH nauwkeurig als een getal; je ijkt ze eerst met bufferoplossingen van bekende pH. Een <strong>zuurbase-indicator</strong> geeft maar een gebied: <strong>het is zelf een zwak zuur waarvan de twee vormen anders gekleurd zijn</strong>. Het <strong>omslaggebied</strong> <strong>ligt rond de pKz van de indicator</strong> en <strong>beslaat ongeveer twee pH-eenheden</strong>: <strong>fenolftaleïen</strong> is <strong>kleurloos in zuur en roze in basisch midden</strong> met een omslag rond pH 9, en methyloranje slaat om rond pH 4. Daarom kies je je indicator bij de titratie die je doet."
+     "html": "Een <strong>pH-meter</strong> meet de pH nauwkeurig als een getal; je ijkt ze eerst met bufferoplossingen van bekende pH. Een <strong>zuurbase-indicator</strong> geeft maar een gebied: <strong>het is zelf een zwak zuur waarvan de twee vormen anders gekleurd zijn</strong>. Het <strong>omslaggebied</strong> <strong>ligt rond de pKz van de indicator</strong> en <strong>beslaat ongeveer twee pH-eenheden</strong>: <strong>fenolftaleïen</strong> is <strong>kleurloos in zuur en roze in basisch midden</strong> met een omslag rond pH \\(9\\), en methyloranje slaat om rond pH \\(4\\). Daarom kies je je indicator bij de titratie die je doet."
     }
    ]
   }
@@ -87,6 +87,6 @@
   "Sterk is niet hetzelfde als geconcentreerd.",
   "Kleine pKz betekent sterk zuur; Kz · Kb is de constante van water.",
   "Sterk zuur plus sterke base geeft een neutraal zout.",
-  "Fenolftaleïen: kleurloos in zuur, roze in basisch, omslag rond pH 9."
+  "Fenolftaleïen: kleurloos in zuur, roze in basisch, omslag rond pH \\(9\\)."
  ]
 }

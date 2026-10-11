@@ -69,7 +69,7 @@ DEEL1 = [
     ),
     dict(
         type="meerkeuze",
-        vraag="Hoe schrijf je de evenwichtsconstante voor het evenwicht A + 2 B ⇌ C?",
+        vraag=r"Hoe schrijf je de evenwichtsconstante voor het evenwicht A + \(2\) B ⇌ C?",
         opties=[
             "K is [C] gedeeld door [A] maal [B]²",
             "K is [A] maal [B]² gedeeld door [C]",
@@ -130,7 +130,7 @@ DEEL1 = [
         type="waarofniet",
         vraag="In de uitdrukking van de evenwichtsconstante staan de coëfficiënten als exponent.",
         antwoord=True,
-        uitleg="Bij N₂ + 3 H₂ ⇌ 2 NH₃ wordt dat [NH₃]² gedeeld door [N₂] maal [H₂]³.",
+        uitleg=r"Bij N₂ + \(3\) H₂ ⇌ \(2\) NH₃ wordt dat [NH₃]² gedeeld door [N₂] maal [H₂]³.",
     ),
     dict(
         type="meerkeuze",
@@ -142,8 +142,8 @@ DEEL1 = [
             "de tijd die nodig is om het evenwicht te bereiken",
         ],
         antwoord=0,
-        uitleg="Heeft 0,2 mol van de 1 mol gereageerd, dan is de omzettingsgraad 20 "
-        "procent. Bij een aflopende reactie zou dat 100 procent zijn.",
+        uitleg=r"Heeft \(0{,}2\) mol van de \(1\) mol gereageerd, dan is de omzettingsgraad \(20\) "
+        r"procent. Bij een aflopende reactie zou dat \(100\) procent zijn.",
     ),
     dict(
         type="meerkeuze",
@@ -200,7 +200,7 @@ DEEL1 = [
     ),
     dict(
         type="meerkeuze",
-        vraag="Een evenwicht heeft K gelijk aan 1. Wat weet je dan?",
+        vraag=r"Een evenwicht heeft K gelijk aan \(1\). Wat weet je dan?",
         opties=[
             "teller en noemer zijn in het evenwicht ongeveer even groot",
             "het evenwicht ligt helemaal aan de kant van de producten",
@@ -329,7 +329,7 @@ DEEL2 = [
     ),
     dict(
         type="meerkeuze",
-        vraag="In het evenwicht N₂ + 3 H₂ ⇌ 2 NH₃ verhoog je de druk. Wat gebeurt er met de hoeveelheid ammoniak?",
+        vraag=r"In het evenwicht N₂ + \(3\) H₂ ⇌ \(2\) NH₃ verhoog je de druk. Wat gebeurt er met de hoeveelheid ammoniak?",
         opties=[
             "ze neemt toe, want rechts staan minder mol gas",
             "ze neemt af, want rechts staan meer mol gas",
@@ -357,7 +357,7 @@ DEEL2 = [
             "het aantal mol product gedeeld door het aantal mol reagens",
         ],
         antwoord=0,
-        uitleg="Haal je 8 gram van de 10 gram die mogelijk was, dan is het rendement 80 "
+        uitleg=r"Haal je \(8\) gram van de \(10\) gram die mogelijk was, dan is het rendement \(80\) "
         "procent. Bij een evenwicht blijft dat altijd onder de honderd.",
     ),
     dict(

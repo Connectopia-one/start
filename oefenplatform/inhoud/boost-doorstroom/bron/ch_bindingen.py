@@ -329,7 +329,7 @@ DEEL2 = [
             "−II",
             "+II",
             "−I",
-            "0",
+            r"\(0\)",
         ],
         antwoord=0,
         uitleg="Zuurstof neemt gewoonlijk twee elektronen op. In peroxiden is het wel −I, dus kijk altijd naar de formule.",
