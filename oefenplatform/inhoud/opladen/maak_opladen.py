@@ -159,7 +159,10 @@ INTRO = """<p>Na de opmerking van Enya staat <strong>het hele oefenplatform</str
       &#8220;wortel uit vijftig&#8221; staan in plaats van de formule.</p>
       <p>Het zijn veel bestanden, want het ging over alle acht de categorie&#235;n. Je kan rustig
       per blok werken: de vinkjes blijven staan als je de pagina sluit, ook op je telefoon.
-      De twee bovenaan stonden al op deze pagina; de rest is van vandaag.</p>"""
+      De twee bovenaan stonden al op deze pagina; de rest is van vandaag.</p>
+      <p>De <strong>twee laatste blokken</strong> zijn de bundels van 7 en 8 oktober. Die zijn
+      niet veranderd, maar je vroeg ernaar, dus ze staan er apart onderaan bij: sla over wat je
+      al opgeladen hebt.</p>"""
 
 BEYOND = "🌍 Beyond doorstroom"
 BEYOND_DF = "🌍 Beyond dubbele finaliteit"
@@ -299,6 +302,34 @@ OEF_NIEUW = [
     ("o-fr", "Filosofie en recht", BEYOND, "filosofie-en-recht-beyond-doorstroom"),
 ]
 
+# De vakken van de plakpagina's van 7 oktober (acht Boost-vakken) en 8 oktober
+# (de zes talen- en aardrijkskundevakken van 🌍 Beyond). Hun bundels zijn in de
+# notatieronde niet aangeraakt, dus ze horen er strikt niet bij; Kim vroeg er op
+# 11 oktober 2026 zelf naar, dus ze staan onderaan, apart van het nieuwe werk.
+# Wiskunde basis 🚀 Boost doorstroom ontbreekt hier: die is vandaag herbouwd en
+# staat dus al bij de blokken hierboven.
+VORIG = [
+    ("fr-bo", "Frans", BOOST, "frans-boost-doorstroom"),
+    ("sgw-bo", "Sociale en gedragswetenschappen", BOOST,
+     "sociale-en-gedragswetenschappen-boost-doorstroom"),
+    ("kbf-bo", "Kunstbeschouwing en filosofie", BOOST,
+     "kunstbeschouwing-en-filosofie-boost-doorstroom"),
+    ("tec-sdf", "Toegepaste economie", BOOST_DF,
+     "toegepaste-economie-boost-dubbele-finaliteit"),
+    ("ebw-sdf", "Economie en bedrijfswetenschappen", BOOST_DF,
+     "economie-en-bedrijfswetenschappen-boost-dubbele-finaliteit"),
+    ("gzw-sdf", "Gezondheid, zorg en welzijn", BOOST_DF,
+     "gezondheid-zorg-en-welzijn-boost-dubbele-finaliteit"),
+    ("oph-sdf", "Ontwikkeling en pedagogisch handelen", BOOST_DF,
+     "ontwikkeling-en-pedagogisch-handelen-boost-dubbele-finaliteit"),
+    ("ak-be", "Aardrijkskunde", BEYOND, "aardrijkskunde-beyond"),
+    ("en-be", "Engels", BEYOND, "engels-beyond"),
+    ("fr-be", "Frans", BEYOND, "frans-beyond"),
+    ("ak-bdf", "Aardrijkskunde", BEYOND_DF, "aardrijkskunde-beyond-dubbele-finaliteit"),
+    ("en-bdf", "Engels", BEYOND_DF, "engels-beyond-dubbele-finaliteit"),
+    ("fr-bdf", "Frans", BEYOND_DF, "frans-beyond-dubbele-finaliteit"),
+]
+
 WEG = ('Open <span class="pad">Beheer</span>, <span class="pad">Vakken</span>, '
        'categorie <span class="pad">%s</span>, dan het vak, dan '
        '<span class="pad">Vragen importeren</span>. Plak met ctrl+V en zet '
@@ -338,6 +369,15 @@ SECTIES = [
          uitleg="Zelfde twee vakken, zelfde werkwijze. Twintig oefenbundels per vak, elk met een "
                 "antwoordblad achteraan dat je eraf scheurt voor je ze aan een kind geeft.",
          kaarten=zipkaarten(OEF_NIEUW, "oefenbundels", "oefenbundels")),
+    dict(kop="Van de vorige rondes: leerbundels",
+         uitleg="Deze zijn níet veranderd door de notatie, dus normaal heb je ze al. Ze staan "
+                "hier alleen omdat je vroeg of de bundels van ervoor er ook bij zaten. Sla over "
+                "wat je al opgeladen hebt — bij twijfel mag je ze gewoon opnieuw opladen, het "
+                "formulier vraagt dan of het de oude mag vervangen.",
+         kaarten=zipkaarten(VORIG, "leerbundels", "leerbundels", voor="oud-l-")),
+    dict(kop="Van de vorige rondes: oefenbundels",
+         uitleg="Dezelfde dertien vakken, dezelfde werkwijze.",
+         kaarten=zipkaarten(VORIG, "oefenbundels", "oefenbundels", voor="oud-o-")),
 ]
 
 
