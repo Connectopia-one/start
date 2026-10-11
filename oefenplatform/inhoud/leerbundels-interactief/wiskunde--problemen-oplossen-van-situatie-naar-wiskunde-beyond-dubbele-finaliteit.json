@@ -30,7 +30,7 @@
     },
     {
      "soort": "tekst",
-     "html": "Een kaal getal is nog geen antwoord. <strong>Is je uitkomst 7,5 en was de vraag hoeveel bussen er nodig zijn, dan antwoord je 8 bussen</strong>: een halve bus bestaat niet, en met zeven bussen raakt niet iedereen mee."
+     "html": "Een kaal getal is nog geen antwoord. <strong>Is je uitkomst \\(7{,}5\\) en was de vraag hoeveel bussen er nodig zijn, dan antwoord je \\(8\\) bussen</strong>: een halve bus bestaat niet, en met zeven bussen raakt niet iedereen mee."
     },
     {
      "soort": "weetje",
@@ -60,7 +60,7 @@
     },
     {
      "soort": "figuur",
-     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Strategie</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Wanneer ze helpt</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">terugrekenen</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">je weet wat er overblijft en zoekt het begin</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">de gegevens in een tabel ordenen</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">er staan veel getallen door elkaar</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een variabele invoeren</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">je kent een waarde nog niet en noemt ze x</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">slim gissen en testen</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">je probeert, kijkt of het klopt en past aan</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">alle mogelijkheden opschrijven</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">er zijn er weinig</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">speciale gevallen gebruiken</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">je test een formule met x = 0 en x = 1</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">simuleren</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">je voert het vraagstuk zelf een aantal keer uit</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">symmetrie gebruiken</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">de figuur is links en rechts hetzelfde</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">opsplitsen in deelproblemen</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">de opgave is te groot in één keer</td></tr></table>",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Strategie</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Wanneer ze helpt</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">terugrekenen</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">je weet wat er overblijft en zoekt het begin</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">de gegevens in een tabel ordenen</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">er staan veel getallen door elkaar</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een variabele invoeren</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">je kent een waarde nog niet en noemt ze x</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">slim gissen en testen</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">je probeert, kijkt of het klopt en past aan</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">alle mogelijkheden opschrijven</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">er zijn er weinig</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">speciale gevallen gebruiken</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">je test een formule met \\(x = 0\\) en \\(x = 1\\)</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">simuleren</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">je voert het vraagstuk zelf een aantal keer uit</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">symmetrie gebruiken</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">de figuur is links en rechts hetzelfde</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">opsplitsen in deelproblemen</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">de opgave is te groot in één keer</td></tr></table>",
      "onderschrift": "De strategieën die de leerstof opsomt, en waar ze van pas komen."
     },
     {
@@ -69,7 +69,7 @@
     },
     {
      "soort": "tekst",
-     "html": "Soms zie je in een reeks getallen iets terugkeren. <strong>Een reeks zoals 3, 6, 9, 12 heeft een patroon</strong>: er komt telkens drie bij. Wie het patroon ziet, hoeft niet elke stap apart te berekenen. En <strong>een tabel met de winst per aantal stuks maak je het snelst leesbaar als grafiek</strong>: dat is de voorstelling die het verloop het snelst zichtbaar maakt, want ze toont in één oogopslag of iets stijgt, daalt of een top bereikt."
+     "html": "Soms zie je in een reeks getallen iets terugkeren. <strong>Een reeks zoals \\(3\\), \\(6\\), \\(9\\), \\(12\\) heeft een patroon</strong>: er komt telkens drie bij. Wie het patroon ziet, hoeft niet elke stap apart te berekenen. En <strong>een tabel met de winst per aantal stuks maak je het snelst leesbaar als grafiek</strong>: dat is de voorstelling die het verloop het snelst zichtbaar maakt, want ze toont in één oogopslag of iets stijgt, daalt of een top bereikt."
     }
    ]
   },
@@ -78,7 +78,7 @@
    "blokken": [
     {
      "soort": "tekst",
-     "html": "<strong>De stap waarin je achteraf nagaat of je antwoord klopt en of je aanpak handig was, heet reflecteren.</strong> Die reflectie hoort bij het oplossen zelf: een antwoord dat je niet gecontroleerd hebt, is nog geen antwoord. <strong>Bereken je dat een auto 540 kilometer per uur rijdt, dan ga je je berekening na, want dat kan niet.</strong> Een onmogelijke waarde wijst op een rekenfout."
+     "html": "<strong>De stap waarin je achteraf nagaat of je antwoord klopt en of je aanpak handig was, heet reflecteren.</strong> Die reflectie hoort bij het oplossen zelf: een antwoord dat je niet gecontroleerd hebt, is nog geen antwoord. <strong>Bereken je dat een auto \\(540\\) kilometer per uur rijdt, dan ga je je berekening na, want dat kan niet.</strong> Een onmogelijke waarde wijst op een rekenfout."
     }
    ]
   },
@@ -91,11 +91,11 @@
     },
     {
      "soort": "tekst",
-     "html": "<strong>Bij een berekening in meerdere stappen rond je een tussenresultaat niet af op één cijfer.</strong> Je werkt met zo nauwkeurig mogelijke tussenresultaten en rondt pas op het einde af, precies zo nauwkeurig als gevraagd. <strong>Is je uitkomst 0,333333… en vraagt de opgave twee cijfers na de komma, dan noteer je 0,33.</strong>"
+     "html": "<strong>Bij een berekening in meerdere stappen rond je een tussenresultaat niet af op één cijfer.</strong> Je werkt met zo nauwkeurig mogelijke tussenresultaten en rondt pas op het einde af, precies zo nauwkeurig als gevraagd. <strong>Is je uitkomst \\(0{,}333333\\)… en vraagt de opgave twee cijfers na de komma, dan noteer je \\(0{,}33\\).</strong>"
     },
     {
      "soort": "kader",
-     "html": "Praktisch. <strong>Bij het examen krijg je kladpapier en een balpen</strong>, en je mag naar een geodriehoek, een passer of een meetlat vragen. <strong>Het examen wiskunde duurt 150 minuten</strong> en je legt het af in het examencentrum in Brussel, op de computer, met gesloten vragen. <strong>Er is geen giscorrectie</strong>, dus een vraag onbeantwoord laten levert zeker niets op. <strong>Veertig procent van het examen gaat over kansrekenen en statistiek</strong>; de andere zestig procent gaat over analyse."
+     "html": "Praktisch. <strong>Bij het examen krijg je kladpapier en een balpen</strong>, en je mag naar een geodriehoek, een passer of een meetlat vragen. <strong>Het examen wiskunde duurt \\(150\\) minuten</strong> en je legt het af in het examencentrum in Brussel, op de computer, met gesloten vragen. <strong>Er is geen giscorrectie</strong>, dus een vraag onbeantwoord laten levert zeker niets op. <strong>Veertig procent van het examen gaat over kansrekenen en statistiek</strong>; de andere zestig procent gaat over analyse."
     }
    ]
   }

@@ -59,7 +59,7 @@ OEFENBUNDELS["oefenbundel-problemen-oplossen-van-situatie-naar-wiskunde-beyond-d
                   "begrijpen", WW),
                  ("kort", "Je rekent de gekozen formule uit met de getallen van de opgave.",
                   "uitvoeren", WW),
-                 ("kort", "Je vindt 540 kilometer per uur voor een auto en gaat je berekening opnieuw na.",
+                 ("kort", r"Je vindt \(540\) kilometer per uur voor een auto en gaat je berekening opnieuw na.",
                   "reflecteren", WW),
                  ("kort", "Je beslist dat je het probleem in twee deelproblemen splitst.",
                   "plannen", WW),
@@ -72,59 +72,59 @@ OEFENBUNDELS["oefenbundel-problemen-oplossen-van-situatie-naar-wiskunde-beyond-d
              opdracht="Kies bij elke situatie de strategie die het snelst tot een antwoord leidt, en "
                       "schrijf in één zin waarom.",
              oefeningen=[
-                 ("open", "Je moet alle manieren vinden waarop je met munten van 1 en 2 euro precies "
-                          "5 euro kan betalen. Welke strategie en waarom?",
+                 ("open", r"Je moet alle manieren vinden waarop je met munten van \(1\) en \(2\) euro precies "
+                          r"\(5\) euro kan betalen. Welke strategie en waarom?",
                   "Alle mogelijkheden systematisch opschrijven: er zijn er maar een paar, en ordelijk "
                   "tellen laat er geen vergeten.", 3),
-                 ("open", "Een zaal heeft 23 rijen en elke rij heeft 3 stoelen meer dan de vorige. Je moet "
+                 ("open", r"Een zaal heeft \(23\) rijen en elke rij heeft \(3\) stoelen meer dan de vorige. Je moet "
                           "het totaal weten. Welke strategie en waarom?",
-                  "Een patroon of regelmaat zoeken en een formule opstellen: 23 rijen één voor één optellen "
+                  r"Een patroon of regelmaat zoeken en een formule opstellen: \(23\) rijen één voor één optellen "
                   "duurt te lang en geeft meer kans op een rekenfout.", 3),
-                 ("open", "Je moet weten hoeveel winst een handelaar maakt bij 0, 10, 20, 30 en 40 stuks, "
+                 ("open", r"Je moet weten hoeveel winst een handelaar maakt bij \(0\), \(10\), \(20\), \(30\) en \(40\) stuks, "
                           "en waar de winst het hoogst ligt. Welke strategie en waarom?",
                   "Een tabel maken en er een grafiek van tekenen: de grafiek maakt het verloop in één "
                   "oogopslag zichtbaar, dus ook waar de top ligt.", 3),
                  ("open", "Een figuur is links en rechts van een middellijn precies hetzelfde. Je moet de "
                           "oppervlakte berekenen. Welke strategie en waarom?",
                   "Symmetrie gebruiken: je rekent één helft uit en verdubbelt, dus maar half zoveel werk.", 3),
-                 ("open", "Je zoekt een getal waarvan het kwadraat plus het getal zelf 156 geeft. Je mag "
+                 ("open", r"Je zoekt een getal waarvan het kwadraat plus het getal zelf \(156\) geeft. Je mag "
                           "een rekentoestel gebruiken. Welke strategie en waarom?",
-                  "Slim gissen en verbeteren: je probeert 12 (156 is bijna 12 maal 13), ziet of je te hoog "
-                  "of te laag zit en stuurt bij. Het antwoord is 12.", 3),
+                  r"Slim gissen en verbeteren: je probeert \(12\) (\(156\) is bijna \(12 \cdot 13\)), ziet of je te hoog "
+                  r"of te laag zit en stuurt bij. Het antwoord is \(12\).", 3),
              ]),
         dict(kop="Vertalen naar wiskunde",
              opdracht="Schrijf bij elke situatie het voorschrift of de vergelijking op. Zeg eerst in één "
                       "woord wat je onbekende is.",
              oefeningen=[
-                 ("open", "Een fietsenverhuur vraagt 8 euro voorrijkosten en 3 euro per uur. Schrijf de "
+                 ("open", r"Een fietsenverhuur vraagt \(8\) euro voorrijkosten en \(3\) euro per uur. Schrijf de "
                           "prijs in functie van het aantal uren.",
-                  "Onbekende: het aantal uren x. Prijs is 8 plus 3 maal x.", 2),
-                 ("open", "Een bad bevat 240 liter en loopt leeg met 12 liter per minuut. Schrijf de inhoud "
+                  r"Onbekende: het aantal uren \(x\). Prijs is \(8\) plus \(3\) maal \(x\).", 2),
+                 ("open", r"Een bad bevat \(240\) liter en loopt leeg met \(12\) liter per minuut. Schrijf de inhoud "
                           "in functie van de tijd in minuten.",
-                  "Onbekende: de tijd t in minuten. Inhoud is 240 min 12 maal t.", 2),
-                 ("open", "Een trui kost na 30 procent korting 42 euro. Schrijf de vergelijking voor de "
+                  r"Onbekende: de tijd t in minuten. Inhoud is \(240\) min \(12\) maal t.", 2),
+                 ("open", r"Een trui kost na \(30\) procent korting \(42\) euro. Schrijf de vergelijking voor de "
                           "oorspronkelijke prijs.",
-                  "Onbekende: de oorspronkelijke prijs p. 0,7 maal p is 42, dus p is 60 euro.", 2),
-                 ("open", "Het aantal leden van een club is dit jaar 240 en stijgt elk jaar met 5 procent. "
+                  r"Onbekende: de oorspronkelijke prijs p. \(0{,}7\) maal p is \(42\), dus p is \(60\) euro.", 2),
+                 ("open", r"Het aantal leden van een club is dit jaar \(240\) en stijgt elk jaar met \(5\) procent. "
                           "Schrijf het aantal leden in functie van het aantal jaren.",
-                  "Onbekende: het aantal jaren x. Aantal leden is 240 maal 1,05 tot de macht x.", 2),
+                  r"Onbekende: het aantal jaren \(x\). Aantal leden is \(240 \cdot 1{,}05^{x}\).", 2),
              ]),
         dict(kop="Klopt dat antwoord?",
              opdracht="Bij elke opgave staat een antwoord. Beslis of het kan, en schrijf bij een onmogelijk "
                       "antwoord waaraan je het ziet.",
              oefeningen=[
-                 ("open", "Een klas van 24 leerlingen; het gemiddelde aantal broers en zussen komt uit op 2,5.",
+                 ("open", r"Een klas van \(24\) leerlingen; het gemiddelde aantal broers en zussen komt uit op \(2{,}5\).",
                   "Dat kan. Een gemiddelde hoeft geen geheel getal te zijn, ook al is het aantal broers en "
                   "zussen dat wel.", 2),
-                 ("open", "Een zwembad van 25 meter; een zwemmer zwemt er volgens de berekening 42 banen in "
-                          "3 minuten.",
-                  "Dat kan niet. Dat zou meer dan 5 meter per seconde zijn, veel sneller dan een wereldrecord. "
+                 ("open", r"Een zwembad van \(25\) meter; een zwemmer zwemt er volgens de berekening \(42\) banen in "
+                          r"\(3\) minuten.",
+                  r"Dat kan niet. Dat zou meer dan \(5\) meter per seconde zijn, veel sneller dan een wereldrecord. "
                   "Waarschijnlijk is er met de eenheden iets misgelopen.", 3),
-                 ("open", "Een korting van 20 procent op 60 euro geeft volgens de berekening 40 euro.",
-                  "Dat kan niet. 20 procent van 60 is 12, dus de prijs wordt 48 euro. Er is 20 euro "
-                  "afgetrokken in plaats van 20 procent.", 3),
-                 ("open", "Een kans wordt berekend op 1,4.",
-                  "Dat kan niet. Een kans ligt altijd tussen 0 en 1; boven 1 is er zeker een fout gemaakt.", 2),
+                 ("open", r"Een korting van \(20\) procent op \(60\) euro geeft volgens de berekening \(40\) euro.",
+                  r"Dat kan niet. \(20\) procent van \(60\) is \(12\), dus de prijs wordt \(48\) euro. Er is \(20\) euro "
+                  r"afgetrokken in plaats van \(20\) procent.", 3),
+                 ("open", r"Een kans wordt berekend op \(1{,}4\).",
+                  r"Dat kan niet. Een kans ligt altijd tussen \(0\) en \(1\); boven \(1\) is er zeker een fout gemaakt.", 2),
              ]),
         dict(kop="ICT of met de hand?",
              opdracht="Beslis of je dit op het examen met ICT mag doen, en schrijf in één zin wat de regel is.",
@@ -133,9 +133,9 @@ OEFENBUNDELS["oefenbundel-problemen-oplossen-van-situatie-naar-wiskunde-beyond-d
                   "Mag met ICT. Een grafiek tekenen en kenmerken aflezen is uitdrukkelijk toegelaten.", 2),
                  ("open", "De oppervlakte onder een Gausskromme bepalen tussen twee waarden.",
                   "Mag met ICT, en kan eigenlijk niet anders: daarvoor zijn de rekenapps bedoeld.", 2),
-                 ("open", "Een vergelijking van de eerste graad oplossen zoals 3 maal x plus 4 is 19.",
+                 ("open", r"Een vergelijking van de eerste graad oplossen zoals \(3\) maal \(x\) plus \(4\) is \(19\).",
                   "Dat doe je met de hand. Zulke eenvoudige bewerkingen moet je zonder toestel kunnen.", 2),
-                 ("open", "Een antwoord van 2,34567 afronden voor je het opschrijft.",
+                 ("open", r"Een antwoord van \(2{,}34567\) afronden voor je het opschrijft.",
                   "Je rondt pas op het einde af, op het aantal cijfers dat de opgave vraagt. Tussentijds "
                   "afronden scheelt soms in het eindantwoord.", 3),
              ]),
@@ -152,20 +152,20 @@ OEFENBUNDELS["oefenbundel-machtswortels-en-machten-met-rationale-exponent-beyond
         dict(kop="Machten met een gehele exponent",
              opdracht="Reken uit. Schrijf een negatieve exponent eerst om naar een breuk.",
              oefeningen=[
-                 ("rij", [("zeven tot de macht nul", "1"),
-                          ("drie tot de macht min twee", "een negende"),
-                          ("vijf tot de macht min één", "een vijfde"),
-                          ("twee tot de macht min vijf", "een tweeëndertigste")],
+                 ("rij", [(r"\(7^{0}\)", r"\(1\)"),
+                          (r"\(3^{-2}\)", breuk(1, 9)),
+                          (r"\(5^{-1}\)", breuk(1, 5)),
+                          (r"\(2^{-5}\)", breuk(1, 32))],
                   "Reken uit.", WW),
-                 ("rij", [("twee tot de macht min drie, als decimaal getal", "0,125"),
-                          ("tien tot de macht min twee, als decimaal getal", "0,01"),
-                          ("vier tot de macht min één, als decimaal getal", "0,25"),
-                          ("vijf tot de macht min twee, als decimaal getal", "0,04")],
+                 ("rij", [(r"\(2^{-3}\), als decimaal getal", r"\(0{,}125\)"),
+                          (r"\(10^{-2}\), als decimaal getal", r"\(0{,}01\)"),
+                          (r"\(4^{-1}\), als decimaal getal", r"\(0{,}25\)"),
+                          (r"\(5^{-2}\), als decimaal getal", r"\(0{,}04\)")],
                   "Reken uit en schrijf als decimaal getal.", WW),
-                 ("rij", [("a tot de vierde maal a tot de zesde", "a tot de tiende"),
-                          ("a tot de negende gedeeld door a tot de vierde", "a tot de vijfde"),
-                          ("a tot de tweede, tot de vijfde macht", "a tot de tiende"),
-                          ("drie a, in het kwadraat", "negen a kwadraat")],
+                 ("rij", [(r"\(a^{4}\) maal \(a^{6}\)", r"\(a^{10}\)"),
+                          (r"\(a^{9}\) gedeeld door \(a^{4}\)", r"\(a^{5}\)"),
+                          (r"\(\left(a^{2}\right)^{5}\)", r"\(a^{10}\)"),
+                          (r"\(\left(3a\right)^{2}\)", r"\(9a^{2}\)")],
                   "Vereenvoudig.", WL),
              ]),
         dict(kop="Van wortel naar macht en terug",
@@ -173,60 +173,60 @@ OEFENBUNDELS["oefenbundel-machtswortels-en-machten-met-rationale-exponent-beyond
                       "macht met een rationale exponent, rechts de uitkomst als die een mooi getal is.",
              oefeningen=[
                  ("tabel", ["Wortelvorm", "Als macht", "Uitkomst"], [
-                     ["de vierkantswortel uit 36", None, None],
-                     ["de derdemachtswortel uit 27", None, None],
-                     [None, "16 tot de macht een half", None],
-                     ["de vierdemachtswortel uit 81", None, None],
-                     [None, "8 tot de macht twee derde", None],
-                     ["de derdemachtswortel uit 1000", None, None],
+                     [r"\(\sqrt{36}\)", None, None],
+                     [r"\(\sqrt[3]{27}\)", None, None],
+                     [None, r"\(16^{\tfrac{1}{2}}\)", None],
+                     [r"\(\sqrt[4]{81}\)", None, None],
+                     [None, r"\(8^{\tfrac{2}{3}}\)", None],
+                     [r"\(\sqrt[3]{1000}\)", None, None],
                  ],
-                  "36 tot de macht een half is 6 · 27 tot de macht een derde is 3 · de vierkantswortel uit "
-                  "16 is 4 · 81 tot de macht een vierde is 3 · de derdemachtswortel uit 8 in het kwadraat "
-                  "is 4 · 1000 tot de macht een derde is 10", "150px"),
+                  r"\(36^{\tfrac{1}{2}}\) is \(6 \cdot 27^{\tfrac{1}{3}}\) is \(3\) · de vierkantswortel uit "
+                  r"\(16\) is \(4 \cdot 81^{\tfrac{1}{4}}\) is \(3\) · \(\sqrt[3]{8^{2}}\) "
+                  r"is \(4 \cdot 1000^{\tfrac{1}{3}}\) is \(10\)", "150px"),
              ]),
         dict(kop="Rekenen met rationale exponenten",
              opdracht="Reken uit zonder toestel. Schrijf telkens eerst op welke rekenregel je gebruikt.",
              oefeningen=[
-                 ("kort", "Hoeveel is 9 tot de macht een half?", "3", W),
-                 ("kort", "Hoeveel is 125 tot de macht een derde?", "5", W),
-                 ("kort", "Hoeveel is 4 tot de macht anderhalf?", "8", W),
-                 ("kort", "Hoeveel is 16 tot de macht drie vierde?", "8", W),
-                 ("kort", "Hoeveel is 32 tot de macht een vijfde?", "2", W),
-                 ("kort", "Hoeveel is 100 tot de macht min een half?", "een tiende", WW),
-                 ("open", "Reken 2 tot de macht een half maal 2 tot de macht een half uit, en leg uit "
-                          "waarom dat 2 geeft.",
-                  "Dezelfde grondtallen, dus exponenten optellen: een half plus een half is 1, en 2 tot de "
-                  "macht 1 is 2. Het is ook de vierkantswortel uit 2 in het kwadraat.", 3),
-                 ("open", "Waarom mag je bij 2 tot de macht 3 maal 5 tot de macht 3 de exponenten niet "
+                 ("kort", r"Hoeveel is \(9^{\tfrac{1}{2}}\)?", r"\(3\)", W),
+                 ("kort", r"Hoeveel is \(125^{\tfrac{1}{3}}\)?", r"\(5\)", W),
+                 ("kort", r"Hoeveel is \(4^{\tfrac{3}{2}}\)?", r"\(8\)", W),
+                 ("kort", r"Hoeveel is \(16^{\tfrac{3}{4}}\)?", r"\(8\)", W),
+                 ("kort", r"Hoeveel is \(32^{\tfrac{1}{5}}\)?", r"\(2\)", W),
+                 ("kort", r"Hoeveel is \(100^{-\tfrac{1}{2}}\)?", breuk(1, 10), WW),
+                 ("open", r"Reken \(2^{\tfrac{1}{2}}\) maal \(2^{\tfrac{1}{2}}\) uit, en leg uit "
+                          r"waarom dat \(2\) geeft.",
+                  r"Dezelfde grondtallen, dus exponenten optellen: een half plus een half is \(1\), en \(2\) tot de "
+                  r"macht \(1\) is \(2\). Het is ook \(\sqrt{2^{2}}\).", 3),
+                 ("open", r"Waarom mag je bij \(2^{3} \cdot 5^{3}\) de exponenten niet "
                           "optellen? Schrijf wel op wat je er dan wél van mag maken.",
                   "De grondtallen verschillen, en de regel geldt alleen bij hetzelfde grondtal. Je mag de "
-                  "grondtallen samennemen: 2 maal 5 is 10, dus het is 10 tot de macht 3, oftewel 1000.", 3),
+                  r"grondtallen samennemen: \(2 \cdot 5\) is \(10\), dus het is \(10^{3}\), oftewel \(1000\).", 3),
              ]),
         dict(kop="Bestaat het?",
              opdracht="Beslis of de uitdrukking een reëel getal oplevert. Schrijf bij nee waarom niet.",
              oefeningen=[
-                 ("waar", "De vierkantswortel uit min 9 is een reëel getal.", False),
-                 ("waar", "De derdemachtswortel uit min 8 is een reëel getal.", True),
-                 ("waar", "Nul tot de macht min twee is een reëel getal.", False),
-                 ("waar", "Min twee tot de macht drie is een reëel getal.", True),
+                 ("waar", r"De vierkantswortel uit min \(9\) is een reëel getal.", False),
+                 ("waar", r"De derdemachtswortel uit min \(8\) is een reëel getal.", True),
+                 ("waar", r"\(0^{-2}\) is een reëel getal.", False),
+                 ("waar", r"\(\left(-2\right)^{3}\) is een reëel getal.", True),
                  ("open", "Leg in je eigen woorden uit waarom de vierkantswortel uit een negatief getal niet "
                           "bestaat, maar de derdemachtswortel wel.",
                   "Een kwadraat is nooit negatief, dus geen enkel reëel getal in het kwadraat geeft een "
-                  "negatief getal. Bij een oneven macht blijft het minteken staan: min 2 tot de derde is "
-                  "min 8, dus de derdemachtswortel uit min 8 is min 2.", 4),
+                  r"negatief getal. Bij een oneven macht blijft het minteken staan: \(\left(-2\right)^{3}\) is "
+                  r"min \(8\), dus de derdemachtswortel uit min \(8\) is min \(2\).", 4),
              ]),
         dict(kop="In een situatie",
              opdracht="Werk uit. Schrijf je tussenstappen op.",
              oefeningen=[
-                 ("open", "Een bedrag van 2000 euro groeit in 3 jaar naar 2315 euro. Schrijf op hoe je met "
+                 ("open", r"Een bedrag van \(2000\) euro groeit in \(3\) jaar naar \(2315\) euro. Schrijf op hoe je met "
                           "een rationale exponent de jaarlijkse groeifactor vindt. Rond af op drie cijfers "
                           "na de komma.",
-                  "Je deelt eerst: 2315 gedeeld door 2000 is 1,1575. Dat is de groeifactor over 3 jaar. De "
-                  "jaarlijkse groeifactor is 1,1575 tot de macht een derde, ongeveer 1,050. Dus ongeveer "
-                  "5 procent per jaar.", 5),
-                 ("open", "De oppervlakte van een vierkant is 50 vierkante centimeter. Schrijf de zijde als "
+                  r"Je deelt eerst: \(2315 : 2000\) is \(1{,}1575\). Dat is de groeifactor over \(3\) jaar. De "
+                  r"jaarlijkse groeifactor is \(1{,}1575^{\tfrac{1}{3}}\), ongeveer \(1{,}050\). Dus ongeveer "
+                  r"\(5\) procent per jaar.", 5),
+                 ("open", r"De oppervlakte van een vierkant is \(50\) vierkante centimeter. Schrijf de zijde als "
                           "macht met een rationale exponent, en geef de uitkomst op één cijfer na de komma.",
-                  "De zijde is 50 tot de macht een half, ongeveer 7,1 centimeter.", 3),
+                  r"De zijde is \(50^{\tfrac{1}{2}}\), ongeveer \(7{,}1\) centimeter.", 3),
              ]),
     ],
 )
@@ -243,55 +243,54 @@ OEFENBUNDELS["oefenbundel-logaritmen-beyond-dubbele-finaliteit"] = dict(
                       "logaritme.",
              oefeningen=[
                  ("tabel", ["Als macht", "Als logaritme"], [
-                     ["twee tot de macht vijf is 32", None],
-                     ["tien tot de macht drie is 1000", None],
-                     [None, "de logaritme van 49 met grondtal 7 is 2"],
-                     ["drie tot de macht vier is 81", None],
-                     [None, "de logaritme van 0,001 met grondtal 10 is min 3"],
+                     [r"\(2^{5}\) is \(32\)", None],
+                     [r"\(10^{3}\) is \(1000\)", None],
+                     [None, r"\(\log_{7} 49\) is \(2\)"],
+                     [r"\(3^{4}\) is \(81\)", None],
+                     [None, r"\(\log_{10} 0{,}001\) is min \(3\)"],
                  ],
-                  "de logaritme van 32 met grondtal 2 is 5 · de logaritme van 1000 met grondtal 10 is 3 · "
-                  "zeven tot de macht twee is 49 · de logaritme van 81 met grondtal 3 is 4 · tien tot de "
-                  "macht min drie is 0,001", "230px"),
+                  r"\(\log_{2} 32\) is \(5\) · \(\log_{10} 1000\) is \(3\) · "
+                  r"\(7^{2}\) is \(49\) · \(\log_{3} 81\) is \(4\) · \(10^{-3}\) is \(0{,}001\)", "230px"),
              ]),
         dict(kop="Reken uit zonder toestel",
              opdracht="Vraag je telkens af: tot welke macht moet ik het grondtal verheffen?",
              oefeningen=[
-                 ("rij", [("de logaritme van 100 met grondtal 10", "2"),
-                          ("de logaritme van 16 met grondtal 2", "4"),
-                          ("de logaritme van 1 met grondtal 5", "0"),
-                          ("de logaritme van 9 met grondtal 3", "2")],
+                 ("rij", [(r"\(\log_{10} 100\)", r"\(2\)"),
+                          (r"\(\log_{2} 16\)", r"\(4\)"),
+                          (r"\(\log_{5} 1\)", r"\(0\)"),
+                          (r"\(\log_{3} 9\)", r"\(2\)")],
                   "Reken uit.", WW),
-                 ("rij", [("de logaritme van 0,1 met grondtal 10", "min 1"),
-                          ("de logaritme van 64 met grondtal 4", "3"),
-                          ("de logaritme van 6 met grondtal 6", "1"),
-                          ("de logaritme van 1024 met grondtal 2", "10")],
+                 ("rij", [(r"\(\log_{10} 0{,}1\)", r"min \(1\)"),
+                          (r"\(\log_{4} 64\)", r"\(3\)"),
+                          (r"\(\log_{6} 6\)", r"\(1\)"),
+                          (r"\(\log_{2} 1024\)", r"\(10\)")],
                   "Reken uit.", WW),
-                 ("kort", "Hoeveel is de logaritme van 1 miljoen met grondtal 10?", "6", W),
-                 ("kort", "Hoeveel is de logaritme van 0,01 met grondtal 10?", "min 2", W),
+                 ("kort", r"Hoeveel is \(\log_{10} 1\,000\,000\)?", r"\(6\)", W),
+                 ("kort", r"Hoeveel is \(\log_{10} 0{,}01\)?", r"min \(2\)", W),
              ]),
         dict(kop="Tussen welke twee gehele getallen?",
              opdracht="Je mag geen toestel gebruiken. Schrijf telkens de twee machten op waartussen het "
                       "getal ligt, en dan het antwoord.",
              oefeningen=[
-                 ("kort", "De logaritme van 50 met grondtal 10 ligt tussen …", "1 en 2", W),
-                 ("kort", "De logaritme van 3000 met grondtal 10 ligt tussen …", "3 en 4", W),
-                 ("kort", "De logaritme van 100 met grondtal 2 ligt tussen …", "6 en 7", W),
-                 ("kort", "De logaritme van 0,5 met grondtal 10 ligt tussen …", "min 1 en 0", W),
-                 ("open", "Leg uit hoe je zonder toestel weet dat de logaritme van 3000 met grondtal 10 "
-                          "tussen 3 en 4 ligt.",
-                  "10 tot de macht 3 is 1000 en 10 tot de macht 4 is 10000. 3000 ligt daartussen, dus de "
-                  "logaritme ook, tussen 3 en 4.", 3),
+                 ("kort", r"\(\log_{10} 50\) ligt tussen …", r"\(1\) en \(2\)", W),
+                 ("kort", r"\(\log_{10} 3000\) ligt tussen …", r"\(3\) en \(4\)", W),
+                 ("kort", r"\(\log_{2} 100\) ligt tussen …", r"\(6\) en \(7\)", W),
+                 ("kort", r"\(\log_{10} 0{,}5\) ligt tussen …", r"min \(1\) en \(0\)", W),
+                 ("open", r"Leg uit hoe je zonder toestel weet dat \(\log_{10} 3000\) "
+                          r"tussen \(3\) en \(4\) ligt.",
+                  r"\(10^{3}\) is \(1000\) en \(10^{4}\) is \(10\,000\). \(3000\) ligt daartussen, dus de "
+                  r"logaritme ook, tussen \(3\) en \(4\).", 3),
              ]),
         dict(kop="Waar of niet waar?",
              opdracht="Zet een bolletje bij je keuze. Bij elke bewering die niet waar is, schrijf je "
                       "eronder in één zin wat er wel geldt.",
              oefeningen=[
                  ("waar", "De logaritme van nul bestaat niet.", True),
-                 ("waar", "De logaritme van 100 is bij elk grondtal gelijk aan 2.", False),
-                 ("waar", "Bij een grondtal groter dan 1 geldt: hoe groter het getal, hoe groter de "
+                 ("waar", r"De logaritme van \(100\) is bij elk grondtal gelijk aan \(2\).", False),
+                 ("waar", r"Bij een grondtal groter dan \(1\) geldt: hoe groter het getal, hoe groter de "
                           "logaritme.", True),
                  ("waar", "De logaritme van een negatief getal is negatief.", False),
-                 ("waar", "Schrijf je log zonder grondtal erbij, dan bedoel je grondtal 10.", True),
+                 ("waar", r"Schrijf je log zonder grondtal erbij, dan bedoel je grondtal \(10\).", True),
                  ("open", "Schrijf in één zin waarom de logaritme van een negatief getal niet bestaat.",
                   "Een positief grondtal tot welke macht ook geeft nooit een negatief getal, dus er is geen "
                   "exponent die past.", 2),
@@ -299,20 +298,20 @@ OEFENBUNDELS["oefenbundel-logaritmen-beyond-dubbele-finaliteit"] = dict(
         dict(kop="Logaritmen gebruiken",
              opdracht="Werk uit. Je mag hier een toestel gebruiken; schrijf je stappen wel op.",
              oefeningen=[
-                 ("open", "Een bedrag van 1000 euro groeit met 4 procent per jaar. Na hoeveel jaar is het "
+                 ("open", r"Een bedrag van \(1000\) euro groeit met \(4\) procent per jaar. Na hoeveel jaar is het "
                           "verdubbeld? Schrijf de vergelijking op en los ze op met een logaritme.",
-                  "1,04 tot de macht x is 2, dus x is de logaritme van 2 met grondtal 1,04, ongeveer 17,7. "
-                  "Na 18 jaar is het bedrag verdubbeld.", 5),
-                 ("open", "Een stof vervalt met 10 procent per uur. Na hoeveel uur is er nog de helft over?",
-                  "0,9 tot de macht x is 0,5, dus x is de logaritme van 0,5 met grondtal 0,9, ongeveer 6,6 uur.", 4),
+                  r"\(1{,}04^{x}\) is \(2\), dus \(x\) is \(\log_{1{,}04} 2\), ongeveer \(17{,}7\). "
+                  r"Na \(18\) jaar is het bedrag verdubbeld.", 5),
+                 ("open", r"Een stof vervalt met \(10\) procent per uur. Na hoeveel uur is er nog de helft over?",
+                  r"\(0{,}9^{x}\) is \(0{,}5\), dus \(x\) is \(\log_{0{,}9} 0{,}5\), ongeveer \(6{,}6\) uur.", 4),
                  ("open", "Een getal wordt tien keer zo groot gemaakt. Wat gebeurt er met zijn logaritme met "
-                          "grondtal 10? Leg uit.",
-                  "Die wordt 1 groter. Tien keer zo groot betekent één macht van 10 erbij, dus één bij de "
+                          r"grondtal \(10\)? Leg uit.",
+                  r"Die wordt \(1\) groter. Tien keer zo groot betekent één macht van \(10\) erbij, dus één bij de "
                   "exponent.", 3),
-                 ("open", "Je toestel heeft alleen een knop voor grondtal 10. Hoe bereken je er de logaritme "
-                          "van 50 met grondtal 2 mee?",
-                  "Je deelt: de logaritme van 50 met grondtal 10 gedeeld door de logaritme van 2 met "
-                  "grondtal 10, ongeveer 1,699 gedeeld door 0,301, dus ongeveer 5,64.", 4),
+                 ("open", r"Je toestel heeft alleen een knop voor grondtal \(10\). Hoe bereken je er "
+                          r"\(\log_{2} 50\) mee?",
+                  r"Je deelt: \(\log_{2} 50 = \dfrac{\log_{10} 50}{\log_{10} 2}\), ongeveer "
+                  r"\(1{,}699 : 0{,}301\), dus ongeveer \(5{,}64\).", 4),
              ]),
     ],
 )
@@ -327,42 +326,42 @@ OEFENBUNDELS["oefenbundel-een-functie-aflezen-van-haar-grafiek-beyond-dubbele-fi
         dict(kop="De woorden bij een grafiek",
              opdracht="Schrijf bij elke omschrijving het juiste begrip.",
              oefeningen=[
-                 ("kort", "De verzameling van alle x-waarden waarvoor de functie bestaat.", "het domein", WW),
+                 ("kort", r"De verzameling van alle \(x\)-waarden waarvoor de functie bestaat.", "het domein", WW),
                  ("kort", "De verzameling van alle functiewaarden die de functie aanneemt.", "het bereik", WW),
-                 ("kort", "Een x-waarde waarvoor de functiewaarde nul is.", "een nulpunt", WW),
+                 ("kort", r"Een \(x\)-waarde waarvoor de functiewaarde nul is.", "een nulpunt", WW),
                  ("kort", "Het hoogste punt van een grafiek in een bepaald gebied.", "een maximum", WW),
                  ("kort", "Het overzicht dat weergeeft waar een functie stijgt en waar ze daalt.",
                   "het verloopschema", WW),
-                 ("kort", "Een grafiek die links en rechts van de y-as elkaars spiegelbeeld is.",
-                  "de functie is even, de grafiek is symmetrisch om de y-as", WL),
+                 ("kort", r"Een grafiek die links en rechts van de \(y\)-as elkaars spiegelbeeld is.",
+                  r"de functie is even, de grafiek is symmetrisch om de \(y\)-as", WL),
                  ("kort", "De lengte van het stuk waarna een grafiek zich herhaalt.", "de periode", WW),
              ]),
         dict(kop="Tekenverloop en verloopschema",
              opdracht="Schrijf op wat elk teken betekent.",
              oefeningen=[
                  ("kort", "Een plusteken in het tekenverloop van een functie.",
-                  "de functiewaarde is daar positief, de grafiek ligt boven de x-as", WL),
+                  r"de functiewaarde is daar positief, de grafiek ligt boven de \(x\)-as", WL),
                  ("kort", "Een verticale streep in het tekenverloop.",
                   "daar is de functie niet gedefinieerd, of daar ligt een nulpunt", WL),
-                 ("kort", "Min op x is 3 in het verloopschema.",
-                  "de functie daalt vanaf x is 3", WL),
-                 ("open", "Een grafiek loopt eerst omhoog tot x is 2, daalt dan tot x is 5 en stijgt daarna "
-                          "weer. Schrijf het verloopschema in woorden en zeg wat er bij x is 2 en x is 5 ligt.",
-                  "Stijgend tot 2, dalend van 2 tot 5, stijgend vanaf 5. Bij x is 2 ligt een maximum, bij "
-                  "x is 5 een minimum.", 4),
+                 ("kort", r"Min op \(x = 3\) in het verloopschema.",
+                  r"de functie daalt vanaf \(x = 3\)", WL),
+                 ("open", r"Een grafiek loopt eerst omhoog tot \(x = 2\), daalt dan tot \(x = 5\) en stijgt daarna "
+                          r"weer. Schrijf het verloopschema in woorden en zeg wat er bij \(x = 2\) en \(x = 5\) ligt.",
+                  r"Stijgend tot \(2\), dalend van \(2\) tot \(5\), stijgend vanaf \(5\). Bij \(x = 2\) ligt een maximum, bij "
+                  r"\(x = 5\) een minimum.", 4),
              ]),
         dict(kop="Van tabel naar grafiek",
              opdracht="Zet de koppels uit op een assenstelsel en verbind ze. Zet er zelf een lijn met "
                       "getallen op de zijas bij, en schrijf naast je tekening wat je afleest.",
              oefeningen=[
-                 ("teken", "Het aantal bezoekers van een winkel per uur: om 9 uur 20, om 11 uur 45, om "
-                           "13 uur 60, om 15 uur 80, om 17 uur 35, om 19 uur 10. Teken de grafiek en "
+                 ("teken", r"Het aantal bezoekers van een winkel per uur: om \(9\) uur \(20\), om \(11\) uur \(45\), om "
+                           r"\(13\) uur \(60\), om \(15\) uur \(80\), om \(17\) uur \(35\), om \(19\) uur \(10\). Teken de grafiek en "
                            "schrijf eronder wanneer het maximum valt en hoe groot het is.",
-                  "De grafiek stijgt tot 15 uur en daalt daarna. Het maximum valt om 15 uur met 80 "
-                  "bezoekers; het minimum om 19 uur met 10 bezoekers.", 70),
+                  r"De grafiek stijgt tot \(15\) uur en daalt daarna. Het maximum valt om \(15\) uur met \(80\) "
+                  r"bezoekers; het minimum om \(19\) uur met \(10\) bezoekers.", 70),
                  ("open", "Hoe noem je de twee getallen tussen haakjes die de plaats van een punt aangeven, "
                           "en welk getal staat vooraan?",
-                  "De coördinaten. Vooraan staat de x-waarde, daarna de functiewaarde.", 2),
+                  r"De coördinaten. Vooraan staat de \(x\)-waarde, daarna de functiewaarde.", 2),
              ]),
         dict(kop="Waar of niet waar?",
              opdracht="Zet een bolletje bij je keuze.",
@@ -374,24 +373,24 @@ OEFENBUNDELS["oefenbundel-een-functie-aflezen-van-haar-grafiek-beyond-dubbele-fi
                           "tegenspreken.", False),
                  ("waar", "Een grafiek schetsen zonder ICT betekent dat ze helemaal op schaal moet staan.",
                   False),
-                 ("waar", "Een nulpunt is een punt waar de grafiek de x-as snijdt.", True),
+                 ("waar", r"Een nulpunt is een punt waar de grafiek de \(x\)-as snijdt.", True),
              ]),
         dict(kop="Aflezen en terugvertalen",
              opdracht="Zeg telkens wat het getal of het kenmerk betekent in de situatie van de opgave.",
              oefeningen=[
-                 ("open", "De grafiek van de temperatuur in een serre heeft een maximum bij 14 uur, met "
-                          "32 graden. Schrijf dat in één zin in gewone taal.",
-                  "Om 14 uur was het het warmst in de serre, namelijk 32 graden.", 2),
+                 ("open", r"De grafiek van de temperatuur in een serre heeft een maximum bij \(14\) uur, met "
+                          r"\(32\) graden. Schrijf dat in één zin in gewone taal.",
+                  r"Om \(14\) uur was het het warmst in de serre, namelijk \(32\) graden.", 2),
                  ("open", "De grafiek van de winst van een bedrijf in functie van het aantal verkochte "
-                          "stuks heeft een nulpunt bij 150 stuks. Wat betekent dat?",
-                  "Bij 150 stuks is de winst nul: daar wordt de kost precies goedgemaakt. Minder dan 150 "
+                          r"stuks heeft een nulpunt bij \(150\) stuks. Wat betekent dat?",
+                  r"Bij \(150\) stuks is de winst nul: daar wordt de kost precies goedgemaakt. Minder dan \(150\) "
                   "stuks geeft verlies.", 3),
-                 ("open", "Een grafiek van het aantal bezoekers herhaalt zich elke 24 uur precies op "
-                          "dezelfde manier. Hoe heet die 24 uur, en wat weet je daardoor over morgen?",
+                 ("open", r"Een grafiek van het aantal bezoekers herhaalt zich elke \(24\) uur precies op "
+                          r"dezelfde manier. Hoe heet die \(24\) uur, en wat weet je daardoor over morgen?",
                   "Dat is de periode. Je mag verwachten dat morgen hetzelfde patroon terugkomt.", 3),
-                 ("open", "Het bereik van de temperatuur in een koelkast is 3 tot 6 graden. Wat zegt dat "
+                 ("open", r"Het bereik van de temperatuur in een koelkast is \(3\) tot \(6\) graden. Wat zegt dat "
                           "over de koelkast?",
-                  "De temperatuur komt nooit lager dan 3 en nooit hoger dan 6 graden; ze schommelt "
+                  r"De temperatuur komt nooit lager dan \(3\) en nooit hoger dan \(6\) graden; ze schommelt "
                   "daartussen.", 2),
              ]),
     ],
@@ -406,21 +405,21 @@ OEFENBUNDELS["oefenbundel-gemiddelde-verandering-en-het-differentiequotient-beyo
     reeksen=[
         dict(kop="Het differentiequotiënt berekenen",
              opdracht="Reken uit: het verschil van de functiewaarden gedeeld door het verschil van de "
-                      "x-waarden. Zet de eenheid erbij.",
+                      r"\(x\)-waarden. Zet de eenheid erbij.",
              oefeningen=[
-                 ("rij", [("180 kilometer in 3 uur", "60 kilometer per uur"),
-                          ("van 10 naar 25 graden in 5 uur", "3 graden per uur"),
-                          ("van 400 naar 100 liter in 6 minuten", "min 50 liter per minuut"),
-                          ("van 20 naar 32 cm in 4 weken", "3 cm per week")],
+                 ("rij", [(r"\(180\) kilometer in \(3\) uur", r"\(60\) kilometer per uur"),
+                          (r"van \(10\) naar \(25\) graden in \(5\) uur", r"\(3\) graden per uur"),
+                          (r"van \(400\) naar \(100\) liter in \(6\) minuten", r"min \(50\) liter per minuut"),
+                          (r"van \(20\) naar \(32\) cm in \(4\) weken", r"\(3\) cm per week")],
                   "Bereken de gemiddelde verandering per eenheid.", WL),
-                 ("kort", "Een spaarrekening gaat van 800 naar 1000 euro in 4 jaar. Hoeveel per jaar?",
-                  "50 euro per jaar", WW),
-                 ("kort", "Een stad telde in 2015 nog 40000 inwoners en in 2025 46000. Hoeveel per jaar?",
-                  "600 inwoners per jaar", WW),
-                 ("kort", "Een waterton gaat in 10 minuten van 90 naar 30 liter. Wat is het gemiddelde "
-                          "debiet?", "min 6 liter per minuut, dus 6 liter per minuut eruit", WL),
-                 ("kort", "Een bergweg klimt 150 meter over een afstand van 2500 meter. Hoeveel procent "
-                          "bedraagt de gemiddelde helling?", "6 procent", WW),
+                 ("kort", r"Een spaarrekening gaat van \(800\) naar \(1000\) euro in \(4\) jaar. Hoeveel per jaar?",
+                  r"\(50\) euro per jaar", WW),
+                 ("kort", r"Een stad telde in \(2015\) nog \(40\,000\) inwoners en in \(2025\) al \(46\,000\). Hoeveel per jaar?",
+                  r"\(600\) inwoners per jaar", WW),
+                 ("kort", r"Een waterton gaat in \(10\) minuten van \(90\) naar \(30\) liter. Wat is het gemiddelde "
+                          "debiet?", r"min \(6\) liter per minuut, dus \(6\) liter per minuut eruit", WL),
+                 ("kort", r"Een bergweg klimt \(150\) meter over een afstand van \(2500\) meter. Hoeveel procent "
+                          "bedraagt de gemiddelde helling?", r"\(6\) procent", WW),
              ]),
         dict(kop="De eenheid",
              opdracht="Schrijf bij elke functie welke eenheid het differentiequotiënt krijgt. Je hoeft niet "
@@ -437,27 +436,27 @@ OEFENBUNDELS["oefenbundel-gemiddelde-verandering-en-het-differentiequotient-beyo
                       "jaren.",
              oefeningen=[
                  ("tabel", ["Jaar", "Aantal leden", "Verandering per jaar"], [
-                     ["2020", "120", "—"],
-                     ["2021", "150", None],
-                     ["2022", "150", None],
-                     ["2023", "210", None],
-                     ["2024", "180", None],
+                     [r"\(2020\)", r"\(120\)", "—"],
+                     [r"\(2021\)", r"\(150\)", None],
+                     [r"\(2022\)", r"\(150\)", None],
+                     [r"\(2023\)", r"\(210\)", None],
+                     [r"\(2024\)", r"\(180\)", None],
                  ],
-                  "2021: plus 30 per jaar · 2022: 0 per jaar · 2023: plus 60 per jaar · 2024: min 30 per jaar",
+                  r"\(2021\): plus \(30\) per jaar · \(2022\): \(0\) per jaar · \(2023\): plus \(60\) per jaar · \(2024\): min \(30\) per jaar",
                   "120px"),
                  ("open", "In welk jaar groeide de club het snelst, en hoe zie je dat aan je getallen?",
-                  "In 2023: daar is het differentiequotiënt het grootst, plus 60 per jaar.", 2),
+                  r"In \(2023\): daar is het differentiequotiënt het grootst, plus \(60\) per jaar.", 2),
              ]),
         dict(kop="Wat betekent het teken?",
              opdracht="Schrijf in één zin wat het getal betekent in de situatie.",
              oefeningen=[
-                 ("open", "Het differentiequotiënt van de temperatuur in functie van de tijd is min 3 graden "
+                 ("open", r"Het differentiequotiënt van de temperatuur in functie van de tijd is min \(3\) graden "
                           "per uur.",
-                  "De temperatuur daalt gemiddeld met 3 graden per uur.", 2),
+                  r"De temperatuur daalt gemiddeld met \(3\) graden per uur.", 2),
                  ("open", "Het differentiequotiënt van de voorraad in functie van de dagen is nul.",
                   "De voorraad is gemiddeld gelijk gebleven: evenveel bij als eraf, of niets veranderd.", 2),
-                 ("open", "Van twee wandelaars heeft de ene een differentiequotiënt van 5 kilometer per uur "
-                          "en de andere van 4 kilometer per uur, beide over dezelfde route. Wat besluit je?",
+                 ("open", r"Van twee wandelaars heeft de ene een differentiequotiënt van \(5\) kilometer per uur "
+                          r"en de andere van \(4\) kilometer per uur, beide over dezelfde route. Wat besluit je?",
                   "De eerste wandelde gemiddeld sneller en was er dus eerder. Over de tussenstukken zegt het "
                   "niets: een gemiddelde verbergt wie waar gestopt is.", 3),
              ]),
@@ -475,12 +474,12 @@ OEFENBUNDELS["oefenbundel-gemiddelde-verandering-en-het-differentiequotient-beyo
         dict(kop="Uit een grafiek",
              opdracht="Teken en lees af.",
              oefeningen=[
-                 ("teken", "De inhoud van een vat: op 0 minuten 100 liter, op 5 minuten 70 liter, op "
-                           "10 minuten 40 liter, op 15 minuten 40 liter, op 20 minuten 0 liter. Teken de "
+                 ("teken", r"De inhoud van een vat: op \(0\) minuten \(100\) liter, op \(5\) minuten \(70\) liter, op "
+                           r"\(10\) minuten \(40\) liter, op \(15\) minuten \(40\) liter, op \(20\) minuten \(0\) liter. Teken de "
                            "grafiek met getallen op de zijas, en schrijf eronder het differentiequotiënt "
                            "over de eerste tien minuten en over de laatste vijf.",
-                  "Eerste tien minuten: min 60 gedeeld door 10 is min 6 liter per minuut. Laatste vijf "
-                  "minuten: min 40 gedeeld door 5 is min 8 liter per minuut. Tussen 10 en 15 minuten "
+                  r"Eerste tien minuten: min \(60 : 10\) is min \(6\) liter per minuut. Laatste vijf "
+                  r"minuten: min \(40 : 5\) is min \(8\) liter per minuut. Tussen \(10\) en \(15\) minuten "
                   "veranderde er niets.", 70),
              ]),
     ],
@@ -496,74 +495,74 @@ OEFENBUNDELS["oefenbundel-exponentiele-functies-beyond-dubbele-finaliteit"] = di
         dict(kop="Beginwaarde en groeifactor aanwijzen",
              opdracht="Schrijf bij elk voorschrift de beginwaarde en de groeifactor op.",
              oefeningen=[
-                 ("rij", [("f(x) is 5 maal 3 tot de macht x", "beginwaarde 5, groeifactor 3"),
-                          ("f(x) is 200 maal 1,04 tot de macht x", "beginwaarde 200, groeifactor 1,04"),
-                          ("f(x) is 0,8 tot de macht x", "beginwaarde 1, groeifactor 0,8"),
-                          ("f(x) is 60 maal 0,5 tot de macht x", "beginwaarde 60, groeifactor 0,5")],
+                 ("rij", [(r"\(f(x) = 5 \cdot 3^{x}\)", r"beginwaarde \(5\), groeifactor \(3\)"),
+                          (r"\(f(x) = 200 \cdot 1{,}04^{x}\)", r"beginwaarde \(200\), groeifactor \(1{,}04\)"),
+                          (r"\(f(x) = 0{,}8^{x}\)", r"beginwaarde \(1\), groeifactor \(0{,}8\)"),
+                          (r"\(f(x) = 60 \cdot 0{,}5^{x}\)", r"beginwaarde \(60\), groeifactor \(0{,}5\)")],
                   "Beginwaarde en groeifactor?", WL),
-                 ("open", "Waarom is de beginwaarde altijd de functiewaarde bij x is nul?",
-                  "Omdat elk grondtal tot de macht nul gelijk is aan 1. Er blijft dan alleen b over.", 2),
+                 ("open", r"Waarom is de beginwaarde altijd de functiewaarde bij \(x\) is nul?",
+                  r"Omdat \(a^{0} = 1\) voor elk grondtal. Er blijft dan alleen \(b\) over.", 2),
                  ("open", "Wat is het verschil tussen een exponentiële functie en een machtsfunctie? Geef "
                           "van elk een voorbeeld.",
-                  "Bij een exponentiële functie staat de x in de exponent, bijvoorbeeld 2 tot de macht x. "
-                  "Bij een machtsfunctie staat x in het grondtal, bijvoorbeeld x tot de macht 2.", 3),
+                  r"Bij een exponentiële functie staat de \(x\) in de exponent, bijvoorbeeld \(2^{x}\). "
+                  r"Bij een machtsfunctie staat \(x\) in het grondtal, bijvoorbeeld \(x^{2}\).", 3),
              ]),
         dict(kop="Een tabel aanvullen",
              opdracht="Vul de tabel aan. Reken van links naar rechts: telkens maal de groeifactor.",
              oefeningen=[
-                 ("tabel", ["x", "f(x) is 4 maal 3 tot de macht x"], [
-                     ["0", None], ["1", None], ["2", None], ["3", None], ["4", None],
-                 ], "4 · 12 · 36 · 108 · 324", "90px"),
-                 ("tabel", ["x", "f(x) is 800 maal 0,5 tot de macht x"], [
-                     ["0", None], ["1", None], ["2", None], ["3", None], ["4", None],
-                 ], "800 · 400 · 200 · 100 · 50", "90px"),
+                 ("tabel", ["x", r"\(f(x) = 4 \cdot 3^{x}\)"], [
+                     [r"\(0\)", None], [r"\(1\)", None], [r"\(2\)", None], [r"\(3\)", None], [r"\(4\)", None],
+                 ], r"\(4 \cdot 12 \cdot 36 \cdot 108 \cdot 324\)", "90px"),
+                 ("tabel", ["x", r"\(f(x) = 800 \cdot 0{,}5^{x}\)"], [
+                     [r"\(0\)", None], [r"\(1\)", None], [r"\(2\)", None], [r"\(3\)", None], [r"\(4\)", None],
+                 ], r"\(800 \cdot 400 \cdot 200 \cdot 100 \cdot 50\)", "90px"),
              ]),
         dict(kop="De groeifactor uit twee waarden",
              opdracht="Werk uit. Schrijf je deling op.",
              oefeningen=[
-                 ("open", "Een tabel geeft bij x is 0 de waarde 7 en bij x is 1 de waarde 21. Schrijf het "
+                 ("open", r"Een tabel geeft bij \(x = 0\) de waarde \(7\) en bij \(x = 1\) de waarde \(21\). Schrijf het "
                           "voorschrift op.",
-                  "21 gedeeld door 7 is 3, dus de groeifactor is 3. Het voorschrift is f(x) is 7 maal 3 tot "
-                  "de macht x.", 3),
-                 ("open", "Een tabel geeft bij x is 0 de waarde 500 en bij x is 2 de waarde 320. Zoek de "
+                  r"\(21 : 7\) is \(3\), dus de groeifactor is \(3\). Het voorschrift is \(f(x) = 7 \cdot 3\) tot "
+                  r"de macht \(x\).", 3),
+                 ("open", r"Een tabel geeft bij \(x = 0\) de waarde \(500\) en bij \(x = 2\) de waarde \(320\). Zoek de "
                           "groeifactor per stap van één.",
-                  "320 gedeeld door 500 is 0,64 over twee stappen. De groeifactor per stap is de "
-                  "vierkantswortel uit 0,64, dus 0,8.", 4),
-                 ("open", "Een tabel geeft 5, 15, 45, 135. Hoe zie je in één blik dat dit exponentieel is, "
+                  r"\(320 : 500\) is \(0{,}64\) over twee stappen. De groeifactor per stap is de "
+                  r"vierkantswortel uit \(0{,}64\), dus \(0{,}8\).", 4),
+                 ("open", r"Een tabel geeft \(5\), \(15\), \(45\), \(135\). Hoe zie je in één blik dat dit exponentieel is, "
                           "en wat is de groeifactor?",
-                  "Je deelt elk getal door het vorige: telkens 3. Omdat die deling altijd hetzelfde geeft, "
-                  "is het exponentieel met groeifactor 3.", 3),
+                  r"Je deelt elk getal door het vorige: telkens \(3\). Omdat die deling altijd hetzelfde geeft, "
+                  r"is het exponentieel met groeifactor \(3\).", 3),
              ]),
         dict(kop="De grafiek",
              opdracht="Antwoord in één zin.",
              oefeningen=[
                  ("kort", "Wat is het domein van een exponentiële functie?", "alle reële getallen", WL),
-                 ("kort", "Wat is het bereik van f(x) is 4 maal 2 tot de macht x?",
+                 ("kort", r"Wat is het bereik van \(f(x) = 4 \cdot 2^{x}\)?",
                   "alle positieve reële getallen, dus alles boven nul", WL),
-                 ("open", "Wat gebeurt er met een dalende exponentiële functie als x heel groot wordt? "
+                 ("open", r"Wat gebeurt er met een dalende exponentiële functie als \(x\) heel groot wordt? "
                           "Gebruik het woord asymptoot.",
-                  "De functiewaarde komt steeds dichter bij nul zonder nul te bereiken: de x-as is een "
+                  r"De functiewaarde komt steeds dichter bij nul zonder nul te bereiken: de \(x\)-as is een "
                   "horizontale asymptoot.", 3),
-                 ("teken", "Schets in één assenstelsel f(x) is 2 tot de macht x en g(x) is 0,5 tot de macht "
-                           "x. Zet er de getallen bij op beide assen, en schrijf eronder wat de twee "
+                 ("teken", r"Schets in één assenstelsel \(f(x) = 2^{x}\) en \(g(x) = 0{,}5^{x}\). "
+                           r"Zet er de getallen bij op beide assen, en schrijf eronder wat de twee "
                            "grafieken gemeenschappelijk hebben.",
-                  "Beide gaan door het punt met x is 0 en functiewaarde 1, beide blijven boven de x-as, en "
-                  "ze zijn elkaars spiegelbeeld om de y-as. De ene stijgt, de andere daalt.", 75),
+                  r"Beide gaan door het punt met \(x = 0\) en functiewaarde \(1\), beide blijven boven de \(x\)-as, en "
+                  r"ze zijn elkaars spiegelbeeld om de \(y\)-as. De ene stijgt, de andere daalt.", 75),
              ]),
         dict(kop="In een situatie",
              opdracht="Werk uit met je tussenstappen.",
              oefeningen=[
-                 ("open", "Een bacteriënkolonie van 50 verdubbelt elk uur. Schrijf het voorschrift en bereken "
-                          "hoeveel er na 6 uur zijn.",
-                  "f(x) is 50 maal 2 tot de macht x. Na 6 uur: 50 maal 64 is 3200 bacteriën.", 4),
-                 ("open", "Een auto van 24000 euro verliest elk jaar 18 procent van zijn waarde. Schrijf het "
-                          "voorschrift en bereken de waarde na 4 jaar. Rond af op een euro.",
-                  "De groeifactor is 0,82, dus f(x) is 24000 maal 0,82 tot de macht x. Na 4 jaar: 24000 maal "
-                  "0,4521 is ongeveer 10851 euro.", 4),
-                 ("open", "Een medicijn breekt af met 25 procent per uur. Na hoeveel volle uren is er nog "
+                 ("open", r"Een bacteriënkolonie van \(50\) verdubbelt elk uur. Schrijf het voorschrift en bereken "
+                          r"hoeveel er na \(6\) uur zijn.",
+                  r"\(f(x) = 50 \cdot 2^{x}\). Na \(6\) uur: \(50 \cdot 64\) is \(3200\) bacteriën.", 4),
+                 ("open", r"Een auto van \(24\,000\) euro verliest elk jaar \(18\) procent van zijn waarde. Schrijf het "
+                          r"voorschrift en bereken de waarde na \(4\) jaar. Rond af op een euro.",
+                  r"De groeifactor is \(0{,}82\), dus \(f(x) = 24\,000 \cdot 0{,}82^{x}\). Na \(4\) jaar: \(24\,000\) maal "
+                  r"\(0{,}4521\) is ongeveer \(10\,851\) euro.", 4),
+                 ("open", r"Een medicijn breekt af met \(25\) procent per uur. Na hoeveel volle uren is er nog "
                           "minder dan een tiende over? Je mag een toestel gebruiken.",
-                  "0,75 tot de macht x moet onder 0,1 komen. Bij 8 uur is dat 0,100, bij 9 uur 0,075. Dus na "
-                  "9 uur.", 4),
+                  r"\(0{,}75^{x}\) moet onder \(0{,}1\) komen. Bij \(8\) uur is dat \(0{,}100\), bij \(9\) uur \(0{,}075\). Dus na "
+                  r"\(9\) uur.", 4),
              ]),
     ],
 )
@@ -579,15 +578,15 @@ OEFENBUNDELS["oefenbundel-lineaire-en-exponentiele-groeimodellen-beyond-dubbele-
              opdracht="Beslis bij elke reeks of de groei lineair of exponentieel is, en schrijf het getal of "
                       "de factor erbij.",
              oefeningen=[
-                 ("rij", [("12, 19, 26, 33", "lineair, telkens 7 erbij"),
-                          ("10, 20, 40, 80", "exponentieel, factor 2"),
-                          ("90, 81, 72,9, 65,61", "exponentieel, factor 0,9"),
-                          ("200, 185, 170, 155", "lineair, telkens 15 eraf")],
+                 ("rij", [(r"\(12\), \(19\), \(26\), \(33\)", r"lineair, telkens \(7\) erbij"),
+                          (r"\(10\), \(20\), \(40\), \(80\)", r"exponentieel, factor \(2\)"),
+                          (r"\(90\), \(81\), \(72{,}9\), \(65{,}61\)", r"exponentieel, factor \(0{,}9\)"),
+                          (r"\(200\), \(185\), \(170\), \(155\)", r"lineair, telkens \(15\) eraf")],
                   "Lineair of exponentieel?", WL),
-                 ("rij", [("48, 36, 27, 20,25", "exponentieel, factor 0,75"),
-                          ("5, 10, 15, 20", "lineair, telkens 5 erbij"),
-                          ("1000, 1050, 1102,5", "exponentieel, factor 1,05"),
-                          ("7, 7, 7, 7", "geen groei, lineair met 0 erbij")],
+                 ("rij", [(r"\(48\), \(36\), \(27\), \(20{,}25\)", r"exponentieel, factor \(0{,}75\)"),
+                          (r"\(5\), \(10\), \(15\), \(20\)", r"lineair, telkens \(5\) erbij"),
+                          (r"\(1000\), \(1050\), \(1102{,}5\)", r"exponentieel, factor \(1{,}05\)"),
+                          (r"\(7\), \(7\), \(7\), \(7\)", r"geen groei, lineair met \(0\) erbij")],
                   "Lineair of exponentieel?", WL),
                  ("open", "Schrijf in je eigen woorden het kenmerk van lineaire groei en het kenmerk van "
                           "exponentiële groei.",
@@ -599,44 +598,44 @@ OEFENBUNDELS["oefenbundel-lineaire-en-exponentiele-groeimodellen-beyond-dubbele-
              opdracht="Vul de tabel aan.",
              oefeningen=[
                  ("tabel", ["Per jaar", "Groeifactor"], [
-                     ["6 procent erbij", None],
-                     ["2,5 procent erbij", None],
-                     [None, "0,88"],
-                     ["15 procent eraf", None],
-                     [None, "1,5"],
+                     [r"\(6\) procent erbij", None],
+                     [r"\(2{,}5\) procent erbij", None],
+                     [None, r"\(0{,}88\)"],
+                     [r"\(15\) procent eraf", None],
+                     [None, r"\(1{,}5\)"],
                      ["de waarde verdubbelt", None],
                  ],
-                  "1,06 · 1,025 · 12 procent eraf · 0,85 · 50 procent erbij · 2", "140px"),
-                 ("kort", "Een prijs stijgt drie jaar op rij met 10 procent. Met welke factor is ze dan in "
-                          "totaal vermenigvuldigd? Rond af op drie cijfers.", "1,331", WW),
-                 ("open", "Een winkel geeft eerst 20 procent korting en daarna nog 20 procent op de nieuwe "
-                          "prijs. Is dat samen 40 procent korting? Reken het na.",
-                  "Nee. 0,8 maal 0,8 is 0,64, dus er blijft 64 procent over en de korting is 36 procent, "
-                  "niet 40.", 3),
+                  r"\(1{,}06 \cdot 1{,}025 \cdot 12\) procent eraf · \(0{,}85 \cdot 50\) procent erbij · \(2\)", "140px"),
+                 ("kort", r"Een prijs stijgt drie jaar op rij met \(10\) procent. Met welke factor is ze dan in "
+                          "totaal vermenigvuldigd? Rond af op drie cijfers.", r"\(1{,}331\)", WW),
+                 ("open", r"Een winkel geeft eerst \(20\) procent korting en daarna nog \(20\) procent op de nieuwe "
+                          r"prijs. Is dat samen \(40\) procent korting? Reken het na.",
+                  r"Nee. \(0{,}8 \cdot 0{,}8\) is \(0{,}64\), dus er blijft \(64\) procent over en de korting is \(36\) procent, "
+                  r"niet \(40\).", 3),
              ]),
         dict(kop="Een model opstellen",
              opdracht="Schrijf het voorschrift op en zeg welk model het is.",
              oefeningen=[
-                 ("open", "Een abonnement kost 30 euro aansluiting en daarna 12 euro per maand.",
-                  "Lineair: prijs is 30 plus 12 maal x, met beginwaarde 30.", 2),
-                 ("open", "Een spaarrekening van 1500 euro met 3 procent rente per jaar.",
-                  "Exponentieel: bedrag is 1500 maal 1,03 tot de macht x.", 2),
-                 ("open", "Een vijver met 60 waterlelies waarvan het aantal elk jaar met de helft toeneemt.",
-                  "Exponentieel: aantal is 60 maal 1,5 tot de macht x.", 2),
-                 ("open", "Een voorraad van 900 stuks waarvan er elke week 75 verkocht worden.",
-                  "Lineair: voorraad is 900 min 75 maal x.", 2),
+                 ("open", r"Een abonnement kost \(30\) euro aansluiting en daarna \(12\) euro per maand.",
+                  r"Lineair: prijs is \(30\) plus \(12\) maal \(x\), met beginwaarde \(30\).", 2),
+                 ("open", r"Een spaarrekening van \(1500\) euro met \(3\) procent rente per jaar.",
+                  r"Exponentieel: bedrag is \(1500 \cdot 1{,}03^{x}\).", 2),
+                 ("open", r"Een vijver met \(60\) waterlelies waarvan het aantal elk jaar met de helft toeneemt.",
+                  r"Exponentieel: aantal is \(60 \cdot 1{,}5^{x}\).", 2),
+                 ("open", r"Een voorraad van \(900\) stuks waarvan er elke week \(75\) verkocht worden.",
+                  r"Lineair: voorraad is \(900\) min \(75\) maal \(x\).", 2),
              ]),
         dict(kop="De twee vergelijken",
              opdracht="Werk uit. Vul eerst de tabel aan, antwoord dan.",
              oefeningen=[
-                 ("tabel", ["Jaar", "Model A: 100 plus 20 maal x", "Model B: 100 maal 1,2 tot de macht x"], [
-                     ["0", None, None], ["2", None, None], ["5", None, None], ["10", None, None],
+                 ("tabel", ["Jaar", r"Model A: \(100\) plus \(20\) maal x", r"Model B: \(100 \cdot 1{,}2^{x}\)"], [
+                     [r"\(0\)", None, None], [r"\(2\)", None, None], [r"\(5\)", None, None], [r"\(10\)", None, None],
                  ],
-                  "jaar 0: 100 en 100 · jaar 2: 140 en 144 · jaar 5: 200 en ongeveer 249 · jaar 10: 300 en "
-                  "ongeveer 619", "100px"),
+                  r"jaar \(0\): \(100\) en \(100\) · jaar \(2\): \(140\) en \(144\) · jaar \(5\): \(200\) en ongeveer \(249\) · jaar \(10\): \(300\) en "
+                  r"ongeveer \(619\)", "100px"),
                  ("open", "Welk model haalt het andere in, en wat besluit je daaruit over lineaire en "
                           "exponentiële groei op lange termijn?",
-                  "Model B haalt model A in, al vanaf jaar 2. Exponentiële groei wint op lange termijn altijd "
+                  r"Model B haalt model A in, al vanaf jaar \(2\). Exponentiële groei wint op lange termijn altijd "
                   "van lineaire groei, al kan dat even duren.", 3),
                  ("waar", "Bij exponentiële afname bereikt de hoeveelheid ooit precies nul.", False),
                  ("open", "Waarom groeit een populatie in de werkelijkheid zelden eindeloos exponentieel?",
@@ -646,15 +645,15 @@ OEFENBUNDELS["oefenbundel-lineaire-en-exponentiele-groeimodellen-beyond-dubbele-
         dict(kop="Uit een situatie beslissen",
              opdracht="Lees en beslis welk model past. Schrijf waarom.",
              oefeningen=[
-                 ("open", "Een tabel toont 72, 66, 60, 54.",
-                  "Lineair, telkens 6 eraf: het verschil blijft gelijk. Bij exponentiële afname zou het "
+                 ("open", r"Een tabel toont \(72\), \(66\), \(60\), \(54\).",
+                  r"Lineair, telkens \(6\) eraf: het verschil blijft gelijk. Bij exponentiële afname zou het "
                   "verschil zelf ook kleiner worden.", 2),
-                 ("open", "Een tabel toont 81, 54, 36, 24.",
-                  "Exponentieel met factor twee derde, ongeveer 0,67: 54 gedeeld door 81 is hetzelfde als 36 "
-                  "gedeeld door 54. Het verschil wordt steeds kleiner.", 3),
-                 ("open", "Een gemeente plant elk jaar 40 bomen bij. Het aantal bomen gaat van 400 naar 440 "
-                          "naar 480. Welk model, en hoeveel na 12 jaar?",
-                  "Lineair: 400 plus 40 maal x. Na 12 jaar 880 bomen.", 3),
+                 ("open", r"Een tabel toont \(81\), \(54\), \(36\), \(24\).",
+                  r"Exponentieel met factor twee derde, ongeveer \(0{,}67\): \(54 : 81\) is hetzelfde als \(36\) "
+                  r"gedeeld door \(54\). Het verschil wordt steeds kleiner.", 3),
+                 ("open", r"Een gemeente plant elk jaar \(40\) bomen bij. Het aantal bomen gaat van \(400\) naar \(440\) "
+                          r"naar \(480\). Welk model, en hoeveel na \(12\) jaar?",
+                  r"Lineair: \(400\) plus \(40\) maal \(x\). Na \(12\) jaar \(880\) bomen.", 3),
              ]),
     ],
 )
@@ -677,45 +676,45 @@ OEFENBUNDELS["oefenbundel-kansen-en-de-wet-van-laplace-beyond-dubbele-finaliteit
                  ("kort", "Alles wat niet bij een gebeurtenis hoort.", "het complement", WW),
                  ("open", "Hoeveel uitkomsten zitten er in de uitkomstenverzameling als je met twee "
                           "dobbelstenen gooit, en hoe kom je daaraan?",
-                  "36. Zes mogelijkheden voor de eerste maal zes voor de tweede.", 2),
+                  r"\(36\). Zes mogelijkheden voor de eerste maal zes voor de tweede.", 2),
              ]),
         dict(kop="Kansen uitrekenen",
              opdracht="Schrijf elke kans als breuk, zo eenvoudig mogelijk.",
              oefeningen=[
                  ("rij", [("een even getal met één dobbelsteen", breuk(1, 2)),
-                          ("een getal groter dan 4 met één dobbelsteen", breuk(1, 3)),
-                          ("harten uit een spel van 52 kaarten", breuk(1, 4)),
-                          ("een aas uit een spel van 52 kaarten", breuk(1, 13))],
+                          (r"een getal groter dan \(4\) met één dobbelsteen", breuk(1, 3)),
+                          (r"harten uit een spel van \(52\) kaarten", breuk(1, 4)),
+                          (r"een aas uit een spel van \(52\) kaarten", breuk(1, 13))],
                   "Schrijf als breuk.", WW),
                  ("rij", [("twee keer kop bij twee munten", breuk(1, 4)),
                           ("precies één keer kop bij twee munten", breuk(1, 2)),
-                          ("som 7 met twee dobbelstenen", breuk(1, 6)),
-                          ("som 12 met twee dobbelstenen", breuk(1, 36))],
+                          (r"som \(7\) met twee dobbelstenen", breuk(1, 6)),
+                          (r"som \(12\) met twee dobbelstenen", breuk(1, 36))],
                   "Schrijf als breuk.", WW),
-                 ("kort", "In een zak zitten 5 rode, 3 blauwe en 2 groene knikkers. Wat is de kans op een "
+                 ("kort", r"In een zak zitten \(5\) rode, \(3\) blauwe en \(2\) groene knikkers. Wat is de kans op een "
                           "blauwe?", breuk(3, 10), WW),
-                 ("kort", "Een klas heeft 12 meisjes en 13 jongens. Wat is de kans dat een willekeurige "
+                 ("kort", r"Een klas heeft \(12\) meisjes en \(13\) jongens. Wat is de kans dat een willekeurige "
                           "leerling een meisje is?", breuk(12, 25), WW),
              ]),
         dict(kop="Complement en som",
-             opdracht="Gebruik dat de kans op het complement 1 min de kans is.",
+             opdracht=r"Gebruik dat de kans op het complement \(1\) min de kans is.",
              oefeningen=[
-                 ("kort", "De kans op regen is 0,35. Wat is de kans op geen regen?", "0,65", W),
-                 ("kort", "De kans op minstens één zes bij twee worpen is 11 op 36. Wat is de kans op geen "
+                 ("kort", r"De kans op regen is \(0{,}35\). Wat is de kans op geen regen?", r"\(0{,}65\)", W),
+                 ("kort", r"De kans op minstens één zes bij twee worpen is \(11\) op \(36\). Wat is de kans op geen "
                           "enkele zes?", breuk(25, 36), WW),
-                 ("kort", "De kans dat een toestel stuk gaat binnen het jaar is 0,04. Wat is de kans dat het "
-                          "blijft werken?", "0,96", W),
-                 ("open", "Leg uit waarom de som van de kansen van alle uitkomsten samen altijd 1 is.",
+                 ("kort", r"De kans dat een toestel stuk gaat binnen het jaar is \(0{,}04\). Wat is de kans dat het "
+                          "blijft werken?", r"\(0{,}96\)", W),
+                 ("open", r"Leg uit waarom de som van de kansen van alle uitkomsten samen altijd \(1\) is.",
                   "Er moet altijd íets gebeuren. Alle uitkomsten samen vormen de hele "
                   "uitkomstenverzameling, en dat is zekerheid.", 2),
-                 ("open", "Waarom is een kans nooit groter dan 1 en nooit kleiner dan 0?",
-                  "Het aantal gunstige gevallen kan niet groter zijn dan het totaal, en niet negatief. 0 "
-                  "betekent onmogelijk, 1 betekent zeker.", 3),
+                 ("open", r"Waarom is een kans nooit groter dan \(1\) en nooit kleiner dan \(0\)?",
+                  r"Het aantal gunstige gevallen kan niet groter zijn dan het totaal, en niet negatief. \(0\) "
+                  r"betekent onmogelijk, \(1\) betekent zeker.", 3),
              ]),
         dict(kop="Kans of meting?",
              opdracht="Beslis en leg uit in één zin.",
              oefeningen=[
-                 ("open", "Je gooit 10 keer met een munt en krijgt 7 keer kop. Betekent dat dat de kans op "
+                 ("open", r"Je gooit \(10\) keer met een munt en krijgt \(7\) keer kop. Betekent dat dat de kans op "
                           "kop niet een half is?",
                   "Nee. Bij weinig worpen kan de uitkomst flink afwijken van de kans. Hoe meer worpen, hoe "
                   "dichter de verhouding bij een half komt.", 3),
@@ -732,15 +731,15 @@ OEFENBUNDELS["oefenbundel-kansen-en-de-wet-van-laplace-beyond-dubbele-finaliteit
         dict(kop="Tellen in een situatie",
              opdracht="Werk uit. Schrijf telkens op hoeveel gunstige gevallen en hoeveel gevallen in totaal.",
              oefeningen=[
-                 ("open", "Een rad heeft 20 even grote vakjes: 4 met een prijs, de rest leeg. Wat is de kans "
+                 ("open", r"Een rad heeft \(20\) even grote vakjes: \(4\) met een prijs, de rest leeg. Wat is de kans "
                           "op een prijs, en wat is de kans op niets?",
-                  "4 gunstige op 20, dus een vijfde of 0,2. De kans op niets is vier vijfde of 0,8.", 3),
-                 ("open", "Een school van 400 leerlingen heeft 240 meisjes, waarvan 60 in het vijfde jaar. "
+                  r"\(4\) gunstige op \(20\), dus " + breuk(1, 5) + r" of \(0{,}2\). De kans op niets is " + breuk(4, 5) + r" of \(0{,}8\).", 3),
+                 ("open", r"Een school van \(400\) leerlingen heeft \(240\) meisjes, waarvan \(60\) in het vijfde jaar. "
                           "Wat is de kans dat een willekeurige leerling een meisje uit het vijfde jaar is?",
-                  "60 op 400, dus drie twintigsten of 0,15.", 3),
-                 ("open", "In een doos liggen 12 lampen, waarvan 3 stuk. Je neemt er één. Wat is de kans dat "
+                  r"\(60\) op \(400\), dus drie twintigsten of \(0{,}15\).", 3),
+                 ("open", r"In een doos liggen \(12\) lampen, waarvan \(3\) stuk. Je neemt er één. Wat is de kans dat "
                           "ze werkt?",
-                  "9 werkende op 12, dus drie vierde of 0,75.", 3),
+                  r"\(9\) werkende op \(12\), dus drie vierde of \(0{,}75\).", 3),
              ]),
     ],
 )
@@ -772,19 +771,19 @@ OEFENBUNDELS["oefenbundel-kansbomen-product-som-en-complement-beyond-dubbele-fin
                            "één keer kop.",
                   "Vier paden, elk met kans een vierde. Twee paden geven precies één keer kop (kop-munt en "
                   "munt-kop), dus een vierde plus een vierde is een half.", 75),
-                 ("teken", "In een zak zitten 4 rode en 6 blauwe knikkers. Je neemt er twee zonder terugleggen. "
+                 ("teken", r"In een zak zitten \(4\) rode en \(6\) blauwe knikkers. Je neemt er twee zonder terugleggen. "
                            "Teken de kansboom en bereken de kans op twee rode.",
-                  "Eerste tak rood: 4 op 10. Tweede tak rood: 3 op 9, want er is er één uit. Vier tienden "
+                  r"Eerste tak rood: \(4\) op \(10\). Tweede tak rood: \(3\) op \(9\), want er is er één uit. Vier tienden "
                   "maal drie negenden is twaalf negentigsten, oftewel twee vijftienden.", 80),
              ]),
         dict(kop="Met of zonder terugleggen",
-             opdracht="Vul de tabel aan met de kans op twee rode uit een zak met 5 rode en 5 witte knikkers.",
+             opdracht=r"Vul de tabel aan met de kans op twee rode uit een zak met \(5\) rode en \(5\) witte knikkers.",
              oefeningen=[
                  ("tabel", ["", "Kans op de eerste rode", "Kans op de tweede rode", "Kans op twee rode"], [
                      ["met terugleggen", None, None, None],
                      ["zonder terugleggen", None, None, None],
                  ],
-                  "met terugleggen: 5 op 10, 5 op 10, een vierde · zonder terugleggen: 5 op 10, 4 op 9, twee "
+                  r"met terugleggen: \(5\) op \(10\), \(5\) op \(10\), een vierde · zonder terugleggen: \(5\) op \(10\), \(4\) op \(9\), twee "
                   "negendes", "100px"),
                  ("open", "Waarom verandert de tweede kans bij zonder terugleggen, en bij met terugleggen niet?",
                   "Zonder terugleggen is er één knikker minder in de zak en één rode minder, dus de "
@@ -800,26 +799,26 @@ OEFENBUNDELS["oefenbundel-kansbomen-product-som-en-complement-beyond-dubbele-fin
                  ("kort", "De kans op een drie of een vier met één dobbelsteen.", breuk(1, 3), WW),
                  ("open", "Bereken de kans op minstens één zes bij vier worpen. Gebruik de complementregel en "
                           "rond af op twee cijfers na de komma.",
-                  "De kans op geen enkele zes is vijf zesden tot de macht 4, ongeveer 0,48. Dus de kans op "
-                  "minstens één zes is ongeveer 0,52.", 4),
-                 ("open", "Een toets heeft 3 waar-of-niet-waar-vragen. Wat is de kans dat je ze met gokken "
+                  r"De kans op geen enkele zes is \(\left(\tfrac{5}{6}\right)^{4}\), ongeveer \(0{,}48\). Dus de kans op "
+                  r"minstens één zes is ongeveer \(0{,}52\).", 4),
+                 ("open", r"Een toets heeft \(3\) waar-of-niet-waar-vragen. Wat is de kans dat je ze met gokken "
                           "alle drie juist hebt, en wat is de kans dat je er minstens één fout hebt?",
-                  "Alle drie juist: een half tot de macht 3 is een achtste. Minstens één fout is het "
-                  "complement: zeven achtsten.", 4),
+                  r"Alle drie juist: \(\left(\tfrac{1}{2}\right)^{3} = \tfrac{1}{8}\). Minstens één fout is het "
+                  r"complement: \(\tfrac{7}{8}\).", 4),
              ]),
         dict(kop="In een situatie",
              opdracht="Werk uit met je tussenstappen.",
              oefeningen=[
-                 ("open", "Een machine maakt stukken waarvan 2 procent slecht is. Je neemt er twee. Wat is de "
+                 ("open", r"Een machine maakt stukken waarvan \(2\) procent slecht is. Je neemt er twee. Wat is de "
                           "kans dat ze allebei goed zijn, en wat is de kans dat er minstens één slecht is?",
-                  "0,98 maal 0,98 is 0,9604, dus ongeveer 96 procent allebei goed. Minstens één slecht is het "
-                  "complement: ongeveer 4 procent.", 4),
-                 ("open", "Twee lampen branden onafhankelijk van elkaar; elke lamp gaat met kans 0,1 stuk "
+                  r"\(0{,}98 \cdot 0{,}98\) is \(0{,}9604\), dus ongeveer \(96\) procent allebei goed. Minstens één slecht is het "
+                  r"complement: ongeveer \(4\) procent.", 4),
+                 ("open", r"Twee lampen branden onafhankelijk van elkaar; elke lamp gaat met kans \(0{,}1\) stuk "
                           "binnen het jaar. Wat is de kans dat er na een jaar nog minstens één brandt?",
-                  "Beide stuk: 0,1 maal 0,1 is 0,01. Minstens één brandt nog: 1 min 0,01 is 0,99.", 4),
-                 ("open", "In een klas van 20 leerlingen worden er twee aangeduid, zonder dat iemand twee keer "
+                  r"Beide stuk: \(0{,}1 \cdot 0{,}1\) is \(0{,}01\). Minstens één brandt nog: \(1\) min \(0{,}01\) is \(0{,}99\).", 4),
+                 ("open", r"In een klas van \(20\) leerlingen worden er twee aangeduid, zonder dat iemand twee keer "
                           "kan. Wat is de kans dat de twee grootste leerlingen aangeduid worden?",
-                  "2 op 20 maal 1 op 19 is twee driehonderdtachtigsten, oftewel 1 op 190.", 4),
+                  r"\(2\) op \(20 \cdot 1\) op \(19\) is twee driehonderdtachtigsten, oftewel \(1\) op \(190\).", 4),
              ]),
     ],
 )
@@ -835,22 +834,22 @@ OEFENBUNDELS["oefenbundel-populatie-steekproef-en-representativiteit-beyond-dubb
              opdracht="Vul de tabel aan voor elk onderzoek.",
              oefeningen=[
                  ("tabel", ["Onderzoek", "Populatie", "Steekproef", "Variabele"], [
-                     ["Hoeveel uren sport een Vlaamse jongere per week? 300 jongeren bevraagd.",
+                     [r"Hoeveel uren sport een Vlaamse jongere per week? \(300\) jongeren bevraagd.",
                       None, None, None],
-                     ["Wat weegt een zak chips van 200 gram echt? Elk uur 5 zakken gewogen.",
+                     [r"Wat weegt een zak chips van \(200\) gram echt? Elk uur \(5\) zakken gewogen.",
                       None, None, None],
-                     ["Hoe lang doen de leerlingen van onze school over hun huiswerk? 60 leerlingen bevraagd.",
+                     [r"Hoe lang doen de leerlingen van onze school over hun huiswerk? \(60\) leerlingen bevraagd.",
                       None, None, None],
                  ],
-                  "1: alle Vlaamse jongeren · de 300 bevraagde jongeren · het aantal uren sport per week. "
-                  "2: alle zakken chips van die productie · de gewogen zakken · het gewicht. "
-                  "3: alle leerlingen van de school · de 60 bevraagde leerlingen · de tijd voor het huiswerk.",
+                  r"\(1\): alle Vlaamse jongeren · de \(300\) bevraagde jongeren · het aantal uren sport per week. "
+                  r"\(2\): alle zakken chips van die productie · de gewogen zakken · het gewicht. "
+                  r"\(3\): alle leerlingen van de school · de \(60\) bevraagde leerlingen · de tijd voor het huiswerk.",
                   "130px"),
                  ("open", "Waarom werk je met een steekproef in plaats van de hele populatie te meten?",
                   "Omdat de hele populatie meten vaak onmogelijk of te duur is. Je ruilt werk in voor "
                   "onzekerheid over je besluit.", 2),
-                 ("kort", "Een school van 600 leerlingen bevraagt er 90. Hoeveel procent van de populatie is "
-                          "de steekproef?", "15 procent", W),
+                 ("kort", r"Een school van \(600\) leerlingen bevraagt er \(90\). Hoeveel procent van de populatie is "
+                          "de steekproef?", r"\(15\) procent", W),
              ]),
         dict(kop="Aselect, vertekend, representatief",
              opdracht="Beslis bij elke manier van kiezen of de steekproef aselect is, en schrijf bij een "
@@ -860,7 +859,7 @@ OEFENBUNDELS["oefenbundel-populatie-steekproef-en-representativiteit-beyond-dubb
                   "Vertekend: wie niet sport zit er niet in, dus de uitkomst ligt te hoog.", 2),
                  ("open", "Namen uit een lijst van alle leerlingen laten kiezen door een toevalsgenerator.",
                   "Aselect: elke leerling heeft dezelfde kans.", 2),
-                 ("open", "Bellen tussen 9 en 17 uur op een werkdag.",
+                 ("open", r"Bellen tussen \(9\) en \(17\) uur op een werkdag.",
                   "Vertekend: wie overdag werkt, neemt niet op.", 2),
                  ("open", "Een vragenlijst online zetten en afwachten wie ze invult.",
                   "Vertekend: alleen wie zich betrokken voelt, vult ze in.", 2),
@@ -879,7 +878,7 @@ OEFENBUNDELS["oefenbundel-populatie-steekproef-en-representativiteit-beyond-dubb
                  ("waar", "Als een steekproef aselect is, wordt het besluit betrouwbaarder bij een grotere "
                           "steekproef.", True),
                  ("waar", "Ook een aselecte steekproef kan door puur toeval scheef uitvallen.", True),
-                 ("waar", "Een steekproef van 1000 mensen kan betrouwbare uitspraken geven over miljoenen "
+                 ("waar", r"Een steekproef van \(1000\) mensen kan betrouwbare uitspraken geven over miljoenen "
                           "mensen.", True),
                  ("waar", "Statistiek geeft zekerheid over de populatie.", False),
              ]),
@@ -887,7 +886,7 @@ OEFENBUNDELS["oefenbundel-populatie-steekproef-en-representativiteit-beyond-dubb
              opdracht="Vul in.",
              oefeningen=[
                  ("rij", [("het gemiddelde van een populatie", "de Griekse letter mu"),
-                          ("het gemiddelde van een steekproef", "x met een streepje erboven"),
+                          ("het gemiddelde van een steekproef", r"\(x\) met een streepje erboven"),
                           ("de standaardafwijking van een populatie", "de Griekse letter sigma"),
                           ("de standaardafwijking van een steekproef", "een gewone s")],
                   "Welk symbool?", WL),
@@ -900,15 +899,15 @@ OEFENBUNDELS["oefenbundel-populatie-steekproef-en-representativiteit-beyond-dubb
              opdracht="Schrijf bij elk besluit of het mag, en waarom niet als het niet mag.",
              oefeningen=[
                  ("open", "Een onderzoeker meet de leeftijd van bezoekers op een rockfestival en besluit dat "
-                          "de gemiddelde Belg 24 jaar is.",
+                          r"de gemiddelde Belg \(24\) jaar is.",
                   "Mag niet. Festivalbezoekers zijn geen aselecte steekproef van alle Belgen. Het besluit "
                   "geldt hoogstens voor dat festival.", 3),
-                 ("open", "Een krant schrijft dat uit een bevraging van 40 mensen blijkt dat 60 procent van "
+                 ("open", r"Een krant schrijft dat uit een bevraging van \(40\) mensen blijkt dat \(60\) procent van "
                           "de Belgen iets vindt. Wat is je eerste vraag?",
-                  "Hoe werden die 40 mensen gekozen? De manier van kiezen weegt zwaarder dan het aantal.", 2),
+                  r"Hoe werden die \(40\) mensen gekozen? De manier van kiezen weegt zwaarder dan het aantal.", 2),
                  ("open", "Een peiling voorspelde een uitslag die er ver naast zat. Waar zit de fout meestal?",
                   "In een niet-representatieve steekproef, niet in het rekenwerk erna.", 2),
-                 ("open", "Een fabrikant belooft dat elke zak minstens 500 gram bevat. Hoe zou je dat met een "
+                 ("open", r"Een fabrikant belooft dat elke zak minstens \(500\) gram bevat. Hoe zou je dat met een "
                           "steekproef nakijken, en wat meet je dan precies?",
                   "Aselect zakken uit de geproduceerde voorraad nemen, verspreid over de dag, en elk gewicht "
                   "opmeten. De variabele is het gewicht per verpakking; uit het steekproefgemiddelde en de "
@@ -1014,12 +1013,12 @@ OEFENBUNDELS["oefenbundel-de-normale-verdeling-en-de-gausskromme-beyond-dubbele-
                  ("kort", "Welke twee getallen leggen een normale verdeling helemaal vast?",
                   "het gemiddelde en de standaardafwijking", WL),
                  ("kort", "Waar ligt de top van de Gausskromme?", "bij het gemiddelde", WW),
-                 ("kort", "Hoe groot is de totale oppervlakte onder een Gausskromme?", "1", W),
+                 ("kort", "Hoe groot is de totale oppervlakte onder een Gausskromme?", r"\(1\)", W),
                  ("kort", "Welke drie kengetallen vallen bij een normale verdeling samen?",
                   "gemiddelde, mediaan en modus", WL),
                  ("open", "Wat verandert er aan de kromme als de standaardafwijking groter wordt, en waarom "
                           "wordt ze dan ook platter?",
-                  "Ze wordt breder. Omdat de oppervlakte eronder altijd 1 blijft, moet ze bij een grotere "
+                  r"Ze wordt breder. Omdat de oppervlakte eronder altijd \(1\) blijft, moet ze bij een grotere "
                   "breedte lager worden.", 3),
              ]),
         dict(kop="Twee krommen vergelijken",
@@ -1035,41 +1034,41 @@ OEFENBUNDELS["oefenbundel-de-normale-verdeling-en-de-gausskromme-beyond-dubbele-
                  ("open", "Twee klassen hebben hetzelfde gemiddelde, maar de ene heeft een veel grotere "
                           "standaardafwijking. Wat betekent dat voor de punten?",
                   "Daar liggen de punten verder uit elkaar: meer heel sterke én meer heel zwakke resultaten.", 3),
-                 ("open", "Een machine vult zakken van 500 gram en heeft een kleine standaardafwijking. Wat "
+                 ("open", r"Een machine vult zakken van \(500\) gram en heeft een kleine standaardafwijking. Wat "
                           "zegt dat over de machine?",
-                  "Ze vult heel nauwkeurig: de zakken wijken weinig van 500 gram af.", 2),
+                  r"Ze vult heel nauwkeurig: de zakken wijken weinig van \(500\) gram af.", 2),
              ]),
         dict(kop="De vuistregel van 68 en 95",
-             opdracht="Vul de tabel aan voor een normale verdeling met gemiddelde 180 en standaardafwijking 8.",
+             opdracht=r"Vul de tabel aan voor een normale verdeling met gemiddelde \(180\) en standaardafwijking \(8\).",
              oefeningen=[
                  ("tabel", ["Binnen hoeveel standaardafwijkingen", "Tussen welke waarden", "Welk aandeel"], [
                      ["één", None, None],
                      ["twee", None, None],
                  ],
-                  "één: tussen 172 en 188, ongeveer 68 procent · twee: tussen 164 en 196, ongeveer 95 procent",
+                  r"één: tussen \(172\) en \(188\), ongeveer \(68\) procent · twee: tussen \(164\) en \(196\), ongeveer \(95\) procent",
                   "150px"),
-                 ("kort", "Een IQ-test heeft gemiddelde 100 en standaardafwijking 15. Tussen welke waarden "
-                          "ligt ongeveer 68 procent?", "tussen 85 en 115", WW),
-                 ("kort", "Hoeveel procent van die IQ-scores ligt boven 130?", "ongeveer 2,5 procent", WW),
+                 ("kort", r"Een IQ-test heeft gemiddelde \(100\) en standaardafwijking \(15\). Tussen welke waarden "
+                          r"ligt ongeveer \(68\) procent?", r"tussen \(85\) en \(115\)", WW),
+                 ("kort", r"Hoeveel procent van die IQ-scores ligt boven \(130\)?", r"ongeveer \(2{,}5\) procent", WW),
                  ("kort", "Hoeveel procent ligt buiten twee standaardafwijkingen van het gemiddelde?",
-                  "ongeveer 5 procent, verdeeld over beide staarten", WL),
-                 ("open", "Een toets heeft gemiddelde 60 en standaardafwijking 10. Iemand scoort 85. Is dat "
+                  r"ongeveer \(5\) procent, verdeeld over beide staarten", WL),
+                 ("open", r"Een toets heeft gemiddelde \(60\) en standaardafwijking \(10\). Iemand scoort \(85\). Is dat "
                           "uitzonderlijk? Reken na.",
-                  "85 ligt 25 boven het gemiddelde, dus 2,5 standaardafwijkingen. Buiten twee "
-                  "standaardafwijkingen ligt maar 5 procent, verdeeld over twee kanten. Dus ja, "
+                  r"\(85\) ligt \(25\) boven het gemiddelde, dus \(2{,}5\) standaardafwijkingen. Buiten twee "
+                  r"standaardafwijkingen ligt maar \(5\) procent, verdeeld over twee kanten. Dus ja, "
                   "uitzonderlijk hoog.", 4),
              ]),
         dict(kop="Oppervlakte is kans",
              opdracht="Antwoord en leg uit waar nodig.",
              oefeningen=[
-                 ("kort", "Hoe groot is de kans dat een waarde onder het gemiddelde ligt?", "0,5", W),
-                 ("kort", "Een normale verdeling heeft gemiddelde 100. Wat is de kans op een waarde groter "
-                          "dan 100?", "0,5", W),
+                 ("kort", "Hoe groot is de kans dat een waarde onder het gemiddelde ligt?", r"\(0{,}5\)", W),
+                 ("kort", r"Een normale verdeling heeft gemiddelde \(100\). Wat is de kans op een waarde groter "
+                          r"dan \(100\)?", r"\(0{,}5\)", W),
                  ("open", "Waarom kan je de kans op precies één waarde niet als oppervlakte berekenen?",
                   "Eén punt heeft geen breedte, dus geen oppervlakte. Je werkt altijd met een interval.", 2),
-                 ("open", "Een fabrikant wil weten hoeveel procent van zijn zakken onder 490 gram zit. "
+                 ("open", r"Een fabrikant wil weten hoeveel procent van zijn zakken onder \(490\) gram zit. "
                           "Beschrijf wat hij berekent en waarmee.",
-                  "De oppervlakte onder de kromme links van 490. Dat gaat niet met de hand; daarvoor gebruikt "
+                  r"De oppervlakte onder de kromme links van \(490\). Dat gaat niet met de hand; daarvoor gebruikt "
                   "hij de rekenapps, die op het examen uitdrukkelijk toegelaten zijn.", 3),
                  ("waar", "Een normale verdeling heeft een begin en een einde: buiten een bepaald bereik is de "
                           "kans precies nul.", False),
@@ -1077,7 +1076,7 @@ OEFENBUNDELS["oefenbundel-de-normale-verdeling-en-de-gausskromme-beyond-dubbele-
         dict(kop="Past het model?",
              opdracht="Beslis of een normale verdeling past, en schrijf waarom.",
              oefeningen=[
-                 ("open", "Een histogram van de lengte van 500 volwassen mannen is mooi klokvormig.",
+                 ("open", r"Een histogram van de lengte van \(500\) volwassen mannen is mooi klokvormig.",
                   "Past. Klokvormig en symmetrisch rond één top is precies wat het model beschrijft.", 2),
                  ("open", "Een histogram van de inkomens in een land heeft een lange staart naar rechts.",
                   "Past niet. Het model is symmetrisch; dit is scheef verdeeld.", 2),

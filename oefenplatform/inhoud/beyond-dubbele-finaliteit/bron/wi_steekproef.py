@@ -77,7 +77,7 @@ DEEL1 = [
     ),
     dict(
         type="meerkeuze",
-        vraag="Een onderzoeker belt mensen op tussen 9 en 17 uur op een werkdag. Welke groep ontbreekt daardoor?",
+        vraag=r"Een onderzoeker belt mensen op tussen \(9\) en \(17\) uur op een werkdag. Welke groep ontbreekt daardoor?",
         opties=["wie overdag werkt", "wie gepensioneerd is", "wie thuis is", "niemand"],
         antwoord=0,
         uitleg="De steekproef bevat te veel mensen die overdag thuis zijn, en dat kleurt elke conclusie.",
@@ -106,7 +106,7 @@ DEEL1 = [
         type="waarofniet",
         vraag="Het gemiddelde van een steekproef noteer je anders dan het gemiddelde van een populatie.",
         antwoord=True,
-        uitleg="Het steekproefgemiddelde krijgt een streepje boven de x; het populatiegemiddelde krijgt de Griekse letter mu.",
+        uitleg=r"Het steekproefgemiddelde krijgt een streepje boven de \(x\); het populatiegemiddelde krijgt de Griekse letter mu.",
     ),
     dict(
         type="meerkeuze",
@@ -175,10 +175,10 @@ DEEL2 = [
     ),
     dict(
         type="meerkeuze",
-        vraag="Een school van 800 leerlingen bevraagt er 80. Hoe groot is de steekproef in procent van de populatie?",
-        opties=["10 procent", "8 procent", "80 procent", "1 procent"],
+        vraag=r"Een school van \(800\) leerlingen bevraagt er \(80\). Hoe groot is de steekproef in procent van de populatie?",
+        opties=[r"\(10\) procent", r"\(8\) procent", r"\(80\) procent", r"\(1\) procent"],
         antwoord=0,
-        uitleg="80 gedeeld door 800.",
+        uitleg=r"\(80 : 800\).",
     ),
     dict(
         type="waarofniet",
@@ -188,7 +188,7 @@ DEEL2 = [
     ),
     dict(
         type="meerkeuze",
-        vraag="Een onderzoeker meet de leeftijd van bezoekers op een rockfestival en besluit dat de gemiddelde Belg 24 jaar is. Wat is de fout?",
+        vraag=r"Een onderzoeker meet de leeftijd van bezoekers op een rockfestival en besluit dat de gemiddelde Belg \(24\) jaar is. Wat is de fout?",
         opties=["hij veralgemeent een bijzondere groep naar iedereen", "hij meet de verkeerde variabele bij die mensen", "zijn steekproef telt veel te weinig mensen", "hij rekent het gemiddelde verkeerd uit"],
         antwoord=0,
         uitleg="Zijn steekproef is prima voor dat festival, maar niet voor het land.",
@@ -221,20 +221,20 @@ DEEL2 = [
     ),
     dict(
         type="waarofniet",
-        vraag="Een steekproef van 1000 mensen kan betrouwbare uitspraken geven over miljoenen mensen.",
+        vraag=r"Een steekproef van \(1000\) mensen kan betrouwbare uitspraken geven over miljoenen mensen.",
         antwoord=True,
         uitleg="Als ze aselect en representatief is. Dat is precies waarom peilingen met zo'n klein aantal toch werken.",
     ),
     dict(
         type="meerkeuze",
-        vraag="Een onderzoek stuurt een vragenlijst per post en 8 procent stuurt ze terug. Waar zit het risico?",
-        opties=["wie terugstuurt, kan systematisch anders zijn", "de post doet er te lang over", "8 procent is een lastig getal om mee te rekenen", "de populatie is verkeerd gekozen"],
+        vraag=r"Een onderzoek stuurt een vragenlijst per post en \(8\) procent stuurt ze terug. Waar zit het risico?",
+        opties=["wie terugstuurt, kan systematisch anders zijn", "de post doet er te lang over", r"\(8\) procent is een lastig getal om mee te rekenen", "de populatie is verkeerd gekozen"],
         antwoord=0,
         uitleg="Zo'n lage respons maakt van je aselecte opzet alsnog een vrijwillige steekproef.",
     ),
     dict(
         type="invultekst",
-        vraag="Een verpakking belooft 500 gram. De fabrikant weegt elk uur tien zakken. Wat is daar de populatie?",
+        vraag=r"Een verpakking belooft \(500\) gram. De fabrikant weegt elk uur tien zakken. Wat is daar de populatie?",
         antwoord=["alle zakken", "alle geproduceerde zakken"],
         uitleg="De tien zakken per uur zijn de steekproef; het gewicht is de variabele.",
     ),
@@ -246,8 +246,8 @@ DEEL2 = [
     ),
     dict(
         type="meerkeuze",
-        vraag="Je leest: uit een bevraging van 40 mensen blijkt dat 60 procent van de Belgen dit vindt. Wat is je eerste vraag?",
-        opties=["hoe werden die 40 mensen gekozen", "wat is 60 procent van 40",
+        vraag=r"Je leest: uit een bevraging van \(40\) mensen blijkt dat \(60\) procent van de Belgen dit vindt. Wat is je eerste vraag?",
+        opties=[r"hoe werden die \(40\) mensen gekozen", r"wat is \(60\) procent van \(40\)",
                 "hoe lang duurde de bevraging", "wie betaalde het onderzoek"],
         antwoord=0,
         uitleg="De manier van kiezen bepaalt of je het besluit mag veralgemenen. Dat weegt zwaarder dan het aantal.",

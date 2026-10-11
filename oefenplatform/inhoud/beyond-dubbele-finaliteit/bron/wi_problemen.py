@@ -82,7 +82,7 @@ DEEL1 = [
     ),
     dict(
         type="meerkeuze",
-        vraag="Je weet nog niet hoeveel er in de doos zit en noemt dat aantal x. Welke strategie is dat?",
+        vraag=r"Je weet nog niet hoeveel er in de doos zit en noemt dat aantal \(x\). Welke strategie is dat?",
         opties=["een variabele invoeren", "terugrekenen", "een schets maken", "reflecteren"],
         antwoord=0,
         uitleg="Met een variabele kan je over een onbekende rekenen alsof ze al gekend is.",
@@ -133,8 +133,8 @@ DEEL1 = [
     ),
     dict(
         type="meerkeuze",
-        vraag="Je berekent dat een auto 540 kilometer per uur rijdt. Wat doe je?",
-        opties=["je gaat je berekening na, want dat kan niet", "je noteert het zo", "je rondt af naar 500", "je deelt door twee"],
+        vraag=r"Je berekent dat een auto \(540\) kilometer per uur rijdt. Wat doe je?",
+        opties=["je gaat je berekening na, want dat kan niet", "je noteert het zo", r"je rondt af naar \(500\)", "je deelt door twee"],
         antwoord=0,
         uitleg="Reflecteren betekent ook dat je je uitkomst toetst aan de werkelijkheid. Een onmogelijke waarde wijst op een rekenfout.",
     ),
@@ -157,7 +157,7 @@ DEEL2 = [
     ),
     dict(
         type="invultekst",
-        vraag="Je uitkomst is 7,5. De vraag was hoeveel bussen er nodig zijn. Hoeveel bussen antwoord je?",
+        vraag=r"Je uitkomst is \(7{,}5\). De vraag was hoeveel bussen er nodig zijn. Hoeveel bussen antwoord je?",
         antwoord=["8", "acht", "8 bussen"],
         uitleg="Je vertaalt de uitkomst terug naar de situatie. Een halve bus bestaat niet, en met zeven bussen raakt niet iedereen mee.",
     ),
@@ -183,7 +183,7 @@ DEEL2 = [
     ),
     dict(
         type="invultekst",
-        vraag="Hoe noem je een reeks getallen waarin je telkens hetzelfde ziet terugkeren, bijvoorbeeld 3, 6, 9, 12?",
+        vraag=r"Hoe noem je een reeks getallen waarin je telkens hetzelfde ziet terugkeren, bijvoorbeeld \(3\), \(6\), \(9\), \(12\)?",
         antwoord=["een patroon", "patroon", "regelmaat"],
         uitleg="Wie het patroon ziet, hoeft niet elke stap apart te berekenen. Hier komt er telkens drie bij.",
     ),
@@ -202,7 +202,7 @@ DEEL2 = [
     ),
     dict(
         type="meerkeuze",
-        vraag="Je wil weten of een formule klopt en probeert ze eerst met x = 0 en x = 1. Welke strategie is dat?",
+        vraag=r"Je wil weten of een formule klopt en probeert ze eerst met \(x = 0\) en \(x = 1\). Welke strategie is dat?",
         opties=["speciale gevallen gebruiken", "alle mogelijkheden opschrijven", "variabelen invoeren", "reflecteren"],
         antwoord=0,
         uitleg="Met een paar makkelijke waarden merk je snel of je formule onmogelijke uitkomsten geeft.",
@@ -221,8 +221,8 @@ DEEL2 = [
     ),
     dict(
         type="meerkeuze",
-        vraag="Je uitkomst is 0,333333… en de vraag vraagt twee cijfers na de komma. Wat noteer je?",
-        opties=["0,33", "0,3", "0,34", "0,333"],
+        vraag=r"Je uitkomst is \(0{,}333333\)… en de vraag vraagt twee cijfers na de komma. Wat noteer je?",
+        opties=[r"\(0{,}33\)", r"\(0{,}3\)", r"\(0{,}34\)", r"\(0{,}333\)"],
         antwoord=0,
         uitleg="Je rondt pas af op het einde, en precies zo nauwkeurig als gevraagd wordt.",
     ),
@@ -261,7 +261,7 @@ DEEL2 = [
     dict(
         type="meerkeuze",
         vraag="Het examen wiskunde duurt hoelang?",
-        opties=["150 minuten", "90 minuten", "180 minuten", "60 minuten"],
+        opties=[r"\(150\) minuten", r"\(90\) minuten", r"\(180\) minuten", r"\(60\) minuten"],
         antwoord=0,
         uitleg="Je legt het af in het examencentrum in Brussel, op de computer, met gesloten vragen.",
     ),

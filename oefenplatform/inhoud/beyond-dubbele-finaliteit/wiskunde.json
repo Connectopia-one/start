@@ -119,7 +119,7 @@
         },
         {
           "type": "meerkeuze",
-          "vraag": "Je weet nog niet hoeveel er in de doos zit en noemt dat aantal x. Welke strategie is dat?",
+          "vraag": "Je weet nog niet hoeveel er in de doos zit en noemt dat aantal \\(x\\). Welke strategie is dat?",
           "opties": [
             "een variabele invoeren",
             "terugrekenen",
@@ -193,11 +193,11 @@
         },
         {
           "type": "meerkeuze",
-          "vraag": "Je berekent dat een auto 540 kilometer per uur rijdt. Wat doe je?",
+          "vraag": "Je berekent dat een auto \\(540\\) kilometer per uur rijdt. Wat doe je?",
           "opties": [
             "je gaat je berekening na, want dat kan niet",
             "je noteert het zo",
-            "je rondt af naar 500",
+            "je rondt af naar \\(500\\)",
             "je deelt door twee"
           ],
           "antwoord": 0,
@@ -236,7 +236,7 @@
         },
         {
           "type": "invultekst",
-          "vraag": "Je uitkomst is 7,5. De vraag was hoeveel bussen er nodig zijn. Hoeveel bussen antwoord je?",
+          "vraag": "Je uitkomst is \\(7{,}5\\). De vraag was hoeveel bussen er nodig zijn. Hoeveel bussen antwoord je?",
           "antwoord": [
             "8",
             "acht",
@@ -276,7 +276,7 @@
         },
         {
           "type": "invultekst",
-          "vraag": "Hoe noem je een reeks getallen waarin je telkens hetzelfde ziet terugkeren, bijvoorbeeld 3, 6, 9, 12?",
+          "vraag": "Hoe noem je een reeks getallen waarin je telkens hetzelfde ziet terugkeren, bijvoorbeeld \\(3\\), \\(6\\), \\(9\\), \\(12\\)?",
           "antwoord": [
             "een patroon",
             "patroon",
@@ -304,7 +304,7 @@
         },
         {
           "type": "meerkeuze",
-          "vraag": "Je wil weten of een formule klopt en probeert ze eerst met x = 0 en x = 1. Welke strategie is dat?",
+          "vraag": "Je wil weten of een formule klopt en probeert ze eerst met \\(x = 0\\) en \\(x = 1\\). Welke strategie is dat?",
           "opties": [
             "speciale gevallen gebruiken",
             "alle mogelijkheden opschrijven",
@@ -332,12 +332,12 @@
         },
         {
           "type": "meerkeuze",
-          "vraag": "Je uitkomst is 0,333333… en de vraag vraagt twee cijfers na de komma. Wat noteer je?",
+          "vraag": "Je uitkomst is \\(0{,}333333\\)… en de vraag vraagt twee cijfers na de komma. Wat noteer je?",
           "opties": [
-            "0,33",
-            "0,3",
-            "0,34",
-            "0,333"
+            "\\(0{,}33\\)",
+            "\\(0{,}3\\)",
+            "\\(0{,}34\\)",
+            "\\(0{,}333\\)"
           ],
           "antwoord": 0,
           "uitleg": "Je rondt pas af op het einde, en precies zo nauwkeurig als gevraagd wordt."
@@ -392,10 +392,10 @@
           "type": "meerkeuze",
           "vraag": "Het examen wiskunde duurt hoelang?",
           "opties": [
-            "150 minuten",
-            "90 minuten",
-            "180 minuten",
-            "60 minuten"
+            "\\(150\\) minuten",
+            "\\(90\\) minuten",
+            "\\(180\\) minuten",
+            "\\(60\\) minuten"
           ],
           "antwoord": 0,
           "uitleg": "Je legt het af in het examencentrum in Brussel, op de computer, met gesloten vragen."
@@ -419,87 +419,87 @@
       "vragen": [
         {
           "type": "meerkeuze",
-          "vraag": "Welke macht betekent hetzelfde als de vierkantswortel uit 9?",
+          "vraag": "Welke macht betekent hetzelfde als \\(\\sqrt{9}\\)?",
           "opties": [
-            "9 tot de macht 1/2",
-            "9 tot de macht 2",
-            "9 tot de macht -2",
-            "9 tot de macht 1/9"
+            "\\(9^{\\tfrac{1}{2}}\\)",
+            "\\(9^{2}\\)",
+            "\\(9^{-2}\\)",
+            "\\(9^{\\tfrac{1}{9}}\\)"
           ],
           "antwoord": 0,
           "uitleg": "Een wortel schrijf je als een macht met een breuk als exponent. De noemer van die breuk is de wortelexponent."
         },
         {
           "type": "invultekst",
-          "vraag": "Hoeveel is 9 tot de macht 1/2?",
+          "vraag": "Hoeveel is \\(9^{\\tfrac{1}{2}}\\)?",
           "antwoord": [
             "3",
             "drie"
           ],
-          "uitleg": "Dat is de vierkantswortel uit 9, en 3 maal 3 is 9."
+          "uitleg": "Dat is \\(\\sqrt{9}\\), en \\(3 \\cdot 3\\) is \\(9\\)."
         },
         {
           "type": "invultekst",
-          "vraag": "Hoeveel is 8 tot de macht 1/3?",
+          "vraag": "Hoeveel is \\(8^{\\tfrac{1}{3}}\\)?",
           "antwoord": [
             "2",
             "twee"
           ],
-          "uitleg": "Dat is de derdemachtswortel uit 8: het getal dat je drie keer met zichzelf vermenigvuldigt om 8 te krijgen."
+          "uitleg": "Dat is \\(\\sqrt[3]{8}\\): het getal dat je drie keer met zichzelf vermenigvuldigt om \\(8\\) te krijgen."
         },
         {
           "type": "meerkeuze",
-          "vraag": "Hoe schrijf je de derdemachtswortel uit 5 tot de macht 2 als één macht?",
+          "vraag": "Hoe schrijf je \\(\\sqrt[3]{5^{2}}\\) als één macht?",
           "opties": [
-            "5 tot de macht 2/3",
-            "5 tot de macht 3/2",
-            "5 tot de macht 6",
-            "5 tot de macht 1/6"
+            "\\(5^{\\tfrac{2}{3}}\\)",
+            "\\(5^{\\tfrac{3}{2}}\\)",
+            "\\(5^{6}\\)",
+            "\\(5^{\\tfrac{1}{6}}\\)"
           ],
           "antwoord": 0,
           "uitleg": "De teller van de exponent is de macht onder de wortel, de noemer is de wortelexponent."
         },
         {
           "type": "invultekst",
-          "vraag": "Hoeveel is 16 tot de macht 3/4?",
+          "vraag": "Hoeveel is \\(16^{\\tfrac{3}{4}}\\)?",
           "antwoord": [
             "8",
             "acht"
           ],
-          "uitleg": "De vierdemachtswortel uit 16 is 2, en 2 tot de macht 3 is 8."
+          "uitleg": "\\(\\sqrt[4]{16}\\) is \\(2\\), en \\(2^{3}\\) is \\(8\\)."
         },
         {
           "type": "meerkeuze",
-          "vraag": "Wat is 2 tot de macht 3 maal 2 tot de macht 4?",
+          "vraag": "Wat is \\(2^{3} \\cdot 2^{4}\\)?",
           "opties": [
-            "2 tot de macht 7",
-            "2 tot de macht 12",
-            "4 tot de macht 7",
-            "2 tot de macht 1"
+            "\\(2^{7}\\)",
+            "\\(2^{12}\\)",
+            "\\(4^{7}\\)",
+            "\\(2^{1}\\)"
           ],
           "antwoord": 0,
           "uitleg": "Bij hetzelfde grondtal tel je de exponenten op als je vermenigvuldigt."
         },
         {
           "type": "meerkeuze",
-          "vraag": "Wat is 5 tot de macht 7 gedeeld door 5 tot de macht 4?",
+          "vraag": "Wat is \\(5^{7} : 5^{4}\\)?",
           "opties": [
-            "5 tot de macht 3",
-            "5 tot de macht 11",
-            "1 tot de macht 3",
-            "5 tot de macht 28"
+            "\\(5^{3}\\)",
+            "\\(5^{11}\\)",
+            "\\(1^{3}\\)",
+            "\\(5^{28}\\)"
           ],
           "antwoord": 0,
           "uitleg": "Bij hetzelfde grondtal trek je de exponenten af als je deelt."
         },
         {
           "type": "meerkeuze",
-          "vraag": "Wat is (3 tot de macht 2) tot de macht 5?",
+          "vraag": "Wat is \\(\\left(3^{2}\\right)^{5}\\)?",
           "opties": [
-            "3 tot de macht 10",
-            "3 tot de macht 7",
-            "3 tot de macht 25",
-            "9 tot de macht 5"
+            "\\(3^{10}\\)",
+            "\\(3^{7}\\)",
+            "\\(3^{25}\\)",
+            "\\(9^{5}\\)"
           ],
           "antwoord": 0,
           "uitleg": "Een macht van een macht: je vermenigvuldigt de twee exponenten."
@@ -514,39 +514,39 @@
           "type": "waarofniet",
           "vraag": "Een macht met exponent nul is altijd nul.",
           "antwoord": false,
-          "uitleg": "Een macht met exponent nul is 1, zolang het grondtal zelf niet nul is."
+          "uitleg": "Een macht met exponent nul is \\(1\\), zolang het grondtal zelf niet nul is."
         },
         {
           "type": "invultekst",
-          "vraag": "Hoeveel is 7 tot de macht 0?",
+          "vraag": "Hoeveel is \\(7^{0}\\)?",
           "antwoord": [
             "1",
             "een",
             "één"
           ],
-          "uitleg": "Elk grondtal verschillend van nul geeft met exponent nul als uitkomst 1."
+          "uitleg": "Elk grondtal verschillend van nul geeft met exponent nul als uitkomst \\(1\\)."
         },
         {
           "type": "meerkeuze",
-          "vraag": "Wat betekent 2 tot de macht -3?",
+          "vraag": "Wat betekent \\(2^{-3}\\)?",
           "opties": [
-            "1 gedeeld door 2 tot de macht 3",
-            "min 2 tot de macht 3",
-            "2 tot de macht 1/3",
-            "0"
+            "\\(1 : 2^{3}\\)",
+            "min \\(2^{3}\\)",
+            "\\(2^{\\tfrac{1}{3}}\\)",
+            "\\(0\\)"
           ],
           "antwoord": 0,
           "uitleg": "Een negatieve exponent keert de macht om: je krijgt de omgekeerde van de macht met de positieve exponent."
         },
         {
           "type": "invultekst",
-          "vraag": "Hoeveel is 2 tot de macht -3? Schrijf het als decimaal getal.",
+          "vraag": "Hoeveel is \\(2^{-3}\\)? Schrijf het als decimaal getal.",
           "antwoord": [
             "0,125",
             "0.125",
             "1/8"
           ],
-          "uitleg": "2 tot de macht 3 is 8, en 1 gedeeld door 8 is 0,125."
+          "uitleg": "\\(2^{3}\\) is \\(8\\), en \\(1 : 8\\) is \\(0{,}125\\)."
         },
         {
           "type": "waarofniet",
@@ -556,54 +556,54 @@
         },
         {
           "type": "meerkeuze",
-          "vraag": "Hoeveel is de derdemachtswortel uit -27?",
+          "vraag": "Hoeveel is \\(\\sqrt[3]{-27}\\)?",
           "opties": [
-            "-3",
-            "3",
-            "-9",
+            "\\(-3\\)",
+            "\\(3\\)",
+            "\\(-9\\)",
             "die bestaat niet"
           ],
           "antwoord": 0,
-          "uitleg": "Min 3 maal min 3 maal min 3 geeft min 27. Bij een oneven wortelexponent mag het getal onder de wortel negatief zijn."
+          "uitleg": "\\((-3) \\cdot (-3) \\cdot (-3) = -27\\). Bij een oneven wortelexponent mag het getal onder de wortel negatief zijn."
         },
         {
           "type": "invultekst",
-          "vraag": "Hoeveel is 25 tot de macht 1/2?",
+          "vraag": "Hoeveel is \\(25^{\\tfrac{1}{2}}\\)?",
           "antwoord": [
             "5",
             "vijf"
           ],
-          "uitleg": "Dat is de vierkantswortel uit 25."
+          "uitleg": "Dat is \\(\\sqrt{25}\\)."
         },
         {
           "type": "meerkeuze",
-          "vraag": "Wat is de vijfdemachtswortel uit 32?",
+          "vraag": "Wat is \\(\\sqrt[5]{32}\\)?",
           "opties": [
-            "2",
-            "5",
-            "6,4",
-            "16"
+            "\\(2\\)",
+            "\\(5\\)",
+            "\\(6{,}4\\)",
+            "\\(16\\)"
           ],
           "antwoord": 0,
-          "uitleg": "2 maal 2 maal 2 maal 2 maal 2 is 32."
+          "uitleg": "\\(2 \\cdot 2 \\cdot 2 \\cdot 2 \\cdot 2\\) is \\(32\\)."
         },
         {
           "type": "waarofniet",
-          "vraag": "16 tot de macht 1/2 en de vierkantswortel uit 16 geven hetzelfde getal.",
+          "vraag": "\\(16^{\\tfrac{1}{2}}\\) en \\(\\sqrt{16}\\) geven hetzelfde getal.",
           "antwoord": true,
-          "uitleg": "Allebei 4. Het zijn twee schrijfwijzen voor dezelfde bewerking."
+          "uitleg": "Allebei \\(4\\). Het zijn twee schrijfwijzen voor dezelfde bewerking."
         },
         {
           "type": "meerkeuze",
-          "vraag": "Een rekentoestel geeft 2,2360679… als wortel uit 5. Wat noteer je als er twee cijfers na de komma gevraagd worden?",
+          "vraag": "Een rekentoestel geeft \\(2{,}2360679\\)… als \\(\\sqrt{5}\\). Wat noteer je als er twee cijfers na de komma gevraagd worden?",
           "opties": [
-            "2,24",
-            "2,23",
-            "2,2",
-            "2,236"
+            "\\(2{,}24\\)",
+            "\\(2{,}23\\)",
+            "\\(2{,}2\\)",
+            "\\(2{,}236\\)"
           ],
           "antwoord": 0,
-          "uitleg": "Het derde cijfer na de komma is een 6, dus het tweede rondt naar boven af."
+          "uitleg": "Het derde cijfer na de komma is een \\(6\\), dus het tweede rondt naar boven af."
         },
         {
           "type": "waarofniet",
@@ -620,108 +620,108 @@
       "vragen": [
         {
           "type": "invultekst",
-          "vraag": "Hoeveel is 27 tot de macht 2/3?",
+          "vraag": "Hoeveel is \\(27^{\\tfrac{2}{3}}\\)?",
           "antwoord": [
             "9",
             "negen"
           ],
-          "uitleg": "De derdemachtswortel uit 27 is 3, en 3 in het kwadraat is 9."
+          "uitleg": "\\(\\sqrt[3]{27}\\) is \\(3\\), en \\(3^{2}\\) is \\(9\\)."
         },
         {
           "type": "invultekst",
-          "vraag": "Hoeveel is 4 tot de macht 3/2?",
+          "vraag": "Hoeveel is \\(4^{\\tfrac{3}{2}}\\)?",
           "antwoord": [
             "8",
             "acht"
           ],
-          "uitleg": "De vierkantswortel uit 4 is 2, en 2 tot de macht 3 is 8."
+          "uitleg": "\\(\\sqrt{4}\\) is \\(2\\), en \\(2^{3}\\) is \\(8\\)."
         },
         {
           "type": "meerkeuze",
-          "vraag": "Hoe schrijf je de vierkantswortel uit a tot de macht 5 als één macht van a?",
+          "vraag": "Hoe schrijf je \\(\\sqrt{a^{5}}\\) als één macht van \\(a\\)?",
           "opties": [
-            "a tot de macht 5/2",
-            "a tot de macht 2/5",
-            "a tot de macht 10",
-            "a tot de macht 7"
+            "\\(a^{\\tfrac{5}{2}}\\)",
+            "\\(a^{\\tfrac{2}{5}}\\)",
+            "\\(a^{10}\\)",
+            "\\(a^{7}\\)"
           ],
           "antwoord": 0,
           "uitleg": "De macht onder de wortel komt in de teller, de wortelexponent in de noemer."
         },
         {
           "type": "meerkeuze",
-          "vraag": "Wat is 3 tot de macht 1/2 maal 3 tot de macht 1/2?",
+          "vraag": "Wat is \\(3^{\\tfrac{1}{2}} \\cdot 3^{\\tfrac{1}{2}}\\)?",
           "opties": [
-            "3",
-            "3 tot de macht 1/4",
-            "9",
-            "6"
+            "\\(3\\)",
+            "\\(3^{\\tfrac{1}{4}}\\)",
+            "\\(9\\)",
+            "\\(6\\)"
           ],
           "antwoord": 0,
-          "uitleg": "Je telt de exponenten op: een half plus een half is één, dus je houdt 3 over."
+          "uitleg": "Je telt de exponenten op: een half plus een half is één, dus je houdt \\(3\\) over."
         },
         {
           "type": "meerkeuze",
-          "vraag": "Wat is (2 maal 5) tot de macht 3?",
+          "vraag": "Wat is \\(\\left(2 \\cdot 5\\right)^{3}\\)?",
           "opties": [
-            "2 tot de macht 3 maal 5 tot de macht 3",
-            "2 tot de macht 3 plus 5 tot de macht 3",
-            "10 tot de macht 9",
-            "2 maal 5 tot de macht 3"
+            "\\(2^{3} \\cdot 5^{3}\\)",
+            "\\(2^{3}\\) plus \\(5^{3}\\)",
+            "\\(10^{9}\\)",
+            "\\(2 \\cdot 5^{3}\\)"
           ],
           "antwoord": 0,
-          "uitleg": "Een macht van een product mag je over beide factoren verdelen. Allebei geven ze 1000."
+          "uitleg": "Een macht van een product mag je over beide factoren verdelen. Allebei geven ze \\(1000\\)."
         },
         {
           "type": "waarofniet",
           "vraag": "Een macht van een som mag je over de twee termen verdelen.",
           "antwoord": false,
-          "uitleg": "(2 + 3) in het kwadraat is 25, terwijl 4 plus 9 maar 13 geeft. Dat mag dus niet."
+          "uitleg": "\\((2 + 3)^{2} = 25\\), terwijl \\(2^{2} + 3^{2} = 4 + 9 = 13\\) geeft. Dat mag dus niet."
         },
         {
           "type": "invultekst",
-          "vraag": "Hoeveel is 100 tot de macht 1/2?",
+          "vraag": "Hoeveel is \\(100^{\\tfrac{1}{2}}\\)?",
           "antwoord": [
             "10",
             "tien"
           ],
-          "uitleg": "De vierkantswortel uit 100."
+          "uitleg": "\\(\\sqrt{100}\\)."
         },
         {
           "type": "invultekst",
-          "vraag": "Hoeveel is 81 tot de macht 1/4?",
+          "vraag": "Hoeveel is \\(81^{\\tfrac{1}{4}}\\)?",
           "antwoord": [
             "3",
             "drie"
           ],
-          "uitleg": "3 maal 3 maal 3 maal 3 is 81."
+          "uitleg": "\\(3 \\cdot 3 \\cdot 3 \\cdot 3\\) is \\(81\\)."
         },
         {
           "type": "meerkeuze",
-          "vraag": "Wat is 10 tot de macht -2?",
+          "vraag": "Wat is \\(10^{-2}\\)?",
           "opties": [
-            "0,01",
-            "0,1",
-            "-100",
-            "-0,01"
+            "\\(0{,}01\\)",
+            "\\(0{,}1\\)",
+            "\\(-100\\)",
+            "\\(-0{,}01\\)"
           ],
           "antwoord": 0,
-          "uitleg": "Dat is 1 gedeeld door 100. Een negatieve exponent maakt het getal klein, niet negatief."
+          "uitleg": "Dat is \\(1 : 100\\). Een negatieve exponent maakt het getal klein, niet negatief."
         },
         {
           "type": "waarofniet",
           "vraag": "Een negatieve exponent maakt de uitkomst negatief.",
           "antwoord": false,
-          "uitleg": "Ze maakt de uitkomst omgekeerd, dus kleiner dan 1 bij een grondtal groter dan 1. Het teken van de uitkomst verandert niet."
+          "uitleg": "Ze maakt de uitkomst omgekeerd, dus kleiner dan \\(1\\) bij een grondtal groter dan \\(1\\). Het teken van de uitkomst verandert niet."
         },
         {
           "type": "meerkeuze",
-          "vraag": "Wat is a tot de macht 1/2 gedeeld door a tot de macht 1/4?",
+          "vraag": "Wat is \\(a^{\\tfrac{1}{2}} : a^{\\tfrac{1}{4}}\\)?",
           "opties": [
-            "a tot de macht 1/4",
-            "a tot de macht 3/4",
-            "a tot de macht 2",
-            "a tot de macht 1/8"
+            "\\(a^{\\tfrac{1}{4}}\\)",
+            "\\(a^{\\tfrac{3}{4}}\\)",
+            "\\(a^{2}\\)",
+            "\\(a^{\\tfrac{1}{8}}\\)"
           ],
           "antwoord": 0,
           "uitleg": "Je trekt de exponenten af: een half min een vierde is een vierde."
@@ -734,81 +734,81 @@
         },
         {
           "type": "meerkeuze",
-          "vraag": "Tussen welke twee gehele getallen ligt de wortel uit 50?",
+          "vraag": "Tussen welke twee gehele getallen ligt \\(\\sqrt{50}\\)?",
           "opties": [
-            "tussen 7 en 8",
-            "tussen 6 en 7",
-            "tussen 8 en 9",
-            "tussen 24 en 26"
+            "tussen \\(7\\) en \\(8\\)",
+            "tussen \\(6\\) en \\(7\\)",
+            "tussen \\(8\\) en \\(9\\)",
+            "tussen \\(24\\) en \\(26\\)"
           ],
           "antwoord": 0,
-          "uitleg": "7 in het kwadraat is 49 en 8 in het kwadraat is 64, dus de wortel uit 50 ligt net boven 7."
+          "uitleg": "\\(7^{2}\\) is \\(49\\) en \\(8^{2}\\) is \\(64\\), dus \\(\\sqrt{50}\\) ligt net boven \\(7\\)."
         },
         {
           "type": "invultekst",
-          "vraag": "Tussen welke twee gehele getallen ligt de derdemachtswortel uit 100? Geef het kleinste.",
+          "vraag": "Tussen welke twee gehele getallen ligt \\(\\sqrt[3]{100}\\)? Geef het kleinste.",
           "antwoord": [
             "4",
             "vier"
           ],
-          "uitleg": "4 tot de macht 3 is 64 en 5 tot de macht 3 is 125, dus de uitkomst ligt tussen 4 en 5."
+          "uitleg": "\\(4^{3}\\) is \\(64\\) en \\(5^{3}\\) is \\(125\\), dus de uitkomst ligt tussen \\(4\\) en \\(5\\)."
         },
         {
           "type": "meerkeuze",
-          "vraag": "Een kubus heeft een inhoud van 64 kubieke centimeter. Hoe lang is een ribbe?",
+          "vraag": "Een kubus heeft een inhoud van \\(64\\) kubieke centimeter. Hoe lang is een ribbe?",
           "opties": [
-            "4 cm",
-            "8 cm",
-            "16 cm",
-            "21,3 cm"
+            "\\(4\\) cm",
+            "\\(8\\) cm",
+            "\\(16\\) cm",
+            "\\(21{,}3\\) cm"
           ],
           "antwoord": 0,
-          "uitleg": "De ribbe is de derdemachtswortel uit de inhoud, en 4 maal 4 maal 4 is 64."
+          "uitleg": "De ribbe is de derdemachtswortel uit de inhoud, en \\(4 \\cdot 4 \\cdot 4\\) is \\(64\\)."
         },
         {
           "type": "meerkeuze",
-          "vraag": "Een vierkant perk heeft een oppervlakte van 169 vierkante meter. Hoe lang is een zijde?",
+          "vraag": "Een vierkant perk heeft een oppervlakte van \\(169\\) vierkante meter. Hoe lang is een zijde?",
           "opties": [
-            "13 m",
-            "12 m",
-            "14 m",
-            "42,25 m"
+            "\\(13\\) m",
+            "\\(12\\) m",
+            "\\(14\\) m",
+            "\\(42{,}25\\) m"
           ],
           "antwoord": 0,
-          "uitleg": "De zijde is de vierkantswortel uit de oppervlakte, en 13 in het kwadraat is 169."
+          "uitleg": "De zijde is de vierkantswortel uit de oppervlakte, en \\(13^{2}\\) is \\(169\\)."
         },
         {
           "type": "waarofniet",
-          "vraag": "De wortel uit 2 is een getal dat je niet als breuk van twee gehele getallen kan schrijven.",
+          "vraag": "\\(\\sqrt{2}\\) is een getal dat je niet als breuk van twee gehele getallen kan schrijven.",
           "antwoord": true,
           "uitleg": "Het is een irrationaal getal: de decimalen stoppen niet en herhalen zich niet."
         },
         {
           "type": "invultekst",
-          "vraag": "Rond de wortel uit 10 af op één cijfer na de komma.",
+          "vraag": "Rond \\(\\sqrt{10}\\) af op één cijfer na de komma.",
           "antwoord": [
             "3,2",
             "3.2"
           ],
-          "uitleg": "De wortel uit 10 is ongeveer 3,1622, dus afgerond op één decimaal 3,2."
+          "uitleg": "\\(\\sqrt{10}\\) is ongeveer \\(3{,}1622\\), dus afgerond op één decimaal \\(3{,}2\\)."
         },
         {
           "type": "meerkeuze",
-          "vraag": "Wat is 6 tot de macht 1/2 maal 6 tot de macht 3/2?",
+          "vraag": "Wat is \\(6^{\\tfrac{1}{2}} \\cdot 6^{\\tfrac{3}{2}}\\)?",
           "opties": [
-            "36",
-            "6",
-            "216",
-            "12"
+            "\\(36\\)",
+            "\\(6\\)",
+            "\\(216\\)",
+            "\\(12\\)"
           ],
           "antwoord": 0,
-          "uitleg": "Een half plus anderhalf is twee, dus je houdt 6 in het kwadraat over."
+          "uitleg": "Een half plus anderhalf is twee, dus je houdt \\(6^{2}\\) over."
         },
         {
           "type": "waarofniet",
           "vraag": "Bij het rekenen met machten mag je de exponenten optellen, ook als de grondtallen verschillen.",
           "antwoord": false,
-          "uitleg": "Die regel geldt alleen bij hetzelfde grondtal. 2 tot de macht 3 maal 5 tot de macht 3 geef je anders weer, namelijk als 10 tot de macht 3."
+          "uitleg": "Die regel geldt alleen bij hetzelfde grondtal. \\(2^{3} \\cdot 5^{3}\\) geef je anders weer, namelijk als \\(10^{3}\\)."
         }
       ]
     },
@@ -831,58 +831,58 @@
         },
         {
           "type": "invultekst",
-          "vraag": "Hoeveel is de logaritme van 100 met grondtal 10?",
+          "vraag": "Hoeveel is \\(\\log_{10} 100\\)?",
           "antwoord": [
             "2",
             "twee"
           ],
-          "uitleg": "10 tot de macht 2 is 100, dus de exponent die je zoekt is 2."
+          "uitleg": "\\(10^{2}\\) is \\(100\\), dus de exponent die je zoekt is \\(2\\)."
         },
         {
           "type": "invultekst",
-          "vraag": "Hoeveel is de logaritme van 1000 met grondtal 10?",
+          "vraag": "Hoeveel is \\(\\log_{10} 1000\\)?",
           "antwoord": [
             "3",
             "drie"
           ],
-          "uitleg": "10 tot de macht 3 is 1000."
+          "uitleg": "\\(10^{3}\\) is \\(1000\\)."
         },
         {
           "type": "invultekst",
-          "vraag": "Hoeveel is de logaritme van 8 met grondtal 2?",
+          "vraag": "Hoeveel is \\(\\log_{2} 8\\)?",
           "antwoord": [
             "3",
             "drie"
           ],
-          "uitleg": "2 tot de macht 3 is 8."
+          "uitleg": "\\(2^{3}\\) is \\(8\\)."
         },
         {
           "type": "meerkeuze",
-          "vraag": "Hoeveel is de logaritme van 1 met grondtal 5?",
+          "vraag": "Hoeveel is \\(\\log_{5} 1\\)?",
           "opties": [
-            "0",
-            "1",
-            "5",
+            "\\(0\\)",
+            "\\(1\\)",
+            "\\(5\\)",
             "dat bestaat niet"
           ],
           "antwoord": 0,
-          "uitleg": "Elk grondtal tot de macht nul geeft 1, dus de gezochte exponent is nul."
+          "uitleg": "Elk grondtal tot de macht nul geeft \\(1\\), dus de gezochte exponent is nul."
         },
         {
           "type": "meerkeuze",
-          "vraag": "Hoeveel is de logaritme van 7 met grondtal 7?",
+          "vraag": "Hoeveel is \\(\\log_{7} 7\\)?",
           "opties": [
-            "1",
-            "0",
-            "7",
-            "49"
+            "\\(1\\)",
+            "\\(0\\)",
+            "\\(7\\)",
+            "\\(49\\)"
           ],
           "antwoord": 0,
-          "uitleg": "Je zoekt de exponent waarmee 7 zichzelf geeft, en dat is 1."
+          "uitleg": "Je zoekt de exponent waarmee \\(7\\) zichzelf geeft, en dat is \\(1\\)."
         },
         {
           "type": "waarofniet",
-          "vraag": "Schrijf je log zonder grondtal erbij, dan bedoel je de logaritme met grondtal 10.",
+          "vraag": "Schrijf je \\(\\log\\) zonder grondtal erbij, dan bedoel je grondtal \\(10\\).",
           "antwoord": true,
           "uitleg": "Dat is de afspraak. Bij een ander grondtal schrijf je dat grondtal er klein bij."
         },
@@ -896,39 +896,39 @@
           "type": "meerkeuze",
           "vraag": "Van welk getal bestaat de logaritme niet?",
           "opties": [
-            "van 0",
-            "van 1",
-            "van 0,5",
-            "van 1000000"
+            "van \\(0\\)",
+            "van \\(1\\)",
+            "van \\(0{,}5\\)",
+            "van \\(1\\,000\\,000\\)"
           ],
           "antwoord": 0,
           "uitleg": "Je kan een positief grondtal tot geen enkele macht verheffen om nul te krijgen."
         },
         {
           "type": "invultekst",
-          "vraag": "Hoeveel is de logaritme van 0,01 met grondtal 10?",
+          "vraag": "Hoeveel is \\(\\log_{10} 0{,}01\\)?",
           "antwoord": [
             "-2",
             "min 2",
             "−2"
           ],
-          "uitleg": "10 tot de macht min 2 is 1 gedeeld door 100, dus 0,01."
+          "uitleg": "\\(10\\) tot de macht min \\(2\\) is \\(1 : 100\\), dus \\(0{,}01\\)."
         },
         {
           "type": "meerkeuze",
-          "vraag": "De logaritme van 50 met grondtal 10 ligt tussen welke twee gehele getallen?",
+          "vraag": "\\(\\log_{10} 50\\) ligt tussen welke twee gehele getallen?",
           "opties": [
-            "tussen 1 en 2",
-            "tussen 0 en 1",
-            "tussen 2 en 3",
-            "tussen 4 en 5"
+            "tussen \\(1\\) en \\(2\\)",
+            "tussen \\(0\\) en \\(1\\)",
+            "tussen \\(2\\) en \\(3\\)",
+            "tussen \\(4\\) en \\(5\\)"
           ],
           "antwoord": 0,
-          "uitleg": "10 tot de macht 1 is 10 en 10 tot de macht 2 is 100, en 50 ligt daartussen."
+          "uitleg": "\\(10^{1}\\) is \\(10\\) en \\(10^{2}\\) is \\(100\\), en \\(50\\) ligt daartussen."
         },
         {
           "type": "waarofniet",
-          "vraag": "Hoe groter het getal, hoe kleiner de logaritme ervan, bij een grondtal groter dan 1.",
+          "vraag": "Hoe groter het getal, hoe kleiner de logaritme ervan, bij een grondtal groter dan \\(1\\).",
           "antwoord": false,
           "uitleg": "Net omgekeerd: om een groter getal te bereiken heb je een grotere exponent nodig."
         },
@@ -936,40 +936,40 @@
           "type": "meerkeuze",
           "vraag": "Welke vergelijking los je op met een logaritme?",
           "opties": [
-            "2 tot de macht x is 32",
-            "2x is 32",
-            "x in het kwadraat is 32",
-            "x plus 2 is 32"
+            "\\(2^{x} = 32\\)",
+            "\\(2x = 32\\)",
+            "\\(x^{2} = 32\\)",
+            "\\(x + 2 = 32\\)"
           ],
           "antwoord": 0,
           "uitleg": "De onbekende staat in de exponent. Dan haal je ze eruit met een logaritme."
         },
         {
           "type": "invultekst",
-          "vraag": "Los op: 2 tot de macht x is 32. Hoeveel is x?",
+          "vraag": "Los op: \\(2^{x}\\) is \\(32\\). Hoeveel is \\(x\\)?",
           "antwoord": [
             "5",
             "vijf"
           ],
-          "uitleg": "2 maal 2 maal 2 maal 2 maal 2 is 32, dus de logaritme van 32 met grondtal 2 is 5."
+          "uitleg": "\\(2 \\cdot 2 \\cdot 2 \\cdot 2 \\cdot 2\\) is \\(32\\), dus \\(\\log_{2} 32\\) is \\(5\\)."
         },
         {
           "type": "invultekst",
-          "vraag": "Los op: 10 tot de macht x is 10000. Hoeveel is x?",
+          "vraag": "Los op: \\(10^{x}\\) is \\(10\\,000\\). Hoeveel is \\(x\\)?",
           "antwoord": [
             "4",
             "vier"
           ],
-          "uitleg": "10000 is 10 tot de macht 4."
+          "uitleg": "\\(10\\,000\\) is \\(10^{4}\\)."
         },
         {
           "type": "meerkeuze",
-          "vraag": "Een rekentoestel geeft als logaritme van 7 met grondtal 10 de waarde 0,845098… Wat betekent dat?",
+          "vraag": "Een rekentoestel geeft als \\(\\log_{10} 7\\) de waarde \\(0{,}845098\\)… Wat betekent dat?",
           "opties": [
-            "10 tot de macht 0,845 is ongeveer 7",
-            "7 tot de macht 0,845 is ongeveer 10",
-            "7 gedeeld door 10 is 0,845",
-            "10 maal 0,845 is ongeveer 7"
+            "\\(10^{0{,}845}\\) is ongeveer \\(7\\)",
+            "\\(7^{0{,}845}\\) is ongeveer \\(10\\)",
+            "\\(7 : 10\\) is \\(0{,}845\\)",
+            "\\(10 \\cdot 0{,}845\\) is ongeveer \\(7\\)"
           ],
           "antwoord": 0,
           "uitleg": "De logaritme is de exponent. Zet je die terug op het grondtal, dan krijg je het oorspronkelijke getal."
@@ -982,33 +982,33 @@
         },
         {
           "type": "meerkeuze",
-          "vraag": "Hoeveel is de logaritme van 64 met grondtal 4?",
+          "vraag": "Hoeveel is \\(\\log_{4} 64\\)?",
           "opties": [
-            "3",
-            "4",
-            "16",
-            "2"
+            "\\(3\\)",
+            "\\(4\\)",
+            "\\(16\\)",
+            "\\(2\\)"
           ],
           "antwoord": 0,
-          "uitleg": "4 maal 4 maal 4 is 64."
+          "uitleg": "\\(4 \\cdot 4 \\cdot 4\\) is \\(64\\)."
         },
         {
           "type": "waarofniet",
-          "vraag": "De logaritme van een getal tussen 0 en 1 is negatief, bij grondtal 10.",
+          "vraag": "De logaritme van een getal tussen \\(0\\) en \\(1\\) is negatief, bij grondtal \\(10\\).",
           "antwoord": true,
-          "uitleg": "Om onder de 1 te komen heb je een negatieve exponent nodig, zoals bij 0,1 en 0,01."
+          "uitleg": "Om onder de \\(1\\) te komen heb je een negatieve exponent nodig, zoals bij \\(0{,}1\\) en \\(0{,}01\\)."
         },
         {
           "type": "meerkeuze",
-          "vraag": "Hoeveel is de logaritme van 1 miljoen met grondtal 10?",
+          "vraag": "Hoeveel is \\(\\log_{10} 1\\,000\\,000\\)?",
           "opties": [
-            "6",
-            "5",
-            "7",
-            "1000000"
+            "\\(6\\)",
+            "\\(5\\)",
+            "\\(7\\)",
+            "\\(1\\,000\\,000\\)"
           ],
           "antwoord": 0,
-          "uitleg": "Een miljoen is een 1 met zes nullen, dus 10 tot de macht 6."
+          "uitleg": "Een miljoen is een \\(1\\) met zes nullen, dus \\(10^{6}\\)."
         }
       ]
     },
@@ -1019,42 +1019,42 @@
       "vragen": [
         {
           "type": "invultekst",
-          "vraag": "Hoeveel is de logaritme van 81 met grondtal 3?",
+          "vraag": "Hoeveel is \\(\\log_{3} 81\\)?",
           "antwoord": [
             "4",
             "vier"
           ],
-          "uitleg": "3 maal 3 maal 3 maal 3 is 81."
+          "uitleg": "\\(3 \\cdot 3 \\cdot 3 \\cdot 3\\) is \\(81\\)."
         },
         {
           "type": "invultekst",
-          "vraag": "Hoeveel is de logaritme van 125 met grondtal 5?",
+          "vraag": "Hoeveel is \\(\\log_{5} 125\\)?",
           "antwoord": [
             "3",
             "drie"
           ],
-          "uitleg": "5 maal 5 maal 5 is 125."
+          "uitleg": "\\(5 \\cdot 5 \\cdot 5\\) is \\(125\\)."
         },
         {
           "type": "meerkeuze",
-          "vraag": "Hoeveel is de logaritme van 0,1 met grondtal 10?",
+          "vraag": "Hoeveel is \\(\\log_{10} 0{,}1\\)?",
           "opties": [
-            "-1",
-            "1",
-            "0",
-            "10"
+            "\\(-1\\)",
+            "\\(1\\)",
+            "\\(0\\)",
+            "\\(10\\)"
           ],
           "antwoord": 0,
-          "uitleg": "10 tot de macht min 1 is een tiende."
+          "uitleg": "\\(10\\) tot de macht min \\(1\\) is een tiende."
         },
         {
           "type": "meerkeuze",
-          "vraag": "Welke uitspraak zegt hetzelfde als: de logaritme van 16 met grondtal 2 is 4?",
+          "vraag": "Welke uitspraak zegt hetzelfde als: \\(\\log_{2} 16 = 4\\)?",
           "opties": [
-            "2 tot de macht 4 is 16",
-            "4 tot de macht 2 is 16",
-            "16 tot de macht 2 is 4",
-            "2 maal 4 is 16"
+            "\\(2^{4}\\) is \\(16\\)",
+            "\\(4^{2}\\) is \\(16\\)",
+            "\\(16^{2}\\) is \\(4\\)",
+            "\\(2 \\cdot 4\\) is \\(16\\)"
           ],
           "antwoord": 0,
           "uitleg": "Een logaritme en een macht zeggen hetzelfde, maar met een andere onbekende vooraan."
@@ -1067,13 +1067,13 @@
         },
         {
           "type": "waarofniet",
-          "vraag": "De logaritme van 100 is bij elk grondtal gelijk aan 2.",
+          "vraag": "De logaritme van \\(100\\) is bij elk grondtal gelijk aan \\(2\\).",
           "antwoord": false,
-          "uitleg": "Bij grondtal 10 is ze 2, maar bij grondtal 2 ligt ze tussen 6 en 7. Het grondtal bepaalt de uitkomst mee."
+          "uitleg": "Bij grondtal \\(10\\) is ze \\(2\\), maar bij grondtal \\(2\\) ligt ze tussen \\(6\\) en \\(7\\). Het grondtal bepaalt de uitkomst mee."
         },
         {
           "type": "meerkeuze",
-          "vraag": "Een bedrag groeit met 5 procent per jaar. Welke bewerking heb je nodig om te berekenen na hoeveel jaar het verdubbeld is?",
+          "vraag": "Een bedrag groeit met \\(5\\) procent per jaar. Welke bewerking heb je nodig om te berekenen na hoeveel jaar het verdubbeld is?",
           "opties": [
             "een logaritme",
             "een vierkantswortel",
@@ -1096,56 +1096,56 @@
           "type": "meerkeuze",
           "vraag": "Een stof vervalt en wordt elk jaar de helft kleiner. Welke waarde zoek je als je vraagt na hoeveel jaar er nog een achtste over is?",
           "opties": [
-            "3 jaar",
-            "2 jaar",
-            "4 jaar",
-            "8 jaar"
+            "\\(3\\) jaar",
+            "\\(2\\) jaar",
+            "\\(4\\) jaar",
+            "\\(8\\) jaar"
           ],
           "antwoord": 0,
           "uitleg": "Na één jaar een helft, na twee jaar een vierde, na drie jaar een achtste."
         },
         {
           "type": "waarofniet",
-          "vraag": "Je mag de logaritme van 0 berekenen als je grondtal groot genoeg is.",
+          "vraag": "Je mag de logaritme van \\(0\\) berekenen als je grondtal groot genoeg is.",
           "antwoord": false,
           "uitleg": "Het grondtal verandert daar niets aan. Geen enkele macht van een positief getal geeft nul."
         },
         {
           "type": "meerkeuze",
-          "vraag": "De logaritme van 300 met grondtal 10 is ongeveer 2,48. Tussen welke machten van 10 ligt 300 dus?",
+          "vraag": "\\(\\log_{10} 300\\) is ongeveer \\(2{,}48\\). Tussen welke machten van \\(10\\) ligt \\(300\\) dus?",
           "opties": [
-            "tussen 10 tot de macht 2 en 10 tot de macht 3",
-            "tussen 10 tot de macht 1 en 10 tot de macht 2",
-            "tussen 10 tot de macht 3 en 10 tot de macht 4",
-            "tussen 10 tot de macht 0 en 10 tot de macht 1"
+            "tussen \\(10^{2}\\) en \\(10^{3}\\)",
+            "tussen \\(10^{1}\\) en \\(10^{2}\\)",
+            "tussen \\(10^{3}\\) en \\(10^{4}\\)",
+            "tussen \\(10^{0}\\) en \\(10^{1}\\)"
           ],
           "antwoord": 0,
-          "uitleg": "De logaritme ligt tussen 2 en 3, dus het getal ligt tussen 100 en 1000."
+          "uitleg": "De logaritme ligt tussen \\(2\\) en \\(3\\), dus het getal ligt tussen \\(100\\) en \\(1000\\)."
         },
         {
           "type": "invultekst",
-          "vraag": "Hoeveel is de logaritme van 1024 met grondtal 2?",
+          "vraag": "Hoeveel is \\(\\log_{2} 1024\\)?",
           "antwoord": [
             "10",
             "tien"
           ],
-          "uitleg": "1024 is 2 tot de macht 10, een getal dat je vaak tegenkomt bij geheugen van computers."
+          "uitleg": "\\(1024\\) is \\(2^{10}\\), een getal dat je vaak tegenkomt bij geheugen van computers."
         },
         {
           "type": "meerkeuze",
-          "vraag": "De logaritme van 2 met grondtal 10 is ongeveer 0,30. Wat is dan ongeveer de logaritme van 20?",
+          "vraag": "\\(\\log_{10} 2\\) is ongeveer \\(0{,}30\\). Wat is dan ongeveer \\(\\log_{10} 20\\)?",
           "opties": [
-            "1,30",
-            "0,60",
-            "3,0",
-            "0,15"
+            "\\(1{,}30\\)",
+            "\\(0{,}60\\)",
+            "\\(3{,}0\\)",
+            "\\(0{,}15\\)"
           ],
           "antwoord": 0,
-          "uitleg": "20 is 2 maal 10, en één factor 10 erbij verhoogt de logaritme met precies 1."
+          "uitleg": "\\(20\\) is \\(2 \\cdot 10\\), en één factor \\(10\\) erbij verhoogt de logaritme met precies \\(1\\)."
         },
         {
           "type": "waarofniet",
-          "vraag": "Een getal tien keer zo groot maken verhoogt zijn logaritme met grondtal 10 met 1.",
+          "vraag": "Een getal tien keer zo groot maken verhoogt zijn logaritme met grondtal \\(10\\) met \\(1\\).",
           "antwoord": true,
           "uitleg": "Daarom lopen schalen als de decibelschaal en de schaal van Richter met logaritmen: elke stap is een factor tien."
         },
@@ -1163,7 +1163,7 @@
         },
         {
           "type": "invultekst",
-          "vraag": "Een beving van 6 op de schaal van Richter is hoeveel keer sterker dan een van 4, als elke stap een factor tien is?",
+          "vraag": "Een beving van \\(6\\) op de schaal van Richter is hoeveel keer sterker dan een van \\(4\\), als elke stap een factor tien is?",
           "antwoord": [
             "100",
             "honderd",
@@ -1173,13 +1173,13 @@
         },
         {
           "type": "waarofniet",
-          "vraag": "Een logaritme met grondtal 10 van een getal groter dan 1 is altijd positief.",
+          "vraag": "Een logaritme met grondtal \\(10\\) van een getal groter dan \\(1\\) is altijd positief.",
           "antwoord": true,
-          "uitleg": "Om boven de 1 uit te komen heb je een positieve exponent nodig."
+          "uitleg": "Om boven de \\(1\\) uit te komen heb je een positieve exponent nodig."
         },
         {
           "type": "meerkeuze",
-          "vraag": "Je rekentoestel geeft als logaritme 2,69897. Welke orde van grootte heeft het getal waarvan je de logaritme nam, bij grondtal 10?",
+          "vraag": "Je rekentoestel geeft \\(\\log_{10} x = 2{,}69897\\). Welke orde van grootte heeft \\(x\\)?",
           "opties": [
             "een paar honderd",
             "een paar duizend",
@@ -1187,25 +1187,25 @@
             "een paar miljoen"
           ],
           "antwoord": 0,
-          "uitleg": "Het gehele deel is 2, dus het getal ligt tussen 100 en 1000. Het is 500."
+          "uitleg": "Het gehele deel is \\(2\\), dus het getal ligt tussen \\(100\\) en \\(1000\\). Het is \\(500\\)."
         },
         {
           "type": "meerkeuze",
-          "vraag": "Je lost 3 tot de macht x is 20 op. Wat weet je al zonder te rekenen?",
+          "vraag": "Je lost \\(3^{x}\\) is \\(20\\) op. Wat weet je al zonder te rekenen?",
           "opties": [
-            "x ligt tussen 2 en 3",
-            "x ligt tussen 1 en 2",
-            "x ligt tussen 3 en 4",
-            "x is groter dan 20"
+            "\\(x\\) ligt tussen \\(2\\) en \\(3\\)",
+            "\\(x\\) ligt tussen \\(1\\) en \\(2\\)",
+            "\\(x\\) ligt tussen \\(3\\) en \\(4\\)",
+            "\\(x\\) is groter dan \\(20\\)"
           ],
           "antwoord": 0,
-          "uitleg": "3 in het kwadraat is 9 en 3 tot de macht 3 is 27, en 20 ligt daartussen."
+          "uitleg": "\\(3^{2}\\) is \\(9\\) en \\(3^{3}\\) is \\(27\\), en \\(20\\) ligt daartussen."
         },
         {
           "type": "waarofniet",
-          "vraag": "Je kan een logaritme met grondtal 2 niet berekenen met een toestel dat alleen grondtal 10 kent.",
+          "vraag": "Je kan een logaritme met grondtal \\(2\\) niet berekenen met een toestel dat alleen grondtal \\(10\\) kent.",
           "antwoord": false,
-          "uitleg": "Dat kan wel: je deelt de logaritme van het getal door de logaritme van 2, allebei met grondtal 10."
+          "uitleg": "Dat kan wel: \\(\\log_{2} x = \\dfrac{\\log_{10} x}{\\log_{10} 2}\\), en die twee kent je toestel."
         }
       ]
     },
@@ -1228,7 +1228,7 @@
         },
         {
           "type": "invultekst",
-          "vraag": "Hoe noem je de verzameling van alle x-waarden waarvoor een functie bestaat?",
+          "vraag": "Hoe noem je de verzameling van alle \\(x\\)-waarden waarvoor een functie bestaat?",
           "antwoord": [
             "het domein",
             "domein",
@@ -1250,9 +1250,9 @@
           "type": "meerkeuze",
           "vraag": "Wat is een nulwaarde van een functie?",
           "opties": [
-            "de x-waarde van een snijpunt met de x-as",
-            "de coördinaat van een snijpunt met de x-as",
-            "het snijpunt met de y-as",
+            "de \\(x\\)-waarde van een snijpunt met de \\(x\\)-as",
+            "de coördinaat van een snijpunt met de \\(x\\)-as",
+            "het snijpunt met de \\(y\\)-as",
             "de kleinste functiewaarde"
           ],
           "antwoord": 0,
@@ -1262,29 +1262,29 @@
           "type": "meerkeuze",
           "vraag": "Wat is een nulpunt van een functie?",
           "opties": [
-            "de coördinaat van het snijpunt met de x-as",
-            "de x-waarde waar de grafiek de x-as snijdt",
+            "de coördinaat van het snijpunt met de \\(x\\)-as",
+            "de \\(x\\)-waarde waar de grafiek de \\(x\\)-as snijdt",
             "de hoogte van de top",
             "het begin van het domein"
           ],
           "antwoord": 0,
-          "uitleg": "Het nulpunt noteer je als een koppel, bijvoorbeeld (3, 0). De nulwaarde is dan 3."
+          "uitleg": "Het nulpunt noteer je als een koppel, bijvoorbeeld (\\(3\\), \\(0\\)). De nulwaarde is dan \\(3\\)."
         },
         {
           "type": "waarofniet",
           "vraag": "Een functie kan meerdere nulwaarden hebben.",
           "antwoord": true,
-          "uitleg": "De grafiek mag de x-as zo vaak snijden als ze wil. Een parabool doet dat vaak twee keer."
+          "uitleg": "De grafiek mag de \\(x\\)-as zo vaak snijden als ze wil. Een parabool doet dat vaak twee keer."
         },
         {
           "type": "waarofniet",
-          "vraag": "Een functie kan twee snijpunten met de y-as hebben.",
+          "vraag": "Een functie kan twee snijpunten met de \\(y\\)-as hebben.",
           "antwoord": false,
-          "uitleg": "Bij één x-waarde hoort hoogstens één functiewaarde, dus de grafiek snijdt de y-as hoogstens één keer."
+          "uitleg": "Bij één \\(x\\)-waarde hoort hoogstens één functiewaarde, dus de grafiek snijdt de \\(y\\)-as hoogstens één keer."
         },
         {
           "type": "invultekst",
-          "vraag": "Hoe noem je het overzicht dat weergeeft waar een grafiek boven en waar ze onder de x-as ligt?",
+          "vraag": "Hoe noem je het overzicht dat weergeeft waar een grafiek boven en waar ze onder de \\(x\\)-as ligt?",
           "antwoord": [
             "het tekenverloop",
             "tekenverloop"
@@ -1304,7 +1304,7 @@
           "type": "meerkeuze",
           "vraag": "Wat betekent een plusteken in het tekenverloop van een functie?",
           "opties": [
-            "de grafiek ligt daar boven de x-as",
+            "de grafiek ligt daar boven de \\(x\\)-as",
             "de functie stijgt daar",
             "de functie heeft daar een maximum",
             "de functie bestaat daar niet"
@@ -1316,7 +1316,7 @@
           "type": "waarofniet",
           "vraag": "Een functie die daalt, heeft overal negatieve functiewaarden.",
           "antwoord": false,
-          "uitleg": "Dalen zegt iets over de richting, niet over het teken. Een grafiek kan van 10 naar 2 zakken en de hele tijd boven de x-as blijven."
+          "uitleg": "Dalen zegt iets over de richting, niet over het teken. Een grafiek kan van \\(10\\) naar \\(2\\) zakken en de hele tijd boven de \\(x\\)-as blijven."
         },
         {
           "type": "meerkeuze",
@@ -1344,11 +1344,11 @@
           "type": "waarofniet",
           "vraag": "Een constante functie stijgt noch daalt.",
           "antwoord": true,
-          "uitleg": "Haar grafiek is een horizontale rechte: de functiewaarde verandert niet als x verandert."
+          "uitleg": "Haar grafiek is een horizontale rechte: de functiewaarde verandert niet als \\(x\\) verandert."
         },
         {
           "type": "meerkeuze",
-          "vraag": "De grafiek van een functie is links en rechts van de y-as elkaars spiegelbeeld. Wat zeg je dan?",
+          "vraag": "De grafiek van een functie is links en rechts van de \\(y\\)-as elkaars spiegelbeeld. Wat zeg je dan?",
           "opties": [
             "de functie is symmetrisch",
             "de functie is constant",
@@ -1360,7 +1360,7 @@
         },
         {
           "type": "meerkeuze",
-          "vraag": "Een grafiek herhaalt zich elke 24 uur precies op dezelfde manier. Hoe heet die 24 uur?",
+          "vraag": "Een grafiek herhaalt zich elke \\(24\\) uur precies op dezelfde manier. Hoe heet die \\(24\\) uur?",
           "opties": [
             "de periode",
             "het bereik",
@@ -1374,7 +1374,7 @@
           "type": "waarofniet",
           "vraag": "Het praktisch domein kan kleiner zijn dan het wiskundige domein.",
           "antwoord": true,
-          "uitleg": "Wiskundig mag x negatief zijn, maar als x het aantal verkochte stuks is, begint het praktisch domein bij nul."
+          "uitleg": "Wiskundig mag \\(x\\) negatief zijn, maar als \\(x\\) het aantal verkochte stuks is, begint het praktisch domein bij nul."
         },
         {
           "type": "meerkeuze",
@@ -1396,7 +1396,7 @@
         },
         {
           "type": "meerkeuze",
-          "vraag": "De grafiek van de hartslag in functie van de tijd stijgt tussen minuut 2 en minuut 5. Wat betekent dat?",
+          "vraag": "De grafiek van de hartslag in functie van de tijd stijgt tussen minuut \\(2\\) en minuut \\(5\\). Wat betekent dat?",
           "opties": [
             "de hartslag gaat in die minuten omhoog",
             "de hartslag is in die minuten het hoogst",
@@ -1415,11 +1415,11 @@
       "vragen": [
         {
           "type": "meerkeuze",
-          "vraag": "Een grafiek ligt tussen x is 0 en x is 8 boven de x-as en daarbuiten eronder. Wat zijn de nulwaarden?",
+          "vraag": "Een grafiek ligt tussen \\(x = 0\\) en \\(x = 8\\) boven de \\(x\\)-as en daarbuiten eronder. Wat zijn de nulwaarden?",
           "opties": [
-            "0 en 8",
-            "alleen 8",
-            "alle getallen tussen 0 en 8",
+            "\\(0\\) en \\(8\\)",
+            "alleen \\(8\\)",
+            "alle getallen tussen \\(0\\) en \\(8\\)",
             "er zijn er geen"
           ],
           "antwoord": 0,
@@ -1427,37 +1427,37 @@
         },
         {
           "type": "invultekst",
-          "vraag": "Een grafiek snijdt de y-as in het punt (0, 5). Wat is de functiewaarde bij x is 0?",
+          "vraag": "Een grafiek snijdt de \\(y\\)-as in het punt (\\(0\\), \\(5\\)). Wat is de functiewaarde bij \\(x = 0\\)?",
           "antwoord": [
             "5",
             "vijf"
           ],
-          "uitleg": "Het snijpunt met de y-as geeft je meteen de functiewaarde in nul."
+          "uitleg": "Het snijpunt met de \\(y\\)-as geeft je meteen de functiewaarde in nul."
         },
         {
           "type": "waarofniet",
-          "vraag": "Een functie kan precies één snijpunt met de y-as hebben, of geen.",
+          "vraag": "Een functie kan precies één snijpunt met de \\(y\\)-as hebben, of geen.",
           "antwoord": true,
-          "uitleg": "Geen, als nul buiten het domein valt, zoals bij een functie waarin je door x deelt."
+          "uitleg": "Geen, als nul buiten het domein valt, zoals bij een functie waarin je door \\(x\\) deelt."
         },
         {
           "type": "meerkeuze",
-          "vraag": "In het verloopschema staat min op x is 3. Wat betekent dat?",
+          "vraag": "In het verloopschema staat min op \\(x = 3\\). Wat betekent dat?",
           "opties": [
             "de functie bereikt daar een minimum",
-            "de grafiek ligt daar onder de x-as",
+            "de grafiek ligt daar onder de \\(x\\)-as",
             "de functie bestaat daar niet",
             "de functie daalt daar"
           ],
           "antwoord": 0,
-          "uitleg": "Min in een verloopschema staat voor minimum. Een min in het tekenverloop betekent iets anders, namelijk onder de x-as."
+          "uitleg": "Min in een verloopschema staat voor minimum. Een min in het tekenverloop betekent iets anders, namelijk onder de \\(x\\)-as."
         },
         {
           "type": "meerkeuze",
           "vraag": "Wat betekent een verticale streep in het tekenverloop?",
           "opties": [
             "de functie is daar niet gedefinieerd",
-            "de grafiek snijdt daar de x-as",
+            "de grafiek snijdt daar de \\(x\\)-as",
             "de functie heeft daar een maximum",
             "de functie is daar constant"
           ],
@@ -1493,7 +1493,7 @@
         },
         {
           "type": "meerkeuze",
-          "vraag": "De grafiek van het aantal bezoekers per uur bereikt om 15 uur haar hoogste punt. Hoe lees je dat af?",
+          "vraag": "De grafiek van het aantal bezoekers per uur bereikt om \\(15\\) uur haar hoogste punt. Hoe lees je dat af?",
           "opties": [
             "daar ligt het maximum",
             "daar ligt een nulwaarde",
@@ -1511,24 +1511,24 @@
         },
         {
           "type": "meerkeuze",
-          "vraag": "Een grafiek loopt van x is 1 tot x is 10 en nergens anders. Wat is het domein?",
+          "vraag": "Een grafiek loopt van \\(x = 1\\) tot \\(x = 10\\) en nergens anders. Wat is het domein?",
           "opties": [
-            "alle getallen van 1 tot en met 10",
+            "alle getallen van \\(1\\) tot en met \\(10\\)",
             "alle getallen",
-            "alle getallen vanaf 1",
-            "alleen 1 en 10"
+            "alle getallen vanaf \\(1\\)",
+            "alleen \\(1\\) en \\(10\\)"
           ],
           "antwoord": 0,
           "uitleg": "Buiten dat stuk is er geen grafiek, dus daar heeft de functie geen waarde."
         },
         {
           "type": "meerkeuze",
-          "vraag": "De temperatuur in een koelkast schommelt elke twintig minuten tussen 3 en 6 graden. Wat is het bereik?",
+          "vraag": "De temperatuur in een koelkast schommelt elke twintig minuten tussen \\(3\\) en \\(6\\) graden. Wat is het bereik?",
           "opties": [
-            "van 3 tot 6 graden",
+            "van \\(3\\) tot \\(6\\) graden",
             "twintig minuten",
-            "3 graden",
-            "van 0 tot 20"
+            "\\(3\\) graden",
+            "van \\(0\\) tot \\(20\\)"
           ],
           "antwoord": 0,
           "uitleg": "Het bereik is de verzameling waarden die de functie aanneemt. Twintig minuten is de periode."
@@ -1586,25 +1586,25 @@
             "coördinaten",
             "coordinaten"
           ],
-          "uitleg": "Het eerste getal is de x-waarde, het tweede de functiewaarde."
+          "uitleg": "Het eerste getal is de \\(x\\)-waarde, het tweede de functiewaarde."
         },
         {
           "type": "meerkeuze",
-          "vraag": "Een bedrijf ziet de winstgrafiek de x-as snijden bij 400 stuks. Wat is dat punt waard voor het bedrijf?",
+          "vraag": "Een bedrijf ziet de winstgrafiek de \\(x\\)-as snijden bij \\(400\\) stuks. Wat is dat punt waard voor het bedrijf?",
           "opties": [
-            "vanaf 400 stuks begint de winst",
-            "bij 400 stuks is de winst het grootst",
-            "400 stuks is het maximum dat ze kunnen maken",
-            "de winst is altijd 400"
+            "vanaf \\(400\\) stuks begint de winst",
+            "bij \\(400\\) stuks is de winst het grootst",
+            "\\(400\\) stuks is het maximum dat ze kunnen maken",
+            "de winst is altijd \\(400\\)"
           ],
           "antwoord": 0,
-          "uitleg": "Onder de x-as is de winst negatief, dus verlies. Boven de x-as maakt het bedrijf winst."
+          "uitleg": "Onder de \\(x\\)-as is de winst negatief, dus verlies. Boven de \\(x\\)-as maakt het bedrijf winst."
         },
         {
           "type": "waarofniet",
           "vraag": "Twee functies met hetzelfde bereik kunnen een heel verschillende grafiek hebben.",
           "antwoord": true,
-          "uitleg": "Het bereik zegt alleen welke waarden voorkomen, niet in welke volgorde of bij welke x."
+          "uitleg": "Het bereik zegt alleen welke waarden voorkomen, niet in welke volgorde of bij welke \\(x\\)."
         }
       ]
     },
@@ -1623,45 +1623,45 @@
             "het aantal nulwaarden in het interval"
           ],
           "antwoord": 0,
-          "uitleg": "Je vergelijkt hoeveel de functiewaarde veranderde met hoeveel x veranderde."
+          "uitleg": "Je vergelijkt hoeveel de functiewaarde veranderde met hoeveel \\(x\\) veranderde."
         },
         {
           "type": "meerkeuze",
-          "vraag": "Hoe bereken je het differentiequotiënt van f over het interval van a tot b?",
+          "vraag": "Hoe bereken je het differentiequotiënt van \\(f\\) over het interval van \\(a\\) tot \\(b\\)?",
           "opties": [
-            "f(b) min f(a), gedeeld door b min a",
-            "f(b) min f(a), vermenigvuldigd met b min a",
-            "f(b) plus f(a), gedeeld door twee",
-            "b min a, gedeeld door f(b) min f(a)"
+            "\\(\\dfrac{f(b) - f(a)}{b - a}\\)",
+            "\\(\\bigl(f(b) - f(a)\\bigr) \\cdot (b - a)\\)",
+            "\\(\\dfrac{f(b) + f(a)}{2}\\)",
+            "\\(\\dfrac{b - a}{f(b) - f(a)}\\)"
           ],
           "antwoord": 0,
-          "uitleg": "Bovenaan het verschil in functiewaarde, onderaan het verschil in x. Altijd in die volgorde."
+          "uitleg": "Bovenaan het verschil in functiewaarde, onderaan het verschil in \\(x\\). Altijd in die volgorde."
         },
         {
           "type": "invultekst",
-          "vraag": "f(2) is 10 en f(6) is 30. Hoeveel is het differentiequotiënt over het interval van 2 tot 6?",
+          "vraag": "\\(f(2)\\) is \\(10\\) en \\(f(6)\\) is \\(30\\). Hoeveel is het differentiequotiënt over het interval van \\(2\\) tot \\(6\\)?",
           "antwoord": [
             "5",
             "vijf"
           ],
-          "uitleg": "30 min 10 is 20, gedeeld door 6 min 2 is 4. Dat geeft 5."
+          "uitleg": "\\(\\dfrac{30 - 10}{6 - 2} = \\dfrac{20}{4} = 5\\)."
         },
         {
           "type": "invultekst",
-          "vraag": "f(0) is 8 en f(4) is 0. Hoeveel is het differentiequotiënt over het interval van 0 tot 4?",
+          "vraag": "\\(f(0)\\) is \\(8\\) en \\(f(4)\\) is \\(0\\). Hoeveel is het differentiequotiënt over het interval van \\(0\\) tot \\(4\\)?",
           "antwoord": [
             "-2",
             "min 2",
             "−2"
           ],
-          "uitleg": "0 min 8 is min 8, gedeeld door 4. De functie zakt dus gemiddeld met 2 per eenheid."
+          "uitleg": "\\(\\dfrac{0 - 8}{4 - 0} = \\dfrac{-8}{4} = -2\\). De functie zakt dus gemiddeld met \\(2\\) per eenheid."
         },
         {
           "type": "meerkeuze",
           "vraag": "Wat betekent een negatief differentiequotiënt?",
           "opties": [
             "de functie daalt gemiddeld over dat interval",
-            "de grafiek ligt onder de x-as op dat stuk",
+            "de grafiek ligt onder de \\(x\\)-as op dat stuk",
             "de functie is daar nergens gedefinieerd",
             "het interval loopt van rechts naar links"
           ],
@@ -1678,7 +1678,7 @@
           "type": "waarofniet",
           "vraag": "Het differentiequotiënt vertelt je wat er op elk moment binnen het interval gebeurt.",
           "antwoord": false,
-          "uitleg": "Het is een gemiddelde over het hele interval. Een auto met een gemiddelde van 50 kilometer per uur heeft misschien stilgestaan en daarna 100 gereden."
+          "uitleg": "Het is een gemiddelde over het hele interval. Een auto met een gemiddelde van \\(50\\) kilometer per uur heeft misschien stilgestaan en daarna \\(100\\) gereden."
         },
         {
           "type": "meerkeuze",
@@ -1704,15 +1704,15 @@
         },
         {
           "type": "meerkeuze",
-          "vraag": "Een rechte gaat door (1, 2) en (5, 10). Wat is haar richtingscoëfficiënt?",
+          "vraag": "Een rechte gaat door (\\(1\\), \\(2\\)) en (\\(5\\), \\(10\\)). Wat is haar richtingscoëfficiënt?",
           "opties": [
-            "2",
-            "4",
-            "8",
-            "0,5"
+            "\\(2\\)",
+            "\\(4\\)",
+            "\\(8\\)",
+            "\\(0{,}5\\)"
           ],
           "antwoord": 0,
-          "uitleg": "10 min 2 is 8, gedeeld door 5 min 1 is 4. Dat geeft 2."
+          "uitleg": "\\(\\dfrac{10 - 2}{5 - 1} = \\dfrac{8}{4} = 2\\)."
         },
         {
           "type": "waarofniet",
@@ -1722,25 +1722,25 @@
         },
         {
           "type": "meerkeuze",
-          "vraag": "Je legt 150 kilometer af in 2 uur. Welk differentiequotiënt hoort daarbij?",
+          "vraag": "Je legt \\(150\\) kilometer af in \\(2\\) uur. Welk differentiequotiënt hoort daarbij?",
           "opties": [
-            "75 kilometer per uur",
-            "300 kilometer per uur",
-            "148 kilometer per uur",
-            "2 kilometer per uur"
+            "\\(75\\) kilometer per uur",
+            "\\(300\\) kilometer per uur",
+            "\\(148\\) kilometer per uur",
+            "\\(2\\) kilometer per uur"
           ],
           "antwoord": 0,
           "uitleg": "Het verschil in afstand gedeeld door het verschil in tijd. Dat is precies de gemiddelde snelheid."
         },
         {
           "type": "invultekst",
-          "vraag": "Een bergweg klimt 120 meter over een afstand van 2000 meter. Hoeveel procent bedraagt de gemiddelde helling?",
+          "vraag": "Een bergweg klimt \\(120\\) meter over een afstand van \\(2000\\) meter. Hoeveel procent bedraagt de gemiddelde helling?",
           "antwoord": [
             "6",
             "6 %",
             "6 procent"
           ],
-          "uitleg": "120 gedeeld door 2000 is 0,06, dus 6 procent."
+          "uitleg": "\\(120 : 2000\\) is \\(0{,}06\\), dus \\(6\\) procent."
         },
         {
           "type": "meerkeuze",
@@ -1758,11 +1758,11 @@
           "type": "waarofniet",
           "vraag": "Je kan een differentiequotiënt berekenen uit een tabel, uit een grafiek en uit een voorschrift.",
           "antwoord": true,
-          "uitleg": "Je hebt alleen twee functiewaarden en de bijbehorende x-waarden nodig, en die haal je uit elk van de drie."
+          "uitleg": "Je hebt alleen twee functiewaarden en de bijbehorende \\(x\\)-waarden nodig, en die haal je uit elk van de drie."
         },
         {
           "type": "meerkeuze",
-          "vraag": "Twee intervallen geven differentiequotiënten 3 en 7. Wat weet je?",
+          "vraag": "Twee intervallen geven differentiequotiënten \\(3\\) en \\(7\\). Wat weet je?",
           "opties": [
             "in het tweede interval groeit de functie sneller",
             "in het tweede interval ligt de grafiek hoger dan links",
@@ -1774,30 +1774,30 @@
         },
         {
           "type": "invultekst",
-          "vraag": "f(x) is 3x plus 1. Hoeveel is het differentiequotiënt over het interval van 0 tot 5?",
+          "vraag": "\\(f(x) = 3x + 1\\). Hoeveel is het differentiequotiënt over het interval van \\(0\\) tot \\(5\\)?",
           "antwoord": [
             "3",
             "drie"
           ],
-          "uitleg": "f(5) is 16 en f(0) is 1. Het verschil 15 gedeeld door 5 geeft 3, en dat is precies de richtingscoëfficiënt."
+          "uitleg": "\\(f(5)\\) is \\(16\\) en \\(f(0)\\) is \\(1\\). Het verschil \\(15 : 5\\) geeft \\(3\\), en dat is precies de richtingscoëfficiënt."
         },
         {
           "type": "waarofniet",
           "vraag": "Bij een stijgende functie is het differentiequotiënt over sommige intervallen negatief.",
           "antwoord": false,
-          "uitleg": "Stijgen betekent dat de functiewaarde groter wordt als x groter wordt, dus teller en noemer hebben overal hetzelfde teken."
+          "uitleg": "Stijgen betekent dat de functiewaarde groter wordt als \\(x\\) groter wordt, dus teller en noemer hebben overal hetzelfde teken."
         },
         {
           "type": "meerkeuze",
-          "vraag": "Een waterton loopt leeg: in 10 minuten gaat de inhoud van 80 naar 20 liter. Wat is het gemiddelde debiet?",
+          "vraag": "Een waterton loopt leeg: in \\(10\\) minuten gaat de inhoud van \\(80\\) naar \\(20\\) liter. Wat is het gemiddelde debiet?",
           "opties": [
-            "6 liter per minuut eruit",
-            "60 liter per minuut eruit",
-            "8 liter per minuut eruit",
-            "2 liter per minuut erin"
+            "\\(6\\) liter per minuut eruit",
+            "\\(60\\) liter per minuut eruit",
+            "\\(8\\) liter per minuut eruit",
+            "\\(2\\) liter per minuut erin"
           ],
           "antwoord": 0,
-          "uitleg": "20 min 80 is min 60, gedeeld door 10 is min 6. Het minteken betekent hier dat er water uit gaat."
+          "uitleg": "\\(\\dfrac{20 - 80}{10} = \\dfrac{-60}{10} = -6\\). Het minteken betekent hier dat er water uit gaat."
         },
         {
           "type": "waarofniet",
@@ -1814,16 +1814,16 @@
       "vragen": [
         {
           "type": "invultekst",
-          "vraag": "f(1) is 4 en f(3) is 16. Hoeveel is het differentiequotiënt over het interval van 1 tot 3?",
+          "vraag": "\\(f(1)\\) is \\(4\\) en \\(f(3)\\) is \\(16\\). Hoeveel is het differentiequotiënt over het interval van \\(1\\) tot \\(3\\)?",
           "antwoord": [
             "6",
             "zes"
           ],
-          "uitleg": "16 min 4 is 12, gedeeld door 3 min 1 is 2. Dat geeft 6."
+          "uitleg": "\\(\\dfrac{16 - 4}{3 - 1} = \\dfrac{12}{2} = 6\\)."
         },
         {
           "type": "invultekst",
-          "vraag": "f(5) is 20 en f(9) is 20. Hoeveel is het differentiequotiënt over het interval van 5 tot 9?",
+          "vraag": "\\(f(5)\\) is \\(20\\) en \\(f(9)\\) is \\(20\\). Hoeveel is het differentiequotiënt over het interval van \\(5\\) tot \\(9\\)?",
           "antwoord": [
             "0",
             "nul"
@@ -1832,15 +1832,15 @@
         },
         {
           "type": "meerkeuze",
-          "vraag": "Een tabel geeft: bij x is 2 hoort 7 en bij x is 10 hoort 31. Wat is het differentiequotiënt?",
+          "vraag": "Een tabel geeft: bij \\(x = 2\\) hoort \\(7\\) en bij \\(x = 10\\) hoort \\(31\\). Wat is het differentiequotiënt?",
           "opties": [
-            "3",
-            "24",
-            "8",
-            "0,33"
+            "\\(3\\)",
+            "\\(24\\)",
+            "\\(8\\)",
+            "\\(0{,}33\\)"
           ],
           "antwoord": 0,
-          "uitleg": "31 min 7 is 24, gedeeld door 10 min 2 is 8. Dat geeft 3."
+          "uitleg": "\\(\\dfrac{31 - 7}{10 - 2} = \\dfrac{24}{8} = 3\\)."
         },
         {
           "type": "waarofniet",
@@ -1862,35 +1862,35 @@
         },
         {
           "type": "meerkeuze",
-          "vraag": "Een plant groeide van 12 naar 30 centimeter in 6 weken. Hoeveel groeide ze gemiddeld per week?",
+          "vraag": "Een plant groeide van \\(12\\) naar \\(30\\) centimeter in \\(6\\) weken. Hoeveel groeide ze gemiddeld per week?",
           "opties": [
-            "3 cm",
-            "18 cm",
-            "5 cm",
-            "2 cm"
+            "\\(3\\) cm",
+            "\\(18\\) cm",
+            "\\(5\\) cm",
+            "\\(2\\) cm"
           ],
           "antwoord": 0,
-          "uitleg": "30 min 12 is 18, gedeeld door 6 weken."
+          "uitleg": "\\(\\dfrac{30 - 12}{6} = 3\\) centimeter per week."
         },
         {
           "type": "invultekst",
-          "vraag": "Een spaarrekening groeide in 4 jaar van 1000 naar 1200 euro. Hoeveel euro per jaar is dat gemiddeld?",
+          "vraag": "Een spaarrekening groeide in \\(4\\) jaar van \\(1000\\) naar \\(1200\\) euro. Hoeveel euro per jaar is dat gemiddeld?",
           "antwoord": [
             "50",
             "50 euro",
             "vijftig"
           ],
-          "uitleg": "200 euro groei gedeeld door 4 jaar."
+          "uitleg": "\\(\\dfrac{1200 - 1000}{4} = 50\\) euro per jaar."
         },
         {
           "type": "waarofniet",
-          "vraag": "Een gemiddelde snelheid van 0 betekent dat je niet bewogen hebt.",
+          "vraag": "Een gemiddelde snelheid van \\(0\\) betekent dat je niet bewogen hebt.",
           "antwoord": false,
           "uitleg": "Het betekent alleen dat je weer op je vertrekpunt staat. Je kan ondertussen een hele ronde gereden hebben."
         },
         {
           "type": "meerkeuze",
-          "vraag": "Je deelt een interval in twee helften. Het differentiequotiënt is 2 in de eerste helft en 8 in de tweede. Wat zie je in de grafiek?",
+          "vraag": "Je deelt een interval in twee helften. Het differentiequotiënt is \\(2\\) in de eerste helft en \\(8\\) in de tweede. Wat zie je in de grafiek?",
           "opties": [
             "de grafiek wordt steiler",
             "de grafiek wordt vlakker",
@@ -1898,7 +1898,7 @@
             "de grafiek is een rechte"
           ],
           "antwoord": 0,
-          "uitleg": "Een toenemende stijging: elke stap in x levert meer op dan de vorige."
+          "uitleg": "Een toenemende stijging: elke stap in \\(x\\) levert meer op dan de vorige."
         },
         {
           "type": "waarofniet",
@@ -1908,33 +1908,33 @@
         },
         {
           "type": "meerkeuze",
-          "vraag": "f(x) is 2x min 5. Hoeveel is het differentiequotiënt over eender welk interval?",
+          "vraag": "\\(f(x) = 2x - 5\\). Hoeveel is het differentiequotiënt over eender welk interval?",
           "opties": [
-            "2",
-            "-5",
-            "0",
+            "\\(2\\)",
+            "\\(-5\\)",
+            "\\(0\\)",
             "dat hangt van het interval af"
           ],
           "antwoord": 0,
-          "uitleg": "Bij een eerstegraadsfunctie is het getal voor de x de richtingscoëfficiënt, en die geldt overal."
+          "uitleg": "Bij een eerstegraadsfunctie is het getal voor de \\(x\\) de richtingscoëfficiënt, en die geldt overal."
         },
         {
           "type": "invultekst",
-          "vraag": "f(x) is x in het kwadraat. Hoeveel is het differentiequotiënt over het interval van 1 tot 3?",
+          "vraag": "\\(f(x)\\) is \\(x\\) in het kwadraat. Hoeveel is het differentiequotiënt over het interval van \\(1\\) tot \\(3\\)?",
           "antwoord": [
             "4",
             "vier"
           ],
-          "uitleg": "f(3) is 9 en f(1) is 1. Het verschil 8 gedeeld door 2 geeft 4."
+          "uitleg": "\\(f(3)\\) is \\(9\\) en \\(f(1)\\) is \\(1\\). Het verschil \\(8 : 2\\) geeft \\(4\\)."
         },
         {
           "type": "invultekst",
-          "vraag": "f(x) is x in het kwadraat. Hoeveel is het differentiequotiënt over het interval van 3 tot 5?",
+          "vraag": "\\(f(x)\\) is \\(x\\) in het kwadraat. Hoeveel is het differentiequotiënt over het interval van \\(3\\) tot \\(5\\)?",
           "antwoord": [
             "8",
             "acht"
           ],
-          "uitleg": "f(5) is 25 en f(3) is 9. Het verschil 16 gedeeld door 2 geeft 8. Verderop groeit dezelfde functie dus sneller."
+          "uitleg": "\\(f(5)\\) is \\(25\\) en \\(f(3)\\) is \\(9\\). Het verschil \\(16 : 2\\) geeft \\(8\\). Verderop groeit dezelfde functie dus sneller."
         },
         {
           "type": "waarofniet",
@@ -1944,15 +1944,15 @@
         },
         {
           "type": "meerkeuze",
-          "vraag": "Een bedrijf telde 500 klanten in januari en 2000 in mei. Hoeveel klanten kwamen er gemiddeld per maand bij?",
+          "vraag": "Een bedrijf telde \\(500\\) klanten in januari en \\(2000\\) in mei. Hoeveel klanten kwamen er gemiddeld per maand bij?",
           "opties": [
-            "375",
-            "300",
-            "1500",
-            "500"
+            "\\(375\\)",
+            "\\(300\\)",
+            "\\(1500\\)",
+            "\\(500\\)"
           ],
           "antwoord": 0,
-          "uitleg": "1500 klanten erbij over 4 maanden, van januari tot mei."
+          "uitleg": "\\(1500\\) klanten erbij over \\(4\\) maanden, van januari tot mei."
         },
         {
           "type": "meerkeuze",
@@ -1974,29 +1974,29 @@
         },
         {
           "type": "meerkeuze",
-          "vraag": "Een grafiek van de temperatuur daalt van 20 naar 5 graden tussen 18 uur en 23 uur. Hoeveel is het differentiequotiënt?",
+          "vraag": "Een grafiek van de temperatuur daalt van \\(20\\) naar \\(5\\) graden tussen \\(18\\) uur en \\(23\\) uur. Hoeveel is het differentiequotiënt?",
           "opties": [
-            "-3 graden per uur",
-            "3 graden per uur",
-            "-15 graden per uur",
-            "-5 graden per uur"
+            "\\(-3\\) graden per uur",
+            "\\(3\\) graden per uur",
+            "\\(-15\\) graden per uur",
+            "\\(-5\\) graden per uur"
           ],
           "antwoord": 0,
-          "uitleg": "5 min 20 is min 15, gedeeld door 5 uur. Het minteken hoort erbij, want de temperatuur zakt."
+          "uitleg": "\\(\\dfrac{5 - 20}{5} = -3\\) graden per uur. Het minteken hoort erbij, want de temperatuur zakt."
         },
         {
           "type": "invultekst",
-          "vraag": "Een tank verliest gemiddeld 4 liter per minuut en bevat nu 100 liter. Hoeveel liter zit er na 15 minuten in?",
+          "vraag": "Een tank verliest gemiddeld \\(4\\) liter per minuut en bevat nu \\(100\\) liter. Hoeveel liter zit er na \\(15\\) minuten in?",
           "antwoord": [
             "40",
             "40 liter",
             "veertig"
           ],
-          "uitleg": "4 maal 15 is 60 liter weg, dus 100 min 60."
+          "uitleg": "\\(4 \\cdot 15\\) is \\(60\\) liter weg, dus \\(100\\) min \\(60\\)."
         },
         {
           "type": "waarofniet",
-          "vraag": "De eenheid van een differentiequotiënt is de eenheid van de functiewaarde per eenheid van x.",
+          "vraag": "De eenheid van een differentiequotiënt is de eenheid van de functiewaarde per eenheid van \\(x\\).",
           "antwoord": true,
           "uitleg": "Zo krijg je euro per jaar, graden per uur of liter per minuut. Dat maakt je antwoord meteen leesbaar."
         }
@@ -2011,55 +2011,55 @@
           "type": "meerkeuze",
           "vraag": "Welk voorschrift hoort bij een exponentiële functie?",
           "opties": [
-            "f(x) is b maal a tot de macht x",
-            "f(x) is a maal x plus b",
-            "f(x) is x tot de macht a",
-            "f(x) is a gedeeld door x"
+            "\\(f(x) = b \\cdot a^{x}\\)",
+            "\\(f(x) = a \\cdot x + b\\)",
+            "\\(f(x) = x^{a}\\)",
+            "\\(f(x) = \\dfrac{a}{x}\\)"
           ],
           "antwoord": 0,
-          "uitleg": "Het kenmerk is dat de x in de exponent staat. Staat x in het grondtal, dan is het een machtsfunctie."
+          "uitleg": "Het kenmerk is dat de \\(x\\) in de exponent staat. Staat \\(x\\) in het grondtal, dan is het een machtsfunctie."
         },
         {
           "type": "invultekst",
-          "vraag": "In f(x) is b maal a tot de macht x: hoe noem je het getal a?",
+          "vraag": "In \\(f(x) = b \\cdot a^{x}\\): hoe noem je het getal \\(a\\)?",
           "antwoord": [
             "de groeifactor",
             "groeifactor",
             "het grondtal"
           ],
-          "uitleg": "De groeifactor zegt met hoeveel je vermenigvuldigt bij elke stap van één in x."
+          "uitleg": "De groeifactor zegt met hoeveel je vermenigvuldigt bij elke stap van één in \\(x\\)."
         },
         {
           "type": "invultekst",
-          "vraag": "In f(x) is b maal a tot de macht x: hoe noem je het getal b?",
+          "vraag": "In \\(f(x) = b \\cdot a^{x}\\): hoe noem je het getal \\(b\\)?",
           "antwoord": [
             "de beginwaarde",
             "beginwaarde",
             "startwaarde"
           ],
-          "uitleg": "Dat is de functiewaarde bij x is 0, want a tot de macht 0 is 1."
+          "uitleg": "Dat is de functiewaarde bij \\(x = 0\\), want \\(a^{0}\\) is \\(1\\)."
         },
         {
           "type": "meerkeuze",
-          "vraag": "Bij f(x) is 200 maal 1,05 tot de macht x: wat is de functiewaarde bij x is 0?",
+          "vraag": "Bij \\(f(x) = 200 \\cdot 1{,}05^{x}\\): wat is de functiewaarde bij \\(x = 0\\)?",
           "opties": [
-            "200",
-            "1,05",
-            "205",
-            "0"
+            "\\(200\\)",
+            "\\(1{,}05\\)",
+            "\\(205\\)",
+            "\\(0\\)"
           ],
           "antwoord": 0,
-          "uitleg": "Elk getal tot de macht nul is 1, dus je houdt de beginwaarde over."
+          "uitleg": "Elk getal tot de macht nul is \\(1\\), dus je houdt de beginwaarde over."
         },
         {
           "type": "waarofniet",
-          "vraag": "Bij een groeifactor groter dan 1 stijgt de exponentiële functie.",
+          "vraag": "Bij een groeifactor groter dan \\(1\\) stijgt de exponentiële functie.",
           "antwoord": true,
           "uitleg": "Elke stap vermenigvuldigt met meer dan één, dus de waarde wordt telkens groter."
         },
         {
           "type": "waarofniet",
-          "vraag": "Bij een groeifactor tussen 0 en 1 stijgt de exponentiële functie.",
+          "vraag": "Bij een groeifactor tussen \\(0\\) en \\(1\\) stijgt de exponentiële functie.",
           "antwoord": false,
           "uitleg": "Dan daalt ze: elke stap vermenigvuldigt met minder dan één, dus de waarde krimpt."
         },
@@ -2067,17 +2067,17 @@
           "type": "meerkeuze",
           "vraag": "Welke groeifactor hoort bij een dalende exponentiële functie?",
           "opties": [
-            "0,8",
-            "1,2",
-            "2",
-            "1"
+            "\\(0{,}8\\)",
+            "\\(1{,}2\\)",
+            "\\(2\\)",
+            "\\(1\\)"
           ],
           "antwoord": 0,
-          "uitleg": "Alles tussen 0 en 1 laat de waarde krimpen. Bij precies 1 blijft ze gelijk."
+          "uitleg": "Alles tussen \\(0\\) en \\(1\\) laat de waarde krimpen. Bij precies \\(1\\) blijft ze gelijk."
         },
         {
           "type": "meerkeuze",
-          "vraag": "Waarom mag de groeifactor niet gelijk zijn aan 1?",
+          "vraag": "Waarom mag de groeifactor niet gelijk zijn aan \\(1\\)?",
           "opties": [
             "dan blijft de functie constant",
             "dan wordt de functie negatief",
@@ -2085,7 +2085,7 @@
             "dan is de beginwaarde nul"
           ],
           "antwoord": 0,
-          "uitleg": "Met groeifactor 1 verandert er niets meer, en dan heb je geen exponentiële functie maar een rechte."
+          "uitleg": "Met groeifactor \\(1\\) verandert er niets meer, en dan heb je geen exponentiële functie maar een rechte."
         },
         {
           "type": "waarofniet",
@@ -2095,45 +2095,45 @@
         },
         {
           "type": "invultekst",
-          "vraag": "f(x) is 3 maal 2 tot de macht x. Hoeveel is f(3)?",
+          "vraag": "\\(f(x) = 3 \\cdot 2^{x}\\). Hoeveel is \\(f(3)\\)?",
           "antwoord": [
             "24",
             "vierentwintig"
           ],
-          "uitleg": "2 tot de macht 3 is 8, en 3 maal 8 is 24."
+          "uitleg": "\\(2^{3}\\) is \\(8\\), en \\(3 \\cdot 8\\) is \\(24\\)."
         },
         {
           "type": "invultekst",
-          "vraag": "f(x) is 5 maal 2 tot de macht x. Hoeveel is f(0)?",
+          "vraag": "\\(f(x) = 5 \\cdot 2^{x}\\). Hoeveel is \\(f(0)\\)?",
           "antwoord": [
             "5",
             "vijf"
           ],
-          "uitleg": "Bij x is 0 houd je altijd de beginwaarde over."
+          "uitleg": "Bij \\(x = 0\\) houd je altijd de beginwaarde over."
         },
         {
           "type": "meerkeuze",
-          "vraag": "Een exponentiële functie met groeifactor 3 en beginwaarde 2. Welke rij hoort erbij?",
+          "vraag": "Een exponentiële functie met groeifactor \\(3\\) en beginwaarde \\(2\\). Welke rij hoort erbij?",
           "opties": [
-            "2, 6, 18, 54",
-            "2, 5, 8, 11",
-            "3, 6, 9, 12",
-            "2, 4, 6, 8"
+            "\\(2\\), \\(6\\), \\(18\\), \\(54\\)",
+            "\\(2\\), \\(5\\), \\(8\\), \\(11\\)",
+            "\\(3\\), \\(6\\), \\(9\\), \\(12\\)",
+            "\\(2\\), \\(4\\), \\(6\\), \\(8\\)"
           ],
           "antwoord": 0,
-          "uitleg": "Elke stap vermenigvuldig je met 3. De tweede rij telt telkens op en is dus lineair."
+          "uitleg": "Elke stap vermenigvuldig je met \\(3\\). De tweede rij telt telkens op en is dus lineair."
         },
         {
           "type": "meerkeuze",
           "vraag": "Welke rij groeit lineair en niet exponentieel?",
           "opties": [
-            "4, 9, 14, 19",
-            "4, 8, 16, 32",
-            "4, 12, 36, 108",
-            "4, 2, 1, 0,5"
+            "\\(4\\), \\(9\\), \\(14\\), \\(19\\)",
+            "\\(4\\), \\(8\\), \\(16\\), \\(32\\)",
+            "\\(4\\), \\(12\\), \\(36\\), \\(108\\)",
+            "\\(4\\), \\(2\\), \\(1\\), \\(0{,}5\\)"
           ],
           "antwoord": 0,
-          "uitleg": "Daar komt telkens 5 bij. Bij exponentiële groei vermenigvuldig je telkens met hetzelfde getal."
+          "uitleg": "Daar komt telkens \\(5\\) bij. Bij exponentiële groei vermenigvuldig je telkens met hetzelfde getal."
         },
         {
           "type": "waarofniet",
@@ -2143,7 +2143,7 @@
         },
         {
           "type": "meerkeuze",
-          "vraag": "Wat gebeurt er met een dalende exponentiële functie als x heel groot wordt?",
+          "vraag": "Wat gebeurt er met een dalende exponentiële functie als \\(x\\) heel groot wordt?",
           "opties": [
             "ze kruipt naar nul toe zonder die te bereiken",
             "ze wordt negatief",
@@ -2155,13 +2155,13 @@
         },
         {
           "type": "waarofniet",
-          "vraag": "De grafiek van een exponentiële functie met positieve beginwaarde zakt na een tijd onder de x-as.",
+          "vraag": "De grafiek van een exponentiële functie met positieve beginwaarde zakt na een tijd onder de \\(x\\)-as.",
           "antwoord": false,
-          "uitleg": "Een positief getal maal een positieve macht blijft positief, hoe ver je ook gaat. De grafiek blijft dus helemaal boven de x-as."
+          "uitleg": "Een positief getal maal een positieve macht blijft positief, hoe ver je ook gaat. De grafiek blijft dus helemaal boven de \\(x\\)-as."
         },
         {
           "type": "meerkeuze",
-          "vraag": "Twee exponentiële functies hebben dezelfde groeifactor, maar de ene heeft beginwaarde 10 en de andere 100. Wat is het verschil in hun grafiek?",
+          "vraag": "Twee exponentiële functies hebben dezelfde groeifactor, maar de ene heeft beginwaarde \\(10\\) en de andere \\(100\\). Wat is het verschil in hun grafiek?",
           "opties": [
             "de tweede ligt tien keer hoger",
             "de tweede stijgt sneller per stap in procent",
@@ -2173,24 +2173,24 @@
         },
         {
           "type": "meerkeuze",
-          "vraag": "Twee exponentiële functies hebben dezelfde beginwaarde, maar groeifactor 1,1 en 1,5. Welke stijgt het snelst?",
+          "vraag": "Twee exponentiële functies hebben dezelfde beginwaarde, maar groeifactor \\(1{,}1\\) en \\(1{,}5\\). Welke stijgt het snelst?",
           "opties": [
-            "die met groeifactor 1,5",
-            "die met groeifactor 1,1",
+            "die met groeifactor \\(1{,}5\\)",
+            "die met groeifactor \\(1{,}1\\)",
             "ze stijgen even snel",
-            "dat hangt van x af"
+            "dat hangt van \\(x\\) af"
           ],
           "antwoord": 0,
           "uitleg": "Een grotere groeifactor betekent elke stap een grotere vermenigvuldiging."
         },
         {
           "type": "invultekst",
-          "vraag": "f(x) is 100 maal 0,5 tot de macht x. Hoeveel is f(2)?",
+          "vraag": "\\(f(x) = 100 \\cdot 0{,}5^{x}\\). Hoeveel is \\(f(2)\\)?",
           "antwoord": [
             "25",
             "vijfentwintig"
           ],
-          "uitleg": "Na één stap 50, na twee stappen 25. Telkens de helft."
+          "uitleg": "Na één stap \\(50\\), na twee stappen \\(25\\). Telkens de helft."
         },
         {
           "type": "waarofniet",
@@ -2207,16 +2207,16 @@
       "vragen": [
         {
           "type": "invultekst",
-          "vraag": "f(x) is 2 maal 3 tot de macht x. Hoeveel is f(2)?",
+          "vraag": "\\(f(x) = 2 \\cdot 3^{x}\\). Hoeveel is \\(f(2)\\)?",
           "antwoord": [
             "18",
             "achttien"
           ],
-          "uitleg": "3 in het kwadraat is 9, en 2 maal 9 is 18."
+          "uitleg": "\\(3^{2}\\) is \\(9\\), en \\(2 \\cdot 9\\) is \\(18\\)."
         },
         {
           "type": "invultekst",
-          "vraag": "Een rij gaat 7, 14, 28, 56. Wat is de groeifactor?",
+          "vraag": "Een rij gaat \\(7\\), \\(14\\), \\(28\\), \\(56\\). Wat is de groeifactor?",
           "antwoord": [
             "2",
             "twee"
@@ -2225,29 +2225,29 @@
         },
         {
           "type": "invultekst",
-          "vraag": "Een rij gaat 80, 40, 20, 10. Wat is de groeifactor?",
+          "vraag": "Een rij gaat \\(80\\), \\(40\\), \\(20\\), \\(10\\). Wat is de groeifactor?",
           "antwoord": [
             "0,5",
             "0.5",
             "1/2"
           ],
-          "uitleg": "Elke stap halveert. Een factor tussen 0 en 1 betekent afname."
+          "uitleg": "Elke stap halveert. Een factor tussen \\(0\\) en \\(1\\) betekent afname."
         },
         {
           "type": "meerkeuze",
-          "vraag": "Een tabel geeft bij x is 0 de waarde 6 en bij x is 1 de waarde 18. Welk voorschrift hoort erbij?",
+          "vraag": "Een tabel geeft bij \\(x = 0\\) de waarde \\(6\\) en bij \\(x = 1\\) de waarde \\(18\\). Welk voorschrift hoort erbij?",
           "opties": [
-            "f(x) is 6 maal 3 tot de macht x",
-            "f(x) is 3 maal 6 tot de macht x",
-            "f(x) is 6x plus 3",
-            "f(x) is 18 maal 3 tot de macht x"
+            "\\(f(x) = 6 \\cdot 3^{x}\\)",
+            "\\(f(x) = 3 \\cdot 6^{x}\\)",
+            "\\(f(x) = 6x + 3\\)",
+            "\\(f(x) = 18 \\cdot 3^{x}\\)"
           ],
           "antwoord": 0,
-          "uitleg": "De waarde bij nul is de beginwaarde; 18 gedeeld door 6 geeft de groeifactor 3."
+          "uitleg": "De waarde bij nul is de beginwaarde; \\(18 : 6\\) geeft de groeifactor \\(3\\)."
         },
         {
           "type": "waarofniet",
-          "vraag": "Bij een exponentiële functie hoort bij elke stap van één in x dezelfde vermenigvuldiging.",
+          "vraag": "Bij een exponentiële functie hoort bij elke stap van één in \\(x\\) dezelfde vermenigvuldiging.",
           "antwoord": true,
           "uitleg": "Dat is precies het verschil met lineaire groei, waar bij elke stap hetzelfde getal bíj komt."
         },
@@ -2256,27 +2256,27 @@
           "vraag": "Welke situatie past het best bij een exponentieel model?",
           "opties": [
             "een bacteriekolonie die elk uur verdubbelt",
-            "een loon dat elk jaar 50 euro stijgt",
+            "een loon dat elk jaar \\(50\\) euro stijgt",
             "een taxi met een vast starttarief per kilometer",
-            "een looppiste van 400 meter"
+            "een looppiste van \\(400\\) meter"
           ],
           "antwoord": 0,
           "uitleg": "Verdubbelen is vermenigvuldigen. Een vast bedrag erbij is lineair."
         },
         {
           "type": "waarofniet",
-          "vraag": "De grafiek van een exponentiële functie snijdt de x-as.",
+          "vraag": "De grafiek van een exponentiële functie snijdt de \\(x\\)-as.",
           "antwoord": false,
           "uitleg": "Ze komt er willekeurig dicht bij, maar raakt ze nooit. Er is dus geen nulwaarde."
         },
         {
           "type": "meerkeuze",
-          "vraag": "Wat is het bereik van f(x) is 4 maal 2 tot de macht x?",
+          "vraag": "Wat is het bereik van \\(f(x) = 4 \\cdot 2^{x}\\)?",
           "opties": [
             "alle positieve getallen",
             "alle getallen",
-            "alle getallen vanaf 4",
-            "alleen de machten van 2"
+            "alle getallen vanaf \\(4\\)",
+            "alleen de machten van \\(2\\)"
           ],
           "antwoord": 0,
           "uitleg": "De functie wordt zo klein als je wil, maar blijft positief, en ze groeit zonder bovengrens."
@@ -2295,19 +2295,19 @@
         },
         {
           "type": "invultekst",
-          "vraag": "f(x) is 2 tot de macht x. Hoeveel is f(-2)?",
+          "vraag": "\\(f(x) = 2^{x}\\). Hoeveel is \\(f(-2)\\)?",
           "antwoord": [
             "0,25",
             "0.25",
             "1/4"
           ],
-          "uitleg": "Een negatieve exponent keert de macht om: 1 gedeeld door 4."
+          "uitleg": "Een negatieve exponent keert de macht om: \\(1 : 4\\)."
         },
         {
           "type": "waarofniet",
-          "vraag": "Een exponentiële functie met groeifactor kleiner dan 1 heeft een afnemende daling.",
+          "vraag": "Een exponentiële functie met groeifactor kleiner dan \\(1\\) heeft een afnemende daling.",
           "antwoord": true,
-          "uitleg": "Ze zakt snel in het begin en daarna steeds trager, tot ze bijna vlak langs de x-as loopt."
+          "uitleg": "Ze zakt snel in het begin en daarna steeds trager, tot ze bijna vlak langs de \\(x\\)-as loopt."
         },
         {
           "type": "meerkeuze",
@@ -2323,25 +2323,25 @@
         },
         {
           "type": "meerkeuze",
-          "vraag": "Een grafiek gaat door (0, 50) en (1, 45). Wat is de groeifactor?",
+          "vraag": "Een grafiek gaat door (\\(0\\), \\(50\\)) en (\\(1\\), \\(45\\)). Wat is de groeifactor?",
           "opties": [
-            "0,9",
-            "1,1",
-            "5",
-            "-5"
+            "\\(0{,}9\\)",
+            "\\(1{,}1\\)",
+            "\\(5\\)",
+            "\\(-5\\)"
           ],
           "antwoord": 0,
-          "uitleg": "45 gedeeld door 50 is 0,9. Er gaat dus elke stap tien procent af."
+          "uitleg": "\\(45 : 50\\) is \\(0{,}9\\). Er gaat dus elke stap tien procent af."
         },
         {
           "type": "invultekst",
-          "vraag": "Een aantal wordt elke stap met 1,5 vermenigvuldigd. Hoeveel procent komt er per stap bij?",
+          "vraag": "Een aantal wordt elke stap met \\(1{,}5\\) vermenigvuldigd. Hoeveel procent komt er per stap bij?",
           "antwoord": [
             "50",
             "50 %",
             "50 procent"
           ],
-          "uitleg": "Een groeifactor van 1,5 betekent de helft erbij."
+          "uitleg": "Een groeifactor van \\(1{,}5\\) betekent de helft erbij."
         },
         {
           "type": "waarofniet",
@@ -2351,15 +2351,15 @@
         },
         {
           "type": "meerkeuze",
-          "vraag": "Een rij is 100, 110, 121, 133,1. Welke soort groei is dat?",
+          "vraag": "Een rij is \\(100\\), \\(110\\), \\(121\\), \\(133{,}1\\). Welke soort groei is dat?",
           "opties": [
-            "exponentieel met factor 1,1",
-            "lineair met 10 erbij",
-            "exponentieel met factor 10",
+            "exponentieel met factor \\(1{,}1\\)",
+            "lineair met \\(10\\) erbij",
+            "exponentieel met factor \\(10\\)",
             "geen van beide"
           ],
           "antwoord": 0,
-          "uitleg": "Elke stap is maal 1,1. De getallen die erbij komen groeien mee, en dat is typisch exponentieel."
+          "uitleg": "Elke stap is maal \\(1{,}1\\). De getallen die erbij komen groeien mee, en dat is typisch exponentieel."
         },
         {
           "type": "meerkeuze",
@@ -2430,50 +2430,50 @@
         },
         {
           "type": "invultekst",
-          "vraag": "Een bedrag groeit met 7 procent per jaar. Wat is de groeifactor per jaar?",
+          "vraag": "Een bedrag groeit met \\(7\\) procent per jaar. Wat is de groeifactor per jaar?",
           "antwoord": [
             "1,07",
             "1.07"
           ],
-          "uitleg": "Bij toename is de groeifactor 1 plus het percentage gedeeld door honderd."
+          "uitleg": "Bij toename is de groeifactor \\(1 + \\dfrac{p}{100}\\), hier \\(1 + \\dfrac{7}{100} = 1{,}07\\)."
         },
         {
           "type": "invultekst",
-          "vraag": "Een bedrag daalt met 20 procent per jaar. Wat is de groeifactor per jaar?",
+          "vraag": "Een bedrag daalt met \\(20\\) procent per jaar. Wat is de groeifactor per jaar?",
           "antwoord": [
             "0,8",
             "0.8",
             "0,80"
           ],
-          "uitleg": "Bij afname is de groeifactor 1 min het percentage gedeeld door honderd."
+          "uitleg": "Bij afname is de groeifactor \\(1 - \\dfrac{p}{100}\\), hier \\(1 - \\dfrac{20}{100} = 0{,}8\\)."
         },
         {
           "type": "meerkeuze",
-          "vraag": "De groeifactor is 1,25. Hoeveel procent komt er per tijdseenheid bij?",
+          "vraag": "De groeifactor is \\(1{,}25\\). Hoeveel procent komt er per tijdseenheid bij?",
           "opties": [
-            "25 procent",
-            "1,25 procent",
-            "125 procent",
-            "75 procent"
+            "\\(25\\) procent",
+            "\\(1{,}25\\) procent",
+            "\\(125\\) procent",
+            "\\(75\\) procent"
           ],
           "antwoord": 0,
-          "uitleg": "Je trekt 1 af en vermenigvuldigt met honderd."
+          "uitleg": "Je trekt \\(1\\) af en vermenigvuldigt met honderd."
         },
         {
           "type": "meerkeuze",
-          "vraag": "De groeifactor is 0,95. Wat gebeurt er per tijdseenheid?",
+          "vraag": "De groeifactor is \\(0{,}95\\). Wat gebeurt er per tijdseenheid?",
           "opties": [
-            "er gaat 5 procent af",
-            "er komt 5 procent bij",
-            "er gaat 95 procent af",
+            "er gaat \\(5\\) procent af",
+            "er komt \\(5\\) procent bij",
+            "er gaat \\(95\\) procent af",
             "er verandert niets"
           ],
           "antwoord": 0,
-          "uitleg": "Een factor onder de 1 betekent afname, en 1 min 0,95 is 0,05, dus vijf procent."
+          "uitleg": "Een factor onder de \\(1\\) betekent afname, en \\(1\\) min \\(0{,}95\\) is \\(0{,}05\\), dus vijf procent."
         },
         {
           "type": "waarofniet",
-          "vraag": "Een groeifactor van 2 betekent dat er honderd procent bijkomt.",
+          "vraag": "Een groeifactor van \\(2\\) betekent dat er honderd procent bijkomt.",
           "antwoord": true,
           "uitleg": "Verdubbelen is hetzelfde als er evenveel bij doen als er al was."
         },
@@ -2481,17 +2481,17 @@
           "type": "waarofniet",
           "vraag": "Twee keer tien procent erbij is samen twintig procent erbij.",
           "antwoord": false,
-          "uitleg": "1,1 maal 1,1 is 1,21, dus eenentwintig procent. De tweede keer reken je op een groter bedrag."
+          "uitleg": "\\(1{,}1 \\cdot 1{,}1\\) is \\(1{,}21\\), dus eenentwintig procent. De tweede keer reken je op een groter bedrag."
         },
         {
           "type": "invultekst",
-          "vraag": "Je zet 1000 euro aan 10 procent per jaar. Hoeveel staat er na 2 jaar?",
+          "vraag": "Je zet \\(1000\\) euro aan \\(10\\) procent per jaar. Hoeveel staat er na \\(2\\) jaar?",
           "antwoord": [
             "1210",
             "1210 euro",
             "1 210"
           ],
-          "uitleg": "1000 maal 1,1 maal 1,1. Het tweede jaar krijg je ook intrest op de intrest van het eerste jaar."
+          "uitleg": "\\(1000 \\cdot 1{,}1 \\cdot 1{,}1 = 1210\\). Het tweede jaar krijg je ook intrest op de intrest van het eerste jaar."
         },
         {
           "type": "invultekst",
@@ -2525,7 +2525,7 @@
         },
         {
           "type": "meerkeuze",
-          "vraag": "Een stof heeft een halveringstijd van 5 jaar. Hoeveel is er na 15 jaar over?",
+          "vraag": "Een stof heeft een halveringstijd van \\(5\\) jaar. Hoeveel is er na \\(15\\) jaar over?",
           "opties": [
             "een achtste",
             "een derde",
@@ -2539,19 +2539,19 @@
           "type": "waarofniet",
           "vraag": "Bij exponentiële afname bereikt de hoeveelheid ooit precies nul.",
           "antwoord": false,
-          "uitleg": "Je blijft met een factor onder de 1 vermenigvuldigen, dus je komt er steeds dichter bij zonder er te komen."
+          "uitleg": "Je blijft met een factor onder de \\(1\\) vermenigvuldigen, dus je komt er steeds dichter bij zonder er te komen."
         },
         {
           "type": "meerkeuze",
-          "vraag": "Een populatie verdubbelt elke 3 jaar. Hoeveel keer zo groot is ze na 9 jaar?",
+          "vraag": "Een populatie verdubbelt elke \\(3\\) jaar. Hoeveel keer zo groot is ze na \\(9\\) jaar?",
           "opties": [
-            "8 keer",
-            "6 keer",
-            "3 keer",
-            "9 keer"
+            "\\(8\\) keer",
+            "\\(6\\) keer",
+            "\\(3\\) keer",
+            "\\(9\\) keer"
           ],
           "antwoord": 0,
-          "uitleg": "Drie verdubbelingen: maal 2, maal 2, maal 2."
+          "uitleg": "Drie verdubbelingen: \\(2 \\cdot 2 \\cdot 2 = 8\\)."
         },
         {
           "type": "waarofniet",
@@ -2561,11 +2561,11 @@
         },
         {
           "type": "meerkeuze",
-          "vraag": "Een abonnement kost 15 euro per maand plus 25 euro aansluiting. Welk model past?",
+          "vraag": "Een abonnement kost \\(15\\) euro per maand plus \\(25\\) euro aansluiting. Welk model past?",
           "opties": [
-            "een lineair model met beginwaarde 25",
-            "een exponentieel model met groeifactor 15",
-            "een exponentieel model met beginwaarde 25",
+            "een lineair model met beginwaarde \\(25\\)",
+            "een exponentieel model met groeifactor \\(15\\)",
+            "een exponentieel model met beginwaarde \\(25\\)",
             "een constante functie"
           ],
           "antwoord": 0,
@@ -2573,15 +2573,15 @@
         },
         {
           "type": "meerkeuze",
-          "vraag": "Een rij getallen is 20, 24, 28,8 en 34,56. Welke groei is dat?",
+          "vraag": "Een rij getallen is \\(20\\), \\(24\\), \\(28{,}8\\) en \\(34{,}56\\). Welke groei is dat?",
           "opties": [
-            "exponentieel, factor 1,2",
-            "lineair, telkens 4 erbij",
-            "exponentieel, factor 4",
+            "exponentieel, factor \\(1{,}2\\)",
+            "lineair, telkens \\(4\\) erbij",
+            "exponentieel, factor \\(4\\)",
             "geen regelmaat"
           ],
           "antwoord": 0,
-          "uitleg": "24 gedeeld door 20 is 1,2, en 28,8 gedeeld door 24 ook. Het bedrag dat erbij komt, groeit mee."
+          "uitleg": "\\(24 : 20\\) is \\(1{,}2\\), en \\(28{,}8 : 24\\) ook. Het bedrag dat erbij komt, groeit mee."
         },
         {
           "type": "waarofniet",
@@ -2610,46 +2610,46 @@
       "vragen": [
         {
           "type": "invultekst",
-          "vraag": "Een aantal groeit met 3 procent per maand. Wat is de groeifactor per maand?",
+          "vraag": "Een aantal groeit met \\(3\\) procent per maand. Wat is de groeifactor per maand?",
           "antwoord": [
             "1,03",
             "1.03"
           ],
-          "uitleg": "1 plus 3 gedeeld door honderd."
+          "uitleg": "\\(1 + \\dfrac{3}{100} = 1{,}03\\)."
         },
         {
           "type": "invultekst",
-          "vraag": "De groeifactor per jaar is 1,1. Met hoeveel procent per jaar groeit het?",
+          "vraag": "De groeifactor per jaar is \\(1{,}1\\). Met hoeveel procent per jaar groeit het?",
           "antwoord": [
             "10",
             "10 %",
             "10 procent"
           ],
-          "uitleg": "Je trekt 1 af en vermenigvuldigt met honderd."
+          "uitleg": "Je trekt \\(1\\) af en vermenigvuldigt met honderd."
         },
         {
           "type": "meerkeuze",
-          "vraag": "Een groeifactor van 1,2 per jaar. Wat is de groeifactor over 2 jaar?",
+          "vraag": "Een groeifactor van \\(1{,}2\\) per jaar. Wat is de groeifactor over \\(2\\) jaar?",
           "opties": [
-            "1,44",
-            "2,4",
-            "1,4",
-            "2,2"
+            "\\(1{,}44\\)",
+            "\\(2{,}4\\)",
+            "\\(1{,}4\\)",
+            "\\(2{,}2\\)"
           ],
           "antwoord": 0,
-          "uitleg": "Je vermenigvuldigt de factoren: 1,2 maal 1,2."
+          "uitleg": "Je vermenigvuldigt de factoren: \\(1{,}2 \\cdot 1{,}2\\)."
         },
         {
           "type": "meerkeuze",
-          "vraag": "Een groeifactor van 1,21 per 2 jaar. Wat is de groeifactor per jaar?",
+          "vraag": "Een groeifactor van \\(1{,}21\\) per \\(2\\) jaar. Wat is de groeifactor per jaar?",
           "opties": [
-            "1,1",
-            "0,605",
-            "1,105",
-            "1,42"
+            "\\(1{,}1\\)",
+            "\\(0{,}605\\)",
+            "\\(1{,}105\\)",
+            "\\(1{,}42\\)"
           ],
           "antwoord": 0,
-          "uitleg": "Je zoekt het getal dat in het kwadraat 1,21 geeft, dus de vierkantswortel."
+          "uitleg": "Je zoekt het getal dat in het kwadraat \\(1{,}21\\) geeft, dus \\(\\sqrt{1{,}21} = 1{,}1\\)."
         },
         {
           "type": "waarofniet",
@@ -2671,13 +2671,13 @@
         },
         {
           "type": "invultekst",
-          "vraag": "Een bedrag van 500 euro groeit met 100 procent per jaar. Hoeveel is het na 3 jaar?",
+          "vraag": "Een bedrag van \\(500\\) euro groeit met \\(100\\) procent per jaar. Hoeveel is het na \\(3\\) jaar?",
           "antwoord": [
             "4000",
             "4000 euro",
             "4 000"
           ],
-          "uitleg": "Verdubbelen per jaar: 1000, 2000, 4000."
+          "uitleg": "Verdubbelen per jaar: \\(1000\\), \\(2000\\), \\(4000\\)."
         },
         {
           "type": "waarofniet",
@@ -2687,10 +2687,10 @@
         },
         {
           "type": "meerkeuze",
-          "vraag": "Twee modellen: het ene telt elke week 10 bij, het andere groeit met 10 procent per week. Welk haalt op lange termijn het andere in?",
+          "vraag": "Twee modellen: het ene telt elke week \\(10\\) bij, het andere groeit met \\(10\\) procent per week. Welk haalt op lange termijn het andere in?",
           "opties": [
-            "het model met 10 procent",
-            "het model met 10 erbij",
+            "het model met \\(10\\) procent",
+            "het model met \\(10\\) erbij",
             "ze blijven gelijk",
             "dat hangt van de tijd af"
           ],
@@ -2699,25 +2699,25 @@
         },
         {
           "type": "waarofniet",
-          "vraag": "Een groeipercentage van 0 procent hoort bij een groeifactor van 0.",
+          "vraag": "Een groeipercentage van \\(0\\) procent hoort bij een groeifactor van \\(0\\).",
           "antwoord": false,
-          "uitleg": "Het hoort bij een groeifactor van 1: er verandert niets. Factor 0 zou alles meteen wegvagen."
+          "uitleg": "Het hoort bij een groeifactor van \\(1\\): er verandert niets. Factor \\(0\\) zou alles meteen wegvagen."
         },
         {
           "type": "meerkeuze",
-          "vraag": "Een auto verliest elk jaar 15 procent van zijn waarde. Hoeveel is een auto van 20000 euro na een jaar waard?",
+          "vraag": "Een auto verliest elk jaar \\(15\\) procent van zijn waarde. Hoeveel is een auto van \\(20\\,000\\) euro na een jaar waard?",
           "opties": [
-            "17000 euro",
-            "19850 euro",
-            "3000 euro",
-            "23000 euro"
+            "\\(17\\,000\\) euro",
+            "\\(19\\,850\\) euro",
+            "\\(3000\\) euro",
+            "\\(23\\,000\\) euro"
           ],
           "antwoord": 0,
-          "uitleg": "20000 maal 0,85."
+          "uitleg": "\\(20\\,000 \\cdot 0{,}85 = 17\\,000\\)."
         },
         {
           "type": "invultekst",
-          "vraag": "Een stof heeft een halveringstijd van 8 dagen. Na hoeveel dagen is er nog een vierde over?",
+          "vraag": "Een stof heeft een halveringstijd van \\(8\\) dagen. Na hoeveel dagen is er nog een vierde over?",
           "antwoord": [
             "16",
             "16 dagen",
@@ -2727,7 +2727,7 @@
         },
         {
           "type": "meerkeuze",
-          "vraag": "Een bevolking groeit met 2 procent per jaar. Welke uitspraak klopt?",
+          "vraag": "Een bevolking groeit met \\(2\\) procent per jaar. Welke uitspraak klopt?",
           "opties": [
             "het aantal mensen dat er per jaar bijkomt, groeit mee",
             "er komen elk jaar evenveel mensen bij",
@@ -2741,15 +2741,15 @@
           "type": "waarofniet",
           "vraag": "Verdubbelingstijd en halveringstijd hangen allebei alleen van de groeifactor af, niet van de beginwaarde.",
           "antwoord": true,
-          "uitleg": "Of je met 100 of met 1000 begint, de tijd om te verdubbelen blijft dezelfde."
+          "uitleg": "Of je met \\(100\\) of met \\(1000\\) begint, de tijd om te verdubbelen blijft dezelfde."
         },
         {
           "type": "meerkeuze",
-          "vraag": "Een tabel toont 60, 55, 50, 45. Welk model past?",
+          "vraag": "Een tabel toont \\(60\\), \\(55\\), \\(50\\), \\(45\\). Welk model past?",
           "opties": [
-            "lineair, telkens 5 eraf",
-            "exponentieel, factor 0,9",
-            "exponentieel, factor 5",
+            "lineair, telkens \\(5\\) eraf",
+            "exponentieel, factor \\(0{,}9\\)",
+            "exponentieel, factor \\(5\\)",
             "geen van beide"
           ],
           "antwoord": 0,
@@ -2757,35 +2757,35 @@
         },
         {
           "type": "meerkeuze",
-          "vraag": "Een tabel toont 64, 48, 36, 27. Welk model past?",
+          "vraag": "Een tabel toont \\(64\\), \\(48\\), \\(36\\), \\(27\\). Welk model past?",
           "opties": [
-            "exponentieel, factor 0,75",
-            "lineair, telkens 16 eraf",
-            "exponentieel, factor 0,5",
+            "exponentieel, factor \\(0{,}75\\)",
+            "lineair, telkens \\(16\\) eraf",
+            "exponentieel, factor \\(0{,}5\\)",
             "geen van beide"
           ],
           "antwoord": 0,
-          "uitleg": "48 gedeeld door 64 is 0,75, en 36 gedeeld door 48 ook. Het verschil wordt steeds kleiner."
+          "uitleg": "\\(48 : 64\\) is \\(0{,}75\\), en \\(36 : 48\\) ook. Het verschil wordt steeds kleiner."
         },
         {
           "type": "invultekst",
-          "vraag": "Een prijs stijgt van 80 naar 100 euro. Met hoeveel procent is dat?",
+          "vraag": "Een prijs stijgt van \\(80\\) naar \\(100\\) euro. Met hoeveel procent is dat?",
           "antwoord": [
             "25",
             "25 %",
             "25 procent"
           ],
-          "uitleg": "20 euro erbij op 80 euro, dus 20 gedeeld door 80 is een vierde."
+          "uitleg": "\\(20\\) euro erbij op \\(80\\) euro, dus \\(20 : 80\\) is een vierde."
         },
         {
           "type": "waarofniet",
-          "vraag": "Een prijs die eerst 20 procent stijgt en daarna 20 procent daalt, staat weer op zijn beginwaarde.",
+          "vraag": "Een prijs die eerst \\(20\\) procent stijgt en daarna \\(20\\) procent daalt, staat weer op zijn beginwaarde.",
           "antwoord": false,
-          "uitleg": "1,2 maal 0,8 is 0,96, dus je eindigt vier procent lager. De daling rekent op het hogere bedrag."
+          "uitleg": "\\(1{,}2 \\cdot 0{,}8\\) is \\(0{,}96\\), dus je eindigt vier procent lager. De daling rekent op het hogere bedrag."
         },
         {
           "type": "meerkeuze",
-          "vraag": "Je kent de beginwaarde en de waarde na 10 jaar. Hoe vind je de groeifactor per jaar?",
+          "vraag": "Je kent de beginwaarde en de waarde na \\(10\\) jaar. Hoe vind je de groeifactor per jaar?",
           "opties": [
             "de tiendemachtswortel uit hun verhouding",
             "het verschil delen door tien",
@@ -2812,10 +2812,10 @@
           "type": "meerkeuze",
           "vraag": "Wat zegt de wet van Laplace?",
           "opties": [
-            "de kans is het aantal gunstige uitkomsten gedeeld door het totaal",
-            "de kans is het aantal gunstige uitkomsten maal het totaal",
-            "de kans is het totaal gedeeld door het aantal gunstige uitkomsten",
-            "de kans is altijd een half"
+            "\\(P = \\dfrac{\\text{gunstige uitkomsten}}{\\text{alle uitkomsten}}\\)",
+            "\\(P = \\text{gunstige uitkomsten} \\cdot \\text{alle uitkomsten}\\)",
+            "\\(P = \\dfrac{\\text{alle uitkomsten}}{\\text{gunstige uitkomsten}}\\)",
+            "\\(P = \\tfrac{1}{2}\\), altijd"
           ],
           "antwoord": 0,
           "uitleg": "Ze geldt alleen als alle uitkomsten even waarschijnlijk zijn, zoals bij een eerlijke dobbelsteen."
@@ -2840,16 +2840,16 @@
             "de kans zelf"
           ],
           "antwoord": 0,
-          "uitleg": "Een even worp is een gebeurtenis: ze bestaat uit de uitkomsten 2, 4 en 6."
+          "uitleg": "Een even worp is een gebeurtenis: ze bestaat uit de uitkomsten \\(2\\), \\(4\\) en \\(6\\)."
         },
         {
           "type": "invultekst",
-          "vraag": "Je gooit met één dobbelsteen. Wat is de kans op een 4? Schrijf het als breuk.",
+          "vraag": "Je gooit met één dobbelsteen. Wat is de kans op een \\(4\\)? Schrijf het als breuk.",
           "antwoord": [
             "1/6",
             "een zesde"
           ],
-          "uitleg": "Eén gunstige uitkomst op zes mogelijke."
+          "uitleg": "Eén gunstige uitkomst op zes mogelijke, dus \\(\\tfrac{1}{6}\\)."
         },
         {
           "type": "invultekst",
@@ -2859,39 +2859,39 @@
             "3/6",
             "een half"
           ],
-          "uitleg": "Drie gunstige uitkomsten, namelijk 2, 4 en 6, op zes mogelijke."
+          "uitleg": "Drie gunstige uitkomsten, namelijk \\(2\\), \\(4\\) en \\(6\\), op zes mogelijke: \\(\\tfrac{3}{6} = \\tfrac{1}{2}\\)."
         },
         {
           "type": "meerkeuze",
           "vraag": "Welke waarde kan een kans nooit hebben?",
           "opties": [
-            "1,5",
-            "0",
-            "1",
-            "0,25"
+            "\\(1{,}5\\)",
+            "\\(0\\)",
+            "\\(1\\)",
+            "\\(0{,}25\\)"
           ],
           "antwoord": 0,
-          "uitleg": "Een kans ligt altijd tussen 0 en 1. Groter dan 1 bestaat niet."
+          "uitleg": "Een kans ligt altijd tussen \\(0\\) en \\(1\\). Groter dan \\(1\\) bestaat niet."
         },
         {
           "type": "waarofniet",
-          "vraag": "Een kans van 0 betekent dat de gebeurtenis onmogelijk is.",
+          "vraag": "Een kans van \\(0\\) betekent dat de gebeurtenis onmogelijk is.",
           "antwoord": true,
-          "uitleg": "Een kans van 1 betekent omgekeerd dat ze zeker gebeurt."
+          "uitleg": "Een kans van \\(1\\) betekent omgekeerd dat ze zeker gebeurt."
         },
         {
           "type": "waarofniet",
           "vraag": "Een kans mag je ook als percentage schrijven.",
           "antwoord": true,
-          "uitleg": "Een kans van 0,25 is hetzelfde als 25 procent, of een vierde. Drie schrijfwijzen voor hetzelfde."
+          "uitleg": "Een kans van \\(0{,}25\\) is hetzelfde als \\(25\\) procent, of een vierde. Drie schrijfwijzen voor hetzelfde."
         },
         {
           "type": "meerkeuze",
           "vraag": "Wat zegt de complementregel?",
           "opties": [
-            "de kans dat iets gebeurt is 1 min de kans dat het niet gebeurt",
-            "de kans dat iets gebeurt is 1 plus de kans dat het niet gebeurt",
-            "twee kansen samen zijn altijd 2",
+            "de kans dat iets gebeurt is \\(1\\) min de kans dat het niet gebeurt",
+            "de kans dat iets gebeurt is \\(1\\) plus de kans dat het niet gebeurt",
+            "twee kansen samen zijn altijd \\(2\\)",
             "de kans is het omgekeerde getal"
           ],
           "antwoord": 0,
@@ -2899,17 +2899,17 @@
         },
         {
           "type": "invultekst",
-          "vraag": "De kans op regen is 0,3. Wat is de kans op geen regen?",
+          "vraag": "De kans op regen is \\(0{,}3\\). Wat is de kans op geen regen?",
           "antwoord": [
             "0,7",
             "0.7",
             "70 %"
           ],
-          "uitleg": "1 min 0,3, want samen moeten ze precies 1 geven."
+          "uitleg": "\\(1\\) min \\(0{,}3\\), want samen moeten ze precies \\(1\\) geven."
         },
         {
           "type": "invultekst",
-          "vraag": "Je trekt een kaart uit een spel van 52. Wat is de kans op harten? Schrijf het als breuk.",
+          "vraag": "Je trekt een kaart uit een spel van \\(52\\). Wat is de kans op harten? Schrijf het als breuk.",
           "antwoord": [
             "1/4",
             "13/52",
@@ -2919,27 +2919,27 @@
         },
         {
           "type": "meerkeuze",
-          "vraag": "In een zak zitten 3 rode en 7 blauwe knikkers. Wat is de kans op rood?",
+          "vraag": "In een zak zitten \\(3\\) rode en \\(7\\) blauwe knikkers. Wat is de kans op rood?",
           "opties": [
-            "0,3",
-            "0,7",
-            "3",
-            "0,37"
+            "\\(0{,}3\\)",
+            "\\(0{,}7\\)",
+            "\\(3\\)",
+            "\\(0{,}37\\)"
           ],
           "antwoord": 0,
           "uitleg": "Drie gunstige op tien in het totaal."
         },
         {
           "type": "meerkeuze",
-          "vraag": "Je gooit 200 keer met een muntstuk en krijgt 108 keer kop. Wat is de relatieve frequentie van kop?",
+          "vraag": "Je gooit \\(200\\) keer met een muntstuk en krijgt \\(108\\) keer kop. Wat is de relatieve frequentie van kop?",
           "opties": [
-            "0,54",
-            "108",
-            "0,5",
-            "1,85"
+            "\\(0{,}54\\)",
+            "\\(108\\)",
+            "\\(0{,}5\\)",
+            "\\(1{,}85\\)"
           ],
           "antwoord": 0,
-          "uitleg": "Het aantal keer dat het voorkwam, gedeeld door het aantal pogingen."
+          "uitleg": "Het aantal keer dat het voorkwam, gedeeld door het aantal pogingen: \\(\\dfrac{108}{200} = 0{,}54\\)."
         },
         {
           "type": "waarofniet",
@@ -2957,10 +2957,10 @@
           "type": "meerkeuze",
           "vraag": "Een muntstuk viel vijf keer na elkaar op kop. Hoe groot is de kans op kop bij de volgende worp?",
           "opties": [
-            "een half",
-            "kleiner dan een half",
-            "groter dan een half",
-            "nul"
+            "\\(\\tfrac{1}{2}\\)",
+            "kleiner dan \\(\\tfrac{1}{2}\\)",
+            "groter dan \\(\\tfrac{1}{2}\\)",
+            "\\(0\\)"
           ],
           "antwoord": 0,
           "uitleg": "Het muntstuk onthoudt niets. Elke worp staat los van de vorige."
@@ -2978,10 +2978,10 @@
           "type": "meerkeuze",
           "vraag": "Je gooit twee keer met een muntstuk. Wat is de kans op twee keer kop?",
           "opties": [
-            "0,25",
-            "0,5",
-            "0,75",
-            "1"
+            "\\(0{,}25\\)",
+            "\\(0{,}5\\)",
+            "\\(0{,}75\\)",
+            "\\(1\\)"
           ],
           "antwoord": 0,
           "uitleg": "Eén gunstige uitkomst op vier mogelijke."
@@ -2994,15 +2994,15 @@
         },
         {
           "type": "meerkeuze",
-          "vraag": "Wat is de kans dat je bij één worp met een dobbelsteen géén 6 gooit?",
+          "vraag": "Wat is de kans dat je bij één worp met een dobbelsteen géén \\(6\\) gooit?",
           "opties": [
-            "5/6",
-            "1/6",
-            "1/2",
-            "6/5"
+            "\\(\\tfrac{5}{6}\\)",
+            "\\(\\tfrac{1}{6}\\)",
+            "\\(\\tfrac{1}{2}\\)",
+            "\\(\\tfrac{6}{5}\\)"
           ],
           "antwoord": 0,
-          "uitleg": "Met de complementregel: 1 min een zesde."
+          "uitleg": "Met de complementregel: \\(1 - \\tfrac{1}{6} = \\tfrac{5}{6}\\)."
         }
       ]
     },
@@ -3013,17 +3013,17 @@
       "vragen": [
         {
           "type": "invultekst",
-          "vraag": "Je gooit met een dobbelsteen. Wat is de kans op meer dan 4? Schrijf het als breuk.",
+          "vraag": "Je gooit met een dobbelsteen. Wat is de kans op meer dan \\(4\\)? Schrijf het als breuk.",
           "antwoord": [
             "1/3",
             "2/6",
             "een derde"
           ],
-          "uitleg": "Alleen 5 en 6 tellen mee, dus twee van de zes."
+          "uitleg": "Alleen \\(5\\) en \\(6\\) tellen mee, dus twee van de zes."
         },
         {
           "type": "invultekst",
-          "vraag": "In een klas van 25 leerlingen dragen er 10 een bril. Wat is de kans dat een willekeurige leerling een bril draagt?",
+          "vraag": "In een klas van \\(25\\) leerlingen dragen er \\(10\\) een bril. Wat is de kans dat een willekeurige leerling een bril draagt?",
           "antwoord": [
             "0,4",
             "0.4",
@@ -3033,7 +3033,7 @@
         },
         {
           "type": "meerkeuze",
-          "vraag": "Een gebeurtenis heeft kans 1. Wat betekent dat?",
+          "vraag": "Een gebeurtenis heeft kans \\(1\\). Wat betekent dat?",
           "opties": [
             "ze gebeurt zeker",
             "ze gebeurt nooit",
@@ -3041,47 +3041,47 @@
             "dat kan niet"
           ],
           "antwoord": 0,
-          "uitleg": "Bijvoorbeeld de kans dat je met één dobbelsteen een getal van 1 tot 6 gooit."
+          "uitleg": "Bijvoorbeeld de kans dat je met één dobbelsteen een getal van \\(1\\) tot \\(6\\) gooit."
         },
         {
           "type": "waarofniet",
-          "vraag": "De som van de kansen van alle uitkomsten in de uitkomstenverzameling is 1.",
+          "vraag": "De som van de kansen van alle uitkomsten in de uitkomstenverzameling is \\(1\\).",
           "antwoord": true,
-          "uitleg": "Er moet immers iets gebeuren. Komt er iets anders dan 1 uit, dan zit er een fout in je telling."
+          "uitleg": "Er moet immers iets gebeuren. Komt er iets anders dan \\(1\\) uit, dan zit er een fout in je telling."
         },
         {
           "type": "meerkeuze",
-          "vraag": "In een zak zitten 4 groene, 5 gele en 11 witte balletjes. Wat is de kans op geel?",
+          "vraag": "In een zak zitten \\(4\\) groene, \\(5\\) gele en \\(11\\) witte balletjes. Wat is de kans op geel?",
           "opties": [
-            "0,25",
-            "0,2",
-            "0,55",
-            "5"
+            "\\(0{,}25\\)",
+            "\\(0{,}2\\)",
+            "\\(0{,}55\\)",
+            "\\(5\\)"
           ],
           "antwoord": 0,
           "uitleg": "Vijf op twintig in het totaal."
         },
         {
           "type": "invultekst",
-          "vraag": "Uit die zak van 20 balletjes: wat is de kans dat je géén wit trekt?",
+          "vraag": "Uit die zak van \\(20\\) balletjes: wat is de kans dat je géén wit trekt?",
           "antwoord": [
             "0,45",
             "0.45",
             "45 %"
           ],
-          "uitleg": "Negen niet-witte op twintig, of met de complementregel 1 min 0,55."
+          "uitleg": "Negen niet-witte op twintig, of met de complementregel \\(1\\) min \\(0{,}55\\)."
         },
         {
           "type": "meerkeuze",
-          "vraag": "Een school telt 300 leerlingen, waarvan er 24 met de trein komen. Wat is de relatieve frequentie?",
+          "vraag": "Een school telt \\(300\\) leerlingen, waarvan er \\(24\\) met de trein komen. Wat is de relatieve frequentie?",
           "opties": [
-            "0,08",
-            "0,24",
-            "8",
-            "12,5"
+            "\\(0{,}08\\)",
+            "\\(0{,}24\\)",
+            "\\(8\\)",
+            "\\(12{,}5\\)"
           ],
           "antwoord": 0,
-          "uitleg": "24 gedeeld door 300, dus acht procent."
+          "uitleg": "\\(24 : 300\\), dus acht procent."
         },
         {
           "type": "waarofniet",
@@ -3093,10 +3093,10 @@
           "type": "meerkeuze",
           "vraag": "Je gooit met twee dobbelstenen. Hoeveel uitkomsten telt de uitkomstenverzameling?",
           "opties": [
-            "36",
-            "12",
-            "6",
-            "21"
+            "\\(36\\)",
+            "\\(12\\)",
+            "\\(6\\)",
+            "\\(21\\)"
           ],
           "antwoord": 0,
           "uitleg": "Zes mogelijkheden voor de eerste steen, en bij elk daarvan zes voor de tweede."
@@ -3112,12 +3112,12 @@
         },
         {
           "type": "meerkeuze",
-          "vraag": "Je gooit met twee dobbelstenen. Wat is de kans dat de som 2 is?",
+          "vraag": "Je gooit met twee dobbelstenen. Wat is de kans dat de som \\(2\\) is?",
           "opties": [
-            "1/36",
-            "1/18",
-            "1/12",
-            "2/36"
+            "\\(\\tfrac{1}{36}\\)",
+            "\\(\\tfrac{1}{18}\\)",
+            "\\(\\tfrac{1}{12}\\)",
+            "\\(\\tfrac{2}{36}\\)"
           ],
           "antwoord": 0,
           "uitleg": "Alleen met twee enen, en dat is één van de zesendertig uitkomsten."
@@ -3126,47 +3126,47 @@
           "type": "meerkeuze",
           "vraag": "Je gooit met twee dobbelstenen. Welke som komt het vaakst voor?",
           "opties": [
-            "7",
-            "6",
-            "2",
-            "12"
+            "\\(7\\)",
+            "\\(6\\)",
+            "\\(2\\)",
+            "\\(12\\)"
           ],
           "antwoord": 0,
           "uitleg": "Zes van de zesendertig uitkomsten geven zeven, meer dan bij elke andere som."
         },
         {
           "type": "waarofniet",
-          "vraag": "Bij een loterij met 1 winnend lot op 1000 is de kans om te winnen 0,001.",
+          "vraag": "Bij een loterij met \\(1\\) winnend lot op \\(1000\\) is de kans om te winnen \\(0{,}001\\).",
           "antwoord": true,
           "uitleg": "Eén gunstige op duizend, dus een tiende van een procent."
         },
         {
           "type": "meerkeuze",
-          "vraag": "Je koopt 5 loten van die loterij met 1000 loten. Wat is je kans om te winnen?",
+          "vraag": "Je koopt \\(5\\) loten van die loterij met \\(1000\\) loten. Wat is je kans om te winnen?",
           "opties": [
-            "0,005",
-            "0,05",
-            "0,2",
-            "5"
+            "\\(0{,}005\\)",
+            "\\(0{,}05\\)",
+            "\\(0{,}2\\)",
+            "\\(5\\)"
           ],
           "antwoord": 0,
           "uitleg": "Vijf gunstige loten op duizend."
         },
         {
           "type": "waarofniet",
-          "vraag": "Een kans van 1 op 1000 betekent dat je zeker wint als je duizend keer meedoet.",
+          "vraag": "Een kans van \\(1\\) op \\(1000\\) betekent dat je zeker wint als je duizend keer meedoet.",
           "antwoord": false,
           "uitleg": "Het is een gemiddelde op lange termijn, geen garantie. Je kan duizend keer meedoen en niets winnen."
         },
         {
           "type": "invultekst",
-          "vraag": "De kans dat een machine een goed stuk maakt is 0,98. Wat is de kans op een slecht stuk?",
+          "vraag": "De kans dat een machine een goed stuk maakt is \\(0{,}98\\). Wat is de kans op een slecht stuk?",
           "antwoord": [
             "0,02",
             "0.02",
             "2 %"
           ],
-          "uitleg": "Met de complementregel: 1 min 0,98."
+          "uitleg": "Met de complementregel: \\(1\\) min \\(0{,}98\\)."
         },
         {
           "type": "meerkeuze",
@@ -3178,17 +3178,17 @@
             "omdat je vier worpen hebt"
           ],
           "antwoord": 0,
-          "uitleg": "Minstens één zes is een hele stapel gevallen; geen enkele zes is er maar één, en daarna trek je af van 1."
+          "uitleg": "Minstens één zes is een hele stapel gevallen; geen enkele zes is er maar één, en daarna trek je af van \\(1\\)."
         },
         {
           "type": "waarofniet",
-          "vraag": "Een relatieve frequentie kan groter zijn dan 1.",
+          "vraag": "Een relatieve frequentie kan groter zijn dan \\(1\\).",
           "antwoord": false,
-          "uitleg": "Ze is een deel van het totaal, dus ze ligt net als een kans altijd tussen 0 en 1."
+          "uitleg": "Ze is een deel van het totaal, dus ze ligt net als een kans altijd tussen \\(0\\) en \\(1\\)."
         },
         {
           "type": "meerkeuze",
-          "vraag": "Een weerbericht zegt 70 procent kans op regen. Wat betekent dat?",
+          "vraag": "Een weerbericht zegt \\(70\\) procent kans op regen. Wat betekent dat?",
           "opties": [
             "in zeven van de tien vergelijkbare dagen regent het",
             "het regent zeven uur",
@@ -3200,7 +3200,7 @@
         },
         {
           "type": "waarofniet",
-          "vraag": "De uitkomstenverzameling bij het trekken van één kaart uit een spel van 52 telt 52 uitkomsten.",
+          "vraag": "De uitkomstenverzameling bij het trekken van één kaart uit een spel van \\(52\\) telt \\(52\\) uitkomsten.",
           "antwoord": true,
           "uitleg": "Elke kaart is een afzonderlijke uitkomst. Harten is dan een gebeurtenis van dertien uitkomsten."
         }
@@ -3240,7 +3240,7 @@
             "de kans op een pad is het product van de kansen op zijn takken",
             "de kans op een pad is de som van de kansen op zijn takken",
             "de kans op een pad is de grootste kans op het pad",
-            "de kans op een pad is altijd een half"
+            "de kans op een pad is altijd \\(\\tfrac{1}{2}\\)"
           ],
           "antwoord": 0,
           "uitleg": "Je volgt het pad en vermenigvuldigt onderweg alles wat je tegenkomt."
@@ -3259,15 +3259,15 @@
         },
         {
           "type": "waarofniet",
-          "vraag": "De kansen op de takken die uit één punt vertrekken, geven samen 1.",
+          "vraag": "De kansen op de takken die uit één punt vertrekken, geven samen \\(1\\).",
           "antwoord": true,
           "uitleg": "Er moet immers iets gebeuren bij die stap. Dat is een snelle controle op je boom."
         },
         {
           "type": "waarofniet",
-          "vraag": "De kansen van alle paden in een kansboom geven samen 2.",
+          "vraag": "De kansen van alle paden in een kansboom geven samen \\(2\\).",
           "antwoord": false,
-          "uitleg": "Ze geven samen 1, net als bij één stap. Komt er iets anders uit, dan zit er een fout in."
+          "uitleg": "Ze geven samen \\(1\\), net als bij één stap. Komt er iets anders uit, dan zit er een fout in."
         },
         {
           "type": "invultekst",
@@ -3277,43 +3277,43 @@
             "1/4",
             "0.25"
           ],
-          "uitleg": "Een half maal een half, met de productregel."
+          "uitleg": "\\(\\tfrac{1}{2} \\cdot \\tfrac{1}{2} = \\tfrac{1}{4}\\), met de productregel."
         },
         {
           "type": "meerkeuze",
           "vraag": "Je gooit drie keer met een muntstuk. Wat is de kans op drie keer kop?",
           "opties": [
-            "0,125",
-            "0,25",
-            "0,375",
-            "0,5"
+            "\\(0{,}125\\)",
+            "\\(0{,}25\\)",
+            "\\(0{,}375\\)",
+            "\\(0{,}5\\)"
           ],
           "antwoord": 0,
-          "uitleg": "Een half maal een half maal een half."
+          "uitleg": "\\(\\tfrac{1}{2} \\cdot \\tfrac{1}{2} \\cdot \\tfrac{1}{2} = \\tfrac{1}{8}\\)."
         },
         {
           "type": "meerkeuze",
-          "vraag": "In een zak zitten 2 rode en 3 blauwe knikkers. Je trekt er één en legt hem terug. Wat is de kans op twee keer rood?",
+          "vraag": "In een zak zitten \\(2\\) rode en \\(3\\) blauwe knikkers. Je trekt er één en legt hem terug. Wat is de kans op twee keer rood?",
           "opties": [
-            "0,16",
-            "0,4",
-            "0,04",
-            "0,8"
+            "\\(0{,}16\\)",
+            "\\(0{,}4\\)",
+            "\\(0{,}04\\)",
+            "\\(0{,}8\\)"
           ],
           "antwoord": 0,
-          "uitleg": "0,4 maal 0,4. Omdat je teruglegt, verandert de zak niet tussen de twee trekkingen."
+          "uitleg": "\\(\\tfrac{2}{5} \\cdot \\tfrac{2}{5} = \\tfrac{4}{25} = 0{,}16\\). Omdat je teruglegt, verandert de zak niet tussen de twee trekkingen."
         },
         {
           "type": "meerkeuze",
-          "vraag": "Uit dezelfde zak van 2 rode en 3 blauwe trek je twee knikkers zonder terugleggen. Wat is de kans op twee keer rood?",
+          "vraag": "Uit dezelfde zak van \\(2\\) rode en \\(3\\) blauwe trek je twee knikkers zonder terugleggen. Wat is de kans op twee keer rood?",
           "opties": [
-            "0,1",
-            "0,16",
-            "0,2",
-            "0,4"
+            "\\(0{,}1\\)",
+            "\\(0{,}16\\)",
+            "\\(0{,}2\\)",
+            "\\(0{,}4\\)"
           ],
           "antwoord": 0,
-          "uitleg": "Eerst 2 op 5, daarna nog 1 rode op 4 over. Dat is 0,4 maal 0,25."
+          "uitleg": "Eerst \\(\\tfrac{2}{5}\\), daarna nog \\(\\tfrac{1}{4}\\), dus \\(\\tfrac{2}{5} \\cdot \\tfrac{1}{4} = \\tfrac{1}{10}\\)."
         },
         {
           "type": "waarofniet",
@@ -3329,59 +3329,59 @@
             "1/2",
             "0.5"
           ],
-          "uitleg": "Twee paden, kop-munt en munt-kop, elk met kans 0,25. Met de somregel tel je ze op."
+          "uitleg": "Twee paden, kop-munt en munt-kop, elk met kans \\(0{,}25\\). Met de somregel tel je ze op."
         },
         {
           "type": "meerkeuze",
           "vraag": "Je gooit drie keer met een muntstuk. Hoeveel paden heeft de kansboom?",
           "opties": [
-            "8",
-            "6",
-            "3",
-            "9"
+            "\\(8\\)",
+            "\\(6\\)",
+            "\\(3\\)",
+            "\\(9\\)"
           ],
           "antwoord": 0,
-          "uitleg": "Twee mogelijkheden per worp, drie worpen: 2 maal 2 maal 2."
+          "uitleg": "Twee mogelijkheden per worp, drie worpen: \\(2 \\cdot 2 \\cdot 2\\)."
         },
         {
           "type": "meerkeuze",
           "vraag": "Wat is de kans op minstens één keer kop bij twee worpen?",
           "opties": [
-            "0,75",
-            "0,5",
-            "0,25",
-            "1"
+            "\\(0{,}75\\)",
+            "\\(0{,}5\\)",
+            "\\(0{,}25\\)",
+            "\\(1\\)"
           ],
           "antwoord": 0,
-          "uitleg": "Het makkelijkst via de complementregel: 1 min de kans op twee keer munt, dus 1 min 0,25."
+          "uitleg": "Het makkelijkst via de complementregel: \\(1\\) min de kans op twee keer munt, dus \\(1\\) min \\(0{,}25\\)."
         },
         {
           "type": "waarofniet",
           "vraag": "De complementregel is vooral handig bij een vraag met het woord minstens.",
           "antwoord": true,
-          "uitleg": "Minstens één betekent een hele stapel paden. Geen enkele is er maar één, en daarna trek je af van 1."
+          "uitleg": "Minstens één betekent een hele stapel paden. Geen enkele is er maar één, en daarna trek je af van \\(1\\)."
         },
         {
           "type": "meerkeuze",
           "vraag": "Een kansboom heeft twee stappen met telkens drie mogelijkheden. Hoeveel paden zijn er?",
           "opties": [
-            "9",
-            "6",
-            "3",
-            "5"
+            "\\(9\\)",
+            "\\(6\\)",
+            "\\(3\\)",
+            "\\(5\\)"
           ],
           "antwoord": 0,
           "uitleg": "Drie mogelijkheden, en bij elk daarvan opnieuw drie."
         },
         {
           "type": "invultekst",
-          "vraag": "Een test is 90 procent betrouwbaar en je doet hem twee keer. Wat is de kans dat hij twee keer juist is?",
+          "vraag": "Een test is \\(90\\) procent betrouwbaar en je doet hem twee keer. Wat is de kans dat hij twee keer juist is?",
           "antwoord": [
             "0,81",
             "0.81",
             "81 %"
           ],
-          "uitleg": "0,9 maal 0,9, met de productregel."
+          "uitleg": "\\(0{,}9 \\cdot 0{,}9\\), met de productregel."
         },
         {
           "type": "waarofniet",
@@ -3391,12 +3391,12 @@
         },
         {
           "type": "meerkeuze",
-          "vraag": "In een doos zitten 7 goede en 3 slechte lampen. Je neemt er één. Wat is de kans dat ze goed is?",
+          "vraag": "In een doos zitten \\(7\\) goede en \\(3\\) slechte lampen. Je neemt er één. Wat is de kans dat ze goed is?",
           "opties": [
-            "0,7",
-            "0,3",
-            "0,07",
-            "7"
+            "\\(0{,}7\\)",
+            "\\(0{,}3\\)",
+            "\\(0{,}07\\)",
+            "\\(7\\)"
           ],
           "antwoord": 0,
           "uitleg": "Zeven goede op tien. Dat wordt de eerste tak van je boom."
@@ -3405,13 +3405,13 @@
           "type": "meerkeuze",
           "vraag": "Uit die doos neem je twee lampen zonder terugleggen. Wat is de kans dat beide goed zijn?",
           "opties": [
-            "ongeveer 0,47",
-            "0,49",
-            "0,7",
-            "0,14"
+            "ongeveer \\(0{,}47\\)",
+            "\\(0{,}49\\)",
+            "\\(0{,}7\\)",
+            "\\(0{,}14\\)"
           ],
           "antwoord": 0,
-          "uitleg": "7 op 10 maal 6 op 9, dus 0,7 maal ongeveer 0,667."
+          "uitleg": "\\(\\tfrac{7}{10} \\cdot \\tfrac{6}{9} = \\tfrac{42}{90}\\), ongeveer \\(0{,}47\\)."
         }
       ]
     },
@@ -3422,17 +3422,17 @@
       "vragen": [
         {
           "type": "invultekst",
-          "vraag": "Een kansboom heeft een pad met takken 0,5 en 0,2. Wat is de kans op dat pad?",
+          "vraag": "Een kansboom heeft een pad met takken \\(0{,}5\\) en \\(0{,}2\\). Wat is de kans op dat pad?",
           "antwoord": [
             "0,1",
             "0.1",
             "10 %"
           ],
-          "uitleg": "Met de productregel: 0,5 maal 0,2."
+          "uitleg": "Met de productregel: \\(0{,}5 \\cdot 0{,}2\\)."
         },
         {
           "type": "invultekst",
-          "vraag": "Twee paden hebben kansen 0,12 en 0,18. Wat is de kans dat een van beide zich voordoet?",
+          "vraag": "Twee paden hebben kansen \\(0{,}12\\) en \\(0{,}18\\). Wat is de kans dat een van beide zich voordoet?",
           "antwoord": [
             "0,3",
             "0.3",
@@ -3444,43 +3444,43 @@
           "type": "meerkeuze",
           "vraag": "Een kansboom heeft drie stappen met telkens twee mogelijkheden. Hoeveel takken vertrekken er uit elk punt?",
           "opties": [
-            "2",
-            "3",
-            "6",
-            "8"
+            "\\(2\\)",
+            "\\(3\\)",
+            "\\(6\\)",
+            "\\(8\\)"
           ],
           "antwoord": 0,
           "uitleg": "Het aantal takken per punt is het aantal mogelijkheden van die stap. Het aantal paden is het product over alle stappen."
         },
         {
           "type": "waarofniet",
-          "vraag": "In een kansboom mag een tak een kans groter dan 1 hebben als de stap heel waarschijnlijk is.",
+          "vraag": "In een kansboom mag een tak een kans groter dan \\(1\\) hebben als de stap heel waarschijnlijk is.",
           "antwoord": false,
-          "uitleg": "Elke tak draagt een gewone kans, dus een getal tussen 0 en 1."
+          "uitleg": "Elke tak draagt een gewone kans, dus een getal tussen \\(0\\) en \\(1\\)."
         },
         {
           "type": "meerkeuze",
           "vraag": "Je gooit twee keer met een dobbelsteen. Wat is de kans op twee keer een zes?",
           "opties": [
-            "1/36",
-            "1/12",
-            "1/6",
-            "2/36"
+            "\\(\\tfrac{1}{36}\\)",
+            "\\(\\tfrac{1}{12}\\)",
+            "\\(\\tfrac{1}{6}\\)",
+            "\\(\\tfrac{2}{36}\\)"
           ],
           "antwoord": 0,
-          "uitleg": "Een zesde maal een zesde, met de productregel."
+          "uitleg": "\\(\\tfrac{1}{6} \\cdot \\tfrac{1}{6} = \\tfrac{1}{36}\\), met de productregel."
         },
         {
           "type": "meerkeuze",
           "vraag": "Je gooit twee keer met een dobbelsteen. Wat is de kans op minstens één zes?",
           "opties": [
-            "11/36",
-            "1/3",
-            "2/6",
-            "1/36"
+            "\\(\\tfrac{11}{36}\\)",
+            "\\(\\tfrac{1}{3}\\)",
+            "\\(\\tfrac{2}{6}\\)",
+            "\\(\\tfrac{1}{36}\\)"
           ],
           "antwoord": 0,
-          "uitleg": "Via het complement. Geen enkele zes heeft kans vijf zesde maal vijf zesde, dus 25 op 36. Blijft over 11 op 36."
+          "uitleg": "Via het complement: \\(\\tfrac{5}{6} \\cdot \\tfrac{5}{6} = \\tfrac{25}{36}\\) op geen enkele zes, dus \\(1 - \\tfrac{25}{36} = \\tfrac{11}{36}\\)."
         },
         {
           "type": "waarofniet",
@@ -3495,31 +3495,31 @@
             "12",
             "twaalf"
           ],
-          "uitleg": "Twee mogelijkheden maal zes mogelijkheden."
+          "uitleg": "\\(2 \\cdot 6 = 12\\) paden."
         },
         {
           "type": "meerkeuze",
-          "vraag": "Een fabriek keurt 95 procent van de stukken goed. Wat is de kans dat drie stukken na elkaar allemaal goedgekeurd worden?",
+          "vraag": "Een fabriek keurt \\(95\\) procent van de stukken goed. Wat is de kans dat drie stukken na elkaar allemaal goedgekeurd worden?",
           "opties": [
-            "ongeveer 0,857",
-            "0,95",
-            "2,85",
-            "0,05"
+            "ongeveer \\(0{,}857\\)",
+            "\\(0{,}95\\)",
+            "\\(2{,}85\\)",
+            "\\(0{,}05\\)"
           ],
           "antwoord": 0,
-          "uitleg": "0,95 maal 0,95 maal 0,95."
+          "uitleg": "\\(0{,}95 \\cdot 0{,}95 \\cdot 0{,}95\\)."
         },
         {
           "type": "meerkeuze",
           "vraag": "Wat is dan de kans dat er bij die drie stukken minstens één afgekeurd wordt?",
           "opties": [
-            "ongeveer 0,143",
-            "0,05",
-            "0,15",
-            "0,857"
+            "ongeveer \\(0{,}143\\)",
+            "\\(0{,}05\\)",
+            "\\(0{,}15\\)",
+            "\\(0{,}857\\)"
           ],
           "antwoord": 0,
-          "uitleg": "Met de complementregel: 1 min de kans dat alle drie goedgekeurd worden."
+          "uitleg": "Met de complementregel: \\(1\\) min de kans dat alle drie goedgekeurd worden."
         },
         {
           "type": "waarofniet",
@@ -3529,12 +3529,12 @@
         },
         {
           "type": "meerkeuze",
-          "vraag": "In een klas zitten 12 meisjes en 8 jongens. Je kiest twee leerlingen zonder terugleggen. Wat is de kans dat de eerste een meisje is?",
+          "vraag": "In een klas zitten \\(12\\) meisjes en \\(8\\) jongens. Je kiest twee leerlingen zonder terugleggen. Wat is de kans dat de eerste een meisje is?",
           "opties": [
-            "0,6",
-            "0,4",
-            "0,12",
-            "0,5"
+            "\\(0{,}6\\)",
+            "\\(0{,}4\\)",
+            "\\(0{,}12\\)",
+            "\\(0{,}5\\)"
           ],
           "antwoord": 0,
           "uitleg": "Twaalf op twintig."
@@ -3546,7 +3546,7 @@
             "11/19",
             "elf negentiende"
           ],
-          "uitleg": "Er blijven nog 11 meisjes over op 19 leerlingen."
+          "uitleg": "Er blijven nog \\(11\\) meisjes over op \\(19\\) leerlingen."
         },
         {
           "type": "waarofniet",
@@ -3556,43 +3556,43 @@
         },
         {
           "type": "meerkeuze",
-          "vraag": "Een spel heeft kans 0,4 om te winnen. Je speelt twee keer. Wat is de kans dat je precies één keer wint?",
+          "vraag": "Een spel heeft kans \\(0{,}4\\) om te winnen. Je speelt twee keer. Wat is de kans dat je precies één keer wint?",
           "opties": [
-            "0,48",
-            "0,16",
-            "0,36",
-            "0,8"
+            "\\(0{,}48\\)",
+            "\\(0{,}16\\)",
+            "\\(0{,}36\\)",
+            "\\(0{,}8\\)"
           ],
           "antwoord": 0,
-          "uitleg": "Twee paden: winnen en dan verliezen, of verliezen en dan winnen. Elk 0,4 maal 0,6, samen 0,48."
+          "uitleg": "Twee paden: winnen en dan verliezen, of verliezen en dan winnen. Elk \\(0{,}4 \\cdot 0{,}6\\), samen \\(0{,}48\\)."
         },
         {
           "type": "meerkeuze",
           "vraag": "Je speelt datzelfde spel twee keer. Wat is de kans dat je geen enkele keer wint?",
           "opties": [
-            "0,36",
-            "0,16",
-            "0,48",
-            "0,6"
+            "\\(0{,}36\\)",
+            "\\(0{,}16\\)",
+            "\\(0{,}48\\)",
+            "\\(0{,}6\\)"
           ],
           "antwoord": 0,
-          "uitleg": "0,6 maal 0,6."
+          "uitleg": "\\(0{,}6 \\cdot 0{,}6\\)."
         },
         {
           "type": "waarofniet",
-          "vraag": "De drie kansen bij dat spel, twee keer winnen, precies één keer winnen en nooit winnen, geven samen 1.",
+          "vraag": "De drie kansen bij dat spel, twee keer winnen, precies één keer winnen en nooit winnen, geven samen \\(1\\).",
           "antwoord": true,
-          "uitleg": "0,16 plus 0,48 plus 0,36 is precies 1. Die drie gevallen dekken alles."
+          "uitleg": "\\(0{,}16\\) plus \\(0{,}48\\) plus \\(0{,}36\\) is precies \\(1\\). Die drie gevallen dekken alles."
         },
         {
           "type": "invultekst",
-          "vraag": "Een bus is op tijd met kans 0,8. Wat is de kans dat hij twee dagen na elkaar te laat is?",
+          "vraag": "Een bus is op tijd met kans \\(0{,}8\\). Wat is de kans dat hij twee dagen na elkaar te laat is?",
           "antwoord": [
             "0,04",
             "0.04",
             "4 %"
           ],
-          "uitleg": "Te laat heeft kans 0,2, en 0,2 maal 0,2 is 0,04."
+          "uitleg": "Te laat heeft kans \\(0{,}2\\), en \\(0{,}2 \\cdot 0{,}2\\) is \\(0{,}04\\)."
         },
         {
           "type": "meerkeuze",
@@ -3719,7 +3719,7 @@
         },
         {
           "type": "meerkeuze",
-          "vraag": "Een onderzoeker belt mensen op tussen 9 en 17 uur op een werkdag. Welke groep ontbreekt daardoor?",
+          "vraag": "Een onderzoeker belt mensen op tussen \\(9\\) en \\(17\\) uur op een werkdag. Welke groep ontbreekt daardoor?",
           "opties": [
             "wie overdag werkt",
             "wie gepensioneerd is",
@@ -3760,7 +3760,7 @@
           "type": "waarofniet",
           "vraag": "Het gemiddelde van een steekproef noteer je anders dan het gemiddelde van een populatie.",
           "antwoord": true,
-          "uitleg": "Het steekproefgemiddelde krijgt een streepje boven de x; het populatiegemiddelde krijgt de Griekse letter mu."
+          "uitleg": "Het steekproefgemiddelde krijgt een streepje boven de \\(x\\); het populatiegemiddelde krijgt de Griekse letter mu."
         },
         {
           "type": "meerkeuze",
@@ -3859,15 +3859,15 @@
         },
         {
           "type": "meerkeuze",
-          "vraag": "Een school van 800 leerlingen bevraagt er 80. Hoe groot is de steekproef in procent van de populatie?",
+          "vraag": "Een school van \\(800\\) leerlingen bevraagt er \\(80\\). Hoe groot is de steekproef in procent van de populatie?",
           "opties": [
-            "10 procent",
-            "8 procent",
-            "80 procent",
-            "1 procent"
+            "\\(10\\) procent",
+            "\\(8\\) procent",
+            "\\(80\\) procent",
+            "\\(1\\) procent"
           ],
           "antwoord": 0,
-          "uitleg": "80 gedeeld door 800."
+          "uitleg": "\\(80 : 800\\)."
         },
         {
           "type": "waarofniet",
@@ -3877,7 +3877,7 @@
         },
         {
           "type": "meerkeuze",
-          "vraag": "Een onderzoeker meet de leeftijd van bezoekers op een rockfestival en besluit dat de gemiddelde Belg 24 jaar is. Wat is de fout?",
+          "vraag": "Een onderzoeker meet de leeftijd van bezoekers op een rockfestival en besluit dat de gemiddelde Belg \\(24\\) jaar is. Wat is de fout?",
           "opties": [
             "hij veralgemeent een bijzondere groep naar iedereen",
             "hij meet de verkeerde variabele bij die mensen",
@@ -3929,17 +3929,17 @@
         },
         {
           "type": "waarofniet",
-          "vraag": "Een steekproef van 1000 mensen kan betrouwbare uitspraken geven over miljoenen mensen.",
+          "vraag": "Een steekproef van \\(1000\\) mensen kan betrouwbare uitspraken geven over miljoenen mensen.",
           "antwoord": true,
           "uitleg": "Als ze aselect en representatief is. Dat is precies waarom peilingen met zo'n klein aantal toch werken."
         },
         {
           "type": "meerkeuze",
-          "vraag": "Een onderzoek stuurt een vragenlijst per post en 8 procent stuurt ze terug. Waar zit het risico?",
+          "vraag": "Een onderzoek stuurt een vragenlijst per post en \\(8\\) procent stuurt ze terug. Waar zit het risico?",
           "opties": [
             "wie terugstuurt, kan systematisch anders zijn",
             "de post doet er te lang over",
-            "8 procent is een lastig getal om mee te rekenen",
+            "\\(8\\) procent is een lastig getal om mee te rekenen",
             "de populatie is verkeerd gekozen"
           ],
           "antwoord": 0,
@@ -3947,7 +3947,7 @@
         },
         {
           "type": "invultekst",
-          "vraag": "Een verpakking belooft 500 gram. De fabrikant weegt elk uur tien zakken. Wat is daar de populatie?",
+          "vraag": "Een verpakking belooft \\(500\\) gram. De fabrikant weegt elk uur tien zakken. Wat is daar de populatie?",
           "antwoord": [
             "alle zakken",
             "alle geproduceerde zakken"
@@ -3962,10 +3962,10 @@
         },
         {
           "type": "meerkeuze",
-          "vraag": "Je leest: uit een bevraging van 40 mensen blijkt dat 60 procent van de Belgen dit vindt. Wat is je eerste vraag?",
+          "vraag": "Je leest: uit een bevraging van \\(40\\) mensen blijkt dat \\(60\\) procent van de Belgen dit vindt. Wat is je eerste vraag?",
           "opties": [
-            "hoe werden die 40 mensen gekozen",
-            "wat is 60 procent van 40",
+            "hoe werden die \\(40\\) mensen gekozen",
+            "wat is \\(60\\) procent van \\(40\\)",
             "hoe lang duurde de bevraging",
             "wie betaalde het onderzoek"
           ],
@@ -4522,7 +4522,7 @@
             "een",
             "één"
           ],
-          "uitleg": "Alle kansen samen geven 1, want er moet iets gebeuren."
+          "uitleg": "Alle kansen samen geven \\(1\\), want er moet iets gebeuren."
         },
         {
           "type": "meerkeuze",
@@ -4538,7 +4538,7 @@
         },
         {
           "type": "waarofniet",
-          "vraag": "De kans dat een waarde onder het gemiddelde ligt, is bij een normale verdeling 0,5.",
+          "vraag": "De kans dat een waarde onder het gemiddelde ligt, is bij een normale verdeling \\(0{,}5\\).",
           "antwoord": true,
           "uitleg": "De kromme is symmetrisch, dus de helft van de oppervlakte ligt links van de top."
         },
@@ -4546,22 +4546,22 @@
           "type": "meerkeuze",
           "vraag": "Ongeveer hoeveel procent van de waarden ligt binnen één standaardafwijking van het gemiddelde?",
           "opties": [
-            "68 procent",
-            "50 procent",
-            "95 procent",
-            "99 procent"
+            "\\(68\\) procent",
+            "\\(50\\) procent",
+            "\\(95\\) procent",
+            "\\(99\\) procent"
           ],
           "antwoord": 0,
-          "uitleg": "Binnen twee standaardafwijkingen is dat ongeveer 95 procent, en binnen drie bijna alles."
+          "uitleg": "Binnen twee standaardafwijkingen is dat ongeveer \\(95\\) procent, en binnen drie bijna alles."
         },
         {
           "type": "meerkeuze",
           "vraag": "Ongeveer hoeveel procent van de waarden ligt binnen twee standaardafwijkingen van het gemiddelde?",
           "opties": [
-            "95 procent",
-            "68 procent",
-            "50 procent",
-            "100 procent"
+            "\\(95\\) procent",
+            "\\(68\\) procent",
+            "\\(50\\) procent",
+            "\\(100\\) procent"
           ],
           "antwoord": 0,
           "uitleg": "Daarom noemt men een waarde buiten die grens al snel uitzonderlijk."
@@ -4618,7 +4618,7 @@
           "type": "waarofniet",
           "vraag": "Bij een normale verdeling kan je de kans op precies één waarde berekenen als een oppervlakte.",
           "antwoord": false,
-          "uitleg": "Eén punt heeft geen breedte, dus geen oppervlakte. Je werkt altijd met een interval, bijvoorbeeld tussen 170 en 180 centimeter."
+          "uitleg": "Eén punt heeft geen breedte, dus geen oppervlakte. Je werkt altijd met een interval, bijvoorbeeld tussen \\(170\\) en \\(180\\) centimeter."
         }
       ]
     },
@@ -4629,10 +4629,10 @@
       "vragen": [
         {
           "type": "meerkeuze",
-          "vraag": "De lengte van volwassen mannen is normaal verdeeld met gemiddelde 178 cm. Waar ligt de top van de kromme?",
+          "vraag": "De lengte van volwassen mannen is normaal verdeeld met gemiddelde \\(178\\) cm. Waar ligt de top van de kromme?",
           "opties": [
-            "bij 178 cm",
-            "bij 0 cm",
+            "bij \\(178\\) cm",
+            "bij \\(0\\) cm",
             "bij de kleinste lengte",
             "bij de standaardafwijking"
           ],
@@ -4641,55 +4641,55 @@
         },
         {
           "type": "invultekst",
-          "vraag": "Gemiddelde 178 cm, standaardafwijking 7 cm. Tussen welke twee waarden ligt ongeveer 68 procent? Geef de kleinste.",
+          "vraag": "Gemiddelde \\(178\\) cm, standaardafwijking \\(7\\) cm. Tussen welke twee waarden ligt ongeveer \\(68\\) procent? Geef de kleinste.",
           "antwoord": [
             "171",
             "171 cm"
           ],
-          "uitleg": "Eén standaardafwijking links en rechts van het gemiddelde, dus van 171 tot 185 centimeter."
+          "uitleg": "Eén standaardafwijking links en rechts van het gemiddelde, dus van \\(171\\) tot \\(185\\) centimeter."
         },
         {
           "type": "invultekst",
-          "vraag": "Gemiddelde 178 cm, standaardafwijking 7 cm. Tussen welke twee waarden ligt ongeveer 95 procent? Geef de grootste.",
+          "vraag": "Gemiddelde \\(178\\) cm, standaardafwijking \\(7\\) cm. Tussen welke twee waarden ligt ongeveer \\(95\\) procent? Geef de grootste.",
           "antwoord": [
             "192",
             "192 cm"
           ],
-          "uitleg": "Twee standaardafwijkingen, dus van 164 tot 192 centimeter."
+          "uitleg": "Twee standaardafwijkingen, dus van \\(164\\) tot \\(192\\) centimeter."
         },
         {
           "type": "meerkeuze",
-          "vraag": "Een toets heeft gemiddelde 60 en standaardafwijking 10. Welke score is uitzonderlijk hoog?",
+          "vraag": "Een toets heeft gemiddelde \\(60\\) en standaardafwijking \\(10\\). Welke score is uitzonderlijk hoog?",
           "opties": [
-            "85",
-            "65",
-            "70",
-            "60"
+            "\\(85\\)",
+            "\\(65\\)",
+            "\\(70\\)",
+            "\\(60\\)"
           ],
           "antwoord": 0,
-          "uitleg": "85 ligt meer dan twee standaardafwijkingen boven het gemiddelde, en dat haalt maar een kleine groep."
+          "uitleg": "\\(85\\) ligt meer dan twee standaardafwijkingen boven het gemiddelde, en dat haalt maar een kleine groep."
         },
         {
           "type": "waarofniet",
           "vraag": "Een grotere standaardafwijking maakt de Gausskromme hoger en smaller.",
           "antwoord": false,
-          "uitleg": "Net omgekeerd: breder en platter. De oppervlakte blijft immers 1."
+          "uitleg": "Net omgekeerd: breder en platter. De oppervlakte blijft immers \\(1\\)."
         },
         {
           "type": "meerkeuze",
-          "vraag": "Waarom blijft de oppervlakte onder elke Gausskromme gelijk aan 1?",
+          "vraag": "Waarom blijft de oppervlakte onder elke Gausskromme gelijk aan \\(1\\)?",
           "opties": [
-            "omdat alle kansen samen 1 geven",
+            "omdat alle kansen samen \\(1\\) geven",
             "omdat de kromme symmetrisch is",
-            "omdat het gemiddelde 1 is",
-            "omdat de standaardafwijking 1 is"
+            "omdat het gemiddelde \\(1\\) is",
+            "omdat de standaardafwijking \\(1\\) is"
           ],
           "antwoord": 0,
           "uitleg": "Daarom wordt de kromme platter als ze breder wordt: de oppervlakte moet verdeeld worden."
         },
         {
           "type": "meerkeuze",
-          "vraag": "De vullijn van een machine is normaal verdeeld rond 500 gram. Wat betekent een kleine standaardafwijking hier?",
+          "vraag": "De vullijn van een machine is normaal verdeeld rond \\(500\\) gram. Wat betekent een kleine standaardafwijking hier?",
           "opties": [
             "de machine vult heel nauwkeurig",
             "de machine vult te veel",
@@ -4697,22 +4697,22 @@
             "de machine vult traag"
           ],
           "antwoord": 0,
-          "uitleg": "De zakken wijken weinig van 500 gram af. Precies dat wil een fabrikant."
+          "uitleg": "De zakken wijken weinig van \\(500\\) gram af. Precies dat wil een fabrikant."
         },
         {
           "type": "waarofniet",
           "vraag": "De kans dat een waarde boven het gemiddelde ligt, is even groot als de kans eronder.",
           "antwoord": true,
-          "uitleg": "Door de symmetrie is dat allebei 0,5."
+          "uitleg": "Door de symmetrie is dat allebei \\(0{,}5\\)."
         },
         {
           "type": "meerkeuze",
-          "vraag": "Een normale verdeling heeft gemiddelde 100. Wat is de kans dat een waarde groter is dan 100?",
+          "vraag": "Een normale verdeling heeft gemiddelde \\(100\\). Wat is de kans dat een waarde groter is dan \\(100\\)?",
           "opties": [
-            "0,5",
-            "1",
-            "0",
-            "0,68"
+            "\\(0{,}5\\)",
+            "\\(1\\)",
+            "\\(0\\)",
+            "\\(0{,}68\\)"
           ],
           "antwoord": 0,
           "uitleg": "De helft van de oppervlakte ligt rechts van de top."
@@ -4725,7 +4725,7 @@
             "5 %",
             "5 procent"
           ],
-          "uitleg": "Binnen die grens ligt 95 procent, dus daarbuiten blijft er vijf over, verdeeld over beide staarten."
+          "uitleg": "Binnen die grens ligt \\(95\\) procent, dus daarbuiten blijft er vijf over, verdeeld over beide staarten."
         },
         {
           "type": "meerkeuze",
@@ -4759,9 +4759,9 @@
         },
         {
           "type": "meerkeuze",
-          "vraag": "Een fabrikant wil weten hoeveel procent van zijn zakken onder 490 gram zit. Wat berekent hij?",
+          "vraag": "Een fabrikant wil weten hoeveel procent van zijn zakken onder \\(490\\) gram zit. Wat berekent hij?",
           "opties": [
-            "de oppervlakte onder de kromme links van 490",
+            "de oppervlakte onder de kromme links van \\(490\\)",
             "het gemiddelde van alle zakken",
             "de standaardafwijking",
             "het aantal zakken"
@@ -4805,27 +4805,27 @@
         },
         {
           "type": "meerkeuze",
-          "vraag": "Een IQ-test is zo gemaakt dat het gemiddelde 100 is en de standaardafwijking 15. Welk aandeel scoort tussen 85 en 115?",
+          "vraag": "Een IQ-test is zo gemaakt dat het gemiddelde \\(100\\) is en de standaardafwijking \\(15\\). Welk aandeel scoort tussen \\(85\\) en \\(115\\)?",
           "opties": [
-            "ongeveer 68 procent",
-            "ongeveer 95 procent",
-            "ongeveer 50 procent",
-            "ongeveer 99 procent"
+            "ongeveer \\(68\\) procent",
+            "ongeveer \\(95\\) procent",
+            "ongeveer \\(50\\) procent",
+            "ongeveer \\(99\\) procent"
           ],
           "antwoord": 0,
           "uitleg": "Dat is precies één standaardafwijking links en rechts van het gemiddelde."
         },
         {
           "type": "meerkeuze",
-          "vraag": "Welk aandeel scoort bij diezelfde test boven 130?",
+          "vraag": "Welk aandeel scoort bij diezelfde test boven \\(130\\)?",
           "opties": [
-            "ongeveer 2,5 procent",
-            "ongeveer 16 procent",
-            "ongeveer 5 procent",
-            "ongeveer 32 procent"
+            "ongeveer \\(2{,}5\\) procent",
+            "ongeveer \\(16\\) procent",
+            "ongeveer \\(5\\) procent",
+            "ongeveer \\(32\\) procent"
           ],
           "antwoord": 0,
-          "uitleg": "Buiten twee standaardafwijkingen ligt 5 procent, verdeeld over twee staarten, dus 2,5 procent aan de bovenkant."
+          "uitleg": "Buiten twee standaardafwijkingen ligt \\(5\\) procent, verdeeld over twee staarten, dus \\(2{,}5\\) procent aan de bovenkant."
         }
       ]
     }
