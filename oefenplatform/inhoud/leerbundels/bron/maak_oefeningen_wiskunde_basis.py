@@ -1186,49 +1186,128 @@ zet("het-functiebegrip-en-de-eerstegraadsfunctie",
     titel="Het functiebegrip en de eerstegraadsfunctie",
     reeksen=[
         dict(kop="Is het een functie?",
-             opdracht="Schrijf ja of nee, en waarom.",
+             opdracht="Schrijf ja of nee.",
              oefeningen=[
                  ("rij", [("bij elke leerling hoort één geboortedatum", "ja"),
                           ("bij elke geboortedatum hoort één leerling", "nee, meerdere"),
-                          ("y = 3x − 1", "ja"),
-                          ("x² + y² = 25", "nee, twee y bij één x"),
-                          ("bij elk huisnummer hoort één straat", "ja"),
-                          ("bij elke kleur hoort één leerling", "nee, meerdere")],
+                          ("\\(y = 3x - 1\\)", "ja"),
+                          ("\\(x^{2} + y^{2} = 25\\)", "nee, twee \\(y\\) bij één \\(x\\)")],
                   "Functie of niet?", WW),
-                 ("open", "Wat is het verschil tussen het domein en het bereik?",
-                  "Het domein is de verzameling van alle toegelaten x-waarden; het bereik is de "
-                  "verzameling van alle y-waarden die er daadwerkelijk uitkomen.", 3),
              ]),
-        dict(kop="De eerstegraadsfunctie",
-             opdracht="Bij f(x) = −2x + 6.",
+        dict(kop="Nog drie verbanden",
+             opdracht="Schrijf ja of nee, en zeg kort waarom.",
              oefeningen=[
-                 ("rij", [("f(0)", "6"), ("f(3)", "0"), ("f(−1)", "8"),
-                          ("de richtingscoëfficiënt", "−2"),
-                          ("het snijpunt met de y-as", "(0, 6)"),
-                          ("het nulpunt", "x = 3")],
-                  "Wat is het antwoord?", W),
-                 ("teken", "Teken de grafiek van f(x) = −2x + 6 in een assenstelsel.",
-                  "Een dalende rechte door (0, 6) en (3, 0).", 60),
-                 ("open", "Is f stijgend of dalend? Leg uit aan de hand van de "
-                          "richtingscoëfficiënt.",
-                  "Dalend: de richtingscoëfficiënt is −2, dus negatief. Per eenheid naar rechts "
-                  "zakt de grafiek twee eenheden.", 3),
+                 ("rij", [("bij elk huisnummer hoort één straat", "ja"),
+                          ("bij elke kleur hoort één leerling", "nee, meerdere"),
+                          ("\\(y = \\sqrt{x}\\) met \\(x \\geq 0\\)", "ja")],
+                  "Functie of niet?", WW),
              ]),
-        dict(kop="Een functievoorschrift opstellen",
+        dict(kop="Domein en bereik",
+             opdracht="Schrijf je antwoord in een volle zin.",
+             oefeningen=[
+                 ("open", "Wat is het verschil tussen het domein en het bereik?",
+                  "Het domein is de verzameling van alle toegelaten \\(x\\)-waarden; het bereik is de "
+                  "verzameling van alle \\(y\\)-waarden die er daadwerkelijk uitkomen.", 3),
+                 ("open", "Geef het domein van \\(f(x) = \\frac{1}{x - 2}\\). Welke waarde valt weg, "
+                          "en waarom?",
+                  "Alle re\u00eble getallen behalve \\(2\\), dus \\(\\mathbb{R} \\setminus \\{2\\}\\). "
+                  "Bij \\(x = 2\\) staat er \\(0\\) onder de breukstreep, en delen door \\(0\\) kan niet.", 3),
+             ]),
+        dict(kop="Beelden berekenen",
+             opdracht="Bij \\(f(x) = -2x + 6\\).",
+             oefeningen=[
+                 ("rij", [("\\(f(0)\\)", "\\(6\\)"), ("\\(f(3)\\)", "\\(0\\)"),
+                          ("\\(f(-1)\\)", "\\(8\\)"), ("\\(f(\\frac{1}{2})\\)", "\\(5\\)")],
+                  "Antwoord", W),
+                 ("open", "Voor welke \\(x\\) is \\(f(x) = 10\\)?",
+                  "\\(-2x + 6 = 10\\) geeft \\(-2x = 4\\) en \\(x = -2\\).", 3),
+             ]),
+        dict(kop="Een tabel afwerken",
+             opdracht="Bij \\(g(x) = 3x - 4\\).",
+             oefeningen=[
+                 ("tabel", ["\\(x\\)", "\\(-2\\)", "\\(0\\)", "\\(2\\)", "\\(4\\)"],
+                  [["\\(g(x)\\)", None, None, None, None]],
+                  "\\(-10\\), \\(-4\\), \\(2\\), \\(8\\)", W),
+                 ("open", "Hoeveel stijgt \\(g(x)\\) telkens als \\(x\\) twee eenheden groter wordt? "
+                          "Waar zie je dat getal in het voorschrift?",
+                  "Zes eenheden, want \\(2 \\cdot 3 = 6\\). Het getal \\(3\\) is de "
+                  "richtingscoëfficiënt \\(a\\).", 3),
+             ]),
+        dict(kop="Dezelfde functie lezen",
+             opdracht="Bij \\(f(x) = -2x + 6\\).",
+             oefeningen=[
+                 ("rij", [("de richtingscoëfficiënt \\(a\\)", "\\(-2\\)"),
+                          ("het snijpunt met de \\(y\\)-as", "\\((0, 6)\\)"),
+                          ("de nulwaarde", "\\(x = 3\\)")],
+                  "Antwoord", WW),
+                 ("open", "Is \\(f\\) stijgend of dalend? Leg uit aan de hand van \\(a\\).",
+                  "Dalend: \\(a = -2\\), dus negatief. Per eenheid naar rechts zakt de grafiek twee "
+                  "eenheden.", 3),
+             ]),
+        dict(kop="Stijgend, dalend of constant",
+             opdracht="Kruis aan.",
+             oefeningen=[
+                 ("kies", "Hoe verloopt de grafiek van \\(f(x) = 5 - \\frac{x}{4}\\)?",
+                  ["stijgend", "dalend", "constant"], 1),
+                 ("waar", "De grafiek van \\(f(x) = 7\\) is een horizontale rechte.", True),
+                 ("waar", "Elke eerstegraadsfunctie heeft precies één nulwaarde.", True),
+             ]),
+        dict(kop="De grafiek tekenen",
+             opdracht="Twee punten en een lat volstaan.",
+             oefeningen=[
+                 ("teken", "Teken de grafiek van \\(f(x) = -2x + 6\\) in een assenstelsel.",
+                  "Een dalende rechte door \\((0, 6)\\) en \\((3, 0)\\).", 60),
+             ]),
+        dict(kop="Een voorschrift opstellen",
              opdracht="Schrijf het voorschrift op.",
              oefeningen=[
-                 ("open", "Een rechte gaat door (0, 4) en (2, 10).",
-                  "De richtingscoëfficiënt is (10 − 4)/(2 − 0) = 3, dus y = 3x + 4.", 3),
-                 ("open", "Een rechte gaat door (1, 5) en (4, −1).",
-                  "rc = (−1 − 5)/(4 − 1) = −2. Invullen van (1, 5): 5 = −2 + q, dus q = 7 en "
-                  "y = −2x + 7.", 4),
-                 ("open", "Een gsm-abonnement kost 15 euro per maand plus 0,10 euro per "
-                          "sms. Schrijf de kostfunctie en bereken de kost bij 80 sms'en.",
-                  "k(x) = 15 + 0,10x. Bij x = 80: 15 + 8 = 23 euro.", 3),
-                 ("open", "Twee abonnementen: A kost 15 + 0,10x en B kost 20 + 0,05x. Vanaf "
+                 ("open", "Een rechte gaat door \\((0, 4)\\) en \\((2, 10)\\).",
+                  "\\(a = \\frac{10 - 4}{2 - 0} = 3\\), dus \\(y = 3x + 4\\).", 3),
+                 ("open", "Een rechte gaat door \\((1, 5)\\) en \\((4, -1)\\).",
+                  "\\(a = \\frac{-1 - 5}{4 - 1} = -2\\). Invullen van \\((1, 5)\\): \\(5 = -2 + b\\), "
+                  "dus \\(b = 7\\) en \\(y = -2x + 7\\).", 4),
+             ]),
+        dict(kop="Ligt het punt op de rechte?",
+             opdracht="Vul de \\(x\\)-waarde in en vergelijk.",
+             oefeningen=[
+                 ("rij", [("\\((2, 9)\\) op \\(y = 4x + 1\\)", "ja"),
+                          ("\\((-1, 3)\\) op \\(y = 4x + 1\\)", "nee, \\(-3\\)"),
+                          ("\\((5, 0)\\) op \\(y = 2x - 10\\)", "ja")],
+                  "Antwoord", WL),
+             ]),
+        dict(kop="Recht evenredig of niet?",
+             opdracht="Antwoord kort.",
+             oefeningen=[
+                 ("rij", [("\\(f(x) = 4x\\)", "recht evenredig"),
+                          ("\\(f(x) = 4x + 1\\)", "niet, \\(b \\neq 0\\)"),
+                          ("\\(f(x) = \\frac{4}{x}\\)", "omgekeerd evenredig")],
+                  "Antwoord", WL),
+                 ("waar", "De grafiek van \\(f(x) = ax\\) gaat door de oorsprong.", True),
+             ]),
+        dict(kop="Een kostfunctie",
+             opdracht="Schrijf de functie op en reken uit.",
+             oefeningen=[
+                 ("open", "Een gsm-abonnement kost \\(15\\) euro per maand plus \\(0{,}10\\) euro per "
+                          "sms. Schrijf de kostfunctie en bereken de kost bij \\(80\\) sms'en.",
+                  "\\(k(x) = 15 + 0{,}10x\\). Bij \\(x = 80\\): \\(15 + 8 = 23\\) euro.", 3),
+                 ("open", "Wat is bij die kostfunctie het domein, als je enkel hele sms'en kan sturen?",
+                  "De natuurlijke getallen vanaf \\(0\\), dus \\(x \\in \\mathbb{N}\\). Een halve sms "
+                  "of een negatief aantal bestaat niet.", 3),
+             ]),
+        dict(kop="Twee abonnementen vergelijken",
+             opdracht="Stel een ongelijkheid op.",
+             oefeningen=[
+                 ("open", "Abonnement A kost \\(15 + 0{,}10x\\) en B kost \\(20 + 0{,}05x\\). Vanaf "
                           "hoeveel sms'en is B voordeliger?",
-                  "15 + 0,10x &gt; 20 + 0,05x geeft 0,05x &gt; 5 en x &gt; 100. Vanaf 101 "
-                  "sms'en is B goedkoper.", 4),
+                  "\\(15 + 0{,}10x > 20 + 0{,}05x\\) geeft \\(0{,}05x > 5\\) en \\(x > 100\\). Vanaf "
+                  "\\(101\\) sms'en is B goedkoper.", 4),
+                 ("open", "Bij hoeveel sms'en kosten A en B precies hetzelfde, en hoeveel betaal je dan?",
+                  "Bij \\(x = 100\\): beide kosten \\(25\\) euro. Dat is het snijpunt \\((100, 25)\\) "
+                  "van de twee rechten.", 3),
+                 ("open", "Je stuurt gemiddeld \\(60\\) sms'en per maand. Welk abonnement kies je, "
+                          "en hoeveel scheelt dat op een jaar?",
+                  "A kost \\(15 + 6 = 21\\) euro, B kost \\(20 + 3 = 23\\) euro. A is goedkoper, "
+                  "en \\(2 \\cdot 12 = 24\\) euro per jaar.", 4),
              ]),
     ])
 

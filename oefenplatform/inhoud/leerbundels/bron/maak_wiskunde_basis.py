@@ -1089,67 +1089,80 @@ zet("het-functiebegrip-en-de-eerstegraadsfunctie",
     onder="Wat een functie is, domein en bereik, wat je uit een grafiek leest, en de eerstegraadsfunctie met haar richtingscoëfficiënt.",
     secties=[
         dict(kop="Wat een functie is", blokken=[
-            ("p", "Een functie is een verband waarbij <strong>elke x precies één y krijgt</strong>: elk getal "
-                  "uit het domein heeft juist één beeld. <strong>Eén x-waarde kan dus geen twee "
-                  "verschillende beelden hebben</strong> — dan is het geen functie. Omgekeerd mag wel: "
-                  "<strong>twee verschillende x-waarden mogen hetzelfde beeld hebben</strong>, zoals 2 en min "
-                  "2 bij f(x) = x², die allebei 4 geven."),
-            ("p", "Daarop steunt de <strong>verticale-lijntest</strong>: <strong>een verticale rechte mag de "
-                  "grafiek maar in één punt snijden</strong>."),
+            ("p", r"Een functie is een verband waarbij <strong>elke \(x\) precies één \(y\) "
+                  r"krijgt</strong>: elk getal uit het domein heeft juist één beeld. <strong>Eén "
+                  r"\(x\)-waarde kan dus geen twee verschillende beelden hebben</strong>, dan is het geen "
+                  r"functie. Omgekeerd mag wel: <strong>twee verschillende \(x\)-waarden mogen hetzelfde "
+                  r"beeld hebben</strong>, zoals \(2\) en \(-2\) bij \(f(x) = x^{2}\), die allebei \(4\) "
+                  r"geven."),
+            ("p", r"Daarop steunt de <strong>verticale-lijntest</strong>: <strong>een verticale rechte mag "
+                  r"de grafiek maar in één punt snijden</strong>."),
+            ("fig", svg.verticalelijntest(),
+             "De stippellijn raakt de linkse kromme één keer en de rechtse twee keer."),
+        ]),
+        dict(kop="Rekenen met een voorschrift", blokken=[
+            ("p", r"<strong>Voor \(f(x) = 2x + 1\) is \(f(4) = 9\)</strong>, en <strong>voor "
+                  r"\(f(x) = x^{2}\) is \(f(-3) = 9\)</strong>, want een kwadraat is nooit negatief. En "
+                  r"<strong>als \(f(2) = 0\), dan is \(2\) een nulwaarde</strong>: de grafiek gaat door het "
+                  r"punt \((2, 0)\)."),
+            ("p", r"<strong>Het domein van elke functie is niet heel de reële rechte \(\mathbb{R}\)</strong>: over het "
+                  r"domein klopt dat <strong>het de \(x\)-waarden zijn</strong>, dat <strong>bij een breuk "
+                  r"de noemer niet nul mag zijn</strong> en dat <strong>bij een wortel wat eronder staat "
+                  r"niet negatief mag zijn</strong>."),
+        ]),
+        dict(kop="De woorden op een rij", blokken=[
             ("kader", tabel(["woord", "wat het betekent"],
-                            [["<strong>het origineel</strong> (of het argument)", "<strong>de x-waarde waarvan je het beeld neemt</strong>"],
-                             ["<strong>het beeld</strong>", "de bijhorende y-waarde; <strong>f(3) is het beeld van 3</strong>, en <strong>op de verticale as lees je de beelden af</strong>"],
-                             ["<strong>het domein</strong>", "<strong>alle x-waarden die mogen</strong>"],
-                             ["<strong>het bereik</strong>", "<strong>alle y-waarden die voorkomen</strong>"],
-                             ["<strong>de nulwaarde</strong> (of het nulpunt)", "de x-waarde waar de grafiek de x-as snijdt, dus waar f(x) = 0"]])),
-            ("p", "Rekenen met een voorschrift: <strong>voor f(x) = 2x + 1 is f(4) gelijk aan 9</strong>, en "
-                  "<strong>voor f(x) = x² is f(min 3) gelijk aan 9</strong>, want een kwadraat is nooit "
-                  "negatief. En <strong>als f(2) gelijk is aan 0, dan is 2 een nulwaarde</strong>: de grafiek "
-                  "gaat door het punt (2, 0)."),
-            ("p", "<strong>Het domein van elke functie is niet heel de reële rechte</strong>: over het domein "
-                  "klopt dat <strong>het de x-waarden zijn</strong>, dat <strong>bij een breuk de noemer niet "
-                  "nul mag zijn</strong> en dat <strong>bij een wortel wat eronder staat niet negatief mag "
-                  "zijn</strong>."),
+                            [[r"<strong>het origineel</strong> (of het argument)", r"<strong>de \(x\)-waarde waarvan je het beeld neemt</strong>"],
+                             [r"<strong>het beeld</strong>", r"de bijhorende \(y\)-waarde; <strong>\(f(3)\) is het beeld van \(3\)</strong>, en <strong>op de verticale as lees je de beelden af</strong>"],
+                             [r"<strong>het domein</strong>", r"<strong>alle \(x\)-waarden die mogen</strong>"],
+                             [r"<strong>het bereik</strong>", r"<strong>alle \(y\)-waarden die voorkomen</strong>"],
+                             [r"<strong>de nulwaarde</strong> (of het nulpunt)", r"de \(x\)-waarde waar de grafiek de \(x\)-as snijdt, dus waar \(f(x) = 0\)"]])),
         ]),
         dict(kop="Vier manieren om een functie voor te stellen", blokken=[
             ("kader", tabel(["voorstelling", "wat ze geeft"],
-                            [["<strong>een woordelijke beschrijving</strong>", "het verband in gewone taal"],
-                             ["<strong>een tabel</strong>", "<strong>een rij x-waarden met hun beeld</strong>: boven de x, onder de beelden. Handig, maar nooit volledig"],
-                             ["<strong>een grafiek</strong>", "het beeld in één oogopslag; punten noteer je als <strong>(1, 5)</strong>, <strong>eerst de x en dan de y</strong>"],
-                             ["<strong>een voorschrift</strong>", "de regel zelf; <strong>het voordeel boven een tabel is dat je er elke x in kan invullen</strong>"]])),
-            ("p", "Uit een grafiek lees je rechtstreeks af: <strong>de nulwaarden</strong>, <strong>waar de "
-                  "functie stijgt</strong> en daalt, <strong>het hoogste punt</strong> en de andere extrema, "
-                  "en het teken."),
+                            [[r"<strong>een woordelijke beschrijving</strong>", r"het verband in gewone taal"],
+                             [r"<strong>een tabel</strong>", r"<strong>een rij \(x\)-waarden met hun beeld</strong>: boven de \(x\), onder de beelden. Handig, maar nooit volledig"],
+                             [r"<strong>een grafiek</strong>", r"het beeld in één oogopslag; punten noteer je als <strong>\((1, 5)\)</strong>, <strong>eerst de \(x\) en dan de \(y\)</strong>"],
+                             [r"<strong>een voorschrift</strong>", r"de regel zelf; <strong>het voordeel boven een tabel is dat je er elke \(x\) in kan invullen</strong>"]])),
+            ("p", r"Uit een functiegrafiek lees je rechtstreeks af: <strong>de nulwaarden</strong>, "
+                  r"<strong>waar de functie stijgt</strong> en daalt, <strong>het hoogste punt</strong> en "
+                  r"de andere extrema, en het teken."),
         ]),
         dict(kop="De eerstegraadsfunctie", blokken=[
-            ("p", "Haar voorschrift is <strong>f(x) = ax + b</strong>, met a niet nul, en haar grafiek is "
-                  "<strong>altijd een rechte</strong>. Daarom <strong>teken je ze het snelst met twee punten "
-                  "en een lat</strong>; een derde punt is een handige controle. En <strong>een "
-                  "eerstegraadsfunctie kan geen twee nulwaarden hebben</strong>: een schuine rechte snijdt de "
-                  "x-as precies één keer."),
+            ("p", r"Haar voorschrift is <strong>\(f(x) = ax + b\)</strong>, met \(a \neq 0\), en haar "
+                  r"grafiek is <strong>altijd een rechte</strong>. Daarom <strong>teken je ze het snelst "
+                  r"met twee punten en een lat</strong>; een derde punt is een handige controle. En "
+                  r"<strong>een eerstegraadsfunctie kan geen twee nulwaarden hebben</strong>: een schuine "
+                  r"rechte snijdt de \(x\)-as precies één keer."),
+            ("fig", svg.rechtegrafiek(),
+             "De rechte y = 2x + 3: b is waar ze de as snijdt, a is het trapje."),
+        ]),
+        dict(kop="Wat a en b zeggen", blokken=[
             ("kader", tabel(["letter", "wat ze zegt"],
-                            [["<strong>a, de richtingscoëfficiënt</strong>", "<strong>hoe steil de rechte loopt</strong>: de stijging per stap van 1 naar rechts"],
-                             ["<strong>b</strong>", "<strong>het beeld van 0</strong>, dus f(0) en het snijpunt met de y-as"]])),
-            ("p", "Over de richtingscoëfficiënt klopt: <strong>positief betekent stijgend</strong>, "
-                  "<strong>negatief betekent dalend</strong> en <strong>nul geeft een horizontale "
-                  "rechte</strong>. Het snijpunt met de y-as is b en niet a; b schuift de rechte enkel op of "
-                  "neer."),
-            ("p", "<strong>Uit twee punten bereken je a als het verschil in y gedeeld door het verschil in "
-                  "x.</strong> Voor de rechte door <strong>(0, 1) en (2, 7)</strong> is dat <strong>6 : 2 = "
-                  "3</strong>."),
+                            [[r"<strong>\(a\), de richtingscoëfficiënt</strong>", r"<strong>hoe steil de rechte loopt</strong>: de stijging per stap van \(1\) naar rechts"],
+                             [r"<strong>\(b\)</strong>", r"<strong>het beeld \(f(0)\)</strong>, dus het snijpunt met de \(y\)-as"]])),
+            ("p", r"Over de richtingscoëfficiënt klopt: <strong>\(a > 0\) betekent stijgend</strong>, "
+                  r"<strong>\(a < 0\) betekent dalend</strong> en <strong>\(a = 0\) geeft een horizontale "
+                  r"rechte</strong>. Het snijpunt met de \(y\)-as is \(b\) en niet \(a\); \(b\) schuift de "
+                  r"rechte enkel op of neer."),
+            ("p", r"<strong>Uit twee punten bereken je "
+                  r"\(a = \frac{y_{2} - y_{1}}{x_{2} - x_{1}}\).</strong> Voor de rechte door "
+                  r"<strong>\((0, 1)\) en \((2, 7)\)</strong> is dat <strong>\(\frac{6}{2} = 3\)</strong>."),
+        ]),
+        dict(kop="Vijf functies gelezen", blokken=[
             ("kader", tabel(["functie", "wat je meteen weet"],
-                            [["<strong>f(x) = 3x − 2</strong>", "<strong>de richtingscoëfficiënt is 3</strong>: per stap naar rechts 3 omhoog"],
-                             ["<strong>f(x) = min 2x + 7</strong>", "<strong>f(0) = 7</strong>; in nul blijft enkel b over"],
-                             ["<strong>f(x) = min 3x + 4</strong>", "<strong>de functie is dalend</strong>, <strong>de grafiek snijdt de y-as in 4</strong> en <strong>de rechte zakt 3 per stap</strong>"],
-                             ["<strong>f(x) = 2x − 6</strong>", "<strong>de nulwaarde is 3</strong>, want 2x = 6"],
-                             ["<strong>f(x) = x + 5</strong>", "<strong>de nulwaarde is min 5</strong>"]])),
+                            [[r"<strong>\(f(x) = 3x - 2\)</strong>", r"<strong>\(a = 3\)</strong>: per stap naar rechts \(3\) omhoog"],
+                             [r"<strong>\(f(x) = -2x + 7\)</strong>", r"<strong>\(f(0) = 7\)</strong>; in nul blijft enkel \(b\) over"],
+                             [r"<strong>\(f(x) = -3x + 4\)</strong>", r"<strong>de functie is dalend</strong>, <strong>de grafiek snijdt de \(y\)-as in \(4\)</strong> en <strong>de rechte zakt \(3\) per stap</strong>"],
+                             [r"<strong>\(f(x) = 2x - 6\)</strong>", r"<strong>de nulwaarde is \(3\)</strong>, want \(2x = 6\)"],
+                             [r"<strong>\(f(x) = x + 5\)</strong>", r"<strong>de nulwaarde is \(-5\)</strong>"]])),
         ]),
         dict(kop="Recht en omgekeerd evenredig", blokken=[
-            ("p", "<strong>Een recht evenredig verband is f(x) = ax, met b gelijk aan nul.</strong> Dan "
-                  "<strong>gaat de grafiek door de oorsprong</strong>, want f(0) = 0, en dubbel zoveel x "
-                  "geeft dubbel zoveel y."),
-            ("p", "<strong>Bij een omgekeerd evenredig verband is de grafiek geen rechte maar een "
-                  "hyperbool</strong>: daar blijft het product van x en y gelijk."),
+            ("p", r"<strong>Een recht evenredig verband is \(f(x) = ax\), met \(b = 0\).</strong> Dan "
+                  r"<strong>gaat de grafiek door de oorsprong</strong>, want \(f(0) = 0\), en dubbel zoveel "
+                  r"\(x\) geeft dubbel zoveel \(y\)."),
+            ("p", r"<strong>Bij een omgekeerd evenredig verband is de grafiek geen rechte maar een "
+                  r"hyperbool</strong>: daar blijft het product \(x \cdot y\) gelijk."),
         ]),
     ])
 

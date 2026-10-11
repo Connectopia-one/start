@@ -10473,3 +10473,45 @@ def merkwaardigvierkant(breedte=470):
     d.append(_tekst(x0 - 12, y0 + za / 2 + 4, "a", 11.5, DARK, "end", True))
     d.append(_tekst(x0 - 12, y0 + za + zb / 2 + 4, "b", 11.5, DARK, "end", True))
     return _svg(breedte, h, "\n".join(d))
+
+
+def verticalelijntest(breedte=470):
+    r"""Twee krommen: de ene doorstaat de verticale-lijntest, de andere niet."""
+    h = 206
+    vak = (breedte - 42) / 2
+    d = [f'<rect x="5" y="4" width="{breedte-10}" height="{h-26}" rx="7" '
+         f'fill="{PAPER}" stroke="{BORDER}" stroke-width="1.2"/>']
+    for i, (titel, onder, lukt) in enumerate([("wel een functie", "één snijpunt", True),
+                                              ("geen functie", "twee snijpunten", False)]):
+        x0, y0, hoog = 14 + i * (vak + 14), 34.0, 108.0
+        d.append(f'<rect x="{x0:.1f}" y="{y0}" width="{vak:.1f}" height="{hoog}" rx="6" '
+                 f'fill="{FOREST}" fill-opacity="0.05" stroke="{BORDER}" stroke-width="1"/>')
+        punten = []
+        n = 40
+        for j in range(n + 1):
+            u = j / n
+            if lukt:
+                px = x0 + 0.1 * vak + 0.8 * vak * u
+                py = y0 + hoog * (0.82 - 0.64 * u * u)
+            else:
+                hoek = -1.25 + 2.5 * u
+                px = x0 + vak * (0.5 + 0.34 * (hoek * hoek) / 1.56 - 0.17)
+                py = y0 + hoog * (0.5 + 0.38 * hoek / 1.25)
+            punten.append(f"{px:.1f},{py:.1f}")
+        d.append(f'<polyline points="{" ".join(punten)}" fill="none" stroke="{FOREST}" '
+                 f'stroke-width="2.4" stroke-linejoin="round"/>')
+        lx = x0 + vak * (0.62 if lukt else 0.56)
+        d.append(f'<line x1="{lx:.1f}" y1="{y0+6}" x2="{lx:.1f}" y2="{y0+hoog-6}" '
+                 f'stroke="{AMBER}" stroke-width="2" stroke-dasharray="5 4"/>')
+        if lukt:
+            u = (lx - x0 - 0.1 * vak) / (0.8 * vak)
+            d.append(f'<circle cx="{lx:.1f}" cy="{y0 + hoog*(0.82 - 0.64*u*u):.1f}" r="4.2" '
+                     f'fill="{DARK}"/>')
+        else:
+            for teken in (-1, 1):
+                hoek = teken * 1.06
+                d.append(f'<circle cx="{lx:.1f}" cy="{y0 + hoog*(0.5 + 0.38*hoek/1.25):.1f}" '
+                         f'r="4.2" fill="{DARK}"/>')
+        d.append(_tekst(x0 + vak / 2, y0 - 10, titel, 11, DARK, "middle", True))
+        d.append(_tekst(x0 + vak / 2, y0 + hoog + 18, onder, 9.5, DIM, "middle"))
+    return _svg(breedte, h, "\n".join(d))
