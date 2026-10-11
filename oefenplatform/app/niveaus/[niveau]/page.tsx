@@ -20,6 +20,7 @@ import {
 import { sorteerHoofdstukken } from "@/lib/hoofdstukvolgorde";
 import { vakIcoon } from "@/lib/vakbeeld";
 import { vindCategorienoot } from "@/inhoud/categorienoten";
+import { Categorienoot } from "@/components/Categorienoot";
 
 type Hoofdstuk = {
   id: string;
@@ -110,11 +111,7 @@ export default async function NiveauPage({
 
         {/* Voor wie deze vakken zijn. De tekst staat in
             inhoud/categorienoten.ts, zodat aanpassen geen code vraagt. */}
-        {noot && (
-          <p className="mt-4 rounded-xl border border-border bg-surface px-5 py-4 text-sm leading-relaxed text-ink-dim">
-            {noot}
-          </p>
-        )}
+        {noot && <Categorienoot noot={noot} />}
 
         {!volledigeToegang && (
           <div className="mt-6 rounded-xl border border-amber/40 bg-amber/10 px-5 py-4 text-sm text-ink">
