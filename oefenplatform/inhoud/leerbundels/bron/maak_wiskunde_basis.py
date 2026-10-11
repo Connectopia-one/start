@@ -808,83 +808,97 @@ zet("eerstegraadsvergelijkingen-en-ongelijkheden",
     onder="Vergelijkingen oplossen en het aantal oplossingen herkennen, ongelijkheden met de omkeerregel, en de grafische betekenis van positief en negatief.",
     secties=[
         dict(kop="Een eerstegraadsvergelijking oplossen", blokken=[
-            ("p", "In een <strong>eerstegraadsvergelijking in één onbekende staat de onbekende in de eerste "
-                  "macht</strong>: één letter, zonder kwadraat of hogere macht. Haar grafiek is een rechte."),
-            ("p", "Oplossen steunt op één eigenschap: <strong>aan beide kanten mag je hetzelfde doen</strong>. "
-                  "<strong>Aan beide kanten 5 bijtellen</strong>, <strong>aan beide kanten aftrekken</strong>, "
-                  "<strong>met 3 vermenigvuldigen</strong> of <strong>door 2 delen</strong> — altijd aan "
-                  "beide kanten tegelijk, want één kant veranderen breekt de gelijkheid."),
-            ("p", "De stappen: <strong>haakjes uitwerken</strong>, <strong>de onbekenden "
-                  "samenbrengen</strong> en <strong>delen door de coëfficiënt</strong>. Een grafiek hoeft "
-                  "niet voor een algebraïsche oplossing, al helpt ze bij de controle."),
+            ("p", r"In een <strong>eerstegraadsvergelijking in één onbekende staat de onbekende in de "
+                  r"eerste macht</strong>: \(ax + b = 0\), één letter, zonder kwadraat of hogere macht. "
+                  r"Haar grafiek is een rechte."),
+            ("p", r"Oplossen steunt op één eigenschap: <strong>aan beide kanten mag je hetzelfde "
+                  r"doen</strong>. <strong>Aan beide kanten \(+ 5\)</strong>, <strong>aan beide kanten "
+                  r"aftrekken</strong>, <strong>\(\cdot 3\)</strong> of <strong>\(: 2\)</strong>, altijd "
+                  r"aan beide kanten tegelijk, want één kant veranderen breekt de gelijkheid."),
+            ("p", r"De stappen: <strong>haakjes uitwerken</strong>, <strong>de onbekenden "
+                  r"samenbrengen</strong> en <strong>delen door de coëfficiënt</strong>. Een grafiek hoeft "
+                  r"niet voor een algebraïsche oplossing, al helpt ze bij de controle."),
             ("kader", tabel(["vergelijking", "tussenstap", "oplossing"],
-                            [["<strong>3x + 5 = 20</strong>", "20 − 5 = 15, dan : 3", "<strong>x = 5</strong>"],
-                             ["<strong>2x − 4 = 10</strong>", "10 + 4 = 14, dan : 2", "<strong>x = 7</strong>"],
-                             ["<strong>5x = 2x + 12</strong>", "2x naar links: 3x = 12", "<strong>x = 4</strong>"],
-                             ["<strong>4(x − 1) = 12</strong>", "4x − 4 = 12, dus 4x = 16", "<strong>x = 4</strong>"]])),
-            ("p", "<strong>Je noteert de oplossing als een oplossingenverzameling</strong>: bij een "
-                  "vergelijking een verzameling met één of enkele getallen. Een interval hoort bij een "
-                  "ongelijkheid."),
-            ("p", "<strong>Controleer je oplossing in de oorspronkelijke vergelijking, want zo vind je "
-                  "rekenfouten</strong>: vul je antwoord in, en komen links en rechts hetzelfde uit, dan "
-                  "klopt het. Dat is de reflectiestap."),
+                            [[r"<strong>\(3x + 5 = 20\)</strong>", r"\(3x = 15\), dan \(: 3\)", r"<strong>\(x = 5\)</strong>"],
+                             [r"<strong>\(2x - 4 = 10\)</strong>", r"\(2x = 14\), dan \(: 2\)", r"<strong>\(x = 7\)</strong>"],
+                             [r"<strong>\(5x = 2x + 12\)</strong>", r"\(2x\) naar links: \(3x = 12\)", r"<strong>\(x = 4\)</strong>"],
+                             [r"<strong>\(4(x - 1) = 12\)</strong>", r"\(4x - 4 = 12\), dus \(4x = 16\)", r"<strong>\(x = 4\)</strong>"]])),
+        ]),
+        dict(kop="De oplossing opschrijven", blokken=[
+            ("p", r"<strong>Je noteert de oplossing als een oplossingenverzameling</strong>, bijvoorbeeld "
+                  r"\(V = \{5\}\): bij een vergelijking een verzameling met één of enkele getallen. Een "
+                  r"interval hoort bij een ongelijkheid."),
+            ("p", r"<strong>Controleer je oplossing in de oorspronkelijke vergelijking, want zo vind je "
+                  r"rekenfouten</strong>: vul je antwoord in, en komen links en rechts hetzelfde uit, dan "
+                  r"klopt het. Dat is de reflectiestap."),
         ]),
         dict(kop="Niet altijd één oplossing", blokken=[
-            ("p", "<strong>Een eerstegraadsvergelijking heeft niet altijd precies één oplossing.</strong>"),
+            ("p", r"<strong>Een eerstegraadsvergelijking heeft niet altijd precies één oplossing.</strong>"),
             ("kader", tabel(["vergelijking", "wat eruit komt", "oplossingenverzameling"],
-                            [["<strong>x = x + 1</strong>", "0 = 1, en dat is vals", "<strong>de lege verzameling</strong>"],
-                             ["<strong>x = x + 5</strong>", "0 = 5", "<strong>geen enkele oplossing</strong>"],
-                             ["<strong>2x + 2 = 2(x + 1)</strong>", "links en rechts hetzelfde", "<strong>alle reële getallen</strong>"]])),
-            ("p", "<strong>De oplossing van een vergelijking van de vorm f(x) = 0 is de nulwaarde van "
-                  "f.</strong> Dat verband staat op de vakfiche; grafisch is het het snijpunt met de x-as."),
+                            [[r"<strong>\(x = x + 1\)</strong>", r"\(0 = 1\), en dat is vals", r"<strong>\(V = \emptyset\)</strong>"],
+                             [r"<strong>\(x = x + 5\)</strong>", r"\(0 = 5\)", r"<strong>geen enkele oplossing</strong>"],
+                             [r"<strong>\(2x + 2 = 2(x + 1)\)</strong>", r"links en rechts hetzelfde", r"<strong>\(V = \mathbb{R}\)</strong>"]])),
+            ("p", r"<strong>De oplossing van \(f(x) = 0\) is de nulwaarde van \(f\).</strong> Dat verband "
+                  r"staat op de vakfiche; grafisch is het het snijpunt met de \(x\)-as."),
         ]),
         dict(kop="Vraagstukken vertalen", blokken=[
-            ("p", "<strong>Een vraagstuk naar een vergelijking vertalen hoort wél bij de leerstof</strong>; "
-                  "de vakfiche vraagt het uitdrukkelijk."),
+            ("p", r"<strong>Een vraagstuk naar een vergelijking vertalen hoort wél bij de "
+                  r"leerstof</strong>; de vakfiche vraagt het uitdrukkelijk."),
             ("kader", tabel(["vraagstuk", "de vergelijking", "antwoord"],
-                            [["<strong>een getal plus zijn dubbele is 21</strong>", "<strong>x + 2x = 21</strong>", "x = 7"],
-                             ["<strong>drie opeenvolgende getallen met som 24</strong>", "(x − 1) + x + (x + 1) = 3x = 24", "<strong>het middelste is 8</strong>"],
-                             ["<strong>twee getallen schelen 6, hun som is 20</strong>", "x + (x + 6) = 20", "<strong>het kleinste is 7</strong>, het andere 13"],
-                             ["<strong>een abonnement van 20 euro plus 3 euro per uur, wanneer kost het 50 euro?</strong>", "20 + 3x = 50", "<strong>na 10 uur</strong>"]])),
+                            [[r"<strong>een getal plus zijn dubbele is \(21\)</strong>", r"<strong>\(x + 2x = 21\)</strong>", r"\(x = 7\)"],
+                             [r"<strong>drie opeenvolgende getallen met som \(24\)</strong>", r"\((x-1) + x + (x+1) = 3x = 24\)", r"<strong>het middelste is \(8\)</strong>"],
+                             [r"<strong>twee getallen schelen \(6\), hun som is \(20\)</strong>", r"\(x + (x + 6) = 20\)", r"<strong>het kleinste is \(7\)</strong>, het andere \(13\)"],
+                             [r"<strong>een abonnement van \(20\) euro plus \(3\) euro per uur, wanneer kost het \(50\) euro?</strong>", r"\(20 + 3x = 50\)", r"<strong>na \(10\) uur</strong>"]])),
         ]),
-        dict(kop="Ongelijkheden", blokken=[
-            ("p", "Bijna alles blijft hetzelfde, op één regel na: <strong>deel of vermenigvuldig je met een "
-                  "negatief getal, dan keert het ongelijkheidsteken om</strong>. Dat is de klassieke valkuil. "
-                  "<strong>Bij optellen aan beide kanten blijft het teken gewoon staan.</strong>"),
+        dict(kop="Ongelijkheden en de omkeerregel", blokken=[
+            ("p", r"Bijna alles blijft hetzelfde, op één regel na: <strong>deel of vermenigvuldig je met "
+                  r"een negatief getal, dan keert het ongelijkheidsteken om</strong>. Dat is de klassieke "
+                  r"valkuil. <strong>Bij optellen aan beide kanten blijft het teken gewoon staan.</strong>"),
             ("kader", tabel(["ongelijkheid", "wat je doet", "oplossing"],
-                            [["<strong>2x &gt; 10</strong>", "delen door 2, positief, teken blijft", "<strong>x &gt; 5</strong>"],
-                             ["<strong>x + 4 &gt; 9</strong>", "4 aftrekken", "<strong>x &gt; 5</strong>, de 5 zelf hoort er niet bij"],
-                             ["<strong>3x − 2 &lt; 7</strong>", "3x &lt; 9, delen door 3", "<strong>x &lt; 3</strong>"],
-                             ["<strong>min 3x &gt; 9</strong>", "delen door min 3, <strong>teken omkeren</strong>", "<strong>x &lt; min 3</strong>"],
-                             ["<strong>min x &gt; min 4</strong>", "maal min 1, <strong>teken omkeren</strong>", "<strong>x &lt; 4</strong>"]])),
-            ("p", "<strong>Je mag dus niet zonder nadenken met min 1 vermenigvuldigen</strong>: vergeet je "
-                  "het teken om te keren, dan krijg je precies de verkeerde helft van de getallenas. "
-                  "<strong>Controleer daarom één getal uit je oplossing</strong>: klopt de ongelijkheid, dan "
-                  "koos je de juiste kant."),
-            ("p", "De stappen: <strong>de onbekende vrijmaken</strong>, <strong>het teken omkeren bij een "
-                  "negatieve deler</strong> en <strong>de oplossing als interval noteren</strong>. Een top "
-                  "hoort bij een parabool, niet hier."),
-            ("p", "<strong>De oplossing van x ≥ 2 is het interval vanaf 2 gesloten</strong>, want het "
-                  "isgelijkteken zit erin. Bij <strong>x &lt; 3</strong> zijn <strong>2</strong>, "
-                  "<strong>0</strong> en <strong>min 5</strong> oplossingen, maar 3 zelf niet. <strong>Een "
-                  "oplossing van een ongelijkheid bestaat meestal uit oneindig veel getallen</strong>, en "
-                  "daarom noteer je ze als interval en niet als lijst. <strong>Op een getallenas kan je ze "
-                  "ook voorstellen</strong>, met open of volle bolletjes aan de grens; de vakfiche vraagt "
-                  "dat."),
-            ("p", "Een voorbeeld uit het leven: <strong>een taxi kost 5 euro plus 2 euro per kilometer en je "
-                  "hebt 25 euro</strong>, dus 5 + 2x ≤ 25, 2x ≤ 20 en je kan <strong>ten hoogste 10 "
-                  "kilometer</strong>."),
+                            [[r"<strong>\(2x > 10\)</strong>", r"\(: 2\), positief, teken blijft", r"<strong>\(x > 5\)</strong>"],
+                             [r"<strong>\(x + 4 > 9\)</strong>", r"\(4\) aftrekken", r"<strong>\(x > 5\)</strong>, de \(5\) zelf hoort er niet bij"],
+                             [r"<strong>\(3x - 2 < 7\)</strong>", r"\(3x < 9\), dan \(: 3\)", r"<strong>\(x < 3\)</strong>"],
+                             [r"<strong>\(-3x > 9\)</strong>", r"\(: (-3)\), <strong>teken omkeren</strong>", r"<strong>\(x < -3\)</strong>"],
+                             [r"<strong>\(-x > -4\)</strong>", r"\(\cdot (-1)\), <strong>teken omkeren</strong>", r"<strong>\(x < 4\)</strong>"]])),
+        ]),
+        dict(kop="De valkuil en de controle", blokken=[
+            ("p", r"<strong>Je mag dus niet zonder nadenken met \(-1\) vermenigvuldigen</strong>: vergeet "
+                  r"je het teken om te keren, dan krijg je precies de verkeerde helft van de getallenas. "
+                  r"<strong>Controleer daarom één getal uit je oplossing</strong>: klopt de ongelijkheid, "
+                  r"dan koos je de juiste kant."),
+            ("p", r"De stappen: <strong>de onbekende vrijmaken</strong>, <strong>het teken omkeren bij een "
+                  r"negatieve deler</strong> en <strong>de oplossing als interval noteren</strong>. Een top "
+                  r"hoort bij een parabool, niet hier."),
+        ]),
+        dict(kop="De oplossing als interval", blokken=[
+            ("p", r"<strong>De oplossing van \(x \geq 2\) is \(\left[2, +\infty\right[\)</strong>, want het "
+                  r"\(=\)-teken zit erin en het haakje staat naar binnen. Bij <strong>\(x < 3\)</strong> "
+                  r"zijn <strong>\(2\)</strong>, <strong>\(0\)</strong> en <strong>\(-5\)</strong> "
+                  r"oplossingen, maar \(3\) zelf niet: het teken is strikt, dus vanaf die grens telt het getal zelf niet mee. <strong>Een oplossing van een ongelijkheid bestaat "
+                  r"meestal uit oneindig veel getallen</strong>, en daarom noteer je ze als interval en "
+                  r"niet als lijst."),
+            ("fig", svg.intervallen(),
+             "Een vol bolletje telt de grens mee, een open bolletje niet."),
+            ("p", r"<strong>Op een getallenas kan je de oplossing ook voorstellen</strong>, met open of "
+                  r"volle bolletjes aan de grens; de vakfiche vraagt dat. Een voorbeeld uit het leven: "
+                  r"<strong>een taxi kost \(5\) euro plus \(2\) euro per kilometer en je hebt \(25\) "
+                  r"euro</strong>, dus \(5 + 2x \leq 25\), \(2x \leq 20\) en je kan <strong>ten hoogste "
+                  r"\(10\) km</strong>."),
         ]),
         dict(kop="Grafisch lezen", blokken=[
-            ("p", "<strong>Een vergelijking los je grafisch op door het snijpunt van de grafieken te "
-                  "zoeken</strong>: de x van dat punt is de oplossing. Bij f(x) = 0 is dat het snijpunt met "
-                  "de x-as."),
-            ("kader", tabel(["uitspraak", "waar de grafiek ligt"],
-                            [["<strong>f(x) &gt; 0</strong>", "<strong>boven de x-as</strong>"],
-                             ["<strong>f(x) &lt; 0</strong>", "<strong>onder de x-as</strong>"]])),
-            ("p", "<strong>Een stijgende rechte die de x-as snijdt in 4, is positief rechts van 4.</strong> "
-                  "<strong>Bij een dalende rechte is het net omgekeerd</strong>: ze komt van boven en duikt "
-                  "na haar nulpunt onder de as, dus links is ze positief."),
+            ("p", r"<strong>Een vergelijking los je grafisch op door het snijpunt van de grafieken te "
+                  r"zoeken</strong>: de \(x\) van dat punt is de oplossing. Bij \(f(x) = 0\) is dat het "
+                  r"snijpunt met de \(x\)-as."),
+        ]),
+        dict(kop="Boven of onder de as", blokken=[
+            ("fig", svg.tekenverloop(),
+             "Een stijgende rechte met nulwaarde 4: links ligt ze onder de as, rechts erboven."),
+            ("p", r"<strong>\(f(x) > 0\) betekent dat de grafiek boven de \(x\)-as ligt</strong>, daar "
+                  r"is de functie positief, en <strong>\(f(x) < 0\) dat ze eronder ligt</strong>, daar is "
+                  r"de functie negatief. <strong>Een stijgende rechte die de \(x\)-as snijdt in \(4\), is "
+                  r"positief voor \(x > 4\).</strong> <strong>Bij een dalende rechte is het net "
+                  r"omgekeerd</strong>: ze komt van boven en duikt na haar nulpunt onder de as, dus links "
+                  r"is de functie positief."),
         ]),
     ])
 

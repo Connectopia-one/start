@@ -892,48 +892,101 @@ zet("eerstegraadsvergelijkingen-en-ongelijkheden",
         dict(kop="Los op",
              opdracht="Schrijf de oplossing op.",
              oefeningen=[
-                 ("rij", [("3x + 5 = 20", "x = 5"), ("7 − 2x = 1", "x = 3"),
-                          ("4(x − 3) = 8", "x = 5"), ("x/4 + 2 = 5", "x = 12"),
-                          ("5x − 3 = 2x + 9", "x = 4"),
-                          ("2(x + 1) = 3(x − 2)", "x = 8")],
-                  "Wat is x?", W),
-                 ("open", "Los op en schrijf je tussenstappen: (x − 1)/3 + 2 = x/2.",
-                  "Vermenigvuldig alles met 6: 2(x − 1) + 12 = 3x, dus 2x − 2 + 12 = 3x, "
-                  "2x + 10 = 3x, x = 10.", 4),
-                 ("open", "Wat betekent het als je bij het oplossen 0 = 5 uitkomt?",
-                  "Er is geen enkele oplossing: de vergelijking is strijdig.", 2),
-                 ("open", "En als je 0 = 0 uitkomt?",
-                  "Elke x is een oplossing: de vergelijking is een identiteit.", 2),
+                 ("rij", [("\\(3x + 5 = 20\\)", "\\(x = 5\\)"),
+                          ("\\(7 - 2x = 1\\)", "\\(x = 3\\)"),
+                          ("\\(4(x - 3) = 8\\)", "\\(x = 5\\)")],
+                  "Wat is \\(x\\)?", W),
+             ]),
+        dict(kop="Nog eens oplossen",
+             opdracht="Schrijf de oplossing op.",
+             oefeningen=[
+                 ("rij", [("\\(\\frac{x}{4} + 2 = 5\\)", "\\(x = 12\\)"),
+                          ("\\(5x - 3 = 2x + 9\\)", "\\(x = 4\\)"),
+                          ("\\(2(x + 1) = 3(x - 2)\\)", "\\(x = 8\\)")],
+                  "Wat is \\(x\\)?", W),
+             ]),
+        dict(kop="Met breuken",
+             opdracht="Schrijf al je tussenstappen op.",
+             oefeningen=[
+                 ("open", "Los op: \\(\\frac{x - 1}{3} + 2 = \\frac{x}{2}\\).",
+                  "Vermenigvuldig alles met \\(6\\): \\(2(x - 1) + 12 = 3x\\), dus "
+                  "\\(2x + 10 = 3x\\) en \\(x = 10\\).", 4),
+             ]),
+        dict(kop="Wat betekent dat?",
+             opdracht="Antwoord in een volle zin.",
+             oefeningen=[
+                 ("open", "Wat betekent het als je bij het oplossen \\(0 = 5\\) uitkomt?",
+                  "Er is geen enkele oplossing: de vergelijking is strijdig, \\(V = \\emptyset\\).", 2),
+                 ("open", "En als je \\(0 = 0\\) uitkomt?",
+                  "Elke \\(x\\) is een oplossing: de vergelijking is een identiteit, "
+                  "\\(V = \\mathbb{R}\\).", 2),
              ]),
         dict(kop="Ongelijkheden",
              opdracht="Los op en schrijf de oplossing als interval.",
              oefeningen=[
-                 ("rij", [("2x + 1 &gt; 9", "x &gt; 4, dus ]4, +∞["),
-                          ("−3x ≥ 12", "x ≤ −4, dus ]−∞, −4]"),
-                          ("x/2 − 1 &lt; 3", "x &lt; 8, dus ]−∞, 8["),
-                          ("5 − x ≤ 2", "x ≥ 3, dus [3, +∞["),
-                          ("4x + 3 &lt; x − 6", "x &lt; −3, dus ]−∞, −3["),
-                          ("−2(x − 1) &gt; 6", "x &lt; −2, dus ]−∞, −2[")],
-                  "Wat is de oplossing?", WL),
-                 ("open", "Waarom draait het teken om bij −3x ≥ 12?",
-                  "Je deelt beide leden door een negatief getal; dan keert de volgorde van de "
-                  "getallen om en moet het ongelijkheidsteken mee omdraaien.", 3),
+                 ("rij", [("\\(2x + 1 > 9\\)", "\\(x > 4\\), dus \\(\\left]4, +\\infty\\right[\\)"),
+                          ("\\(-3x \\geq 12\\)", "\\(x \\leq -4\\), dus \\(\\left]-\\infty, -4\\right]\\)"),
+                          ("\\(\\frac{x}{2} - 1 < 3\\)", "\\(x < 8\\), dus \\(\\left]-\\infty, 8\\right[\\)")],
+                  "Oplossing", WL),
+             ]),
+        dict(kop="Nog drie ongelijkheden",
+             opdracht="Los op en schrijf de oplossing als interval.",
+             oefeningen=[
+                 ("rij", [("\\(5 - x \\leq 2\\)", "\\(x \\geq 3\\), dus \\(\\left[3, +\\infty\\right[\\)"),
+                          ("\\(4x + 3 < x - 6\\)", "\\(x < -3\\), dus \\(\\left]-\\infty, -3\\right[\\)"),
+                          ("\\(-2(x - 1) > 6\\)", "\\(x < -2\\), dus \\(\\left]-\\infty, -2\\right[\\)")],
+                  "Oplossing", WL),
+             ]),
+        dict(kop="De omkeerregel",
+             opdracht="Antwoord en verantwoord.",
+             oefeningen=[
+                 ("open", "Waarom keert het teken om bij \\(-3x \\geq 12\\)?",
+                  "Je deelt beide leden door een negatief getal; dan keert de volgorde van de getallen "
+                  "om en moet het ongelijkheidsteken mee omdraaien.", 3),
+                 ("waar", "Bij \\(x + 7 < 10\\) moet het teken omkeren.", False),
+             ]),
+        dict(kop="Op de getallenas",
+             opdracht="Teken de oplossing met een open of een vol bolletje aan de grens.",
+             oefeningen=[
+                 ("teken", "Teken de oplossing van \\(x \\geq -1\\).",
+                  "Een vol bolletje op \\(-1\\) en een streep naar rechts: "
+                  "\\(\\left[-1, +\\infty\\right[\\).", 30),
+             ]),
+        dict(kop="En nog een",
+             opdracht="Let op het soort bolletje.",
+             oefeningen=[
+                 ("teken", "Teken de oplossing van \\(x < 2\\).",
+                  "Een open bolletje op \\(2\\) en een streep naar links: "
+                  "\\(\\left]-\\infty, 2\\right[\\).", 30),
              ]),
         dict(kop="Vraagstukken",
              opdracht="Stel een vergelijking op en los ze op.",
              oefeningen=[
-                 ("open", "Een taxi vraagt 3,50 euro opstapgeld en 1,80 euro per kilometer. "
-                          "Hoeveel kilometer rijd je voor 30,50 euro?",
-                  "3,50 + 1,80x = 30,50, dus 1,80x = 27, x = 15 km.", 3),
-                 ("open", "Lotte is drie keer zo oud als haar broer. Samen zijn ze 32. Hoe oud "
+                 ("open", "Een taxi vraagt \\(3{,}50\\) euro opstapgeld en \\(1{,}80\\) euro per "
+                          "kilometer. Hoeveel kilometer rijd je voor \\(30{,}50\\) euro?",
+                  "\\(3{,}50 + 1{,}80x = 30{,}50\\), dus \\(1{,}80x = 27\\) en \\(x = 15\\) km.", 3),
+                 ("open", "Lotte is drie keer zo oud als haar broer. Samen zijn ze \\(32\\). Hoe oud "
                           "is elk?",
-                  "x + 3x = 32, dus 4x = 32 en x = 8. De broer is 8 en Lotte is 24.", 3),
-                 ("open", "Een rechthoek is 4 cm langer dan breed en heeft een omtrek van 36 "
-                          "cm. Hoe groot is ze?",
-                  "2(b + 4 + b) = 36, dus 4b + 8 = 36, b = 7 en l = 11 cm.", 3),
-                 ("open", "Een abonnement kost 12 euro per maand plus 0,05 euro per minuut. "
-                          "Vanaf hoeveel minuten betaal je meer dan 20 euro?",
-                  "12 + 0,05x &gt; 20, dus 0,05x &gt; 8 en x &gt; 160 minuten.", 3),
+                  "\\(x + 3x = 32\\), dus \\(4x = 32\\) en \\(x = 8\\). De broer is \\(8\\) en Lotte "
+                          "is \\(24\\).", 3),
+             ]),
+        dict(kop="Nog twee vraagstukken",
+             opdracht="Stel een vergelijking of een ongelijkheid op.",
+             oefeningen=[
+                 ("open", "Een rechthoek is \\(4\\) cm langer dan breed en heeft \\(P = 36\\) cm. Hoe "
+                          "groot is ze?",
+                  "\\(2(b + 4 + b) = 36\\), dus \\(4b + 8 = 36\\), \\(b = 7\\) en \\(l = 11\\) cm.", 3),
+                 ("open", "Een abonnement kost \\(12\\) euro per maand plus \\(0{,}05\\) euro per "
+                          "minuut. Vanaf hoeveel minuten betaal je meer dan \\(20\\) euro?",
+                  "\\(12 + 0{,}05x > 20\\), dus \\(0{,}05x > 8\\) en \\(x > 160\\) minuten.", 3),
+             ]),
+        dict(kop="Grafisch lezen",
+             opdracht="Antwoord kort.",
+             oefeningen=[
+                 ("kort", "Een stijgende rechte snijdt de \\(x\\)-as in \\(-2\\). Voor welke \\(x\\) is "
+                          "\\(f(x) > 0\\)?", "\\(x > -2\\)", WW),
+                 ("kort", "Een dalende rechte snijdt de \\(x\\)-as in \\(5\\). Voor welke \\(x\\) is "
+                          "\\(f(x) < 0\\)?", "\\(x > 5\\)", WW),
              ]),
     ])
 

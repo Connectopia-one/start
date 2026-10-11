@@ -10382,3 +10382,40 @@ def lettervrijmaken(breedte=470):
                      f'stroke-width="1.8" fill="none" stroke-linecap="round"/>')
         y += 62
     return _svg(breedte, h, "\n".join(d))
+
+
+def tekenverloop(breedte=470):
+    r"""Een stijgende rechte met nulpunt 4: links onder de as, rechts erboven."""
+    h = 232
+    ox, oy = 198.0, 128.0
+    u = 26.0
+    nul = ox + 4 * u
+    d = [f'<rect x="5" y="4" width="{breedte-10}" height="{h-26}" rx="7" '
+         f'fill="{PAPER}" stroke="{BORDER}" stroke-width="1.2"/>']
+    # de twee halve vlakken
+    d.append(f'<rect x="30" y="{oy-70}" width="{nul-30}" height="70" fill="{DIM}" '
+             f'fill-opacity="0.07"/>')
+    d.append(f'<rect x="{nul}" y="{oy-70}" width="{440-nul}" height="70" fill="{FOREST}" '
+             f'fill-opacity="0.09"/>')
+    d.append(f'<rect x="30" y="{oy}" width="{nul-30}" height="60" fill="{AMBER}" '
+             f'fill-opacity="0.09"/>')
+    # de assen
+    d.append(f'<line x1="30" y1="{oy}" x2="440" y2="{oy}" stroke="{INK}" stroke-width="1.5"/>')
+    d.append(f'<line x1="{ox}" y1="{oy-74}" x2="{ox}" y2="{oy+64}" stroke="{INK}" stroke-width="1.5"/>')
+    for i in range(1, 7):
+        d.append(f'<line x1="{ox+i*u}" y1="{oy-4}" x2="{ox+i*u}" y2="{oy+4}" stroke="{DIM}" '
+                 f'stroke-width="1.2"/>')
+        d.append(_tekst(ox + i * u, oy + 17, str(i), 8.5, DIM, "middle"))
+    d.append(_tekst(430, oy + 17, "x", 10, DIM, "middle"))
+    # de rechte y = x - 4 (rico 1), van x = -2 tot x = 7
+    x1, y1 = ox - 2 * u, oy - (-2 - 4) * u * 0.42
+    x2, y2 = ox + 7 * u, oy - (7 - 4) * u * 0.42
+    d.append(f'<line x1="{x1:.1f}" y1="{y1:.1f}" x2="{x2:.1f}" y2="{y2:.1f}" stroke="{DARK}" '
+             f'stroke-width="2.6"/>')
+    d.append(f'<circle cx="{nul}" cy="{oy}" r="4.6" fill="{DARK}"/>')
+    d.append(_tekst(nul, oy - 12, "nulwaarde", 9.5, DARK, "middle", True))
+    d.append(_tekst((30 + nul) / 2 - 32, oy + 34, "f(x) < 0", 11.5, AMBER, "middle", True))
+    d.append(_tekst((nul + 440) / 2, oy - 46, "f(x) > 0", 11.5, FOREST, "middle", True))
+    d.append(_tekst((30 + nul) / 2 - 32, oy + 50, "onder de x-as", 9.5, DIM, "middle"))
+    d.append(_tekst((nul + 440) / 2, oy - 30, "boven de x-as", 9.5, DIM, "middle"))
+    return _svg(breedte, h, "\n".join(d))

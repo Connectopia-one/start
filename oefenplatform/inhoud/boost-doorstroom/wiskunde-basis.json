@@ -3629,40 +3629,40 @@
             "er is geen onbekende"
           ],
           "antwoord": 0,
-          "uitleg": "Eén letter, zonder kwadraat of hogere macht. Haar grafiek is een rechte."
+          "uitleg": "Eén letter, zonder kwadraat of hogere macht: \\(ax + b = 0\\). Haar grafiek is een rechte."
         },
         {
           "type": "meerkeuze",
-          "vraag": "Los op: 3x plus 5 is 20.",
+          "vraag": "Los op: \\(3x + 5 = 20\\).",
           "opties": [
-            "x is 5",
-            "x is 15 in totaal",
-            "x is 25 in totaal",
-            "x is 3 in totaal"
+            "\\(x = 5\\)",
+            "\\(x = 15\\)",
+            "\\(x = 25\\)",
+            "\\(x = 3\\)"
           ],
           "antwoord": 0,
-          "uitleg": "20 min 5 is 15, en 15 gedeeld door 3 is 5."
+          "uitleg": "\\(3x = 15\\) en \\(x = \\frac{15}{3} = 5\\)."
         },
         {
           "type": "invultekst",
-          "vraag": "Los op: 2x min 4 is 10. Een getal.",
+          "vraag": "Los op: \\(2x - 4 = 10\\). Een getal.",
           "antwoord": [
             "7",
             "zeven"
           ],
-          "uitleg": "10 plus 4 is 14, en 14 gedeeld door 2 is 7."
+          "uitleg": "\\(2x = 14\\) en \\(x = 7\\)."
         },
         {
           "type": "meerkeuze",
-          "vraag": "Los op: 5x is 2x plus 12.",
+          "vraag": "Los op: \\(5x = 2x + 12\\).",
           "opties": [
-            "x is 4",
-            "x is 12 in totaal",
-            "x is 3 in totaal",
-            "x is 6 in totaal"
+            "\\(x = 4\\)",
+            "\\(x = 12\\)",
+            "\\(x = 3\\)",
+            "\\(x = 6\\)"
           ],
           "antwoord": 0,
-          "uitleg": "Breng 2x naar links: 3x is 12, dus x is 4."
+          "uitleg": "Breng \\(2x\\) naar links: \\(3x = 12\\), dus \\(x = 4\\)."
         },
         {
           "type": "waarofniet",
@@ -3674,10 +3674,10 @@
           "type": "meerkeuze",
           "vraag": "Welke stappen mag je bij een vergelijking zetten?",
           "opties": [
-            "aan beide kanten 5 bijtellen",
-            "aan beide kanten met 3 vermenigvuldigen",
-            "aan beide kanten door 2 delen",
-            "aan één kant 5 bijtellen"
+            "aan beide kanten \\(+ 5\\)",
+            "aan beide kanten \\(\\cdot 3\\)",
+            "aan beide kanten \\(: 2\\)",
+            "aan één kant \\(+ 5\\)"
           ],
           "antwoord": [
             0,
@@ -3688,18 +3688,18 @@
         },
         {
           "type": "invultekst",
-          "vraag": "Los op: 4 maal x min 1 is 12. Een getal.",
+          "vraag": "Los op: \\(4(x - 1) = 12\\). Een getal.",
           "antwoord": [
             "4",
             "vier"
           ],
-          "uitleg": "Werk uit: 4x min 4 is 12, dus 4x is 16 en x is 4."
+          "uitleg": "Werk de haakjes uit: \\(4x - 4 = 12\\), dus \\(4x = 16\\) en \\(x = 4\\)."
         },
         {
           "type": "meerkeuze",
           "vraag": "Hoe noteer je de oplossing van een vergelijking?",
           "opties": [
-            "als een oplossingenverzameling",
+            "als een oplossingenverzameling, bijvoorbeeld \\(V = \\{5\\}\\)",
             "als een interval op de getallenas",
             "als een grafiek met twee rechten",
             "als een tabel met waarden erin"
@@ -3711,41 +3711,41 @@
           "type": "waarofniet",
           "vraag": "Een eerstegraadsvergelijking heeft altijd precies één oplossing.",
           "antwoord": false,
-          "uitleg": "Soms geen enkele, zoals bij x is x plus 1, en soms alle getallen, zoals bij 2x is 2x."
+          "uitleg": "Soms geen enkele, zoals bij \\(x = x + 1\\), en soms alle getallen, zoals bij \\(2x = 2x\\)."
         },
         {
           "type": "meerkeuze",
-          "vraag": "Wat is de oplossingenverzameling van x is x plus 1?",
+          "vraag": "Wat is de oplossingenverzameling van \\(x = x + 1\\)?",
           "opties": [
-            "de lege verzameling",
-            "alle reële getallen",
-            "enkel nul",
-            "enkel 1"
+            "\\(V = \\emptyset\\)",
+            "\\(V = \\mathbb{R}\\)",
+            "\\(V = \\{0\\}\\)",
+            "\\(V = \\{1\\}\\)"
           ],
           "antwoord": 0,
-          "uitleg": "Trek x af aan beide kanten en je krijgt 0 is 1. Dat kan niet, dus er is geen oplossing."
+          "uitleg": "Trek \\(x\\) af aan beide kanten en je krijgt \\(0 = 1\\). Dat kan niet, dus er is geen oplossing."
         },
         {
           "type": "meerkeuze",
-          "vraag": "Wat is de oplossingenverzameling van 2x plus 2 is 2 maal x plus 1?",
+          "vraag": "Wat is de oplossingenverzameling van \\(2x + 2 = 2(x + 1)\\)?",
           "opties": [
-            "alle reële getallen",
-            "de lege verzameling",
-            "enkel nul",
-            "enkel 1"
+            "\\(V = \\mathbb{R}\\)",
+            "\\(V = \\emptyset\\)",
+            "\\(V = \\{0\\}\\)",
+            "\\(V = \\{1\\}\\)"
           ],
           "antwoord": 0,
-          "uitleg": "Rechts staat na uitwerken ook 2x plus 2. Beide kanten zijn gelijk voor elke x."
+          "uitleg": "Rechts staat na uitwerken ook \\(2x + 2\\). Beide kanten zijn gelijk voor elke \\(x\\)."
         },
         {
           "type": "invultekst",
-          "vraag": "Hoeveel oplossingen heeft de vergelijking x is x plus 5? Een getal.",
+          "vraag": "Hoeveel oplossingen heeft \\(x = x + 5\\)? Een getal.",
           "antwoord": [
             "0",
             "nul",
             "geen"
           ],
-          "uitleg": "Geen enkele. Je komt uit op 0 is 5, en dat is vals."
+          "uitleg": "Geen enkele. Je komt uit op \\(0 = 5\\), en dat is vals."
         },
         {
           "type": "waarofniet",
@@ -3755,42 +3755,42 @@
         },
         {
           "type": "meerkeuze",
-          "vraag": "Een getal plus zijn dubbele is 21. Welke vergelijking hoort erbij?",
+          "vraag": "Een getal plus zijn dubbele is \\(21\\). Welke vergelijking hoort erbij?",
           "opties": [
-            "x plus 2x is 21",
-            "x maal 2x is 21",
-            "x plus 2 is 21",
-            "2x min x is 21"
+            "\\(x + 2x = 21\\)",
+            "\\(x \\cdot 2x = 21\\)",
+            "\\(x + 2 = 21\\)",
+            "\\(2x - x = 21\\)"
           ],
           "antwoord": 0,
-          "uitleg": "Het dubbele is 2x. Samen 3x is 21, dus x is 7."
+          "uitleg": "Het dubbele is \\(2x\\). Samen \\(3x = 21\\), dus \\(x = 7\\)."
         },
         {
           "type": "meerkeuze",
-          "vraag": "Drie opeenvolgende getallen hebben som 24. Wat is het middelste?",
+          "vraag": "Drie opeenvolgende getallen hebben som \\(24\\). Wat is het middelste?",
           "opties": [
-            "8",
-            "7 in totaal",
-            "9 in totaal",
-            "12 in totaal"
+            "\\(8\\)",
+            "\\(7\\)",
+            "\\(9\\)",
+            "\\(12\\)"
           ],
           "antwoord": 0,
-          "uitleg": "Noem het middelste x: x min 1 plus x plus x plus 1 is 3x, dus 24. Dan is x 8."
+          "uitleg": "Noem het middelste \\(x\\): \\((x-1) + x + (x+1) = 3x = 24\\), dus \\(x = 8\\)."
         },
         {
           "type": "invultekst",
-          "vraag": "Twee getallen schelen 6 en hun som is 20. Wat is het kleinste? Een getal.",
+          "vraag": "Twee getallen schelen \\(6\\) en hun som is \\(20\\). Wat is het kleinste? Een getal.",
           "antwoord": [
             "7",
             "zeven"
           ],
-          "uitleg": "x plus x plus 6 is 20, dus 2x is 14 en x is 7. Het andere is 13."
+          "uitleg": "\\(x + (x + 6) = 20\\), dus \\(2x = 14\\) en \\(x = 7\\). Het andere is \\(13\\)."
         },
         {
           "type": "waarofniet",
-          "vraag": "De oplossing van een vergelijking van de vorm f van x is nul, is de nulwaarde van f.",
+          "vraag": "De oplossing van \\(f(x) = 0\\) is de nulwaarde van \\(f\\).",
           "antwoord": true,
-          "uitleg": "Dat verband staat op de vakfiche. Grafisch is het het snijpunt met de x-as."
+          "uitleg": "Dat verband staat op de vakfiche. Grafisch is het het snijpunt met de \\(x\\)-as."
         },
         {
           "type": "meerkeuze",
@@ -3822,15 +3822,15 @@
         },
         {
           "type": "meerkeuze",
-          "vraag": "Een abonnement kost 20 euro plus 3 euro per uur. Wanneer kost het 50 euro?",
+          "vraag": "Een abonnement kost \\(20\\) euro plus \\(3\\) euro per uur. Wanneer kost het \\(50\\) euro?",
           "opties": [
-            "na 10 uur",
-            "na 15 uur",
-            "na 30 uur",
-            "na 5 uur"
+            "na \\(10\\) uur",
+            "na \\(15\\) uur",
+            "na \\(30\\) uur",
+            "na \\(5\\) uur"
           ],
           "antwoord": 0,
-          "uitleg": "20 plus 3x is 50, dus 3x is 30 en x is 10."
+          "uitleg": "\\(20 + 3x = 50\\), dus \\(3x = 30\\) en \\(x = 10\\)."
         }
       ]
     },
@@ -3841,48 +3841,48 @@
       "vragen": [
         {
           "type": "meerkeuze",
-          "vraag": "Wat gebeurt er met het ongelijkheidsteken als je door min 2 deelt?",
+          "vraag": "Wat gebeurt er met het ongelijkheidsteken als je door \\(-2\\) deelt?",
           "opties": [
             "het keert om",
             "het blijft gelijk",
             "het verdwijnt",
-            "het wordt een isgelijkteken"
+            "het wordt een \\(=\\)-teken"
           ],
           "antwoord": 0,
           "uitleg": "Delen of vermenigvuldigen met een negatief getal keert de ongelijkheid om. De klassieke valkuil."
         },
         {
           "type": "meerkeuze",
-          "vraag": "Los op: 2x groter dan 10.",
+          "vraag": "Los op: \\(2x > 10\\).",
           "opties": [
-            "x groter dan 5",
-            "x kleiner dan 5",
-            "x groter dan 20",
-            "x kleiner dan 20"
+            "\\(x > 5\\)",
+            "\\(x < 5\\)",
+            "\\(x > 20\\)",
+            "\\(x < 20\\)"
           ],
           "antwoord": 0,
-          "uitleg": "Deel door 2, een positief getal, dus het teken blijft staan."
+          "uitleg": "Deel door \\(2\\), een positief getal, dus het teken blijft staan."
         },
         {
           "type": "meerkeuze",
-          "vraag": "Los op: min 3x groter dan 9.",
+          "vraag": "Los op: \\(-3x > 9\\).",
           "opties": [
-            "x kleiner dan min 3",
-            "x groter dan min 3",
-            "x kleiner dan 3",
-            "x groter dan 3"
+            "\\(x < -3\\)",
+            "\\(x > -3\\)",
+            "\\(x < 3\\)",
+            "\\(x > 3\\)"
           ],
           "antwoord": 0,
-          "uitleg": "Deel door min 3 en keer het teken om: x kleiner dan min 3."
+          "uitleg": "Deel door \\(-3\\) en keer het teken om: \\(x < -3\\)."
         },
         {
           "type": "invultekst",
-          "vraag": "Los op: x plus 4 groter dan 9. Vanaf welk getal, strikt? Een getal.",
+          "vraag": "Los op: \\(x + 4 > 9\\). Vanaf welk getal, strikt? Een getal.",
           "antwoord": [
             "5",
             "vijf"
           ],
-          "uitleg": "Trek 4 af: x groter dan 5. Het getal 5 zelf hoort er niet bij."
+          "uitleg": "\\(x > 5\\). Het getal \\(5\\) zelf hoort er niet bij: \\(V = \\left]5, +\\infty\\right[\\)."
         },
         {
           "type": "waarofniet",
@@ -3892,40 +3892,40 @@
         },
         {
           "type": "meerkeuze",
-          "vraag": "Hoe noteer je de oplossing van x groter dan of gelijk aan 2?",
+          "vraag": "Hoe noteer je de oplossing van \\(x \\geq 2\\)?",
           "opties": [
-            "het interval vanaf 2 gesloten",
-            "het interval vanaf 2 open",
-            "het interval tot 2 gesloten",
-            "de lege verzameling"
+            "\\(\\left[2, +\\infty\\right[\\)",
+            "\\(\\left]2, +\\infty\\right[\\)",
+            "\\(\\left]-\\infty, 2\\right]\\)",
+            "\\(\\emptyset\\)"
           ],
           "antwoord": 0,
-          "uitleg": "Het isgelijkteken zit erin, dus 2 hoort bij de oplossingen."
+          "uitleg": "Het \\(=\\)-teken zit erin, dus \\(2\\) hoort bij de oplossingen en het haakje staat naar binnen."
         },
         {
           "type": "meerkeuze",
-          "vraag": "Welke getallen zijn een oplossing van x kleiner dan 3?",
+          "vraag": "Welke getallen zijn een oplossing van \\(x < 3\\)?",
           "opties": [
-            "het getal 2",
-            "het getal 0",
-            "min 5",
-            "het getal 3"
+            "\\(2\\)",
+            "\\(0\\)",
+            "\\(-5\\)",
+            "\\(3\\)"
           ],
           "antwoord": [
             0,
             1,
             2
           ],
-          "uitleg": "Alles links van 3 op de getallenas. Het getal 3 zelf valt erbuiten, want het teken is strikt."
+          "uitleg": "Alles links van \\(3\\) op de getallenas. Het getal \\(3\\) zelf valt erbuiten, want het teken is strikt."
         },
         {
           "type": "invultekst",
-          "vraag": "Los op: min x groter dan min 4. Kleiner dan welk getal? Een getal.",
+          "vraag": "Los op: \\(-x > -4\\). Kleiner dan welk getal? Een getal.",
           "antwoord": [
             "4",
             "vier"
           ],
-          "uitleg": "Vermenigvuldig met min 1 en keer het teken om: x kleiner dan 4."
+          "uitleg": "Vermenigvuldig met \\(-1\\) en keer het teken om: \\(x < 4\\)."
         },
         {
           "type": "waarofniet",
@@ -3943,15 +3943,15 @@
             "tel de punten op de getekende grafiek"
           ],
           "antwoord": 0,
-          "uitleg": "De x van het snijpunt is de oplossing. Bij f van x is nul is dat het snijpunt met de x-as."
+          "uitleg": "De \\(x\\) van het snijpunt is de oplossing. Bij \\(f(x) = 0\\) is dat het snijpunt met de \\(x\\)-as."
         },
         {
           "type": "meerkeuze",
-          "vraag": "Wat betekent grafisch dat f van x groter is dan nul?",
+          "vraag": "Wat betekent grafisch dat \\(f(x) > 0\\)?",
           "opties": [
-            "de grafiek ligt boven de x-as",
-            "de grafiek ligt onder de x-as",
-            "de grafiek snijdt de y-as",
+            "de grafiek ligt boven de \\(x\\)-as",
+            "de grafiek ligt onder de \\(x\\)-as",
+            "de grafiek snijdt de \\(y\\)-as",
             "de grafiek is een rechte"
           ],
           "antwoord": 0,
@@ -3959,25 +3959,25 @@
         },
         {
           "type": "invultekst",
-          "vraag": "Waar ligt de grafiek als f van x kleiner is dan nul? Antwoord boven of onder.",
+          "vraag": "Waar ligt de grafiek als \\(f(x) < 0\\)? Antwoord boven of onder.",
           "antwoord": [
             "onder",
             "eronder",
             "onder de x-as"
           ],
-          "uitleg": "Onder de x-as. Daar zijn de functiewaarden negatief."
+          "uitleg": "Onder de \\(x\\)-as. Daar zijn de functiewaarden negatief."
         },
         {
           "type": "meerkeuze",
-          "vraag": "Een rechte snijdt de x-as in 4 en stijgt. Waar is de functie positief?",
+          "vraag": "Een rechte snijdt de \\(x\\)-as in \\(4\\) en stijgt. Waar is de functie positief?",
           "opties": [
-            "rechts van 4",
-            "links van 4",
+            "voor \\(x > 4\\)",
+            "voor \\(x < 4\\)",
             "overal",
             "nergens"
           ],
           "antwoord": 0,
-          "uitleg": "Een stijgende rechte gaat na haar nulpunt boven de as. Dus voor x groter dan 4."
+          "uitleg": "Een stijgende rechte gaat na haar nulpunt boven de as."
         },
         {
           "type": "waarofniet",
@@ -4003,15 +4003,15 @@
         },
         {
           "type": "meerkeuze",
-          "vraag": "Een taxi kost 5 euro plus 2 euro per kilometer. Je hebt 25 euro. Hoe ver kan je?",
+          "vraag": "Een taxi kost \\(5\\) euro plus \\(2\\) euro per kilometer. Je hebt \\(25\\) euro. Hoe ver kan je?",
           "opties": [
-            "ten hoogste 10 kilometer",
-            "ten hoogste 15 kilometer",
-            "ten hoogste 5 kilometer",
-            "ten hoogste 30 kilometer"
+            "ten hoogste \\(10\\) km",
+            "ten hoogste \\(15\\) km",
+            "ten hoogste \\(5\\) km",
+            "ten hoogste \\(30\\) km"
           ],
           "antwoord": 0,
-          "uitleg": "5 plus 2x kleiner dan of gelijk aan 25, dus 2x ten hoogste 20 en x ten hoogste 10."
+          "uitleg": "\\(5 + 2x \\leq 25\\), dus \\(2x \\leq 20\\) en \\(x \\leq 10\\)."
         },
         {
           "type": "waarofniet",
@@ -4021,7 +4021,7 @@
         },
         {
           "type": "meerkeuze",
-          "vraag": "Waarom mag je bij een ongelijkheid niet zonder nadenken met min 1 vermenigvuldigen?",
+          "vraag": "Waarom mag je bij een ongelijkheid niet zonder nadenken met \\(-1\\) vermenigvuldigen?",
           "opties": [
             "het teken moet dan omkeren",
             "het mag helemaal niet",
@@ -4033,15 +4033,15 @@
         },
         {
           "type": "meerkeuze",
-          "vraag": "Los op: 3x min 2 kleiner dan 7.",
+          "vraag": "Los op: \\(3x - 2 < 7\\).",
           "opties": [
-            "x kleiner dan 3",
-            "x groter dan 3",
-            "x kleiner dan 9",
-            "x groter dan 9"
+            "\\(x < 3\\)",
+            "\\(x > 3\\)",
+            "\\(x < 9\\)",
+            "\\(x > 9\\)"
           ],
           "antwoord": 0,
-          "uitleg": "3x kleiner dan 9, en delen door 3 houdt het teken: x kleiner dan 3."
+          "uitleg": "\\(3x < 9\\), en delen door \\(3\\) houdt het teken: \\(x < 3\\)."
         },
         {
           "type": "meerkeuze",
