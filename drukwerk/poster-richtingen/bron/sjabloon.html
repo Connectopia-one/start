@@ -1,0 +1,107 @@
+<!doctype html>
+<html lang="nl">
+<head>
+<meta charset="utf-8">
+<title>Welke vakken staan er voor jouw richting?</title>
+<style>
+  /*
+    A4 (210 x 297 mm). De inhoud komt uit maak.py; dit bestand is enkel de
+    opmaak. Zelfde kleuren en letters als de rest van het drukwerk.
+
+    De poster is bewust rustig: geen foto's, geen vlakken in kleur achter de
+    tekst. Wie hem leest zoekt één ding, zijn eigen richting, en moet die in
+    een oogopslag vinden tussen zeventien andere.
+  */
+  @font-face { font-family: "Nunito"; src: url(nunito.woff2) format("woff2"); font-weight: 200 1000; }
+  @font-face { font-family: "Caveat"; src: url(caveat.woff2) format("woff2"); font-weight: 700; }
+  @page { size: 210mm 297mm; margin: 0; }
+
+  :root {
+    --cream: #fbf6ea; --ink: #2a2d26; --ink-dim: #61675a; --border: #e6e0d0;
+    --green: #2f4a22; --green-mid: #5c7a45; --sage-soft: #dfe7d0;
+    --purple: #5e2d91; --orange: #d96e25;
+  }
+
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  html { background: #cfc8b6; }
+  body { font-family: "Nunito", sans-serif; color: var(--ink);
+         -webkit-print-color-adjust: exact; print-color-adjust: exact; }
+
+  .blad { width: 210mm; height: 297mm; background: var(--cream);
+          position: relative; overflow: hidden; display: flex; flex-direction: column; }
+
+  .band { height: 7mm; background: var(--green); flex: none; }
+
+  /* ---------- kop ---------- */
+  .kop { padding: 5mm 13mm 0; display: flex; align-items: flex-start; gap: 5mm; flex: none; }
+  .kop .tekst { flex: 1; }
+  .kop .hand { font-family: "Caveat"; font-size: 17pt; color: var(--orange); line-height: 1; }
+  .kop h1 { font-weight: 900; color: var(--green); font-size: 21pt; line-height: 1.05;
+            letter-spacing: -.015em; margin-top: 1.2mm; }
+  .kop p { margin-top: 2mm; font-size: 9.4pt; line-height: 1.4; color: var(--ink-dim); font-weight: 600; }
+  .kop p b { color: var(--ink); font-weight: 800; }
+  .kop img { width: 21mm; height: 21mm; object-fit: contain; flex: none; }
+
+  /* ---------- de blokken ---------- */
+  .blok { padding: 3.2mm 13mm 0; }
+  .blok h2 { font-weight: 900; color: var(--green); font-size: 12.5pt; letter-spacing: -.01em;
+             border-bottom: .4mm solid var(--sage-soft); padding-bottom: 1mm; }
+  .blok h2 small { font-weight: 600; font-size: 8.4pt; color: var(--ink-dim);
+                   letter-spacing: 0; margin-left: 1.5mm; }
+
+  .richtingen { margin-top: 2mm; display: grid; grid-template-columns: 1fr 1fr; gap: 1.8mm 5mm; }
+  .richting .wie { font-weight: 800; color: var(--purple); font-size: 9pt; line-height: 1.2; }
+  .richting .vakken { font-size: 8.2pt; line-height: 1.32; color: var(--ink-dim); font-weight: 600; }
+
+  /* ---------- de categorieën zonder richting ---------- */
+  .kaartjes { margin-top: 2mm; display: grid; grid-template-columns: 1fr 1fr; gap: 1.8mm 5mm; }
+  .kaartje .wie { font-weight: 800; color: var(--green-mid); font-size: 9pt; line-height: 1.2; }
+  .kaartje .wie span { font-weight: 600; color: var(--ink-dim); font-size: 7.6pt; margin-left: 1.2mm; }
+  .kaartje .vakken { font-size: 8.2pt; line-height: 1.32; color: var(--ink-dim); font-weight: 600; }
+
+  /* ---------- voetnoten en voet ---------- */
+  .noten { padding: 3mm 13mm 0; }
+  .noten ul { list-style: none; }
+  .noten li { font-size: 7.2pt; line-height: 1.35; color: var(--ink-dim); font-weight: 600;
+              padding-left: 3mm; position: relative; }
+  .noten li::before { content: "•"; position: absolute; left: 0; color: var(--orange); }
+
+  .rek { flex: 1 1 auto; }
+
+  .voet { flex: none; background: var(--green); color: #f3efe2; padding: 3.2mm 13mm;
+          display: flex; justify-content: space-between; align-items: baseline; gap: 4mm; }
+  .voet .site { font-weight: 900; font-size: 11pt; }
+  .voet .mee { font-size: 8.2pt; font-weight: 600; opacity: .9; text-align: right; }
+</style>
+</head>
+<body>
+<div class="blad" id="poster">
+  <div class="band"></div>
+
+  <header class="kop">
+    <div class="tekst">
+      <p class="hand">oefenen voor de examencommissie</p>
+      <h1>Welke vakken staan er voor jouw richting?</h1>
+      <p>Op het oefenplatform van Connectopia staan <b><!--TELLING--></b>, met bij elk hoofdstuk
+      een leerbundel, een tocht door de theorie en een afdrukbare oefenbundel. Hieronder staat per
+      studierichting welke vakken er vandaag voor jou klaarstaan. Wij volgen de vakfiches van de
+      Examencommissie: elke fiche zegt zelf voor welke richtingen ze geldt.</p>
+    </div>
+    <img src="logo-kim-transparant.png" alt="">
+  </header>
+
+<!--BLOKKEN-->
+
+  <div class="noten">
+    <ul><!--NOTEN--></ul>
+  </div>
+
+  <div class="rek"></div>
+
+  <footer class="voet">
+    <span class="site">oefenplatform.connectopia.one</span>
+    <span class="mee">vzw Connectopia &nbsp;·&nbsp; info@matmgroep.com &nbsp;·&nbsp; 0468 35 74 96</span>
+  </footer>
+</div>
+</body>
+</html>
