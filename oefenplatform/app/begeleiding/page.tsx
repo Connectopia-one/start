@@ -123,7 +123,7 @@ export default async function BegeleidingPage({
                   </p>
                 ) : (
                   <div className="mt-4 overflow-x-auto rounded-lg border border-border">
-                    <table className="w-full text-sm">
+                    <table className="kaartjes w-full text-sm">
                       <thead className="bg-paper text-left text-xs text-ink-dim">
                         <tr>
                           <th className="px-3 py-2">Kind</th>
@@ -142,21 +142,21 @@ export default async function BegeleidingPage({
                           ).length;
                           return (
                             <tr key={k.id} className="border-t border-border">
-                              <td className="px-3 py-2 font-medium text-ink">
+                              <td data-label="Kind" className="px-3 py-2 font-medium text-ink">
                                 {k.naam}
                               </td>
-                              <td className="px-3 py-2 text-ink-dim">
+                              <td data-label="Gezin" className="px-3 py-2 text-ink-dim">
                                 {k.profiles?.full_name ?? "—"}
                               </td>
-                              <td className="px-3 py-2 text-ink">
+                              <td data-label="Vragen" className="px-3 py-2 text-ink">
                                 {aantal || "—"}
                               </td>
-                              <td className="px-3 py-2 text-ink">
+                              <td data-label="Score" className="px-3 py-2 text-ink">
                                 {aantal > 0
                                   ? `${correct}/${aantal} (${Math.round((correct / aantal) * 100)}%)`
                                   : "—"}
                               </td>
-                              <td className="px-3 py-2 text-ink">
+                              <td data-label="Stickers" className="px-3 py-2 text-ink">
                                 {k.stickers.length
                                   ? `🌟 ${k.stickers.length}`
                                   : "—"}

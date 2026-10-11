@@ -62,3 +62,64 @@ h3,
     padding: 0;
   }
 }
+
+/*
+  Een tabel die op een gsm kaartjes wordt.
+
+  Kim op 11 oktober 2026, over het overzicht van de voortgang: "bij het
+  beheersysteem, op gsm kan ik daar ook maar de helft zien." Dat klopte: een
+  tabel met zes kolommen past niet op 360 pixels, en het kadertje eromheen
+  stond op overflow-hidden, dus de kolommen rechts werden gewoon afgesneden
+  zonder dat je ergens naartoe kon schuiven.
+
+  Onder 640 pixels wordt elke rij hier een kaartje: de koprij verdwijnt en elk
+  vakje zet zijn eigen opschrift ervoor, uit data-label. Geef elk vakje dus een
+  data-label met dezelfde tekst als de kolomkop; een vakje zonder data-label
+  (de knop of de link achteraan) blijft zonder opschrift staan.
+*/
+@media (max-width: 639px) {
+  table.kaartjes,
+  table.kaartjes tbody,
+  table.kaartjes tr,
+  table.kaartjes td {
+    display: block;
+  }
+
+  /* Alleen de tabel zelf krijgt een breedte: een rij en een vakje zijn nu
+     gewone blokken en vullen vanzelf. Zetten we er width 100% bij, dan komt
+     de binnenmarge van een vakje daar nog bovenop en loopt het kaartje toch
+     weer een stukje buiten beeld. */
+  table.kaartjes {
+    width: 100%;
+  }
+
+  table.kaartjes thead {
+    display: none;
+  }
+
+  table.kaartjes tr {
+    padding: 0.4rem 0;
+  }
+
+  table.kaartjes td {
+    display: flex;
+    align-items: baseline;
+    justify-content: space-between;
+    gap: 1rem;
+    padding: 0.15rem 0.75rem;
+    text-align: right;
+  }
+
+  table.kaartjes td[data-label]::before {
+    content: attr(data-label);
+    flex: none;
+    color: var(--ink-dim);
+    font-size: 0.75rem;
+    text-align: left;
+  }
+
+  /* Een leeg vakje zou anders een lege regel in het kaartje worden. */
+  table.kaartjes td:empty {
+    display: none;
+  }
+}

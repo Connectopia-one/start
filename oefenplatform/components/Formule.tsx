@@ -51,6 +51,17 @@ export function formulesInHtml(html: string): string {
     .join("");
 }
 
+/*
+  Hoe lang een formule mag zijn voor ze haar eigen schuifruimte krijgt.
+
+  Een korte formule (p, \\neg p, \\sqrt{50}) hoort gewoon in de zin te staan,
+  op dezelfde schrijflijn als de letters eromheen. Een lange formule, zoals de
+  uitgewerkte berekening van een elektrische veldsterkte, is op een gsm breder
+  dan het scherm; die krijgt een eigen kadertje waarin je opzij kan schuiven,
+  zodat niet de hele pagina meeschuift.
+*/
+const LANG = 30;
+
 export function Formule({
   tekst,
   className,
@@ -62,27 +73,44 @@ export function Formule({
   if (!bevatWiskunde(tekst)) return <>{tekst}</>;
 
   return (
-    <>
+    /*
+      Alles zit in één span, en dat is niet zomaar netjes: een <Formule> staat
+      vaak in een label of een knop die met flex is opgemaakt (zie Quiz.tsx).
+      Gaven we hier losse spans terug, dan werd elk stuk tekst en elke formule
+      een eigen vak in die rij, en brak een antwoord als "de implicatie: als p
+      waar is, dan volgt er iets anders uit" op een gsm in drie smalle kolommen
+      naast elkaar. Kim meldde dat op 11 oktober 2026. Met één span eromheen is
+      het weer één lopende zin.
+    */
+    <span className={className}>
       {splitsWiskunde(tekst).map((stuk, i) =>
         stuk.soort === "tekst" ? (
-          <span key={i}>{stuk.tekst}</span>
-        ) : (
+          stuk.tekst
+        ) : stuk.blok ? (
           <span
             key={i}
-            /* Een lange formule mag de pagina niet breder maken dan het
-               scherm: op een gsm is dat meteen een horizontale schuifbalk
-               over de hele pagina. Ze krijgt dus haar eigen schuifruimte. */
-            className={
-              stuk.blok
-                ? "my-2 block overflow-x-auto"
-                : `inline-block max-w-full overflow-x-auto align-bottom${className ? " " + className : ""}`
-            }
-            /* De html komt van KaTeX zelf, uit de latex hierboven; de gewone
-               tekst eromheen gaat door React en wordt dus ontsmet. */
-            dangerouslySetInnerHTML={{ __html: teken(stuk.latex, stuk.blok) }}
+            className="my-2 block overflow-x-auto"
+            dangerouslySetInnerHTML={{ __html: teken(stuk.latex, true) }}
+          />
+        ) : stuk.latex.length > LANG ? (
+          <span
+            key={i}
+            className="inline-block max-w-full overflow-x-auto align-middle"
+            dangerouslySetInnerHTML={{ __html: teken(stuk.latex, false) }}
+          />
+        ) : (
+          /*
+            Geen inline-block en geen vertical-align hier: een vakje met
+            overflow krijgt zijn schrijflijn onderaan in plaats van op de
+            lijn van de letters, en dan zweefde het teken \neg boven de zin.
+            Een gewone span laat KaTeX zelf op de juiste lijn staan.
+          */
+          <span
+            key={i}
+            dangerouslySetInnerHTML={{ __html: teken(stuk.latex, false) }}
           />
         ),
       )}
-    </>
+    </span>
   );
 }

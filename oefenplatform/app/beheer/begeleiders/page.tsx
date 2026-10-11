@@ -84,8 +84,8 @@ export default async function BegeleidersPage() {
           <h2 className="font-display text-lg font-semibold text-ink">
             Alle andere accounts
           </h2>
-          <div className="mt-3 overflow-hidden rounded-lg border border-border">
-            <table className="w-full text-sm">
+          <div className="mt-3 overflow-x-auto rounded-lg border border-border">
+            <table className="kaartjes w-full text-sm">
               <thead className="bg-paper text-left text-xs text-ink-dim">
                 <tr>
                   <th className="px-3 py-2">Naam</th>
@@ -97,9 +97,9 @@ export default async function BegeleidersPage() {
               <tbody>
                 {rest.map((r) => (
                   <tr key={r.id} className="border-t border-border">
-                    <td className="px-3 py-2 text-ink">{r.full_name}</td>
-                    <td className="px-3 py-2 text-ink-dim">{r.role}</td>
-                    <td className="px-3 py-2 text-ink-dim">
+                    <td data-label="Naam" className="px-3 py-2 text-ink">{r.full_name}</td>
+                    <td data-label="Rol" className="px-3 py-2 text-ink-dim">{r.role}</td>
+                    <td data-label="Plusklas" className="px-3 py-2 text-ink-dim">
                       {r.is_plusklas ? "ja" : "—"}
                     </td>
                     <td className="px-3 py-2">

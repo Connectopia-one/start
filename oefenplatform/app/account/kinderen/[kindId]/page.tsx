@@ -132,8 +132,8 @@ export default async function KindVoortgangPage({
           {[...vakken.entries()].map(([vakId, vak]) => (
             <section key={vakId}>
               <h2 className="font-display text-lg font-semibold text-forest-dark">{vak.naam}</h2>
-              <div className="mt-2 overflow-hidden rounded-lg border border-border">
-                <table className="w-full text-sm">
+              <div className="mt-2 overflow-x-auto rounded-lg border border-border">
+                <table className="kaartjes w-full text-sm">
                   <thead className="bg-paper text-left text-xs text-ink-dim">
                     <tr>
                       <th className="px-3 py-2">Hoofdstuk</th>
@@ -144,7 +144,7 @@ export default async function KindVoortgangPage({
                   <tbody>
                     {[...vak.hoofdstukken.entries()].map(([hoofdstukId, h]) => (
                       <tr key={hoofdstukId} className="border-t border-border">
-                        <td className="px-3 py-2">
+                        <td data-label="Hoofdstuk" className="px-3 py-2">
                           <Link
                             href={`/account/kinderen/${kindId}/${hoofdstukId}`}
                             className="text-forest-dark hover:underline"
@@ -152,10 +152,10 @@ export default async function KindVoortgangPage({
                             {h.titel}
                           </Link>
                         </td>
-                        <td className="px-3 py-2 text-ink">
+                        <td data-label="Score" className="px-3 py-2 text-ink">
                           {h.correct}/{h.aantal} ({Math.round((h.correct / h.aantal) * 100)}%)
                         </td>
-                        <td className="px-3 py-2 text-ink-dim">
+                        <td data-label="Laatst geoefend" className="px-3 py-2 text-ink-dim">
                           {new Date(h.laatst).toLocaleDateString("nl-BE", { day: "numeric", month: "short", year: "numeric" })}
                         </td>
                       </tr>
