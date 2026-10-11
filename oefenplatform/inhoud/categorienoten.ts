@@ -47,10 +47,14 @@ export type Categorienoot = {
 };
 
 export const categorienoten: Record<string, Categorienoot> = {
+  // Nageteld op 11 oktober 2026 tegen inhoud/boost-doorstroom/ (veertien
+  // vakken). Welke richting welke wiskunde en welke natuurwetenschappen volgt,
+  // staat bovenaan op de fiches zelf; zie de docstrings van
+  // bron/bouw_wiskunde.py en bron/bouw_natuurwetenschappen.py.
   "boost-doorstroom": {
     kop:
-      "Deze vakken gelden voor alle doorstroomrichtingen van de tweede graad, " +
-      "domeinoverschrijdend én domeingebonden.",
+      "Deze vakken gelden voor de vijf doorstroomrichtingen van de tweede " +
+      "graad.",
     punten: [
       {
         kop: "Wetenschappen",
@@ -61,10 +65,76 @@ export const categorienoten: Record<string, Categorienoot> = {
       {
         kop: "Wiskunde",
         tekst:
-          "Er staan twee versies, basis en gevorderd. Je vakfiche zegt welke " +
-          "van de twee jij nodig hebt.",
+          "Humane wetenschappen volgt wiskunde basis, de vier andere " +
+          "richtingen wiskunde gevorderd. Dat staat ook op je vakfiche.",
+      },
+      {
+        kop: "Economische en humane wetenschappen",
+        tekst:
+          "Jouw fiche natuurwetenschappen is de kortere van de twee, dus dat " +
+          "vak is hier iets ruimer dan wat jij moet kennen.",
       },
     ],
+    richtingen: {
+      klik: "Staat mijn richting hierbij?",
+      groepen: [
+        {
+          kop: "Doorstroom, tweede graad",
+          lijst: [
+            "economische wetenschappen",
+            "humane wetenschappen",
+            "Latijn",
+            "moderne talen",
+            "natuurwetenschappen",
+          ],
+        },
+      ],
+      slot:
+        "De vakfiches van de Examencommissie noemen die richtingen samen " +
+        "bovenaan, daarom staan ze hier niet apart.",
+    },
+    komtNog: "Nog in de maak: Latijn en Duits.",
+  },
+
+  // De elf fiches van deze categorie zijn alle elf gebouwd (stand 11 oktober
+  // 2026), dus hier hoort geen komtNog. Welke vier vakken bij welke richting
+  // horen, staat in de docstrings van bron/bouw_*.py.
+  "boost-dubbele-finaliteit": {
+    kop:
+      "Deze vakken gelden voor de dubbele finaliteit van de tweede graad. " +
+      "Zeven ervan zijn voor allebei de richtingen.",
+    punten: [
+      {
+        kop: "Bedrijf en organisatie",
+        tekst:
+          "Daarbovenop zijn economie en bedrijfswetenschappen en toegepaste " +
+          "economie voor jou.",
+      },
+      {
+        kop: "Maatschappij en welzijn",
+        tekst:
+          "Daarbovenop zijn gezondheid, zorg en welzijn en ontwikkeling en " +
+          "pedagogisch handelen voor jou.",
+      },
+    ],
+  },
+
+  // Zeven vakken, en dat zijn precies de vakken van de basisvorming. De
+  // richtingsvakken van commerciële organisatie bestaan nog niet; zie
+  // connectopia-beyond-structuur in memory.
+  "beyond-dubbele-finaliteit": {
+    kop:
+      "Deze vakken zijn de basisvorming van de dubbele finaliteit van de " +
+      "derde graad: ze gelden voor elke richting.",
+    punten: [
+      {
+        kop: "Commerciële organisatie",
+        tekst:
+          "De vakken die enkel bij jouw richting horen, staan er nog niet. " +
+          "De basisvorming hieronder is wel al voor jou.",
+      },
+    ],
+    komtNog: "Nog in de maak: de richtingsvakken van commerciële organisatie.",
   },
 
   "beyond-doorstroom": {

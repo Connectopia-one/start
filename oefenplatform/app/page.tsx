@@ -119,31 +119,6 @@ export default async function HomePage() {
           </p>
         </section>
 
-        {/* Elke dag één vraag, met een doel van drie dagen per week. Staat
-            bewust vóór de categorieën: wie even tijd heeft, is met één klik
-            bezig in plaats van eerst te moeten kiezen waar te beginnen. */}
-        <Dagvraag />
-
-        {/* Hoe wij een hoofdstuk aanpakken. Staat vóór de categorieën, want wie
-            hier voor het eerst komt, weet nog niet waar te beginnen. */}
-        <Link
-          href="/tips"
-          className="mt-5 flex items-center justify-between gap-4 rounded-xl border border-border bg-surface px-6 py-5 transition hover:border-forest hover:shadow-sm"
-        >
-          <span>
-            <span className="font-display text-lg font-semibold text-ink">
-              🧭 Zo gebruiken wij het
-            </span>
-            <span className="mt-1 block text-sm text-ink-dim">
-              Hoe wij een hoofdstuk aanpakken, van de tocht tot de oefenbundel.
-              Als richtlijn, niet als regel.
-            </span>
-          </span>
-          <span aria-hidden className="shrink-0 text-forest">
-            &rarr;
-          </span>
-        </Link>
-
         <p className="mt-5 rounded-md bg-info/10 px-4 py-3 text-sm text-ink">
           💡 Kies de categorie die het beste past bij wat je kind{" "}
           <strong>al kan</strong> — niet per se het officiële leerjaar of de
@@ -201,6 +176,39 @@ export default async function HomePage() {
             </span>
             <span className="mt-1 block text-sm text-ink-dim">
               {hoekjeUitleg}
+            </span>
+          </span>
+          <span aria-hidden className="shrink-0 text-forest">
+            &rarr;
+          </span>
+        </Link>
+
+        {/* De vraag van vandaag en onze werkwijze stonden hier eerst bóven de
+            categorieën. Kim zag op 11 oktober 2026 dat ze de knoppen naar
+            beneden duwden: "ik wil de zo gebruiken wij het en de vraag van de
+            dag laten zakken, tot onder de 4 richtingen, die moeten eerst
+            komen." Ze staan nu onder het hele rijtje categorieën, dus ook
+            onder 🧱 Basis en 🔭 de uitdagingshoek: die twee horen bij de
+            andere vier en mogen er niet door uit elkaar gezet worden. */}
+
+        {/* Elke dag één vraag, met een doel van drie dagen per week. Geen
+            omhulsel met een marge eromheen: Dagvraag brengt zijn eigen mt-6
+            mee, en bij een bezoeker zonder vraag tekent het component niets,
+            zodat een lege div anders een gat zou laten. */}
+        <Dagvraag />
+
+        {/* Hoe wij een hoofdstuk aanpakken. */}
+        <Link
+          href="/tips"
+          className="mt-4 flex items-center justify-between gap-4 rounded-xl border border-border bg-surface px-6 py-5 transition hover:border-forest hover:shadow-sm"
+        >
+          <span>
+            <span className="font-display text-lg font-semibold text-ink">
+              🧭 Zo gebruiken wij het
+            </span>
+            <span className="mt-1 block text-sm text-ink-dim">
+              Hoe wij een hoofdstuk aanpakken, van de tocht tot de oefenbundel.
+              Als richtlijn, niet als regel.
             </span>
           </span>
           <span aria-hidden className="shrink-0 text-forest">
