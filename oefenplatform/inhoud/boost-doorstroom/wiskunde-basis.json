@@ -1956,25 +1956,25 @@
           "type": "meerkeuze",
           "vraag": "Hoeveel vlakken heeft de ontwikkeling van een kubus?",
           "opties": [
-            "zes",
-            "vier in totaal",
-            "acht in totaal",
-            "twaalf in totaal"
+            "\\(6\\)",
+            "\\(4\\)",
+            "\\(8\\)",
+            "\\(12\\)"
           ],
           "antwoord": 0,
-          "uitleg": "Een kubus heeft zes vierkante zijvlakken. Twaalf is het aantal ribben."
+          "uitleg": "Een kubus heeft \\(6\\) vierkante zijvlakken. \\(12\\) is het aantal ribben."
         },
         {
           "type": "meerkeuze",
           "vraag": "Hoeveel ribben heeft een kubus?",
           "opties": [
-            "twaalf",
-            "zes in totaal",
-            "acht in totaal",
-            "vier in totaal"
+            "\\(12\\)",
+            "\\(6\\)",
+            "\\(8\\)",
+            "\\(4\\)"
           ],
           "antwoord": 0,
-          "uitleg": "Twaalf ribben, zes zijvlakken en acht hoekpunten."
+          "uitleg": "\\(12\\) ribben, \\(6\\) zijvlakken en \\(8\\) hoekpunten."
         },
         {
           "type": "invultekst",
@@ -1983,7 +1983,7 @@
             "8",
             "acht"
           ],
-          "uitleg": "Acht hoekpunten, twaalf ribben en zes zijvlakken."
+          "uitleg": "\\(8\\) hoekpunten, \\(12\\) ribben en \\(6\\) zijvlakken."
         },
         {
           "type": "waarofniet",
@@ -2064,7 +2064,7 @@
         },
         {
           "type": "meerkeuze",
-          "vraag": "Wat is de nulvector?",
+          "vraag": "Wat is de nulvector \\(\\vec{0}\\)?",
           "opties": [
             "een vector met grootte nul",
             "een vector naar links",
@@ -2085,7 +2085,7 @@
         },
         {
           "type": "meerkeuze",
-          "vraag": "Wat is de tegengestelde vector?",
+          "vraag": "Wat is de tegengestelde vector \\(-\\vec{u}\\)?",
           "opties": [
             "dezelfde grootte, andere zin",
             "dezelfde zin, andere grootte",
@@ -2103,7 +2103,7 @@
         },
         {
           "type": "meerkeuze",
-          "vraag": "Hoe tel je twee vectoren grafisch op?",
+          "vraag": "Hoe tel je \\(\\vec{u} + \\vec{v}\\) grafisch op?",
           "opties": [
             "kop aan staart zetten",
             "beide in hetzelfde punt laten beginnen",
@@ -2115,9 +2115,9 @@
         },
         {
           "type": "meerkeuze",
-          "vraag": "Hoe krijg je het verschil van twee vectoren?",
+          "vraag": "Hoe krijg je \\(\\vec{u} - \\vec{v}\\)?",
           "opties": [
-            "de tegengestelde erbij optellen",
+            "\\(\\vec{u} + \\left(-\\vec{v}\\right)\\) berekenen",
             "beide vectoren gewoon bij elkaar optellen",
             "de hoek tussen de twee opmeten",
             "hun lengtes door elkaar delen"
@@ -2127,7 +2127,7 @@
         },
         {
           "type": "invultekst",
-          "vraag": "Wat is de som van een vector en zijn tegengestelde? Eén woord.",
+          "vraag": "Wat is \\(\\vec{u} + \\left(-\\vec{u}\\right)\\)? Eén woord.",
           "antwoord": [
             "nulvector",
             "nul",
@@ -2137,7 +2137,7 @@
         },
         {
           "type": "meerkeuze",
-          "vraag": "Wat gebeurt er als je een vector met 3 vermenigvuldigt?",
+          "vraag": "Wat is \\(3\\vec{u}\\) vergeleken met \\(\\vec{u}\\)?",
           "opties": [
             "hij wordt drie keer zo lang",
             "hij keert van zin om",
@@ -2149,7 +2149,7 @@
         },
         {
           "type": "meerkeuze",
-          "vraag": "Wat gebeurt er als je een vector met min 2 vermenigvuldigt?",
+          "vraag": "Wat is \\(-2\\vec{u}\\) vergeleken met \\(\\vec{u}\\)?",
           "opties": [
             "dubbel zo lang en omgekeerd",
             "hij wordt enkel dubbel zo lang",
@@ -2157,11 +2157,11 @@
             "hij wordt juist half zo lang"
           ],
           "antwoord": 0,
-          "uitleg": "Het getal 2 verdubbelt de lengte, het minteken keert de zin om."
+          "uitleg": "Het getal \\(2\\) verdubbelt de lengte, het minteken keert de zin om."
         },
         {
           "type": "waarofniet",
-          "vraag": "Een vector met een half vermenigvuldigen maakt hem langer.",
+          "vraag": "\\(\\frac{1}{2}\\vec{u}\\) is langer dan \\(\\vec{u}\\).",
           "antwoord": false,
           "uitleg": "De grootte wordt juist gehalveerd. Richting en zin blijven gelijk."
         },
@@ -2211,24 +2211,24 @@
         },
         {
           "type": "meerkeuze",
-          "vraag": "Twee krachten van 5 newton werken in dezelfde zin. Wat is de som?",
+          "vraag": "Twee krachten van \\(5\\) N werken in dezelfde zin. Wat is de som?",
           "opties": [
-            "10 newton",
-            "5 newton in totaal",
-            "0 newton in totaal",
-            "25 newton in totaal"
+            "\\(10\\) N",
+            "\\(5\\) N",
+            "\\(0\\) N",
+            "\\(25\\) N"
           ],
           "antwoord": 0,
           "uitleg": "Zelfde richting en zin, dus de groottes tellen op."
         },
         {
           "type": "meerkeuze",
-          "vraag": "Twee krachten van 5 newton werken in tegengestelde zin. Wat is de som?",
+          "vraag": "Twee krachten van \\(5\\) N werken in tegengestelde zin. Wat is de som?",
           "opties": [
-            "de nulvector",
-            "10 newton",
-            "5 newton",
-            "25 newton"
+            "de nulvector \\(\\vec{0}\\)",
+            "\\(10\\) N",
+            "\\(5\\) N",
+            "\\(25\\) N"
           ],
           "antwoord": 0,
           "uitleg": "Ze heffen elkaar precies op. Het voorwerp blijft in evenwicht."

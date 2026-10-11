@@ -456,6 +456,8 @@ zet("ruimtefiguren-vlakke-voorstellingen-en-vectoren",
                             [["<strong>twee rechten</strong>", "<strong>evenwijdig</strong>, samenvallend, <strong>snijdend</strong>, <strong>kruisend</strong> of loodrecht"],
                              ["<strong>twee vlakken</strong>", "<strong>evenwijdig</strong>, <strong>samenvallend</strong>, <strong>snijdend of loodrecht</strong>"],
                              ["<strong>een rechte en een vlak</strong>", "<strong>evenwijdig, erin, snijdend of loodrecht</strong> (loodrecht is een bijzonder geval van snijdend)"]])),
+            ("fig", svg.rechteenvlak(),
+             "een rechte tegenover een vlak, in de drie gevallen die de tabel noemt"),
             ("p", "<strong>Twee vlakken kunnen niet kruisend zijn</strong>: dat begrip bestaat alleen voor "
                   "rechten. Vlakken snijden, vallen samen of zijn evenwijdig."),
             ("p", "De doorsnede zegt wat ze gemeen hebben. <strong>Twee snijdende vlakken hebben een rechte "
@@ -469,14 +471,18 @@ zet("ruimtefiguren-vlakke-voorstellingen-en-vectoren",
             ("p", "Een <strong>ruimtefiguur</strong> heeft <strong>hoogte, breedte én diepte</strong>; ze is "
                   "driedimensionaal. <strong>Een balk</strong>, <strong>een kegel</strong> en <strong>een "
                   "bol</strong> zijn ruimtefiguren, een vierkant niet — dat is vlak."),
+            ("fig", svg.ruimtefiguren(),
+             "elk van deze figuren heeft een volume"),
             ("kader", tabel(["manier", "wat ze doet"],
                             [["<strong>het cavalièreperspectief</strong>", "<strong>een manier om ruimte te tekenen</strong>: de diepte komt onder een hoek en vaak verkort op papier"],
                              ["<strong>de aanzichten</strong>", "<strong>vooraanzicht</strong>, <strong>zijaanzicht</strong> en <strong>bovenaanzicht</strong>; een binnenaanzicht bestaat niet"],
                              ["<strong>de ontwikkeling</strong>", "<strong>de figuur uitgeplooid in het vlak</strong>, zoals het bouwplan van een doos"]])),
+            ("fig", svg.aanzichten(),
+             "dezelfde figuur, van voor, van opzij en van boven bekeken"),
             ("p", "<strong>Men tekent drie aanzichten omdat ze samen alle maten tonen</strong>: hoogte, "
                   "breedte en diepte."),
             ("p", "Tel de onderdelen van een kubus goed uit elkaar: <strong>zes zijvlakken</strong> (en dus "
-                  "zes vlakken in haar ontwikkeling), <strong>twaalf ribben</strong> en <strong>acht "
+                  "zes vlakken in haar ontwikkeling), <strong>\\(12\\) ribben</strong> en <strong>\\(8\\) "
                   "hoekpunten</strong>. En pas op met te algemene uitspraken: <strong>de ribben van het "
                   "bovenvlak en die van het ondervlak zijn niet allemaal kruisend</strong> — elke ribbe boven "
                   "is evenwijdig met of kruisend met een ribbe onder."),
@@ -491,19 +497,21 @@ zet("ruimtefiguren-vlakke-voorstellingen-en-vectoren",
                   "laatste is het verband dat de vakfiche legt: <strong>een vector beschrijft een "
                   "verschuiving of translatie</strong> — zo veel die kant op."),
             ("kader", tabel(["begrip of bewerking", "wat het betekent"],
-                            [["<strong>de nulvector</strong>", "<strong>een vector met grootte nul</strong>: begin- en eindpunt vallen samen, richting en zin zijn onbepaald"],
-                             ["<strong>de tegengestelde vector</strong>", "<strong>dezelfde grootte, de andere zin</strong>; <strong>samen met de vector zelf geeft ze de nulvector</strong>"],
-                             ["<strong>optellen</strong>", "<strong>kop aan staart zetten</strong>; de somvector loopt van het begin van de eerste naar het einde van de tweede"],
-                             ["<strong>aftrekken</strong>", "<strong>de tegengestelde erbij optellen</strong>: je keert de tweede pijl om en telt op"],
-                             ["<strong>maal 3</strong>", "<strong>drie keer zo lang</strong>, richting en zin blijven"],
-                             ["<strong>maal min 2</strong>", "<strong>dubbel zo lang en omgekeerd</strong> van zin"],
-                             ["<strong>maal een half</strong>", "<strong>de grootte wordt gehalveerd</strong>, dus korter en niet langer"]])),
+                            [["<strong>de nulvector \\(\\vec{0}\\)</strong>", "<strong>een vector met grootte nul</strong>: begin- en eindpunt vallen samen, richting en zin zijn onbepaald"],
+                             ["<strong>de tegengestelde vector \\(-\\vec{u}\\)</strong>", "<strong>dezelfde grootte, de andere zin</strong>; <strong>\\(\\vec{u} + \\left(-\\vec{u}\\right) = \\vec{0}\\)</strong>"],
+                             ["<strong>\\(\\vec{u} + \\vec{v}\\)</strong>", "<strong>kop aan staart zetten</strong>; de somvector loopt van het begin van de eerste naar het einde van de tweede"],
+                             ["<strong>\\(\\vec{u} - \\vec{v}\\)</strong>", "<strong>de tegengestelde erbij optellen</strong>: \\(\\vec{u} + \\left(-\\vec{v}\\right)\\), dus je keert de tweede pijl om"],
+                             ["<strong>\\(3\\vec{u}\\)</strong>", "<strong>drie keer zo lang</strong>, richting en zin blijven"],
+                             ["<strong>\\(-2\\vec{u}\\)</strong>", "<strong>dubbel zo lang en omgekeerd</strong> van zin"],
+                             ["<strong>\\(\\frac{1}{2}\\vec{u}\\)</strong>", "<strong>de grootte wordt gehalveerd</strong>, dus korter en niet langer"]])),
+            ("fig", svg.vectoroptelling(),
+             "kop aan staart: de somvector loopt van het begin van de eerste naar het einde van de tweede"),
             ("p", "De vakfiche gebruikt vectoren bij <strong>krachten</strong>, <strong>verplaatsing</strong> "
                   "en <strong>snelheid</strong>. <strong>Temperatuur is geen vectorgrootheid</strong>: ze "
                   "heeft wel een grootte maar geen richting."),
             ("kader", tabel(["situatie", "uitkomst"],
-                            [["<strong>twee krachten van 5 newton in dezelfde zin</strong>", "<strong>10 newton</strong>: de groottes tellen op"],
-                             ["<strong>twee krachten van 5 newton in tegengestelde zin</strong>", "<strong>de nulvector</strong>: ze heffen elkaar op, het voorwerp blijft in evenwicht"],
+                            [["<strong>twee krachten van \\(5\\) N in dezelfde zin</strong>", "<strong>\\(10\\) N</strong>: de groottes tellen op"],
+                             ["<strong>twee krachten van \\(5\\) N in tegengestelde zin</strong>", "<strong>de nulvector \\(\\vec{0}\\)</strong>: ze heffen elkaar op, het voorwerp blijft in evenwicht"],
                              ["<strong>een boot vaart naar het noorden, de stroming duwt naar het oosten</strong>",
                               "<strong>tel de twee vectoren op</strong>: de somvector loopt schuin naar het noordoosten, en dat is de werkelijke koers"]])),
             ("p", "<strong>De som van twee vectoren kan dus kleiner zijn dan elk van de twee "
