@@ -3193,13 +3193,13 @@
           "type": "meerkeuze",
           "vraag": "Waar moet je op letten bij delen van een gelijkheid?",
           "opties": [
-            "de deler mag niet nul zijn",
+            "de deler mag geen \\(0\\) zijn",
             "de deler moet positief zijn",
-            "de deler moet geheel zijn",
-            "de deler moet kleiner dan 10 zijn"
+            "de deler moet een geheel getal zijn",
+            "de deler moet kleiner zijn dan \\(10\\)"
           ],
           "antwoord": 0,
-          "uitleg": "Delen door nul is niet gedefinieerd. Daarom moet je bij een letter nagaan of ze nul kan worden."
+          "uitleg": "Delen door \\(0\\) is niet gedefinieerd. Daarom moet je bij een letter nagaan of ze nul kan worden."
         },
         {
           "type": "invultekst",
@@ -3208,31 +3208,31 @@
             "0",
             "nul"
           ],
-          "uitleg": "Nul. Delen door nul is niet gedefinieerd."
+          "uitleg": "Nul. \\(\\frac{a}{0}\\) is niet gedefinieerd."
         },
         {
           "type": "meerkeuze",
-          "vraag": "De omtrek van een rechthoek is 2 maal lengte plus 2 maal breedte. Hoe vind je de lengte?",
+          "vraag": "De omtrek van een rechthoek is \\(P = 2l + 2b\\). Hoe druk je \\(l\\) uit?",
           "opties": [
-            "omtrek gedeeld door 2 min de breedte",
-            "de omtrek min twee maal de breedte ervan",
-            "de omtrek gedeeld door de breedte ervan",
-            "de omtrek maal twee min de breedte ervan"
+            "\\(l = \\frac{P}{2} - b\\)",
+            "\\(l = P - 2b\\)",
+            "\\(l = \\frac{P}{b}\\)",
+            "\\(l = 2P - b\\)"
           ],
           "antwoord": 0,
-          "uitleg": "Deel eerst alles door 2, dan haal je de breedte eraf."
+          "uitleg": "Deel eerst alles door \\(2\\): \\(\\frac{P}{2} = l + b\\). Dan haal je \\(b\\) eraf."
         },
         {
           "type": "meerkeuze",
-          "vraag": "De oppervlakte van een rechthoek is lengte maal breedte. Hoe vind je de breedte?",
+          "vraag": "De oppervlakte van een rechthoek is \\(A = l \\cdot b\\). Hoe druk je \\(b\\) uit?",
           "opties": [
-            "oppervlakte gedeeld door de lengte",
-            "de oppervlakte min de lengte ervan",
-            "de oppervlakte maal de lengte ervan",
-            "de oppervlakte plus de lengte ervan"
+            "\\(b = \\frac{A}{l}\\)",
+            "\\(b = A - l\\)",
+            "\\(b = A \\cdot l\\)",
+            "\\(b = A + l\\)"
           ],
           "antwoord": 0,
-          "uitleg": "Deel beide kanten door de lengte. Dat mag zolang de lengte niet nul is."
+          "uitleg": "Deel beide kanten door \\(l\\). Dat mag zolang \\(l \\neq 0\\)."
         },
         {
           "type": "waarofniet",
@@ -3242,29 +3242,29 @@
         },
         {
           "type": "invultekst",
-          "vraag": "De oppervlakte van een vierkant is de zijde in het kwadraat. Hoe vind je de zijde? Eén woord.",
+          "vraag": "De oppervlakte van een vierkant is \\(A = z^{2}\\). Welke bewerking geeft \\(z\\)? Eén woord.",
           "antwoord": [
             "wortel",
             "vierkantswortel",
             "worteltrekken"
           ],
-          "uitleg": "Door de vierkantswortel van de oppervlakte te nemen."
+          "uitleg": "De vierkantswortel: \\(z = \\sqrt{A}\\)."
         },
         {
           "type": "meerkeuze",
-          "vraag": "In de formule y is 3x plus 6, hoe druk je x uit?",
+          "vraag": "In \\(y = 3x + 6\\), hoe druk je \\(x\\) uit?",
           "opties": [
-            "x is y min 6, gedeeld door 3",
-            "x is y gedeeld door 3, min 6",
-            "x is 3 maal y min 6",
-            "x is y min 3, gedeeld door 6"
+            "\\(x = \\frac{y - 6}{3}\\)",
+            "\\(x = \\frac{y}{3} - 6\\)",
+            "\\(x = 3y - 6\\)",
+            "\\(x = \\frac{y - 3}{6}\\)"
           ],
           "antwoord": 0,
-          "uitleg": "Eerst 6 aftrekken aan beide kanten, dan door 3 delen. De orde is omgekeerd aan het opbouwen."
+          "uitleg": "Eerst \\(6\\) aftrekken aan beide kanten, dan door \\(3\\) delen. De orde is omgekeerd aan het opbouwen."
         },
         {
           "type": "meerkeuze",
-          "vraag": "In welke orde maak je een formule vrij?",
+          "vraag": "In welke orde maak je een letter vrij?",
           "opties": [
             "omgekeerd aan de bewerkingen",
             "gewoon van links naar rechts",
@@ -3278,7 +3278,7 @@
           "type": "waarofniet",
           "vraag": "Een letter vrijmaken betekent iets anders dan een formule omvormen.",
           "antwoord": false,
-          "uitleg": "Het is net hetzelfde: je zet die letter alleen aan één kant van het isgelijkteken."
+          "uitleg": "Het is net hetzelfde: je zet die letter alleen aan één kant van het \\(=\\)-teken."
         },
         {
           "type": "meerkeuze",
@@ -3286,7 +3286,7 @@
           "opties": [
             "aan beide kanten optellen",
             "aan beide kanten aftrekken",
-            "aan beide kanten delen door iets niet nul",
+            "aan beide kanten delen door iets \\(\\neq 0\\)",
             "aan één kant iets bijtellen"
           ],
           "antwoord": [
@@ -3298,60 +3298,60 @@
         },
         {
           "type": "meerkeuze",
-          "vraag": "In de formule voor de oppervlakte van een driehoek, basis maal hoogte gedeeld door 2, hoe vind je de hoogte?",
+          "vraag": "De oppervlakte van een driehoek is \\(A = \\frac{b \\cdot h}{2}\\). Hoe druk je \\(h\\) uit?",
           "opties": [
-            "2 maal oppervlakte, gedeeld door de basis",
-            "oppervlakte gedeeld door de basis",
-            "oppervlakte maal de basis, gedeeld door 2",
-            "oppervlakte min de basis"
+            "\\(h = \\frac{2A}{b}\\)",
+            "\\(h = \\frac{A}{b}\\)",
+            "\\(h = \\frac{A \\cdot b}{2}\\)",
+            "\\(h = A - b\\)"
           ],
           "antwoord": 0,
-          "uitleg": "Eerst maal 2 aan beide kanten, dan delen door de basis."
+          "uitleg": "Eerst \\(\\cdot 2\\) aan beide kanten, dan delen door \\(b\\)."
         },
         {
           "type": "invultekst",
-          "vraag": "Een driehoek heeft oppervlakte 12 en basis 6. Wat is de hoogte? Een getal.",
+          "vraag": "Een driehoek heeft \\(A = 12\\) en \\(b = 6\\). Wat is \\(h\\)? Een getal.",
           "antwoord": [
             "4",
             "vier"
           ],
-          "uitleg": "2 maal 12 is 24, gedeeld door 6 is 4."
+          "uitleg": "\\(h = \\frac{2 \\cdot 12}{6} = 4\\)."
         },
         {
           "type": "waarofniet",
-          "vraag": "Bij maal min 1 aan beide kanten keert het ongelijkheidsteken van een gelijkheid om.",
+          "vraag": "Bij \\(\\cdot (-1)\\) aan beide kanten keert het teken van een gelijkheid om.",
           "antwoord": false,
-          "uitleg": "Bij een gelijkheid is er geen teken om te keren. Bij een ongelijkheid gebeurt dat juist wel."
+          "uitleg": "Bij een gelijkheid is er geen ongelijkheidsteken om te keren. Bij een ongelijkheid gebeurt dat juist wel."
         },
         {
           "type": "meerkeuze",
-          "vraag": "In de formule y is a maal x, hoe druk je a uit?",
+          "vraag": "In \\(y = a \\cdot x\\), hoe druk je \\(a\\) uit?",
           "opties": [
-            "a is y gedeeld door x",
-            "a is y maal x",
-            "a is y min x",
-            "a is x gedeeld door y"
+            "\\(a = \\frac{y}{x}\\)",
+            "\\(a = y \\cdot x\\)",
+            "\\(a = y - x\\)",
+            "\\(a = \\frac{x}{y}\\)"
           ],
           "antwoord": 0,
-          "uitleg": "Deel beide kanten door x, mits x niet nul is."
+          "uitleg": "Deel beide kanten door \\(x\\), mits \\(x \\neq 0\\)."
         },
         {
           "type": "meerkeuze",
-          "vraag": "In de formule voor de omtrek van een cirkel, 2 maal pi maal de straal, hoe vind je de straal?",
+          "vraag": "De omtrek van een cirkel is \\(P = 2\\pi r\\). Hoe druk je \\(r\\) uit?",
           "opties": [
-            "omtrek gedeeld door 2 maal pi",
-            "de omtrek maal twee maal pi",
-            "de omtrek min twee maal pi",
-            "de omtrek gedeeld door enkel pi"
+            "\\(r = \\frac{P}{2\\pi}\\)",
+            "\\(r = 2\\pi P\\)",
+            "\\(r = P - 2\\pi\\)",
+            "\\(r = \\frac{P}{\\pi}\\)"
           ],
           "antwoord": 0,
-          "uitleg": "Deel de omtrek door 2 pi. Zo laat je de straal alleen over."
+          "uitleg": "Deel de omtrek door \\(2\\pi\\). Zo laat je \\(r\\) alleen over."
         },
         {
           "type": "waarofniet",
-          "vraag": "Bij een zuiver kwadratische formule krijg je bij het omvormen twee oplossingen.",
+          "vraag": "Bij een formule met \\(x^{2}\\) krijg je bij het omvormen twee oplossingen.",
           "antwoord": true,
-          "uitleg": "De wortel geeft een positieve en een negatieve waarde. Bij een lengte houd je enkel de positieve."
+          "uitleg": "\\(x = \\sqrt{a}\\) of \\(x = -\\sqrt{a}\\). Bij een lengte houd je enkel de positieve."
         },
         {
           "type": "meerkeuze",
@@ -3369,29 +3369,29 @@
           "type": "meerkeuze",
           "vraag": "Welke formules noemt de vakfiche als wiskundige voorbeelden?",
           "opties": [
-            "de eerstegraadsfunctie",
-            "de vergelijking van een tweedegraadsfunctie",
-            "de formules voor omtrek en oppervlakte",
-            "de wet van Ohm uit de fysica"
+            "\\(y = ax + b\\)",
+            "\\(y = ax^{2} + bx + c\\)",
+            "\\(P = 2l + 2b\\) en \\(A = l \\cdot b\\)",
+            "\\(U = I \\cdot R\\)"
           ],
           "antwoord": [
             0,
             1,
             2
           ],
-          "uitleg": "De wet van Ohm staat bij de formules uit de natuurwetenschappen."
+          "uitleg": "\\(U = I \\cdot R\\) staat bij de formules uit de natuurwetenschappen."
         },
         {
           "type": "meerkeuze",
-          "vraag": "Een vierkant heeft oppervlakte 49. Wat is de zijde?",
+          "vraag": "Een vierkant heeft \\(A = 49\\). Wat is de zijde?",
           "opties": [
-            "7",
-            "24,5 in totaal",
-            "14 in totaal",
-            "49 in totaal"
+            "\\(7\\)",
+            "\\(24{,}5\\)",
+            "\\(14\\)",
+            "\\(49\\)"
           ],
           "antwoord": 0,
-          "uitleg": "De wortel van 49 is 7."
+          "uitleg": "\\(z = \\sqrt{49} = 7\\)."
         }
       ]
     },
@@ -3402,153 +3402,153 @@
       "vragen": [
         {
           "type": "meerkeuze",
-          "vraag": "Massadichtheid is massa gedeeld door volume. Hoe vind je de massa?",
+          "vraag": "Massadichtheid is \\(\\rho = \\frac{m}{V}\\). Hoe druk je \\(m\\) uit?",
           "opties": [
-            "dichtheid maal volume",
-            "dichtheid gedeeld door volume",
-            "volume gedeeld door dichtheid",
-            "dichtheid plus volume"
+            "\\(m = \\rho \\cdot V\\)",
+            "\\(m = \\frac{\\rho}{V}\\)",
+            "\\(m = \\frac{V}{\\rho}\\)",
+            "\\(m = \\rho + V\\)"
           ],
           "antwoord": 0,
-          "uitleg": "Vermenigvuldig beide kanten met het volume."
+          "uitleg": "Vermenigvuldig beide kanten met \\(V\\)."
         },
         {
           "type": "meerkeuze",
-          "vraag": "Hoe vind je uit dezelfde formule het volume?",
+          "vraag": "Hoe druk je uit dezelfde formule \\(V\\) uit?",
           "opties": [
-            "massa gedeeld door de dichtheid",
-            "massa maal de dichtheid",
-            "dichtheid gedeeld door de massa",
-            "massa min de dichtheid"
+            "\\(V = \\frac{m}{\\rho}\\)",
+            "\\(V = m \\cdot \\rho\\)",
+            "\\(V = \\frac{\\rho}{m}\\)",
+            "\\(V = m - \\rho\\)"
           ],
           "antwoord": 0,
-          "uitleg": "Eerst maal het volume, dan delen door de dichtheid."
+          "uitleg": "Eerst \\(\\cdot V\\), dan delen door \\(\\rho\\)."
         },
         {
           "type": "invultekst",
-          "vraag": "Een stuk metaal heeft massa 20 g en volume 4 kubieke centimeter. Wat is de dichtheid in gram per kubieke centimeter? Een getal.",
+          "vraag": "Een stuk metaal heeft \\(m = 20\\) g en \\(V = 4\\) cm³. Wat is \\(\\rho\\) in g/cm³? Een getal.",
           "antwoord": [
             "5",
             "vijf"
           ],
-          "uitleg": "20 gedeeld door 4 is 5 gram per kubieke centimeter."
+          "uitleg": "\\(\\rho = \\frac{20}{4} = 5\\) g/cm³."
         },
         {
           "type": "meerkeuze",
-          "vraag": "De zwaartekracht is massa maal de valversnelling. Hoe vind je de massa?",
+          "vraag": "De zwaartekracht is \\(F_{z} = m \\cdot g\\). Hoe druk je \\(m\\) uit?",
           "opties": [
-            "kracht gedeeld door de valversnelling",
-            "kracht maal de valversnelling",
-            "valversnelling gedeeld door de kracht",
-            "kracht min de valversnelling"
+            "\\(m = \\frac{F_{z}}{g}\\)",
+            "\\(m = F_{z} \\cdot g\\)",
+            "\\(m = \\frac{g}{F_{z}}\\)",
+            "\\(m = F_{z} - g\\)"
           ],
           "antwoord": 0,
-          "uitleg": "Deel beide kanten door de valversnelling."
+          "uitleg": "Deel beide kanten door \\(g\\)."
         },
         {
           "type": "waarofniet",
-          "vraag": "De wet van Ohm zegt dat de spanning de stroom maal de weerstand is.",
+          "vraag": "De wet van Ohm is \\(U = I \\cdot R\\).",
           "antwoord": true,
           "uitleg": "Zo staat ze op de vakfiche. Uit die formule kan je elke grootheid vrijmaken."
         },
         {
           "type": "meerkeuze",
-          "vraag": "Hoe vind je uit de wet van Ohm de weerstand?",
+          "vraag": "Hoe druk je uit de wet van Ohm \\(R\\) uit?",
           "opties": [
-            "spanning gedeeld door de stroom",
-            "spanning maal de stroom",
-            "stroom gedeeld door de spanning",
-            "spanning min de stroom"
+            "\\(R = \\frac{U}{I}\\)",
+            "\\(R = U \\cdot I\\)",
+            "\\(R = \\frac{I}{U}\\)",
+            "\\(R = U - I\\)"
           ],
           "antwoord": 0,
-          "uitleg": "Deel beide kanten door de stroom."
+          "uitleg": "Deel beide kanten door \\(I\\)."
         },
         {
           "type": "invultekst",
-          "vraag": "De spanning is 12 volt en de stroom 3 ampère. Wat is de weerstand in ohm? Een getal.",
+          "vraag": "Er geldt \\(U = 12\\) V en \\(I = 3\\) A. Wat is \\(R\\) in ohm? Een getal.",
           "antwoord": [
             "4",
             "vier"
           ],
-          "uitleg": "12 gedeeld door 3 is 4 ohm."
+          "uitleg": "\\(R = \\frac{12}{3} = 4\\) ohm."
         },
         {
           "type": "meerkeuze",
-          "vraag": "Druk is kracht gedeeld door oppervlakte. Wat gebeurt er bij een kleinere oppervlakte?",
+          "vraag": "Druk is \\(p = \\frac{F}{A}\\). Wat gebeurt er bij een kleinere \\(A\\)?",
           "opties": [
-            "de druk wordt groter",
-            "de druk wordt kleiner",
-            "de druk blijft gelijk",
-            "de kracht wordt groter"
+            "\\(p\\) wordt groter",
+            "\\(p\\) wordt kleiner",
+            "\\(p\\) blijft gelijk",
+            "\\(F\\) wordt groter"
           ],
           "antwoord": 0,
           "uitleg": "Dezelfde kracht op minder oppervlak geeft meer druk. Daarom prikt een speld zo goed."
         },
         {
           "type": "waarofniet",
-          "vraag": "Bij dezelfde kracht geeft een grotere oppervlakte meer druk.",
+          "vraag": "Bij dezelfde \\(F\\) geeft een grotere \\(A\\) meer druk.",
           "antwoord": false,
           "uitleg": "Juist minder. Daarom zakken brede sneeuwschoenen minder weg dan schoenen met een smalle zool."
         },
         {
           "type": "meerkeuze",
-          "vraag": "Veerkracht is de veerconstante maal de uitrekking. Hoe vind je de uitrekking?",
+          "vraag": "Veerkracht is \\(F = k \\cdot x\\). Hoe druk je \\(x\\) uit?",
           "opties": [
-            "kracht gedeeld door de veerconstante",
-            "kracht maal de veerconstante",
-            "veerconstante gedeeld door de kracht",
-            "kracht min de veerconstante"
+            "\\(x = \\frac{F}{k}\\)",
+            "\\(x = F \\cdot k\\)",
+            "\\(x = \\frac{k}{F}\\)",
+            "\\(x = F - k\\)"
           ],
           "antwoord": 0,
-          "uitleg": "Deel beide kanten door de veerconstante."
+          "uitleg": "Deel beide kanten door \\(k\\)."
         },
         {
           "type": "meerkeuze",
-          "vraag": "Molaire concentratie is de stofhoeveelheid gedeeld door het volume. Hoe vind je de stofhoeveelheid?",
+          "vraag": "Molaire concentratie is \\(c = \\frac{n}{V}\\). Hoe druk je \\(n\\) uit?",
           "opties": [
-            "concentratie maal het volume",
-            "concentratie gedeeld door het volume",
-            "volume gedeeld door de concentratie",
-            "concentratie plus het volume"
+            "\\(n = c \\cdot V\\)",
+            "\\(n = \\frac{c}{V}\\)",
+            "\\(n = \\frac{V}{c}\\)",
+            "\\(n = c + V\\)"
           ],
           "antwoord": 0,
-          "uitleg": "Vermenigvuldig beide kanten met het volume."
+          "uitleg": "Vermenigvuldig beide kanten met \\(V\\)."
         },
         {
           "type": "invultekst",
-          "vraag": "De concentratie is 2 mol per liter en het volume 3 liter. Hoeveel mol is dat? Een getal.",
+          "vraag": "Er geldt \\(c = 2\\) mol/l en \\(V = 3\\) l. Hoeveel mol is \\(n\\)? Een getal.",
           "antwoord": [
             "6",
             "zes"
           ],
-          "uitleg": "2 maal 3 is 6 mol."
+          "uitleg": "\\(n = 2 \\cdot 3 = 6\\) mol."
         },
         {
           "type": "waarofniet",
-          "vraag": "Kinetische energie hangt af van het kwadraat van de snelheid.",
+          "vraag": "In \\(E_{k} = \\frac{1}{2}mv^{2}\\) staat de snelheid in het kwadraat.",
           "antwoord": true,
           "uitleg": "Daarom is twee keer zo snel rijden vier keer zoveel energie, en dus een veel langere remweg."
         },
         {
           "type": "meerkeuze",
-          "vraag": "Een auto rijdt dubbel zo snel. Wat gebeurt er met zijn kinetische energie?",
+          "vraag": "Een auto rijdt dubbel zo snel. Wat gebeurt er met \\(E_{k}\\)?",
           "opties": [
-            "ze wordt vier keer zo groot",
-            "ze wordt dubbel zo groot",
-            "ze blijft gelijk",
-            "ze wordt acht keer zo groot"
+            "\\(\\times 4\\)",
+            "\\(\\times 2\\)",
+            "\\(\\times 1\\)",
+            "\\(\\times 8\\)"
           ],
           "antwoord": 0,
-          "uitleg": "De snelheid staat in het kwadraat: 2 maal 2 is 4."
+          "uitleg": "De snelheid staat in het kwadraat: \\(2^{2} = 4\\)."
         },
         {
           "type": "meerkeuze",
           "vraag": "Welke formules uit de natuurwetenschappen noemt de vakfiche?",
           "opties": [
-            "massadichtheid",
-            "de wet van Ohm",
-            "veerkracht en druk",
-            "de stelling van Pythagoras"
+            "\\(\\rho = \\frac{m}{V}\\)",
+            "\\(U = I \\cdot R\\)",
+            "\\(F = k \\cdot x\\) en \\(p = \\frac{F}{A}\\)",
+            "\\(a^{2} + b^{2} = c^{2}\\)"
           ],
           "antwoord": [
             0,
@@ -3559,21 +3559,21 @@
         },
         {
           "type": "waarofniet",
-          "vraag": "Potentiële energie door de zwaartekracht hangt af van de hoogte.",
+          "vraag": "In \\(E_{p} = m \\cdot g \\cdot h\\) bepaalt de hoogte alleen de energie.",
           "antwoord": false,
-          "uitleg": "Ze hangt af van massa, valversnelling én hoogte samen. De hoogte alleen bepaalt ze niet."
+          "uitleg": "Ze hangt af van massa, valversnelling én hoogte samen."
         },
         {
           "type": "meerkeuze",
-          "vraag": "Vermogen is energie gedeeld door tijd. Hoe vind je de energie?",
+          "vraag": "Vermogen is \\(P = \\frac{E}{t}\\). Hoe druk je \\(E\\) uit?",
           "opties": [
-            "vermogen maal de tijd",
-            "vermogen gedeeld door de tijd",
-            "tijd gedeeld door het vermogen",
-            "vermogen min de tijd"
+            "\\(E = P \\cdot t\\)",
+            "\\(E = \\frac{P}{t}\\)",
+            "\\(E = \\frac{t}{P}\\)",
+            "\\(E = P - t\\)"
           ],
           "antwoord": 0,
-          "uitleg": "Vermenigvuldig beide kanten met de tijd. Daarom staat je elektriciteitsrekening in kilowattuur."
+          "uitleg": "Vermenigvuldig beide kanten met \\(t\\). Daarom staat je elektriciteitsrekening in kilowattuur."
         },
         {
           "type": "meerkeuze",
@@ -3593,12 +3593,12 @@
         },
         {
           "type": "invultekst",
-          "vraag": "Het vermogen is 100 watt en de tijd 20 seconden. Hoeveel joule energie is dat? Een getal.",
+          "vraag": "Er geldt \\(P = 100\\) W en \\(t = 20\\) s. Hoeveel joule is \\(E\\)? Een getal.",
           "antwoord": [
             "2000",
             "2 000"
           ],
-          "uitleg": "100 maal 20 is 2 000 joule."
+          "uitleg": "\\(E = 100 \\cdot 20 = 2\\,000\\) J."
         },
         {
           "type": "meerkeuze",

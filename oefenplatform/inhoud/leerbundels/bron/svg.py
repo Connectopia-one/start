@@ -10334,3 +10334,51 @@ def ruimtediagonaal(breedte=470):
     d.append(_tekst(ox - 10, oy - s / 2 + 4, "1", 10.5, DIM, "end", True))
     d.append(_tekst(ox + s / 2, oy + 18, "1", 10.5, DIM, "middle", True))
     return _svg(breedte, h, "\n".join(d))
+
+
+def gelijkheidbalans(breedte=470):
+    r"""Een balans die in evenwicht blijft als je aan beide kanten hetzelfde doet."""
+    h = 196
+    d = [f'<rect x="5" y="4" width="{breedte-10}" height="{h-26}" rx="7" '
+         f'fill="{PAPER}" stroke="{BORDER}" stroke-width="1.2"/>']
+    for ox, links, rechts, bijschrift in ((126.0, "x + 5", "12", "in evenwicht"),
+                                          (344.0, "x", "7", "nog altijd in evenwicht")):
+        voet, arm = 140.0, 86.0
+        d.append(f'<path d="M{ox-20} {voet+18} L{ox} {voet-18} L{ox+20} {voet+18} Z" '
+                 f'fill="{DARK}" fill-opacity="0.18" stroke="{DARK}" stroke-width="1.4"/>')
+        d.append(f'<line x1="{ox-arm/2}" y1="{voet-18}" x2="{ox+arm/2}" y2="{voet-18}" '
+                 f'stroke="{DARK}" stroke-width="3"/>')
+        for kant, tekst, kleur in ((-1, links, FOREST), (1, rechts, AMBER)):
+            px = ox + kant * arm / 2
+            d.append(f'<line x1="{px}" y1="{voet-18}" x2="{px}" y2="{voet-44}" '
+                     f'stroke="{DARK}" stroke-width="1.3"/>')
+            d.append(f'<rect x="{px-30}" y="{voet-74}" width="60" height="30" rx="7" '
+                     f'fill="{kleur}" fill-opacity="0.14" stroke="{kleur}" stroke-width="1.6"/>')
+            d.append(_tekst(px, voet - 54, tekst, 12.5, kleur, "middle", True))
+        d.append(_tekst(ox, voet + 38, bijschrift, 10, DIM, "middle"))
+    d.append(_tekst(235, 36, "aan beide kanten 5 aftrekken", 11, DARK, "middle", True))
+    d.append(f'<path d="M232 50 h0 m-8 0 l8 8 l8 -8" stroke="{DARK}" stroke-width="1.8" '
+             f'fill="none" stroke-linecap="round"/>')
+    return _svg(breedte, h, "\n".join(d))
+
+
+def lettervrijmaken(breedte=470):
+    r"""De drie stappen waarmee je x vrijmaakt uit y = 3x + 6."""
+    h = 218
+    d = [f'<rect x="5" y="4" width="{breedte-10}" height="{h-26}" rx="7" '
+         f'fill="{PAPER}" stroke="{BORDER}" stroke-width="1.2"/>']
+    regels = [("y = 3x + 6", None),
+              ("y − 6 = 3x", "aan beide kanten − 6"),
+              ("(y − 6) : 3 = x", "aan beide kanten : 3")]
+    y = 46.0
+    for i, (formule, stap) in enumerate(regels):
+        d.append(f'<rect x="92" y="{y-20}" width="190" height="36" rx="8" '
+                 f'fill="{FOREST}" fill-opacity="0.08" stroke="{FOREST}" stroke-width="1.5"/>')
+        d.append(_tekst(187, y + 4, formule, 13, DARK, "middle", True))
+        if stap:
+            d.append(_tekst(298, y + 4, stap, 10.5, AMBER, "start"))
+        if i < len(regels) - 1:
+            d.append(f'<path d="M187 {y+18} v22 m0 0 l-6 -7 m6 7 l6 -7" stroke="{DIM}" '
+                     f'stroke-width="1.8" fill="none" stroke-linecap="round"/>')
+        y += 62
+    return _svg(breedte, h, "\n".join(d))

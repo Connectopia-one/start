@@ -721,71 +721,83 @@ zet("formules-omvormen",
     onder="De eigenschappen van gelijkheden, een letter vrijmaken in de omgekeerde orde, en formules uit de wiskunde en de natuurwetenschappen omvormen.",
     secties=[
         dict(kop="Wat mag je met een gelijkheid doen", blokken=[
-            ("p", "Eén regel draagt het hele hoofdstuk: <strong>doe aan beide kanten hetzelfde</strong>. "
-                  "Optellen, aftrekken, vermenigvuldigen of delen aan beide kanten houdt de gelijkheid in "
-                  "stand; één kant veranderen breekt ze."),
-            ("p", "Met één voorbehoud: <strong>de deler mag niet nul zijn</strong>. <strong>Door nul mag je "
-                  "nooit delen</strong>, dus bij een letter ga je altijd na of ze nul kan worden."),
-            ("p", "<strong>Een letter vrijmaken en een formule omvormen zijn hetzelfde</strong>: je zet die "
-                  "letter alleen aan één kant van het isgelijkteken. <strong>De betekenis van de formule "
-                  "verandert daarbij niet</strong>; je schrijft dezelfde samenhang anders op."),
-            ("p", "<strong>Je maakt een formule vrij in de omgekeerde orde van de bewerkingen</strong>: wat "
-                  "het laatst bij de onbekende kwam, haal je eerst weg, net als bij het uitpakken van een "
-                  "doos. In <strong>y = 3x + 6</strong> trek je dus eerst 6 af en deel je dan door 3: "
-                  "<strong>x = (y − 6) : 3</strong>."),
-            ("p", "Let nog op één ding: <strong>bij maal min 1 keert er in een gelijkheid geen teken "
-                  "om</strong>, want er is geen ongelijkheidsteken. Bij een ongelijkheid gebeurt dat wel."),
+            ("p", r"Eén regel draagt het hele hoofdstuk: <strong>doe aan beide kanten "
+                  r"hetzelfde</strong>. Optellen, aftrekken, vermenigvuldigen of delen aan beide kanten "
+                  r"houdt de gelijkheid in stand; één kant veranderen breekt ze."),
+            ("fig", svg.gelijkheidbalans(),
+             "Links en rechts blijven gelijk zolang je aan beide kanten hetzelfde doet."),
+            ("p", r"Met één voorbehoud: <strong>de deler mag geen \(0\) zijn</strong>. <strong>Door "
+                  r"\(0\) mag je nooit delen</strong>, dus bij een letter ga je altijd na of ze nul kan "
+                  r"worden."),
+        ]),
+        dict(kop="Een letter vrijmaken", blokken=[
+            ("p", r"<strong>Een letter vrijmaken en een formule omvormen zijn hetzelfde</strong>: je zet "
+                  r"die letter alleen aan één kant van het \(=\)-teken. <strong>De betekenis van de "
+                  r"formule verandert daarbij niet</strong>; je schrijft dezelfde samenhang anders op."),
+            ("p", r"<strong>Je maakt een formule vrij in de omgekeerde orde van de bewerkingen</strong>: "
+                  r"wat het laatst bij de onbekende kwam, haal je eerst weg, net als bij het uitpakken "
+                  r"van een doos."),
+        ]),
+        dict(kop="Uitpakken in drie stappen", blokken=[
+            ("fig", svg.lettervrijmaken(),
+             "Eerst gaat de + 6 weg, dan pas de maal 3."),
+            ("p", r"Let nog op één ding: <strong>bij \(\cdot (-1)\) keert er in een gelijkheid geen teken "
+                  r"om</strong>, want er is geen ongelijkheidsteken. Bij een ongelijkheid gebeurt dat wel."),
         ]),
         dict(kop="Formules uit de wiskunde", blokken=[
-            ("p", "De vakfiche noemt als wiskundige voorbeelden <strong>de eerstegraadsfunctie</strong>, "
-                  "<strong>de vergelijking van een tweedegraadsfunctie</strong> en <strong>de formules voor "
-                  "omtrek en oppervlakte</strong>. De wet van Ohm staat bij de natuurwetenschappen."),
+            ("p", r"De vakfiche noemt als wiskundige voorbeelden <strong>\(y = ax + b\)</strong>, "
+                  r"<strong>\(y = ax^{2} + bx + c\)</strong> en <strong>de formules voor omtrek en "
+                  r"oppervlakte</strong>. \(U = I \cdot R\) staat bij de natuurwetenschappen."),
             ("kader", tabel(["formule", "gevraagd", "omgevormd"],
-                            [["omtrek rechthoek = 2 × l + 2 × b", "de lengte", "<strong>omtrek gedeeld door 2, min de breedte</strong>"],
-                             ["oppervlakte rechthoek = l × b", "de breedte", "<strong>oppervlakte gedeeld door de lengte</strong>"],
-                             ["oppervlakte vierkant = z²", "de zijde", "<strong>de vierkantswortel</strong> van de oppervlakte"],
-                             ["oppervlakte driehoek = basis × hoogte : 2", "de hoogte", "<strong>2 × oppervlakte, gedeeld door de basis</strong>"],
-                             ["omtrek cirkel = 2 × π × r", "de straal", "<strong>omtrek gedeeld door 2π</strong>"],
-                             ["y = a × x", "a", "<strong>y gedeeld door x</strong>, mits x niet nul is"]])),
-            ("p", "Reken twee gevallen na. <strong>Een driehoek met oppervlakte 12 en basis 6 heeft hoogte "
-                  "4</strong> (2 × 12 = 24, gedeeld door 6). En <strong>een vierkant met oppervlakte 49 heeft "
-                  "zijde 7</strong>."),
-            ("p", "<strong>Bij een zuiver kwadratische formule krijg je twee oplossingen</strong>: de wortel "
-                  "geeft een positieve en een negatieve waarde. <strong>Bij een lengte houd je enkel de "
-                  "positieve, want een lengte is nooit negatief.</strong> De wiskunde geeft twee antwoorden, "
-                  "de context sluit er één uit — dat heet demathematiseren."),
+                            [[r"omtrek rechthoek: \(P = 2l + 2b\)", r"\(l\)", r"<strong>\(l = \frac{P}{2} - b\)</strong>"],
+                             [r"oppervlakte rechthoek: \(A = l \cdot b\)", r"\(b\)", r"<strong>\(b = \frac{A}{l}\)</strong>"],
+                             [r"oppervlakte vierkant: \(A = z^{2}\)", r"de zijde \(z\)", r"<strong>\(z = \sqrt{A}\)</strong>, de vierkantswortel"],
+                             [r"oppervlakte driehoek: \(A = \frac{b \cdot h}{2}\)", r"\(h\)", r"<strong>\(h = \frac{2A}{b}\)</strong>"],
+                             [r"omtrek cirkel: \(P = 2\pi r\)", r"de straal \(r\)", r"<strong>\(r = \frac{P}{2\pi}\)</strong>"],
+                             [r"\(y = a \cdot x\)", r"\(a\)", r"<strong>\(a = \frac{y}{x}\)</strong>, mits \(x \neq 0\)"]])),
+        ]),
+        dict(kop="Twee gevallen nagerekend", blokken=[
+            ("p", r"<strong>Een driehoek met \(A = 12\) en \(b = 6\) heeft \(h = 4\)</strong>, want "
+                  r"\(h = \frac{2 \cdot 12}{6} = 4\). En <strong>een vierkant met \(A = 49\) heeft "
+                  r"\(z = 7\)</strong>, want \(\sqrt{49} = 7\)."),
+            ("p", r"<strong>Bij een formule met \(x^{2}\) krijg je twee oplossingen</strong>: "
+                  r"\(x = \sqrt{a}\) of \(x = -\sqrt{a}\). <strong>Bij een lengte houd je enkel de "
+                  r"positieve, want een lengte is nooit negatief.</strong> De wiskunde geeft twee "
+                  r"antwoorden, de context sluit er één uit; dat heet demathematiseren."),
         ]),
         dict(kop="Formules uit de natuurwetenschappen", blokken=[
-            ("p", "De vakfiche noemt <strong>massadichtheid</strong>, <strong>de wet van Ohm</strong>, en "
-                  "<strong>veerkracht en druk</strong>. Pythagoras is wiskunde en geen "
-                  "natuurwetenschappelijke formule."),
+            ("p", r"De vakfiche noemt <strong>\(\rho = \frac{m}{V}\)</strong>, <strong>\(U = I \cdot "
+                  r"R\)</strong>, en <strong>\(F = k \cdot x\) en \(p = \frac{F}{A}\)</strong>. "
+                  r"\(a^{2} + b^{2} = c^{2}\) is wiskunde en geen natuurwetenschappelijke formule."),
             ("kader", tabel(["formule", "gevraagd", "omgevormd", "voorbeeld"],
-                            [["dichtheid = massa : volume", "de massa", "<strong>dichtheid × volume</strong>",
-                              "<strong>20 g in 4 cm³ geeft 5 g per cm³</strong>"],
-                             ["dezelfde formule", "het volume", "<strong>massa gedeeld door de dichtheid</strong>", ""],
-                             ["<strong>de wet van Ohm: spanning = stroom × weerstand</strong>", "de weerstand", "<strong>spanning gedeeld door de stroom</strong>",
-                              "<strong>12 volt bij 3 ampère geeft 4 ohm</strong>"],
-                             ["zwaartekracht = massa × valversnelling", "de massa", "<strong>kracht gedeeld door de valversnelling</strong>", ""],
-                             ["veerkracht = veerconstante × uitrekking", "de uitrekking", "<strong>kracht gedeeld door de veerconstante</strong>", ""],
-                             ["concentratie = stofhoeveelheid : volume", "de stofhoeveelheid", "<strong>concentratie × volume</strong>",
-                              "<strong>2 mol per liter in 3 liter is 6 mol</strong>"],
-                             ["vermogen = energie : tijd", "de energie", "<strong>vermogen × tijd</strong>",
-                              "<strong>100 watt gedurende 20 seconden is 2 000 joule</strong>"]])),
-            ("p", "<strong>Druk is kracht gedeeld door oppervlakte</strong>, dus <strong>bij een kleinere "
-                  "oppervlakte wordt de druk groter</strong>. Daarom prikt een speld zo goed. En omgekeerd: "
-                  "<strong>bij dezelfde kracht geeft een grotere oppervlakte minder druk</strong>, en daarom "
-                  "zakken brede sneeuwschoenen minder weg."),
-            ("p", "<strong>Kinetische energie hangt af van het kwadraat van de snelheid</strong>, dus "
-                  "<strong>een auto die dubbel zo snel rijdt heeft vier keer zoveel kinetische "
-                  "energie</strong> — en daarom een veel langere remweg. Let op bij de potentiële energie: "
-                  "<strong>die hangt niet van de hoogte alleen af</strong>, maar van massa, valversnelling "
-                  "én hoogte samen."),
-            ("p", "Drie stappen bij het omvormen: <strong>bepaal welke letter je zoekt</strong>, <strong>werk "
-                  "met eigenschappen van gelijkheden</strong> en <strong>controleer de eenheden</strong>. "
-                  "Snel afronden is net wat de vakfiche afraadt."),
-            ("weetje", "<strong>Formules omvormen is buiten de wiskunde nuttig omdat je er elke grootheid "
-                       "mee berekent</strong> die erin staat, zolang je de andere kent. Eén formule, zoveel "
-                       "vragen als er letters in staan."),
+                            [[r"massadichtheid: \(\rho = \frac{m}{V}\)", r"\(m\)", r"<strong>\(m = \rho \cdot V\)</strong>",
+                              r"<strong>\(20\) g in \(4\) cm³ geeft \(5\) g/cm³</strong>"],
+                             [r"dezelfde formule", r"\(V\)", r"<strong>\(V = \frac{m}{\rho}\)</strong>", ""],
+                             [r"<strong>de wet van Ohm: \(U = I \cdot R\)</strong>", r"de weerstand \(R\)", r"<strong>\(R = \frac{U}{I}\)</strong>",
+                              r"<strong>\(12\) V bij \(3\) A geeft \(4\) ohm</strong>"],
+                             [r"zwaartekracht: \(F_{z} = m \cdot g\)", r"\(m\)", r"<strong>\(m = \frac{F_{z}}{g}\)</strong>", ""],
+                             [r"veerkracht: \(F = k \cdot x\)", r"de uitrekking \(x\)", r"<strong>\(x = \frac{F}{k}\)</strong>", ""],
+                             [r"molaire concentratie: \(c = \frac{n}{V}\)", r"\(n\)", r"<strong>\(n = c \cdot V\)</strong>",
+                              r"<strong>\(2\) mol/l in \(3\) l is \(6\) mol</strong>"],
+                             [r"vermogen: \(P = \frac{E}{t}\)", r"\(E\)", r"<strong>\(E = P \cdot t\)</strong>",
+                              r"<strong>\(100\) W gedurende \(20\) s is \(2\,000\) joule</strong>"]])),
+        ]),
+        dict(kop="Wat de formule je vertelt", blokken=[
+            ("p", r"<strong>Druk is \(p = \frac{F}{A}\)</strong>, dus <strong>bij een kleinere \(A\) "
+                  r"wordt \(p\) groter</strong>. Daarom prikt een speld zo goed. En omgekeerd: "
+                  r"<strong>bij dezelfde \(F\) geeft een grotere \(A\) minder druk</strong>, en daarom "
+                  r"zakken brede sneeuwschoenen minder weg."),
+            ("p", r"<strong>In \(E_{k} = \frac{1}{2}mv^{2}\) staat de snelheid in het kwadraat</strong>, "
+                  r"dus <strong>een auto die dubbel zo snel rijdt heeft vier keer zoveel kinetische "
+                  r"energie</strong>, en daarom een veel langere remweg. Let op bij "
+                  r"\(E_{p} = m \cdot g \cdot h\): <strong>die hangt niet van de hoogte alleen af</strong>, "
+                  r"maar van massa, valversnelling én hoogte samen."),
+            ("p", r"Drie stappen bij het omvormen: <strong>bepaal welke letter je zoekt</strong>, "
+                  r"<strong>werk met eigenschappen van gelijkheden</strong> en <strong>controleer de "
+                  r"eenheden</strong>. Snel afronden is net wat de vakfiche afraadt."),
+            ("weetje", r"<strong>Formules omvormen is buiten de wiskunde nuttig omdat je er elke "
+                       r"grootheid mee berekent</strong> die erin staat, zolang je de andere kent. Eén "
+                       r"formule, zoveel vragen als er letters in staan."),
         ]),
     ])
 
