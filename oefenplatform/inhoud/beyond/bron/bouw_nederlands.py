@@ -37,6 +37,9 @@ import sys
 
 HIER = pathlib.Path(__file__).parent
 sys.path.insert(0, str(HIER))
+sys.path.insert(0, str(HIER.parents[1]))
+
+from notatie import zichtbaar  # noqa: E402  (pad moet eerst klaarstaan)
 DOEL = HIER.parent / "nederlands.json"
 
 # De volgorde volgt de twee fiches: eerst lezen en luisteren, dan literatuur,
@@ -109,7 +112,7 @@ def gokpatronen(titel: str, vragen: list) -> list:
     langst = 0
     for v in mk:
         antw = v["antwoord"] if isinstance(v["antwoord"], list) else [v["antwoord"]]
-        lengtes = [len(o) for o in v["opties"]]
+        lengtes = [len(zichtbaar(o)) for o in v["opties"]]
         anders = [lengtes[i] for i in range(len(lengtes)) if i not in antw]
         if anders and min(lengtes[i] for i in antw) > max(anders) + 5:
             langst += 1

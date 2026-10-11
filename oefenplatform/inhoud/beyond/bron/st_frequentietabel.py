@@ -45,15 +45,15 @@ DEEL1 = [
     dict(
         type="meerkeuze",
         vraag="Een waarde komt acht keer voor in een dataset van veertig. Wat is de relatieve frequentie?",
-        opties=["twintig procent", "acht procent", "veertig procent", "vijf procent"],
+        opties=[r"\(20\) procent", r"\(8\) procent", r"\(40\) procent", r"\(5\) procent"],
         antwoord=0,
-        uitleg="Acht gedeeld door veertig is nul komma twee, dus twintig procent.",
+        uitleg=r"Acht gedeeld door veertig is \(0{,}2\), dus \(20\) procent.",
     ),
     dict(
         type="waarofniet",
         vraag="De som van alle relatieve frequenties in een tabel is gelijk aan één.",
         antwoord=True,
-        uitleg="Of honderd procent. Dat is de snelste controle op een rekenfout in je tabel.",
+        uitleg=r"Of \(100\) procent. Dat is de snelste controle op een rekenfout in je tabel.",
     ),
     dict(
         type="meerkeuze",
@@ -89,11 +89,11 @@ DEEL1 = [
             "omdat relatieve frequenties geen eenheid nodig hebben",
         ],
         antwoord=0,
-        uitleg="Veertig van de tweehonderd en twee van de tien zijn allebei twintig procent. In absolute getallen lijken ze niets op elkaar.",
+        uitleg=r"Veertig van de tweehonderd en twee van de tien zijn allebei \(20\) procent. In absolute getallen lijken ze niets op elkaar.",
     ),
     dict(
         type="meerkeuze",
-        vraag="Een tabel bevat de frequenties 12, 18, 25 en 5. Hoe groot is het totale aantal?",
+        vraag=r"Een tabel bevat de frequenties \(12\), \(18\), \(25\) en \(5\). Hoe groot is het totale aantal?",
         opties=["zestig", "vijfenvijftig", "vijftig", "vijfenzestig"],
         antwoord=0,
         uitleg="Twaalf plus achttien plus vijfentwintig plus vijf is zestig.",
@@ -106,7 +106,7 @@ DEEL1 = [
     ),
     dict(
         type="meerkeuze",
-        vraag="In een frequentietabel staat bij de derde rij een cumulatieve frequentie van 45 en bij de vierde rij 62. Wat is de absolute frequentie van de vierde rij?",
+        vraag=r"In een frequentietabel staat bij de derde rij een cumulatieve frequentie van \(45\) en bij de vierde rij \(62\). Wat is de absolute frequentie van de vierde rij?",
         opties=["zeventien", "tweeënzestig", "vijfenveertig", "honderdzeven"],
         antwoord=0,
         uitleg="Tweeënzestig min vijfenveertig is zeventien. Een cumulatieve kolom lees je altijd als een verschil.",
@@ -127,7 +127,7 @@ DEEL1 = [
         type="invultekst",
         vraag="Hoeveel is de som van alle relatieve frequenties in procent? Geef het getal in cijfers.",
         antwoord=["100", "100 procent"],
-        uitleg="Honderd procent, of één als je met decimalen rekent.",
+        uitleg=r"\(100\) procent, of één als je met decimalen rekent.",
     ),
     dict(
         type="waarofniet",
@@ -137,15 +137,15 @@ DEEL1 = [
     ),
     dict(
         type="meerkeuze",
-        vraag="Een leerling vindt in zijn tabel relatieve frequenties die samen 1,04 geven. Wat besluit hij?",
+        vraag=r"Een leerling vindt in zijn tabel relatieve frequenties die samen \(1{,}04\) geven. Wat besluit hij?",
         opties=[
             "er zit een rekenfout in, want de som moet één zijn",
             "dat kan door het afronden, hij laat het zo staan",
-            "hij moet alles door 1,04 delen en dan klopt het",
+            r"hij moet alles door \(1{,}04\) delen en dan klopt het",
             "hij moet een vierde kolom met cumulatieven toevoegen",
         ],
         antwoord=0,
-        uitleg="Afronden kan een paar duizendsten schelen, geen vier honderdsten. Vier procent te veel is een fout.",
+        uitleg=r"Afronden kan een paar duizendsten schelen, geen vier honderdsten. \(4\) procent te veel is een fout.",
     ),
     dict(
         type="meerkeuze",
@@ -168,9 +168,9 @@ DEEL1 = [
     dict(
         type="meerkeuze",
         vraag="In een klas van vijfentwintig leerlingen haalden er vijf een tien. Wat is de relatieve frequentie?",
-        opties=["twintig procent", "vijf procent", "vijfentwintig procent", "tien procent"],
+        opties=[r"\(20\) procent", r"\(5\) procent", "vijfentwintig procent", r"\(10\) procent"],
         antwoord=0,
-        uitleg="Vijf gedeeld door vijfentwintig is een vijfde, dus twintig procent.",
+        uitleg=r"Vijf gedeeld door vijfentwintig is een vijfde, dus \(20\) procent.",
     ),
     dict(
         type="invultekst",
@@ -215,20 +215,20 @@ DEEL2 = [
             "het gemiddelde van de hele dataset per groep",
         ],
         antwoord=0,
-        uitleg="Bijvoorbeeld van 160 tot 165 centimeter. Alle lengtes in dat interval komen in dezelfde rij.",
+        uitleg=r"Bijvoorbeeld van \(160\) tot \(165\) centimeter. Alle lengtes in dat interval komen in dezelfde rij.",
     ),
     dict(
         type="meerkeuze",
-        vraag="Wat is de klassenbreedte van de klasse van 20 tot 30?",
+        vraag=r"Wat is de klassenbreedte van de klasse van \(20\) tot \(30\)?",
         opties=["tien", "twintig", "dertig", "vijf"],
         antwoord=0,
         uitleg="Dertig min twintig is tien. In een goede tabel zijn alle klassen even breed.",
     ),
     dict(
         type="waarofniet",
-        vraag="Het klassenmidden van de klasse van 20 tot 30 is 20.",
+        vraag=r"Het klassenmidden van de klasse van \(20\) tot \(30\) is \(20\).",
         antwoord=False,
-        uitleg="Het klassenmidden is het gemiddelde van de twee grenzen, dus 25. Dat getal gebruik je om uit een gegroepeerde tabel te rekenen.",
+        uitleg=r"Het klassenmidden is het gemiddelde van de twee grenzen, dus \(25\). Dat getal gebruik je om uit een gegroepeerde tabel te rekenen.",
     ),
     dict(
         type="meerkeuze",
@@ -244,7 +244,7 @@ DEEL2 = [
     ),
     dict(
         type="invultekst",
-        vraag="Wat is het klassenmidden van de klasse van 40 tot 50? Geef het getal in cijfers.",
+        vraag=r"Wat is het klassenmidden van de klasse van \(40\) tot \(50\)? Geef het getal in cijfers.",
         antwoord=["45"],
         uitleg="Het gemiddelde van de grenzen veertig en vijftig.",
     ),
@@ -256,7 +256,7 @@ DEEL2 = [
     ),
     dict(
         type="meerkeuze",
-        vraag="Wat gaat er mis als je klassen laat overlappen, bijvoorbeeld van 10 tot 20 en van 20 tot 30?",
+        vraag=r"Wat gaat er mis als je klassen laat overlappen, bijvoorbeeld van \(10\) tot \(20\) en van \(20\) tot \(30\)?",
         opties=[
             "de waarde twintig past in twee klassen en wordt dubbel geteld",
             "de som van de frequenties wordt automatisch kleiner",
@@ -264,11 +264,11 @@ DEEL2 = [
             "het klassenmidden valt dan buiten de klasse",
         ],
         antwoord=0,
-        uitleg="Daarom schrijft men meestal van 10 tot 20 waarbij 20 er niet meer bij hoort, en begint de volgende klasse bij 20.",
+        uitleg=r"Daarom schrijft men meestal van \(10\) tot \(20\) waarbij \(20\) er niet meer bij hoort, en begint de volgende klasse bij \(20\).",
     ),
     dict(
         type="meerkeuze",
-        vraag="Je hebt vijfhonderd meetwaarden tussen 0 en 100. Hoeveel klassen zijn een redelijke keuze?",
+        vraag=r"Je hebt vijfhonderd meetwaarden tussen \(0\) en \(100\). Hoeveel klassen zijn een redelijke keuze?",
         opties=[
             "ongeveer tien klassen van tien eenheden breed",
             "ongeveer honderd klassen van één eenheid breed",
@@ -294,7 +294,7 @@ DEEL2 = [
             "een gegroepeerde tabel kan enkel met ICT opgesteld worden",
         ],
         antwoord=0,
-        uitleg="Bij weinig verschillende waarden, zoals een schoolcijfer van 0 tot 20, groepeer je niet.",
+        uitleg=r"Bij weinig verschillende waarden, zoals een schoolcijfer van \(0\) tot \(20\), groepeer je niet.",
     ),
     dict(
         type="meerkeuze",
@@ -310,7 +310,7 @@ DEEL2 = [
     ),
     dict(
         type="invultekst",
-        vraag="Hoeveel klassen heeft een tabel met de klassen van 0 tot 20, 20 tot 40, 40 tot 60 en 60 tot 80? Geef het getal in cijfers.",
+        vraag=r"Hoeveel klassen heeft een tabel met de klassen van \(0\) tot \(20\), \(20\) tot \(40\), \(40\) tot \(60\) en \(60\) tot \(80\)? Geef het getal in cijfers.",
         antwoord=["4", "vier"],
         uitleg="Vier klassen, elk twintig eenheden breed.",
     ),
@@ -322,16 +322,16 @@ DEEL2 = [
     ),
     dict(
         type="meerkeuze",
-        vraag="Een gegroepeerde tabel heeft de klassen van 0 tot 10 met frequentie 12, van 10 tot 20 met 18 en van 20 tot 30 met 10. Hoeveel gegevens liggen onder 20?",
+        vraag=r"Een gegroepeerde tabel heeft de klassen van \(0\) tot \(10\) met frequentie \(12\), van \(10\) tot \(20\) met \(18\) en van \(20\) tot \(30\) met \(10\). Hoeveel gegevens liggen onder \(20\)?",
         opties=["dertig", "achttien", "twaalf", "veertig"],
         antwoord=0,
         uitleg="Twaalf plus achttien is dertig. Dat is de cumulatieve frequentie bij de grens twintig.",
     ),
     dict(
         type="meerkeuze",
-        vraag="Een leerling maakt klassen van 0 tot 10, van 11 tot 20 en van 21 tot 30 voor een continue variabele. Wat is het probleem?",
+        vraag=r"Een leerling maakt klassen van \(0\) tot \(10\), van \(11\) tot \(20\) en van \(21\) tot \(30\) voor een continue variabele. Wat is het probleem?",
         opties=[
-            "de waarden tussen 10 en 11 vallen in geen enkele klasse",
+            r"de waarden tussen \(10\) en \(11\) vallen in geen enkele klasse",
             "de klassen zijn niet allemaal even breed gekozen",
             "er zijn te weinig klassen voor een continue variabele",
             "het klassenmidden valt niet op een geheel getal",
@@ -365,7 +365,7 @@ DEEL2 = [
     ),
     dict(
         type="meerkeuze",
-        vraag="Je berekent uit een gegroepeerde tabel een gemiddelde van 34,2 terwijl de ruwe data 33,8 geeft. Wat zeg je?",
+        vraag=r"Je berekent uit een gegroepeerde tabel een gemiddelde van \(34{,}2\) terwijl de ruwe data \(33{,}8\) geeft. Wat zeg je?",
         opties=[
             "dat is normaal, want het klassenmidden is een benadering van de echte waarden",
             "er zit een rekenfout in een van de twee berekeningen",

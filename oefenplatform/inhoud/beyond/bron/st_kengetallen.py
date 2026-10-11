@@ -62,25 +62,25 @@ DEEL1 = [
         type="waarofniet",
         vraag="Bij een even aantal gegevens is de mediaan de kleinste van de twee middelste waarden.",
         antwoord=False,
-        uitleg="Ze is het gemiddelde van de twee middelste. Bij 10, 12, 14 en 16 is de mediaan dus 13, een getal dat zelf niet in de lijst staat.",
+        uitleg=r"Ze is het gemiddelde van de twee middelste. Bij \(10\), \(12\), \(14\) en \(16\) is de mediaan dus \(13\), een getal dat zelf niet in de lijst staat.",
     ),
     dict(
         type="meerkeuze",
-        vraag="Wat is het gemiddelde van 3, 5, 5, 8 en 9?",
+        vraag=r"Wat is het gemiddelde van \(3\), \(5\), \(5\), \(8\) en \(9\)?",
         opties=["zes", "vijf", "acht", "dertig"],
         antwoord=0,
         uitleg="De som is dertig en er zijn vijf waarden, dus dertig gedeeld door vijf is zes.",
     ),
     dict(
         type="meerkeuze",
-        vraag="Wat is de mediaan van 3, 5, 5, 8 en 9?",
+        vraag=r"Wat is de mediaan van \(3\), \(5\), \(5\), \(8\) en \(9\)?",
         opties=["vijf", "zes", "acht", "vier"],
         antwoord=0,
         uitleg="De lijst staat al gerangschikt en de derde van vijf waarden is vijf.",
     ),
     dict(
         type="invultekst",
-        vraag="Wat is de modus van 3, 5, 5, 8 en 9? Geef het getal in cijfers.",
+        vraag=r"Wat is de modus van \(3\), \(5\), \(5\), \(8\) en \(9\)? Geef het getal in cijfers.",
         antwoord=["5"],
         uitleg="Vijf komt twee keer voor, de andere waarden één keer.",
     ),
@@ -92,14 +92,14 @@ DEEL1 = [
     ),
     dict(
         type="meerkeuze",
-        vraag="Wat is de mediaan van 10, 12, 14 en 16?",
+        vraag=r"Wat is de mediaan van \(10\), \(12\), \(14\) en \(16\)?",
         opties=["dertien", "twaalf", "veertien", "dertien komma vijf"],
         antwoord=0,
         uitleg="Het gemiddelde van de twee middelste, twaalf en veertien, is dertien.",
     ),
     dict(
         type="meerkeuze",
-        vraag="Een leerling zoekt de mediaan van 8, 3, 9, 5 en 5 en antwoordt negen. Wat ging er mis?",
+        vraag=r"Een leerling zoekt de mediaan van \(8\), \(3\), \(9\), \(5\) en \(5\) en antwoordt negen. Wat ging er mis?",
         opties=[
             "hij vergat te rangschikken, de mediaan is vijf",
             "hij nam het gemiddelde in plaats van de mediaan",
@@ -107,13 +107,13 @@ DEEL1 = [
             "hij vergat te delen door het aantal waarden",
         ],
         antwoord=0,
-        uitleg="Gerangschikt staat er 3, 5, 5, 8, 9 en de derde waarde is vijf. Negen is gewoon de middelste van de onsorteerde lijst.",
+        uitleg=r"Gerangschikt staat er \(3\), \(5\), \(5\), \(8\), \(9\) en de derde waarde is vijf. Negen is gewoon de middelste van de onsorteerde lijst.",
     ),
     dict(
         type="waarofniet",
         vraag="Het gemiddelde moet altijd een van de waarden uit de dataset zijn.",
         antwoord=False,
-        uitleg="Zelden zelfs. Het gemiddelde aantal kinderen per gezin is 1,7 en zo'n gezin bestaat niet.",
+        uitleg=r"Zelden zelfs. Het gemiddelde aantal kinderen per gezin is \(1{,}7\) en zo'n gezin bestaat niet.",
     ),
     dict(
         type="meerkeuze",
@@ -129,14 +129,14 @@ DEEL1 = [
     ),
     dict(
         type="meerkeuze",
-        vraag="De waarden 1, 2 en 3 komen respectievelijk 2, 3 en 5 keer voor. Wat is het gemiddelde?",
-        opties=["2,3", "twee", "drie", "1,8"],
+        vraag=r"De waarden \(1\), \(2\) en \(3\) komen respectievelijk \(2\), \(3\) en \(5\) keer voor. Wat is het gemiddelde?",
+        opties=[r"\(2{,}3\)", "twee", "drie", r"\(1{,}8\)"],
         antwoord=0,
-        uitleg="Twee plus zes plus vijftien is drieëntwintig, gedeeld door tien waarden is 2,3.",
+        uitleg=r"Twee plus zes plus vijftien is drieëntwintig, gedeeld door tien waarden is \(2{,}3\).",
     ),
     dict(
         type="invultekst",
-        vraag="Wat is de mediaan van 4, 6, 8, 10, 12, 14 en 16? Geef het getal in cijfers.",
+        vraag=r"Wat is de mediaan van \(4\), \(6\), \(8\), \(10\), \(12\), \(14\) en \(16\)? Geef het getal in cijfers.",
         antwoord=["10"],
         uitleg="Zeven waarden, dus de vierde. Dat is tien.",
     ),
@@ -179,7 +179,7 @@ DEEL1 = [
     ),
     dict(
         type="meerkeuze",
-        vraag="Een dataset bestaat uit 7, 7, 7 en 7. Wat zijn het gemiddelde, de mediaan en de modus?",
+        vraag=r"Een dataset bestaat uit \(7\), \(7\), \(7\) en \(7\). Wat zijn het gemiddelde, de mediaan en de modus?",
         opties=[
             "alle drie gelijk aan zeven",
             "het gemiddelde is zeven, de andere twee bestaan niet",
@@ -218,14 +218,14 @@ DEEL2 = [
     ),
     dict(
         type="meerkeuze",
-        vraag="Wat is het gemiddelde van 2, 3, 3, 4 en 50?",
-        opties=["12,4", "drie", "vier", "62"],
+        vraag=r"Wat is het gemiddelde van \(2\), \(3\), \(3\), \(4\) en \(50\)?",
+        opties=[r"\(12{,}4\)", "drie", "vier", r"\(62\)"],
         antwoord=0,
-        uitleg="De som is tweeënzestig, gedeeld door vijf is 12,4. En toch ligt vier van de vijf waarden onder vijf.",
+        uitleg=r"De som is tweeënzestig, gedeeld door vijf is \(12{,}4\). En toch ligt vier van de vijf waarden onder vijf.",
     ),
     dict(
         type="waarofniet",
-        vraag="De mediaan van 2, 3, 3, 4 en 50 is vier.",
+        vraag=r"De mediaan van \(2\), \(3\), \(3\), \(4\) en \(50\) is vier.",
         antwoord=False,
         uitleg="De derde van vijf gerangschikte waarden is drie. Hier beschrijft de mediaan de dataset veel eerlijker dan het gemiddelde.",
     ),
@@ -255,11 +255,11 @@ DEEL2 = [
     ),
     dict(
         type="meerkeuze",
-        vraag="Een gemeente meldt een gemiddeld inkomen van 45.000 euro en een mediaan van 32.000 euro. Wat besluit je?",
+        vraag=r"Een gemeente meldt een gemiddeld inkomen van \(45\,000\) euro en een mediaan van \(32\,000\) euro. Wat besluit je?",
         opties=[
             "de verdeling hangt scheef naar rechts door enkele hoge inkomens",
             "de verdeling hangt scheef naar links door enkele lage inkomens",
-            "de verdeling is symmetrisch rond 38.500 euro",
+            r"de verdeling is symmetrisch rond \(38\,500\) euro",
             "een van de twee getallen is fout berekend",
         ],
         antwoord=0,
@@ -285,14 +285,14 @@ DEEL2 = [
     ),
     dict(
         type="meerkeuze",
-        vraag="Een leerling heeft een gemiddelde van 12 op vier toetsen. Hij haalt een vijfde toets met 2. Wat is zijn nieuwe gemiddelde?",
+        vraag=r"Een leerling heeft een gemiddelde van \(12\) op vier toetsen. Hij haalt een vijfde toets met \(2\). Wat is zijn nieuwe gemiddelde?",
         opties=["tien", "elf", "zeven", "twaalf"],
         antwoord=0,
         uitleg="Vier maal twaalf is achtenveertig, plus twee is vijftig, gedeeld door vijf is tien.",
     ),
     dict(
         type="meerkeuze",
-        vraag="Twee klassen hebben allebei een gemiddelde van 14. In klas A ligt alles tussen 13 en 15, in klas B tussen 4 en 20. Wat betekent dat?",
+        vraag=r"Twee klassen hebben allebei een gemiddelde van \(14\). In klas A ligt alles tussen \(13\) en \(15\), in klas B tussen \(4\) en \(20\). Wat betekent dat?",
         opties=[
             "klas B is veel breder gespreid, al is het centrum hetzelfde",
             "klas B heeft een hoger gemiddelde dan klas A",
@@ -316,7 +316,7 @@ DEEL2 = [
     ),
     dict(
         type="meerkeuze",
-        vraag="Een krant schrijft: het gemiddelde huis kost 350.000 euro, dus de helft van de huizen kost minder. Wat is de fout?",
+        vraag=r"Een krant schrijft: het gemiddelde huis kost \(350\,000\) euro, dus de helft van de huizen kost minder. Wat is de fout?",
         opties=[
             "dat zou gelden voor de mediaan, niet voor het gemiddelde",
             "dat geldt enkel als de prijzen in euro uitgedrukt zijn",
@@ -346,7 +346,7 @@ DEEL2 = [
     ),
     dict(
         type="meerkeuze",
-        vraag="Klas A heeft tien leerlingen met gemiddelde 12, klas B heeft dertig met gemiddelde 16. Wat is het gemiddelde van de veertig samen?",
+        vraag=r"Klas A heeft tien leerlingen met gemiddelde \(12\), klas B heeft dertig met gemiddelde \(16\). Wat is het gemiddelde van de veertig samen?",
         opties=["vijftien", "veertien", "dertien", "zestien"],
         antwoord=0,
         uitleg="Honderdtwintig plus vierhonderdtachtig is zeshonderd, gedeeld door veertig is vijftien. Niet veertien, want klas B is groter.",

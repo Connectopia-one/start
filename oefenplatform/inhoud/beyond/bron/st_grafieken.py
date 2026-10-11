@@ -228,7 +228,7 @@ DEEL2 = [
             "een verticale as moet altijd in procent staan",
         ],
         antwoord=0,
-        uitleg="Een verschil van twee procent vult dan het halve beeld. Begin bij nul, of vermeld de breuk in de as uitdrukkelijk.",
+        uitleg=r"Een verschil van \(2\) procent vult dan het halve beeld. Begin bij nul, of vermeld de breuk in de as uitdrukkelijk.",
     ),
     dict(
         type="meerkeuze",
@@ -286,7 +286,7 @@ DEEL2 = [
     ),
     dict(
         type="meerkeuze",
-        vraag="Een lijndiagram toont een scherpe stijging, maar de tijdsas loopt van 2020 naar 2021 naar 2025. Wat is het probleem?",
+        vraag=r"Een lijndiagram toont een scherpe stijging, maar de tijdsas loopt van \(2020\) naar \(2021\) naar \(2025\). Wat is het probleem?",
         opties=[
             "de afstanden op de tijdsas zijn ongelijk, dus de stijging is vertekend",
             "een lijndiagram mag geen jaren op de horizontale as hebben",
@@ -324,7 +324,7 @@ DEEL2 = [
             "het gemiddelde ligt onder de laagste van de twee toppen",
         ],
         antwoord=0,
-        uitleg="Lengtes van mannen en vrouwen door elkaar geven zo'n beeld. Splits de data en kijk opnieuw.",
+        uitleg=r"Lengtes van mannen en vrouwen door elkaar geven zo'n beeld. Splits de data en kijk opnieuw.",
     ),
     dict(
         type="meerkeuze",

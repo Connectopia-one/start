@@ -47,7 +47,7 @@ DEEL1 = [
             "het verschil tussen de steekproef en de populatie",
         ],
         antwoord=0,
-        uitleg="Bij 52 procent plus of min 3 procent is de foutenmarge 3 procent en is het interval 6 procent breed.",
+        uitleg=r"Bij \(52\) procent plus of min \(3\) procent is de foutenmarge \(3\) procent en is het interval \(6\) procent breed.",
     ),
     dict(
         type="meerkeuze",
@@ -77,7 +77,7 @@ DEEL1 = [
             "het schuift naar rechts",
         ],
         antwoord=0,
-        uitleg="Meer gegevens betekent minder onzekerheid. Maar de winst gaat met de wortel uit n, dus vier keer meer werk halveert de marge.",
+        uitleg=r"Meer gegevens betekent minder onzekerheid. Maar de winst gaat met \(\sqrt{n}\), dus vier keer meer werk halveert de marge.",
     ),
     dict(
         type="meerkeuze",
@@ -93,9 +93,9 @@ DEEL1 = [
     ),
     dict(
         type="invultekst",
-        vraag="Een onderzoek geeft 52 procent plus of min 3 procent. Wat is de ondergrens van het interval in procent? Geef het getal in cijfers.",
+        vraag=r"Een onderzoek geeft \(52\) procent plus of min \(3\) procent. Wat is de ondergrens van het interval in procent? Geef het getal in cijfers.",
         antwoord=["49"],
-        uitleg="52 min 3 is 49. De bovengrens is 55.",
+        uitleg=r"\(52\) min \(3\) is \(49\). De bovengrens is \(55\).",
     ),
     dict(
         type="waarofniet",
@@ -109,7 +109,7 @@ DEEL1 = [
         opties=[
             "de steekproefgrootte, de standaardafwijking en het betrouwbaarheidsniveau",
             "de populatiegrootte, het gemiddelde en de mediaan",
-            "het significantieniveau, de p-waarde en de nulhypothese",
+            r"het significantieniveau, de \(p\)-waarde en de nulhypothese",
             "het aantal variabelen, de eenheid en het aantal decimalen",
         ],
         antwoord=0,
@@ -117,37 +117,37 @@ DEEL1 = [
     ),
     dict(
         type="meerkeuze",
-        vraag="Een partij haalt in een enquête 48 procent met een foutenmarge van 4 procent. Mag men zeggen dat ze geen meerderheid haalt?",
+        vraag=r"Een partij haalt in een enquête \(48\) procent met een foutenmarge van \(4\) procent. Mag men zeggen dat ze geen meerderheid haalt?",
         opties=[
-            "nee, want het interval loopt van 44 tot 52 procent en vijftig zit erin",
-            "ja, want 48 is kleiner dan 50",
+            r"nee, want het interval loopt van \(44\) tot \(52\) procent en vijftig zit erin",
+            r"ja, want \(48\) is kleiner dan \(50\)",
             "ja, want de foutenmarge is kleiner dan het verschil",
             "nee, want een enquête zegt nooit iets over een verkiezing",
         ],
         antwoord=0,
-        uitleg="Zodra vijftig procent in het interval ligt, kan je niet besluiten of de partij er onder of boven zit.",
+        uitleg=r"Zodra \(50\) procent in het interval ligt, kan je niet besluiten of de partij er onder of boven zit.",
     ),
     dict(
         type="waarofniet",
-        vraag="Het betrouwbaarheidsinterval wordt breder als je het betrouwbaarheidsniveau van vijfennegentig naar negentig procent verlaagt.",
+        vraag=r"Het betrouwbaarheidsinterval wordt breder als je het betrouwbaarheidsniveau van vijfennegentig naar \(90\) procent verlaagt.",
         antwoord=False,
         uitleg="Omgekeerd: minder zekerheid vragen geeft een smaller interval. Je koopt nauwkeurigheid met zekerheid.",
     ),
     dict(
         type="meerkeuze",
-        vraag="Hoe bereken je uit een interval van 44 tot 52 procent de schatting en de marge?",
+        vraag=r"Hoe bereken je uit een interval van \(44\) tot \(52\) procent de schatting en de marge?",
         opties=[
-            "het midden is 48 procent en de marge is 4 procent",
-            "het midden is 44 procent en de marge is 8 procent",
-            "het midden is 52 procent en de marge is 4 procent",
-            "het midden is 48 procent en de marge is 8 procent",
+            r"het midden is \(48\) procent en de marge is \(4\) procent",
+            r"het midden is \(44\) procent en de marge is \(8\) procent",
+            r"het midden is \(52\) procent en de marge is \(4\) procent",
+            r"het midden is \(48\) procent en de marge is \(8\) procent",
         ],
         antwoord=0,
-        uitleg="Het midden van 44 en 52 is 48, en de halve breedte is 4.",
+        uitleg=r"Het midden van \(44\) en \(52\) is \(48\), en de halve breedte is \(4\).",
     ),
     dict(
         type="meerkeuze",
-        vraag="Twee onderzoeken schatten hetzelfde percentage. Het ene geeft een marge van 2 procent, het andere 6 procent. Wat weet je?",
+        vraag=r"Twee onderzoeken schatten hetzelfde percentage. Het ene geeft een marge van \(2\) procent, het andere \(6\) procent. Wat weet je?",
         opties=[
             "het eerste onderzoek had waarschijnlijk een grotere steekproef",
             "het eerste onderzoek had een lager betrouwbaarheidsniveau nodig",
@@ -159,9 +159,9 @@ DEEL1 = [
     ),
     dict(
         type="invultekst",
-        vraag="Hoe breed is een interval met een foutenmarge van 2,5 procent? Geef het getal in procent, in cijfers.",
+        vraag=r"Hoe breed is een interval met een foutenmarge van \(2{,}5\) procent? Geef het getal in procent, in cijfers.",
         antwoord=["5", "5 procent"],
-        uitleg="De breedte is twee keer de foutenmarge, dus 5 procent.",
+        uitleg=r"De breedte is twee keer de foutenmarge, dus \(5\) procent.",
     ),
     dict(
         type="waarofniet",
@@ -191,7 +191,7 @@ DEEL1 = [
             "de helft kleiner",
         ],
         antwoord=0,
-        uitleg="De marge gaat met de wortel uit n, dus vier keer meer gegevens voor de helft minder marge.",
+        uitleg=r"De marge gaat met \(\sqrt{n}\), dus vier keer meer gegevens voor de helft minder marge.",
     ),
     dict(
         type="waarofniet",
@@ -207,26 +207,26 @@ DEEL1 = [
     ),
     dict(
         type="meerkeuze",
-        vraag="Een krant schrijft: de marge is 3 procent, dus het interval is 3 procent breed. Wat is er mis?",
+        vraag=r"Een krant schrijft: de marge is \(3\) procent, dus het interval is \(3\) procent breed. Wat is er mis?",
         opties=[
-            "de marge gaat naar twee kanten, dus het interval is 6 procent breed",
+            r"de marge gaat naar twee kanten, dus het interval is \(6\) procent breed",
             "de marge moet altijd in absolute getallen en niet in procent",
             "een interval heeft geen breedte, enkel een midden",
             "er is niets mis, marge en breedte zijn hetzelfde",
         ],
         antwoord=0,
-        uitleg="Plus of min 3 procent betekent 3 omlaag en 3 omhoog. De breedte is dubbel de marge.",
+        uitleg=r"Plus of min \(3\) procent betekent \(3\) omlaag en \(3\) omhoog. De breedte is dubbel de marge.",
     ),
 ]
 
 DEEL2 = [
     dict(
         type="meerkeuze",
-        vraag="Een onderzoek geeft een interval van 46 tot 54 procent op niveau vijfennegentig procent. Welke stelling is juist?",
+        vraag=r"Een onderzoek geeft een interval van \(46\) tot \(54\) procent op niveau vijfennegentig procent. Welke stelling is juist?",
         opties=[
-            "alle percentages tussen 46 en 54 passen bij deze data",
-            "vijfennegentig procent van de bevolking zit tussen 46 en 54 procent",
-            "het echte percentage is zeker 50 procent",
+            r"alle percentages tussen \(46\) en \(54\) passen bij deze data",
+            r"vijfennegentig procent van de bevolking zit tussen \(46\) en \(54\) procent",
+            r"het echte percentage is zeker \(50\) procent",
             "vijfennegentig procent van de steekproef gaf hetzelfde antwoord",
         ],
         antwoord=0,
@@ -255,8 +255,8 @@ DEEL2 = [
         vraag="Iemand zegt: er is vijfennegentig procent kans dat het echte gemiddelde tussen deze twee getallen ligt. Waarom is dat ongelukkig geformuleerd?",
         opties=[
             "het populatiegemiddelde staat vast, het is de methode die in vijfennegentig procent lukt",
-            "vijfennegentig procent moet negentig procent zijn bij een gemiddelde",
-            "het populatiegemiddelde ligt nooit in zo'n interval, enkel de gemeten steekproefwaarden",
+            r"vijfennegentig procent moet \(90\) procent zijn bij een gemiddelde",
+            r"het populatiegemiddelde ligt nooit in zo'n interval, enkel de gemeten steekproefwaarden",
             "men mag niet over kans spreken bij een interval over een gemiddelde",
         ],
         antwoord=0,
@@ -264,7 +264,7 @@ DEEL2 = [
     ),
     dict(
         type="meerkeuze",
-        vraag="Een interval voor het gemiddelde loopt van 18 tot 22 jaar. Iemand besluit dat vrijwel iedereen tussen 18 en 22 is. Wat is de fout?",
+        vraag=r"Een interval voor het gemiddelde loopt van \(18\) tot \(22\) jaar. Iemand besluit dat vrijwel iedereen tussen \(18\) en \(22\) is. Wat is de fout?",
         opties=[
             "het interval schat het gemiddelde, niet de leeftijd van de mensen zelf",
             "het interval is te smal om een besluit te nemen",
@@ -272,13 +272,13 @@ DEEL2 = [
             "er is geen fout, de leeftijden van de mensen liggen tussen die twee grenzen",
         ],
         antwoord=0,
-        uitleg="De leeftijden zelf kunnen van 12 tot 80 lopen terwijl het gemiddelde netjes rond 20 ligt.",
+        uitleg=r"De leeftijden zelf kunnen van \(12\) tot \(80\) lopen terwijl het gemiddelde netjes rond \(20\) ligt.",
     ),
     dict(
         type="invultekst",
-        vraag="Een interval loopt van 30 tot 40. Wat is de foutenmarge? Geef het getal in cijfers.",
+        vraag=r"Een interval loopt van \(30\) tot \(40\). Wat is de foutenmarge? Geef het getal in cijfers.",
         antwoord=["5"],
-        uitleg="De breedte is 10, dus de marge is de helft: 5. Het midden is 35.",
+        uitleg=r"De breedte is \(10\), dus de marge is de helft: \(5\). Het midden is \(35\).",
     ),
     dict(
         type="waarofniet",
@@ -312,7 +312,7 @@ DEEL2 = [
     ),
     dict(
         type="meerkeuze",
-        vraag="Een onderzoek geeft een interval van 2 tot 9 procent. Iemand zegt: dus ongeveer 2 procent. Wat is de fout?",
+        vraag=r"Een onderzoek geeft een interval van \(2\) tot \(9\) procent. Iemand zegt: dus ongeveer \(2\) procent. Wat is de fout?",
         opties=[
             "hij kiest één grens en negeert de hele onzekerheid",
             "hij mag enkel de bovengrens gebruiken",
@@ -320,22 +320,22 @@ DEEL2 = [
             "er is geen fout, de ondergrens is de veilige schatting",
         ],
         antwoord=0,
-        uitleg="De beste schatting is het midden, hier 5,5 procent, en de marge erbij vermelden. Een grens uitkiezen is misleidend.",
+        uitleg=r"De beste schatting is het midden, hier \(5{,}5\) procent, en de marge erbij vermelden. Een grens uitkiezen is misleidend.",
     ),
     dict(
         type="waarofniet",
         vraag="Een betrouwbaarheidsinterval kan je gebruiken om een hypothese te beoordelen.",
         antwoord=True,
-        uitleg="Ligt het getal van H0 buiten het interval van vijfennegentig procent, dan zou een tweezijdige toets op vijf procent H0 verwerpen.",
+        uitleg=r"Ligt het getal van \(H_{0}\) buiten het interval van vijfennegentig procent, dan zou een tweezijdige toets op \(5\) procent \(H_{0}\) verwerpen.",
     ),
     dict(
         type="meerkeuze",
-        vraag="Een partij haalt 53 procent met een interval van 50 tot 56 procent. Welke uitspraak past?",
+        vraag=r"Een partij haalt \(53\) procent met een interval van \(50\) tot \(56\) procent. Welke uitspraak past?",
         opties=[
-            "een meerderheid is mogelijk maar niet aangetoond, want 50 is de ondergrens",
+            r"een meerderheid is mogelijk maar niet aangetoond, want \(50\) is de ondergrens",
             "de partij haalt zeker een meerderheid",
             "de partij haalt zeker geen meerderheid",
-            "het interval is fout opgesteld, want 53 ligt niet precies in het midden",
+            r"het interval is fout opgesteld, want \(53\) ligt niet precies in het midden",
         ],
         antwoord=0,
         uitleg="Precies op de grens kan je niets besluiten. Een voorzichtige lezing is hier het eerlijkst.",
@@ -354,10 +354,10 @@ DEEL2 = [
     ),
     dict(
         type="meerkeuze",
-        vraag="Iemand zegt: mijn interval loopt van 40 tot 60, dus mijn onderzoek is mislukt. Wat zeg je?",
+        vraag=r"Iemand zegt: mijn interval loopt van \(40\) tot \(60\), dus mijn onderzoek is mislukt. Wat zeg je?",
         opties=[
             "het interval is breed, dus de steekproef was klein, maar het resultaat is niet fout",
-            "hij heeft gelijk, zo'n breed interval mag niet gepubliceerd worden",
+            r"hij heeft gelijk, zo'n breed interval mag niet gepubliceerd worden",
             "hij moet het betrouwbaarheidsniveau verhogen om het smaller te maken",
             "hij moet het midden als exact resultaat opgeven",
         ],
@@ -404,7 +404,7 @@ DEEL2 = [
             "er gaat niets verloren, het midden volstaat",
         ],
         antwoord=0,
-        uitleg="52 procent met een marge van 1 en 52 procent met een marge van 9 zijn twee heel verschillende boodschappen.",
+        uitleg=r"\(52\) procent met een marge van \(1\) en \(52\) procent met een marge van \(9\) zijn twee heel verschillende boodschappen.",
     ),
     dict(
         type="meerkeuze",
@@ -412,7 +412,7 @@ DEEL2 = [
         opties=[
             "het interval ligt per constructie rond de steekproefwaarde, dat bewijst niets",
             "het interval mag de steekproefwaarde niet bevatten",
-            "men moet eerst de p-waarde berekenen voor men dat mag zeggen",
+            r"men moet eerst de \(p\)-waarde berekenen voor men dat mag zeggen",
             "er is niets mis, dat is een geldige controle",
         ],
         antwoord=0,

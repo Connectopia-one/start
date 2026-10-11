@@ -35,7 +35,7 @@ DEEL1 = [
     ),
     dict(
         type="meerkeuze",
-        vraag="Wat is de variatiebreedte van 2, 4, 6, 8, 10, 12, 14 en 16?",
+        vraag=r"Wat is de variatiebreedte van \(2\), \(4\), \(6\), \(8\), \(10\), \(12\), \(14\) en \(16\)?",
         opties=["veertien", "zestien", "achttien", "acht"],
         antwoord=0,
         uitleg="Zestien min twee is veertien.",
@@ -50,7 +50,7 @@ DEEL1 = [
             "de variatiebreedte",
         ],
         antwoord=0,
-        uitleg="Q2 is een ander woord voor de mediaan: de helft van de gegevens ligt eronder.",
+        uitleg=r"\(Q_{2}\) is een ander woord voor de mediaan: de helft van de gegevens ligt eronder.",
     ),
     dict(
         type="waarofniet",
@@ -72,14 +72,14 @@ DEEL1 = [
     ),
     dict(
         type="meerkeuze",
-        vraag="Bij 1, 2, 3, 4, 5, 6, 7, 8, 9, 10 en 11: wat is de mediaan?",
+        vraag=r"Bij \(1\), \(2\), \(3\), \(4\), \(5\), \(6\), \(7\), \(8\), \(9\), \(10\) en \(11\): wat is de mediaan?",
         opties=["zes", "vijf", "zeven", "vijf komma vijf"],
         antwoord=0,
         uitleg="Elf waarden, dus de zesde. Dat is zes.",
     ),
     dict(
         type="invultekst",
-        vraag="Bij 1 tot en met 11 is Q1 gelijk aan 3 en Q3 gelijk aan 9. Wat is de interkwartielafstand? Geef het getal in cijfers.",
+        vraag=r"Bij \(1\) tot en met \(11\) is \(Q_{1}\) gelijk aan \(3\) en \(Q_{3}\) gelijk aan \(9\). Wat is de interkwartielafstand? Geef het getal in cijfers.",
         antwoord=["6"],
         uitleg="Negen min drie is zes.",
     ),
@@ -91,17 +91,17 @@ DEEL1 = [
     ),
     dict(
         type="meerkeuze",
-        vraag="Bij 2, 4, 6, 8, 10, 12, 14 en 16: wat is de mediaan?",
+        vraag=r"Bij \(2\), \(4\), \(6\), \(8\), \(10\), \(12\), \(14\) en \(16\): wat is de mediaan?",
         opties=["negen", "acht", "tien", "acht komma vijf"],
         antwoord=0,
         uitleg="Acht waarden, dus het gemiddelde van de vierde en de vijfde: acht en tien geven negen.",
     ),
     dict(
         type="meerkeuze",
-        vraag="Bij diezelfde dataset 2 tot 16 met stap twee: wat is het eerste kwartiel?",
+        vraag=r"Bij diezelfde dataset \(2\) tot \(16\) met stap twee: wat is het eerste kwartiel?",
         opties=["vijf", "vier", "zes", "drie"],
         antwoord=0,
-        uitleg="De onderste helft is 2, 4, 6 en 8, en haar mediaan is het gemiddelde van vier en zes, dus vijf.",
+        uitleg=r"De onderste helft is \(2\), \(4\), \(6\) en \(8\), en haar mediaan is het gemiddelde van vier en zes, dus vijf.",
     ),
     dict(
         type="waarofniet",
@@ -119,11 +119,11 @@ DEEL1 = [
             "de mediaan ligt precies in het midden van het bereik",
         ],
         antwoord=0,
-        uitleg="Q1 en Q3 vallen dan samen. Dat gebeurt bij een dataset waar heel veel waarden gelijk zijn.",
+        uitleg=r"\(Q_{1}\) en \(Q_{3}\) vallen dan samen. Dat gebeurt bij een dataset waar heel veel waarden gelijk zijn.",
     ),
     dict(
         type="meerkeuze",
-        vraag="Twee klassen hebben dezelfde mediaan maar klas A heeft een interkwartielafstand van 2 en klas B van 8. Wat besluit je?",
+        vraag=r"Twee klassen hebben dezelfde mediaan maar klas A heeft een interkwartielafstand van \(2\) en klas B van \(8\). Wat besluit je?",
         opties=[
             "de resultaten van klas B liggen veel verder uit elkaar",
             "klas B heeft een hogere mediaan dan klas A",
@@ -137,20 +137,20 @@ DEEL1 = [
         type="invultekst",
         vraag="Hoe noemt men het tweede kwartiel met een ander woord? Eén woord.",
         antwoord=["mediaan", "de mediaan"],
-        uitleg="Q2 is de mediaan.",
+        uitleg=r"\(Q_{2}\) is de mediaan.",
     ),
     dict(
         type="waarofniet",
-        vraag="Bij een oneven aantal gegevens laat je de mediaan buiten de twee helften waarmee je Q1 en Q3 berekent.",
+        vraag=r"Bij een oneven aantal gegevens laat je de mediaan buiten de twee helften waarmee je \(Q_{1}\) en \(Q_{3}\) berekent.",
         antwoord=True,
         uitleg="Zo doen de rekenapps het ook. Handboeken verschillen hierin, dus vermeld altijd welke methode je gebruikt.",
     ),
     dict(
         type="meerkeuze",
-        vraag="Hoeveel procent van de gegevens ligt tussen Q1 en Q3?",
-        opties=["vijftig procent", "vijfentwintig procent", "vijfenzeventig procent", "honderd procent"],
+        vraag=r"Hoeveel procent van de gegevens ligt tussen \(Q_{1}\) en \(Q_{3}\)?",
+        opties=[r"\(50\) procent", "vijfentwintig procent", "vijfenzeventig procent", r"\(100\) procent"],
         antwoord=0,
-        uitleg="Een kwart ligt onder Q1 en een kwart boven Q3, dus de helft zit ertussen.",
+        uitleg=r"Een kwart ligt onder \(Q_{1}\) en een kwart boven \(Q_{3}\), dus de helft zit ertussen.",
     ),
     dict(
         type="meerkeuze",
@@ -162,13 +162,13 @@ DEEL1 = [
             "ze is niet in dezelfde eenheid als de gegevens",
         ],
         antwoord=0,
-        uitleg="Duizend waarden tussen tien en twaalf plus één van duizend geven een variatiebreedte van 990. Dat zegt niets over de duizend.",
+        uitleg=r"Duizend waarden tussen tien en twaalf plus één van duizend geven een variatiebreedte van \(990\). Dat zegt niets over de duizend.",
     ),
     dict(
         type="waarofniet",
         vraag="Het eerste kwartiel is altijd groter dan de mediaan.",
         antwoord=False,
-        uitleg="Omgekeerd. De kwartielen liggen in de orde Q1, Q2, Q3, dus Q1 is kleiner dan of gelijk aan de mediaan.",
+        uitleg=r"Omgekeerd. De kwartielen liggen in de orde \(Q_{1}\), \(Q_{2}\), \(Q_{3}\), dus \(Q_{1}\) is kleiner dan of gelijk aan de mediaan.",
     ),
     dict(
         type="invultekst",
@@ -178,7 +178,7 @@ DEEL1 = [
     ),
     dict(
         type="meerkeuze",
-        vraag="Een leerling zoekt Q1 van een onsorteerde lijst en neemt de waarde op een kwart van de lijst. Wat gaat er mis?",
+        vraag=r"Een leerling zoekt \(Q_{1}\) van een onsorteerde lijst en neemt de waarde op een kwart van de lijst. Wat gaat er mis?",
         opties=[
             "hij moet eerst rangschikken, anders betekent die plaats niets",
             "hij moet een kwart van de som nemen in plaats van de plaats",
@@ -224,16 +224,16 @@ DEEL2 = [
     dict(
         type="meerkeuze",
         vraag="Welk symbool gebruikt de bijlage voor de steekproefstandaardafwijking?",
-        opties=["de letter s", "de letter sigma", "de letter n", "de letter p"],
+        opties=["de letter s", r"de letter \(\sigma\)", r"de letter \(n\)", r"de letter \(p\)"],
         antwoord=0,
-        uitleg="s voor de steekproef, sigma voor de populatie. Dat onderscheid wordt op het examen nagekeken.",
+        uitleg=r"s voor de steekproef, \(\sigma\) voor de populatie. Dat onderscheid wordt op het examen nagekeken.",
     ),
     dict(
         type="meerkeuze",
         vraag="Welke vijf getallen staan in een boxplot?",
         opties=[
             "het minimum, de drie kwartielen en het maximum",
-            "het gemiddelde, de mediaan, de modus, Q1 en Q3",
+            r"het gemiddelde, de mediaan, de modus, \(Q_{1}\) en \(Q_{3}\)",
             "het minimum, het gemiddelde, de mediaan, de modus en het maximum",
             "de vijf meest voorkomende waarden van de dataset",
         ],
@@ -244,7 +244,7 @@ DEEL2 = [
         type="meerkeuze",
         vraag="Wat stelt de doos van een boxplot voor?",
         opties=[
-            "het gebied van Q1 tot Q3, dus de middelste helft",
+            r"het gebied van \(Q_{1}\) tot \(Q_{3}\), dus de middelste helft",
             "het gebied van het minimum tot het maximum",
             "het gebied rond het gemiddelde plus en min de standaardafwijking",
             "het gebied waar de uitschieters liggen",
@@ -256,13 +256,13 @@ DEEL2 = [
         type="invultekst",
         vraag="Welk kengetal stelt de streep binnen de doos van een boxplot voor? Eén woord.",
         antwoord=["mediaan", "de mediaan"],
-        uitleg="De mediaan, dus Q2.",
+        uitleg=r"De mediaan, dus \(Q_{2}\).",
     ),
     dict(
         type="waarofniet",
         vraag="Een boxplot waarvan de streep niet in het midden van de doos staat, wijst op een scheve verdeling.",
         antwoord=True,
-        uitleg="Ligt de mediaan dicht bij Q1, dan hangt de verdeling scheef naar rechts.",
+        uitleg=r"Ligt de mediaan dicht bij \(Q_{1}\), dan hangt de verdeling scheef naar rechts.",
     ),
     dict(
         type="meerkeuze",
@@ -278,7 +278,7 @@ DEEL2 = [
     ),
     dict(
         type="meerkeuze",
-        vraag="Bij Q1 gelijk aan 10 en Q3 gelijk aan 20, waar liggen de grenzen voor uitschieters?",
+        vraag=r"Bij \(Q_{1}\) gelijk aan \(10\) en \(Q_{3}\) gelijk aan \(20\), waar liggen de grenzen voor uitschieters?",
         opties=[
             "onder min vijf en boven vijfendertig",
             "onder nul en boven dertig",
@@ -292,7 +292,7 @@ DEEL2 = [
         type="waarofniet",
         vraag="Uit een boxplot kan je aflezen hoeveel gegevens er in de dataset zitten.",
         antwoord=False,
-        uitleg="Nee. Elk deel bevat per definitie een kwart van de gegevens, maar hoeveel dat er zijn, zegt een boxplot niet. Daarvoor heb je n nodig.",
+        uitleg=r"Nee. Elk deel bevat per definitie een kwart van de gegevens, maar hoeveel dat er zijn, zegt een boxplot niet. Daarvoor heb je \(n\) nodig.",
     ),
     dict(
         type="meerkeuze",
@@ -320,12 +320,12 @@ DEEL2 = [
     ),
     dict(
         type="meerkeuze",
-        vraag="Een dataset heeft een gemiddelde van 50 en een standaardafwijking van 2. Een waarde van 70 is dan wat?",
+        vraag=r"Een dataset heeft een gemiddelde van \(50\) en een standaardafwijking van \(2\). Een waarde van \(70\) is dan wat?",
         opties=[
             "een uitzonderlijke waarde, tien standaardafwijkingen boven het gemiddelde",
-            "een gewone waarde, want 70 ligt dicht bij 50",
+            r"een gewone waarde, want \(70\) ligt dicht bij \(50\)",
             "precies de bovengrens van het normale bereik",
-            "onmogelijk, want 70 ligt buiten het bereik van de dataset",
+            r"onmogelijk, want \(70\) ligt buiten het bereik van de dataset",
         ],
         antwoord=0,
         uitleg="Twintig gedeeld door twee is tien. Boven drie standaardafwijkingen is een waarde al heel zeldzaam.",

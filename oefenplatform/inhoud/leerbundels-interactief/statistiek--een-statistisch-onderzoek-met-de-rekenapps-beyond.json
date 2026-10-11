@@ -13,7 +13,7 @@
     },
     {
      "soort": "tekst",
-     "html": "<strong>Stap één is een duidelijke onderzoeksvraag.</strong> Die moet met gegevens te beantwoorden zijn: \"is de gemiddelde slaapduur van zestienjarigen korter dan acht uur\" kan, \"slapen jongeren genoeg\" niet. En je mag je onderzoeksvraag <strong>niet aanpassen nadat je de resultaten gezien hebt</strong>."
+     "html": "<strong>Stap één is een duidelijke onderzoeksvraag.</strong> Die moet met gegevens te beantwoorden zijn: \\\"is de gemiddelde slaapduur van zestienjarigen korter dan acht uur\\\" kan, \\\"slapen jongeren genoeg\\\" niet. En je mag je onderzoeksvraag <strong>niet aanpassen nadat je de resultaten gezien hebt</strong>."
     },
     {
      "soort": "tekst",
@@ -34,15 +34,15 @@
    "blokken": [
     {
      "soort": "tekst",
-     "html": "Pas daarna toets je of schat je. En vóór elke toets stel je dezelfde vraag: <strong>zijn de voorwaarden van het formularium voldaan?</strong> Een hypothesetoets op een dataset begint dus niet bij de app maar bij die vraag. Bij een gemiddelde is dat n minstens dertig, bij een proportie komen n · p en n · (1 − p) erbij."
+     "html": "Pas daarna toets je of schat je. En vóór elke toets stel je dezelfde vraag: <strong>zijn de voorwaarden van het formularium voldaan?</strong> Een hypothesetoets op een dataset begint dus niet bij de app maar bij die vraag. Bij een gemiddelde is dat \\(n\\) minstens dertig, bij een proportie komen \\(n \\cdot p\\) en \\(n \\cdot (1 - p)\\) erbij."
     },
     {
      "soort": "tekst",
-     "html": "De fiche raadt aan om vooraf de <strong>handleiding</strong> van de rekenapps door te nemen. Het <strong>significantieniveau</strong> is het vooraf gekozen getal waarmee je de p-waarde vergelijkt. Vooraf, niet achteraf."
+     "html": "De fiche raadt aan om vooraf de <strong>handleiding</strong> van de rekenapps door te nemen. Het <strong>significantieniveau</strong> is het vooraf gekozen getal waarmee je de \\(p\\)-waarde vergelijkt. Vooraf, niet achteraf."
     },
     {
      "soort": "tekst",
-     "html": "Vind je <strong>r gelijk aan 0,78</strong>, dan is er een sterk positief lineair verband, maar <strong>geen oorzaak aangetoond</strong>. Vind je <strong>r gelijk aan 0,15</strong>, dan is een trendlijn hier <strong>weinig zinvol</strong>: de samenhang is zwak. En vind je een sterk verband in een dataset over gemeenten, dan mag je besluiten dat de twee <strong>in deze gemeenten samenhangen</strong>, en niets over oorzaak."
+     "html": "Vind je <strong>r gelijk aan \\(0{,}78\\)</strong>, dan is er een sterk positief lineair verband, maar <strong>geen oorzaak aangetoond</strong>. Vind je <strong>r gelijk aan \\(0{,}15\\)</strong>, dan is een trendlijn hier <strong>weinig zinvol</strong>: de samenhang is zwak. En vind je een sterk verband in een dataset over gemeenten, dan mag je besluiten dat de twee <strong>in deze gemeenten samenhangen</strong>, en niets over oorzaak."
     },
     {
      "soort": "weetje",
@@ -55,7 +55,7 @@
    "blokken": [
     {
      "soort": "tekst",
-     "html": "<strong>Een statistisch onderzoek eindigt niet met de p-waarde of de correlatiecoëfficiënt.</strong> Het eindigt met een antwoord op de vraag waarmee je begon. Schrijf je \"ik verwerp H0 op het niveau van vijf procent\", dan moet er nog bij <strong>wat dat betekent voor je onderzoeksvraag</strong>."
+     "html": "<strong>Een statistisch onderzoek eindigt niet met de \\(p\\)-waarde of de correlatiecoëfficiënt.</strong> Het eindigt met een antwoord op de vraag waarmee je begon. Schrijf je \\\"ik verwerp \\(H_{0}\\) op het niveau van \\(5\\) procent\\\", dan moet er nog bij <strong>wat dat betekent voor je onderzoeksvraag</strong>."
     },
     {
      "soort": "tekst",
@@ -63,7 +63,7 @@
     },
     {
      "soort": "tekst",
-     "html": "En zet in je besluit <strong>enkel de getallen die je onderzoeksvraag echt beantwoorden</strong>. Heb je een gemiddelde, een standaardafwijking, een p-waarde en een r berekend, dan hoeven die niet alle vier in je slotzin."
+     "html": "En zet in je besluit <strong>enkel de getallen die je onderzoeksvraag echt beantwoorden</strong>. Heb je een gemiddelde, een standaardafwijking, een \\(p\\)-waarde en een r berekend, dan hoeven die niet alle vier in je slotzin."
     }
    ]
   },
@@ -72,11 +72,11 @@
    "blokken": [
     {
      "soort": "tekst",
-     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Wat</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Hoe het zit</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">duur</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">150 minuten</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">gewicht</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">telproblemen, kansrekenen en statistiek 60 %, werken met grote datasets 40 %</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">hulpmiddelen</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">de rekenapps, een online rekentoestel, een spellingcontrole en een woordenboek</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">sommige vragen</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">noteer je op een schrijftablet met een digitale pen</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">icoon zonder ICT</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">dan mag je je rekenapp ook niet voor het rekenwerk gebruiken</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">icoon functioneel ICT-gebruik</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">je gebruikt de app, maar schrijft je tussenstappen nog altijd uit</td></tr></table>"
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Wat</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Hoe het zit</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">duur</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">\\(150\\) minuten</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">gewicht</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">telproblemen, kansrekenen en statistiek \\(60\\,\\%\\), werken met grote datasets \\(40\\,\\%\\)</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">hulpmiddelen</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">de rekenapps, een online rekentoestel, een spellingcontrole en een woordenboek</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">sommige vragen</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">noteer je op een schrijftablet met een digitale pen</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">icoon zonder ICT</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">dan mag je je rekenapp ook niet voor het rekenwerk gebruiken</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">icoon functioneel ICT-gebruik</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">je gebruikt de app, maar schrijft je tussenstappen nog altijd uit</td></tr></table>"
     },
     {
      "soort": "tekst",
-     "html": "<strong>Exact werken</strong> betekent een wiskundige uitdrukking <strong>niet benaderen of afronden</strong>. Het gaat dus <strong>niet</strong> over veel decimalen: wie een p-waarde met acht decimalen meldt, werkt niet exacter, alleen omslachtiger. Reken wel met zo nauwkeurig mogelijke <strong>tussenresultaten</strong>, want afrondingsfouten in de tussenstappen werken door in je eindantwoord. Wijkt je eindantwoord af van het model na een tussenstap op twee decimalen, dan was dat de fout."
+     "html": "<strong>Exact werken</strong> betekent een wiskundige uitdrukking <strong>niet benaderen of afronden</strong>. Het gaat dus <strong>niet</strong> over veel decimalen: wie een \\(p\\)-waarde met acht decimalen meldt, werkt niet exacter, alleen omslachtiger. Reken wel met zo nauwkeurig mogelijke <strong>tussenresultaten</strong>, want afrondingsfouten in de tussenstappen werken door in je eindantwoord. Wijkt je eindantwoord af van het model na een tussenstap op twee decimalen, dan was dat de fout."
     },
     {
      "soort": "tekst",
@@ -94,7 +94,7 @@
   "Begin bij je vraag en pas ze achteraf niet aan.",
   "Verkennen is een grafiek en een paar kengetallen; een grafiek toont wat een getal verbergt.",
   "Controleer altijd eerst de voorwaarden van het formularium.",
-  "Eindig met een antwoord op je onderzoeksvraag, niet met een p-waarde.",
+  "Eindig met een antwoord op je onderzoeksvraag, niet met een \\(p\\)-waarde.",
   "Geen significant resultaat betekent te weinig bewijs, niet geen verschil.",
   "Exact werken is niet afronden, niet veel decimalen geven."
  ]

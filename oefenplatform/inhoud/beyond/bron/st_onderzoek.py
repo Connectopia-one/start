@@ -75,12 +75,12 @@ DEEL1 = [
         vraag="Welke vraag stel je je voor je een hypothesetoets op een dataset uitvoert?",
         opties=[
             "zijn de voorwaarden van het formularium voldaan",
-            "komt mijn verwachte besluit er wel uit",
-            "is mijn dataset groter dan duizend rijen",
-            "zijn alle variabelen in dezelfde eenheid",
+            "komt het besluit dat ik verwacht er ook werkelijk uit",
+            "telt mijn dataset meer dan duizend rijen gegevens",
+            "staan alle variabelen wel in dezelfde meeteenheid",
         ],
         antwoord=0,
-        uitleg="Zonder voldane voorwaarden mag je de normale benadering niet gebruiken en is je p-waarde niets waard.",
+        uitleg=r"Zonder voldane voorwaarden mag je de normale benadering niet gebruiken en is je \(p\)-waarde niets waard.",
     ),
     dict(
         type="invultekst",
@@ -90,7 +90,7 @@ DEEL1 = [
     ),
     dict(
         type="waarofniet",
-        vraag="Een statistisch onderzoek eindigt met de p-waarde of de correlatiecoëfficiënt.",
+        vraag=r"Een statistisch onderzoek eindigt met de \(p\)-waarde of de correlatiecoëfficiënt.",
         antwoord=False,
         uitleg="Het eindigt met een besluit in de taal van de onderzoeksvraag. Een getal alleen is geen antwoord.",
     ),
@@ -111,12 +111,12 @@ DEEL1 = [
         vraag="Je ziet in je verkenning een duidelijke uitschieter. Wat doe je eerst?",
         opties=[
             "nagaan of het een invoerfout of een echt bijzonder geval is",
-            "de uitschieter verwijderen zodat je analyse klopt",
+            "de uitschieter meteen verwijderen zodat je analyse klopt",
             "de hele rij uit de dataset schrappen zonder te kijken",
-            "de uitschieter vervangen door het gemiddelde",
+            "de uitschieter vervangen door het gemiddelde van de rest",
         ],
         antwoord=0,
-        uitleg="Een leeftijd van 250 jaar is een tikfout. Een inkomen van een miljoen kan echt zijn. Kijk altijd eerst.",
+        uitleg=r"Een leeftijd van \(250\) jaar is een tikfout. Een inkomen van een miljoen kan echt zijn. Kijk altijd eerst.",
     ),
     dict(
         type="waarofniet",
@@ -141,18 +141,18 @@ DEEL1 = [
         vraag="Welke van deze onderzoeksvragen is statistisch bruikbaar?",
         opties=[
             "is de gemiddelde slaapduur van zestienjarigen korter dan acht uur",
-            "is slapen belangrijk voor jongeren in onze samenleving",
-            "wat vindt de gemiddelde jongere van zijn eigen slaap",
-            "hoe zou een goede nachtrust eruit moeten zien",
+            "is slapen belangrijk voor de jongeren in onze samenleving vandaag",
+            "wat vindt de gemiddelde jongere eigenlijk van zijn eigen slaap",
+            "hoe zou een goede nachtrust er volgens jou moeten uitzien",
         ],
         antwoord=0,
         uitleg="Ze noemt een grootheid, een groep en een grens. Daar kan je een hypothesetoets op bouwen.",
     ),
     dict(
         type="invultekst",
-        vraag="Hoe noem je het vooraf gekozen getal waarmee je de p-waarde vergelijkt? Twee woorden.",
+        vraag=r"Hoe noem je het vooraf gekozen getal waarmee je de \(p\)-waarde vergelijkt? Twee woorden.",
         antwoord=["significantieniveau", "het significantieniveau", "significantie niveau"],
-        uitleg="Het significantieniveau alfa, meestal nul komma nul vijf.",
+        uitleg=r"Het significantieniveau \(\alpha\), meestal \(0{,}05\).",
     ),
     dict(
         type="waarofniet",
@@ -174,15 +174,15 @@ DEEL1 = [
     ),
     dict(
         type="meerkeuze",
-        vraag="Je vindt r gelijk aan 0,78 tussen twee variabelen in een dataset. Wat besluit je?",
+        vraag=r"Je vindt \(r = 0{,}78\) tussen twee variabelen in een dataset. Wat besluit je?",
         opties=[
             "er is een sterk positief lineair verband, maar geen oorzaak aangetoond",
-            "de ene variabele veroorzaakt duidelijk de andere",
-            "er is helemaal geen verband tussen de twee, want 0,78 is kleiner dan één",
-            "de twee variabelen zijn identiek aan elkaar",
+            "de ene variabele veroorzaakt duidelijk de verandering in de andere",
+            r"er is helemaal geen verband tussen de twee, want \(0{,}78 < 1\)",
+            "de twee variabelen zijn in feite identiek aan elkaar",
         ],
         antwoord=0,
-        uitleg="Boven 0,7 is de samenhang sterk volgens het formularium. Over oorzaak zegt r niets.",
+        uitleg=r"Boven \(0{,}7\) is de samenhang sterk volgens het formularium. Over oorzaak zegt r niets.",
     ),
     dict(
         type="waarofniet",
@@ -200,7 +200,7 @@ DEEL1 = [
             "de nodige grafische voorstellingen maken",
         ],
         antwoord=0,
-        uitleg="Verkennen is kijken. Verwerpen komt pas na een toets met hypothesen, voorwaarden en een p-waarde.",
+        uitleg=r"Verkennen is kijken. Verwerpen komt pas na een toets met hypothesen, voorwaarden en een \(p\)-waarde.",
     ),
     dict(
         type="invultekst",
@@ -267,7 +267,7 @@ DEEL2 = [
     ),
     dict(
         type="meerkeuze",
-        vraag="Je besluit uit je toets: ik verwerp H0 op het niveau van vijf procent. Wat moet er nog bij?",
+        vraag=r"Je besluit uit je toets: ik verwerp \(H_{0}\) op het niveau van \(5\) procent. Wat moet er nog bij?",
         opties=[
             "wat dat betekent voor de onderzoeksvraag waarmee je begon",
             "de volledige kansverdeling van je steekproefvariabele",
@@ -322,9 +322,9 @@ DEEL2 = [
     dict(
         type="meerkeuze",
         vraag="Hoeveel weegt het onderdeel werken met grote datasets op het examen?",
-        opties=["veertig procent", "zestig procent", "vijftig procent", "dertig procent"],
+        opties=[r"\(40\) procent", r"\(60\) procent", r"\(50\) procent", r"\(30\) procent"],
         antwoord=0,
-        uitleg="Telproblemen, kansrekenen en statistiek weegt zestig procent, werken met grote datasets veertig.",
+        uitleg=r"Telproblemen, kansrekenen en statistiek weegt \(60\) procent, werken met grote datasets veertig.",
     ),
     dict(
         type="meerkeuze",
@@ -342,7 +342,7 @@ DEEL2 = [
         type="invultekst",
         vraag="Hoeveel procent weegt het onderdeel telproblemen, kansrekenen en statistiek? Geef het getal in cijfers.",
         antwoord=["60", "60 procent"],
-        uitleg="Zestig procent, tegen veertig voor het werken met grote datasets.",
+        uitleg=r"\(60\) procent, tegen veertig voor het werken met grote datasets.",
     ),
     dict(
         type="waarofniet",
@@ -364,7 +364,7 @@ DEEL2 = [
     ),
     dict(
         type="meerkeuze",
-        vraag="Twee variabelen in je dataset hebben r gelijk aan 0,15. Wat is je besluit over de trendlijn?",
+        vraag=r"Twee variabelen in je dataset hebben r gelijk aan \(0{,}15\). Wat is je besluit over de trendlijn?",
         opties=[
             "een trendlijn is hier weinig zinvol, de samenhang is zwak",
             "de trendlijn beschrijft de data hier uitstekend",
@@ -372,7 +372,7 @@ DEEL2 = [
             "je kan met deze trendlijn gerust ver vooruit voorspellen",
         ],
         antwoord=0,
-        uitleg="Tussen nul en 0,3 is de samenhang zwak positief. Een rechte door zo'n wolk voorspelt bijna niets.",
+        uitleg=r"Tussen nul en \(0{,}3\) is de samenhang zwak positief. Een rechte door zo'n wolk voorspelt bijna niets.",
     ),
     dict(
         type="waarofniet",
@@ -394,19 +394,19 @@ DEEL2 = [
     ),
     dict(
         type="meerkeuze",
-        vraag="Je hebt een gemiddelde, een standaardafwijking, een p-waarde en een correlatiecoëfficiënt berekend. Wat zet je in je besluit?",
+        vraag=r"Je hebt een gemiddelde, een standaardafwijking, een \(p\)-waarde en een correlatiecoëfficiënt berekend. Wat zet je in je besluit?",
         opties=[
             "enkel de getallen die je onderzoeksvraag echt beantwoorden",
             "alle vier de getallen, want je hebt ze berekend",
             "enkel het getal met de kleinste waarde van de vier",
-            "enkel de p-waarde, want die beslist alles",
+            r"enkel de \(p\)-waarde, want die beslist alles",
         ],
         antwoord=0,
         uitleg="Een besluit is geen opsomming. Wat de vraag niet beantwoordt, hoort in je werkblad en niet in je conclusie.",
     ),
     dict(
         type="meerkeuze",
-        vraag="Een leerling meldt een p-waarde met acht decimalen en noemt dat exact werken. Wat zeg je?",
+        vraag=r"Een leerling meldt een \(p\)-waarde met acht decimalen en noemt dat exact werken. Wat zeg je?",
         opties=[
             "exact werken gaat over niet afronden, niet over veel decimalen",
             "acht decimalen zijn te weinig, de fiche vraagt er tien",

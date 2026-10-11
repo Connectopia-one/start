@@ -62,7 +62,7 @@ DEEL1 = [
         vraag="Een fietsslot heeft vier ringen met telkens de cijfers nul tot negen. Hoeveel standen zijn er?",
         opties=["tienduizend", "vijfduizend", "vierduizend", "veertig"],
         antwoord=0,
-        uitleg="Tien tot de vierde is tienduizend. Elke ring staat los van de andere.",
+        uitleg=r"\(10^{4}\) is tienduizend. Elke ring staat los van de andere.",
     ),
     dict(
         type="waarofniet",
@@ -74,10 +74,10 @@ DEEL1 = [
         type="meerkeuze",
         vraag="Een nummerplaat bestaat uit drie letters gevolgd door drie cijfers. Hoeveel zijn er, met zesentwintig letters?",
         opties=[
-            "zesentwintig tot de derde maal tien tot de derde",
-            "zesentwintig maal drie plus tien maal drie",
-            "zesentwintig plus tien, alles tot de derde macht",
-            "zesentwintig tot de derde plus tien tot de derde",
+            r"\(26^{3} \cdot 10^{3}\)",
+            r"\(26 \cdot 3 + 10 \cdot 3\)",
+            r"\(\left(26 + 10\right)^{3}\)",
+            r"\(26^{3} + 10^{3}\)",
         ],
         antwoord=0,
         uitleg="Drie letters én drie cijfers: je vermenigvuldigt de twee aantallen met elkaar.",
@@ -93,7 +93,7 @@ DEEL1 = [
         type="invultekst",
         vraag="Hoeveel mogelijkheden zijn er voor een pincode van vier cijfers, cijfers mogen herhalen? Schrijf het getal.",
         antwoord=["10000", "10 000", "tienduizend"],
-        uitleg="Tien mogelijkheden per plaats, vier plaatsen, dus tien tot de vierde.",
+        uitleg=r"Tien mogelijkheden per plaats, vier plaatsen, dus \(10^{4}\).",
     ),
     dict(
         type="waarofniet",
@@ -241,7 +241,7 @@ DEEL2 = [
         type="invultekst",
         vraag="Hoeveel uitkomsten heeft het vier keer gooien van een munt? Schrijf het getal.",
         antwoord=["16", "zestien"],
-        uitleg="Twee tot de vierde is zestien: voor elke worp twee mogelijkheden.",
+        uitleg=r"\(2^{4}\) is zestien: voor elke worp twee mogelijkheden.",
     ),
     dict(
         type="waarofniet",
@@ -254,7 +254,7 @@ DEEL2 = [
         vraag="Een toets heeft tien waar-of-niet-waarvragen. Hoeveel manieren zijn er om ze allemaal in te vullen?",
         opties=["duizend vierentwintig", "twintig", "honderd", "vijfhonderdtwaalf"],
         antwoord=0,
-        uitleg="Twee tot de tiende is duizend vierentwintig. Elke vraag heeft twee mogelijkheden.",
+        uitleg=r"\(2^{10}\) is duizend vierentwintig. Elke vraag heeft twee mogelijkheden.",
     ),
     dict(
         type="meerkeuze",

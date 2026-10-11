@@ -2,11 +2,13 @@
 """Zet de machten, wortels en bewerkingen die nog in woorden staan om naar
 notatie. Werkt op tekst waar de getallen al in \\( \\) staan.
 
-    python3 -I woordmacht.py <bestand.py> …
+    python3 -I woordmacht.py [--strings] <bestand.py> …
 """
 import re, sys
 
 F = r"\\\((?P<%s>[^()]*?)\\\)"     # een stukje notatie, zonder haakjes erin
+# een stukje notatie dat wél haakjes mag bevatten: alleen \( en \) sluiten af
+VELD = r"((?:[^\\]|\\(?![()]))*?)"
 
 
 def regels(t):
@@ -50,14 +52,29 @@ def regels(t):
             r"\\(\\sqrt[%d]{\1}\\)" % n)
     # \(a\) maal \(b\)  ->  \(a \cdot b\)   (enkel tussen twee stukjes notatie)
     for _ in range(3):
-        zet("maal", r"\\\(([^()]*?)\\\) maal \\\(([^()]*?)\\\)", r"\\(\1 \\cdot \2\\)")
-        zet("gedeeld door", r"\\\(([^()]*?)\\\) gedeeld door \\\(([^()]*?)\\\)",
+        zet("maal", r"\\\(" + VELD + r"\\\) maal \\\(" + VELD + r"\\\)",
+            r"\\(\1 \\cdot \2\\)")
+        zet("gedeeld door", r"\\\(" + VELD + r"\\\) gedeeld door \\\(" + VELD + r"\\\)",
             r"\\(\1 : \2\\)")
     return t, tel
 
 
-for pad in sys.argv[1:]:
+for pad in [a for a in sys.argv[1:] if not a.startswith("--")]:
     tekst = open(pad, encoding="utf-8").read()
-    nieuw, tel = regels(tekst)
+    alles = {}
+
+    def doe(s, alles=alles):
+        s, tel = regels(s)
+        for k, v in tel.items():
+            alles[k] = alles.get(k, 0) + v
+        return s
+
+    if "--strings" in sys.argv:          # bundelbestand: enkel de tekst
+        import os
+        sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
+        from op_strings import pas_toe
+        nieuw = pas_toe(tekst, doe)
+    else:
+        nieuw = doe(tekst)
     open(pad, "w", encoding="utf-8").write(nieuw)
-    print(pad, tel)
+    print(pad, alles, "| nog los:", nieuw.count("MACHT{"))

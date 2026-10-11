@@ -147,7 +147,7 @@ DEEL1 = [
             "twee groepen punten zonder enig onderling verband",
         ],
         antwoord=0,
-        uitleg="Zo'n vorm komt vaak voor: eerst stijgt het, dan daalt het. Een rechte zou hier een slechte trendlijn zijn.",
+        uitleg=r"Zo'n vorm komt vaak voor: eerst stijgt het, dan daalt het. Een rechte zou hier een slechte trendlijn zijn.",
     ),
     dict(
         type="meerkeuze",
@@ -245,7 +245,7 @@ DEEL2 = [
     ),
     dict(
         type="meerkeuze",
-        vraag="Welke samenhang hoort volgens het formularium bij r gelijk aan 0,85?",
+        vraag=r"Welke samenhang hoort volgens het formularium bij r gelijk aan \(0{,}85\)?",
         opties=[
             "sterke positieve samenhang",
             "matige positieve samenhang",
@@ -253,17 +253,17 @@ DEEL2 = [
             "sterke negatieve samenhang",
         ],
         antwoord=0,
-        uitleg="Boven 0,7 spreekt het formularium van sterke positieve samenhang.",
+        uitleg=r"Boven \(0{,}7\) spreekt het formularium van sterke positieve samenhang.",
     ),
     dict(
         type="waarofniet",
-        vraag="Volgens het formularium hoort r gelijk aan min 0,5 bij een matige negatieve samenhang.",
+        vraag=r"Volgens het formularium hoort r gelijk aan min \(0{,}5\) bij een matige negatieve samenhang.",
         antwoord=True,
-        uitleg="Min 0,5 ligt tussen min 0,7 en min 0,3, dus matig negatief.",
+        uitleg=r"Min \(0{,}5\) ligt tussen min \(0{,}7\) en min \(0{,}3\), dus matig negatief.",
     ),
     dict(
         type="meerkeuze",
-        vraag="Welke samenhang hoort volgens het formularium bij r gelijk aan 0,2?",
+        vraag=r"Welke samenhang hoort volgens het formularium bij r gelijk aan \(0{,}2\)?",
         opties=[
             "zwakke positieve samenhang",
             "matige positieve samenhang",
@@ -271,11 +271,11 @@ DEEL2 = [
             "helemaal geen samenhang",
         ],
         antwoord=0,
-        uitleg="Tussen nul en 0,3 is de samenhang zwak positief.",
+        uitleg=r"Tussen nul en \(0{,}3\) is de samenhang zwak positief.",
     ),
     dict(
         type="meerkeuze",
-        vraag="Wat betekent r gelijk aan min 0,9?",
+        vraag=r"Wat betekent r gelijk aan min \(0{,}9\)?",
         opties=[
             "een sterk verband waarbij de ene daalt als de andere stijgt",
             "een sterk verband waarbij de twee grootheden samen stijgen",
@@ -283,7 +283,7 @@ DEEL2 = [
             "helemaal geen verband tussen de twee grootheden",
         ],
         antwoord=0,
-        uitleg="Het minteken geeft de richting, de grootte geeft de sterkte. Min 0,9 is sterk en dalend.",
+        uitleg=r"Het minteken geeft de richting, de grootte geeft de sterkte. Min \(0{,}9\) is sterk en dalend.",
     ),
     dict(
         type="invultekst",
@@ -337,7 +337,7 @@ DEEL2 = [
             "er is geen correlatie, het onderzoek is verkeerd uitgevoerd",
         ],
         antwoord=0,
-        uitleg="Ook dit is een verborgen derde factor. Zoek bij een vreemde correlatie altijd eerst naar zo'n factor.",
+        uitleg=r"Ook dit is een verborgen derde factor. Zoek bij een vreemde correlatie altijd eerst naar zo'n factor.",
     ),
     dict(
         type="meerkeuze",
@@ -355,17 +355,17 @@ DEEL2 = [
         type="invultekst",
         vraag="Boven welke waarde van r spreekt het formularium van een sterke positieve samenhang? Geef het getal als decimaal.",
         antwoord=["0,7", "0.7"],
-        uitleg="Boven 0,7 is de samenhang sterk positief; onder min 0,7 sterk negatief.",
+        uitleg=r"Boven \(0{,}7\) is de samenhang sterk positief; onder min \(0{,}7\) sterk negatief.",
     ),
     dict(
         type="waarofniet",
         vraag="Een trendlijn mag je gebruiken om buiten het bereik van je gegevens te voorspellen.",
         antwoord=False,
-        uitleg="Buiten je meetbereik weet je niet of het verband doorloopt. Zo'n voorspelling is onbetrouwbaar.",
+        uitleg=r"Buiten je meetbereik weet je niet of het verband doorloopt. Zo'n voorspelling is onbetrouwbaar.",
     ),
     dict(
         type="meerkeuze",
-        vraag="De trendlijn van een onderzoek is y gelijk aan 2x plus 5. Wat betekent de 2?",
+        vraag=r"De trendlijn van een onderzoek is \(y = 2x + 5\). Wat betekent de \(2\)?",
         opties=[
             "per eenheid die x stijgt, stijgt y met twee eenheden",
             "de waarde van y is altijd twee keer zo groot als x",
@@ -373,11 +373,11 @@ DEEL2 = [
             "de correlatiecoëfficiënt is gelijk aan twee",
         ],
         antwoord=0,
-        uitleg="De richtingscoëfficiënt geeft de verandering van y per eenheid x. De 5 is de waarde bij x gelijk aan nul.",
+        uitleg=r"De richtingscoëfficiënt geeft de verandering van y per eenheid x. De \(5\) is de waarde bij x gelijk aan nul.",
     ),
     dict(
         type="meerkeuze",
-        vraag="Je vindt r gelijk aan 0,35 tussen twee grootheden. Hoe beschrijf je dat?",
+        vraag=r"Je vindt r gelijk aan \(0{,}35\) tussen twee grootheden. Hoe beschrijf je dat?",
         opties=[
             "een matige positieve samenhang volgens de vuistregels",
             "een sterke positieve samenhang volgens de vuistregels",
@@ -385,7 +385,7 @@ DEEL2 = [
             "een perfect lineair verband tussen de twee grootheden",
         ],
         antwoord=0,
-        uitleg="Tussen 0,3 en 0,7 is de samenhang matig positief. Dat is net boven de grens van zwak.",
+        uitleg=r"Tussen \(0{,}3\) en \(0{,}7\) is de samenhang matig positief. Dat is net boven de grens van zwak.",
     ),
     dict(
         type="waarofniet",
@@ -395,7 +395,7 @@ DEEL2 = [
     ),
     dict(
         type="meerkeuze",
-        vraag="Twee onderzoekers vinden r gelijk aan 0,8 maar hun puntenwolken zien er anders uit. Kan dat?",
+        vraag=r"Twee onderzoekers vinden r gelijk aan \(0{,}8\) maar hun puntenwolken zien er anders uit. Kan dat?",
         opties=[
             "ja, hetzelfde getal kan bij verschillende vormen horen, daarom kijk je altijd naar het diagram",
             "nee, hetzelfde getal betekent altijd dezelfde vorm van de wolk",

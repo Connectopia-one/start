@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 """Zet machten en breuken die nog in woorden staan om naar notatie.
 
-    python3 -I woordgetal.py <bestand.py> …
+    python3 -I woordgetal.py [--strings] <bestand.py> …
 
 Werkt op tekst waar de cijfers al in \\( \\) staan: wat overblijft zijn de
 getallen die als woord geschreven zijn ("zeven tot de macht nul").
@@ -89,9 +89,22 @@ def regels(t):
     return t, tel
 
 
-for pad in sys.argv[1:]:
-    t = open(pad, encoding="utf-8").read()
-    t, tel = regels(t)
-    rest = t.count("MACHT{")
-    open(pad, "w", encoding="utf-8").write(t)
-    print(pad, tel, "nog los:", rest)
+for pad in [a for a in sys.argv[1:] if not a.startswith("--")]:
+    tekst = open(pad, encoding="utf-8").read()
+    alles = {}
+
+    def doe(s, alles=alles):
+        s, tel = regels(s)
+        for k, v in tel.items():
+            alles[k] = alles.get(k, 0) + v
+        return s
+
+    if "--strings" in sys.argv:          # bundelbestand: enkel de tekst
+        import os
+        sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
+        from op_strings import pas_toe
+        nieuw = pas_toe(tekst, doe)
+    else:
+        nieuw = doe(tekst)
+    open(pad, "w", encoding="utf-8").write(nieuw)
+    print(pad, alles, "| nog los:", nieuw.count("MACHT{"))
