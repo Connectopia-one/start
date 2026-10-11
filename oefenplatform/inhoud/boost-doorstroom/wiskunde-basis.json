@@ -6361,7 +6361,7 @@
             "de gegevens in volle tekst"
           ],
           "antwoord": 0,
-          "uitleg": "Links de waarden, rechts hoe vaak ze voorkomen."
+          "uitleg": "Links de waarden, rechts hoe vaak ze voorkomen: de frequentie."
         },
         {
           "type": "meerkeuze",
@@ -6373,7 +6373,7 @@
             "zo verdwijnen de uitschieters"
           ],
           "antwoord": 0,
-          "uitleg": "Bij lengtes van 1,52 tot 1,89 meter groepeer je in klassen van 5 centimeter."
+          "uitleg": "Bij lengtes van \\(1{,}52\\) tot \\(1{,}89\\) meter groepeer je in klassen van \\(5\\) centimeter."
         },
         {
           "type": "invultekst",
@@ -6406,7 +6406,7 @@
             "de spreiding zichtbaar maken"
           ],
           "antwoord": 0,
-          "uitleg": "Een cirkeldiagram toont verhoudingen. Samen vormen de partjes 100 procent."
+          "uitleg": "Een cirkeldiagram toont verhoudingen. Samen vormen de partjes \\(100\\,\\%\\)."
         },
         {
           "type": "meerkeuze",
@@ -6446,7 +6446,7 @@
             "de namen van de categorieën"
           ],
           "antwoord": 0,
-          "uitleg": "Minimum, eerste kwartiel, mediaan, derde kwartiel en maximum."
+          "uitleg": "Minimum, \\(Q_{1}\\), mediaan, \\(Q_{3}\\) en maximum."
         },
         {
           "type": "meerkeuze",
@@ -6462,13 +6462,13 @@
         },
         {
           "type": "waarofniet",
-          "vraag": "In een frequentietabel is de som van de frequenties gelijk aan het aantal gegevens.",
+          "vraag": "In een frequentietabel is de som van de frequenties gelijk aan \\(n\\).",
           "antwoord": true,
           "uitleg": "Een goede controle: komt die som niet uit, dan is er een gegeven vergeten."
         },
         {
           "type": "waarofniet",
-          "vraag": "Een cirkeldiagram is geschikt om twintig categorieën te vergelijken.",
+          "vraag": "Een cirkeldiagram is geschikt om \\(20\\) categorieën te vergelijken.",
           "antwoord": false,
           "uitleg": "Twintig partjes zijn niet te onderscheiden. Een staafdiagram leest dan veel beter."
         },
@@ -6491,19 +6491,19 @@
             "het verschil met het gemiddelde"
           ],
           "antwoord": 0,
-          "uitleg": "De frequentie gedeeld door het totaal, meestal als procent geschreven."
+          "uitleg": "\\(\\frac{\\text{frequentie}}{\\text{totaal}}\\), meestal als procent geschreven."
         },
         {
           "type": "meerkeuze",
-          "vraag": "20 van de 50 leerlingen komen met de bus. Wat is de relatieve frequentie?",
+          "vraag": "\\(20\\) van de \\(50\\) leerlingen komen met de bus. Wat is de relatieve frequentie?",
           "opties": [
-            "40 procent",
-            "20 procent ervan",
-            "30 procent ervan",
-            "50 procent ervan"
+            "\\(40\\,\\%\\)",
+            "\\(20\\,\\%\\) ervan",
+            "\\(30\\,\\%\\) ervan",
+            "\\(50\\,\\%\\) ervan"
           ],
           "antwoord": 0,
-          "uitleg": "20 gedeeld door 50 is 0,4, dus 40 procent."
+          "uitleg": "\\(\\frac{20}{50} = 0{,}4\\), dus \\(40\\,\\%\\)."
         },
         {
           "type": "meerkeuze",
@@ -6539,12 +6539,12 @@
         },
         {
           "type": "invultekst",
-          "vraag": "Hoeveel klassen van 10 cm heb je nodig voor lengtes van 150 tot 190 cm? Een getal.",
+          "vraag": "Hoeveel klassen van \\(10\\) cm heb je nodig voor lengtes van \\(150\\) tot \\(190\\) cm? Een getal.",
           "antwoord": [
             "4",
             "vier"
           ],
-          "uitleg": "150 tot 160, 160 tot 170, 170 tot 180 en 180 tot 190: vier klassen."
+          "uitleg": "\\(\\left[150, 160\\right[\\), \\(\\left[160, 170\\right[\\), \\(\\left[170, 180\\right[\\) en \\(\\left[180, 190\\right[\\): vier klassen."
         }
       ]
     },
@@ -6563,7 +6563,7 @@
             "het verschil tussen hoog en laag"
           ],
           "antwoord": 0,
-          "uitleg": "Alle waarden samen, gedeeld door het aantal gegevens."
+          "uitleg": "\\(\\bar{x} = \\frac{\\text{som van de waarden}}{n}\\)."
         },
         {
           "type": "meerkeuze",
@@ -6591,24 +6591,24 @@
         },
         {
           "type": "meerkeuze",
-          "vraag": "Wat is de mediaan van 3, 5, 9, 11 en 12?",
+          "vraag": "Wat is de mediaan van \\(3, 5, 9, 11\\) en \\(12\\)?",
           "opties": [
-            "9",
-            "8 in totaal",
-            "5 in totaal",
-            "11 in totaal"
+            "\\(9\\)",
+            "\\(8\\) in totaal",
+            "\\(5\\) in totaal",
+            "\\(11\\) in totaal"
           ],
           "antwoord": 0,
           "uitleg": "Vijf waarden, dus de derde staat in het midden."
         },
         {
           "type": "invultekst",
-          "vraag": "Wat is het gemiddelde van 4, 6 en 8? Een getal.",
+          "vraag": "Wat is het gemiddelde van \\(4, 6\\) en \\(8\\)? Een getal.",
           "antwoord": [
             "6",
             "zes"
           ],
-          "uitleg": "18 gedeeld door 3 is 6."
+          "uitleg": "\\(\\frac{18}{3} = 6\\)."
         },
         {
           "type": "waarofniet",
@@ -6632,13 +6632,13 @@
             "het aantal verschillende waarden"
           ],
           "antwoord": 0,
-          "uitleg": "Het verschil tussen de hoogste en de laagste waarde."
+          "uitleg": "Het verschil tussen de hoogste en de laagste waarde, \\(x_{\\max} - x_{\\min}\\)."
         },
         {
           "type": "meerkeuze",
           "vraag": "Wat is de interkwartielafstand?",
           "opties": [
-            "het derde min het eerste kwartiel",
+            "\\(Q_{3} - Q_{1}\\)",
             "het verschil van de twee uitersten",
             "de helft van de variatiebreedte",
             "het gemiddelde van de kwartielen"
@@ -6676,19 +6676,19 @@
         },
         {
           "type": "meerkeuze",
-          "vraag": "Wat is de mediaan van 2, 4, 6 en 10?",
+          "vraag": "Wat is de mediaan van \\(2, 4, 6\\) en \\(10\\)?",
           "opties": [
-            "5",
-            "4 in totaal",
-            "6 in totaal",
-            "5,5 in totaal"
+            "\\(5\\)",
+            "\\(4\\) in totaal",
+            "\\(6\\) in totaal",
+            "\\(5{,}5\\) in totaal"
           ],
           "antwoord": 0,
-          "uitleg": "Bij een even aantal neem je het gemiddelde van de twee middelste: 4 plus 6 is 10, gedeeld door 2 is 5."
+          "uitleg": "Bij een even aantal neem je het gemiddelde van de twee middelste: \\(\\frac{4 + 6}{2} = 5\\)."
         },
         {
           "type": "waarofniet",
-          "vraag": "Een y-as die niet bij nul begint kan een klein verschil groot doen lijken.",
+          "vraag": "Een \\(y\\)-as die niet bij \\(0\\) begint kan een klein verschil groot doen lijken.",
           "antwoord": true,
           "uitleg": "Een klassieke manier om met een eerlijke grafiek toch te misleiden."
         },
@@ -6700,12 +6700,12 @@
         },
         {
           "type": "invultekst",
-          "vraag": "Wat is de variatiebreedte van 7, 12 en 20? Een getal.",
+          "vraag": "Wat is de variatiebreedte van \\(7, 12\\) en \\(20\\)? Een getal.",
           "antwoord": [
             "13",
             "dertien"
           ],
-          "uitleg": "20 min 7 is 13."
+          "uitleg": "\\(20 - 7 = 13\\)."
         },
         {
           "type": "meerkeuze",
@@ -6717,7 +6717,7 @@
             "door alle gegevens te tonen"
           ],
           "antwoord": 0,
-          "uitleg": "Een y-as die niet bij nul begint maakt verschillen groter dan ze zijn."
+          "uitleg": "Een \\(y\\)-as die niet bij \\(0\\) begint maakt verschillen groter dan ze zijn."
         },
         {
           "type": "meerkeuze",
@@ -6733,7 +6733,7 @@
             1,
             2
           ],
-          "uitleg": "Een percentage van 4 mensen zegt iets heel anders dan een percentage van 4000."
+          "uitleg": "Een percentage van \\(4\\) mensen zegt iets heel anders dan een percentage van \\(4\\,000\\)."
         },
         {
           "type": "meerkeuze",
@@ -6770,7 +6770,7 @@
             "uitschieter",
             "een uitschieter"
           ],
-          "uitleg": "Een uitschieter. Ze beïnvloedt het gemiddelde sterk."
+          "uitleg": "Een uitschieter. Ze beïnvloedt \\(\\bar{x}\\) sterk, de mediaan amper."
         }
       ]
     },

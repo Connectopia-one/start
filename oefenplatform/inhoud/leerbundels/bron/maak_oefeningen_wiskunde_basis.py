@@ -1596,66 +1596,131 @@ zet("gegevens-weergeven-en-samenvatten",
     titel="Gegevens weergeven en samenvatten",
     reeksen=[
         dict(kop="Een reeks samenvatten",
-             opdracht="Werk met deze tien waarden: 12, 15, 15, 18, 20, 21, 24, 25, 25, 25.",
+             opdracht="Werk met deze tien waarden: \\(12, 15, 15, 18, 20, 21, 24, 25, 25, 25\\).",
              oefeningen=[
-                 ("rij", [("de som", "200"), ("het gemiddelde", "20"),
-                          ("de mediaan", "20,5"), ("de modus", "25"),
-                          ("het bereik", "13"), ("het aantal waarden", "10")],
+                 ("rij", [("de som", "\\(200\\)"), ("het gemiddelde \\(\\bar{x}\\)", "\\(20\\)"),
+                          ("de mediaan", "\\(20{,}5\\)"), ("de modus", "\\(25\\)"),
+                          ("het bereik", "\\(13\\)"), ("het aantal waarden \\(n\\)", "\\(10\\)")],
                   "Wat is het resultaat?", W),
+             ]),
+        dict(kop="De mediaan van een even aantal",
+             opdracht="Schrijf je antwoord in volle zinnen.",
+             oefeningen=[
                  ("open", "Leg uit hoe je de mediaan van tien waarden bepaalt.",
-                  "Je zet ze op volgorde en neemt het gemiddelde van de vijfde en de zesde: "
-                  "(20 + 21)/2 = 20,5.", 3),
-                 ("open", "Het gemiddelde is 20 en de mediaan 20,5. Wat zegt dat over de "
-                          "verdeling?",
-                  "Ze liggen dicht bij elkaar, dus de verdeling is vrij symmetrisch; er is geen "
-                  "uitschieter die het gemiddelde ver wegtrekt.", 3),
+                  "Het gemiddelde van de vijfde en de zesde: \\(\\frac{20 + 21}{2} = 20{,}5\\).", 3),
+             ]),
+        dict(kop="Gemiddelde naast mediaan",
+             opdracht="Schrijf je antwoord in volle zinnen.",
+             oefeningen=[
+                 ("open", "Het gemiddelde is \\(20\\) en de mediaan \\(20{,}5\\). Wat zegt dat over "
+                          "de verdeling?",
+                  "Ze liggen dicht bij elkaar: de verdeling is vrij symmetrisch, zonder uitschieter.", 3),
+             ]),
+        dict(kop="Categorisch of numeriek?",
+             opdracht="Schrijf bij elk gegeven welk soort het is.",
+             oefeningen=[
+                 ("rij", [("de lengte in centimeter", "numeriek"),
+                          ("de haarkleur", "categorisch"),
+                          ("het aantal broers en zussen", "numeriek"),
+                          ("het vervoermiddel naar school", "categorisch")],
+                  "Welk soort?", WL),
+             ]),
+        dict(kop="Relatieve frequentie",
+             opdracht="Reken uit in procent.",
+             oefeningen=[
+                 ("rij", [("\\(20\\) van de \\(50\\)", "\\(40\\,\\%\\)"),
+                          ("\\(9\\) van de \\(36\\)", "\\(25\\,\\%\\)"),
+                          ("\\(14\\) van de \\(56\\)", "\\(25\\,\\%\\)")],
+                  "Hoeveel procent?", WW),
+             ]),
+        dict(kop="Waarom in procent?",
+             opdracht="Schrijf je antwoord in volle zinnen.",
+             oefeningen=[
+                 ("open", "Waarom rekenen we relatieve frequenties uit in plaats van gewoon de "
+                          "aantallen te vergelijken?",
+                  "Zo leg je een klas van \\(20\\) naast een school van \\(600\\).", 3),
+             ]),
+        dict(kop="Klassen maken",
+             opdracht="Toon je redenering.",
+             oefeningen=[
+                 ("open", "Hoeveel klassen van \\(10\\) cm heb je nodig voor lengtes van \\(150\\) "
+                          "tot \\(190\\) cm? Schrijf ze allemaal op.",
+                  "Vier, telkens \\(10\\) cm breed, van \\(\\left[150, 160\\right[\\) tot en met "
+                  "\\(\\left[180, 190\\right[\\).", 3),
+                 ("waar", "In een frequentietabel is de som van de frequenties gelijk aan \\(n\\).", True),
              ]),
         dict(kop="Wanneer welk kengetal?",
              opdracht="Schrijf op welk kengetal je kiest en waarom.",
              oefeningen=[
-                 ("open", "De lonen in een bedrijf waar de directeur tien keer zoveel verdient "
-                          "als de rest.",
-                  "De mediaan: het gemiddelde wordt door dat ene hoge loon omhoog getrokken en "
-                  "geeft geen beeld van wat een gewone werknemer verdient.", 3),
+                 ("open", "De lonen in een bedrijf waar de directeur tien keer zoveel verdient als de rest.",
+                  "De mediaan: dat ene hoge loon trekt het gemiddelde omhoog.", 3),
                  ("open", "De meest verkochte schoenmaat in een winkel.",
-                  "De modus: je wil weten welke maat het vaakst voorkomt, niet het gemiddelde "
-                  "van alle maten.", 2),
-                 ("open", "De gemiddelde temperatuur van een maand.",
-                  "Het gemiddelde: alle waarden liggen dicht bij elkaar en elke dag telt even "
-                  "zwaar mee.", 2),
-                 ("waar", "Een uitschieter verandert de mediaan meestal sterker dan het "
-                          "gemiddelde.", False),
+                  "De modus: je wil de maat die het vaakst voorkomt.", 2),
              ]),
-        dict(kop="Spreiding",
-             opdracht="Reken uit of leg uit.",
+        dict(kop="Nog twee keuzes",
+             opdracht="Schrijf op welk kengetal je kiest en waarom.",
              oefeningen=[
-                 ("open", "Bereken het eerste en het derde kwartiel van de reeks hierboven, "
-                          "en de interkwartielafstand.",
-                  "Q1 is de derde waarde, 15; Q3 is de achtste waarde, 25. De "
-                  "interkwartielafstand is 10.", 3),
-                 ("open", "Twee klassen hebben allebei een gemiddelde van 60 %. Klas A heeft "
-                          "een standaardafwijking van 4, klas B van 15. Wat betekent dat?",
-                  "In klas A liggen de punten dicht bij het gemiddelde; in klas B lopen ze ver "
-                  "uiteen, met zwakke en sterke leerlingen. Hetzelfde gemiddelde zegt dus niets "
-                  "over de klas.", 4),
-                 ("open", "Waarvoor dient een boxplot?",
-                  "Hij toont in één beeld het minimum, Q1, de mediaan, Q3 en het maximum, zodat "
-                  "je de spreiding en de scheefheid van een reeks meteen ziet.", 3),
+                 ("open", "De gemiddelde temperatuur van een maand.",
+                  "Het gemiddelde: alle waarden liggen dicht bij elkaar en elke dag telt even zwaar mee.", 2),
+                 ("waar", "Een uitschieter verandert de mediaan meestal sterker dan het gemiddelde.", False),
+                 ("waar", "De modus bestaat ook bij categorische gegevens.", True),
              ]),
-        dict(kop="Grafieken lezen en kiezen",
-             opdracht="Antwoord in enkele zinnen.",
+        dict(kop="Spreiding berekenen",
+             opdracht="Werk met dezelfde tien waarden als in reeks 1.",
+             oefeningen=[
+                 ("open", "Bereken \\(Q_{1}\\) en \\(Q_{3}\\), en de interkwartielafstand.",
+                  "\\(Q_{1} = 15\\) (derde waarde), \\(Q_{3} = 25\\) (achtste), dus \\(10\\).", 3),
+                 ("rij", [("de variatiebreedte", "\\(13\\)"),
+                          ("de interkwartielafstand", "\\(10\\)")],
+                  "Welke waarde?", W),
+             ]),
+        dict(kop="Twee klassen vergelijken",
+             opdracht="Leg uit in volle zinnen.",
+             oefeningen=[
+                 ("open", "Twee klassen hebben allebei een gemiddelde van \\(60\\,\\%\\). Klas A "
+                          "heeft een standaardafwijking van \\(4\\), klas B van \\(15\\). Wat "
+                          "betekent dat?",
+                  "In klas A liggen de punten dicht bij het gemiddelde, in klas B ver uiteen. Hetzelfde "
+                  "gemiddelde zegt dus niets over de spreiding.", 4),
+             ]),
+        dict(kop="De boxplot",
+             opdracht="Antwoord kort.",
+             oefeningen=[
+                 ("open", "Waarvoor dient een boxplot?",
+                  "Hij toont het minimum, \\(Q_{1}\\), de mediaan, \\(Q_{3}\\) en het maximum in "
+                  "één beeld, dus meteen de spreiding.", 3),
+                 ("waar", "Op een boxplot zie je hoeveel gegevens erachter zitten.", False),
+             ]),
+        dict(kop="Grafieken kiezen",
+             opdracht="Schrijf op welke grafiek past.",
              oefeningen=[
                  ("rij", [("het verloop van de temperatuur over een jaar", "een lijngrafiek"),
                           ("het aandeel van vier partijen in een parlement", "een cirkeldiagram"),
-                          ("het aantal leerlingen per studierichting", "een staafdiagram"),
-                          ("de spreiding van punten in twee klassen", "twee boxplots"),
+                          ("het aantal leerlingen per studierichting", "een staafdiagram")],
+                  "Welke grafiek kies je?", WW),
+             ]),
+        dict(kop="Nog drie grafieken",
+             opdracht="Schrijf op welke grafiek past.",
+             oefeningen=[
+                 ("rij", [("de spreiding van punten in twee klassen", "twee boxplots"),
                           ("het verband tussen lengte en gewicht", "een puntenwolk"),
                           ("hoe vaak elke score voorkomt", "een histogram")],
                   "Welke grafiek kies je?", WW),
-                 ("open", "Een staafdiagram begint niet bij nul maar bij 90. Waarom is dat "
+                 ("waar", "Bij een histogram staan de staven los van elkaar.", False),
+             ]),
+        dict(kop="Een misleidende grafiek",
+             opdracht="Antwoord in enkele zinnen.",
+             oefeningen=[
+                 ("open", "Een staafdiagram begint niet bij \\(0\\) maar bij \\(90\\). Waarom is dat "
                           "misleidend?",
-                  "Een klein verschil lijkt dan enorm, omdat je alleen het topje van de staven "
-                  "ziet. De verhouding tussen de staven klopt niet meer.", 3),
+                  "Je ziet alleen het topje van de staven, dus de verhouding ertussen klopt niet meer.", 3),
+                 ("open", "Noem twee dingen waar je nog op let als je een diagram leest.",
+                  "De eenheid, en hoeveel gegevens erachter zitten: \\(67\\,\\%\\) van drie is iets "
+                  "anders dan van drieduizend.", 3),
+                 ("open", "Een krant schrijft: de verkoop steeg van \\(98\\) naar \\(100\\) stuks, "
+                          "en zet beide staven op een as die bij \\(97\\) begint. Hoeveel procent is de "
+                          "echte stijging, en hoeveel keer zo hoog lijkt de tweede staaf?",
+                  "Ongeveer \\(2\\,\\%\\); op die as lijkt ze drie keer zo hoog.", 4),
              ]),
     ])
 

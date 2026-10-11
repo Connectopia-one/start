@@ -1360,26 +1360,33 @@ zet("gegevens-weergeven-en-samenvatten",
                   "lievelingsvak. Je kan ze tellen, maar <strong>je kan ze niet zinvol optellen</strong>: het "
                   "gemiddelde van blauw en groen bestaat niet. <strong>Numerieke gegevens zijn gegevens die je "
                   "meet of telt</strong>: lengte, leeftijd, het aantal broers en zussen. <strong>Daarmee kan "
-                  "je wél rekenen.</strong>"),
+                  "je wél rekenen.</strong> Hun aantal noemen we \\(n\\)."),
             ("kader", tabel(["gegeven", "soort"],
                             [["<strong>de lengte in centimeter</strong>", "<strong>numeriek</strong>, je meet ze"],
                              ["<strong>het aantal broers en zussen</strong>", "<strong>numeriek</strong>, je telt ze"],
                              ["<strong>de leeftijd in jaren</strong>", "<strong>numeriek</strong>, je telt ze"],
                              ["<strong>de haarkleur</strong>", "<strong>categorisch</strong>, het is een groep"],
                              ["<strong>het vervoermiddel naar school</strong>", "<strong>categorisch</strong>, het is een groep"]])),
+        ]),
+        dict(kop="De frequentietabel", blokken=[
             ("p", "<strong>De frequentietabel zet elke waarde met haar aantal op een rij</strong>: links de "
-                  "waarden, rechts hoe vaak ze voorkomen. <strong>De som van de frequenties is gelijk aan het "
-                  "aantal gegevens</strong>, en dat is meteen je controle: komt die som niet uit, dan ben je "
+                  "waarden, rechts hoe vaak ze voorkomen. <strong>De som van de frequenties is gelijk aan "
+                  "\\(n\\)</strong>, en dat is meteen je controle: komt die som niet uit, dan ben je "
                   "een gegeven vergeten."),
             ("p", "<strong>Zijn er te veel verschillende waarden, dan werk je met klassen.</strong> Bij "
-                  "lengtes van 1,52 tot 1,89 meter heeft bijna elke leerling een eigen waarde; dan groepeer "
-                  "je in klassen, bijvoorbeeld van 5 centimeter. <strong>Voor lengtes van 150 tot 190 "
-                  "centimeter heb je vier klassen van 10 centimeter nodig</strong>: 150 tot 160, 160 tot 170, "
-                  "170 tot 180 en 180 tot 190."),
+                  "lengtes van \\(1{,}52\\) tot \\(1{,}89\\) meter heeft bijna elke leerling een eigen "
+                  "waarde; dan groepeer je in klassen, bijvoorbeeld van \\(5\\) centimeter. "
+                  "<strong>Voor lengtes van \\(150\\) tot \\(190\\) centimeter heb je vier klassen "
+                  "van \\(10\\) centimeter nodig</strong>: \\(\\left[150, 160\\right[\\), "
+                  "\\(\\left[160, 170\\right[\\), \\(\\left[170, 180\\right[\\) en "
+                  "\\(\\left[180, 190\\right[\\)."),
+        ]),
+        dict(kop="De relatieve frequentie", blokken=[
             ("p", "<strong>De relatieve frequentie is het aandeel, meestal in procent</strong>: de frequentie "
-                  "gedeeld door het totaal. <strong>Komen 20 van de 50 leerlingen met de bus, dan is de "
-                  "relatieve frequentie 40 procent</strong>, want 20 : 50 = 0,4. Dat getal laat je twee groepen "
-                  "van verschillende grootte toch vergelijken."),
+                  "gedeeld door het totaal. <strong>Komen \\(20\\) van de \\(50\\) leerlingen met de bus, "
+                  "dan is de relatieve frequentie \\(40\\,\\%\\)</strong>, want "
+                  "\\(\\frac{20}{50} = 0{,}4\\). Dat getal laat je twee groepen van verschillende "
+                  "grootte toch vergelijken."),
             ("weetje", "Een percentage verzwijgt hoeveel gegevens erachter zitten. “67 procent beveelt het "
                        "aan” klinkt sterk, tot je leest dat er drie mensen bevraagd werden."),
         ]),
@@ -1389,18 +1396,22 @@ zet("gegevens-weergeven-en-samenvatten",
             ("kader", tabel(["grafiek", "waarvoor", "hoe ze eruitziet"],
                             [["<strong>staafdiagram</strong>", "<strong>categorische gegevens</strong>", "<strong>losse staven met ruimte ertussen</strong>, één per categorie"],
                              ["<strong>histogram</strong>", "<strong>numerieke gegevens in klassen</strong>", "<strong>staven tegen elkaar</strong>, want de klassen sluiten aan"],
-                             ["<strong>cirkeldiagram</strong>", "<strong>delen van een geheel</strong>", "<strong>partjes die samen 100 procent vormen</strong>"],
+                             ["<strong>cirkeldiagram</strong>", "<strong>delen van een geheel</strong>", "<strong>partjes die samen \\(100\\,\\%\\) vormen</strong>"],
                              ["<strong>lijndiagram</strong>", "<strong>een verloop in de tijd</strong>", "<strong>een lijn die opeenvolgende momenten verbindt</strong>"],
                              ["<strong>dotplot</strong>", "<strong>een kleine reeks metingen</strong>", "<strong>één stip per gegeven</strong>, zo zie je meteen de vorm"],
                              ["<strong>boxplot</strong>", "<strong>de spreiding van een reeks</strong>", "<strong>de kwartielen en de mediaan</strong> in één beeld"]])),
+        ]),
+        dict(kop="Staafdiagram of histogram", blokken=[
             ("p", "<strong>Het verschil tussen een staafdiagram en een histogram zit in die ruimte.</strong> "
                   "Bij een staafdiagram staan de staven los, want de categorieën staan los van elkaar. "
-                  "<strong>Bij een histogram staan de staven tegen elkaar</strong>, want 160 tot 170 sluit aan "
-                  "op 170 tot 180."),
-            ("p", "<strong>Een cirkeldiagram is niet geschikt om twintig categorieën te vergelijken</strong>: "
+                  "<strong>Bij een histogram staan de staven tegen elkaar</strong>, want "
+                  "\\(\\left[160, 170\\right[\\) sluit aan op \\(\\left[170, 180\\right[\\)."),
+            ("p", "<strong>Een cirkeldiagram is niet geschikt om \\(20\\) categorieën te vergelijken</strong>: "
                   "twintig partjes zijn niet van elkaar te onderscheiden. Een staafdiagram leest dan veel "
                   "beter. En <strong>een spreidingsdiagram toont geen verloop in de tijd</strong>, dat doet "
                   "een lijndiagram; daarover gaat het volgende hoofdstuk."),
+        ]),
+        dict(kop="Wat op elke grafiek hoort", blokken=[
             ("p", "<strong>Op elke grafiek horen drie dingen te staan</strong>: <strong>een titel</strong>, "
                   "<strong>een naam bij elke as</strong> en <strong>de eenheid van de getallen</strong>. "
                   "<strong>Zonder naam bij de as en zonder eenheid is een grafiek niet te lezen.</strong>"),
@@ -1409,21 +1420,26 @@ zet("gegevens-weergeven-en-samenvatten",
             ("p", "<strong>Een centrummaat vat een hele reeks samen in één getal.</strong> Er zijn er drie, en "
                   "ze zeggen elk iets anders."),
             ("kader", tabel(["maat", "wat ze is", "voorbeeld"],
-                            [["<strong>het gemiddelde</strong>", "<strong>de som gedeeld door het aantal</strong>",
-                              "<strong>4, 6 en 8 hebben gemiddelde 6</strong>, want 18 : 3 = 6"],
+                            [["<strong>het gemiddelde</strong>", "<strong>\\(\\bar{x} = \\frac{\\text{som}}{n}\\)</strong>, de som gedeeld door het aantal",
+                              "<strong>\\(4, 6\\) en \\(8\\) hebben \\(\\bar{x} = 6\\)</strong>, want \\(\\frac{18}{3} = 6\\)"],
                              ["<strong>de mediaan</strong>", "<strong>de middelste waarde</strong> als je ze van klein naar groot zet",
-                              "<strong>de mediaan van 3, 5, 9, 11 en 12 is 9</strong>: vijf waarden, dus de derde"],
+                              "<strong>de mediaan van \\(3, 5, 9, 11\\) en \\(12\\) is \\(9\\)</strong>: vijf waarden, dus de derde"],
                              ["<strong>de modus</strong>", "<strong>de meest voorkomende waarde</strong>",
                               "<strong>ook bij categorische gegevens</strong>: de meest gekozen kleur"]])),
+        ]),
+        dict(kop="Mediaan en modus in de praktijk", blokken=[
             ("p", "<strong>Bij een even aantal waarden neem je voor de mediaan het gemiddelde van de twee "
-                  "middelste.</strong> <strong>De mediaan van 2, 4, 6 en 10 is dus 5</strong>: 4 + 6 = 10, en "
-                  "10 : 2 = 5."),
+                  "middelste.</strong> <strong>De mediaan van \\(2, 4, 6\\) en \\(10\\) is dus \\(5\\)</strong>, "
+                  "want \\(\\frac{4 + 6}{2} = 5\\)."),
             ("p", "<strong>Er kunnen ook twee modi zijn</strong>, als twee waarden even vaak voorkomen. En "
                   "<strong>de modus bestaat niet enkel bij numerieke gegevens</strong>: ook bij een kleur of "
                   "een vervoermiddel is er een waarde die het vaakst gekozen wordt."),
+        ]),
+        dict(kop="Als er een uitschieter bij zit", blokken=[
             ("p", "<strong>Bij een uitschieter zegt de mediaan meer dan het gemiddelde.</strong> Neem de "
-                  "reeks 6, 7, 7, 8 en 32. <strong>Het gemiddelde is 12</strong>, want de som is 60; "
-                  "<strong>de mediaan is 7</strong>. Niemand van de eerste vier zit in de buurt van 12: "
+                  "reeks \\(6, 7, 7, 8\\) en \\(32\\). <strong>Het gemiddelde is \\(\\bar{x} = 12\\)</strong>, "
+                  "want de som is \\(60\\); <strong>de mediaan is \\(7\\)</strong>. Niemand van de "
+                  "eerste vier zit in de buurt van \\(12\\): "
                   "<strong>die ene uitschieter trekt het gemiddelde mee omhoog, terwijl de mediaan amper "
                   "beweegt</strong>, want die ligt vast door de middelste waarde."),
             ("fig", svg.middelmaten([6, 7, 7, 8, 32]),
@@ -1438,19 +1454,21 @@ zet("gegevens-weergeven-en-samenvatten",
                   "er drie."),
             ("kader", tabel(["maat", "wat ze is", "voorbeeld"],
                             [["<strong>de variatiebreedte</strong>", "<strong>het grootste min het kleinste</strong>",
-                              "<strong>bij 7, 12 en 20 is ze 13</strong>, want 20 − 7 = 13"],
-                             ["<strong>de interkwartielafstand</strong>", "<strong>het derde kwartiel min het eerste</strong>",
+                              "<strong>bij \\(7, 12\\) en \\(20\\) is ze \\(13\\)</strong>, want \\(20 - 7 = 13\\)"],
+                             ["<strong>de interkwartielafstand</strong>", "<strong>\\(Q_{3} - Q_{1}\\)</strong>, het derde kwartiel min het eerste",
                               "<strong>de breedte van de middelste helft</strong>; uitschieters tellen er niet in mee"],
                              ["<strong>de standaardafwijking</strong>", "<strong>hoe ver de gegevens gemiddeld van het gemiddelde liggen</strong>",
                               "<strong>klein</strong> is dicht bij het gemiddelde, <strong>groot</strong> is sterk gespreid"]])),
+        ]),
+        dict(kop="De boxplot", blokken=[
             ("p", "<strong>De boxplot tekent de spreiding.</strong> Je leest er <strong>de kwartielen en de "
                   "mediaan</strong> op af, en daarmee ook het minimum en het maximum: vijf getallen in één "
                   "beeld. <strong>De doos is de middelste helft van de gegevens</strong>, de streep erin is de "
                   "mediaan."),
             ("fig", svg.boxplot([2, 5, 6, 7, 8, 10, 11, 12, 14, 15, 20]),
-             "Deze reeks loopt van 2 tot 20, de middelste helft ligt tussen 6 en 14, en de mediaan ligt op 10."),
-            ("p", "Bij die reeks is <strong>de variatiebreedte 18</strong> (20 − 2) en <strong>de "
-                  "interkwartielafstand 8</strong> (14 − 6). <strong>De interkwartielafstand is dus een stuk kleiner "
+             "Deze reeks loopt van \\(2\\) tot \\(20\\), de middelste helft ligt tussen \\(6\\) en \\(14\\), en de mediaan ligt op \\(10\\)."),
+            ("p", "Bij die reeks is <strong>de variatiebreedte \\(18\\)</strong> (\\(20 - 2\\)) en <strong>de "
+                  "interkwartielafstand \\(8\\)</strong> (\\(14 - 6\\)). <strong>De interkwartielafstand is dus een stuk kleiner "
                   "dan de variatiebreedte, en net dat is haar nut</strong>: ze kijkt enkel naar de middelste "
                   "helft en laat de uiteinden links liggen."),
             ("weetje", "Op een boxplot zie je niet hoeveel gegevens erachter zitten. Een doos van tien "
@@ -1458,15 +1476,16 @@ zet("gegevens-weergeven-en-samenvatten",
         ]),
         dict(kop="Een grafiek kritisch lezen", blokken=[
             ("p", "<strong>Een grafiek kan kloppen en toch misleiden.</strong> De bekendste manier is "
-                  "<strong>een afgeknotte as</strong>: <strong>een y-as die niet bij nul begint kan een klein "
-                  "verschil groot doen lijken</strong>. Zet je twee staven van 98 en 100 op een as die bij 97 "
-                  "begint in plaats van bij nul, dan steekt de ene er 1 boven uit en de andere 3: "
-                  "<strong>de tweede staaf lijkt zo drie keer zo hoog als de eerste</strong>, terwijl ze "
-                  "maar 2 procent verschillen."),
+                  "<strong>een afgeknotte as</strong>: <strong>een \\(y\\)-as die niet bij \\(0\\) begint kan een "
+                  "klein verschil groot doen lijken</strong>. Zet je twee staven van \\(98\\) en "
+                  "\\(100\\) op een as die bij \\(97\\) begint in plaats van bij \\(0\\), dan "
+                  "steekt de ene er \\(1\\) boven uit en de andere \\(3\\): <strong>de tweede staaf "
+                  "lijkt zo drie keer zo hoog als de eerste</strong>, terwijl ze maar "
+                  "\\(2\\,\\%\\) verschillen."),
             ("kader", tabel(["waar je op let", "waarom"],
                             [["<strong>waar de assen beginnen</strong>", "<strong>een afgeknotte as blaast een verschil op</strong>"],
                              ["<strong>welke eenheid er staat</strong>", "<strong>zonder eenheid betekent een getal niets</strong>"],
-                             ["<strong>hoeveel gegevens erachter zitten</strong>", "<strong>een percentage van 4 mensen zegt iets heel anders dan een percentage van 4000</strong>"]])),
+                             ["<strong>hoeveel gegevens erachter zitten</strong>", "<strong>een percentage van \\(4\\) mensen zegt iets heel anders dan een percentage van \\(4\\,000\\)</strong>"]])),
             ("p", "<strong>Dat kritisch lezen is zelf leerstof.</strong> Op het examen krijg je een grafiek "
                   "en de vraag wat je eruit mag besluiten; <strong>het juiste antwoord is vaak dat je er "
                   "minder uit mag besluiten dan de grafiek suggereert</strong>."),
