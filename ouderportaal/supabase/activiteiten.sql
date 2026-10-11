@@ -103,6 +103,46 @@ create index if not exists ontvangsten_open_idx
 create index if not exists ontvangsten_gezin_idx
   on public.ontvangsten (profile_id);
 
+-- ============================================================
+-- De twee hulpfuncties, voor de zekerheid
+-- ============================================================
+--
+-- De regels hieronder steunen op is_staff() en is_beheerder(). Die staan in
+-- schema.sql, maar dat bestand is niet meer gedraaid sinds de rol leerkracht
+-- erbij kwam, en dan bestaat is_staff() nog niet: "function public.is_staff()
+-- does not exist", en omdat de sql-editor alles als één geheel draait rolt dan
+-- het hele bestand terug. Daarom staan ze hier ook. Create or replace: bestaan
+-- ze al, dan verandert er niets aan.
+--
+-- Let op: dit is een kopie van wat in schema.sql staat. Verander je daar iets
+-- aan de twee functies, verander het hier mee.
+
+create or replace function public.is_beheerder()
+returns boolean
+language sql
+security definer
+set search_path = public
+stable
+as $$
+  select exists (
+    select 1 from public.profiles
+    where id = auth.uid() and role = 'beheerder'
+  );
+$$;
+
+create or replace function public.is_staff()
+returns boolean
+language sql
+security definer
+set search_path = public
+stable
+as $$
+  select exists (
+    select 1 from public.profiles
+    where id = auth.uid() and role in ('beheerder', 'leerkracht')
+  );
+$$;
+
 alter table public.activiteiten enable row level security;
 alter table public.deelnames enable row level security;
 alter table public.ontvangsten enable row level security;
