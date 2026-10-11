@@ -66,11 +66,21 @@ export function tabelOntbreekt(
     ? `het Supabase-project met het adres ${project}.supabase.co`
     : "het Supabase-project van het ouderportaal";
 
+  /*
+    PGRST205 betekent niet alleen "de lijst van de API is verouderd": ze komt
+    ook als de tabel er in dít project gewoon niet is. Op 11 oktober 2026 stond
+    hier dat de tabel "misschien al klaar" stond, en dat stuurde Kim een
+    kwartier lang achter een vernieuwing aan terwijl ze het bestand in het
+    andere project gedraaid had. Dus: het project eerst.
+  */
   if (cacheWeg) {
     return (
-      `De tabel ${tabel} staat misschien al klaar, maar de API van Supabase ziet ze nog niet. ` +
-      `Draai in de SQL Editor van ${waar} deze ene regel: notify pgrst, 'reload schema'; ` +
-      `Helpt dat niet, dan is ${bestand} daar nog niet gedraaid. (code ${fout.code || "?"})`
+      `De API van Supabase vindt de tabel ${tabel} niet. Dat heeft twee mogelijke ` +
+      `oorzaken. Kijk eerst of je in ${waar} zit: je hebt twee projecten, en in ` +
+      `het andere staat het oefenplatform. Draai ${bestand} daar. Staat de tabel ` +
+      `er wel, dan moet de API haar lijst nog vernieuwen; draai dan deze ene ` +
+      `regel: select pg_notify($$pgrst$$, $$reload schema$$); ` +
+      `(code ${fout.code || "?"})`
     );
   }
   return (
