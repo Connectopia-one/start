@@ -199,12 +199,22 @@ export default async function BeheerPage({
               Wie op de website een formulier invult — een infovraag, een
               inschrijving, een terugbelverzoek — komt hier binnen.
             </p>
-            <Link
-              href="/beheer/aanvragen"
-              className="mt-4 inline-block rounded-md bg-forest px-3 py-2 text-sm font-medium text-white hover:bg-forest-dark"
-            >
-              Aanvragen bekijken &rarr;
-            </Link>
+            <div className="mt-4 flex flex-wrap gap-2">
+              <Link
+                href="/beheer/aanvragen"
+                className="inline-block rounded-md bg-forest px-3 py-2 text-sm font-medium text-white hover:bg-forest-dark"
+              >
+                Aanvragen bekijken &rarr;
+              </Link>
+              {/* De tweede manier om naar diezelfde aanvragen te kijken:
+                  gegroepeerd per kampdag, om een lijst mee te nemen. */}
+              <Link
+                href="/beheer/aanvragen/lijsten"
+                className="inline-block rounded-md border border-border px-3 py-2 text-sm font-medium text-ink hover:border-forest hover:text-forest-dark"
+              >
+                Lijsten per kamp &rarr;
+              </Link>
+            </div>
 
             <h2 className="mt-8 font-display text-lg font-semibold text-ink">
               Prikbord

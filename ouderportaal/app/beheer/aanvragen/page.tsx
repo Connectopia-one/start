@@ -3,19 +3,10 @@ import { createAdminClient } from "@/lib/supabase/admin";
 import { Header } from "@/components/Header";
 import { markeerAllesGezien, verwijderAanvraag, zetAfgehandeld } from "./actions";
 import { Kopieer } from "./Kopieer";
+import { vindWaarde, type Aanvraag } from "@/lib/aanvraaglijsten";
 
 /* Aanvragen komen binnen terwijl je kijkt, dus niets bewaren. */
 export const dynamic = "force-dynamic";
-
-type Aanvraag = {
-  id: string;
-  onderwerp: string;
-  soort: string;
-  gegevens: Record<string, string>;
-  gezien: boolean;
-  afgehandeld: boolean;
-  created_at: string;
-};
 
 function tijdstip(waarde: string, metSeconden = false) {
   return new Date(waarde).toLocaleString("nl-BE", {
@@ -25,19 +16,6 @@ function tijdstip(waarde: string, metSeconden = false) {
     minute: "2-digit",
     ...(metSeconden ? { second: "2-digit" as const } : {}),
   });
-}
-
-/*
-  Uit de antwoorden halen we het mailadres en het telefoonnummer naar boven,
-  want dat is wat je nodig hebt om iemand terug te contacteren. De namen van
-  de vakjes staan in website/content/formulier.ts; herkennen op een woord in
-  de vraag werkt ook als die vraag ooit anders geformuleerd wordt.
-*/
-function vindWaarde(gegevens: Record<string, string>, woord: string) {
-  const sleutel = Object.keys(gegevens).find((k) =>
-    k.toLowerCase().includes(woord)
-  );
-  return sleutel ? gegevens[sleutel] : null;
 }
 
 /*
@@ -218,6 +196,21 @@ export default async function AanvragenBeheer({
           {open > 0 ? ` · ${open} nog open` : ""}
           {gefilterd ? ` · ${aanvragen.length} getoond` : ""}
         </p>
+
+        {/* De twee manieren om naar dezelfde aanvragen te kijken: elke aanvraag
+            apart, of gegroepeerd per kampdag. Kim vroeg dat tweede op
+            11 oktober 2026. */}
+        <div className="mt-4 flex flex-wrap gap-2">
+          <span className="rounded-full bg-forest px-3 py-1 text-sm text-white">
+            Alle aanvragen
+          </span>
+          <a
+            href="/beheer/aanvragen/lijsten"
+            className="rounded-full border border-border px-3 py-1 text-sm text-ink-dim transition hover:border-forest hover:text-forest-dark"
+          >
+            Lijsten per kamp
+          </a>
+        </div>
 
         {/* Filteren op soort aanvraag. De knopjes staan er alleen als er meer
             dan één soort binnengekomen is; bij één soort zouden ze niets
