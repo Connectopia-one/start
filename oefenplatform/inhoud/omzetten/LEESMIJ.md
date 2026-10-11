@@ -1,0 +1,53 @@
+# Van woorden naar wiskundige notatie
+
+Het gereedschap waarmee de vragen en de bundels van woorden ("de wortel van
+vijftig") naar echte notatie (`\(\sqrt{50}\)`) gaan. Zie
+`oefenplatform/lib/wiskunde.ts` voor hoe een formule geschreven wordt en
+waarom `$` géén scheidingsteken is.
+
+## De weg
+
+1. **Omzetten.** `python3 -I inhoud/omzetten/naar_notatie.py <bestand.py> …`
+   - zonder vlag: enkel wat achter `vraag=`, `uitleg=` en `opties=` staat;
+   - `--bundels`: alle tekst behalve wat in een aanroep of tussen blokhaken
+     staat (de getallen van een tekening, de sleutel van een bundel);
+   - `--sets`: ook `{1, 2, 3}` en een losse hoofdletter, voor een hoofdstuk
+     over verzamelingen.
+   Een hoofdstuk dat enkel in een json staat: `json_omzet.py <json> "<titel>"`.
+2. **Narekenen.** Het bouwscript van het niveau opnieuw draaien, zodat elke
+   vraag weer wordt nagerekend en de json opnieuw wordt geschreven.
+3. **Nakijken.**
+   - `node inhoud/omzetten/katex_na.js <json> …` — leest KaTeX elke formule?
+   - `python3 -I inhoud/omzetten/lek_json.py <json> …` — notatie buiten `\( \)`?
+   - `python3 -I inhoud/omzetten/kaal_getal.py <json> …` — nog getallen in
+     woorden? (kaartjes van een sleepvraag en een uur mógen gewone tekst zijn)
+   - `python3 -I inhoud/omzetten/stuk_teken.py <bestand.py> …` — is er een × of
+     een − een `-` geworden?
+   - `python3 -I inhoud/controleer_patronen.py` — niets te raden?
+4. **Bundels.** `python3 -I inhoud/omzetten/bouw_module.py maak_<module> …`
+   maakt de pdf's van één bronbestand opnieuw en zet ze bij hun vak.
+   `lek_bundel.py maak_<module>` zoekt notatie buiten de formules,
+   `bladspiegel.py <pdf>` geeft per bladzijde de laagste inkt (onder 790
+   blijven) en daarna lees je de bundel gerenderd na.
+5. Tochten (`maak_interactief.py`), zips (`maak_zips.py`) en `npx tsc --noEmit`.
+
+## Wat we onderweg geleerd hebben
+
+- **Een teken dat buiten een formule blijft staan, moet zijn eigen teken
+  blijven.** × mag geen · worden en − geen `-`. Daarom gaan die tekens als
+  sentinel door het script: binnen een formule worden ze latex, erbuiten weer
+  het teken uit de tekst.
+- **Een titel blijft gewone tekst.** De leerbundel hangt met haar titel aan het
+  hoofdstuk vast; een formule in `titel=`, `kop=` of `breed=` breekt dat. Zie
+  `SLA_VELD_OVER`.
+- **Het antwoord van een invulvraag blijft gewone tekst**, en de kaartjes van
+  een sleepvraag ook: die worden zonder `<Formule>` getekend. Zie
+  `ANTWOORD_ARG`.
+- **Wie een optie naleest, moet de notatie kunnen weglezen.** `reken.plat()`
+  (🧱 Basis) en `zonder_notatie()` (`inhoud/notatie.py`) doen dat; `zichtbaar()`
+  telt een optie op schermbreedte voor de gokcontroles.
+- **Een f-string slaat het script over**, want het kan ze niet veilig
+  herschrijven. Zoek ze zelf: `grep -n 'f"' <bestand>`.
+- Woorden die enkel een zin aan elkaar praten ("Bij × 1000") horen nooit in een
+  formule; zie `STOPWOORDEN`.
+- Lees een bundel altijd gerenderd na, niet in de html.
