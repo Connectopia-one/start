@@ -123,6 +123,48 @@ def priem(n: int) -> bool:
     return n > 1 and all(n % d for d in range(2, int(n ** 0.5) + 1))
 
 
+HOOG = "\u2070\u00b9\u00b2\u00b3\u2074\u2075\u2076\u2077\u2078\u2079"
+
+# (wat er in de notatie staat, wat het in gewone tekst is). De volgorde telt:
+# \infty moet vóór \in staan, anders blijft er "fty" over.
+PLAT = [
+    ("^{\\circ}", "\u00b0"),
+    ("\\Leftrightarrow", "\u21d4"), ("\\Rightarrow", "\u21d2"),
+    ("\\cdot", "\u00d7"), ("\\times", "\u00d7"), ("\\approx", "\u2248"),
+    ("\\neq", "\u2260"), ("\\leq", "\u2264"), ("\\geq", "\u2265"),
+    ("\\ldots", "\u2026"), ("\\infty", "\u221e"), ("\\emptyset", "\u2205"),
+    ("\\notin", "\u2209"), ("\\in", "\u2208"),
+    ("\\cup", "\u222a"), ("\\cap", "\u2229"),
+    ("\\not\\subset", "\u2284"), ("\\subset", "\u2282"), ("\\supset", "\u2283"),
+    ("\\setminus", "\\"), ("\\{", "{"), ("\\}", "}"),
+    ("\\mathbb{N}", "\u2115"), ("\\mathbb{Z}", "\u2124"),
+    ("\\mathbb{Q}", "\u211a"), ("\\mathbb{R}", "\u211d"),
+    ("\\%", "%"), ("\\circ", "\u00b0"),
+    ("{,}", ","), ("\\,", " "), ("\\ ", " "),
+    ("\\left", ""), ("\\right", ""), ("\\(", ""), ("\\)", ""),
+]
+
+
+def zonder_notatie(tekst: str) -> str:
+    """Haalt de wiskundige notatie uit een tekst, zodat deze controle de som leest.
+
+    De vragen staan in KaTeX-notatie: \\(3x = 21\\) in plaats van "3x = 21".
+    Dit script rekent met gewone tekst en de regels in CONTROLES zijn ook in
+    gewone tekst geschreven, zodat ze leesbaar blijven. Daarom gaat de notatie
+    er langs allebei de kanten eerst af.
+    """
+    for latex, plat in PLAT:
+        tekst = tekst.replace(latex, plat)
+    tekst = re.sub(r"\^\{(-?\d+)\}",
+                   lambda m: "".join("\u207b" if c == "-" else HOOG[int(c)]
+                                     for c in m.group(1)), tekst)
+    tekst = re.sub(r"\\text\{([^{}]*)\}", r"\1", tekst)
+    tekst = re.sub(r"\\t?frac\{([^{}]*)\}\{([^{}]*)\}", r"\1/\2", tekst)
+    tekst = re.sub(r"\\sqrt\{([^{}]*)\}", "\u221a\\1", tekst)
+    tekst = re.sub(r"\\(sin|cos|tan|sqrt|alpha|beta|bar|mathbb|setminus)\b", "", tekst)
+    return re.sub(r" {2,}", " ", tekst)
+
+
 def zelfde_schrijfwijze(waarde) -> str:
     """Zet een antwoord in één vaste vorm, zodat de vergelijking over
     schrijfwijze struikelt noch fouten verbergt.
@@ -137,14 +179,14 @@ def zelfde_schrijfwijze(waarde) -> str:
 
     Zonder deze omzetting meldde de controle fouten die er niet waren.
     """
-    tekst = str(waarde).replace("-", "\u2212")
+    tekst = zonder_notatie(str(waarde)).replace("-", "\u2212")
     # enkel een spatie tússen cijfers weghalen; "7 cm" moet "7 cm" blijven
     return re.sub(r"(?<=\d)[ \u00a0\u202f](?=\d)", "", tekst)
 
 
 CONTROLES = [
     # --- Negatieve getallen en procenten, deel 1 ---
-    ("'s ochtends −3 °C",                   str(-3 + 7)),
+    ("'s ochtends −3",                      str(-3 + 7)),
     ("Welk getal is het kleinste",           str(min(-8, -3, 2))),
     ("Hoeveel is −5 + 8",                    str(-5 + 8)),
     ("Hoeveel is 4 − 9",                     str(4 - 9)),
@@ -165,7 +207,7 @@ CONTROLES = [
     ("Hoeveel is (−2)³",                     str((-2) ** 3)),
     ("Hoeveel is (−2)⁴",                     str((-2) ** 4)),
     ("Hoeveel is −3 × (4 − 7)",              str(-3 * (4 - 7))),
-    ("van −5 °C naar 3 °C",                  str(3 - (-5))),
+    ("De temperatuur gaat van −5",         str(3 - (-5))),
     ("Hoeveel is 15 % van 200",              str(int(0.15 * 200))),
     ("spel kost € 48 na 20 % korting",       euro(F(48) / F(80, 100))),
     ("eerst 10 % omhoog en daarna 10 % omlaag", euro(F(40) * F(110, 100) * F(90, 100))),
@@ -410,6 +452,8 @@ WOORDEN = [
     ("Klopt de dubbele pijl",                 "Ja, het geldt in allebei de richtingen"),
     ("is samen 20 % korting",                 "De tweede korting wordt van een kleiner bedrag genomen: samen is het 19 %"),
     ("alle getallen die deelbaar zijn door 5", "De eerste klopt, de tweede niet"),
+    ("volgt a² = b²",                   True),
+    ("volgt a = b",                           False),
     ("√9 + √16",                              "Nee, √25 = 5. Een wortel mag je niet zo splitsen bij een som"),
     ("dan is het groter dan 5.” Welke pijl",  "⇒, want omgekeerd geldt het niet: 7 is groter dan 5 maar niet dan 10"),
     ("Een hoek van 130°",                    "stompe hoek"),
@@ -449,7 +493,9 @@ def main():
     fout = 0
     gezien = set()
     for fragment, uitkomst in CONTROLES + WOORDEN:
-        treffers = [(t, v) for t, v in vragen if fragment in v["vraag"]]
+        plat = zelfde_schrijfwijze(fragment)
+        treffers = [(t, v) for t, v in vragen
+                    if plat in zelfde_schrijfwijze(v["vraag"])]
         if len(treffers) != 1:
             print(f"  FOUT  {fragment!r} past op {len(treffers)} vragen, verwacht precies 1")
             fout += 1
