@@ -13,11 +13,11 @@
     {
      "soort": "figuur",
      "html": "<svg viewBox=\"0 0 300 290\" width=\"300\" xmlns=\"http://www.w3.org/2000/svg\"><line x1=\"30.0\" y1=\"30\" x2=\"30.0\" y2=\"270\" stroke=\"#e4ded0\" stroke-width=\"1\"/><line x1=\"30\" y1=\"270.0\" x2=\"270.0\" y2=\"270.0\" stroke=\"#e4ded0\" stroke-width=\"1\"/><line x1=\"70.0\" y1=\"30\" x2=\"70.0\" y2=\"270\" stroke=\"#e4ded0\" stroke-width=\"1\"/><line x1=\"30\" y1=\"230.0\" x2=\"270.0\" y2=\"230.0\" stroke=\"#e4ded0\" stroke-width=\"1\"/><line x1=\"110.0\" y1=\"30\" x2=\"110.0\" y2=\"270\" stroke=\"#e4ded0\" stroke-width=\"1\"/><line x1=\"30\" y1=\"190.0\" x2=\"270.0\" y2=\"190.0\" stroke=\"#e4ded0\" stroke-width=\"1\"/><line x1=\"150.0\" y1=\"30\" x2=\"150.0\" y2=\"270\" stroke=\"#e4ded0\" stroke-width=\"1\"/><line x1=\"30\" y1=\"150.0\" x2=\"270.0\" y2=\"150.0\" stroke=\"#e4ded0\" stroke-width=\"1\"/><line x1=\"190.0\" y1=\"30\" x2=\"190.0\" y2=\"270\" stroke=\"#e4ded0\" stroke-width=\"1\"/><line x1=\"30\" y1=\"110.0\" x2=\"270.0\" y2=\"110.0\" stroke=\"#e4ded0\" stroke-width=\"1\"/><line x1=\"230.0\" y1=\"30\" x2=\"230.0\" y2=\"270\" stroke=\"#e4ded0\" stroke-width=\"1\"/><line x1=\"30\" y1=\"70.0\" x2=\"270.0\" y2=\"70.0\" stroke=\"#e4ded0\" stroke-width=\"1\"/><line x1=\"270.0\" y1=\"30\" x2=\"270.0\" y2=\"270\" stroke=\"#e4ded0\" stroke-width=\"1\"/><line x1=\"30\" y1=\"30.0\" x2=\"270.0\" y2=\"30.0\" stroke=\"#e4ded0\" stroke-width=\"1\"/><line x1=\"30\" y1=\"270\" x2=\"278.0\" y2=\"270\" stroke=\"#234539\" stroke-width=\"1.8\"/><line x1=\"30\" y1=\"270\" x2=\"30\" y2=\"22\" stroke=\"#234539\" stroke-width=\"1.8\"/><text x=\"286.0\" y=\"275.0\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"11\" font-weight=\"600\" fill=\"#234539\">x</text><text x=\"16.0\" y=\"26.0\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"11\" font-weight=\"600\" fill=\"#234539\">y</text><text x=\"21.0\" y=\"285.0\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"10\" fill=\"#6b7260\">0</text><text x=\"70.0\" y=\"285.0\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"9.5\" fill=\"#6b7260\">1</text><text x=\"20.0\" y=\"234.0\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"9.5\" fill=\"#6b7260\">1</text><text x=\"110.0\" y=\"285.0\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"9.5\" fill=\"#6b7260\">2</text><text x=\"20.0\" y=\"194.0\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"9.5\" fill=\"#6b7260\">2</text><text x=\"150.0\" y=\"285.0\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"9.5\" fill=\"#6b7260\">3</text><text x=\"20.0\" y=\"154.0\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"9.5\" fill=\"#6b7260\">3</text><text x=\"190.0\" y=\"285.0\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"9.5\" fill=\"#6b7260\">4</text><text x=\"20.0\" y=\"114.0\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"9.5\" fill=\"#6b7260\">4</text><text x=\"230.0\" y=\"285.0\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"9.5\" fill=\"#6b7260\">5</text><text x=\"20.0\" y=\"74.0\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"9.5\" fill=\"#6b7260\">5</text><text x=\"270.0\" y=\"285.0\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"9.5\" fill=\"#6b7260\">6</text><text x=\"20.0\" y=\"34.0\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"9.5\" fill=\"#6b7260\">6</text><line x1=\"150.0\" y1=\"70.0\" x2=\"150.0\" y2=\"270\" stroke=\"#c17f2b\" stroke-width=\"1.2\" stroke-dasharray=\"3 3\"/><line x1=\"150.0\" y1=\"70.0\" x2=\"30\" y2=\"70.0\" stroke=\"#c17f2b\" stroke-width=\"1.2\" stroke-dasharray=\"3 3\"/><circle cx=\"150.0\" cy=\"70.0\" r=\"4\" fill=\"#2f5d50\"/><text x=\"170.0\" y=\"64.0\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"10.5\" font-weight=\"600\" fill=\"#2f5d50\">A(3, 5)</text></svg>",
-     "onderschrift": "Punt A: drie naar rechts en vijf omhoog. Het snijpunt van de twee assen heet de oorsprong en heeft coördinaten (0, 0)."
+     "onderschrift": "Punt \\(A\\): drie naar rechts en vijf omhoog. Het snijpunt van de twee assen heet de oorsprong en heeft coördinaten (\\(0\\), \\(0\\))."
     },
     {
      "soort": "kader",
-     "html": "Ligt een punt <strong>op de x-as</strong>, dan is zijn y-coördinaat 0. Ligt het op de y-as, dan is zijn x-coördinaat 0."
+     "html": "Ligt een punt <strong>op de x-as</strong>, dan is zijn y-coördinaat \\(0\\). Ligt het op de y-as, dan is zijn x-coördinaat \\(0\\)."
     }
    ]
   },
@@ -26,19 +26,19 @@
    "blokken": [
     {
      "soort": "tekst",
-     "html": "Een <strong>eenterm</strong> is een getal maal letters, zoals 5x³. De <strong>coëfficiënt</strong> is het getal vooraan (5), het <strong>lettergedeelte</strong> is x³, en de <strong>graad</strong> is de exponent (3). Een <strong>veelterm</strong> is een som van eentermen; haar graad is de hoogste die erin voorkomt, dus 3x² + 5x − 7 heeft graad <strong>2</strong>."
+     "html": "Een <strong>eenterm</strong> is een getal maal letters, zoals 5x^{3}. De <strong>coëfficiënt</strong> is het getal vooraan \\((5)\\), het <strong>lettergedeelte</strong> is x^{3}, en de <strong>graad</strong> is de exponent \\((3)\\). Een <strong>veelterm</strong> is een som van eentermen; haar graad is de hoogste die erin voorkomt, dus \\(3x^{2} + 5x - 7\\) heeft graad <strong>\\(2\\)</strong>."
     },
     {
      "soort": "tekst",
-     "html": "Optellen mag alleen bij <strong>gelijksoortige</strong> eentermen, dat zijn eentermen met hetzelfde lettergedeelte. 3x + 7x = 10x, en 4a + 3a − a = <strong>6a</strong>. Maar 3x + 3x² kan je niet samennemen, en 3x + 3y evenmin."
+     "html": "Optellen mag alleen bij <strong>gelijksoortige</strong> eentermen, dat zijn eentermen met hetzelfde lettergedeelte. \\(3x + 7x = 10x\\), en \\(4a + 3a - a\\) = <strong>6a</strong>. Maar \\(3x + 3x^{2}\\) kan je niet samennemen, en \\(3x + 3y\\) evenmin."
     },
     {
      "soort": "tekst",
-     "html": "Haakjes werk je weg met de distributieve eigenschap: 3(x + 2) = <strong>3x + 6</strong>. En 2(3x − 5) + 4x wordt 6x − 10 + 4x = <strong>10x − 10</strong>."
+     "html": "Haakjes werk je weg met de distributieve eigenschap: \\(3\\)\\((x + 2)\\) = <strong>\\(3x + 6\\)</strong>. En \\(2\\)\\((3x - 5) + 4x\\) wordt \\(6x - 10 + 4x\\) = <strong>\\(10x - 10\\)</strong>."
     },
     {
      "soort": "kader",
-     "html": "De <strong>getalwaarde</strong> krijg je door de letters te vervangen door getallen. x² − 3x bij x = 5 is 25 − 15 = <strong>10</strong>. En 2a − b bij a = 3 en b = −4 is 6 − (−4) = <strong>10</strong>: let op de twee mintekens."
+     "html": "De <strong>getalwaarde</strong> krijg je door de letters te vervangen door getallen. \\(x^{2} - 3x\\) bij \\(x = 5\\) is \\(25 - 15\\) = <strong>\\(10\\)</strong>. En \\(2a - b\\) bij \\(a = 3\\) en \\(b = -4\\) is \\(6 - (-4)\\) = <strong>\\(10\\)</strong>: let op de twee mintekens."
     }
    ]
   },
@@ -51,11 +51,11 @@
     },
     {
      "soort": "tekst",
-     "html": "<strong>(a + b)² = a² + 2ab + b²</strong>. De middelste term wordt het vaakst vergeten. Toets het met getallen: (2 + 3)² = 25, en 4 + 12 + 9 = 25. Klopt. Zo wordt (x + 4)² dus <strong>x² + 8x + 16</strong>."
+     "html": "<strong>\\((a + b)^{2} = a^{2} + 2ab + b^{2}\\)</strong>. De middelste term wordt het vaakst vergeten. Toets het met getallen: \\((2 + 3)^{2} = 25\\), en \\(4 + 12 + 9 = 25\\). Klopt. Zo wordt \\((x + 4)^{2}\\) dus <strong>\\(x^{2} + 8x + 16\\)</strong>."
     },
     {
      "soort": "tekst",
-     "html": "<strong>(a + b)(a − b) = a² − b²</strong>. Hier vallen de middelste termen juist weg, want −ab + ab = 0. Toets: 5 en 2 geeft 7 × 3 = 21, en 25 − 4 = 21."
+     "html": "<strong>\\((a + b)\\)\\((a - b) = a^{2} - b^{2}\\)</strong>. Hier vallen de middelste termen juist weg, want \\(-ab + ab = 0\\). Toets: \\(5\\) en \\(2\\) geeft \\(7 \\cdot 3 = 21\\), en \\(25 - 4 = 21\\)."
     },
     {
      "soort": "kader",
@@ -77,11 +77,11 @@
     },
     {
      "soort": "tekst",
-     "html": "Het onderscheid maak je met één blik op de tabel. Bij <strong>recht</strong> evenredig is het <strong>quotiënt</strong> telkens hetzelfde: bij 2 hoort 6, bij 4 hoort 12, bij 5 hoort 15, en 6 : 2 = 12 : 4 = 15 : 5 = 3. De formule is dan y = 3x, en die 3 heet de <strong>evenredigheidsfactor</strong>."
+     "html": "Het onderscheid maak je met één blik op de tabel. Bij <strong>recht</strong> evenredig is het <strong>quotiënt</strong> telkens hetzelfde: bij \\(2\\) hoort \\(6\\), bij \\(4\\) hoort \\(12\\), bij \\(5\\) hoort \\(15\\), en \\(6 : 2 = 12 : 4 = 15 : 5 = 3\\). De formule is dan \\(y = 3x\\), en die \\(3\\) heet de <strong>evenredigheidsfactor</strong>."
     },
     {
      "soort": "tekst",
-     "html": "Bij <strong>omgekeerd</strong> evenredig is het <strong>product</strong> telkens hetzelfde. Zes werklui doen een klus in 4 dagen, dus 6 × 4 = 24. Met twaalf werklui: 12 × ? = 24, dus <strong>2 dagen</strong>. De formule is y = 24 : x."
+     "html": "Bij <strong>omgekeerd</strong> evenredig is het <strong>product</strong> telkens hetzelfde. Zes werklui doen een klus in \\(4\\) dagen, dus \\(6 \\cdot 4 = 24\\). Met twaalf werklui: \\(12\\) · ? \\(= 24\\), dus <strong>\\(2\\) dagen</strong>. De formule is \\(y = 24 : x\\)."
     }
    ]
   },
@@ -94,7 +94,7 @@
     },
     {
      "soort": "tekst",
-     "html": "Vierkantjes van lucifers op een rij: één vierkant kost 4 lucifers, twee kosten er 7, drie kosten er 10. Er komt telkens <strong>3</strong> bij, want elk volgend vierkant deelt een zijde met het vorige. Bij n vierkantjes: <strong>3n + 1</strong>. Toets bij n = 3: 3 × 3 + 1 = 10."
+     "html": "Vierkantjes van lucifers op een rij: één vierkant kost \\(4\\) lucifers, twee kosten er \\(7\\), drie kosten er \\(10\\). Er komt telkens <strong>\\(3\\)</strong> bij, want elk volgend vierkant deelt een zijde met het vorige. Bij n vierkantjes: <strong>\\(3n + 1\\)</strong>. Toets bij \\(n = 3\\): \\(3 \\cdot 3 + 1 = 10\\)."
     },
     {
      "soort": "tekst",
@@ -102,7 +102,7 @@
     },
     {
      "soort": "tekst",
-     "html": "Let op wat voor soort rij het is. Bij 3, 7, 11, 15 komt er telkens 4 bij, dus het volgende is <strong>19</strong>. Bij 2, 4, 8, 16 wordt er telkens maal 2 gedaan, dus het volgende is <strong>32</strong> — dat groeit veel sneller."
+     "html": "Let op wat voor soort rij het is. Bij \\(3\\), \\(7\\), \\(11\\), \\(15\\) komt er telkens \\(4\\) bij, dus het volgende is <strong>\\(19\\)</strong>. Bij \\(2\\), \\(4\\), \\(8\\), \\(16\\) wordt er telkens maal \\(2\\) gedaan, dus het volgende is <strong>\\(32\\)</strong> — dat groeit veel sneller."
     }
    ]
   },
@@ -120,11 +120,11 @@
     },
     {
      "soort": "tekst",
-     "html": "Staat de x onder een deelteken, vermenigvuldig dan: uit x : 4 = 3 volgt x = 3 × 4 = <strong>12</strong>. Delen en vermenigvuldigen zijn elkaars omgekeerde, net als optellen en aftrekken."
+     "html": "Staat de x onder een deelteken, vermenigvuldig dan: uit \\(x : 4 = 3\\) volgt \\(x = 3 \\cdot 4\\) = <strong>\\(12\\)</strong>. Delen en vermenigvuldigen zijn elkaars omgekeerde, net als optellen en aftrekken."
     },
     {
      "soort": "tekst",
-     "html": "Staan er x'en aan beide kanten, breng ze dan eerst samen. 5x − 3 = 2x + 9 wordt 3x = 12, dus x = <strong>4</strong>. Staan er haakjes, dan kan je delen of uitwerken: 3(x − 2) = 15 geeft x − 2 = 5, dus x = <strong>7</strong>."
+     "html": "Staan er x'en aan beide kanten, breng ze dan eerst samen. \\(5x - 3 = 2x + 9\\) wordt \\(3x = 12\\), dus x = <strong>\\(4\\)</strong>. Staan er haakjes, dan kan je delen of uitwerken: \\(3\\)\\((x - 2) = 15\\) geeft \\(x - 2 = 5\\), dus x = <strong>\\(7\\)</strong>."
     },
     {
      "soort": "kader",
@@ -141,35 +141,35 @@
     },
     {
      "soort": "tekst",
-     "html": "Let op de woorden die een bewerking verbergen. Het <strong>dubbele</strong> van een getal is 2x, de helft is x : 2, en „vijf meer dan” is + 5. „Het dubbele van mijn getal plus 3 is 21” wordt dus <strong>2x + 3 = 21</strong>, en daaruit volgt x = 9."
+     "html": "Let op de woorden die een bewerking verbergen. Het <strong>dubbele</strong> van een getal is 2x, de helft is \\(x : 2\\), en „vijf meer dan” is \\(+ 5\\). „Het dubbele van mijn getal plus \\(3\\) is \\(21\\)” wordt dus <strong>\\(2x + 3 = 21\\)</strong>, en daaruit volgt \\(x = 9\\)."
     },
     {
      "soort": "tekst",
-     "html": "„Een taxi vraagt € 3 opstapgeld en € 2 per kilometer. Je betaalt € 19.” Noem het aantal kilometer x. Dan is de rit 3 + 2x, en dat is 19. Uit 2x = 16 volgt x = <strong>8 kilometer</strong>."
+     "html": "„Een taxi vraagt € \\(3\\) opstapgeld en € \\(2\\) per kilometer. Je betaalt € \\(19\\).” Noem het aantal kilometer x. Dan is de rit \\(3 + 2x\\), en dat is \\(19\\). Uit \\(2x = 16\\) volgt x = <strong>\\(8\\) kilometer</strong>."
     },
     {
      "soort": "tekst",
-     "html": "„De omtrek van een rechthoek is 26 cm en de lengte is 8 cm.” De omtrek is 2 × (lengte + breedte), dus 2(8 + b) = 26. Delen door 2 geeft 8 + b = 13, dus b = <strong>5 cm</strong>."
+     "html": "„De omtrek van een rechthoek is \\(26\\) cm en de lengte is \\(8\\) cm.” De omtrek is \\(2 \\cdot (\\text{lengte} + \\text{breedte})\\), dus \\(2\\)\\((8 + b) = 26\\). Delen door \\(2\\) geeft \\(8 + b = 13\\), dus b = <strong>\\(5\\) cm</strong>."
     },
     {
      "soort": "kader",
-     "html": "Formuleer op het einde een <strong>antwoord in woorden</strong>, met de eenheid erbij. „x = 8” is het halve werk; „de rit was 8 kilometer lang” is het antwoord op de vraag."
+     "html": "Formuleer op het einde een <strong>antwoord in woorden</strong>, met de eenheid erbij. „\\(x = 8\\)” is het halve werk; „de rit was \\(8\\) kilometer lang” is het antwoord op de vraag."
     }
    ]
   }
  ],
  "onthoud": [
-  "Coördinaten: eerst x (horizontaal), dan y (verticaal). De oorsprong is (0, 0).",
-  "Op de x-as is y = 0; op de y-as is x = 0.",
-  "In 5x³ is 5 de coëfficiënt, x³ het lettergedeelte en 3 de graad.",
-  "Optellen mag enkel bij gelijksoortige eentermen: 3x + 7x = 10x, maar 3x + 3x² niet.",
-  "(a + b)² = a² + 2ab + b². Vergeet de middelste term niet.",
-  "(a + b)(a − b) = a² − b². Daar valt de middelste term juist weg.",
+  "Coördinaten: eerst x (horizontaal), dan y (verticaal). De oorsprong is (\\(0\\), \\(0\\)).",
+  "Op de x-as is \\(y = 0\\); op de y-as is \\(x = 0\\).",
+  "In 5x^{3} is \\(5\\) de coëfficiënt, x^{3} het lettergedeelte en \\(3\\) de graad.",
+  "Optellen mag enkel bij gelijksoortige eentermen: \\(3x + 7x = 10x\\), maar \\(3x + 3x^{2}\\) niet.",
+  "\\((a + b)^{2} = a^{2} + 2ab + b^{2}\\). Vergeet de middelste term niet.",
+  "\\((a + b)\\)\\((a - b) = a^{2} - b^{2}\\). Daar valt de middelste term juist weg.",
   "Recht evenredig: het quotiënt blijft gelijk, grafiek is een rechte door de oorsprong.",
-  "Omgekeerd evenredig: het product blijft gelijk. 6 werklui × 4 dagen = 12 × 2.",
-  "Patroon: zoek wat er telkens bij komt, en wat er aan het begin staat. Lucifervierkantjes: 3n + 1.",
+  "Omgekeerd evenredig: het product blijft gelijk. \\(6\\,\\text{werklui} \\cdot 4\\) dagen \\(= 12 \\cdot 2\\).",
+  "Patroon: zoek wat er telkens bij komt, en wat er aan het begin staat. Lucifervierkantjes: \\(3n + 1\\).",
   "Per stuk denken geeft de formule: k koeien hebben 4k poten.",
-  "Het dubbele is 2x, de helft is x : 2. Uit x : 4 = 3 volgt x = 12.",
+  "Het dubbele is 2x, de helft is \\(x : 2\\). Uit \\(x : 4 = 3\\) volgt \\(x = 12\\).",
   "Wat je links van het gelijkheidsteken doet, doe je ook rechts.",
   "Controleer je oplossing door ze in te vullen, en antwoord met een zin en een eenheid."
  ]

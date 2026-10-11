@@ -85,7 +85,7 @@ DEEL1 = [
         vraag="Welk diagram past het best om te tonen welk deel van de klas met de fiets komt?",
         opties=["Een cirkeldiagram", "Een lijndiagram", "Geen van beide"],
         antwoord=0,
-        uitleg=r"Een cirkeldiagram toont hoe een geheel verdeeld is. De hele cirkel is samen \(100\) %, ofwel \(360^{\circ}\).",
+        uitleg=r"Een cirkeldiagram toont hoe een geheel verdeeld is. De hele cirkel is samen \(100\,\%\), ofwel \(360^{\circ}\).",
     ),
     dict(
         type="invultekst",
@@ -96,16 +96,16 @@ DEEL1 = [
     dict(
         type="meerkeuze",
         vraag=r"In een klas van \(25\) komen er \(10\) met de fiets. Hoeveel procent is dat?",
-        opties=[r"\(40\) %", r"\(25\) %", r"\(10\) %"],
+        opties=[r"\(40\,\%\)", r"\(25\,\%\)", r"\(10\,\%\)"],
         antwoord=0,
-        uitleg=r"\(10 : 25 = 0{,}40\), dus \(40\) %.",
+        uitleg=r"\(10 : 25 = 0{,}40\), dus \(40\,\%\).",
     ),
     dict(
         type="meerkeuze",
-        vraag=r"Een groep is \(20\) % van het geheel. Hoeveel graden krijgt die in een cirkeldiagram?",
+        vraag=r"Een groep is \(20\,\%\) van het geheel. Hoeveel graden krijgt die in een cirkeldiagram?",
         opties=[r"\(72^{\circ}\)", r"\(20^{\circ}\)", r"\(36^{\circ}\)"],
         antwoord=0,
-        uitleg=r"\(20\) % van \(360^{\circ} = 0{,}20 \cdot 360 = 72^{\circ}\).",
+        uitleg=r"\(20\,\%\) van \(360^{\circ} = 0{,}20 \cdot 360 = 72^{\circ}\).",
     ),
     dict(
         type="meerkeuze",
@@ -201,7 +201,7 @@ DEEL2 = [
         vraag=r"Een cirkeldiagram toont een sector van \(90^{\circ}\). Welk deel van het geheel is dat?",
         opties=["Een vierde", "Een derde", "Een negende"],
         antwoord=0,
-        uitleg=r"\(90 : 360 = 0{,}25\), dus een vierde ofwel \(25\) %.",
+        uitleg=r"\(90 : 360 = 0{,}25\), dus een vierde ofwel \(25\,\%\).",
     ),
     dict(
         type="meerkeuze",
@@ -292,7 +292,7 @@ DEEL2 = [
             "De variatiebreedte",
         ],
         antwoord=0,
-        uitleg=r"\(10\) van de \(20\) is meer dan \(12\) van de \(40\), ook al is \(12\) het grotere getal. Met procenten (\(50\) % tegenover \(30\) %) vergelijk je eerlijk.",
+        uitleg=r"\(10\) van de \(20\) is meer dan \(12\) van de \(40\), ook al is \(12\) het grotere getal. Met procenten (\(50\,\%\) tegenover \(30\,\%\)) vergelijk je eerlijk.",
     ),
     dict(
         type="meerkeuze",

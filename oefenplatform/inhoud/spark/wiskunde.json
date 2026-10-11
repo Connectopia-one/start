@@ -119,7 +119,7 @@
         },
         {
           "type": "meerkeuze",
-          "vraag": "Wat betekent \\(50\\) %?",
+          "vraag": "Wat betekent \\(50\\,\\%\\)?",
           "opties": [
             "De helft",
             "Een kwart",
@@ -132,55 +132,55 @@
           "type": "invultekst",
           "vraag": "Hoeveel procent is de helft?",
           "antwoord": "50",
-          "uitleg": "\\(\\tfrac{1}{2} = 0{,}5\\) en dat maal honderd is \\(50\\) %."
+          "uitleg": "\\(\\tfrac{1}{2} = 0{,}5\\) en dat maal honderd is \\(50\\,\\%\\)."
         },
         {
           "type": "meerkeuze",
-          "vraag": "Hoeveel is \\(10\\) % van \\(80\\)?",
+          "vraag": "Hoeveel is \\(10\\,\\%\\) van \\(80\\)?",
           "opties": [
             "\\(8\\)",
             "\\(10\\)",
             "\\(18\\)"
           ],
           "antwoord": 0,
-          "uitleg": "\\(10\\) % is een tiende. Delen door \\(10\\) geeft \\(8\\)."
+          "uitleg": "\\(10\\,\\%\\) is een tiende. Delen door \\(10\\) geeft \\(8\\)."
         },
         {
           "type": "meerkeuze",
-          "vraag": "Hoeveel is \\(25\\) % van \\(60\\)?",
+          "vraag": "Hoeveel is \\(25\\,\\%\\) van \\(60\\)?",
           "opties": [
             "\\(15\\)",
             "\\(20\\)",
             "\\(25\\)"
           ],
           "antwoord": 0,
-          "uitleg": "\\(25\\) % is een kwart. \\(60 : 4 = 15\\)."
+          "uitleg": "\\(25\\,\\%\\) is een kwart. \\(60 : 4 = 15\\)."
         },
         {
           "type": "meerkeuze",
-          "vraag": "Een jas van € \\(60\\) krijgt \\(20\\) % korting. Wat betaal je?",
+          "vraag": "Een jas van € \\(60\\) krijgt \\(20\\,\\%\\) korting. Wat betaal je?",
           "opties": [
             "€ \\(48\\)",
             "€ \\(40\\)",
             "€ \\(52\\)"
           ],
           "antwoord": 0,
-          "uitleg": "\\(20\\) % van \\(60\\) is \\(12\\), dus je betaalt \\(60 - 12 = 48\\). Of meteen: \\(80\\) % van \\(60\\)."
+          "uitleg": "\\(20\\,\\%\\) van \\(60\\) is \\(12\\), dus je betaalt \\(60 - 12 = 48\\). Of meteen: \\(80\\,\\%\\) van \\(60\\)."
         },
         {
           "type": "meerkeuze",
           "vraag": "In een klas van \\(25\\) leerlingen dragen er \\(5\\) een bril. Hoeveel procent is dat?",
           "opties": [
-            "\\(20\\) %",
-            "\\(5\\) %",
-            "\\(25\\) %"
+            "\\(20\\,\\%\\)",
+            "\\(5\\,\\%\\)",
+            "\\(25\\,\\%\\)"
           ],
           "antwoord": 0,
-          "uitleg": "\\(5\\) van de \\(25\\) is \\(\\tfrac{1}{5}\\), en \\(\\tfrac{1}{5}\\) is \\(20\\) %. Even nagaan: \\(20\\) % van \\(25\\) is inderdaad \\(5\\)."
+          "uitleg": "\\(5\\) van de \\(25\\) is \\(\\tfrac{1}{5}\\), en \\(\\tfrac{1}{5}\\) is \\(20\\,\\%\\). Even nagaan: \\(20\\,\\%\\) van \\(25\\) is inderdaad \\(5\\)."
         },
         {
           "type": "waarofniet",
-          "vraag": "\\(30\\) % van \\(50\\) is hetzelfde als \\(50\\) % van \\(30\\).",
+          "vraag": "\\(30\\,\\%\\) van \\(50\\) is hetzelfde als \\(50\\,\\%\\) van \\(30\\).",
           "antwoord": true,
           "uitleg": "Ja, allebei \\(15\\). Handig om te weten: je mag de twee getallen omwisselen als dat makkelijker rekent."
         },
@@ -189,17 +189,17 @@
           "vraag": "Hieronder staat hetzelfde getal in drie schrijfwijzen — op één na. Welke hoort er niet bij?",
           "opties": [
             "\\(0{,}4\\)",
-            "\\(40\\) %",
+            "\\(40\\,\\%\\)",
             "\\(\\tfrac{1}{4}\\)"
           ],
           "antwoord": 2,
-          "uitleg": "\\(0{,}4\\) en \\(40\\) % zijn hetzelfde getal: \\(40\\) van de \\(100\\). \\(\\tfrac{1}{4}\\) is \\(0{,}25\\), dus \\(25\\) %."
+          "uitleg": "\\(0{,}4\\) en \\(40\\,\\%\\) zijn hetzelfde getal: \\(40\\) van de \\(100\\). \\(\\tfrac{1}{4}\\) is \\(0{,}25\\), dus \\(25\\,\\%\\)."
         },
         {
           "type": "invultekst",
           "vraag": "Hoeveel procent van een geheel is alles samen?",
           "antwoord": "100",
-          "uitleg": "Het volledige geheel is \\(100\\) %. Meer dan \\(100\\) % kan wel, maar dan is het meer dan het oorspronkelijke geheel."
+          "uitleg": "Het volledige geheel is \\(100\\,\\%\\). Meer dan \\(100\\,\\%\\) kan wel, maar dan is het meer dan het oorspronkelijke geheel."
         }
       ]
     },
@@ -232,7 +232,7 @@
         },
         {
           "type": "meerkeuze",
-          "vraag": "Hoeveel is (\\(-2\\))^{3}?",
+          "vraag": "Hoeveel is \\((-2)^{3}\\)?",
           "opties": [
             "\\(-8\\)",
             "\\(8\\)",
@@ -243,7 +243,7 @@
         },
         {
           "type": "meerkeuze",
-          "vraag": "Hoeveel is (\\(-2\\))^{4}?",
+          "vraag": "Hoeveel is \\((-2)^{4}\\)?",
           "opties": [
             "\\(16\\)",
             "\\(-16\\)",
@@ -293,40 +293,40 @@
         },
         {
           "type": "meerkeuze",
-          "vraag": "Hoeveel is \\(15\\) % van \\(200\\)?",
+          "vraag": "Hoeveel is \\(15\\,\\%\\) van \\(200\\)?",
           "opties": [
             "\\(30\\)",
             "\\(15\\)",
             "\\(3\\)"
           ],
           "antwoord": 0,
-          "uitleg": "\\(10\\) % is \\(20\\) en \\(5\\) % is \\(10\\), samen \\(30\\). Zo splits je een lastig percentage in makkelijke stukken."
+          "uitleg": "\\(10\\,\\%\\) is \\(20\\) en \\(5\\,\\%\\) is \\(10\\), samen \\(30\\). Zo splits je een lastig percentage in makkelijke stukken."
         },
         {
           "type": "meerkeuze",
-          "vraag": "Een spel kost € \\(48\\) na \\(20\\) % korting. Wat was de oorspronkelijke prijs?",
+          "vraag": "Een spel kost € \\(48\\) na \\(20\\,\\%\\) korting. Wat was de oorspronkelijke prijs?",
           "opties": [
             "€ \\(60\\)",
             "€ \\(57{,}60\\)",
             "€ \\(68\\)"
           ],
           "antwoord": 0,
-          "uitleg": "\\(48\\) is \\(80\\) % van de prijs. Dus \\(1\\) % is \\(0{,}60\\) en \\(100\\) % is \\(60\\). Let op: \\(20\\) % bij \\(48\\) optellen geeft het verkeerde antwoord."
+          "uitleg": "\\(48\\) is \\(80\\,\\%\\) van de prijs. Dus \\(1\\,\\%\\) is \\(0{,}60\\) en \\(100\\,\\%\\) is \\(60\\). Let op: \\(20\\,\\%\\) bij \\(48\\) optellen geeft het verkeerde antwoord."
         },
         {
           "type": "meerkeuze",
-          "vraag": "Een trui van € \\(40\\) gaat eerst \\(10\\) % omhoog en daarna \\(10\\) % omlaag. Wat kost hij dan?",
+          "vraag": "Een trui van € \\(40\\) gaat eerst \\(10\\,\\%\\) omhoog en daarna \\(10\\,\\%\\) omlaag. Wat kost hij dan?",
           "opties": [
             "€ \\(39{,}60\\)",
             "€ \\(40\\)",
             "€ \\(39\\)"
           ],
           "antwoord": 0,
-          "uitleg": "Eerst \\(44\\), dan \\(10\\) % van \\(44\\) eraf, dat is \\(4{,}40\\). Je komt uit op \\(39{,}60\\) — de tweede korting rekent op een groter bedrag."
+          "uitleg": "Eerst \\(44\\), dan \\(10\\,\\%\\) van \\(44\\) eraf, dat is \\(4{,}40\\). Je komt uit op \\(39{,}60\\) — de tweede korting rekent op een groter bedrag."
         },
         {
           "type": "waarofniet",
-          "vraag": "Als iets eerst \\(50\\) % duurder wordt en daarna \\(50\\) % goedkoper, kost het weer evenveel.",
+          "vraag": "Als iets eerst \\(50\\,\\%\\) duurder wordt en daarna \\(50\\,\\%\\) goedkoper, kost het weer evenveel.",
           "antwoord": false,
           "uitleg": "Nee. € \\(100\\) wordt € \\(150\\), en de helft daarvan is € \\(75\\). Procenten rekenen altijd op de laatste waarde."
         },
@@ -334,12 +334,12 @@
           "type": "meerkeuze",
           "vraag": "Van \\(40\\) naar \\(50\\) gaan: hoeveel procent stijging is dat?",
           "opties": [
-            "\\(25\\) %",
-            "\\(10\\) %",
-            "\\(20\\) %"
+            "\\(25\\,\\%\\)",
+            "\\(10\\,\\%\\)",
+            "\\(20\\,\\%\\)"
           ],
           "antwoord": 0,
-          "uitleg": "De stijging is \\(10\\), en \\(10\\) op de oorspronkelijke \\(40\\) is \\(10 : 40 = 0{,}25\\), dus \\(25\\) %."
+          "uitleg": "De stijging is \\(10\\), en \\(10\\) op de oorspronkelijke \\(40\\) is \\(10 : 40 = 0{,}25\\), dus \\(25\\,\\%\\)."
         },
         {
           "type": "meerkeuze",
@@ -356,57 +356,57 @@
           "type": "invultekst",
           "vraag": "Hoeveel procent is \\(\\tfrac{3}{4}\\)?",
           "antwoord": "75",
-          "uitleg": "\\(3 : 4 = 0{,}75\\), en dat maal honderd is \\(75\\) %."
+          "uitleg": "\\(3 : 4 = 0{,}75\\), en dat maal honderd is \\(75\\,\\%\\)."
         },
         {
           "type": "meerkeuze",
-          "vraag": "Een fiets kost € \\(250\\). De prijs zakt met \\(12\\) %. Wat betaal je?",
+          "vraag": "Een fiets kost € \\(250\\). De prijs zakt met \\(12\\,\\%\\). Wat betaal je?",
           "opties": [
             "€ \\(220\\)",
             "€ \\(230\\)",
             "€ \\(238\\)"
           ],
           "antwoord": 0,
-          "uitleg": "\\(12\\) % van \\(250\\) is \\(30\\), dus \\(250 - 30 = 220\\). Sneller: \\(88\\) % van \\(250\\)."
+          "uitleg": "\\(12\\,\\%\\) van \\(250\\) is \\(30\\), dus \\(250 - 30 = 220\\). Sneller: \\(88\\,\\%\\) van \\(250\\)."
         },
         {
           "type": "meerkeuze",
-          "vraag": "Wat is \\(120\\) % van \\(50\\)?",
+          "vraag": "Wat is \\(120\\,\\%\\) van \\(50\\)?",
           "opties": [
             "\\(60\\)",
             "\\(70\\)",
             "\\(170\\)"
           ],
           "antwoord": 0,
-          "uitleg": "\\(100\\) % is \\(50\\) en \\(20\\) % is \\(10\\), samen \\(60\\). Meer dan \\(100\\) % betekent gewoon meer dan het geheel."
+          "uitleg": "\\(100\\,\\%\\) is \\(50\\) en \\(20\\,\\%\\) is \\(10\\), samen \\(60\\). Meer dan \\(100\\,\\%\\) betekent gewoon meer dan het geheel."
         },
         {
           "type": "meerkeuze",
-          "vraag": "In een klas zit \\(60\\) % meisjes, dat zijn er \\(15\\). Hoeveel leerlingen telt de klas?",
+          "vraag": "In een klas zit \\(60\\,\\%\\) meisjes, dat zijn er \\(15\\). Hoeveel leerlingen telt de klas?",
           "opties": [
             "\\(25\\)",
             "\\(9\\)",
             "\\(36\\)"
           ],
           "antwoord": 0,
-          "uitleg": "\\(60\\) % is \\(15\\), dus \\(1\\) % is \\(0{,}25\\) en \\(100\\) % is \\(25\\). Controle: \\(60\\) % van \\(25\\) is \\(15\\)."
+          "uitleg": "\\(60\\,\\%\\) is \\(15\\), dus \\(1\\,\\%\\) is \\(0{,}25\\) en \\(100\\,\\%\\) is \\(25\\). Controle: \\(60\\,\\%\\) van \\(25\\) is \\(15\\)."
         },
         {
           "type": "waarofniet",
-          "vraag": "Een korting van \\(25\\) % is hetzelfde als vermenigvuldigen met \\(0{,}75\\).",
+          "vraag": "Een korting van \\(25\\,\\%\\) is hetzelfde als vermenigvuldigen met \\(0{,}75\\).",
           "antwoord": true,
           "uitleg": "Ja, en dat is meteen de snelste manier: je rekent in één stap wat je nog betaalt."
         },
         {
           "type": "meerkeuze",
-          "vraag": "Twee winkels: de ene geeft \\(30\\) % korting op € \\(80\\), de andere € \\(25\\) korting op € \\(80\\). Waar betaal je het minst?",
+          "vraag": "Twee winkels: de ene geeft \\(30\\,\\%\\) korting op € \\(80\\), de andere € \\(25\\) korting op € \\(80\\). Waar betaal je het minst?",
           "opties": [
-            "Bij de winkel met \\(30\\) % korting",
+            "Bij de winkel met \\(30\\,\\%\\) korting",
             "Bij de winkel met € \\(25\\) korting",
             "Even duur"
           ],
           "antwoord": 1,
-          "uitleg": "\\(30\\) % van \\(80\\) is \\(24\\), dus daar betaal je \\(56\\). Bij de andere winkel betaal je \\(80 - 25 = 55\\). Die tweede is dus een euro goedkoper. Een percentage klinkt vaak voordeliger dan het is: reken het altijd even uit."
+          "uitleg": "\\(30\\,\\%\\) van \\(80\\) is \\(24\\), dus daar betaal je \\(56\\). Bij de andere winkel betaal je \\(80 - 25 = 55\\). Die tweede is dus een euro goedkoper. Een percentage klinkt vaak voordeliger dan het is: reken het altijd even uit."
         }
       ]
     },
@@ -686,7 +686,7 @@
         },
         {
           "type": "meerkeuze",
-          "vraag": "Hoeveel is (\\(2^{3}\\))^{2}?",
+          "vraag": "Hoeveel is \\((2^{3})^{2}\\)?",
           "opties": [
             "\\(2^{6}\\)",
             "\\(2^{5}\\)",
@@ -749,23 +749,23 @@
           "type": "meerkeuze",
           "vraag": "Hoeveel procent is \\(\\tfrac{3}{8}\\)?",
           "opties": [
-            "\\(37{,}5\\) %",
-            "\\(3{,}8\\) %",
-            "\\(26{,}7\\) %"
+            "\\(37{,}5\\,\\%\\)",
+            "\\(3{,}8\\,\\%\\)",
+            "\\(26{,}7\\,\\%\\)"
           ],
           "antwoord": 0,
-          "uitleg": "\\(3 : 8 = 0{,}375\\), en dat maal \\(100\\) is \\(37{,}5\\) %."
+          "uitleg": "\\(3 : 8 = 0{,}375\\), en dat maal \\(100\\) is \\(37{,}5\\,\\%\\)."
         },
         {
           "type": "meerkeuze",
-          "vraag": "Een trui kost € \\(40\\) en gaat \\(25\\) % in prijs omlaag. Wat betaal je?",
+          "vraag": "Een trui kost € \\(40\\) en gaat \\(25\\,\\%\\) in prijs omlaag. Wat betaal je?",
           "opties": [
             "€ \\(30\\)",
             "€ \\(25\\)",
             "€ \\(35\\)"
           ],
           "antwoord": 0,
-          "uitleg": "\\(25\\) % van \\(40\\) is \\(10\\), dus je betaalt \\(40 - 10 = 30\\). Je kan ook meteen \\(75\\) % van \\(40\\) rekenen."
+          "uitleg": "\\(25\\,\\%\\) van \\(40\\) is \\(10\\), dus je betaalt \\(40 - 10 = 30\\). Je kan ook meteen \\(75\\,\\%\\) van \\(40\\) rekenen."
         },
         {
           "type": "meerkeuze",
@@ -2984,7 +2984,7 @@
             "Geen van beide"
           ],
           "antwoord": 0,
-          "uitleg": "Een cirkeldiagram toont hoe een geheel verdeeld is. De hele cirkel is samen \\(100\\) %, ofwel \\(360^{\\circ}\\)."
+          "uitleg": "Een cirkeldiagram toont hoe een geheel verdeeld is. De hele cirkel is samen \\(100\\,\\%\\), ofwel \\(360^{\\circ}\\)."
         },
         {
           "type": "invultekst",
@@ -2996,23 +2996,23 @@
           "type": "meerkeuze",
           "vraag": "In een klas van \\(25\\) komen er \\(10\\) met de fiets. Hoeveel procent is dat?",
           "opties": [
-            "\\(40\\) %",
-            "\\(25\\) %",
-            "\\(10\\) %"
+            "\\(40\\,\\%\\)",
+            "\\(25\\,\\%\\)",
+            "\\(10\\,\\%\\)"
           ],
           "antwoord": 0,
-          "uitleg": "\\(10 : 25 = 0{,}40\\), dus \\(40\\) %."
+          "uitleg": "\\(10 : 25 = 0{,}40\\), dus \\(40\\,\\%\\)."
         },
         {
           "type": "meerkeuze",
-          "vraag": "Een groep is \\(20\\) % van het geheel. Hoeveel graden krijgt die in een cirkeldiagram?",
+          "vraag": "Een groep is \\(20\\,\\%\\) van het geheel. Hoeveel graden krijgt die in een cirkeldiagram?",
           "opties": [
             "\\(72^{\\circ}\\)",
             "\\(20^{\\circ}\\)",
             "\\(36^{\\circ}\\)"
           ],
           "antwoord": 0,
-          "uitleg": "\\(20\\) % van \\(360^{\\circ} = 0{,}20 \\cdot 360 = 72^{\\circ}\\)."
+          "uitleg": "\\(20\\,\\%\\) van \\(360^{\\circ} = 0{,}20 \\cdot 360 = 72^{\\circ}\\)."
         },
         {
           "type": "meerkeuze",
@@ -3152,7 +3152,7 @@
             "Een negende"
           ],
           "antwoord": 0,
-          "uitleg": "\\(90 : 360 = 0{,}25\\), dus een vierde ofwel \\(25\\) %."
+          "uitleg": "\\(90 : 360 = 0{,}25\\), dus een vierde ofwel \\(25\\,\\%\\)."
         },
         {
           "type": "meerkeuze",
@@ -3263,7 +3263,7 @@
             "De variatiebreedte"
           ],
           "antwoord": 0,
-          "uitleg": "\\(10\\) van de \\(20\\) is meer dan \\(12\\) van de \\(40\\), ook al is \\(12\\) het grotere getal. Met procenten (\\(50\\) % tegenover \\(30\\) %) vergelijk je eerlijk."
+          "uitleg": "\\(10\\) van de \\(20\\) is meer dan \\(12\\) van de \\(40\\), ook al is \\(12\\) het grotere getal. Met procenten (\\(50\\,\\%\\) tegenover \\(30\\,\\%\\)) vergelijk je eerlijk."
         },
         {
           "type": "meerkeuze",
