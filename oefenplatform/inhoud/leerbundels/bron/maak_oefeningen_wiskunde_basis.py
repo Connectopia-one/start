@@ -372,52 +372,105 @@ zet("redeneren-bewijzen-en-tegenvoorbeelden",
         dict(kop="Geef een tegenvoorbeeld",
              opdracht="Elke bewering hieronder is fout. Schrijf één tegenvoorbeeld op.",
              oefeningen=[
-                 ("rij", [("Elk priemgetal is oneven.", "2"),
-                          ("Als x² = 9, dan is x = 3.", "x = −3"),
+                 ("rij", [("Elk priemgetal is oneven.", "\\(2\\)"),
+                          ("Als \\(x^{2} = 9\\), dan is \\(x = 3\\).", "\\(x = -3\\)"),
                           ("Elke vierhoek met vier gelijke zijden is een vierkant.",
                            "een ruit die geen rechte hoeken heeft"),
-                          ("Als a &gt; b, dan is a² &gt; b².", "a = 1 en b = −2"),
-                          ("De som van twee oneven getallen is oneven.", "3 + 5 = 8"),
-                          ("Elk getal deelbaar door 3 is deelbaar door 9.", "6")],
-                  "Welk tegenvoorbeeld?", WW),
+                          ("Als \\(a > b\\), dan is \\(a^{2} > b^{2}\\).", "\\(a = 1\\) en \\(b = -2\\)"),
+                          ("De som van twee oneven getallen is oneven.", "\\(3 + 5 = 8\\)"),
+                          ("Elk getal deelbaar door \\(3\\) is deelbaar door \\(9\\).", "\\(6\\)")],
+                  "Tegenvoorbeeld", WW),
+             ]),
+        dict(kop="Nog meer tegenvoorbeelden",
+             opdracht="Ook deze beweringen zijn fout. Geef telkens één tegenvoorbeeld.",
+             oefeningen=[
+                 ("rij", [("\\(\\sqrt{a + b} = \\sqrt{a} + \\sqrt{b}\\)", "\\(a = 9\\), \\(b = 16\\)"),
+                          ("\\(a^{2} > 0\\) voor elke \\(a\\)", "\\(a = 0\\)"),
+                          ("\\(-a < 0\\) voor elke \\(a\\)", "\\(a = -3\\)"),
+                          ("Delen maakt altijd kleiner.", "\\(6 : \\frac{1}{2} = 12\\)")],
+                  "Nog eens", WW),
                  ("open", "Waarom volstaat één tegenvoorbeeld om een bewering te weerleggen, "
                           "terwijl honderd voorbeelden ze niet bewijzen?",
-                  "Een bewering met 'elk' of 'alle' zegt iets over alle gevallen. Eén geval dat "
-                  "niet klopt, maakt ze vals. Maar honderd kloppende gevallen zeggen niets over "
-                  "het honderdeneerste.", 4),
+                  "Een bewering met elk of alle zegt iets over alle gevallen. Eén geval dat niet klopt, "
+                  "maakt ze vals. Maar honderd kloppende gevallen zeggen niets over het honderdeneerste.", 4),
              ]),
         dict(kop="Een bewijs schrijven",
              opdracht="Schrijf het bewijs uit met tussenstappen.",
              oefeningen=[
                  ("open", "Bewijs dat de som van twee even getallen even is.",
-                  "Neem twee even getallen 2a en 2b met a en b geheel. De som is 2a + 2b = "
-                  "2(a + b). Omdat a + b geheel is, is de som een veelvoud van 2, dus even.", 4),
-                 ("open", "Bewijs dat het product van twee opeenvolgende gehele getallen even "
-                          "is.",
-                  "Van twee opeenvolgende getallen n en n+1 is er altijd één even. Een product "
-                  "met een even factor is even.", 3),
-                 ("open", "Bewijs dat (a + b)² = a² + 2ab + b².",
-                  "(a + b)² = (a + b)(a + b) = a·a + a·b + b·a + b·b = a² + ab + ab + b² = "
-                  "a² + 2ab + b².", 4),
+                  "Neem twee even getallen \\(2a\\) en \\(2b\\) met \\(a\\) en \\(b\\) geheel. De som is "
+                  "\\(2a + 2b = 2(a + b)\\). Omdat \\(a + b\\) geheel is, is de som een veelvoud van "
+                  "\\(2\\), dus even.", 4),
+                 ("open", "Bewijs dat het product van twee opeenvolgende gehele getallen even is.",
+                  "Van twee opeenvolgende getallen \\(n\\) en \\(n + 1\\) is er altijd één even. Een "
+                  "product met een even factor is even.", 3),
+             ]),
+        dict(kop="Nog een bewijs",
+             opdracht="Werk stap voor stap uit.",
+             oefeningen=[
+                 ("open", "Bewijs dat \\((a + b)^{2} = a^{2} + 2ab + b^{2}\\).",
+                  "\\((a + b)^{2} = (a + b)(a + b)\\). Haakjes uitwerken geeft "
+                  "\\(a \\cdot a + a \\cdot b + b \\cdot a + b \\cdot b\\), en samengenomen "
+                  "\\(a^{2} + 2ab + b^{2}\\).", 4),
+             ]),
+        dict(kop="Waarom mag die stap?",
+             opdracht="Noem de eigenschap waarop de stap steunt.",
+             oefeningen=[
+                 ("rij", [("van \\(x + 3 = 7\\) naar \\(x = 4\\)", "een eigenschap van gelijkheden"),
+                          ("van \\(3 \\cdot 7 + 3 \\cdot 3\\) naar \\(3 \\cdot 10\\)", "de distributiviteit"),
+                          ("van \\(2 \\cdot 5\\) naar \\(5 \\cdot 2\\)", "de commutativiteit"),
+                          ("van \\((2 + 3) + 4\\) naar \\(2 + (3 + 4)\\)", "de associativiteit")],
+                  "Eigenschap", WL),
+                 ("kort", "Hoeveel is \\(2 + 3 \\cdot 4\\)?", "\\(14\\)", W),
+                 ("open", "Waarom werk je in een bewijs met letters en niet met getallen?",
+                  "Met letters geldt je redenering voor elk getal. Met één paar getallen geldt ze alleen "
+                  "voor dat ene geval, en dat is geen bewijs.", 3),
+             ]),
+        dict(kop="Nodig of voldoende?",
+             opdracht="Schrijf op of de voorwaarde nodig, voldoende of allebei is.",
+             oefeningen=[
+                 ("rij", [("deelbaar zijn door \\(4\\) om even te zijn", "voldoende"),
+                          ("aanwezig zijn om te slagen", "nodig"),
+                          ("een vierkant zijn om een rechthoek te zijn", "voldoende"),
+                          ("even zijn om deelbaar te zijn door \\(2\\)", "nodig en voldoende")],
+                  "Soort", WW),
+                 ("open", "Bij welke logische bewerking is de voorwaarde zowel nodig als voldoende, "
+                          "en waarom?",
+                  "Bij de equivalentie \\(p \\Leftrightarrow q\\): de pijl gaat in beide richtingen, dus "
+                  "\\(p\\) volgt uit \\(q\\) en \\(q\\) volgt uit \\(p\\).", 3),
              ]),
         dict(kop="Soorten redeneren",
              opdracht="Schrijf op of het inductief of deductief is.",
              oefeningen=[
-                 ("rij", [("Ik tel de eerste tien priemgetallen en vermoed een patroon.",
-                           "inductief"),
-                          ("Alle vierkanten zijn rechthoeken, dit is een vierkant, dus het is "
-                           "een rechthoek.", "deductief"),
-                          ("Bij elke driehoek die ik meet komt 180° uit, dus dat zal altijd zo "
-                           "zijn.", "inductief"),
-                          ("Uit de stelling van Pythagoras volgt dat c = 5.", "deductief"),
-                          ("Deze vijf leerlingen zijn moe, dus de hele klas is moe.",
-                           "inductief"),
-                          ("x + 3 = 7, dus x = 4.", "deductief")],
-                  "Inductief of deductief?", WW),
+                 ("rij", [("Ik tel de eerste tien priemgetallen en vermoed een patroon.", "inductief"),
+                          ("Alle vierkanten zijn rechthoeken, dit is een vierkant, dus het is een "
+                           "rechthoek.", "deductief"),
+                          ("Bij elke driehoek die ik meet komt \\(180^{\circ}\\) uit, dus dat zal altijd "
+                           "zo zijn.", "inductief"),
+                          ("Uit de stelling van Pythagoras volgt dat \\(c = 5\\).", "deductief"),
+                          ("Deze vijf leerlingen zijn moe, dus de hele klas is moe.", "inductief"),
+                          ("\\(x + 3 = 7\\), dus \\(x = 4\\).", "deductief")],
+                  "Soort redenering", WW),
+             ]),
+        dict(kop="Inductief is geen bewijs",
+             opdracht="Schrijf je antwoord uit.",
+             oefeningen=[
                  ("open", "Waarom is een inductieve redenering in de wiskunde nooit een bewijs?",
-                  "Ze besluit uit een aantal gevallen iets over alle gevallen. Dat kan een goed "
-                  "vermoeden opleveren, maar zekerheid geeft alleen een deductief bewijs dat "
-                  "voor elk geval geldt.", 4),
+                  "Ze besluit uit een aantal gevallen iets over alle gevallen. Dat kan een goed vermoeden "
+                  "opleveren, maar zekerheid geeft alleen een deductief bewijs dat voor elk geval geldt.", 4),
+             ]),
+        dict(kop="Schaalverandering",
+             opdracht="Vul aan.",
+             oefeningen=[
+                 ("rij", [("de zijde van een vierkant gaat \\(\\times 3\\): de oppervlakte gaat", "\\(\\times 9\\)"),
+                          ("de ribbe van een kubus gaat \\(\\times 2\\): het volume gaat", "\\(\\times 8\\)"),
+                          ("de zijde gaat \\(\\times 2\\): de omtrek gaat", "\\(\\times 2\\)")],
+                  "Factor", W),
+                 ("open", "Iemand beweert dat een foto twee keer zo breed ook twee keer zoveel inkt "
+                          "kost. Weerleg dat met een berekening.",
+                  "Twee keer zo breed betekent meestal ook twee keer zo hoog, dus de oppervlakte gaat "
+                  "\\(\\times 2^{2} = 4\\). Een foto van \\(10 \\times 15\\) cm heeft \\(150\\) cm², een "
+                  "foto van \\(20 \\times 30\\) cm heeft \\(600\\) cm².", 3),
              ]),
     ])
 

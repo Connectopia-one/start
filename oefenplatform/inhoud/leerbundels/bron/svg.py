@@ -10144,3 +10144,49 @@ def waarheidstabel(breedte=470):
     d.append(f'<line x1="{12 + 2 * cel}" y1="0" x2="{12 + 2 * cel}" y2="{kop_h + 4 * rij_h}" '
              f'stroke="{DARK}" stroke-width="1.6"/>')
     return _svg(breedte, h, "".join(d))
+
+
+def schaalfactor(breedte=470):
+    """Wat er met oppervlakte en volume gebeurt als je de lengte verdubbelt.
+
+    Links twee vierkanten, rechts twee kubussen. De oppervlakte gaat maal het
+    kwadraat van de factor, het volume maal de derde macht. Dat is precies de
+    uitspraak die leerlingen het vaakst fout inschatten.
+    """
+    h = 232
+    d = []
+    # vierkanten
+    e = 26                                   # een lengte-eenheid in pixels
+    bx, by = 44, 150                         # linkeronderhoek van het grote vierkant
+    d.append(f'<rect x="{bx}" y="{by-4*e}" width="{4*e}" height="{4*e}" fill="{FOREST}" '
+             f'fill-opacity="0.12" stroke="{FOREST}" stroke-width="1.8"/>')
+    d.append(f'<rect x="{bx}" y="{by-2*e}" width="{2*e}" height="{2*e}" fill="{AMBER}" '
+             f'fill-opacity="0.22" stroke="{AMBER}" stroke-width="1.8"/>')
+    d.append(_tekst(bx + e, by - e + 4, "4", 12, AMBER, vet=True))
+    d.append(_tekst(bx + 3 * e, by - 3 * e + 4, "16", 12, FOREST, vet=True))
+    d.append(_tekst(bx + e, by + 16, "zijde 2", 9.5, AMBER))
+    d.append(_tekst(bx + 2 * e, by + 32, "zijde 4", 9.5, FOREST))
+    d.append(_tekst(bx + 2 * e, 28, "oppervlakte", 11, DARK, vet=True))
+    d.append(_tekst(bx + 2 * e, 44, "maal 4", 10, DIM))
+
+    # kubussen, als schuine doos
+    def kubus(x, y, s, kleur, vul):
+        dx, dy = s * 0.42, s * 0.42
+        p = [f'<rect x="{x}" y="{y-s}" width="{s}" height="{s}" fill="{kleur}" '
+             f'fill-opacity="{vul}" stroke="{kleur}" stroke-width="1.6"/>',
+             f'<polygon points="{x},{y-s} {x+dx},{y-s-dy} {x+s+dx},{y-s-dy} {x+s},{y-s}" '
+             f'fill="{kleur}" fill-opacity="{vul*0.6:.2f}" stroke="{kleur}" stroke-width="1.6"/>',
+             f'<polygon points="{x+s},{y-s} {x+s+dx},{y-s-dy} {x+s+dx},{y-dy} {x+s},{y}" '
+             f'fill="{kleur}" fill-opacity="{vul*0.35:.2f}" stroke="{kleur}" stroke-width="1.6"/>']
+        return "".join(p)
+
+    kx = 268
+    d.append(kubus(kx, by, 4 * e, FOREST, 0.12))
+    d.append(kubus(kx, by, 2 * e, AMBER, 0.22))
+    d.append(_tekst(kx + e, by - e + 4, "8", 12, AMBER, vet=True))
+    d.append(_tekst(kx + 3.2 * e, by - 3 * e + 4, "64", 12, FOREST, vet=True))
+    d.append(_tekst(kx + 2 * e, by + 32, "ribbe 2 en 4", 9.5, DIM))
+    d.append(_tekst(kx + 2 * e, 28, "volume", 11, DARK, vet=True))
+    d.append(_tekst(kx + 2 * e, 44, "maal 8", 10, DIM))
+
+    return _svg(breedte, h, "".join(d))

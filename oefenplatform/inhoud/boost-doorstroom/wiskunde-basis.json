@@ -1411,40 +1411,40 @@
         },
         {
           "type": "meerkeuze",
-          "vraag": "Wat is een tegenvoorbeeld voor: de wortel van een som is de som van de wortels?",
+          "vraag": "Wat is een tegenvoorbeeld voor \\(\\sqrt{a + b} = \\sqrt{a} + \\sqrt{b}\\)?",
           "opties": [
-            "de wortel van 9 plus 16",
-            "de wortel van 4 maal 9",
-            "de wortel van 25 alleen",
-            "de wortel van 1 alleen"
+            "\\(a = 9\\) en \\(b = 16\\)",
+            "\\(a = 4\\) en \\(b = 0\\)",
+            "\\(a = 25\\) en \\(b = 0\\)",
+            "\\(a = 1\\) en \\(b = 0\\)"
           ],
           "antwoord": 0,
-          "uitleg": "De wortel van 25 is 5, maar 3 plus 4 is 7. Dus de uitspraak is vals."
+          "uitleg": "\\(\\sqrt{25} = 5\\), maar \\(3 + 4 = 7\\). Dus de uitspraak is vals. Bij \\(b = 0\\) klopt ze toevallig wel, dus die weerleggen niets."
         },
         {
           "type": "meerkeuze",
           "vraag": "Welke uitspraken zijn vals?",
           "opties": [
-            "elk kwadraat is positief",
-            "min a is altijd negatief",
+            "\\(a^{2} > 0\\) voor elke \\(a\\)",
+            "\\(-a < 0\\) voor elke \\(a\\)",
             "delen maakt altijd kleiner",
-            "een kwadraat is nooit negatief"
+            "\\(a^{2} \\geq 0\\) voor elke \\(a\\)"
           ],
           "antwoord": [
             0,
             1,
             2
           ],
-          "uitleg": "Nul in het kwadraat is nul, min a met a negatief is positief, en delen door een half maakt groter. De laatste uitspraak is wel waar."
+          "uitleg": "\\(0^{2} = 0\\), \\(-a\\) is positief als \\(a\\) negatief is, en delen door \\(\\frac{1}{2}\\) maakt groter. De laatste uitspraak is wel waar."
         },
         {
           "type": "invultekst",
-          "vraag": "Welk getal is een tegenvoorbeeld voor: elk kwadraat is groter dan nul? Een getal.",
+          "vraag": "Welk getal is een tegenvoorbeeld voor \\(a^{2} > 0\\)? Een getal.",
           "antwoord": [
             "0",
             "nul"
           ],
-          "uitleg": "Nul in het kwadraat is nul, en dat is niet groter dan nul."
+          "uitleg": "\\(0^{2} = 0\\), en dat is niet groter dan nul."
         },
         {
           "type": "waarofniet",
@@ -1502,10 +1502,10 @@
           "type": "meerkeuze",
           "vraag": "Welke symbolen vraagt de vakfiche te gebruiken?",
           "opties": [
-            "en, of, niet",
-            "de pijl voor impliceert",
-            "de dubbele pijl",
-            "het sommatieteken"
+            "\\(\\wedge\\), \\(\\vee\\), \\(\\neg\\)",
+            "\\(\\Rightarrow\\)",
+            "\\(\\Leftrightarrow\\)",
+            "\\(\\sum\\)"
           ],
           "antwoord": [
             0,
@@ -1516,12 +1516,12 @@
         },
         {
           "type": "invultekst",
-          "vraag": "Welk soort voorwaarde is deelbaar zijn door 4 om even te zijn? Eén woord.",
+          "vraag": "Welk soort voorwaarde is deelbaar zijn door \\(4\\) om even te zijn? Eén woord.",
           "antwoord": [
             "voldoende",
             "voldoend"
           ],
-          "uitleg": "Voldoende maar niet nodig: 6 is even zonder door 4 deelbaar te zijn."
+          "uitleg": "Voldoende maar niet nodig: \\(6\\) is even zonder door \\(4\\) deelbaar te zijn."
         },
         {
           "type": "waarofniet",
@@ -1531,7 +1531,7 @@
         },
         {
           "type": "meerkeuze",
-          "vraag": "Iemand schrijft dat 2 plus 3 maal 4 gelijk is aan 20. Wat ging fout?",
+          "vraag": "Iemand schrijft \\(2 + 3 \\cdot 4 = 20\\). Wat ging fout?",
           "opties": [
             "de volgorde van bewerkingen",
             "de tekenregel",
@@ -1539,11 +1539,11 @@
             "de notatie van de wortel"
           ],
           "antwoord": 0,
-          "uitleg": "Eerst maal, dan plus: 3 maal 4 is 12, plus 2 is 14. Haakjes zouden 20 geven."
+          "uitleg": "Eerst maal, dan plus: \\(3 \\cdot 4 = 12\\) en \\(12 + 2 = 14\\). Met haakjes, \\((2 + 3) \\cdot 4\\), kom je wel op \\(20\\) uit."
         },
         {
           "type": "meerkeuze",
-          "vraag": "Wat betekent de kwantor voor elke?",
+          "vraag": "Wat betekent de kwantor \\(\\forall\\), voor elke?",
           "opties": [
             "de uitspraak geldt voor alle gevallen",
             "de uitspraak geldt voor één geval",
@@ -1555,7 +1555,7 @@
         },
         {
           "type": "meerkeuze",
-          "vraag": "Wat betekent de kwantor er bestaat?",
+          "vraag": "Wat betekent de kwantor \\(\\exists\\), er bestaat?",
           "opties": [
             "er is minstens één geval",
             "er is precies één geval",
@@ -1567,21 +1567,21 @@
         },
         {
           "type": "waarofniet",
-          "vraag": "Om een er-bestaat-uitspraak te bewijzen volstaat één voorbeeld.",
+          "vraag": "Om een \\(\\exists\\)-uitspraak te bewijzen volstaat één voorbeeld.",
           "antwoord": true,
-          "uitleg": "Precies omgekeerd aan voor elke: daar volstaat één tegenvoorbeeld om te weerleggen."
+          "uitleg": "Precies omgekeerd aan \\(\\forall\\): daar volstaat één tegenvoorbeeld om te weerleggen."
         },
         {
           "type": "meerkeuze",
           "vraag": "Welke uitspraak over schaalverandering is fout?",
           "opties": [
-            "dubbele lengte geeft dubbele oppervlakte",
-            "dubbele lengte geeft vier keer de oppervlakte",
-            "dubbele lengte geeft acht keer het volume",
-            "dubbele lengte geeft dubbele omtrek"
+            "lengte \\(\\times 2\\) geeft oppervlakte \\(\\times 2\\)",
+            "lengte \\(\\times 2\\) geeft oppervlakte \\(\\times 4\\)",
+            "lengte \\(\\times 2\\) geeft volume \\(\\times 8\\)",
+            "lengte \\(\\times 2\\) geeft omtrek \\(\\times 2\\)"
           ],
           "antwoord": 0,
-          "uitleg": "De oppervlakte gaat met het kwadraat van de factor, dus vier keer. Dit is het soort uitspraak dat de fiche laat weerleggen."
+          "uitleg": "De oppervlakte gaat met het kwadraat van de factor: \\(2^{2} = 4\\). Dit is het soort uitspraak dat de fiche laat weerleggen."
         }
       ]
     },
@@ -1643,7 +1643,7 @@
         },
         {
           "type": "meerkeuze",
-          "vraag": "Welke eigenschap gebruik je om bij een vergelijking aan beide kanten 3 af te trekken?",
+          "vraag": "Welke eigenschap gebruik je om bij \\(x + 3 = 7\\) aan beide kanten \\(3\\) af te trekken?",
           "opties": [
             "een eigenschap van gelijkheden",
             "de tekenregel van de bewerkingen",
@@ -1745,7 +1745,7 @@
         },
         {
           "type": "waarofniet",
-          "vraag": "De dubbele pijl moet je volgens de vakfiche systematisch gebruiken bij het oplossen van vergelijkingen.",
+          "vraag": "De dubbele pijl \\(\\Leftrightarrow\\) moet je volgens de vakfiche systematisch gebruiken bij het oplossen van vergelijkingen.",
           "antwoord": false,
           "uitleg": "De fiche zegt het omgekeerde: dat is niet nodig. De symbolen moeten wel correct zijn waar je ze gebruikt."
         },
@@ -1791,10 +1791,10 @@
           "type": "meerkeuze",
           "vraag": "Iemand zegt dat elke rechthoek een vierkant is. Welk tegenvoorbeeld werkt?",
           "opties": [
-            "een rechthoek van 2 bij 5",
-            "een vierkant van 3 bij 3",
+            "een rechthoek van \\(2 \\times 5\\)",
+            "een vierkant van \\(3 \\times 3\\)",
             "een driehoek met drie zijden",
-            "een cirkel met straal 1"
+            "een cirkel met straal \\(1\\)"
           ],
           "antwoord": 0,
           "uitleg": "Een rechthoek met ongelijke zijden is geen vierkant. Een goed tegenvoorbeeld hoort wel bij de uitspraak."

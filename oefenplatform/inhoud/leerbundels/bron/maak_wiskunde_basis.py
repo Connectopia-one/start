@@ -357,12 +357,18 @@ zet("redeneren-bewijzen-en-tegenvoorbeelden",
                   "dus een fout: <strong>misschien bestaat er een derde geval dat ze wel schendt</strong>."),
             ("p", "<strong>Een bewijs moet voor alle gevallen gelden, niet enkel voor je voorbeeld.</strong> "
                   "Daarom werk je <strong>met letters in plaats van met getallen</strong>: met a en b staat "
-                  "je redenering voor elk getal, met 3 en 5 enkel voor dat ene geval."),
-            ("p", "Dat loopt gelijk met de twee kwantoren. <strong>Voor elke</strong> betekent dat "
+                  "je redenering voor elk getal, met \\(3\\) en \\(5\\) enkel voor dat ene geval."),
+            ("p", "Dat loopt gelijk met de twee kwantoren. <strong>Voor elke, \\(\\forall\\),</strong> betekent dat "
                   "<strong>de uitspraak voor alle gevallen geldt</strong>, dus <strong>één tegenvoorbeeld "
-                  "maakt ze vals</strong>. <strong>Er bestaat</strong> betekent dat <strong>er minstens één "
+                  "maakt ze vals</strong>. <strong>Er bestaat, \\(\\exists\\),</strong> betekent dat <strong>er minstens één "
                   "geval is</strong>, dus <strong>om zo'n uitspraak te bewijzen volstaat één "
                   "voorbeeld</strong>."),
+            ("p", "Twee woorden keren bij elke redenering terug. Een <strong>nodige voorwaarde</strong> is "
+                  "er een waarzonder het besluit niet geldt: <strong>aanwezig zijn op het examen is nodig "
+                  "om te slagen</strong>, maar het is niet voldoende. Een <strong>voldoende "
+                  "voorwaarde</strong> is er een waarmee het besluit zeker geldt: <strong>deelbaar zijn "
+                  "door \\(4\\) is voldoende om even te zijn</strong>, maar niet nodig, want \\(6\\) is "
+                  "ook even."),
         ]),
         dict(kop="Het tegenvoorbeeld", blokken=[
             ("p", "<strong>Een foutieve wiskundige uitspraak weerleg je met een tegenvoorbeeld</strong>, en "
@@ -370,24 +376,26 @@ zet("redeneren-bewijzen-en-tegenvoorbeelden",
                   "zijn: <strong>een tegenvoorbeeld dat buiten de uitspraak valt, zegt niets over de "
                   "uitspraak</strong>. Een cirkel weerlegt niets over rechthoeken."),
             ("kader", tabel(["foutieve uitspraak", "tegenvoorbeeld", "waarom het werkt"],
-                            [["<strong>de wortel van een som is de som van de wortels</strong>",
-                              "<strong>de wortel van 9 plus 16</strong>", "de wortel van 25 is 5, maar 3 + 4 is 7"],
-                             ["<strong>elk kwadraat is groter dan nul</strong>", "<strong>het getal 0</strong>",
-                              "0² is 0, en dat is niet groter dan nul"],
-                             ["<strong>min a is altijd negatief</strong>", "a = min 3",
-                              "min (min 3) is 3, dus positief"],
-                             ["<strong>delen maakt altijd kleiner</strong>", "delen door een half",
-                              "6 gedeeld door een half is 12, dus groter"],
-                             ["<strong>elke rechthoek is een vierkant</strong>", "<strong>een rechthoek van 2 bij 5</strong>",
+                            [["<strong>\\(\\sqrt{a + b} = \\sqrt{a} + \\sqrt{b}\\)</strong>",
+                              "<strong>\\(a = 9\\) en \\(b = 16\\)</strong>", "\\(\\sqrt{25} = 5\\), maar \\(3 + 4 = 7\\)"],
+                             ["<strong>\\(a^{2} > 0\\) voor elke \\(a\\)</strong>", "<strong>\\(a = 0\\)</strong>",
+                              "\\(0^{2} = 0\\), en dat is niet groter dan nul"],
+                             ["<strong>\\(-a < 0\\) voor elke \\(a\\)</strong>", "\\(a = -3\\)",
+                              "\\(-(-3) = 3\\), dus positief"],
+                             ["<strong>delen maakt altijd kleiner</strong>", "delen door \\(\\frac{1}{2}\\)",
+                              "\\(6 : \\frac{1}{2} = 12\\), dus groter"],
+                             ["<strong>elke rechthoek is een vierkant</strong>", "<strong>een rechthoek van \\(2 \\times 5\\)</strong>",
                               "ongelijke zijden, dus geen vierkant"],
-                             ["<strong>dubbele lengte geeft dubbele oppervlakte</strong>", "een vierkant van 2 naar 4",
-                              "de oppervlakte gaat van 4 naar 16, dus <strong>vier keer zo groot</strong>: de oppervlakte volgt het kwadraat van de factor"]])),
+                             ["<strong>lengte \\(\\times 2\\) geeft oppervlakte \\(\\times 2\\)</strong>", "een vierkant van zijde \\(2\\) naar zijde \\(4\\)",
+                              "de oppervlakte gaat van \\(4\\) naar \\(16\\), dus <strong>vier keer zo groot</strong>: de oppervlakte volgt het kwadraat van de factor"]])),
+            ("fig", svg.schaalfactor(),
+             "de zijde verdubbelt; de oppervlakte gaat van 4 naar 16, het volume van 8 naar 64"),
             ("p", "De vakfiche laat je twee soorten fouten weerleggen: <strong>rekenregels die fout worden "
                   "toegepast</strong> en <strong>uitspraken over schaalverandering</strong>, dus "
-                  "<strong>allebei</strong>. Een klassieker van het eerste soort: wie schrijft dat 2 + 3 × 4 "
-                  "gelijk is aan 20, miste <strong>de volgorde van de bewerkingen</strong> — eerst maal, dan "
-                  "plus, dus 3 × 4 = 12 en daarbij 2 geeft <strong>14</strong>. Met haakjes zou er wel 20 "
-                  "staan."),
+                  "<strong>allebei</strong>. Een klassieker van het eerste soort: wie schrijft dat "
+                  "\\(2 + 3 \\cdot 4 = 20\\), miste <strong>de volgorde van de bewerkingen</strong> — eerst "
+                  "maal, dan plus, dus \\(3 \\cdot 4 = 12\\) en daarbij \\(2\\) geeft <strong>\\(14\\)</strong>. "
+                  "Met haakjes, \\((2 + 3) \\cdot 4\\), zou er wel \\(20\\) staan."),
         ]),
         dict(kop="Hoe een bewijs eruitziet", blokken=[
             ("p", "Drie stappen horen erbij: <strong>de gegevens benoemen</strong>, <strong>elke stap "
@@ -396,8 +404,8 @@ zet("redeneren-bewijzen-en-tegenvoorbeelden",
                   "herneem je wat je wou aantonen."),
             ("p", "Over bewijzen klopt dus: <strong>ze gelden voor alle gevallen</strong>, <strong>elke stap "
                   "wordt verantwoord</strong> en <strong>ze eindigen met een besluit</strong>."),
-            ("p", "Verantwoorden betekent zeggen waarom een stap mag. Trek je bij een vergelijking aan beide "
-                  "kanten 3 af, dan steun je op <strong>een eigenschap van gelijkheden</strong>: wat je links "
+            ("p", "Verantwoorden betekent zeggen waarom een stap mag. Trek je bij \\(x + 3 = 7\\) aan beide "
+                  "kanten \\(3\\) af, dan steun je op <strong>een eigenschap van gelijkheden</strong>: wat je links "
                   "doet, doe je rechts, en zo blijft de gelijkheid gelden. Wil je aantonen dat twee "
                   "driehoeken gelijkvormig zijn, dan wijs je <strong>een gelijkvormigheidskenmerk</strong> "
                   "aan: HH, ZHZ, ZZZ of het geval met een rechte hoek."),
@@ -416,9 +424,10 @@ zet("redeneren-bewijzen-en-tegenvoorbeelden",
                   "notatie van begrippen en symbolen bepaalt mee je resultaat</strong>."),
             ("p", "<strong>Een berekening uitschrijven met de juiste symbolen is dus zelf al een wiskundige "
                   "redenering</strong>; de fiche noemt dat uitdrukkelijk zo. Welke symbolen ze vraagt: "
-                  "<strong>en, of, niet</strong>, <strong>de pijl voor impliceert</strong> en <strong>de "
-                  "dubbele pijl</strong> voor de equivalentie, plus de twee kwantoren. Een sommatieteken "
-                  "staat er niet bij. <strong>De dubbele pijl moet je niet systematisch gebruiken bij het "
+                  "<strong>\\(\\wedge\\), \\(\\vee\\), \\(\\neg\\)</strong>, <strong>\\(\\Rightarrow\\)</strong> en "
+                  "<strong>\\(\\Leftrightarrow\\)</strong> voor de equivalentie, plus de twee kwantoren. Het "
+                  "sommatieteken \\(\\sum\\) staat er niet bij. <strong>De dubbele pijl moet je niet "
+                  "systematisch gebruiken bij het "
                   "oplossen van vergelijkingen</strong>; dat zegt de fiche zelf. Waar je de symbolen gebruikt, "
                   "moeten ze wel correct zijn."),
             ("kader", tabel(["bijlage", "mag mee op het examen"],
