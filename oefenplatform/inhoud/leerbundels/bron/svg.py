@@ -10109,3 +10109,38 @@ def intervallen(breedte=470):
         d.append(_tekst(xa, y + 20, "2", 10, DIM))
         d.append(_tekst(xb, y + 20, "5", 10, DIM))
     return _svg(breedte, h, "".join(d))
+
+
+def waarheidstabel(breedte=470):
+    """De vijf logische bewerkingen in één tabel van vier rijen.
+
+    W is waar, V is vals. Vier rijen, want twee uitspraken geven
+    2 × 2 = 4 combinaties.
+    """
+    koppen = ["p", "q", "¬p", "p ∧ q", "p ∨ q", "p ⇒ q", "p ⇔ q"]
+    rijen = [["W", "W", "V", "W", "W", "W", "W"],
+             ["W", "V", "V", "V", "W", "V", "V"],
+             ["V", "W", "W", "V", "W", "W", "V"],
+             ["V", "V", "W", "V", "V", "W", "W"]]
+    cel = (breedte - 24) / len(koppen)
+    kop_h, rij_h = 26, 26
+    h = kop_h + 4 * rij_h + 4
+    d = []
+    for j, k in enumerate(koppen):
+        x = 12 + j * cel
+        d.append(f'<rect x="{x}" y="0" width="{cel}" height="{kop_h}" fill="{FOREST}"/>')
+        d.append(_tekst(x + cel / 2, 18, k, 11, "#ffffff", vet=True))
+    for r, regel in enumerate(rijen):
+        y = kop_h + r * rij_h
+        for j, w in enumerate(regel):
+            x = 12 + j * cel
+            vul = "#ffffff" if r % 2 == 0 else "#f6f8f5"
+            d.append(f'<rect x="{x}" y="{y}" width="{cel}" height="{rij_h}" fill="{vul}" '
+                     f'stroke="{BORDER}" stroke-width="0.8"/>')
+            kleur = FOREST if w == "W" else DIM
+            vet = j >= 2
+            d.append(_tekst(x + cel / 2, y + 18, w, 11.5, kleur, vet=vet))
+        # de twee invoerkolommen staan apart van de vijf uitkomsten
+    d.append(f'<line x1="{12 + 2 * cel}" y1="0" x2="{12 + 2 * cel}" y2="{kop_h + 4 * rij_h}" '
+             f'stroke="{DARK}" stroke-width="1.6"/>')
+    return _svg(breedte, h, "".join(d))

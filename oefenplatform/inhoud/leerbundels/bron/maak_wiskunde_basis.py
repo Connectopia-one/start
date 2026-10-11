@@ -250,44 +250,45 @@ zet("getallen-ordenen-afronden-en-intervallen",
 # ───────────────────────── 3. Logica: bewerkingen en waarheidstabellen
 zet("logica-bewerkingen-en-waarheidstabellen",
     titel="Logica: bewerkingen en waarheidstabellen",
-    onder="De vijf logische bewerkingen, de waarheidstabel met haar rijen, tautologie en contradictie, de kwantoren en de logische poorten.",
+    onder="De vijf logische bewerkingen met hun symbolen, de waarheidstabel met haar rijen, tautologie en contradictie, de kwantoren en de logische poorten.",
     secties=[
         dict(kop="Uitspraken en bewerkingen", blokken=[
             ("p", "Een <strong>logische uitspraak</strong> is <strong>een bewering die waar of vals "
                   "is</strong>. Ze heeft precies <strong>twee</strong> mogelijke waarheidswaarden, en een "
                   "derde bestaat in deze logica niet. Een vraag of een bevel is dus geen uitspraak."),
-            ("p", "De vakfiche noemt <strong>vijf</strong> bewerkingen: <strong>negatie en "
-                  "conjunctie</strong>, <strong>disjunctie</strong>, <strong>implicatie en "
-                  "equivalentie</strong>. Substitutie is een methode bij stelsels en geen logische "
-                  "bewerking."),
-            ("kader", tabel(["bewerking", "het woord", "wanneer ze waar is"],
-                            [["<strong>de negatie</strong> (de ontkenning)", "niet",
+            ("p", "De vakfiche noemt <strong>vijf</strong> bewerkingen: <strong>negatie \\(\\neg\\) en "
+                  "conjunctie \\(\\wedge\\)</strong>, <strong>disjunctie \\(\\vee\\)</strong>, "
+                  "<strong>implicatie \\(\\Rightarrow\\) en equivalentie \\(\\Leftrightarrow\\)</strong>. "
+                  "Substitutie is een methode bij stelsels en geen logische bewerking."),
+            ("kader", tabel(["bewerking", "teken", "het woord", "wanneer ze waar is"],
+                            [["<strong>de negatie</strong> (de ontkenning)", "\\(\\neg p\\)", "niet",
                               "<strong>ze keert de waarheidswaarde om</strong>: was de uitspraak waar, dan is de negatie vals"],
-                             ["<strong>de conjunctie</strong>", "<strong>en</strong>",
+                             ["<strong>de conjunctie</strong>", "\\(p \\wedge q\\)", "<strong>en</strong>",
                               "<strong>als beide delen waar zijn</strong>; één vals deel maakt het geheel vals"],
-                             ["<strong>de disjunctie</strong>", "of",
+                             ["<strong>de disjunctie</strong>", "\\(p \\vee q\\)", "of",
                               "<strong>als minstens één deel waar is</strong>; <strong>ook als beide waar zijn</strong>"],
-                             ["<strong>de implicatie</strong>", "als … dan",
-                              "altijd, <strong>behalve als het eerste waar en het tweede vals is</strong>"],
-                             ["<strong>de equivalentie</strong>", "dan en slechts dan als",
+                             ["<strong>de implicatie</strong>", "\\(p \\Rightarrow q\\)", "als … dan",
+                              "altijd, <strong>behalve als \\(p\\) waar en \\(q\\) vals is</strong>"],
+                             ["<strong>de equivalentie</strong>", "\\(p \\Leftrightarrow q\\)", "dan en slechts dan als",
                               "<strong>als beide delen dezelfde waarde hebben</strong>: twee keer waar of twee keer vals"]])),
             ("p", "<strong>Het of van de logica sluit niet uit dat beide delen waar zijn.</strong> Daar "
                   "verschilt het van het of in de omgangstaal, waar men vaak een keuze bedoelt."),
             ("p", "Bij de implicatie zit nog een valstrik: <strong>een implicatie met een vals eerste deel "
                   "is niet vals maar juist waar</strong>. Als het regent, dan draag ik een jas — regent het "
                   "niet, dan is de belofte niet geschonden. Daar zit meteen het verschil met het als-dan van "
-                  "de omgangstaal: <strong>het logische als-dan zegt niets over een oorzaak</strong>."),
-            ("p", "Zo zet je een zin om in symbolen: <em>p is waar en q is vals</em> wordt <strong>p en de "
-                  "negatie van q</strong>."),
+                  "de omgangstaal: <strong>het logische \\(p \\Rightarrow q\\) zegt niets over een "
+                  "oorzaak</strong>."),
+            ("p", "Zo zet je een zin om in symbolen: <em>p is waar en q is vals</em> wordt "
+                  "<strong>\\(p \\wedge \\neg q\\)</strong>."),
         ]),
         dict(kop="Tautologie en contradictie", blokken=[
             ("p", "Een <strong>tautologie</strong> is <strong>een uitspraak die altijd waar is</strong>: "
                   "bij elke combinatie komt waar uit, dus haar kolom staat vol waar. Een "
                   "<strong>contradictie</strong> is het omgekeerde: <strong>altijd vals</strong>."),
-            ("p", "Tautologieën zijn bijvoorbeeld <strong>p of niet p</strong>, <strong>p impliceert "
-                  "p</strong> en <strong>p is equivalent met p</strong>. <strong>Dat het regent of niet "
-                  "regent, is dus geen contradictie maar een tautologie</strong>; een contradictie zou zijn: "
-                  "het regent én het regent niet."),
+            ("p", "Tautologieën zijn bijvoorbeeld <strong>\\(p \\vee \\neg p\\)</strong>, "
+                  "<strong>\\(p \\Rightarrow p\\)</strong> en <strong>\\(p \\Leftrightarrow p\\)</strong>. "
+                  "<strong>\\(p \\vee \\neg p\\) is dus geen contradictie maar een tautologie</strong>; een "
+                  "contradictie is \\(p \\wedge \\neg p\\): het regent én het regent niet."),
             ("p", "<strong>Je bewijst een tautologie met een tabel waarin alle rijen waar geven.</strong> "
                   "Eén rij met vals volstaat om haar te weerleggen."),
         ]),
@@ -296,41 +297,46 @@ zet("logica-bewerkingen-en-waarheidstabellen",
                             [["<strong>nodig</strong>", "<strong>zonder haar geldt het besluit niet</strong>",
                               "een cijfer halen is nodig om te slagen, maar niet voldoende"],
                              ["<strong>voldoende</strong>", "<strong>met haar geldt het besluit zeker</strong>",
-                              "<strong>deelbaar zijn door 4 is voldoende om even te zijn</strong>, maar niet nodig: 6 is ook even"]])),
+                              "<strong>deelbaar zijn door \\(4\\) is voldoende om even te zijn</strong>, maar niet nodig: \\(6\\) is ook even"]])),
             ("p", "<strong>Bij een equivalentie is de voorwaarde zowel nodig als voldoende</strong>: de pijl "
-                  "gaat in beide richtingen, en daarom staat de equivalentie voor <em>dan en slechts dan "
-                  "als</em>."),
-            ("p", "De vakfiche noemt <strong>twee</strong> kwantoren: <strong>voor elke</strong> en "
-                  "<strong>er bestaat</strong>. <em>Precies één</em> staat er niet bij. Let op het omkeren: "
-                  "<strong>de negatie van <em>elk getal is positief</em> is <em>er bestaat een getal dat niet "
-                  "positief is</em></strong>. Niet-voor-elke keert de kwantor om naar er-bestaat."),
+                  "gaat in beide richtingen, en daarom staat \\(p \\Leftrightarrow q\\) voor <em>dan en "
+                  "slechts dan als</em>."),
+            ("p", "De vakfiche noemt <strong>twee</strong> kwantoren: <strong>voor elke, \\(\\forall\\)</strong> "
+                  "en <strong>er bestaat, \\(\\exists\\)</strong>. <em>Er bestaat precies één</em>, "
+                  "\\(\\exists !\\), staat er niet bij. Let op het omkeren: <strong>de negatie van "
+                  "\\(\\forall x: x > 0\\) is \\(\\exists x: x \\leq 0\\)</strong>, dus er bestaat een getal "
+                  "dat niet positief is. Niet-voor-elke keert de kwantor om naar er-bestaat."),
         ]),
-        dict(kop="De waarheidstabel", blokken=[
+        dict(kop="De waarheidstabel opstellen", blokken=[
             ("p", "Elke extra uitspraak <strong>verdubbelt</strong> het aantal rijen, want elke uitspraak kan "
                   "waar of vals zijn."),
             ("kader", tabel(["aantal uitspraken", "aantal rijen", "rekenwijze"],
-                            [["twee", "<strong>vier</strong>", "2 × 2"],
-                             ["drie", "<strong>acht</strong>", "2 × 2 × 2"],
-                             ["vier", "<strong>16</strong>", "2⁴"]])),
-            ("p", "In een tabel met twee uitspraken is <strong>de conjunctie in één rij waar</strong> "
-                  "(alleen als beide waar zijn), <strong>de disjunctie in drie rijen</strong> (overal "
-                  "behalve waar beide vals zijn) en <strong>de implicatie ook in drie rijen</strong> (ze is "
-                  "enkel vals bij waar-dan-vals)."),
+                            [["twee", "<strong>\\(4\\)</strong>", "\\(2 \\cdot 2\\)"],
+                             ["drie", "<strong>\\(8\\)</strong>", "\\(2 \\cdot 2 \\cdot 2 = 2^{3}\\)"],
+                             ["vier", "<strong>\\(16\\)</strong>", "\\(2^{4}\\)"]])),
+            ("p", "In een tabel met twee uitspraken is <strong>\\(p \\wedge q\\) in één rij waar</strong> "
+                  "(alleen als beide waar zijn), <strong>\\(p \\vee q\\) in drie rijen</strong> (overal "
+                  "behalve waar beide vals zijn) en <strong>\\(p \\Rightarrow q\\) ook in drie rijen</strong> "
+                  "(ze is enkel vals bij waar-dan-vals)."),
+            ("fig", svg.waarheidstabel(),
+             "W is waar, V is vals; links de twee uitspraken, rechts wat de bewerkingen ermee doen"),
             ("p", "Het opstellen gaat in drie stappen: <strong>alle combinaties opschrijven</strong>, "
                   "<strong>de deeluitdrukkingen uitwerken</strong> en <strong>de eindkolom bepalen</strong>. "
                   "Over waarheidstabellen klopt: <strong>ze tonen alle gevallen</strong>, <strong>ze bewijzen "
                   "een tautologie</strong> en <strong>hun aantal rijen verdubbelt per uitspraak</strong>. Ze "
-                  "werken met waar en vals, of met 1 en 0 bij poorten, niet met gewone getallen."),
+                  "werken met waar en vals, of met \\(1\\) en \\(0\\) bij poorten, niet met gewone getallen."),
         ]),
         dict(kop="Logische poorten", blokken=[
             ("p", "<strong>De werking van een logische poort kan je wél in een waarheidstabel zetten</strong>, "
                   "en de vakfiche vraagt dat ook uitdrukkelijk."),
-            ("kader", tabel(["poort", "bij welke bewerking", "wanneer de uitgang 1 is"],
-                            [["<strong>de en-poort</strong>", "de conjunctie", "<strong>enkel als beide ingangen 1 zijn</strong>"],
-                             ["<strong>de of-poort</strong>", "<strong>de disjunctie</strong>", "zodra minstens één ingang 1 is"],
-                             ["<strong>de niet-poort</strong>", "de negatie", "<strong>ze keert het signaal om</strong>: een 1 wordt 0 en een 0 wordt 1"]])),
-            ("p", "<strong>Twee en-poorten op een rij geven 1 als alle ingangen 1 zijn</strong>, want elke "
-                  "en-poort eist dat al haar ingangen 1 zijn."),
+            ("fig", svg.poorten(),
+             "dezelfde drie bewerkingen, maar dan als schakeling"),
+            ("kader", tabel(["poort", "bij welke bewerking", "wanneer de uitgang \\(1\\) is"],
+                            [["<strong>de en-poort</strong>", "de conjunctie \\(\\wedge\\)", "<strong>enkel als beide ingangen \\(1\\) zijn</strong>"],
+                             ["<strong>de of-poort</strong>", "<strong>de disjunctie \\(\\vee\\)</strong>", "zodra minstens één ingang \\(1\\) is"],
+                             ["<strong>de niet-poort</strong>", "de negatie \\(\\neg\\)", "<strong>ze keert het signaal om</strong>: een \\(1\\) wordt \\(0\\) en een \\(0\\) wordt \\(1\\)"]])),
+            ("p", "<strong>Twee en-poorten op een rij geven \\(1\\) als alle ingangen \\(1\\) zijn</strong>, "
+                  "want elke en-poort eist dat al haar ingangen \\(1\\) zijn."),
             ("p", "Zo herken je ze in het echt. <strong>Een lamp die enkel brandt als twee schakelaars samen "
                   "aan staan, is een en-poort.</strong> <strong>Een lamp die brandt als minstens één "
                   "schakelaar aan staat, is dus geen en-poort maar een of-poort.</strong> En <strong>een "

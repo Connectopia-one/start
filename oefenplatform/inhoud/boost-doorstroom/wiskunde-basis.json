@@ -934,7 +934,7 @@
         },
         {
           "type": "meerkeuze",
-          "vraag": "Wat doet de negatie met een uitspraak?",
+          "vraag": "Wat doet de negatie \\(\\neg p\\) met een uitspraak?",
           "opties": [
             "ze keert de waarheidswaarde om",
             "ze laat de waarheidswaarde gelijk",
@@ -942,11 +942,11 @@
             "ze maakt de uitspraak vals"
           ],
           "antwoord": 0,
-          "uitleg": "Was de uitspraak waar, dan is de negatie vals, en omgekeerd."
+          "uitleg": "Was \\(p\\) waar, dan is \\(\\neg p\\) vals, en omgekeerd."
         },
         {
           "type": "invultekst",
-          "vraag": "Hoe noem je de bewerking die niet betekent? Eén woord.",
+          "vraag": "Hoe noem je de bewerking \\(\\neg p\\), die niet betekent? Eén woord.",
           "antwoord": [
             "negatie",
             "de negatie",
@@ -956,7 +956,7 @@
         },
         {
           "type": "meerkeuze",
-          "vraag": "Wanneer is een conjunctie waar?",
+          "vraag": "Wanneer is een conjunctie \\(p \\wedge q\\) waar?",
           "opties": [
             "als beide delen waar zijn",
             "als één deel waar is",
@@ -964,11 +964,11 @@
             "altijd"
           ],
           "antwoord": 0,
-          "uitleg": "De conjunctie is het en. Eén vals deel maakt het geheel vals."
+          "uitleg": "De conjunctie \\(\\wedge\\) is het en. Eén vals deel maakt het geheel vals."
         },
         {
           "type": "meerkeuze",
-          "vraag": "Wanneer is een disjunctie waar?",
+          "vraag": "Wanneer is een disjunctie \\(p \\vee q\\) waar?",
           "opties": [
             "als minstens één deel waar is",
             "als beide delen waar zijn",
@@ -976,11 +976,11 @@
             "als beide delen vals zijn"
           ],
           "antwoord": 0,
-          "uitleg": "De disjunctie is het of van de logica. Beide waar maakt ze ook waar, anders dan in de omgangstaal."
+          "uitleg": "De disjunctie \\(\\vee\\) is het of van de logica. Beide waar maakt ze ook waar, anders dan in de omgangstaal."
         },
         {
           "type": "waarofniet",
-          "vraag": "Het of van de logica sluit niet uit dat beide delen waar zijn.",
+          "vraag": "Het of van de logica, \\(\\vee\\), sluit niet uit dat beide delen waar zijn.",
           "antwoord": true,
           "uitleg": "Precies daar verschilt ze van het of in de omgangstaal, waar men vaak een keuze bedoelt."
         },
@@ -988,9 +988,9 @@
           "type": "meerkeuze",
           "vraag": "Welke bewerkingen noemt de vakfiche?",
           "opties": [
-            "negatie en conjunctie",
-            "disjunctie",
-            "implicatie en equivalentie",
+            "negatie \\(\\neg\\) en conjunctie \\(\\wedge\\)",
+            "disjunctie \\(\\vee\\)",
+            "implicatie \\(\\Rightarrow\\) en equivalentie \\(\\Leftrightarrow\\)",
             "substitutie"
           ],
           "antwoord": [
@@ -1002,39 +1002,39 @@
         },
         {
           "type": "invultekst",
-          "vraag": "Welke bewerking staat voor het woord en? Eén woord.",
+          "vraag": "Welke bewerking staat voor het woord en, dus voor \\(\\wedge\\)? Eén woord.",
           "antwoord": [
             "conjunctie",
             "de conjunctie"
           ],
-          "uitleg": "De conjunctie. Het of is de disjunctie."
+          "uitleg": "De conjunctie. Het of, \\(\\vee\\), is de disjunctie."
         },
         {
           "type": "meerkeuze",
-          "vraag": "Wanneer is een implicatie vals?",
+          "vraag": "Wanneer is een implicatie \\(p \\Rightarrow q\\) vals?",
           "opties": [
-            "als het eerste waar en het tweede vals is",
-            "als beide delen van de uitspraak vals zijn",
-            "als beide delen van de uitspraak waar zijn",
-            "als het eerste deel van de uitspraak vals is"
+            "als \\(p\\) waar en \\(q\\) vals is",
+            "als \\(p\\) en \\(q\\) allebei vals zijn",
+            "als \\(p\\) en \\(q\\) allebei waar zijn",
+            "als \\(p\\) vals is"
           ],
           "antwoord": 0,
           "uitleg": "Alleen dat geval maakt een als-dan-uitspraak vals. In alle andere gevallen is ze waar."
         },
         {
           "type": "waarofniet",
-          "vraag": "Een implicatie met een vals eerste deel is altijd vals.",
+          "vraag": "Een implicatie \\(p \\Rightarrow q\\) met een vals eerste deel is altijd vals.",
           "antwoord": false,
           "uitleg": "Ze is dan juist waar. Als het regent, dan draag ik een jas: regent het niet, dan is de belofte niet geschonden."
         },
         {
           "type": "meerkeuze",
-          "vraag": "Wanneer is een equivalentie waar?",
+          "vraag": "Wanneer is een equivalentie \\(p \\Leftrightarrow q\\) waar?",
           "opties": [
             "als beide delen dezelfde waarde hebben",
-            "als beide delen van de uitspraak waar zijn",
-            "als beide delen van de uitspraak vals zijn",
-            "als precies één deel van de uitspraak waar is"
+            "als beide delen waar zijn",
+            "als beide delen vals zijn",
+            "als precies één deel waar is"
           ],
           "antwoord": 0,
           "uitleg": "Twee keer waar of twee keer vals maakt de equivalentie waar. Verschillen ze, dan is ze vals."
@@ -1062,18 +1062,18 @@
         },
         {
           "type": "waarofniet",
-          "vraag": "De uitspraak dat het regent of het niet regent, is een contradictie.",
+          "vraag": "De uitspraak \\(p \\vee \\neg p\\) is een contradictie.",
           "antwoord": false,
-          "uitleg": "Ze is altijd waar, dus een tautologie. Een contradictie zou zijn: het regent en het regent niet."
+          "uitleg": "Ze is altijd waar, dus een tautologie. Een contradictie is \\(p \\wedge \\neg p\\)."
         },
         {
           "type": "meerkeuze",
           "vraag": "Welke uitspraken zijn een tautologie?",
           "opties": [
-            "p of niet p",
-            "p impliceert p",
-            "p is equivalent met p",
-            "p en niet p"
+            "\\(p \\vee \\neg p\\)",
+            "\\(p \\Rightarrow p\\)",
+            "\\(p \\Leftrightarrow p\\)",
+            "\\(p \\wedge \\neg p\\)"
           ],
           "antwoord": [
             0,
@@ -1104,11 +1104,11 @@
             "ze doet niets ter zake"
           ],
           "antwoord": 0,
-          "uitleg": "Deelbaar zijn door 4 is voldoende om even te zijn, maar niet nodig: 6 is ook even."
+          "uitleg": "Deelbaar zijn door \\(4\\) is voldoende om even te zijn, maar niet nodig: \\(6\\) is ook even."
         },
         {
           "type": "waarofniet",
-          "vraag": "Bij een equivalentie is de voorwaarde zowel nodig als voldoende.",
+          "vraag": "Bij een equivalentie \\(p \\Leftrightarrow q\\) is de voorwaarde zowel nodig als voldoende.",
           "antwoord": true,
           "uitleg": "De pijl gaat in beide richtingen. Daarom staat de equivalentie voor dan en slechts dan als."
         },
@@ -1116,10 +1116,10 @@
           "type": "meerkeuze",
           "vraag": "Welke kwantoren noemt de vakfiche?",
           "opties": [
-            "voor elke",
-            "er bestaat",
+            "voor elke, \\(\\forall\\)",
+            "er bestaat, \\(\\exists\\)",
             "beide samen",
-            "er bestaat precies één"
+            "er bestaat precies één, \\(\\exists !\\)"
           ],
           "antwoord": [
             0,
@@ -1130,15 +1130,15 @@
         },
         {
           "type": "meerkeuze",
-          "vraag": "Wat is de negatie van: elk getal is positief?",
+          "vraag": "Wat is de negatie van \\(\\forall x: x > 0\\), dus van: elk getal is positief?",
           "opties": [
-            "er bestaat een getal dat niet positief is",
-            "elk getal is een negatief getal",
-            "geen enkel getal is een positief getal",
-            "elk getal is gelijk aan nul"
+            "\\(\\exists x: x \\leq 0\\)",
+            "\\(\\forall x: x < 0\\)",
+            "\\(\\forall x: x \\leq 0\\)",
+            "\\(\\forall x: x = 0\\)"
           ],
           "antwoord": 0,
-          "uitleg": "De negatie van voor elke is er bestaat minstens één tegenvoorbeeld. Niet voor elke keert de kwantor om."
+          "uitleg": "De negatie van \\(\\forall\\) is \\(\\exists\\) met het tegengestelde erachter: er bestaat minstens één tegenvoorbeeld."
         }
       ]
     },
@@ -1151,25 +1151,25 @@
           "type": "meerkeuze",
           "vraag": "Hoeveel rijen heeft een waarheidstabel met twee uitspraken?",
           "opties": [
-            "vier",
-            "twee in totaal",
-            "drie in totaal",
-            "acht in totaal"
+            "\\(4\\)",
+            "\\(2\\)",
+            "\\(3\\)",
+            "\\(8\\)"
           ],
           "antwoord": 0,
-          "uitleg": "Twee keuzes voor de eerste, twee voor de tweede: 2 maal 2 is 4 rijen."
+          "uitleg": "Twee keuzes voor de eerste, twee voor de tweede: \\(2 \\cdot 2 = 4\\) rijen."
         },
         {
           "type": "meerkeuze",
           "vraag": "Hoeveel rijen heeft een waarheidstabel met drie uitspraken?",
           "opties": [
-            "acht",
-            "zes in totaal",
-            "vier in totaal",
-            "negen in totaal"
+            "\\(8\\)",
+            "\\(6\\)",
+            "\\(4\\)",
+            "\\(9\\)"
           ],
           "antwoord": 0,
-          "uitleg": "2 maal 2 maal 2 is 8. Elke extra uitspraak verdubbelt het aantal rijen."
+          "uitleg": "\\(2^{3} = 8\\). Elke extra uitspraak verdubbelt het aantal rijen."
         },
         {
           "type": "invultekst",
@@ -1178,37 +1178,37 @@
             "16",
             "zestien"
           ],
-          "uitleg": "2 tot de vierde is 16. Elke uitspraak verdubbelt het aantal rijen."
+          "uitleg": "\\(2^{4} = 16\\). Elke uitspraak verdubbelt het aantal rijen."
         },
         {
           "type": "meerkeuze",
-          "vraag": "In hoeveel rijen van een tabel met twee uitspraken is de conjunctie waar?",
+          "vraag": "In hoeveel rijen van een tabel met twee uitspraken is \\(p \\wedge q\\) waar?",
           "opties": [
-            "in één rij",
-            "in twee rijen",
-            "in drie rijen",
-            "in vier rijen"
+            "\\(1\\)",
+            "\\(2\\)",
+            "\\(3\\)",
+            "\\(4\\)"
           ],
           "antwoord": 0,
           "uitleg": "Alleen als beide waar zijn. Dat is één van de vier rijen."
         },
         {
           "type": "meerkeuze",
-          "vraag": "In hoeveel rijen van een tabel met twee uitspraken is de disjunctie waar?",
+          "vraag": "In hoeveel rijen van een tabel met twee uitspraken is \\(p \\vee q\\) waar?",
           "opties": [
-            "in drie rijen",
-            "in één rij",
-            "in twee rijen",
-            "in vier rijen"
+            "\\(3\\)",
+            "\\(1\\)",
+            "\\(2\\)",
+            "\\(4\\)"
           ],
           "antwoord": 0,
           "uitleg": "In alle rijen behalve die waarin beide vals zijn. Dus drie van de vier."
         },
         {
           "type": "waarofniet",
-          "vraag": "In een tabel met twee uitspraken is de implicatie in drie rijen waar.",
+          "vraag": "In een tabel met twee uitspraken is \\(p \\Rightarrow q\\) in drie rijen waar.",
           "antwoord": true,
-          "uitleg": "Ze is enkel vals als het eerste waar en het tweede vals is. Dat is één rij van de vier."
+          "uitleg": "Ze is enkel vals als \\(p\\) waar en \\(q\\) vals is. Dat is één rij van de vier."
         },
         {
           "type": "meerkeuze",
@@ -1228,17 +1228,17 @@
         },
         {
           "type": "invultekst",
-          "vraag": "Welke logische poort geeft enkel 1 als beide ingangen 1 zijn? Eén woord.",
+          "vraag": "Welke logische poort geeft enkel \\(1\\) als beide ingangen \\(1\\) zijn? Eén woord.",
           "antwoord": [
             "en",
             "and",
             "en-poort"
           ],
-          "uitleg": "De en-poort, de schakeling die bij de conjunctie hoort."
+          "uitleg": "De en-poort, de schakeling die bij de conjunctie \\(\\wedge\\) hoort."
         },
         {
           "type": "meerkeuze",
-          "vraag": "Welke poort hoort bij de disjunctie?",
+          "vraag": "Welke poort hoort bij de disjunctie \\(\\vee\\)?",
           "opties": [
             "de of-poort",
             "de en-poort",
@@ -1246,7 +1246,7 @@
             "de nand-poort"
           ],
           "antwoord": 0,
-          "uitleg": "De of-poort geeft 1 zodra minstens één ingang 1 is."
+          "uitleg": "De of-poort geeft \\(1\\) zodra minstens één ingang \\(1\\) is."
         },
         {
           "type": "meerkeuze",
@@ -1258,7 +1258,7 @@
             "ze blokkeert het signaal"
           ],
           "antwoord": 0,
-          "uitleg": "Een 1 wordt 0 en een 0 wordt 1. Ze hoort bij de negatie."
+          "uitleg": "Een \\(1\\) wordt \\(0\\) en een \\(0\\) wordt \\(1\\). Ze hoort bij de negatie \\(\\neg\\)."
         },
         {
           "type": "waarofniet",
@@ -1268,15 +1268,15 @@
         },
         {
           "type": "meerkeuze",
-          "vraag": "Twee en-poorten op een rij. Wanneer is de uitgang 1?",
+          "vraag": "Twee en-poorten op een rij. Wanneer is de uitgang \\(1\\)?",
           "opties": [
-            "als alle ingangen 1 zijn",
-            "als één ingang 1 is",
-            "als alle ingangen 0 zijn",
+            "als alle ingangen \\(1\\) zijn",
+            "als één ingang \\(1\\) is",
+            "als alle ingangen \\(0\\) zijn",
             "altijd"
           ],
           "antwoord": 0,
-          "uitleg": "Elke en-poort eist dat al haar ingangen 1 zijn. Achter elkaar betekent dat alles 1 moet zijn."
+          "uitleg": "Elke en-poort eist dat al haar ingangen \\(1\\) zijn. Achter elkaar betekent dat alles \\(1\\) moet zijn."
         },
         {
           "type": "meerkeuze",
@@ -1288,7 +1288,7 @@
             "geen poort"
           ],
           "antwoord": 0,
-          "uitleg": "Beide moeten 1 zijn. Dat is de en-poort, dus de conjunctie."
+          "uitleg": "Beide moeten \\(1\\) zijn. Dat is de en-poort, dus de conjunctie \\(\\wedge\\)."
         },
         {
           "type": "waarofniet",
@@ -1298,15 +1298,15 @@
         },
         {
           "type": "meerkeuze",
-          "vraag": "Hoe zet je de uitspraak dat p waar is en q vals om in symbolen?",
+          "vraag": "Hoe zet je om in symbolen: \\(p\\) is waar en \\(q\\) is vals?",
           "opties": [
-            "p en de negatie van q",
-            "p of de negatie van q",
-            "de negatie van p en q",
-            "p impliceert q"
+            "\\(p \\wedge \\neg q\\)",
+            "\\(p \\vee \\neg q\\)",
+            "\\(\\neg p \\wedge q\\)",
+            "\\(p \\Rightarrow q\\)"
           ],
           "antwoord": 0,
-          "uitleg": "Vals zijn van q wordt de negatie van q, en het woord en wordt de conjunctie."
+          "uitleg": "Vals zijn van \\(q\\) wordt \\(\\neg q\\), en het woord en wordt \\(\\wedge\\)."
         },
         {
           "type": "invultekst",
@@ -1321,7 +1321,7 @@
           "type": "waarofniet",
           "vraag": "Een schakeling met drie ingangen vraagt een tabel van acht rijen.",
           "antwoord": true,
-          "uitleg": "2 tot de derde is 8. Elke ingang verdubbelt het aantal mogelijke combinaties."
+          "uitleg": "\\(2^{3} = 8\\). Elke ingang verdubbelt het aantal mogelijke combinaties."
         },
         {
           "type": "meerkeuze",
@@ -1337,7 +1337,7 @@
             1,
             2
           ],
-          "uitleg": "Een waarheidstabel werkt met waar en vals, of met 1 en 0 bij poorten, niet met gewone getallen."
+          "uitleg": "Een waarheidstabel werkt met waar en vals, of met \\(1\\) en \\(0\\) bij poorten, niet met gewone getallen."
         },
         {
           "type": "meerkeuze",
@@ -1353,7 +1353,7 @@
         },
         {
           "type": "meerkeuze",
-          "vraag": "Waarom verschilt het logische als-dan van dat in de omgangstaal?",
+          "vraag": "Waarom verschilt het logische \\(p \\Rightarrow q\\) van het als-dan uit de omgangstaal?",
           "opties": [
             "het zegt niets over een oorzaak",
             "het is altijd vals van waarde",
@@ -1361,7 +1361,7 @@
             "het heeft geen waarheidswaarde"
           ],
           "antwoord": 0,
-          "uitleg": "In de logica is een implicatie al waar zodra het eerste deel vals is, ook zonder enig verband tussen de twee."
+          "uitleg": "In de logica is \\(p \\Rightarrow q\\) al waar zodra \\(p\\) vals is, ook zonder enig verband tussen de twee."
         }
       ]
     },
