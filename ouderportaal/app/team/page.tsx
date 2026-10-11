@@ -17,9 +17,24 @@ export default async function TeamPage() {
       <main className="mx-auto w-full max-w-3xl flex-1 px-6 py-10">
         <h1 className="font-display text-2xl font-semibold text-ink">Team</h1>
         <p className="mt-1 text-sm text-ink-dim">
-          Foto&apos;s toevoegen per klasje, en de inlichtingenfiches van de kinderen bekijken.
-          Klasjes en lesmateriaal beheert enkel Kim.
+          De aanwezigheden aanduiden, foto&apos;s toevoegen per klasje, en de
+          inlichtingenfiches van de kinderen bekijken. Klasjes en lesmateriaal
+          beheert enkel Kim.
         </p>
+
+        <section className="mt-8">
+          <h2 className="font-display text-lg font-semibold text-ink">Aanwezigheden</h2>
+          <p className="mt-1 text-sm text-ink-dim">
+            Vink na een les of een kampdag aan wie er was. Daar komen de
+            aantallen van de facturen uit, dus het telt echt mee.
+          </p>
+          <Link
+            href="/team/aanwezigheden"
+            className="mt-3 inline-block rounded-md bg-forest px-3 py-2 text-sm font-medium text-white hover:bg-forest-dark"
+          >
+            Aanduiden &rarr;
+          </Link>
+        </section>
 
         <section className="mt-8">
           <h2 className="font-display text-lg font-semibold text-ink">Klasjes</h2>

@@ -193,13 +193,38 @@ export default async function BeheerPage({
             <p className="mt-3 text-sm text-ink-dim">
               Zet elke kampdag, les of werking erbij, duid bij een kind aan waar
               het bij hoort, en neem per activiteit een lijst mee met de
-              gegevens van de fiche.
+              gegevens van de fiche. Wie er was, vinken jij of een begeleider
+              per dag aan.
+            </p>
+            <div className="mt-4 flex flex-wrap gap-2">
+              <Link
+                href="/beheer/activiteiten"
+                className="inline-block rounded-md bg-forest px-3 py-2 text-sm font-medium text-white hover:bg-forest-dark"
+              >
+                Kampen en lessen &rarr;
+              </Link>
+              <Link
+                href="/team/aanwezigheden"
+                className="inline-block rounded-md border border-border px-3 py-2 text-sm font-medium text-ink hover:border-forest hover:text-forest-dark"
+              >
+                Aanwezigheden aanduiden
+              </Link>
+            </div>
+
+            <h2 className="mt-8 font-display text-lg font-semibold text-ink">
+              Facturen
+            </h2>
+            <p className="mt-3 text-sm text-ink-dim">
+              Per maand en per gezin wat er gevolgd is, geteld per
+              factuurregel: zo typ je het over in Billit. Wat er al cash of per
+              overschrijving betaald is, noteer je er ook, zodat je weet welke
+              factuur voldaan is.
             </p>
             <Link
-              href="/beheer/activiteiten"
+              href="/beheer/facturatie"
               className="mt-4 inline-block rounded-md bg-forest px-3 py-2 text-sm font-medium text-white hover:bg-forest-dark"
             >
-              Kampen en lessen &rarr;
+              Maandoverzicht &rarr;
             </Link>
 
             <h2 className="mt-8 font-display text-lg font-semibold text-ink">

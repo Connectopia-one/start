@@ -3,8 +3,11 @@ import { requireBeheerder } from "@/lib/auth";
 import { createAdminClient, tabelOntbreekt } from "@/lib/supabase/admin";
 import { Header } from "@/components/Header";
 import {
+  ACTIVITEITVELDEN,
   SOORTEN,
   datumTekst,
+  euro,
+  factuurLabel,
   sorteer,
   type Activiteit,
 } from "@/lib/activiteiten";
@@ -32,17 +35,26 @@ export default async function ActiviteitenBeheer({
 
   const db = createAdminClient();
   const [{ data, error }, { data: deelnames }] = await Promise.all([
-    db.from("activiteiten").select("id, naam, soort, datum, plaats, archief"),
-    db.from("deelnames").select("activiteit_id"),
+    db.from("activiteiten").select(ACTIVITEITVELDEN),
+    db.from("deelnames").select("activiteit_id, aanwezig"),
   ]);
 
   const activiteiten = sorteer((data ?? []) as Activiteit[]);
   const aantallen = new Map<string, number>();
-  for (const rij of (deelnames ?? []) as { activiteit_id: string }[]) {
+  const openVinkjes = new Map<string, number>();
+  for (const rij of (deelnames ?? []) as {
+    activiteit_id: string;
+    aanwezig: boolean | null;
+  }[]) {
     aantallen.set(
       rij.activiteit_id,
       (aantallen.get(rij.activiteit_id) ?? 0) + 1,
     );
+    if (rij.aanwezig === null)
+      openVinkjes.set(
+        rij.activiteit_id,
+        (openVinkjes.get(rij.activiteit_id) ?? 0) + 1,
+      );
   }
 
   /* Een leesfout mag niet stil blijven: zonder dit stond er gewoon "er staat
@@ -73,7 +85,11 @@ export default async function ActiviteitenBeheer({
         <p className="mt-1 text-sm text-ink-dim">
           Zet hier elke kampdag, les of werking die doorgaat. Daarna duid je bij
           een kind aan waar het bij hoort, en krijg je per activiteit een lijst
-          met de gegevens van de fiche.
+          met de gegevens van de fiche. Wie er was, vink je per dag aan; het{" "}
+          <a href="/beheer/facturatie" className="underline underline-offset-2">
+            maandoverzicht voor de facturen
+          </a>{" "}
+          telt die aanwezigheden samen.
         </p>
 
         {leesfout && (
@@ -142,6 +158,28 @@ export default async function ActiviteitenBeheer({
                   className="mt-1 w-full rounded-md border border-border bg-paper px-3 py-2 text-sm outline-none focus:border-forest focus:ring-1 focus:ring-forest"
                 />
               </label>
+              <label>
+                <span className="text-sm font-medium text-ink">
+                  Op de factuur <span className="text-ink-dim">(mag leeg)</span>
+                </span>
+                <input
+                  name="factuurregel"
+                  placeholder="Les Young Engineers"
+                  className="mt-1 w-full rounded-md border border-border bg-paper px-3 py-2 text-sm outline-none focus:border-forest focus:ring-1 focus:ring-forest"
+                />
+              </label>
+              <label>
+                <span className="text-sm font-medium text-ink">
+                  Prijs per kind{" "}
+                  <span className="text-ink-dim">(mag leeg)</span>
+                </span>
+                <input
+                  name="prijs"
+                  inputMode="decimal"
+                  placeholder="20"
+                  className="mt-1 w-full rounded-md border border-border bg-paper px-3 py-2 text-sm outline-none focus:border-forest focus:ring-1 focus:ring-forest"
+                />
+              </label>
               <div className="sm:col-span-2">
                 <button
                   type="submit"
@@ -170,6 +208,7 @@ export default async function ActiviteitenBeheer({
               key={activiteit.id}
               activiteit={activiteit}
               aantal={aantallen.get(activiteit.id) ?? 0}
+              open={openVinkjes.get(activiteit.id) ?? 0}
             />
           ))}
         </ul>
@@ -185,6 +224,7 @@ export default async function ActiviteitenBeheer({
                   key={activiteit.id}
                   activiteit={activiteit}
                   aantal={aantallen.get(activiteit.id) ?? 0}
+                  open={openVinkjes.get(activiteit.id) ?? 0}
                 />
               ))}
             </ul>
@@ -198,9 +238,11 @@ export default async function ActiviteitenBeheer({
 function Rij({
   activiteit,
   aantal,
+  open,
 }: {
   activiteit: Activiteit;
   aantal: number;
+  open: number;
 }) {
   const wanneer = datumTekst(activiteit.datum);
   return (
@@ -222,11 +264,22 @@ function Rij({
             {wanneer && ` · ${wanneer}`}
             {activiteit.plaats && ` · ${activiteit.plaats}`}
           </p>
+          <p className="mt-0.5 text-xs text-ink-dim">
+            {factuurLabel(activiteit)}
+            {activiteit.prijs !== null &&
+              ` · ${euro(Number(activiteit.prijs))} per kind`}
+            {!activiteit.datum && " · geen datum, valt in geen maand"}
+          </p>
         </div>
         <div className="flex flex-wrap items-center gap-2">
           <span className="rounded-full bg-forest/10 px-2.5 py-0.5 text-xs font-medium text-forest-dark">
             {aantal} {aantal === 1 ? "kind" : "kinderen"}
           </span>
+          {open > 0 && (
+            <span className="rounded-full bg-amber/15 px-2.5 py-0.5 text-xs font-medium text-ink">
+              {open} nog aan te duiden
+            </span>
+          )}
           <Link
             href={`/beheer/activiteiten/${activiteit.id}`}
             className="rounded-md bg-forest px-3 py-1.5 text-sm font-medium text-white hover:bg-forest-dark"

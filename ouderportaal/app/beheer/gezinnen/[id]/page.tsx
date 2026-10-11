@@ -68,7 +68,20 @@ export default async function GezinDetailPage({
         : Promise.resolve({ data: [] as { kind_id: string; activiteit_id: string }[] }),
     ]);
 
-  const activiteiten = sorteer((activiteitenData ?? []) as Activiteit[]);
+  /*
+    Enkel wat nu loopt, anders staat er na een maand wekelijkse lessen een
+    muur van vinkjes bij elk kind. Een dag van langer dan een week geleden
+    blijft bereikbaar: op het blad van die activiteit zelf staat een keuzelijst
+    om er een kind bij te zetten.
+  */
+  const grens = new Date(Date.now() - 7 * 24 * 60 * 60 * 1000)
+    .toISOString()
+    .slice(0, 10);
+  const activiteiten = sorteer(
+    ((activiteitenData ?? []) as Activiteit[]).filter(
+      (a) => !a.datum || a.datum >= grens,
+    ),
+  );
   const deelnamesPerKind = new Map<string, Set<string>>();
   for (const rij of (deelnamesData ?? []) as {
     kind_id: string;

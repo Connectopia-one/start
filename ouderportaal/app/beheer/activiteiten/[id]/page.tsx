@@ -4,16 +4,36 @@ import { requireBeheerder } from "@/lib/auth";
 import { createAdminClient } from "@/lib/supabase/admin";
 import { Header } from "@/components/Header";
 import { FicheRegels } from "@/components/FicheRegels";
+import { Aanwezigheid, AanwezigheidStand } from "@/components/Aanwezigheid";
 import { Kopieer } from "../../aanvragen/Kopieer";
 import { KINDVELDEN, samen, type Kind } from "@/lib/kind";
-import { datumTekst, leeftijd, type Activiteit } from "@/lib/activiteiten";
-import { bewaarNotitie, haalKindWeg, voegKindToe } from "../actions";
+import {
+  ACTIVITEITVELDEN,
+  datumTekst,
+  euro,
+  factuurLabel,
+  leeftijd,
+  type Activiteit,
+} from "@/lib/activiteiten";
+import { SOORTEN } from "@/lib/activiteiten";
+import {
+  alleAanwezig,
+  bewaarNotitie,
+  haalKindWeg,
+  herhaalActiviteit,
+  pasActiviteitAan,
+  voegKindToe,
+} from "../actions";
 
 export const dynamic = "force-dynamic";
 
 type Gezin = { id: string; full_name: string | null; telefoon: string | null };
 type KindRij = Kind & { profile_id: string };
-type Deelname = { kind_id: string; notitie: string | null };
+type Deelname = {
+  kind_id: string;
+  notitie: string | null;
+  aanwezig: boolean | null;
+};
 
 /*
   De lijst van één kamp, les of werking.
@@ -40,10 +60,13 @@ export default async function ActiviteitLijst({
     await Promise.all([
       db
         .from("activiteiten")
-        .select("id, naam, soort, datum, plaats, archief")
+        .select(ACTIVITEITVELDEN)
         .eq("id", id)
         .maybeSingle(),
-      db.from("deelnames").select("kind_id, notitie").eq("activiteit_id", id),
+      db
+        .from("deelnames")
+        .select("kind_id, notitie, aanwezig")
+        .eq("activiteit_id", id),
       db.from("kinderen").select(`${KINDVELDEN}, profile_id`).order("naam"),
     ]);
 
@@ -52,7 +75,7 @@ export default async function ActiviteitLijst({
 
   const deelnames = (deelnamesData ?? []) as Deelname[];
   const alleKinderen = (kinderenData ?? []) as unknown as KindRij[];
-  const notitieVan = new Map(deelnames.map((d) => [d.kind_id, d.notitie]));
+  const deelnameVan = new Map(deelnames.map((d) => [d.kind_id, d]));
 
   const { data: gezinnenData } = await db
     .from("profiles")
@@ -62,18 +85,33 @@ export default async function ActiviteitLijst({
   );
 
   const opDeLijst = alleKinderen
-    .filter((kind) => notitieVan.has(kind.id))
+    .filter((kind) => deelnameVan.has(kind.id))
     .sort((a, b) => a.naam.localeCompare(b.naam, "nl"));
-  const rest = alleKinderen.filter((kind) => !notitieVan.has(kind.id));
+  const rest = alleKinderen.filter((kind) => !deelnameVan.has(kind.id));
+
+  const aanwezigen = deelnames.filter((d) => d.aanwezig !== false).length;
+  const nietAangeduid = deelnames.filter((d) => d.aanwezig === null).length;
 
   /* De lijst als tabel met tabs ertussen, om in een rekenblad te plakken. */
   const tabel = [
-    ["Kind", "Leeftijd", "Gezin", "Telefoon", "Allergieën", "Medicatie", "Ophalen"].join(
-      "\t",
-    ),
+    [
+      "Kind",
+      "Aanwezig",
+      "Leeftijd",
+      "Gezin",
+      "Telefoon",
+      "Allergieën",
+      "Medicatie",
+      "Ophalen",
+    ].join("\t"),
     ...opDeLijst.map((kind) =>
       [
         kind.naam,
+        deelnameVan.get(kind.id)?.aanwezig === false
+          ? "afwezig"
+          : deelnameVan.get(kind.id)?.aanwezig === true
+            ? "aanwezig"
+            : "",
         leeftijd(kind.geboortedatum) ?? "",
         gezinnen.get(kind.profile_id)?.full_name ?? "",
         gezinnen.get(kind.profile_id)?.telefoon ?? "",
@@ -105,6 +143,19 @@ export default async function ActiviteitLijst({
           {wanneer && ` · ${wanneer}`}
           {kamp.plaats && ` · ${kamp.plaats}`}
           {` · ${opDeLijst.length} ${opDeLijst.length === 1 ? "kind" : "kinderen"}`}
+        </p>
+        <p className="mt-0.5 text-sm text-ink-dim">
+          Op de factuur: {factuurLabel(kamp)}
+          {kamp.prijs === null
+            ? " · geen prijs ingevuld"
+            : ` · ${euro(Number(kamp.prijs))} per kind`}
+          {opDeLijst.length > 0 && " · "}
+          {opDeLijst.length > 0 && (
+            <AanwezigheidStand
+              aanwezigen={aanwezigen}
+              nietAangeduid={nietAangeduid}
+            />
+          )}
         </p>
 
         {fout && (
@@ -177,11 +228,28 @@ export default async function ActiviteitLijst({
           </p>
         )}
 
+        {nietAangeduid > 0 && (
+          <form action={alleAanwezig} className="mt-5 print:hidden">
+            <input type="hidden" name="activiteit_id" value={kamp.id} />
+            <button
+              type="submit"
+              className="rounded-md border border-forest px-3 py-1.5 text-sm font-medium text-forest-dark hover:bg-forest/10"
+            >
+              Iedereen op aanwezig zetten
+            </button>
+            <p className="mt-1.5 text-xs text-ink-dim">
+              Daarna vink je enkel nog af wie er niet was. Wat niet aangeduid
+              is, telt op de factuur mee als aanwezig.
+            </p>
+          </form>
+        )}
+
         <ul className="mt-5 space-y-3">
           {opDeLijst.map((kind) => {
             const gezin = gezinnen.get(kind.profile_id);
             const jaar = leeftijd(kind.geboortedatum);
-            const notitie = notitieVan.get(kind.id) ?? "";
+            const deelname = deelnameVan.get(kind.id);
+            const notitie = deelname?.notitie ?? "";
             const leeg =
               !kind.allergieen && !kind.medicatie && !kind.noodcontact_telefoon;
             return (
@@ -204,7 +272,13 @@ export default async function ActiviteitLijst({
                         "gezin onbekend"}
                     </p>
                   </div>
-                  <div className="flex flex-wrap gap-2 print:hidden">
+                  <div className="flex flex-wrap items-center gap-2 print:hidden">
+                    <Aanwezigheid
+                      activiteitId={kamp.id}
+                      kindId={kind.id}
+                      waarde={deelname?.aanwezig ?? null}
+                      terug={`/beheer/activiteiten/${kamp.id}`}
+                    />
                     <Link
                       href={`/beheer/gezinnen/${kind.profile_id}`}
                       className="rounded-md border border-border px-3 py-1.5 text-sm text-ink hover:border-forest"
@@ -227,6 +301,12 @@ export default async function ActiviteitLijst({
                     </form>
                   </div>
                 </div>
+
+                {deelname?.aanwezig === false && (
+                  <p className="mt-1 text-xs font-medium text-danger">
+                    Afwezig: telt niet mee op de factuur.
+                  </p>
+                )}
 
                 {leeg ? (
                   <p className="mt-2 rounded-md bg-amber/10 px-3 py-2 text-xs text-ink">
@@ -304,6 +384,140 @@ export default async function ActiviteitLijst({
             );
           })}
         </ul>
+
+        {/* Twee dingen die je maar af en toe nodig hebt, dus dichtgeklapt: ze
+            horen niet in de weg te staan als je met de lijst in de zaal
+            staat. */}
+        <details className="mt-10 rounded-xl border border-border bg-surface p-5 print:hidden">
+          <summary className="cursor-pointer font-display text-base font-semibold text-ink">
+            Deze activiteit aanpassen
+          </summary>
+          <form
+            action={pasActiviteitAan}
+            className="mt-4 grid gap-3 sm:grid-cols-2"
+          >
+            <input type="hidden" name="id" value={kamp.id} />
+            <label className="sm:col-span-2">
+              <span className="text-sm font-medium text-ink">Naam</span>
+              <input
+                name="naam"
+                defaultValue={kamp.naam}
+                required
+                className="mt-1 w-full rounded-md border border-border bg-paper px-3 py-2 text-sm outline-none focus:border-forest focus:ring-1 focus:ring-forest"
+              />
+            </label>
+            <label>
+              <span className="text-sm font-medium text-ink">Soort</span>
+              <select
+                name="soort"
+                defaultValue={kamp.soort}
+                className="mt-1 w-full rounded-md border border-border bg-paper px-3 py-2 text-sm outline-none focus:border-forest focus:ring-1 focus:ring-forest"
+              >
+                {[...new Set([kamp.soort, ...SOORTEN])].map((soort) => (
+                  <option key={soort} value={soort}>
+                    {soort}
+                  </option>
+                ))}
+              </select>
+            </label>
+            <label>
+              <span className="text-sm font-medium text-ink">Datum</span>
+              <input
+                type="date"
+                name="datum"
+                defaultValue={kamp.datum ?? ""}
+                className="mt-1 w-full rounded-md border border-border bg-paper px-3 py-2 text-sm outline-none focus:border-forest focus:ring-1 focus:ring-forest"
+              />
+            </label>
+            <label className="sm:col-span-2">
+              <span className="text-sm font-medium text-ink">Plaats</span>
+              <input
+                name="plaats"
+                defaultValue={kamp.plaats ?? ""}
+                className="mt-1 w-full rounded-md border border-border bg-paper px-3 py-2 text-sm outline-none focus:border-forest focus:ring-1 focus:ring-forest"
+              />
+            </label>
+            <label>
+              <span className="text-sm font-medium text-ink">
+                Op de factuur
+              </span>
+              <input
+                name="factuurregel"
+                defaultValue={kamp.factuurregel ?? ""}
+                placeholder="Les Young Engineers"
+                className="mt-1 w-full rounded-md border border-border bg-paper px-3 py-2 text-sm outline-none focus:border-forest focus:ring-1 focus:ring-forest"
+              />
+            </label>
+            <label>
+              <span className="text-sm font-medium text-ink">
+                Prijs per kind
+              </span>
+              <input
+                name="prijs"
+                defaultValue={kamp.prijs === null ? "" : String(kamp.prijs)}
+                inputMode="decimal"
+                placeholder="20"
+                className="mt-1 w-full rounded-md border border-border bg-paper px-3 py-2 text-sm outline-none focus:border-forest focus:ring-1 focus:ring-forest"
+              />
+            </label>
+            <div className="sm:col-span-2">
+              <button
+                type="submit"
+                className="rounded-md bg-forest px-3 py-2 text-sm font-medium text-white hover:bg-forest-dark"
+              >
+                Bewaren
+              </button>
+              <p className="mt-1.5 text-xs text-ink-dim">
+                Alle dagen van dezelfde reeks horen dezelfde factuurregel te
+                hebben: op het maandoverzicht worden ze dan één regel met een
+                aantal ervoor.
+              </p>
+            </div>
+          </form>
+        </details>
+
+        <details className="mt-4 rounded-xl border border-border bg-surface p-5 print:hidden">
+          <summary className="cursor-pointer font-display text-base font-semibold text-ink">
+            Elke week herhalen
+          </summary>
+          <form action={herhaalActiviteit} className="mt-4 flex flex-wrap items-end gap-3">
+            <input type="hidden" name="id" value={kamp.id} />
+            <label>
+              <span className="text-sm font-medium text-ink">
+                Aantal weken erbij
+              </span>
+              <input
+                type="number"
+                name="keren"
+                min={1}
+                max={20}
+                defaultValue={4}
+                className="mt-1 w-24 rounded-md border border-border bg-paper px-3 py-2 text-sm outline-none focus:border-forest focus:ring-1 focus:ring-forest"
+              />
+            </label>
+            <label className="flex items-center gap-2 pb-2 text-sm text-ink">
+              <input
+                type="checkbox"
+                name="kinderen"
+                value="ja"
+                defaultChecked
+                className="h-4 w-4 rounded border-border text-forest focus:ring-forest"
+              />
+              Dezelfde kinderen mee overzetten
+            </label>
+            <button
+              type="submit"
+              className="rounded-md bg-forest px-3 py-2 text-sm font-medium text-white hover:bg-forest-dark"
+            >
+              Zetten
+            </button>
+          </form>
+          <p className="mt-2 text-xs text-ink-dim">
+            Maakt dezelfde dag telkens een week later, met dezelfde plaats,
+            factuurregel en prijs. Zo hoef je een wekelijkse les maar één keer
+            in te vullen en kan je per dag de aanwezigheden aanduiden.
+          </p>
+        </details>
       </main>
     </>
   );
