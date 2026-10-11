@@ -15,6 +15,31 @@ Het veld gaat niet mee naar de JSON.
 import re
 from fractions import Fraction as F
 
+# --- notatie weglezen --------------------------------------------------------
+# Sinds de vragen hun wiskunde in echte notatie schrijven (zie
+# oefenplatform/lib/wiskunde.ts) staat er in een optie niet "3/4" maar
+# "\(\tfrac{3}{4}\)". Alles wat hieronder een getal uit een tekst haalt, leest
+# eerst de notatie weg. Zo blijft het narekenen werken en mag een optie in het
+# bronbestand gewoon in echte notatie staan.
+
+_WEG = [
+    (re.compile(r"\\t?frac\{([^{}]*)\}\{([^{}]*)\}"), r"\1/\2"),
+    (re.compile(r"\\text\{([^{}]*)\}"), r"\1"),
+    (re.compile(r"\{,\}"), ","),
+    (re.compile(r"\\[()\[\]]"), ""),      # \( \) \[ \]
+    (re.compile(r"\\,"), " "),            # smalle ruimte: 10\,000, 2\,\tfrac{1}{4}
+    (re.compile(r"\\cdot"), "×"),
+    (re.compile(r"\\%"), "%"),
+    (re.compile(r"\s+"), " "),
+]
+
+
+def plat(tekst: str) -> str:
+    r"""Een optie of antwoord zonder notatie: "\(\tfrac{3}{4}\)" wordt "3/4"."""
+    for patroon, vervang in _WEG:
+        tekst = patroon.sub(vervang, tekst)
+    return tekst.strip()
+
 _MENG = re.compile(r"(\d+) (\d+)/(\d+)")
 _BREUK = re.compile(r"(\d+)/(\d+)")
 _KOMMA = re.compile(r"\d{1,3}(?: \d{3})+(?:,\d+)?|\d+(?:,\d+)?")
@@ -29,6 +54,7 @@ def g(tekst: str) -> F:
 
 def getal(tekst: str):
     """Het eerste getal in een tekst, als breuk. None als er geen is."""
+    tekst = plat(tekst)
     for patroon, maak in (
         (_MENG, lambda m: int(m[1]) + F(int(m[2]), int(m[3]))),
         (_BREUK, lambda m: F(int(m[1]), int(m[2]))),
@@ -67,7 +93,7 @@ _MAAT = re.compile(r"^\s*([\d ,/]+?)\s*(da|k|h|d|c|m)?(m|g|l)\s*$")
 
 def maat(tekst: str):
     """"1,2 m" → ("lengte", 6/5). Zo kan je maten van soorten vergelijken."""
-    m = _MAAT.match(tekst)
+    m = _MAAT.match(plat(tekst))
     if not m:
         raise ValueError(f"geen maat: {tekst!r}")
     return _GROND[m[3]], getal(m[1]) * _VOOR[m[2] or ""]
@@ -95,13 +121,13 @@ def enige(opties, klopt):
 
 def omzetting_klopt(tekst: str) -> bool:
     """"3,2 kg = 3200 g" → True."""
-    links, rechts = tekst.split("=")
+    links, rechts = plat(tekst).split("=")
     return maat(links) == maat(rechts)
 
 
 def som_klopt(tekst: str) -> bool:
     """"3,2 × 10 = 32", "45 : 100 = 0,45" of "1,6 + 0,45 = 2,05" → klopt het?"""
-    m = re.match(r"^\s*([\d ,]+?)\s*([×:+−-])\s*([\d ,]+?)\s*=\s*([\d ,]+?)\s*$", tekst)
+    m = re.match(r"^\s*([\d ,]+?)\s*([×:+−-])\s*([\d ,]+?)\s*=\s*([\d ,]+?)\s*$", plat(tekst))
     if not m:
         raise ValueError(f"geen som: {tekst!r}")
     a, b, c = g(m[1]), g(m[3]), g(m[4])
@@ -111,7 +137,7 @@ def som_klopt(tekst: str) -> bool:
 
 def stijgend(tekst: str) -> bool:
     """"0,2 · 1/2 · 0,7" → staan ze van klein naar groot?"""
-    waarden = [getal(d) for d in tekst.split("·")]
+    waarden = [getal(d) for d in plat(tekst).split("·")]
     return all(x < y for x, y in zip(waarden, waarden[1:]))
 
 

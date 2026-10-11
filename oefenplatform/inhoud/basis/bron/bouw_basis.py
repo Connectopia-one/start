@@ -27,7 +27,9 @@ from fractions import Fraction
 
 HIER = pathlib.Path(__file__).parent
 sys.path.insert(0, str(HIER))
-from reken import getal, WOORD  # noqa: E402
+sys.path.insert(0, str(HIER.parent.parent))
+from reken import getal, plat, WOORD  # noqa: E402
+from notatie import zichtbaar  # noqa: E402  (pad moet eerst klaarstaan)
 
 
 # Volgorde = volgorde in het platform. De titel is ook de titel van het
@@ -66,8 +68,11 @@ fouten = []
 
 
 def gelijk(tekst, reken):
+    # De opties staan in echte notatie, wat in `reken` staat niet altijd: wie
+    # een optie uit een lijst kiest (zie reken.enige) geeft de platte tekst
+    # terug. Daarom gaat alles eerst door `plat`.
     if isinstance(reken, str):
-        return tekst.strip() == reken
+        return plat(tekst) == plat(reken)
     waarde = getal(tekst)
     return waarde is not None and waarde == Fraction(reken)
 
@@ -116,7 +121,9 @@ def main():
                     tel[soort] += 1
                 if v["type"] == "meerkeuze":
                     meerkeuze += 1
-                    lengtes = [len(o) for o in v["opties"]]
+                    # Op het scherm, niet in het bronbestand: \(\tfrac{3}{4}\)
+                    # is achttien tekens en drie vakjes breed.
+                    lengtes = [len(zichtbaar(o)) for o in v["opties"]]
                     if lengtes[v["antwoord"]] == max(lengtes) and lengtes.count(max(lengtes)) == 1:
                         langst += 1
                 if v["type"] == "waarofniet":
