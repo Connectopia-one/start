@@ -668,55 +668,118 @@ zet("schaalverandering-en-gelijkvormige-figuren",
 zet("pythagoras-en-de-goniometrische-verhoudingen",
     titel="Pythagoras en de goniometrische verhoudingen",
     reeksen=[
-        dict(kop="Pythagoras",
-             opdracht="Reken de ontbrekende zijde uit. Rond af op één decimaal waar nodig.",
+        dict(kop="De schuine zijde",
+             opdracht="Reken uit. Rond af op één decimaal waar nodig.",
              oefeningen=[
-                 ("rij", [("rechthoekszijden 9 en 12, schuine zijde?", "15"),
-                          ("rechthoekszijden 7 en 24, schuine zijde?", "25"),
-                          ("schuine zijde 13, één rechthoekszijde 5, andere?", "12"),
-                          ("rechthoekszijden 5 en 5, schuine zijde?", "√50 ≈ 7,1"),
-                          ("schuine zijde 10, één rechthoekszijde 6, andere?", "8"),
-                          ("rechthoekszijden 8 en 15, schuine zijde?", "17")],
-                  "Hoe lang is de gevraagde zijde?", WW),
-                 ("open", "Is een driehoek met zijden 6, 8 en 11 rechthoekig? Toon je "
-                          "berekening.",
-                  "6² + 8² = 36 + 64 = 100, maar 11² = 121. Omdat 100 ≠ 121 is de driehoek "
-                  "niet rechthoekig.", 3),
-                 ("open", "Een deur is 90 cm breed en 200 cm hoog. Past een plaat van 215 cm "
-                          "diagonaal door de opening?",
-                  "De diagonaal is √(90² + 200²) = √(8 100 + 40 000) = √48 100 ≈ 219,3 cm. "
-                  "Een plaat van 215 cm past dus.", 4),
+                 ("rij", [("rechthoekszijden \\(9\\) en \\(12\\)", "\\(15\\)"),
+                          ("rechthoekszijden \\(7\\) en \\(24\\)", "\\(25\\)"),
+                          ("rechthoekszijden \\(8\\) en \\(15\\)", "\\(17\\)"),
+                          ("rechthoekszijden \\(5\\) en \\(5\\)", "\\(\\sqrt{50} \\approx 7{,}1\\)")],
+                  "Hoe lang is ze?", WW),
+             ]),
+        dict(kop="De andere rechthoekszijde",
+             opdracht="Reken uit.",
+             oefeningen=[
+                 ("rij", [("schuine zijde \\(13\\), rechthoekszijde \\(5\\)", "\\(12\\)"),
+                          ("schuine zijde \\(10\\), rechthoekszijde \\(6\\)", "\\(8\\)"),
+                          ("schuine zijde \\(26\\), rechthoekszijde \\(24\\)", "\\(10\\)")],
+                  "Hoe lang is ze?", WW),
+                 ("waar", "In een rechthoekige driehoek kan een rechthoekszijde langer zijn dan de "
+                          "schuine zijde.", False),
+             ]),
+        dict(kop="Rechthoekig of niet?",
+             opdracht="Toon je berekening met de omgekeerde stelling.",
+             oefeningen=[
+                 ("open", "Is een driehoek met zijden \\(6\\), \\(8\\) en \\(11\\) rechthoekig?",
+                  "\\(6^{2} + 8^{2} = 36 + 64 = 100\\), maar \\(11^{2} = 121\\). Omdat "
+                  "\\(100 \\neq 121\\) is de driehoek niet rechthoekig.", 3),
+             ]),
+        dict(kop="Nog een drietal",
+             opdracht="Toon ook hier je berekening.",
+             oefeningen=[
+                 ("open", "Is een driehoek met zijden \\(20\\), \\(21\\) en \\(29\\) rechthoekig?",
+                  "\\(400 + 441 = 841\\) en \\(29^{2} = 841\\). Ja, de hoek tegenover \\(29\\) is "
+                  "recht.", 3),
+             ]),
+        dict(kop="De afstand tussen twee punten",
+             opdracht="Gebruik \\(\\left|AB\\right| = \\sqrt{(x_{2} - x_{1})^{2} + (y_{2} - y_{1})^{2}}\\).",
+             oefeningen=[
+                 ("rij", [("\\(A(0, 0)\\) en \\(B(6, 8)\\)", "\\(10\\)"),
+                          ("\\(A(2, 3)\\) en \\(B(5, 7)\\)", "\\(5\\)"),
+                          ("\\(A(-1, 2)\\) en \\(B(3, -1)\\)", "\\(5\\)")],
+                  "Afstand", WW),
+             ]),
+        dict(kop="In de ruimte",
+             opdracht="Pas Pythagoras twee keer toe.",
+             oefeningen=[
+                 ("open", "Een balk is \\(3\\) bij \\(4\\) bij \\(12\\). Hoe lang is de "
+                          "ruimtediagonaal?",
+                  "Eerst het grondvlak: \\(\\sqrt{3^{2} + 4^{2}} = 5\\). Dan met de hoogte: "
+                  "\\(\\sqrt{5^{2} + 12^{2}} = \\sqrt{169} = 13\\).", 4),
+                 ("kort", "Hoe lang is de ruimtediagonaal van een kubus met ribbe \\(2\\)?",
+                  "\\(2\\sqrt{3} \\approx 3{,}46\\)", WW),
              ]),
         dict(kop="Sinus, cosinus en tangens",
-             opdracht="Vul in. Werk in een rechthoekige driehoek met hoek α.",
+             opdracht="Vul aan. Werk in een rechthoekige driehoek met scherpe hoek \\(\\alpha\\).",
              oefeningen=[
-                 ("rij", [("sin α =", "overstaande / schuine zijde"),
-                          ("cos α =", "aanliggende / schuine zijde"),
-                          ("tan α =", "overstaande / aanliggende"),
-                          ("sin 30°", "0,5"), ("cos 60°", "0,5"), ("tan 45°", "1")],
-                  "Vul aan.", WL),
-                 ("open", "In een rechthoekige driehoek is de overstaande zijde 5 en de "
-                          "aanliggende 12. Hoe groot is de hoek? Rond af op 0,1°.",
-                  "tan α = 5/12 = 0,4167, dus α ≈ 22,6°.", 3),
-                 ("open", "Een hoek heeft sin α = 0,6. Hoe groot is α, afgerond op 0,1°?",
-                  "α ≈ 36,9°.", 2),
-                 ("open", "Een ladder van 4 m staat onder een hoek van 70° tegen een muur. Tot "
-                          "op welke hoogte reikt ze? Rond af op een centimeter.",
-                  "hoogte = 4 · sin 70° ≈ 3,76 m.", 3),
-                 ("open", "Een helling stijgt 8 m over een horizontale afstand van 100 m. "
+                 ("rij", [("\\(\\sin \\alpha =\\)", "\\(\\frac{\\text{overstaande}}{\\text{schuine}}\\)"),
+                          ("\\(\\cos \\alpha =\\)", "\\(\\frac{\\text{aanliggende}}{\\text{schuine}}\\)"),
+                          ("\\(\\tan \\alpha =\\)", "\\(\\frac{\\text{overstaande}}{\\text{aanliggende}}\\)")],
+                  "Welke zijden?", WL),
+                 ("rij", [("\\(\\sin 30^{\\circ}\\)", "\\(0{,}5\\)"),
+                          ("\\(\\cos 60^{\\circ}\\)", "\\(0{,}5\\)"),
+                          ("\\(\\tan 45^{\\circ}\\)", "\\(1\\)")],
+                  "Welk getal?", W),
+             ]),
+        dict(kop="De grondformule",
+             opdracht="Gebruik \\(\\sin^{2}\\alpha + \\cos^{2}\\alpha = 1\\).",
+             oefeningen=[
+                 ("kort", "\\(\\sin \\alpha = 0{,}8\\) en \\(\\alpha\\) is scherp. Wat is "
+                          "\\(\\cos \\alpha\\)?", "\\(0{,}6\\)", W),
+                 ("kort", "\\(\\cos \\alpha = \\frac{5}{13}\\). Wat is \\(\\sin \\alpha\\)?",
+                  "\\(\\frac{12}{13}\\)", W),
+             ]),
+        dict(kop="Waarom die formule?",
+             opdracht="Antwoord in volle zinnen.",
+             oefeningen=[
+                 ("open", "Leg uit waarom de grondformule rechtstreeks uit Pythagoras volgt.",
+                  "In een rechthoekige driehoek is \\(a^{2} + b^{2} = c^{2}\\). Deel alles door "
+                  "\\(c^{2}\\): \\(\\left(\\frac{a}{c}\\right)^{2} + \\left(\\frac{b}{c}\\right)^{2} = 1\\), "
+                  "en dat zijn net \\(\\sin^{2}\\alpha\\) en \\(\\cos^{2}\\alpha\\).", 4),
+             ]),
+        dict(kop="Een hoek berekenen",
+             opdracht="Rond af op \\(0{,}1^{\\circ}\\).",
+             oefeningen=[
+                 ("open", "De overstaande zijde is \\(5\\) en de aanliggende \\(12\\). Hoe groot is "
+                          "\\(\\alpha\\)?",
+                  "\\(\\tan \\alpha = \\frac{5}{12} \\approx 0{,}4167\\), dus "
+                  "\\(\\alpha \\approx 22{,}6^{\\circ}\\).", 3),
+                 ("open", "Er geldt \\(\\sin \\alpha = 0{,}6\\). Hoe groot is \\(\\alpha\\)?",
+                  "\\(\\alpha \\approx 36{,}9^{\\circ}\\).", 2),
+             ]),
+        dict(kop="Een zijde berekenen",
+             opdracht="Schrijf eerst op welk goniometrisch getal je kiest.",
+             oefeningen=[
+                 ("open", "Een ladder van \\(4\\) m staat onder \\(70^{\\circ}\\) tegen een muur. Tot "
+                          "op welke hoogte reikt ze?",
+                  "De ladder is de schuine zijde en de hoogte de overstaande, dus sinus: "
+                  "\\(4 \\cdot \\sin 70^{\\circ} \\approx 3{,}76\\) m.", 3),
+                 ("open", "Een helling stijgt \\(8\\) m over een horizontale afstand van \\(100\\) m. "
                           "Hoeveel procent is dat, en hoeveel graden?",
-                  "8 / 100 = 8 %. De hoek is arctan(0,08) ≈ 4,6°.", 3),
+                  "\\(\\frac{8}{100} = 8\\,\\%\\). De hoek is \\(\\arctan 0{,}08 \\approx "
+                  "4{,}6^{\\circ}\\).", 3),
              ]),
         dict(kop="Toepassen",
              opdracht="Maak een schets en reken uit.",
              oefeningen=[
-                 ("teken", "Een boom staat 20 m van je af. Je kijkt onder een hoek van 35° "
-                           "omhoog naar de top; je ogen zitten 1,6 m hoog. Teken de situatie.",
-                  "Een rechthoekige driehoek met de horizontale zijde 20 m, de hoek van 35° bij "
-                  "het oog, en de verticale zijde die je zoekt, plus 1,6 m voor de ooghoogte.",
-                  55),
+                 ("teken", "Een boom staat \\(20\\) m van je af. Je kijkt onder \\(35^{\\circ}\\) "
+                           "omhoog naar de top; je ogen zitten \\(1{,}6\\) m hoog. Teken de situatie.",
+                  "Een rechthoekige driehoek met de horizontale zijde \\(20\\) m, de hoek van "
+                  "\\(35^{\\circ}\\) bij het oog, en de verticale zijde die je zoekt, plus "
+                  "\\(1{,}6\\) m voor de ooghoogte.", 45),
                  ("open", "Reken nu de hoogte van de boom uit.",
-                  "20 · tan 35° ≈ 14,0 m, plus 1,6 m ooghoogte, dus ongeveer 15,6 m.", 3),
+                  "\\(20 \\cdot \\tan 35^{\\circ} \\approx 14{,}0\\) m, plus \\(1{,}6\\) m "
+                  "ooghoogte, dus ongeveer \\(15{,}6\\) m.", 3),
              ]),
     ])
 

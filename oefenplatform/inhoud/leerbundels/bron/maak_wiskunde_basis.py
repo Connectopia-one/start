@@ -614,75 +614,103 @@ zet("pythagoras-en-de-goniometrische-verhoudingen",
     onder="De stelling van Pythagoras en haar omgekeerde, afstanden en diagonalen berekenen, en sinus, cosinus en tangens met de grondformule.",
     secties=[
         dict(kop="De stelling van Pythagoras", blokken=[
-            ("p", "De stelling zegt: <strong>de twee kleine kwadraten samen geven het grote</strong>. Ze "
-                  "<strong>geldt enkel in een rechthoekige driehoek</strong>, dus niet in elke driehoek. "
-                  "<strong>De schuine zijde ligt tegenover de rechte hoek, en ze is altijd de langste "
-                  "zijde</strong>, want ze ligt tegenover de grootste hoek."),
+            ("p", r"In een rechthoekige driehoek met rechthoekszijden \(a\) en \(b\) en schuine zijde "
+                  r"\(c\) geldt <strong>\(a^{2} + b^{2} = c^{2}\)</strong>: de twee kleine kwadraten samen "
+                  r"geven het grote. Ze <strong>geldt enkel in een rechthoekige driehoek</strong>, dus niet "
+                  r"in elke driehoek. <strong>De schuine zijde ligt tegenover de rechte hoek, en ze is "
+                  r"altijd de langste zijde</strong>, want ze ligt tegenover de grootste hoek."),
+            ("fig", svg.pythagorasvierkanten(),
+             "Op elke zijde van de driehoek 3-4-5 staat het vierkant van die zijde."),
             ("kader", tabel(["gegeven", "gevraagd", "rekenwijze", "antwoord"],
-                            [["<strong>rechthoekszijden 3 en 4</strong>", "de schuine zijde", "9 + 16 = 25", "<strong>5</strong>"],
-                             ["<strong>rechthoekszijden 6 en 8</strong>", "de schuine zijde", "36 + 64 = 100", "<strong>10</strong>"],
-                             ["<strong>schuine zijde 13, rechthoekszijde 5</strong>", "de andere rechthoekszijde", "169 − 25 = 144", "<strong>12</strong>"]])),
-            ("p", "Met de <strong>omgekeerde</strong> stelling toon je aan dát een driehoek rechthoekig is. "
-                  "<strong>Bij zijden 9, 12 en 15: 81 + 144 = 225, en 15² is ook 225</strong>, dus de hoek is "
-                  "recht. <strong>Een driehoek met zijden 5, 6 en 8 is niet rechthoekig</strong>: 25 + 36 = "
-                  "61 en 8² = 64, en dat klopt niet."),
-            ("p", "Drietallen die wél passen: <strong>3, 4 en 5</strong>, <strong>5, 12 en 13</strong> en "
-                  "<strong>8, 15 en 17</strong>. Bij 2, 3 en 4 lukt het niet, want 4 + 9 is geen 16."),
+                            [[r"<strong>rechthoekszijden \(3\) en \(4\)</strong>", "de schuine zijde", r"\(9 + 16 = 25\)", r"<strong>\(5\)</strong>"],
+                             [r"<strong>rechthoekszijden \(6\) en \(8\)</strong>", "de schuine zijde", r"\(36 + 64 = 100\)", r"<strong>\(10\)</strong>"],
+                             [r"<strong>schuine zijde \(13\), rechthoekszijde \(5\)</strong>", "de andere rechthoekszijde", r"\(169 - 25 = 144\)", r"<strong>\(12\)</strong>"]])),
         ]),
-        dict(kop="Afstanden, diagonalen en problemen", blokken=[
-            ("p", "<strong>De afstand tussen twee punten in het vlak bereken je met Pythagoras op de "
-                  "verschillen</strong>: het verschil in x en het verschil in y zijn de rechthoekszijden, de "
-                  "afstand is de schuine zijde. <strong>Van (0, 0) naar (3, 4) is dat 5</strong>, en "
-                  "<strong>van (1, 1) naar (4, 5) ook 5</strong>, want de verschillen zijn weer 3 en 4."),
-            ("p", "<strong>Pythagoras werkt ook in de ruimte</strong>, bijvoorbeeld voor de ruimtediagonaal "
-                  "van een balk: je past hem twee keer toe, eerst in het grondvlak en dan met de hoogte "
-                  "erbij. <strong>De ruimtediagonaal van een kubus met ribbe 1 is de wortel van 3</strong>: "
-                  "de diagonaal van het grondvlak is de wortel van 2, en 2 + 1 = 3."),
+        dict(kop="De omgekeerde stelling", blokken=[
+            ("p", r"Met de <strong>omgekeerde</strong> stelling toon je aan dát een driehoek rechthoekig "
+                  r"is. <strong>Bij zijden \(9\), \(12\) en \(15\): \(9^{2} + 12^{2} = 225\) en "
+                  r"\(15^{2} = 225\)</strong>, dus de hoek is recht. <strong>Een driehoek met zijden "
+                  r"\(5\), \(6\) en \(8\) is niet rechthoekig</strong>: \(25 + 36 = 61\) en \(8^{2} = 64\), "
+                  r"en dat klopt niet."),
+            ("p", r"Drietallen die wél passen: <strong>\((3, 4, 5)\)</strong>, "
+                  r"<strong>\((5, 12, 13)\)</strong> en <strong>\((8, 15, 17)\)</strong>. Bij "
+                  r"\((2, 3, 4)\) lukt het niet, want \(4 + 9 = 13\) en niet \(16\)."),
+        ]),
+        dict(kop="De afstand tussen twee punten", blokken=[
+            ("p", r"<strong>De afstand tussen twee punten in het vlak bereken je met Pythagoras op de "
+                  r"verschillen</strong>: het verschil in \(x\) en het verschil in \(y\) zijn de "
+                  r"rechthoekszijden, de afstand is de schuine zijde. De formule is "
+                  r"<strong>\(\left|AB\right| = \sqrt{(x_{2} - x_{1})^{2} + (y_{2} - y_{1})^{2}}\)</strong>. "
+                  r"<strong>Van \(O(0, 0)\) naar \(P(3, 4)\) is dat \(5\)</strong>, en <strong>van "
+                  r"\(A(1, 1)\) naar \(B(4, 5)\) ook \(5\)</strong>, want de verschillen zijn weer \(3\) "
+                  r"en \(4\)."),
+            ("fig", svg.puntafstand(),
+             "Van A(1, 2) naar B(4, 6): de verschillen 3 en 4 geven de afstand 5."),
+        ]),
+        dict(kop="Pythagoras in de ruimte", blokken=[
+            ("p", r"<strong>Pythagoras werkt ook in de ruimte</strong>, bijvoorbeeld voor de "
+                  r"ruimtediagonaal van een balk: je past hem twee keer toe, eerst in het grondvlak en dan "
+                  r"met de hoogte erbij. <strong>De ruimtediagonaal van een kubus met ribbe \(1\) is "
+                  r"\(\sqrt{3}\)</strong>: de diagonaal van het grondvlak is \(\sqrt{2}\), en "
+                  r"\(2 + 1 = 3\)."),
+            ("fig", svg.ruimtediagonaal(),
+             "Eerst de diagonaal van het grondvlak, dan diezelfde diagonaal met de hoogte erbij."),
+        ]),
+        dict(kop="Problemen aanpakken", blokken=[
             ("kader", tabel(["probleem", "antwoord", "rekenwijze"],
-                            [["<strong>een ladder van 5 m, de voet 3 m van de muur</strong>", "<strong>4 meter hoog</strong>", "25 − 9 = 16"],
-                             ["<strong>een kast van 2 bij 1 m, hoe schuin past ze</strong>", "<strong>de wortel van 5</strong>, ongeveer 2,24 m", "4 + 1 = 5"],
-                             ["<strong>een rechthoekig veld van 30 bij 40 m</strong>", "<strong>de diagonaal is 50 m</strong>", "900 + 1 600 = 2 500"]])),
-            ("p", "<strong>Bij een ladder tegen een muur is de muur niet de schuine zijde</strong>: de muur "
-                  "en de grond vormen juist de rechte hoek, en de ladder ligt daar tegenover."),
-            ("p", "Drie stappen helpen: <strong>een schets maken</strong>, <strong>de rechte hoek "
-                  "aanwijzen</strong> en <strong>de schuine zijde benoemen</strong>. Meten hoeft niet, je "
-                  "rekent. <strong>Je maakt eerst een schets omdat je dan ziet welke zijde de schuine "
-                  "is</strong>; zonder schets verwissel je die gemakkelijk met een rechthoekszijde."),
+                            [[r"<strong>een ladder van \(5\) m, de voet \(3\) m van de muur</strong>", r"<strong>\(4\) m hoog</strong>", r"\(25 - 9 = 16\)"],
+                             [r"<strong>een kast van \(2\) bij \(1\) m, hoe schuin past ze</strong>", r"<strong>\(\sqrt{5} \approx 2{,}24\) m</strong>", r"\(4 + 1 = 5\)"],
+                             [r"<strong>een rechthoekig veld van \(30\) bij \(40\) m</strong>", r"<strong>de diagonaal is \(50\) m</strong>", r"\(900 + 1\,600 = 2\,500\)"]])),
+            ("p", r"<strong>Bij een ladder tegen een muur is de muur niet de schuine zijde</strong>: de "
+                  r"muur en de grond vormen juist de rechte hoek, en de ladder ligt daar tegenover."),
+            ("p", r"Drie stappen helpen: <strong>een schets maken</strong>, <strong>de rechte hoek "
+                  r"aanwijzen</strong> en <strong>de schuine zijde benoemen</strong>. Meten hoeft niet, je "
+                  r"rekent. <strong>Je maakt eerst een schets omdat je dan ziet welke zijde de schuine "
+                  r"is</strong>; zonder schets verwissel je die gemakkelijk met een rechthoekszijde."),
         ]),
         dict(kop="Sinus, cosinus en tangens", blokken=[
+            ("fig", svg.goniodriehoek(),
+             "Vanuit de hoek alfa gezien heet elke zijde anders."),
             ("kader", tabel(["getal", "welke zijden", "bij de driehoek 3-4-5"],
-                            [["<strong>de sinus</strong>", "<strong>overstaande zijde op schuine zijde</strong>", "<strong>3 : 5 = 0,6</strong>"],
-                             ["<strong>de cosinus</strong>", "<strong>aanliggende zijde op schuine zijde</strong>", "<strong>4 : 5 = 0,8</strong>"],
-                             ["<strong>de tangens</strong>", "<strong>overstaande op aanliggende zijde</strong>; <strong>ze gebruikt de schuine zijde niet</strong>", "<strong>3 : 4 = 0,75</strong>"]])),
-            ("p", "Over die drie klopt: <strong>de tangens mist de schuine zijde</strong>, <strong>de sinus "
-                  "gebruikt de overstaande zijde</strong> en <strong>de cosinus gebruikt de aanliggende "
-                  "zijde</strong>."),
-            ("p", "<strong>De sinus van een scherpe hoek is altijd kleiner dan 1</strong>, want de "
-                  "overstaande zijde is korter dan de schuine. Om dezelfde reden <strong>kan de cosinus nooit "
-                  "groter zijn dan 1</strong>."),
-            ("p", "<strong>De grondformule van de goniometrie is sin²α + cos²α = 1.</strong> Ze staat "
-                  "<strong>niet los van Pythagoras maar volgt er juist uit</strong>: deel bij Pythagoras "
-                  "alles door het kwadraat van de schuine zijde. <strong>Sin² plus cos² van dezelfde hoek is "
-                  "dus altijd 1.</strong> Ken je de sinus, dan ken je ook de cosinus: <strong>is de sinus "
-                  "0,6, dan is de cosinus 0,8</strong> bij een scherpe hoek, want 1 − 0,36 = 0,64 en de "
-                  "wortel daarvan is 0,8."),
+                            [[r"<strong>\(\sin \alpha\)</strong>", r"<strong>\(\frac{\text{overstaande}}{\text{schuine}}\)</strong>", r"<strong>\(\frac{3}{5} = 0{,}6\)</strong>"],
+                             [r"<strong>\(\cos \alpha\)</strong>", r"<strong>\(\frac{\text{aanliggende}}{\text{schuine}}\)</strong>", r"<strong>\(\frac{4}{5} = 0{,}8\)</strong>"],
+                             [r"<strong>\(\tan \alpha\)</strong>", r"<strong>\(\frac{\text{overstaande}}{\text{aanliggende}}\)</strong>; <strong>ze gebruikt de schuine zijde niet</strong>", r"<strong>\(\frac{3}{4} = 0{,}75\)</strong>"]])),
+            ("p", r"Over die drie klopt: <strong>\(\tan \alpha\) mist de schuine zijde</strong>, "
+                  r"<strong>\(\sin \alpha\) gebruikt de overstaande zijde</strong> en "
+                  r"<strong>\(\cos \alpha\) gebruikt de aanliggende zijde</strong>."),
+        ]),
+        dict(kop="De grondformule", blokken=[
+            ("p", r"<strong>Voor een scherpe hoek is \(\sin \alpha < 1\)</strong>, want de overstaande "
+                  r"zijde is korter dan de schuine. Om dezelfde reden <strong>kan \(\cos \alpha\) nooit "
+                  r"groter zijn dan \(1\)</strong>."),
+            ("p", r"<strong>De grondformule van de goniometrie is "
+                  r"\(\sin^{2}\alpha + \cos^{2}\alpha = 1\).</strong> Ze staat <strong>niet los van "
+                  r"Pythagoras maar volgt er juist uit</strong>: deel bij \(a^{2} + b^{2} = c^{2}\) alles "
+                  r"door \(c^{2}\). <strong>Voor dezelfde hoek is die som dus altijd \(1\).</strong> Ken je "
+                  r"de sinus, dan ken je ook de cosinus: <strong>is \(\sin \alpha = 0{,}6\), dan is "
+                  r"\(\cos \alpha = 0{,}8\)</strong> bij een scherpe hoek, want \(1 - 0{,}36 = 0{,}64\) en "
+                  r"\(\sqrt{0{,}64} = 0{,}8\)."),
         ]),
         dict(kop="Een rechthoekige driehoek oplossen", blokken=[
-            ("p", "Drie stappen: <strong>de gegeven zijden benoemen</strong>, <strong>het juiste "
-                  "goniometrische getal kiezen</strong> en <strong>de onbekende berekenen met ICT</strong>. "
-                  "De vakfiche laat je de goniometrische getallen met ICT opzoeken; de oppervlakte heb je er "
-                  "niet voor nodig."),
+            ("p", r"Drie stappen: <strong>de gegeven zijden benoemen</strong>, <strong>het juiste "
+                  r"goniometrische getal kiezen</strong> en <strong>de onbekende berekenen met "
+                  r"ICT</strong>. De vakfiche laat je de goniometrische getallen met ICT opzoeken; de "
+                  r"oppervlakte heb je er niet voor nodig."),
             ("kader", tabel(["je kent", "je zoekt", "welk getal"],
-                            [["<strong>de hoek en de aanliggende zijde</strong>", "de overstaande zijde", "<strong>de tangens</strong>"],
-                             ["<strong>de hoek en de schuine zijde</strong>", "de overstaande zijde", "<strong>de sinus</strong>: overstaande = sinus × schuine zijde"],
-                             ["<strong>een bergpad van 200 m onder 30 graden</strong>", "het hoogteverschil", "<strong>de sinus</strong>: het pad is de schuine zijde, sin 30° is een half, dus 100 m"]])),
-            ("p", "<strong>Met de tangens bereken je de hoogte van een boom uit de kijkhoek en de "
-                  "afstand</strong>; de vakfiche noemt dat voorbeeld zelf. <strong>Sta je 20 m van een boom "
-                  "en kijk je onder 45 graden naar de top, dan is de boom ongeveer 20 m hoog</strong>, want "
-                  "<strong>de tangens van 45 graden is 1</strong>. Je ooghoogte komt er nog bij."),
-            ("p", "Bij 45 graden klopt trouwens alles tegelijk: <strong>de tangens is 1</strong>, <strong>de "
-                  "twee rechthoekszijden zijn even lang</strong> en <strong>de sinus en de cosinus zijn "
-                  "gelijk</strong>. De schuine zijde blijft wel de langste."),
+                            [[r"<strong>de hoek en de aanliggende zijde</strong>", "de overstaande zijde", r"<strong>\(\tan \alpha\)</strong>"],
+                             [r"<strong>de hoek en de schuine zijde</strong>", "de overstaande zijde", r"<strong>\(\sin \alpha\)</strong>: \(\text{overstaande} = \sin \alpha \cdot \text{schuine}\)"],
+                             [r"<strong>een bergpad van \(200\) m onder \(30^{\circ}\)</strong>", "het hoogteverschil", r"<strong>\(\sin \alpha\)</strong>: het pad is de schuine zijde, \(\sin 30^{\circ} = \frac{1}{2}\), dus \(100\) m"]])),
+        ]),
+        dict(kop="Meten met een hoek", blokken=[
+            ("p", r"<strong>Met \(\tan \alpha\) bereken je de hoogte van een boom uit de kijkhoek en de "
+                  r"afstand</strong>; de vakfiche noemt dat voorbeeld zelf. <strong>Sta je \(20\) m van "
+                  r"een boom en kijk je onder \(45^{\circ}\) naar de top, dan is de boom ongeveer \(20\) m "
+                  r"hoog</strong>, want <strong>\(\tan 45^{\circ} = 1\)</strong>. Je ooghoogte komt er nog "
+                  r"bij."),
+            ("p", r"Bij \(45^{\circ}\) klopt trouwens alles tegelijk: <strong>\(\tan 45^{\circ} = 1\)"
+                  r"</strong>, <strong>de twee rechthoekszijden zijn even lang</strong> en "
+                  r"<strong>\(\sin 45^{\circ} = \cos 45^{\circ}\)</strong>. De schuine zijde blijft wel de "
+                  r"langste."),
         ]),
     ])
 

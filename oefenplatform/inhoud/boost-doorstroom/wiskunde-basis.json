@@ -2728,48 +2728,48 @@
       "vragen": [
         {
           "type": "meerkeuze",
-          "vraag": "Wat zegt de stelling van Pythagoras?",
+          "vraag": "Wat zegt de stelling van Pythagoras in een rechthoekige driehoek met schuine zijde \\(c\\)?",
           "opties": [
-            "de twee kleine kwadraten samen geven het grote",
-            "de twee rechthoekszijden samen zijn even lang als de schuine zijde",
-            "de drie hoeken van een driehoek zijn samen 180 graden groot",
-            "de oppervlakte van de driehoek is de basis maal de hoogte"
+            "\\(a^{2} + b^{2} = c^{2}\\)",
+            "\\(a + b = c\\)",
+            "\\(a^{2} + b^{2} + c^{2} = 180^{\\circ}\\)",
+            "\\(\\frac{a \\cdot b}{2} = c\\)"
           ],
           "antwoord": 0,
-          "uitleg": "Ze geldt enkel in een rechthoekige driehoek. De schuine zijde ligt tegenover de rechte hoek."
+          "uitleg": "Ze geldt enkel in een rechthoekige driehoek. De schuine zijde \\(c\\) ligt tegenover de rechte hoek."
         },
         {
           "type": "meerkeuze",
-          "vraag": "In een rechthoekige driehoek zijn de rechthoekszijden 3 en 4. Hoe lang is de schuine zijde?",
+          "vraag": "In een rechthoekige driehoek zijn de rechthoekszijden \\(3\\) en \\(4\\). Hoe lang is de schuine zijde?",
           "opties": [
-            "5",
-            "7 in totaal",
-            "12 in totaal",
-            "25 in totaal"
+            "\\(5\\)",
+            "\\(7\\)",
+            "\\(12\\)",
+            "\\(25\\)"
           ],
           "antwoord": 0,
-          "uitleg": "9 plus 16 is 25, en de wortel van 25 is 5."
+          "uitleg": "\\(3^{2} + 4^{2} = 9 + 16 = 25\\) en \\(\\sqrt{25} = 5\\)."
         },
         {
           "type": "invultekst",
-          "vraag": "De rechthoekszijden zijn 6 en 8. Hoe lang is de schuine zijde? Een getal.",
+          "vraag": "De rechthoekszijden zijn \\(6\\) en \\(8\\). Hoe lang is de schuine zijde? Een getal.",
           "antwoord": [
             "10",
             "tien"
           ],
-          "uitleg": "36 plus 64 is 100, en de wortel van 100 is 10."
+          "uitleg": "\\(36 + 64 = 100\\) en \\(\\sqrt{100} = 10\\)."
         },
         {
           "type": "meerkeuze",
-          "vraag": "De schuine zijde is 13 en een rechthoekszijde is 5. Hoe lang is de andere?",
+          "vraag": "De schuine zijde is \\(13\\) en een rechthoekszijde is \\(5\\). Hoe lang is de andere?",
           "opties": [
-            "12",
-            "8 in totaal",
-            "18 in totaal",
-            "9 in totaal"
+            "\\(12\\)",
+            "\\(8\\)",
+            "\\(18\\)",
+            "\\(9\\)"
           ],
           "antwoord": 0,
-          "uitleg": "169 min 25 is 144, en de wortel van 144 is 12."
+          "uitleg": "\\(13^{2} - 5^{2} = 169 - 25 = 144\\) en \\(\\sqrt{144} = 12\\)."
         },
         {
           "type": "waarofniet",
@@ -2781,78 +2781,78 @@
           "type": "meerkeuze",
           "vraag": "Welke drietallen passen bij een rechthoekige driehoek?",
           "opties": [
-            "3, 4 en 5",
-            "5, 12 en 13",
-            "8, 15 en 17",
-            "2, 3 en 4"
+            "\\(3\\), \\(4\\) en \\(5\\)",
+            "\\(5\\), \\(12\\) en \\(13\\)",
+            "\\(8\\), \\(15\\) en \\(17\\)",
+            "\\(2\\), \\(3\\) en \\(4\\)"
           ],
           "antwoord": [
             0,
             1,
             2
           ],
-          "uitleg": "Bij de eerste drie klopt de som van de kwadraten. Bij 2, 3 en 4 is 4 plus 9 niet 16."
+          "uitleg": "Bij de eerste drie klopt de som van de kwadraten. Bij \\(2\\), \\(3\\) en \\(4\\) is \\(4 + 9 = 13\\) en niet \\(16\\)."
         },
         {
           "type": "meerkeuze",
-          "vraag": "Hoe bewijs je dat een driehoek met zijden 9, 12 en 15 rechthoekig is?",
+          "vraag": "Hoe bewijs je dat een driehoek met zijden \\(9\\), \\(12\\) en \\(15\\) rechthoekig is?",
           "opties": [
-            "81 plus 144 is 225",
-            "9 plus 12 is meer dan 15",
-            "15 min 12 is 3",
-            "9 maal 12 is 108"
+            "\\(9^{2} + 12^{2} = 225\\)",
+            "\\(9 + 12 > 15\\)",
+            "\\(15 - 12 = 3\\)",
+            "\\(9 \\cdot 12 = 108\\)"
           ],
           "antwoord": 0,
-          "uitleg": "En 15 in het kwadraat is ook 225. De omgekeerde stelling geeft dan de rechte hoek."
+          "uitleg": "En \\(15^{2} = 225\\). De omgekeerde stelling geeft dan de rechte hoek."
         },
         {
           "type": "invultekst",
-          "vraag": "Is een driehoek met zijden 5, 6 en 8 rechthoekig? Antwoord ja of nee.",
+          "vraag": "Is een driehoek met zijden \\(5\\), \\(6\\) en \\(8\\) rechthoekig? Antwoord ja of nee.",
           "antwoord": [
             "nee",
             "neen",
             "niet"
           ],
-          "uitleg": "25 plus 36 is 61, en 8 in het kwadraat is 64. Dat klopt niet."
+          "uitleg": "\\(25 + 36 = 61\\) en \\(8^{2} = 64\\). Dat klopt niet."
         },
         {
           "type": "waarofniet",
           "vraag": "De schuine zijde is altijd de langste zijde van een rechthoekige driehoek.",
           "antwoord": true,
-          "uitleg": "Ze ligt tegenover de grootste hoek, de rechte hoek. Dus is ze de langste."
+          "uitleg": "Ze ligt tegenover de grootste hoek, de hoek van \\(90^{\\circ}\\). Dus is ze de langste."
         },
         {
           "type": "meerkeuze",
-          "vraag": "Hoe bereken je de afstand tussen twee punten in het vlak?",
+          "vraag": "Hoe bereken je de afstand tussen \\(A(x_{1}, y_{1})\\) en \\(B(x_{2}, y_{2})\\)?",
           "opties": [
-            "met Pythagoras op de verschillen",
-            "door de coördinaten op te tellen",
-            "door de coördinaten te delen",
-            "door de hoek te meten"
+            "\\(\\sqrt{(x_{2} - x_{1})^{2} + (y_{2} - y_{1})^{2}}\\)",
+            "\\((x_{1} + y_{1}) + (x_{2} + y_{2})\\)",
+            "\\(\\frac{x_{2}}{x_{1}} + \\frac{y_{2}}{y_{1}}\\)",
+            "\\(\\tan\\left(x_{2} - x_{1}\\right)\\)"
           ],
           "antwoord": 0,
-          "uitleg": "Het verschil in x en het verschil in y zijn de rechthoekszijden. De afstand is de schuine zijde."
+          "uitleg": "Het verschil in \\(x\\) en het verschil in \\(y\\) zijn de rechthoekszijden. De afstand is de schuine zijde."
         },
         {
           "type": "meerkeuze",
-          "vraag": "Wat is de afstand tussen het punt met coördinaten 0 en 0 en dat met 3 en 4?",
+          "vraag": "Wat is de afstand tussen \\(O(0, 0)\\) en \\(P(3, 4)\\)?",
           "opties": [
-            "5",
-            "7 in totaal",
-            "12 in totaal",
-            "25 in totaal"
+            "\\(5\\)",
+            "\\(7\\)",
+            "\\(12\\)",
+            "\\(25\\)"
           ],
           "antwoord": 0,
-          "uitleg": "De verschillen zijn 3 en 4, en de wortel van 9 plus 16 is 5."
+          "uitleg": "\\(\\sqrt{3^{2} + 4^{2}} = \\sqrt{25} = 5\\)."
         },
         {
           "type": "invultekst",
-          "vraag": "Wat is de afstand tussen de punten 1 en 1 en 4 en 5? Een getal.",
+          "vraag": "Wat is de afstand tussen \\(A(1, 1)\\) en \\(B(4, 5)\\)? Een getal.",
           "antwoord": [
             "5",
             "vijf"
           ],
-          "uitleg": "De verschillen zijn 3 en 4, en de wortel van 25 is 5."
+          "uitleg": "De verschillen zijn \\(3\\) en \\(4\\), en \\(\\sqrt{9 + 16} = 5\\)."
         },
         {
           "type": "waarofniet",
@@ -2862,27 +2862,27 @@
         },
         {
           "type": "meerkeuze",
-          "vraag": "Hoe lang is de ruimtediagonaal van een kubus met ribbe 1?",
+          "vraag": "Hoe lang is de ruimtediagonaal van een kubus met ribbe \\(1\\)?",
           "opties": [
-            "de wortel van 3",
-            "de wortel van 2",
-            "het getal 1",
-            "het getal 3"
+            "\\(\\sqrt{3}\\)",
+            "\\(\\sqrt{2}\\)",
+            "\\(1\\)",
+            "\\(3\\)"
           ],
           "antwoord": 0,
-          "uitleg": "Eerst de diagonaal van het grondvlak: de wortel van 2. Dan 2 plus 1 is 3, dus de wortel van 3."
+          "uitleg": "Eerst de diagonaal van het grondvlak: \\(\\sqrt{2}\\). Dan \\(2 + 1 = 3\\), dus \\(\\sqrt{3}\\)."
         },
         {
           "type": "meerkeuze",
-          "vraag": "Een ladder van 5 m staat met de voet 3 m van de muur. Hoe hoog reikt hij?",
+          "vraag": "Een ladder van \\(5\\) m staat met de voet \\(3\\) m van de muur. Hoe hoog reikt hij?",
           "opties": [
-            "4 meter",
-            "2 meter",
-            "8 meter",
-            "6 meter"
+            "\\(4\\) m",
+            "\\(2\\) m",
+            "\\(8\\) m",
+            "\\(6\\) m"
           ],
           "antwoord": 0,
-          "uitleg": "25 min 9 is 16, en de wortel van 16 is 4."
+          "uitleg": "\\(25 - 9 = 16\\) en \\(\\sqrt{16} = 4\\)."
         },
         {
           "type": "waarofniet",
@@ -2908,15 +2908,15 @@
         },
         {
           "type": "meerkeuze",
-          "vraag": "Een kast van 2 bij 1 m moet rechtop door een deur. Welke maat berekent de diagonaal?",
+          "vraag": "Een kast van \\(2\\) bij \\(1\\) m moet rechtop door een deur. Hoe lang is de diagonaal?",
           "opties": [
-            "de wortel van 5",
-            "het getal 3",
-            "het getal 2",
-            "de wortel van 3"
+            "\\(\\sqrt{5}\\)",
+            "\\(3\\)",
+            "\\(2\\)",
+            "\\(\\sqrt{3}\\)"
           ],
           "antwoord": 0,
-          "uitleg": "4 plus 1 is 5, dus de diagonaal is de wortel van 5, ongeveer 2,24 meter."
+          "uitleg": "\\(4 + 1 = 5\\), dus de diagonaal is \\(\\sqrt{5} \\approx 2{,}24\\) m."
         },
         {
           "type": "meerkeuze",
@@ -2932,15 +2932,15 @@
         },
         {
           "type": "meerkeuze",
-          "vraag": "Een rechthoekig veld is 30 bij 40 meter. Hoe lang is de diagonaal?",
+          "vraag": "Een rechthoekig veld is \\(30\\) bij \\(40\\) m. Hoe lang is de diagonaal?",
           "opties": [
-            "50 meter",
-            "70 meter",
-            "35 meter",
-            "60 meter"
+            "\\(50\\) m",
+            "\\(70\\) m",
+            "\\(35\\) m",
+            "\\(60\\) m"
           ],
           "antwoord": 0,
-          "uitleg": "900 plus 1 600 is 2 500, en de wortel daarvan is 50."
+          "uitleg": "\\(900 + 1\\,600 = 2\\,500\\) en \\(\\sqrt{2\\,500} = 50\\)."
         }
       ]
     },
@@ -2951,45 +2951,45 @@
       "vragen": [
         {
           "type": "meerkeuze",
-          "vraag": "Wat is de sinus van een scherpe hoek in een rechthoekige driehoek?",
+          "vraag": "Wat is \\(\\sin \\alpha\\) voor een scherpe hoek in een rechthoekige driehoek?",
           "opties": [
-            "overstaande zijde op schuine zijde",
-            "aanliggende zijde op schuine zijde",
-            "overstaande op aanliggende zijde",
-            "schuine zijde op overstaande zijde"
+            "\\(\\frac{\\text{overstaande}}{\\text{schuine}}\\)",
+            "\\(\\frac{\\text{aanliggende}}{\\text{schuine}}\\)",
+            "\\(\\frac{\\text{overstaande}}{\\text{aanliggende}}\\)",
+            "\\(\\frac{\\text{schuine}}{\\text{overstaande}}\\)"
           ],
           "antwoord": 0,
-          "uitleg": "Sinus is de overstaande rechthoekszijde gedeeld door de schuine zijde."
+          "uitleg": "\\(\\sin \\alpha\\) is de overstaande rechthoekszijde gedeeld door de schuine zijde."
         },
         {
           "type": "meerkeuze",
-          "vraag": "Wat is de cosinus van een scherpe hoek?",
+          "vraag": "Wat is \\(\\cos \\alpha\\) voor een scherpe hoek?",
           "opties": [
-            "aanliggende zijde op schuine zijde",
-            "overstaande zijde op schuine zijde",
-            "overstaande op aanliggende zijde",
-            "schuine zijde op aanliggende zijde"
+            "\\(\\frac{\\text{aanliggende}}{\\text{schuine}}\\)",
+            "\\(\\frac{\\text{overstaande}}{\\text{schuine}}\\)",
+            "\\(\\frac{\\text{overstaande}}{\\text{aanliggende}}\\)",
+            "\\(\\frac{\\text{schuine}}{\\text{aanliggende}}\\)"
           ],
           "antwoord": 0,
-          "uitleg": "Cosinus is de aanliggende rechthoekszijde gedeeld door de schuine zijde."
+          "uitleg": "\\(\\cos \\alpha\\) is de aanliggende rechthoekszijde gedeeld door de schuine zijde."
         },
         {
           "type": "invultekst",
-          "vraag": "Welk goniometrisch getal is de overstaande gedeeld door de aanliggende zijde? Eén woord.",
+          "vraag": "Welk goniometrisch getal is \\(\\frac{\\text{overstaande}}{\\text{aanliggende}}\\)? Eén woord.",
           "antwoord": [
             "tangens",
             "de tangens",
             "tan"
           ],
-          "uitleg": "De tangens. Zij gebruikt de schuine zijde niet."
+          "uitleg": "De tangens, \\(\\tan \\alpha\\). Zij gebruikt de schuine zijde niet."
         },
         {
           "type": "meerkeuze",
           "vraag": "Welke uitspraken over de goniometrische getallen kloppen?",
           "opties": [
-            "de tangens mist de schuine zijde",
-            "de sinus gebruikt de overstaande zijde",
-            "de cosinus gebruikt de aanliggende zijde",
+            "\\(\\tan \\alpha\\) mist de schuine zijde",
+            "\\(\\sin \\alpha\\) gebruikt de overstaande zijde",
+            "\\(\\cos \\alpha\\) gebruikt de aanliggende zijde",
             "alle drie gebruiken de schuine zijde"
           ],
           "antwoord": [
@@ -2997,86 +2997,86 @@
             1,
             2
           ],
-          "uitleg": "De tangens werkt met de twee rechthoekszijden. Sinus en cosinus hebben de schuine zijde wel nodig."
+          "uitleg": "\\(\\tan \\alpha\\) werkt met de twee rechthoekszijden. \\(\\sin \\alpha\\) en \\(\\cos \\alpha\\) hebben de schuine zijde wel nodig."
         },
         {
           "type": "waarofniet",
-          "vraag": "De sinus van een scherpe hoek is altijd kleiner dan 1.",
+          "vraag": "Voor een scherpe hoek geldt \\(\\sin \\alpha < 1\\).",
           "antwoord": true,
-          "uitleg": "De overstaande zijde is altijd korter dan de schuine zijde, dus is de breuk kleiner dan 1."
+          "uitleg": "De overstaande zijde is altijd korter dan de schuine zijde, dus is de breuk kleiner dan één."
         },
         {
           "type": "meerkeuze",
-          "vraag": "In een driehoek is de overstaande zijde 3 en de schuine zijde 5. Wat is de sinus?",
+          "vraag": "De overstaande zijde is \\(3\\) en de schuine zijde \\(5\\). Wat is \\(\\sin \\alpha\\)?",
           "opties": [
-            "0,6",
-            "het getal 0,8",
-            "het getal 1,67",
-            "het getal 0,75"
+            "\\(0{,}6\\)",
+            "\\(0{,}8\\)",
+            "\\(1{,}67\\)",
+            "\\(0{,}75\\)"
           ],
           "antwoord": 0,
-          "uitleg": "3 gedeeld door 5 is 0,6."
+          "uitleg": "\\(\\frac{3}{5} = 0{,}6\\)."
         },
         {
           "type": "meerkeuze",
-          "vraag": "In dezelfde driehoek is de aanliggende zijde 4 en de schuine zijde 5. Wat is de cosinus?",
+          "vraag": "In dezelfde driehoek is de aanliggende zijde \\(4\\). Wat is \\(\\cos \\alpha\\)?",
           "opties": [
-            "0,8",
-            "het getal 0,6",
-            "het getal 1,25",
-            "het getal 0,75"
+            "\\(0{,}8\\)",
+            "\\(0{,}6\\)",
+            "\\(1{,}25\\)",
+            "\\(0{,}75\\)"
           ],
           "antwoord": 0,
-          "uitleg": "4 gedeeld door 5 is 0,8."
+          "uitleg": "\\(\\frac{4}{5} = 0{,}8\\)."
         },
         {
           "type": "invultekst",
-          "vraag": "De overstaande zijde is 3 en de aanliggende 4. Wat is de tangens? Een getal.",
+          "vraag": "De overstaande zijde is \\(3\\) en de aanliggende \\(4\\). Wat is \\(\\tan \\alpha\\)? Een getal.",
           "antwoord": [
             "0,75",
             "0.75"
           ],
-          "uitleg": "3 gedeeld door 4 is 0,75."
+          "uitleg": "\\(\\frac{3}{4} = 0{,}75\\)."
         },
         {
           "type": "meerkeuze",
           "vraag": "Wat is de grondformule van de goniometrie?",
           "opties": [
-            "sinus kwadraat plus cosinus kwadraat is 1",
-            "de sinus plus de cosinus is altijd gelijk aan 1",
-            "de sinus maal de cosinus is altijd gelijk aan 1",
-            "de sinus gedeeld door de cosinus is altijd 1"
+            "\\(\\sin^{2}\\alpha + \\cos^{2}\\alpha = 1\\)",
+            "\\(\\sin \\alpha + \\cos \\alpha = 1\\)",
+            "\\(\\sin \\alpha \\cdot \\cos \\alpha = 1\\)",
+            "\\(\\frac{\\sin \\alpha}{\\cos \\alpha} = 1\\)"
           ],
           "antwoord": 0,
-          "uitleg": "Ze volgt rechtstreeks uit Pythagoras in een driehoek met schuine zijde 1."
+          "uitleg": "Ze volgt rechtstreeks uit Pythagoras in een driehoek met schuine zijde \\(1\\)."
         },
         {
           "type": "waarofniet",
           "vraag": "De grondformule van de goniometrie staat los van de stelling van Pythagoras.",
           "antwoord": false,
-          "uitleg": "Ze volgt er juist uit: deel bij Pythagoras alles door het kwadraat van de schuine zijde."
+          "uitleg": "Ze volgt er juist uit: deel bij \\(a^{2} + b^{2} = c^{2}\\) alles door \\(c^{2}\\)."
         },
         {
           "type": "meerkeuze",
-          "vraag": "De sinus van een hoek is 0,6. Wat is de cosinus, als de hoek scherp is?",
+          "vraag": "Er geldt \\(\\sin \\alpha = 0{,}6\\) en \\(\\alpha\\) is scherp. Wat is \\(\\cos \\alpha\\)?",
           "opties": [
-            "0,8",
-            "het getal 0,4",
-            "het getal 0,6",
-            "het getal 1,4"
+            "\\(0{,}8\\)",
+            "\\(0{,}4\\)",
+            "\\(0{,}6\\)",
+            "\\(1{,}4\\)"
           ],
           "antwoord": 0,
-          "uitleg": "1 min 0,36 is 0,64, en de wortel daarvan is 0,8."
+          "uitleg": "\\(1 - 0{,}36 = 0{,}64\\) en \\(\\sqrt{0{,}64} = 0{,}8\\)."
         },
         {
           "type": "invultekst",
-          "vraag": "Wat is sinus kwadraat plus cosinus kwadraat van dezelfde hoek? Een getal.",
+          "vraag": "Wat is \\(\\sin^{2}\\alpha + \\cos^{2}\\alpha\\) van dezelfde hoek? Een getal.",
           "antwoord": [
             "1",
             "een",
             "één"
           ],
-          "uitleg": "Altijd 1. Dat is de grondformule van de goniometrie."
+          "uitleg": "Altijd \\(1\\). Dat is de grondformule van de goniometrie."
         },
         {
           "type": "meerkeuze",
@@ -3096,53 +3096,53 @@
         },
         {
           "type": "meerkeuze",
-          "vraag": "Je kent de hoek en de aanliggende zijde, en zoekt de overstaande. Welk getal gebruik je?",
+          "vraag": "Je kent \\(\\alpha\\) en de aanliggende zijde, en zoekt de overstaande. Welk getal gebruik je?",
           "opties": [
-            "de tangens",
-            "de sinus van de hoek",
-            "de cosinus van de hoek",
-            "de grondformule"
+            "\\(\\tan \\alpha\\)",
+            "\\(\\sin \\alpha\\)",
+            "\\(\\cos \\alpha\\)",
+            "\\(\\sin^{2}\\alpha + \\cos^{2}\\alpha\\)"
           ],
           "antwoord": 0,
-          "uitleg": "De tangens verbindt precies die twee zijden. De schuine zijde komt er niet aan te pas."
+          "uitleg": "\\(\\tan \\alpha\\) verbindt precies die twee zijden. De schuine zijde komt er niet aan te pas."
         },
         {
           "type": "meerkeuze",
-          "vraag": "Je kent de hoek en de schuine zijde, en zoekt de overstaande. Welk getal gebruik je?",
+          "vraag": "Je kent \\(\\alpha\\) en de schuine zijde, en zoekt de overstaande. Welk getal gebruik je?",
           "opties": [
-            "de sinus",
-            "de cosinus van de hoek",
-            "de tangens van de hoek",
-            "de grondformule"
+            "\\(\\sin \\alpha\\)",
+            "\\(\\cos \\alpha\\)",
+            "\\(\\tan \\alpha\\)",
+            "\\(\\sin^{2}\\alpha + \\cos^{2}\\alpha\\)"
           ],
           "antwoord": 0,
-          "uitleg": "Sinus is overstaande op schuine zijde, dus overstaande is sinus maal schuine zijde."
+          "uitleg": "\\(\\sin \\alpha = \\frac{\\text{overstaande}}{\\text{schuine}}\\), dus overstaande \\(= \\sin \\alpha \\cdot\\) schuine."
         },
         {
           "type": "waarofniet",
-          "vraag": "Met de tangens kan je de hoogte van een boom berekenen uit de kijkhoek en de afstand.",
+          "vraag": "Met \\(\\tan \\alpha\\) kan je de hoogte van een boom berekenen uit de kijkhoek en de afstand.",
           "antwoord": true,
           "uitleg": "De afstand is de aanliggende zijde, de hoogte de overstaande. De vakfiche noemt dit voorbeeld zelf."
         },
         {
           "type": "meerkeuze",
-          "vraag": "Je staat 20 m van een boom en kijkt onder 45 graden naar de top. Hoe hoog is de boom ongeveer?",
+          "vraag": "Je staat \\(20\\) m van een boom en kijkt onder \\(45^{\\circ}\\) naar de top. Hoe hoog is hij ongeveer?",
           "opties": [
-            "20 meter",
-            "10 meter",
-            "40 meter",
-            "45 meter"
+            "\\(20\\) m",
+            "\\(10\\) m",
+            "\\(40\\) m",
+            "\\(45\\) m"
           ],
           "antwoord": 0,
-          "uitleg": "De tangens van 45 graden is 1, dus de hoogte is gelijk aan de afstand. Je ooghoogte komt er nog bij."
+          "uitleg": "\\(\\tan 45^{\\circ} = 1\\), dus de hoogte is gelijk aan de afstand. Je ooghoogte komt er nog bij."
         },
         {
           "type": "meerkeuze",
-          "vraag": "Welke uitspraken over een hoek van 45 graden in een rechthoekige driehoek kloppen?",
+          "vraag": "Welke uitspraken over een hoek van \\(45^{\\circ}\\) in een rechthoekige driehoek kloppen?",
           "opties": [
-            "de tangens is 1",
+            "\\(\\tan 45^{\\circ} = 1\\)",
             "de twee rechthoekszijden zijn even lang",
-            "de sinus en de cosinus zijn gelijk",
+            "\\(\\sin 45^{\\circ} = \\cos 45^{\\circ}\\)",
             "de schuine zijde is even lang als een rechthoekszijde"
           ],
           "antwoord": [
@@ -3150,25 +3150,25 @@
             1,
             2
           ],
-          "uitleg": "Bij 45 graden zijn de rechthoekszijden gelijk, dus is hun verhouding 1 en zijn sinus en cosinus gelijk. De schuine zijde blijft wel de langste."
+          "uitleg": "Bij \\(45^{\\circ}\\) zijn de rechthoekszijden gelijk, dus is hun verhouding \\(1\\) en zijn sinus en cosinus gelijk. De schuine zijde blijft wel de langste."
         },
         {
           "type": "waarofniet",
-          "vraag": "De cosinus van een hoek kan groter zijn dan 1.",
+          "vraag": "Voor een scherpe hoek kan \\(\\cos \\alpha\\) groter zijn dan \\(1\\).",
           "antwoord": false,
-          "uitleg": "Bij een scherpe hoek is de aanliggende zijde altijd korter dan de schuine zijde."
+          "uitleg": "De aanliggende zijde is altijd korter dan de schuine zijde."
         },
         {
           "type": "meerkeuze",
-          "vraag": "Een bergpad van 200 m stijgt onder 30 graden. Welk getal geeft het hoogteverschil?",
+          "vraag": "Een bergpad van \\(200\\) m stijgt onder \\(30^{\\circ}\\). Welk getal geeft het hoogteverschil?",
           "opties": [
-            "de sinus",
-            "de cosinus van de hoek",
-            "de tangens van de hoek",
-            "de grondformule"
+            "\\(\\sin \\alpha\\)",
+            "\\(\\cos \\alpha\\)",
+            "\\(\\tan \\alpha\\)",
+            "\\(\\sin^{2}\\alpha + \\cos^{2}\\alpha\\)"
           ],
           "antwoord": 0,
-          "uitleg": "Het pad is de schuine zijde en de hoogte de overstaande zijde. Sinus van 30 graden is een half, dus 100 meter."
+          "uitleg": "Het pad is de schuine zijde en de hoogte de overstaande. \\(\\sin 30^{\\circ} = \\frac{1}{2}\\), dus \\(100\\) m."
         }
       ]
     },

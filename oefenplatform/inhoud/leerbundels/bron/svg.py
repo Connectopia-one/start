@@ -10261,3 +10261,76 @@ def schaduwmeting(breedte=470):
     d.append(paal(56, 1, 1.5, "stok", "1 m", "1,5 m", FOREST))
     d.append(paal(190, 8, 12, "boom", "? m", "12 m", "#5b7f9c"))
     return _svg(breedte, h, "".join(d))
+
+
+def goniodriehoek(breedte=470):
+    r"""Een rechthoekige driehoek met de drie zijden benoemd vanuit de hoek alfa."""
+    import math
+    h = 232
+    A = (96.0, 182.0)
+    B = (372.0, 182.0)
+    C = (372.0, 54.0)
+    d = [f'<rect x="5" y="4" width="{breedte-10}" height="{h-26}" rx="7" '
+         f'fill="{PAPER}" stroke="{BORDER}" stroke-width="1.2"/>']
+    d.append(f'<polygon points="{A[0]},{A[1]} {B[0]},{B[1]} {C[0]},{C[1]}" '
+             f'fill="{FOREST}" fill-opacity="0.07" stroke="{DARK}" stroke-width="2.2"/>')
+    # het haakje van de rechte hoek
+    d.append(f'<path d="M{B[0]-14} {B[1]} L{B[0]-14} {B[1]-14} L{B[0]} {B[1]-14}" '
+             f'fill="none" stroke="{DARK}" stroke-width="1.3"/>')
+    # de boog van alfa
+    r = 34.0
+    hoek = math.atan2(C[1] - A[1], C[0] - A[0])
+    x1, y1 = A[0] + r, A[1]
+    x2, y2 = A[0] + r * math.cos(hoek), A[1] + r * math.sin(hoek)
+    d.append(f'<path d="M{x1:.1f},{y1:.1f} A{r},{r} 0 0 0 {x2:.1f},{y2:.1f}" '
+             f'fill="none" stroke="{AMBER}" stroke-width="2"/>')
+    d.append(_tekst(A[0] + r + 14, A[1] - 11, "α", 13, AMBER, "middle", True))
+    # de drie zijden
+    d.append(_tekst((A[0] + B[0]) / 2, B[1] + 19, "aanliggende zijde", 10, DIM, "middle", True))
+    d.append(_tekst(B[0] + 10, (B[1] + C[1]) / 2 + 4, "overstaande", 10, FOREST, "start", True))
+    d.append(_tekst(B[0] + 10, (B[1] + C[1]) / 2 + 18, "zijde", 10, FOREST, "start", True))
+    d.append(_tekst((A[0] + C[0]) / 2 - 22, (A[1] + C[1]) / 2 - 15, "schuine zijde", 10, AMBER,
+                    "middle", True))
+    for px, py, naam, dx, dy, anker in ((A[0], A[1], "A", -11, 6, "end"),
+                                        (B[0], B[1], "B", 8, 18, "middle"),
+                                        (C[0], C[1], "C", 8, -8, "start")):
+        d.append(f'<circle cx="{px}" cy="{py}" r="3.4" fill="{DARK}"/>')
+        d.append(_tekst(px + dx, py + dy, naam, 11, DARK, anker, True))
+    return _svg(breedte, h, "\n".join(d))
+
+
+def ruimtediagonaal(breedte=470):
+    r"""Een kubus met de diagonaal van het grondvlak en de ruimtediagonaal."""
+    h = 222
+    s = 124.0
+    dx, dy = s * 0.44, -s * 0.34
+    ox, oy = 150.0, 176.0
+    # voorvlak linksonder (ox, oy)
+    v = {"a": (ox, oy), "b": (ox + s, oy), "c": (ox + s, oy - s), "d": (ox, oy - s)}
+    a2 = {k: (p[0] + dx, p[1] + dy) for k, p in v.items()}
+    d = [f'<rect x="5" y="4" width="{breedte-10}" height="{h-26}" rx="7" '
+         f'fill="{PAPER}" stroke="{BORDER}" stroke-width="1.2"/>']
+
+    def lijn(p, q, kleur=INK, dik=1.6, stippel=False):
+        stip = ' stroke-dasharray="5 4"' if stippel else ""
+        d.append(f'<line x1="{p[0]:.1f}" y1="{p[1]:.1f}" x2="{q[0]:.1f}" y2="{q[1]:.1f}" '
+                 f'stroke="{kleur}" stroke-width="{dik}"{stip}/>')
+
+    for p, q in (("a", "b"), ("b", "c"), ("c", "d"), ("d", "a")):
+        lijn(v[p], v[q], DARK, 2)
+    for p, q in (("b", "c"), ("c", "d")):
+        lijn(a2[p], a2[q], DARK, 1.4)
+    lijn(a2["a"], a2["b"], DARK, 1.2, True)
+    lijn(a2["a"], a2["d"], DARK, 1.2, True)
+    for k in ("a", "b", "c", "d"):
+        lijn(v[k], a2[k], DARK, 1.4 if k != "a" else 1.2, k == "a")
+    # de diagonaal van het grondvlak en de ruimtediagonaal
+    lijn(v["a"], a2["b"], FOREST, 2.6, True)
+    lijn(v["a"], a2["c"], AMBER, 2.8)
+    gx, gy = (v["a"][0] + a2["b"][0]) / 2, (v["a"][1] + a2["b"][1]) / 2
+    rx, ry = (v["a"][0] + a2["c"][0]) / 2, (v["a"][1] + a2["c"][1]) / 2
+    d.append(_tekst(gx + 4, gy + 18, "√2", 11, FOREST, "middle", True))
+    d.append(_tekst(rx - 16, ry + 2, "√3", 12, AMBER, "end", True))
+    d.append(_tekst(ox - 10, oy - s / 2 + 4, "1", 10.5, DIM, "end", True))
+    d.append(_tekst(ox + s / 2, oy + 18, "1", 10.5, DIM, "middle", True))
+    return _svg(breedte, h, "\n".join(d))
