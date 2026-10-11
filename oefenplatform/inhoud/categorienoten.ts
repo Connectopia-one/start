@@ -55,13 +55,13 @@ export const categorienoten: Record<string, Categorienoot> = {
       {
         kop: "Wetenschappen",
         tekst:
-          "Leg je ze in één examen af, neem dan natuurwetenschappen. Leg je er " +
-          "drie af, neem dan biologie, chemie en fysica.",
+          "Leg je ze in één examen af: natuurwetenschappen. Leg je er drie " +
+          "af: biologie, chemie en fysica.",
       },
       {
         kop: "Wiskunde",
         tekst:
-          "Er staan twee versies: basis en gevorderd. Je vakfiche zegt welke " +
+          "Er staan twee versies, basis en gevorderd. Je vakfiche zegt welke " +
           "van de twee jij nodig hebt.",
       },
     ],
@@ -75,14 +75,21 @@ export const categorienoten: Record<string, Categorienoot> = {
       {
         kop: "Wetenschappen",
         tekst:
-          "Leg je ze in één examen af, neem dan natuurwetenschappen. Leg je er " +
-          "drie af, neem dan biologie, chemie en fysica.",
+          "Leg je ze in één examen af: natuurwetenschappen. Leg je er drie " +
+          "af: biologie, chemie en fysica.",
+      },
+      {
+        kop: "Wiskunde",
+        tekst:
+          "Hier staat enkel wiskunde gevorderd. Humane wetenschappen, moderne " +
+          "talen en Latijn-moderne talen volgen wiskunde basis, en dat vak is " +
+          "nog in de maak.",
       },
       {
         kop: "Bedrijfswetenschappen en welzijnswetenschappen",
         tekst:
-          "Voor wiskunde en voor natuurwetenschappen heb jij een eigen " +
-          "vakfiche. Die twee staan hieronder nog niet.",
+          "Jullie wiskunde en natuurwetenschappen volgen een eigen vakfiche " +
+          "en staan er nog niet. De rest geldt wel voor jullie.",
       },
     ],
     richtingen: {
@@ -108,11 +115,14 @@ export const categorienoten: Record<string, Categorienoot> = {
         "De vakfiches van de Examencommissie noemen die richtingen samen " +
         "bovenaan, daarom staan ze hier niet apart.",
     },
+    // Nageteld op 11 oktober 2026 tegen inhoud/beyond/ (veertien vakken).
+    // Kim merkte op dat sociale en gedragswetenschappen, filosofie en recht en
+    // samenleving en economie er intussen wél stonden. Tel dit dus na in de map
+    // in plaats van de zin van de vorige keer over te nemen.
     komtNog:
-      "Nog in de maak: wiskunde en natuurwetenschappen voor " +
-      "bedrijfswetenschappen en welzijnswetenschappen, sociale en " +
-      "gedragswetenschappen, filosofie en recht, algemene economie, " +
-      "bedrijfswetenschappen en recht, en samenleving en economie.",
+      "Nog in de maak: Latijn, wiskunde basis, algemene economie, " +
+      "bedrijfswetenschappen en recht, en de eigen wiskunde en " +
+      "natuurwetenschappen van bedrijfswetenschappen en welzijnswetenschappen.",
   },
 };
 
