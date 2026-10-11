@@ -42,11 +42,11 @@
     },
     {
      "soort": "tekst",
-     "html": "<strong>Twee heterozygote planten Aa</strong> geven dus een <strong>genotypische verhouding 1 op 2 op 1</strong> (AA, Aa, aa) en een <strong>fenotypische verhouding 3 op 1</strong>, want AA en Aa zien er gelijk uit."
+     "html": "<strong>Twee heterozygote planten Aa</strong> geven dus een <strong>genotypische verhouding \\(1\\) op \\(2\\) op \\(1\\)</strong> (AA, Aa, aa) en een <strong>fenotypische verhouding \\(3\\) op \\(1\\)</strong>, want AA en Aa zien er gelijk uit."
     },
     {
      "soort": "tekst",
-     "html": "Kruis je een <strong>plant Aa met een plant aa</strong>, dan krijg je Aa, Aa, aa, aa: <strong>50 procent van het nageslacht toont het recessieve kenmerk</strong>."
+     "html": "Kruis je een <strong>plant Aa met een plant aa</strong>, dan krijg je Aa, Aa, aa, aa: <strong>\\(50\\) procent van het nageslacht toont het recessieve kenmerk</strong>."
     },
     {
      "soort": "tekst",
@@ -67,7 +67,7 @@
    "blokken": [
     {
      "soort": "tekst",
-     "html": "Over <strong>intermediaire overerving</strong>: <strong>de heterozygoot vertoont een tussenvorm</strong>, <strong>geen van beide allelen is dominant</strong> en <strong>een rode en een witte leeuwenbek geven roze</strong>. Daardoor <strong>vallen de genotypische en de fenotypische verhouding in de F2 samen</strong>: 1 rood, 2 roze, 1 wit. Kruis je dus <strong>twee roze leeuwenbekken</strong>, dan is <strong>25 procent van het nageslacht wit</strong>."
+     "html": "Over <strong>intermediaire overerving</strong>: <strong>de heterozygoot vertoont een tussenvorm</strong>, <strong>geen van beide allelen is dominant</strong> en <strong>een rode en een witte leeuwenbek geven roze</strong>. Daardoor <strong>vallen de genotypische en de fenotypische verhouding in de F2 samen</strong>: \\(1\\) rood, \\(2\\) roze, \\(1\\) wit. Kruis je dus <strong>twee roze leeuwenbekken</strong>, dan is <strong>\\(25\\) procent van het nageslacht wit</strong>."
     },
     {
      "soort": "tekst",
@@ -84,11 +84,11 @@
    "blokken": [
     {
      "soort": "tekst",
-     "html": "Een <strong>organisme met genotype AaBb maakt vier verschillende soorten gameten</strong>: AB, Ab, aB en ab. Kruis je <strong>twee planten AaBb</strong>, dan geeft het vierkant van zestien vakjes de <strong>fenotypische verhouding 9 op 3 op 3 op 1</strong>. <strong>Bij de kruising AaBb met AaBb is één op de zestien nakomelingen homozygoot recessief voor beide kenmerken</strong>, namelijk aabb."
+     "html": "Een <strong>organisme met genotype AaBb maakt vier verschillende soorten gameten</strong>: AB, Ab, aB en ab. Kruis je <strong>twee planten AaBb</strong>, dan geeft het vierkant van zestien vakjes de <strong>fenotypische verhouding \\(9\\) op \\(3\\) op \\(3\\) op \\(1\\)</strong>. <strong>Bij de kruising AaBb met AaBb is één op de zestien nakomelingen homozygoot recessief voor beide kenmerken</strong>, namelijk aabb."
     },
     {
      "soort": "tekst",
-     "html": "Kruis je een <strong>plant AaBb met een plant aabb</strong>, dan levert de tweede ouder enkel ab, en krijg je de <strong>fenotypische verhouding 1 op 1 op 1 op 1</strong>."
+     "html": "Kruis je een <strong>plant AaBb met een plant aabb</strong>, dan levert de tweede ouder enkel ab, en krijg je de <strong>fenotypische verhouding \\(1\\) op \\(1\\) op \\(1\\) op \\(1\\)</strong>."
     },
     {
      "soort": "tekst",
@@ -134,11 +134,11 @@
  "onthoud": [
   "Het genotype is de erfelijke aanleg, het fenotype het zichtbare kenmerk.",
   "De drie wetten van Mendel: uniformiteitswet, splitsingswet en onafhankelijkheidswet.",
-  "Aa × Aa geeft genotypisch 1 op 2 op 1 en fenotypisch 3 op 1.",
+  "Aa × Aa geeft genotypisch \\(1\\) op \\(2\\) op \\(1\\) en fenotypisch \\(3\\) op \\(1\\).",
   "Een terugkruising toont of de onderzochte ouder homozygoot of heterozygoot is.",
   "Bij intermediaire overerving geven een rode en een witte leeuwenbek roze.",
   "Bij codominantie komen beide allelen volledig tot uiting, zoals bij bloedgroep AB.",
-  "AaBb × AaBb geeft de fenotypische verhouding 9 op 3 op 3 op 1.",
+  "AaBb × AaBb geeft de fenotypische verhouding \\(9\\) op \\(3\\) op \\(3\\) op \\(1\\).",
   "Geslachtsgebonden recessieve aandoeningen komen vaker bij mannen voor: een man heeft maar één X-chromosoom.",
   "Twee ouders zonder het kenmerk krijgen een dochter met het kenmerk: recessief en niet geslachtsgebonden."
  ]

@@ -495,10 +495,10 @@
           "type": "meerkeuze",
           "vraag": "Welke reactievergelijking geeft de fotosynthese weer?",
           "opties": [
-            "6 CO2 + 6 H2O geeft C6H12O6 + 6 O2",
-            "C6H12O6 + 6 O2 geeft 6 CO2 + 6 H2O",
-            "C6H12O6 geeft 2 ethanol + 2 CO2",
-            "C6H12O6 geeft 2 melkzuur en energie"
+            "6 CO₂ + 6 H₂O geeft C₆H₁₂O₆ + 6 O₂",
+            "C₆H₁₂O₆ + 6 O₂ geeft 6 CO₂ + 6 H₂O",
+            "C₆H₁₂O₆ geeft 2 ethanol + 2 CO₂",
+            "C₆H₁₂O₆ geeft 2 melkzuur en energie"
           ],
           "antwoord": 0,
           "uitleg": "Met lichtenergie en bladgroen bouwt de plant uit koolstofdioxide en water glucose op, en er komt zuurstofgas vrij."
@@ -642,10 +642,10 @@
           "type": "meerkeuze",
           "vraag": "Welke reactievergelijking hoort bij de aerobe celademhaling?",
           "opties": [
-            "C6H12O6 + 6 O2 geeft 6 CO2 + 6 H2O en energie",
-            "6 CO2 + 6 H2O geeft C6H12O6 + 6 O2",
-            "C6H12O6 geeft 2 ethanol + 2 CO2 en energie",
-            "C6H12O6 geeft 2 melkzuur en energie"
+            "C₆H₁₂O₆ + 6 O₂ geeft 6 CO₂ + 6 H₂O en energie",
+            "6 CO₂ + 6 H₂O geeft C₆H₁₂O₆ + 6 O₂",
+            "C₆H₁₂O₆ geeft 2 ethanol + 2 CO₂ en energie",
+            "C₆H₁₂O₆ geeft 2 melkzuur en energie"
           ],
           "antwoord": 0,
           "uitleg": "Bij de aerobe celademhaling wordt glucose met zuurstof volledig afgebroken tot koolstofdioxide en water, en komt er veel energie vrij."
@@ -734,13 +734,13 @@
             "omdat gisting altijd meer zuurstof nodig heeft dan lucht bevat"
           ],
           "antwoord": 0,
-          "uitleg": "Bij gisting blijft er nog veel energie in het melkzuur of de ethanol zitten. Alleen met zuurstof wordt glucose helemaal tot CO2 en water afgebroken."
+          "uitleg": "Bij gisting blijft er nog veel energie in het melkzuur of de ethanol zitten. Alleen met zuurstof wordt glucose helemaal tot CO₂ en water afgebroken."
         },
         {
           "type": "waarofniet",
           "vraag": "Bij de aerobe celademhaling komt er koolstofdioxide vrij.",
           "antwoord": true,
-          "uitleg": "De koolstof uit de glucose verlaat de cel als koolstofdioxide. Daarom ademt een mens meer CO2 uit dan hij inademt."
+          "uitleg": "De koolstof uit de glucose verlaat de cel als koolstofdioxide. Daarom ademt een mens meer CO₂ uit dan hij inademt."
         },
         {
           "type": "invultekst",
@@ -1339,7 +1339,7 @@
           "type": "waarofniet",
           "vraag": "De zygote is diploïd en bevat erfelijk materiaal van beide ouders.",
           "antwoord": true,
-          "uitleg": "Elke ouder levert via zijn geslachtscel één set chromosomen. Samen vormen ze de 46 chromosomen van de zygote."
+          "uitleg": "Elke ouder levert via zijn geslachtscel één set chromosomen. Samen vormen ze de \\(46\\) chromosomen van de zygote."
         },
         {
           "type": "meerkeuze",
@@ -1427,13 +1427,13 @@
           "type": "meerkeuze",
           "vraag": "Vanaf ongeveer welk moment beschouwt men een foetus als levensvatbaar?",
           "opties": [
-            "vanaf ongeveer 24 weken zwangerschap",
-            "vanaf ongeveer 8 weken zwangerschap",
-            "vanaf ongeveer 12 weken zwangerschap",
-            "vanaf ongeveer 38 weken zwangerschap"
+            "vanaf ongeveer \\(24\\) weken zwangerschap",
+            "vanaf ongeveer \\(8\\) weken zwangerschap",
+            "vanaf ongeveer \\(12\\) weken zwangerschap",
+            "vanaf ongeveer \\(38\\) weken zwangerschap"
           ],
           "antwoord": 0,
-          "uitleg": "Rond 24 weken zijn de longen ver genoeg ontwikkeld om met zware medische hulp te overleven. Volgroeid is een foetus pas rond 38 à 40 weken."
+          "uitleg": "Rond \\(24\\) weken zijn de longen ver genoeg ontwikkeld om met zware medische hulp te overleven. Volgroeid is een foetus pas rond \\(38\\) à \\(40\\) weken."
         },
         {
           "type": "meerkeuze",
@@ -1755,7 +1755,7 @@
           "type": "meerkeuze",
           "vraag": "Wat betekent het dat de twee strengen van DNA antiparallel liggen?",
           "opties": [
-            "de ene loopt van 5 naar 3 en de andere in de omgekeerde richting",
+            "de ene loopt van \\(5\\) naar \\(3\\) en de andere in de omgekeerde richting",
             "de twee strengen liggen precies evenwijdig in dezelfde richting",
             "de twee strengen draaien elk apart om hun eigen as rond",
             "de ene streng bestaat uit DNA en de andere volledig uit RNA"
@@ -1835,13 +1835,13 @@
             "een autosoom bestaat uit RNA en een heterosoom volledig uit DNA"
           ],
           "antwoord": 0,
-          "uitleg": "De mens heeft 22 paar autosomen en één paar heterosomen: XX bij een vrouw en XY bij een man."
+          "uitleg": "De mens heeft \\(22\\) paar autosomen en één paar heterosomen: XX bij een vrouw en XY bij een man."
         },
         {
           "type": "waarofniet",
-          "vraag": "Een menselijke lichaamscel is diploïd en bevat 46 chromosomen.",
+          "vraag": "Een menselijke lichaamscel is diploïd en bevat \\(46\\) chromosomen.",
           "antwoord": true,
-          "uitleg": "Diploïd wil zeggen dat elk chromosoom in twee exemplaren voorkomt: 23 paren, dus 46 in totaal. Geslachtscellen zijn haploïd met 23."
+          "uitleg": "Diploïd wil zeggen dat elk chromosoom in twee exemplaren voorkomt: \\(23\\) paren, dus \\(46\\) in totaal. Geslachtscellen zijn haploïd met \\(23\\)."
         },
         {
           "type": "meerkeuze",
@@ -1881,15 +1881,15 @@
         },
         {
           "type": "meerkeuze",
-          "vraag": "Hoeveel procent van de basen in een stuk DNA is cytosine als 30 procent adenine is?",
+          "vraag": "Hoeveel procent van de basen in een stuk DNA is cytosine als \\(30\\) procent adenine is?",
           "opties": [
-            "20 procent",
-            "30 procent",
-            "40 procent",
-            "70 procent"
+            "\\(20\\) procent",
+            "\\(30\\) procent",
+            "\\(40\\) procent",
+            "\\(70\\) procent"
           ],
           "antwoord": 0,
-          "uitleg": "A paart met T, dus ook 30 procent thymine. Samen 60 procent, zodat G en C samen 40 procent zijn. Die twee zijn gelijk, dus elk 20 procent."
+          "uitleg": "A paart met T, dus ook \\(30\\) procent thymine. Samen \\(60\\) procent, zodat G en C samen \\(40\\) procent zijn. Die twee zijn gelijk, dus elk \\(20\\) procent."
         }
       ]
     },
@@ -1940,7 +1940,7 @@
           "opties": [
             "het zet nieuwe nucleotiden tegen de oude streng aan",
             "het leest de oude streng als sjabloon",
-            "het werkt altijd in de richting van 5 naar 3",
+            "het werkt altijd in de richting van \\(5\\) naar \\(3\\)",
             "het rolt zelf de dubbele helix open"
           ],
           "antwoord": [
@@ -2161,10 +2161,10 @@
           "type": "meerkeuze",
           "vraag": "Twee heterozygote planten Aa worden gekruist. Welke fenotypische verhouding verwacht je?",
           "opties": [
-            "3 op 1",
-            "1 op 1",
-            "9 op 3 op 3 op 1",
-            "1 op 2 op 1"
+            "\\(3\\) op \\(1\\)",
+            "\\(1\\) op \\(1\\)",
+            "\\(9\\) op \\(3\\) op \\(3\\) op \\(1\\)",
+            "\\(1\\) op \\(2\\) op \\(1\\)"
           ],
           "antwoord": 0,
           "uitleg": "Het Punnettvierkant geeft AA, Aa, Aa en aa. Drie daarvan tonen het dominante kenmerk en één het recessieve."
@@ -2173,22 +2173,22 @@
           "type": "meerkeuze",
           "vraag": "Twee heterozygote planten Aa worden gekruist. Welke genotypische verhouding verwacht je?",
           "opties": [
-            "1 op 2 op 1",
-            "3 op 1",
-            "1 op 1",
-            "9 op 3 op 3 op 1"
+            "\\(1\\) op \\(2\\) op \\(1\\)",
+            "\\(3\\) op \\(1\\)",
+            "\\(1\\) op \\(1\\)",
+            "\\(9\\) op \\(3\\) op \\(3\\) op \\(1\\)"
           ],
           "antwoord": 0,
-          "uitleg": "Eén vierde is AA, de helft is Aa en één vierde is aa. Dat is de verhouding 1 op 2 op 1."
+          "uitleg": "Eén vierde is AA, de helft is Aa en één vierde is aa. Dat is de verhouding \\(1\\) op \\(2\\) op \\(1\\)."
         },
         {
           "type": "meerkeuze",
           "vraag": "Een plant Aa wordt met een plant aa gekruist. Hoeveel procent van het nageslacht toont het recessieve kenmerk?",
           "opties": [
-            "50 procent",
-            "25 procent",
-            "75 procent",
-            "100 procent"
+            "\\(50\\) procent",
+            "\\(25\\) procent",
+            "\\(75\\) procent",
+            "\\(100\\) procent"
           ],
           "antwoord": 0,
           "uitleg": "De kruising geeft Aa en aa in gelijke delen. De helft van het nageslacht is dus aa en toont het recessieve kenmerk."
@@ -2237,16 +2237,16 @@
           "type": "waarofniet",
           "vraag": "Bij intermediaire overerving vallen de genotypische en de fenotypische verhouding in de F2 samen.",
           "antwoord": true,
-          "uitleg": "Elk genotype heeft dan een eigen uiterlijk, dus beide verhoudingen zijn 1 op 2 op 1."
+          "uitleg": "Elk genotype heeft dan een eigen uiterlijk, dus beide verhoudingen zijn \\(1\\) op \\(2\\) op \\(1\\)."
         },
         {
           "type": "meerkeuze",
           "vraag": "Twee roze leeuwenbekken worden gekruist. Hoeveel procent van het nageslacht is wit?",
           "opties": [
-            "25 procent",
-            "50 procent",
-            "75 procent",
-            "0 procent"
+            "\\(25\\) procent",
+            "\\(50\\) procent",
+            "\\(75\\) procent",
+            "\\(0\\) procent"
           ],
           "antwoord": 0,
           "uitleg": "Roze is de heterozygoot. De kruising geeft rood, roze, roze en wit, dus één vierde is wit."
@@ -2336,13 +2336,13 @@
           "type": "meerkeuze",
           "vraag": "Twee planten AaBb worden gekruist. Welke fenotypische verhouding verwacht je?",
           "opties": [
-            "9 op 3 op 3 op 1",
-            "1 op 1 op 1 op 1",
-            "3 op 1",
-            "1 op 2 op 1"
+            "\\(9\\) op \\(3\\) op \\(3\\) op \\(1\\)",
+            "\\(1\\) op \\(1\\) op \\(1\\) op \\(1\\)",
+            "\\(3\\) op \\(1\\)",
+            "\\(1\\) op \\(2\\) op \\(1\\)"
           ],
           "antwoord": 0,
-          "uitleg": "Bij een dihybride kruising met twee dominant-recessieve kenmerken geeft het vierkant van zestien vakjes de verhouding 9, 3, 3 en 1."
+          "uitleg": "Bij een dihybride kruising met twee dominant-recessieve kenmerken geeft het vierkant van zestien vakjes de verhouding \\(9\\), \\(3\\), \\(3\\) en \\(1\\)."
         },
         {
           "type": "waarofniet",
@@ -2354,10 +2354,10 @@
           "type": "meerkeuze",
           "vraag": "Een plant AaBb wordt met een plant aabb gekruist. Welke fenotypische verhouding verwacht je?",
           "opties": [
-            "1 op 1 op 1 op 1",
-            "9 op 3 op 3 op 1",
-            "3 op 1",
-            "1 op 2 op 1"
+            "\\(1\\) op \\(1\\) op \\(1\\) op \\(1\\)",
+            "\\(9\\) op \\(3\\) op \\(3\\) op \\(1\\)",
+            "\\(3\\) op \\(1\\)",
+            "\\(1\\) op \\(2\\) op \\(1\\)"
           ],
           "antwoord": 0,
           "uitleg": "De ene ouder maakt vier soorten gameten, de andere maar één. Elk van de vier combinaties komt dus even vaak voor."
@@ -2422,7 +2422,7 @@
             1,
             2
           ],
-          "uitleg": "Die drie liggen op het X-chromosoom. Het syndroom van Down ontstaat door een extra chromosoom 21 en is geen geslachtsgebonden kenmerk."
+          "uitleg": "Die drie liggen op het X-chromosoom. Het syndroom van Down ontstaat door een extra chromosoom \\(21\\) en is geen geslachtsgebonden kenmerk."
         },
         {
           "type": "meerkeuze",
@@ -2547,7 +2547,7 @@
           "type": "invultekst",
           "vraag": "Uit hoeveel basen bestaat één codon?",
           "antwoord": "drie",
-          "uitleg": "Een codon of triplet is een groepje van drie basen. Met vier basen geeft dat 64 combinaties, ruim genoeg voor de twintig aminozuren."
+          "uitleg": "Een codon of triplet is een groepje van drie basen. Met vier basen geeft dat \\(64\\) combinaties, ruim genoeg voor de twintig aminozuren."
         },
         {
           "type": "waarofniet",
@@ -2695,7 +2695,7 @@
           "type": "meerkeuze",
           "vraag": "Welke mutaties horen bij de genoommutaties? Kruis alles aan wat juist is.",
           "opties": [
-            "trisomie 21",
+            "trisomie \\(21\\)",
             "het syndroom van Turner",
             "het syndroom van Klinefelter",
             "sikkelcelanemie"
@@ -3583,7 +3583,7 @@
           "type": "waarofniet",
           "vraag": "Glucose en fructose hebben dezelfde brutoformule maar een andere structuur.",
           "antwoord": true,
-          "uitleg": "Allebei C6H12O6, maar glucose vormt een zesring en fructose een vijfring. Daardoor smaken en reageren ze anders."
+          "uitleg": "Allebei C₆H₁₂O₆, maar glucose vormt een zesring en fructose een vijfring. Daardoor smaken en reageren ze anders."
         },
         {
           "type": "meerkeuze",
@@ -4405,7 +4405,7 @@
         },
         {
           "type": "meerkeuze",
-          "vraag": "Je mengt 2 mol van stof A met 5 mol van stof B, terwijl de reactie één op één verloopt. Welke stof is in overmaat?",
+          "vraag": "Je mengt \\(2\\) mol van stof A met \\(5\\) mol van stof B, terwijl de reactie één op één verloopt. Welke stof is in overmaat?",
           "opties": [
             "stof B",
             "stof A",
@@ -4413,7 +4413,7 @@
             "beide stoffen"
           ],
           "antwoord": 0,
-          "uitleg": "A is na 2 mol op en is dus het limiterend reagens. Van B blijven er 3 mol staan, dus B is in overmaat."
+          "uitleg": "A is na \\(2\\) mol op en is dus het limiterend reagens. Van B blijven er \\(3\\) mol staan, dus B is in overmaat."
         },
         {
           "type": "invultekst",
@@ -4560,7 +4560,7 @@
         },
         {
           "type": "meerkeuze",
-          "vraag": "Een gasevenwicht heeft links 3 mol gas en rechts 2 mol gas. Je perst het mengsel in een kleiner vat. Wat gebeurt er?",
+          "vraag": "Een gasevenwicht heeft links \\(3\\) mol gas en rechts \\(2\\) mol gas. Je perst het mengsel in een kleiner vat. Wat gebeurt er?",
           "opties": [
             "het evenwicht schuift naar rechts, naar de kant met minder gasdeeltjes",
             "het evenwicht schuift naar links, naar de kant met meer gasdeeltjes",
@@ -4746,7 +4746,7 @@
           "type": "waarofniet",
           "vraag": "Een amine heeft net als een alcohol een OH-groep als kenmerkende groep.",
           "antwoord": false,
-          "uitleg": "De kenmerkende groep van een amine draait om stikstof, dus NH2, NH of N aan een koolstofketen. De OH-groep hoort bij de alcoholen."
+          "uitleg": "De kenmerkende groep van een amine draait om stikstof, dus NH₂, NH of N aan een koolstofketen. De OH-groep hoort bij de alcoholen."
         },
         {
           "type": "meerkeuze",
@@ -4771,7 +4771,7 @@
         },
         {
           "type": "meerkeuze",
-          "vraag": "Tot welke stofklasse hoort CH3CH2OH?",
+          "vraag": "Tot welke stofklasse hoort CH₃CH₂OH?",
           "opties": [
             "de alcoholen",
             "de ethers",
@@ -4783,7 +4783,7 @@
         },
         {
           "type": "meerkeuze",
-          "vraag": "Tot welke stofklasse hoort CH3COCH3?",
+          "vraag": "Tot welke stofklasse hoort CH₃COCH₃?",
           "opties": [
             "de ketonen",
             "de aldehyden",
@@ -4795,7 +4795,7 @@
         },
         {
           "type": "waarofniet",
-          "vraag": "CHCl3 hoort bij de alcoholen.",
+          "vraag": "CHCl₃ hoort bij de alcoholen.",
           "antwoord": false,
           "uitleg": "Er zit geen OH-groep in, wel drie chlooratomen. Het is methaan met drie halogenen in de plaats van waterstof, dus een halogeenalkaan: chloroform."
         },
@@ -4821,29 +4821,29 @@
             "in de beknopte staan er meer atomen dan in de uitgebreide"
           ],
           "antwoord": 0,
-          "uitleg": "De uitgebreide formule tekent elke streepje tussen twee atomen. De beknopte bundelt dat tot groepen, zoals CH3 en CH2."
+          "uitleg": "De uitgebreide formule tekent elke streepje tussen twee atomen. De beknopte bundelt dat tot groepen, zoals CH₃ en CH₂."
         },
         {
           "type": "waarofniet",
           "vraag": "Twee stoffen met dezelfde brutoformule kunnen tot een andere stofklasse horen.",
           "antwoord": true,
-          "uitleg": "C2H6O kan ethanol zijn, een alcohol, of dimethylether, een ether. Daarom zegt een brutoformule alleen niet genoeg."
+          "uitleg": "C₂H₆O kan ethanol zijn, een alcohol, of dimethylether, een ether. Daarom zegt een brutoformule alleen niet genoeg."
         },
         {
           "type": "meerkeuze",
           "vraag": "Welke formules horen bij een alkaan? Kruis alles aan wat juist is.",
           "opties": [
-            "CH4",
-            "C3H8",
-            "C4H10",
-            "CH2=CH2"
+            "CH₄",
+            "C₃H₈",
+            "C₄H₁₀",
+            "CH₂=CH₂"
           ],
           "antwoord": [
             0,
             1,
             2
           ],
-          "uitleg": "Methaan, propaan en butaan zijn alkanen. CH2=CH2 is etheen, en de dubbele binding maakt dat een alkeen."
+          "uitleg": "Methaan, propaan en butaan zijn alkanen. CH₂=CH₂ is etheen, en de dubbele binding maakt dat een alkeen."
         },
         {
           "type": "meerkeuze",
@@ -4975,7 +4975,7 @@
           "vraag": "Welke stoffen zijn apolair? Kruis alles aan wat juist is.",
           "opties": [
             "wasbenzine",
-            "CCl4",
+            "CCl₄",
             "een lang alkaan",
             "water"
           ],
@@ -5057,15 +5057,15 @@
             "etheen"
           ],
           "antwoord": 0,
-          "uitleg": "Aardgas is vooral methaan, met de formule CH4. Propaan en butaan zijn de gassen in een gasfles of een aansteker."
+          "uitleg": "Aardgas is vooral methaan, met de formule CH₄. Propaan en butaan zijn de gassen in een gasfles of een aansteker."
         },
         {
           "type": "meerkeuze",
           "vraag": "Welke stof is azijnzuur?",
           "opties": [
-            "CH3COOH",
+            "CH₃COOH",
             "HCOOH",
-            "CH3OH",
+            "CH₃OH",
             "HCHO"
           ],
           "antwoord": 0,
@@ -5090,13 +5090,13 @@
             "methanal"
           ],
           "antwoord": 0,
-          "uitleg": "Methanol is CH3OH, met één koolstofatoom. Ethanol is de alcohol in drank; methanol is giftig en mag je niet drinken."
+          "uitleg": "Methanol is CH₃OH, met één koolstofatoom. Ethanol is de alcohol in drank; methanol is giftig en mag je niet drinken."
         },
         {
           "type": "waarofniet",
           "vraag": "Propanon is de wetenschappelijke naam van aceton.",
           "antwoord": true,
-          "uitleg": "Het is een keton met de formule CH3COCH3. Je vindt het onder meer in nagellakverwijderaar, want het lost veel stoffen goed op."
+          "uitleg": "Het is een keton met de formule CH₃COCH₃. Je vindt het onder meer in nagellakverwijderaar, want het lost veel stoffen goed op."
         },
         {
           "type": "meerkeuze",
@@ -5300,10 +5300,10 @@
           "type": "meerkeuze",
           "vraag": "Hoe groot is een nanomateriaal ongeveer?",
           "opties": [
-            "tussen 1 en 100 nanometer",
-            "tussen 1 en 100 micrometer",
-            "tussen 1 en 100 millimeter",
-            "tussen 1 en 100 picometer"
+            "tussen \\(1\\) en \\(100\\) nanometer",
+            "tussen \\(1\\) en \\(100\\) micrometer",
+            "tussen \\(1\\) en \\(100\\) millimeter",
+            "tussen \\(1\\) en \\(100\\) picometer"
           ],
           "antwoord": 0,
           "uitleg": "Een nanometer is een miljardste van een meter. Een menselijke haar is daar ongeveer tienduizend keer dikker dan."
@@ -5494,7 +5494,7 @@
             "gemaakt uit plantaardige of dierlijke grondstoffen",
             "door bacteriën en schimmels volledig af te breken",
             "geschikt om in een composthoop te verdwijnen",
-            "gemaakt zonder ook maar enige uitstoot van CO2"
+            "gemaakt zonder ook maar enige uitstoot van CO₂"
           ],
           "antwoord": 0,
           "uitleg": "Biogebaseerd zegt dus enkel iets over de grondstof, niet over het einde. Een biogebaseerde kunststof kan perfect even moeilijk afbreekbaar zijn als een gewone."
@@ -5524,7 +5524,7 @@
             "groene waterstof brandt met een groengekleurde vlam"
           ],
           "antwoord": 0,
-          "uitleg": "Het gas zelf is altijd hetzelfde; de kleur zegt hoe het gemaakt is. Grijs komt uit aardgas, blauw ook maar met afvang van de CO2."
+          "uitleg": "Het gas zelf is altijd hetzelfde; de kleur zegt hoe het gemaakt is. Grijs komt uit aardgas, blauw ook maar met afvang van de CO₂."
         },
         {
           "type": "meerkeuze",
@@ -5540,9 +5540,9 @@
         },
         {
           "type": "waarofniet",
-          "vraag": "Een CO2-neutraal proces neemt meer CO2 op dan het uitstoot.",
+          "vraag": "Een CO₂-neutraal proces neemt meer CO₂ op dan het uitstoot.",
           "antwoord": false,
-          "uitleg": "Neutraal betekent dat opname en uitstoot elkaar in evenwicht houden. Méér opnemen dan uitstoten heet CO2-negatief."
+          "uitleg": "Neutraal betekent dat opname en uitstoot elkaar in evenwicht houden. Méér opnemen dan uitstoten heet CO₂-negatief."
         },
         {
           "type": "meerkeuze",
@@ -5666,15 +5666,15 @@
         },
         {
           "type": "meerkeuze",
-          "vraag": "Twee identieke metalen bollen, de ene met een lading van 8 eenheden en de andere neutraal, raken elkaar even aan. Wat is de lading van elke bol daarna?",
+          "vraag": "Twee identieke metalen bollen, de ene met een lading van \\(8\\) eenheden en de andere neutraal, raken elkaar even aan. Wat is de lading van elke bol daarna?",
           "opties": [
-            "elk 4 eenheden",
-            "elk 8 eenheden",
-            "de eerste 8 en de tweede 0",
-            "elk 16 eenheden"
+            "elk \\(4\\) eenheden",
+            "elk \\(8\\) eenheden",
+            "de eerste \\(8\\) en de tweede \\(0\\)",
+            "elk \\(16\\) eenheden"
           ],
           "antwoord": 0,
-          "uitleg": "Bij twee even grote bollen verdeelt de lading zich gelijk. De totale lading blijft 8, dus krijgt elke bol de helft."
+          "uitleg": "Bij twee even grote bollen verdeelt de lading zich gelijk. De totale lading blijft \\(8\\), dus krijgt elke bol de helft."
         },
         {
           "type": "invultekst",
@@ -6610,7 +6610,7 @@
         },
         {
           "type": "meerkeuze",
-          "vraag": "Een auto rijdt met een constante snelheid van 50 km per uur op een rechte weg. Welke beweging is dat?",
+          "vraag": "Een auto rijdt met een constante snelheid van \\(50\\) km per uur op een rechte weg. Welke beweging is dat?",
           "opties": [
             "een ERB",
             "een EVRB",
@@ -6935,15 +6935,15 @@
         },
         {
           "type": "meerkeuze",
-          "vraag": "Op een voorwerp van 4 kg werkt een resulterende kracht van 12 N. Hoe groot is de versnelling?",
+          "vraag": "Op een voorwerp van \\(4\\) kg werkt een resulterende kracht van \\(12\\) N. Hoe groot is de versnelling?",
           "opties": [
-            "3 meter per seconde kwadraat",
-            "48 meter per seconde kwadraat",
-            "16 meter per seconde kwadraat",
-            "0,33 meter per seconde kwadraat"
+            "\\(3\\) meter per seconde kwadraat",
+            "\\(48\\) meter per seconde kwadraat",
+            "\\(16\\) meter per seconde kwadraat",
+            "\\(0{,}33\\) meter per seconde kwadraat"
           ],
           "antwoord": 0,
-          "uitleg": "Je deelt de kracht door de massa, dus 12 gedeeld door 4. Vermenigvuldigen zou de kracht geven, niet de versnelling."
+          "uitleg": "Je deelt de kracht door de massa, dus \\(12 : 4\\). Vermenigvuldigen zou de kracht geven, niet de versnelling."
         }
       ]
     },
@@ -6971,19 +6971,19 @@
             "periode",
             "de periode"
           ],
-          "uitleg": "De periode krijgt het symbool T en wordt in seconden uitgedrukt. De frequentie is precies haar omgekeerde: f is gelijk aan 1 gedeeld door T."
+          "uitleg": "De periode krijgt het symbool T en wordt in seconden uitgedrukt. De frequentie is precies haar omgekeerde: f is gelijk aan \\(1\\) gedeeld door T."
         },
         {
           "type": "meerkeuze",
-          "vraag": "Een trilling heeft een periode van 0,5 seconde. Wat is de frequentie?",
+          "vraag": "Een trilling heeft een periode van \\(0{,}5\\) seconde. Wat is de frequentie?",
           "opties": [
-            "2 hertz",
-            "0,5 hertz",
-            "5 hertz",
-            "50 hertz"
+            "\\(2\\) hertz",
+            "\\(0{,}5\\) hertz",
+            "\\(5\\) hertz",
+            "\\(50\\) hertz"
           ],
           "antwoord": 0,
-          "uitleg": "De frequentie is 1 gedeeld door de periode, dus 1 gedeeld door 0,5. Er passen dus twee volledige trillingen in één seconde."
+          "uitleg": "De frequentie is \\(1\\) gedeeld door de periode, dus \\(1 : 0{,}5\\). Er passen dus twee volledige trillingen in één seconde."
         },
         {
           "type": "waarofniet",
@@ -7113,15 +7113,15 @@
         },
         {
           "type": "meerkeuze",
-          "vraag": "Een golf heeft een golflengte van 2 meter en een frequentie van 5 hertz. Hoe snel gaat de golf?",
+          "vraag": "Een golf heeft een golflengte van \\(2\\) meter en een frequentie van \\(5\\) hertz. Hoe snel gaat de golf?",
           "opties": [
-            "10 meter per seconde",
-            "2,5 meter per seconde",
-            "0,4 meter per seconde",
-            "7 meter per seconde"
+            "\\(10\\) meter per seconde",
+            "\\(2{,}5\\) meter per seconde",
+            "\\(0{,}4\\) meter per seconde",
+            "\\(7\\) meter per seconde"
           ],
           "antwoord": 0,
-          "uitleg": "De golfsnelheid is de golflengte maal de frequentie, dus 2 maal 5. Je kan ook de golflengte door de periode delen; dat geeft hetzelfde."
+          "uitleg": "De golfsnelheid is de golflengte maal de frequentie, dus \\(2 \\cdot 5\\). Je kan ook de golflengte door de periode delen; dat geeft hetzelfde."
         },
         {
           "type": "waarofniet",
@@ -7231,53 +7231,53 @@
           "type": "meerkeuze",
           "vraag": "Welke frequenties kan een mens normaal horen?",
           "opties": [
-            "van ongeveer 20 tot 20 000 hertz",
-            "van ongeveer 2 tot 200 hertz",
-            "van ongeveer 200 tot 2 000 hertz",
-            "van ongeveer 20 000 tot 200 000 hertz"
+            "van ongeveer \\(20\\) tot \\(20\\,000\\) hertz",
+            "van ongeveer \\(2\\) tot \\(200\\) hertz",
+            "van ongeveer \\(200\\) tot \\(2\\,000\\) hertz",
+            "van ongeveer \\(20\\,000\\) tot \\(200\\,000\\) hertz"
           ],
           "antwoord": 0,
           "uitleg": "Onder die grens spreek je van infrasoon geluid, erboven van ultrasoon. Met de leeftijd verlies je vooral de hoogste tonen."
         },
         {
           "type": "invultekst",
-          "vraag": "Hoe noem je geluid met een frequentie boven de 20 000 hertz?",
+          "vraag": "Hoe noem je geluid met een frequentie boven de \\(20\\,000\\) hertz?",
           "antwoord": [
             "ultrasoon",
             "ultrasoon geluid",
             "ultrageluid"
           ],
-          "uitleg": "Wij horen het niet, maar vleermuizen en dolfijnen gebruiken het wel. Onder de 20 hertz spreek je van infrasoon geluid."
+          "uitleg": "Wij horen het niet, maar vleermuizen en dolfijnen gebruiken het wel. Onder de \\(20\\) hertz spreek je van infrasoon geluid."
         },
         {
           "type": "waarofniet",
           "vraag": "Infrasoon geluid heeft een hogere frequentie dan geluid dat wij kunnen horen.",
           "antwoord": false,
-          "uitleg": "Infrasoon zit juist onder onze ondergrens van ongeveer 20 hertz. Boven onze bovengrens spreek je van ultrasoon geluid."
+          "uitleg": "Infrasoon zit juist onder onze ondergrens van ongeveer \\(20\\) hertz. Boven onze bovengrens spreek je van ultrasoon geluid."
         },
         {
           "type": "meerkeuze",
           "vraag": "Wat is de gehoordrempel op de decibelschaal?",
           "opties": [
-            "0 decibel",
-            "20 decibel",
-            "80 decibel",
-            "120 decibel"
+            "\\(0\\) decibel",
+            "\\(20\\) decibel",
+            "\\(80\\) decibel",
+            "\\(120\\) decibel"
           ],
           "antwoord": 0,
-          "uitleg": "Dat is het zwakste geluid dat een gezond oor nog kan horen. De pijndrempel ligt rond 120 decibel."
+          "uitleg": "Dat is het zwakste geluid dat een gezond oor nog kan horen. De pijndrempel ligt rond \\(120\\) decibel."
         },
         {
           "type": "meerkeuze",
           "vraag": "Vanaf welk geluidsniveau is gehoorbescherming nodig?",
           "opties": [
-            "vanaf ongeveer 80 decibel",
-            "vanaf ongeveer 20 decibel",
-            "vanaf ongeveer 40 decibel",
-            "vanaf ongeveer 120 decibel"
+            "vanaf ongeveer \\(80\\) decibel",
+            "vanaf ongeveer \\(20\\) decibel",
+            "vanaf ongeveer \\(40\\) decibel",
+            "vanaf ongeveer \\(120\\) decibel"
           ],
           "antwoord": 0,
-          "uitleg": "Dat is de gevaargrens: boven die waarde kan langdurige blootstelling je gehoor beschadigen. Bij 120 decibel zit je al aan de pijndrempel."
+          "uitleg": "Dat is de gevaargrens: boven die waarde kan langdurige blootstelling je gehoor beschadigen. Bij \\(120\\) decibel zit je al aan de pijndrempel."
         },
         {
           "type": "waarofniet",
@@ -7317,31 +7317,31 @@
           "type": "meerkeuze",
           "vraag": "Je gaat twee keer zo ver van een geluidsbron staan. Hoeveel zakt het geluidsniveau?",
           "opties": [
-            "met ongeveer 6 decibel",
-            "met ongeveer 3 decibel",
-            "met ongeveer 20 decibel",
+            "met ongeveer \\(6\\) decibel",
+            "met ongeveer \\(3\\) decibel",
+            "met ongeveer \\(20\\) decibel",
             "het blijft gelijk"
           ],
           "antwoord": 0,
-          "uitleg": "Twee keer verder betekent vier keer minder intensiteit, en dat is ongeveer 6 decibel minder. Afstand houden is dus een heel efficiënte bescherming."
+          "uitleg": "Twee keer verder betekent vier keer minder intensiteit, en dat is ongeveer \\(6\\) decibel minder. Afstand houden is dus een heel efficiënte bescherming."
         },
         {
           "type": "meerkeuze",
           "vraag": "De geluidsintensiteit wordt twee keer groter. Hoeveel stijgt het geluidsniveau?",
           "opties": [
-            "met ongeveer 3 decibel",
-            "met ongeveer 6 decibel",
-            "met ongeveer 2 decibel",
+            "met ongeveer \\(3\\) decibel",
+            "met ongeveer \\(6\\) decibel",
+            "met ongeveer \\(2\\) decibel",
             "het verdubbelt"
           ],
           "antwoord": 0,
-          "uitleg": "De decibelschaal is logaritmisch, dus verdubbelen van de intensiteit geeft maar 3 decibel meer. Vier keer meer intensiteit geeft 6 decibel meer."
+          "uitleg": "De decibelschaal is logaritmisch, dus verdubbelen van de intensiteit geeft maar \\(3\\) decibel meer. Vier keer meer intensiteit geeft \\(6\\) decibel meer."
         },
         {
           "type": "waarofniet",
           "vraag": "Twee keer zoveel geluidsintensiteit betekent twee keer zoveel decibel.",
           "antwoord": false,
-          "uitleg": "De decibelschaal is logaritmisch, dus zo werkt ze niet. Een verdubbeling van de intensiteit geeft ongeveer 3 decibel meer."
+          "uitleg": "De decibelschaal is logaritmisch, dus zo werkt ze niet. Een verdubbeling van de intensiteit geeft ongeveer \\(3\\) decibel meer."
         },
         {
           "type": "invultekst",
@@ -7422,7 +7422,7 @@
             "de lichtsnelheid",
             "lichtsnelheid"
           ],
-          "uitleg": "Dat is ongeveer 300 000 kilometer per seconde, voor elke soort straling van het spectrum. In glas of water gaat de golf trager."
+          "uitleg": "Dat is ongeveer \\(300\\,000\\) kilometer per seconde, voor elke soort straling van het spectrum. In glas of water gaat de golf trager."
         },
         {
           "type": "waarofniet",
@@ -7881,15 +7881,15 @@
         },
         {
           "type": "meerkeuze",
-          "vraag": "Een nuclide heeft massagetal 23 en atoomnummer 11. Hoeveel neutronen zitten er in de kern?",
+          "vraag": "Een nuclide heeft massagetal \\(23\\) en atoomnummer \\(11\\). Hoeveel neutronen zitten er in de kern?",
           "opties": [
-            "12",
-            "11",
-            "23",
-            "34"
+            "\\(12\\)",
+            "\\(11\\)",
+            "\\(23\\)",
+            "\\(34\\)"
           ],
           "antwoord": 0,
-          "uitleg": "Je trekt het atoomnummer van het massagetal af, dus 23 min 11. Het aantal protonen is 11, want dat is precies het atoomnummer."
+          "uitleg": "Je trekt het atoomnummer van het massagetal af, dus \\(23\\) min \\(11\\). Het aantal protonen is \\(11\\), want dat is precies het atoomnummer."
         },
         {
           "type": "meerkeuze",
@@ -7939,7 +7939,7 @@
         },
         {
           "type": "meerkeuze",
-          "vraag": "Wanneer is een lichte kern met Z kleiner dan 20 doorgaans stabiel?",
+          "vraag": "Wanneer is een lichte kern met Z kleiner dan \\(20\\) doorgaans stabiel?",
           "opties": [
             "als er ongeveer evenveel neutronen als protonen zijn",
             "als er veel meer neutronen dan protonen in zitten",
@@ -7978,15 +7978,15 @@
         },
         {
           "type": "meerkeuze",
-          "vraag": "Je begint met 800 onstabiele kernen en de halveringstijd is 5 jaar. Hoeveel blijven er na 15 jaar over?",
+          "vraag": "Je begint met \\(800\\) onstabiele kernen en de halveringstijd is \\(5\\) jaar. Hoeveel blijven er na \\(15\\) jaar over?",
           "opties": [
-            "100",
-            "200",
-            "400",
-            "50"
+            "\\(100\\)",
+            "\\(200\\)",
+            "\\(400\\)",
+            "\\(50\\)"
           ],
           "antwoord": 0,
-          "uitleg": "Vijftien jaar is drie halveringstijden, dus deel je drie keer door twee. Van 800 naar 400, dan naar 200 en dan naar 100."
+          "uitleg": "Vijftien jaar is drie halveringstijden, dus deel je drie keer door twee. Van \\(800\\) naar \\(400\\), dan naar \\(200\\) en dan naar \\(100\\)."
         },
         {
           "type": "invultekst",
@@ -8075,7 +8075,7 @@
             "met de halveringstijd bij het symbool"
           ],
           "antwoord": 0,
-          "uitleg": "Het massagetal komt linksboven en het atoomnummer linksonder. Men schrijft het ook als X-A, bijvoorbeeld koolstof-14."
+          "uitleg": "Het massagetal komt linksboven en het atoomnummer linksonder. Men schrijft het ook als X-A, bijvoorbeeld koolstof-\\(14\\)."
         }
       ]
     },
@@ -8229,9 +8229,9 @@
           "type": "meerkeuze",
           "vraag": "Wat gebeurt er met het massagetal en het atoomnummer bij alfaverval?",
           "opties": [
-            "het massagetal zakt met 4 en het atoomnummer met 2",
-            "het massagetal blijft gelijk en het atoomnummer stijgt met 1",
-            "het massagetal zakt met 2 en het atoomnummer met 4",
+            "het massagetal zakt met \\(4\\) en het atoomnummer met \\(2\\)",
+            "het massagetal blijft gelijk en het atoomnummer stijgt met \\(1\\)",
+            "het massagetal zakt met \\(2\\) en het atoomnummer met \\(4\\)",
             "het massagetal en het atoomnummer blijven allebei gelijk"
           ],
           "antwoord": 0,
@@ -8293,7 +8293,7 @@
           "vraag": "Welke toepassingen van ioniserende straling bestaan er? Kruis alles aan wat juist is.",
           "opties": [
             "radiotherapie tegen kanker",
-            "de koolstof-14-methode om ouderdom te bepalen",
+            "de koolstof-\\(14\\)-methode om ouderdom te bepalen",
             "een PET-scan met een radioactieve tracer",
             "het opladen van een gsm-batterij"
           ],
@@ -8399,15 +8399,15 @@
         },
         {
           "type": "meerkeuze",
-          "vraag": "Je moet een massa van ongeveer 2 gram op een tienden van een gram nauwkeurig wegen. Welke balans kies je?",
+          "vraag": "Je moet een massa van ongeveer \\(2\\) gram op een tienden van een gram nauwkeurig wegen. Welke balans kies je?",
           "opties": [
-            "een balans die tot op 0,01 gram nauwkeurig weegt",
-            "een balans die tot op 1 gram nauwkeurig weegt",
-            "een balans die tot op 10 gram nauwkeurig weegt",
-            "een balans die tot op 100 gram nauwkeurig weegt"
+            "een balans die tot op \\(0{,}01\\) gram nauwkeurig weegt",
+            "een balans die tot op \\(1\\) gram nauwkeurig weegt",
+            "een balans die tot op \\(10\\) gram nauwkeurig weegt",
+            "een balans die tot op \\(100\\) gram nauwkeurig weegt"
           ],
           "antwoord": 0,
-          "uitleg": "Je hebt minstens de nauwkeurigheid nodig die je antwoord vraagt, en liever nog een cijfer beter. Een balans op 1 gram zou je tienden niet eens tonen."
+          "uitleg": "Je hebt minstens de nauwkeurigheid nodig die je antwoord vraagt, en liever nog een cijfer beter. Een balans op \\(1\\) gram zou je tienden niet eens tonen."
         },
         {
           "type": "invultekst",
@@ -8521,7 +8521,7 @@
         },
         {
           "type": "meerkeuze",
-          "vraag": "Je meet met een lintmeter in centimeters en schrijft 12,3456 cm op. Wat is daar fout aan?",
+          "vraag": "Je meet met een lintmeter in centimeters en schrijft \\(12{,}3456\\) cm op. Wat is daar fout aan?",
           "opties": [
             "je schrijft meer cijfers op dan je kan meten",
             "je gebruikt de verkeerde eenheid voor een lengte",
@@ -8585,7 +8585,7 @@
             "honderd"
           ],
           "antwoord": 0,
-          "uitleg": "Mega staat voor tien tot de zesde. Kilo is duizend en giga is een miljard."
+          "uitleg": "Mega staat voor \\(10^{6}\\). Kilo is duizend en giga is een miljard."
         },
         {
           "type": "meerkeuze",
@@ -8607,24 +8607,24 @@
         },
         {
           "type": "meerkeuze",
-          "vraag": "Hoeveel meter is 2,5 kilometer?",
+          "vraag": "Hoeveel meter is \\(2{,}5\\) kilometer?",
           "opties": [
-            "2500 meter",
-            "250 meter",
-            "25 000 meter",
-            "0,0025 meter"
+            "\\(2500\\) meter",
+            "\\(250\\) meter",
+            "\\(25\\,000\\) meter",
+            "\\(0{,}0025\\) meter"
           ],
           "antwoord": 0,
           "uitleg": "Kilo betekent duizend, dus vermenigvuldig je met duizend. Van meter naar kilometer deel je juist door duizend."
         },
         {
           "type": "meerkeuze",
-          "vraag": "Hoeveel seconden is 0,25 milliseconde?",
+          "vraag": "Hoeveel seconden is \\(0{,}25\\) milliseconde?",
           "opties": [
-            "0,00025 seconde",
-            "0,025 seconde",
-            "250 seconden",
-            "25 seconden"
+            "\\(0{,}00025\\) seconde",
+            "\\(0{,}025\\) seconde",
+            "\\(250\\) seconden",
+            "\\(25\\) seconden"
           ],
           "antwoord": 0,
           "uitleg": "Milli is een duizendste, dus deel je door duizend. Omgekeerd vermenigvuldig je met duizend om van seconden naar milliseconden te gaan."
@@ -8640,12 +8640,12 @@
         },
         {
           "type": "meerkeuze",
-          "vraag": "Hoe schrijf je 0,00042 meter in de wetenschappelijke notatie?",
+          "vraag": "Hoe schrijf je \\(0{,}00042\\) meter in de wetenschappelijke notatie?",
           "opties": [
-            "4,2 maal tien tot de min vier",
-            "42 maal tien tot de min vijf",
-            "0,42 maal tien tot de min drie",
-            "4,2 maal tien tot de vier"
+            "\\(4{,}2\\) maal tien tot de min vier",
+            "\\(42\\) maal tien tot de min vijf",
+            "\\(0{,}42\\) maal tien tot de min drie",
+            "\\(4{,}2\\) maal tien tot de vier"
           ],
           "antwoord": 0,
           "uitleg": "In de wetenschappelijke notatie staat er één cijfer voor de komma, en dat cijfer is niet nul. De andere vormen zijn wel gelijk in waarde maar niet correct genoteerd."
@@ -8658,7 +8658,7 @@
         },
         {
           "type": "meerkeuze",
-          "vraag": "Je meet 3,0 cm en 4,00 cm en telt die op. Met hoeveel cijfers na de komma schrijf je het resultaat?",
+          "vraag": "Je meet \\(3{,}0\\) cm en \\(4{,}00\\) cm en telt die op. Met hoeveel cijfers na de komma schrijf je het resultaat?",
           "opties": [
             "met één cijfer na de komma",
             "met twee cijfers na de komma",
@@ -8666,7 +8666,7 @@
             "zonder cijfers na de komma"
           ],
           "antwoord": 0,
-          "uitleg": "Je resultaat kan nooit nauwkeuriger zijn dan je slechtste meting. Die had maar één cijfer na de komma, dus wordt het 7,0 cm."
+          "uitleg": "Je resultaat kan nooit nauwkeuriger zijn dan je slechtste meting. Die had maar één cijfer na de komma, dus wordt het \\(7{,}0\\) cm."
         },
         {
           "type": "waarofniet",

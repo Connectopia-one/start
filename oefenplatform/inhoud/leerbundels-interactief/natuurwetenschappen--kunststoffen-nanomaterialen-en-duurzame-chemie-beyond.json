@@ -46,7 +46,7 @@
    "blokken": [
     {
      "soort": "tekst",
-     "html": "Een <strong>nanomateriaal</strong> is <strong>tussen 1 en 100 nanometer</strong> groot, in minstens één richting. Men deelt ze in naar hoeveel richtingen die nanomaat aanhoudt: <strong>een buckyball is een 0D-structuur</strong>, <strong>een koolstofnanobuis is een 1D-structuur</strong> en <strong>een laagje grafeen is een 2D-structuur</strong>. <strong>Grafeen</strong> is dan ook het nanomateriaal dat <strong>uit één laag koolstofatomen bestaat</strong>."
+     "html": "Een <strong>nanomateriaal</strong> is <strong>tussen \\(1\\) en \\(100\\) nanometer</strong> groot, in minstens één richting. Men deelt ze in naar hoeveel richtingen die nanomaat aanhoudt: <strong>een buckyball is een 0D-structuur</strong>, <strong>een koolstofnanobuis is een 1D-structuur</strong> en <strong>een laagje grafeen is een 2D-structuur</strong>. <strong>Grafeen</strong> is dan ook het nanomateriaal dat <strong>uit één laag koolstofatomen bestaat</strong>."
     },
     {
      "soort": "tekst",
@@ -100,7 +100,7 @@
     },
     {
      "soort": "tekst",
-     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Waterstof</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Hoe ze gemaakt wordt</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Grijs</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">uit aardgas, met uitstoot van CO2</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Blauw</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">zoals grijs, maar met afvang en opslag van de CO2</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Groen</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">met hernieuwbare stroom, en daarin verschilt groene waterstof van grijze</td></tr></table>"
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Waterstof</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Hoe ze gemaakt wordt</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Grijs</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">uit aardgas, met uitstoot van CO₂</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Blauw</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">zoals grijs, maar met afvang en opslag van de CO₂</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Groen</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">met hernieuwbare stroom, en daarin verschilt groene waterstof van grijze</td></tr></table>"
     },
     {
      "soort": "tekst",
@@ -108,7 +108,7 @@
     },
     {
      "soort": "tekst",
-     "html": "<strong>Een CO2-neutraal proces neemt niet meer CO2 op dan het uitstoot</strong>: het neemt er precies even veel op, in balans. Alleen een CO2-negatief proces neemt er meer op dan het uitstoot."
+     "html": "<strong>Een CO₂-neutraal proces neemt niet meer CO₂ op dan het uitstoot</strong>: het neemt er precies even veel op, in balans. Alleen een CO₂-negatief proces neemt er meer op dan het uitstoot."
     },
     {
      "soort": "tekst",
@@ -129,7 +129,7 @@
   "Een monomeer is de kleine molecule waaruit een kunststof opgebouwd wordt.",
   "Polyadditie gebruikt een dubbele binding; bij polycondensatie komt een kleine molecule vrij, meestal water.",
   "Een thermoplast kan je opnieuw smelten, een thermoharder niet; een elastomeer komt na vervormen terug.",
-  "Een nanomateriaal is tussen 1 en 100 nanometer groot, in minstens één richting.",
+  "Een nanomateriaal is tussen \\(1\\) en \\(100\\) nanometer groot, in minstens één richting.",
   "Nanodeeltjes hebben een veel grotere verhouding van oppervlak tot volume en zijn daardoor vaak reactiever.",
   "Op de Ladder van Lansink staat preventie bovenaan en hergebruiken hoger dan recycleren.",
   "Cradle to cradle: afval van het ene product is grondstof voor het volgende.",

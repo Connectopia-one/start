@@ -31,7 +31,7 @@
     {
      "soort": "figuur",
      "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">criterium</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">dit wil zeggen</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">open</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">de onderzoeksvraag is een open vraag, niet met ja of nee te beantwoorden</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">enkelvoudig</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">ze gaat over één onderwerp, één probleem</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">objectief</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">ze laat geen overtuiging of mening blijken</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">haalbaar</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">het onderzoek is uitvoerbaar met de tijd en de middelen die er zijn</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">onderzoekbaar</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">het is geen opzoekvraag en niet meteen oplosbaar</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">relevant</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">het antwoord draagt bij aan wat we al weten over het onderwerp</td></tr></table>",
-     "onderschrift": "Die zes criteria staan in bijlage 1 van de vakfiche, en de linkerkolom krijg je ook op het examen."
+     "onderschrift": "Die zes criteria staan in bijlage \\(1\\) van de vakfiche, en de linkerkolom krijg je ook op het examen."
     },
     {
      "soort": "tekst",
@@ -56,7 +56,7 @@
     },
     {
      "soort": "weetje",
-     "html": "Een <strong>waarneming</strong> is wat je ziet of meet ('het water is 30 °C'). Een <strong>besluit</strong> is wat je daaruit afleidt ('water koelt trager af met een deksel'). Een conclusie steunt op data, nooit op een gevoel — en een hypothese die niet uitkomt, is géén mislukking: je hebt geleerd hoe het níet zit. Resultaten weglaten omdat ze niet passen, mag nooit."
+     "html": "Een <strong>waarneming</strong> is wat je ziet of meet ('het water is \\(30^{\\circ}\\text{C}\\)'). Een <strong>besluit</strong> is wat je daaruit afleidt ('water koelt trager af met een deksel'). Een conclusie steunt op data, nooit op een gevoel — en een hypothese die niet uitkomt, is géén mislukking: je hebt geleerd hoe het níet zit. Resultaten weglaten omdat ze niet passen, mag nooit."
     }
    ]
   },
@@ -69,7 +69,7 @@
     },
     {
      "soort": "tekst",
-     "html": "Uit een tabel haal je verbanden: duurt het bij 10 °C 40 min, bij 20 °C 20 min en bij 40 °C 10 min, dan geldt: hoe hoger de temperatuur, hoe korter de tijd. Uit een grafiek lees je hetzelfde af: meet je afkoelend water (80 °C, 60 °C, 45 °C, 35 °C, 30 °C), dan krijg je een dalende kromme die steeds vlakker wordt."
+     "html": "Uit een tabel haal je verbanden: duurt het bij \\(10^{\\circ}\\text{C}\\,40\\) min, bij \\(20^{\\circ}\\text{C}\\,20\\) min en bij \\(40^{\\circ}\\text{C}\\,10\\) min, dan geldt: hoe hoger de temperatuur, hoe korter de tijd. Uit een grafiek lees je hetzelfde af: meet je afkoelend water (\\(80^{\\circ}\\text{C}\\), \\(60^{\\circ}\\text{C}\\), \\(45^{\\circ}\\text{C}\\), \\(35^{\\circ}\\text{C}\\), \\(30^{\\circ}\\text{C}\\)), dan krijg je een dalende kromme die steeds vlakker wordt."
     },
     {
      "soort": "figuur",
@@ -82,11 +82,11 @@
     },
     {
      "soort": "tekst",
-     "html": "Uit een grafiek haal je ook getallen. Lees je op een rechte door de oorsprong bij 4 s een <strong>afstand</strong> van 20 m af, dan is de snelheid 20 : 4 = 5 m/s."
+     "html": "Uit een grafiek haal je ook getallen. Lees je op een rechte door de oorsprong bij \\(4\\) s een <strong>afstand</strong> van \\(20\\) m af, dan is de snelheid \\(20 : 4 = 5\\) m/s."
     },
     {
      "soort": "kader",
-     "html": "<strong>Formules omvormen</strong> hoort erbij: je drukt één variabele uit <strong>in functie van</strong> de andere. Uit v = Δx / Δt volgt Δx = v × Δt en Δt = Δx / v. Uit ρ = m / V volgt m = ρ × V en V = m / ρ. Je vermenigvuldigt of deelt gewoon beide kanten met dezelfde grootheid."
+     "html": "<strong>Formules omvormen</strong> hoort erbij: je drukt één variabele uit <strong>in functie van</strong> de andere. Uit \\(v = \\Delta x / \\Delta t\\) volgt \\(\\Delta x = v \\times \\Delta t\\) en \\(\\Delta t = \\Delta x / v\\). Uit \\(\\rho = m / V\\) volgt \\(m = \\rho \\times V\\) en \\(V = m / \\rho\\). Je vermenigvuldigt of deelt gewoon beide kanten met dezelfde grootheid."
     },
     {
      "soort": "tekst",

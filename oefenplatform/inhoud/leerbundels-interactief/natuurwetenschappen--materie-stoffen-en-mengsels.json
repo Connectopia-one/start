@@ -36,7 +36,7 @@
     },
     {
      "soort": "tekst",
-     "html": "<strong>Smelten</strong> is vast naar vloeibaar, <strong>stollen</strong> het omgekeerde; voor eenzelfde zuivere stof gebeuren ze bij dezelfde temperatuur, voor water bij 0 °C. <strong>Verdampen</strong> is vloeibaar naar gasvormig, <strong>condenseren</strong> het omgekeerde. <strong>Sublimeren</strong> gaat van vast rechtstreeks naar gas — droogijs is vast koolstofdioxide en heet daarom droog ijs — en <strong>rijpen</strong> of <strong>desublimeren</strong> gaat van gas rechtstreeks naar vast, zoals rijp op een tak."
+     "html": "<strong>Smelten</strong> is vast naar vloeibaar, <strong>stollen</strong> het omgekeerde; voor eenzelfde zuivere stof gebeuren ze bij dezelfde temperatuur, voor water bij \\(0^{\\circ}\\text{C}\\). <strong>Verdampen</strong> is vloeibaar naar gasvormig, <strong>condenseren</strong> het omgekeerde. <strong>Sublimeren</strong> gaat van vast rechtstreeks naar gas — droogijs is vast koolstofdioxide en heet daarom droog ijs — en <strong>rijpen</strong> of <strong>desublimeren</strong> gaat van gas rechtstreeks naar vast, zoals rijp op een tak."
     },
     {
      "soort": "tekst",
@@ -44,7 +44,7 @@
     },
     {
      "soort": "weetje",
-     "html": "Tijdens het smelten van ijs <em>stijgt</em> de temperatuur niet. Zolang er nog ijs drijft, blijft het mengsel 0 °C: alle toegevoerde warmte gaat naar het losmaken van de deeltjes, niet naar opwarmen."
+     "html": "Tijdens het smelten van ijs <em>stijgt</em> de temperatuur niet. Zolang er nog ijs drijft, blijft het mengsel \\(0^{\\circ}\\text{C}\\): alle toegevoerde warmte gaat naar het losmaken van de deeltjes, niet naar opwarmen."
     }
    ]
   },
@@ -108,7 +108,7 @@
     },
     {
      "soort": "tekst",
-     "html": "Oplossen verandert daar niets aan: de suikerdeeltjes zitten verspreid tussen de deeltjes van de melk, maar het is nog altijd suiker. Wel verandert een mengsel de <strong>stofeigenschappen</strong>: zuiver water bevriest bij 0 °C, zeewater pas lager. Daarom strooien ze zout op de weg."
+     "html": "Oplossen verandert daar niets aan: de suikerdeeltjes zitten verspreid tussen de deeltjes van de melk, maar het is nog altijd suiker. Wel verandert een mengsel de <strong>stofeigenschappen</strong>: zuiver water bevriest bij \\(0^{\\circ}\\text{C}\\), zeewater pas lager. Daarom strooien ze zout op de weg."
     },
     {
      "soort": "tekst",

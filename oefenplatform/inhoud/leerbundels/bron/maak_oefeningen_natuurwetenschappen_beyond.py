@@ -92,14 +92,14 @@ OEFENBUNDELS["oefenbundel-de-cel-organellen-membranen-en-weefsels-beyond"] = dic
         dict(kop="Waarom blijven cellen klein?",
              opdracht="Reken en besluit.",
              oefeningen=[
-                 ("kort", "Een kubusvormige cel heeft een zijde van 2 mm. Hoe groot is haar volume?",
-                  "8 mm³", "90px"),
-                 ("kort", "Hoe groot is de totale oppervlakte van die kubus (6 vlakken)?",
-                  "24 mm²", "90px"),
-                 ("open", "Verdubbel je de zijde tot 4 mm, dan wordt het volume 64 mm³ en de "
-                          "oppervlakte 96 mm². Wat gebeurt er met de verhouding oppervlakte op volume, "
+                 ("kort", r"Een kubusvormige cel heeft een zijde van \(2\) mm. Hoe groot is haar volume?",
+                  r"\(8\,\text{mm}^{3}\)", "90px"),
+                 ("kort", r"Hoe groot is de totale oppervlakte van die kubus (\(6\) vlakken)?",
+                  r"\(24\,\text{mm}^{2}\)", "90px"),
+                 ("open", r"Verdubbel je de zijde tot \(4\) mm, dan wordt het volume \(64\,\text{mm}^{3}\) en de "
+                          r"oppervlakte \(96\,\text{mm}^{2}\). Wat gebeurt er met de verhouding oppervlakte op volume, "
                           "en waarom zet dat een grens op de grootte van een cel?",
-                  "Ze zakt van 3 naar 1,5. Een grote cel heeft dus per eenheid volume te weinig "
+                  r"Ze zakt van \(3\) naar \(1{,}5\). Een grote cel heeft dus per eenheid volume te weinig "
                   "membraan om stoffen uit te wisselen. Daarom blijven cellen klein en worden "
                   "organismen groot door méér cellen te maken.", 4),
              ]),
@@ -127,9 +127,9 @@ OEFENBUNDELS["oefenbundel-fotosynthese-en-celademhaling-beyond"] = dict(
              opdracht="Vul aan.",
              oefeningen=[
                  ("kort", "Schrijf de reactievergelijking van de fotosynthese.",
-                  "6 CO2 + 6 H2O geeft C6H12O6 + 6 O2", WL),
+                  r"6 CO₂ + 6 H₂O geeft C₆H₁₂O₆ + 6 O₂", WL),
                  ("kort", "Schrijf de reactievergelijking van de aerobe celademhaling.",
-                  "C6H12O6 + 6 O2 geeft 6 CO2 + 6 H2O en energie", WL),
+                  r"C₆H₁₂O₆ + 6 O₂ geeft 6 CO₂ + 6 H₂O en energie", WL),
                  ("open", "Leg uit waarom men zegt dat die twee processen in elkaar passen.",
                   "De producten van de ene zijn de grondstoffen van de andere: glucose en zuurstof uit "
                   "de fotosynthese zijn wat de celademhaling verbruikt, en haar koolstofdioxide en "
@@ -320,7 +320,7 @@ OEFENBUNDELS["oefenbundel-voortplanting-zwangerschap-en-vruchtbaarheid-beyond"] 
                   "voor schadelijke stoffen. Wie nog niet weet dat ze zwanger is, zit precies in die "
                   "weken.", 3),
                  ("kort", "Vanaf ongeveer welk moment is een foetus levensvatbaar?",
-                  "vanaf ongeveer 24 weken", WW),
+                  r"vanaf ongeveer \(24\) weken", WW),
              ]),
         dict(kop="De placenta",
              opdracht="Beantwoord in volledige zinnen.",
@@ -388,13 +388,13 @@ OEFENBUNDELS["oefenbundel-dna-replicatie-en-celdelingen-beyond"] = dict(
         dict(kop="Rekenen met basen",
              opdracht="Reken uit en schrijf je stappen op.",
              oefeningen=[
-                 ("open", "In een stuk DNA is 24 procent van de basen guanine. Hoeveel procent is "
+                 ("open", r"In een stuk DNA is \(24\) procent van de basen guanine. Hoeveel procent is "
                           "adenine?",
-                  "Guanine en cytosine zijn elk 24 procent, samen 48. Voor adenine en thymine blijft "
-                  "52 procent over, gelijk verdeeld, dus 26 procent adenine.", 3),
-                 ("open", "In een ander stuk is 35 procent thymine. Hoeveel procent is cytosine?",
-                  "Thymine en adenine zijn elk 35 procent, samen 70. Voor guanine en cytosine blijft "
-                  "30 procent over, dus 15 procent cytosine.", 3),
+                  r"Guanine en cytosine zijn elk \(24\) procent, samen \(48\). Voor adenine en thymine blijft "
+                  r"\(52\) procent over, gelijk verdeeld, dus \(26\) procent adenine.", 3),
+                 ("open", r"In een ander stuk is \(35\) procent thymine. Hoeveel procent is cytosine?",
+                  r"Thymine en adenine zijn elk \(35\) procent, samen \(70\). Voor guanine en cytosine blijft "
+                  r"\(30\) procent over, dus \(15\) procent cytosine.", 3),
              ]),
         dict(kop="Van DNA tot chromosoom",
              opdracht="Vul aan.",
@@ -402,7 +402,7 @@ OEFENBUNDELS["oefenbundel-dna-replicatie-en-celdelingen-beyond"] = dict(
                  ("rij", [("eiwitten waar het DNA rond rolt", "histonen"),
                           ("DNA en eiwit in een niet-delende kern", "chromatine"),
                           ("de insnoering van een chromosoom", "centromeer")], None, WW),
-                 ("kort", "Hoeveel chromosomen heeft een menselijke lichaamscel?", "46", "70px"),
+                 ("kort", "Hoeveel chromosomen heeft een menselijke lichaamscel?", r"\(46\)", "70px"),
                  ("open", "Waarom kan een cel haar DNA niet voortdurend sterk opgerold houden?",
                   "Omdat de genen dan niet afgelezen kunnen worden: een strak opgerolde streng laat de "
                   "leesmachine niet toe.", 3),
@@ -419,7 +419,7 @@ OEFENBUNDELS["oefenbundel-dna-replicatie-en-celdelingen-beyond"] = dict(
                  ("kort", "Hoe heten de losse stukjes van de lagging strand?",
                   "Okazaki-fragmenten", WW),
                  ("open", "Waarom wordt de ene nieuwe streng vlot gebouwd en de andere in stukjes?",
-                  "Het polymerase kan maar in één richting werken, van 5 naar 3, en de twee oude "
+                  r"Het polymerase kan maar in één richting werken, van \(5\) naar \(3\), en de twee oude "
                   "strengen liggen antiparallel. Op de ene kan het dus doorlopen, op de andere moet "
                   "het telkens opnieuw beginnen.", 4),
                  ("waar", "Na de replicatie bestaat elke dubbele helix uit één oude en één nieuwe "
@@ -469,12 +469,12 @@ OEFENBUNDELS["oefenbundel-overerving-van-genetisch-materiaal-beyond"] = dict(
         dict(kop="Kruisingen met één kenmerk",
              opdracht="Teken het punnettvierkant op je blad en vul de uitkomst in.",
              oefeningen=[
-                 ("kort", "Aa × Aa: welke genotypische verhouding?", "1 op 2 op 1", WW),
-                 ("kort", "Aa × Aa: welke fenotypische verhouding?", "3 op 1", WW),
-                 ("kort", "Aa × aa: hoeveel procent toont het recessieve kenmerk?",
-                  "50 procent", WW),
-                 ("kort", "AA × aa: hoeveel procent toont het recessieve kenmerk?",
-                  "0 procent", WW),
+                 ("kort", "Aa × Aa: welke genotypische verhouding?", r"\(1\) op \(2\) op \(1\)", WW),
+                 ("kort", "Aa × Aa: welke fenotypische verhouding?", r"\(3\) op \(1\)", WW),
+                 ("kort", r"\(\text{Aa} \cdot aa\): hoeveel procent toont het recessieve kenmerk?",
+                  r"\(50\) procent", WW),
+                 ("kort", r"\(\text{AA} \cdot aa\): hoeveel procent toont het recessieve kenmerk?",
+                  r"\(0\) procent", WW),
                  ("open", "Twee planten met het dominante kenmerk krijgen een nakomeling met het "
                           "recessieve kenmerk. Wat weet je dan zeker over de drie betrokkenen?",
                   "Beide ouders zijn heterozygoot en dragen dus het recessieve allel. De nakomeling is "
@@ -485,7 +485,7 @@ OEFENBUNDELS["oefenbundel-overerving-van-genetisch-materiaal-beyond"] = dict(
              oefeningen=[
                  ("open", "Twee roze leeuwenbekken worden gekruist. Welke kleuren verwacht je, en in "
                           "welke verhouding?",
-                  "1 rood, 2 roze, 1 wit. Dus 25 procent rood, 50 procent roze en 25 procent wit.", 3),
+                  r"\(1\) rood, \(2\) roze, \(1\) wit. Dus \(25\) procent rood, \(50\) procent roze en \(25\) procent wit.", 3),
                  ("waar", "Bij intermediaire overerving vallen de genotypische en de fenotypische "
                           "verhouding in de F2 samen.", True),
                  ("open", "Wat is het verschil tussen intermediaire overerving en codominantie?",
@@ -500,8 +500,8 @@ OEFENBUNDELS["oefenbundel-overerving-van-genetisch-materiaal-beyond"] = dict(
         dict(kop="Twee kenmerken samen",
              opdracht="Vul aan.",
              oefeningen=[
-                 ("kort", "AaBb × AaBb: welke fenotypische verhouding?", "9 op 3 op 3 op 1", WW),
-                 ("kort", "AaBb × aabb: welke fenotypische verhouding?", "1 op 1 op 1 op 1", WW),
+                 ("kort", "AaBb × AaBb: welke fenotypische verhouding?", r"\(9\) op \(3\) op \(3\) op \(1\)", WW),
+                 ("kort", "AaBb × aabb: welke fenotypische verhouding?", r"\(1\) op \(1\) op \(1\) op \(1\)", WW),
                  ("kort", "Hoeveel soorten gameten maakt een organisme AaBb?", "vier", "90px"),
                  ("open", "Twee genen liggen op hetzelfde chromosoom. Waarom geldt de "
                           "onafhankelijkheidswet dan niet goed?",
@@ -945,10 +945,10 @@ OEFENBUNDELS["oefenbundel-chemisch-evenwicht-beyond"] = dict(
         dict(kop="Limiterend of in overmaat?",
              opdracht="Reken en antwoord.",
              oefeningen=[
-                 ("kort", "2 mol A met 5 mol B, reactie één op één. Welke stof is in overmaat?",
+                 ("kort", r"\(2\) mol A met \(5\) mol B, reactie één op één. Welke stof is in overmaat?",
                   "stof B", W),
-                 ("kort", "Hoeveel mol B blijft er dan over?", "3 mol", W),
-                 ("kort", "3 mol A met 3 mol B, reactie één op twee (A : B). Welke stof is "
+                 ("kort", "Hoeveel mol B blijft er dan over?", r"\(3\) mol", W),
+                 ("kort", r"\(3\) mol A met \(3\) mol B, reactie één op twee (A : B). Welke stof is "
                           "limiterend?", "stof B", W),
                  ("open", "Waarom gebruikt men bij een proef soms met opzet één reagens in overmaat?",
                   "Om zeker te zijn dat het andere reagens volledig reageert.", 2),
@@ -984,11 +984,11 @@ OEFENBUNDELS["oefenbundel-chemisch-evenwicht-beyond"] = dict(
         dict(kop="Gasevenwichten en druk",
              opdracht="Reken en besluit.",
              oefeningen=[
-                 ("open", "Een gasevenwicht heeft links 3 mol gas en rechts 2 mol gas. Je perst het "
+                 ("open", r"Een gasevenwicht heeft links \(3\) mol gas en rechts \(2\) mol gas. Je perst het "
                           "mengsel in een kleiner vat. Welke kant schuift het op, en waarom?",
                   "Naar rechts, naar de kant met minder gasdeeltjes. Zo neemt het mengsel minder plaats "
                   "in en werkt het de drukverhoging tegen.", 3),
-                 ("open", "Een ander gasevenwicht heeft links 2 mol gas en rechts 2 mol gas. Wat "
+                 ("open", r"Een ander gasevenwicht heeft links \(2\) mol gas en rechts \(2\) mol gas. Wat "
                           "gebeurt er bij een volumeverandering, en waarom?",
                   "Niets. Er is geen kant die het drukverschil kan opvangen, dus blijft het evenwicht "
                   "liggen waar het lag.", 3),
@@ -1025,9 +1025,9 @@ OEFENBUNDELS["oefenbundel-organische-stoffen-classificatie-eigenschappen-en-toep
         dict(kop="Tot welke stofklasse hoort het?",
              opdracht="Schrijf de stofklasse.",
              oefeningen=[
-                 ("rij", [("CH3CH2OH", "alcoholen"), ("CH3COOH", "carbonzuren"),
-                          ("CH3COCH3", "ketonen")], None, WW),
-                 ("rij", [("C4H10", "alkanen"), ("HCHO", "aldehyden"),
+                 ("rij", [("CH₃CH₂OH", "alcoholen"), ("CH₃COOH", "carbonzuren"),
+                          ("CH₃COCH₃", "ketonen")], None, WW),
+                 ("rij", [("C₄H₁₀", "alkanen"), ("HCHO", "aldehyden"),
                           ("CH3OCH3", "ethers")], None, WW),
                  ("rij", [("propaanzuur", "carbonzuren"), ("etheen", "alkenen"),
                           ("methaanamine", "aminen")], None, WW),
@@ -1045,7 +1045,7 @@ OEFENBUNDELS["oefenbundel-organische-stoffen-classificatie-eigenschappen-en-toep
                   "de keten, bij een keton middenin.", 3),
                  ("waar", "Een amine heeft net als een alcohol een OH-groep als kenmerkende groep.",
                   False),
-                 ("open", "Iemand zet CHCl3 bij de alcoholen. Verbeter en verantwoord.",
+                 ("open", "Iemand zet CHCl₃ bij de alcoholen. Verbeter en verantwoord.",
                   "Fout: er staat geen OH-groep in, enkel chloor. Het is een gehalogeneerde "
                   "koolwaterstof.", 3),
              ]),
@@ -1066,7 +1066,7 @@ OEFENBUNDELS["oefenbundel-organische-stoffen-classificatie-eigenschappen-en-toep
              opdracht="Schrijf polair of apolair, en antwoord.",
              oefeningen=[
                  ("rij", [("wasbenzine", "apolair"), ("water", "polair"),
-                          ("CCl4", "apolair")], None, W),
+                          ("CCl₄", "apolair")], None, W),
                  ("kort", "Welk oplosmiddel kies je voor een vlek van een apolaire stof?",
                   "wasbenzine", WW),
                  ("open", "Methanol mengt met water, een lang alkaan niet. Leg beide uit.",
@@ -1093,7 +1093,7 @@ OEFENBUNDELS["oefenbundel-organische-stoffen-classificatie-eigenschappen-en-toep
              oefeningen=[
                  ("rij", [("hoofdbestanddeel van aardgas", "methaan"),
                           ("brandspiritus", "methanol"),
-                          ("azijnzuur", "CH3COOH")], None, WW),
+                          ("azijnzuur", "CH₃COOH")], None, WW),
                  ("rij", [("mierenzuur", "HCOOH"), ("aceton", "propanon"),
                           ("formol", "methanal")], None, WW),
                  ("open", "Noem drie dingen die je over etheen weet.",
@@ -1154,7 +1154,7 @@ OEFENBUNDELS["oefenbundel-kunststoffen-nanomaterialen-en-duurzame-chemie-beyond"
                  ("rij", [("een buckyball", "0D"), ("een koolstofnanobuis", "1D"),
                           ("een laagje grafeen", "2D")], "Welke structuur?", W),
                  ("kort", "Tussen welke twee maten ligt een nanomateriaal?",
-                  "1 en 100 nanometer", WW),
+                  r"\(1\) en \(100\) nanometer", WW),
                  ("kort", "Hoe heet het nanomateriaal van één laag koolstofatomen?", "grafeen", WW),
                  ("waar", "Bij een bottom-upproductie bouw je een nanomateriaal op uit atomen of "
                           "moleculen.", True),
@@ -1191,11 +1191,11 @@ OEFENBUNDELS["oefenbundel-kunststoffen-nanomaterialen-en-duurzame-chemie-beyond"
                   "Je weet dat ze uit plantaardige of dierlijke grondstoffen gemaakt is. Je weet niet of "
                   "ze afbreekt: bio-PE uit rietsuiker blijft even lang liggen als gewone PE.", 4),
                  ("rij", [("uit aardgas, met uitstoot", "grijs"),
-                          ("met afvang en opslag van CO2", "blauw"),
+                          ("met afvang en opslag van CO₂", "blauw"),
                           ("met hernieuwbare stroom", "groen")], "Welke waterstof?", W),
                  ("kort", "Wat is grijs water?",
                   "licht vervuild water van bad, lavabo of wasmachine", WL),
-                 ("waar", "Een CO2-neutraal proces neemt meer CO2 op dan het uitstoot.", False),
+                 ("waar", "Een CO₂-neutraal proces neemt meer CO₂ op dan het uitstoot.", False),
                  ("open", "Wat is greenwashing? Geef een voorbeeld.",
                   "Een product duurzamer voorstellen dan het is, bijvoorbeeld een groen blaadje op de "
                   "verpakking zetten zonder dat er in het proces iets veranderd is.", 3),
@@ -1232,9 +1232,9 @@ OEFENBUNDELS["oefenbundel-elektrostatica-beyond"] = dict(
                           ("een geladen bol die je aardt", "neutraal"),
                           ("een geaarde bol bij een negatieve staaf, aarding eerst verbroken",
                            "positief")], None, W),
-                 ("open", "Twee identieke metalen bollen, de ene met 8 eenheden lading en de andere "
+                 ("open", r"Twee identieke metalen bollen, de ene met \(8\) eenheden lading en de andere "
                           "neutraal, raken elkaar even aan. Hoeveel houdt elke bol?",
-                  "Elk 4 eenheden: de lading verdeelt zich gelijk over twee identieke bollen.", 3),
+                  r"Elk \(4\) eenheden: de lading verdeelt zich gelijk over twee identieke bollen.", 3),
                  ("open", "Waarom wordt een voorwerp door influentie zonder aarding niet echt geladen?",
                   "Omdat de lading er alleen in opschuift. Zodra de geladen staaf weg is, is alles weer "
                   "zoals het was.", 3),
@@ -1404,7 +1404,7 @@ OEFENBUNDELS["oefenbundel-kracht-en-beweging-beyond"] = dict(
         dict(kop="Welke beweging?",
              opdracht="Schrijf ERB, EVRB of ECB.",
              oefeningen=[
-                 ("rij", [("een auto aan 50 km per uur op een rechte weg", "ERB"),
+                 ("rij", [(r"een auto aan \(50\) km per uur op een rechte weg", "ERB"),
                           ("een steen die van een toren valt", "EVRB"),
                           ("een kind op een draaimolen aan vaste snelheid", "ECB")], None, W),
                  ("rij", [("een trein die gelijkmatig afremt", "EVRB"),
@@ -1427,16 +1427,16 @@ OEFENBUNDELS["oefenbundel-kracht-en-beweging-beyond"] = dict(
                   "verandering van de snelheidsvector. Die versnelling wijst naar het middelpunt van de "
                   "cirkel.", 4),
              ]),
-        dict(kop="Rekenen met F = m·a",
+        dict(kop=r"Rekenen met \(F = m \cdot a\)",
              opdracht="Reken uit en schrijf je stappen op.",
              oefeningen=[
-                 ("rij", [("m = 4 kg, F = 12 N", "3 m/s²"), ("m = 2 kg, F = 10 N", "5 m/s²"),
-                          ("m = 5 kg, F = 20 N", "4 m/s²")], "Hoe groot is a?", W),
-                 ("rij", [("m = 3 kg, a = 2 m/s²", "6 N"), ("m = 0,5 kg, a = 8 m/s²", "4 N"),
-                          ("F = 18 N, a = 3 m/s²", "6 kg")], None, W),
+                 ("rij", [(r"\(m = 4\) kg, \(F = 12\) N", r"\(3\) m/s²"), (r"\(m = 2\) kg, \(F = 10\) N", r"\(5\) m/s²"),
+                          (r"\(m = 5\) kg, \(F = 20\) N", r"\(4\) m/s²")], "Hoe groot is a?", W),
+                 ("rij", [(r"\(m = 3\) kg, \(a = 2\) m/s²", r"\(6\) N"), (r"\(m = 0{,}5\) kg, \(a = 8\) m/s²", r"\(4\) N"),
+                          (r"\(F = 18\) N, \(a = 3\) m/s²", r"\(6\) kg")], None, W),
                  ("open", "Een vrachtwagen en een auto krijgen dezelfde kracht. Waarom versnelt de "
                           "vrachtwagen minder?",
-                  "Zijn massa is groter, en in F = m·a zijn massa en versnelling omgekeerd verbonden: bij "
+                  r"Zijn massa is groter, en in \(F = m \cdot a\) zijn massa en versnelling omgekeerd verbonden: bij "
                   "dezelfde kracht geeft een grotere massa een kleinere versnelling.", 4),
                  ("waar", "Verdubbel je de resulterende kracht, dan verdubbelt de versnelling.", True),
              ]),
@@ -1489,8 +1489,8 @@ OEFENBUNDELS["oefenbundel-trillingen-golven-en-geluid-beyond"] = dict(
                  ("rij", [("de grootste uitwijking", "amplitude"),
                           ("de tijd van één trilling", "periode"),
                           ("het aantal trillingen per seconde", "frequentie")], None, WW),
-                 ("rij", [("periode 0,5 s", "2 Hz"), ("periode 0,25 s", "4 Hz"),
-                          ("periode 2 s", "0,5 Hz")], "Welke frequentie?", W),
+                 ("rij", [(r"periode \(0{,}5\) s", r"\(2\) Hz"), (r"periode \(0{,}25\) s", r"\(4\) Hz"),
+                          (r"periode \(2\) s", r"\(0{,}5\) Hz")], "Welke frequentie?", W),
                  ("waar", "Een grotere amplitude betekent altijd ook een grotere frequentie.", False),
                  ("open", "Wat lees je af van de y(t)-grafiek van een trilling? Noem drie dingen.",
                   "De amplitude, de periode en de evenwichtslijn.", 2),
@@ -1510,9 +1510,9 @@ OEFENBUNDELS["oefenbundel-trillingen-golven-en-geluid-beyond"] = dict(
         dict(kop="Golven",
              opdracht="Vul aan en reken.",
              oefeningen=[
-                 ("rij", [("golflengte 2 m, frequentie 5 Hz", "10 m/s"),
-                          ("golflengte 0,5 m, frequentie 8 Hz", "4 m/s"),
-                          ("golflengte 3 m, frequentie 2 Hz", "6 m/s")], "Hoe snel?", W),
+                 ("rij", [(r"golflengte \(2\) m, frequentie \(5\) Hz", r"\(10\) m/s"),
+                          (r"golflengte \(0{,}5\) m, frequentie \(8\) Hz", r"\(4\) m/s"),
+                          (r"golflengte \(3\) m, frequentie \(2\) Hz", r"\(6\) m/s")], "Hoe snel?", W),
                  ("rij", [("geluid in lucht", "longitudinaal"),
                           ("een golf in een gespannen touw", "transversaal"),
                           ("een elektromagnetische golf", "transversaal")], None, WW),
@@ -1535,7 +1535,7 @@ OEFENBUNDELS["oefenbundel-trillingen-golven-en-geluid-beyond"] = dict(
                           ("de klankkleur", "de vorm van het patroon")],
                   "Waarvan hangt het af?", WL),
                  ("kort", "Welke frequenties kan een mens normaal horen?",
-                  "van 20 tot 20 000 Hz", WW),
+                  r"van \(20\) tot \(20\,000\) Hz", WW),
                  ("waar", "Infrasoon geluid heeft een hogere frequentie dan wat wij kunnen horen.",
                   False),
                  ("kort", "In welke middenstof gaat geluid het snelst?", "in een vaste stof", WW),
@@ -1545,10 +1545,10 @@ OEFENBUNDELS["oefenbundel-trillingen-golven-en-geluid-beyond"] = dict(
         dict(kop="De decibelschaal",
              opdracht="Reken en antwoord.",
              oefeningen=[
-                 ("rij", [("twee keer zo ver van de bron", "ongeveer 6 dB minder"),
-                          ("de intensiteit twee keer groter", "ongeveer 3 dB meer")], None, WL),
-                 ("rij", [("de gehoordrempel", "0 dB"), ("gehoorbescherming nodig vanaf", "80 dB"),
-                          ("de pijndrempel", "120 dB")], None, W),
+                 ("rij", [("twee keer zo ver van de bron", r"ongeveer \(6\) dB minder"),
+                          ("de intensiteit twee keer groter", r"ongeveer \(3\) dB meer")], None, WL),
+                 ("rij", [("de gehoordrempel", r"\(0\) dB"), ("gehoorbescherming nodig vanaf", r"\(80\) dB"),
+                          ("de pijndrempel", r"\(120\) dB")], None, W),
                  ("waar", "Twee keer zoveel geluidsintensiteit betekent twee keer zoveel decibel.",
                   False),
                  ("open", "Waar in het oor ontstaat blijvende gehoorschade, en waarom is die blijvend?",
@@ -1674,10 +1674,10 @@ OEFENBUNDELS["oefenbundel-kernfysica-en-radioactiviteit-beyond"] = dict(
         dict(kop="De bouw van een kern",
              opdracht="Reken uit.",
              oefeningen=[
-                 ("rij", [("A = 23, Z = 11", "12 neutronen"), ("A = 40, Z = 19", "21 neutronen"),
-                          ("A = 14, Z = 6", "8 neutronen")], "Hoeveel neutronen?", WW),
-                 ("rij", [("A = 12, Z = 6", "6 protonen"), ("Z = 92, N = 146", "A = 238"),
-                          ("A = 4, Z = 2", "2 neutronen")], None, WW),
+                 ("rij", [(r"\(A = 23\), \(Z = 11\)", r"\(12\) neutronen"), (r"\(A = 40\), \(Z = 19\)", r"\(21\) neutronen"),
+                          (r"\(A = 14\), \(Z = 6\)", r"\(8\) neutronen")], "Hoeveel neutronen?", WW),
+                 ("rij", [(r"\(A = 12\), \(Z = 6\)", r"\(6\) protonen"), (r"\(Z = 92\), \(N = 146\)", r"\(A = 238\)"),
+                          (r"\(A = 4\), \(Z = 2\)", r"\(2\) neutronen")], None, WW),
                  ("kort", "Hoe noemt men de protonen en de neutronen samen?", "nucleonen", WW),
                  ("open", "Wat hebben twee isotopen van hetzelfde element gemeen, en waarin "
                           "verschillen ze?",
@@ -1703,9 +1703,9 @@ OEFENBUNDELS["oefenbundel-kernfysica-en-radioactiviteit-beyond"] = dict(
         dict(kop="Rekenen met halveringstijd",
              opdracht="Reken uit en schrijf je stappen op.",
              oefeningen=[
-                 ("rij", [("800 kernen, T = 5 jaar, na 15 jaar", "100"),
-                          ("640 kernen, T = 2 uur, na 6 uur", "80"),
-                          ("1000 kernen, na 2 halveringstijden", "250")], "Hoeveel blijft er over?",
+                 ("rij", [(r"\(800\) kernen, \(T = 5\) jaar, na \(15\) jaar", r"\(100\)"),
+                          (r"\(640\) kernen, \(T = 2\) uur, na \(6\) uur", r"\(80\)"),
+                          (r"\(1000\) kernen, na \(2\) halveringstijden", r"\(250\)")], "Hoeveel blijft er over?",
                   WW),
                  ("kort", "Na hoeveel halveringstijden blijft er een achtste over?", "drie", "90px"),
                  ("open", "Twee stalen hebben dezelfde hoeveelheid stof. Het ene heeft een korte "
@@ -1745,8 +1745,8 @@ OEFENBUNDELS["oefenbundel-kernfysica-en-radioactiviteit-beyond"] = dict(
                   "Alfa is een heliumkern met twee protonen en twee neutronen; een blad papier houdt ze "
                   "al tegen. Bèta is een elektron dat de kern verlaat; een plaatje aluminium stopt ze. "
                   "Gamma is een elektromagnetische golf; lood of dik beton is nodig.", WW),
-                 ("rij", [("alfaverval", "A min 4, Z min 2"),
-                          ("bètaverval", "A gelijk, Z plus 1")], None, WL),
+                 ("rij", [("alfaverval", r"A min \(4\), Z min \(2\)"),
+                          ("bètaverval", r"A gelijk, Z plus \(1\)")], None, WL),
                  ("open", "Alfastraling raakt niet door je huid, en toch is ze gevaarlijk. Hoe zit dat?",
                   "Ze heeft een klein doordringend vermogen maar een groot ioniserend vermogen. Na "
                   "inslikken of inademen staat er geen huid meer tussen, en dan geeft ze al haar energie "
@@ -1772,7 +1772,7 @@ OEFENBUNDELS["oefenbundel-kernfysica-en-radioactiviteit-beyond"] = dict(
                   "Omdat ze al haar energie in een heel klein stukje weefsel afgeeft, en daar dus veel "
                   "meer schade aanricht per gray.", 3),
                  ("open", "Noem drie toepassingen van ioniserende straling.",
-                  "Radiotherapie tegen kanker, de koolstof-14-methode om ouderdom te bepalen, en een "
+                  r"Radiotherapie tegen kanker, de koolstof-\(14\)-methode om ouderdom te bepalen, en een "
                   "PET-scan met een radioactieve tracer.", 2),
              ]),
     ],
@@ -1813,13 +1813,13 @@ OEFENBUNDELS["oefenbundel-veilig-en-duurzaam-werken-grootheden-en-eenheden-beyon
                           ("een geluidsniveau", "decibelmeter")], "Welk instrument?", WW),
                  ("rij", [("de kleinste en grootste meetbare waarde", "meetbereik"),
                           ("de kleinste verandering die je nog ziet", "nauwkeurigheid")], None, WW),
-                 ("open", "Je moet ongeveer 2 gram wegen, op een tienden van een gram nauwkeurig. Welke "
+                 ("open", r"Je moet ongeveer \(2\) gram wegen, op een tienden van een gram nauwkeurig. Welke "
                           "balans kies je, en waarom niet gewoon de duurste?",
-                  "Een balans die tot op 0,01 gram weegt, dus één stap fijner dan wat je nodig hebt. Een "
+                  r"Een balans die tot op \(0{,}01\) gram weegt, dus één stap fijner dan wat je nodig hebt. Een "
                   "duurder instrument is niet altijd het beste: het moet passen bij wat je meet.", 4),
                  ("open", "Waarom lees je een vloeistofniveau in een maatcilinder op ooghoogte af?",
                   "Om een fout door de kijkhoek te vermijden.", 2),
-                 ("open", "Je meet met een lintmeter in centimeters en schrijft 12,3456 cm op. Wat is "
+                 ("open", r"Je meet met een lintmeter in centimeters en schrijft \(12{,}3456\) cm op. Wat is "
                           "daar fout aan?",
                   "Je schrijft meer cijfers op dan je kan meten. Een lintmeter geeft geen tienduizendsten "
                   "van een centimeter.", 3),
@@ -1827,10 +1827,10 @@ OEFENBUNDELS["oefenbundel-veilig-en-duurzaam-werken-grootheden-en-eenheden-beyon
         dict(kop="Omzetten",
              opdracht="Reken uit.",
              oefeningen=[
-                 ("rij", [("2,5 km", "2500 m"), ("0,25 ms", "0,00025 s"),
-                          ("3 mg", "0,003 g")], None, WW),
-                 ("rij", [("4 MW", "4 000 000 W"), ("250 nm", "0,00000025 m"),
-                          ("12 µm", "0,000012 m")], None, WW),
+                 ("rij", [(r"\(2{,}5\) km", r"\(2500\) m"), (r"\(0{,}25\) ms", r"\(0{,}00025\) s"),
+                          (r"\(3\) mg", r"\(0{,}003\) g")], None, WW),
+                 ("rij", [(r"\(4\) MW", r"\(4\,000\,000\) W"), (r"\(250\) nm", r"\(0{,}00000025\) m"),
+                          (r"\(12\) µm", r"\(0{,}000012\) m")], None, WW),
                  ("rij", [("mega", "een miljoen"), ("micro", "een miljoenste"),
                           ("nano", "een miljardste")], "Welke factor?", WW),
                  ("kort", "Wat is de SI-eenheid van massa?", "de kilogram", WW),
@@ -1838,11 +1838,11 @@ OEFENBUNDELS["oefenbundel-veilig-en-duurzaam-werken-grootheden-en-eenheden-beyon
         dict(kop="Wetenschappelijke notatie en beduidende cijfers",
              opdracht="Schrijf om en antwoord.",
              oefeningen=[
-                 ("rij", [("0,00042 m", "4,2 · 10⁻⁴ m"), ("35 000 m", "3,5 · 10⁴ m"),
-                          ("0,0071 s", "7,1 · 10⁻³ s")], None, WW),
-                 ("open", "Je meet 3,0 cm en 4,00 cm en telt die op. Met hoeveel cijfers na de komma "
+                 ("rij", [(r"\(0{,}00042\) m", r"\(4{,}2 \cdot 10^{-4}\) m"), (r"\(35\,000\) m", r"\(3{,}5 \cdot 10^{4}\) m"),
+                          (r"\(0{,}0071\) s", r"\(7{,}1 \cdot 10^{-3}\) s")], None, WW),
+                 ("open", r"Je meet \(3{,}0\) cm en \(4{,}00\) cm en telt die op. Met hoeveel cijfers na de komma "
                           "schrijf je het resultaat, en waarom?",
-                  "Met één cijfer na de komma, dus 7,0 cm. De minst nauwkeurige meting bepaalt het "
+                  r"Met één cijfer na de komma, dus \(7{,}0\) cm. De minst nauwkeurige meting bepaalt het "
                   "antwoord.", 3),
                  ("waar", "Een rekenmachine die acht cijfers na de komma toont, maakt je meting "
                           "nauwkeuriger.", False),
@@ -1860,8 +1860,8 @@ OEFENBUNDELS["oefenbundel-veilig-en-duurzaam-werken-grootheden-en-eenheden-beyon
                  ("open", "Wat is het verschil tussen recht evenredig en lineair?",
                   "Bij recht evenredig gaat de rechte door de oorsprong. Bij lineair is de grafiek ook "
                   "een rechte, maar ze hoeft niet door de oorsprong te gaan.", 3),
-                 ("rij", [("F = m · a, zoek m", "m = F / a"), ("F = m · a, zoek a", "a = F / m"),
-                          ("v = s / t, zoek t", "t = s / v")], None, WW),
+                 ("rij", [(r"\(F = m \cdot a\), zoek m", r"\(m = F / a\)"), (r"\(F = m \cdot a\), zoek a", r"\(a = F / m\)"),
+                          (r"\(v = s / t\), zoek t", r"\(t = s / v\)")], None, WW),
                  ("open", "Noem drie modellen waarmee je een verband kan weergeven.",
                   "Een grafiek, een tabel en een formule.", 2),
              ]),
@@ -1892,7 +1892,7 @@ OEFENBUNDELS["oefenbundel-onderzoeksvaardigheden-en-ontwerpen-beyond"] = dict(
                  ("rij", [("Hoe hangt de valtijd van een bal af van zijn hoogte?", "goed"),
                           ("Is water lekker?", "niet goed"),
                           ("Hoe werkt een plant?", "niet goed")], None, W),
-                 ("open", "Herschrijf \"Groeien planten beter met muziek?\" tot een goede "
+                 ("open", r"Herschrijf \"Groeien planten beter met muziek?\" tot een goede "
                           "onderzoeksvraag.",
                   "Bijvoorbeeld: hoe hangt de groei in centimeter van een tuinkersplantje na twee weken "
                   "af van het aantal uren muziek per dag? Nu staan er een meetbare uitkomst en een "

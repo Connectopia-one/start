@@ -20,11 +20,11 @@
     },
     {
      "soort": "tekst",
-     "html": "De regel van de basenparen laat ook een rekensom toe. Is <strong>30 procent van de basen adenine</strong>, dan is er evenveel thymine, dus samen 60 procent. Voor guanine en cytosine blijft 40 procent over, gelijk verdeeld: <strong>20 procent cytosine</strong>."
+     "html": "De regel van de basenparen laat ook een rekensom toe. Is <strong>\\(30\\) procent van de basen adenine</strong>, dan is er evenveel thymine, dus samen \\(60\\) procent. Voor guanine en cytosine blijft \\(40\\) procent over, gelijk verdeeld: <strong>\\(20\\) procent cytosine</strong>."
     },
     {
      "soort": "tekst",
-     "html": "De twee strengen liggen <strong>antiparallel</strong>: <strong>de ene loopt van 5 naar 3 en de andere in de omgekeerde richting</strong>. Ze worden <strong>door waterstofbruggen bij elkaar gehouden</strong> tot een dubbele helix. Die bruggen zijn elk zwak, maar met miljoenen samen stevig genoeg, en toch los te wikkelen."
+     "html": "De twee strengen liggen <strong>antiparallel</strong>: <strong>de ene loopt van \\(5\\) naar \\(3\\) en de andere in de omgekeerde richting</strong>. Ze worden <strong>door waterstofbruggen bij elkaar gehouden</strong> tot een dubbele helix. Die bruggen zijn elk zwak, maar met miljoenen samen stevig genoeg, en toch los te wikkelen."
     }
    ]
   },
@@ -45,7 +45,7 @@
     },
     {
      "soort": "tekst",
-     "html": "Een <strong>menselijke lichaamscel is diploïd en bevat 46 chromosomen</strong>, dus 23 paren. <strong>Homologe chromosomen</strong> zijn <strong>twee chromosomen van hetzelfde paar, één van elke ouder</strong>. Het <strong>verschil tussen een autosoom en een heterosoom</strong>: <strong>een autosoom is een lichaamschromosoom, een heterosoom bepaalt het geslacht</strong>."
+     "html": "Een <strong>menselijke lichaamscel is diploïd en bevat \\(46\\) chromosomen</strong>, dus \\(23\\) paren. <strong>Homologe chromosomen</strong> zijn <strong>twee chromosomen van hetzelfde paar, één van elke ouder</strong>. Het <strong>verschil tussen een autosoom en een heterosoom</strong>: <strong>een autosoom is een lichaamschromosoom, een heterosoom bepaalt het geslacht</strong>."
     },
     {
      "soort": "tekst",
@@ -66,7 +66,7 @@
     },
     {
      "soort": "tekst",
-     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Speler</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Taak bij de replicatie</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Helicase</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">wikkelt de dubbele helix open bij het begin van de replicatie</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Primer</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">dient als startpunt waarop het polymerase verder kan bouwen</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">DNA-polymerase</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">zet nieuwe nucleotiden tegen de oude streng aan, leest die oude streng als sjabloon en werkt altijd in de richting van 5 naar 3</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Ligase</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">plakt losse stukjes aan elkaar tot één doorlopende streng</td></tr></table>"
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Speler</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Taak bij de replicatie</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Helicase</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">wikkelt de dubbele helix open bij het begin van de replicatie</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Primer</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">dient als startpunt waarop het polymerase verder kan bouwen</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">DNA-polymerase</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">zet nieuwe nucleotiden tegen de oude streng aan, leest die oude streng als sjabloon en werkt altijd in de richting van \\(5\\) naar \\(3\\)</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Ligase</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">plakt losse stukjes aan elkaar tot één doorlopende streng</td></tr></table>"
     },
     {
      "soort": "tekst",
@@ -117,7 +117,7 @@
   "Een nucleotide bestaat uit een suiker, een fosfaatgroep en een stikstofbase.",
   "A paart met T via twee waterstofbruggen, G met C via drie.",
   "De twee strengen liggen antiparallel en vormen samen een dubbele helix.",
-  "Een menselijke lichaamscel is diploïd en bevat 46 chromosomen, dus 23 paren.",
+  "Een menselijke lichaamscel is diploïd en bevat \\(46\\) chromosomen, dus \\(23\\) paren.",
   "Het centromeer houdt de zusterchromatiden samen.",
   "Het DNA wordt verdubbeld in de S-fase van de interfase.",
   "Na de replicatie bestaat elke dubbele helix uit één oude en één nieuwe streng.",

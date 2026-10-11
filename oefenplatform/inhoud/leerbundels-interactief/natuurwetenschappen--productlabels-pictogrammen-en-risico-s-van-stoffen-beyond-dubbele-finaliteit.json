@@ -54,7 +54,7 @@
     },
     {
      "soort": "tekst",
-     "html": "Het <strong>cijfer in de driehoek van pijltjes op een plastic verpakking</strong> zegt <strong>uit welke kunststof de verpakking gemaakt is</strong>. <strong>Die driehoek betekent dus niet dat de verpakking zeker gerecycleerd wordt</strong>: het is een identificatiecode, geen belofte. Bij <strong>recyclagecode 1</strong>, de code van de meeste drinkflessen, hoort <strong>PET</strong> of polyethyleentereftalaat."
+     "html": "Het <strong>cijfer in de driehoek van pijltjes op een plastic verpakking</strong> zegt <strong>uit welke kunststof de verpakking gemaakt is</strong>. <strong>Die driehoek betekent dus niet dat de verpakking zeker gerecycleerd wordt</strong>: het is een identificatiecode, geen belofte. Bij <strong>recyclagecode \\(1\\)</strong>, de code van de meeste drinkflessen, hoort <strong>PET</strong> of polyethyleentereftalaat."
     }
    ]
   },
@@ -93,7 +93,7 @@
    "blokken": [
     {
      "soort": "tekst",
-     "html": "De <strong>pH van een zure stof ligt onder 7</strong>. Een <strong>neutrale stof zoals zuiver water heeft pH 7</strong>. Een stof <strong>met een pH boven 7</strong> is een <strong>base</strong>."
+     "html": "De <strong>pH van een zure stof ligt onder \\(7\\)</strong>. Een <strong>neutrale stof zoals zuiver water heeft pH \\(7\\)</strong>. Een stof <strong>met een pH boven \\(7\\)</strong> is een <strong>base</strong>."
     },
     {
      "soort": "tekst",
@@ -119,9 +119,9 @@
   "Dezelfde stof kan door een hogere concentratie een zwaarder pictogram krijgen.",
   "Chemische restjes horen bij het kga, nooit in de gootsteen.",
   "De driehoek met een cijfer zegt wélke kunststof, niet dat er gerecycleerd wordt.",
-  "Code 1 is PET, de kunststof van de meeste drinkflessen.",
+  "Code \\(1\\) is PET, de kunststof van de meeste drinkflessen.",
   "Een laag kookpunt betekent snel verdampen en vaak ontvlambaar.",
   "Soort lost soort: wat in water lost, lost niet in thinner.",
-  "pH onder 7 is zuur, 7 is neutraal, boven 7 is basisch."
+  "pH onder \\(7\\) is zuur, \\(7\\) is neutraal, boven \\(7\\) is basisch."
  ]
 }

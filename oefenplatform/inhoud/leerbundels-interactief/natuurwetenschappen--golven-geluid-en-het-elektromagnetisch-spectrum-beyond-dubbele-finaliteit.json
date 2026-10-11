@@ -29,11 +29,11 @@
     },
     {
      "soort": "kader",
-     "html": "De formules: <strong>f = 1 / T</strong> en <strong>v = λ · f</strong>, en dus ook v = λ / T."
+     "html": "De formules: <strong>\\(f = 1 / T\\)</strong> en <strong>\\(v = \\lambda \\cdot f\\)</strong>, en dus ook \\(v = \\lambda / T\\)."
     },
     {
      "soort": "tekst",
-     "html": "Heeft een trilling <strong>een periode van 0,004 s, dan is de frequentie 250 Hz</strong>: één gedeeld door 0,004. Heeft een golf <strong>een golflengte van 2 m en een frequentie van 170 Hz, dan is de golfsnelheid 340 m/s</strong>: 2 maal 170, precies de snelheid van geluid in lucht."
+     "html": "Heeft een trilling <strong>een periode van \\(0{,}004\\) s, dan is de frequentie \\(250\\) Hz</strong>: één gedeeld door \\(0{,}004\\). Heeft een golf <strong>een golflengte van \\(2\\) m en een frequentie van \\(170\\) Hz, dan is de golfsnelheid \\(340\\) m/s</strong>: \\(2 \\cdot 170\\), precies de snelheid van geluid in lucht."
     },
     {
      "soort": "tekst",
@@ -71,7 +71,7 @@
    "blokken": [
     {
      "soort": "tekst",
-     "html": "De eenheid van het geluidsniveau is de <strong>decibel</strong>. De <strong>gehoordrempel</strong> van een mens ligt bij <strong>0 dB</strong>, <strong>vanaf 80 dB is gehoorbescherming nodig</strong> (de gevaargrens), en de <strong>pijndrempel</strong> ligt rond <strong>120 dB</strong>."
+     "html": "De eenheid van het geluidsniveau is de <strong>decibel</strong>. De <strong>gehoordrempel</strong> van een mens ligt bij <strong>\\(0\\) dB</strong>, <strong>vanaf \\(80\\) dB is gehoorbescherming nodig</strong> (de gevaargrens), en de <strong>pijndrempel</strong> ligt rond <strong>\\(120\\) dB</strong>."
     },
     {
      "soort": "tekst",
@@ -79,7 +79,7 @@
     },
     {
      "soort": "tekst",
-     "html": "<strong>Ga je twee keer zo ver van een geluidsbron staan, dan daalt het geluidsniveau met 6 dB.</strong> <strong>Wordt de geluidsintensiteit twee keer zo groot, dan stijgt het niveau met 3 dB.</strong> Een vier keer kleinere intensiteit geeft dus zes decibel minder."
+     "html": "<strong>Ga je twee keer zo ver van een geluidsbron staan, dan daalt het geluidsniveau met \\(6\\) dB.</strong> <strong>Wordt de geluidsintensiteit twee keer zo groot, dan stijgt het niveau met \\(3\\) dB.</strong> Een vier keer kleinere intensiteit geeft dus zes decibel minder."
     },
     {
      "soort": "tekst",
@@ -91,7 +91,7 @@
     },
     {
      "soort": "tekst",
-     "html": "Een mens hoort normaal <strong>van 20 Hz tot 20 000 Hz</strong>. Geluid <strong>met een frequentie boven 20 000 Hz, dat de mens niet meer hoort</strong>, is <strong>ultrasoon</strong> geluid of ultrageluid; onder twintig hertz is het infrasoon."
+     "html": "Een mens hoort normaal <strong>van \\(20\\) Hz tot \\(20\\,000\\) Hz</strong>. Geluid <strong>met een frequentie boven \\(20\\,000\\) Hz, dat de mens niet meer hoort</strong>, is <strong>ultrasoon</strong> geluid of ultrageluid; onder twintig hertz is het infrasoon."
     }
    ]
   },
@@ -100,7 +100,7 @@
    "blokken": [
     {
      "soort": "tekst",
-     "html": "Voor een <strong>elektromagnetische golf in het vacuüm</strong> geldt dat <strong>ze met de lichtsnelheid beweegt</strong>, ongeveer 300 000 kilometer per seconde. In glas of water gaat ze trager."
+     "html": "Voor een <strong>elektromagnetische golf in het vacuüm</strong> geldt dat <strong>ze met de lichtsnelheid beweegt</strong>, ongeveer \\(300\\,000\\) kilometer per seconde. In glas of water gaat ze trager."
     },
     {
      "soort": "figuur",
@@ -130,10 +130,10 @@
   "Een golf vervoert energie, geen materie.",
   "Mechanisch heeft een middenstof nodig, elektromagnetisch niet.",
   "Transversaal trilt dwars, longitudinaal mee; geluid is longitudinaal.",
-  "f = 1/T en v = λ · f.",
+  "\\(f = 1 / T\\) en \\(v = \\lambda \\cdot f\\).",
   "Frequentie geeft de toonhoogte, amplitude de sterkte.",
-  "0 dB gehoordrempel, 80 dB gevaargrens, 120 dB pijndrempel.",
-  "Afstand verdubbelen is −6 dB; intensiteit verdubbelen is +3 dB.",
+  "\\(0\\) dB gehoordrempel, \\(80\\) dB gevaargrens, \\(120\\) dB pijndrempel.",
+  "Afstand verdubbelen is \\(-6\\) dB; intensiteit verdubbelen is +\\(3\\) dB.",
   "Van radio naar gamma stijgt de energie; röntgen en gamma zijn ioniserend."
  ]
 }

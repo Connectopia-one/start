@@ -24,7 +24,7 @@ DEEL1 = [
         type="invultekst",
         vraag="Uit hoeveel basen bestaat één codon?",
         antwoord="drie",
-        uitleg="Een codon of triplet is een groepje van drie basen. Met vier basen geeft dat 64 combinaties, ruim genoeg voor de twintig aminozuren.",
+        uitleg=r"Een codon of triplet is een groepje van drie basen. Met vier basen geeft dat \(64\) combinaties, ruim genoeg voor de twintig aminozuren.",
     ),
     dict(
         type="waarofniet",
@@ -147,7 +147,7 @@ DEEL1 = [
     dict(
         type="meerkeuze",
         vraag="Welke mutaties horen bij de genoommutaties? Kruis alles aan wat juist is.",
-        opties=["trisomie 21", "het syndroom van Turner", "het syndroom van Klinefelter", "sikkelcelanemie"],
+        opties=[r"trisomie \(21\)", "het syndroom van Turner", "het syndroom van Klinefelter", "sikkelcelanemie"],
         antwoord=[0, 1, 2],
         uitleg="Bij een genoommutatie klopt het aantal chromosomen niet. Sikkelcelanemie komt van één veranderde base en is dus een genmutatie.",
     ),

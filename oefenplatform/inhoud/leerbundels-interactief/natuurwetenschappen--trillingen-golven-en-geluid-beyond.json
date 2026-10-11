@@ -12,7 +12,7 @@
     },
     {
      "soort": "tekst",
-     "html": "De frequentie is het aantal trillingen per seconde, dus één gedeeld door de periode. Heeft een <strong>trilling een periode van 0,5 seconde</strong>, dan is de frequentie <strong>2 hertz</strong>."
+     "html": "De frequentie is het aantal trillingen per seconde, dus één gedeeld door de periode. Heeft een <strong>trilling een periode van \\(0{,}5\\) seconde</strong>, dan is de frequentie <strong>\\(2\\) hertz</strong>."
     },
     {
      "soort": "tekst",
@@ -58,7 +58,7 @@
     },
     {
      "soort": "tekst",
-     "html": "De <strong>golflengte</strong> is <strong>de afstand tussen twee punten in dezelfde fase</strong>, bijvoorbeeld van top tot top. De golfsnelheid is de golflengte maal de frequentie. Heeft een <strong>golf een golflengte van 2 meter en een frequentie van 5 hertz</strong>, dan gaat ze <strong>10 meter per seconde</strong>. <strong>Bij een vaste golfsnelheid hoort een grotere frequentie bij een kleinere golflengte</strong>."
+     "html": "De <strong>golflengte</strong> is <strong>de afstand tussen twee punten in dezelfde fase</strong>, bijvoorbeeld van top tot top. De golfsnelheid is de golflengte maal de frequentie. Heeft een <strong>golf een golflengte van \\(2\\) meter en een frequentie van \\(5\\) hertz</strong>, dan gaat ze <strong>\\(10\\) meter per seconde</strong>. <strong>Bij een vaste golfsnelheid hoort een grotere frequentie bij een kleinere golflengte</strong>."
     },
     {
      "soort": "tekst",
@@ -83,7 +83,7 @@
     },
     {
      "soort": "tekst",
-     "html": "Een mens hoort normaal <strong>van ongeveer 20 tot 20 000 hertz</strong>. Daarboven heet geluid <strong>ultrasoon</strong>; daaronder infrasoon. <strong>Infrasoon geluid heeft geen hogere frequentie dan geluid dat wij kunnen horen</strong>, maar een lagere, zoals het gerommel van een aardbeving."
+     "html": "Een mens hoort normaal <strong>van ongeveer \\(20\\) tot \\(20\\,000\\) hertz</strong>. Daarboven heet geluid <strong>ultrasoon</strong>; daaronder infrasoon. <strong>Infrasoon geluid heeft geen hogere frequentie dan geluid dat wij kunnen horen</strong>, maar een lagere, zoals het gerommel van een aardbeving."
     }
    ]
   },
@@ -92,11 +92,11 @@
    "blokken": [
     {
      "soort": "tekst",
-     "html": "De <strong>gehoordrempel</strong> ligt op <strong>0 decibel</strong>: het zachtste geluid dat een mens nog kan horen. Vanaf ongeveer <strong>80 decibel</strong> is <strong>gehoorbescherming nodig</strong>, en rond 120 decibel ligt de pijndrempel. <strong>Hoe langer je aan luid geluid blootgesteld bent, hoe groter de kans op gehoorschade</strong>, want niveau en tijd tellen samen."
+     "html": "De <strong>gehoordrempel</strong> ligt op <strong>\\(0\\) decibel</strong>: het zachtste geluid dat een mens nog kan horen. Vanaf ongeveer <strong>\\(80\\) decibel</strong> is <strong>gehoorbescherming nodig</strong>, en rond \\(120\\) decibel ligt de pijndrempel. <strong>Hoe langer je aan luid geluid blootgesteld bent, hoe groter de kans op gehoorschade</strong>, want niveau en tijd tellen samen."
     },
     {
      "soort": "tekst",
-     "html": "De schaal is niet recht. <strong>Twee keer zoveel geluidsintensiteit betekent niet twee keer zoveel decibel</strong>: wordt <strong>de geluidsintensiteit twee keer groter</strong>, dan <strong>stijgt het geluidsniveau met ongeveer 3 decibel</strong>. Ga je <strong>twee keer zo ver van een geluidsbron staan</strong>, dan zakt het niveau <strong>met ongeveer 6 decibel</strong>."
+     "html": "De schaal is niet recht. <strong>Twee keer zoveel geluidsintensiteit betekent niet twee keer zoveel decibel</strong>: wordt <strong>de geluidsintensiteit twee keer groter</strong>, dan <strong>stijgt het geluidsniveau met ongeveer \\(3\\) decibel</strong>. Ga je <strong>twee keer zo ver van een geluidsbron staan</strong>, dan zakt het niveau <strong>met ongeveer \\(6\\) decibel</strong>."
     },
     {
      "soort": "tekst",
@@ -124,13 +124,13 @@
  ],
  "onthoud": [
   "De amplitude is de grootste uitwijking, de periode de tijd van één volledige trilling.",
-  "Frequentie is één gedeeld door de periode: een periode van 0,5 seconde geeft 2 hertz.",
+  "Frequentie is één gedeeld door de periode: een periode van \\(0{,}5\\) seconde geeft \\(2\\) hertz.",
   "Resonantie treedt op als de uitwendige kracht de eigenfrequentie treft.",
   "Een golf transporteert energie, maar geen materie.",
   "Bij een transversale golf trillen de deeltjes loodrecht op de golfrichting; geluid in lucht is longitudinaal.",
   "De golfsnelheid is de golflengte maal de frequentie.",
   "Toonhoogte hangt af van de frequentie, luidheid van de amplitude.",
-  "Vanaf ongeveer 80 decibel is gehoorbescherming nodig.",
+  "Vanaf ongeveer \\(80\\) decibel is gehoorbescherming nodig.",
   "Echografie werkt met ultrasoon geluid en meet wat tegen de grens tussen weefsels terugkaatst."
  ]
 }

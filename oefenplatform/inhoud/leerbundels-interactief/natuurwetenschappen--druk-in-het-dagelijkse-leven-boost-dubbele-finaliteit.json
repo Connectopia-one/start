@@ -1,18 +1,18 @@
 {
  "vak": "Natuurwetenschappen",
  "titel": "Druk in het dagelijkse leven",
- "onder": "De formule p = F / A, de eenheden pascal, kilopascal en hectopascal, de luchtdruk met haar overdruk en onderdruk, en de druk van een gas.",
+ "onder": "De formule \\(p = F / A\\), de eenheden pascal, kilopascal en hectopascal, de luchtdruk met haar overdruk en onderdruk, en de druk van een gas.",
  "secties": [
   {
    "kop": "Druk op een oppervlak",
    "blokken": [
     {
      "soort": "tekst",
-     "html": "De <strong>druk</strong> is de <strong>kracht gedeeld door de oppervlakte</strong>. De SI-eenheid is de <strong>pascal</strong>: één newton per vierkante meter. Voor het weer gebruiken we handiger eenheden: <strong>kilopascal, hectopascal, millibar en bar</strong>. Eén bar is <strong>100 000 pascal</strong>, ongeveer de luchtdruk op zeeniveau, en dat lees je in het weerbericht als 1000 hectopascal."
+     "html": "De <strong>druk</strong> is de <strong>kracht gedeeld door de oppervlakte</strong>. De SI-eenheid is de <strong>pascal</strong>: één newton per vierkante meter. Voor het weer gebruiken we handiger eenheden: <strong>kilopascal, hectopascal, millibar en bar</strong>. Eén bar is <strong>\\(100\\,000\\) pascal</strong>, ongeveer de luchtdruk op zeeniveau, en dat lees je in het weerbericht als \\(1000\\) hectopascal."
     },
     {
      "soort": "tekst",
-     "html": "Bij <strong>dezelfde kracht</strong> geeft een <strong>kleiner oppervlak een grotere druk</strong>. Daarom snijdt een scherp mes beter dan een bot mes, en daarom dringt een naald zo gemakkelijk binnen. Duw je met 200 newton op 0,5 vierkante meter, dan is de druk <strong>400 pascal</strong>."
+     "html": "Bij <strong>dezelfde kracht</strong> geeft een <strong>kleiner oppervlak een grotere druk</strong>. Daarom snijdt een scherp mes beter dan een bot mes, en daarom dringt een naald zo gemakkelijk binnen. Duw je met \\(200\\) newton op \\(0{,}5\\) vierkante meter, dan is de druk <strong>\\(400\\) pascal</strong>."
     },
     {
      "soort": "tekst",
@@ -29,11 +29,11 @@
    "blokken": [
     {
      "soort": "tekst",
-     "html": "De formule in woorden: <strong>druk is de grootte van de kracht per oppervlakte</strong>, of <strong>p = F / A</strong>. De grootheid die je door de oppervlakte deelt, is dus de <strong>kracht</strong>. Duw je met <strong>600 newton op 0,2 vierkante meter</strong>, dan is de druk <strong>3000 pascal</strong>, of 3 kilopascal."
+     "html": "De formule in woorden: <strong>druk is de grootte van de kracht per oppervlakte</strong>, of <strong>\\(p = F / A\\)</strong>. De grootheid die je door de oppervlakte deelt, is dus de <strong>kracht</strong>. Duw je met <strong>\\(600\\) newton op \\(0{,}2\\) vierkante meter</strong>, dan is de druk <strong>\\(3000\\) pascal</strong>, of \\(3\\) kilopascal."
     },
     {
      "soort": "tekst",
-     "html": "De eenheden: de <strong>pascal</strong> is de SI-eenheid, en daarnaast gebruik je de <strong>kilopascal</strong> en de <strong>hectopascal</strong>. <strong>Eén kilopascal is 1000 pascal</strong> en <strong>één hectopascal is 100 pascal</strong>; de 1013 hectopascal van het weerbericht zijn dus 101 300 pascal. De <strong>newton</strong> is géén eenheid van druk, maar van kracht."
+     "html": "De eenheden: de <strong>pascal</strong> is de SI-eenheid, en daarnaast gebruik je de <strong>kilopascal</strong> en de <strong>hectopascal</strong>. <strong>Eén kilopascal is \\(1000\\) pascal</strong> en <strong>één hectopascal is \\(100\\) pascal</strong>; de \\(1013\\) hectopascal van het weerbericht zijn dus \\(101\\,300\\) pascal. De <strong>newton</strong> is géén eenheid van druk, maar van kracht."
     },
     {
      "soort": "tekst",
@@ -41,7 +41,7 @@
     },
     {
      "soort": "kader",
-     "html": "Zo'n keuze tussen twee gelijkaardige voorwerpen is een klassieke examenvraag: welke van de twee kies je, en waarom? Je legt dat telkens uit met <strong>p = F / A</strong>: welke kracht werkt er, en op hoeveel oppervlak?"
+     "html": "Zo'n keuze tussen twee gelijkaardige voorwerpen is een klassieke examenvraag: welke van de twee kies je, en waarom? Je legt dat telkens uit met <strong>\\(p = F / A\\)</strong>: welke kracht werkt er, en op hoeveel oppervlak?"
     }
    ]
   },
@@ -50,7 +50,7 @@
    "blokken": [
     {
      "soort": "tekst",
-     "html": "De <strong>luchtdruk</strong> of <strong>atmosferische druk</strong> komt van het gewicht van de lucht boven ons en is op zeeniveau ongeveer <strong>1013 hectopascal</strong>. Hij is <strong>niet op elke hoogte dezelfde</strong>: hoe hoger je komt, hoe minder lucht er nog boven je ligt en hoe lager de luchtdruk. Daarom staat een zak chips in de bergen bol."
+     "html": "De <strong>luchtdruk</strong> of <strong>atmosferische druk</strong> komt van het gewicht van de lucht boven ons en is op zeeniveau ongeveer <strong>\\(1013\\) hectopascal</strong>. Hij is <strong>niet op elke hoogte dezelfde</strong>: hoe hoger je komt, hoe minder lucht er nog boven je ligt en hoe lager de luchtdruk. Daarom staat een zak chips in de bergen bol."
     },
     {
      "soort": "tekst",
@@ -106,12 +106,12 @@
   }
  ],
  "onthoud": [
-  "Druk is de grootte van de kracht per oppervlakte: p = F / A, in pascal.",
+  "Druk is de grootte van de kracht per oppervlakte: \\(p = F / A\\), in pascal.",
   "Bij dezelfde kracht geeft een kleiner oppervlak een grotere druk.",
   "De druk kleiner maken: het oppervlak vergroten of de kracht verkleinen.",
-  "Eén kilopascal is 1000 pascal, één hectopascal is 100 pascal. De newton is geen drukeenheid.",
-  "600 newton op 0,2 vierkante meter geeft 3000 pascal.",
-  "De luchtdruk is op zeeniveau ongeveer 1013 hectopascal en daalt als je hoger komt.",
+  "Eén kilopascal is \\(1000\\) pascal, één hectopascal is \\(100\\) pascal. De newton is geen drukeenheid.",
+  "\\(600\\) newton op \\(0{,}2\\) vierkante meter geeft \\(3000\\) pascal.",
+  "De luchtdruk is op zeeniveau ongeveer \\(1013\\) hectopascal en daalt als je hoger komt.",
   "Een barometer meet de luchtdruk buiten, een manometer de druk in een vat of leiding.",
   "Overdruk is hoger dan de omgevingsdruk, onderdruk lager.",
   "Een rietje werkt met onderdruk; de luchtdruk duwt de drank omhoog.",

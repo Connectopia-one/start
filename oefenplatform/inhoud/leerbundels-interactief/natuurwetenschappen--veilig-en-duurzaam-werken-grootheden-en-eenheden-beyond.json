@@ -33,7 +33,7 @@
     },
     {
      "soort": "tekst",
-     "html": "Daarmee kies je je toestel. Moet je een <strong>massa van ongeveer 2 gram op een tienden van een gram nauwkeurig wegen</strong>, dan neem je <strong>een balans die tot op 0,01 gram nauwkeurig weegt</strong>: één stap fijner dan wat je nodig hebt. Maar <strong>een duurder meetinstrument is niet altijd het beste voor elk onderzoek</strong>; het moet passen bij wat je meet."
+     "html": "Daarmee kies je je toestel. Moet je een <strong>massa van ongeveer \\(2\\) gram op een tienden van een gram nauwkeurig wegen</strong>, dan neem je <strong>een balans die tot op \\(0{,}01\\) gram nauwkeurig weegt</strong>: één stap fijner dan wat je nodig hebt. Maar <strong>een duurder meetinstrument is niet altijd het beste voor elk onderzoek</strong>; het moet passen bij wat je meet."
     },
     {
      "soort": "tekst",
@@ -41,7 +41,7 @@
     },
     {
      "soort": "tekst",
-     "html": "<strong>Een meting met een meetinstrument is nooit helemaal exact.</strong> Daarom let je op twee dingen. Je leest <strong>een vloeistofniveau in een maatcilinder op ooghoogte af om een fout door de kijkhoek te vermijden</strong>. En je schrijft niet meer cijfers op dan je kan meten: <strong>meet je met een lintmeter in centimeters en schrijf je 12,3456 cm op, dan schrijf je meer cijfers op dan je kan meten</strong>."
+     "html": "<strong>Een meting met een meetinstrument is nooit helemaal exact.</strong> Daarom let je op twee dingen. Je leest <strong>een vloeistofniveau in een maatcilinder op ooghoogte af om een fout door de kijkhoek te vermijden</strong>. En je schrijft niet meer cijfers op dan je kan meten: <strong>meet je met een lintmeter in centimeters en schrijf je \\(12{,}3456\\) cm op, dan schrijf je meer cijfers op dan je kan meten</strong>."
     }
    ]
   },
@@ -62,15 +62,15 @@
     },
     {
      "soort": "tekst",
-     "html": "Omzetten doe je met die factoren. <strong>2,5 kilometer</strong> is <strong>2500 meter</strong>, en <strong>0,25 milliseconde</strong> is <strong>0,00025 seconde</strong>."
+     "html": "Omzetten doe je met die factoren. <strong>\\(2{,}5\\) kilometer</strong> is <strong>\\(2500\\) meter</strong>, en <strong>\\(0{,}25\\) milliseconde</strong> is <strong>\\(0{,}00025\\) seconde</strong>."
     },
     {
      "soort": "tekst",
-     "html": "Voor heel grote en heel kleine getallen gebruik je de <strong>wetenschappelijke notatie</strong>, waarin <strong>precies één cijfer voor de komma staat</strong>. Zo wordt <strong>0,00042 meter</strong> geschreven als <strong>4,2 maal tien tot de min vier</strong>."
+     "html": "Voor heel grote en heel kleine getallen gebruik je de <strong>wetenschappelijke notatie</strong>, waarin <strong>precies één cijfer voor de komma staat</strong>. Zo wordt <strong>\\(0{,}00042\\) meter</strong> geschreven als <strong>\\(4{,}2\\) maal tien tot de min vier</strong>."
     },
     {
      "soort": "tekst",
-     "html": "Bij het rekenen houd je je aan de beduidende cijfers. Meet je <strong>3,0 cm en 4,00 cm en telt je die op</strong>, dan schrijf je het resultaat <strong>met één cijfer na de komma</strong>, want de minst nauwkeurige meting bepaalt het antwoord. <strong>Een rekenmachine die acht cijfers na de komma toont, maakt je meting niet nauwkeuriger</strong>, en <strong>een schatting vooraf is niet overbodig zodra je met een rekenmachine werkt</strong>: ze is juist je enige bescherming tegen een tikfout."
+     "html": "Bij het rekenen houd je je aan de beduidende cijfers. Meet je <strong>\\(3{,}0\\) cm en \\(4{,}00\\) cm en telt je die op</strong>, dan schrijf je het resultaat <strong>met één cijfer na de komma</strong>, want de minst nauwkeurige meting bepaalt het antwoord. <strong>Een rekenmachine die acht cijfers na de komma toont, maakt je meting niet nauwkeuriger</strong>, en <strong>een schatting vooraf is niet overbodig zodra je met een rekenmachine werkt</strong>: ze is juist je enige bescherming tegen een tikfout."
     }
    ]
   },

@@ -1552,7 +1552,7 @@
         },
         {
           "type": "meerkeuze",
-          "vraag": "Wat is er aan de hand bij diabetes type 1?",
+          "vraag": "Wat is er aan de hand bij diabetes type \\(1\\)?",
           "opties": [
             "het lichaam maakt zelf geen of te weinig insuline meer aan",
             "het lichaam maakt veel te veel insuline aan na elke maaltijd",
@@ -1560,7 +1560,7 @@
             "de nieren houden alle glucose vast in plaats van ze af te geven"
           ],
           "antwoord": 0,
-          "uitleg": "Bij type 1 vallen de bètacellen uit. Zonder insuline kunnen de cellen de glucose niet opnemen, en blijft het gehalte in het bloed te hoog."
+          "uitleg": "Bij type \\(1\\) vallen de bètacellen uit. Zonder insuline kunnen de cellen de glucose niet opnemen, en blijft het gehalte in het bloed te hoog."
         },
         {
           "type": "waarofniet",
@@ -1683,16 +1683,16 @@
           "type": "waarofniet",
           "vraag": "De menstruatiecyclus begint op de eerste dag van de menstruatie.",
           "antwoord": true,
-          "uitleg": "Dag 1 van de cyclus is de eerste dag van het bloedverlies. De cyclus eindigt op de dag voor de volgende menstruatie."
+          "uitleg": "Dag \\(1\\) van de cyclus is de eerste dag van het bloedverlies. De cyclus eindigt op de dag voor de volgende menstruatie."
         },
         {
           "type": "meerkeuze",
           "vraag": "Hoe lang duurt een gemiddelde menstruatiecyclus?",
           "opties": [
-            "ongeveer 28 dagen",
-            "ongeveer 14 dagen",
-            "ongeveer 40 dagen",
-            "ongeveer 7 dagen"
+            "ongeveer \\(28\\) dagen",
+            "ongeveer \\(14\\) dagen",
+            "ongeveer \\(40\\) dagen",
+            "ongeveer \\(7\\) dagen"
           ],
           "antwoord": 0,
           "uitleg": "Achtentwintig dagen is het gemiddelde. In werkelijkheid verschilt de lengte van vrouw tot vrouw en van cyclus tot cyclus."
@@ -3383,31 +3383,31 @@
         },
         {
           "type": "meerkeuze",
-          "vraag": "In de formule 3 H2O: wat is de index en wat is de coëfficiënt?",
+          "vraag": "In de formule 3 H₂O: wat is de index en wat is de coëfficiënt?",
           "opties": [
-            "de index is 2, de coëfficiënt is 3",
-            "de index is 3, de coëfficiënt is 2",
-            "de index is 2, de coëfficiënt is 2",
-            "de index is 3, de coëfficiënt is 3"
+            "de index is \\(2\\), de coëfficiënt is \\(3\\)",
+            "de index is \\(3\\), de coëfficiënt is \\(2\\)",
+            "de index is \\(2\\), de coëfficiënt is \\(2\\)",
+            "de index is \\(3\\), de coëfficiënt is \\(3\\)"
           ],
           "antwoord": 0,
           "uitleg": "De index staat klein achter een symbool en telt de atomen in één molecule. De coëfficiënt staat vooraan en telt de moleculen."
         },
         {
           "type": "meerkeuze",
-          "vraag": "Hoeveel atomen in totaal staan er in 2 H2SO4?",
+          "vraag": "Hoeveel atomen in totaal staan er in 2 H₂SO₄?",
           "opties": [
-            "14",
-            "7",
-            "8",
-            "12"
+            "\\(14\\)",
+            "\\(7\\)",
+            "\\(8\\)",
+            "\\(12\\)"
           ],
           "antwoord": 0,
-          "uitleg": "Eén molecule telt 2 plus 1 plus 4, dus 7 atomen. Twee moleculen geven samen 14 atomen."
+          "uitleg": "Eén molecule telt \\(2\\) plus \\(1\\) plus \\(4\\), dus \\(7\\) atomen. Twee moleculen geven samen \\(14\\) atomen."
         },
         {
           "type": "waarofniet",
-          "vraag": "De formule CO2 bevat twee verschillende elementen.",
+          "vraag": "De formule CO₂ bevat twee verschillende elementen.",
           "antwoord": true,
           "uitleg": "Koolstof en zuurstof: twee atoomsoorten, dus twee elementen. Het aantal atomen is drie."
         },
@@ -3554,15 +3554,15 @@
         },
         {
           "type": "meerkeuze",
-          "vraag": "Hoe maak je de vergelijking H2 + O2 geeft H2O kloppend?",
+          "vraag": "Hoe maak je de vergelijking H₂ + O₂ geeft H₂O kloppend?",
           "opties": [
-            "2 H2 + O2 geeft 2 H2O",
-            "H2 + O2 geeft H2O2",
-            "2 H2 + 2 O2 geeft 2 H2O",
-            "H2 + 2 O2 geeft 2 H2O"
+            "2 H₂ + O₂ geeft 2 H₂O",
+            "H₂ + O₂ geeft H₂O₂",
+            "2 H₂ + 2 O₂ geeft 2 H₂O",
+            "H₂ + 2 O₂ geeft 2 H₂O"
           ],
           "antwoord": 0,
-          "uitleg": "Links staan dan 4 waterstofatomen en 2 zuurstofatomen, rechts ook. Je verandert alleen de coëfficiënten, nooit de index in een formule."
+          "uitleg": "Links staan dan \\(4\\) waterstofatomen en \\(2\\) zuurstofatomen, rechts ook. Je verandert alleen de coëfficiënten, nooit de index in een formule."
         },
         {
           "type": "waarofniet",
@@ -3702,7 +3702,7 @@
         },
         {
           "type": "meerkeuze",
-          "vraag": "In de reactie 2 Mg + O2 geeft 2 MgO: welke uitspraken kloppen? Kruis alles aan wat juist is.",
+          "vraag": "In de reactie 2 Mg + O₂ geeft 2 MgO: welke uitspraken kloppen? Kruis alles aan wat juist is.",
           "opties": [
             "links en rechts staan twee magnesiumatomen",
             "links en rechts staan twee zuurstofatomen",
@@ -3714,7 +3714,7 @@
             1,
             2
           ],
-          "uitleg": "De vergelijking klopt: 2 Mg en 2 O aan elke kant. Er ontstaat maar één product, namelijk magnesiumoxide."
+          "uitleg": "De vergelijking klopt: \\(2\\) Mg en \\(2\\) O aan elke kant. Er ontstaat maar één product, namelijk magnesiumoxide."
         },
         {
           "type": "waarofniet",
@@ -3801,15 +3801,15 @@
         },
         {
           "type": "meerkeuze",
-          "vraag": "Een atoom heeft atoomnummer 11 en massagetal 23. Hoeveel neutronen zitten er in de kern?",
+          "vraag": "Een atoom heeft atoomnummer \\(11\\) en massagetal \\(23\\). Hoeveel neutronen zitten er in de kern?",
           "opties": [
-            "12",
-            "11",
-            "23",
-            "34"
+            "\\(12\\)",
+            "\\(11\\)",
+            "\\(23\\)",
+            "\\(34\\)"
           ],
           "antwoord": 0,
-          "uitleg": "Het aantal neutronen is het massagetal min het atoomnummer, dus 23 min 11 is 12."
+          "uitleg": "Het aantal neutronen is het massagetal min het atoomnummer, dus \\(23\\) min \\(11\\) is \\(12\\)."
         },
         {
           "type": "waarofniet",
@@ -3867,12 +3867,12 @@
         },
         {
           "type": "meerkeuze",
-          "vraag": "Je leest in het PSE bij een element: atoomnummer 17. Wat weet je meteen? Kruis alles aan wat juist is.",
+          "vraag": "Je leest in het PSE bij een element: atoomnummer \\(17\\). Wat weet je meteen? Kruis alles aan wat juist is.",
           "opties": [
-            "de kern bevat 17 protonen",
-            "een neutraal atoom heeft 17 elektronen",
+            "de kern bevat \\(17\\) protonen",
+            "een neutraal atoom heeft \\(17\\) elektronen",
             "het element staat op de zeventiende plaats in het PSE",
-            "de kern bevat 17 neutronen"
+            "de kern bevat \\(17\\) neutronen"
           ],
           "antwoord": [
             0,
@@ -3913,12 +3913,12 @@
         },
         {
           "type": "meerkeuze",
-          "vraag": "Een deeltje heeft 12 protonen en 10 elektronen. Wat is het?",
+          "vraag": "Een deeltje heeft \\(12\\) protonen en \\(10\\) elektronen. Wat is het?",
           "opties": [
-            "een positief ion met lading 2 plus",
-            "een negatief ion met lading 2 min",
+            "een positief ion met lading \\(2\\) plus",
+            "een negatief ion met lading \\(2\\) min",
             "een neutraal atoom van dat element",
-            "een atoom met massagetal 22"
+            "een atoom met massagetal \\(22\\)"
           ],
           "antwoord": 0,
           "uitleg": "Er zijn twee positieve ladingen meer dan negatieve, dus het deeltje is twee keer positief. Het is een magnesiumion."
@@ -3982,16 +3982,16 @@
           "type": "waarofniet",
           "vraag": "Het periodenummer geeft het aantal bezette schillen van een atoom.",
           "antwoord": true,
-          "uitleg": "Een element uit periode 3 heeft drie bezette schillen. Daarom worden de atomen naar onder toe groter."
+          "uitleg": "Een element uit periode \\(3\\) heeft drie bezette schillen. Daarom worden de atomen naar onder toe groter."
         },
         {
           "type": "meerkeuze",
           "vraag": "Hoeveel elektronen passen er in de eerste en in de tweede schil volgens het model van Bohr?",
           "opties": [
-            "2 in de eerste en 8 in de tweede",
-            "8 in de eerste en 8 in de tweede",
-            "2 in de eerste en 2 in de tweede",
-            "8 in de eerste en 18 in de tweede"
+            "\\(2\\) in de eerste en \\(8\\) in de tweede",
+            "\\(8\\) in de eerste en \\(8\\) in de tweede",
+            "\\(2\\) in de eerste en \\(2\\) in de tweede",
+            "\\(8\\) in de eerste en \\(18\\) in de tweede"
           ],
           "antwoord": 0,
           "uitleg": "De eerste schil is vol met twee elektronen, de tweede met acht. Daarom hebben helium en neon allebei een volle buitenste schil."
@@ -4004,12 +4004,12 @@
         },
         {
           "type": "meerkeuze",
-          "vraag": "Wat is de elektronenconfiguratie van een natriumatoom met atoomnummer 11?",
+          "vraag": "Wat is de elektronenconfiguratie van een natriumatoom met atoomnummer \\(11\\)?",
           "opties": [
-            "2, 8, 1",
-            "2, 8, 8",
-            "8, 2, 1",
-            "2, 9"
+            "\\(2\\), \\(8\\), \\(1\\)",
+            "\\(2\\), \\(8\\), \\(8\\)",
+            "\\(8\\), \\(2\\), \\(1\\)",
+            "\\(2\\), \\(9\\)"
           ],
           "antwoord": 0,
           "uitleg": "Je vult de schillen van binnen naar buiten: eerst twee, dan acht, en de elfde komt alleen in de derde schil. Dat ene buitenste elektron geeft natrium zijn gedrag."
@@ -4030,7 +4030,7 @@
             "daardoor wordt het een atoom van een ander element"
           ],
           "antwoord": 0,
-          "uitleg": "Na het afstaan blijft de configuratie 2, 8 over, net die van neon. Het natriumion is daardoor veel stabieler dan het atoom."
+          "uitleg": "Na het afstaan blijft de configuratie \\(2\\), \\(8\\) over, net die van neon. Het natriumion is daardoor veel stabieler dan het atoom."
         },
         {
           "type": "meerkeuze",
@@ -4056,7 +4056,7 @@
         },
         {
           "type": "meerkeuze",
-          "vraag": "Een element staat in groep 2 en in periode 4. Wat weet je over zijn atoom?",
+          "vraag": "Een element staat in groep \\(2\\) en in periode \\(4\\). Wat weet je over zijn atoom?",
           "opties": [
             "het heeft twee valentie-elektronen en vier bezette schillen",
             "het heeft vier valentie-elektronen en twee bezette schillen",
@@ -4068,7 +4068,7 @@
         },
         {
           "type": "waarofniet",
-          "vraag": "De elementen van groep 1 nemen gemakkelijk zeven elektronen op om aan een volle schil te komen.",
+          "vraag": "De elementen van groep \\(1\\) nemen gemakkelijk zeven elektronen op om aan een volle schil te komen.",
           "antwoord": false,
           "uitleg": "Met één elektron in de buitenste schil is dat ene afstaan veel eenvoudiger dan er zeven opnemen. Daarom zijn die metalen zo reactief."
         },
@@ -4086,12 +4086,12 @@
         },
         {
           "type": "meerkeuze",
-          "vraag": "Welke lading krijgt een ion van een element uit groep 2?",
+          "vraag": "Welke lading krijgt een ion van een element uit groep \\(2\\)?",
           "opties": [
-            "2 plus",
-            "2 min",
-            "1 plus",
-            "6 min"
+            "\\(2\\) plus",
+            "\\(2\\) min",
+            "\\(1\\) plus",
+            "\\(6\\) min"
           ],
           "antwoord": 0,
           "uitleg": "Die elementen staan hun twee valentie-elektronen af. Daardoor houden ze twee positieve ladingen over."
@@ -4144,15 +4144,15 @@
         },
         {
           "type": "meerkeuze",
-          "vraag": "Je krijgt een deeltje met 17 protonen en 18 elektronen. Hoe noteer je het?",
+          "vraag": "Je krijgt een deeltje met \\(17\\) protonen en \\(18\\) elektronen. Hoe noteer je het?",
           "opties": [
-            "als een chloride-ion met lading 1 min",
+            "als een chloride-ion met lading \\(1\\) min",
             "als een chlooratoom zonder enige lading",
             "als een argonatoom zonder enige lading",
-            "als een chloride-ion met lading 1 plus"
+            "als een chloride-ion met lading \\(1\\) plus"
           ],
           "antwoord": 0,
-          "uitleg": "Atoomnummer 17 is chloor. Eén elektron te veel geeft één negatieve lading, en zo bereikt het de configuratie van argon."
+          "uitleg": "Atoomnummer \\(17\\) is chloor. Eén elektron te veel geeft één negatieve lading, en zo bereikt het de configuratie van argon."
         }
       ]
     },
@@ -4558,7 +4558,7 @@
         },
         {
           "type": "meerkeuze",
-          "vraag": "Een stof smelt bij 801 graden Celsius, is breekbaar en geleidt pas als ze gesmolten of opgelost is. Wat is ze?",
+          "vraag": "Een stof smelt bij \\(801\\) graden Celsius, is breekbaar en geleidt pas als ze gesmolten of opgelost is. Wat is ze?",
           "opties": [
             "een zout met een ionrooster van positieve en negatieve ionen",
             "een metaal met een rooster van ionen in een zee van elektronen",
@@ -4592,9 +4592,9 @@
           "vraag": "Welke groep herken je in de formule van een hydroxide?",
           "opties": [
             "de hydroxidegroep OH",
-            "de carbonaatgroep CO3",
+            "de carbonaatgroep CO₃",
             "het waterstofion H vooraan",
-            "de sulfaatgroep SO4"
+            "de sulfaatgroep SO₄"
           ],
           "antwoord": 0,
           "uitleg": "Een hydroxide bestaat uit een metaal met een of meer OH-groepen, zoals natriumhydroxide of calciumhydroxide."
@@ -4603,7 +4603,7 @@
           "type": "waarofniet",
           "vraag": "De formule van een anorganisch zuur begint met waterstof.",
           "antwoord": true,
-          "uitleg": "Dat waterstofion is precies wat het zuur in water afstaat. Daarom schrijf je het vooraan, zoals in HCl of H2SO4."
+          "uitleg": "Dat waterstofion is precies wat het zuur in water afstaat. Daarom schrijf je het vooraan, zoals in HCl of H₂SO₄."
         },
         {
           "type": "meerkeuze",
@@ -4629,7 +4629,7 @@
         },
         {
           "type": "meerkeuze",
-          "vraag": "Hoe noem je het ion met formule NO3 min?",
+          "vraag": "Hoe noem je het ion met formule NO₃ min?",
           "opties": [
             "nitraation",
             "nitrietion",
@@ -4647,7 +4647,7 @@
         },
         {
           "type": "meerkeuze",
-          "vraag": "Wat is de naam van het ion met formule SO4 twee min?",
+          "vraag": "Wat is de naam van het ion met formule SO₄ twee min?",
           "opties": [
             "sulfaation",
             "sulfide-ion",
@@ -4701,7 +4701,7 @@
             "een zout waarin stikstof de plaats van het zuurstofatoom inneemt"
           ],
           "antwoord": 0,
-          "uitleg": "Het ammoniumion NH4 plus gedraagt zich als een positief metaalion. Ammoniumnitraat is een bekend voorbeeld uit de kunstmest."
+          "uitleg": "Het ammoniumion NH₄ plus gedraagt zich als een positief metaalion. Ammoniumnitraat is een bekend voorbeeld uit de kunstmest."
         },
         {
           "type": "waarofniet",
@@ -4713,13 +4713,13 @@
           "type": "meerkeuze",
           "vraag": "Hoe noteer je de brutoformule van water?",
           "opties": [
-            "H2O",
-            "HO2",
-            "H2O2",
+            "H₂O",
+            "HO₂",
+            "H₂O₂",
             "OH"
           ],
           "antwoord": 0,
-          "uitleg": "Twee waterstofatomen en één zuurstofatoom. H2O2 is waterstofperoxide, een heel andere stof."
+          "uitleg": "Twee waterstofatomen en één zuurstofatoom. H₂O₂ is waterstofperoxide, een heel andere stof."
         },
         {
           "type": "meerkeuze",
@@ -4731,17 +4731,17 @@
             "de brutoformule geeft de massa, de structuurformule geeft het smeltpunt"
           ],
           "antwoord": 0,
-          "uitleg": "C2H6 is een brutoformule. De structuurformule tekent er de twee koolstofatomen met hun waterstofatomen aan."
+          "uitleg": "C₂H₆ is een brutoformule. De structuurformule tekent er de twee koolstofatomen met hun waterstofatomen aan."
         },
         {
           "type": "waarofniet",
           "vraag": "Het chloraation en het chloride-ion zijn twee verschillende ionen.",
           "antwoord": true,
-          "uitleg": "Het chloride-ion is enkel chloor, Cl min. Het chloraation bevat ook zuurstof, ClO3 min."
+          "uitleg": "Het chloride-ion is enkel chloor, Cl min. Het chloraation bevat ook zuurstof, ClO₃ min."
         },
         {
           "type": "meerkeuze",
-          "vraag": "Je krijgt de formule Ca(OH)2. Tot welke stofklasse hoort die stof?",
+          "vraag": "Je krijgt de formule Ca(OH)\\(2\\). Tot welke stofklasse hoort die stof?",
           "opties": [
             "een hydroxide, met calcium en twee OH-groepen erin",
             "een ternair zout, met calcium en zuurstof erin",
@@ -4753,7 +4753,7 @@
         },
         {
           "type": "invultekst",
-          "vraag": "Hoe noem je het ion met formule CO3 twee min?",
+          "vraag": "Hoe noem je het ion met formule CO₃ twee min?",
           "antwoord": "carbonaation",
           "uitleg": "Het carbonaation komt van koolzuur. Calciumcarbonaat met dit ion is de hoofdbestanddeel van kalksteen en van krijt."
         },
@@ -4765,7 +4765,7 @@
         },
         {
           "type": "meerkeuze",
-          "vraag": "Welke naam hoort bij de formule H2SO4?",
+          "vraag": "Welke naam hoort bij de formule H₂SO₄?",
           "opties": [
             "zwavelzuur, een ternair zuur met zwavel en zuurstof erin",
             "waterstofsulfide, een binair zuur met alleen zwavel erin",
@@ -4862,7 +4862,7 @@
             "zwaveldioxide"
           ],
           "antwoord": 0,
-          "uitleg": "Distikstofoxide, met formule N2O, werd gebruikt als verdovingsmiddel. Het is ook een sterk broeikasgas."
+          "uitleg": "Distikstofoxide, met formule N₂O, werd gebruikt als verdovingsmiddel. Het is ook een sterk broeikasgas."
         },
         {
           "type": "meerkeuze",
@@ -5045,17 +5045,17 @@
           "type": "meerkeuze",
           "vraag": "Welke pH heeft een neutrale oplossing?",
           "opties": [
-            "7",
-            "0",
-            "14",
-            "1"
+            "\\(7\\)",
+            "\\(0\\)",
+            "\\(14\\)",
+            "\\(1\\)"
           ],
           "antwoord": 0,
-          "uitleg": "Onder 7 is zuur, boven 7 basisch. Zuiver water heeft precies pH 7."
+          "uitleg": "Onder \\(7\\) is zuur, boven \\(7\\) basisch. Zuiver water heeft precies pH \\(7\\)."
         },
         {
           "type": "waarofniet",
-          "vraag": "Een oplossing met pH 3 is zuurder dan een oplossing met pH 5.",
+          "vraag": "Een oplossing met pH \\(3\\) is zuurder dan een oplossing met pH \\(5\\).",
           "antwoord": true,
           "uitleg": "Hoe lager de pH, hoe meer waterstofionen. Elke stap op de schaal is een factor tien."
         },
@@ -5093,17 +5093,17 @@
           "type": "meerkeuze",
           "vraag": "Welke uitspraken over de pH-schaal zijn juist? Kruis alles aan wat juist is.",
           "opties": [
-            "een pH onder 7 betekent zuur",
-            "een pH boven 7 betekent basisch",
+            "een pH onder \\(7\\) betekent zuur",
+            "een pH boven \\(7\\) betekent basisch",
             "elke eenheid verschil is een factor tien",
-            "de schaal loopt van min 7 tot plus 7"
+            "de schaal loopt van min \\(7\\) tot plus \\(7\\)"
           ],
           "antwoord": [
             0,
             1,
             2
           ],
-          "uitleg": "De gewone schaal loopt van 0 tot 14, met 7 in het midden. Negatieve pH-waarden bestaan wel, maar alleen bij heel sterke zuren."
+          "uitleg": "De gewone schaal loopt van \\(0\\) tot \\(14\\), met \\(7\\) in het midden. Negatieve pH-waarden bestaan wel, maar alleen bij heel sterke zuren."
         },
         {
           "type": "meerkeuze",
@@ -5112,7 +5112,7 @@
             "NaCl wordt Na plus en Cl min",
             "NaCl wordt Na en Cl, twee neutrale atomen",
             "NaCl wordt NaOH en HCl samen",
-            "NaCl wordt Na2 en Cl2, twee enkelvoudige stoffen"
+            "NaCl wordt Na₂ en Cl₂, twee enkelvoudige stoffen"
           ],
           "antwoord": 0,
           "uitleg": "Bij dissociatie komen de ionen los zoals ze in het rooster zaten. Hun lading verandert niet."
@@ -5139,10 +5139,10 @@
           "type": "meerkeuze",
           "vraag": "Je lost een beetje natriumhydroxide op in water. Wat verwacht je als pH?",
           "opties": [
-            "duidelijk boven 7, want een hydroxide maakt de oplossing basisch",
-            "duidelijk onder 7, want een hydroxide maakt de oplossing zuur",
-            "precies 7, want een hydroxide verandert de zuurtegraad niet",
-            "eerst onder 7 en daarna boven 7, afhankelijk van de tijd"
+            "duidelijk boven \\(7\\), want een hydroxide maakt de oplossing basisch",
+            "duidelijk onder \\(7\\), want een hydroxide maakt de oplossing zuur",
+            "precies \\(7\\), want een hydroxide verandert de zuurtegraad niet",
+            "eerst onder \\(7\\) en daarna boven \\(7\\), afhankelijk van de tijd"
           ],
           "antwoord": 0,
           "uitleg": "Natriumhydroxide dissocieert en geeft hydroxide-ionen vrij. Die maken de oplossing basisch."
@@ -5210,7 +5210,7 @@
             1,
             2
           ],
-          "uitleg": "Het waterstofion van het zuur en het hydroxide-ion van de base vormen samen water, en de overige ionen blijven als zout achter. Daardoor schuift de pH naar 7 toe, zonder dat er gas vrijkomt."
+          "uitleg": "Het waterstofion van het zuur en het hydroxide-ion van de base vormen samen water, en de overige ionen blijven als zout achter. Daardoor schuift de pH naar \\(7\\) toe, zonder dat er gas vrijkomt."
         },
         {
           "type": "meerkeuze",
@@ -5252,9 +5252,9 @@
           "type": "meerkeuze",
           "vraag": "Hoeveel deeltjes zitten er in één mol van een stof?",
           "opties": [
-            "ongeveer 6 maal 10 tot de 23",
-            "ongeveer 6 maal 10 tot de 12",
-            "precies 1000 deeltjes per mol stof",
+            "ongeveer \\(6 \\cdot 10\\) tot de \\(23\\)",
+            "ongeveer \\(6 \\cdot 10\\) tot de \\(12\\)",
+            "precies \\(1000\\) deeltjes per mol stof",
             "evenveel als het atoomnummer van het element"
           ],
           "antwoord": 0,
@@ -5268,15 +5268,15 @@
         },
         {
           "type": "meerkeuze",
-          "vraag": "Je hebt 2 mol water. Hoeveel gram is dat, als de molaire massa 18 gram per mol is?",
+          "vraag": "Je hebt \\(2\\) mol water. Hoeveel gram is dat, als de molaire massa \\(18\\) gram per mol is?",
           "opties": [
-            "36 gram",
-            "18 gram",
-            "9 gram",
-            "20 gram"
+            "\\(36\\) gram",
+            "\\(18\\) gram",
+            "\\(9\\) gram",
+            "\\(20\\) gram"
           ],
           "antwoord": 0,
-          "uitleg": "Massa is stofhoeveelheid maal molaire massa, dus 2 maal 18. Omgekeerd deel je de massa door de molaire massa om het aantal mol te vinden."
+          "uitleg": "Massa is stofhoeveelheid maal molaire massa, dus \\(2 \\cdot 18\\). Omgekeerd deel je de massa door de molaire massa om het aantal mol te vinden."
         },
         {
           "type": "meerkeuze",
@@ -5292,9 +5292,9 @@
         },
         {
           "type": "invultekst",
-          "vraag": "Hoeveel mol is 36 gram water, als de molaire massa 18 gram per mol is?",
+          "vraag": "Hoeveel mol is \\(36\\) gram water, als de molaire massa \\(18\\) gram per mol is?",
           "antwoord": "2",
-          "uitleg": "Je deelt de massa door de molaire massa: 36 gedeeld door 18 is 2 mol."
+          "uitleg": "Je deelt de massa door de molaire massa: \\(36 : 18\\) is \\(2\\) mol."
         },
         {
           "type": "meerkeuze",
@@ -5337,7 +5337,7 @@
             "er vormt zich een witte neerslag van zilverchloride",
             "er ontstaat een gas dat uit de oplossing ontsnapt",
             "er gebeurt niets, want beide zouten lossen goed op",
-            "de oplossing wordt zuur en de pH zakt onder de 7"
+            "de oplossing wordt zuur en de pH zakt onder de \\(7\\)"
           ],
           "antwoord": 0,
           "uitleg": "Zilverchloride is slecht oplosbaar in water, en dat kan je nakijken in een oplosbaarheidstabel. Daarom slaat het neer."
@@ -5362,15 +5362,15 @@
         },
         {
           "type": "meerkeuze",
-          "vraag": "Je hebt 0,5 liter oplossing met 1 mol opgeloste stof. Wat is de molaire concentratie?",
+          "vraag": "Je hebt \\(0{,}5\\) liter oplossing met \\(1\\) mol opgeloste stof. Wat is de molaire concentratie?",
           "opties": [
-            "2 mol per liter",
-            "0,5 mol per liter",
-            "1 mol per liter",
-            "0,25 mol per liter"
+            "\\(2\\) mol per liter",
+            "\\(0{,}5\\) mol per liter",
+            "\\(1\\) mol per liter",
+            "\\(0{,}25\\) mol per liter"
           ],
           "antwoord": 0,
-          "uitleg": "Je deelt 1 mol door 0,5 liter en dat geeft 2 mol per liter. In een halve liter zit dus even veel als in een liter van een twee keer verdunde oplossing."
+          "uitleg": "Je deelt \\(1\\) mol door \\(0{,}5\\) liter en dat geeft \\(2\\) mol per liter. In een halve liter zit dus even veel als in een liter van een twee keer verdunde oplossing."
         },
         {
           "type": "meerkeuze",
@@ -5461,15 +5461,15 @@
         },
         {
           "type": "meerkeuze",
-          "vraag": "Een auto rijdt 150 kilometer in 2 uur. Wat is zijn gemiddelde snelheid?",
+          "vraag": "Een auto rijdt \\(150\\) kilometer in \\(2\\) uur. Wat is zijn gemiddelde snelheid?",
           "opties": [
-            "75 kilometer per uur",
-            "150 kilometer per uur",
-            "300 kilometer per uur",
-            "50 kilometer per uur"
+            "\\(75\\) kilometer per uur",
+            "\\(150\\) kilometer per uur",
+            "\\(300\\) kilometer per uur",
+            "\\(50\\) kilometer per uur"
           ],
           "antwoord": 0,
-          "uitleg": "De gemiddelde snelheid is de verplaatsing gedeeld door het tijdsverloop, dus 150 gedeeld door 2."
+          "uitleg": "De gemiddelde snelheid is de verplaatsing gedeeld door het tijdsverloop, dus \\(150 : 2\\)."
         },
         {
           "type": "waarofniet",
@@ -5543,15 +5543,15 @@
         },
         {
           "type": "meerkeuze",
-          "vraag": "Een puntmassa start op positie 20 meter en rijdt met 5 meter per seconde in de zin van de x-as. Waar zit ze na 4 seconden?",
+          "vraag": "Een puntmassa start op positie \\(20\\) meter en rijdt met \\(5\\) meter per seconde in de zin van de x-as. Waar zit ze na \\(4\\) seconden?",
           "opties": [
-            "op 40 meter",
-            "op 20 meter",
-            "op 5 meter",
-            "op 80 meter"
+            "op \\(40\\) meter",
+            "op \\(20\\) meter",
+            "op \\(5\\) meter",
+            "op \\(80\\) meter"
           ],
           "antwoord": 0,
-          "uitleg": "Je telt bij de beginpositie de verplaatsing op: 20 plus 5 maal 4. Dat is de positiefunctie van een eenparig rechtlijnige beweging."
+          "uitleg": "Je telt bij de beginpositie de verplaatsing op: \\(20\\) plus \\(5 \\cdot 4\\). Dat is de positiefunctie van een eenparig rechtlijnige beweging."
         },
         {
           "type": "waarofniet",
@@ -5561,7 +5561,7 @@
         },
         {
           "type": "meerkeuze",
-          "vraag": "Twee wandelaars vertrekken op hetzelfde ogenblik vanuit dezelfde plaats, de ene met 4 en de andere met 6 kilometer per uur. Hoe ziet dat in een x(t)-grafiek?",
+          "vraag": "Twee wandelaars vertrekken op hetzelfde ogenblik vanuit dezelfde plaats, de ene met \\(4\\) en de andere met \\(6\\) kilometer per uur. Hoe ziet dat in een x(t)-grafiek?",
           "opties": [
             "twee rechten vanuit hetzelfde punt, waarvan de ene steiler loopt",
             "twee rechten die elkaar na een uur ergens weer kruisen",
@@ -5591,21 +5591,21 @@
         },
         {
           "type": "waarofniet",
-          "vraag": "Een snelheid van 36 kilometer per uur is hetzelfde als 36 meter per seconde.",
+          "vraag": "Een snelheid van \\(36\\) kilometer per uur is hetzelfde als \\(36\\) meter per seconde.",
           "antwoord": false,
-          "uitleg": "Je deelt kilometer per uur door 3,6 om meter per seconde te krijgen. 36 kilometer per uur is dus 10 meter per seconde."
+          "uitleg": "Je deelt kilometer per uur door \\(3{,}6\\) om meter per seconde te krijgen. \\(36\\) kilometer per uur is dus \\(10\\) meter per seconde."
         },
         {
           "type": "meerkeuze",
-          "vraag": "Een fietser rijdt 10 kilometer naar het oosten en daarna 10 kilometer terug naar het westen. Wat is zijn verplaatsing?",
+          "vraag": "Een fietser rijdt \\(10\\) kilometer naar het oosten en daarna \\(10\\) kilometer terug naar het westen. Wat is zijn verplaatsing?",
           "opties": [
             "nul kilometer",
-            "20 kilometer",
-            "10 kilometer",
-            "5 kilometer"
+            "\\(20\\) kilometer",
+            "\\(10\\) kilometer",
+            "\\(5\\) kilometer"
           ],
           "antwoord": 0,
-          "uitleg": "Hij eindigt waar hij begon, dus is de verplaatsing nul. De afgelegde weg is wel 20 kilometer."
+          "uitleg": "Hij eindigt waar hij begon, dus is de verplaatsing nul. De afgelegde weg is wel \\(20\\) kilometer."
         }
       ]
     },
@@ -5636,7 +5636,7 @@
             "de afgelegde weg gedeeld door het tijdsverloop"
           ],
           "antwoord": 0,
-          "uitleg": "De eenheid is meter per seconde per seconde. Een versnelling van 2 betekent dat de snelheid elke seconde met 2 meter per seconde toeneemt."
+          "uitleg": "De eenheid is meter per seconde per seconde. Een versnelling van \\(2\\) betekent dat de snelheid elke seconde met \\(2\\) meter per seconde toeneemt."
         },
         {
           "type": "waarofniet",
@@ -5692,15 +5692,15 @@
         },
         {
           "type": "meerkeuze",
-          "vraag": "Een voorwerp start uit stilstand en versnelt met 3 meter per seconde kwadraat. Welke snelheid heeft het na 4 seconden?",
+          "vraag": "Een voorwerp start uit stilstand en versnelt met \\(3\\) meter per seconde kwadraat. Welke snelheid heeft het na \\(4\\) seconden?",
           "opties": [
-            "12 meter per seconde",
-            "3 meter per seconde",
-            "7 meter per seconde",
-            "0,75 meter per seconde"
+            "\\(12\\) meter per seconde",
+            "\\(3\\) meter per seconde",
+            "\\(7\\) meter per seconde",
+            "\\(0{,}75\\) meter per seconde"
           ],
           "antwoord": 0,
-          "uitleg": "Je vermenigvuldigt de versnelling met de tijd: 3 maal 4. Vanuit stilstand hoef je er niets bij te tellen."
+          "uitleg": "Je vermenigvuldigt de versnelling met de tijd: \\(3 \\cdot 4\\). Vanuit stilstand hoef je er niets bij te tellen."
         },
         {
           "type": "waarofniet",
@@ -5718,7 +5718,7 @@
             "bij versnellen is de lijn vlak, bij vertragen is ze schuin"
           ],
           "antwoord": 0,
-          "uitleg": "Je kijkt naar de grootte van de snelheid, niet naar het teken. Een snelheid van min 2 naar min 8 is ook versnellen."
+          "uitleg": "Je kijkt naar de grootte van de snelheid, niet naar het teken. Een snelheid van min \\(2\\) naar min \\(8\\) is ook versnellen."
         },
         {
           "type": "invultekst",
@@ -5746,27 +5746,27 @@
         },
         {
           "type": "meerkeuze",
-          "vraag": "Een v(t)-grafiek daalt van 20 meter per seconde naar nul in 5 seconden. Wat is de versnelling?",
+          "vraag": "Een v(t)-grafiek daalt van \\(20\\) meter per seconde naar nul in \\(5\\) seconden. Wat is de versnelling?",
           "opties": [
-            "min 4 meter per seconde kwadraat",
-            "plus 4 meter per seconde kwadraat",
-            "min 100 meter per seconde kwadraat",
-            "min 0,25 meter per seconde kwadraat"
+            "min \\(4\\) meter per seconde kwadraat",
+            "plus \\(4\\) meter per seconde kwadraat",
+            "min \\(100\\) meter per seconde kwadraat",
+            "min \\(0{,}25\\) meter per seconde kwadraat"
           ],
           "antwoord": 0,
-          "uitleg": "Je deelt de verandering van snelheid door de tijd: min 20 gedeeld door 5. Het minteken zegt dat het vertragen is."
+          "uitleg": "Je deelt de verandering van snelheid door de tijd: min \\(20 : 5\\). Het minteken zegt dat het vertragen is."
         },
         {
           "type": "meerkeuze",
-          "vraag": "Een auto rijdt met 20 meter per seconde en vertraagt gelijkmatig tot stilstand in 5 seconden. Hoeveel meter legt hij nog af?",
+          "vraag": "Een auto rijdt met \\(20\\) meter per seconde en vertraagt gelijkmatig tot stilstand in \\(5\\) seconden. Hoeveel meter legt hij nog af?",
           "opties": [
-            "50 meter",
-            "100 meter",
-            "25 meter",
-            "20 meter"
+            "\\(50\\) meter",
+            "\\(100\\) meter",
+            "\\(25\\) meter",
+            "\\(20\\) meter"
           ],
           "antwoord": 0,
-          "uitleg": "De oppervlakte onder de v(t)-grafiek is een driehoek: de helft van 20 maal 5. Dat is de remweg."
+          "uitleg": "De oppervlakte onder de v(t)-grafiek is een driehoek: de helft van \\(20 \\cdot 5\\). Dat is de remweg."
         },
         {
           "type": "waarofniet",
@@ -5843,13 +5843,13 @@
           "type": "meerkeuze",
           "vraag": "Hoe groot is de valversnelling op aarde ongeveer?",
           "opties": [
-            "9,81 meter per seconde kwadraat",
-            "1,62 meter per seconde kwadraat",
-            "98,1 meter per seconde kwadraat",
-            "0,98 meter per seconde kwadraat"
+            "\\(9{,}81\\) meter per seconde kwadraat",
+            "\\(1{,}62\\) meter per seconde kwadraat",
+            "\\(98{,}1\\) meter per seconde kwadraat",
+            "\\(0{,}98\\) meter per seconde kwadraat"
           ],
           "antwoord": 0,
-          "uitleg": "Elke seconde komt er ongeveer 9,81 meter per seconde snelheid bij. Op de maan is dat maar 1,62."
+          "uitleg": "Elke seconde komt er ongeveer \\(9{,}81\\) meter per seconde snelheid bij. Op de maan is dat maar \\(1{,}62\\)."
         },
         {
           "type": "waarofniet",
@@ -5877,15 +5877,15 @@
         },
         {
           "type": "meerkeuze",
-          "vraag": "Een steen valt uit stilstand. Welke snelheid heeft hij na 2 seconden, met 10 meter per seconde kwadraat als valversnelling?",
+          "vraag": "Een steen valt uit stilstand. Welke snelheid heeft hij na \\(2\\) seconden, met \\(10\\) meter per seconde kwadraat als valversnelling?",
           "opties": [
-            "20 meter per seconde",
-            "10 meter per seconde",
-            "5 meter per seconde",
-            "40 meter per seconde"
+            "\\(20\\) meter per seconde",
+            "\\(10\\) meter per seconde",
+            "\\(5\\) meter per seconde",
+            "\\(40\\) meter per seconde"
           ],
           "antwoord": 0,
-          "uitleg": "Je vermenigvuldigt de valversnelling met de tijd: 10 maal 2. Dat is dezelfde rekenwijze als bij elke eenparig versnelde beweging."
+          "uitleg": "Je vermenigvuldigt de valversnelling met de tijd: \\(10 \\cdot 2\\). Dat is dezelfde rekenwijze als bij elke eenparig versnelde beweging."
         },
         {
           "type": "waarofniet",
@@ -6044,7 +6044,7 @@
             "de massa optellen bij de zwaarteveldsterkte van de plaats"
           ],
           "antwoord": 0,
-          "uitleg": "Massa maal zwaarteveldsterkte geeft de kracht in newton. Op aarde is die sterkte ongeveer 9,81 newton per kilogram."
+          "uitleg": "Massa maal zwaarteveldsterkte geeft de kracht in newton. Op aarde is die sterkte ongeveer \\(9{,}81\\) newton per kilogram."
         },
         {
           "type": "meerkeuze",
@@ -6070,15 +6070,15 @@
         },
         {
           "type": "meerkeuze",
-          "vraag": "Een voorwerp van 5 kilogram hangt stil aan een veer. Hoe groot is de veerkracht, met 10 newton per kilogram?",
+          "vraag": "Een voorwerp van \\(5\\) kilogram hangt stil aan een veer. Hoe groot is de veerkracht, met \\(10\\) newton per kilogram?",
           "opties": [
-            "50 newton",
-            "5 newton",
-            "10 newton",
-            "0,5 newton"
+            "\\(50\\) newton",
+            "\\(5\\) newton",
+            "\\(10\\) newton",
+            "\\(0{,}5\\) newton"
           ],
           "antwoord": 0,
-          "uitleg": "Het voorwerp hangt stil, dus is er een krachtenbalans. De veerkracht is dan even groot als de zwaartekracht van 50 newton."
+          "uitleg": "Het voorwerp hangt stil, dus is er een krachtenbalans. De veerkracht is dan even groot als de zwaartekracht van \\(50\\) newton."
         },
         {
           "type": "invultekst",
@@ -6106,24 +6106,24 @@
         },
         {
           "type": "meerkeuze",
-          "vraag": "Twee krachten van 30 en 40 newton werken op hetzelfde punt en maken een hoek van 90 graden. Hoe groot is de resultante?",
+          "vraag": "Twee krachten van \\(30\\) en \\(40\\) newton werken op hetzelfde punt en maken een hoek van \\(90\\) graden. Hoe groot is de resultante?",
           "opties": [
-            "50 newton",
-            "70 newton",
-            "10 newton",
-            "35 newton"
+            "\\(50\\) newton",
+            "\\(70\\) newton",
+            "\\(10\\) newton",
+            "\\(35\\) newton"
           ],
           "antwoord": 0,
-          "uitleg": "Bij een rechte hoek gebruik je de stelling van Pythagoras: de wortel uit 900 plus 1600 is 50."
+          "uitleg": "Bij een rechte hoek gebruik je de stelling van Pythagoras: \\(\\sqrt{900}\\) plus \\(1600\\) is \\(50\\)."
         },
         {
           "type": "meerkeuze",
-          "vraag": "Twee krachten van 30 en 40 newton werken op hetzelfde punt in dezelfde richting en dezelfde zin. Hoe groot is de resultante?",
+          "vraag": "Twee krachten van \\(30\\) en \\(40\\) newton werken op hetzelfde punt in dezelfde richting en dezelfde zin. Hoe groot is de resultante?",
           "opties": [
-            "70 newton",
-            "50 newton",
-            "10 newton",
-            "1200 newton"
+            "\\(70\\) newton",
+            "\\(50\\) newton",
+            "\\(10\\) newton",
+            "\\(1200\\) newton"
           ],
           "antwoord": 0,
           "uitleg": "Werken twee krachten in dezelfde zin, dan tel je hun groottes gewoon op. Bij tegengestelde zin trek je ze van elkaar af."
@@ -6148,7 +6148,7 @@
             1,
             2
           ],
-          "uitleg": "Op aarde is ze ongeveer 9,81 en op de maan 1,62 newton per kilogram. Daardoor weegt hetzelfde voorwerp op de maan veel minder."
+          "uitleg": "Op aarde is ze ongeveer \\(9{,}81\\) en op de maan \\(1{,}62\\) newton per kilogram. Daardoor weegt hetzelfde voorwerp op de maan veel minder."
         },
         {
           "type": "meerkeuze",
@@ -6188,15 +6188,15 @@
         },
         {
           "type": "meerkeuze",
-          "vraag": "Een veer rekt 4 centimeter uit bij een kracht van 20 newton. Wat is de veerconstante?",
+          "vraag": "Een veer rekt \\(4\\) centimeter uit bij een kracht van \\(20\\) newton. Wat is de veerconstante?",
           "opties": [
-            "5 newton per centimeter",
-            "80 newton per centimeter",
-            "0,2 newton per centimeter",
-            "24 newton per centimeter"
+            "\\(5\\) newton per centimeter",
+            "\\(80\\) newton per centimeter",
+            "\\(0{,}2\\) newton per centimeter",
+            "\\(24\\) newton per centimeter"
           ],
           "antwoord": 0,
-          "uitleg": "Je deelt de kracht door de uitrekking: 20 gedeeld door 4. Met die constante kan je elke andere uitrekking voorspellen."
+          "uitleg": "Je deelt de kracht door de uitrekking: \\(20 : 4\\). Met die constante kan je elke andere uitrekking voorspellen."
         },
         {
           "type": "meerkeuze",
@@ -6222,9 +6222,9 @@
         },
         {
           "type": "invultekst",
-          "vraag": "Hoeveel newton is de zwaartekracht op een massa van 2 kilogram, met 10 newton per kilogram?",
+          "vraag": "Hoeveel newton is de zwaartekracht op een massa van \\(2\\) kilogram, met \\(10\\) newton per kilogram?",
           "antwoord": "20",
-          "uitleg": "Je vermenigvuldigt de massa met de zwaarteveldsterkte: 2 maal 10. Met de nauwkeuriger 9,81 kom je op 19,62 newton."
+          "uitleg": "Je vermenigvuldigt de massa met de zwaarteveldsterkte: \\(2 \\cdot 10\\). Met de nauwkeuriger \\(9{,}81\\) kom je op \\(19{,}62\\) newton."
         },
         {
           "type": "meerkeuze",
@@ -6347,10 +6347,10 @@
         },
         {
           "type": "meerkeuze",
-          "vraag": "Een persoon van 80 kilogram en een van 50 kilogram hebben dezelfde schoenmaat en staan in de modder. Wie zakt het diepst?",
+          "vraag": "Een persoon van \\(80\\) kilogram en een van \\(50\\) kilogram hebben dezelfde schoenmaat en staan in de modder. Wie zakt het diepst?",
           "opties": [
-            "de persoon van 80 kilogram, want zijn druk op de modder is groter",
-            "de persoon van 50 kilogram, want hij staat minder stevig op de grond",
+            "de persoon van \\(80\\) kilogram, want zijn druk op de modder is groter",
+            "de persoon van \\(50\\) kilogram, want hij staat minder stevig op de grond",
             "ze zakken precies even diep, want hun schoenoppervlak is gelijk",
             "dat hangt enkel af van hoe lang ze in de modder blijven staan"
           ],
@@ -6367,13 +6367,13 @@
           "type": "meerkeuze",
           "vraag": "Hoeveel pascal is één bar?",
           "opties": [
-            "100 000 pascal",
-            "1 000 pascal",
-            "10 pascal",
-            "1 000 000 pascal"
+            "\\(100\\,000\\) pascal",
+            "\\(1\\,000\\) pascal",
+            "\\(10\\) pascal",
+            "\\(1\\,000\\,000\\) pascal"
           ],
           "antwoord": 0,
-          "uitleg": "Eén bar is 100 kilopascal, en dat is ongeveer de luchtdruk op zeeniveau. In het weerbericht lees je dat als 1000 hectopascal."
+          "uitleg": "Eén bar is \\(100\\) kilopascal, en dat is ongeveer de luchtdruk op zeeniveau. In het weerbericht lees je dat als \\(1000\\) hectopascal."
         },
         {
           "type": "meerkeuze",
@@ -6435,15 +6435,15 @@
         },
         {
           "type": "meerkeuze",
-          "vraag": "Je duwt met 200 newton op een oppervlak van 0,5 vierkante meter. Hoe groot is de druk?",
+          "vraag": "Je duwt met \\(200\\) newton op een oppervlak van \\(0{,}5\\) vierkante meter. Hoe groot is de druk?",
           "opties": [
-            "400 pascal",
-            "100 pascal",
-            "200 pascal",
-            "40 pascal"
+            "\\(400\\) pascal",
+            "\\(100\\) pascal",
+            "\\(200\\) pascal",
+            "\\(40\\) pascal"
           ],
           "antwoord": 0,
-          "uitleg": "Je deelt de kracht door de oppervlakte: 200 gedeeld door 0,5. Een kleiner oppervlak geeft dus een grotere druk."
+          "uitleg": "Je deelt de kracht door de oppervlakte: \\(200 : 0{,}5\\). Een kleiner oppervlak geeft dus een grotere druk."
         }
       ]
     },
@@ -6480,19 +6480,19 @@
           "type": "waarofniet",
           "vraag": "Nul kelvin is het absolute nulpunt, waarbij de deeltjes geen kinetische energie meer hebben.",
           "antwoord": true,
-          "uitleg": "Dat ligt bij min 273,15 graden Celsius. Lager kan niet, want trager dan stil bestaat niet."
+          "uitleg": "Dat ligt bij min \\(273{,}15\\) graden Celsius. Lager kan niet, want trager dan stil bestaat niet."
         },
         {
           "type": "meerkeuze",
-          "vraag": "Hoeveel kelvin is 27 graden Celsius?",
+          "vraag": "Hoeveel kelvin is \\(27\\) graden Celsius?",
           "opties": [
-            "300 kelvin",
-            "246 kelvin",
-            "27 kelvin",
-            "173 kelvin"
+            "\\(300\\) kelvin",
+            "\\(246\\) kelvin",
+            "\\(27\\) kelvin",
+            "\\(173\\) kelvin"
           ],
           "antwoord": 0,
-          "uitleg": "Je telt 273 bij de graden Celsius op. Omgekeerd trek je 273 van de kelvin af."
+          "uitleg": "Je telt \\(273\\) bij de graden Celsius op. Omgekeerd trek je \\(273\\) van de kelvin af."
         },
         {
           "type": "invultekst",
@@ -6554,12 +6554,12 @@
         },
         {
           "type": "meerkeuze",
-          "vraag": "Een gas van 2 liter bij 1 bar wordt bij gelijke temperatuur tot 1 liter samengeperst. Wat is de druk?",
+          "vraag": "Een gas van \\(2\\) liter bij \\(1\\) bar wordt bij gelijke temperatuur tot \\(1\\) liter samengeperst. Wat is de druk?",
           "opties": [
-            "2 bar",
-            "1 bar",
-            "0,5 bar",
-            "4 bar"
+            "\\(2\\) bar",
+            "\\(1\\) bar",
+            "\\(0{,}5\\) bar",
+            "\\(4\\) bar"
           ],
           "antwoord": 0,
           "uitleg": "Druk maal volume blijft gelijk bij een vaste temperatuur. Half het volume geeft dus dubbel de druk."
@@ -6584,12 +6584,12 @@
         },
         {
           "type": "meerkeuze",
-          "vraag": "Een gas van 300 kelvin bij 1 bar wordt in een gesloten vat tot 600 kelvin verwarmd. Wat is de druk?",
+          "vraag": "Een gas van \\(300\\) kelvin bij \\(1\\) bar wordt in een gesloten vat tot \\(600\\) kelvin verwarmd. Wat is de druk?",
           "opties": [
-            "2 bar",
-            "1 bar",
-            "0,5 bar",
-            "300 bar"
+            "\\(2\\) bar",
+            "\\(1\\) bar",
+            "\\(0{,}5\\) bar",
+            "\\(300\\) bar"
           ],
           "antwoord": 0,
           "uitleg": "Bij gelijk volume zijn druk en absolute temperatuur recht evenredig. Een verdubbeling van de kelvin verdubbelt dus de druk."
@@ -6616,7 +6616,7 @@
           "type": "meerkeuze",
           "vraag": "Welke uitspraken over het absolute nulpunt zijn juist? Kruis alles aan wat juist is.",
           "opties": [
-            "het ligt bij ongeveer min 273 graden Celsius",
+            "het ligt bij ongeveer min \\(273\\) graden Celsius",
             "de kinetische energie van de deeltjes is er nul",
             "een lagere temperatuur bestaat niet",
             "de druk van een gas is er het hoogst"
@@ -6636,9 +6636,9 @@
         },
         {
           "type": "invultekst",
-          "vraag": "Hoeveel graden Celsius is 273 kelvin?",
+          "vraag": "Hoeveel graden Celsius is \\(273\\) kelvin?",
           "antwoord": "0",
-          "uitleg": "Je trekt 273 van de kelvin af. Dat is dus precies het smeltpunt van ijs."
+          "uitleg": "Je trekt \\(273\\) van de kelvin af. Dat is dus precies het smeltpunt van ijs."
         },
         {
           "type": "meerkeuze",
@@ -6687,7 +6687,7 @@
           "type": "waarofniet",
           "vraag": "Een kracht die loodrecht op de verplaatsing staat, verricht geen arbeid.",
           "antwoord": true,
-          "uitleg": "De cosinus van 90 graden is nul. Daarom verricht de normaalkracht op een voorwerp dat horizontaal schuift geen arbeid."
+          "uitleg": "De cosinus van \\(90\\) graden is nul. Daarom verricht de normaalkracht op een voorwerp dat horizontaal schuift geen arbeid."
         },
         {
           "type": "meerkeuze",
@@ -6849,15 +6849,15 @@
         },
         {
           "type": "meerkeuze",
-          "vraag": "Je duwt een doos van 3 meter ver met een kracht van 40 newton in de zin van de beweging. Hoeveel arbeid verricht je?",
+          "vraag": "Je duwt een doos van \\(3\\) meter ver met een kracht van \\(40\\) newton in de zin van de beweging. Hoeveel arbeid verricht je?",
           "opties": [
-            "120 joule",
-            "43 joule",
-            "13 joule",
-            "40 joule"
+            "\\(120\\) joule",
+            "\\(43\\) joule",
+            "\\(13\\) joule",
+            "\\(40\\) joule"
           ],
           "antwoord": 0,
-          "uitleg": "Je vermenigvuldigt de kracht met de verplaatsing: 40 maal 3. Werkt de kracht onder een hoek, dan komt er nog een cosinus bij."
+          "uitleg": "Je vermenigvuldigt de kracht met de verplaatsing: \\(40 \\cdot 3\\). Werkt de kracht onder een hoek, dan komt er nog een cosinus bij."
         }
       ]
     },
@@ -6880,15 +6880,15 @@
         },
         {
           "type": "meerkeuze",
-          "vraag": "Een voorwerp van 2 kilogram beweegt met 3 meter per seconde. Hoeveel kinetische energie heeft het?",
+          "vraag": "Een voorwerp van \\(2\\) kilogram beweegt met \\(3\\) meter per seconde. Hoeveel kinetische energie heeft het?",
           "opties": [
-            "9 joule",
-            "6 joule",
-            "18 joule",
-            "3 joule"
+            "\\(9\\) joule",
+            "\\(6\\) joule",
+            "\\(18\\) joule",
+            "\\(3\\) joule"
           ],
           "antwoord": 0,
-          "uitleg": "Je rekent de helft van 2 maal 9. Dat geeft 9 joule."
+          "uitleg": "Je rekent de helft van \\(2 \\cdot 9\\). Dat geeft \\(9\\) joule."
         },
         {
           "type": "waarofniet",
@@ -6912,7 +6912,7 @@
           "type": "invultekst",
           "vraag": "Wat is de eenheid van vermogen?",
           "antwoord": "watt",
-          "uitleg": "Eén watt is één joule per seconde. Een lamp van 10 watt gebruikt dus 10 joule per seconde."
+          "uitleg": "Eén watt is één joule per seconde. Een lamp van \\(10\\) watt gebruikt dus \\(10\\) joule per seconde."
         },
         {
           "type": "meerkeuze",
@@ -6930,19 +6930,19 @@
           "type": "waarofniet",
           "vraag": "Een toestel met een groter vermogen zet in dezelfde tijd meer energie om.",
           "antwoord": true,
-          "uitleg": "Vermogen is energie per seconde. Een waterkoker van 2000 watt kookt dus sneller dan een van 1000 watt."
+          "uitleg": "Vermogen is energie per seconde. Een waterkoker van \\(2000\\) watt kookt dus sneller dan een van \\(1000\\) watt."
         },
         {
           "type": "meerkeuze",
-          "vraag": "Een motor zet 400 joule om in 5 seconden. Wat is zijn vermogen?",
+          "vraag": "Een motor zet \\(400\\) joule om in \\(5\\) seconden. Wat is zijn vermogen?",
           "opties": [
-            "80 watt",
-            "2000 watt",
-            "405 watt",
-            "8 watt"
+            "\\(80\\) watt",
+            "\\(2000\\) watt",
+            "\\(405\\) watt",
+            "\\(8\\) watt"
           ],
           "antwoord": 0,
-          "uitleg": "Je deelt de energie door de tijd: 400 gedeeld door 5. Dat geeft 80 joule per seconde, dus 80 watt."
+          "uitleg": "Je deelt de energie door de tijd: \\(400 : 5\\). Dat geeft \\(80\\) joule per seconde, dus \\(80\\) watt."
         },
         {
           "type": "meerkeuze",
@@ -6962,18 +6962,18 @@
         },
         {
           "type": "invultekst",
-          "vraag": "Hoeveel procent is het rendement als van 1000 joule 250 joule nuttig is?",
+          "vraag": "Hoeveel procent is het rendement als van \\(1000\\) joule \\(250\\) joule nuttig is?",
           "antwoord": "25",
-          "uitleg": "Je deelt 250 door 1000 en dat is een kwart. De overige 750 joule gaat naar een ongewenste vorm."
+          "uitleg": "Je deelt \\(250\\) door \\(1000\\) en dat is een kwart. De overige \\(750\\) joule gaat naar een ongewenste vorm."
         },
         {
           "type": "meerkeuze",
-          "vraag": "Een lamp krijgt 100 joule en geeft 5 joule licht. Wat gebeurt er met de rest?",
+          "vraag": "Een lamp krijgt \\(100\\) joule en geeft \\(5\\) joule licht. Wat gebeurt er met de rest?",
           "opties": [
-            "die 95 joule wordt warmte, de ongewenste energievorm hier",
-            "die 95 joule verdwijnt en is daarna helemaal niet meer terug",
-            "die 95 joule blijft als elektrische energie in de lamp zitten",
-            "die 95 joule wordt teruggestuurd naar het elektriciteitsnet"
+            "die \\(95\\) joule wordt warmte, de ongewenste energievorm hier",
+            "die \\(95\\) joule verdwijnt en is daarna helemaal niet meer terug",
+            "die \\(95\\) joule blijft als elektrische energie in de lamp zitten",
+            "die \\(95\\) joule wordt teruggestuurd naar het elektriciteitsnet"
           ],
           "antwoord": 0,
           "uitleg": "Energie verdwijnt nooit. Bij een gloeilamp is de warmte veel groter dan het licht, en dat is precies waarom ze verboden werd."
@@ -6986,15 +6986,15 @@
         },
         {
           "type": "meerkeuze",
-          "vraag": "Een bal van 1 kilogram valt van 5 meter hoog. Hoeveel kinetische energie heeft hij net voor de bodem, met 10 newton per kilogram?",
+          "vraag": "Een bal van \\(1\\) kilogram valt van \\(5\\) meter hoog. Hoeveel kinetische energie heeft hij net voor de bodem, met \\(10\\) newton per kilogram?",
           "opties": [
-            "50 joule",
-            "5 joule",
-            "10 joule",
-            "500 joule"
+            "\\(50\\) joule",
+            "\\(5\\) joule",
+            "\\(10\\) joule",
+            "\\(500\\) joule"
           ],
           "antwoord": 0,
-          "uitleg": "Alle hoogte-energie is dan omgezet: 1 maal 10 maal 5. De luchtweerstand verwaarloos je hier."
+          "uitleg": "Alle hoogte-energie is dan omgezet: \\(1 \\cdot 10 \\cdot 5\\). De luchtweerstand verwaarloos je hier."
         },
         {
           "type": "meerkeuze",
@@ -7032,15 +7032,15 @@
         },
         {
           "type": "meerkeuze",
-          "vraag": "Een toestel van 2000 watt staat een half uur aan. Hoeveel energie gebruikt het?",
+          "vraag": "Een toestel van \\(2000\\) watt staat een half uur aan. Hoeveel energie gebruikt het?",
           "opties": [
-            "1 kilowattuur",
-            "2 kilowattuur",
-            "4 kilowattuur",
-            "0,5 kilowattuur"
+            "\\(1\\) kilowattuur",
+            "\\(2\\) kilowattuur",
+            "\\(4\\) kilowattuur",
+            "\\(0{,}5\\) kilowattuur"
           ],
           "antwoord": 0,
-          "uitleg": "Je vermenigvuldigt het vermogen in kilowatt met de tijd in uur: 2 maal 0,5. Zo rekent ook je elektriciteitsmeter."
+          "uitleg": "Je vermenigvuldigt het vermogen in kilowatt met de tijd in uur: \\(2 \\cdot 0{,}5\\). Zo rekent ook je elektriciteitsmeter."
         },
         {
           "type": "invultekst",
@@ -7056,7 +7056,7 @@
         },
         {
           "type": "meerkeuze",
-          "vraag": "Twee waterkokers koken dezelfde liter water, de ene op 2 minuten en de andere op 4. Wat weet je?",
+          "vraag": "Twee waterkokers koken dezelfde liter water, de ene op \\(2\\) minuten en de andere op \\(4\\). Wat weet je?",
           "opties": [
             "de snelste heeft het grootste vermogen, want hij zet sneller energie om",
             "de snelste gebruikt in totaal veel minder energie dan de andere",
@@ -7205,15 +7205,15 @@
         },
         {
           "type": "meerkeuze",
-          "vraag": "Je verwarmt 2 kilogram water van 20 naar 30 graden. De specifieke warmtecapaciteit is 4180 joule per kilogram per graad. Hoeveel warmte is dat?",
+          "vraag": "Je verwarmt \\(2\\) kilogram water van \\(20\\) naar \\(30\\) graden. De specifieke warmtecapaciteit is \\(4180\\) joule per kilogram per graad. Hoeveel warmte is dat?",
           "opties": [
-            "83 600 joule",
-            "8 360 joule",
-            "41 800 joule",
-            "167 200 joule"
+            "\\(83\\,600\\) joule",
+            "\\(8\\,360\\) joule",
+            "\\(41\\,800\\) joule",
+            "\\(167\\,200\\) joule"
           ],
           "antwoord": 0,
-          "uitleg": "Je rekent 4180 maal 2 maal 10. Dat is bijna 84 kilojoule voor tien graden."
+          "uitleg": "Je rekent \\(4180 \\cdot 2 \\cdot 10\\). Dat is bijna \\(84\\) kilojoule voor tien graden."
         },
         {
           "type": "waarofniet",
@@ -7247,7 +7247,7 @@
             1,
             2
           ],
-          "uitleg": "Temperatuur zegt hoe warm iets is, warmte is de energie die overgaat. Een bad van 30 graden bevat veel meer warmte dan een kop thee van 60 graden."
+          "uitleg": "Temperatuur zegt hoe warm iets is, warmte is de energie die overgaat. Een bad van \\(30\\) graden bevat veel meer warmte dan een kop thee van \\(60\\) graden."
         },
         {
           "type": "invultekst",
@@ -7263,12 +7263,12 @@
         },
         {
           "type": "meerkeuze",
-          "vraag": "Je giet een liter water van 80 graden bij een liter water van 20 graden. Wat wordt de eindtemperatuur ongeveer?",
+          "vraag": "Je giet een liter water van \\(80\\) graden bij een liter water van \\(20\\) graden. Wat wordt de eindtemperatuur ongeveer?",
           "opties": [
-            "50 graden",
-            "80 graden",
-            "100 graden",
-            "30 graden"
+            "\\(50\\) graden",
+            "\\(80\\) graden",
+            "\\(100\\) graden",
+            "\\(30\\) graden"
           ],
           "antwoord": 0,
           "uitleg": "Gelijke massa's van dezelfde stof geven het gemiddelde. Wat het warme water afgeeft, neemt het koude op."
@@ -7416,15 +7416,15 @@
         },
         {
           "type": "meerkeuze",
-          "vraag": "Hoeveel warmte heb je nodig om 0,5 kilogram ijs te smelten, met 334 000 joule per kilogram?",
+          "vraag": "Hoeveel warmte heb je nodig om \\(0{,}5\\) kilogram ijs te smelten, met \\(334\\,000\\) joule per kilogram?",
           "opties": [
-            "167 000 joule",
-            "334 000 joule",
-            "668 000 joule",
-            "83 500 joule"
+            "\\(167\\,000\\) joule",
+            "\\(334\\,000\\) joule",
+            "\\(668\\,000\\) joule",
+            "\\(83\\,500\\) joule"
           ],
           "antwoord": 0,
-          "uitleg": "Je vermenigvuldigt de specifieke smeltwarmte met de massa: 334 000 maal 0,5. Het temperatuurverschil speelt hier geen rol."
+          "uitleg": "Je vermenigvuldigt de specifieke smeltwarmte met de massa: \\(334\\,000 \\cdot 0{,}5\\). Het temperatuurverschil speelt hier geen rol."
         },
         {
           "type": "waarofniet",
@@ -7519,15 +7519,15 @@
         },
         {
           "type": "meerkeuze",
-          "vraag": "Je legt 12 volt over een weerstand van 4 ohm. Hoe groot is de stroomsterkte?",
+          "vraag": "Je legt \\(12\\) volt over een weerstand van \\(4\\) ohm. Hoe groot is de stroomsterkte?",
           "opties": [
-            "3 ampère",
-            "48 ampère",
-            "0,33 ampère",
-            "8 ampère"
+            "\\(3\\) ampère",
+            "\\(48\\) ampère",
+            "\\(0{,}33\\) ampère",
+            "\\(8\\) ampère"
           ],
           "antwoord": 0,
-          "uitleg": "Je deelt de spanning door de weerstand: 12 gedeeld door 4. Een grotere weerstand bij dezelfde spanning geeft dus minder stroom."
+          "uitleg": "Je deelt de spanning door de weerstand: \\(12 : 4\\). Een grotere weerstand bij dezelfde spanning geeft dus minder stroom."
         },
         {
           "type": "invultekst",
@@ -7589,7 +7589,7 @@
           "type": "invultekst",
           "vraag": "Wat is de eenheid van stroomsterkte?",
           "antwoord": "ampère",
-          "uitleg": "Eén ampère is één coulomb per seconde. Een zekering in een woning is meestal op 16 of 20 ampère voorzien."
+          "uitleg": "Eén ampère is één coulomb per seconde. Een zekering in een woning is meestal op \\(16\\) of \\(20\\) ampère voorzien."
         },
         {
           "type": "meerkeuze",
@@ -7611,15 +7611,15 @@
         },
         {
           "type": "meerkeuze",
-          "vraag": "Een stroom van 2 ampère loopt door een weerstand van 5 ohm. Welke spanning staat erover?",
+          "vraag": "Een stroom van \\(2\\) ampère loopt door een weerstand van \\(5\\) ohm. Welke spanning staat erover?",
           "opties": [
-            "10 volt",
-            "2,5 volt",
-            "0,4 volt",
-            "7 volt"
+            "\\(10\\) volt",
+            "\\(2{,}5\\) volt",
+            "\\(0{,}4\\) volt",
+            "\\(7\\) volt"
           ],
           "antwoord": 0,
-          "uitleg": "Je vermenigvuldigt de stroomsterkte met de weerstand: 2 maal 5. Dat volgt rechtstreeks uit de wet van Ohm."
+          "uitleg": "Je vermenigvuldigt de stroomsterkte met de weerstand: \\(2 \\cdot 5\\). Dat volgt rechtstreeks uit de wet van Ohm."
         },
         {
           "type": "meerkeuze",
@@ -7708,7 +7708,7 @@
             "hoe lang het toestel zonder onderhoud blijft werken"
           ],
           "antwoord": 0,
-          "uitleg": "De eenheid is de watt, dus joule per seconde. Een toestel van 2000 watt gebruikt in een uur twee kilowattuur."
+          "uitleg": "De eenheid is de watt, dus joule per seconde. Een toestel van \\(2000\\) watt gebruikt in een uur twee kilowattuur."
         },
         {
           "type": "meerkeuze",
@@ -7800,21 +7800,21 @@
         },
         {
           "type": "meerkeuze",
-          "vraag": "Een toestel van 1000 watt staat twee uur aan. Hoeveel energie gebruikt het?",
+          "vraag": "Een toestel van \\(1000\\) watt staat twee uur aan. Hoeveel energie gebruikt het?",
           "opties": [
-            "2 kilowattuur",
-            "1 kilowattuur",
-            "500 wattuur",
-            "2000 kilowattuur"
+            "\\(2\\) kilowattuur",
+            "\\(1\\) kilowattuur",
+            "\\(500\\) wattuur",
+            "\\(2000\\) kilowattuur"
           ],
           "antwoord": 0,
-          "uitleg": "Je vermenigvuldigt het vermogen in kilowatt met de tijd in uur: 1 maal 2. Zo komt het ook op je factuur terecht."
+          "uitleg": "Je vermenigvuldigt het vermogen in kilowatt met de tijd in uur: \\(1 \\cdot 2\\). Zo komt het ook op je factuur terecht."
         },
         {
           "type": "waarofniet",
           "vraag": "Van twee toestellen die hetzelfde werk doen, is het toestel met het kleinste vermogen het zuinigst.",
           "antwoord": true,
-          "uitleg": "Minder vermogen voor dezelfde taak betekent minder energie per seconde. Een ledlamp geeft met 7 watt zo veel licht als een gloeilamp met 60 watt."
+          "uitleg": "Minder vermogen voor dezelfde taak betekent minder energie per seconde. Een ledlamp geeft met \\(7\\) watt zo veel licht als een gloeilamp met \\(60\\) watt."
         },
         {
           "type": "meerkeuze",
@@ -7977,7 +7977,7 @@
         },
         {
           "type": "meerkeuze",
-          "vraag": "Je moet 25 milliliter vloeistof heel nauwkeurig afmeten. Wat gebruik je?",
+          "vraag": "Je moet \\(25\\) milliliter vloeistof heel nauwkeurig afmeten. Wat gebruik je?",
           "opties": [
             "een pipet, want die is voor dat volume veel nauwkeuriger",
             "een maatbeker, want die staat stabieler op de tafel",
@@ -8009,13 +8009,13 @@
           "type": "meerkeuze",
           "vraag": "Wat betekent de wetenschappelijke notatie van een getal?",
           "opties": [
-            "je schrijft het als een getal tussen 1 en 10 maal een macht van tien",
+            "je schrijft het als een getal tussen \\(1\\) en \\(10\\) maal een macht van tien",
             "je schrijft het altijd met precies drie cijfers na de komma",
             "je schrijft het zonder de eenheid erbij om verwarring te vermijden",
             "je schrijft het als een breuk met een teller en een noemer"
           ],
           "antwoord": 0,
-          "uitleg": "Zo blijft een heel groot of heel klein getal leesbaar. 0,000045 meter wordt dan 4,5 maal tien tot de macht min vijf meter."
+          "uitleg": "Zo blijft een heel groot of heel klein getal leesbaar. \\(0{,}000045\\) meter wordt dan \\(4{,}5\\) maal \\(10^{-5}\\) meter."
         },
         {
           "type": "waarofniet",
@@ -8025,15 +8025,15 @@
         },
         {
           "type": "meerkeuze",
-          "vraag": "Hoeveel meter is 2,5 kilometer?",
+          "vraag": "Hoeveel meter is \\(2{,}5\\) kilometer?",
           "opties": [
-            "2500 meter",
-            "250 meter",
-            "25 000 meter",
-            "0,0025 meter"
+            "\\(2500\\) meter",
+            "\\(250\\) meter",
+            "\\(25\\,000\\) meter",
+            "\\(0{,}0025\\) meter"
           ],
           "antwoord": 0,
-          "uitleg": "Kilo betekent duizend, dus vermenigvuldig je met 1000. Omgekeerd deel je door 1000 om van meter naar kilometer te gaan."
+          "uitleg": "Kilo betekent duizend, dus vermenigvuldig je met \\(1000\\). Omgekeerd deel je door \\(1000\\) om van meter naar kilometer te gaan."
         },
         {
           "type": "meerkeuze",
@@ -8085,7 +8085,7 @@
           "type": "invultekst",
           "vraag": "Hoe noem je de cijfers van een meetresultaat die echt iets zeggen over de nauwkeurigheid?",
           "antwoord": "beduidende cijfers",
-          "uitleg": "Meet je 12,3 centimeter, dan heb je drie beduidende cijfers. Je mag er in je antwoord niet meer bij schrijven dan je gemeten hebt."
+          "uitleg": "Meet je \\(12{,}3\\) centimeter, dan heb je drie beduidende cijfers. Je mag er in je antwoord niet meer bij schrijven dan je gemeten hebt."
         },
         {
           "type": "waarofniet",
@@ -8286,7 +8286,7 @@
             "de persoon klaagt over hoofdpijn en gaat even zitten"
           ],
           "antwoord": 0,
-          "uitleg": "Dan is de luchtweg bijna of volledig afgesloten. Je begint onmiddellijk met rugslagen en buikstoten, en laat 112 bellen."
+          "uitleg": "Dan is de luchtweg bijna of volledig afgesloten. Je begint onmiddellijk met rugslagen en buikstoten, en laat \\(112\\) bellen."
         },
         {
           "type": "invultekst",
@@ -8355,21 +8355,21 @@
         },
         {
           "type": "meerkeuze",
-          "vraag": "Hoeveel seconden is 2 microseconden?",
+          "vraag": "Hoeveel seconden is \\(2\\) microseconden?",
           "opties": [
-            "2 maal tien tot de macht min zes seconden",
-            "2 maal tien tot de macht min drie seconden",
-            "2 maal tien tot de macht min negen seconden",
-            "2 maal tien tot de macht zes seconden"
+            "\\(2\\) maal \\(10^{-6}\\) seconden",
+            "\\(2\\) maal \\(10^{-3}\\) seconden",
+            "\\(2\\) maal \\(10^{-9}\\) seconden",
+            "\\(2\\) maal \\(10^{6}\\) seconden"
           ],
           "antwoord": 0,
-          "uitleg": "Micro betekent een miljoenste. Nano is nog duizend keer kleiner, dus tien tot de macht min negen."
+          "uitleg": "Micro betekent een miljoenste. Nano is nog duizend keer kleiner, dus \\(10^{-9}\\)."
         },
         {
           "type": "invultekst",
           "vraag": "Welk voorvoegsel betekent een miljardste?",
           "antwoord": "nano",
-          "uitleg": "Nano is tien tot de macht min negen. Een nanometer is dus een miljardste van een meter."
+          "uitleg": "Nano is \\(10^{-9}\\). Een nanometer is dus een miljardste van een meter."
         },
         {
           "type": "meerkeuze",
@@ -8415,9 +8415,9 @@
         },
         {
           "type": "invultekst",
-          "vraag": "Hoeveel gram is 0,25 kilogram?",
+          "vraag": "Hoeveel gram is \\(0{,}25\\) kilogram?",
           "antwoord": "250",
-          "uitleg": "Kilo betekent duizend, dus vermenigvuldig je met 1000. Omgekeerd deel je door 1000 om van gram naar kilogram te gaan."
+          "uitleg": "Kilo betekent duizend, dus vermenigvuldig je met \\(1000\\). Omgekeerd deel je door \\(1000\\) om van gram naar kilogram te gaan."
         },
         {
           "type": "meerkeuze",
@@ -8439,19 +8439,19 @@
         },
         {
           "type": "meerkeuze",
-          "vraag": "Hoeveel meter is 45 centimeter?",
+          "vraag": "Hoeveel meter is \\(45\\) centimeter?",
           "opties": [
-            "0,45 meter",
-            "4,5 meter",
-            "450 meter",
-            "0,045 meter"
+            "\\(0{,}45\\) meter",
+            "\\(4{,}5\\) meter",
+            "\\(450\\) meter",
+            "\\(0{,}045\\) meter"
           ],
           "antwoord": 0,
-          "uitleg": "Centi betekent een honderdste, dus deel je door 100. Milli zou door 1000 zijn."
+          "uitleg": "Centi betekent een honderdste, dus deel je door \\(100\\). Milli zou door \\(1000\\) zijn."
         },
         {
           "type": "meerkeuze",
-          "vraag": "Je meet een lengte met een meetlint en leest 1,2 meter af. Hoeveel beduidende cijfers heeft dat resultaat?",
+          "vraag": "Je meet een lengte met een meetlint en leest \\(1{,}2\\) meter af. Hoeveel beduidende cijfers heeft dat resultaat?",
           "opties": [
             "twee",
             "een",
@@ -8459,7 +8459,7 @@
             "vier"
           ],
           "antwoord": 0,
-          "uitleg": "De 1 en de 2 zijn beide gemeten. Schrijf je 1,200 meter, dan beweer je een nauwkeurigheid die het meetlint niet heeft."
+          "uitleg": "De \\(1\\) en de \\(2\\) zijn beide gemeten. Schrijf je \\(1{,}200\\) meter, dan beweer je een nauwkeurigheid die het meetlint niet heeft."
         },
         {
           "type": "waarofniet",
@@ -8493,7 +8493,7 @@
             "zo kan je de eenheid van het antwoord gewoon weglaten"
           ],
           "antwoord": 0,
-          "uitleg": "Weet je dat een mens ongeveer 70 kilogram weegt, dan zie je een uitkomst van 7000 kilogram direct als fout. Dat vangt een rekenfout vroeg op."
+          "uitleg": "Weet je dat een mens ongeveer \\(70\\) kilogram weegt, dan zie je een uitkomst van \\(7000\\) kilogram direct als fout. Dat vangt een rekenfout vroeg op."
         },
         {
           "type": "invultekst",
@@ -8509,15 +8509,15 @@
         },
         {
           "type": "meerkeuze",
-          "vraag": "Je meet een massa met een balans die tot op een gram nauwkeurig is. Hoe schrijf je 325 gram op?",
+          "vraag": "Je meet een massa met een balans die tot op een gram nauwkeurig is. Hoe schrijf je \\(325\\) gram op?",
           "opties": [
-            "als 325 gram, met drie beduidende cijfers",
-            "als 325,00 gram, want dat ziet nauwkeuriger uit",
-            "als ongeveer 300 gram, want afronden is veiliger",
-            "als 0,325 gram, want gram is de SI-eenheid"
+            "als \\(325\\) gram, met drie beduidende cijfers",
+            "als \\(325{,}00\\) gram, want dat ziet nauwkeuriger uit",
+            "als ongeveer \\(300\\) gram, want afronden is veiliger",
+            "als \\(0{,}325\\) gram, want gram is de SI-eenheid"
           ],
           "antwoord": 0,
-          "uitleg": "Je schrijft precies wat je gemeten hebt, niet meer en niet minder. De SI-eenheid van massa is trouwens de kilogram, dus 0,325 kilogram."
+          "uitleg": "Je schrijft precies wat je gemeten hebt, niet meer en niet minder. De SI-eenheid van massa is trouwens de kilogram, dus \\(0{,}325\\) kilogram."
         }
       ]
     },

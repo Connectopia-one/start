@@ -78,7 +78,7 @@ DEEL1 = [
     ),
     dict(
         type="meerkeuze",
-        vraag="Je moet 25 milliliter vloeistof heel nauwkeurig afmeten. Wat gebruik je?",
+        vraag=r"Je moet \(25\) milliliter vloeistof heel nauwkeurig afmeten. Wat gebruik je?",
         opties=[
             "een pipet, want die is voor dat volume veel nauwkeuriger",
             "een maatbeker, want die staat stabieler op de tafel",
@@ -110,13 +110,13 @@ DEEL1 = [
         type="meerkeuze",
         vraag="Wat betekent de wetenschappelijke notatie van een getal?",
         opties=[
-            "je schrijft het als een getal tussen 1 en 10 maal een macht van tien",
+            r"je schrijft het als een getal tussen \(1\) en \(10\) maal een macht van tien",
             "je schrijft het altijd met precies drie cijfers na de komma",
             "je schrijft het zonder de eenheid erbij om verwarring te vermijden",
             "je schrijft het als een breuk met een teller en een noemer",
         ],
         antwoord=0,
-        uitleg="Zo blijft een heel groot of heel klein getal leesbaar. 0,000045 meter wordt dan 4,5 maal tien tot de macht min vijf meter.",
+        uitleg=r"Zo blijft een heel groot of heel klein getal leesbaar. \(0{,}000045\) meter wordt dan \(4{,}5\) maal \(10^{-5}\) meter.",
     ),
     dict(
         type="waarofniet",
@@ -126,10 +126,10 @@ DEEL1 = [
     ),
     dict(
         type="meerkeuze",
-        vraag="Hoeveel meter is 2,5 kilometer?",
-        opties=["2500 meter", "250 meter", "25 000 meter", "0,0025 meter"],
+        vraag=r"Hoeveel meter is \(2{,}5\) kilometer?",
+        opties=[r"\(2500\) meter", r"\(250\) meter", r"\(25\,000\) meter", r"\(0{,}0025\) meter"],
         antwoord=0,
-        uitleg="Kilo betekent duizend, dus vermenigvuldig je met 1000. Omgekeerd deel je door 1000 om van meter naar kilometer te gaan.",
+        uitleg=r"Kilo betekent duizend, dus vermenigvuldig je met \(1000\). Omgekeerd deel je door \(1000\) om van meter naar kilometer te gaan.",
     ),
     dict(
         type="meerkeuze",
@@ -177,7 +177,7 @@ DEEL1 = [
         type="invultekst",
         vraag="Hoe noem je de cijfers van een meetresultaat die echt iets zeggen over de nauwkeurigheid?",
         antwoord="beduidende cijfers",
-        uitleg="Meet je 12,3 centimeter, dan heb je drie beduidende cijfers. Je mag er in je antwoord niet meer bij schrijven dan je gemeten hebt.",
+        uitleg=r"Meet je \(12{,}3\) centimeter, dan heb je drie beduidende cijfers. Je mag er in je antwoord niet meer bij schrijven dan je gemeten hebt.",
     ),
     dict(
         type="waarofniet",
@@ -366,7 +366,7 @@ DEEL2 = [
             "de persoon klaagt over hoofdpijn en gaat even zitten",
         ],
         antwoord=0,
-        uitleg="Dan is de luchtweg bijna of volledig afgesloten. Je begint onmiddellijk met rugslagen en buikstoten, en laat 112 bellen.",
+        uitleg=r"Dan is de luchtweg bijna of volledig afgesloten. Je begint onmiddellijk met rugslagen en buikstoten, en laat \(112\) bellen.",
     ),
     dict(
         type="invultekst",

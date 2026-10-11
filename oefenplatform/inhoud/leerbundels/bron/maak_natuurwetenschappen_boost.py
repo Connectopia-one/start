@@ -337,7 +337,7 @@ BUNDELS["het-zenuwstelsel-boost-doorstroom"] = dict(
             ("kader", "<p>Dit stuk staat enkel in de uitgebreide fiche, dus voor moderne talen en "
                       "Latijn.</p>"),
             ("p", "De <strong>rustpotentiaal</strong> is het <strong>spanningsverschil over het membraan "
-                  "als er geen impuls is</strong>: binnen is het negatief tegenover buiten, ongeveer min 70 "
+                  r"als er geen impuls is</strong>: binnen is het negatief tegenover buiten, ongeveer min \(70\) "
                   "millivolt."),
             ("p", "De stappen van een <strong>actiepotentiaal</strong> in orde: "
                   "<strong>rustpotentiaal, depolarisatie, repolarisatie, herstelfase</strong>. "
@@ -390,7 +390,7 @@ BUNDELS["het-zenuwstelsel-boost-doorstroom"] = dict(
         "Het animale zenuwstelsel stuurt bewegingen waarover je zelf beslist; het autonome doet de rest.",
         "Dendrieten vangen signalen op, het axon geeft ze door.",
         "De myelineschede isoleert het axon; de impuls springt van knoop tot knoop van Ranvier.",
-        "De rustpotentiaal is ongeveer min 70 millivolt: binnen negatief tegenover buiten.",
+        r"De rustpotentiaal is ongeveer min \(70\) millivolt: binnen negatief tegenover buiten.",
         "Een sterkere prikkel geeft meer impulsen per seconde, geen grotere amplitude.",
         "In een synaps gaat het signaal chemisch over, en maar in één richting.",
         "Reflexboog: receptor, sensorisch neuron, schakelneuron in het ruggenmerg, motorisch neuron, spier.",
@@ -487,13 +487,13 @@ BUNDELS["spieren-klieren-en-hormonen-boost-doorstroom"] = dict(
             ("p", "Wordt je glucosegehalte <strong>te laag</strong>, dan laat "
                   "<strong>glucagon de lever glycogeen afbreken</strong>. Zo wordt het "
                   "<strong>glucosegehalte in het bloed met een feedbacksysteem geregeld</strong>."),
-            ("p", "Bij <strong>diabetes type 1</strong> <strong>maakt het lichaam zelf geen of te weinig "
+            ("p", r"Bij <strong>diabetes type \(1\)</strong> <strong>maakt het lichaam zelf geen of te weinig "
                   "insuline meer aan</strong>. Iemand met <strong>onbehandelde diabetes</strong> heeft "
                   "vaak <strong>dorst en plast veel</strong>, omdat de "
                   "<strong>nieren de overtollige glucose afvoeren en daarbij veel water "
                   "meenemen</strong>."),
-            ("weetje", "Insuline werd in 1921 voor het eerst uit een alvleesklier gezuiverd. Tot dan was "
-                       "diabetes type 1 bij kinderen zo goed als altijd dodelijk."),
+            ("weetje", r"Insuline werd in \(1921\) voor het eerst uit een alvleesklier gezuiverd. Tot dan was "
+                       r"diabetes type \(1\) bij kinderen zo goed als altijd dodelijk."),
         ]),
     ],
     onthoud=[
@@ -531,10 +531,10 @@ BUNDELS["voortplanting-en-de-hormonale-regeling-boost-doorstroom"] = dict(
         ]),
         dict(kop="De menstruatiecyclus", blokken=[
             ("p", "De <strong>menstruatiecyclus begint op de eerste dag van de menstruatie</strong> en "
-                  "duurt gemiddeld <strong>ongeveer 28 dagen</strong>."),
+                  r"duurt gemiddeld <strong>ongeveer \(28\) dagen</strong>."),
             ("p", tabel(["Wanneer", "Wat er gebeurt"], [
                 ["Eerste helft", "het baarmoederslijmvlies wordt dikker en beter doorbloed"],
-                ["Rond dag 14", "de eisprong; de lichaamstemperatuur ligt daarna gemiddeld iets hoger"],
+                [r"Rond dag \(14\)", "de eisprong; de lichaamstemperatuur ligt daarna gemiddeld iets hoger"],
                 ["Tweede helft", "het geel lichaam houdt met progesteron het slijmvlies in stand"],
                 ["Geen bevruchting", "het geel lichaam valt weg, het slijmvlies laat los"],
             ])),
@@ -605,7 +605,7 @@ BUNDELS["voortplanting-en-de-hormonale-regeling-boost-doorstroom"] = dict(
     onthoud=[
         "Een eicel rijpt in een follikel in de eierstok; de bevruchting gebeurt normaal in de eileider.",
         "Na de eisprong ontstaat uit de follikel het geel lichaam, dat vooral progesteron maakt.",
-        "De menstruatiecyclus begint op de eerste dag van de menstruatie en duurt ongeveer 28 dagen.",
+        r"De menstruatiecyclus begint op de eerste dag van de menstruatie en duurt ongeveer \(28\) dagen.",
         "Zonder progesteron kan het dikke baarmoederslijmvlies niet in stand blijven.",
         "FSH laat de follikel rijpen, een plotse LH-piek brengt de eisprong op gang.",
         "Oestrogeen komt uit de eierstok, niet uit de hypofyse.",
@@ -831,7 +831,7 @@ BUNDELS["gedrag-interactie-en-ecosystemen-boost-doorstroom"] = dict(
                   "<strong>bos door ziekte bijna al zijn bomen</strong>, dan "
                   "<strong>raken de voedselrelaties en de kringlopen verstoord, en verdwijnen veel "
                   "soorten mee</strong>."),
-            ("weetje", "Wolven zijn in 1995 opnieuw in Yellowstone uitgezet. Omdat de elanden daarna "
+            ("weetje", r"Wolven zijn in \(1995\) opnieuw in Yellowstone uitgezet. Omdat de elanden daarna "
                        "minder lang op dezelfde plek bleven grazen, groeiden de wilgen langs de rivieren "
                        "terug, en met hen de bevers en de vogels."),
         ]),
@@ -953,7 +953,7 @@ BUNDELS["enkelvoudige-en-samengestelde-stoffen-en-chemische-reacties-boost-doors
                   "atomen bestaat</strong>. <strong>Zuurstofgas</strong>, "
                   "<strong>waterstofgas</strong> en <strong>ozon</strong> zijn dus enkelvoudig; "
                   "<strong>koolstofdioxide</strong> is samengesteld, want de "
-                  "<strong>formule CO2 bevat twee verschillende elementen</strong>."),
+                  "<strong>formule CO₂ bevat twee verschillende elementen</strong>."),
             ("p", "Naast de wetenschappelijke naam heeft een stof vaak een <strong>triviale "
                   "naam</strong>, de gebruiksnaam: <strong>keukenzout naast natriumchloride</strong>."),
         ]),
@@ -969,10 +969,10 @@ BUNDELS["enkelvoudige-en-samengestelde-stoffen-en-chemische-reacties-boost-doors
             ("p", "In een formule staat de <strong>index</strong> klein achteraan en zegt hoeveel atomen "
                   "van dat element in één deeltje zitten; de <strong>coëfficiënt</strong> staat "
                   "vooraan en zegt hoeveel van die deeltjes je neemt. In "
-                  "<strong>3 H2O</strong> is de <strong>index 2 en de coëfficiënt 3</strong>."),
-            ("kader", "<p>Atomen tellen in <strong>2 H2SO4</strong>: per deeltje 2 waterstof, 1 zwavel "
-                      "en 4 zuurstof, dat is 7 atomen. Twee van die deeltjes maakt "
-                      "<strong>14</strong> atomen in totaal.</p>"),
+                  r"<strong>3 H₂O</strong> is de <strong>index \(2\) en de coëfficiënt \(3\)</strong>."),
+            ("kader", r"<p>Atomen tellen in <strong>2 H₂SO₄</strong>: per deeltje \(2\) waterstof, \(1\) zwavel "
+                      r"en \(4\) zuurstof, dat is \(7\) atomen. Twee van die deeltjes maakt "
+                      r"<strong>\(14\)</strong> atomen in totaal.</p>"),
         ]),
         dict(kop="Metalen en niet-metalen", blokken=[
             ("p", "Typisch voor <strong>metalen</strong>: ze <strong>geleiden elektriciteit goed</strong>, "
@@ -1025,10 +1025,10 @@ BUNDELS["enkelvoudige-en-samengestelde-stoffen-en-chemische-reacties-boost-doors
                   "<strong>omdat atomen bij een reactie niet verdwijnen of ontstaan</strong>. Daarbij mag "
                   "je <strong>de index in een formule niet aanpassen</strong>, alleen de coëfficiënt "
                   "ervoor."),
-            ("kader", "<p>H2 + O2 geeft H2O wordt kloppend als "
-                      "<strong>2 H2 + O2 geeft 2 H2O</strong>: links 4 waterstof en 2 zuurstof, rechts "
+            ("kader", "<p>H₂ + O₂ geeft H₂O wordt kloppend als "
+                      r"<strong>2 H₂ + O₂ geeft 2 H₂O</strong>: links 4 waterstof en 2 zuurstof, rechts "
                       "ook.</p>"),
-            ("p", "In <strong>2 Mg + O2 geeft 2 MgO</strong> geldt: <strong>links en rechts staan twee "
+            ("p", r"In <strong>2 Mg + O₂ geeft 2 MgO</strong> geldt: <strong>links en rechts staan twee "
                   "magnesiumatomen</strong>, <strong>links en rechts staan twee zuurstofatomen</strong> "
                   "en <strong>magnesium en zuurstofgas zijn de reagentia</strong>. Er ontstaat "
                   "<strong>maar één reactieproduct</strong>, geen twee."),
@@ -1056,7 +1056,7 @@ BUNDELS["enkelvoudige-en-samengestelde-stoffen-en-chemische-reacties-boost-doors
         ]),
     ],
     onthoud=[
-        "Een enkelvoudige stof bestaat uit maar één soort atomen; CO2 is samengesteld.",
+        "Een enkelvoudige stof bestaat uit maar één soort atomen; CO₂ is samengesteld.",
         "De index zegt hoeveel atomen in één deeltje zitten, de coëfficiënt hoeveel deeltjes je neemt.",
         "Metalen geleiden elektriciteit en warmte goed en zijn vervormbaar.",
         "Edelgassen reageren niet gemakkelijk; daarom gebruikt men helium in ballonnen.",
@@ -1087,14 +1087,14 @@ BUNDELS["de-bouw-van-het-atoom-en-het-periodiek-systeem-boost-doorstroom"] = dic
                   "<strong>massa zit in de kern</strong>: een elektron weegt bijna tweeduizend keer minder "
                   "dan een proton."),
             ("p", "Het <strong>atoomnummer</strong> is het <strong>aantal protonen</strong> en bepaalt "
-                  "<strong>om welk element</strong> het gaat. Lees je atoomnummer 17, dan weet je meteen "
-                  "dat de <strong>kern 17 protonen bevat</strong>, dat een "
-                  "<strong>neutraal atoom 17 elektronen heeft</strong> en dat het element "
+                  r"<strong>om welk element</strong> het gaat. Lees je atoomnummer \(17\), dan weet je meteen "
+                  r"dat de <strong>kern \(17\) protonen bevat</strong>, dat een "
+                  r"<strong>neutraal atoom \(17\) elektronen heeft</strong> en dat het element "
                   "<strong>op de zeventiende plaats in het PSE staat</strong>; over het aantal neutronen "
                   "zegt het niets. Het <strong>massagetal</strong> is het "
                   "<strong>aantal protonen plus neutronen</strong>. Het aantal "
                   "<strong>neutronen</strong> vind je dus door het <strong>atoomnummer van het massagetal "
-                  "af te trekken</strong>: bij atoomnummer 11 en massagetal 23 zijn er 12 neutronen."),
+                  r"af te trekken</strong>: bij atoomnummer \(11\) en massagetal \(23\) zijn er \(12\) neutronen."),
             ("p", "<strong>Isotopen</strong> zijn atomen van <strong>hetzelfde element met een ander "
                   "aantal neutronen</strong>. Hun atoomnummer is gelijk, hun massagetal niet, en chemisch "
                   "gedragen ze zich hetzelfde."),
@@ -1105,9 +1105,9 @@ BUNDELS["de-bouw-van-het-atoom-en-het-periodiek-systeem-boost-doorstroom"] = dic
                   "<strong>hetzelfde element</strong>."),
             ("p", "<strong>Elektronen afstaan</strong> geeft een <strong>positief ion</strong>: er blijft "
                   "positieve lading over. <strong>Elektronen opnemen</strong> geeft een "
-                  "<strong>negatief ion</strong>. Een deeltje met 12 protonen en 10 elektronen heeft dus "
-                  "lading <strong>2 plus</strong>; een deeltje met 17 protonen en 18 elektronen is een "
-                  "<strong>chloride-ion</strong> met lading 1 min."),
+                  r"<strong>negatief ion</strong>. Een deeltje met \(12\) protonen en \(10\) elektronen heeft dus "
+                  r"lading <strong>\(2\) plus</strong>; een deeltje met \(17\) protonen en \(18\) elektronen is een "
+                  r"<strong>chloride-ion</strong> met lading \(1\) min."),
             ("p", "De <strong>symbolische voorstelling</strong> van een ion zegt dus twee dingen: "
                   "<strong>welk element</strong> het is, en <strong>hoeveel elektronen</strong> er af of "
                   "bij gekomen zijn. Hoeveel neutronen de kern bevat, lees je er niet uit af."),
@@ -1131,13 +1131,13 @@ BUNDELS["de-bouw-van-het-atoom-en-het-periodiek-systeem-boost-doorstroom"] = dic
                   "valentie-elektronen</strong>, de elektronen in de buitenste schil. Het aantal "
                   "valentie-elektronen van een <strong>hoofdgroepelement lees je dus af aan het "
                   "groepsnummer en niet aan het periodenummer</strong>."),
-            ("p", "Een element in <strong>groep 2 en periode 4</strong> heeft dus "
+            ("p", r"Een element in <strong>groep \(2\) en periode \(4\)</strong> heeft dus "
                   "<strong>twee valentie-elektronen en vier bezette schillen</strong>. Omgekeerd kan je uit "
                   "die twee gegevens ook opzoeken welk element het is."),
             ("p", "Je vult de schillen van binnen naar buiten. In de <strong>eerste schil</strong> passen "
-                  "<strong>2</strong> elektronen, in de <strong>tweede 8</strong>. De "
-                  "<strong>elektronenconfiguratie</strong> van een natriumatoom, atoomnummer 11, "
-                  "is dus <strong>2, 8, 1</strong>."),
+                  r"<strong>\(2\)</strong> elektronen, in de <strong>tweede \(8\)</strong>. De "
+                  r"<strong>elektronenconfiguratie</strong> van een natriumatoom, atoomnummer \(11\), "
+                  r"is dus <strong>\(2\), \(8\), \(1\)</strong>."),
             ("p", "<strong>Links en in het midden</strong> van het systeem staan de "
                   "<strong>metalen</strong>, <strong>rechtsboven</strong> de "
                   "<strong>niet-metalen</strong>, en in de <strong>laatste kolom</strong> de "
@@ -1153,15 +1153,15 @@ BUNDELS["de-bouw-van-het-atoom-en-het-periodiek-systeem-boost-doorstroom"] = dic
                   "<strong>edelgasconfiguratie</strong>. Een atoom met zo'n volle schil is "
                   "<strong>weinig reactief</strong>, en daarom gaan de edelgassen bijna geen bindingen aan."),
             ("p", "Alle andere elementen zoeken de kortste weg naar die volle schil. "
-                  "<strong>Groep 1</strong> heeft één valentie-elektron en <strong>staat dat af</strong>; "
-                  "natrium houdt dan 2, 8 over, net de configuratie van neon. "
-                  "<strong>Groep 2</strong> staat er twee af en wordt een ion met lading "
-                  "<strong>2 plus</strong>."),
+                  r"<strong>Groep \(1\)</strong> heeft één valentie-elektron en <strong>staat dat af</strong>; "
+                  r"natrium houdt dan \(2\), \(8\) over, net de configuratie van neon. "
+                  r"<strong>Groep \(2\)</strong> staat er twee af en wordt een ion met lading "
+                  r"<strong>\(2\) plus</strong>."),
             ("p", "Een <strong>zuurstofatoom</strong> heeft zes valentie-elektronen. Het neemt "
                   "<strong>liever twee elektronen op dan er zes af te staan</strong>, want "
                   "<strong>twee opnemen vraagt veel minder dan zes afstaan om de volle schil te "
                   "bereiken</strong>, en daarom wordt zuurstof een ion met lading "
-                  "<strong>2 min</strong>. Zo kan je uit de plaats in het systeem voorspellen welk ion een "
+                  r"<strong>\(2\) min</strong>. Zo kan je uit de plaats in het systeem voorspellen welk ion een "
                   "element vormt."),
             ("p", "Elementen in <strong>dezelfde groep lijken sterk op elkaar</strong>, net omdat ze "
                   "evenveel valentie-elektronen hebben. Het chemische gedrag wordt immers helemaal door de "
@@ -1179,7 +1179,7 @@ BUNDELS["de-bouw-van-het-atoom-en-het-periodiek-systeem-boost-doorstroom"] = dic
         "Elektronen afstaan geeft een positief ion, elektronen opnemen een negatief ion.",
         "De relatieve atoommassa heeft geen eenheid, de absolute massa wel: de kilogram.",
         "Periodenummer = aantal bezette schillen; groepsnummer van een hoofdgroep = aantal valentie-elektronen.",
-        "In de eerste schil passen 2 elektronen, in de tweede 8: natrium is 2, 8, 1.",
+        r"In de eerste schil passen \(2\) elektronen, in de tweede \(8\): natrium is \(2\), \(8\), \(1\).",
         "Een volle buitenste schil, de edelgasconfiguratie, is de stabiele toestand.",
     ],
 )
@@ -1276,7 +1276,7 @@ BUNDELS["chemische-bindingen-en-roosters-boost-doorstroom"] = dict(
                   "elektronen (metalen) of vrije ionen (een zoutoplossing, een gesmolten zout). "
                   "<strong>Suiker lost wel op in water maar geleidt niet</strong>, want "
                   "suikermoleculen blijven hele moleculen."),
-            ("weetje", "Een stof die bij 801 graden smelt, breekbaar is en pas geleidt na smelten of "
+            ("weetje", r"Een stof die bij \(801\) graden smelt, breekbaar is en pas geleidt na smelten of "
                        "oplossen, kan je blind als een zout met een ionrooster aanwijzen. Dat is precies "
                        "het gedrag van keukenzout."),
         ]),
@@ -1315,16 +1315,16 @@ BUNDELS["stoffen-classificeren-en-benoemen-boost-doorstroom"] = dict(
             ("p", "Een <strong>oxide</strong> is altijd binair: één element plus zuurstof. Komt er een "
                   "derde element bij, dan is het geen oxide meer."),
             ("p", "Een <strong>ammoniumzout</strong> is een zout waarin het <strong>metaalion vervangen "
-                  "is door een ammoniumion</strong>, NH4 plus. Dat ion gedraagt zich als een positief "
+                  "is door een ammoniumion</strong>, NH₄ plus. Dat ion gedraagt zich als een positief "
                   "metaalion. Ammoniumnitraat in kunstmest is een bekend voorbeeld."),
         ]),
         dict(kop="De zuurresten", blokken=[
             ("p", tabel(["Ion", "Formule", "Komt van"], [
-                ["Nitraation", "NO3 min", "salpeterzuur"],
-                ["Sulfaation", "SO4 twee min", "zwavelzuur"],
-                ["Fosfaation", "PO4 drie min", "fosforzuur, het zuur in frisdrank van het colatype"],
-                ["Carbonaation", "CO3 twee min, de carbonaatgroep", "koolzuur"],
-                ["Chloraation", "ClO3 min", "chloorzuur"],
+                ["Nitraation", "NO₃ min", "salpeterzuur"],
+                ["Sulfaation", "SO₄ twee min", "zwavelzuur"],
+                ["Fosfaation", "PO₄ drie min", "fosforzuur, het zuur in frisdrank van het colatype"],
+                ["Carbonaation", "CO₃ twee min, de carbonaatgroep", "koolzuur"],
+                ["Chloraation", "ClO₃ min", "chloorzuur"],
                 ["Chloride-ion", "Cl min", "zoutzuur"],
                 ["Sulfide-ion", "S twee min", "waterstofsulfide"],
             ])),
@@ -1337,7 +1337,7 @@ BUNDELS["stoffen-classificeren-en-benoemen-boost-doorstroom"] = dict(
                   "Dat gebruik je bij <strong>ionverbindingen</strong>. Bij "
                   "<strong>atoomverbindingen</strong> gebruik je de <strong>Griekse telwoorden</strong>: "
                   "koolstofdioxide, distikstofoxide."),
-            ("p", "Een <strong>brutoformule</strong> telt alleen de atomen (C2H6); een "
+            ("p", "Een <strong>brutoformule</strong> telt alleen de atomen (C₂H₆); een "
                   "<strong>structuurformule</strong> toont ook de <strong>bindingen</strong> ertussen."),
         ]),
         dict(kop="De alkanen", blokken=[
@@ -1349,11 +1349,11 @@ BUNDELS["stoffen-classificeren-en-benoemen-boost-doorstroom"] = dict(
                   "waterstof opgevuld; daarom heten ze ook de verzadigde koolwaterstoffen. Hun naam eindigt "
                   "op <strong>aan</strong>."),
             ("p", tabel(["Aantal C", "Naam", "Aantal C", "Naam"], [
-                ["1", "methaan", "6", "hexaan"],
-                ["2", "ethaan", "7", "heptaan"],
-                ["3", "propaan", "8", "octaan"],
-                ["4", "butaan", "9", "nonaan"],
-                ["5", "pentaan", "10", "decaan"],
+                [r"\(1\)", "methaan", r"\(6\)", "hexaan"],
+                [r"\(2\)", "ethaan", r"\(7\)", "heptaan"],
+                [r"\(3\)", "propaan", r"\(8\)", "octaan"],
+                [r"\(4\)", "butaan", r"\(9\)", "nonaan"],
+                [r"\(5\)", "pentaan", r"\(10\)", "decaan"],
             ])),
             ("p", "De telwoorden zitten in de naam: <strong>but</strong> is vier, "
                   "<strong>pent</strong> vijf, <strong>oct</strong> acht, <strong>dec</strong> tien. Zo kan "
@@ -1363,10 +1363,10 @@ BUNDELS["stoffen-classificeren-en-benoemen-boost-doorstroom"] = dict(
             ("p", tabel(["Triviale naam", "Welke stof", "Waarvoor"], [
                 ["Water", "diwaterstofoxide", "overal"],
                 ["Zoutzuur", "waterstofchloride in water", "ontkalker"],
-                ["Zwavelzuur", "H2SO4", "autobatterij, industrie"],
-                ["Salpeterzuur", "HNO3", "kunstmest, industrie"],
+                ["Zwavelzuur", "H₂SO₄", "autobatterij, industrie"],
+                ["Salpeterzuur", "HNO₃", "kunstmest, industrie"],
                 ["Fosforzuur", "H3PO4", "cola, roest verwijderen, kunstmest"],
-                ["Ammoniak", "NH3", "schoonmaak en kunstmest"],
+                ["Ammoniak", "NH₃", "schoonmaak en kunstmest"],
                 ["Keukenzout", "natriumchloride", "voeding, strooizout"],
                 ["Bakpoeder", "natriumwaterstofcarbonaat", "deeg laten rijzen"],
                 ["Bijtende soda", "natriumhydroxide", "ontstopper"],
@@ -1400,7 +1400,7 @@ BUNDELS["stoffen-classificeren-en-benoemen-boost-doorstroom"] = dict(
         "Oxide: een element samen met zuurstof. Hydroxide: een metaal met een of meer OH-groepen.",
         "De formule van een zuur begint met waterstof; een zout is een metaalion met een zuurrest.",
         "Binair betekent twee elementen, ternair drie.",
-        "Nitraat NO3 min, sulfaat SO4 twee min, fosfaat PO4 drie min, carbonaat CO3 twee min.",
+        "Nitraat NO₃ min, sulfaat SO₄ twee min, fosfaat PO₄ drie min, carbonaat CO₃ twee min.",
         "Chloraat en sulfaat bevatten zuurstof, chloride en sulfide niet.",
         "Stocknotatie bij ionverbindingen, Griekse telwoorden bij atoomverbindingen.",
         "Alkanen bestaan alleen uit koolstof en waterstof; hun naam eindigt op aan.",
@@ -1447,13 +1447,13 @@ BUNDELS["stoffen-in-water-reacties-en-berekeningen-boost-doorstroom"] = dict(
                   "Een <strong>geleider</strong> geleidt goed, een <strong>isolator</strong> niet."),
         ]),
         dict(kop="Zuur, basisch en de pH", blokken=[
-            ("p", "De <strong>pH-schaal</strong> loopt gewoonlijk van <strong>0 tot 14</strong>. "
-                  "<strong>Onder 7 is zuur</strong>, <strong>7 is neutraal</strong>, "
-                  "<strong>boven 7 is basisch</strong>. Elke eenheid verschil is een "
-                  "<strong>factor tien</strong>: pH 3 is honderd keer zuurder dan pH 5."),
+            ("p", r"De <strong>pH-schaal</strong> loopt gewoonlijk van <strong>\(0\) tot \(14\)</strong>. "
+                  r"<strong>Onder \(7\) is zuur</strong>, <strong>\(7\) is neutraal</strong>, "
+                  r"<strong>boven \(7\) is basisch</strong>. Elke eenheid verschil is een "
+                  r"<strong>factor tien</strong>: pH \(3\) is honderd keer zuurder dan pH \(5\)."),
             ("p", "Een <strong>zuur ioniseert</strong> en geeft <strong>waterstofionen</strong> vrij; een "
                   "<strong>hydroxide dissocieert</strong> en geeft <strong>hydroxide-ionen</strong> vrij. "
-                  "Los je natriumhydroxide op, dan komt de pH dus <strong>boven 7</strong>."),
+                  r"Los je natriumhydroxide op, dan komt de pH dus <strong>boven \(7\)</strong>."),
             ("p", "Een <strong>zuur-base indicator</strong> verandert van <strong>kleur</strong> bij een "
                   "bepaalde pH; welke kleur bij welke waarde hoort, lees je af in een tabel. Wordt een "
                   "indicator <strong>rood</strong>, dan is de oplossing meestal <strong>zuur</strong>. Een "
@@ -1468,7 +1468,7 @@ BUNDELS["stoffen-in-water-reacties-en-berekeningen-boost-doorstroom"] = dict(
                   "chloride-ionen geven een <strong>witte neerslag van zilverchloride</strong>. Of er "
                   "neerslag komt, kijk je na in een <strong>oplosbaarheidstabel</strong>."),
             ("p", "Bij een <strong>neutralisatiereactie</strong> tussen een zuur en een base ontstaat er "
-                  "een <strong>zout en water</strong>, en de pH schuift naar <strong>7</strong> toe. De "
+                  r"een <strong>zout en water</strong>, en de pH schuift naar <strong>\(7\)</strong> toe. De "
                   "<strong>essentiële reactievergelijking</strong> laat de ionen weg die niet meedoen, de "
                   "<strong>spectatorionen</strong>. Voor elke neutralisatie is dat dus: een "
                   "<strong>waterstofion en een hydroxide-ion vormen samen water</strong>."),
@@ -1483,7 +1483,7 @@ BUNDELS["stoffen-in-water-reacties-en-berekeningen-boost-doorstroom"] = dict(
         ]),
         dict(kop="Rekenen met mol", blokken=[
             ("p", "Eén <strong>mol</strong> is altijd <strong>hetzelfde aantal deeltjes</strong>, ongeveer "
-                  "<strong>6 maal 10 tot de 23</strong>. Dat getal heet het "
+                  r"<strong>\(6 \cdot 10\) tot de \(23\)</strong>. Dat getal heet het "
                   "<strong>getal van Avogadro</strong>."),
             ("p", tabel(["Wat je zoekt", "Hoe je rekent"], [
                 ["massa", "stofhoeveelheid maal molaire massa"],
@@ -1493,18 +1493,18 @@ BUNDELS["stoffen-in-water-reacties-en-berekeningen-boost-doorstroom"] = dict(
             ])),
             ("p", "De <strong>molaire massa</strong> lees je af in het periodiek systeem, in "
                   "<strong>gram per mol</strong>; voor een molecule tel je de atomen samen. Water heeft "
-                  "18 gram per mol, dus is <strong>2 mol water 36 gram</strong>, en "
-                  "<strong>36 gram water 2 mol</strong>."),
+                  r"\(18\) gram per mol, dus is <strong>\(2\) mol water \(36\) gram</strong>, en "
+                  r"<strong>\(36\) gram water \(2\) mol</strong>."),
             ("p", "De <strong>molaire concentratie</strong> zegt hoeveel mol er in één liter zit, in "
                   "<strong>mol per liter</strong>. Eén mol in een halve liter geeft dus "
-                  "<strong>2 mol per liter</strong>."),
+                  r"<strong>\(2\) mol per liter</strong>."),
             ("p", "De <strong>coëfficiënten</strong> voor de formules in een reactievergelijking geven de "
                   "<strong>verhouding in mol</strong> waarin de stoffen reageren; dat heet de "
                   "<strong>stoichiometrische verhouding</strong>. Wil je grammen, dan reken je eerst van "
                   "mol naar massa. Bij een <strong>aflopende reactie</strong> gaat het door tot "
                   "<strong>één van de stoffen volledig opgebruikt</strong> is, en die bepaalt hoeveel "
                   "product je krijgt."),
-            ("weetje", "Een mol koolstof weegt 12 gram en past in je hand. Toch zitten daar meer atomen in "
+            ("weetje", r"Een mol koolstof weegt \(12\) gram en past in je hand. Toch zitten daar meer atomen in "
                        "dan er sterren in het zichtbare heelal staan."),
         ]),
     ],
@@ -1513,7 +1513,7 @@ BUNDELS["stoffen-in-water-reacties-en-berekeningen-boost-doorstroom"] = dict(
         "Zouten en hydroxiden dissociëren: de ionen zaten al in het rooster en komen los.",
         "Zuren ioniseren: de molecule valt uiteen in ionen die er nog niet waren.",
         "Een elektrolyt geleidt in water doordat ze ionen vormt; suiker is een niet-elektrolyt.",
-        "Onder pH 7 is zuur, 7 is neutraal, boven 7 is basisch; elke eenheid is een factor tien.",
+        r"Onder pH \(7\) is zuur, \(7\) is neutraal, boven \(7\) is basisch; elke eenheid is een factor tien.",
         "Bij een neutralisatie ontstaan uit een zuur en een base een zout en water.",
         "Oxidatie is elektronen afstaan, reductie is elektronen opnemen.",
         "Massa = stofhoeveelheid maal molaire massa.",
@@ -1532,8 +1532,8 @@ BUNDELS["rechtlijnige-bewegingen-boost-doorstroom"] = dict(
                   "Voor een auto op de snelweg is dat een prima benadering."),
             ("p", "De <strong>afgelegde weg</strong> is de <strong>hele baan</strong> die je volgt. De "
                   "<strong>verplaatsing</strong> gaat alleen <strong>van begin naar eind</strong>. Rijd je "
-                  "10 kilometer naar het oosten en 10 kilometer terug, dan is de afgelegde weg "
-                  "<strong>20 kilometer</strong> en de verplaatsing <strong>nul</strong>. De verplaatsing "
+                  r"\(10\) kilometer naar het oosten en \(10\) kilometer terug, dan is de afgelegde weg "
+                  r"<strong>\(20\) kilometer</strong> en de verplaatsing <strong>nul</strong>. De verplaatsing "
                   "is dus nooit groter dan de afgelegde weg."),
             ("p", "Een <strong>tijdstip</strong> is een moment op de klok; het "
                   "<strong>tijdsverloop</strong> is het <strong>verschil tussen twee tijdstippen</strong>."),
@@ -1549,13 +1549,13 @@ BUNDELS["rechtlijnige-bewegingen-boost-doorstroom"] = dict(
                   "de <strong>snelheid onveranderd</strong> en is de <strong>baan een rechte lijn</strong>. "
                   "In elke seconde wordt dus dezelfde afstand afgelegd."),
             ("p", "De <strong>gemiddelde snelheid</strong> is de <strong>verplaatsing gedeeld door het "
-                  "tijdsverloop</strong>. Rijd je 150 kilometer in 2 uur, dan is dat "
-                  "<strong>75 kilometer per uur</strong>. Om van kilometer per uur naar "
-                  "<strong>meter per seconde</strong> te gaan, deel je door <strong>3,6</strong>: 36 "
-                  "kilometer per uur is 10 meter per seconde."),
+                  r"tijdsverloop</strong>. Rijd je \(150\) kilometer in \(2\) uur, dan is dat "
+                  r"<strong>\(75\) kilometer per uur</strong>. Om van kilometer per uur naar "
+                  r"<strong>meter per seconde</strong> te gaan, deel je door <strong>\(3{,}6\)</strong>: \(36\) "
+                  r"kilometer per uur is \(10\) meter per seconde."),
             ("p", "De <strong>positiefunctie</strong> van een ERB telt bij de "
-                  "<strong>beginpositie</strong> de verplaatsing op. Start je op 20 meter en rijd je met 5 "
-                  "meter per seconde, dan zit je na 4 seconden op <strong>40 meter</strong>."),
+                  r"<strong>beginpositie</strong> de verplaatsing op. Start je op \(20\) meter en rijd je met \(5\) "
+                  r"meter per seconde, dan zit je na \(4\) seconden op <strong>\(40\) meter</strong>."),
             ("p", tabel(["Grafiek", "Bij een ERB", "Wat je eruit haalt"], [
                 ["x(t)", "een rechte lijn", "de steilheid is de snelheid"],
                 ["v(t)", "een vlakke rechte lijn", "de oppervlakte eronder is de verplaatsing"],
@@ -1576,8 +1576,8 @@ BUNDELS["rechtlijnige-bewegingen-boost-doorstroom"] = dict(
             ("p", "De <strong>versnelling</strong> is de <strong>verandering van de snelheid per "
                   "tijdseenheid</strong>. Haar symbool is <strong>a</strong> en haar eenheid "
                   "<strong>meter per seconde kwadraat</strong>: meter per seconde, en dat per seconde "
-                  "opnieuw. Start je uit stilstand met 3 meter per seconde kwadraat, dan heb je na 4 "
-                  "seconden <strong>12 meter per seconde</strong>."),
+                  r"opnieuw. Start je uit stilstand met \(3\) meter per seconde kwadraat, dan heb je na \(4\) "
+                  r"seconden <strong>\(12\) meter per seconde</strong>."),
             ("p", tabel(["Grafiek", "Bij een EVRB", "Wat je eruit haalt"], [
                 ["x(t)", "een kromme, want de steilheid verandert", "de steilheid op één punt is de ogenblikkelijke snelheid"],
                 ["v(t)", "een schuine rechte", "de steilheid is de versnelling, de oppervlakte eronder de verplaatsing"],
@@ -1585,13 +1585,13 @@ BUNDELS["rechtlijnige-bewegingen-boost-doorstroom"] = dict(
             ])),
             ("p", "<strong>Versnellen of vertragen?</strong> Je kijkt naar de "
                   "<strong>grootte</strong> van de snelheid, niet naar het teken. Gaat die omhoog, dan is "
-                  "het versnellen; gaat ze omlaag, dan is het vertragen. Van min 2 naar min 8 is dus ook "
+                  r"het versnellen; gaat ze omlaag, dan is het vertragen. Van min \(2\) naar min \(8\) is dus ook "
                   "versnellen. Rijdt een auto vooruit en is de versnelling <strong>negatief</strong>, dan "
                   "<strong>vertraagt</strong> hij."),
-            ("p", "Een v(t)-grafiek die van 20 meter per seconde naar nul daalt in 5 seconden geeft een "
-                  "versnelling van <strong>min 4 meter per seconde kwadraat</strong>. De "
-                  "<strong>oppervlakte onder die driehoek</strong> is de afgelegde weg: de helft van 20 "
-                  "maal 5, dus <strong>50 meter</strong> remweg."),
+            ("p", r"Een v(t)-grafiek die van \(20\) meter per seconde naar nul daalt in \(5\) seconden geeft een "
+                  r"versnelling van <strong>min \(4\) meter per seconde kwadraat</strong>. De "
+                  r"<strong>oppervlakte onder die driehoek</strong> is de afgelegde weg: de helft van \(20\) "
+                  r"maal \(5\), dus <strong>\(50\) meter</strong> remweg."),
             ("p", "Ligt de <strong>a(t)-grafiek op de tijdas</strong>, dan <strong>behoudt</strong> het "
                   "voorwerp zijn snelheid. Die mag ook nul zijn, maar rijdt het, dan rijdt het gewoon "
                   "verder."),
@@ -1618,7 +1618,7 @@ BUNDELS["rechtlijnige-bewegingen-boost-doorstroom"] = dict(
         "De afgelegde weg is de hele baan, de verplaatsing gaat alleen van begin naar eind.",
         "Een vector heeft vier kenmerken: grootte, richting, zin en aangrijpingspunt.",
         "ERB: de snelheid blijft onveranderd en de baan is een rechte lijn.",
-        "Gemiddelde snelheid = verplaatsing gedeeld door tijdsverloop. Van kilometer per uur naar meter per seconde: delen door 3,6.",
+        r"Gemiddelde snelheid = verplaatsing gedeeld door tijdsverloop. Van kilometer per uur naar meter per seconde: delen door \(3{,}6\).",
         "EVRB: de versnelling blijft onveranderd; haar eenheid is meter per seconde kwadraat.",
         "In een v(t)-grafiek is de steilheid de versnelling en de oppervlakte eronder de verplaatsing.",
         "Versnellen of vertragen lees je aan de grootte van de snelheid, niet aan het teken.",
@@ -1638,9 +1638,9 @@ BUNDELS["vrije-val-verticale-worp-en-krachten-boost-doorstroom"] = dict(
                   "pluim samen. In lucht wint de steen alleen doordat de pluim veel meer weerstand "
                   "ondervindt."),
             ("p", "De <strong>valversnelling</strong> op aarde is ongeveer "
-                  "<strong>9,81 meter per seconde kwadraat</strong>; op de maan maar 1,62. Elke seconde "
-                  "komt er dus ongeveer 9,81 meter per seconde snelheid bij. Valt een steen uit stilstand, "
-                  "dan heeft hij na 2 seconden ongeveer <strong>20 meter per seconde</strong> als je met 10 "
+                  r"<strong>\(9{,}81\) meter per seconde kwadraat</strong>; op de maan maar \(1{,}62\). Elke seconde "
+                  r"komt er dus ongeveer \(9{,}81\) meter per seconde snelheid bij. Valt een steen uit stilstand, "
+                  r"dan heeft hij na \(2\) seconden ongeveer <strong>\(20\) meter per seconde</strong> als je met \(10\) "
                   "rekent."),
             ("p", "Bij een <strong>verticale worp naar boven</strong> is de versnelling tijdens het "
                   "opgaan <strong>naar beneden</strong> gericht: de zwaartekracht werkt altijd naar "
@@ -1686,18 +1686,18 @@ BUNDELS["vrije-val-verticale-worp-en-krachten-boost-doorstroom"] = dict(
         dict(kop="Krachten samenstellen", blokken=[
             ("p", "De <strong>resultante</strong> is de ene kracht die hetzelfde effect heeft als alle "
                   "krachten samen. Werken twee krachten in <strong>dezelfde richting en zin</strong>, dan "
-                  "<strong>tel je hun groottes op</strong>: 30 en 40 newton geven "
-                  "<strong>70 newton</strong>. Bij <strong>tegengestelde zin</strong> trek je ze van elkaar "
+                  r"<strong>tel je hun groottes op</strong>: \(30\) en \(40\) newton geven "
+                  r"<strong>\(70\) newton</strong>. Bij <strong>tegengestelde zin</strong> trek je ze van elkaar "
                   "af; gelijke groottes geven dan <strong>nul</strong>."),
-            ("p", "Maken twee krachten een <strong>hoek van 90 graden</strong>, dan gebruik je de "
-                  "<strong>stelling van Pythagoras</strong>: 30 en 40 newton geven "
-                  "<strong>50 newton</strong>, want de wortel uit 900 plus 1600 is 50."),
+            ("p", r"Maken twee krachten een <strong>hoek van \(90\) graden</strong>, dan gebruik je de "
+                  r"<strong>stelling van Pythagoras</strong>: \(30\) en \(40\) newton geven "
+                  r"<strong>\(50\) newton</strong>, want \(\sqrt{900}\) plus \(1600\) is \(50\)."),
         ]),
         dict(kop="Zwaartekracht, massa en gewicht", blokken=[
             ("p", "De <strong>zwaartekracht</strong> is de <strong>massa maal de "
                   "zwaarteveldsterkte</strong>. Op aarde is die sterkte ongeveer "
-                  "<strong>9,81 newton per kilogram</strong>, op de maan 1,62. Een massa van 2 kilogram "
-                  "heeft dus een zwaartekracht van <strong>20 newton</strong> als je met 10 rekent."),
+                  r"<strong>\(9{,}81\) newton per kilogram</strong>, op de maan \(1{,}62\). Een massa van \(2\) kilogram "
+                  r"heeft dus een zwaartekracht van <strong>\(20\) newton</strong> als je met \(10\) rekent."),
             ("p", "<strong>Massa</strong> is de <strong>hoeveelheid materie</strong> en blijft overal "
                   "dezelfde, ook op de maan. <strong>Gewicht</strong> is een <strong>kracht</strong> en "
                   "meet je in <strong>newton</strong>, niet in kilogram; op de maan is je gewicht zes keer "
@@ -1723,13 +1723,13 @@ BUNDELS["vrije-val-verticale-worp-en-krachten-boost-doorstroom"] = dict(
                   "hoeveel de veer uitrekt, en de <strong>veerconstante</strong> zegt hoe stug de veer is. "
                   "Een <strong>grotere veerconstante</strong> betekent dat de veer bij dezelfde kracht "
                   "<strong>minder uitrekt</strong>."),
-            ("p", "Rekt een veer 4 centimeter uit bij 20 newton, dan is de veerconstante "
-                  "<strong>5 newton per centimeter</strong>. Met die constante voorspel je elke andere "
+            ("p", r"Rekt een veer \(4\) centimeter uit bij \(20\) newton, dan is de veerconstante "
+                  r"<strong>\(5\) newton per centimeter</strong>. Met die constante voorspel je elke andere "
                   "uitrekking."),
             ("p", "Hangt een voorwerp <strong>stil</strong> aan een veer, dan is er een "
                   "<strong>krachtenbalans</strong>: de <strong>veerkracht is even groot als de "
-                  "zwaartekracht</strong>. Een voorwerp van 5 kilogram geeft dus een veerkracht van "
-                  "<strong>50 newton</strong> als je met 10 newton per kilogram rekent. Daarom kan je uit "
+                  r"zwaartekracht</strong>. Een voorwerp van \(5\) kilogram geeft dus een veerkracht van "
+                  r"<strong>\(50\) newton</strong> als je met \(10\) newton per kilogram rekent. Daarom kan je uit "
                   "de massa alleen de veerkracht berekenen."),
             ("weetje", "Een weegschaal in de winkel meet eigenlijk een kracht, geen massa. Ze rekent die "
                        "kracht voor jou om naar kilogram, en dat lukt alleen doordat de "
@@ -1738,12 +1738,12 @@ BUNDELS["vrije-val-verticale-worp-en-krachten-boost-doorstroom"] = dict(
     ],
     onthoud=[
         "Bij een vrije val werkt alleen de zwaartekracht, en valt elk voorwerp even snel.",
-        "De valversnelling op aarde is ongeveer 9,81 meter per seconde kwadraat.",
+        r"De valversnelling op aarde is ongeveer \(9{,}81\) meter per seconde kwadraat.",
         "In het hoogste punt van een verticale worp is de snelheid nul, de versnelling blijft naar beneden.",
         "Een resulterende kracht die niet nul is, verandert de bewegingstoestand.",
         "Stilstaan of constante snelheid in een rechte lijn: resulterende kracht nul, een krachtenbalans.",
-        "Bij een hoek van 90 graden gebruik je Pythagoras: 30 en 40 newton geven 50 newton.",
-        "Zwaartekracht = massa maal zwaarteveldsterkte, op aarde ongeveer 9,81 newton per kilogram.",
+        r"Bij een hoek van \(90\) graden gebruik je Pythagoras: \(30\) en \(40\) newton geven \(50\) newton.",
+        r"Zwaartekracht = massa maal zwaarteveldsterkte, op aarde ongeveer \(9{,}81\) newton per kilogram.",
         "Massa blijft overal dezelfde; gewicht is een kracht en meet je in newton.",
         "Veerkracht = veerconstante maal lengteverandering.",
     ],
@@ -1758,12 +1758,12 @@ BUNDELS["druk-en-de-gaswetten-boost-doorstroom"] = dict(
             ("p", "De <strong>druk</strong> is de <strong>kracht gedeeld door de oppervlakte</strong>. De "
                   "SI-eenheid is de <strong>pascal</strong>: één newton per vierkante meter. Voor het weer "
                   "gebruiken we handiger eenheden: <strong>kilopascal, hectopascal, millibar en bar</strong>. "
-                  "Eén bar is <strong>100 000 pascal</strong>, ongeveer de luchtdruk op zeeniveau, en dat "
-                  "lees je in het weerbericht als 1000 hectopascal."),
+                  r"Eén bar is <strong>\(100\,000\) pascal</strong>, ongeveer de luchtdruk op zeeniveau, en dat "
+                  r"lees je in het weerbericht als \(1000\) hectopascal."),
             ("p", "Bij <strong>dezelfde kracht</strong> geeft een <strong>kleiner oppervlak een grotere "
                   "druk</strong>. Daarom snijdt een scherp mes beter dan een bot mes, en daarom dringt een "
-                  "naald zo gemakkelijk binnen. Duw je met 200 newton op 0,5 vierkante meter, dan is de "
-                  "druk <strong>400 pascal</strong>."),
+                  r"naald zo gemakkelijk binnen. Duw je met \(200\) newton op \(0{,}5\) vierkante meter, dan is de "
+                  r"druk <strong>\(400\) pascal</strong>."),
             ("p", "Met <strong>sneeuwschoenen</strong> zak je minder diep weg: je gewicht verandert niet, "
                   "maar het <strong>zooloppervlak is groter</strong> en dus de druk kleiner. Een naaldhak "
                   "doet precies het omgekeerde. Bij <strong>dezelfde schoenmaat</strong> zakt de "
@@ -1813,11 +1813,11 @@ BUNDELS["druk-en-de-gaswetten-boost-doorstroom"] = dict(
                   "dat je ze niet mag verwarmen."),
             ("p", "De <strong>temperatuurschaal</strong> die bij het absolute nulpunt begint, is de "
                   "<strong>kelvinschaal</strong>. Die begint bij het <strong>absolute nulpunt</strong>, bij "
-                  "<strong>min 273,15 graden Celsius</strong>. Daar hebben de deeltjes "
+                  r"<strong>min \(273{,}15\) graden Celsius</strong>. Daar hebben de deeltjes "
                   "<strong>geen kinetische energie</strong> meer, zou de <strong>druk nul</strong> zijn, en "
                   "<strong>lager kan niet</strong>, want trager dan stil bestaat niet. Je telt "
-                  "<strong>273</strong> bij de graden Celsius op: 27 graden is <strong>300 kelvin</strong>, "
-                  "en 273 kelvin is <strong>0 graden</strong> Celsius."),
+                  r"<strong>\(273\)</strong> bij de graden Celsius op: \(27\) graden is <strong>\(300\) kelvin</strong>, "
+                  r"en \(273\) kelvin is <strong>\(0\) graden</strong> Celsius."),
         ]),
         dict(kop="De gaswetten", blokken=[
             ("kader", "<p>De gaswetten en de kelvinschaal staan enkel in de uitgebreide fiche, dus voor "
@@ -1833,11 +1833,11 @@ BUNDELS["druk-en-de-gaswetten-boost-doorstroom"] = dict(
             ("p", "Bij een <strong>isotherm</strong> proces is de grafiek van de druk tegenover het "
                   "volume een <strong>kromme die daalt</strong>: de twee zijn "
                   "<strong>omgekeerd evenredig</strong>, dus buigt de kromme naar de assen toe zonder ze te "
-                  "raken. Een gas van 2 liter bij 1 bar dat tot 1 liter samengeperst wordt, komt op "
-                  "<strong>2 bar</strong>."),
+                  r"raken. Een gas van \(2\) liter bij \(1\) bar dat tot \(1\) liter samengeperst wordt, komt op "
+                  r"<strong>\(2\) bar</strong>."),
             ("p", "Bij een <strong>isochoor</strong> proces zijn druk en absolute temperatuur "
-                  "<strong>recht evenredig</strong>: een gas van 300 kelvin bij 1 bar dat tot 600 kelvin "
-                  "verwarmd wordt, komt op <strong>2 bar</strong>. In de gaswetten moet je de temperatuur "
+                  r"<strong>recht evenredig</strong>: een gas van \(300\) kelvin bij \(1\) bar dat tot \(600\) kelvin "
+                  r"verwarmd wordt, komt op <strong>\(2\) bar</strong>. In de gaswetten moet je de temperatuur "
                   "daarom <strong>altijd in kelvin</strong> invullen; met graden Celsius kom je bij nul "
                   "graden op een onmogelijke uitkomst."),
             ("p", "Een <strong>ballon in de koelkast</strong> loopt wat leeg: de deeltjes bewegen trager, "
@@ -1858,7 +1858,7 @@ BUNDELS["druk-en-de-gaswetten-boost-doorstroom"] = dict(
         "Elke tien meter water voegt ongeveer één bar toe.",
         "Beginsel van Pascal: een drukverandering plant zich in een vloeistof in alle richtingen voort.",
         "Een barometer meet de luchtdruk, een manometer de druk in een vat of leiding.",
-        "De kelvinschaal begint bij het absolute nulpunt, min 273,15 graden Celsius.",
+        r"De kelvinschaal begint bij het absolute nulpunt, min \(273{,}15\) graden Celsius.",
         "Isotherm: druk maal volume blijft gelijk. Isochoor: druk en absolute temperatuur zijn recht evenredig.",
         "In de gaswetten vul je de temperatuur altijd in kelvin in.",
     ],
@@ -1883,9 +1883,9 @@ BUNDELS["arbeid-energie-vermogen-en-rendement-boost-doorstroom"] = dict(
                   "<strong>positief</strong>; werkt ze <strong>tegengesteld</strong>, dan is de arbeid "
                   "<strong>negatief</strong> (de wrijvingskracht). Staat ze "
                   "<strong>loodrecht</strong> op de verplaatsing, dan verricht ze "
-                  "<strong>geen arbeid</strong>: de cosinus van 90 graden is nul."),
-            ("p", "Duw je een doos 3 meter ver met 40 newton in de zin van de beweging, dan is de arbeid "
-                  "<strong>120 joule</strong>: kracht maal verplaatsing. Werkt de kracht onder een hoek, "
+                  r"<strong>geen arbeid</strong>: de cosinus van \(90\) graden is nul."),
+            ("p", r"Duw je een doos \(3\) meter ver met \(40\) newton in de zin van de beweging, dan is de arbeid "
+                  r"<strong>\(120\) joule</strong>: kracht maal verplaatsing. Werkt de kracht onder een hoek, "
                   "dan komt er nog een cosinus bij."),
         ]),
         dict(kop="De energievormen", blokken=[
@@ -1902,8 +1902,8 @@ BUNDELS["arbeid-energie-vermogen-en-rendement-boost-doorstroom"] = dict(
             ])),
             ("p", "Omdat de <strong>snelheid in het kwadraat</strong> staat, weegt die zwaar door: "
                   "<strong>twee keer zo snel is vier keer zo veel kinetische energie</strong>, en daarom "
-                  "wordt de remweg bij dubbele snelheid veel meer dan dubbel zo lang. Een voorwerp van 2 "
-                  "kilogram met 3 meter per seconde heeft <strong>9 joule</strong>. Bij de elastische "
+                  r"wordt de remweg bij dubbele snelheid veel meer dan dubbel zo lang. Een voorwerp van \(2\) "
+                  r"kilogram met \(3\) meter per seconde heeft <strong>\(9\) joule</strong>. Bij de elastische "
                   "energie staat de uitrekking om dezelfde reden in het kwadraat."),
             ("p", "Energie meet je in <strong>joule</strong>, maar ook in "
                   "<strong>kilowattuur</strong> (je elektriciteitsfactuur) en in "
@@ -1924,8 +1924,8 @@ BUNDELS["arbeid-energie-vermogen-en-rendement-boost-doorstroom"] = dict(
                   "<strong>laagste punt</strong>. In het hoogste punt staat de schommel een ogenblik stil, "
                   "dus is zijn kinetische energie daar juist nul. <strong>Zonder wrijving blijft de som "
                   "van de twee gelijk.</strong>"),
-            ("p", "Een bal van 1 kilogram die 5 meter valt heeft net voor de bodem "
-                  "<strong>50 joule</strong> kinetische energie, als je met 10 newton per kilogram rekent "
+            ("p", r"Een bal van \(1\) kilogram die \(5\) meter valt heeft net voor de bodem "
+                  r"<strong>\(50\) joule</strong> kinetische energie, als je met \(10\) newton per kilogram rekent "
                   "en de luchtweerstand verwaarloost: alle hoogte-energie is dan omgezet."),
             ("p", "<strong>Energiedissipatie</strong> is bruikbare energie die in een "
                   "<strong>minder bruikbare vorm</strong> omgezet wordt, meestal <strong>warmte</strong>. "
@@ -1943,22 +1943,22 @@ BUNDELS["arbeid-energie-vermogen-en-rendement-boost-doorstroom"] = dict(
         ]),
         dict(kop="Vermogen en rendement", blokken=[
             ("p", "Het <strong>vermogen</strong> is de <strong>omgezette energie gedeeld door de "
-                  "tijd</strong>, in <strong>watt</strong>: joule per seconde. Een motor die 400 joule "
-                  "omzet in 5 seconden heeft een vermogen van <strong>80 watt</strong>. Een toestel met een "
+                  r"tijd</strong>, in <strong>watt</strong>: joule per seconde. Een motor die \(400\) joule "
+                  r"omzet in \(5\) seconden heeft een vermogen van <strong>\(80\) watt</strong>. Een toestel met een "
                   "<strong>groter vermogen zet in dezelfde tijd meer energie om</strong>, en daarom kookt "
-                  "een waterkoker van 2000 watt sneller dan een van 1000 watt."),
-            ("p", "Omgekeerd: een toestel van <strong>2000 watt</strong> dat een <strong>half uur</strong> "
-                  "aanstaat gebruikt <strong>1 kilowattuur</strong>. Je vermenigvuldigt het vermogen in "
+                  r"een waterkoker van \(2000\) watt sneller dan een van \(1000\) watt."),
+            ("p", r"Omgekeerd: een toestel van <strong>\(2000\) watt</strong> dat een <strong>half uur</strong> "
+                  r"aanstaat gebruikt <strong>\(1\) kilowattuur</strong>. Je vermenigvuldigt het vermogen in "
                   "kilowatt met de tijd in uur, en zo rekent ook je elektriciteitsmeter."),
             ("p", "Het <strong>rendement</strong> is de <strong>nuttige energie gedeeld door de totale "
-                  "energie</strong>, meestal in procent. Van 1000 joule met 250 joule nuttig is het "
-                  "rendement <strong>25 procent</strong>. De <strong>ongewenste energie</strong> is de "
+                  r"energie</strong>, meestal in procent. Van \(1000\) joule met \(250\) joule nuttig is het "
+                  r"rendement <strong>\(25\) procent</strong>. De <strong>ongewenste energie</strong> is de "
                   "<strong>totale min de nuttige</strong>."),
             ("p", "Een rendement <strong>boven honderd procent bestaat niet</strong>: er kan nooit meer "
-                  "energie uit komen dan er in gaat. Een lamp die 100 joule krijgt en 5 joule licht geeft, "
-                  "zet de overige <strong>95 joule in warmte</strong> om; bij een gloeilamp is dat het "
+                  r"energie uit komen dan er in gaat. Een lamp die \(100\) joule krijgt en \(5\) joule licht geeft, "
+                  r"zet de overige <strong>\(95\) joule in warmte</strong> om; bij een gloeilamp is dat het "
                   "grootste deel, en daarom heeft een <strong>ledlamp een veel beter rendement</strong>."),
-            ("p", "Koken twee waterkokers dezelfde liter water, de ene op 2 en de andere op 4 minuten, dan "
+            ("p", r"Koken twee waterkokers dezelfde liter water, de ene op \(2\) en de andere op \(4\) minuten, dan "
                   "heeft de <strong>snelste het grootste vermogen</strong>: voor dezelfde energie in de "
                   "helft van de tijd heb je dubbel het vermogen nodig. Hun rendement kan daarnaast nog "
                   "verschillen."),
@@ -1989,7 +1989,7 @@ BUNDELS["warmte-en-faseovergangen-boost-doorstroom"] = dict(
                   "<strong>kinetische energie van de deeltjes</strong>: hoe sneller ze bewegen, hoe hoger "
                   "de temperatuur. <strong>Warmte</strong> is <strong>energie die overgaat</strong> en "
                   "meet je in <strong>joule</strong>. Het zijn dus twee verschillende dingen: een bad van "
-                  "30 graden bevat veel meer warmte dan een kop thee van 60 graden."),
+                  r"\(30\) graden bevat veel meer warmte dan een kop thee van \(60\) graden."),
             ("p", "Warmte gaat <strong>altijd van warm naar koud</strong>. <strong>Koude bestaat niet</strong> "
                   "als iets dat overgaat: ze is alleen een gebrek aan warmte. Het "
                   "<strong>thermisch evenwicht</strong> is de toestand waarin beide voorwerpen "
@@ -2016,12 +2016,12 @@ BUNDELS["warmte-en-faseovergangen-boost-doorstroom"] = dict(
             ("p", "Een <strong>grote specifieke warmtecapaciteit</strong> betekent dat je "
                   "<strong>veel warmte nodig hebt om één kilogram één graad op te warmen</strong>. "
                   "<strong>Water</strong> heeft een heel grote warmtecapaciteit, ongeveer "
-                  "<strong>4180 joule per kilogram per graad</strong>. Daarom warmt de zee veel langzamer "
+                  r"<strong>\(4180\) joule per kilogram per graad</strong>. Daarom warmt de zee veel langzamer "
                   "op dan het zand op het strand, en blijft ze in september nog warm terwijl de lucht al "
                   "afkoelt."),
             ("p", "Een stof met een <strong>kleine</strong> warmtecapaciteit warmt juist "
-                  "<strong>snel op en koelt ook snel af</strong>. Verwarm je 2 kilogram water van 20 naar "
-                  "30 graden, dan heb je <strong>83 600 joule</strong> nodig: 4180 maal 2 maal 10. De "
+                  r"<strong>snel op en koelt ook snel af</strong>. Verwarm je \(2\) kilogram water van \(20\) naar "
+                  r"\(30\) graden, dan heb je <strong>\(83\,600\) joule</strong> nodig: \(4180 \cdot 2 \cdot 10\). De "
                   "benodigde warmte is <strong>recht evenredig met de massa</strong>, dus een hele liter "
                   "vraagt dubbel zo veel als een halve."),
             ("p", "Een <strong>tegelvloer voelt kouder aan dan een tapijt</strong> bij dezelfde "
@@ -2032,8 +2032,8 @@ BUNDELS["warmte-en-faseovergangen-boost-doorstroom"] = dict(
                   "je erin kan meten hoeveel warmte een stof opneemt of afgeeft. De "
                   "<strong>warmtebalans</strong> is een toepassing van de "
                   "<strong>wet van behoud van energie</strong>: wat het warme deel afgeeft, neemt het "
-                  "koude deel op. Giet je een liter water van 80 graden bij een liter van 20 graden, dan "
-                  "komt de eindtemperatuur op ongeveer <strong>50 graden</strong>, het gemiddelde."),
+                  r"koude deel op. Giet je een liter water van \(80\) graden bij een liter van \(20\) graden, dan "
+                  r"komt de eindtemperatuur op ongeveer <strong>\(50\) graden</strong>, het gemiddelde."),
         ]),
         dict(kop="De faseovergangen", blokken=[
             ("p", tabel(["Overgang", "Van", "Naar", "Warmte"], [
@@ -2070,8 +2070,8 @@ BUNDELS["warmte-en-faseovergangen-boost-doorstroom"] = dict(
                   "het smeltpunt."),
             ("p", "De <strong>latente warmte</strong> is de <strong>specifieke "
                   "faseovergangswarmte maal de massa</strong>. Er staat geen temperatuurverschil in, want "
-                  "dat is tijdens een faseovergang nul. Om 0,5 kilogram ijs te smelten heb je dus "
-                  "<strong>167 000 joule</strong> nodig, met 334 000 joule per kilogram."),
+                  r"dat is tijdens een faseovergang nul. Om \(0{,}5\) kilogram ijs te smelten heb je dus "
+                  r"<strong>\(167\,000\) joule</strong> nodig, met \(334\,000\) joule per kilogram."),
             ("p", "De <strong>verdampingswarmte van water is bijzonder groot</strong>: je hebt "
                   "<strong>meer warmte nodig om water bij honderd graden te laten verdampen dan om het "
                   "van nul naar honderd graden op te warmen</strong>. Daarom koelt "
@@ -2092,7 +2092,7 @@ BUNDELS["warmte-en-faseovergangen-boost-doorstroom"] = dict(
         "Warmte gaat altijd van warm naar koud, tot het thermisch evenwicht.",
         "Geleiding en convectie hebben een stof nodig; straling gaat ook door het luchtledige.",
         "Merkbare warmte = specifieke warmtecapaciteit maal massa maal temperatuurverschil.",
-        "Water heeft een heel grote warmtecapaciteit, ongeveer 4180 joule per kilogram per graad.",
+        r"Water heeft een heel grote warmtecapaciteit, ongeveer \(4180\) joule per kilogram per graad.",
         "Stollen, condenseren en desublimeren geven warmte af; smelten, verdampen en sublimeren nemen op.",
         "Bij een faseovergang blijft de temperatuur gelijk.",
         "Latente warmte = specifieke faseovergangswarmte maal de massa.",
@@ -2116,9 +2116,9 @@ BUNDELS["elektriciteit-en-de-wet-van-ohm-boost-doorstroom"] = dict(
                   "symbolen voor gelijkstroom en gelijkspanning staan erop. Een "
                   "<strong>barometer</strong> hoort niet in een stroomkring."),
             ("p", "De <strong>wet van Ohm</strong> zegt dat de <strong>weerstand de spanning gedeeld door "
-                  "de stroomsterkte</strong> is. Je kan haar in elke richting gebruiken: 12 volt over 4 ohm "
-                  "geeft <strong>3 ampère</strong>; 2 ampère door 5 ohm geeft "
-                  "<strong>10 volt</strong>."),
+                  r"de stroomsterkte</strong> is. Je kan haar in elke richting gebruiken: \(12\) volt over \(4\) ohm "
+                  r"geeft <strong>\(3\) ampère</strong>; \(2\) ampère door \(5\) ohm geeft "
+                  r"<strong>\(10\) volt</strong>."),
             ("p", "Bij een <strong>vaste weerstand</strong> zijn spanning en stroomsterkte "
                   "<strong>recht evenredig</strong>: zet je ze in een grafiek, dan krijg je een "
                   "<strong>rechte door de oorsprong</strong>, en uit de steilheid haal je de weerstand. Bij "
@@ -2154,12 +2154,12 @@ BUNDELS["elektriciteit-en-de-wet-van-ohm-boost-doorstroom"] = dict(
         dict(kop="Vermogen en het Joule-effect", blokken=[
             ("p", "Het <strong>vermogen</strong> van een elektrisch toestel zegt hoeveel "
                   "<strong>elektrische energie het per seconde omzet</strong>, in watt. Een toestel van "
-                  "1000 watt dat twee uur aanstaat gebruikt <strong>2 kilowattuur</strong>. Bij "
+                  r"\(1000\) watt dat twee uur aanstaat gebruikt <strong>\(2\) kilowattuur</strong>. Bij "
                   "<strong>dezelfde spanning</strong> hoort een <strong>groter vermogen bij een grotere "
                   "stroom</strong>; daarom krijgt een elektrisch vuur een eigen, zwaardere kring."),
             ("p", "Van twee toestellen die <strong>hetzelfde werk doen</strong>, is het toestel met het "
-                  "<strong>kleinste vermogen het zuinigst</strong>. Een ledlamp geeft met 7 watt zo veel "
-                  "licht als een gloeilamp met 60 watt."),
+                  r"<strong>kleinste vermogen het zuinigst</strong>. Een ledlamp geeft met \(7\) watt zo veel "
+                  r"licht als een gloeilamp met \(60\) watt."),
             ("p", "Het <strong>Joule-effect</strong> is dat een <strong>geleider opwarmt doordat er stroom "
                   "door loopt</strong>: de elektronen botsen op de deeltjes van de geleider en geven daarbij "
                   "energie af. In een <strong>waterkoker is dat gewenst</strong>, in een "
@@ -2256,29 +2256,29 @@ BUNDELS["veilig-werken-meten-en-levensreddend-handelen-boost-doorstroom"] = dict
                   "<strong>kleinste en de grootste waarde</strong> die het kan meten. Meet je buiten dat "
                   "bereik, dan is het resultaat onbruikbaar of gaat het toestel stuk. Kies dus een "
                   "instrument met genoeg <strong>nauwkeurigheid</strong> voor je meting: voor "
-                  "<strong>25 milliliter nauwkeurig afmeten</strong> neem je een "
+                  r"<strong>\(25\) milliliter nauwkeurig afmeten</strong> neem je een "
                   "<strong>pipet</strong> of een maatkolf, niet een maatbeker, want die is om te mengen."),
             ("p", "Een <strong>meting is nooit helemaal exact</strong>, want elk instrument heeft een "
                   "beperkte nauwkeurigheid. Daarom schrijf je een resultaat in het juiste aantal "
-                  "<strong>beduidende cijfers</strong>: meet je 1,2 meter, dan heb je er "
-                  "<strong>twee</strong>, en 1,200 meter opschrijven suggereert een nauwkeurigheid die er "
-                  "niet is. Meet je 325 gram op een balans die tot op een gram meet, dan schrijf je "
-                  "precies <strong>325 gram</strong>."),
+                  r"<strong>beduidende cijfers</strong>: meet je \(1{,}2\) meter, dan heb je er "
+                  r"<strong>twee</strong>, en \(1{,}200\) meter opschrijven suggereert een nauwkeurigheid die er "
+                  r"niet is. Meet je \(325\) gram op een balans die tot op een gram meet, dan schrijf je "
+                  r"precies <strong>\(325\) gram</strong>."),
             ("p", "In de <strong>wetenschappelijke notatie</strong> schrijf je een getal als een "
-                  "<strong>getal tussen 1 en 10 maal een macht van tien</strong>: 0,000045 meter wordt "
-                  "4,5 maal tien tot de macht min vijf meter. En maak altijd eerst een "
+                  r"<strong>getal tussen \(1\) en \(10\) maal een macht van tien</strong>: \(0{,}000045\) meter wordt "
+                  r"\(4{,}5\) maal \(10^{-5}\) meter. En maak altijd eerst een "
                   "<strong>schatting</strong>: dan zie je een uitkomst van een verkeerde grootte meteen."),
             ("p", "Het voorvoegsel <strong>milli</strong> is een <strong>duizendste</strong>, "
                   "<strong>micro</strong> een miljoenste en <strong>nano</strong> een miljardste; "
                   "<strong>kilo</strong> is duizend en <strong>mega</strong> een miljoen. "
-                  "<strong>2,5 kilometer is 2500 meter</strong>."),
+                  r"<strong>\(2{,}5\) kilometer is \(2500\) meter</strong>."),
         ]),
         dict(kop="Eerste hulp: de eerste stappen", blokken=[
             ("p", "Bij een slachtoffer dat <strong>niet reageert</strong> doe je altijd eerst hetzelfde: "
                   "<strong>roep om hulp</strong> en <strong>controleer of het normaal ademt</strong>. Eerst "
                   "kijken en roepen, dan pas handelen. Zo weet je of je moet reanimeren of in zijligging "
                   "moet leggen, en komt er al hulp onderweg."),
-            ("p", "Het noodnummer in België en in heel Europa is <strong>112</strong>, en het is gratis. "
+            ("p", r"Het noodnummer in België en in heel Europa is <strong>\(112\)</strong>, en het is gratis. "
                   "Zet je telefoon op de luidspreker, zodat je handen vrij blijven."),
             ("p", "Reageert het slachtoffer <strong>niet</strong> maar ademt het <strong>wel "
                   "normaal</strong>, dan leg je het in <strong>stabiele zijligging</strong>: zo blijft de "
@@ -2326,7 +2326,7 @@ BUNDELS["veilig-werken-meten-en-levensreddend-handelen-boost-doorstroom"] = dict
                   "persoon en trekt je vuist schuin naar boven, onder het borstbeen. Je blijft "
                   "<strong>rugslagen en buikstoten afwisselen</strong> tot het voorwerp loskomt. Verliest "
                   "de persoon het bewustzijn, dan begin je te <strong>reanimeren</strong>. Laat intussen "
-                  "<strong>112</strong> bellen."),
+                  r"<strong>\(112\)</strong> bellen."),
             ("weetje", "Een leeftijd maakt verschil: bij een baby geef je geen buikstoten maar "
                        "borstcompressies, en de rugslagen zijn veel zachter. Een cursus eerste hulp laat je "
                        "dat op een pop oefenen, en dat is iets anders dan het lezen."),
@@ -2338,7 +2338,7 @@ BUNDELS["veilig-werken-meten-en-levensreddend-handelen-boost-doorstroom"] = dict
         "Het meetbereik is de kleinste en de grootste waarde die een instrument kan meten.",
         "Milli is een duizendste, micro een miljoenste, nano een miljardste; kilo is duizend.",
         "Reageert iemand niet: roep om hulp en controleer of het normaal ademt.",
-        "Het noodnummer in België en in heel Europa is 112.",
+        r"Het noodnummer in België en in heel Europa is \(112\).",
         "Reageert het slachtoffer niet maar ademt het wel normaal: stabiele zijligging.",
         "Reanimatie: dertig hartmassages, vijf tot zes centimeter diep, afwisselen met twee beademingen.",
         "Ernstige verslikking: vijf rugslagen, dan vijf buikstoten, en blijven afwisselen.",
@@ -2368,18 +2368,18 @@ BUNDELS["grootheden-eenheden-en-wetenschappelijk-onderzoek-boost-doorstroom"] = 
             ("p", "De voorvoegsels gaan van <strong>mega</strong> (een miljoen) en "
                   "<strong>kilo</strong> (duizend) over <strong>centi</strong> (een honderdste) en "
                   "<strong>milli</strong> (een duizendste) naar <strong>micro</strong> (een miljoenste) en "
-                  "<strong>nano</strong> (een miljardste). Dus: <strong>0,25 kilogram is 250 gram</strong>, "
-                  "<strong>45 centimeter is 0,45 meter</strong>, en <strong>2 microseconden is 2 maal tien "
-                  "tot de macht min zes seconden</strong>."),
+                  r"<strong>nano</strong> (een miljardste). Dus: <strong>\(0{,}25\) kilogram is \(250\) gram</strong>, "
+                  r"<strong>\(45\) centimeter is \(0{,}45\) meter</strong>, en <strong>\(2\) microseconden is "
+                  r"\(2 \cdot 10^{-6}\) seconden</strong>."),
         ]),
         dict(kop="Nauwkeurig meten", blokken=[
             ("p", "De <strong>beduidende cijfers</strong> van een meetresultaat zijn de cijfers die je "
-                  "echt gemeten hebt. Lees je met een <strong>meetlint 1,2 meter</strong> af, dan heeft "
+                  r"echt gemeten hebt. Lees je met een <strong>meetlint \(1{,}2\) meter</strong> af, dan heeft "
                   "dat resultaat <strong>twee</strong> beduidende cijfers. Meet je met een "
                   "<strong>balans die tot op een gram nauwkeurig is</strong>, dan schrijf je "
-                  "<strong>325 gram</strong> op, <strong>met drie beduidende cijfers</strong>: "
-                  "<strong>325,00 gram ziet er nauwkeuriger uit dan je gemeten hebt</strong>, en "
-                  "afronden tot 300 gram gooit informatie weg die je wel had."),
+                  r"<strong>\(325\) gram</strong> op, <strong>met drie beduidende cijfers</strong>: "
+                  r"<strong>\(325{,}00\) gram ziet er nauwkeuriger uit dan je gemeten hebt</strong>, en "
+                  r"afronden tot \(300\) gram gooit informatie weg die je wel had."),
             ("p", "Een meting is nooit perfect. <strong>Toevallige meetfouten</strong> springen de ene "
                   "keer naar boven en de andere keer naar beneden. Daarom "
                   "<strong>herhaal je een meting een paar keer: om de invloed van toevallige meetfouten "

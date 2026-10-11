@@ -63,10 +63,10 @@ DEEL1 = [
     ),
     dict(
         type="meerkeuze",
-        vraag="Een atoom heeft atoomnummer 11 en massagetal 23. Hoeveel neutronen zitten er in de kern?",
-        opties=["12", "11", "23", "34"],
+        vraag=r"Een atoom heeft atoomnummer \(11\) en massagetal \(23\). Hoeveel neutronen zitten er in de kern?",
+        opties=[r"\(12\)", r"\(11\)", r"\(23\)", r"\(34\)"],
         antwoord=0,
-        uitleg="Het aantal neutronen is het massagetal min het atoomnummer, dus 23 min 11 is 12.",
+        uitleg=r"Het aantal neutronen is het massagetal min het atoomnummer, dus \(23\) min \(11\) is \(12\).",
     ),
     dict(
         type="waarofniet",
@@ -124,12 +124,12 @@ DEEL1 = [
     ),
     dict(
         type="meerkeuze",
-        vraag="Je leest in het PSE bij een element: atoomnummer 17. Wat weet je meteen? Kruis alles aan wat juist is.",
+        vraag=r"Je leest in het PSE bij een element: atoomnummer \(17\). Wat weet je meteen? Kruis alles aan wat juist is.",
         opties=[
-            "de kern bevat 17 protonen",
-            "een neutraal atoom heeft 17 elektronen",
+            r"de kern bevat \(17\) protonen",
+            r"een neutraal atoom heeft \(17\) elektronen",
             "het element staat op de zeventiende plaats in het PSE",
-            "de kern bevat 17 neutronen",
+            r"de kern bevat \(17\) neutronen",
         ],
         antwoord=[0, 1, 2],
         uitleg="Het atoomnummer geeft de protonen, en in een neutraal atoom evenveel elektronen, en de plaats in het systeem. Het aantal neutronen lees je er niet uit af.",
@@ -166,12 +166,12 @@ DEEL1 = [
     ),
     dict(
         type="meerkeuze",
-        vraag="Een deeltje heeft 12 protonen en 10 elektronen. Wat is het?",
+        vraag=r"Een deeltje heeft \(12\) protonen en \(10\) elektronen. Wat is het?",
         opties=[
-            "een positief ion met lading 2 plus",
-            "een negatief ion met lading 2 min",
+            r"een positief ion met lading \(2\) plus",
+            r"een negatief ion met lading \(2\) min",
             "een neutraal atoom van dat element",
-            "een atoom met massagetal 22",
+            r"een atoom met massagetal \(22\)",
         ],
         antwoord=0,
         uitleg="Er zijn twee positieve ladingen meer dan negatieve, dus het deeltje is twee keer positief. Het is een magnesiumion.",
@@ -231,16 +231,16 @@ DEEL2 = [
         type="waarofniet",
         vraag="Het periodenummer geeft het aantal bezette schillen van een atoom.",
         antwoord=True,
-        uitleg="Een element uit periode 3 heeft drie bezette schillen. Daarom worden de atomen naar onder toe groter.",
+        uitleg=r"Een element uit periode \(3\) heeft drie bezette schillen. Daarom worden de atomen naar onder toe groter.",
     ),
     dict(
         type="meerkeuze",
         vraag="Hoeveel elektronen passen er in de eerste en in de tweede schil volgens het model van Bohr?",
         opties=[
-            "2 in de eerste en 8 in de tweede",
-            "8 in de eerste en 8 in de tweede",
-            "2 in de eerste en 2 in de tweede",
-            "8 in de eerste en 18 in de tweede",
+            r"\(2\) in de eerste en \(8\) in de tweede",
+            r"\(8\) in de eerste en \(8\) in de tweede",
+            r"\(2\) in de eerste en \(2\) in de tweede",
+            r"\(8\) in de eerste en \(18\) in de tweede",
         ],
         antwoord=0,
         uitleg="De eerste schil is vol met twee elektronen, de tweede met acht. Daarom hebben helium en neon allebei een volle buitenste schil.",
@@ -253,8 +253,8 @@ DEEL2 = [
     ),
     dict(
         type="meerkeuze",
-        vraag="Wat is de elektronenconfiguratie van een natriumatoom met atoomnummer 11?",
-        opties=["2, 8, 1", "2, 8, 8", "8, 2, 1", "2, 9"],
+        vraag=r"Wat is de elektronenconfiguratie van een natriumatoom met atoomnummer \(11\)?",
+        opties=[r"\(2\), \(8\), \(1\)", r"\(2\), \(8\), \(8\)", r"\(8\), \(2\), \(1\)", r"\(2\), \(9\)"],
         antwoord=0,
         uitleg="Je vult de schillen van binnen naar buiten: eerst twee, dan acht, en de elfde komt alleen in de derde schil. Dat ene buitenste elektron geeft natrium zijn gedrag.",
     ),
@@ -274,7 +274,7 @@ DEEL2 = [
             "daardoor wordt het een atoom van een ander element",
         ],
         antwoord=0,
-        uitleg="Na het afstaan blijft de configuratie 2, 8 over, net die van neon. Het natriumion is daardoor veel stabieler dan het atoom.",
+        uitleg=r"Na het afstaan blijft de configuratie \(2\), \(8\) over, net die van neon. Het natriumion is daardoor veel stabieler dan het atoom.",
     ),
     dict(
         type="meerkeuze",
@@ -296,7 +296,7 @@ DEEL2 = [
     ),
     dict(
         type="meerkeuze",
-        vraag="Een element staat in groep 2 en in periode 4. Wat weet je over zijn atoom?",
+        vraag=r"Een element staat in groep \(2\) en in periode \(4\). Wat weet je over zijn atoom?",
         opties=[
             "het heeft twee valentie-elektronen en vier bezette schillen",
             "het heeft vier valentie-elektronen en twee bezette schillen",
@@ -308,7 +308,7 @@ DEEL2 = [
     ),
     dict(
         type="waarofniet",
-        vraag="De elementen van groep 1 nemen gemakkelijk zeven elektronen op om aan een volle schil te komen.",
+        vraag=r"De elementen van groep \(1\) nemen gemakkelijk zeven elektronen op om aan een volle schil te komen.",
         antwoord=False,
         uitleg="Met één elektron in de buitenste schil is dat ene afstaan veel eenvoudiger dan er zeven opnemen. Daarom zijn die metalen zo reactief.",
     ),
@@ -326,8 +326,8 @@ DEEL2 = [
     ),
     dict(
         type="meerkeuze",
-        vraag="Welke lading krijgt een ion van een element uit groep 2?",
-        opties=["2 plus", "2 min", "1 plus", "6 min"],
+        vraag=r"Welke lading krijgt een ion van een element uit groep \(2\)?",
+        opties=[r"\(2\) plus", r"\(2\) min", r"\(1\) plus", r"\(6\) min"],
         antwoord=0,
         uitleg="Die elementen staan hun twee valentie-elektronen af. Daardoor houden ze twee positieve ladingen over.",
     ),
@@ -370,14 +370,14 @@ DEEL2 = [
     ),
     dict(
         type="meerkeuze",
-        vraag="Je krijgt een deeltje met 17 protonen en 18 elektronen. Hoe noteer je het?",
+        vraag=r"Je krijgt een deeltje met \(17\) protonen en \(18\) elektronen. Hoe noteer je het?",
         opties=[
-            "als een chloride-ion met lading 1 min",
+            r"als een chloride-ion met lading \(1\) min",
             "als een chlooratoom zonder enige lading",
             "als een argonatoom zonder enige lading",
-            "als een chloride-ion met lading 1 plus",
+            r"als een chloride-ion met lading \(1\) plus",
         ],
         antwoord=0,
-        uitleg="Atoomnummer 17 is chloor. Eén elektron te veel geeft één negatieve lading, en zo bereikt het de configuratie van argon.",
+        uitleg=r"Atoomnummer \(17\) is chloor. Eén elektron te veel geeft één negatieve lading, en zo bereikt het de configuratie van argon.",
     ),
 ]

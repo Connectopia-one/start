@@ -35,10 +35,10 @@ DEEL1 = [
     ),
     dict(
         type="meerkeuze",
-        vraag="Je legt 12 volt over een weerstand van 4 ohm. Hoe groot is de stroomsterkte?",
-        opties=["3 ampère", "48 ampère", "0,33 ampère", "8 ampère"],
+        vraag=r"Je legt \(12\) volt over een weerstand van \(4\) ohm. Hoe groot is de stroomsterkte?",
+        opties=[r"\(3\) ampère", r"\(48\) ampère", r"\(0{,}33\) ampère", r"\(8\) ampère"],
         antwoord=0,
-        uitleg="Je deelt de spanning door de weerstand: 12 gedeeld door 4. Een grotere weerstand bij dezelfde spanning geeft dus minder stroom.",
+        uitleg=r"Je deelt de spanning door de weerstand: \(12 : 4\). Een grotere weerstand bij dezelfde spanning geeft dus minder stroom.",
     ),
     dict(
         type="invultekst",
@@ -92,7 +92,7 @@ DEEL1 = [
         type="invultekst",
         vraag="Wat is de eenheid van stroomsterkte?",
         antwoord="ampère",
-        uitleg="Eén ampère is één coulomb per seconde. Een zekering in een woning is meestal op 16 of 20 ampère voorzien.",
+        uitleg=r"Eén ampère is één coulomb per seconde. Een zekering in een woning is meestal op \(16\) of \(20\) ampère voorzien.",
     ),
     dict(
         type="meerkeuze",
@@ -114,10 +114,10 @@ DEEL1 = [
     ),
     dict(
         type="meerkeuze",
-        vraag="Een stroom van 2 ampère loopt door een weerstand van 5 ohm. Welke spanning staat erover?",
-        opties=["10 volt", "2,5 volt", "0,4 volt", "7 volt"],
+        vraag=r"Een stroom van \(2\) ampère loopt door een weerstand van \(5\) ohm. Welke spanning staat erover?",
+        opties=[r"\(10\) volt", r"\(2{,}5\) volt", r"\(0{,}4\) volt", r"\(7\) volt"],
         antwoord=0,
-        uitleg="Je vermenigvuldigt de stroomsterkte met de weerstand: 2 maal 5. Dat volgt rechtstreeks uit de wet van Ohm.",
+        uitleg=r"Je vermenigvuldigt de stroomsterkte met de weerstand: \(2 \cdot 5\). Dat volgt rechtstreeks uit de wet van Ohm.",
     ),
     dict(
         type="meerkeuze",
@@ -193,7 +193,7 @@ DEEL2 = [
             "hoe lang het toestel zonder onderhoud blijft werken",
         ],
         antwoord=0,
-        uitleg="De eenheid is de watt, dus joule per seconde. Een toestel van 2000 watt gebruikt in een uur twee kilowattuur.",
+        uitleg=r"De eenheid is de watt, dus joule per seconde. Een toestel van \(2000\) watt gebruikt in een uur twee kilowattuur.",
     ),
     dict(
         type="meerkeuze",
@@ -281,16 +281,16 @@ DEEL2 = [
     ),
     dict(
         type="meerkeuze",
-        vraag="Een toestel van 1000 watt staat twee uur aan. Hoeveel energie gebruikt het?",
-        opties=["2 kilowattuur", "1 kilowattuur", "500 wattuur", "2000 kilowattuur"],
+        vraag=r"Een toestel van \(1000\) watt staat twee uur aan. Hoeveel energie gebruikt het?",
+        opties=[r"\(2\) kilowattuur", r"\(1\) kilowattuur", r"\(500\) wattuur", r"\(2000\) kilowattuur"],
         antwoord=0,
-        uitleg="Je vermenigvuldigt het vermogen in kilowatt met de tijd in uur: 1 maal 2. Zo komt het ook op je factuur terecht.",
+        uitleg=r"Je vermenigvuldigt het vermogen in kilowatt met de tijd in uur: \(1 \cdot 2\). Zo komt het ook op je factuur terecht.",
     ),
     dict(
         type="waarofniet",
         vraag="Van twee toestellen die hetzelfde werk doen, is het toestel met het kleinste vermogen het zuinigst.",
         antwoord=True,
-        uitleg="Minder vermogen voor dezelfde taak betekent minder energie per seconde. Een ledlamp geeft met 7 watt zo veel licht als een gloeilamp met 60 watt.",
+        uitleg=r"Minder vermogen voor dezelfde taak betekent minder energie per seconde. Een ledlamp geeft met \(7\) watt zo veel licht als een gloeilamp met \(60\) watt.",
     ),
     dict(
         type="meerkeuze",

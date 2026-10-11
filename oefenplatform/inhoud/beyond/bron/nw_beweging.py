@@ -106,7 +106,7 @@ DEEL1 = [
     ),
     dict(
         type="meerkeuze",
-        vraag="Een auto rijdt met een constante snelheid van 50 km per uur op een rechte weg. Welke beweging is dat?",
+        vraag=r"Een auto rijdt met een constante snelheid van \(50\) km per uur op een rechte weg. Welke beweging is dat?",
         opties=["een ERB", "een EVRB", "een ECB", "een vertraagde beweging"],
         antwoord=0,
         uitleg="De snelheid verandert niet en de baan is recht, dus is het een ERB. De resulterende kracht op de auto is daarbij nul.",
@@ -376,14 +376,14 @@ DEEL2 = [
     ),
     dict(
         type="meerkeuze",
-        vraag="Op een voorwerp van 4 kg werkt een resulterende kracht van 12 N. Hoe groot is de versnelling?",
+        vraag=r"Op een voorwerp van \(4\) kg werkt een resulterende kracht van \(12\) N. Hoe groot is de versnelling?",
         opties=[
-            "3 meter per seconde kwadraat",
-            "48 meter per seconde kwadraat",
-            "16 meter per seconde kwadraat",
-            "0,33 meter per seconde kwadraat",
+            r"\(3\) meter per seconde kwadraat",
+            r"\(48\) meter per seconde kwadraat",
+            r"\(16\) meter per seconde kwadraat",
+            r"\(0{,}33\) meter per seconde kwadraat",
         ],
         antwoord=0,
-        uitleg="Je deelt de kracht door de massa, dus 12 gedeeld door 4. Vermenigvuldigen zou de kracht geven, niet de versnelling.",
+        uitleg=r"Je deelt de kracht door de massa, dus \(12 : 4\). Vermenigvuldigen zou de kracht geven, niet de versnelling.",
     ),
 ]

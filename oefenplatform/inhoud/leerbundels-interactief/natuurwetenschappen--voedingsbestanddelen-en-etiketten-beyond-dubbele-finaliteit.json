@@ -75,7 +75,7 @@
     },
     {
      "soort": "tekst",
-     "html": "Staat er <strong>suiker 32 g per 100 g</strong>, dan betekent dat dat <strong>bijna een derde van het product suiker is</strong>. In <strong>een pot van 250 gram zit dan 80 g suiker</strong>: 32 maal 2,5."
+     "html": "Staat er <strong>suiker \\(32\\) g per \\(100\\) g</strong>, dan betekent dat dat <strong>bijna een derde van het product suiker is</strong>. In <strong>een pot van \\(250\\) gram zit dan \\(80\\) g suiker</strong>: \\(32 \\cdot 2{,}5\\)."
     }
    ]
   },
@@ -111,7 +111,7 @@
   "Eiwitten bouwen en herstellen; vetten slaan op, isoleren en nemen vitaminen op.",
   "Calcium voor botten en tanden, ijzer voor hemoglobine.",
   "Ingrediënten staan van meest naar minst; allergenen staan in het vet.",
-  "De energiewaarde staat per 100 g of 100 mL, in kilojoule.",
+  "De energiewaarde staat per \\(100\\) g of \\(100\\) mL, in kilojoule.",
   "Nutriscore gaat over gezondheid, ecoscore over het milieu.",
   "De ecoscore kijkt naar de hele levenscyclus, met bonussen en malussen."
  ]

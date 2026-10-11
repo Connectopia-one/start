@@ -67,7 +67,7 @@ DEEL1 = [
         type="waarofniet",
         vraag="De zygote is diploïd en bevat erfelijk materiaal van beide ouders.",
         antwoord=True,
-        uitleg="Elke ouder levert via zijn geslachtscel één set chromosomen. Samen vormen ze de 46 chromosomen van de zygote.",
+        uitleg=r"Elke ouder levert via zijn geslachtscel één set chromosomen. Samen vormen ze de \(46\) chromosomen van de zygote.",
     ),
     dict(
         type="meerkeuze",
@@ -145,9 +145,9 @@ DEEL1 = [
     dict(
         type="meerkeuze",
         vraag="Vanaf ongeveer welk moment beschouwt men een foetus als levensvatbaar?",
-        opties=["vanaf ongeveer 24 weken zwangerschap", "vanaf ongeveer 8 weken zwangerschap", "vanaf ongeveer 12 weken zwangerschap", "vanaf ongeveer 38 weken zwangerschap"],
+        opties=[r"vanaf ongeveer \(24\) weken zwangerschap", r"vanaf ongeveer \(8\) weken zwangerschap", r"vanaf ongeveer \(12\) weken zwangerschap", r"vanaf ongeveer \(38\) weken zwangerschap"],
         antwoord=0,
-        uitleg="Rond 24 weken zijn de longen ver genoeg ontwikkeld om met zware medische hulp te overleven. Volgroeid is een foetus pas rond 38 à 40 weken.",
+        uitleg=r"Rond \(24\) weken zijn de longen ver genoeg ontwikkeld om met zware medische hulp te overleven. Volgroeid is een foetus pas rond \(38\) à \(40\) weken.",
     ),
     dict(
         type="meerkeuze",

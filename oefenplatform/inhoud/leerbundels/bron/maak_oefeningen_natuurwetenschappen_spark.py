@@ -201,9 +201,9 @@ OEFENBUNDELS["oefenbundel-het-menselijk-lichaam-spark"] = dict(
         dict(kop="De weg van het voedsel",
              opdracht="Zet in volgorde en gebruik de juiste namen.",
              oefeningen=[
-                 ("rij", [("slokdarm", "2"), ("dunne darm", "4"), ("mond", "1"),
-                          ("maag", "3"), ("dikke darm", "5")],
-                  "Zet de weg van het voedsel in volgorde: schrijf 1 tot 5.", WW),
+                 ("rij", [("slokdarm", r"\(2\)"), ("dunne darm", r"\(4\)"), ("mond", r"\(1\)"),
+                          ("maag", r"\(3\)"), ("dikke darm", r"\(5\)")],
+                  r"Zet de weg van het voedsel in volgorde: schrijf \(1\) tot \(5\).", WW),
                  ("rij", [("splitst vetten in kleine druppeltjes", "gal"),
                           ("begint met de vertering van zetmeel", "speeksel"),
                           ("hier worden de voedingsstoffen opgenomen", "de dunne darm"),
@@ -325,10 +325,10 @@ OEFENBUNDELS["oefenbundel-voortplanting-spark"] = dict(
                           ("hier groeit de baby", "de baarmoeder"),
                           ("hier gebeurt de bevruchting meestal", "de eileider")],
                   "Waar gebeurt dit?", WW),
-                 ("rij", [("bevruchte eicel", "1"), ("foetus", "3"), ("embryo", "2"),
-                          ("baby", "4")],
-                  "Zet de ontwikkeling in volgorde: schrijf 1 tot 4.", WW),
-                 ("kort", "Hoelang duurt een menstruatiecyclus gemiddeld?", "28 dagen", W),
+                 ("rij", [("bevruchte eicel", r"\(1\)"), ("foetus", r"\(3\)"), ("embryo", r"\(2\)"),
+                          ("baby", r"\(4\)")],
+                  r"Zet de ontwikkeling in volgorde: schrijf \(1\) tot \(4\).", WW),
+                 ("kort", "Hoelang duurt een menstruatiecyclus gemiddeld?", r"\(28\) dagen", W),
                  ("open", "Waarom verdikt het baarmoederslijmvlies elke cyclus?",
                   "Om een bevruchte eicel te kunnen opvangen en voeden. Komt die er niet, dan "
                   "wordt het slijmvlies afgestoten: dat is de menstruatie.", 4),
@@ -436,7 +436,7 @@ OEFENBUNDELS["oefenbundel-ecologie-en-biodiversiteit-spark"] = dict(
                   "afstand goed te kunnen inschatten.", 5),
                  ("waar", "Kieuwen zijn een aanpassing om zuurstof uit de lucht te halen.",
                   False),
-                 ("open", "Je meet in een bos overdag 300 lux onder de bomen en 20 000 lux op "
+                 ("open", r"Je meet in een bos overdag \(300\) lux onder de bomen en \(20\,000\) lux op "
                           "de open plek. Wat besluit je daaruit over de planten onder de bomen?",
                   "Die planten moeten met heel weinig licht toekomen. Alleen schaduwplanten "
                   "houden dat vol, of planten die bloeien voor de bomen in blad komen.", 4),
@@ -527,48 +527,48 @@ OEFENBUNDELS["oefenbundel-massadichtheid-spark"] = dict(
     hoe=HOE,
     reeksen=[
         dict(kop="De formule",
-             opdracht="ρ = m / V. Schrijf de formule op voor je rekent, en zet de eenheid erbij.",
+             opdracht=r"\(\rho = m / V\). Schrijf de formule op voor je rekent, en zet de eenheid erbij.",
              oefeningen=[
-                 ("rij", [("m = 250 g en V = 50 cm³", "5 g/cm³"),
-                          ("m = 216 g en V = 27 cm³", "8 g/cm³"),
-                          ("m = 45 g en V = 50 cm³", "0,9 g/cm³")],
+                 ("rij", [(r"\(m = 250\) g en \(V = 50\,\text{cm}^{3}\)", r"\(5\) g/\(\text{cm}^{3}\)"),
+                          (r"\(m = 216\) g en \(V = 27\,\text{cm}^{3}\)", r"\(8\) g/\(\text{cm}^{3}\)"),
+                          (r"\(m = 45\) g en \(V = 50\,\text{cm}^{3}\)", r"\(0{,}9\) g/\(\text{cm}^{3}\)")],
                   "Bereken de massadichtheid.", WW),
-                 ("rij", [("4 cm³ zilver (10,5 g/cm³)", "42 g"),
-                          ("2,5 L water (1 g/cm³)", "2 500 g of 2,5 kg"),
-                          ("2 L olie (0,9 g/cm³)", "1 800 g of 1,8 kg")],
+                 ("rij", [(r"\(4\,\text{cm}^{3}\) zilver (\(10{,}5\) g/\(\text{cm}^{3}\))", r"\(42\) g"),
+                          (r"\(2{,}5\) L water (\(1\) g/\(\text{cm}^{3}\))", r"\(2\,500\) g of \(2{,}5\) kg"),
+                          (r"\(2\) L olie (\(0{,}9\) g/\(\text{cm}^{3}\))", r"\(1\,800\) g of \(1{,}8\) kg")],
                   "Bereken de massa.", WW),
-                 ("kort", "IJzer weegt 7,8 g/cm³. Welk volume heeft een stuk van 780 g?",
-                  "100 cm³", W),
-                 ("kort", "Wat is de SI-eenheid van massadichtheid?", "kg/m³", W),
+                 ("kort", r"IJzer weegt \(7{,}8\) g/\(\text{cm}^{3}\). Welk volume heeft een stuk van \(780\) g?",
+                  r"\(100\,\text{cm}^{3}\)", W),
+                 ("kort", "Wat is de SI-eenheid van massadichtheid?", r"kg/\(\text{m}^{3}\)", W),
              ]),
 
         dict(kop="Volume bepalen",
              opdracht="Regelmatig voorwerp: rekenen. Onregelmatig: onderdompelen.",
              oefeningen=[
-                 ("rij", [("kubus met ribbe 3 cm", "27 cm³"),
-                          ("balk 6 cm × 3 cm × 2 cm", "36 cm³"),
-                          ("cilinder met straal 2 cm en hoogte 10 cm (π ≈ 3,14)", "125,6 cm³")],
+                 ("rij", [(r"kubus met ribbe \(3\) cm", r"\(27\,\text{cm}^{3}\)"),
+                          (r"balk \(6\) cm × \(3\) cm × \(2\) cm", r"\(36\,\text{cm}^{3}\)"),
+                          (r"cilinder met straal \(2\) cm en hoogte \(10\) cm \((\pi \approx 3{,}14)\)", r"\(125{,}6\,\text{cm}^{3}\)")],
                   "Bereken het volume.", WW),
-                 ("open", "Het water in een maatcilinder staat op 60 mL. Je laat er een moer in "
-                          "zakken en het staat op 78 mL. De moer weegt 48,6 g. Bereken het "
+                 ("open", r"Het water in een maatcilinder staat op \(60\) mL. Je laat er een moer in "
+                          r"zakken en het staat op \(78\) mL. De moer weegt \(48{,}6\) g. Bereken het "
                           "volume en de massadichtheid.",
-                  "Volume = 78 &minus; 60 = 18 mL = 18 cm³. ρ = 48,6 : 18 = 2,7 g/cm³ "
+                  r"Volume = \(78 - 60 = 18\) mL = \(18\,\text{cm}^{3} \cdot \rho = 48{,}6 : 18 = 2{,}7\) g/\(\text{cm}^{3}\) "
                   "(dat is aluminium).", 5),
-                 ("rij", [("1 L", "1 000 cm³"), ("2 L", "0,002 m³"), ("0,5 m³", "500 L")],
+                 ("rij", [(r"\(1\) L", r"\(1\,000\,\text{cm}^{3}\)"), (r"\(2\) L", r"\(0{,}002\,\text{m}^{3}\)"), (r"\(0{,}5\,\text{m}^{3}\)", r"\(500\) L")],
                   "Zet om.", WW),
-                 ("rij", [("1 g/cm³", "1 000 kg/m³"), ("2 700 kg/m³", "2,7 g/cm³")],
+                 ("rij", [(r"\(1\) g/\(\text{cm}^{3}\)", r"\(1\,000\) kg/\(\text{m}^{3}\)"), (r"\(2\,700\) kg/\(\text{m}^{3}\)", r"\(2{,}7\) g/\(\text{cm}^{3}\)")],
                   "Zet om.", WW),
              ]),
 
         dict(kop="Drijven en zinken",
-             opdracht="Vergelijk telkens met water: 1 g/cm³.",
+             opdracht=r"Vergelijk telkens met water: \(1\) g/\(\text{cm}^{3}\).",
              oefeningen=[
-                 ("rij", [("kurk, 0,24 g/cm³", "drijft"), ("aluminium, 2,7 g/cm³", "zinkt"),
-                          ("olie, 0,9 g/cm³", "drijft"), ("ijs, 0,92 g/cm³", "drijft")],
+                 ("rij", [(r"kurk, \(0{,}24\) g/\(\text{cm}^{3}\)", "drijft"), (r"aluminium, \(2{,}7\) g/\(\text{cm}^{3}\)", "zinkt"),
+                          (r"olie, \(0{,}9\) g/\(\text{cm}^{3}\)", "drijft"), (r"ijs, \(0{,}92\) g/\(\text{cm}^{3}\)", "drijft")],
                   "Drijft of zinkt dit in water?", WW),
-                 ("open", "Een blokje weegt 60 g en heeft een volume van 75 cm³. Drijft het of "
+                 ("open", r"Een blokje weegt \(60\) g en heeft een volume van \(75\,\text{cm}^{3}\). Drijft het of "
                           "zinkt het? Reken het uit.",
-                  "ρ = 60 : 75 = 0,8 g/cm³. Dat is kleiner dan 1, dus het drijft.", 4),
+                  r"\(\rho = 60 : 75 = 0{,}8\) g/\(\text{cm}^{3}\). Dat is kleiner dan \(1\), dus het drijft.", 4),
                  ("open", "Waarom drijft een vetlaag bovenop de soep?",
                   "Vet heeft een kleinere massadichtheid dan water. Bij hetzelfde volume is het "
                   "lichter, dus het blijft bovenaan.", 3),
@@ -579,9 +579,9 @@ OEFENBUNDELS["oefenbundel-massadichtheid-spark"] = dict(
         dict(kop="Denken over massadichtheid",
              opdracht="Antwoord in volle zinnen.",
              oefeningen=[
-                 ("open", "Je meet van drie stukken van dezelfde stof: 10 cm³ weegt 27 g, "
-                          "20 cm³ weegt 54 g, 30 cm³ weegt 81 g. Wat besluit je?",
-                  "De massadichtheid is telkens 2,7 g/cm³. Ze hangt dus niet af van de grootte "
+                 ("open", r"Je meet van drie stukken van dezelfde stof: \(10\,\text{cm}^{3}\) weegt \(27\) g, "
+                          r"\(20\,\text{cm}^{3}\) weegt \(54\) g, \(30\,\text{cm}^{3}\) weegt \(81\) g. Wat besluit je?",
+                  r"De massadichtheid is telkens \(2{,}7\) g/\(\text{cm}^{3}\). Ze hangt dus niet af van de grootte "
                   "van het stuk: het is een stofeigenschap. Massa en volume zijn recht "
                   "evenredig.", 5),
                  ("open", "Je zet massa (y) uit tegenover volume (x) voor twee stoffen. De "
@@ -590,9 +590,9 @@ OEFENBUNDELS["oefenbundel-massadichtheid-spark"] = dict(
                   "heeft de grootste massadichtheid: bij hetzelfde volume weegt A meer.", 5),
                  ("open", "Beschrijf in stappen hoe je de massadichtheid van een onregelmatige "
                           "steen bepaalt.",
-                  "1. Weeg de steen op een weegschaal, dat is m. 2. Vul een maatcilinder met "
-                  "water en lees het niveau af. 3. Laat de steen erin zakken en lees opnieuw "
-                  "af. 4. Het verschil is het volume V. 5. Reken ρ = m : V.", 6),
+                  r"\(1\). Weeg de steen op een weegschaal, dat is m. \(2\). Vul een maatcilinder met "
+                  r"water en lees het niveau af. \(3\). Laat de steen erin zakken en lees opnieuw "
+                  r"af. \(4\). Het verschil is het volume V. \(5\). Reken \(\rho = m\) : V.", 6),
              ]),
     ],
 )
@@ -624,10 +624,10 @@ OEFENBUNDELS["oefenbundel-energie-kracht-en-snelheid-spark"] = dict(
              oefeningen=[
                  ("kort", "Wat is de eenheid van kracht?", "newton (N)", W),
                  ("kort", "Waarmee meet je een kracht?", "een dynamometer", W),
-                 ("rij", [("twee mensen duwen elk 200 N in dezelfde zin", "400 N"),
-                          ("twee kinderen trekken elk 150 N in tegengestelde zin", "0 N, evenwicht")],
+                 ("rij", [(r"twee mensen duwen elk \(200\) N in dezelfde zin", r"\(400\) N"),
+                          (r"twee kinderen trekken elk \(150\) N in tegengestelde zin", r"\(0\) N, evenwicht")],
                   "Hoe groot is de resulterende kracht?", "230px"),
-                 ("waar", "Een kracht van 10 N naar links en een van 10 N naar rechts hebben "
+                 ("waar", r"Een kracht van \(10\) N naar links en een van \(10\) N naar rechts hebben "
                           "dezelfde richting maar een andere zin.", True),
                  ("waar", "Wrijvingskracht werkt altijd in dezelfde zin als de beweging.",
                   False),
@@ -638,26 +638,26 @@ OEFENBUNDELS["oefenbundel-energie-kracht-en-snelheid-spark"] = dict(
              ]),
 
         dict(kop="Snelheid berekenen",
-             opdracht="v = Δx / Δt. Zet minuten eerst om naar seconden.",
+             opdracht=r"\(v = \Delta x / \Delta t\). Zet minuten eerst om naar seconden.",
              oefeningen=[
-                 ("rij", [("150 m in 25 s", "6 m/s"), ("120 km in 1,5 u", "80 km/h"),
-                          ("400 m in 50 s", "8 m/s")],
+                 ("rij", [(r"\(150\) m in \(25\) s", r"\(6\) m/s"), (r"\(120\) km in \(1{,}5\) u", r"\(80\) km/h"),
+                          (r"\(400\) m in \(50\) s", r"\(8\) m/s")],
                   "Bereken de snelheid.", WW),
-                 ("rij", [("15 m/s in km/h", "54 km/h"), ("108 km/h in m/s", "30 m/s"),
-                          ("36 km/h in m/s", "10 m/s")],
+                 ("rij", [(r"\(15\) m/s in km/h", r"\(54\) km/h"), (r"\(108\) km/h in m/s", r"\(30\) m/s"),
+                          (r"\(36\) km/h in m/s", r"\(10\) m/s")],
                   "Zet om.", WW),
-                 ("kort", "Een fietser rijdt 45 s aan 8 m/s. Hoe ver raakt hij?", "360 m", W),
-                 ("kort", "Hoelang doet een wandelaar over 600 m aan 4 m/s?",
-                  "150 s of 2 min 30 s", W),
-                 ("open", "Een auto rijdt het eerste uur 60 km en het tweede uur 80 km. Wat is "
+                 ("kort", r"Een fietser rijdt \(45\) s aan \(8\) m/s. Hoe ver raakt hij?", r"\(360\) m", W),
+                 ("kort", r"Hoelang doet een wandelaar over \(600\) m aan \(4\) m/s?",
+                  r"\(150\) s of \(2\) min \(30\) s", W),
+                 ("open", r"Een auto rijdt het eerste uur \(60\) km en het tweede uur \(80\) km. Wat is "
                           "zijn gemiddelde snelheid?",
-                  "70 km/h. Samen 140 km in 2 uur, dus 140 : 2. Je mag niet zomaar het "
+                  r"\(70\) km/h. Samen \(140\) km in \(2\) uur, dus \(140 : 2\). Je mag niet zomaar het "
                   "gemiddelde van de twee snelheden nemen als de tijden verschillen, hier "
                   "toevallig wel omdat het allebei één uur is.", 5),
-                 ("open", "Waarom zet je een tijdsduur van 5 minuten eerst om naar seconden "
+                 ("open", r"Waarom zet je een tijdsduur van \(5\) minuten eerst om naar seconden "
                           "voor je in m/s rekent?",
                   "Omdat m/s meter per sécónde betekent. Reken je met minuten, dan staat er een "
-                  "andere eenheid in je uitkomst en is je antwoord 60 keer te groot.", 4),
+                  r"andere eenheid in je uitkomst en is je antwoord \(60\) keer te groot.", 4),
              ]),
 
         dict(kop="Grafieken lezen",
@@ -667,9 +667,9 @@ OEFENBUNDELS["oefenbundel-energie-kracht-en-snelheid-spark"] = dict(
                           ("een horizontaal stuk", "stilstand"),
                           ("een steiler stuk", "sneller")],
                   "Wat betekent dit in een grafiek van weg tegenover tijd?", "230px"),
-                 ("open", "In dezelfde grafiek lees je bij 4 s een afstand van 20 m af, op een "
+                 ("open", r"In dezelfde grafiek lees je bij \(4\) s een afstand van \(20\) m af, op een "
                           "rechte door de oorsprong. Wat is de snelheid?",
-                  "5 m/s. De helling van de rechte is de snelheid: 20 m : 4 s.", 3),
+                  r"\(5\) m/s. De helling van de rechte is de snelheid: \(20\) m : \(4\) s.", 3),
                  ("open", "Je legt altijd dezelfde afstand af. Welk verband is er tussen "
                           "snelheid en tijdsduur?",
                   "Omgekeerd evenredig: twee keer zo snel betekent de helft van de tijd. Het "
@@ -711,7 +711,7 @@ OEFENBUNDELS["oefenbundel-veilig-werken-meten-en-eenheden-spark"] = dict(
                           ("een tijdsduur", "chronometer"),
                           ("een kracht", "dynamometer")],
                   "Waarmee meet je dit?", WW),
-                 ("open", "Je moet 25 mL water afmeten. Welk instrument kies je, en hoe lees je "
+                 ("open", r"Je moet \(25\) mL water afmeten. Welk instrument kies je, en hoe lees je "
                           "het correct af?",
                   "Een maatcilinder, niet een bekerglas. Je leest af op ooghoogte, onderaan de "
                   "holle boog van het wateroppervlak (de meniscus).", 4),
@@ -724,13 +724,13 @@ OEFENBUNDELS["oefenbundel-veilig-werken-meten-en-eenheden-spark"] = dict(
                  ("rij", [("lengte", "meter (m)"), ("massa", "kilogram (kg)"),
                           ("tijd", "seconde (s)"), ("temperatuur", "kelvin (K)")],
                   "Wat is de SI-eenheid?", WW),
-                 ("rij", [("3 mm in m", "0,003 m"), ("1,5 kg in g", "1 500 g"),
-                          ("75 cm in m", "0,75 m"), ("250 mL in L", "0,25 L")],
+                 ("rij", [(r"\(3\) mm in m", r"\(0{,}003\) m"), (r"\(1{,}5\) kg in g", r"\(1\,500\) g"),
+                          (r"\(75\) cm in m", r"\(0{,}75\) m"), (r"\(250\) mL in L", r"\(0{,}25\) L")],
                   "Zet om.", WW),
                  ("waar", "De graad Celsius is de SI-eenheid van temperatuur.", False),
-                 ("open", "Een leerling meet de lengte van zijn tafel en schrijft op: 1,2. Wat "
+                 ("open", r"Een leerling meet de lengte van zijn tafel en schrijft op: \(1{,}2\). Wat "
                           "ontbreekt er, en waarom is dat erg?",
-                  "De eenheid. 1,2 kan meter zijn of centimeter of voet; zonder eenheid zegt het "
+                  r"De eenheid. \(1{,}2\) kan meter zijn of centimeter of voet; zonder eenheid zegt het "
                   "getal niets en kan niemand je meting nakijken.", 4),
                  ("kort", "Welke Griekse letter is het symbool voor massadichtheid?",
                   "ρ (rho)", W),
@@ -740,14 +740,14 @@ OEFENBUNDELS["oefenbundel-veilig-werken-meten-en-eenheden-spark"] = dict(
              opdracht="Denk aan nauwkeurigheid en aan een realistische schatting.",
              oefeningen=[
                  ("kies", "Welke schatting van de massa van een appel is realistisch?",
-                  ["15 g", "150 g", "1 500 g"], 1),
-                 ("open", "Je meet dezelfde lengte drie keer: 12,4 cm, 12,5 cm en 12,4 cm. Wat "
+                  [r"\(15\) g", r"\(150\) g", r"\(1\,500\) g"], 1),
+                 ("open", r"Je meet dezelfde lengte drie keer: \(12{,}4\) cm, \(12{,}5\) cm en \(12{,}4\) cm. Wat "
                           "doe je met die resultaten?",
-                  "Je neemt het gemiddelde: (12,4 + 12,5 + 12,4) : 3 ≈ 12,43 cm. Meerdere keren "
+                  r"Je neemt het gemiddelde: \((12{,}4 + 12{,}5 + 12{,}4) : 3 \approx 12{,}43\) cm. Meerdere keren "
                   "meten en middelen maakt toevallige afleesfouten kleiner.", 4),
-                 ("open", "Je weegt een leeg bekerglas (120 g) en daarna hetzelfde glas met "
-                          "water (370 g). Hoeveel water zit erin, en welk volume is dat?",
-                  "250 g water. Water weegt 1 g/cm³, dus dat is 250 cm³ ofwel 250 mL.", 4),
+                 ("open", r"Je weegt een leeg bekerglas (\(120\) g) en daarna hetzelfde glas met "
+                          r"water (\(370\) g). Hoeveel water zit erin, en welk volume is dat?",
+                  r"\(250\) g water. Water weegt \(1\) g/\(\text{cm}^{3}\), dus dat is \(250\,\text{cm}^{3}\) ofwel \(250\) mL.", 4),
                  ("open", "Waarom schakel je een meettoestel uit als je even niet meet?",
                   "Om energie te sparen en de batterij te sparen. Dat hoort bij duurzaam "
                   "werken.", 3),
@@ -764,9 +764,9 @@ OEFENBUNDELS["oefenbundel-wetenschappelijk-onderzoek-spark"] = dict(
         dict(kop="De stappen",
              opdracht="Zet in volgorde en gebruik de juiste namen.",
              oefeningen=[
-                 ("rij", [("data verzamelen", "3"), ("onderzoeksvraag opstellen", "1"),
-                          ("conclusie trekken", "4"), ("onderzoeksplan maken", "2")],
-                  "Zet in volgorde: schrijf 1 tot 4.", WW),
+                 ("rij", [("data verzamelen", r"\(3\)"), ("onderzoeksvraag opstellen", r"\(1\)"),
+                          ("conclusie trekken", r"\(4\)"), ("onderzoeksplan maken", r"\(2\)")],
+                  r"Zet in volgorde: schrijf \(1\) tot \(4\).", WW),
                  ("kort", "Hoe noem je een verwachting die je vooraf opschrijft en daarna "
                           "toetst?", "een hypothese", W),
                  ("waar", "Als je hypothese niet uitkomt, is je onderzoek mislukt.", False),
@@ -781,12 +781,12 @@ OEFENBUNDELS["oefenbundel-wetenschappelijk-onderzoek-spark"] = dict(
                  ("rij", [("Hoeveel poten heeft een spin?", "opzoekvraag, niet te onderzoeken"),
                           ("Is een elektrische auto niet beter?", "niet objectief"),
                           ("Groeien planten sneller met meer licht én meer mest?", "niet enkelvoudig"),
-                          ("Hoeveel cm groeit tuinkers in 7 dagen bij 5 en bij 10 uur licht?", "goed")],
+                          (r"Hoeveel cm groeit tuinkers in \(7\) dagen bij \(5\) en bij \(10\) uur licht?", "goed")],
                   "Wat schort eraan? Schrijf kort.", "230px"),
                  ("open", "Herschrijf 'Groeien planten sneller met meer licht en meer mest?' tot "
                           "een goede onderzoeksvraag.",
-                  "Bijvoorbeeld: 'Hoeveel cm groeit een tuinkersplantje in zeven dagen bij 4 uur "
-                  "licht per dag, vergeleken met 8 uur licht per dag?' Eén ding tegelijk, "
+                  r"Bijvoorbeeld: 'Hoeveel cm groeit een tuinkersplantje in zeven dagen bij \(4\) uur "
+                  r"licht per dag, vergeleken met \(8\) uur licht per dag?' Eén ding tegelijk, "
                   "meetbaar en haalbaar.", 5),
                  ("open", "Je test of planten sneller groeien met meer licht. Noem vier dingen "
                           "die je gelijk moet houden.",
@@ -810,7 +810,7 @@ OEFENBUNDELS["oefenbundel-wetenschappelijk-onderzoek-spark"] = dict(
                   "Je verandert twee dingen tegelijk. Groeit die plant sneller, dan weet je niet "
                   "of dat door de mest of door het licht komt.", 4),
                  ("open", "Wat is het verschil tussen een waarneming en een besluit?",
-                  "Een waarneming is wat je ziet of meet ('de plant is 8 cm gegroeid'). Een "
+                  r"Een waarneming is wat je ziet of meet ('de plant is \(8\) cm gegroeid'). Een "
                   "besluit is wat je daaruit afleidt ('meer licht doet tuinkers sneller "
                   "groeien').", 4),
              ]),
@@ -818,17 +818,17 @@ OEFENBUNDELS["oefenbundel-wetenschappelijk-onderzoek-spark"] = dict(
         dict(kop="Formules en verbanden",
              opdracht="Reken met de formule, of lees het verband uit de tabel.",
              oefeningen=[
-                 ("rij", [("uit v = Δx / Δt: schrijf Δt", "Δt = Δx / v"),
-                          ("uit ρ = m / V: schrijf m", "m = ρ × V"),
-                          ("uit ρ = m / V: schrijf V", "V = m / ρ")],
+                 ("rij", [(r"uit \(v = \Delta x / \Delta t\): schrijf Δt", r"\(\Delta t = \Delta x / v\)"),
+                          (r"uit \(\rho = m / V\): schrijf m", r"\(m = \rho \times V\)"),
+                          (r"uit \(\rho = m / V\): schrijf V", r"\(V = m / \rho\)")],
                   "Vorm de formule om.", "230px"),
-                 ("open", "Uit een tabel lees je: bij 10 °C duurt het 40 min, bij 20 °C 20 min, "
-                          "bij 40 °C 10 min. Welk verband is dat, en hoe zie je dat?",
+                 ("open", r"Uit een tabel lees je: bij \(10^{\circ}\text{C}\) duurt het \(40\) min, bij \(20^{\circ}\text{C}\,20\) min, "
+                          r"bij \(40^{\circ}\text{C}\,10\) min. Welk verband is dat, en hoe zie je dat?",
                   "Omgekeerd evenredig: telkens als de temperatuur verdubbelt, halveert de "
-                  "tijd. Het product temperatuur × tijd blijft 400.", 4),
+                  r"tijd. Het product temperatuur × tijd blijft \(400\).", 4),
                  ("waar", "Een grafiek met een rechte door de oorsprong wijst op een recht "
                           "evenredig verband.", True),
-                 ("open", "Je meet afkoelend water: 80 °C, 60 °C, 45 °C, 35 °C, 30 °C, telkens "
+                 ("open", r"Je meet afkoelend water: \(80^{\circ}\text{C}\), \(60^{\circ}\text{C}\), \(45^{\circ}\text{C}\), \(35^{\circ}\text{C}\), \(30^{\circ}\text{C}\), telkens "
                           "na vijf minuten. Wat zie je in de grafiek?",
                   "Een dalende lijn die steeds vlakker wordt. Het water koelt in het begin snel "
                   "af en daarna trager, want het verschil met de kamertemperatuur wordt "

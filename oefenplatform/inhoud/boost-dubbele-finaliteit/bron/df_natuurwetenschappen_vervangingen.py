@@ -143,12 +143,12 @@ VERVANGINGEN.update(
         ),
         "Hoe reken je de absolute massa van een atoom uit?": dict(
             type="meerkeuze",
-            vraag="Hoe noteer je de elektronenconfiguratie van een zwavelatoom met atoomnummer 16?",
+            vraag=r"Hoe noteer je de elektronenconfiguratie van een zwavelatoom met atoomnummer \(16\)?",
             opties=[
-                "2, 8, 6",
-                "2, 8, 8",
-                "8, 6, 2",
-                "2, 6, 8",
+                r"\(2\), \(8\), \(6\)",
+                r"\(2\), \(8\), \(8\)",
+                r"\(8\), \(6\), \(2\)",
+                r"\(2\), \(6\), \(8\)",
             ],
             antwoord=0,
             uitleg="Je vult de schillen van binnen naar buiten: eerst twee elektronen, dan acht, en de zes die overblijven komen in de derde schil. Samen zijn dat de zestien elektronen.",
@@ -183,13 +183,13 @@ VERVANGINGEN.update(
             type="meerkeuze",
             vraag="Hoeveel joule is één kilowattuur?",
             opties=[
-                "3 600 000 joule",
-                "1000 joule",
-                "3600 joule",
-                "60 000 joule",
+                r"\(3\,600\,000\) joule",
+                r"\(1000\) joule",
+                r"\(3600\) joule",
+                r"\(60\,000\) joule",
             ],
             antwoord=0,
-            uitleg="Een kilowattuur is duizend watt gedurende één uur, dus 1000 joule per seconde maal 3600 seconden. Daarom reken je op je elektriciteitsfactuur in kilowattuur en niet in joule.",
+            uitleg=r"Een kilowattuur is duizend watt gedurende één uur, dus \(1000\) joule per seconde maal \(3600\) seconden. Daarom reken je op je elektriciteitsfactuur in kilowattuur en niet in joule.",
         ),
         "Een kracht die loodrecht op de verplaatsing staat, verricht geen arbeid.": dict(
             type="waarofniet",
@@ -221,7 +221,7 @@ VERVANGINGEN.update(
             antwoord=0,
             uitleg="Het aardgas bevat chemische energie. Bij de verbranding komt die vrij als warmte, en een deel ervan gaat als licht en als warme lucht naast de pot verloren.",
         ),
-        "Je duwt een doos van 3 meter ver met een kracht van 40 newton in de zin van de beweging. Hoeveel arbeid verricht je?": dict(
+        r"Je duwt een doos van \(3\) meter ver met een kracht van \(40\) newton in de zin van de beweging. Hoeveel arbeid verricht je?": dict(
             type="meerkeuze",
             vraag="Je zet de deur van de koelkast open in een afgesloten keuken en laat ze zo staan. Wat gebeurt er met de temperatuur in de keuken?",
             opties=[
@@ -245,17 +245,17 @@ VERVANGINGEN.update(
             antwoord=0,
             uitleg="Het licht van de zon is stralingsenergie. Een deel ervan wordt elektrische energie, de rest warmt het paneel op en is dus niet nuttig.",
         ),
-        "Een voorwerp van 2 kilogram beweegt met 3 meter per seconde. Hoeveel kinetische energie heeft het?": dict(
+        r"Een voorwerp van \(2\) kilogram beweegt met \(3\) meter per seconde. Hoeveel kinetische energie heeft het?": dict(
             type="meerkeuze",
-            vraag="Een lamp van 10 watt brandt een half uur. Hoeveel energie zet ze om?",
+            vraag=r"Een lamp van \(10\) watt brandt een half uur. Hoeveel energie zet ze om?",
             opties=[
-                "18 000 joule",
-                "300 joule",
-                "5 joule",
-                "36 000 joule",
+                r"\(18\,000\) joule",
+                r"\(300\) joule",
+                r"\(5\) joule",
+                r"\(36\,000\) joule",
             ],
             antwoord=0,
-            uitleg="Uit P = |ΔE| / Δt volgt ΔE = P · Δt. Een half uur is 1800 seconden, en 10 watt maal 1800 seconden is 18 000 joule.",
+            uitleg=r"Uit P = |ΔE| / Δt volgt \(\Delta E = P \cdot \Delta t\). Een half uur is \(1800\) seconden, en \(10\) watt maal \(1800\) seconden is \(18\,000\) joule.",
         ),
         "Wie twee keer zo snel rijdt, heeft vier keer zo veel kinetische energie.": dict(
             type="waarofniet",
@@ -273,23 +273,23 @@ VERVANGINGEN.update(
                 "de nuttige energie vermenigvuldigen met de tijdsduur",
             ],
             antwoord=0,
-            uitleg="Dat is de formule η = Enuttig / Etotaal. Je krijgt een getal tussen 0 en 1, dat je met honderd vermenigvuldigt om het als een percentage te schrijven.",
+            uitleg=r"Dat is de formule η = Enuttig / Etotaal. Je krijgt een getal tussen \(0\) en \(1\), dat je met honderd vermenigvuldigt om het als een percentage te schrijven.",
         ),
-        "Een bal van 1 kilogram valt van 5 meter hoog. Hoeveel kinetische energie heeft hij net voor de bodem, met 10 newton per kilogram?": dict(
+        r"Een bal van \(1\) kilogram valt van \(5\) meter hoog. Hoeveel kinetische energie heeft hij net voor de bodem, met \(10\) newton per kilogram?": dict(
             type="meerkeuze",
-            vraag="Een waterkoker neemt 150 000 joule op en daarvan gaat 120 000 joule naar het water. Wat is het rendement?",
+            vraag=r"Een waterkoker neemt \(150\,000\) joule op en daarvan gaat \(120\,000\) joule naar het water. Wat is het rendement?",
             opties=[
-                "80 procent",
-                "20 procent",
-                "125 procent",
-                "30 procent",
+                r"\(80\) procent",
+                r"\(20\) procent",
+                r"\(125\) procent",
+                r"\(30\) procent",
             ],
             antwoord=0,
-            uitleg="120 000 gedeeld door 150 000 is 0,8, dus tachtig procent. De andere 30 000 joule warmt de kan, het water dat achterblijft en de lucht errond op.",
+            uitleg=r"\(120\,000 : 150\,000\) is \(0{,}8\), dus tachtig procent. De andere \(30\,000\) joule warmt de kan, het water dat achterblijft en de lucht errond op.",
         ),
         "Welke uitspraken over de energiebalans van een slingerende schommel zijn juist? Kruis alles aan wat juist is.": dict(
             type="meerkeuze",
-            vraag="Welke uitspraken over een gloeilamp van 60 watt zijn juist? Kruis alles aan wat juist is.",
+            vraag=r"Welke uitspraken over een gloeilamp van \(60\) watt zijn juist? Kruis alles aan wat juist is.",
             opties=[
                 "ze zet elektrische energie om in licht en in warmte",
                 "het grootste deel van de energie komt vrij als warmte",
@@ -389,7 +389,7 @@ VERVANGINGEN.update(
             type="waarofniet",
             vraag="Warmte en temperatuur zijn twee woorden voor dezelfde grootheid.",
             antwoord=False,
-            uitleg="Temperatuur zegt hoe snel de deeltjes bewegen, warmte is de energie die van het ene systeem naar het andere gaat. Een bad van 30 graden geeft meer warmte af dan een kopje van 30 graden.",
+            uitleg=r"Temperatuur zegt hoe snel de deeltjes bewegen, warmte is de energie die van het ene systeem naar het andere gaat. Een bad van \(30\) graden geeft meer warmte af dan een kopje van \(30\) graden.",
         ),
         "Waarom voelt een tegelvloer kouder aan dan een tapijt bij dezelfde temperatuur?": dict(
             type="meerkeuze",
@@ -403,7 +403,7 @@ VERVANGINGEN.update(
             antwoord=0,
             uitleg="Bij het stollen geeft een stof warmte af. Het water dat op de knoppen bevriest houdt ze zo rond nul graden, net warm genoeg om de vorstschade te voorkomen.",
         ),
-        "Je verwarmt 2 kilogram water van 20 naar 30 graden. De specifieke warmtecapaciteit is 4180 joule per kilogram per graad. Hoeveel warmte is dat?": dict(
+        r"Je verwarmt \(2\) kilogram water van \(20\) naar \(30\) graden. De specifieke warmtecapaciteit is \(4180\) joule per kilogram per graad. Hoeveel warmte is dat?": dict(
             type="meerkeuze",
             vraag="Waarom isoleert men de buitenmuren en het dak van een huis?",
             opties=[
@@ -419,7 +419,7 @@ VERVANGINGEN.update(
             type="waarofniet",
             vraag="Een voorwerp met een hogere temperatuur bevat altijd meer warmte dan een voorwerp met een lagere temperatuur.",
             antwoord=False,
-            uitleg="Het hangt ook af van de massa en de stof. Een kopje thee van 80 graden geeft veel minder warmte af dan een vol bad van 40 graden.",
+            uitleg=r"Het hangt ook af van de massa en de stof. Een kopje thee van \(80\) graden geeft veel minder warmte af dan een vol bad van \(40\) graden.",
         ),
         "Waarom stijgt warme lucht in een kamer naar het plafond?": dict(
             type="meerkeuze",
@@ -439,7 +439,7 @@ VERVANGINGEN.update(
             antwoord=["cohesiekrachten", "cohesiekracht", "cohesie"],
             uitleg="Om een vloeistof te laten verdampen, moet je die cohesiekrachten overwinnen. De energie daarvoor gaat naar de inwendige potentiële energie, niet naar de temperatuur.",
         ),
-        "Je giet een liter water van 80 graden bij een liter water van 20 graden. Wat wordt de eindtemperatuur ongeveer?": dict(
+        r"Je giet een liter water van \(80\) graden bij een liter water van \(20\) graden. Wat wordt de eindtemperatuur ongeveer?": dict(
             type="meerkeuze",
             vraag="Je roert koude melk in warme koffie. Wat zegt de warmtebalans over die twee?",
             opties=[
@@ -469,7 +469,7 @@ VERVANGINGEN.update(
             antwoord=["smeltpunt", "het smeltpunt"],
             uitleg="Bij een zuivere stof is het smeltpunt een vaste temperatuur, en het stolpunt ligt op diezelfde waarde. Voor water is dat nul graden.",
         ),
-        "Hoeveel warmte heb je nodig om 0,5 kilogram ijs te smelten, met 334 000 joule per kilogram?": dict(
+        r"Hoeveel warmte heb je nodig om \(0{,}5\) kilogram ijs te smelten, met \(334\,000\) joule per kilogram?": dict(
             type="meerkeuze",
             vraag="Waarom blijft een drankje met ijsblokjes erin lang koud?",
             opties=[
@@ -517,7 +517,7 @@ VERVANGINGEN.update(
             type="waarofniet",
             vraag="Een kracht heeft niet alleen een grootte, maar ook een richting en een zin.",
             antwoord=True,
-            uitleg="Daarom is een kracht een vectoriële grootheid. Twee krachten van 10 newton kunnen elkaar opheffen of samen 20 newton geven, afhankelijk van hun zin.",
+            uitleg=r"Daarom is een kracht een vectoriële grootheid. Twee krachten van \(10\) newton kunnen elkaar opheffen of samen \(20\) newton geven, afhankelijk van hun zin.",
         ),
         "Je gooit een bal recht naar boven. Wat gebeurt er in het hoogste punt?": dict(
             type="meerkeuze",
@@ -537,17 +537,17 @@ VERVANGINGEN.update(
             antwoord=["aangrijpingspunt", "het aangrijpingspunt"],
             uitleg="Het aangrijpingspunt is een van de vier kenmerken van een kracht. In een tekening begint de pijl van de kracht daar.",
         ),
-        "Een steen valt uit stilstand. Welke snelheid heeft hij na 2 seconden, met 10 meter per seconde kwadraat als valversnelling?": dict(
+        r"Een steen valt uit stilstand. Welke snelheid heeft hij na \(2\) seconden, met \(10\) meter per seconde kwadraat als valversnelling?": dict(
             type="meerkeuze",
-            vraag="Twee mensen duwen een kast in dezelfde zin, de een met 80 en de ander met 50 newton. Hoe groot is de resulterende kracht?",
+            vraag=r"Twee mensen duwen een kast in dezelfde zin, de een met \(80\) en de ander met \(50\) newton. Hoe groot is de resulterende kracht?",
             opties=[
-                "130 newton",
-                "30 newton",
-                "65 newton",
-                "80 newton",
+                r"\(130\) newton",
+                r"\(30\) newton",
+                r"\(65\) newton",
+                r"\(80\) newton",
             ],
             antwoord=0,
-            uitleg="Krachten op één lijn en in dezelfde zin tel je op. Zouden ze tegen elkaar in duwen, dan zou je ze van elkaar aftrekken en 30 newton overhouden.",
+            uitleg=r"Krachten op één lijn en in dezelfde zin tel je op. Zouden ze tegen elkaar in duwen, dan zou je ze van elkaar aftrekken en \(30\) newton overhouden.",
         ),
         "Bij een verticale worp naar boven is de versnelling tijdens het opgaan naar boven gericht.": dict(
             type="waarofniet",
@@ -585,7 +585,7 @@ VERVANGINGEN.update(
             antwoord=0,
             uitleg="De normaalkracht staat altijd loodrecht op het oppervlak. Op een vlakke vloer wijst ze dus recht naar boven, op een helling schuin weg van de helling.",
         ),
-        "Een voorwerp van 5 kilogram hangt stil aan een veer. Hoe groot is de veerkracht, met 10 newton per kilogram?": dict(
+        r"Een voorwerp van \(5\) kilogram hangt stil aan een veer. Hoe groot is de veerkracht, met \(10\) newton per kilogram?": dict(
             type="meerkeuze",
             vraag="Welke kracht laat een raket vooruitgaan?",
             opties=[
@@ -627,19 +627,19 @@ VERVANGINGEN.update(
             antwoord=[0, 1, 2],
             uitleg="Een normaalkracht bestaat alleen zolang het vliegtuig op een oppervlak rust. In de lucht blijven de stuwkracht, de zwaartekracht, de luchtwrijving en de draagkracht van de vleugels over.",
         ),
-        "Een veer rekt 4 centimeter uit bij een kracht van 20 newton. Wat is de veerconstante?": dict(
+        r"Een veer rekt \(4\) centimeter uit bij een kracht van \(20\) newton. Wat is de veerconstante?": dict(
             type="meerkeuze",
-            vraag="Twee krachten van 60 en 25 newton werken op hetzelfde punt op één lijn, maar in tegengestelde zin. Hoe groot is de resulterende kracht?",
+            vraag=r"Twee krachten van \(60\) en \(25\) newton werken op hetzelfde punt op één lijn, maar in tegengestelde zin. Hoe groot is de resulterende kracht?",
             opties=[
-                "35 newton",
-                "85 newton",
-                "60 newton",
-                "1500 newton",
+                r"\(35\) newton",
+                r"\(85\) newton",
+                r"\(60\) newton",
+                r"\(1500\) newton",
             ],
             antwoord=0,
             uitleg="Op één lijn en in tegengestelde zin trek je de grootten van elkaar af. De zin van de resulterende kracht is die van de grootste van de twee.",
         ),
-        "Hoeveel newton is de zwaartekracht op een massa van 2 kilogram, met 10 newton per kilogram?": dict(
+        r"Hoeveel newton is de zwaartekracht op een massa van \(2\) kilogram, met \(10\) newton per kilogram?": dict(
             type="invultekst",
             vraag="Hoe noem je de kracht waarmee een veer terugduwt als je ze indrukt?",
             antwoord=["veerkracht", "de veerkracht"],
@@ -649,7 +649,7 @@ VERVANGINGEN.update(
 )
 
 # ───────────────────────────── Druk: geen hydrostatische druk, geen beginsel
-# van Pascal en geen gaswetten met de kelvinschaal. Wel p = F / A, de gasdruk
+# van Pascal en geen gaswetten met de kelvinschaal. Wel \(p = F / A\), de gasdruk
 # volgens het deeltjesmodel, de manometer en de barometer, de overdruk en de
 # onderdruk, en de toepassingen die de fiche opsomt.
 VERVANGINGEN.update(
@@ -676,7 +676,7 @@ VERVANGINGEN.update(
             type="waarofniet",
             vraag="Je meet druk in pascal, en honderd pascal is één hectopascal.",
             antwoord=True,
-            uitleg="Hecto betekent honderd, kilo betekent duizend. Een weerbericht spreekt over 1013 hectopascal, en dat is hetzelfde als 101 300 pascal.",
+            uitleg=r"Hecto betekent honderd, kilo betekent duizend. Een weerbericht spreekt over \(1013\) hectopascal, en dat is hetzelfde als \(101\,300\) pascal.",
         ),
         "Wat zegt het beginsel van Pascal?": dict(
             type="meerkeuze",
@@ -726,21 +726,21 @@ VERVANGINGEN.update(
             antwoord=True,
             uitleg="De deeltjes gaan sneller bewegen en botsen daardoor vaker en harder tegen de wand. Op een spuitbus staat daarom dat je ze niet mag verwarmen.",
         ),
-        "Hoeveel kelvin is 27 graden Celsius?": dict(
+        r"Hoeveel kelvin is \(27\) graden Celsius?": dict(
             type="meerkeuze",
             vraag="Hoeveel pascal is één kilopascal?",
             opties=[
-                "1000 pascal",
-                "100 pascal",
-                "10 pascal",
-                "1 000 000 pascal",
+                r"\(1000\) pascal",
+                r"\(100\) pascal",
+                r"\(10\) pascal",
+                r"\(1\,000\,000\) pascal",
             ],
             antwoord=0,
             uitleg="Kilo betekent duizend. De druk van een fietsband schrijf je daarom liever in kilopascal of in bar dan in pascal, want in pascal krijg je heel grote getallen.",
         ),
         "Hoe noem je de temperatuurschaal die bij het absolute nulpunt begint?": dict(
             type="invultekst",
-            vraag="Hoe noem je de druk van de lucht rond ons, die op zeeniveau ongeveer 1013 hectopascal is?",
+            vraag=r"Hoe noem je de druk van de lucht rond ons, die op zeeniveau ongeveer \(1013\) hectopascal is?",
             antwoord=["luchtdruk", "atmosferische druk", "de luchtdruk"],
             uitleg="De luchtdruk komt van het gewicht van de lucht boven ons. Een barometer meet hem, en een dalende luchtdruk kondigt vaak slechter weer aan.",
         ),
@@ -778,19 +778,19 @@ VERVANGINGEN.update(
             type="invultekst",
             vraag="Welke grootheid deel je door de oppervlakte om de druk te krijgen?",
             antwoord=["kracht", "de kracht"],
-            uitleg="De formule is p = F / A, dus druk is de grootte van de kracht per oppervlakte. Dezelfde kracht op een kleiner oppervlak geeft dus een grotere druk.",
+            uitleg=r"De formule is \(p = F / A\), dus druk is de grootte van de kracht per oppervlakte. Dezelfde kracht op een kleiner oppervlak geeft dus een grotere druk.",
         ),
-        "Een gas van 2 liter bij 1 bar wordt bij gelijke temperatuur tot 1 liter samengeperst. Wat is de druk?": dict(
+        r"Een gas van \(2\) liter bij \(1\) bar wordt bij gelijke temperatuur tot \(1\) liter samengeperst. Wat is de druk?": dict(
             type="meerkeuze",
-            vraag="Je duwt met 600 newton op een oppervlak van 0,2 vierkante meter. Hoe groot is de druk?",
+            vraag=r"Je duwt met \(600\) newton op een oppervlak van \(0{,}2\) vierkante meter. Hoe groot is de druk?",
             opties=[
-                "3000 pascal",
-                "120 pascal",
-                "300 pascal",
-                "30 000 pascal",
+                r"\(3000\) pascal",
+                r"\(120\) pascal",
+                r"\(300\) pascal",
+                r"\(30\,000\) pascal",
             ],
             antwoord=0,
-            uitleg="Je deelt de kracht door de oppervlakte: 600 newton gedeeld door 0,2 vierkante meter is 3000 pascal, of 3 kilopascal.",
+            uitleg=r"Je deelt de kracht door de oppervlakte: \(600\) newton gedeeld door \(0{,}2\) vierkante meter is \(3000\) pascal, of \(3\) kilopascal.",
         ),
         "Een reëel gas gedraagt zich precies zoals een ideaal gas, bij elke druk en temperatuur.": dict(
             type="waarofniet",
@@ -810,7 +810,7 @@ VERVANGINGEN.update(
             antwoord=0,
             uitleg="Warme lucht in de band betekent sneller bewegende deeltjes en dus een hogere druk. Een band die je in de zomer tot de bovengrens oppompt, staat daarna te hard.",
         ),
-        "Een gas van 300 kelvin bij 1 bar wordt in een gesloten vat tot 600 kelvin verwarmd. Wat is de druk?": dict(
+        r"Een gas van \(300\) kelvin bij \(1\) bar wordt in een gesloten vat tot \(600\) kelvin verwarmd. Wat is de druk?": dict(
             type="meerkeuze",
             vraag="Waarom kan een gasfles ontploffen als ze in de volle zon staat?",
             opties=[
@@ -826,7 +826,7 @@ VERVANGINGEN.update(
             type="waarofniet",
             vraag="Je kan de druk op een oppervlak kleiner maken door het oppervlak te vergroten of de kracht te verkleinen.",
             antwoord=True,
-            uitleg="Dat volgt rechtstreeks uit p = F / A. Een rugzak met brede banden is daar een voorbeeld van: dezelfde kracht, maar over meer schouder verdeeld.",
+            uitleg=r"Dat volgt rechtstreeks uit \(p = F / A\). Een rugzak met brede banden is daar een voorbeeld van: dezelfde kracht, maar over meer schouder verdeeld.",
         ),
         "Welke uitspraken over het absolute nulpunt zijn juist? Kruis alles aan wat juist is.": dict(
             type="meerkeuze",
@@ -840,11 +840,11 @@ VERVANGINGEN.update(
             antwoord=[0, 1, 2],
             uitleg="De deeltjes bewegen in alle richtingen, dus duwt het gas overal even hard tegen de wand. Vaker of harder botsen betekent meer druk.",
         ),
-        "Hoeveel graden Celsius is 273 kelvin?": dict(
+        r"Hoeveel graden Celsius is \(273\) kelvin?": dict(
             type="invultekst",
             vraag="Hoeveel pascal is één hectopascal?",
             antwoord=["100", "honderd"],
-            uitleg="Hecto betekent honderd. De 1013 hectopascal van het weerbericht zijn dus 101 300 pascal.",
+            uitleg=r"Hecto betekent honderd. De \(1013\) hectopascal van het weerbericht zijn dus \(101\,300\) pascal.",
         ),
         # Dezelfde vraag, maar de uitleg noemde een isobaar proces. Dat woord
         # hoort bij de gaswetten en staat niet in deze fiche.

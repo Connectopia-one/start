@@ -8,7 +8,7 @@
    "blokken": [
     {
      "soort": "tekst",
-     "html": "Een <strong>enkelvoudige stof</strong> is <strong>een stof die uit maar één soort atomen bestaat</strong>. <strong>Zuurstofgas</strong>, <strong>waterstofgas</strong> en <strong>ozon</strong> zijn dus enkelvoudig; <strong>koolstofdioxide</strong> is samengesteld, want de <strong>formule CO2 bevat twee verschillende elementen</strong>."
+     "html": "Een <strong>enkelvoudige stof</strong> is <strong>een stof die uit maar één soort atomen bestaat</strong>. <strong>Zuurstofgas</strong>, <strong>waterstofgas</strong> en <strong>ozon</strong> zijn dus enkelvoudig; <strong>koolstofdioxide</strong> is samengesteld, want de <strong>formule CO₂ bevat twee verschillende elementen</strong>."
     },
     {
      "soort": "tekst",
@@ -25,11 +25,11 @@
     },
     {
      "soort": "tekst",
-     "html": "In een formule staat de <strong>index</strong> klein achteraan en zegt hoeveel atomen van dat element in één deeltje zitten; de <strong>coëfficiënt</strong> staat vooraan en zegt hoeveel van die deeltjes je neemt. In <strong>3 H2O</strong> is de <strong>index 2 en de coëfficiënt 3</strong>."
+     "html": "In een formule staat de <strong>index</strong> klein achteraan en zegt hoeveel atomen van dat element in één deeltje zitten; de <strong>coëfficiënt</strong> staat vooraan en zegt hoeveel van die deeltjes je neemt. In <strong>3 H₂O</strong> is de <strong>index \\(2\\) en de coëfficiënt \\(3\\)</strong>."
     },
     {
      "soort": "kader",
-     "html": "<p>Atomen tellen in <strong>2 H2SO4</strong>: per deeltje 2 waterstof, 1 zwavel en 4 zuurstof, dat is 7 atomen. Twee van die deeltjes maakt <strong>14</strong> atomen in totaal.</p>"
+     "html": "<p>Atomen tellen in <strong>2 H₂SO₄</strong>: per deeltje \\(2\\) waterstof, \\(1\\) zwavel en \\(4\\) zuurstof, dat is \\(7\\) atomen. Twee van die deeltjes maakt <strong>\\(14\\)</strong> atomen in totaal.</p>"
     }
    ]
   },
@@ -92,11 +92,11 @@
     },
     {
      "soort": "kader",
-     "html": "<p>H2 + O2 geeft H2O wordt kloppend als <strong>2 H2 + O2 geeft 2 H2O</strong>: links 4 waterstof en 2 zuurstof, rechts ook.</p>"
+     "html": "<p>H₂ + O₂ geeft H₂O wordt kloppend als <strong>2 H₂ + O₂ geeft 2 H₂O</strong>: links 4 waterstof en 2 zuurstof, rechts ook.</p>"
     },
     {
      "soort": "tekst",
-     "html": "In <strong>2 Mg + O2 geeft 2 MgO</strong> geldt: <strong>links en rechts staan twee magnesiumatomen</strong>, <strong>links en rechts staan twee zuurstofatomen</strong> en <strong>magnesium en zuurstofgas zijn de reagentia</strong>. Er ontstaat <strong>maar één reactieproduct</strong>, geen twee."
+     "html": "In <strong>2 Mg + O₂ geeft 2 MgO</strong> geldt: <strong>links en rechts staan twee magnesiumatomen</strong>, <strong>links en rechts staan twee zuurstofatomen</strong> en <strong>magnesium en zuurstofgas zijn de reagentia</strong>. Er ontstaat <strong>maar één reactieproduct</strong>, geen twee."
     }
    ]
   },
@@ -131,7 +131,7 @@
   }
  ],
  "onthoud": [
-  "Een enkelvoudige stof bestaat uit maar één soort atomen; CO2 is samengesteld.",
+  "Een enkelvoudige stof bestaat uit maar één soort atomen; CO₂ is samengesteld.",
   "De index zegt hoeveel atomen in één deeltje zitten, de coëfficiënt hoeveel deeltjes je neemt.",
   "Metalen geleiden elektriciteit en warmte goed en zijn vervormbaar.",
   "Edelgassen reageren niet gemakkelijk; daarom gebruikt men helium in ballonnen.",

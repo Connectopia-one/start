@@ -29,7 +29,7 @@
    "blokken": [
     {
      "soort": "tekst",
-     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Voorbeeld</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Welke beweging</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een auto rijdt met een constante snelheid van 50 km per uur op een rechte weg</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een ERB</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een steen valt van een toren, met de luchtweerstand verwaarloosd</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een eenparig versnelde rechtlijnige beweging</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een trein remt gelijkmatig af tot stilstand op een recht spoor</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een eenparig vertraagde rechtlijnige beweging</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een kind op een draaimolen die rond draait aan een vaste snelheid</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een eenparig cirkelvormige beweging</td></tr></table>"
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Voorbeeld</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Welke beweging</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een auto rijdt met een constante snelheid van \\(50\\) km per uur op een rechte weg</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een ERB</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een steen valt van een toren, met de luchtweerstand verwaarloosd</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een eenparig versnelde rechtlijnige beweging</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een trein remt gelijkmatig af tot stilstand op een recht spoor</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een eenparig vertraagde rechtlijnige beweging</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een kind op een draaimolen die rond draait aan een vaste snelheid</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een eenparig cirkelvormige beweging</td></tr></table>"
     }
    ]
   },
@@ -68,11 +68,11 @@
    "blokken": [
     {
      "soort": "tekst",
-     "html": "De tweede wet zegt: <strong>de resulterende kracht is de massa maal de versnelling</strong>, dus F = m·a. Dat is de wet die je nodig hebt <strong>als je uit een kracht en een massa de versnelling wil berekenen</strong>: <strong>de tweede</strong>."
+     "html": "De tweede wet zegt: <strong>de resulterende kracht is de massa maal de versnelling</strong>, dus \\(F = m \\cdot a\\). Dat is de wet die je nodig hebt <strong>als je uit een kracht en een massa de versnelling wil berekenen</strong>: <strong>de tweede</strong>."
     },
     {
      "soort": "tekst",
-     "html": "Rekenen gaat dan rechtstreeks. Werkt op een <strong>voorwerp van 4 kg een resulterende kracht van 12 N</strong>, dan is de versnelling 12 gedeeld door 4, dus <strong>3 meter per seconde kwadraat</strong>."
+     "html": "Rekenen gaat dan rechtstreeks. Werkt op een <strong>voorwerp van \\(4\\) kg een resulterende kracht van \\(12\\) N</strong>, dan is de versnelling \\(12 : 4\\), dus <strong>\\(3\\) meter per seconde kwadraat</strong>."
     },
     {
      "soort": "tekst",
@@ -126,7 +126,7 @@
   "Een steen die valt zonder luchtweerstand voert een eenparig versnelde rechtlijnige beweging uit.",
   "De steilheid van een x(t)-grafiek geeft de snelheid; bij een ERB is de v(t)-grafiek horizontaal.",
   "Eerste wet van Newton: zonder resulterende kracht blijft de snelheid van een lichaam gelijk.",
-  "Tweede wet van Newton: F = m·a, de resulterende kracht is de massa maal de versnelling.",
+  "Tweede wet van Newton: \\(F = m \\cdot a\\), de resulterende kracht is de massa maal de versnelling.",
   "Derde wet: actie en reactie zijn even groot, tegengesteld van zin en werken op verschillende lichamen.",
   "De resulterende kracht bepaal je door alle krachtvectoren samen te tellen."
  ]

@@ -52,7 +52,7 @@ DEEL1 = [
         type="meerkeuze",
         vraag="Wat betekent het dat de twee strengen van DNA antiparallel liggen?",
         opties=[
-            "de ene loopt van 5 naar 3 en de andere in de omgekeerde richting",
+            r"de ene loopt van \(5\) naar \(3\) en de andere in de omgekeerde richting",
             "de twee strengen liggen precies evenwijdig in dezelfde richting",
             "de twee strengen draaien elk apart om hun eigen as rond",
             "de ene streng bestaat uit DNA en de andere volledig uit RNA",
@@ -119,13 +119,13 @@ DEEL1 = [
             "een autosoom bestaat uit RNA en een heterosoom volledig uit DNA",
         ],
         antwoord=0,
-        uitleg="De mens heeft 22 paar autosomen en één paar heterosomen: XX bij een vrouw en XY bij een man.",
+        uitleg=r"De mens heeft \(22\) paar autosomen en één paar heterosomen: XX bij een vrouw en XY bij een man.",
     ),
     dict(
         type="waarofniet",
-        vraag="Een menselijke lichaamscel is diploïd en bevat 46 chromosomen.",
+        vraag=r"Een menselijke lichaamscel is diploïd en bevat \(46\) chromosomen.",
         antwoord=True,
-        uitleg="Diploïd wil zeggen dat elk chromosoom in twee exemplaren voorkomt: 23 paren, dus 46 in totaal. Geslachtscellen zijn haploïd met 23.",
+        uitleg=r"Diploïd wil zeggen dat elk chromosoom in twee exemplaren voorkomt: \(23\) paren, dus \(46\) in totaal. Geslachtscellen zijn haploïd met \(23\).",
     ),
     dict(
         type="meerkeuze",
@@ -165,10 +165,10 @@ DEEL1 = [
     ),
     dict(
         type="meerkeuze",
-        vraag="Hoeveel procent van de basen in een stuk DNA is cytosine als 30 procent adenine is?",
-        opties=["20 procent", "30 procent", "40 procent", "70 procent"],
+        vraag=r"Hoeveel procent van de basen in een stuk DNA is cytosine als \(30\) procent adenine is?",
+        opties=[r"\(20\) procent", r"\(30\) procent", r"\(40\) procent", r"\(70\) procent"],
         antwoord=0,
-        uitleg="A paart met T, dus ook 30 procent thymine. Samen 60 procent, zodat G en C samen 40 procent zijn. Die twee zijn gelijk, dus elk 20 procent.",
+        uitleg=r"A paart met T, dus ook \(30\) procent thymine. Samen \(60\) procent, zodat G en C samen \(40\) procent zijn. Die twee zijn gelijk, dus elk \(20\) procent.",
     ),
 ]
 
@@ -210,7 +210,7 @@ DEEL2 = [
         opties=[
             "het zet nieuwe nucleotiden tegen de oude streng aan",
             "het leest de oude streng als sjabloon",
-            "het werkt altijd in de richting van 5 naar 3",
+            r"het werkt altijd in de richting van \(5\) naar \(3\)",
             "het rolt zelf de dubbele helix open",
         ],
         antwoord=[0, 1, 2],

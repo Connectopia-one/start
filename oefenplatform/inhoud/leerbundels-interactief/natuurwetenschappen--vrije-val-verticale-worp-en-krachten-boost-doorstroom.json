@@ -12,7 +12,7 @@
     },
     {
      "soort": "tekst",
-     "html": "De <strong>valversnelling</strong> op aarde is ongeveer <strong>9,81 meter per seconde kwadraat</strong>; op de maan maar 1,62. Elke seconde komt er dus ongeveer 9,81 meter per seconde snelheid bij. Valt een steen uit stilstand, dan heeft hij na 2 seconden ongeveer <strong>20 meter per seconde</strong> als je met 10 rekent."
+     "html": "De <strong>valversnelling</strong> op aarde is ongeveer <strong>\\(9{,}81\\) meter per seconde kwadraat</strong>; op de maan maar \\(1{,}62\\). Elke seconde komt er dus ongeveer \\(9{,}81\\) meter per seconde snelheid bij. Valt een steen uit stilstand, dan heeft hij na \\(2\\) seconden ongeveer <strong>\\(20\\) meter per seconde</strong> als je met \\(10\\) rekent."
     },
     {
      "soort": "tekst",
@@ -58,11 +58,11 @@
    "blokken": [
     {
      "soort": "tekst",
-     "html": "De <strong>resultante</strong> is de ene kracht die hetzelfde effect heeft als alle krachten samen. Werken twee krachten in <strong>dezelfde richting en zin</strong>, dan <strong>tel je hun groottes op</strong>: 30 en 40 newton geven <strong>70 newton</strong>. Bij <strong>tegengestelde zin</strong> trek je ze van elkaar af; gelijke groottes geven dan <strong>nul</strong>."
+     "html": "De <strong>resultante</strong> is de ene kracht die hetzelfde effect heeft als alle krachten samen. Werken twee krachten in <strong>dezelfde richting en zin</strong>, dan <strong>tel je hun groottes op</strong>: \\(30\\) en \\(40\\) newton geven <strong>\\(70\\) newton</strong>. Bij <strong>tegengestelde zin</strong> trek je ze van elkaar af; gelijke groottes geven dan <strong>nul</strong>."
     },
     {
      "soort": "tekst",
-     "html": "Maken twee krachten een <strong>hoek van 90 graden</strong>, dan gebruik je de <strong>stelling van Pythagoras</strong>: 30 en 40 newton geven <strong>50 newton</strong>, want de wortel uit 900 plus 1600 is 50."
+     "html": "Maken twee krachten een <strong>hoek van \\(90\\) graden</strong>, dan gebruik je de <strong>stelling van Pythagoras</strong>: \\(30\\) en \\(40\\) newton geven <strong>\\(50\\) newton</strong>, want \\(\\sqrt{900}\\) plus \\(1600\\) is \\(50\\)."
     }
    ]
   },
@@ -71,7 +71,7 @@
    "blokken": [
     {
      "soort": "tekst",
-     "html": "De <strong>zwaartekracht</strong> is de <strong>massa maal de zwaarteveldsterkte</strong>. Op aarde is die sterkte ongeveer <strong>9,81 newton per kilogram</strong>, op de maan 1,62. Een massa van 2 kilogram heeft dus een zwaartekracht van <strong>20 newton</strong> als je met 10 rekent."
+     "html": "De <strong>zwaartekracht</strong> is de <strong>massa maal de zwaarteveldsterkte</strong>. Op aarde is die sterkte ongeveer <strong>\\(9{,}81\\) newton per kilogram</strong>, op de maan \\(1{,}62\\). Een massa van \\(2\\) kilogram heeft dus een zwaartekracht van <strong>\\(20\\) newton</strong> als je met \\(10\\) rekent."
     },
     {
      "soort": "tekst",
@@ -100,11 +100,11 @@
     },
     {
      "soort": "tekst",
-     "html": "Rekt een veer 4 centimeter uit bij 20 newton, dan is de veerconstante <strong>5 newton per centimeter</strong>. Met die constante voorspel je elke andere uitrekking."
+     "html": "Rekt een veer \\(4\\) centimeter uit bij \\(20\\) newton, dan is de veerconstante <strong>\\(5\\) newton per centimeter</strong>. Met die constante voorspel je elke andere uitrekking."
     },
     {
      "soort": "tekst",
-     "html": "Hangt een voorwerp <strong>stil</strong> aan een veer, dan is er een <strong>krachtenbalans</strong>: de <strong>veerkracht is even groot als de zwaartekracht</strong>. Een voorwerp van 5 kilogram geeft dus een veerkracht van <strong>50 newton</strong> als je met 10 newton per kilogram rekent. Daarom kan je uit de massa alleen de veerkracht berekenen."
+     "html": "Hangt een voorwerp <strong>stil</strong> aan een veer, dan is er een <strong>krachtenbalans</strong>: de <strong>veerkracht is even groot als de zwaartekracht</strong>. Een voorwerp van \\(5\\) kilogram geeft dus een veerkracht van <strong>\\(50\\) newton</strong> als je met \\(10\\) newton per kilogram rekent. Daarom kan je uit de massa alleen de veerkracht berekenen."
     },
     {
      "soort": "weetje",
@@ -115,12 +115,12 @@
  ],
  "onthoud": [
   "Bij een vrije val werkt alleen de zwaartekracht, en valt elk voorwerp even snel.",
-  "De valversnelling op aarde is ongeveer 9,81 meter per seconde kwadraat.",
+  "De valversnelling op aarde is ongeveer \\(9{,}81\\) meter per seconde kwadraat.",
   "In het hoogste punt van een verticale worp is de snelheid nul, de versnelling blijft naar beneden.",
   "Een resulterende kracht die niet nul is, verandert de bewegingstoestand.",
   "Stilstaan of constante snelheid in een rechte lijn: resulterende kracht nul, een krachtenbalans.",
-  "Bij een hoek van 90 graden gebruik je Pythagoras: 30 en 40 newton geven 50 newton.",
-  "Zwaartekracht = massa maal zwaarteveldsterkte, op aarde ongeveer 9,81 newton per kilogram.",
+  "Bij een hoek van \\(90\\) graden gebruik je Pythagoras: \\(30\\) en \\(40\\) newton geven \\(50\\) newton.",
+  "Zwaartekracht = massa maal zwaarteveldsterkte, op aarde ongeveer \\(9{,}81\\) newton per kilogram.",
   "Massa blijft overal dezelfde; gewicht is een kracht en meet je in newton.",
   "Veerkracht = veerconstante maal lengteverandering."
  ]

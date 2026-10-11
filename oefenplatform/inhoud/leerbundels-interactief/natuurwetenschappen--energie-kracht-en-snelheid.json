@@ -1,7 +1,7 @@
 {
  "vak": "Natuurwetenschappen",
  "titel": "Energie, kracht en snelheid",
- "onder": "Energievormen en hun omzettingen, krachten en hun uitwerking, en v = Δx / Δt.",
+ "onder": "Energievormen en hun omzettingen, krachten en hun uitwerking, en \\(v = \\Delta x / \\Delta t\\).",
  "secties": [
   {
    "kop": "Energievormen",
@@ -30,7 +30,7 @@
     },
     {
      "soort": "tekst",
-     "html": "Krachten die je moet herkennen: <strong>zwaartekracht</strong> (trekt alles naar het middelpunt van de aarde), <strong>wrijvingskracht</strong>, <strong>trekkracht</strong>, <strong>duwkracht</strong>, <strong>spierkracht</strong>, <strong>motorkracht</strong> en <strong>veerkracht</strong>. Hang je een gewicht aan een dynamometer en lees je 12 N af, dan heb je de zwaartekracht op dat gewicht gemeten — geen massa, want die meet je in kilogram met een weegschaal."
+     "html": "Krachten die je moet herkennen: <strong>zwaartekracht</strong> (trekt alles naar het middelpunt van de aarde), <strong>wrijvingskracht</strong>, <strong>trekkracht</strong>, <strong>duwkracht</strong>, <strong>spierkracht</strong>, <strong>motorkracht</strong> en <strong>veerkracht</strong>. Hang je een gewicht aan een dynamometer en lees je \\(12\\) N af, dan heb je de zwaartekracht op dat gewicht gemeten — geen massa, want die meet je in kilogram met een weegschaal."
     },
     {
      "soort": "figuur",
@@ -39,11 +39,11 @@
     },
     {
      "soort": "tekst",
-     "html": "<strong>Aangrijpingspunt</strong>: waar de kracht aangrijpt. <strong>Grootte</strong>: de lengte van de pijl. <strong>Richting</strong>: de lijn waarop ze werkt. <strong>Zin</strong>: welke kant ze op wijst. Een kracht van 10 N naar links en één van 10 N naar rechts hebben dus dezelfde richting, maar een andere zin."
+     "html": "<strong>Aangrijpingspunt</strong>: waar de kracht aangrijpt. <strong>Grootte</strong>: de lengte van de pijl. <strong>Richting</strong>: de lijn waarop ze werkt. <strong>Zin</strong>: welke kant ze op wijst. Een kracht van \\(10\\) N naar links en één van \\(10\\) N naar rechts hebben dus dezelfde richting, maar een andere zin."
     },
     {
      "soort": "tekst",
-     "html": "Werken er meerdere krachten, dan tel je ze samen tot de <strong>resulterende kracht</strong> of resultante. Twee mensen die allebei 200 N in dezelfde zin duwen, geven samen 400 N. Twee kinderen die allebei 150 N in tegengestelde zin trekken, geven een resultante van 0 N: de twee krachten heffen elkaar op en het touw beweegt niet. Bij een resultante van 0 N blijft een voorwerp in <strong>rust</strong>, of het behoudt zijn <strong>constante snelheid</strong>."
+     "html": "Werken er meerdere krachten, dan tel je ze samen tot de <strong>resulterende kracht</strong> of resultante. Twee mensen die allebei \\(200\\) N in dezelfde zin duwen, geven samen \\(400\\) N. Twee kinderen die allebei \\(150\\) N in tegengestelde zin trekken, geven een resultante van \\(0\\) N: de twee krachten heffen elkaar op en het touw beweegt niet. Bij een resultante van \\(0\\) N blijft een voorwerp in <strong>rust</strong>, of het behoudt zijn <strong>constante snelheid</strong>."
     },
     {
      "soort": "figuur",
@@ -61,24 +61,24 @@
    "blokken": [
     {
      "soort": "kader",
-     "html": "De formule voor een <strong>constante snelheid</strong>:<br><strong>v = Δx / Δt</strong> — de verplaatsing gedeeld door de tijdsduur.<br>Daaruit volgt <strong>Δx = v × Δt</strong> en <strong>Δt = Δx / v</strong>.<br>Δx is de verplaatsing in meter (m), Δt de tijdsduur in seconde (s), v de snelheid in meter per seconde (m/s). Kilometer per uur (km/h) mag ook, maar is geen SI-eenheid."
+     "html": "De formule voor een <strong>constante snelheid</strong>:<br><strong>\\(v = \\Delta x / \\Delta t\\)</strong> — de verplaatsing gedeeld door de tijdsduur.<br>Daaruit volgt <strong>\\(\\Delta x = v \\times \\Delta t\\)</strong> en <strong>\\(\\Delta t = \\Delta x / v\\)</strong>.<br>Δx is de verplaatsing in meter (m), Δt de tijdsduur in seconde (s), v de snelheid in meter per seconde (m/s). Kilometer per uur (km/h) mag ook, maar is geen SI-eenheid."
     },
     {
      "soort": "tekst",
-     "html": "Iemand die 100 m aflegt in 20 s, haalt 100 : 20 = 5 m/s. Een auto die 90 km rijdt in 2 uur, haalt 90 : 2 = 45 km/h. Rijdt hij het eerste uur 60 km en het tweede uur 80 km, dan is zijn gemiddelde snelheid 140 : 2 = 70 km/h."
+     "html": "Iemand die \\(100\\) m aflegt in \\(20\\) s, haalt \\(100 : 20 = 5\\) m/s. Een auto die \\(90\\) km rijdt in \\(2\\) uur, haalt \\(90 : 2 = 45\\) km/h. Rijdt hij het eerste uur \\(60\\) km en het tweede uur \\(80\\) km, dan is zijn gemiddelde snelheid \\(140 : 2 = 70\\) km/h."
     },
     {
      "soort": "tekst",
-     "html": "Omgekeerd: een fietser die 30 s aan 4 m/s rijdt, legt 4 × 30 = 120 m af. Een wandelaar doet over 300 m aan 5 m/s precies 300 : 5 = 60 s, dus één minuut."
+     "html": "Omgekeerd: een fietser die \\(30\\) s aan \\(4\\) m/s rijdt, legt \\(4 \\cdot 30 = 120\\) m af. Een wandelaar doet over \\(300\\) m aan \\(5\\) m/s precies \\(300 : 5 = 60\\) s, dus één minuut."
     },
     {
      "soort": "figuur",
      "html": "<svg viewBox=\"0 0 470 86\" width=\"470\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"3.0\" y=\"10\" width=\"229.0\" height=\"34\" rx=\"8\" fill=\"#ffffff\" stroke=\"#234539\" stroke-width=\"1.4\"/><text x=\"117.5\" y=\"28.0\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"12\" font-weight=\"600\" fill=\"#234539\">km/h</text><rect x=\"238.0\" y=\"10\" width=\"229.0\" height=\"34\" rx=\"8\" fill=\"#ffffff\" stroke=\"#234539\" stroke-width=\"1.4\"/><text x=\"352.5\" y=\"28.0\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"12\" font-weight=\"600\" fill=\"#234539\">m/s</text><path d=\"M117.5 58 H352.5 l-7 -5 m7 5 l-7 5\" stroke=\"#c17f2b\" stroke-width=\"1.8\" fill=\"none\" stroke-linecap=\"round\"/><text x=\"235.0\" y=\"76\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"10.5\" fill=\"#c17f2b\">km/h → m/s: delen door 3,6 · m/s → km/h: maal 3,6</text></svg>",
-     "onderschrift": "5 m/s = 18 km/h, 72 km/h = 20 m/s, 36 km/h = 10 m/s. Handig om te onthouden: 36 km/h is precies 10 m/s."
+     "onderschrift": "\\(5\\) m/s = \\(18\\) km/h, \\(72\\) km/h = \\(20\\) m/s, \\(36\\) km/h = \\(10\\) m/s. Handig om te onthouden: \\(36\\) km/h is precies \\(10\\) m/s."
     },
     {
      "soort": "tekst",
-     "html": "Let op je eenheden. 1 km = 1000 m, 1 h = 60 min = 3600 s, dus 2 uur is 7200 s en 5 min is 300 s. Reken tijd altijd eerst om naar seconden als je in m/s werkt: vergeet je dat, dan zit je antwoord er een factor 60 naast. Wil je snelheden vergelijken, zet ze dan eerst in dezelfde eenheid: 15 m/s is 54 km/h, en dat is sneller dan 50 km/h of dan 1 km in 2 minuten (30 km/h). Een hardloper die 400 m in 50 s doet, haalt 8 m/s of 28,8 km/h."
+     "html": "Let op je eenheden. \\(1\\) km = \\(1000\\) m, \\(1\\) h = \\(60\\) min = \\(3600\\) s, dus \\(2\\) uur is \\(7200\\) s en \\(5\\) min is \\(300\\) s. Reken tijd altijd eerst om naar seconden als je in m/s werkt: vergeet je dat, dan zit je antwoord er een factor \\(60\\) naast. Wil je snelheden vergelijken, zet ze dan eerst in dezelfde eenheid: \\(15\\) m/s is \\(54\\) km/h, en dat is sneller dan \\(50\\) km/h of dan \\(1\\) km in \\(2\\) minuten (\\(30\\) km/h). Een hardloper die \\(400\\) m in \\(50\\) s doet, haalt \\(8\\) m/s of \\(28{,}8\\) km/h."
     }
    ]
   },
@@ -87,7 +87,7 @@
    "blokken": [
     {
      "soort": "tekst",
-     "html": "Zet je de afgelegde weg (y) uit tegenover de tijd (x), dan betekent een <strong>rechte door de oorsprong</strong> dat het voorwerp met een constante snelheid beweegt: in elke seconde komt er evenveel weg bij. De <strong>steilheid</strong> van die rechte is de snelheid, dus van twee rechten gaat de steilste het snelst. Een <strong>horizontaal stuk</strong> betekent dat het voorwerp stilstaat: de tijd loopt door, de afstand verandert niet, de snelheid is 0 m/s. Lees je bij 4 s een afstand van 20 m af, dan is v = 20 : 4 = 5 m/s."
+     "html": "Zet je de afgelegde weg (y) uit tegenover de tijd (x), dan betekent een <strong>rechte door de oorsprong</strong> dat het voorwerp met een constante snelheid beweegt: in elke seconde komt er evenveel weg bij. De <strong>steilheid</strong> van die rechte is de snelheid, dus van twee rechten gaat de steilste het snelst. Een <strong>horizontaal stuk</strong> betekent dat het voorwerp stilstaat: de tijd loopt door, de afstand verandert niet, de snelheid is \\(0\\) m/s. Lees je bij \\(4\\) s een afstand van \\(20\\) m af, dan is \\(v = 20 : 4 = 5\\) m/s."
     },
     {
      "soort": "figuur",
@@ -102,7 +102,7 @@
   "Kracht: symbool F, eenheid newton (N), gemeten met een dynamometer.",
   "Vier kenmerken van een kracht: aangrijpingspunt, grootte, richting en zin.",
   "Statische uitwerking = vervorming; dynamische uitwerking = verandering van beweging.",
-  "v = Δx / Δt; m/s → km/h maal 3,6, km/h → m/s delen door 3,6.",
-  "Een rechte door de oorsprong in een x-t-grafiek betekent een constante snelheid."
+  "\\(v = \\Delta x / \\Delta t\\); m/s → km/h maal \\(3{,}6\\), km/h → m/s delen door \\(3{,}6\\).",
+  "Een rechte door de oorsprong in een \\(x-t\\)-grafiek betekent een constante snelheid."
  ]
 }

@@ -21,6 +21,30 @@ KOP = re.compile(r'\A(?:#[^\n]*\n)*"""(?:.|\n)*?"""', re.S)
 AAN, UIT = "", ""
 
 
+
+# ── vooraf: een molecuulformule zonder onderschriften ─────────────────────
+# Enkel deze lijst, want F1, G2, LD50 en H314 zijn geen moleculen.
+# F2 en I2 staan er NIET bij: F1 en F2 zijn de generaties uit de genetica.
+MOLECULEN = """CO2 H2O O2 N2 H2 Cl2 Br2 C6H12O6 CH2 CH3 CH4 C2H6 C3H8
+C4H10 C2H6O H2SO4 H2SO3 H2O2 H3O H2CO3 HNO3 HCO3 CO3 SO4 SO3 NO3 NO2 NH4 NH3
+NH2 PO4 ClO3 N2O NaCl Na2 Fe2O3 CaCO3 CaCl2 MgCl2 CuSO4 AgNO3 BaSO4 CH3OH
+CH3COOH CH3COCH3 CH3CH2OH CHCl3 CCl4 HO2 Al2O3 SO2 P2O5 K2O Li2O MgO""".split()
+LAAG = str.maketrans("0123456789", "\u2080\u2081\u2082\u2083\u2084"
+                     "\u2085\u2086\u2087\u2088\u2089")
+
+
+def vooraf(t):
+    """Zet de moleculen uit de lijst in echte onderschriften. Draai dit
+    vóór naar_notatie.py, anders leest dat H2 + O2 als een optelling."""
+    n = 0
+    for naam in sorted(MOLECULEN, key=len, reverse=True):
+        if not any(c.isdigit() for c in naam):
+            continue
+        t, k = re.subn(r"\b" + naam + r"\b", naam.translate(LAAG), t)
+        n += k
+    return t, n
+
+
 def regels(t):
     tel = {}
 
@@ -32,7 +56,10 @@ def regels(t):
 
     # 0. in een reactievergelijking is een getal een coefficient, geen formule
     def plat(regel):
-        if "\u2192" not in regel:
+        reactie = "\u2192" in regel or (
+            " geeft " in regel
+            and re.search(r"[A-Z][A-Za-z]*[\u2080-\u2089]", regel))
+        if not reactie:
             return regel
         return re.sub(r"\\\((\d+)\\\)", lambda m: m.group(1), regel)
     regels_ = t.split("\n")
@@ -40,6 +67,11 @@ def regels(t):
     if nieuw_ != regels_:
         tel["coefficient"] = sum(1 for a, b in zip(regels_, nieuw_) if a != b)
     t = "\n".join(nieuw_)
+
+    # 0b. een getal voor een molecuul is een coefficient, geen formule
+    zet("coefficient voor molecuul",
+        r"\\\((\d+)\\\)(\s+)(?=[A-Z][A-Za-z₀-₉]*[₀-₉⁺⁻])",
+        lambda m: m.group(1) + m.group(2))
 
     # 1. \(6\),02.\(10^{23}\)  ->  \(6{,}02 \cdot 10^{23}\)
     zet("wetenschappelijk",
@@ -79,6 +111,13 @@ for pad in paden:
 
     def doe(s, alles=alles):
         k = KOP.match(s)
+        if "--vooraf" in sys.argv:
+            kk = KOP.match(s)
+            kop, rest = (s[:kk.end()], s[kk.end():]) if kk else ("", s)
+            rest, n = vooraf(rest)
+            if n:
+                alles["molecuul"] = alles.get("molecuul", 0) + n
+            return kop + rest
         kop, rest = (s[:k.end()], s[k.end():]) if k else ("", s)
         rest, tel = regels(rest)
         for a, b in tel.items():

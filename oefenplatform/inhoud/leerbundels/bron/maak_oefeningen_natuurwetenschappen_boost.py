@@ -127,11 +127,11 @@ OEFENBUNDELS["oefenbundel-van-prikkel-tot-reactie-en-het-oog-boost-doorstroom"] 
     hoe=HOE,
     reeksen=[
         dict(kop="De weg van prikkel tot reactie",
-             opdracht="Nummer de vier stappen in de juiste orde, van 1 tot 4.",
+             opdracht=r"Nummer de vier stappen in de juiste orde, van \(1\) tot \(4\).",
              oefeningen=[
-                 ("rij", [("de effector reageert", "4"), ("de receptor vangt de prikkel op", "1"),
-                          ("het zenuwstelsel verwerkt de impuls", "3"),
-                          ("de impuls gaat naar het centrum", "2")], "Nummer van 1 tot 4", "60px"),
+                 ("rij", [("de effector reageert", r"\(4\)"), ("de receptor vangt de prikkel op", r"\(1\)"),
+                          ("het zenuwstelsel verwerkt de impuls", r"\(3\)"),
+                          ("de impuls gaat naar het centrum", r"\(2\)")], r"Nummer van \(1\) tot \(4\)", "60px"),
                  ("kort", "Hoe noem je het orgaan dat de prikkel opvangt?", "de receptor of het zintuig", WL),
                  ("kort", "Hoe noem je het orgaan dat de reactie uitvoert?", "de effector", WW),
              ]),
@@ -185,11 +185,11 @@ OEFENBUNDELS["oefenbundel-van-prikkel-tot-reactie-en-het-oog-boost-doorstroom"] 
         dict(kop="Rekenen met een lens",
              opdracht="Reken uit en schrijf je stappen op.",
              oefeningen=[
-                 ("kort", "Een lens heeft een brandpuntsafstand van 0,5 meter. Hoe groot is haar "
-                          "sterkte in dioptrie?", "2 dioptrie", W),
-                 ("kort", "Een brilglas heeft een sterkte van min 4 dioptrie. Hoe groot is de "
-                          "brandpuntsafstand?", "min 0,25 meter", W),
-                 ("open", "Leg uit wat het minteken bij een sterkte van min 4 dioptrie betekent.",
+                 ("kort", r"Een lens heeft een brandpuntsafstand van \(0{,}5\) meter. Hoe groot is haar "
+                          "sterkte in dioptrie?", r"\(2\) dioptrie", W),
+                 ("kort", r"Een brilglas heeft een sterkte van min \(4\) dioptrie. Hoe groot is de "
+                          "brandpuntsafstand?", r"min \(0{,}25\) meter", W),
+                 ("open", r"Leg uit wat het minteken bij een sterkte van min \(4\) dioptrie betekent.",
                   "Het gaat om een holle of negatieve lens. Die spreidt het licht in plaats van het "
                   "samen te brengen, en wordt gebruikt bij iemand die in de verte wazig ziet.", 3),
              ]),
@@ -307,8 +307,8 @@ OEFENBUNDELS["oefenbundel-spieren-klieren-en-hormonen-boost-doorstroom"] = dict(
         dict(kop="De bouw van een spier",
              opdracht="Zet de delen van groot naar klein en vul aan.",
              oefeningen=[
-                 ("rij", [("spierfibril", "4"), ("spierbuik", "1"), ("spiervezel", "3"),
-                          ("spierbundel", "2")], "Nummer van 1 (grootst) tot 4", "60px"),
+                 ("rij", [("spierfibril", r"\(4\)"), ("spierbuik", r"\(1\)"), ("spiervezel", r"\(3\)"),
+                          ("spierbundel", r"\(2\)")], r"Nummer van \(1\) (grootst) tot \(4\)", "60px"),
                  ("kort", "Hoe heet het celmembraan van een spiervezel?", "het sarcolemma", WW),
                  ("kort", "Hoe heet het stukje spierfibril tussen twee Z-platen?", "het sarcomeer",
                   WW),
@@ -364,7 +364,7 @@ OEFENBUNDELS["oefenbundel-spieren-klieren-en-hormonen-boost-doorstroom"] = dict(
                  ("open", "Waarom heeft iemand met onbehandelde diabetes vaak dorst en plast die veel?",
                   "Er blijft te veel glucose in het bloed. De nieren voeren die overtollige glucose "
                   "af en nemen daarbij veel water mee, en daardoor krijgt de persoon dorst.", 4),
-                 ("waar", "Bij diabetes type 1 maakt het lichaam zelf te weinig of geen insuline meer "
+                 ("waar", r"Bij diabetes type \(1\) maakt het lichaam zelf te weinig of geen insuline meer "
                           "aan.", True),
              ]),
         dict(kop="Hormonen tegenover zenuwen",
@@ -402,8 +402,8 @@ OEFENBUNDELS["oefenbundel-voortplanting-en-de-hormonale-regeling-boost-doorstroo
         dict(kop="De cyclus op een rij",
              opdracht="Vul aan.",
              oefeningen=[
-                 ("kort", "Op welke dag van de cyclus begint de menstruatie?", "op dag 1", W),
-                 ("kort", "Hoe lang duurt een gemiddelde cyclus?", "ongeveer 28 dagen", W),
+                 ("kort", "Op welke dag van de cyclus begint de menstruatie?", r"op dag \(1\)", W),
+                 ("kort", "Hoe lang duurt een gemiddelde cyclus?", r"ongeveer \(28\) dagen", W),
                  ("kort", "Hoe heet het vrijkomen van de eicel?", "de eisprong", WW),
                  ("kort", "Hoe heet het lichaam dat na de eisprong uit de follikel ontstaat?",
                   "het geel lichaam", WW),
@@ -737,9 +737,9 @@ OEFENBUNDELS["oefenbundel-enkelvoudige-en-samengestelde-stoffen-en-chemische-rea
         dict(kop="Enkelvoudig of samengesteld?",
              opdracht="Schrijf enkelvoudig of samengesteld.",
              oefeningen=[
-                 ("rij", [("O2", "enkelvoudig"), ("CO2", "samengesteld"), ("O3", "enkelvoudig")],
+                 ("rij", [("O2", "enkelvoudig"), ("CO₂", "samengesteld"), ("O3", "enkelvoudig")],
                   None, WW),
-                 ("rij", [("H2O", "samengesteld"), ("Fe", "enkelvoudig"),
+                 ("rij", [("H₂O", "samengesteld"), ("Fe", "enkelvoudig"),
                           ("NaCl", "samengesteld")], None, WW),
              ]),
         dict(kop="Symbool en element",
@@ -755,13 +755,13 @@ OEFENBUNDELS["oefenbundel-enkelvoudige-en-samengestelde-stoffen-en-chemische-rea
         dict(kop="Index, coëfficiënt en atomen tellen",
              opdracht="Reken en schrijf je stappen op.",
              oefeningen=[
-                 ("kort", "Wat is de coëfficiënt in 4 CO2?", "4", "60px"),
-                 ("kort", "Wat is de index bij de zuurstof in 4 CO2?", "2", "60px"),
-                 ("kort", "Hoeveel atomen in totaal staan er in 3 H2O?", "9", "60px"),
-                 ("kort", "Hoeveel atomen in totaal staan er in 2 Ca(OH)2?", "10", "60px"),
-                 ("open", "Leg uit hoe je het aantal atomen in 2 H2SO4 berekent.",
-                  "Per deeltje: 2 waterstof, 1 zwavel en 4 zuurstof, samen 7. Die 7 maal de "
-                  "coëfficiënt 2 geeft 14 atomen.", 4),
+                 ("kort", r"Wat is de coëfficiënt in 4 CO₂?", r"\(4\)", "60px"),
+                 ("kort", r"Wat is de index bij de zuurstof in 4 CO₂?", r"\(2\)", "60px"),
+                 ("kort", r"Hoeveel atomen in totaal staan er in 3 H₂O?", r"\(9\)", "60px"),
+                 ("kort", r"Hoeveel atomen in totaal staan er in \(2\) Ca(OH)\(2\)?", r"\(10\)", "60px"),
+                 ("open", r"Leg uit hoe je het aantal atomen in 2 H₂SO₄ berekent.",
+                  r"Per deeltje: \(2\) waterstof, \(1\) zwavel en \(4\) zuurstof, samen \(7\). Die \(7\) maal de "
+                  r"coëfficiënt \(2\) geeft \(14\) atomen.", 4),
              ]),
         dict(kop="Metaal of niet-metaal?",
              opdracht="Schrijf metaal of niet-metaal.",
@@ -790,9 +790,9 @@ OEFENBUNDELS["oefenbundel-enkelvoudige-en-samengestelde-stoffen-en-chemische-rea
         dict(kop="Reactievergelijkingen kloppend maken",
              opdracht="Zet de coëfficiënten erbij. De indexen mag je niet veranderen.",
              oefeningen=[
-                 ("kort", "___ H2 + ___ O2 geeft ___ H2O", "2, 1, 2", W),
-                 ("kort", "___ Mg + ___ O2 geeft ___ MgO", "2, 1, 2", W),
-                 ("kort", "___ CH4 + ___ O2 geeft ___ CO2 + ___ H2O", "1, 2, 1, 2", W),
+                 ("kort", "___ H₂ + ___ O₂ geeft ___ H₂O", r"\(2\), \(1\), \(2\)", W),
+                 ("kort", "___ Mg + ___ O₂ geeft ___ MgO", r"\(2\), \(1\), \(2\)", W),
+                 ("kort", "___ CH₄ + ___ O₂ geeft ___ CO₂ + ___ H₂O", r"\(1\), \(2\), \(1\), \(2\)", W),
                  ("open", "Waarom mag je de index in een formule niet aanpassen om een vergelijking "
                           "kloppend te maken?",
                   "De index hoort bij de stof zelf. Als je die verandert, heb je een andere stof. Je "
@@ -850,10 +850,10 @@ OEFENBUNDELS["oefenbundel-de-bouw-van-het-atoom-en-het-periodiek-systeem-boost-d
         dict(kop="Rekenen met atoomnummer en massagetal",
              opdracht="Reken uit.",
              oefeningen=[
-                 ("rij", [("atoomnummer 11, massagetal 23: hoeveel neutronen?", "12"),
-                          ("atoomnummer 8, massagetal 16: hoeveel neutronen?", "8")], None, "70px"),
-                 ("rij", [("atoomnummer 17: hoeveel protonen?", "17"),
-                          ("atoomnummer 17: hoeveel elektronen in een neutraal atoom?", "17")],
+                 ("rij", [(r"atoomnummer \(11\), massagetal \(23\): hoeveel neutronen?", r"\(12\)"),
+                          (r"atoomnummer \(8\), massagetal \(16\): hoeveel neutronen?", r"\(8\)")], None, "70px"),
+                 ("rij", [(r"atoomnummer \(17\): hoeveel protonen?", r"\(17\)"),
+                          (r"atoomnummer \(17\): hoeveel elektronen in een neutraal atoom?", r"\(17\)")],
                   None, "70px"),
                  ("open", "Leg uit hoe je het aantal neutronen van een atoom berekent.",
                   "Je trekt het atoomnummer van het massagetal af. Het massagetal is immers het aantal "
@@ -875,11 +875,11 @@ OEFENBUNDELS["oefenbundel-de-bouw-van-het-atoom-en-het-periodiek-systeem-boost-d
              oefeningen=[
                  ("rij", [("een horizontale rij", "een periode"),
                           ("een verticale kolom", "een groep")], None, WW),
-                 ("rij", [("groep 2, periode 4: hoeveel valentie-elektronen?", "2"),
-                          ("groep 2, periode 4: hoeveel bezette schillen?", "4")], None, "70px"),
-                 ("kort", "Wat is de elektronenconfiguratie van natrium, atoomnummer 11?", "2, 8, 1",
+                 ("rij", [(r"groep \(2\), periode \(4\): hoeveel valentie-elektronen?", r"\(2\)"),
+                          (r"groep \(2\), periode \(4\): hoeveel bezette schillen?", r"\(4\)")], None, "70px"),
+                 ("kort", r"Wat is de elektronenconfiguratie van natrium, atoomnummer \(11\)?", r"\(2\), \(8\), \(1\)",
                   W),
-                 ("kort", "Hoeveel elektronen passen er in de tweede schil?", "8", "60px"),
+                 ("kort", "Hoeveel elektronen passen er in de tweede schil?", r"\(8\)", "60px"),
              ]),
         dict(kop="Waarom elementen reageren",
              opdracht="Leg in volledige zinnen uit.",
@@ -932,9 +932,9 @@ OEFENBUNDELS["oefenbundel-chemische-bindingen-en-roosters-boost-doorstroom"] = d
         dict(kop="Welke binding?",
              opdracht="Schrijf ionbinding, atoombinding of metaalbinding.",
              oefeningen=[
-                 ("rij", [("NaCl", "ionbinding"), ("H2O", "atoombinding"), ("Cu", "metaalbinding")],
+                 ("rij", [("NaCl", "ionbinding"), ("H₂O", "atoombinding"), ("Cu", "metaalbinding")],
                   None, WW),
-                 ("rij", [("CaO", "ionbinding"), ("CO2", "atoombinding"),
+                 ("rij", [("CaO", "ionbinding"), ("CO₂", "atoombinding"),
                           ("messing", "metaalbinding")], None, WW),
                  ("open", "Leg uit waarom een metaal met een niet-metaal een ionbinding vormt.",
                   "Het metaal staat zijn valentie-elektronen gemakkelijk af en het niet-metaal neemt "
@@ -946,9 +946,9 @@ OEFENBUNDELS["oefenbundel-chemische-bindingen-en-roosters-boost-doorstroom"] = d
                  ("rij", [("natrium wordt het ion", "Na plus"),
                           ("calcium wordt het ion", "Ca twee plus"),
                           ("chloor wordt het ion", "Cl min")], "Welk ion?", WW),
-                 ("rij", [("natrium met chloor", "NaCl"), ("calcium met chloor", "CaCl2"),
+                 ("rij", [("natrium met chloor", "NaCl"), ("calcium met chloor", "CaCl₂"),
                           ("magnesium met zuurstof", "MgO")], "Welke formule?", WW),
-                 ("open", "Waarom is de formule van calciumchloride CaCl2 en niet CaCl?",
+                 ("open", "Waarom is de formule van calciumchloride CaCl₂ en niet CaCl?",
                   "Calcium geeft twee elektronen af en chloor neemt er één op. Je hebt dus twee "
                   "chloride-ionen nodig om de ladingen te laten opgaan tegen elkaar.", 4),
              ]),
@@ -1040,8 +1040,8 @@ OEFENBUNDELS["oefenbundel-stoffen-classificeren-en-benoemen-boost-doorstroom"] =
              opdracht="Schrijf oxide, hydroxide, zuur of zout.",
              oefeningen=[
                  ("rij", [("CaO", "oxide"), ("NaOH", "hydroxide"), ("HCl", "zuur")], None, WW),
-                 ("rij", [("KBr", "zout"), ("H2SO4", "zuur"), ("Ca(OH)2", "hydroxide")], None, WW),
-                 ("rij", [("Fe2O3", "oxide"), ("CaCO3", "zout")], None, WW),
+                 ("rij", [("KBr", "zout"), ("H₂SO₄", "zuur"), (r"Ca(OH)\(2\)", "hydroxide")], None, WW),
+                 ("rij", [("Fe₂O₃", "oxide"), ("CaCO₃", "zout")], None, WW),
              ]),
         dict(kop="Binair of ternair?",
              opdracht="Schrijf binair of ternair.",
@@ -1060,8 +1060,8 @@ OEFENBUNDELS["oefenbundel-stoffen-classificeren-en-benoemen-boost-doorstroom"] =
                  ("tabel", ["Ion", "Formule", "Komt van welk zuur"],
                   [["nitraation", None, None], ["sulfaation", None, None],
                    ["carbonaation", None, None]],
-                  "Het nitraation is NO3 min en komt van salpeterzuur. Het sulfaation is SO4 twee min "
-                  "en komt van zwavelzuur. Het carbonaation is CO3 twee min en komt van koolzuur.",
+                  "Het nitraation is NO₃ min en komt van salpeterzuur. Het sulfaation is SO₄ twee min "
+                  "en komt van zwavelzuur. Het carbonaation is CO₃ twee min en komt van koolzuur.",
                   "120px"),
                  ("rij", [("bevat zuurstof: chloraat of chloride?", "chloraat"),
                           ("bevat zuurstof: sulfaat of sulfide?", "sulfaat")], None, WW),
@@ -1072,8 +1072,8 @@ OEFENBUNDELS["oefenbundel-stoffen-classificeren-en-benoemen-boost-doorstroom"] =
              opdracht="Vul aan.",
              oefeningen=[
                  ("rij", [("FeCl3 in stocknotatie", "ijzer(III)chloride"),
-                          ("CO2 met Griekse telwoorden", "koolstofdioxide")], "Welke naam?", WL),
-                 ("rij", [("natriumsulfaat", "Na2SO4"), ("calciumnitraat", "Ca(NO3)2")],
+                          ("CO₂ met Griekse telwoorden", "koolstofdioxide")], "Welke naam?", WL),
+                 ("rij", [("natriumsulfaat", "Na2SO4"), ("calciumnitraat", r"Ca(NO₃)\(2\)")],
                   "Welke formule?", WW),
                  ("open", "Wanneer gebruik je de stocknotatie en wanneer de Griekse telwoorden?",
                   "De stocknotatie bij ionverbindingen, met het oxidatiegetal van het metaal in "
@@ -1083,9 +1083,9 @@ OEFENBUNDELS["oefenbundel-stoffen-classificeren-en-benoemen-boost-doorstroom"] =
         dict(kop="De alkanen",
              opdracht="Vul aan.",
              oefeningen=[
-                 ("rij", [("3 koolstofatomen", "propaan"), ("5 koolstofatomen", "pentaan"),
-                          ("8 koolstofatomen", "octaan")], "Welke naam?", WW),
-                 ("rij", [("hexaan", "6"), ("decaan", "10"), ("ethaan", "2")],
+                 ("rij", [(r"\(3\) koolstofatomen", "propaan"), (r"\(5\) koolstofatomen", "pentaan"),
+                          (r"\(8\) koolstofatomen", "octaan")], "Welke naam?", WW),
+                 ("rij", [("hexaan", r"\(6\)"), ("decaan", r"\(10\)"), ("ethaan", r"\(2\)")],
                   "Hoeveel koolstofatomen?", "60px"),
                  ("kort", "Uit welke twee elementen bestaat een alkaan?", "koolstof en waterstof",
                   WL),
@@ -1117,7 +1117,7 @@ OEFENBUNDELS["oefenbundel-stoffen-classificeren-en-benoemen-boost-doorstroom"] =
                   "Kalkaanslag is calciumcarbonaat. Carbonaten reageren met een zuur en vallen daarbij "
                   "uiteen, waarbij er koolstofdioxide vrijkomt.", 4),
                  ("open", "Leg het verschil uit tussen een brutoformule en een structuurformule.",
-                  "Een brutoformule telt alleen de atomen, zoals C2H6. Een structuurformule toont ook "
+                  "Een brutoformule telt alleen de atomen, zoals C₂H₆. Een structuurformule toont ook "
                   "welke atomen aan welke gebonden zijn.", 3),
              ]),
     ],
@@ -1154,7 +1154,7 @@ OEFENBUNDELS["oefenbundel-stoffen-in-water-reacties-en-berekeningen-boost-doorst
         dict(kop="De pH",
              opdracht="Vul aan.",
              oefeningen=[
-                 ("rij", [("pH 2", "zuur"), ("pH 7", "neutraal"), ("pH 12", "basisch")], None, W),
+                 ("rij", [(r"pH \(2\)", "zuur"), (r"pH \(7\)", "neutraal"), (r"pH \(12\)", "basisch")], None, W),
                  ("rij", [("azijn", "zuur"), ("zuiver water", "neutraal"),
                           ("natriumhydroxide in water", "basisch")], None, W),
                  ("kort", "Welk ion geeft een zuur in water vrij?", "een waterstofion", WL),
@@ -1165,10 +1165,10 @@ OEFENBUNDELS["oefenbundel-stoffen-in-water-reacties-en-berekeningen-boost-doorst
         dict(kop="Rekenen met mol",
              opdracht="Reken uit en schrijf je stappen op.",
              oefeningen=[
-                 ("kort", "Hoeveel gram is 2 mol water? (M = 18 g/mol)", "36 gram", W),
-                 ("kort", "Hoeveel mol is 44 gram koolstofdioxide? (M = 44 g/mol)", "1 mol", W),
-                 ("kort", "Hoeveel gram is 0,5 mol natriumchloride? (M = 58,5 g/mol)",
-                  "29,25 gram", W),
+                 ("kort", r"Hoeveel gram is \(2\) mol water? \(M = 18\) g/mol)", r"\(36\) gram", W),
+                 ("kort", r"Hoeveel mol is \(44\) gram koolstofdioxide? \(M = 44\) g/mol)", r"\(1\) mol", W),
+                 ("kort", r"Hoeveel gram is \(0{,}5\) mol natriumchloride? \(M = 58{,}5\) g/mol)",
+                  r"\(29{,}25\) gram", W),
                  ("open", "Leg uit hoe je van gram naar mol rekent.",
                   "Je deelt de massa in gram door de molaire massa in gram per mol. Omgekeerd "
                   "vermenigvuldig je het aantal mol met de molaire massa.", 4),
@@ -1176,13 +1176,13 @@ OEFENBUNDELS["oefenbundel-stoffen-in-water-reacties-en-berekeningen-boost-doorst
         dict(kop="Concentratie",
              opdracht="Reken uit.",
              oefeningen=[
-                 ("kort", "Je lost 0,2 mol zout op in 1 liter water. Hoe groot is de concentratie?",
-                  "0,2 mol per liter", W),
-                 ("kort", "Hoeveel mol zit er in 500 mL van een oplossing van 0,4 mol per liter?",
-                  "0,2 mol", W),
-                 ("open", "Je verdunt 100 mL van een oplossing van 1 mol per liter tot 500 mL. Wat "
+                 ("kort", r"Je lost \(0{,}2\) mol zout op in \(1\) liter water. Hoe groot is de concentratie?",
+                  r"\(0{,}2\) mol per liter", W),
+                 ("kort", r"Hoeveel mol zit er in \(500\) mL van een oplossing van \(0{,}4\) mol per liter?",
+                  r"\(0{,}2\) mol", W),
+                 ("open", r"Je verdunt \(100\) mL van een oplossing van \(1\) mol per liter tot \(500\) mL. Wat "
                           "wordt de nieuwe concentratie, en waarom?",
-                  "0,2 mol per liter. Het aantal mol blijft 0,1, maar het volume wordt vijf keer "
+                  r"\(0{,}2\) mol per liter. Het aantal mol blijft \(0{,}1\), maar het volume wordt vijf keer "
                   "groter, dus de concentratie wordt vijf keer kleiner.", 4),
              ]),
         dict(kop="Uitgebreid: neerslag en neutralisatie",
@@ -1197,7 +1197,7 @@ OEFENBUNDELS["oefenbundel-stoffen-in-water-reacties-en-berekeningen-boost-doorst
                   "Daarin schrijf je alleen de ionen die echt mee reageren. De ionen die aan beide "
                   "kanten ongewijzigd in oplossing blijven, laat je weg.", 4),
                  ("open", "Waarom blijft de pH van een neutralisatiereactie met een sterk zuur en een "
-                          "sterke base rond 7 uitkomen, als je precies genoeg van elk neemt?",
+                          r"sterke base rond \(7\) uitkomen, als je precies genoeg van elk neemt?",
                   "Alle waterstofionen en hydroxide-ionen vormen samen water. Er blijft dan geen "
                   "overmaat van een van de twee over, en wat overblijft is een zoutoplossing.", 5),
              ]),
@@ -1233,22 +1233,22 @@ OEFENBUNDELS["oefenbundel-rechtlijnige-bewegingen-boost-doorstroom"] = dict(
         dict(kop="Rekenen met snelheid",
              opdracht="Reken uit en schrijf je stappen op.",
              oefeningen=[
-                 ("kort", "Een auto rijdt 150 km in 2 uur. Hoe groot is zijn gemiddelde snelheid in "
-                          "km/h?", "75 km/h", W),
-                 ("kort", "Hoeveel is 72 km/h in meter per seconde?", "20 m/s", W),
-                 ("kort", "Hoeveel is 15 m/s in km/h?", "54 km/h", W),
-                 ("kort", "Een fietser rijdt met 5 m/s. Hoe ver komt hij in 2 minuten?", "600 meter",
+                 ("kort", r"Een auto rijdt \(150\) km in \(2\) uur. Hoe groot is zijn gemiddelde snelheid in "
+                          "km/h?", r"\(75\) km/h", W),
+                 ("kort", r"Hoeveel is \(72\) km/h in meter per seconde?", r"\(20\) m/s", W),
+                 ("kort", r"Hoeveel is \(15\) m/s in km/h?", r"\(54\) km/h", W),
+                 ("kort", r"Een fietser rijdt met \(5\) m/s. Hoe ver komt hij in \(2\) minuten?", r"\(600\) meter",
                   W),
              ]),
         dict(kop="Rekenen met versnelling",
              opdracht="Reken uit en schrijf je stappen op.",
              oefeningen=[
-                 ("kort", "Een wagen gaat in 5 seconden van 0 naar 20 m/s. Hoe groot is de "
-                          "versnelling?", "4 m/s²", W),
-                 ("kort", "Een trein vertraagt van 30 m/s tot stilstand in 15 seconden. Hoe groot is "
-                          "de versnelling?", "min 2 m/s²", W),
-                 ("open", "Wat betekent een versnelling van min 2 m/s²?",
-                  "De snelheid neemt elke seconde met 2 m/s af. Het voorwerp vertraagt dus.", 3),
+                 ("kort", r"Een wagen gaat in \(5\) seconden van \(0\) naar \(20\) m/s. Hoe groot is de "
+                          "versnelling?", r"\(4\) m/s²", W),
+                 ("kort", r"Een trein vertraagt van \(30\) m/s tot stilstand in \(15\) seconden. Hoe groot is "
+                          "de versnelling?", r"min \(2\) m/s²", W),
+                 ("open", r"Wat betekent een versnelling van min \(2\) m/s²?",
+                  r"De snelheid neemt elke seconde met \(2\) m/s af. Het voorwerp vertraagt dus.", 3),
              ]),
         dict(kop="Grafieken lezen",
              opdracht="Vul aan of leg uit.",
@@ -1275,10 +1275,10 @@ OEFENBUNDELS["oefenbundel-rechtlijnige-bewegingen-boost-doorstroom"] = dict(
         dict(kop="Toepassen",
              opdracht="Leg in volledige zinnen uit.",
              oefeningen=[
-                 ("open", "Je loopt één ronde rond een atletiekpiste van 400 meter en komt weer uit "
+                 ("open", r"Je loopt één ronde rond een atletiekpiste van \(400\) meter en komt weer uit "
                           "bij je startpunt. Hoe groot is je afgelegde weg, en hoe groot je "
                           "verplaatsing?",
-                  "De afgelegde weg is 400 meter. De verplaatsing is nul, want eindpunt en startpunt "
+                  r"De afgelegde weg is \(400\) meter. De verplaatsing is nul, want eindpunt en startpunt "
                   "liggen op dezelfde plaats.", 4),
                  ("open", "Twee treinen rijden naast elkaar met dezelfde snelheid. Waarom lijkt de "
                           "andere trein stil te staan?",
@@ -1299,12 +1299,12 @@ OEFENBUNDELS["oefenbundel-vrije-val-verticale-worp-en-krachten-boost-doorstroom"
     hoe=HOE,
     reeksen=[
         dict(kop="De vrije val",
-             opdracht="Reken uit en schrijf je stappen op. Reken met g = 10 m/s².",
+             opdracht=r"Reken uit en schrijf je stappen op. Reken met \(g = 10\) m/s².",
              oefeningen=[
-                 ("kort", "Een steen valt 3 seconden. Hoe groot is zijn snelheid dan?", "30 m/s", W),
-                 ("kort", "Hoe diep is hij in die 3 seconden gevallen?", "45 meter", W),
-                 ("kort", "Een bal valt van 20 meter hoog. Hoe lang duurt die val?",
-                  "2 seconden", W),
+                 ("kort", r"Een steen valt \(3\) seconden. Hoe groot is zijn snelheid dan?", r"\(30\) m/s", W),
+                 ("kort", r"Hoe diep is hij in die \(3\) seconden gevallen?", r"\(45\) meter", W),
+                 ("kort", r"Een bal valt van \(20\) meter hoog. Hoe lang duurt die val?",
+                  r"\(2\) seconden", W),
                  ("open", "Waarom valt een veertje in een vacuümbuis even snel als een loden kogel?",
                   "In een vacuüm is er geen luchtweerstand. De zwaartekracht geeft elk voorwerp "
                   "dezelfde versnelling, wat ook zijn massa is.", 4),
@@ -1312,9 +1312,9 @@ OEFENBUNDELS["oefenbundel-vrije-val-verticale-worp-en-krachten-boost-doorstroom"
         dict(kop="De verticale worp",
              opdracht="Vul aan of leg uit.",
              oefeningen=[
-                 ("kort", "Je gooit een bal met 20 m/s recht naar boven. Hoe lang duurt het voor hij "
-                          "stilstaat in het hoogste punt?", "2 seconden", W),
-                 ("kort", "Hoe hoog komt die bal?", "20 meter", W),
+                 ("kort", r"Je gooit een bal met \(20\) m/s recht naar boven. Hoe lang duurt het voor hij "
+                          "stilstaat in het hoogste punt?", r"\(2\) seconden", W),
+                 ("kort", "Hoe hoog komt die bal?", r"\(20\) meter", W),
                  ("open", "Hoe groot is de snelheid in het hoogste punt, en hoe groot de versnelling "
                           "daar?",
                   "De snelheid is nul, maar de versnelling blijft de zwaarteveldsterkte, naar beneden "
@@ -1328,8 +1328,8 @@ OEFENBUNDELS["oefenbundel-vrije-val-verticale-worp-en-krachten-boost-doorstroom"
                           ("is overal in het heelal gelijk", "massa")], None, WW),
                  ("rij", [("hangt af van het hemellichaam", "gewicht"),
                           ("is een kracht", "gewicht")], None, WW),
-                 ("kort", "Een kind van 40 kg staat op aarde. Hoe groot is zijn gewicht? "
-                          "(g = 10 N/kg)", "400 newton", W),
+                 ("kort", r"Een kind van \(40\) kg staat op aarde. Hoe groot is zijn gewicht? "
+                          r"\(g = 10\) N/kg)", r"\(400\) newton", W),
                  ("open", "Een astronaut zweeft in een ruimtestation. Wat is er met zijn massa "
                           "gebeurd?",
                   "Niets, zijn massa is net dezelfde als op aarde. Hij is wel gewichtloos, want het "
@@ -1348,10 +1348,10 @@ OEFENBUNDELS["oefenbundel-vrije-val-verticale-worp-en-krachten-boost-doorstroom"
         dict(kop="Rekenen met de veerkracht",
              opdracht="Reken uit.",
              oefeningen=[
-                 ("kort", "Een veer met veerconstante 50 N/m wordt 0,2 meter uitgerekt. Hoe groot is "
-                          "de veerkracht?", "10 newton", W),
-                 ("kort", "Een kracht van 15 newton rekt een veer 0,3 meter uit. Hoe groot is de "
-                          "veerconstante?", "50 N/m", W),
+                 ("kort", r"Een veer met veerconstante \(50\) N/m wordt \(0{,}2\) meter uitgerekt. Hoe groot is "
+                          "de veerkracht?", r"\(10\) newton", W),
+                 ("kort", r"Een kracht van \(15\) newton rekt een veer \(0{,}3\) meter uit. Hoe groot is de "
+                          "veerconstante?", r"\(50\) N/m", W),
                  ("open", "Een grafiek van de kracht in functie van de uitrekking is een rechte door "
                           "de oorsprong. Wat betekent de steilheid?",
                   "Dat is de veerconstante. Een steilere rechte betekent een stijvere veer.", 3),
@@ -1359,10 +1359,10 @@ OEFENBUNDELS["oefenbundel-vrije-val-verticale-worp-en-krachten-boost-doorstroom"
         dict(kop="De wetten van Newton",
              opdracht="Vul aan, kies of leg uit.",
              oefeningen=[
-                 ("kort", "Een massa van 5 kg krijgt een versnelling van 3 m/s². Hoe groot is de "
-                          "resulterende kracht?", "15 newton", W),
-                 ("kort", "Een kracht van 24 newton werkt op een massa van 8 kg. Hoe groot is de "
-                          "versnelling?", "3 m/s²", W),
+                 ("kort", r"Een massa van \(5\) kg krijgt een versnelling van \(3\) m/s². Hoe groot is de "
+                          "resulterende kracht?", r"\(15\) newton", W),
+                 ("kort", r"Een kracht van \(24\) newton werkt op een massa van \(8\) kg. Hoe groot is de "
+                          "versnelling?", r"\(3\) m/s²", W),
                  ("kies", "Wat gebeurt er met een voorwerp waarop geen resulterende kracht werkt?",
                   ["het blijft in rust of beweegt met gelijke snelheid rechtdoor",
                    "het valt altijd naar beneden", "het versnelt gelijkmatig",
@@ -1402,10 +1402,10 @@ OEFENBUNDELS["oefenbundel-druk-en-de-gaswetten-boost-doorstroom"] = dict(
         dict(kop="Rekenen met druk",
              opdracht="Reken uit en schrijf je stappen op.",
              oefeningen=[
-                 ("kort", "Een kracht van 200 newton werkt op 0,5 m². Hoe groot is de druk?",
-                  "400 pascal", W),
-                 ("kort", "Een druk van 300 pascal werkt op 2 m². Hoe groot is de kracht?",
-                  "600 newton", W),
+                 ("kort", r"Een kracht van \(200\) newton werkt op \(0{,}5\,\text{m}^{2}\). Hoe groot is de druk?",
+                  r"\(400\) pascal", W),
+                 ("kort", r"Een druk van \(300\) pascal werkt op \(2\,\text{m}^{2}\). Hoe groot is de kracht?",
+                  r"\(600\) newton", W),
                  ("kort", "Wat is de SI-eenheid van druk?", "de pascal", W),
                  ("open", "Waarom zakt iemand met sneeuwschoenen minder diep weg in de sneeuw dan "
                           "iemand op gewone schoenen?",
@@ -1419,7 +1419,7 @@ OEFENBUNDELS["oefenbundel-druk-en-de-gaswetten-boost-doorstroom"] = dict(
                           ("hoe hoger je komt, hoe kleiner", "de luchtdruk")], "Welke druk?", WL),
                  ("waar", "De hydrostatische druk hangt af van de breedte van het vat.", False),
                  ("kort", "Hoeveel bar voegt elke tien meter water ongeveer toe?",
-                  "ongeveer 1 bar", W),
+                  r"ongeveer \(1\) bar", W),
                  ("open", "Waarom moet een duiker zijn oren klaren als hij afdaalt?",
                   "De waterdruk duwt op zijn trommelvlies, terwijl er in zijn middenoor nog de oude "
                   "druk staat. Door te klaren laat hij lucht in het middenoor, zodat de druk aan "
@@ -1458,12 +1458,12 @@ OEFENBUNDELS["oefenbundel-druk-en-de-gaswetten-boost-doorstroom"] = dict(
              oefeningen=[
                  ("kort", "Hoe noem je de temperatuurschaal die bij het absolute nulpunt begint?",
                   "de kelvinschaal", WL),
-                 ("rij", [("27 graden celsius in kelvin", "300 K"),
-                          ("373 kelvin in graden celsius", "100 °C")], None, W),
+                 ("rij", [(r"\(27\) graden celsius in kelvin", r"\(300\) K"),
+                          (r"\(373\) kelvin in graden celsius", r"\(100^{\circ}\text{C}\)")], None, W),
                  ("rij", [("bij gelijke druk", "isobaar"), ("bij gelijk volume", "isochoor"),
                           ("bij gelijke temperatuur", "isotherm")], "Welke naam?", WW),
-                 ("kort", "Een gas van 2 liter bij 100 kPa wordt bij gelijke temperatuur tot 1 liter "
-                          "geperst. Hoe groot wordt de druk?", "200 kPa", W),
+                 ("kort", r"Een gas van \(2\) liter bij \(100\) kPa wordt bij gelijke temperatuur tot \(1\) liter "
+                          "geperst. Hoe groot wordt de druk?", r"\(200\) kPa", W),
                  ("open", "Waarom moet je bij de gaswetten altijd in kelvin rekenen en niet in graden "
                           "celsius?",
                   "De wetten gaan over verhoudingen. Bij nul graden celsius is er nog beweging van de "
@@ -1482,8 +1482,8 @@ OEFENBUNDELS["oefenbundel-arbeid-energie-vermogen-en-rendement-boost-doorstroom"
         dict(kop="Uitgebreid: arbeid",
              opdracht="Arbeid staat enkel in de uitgebreide fiche. Reken uit en leg uit.",
              oefeningen=[
-                 ("kort", "Je duwt een doos 4 meter ver met 30 newton in de zin van de beweging. Hoe "
-                          "groot is de arbeid?", "120 joule", W),
+                 ("kort", r"Je duwt een doos \(4\) meter ver met \(30\) newton in de zin van de beweging. Hoe "
+                          "groot is de arbeid?", r"\(120\) joule", W),
                  ("kort", "Wat is de eenheid van arbeid?", "de joule", W),
                  ("open", "Je duwt met al je kracht tegen een muur die niet beweegt. Hoeveel arbeid "
                           "verricht je in de natuurkundige zin, en waarom?",
@@ -1506,14 +1506,14 @@ OEFENBUNDELS["oefenbundel-arbeid-energie-vermogen-en-rendement-boost-doorstroom"
                           ("een warme radiator", "warmte-energie")], "Welke vorm?", WW),
              ]),
         dict(kop="Rekenen met energie",
-             opdracht="Reken uit. Reken met g = 10 N/kg.",
+             opdracht=r"Reken uit. Reken met \(g = 10\) N/kg.",
              oefeningen=[
-                 ("kort", "Een massa van 4 kg ligt 5 meter hoog. Hoe groot is de hoogte-energie?",
-                  "200 joule", W),
-                 ("kort", "Een wagen van 1000 kg rijdt 10 m/s. Hoe groot is de kinetische energie?",
-                  "50 000 joule", W),
-                 ("kort", "Diezelfde wagen rijdt 20 m/s. Hoe groot is de kinetische energie nu?",
-                  "200 000 joule", W),
+                 ("kort", r"Een massa van \(4\) kg ligt \(5\) meter hoog. Hoe groot is de hoogte-energie?",
+                  r"\(200\) joule", W),
+                 ("kort", r"Een wagen van \(1000\) kg rijdt \(10\) m/s. Hoe groot is de kinetische energie?",
+                  r"\(50\,000\) joule", W),
+                 ("kort", r"Diezelfde wagen rijdt \(20\) m/s. Hoe groot is de kinetische energie nu?",
+                  r"\(200\,000\) joule", W),
                  ("open", "Je verdubbelt de snelheid en de kinetische energie wordt vier keer zo "
                           "groot. Leg uit waarom.",
                   "In de formule staat de snelheid in het kwadraat. Twee keer meer snelheid geeft dus "
@@ -1535,12 +1535,12 @@ OEFENBUNDELS["oefenbundel-arbeid-energie-vermogen-en-rendement-boost-doorstroom"
         dict(kop="Vermogen",
              opdracht="Reken uit.",
              oefeningen=[
-                 ("kort", "Een motor levert 600 joule in 3 seconden. Hoe groot is het vermogen?",
-                  "200 watt", W),
-                 ("kort", "Een toestel van 2000 watt staat 30 seconden aan. Hoeveel energie gebruikt "
-                          "het?", "60 000 joule", W),
-                 ("kort", "Een lamp van 1000 watt staat 2 uur aan. Hoeveel kilowattuur is dat?",
-                  "2 kWh", W),
+                 ("kort", r"Een motor levert \(600\) joule in \(3\) seconden. Hoe groot is het vermogen?",
+                  r"\(200\) watt", W),
+                 ("kort", r"Een toestel van \(2000\) watt staat \(30\) seconden aan. Hoeveel energie gebruikt "
+                          "het?", r"\(60\,000\) joule", W),
+                 ("kort", r"Een lamp van \(1000\) watt staat \(2\) uur aan. Hoeveel kilowattuur is dat?",
+                  r"\(2\) kWh", W),
                  ("open", "Twee kranen tillen dezelfde last even hoog, maar de ene doet er half zo "
                           "lang over. Wat geldt voor hun arbeid en voor hun vermogen?",
                   "De arbeid is gelijk, want de last en de hoogte zijn gelijk. Het vermogen van de "
@@ -1550,11 +1550,11 @@ OEFENBUNDELS["oefenbundel-arbeid-energie-vermogen-en-rendement-boost-doorstroom"
         dict(kop="Rendement",
              opdracht="Reken uit en leg uit.",
              oefeningen=[
-                 ("kort", "Een toestel krijgt 500 joule en levert 400 joule nuttig. Hoe groot is het "
-                          "rendement?", "80 procent", W),
-                 ("kort", "Een motor met een rendement van 25 procent krijgt 800 joule. Hoeveel "
-                          "nuttige energie levert hij?", "200 joule", W),
-                 ("open", "Waarom is het rendement van een toestel nooit 100 procent?",
+                 ("kort", r"Een toestel krijgt \(500\) joule en levert \(400\) joule nuttig. Hoe groot is het "
+                          "rendement?", r"\(80\) procent", W),
+                 ("kort", r"Een motor met een rendement van \(25\) procent krijgt \(800\) joule. Hoeveel "
+                          "nuttige energie levert hij?", r"\(200\) joule", W),
+                 ("open", r"Waarom is het rendement van een toestel nooit \(100\) procent?",
                   "Een deel van de energie wordt altijd omgezet in een vorm die je niet nodig hebt, "
                   "meestal warmte door wrijving of weerstand.", 4),
                  ("open", "Een ledlamp heeft een veel hoger rendement dan een gloeilamp. Wat betekent "
@@ -1574,8 +1574,8 @@ OEFENBUNDELS["oefenbundel-warmte-en-faseovergangen-boost-doorstroom"] = dict(
         dict(kop="Temperatuur en warmte",
              opdracht="Vul aan of leg uit.",
              oefeningen=[
-                 ("rij", [("27 graden celsius in kelvin", "300 K"),
-                          ("0 kelvin in graden celsius", "min 273 °C")], None, W),
+                 ("rij", [(r"\(27\) graden celsius in kelvin", r"\(300\) K"),
+                          (r"\(0\) kelvin in graden celsius", r"min \(273^{\circ}\text{C}\)")], None, W),
                  ("open", "Leg het verschil uit tussen temperatuur en warmte.",
                   "Temperatuur zegt hoe snel de deeltjes gemiddeld bewegen. Warmte is energie die van "
                   "een warm naar een koud voorwerp overgaat, en ze hangt ook van de massa af.", 4),
@@ -1594,19 +1594,19 @@ OEFENBUNDELS["oefenbundel-warmte-en-faseovergangen-boost-doorstroom"] = dict(
                   "temperatuur zelf, maar hoe snel je warmte verliest.", 4),
              ]),
         dict(kop="Rekenen met warmte",
-             opdracht="Reken uit. Reken met c = 4180 J/(kg·K) voor water.",
+             opdracht=r"Reken uit. Reken met \(c = 4180\) J/(kg·K) voor water.",
              oefeningen=[
-                 ("kort", "Hoeveel warmte heb je nodig om 1 kg water 10 graden op te warmen?",
-                  "41 800 joule", W),
-                 ("kort", "Hoeveel warmte heb je nodig om 2 kg water van 20 naar 30 graden te "
-                          "brengen?", "83 600 joule", W),
+                 ("kort", r"Hoeveel warmte heb je nodig om \(1\) kg water \(10\) graden op te warmen?",
+                  r"\(41\,800\) joule", W),
+                 ("kort", r"Hoeveel warmte heb je nodig om \(2\) kg water van \(20\) naar \(30\) graden te "
+                          "brengen?", r"\(83\,600\) joule", W),
                  ("open", "Leg uit waarom de zee veel langzamer opwarmt dan het zand op het strand.",
                   "Water heeft een veel grotere specifieke warmtecapaciteit. Je hebt dus veel meer "
                   "warmte nodig om één kilogram water één graad op te warmen dan voor één kilogram "
                   "zand.", 4),
-                 ("open", "Je giet een liter water van 80 graden bij een liter van 20 graden. Welke "
+                 ("open", r"Je giet een liter water van \(80\) graden bij een liter van \(20\) graden. Welke "
                           "eindtemperatuur verwacht je, en waarom?",
-                  "Ongeveer 50 graden, het gemiddelde. De massa's en de stof zijn gelijk, dus wat het "
+                  r"Ongeveer \(50\) graden, het gemiddelde. De massa's en de stof zijn gelijk, dus wat het "
                   "warme water afgeeft, neemt het koude op.", 4),
              ]),
         dict(kop="Welke faseovergang?",
@@ -1669,11 +1669,11 @@ OEFENBUNDELS["oefenbundel-elektriciteit-en-de-wet-van-ohm-boost-doorstroom"] = d
         dict(kop="Rekenen met de wet van Ohm",
              opdracht="Reken uit en schrijf je stappen op.",
              oefeningen=[
-                 ("kort", "Een weerstand van 20 ohm staat op 12 volt. Hoe groot is de stroom?",
-                  "0,6 ampère", W),
-                 ("kort", "Door een weerstand van 50 ohm loopt 0,2 ampère. Hoe groot is de spanning?",
-                  "10 volt", W),
-                 ("kort", "Op 230 volt loopt 2 ampère. Hoe groot is de weerstand?", "115 ohm", W),
+                 ("kort", r"Een weerstand van \(20\) ohm staat op \(12\) volt. Hoe groot is de stroom?",
+                  r"\(0{,}6\) ampère", W),
+                 ("kort", r"Door een weerstand van \(50\) ohm loopt \(0{,}2\) ampère. Hoe groot is de spanning?",
+                  r"\(10\) volt", W),
+                 ("kort", r"Op \(230\) volt loopt \(2\) ampère. Hoe groot is de weerstand?", r"\(115\) ohm", W),
                  ("open", "De spanning blijft gelijk en je halveert de weerstand. Wat gebeurt er met "
                           "de stroom, en waarom?",
                   "De stroom verdubbelt. Stroom is spanning gedeeld door weerstand, dus een halve "
@@ -1694,10 +1694,10 @@ OEFENBUNDELS["oefenbundel-elektriciteit-en-de-wet-van-ohm-boost-doorstroom"] = d
         dict(kop="Serie of parallel?",
              opdracht="Reken uit of leg uit.",
              oefeningen=[
-                 ("kort", "Twee weerstanden van 10 ohm staan in serie. Hoe groot is de totale "
-                          "weerstand?", "20 ohm", W),
-                 ("kort", "Twee weerstanden van 10 ohm staan parallel. Hoe groot is de totale "
-                          "weerstand?", "5 ohm", W),
+                 ("kort", r"Twee weerstanden van \(10\) ohm staan in serie. Hoe groot is de totale "
+                          "weerstand?", r"\(20\) ohm", W),
+                 ("kort", r"Twee weerstanden van \(10\) ohm staan parallel. Hoe groot is de totale "
+                          "weerstand?", r"\(5\) ohm", W),
                  ("open", "Twee lampjes staan in serie en je draait er één los. Wat gebeurt er met "
                           "het andere, en waarom?",
                   "Het gaat ook uit. In een serieschakeling is er maar één kring, en die is nu "
@@ -1718,10 +1718,10 @@ OEFENBUNDELS["oefenbundel-elektriciteit-en-de-wet-van-ohm-boost-doorstroom"] = d
         dict(kop="Vermogen en het Joule-effect",
              opdracht="Reken uit of leg uit.",
              oefeningen=[
-                 ("kort", "Een toestel op 230 volt trekt 2 ampère. Hoe groot is het vermogen?",
-                  "460 watt", W),
-                 ("kort", "Een lamp van 60 watt staat 5 uur aan. Hoeveel kilowattuur gebruikt ze?",
-                  "0,3 kWh", W),
+                 ("kort", r"Een toestel op \(230\) volt trekt \(2\) ampère. Hoe groot is het vermogen?",
+                  r"\(460\) watt", W),
+                 ("kort", r"Een lamp van \(60\) watt staat \(5\) uur aan. Hoeveel kilowattuur gebruikt ze?",
+                  r"\(0{,}3\) kWh", W),
                  ("open", "Wat is het Joule-effect, en noem een toestel dat erop werkt.",
                   "Een geleider met weerstand wordt warm als er stroom door loopt. Een "
                   "elektrische kachel, een waterkoker of een broodrooster werkt daarop.", 4),
@@ -1789,7 +1789,7 @@ OEFENBUNDELS["oefenbundel-veilig-werken-meten-en-levensreddend-handelen-boost-do
                           "vloeistof?",
                   "Kijk je van boven of van onder, dan lees je door de kijkhoek een verkeerde waarde "
                   "af. Je leest af onderaan de holle bovenkant van de vloeistof.", 4),
-                 ("kort", "Hoeveel beduidende cijfers heeft een meetresultaat van 1,2 meter?",
+                 ("kort", r"Hoeveel beduidende cijfers heeft een meetresultaat van \(1{,}2\) meter?",
                   "twee", W),
                  ("open", "Waarom herhaal je een meting een paar keer?",
                   "Om de invloed van toevallige meetfouten kleiner te maken. Het gemiddelde ligt "
@@ -1801,7 +1801,7 @@ OEFENBUNDELS["oefenbundel-veilig-werken-meten-en-levensreddend-handelen-boost-do
                  ("open", "Wat doe je altijd eerst bij een ongeval, voor je iemand helpt?",
                   "Je zorgt voor je eigen veiligheid en voor die van de omstaanders. Een hulpverlener "
                   "die zelf gewond raakt, helpt niemand.", 4),
-                 ("kort", "Welk noodnummer bel je in België?", "112", "60px"),
+                 ("kort", "Welk noodnummer bel je in België?", r"\(112\)", "60px"),
                  ("open", "Je vindt iemand die niet reageert maar wel normaal ademt. Wat doe je?",
                   "Je legt die persoon in de stabiele zijligging, zodat de luchtweg vrij blijft, en je "
                   "belt hulp. Je blijft de ademhaling in het oog houden.", 4),
@@ -1856,12 +1856,12 @@ OEFENBUNDELS["oefenbundel-grootheden-eenheden-en-wetenschappelijk-onderzoek-boos
         dict(kop="Omrekenen",
              opdracht="Reken uit.",
              oefeningen=[
-                 ("rij", [("0,25 kilogram in gram", "250 gram"), ("45 centimeter in meter",
-                                                                  "0,45 meter")], None, W),
-                 ("rij", [("2,5 kilometer in meter", "2500 meter"),
-                          ("3 milliliter in liter", "0,003 liter")], None, W),
-                 ("kort", "Hoeveel seconden is 2 microseconden, in de macht van tien geschreven?",
-                  "2 maal tien tot de macht min zes seconden", WL),
+                 ("rij", [(r"\(0{,}25\) kilogram in gram", r"\(250\) gram"), (r"\(45\) centimeter in meter",
+                                                                  r"\(0{,}45\) meter")], None, W),
+                 ("rij", [(r"\(2{,}5\) kilometer in meter", r"\(2500\) meter"),
+                          (r"\(3\) milliliter in liter", r"\(0{,}003\) liter")], None, W),
+                 ("kort", r"Hoeveel seconden is \(2\) microseconden, in de macht van tien geschreven?",
+                  r"\(2\) maal \(10^{-6}\) seconden", WL),
              ]),
         dict(kop="Welk verband?",
              opdracht="Schrijf recht evenredig, lineair, omgekeerd evenredig of kwadratisch.",
@@ -1880,8 +1880,8 @@ OEFENBUNDELS["oefenbundel-grootheden-eenheden-en-wetenschappelijk-onderzoek-boos
              opdracht="Vul aan of leg uit.",
              oefeningen=[
                  ("kort", "Je meet met een balans die tot op een gram nauwkeurig is. Hoe schrijf je "
-                          "325 gram op?", "als 325 gram, met drie beduidende cijfers", WL),
-                 ("open", "Waarom schrijf je dat resultaat niet op als 325,00 gram?",
+                          r"\(325\) gram op?", r"als \(325\) gram, met drie beduidende cijfers", WL),
+                 ("open", r"Waarom schrijf je dat resultaat niet op als \(325{,}00\) gram?",
                   "Dan doe je alsof je tot op een honderdste gram gemeten hebt, en dat is niet zo. Je "
                   "schrijft nooit meer beduidende cijfers op dan je gemeten hebt.", 4),
                  ("open", "Waarom maak je eerst een schatting van je antwoord?",
@@ -1895,9 +1895,9 @@ OEFENBUNDELS["oefenbundel-grootheden-eenheden-en-wetenschappelijk-onderzoek-boos
         dict(kop="De wetenschappelijke methode",
              opdracht="Nummer of vul aan.",
              oefeningen=[
-                 ("rij", [("data verzamelen", "4"), ("een hypothese formuleren", "2"),
-                          ("een onderzoeksplan maken", "3"),
-                          ("de probleemstelling afbakenen", "1")], "Nummer van 1 tot 4", "60px"),
+                 ("rij", [("data verzamelen", r"\(4\)"), ("een hypothese formuleren", r"\(2\)"),
+                          ("een onderzoeksplan maken", r"\(3\)"),
+                          ("de probleemstelling afbakenen", r"\(1\)")], r"Nummer van \(1\) tot \(4\)", "60px"),
                  ("kort", "Hoe noem je je onderbouwde verwachting voor je begint te meten?",
                   "de hypothese", WW),
                  ("kort", "Hoe noem je het stuk waarin je terugkijkt op je methode en resultaten?",

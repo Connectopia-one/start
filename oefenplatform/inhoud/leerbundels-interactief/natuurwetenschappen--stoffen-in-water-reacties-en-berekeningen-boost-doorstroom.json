@@ -46,11 +46,11 @@
    "blokken": [
     {
      "soort": "tekst",
-     "html": "De <strong>pH-schaal</strong> loopt gewoonlijk van <strong>0 tot 14</strong>. <strong>Onder 7 is zuur</strong>, <strong>7 is neutraal</strong>, <strong>boven 7 is basisch</strong>. Elke eenheid verschil is een <strong>factor tien</strong>: pH 3 is honderd keer zuurder dan pH 5."
+     "html": "De <strong>pH-schaal</strong> loopt gewoonlijk van <strong>\\(0\\) tot \\(14\\)</strong>. <strong>Onder \\(7\\) is zuur</strong>, <strong>\\(7\\) is neutraal</strong>, <strong>boven \\(7\\) is basisch</strong>. Elke eenheid verschil is een <strong>factor tien</strong>: pH \\(3\\) is honderd keer zuurder dan pH \\(5\\)."
     },
     {
      "soort": "tekst",
-     "html": "Een <strong>zuur ioniseert</strong> en geeft <strong>waterstofionen</strong> vrij; een <strong>hydroxide dissocieert</strong> en geeft <strong>hydroxide-ionen</strong> vrij. Los je natriumhydroxide op, dan komt de pH dus <strong>boven 7</strong>."
+     "html": "Een <strong>zuur ioniseert</strong> en geeft <strong>waterstofionen</strong> vrij; een <strong>hydroxide dissocieert</strong> en geeft <strong>hydroxide-ionen</strong> vrij. Los je natriumhydroxide op, dan komt de pH dus <strong>boven \\(7\\)</strong>."
     },
     {
      "soort": "tekst",
@@ -71,7 +71,7 @@
     },
     {
      "soort": "tekst",
-     "html": "Bij een <strong>neutralisatiereactie</strong> tussen een zuur en een base ontstaat er een <strong>zout en water</strong>, en de pH schuift naar <strong>7</strong> toe. De <strong>essentiële reactievergelijking</strong> laat de ionen weg die niet meedoen, de <strong>spectatorionen</strong>. Voor elke neutralisatie is dat dus: een <strong>waterstofion en een hydroxide-ion vormen samen water</strong>."
+     "html": "Bij een <strong>neutralisatiereactie</strong> tussen een zuur en een base ontstaat er een <strong>zout en water</strong>, en de pH schuift naar <strong>\\(7\\)</strong> toe. De <strong>essentiële reactievergelijking</strong> laat de ionen weg die niet meedoen, de <strong>spectatorionen</strong>. Voor elke neutralisatie is dat dus: een <strong>waterstofion en een hydroxide-ion vormen samen water</strong>."
     },
     {
      "soort": "tekst",
@@ -88,7 +88,7 @@
    "blokken": [
     {
      "soort": "tekst",
-     "html": "Eén <strong>mol</strong> is altijd <strong>hetzelfde aantal deeltjes</strong>, ongeveer <strong>6 maal 10 tot de 23</strong>. Dat getal heet het <strong>getal van Avogadro</strong>."
+     "html": "Eén <strong>mol</strong> is altijd <strong>hetzelfde aantal deeltjes</strong>, ongeveer <strong>\\(6 \\cdot 10\\) tot de \\(23\\)</strong>. Dat getal heet het <strong>getal van Avogadro</strong>."
     },
     {
      "soort": "tekst",
@@ -96,11 +96,11 @@
     },
     {
      "soort": "tekst",
-     "html": "De <strong>molaire massa</strong> lees je af in het periodiek systeem, in <strong>gram per mol</strong>; voor een molecule tel je de atomen samen. Water heeft 18 gram per mol, dus is <strong>2 mol water 36 gram</strong>, en <strong>36 gram water 2 mol</strong>."
+     "html": "De <strong>molaire massa</strong> lees je af in het periodiek systeem, in <strong>gram per mol</strong>; voor een molecule tel je de atomen samen. Water heeft \\(18\\) gram per mol, dus is <strong>\\(2\\) mol water \\(36\\) gram</strong>, en <strong>\\(36\\) gram water \\(2\\) mol</strong>."
     },
     {
      "soort": "tekst",
-     "html": "De <strong>molaire concentratie</strong> zegt hoeveel mol er in één liter zit, in <strong>mol per liter</strong>. Eén mol in een halve liter geeft dus <strong>2 mol per liter</strong>."
+     "html": "De <strong>molaire concentratie</strong> zegt hoeveel mol er in één liter zit, in <strong>mol per liter</strong>. Eén mol in een halve liter geeft dus <strong>\\(2\\) mol per liter</strong>."
     },
     {
      "soort": "tekst",
@@ -108,7 +108,7 @@
     },
     {
      "soort": "weetje",
-     "html": "Een mol koolstof weegt 12 gram en past in je hand. Toch zitten daar meer atomen in dan er sterren in het zichtbare heelal staan."
+     "html": "Een mol koolstof weegt \\(12\\) gram en past in je hand. Toch zitten daar meer atomen in dan er sterren in het zichtbare heelal staan."
     }
    ]
   }
@@ -118,7 +118,7 @@
   "Zouten en hydroxiden dissociëren: de ionen zaten al in het rooster en komen los.",
   "Zuren ioniseren: de molecule valt uiteen in ionen die er nog niet waren.",
   "Een elektrolyt geleidt in water doordat ze ionen vormt; suiker is een niet-elektrolyt.",
-  "Onder pH 7 is zuur, 7 is neutraal, boven 7 is basisch; elke eenheid is een factor tien.",
+  "Onder pH \\(7\\) is zuur, \\(7\\) is neutraal, boven \\(7\\) is basisch; elke eenheid is een factor tien.",
   "Bij een neutralisatie ontstaan uit een zuur en een base een zout en water.",
   "Oxidatie is elektronen afstaan, reductie is elektronen opnemen.",
   "Massa = stofhoeveelheid maal molaire massa.",

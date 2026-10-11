@@ -281,7 +281,7 @@ BUNDELS["het-menselijk-lichaam"] = dict(
             ("fig", tabel(["voedingsstof", "wordt omgezet in", "waar vooral"], [
                 ["eiwitten", "aminozuren", "maag en dunne darm"],
                 ["suikers zoals zetmeel", "glucose, fructose en/of galactose", "mond en dunne darm"],
-                ["vetten", "glycerol en 3 vetzuren", "dunne darm, met hulp van gal"],
+                ["vetten", r"glycerol en \(3\) vetzuren", "dunne darm, met hulp van gal"],
             ]), "Dat zijn de stofomzettingen van de spijsvertering: grote moleculen worden klein genoeg om door de darmwand te raken."),
             ("p", "In de <strong>dunne darm</strong> is de vertering klaar en gaan de verteerde "
                   "voedingsstoffen het bloed in. Dat opnemen heet <strong>absorptie</strong>, en het "
@@ -368,7 +368,7 @@ BUNDELS["het-menselijk-lichaam"] = dict(
     ],
     onthoud=[
         "Voedingsstoffen zijn brandstof, bouwstof of beschermstof.",
-        "Eiwitten → aminozuren, zetmeel → glucose, vetten → glycerol en 3 vetzuren.",
+        r"Eiwitten → aminozuren, zetmeel → glucose, vetten → glycerol en 3 vetzuren.",
         "De dunne darm neemt de voedingsstoffen op in het bloed: dat is de absorptie.",
         "Het hart heeft twee boezems en twee kamers; slagaders gaan weg van het hart, aders ernaartoe.",
         "Bloed bestaat uit plasma, rode bloedcellen, witte bloedcellen en bloedplaatjes.",
@@ -449,15 +449,15 @@ BUNDELS["voortplanting"] = dict(
         ]),
         dict(kop="De menstruatiecyclus", blokken=[
             ("fig", svg.menstruatiecyclus(), "Eén cyclus, met de vier gebeurtenissen die je moet kunnen benoemen."),
-            ("p", "Een cyclus duurt gemiddeld 28 dagen. De vier gebeurtenissen die je moet kunnen "
+            ("p", r"Een cyclus duurt gemiddeld \(28\) dagen. De vier gebeurtenissen die je moet kunnen "
                   "benoemen zijn de <strong>eicelrijping</strong>, de <strong>verdikking</strong> van het "
                   "baarmoederslijmvlies, de <strong>eisprong</strong> en de "
                   "<strong>menstruatie</strong>."),
             ("p", "Tijdens een cyclus <strong>rijpt</strong> er een eicel in een eierstok en "
                   "<strong>verdikt</strong> het <strong>baarmoederslijmvlies</strong>, zodat het een "
-                  "bevruchte eicel kan opvangen. Rond dag 14 volgt de <strong>eisprong</strong>: de rijpe "
+                  r"bevruchte eicel kan opvangen. Rond dag \(14\) volgt de <strong>eisprong</strong>: de rijpe "
                   "eicel komt vrij en wordt door de eitrechter opgevangen. Komt er geen bevruchting, dan "
-                  "wordt het slijmvlies afgestoten: dat is de <strong>menstruatie</strong>, meteen dag 1 "
+                  r"wordt het slijmvlies afgestoten: dat is de <strong>menstruatie</strong>, meteen dag \(1\) "
                   "van een nieuwe cyclus."),
             ("p", "De <strong>vruchtbare periode</strong> ligt rond de eisprong. Zaadcellen kunnen enkele "
                   "dagen overleven en de eicel ongeveer één dag, dus ze loopt van een paar dagen vóór tot "
@@ -531,7 +531,7 @@ BUNDELS["ecologie-en-biodiversiteit"] = dict(
                 ["windsnelheid", "anemometer", "m/s"],
                 ["bodemvochtigheid", "vochtigheidsmeter", "%"],
                 ["bodemhardheid", "valpen met plastic buis", "diepte in cm"],
-            ]), "Meet je onder de bomen 300 lux en op de open plek 20 000 lux, dan verklaart dat meteen waarom daar andere soorten groeien."),
+            ]), r"Meet je onder de bomen \(300\) lux en op de open plek \(20\,000\) lux, dan verklaart dat meteen waarom daar andere soorten groeien."),
             ("p", "Om uit te zoeken wélke soort je voor je hebt, ga je <strong>determineren</strong>. Je "
                   "volgt een <strong>determineertabel</strong> of <strong>determineerkaart</strong>: "
                   "telkens kies je tussen twee kenmerken tot je bij de juiste soort uitkomt. Om goed te "
@@ -646,7 +646,7 @@ BUNDELS["materie-stoffen-en-mengsels"] = dict(
             ("fig", svg.faseovergangen(), "Oranje: er gaat warmte bij, de deeltjes bewegen sneller. Blauw: er gaat warmte weg, de deeltjes komen dichter bij elkaar."),
             ("p", "<strong>Smelten</strong> is vast naar vloeibaar, <strong>stollen</strong> het "
                   "omgekeerde; voor eenzelfde zuivere stof gebeuren ze bij dezelfde temperatuur, voor water "
-                  "bij 0 °C. <strong>Verdampen</strong> is vloeibaar naar gasvormig, "
+                  r"bij \(0^{\circ}\text{C}\). <strong>Verdampen</strong> is vloeibaar naar gasvormig, "
                   "<strong>condenseren</strong> het omgekeerde. <strong>Sublimeren</strong> gaat van vast "
                   "rechtstreeks naar gas — droogijs is vast koolstofdioxide en heet daarom droog ijs — en "
                   "<strong>rijpen</strong> of <strong>desublimeren</strong> gaat van gas rechtstreeks naar "
@@ -656,7 +656,7 @@ BUNDELS["materie-stoffen-en-mengsels"] = dict(
                   "lucht. Condenseren zie je op een koud raam: het koude glas koelt de lucht ernaast af, "
                   "en koude lucht kan minder waterdamp bevatten."),
             ("weetje", "Tijdens het smelten van ijs <em>stijgt</em> de temperatuur niet. Zolang er nog ijs "
-                       "drijft, blijft het mengsel 0 °C: alle toegevoerde warmte gaat naar het losmaken van "
+                       r"drijft, blijft het mengsel \(0^{\circ}\text{C}\): alle toegevoerde warmte gaat naar het losmaken van "
                        "de deeltjes, niet naar opwarmen."),
         ]),
         dict(kop="Uitzetten en krimpen", blokken=[
@@ -715,7 +715,7 @@ BUNDELS["materie-stoffen-en-mengsels"] = dict(
                       "deeltje zelf uit meerdere atomen bestaat."),
             ("p", "Oplossen verandert daar niets aan: de suikerdeeltjes zitten verspreid tussen de deeltjes "
                   "van de melk, maar het is nog altijd suiker. Wel verandert een mengsel de "
-                  "<strong>stofeigenschappen</strong>: zuiver water bevriest bij 0 °C, zeewater pas lager. "
+                  r"<strong>stofeigenschappen</strong>: zuiver water bevriest bij \(0^{\circ}\text{C}\), zeewater pas lager. "
                   "Daarom strooien ze zout op de weg."),
             ("p", "Een <strong>stofeigenschap</strong> is een kenmerk dat typisch is voor een stof en niet "
                   "afhangt van hoe groot je stuk is: de smelttemperatuur, de kooktemperatuur, de kleur, de "
@@ -735,7 +735,7 @@ BUNDELS["materie-stoffen-en-mengsels"] = dict(
 # ───────────────────────────────────────── 7. Massadichtheid
 BUNDELS["massadichtheid"] = dict(
     vak=VAK, niveau=SPARK, titel="Massadichtheid",
-    onder="ρ = m / V, en alles wat je daarmee kan uitrekenen en verklaren.",
+    onder=r"\(\rho = m / V\), en alles wat je daarmee kan uitrekenen en verklaren.",
     secties=[
         dict(kop="Wat massadichtheid is", blokken=[
             ("p", "Waarom weegt een blok ijzer zwaarder dan een even groot blok hout? Omdat ijzer een "
@@ -744,11 +744,11 @@ BUNDELS["massadichtheid"] = dict(
                   "ruimte zit."),
             ("fig", tabel(["grootheid", "symbool", "SI-eenheid", "ook gebruikt"], [
                 ["massa", "m", "kilogram (kg)", "gram (g)"],
-                ["volume", "V", "kubieke meter (m³)", "liter (L), cm³"],
-                ["massadichtheid", "ρ (rho)", "kilogram per kubieke meter (kg/m³)", "g/cm³"],
+                ["volume", "V", r"kubieke meter (\(\text{m}^{3}\))", r"liter (L), \(\text{cm}^{3}\)"],
+                ["massadichtheid", "ρ (rho)", r"kilogram per kubieke meter (kg/\(\text{m}^{3}\))", r"g/\(\text{cm}^{3}\)"],
             ]), "ρ is de Griekse letter rho. Let op het verschil tussen de kleine v (snelheid) en de hoofdletter V (volume)."),
-            ("kader", "<strong>ρ = m / V</strong> — je deelt de massa door het volume.<br>"
-                      "Daaruit volgt <strong>m = ρ × V</strong> en <strong>V = m / ρ</strong>. "
+            ("kader", r"<strong>\(\rho = m / V\)</strong> — je deelt de massa door het volume.<br>"
+                      r"Daaruit volgt <strong>\(m = \rho \times V\)</strong> en <strong>\(V = m / \rho\)</strong>. "
                       "Met dezelfde formule kan je dus alle drie de grootheden berekenen."),
             ("p", "Massadichtheid is een <strong>stofeigenschap</strong> en zelfs een stofconstante: ze "
                   "hangt niet af van hoe groot je stuk is. Een spijker en een balk van hetzelfde ijzer "
@@ -766,43 +766,43 @@ BUNDELS["massadichtheid"] = dict(
                   "de vloeistof drijft."),
             ("p", "Van een <strong>regelmatig voorwerp</strong> reken je het volume uit."),
             ("fig", tabel(["figuur", "formule", "voorbeeld"], [
-                ["kubus", "V = z³ &nbsp;(z = de ribbe of zijde)", "ribbe 2 cm → V = 2 × 2 × 2 = 8 cm³"],
-                ["balk", "V = l · b · h &nbsp;(lengte, breedte, hoogte)", "5 × 4 × 2 = 40 cm³"],
-                ["bol", "V = 4/3 · π · r³ &nbsp;(r = de straal)", "straal 3 cm → 4/3 × 3,14 × 27 = 113,04 cm³"],
-                ["cilinder", "V = π · r² · h &nbsp;(straal en hoogte)", "straal 2 cm, hoogte 10 cm → 3,14 × 4 × 10 = 125,6 cm³"],
-            ]), "Reken met π ≈ 3,14 als er niets anders bij staat. Elke lengte in dezelfde eenheid, anders klopt je volume niet."),
+                ["kubus", r"\(V = z\)³ &nbsp;(z = de ribbe of zijde)", r"ribbe 2 cm → \(V = 2 \cdot 2 \cdot 2 = 8\,\text{cm}^{3}\)"],
+                ["balk", r"\(V = l \cdot b \cdot h\) &nbsp;(lengte, breedte, hoogte)", r"\(5 \cdot 4 \cdot 2 = 40\,\text{cm}^{3}\)"],
+                ["bol", r"\(V = \tfrac{4}{3} \cdot \pi \cdot r^{3}\) &nbsp;(r = de straal)", r"straal 3 cm → \(\tfrac{4}{3} \cdot 3{,}14 \cdot 27 = 113{,}04\,\text{cm}^{3}\)"],
+                ["cilinder", r"\(V = \pi \cdot r^{2} \cdot h\) &nbsp;(straal en hoogte)", r"straal 2 cm, hoogte 10 cm → \(3{,}14 \cdot 4 \cdot 10 = 125{,}6\,\text{cm}^{3}\)"],
+            ]), r"Reken met \(\pi \approx 3{,}14\) als er niets anders bij staat. Elke lengte in dezelfde eenheid, anders klopt je volume niet."),
             ("p", "Van een <strong>onregelmatig voorwerp</strong>, zoals een steen of een moer, bepaal je "
                   "het volume door <strong>onderdompeling</strong>. Het voorwerp duwt evenveel water opzij "
                   "als zijn eigen volume."),
             ("fig", svg.onderdompeling(), "Het verschil tussen het waterpeil vóór en na is het volume."),
             ("fig", svg.maatladder(["m³", "dm³ = L", "cm³ = mL"], onder="× 1000 naar beneden, : 1000 naar boven"),
-             "1 m³ = 1000 L, 1 L = 1000 cm³, en 1 mL is precies 1 cm³. Dus 2 L = 0,002 m³ en 0,5 m³ = 500 L."),
-            ("kader", "Van <strong>g/cm³ naar kg/m³</strong> vermenigvuldig je met 1000, en omgekeerd deel "
-                      "je door 1000. Water is 1 g/cm³ = 1000 kg/m³; aluminium is 2700 kg/m³ = 2,7 g/cm³. "
-                      "Eén liter water weegt dus precies 1 kg."),
+             r"\(1\,\text{m}^{3} = 1000\) L, \(1\) L = \(1000\,\text{cm}^{3}\), en \(1\) mL is precies \(1\,\text{cm}^{3}\). Dus \(2\) L = \(0{,}002\,\text{m}^{3}\) en \(0{,}5\,\text{m}^{3} = 500\) L."),
+            ("kader", r"Van <strong>g/\(\text{cm}^{3}\) naar kg/\(\text{m}^{3}\)</strong> vermenigvuldig je met \(1000\), en omgekeerd deel "
+                      r"je door \(1000\). Water is \(1\) g/\(\text{cm}^{3}\) = \(1000\) kg/\(\text{m}^{3}\); aluminium is \(2700\) kg/\(\text{m}^{3}\) = \(2{,}7\) g/\(\text{cm}^{3}\). "
+                      r"Eén liter water weegt dus precies \(1\) kg."),
         ]),
-        dict(kop="Rekenen met ρ = m / V", blokken=[
+        dict(kop=r"Rekenen met \(\rho = m / V\)", blokken=[
             ("fig", tabel(["wat je zoekt", "hoe", "voorbeeld"], [
-                ["massadichtheid", "ρ = m / V", "300 g en 100 cm³ → 3 g/cm³"],
-                ["massa", "m = ρ × V", "19 g/cm³ × 3 cm³ = 57 g goud"],
-                ["volume", "V = m / ρ", "780 g ijzer : 7,8 g/cm³ = 100 cm³"],
-            ]), "Werk altijd eerst het volume uit als je een kubus, balk, bol of cilinder krijgt: 72 g in een kubus van 2 cm is 72 : 8 = 9 g/cm³."),
-            ("p", "Een voorbeeld met onderdompeling: het water stijgt van 40 mL naar 55 mL, dus het volume "
-                  "is 15 cm³. Weegt het blokje 40,5 g, dan is ρ = 40,5 : 15 = 2,7 g/cm³ — waarschijnlijk "
-                  "aluminium. En 2 L olie van 0,9 g/cm³ weegt 0,9 × 2000 = 1800 g, dus 1,8 kg."),
+                ["massadichtheid", r"\(\rho = m / V\)", r"300 g en \(100\,\text{cm}^{3}\) → 3 g/\(\text{cm}^{3}\)"],
+                ["massa", r"\(m = \rho \times V\)", r"\(19\) g/\(\text{cm}^{3}\) × \(3\,\text{cm}^{3}\) = \(57\) g goud"],
+                ["volume", r"\(V = m / \rho\)", r"\(780\) g ijzer : \(7{,}8\) g/\(\text{cm}^{3}\) = \(100\,\text{cm}^{3}\)"],
+            ]), r"Werk altijd eerst het volume uit als je een kubus, balk, bol of cilinder krijgt: \(72\) g in een kubus van \(2\) cm is \(72 : 8 = 9\) g/\(\text{cm}^{3}\)."),
+            ("p", r"Een voorbeeld met onderdompeling: het water stijgt van \(40\) mL naar \(55\) mL, dus het volume "
+                  r"is \(15\,\text{cm}^{3}\). Weegt het blokje \(40{,}5\) g, dan is \(\rho = 40{,}5 : 15 = 2{,}7\) g/\(\text{cm}^{3}\) — waarschijnlijk "
+                  r"aluminium. En \(2\) L olie van \(0{,}9\) g/\(\text{cm}^{3}\) weegt \(0{,}9 \cdot 2000 = 1800\) g, dus \(1{,}8\) kg."),
         ]),
         dict(kop="Het verband tussen massa en volume", blokken=[
-            ("p", "Meet je van dezelfde stof verschillende stukken, dan zie je een vast patroon: 10 cm³ "
-                  "weegt 27 g, 20 cm³ weegt 54 g, 30 cm³ weegt 81 g. Telkens als het volume verdubbelt, "
+            ("p", r"Meet je van dezelfde stof verschillende stukken, dan zie je een vast patroon: \(10\,\text{cm}^{3}\) "
+                  r"weegt \(27\) g, \(20\,\text{cm}^{3}\) weegt \(54\) g, \(30\,\text{cm}^{3}\) weegt \(81\) g. Telkens als het volume verdubbelt, "
                   "verdubbelt de massa. Massa en volume zijn dus <strong>recht evenredig</strong>, en de "
-                  "verhouding m/V is overal dezelfde: hier 2,7 g/cm³, en dat is de massadichtheid."),
+                  r"verhouding m/V is overal dezelfde: hier \(2{,}7\) g/\(\text{cm}^{3}\), en dat is de massadichtheid."),
             ("fig", svg.evenredig_grafieken(),
              "Zet je massa (y) tegenover volume (x) voor één stof, dan krijg je de linkse grafiek: een rechte door de oorsprong."),
             ("p", "Staan er twee rechten in één grafiek, dan heeft de <strong>steilste</strong> de grootste "
                   "massadichtheid: bij hetzelfde volume hoort daar de grootste massa. Zo herken je op een "
                   "grafiek of in een tabel welke meetresultaten bij welke stof horen."),
             ("p", "Bij een <strong>vaste massa</strong> ligt het net omgekeerd: wordt het volume groter, "
-                  "dan wordt ρ = m / V kleiner. Massadichtheid en volume zijn dan "
+                  r"dan wordt \(\rho = m / V\) kleiner. Massadichtheid en volume zijn dan "
                   "<strong>omgekeerd evenredig</strong>: het volume staat in de formule onder de deelstreep. Daarom drijft een schip van staal: door zijn grote volume "
                   "is zijn gemiddelde massadichtheid klein."),
         ]),
@@ -814,21 +814,21 @@ BUNDELS["massadichtheid"] = dict(
             ]), "Laat je een voorwerp dat drijft onder water los, dan stijgt het tot het weer aan de oppervlakte komt."),
             ("p", "Het gaat dus altijd om de <strong>vergelijking van twee massadichtheden</strong>, niet "
                   "om het gewicht op zich: een zware boomstam drijft en een klein muntstuk zinkt. Water is "
-                  "1 g/cm³, dus ijzer (7,8) en aluminium (2,7) zinken, terwijl kurk (0,24) en olie (0,9) "
-                  "blijven drijven. Een voorwerp van 1200 kg/m³ zinkt in water van 1000 kg/m³."),
-            ("p", "Een blokje van 60 g met een volume van 75 cm³ heeft ρ = 60 : 75 = 0,8 g/cm³: dat drijft. "
+                  r"\(1\) g/\(\text{cm}^{3}\), dus ijzer \((7{,}8)\) en aluminium \((2{,}7)\) zinken, terwijl kurk \((0{,}24)\) en olie \((0{,}9)\) "
+                  r"blijven drijven. Een voorwerp van \(1200\) kg/\(\text{m}^{3}\) zinkt in water van \(1000\) kg/\(\text{m}^{3}\)."),
+            ("p", r"Een blokje van \(60\) g met een volume van \(75\,\text{cm}^{3}\) heeft \(\rho = 60 : 75 = 0{,}8\) g/\(\text{cm}^{3}\): dat drijft. "
                   "IJs drijft om dezelfde reden: bij het bevriezen zet water uit, dus ijs is ongeveer "
-                  "0,92 g/cm³. En een vetlaag blijft bovenop de soep liggen omdat vet ongeveer 0,9 g/cm³ "
+                  r"\(0{,}92\) g/\(\text{cm}^{3}\). En een vetlaag blijft bovenop de soep liggen omdat vet ongeveer \(0{,}9\) g/\(\text{cm}^{3}\) "
                   "is en niet mengt met water."),
             ("weetje", "Hetzelfde geldt voor gassen: een luchtballon stijgt omdat de warme lucht erin een "
                        "kleinere massadichtheid heeft dan de koudere buitenlucht."),
         ]),
     ],
     onthoud=[
-        "ρ = m / V, en dus m = ρ × V en V = m / ρ.",
-        "V kubus = z³, V balk = l·b·h, V bol = 4/3·π·r³, V cilinder = π·r²·h.",
-        "Onregelmatig voorwerp: volume bepalen door onderdompeling; 1 mL = 1 cm³.",
-        "1 m³ = 1000 L; van g/cm³ naar kg/m³ maal 1000. Water is 1 g/cm³ = 1000 kg/m³.",
+        r"\(\rho = m / V\), en dus \(m = \rho \times V\) en \(V = m / \rho\).",
+        r"V kubus = \(z^{3}\), V balk = \(l \cdot b \cdot h\), V bol = \(\tfrac{4}{3} \cdot \pi \cdot r^{3}\), V cilinder = \(\pi \cdot r^{2} \cdot h\).",
+        r"Onregelmatig voorwerp: volume bepalen door onderdompeling; \(1\) mL = \(1\,\text{cm}^{3}\).",
+        r"\(1\,\text{m}^{3} = 1000\) L; van g/\(\text{cm}^{3}\) naar kg/\(\text{m}^{3} \cdot 1000\). Water is \(1\) g/\(\text{cm}^{3}\) = \(1000\) kg/\(\text{m}^{3}\).",
         "Massa en volume van dezelfde stof zijn recht evenredig: een rechte door de oorsprong.",
         "Kleinere massadichtheid dan de vloeistof = drijven; gelijk = zweven; groter = zinken.",
     ],
@@ -837,7 +837,7 @@ BUNDELS["massadichtheid"] = dict(
 # ───────────────────────────────────────── 8. Energie, kracht en snelheid
 BUNDELS["energie-kracht-en-snelheid"] = dict(
     vak=VAK, niveau=SPARK, titel="Energie, kracht en snelheid",
-    onder="Energievormen en hun omzettingen, krachten en hun uitwerking, en v = Δx / Δt.",
+    onder=r"Energievormen en hun omzettingen, krachten en hun uitwerking, en \(v = \Delta x / \Delta t\).",
     secties=[
         dict(kop="Energievormen", blokken=[
             ("fig", tabel(["energievorm", "waar je ze tegenkomt"], [
@@ -866,18 +866,18 @@ BUNDELS["energie-kracht-en-snelheid"] = dict(
             ("p", "Krachten die je moet herkennen: <strong>zwaartekracht</strong> (trekt alles naar het "
                   "middelpunt van de aarde), <strong>wrijvingskracht</strong>, <strong>trekkracht</strong>, "
                   "<strong>duwkracht</strong>, <strong>spierkracht</strong>, <strong>motorkracht</strong> "
-                  "en <strong>veerkracht</strong>. Hang je een gewicht aan een dynamometer en lees je 12 N "
+                  r"en <strong>veerkracht</strong>. Hang je een gewicht aan een dynamometer en lees je \(12\) N "
                   "af, dan heb je de zwaartekracht op dat gewicht gemeten — geen massa, want die meet je "
                   "in kilogram met een weegschaal."),
             ("fig", svg.krachtpijl(), "Een kracht teken je als een pijl: ze is een vectoriële grootheid met vier kenmerken."),
             ("p", "<strong>Aangrijpingspunt</strong>: waar de kracht aangrijpt. <strong>Grootte</strong>: "
                   "de lengte van de pijl. <strong>Richting</strong>: de lijn waarop ze werkt. "
-                  "<strong>Zin</strong>: welke kant ze op wijst. Een kracht van 10 N naar links en één van "
-                  "10 N naar rechts hebben dus dezelfde richting, maar een andere zin."),
+                  r"<strong>Zin</strong>: welke kant ze op wijst. Een kracht van \(10\) N naar links en één van "
+                  r"\(10\) N naar rechts hebben dus dezelfde richting, maar een andere zin."),
             ("p", "Werken er meerdere krachten, dan tel je ze samen tot de <strong>resulterende "
-                  "kracht</strong> of resultante. Twee mensen die allebei 200 N in dezelfde zin duwen, "
-                  "geven samen 400 N. Twee kinderen die allebei 150 N in tegengestelde zin trekken, geven "
-                  "een resultante van 0 N: de twee krachten heffen elkaar op en het touw beweegt niet. Bij een resultante van 0 N blijft een "
+                  r"kracht</strong> of resultante. Twee mensen die allebei \(200\) N in dezelfde zin duwen, "
+                  r"geven samen \(400\) N. Twee kinderen die allebei \(150\) N in tegengestelde zin trekken, geven "
+                  r"een resultante van \(0\) N: de twee krachten heffen elkaar op en het touw beweegt niet. Bij een resultante van \(0\) N blijft een "
                   "voorwerp in <strong>rust</strong>, of het behoudt zijn <strong>constante "
                   "snelheid</strong>."),
             ("fig", tabel(["uitwerking", "wat er verandert", "voorbeeld"], [
@@ -890,22 +890,22 @@ BUNDELS["energie-kracht-en-snelheid"] = dict(
         ]),
         dict(kop="Constante snelheid", blokken=[
             ("kader", "De formule voor een <strong>constante snelheid</strong>:<br>"
-                      "<strong>v = Δx / Δt</strong> — de verplaatsing gedeeld door de tijdsduur.<br>"
-                      "Daaruit volgt <strong>Δx = v × Δt</strong> en <strong>Δt = Δx / v</strong>.<br>"
+                      r"<strong>\(v = \Delta x / \Delta t\)</strong> — de verplaatsing gedeeld door de tijdsduur.<br>"
+                      r"Daaruit volgt <strong>\(\Delta x = v \times \Delta t\)</strong> en <strong>\(\Delta t = \Delta x / v\)</strong>.<br>"
                       "Δx is de verplaatsing in meter (m), Δt de tijdsduur in seconde (s), v de snelheid in "
                       "meter per seconde (m/s). Kilometer per uur (km/h) mag ook, maar is geen SI-eenheid."),
-            ("p", "Iemand die 100 m aflegt in 20 s, haalt 100 : 20 = 5 m/s. Een auto die 90 km rijdt in "
-                  "2 uur, haalt 90 : 2 = 45 km/h. Rijdt hij het eerste uur 60 km en het tweede uur 80 km, "
-                  "dan is zijn gemiddelde snelheid 140 : 2 = 70 km/h."),
-            ("p", "Omgekeerd: een fietser die 30 s aan 4 m/s rijdt, legt 4 × 30 = 120 m af. Een wandelaar "
-                  "doet over 300 m aan 5 m/s precies 300 : 5 = 60 s, dus één minuut."),
+            ("p", r"Iemand die \(100\) m aflegt in \(20\) s, haalt \(100 : 20 = 5\) m/s. Een auto die \(90\) km rijdt in "
+                  r"\(2\) uur, haalt \(90 : 2 = 45\) km/h. Rijdt hij het eerste uur \(60\) km en het tweede uur \(80\) km, "
+                  r"dan is zijn gemiddelde snelheid \(140 : 2 = 70\) km/h."),
+            ("p", r"Omgekeerd: een fietser die \(30\) s aan \(4\) m/s rijdt, legt \(4 \cdot 30 = 120\) m af. Een wandelaar "
+                  r"doet over \(300\) m aan \(5\) m/s precies \(300 : 5 = 60\) s, dus één minuut."),
             ("fig", svg.maatladder(["km/h", "m/s"], onder="km/h → m/s: delen door 3,6 · m/s → km/h: maal 3,6"),
-             "5 m/s = 18 km/h, 72 km/h = 20 m/s, 36 km/h = 10 m/s. Handig om te onthouden: 36 km/h is precies 10 m/s."),
-            ("p", "Let op je eenheden. 1 km = 1000 m, 1 h = 60 min = 3600 s, dus 2 uur is 7200 s en 5 min "
-                  "is 300 s. Reken tijd altijd eerst om naar seconden als je in m/s werkt: vergeet je dat, "
-                  "dan zit je antwoord er een factor 60 naast. Wil je snelheden vergelijken, zet ze dan "
-                  "eerst in dezelfde eenheid: 15 m/s is 54 km/h, en dat is sneller dan 50 km/h of dan 1 km "
-                  "in 2 minuten (30 km/h). Een hardloper die 400 m in 50 s doet, haalt 8 m/s of 28,8 km/h."),
+             r"\(5\) m/s = \(18\) km/h, \(72\) km/h = \(20\) m/s, \(36\) km/h = \(10\) m/s. Handig om te onthouden: \(36\) km/h is precies \(10\) m/s."),
+            ("p", r"Let op je eenheden. \(1\) km = \(1000\) m, \(1\) h = \(60\) min = \(3600\) s, dus \(2\) uur is \(7200\) s en \(5\) min "
+                  r"is \(300\) s. Reken tijd altijd eerst om naar seconden als je in m/s werkt: vergeet je dat, "
+                  r"dan zit je antwoord er een factor \(60\) naast. Wil je snelheden vergelijken, zet ze dan "
+                  r"eerst in dezelfde eenheid: \(15\) m/s is \(54\) km/h, en dat is sneller dan \(50\) km/h of dan \(1\) km "
+                  r"in \(2\) minuten (\(30\) km/h). Een hardloper die \(400\) m in \(50\) s doet, haalt \(8\) m/s of \(28{,}8\) km/h."),
         ]),
         dict(kop="Grafieken en verbanden", blokken=[
             ("p", "Zet je de afgelegde weg (y) uit tegenover de tijd (x), dan betekent een "
@@ -913,8 +913,8 @@ BUNDELS["energie-kracht-en-snelheid"] = dict(
                   "beweegt: in elke seconde komt er evenveel weg bij. De <strong>steilheid</strong> van die "
                   "rechte is de snelheid, dus van twee rechten gaat de steilste het snelst. Een "
                   "<strong>horizontaal stuk</strong> betekent dat het voorwerp stilstaat: de tijd loopt "
-                  "door, de afstand verandert niet, de snelheid is 0 m/s. Lees je bij 4 s een afstand van "
-                  "20 m af, dan is v = 20 : 4 = 5 m/s."),
+                  r"door, de afstand verandert niet, de snelheid is \(0\) m/s. Lees je bij \(4\) s een afstand van "
+                  r"\(20\) m af, dan is \(v = 20 : 4 = 5\) m/s."),
             ("fig", tabel(["wat vastligt", "verband", "in woorden"], [
                 ["de snelheid", "verplaatsing en tijdsduur zijn <strong>recht evenredig</strong>", "twee keer zo lang rijden is twee keer zo ver"],
                 ["de tijdsduur", "verplaatsing en snelheid zijn <strong>recht evenredig</strong>", "twee keer zo snel is twee keer zo ver"],
@@ -927,8 +927,8 @@ BUNDELS["energie-kracht-en-snelheid"] = dict(
         "Kracht: symbool F, eenheid newton (N), gemeten met een dynamometer.",
         "Vier kenmerken van een kracht: aangrijpingspunt, grootte, richting en zin.",
         "Statische uitwerking = vervorming; dynamische uitwerking = verandering van beweging.",
-        "v = Δx / Δt; m/s → km/h maal 3,6, km/h → m/s delen door 3,6.",
-        "Een rechte door de oorsprong in een x-t-grafiek betekent een constante snelheid.",
+        r"\(v = \Delta x / \Delta t\); m/s → km/h maal \(3{,}6\), km/h → m/s delen door \(3{,}6\).",
+        r"Een rechte door de oorsprong in een \(x-t\)-grafiek betekent een constante snelheid.",
     ],
 )
 
@@ -968,10 +968,10 @@ BUNDELS["veilig-werken-meten-en-eenheden"] = dict(
                 ["windsnelheid", "anemometer"],
                 ["bodemvochtigheid", "vochtigheidsmeter"],
                 ["bodemhardheid", "valpen met plastic buis"],
-            ]), "Ook in een <strong>biotoop</strong> gebruik je deze instrumenten: je bepaalt er de temperatuur, het licht, de luchtvochtigheid, de bodemvochtigheid en de bodemhardheid mee. Deze tabel staat in bijlage 1 van de vakfiche — en die bijlage mag je níet gebruiken op het examen."),
+            ]), r"Ook in een <strong>biotoop</strong> gebruik je deze instrumenten: je bepaalt er de temperatuur, het licht, de luchtvochtigheid, de bodemvochtigheid en de bodemhardheid mee. Deze tabel staat in bijlage \(1\) van de vakfiche — en die bijlage mag je níet gebruiken op het examen."),
             ("p", "Kies uit gelijksoortige instrumenten dat met de <strong>gepaste "
-                  "nauwkeurigheid</strong>. Moet je 25 mL afmeten, neem dan een maatcilinder van 50 mL met "
-                  "streepjes van 1 mL, niet één van 1 L met streepjes van 50 mL en al helemaal geen emmer. "
+                  r"nauwkeurigheid</strong>. Moet je \(25\) mL afmeten, neem dan een maatcilinder van \(50\) mL met "
+                  r"streepjes van \(1\) mL, niet één van \(1\) L met streepjes van \(50\) mL en al helemaal geen emmer. "
                   "Een <strong>schuifmaat</strong> leest tienden van millimeters af, een meetlat alleen "
                   "hele millimeters. Te weinig nauwkeurig is even onbruikbaar als helemaal niets."),
             ("p", "Voor bekijken in plaats van meten gebruik je een <strong>loep</strong>, een "
@@ -981,42 +981,42 @@ BUNDELS["veilig-werken-meten-en-eenheden"] = dict(
             ("kader", "<strong>Correct aflezen.</strong> Zet een maatcilinder recht, houd je oog op "
                       "dezelfde hoogte als de vloeistof en lees af aan de <em>onderkant van de holle "
                       "bolling</em>. Kijk je van bovenaf of schuin, dan lees je ernaast. Weeg je iets in "
-                      "een bekerglas, weeg dan eerst het lege glas: een leeg bekerglas van 120 g dat met "
-                      "water 370 g weegt, bevat 250 g water. En meet liefst meerdere keren: krijg je "
-                      "12,4 cm, 12,5 cm en 12,4 cm, neem dan het gemiddelde. Herhalen vangt kleine "
+                      r"een bekerglas, weeg dan eerst het lege glas: een leeg bekerglas van \(120\) g dat met "
+                      r"water \(370\) g weegt, bevat \(250\) g water. En meet liefst meerdere keren: krijg je "
+                      r"\(12{,}4\) cm, \(12{,}5\) cm en \(12{,}4\) cm, neem dan het gemiddelde. Herhalen vangt kleine "
                       "afleesfouten op."),
         ]),
         dict(kop="Grootheden, eenheden en symbolen", blokken=[
             ("fig", tabel(["grootheid", "symbool", "SI-eenheid", "niet-SI"], [
-                ["lengte / afstand / verplaatsing", "l · x · Δx", "meter (m)", ""],
-                ["volume", "V", "kubieke meter (m³)", "liter (L)"],
+                ["lengte / afstand / verplaatsing", r"\(l \cdot x \cdot \Delta x\)", "meter (m)", ""],
+                ["volume", "V", r"kubieke meter (\(\text{m}^{3}\))", "liter (L)"],
                 ["massa", "m", "kilogram (kg)", "ton (t)"],
-                ["tijdstip / tijdsduur", "t · Δt", "seconde (s)", "min, h"],
+                ["tijdstip / tijdsduur", r"\(t \cdot \Delta t\)", "seconde (s)", "min, h"],
                 ["temperatuur", "θ", "kelvin (K)", "°C"],
                 ["snelheid", "v", "meter per seconde (m/s)", "km/h"],
                 ["kracht", "F", "newton (N)", ""],
-                ["massadichtheid", "ρ (de Griekse letter rho)", "kilogram per kubieke meter (kg/m³)", "g/L, g/cm³"],
+                ["massadichtheid", "ρ (de Griekse letter rho)", r"kilogram per kubieke meter (kg/\(\text{m}^{3}\))", r"g/L, g/\(\text{cm}^{3}\)"],
                 ["verlichtingssterkte", "E", "lux (lx)", ""],
                 ["geluidssterkte", "L", "decibel (dB)", ""],
                 ["relatieve luchtvochtigheid", "φ", "procent (%)", ""],
-            ]), "Let op hoofdletters en kleine letters: v is snelheid, V is volume. Ook die tabel staat in bijlage 1 en moet je dus kennen."),
-            ("p", "Geef bij een meting <strong>altijd de eenheid</strong> mee. '5' kan 5 gram of 5 kilogram "
-                  "zijn; schrijft iemand bij de lengte van zijn tafel alleen '1,2', dan ontbreekt de "
+            ]), r"Let op hoofdletters en kleine letters: v is snelheid, V is volume. Ook die tabel staat in bijlage \(1\) en moet je dus kennen."),
+            ("p", r"Geef bij een meting <strong>altijd de eenheid</strong> mee. '\(5\)' kan \(5\) gram of \(5\) kilogram "
+                  r"zijn; schrijft iemand bij de lengte van zijn tafel alleen '\(1{,}2\)', dan ontbreekt de "
                   "eenheid en betekent het getal niets. Pas met de eenheid erbij kan iemand anders je "
                   "meting gebruiken en vergelijken."),
         ]),
         dict(kop="Voorvoegsels en omzetten", blokken=[
             ("fig", tabel(["voorvoegsel", "betekent", "voorbeeld"], [
-                ["kilo (k)", "1000", "1 km = 1000 m · 1 kg = 1000 g"],
-                ["hecto (h)", "100", "1 hL = 100 L"],
-                ["deca (da)", "10", "1 dam = 10 m"],
-                ["deci (d)", "0,1", "1 dm = 0,1 m"],
-                ["centi (c)", "0,01", "75 cm = 0,75 m"],
-                ["milli (m)", "0,001 of een duizendste", "3 mm = 0,003 m · 250 mL = 0,25 L"],
+                ["kilo (k)", r"\(1000\)", r"\(1\) km = \(1000\) m · \(1\) kg = \(1000\) g"],
+                ["hecto (h)", r"\(100\)", r"\(1\) hL = \(100\) L"],
+                ["deca (da)", r"\(10\)", r"\(1\) dam = \(10\) m"],
+                ["deci (d)", r"\(0{,}1\)", r"\(1\) dm = \(0{,}1\) m"],
+                ["centi (c)", r"\(0{,}01\)", r"\(75\) cm = \(0{,}75\) m"],
+                ["milli (m)", r"\(0{,}001\) of een duizendste", r"\(3\) mm = \(0{,}003\) m · \(250\) mL = \(0{,}25\) L"],
             ]), "Van milli tot kilo: die reeks moet je vlot in twee richtingen kunnen gebruiken."),
-            ("p", "Zo is 2 km gelijk aan 2000 m, 500 g aan 0,5 kg en 1,5 kg aan 1500 g. Een "
-                  "<strong>schatting</strong> maken hoort er ook bij: een appel weegt ongeveer 150 g. Kom "
-                  "je op 15 g of 1,5 kg uit, dan weet je meteen dat je je ergens vergist hebt."),
+            ("p", r"Zo is \(2\) km gelijk aan \(2000\) m, \(500\) g aan \(0{,}5\) kg en \(1{,}5\) kg aan \(1500\) g. Een "
+                  r"<strong>schatting</strong> maken hoort er ook bij: een appel weegt ongeveer \(150\) g. Kom "
+                  r"je op \(15\) g of \(1{,}5\) kg uit, dan weet je meteen dat je je ergens vergist hebt."),
         ]),
     ],
     onthoud=[
@@ -1024,7 +1024,7 @@ BUNDELS["veilig-werken-meten-en-eenheden"] = dict(
         "Ken de tabel: welke grootheid meet je met welk instrument, en in welke eenheid.",
         "Kies het instrument met de gepaste nauwkeurigheid, en lees het correct af.",
         "Een meetresultaat is een getal én een eenheid.",
-        "Milli = 0,001 · centi = 0,01 · deci = 0,1 · kilo = 1000.",
+        r"Milli = \(0{,}001\) · centi = \(0{,}01\) · deci = \(0{,}1\) · kilo = \(1000\).",
         "Meet meerdere keren en neem het gemiddelde.",
     ],
 )
@@ -1064,7 +1064,7 @@ BUNDELS["wetenschappelijk-onderzoek"] = dict(
                 ["haalbaar", "het onderzoek is uitvoerbaar met de tijd en de middelen die er zijn"],
                 ["onderzoekbaar", "het is geen opzoekvraag en niet meteen oplosbaar"],
                 ["relevant", "het antwoord draagt bij aan wat we al weten over het onderwerp"],
-            ]), "Die zes criteria staan in bijlage 1 van de vakfiche, en de linkerkolom krijg je ook op het examen."),
+            ]), r"Die zes criteria staan in bijlage \(1\) van de vakfiche, en de linkerkolom krijg je ook op het examen."),
             ("p", "Een goede vraag: <em>Welke invloed heeft de hoeveelheid water op de groei van "
                   "tuinkers?</em> Fout gaat het bij <em>Is tuinkers lekker?</em> (een mening), "
                   "<em>Hoeveel poten heeft een spin?</em> (een opzoekvraag, dus niet onderzoekbaar), "
@@ -1085,7 +1085,7 @@ BUNDELS["wetenschappelijk-onderzoek"] = dict(
             ("p", "<strong>Herhaal</strong> je metingen. Eén meting kan toevallig afwijken, en met één "
                   "plant kan een toevalligheid je hele besluit sturen. Meerdere herhalingen en het "
                   "gemiddelde maken je resultaat betrouwbaarder."),
-            ("weetje", "Een <strong>waarneming</strong> is wat je ziet of meet ('het water is 30 °C'). Een "
+            ("weetje", r"Een <strong>waarneming</strong> is wat je ziet of meet ('het water is \(30^{\circ}\text{C}\)'). Een "
                        "<strong>besluit</strong> is wat je daaruit afleidt ('water koelt trager af met een "
                        "deksel'). Een conclusie steunt op data, nooit op een gevoel — en een hypothese die "
                        "niet uitkomt, is géén mislukking: je hebt geleerd hoe het níet zit. Resultaten "
@@ -1096,9 +1096,9 @@ BUNDELS["wetenschappelijk-onderzoek"] = dict(
                   "tabel, een grafiek, een formule of een vergelijking. Op de <strong>horizontale as</strong> "
                   "van een grafiek zet je wat je zelf instelt of laat veranderen, op de verticale as wat "
                   "daarvan afhangt."),
-            ("p", "Uit een tabel haal je verbanden: duurt het bij 10 °C 40 min, bij 20 °C 20 min en bij "
-                  "40 °C 10 min, dan geldt: hoe hoger de temperatuur, hoe korter de tijd. Uit een grafiek "
-                  "lees je hetzelfde af: meet je afkoelend water (80 °C, 60 °C, 45 °C, 35 °C, 30 °C), dan "
+            ("p", r"Uit een tabel haal je verbanden: duurt het bij \(10^{\circ}\text{C}\,40\) min, bij \(20^{\circ}\text{C}\,20\) min en bij "
+                  r"\(40^{\circ}\text{C}\,10\) min, dan geldt: hoe hoger de temperatuur, hoe korter de tijd. Uit een grafiek "
+                  r"lees je hetzelfde af: meet je afkoelend water (\(80^{\circ}\text{C}\), \(60^{\circ}\text{C}\), \(45^{\circ}\text{C}\), \(35^{\circ}\text{C}\), \(30^{\circ}\text{C}\)), dan "
                   "krijg je een dalende kromme die steeds vlakker wordt."),
             ("fig", svg.evenredig_grafieken(),
              "Recht evenredig geeft een rechte door de oorsprong, omgekeerd evenredig een kromme."),
@@ -1107,11 +1107,11 @@ BUNDELS["wetenschappelijk-onderzoek"] = dict(
                   "snelheid, de massa en het volume van eenzelfde stof. <strong>Omgekeerd "
                   "evenredig</strong>: wordt de ene twee keer zo groot, dan halveert de andere, en blijft "
                   "hun product constant. Meer werkers aan dezelfde klus betekent minder tijd."),
-            ("p", "Uit een grafiek haal je ook getallen. Lees je op een rechte door de oorsprong bij 4 s een "
-                  "<strong>afstand</strong> van 20 m af, dan is de snelheid 20 : 4 = 5 m/s."),
+            ("p", r"Uit een grafiek haal je ook getallen. Lees je op een rechte door de oorsprong bij \(4\) s een "
+                  r"<strong>afstand</strong> van \(20\) m af, dan is de snelheid \(20 : 4 = 5\) m/s."),
             ("kader", "<strong>Formules omvormen</strong> hoort erbij: je drukt één variabele uit "
-                      "<strong>in functie van</strong> de andere. Uit v = Δx / Δt volgt "
-                      "Δx = v × Δt en Δt = Δx / v. Uit ρ = m / V volgt m = ρ × V en V = m / ρ. Je "
+                      r"<strong>in functie van</strong> de andere. Uit \(v = \Delta x / \Delta t\) volgt "
+                      r"\(\Delta x = v \times \Delta t\) en \(\Delta t = \Delta x / v\). Uit \(\rho = m / V\) volgt \(m = \rho \times V\) en \(V = m / \rho\). Je "
                       "vermenigvuldigt of deelt gewoon beide kanten met dezelfde grootheid."),
             ("p", "Kies je meetbare variabele met zorg. Wil je weten welk isolatiemateriaal een beker "
                   "koffie het langst warm houdt, dan meet je de <em>temperatuur na een bepaalde tijd</em> "

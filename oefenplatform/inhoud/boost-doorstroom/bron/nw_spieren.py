@@ -277,7 +277,7 @@ DEEL2 = [
     ),
     dict(
         type="meerkeuze",
-        vraag="Wat is er aan de hand bij diabetes type 1?",
+        vraag=r"Wat is er aan de hand bij diabetes type \(1\)?",
         opties=[
             "het lichaam maakt zelf geen of te weinig insuline meer aan",
             "het lichaam maakt veel te veel insuline aan na elke maaltijd",
@@ -285,7 +285,7 @@ DEEL2 = [
             "de nieren houden alle glucose vast in plaats van ze af te geven",
         ],
         antwoord=0,
-        uitleg="Bij type 1 vallen de bètacellen uit. Zonder insuline kunnen de cellen de glucose niet opnemen, en blijft het gehalte in het bloed te hoog.",
+        uitleg=r"Bij type \(1\) vallen de bètacellen uit. Zonder insuline kunnen de cellen de glucose niet opnemen, en blijft het gehalte in het bloed te hoog.",
     ),
     dict(
         type="waarofniet",

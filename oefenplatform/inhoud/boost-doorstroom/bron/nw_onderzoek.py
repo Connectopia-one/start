@@ -38,21 +38,21 @@ DEEL1 = [
     ),
     dict(
         type="meerkeuze",
-        vraag="Hoeveel seconden is 2 microseconden?",
+        vraag=r"Hoeveel seconden is \(2\) microseconden?",
         opties=[
-            "2 maal tien tot de macht min zes seconden",
-            "2 maal tien tot de macht min drie seconden",
-            "2 maal tien tot de macht min negen seconden",
-            "2 maal tien tot de macht zes seconden",
+            r"\(2\) maal \(10^{-6}\) seconden",
+            r"\(2\) maal \(10^{-3}\) seconden",
+            r"\(2\) maal \(10^{-9}\) seconden",
+            r"\(2\) maal \(10^{6}\) seconden",
         ],
         antwoord=0,
-        uitleg="Micro betekent een miljoenste. Nano is nog duizend keer kleiner, dus tien tot de macht min negen.",
+        uitleg=r"Micro betekent een miljoenste. Nano is nog duizend keer kleiner, dus \(10^{-9}\).",
     ),
     dict(
         type="invultekst",
         vraag="Welk voorvoegsel betekent een miljardste?",
         antwoord="nano",
-        uitleg="Nano is tien tot de macht min negen. Een nanometer is dus een miljardste van een meter.",
+        uitleg=r"Nano is \(10^{-9}\). Een nanometer is dus een miljardste van een meter.",
     ),
     dict(
         type="meerkeuze",
@@ -98,9 +98,9 @@ DEEL1 = [
     ),
     dict(
         type="invultekst",
-        vraag="Hoeveel gram is 0,25 kilogram?",
+        vraag=r"Hoeveel gram is \(0{,}25\) kilogram?",
         antwoord="250",
-        uitleg="Kilo betekent duizend, dus vermenigvuldig je met 1000. Omgekeerd deel je door 1000 om van gram naar kilogram te gaan.",
+        uitleg=r"Kilo betekent duizend, dus vermenigvuldig je met \(1000\). Omgekeerd deel je door \(1000\) om van gram naar kilogram te gaan.",
     ),
     dict(
         type="meerkeuze",
@@ -122,17 +122,17 @@ DEEL1 = [
     ),
     dict(
         type="meerkeuze",
-        vraag="Hoeveel meter is 45 centimeter?",
-        opties=["0,45 meter", "4,5 meter", "450 meter", "0,045 meter"],
+        vraag=r"Hoeveel meter is \(45\) centimeter?",
+        opties=[r"\(0{,}45\) meter", r"\(4{,}5\) meter", r"\(450\) meter", r"\(0{,}045\) meter"],
         antwoord=0,
-        uitleg="Centi betekent een honderdste, dus deel je door 100. Milli zou door 1000 zijn.",
+        uitleg=r"Centi betekent een honderdste, dus deel je door \(100\). Milli zou door \(1000\) zijn.",
     ),
     dict(
         type="meerkeuze",
-        vraag="Je meet een lengte met een meetlint en leest 1,2 meter af. Hoeveel beduidende cijfers heeft dat resultaat?",
+        vraag=r"Je meet een lengte met een meetlint en leest \(1{,}2\) meter af. Hoeveel beduidende cijfers heeft dat resultaat?",
         opties=["twee", "een", "drie", "vier"],
         antwoord=0,
-        uitleg="De 1 en de 2 zijn beide gemeten. Schrijf je 1,200 meter, dan beweer je een nauwkeurigheid die het meetlint niet heeft.",
+        uitleg=r"De \(1\) en de \(2\) zijn beide gemeten. Schrijf je \(1{,}200\) meter, dan beweer je een nauwkeurigheid die het meetlint niet heeft.",
     ),
     dict(
         type="waarofniet",
@@ -162,7 +162,7 @@ DEEL1 = [
             "zo kan je de eenheid van het antwoord gewoon weglaten",
         ],
         antwoord=0,
-        uitleg="Weet je dat een mens ongeveer 70 kilogram weegt, dan zie je een uitkomst van 7000 kilogram direct als fout. Dat vangt een rekenfout vroeg op.",
+        uitleg=r"Weet je dat een mens ongeveer \(70\) kilogram weegt, dan zie je een uitkomst van \(7000\) kilogram direct als fout. Dat vangt een rekenfout vroeg op.",
     ),
     dict(
         type="invultekst",
@@ -178,15 +178,15 @@ DEEL1 = [
     ),
     dict(
         type="meerkeuze",
-        vraag="Je meet een massa met een balans die tot op een gram nauwkeurig is. Hoe schrijf je 325 gram op?",
+        vraag=r"Je meet een massa met een balans die tot op een gram nauwkeurig is. Hoe schrijf je \(325\) gram op?",
         opties=[
-            "als 325 gram, met drie beduidende cijfers",
-            "als 325,00 gram, want dat ziet nauwkeuriger uit",
-            "als ongeveer 300 gram, want afronden is veiliger",
-            "als 0,325 gram, want gram is de SI-eenheid",
+            r"als \(325\) gram, met drie beduidende cijfers",
+            r"als \(325{,}00\) gram, want dat ziet nauwkeuriger uit",
+            r"als ongeveer \(300\) gram, want afronden is veiliger",
+            r"als \(0{,}325\) gram, want gram is de SI-eenheid",
         ],
         antwoord=0,
-        uitleg="Je schrijft precies wat je gemeten hebt, niet meer en niet minder. De SI-eenheid van massa is trouwens de kilogram, dus 0,325 kilogram.",
+        uitleg=r"Je schrijft precies wat je gemeten hebt, niet meer en niet minder. De SI-eenheid van massa is trouwens de kilogram, dus \(0{,}325\) kilogram.",
     ),
 ]
 

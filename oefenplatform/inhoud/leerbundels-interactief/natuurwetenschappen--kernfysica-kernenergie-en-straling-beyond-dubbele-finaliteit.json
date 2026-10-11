@@ -12,7 +12,7 @@
     },
     {
      "soort": "tekst",
-     "html": "Heeft <strong>koolstof-14 massagetal 14 en atoomnummer 6, dan zitten er 8 neutronen</strong> in die kern: 14 min 6."
+     "html": "Heeft <strong>koolstof-\\(14\\) massagetal \\(14\\) en atoomnummer \\(6\\), dan zitten er \\(8\\) neutronen</strong> in die kern: \\(14\\) min \\(6\\)."
     },
     {
      "soort": "tekst",
@@ -33,7 +33,7 @@
     },
     {
      "soort": "tekst",
-     "html": "Heeft <strong>een stof een halfwaardetijd van 8 dagen, dan is er na 24 dagen een achtste over</strong>, want dat zijn drie halfwaardetijden. <strong>Na één halfwaardetijd is dus niet alle straling van een stof verdwenen</strong>: de andere helft straalt verder."
+     "html": "Heeft <strong>een stof een halfwaardetijd van \\(8\\) dagen, dan is er na \\(24\\) dagen een achtste over</strong>, want dat zijn drie halfwaardetijden. <strong>Na één halfwaardetijd is dus niet alle straling van een stof verdwenen</strong>: de andere helft straalt verder."
     },
     {
      "soort": "tekst",
@@ -89,7 +89,7 @@
     },
     {
      "soort": "tekst",
-     "html": "Welke straling een kern uitzendt, lees je van de nuclidenkaart af. <strong>Een kern met te veel neutronen om stabiel te zijn, zendt bètamin-straling uit</strong>: een neutron wordt dan een proton. Daarom geldt: <strong>vervalt koolstof-14 via bètamin-straling, dan stijgt het atoomnummer met één en blijft het massagetal gelijk</strong>, en wordt het stikstof-14. Bij alfaverval gaat er meer weg: <strong>zendt uranium-238 een alfadeeltje uit, dan blijft een kern over met massagetal 234 en atoomnummer 90</strong>, dus thorium-234."
+     "html": "Welke straling een kern uitzendt, lees je van de nuclidenkaart af. <strong>Een kern met te veel neutronen om stabiel te zijn, zendt bètamin-straling uit</strong>: een neutron wordt dan een proton. Daarom geldt: <strong>vervalt koolstof-\\(14\\) via bètamin-straling, dan stijgt het atoomnummer met één en blijft het massagetal gelijk</strong>, en wordt het stikstof-\\(14\\). Bij alfaverval gaat er meer weg: <strong>zendt uranium-\\(238\\) een alfadeeltje uit, dan blijft een kern over met massagetal \\(234\\) en atoomnummer \\(90\\)</strong>, dus thorium-\\(234\\)."
     }
    ]
   },
@@ -114,7 +114,7 @@
  "onthoud": [
   "Massagetal = protonen + neutronen; atoomnummer = protonen.",
   "Isotopen hebben hetzelfde aantal protonen, een ander aantal neutronen.",
-  "Na n halfwaardetijden is er (1/2) tot de n-de over.",
+  "Na n halfwaardetijden is er (\\(\\tfrac{1}{2}\\)) tot de n-de over.",
   "Fusie van lichte en splijting van zware kernen leveren energie, uit massaverlies.",
   "Warmte maakt stoom, stoom draait de turbine en de generator.",
   "Categorie A is kortlevend laag- en middelactief, C is hoogactief.",

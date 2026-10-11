@@ -29,10 +29,10 @@ DEEL1 = [
     ),
     dict(
         type="meerkeuze",
-        vraag="Een nuclide heeft massagetal 23 en atoomnummer 11. Hoeveel neutronen zitten er in de kern?",
-        opties=["12", "11", "23", "34"],
+        vraag=r"Een nuclide heeft massagetal \(23\) en atoomnummer \(11\). Hoeveel neutronen zitten er in de kern?",
+        opties=[r"\(12\)", r"\(11\)", r"\(23\)", r"\(34\)"],
         antwoord=0,
-        uitleg="Je trekt het atoomnummer van het massagetal af, dus 23 min 11. Het aantal protonen is 11, want dat is precies het atoomnummer.",
+        uitleg=r"Je trekt het atoomnummer van het massagetal af, dus \(23\) min \(11\). Het aantal protonen is \(11\), want dat is precies het atoomnummer.",
     ),
     dict(
         type="meerkeuze",
@@ -78,7 +78,7 @@ DEEL1 = [
     ),
     dict(
         type="meerkeuze",
-        vraag="Wanneer is een lichte kern met Z kleiner dan 20 doorgaans stabiel?",
+        vraag=r"Wanneer is een lichte kern met Z kleiner dan \(20\) doorgaans stabiel?",
         opties=[
             "als er ongeveer evenveel neutronen als protonen zijn",
             "als er veel meer neutronen dan protonen in zitten",
@@ -114,10 +114,10 @@ DEEL1 = [
     ),
     dict(
         type="meerkeuze",
-        vraag="Je begint met 800 onstabiele kernen en de halveringstijd is 5 jaar. Hoeveel blijven er na 15 jaar over?",
-        opties=["100", "200", "400", "50"],
+        vraag=r"Je begint met \(800\) onstabiele kernen en de halveringstijd is \(5\) jaar. Hoeveel blijven er na \(15\) jaar over?",
+        opties=[r"\(100\)", r"\(200\)", r"\(400\)", r"\(50\)"],
         antwoord=0,
-        uitleg="Vijftien jaar is drie halveringstijden, dus deel je drie keer door twee. Van 800 naar 400, dan naar 200 en dan naar 100.",
+        uitleg=r"Vijftien jaar is drie halveringstijden, dus deel je drie keer door twee. Van \(800\) naar \(400\), dan naar \(200\) en dan naar \(100\).",
     ),
     dict(
         type="invultekst",
@@ -195,7 +195,7 @@ DEEL1 = [
             "met de halveringstijd bij het symbool",
         ],
         antwoord=0,
-        uitleg="Het massagetal komt linksboven en het atoomnummer linksonder. Men schrijft het ook als X-A, bijvoorbeeld koolstof-14.",
+        uitleg=r"Het massagetal komt linksboven en het atoomnummer linksonder. Men schrijft het ook als X-A, bijvoorbeeld koolstof-\(14\).",
     ),
 ]
 
@@ -310,9 +310,9 @@ DEEL2 = [
         type="meerkeuze",
         vraag="Wat gebeurt er met het massagetal en het atoomnummer bij alfaverval?",
         opties=[
-            "het massagetal zakt met 4 en het atoomnummer met 2",
-            "het massagetal blijft gelijk en het atoomnummer stijgt met 1",
-            "het massagetal zakt met 2 en het atoomnummer met 4",
+            r"het massagetal zakt met \(4\) en het atoomnummer met \(2\)",
+            r"het massagetal blijft gelijk en het atoomnummer stijgt met \(1\)",
+            r"het massagetal zakt met \(2\) en het atoomnummer met \(4\)",
             "het massagetal en het atoomnummer blijven allebei gelijk",
         ],
         antwoord=0,
@@ -366,7 +366,7 @@ DEEL2 = [
         vraag="Welke toepassingen van ioniserende straling bestaan er? Kruis alles aan wat juist is.",
         opties=[
             "radiotherapie tegen kanker",
-            "de koolstof-14-methode om ouderdom te bepalen",
+            r"de koolstof-\(14\)-methode om ouderdom te bepalen",
             "een PET-scan met een radioactieve tracer",
             "het opladen van een gsm-batterij",
         ],

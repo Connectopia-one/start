@@ -20,7 +20,7 @@
     },
     {
      "soort": "tekst",
-     "html": "Het <strong>atoomnummer</strong> is het <strong>aantal protonen</strong> en bepaalt <strong>om welk element</strong> het gaat. Lees je atoomnummer 17, dan weet je meteen dat de <strong>kern 17 protonen bevat</strong>, dat een <strong>neutraal atoom 17 elektronen heeft</strong> en dat het element <strong>op de zeventiende plaats in het PSE staat</strong>; over het aantal neutronen zegt het niets. Het <strong>massagetal</strong> is het <strong>aantal protonen plus neutronen</strong>. Het aantal <strong>neutronen</strong> vind je dus door het <strong>atoomnummer van het massagetal af te trekken</strong>: bij atoomnummer 11 en massagetal 23 zijn er 12 neutronen."
+     "html": "Het <strong>atoomnummer</strong> is het <strong>aantal protonen</strong> en bepaalt <strong>om welk element</strong> het gaat. Lees je atoomnummer \\(17\\), dan weet je meteen dat de <strong>kern \\(17\\) protonen bevat</strong>, dat een <strong>neutraal atoom \\(17\\) elektronen heeft</strong> en dat het element <strong>op de zeventiende plaats in het PSE staat</strong>; over het aantal neutronen zegt het niets. Het <strong>massagetal</strong> is het <strong>aantal protonen plus neutronen</strong>. Het aantal <strong>neutronen</strong> vind je dus door het <strong>atoomnummer van het massagetal af te trekken</strong>: bij atoomnummer \\(11\\) en massagetal \\(23\\) zijn er \\(12\\) neutronen."
     },
     {
      "soort": "tekst",
@@ -37,7 +37,7 @@
     },
     {
      "soort": "tekst",
-     "html": "<strong>Elektronen afstaan</strong> geeft een <strong>positief ion</strong>: er blijft positieve lading over. <strong>Elektronen opnemen</strong> geeft een <strong>negatief ion</strong>. Een deeltje met 12 protonen en 10 elektronen heeft dus lading <strong>2 plus</strong>; een deeltje met 17 protonen en 18 elektronen is een <strong>chloride-ion</strong> met lading 1 min."
+     "html": "<strong>Elektronen afstaan</strong> geeft een <strong>positief ion</strong>: er blijft positieve lading over. <strong>Elektronen opnemen</strong> geeft een <strong>negatief ion</strong>. Een deeltje met \\(12\\) protonen en \\(10\\) elektronen heeft dus lading <strong>\\(2\\) plus</strong>; een deeltje met \\(17\\) protonen en \\(18\\) elektronen is een <strong>chloride-ion</strong> met lading \\(1\\) min."
     },
     {
      "soort": "tekst",
@@ -71,11 +71,11 @@
     },
     {
      "soort": "tekst",
-     "html": "Een element in <strong>groep 2 en periode 4</strong> heeft dus <strong>twee valentie-elektronen en vier bezette schillen</strong>. Omgekeerd kan je uit die twee gegevens ook opzoeken welk element het is."
+     "html": "Een element in <strong>groep \\(2\\) en periode \\(4\\)</strong> heeft dus <strong>twee valentie-elektronen en vier bezette schillen</strong>. Omgekeerd kan je uit die twee gegevens ook opzoeken welk element het is."
     },
     {
      "soort": "tekst",
-     "html": "Je vult de schillen van binnen naar buiten. In de <strong>eerste schil</strong> passen <strong>2</strong> elektronen, in de <strong>tweede 8</strong>. De <strong>elektronenconfiguratie</strong> van een natriumatoom, atoomnummer 11, is dus <strong>2, 8, 1</strong>."
+     "html": "Je vult de schillen van binnen naar buiten. In de <strong>eerste schil</strong> passen <strong>\\(2\\)</strong> elektronen, in de <strong>tweede \\(8\\)</strong>. De <strong>elektronenconfiguratie</strong> van een natriumatoom, atoomnummer \\(11\\), is dus <strong>\\(2\\), \\(8\\), \\(1\\)</strong>."
     },
     {
      "soort": "tekst",
@@ -92,11 +92,11 @@
     },
     {
      "soort": "tekst",
-     "html": "Alle andere elementen zoeken de kortste weg naar die volle schil. <strong>Groep 1</strong> heeft één valentie-elektron en <strong>staat dat af</strong>; natrium houdt dan 2, 8 over, net de configuratie van neon. <strong>Groep 2</strong> staat er twee af en wordt een ion met lading <strong>2 plus</strong>."
+     "html": "Alle andere elementen zoeken de kortste weg naar die volle schil. <strong>Groep \\(1\\)</strong> heeft één valentie-elektron en <strong>staat dat af</strong>; natrium houdt dan \\(2\\), \\(8\\) over, net de configuratie van neon. <strong>Groep \\(2\\)</strong> staat er twee af en wordt een ion met lading <strong>\\(2\\) plus</strong>."
     },
     {
      "soort": "tekst",
-     "html": "Een <strong>zuurstofatoom</strong> heeft zes valentie-elektronen. Het neemt <strong>liever twee elektronen op dan er zes af te staan</strong>, want <strong>twee opnemen vraagt veel minder dan zes afstaan om de volle schil te bereiken</strong>, en daarom wordt zuurstof een ion met lading <strong>2 min</strong>. Zo kan je uit de plaats in het systeem voorspellen welk ion een element vormt."
+     "html": "Een <strong>zuurstofatoom</strong> heeft zes valentie-elektronen. Het neemt <strong>liever twee elektronen op dan er zes af te staan</strong>, want <strong>twee opnemen vraagt veel minder dan zes afstaan om de volle schil te bereiken</strong>, en daarom wordt zuurstof een ion met lading <strong>\\(2\\) min</strong>. Zo kan je uit de plaats in het systeem voorspellen welk ion een element vormt."
     },
     {
      "soort": "tekst",
@@ -117,7 +117,7 @@
   "Elektronen afstaan geeft een positief ion, elektronen opnemen een negatief ion.",
   "De relatieve atoommassa heeft geen eenheid, de absolute massa wel: de kilogram.",
   "Periodenummer = aantal bezette schillen; groepsnummer van een hoofdgroep = aantal valentie-elektronen.",
-  "In de eerste schil passen 2 elektronen, in de tweede 8: natrium is 2, 8, 1.",
+  "In de eerste schil passen \\(2\\) elektronen, in de tweede \\(8\\): natrium is \\(2\\), \\(8\\), \\(1\\).",
   "Een volle buitenste schil, de edelgasconfiguratie, is de stabiele toestand."
  ]
 }

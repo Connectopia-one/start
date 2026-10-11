@@ -24,21 +24,21 @@ DEEL1 = [
     ),
     dict(
         type="meerkeuze",
-        vraag="Koolstof-14 heeft massagetal 14 en atoomnummer 6. Hoeveel neutronen zitten er in die kern?",
+        vraag=r"Koolstof-\(14\) heeft massagetal \(14\) en atoomnummer \(6\). Hoeveel neutronen zitten er in die kern?",
         opties=[
-            "8",
-            "6",
-            "14",
-            "20",
+            r"\(8\)",
+            r"\(6\)",
+            r"\(14\)",
+            r"\(20\)",
         ],
         antwoord=0,
-        uitleg="Je trekt het atoomnummer van het massagetal af: 14 min 6 is 8 neutronen. De zes protonen maken er koolstof van.",
+        uitleg=r"Je trekt het atoomnummer van het massagetal af: \(14\) min \(6\) is \(8\) neutronen. De zes protonen maken er koolstof van.",
     ),
     dict(
         type="invultekst",
         vraag="Hoe noem je kernen van hetzelfde element met een verschillend aantal neutronen?",
         antwoord=["isotopen", "isotoop", "isotope nucliden"],
-        uitleg="Isotopen hebben hetzelfde atoomnummer maar een ander massagetal. Koolstof-12 en koolstof-14 zijn isotopen van koolstof.",
+        uitleg=r"Isotopen hebben hetzelfde atoomnummer maar een ander massagetal. Koolstof-\(12\) en koolstof-\(14\) zijn isotopen van koolstof.",
     ),
     dict(
         type="waarofniet",
@@ -96,7 +96,7 @@ DEEL1 = [
     ),
     dict(
         type="meerkeuze",
-        vraag="Een stof heeft een halfwaardetijd van 8 dagen. Welk deel is er na 24 dagen nog over?",
+        vraag=r"Een stof heeft een halfwaardetijd van \(8\) dagen. Welk deel is er na \(24\) dagen nog over?",
         opties=[
             "een achtste",
             "een derde",
@@ -315,19 +315,19 @@ DEEL2 = [
     ),
     dict(
         type="meerkeuze",
-        vraag="Uranium-238 zendt een alfadeeltje uit. Welke kern blijft er over?",
+        vraag=r"Uranium-\(238\) zendt een alfadeeltje uit. Welke kern blijft er over?",
         opties=[
-            "massagetal 234 en atoomnummer 90",
-            "massagetal 238 en atoomnummer 90",
-            "massagetal 234 en atoomnummer 92",
-            "massagetal 236 en atoomnummer 91",
+            r"massagetal \(234\) en atoomnummer \(90\)",
+            r"massagetal \(238\) en atoomnummer \(90\)",
+            r"massagetal \(234\) en atoomnummer \(92\)",
+            r"massagetal \(236\) en atoomnummer \(91\)",
         ],
         antwoord=0,
-        uitleg="Een alfadeeltje neemt twee protonen en twee neutronen mee. Het massagetal zakt dus met vier en het atoomnummer met twee: thorium-234.",
+        uitleg=r"Een alfadeeltje neemt twee protonen en twee neutronen mee. Het massagetal zakt dus met vier en het atoomnummer met twee: thorium-\(234\).",
     ),
     dict(
         type="meerkeuze",
-        vraag="Koolstof-14 vervalt via bètamin-straling. Wat gebeurt er met de kern?",
+        vraag=r"Koolstof-\(14\) vervalt via bètamin-straling. Wat gebeurt er met de kern?",
         opties=[
             "het atoomnummer stijgt met één, het massagetal blijft",
             "het atoomnummer daalt met één, het massagetal blijft",
@@ -335,7 +335,7 @@ DEEL2 = [
             "zowel het massagetal als het atoomnummer blijven gelijk",
         ],
         antwoord=0,
-        uitleg="Een neutron wordt een proton, dus er zit één proton meer in dezelfde hoeveelheid nucleonen. Van koolstof-14 wordt zo stikstof-14.",
+        uitleg=r"Een neutron wordt een proton, dus er zit één proton meer in dezelfde hoeveelheid nucleonen. Van koolstof-\(14\) wordt zo stikstof-\(14\).",
     ),
     dict(
         type="invultekst",

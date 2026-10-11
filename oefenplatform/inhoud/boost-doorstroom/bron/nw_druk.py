@@ -105,10 +105,10 @@ DEEL1 = [
     ),
     dict(
         type="meerkeuze",
-        vraag="Een persoon van 80 kilogram en een van 50 kilogram hebben dezelfde schoenmaat en staan in de modder. Wie zakt het diepst?",
+        vraag=r"Een persoon van \(80\) kilogram en een van \(50\) kilogram hebben dezelfde schoenmaat en staan in de modder. Wie zakt het diepst?",
         opties=[
-            "de persoon van 80 kilogram, want zijn druk op de modder is groter",
-            "de persoon van 50 kilogram, want hij staat minder stevig op de grond",
+            r"de persoon van \(80\) kilogram, want zijn druk op de modder is groter",
+            r"de persoon van \(50\) kilogram, want hij staat minder stevig op de grond",
             "ze zakken precies even diep, want hun schoenoppervlak is gelijk",
             "dat hangt enkel af van hoe lang ze in de modder blijven staan",
         ],
@@ -124,9 +124,9 @@ DEEL1 = [
     dict(
         type="meerkeuze",
         vraag="Hoeveel pascal is één bar?",
-        opties=["100 000 pascal", "1 000 pascal", "10 pascal", "1 000 000 pascal"],
+        opties=[r"\(100\,000\) pascal", r"\(1\,000\) pascal", r"\(10\) pascal", r"\(1\,000\,000\) pascal"],
         antwoord=0,
-        uitleg="Eén bar is 100 kilopascal, en dat is ongeveer de luchtdruk op zeeniveau. In het weerbericht lees je dat als 1000 hectopascal.",
+        uitleg=r"Eén bar is \(100\) kilopascal, en dat is ongeveer de luchtdruk op zeeniveau. In het weerbericht lees je dat als \(1000\) hectopascal.",
     ),
     dict(
         type="meerkeuze",
@@ -184,10 +184,10 @@ DEEL1 = [
     ),
     dict(
         type="meerkeuze",
-        vraag="Je duwt met 200 newton op een oppervlak van 0,5 vierkante meter. Hoe groot is de druk?",
-        opties=["400 pascal", "100 pascal", "200 pascal", "40 pascal"],
+        vraag=r"Je duwt met \(200\) newton op een oppervlak van \(0{,}5\) vierkante meter. Hoe groot is de druk?",
+        opties=[r"\(400\) pascal", r"\(100\) pascal", r"\(200\) pascal", r"\(40\) pascal"],
         antwoord=0,
-        uitleg="Je deelt de kracht door de oppervlakte: 200 gedeeld door 0,5. Een kleiner oppervlak geeft dus een grotere druk.",
+        uitleg=r"Je deelt de kracht door de oppervlakte: \(200 : 0{,}5\). Een kleiner oppervlak geeft dus een grotere druk.",
     ),
 ]
 
@@ -220,14 +220,14 @@ DEEL2 = [
         type="waarofniet",
         vraag="Nul kelvin is het absolute nulpunt, waarbij de deeltjes geen kinetische energie meer hebben.",
         antwoord=True,
-        uitleg="Dat ligt bij min 273,15 graden Celsius. Lager kan niet, want trager dan stil bestaat niet.",
+        uitleg=r"Dat ligt bij min \(273{,}15\) graden Celsius. Lager kan niet, want trager dan stil bestaat niet.",
     ),
     dict(
         type="meerkeuze",
-        vraag="Hoeveel kelvin is 27 graden Celsius?",
-        opties=["300 kelvin", "246 kelvin", "27 kelvin", "173 kelvin"],
+        vraag=r"Hoeveel kelvin is \(27\) graden Celsius?",
+        opties=[r"\(300\) kelvin", r"\(246\) kelvin", r"\(27\) kelvin", r"\(173\) kelvin"],
         antwoord=0,
-        uitleg="Je telt 273 bij de graden Celsius op. Omgekeerd trek je 273 van de kelvin af.",
+        uitleg=r"Je telt \(273\) bij de graden Celsius op. Omgekeerd trek je \(273\) van de kelvin af.",
     ),
     dict(
         type="invultekst",
@@ -280,8 +280,8 @@ DEEL2 = [
     ),
     dict(
         type="meerkeuze",
-        vraag="Een gas van 2 liter bij 1 bar wordt bij gelijke temperatuur tot 1 liter samengeperst. Wat is de druk?",
-        opties=["2 bar", "1 bar", "0,5 bar", "4 bar"],
+        vraag=r"Een gas van \(2\) liter bij \(1\) bar wordt bij gelijke temperatuur tot \(1\) liter samengeperst. Wat is de druk?",
+        opties=[r"\(2\) bar", r"\(1\) bar", r"\(0{,}5\) bar", r"\(4\) bar"],
         antwoord=0,
         uitleg="Druk maal volume blijft gelijk bij een vaste temperatuur. Half het volume geeft dus dubbel de druk.",
     ),
@@ -305,8 +305,8 @@ DEEL2 = [
     ),
     dict(
         type="meerkeuze",
-        vraag="Een gas van 300 kelvin bij 1 bar wordt in een gesloten vat tot 600 kelvin verwarmd. Wat is de druk?",
-        opties=["2 bar", "1 bar", "0,5 bar", "300 bar"],
+        vraag=r"Een gas van \(300\) kelvin bij \(1\) bar wordt in een gesloten vat tot \(600\) kelvin verwarmd. Wat is de druk?",
+        opties=[r"\(2\) bar", r"\(1\) bar", r"\(0{,}5\) bar", r"\(300\) bar"],
         antwoord=0,
         uitleg="Bij gelijk volume zijn druk en absolute temperatuur recht evenredig. Een verdubbeling van de kelvin verdubbelt dus de druk.",
     ),
@@ -332,7 +332,7 @@ DEEL2 = [
         type="meerkeuze",
         vraag="Welke uitspraken over het absolute nulpunt zijn juist? Kruis alles aan wat juist is.",
         opties=[
-            "het ligt bij ongeveer min 273 graden Celsius",
+            r"het ligt bij ongeveer min \(273\) graden Celsius",
             "de kinetische energie van de deeltjes is er nul",
             "een lagere temperatuur bestaat niet",
             "de druk van een gas is er het hoogst",
@@ -348,9 +348,9 @@ DEEL2 = [
     ),
     dict(
         type="invultekst",
-        vraag="Hoeveel graden Celsius is 273 kelvin?",
+        vraag=r"Hoeveel graden Celsius is \(273\) kelvin?",
         antwoord="0",
-        uitleg="Je trekt 273 van de kelvin af. Dat is dus precies het smeltpunt van ijs.",
+        uitleg=r"Je trekt \(273\) van de kelvin af. Dat is dus precies het smeltpunt van ijs.",
     ),
     dict(
         type="meerkeuze",

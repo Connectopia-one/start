@@ -55,11 +55,11 @@ OEFENBUNDELS["oefenbundel-bevruchting-en-de-ontwikkeling-van-embryo-en-foetus-be
         dict(kop="Reken op de cyclus",
              opdracht="Reken en schrijf je tussenstap op.",
              oefeningen=[
-                 ("kort", "Een vrouw heeft een cyclus van 30 dagen. Op de hoeveelste dag valt haar "
-                          "eisprong ongeveer?", "op dag 16, want de eisprong is ongeveer 14 dagen vóór "
+                 ("kort", r"Een vrouw heeft een cyclus van \(30\) dagen. Op de hoeveelste dag valt haar "
+                          "eisprong ongeveer?", r"op dag \(16\), want de eisprong is ongeveer \(14\) dagen vóór "
                           "de volgende menstruatie", W),
-                 ("kort", "Een vrouw heeft een cyclus van 26 dagen. Op de hoeveelste dag valt haar "
-                          "eisprong ongeveer?", "op dag 12", W),
+                 ("kort", r"Een vrouw heeft een cyclus van \(26\) dagen. Op de hoeveelste dag valt haar "
+                          "eisprong ongeveer?", r"op dag \(12\)", W),
                  ("open", "Waarom is veertien dagen vóór de volgende menstruatie een betrouwbaardere "
                           "regel dan veertien dagen ná de vorige?",
                   "De tweede helft van de cyclus duurt bij bijna elke vrouw ongeveer veertien dagen. De "
@@ -75,7 +75,7 @@ OEFENBUNDELS["oefenbundel-bevruchting-en-de-ontwikkeling-van-embryo-en-foetus-be
                           ("de grootste cel van het lichaam", "eicel")], None, W),
              ]),
         dict(kop="Zet de weg op volgorde",
-             opdracht="Nummer de stappen van 1 tot 5.",
+             opdracht=r"Nummer de stappen van \(1\) tot \(5\).",
              oefeningen=[
                  ("tabel", ["Nummer", "Wat er gebeurt"],
                   [[None, "de kiemblaas nestelt zich in het baarmoederslijmvlies"],
@@ -83,9 +83,9 @@ OEFENBUNDELS["oefenbundel-bevruchting-en-de-ontwikkeling-van-embryo-en-foetus-be
                    [None, "het bevruchtingsmembraan sluit de eicel af"],
                    [None, "de zaadcellen zwemmen door de baarmoeder naar de eileider"],
                    [None, "de kernen versmelten tot een zygote"]],
-                  "1 = de LH-piek lokt de eisprong uit · 2 = de zaadcellen zwemmen door de baarmoeder "
-                  "naar de eileider · 3 = het bevruchtingsmembraan sluit de eicel af · 4 = de kernen "
-                  "versmelten tot een zygote · 5 = de kiemblaas nestelt zich in het baarmoederslijmvlies",
+                  r"\(1\) = de LH-piek lokt de eisprong uit · \(2\) = de zaadcellen zwemmen door de baarmoeder "
+                  r"naar de eileider · \(3\) = het bevruchtingsmembraan sluit de eicel af · \(4\) = de kernen "
+                  r"versmelten tot een zygote · \(5\) = de kiemblaas nestelt zich in het baarmoederslijmvlies",
                   "56px"),
              ]),
         dict(kop="De placenta en de navelstreng",
@@ -230,20 +230,20 @@ OEFENBUNDELS["oefenbundel-van-dna-naar-eiwit-genexpressie-beyond-dubbele-finalit
                           ("het stuk DNA voor oogkleur", "gen"),
                           ("de versie voor bruin", "allel")], None, WW),
                  ("rij", [("al je erfelijk materiaal samen", "genotype"),
-                          ("je lengte van 1,72 m", "fenotype"),
+                          (r"je lengte van \(1{,}72\) m", "fenotype"),
                           ("de versie voor blauw", "allel")], None, WW),
              ]),
         dict(kop="Zet de weg van gen naar eiwit op volgorde",
-             opdracht="Nummer de stappen van 1 tot 4 en vul de plaats aan.",
+             opdracht=r"Nummer de stappen van \(1\) tot \(4\) en vul de plaats aan.",
              oefeningen=[
                  ("tabel", ["Nummer", "Stap", "Waar in de cel"],
                   [[None, "het ribosoom koppelt aminozuren aan elkaar", None],
                    [None, "het mRNA wordt van het DNA afgelezen", None],
                    [None, "het eiwit is klaar en doet zijn werk", None],
                    [None, "het mRNA reist naar een ribosoom", None]],
-                  "1 = het mRNA wordt van het DNA afgelezen, in de celkern · 2 = het mRNA reist naar een "
-                  "ribosoom, uit de kern naar het cytoplasma · 3 = het ribosoom koppelt aminozuren aan "
-                  "elkaar, aan het ribosoom · 4 = het eiwit is klaar en doet zijn werk, in de cel",
+                  r"\(1\) = het mRNA wordt van het DNA afgelezen, in de celkern · \(2\) = het mRNA reist naar een "
+                  r"ribosoom, uit de kern naar het cytoplasma · \(3\) = het ribosoom koppelt aminozuren aan "
+                  r"elkaar, aan het ribosoom · \(4\) = het eiwit is klaar en doet zijn werk, in de cel",
                   "90px"),
                  ("open", "Waarom verlaat het DNA zelf de celkern niet?",
                   "Het DNA is het origineel en moet heel blijven. Alleen een kopie, het mRNA, reist naar "
@@ -286,11 +286,11 @@ OEFENBUNDELS["oefenbundel-overerving-van-kenmerken-beyond-dubbele-finaliteit"] =
         dict(kop="Hoeveel chromosomen?",
              opdracht="Schrijf het aantal en of de cel haploïd of diploïd is.",
              oefeningen=[
-                 ("rij", [("een menselijke huidcel", "46, diploïd"),
-                          ("een menselijke zaadcel", "23, haploïd"),
-                          ("een menselijke eicel", "23, haploïd")], None, WW),
+                 ("rij", [("een menselijke huidcel", r"\(46\), diploïd"),
+                          ("een menselijke zaadcel", r"\(23\), haploïd"),
+                          ("een menselijke eicel", r"\(23\), haploïd")], None, WW),
                  ("kort", "Een zygote ontstaat uit een eicel en een zaadcel. Hoeveel chromosomen heeft "
-                          "ze?", "46", W),
+                          "ze?", r"\(46\)", W),
              ]),
         dict(kop="Mitose of meiose?",
              opdracht="Schrijf mitose of meiose.",
@@ -307,10 +307,10 @@ OEFENBUNDELS["oefenbundel-overerving-van-kenmerken-beyond-dubbele-finaliteit"] =
              oefeningen=[
                  ("tabel", ["", "A", "a"],
                   [["A", None, None], ["a", None, None]],
-                  "AA, Aa in de bovenste rij en Aa, aa in de onderste. Dus 25 % AA, 50 % Aa en 25 % aa.",
+                  r"AA, Aa in de bovenste rij en Aa, aa in de onderste. Dus \(25\,\%\) AA, \(50\,\%\) Aa en \(25\,\%\) aa.",
                   "80px"),
-                 ("kort", "Welk percentage van die kinderen vertoont het recessieve kenmerk?", "25 %", W),
-                 ("kort", "Welk percentage is drager zonder het kenmerk te tonen?", "50 %", W),
+                 ("kort", "Welk percentage van die kinderen vertoont het recessieve kenmerk?", r"\(25\,\%\)", W),
+                 ("kort", "Welk percentage is drager zonder het kenmerk te tonen?", r"\(50\,\%\)", W),
                  ("open", "Twee ouders met bloedgroep A krijgen een kind met bloedgroep O. Welk genotype "
                           "hebben de ouders? Leg uit.",
                   "Beide ouders zijn AO, dus heterozygoot. Elk gaf het O-allel door, en het kind is OO.", 4),
@@ -333,7 +333,7 @@ OEFENBUNDELS["oefenbundel-overerving-van-kenmerken-beyond-dubbele-finaliteit"] =
                   "een draagster", W),
                  ("open", "Een moeder is draagster van hemofilie, de vader is gezond. Hoe groot is de "
                           "kans dat een zoon hemofilie heeft? Leg uit.",
-                  "De helft, dus 50 %. Een zoon krijgt zijn enige X van zijn moeder, en de helft van haar "
+                  r"De helft, dus \(50\,\%\). Een zoon krijgt zijn enige X van zijn moeder, en de helft van haar "
                   "X-chromosomen draagt het afwijkende allel.", 4),
              ]),
         dict(kop="Mutaties",
@@ -405,7 +405,7 @@ OEFENBUNDELS["oefenbundel-biologische-evolutie-beyond-dubbele-finaliteit"] = dic
                   "Mens en chimpansee hebben een gemeenschappelijke voorouder. Die voorouder is "
                   "uitgestorven en was geen chimpansee zoals die vandaag leeft.", 3),
                  ("kort", "Hoe oud is de aarde volgens het huidige onderzoek?",
-                  "ongeveer 4,6 miljard jaar", W),
+                  r"ongeveer \(4{,}6\) miljard jaar", W),
                  ("open", "Waarom is die ouderdom belangrijk voor de evolutietheorie?",
                   "Kleine veranderingen stapelen zich op over vele generaties. Daarvoor is heel veel tijd "
                   "nodig, en die is er.", 3),
@@ -546,7 +546,7 @@ OEFENBUNDELS["oefenbundel-productlabels-pictogrammen-en-risico-s-van-stoffen-bey
         dict(kop="Lees de code op de verpakking",
              opdracht="Vul aan en beoordeel.",
              oefeningen=[
-                 ("kort", "Welke kunststof hoort bij recyclagecode 1?", "PET", W),
+                 ("kort", r"Welke kunststof hoort bij recyclagecode \(1\)?", "PET", W),
                  ("waar", "De driehoek van pijltjes met een cijfer betekent dat de verpakking zeker "
                           "gerecycleerd wordt.", False),
                  ("open", "Wat zegt dat cijfer dan wel?",
@@ -556,11 +556,11 @@ OEFENBUNDELS["oefenbundel-productlabels-pictogrammen-en-risico-s-van-stoffen-bey
         dict(kop="Kookpunt en smeltpunt",
              opdracht="Reken, kies en leg uit.",
              oefeningen=[
-                 ("tabel", ["Stof", "Smeltpunt", "Kookpunt", "Vast, vloeibaar of gas bij 20 °C?"],
-                  [["aceton", "−95 °C", "56 °C", None],
-                   ["water", "0 °C", "100 °C", None],
-                   ["ijzer", "1538 °C", "2862 °C", None]],
-                  "Aceton is vloeibaar, water is vloeibaar en ijzer is vast bij 20 °C.", "95px"),
+                 ("tabel", ["Stof", "Smeltpunt", "Kookpunt", r"Vast, vloeibaar of gas bij \(20^{\circ}\text{C}\)?"],
+                  [["aceton", r"\(-95^{\circ}\text{C}\)", r"\(56^{\circ}\text{C}\)", None],
+                   ["water", r"\(0^{\circ}\text{C}\)", r"\(100^{\circ}\text{C}\)", None],
+                   ["ijzer", r"\(1538^{\circ}\text{C}\)", r"\(2862^{\circ}\text{C}\)", None]],
+                  r"Aceton is vloeibaar, water is vloeibaar en ijzer is vast bij \(20^{\circ}\text{C}\).", "95px"),
                  ("open", "Waarom gebruikt men net aceton om glaswerk snel droog te maken?",
                   "Aceton heeft een laag kookpunt en verdampt dus vlot bij kamertemperatuur. Het neemt "
                   "het water mee en laat het glas droog achter.", 3),
@@ -582,8 +582,8 @@ OEFENBUNDELS["oefenbundel-productlabels-pictogrammen-en-risico-s-van-stoffen-bey
              opdracht="Vul de tabel aan.",
              oefeningen=[
                  ("tabel", ["Stof", "pH ongeveer", "Zuur, neutraal of basisch?"],
-                  [["huishoudazijn", "3", None], ["zuiver water", "7", None],
-                   ["ontstopper", "13", None], ["citroensap", "2", None]],
+                  [["huishoudazijn", r"\(3\)", None], ["zuiver water", r"\(7\)", None],
+                   ["ontstopper", r"\(13\)", None], ["citroensap", r"\(2\)", None]],
                   "Huishoudazijn is zuur, zuiver water neutraal, ontstopper basisch en citroensap zuur.",
                   "110px"),
                  ("open", "Rode koolsap kleurt rood tot roze in de ene vloeistof en groen tot geel in de "
@@ -655,15 +655,15 @@ OEFENBUNDELS["oefenbundel-voedingsbestanddelen-en-etiketten-beyond-dubbele-final
         dict(kop="Reken op het etiket",
              opdracht="Reken en schrijf je tussenstap op.",
              oefeningen=[
-                 ("kort", "Een pot van 400 g bevat 25 g suiker per 100 g. Hoeveel suiker zit er in de "
-                          "hele pot?", "100 g", W),
-                 ("kort", "Een pak van 150 g bevat 12 g vet per 100 g. Hoeveel vet zit er in het pak?",
-                  "18 g", W),
-                 ("kort", "Een fles van 1,5 L bevat 10 g suiker per 100 mL. Hoeveel suiker in de hele "
-                          "fles?", "150 g", W),
-                 ("open", "Op een etiket staat suiker 36 g per 100 g. Wat zegt dat over het product, in "
+                 ("kort", r"Een pot van \(400\) g bevat \(25\) g suiker per \(100\) g. Hoeveel suiker zit er in de "
+                          "hele pot?", r"\(100\) g", W),
+                 ("kort", r"Een pak van \(150\) g bevat \(12\) g vet per \(100\) g. Hoeveel vet zit er in het pak?",
+                  r"\(18\) g", W),
+                 ("kort", r"Een fles van \(1{,}5\) L bevat \(10\) g suiker per \(100\) mL. Hoeveel suiker in de hele "
+                          "fles?", r"\(150\) g", W),
+                 ("open", r"Op een etiket staat suiker \(36\) g per \(100\) g. Wat zegt dat over het product, in "
                           "gewone woorden?",
-                  "Ruim een derde van het product is suiker. Per honderd gram zit er dus 36 gram suiker "
+                  r"Ruim een derde van het product is suiker. Per honderd gram zit er dus \(36\) gram suiker "
                   "in.", 3),
              ]),
         dict(kop="Nutriscore of ecoscore?",
@@ -707,37 +707,37 @@ OEFENBUNDELS["oefenbundel-dosis-en-concentratie-van-stoffen-beyond-dubbele-final
         dict(kop="Welke concentratie-uitdrukking is dit?",
              opdracht="Schrijf massaprocent, volumeprocent of massaconcentratie.",
              oefeningen=[
-                 ("rij", [("8 g per liter", "massaconcentratie"), ("5 % vol", "volumeprocent"),
-                          ("3 g per 100 g", "massaprocent")], None, WL),
-                 ("rij", [("40 % alcohol", "volumeprocent"), ("12 mg per liter", "massaconcentratie"),
-                          ("20 g zout per 100 g pekel", "massaprocent")], None, WL),
+                 ("rij", [(r"\(8\) g per liter", "massaconcentratie"), (r"\(5\,\%\) vol", "volumeprocent"),
+                          (r"\(3\) g per \(100\) g", "massaprocent")], None, WL),
+                 ("rij", [(r"\(40\,\%\) alcohol", "volumeprocent"), (r"\(12\) mg per liter", "massaconcentratie"),
+                          (r"\(20\) g zout per \(100\) g pekel", "massaprocent")], None, WL),
              ]),
         dict(kop="Reken de hoeveelheid alcohol uit",
              opdracht="Reken en schrijf je tussenstap op.",
              oefeningen=[
-                 ("kort", "Een glas van 200 mL bier met 5 % vol. Hoeveel mL alcohol?", "10 mL", W),
-                 ("kort", "Een glas van 150 mL wijn met 12 % vol. Hoeveel mL alcohol?", "18 mL", W),
-                 ("kort", "Een glaasje van 40 mL sterke drank met 40 % vol. Hoeveel mL alcohol?",
-                  "16 mL", W),
+                 ("kort", r"Een glas van \(200\) mL bier met \(5\,\%\) vol. Hoeveel mL alcohol?", r"\(10\) mL", W),
+                 ("kort", r"Een glas van \(150\) mL wijn met \(12\,\%\) vol. Hoeveel mL alcohol?", r"\(18\) mL", W),
+                 ("kort", r"Een glaasje van \(40\) mL sterke drank met \(40\,\%\) vol. Hoeveel mL alcohol?",
+                  r"\(16\) mL", W),
                  ("open", "Welk van die drie glazen bevat het meeste alcohol? Zet ze op volgorde en leg "
                           "uit waarom het percentage alleen niet volstaat.",
-                  "Wijn 18 mL, sterke drank 16 mL, bier 10 mL. Het percentage zegt alleen hoe sterk de "
+                  r"Wijn \(18\) mL, sterke drank \(16\) mL, bier \(10\) mL. Het percentage zegt alleen hoe sterk de "
                   "drank is; je moet het volume erbij rekenen om de hoeveelheid te kennen.", 4),
              ]),
         dict(kop="Reken de concentratie uit",
              opdracht="Reken en zet de juiste eenheid erbij.",
              oefeningen=[
-                 ("kort", "25 g zout in 500 g oplossing. Wat is het massaprocent?", "5 %", W),
-                 ("kort", "10 g suiker opgelost tot 250 mL. Wat is de massaconcentratie?", "40 g/L", W),
-                 ("kort", "6 g zout opgelost tot 2 L. Wat is de massaconcentratie?", "3 g/L", W),
-                 ("kort", "Een oplossing van 25 g/L. Hoeveel stof zit er in 400 mL?", "10 g", W),
+                 ("kort", r"\(25\) g zout in \(500\) g oplossing. Wat is het massaprocent?", r"\(5\,\%\)", W),
+                 ("kort", r"\(10\) g suiker opgelost tot \(250\) mL. Wat is de massaconcentratie?", r"\(40\) g/L", W),
+                 ("kort", r"\(6\) g zout opgelost tot \(2\) L. Wat is de massaconcentratie?", r"\(3\) g/L", W),
+                 ("kort", r"Een oplossing van \(25\) g/L. Hoeveel stof zit er in \(400\) mL?", r"\(10\) g", W),
              ]),
         dict(kop="Dosis of concentratie?",
              opdracht="Schrijf dosis of concentratie.",
              oefeningen=[
-                 ("rij", [("er zit 32 g suiker per 100 g in de pot", "concentratie"),
-                          ("ik heb vandaag 40 g suiker gegeten", "dosis"),
-                          ("deze drank is 5 % vol", "concentratie")], None, WW),
+                 ("rij", [(r"er zit \(32\) g suiker per \(100\) g in de pot", "concentratie"),
+                          (r"ik heb vandaag \(40\) g suiker gegeten", "dosis"),
+                          (r"deze drank is \(5\,\%\) vol", "concentratie")], None, WW),
                  ("open", "Iemand zegt: deze drank is zwak, dus ik kan er zoveel van drinken als ik wil. "
                           "Wat is er fout aan die gedachte?",
                   "De concentratie is laag, maar de dosis hangt ook af van hoeveel je drinkt. Veel van "
@@ -746,10 +746,10 @@ OEFENBUNDELS["oefenbundel-dosis-en-concentratie-van-stoffen-beyond-dubbele-final
         dict(kop="Reken met de ADI",
              opdracht="Reken en schrijf je tussenstap op.",
              oefeningen=[
-                 ("kort", "ADI = 5 mg per kg per dag. Een kind van 24 kg. Hoeveel mag het per dag?",
-                  "120 mg", W),
-                 ("kort", "ADI = 3 mg per kg per dag. Een volwassene van 80 kg. Hoeveel per dag?",
-                  "240 mg", W),
+                 ("kort", r"ADI = \(5\) mg per kg per dag. Een kind van \(24\) kg. Hoeveel mag het per dag?",
+                  r"\(120\) mg", W),
+                 ("kort", r"ADI = \(3\) mg per kg per dag. Een volwassene van \(80\) kg. Hoeveel per dag?",
+                  r"\(240\) mg", W),
                  ("open", "Waarom staat een ADI altijd per kilogram lichaamsgewicht en niet als één vast "
                           "getal?",
                   "Een stof verdeelt zich over je hele lichaam. In een groter lichaam wordt dezelfde "
@@ -759,10 +759,10 @@ OEFENBUNDELS["oefenbundel-dosis-en-concentratie-van-stoffen-beyond-dubbele-final
              opdracht="Vergelijk en besluit.",
              oefeningen=[
                  ("tabel", ["Stof", "LD50 in mg per kg", "Giftiger of minder giftig?"],
-                  [["stof A", "20", None], ["stof B", "800", None], ["stof C", "4000", None]],
+                  [["stof A", r"\(20\)", None], ["stof B", r"\(800\)", None], ["stof C", r"\(4000\)", None]],
                   "Stof A is het giftigst, dan B, dan C: hoe lager de LD50, hoe giftiger.", "130px"),
-                 ("kort", "LD50 = 1500 mg per kg. Welke dosis is dat voor iemand van 50 kg, in gram?",
-                  "75 g", W),
+                 ("kort", r"LD\(50 = 1500\) mg per kg. Welke dosis is dat voor iemand van \(50\) kg, in gram?",
+                  r"\(75\) g", W),
                  ("waar", "Een stof met een hoge LD50 kan je in elke hoeveelheid gebruiken.", False),
                  ("open", "Een ADI geldt voor elke dag, een LD50 voor één keer. Waarom is dat verschil "
                           "belangrijk?",
@@ -798,13 +798,13 @@ OEFENBUNDELS["oefenbundel-duurzame-chemie-beyond-dubbele-finaliteit"] = dict(
                           ("een kleed gaat naar de tweedehandswinkel", "hergebruik")], None, WL),
              ]),
         dict(kop="Zet de ladder van Lansink op volgorde",
-             opdracht="Nummer van 1, het best, tot 5, het slechtst.",
+             opdracht=r"Nummer van \(1\), het best, tot \(5\), het slechtst.",
              oefeningen=[
                  ("tabel", ["Nummer", "Trede"],
                   [[None, "recycleren"], [None, "storten"], [None, "voorkomen dat er afval ontstaat"],
                    [None, "verbranden met energiewinst"], [None, "hergebruiken"]],
-                  "1 = voorkomen dat er afval ontstaat · 2 = hergebruiken · 3 = recycleren · 4 = "
-                  "verbranden met energiewinst · 5 = storten", "56px"),
+                  r"\(1 = v\)oorkomen dat er afval ontstaat · \(2 = h\)ergebruiken · \(3 = r\)ecycleren · \(4\) = "
+                  r"verbranden met energiewinst · \(5 = s\)torten", "56px"),
                  ("open", "Waarom staat hergebruiken hoger dan recycleren?",
                   "Bij hergebruik blijft het voorwerp zoals het is, dus er is geen energie nodig om het "
                   "materiaal opnieuw te verwerken.", 3),
@@ -848,17 +848,17 @@ OEFENBUNDELS["oefenbundel-duurzame-chemie-beyond-dubbele-finaliteit"] = dict(
         dict(kop="Energie, waterstof en water",
              opdracht="Vul aan.",
              oefeningen=[
-                 ("rij", [("uit aardgas, de CO2 komt vrij", "grijze waterstof"),
-                          ("uit aardgas, de CO2 wordt opgeslagen", "blauwe waterstof"),
+                 ("rij", [("uit aardgas, de CO₂ komt vrij", "grijze waterstof"),
+                          ("uit aardgas, de CO₂ wordt opgeslagen", "blauwe waterstof"),
                           ("uit water met hernieuwbare stroom", "groene waterstof")], None, WL),
                  ("rij", [("water van het toilet", "zwart water"),
                           ("water van bad en wasmachine", "grijs water"),
                           ("zuiver, drinkbaar water", "wit water")], None, WW),
                  ("rij", [("zon en wind", "hernieuwbaar"), ("steenkool en aardgas", "fossiel"),
                           ("uranium", "kernenergie")], "Welke energievorm?", WW),
-                 ("open", "Een bedrijf noemt zijn productie CO2-negatief. Wat betekent dat, en waarin is "
-                          "dat anders dan CO2-neutraal?",
-                  "CO2-negatief haalt meer koolstofdioxide uit de lucht dan het uitstoot. Bij neutraal "
+                 ("open", "Een bedrijf noemt zijn productie CO₂-negatief. Wat betekent dat, en waarin is "
+                          "dat anders dan CO₂-neutraal?",
+                  "CO₂-negatief haalt meer koolstofdioxide uit de lucht dan het uitstoot. Bij neutraal "
                   "heffen uitstoot en opname elkaar precies op.", 4),
              ]),
     ],
@@ -976,13 +976,13 @@ OEFENBUNDELS["oefenbundel-golven-geluid-en-het-elektromagnetisch-spectrum-beyond
                   "elektromagnetisch en reist ook door het lege heelal.", 4),
              ]),
         dict(kop="Reken met de formules",
-             opdracht="Gebruik f = 1 / T en v = λ · f. Schrijf je tussenstap op.",
+             opdracht=r"Gebruik \(f = 1 / T\) en \(v = \lambda \cdot f\). Schrijf je tussenstap op.",
              oefeningen=[
-                 ("kort", "T = 0,02 s. Wat is de frequentie?", "50 Hz", W),
-                 ("kort", "T = 0,005 s. Wat is de frequentie?", "200 Hz", W),
-                 ("kort", "λ = 4 m en f = 85 Hz. Wat is de golfsnelheid?", "340 m/s", W),
-                 ("kort", "v = 340 m/s en f = 680 Hz. Wat is de golflengte?", "0,5 m", W),
-                 ("kort", "f = 25 Hz. Wat is de periode?", "0,04 s", W),
+                 ("kort", r"\(T = 0{,}02\) s. Wat is de frequentie?", r"\(50\) Hz", W),
+                 ("kort", r"\(T = 0{,}005\) s. Wat is de frequentie?", r"\(200\) Hz", W),
+                 ("kort", r"\(\lambda = 4\) m en \(f = 85\) Hz. Wat is de golfsnelheid?", r"\(340\) m/s", W),
+                 ("kort", r"\(v = 340\) m/s en \(f = 680\) Hz. Wat is de golflengte?", r"\(0{,}5\) m", W),
+                 ("kort", r"\(f = 25\) Hz. Wat is de periode?", r"\(0{,}04\) s", W),
              ]),
         dict(kop="Wat verandert er aan de golf?",
              opdracht="Schrijf amplitude, frequentie of allebei.",
@@ -1006,20 +1006,20 @@ OEFENBUNDELS["oefenbundel-golven-geluid-en-het-elektromagnetisch-spectrum-beyond
         dict(kop="Reken met decibel",
              opdracht="Reken en leg uit.",
              oefeningen=[
-                 ("kort", "Op 2 m van een box meet je 94 dB. Hoeveel meet je op 4 m?", "88 dB", W),
-                 ("kort", "En hoeveel op 8 m?", "82 dB", W),
+                 ("kort", r"Op \(2\) m van een box meet je \(94\) dB. Hoeveel meet je op \(4\) m?", r"\(88\) dB", W),
+                 ("kort", r"En hoeveel op \(8\) m?", r"\(82\) dB", W),
                  ("kort", "De geluidsintensiteit wordt vier keer kleiner. Hoeveel decibel zakt het "
-                          "niveau?", "6 dB", W),
+                          "niveau?", r"\(6\) dB", W),
                  ("open", "Noem drie dagelijkse geluiden en zet ze op volgorde van zacht naar luid, met "
                           "een schatting in decibel.",
-                  "Bijvoorbeeld fluisteren rond 30 dB, een gesprek rond 60 dB en een drilboor rond "
-                  "100 dB.", 3),
+                  r"Bijvoorbeeld fluisteren rond \(30\) dB, een gesprek rond \(60\) dB en een drilboor rond "
+                  r"\(100\) dB.", 3),
              ]),
         dict(kop="Je gehoor beschermen",
              opdracht="Beoordeel en leg uit.",
              oefeningen=[
-                 ("rij", [("de gehoordrempel", "0 dB"), ("de gevaargrens", "80 dB"),
-                          ("de pijndrempel", "120 dB")], "Welk niveau hoort hierbij?", W),
+                 ("rij", [("de gehoordrempel", r"\(0\) dB"), ("de gevaargrens", r"\(80\) dB"),
+                          ("de pijndrempel", r"\(120\) dB")], "Welk niveau hoort hierbij?", W),
                  ("waar", "Gehoorschade door lawaai geneest altijd volledig.", False),
                  ("open", "Leg uit waarom niet.",
                   "De haarcellen in het binnenoor raken beschadigd, en die groeien bij de mens niet "
@@ -1031,14 +1031,14 @@ OEFENBUNDELS["oefenbundel-golven-geluid-en-het-elektromagnetisch-spectrum-beyond
                   "veiligst is oordopjes plus afstand.", 4),
              ]),
         dict(kop="Zet het spectrum op volgorde",
-             opdracht="Nummer van 1, de laagste energie, tot 7, de hoogste.",
+             opdracht=r"Nummer van \(1\), de laagste energie, tot \(7\), de hoogste.",
              oefeningen=[
                  ("tabel", ["Nummer", "Soort straling"],
                   [[None, "zichtbaar licht"], [None, "radiogolven"], [None, "gammastraling"],
                    [None, "infraroodstraling"], [None, "röntgenstraling"], [None, "microgolven"],
                    [None, "ultraviolette straling"]],
-                  "1 = radiogolven · 2 = microgolven · 3 = infraroodstraling · 4 = zichtbaar licht · "
-                  "5 = ultraviolette straling · 6 = röntgenstraling · 7 = gammastraling", "56px"),
+                  r"\(1 = r\)adiogolven · \(2 = m\)icrogolven · \(3 = i\)nfraroodstraling · \(4 = z\)ichtbaar licht · "
+                  r"\(5 = u\)ltraviolette straling · \(6 = r\)öntgenstraling · \(7 = g\)ammastraling", "56px"),
                  ("waar", "Hoe hoger de frequentie, hoe korter de golflengte.", True),
              ]),
         dict(kop="Welke straling zit hierin?",
@@ -1068,20 +1068,20 @@ OEFENBUNDELS["oefenbundel-kernfysica-kernenergie-en-straling-beyond-dubbele-fina
              opdracht="Vul de tabel aan.",
              oefeningen=[
                  ("tabel", ["Nuclide", "Massagetal A", "Atoomnummer Z", "Aantal neutronen"],
-                  [["koolstof-12", "12", "6", None], ["zuurstof-16", "16", "8", None],
-                   ["uranium-238", "238", "92", None], ["waterstof-3", "3", "1", None]],
-                  "Koolstof-12: 6 neutronen. Zuurstof-16: 8 neutronen. Uranium-238: 146 neutronen. "
-                  "Waterstof-3: 2 neutronen.", "70px"),
-                 ("open", "Koolstof-12 en koolstof-14 zijn isotopen. Wat hebben ze gemeen en waarin "
+                  [[r"koolstof-\(12\)", r"\(12\)", r"\(6\)", None], [r"zuurstof-\(16\)", r"\(16\)", r"\(8\)", None],
+                   [r"uranium-\(238\)", r"\(238\)", r"\(92\)", None], [r"waterstof-\(3\)", r"\(3\)", r"\(1\)", None]],
+                  r"Koolstof-\(12\): \(6\) neutronen. Zuurstof-\(16\): \(8\) neutronen. Uranium-\(238\): \(146\) neutronen. "
+                  r"Waterstof-\(3\): \(2\) neutronen.", "70px"),
+                 ("open", r"Koolstof-\(12\) en koolstof-\(14\) zijn isotopen. Wat hebben ze gemeen en waarin "
                           "verschillen ze?",
-                  "Ze hebben hetzelfde aantal protonen, zes, en zijn dus allebei koolstof. Koolstof-14 "
+                  r"Ze hebben hetzelfde aantal protonen, zes, en zijn dus allebei koolstof. Koolstof-\(14\) "
                   "heeft twee neutronen meer.", 4),
              ]),
         dict(kop="Reken met de halfwaardetijd",
              opdracht="Reken en schrijf je tussenstap op.",
              oefeningen=[
-                 ("kort", "Halfwaardetijd 5 dagen. Welk deel is er na 20 dagen over?", "een zestiende", W),
-                 ("kort", "Je begint met 800 g. Halfwaardetijd 3 jaar. Hoeveel na 9 jaar?", "100 g", W),
+                 ("kort", r"Halfwaardetijd \(5\) dagen. Welk deel is er na \(20\) dagen over?", "een zestiende", W),
+                 ("kort", r"Je begint met \(800\) g. Halfwaardetijd \(3\) jaar. Hoeveel na \(9\) jaar?", r"\(100\) g", W),
                  ("kort", "Na hoeveel halfwaardetijden is er nog een vierde over?", "twee", W),
                  ("waar", "Hoe langer de halfwaardetijd, hoe sneller een stof onschadelijk is.", False),
              ]),
@@ -1103,8 +1103,8 @@ OEFENBUNDELS["oefenbundel-kernfysica-kernenergie-en-straling-beyond-dubbele-fina
                    [None, "uraniumkernen splijten in de splijtstaven"],
                    [None, "de stoom drijft een turbine aan"],
                    [None, "het water wordt verhit tot stoom"]],
-                  "1 = uraniumkernen splijten in de splijtstaven · 2 = het water wordt verhit tot stoom · "
-                  "3 = de stoom drijft een turbine aan · 4 = de turbine draait de generator", "56px"),
+                  r"\(1 = u\)raniumkernen splijten in de splijtstaven · \(2\) = het water wordt verhit tot stoom · "
+                  r"\(3\) = de stoom drijft een turbine aan · \(4\) = de turbine draait de generator", "56px"),
                  ("rij", [("remmen de kettingreactie af", "de regelstaven"),
                           ("houdt straling binnen bij een ongeval", "de betonnen koepel"),
                           ("de splijtstof zelf", "uranium")], None, WL),
@@ -1133,9 +1133,9 @@ OEFENBUNDELS["oefenbundel-kernfysica-kernenergie-en-straling-beyond-dubbele-fina
         dict(kop="Schrijf het verval op",
              opdracht="Vul het nieuwe massagetal en atoomnummer in.",
              oefeningen=[
-                 ("rij", [("radium-226 zendt een alfadeeltje uit", "A = 222 en Z = 86"),
-                          ("thorium-234 zendt een bètadeeltje uit", "A = 234 en Z = 91")],
-                  "Radium heeft Z = 88, thorium heeft Z = 90.", WL),
+                 ("rij", [(r"radium-\(226\) zendt een alfadeeltje uit", r"\(A = 222\) en \(Z = 86\)"),
+                          (r"thorium-\(234\) zendt een bètadeeltje uit", r"\(A = 234\) en \(Z = 91\)")],
+                  r"Radium heeft \(Z = 88\), thorium heeft \(Z = 90\).", WL),
                  ("open", "Een kern heeft te veel neutronen. Welke straling zendt ze uit en wat gebeurt "
                           "er in de kern?",
                   "Bètamin-straling. Een neutron verandert in een proton en er vertrekt een elektron, dus "
@@ -1198,21 +1198,21 @@ OEFENBUNDELS["oefenbundel-veilig-werken-meten-en-onderzoeken-beyond-dubbele-fina
                  ("rij", [("de spanning over een lamp", "een multimeter"),
                           ("het geluidsniveau in een zaal", "een decibelmeter"),
                           ("de temperatuur van water", "een thermometer")], None, WW),
-                 ("open", "Je moet 1,5 kg wegen en je balans gaat tot 200 g. Wat doe je, en wat doe je "
+                 ("open", r"Je moet \(1{,}5\) kg wegen en je balans gaat tot \(200\) g. Wat doe je, en wat doe je "
                           "zeker niet?",
                   "Je zoekt een balans met een groter meetbereik. Je legt het niet toch voorzichtig op de "
                   "balans: de waarde klopt dan niet en het toestel kan stuk gaan.", 4),
-                 ("open", "Je wil een verschil van 0,2 °C meten. Welke thermometer kies je en waarom?",
-                  "Een met streepjes van 0,1 °C. Het toestel moet nauwkeuriger zijn dan het verschil dat "
+                 ("open", r"Je wil een verschil van \(0{,}2^{\circ}\text{C}\) meten. Welke thermometer kies je en waarom?",
+                  r"Een met streepjes van \(0{,}1^{\circ}\text{C}\). Het toestel moet nauwkeuriger zijn dan het verschil dat "
                   "je wil zien.", 3),
              ]),
         dict(kop="Zet de eenheden om",
              opdracht="Reken om.",
              oefeningen=[
-                 ("rij", [("3,2 km in m", "3200 m"), ("750 mg in g", "0,75 g"),
-                          ("5 MJ in J", "5 000 000 J")], None, WW),
-                 ("rij", [("0,4 m in mm", "400 mm"), ("2500 g in kg", "2,5 kg"),
-                          ("8 µm in m", "0,000008 m")], None, WW),
+                 ("rij", [(r"\(3{,}2\) km in m", r"\(3200\) m"), (r"\(750\) mg in g", r"\(0{,}75\) g"),
+                          (r"\(5\) MJ in J", r"\(5\,000\,000\) J")], None, WW),
+                 ("rij", [(r"\(0{,}4\) m in mm", r"\(400\) mm"), (r"\(2500\) g in kg", r"\(2{,}5\) kg"),
+                          (r"\(8\) µm in m", r"\(0{,}000008\) m")], None, WW),
                  ("kort", "Hoeveel is een nano van een eenheid?", "een miljardste", W),
              ]),
         dict(kop="Welk verband?",
@@ -1252,8 +1252,8 @@ OEFENBUNDELS["oefenbundel-veilig-werken-meten-en-onderzoeken-beyond-dubbele-fina
                   [[None, "oplossingen bedenken en samenvoegen"], [None, "het probleem definiëren"],
                    [None, "evalueren en bijsturen"], [None, "criteria opstellen"],
                    [None, "het probleem in deelproblemen splitsen"]],
-                  "1 = het probleem definiëren · 2 = criteria opstellen · 3 = het probleem in "
-                  "deelproblemen splitsen · 4 = oplossingen bedenken en samenvoegen · 5 = evalueren en "
+                  r"\(1\) = het probleem definiëren · \(2 = c\)riteria opstellen · \(3\) = het probleem in "
+                  r"deelproblemen splitsen · \(4\) = oplossingen bedenken en samenvoegen · \(5 = e\)valueren en "
                   "bijsturen", "56px"),
                  ("open", "Een stad wil de luchtkwaliteit verbeteren. Welke STEM-domeinen heb je nodig, "
                           "en waarvoor elk?",

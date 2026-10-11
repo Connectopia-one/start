@@ -217,18 +217,18 @@ ATOOM_ELEKTRONEN = dict(
               "element in het periodiek systeem terugvinden."),
         ("p", "De <strong>elektronenconfiguratie volgens Bohr</strong> zegt hoeveel elektronen er "
               "op elk <strong>energieniveau</strong> zitten. Je vult van binnen naar buiten: "
-              "<strong>2</strong> in de eerste schil, dan <strong>8</strong>, dan <strong>8</strong>. "
+              r"<strong>\(2\)</strong> in de eerste schil, dan <strong>\(8\)</strong>, dan <strong>\(8\)</strong>. "
               "Voor de <strong>eerste achttien elementen</strong> moet je dat kunnen noteren."),
         ("p", tabel(
             ["Atoom", "Atoomnummer", "Configuratie"],
-            [["waterstof H", "1", "1"],
-             ["zuurstof O", "8", "2, 6"],
-             ["natrium Na", "11", "2, 8, 1"],
-             ["zwavel S", "16", "2, 8, 6"],
-             ["argon Ar", "18", "2, 8, 8"]],
+            [["waterstof H", r"\(1\)", r"\(1\)"],
+             ["zuurstof O", r"\(8\)", r"\(2\), \(6\)"],
+             ["natrium Na", r"\(11\)", r"\(2\), \(8\), \(1\)"],
+             ["zwavel S", r"\(16\)", r"\(2\), \(8\), \(6\)"],
+             ["argon Ar", r"\(18\)", r"\(2\), \(8\), \(8\)"]],
         )),
-        ("kader", "Een <strong>zwavelatoom met atoomnummer 16</strong> krijgt dus "
-                  "<strong>2, 8, 6</strong>: eerst twee, dan acht, en de zes die overblijven in de "
+        ("kader", r"Een <strong>zwavelatoom met atoomnummer \(16\)</strong> krijgt dus "
+                  r"<strong>\(2\), \(8\), \(6\)</strong>: eerst twee, dan acht, en de zes die overblijven in de "
                   "derde schil. Tel altijd na of je uitkomt op het atoomnummer."),
         ("p", "In het <strong>elektron-stipmodel</strong> zet je <strong>alleen de elektronen van "
               "de buitenste schil</strong> als stipjes rond het symbool van het element. Bij "
@@ -309,8 +309,8 @@ ONTHOUD = {
         "Massagetal A min atoomnummer Z is het aantal neutronen.",
         "Isotopen zijn atomen van hetzelfde element met een ander aantal neutronen.",
         "Een ion is een atoom dat elektronen afgestaan (positief) of opgenomen (negatief) heeft.",
-        "De elektronenconfiguratie volgens Bohr vult van binnen naar buiten: 2, dan 8, dan 8.",
-        "Zwavel met atoomnummer 16 wordt 2, 8, 6.",
+        r"De elektronenconfiguratie volgens Bohr vult van binnen naar buiten: \(2\), dan \(8\), dan \(8\).",
+        r"Zwavel met atoomnummer \(16\) wordt \(2\), \(8\), \(6\).",
         "In het elektron-stipmodel zet je alleen de buitenste schil rond het symbool.",
         "Een periode is een rij, een groep een kolom; het periodenummer geeft het aantal schillen.",
         "Elementen in dezelfde groep hebben evenveel valentie-elektronen en reageren daarom gelijk.",
@@ -346,7 +346,7 @@ HERBOUW["energieomzettingen-vermogen-en-rendement"] = dict(
             ("p", "Energie meet je in <strong>joule</strong>, en voor grotere hoeveelheden in "
                   "<strong>kilojoule</strong>, <strong>kilowattuur</strong> en "
                   "<strong>kilocalorie</strong>. Een <strong>kilowattuur</strong> is duizend watt "
-                  "gedurende één uur, dus <strong>3 600 000 joule</strong>. Daarom rekent je "
+                  r"gedurende één uur, dus <strong>\(3\,600\,000\) joule</strong>. Daarom rekent je "
                   "elektriciteitsfactuur in kilowattuur en niet in joule."),
             ("kader", "Een <strong>kilowattuur is energie, geen vermogen</strong>. De watt is het "
                       "vermogen, de wattuur en de joule zijn de energie. Dat verschil is op het "
@@ -409,7 +409,7 @@ HERBOUW["energieomzettingen-vermogen-en-rendement"] = dict(
     onthoud=[
         "Soorten energie: gravitationele, elastische, kinetische, chemische, thermische, stralings-, kern- en elektrische energie.",
         "De energie door de hoogte is de gravitationele potentiële energie; door de beweging de kinetische.",
-        "Energie meet je in joule, kilojoule, kilowattuur en kilocalorie. Eén kilowattuur is 3 600 000 joule.",
+        r"Energie meet je in joule, kilojoule, kilowattuur en kilocalorie. Eén kilowattuur is \(3\,600\,000\) joule.",
         "Een kilowattuur is energie, een watt is vermogen.",
         "Open systeem: energie en materie. Gesloten: alleen energie. Geïsoleerd: niets van de twee.",
         "Energie kan niet verdwijnen, enkel van vorm veranderen. Daarop steunt de energiebalans.",
@@ -438,7 +438,7 @@ HERBOUW["warmte-faseovergangen-en-inwendige-energie"] = dict(
             blok("warmte-en-faseovergangen", "Temperatuur en warmte", "Koude bestaat niet"),
             ("p", "Een voorwerp met een <strong>hogere temperatuur bevat niet automatisch meer "
                   "warmte</strong>: dat hangt ook af van de massa en van de stof. Een kopje thee "
-                  "van 80 graden geeft veel minder warmte af dan een vol bad van 40 graden. Een "
+                  r"van \(80\) graden geeft veel minder warmte af dan een vol bad van \(40\) graden. Een "
                   "<strong>thermometer</strong> meet dan ook de <strong>temperatuur</strong>, niet "
                   "de warmte."),
             ("p", "In een concrete situatie moet je kunnen zeggen <strong>wie warmte afgeeft en "
@@ -575,12 +575,12 @@ HERBOUW["kracht-als-vector-en-bewegingstoestand"] = dict(
         sectie("vrije-val-verticale-worp-en-krachten", "Krachten samenstellen"),
         dict(kop="Rekenen met krachten op één lijn", blokken=[
             ("p", "Op <strong>één lijn en in dezelfde zin</strong> tel je de grootten op. Duwen "
-                  "twee mensen een kast in dezelfde zin, de een met <strong>80</strong> en de "
-                  "ander met <strong>50 newton</strong>, dan is de resulterende kracht "
-                  "<strong>130 newton</strong>."),
+                  r"twee mensen een kast in dezelfde zin, de een met <strong>\(80\)</strong> en de "
+                  r"ander met <strong>\(50\) newton</strong>, dan is de resulterende kracht "
+                  r"<strong>\(130\) newton</strong>."),
             ("p", "Op <strong>één lijn maar in tegengestelde zin</strong> trek je ze van elkaar "
-                  "af, en de <strong>zin van de grootste</strong> wint. Werken er <strong>60</strong> "
-                  "en <strong>25 newton</strong> tegen elkaar in, dan blijft er <strong>35 "
+                  r"af, en de <strong>zin van de grootste</strong> wint. Werken er <strong>\(60\)</strong> "
+                  r"en <strong>\(25\) newton</strong> tegen elkaar in, dan blijft er <strong>\(35\) "
                   "newton</strong> over. Zijn ze <strong>precies even groot</strong>, dan is de "
                   "resulterende kracht <strong>nul</strong>, en niet het dubbele."),
         ]),
@@ -653,20 +653,20 @@ HERBOUW["kracht-als-vector-en-bewegingstoestand"] = dict(
 
 HERBOUW["druk-in-het-dagelijkse-leven"] = dict(
     vak=VAK, niveau=DF, titel="Druk in het dagelijkse leven",
-    onder="De formule p = F / A, de eenheden pascal, kilopascal en hectopascal, de luchtdruk met "
+    onder=r"De formule \(p = F / A\), de eenheden pascal, kilopascal en hectopascal, de luchtdruk met "
           "haar overdruk en onderdruk, en de druk van een gas.",
     secties=[
         sectie("druk-en-de-gaswetten", "Druk op een oppervlak"),
         dict(kop="Rekenen met de druk", blokken=[
             ("p", "De formule in woorden: <strong>druk is de grootte van de kracht per "
-                  "oppervlakte</strong>, of <strong>p = F / A</strong>. De grootheid die je door de "
-                  "oppervlakte deelt, is dus de <strong>kracht</strong>. Duw je met <strong>600 "
-                  "newton op 0,2 vierkante meter</strong>, dan is de druk <strong>3000 "
-                  "pascal</strong>, of 3 kilopascal."),
+                  r"oppervlakte</strong>, of <strong>\(p = F / A\)</strong>. De grootheid die je door de "
+                  r"oppervlakte deelt, is dus de <strong>kracht</strong>. Duw je met <strong>\(600\) "
+                  r"newton op \(0{,}2\) vierkante meter</strong>, dan is de druk <strong>\(3000\) "
+                  r"pascal</strong>, of \(3\) kilopascal."),
             ("p", "De eenheden: de <strong>pascal</strong> is de SI-eenheid, en daarnaast gebruik "
                   "je de <strong>kilopascal</strong> en de <strong>hectopascal</strong>. "
-                  "<strong>Eén kilopascal is 1000 pascal</strong> en <strong>één hectopascal is 100 "
-                  "pascal</strong>; de 1013 hectopascal van het weerbericht zijn dus 101 300 "
+                  r"<strong>Eén kilopascal is \(1000\) pascal</strong> en <strong>één hectopascal is \(100\) "
+                  r"pascal</strong>; de \(1013\) hectopascal van het weerbericht zijn dus \(101\,300\) "
                   "pascal. De <strong>newton</strong> is géén eenheid van druk, maar van kracht."),
             ("p", "Uit de formule volgt rechtstreeks hoe je de druk <strong>kleiner</strong> maakt: "
                   "het <strong>oppervlak vergroten</strong> of de <strong>kracht "
@@ -677,12 +677,12 @@ HERBOUW["druk-in-het-dagelijkse-leven"] = dict(
                   "een piepklein oppervlak."),
             ("kader", "Zo'n keuze tussen twee gelijkaardige voorwerpen is een klassieke "
                       "examenvraag: welke van de twee kies je, en waarom? Je legt dat telkens uit "
-                      "met <strong>p = F / A</strong>: welke kracht werkt er, en op hoeveel "
+                      r"met <strong>\(p = F / A\)</strong>: welke kracht werkt er, en op hoeveel "
                       "oppervlak?"),
         ]),
         dict(kop="Luchtdruk, overdruk en onderdruk", blokken=[
             ("p", "De <strong>luchtdruk</strong> of <strong>atmosferische druk</strong> komt van "
-                  "het gewicht van de lucht boven ons en is op zeeniveau ongeveer <strong>1013 "
+                  r"het gewicht van de lucht boven ons en is op zeeniveau ongeveer <strong>\(1013\) "
                   "hectopascal</strong>. Hij is <strong>niet op elke hoogte dezelfde</strong>: hoe "
                   "hoger je komt, hoe minder lucht er nog boven je ligt en hoe lager de luchtdruk. "
                   "Daarom staat een zak chips in de bergen bol."),
@@ -722,12 +722,12 @@ HERBOUW["druk-in-het-dagelijkse-leven"] = dict(
         ]),
     ],
     onthoud=[
-        "Druk is de grootte van de kracht per oppervlakte: p = F / A, in pascal.",
+        r"Druk is de grootte van de kracht per oppervlakte: \(p = F / A\), in pascal.",
         "Bij dezelfde kracht geeft een kleiner oppervlak een grotere druk.",
         "De druk kleiner maken: het oppervlak vergroten of de kracht verkleinen.",
-        "Eén kilopascal is 1000 pascal, één hectopascal is 100 pascal. De newton is geen drukeenheid.",
-        "600 newton op 0,2 vierkante meter geeft 3000 pascal.",
-        "De luchtdruk is op zeeniveau ongeveer 1013 hectopascal en daalt als je hoger komt.",
+        r"Eén kilopascal is \(1000\) pascal, één hectopascal is \(100\) pascal. De newton is geen drukeenheid.",
+        r"\(600\) newton op \(0{,}2\) vierkante meter geeft \(3000\) pascal.",
+        r"De luchtdruk is op zeeniveau ongeveer \(1013\) hectopascal en daalt als je hoger komt.",
         "Een barometer meet de luchtdruk buiten, een manometer de druk in een vat of leiding.",
         "Overdruk is hoger dan de omgevingsdruk, onderdruk lager.",
         "Een rietje werkt met onderdruk; de luchtdruk duwt de drank omhoog.",
@@ -758,7 +758,7 @@ HERBOUW["biologische-feedback-en-homeostase"] = dict(
                   "temperatuur en samenstelling. Loopt het te ver uit, dan vallen de processen in "
                   "de cellen stil."),
             ("p", "De waarde waarrond het lichaam het inwendige milieu houdt, is de "
-                  "<strong>normwaarde</strong>. Voor de lichaamstemperatuur ligt die rond 37 "
+                  r"<strong>normwaarde</strong>. Voor de lichaamstemperatuur ligt die rond \(37\) "
                   "graden. Wijkt de gemeten waarde daarvan af, dan grijpt het systeem in."),
             ("p", "Zo'n afwijking begint met een <strong>prikkel</strong>: <strong>elke "
                   "verandering in het inwendige of het uitwendige milieu</strong>. Koude lucht op "
@@ -857,7 +857,7 @@ HERBOUW["biologische-feedback-en-homeostase"] = dict(
                   "telkens <strong>terug naar de normwaarde</strong>: stijgt het, dan volgt een "
                   "reactie die het doet dalen, en daalt het, dan volgt een reactie die het doet "
                   "stijgen."),
-            ("p", "Bij <strong>diabetes type 1</strong> maakt de alvleesklier <strong>geen "
+            ("p", r"Bij <strong>diabetes type \(1\)</strong> maakt de alvleesklier <strong>geen "
                   "insuline</strong> meer. Het meten gaat nog, maar het <strong>signaal valt "
                   "weg</strong>: de lever en de spiercellen krijgen geen bevel om glucose op te "
                   "nemen, en het <strong>gehalte blijft te hoog</strong> staan."),
@@ -886,7 +886,7 @@ HERBOUW["biologische-feedback-en-homeostase"] = dict(
     ],
     onthoud=[
         "Homeostase: het inwendige milieu binnen nauwe grenzen houden terwijl de omgeving verandert.",
-        "De normwaarde is de waarde waarrond het systeem regelt; voor de temperatuur rond 37 graden.",
+        r"De normwaarde is de waarde waarrond het systeem regelt; voor de temperatuur rond \(37\) graden.",
         "Een prikkel is elke verandering in het inwendige of het uitwendige milieu.",
         "Een feedbacksysteem meet, vergelijkt met de normwaarde en stuurt bij.",
         "De weg: prikkel, receptor, conductor, effector, reactie.",
@@ -900,7 +900,7 @@ HERBOUW["biologische-feedback-en-homeostase"] = dict(
         "Zweet koelt doordat het verdampt en daarvoor warmte van je lichaam opneemt.",
         "Insuline laat de lever glucose opslaan als glycogeen; glucagon laat glycogeen afbreken.",
         "De alvleesklier maakt beide hormonen; de lever en de spiercellen zijn de effectoren.",
-        "Bij diabetes type 1 valt het signaal insuline weg en blijft het glucosegehalte te hoog.",
+        r"Bij diabetes type \(1\) valt het signaal insuline weg en blijft het glucosegehalte te hoog.",
         "Bloeddruk: receptoren in de vaatwand, de hersenstam, het hart en de bloedvaten.",
         "Bij stress versnelt je hartritme; een plant sluit haar huidmondjes bij waterverlies.",
     ],

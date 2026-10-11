@@ -72,15 +72,15 @@ DEEL1 = [
     ),
     dict(
         type="meerkeuze",
-        vraag="Twee identieke metalen bollen, de ene met een lading van 8 eenheden en de andere neutraal, raken elkaar even aan. Wat is de lading van elke bol daarna?",
+        vraag=r"Twee identieke metalen bollen, de ene met een lading van \(8\) eenheden en de andere neutraal, raken elkaar even aan. Wat is de lading van elke bol daarna?",
         opties=[
-            "elk 4 eenheden",
-            "elk 8 eenheden",
-            "de eerste 8 en de tweede 0",
-            "elk 16 eenheden",
+            r"elk \(4\) eenheden",
+            r"elk \(8\) eenheden",
+            r"de eerste \(8\) en de tweede \(0\)",
+            r"elk \(16\) eenheden",
         ],
         antwoord=0,
-        uitleg="Bij twee even grote bollen verdeelt de lading zich gelijk. De totale lading blijft 8, dus krijgt elke bol de helft.",
+        uitleg=r"Bij twee even grote bollen verdeelt de lading zich gelijk. De totale lading blijft \(8\), dus krijgt elke bol de helft.",
     ),
     dict(
         type="invultekst",

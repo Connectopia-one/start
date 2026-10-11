@@ -132,10 +132,10 @@ DEEL1 = [
     ),
     dict(
         type="meerkeuze",
-        vraag="Je verwarmt 2 kilogram water van 20 naar 30 graden. De specifieke warmtecapaciteit is 4180 joule per kilogram per graad. Hoeveel warmte is dat?",
-        opties=["83 600 joule", "8 360 joule", "41 800 joule", "167 200 joule"],
+        vraag=r"Je verwarmt \(2\) kilogram water van \(20\) naar \(30\) graden. De specifieke warmtecapaciteit is \(4180\) joule per kilogram per graad. Hoeveel warmte is dat?",
+        opties=[r"\(83\,600\) joule", r"\(8\,360\) joule", r"\(41\,800\) joule", r"\(167\,200\) joule"],
         antwoord=0,
-        uitleg="Je rekent 4180 maal 2 maal 10. Dat is bijna 84 kilojoule voor tien graden.",
+        uitleg=r"Je rekent \(4180 \cdot 2 \cdot 10\). Dat is bijna \(84\) kilojoule voor tien graden.",
     ),
     dict(
         type="waarofniet",
@@ -165,7 +165,7 @@ DEEL1 = [
             "warmte en temperatuur zijn twee woorden voor hetzelfde",
         ],
         antwoord=[0, 1, 2],
-        uitleg="Temperatuur zegt hoe warm iets is, warmte is de energie die overgaat. Een bad van 30 graden bevat veel meer warmte dan een kop thee van 60 graden.",
+        uitleg=r"Temperatuur zegt hoe warm iets is, warmte is de energie die overgaat. Een bad van \(30\) graden bevat veel meer warmte dan een kop thee van \(60\) graden.",
     ),
     dict(
         type="invultekst",
@@ -181,8 +181,8 @@ DEEL1 = [
     ),
     dict(
         type="meerkeuze",
-        vraag="Je giet een liter water van 80 graden bij een liter water van 20 graden. Wat wordt de eindtemperatuur ongeveer?",
-        opties=["50 graden", "80 graden", "100 graden", "30 graden"],
+        vraag=r"Je giet een liter water van \(80\) graden bij een liter water van \(20\) graden. Wat wordt de eindtemperatuur ongeveer?",
+        opties=[r"\(50\) graden", r"\(80\) graden", r"\(100\) graden", r"\(30\) graden"],
         antwoord=0,
         uitleg="Gelijke massa's van dezelfde stof geven het gemiddelde. Wat het warme water afgeeft, neemt het koude op.",
     ),
@@ -307,10 +307,10 @@ DEEL2 = [
     ),
     dict(
         type="meerkeuze",
-        vraag="Hoeveel warmte heb je nodig om 0,5 kilogram ijs te smelten, met 334 000 joule per kilogram?",
-        opties=["167 000 joule", "334 000 joule", "668 000 joule", "83 500 joule"],
+        vraag=r"Hoeveel warmte heb je nodig om \(0{,}5\) kilogram ijs te smelten, met \(334\,000\) joule per kilogram?",
+        opties=[r"\(167\,000\) joule", r"\(334\,000\) joule", r"\(668\,000\) joule", r"\(83\,500\) joule"],
         antwoord=0,
-        uitleg="Je vermenigvuldigt de specifieke smeltwarmte met de massa: 334 000 maal 0,5. Het temperatuurverschil speelt hier geen rol.",
+        uitleg=r"Je vermenigvuldigt de specifieke smeltwarmte met de massa: \(334\,000 \cdot 0{,}5\). Het temperatuurverschil speelt hier geen rol.",
     ),
     dict(
         type="waarofniet",

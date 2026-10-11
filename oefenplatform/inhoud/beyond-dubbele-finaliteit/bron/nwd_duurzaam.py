@@ -181,7 +181,7 @@ DEEL1 = [
         type="invultekst",
         vraag="Hoeveel duurzame ontwikkelingsdoelstellingen of SDG's heeft de Verenigde Naties opgesteld?",
         antwoord=["17", "zeventien"],
-        uitleg="De zeventien doelstellingen gaan van armoede en honger tot klimaat en vrede, en moeten tegen 2030 gehaald worden.",
+        uitleg=r"De zeventien doelstellingen gaan van armoede en honger tot klimaat en vrede, en moeten tegen \(2030\) gehaald worden.",
     ),
     dict(
         type="meerkeuze",
@@ -330,8 +330,8 @@ DEEL2 = [
         opties=[
             "als ze met hernieuwbare stroom uit water komt",
             "als ze met stroom uit een kerncentrale komt",
-            "als ze uit aardgas komt en de CO2 opgeslagen wordt",
-            "als ze uit aardgas komt en de CO2 vrijkomt",
+            "als ze uit aardgas komt en de CO₂ opgeslagen wordt",
+            "als ze uit aardgas komt en de CO₂ vrijkomt",
         ],
         antwoord=0,
         uitleg="Bij elektrolyse splits je water in waterstof en zuurstof. Komt de stroom van zon of wind, dan is de waterstof groen.",
@@ -340,13 +340,13 @@ DEEL2 = [
         type="meerkeuze",
         vraag="Wat is grijze waterstof?",
         opties=[
-            "waterstof uit aardgas, waarbij de CO2 vrijkomt",
-            "waterstof uit aardgas, waarbij de CO2 opgeslagen wordt",
+            "waterstof uit aardgas, waarbij de CO₂ vrijkomt",
+            "waterstof uit aardgas, waarbij de CO₂ opgeslagen wordt",
             "waterstof uit water, met stroom van zon en wind",
             "waterstof uit water, met stroom uit een kerncentrale",
         ],
         antwoord=0,
-        uitleg="Grijze waterstof komt uit aardgas en laat koolstofdioxide ontsnappen. Wordt die CO2 afgevangen en opgeslagen, dan heet ze blauw.",
+        uitleg="Grijze waterstof komt uit aardgas en laat koolstofdioxide ontsnappen. Wordt die CO₂ afgevangen en opgeslagen, dan heet ze blauw.",
     ),
     dict(
         type="waarofniet",
@@ -386,10 +386,10 @@ DEEL2 = [
     ),
     dict(
         type="meerkeuze",
-        vraag="Wat is het verschil tussen CO2-neutrale en CO2-negatieve productie?",
+        vraag="Wat is het verschil tussen CO₂-neutrale en CO₂-negatieve productie?",
         opties=[
-            "negatief haalt meer CO2 uit de lucht dan het uitstoot",
-            "negatief stoot meer CO2 uit dan het opneemt",
+            "negatief haalt meer CO₂ uit de lucht dan het uitstoot",
+            "negatief stoot meer CO₂ uit dan het opneemt",
             "neutraal stoot helemaal geen enkele stof uit",
             "neutraal gebruikt uitsluitend hernieuwbare grondstof",
         ],

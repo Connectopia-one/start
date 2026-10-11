@@ -1335,10 +1335,10 @@
           "type": "meerkeuze",
           "vraag": "Hoeveel chromosomen zitten er in een menselijke lichaamscel?",
           "opties": [
-            "46",
-            "23",
-            "44",
-            "92"
+            "\\(46\\)",
+            "\\(23\\)",
+            "\\(44\\)",
+            "\\(92\\)"
           ],
           "antwoord": 0,
           "uitleg": "Zesenveertig, dat zijn drieëntwintig paren. Een geslachtscel heeft er maar drieëntwintig, één uit elk paar."
@@ -1515,10 +1515,10 @@
           "type": "meerkeuze",
           "vraag": "Hoeveel chromosomen zitten er in een menselijke eicel?",
           "opties": [
-            "23",
-            "46",
-            "22",
-            "24"
+            "\\(23\\)",
+            "\\(46\\)",
+            "\\(22\\)",
+            "\\(24\\)"
           ],
           "antwoord": 0,
           "uitleg": "Drieëntwintig, dus haploïd. Samen met de drieëntwintig van de zaadcel maakt dat weer zesenveertig in de bevruchte eicel."
@@ -1568,10 +1568,10 @@
           "type": "meerkeuze",
           "vraag": "Twee heterozygote ouders, Aa en Aa, krijgen kinderen. Hoeveel procent vertoont statistisch gezien het recessieve kenmerk?",
           "opties": [
-            "25 %",
-            "50 %",
-            "75 %",
-            "100 %"
+            "\\(25\\,\\%\\)",
+            "\\(50\\,\\%\\)",
+            "\\(75\\,\\%\\)",
+            "\\(100\\,\\%\\)"
           ],
           "antwoord": 0,
           "uitleg": "De combinaties zijn AA, Aa, aA en aa. Alleen aa toont het recessieve kenmerk, en dat is één op vier."
@@ -2147,10 +2147,10 @@
           "type": "meerkeuze",
           "vraag": "Hoe oud is de aarde volgens het huidige natuurwetenschappelijke onderzoek?",
           "opties": [
-            "ongeveer 4,6 miljard jaar",
-            "ongeveer 4,6 miljoen jaar",
-            "ongeveer 460 miljoen jaar",
-            "ongeveer 46 miljard jaar"
+            "ongeveer \\(4{,}6\\) miljard jaar",
+            "ongeveer \\(4{,}6\\) miljoen jaar",
+            "ongeveer \\(460\\) miljoen jaar",
+            "ongeveer \\(46\\) miljard jaar"
           ],
           "antwoord": 0,
           "uitleg": "Die leeftijd volgt uit de radioactieve datering van gesteenten en meteorieten. Zo'n tijdspanne maakt trage evolutie ook mogelijk."
@@ -2762,7 +2762,7 @@
             "hoeveel procent ervan gerecycleerd werd"
           ],
           "antwoord": 0,
-          "uitleg": "Het is een identificatiecode: 1 is PET, 2 is HDPE, 5 is PP, enzovoort. Sorteerinstallaties gebruiken die codes om soorten uit elkaar te halen."
+          "uitleg": "Het is een identificatiecode: \\(1\\) is PET, \\(2\\) is HDPE, \\(5\\) is PP, enzovoort. Sorteerinstallaties gebruiken die codes om soorten uit elkaar te halen."
         },
         {
           "type": "waarofniet",
@@ -2772,7 +2772,7 @@
         },
         {
           "type": "invultekst",
-          "vraag": "Welke kunststof hoort bij de recyclagecode 1, de code van de meeste drinkflessen?",
+          "vraag": "Welke kunststof hoort bij de recyclagecode \\(1\\), de code van de meeste drinkflessen?",
           "antwoord": [
             "PET",
             "pet",
@@ -2917,13 +2917,13 @@
           "type": "meerkeuze",
           "vraag": "Waar ligt de pH van een zure stof?",
           "opties": [
-            "onder 7",
-            "boven 7",
-            "precies op 7",
-            "boven 14"
+            "onder \\(7\\)",
+            "boven \\(7\\)",
+            "precies op \\(7\\)",
+            "boven \\(14\\)"
           ],
           "antwoord": 0,
-          "uitleg": "De schaal loopt van 0 tot 14. Onder 7 is zuur, boven 7 basisch, en precies 7 is neutraal, zoals zuiver water."
+          "uitleg": "De schaal loopt van \\(0\\) tot \\(14\\). Onder \\(7\\) is zuur, boven \\(7\\) basisch, en precies \\(7\\) is neutraal, zoals zuiver water."
         },
         {
           "type": "invultekst",
@@ -2967,7 +2967,7 @@
             1,
             2
           ],
-          "uitleg": "Azijnzuur, citroenzuur en zoutzuur hebben een pH onder 7. Ammoniak is juist basisch en heeft een pH boven 7."
+          "uitleg": "Azijnzuur, citroenzuur en zoutzuur hebben een pH onder \\(7\\). Ammoniak is juist basisch en heeft een pH boven \\(7\\)."
         },
         {
           "type": "meerkeuze",
@@ -3031,7 +3031,7 @@
         },
         {
           "type": "invultekst",
-          "vraag": "Hoe noem je een stof met een pH boven 7?",
+          "vraag": "Hoe noem je een stof met een pH boven \\(7\\)?",
           "antwoord": [
             "base",
             "basisch",
@@ -3328,7 +3328,7 @@
             "kJ",
             "kilojoules"
           ],
-          "uitleg": "Kilojoule is de officiële eenheid; de kilocalorie staat er meestal naast. Eén kilocalorie is ongeveer 4,2 kilojoule."
+          "uitleg": "Kilojoule is de officiële eenheid; de kilocalorie staat er meestal naast. Eén kilocalorie is ongeveer \\(4{,}2\\) kilojoule."
         },
         {
           "type": "meerkeuze",
@@ -3417,27 +3417,27 @@
         },
         {
           "type": "meerkeuze",
-          "vraag": "Op een etiket staat: suiker 32 g per 100 g. Wat betekent dat?",
+          "vraag": "Op een etiket staat: suiker \\(32\\) g per \\(100\\) g. Wat betekent dat?",
           "opties": [
             "bijna een derde van het product is suiker",
-            "er zit 32 gram suiker in de verpakking",
-            "je mag er 32 gram per dag van eten",
-            "er zit 32 procent minder suiker in dan gewoonlijk"
+            "er zit \\(32\\) gram suiker in de verpakking",
+            "je mag er \\(32\\) gram per dag van eten",
+            "er zit \\(32\\) procent minder suiker in dan gewoonlijk"
           ],
           "antwoord": 0,
           "uitleg": "Per honderd gram betekent per honderd gram product. Tweeëndertig van die honderd gram is dus suiker, en dat is bijna een derde."
         },
         {
           "type": "meerkeuze",
-          "vraag": "Een pot van 250 gram bevat 32 gram suiker per 100 gram. Hoeveel suiker zit er in de hele pot?",
+          "vraag": "Een pot van \\(250\\) gram bevat \\(32\\) gram suiker per \\(100\\) gram. Hoeveel suiker zit er in de hele pot?",
           "opties": [
-            "80 g",
-            "32 g",
-            "64 g",
-            "128 g"
+            "\\(80\\) g",
+            "\\(32\\) g",
+            "\\(64\\) g",
+            "\\(128\\) g"
           ],
           "antwoord": 0,
-          "uitleg": "Je rekent 32 maal 2,5, want 250 gram is twee en een halve keer honderd gram. Dat geeft tachtig gram suiker in de volledige pot."
+          "uitleg": "Je rekent \\(32 \\cdot 2{,}5\\), want \\(250\\) gram is twee en een halve keer honderd gram. Dat geeft tachtig gram suiker in de volledige pot."
         },
         {
           "type": "invultekst",
@@ -3510,7 +3510,7 @@
         },
         {
           "type": "invultekst",
-          "vraag": "Hoe noem je de concentratie-uitdrukking die zegt hoeveel gram stof er in 100 gram mengsel zit?",
+          "vraag": "Hoe noem je de concentratie-uitdrukking die zegt hoeveel gram stof er in \\(100\\) gram mengsel zit?",
           "antwoord": [
             "massaprocent",
             "het massaprocent",
@@ -3520,39 +3520,39 @@
         },
         {
           "type": "meerkeuze",
-          "vraag": "Op een fles wijn staat 12 % vol. Wat betekent dat?",
+          "vraag": "Op een fles wijn staat \\(12\\,\\%\\) vol. Wat betekent dat?",
           "opties": [
-            "12 mL alcohol in elke 100 mL wijn",
-            "12 g alcohol in elke 100 g wijn",
-            "12 mL alcohol in de hele fles",
-            "12 g alcohol per glas van 100 mL"
+            "\\(12\\) mL alcohol in elke \\(100\\) mL wijn",
+            "\\(12\\) g alcohol in elke \\(100\\) g wijn",
+            "\\(12\\) mL alcohol in de hele fles",
+            "\\(12\\) g alcohol per glas van \\(100\\) mL"
           ],
           "antwoord": 0,
           "uitleg": "Vol staat voor volumeprocent, en dat vergelijkt volume met volume. In elke honderd milliliter wijn zit dus twaalf milliliter alcohol."
         },
         {
           "type": "meerkeuze",
-          "vraag": "Een flesje bier bevat 250 mL en 5 % vol alcohol. Hoeveel alcohol zit erin?",
+          "vraag": "Een flesje bier bevat \\(250\\) mL en \\(5\\,\\%\\) vol alcohol. Hoeveel alcohol zit erin?",
           "opties": [
-            "12,5 mL",
-            "5 mL",
-            "25 mL",
-            "50 mL"
+            "\\(12{,}5\\) mL",
+            "\\(5\\) mL",
+            "\\(25\\) mL",
+            "\\(50\\) mL"
           ],
           "antwoord": 0,
-          "uitleg": "Je rekent 5 procent van 250 milliliter, dus 250 maal 0,05. Dat geeft 12,5 milliliter alcohol."
+          "uitleg": "Je rekent \\(5\\) procent van \\(250\\) milliliter, dus \\(250 \\cdot 0{,}05\\). Dat geeft \\(12{,}5\\) milliliter alcohol."
         },
         {
           "type": "meerkeuze",
-          "vraag": "Een fles wijn van 750 mL bevat 12 % vol alcohol. Hoeveel alcohol zit er in de hele fles?",
+          "vraag": "Een fles wijn van \\(750\\) mL bevat \\(12\\,\\%\\) vol alcohol. Hoeveel alcohol zit er in de hele fles?",
           "opties": [
-            "90 mL",
-            "12 mL",
-            "75 mL",
-            "120 mL"
+            "\\(90\\) mL",
+            "\\(12\\) mL",
+            "\\(75\\) mL",
+            "\\(120\\) mL"
           ],
           "antwoord": 0,
-          "uitleg": "Je rekent 750 maal 0,12. Dat geeft negentig milliliter, dus zeven keer zoveel als in het flesje bier van hiervoor."
+          "uitleg": "Je rekent \\(750 \\cdot 0{,}12\\). Dat geeft negentig milliliter, dus zeven keer zoveel als in het flesje bier van hiervoor."
         },
         {
           "type": "waarofniet",
@@ -3562,15 +3562,15 @@
         },
         {
           "type": "meerkeuze",
-          "vraag": "Je lost 15 g zout op in water en krijgt 300 g pekel. Wat is het massaprocent zout?",
+          "vraag": "Je lost \\(15\\) g zout op in water en krijgt \\(300\\) g pekel. Wat is het massaprocent zout?",
           "opties": [
-            "5 %",
-            "15 %",
-            "20 %",
-            "45 %"
+            "\\(5\\,\\%\\)",
+            "\\(15\\,\\%\\)",
+            "\\(20\\,\\%\\)",
+            "\\(45\\,\\%\\)"
           ],
           "antwoord": 0,
-          "uitleg": "Je deelt 15 door 300 en maakt er procent van: 0,05 maal 100 is vijf procent. Let op dat je deelt door de massa van de hele oplossing, niet door die van het water alleen."
+          "uitleg": "Je deelt \\(15\\) door \\(300\\) en maakt er procent van: \\(0{,}05 \\cdot 100\\) is vijf procent. Let op dat je deelt door de massa van de hele oplossing, niet door die van het water alleen."
         },
         {
           "type": "invultekst",
@@ -3585,15 +3585,15 @@
         },
         {
           "type": "meerkeuze",
-          "vraag": "Je lost 20 g suiker op in water tot 500 mL drank. Wat is de massaconcentratie?",
+          "vraag": "Je lost \\(20\\) g suiker op in water tot \\(500\\) mL drank. Wat is de massaconcentratie?",
           "opties": [
-            "40 g/L",
-            "20 g/L",
-            "10 g/L",
-            "100 g/L"
+            "\\(40\\) g/L",
+            "\\(20\\) g/L",
+            "\\(10\\) g/L",
+            "\\(100\\) g/L"
           ],
           "antwoord": 0,
-          "uitleg": "Vijfhonderd milliliter is een halve liter, dus in een volle liter zou er dubbel zoveel zitten. Twintig gedeeld door 0,5 is veertig gram per liter."
+          "uitleg": "Vijfhonderd milliliter is een halve liter, dus in een volle liter zou er dubbel zoveel zitten. Twintig gedeeld door \\(0{,}5\\) is veertig gram per liter."
         },
         {
           "type": "waarofniet",
@@ -3637,12 +3637,12 @@
         },
         {
           "type": "meerkeuze",
-          "vraag": "Een drankje bevat 2 g vitamine C per 250 mL. Wat is de massaconcentratie?",
+          "vraag": "Een drankje bevat \\(2\\) g vitamine C per \\(250\\) mL. Wat is de massaconcentratie?",
           "opties": [
-            "8 g/L",
-            "2 g/L",
-            "4 g/L",
-            "0,5 g/L"
+            "\\(8\\) g/L",
+            "\\(2\\) g/L",
+            "\\(4\\) g/L",
+            "\\(0{,}5\\) g/L"
           ],
           "antwoord": 0,
           "uitleg": "Tweehonderdvijftig milliliter is een kwart liter, dus in een volle liter zit vier keer zoveel. Twee maal vier is acht gram per liter."
@@ -3665,7 +3665,7 @@
         },
         {
           "type": "meerkeuze",
-          "vraag": "Twee glazen bevatten dezelfde drank. Het ene is 100 mL, het andere 200 mL. Wat is juist?",
+          "vraag": "Twee glazen bevatten dezelfde drank. Het ene is \\(100\\) mL, het andere \\(200\\) mL. Wat is juist?",
           "opties": [
             "in het grote glas zit twee keer zoveel alcohol",
             "in beide glazen zit evenveel alcohol",
@@ -3692,12 +3692,12 @@
         },
         {
           "type": "meerkeuze",
-          "vraag": "Een fles van 1 L bevat een oplossing van 30 g/L zout. Hoeveel zout zit er in 200 mL?",
+          "vraag": "Een fles van \\(1\\) L bevat een oplossing van \\(30\\) g/L zout. Hoeveel zout zit er in \\(200\\) mL?",
           "opties": [
-            "6 g",
-            "30 g",
-            "15 g",
-            "3 g"
+            "\\(6\\) g",
+            "\\(30\\) g",
+            "\\(15\\) g",
+            "\\(3\\) g"
           ],
           "antwoord": 0,
           "uitleg": "Tweehonderd milliliter is een vijfde van een liter, dus je deelt dertig door vijf. Dat geeft zes gram zout."
@@ -3739,15 +3739,15 @@
         },
         {
           "type": "meerkeuze",
-          "vraag": "De ADI van een zoetstof is 7 mg per kg lichaamsgewicht per dag. Hoeveel mag een kind van 30 kg?",
+          "vraag": "De ADI van een zoetstof is \\(7\\) mg per kg lichaamsgewicht per dag. Hoeveel mag een kind van \\(30\\) kg?",
           "opties": [
-            "210 mg per dag",
-            "7 mg per dag",
-            "30 mg per dag",
-            "37 mg per dag"
+            "\\(210\\) mg per dag",
+            "\\(7\\) mg per dag",
+            "\\(30\\) mg per dag",
+            "\\(37\\) mg per dag"
           ],
           "antwoord": 0,
-          "uitleg": "Je rekent 7 maal 30, want elke kilogram mag zeven milligram. Dat geeft 210 milligram per dag."
+          "uitleg": "Je rekent \\(7 \\cdot 30\\), want elke kilogram mag zeven milligram. Dat geeft \\(210\\) milligram per dag."
         },
         {
           "type": "meerkeuze",
@@ -3759,19 +3759,19 @@
             "de dosis waarbij de helft van de stof opgelost is"
           ],
           "antwoord": 0,
-          "uitleg": "LD staat voor lethale dosis, en 50 voor de helft. Het is een maat om de giftigheid van stoffen met elkaar te vergelijken."
+          "uitleg": "LD staat voor lethale dosis, en \\(50\\) voor de helft. Het is een maat om de giftigheid van stoffen met elkaar te vergelijken."
         },
         {
           "type": "meerkeuze",
-          "vraag": "De LD50 van een stof is 2000 mg per kg. Welke dosis is dat voor een mens van 60 kg?",
+          "vraag": "De LD50 van een stof is \\(2000\\) mg per kg. Welke dosis is dat voor een mens van \\(60\\) kg?",
           "opties": [
-            "120 g",
-            "2 g",
-            "12 g",
-            "33 g"
+            "\\(120\\) g",
+            "\\(2\\) g",
+            "\\(12\\) g",
+            "\\(33\\) g"
           ],
           "antwoord": 0,
-          "uitleg": "Je rekent 2000 maal 60, dat is 120 000 milligram. Milligram omzetten naar gram doe je door duizend keer te delen, dus 120 gram."
+          "uitleg": "Je rekent \\(2000 \\cdot 60\\), dat is \\(120\\,000\\) milligram. Milligram omzetten naar gram doe je door duizend keer te delen, dus \\(120\\) gram."
         },
         {
           "type": "waarofniet",
@@ -3781,7 +3781,7 @@
         },
         {
           "type": "meerkeuze",
-          "vraag": "Stof A heeft een LD50 van 50 mg per kg, stof B van 5000 mg per kg. Wat volgt daaruit?",
+          "vraag": "Stof A heeft een LD50 van \\(50\\) mg per kg, stof B van \\(5000\\) mg per kg. Wat volgt daaruit?",
           "opties": [
             "stof A is honderd keer giftiger dan stof B",
             "stof B is honderd keer giftiger dan stof A",
@@ -3795,7 +3795,7 @@
           "type": "waarofniet",
           "vraag": "De ADI geldt per dag en per kilogram lichaamsgewicht.",
           "antwoord": true,
-          "uitleg": "Daarom moet je altijd met je eigen gewicht rekenen. Dezelfde ADI geeft voor een kind van 20 kilogram een veel kleinere hoeveelheid dan voor een volwassene."
+          "uitleg": "Daarom moet je altijd met je eigen gewicht rekenen. Dezelfde ADI geeft voor een kind van \\(20\\) kilogram een veel kleinere hoeveelheid dan voor een volwassene."
         },
         {
           "type": "meerkeuze",
@@ -3814,12 +3814,12 @@
         },
         {
           "type": "meerkeuze",
-          "vraag": "Een drank bevat 40 g suiker per liter. Hoeveel suiker krijg je binnen met een glas van 200 mL?",
+          "vraag": "Een drank bevat \\(40\\) g suiker per liter. Hoeveel suiker krijg je binnen met een glas van \\(200\\) mL?",
           "opties": [
-            "8 g",
-            "40 g",
-            "20 g",
-            "4 g"
+            "\\(8\\) g",
+            "\\(40\\) g",
+            "\\(20\\) g",
+            "\\(4\\) g"
           ],
           "antwoord": 0,
           "uitleg": "Je neemt een vijfde van een liter, dus een vijfde van veertig gram. Dat is acht gram: de concentratie maal het volume geeft de dosis."
@@ -3838,7 +3838,7 @@
             "letale dosis",
             "dodelijke dosis"
           ],
-          "uitleg": "De lethale dosis is de dodelijke dosis. Het getal 50 zegt dat de helft van de proefdieren bij die dosis stierf."
+          "uitleg": "De lethale dosis is de dodelijke dosis. Het getal \\(50\\) zegt dat de helft van de proefdieren bij die dosis stierf."
         },
         {
           "type": "waarofniet",
@@ -3902,15 +3902,15 @@
         },
         {
           "type": "meerkeuze",
-          "vraag": "De ADI van een kleurstof is 4 mg per kg per dag. Een volwassene weegt 70 kg. Hoeveel mag die per dag?",
+          "vraag": "De ADI van een kleurstof is \\(4\\) mg per kg per dag. Een volwassene weegt \\(70\\) kg. Hoeveel mag die per dag?",
           "opties": [
-            "280 mg",
-            "4 mg",
-            "70 mg",
-            "74 mg"
+            "\\(280\\) mg",
+            "\\(4\\) mg",
+            "\\(70\\) mg",
+            "\\(74\\) mg"
           ],
           "antwoord": 0,
-          "uitleg": "Je rekent 4 maal 70. Dat geeft 280 milligram per dag voor die persoon."
+          "uitleg": "Je rekent \\(4 \\cdot 70\\). Dat geeft \\(280\\) milligram per dag voor die persoon."
         },
         {
           "type": "waarofniet",
@@ -4119,7 +4119,7 @@
             "17",
             "zeventien"
           ],
-          "uitleg": "De zeventien doelstellingen gaan van armoede en honger tot klimaat en vrede, en moeten tegen 2030 gehaald worden."
+          "uitleg": "De zeventien doelstellingen gaan van armoede en honger tot klimaat en vrede, en moeten tegen \\(2030\\) gehaald worden."
         },
         {
           "type": "meerkeuze",
@@ -4286,8 +4286,8 @@
           "opties": [
             "als ze met hernieuwbare stroom uit water komt",
             "als ze met stroom uit een kerncentrale komt",
-            "als ze uit aardgas komt en de CO2 opgeslagen wordt",
-            "als ze uit aardgas komt en de CO2 vrijkomt"
+            "als ze uit aardgas komt en de CO₂ opgeslagen wordt",
+            "als ze uit aardgas komt en de CO₂ vrijkomt"
           ],
           "antwoord": 0,
           "uitleg": "Bij elektrolyse splits je water in waterstof en zuurstof. Komt de stroom van zon of wind, dan is de waterstof groen."
@@ -4296,13 +4296,13 @@
           "type": "meerkeuze",
           "vraag": "Wat is grijze waterstof?",
           "opties": [
-            "waterstof uit aardgas, waarbij de CO2 vrijkomt",
-            "waterstof uit aardgas, waarbij de CO2 opgeslagen wordt",
+            "waterstof uit aardgas, waarbij de CO₂ vrijkomt",
+            "waterstof uit aardgas, waarbij de CO₂ opgeslagen wordt",
             "waterstof uit water, met stroom van zon en wind",
             "waterstof uit water, met stroom uit een kerncentrale"
           ],
           "antwoord": 0,
-          "uitleg": "Grijze waterstof komt uit aardgas en laat koolstofdioxide ontsnappen. Wordt die CO2 afgevangen en opgeslagen, dan heet ze blauw."
+          "uitleg": "Grijze waterstof komt uit aardgas en laat koolstofdioxide ontsnappen. Wordt die CO₂ afgevangen en opgeslagen, dan heet ze blauw."
         },
         {
           "type": "waarofniet",
@@ -4345,10 +4345,10 @@
         },
         {
           "type": "meerkeuze",
-          "vraag": "Wat is het verschil tussen CO2-neutrale en CO2-negatieve productie?",
+          "vraag": "Wat is het verschil tussen CO₂-neutrale en CO₂-negatieve productie?",
           "opties": [
-            "negatief haalt meer CO2 uit de lucht dan het uitstoot",
-            "negatief stoot meer CO2 uit dan het opneemt",
+            "negatief haalt meer CO₂ uit de lucht dan het uitstoot",
+            "negatief stoot meer CO₂ uit dan het opneemt",
             "neutraal stoot helemaal geen enkele stof uit",
             "neutraal gebruikt uitsluitend hernieuwbare grondstof"
           ],
@@ -4878,27 +4878,27 @@
         },
         {
           "type": "meerkeuze",
-          "vraag": "Een trilling heeft een periode van 0,004 s. Wat is de frequentie?",
+          "vraag": "Een trilling heeft een periode van \\(0{,}004\\) s. Wat is de frequentie?",
           "opties": [
-            "250 Hz",
-            "4 Hz",
-            "40 Hz",
-            "400 Hz"
+            "\\(250\\) Hz",
+            "\\(4\\) Hz",
+            "\\(40\\) Hz",
+            "\\(400\\) Hz"
           ],
           "antwoord": 0,
-          "uitleg": "De frequentie is één gedeeld door de periode. Eén gedeeld door 0,004 is 250, dus 250 trillingen per seconde."
+          "uitleg": "De frequentie is één gedeeld door de periode. Eén gedeeld door \\(0{,}004\\) is \\(250\\), dus \\(250\\) trillingen per seconde."
         },
         {
           "type": "meerkeuze",
-          "vraag": "Een golf heeft een golflengte van 2 m en een frequentie van 170 Hz. Wat is de golfsnelheid?",
+          "vraag": "Een golf heeft een golflengte van \\(2\\) m en een frequentie van \\(170\\) Hz. Wat is de golfsnelheid?",
           "opties": [
-            "340 m/s",
-            "85 m/s",
-            "172 m/s",
-            "168 m/s"
+            "\\(340\\) m/s",
+            "\\(85\\) m/s",
+            "\\(172\\) m/s",
+            "\\(168\\) m/s"
           ],
           "antwoord": 0,
-          "uitleg": "Je rekent de golflengte maal de frequentie: 2 maal 170 is 340 meter per seconde. Dat is net de snelheid van geluid in lucht."
+          "uitleg": "Je rekent de golflengte maal de frequentie: \\(2 \\cdot 170\\) is \\(340\\) meter per seconde. Dat is net de snelheid van geluid in lucht."
         },
         {
           "type": "meerkeuze",
@@ -5039,10 +5039,10 @@
           "type": "meerkeuze",
           "vraag": "Welk geluidsniveau hoort bij de gehoordrempel van een mens?",
           "opties": [
-            "0 dB",
-            "20 dB",
-            "40 dB",
-            "80 dB"
+            "\\(0\\) dB",
+            "\\(20\\) dB",
+            "\\(40\\) dB",
+            "\\(80\\) dB"
           ],
           "antwoord": 0,
           "uitleg": "De gehoordrempel is het zwakste geluid dat je nog kan horen, en die is als nul decibel vastgelegd. Een gefluisterd gesprek zit al rond de dertig decibel."
@@ -5051,10 +5051,10 @@
           "type": "meerkeuze",
           "vraag": "Vanaf welk geluidsniveau is gehoorbescherming nodig?",
           "opties": [
-            "80 dB",
-            "40 dB",
-            "60 dB",
-            "120 dB"
+            "\\(80\\) dB",
+            "\\(40\\) dB",
+            "\\(60\\) dB",
+            "\\(120\\) dB"
           ],
           "antwoord": 0,
           "uitleg": "Rond tachtig decibel ligt de gevaargrens: langer blijven staan beschadigt je gehoor. Een drilboor of een luide fuif zit daar ruim boven."
@@ -5063,10 +5063,10 @@
           "type": "meerkeuze",
           "vraag": "Welk geluidsniveau hoort bij de pijndrempel?",
           "opties": [
-            "120 dB",
-            "60 dB",
-            "80 dB",
-            "100 dB"
+            "\\(120\\) dB",
+            "\\(60\\) dB",
+            "\\(80\\) dB",
+            "\\(100\\) dB"
           ],
           "antwoord": 0,
           "uitleg": "Rond honderdtwintig decibel doet geluid pijn aan je oren. Daar is de schade ook meteen, niet pas na lange tijd."
@@ -5099,8 +5099,8 @@
           "type": "meerkeuze",
           "vraag": "Je gaat twee keer zo ver van een geluidsbron staan. Wat gebeurt er met het geluidsniveau?",
           "opties": [
-            "het daalt met 6 dB",
-            "het daalt met 2 dB",
+            "het daalt met \\(6\\) dB",
+            "het daalt met \\(2\\) dB",
             "het daalt tot de helft",
             "het blijft precies gelijk"
           ],
@@ -5111,8 +5111,8 @@
           "type": "meerkeuze",
           "vraag": "De geluidsintensiteit wordt twee keer zo groot. Wat gebeurt er met het geluidsniveau?",
           "opties": [
-            "het stijgt met 3 dB",
-            "het stijgt met 6 dB",
+            "het stijgt met \\(3\\) dB",
+            "het stijgt met \\(6\\) dB",
             "het wordt twee keer zo groot",
             "het wordt tien keer zo groot"
           ],
@@ -5148,7 +5148,7 @@
         },
         {
           "type": "invultekst",
-          "vraag": "Hoe noem je geluid met een frequentie boven 20 000 Hz, dat de mens niet meer hoort?",
+          "vraag": "Hoe noem je geluid met een frequentie boven \\(20\\,000\\) Hz, dat de mens niet meer hoort?",
           "antwoord": [
             "ultrasoon",
             "ultrasoon geluid",
@@ -5160,10 +5160,10 @@
           "type": "meerkeuze",
           "vraag": "Welke frequenties kan een mens normaal horen?",
           "opties": [
-            "van 20 Hz tot 20 000 Hz",
-            "van 0 Hz tot 2000 Hz",
-            "van 200 Hz tot 2000 Hz",
-            "van 2000 Hz tot 200 000 Hz"
+            "van \\(20\\) Hz tot \\(20\\,000\\) Hz",
+            "van \\(0\\) Hz tot \\(2000\\) Hz",
+            "van \\(200\\) Hz tot \\(2000\\) Hz",
+            "van \\(2000\\) Hz tot \\(200\\,000\\) Hz"
           ],
           "antwoord": 0,
           "uitleg": "Daaronder is het infrasoon, daarboven ultrasoon. Met de jaren verdwijnen de hoogste tonen als eerste uit dat bereik."
@@ -5178,7 +5178,7 @@
             "ze beweegt sneller naarmate ze langer is"
           ],
           "antwoord": 0,
-          "uitleg": "In het vacuüm gaat elke elektromagnetische golf even snel: ongeveer 300 000 kilometer per seconde. In glas of water gaat ze trager."
+          "uitleg": "In het vacuüm gaat elke elektromagnetische golf even snel: ongeveer \\(300\\,000\\) kilometer per seconde. In glas of water gaat ze trager."
         },
         {
           "type": "meerkeuze",
@@ -5267,15 +5267,15 @@
         },
         {
           "type": "meerkeuze",
-          "vraag": "Koolstof-14 heeft massagetal 14 en atoomnummer 6. Hoeveel neutronen zitten er in die kern?",
+          "vraag": "Koolstof-\\(14\\) heeft massagetal \\(14\\) en atoomnummer \\(6\\). Hoeveel neutronen zitten er in die kern?",
           "opties": [
-            "8",
-            "6",
-            "14",
-            "20"
+            "\\(8\\)",
+            "\\(6\\)",
+            "\\(14\\)",
+            "\\(20\\)"
           ],
           "antwoord": 0,
-          "uitleg": "Je trekt het atoomnummer van het massagetal af: 14 min 6 is 8 neutronen. De zes protonen maken er koolstof van."
+          "uitleg": "Je trekt het atoomnummer van het massagetal af: \\(14\\) min \\(6\\) is \\(8\\) neutronen. De zes protonen maken er koolstof van."
         },
         {
           "type": "invultekst",
@@ -5285,7 +5285,7 @@
             "isotoop",
             "isotope nucliden"
           ],
-          "uitleg": "Isotopen hebben hetzelfde atoomnummer maar een ander massagetal. Koolstof-12 en koolstof-14 zijn isotopen van koolstof."
+          "uitleg": "Isotopen hebben hetzelfde atoomnummer maar een ander massagetal. Koolstof-\\(12\\) en koolstof-\\(14\\) zijn isotopen van koolstof."
         },
         {
           "type": "waarofniet",
@@ -5346,7 +5346,7 @@
         },
         {
           "type": "meerkeuze",
-          "vraag": "Een stof heeft een halfwaardetijd van 8 dagen. Welk deel is er na 24 dagen nog over?",
+          "vraag": "Een stof heeft een halfwaardetijd van \\(8\\) dagen. Welk deel is er na \\(24\\) dagen nog over?",
           "opties": [
             "een achtste",
             "een derde",
@@ -5581,19 +5581,19 @@
         },
         {
           "type": "meerkeuze",
-          "vraag": "Uranium-238 zendt een alfadeeltje uit. Welke kern blijft er over?",
+          "vraag": "Uranium-\\(238\\) zendt een alfadeeltje uit. Welke kern blijft er over?",
           "opties": [
-            "massagetal 234 en atoomnummer 90",
-            "massagetal 238 en atoomnummer 90",
-            "massagetal 234 en atoomnummer 92",
-            "massagetal 236 en atoomnummer 91"
+            "massagetal \\(234\\) en atoomnummer \\(90\\)",
+            "massagetal \\(238\\) en atoomnummer \\(90\\)",
+            "massagetal \\(234\\) en atoomnummer \\(92\\)",
+            "massagetal \\(236\\) en atoomnummer \\(91\\)"
           ],
           "antwoord": 0,
-          "uitleg": "Een alfadeeltje neemt twee protonen en twee neutronen mee. Het massagetal zakt dus met vier en het atoomnummer met twee: thorium-234."
+          "uitleg": "Een alfadeeltje neemt twee protonen en twee neutronen mee. Het massagetal zakt dus met vier en het atoomnummer met twee: thorium-\\(234\\)."
         },
         {
           "type": "meerkeuze",
-          "vraag": "Koolstof-14 vervalt via bètamin-straling. Wat gebeurt er met de kern?",
+          "vraag": "Koolstof-\\(14\\) vervalt via bètamin-straling. Wat gebeurt er met de kern?",
           "opties": [
             "het atoomnummer stijgt met één, het massagetal blijft",
             "het atoomnummer daalt met één, het massagetal blijft",
@@ -5601,7 +5601,7 @@
             "zowel het massagetal als het atoomnummer blijven gelijk"
           ],
           "antwoord": 0,
-          "uitleg": "Een neutron wordt een proton, dus er zit één proton meer in dezelfde hoeveelheid nucleonen. Van koolstof-14 wordt zo stikstof-14."
+          "uitleg": "Een neutron wordt een proton, dus er zit één proton meer in dezelfde hoeveelheid nucleonen. Van koolstof-\\(14\\) wordt zo stikstof-\\(14\\)."
         },
         {
           "type": "invultekst",
@@ -5798,7 +5798,7 @@
         },
         {
           "type": "meerkeuze",
-          "vraag": "Je balans meet tot 500 g, maar je moet 2 kg wegen. Wat doe je?",
+          "vraag": "Je balans meet tot \\(500\\) g, maar je moet \\(2\\) kg wegen. Wat doe je?",
           "opties": [
             "je zoekt een balans met een groter meetbereik",
             "je weegt het in vier keer op dezelfde balans",
@@ -5812,10 +5812,10 @@
           "type": "meerkeuze",
           "vraag": "Je wil een temperatuurverschil van een halve graad meten. Welke thermometer kies je?",
           "opties": [
-            "een thermometer met streepjes van 0,1 °C",
-            "een thermometer met streepjes van 1 °C",
-            "een thermometer met streepjes van 2 °C",
-            "een thermometer met streepjes van 5 °C"
+            "een thermometer met streepjes van \\(0{,}1^{\\circ}\\text{C}\\)",
+            "een thermometer met streepjes van \\(1^{\\circ}\\text{C}\\)",
+            "een thermometer met streepjes van \\(2^{\\circ}\\text{C}\\)",
+            "een thermometer met streepjes van \\(5^{\\circ}\\text{C}\\)"
           ],
           "antwoord": 0,
           "uitleg": "Je kiest een toestel dat nauwkeuriger is dan het verschil dat je wil zien. Met streepjes van één graad lees je een halve graad niet af."
@@ -5959,27 +5959,27 @@
         },
         {
           "type": "meerkeuze",
-          "vraag": "Hoeveel meter is 2,5 km?",
+          "vraag": "Hoeveel meter is \\(2{,}5\\) km?",
           "opties": [
-            "2500 m",
-            "250 m",
-            "25 000 m",
-            "0,0025 m"
+            "\\(2500\\) m",
+            "\\(250\\) m",
+            "\\(25\\,000\\) m",
+            "\\(0{,}0025\\) m"
           ],
           "antwoord": 0,
-          "uitleg": "Kilo betekent duizend, dus je vermenigvuldigt met 1000. Tweeënhalve kilometer is 2500 meter."
+          "uitleg": "Kilo betekent duizend, dus je vermenigvuldigt met \\(1000\\). Tweeënhalve kilometer is \\(2500\\) meter."
         },
         {
           "type": "meerkeuze",
-          "vraag": "Hoeveel gram is 500 mg?",
+          "vraag": "Hoeveel gram is \\(500\\) mg?",
           "opties": [
-            "0,5 g",
-            "5 g",
-            "50 g",
-            "0,05 g"
+            "\\(0{,}5\\) g",
+            "\\(5\\) g",
+            "\\(50\\) g",
+            "\\(0{,}05\\) g"
           ],
           "antwoord": 0,
-          "uitleg": "Milli betekent een duizendste, dus je deelt door 1000. Vijfhonderd milligram is een halve gram."
+          "uitleg": "Milli betekent een duizendste, dus je deelt door \\(1000\\). Vijfhonderd milligram is een halve gram."
         },
         {
           "type": "meerkeuze",
@@ -6011,15 +6011,15 @@
         },
         {
           "type": "meerkeuze",
-          "vraag": "Hoeveel joule is 2 MJ?",
+          "vraag": "Hoeveel joule is \\(2\\) MJ?",
           "opties": [
-            "2 000 000 J",
-            "2000 J",
-            "200 000 J",
-            "20 000 000 J"
+            "\\(2\\,000\\,000\\) J",
+            "\\(2000\\) J",
+            "\\(200\\,000\\) J",
+            "\\(20\\,000\\,000\\) J"
           ],
           "antwoord": 0,
-          "uitleg": "Mega betekent een miljoen, dus je vermenigvuldigt met 1 000 000. Twee megajoule is dus twee miljoen joule."
+          "uitleg": "Mega betekent een miljoen, dus je vermenigvuldigt met \\(1\\,000\\,000\\). Twee megajoule is dus twee miljoen joule."
         },
         {
           "type": "meerkeuze",

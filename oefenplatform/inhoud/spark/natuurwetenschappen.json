@@ -1534,12 +1534,12 @@
           "type": "meerkeuze",
           "vraag": "Hoelang duurt een menstruatiecyclus gemiddeld?",
           "opties": [
-            "Ongeveer 28 dagen",
-            "Ongeveer 7 dagen",
-            "Ongeveer 90 dagen"
+            "Ongeveer \\(28\\) dagen",
+            "Ongeveer \\(7\\) dagen",
+            "Ongeveer \\(90\\) dagen"
           ],
           "antwoord": 0,
-          "uitleg": "Gemiddeld 28 dagen, maar tussen 21 en 35 dagen is normaal. De eerste dag van de menstruatie is dag 1 van de cyclus."
+          "uitleg": "Gemiddeld \\(28\\) dagen, maar tussen \\(21\\) en \\(35\\) dagen is normaal. De eerste dag van de menstruatie is dag \\(1\\) van de cyclus."
         },
         {
           "type": "meerkeuze",
@@ -1550,7 +1550,7 @@
             "Er worden zaadcellen gemaakt"
           ],
           "antwoord": 0,
-          "uitleg": "De eisprong valt ongeveer halverwege de cyclus, rond dag 14. De eicel wordt opgevangen door de eitrechter en kan daar ongeveer een dag bevrucht worden."
+          "uitleg": "De eisprong valt ongeveer halverwege de cyclus, rond dag \\(14\\). De eicel wordt opgevangen door de eitrechter en kan daar ongeveer een dag bevrucht worden."
         },
         {
           "type": "meerkeuze",
@@ -2162,7 +2162,7 @@
         },
         {
           "type": "meerkeuze",
-          "vraag": "Je meet in een bos overdag 300 lux onder de bomen en 20 000 lux op de open plek. Wat besluit je?",
+          "vraag": "Je meet in een bos overdag \\(300\\) lux onder de bomen en \\(20\\,000\\) lux op de open plek. Wat besluit je?",
           "opties": [
             "Onder de bomen groeien planten die weinig licht nodig hebben",
             "Op de open plek is het overdag veel kouder dan onder de bomen",
@@ -2220,7 +2220,7 @@
           "type": "invultekst",
           "vraag": "Een vaste stof die vloeibaar wordt: die faseovergang heet ___.",
           "antwoord": "smelten",
-          "uitleg": "Smelten is van vast naar vloeibaar, stollen is het omgekeerde. IJs smelt bij 0 °C en water stolt bij diezelfde temperatuur."
+          "uitleg": "Smelten is van vast naar vloeibaar, stollen is het omgekeerde. IJs smelt bij \\(0^{\\circ}\\text{C}\\) en water stolt bij diezelfde temperatuur."
         },
         {
           "type": "meerkeuze",
@@ -2564,7 +2564,7 @@
           "type": "waarofniet",
           "vraag": "Tijdens het smelten van ijs stijgt de temperatuur van het mengsel ijs en water.",
           "antwoord": false,
-          "uitleg": "Zolang er nog ijs drijft, blijft de temperatuur 0 °C. Alle toegevoerde warmte gaat naar het losmaken van de deeltjes, niet naar opwarmen."
+          "uitleg": "Zolang er nog ijs drijft, blijft de temperatuur \\(0^{\\circ}\\text{C}\\). Alle toegevoerde warmte gaat naar het losmaken van de deeltjes, niet naar opwarmen."
         },
         {
           "type": "meerkeuze",
@@ -2600,7 +2600,7 @@
             "stollen",
             "bevriezen"
           ],
-          "uitleg": "Stollen is het omgekeerde van smelten. Voor eenzelfde zuivere stof gebeuren ze bij dezelfde temperatuur, bijvoorbeeld 0 °C voor water."
+          "uitleg": "Stollen is het omgekeerde van smelten. Voor eenzelfde zuivere stof gebeuren ze bij dezelfde temperatuur, bijvoorbeeld \\(0^{\\circ}\\text{C}\\) voor water."
         },
         {
           "type": "meerkeuze",
@@ -2646,40 +2646,40 @@
           "type": "meerkeuze",
           "vraag": "Welke formule hoort bij de massadichtheid?",
           "opties": [
-            "ρ = m / V",
-            "ρ = m × V",
-            "ρ = V / m"
+            "\\(\\rho = m / V\\)",
+            "\\(\\rho = m \\times V\\)",
+            "\\(\\rho = V / m\\)"
           ],
           "antwoord": 0,
           "uitleg": "Je deelt de massa door het volume. Het symbool ρ (rho) is de Griekse letter voor massadichtheid."
         },
         {
           "type": "meerkeuze",
-          "vraag": "Een voorwerp heeft een massa van 300 g en een volume van 100 cm³. Wat is de massadichtheid?",
+          "vraag": "Een voorwerp heeft een massa van \\(300\\) g en een volume van \\(100\\,\\text{cm}^{3}\\). Wat is de massadichtheid?",
           "opties": [
-            "3 g/cm³",
-            "30 g/cm³",
-            "0,3 g/cm³"
+            "\\(3\\) g/\\(\\text{cm}^{3}\\)",
+            "\\(30\\) g/\\(\\text{cm}^{3}\\)",
+            "\\(0{,}3\\) g/\\(\\text{cm}^{3}\\)"
           ],
           "antwoord": 0,
-          "uitleg": "ρ = m / V = 300 g / 100 cm³ = 3 g/cm³."
+          "uitleg": "\\(\\rho = m / V = 300\\) g / \\(100\\,\\text{cm}^{3}\\) = \\(3\\) g/\\(\\text{cm}^{3}\\)."
         },
         {
           "type": "meerkeuze",
-          "vraag": "Wat is het volume van een kubus met een ribbe van 2 cm?",
+          "vraag": "Wat is het volume van een kubus met een ribbe van \\(2\\) cm?",
           "opties": [
-            "8 cm³",
-            "6 cm³",
-            "4 cm³"
+            "\\(8\\,\\text{cm}^{3}\\)",
+            "\\(6\\,\\text{cm}^{3}\\)",
+            "\\(4\\,\\text{cm}^{3}\\)"
           ],
           "antwoord": 0,
-          "uitleg": "V van een kubus = z³ = 2 × 2 × 2 = 8 cm³."
+          "uitleg": "V van een kubus = \\(z^{3} = 2 \\cdot 2 \\cdot 2 = 8\\,\\text{cm}^{3}\\)."
         },
         {
           "type": "invultekst",
-          "vraag": "Een balk van 5 cm op 4 cm op 2 cm heeft een volume van ___ cm³.",
+          "vraag": "Een balk van \\(5\\) cm op \\(4\\) cm op \\(2\\) cm heeft een volume van ___ \\(\\text{cm}^{3}\\).",
           "antwoord": "40",
-          "uitleg": "V van een balk = l × b × h = 5 × 4 × 2 = 40 cm³."
+          "uitleg": "V van een balk = l × b × h = \\(5 \\cdot 4 \\cdot 2 = 40\\,\\text{cm}^{3}\\)."
         },
         {
           "type": "meerkeuze",
@@ -2720,59 +2720,59 @@
         },
         {
           "type": "meerkeuze",
-          "vraag": "Het water in een maatcilinder staat op 50 mL. Je laat er een moer in zakken en het staat op 65 mL. Wat is het volume van de moer?",
+          "vraag": "Het water in een maatcilinder staat op \\(50\\) mL. Je laat er een moer in zakken en het staat op \\(65\\) mL. Wat is het volume van de moer?",
           "opties": [
-            "15 cm³",
-            "65 cm³",
-            "50 cm³"
+            "\\(15\\,\\text{cm}^{3}\\)",
+            "\\(65\\,\\text{cm}^{3}\\)",
+            "\\(50\\,\\text{cm}^{3}\\)"
           ],
           "antwoord": 0,
-          "uitleg": "65 mL − 50 mL = 15 mL, en 1 mL is precies 1 cm³. Het volume van de moer is dus 15 cm³."
+          "uitleg": "\\(65\\) mL \\(- 50\\) mL = \\(15\\) mL, en \\(1\\) mL is precies \\(1\\,\\text{cm}^{3}\\). Het volume van de moer is dus \\(15\\,\\text{cm}^{3}\\)."
         },
         {
           "type": "invultekst",
-          "vraag": "1 liter is evenveel als ___ cm³.",
+          "vraag": "\\(1\\) liter is evenveel als ___ \\(\\text{cm}^{3}\\).",
           "antwoord": "1000",
-          "uitleg": "1 L = 1 dm³ = 1000 cm³. En 1 mL = 1 cm³."
+          "uitleg": "\\(1\\) L = \\(1\\,\\text{dm}^{3}\\) = \\(1000\\,\\text{cm}^{3}\\). En \\(1\\) mL = \\(1\\,\\text{cm}^{3}\\)."
         },
         {
           "type": "meerkeuze",
-          "vraag": "Hoeveel kubieke meter is 2 liter?",
+          "vraag": "Hoeveel kubieke meter is \\(2\\) liter?",
           "opties": [
-            "0,002 m³",
-            "0,2 m³",
-            "2000 m³"
+            "\\(0{,}002\\,\\text{m}^{3}\\)",
+            "\\(0{,}2\\,\\text{m}^{3}\\)",
+            "\\(2000\\,\\text{m}^{3}\\)"
           ],
           "antwoord": 0,
-          "uitleg": "1 m³ = 1000 L, dus 1 L = 0,001 m³. Twee liter is dan 0,002 m³."
+          "uitleg": "\\(1\\,\\text{m}^{3} = 1000\\) L, dus \\(1\\) L = \\(0{,}001\\,\\text{m}^{3}\\). Twee liter is dan \\(0{,}002\\,\\text{m}^{3}\\)."
         },
         {
           "type": "meerkeuze",
-          "vraag": "Hoeveel liter gaat er in 0,5 m³?",
+          "vraag": "Hoeveel liter gaat er in \\(0{,}5\\,\\text{m}^{3}\\)?",
           "opties": [
-            "500 L",
-            "50 L",
-            "5000 L"
+            "\\(500\\) L",
+            "\\(50\\) L",
+            "\\(5000\\) L"
           ],
           "antwoord": 0,
-          "uitleg": "1 m³ = 1000 L, dus 0,5 m³ = 0,5 × 1000 = 500 L."
+          "uitleg": "\\(1\\,\\text{m}^{3} = 1000\\) L, dus \\(0{,}5\\,\\text{m}^{3} = 0{,}5 \\cdot 1000 = 500\\) L."
         },
         {
           "type": "meerkeuze",
-          "vraag": "Water heeft een massadichtheid van 1 g/cm³. Hoeveel is dat in kg/m³?",
+          "vraag": "Water heeft een massadichtheid van \\(1\\) g/\\(\\text{cm}^{3}\\). Hoeveel is dat in kg/\\(\\text{m}^{3}\\)?",
           "opties": [
-            "1000 kg/m³",
-            "100 kg/m³",
-            "1 kg/m³"
+            "\\(1000\\) kg/\\(\\text{m}^{3}\\)",
+            "\\(100\\) kg/\\(\\text{m}^{3}\\)",
+            "\\(1\\) kg/\\(\\text{m}^{3}\\)"
           ],
           "antwoord": 0,
-          "uitleg": "Van g/cm³ naar kg/m³ vermenigvuldig je met 1000. Eén liter water weegt dan ook precies 1 kg."
+          "uitleg": "Van g/\\(\\text{cm}^{3}\\) naar kg/\\(\\text{m}^{3}\\) vermenigvuldig je met \\(1000\\). Eén liter water weegt dan ook precies \\(1\\) kg."
         },
         {
           "type": "invultekst",
-          "vraag": "Aluminium heeft een massadichtheid van 2700 kg/m³. In g/cm³ is dat ___.",
+          "vraag": "Aluminium heeft een massadichtheid van \\(2700\\) kg/\\(\\text{m}^{3}\\). In g/\\(\\text{cm}^{3}\\) is dat ___.",
           "antwoord": "2,7",
-          "uitleg": "Van kg/m³ naar g/cm³ deel je door 1000: 2700 : 1000 = 2,7 g/cm³."
+          "uitleg": "Van kg/\\(\\text{m}^{3}\\) naar g/\\(\\text{cm}^{3}\\) deel je door \\(1000\\): \\(2700 : 1000 = 2{,}7\\) g/\\(\\text{cm}^{3}\\)."
         },
         {
           "type": "waarofniet",
@@ -2784,12 +2784,12 @@
           "type": "meerkeuze",
           "vraag": "Wat is de SI-eenheid van massadichtheid?",
           "opties": [
-            "kg/m³",
-            "g/cm³",
+            "kg/\\(\\text{m}^{3}\\)",
+            "g/\\(\\text{cm}^{3}\\)",
             "kg"
           ],
           "antwoord": 0,
-          "uitleg": "De SI-eenheid is kilogram per kubieke meter. g/cm³ mag ook, maar dat is geen SI-eenheid."
+          "uitleg": "De SI-eenheid is kilogram per kubieke meter. g/\\(\\text{cm}^{3}\\) mag ook, maar dat is geen SI-eenheid."
         },
         {
           "type": "meerkeuze",
@@ -2804,18 +2804,18 @@
         },
         {
           "type": "meerkeuze",
-          "vraag": "Welke van deze zinken in water (1 g/cm³)?",
+          "vraag": "Welke van deze zinken in water (\\(1\\) g/\\(\\text{cm}^{3}\\))?",
           "opties": [
-            "IJzer, 7,8 g/cm³",
-            "Aluminium, 2,7 g/cm³",
-            "Kurk, 0,24 g/cm³",
-            "Olie, 0,9 g/cm³"
+            "IJzer, \\(7{,}8\\) g/\\(\\text{cm}^{3}\\)",
+            "Aluminium, \\(2{,}7\\) g/\\(\\text{cm}^{3}\\)",
+            "Kurk, \\(0{,}24\\) g/\\(\\text{cm}^{3}\\)",
+            "Olie, \\(0{,}9\\) g/\\(\\text{cm}^{3}\\)"
           ],
           "antwoord": [
             0,
             1
           ],
-          "uitleg": "Alles met een massadichtheid groter dan 1 g/cm³ zinkt in water. Kurk en olie zijn lichter per cm³ en blijven drijven."
+          "uitleg": "Alles met een massadichtheid groter dan \\(1\\) g/\\(\\text{cm}^{3}\\) zinkt in water. Kurk en olie zijn lichter per \\(\\text{cm}^{3}\\) en blijven drijven."
         },
         {
           "type": "waarofniet",
@@ -2843,86 +2843,86 @@
       "vragen": [
         {
           "type": "meerkeuze",
-          "vraag": "Een blok heeft een massa van 72 g en is een kubus met een ribbe van 2 cm. Wat is de massadichtheid?",
+          "vraag": "Een blok heeft een massa van \\(72\\) g en is een kubus met een ribbe van \\(2\\) cm. Wat is de massadichtheid?",
           "opties": [
-            "9 g/cm³",
-            "36 g/cm³",
-            "144 g/cm³"
+            "\\(9\\) g/\\(\\text{cm}^{3}\\)",
+            "\\(36\\) g/\\(\\text{cm}^{3}\\)",
+            "\\(144\\) g/\\(\\text{cm}^{3}\\)"
           ],
           "antwoord": 0,
-          "uitleg": "Eerst het volume: z³ = 2³ = 8 cm³. Dan ρ = 72 g / 8 cm³ = 9 g/cm³. Dat komt aardig in de buurt van koper."
+          "uitleg": "Eerst het volume: \\(z^{3} = 2^{3} = 8\\,\\text{cm}^{3}\\). Dan \\(\\rho = 72\\) g / \\(8\\,\\text{cm}^{3}\\) = \\(9\\) g/\\(\\text{cm}^{3}\\). Dat komt aardig in de buurt van koper."
         },
         {
           "type": "meerkeuze",
-          "vraag": "Hoeveel weegt 3 cm³ goud, als goud 19 g/cm³ weegt per kubieke centimeter?",
+          "vraag": "Hoeveel weegt \\(3\\,\\text{cm}^{3}\\) goud, als goud \\(19\\) g/\\(\\text{cm}^{3}\\) weegt per kubieke centimeter?",
           "opties": [
-            "57 g",
-            "22 g",
-            "6,3 g"
+            "\\(57\\) g",
+            "\\(22\\) g",
+            "\\(6{,}3\\) g"
           ],
           "antwoord": 0,
-          "uitleg": "Uit ρ = m / V volgt m = ρ × V = 19 × 3 = 57 g."
+          "uitleg": "Uit \\(\\rho = m / V\\) volgt \\(m = \\rho \\cdot V = 19 \\cdot 3 = 57\\) g."
         },
         {
           "type": "invultekst",
-          "vraag": "IJzer heeft een massadichtheid van 7,8 g/cm³. Een stuk van 780 g heeft een volume van ___ cm³.",
+          "vraag": "IJzer heeft een massadichtheid van \\(7{,}8\\) g/\\(\\text{cm}^{3}\\). Een stuk van \\(780\\) g heeft een volume van ___ \\(\\text{cm}^{3}\\).",
           "antwoord": "100",
-          "uitleg": "Uit ρ = m / V volgt V = m / ρ = 780 : 7,8 = 100 cm³."
+          "uitleg": "Uit \\(\\rho = m / V\\) volgt \\(V = m / \\rho = 780 : 7{,}8 = 100\\,\\text{cm}^{3}\\)."
         },
         {
           "type": "meerkeuze",
-          "vraag": "Wat is het volume van een cilinder met een straal van 2 cm en een hoogte van 10 cm? Reken met π ≈ 3,14.",
+          "vraag": "Wat is het volume van een cilinder met een straal van \\(2\\) cm en een hoogte van \\(10\\) cm? Reken met \\(\\pi \\approx 3{,}14\\).",
           "opties": [
-            "125,6 cm³",
-            "62,8 cm³",
-            "40 cm³"
+            "\\(125{,}6\\,\\text{cm}^{3}\\)",
+            "\\(62{,}8\\,\\text{cm}^{3}\\)",
+            "\\(40\\,\\text{cm}^{3}\\)"
           ],
           "antwoord": 0,
-          "uitleg": "V = π × r² × h = 3,14 × 2² × 10 = 3,14 × 4 × 10 = 125,6 cm³."
+          "uitleg": "\\(V = \\pi \\cdot r^{2} \\times h = 3{,}14 \\cdot 2^{2} \\cdot 10 = 3{,}14 \\cdot 4 \\cdot 10 = 125{,}6\\,\\text{cm}^{3}\\)."
         },
         {
           "type": "meerkeuze",
-          "vraag": "Wat is het volume van een bol met een straal van 3 cm? Reken met π ≈ 3,14.",
+          "vraag": "Wat is het volume van een bol met een straal van \\(3\\) cm? Reken met \\(\\pi \\approx 3{,}14\\).",
           "opties": [
-            "113,04 cm³",
-            "37,68 cm³",
-            "28,26 cm³"
+            "\\(113{,}04\\,\\text{cm}^{3}\\)",
+            "\\(37{,}68\\,\\text{cm}^{3}\\)",
+            "\\(28{,}26\\,\\text{cm}^{3}\\)"
           ],
           "antwoord": 0,
-          "uitleg": "V = 4/3 × π × r³ = 4/3 × 3,14 × 27 = 113,04 cm³."
+          "uitleg": "\\(V = \\tfrac{4}{3} \\cdot \\pi \\cdot r^{3} = \\tfrac{4}{3} \\cdot 3{,}14 \\cdot 27 = 113{,}04\\,\\text{cm}^{3}\\)."
         },
         {
           "type": "meerkeuze",
-          "vraag": "Je dompelt een blokje onder: het water stijgt van 40 mL naar 55 mL. Het blokje weegt 40,5 g. Wat is de massadichtheid?",
+          "vraag": "Je dompelt een blokje onder: het water stijgt van \\(40\\) mL naar \\(55\\) mL. Het blokje weegt \\(40{,}5\\) g. Wat is de massadichtheid?",
           "opties": [
-            "2,7 g/cm³",
-            "1,35 g/cm³",
-            "0,37 g/cm³"
+            "\\(2{,}7\\) g/\\(\\text{cm}^{3}\\)",
+            "\\(1{,}35\\) g/\\(\\text{cm}^{3}\\)",
+            "\\(0{,}37\\) g/\\(\\text{cm}^{3}\\)"
           ],
           "antwoord": 0,
-          "uitleg": "Het volume is 55 − 40 = 15 cm³. Dan ρ = 40,5 : 15 = 2,7 g/cm³, dus dit is waarschijnlijk aluminium."
+          "uitleg": "Het volume is \\(55 - 40 = 15\\,\\text{cm}^{3}\\). Dan \\(\\rho = 40{,}5 : 15 = 2{,}7\\) g/\\(\\text{cm}^{3}\\), dus dit is waarschijnlijk aluminium."
         },
         {
           "type": "meerkeuze",
-          "vraag": "Een fles bevat 2 L olie met een massadichtheid van 0,9 g/cm³. Hoeveel weegt die olie?",
+          "vraag": "Een fles bevat \\(2\\) L olie met een massadichtheid van \\(0{,}9\\) g/\\(\\text{cm}^{3}\\). Hoeveel weegt die olie?",
           "opties": [
-            "1,8 kg",
-            "0,45 kg",
-            "18 kg"
+            "\\(1{,}8\\) kg",
+            "\\(0{,}45\\) kg",
+            "\\(18\\) kg"
           ],
           "antwoord": 0,
-          "uitleg": "2 L = 2000 cm³. m = ρ × V = 0,9 × 2000 = 1800 g, dus 1,8 kg."
+          "uitleg": "\\(2\\) L = \\(2000\\,\\text{cm}^{3}\\). m = \\(\\rho \\cdot V = 0{,}9 \\cdot 2000 = 1800\\) g, dus \\(1{,}8\\) kg."
         },
         {
           "type": "meerkeuze",
-          "vraag": "Je meet van drie stukken van dezelfde stof: 10 cm³ weegt 27 g, 20 cm³ weegt 54 g, 30 cm³ weegt 81 g. Wat besluit je?",
+          "vraag": "Je meet van drie stukken van dezelfde stof: \\(10\\,\\text{cm}^{3}\\) weegt \\(27\\) g, \\(20\\,\\text{cm}^{3}\\) weegt \\(54\\) g, \\(30\\,\\text{cm}^{3}\\) weegt \\(81\\) g. Wat besluit je?",
           "opties": [
-            "De massa is recht evenredig met het volume, en ρ = 2,7 g/cm³",
-            "De massa is omgekeerd evenredig met het volume, en ρ = 2,7",
+            "De massa is recht evenredig met het volume, en \\(\\rho = 2{,}7\\) g/\\(\\text{cm}^{3}\\)",
+            "De massa is omgekeerd evenredig met het volume, en \\(\\rho = 2{,}7\\)",
             "Er is geen verband"
           ],
           "antwoord": 0,
-          "uitleg": "Telkens als het volume verdubbelt, verdubbelt de massa: recht evenredig. De verhouding m/V is overal 2,7, en dat is de massadichtheid."
+          "uitleg": "Telkens als het volume verdubbelt, verdubbelt de massa: recht evenredig. De verhouding m/V is overal \\(2{,}7\\), en dat is de massadichtheid."
         },
         {
           "type": "meerkeuze",
@@ -2933,7 +2933,7 @@
             "Een horizontale rechte"
           ],
           "antwoord": 0,
-          "uitleg": "Bij een recht evenredig verband krijg je een rechte door (0, 0). Hoe steiler die rechte, hoe groter de massadichtheid."
+          "uitleg": "Bij een recht evenredig verband krijg je een rechte door (\\(0\\), \\(0\\)). Hoe steiler die rechte, hoe groter de massadichtheid."
         },
         {
           "type": "meerkeuze",
@@ -2950,7 +2950,7 @@
           "type": "waarofniet",
           "vraag": "Als je bij dezelfde stof het volume verdubbelt, blijft de massa gelijk.",
           "antwoord": false,
-          "uitleg": "Niet juist. De massadichtheid is een stofconstante. Blijft ρ gelijk en wordt V twee keer zo groot, dan wordt m = ρ × V ook twee keer zo groot."
+          "uitleg": "Niet juist. De massadichtheid is een stofconstante. Blijft ρ gelijk en wordt V twee keer zo groot, dan wordt \\(m = \\rho \\times V\\) ook twee keer zo groot."
         },
         {
           "type": "meerkeuze",
@@ -2961,7 +2961,7 @@
             "Ze blijft gelijk, want het is een stofeigenschap"
           ],
           "antwoord": 0,
-          "uitleg": "ρ = m / V. Blijft m gelijk en wordt V groter, dan wordt de uitkomst kleiner. Zo drijft een schip van staal: door zijn grote volume is de gemiddelde massadichtheid klein."
+          "uitleg": "\\(\\rho = m / V\\). Blijft m gelijk en wordt V groter, dan wordt de uitkomst kleiner. Zo drijft een schip van staal: door zijn grote volume is de gemiddelde massadichtheid klein."
         },
         {
           "type": "meerkeuze",
@@ -2972,7 +2972,7 @@
             "IJs heeft bijna geen massa meer"
           ],
           "antwoord": 0,
-          "uitleg": "Bij het bevriezen zet water uit: hetzelfde aantal deeltjes neemt meer plaats in. IJs weegt ongeveer 0,92 g/cm³, minder dan de 1 g/cm³ van water."
+          "uitleg": "Bij het bevriezen zet water uit: hetzelfde aantal deeltjes neemt meer plaats in. IJs weegt ongeveer \\(0{,}92\\) g/\\(\\text{cm}^{3}\\), minder dan de \\(1\\) g/\\(\\text{cm}^{3}\\) van water."
         },
         {
           "type": "meerkeuze",
@@ -2992,9 +2992,9 @@
         },
         {
           "type": "invultekst",
-          "vraag": "Een voorwerp met een massadichtheid van 1200 kg/m³ dat je in water legt, zal ___.",
+          "vraag": "Een voorwerp met een massadichtheid van \\(1200\\) kg/\\(\\text{m}^{3}\\) dat je in water legt, zal ___.",
           "antwoord": "zinken",
-          "uitleg": "Water is 1000 kg/m³. Het voorwerp is dichter, dus het zinkt naar de bodem."
+          "uitleg": "Water is \\(1000\\) kg/\\(\\text{m}^{3}\\). Het voorwerp is dichter, dus het zinkt naar de bodem."
         },
         {
           "type": "meerkeuze",
@@ -3005,18 +3005,18 @@
             "Vet lost niet op in water"
           ],
           "antwoord": 0,
-          "uitleg": "Vet en olie zijn ongeveer 0,9 g/cm³, minder dan water. Ze mengen niet met water en blijven daarom als laag bovenop liggen."
+          "uitleg": "Vet en olie zijn ongeveer \\(0{,}9\\) g/\\(\\text{cm}^{3}\\), minder dan water. Ze mengen niet met water en blijven daarom als laag bovenop liggen."
         },
         {
           "type": "meerkeuze",
-          "vraag": "Een blokje heeft een massa van 60 g en een volume van 75 cm³. Drijft of zinkt het in water?",
+          "vraag": "Een blokje heeft een massa van \\(60\\) g en een volume van \\(75\\,\\text{cm}^{3}\\). Drijft of zinkt het in water?",
           "opties": [
-            "Het drijft, want ρ = 0,8 g/cm³",
-            "Het zinkt, want ρ = 1,25 g/cm³",
-            "Het zweeft, want ρ = 1 g/cm³"
+            "Het drijft, want \\(\\rho = 0{,}8\\) g/\\(\\text{cm}^{3}\\)",
+            "Het zinkt, want \\(\\rho = 1{,}25\\) g/\\(\\text{cm}^{3}\\)",
+            "Het zweeft, want \\(\\rho = 1\\) g/\\(\\text{cm}^{3}\\)"
           ],
           "antwoord": 0,
-          "uitleg": "ρ = 60 : 75 = 0,8 g/cm³. Dat is kleiner dan de 1 g/cm³ van water, dus het blokje drijft."
+          "uitleg": "\\(\\rho = 60 : 75 = 0{,}8\\) g/\\(\\text{cm}^{3}\\). Dat is kleiner dan de \\(1\\) g/\\(\\text{cm}^{3}\\) van water, dus het blokje drijft."
         },
         {
           "type": "waarofniet",
@@ -3205,57 +3205,57 @@
           "type": "meerkeuze",
           "vraag": "Wat is de formule voor een constante snelheid?",
           "opties": [
-            "v = Δx / Δt",
-            "v = Δx × Δt",
-            "v = Δt / Δx"
+            "\\(v = \\Delta x / \\Delta t\\)",
+            "\\(v = \\Delta x \\times \\Delta t\\)",
+            "\\(v = \\Delta t / \\Delta x\\)"
           ],
           "antwoord": 0,
           "uitleg": "Je deelt de verplaatsing door de tijdsduur. Δx is de verplaatsing in meter en Δt de tijdsduur in seconde."
         },
         {
           "type": "meerkeuze",
-          "vraag": "Iemand legt 100 m af in 20 s. Wat is zijn snelheid?",
+          "vraag": "Iemand legt \\(100\\) m af in \\(20\\) s. Wat is zijn snelheid?",
           "opties": [
-            "5 m/s",
-            "2 m/s",
-            "20 m/s"
+            "\\(5\\) m/s",
+            "\\(2\\) m/s",
+            "\\(20\\) m/s"
           ],
           "antwoord": 0,
-          "uitleg": "v = Δx / Δt = 100 m : 20 s = 5 m/s."
+          "uitleg": "\\(v = \\Delta x / \\Delta t = 100\\) m : \\(20\\) s = \\(5\\) m/s."
         },
         {
           "type": "invultekst",
-          "vraag": "Een auto rijdt 90 km in 2 uur. Zijn gemiddelde snelheid is ___ km/h.",
+          "vraag": "Een auto rijdt \\(90\\) km in \\(2\\) uur. Zijn gemiddelde snelheid is ___ km/h.",
           "antwoord": "45",
-          "uitleg": "v = 90 km : 2 h = 45 km/h."
+          "uitleg": "\\(v = 90\\) km : \\(2\\) h = \\(45\\) km/h."
         },
         {
           "type": "meerkeuze",
-          "vraag": "Hoeveel km/h is 5 m/s?",
+          "vraag": "Hoeveel km/h is \\(5\\) m/s?",
           "opties": [
-            "18 km/h",
-            "1,4 km/h",
-            "50 km/h"
+            "\\(18\\) km/h",
+            "\\(1{,}4\\) km/h",
+            "\\(50\\) km/h"
           ],
           "antwoord": 0,
-          "uitleg": "Van m/s naar km/h vermenigvuldig je met 3,6: 5 × 3,6 = 18 km/h."
+          "uitleg": "Van m/s naar km/h vermenigvuldig je met \\(3{,}6\\): \\(5 \\cdot 3{,}6 = 18\\) km/h."
         },
         {
           "type": "meerkeuze",
-          "vraag": "Hoeveel m/s is 72 km/h?",
+          "vraag": "Hoeveel m/s is \\(72\\) km/h?",
           "opties": [
-            "20 m/s",
-            "259 m/s",
-            "7,2 m/s"
+            "\\(20\\) m/s",
+            "\\(259\\) m/s",
+            "\\(7{,}2\\) m/s"
           ],
           "antwoord": 0,
-          "uitleg": "Van km/h naar m/s deel je door 3,6: 72 : 3,6 = 20 m/s."
+          "uitleg": "Van km/h naar m/s deel je door \\(3{,}6\\): \\(72 : 3{,}6 = 20\\) m/s."
         },
         {
           "type": "invultekst",
           "vraag": "Twee uur is ___ seconden.",
           "antwoord": "7200",
-          "uitleg": "1 h = 60 min = 3600 s, dus 2 h = 7200 s. Bij een berekening in m/s reken je tijd altijd eerst om naar seconden."
+          "uitleg": "\\(1\\) h = \\(60\\) min = \\(3600\\) s, dus \\(2\\) h = \\(7200\\) s. Bij een berekening in m/s reken je tijd altijd eerst om naar seconden."
         },
         {
           "type": "waarofniet",
@@ -3272,42 +3272,42 @@
       "vragen": [
         {
           "type": "meerkeuze",
-          "vraag": "Een fietser rijdt 30 s aan 4 m/s. Hoe ver raakt hij?",
+          "vraag": "Een fietser rijdt \\(30\\) s aan \\(4\\) m/s. Hoe ver raakt hij?",
           "opties": [
-            "120 m",
-            "7,5 m",
-            "34 m"
+            "\\(120\\) m",
+            "\\(7{,}5\\) m",
+            "\\(34\\) m"
           ],
           "antwoord": 0,
-          "uitleg": "Uit v = Δx / Δt volgt Δx = v × Δt = 4 × 30 = 120 m."
+          "uitleg": "Uit \\(v = \\Delta x / \\Delta t\\) volgt \\(\\Delta x = v \\cdot \\Delta t = 4 \\cdot 30 = 120\\) m."
         },
         {
           "type": "meerkeuze",
-          "vraag": "Hoelang doet een wandelaar over 300 m aan 5 m/s?",
+          "vraag": "Hoelang doet een wandelaar over \\(300\\) m aan \\(5\\) m/s?",
           "opties": [
-            "60 s",
-            "1500 s",
-            "6 s"
+            "\\(60\\) s",
+            "\\(1500\\) s",
+            "\\(6\\) s"
           ],
           "antwoord": 0,
-          "uitleg": "Uit v = Δx / Δt volgt Δt = Δx / v = 300 : 5 = 60 s, dus één minuut."
+          "uitleg": "Uit \\(v = \\Delta x / \\Delta t\\) volgt \\(\\Delta t = \\Delta x / v = 300 : 5 = 60\\) s, dus één minuut."
         },
         {
           "type": "invultekst",
-          "vraag": "Een trein rijdt aan 36 km/h. In m/s is dat ___.",
+          "vraag": "Een trein rijdt aan \\(36\\) km/h. In m/s is dat ___.",
           "antwoord": "10",
-          "uitleg": "36 : 3,6 = 10 m/s. Handig om te onthouden: 36 km/h is precies 10 m/s."
+          "uitleg": "\\(36 : 3{,}6 = 10\\) m/s. Handig om te onthouden: \\(36\\) km/h is precies \\(10\\) m/s."
         },
         {
           "type": "meerkeuze",
-          "vraag": "Wie gaat het snelst: A aan 15 m/s, B aan 50 km/h of C die 1 km in 2 minuten aflegt?",
+          "vraag": "Wie gaat het snelst: A aan \\(15\\) m/s, B aan \\(50\\) km/h of C die \\(1\\) km in \\(2\\) minuten aflegt?",
           "opties": [
             "A",
             "B",
             "C"
           ],
           "antwoord": 0,
-          "uitleg": "Reken alles om naar km/h: A is 15 × 3,6 = 54 km/h, B is 50 km/h, en C doet 1 km in 2 min, dus 30 km/h. A is de snelste."
+          "uitleg": "Reken alles om naar km/h: A is \\(15 \\cdot 3{,}6 = 54\\) km/h, B is \\(50\\) km/h, en C doet \\(1\\) km in \\(2\\) min, dus \\(30\\) km/h. A is de snelste."
         },
         {
           "type": "meerkeuze",
@@ -3329,7 +3329,7 @@
             "Het voorwerp rijdt achteruit"
           ],
           "antwoord": 0,
-          "uitleg": "De tijd loopt door, maar de afstand verandert niet. De snelheid is dan 0 m/s."
+          "uitleg": "De tijd loopt door, maar de afstand verandert niet. De snelheid is dan \\(0\\) m/s."
         },
         {
           "type": "meerkeuze",
@@ -3367,25 +3367,25 @@
             1,
             2
           ],
-          "uitleg": "Uit v = Δx / Δt volgen de drie eerste. De laatste klopt niet: langer onderweg zijn maakt je niet sneller."
+          "uitleg": "Uit \\(v = \\Delta x / \\Delta t\\) volgen de drie eerste. De laatste klopt niet: langer onderweg zijn maakt je niet sneller."
         },
         {
           "type": "meerkeuze",
-          "vraag": "Twee mensen duwen een kast, allebei 200 N in dezelfde zin. Hoe groot is de resulterende kracht?",
+          "vraag": "Twee mensen duwen een kast, allebei \\(200\\) N in dezelfde zin. Hoe groot is de resulterende kracht?",
           "opties": [
-            "400 N in die zin",
-            "0 N",
-            "200 N"
+            "\\(400\\) N in die zin",
+            "\\(0\\) N",
+            "\\(200\\) N"
           ],
           "antwoord": 0,
-          "uitleg": "Krachten in dezelfde richting en zin tel je op: 200 + 200 = 400 N. Duwen ze tegen elkaar in, dan trek je ze af."
+          "uitleg": "Krachten in dezelfde richting en zin tel je op: \\(200 + 200 = 400\\) N. Duwen ze tegen elkaar in, dan trek je ze af."
         },
         {
           "type": "meerkeuze",
-          "vraag": "Twee kinderen trekken aan een touw, allebei 150 N, maar in tegengestelde zin. Wat gebeurt er?",
+          "vraag": "Twee kinderen trekken aan een touw, allebei \\(150\\) N, maar in tegengestelde zin. Wat gebeurt er?",
           "opties": [
-            "De resultante is 0 N en het touw beweegt niet",
-            "De resultante is 300 N",
+            "De resultante is \\(0\\) N en het touw beweegt niet",
+            "De resultante is \\(300\\) N",
             "Het touw beweegt naar links"
           ],
           "antwoord": 0,
@@ -3431,50 +3431,50 @@
             "rust",
             "evenwicht"
           ],
-          "uitleg": "Bij een resultante van 0 N blijft een voorwerp in rust, of het blijft met een constante snelheid verder bewegen."
+          "uitleg": "Bij een resultante van \\(0\\) N blijft een voorwerp in rust, of het blijft met een constante snelheid verder bewegen."
         },
         {
           "type": "meerkeuze",
-          "vraag": "Een auto rijdt het eerste uur 60 km en het tweede uur 80 km. Wat is zijn gemiddelde snelheid?",
+          "vraag": "Een auto rijdt het eerste uur \\(60\\) km en het tweede uur \\(80\\) km. Wat is zijn gemiddelde snelheid?",
           "opties": [
-            "70 km/h",
-            "140 km/h",
-            "20 km/h"
+            "\\(70\\) km/h",
+            "\\(140\\) km/h",
+            "\\(20\\) km/h"
           ],
           "antwoord": 0,
-          "uitleg": "Samen 140 km in 2 h, dus 140 : 2 = 70 km/h. De snelheid was niet constant, maar gemiddeld is ze 70 km/h."
+          "uitleg": "Samen \\(140\\) km in \\(2\\) h, dus \\(140 : 2 = 70\\) km/h. De snelheid was niet constant, maar gemiddeld is ze \\(70\\) km/h."
         },
         {
           "type": "meerkeuze",
-          "vraag": "Waarom zet je een tijdsduur van 5 minuten eerst om naar seconden voor je in m/s rekent?",
+          "vraag": "Waarom zet je een tijdsduur van \\(5\\) minuten eerst om naar seconden voor je in m/s rekent?",
           "opties": [
             "Omdat m/s om meter en seconde vraagt",
             "Omdat minuten geen tijdseenheid zijn",
             "Omdat seconden nauwkeuriger zijn"
           ],
           "antwoord": 0,
-          "uitleg": "De eenheden moeten bij de formule passen: 5 min = 300 s. Vergeet je dat, dan zit je antwoord er een factor 60 naast."
+          "uitleg": "De eenheden moeten bij de formule passen: \\(5\\) min = \\(300\\) s. Vergeet je dat, dan zit je antwoord er een factor \\(60\\) naast."
         },
         {
           "type": "waarofniet",
-          "vraag": "Een kracht van 10 N naar links en een kracht van 10 N naar rechts hebben dezelfde richting maar een andere zin.",
+          "vraag": "Een kracht van \\(10\\) N naar links en een kracht van \\(10\\) N naar rechts hebben dezelfde richting maar een andere zin.",
           "antwoord": true,
           "uitleg": "De richting is de lijn waarlangs de kracht werkt, hier de horizontale lijn. De zin is de kant waarheen de pijl wijst, en die is tegengesteld."
         },
         {
           "type": "meerkeuze",
-          "vraag": "Een hardloper doet 400 m in 50 s. Hoeveel km/h is dat?",
+          "vraag": "Een hardloper doet \\(400\\) m in \\(50\\) s. Hoeveel km/h is dat?",
           "opties": [
-            "28,8 km/h",
-            "8 km/h",
-            "20 km/h"
+            "\\(28{,}8\\) km/h",
+            "\\(8\\) km/h",
+            "\\(20\\) km/h"
           ],
           "antwoord": 0,
-          "uitleg": "Eerst v = 400 : 50 = 8 m/s, en dan 8 × 3,6 = 28,8 km/h."
+          "uitleg": "Eerst \\(v = 400 : 50 = 8\\) m/s, en dan \\(8 \\cdot 3{,}6 = 28{,}8\\) km/h."
         },
         {
           "type": "meerkeuze",
-          "vraag": "Je hangt een gewicht aan een dynamometer en leest 12 N af. Wat heb je gemeten?",
+          "vraag": "Je hangt een gewicht aan een dynamometer en leest \\(12\\) N af. Wat heb je gemeten?",
           "opties": [
             "De zwaartekracht op dat gewicht",
             "De massa van dat gewicht",
@@ -3554,7 +3554,7 @@
             "Met een dynamometer"
           ],
           "antwoord": 0,
-          "uitleg": "Je giet de vloeistof in een maatcilinder en leest het volume af in milliliter, en 1 mL is 1 cm³."
+          "uitleg": "Je giet de vloeistof in een maatcilinder en leest het volume af in milliliter, en \\(1\\) mL is \\(1\\,\\text{cm}^{3}\\)."
         },
         {
           "type": "meerkeuze",
@@ -3630,13 +3630,13 @@
             "De ton"
           ],
           "antwoord": 0,
-          "uitleg": "De kilogram (kg) is de SI-eenheid. De ton is een niet-SI-eenheid: 1 t = 1000 kg."
+          "uitleg": "De kilogram (kg) is de SI-eenheid. De ton is een niet-SI-eenheid: \\(1\\,t = 1000\\) kg."
         },
         {
           "type": "meerkeuze",
           "vraag": "Welke eenheden horen bij volume?",
           "opties": [
-            "m³",
+            "\\(\\text{m}^{3}\\)",
             "liter",
             "kg",
             "newton"
@@ -3649,37 +3649,37 @@
         },
         {
           "type": "meerkeuze",
-          "vraag": "Hoeveel meter is 2 km?",
+          "vraag": "Hoeveel meter is \\(2\\) km?",
           "opties": [
-            "2000 m",
-            "200 m",
-            "20 000 m"
+            "\\(2000\\) m",
+            "\\(200\\) m",
+            "\\(20\\,000\\) m"
           ],
           "antwoord": 0,
-          "uitleg": "Kilo betekent duizend, dus 1 km = 1000 m en 2 km = 2000 m."
+          "uitleg": "Kilo betekent duizend, dus \\(1\\) km = \\(1000\\) m en \\(2\\) km = \\(2000\\) m."
         },
         {
           "type": "invultekst",
-          "vraag": "500 g is ___ kg.",
+          "vraag": "\\(500\\) g is ___ kg.",
           "antwoord": "0,5",
-          "uitleg": "1 kg = 1000 g, dus 500 g is een halve kilogram: 0,5 kg."
+          "uitleg": "\\(1\\) kg = \\(1000\\) g, dus \\(500\\) g is een halve kilogram: \\(0{,}5\\) kg."
         },
         {
           "type": "meerkeuze",
-          "vraag": "Hoeveel liter is 250 mL?",
+          "vraag": "Hoeveel liter is \\(250\\) mL?",
           "opties": [
-            "0,25 L",
-            "2,5 L",
-            "25 L"
+            "\\(0{,}25\\) L",
+            "\\(2{,}5\\) L",
+            "\\(25\\) L"
           ],
           "antwoord": 0,
-          "uitleg": "Milli betekent duizendste, dus 1 mL = 0,001 L en 250 mL = 0,25 L."
+          "uitleg": "Milli betekent duizendste, dus \\(1\\) mL = \\(0{,}001\\) L en \\(250\\) mL = \\(0{,}25\\) L."
         },
         {
           "type": "waarofniet",
           "vraag": "Het voorvoegsel milli betekent duizendste.",
           "antwoord": true,
-          "uitleg": "Milli is 0,001, centi is 0,01, deci is 0,1 en kilo is 1000. Die vier moet je vlot kunnen gebruiken."
+          "uitleg": "Milli is \\(0{,}001\\), centi is \\(0{,}01\\), deci is \\(0{,}1\\) en kilo is \\(1000\\). Die vier moet je vlot kunnen gebruiken."
         },
         {
           "type": "meerkeuze",
@@ -3712,11 +3712,11 @@
       "vragen": [
         {
           "type": "meerkeuze",
-          "vraag": "Je moet 25 mL water afmeten. Welk instrument kies je?",
+          "vraag": "Je moet \\(25\\) mL water afmeten. Welk instrument kies je?",
           "opties": [
-            "Een maatcilinder van 50 mL met streepjes van 1 mL",
-            "Een emmer van 10 L",
-            "Een maatcilinder van 1 L met streepjes van 50 mL"
+            "Een maatcilinder van \\(50\\) mL met streepjes van \\(1\\) mL",
+            "Een emmer van \\(10\\) L",
+            "Een maatcilinder van \\(1\\) L met streepjes van \\(50\\) mL"
           ],
           "antwoord": 0,
           "uitleg": "Kies uit gelijksoortige instrumenten dat met de gepaste nauwkeurigheid: het kleinste instrument waar je hoeveelheid nog in past, geeft de fijnste verdeling."
@@ -3741,14 +3741,14 @@
             "Omdat het netter staat"
           ],
           "antwoord": 0,
-          "uitleg": "5 kan 5 gram of 5 kilogram zijn. Pas met de eenheid erbij is een meting ondubbelzinnig, en pas dan kan iemand anders ze gebruiken."
+          "uitleg": "\\(5\\) kan \\(5\\) gram of \\(5\\) kilogram zijn. Pas met de eenheid erbij is een meting ondubbelzinnig, en pas dan kan iemand anders ze gebruiken."
         },
         {
           "type": "meerkeuze",
           "vraag": "Welke uitspraken over grootheden en eenheden kloppen?",
           "opties": [
             "Kracht heeft het symbool F en de eenheid newton",
-            "Massadichtheid heeft het symbool ρ en de SI-eenheid kg/m³",
+            "Massadichtheid heeft het symbool ρ en de SI-eenheid kg/\\(\\text{m}^{3}\\)",
             "Temperatuur heeft de SI-eenheid kelvin",
             "Volume heeft de SI-eenheid liter"
           ],
@@ -3766,57 +3766,57 @@
             "rho",
             "ρ"
           ],
-          "uitleg": "Massadichtheid schrijf je als ρ, uitgesproken als rho. De eenheid is kg/m³ of g/cm³."
+          "uitleg": "Massadichtheid schrijf je als ρ, uitgesproken als rho. De eenheid is kg/\\(\\text{m}^{3}\\) of g/\\(\\text{cm}^{3}\\)."
         },
         {
           "type": "meerkeuze",
-          "vraag": "Hoeveel is 3 mm in meter?",
+          "vraag": "Hoeveel is \\(3\\) mm in meter?",
           "opties": [
-            "0,003 m",
-            "0,3 m",
-            "300 m"
+            "\\(0{,}003\\) m",
+            "\\(0{,}3\\) m",
+            "\\(300\\) m"
           ],
           "antwoord": 0,
-          "uitleg": "Milli is duizendste: 3 mm = 3 × 0,001 m = 0,003 m."
+          "uitleg": "Milli is duizendste: \\(3\\) mm = \\(3 \\cdot 0{,}001\\) m = \\(0{,}003\\) m."
         },
         {
           "type": "meerkeuze",
-          "vraag": "Hoeveel gram is 1,5 kg?",
+          "vraag": "Hoeveel gram is \\(1{,}5\\) kg?",
           "opties": [
-            "1500 g",
-            "150 g",
-            "15 000 g"
+            "\\(1500\\) g",
+            "\\(150\\) g",
+            "\\(15\\,000\\) g"
           ],
           "antwoord": 0,
-          "uitleg": "1 kg = 1000 g, dus 1,5 kg = 1500 g."
+          "uitleg": "\\(1\\) kg = \\(1000\\) g, dus \\(1{,}5\\) kg = \\(1500\\) g."
         },
         {
           "type": "invultekst",
-          "vraag": "75 cm is ___ m.",
+          "vraag": "\\(75\\) cm is ___ m.",
           "antwoord": "0,75",
-          "uitleg": "Centi is honderdste: 75 cm = 75 : 100 = 0,75 m."
+          "uitleg": "Centi is honderdste: \\(75\\) cm = \\(75 : 100 = 0{,}75\\) m."
         },
         {
           "type": "meerkeuze",
           "vraag": "Welke schatting van de massa van een appel is realistisch?",
           "opties": [
-            "Ongeveer 150 g",
-            "Ongeveer 15 g",
-            "Ongeveer 1,5 kg"
+            "Ongeveer \\(150\\) g",
+            "Ongeveer \\(15\\) g",
+            "Ongeveer \\(1{,}5\\) kg"
           ],
           "antwoord": 0,
-          "uitleg": "Een schatting maken hoort bij wetenschappelijk werken: kom je op een antwoord van 15 g of 1,5 kg uit, dan weet je meteen dat je je ergens vergist hebt."
+          "uitleg": "Een schatting maken hoort bij wetenschappelijk werken: kom je op een antwoord van \\(15\\) g of \\(1{,}5\\) kg uit, dan weet je meteen dat je je ergens vergist hebt."
         },
         {
           "type": "meerkeuze",
-          "vraag": "Een leerling meet de lengte van zijn tafel en schrijft op: 1,2. Wat ontbreekt er?",
+          "vraag": "Een leerling meet de lengte van zijn tafel en schrijft op: \\(1{,}2\\). Wat ontbreekt er?",
           "opties": [
             "De eenheid",
             "De grootheid mag niet vermeld worden",
             "Het meetinstrument"
           ],
           "antwoord": 0,
-          "uitleg": "1,2 wat? Meter waarschijnlijk, maar dat moet er staan. Een meetresultaat is een getal én een eenheid."
+          "uitleg": "\\(1{,}2\\) wat? Meter waarschijnlijk, maar dat moet er staan. Een meetresultaat is een getal én een eenheid."
         },
         {
           "type": "meerkeuze",
@@ -3885,14 +3885,14 @@
         },
         {
           "type": "meerkeuze",
-          "vraag": "Je weegt een leeg bekerglas (120 g) en daarna hetzelfde glas met water (370 g). Hoeveel water zit erin?",
+          "vraag": "Je weegt een leeg bekerglas (\\(120\\) g) en daarna hetzelfde glas met water (\\(370\\) g). Hoeveel water zit erin?",
           "opties": [
-            "250 g",
-            "490 g",
-            "370 g"
+            "\\(250\\) g",
+            "\\(490\\) g",
+            "\\(370\\) g"
           ],
           "antwoord": 0,
-          "uitleg": "370 − 120 = 250 g. Je weegt eerst het lege glas, want de weegschaal weegt alles wat erop staat."
+          "uitleg": "\\(370 - 120 = 250\\) g. Je weegt eerst het lege glas, want de weegschaal weegt alles wat erop staat."
         },
         {
           "type": "meerkeuze",
@@ -3918,7 +3918,7 @@
         },
         {
           "type": "meerkeuze",
-          "vraag": "Je meet dezelfde lengte drie keer en krijgt 12,4 cm, 12,5 cm en 12,4 cm. Wat doe je met die resultaten?",
+          "vraag": "Je meet dezelfde lengte drie keer en krijgt \\(12{,}4\\) cm, \\(12{,}5\\) cm en \\(12{,}4\\) cm. Wat doe je met die resultaten?",
           "opties": [
             "Je neemt het gemiddelde, want herhalen maakt een meting betrouwbaarder",
             "Je neemt de grootste waarde",
@@ -4127,7 +4127,7 @@
         },
         {
           "type": "meerkeuze",
-          "vraag": "Uit een tabel lees je: bij 10 °C duurt het 40 min, bij 20 °C 20 min, bij 40 °C 10 min. Wat is het verband?",
+          "vraag": "Uit een tabel lees je: bij \\(10^{\\circ}\\text{C}\\) duurt het \\(40\\) min, bij \\(20^{\\circ}\\text{C}\\,20\\) min, bij \\(40^{\\circ}\\text{C}\\,10\\) min. Wat is het verband?",
           "opties": [
             "Hoe hoger de temperatuur, hoe korter de tijd",
             "Hoe hoger de temperatuur, hoe langer de tijd",
@@ -4232,7 +4232,7 @@
         },
         {
           "type": "meerkeuze",
-          "vraag": "Je meet de temperatuur van afkoelend water: 80 °C, 60 °C, 45 °C, 35 °C, 30 °C. Wat zie je in de grafiek?",
+          "vraag": "Je meet de temperatuur van afkoelend water: \\(80^{\\circ}\\text{C}\\), \\(60^{\\circ}\\text{C}\\), \\(45^{\\circ}\\text{C}\\), \\(35^{\\circ}\\text{C}\\), \\(30^{\\circ}\\text{C}\\). Wat zie je in de grafiek?",
           "opties": [
             "Een dalende kromme die steeds vlakker wordt",
             "Een rechte die stijgt",
@@ -4243,22 +4243,22 @@
         },
         {
           "type": "meerkeuze",
-          "vraag": "Uit de formule v = Δx / Δt: hoe schrijf je Δt in functie van de andere?",
+          "vraag": "Uit de formule \\(v = \\Delta x / \\Delta t\\): hoe schrijf je Δt in functie van de andere?",
           "opties": [
-            "Δt = Δx / v",
-            "Δt = v × Δx",
-            "Δt = v / Δx"
+            "\\(\\Delta t = \\Delta x / v\\)",
+            "\\(\\Delta t = v \\times \\Delta x\\)",
+            "\\(\\Delta t = v / \\Delta x\\)"
           ],
           "antwoord": 0,
-          "uitleg": "Een formule omvormen is een wiskundige vaardigheid die je hier nodig hebt: uit v = Δx / Δt volgt Δx = v × Δt en dus Δt = Δx / v."
+          "uitleg": "Een formule omvormen is een wiskundige vaardigheid die je hier nodig hebt: uit \\(v = \\Delta x / \\Delta t\\) volgt \\(\\Delta x = v \\times \\Delta t\\) en dus \\(\\Delta t = \\Delta x / v\\)."
         },
         {
           "type": "meerkeuze",
-          "vraag": "Uit de formule ρ = m / V: hoe bereken je de massa?",
+          "vraag": "Uit de formule \\(\\rho = m / V\\): hoe bereken je de massa?",
           "opties": [
-            "m = ρ × V",
-            "m = ρ / V",
-            "m = V / ρ"
+            "\\(m = \\rho \\times V\\)",
+            "\\(m = \\rho / V\\)",
+            "\\(m = V / \\rho\\)"
           ],
           "antwoord": 0,
           "uitleg": "Vermenigvuldig beide kanten met V. Zo kan je uit dezelfde formule alle drie de grootheden halen."
@@ -4331,14 +4331,14 @@
         },
         {
           "type": "meerkeuze",
-          "vraag": "In een grafiek lees je bij 4 s een afstand van 20 m af. Wat is de snelheid als de lijn een rechte door de oorsprong is?",
+          "vraag": "In een grafiek lees je bij \\(4\\) s een afstand van \\(20\\) m af. Wat is de snelheid als de lijn een rechte door de oorsprong is?",
           "opties": [
-            "5 m/s",
-            "80 m/s",
-            "0,2 m/s"
+            "\\(5\\) m/s",
+            "\\(80\\) m/s",
+            "\\(0{,}2\\) m/s"
           ],
           "antwoord": 0,
-          "uitleg": "Gegevens uit een grafiek halen: v = Δx / Δt = 20 : 4 = 5 m/s. Bij een rechte door de oorsprong geldt dat op elk punt."
+          "uitleg": "Gegevens uit een grafiek halen: \\(v = \\Delta x / \\Delta t = 20 : 4 = 5\\) m/s. Bij een rechte door de oorsprong geldt dat op elk punt."
         },
         {
           "type": "meerkeuze",
@@ -4349,7 +4349,7 @@
             "Er is geen verschil"
           ],
           "antwoord": 0,
-          "uitleg": "'Het water is 30 °C' is een waarneming. 'Het water koelt trager af met een deksel' is een besluit dat je uit meerdere waarnemingen haalt."
+          "uitleg": "'Het water is \\(30^{\\circ}\\text{C}\\)' is een waarneming. 'Het water koelt trager af met een deksel' is een besluit dat je uit meerdere waarnemingen haalt."
         },
         {
           "type": "invultekst",

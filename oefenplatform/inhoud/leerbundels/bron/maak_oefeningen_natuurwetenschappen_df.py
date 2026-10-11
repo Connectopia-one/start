@@ -169,17 +169,17 @@ ATOOM_ELEKTRONEN = dict(
     kop="Elektronenconfiguratie en het stipmodel",
     opdracht="Vul aan of leg uit.",
     oefeningen=[
-        ("rij", [("zuurstof, atoomnummer 8", "2, 6"),
-                 ("natrium, atoomnummer 11", "2, 8, 1"),
-                 ("zwavel, atoomnummer 16", "2, 8, 6")], "Welke configuratie?", WW),
+        ("rij", [(r"zuurstof, atoomnummer \(8\)", r"\(2\), \(6\)"),
+                 (r"natrium, atoomnummer \(11\)", r"\(2\), \(8\), \(1\)"),
+                 (r"zwavel, atoomnummer \(16\)", r"\(2\), \(8\), \(6\)")], "Welke configuratie?", WW),
         ("kort", "Hoeveel elektronen passen er in de eerste schil?", "twee", W),
         ("kort", "Hoe heet het model waarin je alleen de buitenste schil als stipjes rond het "
                  "symbool zet?", "het elektron-stipmodel", WL),
         ("waar", "In het elektron-stipmodel zet je alle elektronen van het atoom rond het symbool.",
          False),
-        ("open", "Een atoom heeft massagetal 23 en atoomnummer 11. Hoeveel protonen, neutronen en "
+        ("open", r"Een atoom heeft massagetal \(23\) en atoomnummer \(11\). Hoeveel protonen, neutronen en "
                  "elektronen heeft het, en hoe weet je dat?",
-         "Elf protonen, want dat is het atoomnummer. Twaalf neutronen, want 23 min 11. En elf "
+         r"Elf protonen, want dat is het atoomnummer. Twaalf neutronen, want \(23\) min \(11\). En elf "
          "elektronen, want het atoom is neutraal.", 5),
     ],
 )
@@ -269,12 +269,12 @@ HERBOUW["energieomzettingen-vermogen-en-rendement"] = dict(
         dict(kop="Eenheden van energie",
              opdracht="Reken uit of vul aan.",
              oefeningen=[
-                 ("kort", "Hoeveel joule is één kilowattuur?", "3 600 000 joule", WW),
-                 ("kort", "Een lamp van 10 watt brandt een half uur. Hoeveel energie zet ze om?",
-                  "18 000 joule", WW),
+                 ("kort", "Hoeveel joule is één kilowattuur?", r"\(3\,600\,000\) joule", WW),
+                 ("kort", r"Een lamp van \(10\) watt brandt een half uur. Hoeveel energie zet ze om?",
+                  r"\(18\,000\) joule", WW),
                  ("waar", "Een kilowattuur is een eenheid van vermogen.", False),
                  ("open", "Waarom rekent je elektriciteitsfactuur in kilowattuur en niet in joule?",
-                  "Eén kilowattuur is 3 600 000 joule. In joule zou je met onhandig grote getallen "
+                  r"Eén kilowattuur is \(3\,600\,000\) joule. In joule zou je met onhandig grote getallen "
                   "moeten werken.", 3),
              ]),
         dict(kop="Energie blijft bewaard",
@@ -393,12 +393,12 @@ HERBOUW["kracht-als-vector-en-bewegingstoestand"] = dict(
         dict(kop="Krachten samenstellen",
              opdracht="Reken uit en schrijf je stappen op.",
              oefeningen=[
-                 ("kort", "Twee mensen duwen een kast in dezelfde zin, met 80 en met 50 newton. "
-                          "Hoe groot is de resulterende kracht?", "130 newton", WW),
-                 ("kort", "Twee krachten van 60 en 25 newton werken op één lijn in tegengestelde "
-                          "zin. Hoe groot is de resulterende kracht?", "35 newton", WW),
-                 ("kort", "Twee krachten van 30 en 40 newton maken een hoek van 90 graden. Hoe "
-                          "groot is de resultante?", "50 newton", WW),
+                 ("kort", r"Twee mensen duwen een kast in dezelfde zin, met \(80\) en met \(50\) newton. "
+                          "Hoe groot is de resulterende kracht?", r"\(130\) newton", WW),
+                 ("kort", r"Twee krachten van \(60\) en \(25\) newton werken op één lijn in tegengestelde "
+                          "zin. Hoe groot is de resulterende kracht?", r"\(35\) newton", WW),
+                 ("kort", r"Twee krachten van \(30\) en \(40\) newton maken een hoek van \(90\) graden. Hoe "
+                          "groot is de resultante?", r"\(50\) newton", WW),
                  ("waar", "Twee even grote krachten in tegengestelde zin geven samen een dubbel zo "
                           "grote kracht.", False),
                  ("open", "Hoe noem je de ene kracht die hetzelfde effect heeft als alle krachten "
@@ -464,14 +464,14 @@ HERBOUW["druk-in-het-dagelijkse-leven"] = dict(
         dict(kop="Eenheden van druk",
              opdracht="Reken uit of vul aan.",
              oefeningen=[
-                 ("kort", "Hoeveel pascal is één kilopascal?", "1000 pascal", WW),
-                 ("kort", "Hoeveel pascal is één hectopascal?", "100 pascal", WW),
-                 ("kort", "Je duwt met 600 newton op 0,2 vierkante meter. Hoe groot is de druk?",
-                  "3000 pascal", WW),
+                 ("kort", "Hoeveel pascal is één kilopascal?", r"\(1000\) pascal", WW),
+                 ("kort", "Hoeveel pascal is één hectopascal?", r"\(100\) pascal", WW),
+                 ("kort", r"Je duwt met \(600\) newton op \(0{,}2\) vierkante meter. Hoe groot is de druk?",
+                  r"\(3000\) pascal", WW),
                  ("waar", "De newton is een eenheid van druk.", False),
-                 ("open", "Het weerbericht spreekt over 1013 hectopascal. Hoeveel pascal is dat, "
+                 ("open", r"Het weerbericht spreekt over \(1013\) hectopascal. Hoeveel pascal is dat, "
                           "en wat meet men daarmee?",
-                  "101 300 pascal. Dat is de luchtdruk, gemeten met een barometer.", 3),
+                  r"\(101\,300\) pascal. Dat is de luchtdruk, gemeten met een barometer.", 3),
              ]),
         dict(kop="Luchtdruk, overdruk en onderdruk",
              opdracht="Vul aan of leg uit.",
@@ -502,7 +502,7 @@ HERBOUW["druk-in-het-dagelijkse-leven"] = dict(
                   "Groot of klein?", WL),
                  ("open", "Je moet een zware kast op een houten vloer zetten en je kan kiezen "
                           "tussen vier smalle poten en vier brede. Welke kies je, en leg je keuze "
-                          "uit met p = F / A?",
+                          r"uit met \(p = F / A\)?",
                   "De brede. De kracht blijft dezelfde, maar het oppervlak is groter, dus is de "
                   "druk op de vloer kleiner en komen er geen putjes in het hout.", 5),
              ]),
@@ -605,7 +605,7 @@ HERBOUW["biologische-feedback-en-homeostase"] = dict(
                   "De alvleesklier meet het te lage gehalte en geeft glucagon af. De lever breekt "
                   "glycogeen af tot glucose en geeft dat aan het bloed, zodat het gehalte weer "
                   "stijgt.", 5),
-                 ("open", "Bij diabetes type 1 maakt de alvleesklier geen insuline meer. Wat loopt "
+                 ("open", r"Bij diabetes type \(1\) maakt de alvleesklier geen insuline meer. Wat loopt "
                           "er mis in het feedbacksysteem?",
                   "Het meten gaat nog, maar het signaal valt weg. De lever en de spiercellen "
                   "krijgen geen bevel om glucose op te nemen, en daardoor blijft het gehalte in "

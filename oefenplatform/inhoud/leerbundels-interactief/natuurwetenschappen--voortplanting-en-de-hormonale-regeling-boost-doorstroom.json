@@ -29,11 +29,11 @@
    "blokken": [
     {
      "soort": "tekst",
-     "html": "De <strong>menstruatiecyclus begint op de eerste dag van de menstruatie</strong> en duurt gemiddeld <strong>ongeveer 28 dagen</strong>."
+     "html": "De <strong>menstruatiecyclus begint op de eerste dag van de menstruatie</strong> en duurt gemiddeld <strong>ongeveer \\(28\\) dagen</strong>."
     },
     {
      "soort": "tekst",
-     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Wanneer</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Wat er gebeurt</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Eerste helft</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">het baarmoederslijmvlies wordt dikker en beter doorbloed</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Rond dag 14</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">de eisprong; de lichaamstemperatuur ligt daarna gemiddeld iets hoger</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Tweede helft</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">het geel lichaam houdt met progesteron het slijmvlies in stand</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Geen bevruchting</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">het geel lichaam valt weg, het slijmvlies laat los</td></tr></table>"
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Wanneer</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Wat er gebeurt</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Eerste helft</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">het baarmoederslijmvlies wordt dikker en beter doorbloed</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Rond dag \\(14\\)</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">de eisprong; de lichaamstemperatuur ligt daarna gemiddeld iets hoger</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Tweede helft</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">het geel lichaam houdt met progesteron het slijmvlies in stand</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Geen bevruchting</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">het geel lichaam valt weg, het slijmvlies laat los</td></tr></table>"
     },
     {
      "soort": "tekst",
@@ -120,7 +120,7 @@
  "onthoud": [
   "Een eicel rijpt in een follikel in de eierstok; de bevruchting gebeurt normaal in de eileider.",
   "Na de eisprong ontstaat uit de follikel het geel lichaam, dat vooral progesteron maakt.",
-  "De menstruatiecyclus begint op de eerste dag van de menstruatie en duurt ongeveer 28 dagen.",
+  "De menstruatiecyclus begint op de eerste dag van de menstruatie en duurt ongeveer \\(28\\) dagen.",
   "Zonder progesteron kan het dikke baarmoederslijmvlies niet in stand blijven.",
   "FSH laat de follikel rijpen, een plotse LH-piek brengt de eisprong op gang.",
   "Oestrogeen komt uit de eierstok, niet uit de hypofyse.",

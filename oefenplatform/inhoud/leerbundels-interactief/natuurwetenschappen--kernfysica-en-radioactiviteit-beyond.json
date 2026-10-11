@@ -12,7 +12,7 @@
     },
     {
      "soort": "tekst",
-     "html": "Daarmee reken je meteen. Heeft een <strong>nuclide massagetal 23 en atoomnummer 11</strong>, dan zitten er 23 min 11, dus <strong>12</strong> neutronen in de kern. Een nuclide <strong>schrijf je met het massagetal en het atoomnummer bij het symbool</strong> van het element."
+     "html": "Daarmee reken je meteen. Heeft een <strong>nuclide massagetal \\(23\\) en atoomnummer \\(11\\)</strong>, dan zitten er \\(23\\) min \\(11\\), dus <strong>\\(12\\)</strong> neutronen in de kern. Een nuclide <strong>schrijf je met het massagetal en het atoomnummer bij het symbool</strong> van het element."
     },
     {
      "soort": "tekst",
@@ -29,7 +29,7 @@
     },
     {
      "soort": "tekst",
-     "html": "Daarom hangt stabiliteit af van de verhouding. Een <strong>lichte kern met Z kleiner dan 20 is doorgaans stabiel als er ongeveer evenveel neutronen als protonen zijn</strong>. Bij zware kernen schuift dat op: <strong>een zware stabiele kern heeft niet meer protonen dan neutronen</strong>, maar juist meer neutronen, want die verdunnen de afstoting zonder eraan bij te dragen."
+     "html": "Daarom hangt stabiliteit af van de verhouding. Een <strong>lichte kern met Z kleiner dan \\(20\\) is doorgaans stabiel als er ongeveer evenveel neutronen als protonen zijn</strong>. Bij zware kernen schuift dat op: <strong>een zware stabiele kern heeft niet meer protonen dan neutronen</strong>, maar juist meer neutronen, want die verdunnen de afstoting zonder eraan bij te dragen."
     },
     {
      "soort": "tekst",
@@ -50,7 +50,7 @@
     },
     {
      "soort": "tekst",
-     "html": "Rekenen met halveringstijden gaat met halveringen. Begin je met <strong>800 onstabiele kernen</strong> en is de <strong>halveringstijd 5 jaar</strong>, dan zijn er na 15 jaar drie halveringen gebeurd: 800, 400, 200, dus <strong>100</strong> blijven er over."
+     "html": "Rekenen met halveringstijden gaat met halveringen. Begin je met <strong>\\(800\\) onstabiele kernen</strong> en is de <strong>halveringstijd \\(5\\) jaar</strong>, dan zijn er na \\(15\\) jaar drie halveringen gebeurd: \\(800\\), \\(400\\), \\(200\\), dus <strong>\\(100\\)</strong> blijven er over."
     },
     {
      "soort": "tekst",
@@ -92,7 +92,7 @@
     },
     {
      "soort": "tekst",
-     "html": "Bij verval veranderen massagetal en atoomnummer volgens vaste regels. Bij <strong>alfaverval zakt het massagetal met 4 en het atoomnummer met 2</strong>. Bij <strong>bètaverval wordt een neutron een proton en vertrekt er een elektron</strong>, dus blijft het massagetal gelijk en stijgt het atoomnummer met 1."
+     "html": "Bij verval veranderen massagetal en atoomnummer volgens vaste regels. Bij <strong>alfaverval zakt het massagetal met \\(4\\) en het atoomnummer met \\(2\\)</strong>. Bij <strong>bètaverval wordt een neutron een proton en vertrekt er een elektron</strong>, dus blijft het massagetal gelijk en stijgt het atoomnummer met \\(1\\)."
     },
     {
      "soort": "tekst",
@@ -113,7 +113,7 @@
     },
     {
      "soort": "tekst",
-     "html": "<strong>Toepassingen van ioniserende straling</strong>: <strong>radiotherapie tegen kanker</strong>, <strong>de koolstof-14-methode om ouderdom te bepalen</strong> en <strong>een PET-scan met een radioactieve tracer</strong>."
+     "html": "<strong>Toepassingen van ioniserende straling</strong>: <strong>radiotherapie tegen kanker</strong>, <strong>de koolstof-\\(14\\)-methode om ouderdom te bepalen</strong> en <strong>een PET-scan met een radioactieve tracer</strong>."
     }
    ]
   }
@@ -126,7 +126,7 @@
   "De halveringstijd is de tijd waarin de helft van de kernen vervalt; na twee halveringstijden blijft een kwart over.",
   "Een kerncentrale gebruikt kernsplijting; regelstaven vangen neutronen weg en regelen zo de kettingreactie.",
   "Alfastraling heeft een groot ioniserend maar een klein doordringend vermogen: een blad papier houdt ze al tegen.",
-  "Bij alfaverval zakt het massagetal met 4 en het atoomnummer met 2.",
+  "Bij alfaverval zakt het massagetal met \\(4\\) en het atoomnummer met \\(2\\).",
   "De equivalente en de effectieve dosis druk je uit in sievert."
  ]
 }

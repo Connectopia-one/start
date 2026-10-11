@@ -147,7 +147,7 @@ DEEL1 = [
             "hoeveel procent ervan gerecycleerd werd",
         ],
         antwoord=0,
-        uitleg="Het is een identificatiecode: 1 is PET, 2 is HDPE, 5 is PP, enzovoort. Sorteerinstallaties gebruiken die codes om soorten uit elkaar te halen.",
+        uitleg=r"Het is een identificatiecode: \(1\) is PET, \(2\) is HDPE, \(5\) is PP, enzovoort. Sorteerinstallaties gebruiken die codes om soorten uit elkaar te halen.",
     ),
     dict(
         type="waarofniet",
@@ -157,7 +157,7 @@ DEEL1 = [
     ),
     dict(
         type="invultekst",
-        vraag="Welke kunststof hoort bij de recyclagecode 1, de code van de meeste drinkflessen?",
+        vraag=r"Welke kunststof hoort bij de recyclagecode \(1\), de code van de meeste drinkflessen?",
         antwoord=["PET", "pet", "polyethyleentereftalaat"],
         uitleg="PET is helder, sterk en licht. Het is een van de best gerecycleerde kunststoffen, en van oude flessen worden nieuwe flessen of vezels gemaakt.",
     ),
@@ -282,13 +282,13 @@ DEEL2 = [
         type="meerkeuze",
         vraag="Waar ligt de pH van een zure stof?",
         opties=[
-            "onder 7",
-            "boven 7",
-            "precies op 7",
-            "boven 14",
+            r"onder \(7\)",
+            r"boven \(7\)",
+            r"precies op \(7\)",
+            r"boven \(14\)",
         ],
         antwoord=0,
-        uitleg="De schaal loopt van 0 tot 14. Onder 7 is zuur, boven 7 basisch, en precies 7 is neutraal, zoals zuiver water.",
+        uitleg=r"De schaal loopt van \(0\) tot \(14\). Onder \(7\) is zuur, boven \(7\) basisch, en precies \(7\) is neutraal, zoals zuiver water.",
     ),
     dict(
         type="invultekst",
@@ -324,7 +324,7 @@ DEEL2 = [
             "ammoniak in een glasreiniger",
         ],
         antwoord=[0, 1, 2],
-        uitleg="Azijnzuur, citroenzuur en zoutzuur hebben een pH onder 7. Ammoniak is juist basisch en heeft een pH boven 7.",
+        uitleg=r"Azijnzuur, citroenzuur en zoutzuur hebben een pH onder \(7\). Ammoniak is juist basisch en heeft een pH boven \(7\).",
     ),
     dict(
         type="meerkeuze",
@@ -388,7 +388,7 @@ DEEL2 = [
     ),
     dict(
         type="invultekst",
-        vraag="Hoe noem je een stof met een pH boven 7?",
+        vraag=r"Hoe noem je een stof met een pH boven \(7\)?",
         antwoord=["base", "basisch", "een base"],
         uitleg="Basen voelen glibberig aan en zijn in hoge concentratie net zo bijtend als sterke zuren. Ontstopper en bijtende soda zijn er voorbeelden van.",
     ),

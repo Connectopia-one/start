@@ -12,7 +12,7 @@
     },
     {
      "soort": "tekst",
-     "html": "In een <strong>menselijke lichaamscel zitten 46 chromosomen</strong>, in <strong>drieëntwintig</strong> paren. Zo'n cel is <strong>diploïd of 2n</strong>, en dat betekent dat ze <strong>van elk chromosoom twee exemplaren heeft</strong>. Cellen met <strong>maar één exemplaar van elk chromosoom</strong> heten <strong>haploïd</strong>: in een <strong>menselijke eicel zitten dus 23 chromosomen</strong>."
+     "html": "In een <strong>menselijke lichaamscel zitten \\(46\\) chromosomen</strong>, in <strong>drieëntwintig</strong> paren. Zo'n cel is <strong>diploïd of 2n</strong>, en dat betekent dat ze <strong>van elk chromosoom twee exemplaren heeft</strong>. Cellen met <strong>maar één exemplaar van elk chromosoom</strong> heten <strong>haploïd</strong>: in een <strong>menselijke eicel zitten dus \\(23\\) chromosomen</strong>."
     },
     {
      "soort": "tekst",
@@ -62,16 +62,16 @@
     },
     {
      "soort": "tekst",
-     "html": "De <strong>uniformiteitswet van Mendel</strong> zegt: <strong>kruis je twee raszuivere ouders, dan lijkt de F1 op elkaar</strong>. De <strong>splitsingswet</strong> zegt: <strong>in de F2 duikt het verborgen kenmerk weer op</strong>. Bij dominant-recessieve overerving <strong>splitsen de fenotypes zich in de F2 in de verhouding 3 op 1</strong>."
+     "html": "De <strong>uniformiteitswet van Mendel</strong> zegt: <strong>kruis je twee raszuivere ouders, dan lijkt de F1 op elkaar</strong>. De <strong>splitsingswet</strong> zegt: <strong>in de F2 duikt het verborgen kenmerk weer op</strong>. Bij dominant-recessieve overerving <strong>splitsen de fenotypes zich in de F2 in de verhouding \\(3\\) op \\(1\\)</strong>."
     },
     {
      "soort": "figuur",
-     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Kruising Aa × Aa</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">AA</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Aa</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">aA</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">aa</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Genotype</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">25 %</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">25 %</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">25 %</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">25 %</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Vertoont het kenmerk</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">nee</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">nee</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">nee</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">ja</td></tr></table>",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Kruising Aa × Aa</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">AA</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Aa</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">aA</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">aa</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Genotype</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">\\(25\\,\\%\\)</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">\\(25\\,\\%\\)</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">\\(25\\,\\%\\)</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">\\(25\\,\\%\\)</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Vertoont het kenmerk</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">nee</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">nee</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">nee</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">ja</td></tr></table>",
      "onderschrift": "Twee heterozygote ouders: één kind op vier vertoont het recessieve kenmerk."
     },
     {
      "soort": "tekst",
-     "html": "<strong>Twee heterozygote ouders, Aa en Aa, krijgen statistisch gezien 25 % kinderen die het recessieve kenmerk vertonen</strong>, en <strong>50 % die het recessieve allel dragen maar het niet tonen</strong>. De overige 25 % heeft het allel helemaal niet."
+     "html": "<strong>Twee heterozygote ouders, Aa en Aa, krijgen statistisch gezien \\(25\\,\\%\\) kinderen die het recessieve kenmerk vertonen</strong>, en <strong>\\(50\\,\\%\\) die het recessieve allel dragen maar het niet tonen</strong>. De overige \\(25\\,\\%\\) heeft het allel helemaal niet."
     }
    ]
   },
@@ -119,12 +119,12 @@
   }
  ],
  "onthoud": [
-  "46 chromosomen in een lichaamscel (2n), 23 in een geslachtscel (n).",
+  "\\(46\\) chromosomen in een lichaamscel \\((2n)\\), \\(23\\) in een geslachtscel (n).",
   "Een man heeft X en Y; de zaadcel bepaalt het geslacht.",
   "Mitose geeft twee gelijke cellen, meiose vier verschillende haploïde.",
   "Een mutatie is alleen erfelijk als ze in een geslachtscel zit.",
-  "Aa × Aa geeft 25 % met het recessieve kenmerk en 50 % dragers.",
-  "In de F2 splitsen de fenotypes 3 op 1.",
+  "Aa × Aa geeft \\(25\\,\\%\\) met het recessieve kenmerk en \\(50\\,\\%\\) dragers.",
+  "In de F2 splitsen de fenotypes \\(3\\) op \\(1\\).",
   "Bloedgroep AB is codominant, niet intermediair.",
   "X-gebonden aandoeningen treffen jongens vaker: zij hebben maar één X."
  ]

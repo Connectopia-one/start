@@ -20,7 +20,7 @@
     },
     {
      "soort": "tekst",
-     "html": "De voorvoegsels gaan van <strong>mega</strong> (een miljoen) en <strong>kilo</strong> (duizend) over <strong>centi</strong> (een honderdste) en <strong>milli</strong> (een duizendste) naar <strong>micro</strong> (een miljoenste) en <strong>nano</strong> (een miljardste). Dus: <strong>0,25 kilogram is 250 gram</strong>, <strong>45 centimeter is 0,45 meter</strong>, en <strong>2 microseconden is 2 maal tien tot de macht min zes seconden</strong>."
+     "html": "De voorvoegsels gaan van <strong>mega</strong> (een miljoen) en <strong>kilo</strong> (duizend) over <strong>centi</strong> (een honderdste) en <strong>milli</strong> (een duizendste) naar <strong>micro</strong> (een miljoenste) en <strong>nano</strong> (een miljardste). Dus: <strong>\\(0{,}25\\) kilogram is \\(250\\) gram</strong>, <strong>\\(45\\) centimeter is \\(0{,}45\\) meter</strong>, en <strong>\\(2\\) microseconden is \\(2 \\cdot 10^{-6}\\) seconden</strong>."
     }
    ]
   },
@@ -29,7 +29,7 @@
    "blokken": [
     {
      "soort": "tekst",
-     "html": "De <strong>beduidende cijfers</strong> van een meetresultaat zijn de cijfers die je echt gemeten hebt. Lees je met een <strong>meetlint 1,2 meter</strong> af, dan heeft dat resultaat <strong>twee</strong> beduidende cijfers. Meet je met een <strong>balans die tot op een gram nauwkeurig is</strong>, dan schrijf je <strong>325 gram</strong> op, <strong>met drie beduidende cijfers</strong>: <strong>325,00 gram ziet er nauwkeuriger uit dan je gemeten hebt</strong>, en afronden tot 300 gram gooit informatie weg die je wel had."
+     "html": "De <strong>beduidende cijfers</strong> van een meetresultaat zijn de cijfers die je echt gemeten hebt. Lees je met een <strong>meetlint \\(1{,}2\\) meter</strong> af, dan heeft dat resultaat <strong>twee</strong> beduidende cijfers. Meet je met een <strong>balans die tot op een gram nauwkeurig is</strong>, dan schrijf je <strong>\\(325\\) gram</strong> op, <strong>met drie beduidende cijfers</strong>: <strong>\\(325{,}00\\) gram ziet er nauwkeuriger uit dan je gemeten hebt</strong>, en afronden tot \\(300\\) gram gooit informatie weg die je wel had."
     },
     {
      "soort": "tekst",

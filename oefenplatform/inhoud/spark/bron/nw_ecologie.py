@@ -303,7 +303,7 @@ DEEL2 = [
     ),
     dict(
         type="meerkeuze",
-        vraag="Je meet in een bos overdag 300 lux onder de bomen en 20 000 lux op de open plek. Wat besluit je?",
+        vraag=r"Je meet in een bos overdag \(300\) lux onder de bomen en \(20\,000\) lux op de open plek. Wat besluit je?",
         opties=["Onder de bomen groeien planten die weinig licht nodig hebben", "Op de open plek is het overdag veel kouder dan onder de bomen", "De lichtmeter is stuk"],
         antwoord=0,
         uitleg="Verlichtingssterkte meet je in lux met een lichtmeter. Het grote verschil verklaart waarom op de open plek andere soorten groeien dan in de schaduw.",

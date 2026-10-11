@@ -166,7 +166,7 @@ DEEL1 = [
         type="waarofniet",
         vraag="Glucose en fructose hebben dezelfde brutoformule maar een andere structuur.",
         antwoord=True,
-        uitleg="Allebei C6H12O6, maar glucose vormt een zesring en fructose een vijfring. Daardoor smaken en reageren ze anders.",
+        uitleg="Allebei C₆H₁₂O₆, maar glucose vormt een zesring en fructose een vijfring. Daardoor smaken en reageren ze anders.",
     ),
     dict(
         type="meerkeuze",

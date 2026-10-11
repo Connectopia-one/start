@@ -90,15 +90,15 @@ DEEL1 = [
     ),
     dict(
         type="meerkeuze",
-        vraag="Je moet een massa van ongeveer 2 gram op een tienden van een gram nauwkeurig wegen. Welke balans kies je?",
+        vraag=r"Je moet een massa van ongeveer \(2\) gram op een tienden van een gram nauwkeurig wegen. Welke balans kies je?",
         opties=[
-            "een balans die tot op 0,01 gram nauwkeurig weegt",
-            "een balans die tot op 1 gram nauwkeurig weegt",
-            "een balans die tot op 10 gram nauwkeurig weegt",
-            "een balans die tot op 100 gram nauwkeurig weegt",
+            r"een balans die tot op \(0{,}01\) gram nauwkeurig weegt",
+            r"een balans die tot op \(1\) gram nauwkeurig weegt",
+            r"een balans die tot op \(10\) gram nauwkeurig weegt",
+            r"een balans die tot op \(100\) gram nauwkeurig weegt",
         ],
         antwoord=0,
-        uitleg="Je hebt minstens de nauwkeurigheid nodig die je antwoord vraagt, en liever nog een cijfer beter. Een balans op 1 gram zou je tienden niet eens tonen.",
+        uitleg=r"Je hebt minstens de nauwkeurigheid nodig die je antwoord vraagt, en liever nog een cijfer beter. Een balans op \(1\) gram zou je tienden niet eens tonen.",
     ),
     dict(
         type="invultekst",
@@ -193,7 +193,7 @@ DEEL1 = [
     ),
     dict(
         type="meerkeuze",
-        vraag="Je meet met een lintmeter in centimeters en schrijft 12,3456 cm op. Wat is daar fout aan?",
+        vraag=r"Je meet met een lintmeter in centimeters en schrijft \(12{,}3456\) cm op. Wat is daar fout aan?",
         opties=[
             "je schrijft meer cijfers op dan je kan meten",
             "je gebruikt de verkeerde eenheid voor een lengte",
@@ -236,7 +236,7 @@ DEEL2 = [
         vraag="Met welke factor vermenigvuldigt het voorvoegsel mega?",
         opties=["een miljoen", "duizend", "een miljard", "honderd"],
         antwoord=0,
-        uitleg="Mega staat voor tien tot de zesde. Kilo is duizend en giga is een miljard.",
+        uitleg=r"Mega staat voor \(10^{6}\). Kilo is duizend en giga is een miljard.",
     ),
     dict(
         type="meerkeuze",
@@ -258,19 +258,19 @@ DEEL2 = [
     ),
     dict(
         type="meerkeuze",
-        vraag="Hoeveel meter is 2,5 kilometer?",
-        opties=["2500 meter", "250 meter", "25 000 meter", "0,0025 meter"],
+        vraag=r"Hoeveel meter is \(2{,}5\) kilometer?",
+        opties=[r"\(2500\) meter", r"\(250\) meter", r"\(25\,000\) meter", r"\(0{,}0025\) meter"],
         antwoord=0,
         uitleg="Kilo betekent duizend, dus vermenigvuldig je met duizend. Van meter naar kilometer deel je juist door duizend.",
     ),
     dict(
         type="meerkeuze",
-        vraag="Hoeveel seconden is 0,25 milliseconde?",
+        vraag=r"Hoeveel seconden is \(0{,}25\) milliseconde?",
         opties=[
-            "0,00025 seconde",
-            "0,025 seconde",
-            "250 seconden",
-            "25 seconden",
+            r"\(0{,}00025\) seconde",
+            r"\(0{,}025\) seconde",
+            r"\(250\) seconden",
+            r"\(25\) seconden",
         ],
         antwoord=0,
         uitleg="Milli is een duizendste, dus deel je door duizend. Omgekeerd vermenigvuldig je met duizend om van seconden naar milliseconden te gaan.",
@@ -283,12 +283,12 @@ DEEL2 = [
     ),
     dict(
         type="meerkeuze",
-        vraag="Hoe schrijf je 0,00042 meter in de wetenschappelijke notatie?",
+        vraag=r"Hoe schrijf je \(0{,}00042\) meter in de wetenschappelijke notatie?",
         opties=[
-            "4,2 maal tien tot de min vier",
-            "42 maal tien tot de min vijf",
-            "0,42 maal tien tot de min drie",
-            "4,2 maal tien tot de vier",
+            r"\(4{,}2\) maal tien tot de min vier",
+            r"\(42\) maal tien tot de min vijf",
+            r"\(0{,}42\) maal tien tot de min drie",
+            r"\(4{,}2\) maal tien tot de vier",
         ],
         antwoord=0,
         uitleg="In de wetenschappelijke notatie staat er één cijfer voor de komma, en dat cijfer is niet nul. De andere vormen zijn wel gelijk in waarde maar niet correct genoteerd.",
@@ -301,10 +301,10 @@ DEEL2 = [
     ),
     dict(
         type="meerkeuze",
-        vraag="Je meet 3,0 cm en 4,00 cm en telt die op. Met hoeveel cijfers na de komma schrijf je het resultaat?",
+        vraag=r"Je meet \(3{,}0\) cm en \(4{,}00\) cm en telt die op. Met hoeveel cijfers na de komma schrijf je het resultaat?",
         opties=["met één cijfer na de komma", "met twee cijfers na de komma", "met drie cijfers na de komma", "zonder cijfers na de komma"],
         antwoord=0,
-        uitleg="Je resultaat kan nooit nauwkeuriger zijn dan je slechtste meting. Die had maar één cijfer na de komma, dus wordt het 7,0 cm.",
+        uitleg=r"Je resultaat kan nooit nauwkeuriger zijn dan je slechtste meting. Die had maar één cijfer na de komma, dus wordt het \(7{,}0\) cm.",
     ),
     dict(
         type="waarofniet",

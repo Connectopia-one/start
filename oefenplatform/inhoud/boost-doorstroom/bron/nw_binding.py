@@ -373,7 +373,7 @@ DEEL2 = [
     ),
     dict(
         type="meerkeuze",
-        vraag="Een stof smelt bij 801 graden Celsius, is breekbaar en geleidt pas als ze gesmolten of opgelost is. Wat is ze?",
+        vraag=r"Een stof smelt bij \(801\) graden Celsius, is breekbaar en geleidt pas als ze gesmolten of opgelost is. Wat is ze?",
         opties=[
             "een zout met een ionrooster van positieve en negatieve ionen",
             "een metaal met een rooster van ionen in een zee van elektronen",

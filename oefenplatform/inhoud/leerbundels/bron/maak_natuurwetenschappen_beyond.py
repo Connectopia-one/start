@@ -360,7 +360,7 @@ BUNDELS["fotosynthese-en-celademhaling-beyond"] = dict(
         ]),
         dict(kop="De fotosynthese", blokken=[
             ("p", "De fotosynthese legt lichtenergie vast in glucose. De reactievergelijking is "
-                  "<strong>6 CO2 + 6 H2O geeft C6H12O6 + 6 O2</strong>. Omdat er energie in opgeslagen "
+                  r"<strong>6 CO₂ + 6 H₂O geeft C₆H₁₂O₆ + 6 O₂</strong>. Omdat er energie in opgeslagen "
                   "wordt, is de <strong>fotosynthese een endo-energetische reactie</strong>."),
             ("p", "Ze loopt in twee stappen in de chloroplast. De <strong>lichtreacties</strong> lopen "
                   "<strong>in het thylakoïdmembraan</strong>, de donkerreacties in het "
@@ -390,7 +390,7 @@ BUNDELS["fotosynthese-en-celademhaling-beyond"] = dict(
                   "celademhaling, dag en nacht. <strong>Fotosynthese en celademhaling hangen samen doordat "
                   "de producten van de ene de grondstoffen van de andere zijn</strong>."),
             ("p", "De reactievergelijking van de <strong>aerobe celademhaling</strong> is "
-                  "<strong>C6H12O6 + 6 O2 geeft 6 CO2 + 6 H2O en energie</strong>. Er komt dus "
+                  r"<strong>C₆H₁₂O₆ + 6 O₂ geeft 6 CO₂ + 6 H₂O en energie</strong>. Er komt dus "
                   "<strong>koolstofdioxide vrij bij de aerobe celademhaling</strong>."),
             ("p", "Ze verloopt in twee plaatsen. De <strong>glycolyse</strong> is de "
                   "<strong>reeks van reacties die glucose in het cytoplasma afbreekt tot twee moleculen "
@@ -434,10 +434,10 @@ BUNDELS["fotosynthese-en-celademhaling-beyond"] = dict(
     onthoud=[
         "Een autotroof organisme bouwt organische stoffen op uit anorganische; een schimmel is heterotroof.",
         "ATP is de energiemunt van de cel: het geeft een fosfaatgroep af en wordt ADP.",
-        "Fotosynthese: 6 CO2 + 6 H2O geeft C6H12O6 + 6 O2, een endo-energetische reactie.",
+        r"Fotosynthese: 6 CO₂ + 6 H₂O geeft C₆H₁₂O₆ + 6 O₂, een endo-energetische reactie.",
         "De lichtreacties lopen in het thylakoïdmembraan, de donkerreacties in het stroma.",
         "De zuurstof komt vrij doordat water tijdens de lichtreactie gesplitst wordt.",
-        "Aerobe celademhaling: C6H12O6 + 6 O2 geeft 6 CO2 + 6 H2O en energie.",
+        r"Aerobe celademhaling: C₆H₁₂O₆ + 6 O₂ geeft 6 CO₂ + 6 H₂O en energie.",
         "De glycolyse in het cytoplasma levert veel minder ATP op dan de reacties in het mitochondrion.",
         "Gisting levert weinig energie, omdat de glucose maar gedeeltelijk afgebroken wordt.",
         "Zetmeel in een blad toon je aan met joodoplossing, die blauwzwart kleurt.",
@@ -614,7 +614,7 @@ BUNDELS["voortplanting-zwangerschap-en-vruchtbaarheid-beyond"] = dict(
                   "ze groeien en rijpen nu verder. Ook de <strong>geslachtsorganen van de vrucht zijn niet al "
                   "vanaf de bevruchting volledig gevormd</strong>; het geslacht ligt wel genetisch vast, "
                   "maar de organen zelf ontwikkelen zich pas in de loop van de eerste maanden. Men beschouwt "
-                  "een foetus <strong>vanaf ongeveer 24 weken zwangerschap</strong> als levensvatbaar."),
+                  r"een foetus <strong>vanaf ongeveer \(24\) weken zwangerschap</strong> als levensvatbaar."),
             ("p", "Het <strong>vruchtwater vangt schokken op</strong>, <strong>houdt de temperatuur "
                   "gelijk</strong> en <strong>laat de vrucht vrij bewegen</strong>, wat nodig is om spieren "
                   "en gewrichten te ontwikkelen."),
@@ -708,11 +708,11 @@ BUNDELS["dna-replicatie-en-celdelingen-beyond"] = dict(
             ("p", "Daaruit volgt de complementaire streng van elke reeks. Leest een DNA-streng "
                   "<strong>ATGC</strong>, dan luidt de andere streng <strong>TACG</strong>: elke A krijgt "
                   "een T, elke G een C."),
-            ("p", "De regel van de basenparen laat ook een rekensom toe. Is <strong>30 procent van de basen "
-                  "adenine</strong>, dan is er evenveel thymine, dus samen 60 procent. Voor guanine en "
-                  "cytosine blijft 40 procent over, gelijk verdeeld: "
-                  "<strong>20 procent cytosine</strong>."),
-            ("p", "De twee strengen liggen <strong>antiparallel</strong>: <strong>de ene loopt van 5 naar 3 "
+            ("p", r"De regel van de basenparen laat ook een rekensom toe. Is <strong>\(30\) procent van de basen "
+                  r"adenine</strong>, dan is er evenveel thymine, dus samen \(60\) procent. Voor guanine en "
+                  r"cytosine blijft \(40\) procent over, gelijk verdeeld: "
+                  r"<strong>\(20\) procent cytosine</strong>."),
+            ("p", r"De twee strengen liggen <strong>antiparallel</strong>: <strong>de ene loopt van \(5\) naar \(3\) "
                   "en de andere in de omgekeerde richting</strong>. Ze worden "
                   "<strong>door waterstofbruggen bij elkaar gehouden</strong> tot een dubbele helix. Die "
                   "bruggen zijn elk zwak, maar met miljoenen samen stevig genoeg, en toch los te wikkelen."),
@@ -731,7 +731,7 @@ BUNDELS["dna-replicatie-en-celdelingen-beyond"] = dict(
                   "<strong>er zit een kinetochoor op waaraan de trekdraden aangrijpen</strong>. De "
                   "<strong>zusterchromatiden</strong> zijn de <strong>twee identieke helften van een "
                   "gedupliceerd chromosoom die aan het centromeer vastzitten</strong>."),
-            ("p", "Een <strong>menselijke lichaamscel is diploïd en bevat 46 chromosomen</strong>, dus 23 "
+            ("p", r"Een <strong>menselijke lichaamscel is diploïd en bevat \(46\) chromosomen</strong>, dus \(23\) "
                   "paren. <strong>Homologe chromosomen</strong> zijn <strong>twee chromosomen van hetzelfde "
                   "paar, één van elke ouder</strong>. Het <strong>verschil tussen een autosoom en een "
                   "heterosoom</strong>: <strong>een autosoom is een lichaamschromosoom, een heterosoom "
@@ -753,7 +753,7 @@ BUNDELS["dna-replicatie-en-celdelingen-beyond"] = dict(
             ("p", tabel(["Speler", "Taak bij de replicatie"], [
                 ["Helicase", "wikkelt de dubbele helix open bij het begin van de replicatie"],
                 ["Primer", "dient als startpunt waarop het polymerase verder kan bouwen"],
-                ["DNA-polymerase", "zet nieuwe nucleotiden tegen de oude streng aan, leest die oude streng als sjabloon en werkt altijd in de richting van 5 naar 3"],
+                ["DNA-polymerase", r"zet nieuwe nucleotiden tegen de oude streng aan, leest die oude streng als sjabloon en werkt altijd in de richting van \(5\) naar \(3\)"],
                 ["Ligase", "plakt losse stukjes aan elkaar tot één doorlopende streng"],
             ])),
             ("p", "Omdat het polymerase maar in één richting kan werken en de strengen antiparallel liggen, "
@@ -798,7 +798,7 @@ BUNDELS["dna-replicatie-en-celdelingen-beyond"] = dict(
         "Een nucleotide bestaat uit een suiker, een fosfaatgroep en een stikstofbase.",
         "A paart met T via twee waterstofbruggen, G met C via drie.",
         "De twee strengen liggen antiparallel en vormen samen een dubbele helix.",
-        "Een menselijke lichaamscel is diploïd en bevat 46 chromosomen, dus 23 paren.",
+        r"Een menselijke lichaamscel is diploïd en bevat \(46\) chromosomen, dus \(23\) paren.",
         "Het centromeer houdt de zusterchromatiden samen.",
         "Het DNA wordt verdubbeld in de S-fase van de interfase.",
         "Na de replicatie bestaat elke dubbele helix uit één oude en één nieuwe streng.",
@@ -848,10 +848,10 @@ BUNDELS["overerving-van-genetisch-materiaal-beyond"] = dict(
                 ["a", "Aa", "aa"],
             ])),
             ("p", "<strong>Twee heterozygote planten Aa</strong> geven dus een "
-                  "<strong>genotypische verhouding 1 op 2 op 1</strong> (AA, Aa, aa) en een "
-                  "<strong>fenotypische verhouding 3 op 1</strong>, want AA en Aa zien er gelijk uit."),
+                  r"<strong>genotypische verhouding \(1\) op \(2\) op \(1\)</strong> (AA, Aa, aa) en een "
+                  r"<strong>fenotypische verhouding \(3\) op \(1\)</strong>, want AA en Aa zien er gelijk uit."),
             ("p", "Kruis je een <strong>plant Aa met een plant aa</strong>, dan krijg je Aa, Aa, aa, aa: "
-                  "<strong>50 procent van het nageslacht toont het recessieve kenmerk</strong>."),
+                  r"<strong>\(50\) procent van het nageslacht toont het recessieve kenmerk</strong>."),
             ("p", "Zo'n kruising met een homozygoot recessief organisme heet een "
                   "<strong>terugkruising</strong>. Daarover geldt: ze <strong>toont of de onderzochte ouder "
                   "homozygoot of heterozygoot is</strong>, <strong>alle nakomelingen tonen het dominante "
@@ -871,8 +871,8 @@ BUNDELS["overerving-van-genetisch-materiaal-beyond"] = dict(
                   "tussenvorm</strong>, <strong>geen van beide allelen is dominant</strong> en "
                   "<strong>een rode en een witte leeuwenbek geven roze</strong>. Daardoor "
                   "<strong>vallen de genotypische en de fenotypische verhouding in de F2 samen</strong>: "
-                  "1 rood, 2 roze, 1 wit. Kruis je dus <strong>twee roze leeuwenbekken</strong>, dan is "
-                  "<strong>25 procent van het nageslacht wit</strong>."),
+                  r"\(1\) rood, \(2\) roze, \(1\) wit. Kruis je dus <strong>twee roze leeuwenbekken</strong>, dan is "
+                  r"<strong>\(25\) procent van het nageslacht wit</strong>."),
             ("p", "Bij <strong>codominantie komen beide allelen in de heterozygoot volledig tot "
                   "uiting</strong>, niet half zoals bij een tussenvorm. De bloedgroep AB is het voorbeeld: "
                   "zowel A als B staat volop op de rode bloedcel."),
@@ -886,11 +886,11 @@ BUNDELS["overerving-van-genetisch-materiaal-beyond"] = dict(
         dict(kop="Twee kenmerken samen", blokken=[
             ("p", "Een <strong>organisme met genotype AaBb maakt vier verschillende soorten gameten</strong>: "
                   "AB, Ab, aB en ab. Kruis je <strong>twee planten AaBb</strong>, dan geeft het vierkant van "
-                  "zestien vakjes de <strong>fenotypische verhouding 9 op 3 op 3 op 1</strong>. "
+                  r"zestien vakjes de <strong>fenotypische verhouding \(9\) op \(3\) op \(3\) op \(1\)</strong>. "
                   "<strong>Bij de kruising AaBb met AaBb is één op de zestien nakomelingen homozygoot "
                   "recessief voor beide kenmerken</strong>, namelijk aabb."),
             ("p", "Kruis je een <strong>plant AaBb met een plant aabb</strong>, dan levert de tweede ouder "
-                  "enkel ab, en krijg je de <strong>fenotypische verhouding 1 op 1 op 1 op 1</strong>."),
+                  r"enkel ab, en krijg je de <strong>fenotypische verhouding \(1\) op \(1\) op \(1\) op \(1\)</strong>."),
             ("p", "De onafhankelijkheidswet geldt alleen als de genen op verschillende chromosomen liggen. "
                   "<strong>Twee genen op hetzelfde chromosoom liggen vaak niet los van elkaar, omdat ze "
                   "samen in dezelfde gameet terechtkomen</strong>; alleen een crossing-over kan ze nog "
@@ -932,11 +932,11 @@ BUNDELS["overerving-van-genetisch-materiaal-beyond"] = dict(
     onthoud=[
         "Het genotype is de erfelijke aanleg, het fenotype het zichtbare kenmerk.",
         "De drie wetten van Mendel: uniformiteitswet, splitsingswet en onafhankelijkheidswet.",
-        "Aa × Aa geeft genotypisch 1 op 2 op 1 en fenotypisch 3 op 1.",
+        r"Aa × Aa geeft genotypisch \(1\) op \(2\) op \(1\) en fenotypisch \(3\) op \(1\).",
         "Een terugkruising toont of de onderzochte ouder homozygoot of heterozygoot is.",
         "Bij intermediaire overerving geven een rode en een witte leeuwenbek roze.",
         "Bij codominantie komen beide allelen volledig tot uiting, zoals bij bloedgroep AB.",
-        "AaBb × AaBb geeft de fenotypische verhouding 9 op 3 op 3 op 1.",
+        r"AaBb × AaBb geeft de fenotypische verhouding \(9\) op \(3\) op \(3\) op \(1\).",
         "Geslachtsgebonden recessieve aandoeningen komen vaker bij mannen voor: een man heeft maar één X-chromosoom.",
         "Twee ouders zonder het kenmerk krijgen een dochter met het kenmerk: recessief en niet geslachtsgebonden.",
     ],
@@ -971,7 +971,7 @@ BUNDELS["genexpressie-en-dna-technologie-beyond"] = dict(
             ("p", "Overschrijven gaat per base, met uracil op de plaats van thymine en telkens de "
                   "complementaire base. Van de <strong>DNA-matrijsstreng TAC</strong> wordt dus "
                   "<strong>AUG</strong> afgelezen: T geeft A, A geeft U en C geeft G."),
-            ("p", "Er zijn 64 codons voor 20 aminozuren, dus "
+            ("p", r"Er zijn \(64\) codons voor \(20\) aminozuren, dus "
                   "<strong>wordt niet elk aminozuur door precies één codon aangeduid</strong>. Meerdere "
                   "codons wijzen hetzelfde aminozuur aan, en dat maakt de code wat robuuster tegen fouten."),
         ]),
@@ -981,7 +981,7 @@ BUNDELS["genexpressie-en-dna-technologie-beyond"] = dict(
             ("p", "Een <strong>deletie van één base heeft vaak zware gevolgen, omdat alle codons erna "
                   "verschoven worden afgelezen</strong>: vanaf dat punt staat er een heel ander eiwit."),
             ("p", "Bij de <strong>genoommutaties</strong>, waar het aantal chromosomen afwijkt, horen "
-                  "<strong>trisomie 21</strong>, <strong>het syndroom van Turner</strong> en "
+                  r"<strong>trisomie \(21\)</strong>, <strong>het syndroom van Turner</strong> en "
                   "<strong>het syndroom van Klinefelter</strong>."),
             ("p", "Een <strong>mutatie is erfelijk als ze in een geslachtscel zit</strong>; een mutatie in "
                   "een lichaamscel gaat met die cellijn mee en verdwijnt met de persoon."),
@@ -1325,8 +1325,8 @@ BUNDELS["chemisch-evenwicht-beyond"] = dict(
                   "is en zo de reactie stopt</strong>. Het reagens waarvan er na de reactie nog overblijft, "
                   "is de <strong>overmaat</strong>: <strong>bij een aflopende reactie blijft er van het "
                   "reagens in overmaat nog over</strong>."),
-            ("p", "Meng je <strong>2 mol van stof A met 5 mol van stof B, terwijl de reactie één op één "
-                  "verloopt</strong>, dan kan er maar 2 mol reageren, dus is <strong>stof B</strong> in "
+            ("p", r"Meng je <strong>\(2\) mol van stof A met \(5\) mol van stof B, terwijl de reactie één op één "
+                  r"verloopt</strong>, dan kan er maar \(2\) mol reageren, dus is <strong>stof B</strong> in "
                   "overmaat. Het is bij een proef <strong>soms handig om één reagens in overmaat te "
                   "gebruiken, om zeker te zijn dat het andere reagens volledig reageert</strong>."),
         ]),
@@ -1387,7 +1387,7 @@ BUNDELS["chemisch-evenwicht-beyond"] = dict(
             ("p", "Bij druk en volume tel je de gasdeeltjes links en rechts. Een gasevenwicht schuift bij een "
                   "hogere druk naar de kant met <strong>het kleinste</strong> aantal gasdeeltjes, want zo "
                   "neemt het mengsel minder plaats in. Heeft een "
-                  "<strong>gasevenwicht links 3 mol gas en rechts 2 mol gas</strong> en pers je het "
+                  r"<strong>gasevenwicht links \(3\) mol gas en rechts \(2\) mol gas</strong> en pers je het "
                   "<strong>in een kleiner vat</strong>, dan <strong>schuift het naar rechts, naar de kant met "
                   "minder gasdeeltjes</strong>. Maar <strong>een volumeverandering verschuift niet elk "
                   "gasevenwicht</strong>: staan er links en rechts even veel gasdeeltjes, dan is er geen "
@@ -1429,14 +1429,14 @@ BUNDELS["organische-stoffen-classificatie-eigenschappen-en-toepassingen-beyond"]
             ("p", "Elke organische stofklasse heeft een <strong>kenmerkende groep</strong>. Vind je die "
                   "groep in een formule terug, dan weet je tot welke klasse de stof hoort."),
             ("p", tabel(["Stofklasse", "Kenmerkende groep", "Voorbeeld"], [
-                ["Alkanen", "enkel koolstof en waterstof, met enkelvoudige bindingen", "CH4, C3H8, C4H10"],
+                ["Alkanen", "enkel koolstof en waterstof, met enkelvoudige bindingen", "CH₄, C₃H₈, C₄H₁₀"],
                 ["Alkenen", "een dubbele binding tussen twee koolstofatomen", "etheen"],
                 ["Alkynen", "een drievoudige binding tussen twee koolstofatomen", "ethyn"],
-                ["Alcoholen", "een OH-groep aan een koolstofketen", "CH3CH2OH"],
+                ["Alcoholen", "een OH-groep aan een koolstofketen", "CH₃CH₂OH"],
                 ["Ethers", "een zuurstofatoom tussen twee koolstofketens", "di-ethylether"],
                 ["Aldehyden", "een carbonylgroep aan het uiteinde van de keten", "methanal"],
-                ["Ketonen", "een carbonylgroep middenin de keten", "CH3COCH3"],
-                ["Carbonzuren", "een COOH-groep", "HCOOH, CH3COOH"],
+                ["Ketonen", "een carbonylgroep middenin de keten", "CH₃COCH₃"],
+                ["Carbonzuren", "een COOH-groep", "HCOOH, CH₃COOH"],
                 ["Esters", "de groep COO tussen twee koolstofketens", "ethylethanoaat"],
                 ["Aminen", "een stikstofgroep aan de keten, dus geen OH-groep", "methaanamine"],
                 ["Amiden", "zowel stikstof als zuurstof in de kenmerkende groep", "ethaanamide"],
@@ -1447,7 +1447,7 @@ BUNDELS["organische-stoffen-classificatie-eigenschappen-en-toepassingen-beyond"]
                   "bezet."),
             ("p", "Twee verwarringen om te vermijden. <strong>Een amine heeft niet, zoals een alcohol, een "
                   "OH-groep als kenmerkende groep</strong>, maar een stikstofgroep. En "
-                  "<strong>CHCl3 hoort niet bij de alcoholen</strong>: er staat geen OH in, enkel chloor, dus "
+                  "<strong>CHCl₃ hoort niet bij de alcoholen</strong>: er staat geen OH in, enkel chloor, dus "
                   "is het een gehalogeneerde koolwaterstof."),
             ("p", "Het <strong>verschil tussen een aldehyde en een keton</strong> is alleen de plaats: "
                   "<strong>bij een aldehyde staat de carbonylgroep aan het uiteinde van de keten</strong>."),
@@ -1457,7 +1457,7 @@ BUNDELS["organische-stoffen-classificatie-eigenschappen-en-toepassingen-beyond"]
                   "<strong>propaanzuur</strong>, dan zegt het woord zuur het al: het is een "
                   "<strong>carbonzuur</strong>."),
             ("p", "<strong>Twee stoffen met dezelfde brutoformule kunnen tot een andere stofklasse "
-                  "horen</strong>: C2H6O is zowel ethanol als di-methylether. Daarom volstaat een "
+                  "horen</strong>: C₂H₆O is zowel ethanol als di-methylether. Daarom volstaat een "
                   "brutoformule niet en tekent men structuurformules."),
             ("p", "Het <strong>verschil tussen een uitgebreide en een beknopte structuurformule</strong>: "
                   "<strong>in de uitgebreide staat elke binding getekend, in de beknopte niet</strong>. Een "
@@ -1485,7 +1485,7 @@ BUNDELS["organische-stoffen-classificatie-eigenschappen-en-toepassingen-beyond"]
         ]),
         dict(kop="Polair en apolair", blokken=[
             ("p", "<strong>Apolaire stoffen</strong> zijn onder meer <strong>wasbenzine</strong>, "
-                  "<strong>CCl4</strong> en <strong>een lang alkaan</strong>. "
+                  "<strong>CCl₄</strong> en <strong>een lang alkaan</strong>. "
                   "<strong>Een apolaire stof lost niet goed op in water</strong>, want water is polair, en "
                   "gelijk lost op in gelijk."),
             ("p", "Daarom <strong>mengt methanol wel met water en een lang alkaan niet</strong>: "
@@ -1507,7 +1507,7 @@ BUNDELS["organische-stoffen-classificatie-eigenschappen-en-toepassingen-beyond"]
                 ["Hoofdbestanddeel van aardgas", "methaan"],
                 ["Brandspiritus", "methanol"],
                 ["Mierenzuur", "HCOOH"],
-                ["Azijnzuur", "CH3COOH"],
+                ["Azijnzuur", "CH₃COOH"],
                 ["Aceton", "propanon is de wetenschappelijke naam van aceton"],
                 ["Formol, om biologisch materiaal te bewaren", "methanal"],
             ])),
@@ -1570,7 +1570,7 @@ BUNDELS["kunststoffen-nanomaterialen-en-duurzame-chemie-beyond"] = dict(
                   "omdat je ze opnieuw kan smelten en vormen."),
         ]),
         dict(kop="Nanomaterialen", blokken=[
-            ("p", "Een <strong>nanomateriaal</strong> is <strong>tussen 1 en 100 nanometer</strong> groot, "
+            ("p", r"Een <strong>nanomateriaal</strong> is <strong>tussen \(1\) en \(100\) nanometer</strong> groot, "
                   "in minstens één richting. Men deelt ze in naar hoeveel richtingen die nanomaat "
                   "aanhoudt: <strong>een buckyball is een 0D-structuur</strong>, "
                   "<strong>een koolstofnanobuis is een 1D-structuur</strong> en "
@@ -1623,15 +1623,15 @@ BUNDELS["kunststoffen-nanomaterialen-en-duurzame-chemie-beyond"] = dict(
                   "<strong>Composteerbaar</strong> is nog strenger: een materiaal dat "
                   "<strong>onder composteeromstandigheden volledig afbreekt</strong>."),
             ("p", tabel(["Waterstof", "Hoe ze gemaakt wordt"], [
-                ["Grijs", "uit aardgas, met uitstoot van CO2"],
-                ["Blauw", "zoals grijs, maar met afvang en opslag van de CO2"],
+                ["Grijs", "uit aardgas, met uitstoot van CO₂"],
+                ["Blauw", "zoals grijs, maar met afvang en opslag van de CO₂"],
                 ["Groen", "met hernieuwbare stroom, en daarin verschilt groene waterstof van grijze"],
             ])),
             ("p", "Bij water onderscheidt men ook kleuren. <strong>Grijs water</strong> is "
                   "<strong>licht vervuild water van bad, lavabo of wasmachine</strong>; wit water is drinkbaar "
                   "en zwart water komt uit het toilet."),
-            ("p", "<strong>Een CO2-neutraal proces neemt niet meer CO2 op dan het uitstoot</strong>: het "
-                  "neemt er precies even veel op, in balans. Alleen een CO2-negatief proces neemt er meer op "
+            ("p", "<strong>Een CO₂-neutraal proces neemt niet meer CO₂ op dan het uitstoot</strong>: het "
+                  "neemt er precies even veel op, in balans. Alleen een CO₂-negatief proces neemt er meer op "
                   "dan het uitstoot."),
             ("p", "<strong>Greenwashing</strong> is <strong>een product duurzamer voorstellen dan het "
                   "is</strong>: een groen blaadje op de verpakking, zonder dat er in het proces iets "
@@ -1648,7 +1648,7 @@ BUNDELS["kunststoffen-nanomaterialen-en-duurzame-chemie-beyond"] = dict(
         "Een monomeer is de kleine molecule waaruit een kunststof opgebouwd wordt.",
         "Polyadditie gebruikt een dubbele binding; bij polycondensatie komt een kleine molecule vrij, meestal water.",
         "Een thermoplast kan je opnieuw smelten, een thermoharder niet; een elastomeer komt na vervormen terug.",
-        "Een nanomateriaal is tussen 1 en 100 nanometer groot, in minstens één richting.",
+        r"Een nanomateriaal is tussen \(1\) en \(100\) nanometer groot, in minstens één richting.",
         "Nanodeeltjes hebben een veel grotere verhouding van oppervlak tot volume en zijn daardoor vaak reactiever.",
         "Op de Ladder van Lansink staat preventie bovenaan en hergebruiken hoger dan recycleren.",
         "Cradle to cradle: afval van het ene product is grondstof voor het volgende.",
@@ -1683,9 +1683,9 @@ BUNDELS["elektrostatica-beyond"] = dict(
                   "negatief geladen pvc-staaf</strong>, dan wordt de bol <strong>negatief</strong>: er stromen "
                   "elektronen over. <strong>Na laden door contact hebben de twee voorwerpen een lading met "
                   "hetzelfde teken</strong>, en samen houden ze de lading die er was. Raken "
-                  "<strong>twee identieke metalen bollen, de ene met een lading van 8 eenheden en de andere "
+                  r"<strong>twee identieke metalen bollen, de ene met een lading van \(8\) eenheden en de andere "
                   "neutraal, elkaar even aan</strong>, dan verdeelt de lading zich gelijk: "
-                  "<strong>elk 4 eenheden</strong>."),
+                  r"<strong>elk \(4\) eenheden</strong>."),
             ("p", "<strong>Laden door influentie.</strong> <strong>Elektrostatische influentie</strong>, ook elektrostatische inductie, is "
                   "<strong>het verschuiven van ladingen in een voorwerp door een geladen voorwerp in de "
                   "buurt</strong>. In een <strong>geleider schuiven de vrije elektronen naar één kant van het "
@@ -1935,7 +1935,7 @@ BUNDELS["kracht-en-beweging-beyond"] = dict(
         ]),
         dict(kop="Elke beweging in een voorbeeld", blokken=[
             ("p", tabel(["Voorbeeld", "Welke beweging"], [
-                ["een auto rijdt met een constante snelheid van 50 km per uur op een rechte weg", "een ERB"],
+                [r"een auto rijdt met een constante snelheid van \(50\) km per uur op een rechte weg", "een ERB"],
                 ["een steen valt van een toren, met de luchtweerstand verwaarloosd", "een eenparig versnelde rechtlijnige beweging"],
                 ["een trein remt gelijkmatig af tot stilstand op een recht spoor", "een eenparig vertraagde rechtlijnige beweging"],
                 ["een kind op een draaimolen die rond draait aan een vaste snelheid", "een eenparig cirkelvormige beweging"],
@@ -1965,12 +1965,12 @@ BUNDELS["kracht-en-beweging-beyond"] = dict(
         ]),
         dict(kop="De tweede wet van Newton", blokken=[
             ("p", "De tweede wet zegt: <strong>de resulterende kracht is de massa maal de "
-                  "versnelling</strong>, dus F = m·a. Dat is de wet die je nodig hebt "
+                  r"versnelling</strong>, dus \(F = m \cdot a\). Dat is de wet die je nodig hebt "
                   "<strong>als je uit een kracht en een massa de versnelling wil berekenen</strong>: "
                   "<strong>de tweede</strong>."),
             ("p", "Rekenen gaat dan rechtstreeks. Werkt op een "
-                  "<strong>voorwerp van 4 kg een resulterende kracht van 12 N</strong>, dan is de versnelling "
-                  "12 gedeeld door 4, dus <strong>3 meter per seconde kwadraat</strong>."),
+                  r"<strong>voorwerp van \(4\) kg een resulterende kracht van \(12\) N</strong>, dan is de versnelling "
+                  r"\(12 : 4\), dus <strong>\(3\) meter per seconde kwadraat</strong>."),
             ("p", "De twee verbanden in die formule: "
                   "<strong>verdubbel je de resulterende kracht op een voorwerp, dan verdubbelt de "
                   "versnelling</strong>, en krijgen <strong>een vrachtwagen en een auto dezelfde kracht, dan "
@@ -2016,7 +2016,7 @@ BUNDELS["kracht-en-beweging-beyond"] = dict(
         "Een steen die valt zonder luchtweerstand voert een eenparig versnelde rechtlijnige beweging uit.",
         "De steilheid van een x(t)-grafiek geeft de snelheid; bij een ERB is de v(t)-grafiek horizontaal.",
         "Eerste wet van Newton: zonder resulterende kracht blijft de snelheid van een lichaam gelijk.",
-        "Tweede wet van Newton: F = m·a, de resulterende kracht is de massa maal de versnelling.",
+        r"Tweede wet van Newton: \(F = m \cdot a\), de resulterende kracht is de massa maal de versnelling.",
         "Derde wet: actie en reactie zijn even groot, tegengesteld van zin en werken op verschillende lichamen.",
         "De resulterende kracht bepaal je door alle krachtvectoren samen te tellen.",
     ],
@@ -2034,8 +2034,8 @@ BUNDELS["trillingen-golven-en-geluid-beyond"] = dict(
                   "evenwichtsstand</strong>. De <strong>periode</strong> is "
                   "<strong>de tijd die één volledige trilling duurt</strong>."),
             ("p", "De frequentie is het aantal trillingen per seconde, dus één gedeeld door de periode. Heeft "
-                  "een <strong>trilling een periode van 0,5 seconde</strong>, dan is de frequentie "
-                  "<strong>2 hertz</strong>."),
+                  r"een <strong>trilling een periode van \(0{,}5\) seconde</strong>, dan is de frequentie "
+                  r"<strong>\(2\) hertz</strong>."),
             ("p", "Amplitude en frequentie staan los van elkaar: <strong>een grotere amplitude betekent niet "
                   "altijd ook een grotere frequentie</strong>. Je kan harder duwen zonder sneller te duwen."),
             ("p", "Van de <strong>y(t)-grafiek van een trilling</strong> lees je "
@@ -2070,8 +2070,8 @@ BUNDELS["trillingen-golven-en-geluid-beyond"] = dict(
                   "verdunningen."),
             ("p", "De <strong>golflengte</strong> is <strong>de afstand tussen twee punten in dezelfde "
                   "fase</strong>, bijvoorbeeld van top tot top. De golfsnelheid is de golflengte maal de "
-                  "frequentie. Heeft een <strong>golf een golflengte van 2 meter en een frequentie van 5 "
-                  "hertz</strong>, dan gaat ze <strong>10 meter per seconde</strong>. "
+                  r"frequentie. Heeft een <strong>golf een golflengte van \(2\) meter en een frequentie van \(5\) "
+                  r"hertz</strong>, dan gaat ze <strong>\(10\) meter per seconde</strong>. "
                   "<strong>Bij een vaste golfsnelheid hoort een grotere frequentie bij een kleinere "
                   "golflengte</strong>."),
             ("p", "Let op welke grafiek je bekijkt: van een "
@@ -2089,22 +2089,22 @@ BUNDELS["trillingen-golven-en-geluid-beyond"] = dict(
             ])),
             ("p", "Hoor je <strong>een lage, zachte toon</strong>, dan weet je over de golf dat "
                   "<strong>ze een lage frequentie en een kleine amplitude heeft</strong>."),
-            ("p", "Een mens hoort normaal <strong>van ongeveer 20 tot 20 000 hertz</strong>. Daarboven heet "
+            ("p", r"Een mens hoort normaal <strong>van ongeveer \(20\) tot \(20\,000\) hertz</strong>. Daarboven heet "
                   "geluid <strong>ultrasoon</strong>; daaronder infrasoon. "
                   "<strong>Infrasoon geluid heeft geen hogere frequentie dan geluid dat wij kunnen "
                   "horen</strong>, maar een lagere, zoals het gerommel van een aardbeving."),
         ]),
         dict(kop="De decibelschaal en je gehoor", blokken=[
-            ("p", "De <strong>gehoordrempel</strong> ligt op <strong>0 decibel</strong>: het zachtste geluid "
-                  "dat een mens nog kan horen. Vanaf ongeveer <strong>80 decibel</strong> is "
-                  "<strong>gehoorbescherming nodig</strong>, en rond 120 decibel ligt de pijndrempel. "
+            ("p", r"De <strong>gehoordrempel</strong> ligt op <strong>\(0\) decibel</strong>: het zachtste geluid "
+                  r"dat een mens nog kan horen. Vanaf ongeveer <strong>\(80\) decibel</strong> is "
+                  r"<strong>gehoorbescherming nodig</strong>, en rond \(120\) decibel ligt de pijndrempel. "
                   "<strong>Hoe langer je aan luid geluid blootgesteld bent, hoe groter de kans op "
                   "gehoorschade</strong>, want niveau en tijd tellen samen."),
             ("p", "De schaal is niet recht. <strong>Twee keer zoveel geluidsintensiteit betekent niet twee keer "
                   "zoveel decibel</strong>: wordt <strong>de geluidsintensiteit twee keer groter</strong>, dan "
-                  "<strong>stijgt het geluidsniveau met ongeveer 3 decibel</strong>. Ga je "
+                  r"<strong>stijgt het geluidsniveau met ongeveer \(3\) decibel</strong>. Ga je "
                   "<strong>twee keer zo ver van een geluidsbron staan</strong>, dan zakt het niveau "
-                  "<strong>met ongeveer 6 decibel</strong>."),
+                  r"<strong>met ongeveer \(6\) decibel</strong>."),
             ("p", "<strong>Blijvende gehoorschade ontstaat in het binnenoor, bij de haarcellen</strong>. Die "
                   "groeien niet terug, en daarom is schade daar definitief. "
                   "<strong>Maatregelen die je gehoor beschermen</strong>: "
@@ -2127,13 +2127,13 @@ BUNDELS["trillingen-golven-en-geluid-beyond"] = dict(
     ],
     onthoud=[
         "De amplitude is de grootste uitwijking, de periode de tijd van één volledige trilling.",
-        "Frequentie is één gedeeld door de periode: een periode van 0,5 seconde geeft 2 hertz.",
+        r"Frequentie is één gedeeld door de periode: een periode van \(0{,}5\) seconde geeft \(2\) hertz.",
         "Resonantie treedt op als de uitwendige kracht de eigenfrequentie treft.",
         "Een golf transporteert energie, maar geen materie.",
         "Bij een transversale golf trillen de deeltjes loodrecht op de golfrichting; geluid in lucht is longitudinaal.",
         "De golfsnelheid is de golflengte maal de frequentie.",
         "Toonhoogte hangt af van de frequentie, luidheid van de amplitude.",
-        "Vanaf ongeveer 80 decibel is gehoorbescherming nodig.",
+        r"Vanaf ongeveer \(80\) decibel is gehoorbescherming nodig.",
         "Echografie werkt met ultrasoon geluid en meet wat tegen de grens tussen weefsels terugkaatst.",
     ],
 )
@@ -2263,8 +2263,8 @@ BUNDELS["kernfysica-en-radioactiviteit-beyond"] = dict(
                   "<strong>het massagetal A is het aantal nucleonen</strong>, en "
                   "<strong>het aantal neutronen is A min Z</strong>. Het "
                   "<strong>massagetal A is dus het aantal protonen plus het aantal neutronen</strong>."),
-            ("p", "Daarmee reken je meteen. Heeft een <strong>nuclide massagetal 23 en atoomnummer 11</strong>, "
-                  "dan zitten er 23 min 11, dus <strong>12</strong> neutronen in de kern. Een nuclide "
+            ("p", r"Daarmee reken je meteen. Heeft een <strong>nuclide massagetal \(23\) en atoomnummer \(11\)</strong>, "
+                  r"dan zitten er \(23\) min \(11\), dus <strong>\(12\)</strong> neutronen in de kern. Een nuclide "
                   "<strong>schrijf je met het massagetal en het atoomnummer bij het symbool</strong> van het "
                   "element."),
             ("p", "<strong>Isotopen</strong> van hetzelfde element hebben <strong>het aantal protonen</strong> "
@@ -2277,7 +2277,7 @@ BUNDELS["kernfysica-en-radioactiviteit-beyond"] = dict(
                   "alle nucleonen samen maar werkt enkel over heel korte afstand; de coulombkracht tussen de "
                   "protonen stoot af en werkt verder."),
             ("p", "Daarom hangt stabiliteit af van de verhouding. Een "
-                  "<strong>lichte kern met Z kleiner dan 20 is doorgaans stabiel als er ongeveer evenveel "
+                  r"<strong>lichte kern met Z kleiner dan \(20\) is doorgaans stabiel als er ongeveer evenveel "
                   "neutronen als protonen zijn</strong>. Bij zware kernen schuift dat op: "
                   "<strong>een zware stabiele kern heeft niet meer protonen dan neutronen</strong>, maar juist "
                   "meer neutronen, want die verdunnen de afstoting zonder eraan bij te dragen."),
@@ -2293,9 +2293,9 @@ BUNDELS["kernfysica-en-radioactiviteit-beyond"] = dict(
                   "van de kernen vervalt</strong>. De <strong>activiteit</strong> is "
                   "<strong>het aantal kernen dat per seconde vervalt</strong>."),
             ("p", "Rekenen met halveringstijden gaat met halveringen. Begin je met "
-                  "<strong>800 onstabiele kernen</strong> en is de <strong>halveringstijd 5 jaar</strong>, dan "
-                  "zijn er na 15 jaar drie halveringen gebeurd: 800, 400, 200, dus "
-                  "<strong>100</strong> blijven er over."),
+                  r"<strong>\(800\) onstabiele kernen</strong> en is de <strong>halveringstijd \(5\) jaar</strong>, dan "
+                  r"zijn er na \(15\) jaar drie halveringen gebeurd: \(800\), \(400\), \(200\), dus "
+                  r"<strong>\(100\)</strong> blijven er over."),
             ("p", "Over <strong>halveringstijd en activiteit</strong> geldt: "
                   "<strong>de activiteit zakt met de tijd</strong>, "
                   "<strong>een korte halveringstijd hoort bij een onstabiele kern</strong>, en "
@@ -2342,9 +2342,9 @@ BUNDELS["kernfysica-en-radioactiviteit-beyond"] = dict(
                   "<strong>ze is vooral gevaarlijk na inslikken of inademen</strong>, want binnen in je lichaam "
                   "staat er geen huid meer tussen."),
             ("p", "Bij verval veranderen massagetal en atoomnummer volgens vaste regels. Bij "
-                  "<strong>alfaverval zakt het massagetal met 4 en het atoomnummer met 2</strong>. Bij "
+                  r"<strong>alfaverval zakt het massagetal met \(4\) en het atoomnummer met \(2\)</strong>. Bij "
                   "<strong>bètaverval wordt een neutron een proton en vertrekt er een elektron</strong>, dus "
-                  "blijft het massagetal gelijk en stijgt het atoomnummer met 1."),
+                  r"blijft het massagetal gelijk en stijgt het atoomnummer met \(1\)."),
             ("p", "In een magnetisch veld verraden ze zich. Alfa en bèta zijn geladen en buigen af, in "
                   "tegengestelde richting, en bèta het sterkst omdat ze zo licht is. "
                   "<strong>Gammastraling buigt in een magnetisch veld niet even sterk af als "
@@ -2363,7 +2363,7 @@ BUNDELS["kernfysica-en-radioactiviteit-beyond"] = dict(
                   "afgeeft</strong>."),
             ("p", "<strong>Toepassingen van ioniserende straling</strong>: "
                   "<strong>radiotherapie tegen kanker</strong>, "
-                  "<strong>de koolstof-14-methode om ouderdom te bepalen</strong> en "
+                  r"<strong>de koolstof-\(14\)-methode om ouderdom te bepalen</strong> en "
                   "<strong>een PET-scan met een radioactieve tracer</strong>."),
         ]),
     ],
@@ -2375,7 +2375,7 @@ BUNDELS["kernfysica-en-radioactiviteit-beyond"] = dict(
         "De halveringstijd is de tijd waarin de helft van de kernen vervalt; na twee halveringstijden blijft een kwart over.",
         "Een kerncentrale gebruikt kernsplijting; regelstaven vangen neutronen weg en regelen zo de kettingreactie.",
         "Alfastraling heeft een groot ioniserend maar een klein doordringend vermogen: een blad papier houdt ze al tegen.",
-        "Bij alfaverval zakt het massagetal met 4 en het atoomnummer met 2.",
+        r"Bij alfaverval zakt het massagetal met \(4\) en het atoomnummer met \(2\).",
         "De equivalente en de effectieve dosis druk je uit in sievert.",
     ],
 )
@@ -2413,8 +2413,8 @@ BUNDELS["veilig-en-duurzaam-werken-grootheden-en-eenheden-beyond"] = dict(
                   "waarde die het kan meten</strong>. De <strong>nauwkeurigheid</strong> is iets anders: "
                   "<strong>de kleinste verandering die een meetinstrument nog kan weergeven</strong>."),
             ("p", "Daarmee kies je je toestel. Moet je een "
-                  "<strong>massa van ongeveer 2 gram op een tienden van een gram nauwkeurig wegen</strong>, "
-                  "dan neem je <strong>een balans die tot op 0,01 gram nauwkeurig weegt</strong>: één stap "
+                  r"<strong>massa van ongeveer \(2\) gram op een tienden van een gram nauwkeurig wegen</strong>, "
+                  r"dan neem je <strong>een balans die tot op \(0{,}01\) gram nauwkeurig weegt</strong>: één stap "
                   "fijner dan wat je nodig hebt. Maar "
                   "<strong>een duurder meetinstrument is niet altijd het beste voor elk onderzoek</strong>; het "
                   "moet passen bij wat je meet."),
@@ -2428,7 +2428,7 @@ BUNDELS["veilig-en-duurzaam-werken-grootheden-en-eenheden-beyond"] = dict(
             ("p", "<strong>Een meting met een meetinstrument is nooit helemaal exact.</strong> Daarom let je op "
                   "twee dingen. Je leest <strong>een vloeistofniveau in een maatcilinder op ooghoogte af om een "
                   "fout door de kijkhoek te vermijden</strong>. En je schrijft niet meer cijfers op dan je kan "
-                  "meten: <strong>meet je met een lintmeter in centimeters en schrijf je 12,3456 cm op, dan "
+                  r"meten: <strong>meet je met een lintmeter in centimeters en schrijf je \(12{,}3456\) cm op, dan "
                   "schrijf je meer cijfers op dan je kan meten</strong>."),
         ]),
         dict(kop="Grootheden en eenheden", blokken=[
@@ -2446,16 +2446,16 @@ BUNDELS["veilig-en-duurzaam-werken-grootheden-en-eenheden-beyond"] = dict(
                 ["micro", "een miljoenste"],
                 ["nano", "een miljardste"],
             ])),
-            ("p", "Omzetten doe je met die factoren. <strong>2,5 kilometer</strong> is "
-                  "<strong>2500 meter</strong>, en <strong>0,25 milliseconde</strong> is "
-                  "<strong>0,00025 seconde</strong>."),
+            ("p", r"Omzetten doe je met die factoren. <strong>\(2{,}5\) kilometer</strong> is "
+                  r"<strong>\(2500\) meter</strong>, en <strong>\(0{,}25\) milliseconde</strong> is "
+                  r"<strong>\(0{,}00025\) seconde</strong>."),
             ("p", "Voor heel grote en heel kleine getallen gebruik je de "
                   "<strong>wetenschappelijke notatie</strong>, waarin "
                   "<strong>precies één cijfer voor de komma staat</strong>. Zo wordt "
-                  "<strong>0,00042 meter</strong> geschreven als "
-                  "<strong>4,2 maal tien tot de min vier</strong>."),
+                  r"<strong>\(0{,}00042\) meter</strong> geschreven als "
+                  r"<strong>\(4{,}2\) maal tien tot de min vier</strong>."),
             ("p", "Bij het rekenen houd je je aan de beduidende cijfers. Meet je "
-                  "<strong>3,0 cm en 4,00 cm en telt je die op</strong>, dan schrijf je het resultaat "
+                  r"<strong>\(3{,}0\) cm en \(4{,}00\) cm en telt je die op</strong>, dan schrijf je het resultaat "
                   "<strong>met één cijfer na de komma</strong>, want de minst nauwkeurige meting bepaalt het "
                   "antwoord. <strong>Een rekenmachine die acht cijfers na de komma toont, maakt je meting niet "
                   "nauwkeuriger</strong>, en <strong>een schatting vooraf is niet overbodig zodra je met een "

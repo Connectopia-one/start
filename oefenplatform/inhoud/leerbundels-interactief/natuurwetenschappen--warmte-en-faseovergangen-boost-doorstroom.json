@@ -8,7 +8,7 @@
    "blokken": [
     {
      "soort": "tekst",
-     "html": "<strong>Temperatuur</strong> zegt hoe warm iets is en hangt samen met de <strong>kinetische energie van de deeltjes</strong>: hoe sneller ze bewegen, hoe hoger de temperatuur. <strong>Warmte</strong> is <strong>energie die overgaat</strong> en meet je in <strong>joule</strong>. Het zijn dus twee verschillende dingen: een bad van 30 graden bevat veel meer warmte dan een kop thee van 60 graden."
+     "html": "<strong>Temperatuur</strong> zegt hoe warm iets is en hangt samen met de <strong>kinetische energie van de deeltjes</strong>: hoe sneller ze bewegen, hoe hoger de temperatuur. <strong>Warmte</strong> is <strong>energie die overgaat</strong> en meet je in <strong>joule</strong>. Het zijn dus twee verschillende dingen: een bad van \\(30\\) graden bevat veel meer warmte dan een kop thee van \\(60\\) graden."
     },
     {
      "soort": "tekst",
@@ -37,11 +37,11 @@
     },
     {
      "soort": "tekst",
-     "html": "Een <strong>grote specifieke warmtecapaciteit</strong> betekent dat je <strong>veel warmte nodig hebt om één kilogram één graad op te warmen</strong>. <strong>Water</strong> heeft een heel grote warmtecapaciteit, ongeveer <strong>4180 joule per kilogram per graad</strong>. Daarom warmt de zee veel langzamer op dan het zand op het strand, en blijft ze in september nog warm terwijl de lucht al afkoelt."
+     "html": "Een <strong>grote specifieke warmtecapaciteit</strong> betekent dat je <strong>veel warmte nodig hebt om één kilogram één graad op te warmen</strong>. <strong>Water</strong> heeft een heel grote warmtecapaciteit, ongeveer <strong>\\(4180\\) joule per kilogram per graad</strong>. Daarom warmt de zee veel langzamer op dan het zand op het strand, en blijft ze in september nog warm terwijl de lucht al afkoelt."
     },
     {
      "soort": "tekst",
-     "html": "Een stof met een <strong>kleine</strong> warmtecapaciteit warmt juist <strong>snel op en koelt ook snel af</strong>. Verwarm je 2 kilogram water van 20 naar 30 graden, dan heb je <strong>83 600 joule</strong> nodig: 4180 maal 2 maal 10. De benodigde warmte is <strong>recht evenredig met de massa</strong>, dus een hele liter vraagt dubbel zo veel als een halve."
+     "html": "Een stof met een <strong>kleine</strong> warmtecapaciteit warmt juist <strong>snel op en koelt ook snel af</strong>. Verwarm je \\(2\\) kilogram water van \\(20\\) naar \\(30\\) graden, dan heb je <strong>\\(83\\,600\\) joule</strong> nodig: \\(4180 \\cdot 2 \\cdot 10\\). De benodigde warmte is <strong>recht evenredig met de massa</strong>, dus een hele liter vraagt dubbel zo veel als een halve."
     },
     {
      "soort": "tekst",
@@ -49,7 +49,7 @@
     },
     {
      "soort": "tekst",
-     "html": "Een <strong>calorimeter</strong> of <strong>joulevat</strong> is zo goed geïsoleerd dat je erin kan meten hoeveel warmte een stof opneemt of afgeeft. De <strong>warmtebalans</strong> is een toepassing van de <strong>wet van behoud van energie</strong>: wat het warme deel afgeeft, neemt het koude deel op. Giet je een liter water van 80 graden bij een liter van 20 graden, dan komt de eindtemperatuur op ongeveer <strong>50 graden</strong>, het gemiddelde."
+     "html": "Een <strong>calorimeter</strong> of <strong>joulevat</strong> is zo goed geïsoleerd dat je erin kan meten hoeveel warmte een stof opneemt of afgeeft. De <strong>warmtebalans</strong> is een toepassing van de <strong>wet van behoud van energie</strong>: wat het warme deel afgeeft, neemt het koude deel op. Giet je een liter water van \\(80\\) graden bij een liter van \\(20\\) graden, dan komt de eindtemperatuur op ongeveer <strong>\\(50\\) graden</strong>, het gemiddelde."
     }
    ]
   },
@@ -87,7 +87,7 @@
     },
     {
      "soort": "tekst",
-     "html": "De <strong>latente warmte</strong> is de <strong>specifieke faseovergangswarmte maal de massa</strong>. Er staat geen temperatuurverschil in, want dat is tijdens een faseovergang nul. Om 0,5 kilogram ijs te smelten heb je dus <strong>167 000 joule</strong> nodig, met 334 000 joule per kilogram."
+     "html": "De <strong>latente warmte</strong> is de <strong>specifieke faseovergangswarmte maal de massa</strong>. Er staat geen temperatuurverschil in, want dat is tijdens een faseovergang nul. Om \\(0{,}5\\) kilogram ijs te smelten heb je dus <strong>\\(167\\,000\\) joule</strong> nodig, met \\(334\\,000\\) joule per kilogram."
     },
     {
      "soort": "tekst",
@@ -109,7 +109,7 @@
   "Warmte gaat altijd van warm naar koud, tot het thermisch evenwicht.",
   "Geleiding en convectie hebben een stof nodig; straling gaat ook door het luchtledige.",
   "Merkbare warmte = specifieke warmtecapaciteit maal massa maal temperatuurverschil.",
-  "Water heeft een heel grote warmtecapaciteit, ongeveer 4180 joule per kilogram per graad.",
+  "Water heeft een heel grote warmtecapaciteit, ongeveer \\(4180\\) joule per kilogram per graad.",
   "Stollen, condenseren en desublimeren geven warmte af; smelten, verdampen en sublimeren nemen op.",
   "Bij een faseovergang blijft de temperatuur gelijk.",
   "Latente warmte = specifieke faseovergangswarmte maal de massa.",

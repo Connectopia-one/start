@@ -32,7 +32,7 @@
     },
     {
      "soort": "tekst",
-     "html": "Er zijn 64 codons voor 20 aminozuren, dus <strong>wordt niet elk aminozuur door precies één codon aangeduid</strong>. Meerdere codons wijzen hetzelfde aminozuur aan, en dat maakt de code wat robuuster tegen fouten."
+     "html": "Er zijn \\(64\\) codons voor \\(20\\) aminozuren, dus <strong>wordt niet elk aminozuur door precies één codon aangeduid</strong>. Meerdere codons wijzen hetzelfde aminozuur aan, en dat maakt de code wat robuuster tegen fouten."
     }
    ]
   },
@@ -49,7 +49,7 @@
     },
     {
      "soort": "tekst",
-     "html": "Bij de <strong>genoommutaties</strong>, waar het aantal chromosomen afwijkt, horen <strong>trisomie 21</strong>, <strong>het syndroom van Turner</strong> en <strong>het syndroom van Klinefelter</strong>."
+     "html": "Bij de <strong>genoommutaties</strong>, waar het aantal chromosomen afwijkt, horen <strong>trisomie \\(21\\)</strong>, <strong>het syndroom van Turner</strong> en <strong>het syndroom van Klinefelter</strong>."
     },
     {
      "soort": "tekst",

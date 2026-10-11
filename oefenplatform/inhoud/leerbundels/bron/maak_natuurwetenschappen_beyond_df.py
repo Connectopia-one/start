@@ -357,11 +357,11 @@ BUNDELS["overerving-van-kenmerken-beyond-dubbele-finaliteit"] = dict(
             ("p", "Een <strong>chromosoom</strong> bestaat <strong>uit sterk opgerold DNA met "
                   "eiwitten</strong>. Het punt waar de <strong>twee chromatiden van een chromosoom aan elkaar "
                   "vastzitten</strong>, heet het <strong>centromeer</strong>."),
-            ("p", "In een <strong>menselijke lichaamscel zitten 46 chromosomen</strong>, in "
+            ("p", r"In een <strong>menselijke lichaamscel zitten \(46\) chromosomen</strong>, in "
                   "<strong>drieëntwintig</strong> paren. Zo'n cel is <strong>diploïd of 2n</strong>, en dat "
                   "betekent dat ze <strong>van elk chromosoom twee exemplaren heeft</strong>. Cellen met "
                   "<strong>maar één exemplaar van elk chromosoom</strong> heten "
-                  "<strong>haploïd</strong>: in een <strong>menselijke eicel zitten dus 23 "
+                  r"<strong>haploïd</strong>: in een <strong>menselijke eicel zitten dus \(23\) "
                   "chromosomen</strong>."),
             ("p", "<strong>Homologe chromosomen</strong> zijn <strong>twee chromosomen van hetzelfde "
                   "paar</strong>. De foto <strong>waarop alle chromosomen van een cel per paar geordend "
@@ -401,14 +401,14 @@ BUNDELS["overerving-van-kenmerken-beyond-dubbele-finaliteit"] = dict(
             ("p", "De <strong>uniformiteitswet van Mendel</strong> zegt: <strong>kruis je twee raszuivere "
                   "ouders, dan lijkt de F1 op elkaar</strong>. De <strong>splitsingswet</strong> zegt: "
                   "<strong>in de F2 duikt het verborgen kenmerk weer op</strong>. Bij dominant-recessieve "
-                  "overerving <strong>splitsen de fenotypes zich in de F2 in de verhouding 3 op 1</strong>."),
+                  r"overerving <strong>splitsen de fenotypes zich in de F2 in de verhouding \(3\) op \(1\)</strong>."),
             ("fig", tabel(["Kruising Aa × Aa", "AA", "Aa", "aA", "aa"], [
-                ["Genotype", "25 %", "25 %", "25 %", "25 %"],
+                ["Genotype", r"\(25\,\%\)", r"\(25\,\%\)", r"\(25\,\%\)", r"\(25\,\%\)"],
                 ["Vertoont het kenmerk", "nee", "nee", "nee", "ja"],
             ]), "Twee heterozygote ouders: één kind op vier vertoont het recessieve kenmerk."),
-            ("p", "<strong>Twee heterozygote ouders, Aa en Aa, krijgen statistisch gezien 25 % kinderen die het "
-                  "recessieve kenmerk vertonen</strong>, en <strong>50 % die het recessieve allel dragen maar "
-                  "het niet tonen</strong>. De overige 25 % heeft het allel helemaal niet."),
+            ("p", r"<strong>Twee heterozygote ouders, Aa en Aa, krijgen statistisch gezien \(25\,\%\) kinderen die het "
+                  r"recessieve kenmerk vertonen</strong>, en <strong>\(50\,\%\) die het recessieve allel dragen maar "
+                  r"het niet tonen</strong>. De overige \(25\,\%\) heeft het allel helemaal niet."),
         ]),
         dict(kop="Intermediair, codominant en de bloedgroepen", blokken=[
             ("p", "Bij <strong>intermediaire overerving zit de heterozygoot tussen de twee ouders in</strong>: "
@@ -439,12 +439,12 @@ BUNDELS["overerving-van-kenmerken-beyond-dubbele-finaliteit"] = dict(
         ]),
     ],
     onthoud=[
-        "46 chromosomen in een lichaamscel (2n), 23 in een geslachtscel (n).",
+        r"\(46\) chromosomen in een lichaamscel \((2n)\), \(23\) in een geslachtscel (n).",
         "Een man heeft X en Y; de zaadcel bepaalt het geslacht.",
         "Mitose geeft twee gelijke cellen, meiose vier verschillende haploïde.",
         "Een mutatie is alleen erfelijk als ze in een geslachtscel zit.",
-        "Aa × Aa geeft 25 % met het recessieve kenmerk en 50 % dragers.",
-        "In de F2 splitsen de fenotypes 3 op 1.",
+        r"Aa × Aa geeft \(25\,\%\) met het recessieve kenmerk en \(50\,\%\) dragers.",
+        r"In de F2 splitsen de fenotypes \(3\) op \(1\).",
         "Bloedgroep AB is codominant, niet intermediair.",
         "X-gebonden aandoeningen treffen jongens vaker: zij hebben maar één X.",
     ],
@@ -467,7 +467,7 @@ BUNDELS["biologische-evolutie-beyond-dubbele-finaliteit"] = dict(
             ("p", "<strong>Tijd is belangrijk in de evolutietheorie omdat kleine veranderingen zich opstapelen "
                   "over vele generaties.</strong> Daar is ruimte voor: "
                   "<strong>de aarde is volgens het huidige natuurwetenschappelijke onderzoek ongeveer "
-                  "4,6 miljard jaar oud</strong>."),
+                  r"\(4{,}6\) miljard jaar oud</strong>."),
         ]),
         dict(kop="Argumenten uit de anatomie", blokken=[
             ("p", "<strong>Homologe organen</strong> zijn <strong>organen met dezelfde bouw maar een andere "
@@ -552,7 +552,7 @@ BUNDELS["biologische-evolutie-beyond-dubbele-finaliteit"] = dict(
         "Meer gelijkenis in DNA betekent nauwere verwantschap.",
         "Mens en chimpansee hebben een gemeenschappelijke voorouder, de een stamt niet van de ander af.",
         "Anatomie, paleontologie en moleculaire biologie wijzen samen dezelfde richting uit.",
-        "De aarde is ongeveer 4,6 miljard jaar oud.",
+        r"De aarde is ongeveer \(4{,}6\) miljard jaar oud.",
     ],
 )
 
@@ -716,7 +716,7 @@ BUNDELS["productlabels-pictogrammen-en-risico-s-van-stoffen-beyond-dubbele-final
                   "<strong>uit welke kunststof de verpakking gemaakt is</strong>. "
                   "<strong>Die driehoek betekent dus niet dat de verpakking zeker gerecycleerd wordt</strong>: "
                   "het is een identificatiecode, geen belofte. Bij "
-                  "<strong>recyclagecode 1</strong>, de code van de meeste drinkflessen, hoort "
+                  r"<strong>recyclagecode \(1\)</strong>, de code van de meeste drinkflessen, hoort "
                   "<strong>PET</strong> of polyethyleentereftalaat."),
         ]),
         dict(kop="Kookpunt en smeltpunt", blokken=[
@@ -742,9 +742,9 @@ BUNDELS["productlabels-pictogrammen-en-risico-s-van-stoffen-beyond-dubbele-final
                   "aan."),
         ]),
         dict(kop="Zuren, basen en de pH-schaal", blokken=[
-            ("p", "De <strong>pH van een zure stof ligt onder 7</strong>. Een "
-                  "<strong>neutrale stof zoals zuiver water heeft pH 7</strong>. Een stof "
-                  "<strong>met een pH boven 7</strong> is een <strong>base</strong>."),
+            ("p", r"De <strong>pH van een zure stof ligt onder \(7\)</strong>. Een "
+                  r"<strong>neutrale stof zoals zuiver water heeft pH \(7\)</strong>. Een stof "
+                  r"<strong>met een pH boven \(7\)</strong> is een <strong>base</strong>."),
             ("p", "<strong>Een indicator geeft met een kleur aan of een stof zuur of basisch is.</strong> "
                   "<strong>Rode koolsap wordt in een zure vloeistof rood tot roze</strong>, en in een basische "
                   "eerder groen tot geel."),
@@ -764,10 +764,10 @@ BUNDELS["productlabels-pictogrammen-en-risico-s-van-stoffen-beyond-dubbele-final
         "Dezelfde stof kan door een hogere concentratie een zwaarder pictogram krijgen.",
         "Chemische restjes horen bij het kga, nooit in de gootsteen.",
         "De driehoek met een cijfer zegt wélke kunststof, niet dat er gerecycleerd wordt.",
-        "Code 1 is PET, de kunststof van de meeste drinkflessen.",
+        r"Code \(1\) is PET, de kunststof van de meeste drinkflessen.",
         "Een laag kookpunt betekent snel verdampen en vaak ontvlambaar.",
         "Soort lost soort: wat in water lost, lost niet in thinner.",
-        "pH onder 7 is zuur, 7 is neutraal, boven 7 is basisch.",
+        r"pH onder \(7\) is zuur, \(7\) is neutraal, boven \(7\) is basisch.",
     ],
 )
 
@@ -827,9 +827,9 @@ BUNDELS["voedingsbestanddelen-en-etiketten-beyond-dubbele-finaliteit"] = dict(
                   "milliliter</strong>, en staat er <strong>in kilojoule</strong>, vaak met de kilocalorie "
                   "ernaast. <strong>Een etiket moet vermelden hoeveel energie, vet, koolhydraten, eiwit en zout "
                   "het product bevat.</strong>"),
-            ("p", "Staat er <strong>suiker 32 g per 100 g</strong>, dan betekent dat dat "
+            ("p", r"Staat er <strong>suiker \(32\) g per \(100\) g</strong>, dan betekent dat dat "
                   "<strong>bijna een derde van het product suiker is</strong>. In "
-                  "<strong>een pot van 250 gram zit dan 80 g suiker</strong>: 32 maal 2,5."),
+                  r"<strong>een pot van \(250\) gram zit dan \(80\) g suiker</strong>: \(32 \cdot 2{,}5\)."),
         ]),
         dict(kop="Nutriscore en ecoscore", blokken=[
             ("p", "De <strong>nutriscore</strong> zegt <strong>hoe gezond de samenstelling van een product "
@@ -861,7 +861,7 @@ BUNDELS["voedingsbestanddelen-en-etiketten-beyond-dubbele-finaliteit"] = dict(
         "Eiwitten bouwen en herstellen; vetten slaan op, isoleren en nemen vitaminen op.",
         "Calcium voor botten en tanden, ijzer voor hemoglobine.",
         "Ingrediënten staan van meest naar minst; allergenen staan in het vet.",
-        "De energiewaarde staat per 100 g of 100 mL, in kilojoule.",
+        r"De energiewaarde staat per \(100\) g of \(100\) mL, in kilojoule.",
         "Nutriscore gaat over gezondheid, ecoscore over het milieu.",
         "De ecoscore kijkt naar de hele levenscyclus, met bonussen en malussen.",
     ],
@@ -886,18 +886,18 @@ BUNDELS["dosis-en-concentratie-van-stoffen-beyond-dubbele-finaliteit"] = dict(
                   "<strong>massaprocent</strong>, <strong>volumeprocent</strong> en "
                   "<strong>massaconcentratie</strong>. Het lichaamsgewicht hoort bij de dosis."),
             ("fig", tabel(["Uitdrukking", "Wat ze vergelijkt", "Voorbeeld"], [
-                ["Massaprocent", "massa met massa, per 100 g", "15 g zout in 300 g pekel is 5 %"],
-                ["Volumeprocent", "volume met volume, per 100 mL", "12 % vol is 12 mL alcohol per 100 mL"],
-                ["Massaconcentratie", "massa met volume, in g/L", "20 g in 500 mL is 40 g/L"],
+                ["Massaprocent", r"massa met massa, per \(100\) g", r"\(15\) g zout in \(300\) g pekel is \(5\,\%\)"],
+                ["Volumeprocent", r"volume met volume, per \(100\) mL", r"\(12\,\%\) vol is \(12\) mL alcohol per \(100\) mL"],
+                ["Massaconcentratie", "massa met volume, in g/L", r"\(20\) g in \(500\) mL is \(40\) g/L"],
             ]), "De drie uitdrukkingen, en hoe je ze uit elkaar houdt."),
             ("p", "Het <strong>massaprocent</strong> is de uitdrukking die zegt "
-                  "<strong>hoeveel gram stof er in 100 gram mengsel zit</strong>. Los je "
-                  "<strong>15 g zout op in water en krijg je 300 g pekel, dan is het massaprocent 5 %</strong>: "
-                  "15 gedeeld door 300, maal honderd. Let op dat je deelt door de massa van de hele oplossing. "
+                  r"<strong>hoeveel gram stof er in \(100\) gram mengsel zit</strong>. Los je "
+                  r"<strong>\(15\) g zout op in water en krijg je \(300\) g pekel, dan is het massaprocent \(5\,\%\)</strong>: "
+                  r"\(15 : 300\), maal honderd. Let op dat je deelt door de massa van de hele oplossing. "
                   "<strong>Vijf massaprocent betekent dus niet vijf gram stof per liter mengsel</strong>; dat "
                   "laatste zou een massaconcentratie zijn."),
-            ("p", "Staat er op een fles wijn <strong>12 % vol</strong>, dan betekent dat "
-                  "<strong>12 mL alcohol in elke 100 mL wijn</strong>. "
+            ("p", r"Staat er op een fles wijn <strong>\(12\,\%\) vol</strong>, dan betekent dat "
+                  r"<strong>\(12\) mL alcohol in elke \(100\) mL wijn</strong>. "
                   "<strong>Volumeprocent wordt vooral gebruikt als je twee vloeistoffen mengt</strong>, want "
                   "volume is dan het makkelijkst te meten. Het getal "
                   "<strong>op een fles drank dat zegt welk deel van het volume alcohol is</strong>, heet het "
@@ -906,21 +906,21 @@ BUNDELS["dosis-en-concentratie-van-stoffen-beyond-dubbele-finaliteit"] = dict(
                   "liter."),
         ]),
         dict(kop="Rekenen met concentratie", blokken=[
-            ("p", "Een <strong>flesje bier van 250 mL met 5 % vol</strong> bevat "
-                  "<strong>12,5 mL alcohol</strong>: 250 maal 0,05. Een "
-                  "<strong>fles wijn van 750 mL met 12 % vol</strong> bevat "
-                  "<strong>90 mL alcohol</strong>: 750 maal 0,12."),
-            ("p", "Los je <strong>20 g suiker op tot 500 mL drank, dan is de massaconcentratie 40 g/L</strong>, "
+            ("p", r"Een <strong>flesje bier van \(250\) mL met \(5\,\%\) vol</strong> bevat "
+                  r"<strong>\(12{,}5\) mL alcohol</strong>: \(250 \cdot 0{,}05\). Een "
+                  r"<strong>fles wijn van \(750\) mL met \(12\,\%\) vol</strong> bevat "
+                  r"<strong>\(90\) mL alcohol</strong>: \(750 \cdot 0{,}12\)."),
+            ("p", r"Los je <strong>\(20\) g suiker op tot \(500\) mL drank, dan is de massaconcentratie \(40\) g/L</strong>, "
                   "want een halve liter wordt verdubbeld naar een hele. Een "
-                  "<strong>drankje met 2 g vitamine C per 250 mL</strong> heeft een massaconcentratie van "
-                  "<strong>8 g/L</strong>, want een kwart liter wordt vier keer genomen."),
+                  r"<strong>drankje met \(2\) g vitamine C per \(250\) mL</strong> heeft een massaconcentratie van "
+                  r"<strong>\(8\) g/L</strong>, want een kwart liter wordt vier keer genomen."),
             ("p", "Omgekeerd kan je uit een concentratie de hoeveelheid halen. Een "
-                  "<strong>oplossing van 30 g/L zout bevat in 200 mL 6 g zout</strong>: een vijfde liter, dus "
+                  r"<strong>oplossing van \(30\) g/L zout bevat in \(200\) mL \(6\) g zout</strong>: een vijfde liter, dus "
                   "dertig gedeeld door vijf."),
             ("p", "Om te berekenen <strong>hoeveel alcohol er in een glas zit, moet je twee dingen "
                   "kennen</strong>: <strong>het volume van het glas</strong> en "
                   "<strong>het alcoholpercentage van de drank</strong>. Staan er "
-                  "<strong>twee glazen met dezelfde drank, één van 100 mL en één van 200 mL, dan zit er in het "
+                  r"<strong>twee glazen met dezelfde drank, één van \(100\) mL en één van \(200\) mL, dan zit er in het "
                   "grote glas twee keer zoveel alcohol</strong>; de concentratie is in beide gelijk."),
             ("p", "<strong>Hoe hoger de concentratie van een oplossing, hoe méér stof er in elke liter "
                   "zit</strong>, niet minder. Verdunnen verlaagt de concentratie."),
@@ -940,17 +940,17 @@ BUNDELS["dosis-en-concentratie-van-stoffen-beyond-dubbele-finaliteit"] = dict(
                   "<strong>De ADI geldt per dag en per kilogram lichaamsgewicht.</strong> Ze is "
                   "<strong>per kilogram uitgedrukt omdat een zwaarder lichaam meer van een stof "
                   "verdraagt</strong>: dezelfde hoeveelheid wordt er sterker verdund."),
-            ("p", "Is de <strong>ADI van een zoetstof 7 mg per kg per dag, dan mag een kind van 30 kg 210 mg "
-                  "per dag</strong>. Is de <strong>ADI van een kleurstof 4 mg per kg per dag, dan mag een "
-                  "volwassene van 70 kg 280 mg per dag</strong>."),
+            ("p", r"Is de <strong>ADI van een zoetstof \(7\) mg per kg per dag, dan mag een kind van \(30\) kg \(210\) mg "
+                  r"per dag</strong>. Is de <strong>ADI van een kleurstof \(4\) mg per kg per dag, dan mag een "
+                  r"volwassene van \(70\) kg \(280\) mg per dag</strong>."),
             ("p", "De <strong>LD50</strong> van een stof is <strong>de dosis waarbij de helft van de "
                   "proefdieren sterft</strong>. <strong>LD</strong> staat voor "
-                  "<strong>lethale dosis</strong> of letale dosis, de dodelijke dosis, en 50 voor die helft."),
+                  r"<strong>lethale dosis</strong> of letale dosis, de dodelijke dosis, en \(50\) voor die helft."),
             ("p", "<strong>Een stof met een lage LD50 is giftiger dan een stof met een hoge LD50.</strong> Heeft "
-                  "<strong>stof A een LD50 van 50 mg per kg en stof B van 5000 mg per kg, dan is stof A honderd "
+                  r"<strong>stof A een LD50 van \(50\) mg per kg en stof B van \(5000\) mg per kg, dan is stof A honderd "
                   "keer giftiger dan stof B</strong>. Is de "
-                  "<strong>LD50 2000 mg per kg, dan is dat voor een mens van 60 kg een dosis van 120 g</strong>: "
-                  "2000 maal 60 is 120 000 mg, en dat gedeeld door duizend geeft gram."),
+                  r"<strong>LD50 \(2000\) mg per kg, dan is dat voor een mens van \(60\) kg een dosis van \(120\) g</strong>: "
+                  r"\(2000 \cdot 60\) is \(120\,000\) mg, en dat gedeeld door duizend geeft gram."),
             ("p", "<strong>Een stof met een hoge LD50 kan je dus niet zonder zorgen in elke hoeveelheid "
                   "gebruiken.</strong> Een hoge LD50 zegt alleen dat er veel van nodig is."),
         ]),
@@ -960,7 +960,7 @@ BUNDELS["dosis-en-concentratie-van-stoffen-beyond-dubbele-finaliteit"] = dict(
                   "Daarom <strong>krijgen twee mensen die dezelfde hoeveelheid van een stof binnenkrijgen niet "
                   "altijd precies dezelfde dosis per kilogram</strong>: bij een lichter lichaam is het meer."),
             ("p", "De concentratie maal het volume geeft de dosis. Bevat "
-                  "<strong>een drank 40 g suiker per liter, dan krijg je met een glas van 200 mL 8 g "
+                  r"<strong>een drank \(40\) g suiker per liter, dan krijg je met een glas van \(200\) mL \(8\) g "
                   "binnen</strong>."),
             ("p", "<strong>Men zegt dat elke stof giftig kan zijn, omdat boven een bepaalde dosis elke stof "
                   "schade doet.</strong> Zelfs water. En "
@@ -974,7 +974,7 @@ BUNDELS["dosis-en-concentratie-van-stoffen-beyond-dubbele-finaliteit"] = dict(
     ],
     onthoud=[
         "Concentratie is hoe sterk het is, dosis is hoeveel je binnenkrijgt.",
-        "Massaprocent per 100 g, volumeprocent per 100 mL, massaconcentratie in g/L.",
+        r"Massaprocent per \(100\) g, volumeprocent per \(100\) mL, massaconcentratie in g/L.",
         "Volume maal percentage geeft de hoeveelheid; concentratie maal volume geeft de dosis.",
         "Hoe hoger de concentratie, hoe zwaarder het gevaar van dezelfde stof.",
         "De ADI geldt per dag en per kilogram lichaamsgewicht.",
@@ -1024,11 +1024,11 @@ BUNDELS["duurzame-chemie-beyond-dubbele-finaliteit"] = dict(
                   "de <strong>ladder van Lansink</strong>. Bovenaan staat "
                   "<strong>voorkomen dat er afval ontstaat</strong>, dus preventie. Onderaan staat storten."),
             ("fig", tabel(["Trede", "Wat het is"], [
-                ["1. Preventie", "voorkomen dat er afval ontstaat"],
-                ["2. Hergebruik", "het voorwerp blijft zoals het is"],
-                ["3. Recyclage", "het materiaal wordt opnieuw grondstof"],
-                ["4. Verbranden", "de warmte wordt nog benut"],
-                ["5. Storten", "het materiaal gaat verloren"],
+                [r"\(1\). Preventie", "voorkomen dat er afval ontstaat"],
+                [r"\(2\). Hergebruik", "het voorwerp blijft zoals het is"],
+                [r"\(3\). Recyclage", "het materiaal wordt opnieuw grondstof"],
+                [r"\(4\). Verbranden", "de warmte wordt nog benut"],
+                [r"\(5\). Storten", "het materiaal gaat verloren"],
             ]), "De ladder van Lansink, van best naar slechtst."),
             ("p", "<strong>Drie</strong> stappen staan hoger dan verbranden: <strong>preventie</strong>, "
                   "<strong>hergebruik</strong> en <strong>recyclage</strong>. En let op de orde: "
@@ -1039,8 +1039,8 @@ BUNDELS["duurzame-chemie-beyond-dubbele-finaliteit"] = dict(
             ("p", "<strong>Greenwashing</strong> is <strong>zich groener voordoen dan men werkelijk is</strong>. "
                   "<strong>Staat er een groen blaadje op een verpakking, dan is het product dus niet daardoor "
                   "duurzaam</strong>: een blaadje is geen keurmerk en wordt door niemand gecontroleerd."),
-            ("p", "De Verenigde Naties heeft <strong>17</strong> duurzame ontwikkelingsdoelstellingen of SDG's "
-                  "opgesteld, te halen tegen 2030. De <strong>vijf P's</strong> van duurzaamheid zijn people, "
+            ("p", r"De Verenigde Naties heeft <strong>\(17\)</strong> duurzame ontwikkelingsdoelstellingen of SDG's "
+                  r"opgesteld, te halen tegen \(2030\). De <strong>vijf P's</strong> van duurzaamheid zijn people, "
                   "planet, prosperity, peace en partnership; <strong>planet staat voor de zorg voor het milieu "
                   "en de natuur</strong>."),
         ]),
@@ -1074,19 +1074,19 @@ BUNDELS["duurzame-chemie-beyond-dubbele-finaliteit"] = dict(
                   "<strong>Kernenergie is geen fossiele energievorm</strong>, maar een aparte vorm naast fossiel "
                   "en hernieuwbaar. <strong>Groene stroom komt uit hernieuwbare bronnen zoals zon, wind en "
                   "water</strong>; grijze stroom uit fossiele brandstoffen."),
-            ("fig", tabel(["Waterstof", "Waaruit", "De CO2"], [
+            ("fig", tabel(["Waterstof", "Waaruit", "De CO₂"], [
                 ["Grijs", "uit aardgas", "komt vrij"],
                 ["Blauw", "uit aardgas", "wordt afgevangen en opgeslagen"],
                 ["Groen", "uit water, met hernieuwbare stroom", "komt niet vrij"],
             ]), "De drie kleuren waterstof."),
             ("p", "Men spreekt van <strong>groene waterstof als ze met hernieuwbare stroom uit water "
                   "komt</strong>. <strong>Grijze waterstof</strong> is "
-                  "<strong>waterstof uit aardgas, waarbij de CO2 vrijkomt</strong>. En "
+                  "<strong>waterstof uit aardgas, waarbij de CO₂ vrijkomt</strong>. En "
                   "<strong>blauwe waterstof komt uit aardgas, maar de koolstofdioxide wordt afgevangen en "
                   "opgeslagen</strong>."),
             ("p", "<strong>Zwart water</strong> is <strong>afvalwater van het toilet</strong>. Grijs water komt "
                   "van bad, lavabo en wasmachine; wit water is zuiver water dat je kan drinken."),
-            ("p", "<strong>Het verschil tussen CO2-neutrale en CO2-negatieve productie is dat negatief meer CO2 "
+            ("p", "<strong>Het verschil tussen CO₂-neutrale en CO₂-negatieve productie is dat negatief meer CO₂ "
                   "uit de lucht haalt dan het uitstoot.</strong> Bij neutraal heffen uitstoot en opname elkaar "
                   "op."),
         ]),
@@ -1099,7 +1099,7 @@ BUNDELS["duurzame-chemie-beyond-dubbele-finaliteit"] = dict(
         "Greenwashing is zich groener voordoen dan men is.",
         "Thermoplasten smelten en zijn recycleerbaar; crosslinks maken dat onmogelijk.",
         "Biogebaseerd gaat over de grondstof, biodegradeerbaar over het afbreken.",
-        "Grijze waterstof uit aardgas, blauw met opslag van CO2, groen uit water.",
+        "Grijze waterstof uit aardgas, blauw met opslag van CO₂, groen uit water.",
     ],
 )
 
@@ -1229,11 +1229,11 @@ BUNDELS["golven-geluid-en-het-elektromagnetisch-spectrum-beyond-dubbele-finalite
                   "<strong>amplitude</strong> is <strong>de grootste uitwijking uit de "
                   "evenwichtsstand</strong>. De frequentie is het aantal trillingen per seconde, in hertz, en "
                   "de periode de tijd van één trilling."),
-            ("kader", "De formules: <strong>f = 1 / T</strong> en <strong>v = λ · f</strong>, en dus ook "
-                      "v = λ / T."),
-            ("p", "Heeft een trilling <strong>een periode van 0,004 s, dan is de frequentie 250 Hz</strong>: "
-                  "één gedeeld door 0,004. Heeft een golf <strong>een golflengte van 2 m en een frequentie van "
-                  "170 Hz, dan is de golfsnelheid 340 m/s</strong>: 2 maal 170, precies de snelheid van geluid "
+            ("kader", r"De formules: <strong>\(f = 1 / T\)</strong> en <strong>\(v = \lambda \cdot f\)</strong>, en dus ook "
+                      r"\(v = \lambda / T\)."),
+            ("p", r"Heeft een trilling <strong>een periode van \(0{,}004\) s, dan is de frequentie \(250\) Hz</strong>: "
+                  r"één gedeeld door \(0{,}004\). Heeft een golf <strong>een golflengte van \(2\) m en een frequentie van "
+                  r"\(170\) Hz, dan is de golfsnelheid \(340\) m/s</strong>: \(2 \cdot 170\), precies de snelheid van geluid "
                   "in lucht."),
             ("p", "<strong>Hoe hoger de frequentie van een geluidsgolf, hoe hoger de toon die je hoort.</strong> "
                   "<strong>Draai je de muziek luider, dan verandert de amplitude</strong>, niet de frequentie."),
@@ -1259,27 +1259,27 @@ BUNDELS["golven-geluid-en-het-elektromagnetisch-spectrum-beyond-dubbele-finalite
         ]),
         dict(kop="De decibelschaal en je gehoor", blokken=[
             ("p", "De eenheid van het geluidsniveau is de <strong>decibel</strong>. De "
-                  "<strong>gehoordrempel</strong> van een mens ligt bij <strong>0 dB</strong>, "
-                  "<strong>vanaf 80 dB is gehoorbescherming nodig</strong> (de gevaargrens), en de "
-                  "<strong>pijndrempel</strong> ligt rond <strong>120 dB</strong>."),
+                  r"<strong>gehoordrempel</strong> van een mens ligt bij <strong>\(0\) dB</strong>, "
+                  r"<strong>vanaf \(80\) dB is gehoorbescherming nodig</strong> (de gevaargrens), en de "
+                  r"<strong>pijndrempel</strong> ligt rond <strong>\(120\) dB</strong>."),
             ("p", "<strong>Hoe langer je in lawaai staat, hoe groter de kans op gehoorschade.</strong> Wat er "
                   "beschadigt, zijn <strong>de haarcellen in het binnenoor</strong>, en die groeien bij de mens "
                   "niet terug: <strong>gehoorschade door lawaai geneest dus niet altijd volledig</strong>."),
             ("p", "<strong>Ga je twee keer zo ver van een geluidsbron staan, dan daalt het geluidsniveau met "
-                  "6 dB.</strong> <strong>Wordt de geluidsintensiteit twee keer zo groot, dan stijgt het niveau "
-                  "met 3 dB.</strong> Een vier keer kleinere intensiteit geeft dus zes decibel minder."),
+                  r"\(6\) dB.</strong> <strong>Wordt de geluidsintensiteit twee keer zo groot, dan stijgt het niveau "
+                  r"met \(3\) dB.</strong> Een vier keer kleinere intensiteit geeft dus zes decibel minder."),
             ("p", "Op een fuif bescherm je je gehoor op <strong>twee</strong> manieren: "
                   "<strong>oordopjes dragen</strong> en <strong>verder van de boxen gaan staan</strong>."),
             ("p", "<strong>Resonantie</strong> is dat <strong>een voorwerp meetrilt op zijn eigen "
                   "frequentie</strong>. Komt de frequentie van buiten overeen met die eigenfrequentie, dan wordt "
                   "de trilling steeds groter."),
-            ("p", "Een mens hoort normaal <strong>van 20 Hz tot 20 000 Hz</strong>. Geluid "
-                  "<strong>met een frequentie boven 20 000 Hz, dat de mens niet meer hoort</strong>, is "
+            ("p", r"Een mens hoort normaal <strong>van \(20\) Hz tot \(20\,000\) Hz</strong>. Geluid "
+                  r"<strong>met een frequentie boven \(20\,000\) Hz, dat de mens niet meer hoort</strong>, is "
                   "<strong>ultrasoon</strong> geluid of ultrageluid; onder twintig hertz is het infrasoon."),
         ]),
         dict(kop="Het elektromagnetisch spectrum", blokken=[
             ("p", "Voor een <strong>elektromagnetische golf in het vacuüm</strong> geldt dat "
-                  "<strong>ze met de lichtsnelheid beweegt</strong>, ongeveer 300 000 kilometer per seconde. In "
+                  r"<strong>ze met de lichtsnelheid beweegt</strong>, ongeveer \(300\,000\) kilometer per seconde. In "
                   "glas of water gaat ze trager."),
             ("fig", tabel(["Straling", "Energie", "Ioniserend?"], [
                 ["Radiogolven", "laagst, langste golven", "nee"],
@@ -1308,10 +1308,10 @@ BUNDELS["golven-geluid-en-het-elektromagnetisch-spectrum-beyond-dubbele-finalite
         "Een golf vervoert energie, geen materie.",
         "Mechanisch heeft een middenstof nodig, elektromagnetisch niet.",
         "Transversaal trilt dwars, longitudinaal mee; geluid is longitudinaal.",
-        "f = 1/T en v = λ · f.",
+        r"\(f = 1 / T\) en \(v = \lambda \cdot f\).",
         "Frequentie geeft de toonhoogte, amplitude de sterkte.",
-        "0 dB gehoordrempel, 80 dB gevaargrens, 120 dB pijndrempel.",
-        "Afstand verdubbelen is −6 dB; intensiteit verdubbelen is +3 dB.",
+        r"\(0\) dB gehoordrempel, \(80\) dB gevaargrens, \(120\) dB pijndrempel.",
+        r"Afstand verdubbelen is \(-6\) dB; intensiteit verdubbelen is +\(3\) dB.",
         "Van radio naar gamma stijgt de energie; röntgen en gamma zijn ioniserend.",
     ],
 )
@@ -1326,8 +1326,8 @@ BUNDELS["kernfysica-kernenergie-en-straling-beyond-dubbele-finaliteit"] = dict(
                   "neutronen</strong> aan. <strong>Twee</strong> soorten deeltjes zijn "
                   "<strong>nucleonen</strong>: <strong>protonen</strong> en <strong>neutronen</strong>. Het "
                   "atoomnummer telt alleen de protonen."),
-            ("p", "Heeft <strong>koolstof-14 massagetal 14 en atoomnummer 6, dan zitten er 8 neutronen</strong> "
-                  "in die kern: 14 min 6."),
+            ("p", r"Heeft <strong>koolstof-\(14\) massagetal \(14\) en atoomnummer \(6\), dan zitten er \(8\) neutronen</strong> "
+                  r"in die kern: \(14\) min \(6\)."),
             ("p", "Kernen van hetzelfde element <strong>met een verschillend aantal neutronen</strong> heten "
                   "<strong>isotopen</strong>; één zo'n kern is een isotoop. <strong>Twee isotopen van hetzelfde element hebben hetzelfde "
                   "aantal protonen</strong>, want dat bepaalt om welk element het gaat."),
@@ -1341,7 +1341,7 @@ BUNDELS["kernfysica-kernenergie-en-straling-beyond-dubbele-finaliteit"] = dict(
             ("p", "De <strong>halfwaardetijd</strong> van een radioactieve stof is <strong>de tijd waarin de "
                   "helft van de kernen vervalt</strong>. Na één halfwaardetijd is de helft over, na twee een "
                   "vierde, na drie een achtste."),
-            ("p", "Heeft <strong>een stof een halfwaardetijd van 8 dagen, dan is er na 24 dagen een achtste "
+            ("p", r"Heeft <strong>een stof een halfwaardetijd van \(8\) dagen, dan is er na \(24\) dagen een achtste "
                   "over</strong>, want dat zijn drie halfwaardetijden. "
                   "<strong>Na één halfwaardetijd is dus niet alle straling van een stof verdwenen</strong>: de "
                   "andere helft straalt verder."),
@@ -1392,10 +1392,10 @@ BUNDELS["kernfysica-kernenergie-en-straling-beyond-dubbele-finaliteit"] = dict(
             ("p", "Welke straling een kern uitzendt, lees je van de nuclidenkaart af. "
                   "<strong>Een kern met te veel neutronen om stabiel te zijn, zendt bètamin-straling uit</strong>: "
                   "een neutron wordt dan een proton. Daarom geldt: "
-                  "<strong>vervalt koolstof-14 via bètamin-straling, dan stijgt het atoomnummer met één en "
-                  "blijft het massagetal gelijk</strong>, en wordt het stikstof-14. Bij alfaverval gaat er meer "
-                  "weg: <strong>zendt uranium-238 een alfadeeltje uit, dan blijft een kern over met massagetal "
-                  "234 en atoomnummer 90</strong>, dus thorium-234."),
+                  r"<strong>vervalt koolstof-\(14\) via bètamin-straling, dan stijgt het atoomnummer met één en "
+                  r"blijft het massagetal gelijk</strong>, en wordt het stikstof-\(14\). Bij alfaverval gaat er meer "
+                  r"weg: <strong>zendt uranium-\(238\) een alfadeeltje uit, dan blijft een kern over met massagetal "
+                  r"\(234\) en atoomnummer \(90\)</strong>, dus thorium-\(234\)."),
         ]),
         dict(kop="Straling en de mens", blokken=[
             ("p", "<strong>Het verschil tussen bestraling en besmetting is dat bij besmetting de stof op of in "
@@ -1421,7 +1421,7 @@ BUNDELS["kernfysica-kernenergie-en-straling-beyond-dubbele-finaliteit"] = dict(
     onthoud=[
         "Massagetal = protonen + neutronen; atoomnummer = protonen.",
         "Isotopen hebben hetzelfde aantal protonen, een ander aantal neutronen.",
-        "Na n halfwaardetijden is er (1/2) tot de n-de over.",
+        r"Na n halfwaardetijden is er (\(\tfrac{1}{2}\)) tot de n-de over.",
         "Fusie van lichte en splijting van zware kernen leveren energie, uit massaverlies.",
         "Warmte maakt stoom, stoom draait de turbine en de generator.",
         "Categorie A is kortlevend laag- en middelactief, C is hoogactief.",
@@ -1469,9 +1469,9 @@ BUNDELS["veilig-werken-meten-en-onderzoeken-beyond-dubbele-finaliteit"] = dict(
                   "waarde die een meettoestel kan meten</strong>. "
                   "<strong>Je mag een meetinstrument niet boven zijn meetbereik gebruiken, ook niet als je "
                   "voorzichtig doet</strong>: de waarde is dan niet betrouwbaar en het toestel raakt beschadigd."),
-            ("p", "Meet <strong>je balans tot 500 g en moet je 2 kg wegen, dan zoek je een balans met een "
+            ("p", r"Meet <strong>je balans tot \(500\) g en moet je \(2\) kg wegen, dan zoek je een balans met een "
                   "groter meetbereik</strong>. Wil je <strong>een temperatuurverschil van een halve graad meten, "
-                  "dan kies je een thermometer met streepjes van 0,1 °C</strong>: je toestel moet nauwkeuriger "
+                  r"dan kies je een thermometer met streepjes van \(0{,}1^{\circ}\text{C}\)</strong>: je toestel moet nauwkeuriger "
                   "zijn dan het verschil dat je wil zien."),
             ("p", "<strong>Voor je een massa op een digitale balans afleest, zet je de balans met het leeg "
                   "recipiënt op nul.</strong> Zo weeg je alleen de stof. "
@@ -1490,23 +1490,23 @@ BUNDELS["veilig-werken-meten-en-onderzoeken-beyond-dubbele-finaliteit"] = dict(
         ]),
         dict(kop="Grootheden, eenheden en voorvoegsels", blokken=[
             ("p", "Elke grootheid heeft haar eigen eenheid. Energie meet je in "
-                  "<strong>joule (J)</strong>: <strong>2 MJ is 2 000 000 joule</strong>, want mega betekent een "
+                  r"<strong>joule (J)</strong>: <strong>\(2\) MJ is \(2\,000\,000\) joule</strong>, want mega betekent een "
                   "miljoen keer."),
             ("p", "De <strong>SI-eenheid van massa is de kilogram</strong>. "
                   "<strong>Twee</strong> van de genoemde eenheden zijn SI-basiseenheden: "
                   "<strong>de meter</strong> en <strong>de seconde</strong>. De liter en de graad Celsius zijn "
                   "dat niet; de kelvin en de ampère wel."),
             ("fig", tabel(["Voorvoegsel", "Betekent", "Voorbeeld"], [
-                ["mega (M)", "een miljoen keer", "2 MJ is 2 000 000 J"],
-                ["kilo (k)", "duizend keer", "2,5 km is 2500 m"],
-                ["milli (m)", "een duizendste", "500 mg is 0,5 g"],
-                ["micro (µ)", "een miljoenste", "1 µm is 0,000001 m"],
-                ["nano (n)", "een miljardste", "1 nm is 0,000000001 m"],
+                ["mega (M)", "een miljoen keer", r"\(2\) MJ is \(2\,000\,000\) J"],
+                ["kilo (k)", "duizend keer", r"\(2{,}5\) km is \(2500\) m"],
+                ["milli (m)", "een duizendste", r"\(500\) mg is \(0{,}5\) g"],
+                ["micro (µ)", "een miljoenste", r"\(1\) µm is \(0{,}000001\) m"],
+                ["nano (n)", "een miljardste", r"\(1\) nm is \(0{,}000000001\) m"],
             ]), "De voorvoegsels van mega tot nano."),
-            ("p", "<strong>2,5 km is 2500 m</strong>, want <strong>kilo</strong> is het voorvoegsel voor "
-                  "<strong>duizend keer een eenheid</strong>. <strong>500 mg is 0,5 g</strong>, want "
+            ("p", r"<strong>\(2{,}5\) km is \(2500\) m</strong>, want <strong>kilo</strong> is het voorvoegsel voor "
+                  r"<strong>duizend keer een eenheid</strong>. <strong>\(500\) mg is \(0{,}5\) g</strong>, want "
                   "<strong>het voorvoegsel milli betekent een duizendste van de eenheid</strong>. "
-                  "<strong>Micro betekent een miljoenste</strong>, en <strong>2 MJ is 2 000 000 J</strong>."),
+                  r"<strong>Micro betekent een miljoenste</strong>, en <strong>\(2\) MJ is \(2\,000\,000\) J</strong>."),
             ("p", "Twee grootheden zijn <strong>recht evenredig</strong> als geldt: "
                   "<strong>verdubbelt de ene, dan verdubbelt de andere</strong>. In een grafiek is dat een "
                   "rechte, en <strong>bij een recht evenredig verband gaat die rechte door de oorsprong</strong>. "

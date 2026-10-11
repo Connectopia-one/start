@@ -58,10 +58,10 @@ DEEL1 = [
     ),
     dict(
         type="meerkeuze",
-        vraag="Een auto rijdt 150 kilometer in 2 uur. Wat is zijn gemiddelde snelheid?",
-        opties=["75 kilometer per uur", "150 kilometer per uur", "300 kilometer per uur", "50 kilometer per uur"],
+        vraag=r"Een auto rijdt \(150\) kilometer in \(2\) uur. Wat is zijn gemiddelde snelheid?",
+        opties=[r"\(75\) kilometer per uur", r"\(150\) kilometer per uur", r"\(300\) kilometer per uur", r"\(50\) kilometer per uur"],
         antwoord=0,
-        uitleg="De gemiddelde snelheid is de verplaatsing gedeeld door het tijdsverloop, dus 150 gedeeld door 2.",
+        uitleg=r"De gemiddelde snelheid is de verplaatsing gedeeld door het tijdsverloop, dus \(150 : 2\).",
     ),
     dict(
         type="waarofniet",
@@ -131,10 +131,10 @@ DEEL1 = [
     ),
     dict(
         type="meerkeuze",
-        vraag="Een puntmassa start op positie 20 meter en rijdt met 5 meter per seconde in de zin van de x-as. Waar zit ze na 4 seconden?",
-        opties=["op 40 meter", "op 20 meter", "op 5 meter", "op 80 meter"],
+        vraag=r"Een puntmassa start op positie \(20\) meter en rijdt met \(5\) meter per seconde in de zin van de x-as. Waar zit ze na \(4\) seconden?",
+        opties=[r"op \(40\) meter", r"op \(20\) meter", r"op \(5\) meter", r"op \(80\) meter"],
         antwoord=0,
-        uitleg="Je telt bij de beginpositie de verplaatsing op: 20 plus 5 maal 4. Dat is de positiefunctie van een eenparig rechtlijnige beweging.",
+        uitleg=r"Je telt bij de beginpositie de verplaatsing op: \(20\) plus \(5 \cdot 4\). Dat is de positiefunctie van een eenparig rechtlijnige beweging.",
     ),
     dict(
         type="waarofniet",
@@ -144,7 +144,7 @@ DEEL1 = [
     ),
     dict(
         type="meerkeuze",
-        vraag="Twee wandelaars vertrekken op hetzelfde ogenblik vanuit dezelfde plaats, de ene met 4 en de andere met 6 kilometer per uur. Hoe ziet dat in een x(t)-grafiek?",
+        vraag=r"Twee wandelaars vertrekken op hetzelfde ogenblik vanuit dezelfde plaats, de ene met \(4\) en de andere met \(6\) kilometer per uur. Hoe ziet dat in een x(t)-grafiek?",
         opties=[
             "twee rechten vanuit hetzelfde punt, waarvan de ene steiler loopt",
             "twee rechten die elkaar na een uur ergens weer kruisen",
@@ -174,16 +174,16 @@ DEEL1 = [
     ),
     dict(
         type="waarofniet",
-        vraag="Een snelheid van 36 kilometer per uur is hetzelfde als 36 meter per seconde.",
+        vraag=r"Een snelheid van \(36\) kilometer per uur is hetzelfde als \(36\) meter per seconde.",
         antwoord=False,
-        uitleg="Je deelt kilometer per uur door 3,6 om meter per seconde te krijgen. 36 kilometer per uur is dus 10 meter per seconde.",
+        uitleg=r"Je deelt kilometer per uur door \(3{,}6\) om meter per seconde te krijgen. \(36\) kilometer per uur is dus \(10\) meter per seconde.",
     ),
     dict(
         type="meerkeuze",
-        vraag="Een fietser rijdt 10 kilometer naar het oosten en daarna 10 kilometer terug naar het westen. Wat is zijn verplaatsing?",
-        opties=["nul kilometer", "20 kilometer", "10 kilometer", "5 kilometer"],
+        vraag=r"Een fietser rijdt \(10\) kilometer naar het oosten en daarna \(10\) kilometer terug naar het westen. Wat is zijn verplaatsing?",
+        opties=["nul kilometer", r"\(20\) kilometer", r"\(10\) kilometer", r"\(5\) kilometer"],
         antwoord=0,
-        uitleg="Hij eindigt waar hij begon, dus is de verplaatsing nul. De afgelegde weg is wel 20 kilometer.",
+        uitleg=r"Hij eindigt waar hij begon, dus is de verplaatsing nul. De afgelegde weg is wel \(20\) kilometer.",
     ),
 ]
 
@@ -210,7 +210,7 @@ DEEL2 = [
             "de afgelegde weg gedeeld door het tijdsverloop",
         ],
         antwoord=0,
-        uitleg="De eenheid is meter per seconde per seconde. Een versnelling van 2 betekent dat de snelheid elke seconde met 2 meter per seconde toeneemt.",
+        uitleg=r"De eenheid is meter per seconde per seconde. Een versnelling van \(2\) betekent dat de snelheid elke seconde met \(2\) meter per seconde toeneemt.",
     ),
     dict(
         type="waarofniet",
@@ -262,10 +262,10 @@ DEEL2 = [
     ),
     dict(
         type="meerkeuze",
-        vraag="Een voorwerp start uit stilstand en versnelt met 3 meter per seconde kwadraat. Welke snelheid heeft het na 4 seconden?",
-        opties=["12 meter per seconde", "3 meter per seconde", "7 meter per seconde", "0,75 meter per seconde"],
+        vraag=r"Een voorwerp start uit stilstand en versnelt met \(3\) meter per seconde kwadraat. Welke snelheid heeft het na \(4\) seconden?",
+        opties=[r"\(12\) meter per seconde", r"\(3\) meter per seconde", r"\(7\) meter per seconde", r"\(0{,}75\) meter per seconde"],
         antwoord=0,
-        uitleg="Je vermenigvuldigt de versnelling met de tijd: 3 maal 4. Vanuit stilstand hoef je er niets bij te tellen.",
+        uitleg=r"Je vermenigvuldigt de versnelling met de tijd: \(3 \cdot 4\). Vanuit stilstand hoef je er niets bij te tellen.",
     ),
     dict(
         type="waarofniet",
@@ -283,7 +283,7 @@ DEEL2 = [
             "bij versnellen is de lijn vlak, bij vertragen is ze schuin",
         ],
         antwoord=0,
-        uitleg="Je kijkt naar de grootte van de snelheid, niet naar het teken. Een snelheid van min 2 naar min 8 is ook versnellen.",
+        uitleg=r"Je kijkt naar de grootte van de snelheid, niet naar het teken. Een snelheid van min \(2\) naar min \(8\) is ook versnellen.",
     ),
     dict(
         type="invultekst",
@@ -311,22 +311,22 @@ DEEL2 = [
     ),
     dict(
         type="meerkeuze",
-        vraag="Een v(t)-grafiek daalt van 20 meter per seconde naar nul in 5 seconden. Wat is de versnelling?",
+        vraag=r"Een v(t)-grafiek daalt van \(20\) meter per seconde naar nul in \(5\) seconden. Wat is de versnelling?",
         opties=[
-            "min 4 meter per seconde kwadraat",
-            "plus 4 meter per seconde kwadraat",
-            "min 100 meter per seconde kwadraat",
-            "min 0,25 meter per seconde kwadraat",
+            r"min \(4\) meter per seconde kwadraat",
+            r"plus \(4\) meter per seconde kwadraat",
+            r"min \(100\) meter per seconde kwadraat",
+            r"min \(0{,}25\) meter per seconde kwadraat",
         ],
         antwoord=0,
-        uitleg="Je deelt de verandering van snelheid door de tijd: min 20 gedeeld door 5. Het minteken zegt dat het vertragen is.",
+        uitleg=r"Je deelt de verandering van snelheid door de tijd: min \(20 : 5\). Het minteken zegt dat het vertragen is.",
     ),
     dict(
         type="meerkeuze",
-        vraag="Een auto rijdt met 20 meter per seconde en vertraagt gelijkmatig tot stilstand in 5 seconden. Hoeveel meter legt hij nog af?",
-        opties=["50 meter", "100 meter", "25 meter", "20 meter"],
+        vraag=r"Een auto rijdt met \(20\) meter per seconde en vertraagt gelijkmatig tot stilstand in \(5\) seconden. Hoeveel meter legt hij nog af?",
+        opties=[r"\(50\) meter", r"\(100\) meter", r"\(25\) meter", r"\(20\) meter"],
         antwoord=0,
-        uitleg="De oppervlakte onder de v(t)-grafiek is een driehoek: de helft van 20 maal 5. Dat is de remweg.",
+        uitleg=r"De oppervlakte onder de v(t)-grafiek is een driehoek: de helft van \(20 \cdot 5\). Dat is de remweg.",
     ),
     dict(
         type="waarofniet",

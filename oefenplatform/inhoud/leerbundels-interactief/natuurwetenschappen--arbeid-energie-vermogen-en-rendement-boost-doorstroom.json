@@ -16,11 +16,11 @@
     },
     {
      "soort": "tekst",
-     "html": "Werkt de kracht <strong>in dezelfde zin</strong> als de verplaatsing, dan is de arbeid <strong>positief</strong>; werkt ze <strong>tegengesteld</strong>, dan is de arbeid <strong>negatief</strong> (de wrijvingskracht). Staat ze <strong>loodrecht</strong> op de verplaatsing, dan verricht ze <strong>geen arbeid</strong>: de cosinus van 90 graden is nul."
+     "html": "Werkt de kracht <strong>in dezelfde zin</strong> als de verplaatsing, dan is de arbeid <strong>positief</strong>; werkt ze <strong>tegengesteld</strong>, dan is de arbeid <strong>negatief</strong> (de wrijvingskracht). Staat ze <strong>loodrecht</strong> op de verplaatsing, dan verricht ze <strong>geen arbeid</strong>: de cosinus van \\(90\\) graden is nul."
     },
     {
      "soort": "tekst",
-     "html": "Duw je een doos 3 meter ver met 40 newton in de zin van de beweging, dan is de arbeid <strong>120 joule</strong>: kracht maal verplaatsing. Werkt de kracht onder een hoek, dan komt er nog een cosinus bij."
+     "html": "Duw je een doos \\(3\\) meter ver met \\(40\\) newton in de zin van de beweging, dan is de arbeid <strong>\\(120\\) joule</strong>: kracht maal verplaatsing. Werkt de kracht onder een hoek, dan komt er nog een cosinus bij."
     }
    ]
   },
@@ -37,7 +37,7 @@
     },
     {
      "soort": "tekst",
-     "html": "Omdat de <strong>snelheid in het kwadraat</strong> staat, weegt die zwaar door: <strong>twee keer zo snel is vier keer zo veel kinetische energie</strong>, en daarom wordt de remweg bij dubbele snelheid veel meer dan dubbel zo lang. Een voorwerp van 2 kilogram met 3 meter per seconde heeft <strong>9 joule</strong>. Bij de elastische energie staat de uitrekking om dezelfde reden in het kwadraat."
+     "html": "Omdat de <strong>snelheid in het kwadraat</strong> staat, weegt die zwaar door: <strong>twee keer zo snel is vier keer zo veel kinetische energie</strong>, en daarom wordt de remweg bij dubbele snelheid veel meer dan dubbel zo lang. Een voorwerp van \\(2\\) kilogram met \\(3\\) meter per seconde heeft <strong>\\(9\\) joule</strong>. Bij de elastische energie staat de uitrekking om dezelfde reden in het kwadraat."
     },
     {
      "soort": "tekst",
@@ -62,7 +62,7 @@
     },
     {
      "soort": "tekst",
-     "html": "Een bal van 1 kilogram die 5 meter valt heeft net voor de bodem <strong>50 joule</strong> kinetische energie, als je met 10 newton per kilogram rekent en de luchtweerstand verwaarloost: alle hoogte-energie is dan omgezet."
+     "html": "Een bal van \\(1\\) kilogram die \\(5\\) meter valt heeft net voor de bodem <strong>\\(50\\) joule</strong> kinetische energie, als je met \\(10\\) newton per kilogram rekent en de luchtweerstand verwaarloost: alle hoogte-energie is dan omgezet."
     },
     {
      "soort": "tekst",
@@ -83,23 +83,23 @@
    "blokken": [
     {
      "soort": "tekst",
-     "html": "Het <strong>vermogen</strong> is de <strong>omgezette energie gedeeld door de tijd</strong>, in <strong>watt</strong>: joule per seconde. Een motor die 400 joule omzet in 5 seconden heeft een vermogen van <strong>80 watt</strong>. Een toestel met een <strong>groter vermogen zet in dezelfde tijd meer energie om</strong>, en daarom kookt een waterkoker van 2000 watt sneller dan een van 1000 watt."
+     "html": "Het <strong>vermogen</strong> is de <strong>omgezette energie gedeeld door de tijd</strong>, in <strong>watt</strong>: joule per seconde. Een motor die \\(400\\) joule omzet in \\(5\\) seconden heeft een vermogen van <strong>\\(80\\) watt</strong>. Een toestel met een <strong>groter vermogen zet in dezelfde tijd meer energie om</strong>, en daarom kookt een waterkoker van \\(2000\\) watt sneller dan een van \\(1000\\) watt."
     },
     {
      "soort": "tekst",
-     "html": "Omgekeerd: een toestel van <strong>2000 watt</strong> dat een <strong>half uur</strong> aanstaat gebruikt <strong>1 kilowattuur</strong>. Je vermenigvuldigt het vermogen in kilowatt met de tijd in uur, en zo rekent ook je elektriciteitsmeter."
+     "html": "Omgekeerd: een toestel van <strong>\\(2000\\) watt</strong> dat een <strong>half uur</strong> aanstaat gebruikt <strong>\\(1\\) kilowattuur</strong>. Je vermenigvuldigt het vermogen in kilowatt met de tijd in uur, en zo rekent ook je elektriciteitsmeter."
     },
     {
      "soort": "tekst",
-     "html": "Het <strong>rendement</strong> is de <strong>nuttige energie gedeeld door de totale energie</strong>, meestal in procent. Van 1000 joule met 250 joule nuttig is het rendement <strong>25 procent</strong>. De <strong>ongewenste energie</strong> is de <strong>totale min de nuttige</strong>."
+     "html": "Het <strong>rendement</strong> is de <strong>nuttige energie gedeeld door de totale energie</strong>, meestal in procent. Van \\(1000\\) joule met \\(250\\) joule nuttig is het rendement <strong>\\(25\\) procent</strong>. De <strong>ongewenste energie</strong> is de <strong>totale min de nuttige</strong>."
     },
     {
      "soort": "tekst",
-     "html": "Een rendement <strong>boven honderd procent bestaat niet</strong>: er kan nooit meer energie uit komen dan er in gaat. Een lamp die 100 joule krijgt en 5 joule licht geeft, zet de overige <strong>95 joule in warmte</strong> om; bij een gloeilamp is dat het grootste deel, en daarom heeft een <strong>ledlamp een veel beter rendement</strong>."
+     "html": "Een rendement <strong>boven honderd procent bestaat niet</strong>: er kan nooit meer energie uit komen dan er in gaat. Een lamp die \\(100\\) joule krijgt en \\(5\\) joule licht geeft, zet de overige <strong>\\(95\\) joule in warmte</strong> om; bij een gloeilamp is dat het grootste deel, en daarom heeft een <strong>ledlamp een veel beter rendement</strong>."
     },
     {
      "soort": "tekst",
-     "html": "Koken twee waterkokers dezelfde liter water, de ene op 2 en de andere op 4 minuten, dan heeft de <strong>snelste het grootste vermogen</strong>: voor dezelfde energie in de helft van de tijd heb je dubbel het vermogen nodig. Hun rendement kan daarnaast nog verschillen."
+     "html": "Koken twee waterkokers dezelfde liter water, de ene op \\(2\\) en de andere op \\(4\\) minuten, dan heeft de <strong>snelste het grootste vermogen</strong>: voor dezelfde energie in de helft van de tijd heb je dubbel het vermogen nodig. Hun rendement kan daarnaast nog verschillen."
     },
     {
      "soort": "weetje",

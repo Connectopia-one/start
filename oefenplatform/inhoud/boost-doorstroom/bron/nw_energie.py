@@ -34,7 +34,7 @@ DEEL1 = [
         type="waarofniet",
         vraag="Een kracht die loodrecht op de verplaatsing staat, verricht geen arbeid.",
         antwoord=True,
-        uitleg="De cosinus van 90 graden is nul. Daarom verricht de normaalkracht op een voorwerp dat horizontaal schuift geen arbeid.",
+        uitleg=r"De cosinus van \(90\) graden is nul. Daarom verricht de normaalkracht op een voorwerp dat horizontaal schuift geen arbeid.",
     ),
     dict(
         type="meerkeuze",
@@ -183,10 +183,10 @@ DEEL1 = [
     ),
     dict(
         type="meerkeuze",
-        vraag="Je duwt een doos van 3 meter ver met een kracht van 40 newton in de zin van de beweging. Hoeveel arbeid verricht je?",
-        opties=["120 joule", "43 joule", "13 joule", "40 joule"],
+        vraag=r"Je duwt een doos van \(3\) meter ver met een kracht van \(40\) newton in de zin van de beweging. Hoeveel arbeid verricht je?",
+        opties=[r"\(120\) joule", r"\(43\) joule", r"\(13\) joule", r"\(40\) joule"],
         antwoord=0,
-        uitleg="Je vermenigvuldigt de kracht met de verplaatsing: 40 maal 3. Werkt de kracht onder een hoek, dan komt er nog een cosinus bij.",
+        uitleg=r"Je vermenigvuldigt de kracht met de verplaatsing: \(40 \cdot 3\). Werkt de kracht onder een hoek, dan komt er nog een cosinus bij.",
     ),
 ]
 
@@ -205,10 +205,10 @@ DEEL2 = [
     ),
     dict(
         type="meerkeuze",
-        vraag="Een voorwerp van 2 kilogram beweegt met 3 meter per seconde. Hoeveel kinetische energie heeft het?",
-        opties=["9 joule", "6 joule", "18 joule", "3 joule",],
+        vraag=r"Een voorwerp van \(2\) kilogram beweegt met \(3\) meter per seconde. Hoeveel kinetische energie heeft het?",
+        opties=[r"\(9\) joule", r"\(6\) joule", r"\(18\) joule", r"\(3\) joule",],
         antwoord=0,
-        uitleg="Je rekent de helft van 2 maal 9. Dat geeft 9 joule.",
+        uitleg=r"Je rekent de helft van \(2 \cdot 9\). Dat geeft \(9\) joule.",
     ),
     dict(
         type="waarofniet",
@@ -232,7 +232,7 @@ DEEL2 = [
         type="invultekst",
         vraag="Wat is de eenheid van vermogen?",
         antwoord="watt",
-        uitleg="Eén watt is één joule per seconde. Een lamp van 10 watt gebruikt dus 10 joule per seconde.",
+        uitleg=r"Eén watt is één joule per seconde. Een lamp van \(10\) watt gebruikt dus \(10\) joule per seconde.",
     ),
     dict(
         type="meerkeuze",
@@ -250,14 +250,14 @@ DEEL2 = [
         type="waarofniet",
         vraag="Een toestel met een groter vermogen zet in dezelfde tijd meer energie om.",
         antwoord=True,
-        uitleg="Vermogen is energie per seconde. Een waterkoker van 2000 watt kookt dus sneller dan een van 1000 watt.",
+        uitleg=r"Vermogen is energie per seconde. Een waterkoker van \(2000\) watt kookt dus sneller dan een van \(1000\) watt.",
     ),
     dict(
         type="meerkeuze",
-        vraag="Een motor zet 400 joule om in 5 seconden. Wat is zijn vermogen?",
-        opties=["80 watt", "2000 watt", "405 watt", "8 watt"],
+        vraag=r"Een motor zet \(400\) joule om in \(5\) seconden. Wat is zijn vermogen?",
+        opties=[r"\(80\) watt", r"\(2000\) watt", r"\(405\) watt", r"\(8\) watt"],
         antwoord=0,
-        uitleg="Je deelt de energie door de tijd: 400 gedeeld door 5. Dat geeft 80 joule per seconde, dus 80 watt.",
+        uitleg=r"Je deelt de energie door de tijd: \(400 : 5\). Dat geeft \(80\) joule per seconde, dus \(80\) watt.",
     ),
     dict(
         type="meerkeuze",
@@ -273,18 +273,18 @@ DEEL2 = [
     ),
     dict(
         type="invultekst",
-        vraag="Hoeveel procent is het rendement als van 1000 joule 250 joule nuttig is?",
+        vraag=r"Hoeveel procent is het rendement als van \(1000\) joule \(250\) joule nuttig is?",
         antwoord="25",
-        uitleg="Je deelt 250 door 1000 en dat is een kwart. De overige 750 joule gaat naar een ongewenste vorm.",
+        uitleg=r"Je deelt \(250\) door \(1000\) en dat is een kwart. De overige \(750\) joule gaat naar een ongewenste vorm.",
     ),
     dict(
         type="meerkeuze",
-        vraag="Een lamp krijgt 100 joule en geeft 5 joule licht. Wat gebeurt er met de rest?",
+        vraag=r"Een lamp krijgt \(100\) joule en geeft \(5\) joule licht. Wat gebeurt er met de rest?",
         opties=[
-            "die 95 joule wordt warmte, de ongewenste energievorm hier",
-            "die 95 joule verdwijnt en is daarna helemaal niet meer terug",
-            "die 95 joule blijft als elektrische energie in de lamp zitten",
-            "die 95 joule wordt teruggestuurd naar het elektriciteitsnet",
+            r"die \(95\) joule wordt warmte, de ongewenste energievorm hier",
+            r"die \(95\) joule verdwijnt en is daarna helemaal niet meer terug",
+            r"die \(95\) joule blijft als elektrische energie in de lamp zitten",
+            r"die \(95\) joule wordt teruggestuurd naar het elektriciteitsnet",
         ],
         antwoord=0,
         uitleg="Energie verdwijnt nooit. Bij een gloeilamp is de warmte veel groter dan het licht, en dat is precies waarom ze verboden werd.",
@@ -297,10 +297,10 @@ DEEL2 = [
     ),
     dict(
         type="meerkeuze",
-        vraag="Een bal van 1 kilogram valt van 5 meter hoog. Hoeveel kinetische energie heeft hij net voor de bodem, met 10 newton per kilogram?",
-        opties=["50 joule", "5 joule", "10 joule", "500 joule"],
+        vraag=r"Een bal van \(1\) kilogram valt van \(5\) meter hoog. Hoeveel kinetische energie heeft hij net voor de bodem, met \(10\) newton per kilogram?",
+        opties=[r"\(50\) joule", r"\(5\) joule", r"\(10\) joule", r"\(500\) joule"],
         antwoord=0,
-        uitleg="Alle hoogte-energie is dan omgezet: 1 maal 10 maal 5. De luchtweerstand verwaarloos je hier.",
+        uitleg=r"Alle hoogte-energie is dan omgezet: \(1 \cdot 10 \cdot 5\). De luchtweerstand verwaarloos je hier.",
     ),
     dict(
         type="meerkeuze",
@@ -334,15 +334,15 @@ DEEL2 = [
     ),
     dict(
         type="meerkeuze",
-        vraag="Een toestel van 2000 watt staat een half uur aan. Hoeveel energie gebruikt het?",
+        vraag=r"Een toestel van \(2000\) watt staat een half uur aan. Hoeveel energie gebruikt het?",
         opties=[
-            "1 kilowattuur",
-            "2 kilowattuur",
-            "4 kilowattuur",
-            "0,5 kilowattuur",
+            r"\(1\) kilowattuur",
+            r"\(2\) kilowattuur",
+            r"\(4\) kilowattuur",
+            r"\(0{,}5\) kilowattuur",
         ],
         antwoord=0,
-        uitleg="Je vermenigvuldigt het vermogen in kilowatt met de tijd in uur: 2 maal 0,5. Zo rekent ook je elektriciteitsmeter.",
+        uitleg=r"Je vermenigvuldigt het vermogen in kilowatt met de tijd in uur: \(2 \cdot 0{,}5\). Zo rekent ook je elektriciteitsmeter.",
     ),
     dict(
         type="invultekst",
@@ -358,7 +358,7 @@ DEEL2 = [
     ),
     dict(
         type="meerkeuze",
-        vraag="Twee waterkokers koken dezelfde liter water, de ene op 2 minuten en de andere op 4. Wat weet je?",
+        vraag=r"Twee waterkokers koken dezelfde liter water, de ene op \(2\) minuten en de andere op \(4\). Wat weet je?",
         opties=[
             "de snelste heeft het grootste vermogen, want hij zet sneller energie om",
             "de snelste gebruikt in totaal veel minder energie dan de andere",

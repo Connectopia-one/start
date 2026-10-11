@@ -12,7 +12,7 @@
     },
     {
      "soort": "tekst",
-     "html": "De <strong>afgelegde weg</strong> is de <strong>hele baan</strong> die je volgt. De <strong>verplaatsing</strong> gaat alleen <strong>van begin naar eind</strong>. Rijd je 10 kilometer naar het oosten en 10 kilometer terug, dan is de afgelegde weg <strong>20 kilometer</strong> en de verplaatsing <strong>nul</strong>. De verplaatsing is dus nooit groter dan de afgelegde weg."
+     "html": "De <strong>afgelegde weg</strong> is de <strong>hele baan</strong> die je volgt. De <strong>verplaatsing</strong> gaat alleen <strong>van begin naar eind</strong>. Rijd je \\(10\\) kilometer naar het oosten en \\(10\\) kilometer terug, dan is de afgelegde weg <strong>\\(20\\) kilometer</strong> en de verplaatsing <strong>nul</strong>. De verplaatsing is dus nooit groter dan de afgelegde weg."
     },
     {
      "soort": "tekst",
@@ -33,11 +33,11 @@
     },
     {
      "soort": "tekst",
-     "html": "De <strong>gemiddelde snelheid</strong> is de <strong>verplaatsing gedeeld door het tijdsverloop</strong>. Rijd je 150 kilometer in 2 uur, dan is dat <strong>75 kilometer per uur</strong>. Om van kilometer per uur naar <strong>meter per seconde</strong> te gaan, deel je door <strong>3,6</strong>: 36 kilometer per uur is 10 meter per seconde."
+     "html": "De <strong>gemiddelde snelheid</strong> is de <strong>verplaatsing gedeeld door het tijdsverloop</strong>. Rijd je \\(150\\) kilometer in \\(2\\) uur, dan is dat <strong>\\(75\\) kilometer per uur</strong>. Om van kilometer per uur naar <strong>meter per seconde</strong> te gaan, deel je door <strong>\\(3{,}6\\)</strong>: \\(36\\) kilometer per uur is \\(10\\) meter per seconde."
     },
     {
      "soort": "tekst",
-     "html": "De <strong>positiefunctie</strong> van een ERB telt bij de <strong>beginpositie</strong> de verplaatsing op. Start je op 20 meter en rijd je met 5 meter per seconde, dan zit je na 4 seconden op <strong>40 meter</strong>."
+     "html": "De <strong>positiefunctie</strong> van een ERB telt bij de <strong>beginpositie</strong> de verplaatsing op. Start je op \\(20\\) meter en rijd je met \\(5\\) meter per seconde, dan zit je na \\(4\\) seconden op <strong>\\(40\\) meter</strong>."
     },
     {
      "soort": "tekst",
@@ -62,7 +62,7 @@
     },
     {
      "soort": "tekst",
-     "html": "De <strong>versnelling</strong> is de <strong>verandering van de snelheid per tijdseenheid</strong>. Haar symbool is <strong>a</strong> en haar eenheid <strong>meter per seconde kwadraat</strong>: meter per seconde, en dat per seconde opnieuw. Start je uit stilstand met 3 meter per seconde kwadraat, dan heb je na 4 seconden <strong>12 meter per seconde</strong>."
+     "html": "De <strong>versnelling</strong> is de <strong>verandering van de snelheid per tijdseenheid</strong>. Haar symbool is <strong>a</strong> en haar eenheid <strong>meter per seconde kwadraat</strong>: meter per seconde, en dat per seconde opnieuw. Start je uit stilstand met \\(3\\) meter per seconde kwadraat, dan heb je na \\(4\\) seconden <strong>\\(12\\) meter per seconde</strong>."
     },
     {
      "soort": "tekst",
@@ -70,11 +70,11 @@
     },
     {
      "soort": "tekst",
-     "html": "<strong>Versnellen of vertragen?</strong> Je kijkt naar de <strong>grootte</strong> van de snelheid, niet naar het teken. Gaat die omhoog, dan is het versnellen; gaat ze omlaag, dan is het vertragen. Van min 2 naar min 8 is dus ook versnellen. Rijdt een auto vooruit en is de versnelling <strong>negatief</strong>, dan <strong>vertraagt</strong> hij."
+     "html": "<strong>Versnellen of vertragen?</strong> Je kijkt naar de <strong>grootte</strong> van de snelheid, niet naar het teken. Gaat die omhoog, dan is het versnellen; gaat ze omlaag, dan is het vertragen. Van min \\(2\\) naar min \\(8\\) is dus ook versnellen. Rijdt een auto vooruit en is de versnelling <strong>negatief</strong>, dan <strong>vertraagt</strong> hij."
     },
     {
      "soort": "tekst",
-     "html": "Een v(t)-grafiek die van 20 meter per seconde naar nul daalt in 5 seconden geeft een versnelling van <strong>min 4 meter per seconde kwadraat</strong>. De <strong>oppervlakte onder die driehoek</strong> is de afgelegde weg: de helft van 20 maal 5, dus <strong>50 meter</strong> remweg."
+     "html": "Een v(t)-grafiek die van \\(20\\) meter per seconde naar nul daalt in \\(5\\) seconden geeft een versnelling van <strong>min \\(4\\) meter per seconde kwadraat</strong>. De <strong>oppervlakte onder die driehoek</strong> is de afgelegde weg: de helft van \\(20\\) maal \\(5\\), dus <strong>\\(50\\) meter</strong> remweg."
     },
     {
      "soort": "tekst",
@@ -109,7 +109,7 @@
   "De afgelegde weg is de hele baan, de verplaatsing gaat alleen van begin naar eind.",
   "Een vector heeft vier kenmerken: grootte, richting, zin en aangrijpingspunt.",
   "ERB: de snelheid blijft onveranderd en de baan is een rechte lijn.",
-  "Gemiddelde snelheid = verplaatsing gedeeld door tijdsverloop. Van kilometer per uur naar meter per seconde: delen door 3,6.",
+  "Gemiddelde snelheid = verplaatsing gedeeld door tijdsverloop. Van kilometer per uur naar meter per seconde: delen door \\(3{,}6\\).",
   "EVRB: de versnelling blijft onveranderd; haar eenheid is meter per seconde kwadraat.",
   "In een v(t)-grafiek is de steilheid de versnelling en de oppervlakte eronder de verplaatsing.",
   "Versnellen of vertragen lees je aan de grootte van de snelheid, niet aan het teken.",

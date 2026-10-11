@@ -26,7 +26,7 @@ DEEL1 = [
         type="invultekst",
         vraag="Met welke snelheid beweegt een elektromagnetische golf in vacuüm?",
         antwoord=["de lichtsnelheid", "lichtsnelheid"],
-        uitleg="Dat is ongeveer 300 000 kilometer per seconde, voor elke soort straling van het spectrum. In glas of water gaat de golf trager.",
+        uitleg=r"Dat is ongeveer \(300\,000\) kilometer per seconde, voor elke soort straling van het spectrum. In glas of water gaat de golf trager.",
     ),
     dict(
         type="waarofniet",

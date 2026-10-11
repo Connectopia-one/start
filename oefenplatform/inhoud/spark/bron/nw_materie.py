@@ -35,7 +35,7 @@ DEEL1 = [
         type="invultekst",
         vraag="Een vaste stof die vloeibaar wordt: die faseovergang heet ___.",
         antwoord="smelten",
-        uitleg="Smelten is van vast naar vloeibaar, stollen is het omgekeerde. IJs smelt bij 0 °C en water stolt bij diezelfde temperatuur.",
+        uitleg=r"Smelten is van vast naar vloeibaar, stollen is het omgekeerde. IJs smelt bij \(0^{\circ}\text{C}\) en water stolt bij diezelfde temperatuur.",
     ),
     dict(
         type="meerkeuze",
@@ -272,7 +272,7 @@ DEEL2 = [
         type="waarofniet",
         vraag="Tijdens het smelten van ijs stijgt de temperatuur van het mengsel ijs en water.",
         antwoord=False,
-        uitleg="Zolang er nog ijs drijft, blijft de temperatuur 0 °C. Alle toegevoerde warmte gaat naar het losmaken van de deeltjes, niet naar opwarmen.",
+        uitleg=r"Zolang er nog ijs drijft, blijft de temperatuur \(0^{\circ}\text{C}\). Alle toegevoerde warmte gaat naar het losmaken van de deeltjes, niet naar opwarmen.",
     ),
     dict(
         type="meerkeuze",
@@ -292,7 +292,7 @@ DEEL2 = [
         type="invultekst",
         vraag="De overgang van vloeibaar naar vast heet ___.",
         antwoord=["stollen", "bevriezen"],
-        uitleg="Stollen is het omgekeerde van smelten. Voor eenzelfde zuivere stof gebeuren ze bij dezelfde temperatuur, bijvoorbeeld 0 °C voor water.",
+        uitleg=r"Stollen is het omgekeerde van smelten. Voor eenzelfde zuivere stof gebeuren ze bij dezelfde temperatuur, bijvoorbeeld \(0^{\circ}\text{C}\) voor water.",
     ),
     dict(
         type="meerkeuze",

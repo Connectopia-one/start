@@ -62,7 +62,7 @@ DEEL1 = [
         type="invultekst",
         vraag="Hoe noem je de waarde waarrond een feedbacksysteem het inwendige milieu houdt?",
         antwoord="normwaarde",
-        uitleg="Voor de lichaamstemperatuur ligt die normwaarde rond 37 graden. Wijkt de gemeten waarde daarvan af, dan grijpt het systeem in.",
+        uitleg=r"Voor de lichaamstemperatuur ligt die normwaarde rond \(37\) graden. Wijkt de gemeten waarde daarvan af, dan grijpt het systeem in.",
     ),
     dict(
         type="meerkeuze",
@@ -405,7 +405,7 @@ DEEL2 = [
     ),
     dict(
         type="meerkeuze",
-        vraag="Bij diabetes type 1 maakt de alvleesklier geen insuline meer. Wat loopt er mis in het feedbacksysteem?",
+        vraag=r"Bij diabetes type \(1\) maakt de alvleesklier geen insuline meer. Wat loopt er mis in het feedbacksysteem?",
         opties=[
             "het signaal valt weg, dus blijft het glucosegehalte te hoog staan",
             "de receptoren meten het glucosegehalte niet meer in het bloed",

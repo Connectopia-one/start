@@ -184,9 +184,9 @@ DEEL2 = [
     dict(
         type="meerkeuze",
         vraag="Hoelang duurt een menstruatiecyclus gemiddeld?",
-        opties=["Ongeveer 28 dagen", "Ongeveer 7 dagen", "Ongeveer 90 dagen"],
+        opties=[r"Ongeveer \(28\) dagen", r"Ongeveer \(7\) dagen", r"Ongeveer \(90\) dagen"],
         antwoord=0,
-        uitleg="Gemiddeld 28 dagen, maar tussen 21 en 35 dagen is normaal. De eerste dag van de menstruatie is dag 1 van de cyclus.",
+        uitleg=r"Gemiddeld \(28\) dagen, maar tussen \(21\) en \(35\) dagen is normaal. De eerste dag van de menstruatie is dag \(1\) van de cyclus.",
     ),
     dict(
         type="meerkeuze",
@@ -197,7 +197,7 @@ DEEL2 = [
             "Er worden zaadcellen gemaakt",
         ],
         antwoord=0,
-        uitleg="De eisprong valt ongeveer halverwege de cyclus, rond dag 14. De eicel wordt opgevangen door de eitrechter en kan daar ongeveer een dag bevrucht worden.",
+        uitleg=r"De eisprong valt ongeveer halverwege de cyclus, rond dag \(14\). De eicel wordt opgevangen door de eitrechter en kan daar ongeveer een dag bevrucht worden.",
     ),
     dict(
         type="meerkeuze",

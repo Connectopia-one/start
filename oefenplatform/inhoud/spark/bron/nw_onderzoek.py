@@ -143,7 +143,7 @@ DEEL1 = [
     ),
     dict(
         type="meerkeuze",
-        vraag="Uit een tabel lees je: bij 10 °C duurt het 40 min, bij 20 °C 20 min, bij 40 °C 10 min. Wat is het verband?",
+        vraag=r"Uit een tabel lees je: bij \(10^{\circ}\text{C}\) duurt het \(40\) min, bij \(20^{\circ}\text{C}\,20\) min, bij \(40^{\circ}\text{C}\,10\) min. Wat is het verband?",
         opties=[
             "Hoe hoger de temperatuur, hoe korter de tijd",
             "Hoe hoger de temperatuur, hoe langer de tijd",
@@ -221,7 +221,7 @@ DEEL2 = [
     ),
     dict(
         type="meerkeuze",
-        vraag="Je meet de temperatuur van afkoelend water: 80 °C, 60 °C, 45 °C, 35 °C, 30 °C. Wat zie je in de grafiek?",
+        vraag=r"Je meet de temperatuur van afkoelend water: \(80^{\circ}\text{C}\), \(60^{\circ}\text{C}\), \(45^{\circ}\text{C}\), \(35^{\circ}\text{C}\), \(30^{\circ}\text{C}\). Wat zie je in de grafiek?",
         opties=[
             "Een dalende kromme die steeds vlakker wordt",
             "Een rechte die stijgt",
@@ -232,15 +232,15 @@ DEEL2 = [
     ),
     dict(
         type="meerkeuze",
-        vraag="Uit de formule v = Δx / Δt: hoe schrijf je Δt in functie van de andere?",
-        opties=["Δt = Δx / v", "Δt = v × Δx", "Δt = v / Δx"],
+        vraag=r"Uit de formule \(v = \Delta x / \Delta t\): hoe schrijf je Δt in functie van de andere?",
+        opties=[r"\(\Delta t = \Delta x / v\)", r"\(\Delta t = v \times \Delta x\)", r"\(\Delta t = v / \Delta x\)"],
         antwoord=0,
-        uitleg="Een formule omvormen is een wiskundige vaardigheid die je hier nodig hebt: uit v = Δx / Δt volgt Δx = v × Δt en dus Δt = Δx / v.",
+        uitleg=r"Een formule omvormen is een wiskundige vaardigheid die je hier nodig hebt: uit \(v = \Delta x / \Delta t\) volgt \(\Delta x = v \times \Delta t\) en dus \(\Delta t = \Delta x / v\).",
     ),
     dict(
         type="meerkeuze",
-        vraag="Uit de formule ρ = m / V: hoe bereken je de massa?",
-        opties=["m = ρ × V", "m = ρ / V", "m = V / ρ"],
+        vraag=r"Uit de formule \(\rho = m / V\): hoe bereken je de massa?",
+        opties=[r"\(m = \rho \times V\)", r"\(m = \rho / V\)", r"\(m = V / \rho\)"],
         antwoord=0,
         uitleg="Vermenigvuldig beide kanten met V. Zo kan je uit dezelfde formule alle drie de grootheden halen.",
     ),
@@ -300,17 +300,17 @@ DEEL2 = [
     ),
     dict(
         type="meerkeuze",
-        vraag="In een grafiek lees je bij 4 s een afstand van 20 m af. Wat is de snelheid als de lijn een rechte door de oorsprong is?",
-        opties=["5 m/s", "80 m/s", "0,2 m/s"],
+        vraag=r"In een grafiek lees je bij \(4\) s een afstand van \(20\) m af. Wat is de snelheid als de lijn een rechte door de oorsprong is?",
+        opties=[r"\(5\) m/s", r"\(80\) m/s", r"\(0{,}2\) m/s"],
         antwoord=0,
-        uitleg="Gegevens uit een grafiek halen: v = Δx / Δt = 20 : 4 = 5 m/s. Bij een rechte door de oorsprong geldt dat op elk punt.",
+        uitleg=r"Gegevens uit een grafiek halen: \(v = \Delta x / \Delta t = 20 : 4 = 5\) m/s. Bij een rechte door de oorsprong geldt dat op elk punt.",
     ),
     dict(
         type="meerkeuze",
         vraag="Wat is het verschil tussen een waarneming en een besluit?",
         opties=["Een waarneming is wat je meet, een besluit leid je af", "Een waarneming komt na het besluit dat je trekt", "Er is geen verschil"],
         antwoord=0,
-        uitleg="'Het water is 30 °C' is een waarneming. 'Het water koelt trager af met een deksel' is een besluit dat je uit meerdere waarnemingen haalt.",
+        uitleg=r"'Het water is \(30^{\circ}\text{C}\)' is een waarneming. 'Het water koelt trager af met een deksel' is een besluit dat je uit meerdere waarnemingen haalt.",
     ),
     dict(
         type="invultekst",

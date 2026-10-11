@@ -143,10 +143,10 @@ DEEL1 = [
     ),
     dict(
         type="meerkeuze",
-        vraag="Je mengt 2 mol van stof A met 5 mol van stof B, terwijl de reactie één op één verloopt. Welke stof is in overmaat?",
+        vraag=r"Je mengt \(2\) mol van stof A met \(5\) mol van stof B, terwijl de reactie één op één verloopt. Welke stof is in overmaat?",
         opties=["stof B", "stof A", "geen van de twee", "beide stoffen"],
         antwoord=0,
-        uitleg="A is na 2 mol op en is dus het limiterend reagens. Van B blijven er 3 mol staan, dus B is in overmaat.",
+        uitleg=r"A is na \(2\) mol op en is dus het limiterend reagens. Van B blijven er \(3\) mol staan, dus B is in overmaat.",
     ),
     dict(
         type="invultekst",
@@ -279,7 +279,7 @@ DEEL2 = [
     ),
     dict(
         type="meerkeuze",
-        vraag="Een gasevenwicht heeft links 3 mol gas en rechts 2 mol gas. Je perst het mengsel in een kleiner vat. Wat gebeurt er?",
+        vraag=r"Een gasevenwicht heeft links \(3\) mol gas en rechts \(2\) mol gas. Je perst het mengsel in een kleiner vat. Wat gebeurt er?",
         opties=[
             "het evenwicht schuift naar rechts, naar de kant met minder gasdeeltjes",
             "het evenwicht schuift naar links, naar de kant met meer gasdeeltjes",

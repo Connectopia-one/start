@@ -8,11 +8,11 @@
    "blokken": [
     {
      "soort": "tekst",
-     "html": "De <strong>druk</strong> is de <strong>kracht gedeeld door de oppervlakte</strong>. De SI-eenheid is de <strong>pascal</strong>: één newton per vierkante meter. Voor het weer gebruiken we handiger eenheden: <strong>kilopascal, hectopascal, millibar en bar</strong>. Eén bar is <strong>100 000 pascal</strong>, ongeveer de luchtdruk op zeeniveau, en dat lees je in het weerbericht als 1000 hectopascal."
+     "html": "De <strong>druk</strong> is de <strong>kracht gedeeld door de oppervlakte</strong>. De SI-eenheid is de <strong>pascal</strong>: één newton per vierkante meter. Voor het weer gebruiken we handiger eenheden: <strong>kilopascal, hectopascal, millibar en bar</strong>. Eén bar is <strong>\\(100\\,000\\) pascal</strong>, ongeveer de luchtdruk op zeeniveau, en dat lees je in het weerbericht als \\(1000\\) hectopascal."
     },
     {
      "soort": "tekst",
-     "html": "Bij <strong>dezelfde kracht</strong> geeft een <strong>kleiner oppervlak een grotere druk</strong>. Daarom snijdt een scherp mes beter dan een bot mes, en daarom dringt een naald zo gemakkelijk binnen. Duw je met 200 newton op 0,5 vierkante meter, dan is de druk <strong>400 pascal</strong>."
+     "html": "Bij <strong>dezelfde kracht</strong> geeft een <strong>kleiner oppervlak een grotere druk</strong>. Daarom snijdt een scherp mes beter dan een bot mes, en daarom dringt een naald zo gemakkelijk binnen. Duw je met \\(200\\) newton op \\(0{,}5\\) vierkante meter, dan is de druk <strong>\\(400\\) pascal</strong>."
     },
     {
      "soort": "tekst",
@@ -62,7 +62,7 @@
     },
     {
      "soort": "tekst",
-     "html": "De <strong>temperatuurschaal</strong> die bij het absolute nulpunt begint, is de <strong>kelvinschaal</strong>. Die begint bij het <strong>absolute nulpunt</strong>, bij <strong>min 273,15 graden Celsius</strong>. Daar hebben de deeltjes <strong>geen kinetische energie</strong> meer, zou de <strong>druk nul</strong> zijn, en <strong>lager kan niet</strong>, want trager dan stil bestaat niet. Je telt <strong>273</strong> bij de graden Celsius op: 27 graden is <strong>300 kelvin</strong>, en 273 kelvin is <strong>0 graden</strong> Celsius."
+     "html": "De <strong>temperatuurschaal</strong> die bij het absolute nulpunt begint, is de <strong>kelvinschaal</strong>. Die begint bij het <strong>absolute nulpunt</strong>, bij <strong>min \\(273{,}15\\) graden Celsius</strong>. Daar hebben de deeltjes <strong>geen kinetische energie</strong> meer, zou de <strong>druk nul</strong> zijn, en <strong>lager kan niet</strong>, want trager dan stil bestaat niet. Je telt <strong>\\(273\\)</strong> bij de graden Celsius op: \\(27\\) graden is <strong>\\(300\\) kelvin</strong>, en \\(273\\) kelvin is <strong>\\(0\\) graden</strong> Celsius."
     }
    ]
   },
@@ -83,11 +83,11 @@
     },
     {
      "soort": "tekst",
-     "html": "Bij een <strong>isotherm</strong> proces is de grafiek van de druk tegenover het volume een <strong>kromme die daalt</strong>: de twee zijn <strong>omgekeerd evenredig</strong>, dus buigt de kromme naar de assen toe zonder ze te raken. Een gas van 2 liter bij 1 bar dat tot 1 liter samengeperst wordt, komt op <strong>2 bar</strong>."
+     "html": "Bij een <strong>isotherm</strong> proces is de grafiek van de druk tegenover het volume een <strong>kromme die daalt</strong>: de twee zijn <strong>omgekeerd evenredig</strong>, dus buigt de kromme naar de assen toe zonder ze te raken. Een gas van \\(2\\) liter bij \\(1\\) bar dat tot \\(1\\) liter samengeperst wordt, komt op <strong>\\(2\\) bar</strong>."
     },
     {
      "soort": "tekst",
-     "html": "Bij een <strong>isochoor</strong> proces zijn druk en absolute temperatuur <strong>recht evenredig</strong>: een gas van 300 kelvin bij 1 bar dat tot 600 kelvin verwarmd wordt, komt op <strong>2 bar</strong>. In de gaswetten moet je de temperatuur daarom <strong>altijd in kelvin</strong> invullen; met graden Celsius kom je bij nul graden op een onmogelijke uitkomst."
+     "html": "Bij een <strong>isochoor</strong> proces zijn druk en absolute temperatuur <strong>recht evenredig</strong>: een gas van \\(300\\) kelvin bij \\(1\\) bar dat tot \\(600\\) kelvin verwarmd wordt, komt op <strong>\\(2\\) bar</strong>. In de gaswetten moet je de temperatuur daarom <strong>altijd in kelvin</strong> invullen; met graden Celsius kom je bij nul graden op een onmogelijke uitkomst."
     },
     {
      "soort": "tekst",
@@ -111,7 +111,7 @@
   "Elke tien meter water voegt ongeveer één bar toe.",
   "Beginsel van Pascal: een drukverandering plant zich in een vloeistof in alle richtingen voort.",
   "Een barometer meet de luchtdruk, een manometer de druk in een vat of leiding.",
-  "De kelvinschaal begint bij het absolute nulpunt, min 273,15 graden Celsius.",
+  "De kelvinschaal begint bij het absolute nulpunt, min \\(273{,}15\\) graden Celsius.",
   "Isotherm: druk maal volume blijft gelijk. Isochoor: druk en absolute temperatuur zijn recht evenredig.",
   "In de gaswetten vul je de temperatuur altijd in kelvin in."
  ]

@@ -21,9 +21,9 @@ DEEL1 = [
         vraag="Welke groep herken je in de formule van een hydroxide?",
         opties=[
             "de hydroxidegroep OH",
-            "de carbonaatgroep CO3",
+            "de carbonaatgroep CO₃",
             "het waterstofion H vooraan",
-            "de sulfaatgroep SO4",
+            "de sulfaatgroep SO₄",
         ],
         antwoord=0,
         uitleg="Een hydroxide bestaat uit een metaal met een of meer OH-groepen, zoals natriumhydroxide of calciumhydroxide.",
@@ -32,7 +32,7 @@ DEEL1 = [
         type="waarofniet",
         vraag="De formule van een anorganisch zuur begint met waterstof.",
         antwoord=True,
-        uitleg="Dat waterstofion is precies wat het zuur in water afstaat. Daarom schrijf je het vooraan, zoals in HCl of H2SO4.",
+        uitleg="Dat waterstofion is precies wat het zuur in water afstaat. Daarom schrijf je het vooraan, zoals in HCl of H₂SO₄.",
     ),
     dict(
         type="meerkeuze",
@@ -54,7 +54,7 @@ DEEL1 = [
     ),
     dict(
         type="meerkeuze",
-        vraag="Hoe noem je het ion met formule NO3 min?",
+        vraag="Hoe noem je het ion met formule NO₃ min?",
         opties=["nitraation", "nitrietion", "sulfaation", "fosfaation"],
         antwoord=0,
         uitleg="Het nitraation komt van salpeterzuur. Je vindt het in kunstmest en in nitraatzouten zoals natriumnitraat.",
@@ -67,7 +67,7 @@ DEEL1 = [
     ),
     dict(
         type="meerkeuze",
-        vraag="Wat is de naam van het ion met formule SO4 twee min?",
+        vraag="Wat is de naam van het ion met formule SO₄ twee min?",
         opties=["sulfaation", "sulfide-ion", "sulfietion", "chloraation"],
         antwoord=0,
         uitleg="Het sulfaation komt van zwavelzuur. Het sulfide-ion is het binaire broertje, zonder zuurstof.",
@@ -112,7 +112,7 @@ DEEL1 = [
             "een zout waarin stikstof de plaats van het zuurstofatoom inneemt",
         ],
         antwoord=0,
-        uitleg="Het ammoniumion NH4 plus gedraagt zich als een positief metaalion. Ammoniumnitraat is een bekend voorbeeld uit de kunstmest.",
+        uitleg="Het ammoniumion NH₄ plus gedraagt zich als een positief metaalion. Ammoniumnitraat is een bekend voorbeeld uit de kunstmest.",
     ),
     dict(
         type="waarofniet",
@@ -123,9 +123,9 @@ DEEL1 = [
     dict(
         type="meerkeuze",
         vraag="Hoe noteer je de brutoformule van water?",
-        opties=["H2O", "HO2", "H2O2", "OH"],
+        opties=["H₂O", "HO₂", "H₂O₂", "OH"],
         antwoord=0,
-        uitleg="Twee waterstofatomen en één zuurstofatoom. H2O2 is waterstofperoxide, een heel andere stof.",
+        uitleg="Twee waterstofatomen en één zuurstofatoom. H₂O₂ is waterstofperoxide, een heel andere stof.",
     ),
     dict(
         type="meerkeuze",
@@ -137,17 +137,17 @@ DEEL1 = [
             "de brutoformule geeft de massa, de structuurformule geeft het smeltpunt",
         ],
         antwoord=0,
-        uitleg="C2H6 is een brutoformule. De structuurformule tekent er de twee koolstofatomen met hun waterstofatomen aan.",
+        uitleg="C₂H₆ is een brutoformule. De structuurformule tekent er de twee koolstofatomen met hun waterstofatomen aan.",
     ),
     dict(
         type="waarofniet",
         vraag="Het chloraation en het chloride-ion zijn twee verschillende ionen.",
         antwoord=True,
-        uitleg="Het chloride-ion is enkel chloor, Cl min. Het chloraation bevat ook zuurstof, ClO3 min.",
+        uitleg="Het chloride-ion is enkel chloor, Cl min. Het chloraation bevat ook zuurstof, ClO₃ min.",
     ),
     dict(
         type="meerkeuze",
-        vraag="Je krijgt de formule Ca(OH)2. Tot welke stofklasse hoort die stof?",
+        vraag=r"Je krijgt de formule Ca(OH)\(2\). Tot welke stofklasse hoort die stof?",
         opties=[
             "een hydroxide, met calcium en twee OH-groepen erin",
             "een ternair zout, met calcium en zuurstof erin",
@@ -159,7 +159,7 @@ DEEL1 = [
     ),
     dict(
         type="invultekst",
-        vraag="Hoe noem je het ion met formule CO3 twee min?",
+        vraag="Hoe noem je het ion met formule CO₃ twee min?",
         antwoord="carbonaation",
         uitleg="Het carbonaation komt van koolzuur. Calciumcarbonaat met dit ion is de hoofdbestanddeel van kalksteen en van krijt.",
     ),
@@ -171,7 +171,7 @@ DEEL1 = [
     ),
     dict(
         type="meerkeuze",
-        vraag="Welke naam hoort bij de formule H2SO4?",
+        vraag="Welke naam hoort bij de formule H₂SO₄?",
         opties=[
             "zwavelzuur, een ternair zuur met zwavel en zuurstof erin",
             "waterstofsulfide, een binair zuur met alleen zwavel erin",
@@ -245,7 +245,7 @@ DEEL2 = [
             "zwaveldioxide",
         ],
         antwoord=0,
-        uitleg="Distikstofoxide, met formule N2O, werd gebruikt als verdovingsmiddel. Het is ook een sterk broeikasgas.",
+        uitleg="Distikstofoxide, met formule N₂O, werd gebruikt als verdovingsmiddel. Het is ook een sterk broeikasgas.",
     ),
     dict(
         type="meerkeuze",

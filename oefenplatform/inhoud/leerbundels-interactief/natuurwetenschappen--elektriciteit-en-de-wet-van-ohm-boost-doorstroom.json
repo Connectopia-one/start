@@ -16,7 +16,7 @@
     },
     {
      "soort": "tekst",
-     "html": "De <strong>wet van Ohm</strong> zegt dat de <strong>weerstand de spanning gedeeld door de stroomsterkte</strong> is. Je kan haar in elke richting gebruiken: 12 volt over 4 ohm geeft <strong>3 ampère</strong>; 2 ampère door 5 ohm geeft <strong>10 volt</strong>."
+     "html": "De <strong>wet van Ohm</strong> zegt dat de <strong>weerstand de spanning gedeeld door de stroomsterkte</strong> is. Je kan haar in elke richting gebruiken: \\(12\\) volt over \\(4\\) ohm geeft <strong>\\(3\\) ampère</strong>; \\(2\\) ampère door \\(5\\) ohm geeft <strong>\\(10\\) volt</strong>."
     },
     {
      "soort": "tekst",
@@ -50,11 +50,11 @@
    "blokken": [
     {
      "soort": "tekst",
-     "html": "Het <strong>vermogen</strong> van een elektrisch toestel zegt hoeveel <strong>elektrische energie het per seconde omzet</strong>, in watt. Een toestel van 1000 watt dat twee uur aanstaat gebruikt <strong>2 kilowattuur</strong>. Bij <strong>dezelfde spanning</strong> hoort een <strong>groter vermogen bij een grotere stroom</strong>; daarom krijgt een elektrisch vuur een eigen, zwaardere kring."
+     "html": "Het <strong>vermogen</strong> van een elektrisch toestel zegt hoeveel <strong>elektrische energie het per seconde omzet</strong>, in watt. Een toestel van \\(1000\\) watt dat twee uur aanstaat gebruikt <strong>\\(2\\) kilowattuur</strong>. Bij <strong>dezelfde spanning</strong> hoort een <strong>groter vermogen bij een grotere stroom</strong>; daarom krijgt een elektrisch vuur een eigen, zwaardere kring."
     },
     {
      "soort": "tekst",
-     "html": "Van twee toestellen die <strong>hetzelfde werk doen</strong>, is het toestel met het <strong>kleinste vermogen het zuinigst</strong>. Een ledlamp geeft met 7 watt zo veel licht als een gloeilamp met 60 watt."
+     "html": "Van twee toestellen die <strong>hetzelfde werk doen</strong>, is het toestel met het <strong>kleinste vermogen het zuinigst</strong>. Een ledlamp geeft met \\(7\\) watt zo veel licht als een gloeilamp met \\(60\\) watt."
     },
     {
      "soort": "tekst",

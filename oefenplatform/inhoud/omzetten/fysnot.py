@@ -42,7 +42,7 @@ SYM = (r"(?:Δ?[A-Za-zρμαβθλπΩ"
 GETAL = r"\d+(?:[.,]\d+)?"
 TERM = "(?:%s|%s|%s)" % (NOT, SYM, GETAL)
 TERMP = r"(?:\(\s*)*" + TERM + r"(?:\s*\))*"
-OP = r"(?:\s*(?:\.(?!\s*[A-Z])|[·/+=^]|−|-(?=[\s(]))\s*)"
+OP = r"(?:\s*(?:\.(?!\s*[A-Z])|[·×/+=^]|−|-(?=[\s(]))\s*)"
 SPAN = re.compile(r"(?<![\w\\{éë" + AAN + r"])(%s(?:%s%s)+)"
                   % (TERMP, OP, TERMP))
 WOORD = re.compile(r"^[a-zéëèïáäöüA-Z]{2,}$")
@@ -138,6 +138,8 @@ def bouw(stukken, bewaar):
         else:
             if s in (".", "·"):
                 uit.append(r"\times" if vorig == "n" else r"\cdot")
+            elif s == "×":
+                uit.append(r"\times")
             elif s == "−":
                 uit.append("-")
             else:
@@ -179,6 +181,14 @@ def regels(t):
 
     def vervang(m):
         ruw = m.group(1).rstrip(" .")
+        voor = t[:m.start()].rstrip()
+        eerste = re.match(SYM, ruw)
+        if (eerste and len(eerste.group(0)) == 1
+                and eerste.group(0) in EENHEIDLETTER
+                and m.start() > 0 and t[m.start() - 1] in " \u00a0"
+                and (voor.endswith(")") or voor.endswith(UIT)
+                     or (voor and voor[-1].isdigit()))):
+            return m.group(0)
         while ruw.count("(") < ruw.count(")") and ruw.endswith(")"):
             ruw = ruw[:-1].rstrip(" .")
         while ruw.count("(") > ruw.count(")") and ruw.startswith("("):

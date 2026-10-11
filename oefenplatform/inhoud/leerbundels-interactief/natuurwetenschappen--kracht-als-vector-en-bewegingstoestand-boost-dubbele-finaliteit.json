@@ -71,11 +71,11 @@
    "blokken": [
     {
      "soort": "tekst",
-     "html": "De <strong>resultante</strong> is de ene kracht die hetzelfde effect heeft als alle krachten samen. Werken twee krachten in <strong>dezelfde richting en zin</strong>, dan <strong>tel je hun groottes op</strong>: 30 en 40 newton geven <strong>70 newton</strong>. Bij <strong>tegengestelde zin</strong> trek je ze van elkaar af; gelijke groottes geven dan <strong>nul</strong>."
+     "html": "De <strong>resultante</strong> is de ene kracht die hetzelfde effect heeft als alle krachten samen. Werken twee krachten in <strong>dezelfde richting en zin</strong>, dan <strong>tel je hun groottes op</strong>: \\(30\\) en \\(40\\) newton geven <strong>\\(70\\) newton</strong>. Bij <strong>tegengestelde zin</strong> trek je ze van elkaar af; gelijke groottes geven dan <strong>nul</strong>."
     },
     {
      "soort": "tekst",
-     "html": "Maken twee krachten een <strong>hoek van 90 graden</strong>, dan gebruik je de <strong>stelling van Pythagoras</strong>: 30 en 40 newton geven <strong>50 newton</strong>, want de wortel uit 900 plus 1600 is 50."
+     "html": "Maken twee krachten een <strong>hoek van \\(90\\) graden</strong>, dan gebruik je de <strong>stelling van Pythagoras</strong>: \\(30\\) en \\(40\\) newton geven <strong>\\(50\\) newton</strong>, want \\(\\sqrt{900}\\) plus \\(1600\\) is \\(50\\)."
     }
    ]
   },
@@ -84,11 +84,11 @@
    "blokken": [
     {
      "soort": "tekst",
-     "html": "Op <strong>één lijn en in dezelfde zin</strong> tel je de grootten op. Duwen twee mensen een kast in dezelfde zin, de een met <strong>80</strong> en de ander met <strong>50 newton</strong>, dan is de resulterende kracht <strong>130 newton</strong>."
+     "html": "Op <strong>één lijn en in dezelfde zin</strong> tel je de grootten op. Duwen twee mensen een kast in dezelfde zin, de een met <strong>\\(80\\)</strong> en de ander met <strong>\\(50\\) newton</strong>, dan is de resulterende kracht <strong>\\(130\\) newton</strong>."
     },
     {
      "soort": "tekst",
-     "html": "Op <strong>één lijn maar in tegengestelde zin</strong> trek je ze van elkaar af, en de <strong>zin van de grootste</strong> wint. Werken er <strong>60</strong> en <strong>25 newton</strong> tegen elkaar in, dan blijft er <strong>35 newton</strong> over. Zijn ze <strong>precies even groot</strong>, dan is de resulterende kracht <strong>nul</strong>, en niet het dubbele."
+     "html": "Op <strong>één lijn maar in tegengestelde zin</strong> trek je ze van elkaar af, en de <strong>zin van de grootste</strong> wint. Werken er <strong>\\(60\\)</strong> en <strong>\\(25\\) newton</strong> tegen elkaar in, dan blijft er <strong>\\(35\\) newton</strong> over. Zijn ze <strong>precies even groot</strong>, dan is de resulterende kracht <strong>nul</strong>, en niet het dubbele."
     }
    ]
   },
