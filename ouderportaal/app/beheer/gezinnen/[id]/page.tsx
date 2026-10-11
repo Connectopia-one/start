@@ -5,6 +5,8 @@ import { Header } from "@/components/Header";
 import { FicheRegels } from "@/components/FicheRegels";
 import { type Kind, KINDVELDEN } from "@/lib/kind";
 import { upsertToegang, verwijderGezin, wijzigWachtwoord } from "../actions";
+import { zetDeelnames } from "../../activiteiten/actions";
+import { sorteer, datumTekst, type Activiteit } from "@/lib/activiteiten";
 import { startMeekijken } from "@/app/portaal/meekijken-actions";
 
 export default async function GezinDetailPage({
@@ -44,6 +46,38 @@ export default async function GezinDetailPage({
   ]);
 
   if (!gezin) notFound();
+
+  /*
+    Bij welke kampen en lessen hoort elk kind van dit gezin? Kim vroeg dat op
+    11 oktober 2026: aanduiden bij de fiche zelf, en een kind mag bij
+    verschillende dingen staan. Het archief laten we weg; dat zijn de kampen
+    die voorbij zijn.
+  */
+  const kindIds = ((kinderen as Kind[] | null) ?? []).map((k) => k.id);
+  const [{ data: activiteitenData }, { data: deelnamesData }] =
+    await Promise.all([
+      supabase
+        .from("activiteiten")
+        .select("id, naam, soort, datum, plaats, archief")
+        .eq("archief", false),
+      kindIds.length
+        ? supabase
+            .from("deelnames")
+            .select("kind_id, activiteit_id")
+            .in("kind_id", kindIds)
+        : Promise.resolve({ data: [] as { kind_id: string; activiteit_id: string }[] }),
+    ]);
+
+  const activiteiten = sorteer((activiteitenData ?? []) as Activiteit[]);
+  const deelnamesPerKind = new Map<string, Set<string>>();
+  for (const rij of (deelnamesData ?? []) as {
+    kind_id: string;
+    activiteit_id: string;
+  }[]) {
+    const huidig = deelnamesPerKind.get(rij.kind_id) ?? new Set<string>();
+    huidig.add(rij.activiteit_id);
+    deelnamesPerKind.set(rij.kind_id, huidig);
+  }
 
   const toegangPerKlasje = new Map(
     (toegangData ?? []).map((t) => [
@@ -161,6 +195,51 @@ export default async function GezinDetailPage({
                       : "Geen toestemming social media"}
                   </span>
                 </div>
+
+                {/* Waar hoort dit kind bij? Vink aan en bewaar; het kind komt
+                    dan op de lijst van elk aangevinkt kamp of elke les. */}
+                {activiteiten.length > 0 && (
+                  <form action={zetDeelnames} className="mt-3 border-t border-border pt-3">
+                    <input type="hidden" name="kind_id" value={kind.id} />
+                    <input type="hidden" name="profile_id" value={gezin.id} />
+                    <p className="text-xs font-medium text-ink">
+                      Hoort bij
+                    </p>
+                    <div className="mt-1.5 grid gap-1 sm:grid-cols-2">
+                      {activiteiten.map((activiteit) => (
+                        <label
+                          key={activiteit.id}
+                          className="flex items-start gap-1.5 text-sm text-ink-dim"
+                        >
+                          <input type="hidden" name="alle" value={activiteit.id} />
+                          <input
+                            type="checkbox"
+                            name="activiteit"
+                            value={activiteit.id}
+                            defaultChecked={deelnamesPerKind
+                              .get(kind.id)
+                              ?.has(activiteit.id)}
+                            className="mt-1 h-4 w-4 shrink-0 accent-forest"
+                          />
+                          <span>
+                            {activiteit.naam}
+                            {datumTekst(activiteit.datum) && (
+                              <span className="block text-xs text-ink-dim">
+                                {datumTekst(activiteit.datum)}
+                              </span>
+                            )}
+                          </span>
+                        </label>
+                      ))}
+                    </div>
+                    <button
+                      type="submit"
+                      className="mt-2 rounded-md border border-border px-3 py-1.5 text-sm text-ink-dim hover:border-forest hover:text-forest-dark"
+                    >
+                      Bewaren
+                    </button>
+                  </form>
+                )}
               </div>
             ))}
           </div>

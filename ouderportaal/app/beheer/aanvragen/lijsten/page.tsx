@@ -60,11 +60,20 @@ export default async function LijstenBeheer({
       />
       <main className="mx-auto w-full max-w-4xl flex-1 px-6 py-10">
         <h1 className="font-display text-2xl font-semibold text-ink">
-          Lijsten per kamp
+          Lijsten uit de inschrijvingen
         </h1>
         <p className="mt-1 text-sm text-ink-dim">
-          Wie welke dag aankruiste, met de gegevens die je die dag nodig hebt.
-          Een kind dat twee dagen koos, staat op allebei de lijsten.
+          Wie welke dag aankruiste op het inschrijfformulier. Een kind dat twee
+          dagen koos, staat op allebei de lijsten. Dit is dus wat ouders
+          vroegen; de lijst die je meeneemt, met de gegevens van de fiche,
+          staat bij{" "}
+          <a
+            href="/beheer/activiteiten"
+            className="underline underline-offset-2"
+          >
+            Kampen en lessen
+          </a>
+          .
         </p>
 
         {/* De twee manieren om naar dezelfde aanvragen te kijken. */}
@@ -76,7 +85,7 @@ export default async function LijstenBeheer({
             Alle aanvragen
           </a>
           <span className="rounded-full bg-forest px-3 py-1 text-sm text-white">
-            Lijsten per kamp
+            Lijsten uit de inschrijvingen
           </span>
         </div>
 

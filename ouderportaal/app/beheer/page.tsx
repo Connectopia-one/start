@@ -188,6 +188,21 @@ export default async function BeheerPage({
             </Link>
 
             <h2 className="mt-8 font-display text-lg font-semibold text-ink">
+              Kampen en lessen
+            </h2>
+            <p className="mt-3 text-sm text-ink-dim">
+              Zet elke kampdag, les of werking erbij, duid bij een kind aan waar
+              het bij hoort, en neem per activiteit een lijst mee met de
+              gegevens van de fiche.
+            </p>
+            <Link
+              href="/beheer/activiteiten"
+              className="mt-4 inline-block rounded-md bg-forest px-3 py-2 text-sm font-medium text-white hover:bg-forest-dark"
+            >
+              Kampen en lessen &rarr;
+            </Link>
+
+            <h2 className="mt-8 font-display text-lg font-semibold text-ink">
               Aanvragen van de website
               {(nieuweAanvragen ?? 0) > 0 && (
                 <span className="ml-2 rounded-full bg-forest px-2 py-0.5 align-middle text-xs font-semibold text-white">

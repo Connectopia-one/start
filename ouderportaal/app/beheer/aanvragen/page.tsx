@@ -208,7 +208,7 @@ export default async function AanvragenBeheer({
             href="/beheer/aanvragen/lijsten"
             className="rounded-full border border-border px-3 py-1 text-sm text-ink-dim transition hover:border-forest hover:text-forest-dark"
           >
-            Lijsten per kamp
+            Lijsten uit de inschrijvingen
           </a>
         </div>
 
