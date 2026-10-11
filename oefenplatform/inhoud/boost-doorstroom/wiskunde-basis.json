@@ -4511,57 +4511,57 @@
       "vragen": [
         {
           "type": "meerkeuze",
-          "vraag": "Wat is (a plus b) in het kwadraat?",
+          "vraag": "Wat is \\((a + b)^{2}\\)?",
           "opties": [
-            "a kwadraat plus 2ab plus b kwadraat",
-            "a kwadraat plus b kwadraat, zonder meer",
-            "a kwadraat min 2ab plus b kwadraat ervan",
-            "2a plus 2b, in het kwadraat genomen"
+            "\\(a^{2} + 2ab + b^{2}\\)",
+            "\\(a^{2} + b^{2}\\)",
+            "\\(a^{2} - 2ab + b^{2}\\)",
+            "\\((2a + 2b)^{2}\\)"
           ],
           "antwoord": 0,
           "uitleg": "Eerst het kwadraat van de eerste term, dan het dubbele product, dan het kwadraat van de tweede."
         },
         {
           "type": "meerkeuze",
-          "vraag": "Wat is (a min b) maal (a plus b)?",
+          "vraag": "Wat is \\((a - b)(a + b)\\)?",
           "opties": [
-            "a kwadraat min b kwadraat",
-            "a kwadraat plus b kwadraat in totaal",
-            "a kwadraat min 2ab plus b kwadraat",
-            "a min b, twee keer genomen"
+            "\\(a^{2} - b^{2}\\)",
+            "\\(a^{2} + b^{2}\\)",
+            "\\(a^{2} - 2ab + b^{2}\\)",
+            "\\(2(a - b)\\)"
           ],
           "antwoord": 0,
           "uitleg": "Het verschil van twee kwadraten. De twee middelste termen vallen tegen elkaar weg."
         },
         {
           "type": "invultekst",
-          "vraag": "x kwadraat min 25 is (x min 5) maal (x plus ...). Welk getal?",
+          "vraag": "Er geldt \\(x^{2} - 25 = (x - 5)(x + \\square)\\). Welk getal staat in het vakje?",
           "antwoord": [
             "5",
             "vijf"
           ],
-          "uitleg": "Vijf. Het verschil van twee kwadraten geeft (x min 5) maal (x plus 5)."
+          "uitleg": "Vijf. Het verschil van twee kwadraten geeft \\((x - 5)(x + 5)\\)."
         },
         {
           "type": "meerkeuze",
-          "vraag": "Welke factor haal je eerst uit 6x kwadraat plus 9x?",
+          "vraag": "Welke factor haal je eerst uit \\(6x^{2} + 9x\\)?",
           "opties": [
-            "3x",
-            "9x in totaal",
-            "6x kwadraat ervan",
-            "x kwadraat plus 3"
+            "\\(3x\\)",
+            "\\(9x\\)",
+            "\\(6x^{2}\\)",
+            "\\(x^{2} + 3\\)"
           ],
           "antwoord": 0,
-          "uitleg": "3x staat in beide termen. Er blijft 2x plus 3 over."
+          "uitleg": "\\(3x\\) staat in beide termen. Er blijft \\(2x + 3\\) over."
         },
         {
           "type": "meerkeuze",
           "vraag": "Welke uitdrukkingen zijn merkwaardige producten?",
           "opties": [
-            "(a plus b) in het kwadraat",
-            "(a min b) in het kwadraat",
-            "(a plus b) maal (a min b)",
-            "a plus b plus c, zonder macht"
+            "\\((a + b)^{2}\\)",
+            "\\((a - b)^{2}\\)",
+            "\\((a + b)(a - b)\\)",
+            "\\(a + b + c\\)"
           ],
           "antwoord": [
             0,
@@ -4578,95 +4578,95 @@
         },
         {
           "type": "meerkeuze",
-          "vraag": "Hoe ontbind je x kwadraat plus 5x plus 6?",
+          "vraag": "Hoe ontbind je \\(x^{2} + 5x + 6\\)?",
           "opties": [
-            "(x plus 2) maal (x plus 3)",
-            "(x plus 1) maal (x plus 6) ervan",
-            "(x min 2) maal (x min 3) ervan",
-            "(x plus 5) maal (x plus 6) ervan"
+            "\\((x + 2)(x + 3)\\)",
+            "\\((x + 1)(x + 6)\\)",
+            "\\((x - 2)(x - 3)\\)",
+            "\\((x + 5)(x + 6)\\)"
           ],
           "antwoord": 0,
-          "uitleg": "Zoek twee getallen met som 5 en product 6: dat zijn 2 en 3."
+          "uitleg": "Zoek twee getallen met som \\(5\\) en product \\(6\\): dat zijn \\(2\\) en \\(3\\)."
         },
         {
           "type": "waarofniet",
           "vraag": "Elke veelterm van de tweede graad is te ontbinden in reële factoren.",
           "antwoord": false,
-          "uitleg": "Alleen als de discriminant niet negatief is. x kwadraat plus 1 lukt niet in de reële getallen."
+          "uitleg": "Alleen als de discriminant niet negatief is. \\(x^{2} + 1\\) lukt niet in \\(\\mathbb{R}\\)."
         },
         {
           "type": "invultekst",
-          "vraag": "Welke som zoek je bij het ontbinden van x kwadraat min 7x plus 12? Een getal.",
+          "vraag": "Welke som zoek je bij het ontbinden van \\(x^{2} - 7x + 12\\)? Een getal.",
           "antwoord": [
             "7",
             "zeven",
             "-7"
           ],
-          "uitleg": "Som 7 en product 12 geven 3 en 4, dus (x min 3) maal (x min 4)."
+          "uitleg": "Som \\(-7\\) en product \\(12\\) geven \\(-3\\) en \\(-4\\), dus \\((x - 3)(x - 4)\\)."
         },
         {
           "type": "meerkeuze",
           "vraag": "Wat is een tweedegraadsvergelijking?",
           "opties": [
-            "de hoogste macht is twee",
-            "de hoogste macht van x is een",
+            "de hoogste macht van \\(x\\) is \\(2\\)",
+            "de hoogste macht van \\(x\\) is \\(1\\)",
             "er staan twee onbekenden in",
             "er staat geen onbekende in"
           ],
           "antwoord": 0,
-          "uitleg": "De vorm ax kwadraat plus bx plus c is 0, met a niet gelijk aan nul."
+          "uitleg": "De vorm is \\(ax^{2} + bx + c = 0\\), met \\(a \\neq 0\\)."
         },
         {
           "type": "meerkeuze",
-          "vraag": "Waarom mag a niet nul zijn in ax kwadraat plus bx plus c is 0?",
+          "vraag": "Waarom moet \\(a \\neq 0\\) in \\(ax^{2} + bx + c = 0\\)?",
           "opties": [
             "anders is het eerste graad",
-            "anders is het derde graad in plaats van twee",
+            "anders is het derde graad",
             "anders is er geen oplossing mogelijk",
-            "anders is c ook nul, altijd"
+            "anders is \\(c\\) ook nul"
           ],
           "antwoord": 0,
-          "uitleg": "Zonder de term in x kwadraat blijft bx plus c over, en dat is een vergelijking van de eerste graad."
+          "uitleg": "Zonder de term in \\(x^{2}\\) blijft \\(bx + c\\) over, en dat is een vergelijking van de eerste graad."
         },
         {
           "type": "meerkeuze",
-          "vraag": "Los op: x kwadraat is 49.",
+          "vraag": "Los op: \\(x^{2} = 49\\).",
           "opties": [
-            "x is 7 of x is min 7",
-            "enkel x is 7, niets anders",
-            "x is 24,5 of min 24,5 samen",
-            "x is 49 of min 49 samen"
+            "\\(x = 7\\) of \\(x = -7\\)",
+            "enkel \\(x = 7\\)",
+            "\\(x = 24{,}5\\) of \\(x = -24{,}5\\)",
+            "\\(x = 49\\) of \\(x = -49\\)"
           ],
           "antwoord": 0,
-          "uitleg": "Beide getallen hebben 49 als kwadraat. De negatieve oplossing vergeten is een klassieke fout."
+          "uitleg": "Beide getallen hebben \\(49\\) als kwadraat. De negatieve oplossing vergeten is een klassieke fout."
         },
         {
           "type": "meerkeuze",
           "vraag": "Welke vergelijkingen zijn van de tweede graad?",
           "opties": [
-            "x kwadraat is 16",
-            "2x kwadraat plus 3x is 0",
-            "x kwadraat min 1 is 0",
-            "3x plus 2 is 11, zonder meer"
+            "\\(x^{2} = 16\\)",
+            "\\(2x^{2} + 3x = 0\\)",
+            "\\(x^{2} - 1 = 0\\)",
+            "\\(3x + 2 = 11\\)"
           ],
           "antwoord": [
             0,
             1,
             2
           ],
-          "uitleg": "De eerste drie hebben een term in x kwadraat. De laatste is eerste graad."
+          "uitleg": "De eerste drie hebben een term in \\(x^{2}\\). De laatste is eerste graad."
         },
         {
           "type": "waarofniet",
-          "vraag": "x kwadraat plus 2x plus 1 is het kwadraat van (x plus 1).",
+          "vraag": "Er geldt \\(x^{2} + 2x + 1 = (x + 1)^{2}\\).",
           "antwoord": true,
-          "uitleg": "Een volkomen kwadraat: (x plus 1) in het kwadraat."
+          "uitleg": "Een volkomen kwadraat."
         },
         {
           "type": "waarofniet",
-          "vraag": "Bij (a min b) in het kwadraat is het dubbele product positief.",
+          "vraag": "Bij \\((a - b)^{2}\\) is het dubbele product positief.",
           "antwoord": false,
-          "uitleg": "Daar staat min 2ab. Het teken van het dubbele product volgt het teken in de tweeterm."
+          "uitleg": "Daar staat \\(-2ab\\). Het teken van het dubbele product volgt het teken in de tweeterm."
         },
         {
           "type": "meerkeuze",
@@ -4686,27 +4686,27 @@
         },
         {
           "type": "meerkeuze",
-          "vraag": "Wat is (x min 4) in het kwadraat?",
+          "vraag": "Wat is \\((x - 4)^{2}\\)?",
           "opties": [
-            "x kwadraat min 8x plus 16",
-            "x kwadraat plus 8x plus 16 ervan",
-            "x kwadraat min 16, zonder meer",
-            "x kwadraat min 4x plus 16 ervan"
+            "\\(x^{2} - 8x + 16\\)",
+            "\\(x^{2} + 8x + 16\\)",
+            "\\(x^{2} - 16\\)",
+            "\\(x^{2} - 4x + 16\\)"
           ],
           "antwoord": 0,
-          "uitleg": "Het kwadraat van 4 is 16 en het dubbele product is 8x, met een minteken."
+          "uitleg": "Het kwadraat van \\(4\\) is \\(16\\) en het dubbele product is \\(8x\\), met een minteken."
         },
         {
           "type": "meerkeuze",
-          "vraag": "Wat is de ontbinding van x kwadraat min 2x min 8?",
+          "vraag": "Wat is de ontbinding van \\(x^{2} - 2x - 8\\)?",
           "opties": [
-            "(x min 4) maal (x plus 2)",
-            "(x plus 4) maal (x min 2) ervan",
-            "(x min 8) maal (x plus 1) ervan",
-            "(x min 2) maal (x min 4) ervan"
+            "\\((x - 4)(x + 2)\\)",
+            "\\((x + 4)(x - 2)\\)",
+            "\\((x - 8)(x + 1)\\)",
+            "\\((x - 2)(x - 4)\\)"
           ],
           "antwoord": 0,
-          "uitleg": "Som min 2 en product min 8: dat zijn min 4 en 2."
+          "uitleg": "Som \\(-2\\) en product \\(-8\\): dat zijn \\(-4\\) en \\(2\\)."
         },
         {
           "type": "meerkeuze",
@@ -4722,12 +4722,12 @@
         },
         {
           "type": "invultekst",
-          "vraag": "Wat blijft tussen de haakjes als je 3x uit 3x kwadraat plus 6x haalt? Hoogstens drie woorden.",
+          "vraag": "Wat blijft tussen de haakjes als je \\(3x\\) uit \\(3x^{2} + 6x\\) haalt? Hoogstens drie woorden.",
           "antwoord": [
             "x plus 2",
             "x + 2"
           ],
-          "uitleg": "3x maal (x plus 2). Even nakijken: 3x maal x is 3x kwadraat en 3x maal 2 is 6x."
+          "uitleg": "\\(3x(x + 2)\\). Even nakijken: \\(3x \\cdot x = 3x^{2}\\) en \\(3x \\cdot 2 = 6x\\)."
         }
       ]
     },
@@ -4738,145 +4738,145 @@
       "vragen": [
         {
           "type": "meerkeuze",
-          "vraag": "Wat is de discriminant van ax kwadraat plus bx plus c?",
+          "vraag": "Wat is de discriminant \\(D\\) van \\(ax^{2} + bx + c\\)?",
           "opties": [
-            "b kwadraat min 4ac",
-            "b kwadraat plus 4ac in totaal",
-            "4ac min b kwadraat ervan",
-            "b kwadraat min 2ac ervan"
+            "\\(D = b^{2} - 4ac\\)",
+            "\\(D = b^{2} + 4ac\\)",
+            "\\(D = 4ac - b^{2}\\)",
+            "\\(D = b^{2} - 2ac\\)"
           ],
           "antwoord": 0,
-          "uitleg": "De discriminant is b kwadraat min 4ac. Haar teken zegt hoeveel oplossingen er zijn."
+          "uitleg": "Haar teken zegt hoeveel oplossingen er zijn."
         },
         {
           "type": "meerkeuze",
-          "vraag": "Hoeveel oplossingen heeft een tweedegraadsvergelijking als de discriminant positief is?",
+          "vraag": "Hoeveel oplossingen heeft een tweedegraadsvergelijking als \\(D > 0\\)?",
           "opties": [
             "twee",
-            "een, en niet meer",
-            "geen enkele oplossing",
-            "oneindig veel oplossingen"
+            "één",
+            "geen enkele",
+            "oneindig veel"
           ],
           "antwoord": 0,
-          "uitleg": "Twee verschillende reële oplossingen. De grafiek snijdt de x-as dan twee keer."
+          "uitleg": "Twee verschillende reële oplossingen. De grafiek snijdt de \\(x\\)-as dan twee keer."
         },
         {
           "type": "meerkeuze",
-          "vraag": "Hoeveel oplossingen heeft de vergelijking als de discriminant nul is?",
+          "vraag": "Hoeveel oplossingen heeft de vergelijking als \\(D = 0\\)?",
           "opties": [
-            "een",
-            "twee verschillende oplossingen",
-            "geen enkele oplossing",
-            "drie oplossingen samen"
+            "één",
+            "twee verschillende",
+            "geen enkele",
+            "drie"
           ],
           "antwoord": 0,
           "uitleg": "Eén oplossing. Ze wordt soms een dubbele wortel genoemd."
         },
         {
           "type": "meerkeuze",
-          "vraag": "Hoeveel reële oplossingen zijn er als de discriminant negatief is?",
+          "vraag": "Hoeveel reële oplossingen zijn er als \\(D < 0\\)?",
           "opties": [
             "geen",
-            "een oplossing, precies een",
-            "twee oplossingen samen",
+            "één",
+            "twee",
             "evenveel als de graad"
           ],
           "antwoord": 0,
-          "uitleg": "Geen reële oplossing. De grafiek blijft dan volledig boven of onder de x-as."
+          "uitleg": "Geen reële oplossing. De grafiek blijft dan volledig boven of onder de \\(x\\)-as."
         },
         {
           "type": "invultekst",
-          "vraag": "Wat is de discriminant van x kwadraat plus 2x plus 1? Een getal.",
+          "vraag": "Wat is \\(D\\) van \\(x^{2} + 2x + 1\\)? Een getal.",
           "antwoord": [
             "0",
             "nul"
           ],
-          "uitleg": "4 min 4 is 0, dus één oplossing: x is min 1."
+          "uitleg": "\\(D = 4 - 4 = 0\\), dus één oplossing: \\(x = -1\\)."
         },
         {
           "type": "meerkeuze",
-          "vraag": "Wat is de discriminant van x kwadraat min 5x plus 6?",
+          "vraag": "Wat is \\(D\\) van \\(x^{2} - 5x + 6\\)?",
           "opties": [
-            "1",
-            "min 1, dus negatief",
-            "25 in totaal",
-            "49 in totaal"
+            "\\(1\\)",
+            "\\(-1\\)",
+            "\\(25\\)",
+            "\\(49\\)"
           ],
           "antwoord": 0,
-          "uitleg": "25 min 24 is 1. De oplossingen zijn 2 en 3."
+          "uitleg": "\\(25 - 24 = 1\\). De oplossingen zijn \\(2\\) en \\(3\\)."
         },
         {
           "type": "waarofniet",
-          "vraag": "Een negatieve discriminant betekent dat de grafiek de x-as niet snijdt.",
+          "vraag": "Bij \\(D < 0\\) snijdt de grafiek de \\(x\\)-as niet.",
           "antwoord": true,
-          "uitleg": "Snijpunten met de x-as zijn net de reële oplossingen, en die zijn er dan niet."
+          "uitleg": "Snijpunten met de \\(x\\)-as zijn net de reële oplossingen, en die zijn er dan niet."
         },
         {
           "type": "waarofniet",
           "vraag": "De discriminant geeft meteen de oplossingen van de vergelijking.",
           "antwoord": false,
-          "uitleg": "Ze geeft enkel het aantal. De oplossingen zelf vind je met de formule met min b."
+          "uitleg": "Ze geeft enkel het aantal. De oplossingen zelf vind je met \\(x = \\frac{-b \\pm \\sqrt{D}}{2a}\\)."
         },
         {
           "type": "meerkeuze",
-          "vraag": "Hoe vind je de oplossingen als de discriminant positief is?",
+          "vraag": "Hoe vind je de oplossingen als \\(D > 0\\)?",
           "opties": [
-            "min b plus of min wortel D, gedeeld door 2a",
-            "min b plus wortel D, gedeeld door a alleen",
-            "b plus of min wortel D, gedeeld door 2a ervan",
-            "min b gedeeld door 2a, zonder de wortel erbij"
+            "\\(x = \\frac{-b \\pm \\sqrt{D}}{2a}\\)",
+            "\\(x = \\frac{-b + \\sqrt{D}}{a}\\)",
+            "\\(x = \\frac{b \\pm \\sqrt{D}}{2a}\\)",
+            "\\(x = \\frac{-b}{2a}\\)"
           ],
           "antwoord": 0,
-          "uitleg": "De formule met min b, de wortel van de discriminant en 2a in de noemer."
+          "uitleg": "De formule met \\(-b\\), de wortel van de discriminant en \\(2a\\) in de noemer."
         },
         {
           "type": "meerkeuze",
           "vraag": "Welke vergelijkingen hebben twee reële oplossingen?",
           "opties": [
-            "x kwadraat is 9",
-            "x kwadraat min 4 is 0",
-            "x kwadraat min 5x plus 6 is 0",
-            "x kwadraat plus 1 is 0, in R"
+            "\\(x^{2} = 9\\)",
+            "\\(x^{2} - 4 = 0\\)",
+            "\\(x^{2} - 5x + 6 = 0\\)",
+            "\\(x^{2} + 1 = 0\\)"
           ],
           "antwoord": [
             0,
             1,
             2
           ],
-          "uitleg": "De laatste heeft een negatieve discriminant en dus geen reële oplossing."
+          "uitleg": "De laatste heeft \\(D < 0\\) en dus geen reële oplossing."
         },
         {
           "type": "meerkeuze",
-          "vraag": "Los op: x kwadraat min 4x is 0.",
+          "vraag": "Los op: \\(x^{2} - 4x = 0\\).",
           "opties": [
-            "x is 0 of x is 4",
-            "enkel x is 4, niets anders",
-            "x is 2 of x is min 2 samen",
-            "x is min 4 of 0 samen"
+            "\\(x = 0\\) of \\(x = 4\\)",
+            "enkel \\(x = 4\\)",
+            "\\(x = 2\\) of \\(x = -2\\)",
+            "\\(x = -4\\) of \\(x = 0\\)"
           ],
           "antwoord": 0,
-          "uitleg": "Haal x buiten: x maal (x min 4) is 0. Een product is nul als een factor nul is."
+          "uitleg": "Haal \\(x\\) buiten: \\(x(x - 4) = 0\\). Een product is nul als een factor nul is."
         },
         {
           "type": "meerkeuze",
-          "vraag": "Waarom mag je bij x kwadraat is 4x niet door x delen?",
+          "vraag": "Waarom mag je bij \\(x^{2} = 4x\\) niet door \\(x\\) delen?",
           "opties": [
-            "x kan nul zijn",
-            "x is altijd groter dan 4",
+            "\\(x\\) kan nul zijn",
+            "\\(x\\) is altijd groter dan \\(4\\)",
             "delen mag nooit bij een vergelijking",
-            "dan verandert het teken van x"
+            "dan verandert het teken van \\(x\\)"
           ],
           "antwoord": 0,
-          "uitleg": "Je zou de oplossing x is 0 kwijtspelen. Ontbind liever in factoren."
+          "uitleg": "Je zou de oplossing \\(x = 0\\) kwijtspelen. Ontbind liever in factoren."
         },
         {
           "type": "meerkeuze",
           "vraag": "Welke uitspraken over de discriminant zijn juist?",
           "opties": [
-            "D positief geeft twee oplossingen",
-            "D nul geeft een oplossing",
-            "D negatief geeft geen reële oplossing",
-            "D is altijd positief, per definitie"
+            "\\(D > 0\\) geeft twee oplossingen",
+            "\\(D = 0\\) geeft één oplossing",
+            "\\(D < 0\\) geeft geen reële oplossing",
+            "\\(D\\) is altijd positief"
           ],
           "antwoord": [
             0,
@@ -4899,13 +4899,13 @@
         },
         {
           "type": "invultekst",
-          "vraag": "Een rechthoek heeft een oppervlakte van 40 en de lengte is 3 meer dan de breedte. Hoe groot is de breedte? Een getal.",
+          "vraag": "Een rechthoek heeft \\(A = 40\\) en de lengte is \\(3\\) meer dan de breedte. Hoe groot is de breedte? Een getal.",
           "antwoord": [
             "5",
             "vijf",
             "5 cm"
           ],
-          "uitleg": "5 maal 8 is 40. De andere oplossing is min 8 en die valt weg."
+          "uitleg": "\\(b(b + 3) = 40\\) geeft \\(5 \\cdot 8 = 40\\). De andere oplossing is \\(-8\\) en die valt weg."
         },
         {
           "type": "meerkeuze",
@@ -4925,37 +4925,37 @@
         },
         {
           "type": "meerkeuze",
-          "vraag": "Hoe schrijf je 2x kwadraat plus 6x als een product?",
+          "vraag": "Hoe schrijf je \\(2x^{2} + 6x\\) als een product?",
           "opties": [
-            "2x maal (x plus 3)",
-            "2 maal (x kwadraat plus 3) ervan",
-            "x maal (2x plus 6x) ervan",
-            "(2x plus 6) maal x kwadraat"
+            "\\(2x(x + 3)\\)",
+            "\\(2(x^{2} + 3)\\)",
+            "\\(x(2x + 6x)\\)",
+            "\\((2x + 6)x^{2}\\)"
           ],
           "antwoord": 0,
-          "uitleg": "2x staat in beide termen. De oplossingen zijn dan 0 en min 3."
+          "uitleg": "\\(2x\\) staat in beide termen. De oplossingen zijn dan \\(0\\) en \\(-3\\)."
         },
         {
           "type": "meerkeuze",
-          "vraag": "Wat zijn de oplossingen van 2x maal (x plus 3) is 0?",
+          "vraag": "Wat zijn de oplossingen van \\(2x(x + 3) = 0\\)?",
           "opties": [
-            "0 en min 3",
-            "0 en 3, beide positief",
-            "2 en min 3 samen",
-            "min 2 en 3 samen"
+            "\\(0\\) en \\(-3\\)",
+            "\\(0\\) en \\(3\\)",
+            "\\(2\\) en \\(-3\\)",
+            "\\(-2\\) en \\(3\\)"
           ],
           "antwoord": 0,
-          "uitleg": "Elke factor nul stellen geeft x is 0 en x is min 3."
+          "uitleg": "Elke factor nul stellen geeft \\(x = 0\\) en \\(x = -3\\)."
         },
         {
           "type": "invultekst",
-          "vraag": "Hoeveel reële oplossingen heeft x kwadraat plus 9 is 0? Een getal.",
+          "vraag": "Hoeveel reële oplossingen heeft \\(x^{2} + 9 = 0\\)? Een getal.",
           "antwoord": [
             "0",
             "geen",
             "nul"
           ],
-          "uitleg": "Geen. Een kwadraat plus 9 is altijd groter dan nul."
+          "uitleg": "Geen. \\(x^{2} + 9\\) is altijd groter dan \\(0\\)."
         }
       ]
     },

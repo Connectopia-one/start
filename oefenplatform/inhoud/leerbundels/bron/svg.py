@@ -10450,3 +10450,26 @@ def driestelsels(breedte=470):
         d.append(_tekst(x0 + vak / 2, y0 - 10, naam, 11, DARK, "middle", True))
         d.append(_tekst(x0 + vak / 2, y0 + hoog + 18, onder, 9.5, DIM, "middle"))
     return _svg(breedte, h, "\n".join(d))
+
+
+def merkwaardigvierkant(breedte=470):
+    r"""(a + b)² als een vierkant in vier stukken: a², ab, ab en b²."""
+    h = 214
+    za, zb = 104.0, 62.0
+    x0, y0 = (breedte - za - zb) / 2, 34.0
+    d = [f'<rect x="5" y="4" width="{breedte-10}" height="{h-26}" rx="7" '
+         f'fill="{PAPER}" stroke="{BORDER}" stroke-width="1.2"/>']
+    stukken = [(0, 0, za, za, FOREST, "a²"),
+               (za, 0, zb, za, AMBER, "ab"),
+               (0, za, za, zb, AMBER, "ab"),
+               (za, za, zb, zb, DIM, "b²")]
+    for dx, dy, bw, bh, kleur, naam in stukken:
+        d.append(f'<rect x="{x0+dx:.1f}" y="{y0+dy:.1f}" width="{bw:.1f}" height="{bh:.1f}" '
+                 f'fill="{kleur}" fill-opacity="0.13" stroke="{kleur}" stroke-width="1.6"/>')
+        d.append(_tekst(x0 + dx + bw / 2, y0 + dy + bh / 2 + 5, naam, 13, kleur, "middle", True))
+    # de maten langs de zijden
+    d.append(_tekst(x0 + za / 2, y0 - 12, "a", 11.5, DARK, "middle", True))
+    d.append(_tekst(x0 + za + zb / 2, y0 - 12, "b", 11.5, DARK, "middle", True))
+    d.append(_tekst(x0 - 12, y0 + za / 2 + 4, "a", 11.5, DARK, "end", True))
+    d.append(_tekst(x0 - 12, y0 + za + zb / 2 + 4, "b", 11.5, DARK, "end", True))
+    return _svg(breedte, h, "\n".join(d))

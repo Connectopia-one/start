@@ -1002,67 +1002,83 @@ zet("tweedegraadsvergelijkingen",
     onder="De merkwaardige producten, ontbinden in factoren, de discriminant en wat ze zegt, en vraagstukken van de tweede graad.",
     secties=[
         dict(kop="De merkwaardige producten", blokken=[
-            ("p", "Er zijn er <strong>drie</strong>, en je moet ze in beide richtingen kunnen lezen: van "
-                  "product naar som om uit te werken, en van som naar product om te ontbinden."),
+            ("p", r"Er zijn er <strong>drie</strong>, en je moet ze in beide richtingen kunnen lezen: "
+                  r"van product naar som om uit te werken, en van som naar product om te ontbinden."),
             ("kader", tabel(["product", "uitgewerkt", "voorbeeld"],
-                            [["<strong>(a + b)²</strong>", "<strong>a² + 2ab + b²</strong>",
-                              "<strong>x² + 2x + 1 is het kwadraat van (x + 1)</strong>"],
-                             ["<strong>(a − b)²</strong>", "a² − 2ab + b²; <strong>het dubbele product is hier negatief</strong>",
-                              "<strong>(x − 4)² = x² − 8x + 16</strong>"],
-                             ["<strong>(a + b)(a − b)</strong>", "<strong>a² − b²</strong>: de twee middelste termen vallen weg",
-                              "<strong>x² − 25 = (x − 5)(x + 5)</strong>"]])),
-            ("p", "Let dus op het teken: <strong>bij (a − b)² is het dubbele product niet positief</strong> "
-                  "maar negatief; het volgt het teken in de tweeterm."),
+                            [[r"<strong>\((a + b)^{2}\)</strong>", r"<strong>\(a^{2} + 2ab + b^{2}\)</strong>",
+                              r"<strong>\(x^{2} + 2x + 1 = (x + 1)^{2}\)</strong>"],
+                             [r"<strong>\((a - b)^{2}\)</strong>", r"\(a^{2} - 2ab + b^{2}\); <strong>het dubbele product is hier negatief</strong>",
+                              r"<strong>\((x - 4)^{2} = x^{2} - 8x + 16\)</strong>"],
+                             [r"<strong>\((a + b)(a - b)\)</strong>", r"<strong>\(a^{2} - b^{2}\)</strong>: de twee middelste termen vallen weg",
+                              r"<strong>\(x^{2} - 25 = (x - 5)(x + 5)\)</strong>"]])),
+            ("p", r"Let dus op het teken: <strong>bij \((a - b)^{2}\) is het dubbele product niet "
+                  r"positief</strong> maar negatief; het volgt het teken in de tweeterm."),
+        ]),
+        dict(kop="Waarom dat middelste stuk twee keer telt", blokken=[
+            ("fig", svg.merkwaardigvierkant(),
+             "Een vierkant met zijde a + b valt uiteen in vier stukken."),
+            ("p", r"De twee rechthoeken zijn even groot, elk \(ab\), en samen geven ze het dubbele "
+                  r"product \(2ab\). Daarom is \((a + b)^{2}\) niet gewoon \(a^{2} + b^{2}\)."),
         ]),
         dict(kop="Ontbinden in factoren", blokken=[
-            ("p", "<strong>Ontbinden in factoren betekent een som als een product schrijven.</strong> Dat is "
-                  "handig omdat <strong>een product nul is zodra één factor nul is</strong>, en "
-                  "<strong>elke factor dus een oplossing geeft</strong>."),
-            ("p", "De stappen, in deze orde: <strong>eerst een gemeenschappelijke factor zoeken</strong>, "
-                  "dan <strong>een merkwaardig product herkennen</strong>, dan <strong>twee getallen zoeken "
-                  "met de juiste som en het juiste product</strong>. Letters vervangen door getallen is geen "
-                  "ontbinding."),
+            ("p", r"<strong>Ontbinden in factoren betekent een som als een product schrijven.</strong> "
+                  r"Dat is handig omdat <strong>een product nul is zodra één factor nul is</strong>, en "
+                  r"<strong>elke factor dus een oplossing geeft</strong>."),
+            ("p", r"De stappen, in deze orde: <strong>eerst een gemeenschappelijke factor "
+                  r"zoeken</strong>, dan <strong>een merkwaardig product herkennen</strong>, dan "
+                  r"<strong>twee getallen zoeken met de juiste som en het juiste product</strong>. "
+                  r"Letters vervangen door getallen is geen ontbinding."),
             ("kader", tabel(["veelterm", "ontbonden", "hoe je erop komt"],
-                            [["<strong>6x² + 9x</strong>", "<strong>3x</strong>(2x + 3)", "3x staat in beide termen"],
-                             ["<strong>3x² + 6x</strong>", "<strong>3x(x + 2)</strong>", "controle: 3x · x = 3x² en 3x · 2 = 6x"],
-                             ["<strong>2x² + 6x</strong>", "<strong>2x(x + 3)</strong>", "de oplossingen zijn dan <strong>0 en min 3</strong>"],
-                             ["<strong>x² + 5x + 6</strong>", "<strong>(x + 2)(x + 3)</strong>", "twee getallen met <strong>som 5</strong> en product 6"],
-                             ["<strong>x² − 7x + 12</strong>", "(x − 3)(x − 4)", "<strong>som 7</strong> en product 12"],
-                             ["<strong>x² − 2x − 8</strong>", "<strong>(x − 4)(x + 2)</strong>", "som min 2 en product min 8"]])),
-            ("p", "<strong>Niet elke veelterm van de tweede graad is te ontbinden in reële factoren</strong>: "
-                  "dat lukt alleen als de discriminant niet negatief is. x² + 1 lukt dus niet in de reële "
-                  "getallen."),
+                            [[r"<strong>\(6x^{2} + 9x\)</strong>", r"<strong>\(3x\)</strong>\((2x + 3)\)", r"\(3x\) staat in beide termen"],
+                             [r"<strong>\(3x^{2} + 6x\)</strong>", r"<strong>\(3x(x + 2)\)</strong>", r"controle: \(3x \cdot x = 3x^{2}\) en \(3x \cdot 2 = 6x\)"],
+                             [r"<strong>\(2x^{2} + 6x\)</strong>", r"<strong>\(2x(x + 3)\)</strong>", r"de oplossingen zijn dan <strong>\(0\) en \(-3\)</strong>"],
+                             [r"<strong>\(x^{2} + 5x + 6\)</strong>", r"<strong>\((x + 2)(x + 3)\)</strong>", r"twee getallen met <strong>som \(5\)</strong> en product \(6\)"],
+                             [r"<strong>\(x^{2} - 7x + 12\)</strong>", r"\((x - 3)(x - 4)\)", r"<strong>som \(-7\)</strong> en product \(12\)"],
+                             [r"<strong>\(x^{2} - 2x - 8\)</strong>", r"<strong>\((x - 4)(x + 2)\)</strong>", r"som \(-2\) en product \(-8\)"]])),
+            ("p", r"<strong>Niet elke veelterm van de tweede graad is te ontbinden in reële "
+                  r"factoren</strong>: dat lukt alleen als de discriminant niet negatief is. "
+                  r"\(x^{2} + 1\) lukt dus niet in \(\mathbb{R}\)."),
         ]),
         dict(kop="De vergelijking en haar discriminant", blokken=[
-            ("p", "In een tweedegraadsvergelijking <strong>is de hoogste macht twee</strong>: de vorm is "
-                  "<strong>ax² + bx + c = 0</strong>, met <strong>a niet nul</strong> — <strong>anders blijft "
-                  "bx + c over, en dat is eerste graad</strong>."),
-            ("p", "<strong>De discriminant is b² − 4ac.</strong> Ze <strong>geeft niet de oplossingen zelf "
-                  "maar enkel het aantal</strong>; de oplossingen vind je daarna met de formule "
-                  "<strong>min b, plus of min de wortel van D, gedeeld door 2a</strong>."),
+            ("p", r"In een tweedegraadsvergelijking <strong>is de hoogste macht twee</strong>: de vorm "
+                  r"is <strong>\(ax^{2} + bx + c = 0\)</strong>, met <strong>\(a \neq 0\)</strong>, "
+                  r"<strong>anders blijft \(bx + c\) over, en dat is eerste graad</strong>."),
+            ("p", r"<strong>De discriminant is \(D = b^{2} - 4ac\).</strong> Ze <strong>geeft niet de "
+                  r"oplossingen zelf maar enkel het aantal</strong>; de oplossingen vind je daarna met "
+                  r"\[x = \frac{-b \pm \sqrt{D}}{2a}\]"),
+        ]),
+        dict(kop="Drie parabolen", blokken=[
+            ("fig", svg.discriminant(),
+             "Het teken van de discriminant zegt hoe vaak de parabool de as raakt of snijdt."),
+        ]),
+        dict(kop="Wat de discriminant zegt", blokken=[
             ("kader", tabel(["discriminant", "aantal reële oplossingen", "grafisch", "voorbeeld"],
-                            [["<strong>positief</strong>", "<strong>twee</strong>", "de grafiek snijdt de x-as twee keer",
-                              "<strong>x² − 5x + 6 heeft D = 1</strong> (25 − 24), met oplossingen 2 en 3"],
-                             ["<strong>nul</strong>", "<strong>één</strong> (een dubbele wortel)", "de grafiek raakt de x-as",
-                              "<strong>x² + 2x + 1 heeft D = 0</strong> (4 − 4), met x = min 1"],
-                             ["<strong>negatief</strong>", "<strong>geen</strong>", "<strong>de grafiek snijdt de x-as niet</strong> en blijft er helemaal boven of onder",
-                              "<strong>x² + 9 = 0 heeft geen reële oplossing</strong>: een kwadraat plus 9 is altijd groter dan nul"]])),
-            ("p", "Twee vergelijkingen die je zonder formule oplost. <strong>x² = 49 geeft x = 7 of x = min "
-                  "7</strong> — de negatieve oplossing vergeten is een klassieke fout. En <strong>x² − 4x = 0 "
-                  "geeft x = 0 of x = 4</strong>: haal x buiten haakjes, want <strong>een product van twee "
-                  "factoren is nul als minstens één factor nul is</strong>."),
-            ("p", "Daarbij één waarschuwing: <strong>bij x² = 4x mag je niet door x delen, want x kan nul "
-                  "zijn</strong>. Je zou de oplossing x = 0 kwijtspelen. Ontbind liever in factoren."),
+                            [[r"<strong>\(D > 0\)</strong>", r"<strong>twee</strong>", r"de grafiek snijdt de \(x\)-as twee keer",
+                              r"<strong>\(x^{2} - 5x + 6\) heeft \(D = 1\)</strong> (\(25 - 24\)), met oplossingen \(2\) en \(3\)"],
+                             [r"<strong>\(D = 0\)</strong>", r"<strong>één</strong> (een dubbele wortel)", r"de grafiek raakt de \(x\)-as",
+                              r"<strong>\(x^{2} + 2x + 1\) heeft \(D = 0\)</strong> (\(4 - 4\)), met \(x = -1\)"],
+                             [r"<strong>\(D < 0\)</strong>", r"<strong>geen</strong>", r"<strong>de grafiek snijdt de \(x\)-as niet</strong> en blijft er helemaal boven of onder",
+                              r"<strong>\(x^{2} + 9 = 0\) heeft geen reële oplossing</strong>: \(x^{2} + 9\) is altijd groter dan \(0\)"]])),
+        ]),
+        dict(kop="Zonder de formule", blokken=[
+            ("p", r"Twee vergelijkingen die je zonder formule oplost. <strong>\(x^{2} = 49\) geeft "
+                  r"\(x = 7\) of \(x = -7\)</strong>, en de negatieve oplossing vergeten is een klassieke "
+                  r"fout. En <strong>\(x^{2} - 4x = 0\) geeft \(x = 0\) of \(x = 4\)</strong>: haal \(x\) "
+                  r"buiten haakjes, want <strong>een product van twee factoren is nul als minstens één "
+                  r"factor nul is</strong>."),
+            ("p", r"Daarbij één waarschuwing: <strong>bij \(x^{2} = 4x\) mag je niet door \(x\) delen, "
+                  r"want \(x\) kan nul zijn</strong>. Je zou de oplossing \(x = 0\) kwijtspelen. Ontbind "
+                  r"liever in factoren."),
         ]),
         dict(kop="Vraagstukken van de tweede graad", blokken=[
-            ("p", "De stappen: <strong>de vergelijking opstellen</strong>, <strong>de discriminant "
-                  "berekenen</strong> en <strong>de oplossingen toetsen aan het vraagstuk</strong>. Dat "
-                  "laatste hoort er echt bij, want <strong>een vraagstuk van de tweede graad heeft niet "
-                  "altijd twee bruikbare antwoorden</strong>: een negatieve lengte of tijd valt weg, en je "
-                  "maakt ze niet positief."),
-            ("p", "Een voorbeeld: <strong>een rechthoek met oppervlakte 40 waarvan de lengte 3 meer is dan de "
-                  "breedte, heeft breedte 5</strong> (5 × 8 = 40). De andere oplossing is min 8, en die valt "
-                  "weg."),
+            ("p", r"De stappen: <strong>de vergelijking opstellen</strong>, <strong>de discriminant "
+                  r"berekenen</strong> en <strong>de oplossingen toetsen aan het vraagstuk</strong>. Dat "
+                  r"laatste hoort er echt bij, want <strong>een vraagstuk van de tweede graad heeft niet "
+                  r"altijd twee bruikbare antwoorden</strong>: een negatieve lengte of tijd valt weg, en "
+                  r"je maakt ze niet positief."),
+            ("p", r"Een voorbeeld: <strong>een rechthoek met \(A = 40\) waarvan de lengte \(3\) meer is "
+                  r"dan de breedte, heeft breedte \(5\)</strong>, want \(5 \cdot 8 = 40\). De andere "
+                  r"oplossing is \(-8\), en die valt weg."),
         ]),
     ])
 

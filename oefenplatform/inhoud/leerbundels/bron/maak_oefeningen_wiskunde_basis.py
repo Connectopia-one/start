@@ -1093,56 +1093,90 @@ zet("tweedegraadsvergelijkingen",
         dict(kop="Ontbinden",
              opdracht="Ontbind in factoren.",
              oefeningen=[
-                 ("rij", [("x² − 9", "(x − 3)(x + 3)"),
-                          ("x² + 6x + 9", "(x + 3)²"),
-                          ("x² − 5x + 6", "(x − 2)(x − 3)"),
-                          ("x² + 2x − 15", "(x + 5)(x − 3)"),
-                          ("2x² − 8x", "2x(x − 4)"),
-                          ("x² − 4x + 4", "(x − 2)²")],
-                  "Ontbind.", WW),
-                 ("open", "Los op door te ontbinden: x² − 7x + 12 = 0.",
-                  "(x − 3)(x − 4) = 0, dus x = 3 of x = 4.", 3),
+                 ("rij", [("\\(x^{2} - 9\\)", "\\((x - 3)(x + 3)\\)"),
+                          ("\\(x^{2} + 6x + 9\\)", "\\((x + 3)^{2}\\)"),
+                          ("\\(x^{2} - 5x + 6\\)", "\\((x - 2)(x - 3)\\)")],
+                  "Ontbonden", WL),
+                 ("open", "Los op door te ontbinden: \\(x^{2} - 7x + 12 = 0\\).",
+                  "\\((x - 3)(x - 4) = 0\\), dus \\(x = 3\\) of \\(x = 4\\).", 3),
+             ]),
+        dict(kop="Nog drie ontbinden",
+             opdracht="Ontbind in factoren.",
+             oefeningen=[
+                 ("rij", [("\\(x^{2} + 2x - 15\\)", "\\((x + 5)(x - 3)\\)"),
+                          ("\\(2x^{2} - 8x\\)", "\\(2x(x - 4)\\)"),
+                          ("\\(x^{2} - 4x + 4\\)", "\\((x - 2)^{2}\\)")],
+                  "Ontbonden", WL),
              ]),
         dict(kop="De discriminant",
-             opdracht="Bereken D en zeg hoeveel oplossingen er zijn.",
+             opdracht="Bereken \\(D\\) en zeg hoeveel oplossingen er zijn.",
              oefeningen=[
-                 ("tabel", ["vergelijking", "D", "aantal oplossingen"],
-                  [["x² − 6x + 5 = 0", None, None], ["x² + 4x + 4 = 0", None, None],
-                   ["x² + x + 3 = 0", None, None], ["2x² − 3x − 2 = 0", None, None],
-                   ["x² − 2x − 8 = 0", None, None], ["3x² + 2x + 1 = 0", None, None]],
-                  "x²−6x+5: D = 16, twee · x²+4x+4: D = 0, één · x²+x+3: D = −11, geen · "
-                  "2x²−3x−2: D = 25, twee · x²−2x−8: D = 36, twee · 3x²+2x+1: D = −8, geen",
-                  "110px"),
-                 ("open", "Schrijf de formule voor de oplossingen op en los x² − 6x + 5 = 0 "
+                 ("tabel", ["vergelijking", "\\(D\\)", "aantal oplossingen"],
+                  [["\\(x^{2} - 6x + 5 = 0\\)", None, None],
+                   ["\\(x^{2} + 4x + 4 = 0\\)", None, None],
+                   ["\\(x^{2} + x + 3 = 0\\)", None, None]],
+                  "\\(D = 16\\), twee · \\(D = 0\\), één · \\(D = -11\\), geen", "110px"),
+             ]),
+        dict(kop="Nog drie keer de discriminant",
+             opdracht="Bereken \\(D\\) en zeg hoeveel oplossingen er zijn.",
+             oefeningen=[
+                 ("tabel", ["vergelijking", "\\(D\\)", "aantal oplossingen"],
+                  [["\\(2x^{2} - 3x - 2 = 0\\)", None, None],
+                   ["\\(x^{2} - 2x - 8 = 0\\)", None, None],
+                   ["\\(3x^{2} + 2x + 1 = 0\\)", None, None]],
+                  "\\(D = 25\\), twee · \\(D = 36\\), twee · \\(D = -8\\), geen", "110px"),
+             ]),
+        dict(kop="Met de formule",
+             opdracht="Schrijf je tussenstappen op.",
+             oefeningen=[
+                 ("open", "Schrijf de formule voor de oplossingen op en los \\(x^{2} - 6x + 5 = 0\\) "
                           "ermee op.",
-                  "x = (−b ± √D) / (2a). Hier: D = 36 − 20 = 16, √D = 4, dus "
-                  "x = (6 ± 4)/2, dus x = 5 of x = 1.", 4),
-                 ("open", "Los op: 2x² − 3x − 2 = 0.",
-                  "D = 9 + 16 = 25, √D = 5, x = (3 ± 5)/4, dus x = 2 of x = −0,5.", 3),
+                  "\\(x = \\frac{-b \\pm \\sqrt{D}}{2a}\\). Hier is \\(D = 36 - 20 = 16\\) en "
+                  "\\(\\sqrt{D} = 4\\), dus \\(x = \\frac{6 \\pm 4}{2}\\): \\(x = 5\\) of \\(x = 1\\).", 4),
+                 ("open", "Los op: \\(2x^{2} - 3x - 2 = 0\\).",
+                  "\\(D = 9 + 16 = 25\\), \\(\\sqrt{D} = 5\\), \\(x = \\frac{3 \\pm 5}{4}\\): "
+                  "\\(x = 2\\) of \\(x = -0{,}5\\).", 3),
+             ]),
+        dict(kop="Zonder de formule",
+             opdracht="Los op door te ontbinden of door de wortel te trekken.",
+             oefeningen=[
+                 ("rij", [("\\(x^{2} = 36\\)", "\\(x = 6\\) of \\(x = -6\\)"),
+                          ("\\(x^{2} - 9x = 0\\)", "\\(x = 0\\) of \\(x = 9\\)"),
+                          ("\\(x^{2} + 4 = 0\\)", "geen reële oplossing")],
+                  "Oplossing", WL),
+                 ("open", "Waarom mag je bij \\(x^{2} = 9x\\) niet door \\(x\\) delen?",
+                  "Omdat \\(x\\) nul kan zijn; je zou de oplossing \\(x = 0\\) kwijtspelen.", 2),
              ]),
         dict(kop="Som en product",
              opdracht="Vul aan.",
              oefeningen=[
-                 ("rij", [("de som van de wortels", "−b/a"), ("het product", "c/a"),
-                          ("x² − 7x + 10 = 0: som en product", "7 en 10"),
-                          ("de wortels daarvan", "2 en 5"),
-                          ("x² + 3x − 10 = 0: som en product", "−3 en −10"),
-                          ("de wortels daarvan", "2 en −5")],
-                  "Vul aan.", WW),
-                 ("open", "Stel een tweedegraadsvergelijking op met wortels 4 en −1.",
-                  "Som is 3 en product is −4, dus x² − 3x − 4 = 0.", 3),
+                 ("rij", [("de som van de wortels", "\\(-\\frac{b}{a}\\)"),
+                          ("het product van de wortels", "\\(\\frac{c}{a}\\)"),
+                          ("\\(x^{2} - 7x + 10 = 0\\): som en product", "\\(7\\) en \\(10\\)"),
+                          ("de wortels daarvan", "\\(2\\) en \\(5\\)")],
+                  "Antwoord", WL),
              ]),
-        dict(kop="Vraagstukken",
-             opdracht="Stel een vergelijking op en los ze op.",
+        dict(kop="Nog eens som en product",
+             opdracht="Vul aan en stel zelf een vergelijking op.",
              oefeningen=[
-                 ("open", "Een rechthoek heeft een oppervlakte van 60 cm² en is 7 cm langer "
-                          "dan breed. Hoe groot is ze?",
-                  "b(b + 7) = 60, dus b² + 7b − 60 = 0. D = 49 + 240 = 289, √D = 17, "
-                  "b = (−7 + 17)/2 = 5. De rechthoek is 5 bij 12 cm.", 5),
-                 ("open", "Een steen valt van een toren. De hoogte is h = 45 − 5t². Na hoeveel "
+                 ("rij", [("\\(x^{2} + 3x - 10 = 0\\): som en product", "\\(-3\\) en \\(-10\\)"),
+                          ("de wortels daarvan", "\\(2\\) en \\(-5\\)")],
+                  "Antwoord", WL),
+                 ("open", "Stel een tweedegraadsvergelijking op met wortels \\(4\\) en \\(-1\\).",
+                  "De som is \\(3\\) en het product \\(-4\\), dus \\(x^{2} - 3x - 4 = 0\\).", 3),
+             ]),
+        dict(kop="Twee vraagstukken",
+             opdracht="Stel een vergelijking op, los ze op en toets je oplossingen.",
+             oefeningen=[
+                 ("open", "Een rechthoek heeft \\(A = 60\\) cm² en is \\(7\\) cm langer dan breed. Hoe "
+                          "groot is ze?",
+                  "\\(b(b + 7) = 60\\), dus \\(b^{2} + 7b - 60 = 0\\). \\(D = 49 + 240 = 289\\), "
+                  "\\(\\sqrt{D} = 17\\), \\(b = \\frac{-7 + 17}{2} = 5\\). De rechthoek is \\(5\\) bij "
+                  "\\(12\\) cm.", 5),
+                 ("open", "Een steen valt van een toren. De hoogte is \\(h = 45 - 5t^{2}\\). Na hoeveel "
                           "seconden raakt hij de grond?",
-                  "45 − 5t² = 0, dus t² = 9 en t = 3 seconden; de negatieve wortel heeft hier "
-                  "geen betekenis.", 4),
+                  "\\(45 - 5t^{2} = 0\\), dus \\(t^{2} = 9\\) en \\(t = 3\\) seconden; de negatieve "
+                  "wortel heeft hier geen betekenis.", 4),
              ]),
     ])
 
