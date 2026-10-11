@@ -1454,46 +1454,139 @@ zet("de-tweedegraadsfunctie-en-haar-parabool",
 zet("telproblemen-en-problemen-oplossen",
     titel="Telproblemen en problemen oplossen",
     reeksen=[
-        dict(kop="Tellen",
+        dict(kop="Tellen met de productregel",
              opdracht="Reken uit.",
              oefeningen=[
-                 ("rij", [("4 broeken en 6 hemden: aantal combinaties", "24"),
-                          ("op hoeveel volgordes kan je 5 boeken zetten", "120"),
-                          ("een code van 4 cijfers, cijfers mogen herhalen", "10 000"),
-                          ("een code van 4 verschillende cijfers", "5 040"),
-                          ("hoeveel paren kan je kiezen uit 6 mensen", "15"),
-                          ("hoeveel keuzes van 3 uit 5, volgorde telt mee", "60")],
+                 ("rij", [("\\(4\\) broeken en \\(6\\) hemden: aantal combinaties", "\\(24\\)"),
+                          ("op hoeveel volgordes kan je \\(5\\) boeken zetten", "\\(120\\)"),
+                          ("een code van \\(4\\) cijfers, cijfers mogen herhalen", "\\(10\\,000\\)"),
+                          ("twee dobbelstenen gooien", "\\(36\\)"),
+                          ("een munt en een dobbelsteen gooien", "\\(12\\)")],
                   "Hoeveel mogelijkheden?", WW),
-                 ("open", "Leg het verschil uit tussen een geval waarin de volgorde meetelt en "
-                          "een waarin ze niet meetelt. Geef bij elk een voorbeeld.",
-                  "Bij een podium met goud, zilver en brons telt de volgorde mee: ABC is iets "
-                  "anders dan BAC. Bij het kiezen van drie klasgenoten voor een werkgroep telt "
-                  "ze niet mee: dezelfde drie zijn dezelfde groep.", 4),
-                 ("open", "Reken na: hoeveel paren kan je kiezen uit 6 mensen? Toon de "
-                          "berekening.",
-                  "6 · 5 / 2 = 15. Je deelt door 2 omdat het paar AB hetzelfde is als BA.", 3),
              ]),
-        dict(kop="Een probleem aanpakken",
+        dict(kop="Tellen zonder herhaling",
+             opdracht="Reken uit.",
+             oefeningen=[
+                 ("rij", [("een code van \\(4\\) verschillende cijfers", "\\(5\\,040\\)"),
+                          ("hoeveel paren kan je kiezen uit \\(6\\) mensen", "\\(15\\)"),
+                          ("hoeveel keuzes van \\(3\\) uit \\(5\\), volgorde telt mee", "\\(60\\)")],
+                  "Hoeveel mogelijkheden?", WW),
+             ]),
+        dict(kop="Telt de volgorde mee?",
+             opdracht="Schrijf je antwoord in volle zinnen.",
+             oefeningen=[
+                 ("open", "Reken na: hoeveel paren kan je kiezen uit \\(6\\) mensen? Toon de berekening.",
+                  "\\(\\frac{6 \\cdot 5}{2} = 15\\). Je deelt door \\(2\\) omdat het paar "
+                  "AB hetzelfde is als BA.", 3),
+                 ("open", "Leg het verschil uit tussen een geval waarin de volgorde meetelt en een "
+                          "waarin ze niet meetelt. Geef bij elk een voorbeeld.",
+                  "Bij een podium met goud, zilver en brons telt de volgorde mee: ABC is iets anders "
+                  "dan BAC. Bij het kiezen van drie klasgenoten voor een werkgroep telt ze niet mee: "
+                  "dezelfde drie zijn dezelfde groep.", 4),
+             ]),
+        dict(kop="Som, product of complement?",
+             opdracht="Noteer welke telregel je nodig hebt.",
+             oefeningen=[
+                 ("rij", [("eerst een voorgerecht, dan een hoofdgerecht kiezen", "productregel"),
+                          ("een rode of een blauwe trui, niet allebei", "somregel"),
+                          ("minstens \\(1\\) keer kop bij \\(3\\) munten", "complementregel")],
+                  "Welke regel?", WL),
+             ]),
+        dict(kop="De complementregel gebruiken",
+             opdracht="Toon je berekening.",
+             oefeningen=[
+                 ("open", "Bereken met de complementregel hoeveel van de \\(8\\) uitkomsten van drie "
+                          "munten minstens \\(\u00e9\u00e9n\\) keer kop bevatten.",
+                  "Alleen MMM bevat geen kop, dus \\(8 - 1 = 7\\) uitkomsten.", 3),
+             ]),
+        dict(kop="Een venndiagram invullen",
+             opdracht="Werk met de formule \\(|A \\cup B| = |A| + |B| - |A \\cap B|\\).",
+             oefeningen=[
+                 ("open", "In een klas van \\(25\\) spelen er \\(14\\) voetbal, \\(11\\) "
+                          "basket en \\(5\\) allebei. Hoeveel spelen er geen van beide?",
+                  "\\(14 + 11 - 5 = 20\\) spelen er iets, dus \\(25 - 20 = 5\\) geen van beide.", 4),
+             ]),
+        dict(kop="Koffie of thee",
+             opdracht="Werk met dezelfde formule.",
+             oefeningen=[
+                 ("open", "Van \\(40\\) mensen drinken er \\(28\\) koffie, \\(17\\) thee en "
+                          "\\(9\\) allebei. Hoeveel drinken er enkel thee?",
+                  "\\(17 - 9 = 8\\) drinken enkel thee.", 3),
+             ]),
+        dict(kop="Een boomdiagram tekenen",
+             opdracht="Teken alle takken en tel de bladeren.",
+             oefeningen=[
+                 ("teken", "Teken het boomdiagram van twee keer een munt gooien en zet bij elk "
+                           "blad de uitkomst.",
+                  "Vier bladeren: KK, KM, MK, MM. Dat is \\(2 \\cdot 2 = 4\\).", 55),
+             ]),
+        dict(kop="Strategie herkennen",
              opdracht="Schrijf bij elke aanpak welke strategie je gebruikt.",
              oefeningen=[
-                 ("rij", [("je noemt het onbekende aantal x", "variabelen invoeren"),
+                 ("rij", [("je noemt het onbekende aantal \\(x\\)", "variabelen invoeren"),
                           ("je maakt een schets van de situatie", "tekenen"),
-                          ("je probeert eerst het geval met 2 in plaats van 100",
-                           "een eenvoudiger geval bekijken"),
-                          ("je zet alles in een tabel", "systematisch opsommen"),
-                          ("je werkt van het antwoord terug naar de vraag",
-                           "achterwaarts werken"),
+                          ("je probeert eerst het geval met \\(2\\) in plaats van \\(100\\)",
+                           "een eenvoudiger geval bekijken")],
+                  "Welke strategie?", WL),
+             ]),
+        dict(kop="Nog drie strategie\u00ebn",
+             opdracht="Schrijf bij elke aanpak welke strategie je gebruikt.",
+             oefeningen=[
+                 ("rij", [("je zet alles in een tabel", "systematisch opsommen"),
+                          ("je werkt van het antwoord terug naar de vraag", "achterwaarts werken"),
                           ("je splitst de vraag in drie kleinere vragen",
                            "opsplitsen in deelproblemen")],
                   "Welke strategie?", WL),
-                 ("open", "Hoeveel keer schrijf je het cijfer 9 als je de getallen 1 tot en "
-                          "met 100 opschrijft? Los op met een systematische aanpak.",
-                  "In de eenheden: 9, 19, 29, ... 99, dat zijn er 10. In de tientallen: 90 tot "
-                  "en met 99, dat zijn er ook 10. Samen 20.", 4),
-                 ("open", "Een slak klimt overdag 3 m omhoog in een put van 10 m en zakt "
-                          "'s nachts 2 m terug. Na hoeveel dagen is ze boven?",
-                  "Elke volle dag wint ze 1 m. Na 7 dagen staat ze op 7 m; op dag 8 klimt ze "
-                  "3 m en is ze op 10 m, dus boven. Antwoord: 8 dagen.", 4),
+                 ("waar", "Een vraagstuk heeft altijd maar \u00e9\u00e9n oplossingsweg.", False),
+             ]),
+        dict(kop="Terugwerken",
+             opdracht="Draai elke stap om.",
+             oefeningen=[
+                 ("rij", [("ik tel er \\(7\\) bij en krijg \\(23\\)", "\\(16\\)"),
+                          ("ik verdubbel en trek \\(4\\) af, en krijg \\(18\\)", "\\(11\\)"),
+                          ("ik deel door \\(3\\) en tel er \\(5\\) bij, en krijg \\(11\\)",
+                           "\\(18\\)"),
+                          ("ik neem er \\(20\\,\\%\\) af en krijg \\(40\\)", "\\(50\\)")],
+                  "Welk getal dacht ik?", WW),
+             ]),
+        dict(kop="Korting terugrekenen",
+             opdracht="Toon je berekening.",
+             oefeningen=[
+                 ("open", "Een trui kost na \\(25\\,\\%\\) korting \\(45\\) euro. Wat was de "
+                          "oude prijs?",
+                  "\\(45\\) euro is \\(75\\,\\%\\) van de oude prijs, dus "
+                  "\\(45 : 0{,}75 = 60\\) euro.", 3),
+             ]),
+        dict(kop="Schatten en controleren",
+             opdracht="Antwoord kort.",
+             oefeningen=[
+                 ("open", "Een rekenmachine geeft \\(1\\,480\\) euro als prijs voor \\(4\\) "
+                          "boeken. Waarom weet je meteen dat er een fout zit?",
+                  "Een boek van bijna \\(370\\) euro is onmogelijk. Een schatting vooraf, "
+                  "\\(4 \\cdot 20 = 80\\) euro, had dat meteen getoond.", 3),
+                 ("waar", "Een negatieve leeftijd als uitkomst mag je gewoon laten staan.", False),
+             ]),
+        dict(kop="Wat controleer je?",
+             opdracht="Antwoord kort.",
+             oefeningen=[
+                 ("waar", "Een antwoord zonder eenheid is af.", False),
+                 ("open", "Noem twee vragen die je jezelf stelt bij het controleren van een antwoord.",
+                  "Is dit een antwoord op de vraag? Klopt de grootteorde, en staat de eenheid erbij?", 3),
+             ]),
+        dict(kop="Twee denkpuzzels",
+             opdracht="Los op met een systematische aanpak.",
+             oefeningen=[
+                 ("open", "Hoeveel keer schrijf je het cijfer \\(9\\) als je de getallen \\(1\\) "
+                          "tot en met \\(100\\) opschrijft?",
+                  "In de eenheden: \\(9, 19, 29, \\ldots, 99\\), dat zijn er \\(10\\). In de "
+                  "tientallen: \\(90\\) tot en met \\(99\\), ook \\(10\\). Samen "
+                  "\\(20\\).", 4),
+                 ("open", "Een slak klimt overdag \\(3\\) meter omhoog in een put van \\(10\\) "
+                          "meter en zakt 's nachts \\(2\\) meter terug. Na "
+                          "hoeveel dagen is ze boven?",
+                  "Elke volle dag wint ze \\(1\\) meter. Na \\(7\\) dagen staat ze op "
+                  "\\(7\\) meter; op dag \\(8\\) klimt ze \\(3\\) meter en is ze op "
+                  "\\(10\\) meter, dus boven. Antwoord: \\(8\\) dagen.", 4),
              ]),
     ])
 

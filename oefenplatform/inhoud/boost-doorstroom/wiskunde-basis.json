@@ -5895,7 +5895,7 @@
             "bij het tellen van een verzameling"
           ],
           "antwoord": 0,
-          "uitleg": "Keuzes na elkaar vermenigvuldig je: eerst 3 mogelijkheden, dan 4, geeft 12."
+          "uitleg": "Keuzes na elkaar vermenigvuldig je: eerst \\(3\\) mogelijkheden, dan \\(4\\), geeft \\(3 \\cdot 4 = 12\\)."
         },
         {
           "type": "meerkeuze",
@@ -5923,48 +5923,48 @@
         },
         {
           "type": "invultekst",
-          "vraag": "Hoeveel combinaties maak je met 3 truien en 4 broeken? Een getal.",
+          "vraag": "Hoeveel combinaties maak je met \\(3\\) truien en \\(4\\) broeken? Een getal.",
           "antwoord": [
             "12",
             "twaalf"
           ],
-          "uitleg": "3 maal 4 is 12. Dat is de productregel."
+          "uitleg": "\\(3 \\cdot 4 = 12\\). Dat is de productregel."
         },
         {
           "type": "waarofniet",
           "vraag": "In een venndiagram staat in de overlap wat in beide verzamelingen zit.",
           "antwoord": true,
-          "uitleg": "Net daarom zie je er dubbele tellingen in."
+          "uitleg": "Dat is de doorsnede \\(A \\cap B\\). Net daarom zie je er dubbele tellingen in."
         },
         {
           "type": "waarofniet",
           "vraag": "Bij een venndiagram tel je de overlap twee keer mee.",
           "antwoord": false,
-          "uitleg": "Dan tel je te veel. Je telt de twee groepen op en trekt de overlap één keer af."
+          "uitleg": "Dan tel je te veel: \\(|A \\cup B| = |A| + |B| - |A \\cap B|\\), dus één keer aftrekken."
         },
         {
           "type": "meerkeuze",
           "vraag": "Hoeveel uitkomsten zijn er bij het gooien van twee dobbelstenen?",
           "opties": [
-            "36",
-            "12 in totaal",
-            "6 in totaal",
-            "21 in totaal"
+            "\\(36\\)",
+            "\\(12\\) in totaal",
+            "\\(6\\) in totaal",
+            "\\(21\\) in totaal"
           ],
           "antwoord": 0,
-          "uitleg": "6 maal 6 is 36. Elke worp van de eerste kan met elke worp van de tweede."
+          "uitleg": "\\(6 \\cdot 6 = 36\\). Elke worp van de eerste kan met elke worp van de tweede."
         },
         {
           "type": "meerkeuze",
-          "vraag": "In een klas doen 12 kinderen voetbal, 9 zwemmen en 4 beide. Hoeveel doen er sport?",
+          "vraag": "In een klas doen \\(12\\) kinderen voetbal, \\(9\\) zwemmen en \\(4\\) beide. Hoeveel doen er sport?",
           "opties": [
-            "17",
-            "25 in totaal",
-            "21 in totaal",
-            "13 in totaal"
+            "\\(17\\)",
+            "\\(25\\) in totaal",
+            "\\(21\\) in totaal",
+            "\\(13\\) in totaal"
           ],
           "antwoord": 0,
-          "uitleg": "12 plus 9 is 21, min de 4 die je dubbel geteld hebt, is 17."
+          "uitleg": "\\(12 + 9 - 4 = 17\\): de vier die je dubbel geteld hebt gaan er weer af."
         },
         {
           "type": "meerkeuze",
@@ -5984,15 +5984,15 @@
         },
         {
           "type": "meerkeuze",
-          "vraag": "Hoeveel manieren zijn er om 3 kinderen in een rij te zetten?",
+          "vraag": "Hoeveel manieren zijn er om \\(3\\) kinderen in een rij te zetten?",
           "opties": [
-            "6",
-            "3 in totaal",
-            "9 in totaal",
-            "27 in totaal"
+            "\\(6\\)",
+            "\\(3\\) in totaal",
+            "\\(9\\) in totaal",
+            "\\(27\\) in totaal"
           ],
           "antwoord": 0,
-          "uitleg": "3 maal 2 maal 1 is 6. Na elke keuze blijft er een kind minder over."
+          "uitleg": "\\(3 \\cdot 2 \\cdot 1 = 6\\). Na elke keuze blijft er een kind minder over."
         },
         {
           "type": "meerkeuze",
@@ -6008,9 +6008,9 @@
         },
         {
           "type": "waarofniet",
-          "vraag": "Bij het gooien van een munt en een dobbelsteen zijn er 12 uitkomsten.",
+          "vraag": "Bij het gooien van een munt en een dobbelsteen zijn er \\(12\\) uitkomsten.",
           "antwoord": true,
-          "uitleg": "2 maal 6 is 12. Twee keuzes na elkaar, dus de productregel."
+          "uitleg": "\\(2 \\cdot 6 = 12\\). Twee keuzes na elkaar, dus de productregel."
         },
         {
           "type": "waarofniet",
@@ -6025,7 +6025,7 @@
             "8",
             "acht"
           ],
-          "uitleg": "2 maal 2 maal 2 is 8."
+          "uitleg": "\\(2 \\cdot 2 \\cdot 2 = 2^{3} = 8\\)."
         },
         {
           "type": "meerkeuze",
@@ -6057,15 +6057,15 @@
         },
         {
           "type": "meerkeuze",
-          "vraag": "Hoeveel pincodes van 4 cijfers bestaan er?",
+          "vraag": "Hoeveel pincodes van \\(4\\) cijfers bestaan er?",
           "opties": [
-            "10000",
-            "40 in totaal",
-            "4000 in totaal",
-            "1000 in totaal"
+            "\\(10\\,000\\)",
+            "\\(40\\) in totaal",
+            "\\(4\\,000\\) in totaal",
+            "\\(1\\,000\\) in totaal"
           ],
           "antwoord": 0,
-          "uitleg": "10 maal 10 maal 10 maal 10 is 10000. Elk cijfer mag opnieuw gebruikt worden."
+          "uitleg": "\\(10^{4} = 10\\,000\\). Elk cijfer mag opnieuw gebruikt worden."
         },
         {
           "type": "meerkeuze",
@@ -6085,12 +6085,12 @@
         },
         {
           "type": "invultekst",
-          "vraag": "Van 30 leerlingen spreken er 18 Frans en 7 twee talen. Hoeveel spreken er enkel Frans? Een getal.",
+          "vraag": "Van \\(30\\) leerlingen spreken er \\(18\\) Frans en \\(7\\) twee talen. Hoeveel spreken er enkel Frans? Een getal.",
           "antwoord": [
             "11",
             "elf"
           ],
-          "uitleg": "18 min 7 is 11. Wie twee talen spreekt hoort niet bij enkel Frans."
+          "uitleg": "\\(18 - 7 = 11\\). Wie twee talen spreekt hoort niet bij enkel Frans."
         }
       ]
     },
@@ -6187,15 +6187,15 @@
         },
         {
           "type": "meerkeuze",
-          "vraag": "Ik denk aan een getal, tel er 5 bij en verdubbel. Ik krijg 26. Welk getal was het?",
+          "vraag": "Ik denk aan een getal, tel er \\(5\\) bij en verdubbel. Ik krijg \\(26\\). Welk getal was het?",
           "opties": [
-            "8",
-            "13 in totaal",
-            "16 in totaal",
-            "21 in totaal"
+            "\\(8\\)",
+            "\\(13\\) in totaal",
+            "\\(16\\) in totaal",
+            "\\(21\\) in totaal"
           ],
           "antwoord": 0,
-          "uitleg": "Terugwerken: 26 halveren is 13, en 13 min 5 is 8."
+          "uitleg": "Terugwerken: \\(26 : 2 = 13\\) en \\(13 - 5 = 8\\)."
         },
         {
           "type": "meerkeuze",
@@ -6227,15 +6227,15 @@
         },
         {
           "type": "meerkeuze",
-          "vraag": "Een trui kost 40 euro en gaat 25 procent in prijs omlaag. Wat betaal je?",
+          "vraag": "Een trui kost \\(40\\) euro en gaat \\(25\\,\\%\\) in prijs omlaag. Wat betaal je?",
           "opties": [
-            "30 euro",
-            "10 euro in totaal",
-            "35 euro in totaal",
-            "15 euro in totaal"
+            "\\(30\\) euro",
+            "\\(10\\) euro in totaal",
+            "\\(35\\) euro in totaal",
+            "\\(15\\) euro in totaal"
           ],
           "antwoord": 0,
-          "uitleg": "25 procent van 40 is 10, en 40 min 10 is 30."
+          "uitleg": "\\(25\\,\\%\\) van \\(40\\) is \\(10\\), en \\(40 - 10 = 30\\)."
         },
         {
           "type": "waarofniet",
@@ -6247,16 +6247,16 @@
           "type": "waarofniet",
           "vraag": "Bij een vraagstuk mag je de eenheid in het antwoord weglaten.",
           "antwoord": false,
-          "uitleg": "Een getal zonder eenheid zegt niets. 5 meter is niet hetzelfde als 5 seconden."
+          "uitleg": "Een getal zonder eenheid zegt niets. \\(5\\) meter is niet hetzelfde als \\(5\\) seconden."
         },
         {
           "type": "invultekst",
-          "vraag": "Hoeveel is 10 procent van 250? Een getal.",
+          "vraag": "Hoeveel is \\(10\\,\\%\\) van \\(250\\)? Een getal.",
           "antwoord": [
             "25",
             "vijfentwintig"
           ],
-          "uitleg": "Tien procent nemen is delen door tien."
+          "uitleg": "Tien procent nemen is delen door \\(10\\)."
         },
         {
           "type": "meerkeuze",
@@ -6272,15 +6272,15 @@
         },
         {
           "type": "meerkeuze",
-          "vraag": "Drie vrienden delen 18 euro, maar een van hen krijgt het dubbele van elk van de twee andere. Hoeveel krijgt hij?",
+          "vraag": "Drie vrienden delen \\(18\\) euro, maar een van hen krijgt het dubbele van elk van de twee andere. Hoeveel krijgt hij?",
           "opties": [
-            "9 euro",
-            "6 euro in totaal",
-            "12 euro in totaal",
-            "4,5 euro in totaal"
+            "\\(9\\) euro",
+            "\\(6\\) euro in totaal",
+            "\\(12\\) euro in totaal",
+            "\\(4{,}5\\) euro in totaal"
           ],
           "antwoord": 0,
-          "uitleg": "Samen zijn er vier gelijke delen: 18 gedeeld door 4 is 4,5, en het dubbele is 9."
+          "uitleg": "Samen zijn er vier gelijke delen: \\(18 : 4 = 4{,}5\\), en het dubbele is \\(9\\)."
         },
         {
           "type": "meerkeuze",
@@ -6312,13 +6312,13 @@
         },
         {
           "type": "invultekst",
-          "vraag": "Een trui kost na 20 procent korting 40 euro. Wat was de oude prijs? Een getal.",
+          "vraag": "Een trui kost na \\(20\\,\\%\\) korting \\(40\\) euro. Wat was de oude prijs? Een getal.",
           "antwoord": [
             "50",
             "50 euro",
             "vijftig"
           ],
-          "uitleg": "40 euro is 80 procent van de oude prijs, en 40 gedeeld door 0,8 is 50."
+          "uitleg": "\\(40\\) euro is \\(80\\,\\%\\) van de oude prijs, en \\(40 : 0{,}8 = 50\\)."
         }
       ]
     },

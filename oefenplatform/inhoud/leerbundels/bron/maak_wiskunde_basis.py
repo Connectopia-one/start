@@ -1265,71 +1265,86 @@ zet("telproblemen-en-problemen-oplossen",
     onder="Het boomdiagram en het venndiagram, de som-, product- en complementregel, en de vierslag om een vraagstuk aan te pakken.",
     secties=[
         dict(kop="De drie telregels", blokken=[
-            ("p", "De vakfiche noemt er <strong>drie</strong>: <strong>de somregel</strong>, <strong>de "
-                  "productregel</strong> en <strong>de complementregel</strong>. Een wortelregel bestaat "
-                  "hier niet."),
+            ("p", r"De vakfiche noemt er <strong>drie</strong>: <strong>de somregel</strong>, <strong>de "
+                  r"productregel</strong> en <strong>de complementregel</strong>. Een wortelregel bestaat "
+                  r"hier niet. Bij twee muntstukken tel je met die laatste regel één geval in "
+                  r"plaats van drie."),
             ("kader", tabel(["regel", "wanneer je ze gebruikt", "voorbeeld"],
-                            [["<strong>de productregel</strong>", "<strong>bij keuzes na elkaar</strong>: vermenigvuldigen",
-                              "<strong>3 truien en 4 broeken geven 12 combinaties</strong>"],
-                             ["<strong>de somregel</strong>", "<strong>bij keuzes die elkaar uitsluiten</strong>: het een of het ander, maar niet beide",
-                              "de aantallen optellen"],
-                             ["<strong>de complementregel</strong>", "<strong>tel het tegendeel en trek het af</strong> van het totaal",
-                              "<strong>het complement van minstens één keer kop is twee keer munt</strong>"]])),
-            ("p", "<strong>De somregel mag je niet gebruiken als de twee gevallen kunnen samenvallen</strong>: "
-                  "dan tel je de overlap dubbel, en moet je ze aftrekken."),
-            ("kader", tabel(["telprobleem", "antwoord", "rekenwijze"],
-                            [["<strong>twee dobbelstenen</strong>", "<strong>36 uitkomsten</strong>", "6 × 6"],
-                             ["<strong>een munt en een dobbelsteen</strong>", "<strong>12 uitkomsten</strong>", "2 × 6"],
-                             ["<strong>drie keer een munt</strong>", "<strong>8 uitkomsten</strong>", "2 × 2 × 2"],
-                             ["<strong>3 kinderen in een rij zetten</strong>", "<strong>6 manieren</strong>", "3 × 2 × 1: na elke keuze blijft er één kind minder over"],
-                             ["<strong>pincodes van 4 cijfers</strong>", "<strong>10 000</strong>", "10 × 10 × 10 × 10: elk cijfer mag opnieuw"]])),
+                            [[r"<strong>de productregel</strong>", r"<strong>bij keuzes na elkaar</strong>: vermenigvuldigen",
+                              r"<strong>\(3\) truien en \(4\) broeken geven \(3 \cdot 4 = 12\) combinaties</strong>"],
+                             [r"<strong>de somregel</strong>", r"<strong>bij keuzes die elkaar uitsluiten</strong>: het een of het ander, maar niet beide",
+                              r"de aantallen optellen"],
+                             [r"<strong>de complementregel</strong>", r"<strong>tel het tegendeel en trek het af</strong> van het totaal",
+                              r"<strong>het complement van minstens één keer kop is twee keer munt</strong>"]])),
+            ("p", r"<strong>De somregel mag je niet gebruiken als de twee gevallen kunnen "
+                  r"samenvallen</strong>: dan tel je de overlap dubbel, en moet je ze aftrekken."),
         ]),
-        dict(kop="Boomdiagram en venndiagram", blokken=[
-            ("p", "<strong>Een boomdiagram is een schema van alle mogelijkheden</strong>: elke tak is een "
-                  "keuze, en door de takken te volgen tel je alles. Het is handig <strong>bij keuzes na "
-                  "elkaar</strong>, <strong>bij een klein aantal mogelijkheden</strong> en <strong>om geen "
-                  "geval te vergeten</strong>. Het telt mogelijkheden; gemiddelden berekent het niet."),
-            ("p", "<strong>Een venndiagram toont overlappende groepen</strong>: twee of drie cirkels met hun "
-                  "overlap. <strong>In de overlap staat wat in beide verzamelingen zit</strong>, en net "
-                  "daarom zie je er dubbele tellingen in. <strong>Je telt die overlap niet twee keer "
-                  "mee</strong>: je telt de twee groepen op en trekt de overlap één keer af."),
+        dict(kop="Tellen met de productregel", blokken=[
+            ("kader", tabel(["telprobleem", "antwoord", "rekenwijze"],
+                            [[r"<strong>twee dobbelstenen gooien</strong>", r"<strong>\(36\) uitkomsten</strong>", r"\(6 \cdot 6\)"],
+                             [r"<strong>een munt en een dobbelsteen gooien</strong>", r"<strong>\(12\) uitkomsten</strong>", r"\(2 \cdot 6\)"],
+                             [r"<strong>drie keer een munt gooien</strong>", r"<strong>\(8\) uitkomsten</strong>", r"\(2 \cdot 2 \cdot 2 = 2^{3}\)"],
+                             [r"<strong>\(3\) kinderen in een rij zetten</strong>", r"<strong>\(6\) manieren</strong>", r"\(3 \cdot 2 \cdot 1\): na elke keuze blijft er één kind minder over"],
+                             [r"<strong>pincodes van \(4\) cijfers</strong>", r"<strong>\(10\,000\)</strong>", r"\(10^{4}\): elk cijfer mag opnieuw"]])),
+        ]),
+        dict(kop="Het boomdiagram", blokken=[
+            ("p", r"<strong>Een boomdiagram is een schema van alle mogelijkheden</strong>: elke tak is een "
+                  r"keuze, en door de takken te volgen tel je alles. Het is handig <strong>bij keuzes na "
+                  r"elkaar</strong>, <strong>bij een klein aantal mogelijkheden</strong> en <strong>om geen "
+                  r"geval te vergeten</strong>. Het telt mogelijkheden; gemiddelden berekent het niet."),
+            ("fig", svg.mogelijkhedenboom(["kop", "munt"], ["1", "2", "3", "4", "5", "6"]),
+             "Een munt en een dobbelsteen: twee takken van elk zes bladeren, samen \\(2 \\cdot 6 = 12\\)."),
+        ]),
+        dict(kop="Het venndiagram", blokken=[
+            ("p", r"<strong>Een venndiagram toont overlappende groepen</strong>: twee of drie cirkels met "
+                  r"hun overlap. <strong>In de overlap staat wat in beide verzamelingen zit</strong>, de "
+                  r"doorsnede \(A \cap B\), en net daarom zie je er dubbele tellingen in. <strong>Je telt "
+                  r"die overlap niet twee keer mee</strong>: \(|A \cup B| = |A| + |B| - |A \cap B|\)."),
+            ("fig", svg.venndiagram("voetbal", "zwemmen", "8", "4", "5"),
+             "\\(12\\) voetballers en \\(9\\) zwemmers, \\(4\\) doen beide: samen \\(8 + 4 + 5 = 17\\) sporters."),
+        ]),
+        dict(kop="Tellen met overlap", blokken=[
             ("kader", tabel(["situatie", "antwoord", "rekenwijze"],
-                            [["<strong>12 kinderen voetballen, 9 zwemmen, 4 doen beide</strong>", "<strong>17 doen sport</strong>", "12 + 9 = 21, min de 4 die je dubbel telde"],
-                             ["<strong>van 30 leerlingen spreken er 18 Frans en 7 twee talen</strong>", "<strong>11 spreken enkel Frans</strong>", "18 − 7"]])),
-            ("p", "De fouten die je makkelijk maakt: <strong>gevallen dubbel tellen</strong>, <strong>een "
-                  "geval vergeten</strong> en <strong>optellen in plaats van vermenigvuldigen</strong>. "
-                  "Daarom helpt een schema zo: het maakt dubbels zichtbaar."),
+                            [[r"<strong>\(12\) kinderen voetballen, \(9\) zwemmen, \(4\) doen beide</strong>", r"<strong>\(17\) doen sport</strong>", r"\(12 + 9 - 4 = 17\)"],
+                             [r"<strong>van \(30\) leerlingen spreken er \(18\) Frans en \(7\) twee talen</strong>", r"<strong>\(11\) spreken enkel Frans</strong>", r"\(18 - 7\)"]])),
+            ("p", r"De fouten die je makkelijk maakt: <strong>gevallen dubbel tellen</strong>, <strong>een "
+                  r"geval vergeten</strong> en <strong>optellen in plaats van vermenigvuldigen</strong>. "
+                  r"Daarom helpt een schema zo: het maakt dubbels zichtbaar."),
         ]),
         dict(kop="Een probleem aanpakken", blokken=[
-            ("p", "De klassieke vierslag: <strong>begrijpen wat gevraagd is</strong>, <strong>een plan "
-                  "kiezen</strong>, <strong>het plan uitvoeren en controleren</strong>. <strong>De eerste "
-                  "stap is dus de vraag goed lezen</strong>: wat is gegeven en wat is gevraagd? En "
-                  "<strong>een vraagstuk heeft niet altijd maar één oplossingsweg</strong>; de fiche vraagt "
-                  "net dat je een weg kiest en verantwoordt."),
-            ("p", "<strong>Een heuristiek is een hulpmiddel om te zoeken</strong>: geen recept, maar een "
-                  "manier van aanpakken."),
+            ("p", r"De klassieke vierslag: <strong>begrijpen wat gevraagd is</strong>, <strong>een plan "
+                  r"kiezen</strong>, <strong>het plan uitvoeren en controleren</strong>. <strong>De eerste "
+                  r"stap is dus de vraag goed lezen</strong>: wat is gegeven en wat is gevraagd? En "
+                  r"<strong>een vraagstuk heeft niet altijd maar één oplossingsweg</strong>; de "
+                  r"fiche vraagt net dat je een weg kiest en verantwoordt."),
+            ("p", r"<strong>Een heuristiek is een hulpmiddel om te zoeken</strong>: geen recept, maar een "
+                  r"manier van aanpakken."),
             ("kader", tabel(["heuristiek", "wat ze doet"],
-                            [["<strong>een tekening of schema maken</strong>", "<strong>helpt ook zonder meetkunde</strong>: het maakt een verband zichtbaar dat in woorden verborgen zit"],
-                             ["<strong>het probleem eerst vereenvoudigen</strong>", "<strong>een eenvoudiger geval proberen</strong> met kleine getallen; het patroon werkt vaak ook groot"],
-                             ["<strong>van achteren naar voren werken</strong>", "<strong>terugwerken</strong>: je begint bij de gevraagde uitkomst en draait elke stap om"],
-                             ["<strong>een tabel maken</strong>", "<strong>handig om een patroon op het spoor te komen</strong>: de gevallen staan naast elkaar"]])),
-            ("p", "<strong>Schatten vóór je rekent is je controle</strong>: wijkt je uitkomst er ver van af, "
-                  "dan zoek je de fout. Je merkt zo <strong>een rare uitkomst</strong> meteen."),
-            ("p", "<strong>Op het einde controleer je.</strong> De vragen daarbij: <strong>is dit een "
-                  "antwoord op de vraag</strong>, <strong>klopt de grootteorde</strong> en <strong>staat de "
-                  "eenheid erbij</strong>? <strong>De eenheid mag je niet weglaten</strong>: 5 meter is niet "
-                  "hetzelfde als 5 seconden. En <strong>een onmogelijke uitkomst, zoals een negatieve "
-                  "leeftijd, wijst op een fout of op een oplossing die wegvalt</strong>."),
-            ("p", "<strong>Je stappen opschrijven helpt je je fout te vinden</strong>, en de verbetering ziet "
-                  "hoe je gedacht hebt. Op het examen levert dat punten op."),
+                            [[r"<strong>een tekening of schema maken</strong>", r"<strong>helpt ook zonder meetkunde</strong>: het maakt een verband zichtbaar dat in woorden verborgen zit"],
+                             [r"<strong>het probleem eerst vereenvoudigen</strong>", r"<strong>een eenvoudiger geval proberen</strong> met kleine getallen; het patroon werkt vaak ook groot"],
+                             [r"<strong>van achteren naar voren werken</strong>", r"<strong>terugwerken</strong>: je begint bij de gevraagde uitkomst en draait elke stap om"],
+                             [r"<strong>een tabel maken</strong>", r"<strong>handig om een patroon op het spoor te komen</strong>: de gevallen staan naast elkaar"]])),
+        ]),
+        dict(kop="Schatten en controleren", blokken=[
+            ("p", r"<strong>Schatten vóór je rekent is je controle</strong>: wijkt je uitkomst er "
+                  r"ver van af, dan zoek je de fout. Je merkt zo <strong>een rare uitkomst</strong> meteen."),
+            ("p", r"<strong>Op het einde controleer je.</strong> De vragen daarbij: <strong>is dit een "
+                  r"antwoord op de vraag</strong>, <strong>klopt de grootteorde</strong> en <strong>staat "
+                  r"de eenheid erbij</strong>? <strong>De eenheid mag je niet weglaten</strong>: \(5\) meter "
+                  r"is niet hetzelfde als \(5\) seconden. En <strong>een onmogelijke uitkomst, zoals een "
+                  r"negatieve leeftijd, wijst op een fout of op een oplossing die wegvalt</strong>."),
+            ("p", r"<strong>Je stappen opschrijven helpt je je fout te vinden</strong>, en de verbetering "
+                  r"ziet hoe je gedacht hebt. Op het examen levert dat punten op."),
+        ]),
+        dict(kop="Vijf vraagstukken uitgewerkt", blokken=[
             ("kader", tabel(["vraagstuk", "antwoord", "rekenwijze"],
-                            [["<strong>ik denk aan een getal, tel er 5 bij en verdubbel; ik krijg 26</strong>", "<strong>8</strong>",
-                              "terugwerken: 26 halveren is 13, min 5 is 8"],
-                             ["<strong>een trui van 40 euro met 25 procent korting</strong>", "<strong>30 euro</strong>", "25 % van 40 is 10"],
-                             ["<strong>een trui kost na 20 procent korting 40 euro</strong>", "<strong>de oude prijs was 50 euro</strong>", "40 is 80 % van de oude prijs, dus 40 : 0,8"],
-                             ["<strong>10 procent van 250</strong>", "<strong>25</strong>", "tien procent nemen is delen door tien"],
-                             ["<strong>drie vrienden delen 18 euro, één krijgt het dubbele van elk van de andere twee</strong>", "<strong>hij krijgt 9 euro</strong>",
-                              "samen vier gelijke delen: 18 : 4 = 4,5, en het dubbele is 9"]])),
+                            [[r"<strong>ik denk aan een getal, tel er \(5\) bij en verdubbel; ik krijg \(26\)</strong>", r"<strong>\(8\)</strong>",
+                              r"terugwerken: \(26 : 2 = 13\) en \(13 - 5 = 8\)"],
+                             [r"<strong>een trui van \(40\) euro met \(25\,\%\) korting</strong>", r"<strong>\(30\) euro</strong>", r"\(25\,\%\) van \(40\) is \(10\)"],
+                             [r"<strong>een trui kost na \(20\,\%\) korting \(40\) euro</strong>", r"<strong>de oude prijs was \(50\) euro</strong>", r"\(40\) is \(80\,\%\) van de oude prijs, dus \(40 : 0{,}8\)"],
+                             [r"<strong>\(10\,\%\) van \(250\)</strong>", r"<strong>\(25\)</strong>", r"tien procent nemen is delen door \(10\)"],
+                             [r"<strong>drie vrienden delen \(18\) euro, één krijgt het dubbele van elk van de andere twee</strong>", r"<strong>hij krijgt \(9\) euro</strong>",
+                              r"samen vier gelijke delen: \(18 : 4 = 4{,}5\), en het dubbele is \(9\)"]])),
         ]),
     ])
 
