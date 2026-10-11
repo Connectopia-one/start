@@ -704,7 +704,7 @@
             "\\(\\tfrac{1}{2}\\)"
           ],
           "antwoord": 0,
-          "uitleg": "Een negatieve exponent betekent het omgekeerde: \\(2^{-2} = \\tfrac{1}{2}\\)^{2} \\(= \\tfrac{1}{4}\\)."
+          "uitleg": "Een negatieve exponent betekent het omgekeerde: \\(2^{-2} = \\left(\\tfrac{1}{2}\\right)^{2} = \\tfrac{1}{4}\\)."
         },
         {
           "type": "meerkeuze",
@@ -3414,7 +3414,7 @@
             "De open verzameling"
           ],
           "antwoord": 0,
-          "uitleg": "De lege verzameling, geschreven als \\(\\emptyset\\) of { }. Let op: \\(\\{0\\}\\) is niet leeg, want daar zit één element in."
+          "uitleg": "De lege verzameling, geschreven als \\(\\emptyset\\) of \\(\\{\\;\\}\\). Let op: \\(\\{0\\}\\) is niet leeg, want daar zit één element in."
         },
         {
           "type": "meerkeuze",
@@ -3625,14 +3625,14 @@
         },
         {
           "type": "meerkeuze",
-          "vraag": "Hoeveel deelverzamelingen heeft {a, b}?",
+          "vraag": "Hoeveel deelverzamelingen heeft \\(\\{a, b\\}\\)?",
           "opties": [
             "\\(4\\)",
             "\\(2\\)",
             "\\(3\\)"
           ],
           "antwoord": 0,
-          "uitleg": "Vier: \\(\\emptyset\\), {a}, {b} en {a, b}. De lege verzameling en de verzameling zelf tellen mee."
+          "uitleg": "Vier: \\(\\emptyset\\), \\(\\{a\\}\\), \\(\\{b\\}\\) en \\(\\{a, b\\}\\). De lege verzameling en de verzameling zelf tellen mee."
         },
         {
           "type": "meerkeuze",

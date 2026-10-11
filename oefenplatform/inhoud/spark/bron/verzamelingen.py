@@ -87,7 +87,7 @@ DEEL1 = [
         vraag="Hoe noem je een verzameling zonder elementen?",
         opties=["De lege verzameling", "De nulverzameling", "De open verzameling"],
         antwoord=0,
-        uitleg=r"De lege verzameling, geschreven als \(\emptyset\) of { }. Let op: \(\{0\}\) is niet leeg, want daar zit één element in.",
+        uitleg=r"De lege verzameling, geschreven als \(\emptyset\) of \(\{\;\}\). Let op: \(\{0\}\) is niet leeg, want daar zit één element in.",
     ),
     dict(
         type="meerkeuze",
@@ -238,10 +238,10 @@ DEEL2 = [
     ),
     dict(
         type="meerkeuze",
-        vraag="Hoeveel deelverzamelingen heeft {a, b}?",
+        vraag=r"Hoeveel deelverzamelingen heeft \(\{a, b\}\)?",
         opties=[r"\(4\)", r"\(2\)", r"\(3\)"],
         antwoord=0,
-        uitleg=r"Vier: \(\emptyset\), {a}, {b} en {a, b}. De lege verzameling en de verzameling zelf tellen mee.",
+        uitleg=r"Vier: \(\emptyset\), \(\{a\}\), \(\{b\}\) en \(\{a, b\}\). De lege verzameling en de verzameling zelf tellen mee.",
     ),
     dict(
         type="meerkeuze",
