@@ -10012,3 +10012,45 @@ def paraboolgrafiek(breedte=470):
     d.append(f'<circle cx="{px(2)}" cy="{py(-1)}" r="4.2" fill="{AMBER}"/>')
     d.append(_tekst(px(2) + 9, py(-1) + 17, "top (2, −1)", 10, AMBER, "start", True))
     return _svg(breedte, h, "\n".join(d))
+
+
+def afgekapteas(breedte=470):
+    """Twee keer dezelfde twee staven, links met de as vanaf nul, rechts afgekapt.
+
+    Het verschil tussen 97 en 98 is in allebei even groot; alleen het beeld
+    verandert. Daarom staan de waarden ook boven de staven.
+    """
+    h = 210
+    waarden = [("maandag", 97), ("dinsdag", 98)]
+    marge, tussen = 10, 22
+    paneel = (breedte - 2 * marge - tussen) / 2
+    top, bodem = 56, 160
+
+    def paneeltje(x0, laag, hoog, titel, ticks):
+        d = [f'<rect x="{x0}" y="8" width="{paneel:.1f}" height="{h-34}" rx="8" fill="{PAPER}" '
+             f'stroke="{BORDER}" stroke-width="1.2"/>']
+        asx = x0 + 46
+        d.append(f'<line x1="{asx}" y1="{top-10}" x2="{asx}" y2="{bodem}" stroke="{INK}" '
+                 f'stroke-width="1.3"/>')
+        d.append(f'<line x1="{asx}" y1="{bodem}" x2="{x0+paneel-14:.1f}" y2="{bodem}" stroke="{INK}" '
+                 f'stroke-width="1.3"/>')
+        for t in ticks:
+            y = bodem - (t - laag) / (hoog - laag) * (bodem - top)
+            d.append(f'<line x1="{asx-4}" y1="{y:.1f}" x2="{asx}" y2="{y:.1f}" stroke="{DIM}" '
+                     f'stroke-width="1"/>')
+            d.append(_tekst(asx - 8, y + 3, str(t), 8, DIM, "end"))
+        bw = 32
+        for i, (naam, v) in enumerate(waarden):
+            bx = asx + 18 + i * (bw + 20)
+            y = bodem - (v - laag) / (hoog - laag) * (bodem - top)
+            kleur = FOREST if i == 0 else AMBER
+            d.append(f'<rect x="{bx}" y="{y:.1f}" width="{bw}" height="{bodem-y:.1f}" fill="{kleur}" '
+                     f'fill-opacity="0.22" stroke="{kleur}" stroke-width="1.6" rx="2"/>')
+            d.append(_tekst(bx + bw / 2, y - 6, str(v), 9.5, kleur, "middle", True))
+            d.append(_tekst(bx + bw / 2, bodem + 14, naam, 8.5, DIM, "middle"))
+        d.append(_tekst(x0 + paneel / 2, 32, titel, 10.5, DARK, "middle", True))
+        return d
+
+    d = paneeltje(marge, 0, 100, "as vanaf 0", [0, 25, 50, 75, 100])
+    d += paneeltje(marge + paneel + tussen, 96, 99, "as vanaf 96", [96, 97, 98, 99])
+    return _svg(breedte, h, "\n".join(d))

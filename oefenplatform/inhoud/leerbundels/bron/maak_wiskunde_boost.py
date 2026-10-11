@@ -1768,20 +1768,25 @@ BUNDELS["misleiding-met-cijfers-en-verbanden-in-een-puntenwolk-boost-doorstroom"
     onder="Hoe een grafiek kan kloppen en toch liegen, en wat een correlatie wel en niet bewijst.",
     secties=[
         dict(kop="Procent en procentpunt", blokken=[
-            ("p", "Een partij gaat van 20 naar 25 procent van de stemmen. Twee manieren om dat te zeggen, "
-                  "allebei waar, en ze klinken heel verschillend:"),
+            ("p", "Een partij gaat van \\(20\\,\\%\\) naar \\(25\\,\\%\\) van de stemmen. Twee manieren om "
+                  "dat te zeggen, allebei waar, en ze klinken heel verschillend:"),
             ("p", tabel(["Uitdrukking", "Berekening", "Resultaat"], [
-                ["gegroeid met", "25 − 20", "5 procentpunt"],
-                ["gegroeid met", "5 gedeeld door 20", "25 procent"],
+                ["gegroeid met", r"\(25 - 20\)", r"\(5\) procentpunt"],
+                ["gegroeid met", r"\(\frac{5}{20} = 0{,}25\)", r"\(25\,\%\)"],
             ])),
             ("p", "<strong>Procentpunt</strong> is het gewone verschil tussen twee percentages. "
-                  "<strong>Procent</strong> is de groei ten opzichte van de beginwaarde. Van 12 naar 18 procent "
-                  "is <strong>6 procentpunt</strong> — en 50 procent groei."),
-            ("p", "Een krant schrijft liever <em>25 procent groei</em>: het getal klinkt indrukwekkender "
-                  "terwijl de groei dezelfde is. Lees dus altijd welk van de twee woorden er staat."),
+                  "<strong>Procent</strong> is de groei ten opzichte van de beginwaarde. Van \\(12\\,\\%\\) "
+                  "naar \\(18\\,\\%\\) is <strong>\\(6\\) procentpunt</strong>, en "
+                  "\\(\\frac{6}{12} = 50\\,\\%\\) groei."),
+            ("p", "Een krant schrijft liever <em>\\(25\\,\\%\\) groei</em>: het getal klinkt "
+                  "indrukwekkender terwijl de groei dezelfde is. Lees dus altijd welk van de twee woorden "
+                  "er staat."),
+        ]),
+        dict(kop="Procenten tel je niet op", blokken=[
             ("kader", "<strong>Procenten van verschillende bedragen tel je niet op.</strong> Een prijs van "
-                      "100 euro die 20 procent stijgt en daarna 20 procent korting krijgt, kost geen 100 euro "
-                      "maar <strong>96</strong>: de korting van 24 euro geldt op de hogere prijs van 120."),
+                      "\\(100\\) euro die \\(20\\,\\%\\) stijgt en daarna \\(20\\,\\%\\) korting krijgt, "
+                      "kost geen \\(100\\) euro maar \\(100 \\cdot 1{,}20 \\cdot 0{,}80 = 96\\): de korting "
+                      "van \\(24\\) euro geldt op de hogere prijs van \\(120\\)."),
         ]),
         dict(kop="Wat een grafiek kan verbergen", blokken=[
             ("p", tabel(["Truc", "Wat je ziet", "Wat je moet nakijken"], [
@@ -1791,19 +1796,26 @@ BUNDELS["misleiding-met-cijfers-en-verbanden-in-een-puntenwolk-boost-doorstroom"
                 ["gegevens weggelaten", "een mooie rechte lijn", "of er jaren of groepen ontbreken"],
                 ["de verkeerde centrummaat", "een te rooskleurig midden", "of er uitschieters zijn, en of het gemiddelde of de mediaan past"],
             ])),
-            ("p", "Bij een <strong>staafdiagram</strong> met een as die vlak onder de laagste waarde begint, lijkt een staafje van 98 twee keer zo "
-                  "hoog als een staafje van 97. Bij stappen als 0, 10, 20, 50 en 100 op gelijke afstanden lijkt "
-                  "een kromme plots recht. En bij blokken in perspectief lijkt een dubbel zo hoge staaf veel "
-                  "meer dan dubbel zo groot, want het oog kijkt naar het volume."),
-            ("p", "Toont een grafiek de verkoop van 2022 tot 2024 maar ontbreekt 2023, vraag je dan af waarom. "
-                  "Net dat jaar kan de stijging tegenspreken."),
-            ("p", "Een <strong>cirkeldiagram waarvan de delen samen 118 procent geven</strong> klopt niet, of "
-                  "de delen overlappen elkaar. Eén geheel is honderd procent."),
+        ]),
+        dict(kop="Dezelfde twee staven, twee assen", blokken=[
+            ("fig", svg.afgekapteas(),
+             r"links begint de as bij \(0\), rechts bij \(96\); het verschil blijft \(1\)"),
+            ("p", "Een <strong>staafdiagram</strong> met een as die vlak onder de laagste waarde begint, "
+                  "laat een staafje van \\(98\\) dubbel zo hoog lijken als een staafje van \\(97\\)."),
+            ("p", "Bij stappen als \\(0,\\ 10,\\ 20,\\ 50,\\ 100\\) op gelijke afstanden lijkt een kromme "
+                  "plots recht. En bij blokken in perspectief lijkt een dubbel zo hoge staaf veel meer dan "
+                  "dubbel zo groot, want het oog kijkt naar het volume."),
+        ]),
+        dict(kop="Weglaten en afronden", blokken=[
+            ("p", "Toont een grafiek de verkoop van \\(2022\\) tot \\(2024\\) maar ontbreekt \\(2023\\), "
+                  "vraag je dan af waarom. Net dat jaar kan de stijging tegenspreken."),
+            ("p", "Een <strong>cirkeldiagram waarvan de delen samen \\(118\\,\\%\\) geven</strong> klopt "
+                  "niet, of de delen overlappen elkaar. Eén geheel is \\(100\\,\\%\\)."),
         ]),
         dict(kop="Getallen zonder context", blokken=[
-            ("p", "<strong>Een percentage zonder het aantal vertelt het halve verhaal.</strong> Vijftig "
-                  "procent kan twee mensen op vier zijn of duizend op tweeduizend. Bij kleine aantallen "
-                  "schommelt een percentage enorm."),
+            ("p", "<strong>Een percentage zonder het aantal vertelt het halve verhaal.</strong> "
+                  "\\(50\\,\\%\\) kan \\(2\\) op \\(4\\) zijn of \\(1000\\) op \\(2000\\). Bij kleine "
+                  "aantallen schommelt een percentage enorm."),
             ("p", "<em>Negen op de tien tandartsen raden dit aan.</em> De eerste vraag is: "
                   "<strong>hoeveel</strong> tandartsen zijn er bevraagd, en <strong>door wie</strong>? Tien "
                   "tandartsen die de fabrikant zelf koos, zeggen iets heel anders dan duizend willekeurige."),
@@ -1817,6 +1829,12 @@ BUNDELS["misleiding-met-cijfers-en-verbanden-in-een-puntenwolk-boost-doorstroom"
             ("p", "De <strong>trendlijn</strong> is de rechte die de vorm van de wolk het best samenvat. Ze "
                   "gaat meestal <strong>door geen enkel punt precies</strong>, maar ligt er zo dicht mogelijk "
                   "bij."),
+            ("fig", svg.puntenwolk([(2, 9), (3, 9), (4, 12), (5, 11), (6, 14), (7, 13), (8, 16),
+                                    (9, 15), (10, 18), (11, 19)], breedte=440,
+                                   xlabel="studietijd in uren", ylabel="punten"),
+             "elk punt is één leerling; de rechte vat de wolk samen"),
+        ]),
+        dict(kop="Voorzichtig met de trendlijn", blokken=[
             ("p", "Eén <strong>uitschieter</strong> ver van de wolk kan die lijn flink naar zich toe trekken. "
                   "Ga dus ook hier na of dat punt een meetfout is of een echte waarneming."),
             ("p", "<strong>Ver buiten het gemeten gebied voorspellen</strong> is riskant: daar kan het verband "
@@ -1824,19 +1842,24 @@ BUNDELS["misleiding-met-cijfers-en-verbanden-in-een-puntenwolk-boost-doorstroom"
                   "jaar niet te blijven."),
         ]),
         dict(kop="De correlatiecoëfficiënt", blokken=[
-            ("p", "De <strong>correlatiecoëfficiënt</strong> ligt altijd <strong>tussen min 1 en 1</strong>. "
-                  "Het <strong>teken</strong> geeft de richting, het <strong>getal</strong> de sterkte."),
+            ("p", "De <strong>correlatiecoëfficiënt \\(r\\)</strong> ligt altijd tussen "
+                  "\\(-1\\) en \\(1\\): \\(-1 \\leq r \\leq 1\\). Het <strong>teken</strong> geeft de "
+                  "richting, het <strong>getal</strong> de sterkte."),
             ("p", tabel(["Waarde", "Wat ze betekent", "De wolk"], [
-                ["1", "perfect positief verband", "alle punten op één stijgende rechte"],
-                ["ongeveer 0,9", "sterk positief", "allebei stijgen mee"],
-                ["ongeveer 0", "nauwelijks rechtlijnig verband", "punten zonder duidelijke richting"],
-                ["ongeveer −0,9", "sterk negatief", "de ene daalt als de andere stijgt"],
-                ["−1", "perfect negatief verband", "alle punten op één dalende rechte"],
+                [r"\(r = 1\)", "perfect positief verband", "alle punten op één stijgende rechte"],
+                [r"\(r \approx 0{,}9\)", "sterk positief", "allebei stijgen mee"],
+                [r"\(r \approx 0\)", "nauwelijks rechtlijnig verband", "punten zonder duidelijke richting"],
+                [r"\(r \approx -0{,}9\)", "sterk negatief", "de ene daalt als de andere stijgt"],
+                [r"\(r = -1\)", "perfect negatief verband", "alle punten op één dalende rechte"],
             ])),
             ("p", "Bij een <strong>positieve</strong> correlatie loopt de wolk van linksonder naar "
-                  "rechtsboven, bij een <strong>negatieve</strong> van linksboven naar rechtsonder."),
-            ("p", "Een coëfficiënt dicht bij nul betekent dat er nauwelijks een <em>rechtlijnig</em> verband "
-                  "is. Er kan nog altijd een ander soort verband zijn, bijvoorbeeld een gebogen."),
+                  "rechtsboven, bij een <strong>negatieve</strong> van linksboven naar rechtsonder. Een "
+                  "\\(r\\) dicht bij nul betekent dat er nauwelijks een <em>rechtlijnig</em> verband is; er "
+                  "kan nog altijd een ander soort verband zijn, bijvoorbeeld een gebogen."),
+        ]),
+        dict(kop="Drie wolken naast elkaar", blokken=[
+            ("fig", svg.correlatiewolken(),
+             r"dezelfde drie gevallen, met de \(r\) die uit die punten zelf gerekend is"),
         ]),
         dict(kop="Correlatie is geen oorzaak", blokken=[
             ("p", "Twee zaken kunnen samen bewegen zonder dat de ene de andere veroorzaakt. Er kan een "
@@ -1852,13 +1875,13 @@ BUNDELS["misleiding-met-cijfers-en-verbanden-in-een-puntenwolk-boost-doorstroom"
     ],
     onthoud=[
         "Procentpunt is het verschil tussen twee percentages, procent is de groei ten opzichte van het begin.",
-        "20 procent erbij en dan 20 procent korting brengt je op 96 procent, niet op 100.",
+        r"\(20\,\%\) erbij en dan \(20\,\%\) korting brengt je op \(96\,\%\), niet op \(100\,\%\).",
         "Kijk bij elke grafiek waar de verticale as begint en of de ijking gelijkmatig is.",
         "Een tekening in drie dimensies laat het oog volumes vergelijken in plaats van hoogtes.",
         "Een percentage zonder het aantal erachter vertelt maar het halve verhaal.",
         "Een spreidingsdiagram zet twee variabelen tegen elkaar, één punt per waarneming.",
         "De trendlijn vat de wolk samen en gaat vaak door geen enkel punt.",
-        "De correlatiecoëfficiënt ligt tussen min 1 en 1; teken is richting, getal is sterkte.",
+        r"\(-1 \leq r \leq 1\): het teken is de richting, het getal de sterkte.",
         "Correlatie is geen oorzakelijk verband: denk aan een derde factor.",
         "Ver buiten de gemeten waarden voorspellen is riskant.",
     ],
