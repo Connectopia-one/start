@@ -1730,63 +1730,126 @@ zet("verbanden-tussen-twee-grootheden",
     titel="Verbanden tussen twee grootheden",
     reeksen=[
         dict(kop="Welk verband?",
-             opdracht="Schrijf op: recht evenredig, omgekeerd evenredig, lineair of geen van "
-                      "de drie.",
+             opdracht="Schrijf op: recht evenredig, omgekeerd evenredig, lineair of geen van de drie.",
              oefeningen=[
-                 ("rij", [("y = 5x", "recht evenredig"), ("y = 5x + 2", "lineair"),
-                          ("y = 20/x", "omgekeerd evenredig"), ("y = x²", "geen van de drie"),
+                 ("rij", [("\\(y = 5x\\)", "recht evenredig"),
+                          ("\\(y = 5x + 2\\)", "lineair"),
+                          ("\\(y = \\frac{20}{x}\\)", "omgekeerd evenredig")],
+                  "Welk verband?", WW),
+             ]),
+        dict(kop="Nog drie verbanden",
+             opdracht="Schrijf op: recht evenredig, omgekeerd evenredig, lineair of geen van de drie.",
+             oefeningen=[
+                 ("rij", [("\\(y = x^{2}\\)", "geen van de drie"),
                           ("de prijs van benzine per liter", "recht evenredig"),
                           ("een taxi met opstapgeld", "lineair")],
                   "Welk verband?", WW),
                  ("open", "Wat is het verschil tussen recht evenredig en lineair?",
-                  "Recht evenredig is een bijzonder geval van lineair: de grafiek gaat door de "
-                  "oorsprong. Bij een lineair verband met een constante erbij gaat ze dat "
-                  "niet.", 3),
+                  "Recht evenredig is een bijzonder geval van lineair: de grafiek gaat door de oorsprong, "
+                  "dus \\(y = ax\\). Bij \\(y = ax + b\\) met \\(b \\neq 0\\) doet ze dat niet.", 3),
              ]),
         dict(kop="Een tabel aanvullen",
-             opdracht="Vul de tabel aan en schrijf het verband op.",
+             opdracht="Vul de tabel aan.",
              oefeningen=[
-                 ("tabel", ["x", "1", "2", "4", "5", "8"],
-                  [["y recht evenredig, y = 3x", None, None, None, None, None]],
-                  "3, 6, 12, 15, 24", "55px"),
-                 ("tabel", ["x", "1", "2", "4", "5", "10"],
-                  [["y omgekeerd evenredig, x·y = 20", None, None, None, None, None]],
-                  "20, 10, 5, 4, 2", "55px"),
-                 ("open", "In een tabel staat: x = 2 geeft y = 7, x = 4 geeft y = 13 en x = 6 "
-                          "geeft y = 19. Welk verband is dit? Schrijf het voorschrift.",
-                  "Lineair: per stap van 2 in x stijgt y met 6, dus rc = 3. Invullen van "
-                  "(2, 7): 7 = 6 + q, dus q = 1 en y = 3x + 1.", 4),
+                 ("tabel", ["\\(x\\)", "\\(1\\)", "\\(2\\)", "\\(4\\)", "\\(5\\)", "\\(8\\)"],
+                  [["\\(y\\) recht evenredig, \\(y = 3x\\)", None, None, None, None, None]],
+                  "\\(3, 6, 12, 15, 24\\)", "55px"),
+                 ("tabel", ["\\(x\\)", "\\(1\\)", "\\(2\\)", "\\(4\\)", "\\(5\\)", "\\(10\\)"],
+                  [["\\(y\\) omgekeerd evenredig, \\(x \\cdot y = 20\\)", None, None, None, None, None]],
+                  "\\(20, 10, 5, 4, 2\\)", "55px"),
+             ]),
+        dict(kop="Het voorschrift zoeken",
+             opdracht="Toon je redenering.",
+             oefeningen=[
+                 ("open", "In een tabel staat: \\(x = 2\\) geeft \\(y = 7\\), \\(x = 4\\) geeft "
+                          "\\(y = 13\\) en \\(x = 6\\) geeft \\(y = 19\\). Welk verband is dit? "
+                          "Schrijf het voorschrift.",
+                  "Lineair: per stap van \\(2\\) in \\(x\\) stijgt \\(y\\) met \\(6\\), dus "
+                  "\\(a = 3\\). Invullen van \\((2, 7)\\): \\(7 = 6 + b\\), dus \\(b = 1\\) "
+                  "en \\(y = 3x + 1\\).", 4),
              ]),
         dict(kop="Puntenwolk en samenhang",
-             opdracht="Antwoord in enkele zinnen.",
+             opdracht="Hoe noemen we dit?",
              oefeningen=[
-                 ("rij", [("de punten lopen van linksonder naar rechtsboven",
-                           "positieve samenhang"),
-                          ("de punten lopen van linksboven naar rechtsonder",
-                           "negatieve samenhang"),
-                          ("de punten liggen willekeurig verspreid", "geen samenhang"),
-                          ("de punten liggen bijna op één rechte", "sterke samenhang"),
-                          ("de rechte die het best door de wolk loopt", "de regressierechte"),
+                 ("rij", [("de punten lopen van linksonder naar rechtsboven", "positieve samenhang"),
+                          ("de punten lopen van linksboven naar rechtsonder", "negatieve samenhang"),
+                          ("de punten liggen willekeurig verspreid", "geen samenhang")],
+                  "Hoe noemen we dit?", WW),
+             ]),
+        dict(kop="Nog drie begrippen",
+             opdracht="Hoe noemen we dit?",
+             oefeningen=[
+                 ("rij", [("de punten liggen bijna op één rechte", "sterke samenhang"),
+                          ("de rechte die het best door de wolk loopt", "de trendlijn"),
                           ("een punt dat ver van de wolk ligt", "een uitschieter")],
                   "Hoe noemen we dit?", WW),
+             ]),
+        dict(kop="De correlatieco\u00ebffici\u00ebnt lezen",
+             opdracht="Schrijf op wat \\(r\\) je vertelt.",
+             oefeningen=[
+                 ("rij", [("\\(r = 0{,}95\\)", "sterk stijgend"),
+                          ("\\(r = -0{,}8\\)", "sterk dalend"),
+                          ("\\(r = 0{,}1\\)", "bijna geen verband"),
+                          ("\\(r = -1\\)", "perfect dalend")],
+                  "Wat zegt dit?", WL),
+             ]),
+        dict(kop="Teken en grootte",
+             opdracht="Antwoord kort.",
+             oefeningen=[
+                 ("waar", "\\(r = -1\\) is zwakker dan \\(r = 0{,}5\\).", False),
+                 ("waar", "\\(r\\) zegt enkel iets over een lineair verband.", True),
+             ]),
+        dict(kop="De grenzen van r",
+             opdracht="Schrijf je antwoord in volle zinnen.",
+             oefeningen=[
+                 ("open", "Tussen welke twee waarden ligt \\(r\\) altijd, en wat betekent elk uiterste?",
+                  "\\(-1 \\leq r \\leq 1\\). Bij \\(-1\\) liggen alle punten op een dalende "
+                  "rechte, bij \\(1\\) op een stijgende.", 3),
+             ]),
+        dict(kop="IJsjes en verdrinkingen",
+             opdracht="Antwoord in enkele zinnen.",
+             oefeningen=[
                  ("open", "In een stad stijgt het aantal ijsjes én het aantal verdrinkingen in "
                           "dezelfde maanden. Mag je besluiten dat ijsjes gevaarlijk zijn?",
-                  "Nee. Er is wel een samenhang, maar geen oorzakelijk verband: de warmte is "
-                  "de derde factor die allebei verklaart.", 3),
-                 ("open", "Noem twee redenen waarom een samenhang nog geen oorzaak is.",
-                  "Er kan een derde factor zijn die beide beïnvloedt, en de richting kan "
-                  "omgekeerd zijn dan je denkt. Daarbij kan een verband ook toeval zijn, "
-                  "zeker bij kleine aantallen.", 4),
+                  "Nee. Er is wel samenhang, maar geen oorzakelijk verband: de warmte is de derde factor "
+                  "die allebei verklaart.", 3),
              ]),
-        dict(kop="Toepassen",
+        dict(kop="Waarom samenhang geen oorzaak is",
+             opdracht="Antwoord in enkele zinnen.",
+             oefeningen=[
+                 ("open", "Noem twee redenen waarom een samenhang nog geen oorzaak is.",
+                  "Er kan een derde factor zijn die beide be\u00efnvloedt, en de richting kan omgekeerd "
+                  "zijn dan je denkt. Daarbij kan een verband ook toeval zijn.", 4),
+             ]),
+        dict(kop="Een oorzaak aantonen",
+             opdracht="Antwoord in enkele zinnen.",
+             oefeningen=[
+                 ("open", "Hoe toon je een oorzakelijk verband dan wel aan?",
+                  "Met een opgezet experiment: je verandert \u00e9\u00e9n ding en houdt de rest gelijk.", 3),
+             ]),
+        dict(kop="Voorspellen met de trendlijn",
              opdracht="Werk uit.",
              oefeningen=[
-                 ("open", "Een drukker rekent 25 euro opstartkost plus 0,40 euro per affiche. "
-                          "Schrijf de formule en bereken de prijs voor 150 affiches.",
-                  "p(x) = 25 + 0,40x. Bij 150: 25 + 60 = 85 euro.", 3),
-                 ("open", "Bij welke oplage kost één affiche minder dan 0,60 euro, alles "
-                          "meegerekend?",
-                  "(25 + 0,40x)/x &lt; 0,60 geeft 25 + 0,40x &lt; 0,60x, dus 25 &lt; 0,20x en "
-                  "x &gt; 125. Vanaf 126 affiches.", 4),
+                 ("open", "Een trendlijn door de wolk van lengte en schoenmaat heeft als vergelijking "
+                          "\\(y = 0{,}26x - 3{,}5\\). Welke maat verwacht je bij \\(172\\) cm?",
+                  "\\(0{,}26 \\cdot 172 - 3{,}5 = 44{,}72 - 3{,}5 \\approx 41\\).", 3),
+                 ("open", "Waarom gebruik je diezelfde rechte beter niet voor iemand van \\(60\\) cm?",
+                  "Dat ligt ver buiten de gemeten waarden; daar kan het verband heel anders lopen. De "
+                  "rechte zou maat \\(12\\) voorspellen.", 3),
+             ]),
+        dict(kop="De drukker",
+             opdracht="Werk uit.",
+             oefeningen=[
+                 ("open", "Een drukker rekent \\(25\\) euro opstartkost plus \\(0{,}40\\) euro per "
+                          "affiche. Schrijf de formule en bereken de prijs voor \\(150\\) affiches.",
+                  "\\(p(x) = 25 + 0{,}40x\\). Bij \\(x = 150\\): \\(25 + 60 = 85\\) euro.", 3),
+                 ("open", "Bij welke oplage kost één affiche minder dan \\(0{,}60\\) euro, "
+                          "alles meegerekend?",
+                  "\\(\\frac{25 + 0{,}40x}{x} < 0{,}60\\) geeft \\(25 < 0{,}20x\\) en "
+                  "\\(x > 125\\). Vanaf \\(126\\) affiches.", 4),
+                 ("open", "Is de prijs per affiche recht evenredig met de oplage? Leg uit.",
+                  "Nee. De totale prijs is lineair maar niet recht evenredig, want er staat "
+                  "\\(25\\) euro opstartkost bij. De prijs per affiche daalt juist naarmate je er "
+                  "meer drukt.", 4),
              ]),
     ])

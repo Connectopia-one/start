@@ -6789,7 +6789,7 @@
             "een cirkel met partjes erin"
           ],
           "antwoord": 0,
-          "uitleg": "Elk punt heeft twee waarden: een op de x-as en een op de y-as."
+          "uitleg": "Elk punt heeft twee waarden: een op de \\(x\\)-as en een op de \\(y\\)-as."
         },
         {
           "type": "meerkeuze",
@@ -6825,7 +6825,7 @@
             "de punten liggen op een rij verticaal"
           ],
           "antwoord": 0,
-          "uitleg": "Hoe hoger x, hoe hoger y. De trendlijn stijgt dan."
+          "uitleg": "Hoe hoger \\(x\\), hoe hoger \\(y\\). De trendlijn stijgt dan."
         },
         {
           "type": "invultekst",
@@ -6852,9 +6852,9 @@
           "type": "meerkeuze",
           "vraag": "Wat zie je bij een negatief verband?",
           "opties": [
-            "hoe hoger x, hoe lager y",
-            "hoe hoger x, hoe hoger y ook",
-            "x en y blijven altijd gelijk",
+            "hoe hoger \\(x\\), hoe lager \\(y\\)",
+            "hoe hoger \\(x\\), hoe hoger \\(y\\) ook",
+            "\\(x\\) en \\(y\\) blijven altijd gelijk",
             "de punten liggen allemaal samen"
           ],
           "antwoord": 0,
@@ -6898,7 +6898,7 @@
             "de assen van naam voorzien"
           ],
           "antwoord": 0,
-          "uitleg": "Met haar vergelijking schat je een y bij een x die je niet gemeten hebt."
+          "uitleg": "Met haar vergelijking \\(y = ax + b\\) schat je een \\(y\\) bij een \\(x\\) die je niet gemeten hebt."
         },
         {
           "type": "meerkeuze",
@@ -6931,7 +6931,7 @@
             "2",
             "twee"
           ],
-          "uitleg": "Twee: een x-waarde en een y-waarde."
+          "uitleg": "Twee: een \\(x\\)-waarde en een \\(y\\)-waarde."
         },
         {
           "type": "meerkeuze",
@@ -7020,19 +7020,19 @@
         },
         {
           "type": "meerkeuze",
-          "vraag": "Tussen welke waarden ligt de correlatiecoëfficiënt?",
+          "vraag": "Tussen welke waarden ligt de correlatiecoëfficiënt \\(r\\)?",
           "opties": [
-            "tussen min 1 en 1",
-            "tussen 0 en 100 procent",
-            "tussen min 100 en 100",
-            "tussen 0 en oneindig veel"
+            "\\(-1 \\leq r \\leq 1\\)",
+            "\\(0\\,\\% \\leq r \\leq 100\\,\\%\\)",
+            "\\(-100 \\leq r \\leq 100\\)",
+            "\\(0 \\leq r < +\\infty\\)"
           ],
           "antwoord": 0,
-          "uitleg": "Min 1 is een perfect dalend verband, 1 een perfect stijgend, 0 geen lineair verband."
+          "uitleg": "\\(r = -1\\) is een perfect dalend verband, \\(r = 1\\) een perfect stijgend, \\(r = 0\\) geen lineair verband."
         },
         {
           "type": "meerkeuze",
-          "vraag": "Wat betekent een correlatiecoëfficiënt van 0,9?",
+          "vraag": "Wat betekent \\(r = 0{,}9\\)?",
           "opties": [
             "een sterk stijgend verband",
             "een sterk dalend verband ervan",
@@ -7040,11 +7040,11 @@
             "negentig procent van de punten"
           ],
           "antwoord": 0,
-          "uitleg": "Dicht bij 1, dus de punten liggen bijna op een stijgende rechte."
+          "uitleg": "Dicht bij \\(1\\), dus de punten liggen bijna op een stijgende rechte."
         },
         {
           "type": "meerkeuze",
-          "vraag": "Wat betekent een correlatiecoëfficiënt van min 0,8?",
+          "vraag": "Wat betekent \\(r = -0{,}8\\)?",
           "opties": [
             "een sterk dalend verband",
             "een zwak stijgend verband ervan",
@@ -7056,12 +7056,12 @@
         },
         {
           "type": "invultekst",
-          "vraag": "Welke waarde van de correlatiecoëfficiënt wijst op geen lineair verband? Een getal.",
+          "vraag": "Welke waarde van \\(r\\) wijst op geen lineair verband? Een getal.",
           "antwoord": [
             "0",
             "nul"
           ],
-          "uitleg": "Nul. De punten liggen dan zonder richting verspreid."
+          "uitleg": "\\(r = 0\\). De punten liggen dan zonder richting verspreid."
         },
         {
           "type": "waarofniet",
@@ -7129,7 +7129,7 @@
         },
         {
           "type": "meerkeuze",
-          "vraag": "Wat betekent een correlatie van 0,1?",
+          "vraag": "Wat betekent \\(r = 0{,}1\\)?",
           "opties": [
             "bijna geen verband",
             "een zeer sterk verband",
@@ -7137,19 +7137,19 @@
             "tien procent van de punten"
           ],
           "antwoord": 0,
-          "uitleg": "Dicht bij nul, dus de punten liggen bijna richtingloos."
+          "uitleg": "Dicht bij \\(0\\), dus de punten liggen bijna richtingloos."
         },
         {
           "type": "waarofniet",
-          "vraag": "Een correlatiecoëfficiënt zegt enkel iets over een lineair verband.",
+          "vraag": "De correlatiecoëfficiënt \\(r\\) zegt enkel iets over een lineair verband.",
           "antwoord": true,
-          "uitleg": "Een duidelijk krom verband kan toch een correlatie dicht bij nul geven."
+          "uitleg": "Een duidelijk krom verband kan toch een \\(r\\) dicht bij \\(0\\) geven."
         },
         {
           "type": "waarofniet",
-          "vraag": "Een correlatie van min 1 is zwakker dan een van 0,5.",
+          "vraag": "\\(r = -1\\) is zwakker dan \\(r = 0{,}5\\).",
           "antwoord": false,
-          "uitleg": "Min 1 is net het sterkst mogelijke verband. Kijk naar de grootte, niet naar het teken."
+          "uitleg": "\\(r = -1\\) is net het sterkst mogelijke verband. Kijk naar de grootte, niet naar het teken."
         },
         {
           "type": "invultekst",
@@ -7175,7 +7175,7 @@
             1,
             2
           ],
-          "uitleg": "Een correlatie kan evengoed negatief zijn."
+          "uitleg": "Een \\(r\\) kan evengoed negatief zijn."
         },
         {
           "type": "meerkeuze",
@@ -7203,7 +7203,7 @@
         },
         {
           "type": "meerkeuze",
-          "vraag": "Wat mag je uit een correlatiecoëfficiënt van 0,95 besluiten?",
+          "vraag": "Wat mag je uit \\(r = 0{,}95\\) besluiten?",
           "opties": [
             "de punten liggen dicht bij een rechte",
             "het verband is stijgend",
@@ -7219,14 +7219,14 @@
         },
         {
           "type": "invultekst",
-          "vraag": "Wat is de sterkst mogelijke waarde van een correlatiecoëfficiënt? Een getal.",
+          "vraag": "Wat is de sterkst mogelijke waarde van \\(r\\)? Een getal.",
           "antwoord": [
             "1",
             "-1",
             "1 of -1",
             "een"
           ],
-          "uitleg": "1 of min 1. Dan liggen alle punten precies op een rechte."
+          "uitleg": "\\(1\\) of \\(-1\\). Dan liggen alle punten precies op een rechte."
         }
       ]
     }

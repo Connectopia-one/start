@@ -1501,7 +1501,7 @@ zet("verbanden-tussen-twee-grootheden",
         dict(kop="Het spreidingsdiagram", blokken=[
             ("p", "Tot nu ging het over één grootheid tegelijk. <strong>Wil je twee grootheden naast elkaar "
                   "leggen, dan teken je een spreidingsdiagram: één punt per meetpaar.</strong> <strong>Elk punt "
-                  "heeft twee waarden</strong>, een op de x-as en een op de y-as. <strong>Er horen dus twee "
+                  "heeft twee waarden</strong>, een op de \\(x\\)-as en een op de \\(y\\)-as. <strong>Er horen dus twee "
                   "waarden bij elk punt</strong>, en die twee komen van dezelfde persoon of hetzelfde voorwerp."),
             ("p", "<strong>De wolk punten noem je de puntenwolk</strong>, en haar vorm verraadt het verband. "
                   "<strong>Je gebruikt een spreidingsdiagram net om een verband tussen twee grootheden te "
@@ -1509,16 +1509,23 @@ zet("verbanden-tussen-twee-grootheden",
             ("fig", svg.puntenwolk([(152, 36), (156, 37), (160, 38), (163, 38), (165, 39),
                                     (168, 40), (170, 41), (174, 41), (178, 43), (182, 44)],
                                    xlabel="lengte in cm", ylabel="schoenmaat"),
-             "Tien leerlingen: de kleinste meet 152 centimeter en heeft maat 36, de grootste meet 182 "
-             "centimeter en heeft maat 44."),
+             "Tien leerlingen: de kleinste meet \\(152\\) centimeter en heeft maat \\(36\\), de grootste "
+             "meet \\(182\\) centimeter en heeft maat \\(44\\)."),
+            ("weetje", "Een spreidingsdiagram verliest de volgorde van je metingen. Wie eerst "
+                       "gemeten werd zie je er niet aan, en dat hoeft ook niet: het gaat om de twee "
+                       "waarden die bij elkaar horen, niet om wanneer je ze opschreef."),
+        ]),
+        dict(kop="Wat de puntenwolk vertelt", blokken=[
             ("kader", tabel(["wat je ziet", "wat het betekent"],
-                            [["<strong>de punten stijgen</strong>", "<strong>een positief verband</strong>: hoe hoger x, hoe hoger y"],
-                             ["<strong>de punten dalen</strong>", "<strong>een negatief verband</strong>: hoe hoger x, hoe lager y"],
+                            [["<strong>de punten stijgen</strong>", "<strong>een positief verband</strong>: hoe hoger \\(x\\), hoe hoger \\(y\\)"],
+                             ["<strong>de punten dalen</strong>", "<strong>een negatief verband</strong>: hoe hoger \\(x\\), hoe lager \\(y\\)"],
                              ["<strong>geen richting</strong>", "<strong>geen verband</strong>: de punten liggen verspreid"]])),
             ("p", "<strong>In een spreidingsdiagram van lengte en schoenmaat stijgen de punten: grotere "
                   "mensen hebben een grotere maat.</strong> Een dalend verband vind je bijvoorbeeld tussen "
                   "schermtijd en uren slaap. <strong>Een spreidingsdiagram toont geen verloop in de tijd</strong>, "
                   "dat doet een lijndiagram, uit het vorige hoofdstuk."),
+        ]),
+        dict(kop="Wat je eruit leest", blokken=[
             ("p", "<strong>Drie dingen lees je uit een spreidingsdiagram</strong>: <strong>de richting van het "
                   "verband</strong>, <strong>hoe sterk het verband is</strong> en <strong>of er uitschieters "
                   "zijn</strong>. Een percentage lees je er niet uit."),
@@ -1534,40 +1541,48 @@ zet("verbanden-tussen-twee-grootheden",
             ("p", "<strong>Teken je ze met de hand, dan leg je ze zo dat er evenveel punten boven als onder "
                   "liggen.</strong> Zo ligt ze zo dicht mogelijk bij de hele wolk. Op de grafische "
                   "rekenmachine laat je ze berekenen; dan krijg je er meteen de vergelijking bij."),
+        ]),
+        dict(kop="Voorspellen met de trendlijn", blokken=[
             ("p", "<strong>Waarvoor dient ze? Om een voorspelling te doen.</strong> <strong>Met haar "
-                  "vergelijking schat je een y bij een x die je niet gemeten hebt.</strong> In de tekening "
-                  "hierboven lees je zo af welke maat je verwacht bij iemand van 172 centimeter."),
+                  "vergelijking \\(y = ax + b\\) schat je een \\(y\\) bij een \\(x\\) die je niet gemeten "
+                  "hebt.</strong> In de tekening hierboven lees je zo af welke maat je verwacht bij iemand "
+                  "van \\(172\\) centimeter."),
             ("kader", tabel(["valkuil", "waarom"],
                             [["<strong>ver buiten de gemeten waarden voorspellen</strong>", "<strong>het verband kan daar anders zijn</strong>: buiten het bereik van je metingen weet je niet of de rechte nog klopt"],
-                             ["<strong>een uitschieter laten staan zonder te kijken</strong>", "<strong>één punt ver weg kan de trendlijn flink doen kantelen</strong>"],
+                             ["<strong>een uitschieter laten staan zonder te kijken</strong>", "<strong>\u00e9\u00e9n punt ver weg kan de trendlijn flink doen kantelen</strong>"],
                              ["<strong>een rechte opleggen aan een kromme wolk</strong>", "<strong>een trendlijn is niet altijd een rechte</strong>; vaak wel, maar een verband kan ook krom zijn"]])),
             ("p", "<strong>Kijk dus altijd eerst naar de wolk zelf</strong>, en pas daarna naar de rechte. "
                   "Daarom begint elke oefening met tekenen en niet met rekenen."),
             ("weetje", "Een trendlijn heet ook een regressielijn. Dat woord komt van een onderzoek uit 1886 "
                        "over de lengte van ouders en kinderen, waarin de kinderen telkens naar het gemiddelde "
-                       "toe “terugkeerden”."),
+                       "toe \u201cterugkeerden\u201d."),
         ]),
         dict(kop="De correlatiecoëfficiënt", blokken=[
             ("p", "<strong>Correlatie is samenhang tussen twee grootheden</strong>, meer niet. <strong>De "
-                  "correlatiecoëfficiënt zet die samenhang in één getal</strong>, en <strong>dat getal ligt "
-                  "altijd tussen min 1 en 1</strong>."),
+                  "correlatieco\u00ebffici\u00ebnt \\(r\\) zet die samenhang in \u00e9\u00e9n getal</strong>, "
+                  "en <strong>dat getal ligt altijd tussen \\(-1\\) en \\(1\\)</strong>: "
+                  "\\(-1 \\leq r \\leq 1\\)."),
+        ]),
+        dict(kop="Wat elke waarde zegt", blokken=[
             ("kader", tabel(["waarde", "wat ze zegt"],
-                            [["<strong>1</strong>", "<strong>een perfect stijgend verband</strong>: alle punten liggen precies op een stijgende rechte"],
-                             ["<strong>0,9</strong>", "<strong>een sterk stijgend verband</strong>: de punten liggen bijna op een stijgende rechte"],
-                             ["<strong>0,1</strong>", "<strong>bijna geen verband</strong>: de punten liggen bijna richtingloos"],
-                             ["<strong>0</strong>", "<strong>geen lineair verband</strong>: de punten liggen zonder richting verspreid"],
-                             ["<strong>−0,8</strong>", "<strong>een sterk dalend verband</strong>"],
-                             ["<strong>−1</strong>", "<strong>een perfect dalend verband</strong>"]])),
+                            [["<strong>\\(r = 1\\)</strong>", "<strong>een perfect stijgend verband</strong>: alle punten liggen precies op een stijgende rechte"],
+                             ["<strong>\\(r = 0{,}9\\)</strong>", "<strong>een sterk stijgend verband</strong>: de punten liggen bijna op een stijgende rechte"],
+                             ["<strong>\\(r = 0{,}1\\)</strong>", "<strong>bijna geen verband</strong>: de punten liggen bijna richtingloos"],
+                             ["<strong>\\(r = 0\\)</strong>", "<strong>geen lineair verband</strong>: de punten liggen zonder richting verspreid"],
+                             ["<strong>\\(r = -0{,}8\\)</strong>", "<strong>een sterk dalend verband</strong>"],
+                             ["<strong>\\(r = -1\\)</strong>", "<strong>een perfect dalend verband</strong>"]])),
+        ]),
+        dict(kop="Teken en grootte", blokken=[
             ("p", "Onthoud de twee helften van dat getal: <strong>het teken geeft de richting, de grootte "
-                  "geeft de sterkte</strong>. <strong>Een correlatie van min 1 is dus niet zwakker dan een van "
-                  "0,5, maar net het sterkst mogelijke verband</strong>; <strong>de sterkst mogelijke waarden "
-                  "zijn 1 en min 1</strong>. Kijk naar de grootte, niet naar het teken."),
-            ("p", "<strong>Bij de tien leerlingen hierboven is de correlatiecoëfficiënt ongeveer 0,99</strong>: "
-                  "bijna 1, en inderdaad liggen de punten bijna op een rechte."),
-            ("p", "<strong>Eén beperking telt altijd mee: de correlatiecoëfficiënt zegt enkel iets over een "
-                  "lineair verband.</strong> <strong>Een duidelijk krom verband kan toch een correlatie dicht "
-                  "bij nul geven</strong>, en dan is nul niet “geen verband” maar “geen rechte”. Opnieuw: eerst "
-                  "de wolk bekijken."),
+                  "geeft de sterkte</strong>. <strong>\\(r = -1\\) is dus niet zwakker dan \\(r = 0{,}5\\), "
+                  "maar net het sterkst mogelijke verband</strong>; <strong>de sterkst mogelijke waarden zijn "
+                  "\\(1\\) en \\(-1\\)</strong>. Kijk naar de grootte, niet naar het teken."),
+            ("p", "<strong>Bij de tien leerlingen hierboven is \\(r \\approx 0{,}99\\)</strong>: bijna "
+                  "\\(1\\), en inderdaad liggen de punten bijna op een rechte."),
+            ("p", "<strong>\u00c9\u00e9n beperking telt altijd mee: \\(r\\) zegt enkel iets over een lineair "
+                  "verband.</strong> <strong>Een duidelijk krom verband kan toch een \\(r\\) dicht bij "
+                  "\\(0\\) geven</strong>, en dan is \\(0\\) niet \u201cgeen verband\u201d maar "
+                  "\u201cgeen rechte\u201d. Opnieuw: eerst de wolk bekijken."),
         ]),
         dict(kop="Correlatie is geen causaliteit", blokken=[
             ("p", "<strong>Dit is het hart van het hoofdstuk: correlatie is geen causaliteit.</strong> "
@@ -1577,17 +1592,21 @@ zet("verbanden-tussen-twee-grootheden",
                             [["<strong>het ene veroorzaakt het andere</strong>", "<strong>meer uren studeren en een beter resultaat</strong>"],
                              ["<strong>een derde factor verklaart beide</strong>", "<strong>ijsjes en zwemongevallen</strong>: de warmte duwt beide omhoog"],
                              ["<strong>het is toeval</strong>", "<strong>twee reeksen die een tijdlang toevallig samen stijgen</strong>"]])),
+        ]),
+        dict(kop="De derde factor", blokken=[
             ("p", "<strong>Een derde factor is iets dat beide verklaart</strong>, ook wel een "
                   "<strong>verstorende factor</strong> genoemd. <strong>Het aantal ijsjes "
                   "en het aantal zwemongevallen stijgen samen omdat het warm weer is</strong>, niet omdat "
                   "ijsjes gevaarlijk zijn. <strong>Stijgen het aantal ooievaars en het aantal geboorten samen "
                   "in een land, dan besluit je dus enkel dat er samenhang is</strong>: het bekendste "
                   "schijnverband uit de handboeken."),
+        ]),
+        dict(kop="Hoe je een oorzaak wel aantoont", blokken=[
             ("p", "<strong>Hoe toon je een oorzakelijk verband dan wel aan? Met een opgezet experiment</strong>: "
                   "je verandert één ding en houdt de rest gelijk. <strong>Dat kan een grafiek niet.</strong> "
                   "En <strong>voor je uit een grafiek een oorzaak besluit, zoek je naar een verklaring</strong>: "
                   "<strong>een verband zonder plausibele verklaring blijft een vermoeden</strong>."),
-            ("p", "<strong>Uit een correlatiecoëfficiënt van 0,95 mag je drie dingen besluiten</strong>: "
+            ("p", "<strong>Uit \\(r = 0{,}95\\) mag je drie dingen besluiten</strong>: "
                   "<strong>de punten liggen dicht bij een rechte</strong>, <strong>het verband is "
                   "stijgend</strong> en <strong>voorspellen lukt hier redelijk goed</strong>. <strong>Over "
                   "oorzaak zegt dat getal niets.</strong>"),
