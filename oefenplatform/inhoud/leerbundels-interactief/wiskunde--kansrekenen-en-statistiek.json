@@ -13,15 +13,15 @@
     {
      "soort": "figuur",
      "html": "<div style=\"display:flex;gap:10px;align-items:flex-end;justify-content:center;flex-wrap:wrap;\"><div><svg viewBox=\"0 0 54 54\" width=\"54\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"2\" y=\"2\" width=\"50\" height=\"50\" rx=\"9\" fill=\"#ffffff\" stroke=\"#234539\" stroke-width=\"2\"/><circle cx=\"27.0\" cy=\"27.0\" r=\"4.4\" fill=\"#234539\"/></svg></div><div><svg viewBox=\"0 0 54 54\" width=\"54\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"2\" y=\"2\" width=\"50\" height=\"50\" rx=\"9\" fill=\"#ffffff\" stroke=\"#234539\" stroke-width=\"2\"/><circle cx=\"15.1\" cy=\"15.1\" r=\"4.4\" fill=\"#234539\"/><circle cx=\"38.9\" cy=\"38.9\" r=\"4.4\" fill=\"#234539\"/></svg></div><div><svg viewBox=\"0 0 54 54\" width=\"54\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"2\" y=\"2\" width=\"50\" height=\"50\" rx=\"9\" fill=\"#ffffff\" stroke=\"#234539\" stroke-width=\"2\"/><circle cx=\"15.1\" cy=\"15.1\" r=\"4.4\" fill=\"#234539\"/><circle cx=\"27.0\" cy=\"27.0\" r=\"4.4\" fill=\"#234539\"/><circle cx=\"38.9\" cy=\"38.9\" r=\"4.4\" fill=\"#234539\"/></svg></div><div><svg viewBox=\"0 0 54 54\" width=\"54\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"2\" y=\"2\" width=\"50\" height=\"50\" rx=\"9\" fill=\"#ffffff\" stroke=\"#234539\" stroke-width=\"2\"/><circle cx=\"15.1\" cy=\"15.1\" r=\"4.4\" fill=\"#234539\"/><circle cx=\"38.9\" cy=\"15.1\" r=\"4.4\" fill=\"#234539\"/><circle cx=\"15.1\" cy=\"38.9\" r=\"4.4\" fill=\"#234539\"/><circle cx=\"38.9\" cy=\"38.9\" r=\"4.4\" fill=\"#234539\"/></svg></div><div><svg viewBox=\"0 0 54 54\" width=\"54\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"2\" y=\"2\" width=\"50\" height=\"50\" rx=\"9\" fill=\"#ffffff\" stroke=\"#234539\" stroke-width=\"2\"/><circle cx=\"15.1\" cy=\"15.1\" r=\"4.4\" fill=\"#234539\"/><circle cx=\"38.9\" cy=\"15.1\" r=\"4.4\" fill=\"#234539\"/><circle cx=\"27.0\" cy=\"27.0\" r=\"4.4\" fill=\"#234539\"/><circle cx=\"15.1\" cy=\"38.9\" r=\"4.4\" fill=\"#234539\"/><circle cx=\"38.9\" cy=\"38.9\" r=\"4.4\" fill=\"#234539\"/></svg></div><div><svg viewBox=\"0 0 54 54\" width=\"54\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"2\" y=\"2\" width=\"50\" height=\"50\" rx=\"9\" fill=\"#ffffff\" stroke=\"#234539\" stroke-width=\"2\"/><circle cx=\"15.1\" cy=\"13.5\" r=\"4.4\" fill=\"#234539\"/><circle cx=\"38.9\" cy=\"13.5\" r=\"4.4\" fill=\"#234539\"/><circle cx=\"15.1\" cy=\"27.0\" r=\"4.4\" fill=\"#234539\"/><circle cx=\"38.9\" cy=\"27.0\" r=\"4.4\" fill=\"#234539\"/><circle cx=\"15.1\" cy=\"40.5\" r=\"4.4\" fill=\"#234539\"/><circle cx=\"38.9\" cy=\"40.5\" r=\"4.4\" fill=\"#234539\"/></svg></div></div>",
-     "onderschrift": "Een dobbelsteen heeft zes zijden, dus de kans op een 4 is 1 op 6."
+     "onderschrift": "Een dobbelsteen heeft zes zijden, dus de kans op een \\(4\\) is \\(1\\) op \\(6\\)."
     },
     {
      "soort": "tekst",
-     "html": "De kans op een even getal is 3 op 6, want 2, 4 en 6 tellen mee. Dat is hetzelfde als 1/2."
+     "html": "De kans op een even getal is \\(3\\) op \\(6\\), want \\(2\\), \\(4\\) en \\(6\\) tellen mee. Dat is hetzelfde als \\(\\tfrac{1}{2}\\)."
     },
     {
      "soort": "kader",
-     "html": "<p style='margin:0 0 4px'><strong>Kans 0</strong> — het gebeurt nooit. De kans op een 7 met één dobbelsteen.</p><p style='margin:0'><strong>Kans 1</strong> — het gebeurt zeker. Een kans kan dus nooit groter zijn dan 1.</p>"
+     "html": "<p style='margin:0 0 4px'><strong>Kans \\(0\\)</strong> — het gebeurt nooit. De kans op een \\(7\\) met één dobbelsteen.</p><p style='margin:0'><strong>Kans \\(1\\)</strong> — het gebeurt zeker. Een kans kan dus nooit groter zijn dan \\(1\\).</p>"
     }
    ]
   },
@@ -30,7 +30,7 @@
    "blokken": [
     {
      "soort": "tekst",
-     "html": "Gooi je 60 keer met een dobbelsteen, dan verwacht je ongeveer 10 keer een zes: 60 gedeeld door 6. In het echt wordt het zelden precies 10."
+     "html": "Gooi je \\(60\\) keer met een dobbelsteen, dan verwacht je ongeveer \\(10\\) keer een zes: \\(60\\) gedeeld door \\(6\\). In het echt wordt het zelden precies \\(10\\)."
     },
     {
      "soort": "tekst",
@@ -38,7 +38,7 @@
     },
     {
      "soort": "weetje",
-     "html": "Een muntstuk heeft geen geheugen. Vijf keer kop na elkaar verandert niets aan de kans op de zesde worp: nog altijd 1 op 2."
+     "html": "Een muntstuk heeft geen geheugen. Vijf keer kop na elkaar verandert niets aan de kans op de zesde worp: nog altijd \\(1\\) op \\(2\\)."
     }
    ]
   },
@@ -52,7 +52,7 @@
     {
      "soort": "figuur",
      "html": "<svg viewBox=\"0 0 300 160\" width=\"300\" xmlns=\"http://www.w3.org/2000/svg\"><line x1=\"30\" y1=\"14\" x2=\"30\" y2=\"132\" stroke=\"#6b7260\" stroke-width=\"1.4\"/><line x1=\"30\" y1=\"132\" x2=\"300\" y2=\"132\" stroke=\"#6b7260\" stroke-width=\"1.4\"/><line x1=\"26\" y1=\"132.0\" x2=\"30\" y2=\"132.0\" stroke=\"#6b7260\" stroke-width=\"1.2\"/><text x=\"23\" y=\"135.5\" text-anchor=\"end\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"9.5\" fill=\"#6b7260\">0</text><line x1=\"26\" y1=\"108.4\" x2=\"30\" y2=\"108.4\" stroke=\"#6b7260\" stroke-width=\"1.2\"/><text x=\"23\" y=\"111.9\" text-anchor=\"end\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"9.5\" fill=\"#6b7260\">2</text><line x1=\"26\" y1=\"84.8\" x2=\"30\" y2=\"84.8\" stroke=\"#6b7260\" stroke-width=\"1.2\"/><text x=\"23\" y=\"88.3\" text-anchor=\"end\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"9.5\" fill=\"#6b7260\">4</text><line x1=\"26\" y1=\"61.2\" x2=\"30\" y2=\"61.2\" stroke=\"#6b7260\" stroke-width=\"1.2\"/><text x=\"23\" y=\"64.7\" text-anchor=\"end\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"9.5\" fill=\"#6b7260\">6</text><line x1=\"26\" y1=\"37.6\" x2=\"30\" y2=\"37.6\" stroke=\"#6b7260\" stroke-width=\"1.2\"/><text x=\"23\" y=\"41.1\" text-anchor=\"end\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"9.5\" fill=\"#6b7260\">8</text><line x1=\"26\" y1=\"14.0\" x2=\"30\" y2=\"14.0\" stroke=\"#6b7260\" stroke-width=\"1.2\"/><text x=\"23\" y=\"17.5\" text-anchor=\"end\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"9.5\" fill=\"#6b7260\">10</text><rect x=\"44.8\" y=\"61.2\" width=\"37.8\" height=\"70.8\" fill=\"#2f5d50\" rx=\"3\"/><text x=\"63.8\" y=\"146\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"10\" fill=\"#23291f\">6</text><rect x=\"112.3\" y=\"37.6\" width=\"37.8\" height=\"94.4\" fill=\"#2f5d50\" rx=\"3\"/><text x=\"131.2\" y=\"146\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"10\" fill=\"#23291f\">8</text><rect x=\"179.8\" y=\"37.6\" width=\"37.8\" height=\"94.4\" fill=\"#2f5d50\" rx=\"3\"/><text x=\"198.8\" y=\"146\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"10\" fill=\"#23291f\">8</text><rect x=\"247.3\" y=\"14.0\" width=\"37.8\" height=\"118.0\" fill=\"#2f5d50\" rx=\"3\"/><text x=\"266.2\" y=\"146\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"10\" fill=\"#23291f\">10</text></svg>",
-     "onderschrift": "6 + 8 + 8 + 10 = 32, gedeeld door 4 getallen geeft een gemiddelde van 8."
+     "onderschrift": "\\(6 + 8 + 8 + 10 = 32\\), gedeeld door \\(4\\) getallen geeft een gemiddelde van \\(8\\)."
     },
     {
      "soort": "tekst",
@@ -69,7 +69,7 @@
     },
     {
      "soort": "kader",
-     "html": "<p style='margin:0 0 4px'><strong>Het vaakst</strong> — welk getal komt het meeste voor? Bij 12, 15, 15 en 18 graden is dat 15.</p><p style='margin:0'><strong>Het middelste</strong> — zet de getallen op volgorde en neem het midden. Bij 3, 5, 7, 9 en 11 is dat 7.</p>"
+     "html": "<p style='margin:0 0 4px'><strong>Het vaakst</strong> — welk getal komt het meeste voor? Bij \\(12\\), \\(15\\), \\(15\\) en \\(18\\) graden is dat \\(15\\).</p><p style='margin:0'><strong>Het middelste</strong> — zet de getallen op volgorde en neem het midden. Bij \\(3\\), \\(5\\), \\(7\\), \\(9\\) en \\(11\\) is dat \\(7\\).</p>"
     },
     {
      "soort": "tekst",
@@ -86,7 +86,7 @@
     },
     {
      "soort": "kader",
-     "html": "<p style='margin:0 0 4px'>8 van de 20 kinderen hebben een huisdier → 8/20, en dat is <strong>2/5</strong>.</p><p style='margin:0 0 4px'>5 van de 20 komen met de fiets → 5/20 = 1/4 = <strong>25%</strong>.</p><p style='margin:0'>10 van de 50 komen te voet → dat is hetzelfde als 20 van de 100, dus <strong>20%</strong>.</p>"
+     "html": "<p style='margin:0 0 4px'>\\(8\\) van de \\(20\\) kinderen hebben een huisdier → \\(\\tfrac{8}{20}\\), en dat is <strong>\\(\\tfrac{2}{5}\\)</strong>.</p><p style='margin:0 0 4px'>\\(5\\) van de \\(20\\) komen met de fiets → \\(\\tfrac{5}{20} = \\tfrac{1}{4}\\) = <strong>\\(25\\,\\%\\)</strong>.</p><p style='margin:0'>\\(10\\) van de \\(50\\) komen te voet → dat is hetzelfde als \\(20\\) van de \\(100\\), dus <strong>\\(20\\,\\%\\)</strong>.</p>"
     },
     {
      "soort": "tekst",
@@ -120,7 +120,7 @@
  ],
  "onthoud": [
   "Een kans is: het aantal gunstige gevallen op het totaal.",
-  "Een kans ligt altijd tussen 0 en 1.",
+  "Een kans ligt altijd tussen \\(0\\) en \\(1\\).",
   "Gemiddelde = alles optellen, delen door hoeveel getallen er zijn.",
   "Het gemiddelde ligt tussen het kleinste en het grootste getal.",
   "Staafdiagram om te vergelijken, lijngrafiek voor verandering, cirkeldiagram voor delen van een geheel.",

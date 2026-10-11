@@ -8,13 +8,13 @@
           "type": "meerkeuze",
           "vraag": "Hoeveel graden is een rechte hoek?",
           "opties": [
-            "45 graden",
-            "90 graden",
-            "180 graden",
-            "360 graden"
+            "\\(45\\) graden",
+            "\\(90\\) graden",
+            "\\(180\\) graden",
+            "\\(360\\) graden"
           ],
           "antwoord": 1,
-          "uitleg": "Een rechte hoek is een kwart van een volledige draai, dus 90 graden."
+          "uitleg": "Een rechte hoek is een kwart van een volledige draai, dus \\(90\\) graden."
         },
         {
           "type": "waarofniet",
@@ -26,13 +26,13 @@
           "type": "meerkeuze",
           "vraag": "Hoeveel ribben heeft een kubus?",
           "opties": [
-            "6",
-            "8",
-            "12",
-            "16"
+            "\\(6\\)",
+            "\\(8\\)",
+            "\\(12\\)",
+            "\\(16\\)"
           ],
           "antwoord": 2,
-          "uitleg": "Een kubus heeft 6 vlakken, 8 hoekpunten en 12 ribben."
+          "uitleg": "Een kubus heeft \\(6\\) vlakken, \\(8\\) hoekpunten en \\(12\\) ribben."
         },
         {
           "type": "meerkeuze",
@@ -48,7 +48,7 @@
         },
         {
           "type": "meerkeuze",
-          "vraag": "Een hoek van 120 graden noem je:",
+          "vraag": "Een hoek van \\(120\\) graden noem je:",
           "opties": [
             "scherp",
             "recht",
@@ -56,7 +56,7 @@
             "gestrekt"
           ],
           "antwoord": 2,
-          "uitleg": "Een hoek tussen 90 en 180 graden is stomp."
+          "uitleg": "Een hoek tussen \\(90\\) en \\(180\\) graden is stomp."
         },
         {
           "type": "waarofniet",
@@ -68,10 +68,10 @@
           "type": "meerkeuze",
           "vraag": "Hoeveel vlakken heeft een balk?",
           "opties": [
-            "4",
-            "6",
-            "8",
-            "12"
+            "\\(4\\)",
+            "\\(6\\)",
+            "\\(8\\)",
+            "\\(12\\)"
           ],
           "antwoord": 1,
           "uitleg": "Een balk heeft zes vlakken: boven, onder en vier zijkanten."
@@ -80,7 +80,7 @@
           "type": "invultekst",
           "vraag": "Hoeveel graden is de som van de hoeken van een driehoek?",
           "antwoord": "180",
-          "uitleg": "De drie hoeken van elke driehoek zijn samen 180 graden."
+          "uitleg": "De drie hoeken van elke driehoek zijn samen \\(180\\) graden."
         },
         {
           "type": "meerkeuze",
@@ -104,13 +104,13 @@
           "type": "meerkeuze",
           "vraag": "Hoeveel hoekpunten heeft een kubus?",
           "opties": [
-            "4",
-            "6",
-            "8",
-            "12"
+            "\\(4\\)",
+            "\\(6\\)",
+            "\\(8\\)",
+            "\\(12\\)"
           ],
           "antwoord": 2,
-          "uitleg": "Een kubus heeft 8 hoekpunten, 12 ribben en 6 vlakken."
+          "uitleg": "Een kubus heeft \\(8\\) hoekpunten, \\(12\\) ribben en \\(6\\) vlakken."
         },
         {
           "type": "waarofniet",
@@ -134,16 +134,16 @@
           "type": "invultekst",
           "vraag": "Hoeveel graden is een volledige draai?",
           "antwoord": "360",
-          "uitleg": "Vier rechte hoeken van 90 graden samen."
+          "uitleg": "Vier rechte hoeken van \\(90\\) graden samen."
         },
         {
           "type": "meerkeuze",
           "vraag": "Hoeveel zijden heeft een zeshoek?",
           "opties": [
-            "4",
-            "5",
-            "6",
-            "8"
+            "\\(4\\)",
+            "\\(5\\)",
+            "\\(6\\)",
+            "\\(8\\)"
           ],
           "antwoord": 2,
           "uitleg": "Zes, dat zit in de naam."
@@ -156,12 +156,12 @@
         },
         {
           "type": "meerkeuze",
-          "vraag": "De diameter van een cirkel is 10 cm. Hoe lang is de straal?",
+          "vraag": "De diameter van een cirkel is \\(10\\) cm. Hoe lang is de straal?",
           "opties": [
-            "2,5 cm",
-            "5 cm",
-            "10 cm",
-            "20 cm"
+            "\\(2{,}5\\) cm",
+            "\\(5\\) cm",
+            "\\(10\\) cm",
+            "\\(20\\) cm"
           ],
           "antwoord": 1,
           "uitleg": "De straal is de helft van de diameter."
@@ -170,10 +170,10 @@
           "type": "meerkeuze",
           "vraag": "Hoeveel vlakken heeft een piramide met een vierkant grondvlak?",
           "opties": [
-            "4",
-            "5",
-            "6",
-            "8"
+            "\\(4\\)",
+            "\\(5\\)",
+            "\\(6\\)",
+            "\\(8\\)"
           ],
           "antwoord": 1,
           "uitleg": "Het vierkante grondvlak plus vier driehoeken, dus vijf."
@@ -186,7 +186,7 @@
         },
         {
           "type": "meerkeuze",
-          "vraag": "Hoe noem je twee lijnen die elkaar kruisen onder een hoek van 90 graden?",
+          "vraag": "Hoe noem je twee lijnen die elkaar kruisen onder een hoek van \\(90\\) graden?",
           "opties": [
             "evenwijdig",
             "loodrecht",
@@ -200,13 +200,13 @@
           "type": "meerkeuze",
           "vraag": "Hoeveel graden is een gestrekte hoek?",
           "opties": [
-            "45",
-            "90",
-            "180",
-            "360"
+            "\\(45\\)",
+            "\\(90\\)",
+            "\\(180\\)",
+            "\\(360\\)"
           ],
           "antwoord": 2,
-          "uitleg": "Een gestrekte hoek is een rechte lijn: twee rechte hoeken naast elkaar, dus 180 graden."
+          "uitleg": "Een gestrekte hoek is een rechte lijn: twee rechte hoeken naast elkaar, dus \\(180\\) graden."
         },
         {
           "type": "waarofniet",
@@ -218,13 +218,13 @@
           "type": "meerkeuze",
           "vraag": "Hoeveel ribben heeft een balk?",
           "opties": [
-            "6",
-            "8",
-            "12",
-            "16"
+            "\\(6\\)",
+            "\\(8\\)",
+            "\\(12\\)",
+            "\\(16\\)"
           ],
           "antwoord": 2,
-          "uitleg": "Een balk heeft 12 ribben, net als een kubus: vier boven, vier onder en vier staande."
+          "uitleg": "Een balk heeft \\(12\\) ribben, net als een kubus: vier boven, vier onder en vier staande."
         },
         {
           "type": "meerkeuze",
@@ -240,7 +240,7 @@
         },
         {
           "type": "meerkeuze",
-          "vraag": "Een hoek van 45 graden noem je:",
+          "vraag": "Een hoek van \\(45\\) graden noem je:",
           "opties": [
             "een scherpe hoek",
             "een rechte hoek",
@@ -248,7 +248,7 @@
             "een gestrekte hoek"
           ],
           "antwoord": 0,
-          "uitleg": "Alles onder 90 graden is scherp, precies 90 is recht, en tussen 90 en 180 is stomp."
+          "uitleg": "Alles onder \\(90\\) graden is scherp, precies \\(90\\) is recht, en tussen \\(90\\) en \\(180\\) is stomp."
         },
         {
           "type": "waarofniet",
@@ -260,19 +260,19 @@
           "type": "meerkeuze",
           "vraag": "Hoeveel hoekpunten heeft een balk?",
           "opties": [
-            "4",
-            "6",
-            "8",
-            "12"
+            "\\(4\\)",
+            "\\(6\\)",
+            "\\(8\\)",
+            "\\(12\\)"
           ],
           "antwoord": 2,
-          "uitleg": "Vier hoekpunten boven en vier onder, samen 8."
+          "uitleg": "Vier hoekpunten boven en vier onder, samen \\(8\\)."
         },
         {
           "type": "invultekst",
           "vraag": "Hoeveel graden is de som van de hoeken van een vierhoek?",
           "antwoord": "360",
-          "uitleg": "Een vierhoek bestaat uit twee driehoeken van 180 graden, samen dus 360."
+          "uitleg": "Een vierhoek bestaat uit twee driehoeken van \\(180\\) graden, samen dus \\(360\\)."
         },
         {
           "type": "meerkeuze",
@@ -296,10 +296,10 @@
           "type": "meerkeuze",
           "vraag": "Hoeveel zijden heeft een achthoek?",
           "opties": [
-            "6",
-            "7",
-            "8",
-            "10"
+            "\\(6\\)",
+            "\\(7\\)",
+            "\\(8\\)",
+            "\\(10\\)"
           ],
           "antwoord": 2,
           "uitleg": "Acht zijden, zoals een stopbord in het verkeer."
@@ -326,19 +326,19 @@
           "type": "invultekst",
           "vraag": "Hoeveel graden is een halve draai?",
           "antwoord": "180",
-          "uitleg": "Een volledige draai is 360 graden, dus een halve is 180."
+          "uitleg": "Een volledige draai is \\(360\\) graden, dus een halve is \\(180\\)."
         },
         {
           "type": "meerkeuze",
-          "vraag": "De straal van een cirkel is 6 cm. Hoe lang is de diameter?",
+          "vraag": "De straal van een cirkel is \\(6\\) cm. Hoe lang is de diameter?",
           "opties": [
-            "3 cm",
-            "6 cm",
-            "12 cm",
-            "18 cm"
+            "\\(3\\) cm",
+            "\\(6\\) cm",
+            "\\(12\\) cm",
+            "\\(18\\) cm"
           ],
           "antwoord": 2,
-          "uitleg": "De diameter is twee keer de straal: 6 × 2 = 12 cm."
+          "uitleg": "De diameter is twee keer de straal: \\(6 \\cdot 2 = 12\\) cm."
         },
         {
           "type": "waarofniet",
@@ -350,10 +350,10 @@
           "type": "meerkeuze",
           "vraag": "Hoeveel vlakken heeft een kubus?",
           "opties": [
-            "4",
-            "6",
-            "8",
-            "12"
+            "\\(4\\)",
+            "\\(6\\)",
+            "\\(8\\)",
+            "\\(12\\)"
           ],
           "antwoord": 1,
           "uitleg": "Zes vlakken, net als een dobbelsteen: boven, onder en vier zijkanten."
@@ -378,7 +378,7 @@
         },
         {
           "type": "meerkeuze",
-          "vraag": "Hoe noem je een hoek van meer dan 90 en minder dan 180 graden?",
+          "vraag": "Hoe noem je een hoek van meer dan \\(90\\) en minder dan \\(180\\) graden?",
           "opties": [
             "scherp",
             "recht",
@@ -386,7 +386,7 @@
             "gestrekt"
           ],
           "antwoord": 2,
-          "uitleg": "Zo'n hoek heet stomp. Onder de 90 graden is hij scherp."
+          "uitleg": "Zo'n hoek heet stomp. Onder de \\(90\\) graden is hij scherp."
         }
       ]
     }

@@ -17,7 +17,7 @@
     },
     {
      "soort": "tekst",
-     "html": "Schrijf je antwoord altijd met de eenheid erbij: 16 euro, 45 vierkante meter, 9 dagen. Een kaal getal is maar een half antwoord."
+     "html": "Schrijf je antwoord altijd met de eenheid erbij: \\(16\\) euro, \\(45\\) vierkante meter, \\(9\\) dagen. Een kaal getal is maar een half antwoord."
     }
    ]
   },
@@ -36,19 +36,19 @@
    "blokken": [
     {
      "soort": "tekst",
-     "html": "Staat er <em>1 op 3</em> of <em>3 van elke 5</em>, dan gaat het over een verhouding. Je verdeelt het geheel eerst in even grote groepjes, en daarna neem je er zoveel als gevraagd wordt."
+     "html": "Staat er <em>\\(1\\) op \\(3\\)</em> of <em>\\(3\\) van elke \\(5\\)</em>, dan gaat het over een verhouding. Je verdeelt het geheel eerst in even grote groepjes, en daarna neem je er zoveel als gevraagd wordt."
     },
     {
      "soort": "kader",
-     "html": "<p style='margin:0 0 4px'><strong>1 op 3 van 30 kinderen</strong> → 30 : 3 = <strong>10 kinderen</strong>.</p><p style='margin:0'><strong>3 van elke 5, in een klas van 25</strong> → 25 : 5 = 5 groepjes, en 3 × 5 = <strong>15 kinderen</strong>.</p>"
+     "html": "<p style='margin:0 0 4px'><strong>\\(1\\) op \\(3\\) van \\(30\\) kinderen</strong> → \\(30 : 3\\) = <strong>\\(10\\) kinderen</strong>.</p><p style='margin:0'><strong>\\(3\\) van elke \\(5\\), in een klas van \\(25\\)</strong> → \\(25 : 5 = 5\\) groepjes, en \\(3 \\cdot 5\\) = <strong>\\(15\\) kinderen</strong>.</p>"
     },
     {
      "soort": "tekst",
-     "html": "Bij een prijs werkt het net zo. Kosten 3 pakken melk samen 4,50 euro, dan kost één pak 4,50 : 3 = 1,50 euro. En dubbel zoveel kost dubbel zoveel: zijn 4 broden 6 euro, dan zijn 8 broden 12 euro."
+     "html": "Bij een prijs werkt het net zo. Kosten \\(3\\) pakken melk samen \\(4{,}50\\) euro, dan kost één pak \\(4{,}50 : 3 = 1{,}50\\) euro. En dubbel zoveel kost dubbel zoveel: zijn \\(4\\) broden \\(6\\) euro, dan zijn \\(8\\) broden \\(12\\) euro."
     },
     {
      "soort": "tekst",
-     "html": "Wordt er iets opgegeten of weggenomen, dan is wat overblijft ook een breuk. Van een pizza in 8 stukken waarvan je er 3 opeet, blijft <strong>5/8</strong> over. Van een taart in 12 stukken waarvan er 9 op zijn, blijft 3/12 over, en dat vereenvoudig je tot <strong>1/4</strong>."
+     "html": "Wordt er iets opgegeten of weggenomen, dan is wat overblijft ook een breuk. Van een pizza in \\(8\\) stukken waarvan je er \\(3\\) opeet, blijft <strong>\\(\\tfrac{5}{8}\\)</strong> over. Van een taart in \\(12\\) stukken waarvan er \\(9\\) op zijn, blijft \\(\\tfrac{3}{12}\\) over, en dat vereenvoudig je tot <strong>\\(\\tfrac{1}{4}\\)</strong>."
     }
    ]
   },
@@ -57,11 +57,11 @@
    "blokken": [
     {
      "soort": "kader",
-     "html": "<p style='margin:0 0 5px'><strong>Je hebt 100 euro. Schoenen kosten 55 euro, een broek 29 euro. Hoeveel hou je over?</strong></p><p style='margin:0'>Eerst samen: 55 + 29 = 84. Dan aftrekken: 100 − 84 = <strong>16 euro</strong>.</p>"
+     "html": "<p style='margin:0 0 5px'><strong>Je hebt \\(100\\) euro. Schoenen kosten \\(55\\) euro, een broek \\(29\\) euro. Hoeveel hou je over?</strong></p><p style='margin:0'>Eerst samen: \\(55 + 29 = 84\\). Dan aftrekken: \\(100 - 84\\) = <strong>\\(16\\) euro</strong>.</p>"
     },
     {
      "soort": "tekst",
-     "html": "Bij korting reken je eerst hoeveel de korting waard is, en trek je die af. Op een jas van 80 euro met 20% korting: 20% van 80 is 16, dus je betaalt 64 euro."
+     "html": "Bij korting reken je eerst hoeveel de korting waard is, en trek je die af. Op een jas van \\(80\\) euro met \\(20\\,\\%\\) korting: \\(20\\,\\%\\) van \\(80\\) is \\(16\\), dus je betaalt \\(64\\) euro."
     }
    ]
   },
@@ -75,7 +75,7 @@
     {
      "soort": "figuur",
      "html": "<svg viewBox=\"0 0 470 76\" width=\"470\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"0.0\" y=\"6\" width=\"139.3\" height=\"62\" rx=\"10\" fill=\"#ffffff\" stroke=\"#c17f2b\" stroke-width=\"1.8\"/><text x=\"69.7\" y=\"21.0\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"11.5\" font-weight=\"600\" fill=\"#234539\">Omheining</text><text x=\"69.7\" y=\"37.0\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"10\" font-weight=\"400\" fill=\"#6b7260\">rond de tuin</text><text x=\"69.7\" y=\"53.0\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"10\" font-weight=\"400\" fill=\"#6b7260\">→ omtrek</text><path d=\"M144.33333333333334 37.0 h12 m0 0 l-6 -5 m6 5 l-6 5\" stroke=\"#c17f2b\" stroke-width=\"2\" fill=\"none\" stroke-linecap=\"round\"/><rect x=\"165.3\" y=\"6\" width=\"139.3\" height=\"62\" rx=\"10\" fill=\"#ffffff\" stroke=\"#c17f2b\" stroke-width=\"1.8\"/><text x=\"235.0\" y=\"21.0\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"11.5\" font-weight=\"600\" fill=\"#234539\">Tegels of verf</text><text x=\"235.0\" y=\"37.0\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"10\" font-weight=\"400\" fill=\"#6b7260\">op het vlak</text><text x=\"235.0\" y=\"53.0\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"10\" font-weight=\"400\" fill=\"#6b7260\">→ oppervlakte</text><path d=\"M309.6666666666667 37.0 h12 m0 0 l-6 -5 m6 5 l-6 5\" stroke=\"#c17f2b\" stroke-width=\"2\" fill=\"none\" stroke-linecap=\"round\"/><rect x=\"330.7\" y=\"6\" width=\"139.3\" height=\"62\" rx=\"10\" fill=\"#ffffff\" stroke=\"#c17f2b\" stroke-width=\"1.8\"/><text x=\"400.3\" y=\"21.0\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"11.5\" font-weight=\"600\" fill=\"#234539\">Water of zand</text><text x=\"400.3\" y=\"37.0\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"10\" font-weight=\"400\" fill=\"#6b7260\">erin</text><text x=\"400.3\" y=\"53.0\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"10\" font-weight=\"400\" fill=\"#6b7260\">→ inhoud</text></svg>",
-     "onderschrift": "Een terras van 9 m op 5 m betegelen vraagt de oppervlakte: 45 m²."
+     "onderschrift": "Een terras van \\(9\\) m op \\(5\\) m betegelen vraagt de oppervlakte: \\(45\\,\\text{m}^{2}\\)."
     },
     {
      "soort": "tekst",
@@ -88,15 +88,15 @@
    "blokken": [
     {
      "soort": "tekst",
-     "html": "Reken bij tijd altijd via het volgende hele uur. Een trein vertrekt om 9.35 u en rijdt 1 uur en 40 minuten: eerst een uur later is 10.35 u, dan nog 40 minuten geeft 11.15 u."
+     "html": "Reken bij tijd altijd via het volgende hele uur. Een trein vertrekt om 9.35 u en rijdt \\(1\\) uur en \\(40\\) minuten: eerst een uur later is 10.35 u, dan nog \\(40\\) minuten geeft 11.15 u."
     },
     {
      "soort": "tekst",
-     "html": "Bij snelheid geldt: 20 km per uur betekent 10 km in een half uur en 5 km in een kwartier. Je deelt de afstand net zoals je de tijd deelt."
+     "html": "Bij snelheid geldt: \\(20\\) km per uur betekent \\(10\\) km in een half uur en \\(5\\) km in een kwartier. Je deelt de afstand net zoals je de tijd deelt."
     },
     {
      "soort": "weetje",
-     "html": "Een tijd van 11.75 u bestaat niet. Na 59 minuten komt een nieuw uur, want de klok telt tot 60 en niet tot 100."
+     "html": "Een tijd van 11.75 u bestaat niet. Na \\(59\\) minuten komt een nieuw uur, want de klok telt tot \\(60\\) en niet tot \\(100\\)."
     }
    ]
   },
@@ -105,11 +105,11 @@
    "blokken": [
     {
      "soort": "tekst",
-     "html": "Lees je antwoord nog eens samen met de vraag. Kan dit kloppen? Als drie vrienden 84 knikkers verdelen en je krijgt er 240 per persoon uit, dan weet je meteen dat er iets mis is."
+     "html": "Lees je antwoord nog eens samen met de vraag. Kan dit kloppen? Als drie vrienden \\(84\\) knikkers verdelen en je krijgt er \\(240\\) per persoon uit, dan weet je meteen dat er iets mis is."
     },
     {
      "soort": "tekst",
-     "html": "Een goede test is omgekeerd rekenen: 84 : 3 = 28, en 28 × 3 = 84. Klopt."
+     "html": "Een goede test is omgekeerd rekenen: \\(84 : 3 = 28\\), en \\(28 \\cdot 3 = 84\\). Klopt."
     }
    ]
   }
@@ -121,6 +121,6 @@
   "Omheining is omtrek, tegels zijn oppervlakte, water is inhoud.",
   "Zet alles eerst in dezelfde eenheid.",
   "Kijk na met omgekeerd rekenen.",
-  "1 op 3 betekent: eerst delen door 3."
+  "\\(1\\) op \\(3\\) betekent: eerst delen door \\(3\\)."
  ]
 }

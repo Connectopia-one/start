@@ -124,7 +124,10 @@ def buiten(stuk: str) -> str:
     for teken, (_, gewoon) in SENTINEL.items():
         if teken != "\ue000":      # die zet zet_om zelf terug naar &minus;
             stuk = stuk.replace(teken, gewoon)
-    return stuk
+    # Een komma in een getal werd {,} voor KaTeX. Bleef dat getal buiten een
+    # formule staan, dan hoort de komma weer een gewone komma te zijn, anders
+    # staan de accolades zichtbaar op de pagina.
+    return stuk.replace("{,}", ",")
 
 
 # Een woord dat alleen een zin aan elkaar praat, hoort nooit in een formule:

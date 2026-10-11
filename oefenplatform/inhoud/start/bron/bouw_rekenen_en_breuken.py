@@ -40,7 +40,9 @@ AL_IN_HET_PLATFORM = [
 
 
 def sleutel(vraag):
-    return re.sub(r"[^a-z0-9]+", " ", vraag.lower()).strip()
+    # zonder notatie, anders herkent hij "\(\tfrac{3}{4}\) van \(100\)" niet
+    # meer als dezelfde vraag als "3/4 van 100" uit schema.sql
+    return re.sub(r"[^a-z0-9]+", " ", reken.plat(vraag).lower()).strip()
 
 
 def waarde(tekst):
