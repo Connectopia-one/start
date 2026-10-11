@@ -996,52 +996,92 @@ zet("stelsels-van-twee-vergelijkingen",
     titel="Stelsels van twee vergelijkingen",
     reeksen=[
         dict(kop="Los op met substitutie",
-             opdracht="Werk uit en schrijf het koppel (x, y) op.",
+             opdracht="Werk uit en schrijf het koppel \\((x, y)\\) op.",
              oefeningen=[
-                 ("open", "y = 2x + 1 en 3x + y = 11",
-                  "3x + 2x + 1 = 11, dus 5x = 10 en x = 2; y = 5. Oplossing (2, 5).", 3),
-                 ("open", "x = y − 3 en 2x + y = 9",
-                  "2(y − 3) + y = 9, dus 3y = 15 en y = 5; x = 2. Oplossing (2, 5).", 3),
+                 ("open", "\\(\\begin{cases} y = 2x + 1 \\\\ 3x + y = 11 \\end{cases}\\)",
+                  "\\(3x + 2x + 1 = 11\\), dus \\(5x = 10\\) en \\(x = 2\\); \\(y = 5\\). "
+                  "Oplossing \\((2, 5)\\).", 3),
+                 ("open", "\\(\\begin{cases} x = y - 3 \\\\ 2x + y = 9 \\end{cases}\\)",
+                  "\\(2(y - 3) + y = 9\\), dus \\(3y = 15\\) en \\(y = 5\\); \\(x = 2\\). "
+                  "Oplossing \\((2, 5)\\).", 3),
              ]),
         dict(kop="Los op met combinatie",
-             opdracht="Werk uit en schrijf het koppel (x, y) op.",
+             opdracht="Werk uit en schrijf het koppel \\((x, y)\\) op.",
              oefeningen=[
-                 ("open", "2x + 3y = 16 en 2x − y = 0",
-                  "Trek de tweede van de eerste af: 4y = 16, dus y = 4. Vul in in de tweede: "
-                  "2x − 4 = 0, dus x = 2. Oplossing (2, 4).", 4),
-                 ("open", "3x + 2y = 12 en x − 2y = 4",
-                  "Tel op: 4x = 16, dus x = 4; dan 4 − 2y = 4 geeft y = 0. Oplossing (4, 0).", 3),
-                 ("open", "5x + 2y = 1 en 3x − 4y = 11",
-                  "Vermenigvuldig de eerste met 2: 10x + 4y = 2. Tel op bij de tweede: "
-                  "13x = 13, dus x = 1; dan 5 + 2y = 1 geeft y = −2. Oplossing (1, −2).", 4),
+                 ("open", "\\(\\begin{cases} 2x + 3y = 16 \\\\ 2x - y = 0 \\end{cases}\\)",
+                  "Trek de tweede van de eerste af: \\(4y = 16\\), dus \\(y = 4\\). Vul in in de "
+                  "tweede: \\(2x - 4 = 0\\), dus \\(x = 2\\). Oplossing \\((2, 4)\\).", 4),
+                 ("open", "\\(\\begin{cases} 3x + 2y = 12 \\\\ x - 2y = 4 \\end{cases}\\)",
+                  "Tel op: \\(4x = 16\\), dus \\(x = 4\\); dan geeft \\(4 - 2y = 4\\) dat "
+                  "\\(y = 0\\). Oplossing \\((4, 0)\\).", 3),
+             ]),
+        dict(kop="Een stelsel dat je eerst moet klaarmaken",
+             opdracht="Vermenigvuldig eerst een vergelijking.",
+             oefeningen=[
+                 ("open", "\\(\\begin{cases} 5x + 2y = 1 \\\\ 3x - 4y = 11 \\end{cases}\\)",
+                  "Vermenigvuldig de eerste met \\(2\\): \\(10x + 4y = 2\\). Tel op bij de tweede: "
+                  "\\(13x = 13\\), dus \\(x = 1\\); dan geeft \\(5 + 2y = 1\\) dat \\(y = -2\\). "
+                  "Oplossing \\((1, -2)\\).", 4),
+             ]),
+        dict(kop="Met gelijkstelling",
+             opdracht="Stel de rechterleden gelijk.",
+             oefeningen=[
+                 ("open", "\\(\\begin{cases} y = 4x - 3 \\\\ y = 2x + 7 \\end{cases}\\)",
+                  "\\(4x - 3 = 2x + 7\\), dus \\(2x = 10\\) en \\(x = 5\\); \\(y = 17\\). "
+                  "Oplossing \\((5, 17)\\).", 3),
+                 ("kort", "Welke methode gebruik je als in beide vergelijkingen \\(y\\) alleen staat?",
+                  "de gelijkstellingsmethode", WL),
              ]),
         dict(kop="Hoeveel oplossingen?",
              opdracht="Schrijf op: één oplossing, geen oplossing of oneindig veel.",
              oefeningen=[
-                 ("rij", [("y = 2x + 1 en y = 2x + 4", "geen oplossing"),
-                          ("y = 2x + 1 en y = 3x − 2", "één oplossing"),
-                          ("y = 2x + 1 en 2y = 4x + 2", "oneindig veel"),
-                          ("x + y = 5 en x + y = 7", "geen oplossing"),
-                          ("x − y = 0 en x + y = 4", "één oplossing"),
-                          ("3x + 3y = 9 en x + y = 3", "oneindig veel")],
-                  "Hoeveel oplossingen?", WW),
-                 ("open", "Wat betekent 'geen oplossing' als je de twee rechten tekent?",
-                  "De rechten zijn evenwijdig en vallen niet samen, dus ze snijden elkaar "
-                  "nergens.", 2),
+                 ("rij", [("\\(y = 2x + 1\\) en \\(y = 2x + 4\\)", "geen oplossing"),
+                          ("\\(y = 2x + 1\\) en \\(y = 3x - 2\\)", "één oplossing"),
+                          ("\\(y = 2x + 1\\) en \\(2y = 4x + 2\\)", "oneindig veel")],
+                  "Hoeveel?", WW),
              ]),
-        dict(kop="Vraagstukken",
+        dict(kop="Nog drie stelsels bekijken",
+             opdracht="Schrijf op: één oplossing, geen oplossing of oneindig veel.",
+             oefeningen=[
+                 ("rij", [("\\(x + y = 5\\) en \\(x + y = 7\\)", "geen oplossing"),
+                          ("\\(x - y = 0\\) en \\(x + y = 4\\)", "één oplossing"),
+                          ("\\(3x + 3y = 9\\) en \\(x + y = 3\\)", "oneindig veel")],
+                  "Hoeveel?", WW),
+             ]),
+        dict(kop="Wat zie je op de grafiek?",
+             opdracht="Antwoord in een volle zin.",
+             oefeningen=[
+                 ("open", "Wat betekent geen oplossing als je de twee rechten tekent?",
+                  "De rechten zijn evenwijdig en vallen niet samen, dus ze snijden elkaar nergens.", 2),
+                 ("open", "En wat zie je bij oneindig veel oplossingen?",
+                  "De twee rechten vallen samen: elk punt van de rechte is een oplossing.", 2),
+             ]),
+        dict(kop="Het soort benoemen",
+             opdracht="Vul aan met bepaald, strijdig of onbepaald.",
+             oefeningen=[
+                 ("rij", [("er komt \\(0 = 5\\) uit", "strijdig"),
+                          ("er komt \\(0 = 0\\) uit", "onbepaald"),
+                          ("er komt \\(x = 3\\) uit", "bepaald")],
+                  "Welk soort?", WW),
+             ]),
+        dict(kop="Een vraagstuk met prijzen",
              opdracht="Stel een stelsel op en los het op.",
              oefeningen=[
-                 ("open", "Drie broodjes en twee koffies kosten 13 euro. Eén broodje en vier "
-                          "koffies kosten 11 euro. Wat kost elk?",
-                  "3b + 2k = 13 en b + 4k = 11. Uit de tweede: b = 11 − 4k. Invullen: "
-                  "33 − 12k + 2k = 13, dus 10k = 20 en k = 2; b = 3. Een broodje kost 3 euro, "
-                  "een koffie 2 euro.", 5),
-                 ("open", "Een zaal telt 120 plaatsen. Een ticket vooraan kost 15 euro, achteraan "
-                          "9 euro. Alles is uitverkocht en de opbrengst is 1 320 euro. Hoeveel "
-                          "tickets van elke soort?",
-                  "v + a = 120 en 15v + 9a = 1 320. Uit de eerste: a = 120 − v. Invullen: "
-                  "15v + 1 080 − 9v = 1 320, dus 6v = 240 en v = 40; a = 80.", 5),
+                 ("open", "Drie broodjes en twee koffies kosten \\(13\\) euro. Eén broodje en vier "
+                          "koffies kosten \\(11\\) euro. Wat kost elk?",
+                  "\\(3b + 2k = 13\\) en \\(b + 4k = 11\\). Uit de tweede: "
+                  "\\(b = 11 - 4k\\). Invullen: \\(33 - 12k + 2k = 13\\), dus \\(10k = 20\\) en "
+                  "\\(k = 2\\); \\(b = 3\\). Een broodje kost \\(3\\) euro, een koffie \\(2\\) euro.", 5),
+             ]),
+        dict(kop="Een vraagstuk met tickets",
+             opdracht="Stel een stelsel op en los het op.",
+             oefeningen=[
+                 ("open", "Een zaal telt \\(120\\) plaatsen. Een ticket vooraan kost \\(15\\) euro, "
+                          "achteraan \\(9\\) euro. Alles is uitverkocht en de opbrengst is "
+                          "\\(1\\,320\\) euro. Hoeveel tickets van elke soort?",
+                  "\\(v + a = 120\\) en \\(15v + 9a = 1\\,320\\). Uit de "
+                  "eerste: \\(a = 120 - v\\). Invullen: \\(15v + 1\\,080 - 9v = 1\\,320\\), dus "
+                  "\\(6v = 240\\) en \\(v = 40\\); \\(a = 80\\).", 5),
              ]),
     ])
 

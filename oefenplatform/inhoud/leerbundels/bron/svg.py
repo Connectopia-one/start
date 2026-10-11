@@ -10419,3 +10419,34 @@ def tekenverloop(breedte=470):
     d.append(_tekst((30 + nul) / 2 - 32, oy + 50, "onder de x-as", 9.5, DIM, "middle"))
     d.append(_tekst((nul + 440) / 2, oy - 30, "boven de x-as", 9.5, DIM, "middle"))
     return _svg(breedte, h, "\n".join(d))
+
+
+def driestelsels(breedte=470):
+    r"""Snijdend, evenwijdig en samenvallend, naast elkaar."""
+    h = 192
+    vak = (breedte - 42) / 3
+    d = [f'<rect x="5" y="4" width="{breedte-10}" height="{h-26}" rx="7" '
+         f'fill="{PAPER}" stroke="{BORDER}" stroke-width="1.2"/>']
+    gevallen = [("bepaald", "één snijpunt", [(0.18, 0.78, 0.82, 0.22, FOREST),
+                                             (0.18, 0.30, 0.82, 0.74, AMBER)]),
+                ("strijdig", "geen snijpunt", [(0.16, 0.76, 0.84, 0.34, FOREST),
+                                               (0.16, 0.54, 0.84, 0.12, AMBER)]),
+                ("onbepaald", "overal samen", [(0.16, 0.76, 0.84, 0.26, FOREST),
+                                               (0.16, 0.76, 0.84, 0.26, AMBER)])]
+    for i, (naam, onder, lijnen) in enumerate(gevallen):
+        x0 = 14 + i * (vak + 7)
+        y0, hoog = 34.0, 94.0
+        d.append(f'<rect x="{x0:.1f}" y="{y0}" width="{vak:.1f}" height="{hoog}" rx="6" '
+                 f'fill="{FOREST}" fill-opacity="0.05" stroke="{BORDER}" stroke-width="1"/>')
+        for j, (ax, ay, bx, by, kleur) in enumerate(lijnen):
+            dik = 2.4 if j == 0 else 2.0
+            stip = ' stroke-dasharray="6 4"' if (i == 2 and j == 1) else ""
+            d.append(f'<line x1="{x0 + ax*vak:.1f}" y1="{y0 + ay*hoog:.1f}" '
+                     f'x2="{x0 + bx*vak:.1f}" y2="{y0 + by*hoog:.1f}" stroke="{kleur}" '
+                     f'stroke-width="{dik}"{stip}/>')
+        if i == 0:
+            d.append(f'<circle cx="{x0 + 0.5*vak:.1f}" cy="{y0 + 0.5*hoog:.1f}" r="4.4" '
+                     f'fill="{DARK}"/>')
+        d.append(_tekst(x0 + vak / 2, y0 - 10, naam, 11, DARK, "middle", True))
+        d.append(_tekst(x0 + vak / 2, y0 + hoog + 18, onder, 9.5, DIM, "middle"))
+    return _svg(breedte, h, "\n".join(d))

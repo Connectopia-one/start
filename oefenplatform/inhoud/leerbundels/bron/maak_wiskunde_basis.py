@@ -908,74 +908,90 @@ zet("stelsels-van-twee-vergelijkingen",
     titel="Stelsels van twee vergelijkingen",
     onder="De drie oplossingsmethodes, de drie soorten stelsels met hun grafische betekenis, en vraagstukken met twee onbekenden.",
     secties=[
-        dict(kop="Wat een stelsel is, en hoe je het oplost", blokken=[
-            ("p", "Een stelsel zijn <strong>twee vergelijkingen die samen gelden</strong>: je zoekt de "
-                  "waarden die aan beide tegelijk voldoen. <strong>De oplossing noteer je niet als één getal "
-                  "maar als een koppel</strong>, eerst de x en dan de y; de vakfiche noemt dat de "
-                  "koppelvoorstelling."),
-            ("p", "De vakfiche noemt <strong>drie</strong> algebraïsche methodes. De discriminant hoort bij "
-                  "de tweedegraadsvergelijkingen en niet hier."),
+        dict(kop="Wat een stelsel is", blokken=[
+            ("p", r"Een stelsel zijn <strong>twee vergelijkingen die samen gelden</strong>: je zoekt de "
+                  r"waarden die aan beide tegelijk voldoen. Je schrijft het met een accolade: "
+                  r"\[\begin{cases} x + y = 10 \\ x - y = 2 \end{cases}\]"),
+            ("p", r"<strong>De oplossing noteer je niet als één getal maar als een koppel</strong> "
+                  r"\((x, y)\), eerst de \(x\) en dan de \(y\); de vakfiche noemt dat de "
+                  r"koppelvoorstelling. Hier is dat \((6, 4)\), en de oplossingenverzameling is "
+                  r"\(V = \{(6, 4)\}\)."),
+        ]),
+        dict(kop="De drie methodes", blokken=[
+            ("p", r"De vakfiche noemt <strong>drie</strong> algebraïsche methodes. De discriminant hoort "
+                  r"bij de tweedegraadsvergelijkingen en niet hier."),
             ("kader", tabel(["methode", "wat je doet", "voorbeeld"],
-                            [["<strong>de combinatiemethode</strong>", "<strong>optellen of aftrekken</strong>, zodat <strong>één onbekende wegvalt</strong>",
-                              "<strong>x + y = 10 en x − y = 2</strong>: optellen geeft 2x = 12, dus <strong>x = 6 en y = 4</strong>"],
-                             ["<strong>de substitutiemethode</strong>", "<strong>een onbekende vervangen door een uitdrukking</strong>",
-                              "<strong>y = 2x en x + y = 9</strong>: 3x = 9, dus <strong>x = 3 en y = 6</strong>"],
-                             ["<strong>de gelijkstellingsmethode</strong>", "beide keren staat dezelfde letter alleen, dus stel je de rechterleden gelijk",
-                              "<strong>y = 3x − 1 en y = x + 5</strong>: 2x = 6, dus <strong>x = 3 en y = 8</strong>"]])),
-            ("p", "Nog drie om zelf na te rekenen. <strong>x + y = 12 en x − y = 4 geeft x = 8</strong> (en "
-                  "y = 4). <strong>2x + y = 11 met y = 3 geeft x = 4.</strong> <strong>3x + y = 17 met y = 2 "
-                  "geeft x = 5.</strong>"),
-            ("p", "<strong>Controleer je oplossing in beide vergelijkingen</strong>, want ze moet aan allebei "
-                  "voldoen: een koppel dat maar aan één vergelijking voldoet, is geen oplossing van het "
-                  "stelsel."),
+                            [[r"<strong>de combinatiemethode</strong>", r"<strong>optellen of aftrekken</strong>, zodat <strong>één onbekende wegvalt</strong>",
+                              r"<strong>\(x + y = 10\) en \(x - y = 2\)</strong>: optellen geeft \(2x = 12\), dus <strong>\((6, 4)\)</strong>"],
+                             [r"<strong>de substitutiemethode</strong>", r"<strong>een onbekende vervangen door een uitdrukking</strong>",
+                              r"<strong>\(y = 2x\) en \(x + y = 9\)</strong>: \(3x = 9\), dus <strong>\((3, 6)\)</strong>"],
+                             [r"<strong>de gelijkstellingsmethode</strong>", r"beide keren staat dezelfde letter alleen, dus stel je de rechterleden gelijk",
+                              r"<strong>\(y = 3x - 1\) en \(y = x + 5\)</strong>: \(2x = 6\), dus <strong>\((3, 8)\)</strong>"]])),
+        ]),
+        dict(kop="Zelf narekenen", blokken=[
+            ("p", r"Nog drie om zelf na te rekenen. <strong>\(x + y = 12\) en \(x - y = 4\) geeft "
+                  r"\(x = 8\)</strong> (en \(y = 4\)). <strong>\(2x + y = 11\) met \(y = 3\) geeft "
+                  r"\(x = 4\).</strong> <strong>\(3x + y = 17\) met \(y = 2\) geeft \(x = 5\).</strong>"),
+            ("p", r"<strong>Controleer je oplossing in beide vergelijkingen</strong>, want ze moet aan "
+                  r"allebei voldoen: een koppel dat maar aan één vergelijking voldoet, is geen oplossing "
+                  r"van het stelsel."),
         ]),
         dict(kop="Drie soorten stelsels", blokken=[
+            ("fig", svg.driestelsels(),
+             "Snijden de rechten elkaar, lopen ze naast elkaar, of liggen ze op elkaar?"),
             ("kader", tabel(["soort", "hoeveel oplossingen", "grafisch", "voorbeeld"],
-                            [["<strong>bepaald</strong>", "<strong>precies één</strong>", "<strong>twee snijdende rechten</strong>, dus een <strong>verschillende richtingscoëfficiënt</strong>",
-                              "x + y = 10 en x − y = 2"],
-                             ["<strong>strijdig</strong>", "<strong>geen enkele</strong>; <strong>de lege verzameling</strong>",
-                              "<strong>twee evenwijdige rechten</strong> die niet samenvallen: <strong>nul snijpunten</strong>",
-                              "<strong>x + y = 5 en x + y = 7</strong>: dezelfde som kan niet 5 én 7 zijn"],
-                             ["<strong>onbepaald</strong>", "<strong>oneindig veel</strong>", "<strong>twee samenvallende rechten</strong>: dezelfde richtingscoëfficiënt én hetzelfde snijpunt met de y-as",
-                              "<strong>x + y = 5 en 2x + 2y = 10</strong>: de tweede is het dubbele van de eerste"]])),
-            ("p", "<strong>Een stelsel met precies één oplossing heet dus bepaald, niet strijdig</strong>; "
-                  "strijdig betekent juist dat er géén oplossing is. <strong>Twee rechten met dezelfde "
-                  "richtingscoëfficiënt zijn evenwijdig</strong>: verschilt ook hun snijpunt met de y-as, dan "
-                  "vallen ze niet samen en is het stelsel strijdig."),
-            ("p", "Over stelsels klopt dus: <strong>ze kunnen geen oplossing hebben</strong>, <strong>ze "
-                  "kunnen er oneindig veel hebben</strong> en <strong>ze kunnen er precies één "
-                  "hebben</strong>. Precies twee oplossingen bestaat niet bij een stelsel van "
-                  "eerstegraadsvergelijkingen."),
-            ("p", "<strong>Het soort stelsel benoemen is nuttig omdat je dan weet wat je antwoord "
-                  "betekent</strong>: komt er 0 = 5 uit, dan is het stelsel strijdig en is dát je antwoord, "
-                  "geen rekenfout."),
+                            [[r"<strong>bepaald</strong>", r"<strong>precies één</strong>", r"<strong>twee snijdende rechten</strong>, dus een <strong>verschillende \(a\)</strong>",
+                              r"\(x + y = 10\) en \(x - y = 2\)"],
+                             [r"<strong>strijdig</strong>", r"<strong>geen enkele</strong>; <strong>\(V = \emptyset\)</strong>",
+                              r"<strong>twee evenwijdige rechten</strong> die niet samenvallen: <strong>nul snijpunten</strong>",
+                              r"<strong>\(x + y = 5\) en \(x + y = 7\)</strong>: dezelfde som kan niet \(5\) én \(7\) zijn"],
+                             [r"<strong>onbepaald</strong>", r"<strong>oneindig veel</strong>", r"<strong>twee samenvallende rechten</strong>: dezelfde \(a\) én dezelfde \(b\)",
+                              r"<strong>\(x + y = 5\) en \(2x + 2y = 10\)</strong>: de tweede is het dubbele van de eerste"]])),
+        ]),
+        dict(kop="Het soort herkennen", blokken=[
+            ("p", r"<strong>Een stelsel met precies één oplossing heet dus bepaald, niet "
+                  r"strijdig</strong>; strijdig betekent juist dat er géén oplossing is. <strong>Twee "
+                  r"rechten met dezelfde richtingscoëfficiënt \(a\) zijn evenwijdig</strong>: verschilt ook "
+                  r"hun \(b\), het snijpunt met de \(y\)-as, dan vallen ze niet samen en is het stelsel "
+                  r"strijdig."),
+            ("p", r"Over stelsels kloppen deze uitspraken: <strong>ze kunnen geen oplossing "
+                  r"hebben</strong>, <strong>ze "
+                  r"kunnen er oneindig veel hebben</strong> en <strong>ze kunnen er precies één "
+                  r"hebben</strong>. Precies twee oplossingen bestaat niet bij een stelsel van "
+                  r"eerstegraadsvergelijkingen."),
+            ("p", r"<strong>Het soort stelsel benoemen is nuttig omdat je dan weet wat je antwoord "
+                  r"betekent</strong>: komt er \(0 = 5\) uit, dan is het stelsel strijdig en is dát je "
+                  r"antwoord, geen rekenfout."),
         ]),
         dict(kop="Grafisch oplossen", blokken=[
-            ("p", "<strong>Grafisch is de oplossing het snijpunt van twee rechten</strong>: het punt dat op "
-                  "beide ligt, voldoet aan beide vergelijkingen. <strong>Grafisch oplossen mag met "
-                  "ICT</strong>; de vakfiche vraagt zelfs uitdrukkelijk om stelsels grafisch op te lossen, "
-                  "met en zonder ICT."),
-            ("p", "Maar <strong>grafisch oplossen is niet even nauwkeurig als algebraïsch oplossen</strong>: "
-                  "een snijpunt lees je af, en dat is zelden exact. Algebraïsch krijg je de precieze waarden."),
+            ("p", r"<strong>Grafisch is de oplossing het snijpunt van twee rechten</strong>: het punt dat "
+                  r"op beide ligt, voldoet aan beide vergelijkingen. Op de grafiek zie je ook meteen "
+                  r"welk soort stelsel je hebt. <strong>Grafisch oplossen mag met "
+                  r"ICT</strong>; de vakfiche vraagt zelfs uitdrukkelijk om stelsels grafisch op te "
+                  r"lossen, met en zonder ICT."),
+            ("p", r"Maar <strong>grafisch oplossen is niet even nauwkeurig als algebraïsch "
+                  r"oplossen</strong>: een snijpunt lees je af, en dat is zelden exact. Algebraïsch krijg "
+                  r"je de precieze waarden."),
         ]),
         dict(kop="Vraagstukken met twee onbekenden", blokken=[
-            ("p", "<strong>Een vraagstuk met twee onbekenden los je niet op met één vergelijking</strong>: "
-                  "dan blijft het onbepaald. Je hebt evenveel vergelijkingen als onbekenden nodig."),
-            ("p", "De stappen: <strong>twee onbekenden benoemen</strong>, <strong>twee vergelijkingen "
-                  "opstellen</strong> en <strong>het stelsel oplossen</strong>. De vakfiche vraagt daarna "
-                  "het antwoord terug in de context te plaatsen."),
+            ("p", r"<strong>Een vraagstuk met twee onbekenden los je niet op met één "
+                  r"vergelijking</strong>: dan blijft het onbepaald. Je hebt evenveel vergelijkingen als "
+                  r"onbekenden nodig."),
+            ("p", r"De stappen: <strong>twee onbekenden benoemen</strong>, <strong>twee vergelijkingen "
+                  r"opstellen</strong> en <strong>het stelsel oplossen</strong>. De vakfiche vraagt daarna "
+                  r"het antwoord terug in de context te plaatsen."),
             ("kader", tabel(["vraagstuk", "het stelsel", "antwoord"],
-                            [["<strong>twee getallen met som 20 en verschil 4</strong>", "x + y = 20 en x − y = 4",
-                              "<strong>het grootste is 12</strong>"],
-                             ["<strong>twaalf stukken fruit, 4 peren meer dan appels</strong>", "a + p = 12 en p = a + 4",
-                              "<strong>4 appels</strong> (en 8 peren)"],
-                             ["<strong>abonnement A: 20 euro plus 2 per uur; abonnement B: 10 euro plus 4 per uur</strong>", "20 + 2x = 10 + 4x",
-                              "<strong>na 5 uur kosten ze evenveel</strong>"],
-                             ["<strong>een kaars van 20 cm die 2 cm per uur brandt, en een van 14 cm die 1 cm per uur brandt</strong>", "20 − 2x = 14 − x",
-                              "<strong>na 6 uur</strong>, beide zijn dan 8 cm"]])),
-            ("p", "Bij de abonnementen zegt het snijpunt waar de omslag ligt: <strong>bij veel uren is dat "
-                  "met het laagste uurtarief het voordeligst</strong>, want dan weegt het uurtarief het "
-                  "zwaarst."),
+                            [[r"<strong>twee getallen met som \(20\) en verschil \(4\)</strong>", r"\(x + y = 20\) en \(x - y = 4\)",
+                              r"<strong>het grootste is \(12\)</strong>"],
+                             [r"<strong>twaalf stukken fruit, \(4\) peren meer dan appels</strong>", r"\(a + p = 12\) en \(p = a + 4\)",
+                              r"<strong>\(4\) appels</strong> (en \(8\) peren)"],
+                             [r"<strong>abonnement A: \(20\) euro plus \(2\) per uur; abonnement B: \(10\) euro plus \(4\) per uur</strong>", r"\(20 + 2x = 10 + 4x\)",
+                              r"<strong>na \(5\) uur kosten ze evenveel</strong>"],
+                             [r"<strong>een kaars van \(20\) cm die \(2\) cm per uur brandt, en een van \(14\) cm die \(1\) cm per uur brandt</strong>", r"\(20 - 2x = 14 - x\)",
+                              r"<strong>na \(6\) uur</strong>, beide zijn dan \(8\) centimeter"]])),
+            ("p", r"Bij de abonnementen zegt het snijpunt waar de omslag ligt: <strong>bij veel uren is "
+                  r"dat met het laagste uurtarief het voordeligst</strong>, want dan weegt het uurtarief "
+                  r"het zwaarst."),
         ]),
     ])
 
