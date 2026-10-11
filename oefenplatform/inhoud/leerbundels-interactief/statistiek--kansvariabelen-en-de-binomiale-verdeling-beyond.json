@@ -33,7 +33,7 @@
     },
     {
      "soort": "kader",
-     "html": "<p>De som van alle kansen in een kansverdeling is <strong>precies één</strong>. Dat is je controle. Staat er \\(P(X = 1)\\) = \\(0{,}2\\), \\(P(X = 2)\\) = \\(0{,}5\\) en \\(P(X = 3)\\) = \\(0{,}4\\), dan is de som \\(1{,}1\\) en klopt de tabel niet.</p>"
+     "html": "<p>De som van alle kansen in een kansverdeling is <strong>precies één</strong>. Dat is je controle. Staat er \\(P(X = 1) = 0{,}2\\), \\(P(X = 2) = 0{,}5\\) en \\(P(X = 3) = 0{,}4\\), dan is de som \\(1{,}1\\) en klopt de tabel niet.</p>"
     },
     {
      "soort": "tekst",
@@ -97,7 +97,7 @@
    "blokken": [
     {
      "soort": "tekst",
-     "html": "Drie keer met een munt gooien geeft acht even waarschijnlijke uitkomsten. Juist twee keer kop kan op C(\\(3\\), \\(2\\)) = \\(3\\) manieren, dus de kans is <strong>drie achtste</strong>. Bij \\(X \\sim B(5; 0{,}5)\\) is \\(P(X = 0)\\) gelijk aan \\(0{,}5^{5}\\), <strong>een tweeëndertigste</strong>. Gooi je zes keer met een dobbelsteen, dan is de kans op geen enkele zes \\(\\left(\\tfrac{5}{6}\\right)^{6}\\), ongeveer <strong>drieëndertig procent</strong>."
+     "html": "Drie keer met een munt gooien geeft acht even waarschijnlijke uitkomsten. Juist twee keer kop kan op \\(C(3, 2) = 3\\) manieren, dus de kans is <strong>drie achtste</strong>. Bij \\(X \\sim B(5; 0{,}5)\\) is \\(P(X = 0)\\) gelijk aan \\(0{,}5^{5}\\), <strong>een tweeëndertigste</strong>. Gooi je zes keer met een dobbelsteen, dan is de kans op geen enkele zes \\(\\left(\\tfrac{5}{6}\\right)^{6}\\), ongeveer <strong>drieëndertig procent</strong>."
     },
     {
      "soort": "weetje",
@@ -115,7 +115,7 @@
   "Bij een continue kansvariabele is de kans op één exacte waarde nul.",
   "De som van alle kansen in een kansverdeling is precies één.",
   "Een Bernoulli-experiment heeft juist twee uitkomsten; ze hoeven niet even waarschijnlijk te zijn.",
-  "X ~ B(\\(n\\), \\(p\\)): \\(n\\) keer hetzelfde experiment, onafhankelijk, met dezelfde \\(p\\). \\(P(X = k)\\) = C(\\(n\\), \\(k\\)) · \\(p\\) tot de \\(k \\cdot (1 - p)\\) tot de \\((n - k)\\).",
+  "X ~ B(\\(n\\), \\(p\\)): \\(n\\) keer hetzelfde experiment, onafhankelijk, met dezelfde \\(p\\). \\(P(X = k) = C(n, k) \\cdot p\\) tot de \\(k \\cdot (1 - p)\\) tot de \\((n - k)\\).",
   "Zonder terugleggen is het niet binomiaal, want \\(p\\) verandert.",
   "\\(P(X \\geq 1)\\) is één min \\(P(X = 0)\\)."
  ]

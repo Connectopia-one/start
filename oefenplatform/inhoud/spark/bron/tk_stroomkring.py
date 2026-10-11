@@ -189,7 +189,7 @@ DEEL1 = [
         opties=[
             "Een symbool",
             "Een pijl met de naam erbij",
-            "Een cijfer van 1 tot 7 in een kader",
+            r"Een cijfer van \(1\) tot \(7\) in een kader",
             "Een eigen kleur voor elk onderdeel",
         ],
         antwoord=0,

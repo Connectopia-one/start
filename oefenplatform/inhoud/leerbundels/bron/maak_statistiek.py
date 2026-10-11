@@ -54,7 +54,7 @@ BUNDELS["problemen-oplossen-en-ict-gebruiken-beyond"] = dict(
                   "Een <strong>opgave met context</strong> vertrekt van een concrete situatie uit de "
                   "wereld rondom ons: een enquête, een productielijn, een steekproef van zeshonderd "
                   "mensen. Een <strong>opgave zonder context</strong> is abstract en zuiver wiskundig: "
-                  r"bereken C(\(12\), \(5\)). Dezelfde leerstof kan je op allebei de manieren gevraagd worden, "
+                  r"bereken \(C(12, 5)\). Dezelfde leerstof kan je op allebei de manieren gevraagd worden, "
                   "afhankelijk van het leerdoel."),
         ]),
         dict(kop="De vier stappen", blokken=[
@@ -199,7 +199,7 @@ BUNDELS["de-telregels-product-som-en-complement-beyond"] = dict(
                   "drie</strong>; het complement van <strong>minstens één</strong> is <strong>geen "
                   "enkele</strong>."),
             ("p", tabel(["Vraag", "Totaal", "Wat niet voldoet", "Antwoord"], [
-                [r"\(3\) keer munt gooien, minstens één keer kop", r"\(2^{3}\) = \(8\)", r"nul keer kop: \(1\)", r"\(7\)"],
+                [r"\(3\) keer munt gooien, minstens één keer kop", r"\(2^{3} = 8\)", r"nul keer kop: \(1\)", r"\(7\)"],
                 [r"\(4\) keer munt gooien, alle uitkomsten", r"\(2^{4}\)", "—", r"\(16\)"],
                 [r"\(2\) dobbelstenen, minstens één zes", r"\(36\)", r"geen zes: \(5 \cdot 5 = 25\)", r"\(11\)"],
                 [r"code van \(4\) cijfers, niet \(4\) gelijke", r"\(10\,000\)", r"\(4\) gelijke: \(10\)", r"\(9990\)"],
@@ -247,9 +247,9 @@ BUNDELS["faculteit-en-combinaties-beyond"] = dict(
             ("p", r"Eén afspraak moet je uit het hoofd kennen: <strong>\(0! = 1\)</strong>. Dat "
                   "is geen grap maar een noodzaak, anders klopt de formule van de combinaties niet meer "
                   "in de randgevallen."),
-            ("weetje", r"Faculteiten lopen razendsnel op: \(10\)! is al meer dan drie miljoen, \(20\)! heeft "
-                       r"negentien cijfers. Bij <strong>C(\(18\), \(3\))</strong> is het dus "
-                       r"<strong>geen goed idee</strong> om eerst \(18\)! volledig uit te rekenen. Je deelt de "
+            ("weetje", r"Faculteiten lopen razendsnel op: \(10!\) is al meer dan drie miljoen, \(20!\) heeft "
+                       r"negentien cijfers. Bij <strong>\(C(18, 3)\)</strong> is het dus "
+                       r"<strong>geen goed idee</strong> om eerst \(18!\) volledig uit te rekenen. Je deelt de "
                        "factoren tegen elkaar weg voor je vermenigvuldigt."),
         ]),
         dict(kop="Combinaties: de volgorde telt niet", blokken=[
@@ -260,78 +260,78 @@ BUNDELS["faculteit-en-combinaties-beyond"] = dict(
             ("kader", r"<p>In het formularium staat: het aantal combinaties van <strong>\(p\)</strong> "
                       r"elementen uit <strong>\(n\)</strong> elementen is</p>"
                       r'<p style="text-align:center;"><strong>\(C(n, p) = \dfrac{n!}{p!\,(n - p)!}\)</strong></p>'
-                      r"<p>De <strong>\(p\)! in de noemer</strong> staat er om de volgordes van de gekozen "
-                      r"elementen weer weg te delen. Zonder die deling tel je elke keuze \(p\)! keer.</p>"),
+                      r"<p>De <strong>\(p!\) in de noemer</strong> staat er om de volgordes van de gekozen "
+                      r"elementen weer weg te delen. Zonder die deling tel je elke keuze \(p!\) keer.</p>"),
             ("p", "Dat laatste is dé klassieke fout. Je moet uit vier vrienden er twee kiezen en je "
                   r"rekent \(4 \cdot 3 = 12\) uit. Dan heb je <strong>elk paar twee keer geteld</strong>, want "
                   "Anna-en-Bram is hetzelfde duo als Bram-en-Anna. Het antwoord is <strong>zes</strong>. "
-                  r"Dezelfde fout bij C(\(9\), \(4\)): wie \(9 \cdot 8 \cdot 7 \cdot 6 = 3024\) opschrijft, is de deling door \(4\)! "
+                  r"Dezelfde fout bij \(C(9, 4)\): wie \(9 \cdot 8 \cdot 7 \cdot 6 = 3024\) opschrijft, is de deling door \(4!\) "
                   "vergeten; het antwoord is <strong>honderdzesentwintig</strong>."),
             ("p", tabel(["Eigenschap", "Waarom", "Voorbeeld"], [
-                [r"C(\(n\), \(0\)) = \(1\)", "er is precies één manier om niets te kiezen", r"C(\(7\), \(0\)) = \(1\)"],
-                [r"C(\(n\), \(1\)) = \(n\)", r"je kiest er één, dus \(n\) keuzes", r"C(\(10\), \(1\)) = \(10\)"],
-                [r"C(\(n\), \(p\)) = C(\(n\), \(n - p\))", r"wie er \(p\) kiest, laat er juist \(n - p\) liggen", r"C(\(8\), \(3\)) = C(\(8\), \(5\)) = \(56\)"],
-                [r"C(\(n\), \(p\)) is altijd een geheel getal", "de deling gaat altijd op, ook al staat er een breuk", r"C(\(45\), \(6\)) = \(8\,145\,060\)"],
+                [r"\(C(n, 0) = 1\)", "er is precies één manier om niets te kiezen", r"\(C(7, 0) = 1\)"],
+                [r"\(C(n, 1) = n\)", r"je kiest er één, dus \(n\) keuzes", r"\(C(10, 1) = 10\)"],
+                [r"\(C(n, p) = C(n, n - p)\)", r"wie er \(p\) kiest, laat er juist \(n - p\) liggen", r"\(C(8, 3) = C(8, 5) = 56\)"],
+                [r"\(C(n, p)\) is altijd een geheel getal", "de deling gaat altijd op, ook al staat er een breuk", r"\(C(45, 6) = 8\,145\,060\)"],
             ])),
         ]),
-        dict(kop=r"Rekenen met C(\(n\), \(p\))", blokken=[
-            ("p", r"Bij elk <strong>telprobleem</strong> is de eerste vraag of de volgorde telt. Telt ze niet, dan is het een combinatie. Reken ze een keer met de hand uit, en daarna met de kansrekenmachine. Je vindt C(\(n\), \(p\)) "
+        dict(kop=r"Rekenen met \(C(n, p)\)", blokken=[
+            ("p", r"Bij elk <strong>telprobleem</strong> is de eerste vraag of de volgorde telt. Telt ze niet, dan is het een combinatie. Reken ze een keer met de hand uit, en daarna met de kansrekenmachine. Je vindt \(C(n, p)\) "
                   r"op de gewone rekenmachine van GeoGebra als <strong>nCr(\(n\), \(p\))</strong>."),
             ("p", tabel(["Berekening", "Uitwerking", "Uitkomst"], [
-                [r"C(\(5\), \(2\))", r"\((5 \cdot 4) : 2\)", r"\(10\)"],
-                [r"C(\(6\), \(2\))", r"\((6 \cdot 5) : 2\)", r"\(15\)"],
-                [r"C(\(6\), \(3\))", r"\((6 \cdot 5 \cdot 4) : 6\)", r"\(20\)"],
-                [r"C(\(7\), \(3\))", r"\((7 \cdot 6 \cdot 5) : 6\)", r"\(35\)"],
-                [r"C(\(10\), \(2\))", r"\((10 \cdot 9) : 2\)", r"\(45\)"],
-                [r"C(\(11\), \(2\))", r"\((11 \cdot 10) : 2\)", r"\(55\)"],
-                [r"C(\(9\), \(5\))", r"gelijk aan C(\(9\), \(4\))", r"\(126\)"],
-                [r"C(\(12\), \(5\))", "", r"\(792\)"],
-                [r"C(\(20\), \(2\))", r"\((20 \cdot 19) : 2\)", r"\(190\)"],
-                [r"C(\(25\), \(3\))", r"\((25 \cdot 24 \cdot 23) : 6\)", r"\(2300\)"],
-                [r"C(\(30\), \(2\))", r"\((30 \cdot 29) : 2\)", r"\(435\)"],
+                [r"\(C(5, 2)\)", r"\((5 \cdot 4) : 2\)", r"\(10\)"],
+                [r"\(C(6, 2)\)", r"\((6 \cdot 5) : 2\)", r"\(15\)"],
+                [r"\(C(6, 3)\)", r"\((6 \cdot 5 \cdot 4) : 6\)", r"\(20\)"],
+                [r"\(C(7, 3)\)", r"\((7 \cdot 6 \cdot 5) : 6\)", r"\(35\)"],
+                [r"\(C(10, 2)\)", r"\((10 \cdot 9) : 2\)", r"\(45\)"],
+                [r"\(C(11, 2)\)", r"\((11 \cdot 10) : 2\)", r"\(55\)"],
+                [r"\(C(9, 5)\)", r"gelijk aan \(C(9, 4)\)", r"\(126\)"],
+                [r"\(C(12, 5)\)", "", r"\(792\)"],
+                [r"\(C(20, 2)\)", r"\((20 \cdot 19) : 2\)", r"\(190\)"],
+                [r"\(C(25, 3)\)", r"\((25 \cdot 24 \cdot 23) : 6\)", r"\(2300\)"],
+                [r"\(C(30, 2)\)", r"\((30 \cdot 29) : 2\)", r"\(435\)"],
             ])),
             ("weetje", "Op het examen volstaat het <strong>niet</strong> om enkel de uitkomst van "
-                       r"C(\(n\), \(p\)) te noteren. Schrijf erbij welke combinatie je berekent en waarom het een "
+                       r"\(C(n, p)\) te noteren. Schrijf erbij welke combinatie je berekent en waarom het een "
                        "combinatie is; dat is het deel waarvoor je punten krijgt."),
         ]),
         dict(kop="Herkennen in een opgave", blokken=[
             ("p", tabel(["Opgave", "Waarom een combinatie", "Berekening"], [
-                ["drie boeken uit tien meenemen op reis", "de volgorde in je koffer telt niet", r"C(\(10\), \(3\)) = \(120\)"],
-                ["twee leerlingen uit twintig het bord laten wissen", "geen rolverdeling", r"C(\(20\), \(2\)) = \(190\)"],
-                ["een jury van vijf uit negen kandidaten", "een jury is een groep", r"C(\(9\), \(5\)) = \(126\)"],
-                ["een ploeg van vijf uit twaalf spelers", "idem", r"C(\(12\), \(5\)) = \(792\)"],
-                ["zes Lottogetallen uit vijfenveertig", "de trekvolgorde doet er niet toe", r"C(\(45\), \(6\))"],
-                ["drie verschillende gebakjes uit acht soorten", "je zak is één geheel", r"C(\(8\), \(3\)) = \(56\)"],
-                ["vier soorten fruit uit zeven", "idem", r"C(\(7\), \(4\)) = \(35\)"],
-                ["drie rode knikkers uit zes rode", "de blauwe doen niet mee", r"C(\(6\), \(3\)) = \(20\)"],
-                ["twee steden uit twaalf bezoeken", "", r"C(\(12\), \(2\)) = \(66\)"],
-                ["twee vertegenwoordigers uit zestien kandidaten", "zonder onderscheid in rol", r"C(\(16\), \(2\)) = \(120\)"],
-                ["drie afgevaardigden uit vijfentwintig", "zonder onderscheid in rol", r"C(\(25\), \(3\)) = \(2300\)"],
-                ["een hand van vijf kaarten uit tweeënvijftig", "je hand is geen rij", r"C(\(52\), \(5\))"],
+                ["drie boeken uit tien meenemen op reis", "de volgorde in je koffer telt niet", r"\(C(10, 3) = 120\)"],
+                ["twee leerlingen uit twintig het bord laten wissen", "geen rolverdeling", r"\(C(20, 2) = 190\)"],
+                ["een jury van vijf uit negen kandidaten", "een jury is een groep", r"\(C(9, 5) = 126\)"],
+                ["een ploeg van vijf uit twaalf spelers", "idem", r"\(C(12, 5) = 792\)"],
+                ["zes Lottogetallen uit vijfenveertig", "de trekvolgorde doet er niet toe", r"\(C(45, 6)\)"],
+                ["drie verschillende gebakjes uit acht soorten", "je zak is één geheel", r"\(C(8, 3) = 56\)"],
+                ["vier soorten fruit uit zeven", "idem", r"\(C(7, 4) = 35\)"],
+                ["drie rode knikkers uit zes rode", "de blauwe doen niet mee", r"\(C(6, 3) = 20\)"],
+                ["twee steden uit twaalf bezoeken", "", r"\(C(12, 2) = 66\)"],
+                ["twee vertegenwoordigers uit zestien kandidaten", "zonder onderscheid in rol", r"\(C(16, 2) = 120\)"],
+                ["drie afgevaardigden uit vijfentwintig", "zonder onderscheid in rol", r"\(C(25, 3) = 2300\)"],
+                ["een hand van vijf kaarten uit tweeënvijftig", "je hand is geen rij", r"\(C(52, 5)\)"],
             ])),
             ("p", "<strong>Een toernooi waarin elke ploeg één keer tegen elke andere speelt</strong>, is "
                   r"een combinatie van twee uit \(n\): elke wedstrijd is een paar ploegen. Met tien ploegen "
-                  r"zijn dat C(\(10\), \(2\)) = <strong>vijfenveertig</strong> wedstrijden."),
+                  r"zijn dat \(C(10, 2)\) = <strong>vijfenveertig</strong> wedstrijden."),
             ("kader", r"<p><strong>Twee voorwaarden met de complementregel.</strong> Bij "
                       "<em>minstens één</em> of <em>minstens twee</em> tel je de gevallen die het net "
                       r"niet halen, en trek je die van het totaal af.</p>"
                       r"<p>Een commissie van drie uit vijf vrouwen en vier mannen, met "
-                      r"<strong>minstens één vrouw</strong>: in totaal C(\(9\), \(3\)) = \(84\) commissies, waarvan "
-                      r"C(\(4\), \(3\)) = \(4\) met enkel mannen. Dus \(84 - 4\) = <strong>tachtig</strong>.</p>"
+                      r"<strong>minstens één vrouw</strong>: in totaal \(C(9, 3) = 84\) commissies, waarvan "
+                      r"\(C(4, 3) = 4\) met enkel mannen. Dus \(84 - 4\) = <strong>tachtig</strong>.</p>"
                       r"<p>Bij <em>minstens twee</em> tel je de gevallen met nul én met één, en haal je "
                       r"allebei van het totaal af.</p>"),
             ("p", "<strong>Let op als herhaling toegelaten is.</strong> Mag je twee keer hetzelfde kiezen, "
                   "dan geldt de formule van de combinaties niet meer en val je terug op de productregel. "
-                  r"Twee kinderen uit dertig kiezen geeft C(\(30\), \(2\)) = \(435\) mogelijkheden, niet \(870\); dat "
+                  r"Twee kinderen uit dertig kiezen geeft \(C(30, 2) = 435\) mogelijkheden, niet \(870\); dat "
                   "laatste is het aantal als de volgorde wél zou tellen."),
         ]),
     ],
     onthoud=[
-        r"\(n\)! is het product van alle getallen van één tot \(n\), en \(0\)! is één.",
+        r"\(n!\) is het product van alle getallen van één tot \(n\), en \(0!\) is één.",
         r"Bij een combinatie telt de volgorde niet: \(C(n, p) = \dfrac{n!}{p!\,(n - p)!}\).",
-        r"De \(p\)! in de noemer deelt de volgordes van de gekozen elementen weer weg; vergeet je ze, dan tel je elke keuze \(p\)! keer.",
-        r"C(\(n\), \(0\)) = \(1\), C(\(n\), \(1\)) = \(n\) en C(\(n\), \(p\)) = C(\(n\), \(n - p\)).",
-        r"Elke ploeg één keer tegen elke andere is C(\(n\), \(2\)).",
+        r"De \(p!\) in de noemer deelt de volgordes van de gekozen elementen weer weg; vergeet je ze, dan tel je elke keuze \(p!\) keer.",
+        r"\(C(n, 0) = 1\), \(C(n, 1) = n\) en \(C(n, p) = C(n, n - p)\).",
+        r"Elke ploeg één keer tegen elke andere is \(C(n, 2)\).",
         "Minstens één? Tel het tegengestelde en trek het van het totaal af.",
     ],
 )
@@ -366,7 +366,7 @@ BUNDELS["kansvariabelen-en-de-binomiale-verdeling-beyond"] = dict(
                   "alle waarden met de kans op elk van die waarden. Je zet ze in een tabel of in een "
                   "staafdiagram."),
             ("kader", r"<p>De som van alle kansen in een kansverdeling is <strong>precies één</strong>. "
-                      r"Dat is je controle. Staat er \(P(X = 1)\) = \(0{,}2\), \(P(X = 2)\) = \(0{,}5\) en \(P(X = 3)\) = \(0{,}4\), dan "
+                      r"Dat is je controle. Staat er \(P(X = 1) = 0{,}2\), \(P(X = 2) = 0{,}5\) en \(P(X = 3) = 0{,}4\), dan "
                       r"is de som \(1{,}1\) en klopt de tabel niet.</p>"),
             ("p", r"Wordt er naar <strong>\(P(X \leq 2)\)</strong> gevraagd, dan tel je de kansen van alle "
                   "waarden tot en met twee op. De waarden van een discrete kansvariabele "
@@ -421,7 +421,7 @@ BUNDELS["kansvariabelen-en-de-binomiale-verdeling-beyond"] = dict(
         ]),
         dict(kop="Kansen uitrekenen", blokken=[
             ("p", "Drie keer met een munt gooien geeft acht even waarschijnlijke uitkomsten. Juist twee "
-                  r"keer kop kan op C(\(3\), \(2\)) = \(3\) manieren, dus de kans is <strong>drie achtste</strong>. "
+                  r"keer kop kan op \(C(3, 2) = 3\) manieren, dus de kans is <strong>drie achtste</strong>. "
                   r"Bij \(X \sim B(5; 0{,}5)\) is \(P(X = 0)\) gelijk aan \(0{,}5^{5}\), "
                   "<strong>een tweeëndertigste</strong>. Gooi je zes keer met een dobbelsteen, dan is de "
                   r"kans op geen enkele zes \(\left(\tfrac{5}{6}\right)^{6}\), ongeveer <strong>drieëndertig "
@@ -440,7 +440,7 @@ BUNDELS["kansvariabelen-en-de-binomiale-verdeling-beyond"] = dict(
         "Bij een continue kansvariabele is de kans op één exacte waarde nul.",
         "De som van alle kansen in een kansverdeling is precies één.",
         "Een Bernoulli-experiment heeft juist twee uitkomsten; ze hoeven niet even waarschijnlijk te zijn.",
-        r"X ~ B(\(n\), \(p\)): \(n\) keer hetzelfde experiment, onafhankelijk, met dezelfde \(p\). \(P(X = k)\) = C(\(n\), \(k\)) · \(p\) tot de \(k \cdot (1 - p)\) tot de \((n - k)\).",
+        r"X ~ B(\(n\), \(p\)): \(n\) keer hetzelfde experiment, onafhankelijk, met dezelfde \(p\). \(P(X = k) = C(n, k) \cdot p\) tot de \(k \cdot (1 - p)\) tot de \((n - k)\).",
         r"Zonder terugleggen is het niet binomiaal, want \(p\) verandert.",
         r"\(P(X \geq 1)\) is één min \(P(X = 0)\).",
     ],
@@ -458,7 +458,7 @@ BUNDELS["verwachtingswaarde-variantie-en-standaardafwijking-beyond"] = dict(
                   "<strong>vermenigvuldig elke waarde met haar kans en tel alles op</strong>. Het is dus "
                   "een <strong>gewogen gemiddelde</strong> en geen gewoon gemiddelde: elke waarde telt "
                   "mee met haar eigen kans in plaats van even zwaar."),
-            ("kader", r"<p>Waarden nul, één en twee met kansen \(0{,}1\) / \(0{,}3\) / \(0{,}6\):</p>"
+            ("kader", r"<p>Waarden nul, één en twee met kansen \(0{,}1\), \(0{,}3\) en \(0{,}6\):</p>"
                       r'<p style="text-align:center;">E(X) = \(0 \cdot 0{,}1 + 1 \cdot 0{,}3 + 2 \cdot 0{,}6\) = <strong>\(1{,}5\)</strong></p>'
                       r"<p>Merk op: \(1{,}5\) is geen waarde die X kan aannemen. Dat hoeft ook niet — "
                       "<strong>de verwachtingswaarde moet geen waarde zijn die echt voorkomt</strong>. "
@@ -607,9 +607,9 @@ BUNDELS["de-normale-verdeling-en-standaardiseren-beyond"] = dict(
                   "betekent eronder. Een z-waarde van nul betekent dat de waarde precies op het "
                   "gemiddelde ligt; dat is iets anders dan een kans van nul."),
             ("p", tabel(["Verdeling", "Waarde X", r"\(Z = \dfrac{X - \mu}{\sigma}\)", "Betekenis"], [
-                [r"\(N(70; 5)\)", r"\(80\)", r"\((80 - 70)\) / \(5 = 2\)", r"twee \(\sigma\) boven het gemiddelde"],
-                [r"\(N(50; 4)\)", r"\(42\)", r"\((42 - 50)\) / \(4 = -2\)", r"twee \(\sigma\) onder het gemiddelde"],
-                [r"\(N(500; 20)\)", r"\(540\)", r"\((540 - 500)\) / \(20 = 2\)", r"twee \(\sigma\) boven het gemiddelde"],
+                [r"\(N(70; 5)\)", r"\(80\)", r"\((80 - 70) / 5 = 2\)", r"twee \(\sigma\) boven het gemiddelde"],
+                [r"\(N(50; 4)\)", r"\(42\)", r"\((42 - 50) / 4 = -2\)", r"twee \(\sigma\) onder het gemiddelde"],
+                [r"\(N(500; 20)\)", r"\(540\)", r"\((540 - 500) / 20 = 2\)", r"twee \(\sigma\) boven het gemiddelde"],
             ])),
             ("p", "<strong>Waarom standaardiseren?</strong> Om waarden uit verschillende verdelingen met "
                   "elkaar te kunnen vergelijken, zeker als ze een andere eenheid hebben. Ann haalt "
@@ -705,7 +705,7 @@ BUNDELS["populatie-steekproef-en-de-steekproevenverdeling-beyond"] = dict(
                       r"N(\(\mu\); \(\sigma : \sqrt{n}\)), op voorwaarde dat "
                       r"<strong>\(n\) minstens dertig</strong> is.</p>"
                       r"<p><strong>De steekproefproportie</strong> is bij benadering normaal verdeeld met "
-                      r"standaardafwijking <strong>\(\sqrt{p} \cdot (1 - p) : n\)</strong>, "
+                      r"standaardafwijking <strong>\(\sqrt{\dfrac{p \cdot (1 - p)}{n}}\)</strong>, "
                       r"op <strong>drie</strong> voorwaarden: \(n \geq 30\), "
                       r"<strong>\(n \cdot p \geq 10\)</strong> én <strong>\(n \cdot (1 - p)\) is minstens "
                       r"tien</strong>.</p>"),
@@ -713,8 +713,8 @@ BUNDELS["populatie-steekproef-en-de-steekproevenverdeling-beyond"] = dict(
                   r"<strong>gelijk aan \(\mu\)</strong>. Je zit dus gemiddeld juist; de vraag is alleen hoe "
                   "ver je er in één steekproef naast kan zitten."),
             ("p", tabel(["Gegeven", r"\(\sigma : \sqrt{n}\)", "Uitkomst"], [
-                [r"\(\sigma\) = \(10\) en \(n = 100\)", r"\(10 : 10\)", r"\(1\)"],
-                [r"\(\sigma\) = \(15\) en \(n = 225\)", r"\(15 : 15\)", r"\(1\)"],
+                [r"\(\sigma = 10\) en \(n = 100\)", r"\(10 : 10\)", r"\(1\)"],
+                [r"\(\sigma = 15\) en \(n = 225\)", r"\(15 : 15\)", r"\(1\)"],
                 [r"\(p = 0{,}5\) en \(n = 100\)", r"\(\sqrt{\dfrac{0{,}5 \cdot 0{,}5}{100}}\)", r"\(0{,}05\)"],
             ])),
             ("weetje", r"In de noemer staat de <strong>wortel</strong> uit \(n\). Wordt \(n\) vier keer groter, "
@@ -747,8 +747,8 @@ BUNDELS["populatie-steekproef-en-de-steekproevenverdeling-beyond"] = dict(
         r"Populatie = de hele groep, steekproef = het deel dat je onderzoekt. \(\mu\), \(\sigma\) en \(p\) horen bij de populatie; \(\bar{x}\), s en \(p\) met een dakje bij de steekproef.",
         "Aselect betekent dat iedereen dezelfde kans heeft om gekozen te worden; representatief betekent een goede afspiegeling.",
         "Een kleine aselecte steekproef verslaat een grote die je zelf uitkiest.",
-        r"Steekproefgemiddelde: N(\(\mu\); \(\sigma\) / \(\sqrt{n}\)), op voorwaarde dat \(n\) minstens dertig is.",
-        r"Steekproefproportie: standaardafwijking \(\sqrt{p}\)\((1 - p)\)/\(n\), op drie voorwaarden: \(n \geq 30\), \(n \cdot p \geq 10\) en \(n \cdot (1 - p) \geq 10\).",
+        r"Steekproefgemiddelde: N(\(\mu\); \(\sigma / \sqrt{n}\)), op voorwaarde dat \(n\) minstens dertig is.",
+        r"Steekproefproportie: standaardafwijking \(\sqrt{\dfrac{p \cdot (1 - p)}{n}}\), op drie voorwaarden: \(n \geq 30\), \(n \cdot p \geq 10\) en \(n \cdot (1 - p) \geq 10\).",
         "Vier keer meer metingen halveert de spreiding. De grootte van de populatie telt niet mee.",
     ],
 )
@@ -775,7 +775,7 @@ BUNDELS["hypothesen-opstellen-h0-h1-en-de-richting-beyond"] = dict(
                   r"<strong>=</strong>. Een ongelijkheid hoort in \(H_{1}\). \(H_{0}\): \(\mu > 100\) kan "
                   r"dus niet. \(H_{0}\) en \(H_{1}\) mogen elkaar ook <strong>niet overlappen</strong>, en samen moeten "
                   "ze <strong>alle mogelijkheden dekken</strong> met <strong>hetzelfde getal</strong>. "
-                  r"\(H_{0}\): \(\mu\) = \(50\) met \(H_{1}\): \(\mu\) &gt; \(60\) is fout: wat als \(\mu\) vijfenvijftig is?"),
+                  r"\(H_{0}\): \(\mu = 50\) met \(H_{1}\): \(\mu\) &gt; \(60\) is fout: wat als \(\mu\) vijfenvijftig is?"),
         ]),
         dict(kop=r"De richting van \(H_{1}\)", blokken=[
             ("p", tabel(["Soort toets", r"\(H_{1}\)", "Je kijkt naar"], [
@@ -787,10 +787,10 @@ BUNDELS["hypothesen-opstellen-h0-h1-en-de-richting-beyond"] = dict(
                   "<strong>eenzijdige toets naar rechts</strong> kijk je naar de kans op een resultaat "
                   "dat <strong>minstens zo groot</strong> is als wat je gevonden hebt."),
             ("p", tabel(["Situatie", r"\(H_{0}\)", r"\(H_{1}\)", "Soort"], [
-                [r"de controleur vermoedt dat de pakken te licht zijn (claim: \(500\) g)", r"\(\mu\) = \(500\)", r"\(\mu\) &lt; \(500\)", "linkszijdig"],
+                [r"de controleur vermoedt dat de pakken te licht zijn (claim: \(500\) g)", r"\(\mu = 500\)", r"\(\mu\) &lt; \(500\)", "linkszijdig"],
                 [r"de krant vermoedt dat minder dan \(60\,\%\) slaagt", r"\(p = 0{,}60\)", r"\(p < 0{,}60\)", "linkszijdig"],
-                [r"de nieuwe lesmethode moet het gemiddelde boven \(70\) tillen", r"\(\mu\) = \(70\)", r"\(\mu\) &gt; \(70\)", "rechtszijdig"],
-                [r"bewoners klagen dat de wachttijd langer is dan \(10\) minuten", r"\(\mu\) = \(10\)", r"\(\mu\) &gt; \(10\)", "rechtszijdig"],
+                [r"de nieuwe lesmethode moet het gemiddelde boven \(70\) tillen", r"\(\mu = 70\)", r"\(\mu\) &gt; \(70\)", "rechtszijdig"],
+                [r"bewoners klagen dat de wachttijd langer is dan \(10\) minuten", r"\(\mu = 10\)", r"\(\mu\) &gt; \(10\)", "rechtszijdig"],
                 ["de arts wil weten of het medicijn een ánder effect heeft", r"\(\mu\) = de huidige waarde", r"\(\mu\) verschilt ervan", "tweezijdig"],
                 ["het bedrijf wil weten of de verpakking de verkoop verandert", r"\(\mu\) = de huidige verkoop", r"\(\mu\) verschilt ervan", "tweezijdig"],
                 ["de krant toetst of de maatregel werkt", "de maatregel heeft geen effect", "hij heeft wel effect", "hangt af van de vraag"],
@@ -923,7 +923,7 @@ BUNDELS[r"de-p-waarde-het-significantieniveau-en-de-twee-fouten-beyond"] = dict(
             ("p", tabel(["Valkuil", "Wat er mis is"], [
                 [r"\"het effect is groot, want \(p\) is heel klein\"", "een significant resultaat zegt niet hoe groot het effect is"],
                 [r"een verschil van \(0{,}1\,\%\) met \(p = 0{,}001\) bij honderdduizend deelnemers", "significant, maar praktisch misschien onbelangrijk"],
-                [r"twintig verbanden toetsen op \(\alpha\) = \(0{,}05\) en er één significant vinden", "bij twintig toetsen verwacht je er al één door toeval"],
+                [r"twintig verbanden toetsen op \(\alpha = 0{,}05\) en er één significant vinden", "bij twintig toetsen verwacht je er al één door toeval"],
                 [r'"\(p = 0{,}07\), dus er is geen verschil"', "er is te weinig bewijs, dat is iets anders"],
             ])),
             ("p", "Dat eerste en dat tweede horen bij elkaar: bij een <strong>grote steekproef</strong> "
@@ -1211,11 +1211,11 @@ BUNDELS["kansen-berekenen-met-de-kansrekenmachine-beyond"] = dict(
         ]),
         dict(kop="Kansen bij een normale verdeling", blokken=[
             ("p", tabel(["Opgave", "Wat je invult", "Antwoord"], [
-                [r"\(X \sim N(180; 8)\), P(X &gt; \(192\))", r"\(\mu\) = \(180\), \(\sigma\) = \(8\), rechterstaart vanaf \(192\)", r"\(0{,}067\)"],
+                [r"\(X \sim N(180; 8)\), P(X &gt; \(192\))", r"\(\mu = 180\), \(\sigma = 8\), rechterstaart vanaf \(192\)", r"\(0{,}067\)"],
                 [r"\(N(178; 7)\), P(\(171\) &lt; X &lt; \(185\))", r"tussen \(171\) en \(185\)", r"\(0{,}683\)"],
                 [r"\(N(100; 15)\), P(X &gt; \(130\))", r"rechterstaart vanaf \(130\)", r"\(0{,}023\)"],
                 [r"\(N(500; 20)\), P(X &lt; \(480\))", r"linkerstaart tot \(480\)", r"\(0{,}159\)"],
-                [r"Z ~ \(N(0; 1)\), P(Z &lt; \(1{,}96\))", r"\(\mu\) = \(0\), \(\sigma\) = \(1\), linkerstaart tot \(1{,}96\)", r"\(0{,}975\)"],
+                [r"Z ~ \(N(0; 1)\), P(Z &lt; \(1{,}96\))", r"\(\mu = 0\), \(\sigma = 1\), linkerstaart tot \(1{,}96\)", r"\(0{,}975\)"],
                 [r"\(N(72; 8)\), P(X &gt; \(80\))", r"rechterstaart vanaf \(80\)", r"\(0{,}159\)"],
                 [r"\(N(20; 4)\), P(X &lt; \(15\))", r"linkerstaart tot \(15\)", r"\(0{,}106\)"],
                 [r"\(N(37; 0{,}5)\), P(X &gt; \(38\))", r"rechterstaart vanaf \(38\)", r"\(0{,}0228\)"],
@@ -1238,8 +1238,8 @@ BUNDELS["kansen-berekenen-met-de-kansrekenmachine-beyond"] = dict(
             ])),
             ("p", r"Bij een <strong>symmetrische</strong> verdeling is de \(p\)-waarde van een tweezijdige "
                   "toets dus <strong>het dubbele</strong> van die van de eenzijdige."),
-            ("kader", r"<p><strong>Een volledig voorbeeld.</strong> \(H_{0}\) zegt \(\mu\) = \(50\). Je vindt x met een "
-                      r"streepje gelijk aan \(52\), bij \(n = 100\) en \(\sigma\) = \(10\), en je toetst rechtszijdig.</p>"
+            ("kader", r"<p><strong>Een volledig voorbeeld.</strong> \(H_{0}\) zegt \(\mu = 50\). Je vindt x met een "
+                      r"streepje gelijk aan \(52\), bij \(n = 100\) en \(\sigma = 10\), en je toetst rechtszijdig.</p>"
                       r"<p>De standaardafwijking van het steekproefgemiddelde is \(\dfrac{10}{\sqrt{100}} = 1\). "
                       r"Dan is \(z = \dfrac{52 - 50}{1} = 2\), dus "
                       r"<strong>\(2\)</strong>. De rechterstaart vanaf \(2\) geeft "

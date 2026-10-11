@@ -166,7 +166,7 @@
     },
     {
      "soort": "tekst",
-     "html": "Met letters dek je ze in één keer. Elk even getal is 2a, dus neem 2a en 2b. Hun som is \\(2a + 2b\\) = <strong>\\(2\\)\\((a + b)\\)</strong>, en dat is een veelvoud van \\(2\\). Klaar voor alle even getallen tegelijk."
+     "html": "Met letters dek je ze in één keer. Elk even getal is 2a, dus neem 2a en 2b. Hun som is \\(2a + 2b\\) = <strong>\\(2(a + b)\\)</strong>, en dat is een veelvoud van \\(2\\). Klaar voor alle even getallen tegelijk."
     },
     {
      "soort": "kader",
@@ -190,7 +190,7 @@
   "\\(\\sqrt{9 + 16} = 5\\), niet \\(3 + 4\\). Een wortel splits je niet over een som.",
   "\\(10\\,\\%\\) en nog eens \\(10\\,\\%\\) korting is samen \\(19\\,\\%\\), geen \\(20\\,\\%\\).",
   "Maal een negatief getal draait de ongelijkheid om: uit \\(5 > 3\\) volgt \\(-5 < -3\\).",
-  "Even + even: schrijf \\(2a + 2b = 2\\)\\((a + b)\\). Zo dek je alle gevallen in één keer.",
+  "Even + even: schrijf \\(2a + 2b = 2(a + b)\\). Zo dek je alle gevallen in één keer.",
   "Deelbaar door \\(4\\) ⇒ deelbaar door \\(2\\), maar niet omgekeerd \\((6)\\).",
   "Vier gelijke zijden maakt nog geen vierkant: een scheve ruit is het tegenvoorbeeld.",
   "\\(a \\cdot b = 0\\) betekent \\(a = 0\\) óf \\(b = 0\\). En uit \\(a^{2} = b^{2}\\) volgt niet \\(a = b\\) (\\(3\\) en \\(-3\\)).",

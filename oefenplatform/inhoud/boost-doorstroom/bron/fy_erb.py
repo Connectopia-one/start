@@ -27,7 +27,7 @@ DEEL1 = [
             "er is geen verschil, enkel een ander symbool",
         ],
         antwoord=0,
-        uitleg="De verplaatsing Δx is het verschil tussen de eindpositie en de beginpositie. De afgelegde weg Δs is de hele weg die je echt gelopen hebt.",
+        uitleg=r"De verplaatsing \(\Delta x\) is het verschil tussen de eindpositie en de beginpositie. De afgelegde weg \(\Delta s\) is de hele weg die je echt gelopen hebt.",
     ),
     dict(
         type="meerkeuze",
@@ -70,7 +70,7 @@ DEEL1 = [
         vraag=r"Een auto rijdt \(150\) km in \(2{,}0\) uur. Wat is de gemiddelde snelheid?",
         opties=[r"\(75\) km/h", r"\(300\) km/h", r"\(7{,}5\) km/h", r"\(50\) km/h"],
         antwoord=0,
-        uitleg=r"Met vg = Δx / Δt krijg je \(150\) km / \(2{,}0\) \(h = 75\) km/h. Dat zegt niets over de snelheid op één bepaald ogenblik.",
+        uitleg=r"Met \(v_{g} = \Delta x / \Delta t\) krijg je \(150\) km / \(2{,}0\) \(h = 75\) km/h. Dat zegt niets over de snelheid op één bepaald ogenblik.",
     ),
     dict(
         type="meerkeuze",
@@ -144,7 +144,7 @@ DEEL1 = [
         type="waarofniet",
         vraag="Een verplaatsing kan negatief zijn.",
         antwoord=True,
-        uitleg="Beweegt een voorwerp tegen de zin van de x-as in, dan is Δx negatief. Het teken hoort bij de zin van de beweging.",
+        uitleg=r"Beweegt een voorwerp tegen de zin van de x-as in, dan is \(\Delta x\) negatief. Het teken hoort bij de zin van de beweging.",
     ),
     dict(
         type="waarofniet",
@@ -156,7 +156,7 @@ DEEL1 = [
         type="waarofniet",
         vraag="Een voorwerp in rust heeft een snelheid van nul.",
         antwoord=True,
-        uitleg="In rust verandert de positie niet, dus Δx is nul en daarmee ook de snelheid.",
+        uitleg=r"In rust verandert de positie niet, dus \(\Delta x\) is nul en daarmee ook de snelheid.",
     ),
     dict(
         type="waarofniet",
@@ -168,7 +168,7 @@ DEEL1 = [
         type="invultekst",
         vraag="Welk symbool gebruikt men voor een verplaatsing?",
         antwoord=["Δx", "delta x", "dx"],
-        uitleg="Δx, met de Griekse letter delta voor een verandering. De afgelegde weg krijgt Δs.",
+        uitleg=r"\(\Delta x\), met de Griekse letter delta voor een verandering. De afgelegde weg krijgt \(\Delta s\).",
     ),
     dict(
         type="invultekst",
@@ -186,7 +186,7 @@ DEEL1 = [
         type="invultekst",
         vraag=r"Een trein legt \(60\) km af in een half uur. Wat is zijn gemiddelde snelheid in km/h? Schrijf het getal.",
         antwoord=["120", "120 km/h"],
-        uitleg=r"vg = \(60\) km / \(0{,}5\) \(h = 120\) km/h.",
+        uitleg=r"\(v_{g} = 60\) km / \(0{,}5\) \(h = 120\) km/h.",
     ),
 ]
 
@@ -231,14 +231,14 @@ DEEL2 = [
     ),
     dict(
         type="meerkeuze",
-        vraag=r"De positiefunctie van een beweging is \(x = 10 + 3\) . t, met x in meter en t in seconde. Wat is de snelheid?",
+        vraag=r"De positiefunctie van een beweging is \(x = 10 + 3 \cdot t\), met x in meter en t in seconde. Wat is de snelheid?",
         opties=[r"\(3\) m/s", r"\(10\) m/s", r"\(13\) m/s", r"\(30\) m/s"],
         antwoord=0,
         uitleg=r"In \(x = x_{0} + v \cdot t\) is \(10\) m de beginpositie en \(3\) m/s de snelheid.",
     ),
     dict(
         type="meerkeuze",
-        vraag=r"De positiefunctie is \(x = 40 - 5\) . t, met x in meter en t in seconde. Welke uitspraken zijn juist? Kruis alles aan wat juist is.",
+        vraag=r"De positiefunctie is \(x = 40 - 5 \cdot t\), met x in meter en t in seconde. Welke uitspraken zijn juist? Kruis alles aan wat juist is.",
         opties=[
             r"het voorwerp vertrekt op \(40\) m",
             "het voorwerp beweegt tegen de zin van de x-as",
@@ -250,7 +250,7 @@ DEEL2 = [
     ),
     dict(
         type="meerkeuze",
-        vraag=r"Een voorwerp heeft een positiefunctie \(x = 40 - 5\) . t, met x in meter en t in seconde. Op welk tijdstip is het in de oorsprong?",
+        vraag=r"Een voorwerp heeft een positiefunctie \(x = 40 - 5 \cdot t\), met x in meter en t in seconde. Op welk tijdstip is het in de oorsprong?",
         opties=[r"na \(8{,}0\) s", r"na \(5{,}0\) s", r"na \(40\) s", r"na \(200\) s"],
         antwoord=0,
         uitleg=r"Stel \(x = 0\): dan is \(5 \times t = 40\), dus \(t = 8{,}0\) s.",
@@ -298,7 +298,7 @@ DEEL2 = [
         type="waarofniet",
         vraag="Een rechte in een x(t)-grafiek die naar beneden loopt, hoort bij een negatieve snelheid.",
         antwoord=True,
-        uitleg="De positie wordt kleiner, dus Δx is negatief en de snelheid ook. Het voorwerp gaat tegen de zin van de x-as in.",
+        uitleg=r"De positie wordt kleiner, dus \(\Delta x\) is negatief en de snelheid ook. Het voorwerp gaat tegen de zin van de x-as in.",
     ),
     dict(
         type="waarofniet",
@@ -332,9 +332,9 @@ DEEL2 = [
     ),
     dict(
         type="invultekst",
-        vraag=r"In de positiefunctie \(x = x_{0} + v \cdot \left(t - t_{0}\right)\): wat stelt x₀ voor? Schrijf het woord.",
+        vraag=r"In de positiefunctie \(x = x_{0} + v \cdot \left(t - t_{0}\right)\): wat stelt \(x_{0}\) voor? Schrijf het woord.",
         antwoord=["beginpositie", "de beginpositie", "startpositie"],
-        uitleg="De beginpositie, dus waar het voorwerp zich bevindt op het tijdstip t₀.",
+        uitleg=r"De beginpositie, dus waar het voorwerp zich bevindt op het tijdstip \(t_{0}\).",
     ),
     dict(
         type="invultekst",

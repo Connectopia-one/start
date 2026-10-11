@@ -12,7 +12,7 @@
     },
     {
      "soort": "tekst",
-     "html": "De <strong>versnelling</strong> zegt hoeveel de snelheid per seconde verandert. De SI-eenheid is de <strong>meter per seconde kwadraat (\\(\\text{m/s}^{2}\\))</strong>. De <strong>gemiddelde versnelling</strong> krijgt het symbool <strong>ag</strong> en is <strong>ag = Δv / Δt</strong>; de ogenblikkelijke versnelling krijgt gewoon a."
+     "html": "De <strong>versnelling</strong> zegt hoeveel de snelheid per seconde verandert. De SI-eenheid is de <strong>meter per seconde kwadraat (\\(\\text{m/s}^{2}\\))</strong>. De <strong>gemiddelde versnelling</strong> krijgt het symbool <strong>\\(a_{g}\\)</strong> en is <strong>\\(a_{g} = \\Delta v / \\Delta t\\)</strong>; de ogenblikkelijke versnelling krijgt gewoon a."
     },
     {
      "soort": "tekst",
@@ -117,7 +117,7 @@
   }
  ],
  "onthoud": [
-  "Bij een EVRB blijft de versnelling gelijk; ag = Δv / Δt, in \\(\\text{m/s}^{2}\\).",
+  "Bij een EVRB blijft de versnelling gelijk; \\(a_{g} = \\Delta v / \\Delta t\\), in \\(\\text{m/s}^{2}\\).",
   "Een negatieve versnelling betekent enkel vertragen als de snelheid positief is.",
   "De steilheid van een v(t)-grafiek is de versnelling; een a(t)-grafiek van een EVRB is horizontaal.",
   "Een x(t)-grafiek wordt steiler bij versnellen en vlakker bij vertragen.",

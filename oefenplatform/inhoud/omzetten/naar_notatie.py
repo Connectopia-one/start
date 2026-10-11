@@ -372,9 +372,20 @@ def te_zetten(bron: str):
     getallen van een tekening en de sleutel van een bundel blijven zo heel).
     """
     veld, wacht_is, vorige, stapel, uit = None, None, None, [], []
-    for tok in tokenize.generate_tokens(io.StringIO(bron).readline):
-        if tok.type in (tokenize.NL, tokenize.NEWLINE, tokenize.INDENT,
-                        tokenize.DEDENT, tokenize.COMMENT):
+    alles = list(tokenize.generate_tokens(io.StringIO(bron).readline))
+    echt = [t for t in alles
+            if t.type not in (tokenize.NL, tokenize.NEWLINE, tokenize.INDENT,
+                              tokenize.DEDENT, tokenize.COMMENT)]
+    for i, tok in enumerate(echt):
+        volgend = echt[i + 1] if i + 1 < len(echt) else None
+        # een sleutel van een dict telt net zo goed als een veld: in sommige
+        # bestanden staat de vraag als {"vraag": "..."} in plaats van vraag="..."
+        if (not BUNDELS and tok.type == tokenize.STRING and volgend is not None
+                and volgend.type == tokenize.OP and volgend.string == ":"):
+            kaal = tok.string[len(tok.string) - len(
+                tok.string.lstrip("rRbBfFuU")):]
+            veld = kaal.strip("\"'")
+            vorige = tok
             continue
         if tok.type == tokenize.OP and tok.string in "([":
             aanroep = vorige is not None and (

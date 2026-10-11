@@ -2651,7 +2651,7 @@
             "\\(\\rho = V / m\\)"
           ],
           "antwoord": 0,
-          "uitleg": "Je deelt de massa door het volume. Het symbool ρ (rho) is de Griekse letter voor massadichtheid."
+          "uitleg": "Je deelt de massa door het volume. Het symbool \\(\\rho\\) (rho) is de Griekse letter voor massadichtheid."
         },
         {
           "type": "meerkeuze",
@@ -2662,7 +2662,7 @@
             "\\(0{,}3\\) g/\\(\\text{cm}^{3}\\)"
           ],
           "antwoord": 0,
-          "uitleg": "\\(\\rho = m / V = 300\\) g / \\(100\\,\\text{cm}^{3}\\) = \\(3\\) g/\\(\\text{cm}^{3}\\)."
+          "uitleg": "\\(\\rho = m / V = 300\\) g / \\(100\\,\\text{cm}^{3} = 3\\) g/\\(\\text{cm}^{3}\\)."
         },
         {
           "type": "meerkeuze",
@@ -2733,7 +2733,7 @@
           "type": "invultekst",
           "vraag": "\\(1\\) liter is evenveel als ___ \\(\\text{cm}^{3}\\).",
           "antwoord": "1000",
-          "uitleg": "\\(1\\) L = \\(1\\,\\text{dm}^{3}\\) = \\(1000\\,\\text{cm}^{3}\\). En \\(1\\) mL = \\(1\\,\\text{cm}^{3}\\)."
+          "uitleg": "\\(1\\) L = \\(1\\,\\text{dm}^{3} = 1000\\,\\text{cm}^{3}\\). En \\(1\\) mL = \\(1\\,\\text{cm}^{3}\\)."
         },
         {
           "type": "meerkeuze",
@@ -2850,7 +2850,7 @@
             "\\(144\\) g/\\(\\text{cm}^{3}\\)"
           ],
           "antwoord": 0,
-          "uitleg": "Eerst het volume: \\(z^{3} = 2^{3} = 8\\,\\text{cm}^{3}\\). Dan \\(\\rho = 72\\) g / \\(8\\,\\text{cm}^{3}\\) = \\(9\\) g/\\(\\text{cm}^{3}\\). Dat komt aardig in de buurt van koper."
+          "uitleg": "Eerst het volume: \\(z^{3} = 2^{3} = 8\\,\\text{cm}^{3}\\). Dan \\(\\rho = 72\\) g / \\(8\\,\\text{cm}^{3} = 9\\) g/\\(\\text{cm}^{3}\\). Dat komt aardig in de buurt van koper."
         },
         {
           "type": "meerkeuze",
@@ -2911,7 +2911,7 @@
             "\\(18\\) kg"
           ],
           "antwoord": 0,
-          "uitleg": "\\(2\\) L = \\(2000\\,\\text{cm}^{3}\\). m = \\(\\rho \\cdot V = 0{,}9 \\cdot 2000 = 1800\\) g, dus \\(1{,}8\\) kg."
+          "uitleg": "\\(2\\) L = \\(2000\\,\\text{cm}^{3}\\). \\(m = \\rho \\cdot V = 0{,}9 \\cdot 2000 = 1800\\) g, dus \\(1{,}8\\) kg."
         },
         {
           "type": "meerkeuze",
@@ -2950,7 +2950,7 @@
           "type": "waarofniet",
           "vraag": "Als je bij dezelfde stof het volume verdubbelt, blijft de massa gelijk.",
           "antwoord": false,
-          "uitleg": "Niet juist. De massadichtheid is een stofconstante. Blijft ρ gelijk en wordt V twee keer zo groot, dan wordt \\(m = \\rho \\times V\\) ook twee keer zo groot."
+          "uitleg": "Niet juist. De massadichtheid is een stofconstante. Blijft \\(\\rho\\) gelijk en wordt V twee keer zo groot, dan wordt \\(m = \\rho \\times V\\) ook twee keer zo groot."
         },
         {
           "type": "meerkeuze",
@@ -3210,7 +3210,7 @@
             "\\(v = \\Delta t / \\Delta x\\)"
           ],
           "antwoord": 0,
-          "uitleg": "Je deelt de verplaatsing door de tijdsduur. Δx is de verplaatsing in meter en Δt de tijdsduur in seconde."
+          "uitleg": "Je deelt de verplaatsing door de tijdsduur. \\(\\Delta x\\) is de verplaatsing in meter en \\(\\Delta t\\) de tijdsduur in seconde."
         },
         {
           "type": "meerkeuze",
@@ -3580,7 +3580,7 @@
             "stopwatch",
             "klok"
           ],
-          "uitleg": "Een chronometer of een klok meet tijd, in seconden. Het symbool van tijdsduur is Δt."
+          "uitleg": "Een chronometer of een klok meet tijd, in seconden. Het symbool van tijdsduur is \\(\\Delta t\\)."
         },
         {
           "type": "meerkeuze",
@@ -3748,7 +3748,7 @@
           "vraag": "Welke uitspraken over grootheden en eenheden kloppen?",
           "opties": [
             "Kracht heeft het symbool F en de eenheid newton",
-            "Massadichtheid heeft het symbool ρ en de SI-eenheid kg/\\(\\text{m}^{3}\\)",
+            "Massadichtheid heeft het symbool \\(\\rho\\) en de SI-eenheid kg/\\(\\text{m}^{3}\\)",
             "Temperatuur heeft de SI-eenheid kelvin",
             "Volume heeft de SI-eenheid liter"
           ],
@@ -3766,7 +3766,7 @@
             "rho",
             "ρ"
           ],
-          "uitleg": "Massadichtheid schrijf je als ρ, uitgesproken als rho. De eenheid is kg/\\(\\text{m}^{3}\\) of g/\\(\\text{cm}^{3}\\)."
+          "uitleg": "Massadichtheid schrijf je als \\(\\rho\\), uitgesproken als rho. De eenheid is kg/\\(\\text{m}^{3}\\) of g/\\(\\text{cm}^{3}\\)."
         },
         {
           "type": "meerkeuze",
@@ -4243,7 +4243,7 @@
         },
         {
           "type": "meerkeuze",
-          "vraag": "Uit de formule \\(v = \\Delta x / \\Delta t\\): hoe schrijf je Δt in functie van de andere?",
+          "vraag": "Uit de formule \\(v = \\Delta x / \\Delta t\\): hoe schrijf je \\(\\Delta t\\) in functie van de andere?",
           "opties": [
             "\\(\\Delta t = \\Delta x / v\\)",
             "\\(\\Delta t = v \\times \\Delta x\\)",

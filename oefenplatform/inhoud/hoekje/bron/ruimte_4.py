@@ -46,7 +46,7 @@ VRAGEN = [
             "De snelheid hangt niet af van de afstand maar van de massa",
         ],
         "antwoord": 0,
-        "uitleg": "Dat is precies wat je verwacht als de ruimte zelf uitdijt: zet stippen op een ballon en blaas hem op, dan lopen verre stippen sneller van elkaar weg dan nabije. De Belgische priester en sterrenkundige Georges Lemaître schreef het in 1927 op, Edwin Hubble mat het twee jaar later na. Sinds 2018 heet de wet officieel naar hen allebei.",
+        "uitleg": r"Dat is precies wat je verwacht als de ruimte zelf uitdijt: zet stippen op een ballon en blaas hem op, dan lopen verre stippen sneller van elkaar weg dan nabije. De Belgische priester en sterrenkundige Georges Lemaître schreef het in \(1927\) op, Edwin Hubble mat het twee jaar later na. Sinds \(2018\) heet de wet officieel naar hen allebei.",
     },
     {
         "type": "meerkeuze",
@@ -166,7 +166,7 @@ VRAGEN = [
             "Een elektrische lading in het zeil stoot de zon van zich af",
         ],
         "antwoord": 0,
-        "uitleg": "Licht heeft geen massa maar wel een duwtje in zich, en dat duwtje is piepklein: op een zeil zo groot als een voetbalveld staat ongeveer het gewicht van een paperclip. Maar het stopt nooit, dus een zonnezeil blijft versnellen en kan uiteindelijk sneller gaan dan een raket. In 2019 vloog LightSail 2 er echt mee.",
+        "uitleg": r"Licht heeft geen massa maar wel een duwtje in zich, en dat duwtje is piepklein: op een zeil zo groot als een voetbalveld staat ongeveer het gewicht van een paperclip. Maar het stopt nooit, dus een zonnezeil blijft versnellen en kan uiteindelijk sneller gaan dan een raket. In \(2019\) vloog LightSail \(2\) er echt mee.",
     },
     {
         "type": "meerkeuze",
@@ -190,7 +190,7 @@ VRAGEN = [
         "type": "waarofniet",
         "vraag": "Op Mars weegt een steen ongeveer een derde van wat hij op aarde weegt.",
         "antwoord": True,
-        "uitleg": "De zwaartekracht op Mars is 0,38 keer die op aarde, dus ongeveer een derde. Een astronaut van zestig kilo zou er nog geen vijfentwintig wegen. Op de maan is het nog minder, een zesde, en op Jupiter zou je er meer dan het dubbele wegen.",
+        "uitleg": r"De zwaartekracht op Mars is \(0{,}38\) keer die op aarde, dus ongeveer een derde. Een astronaut van zestig kilo zou er nog geen vijfentwintig wegen. Op de maan is het nog minder, een zesde, en op Jupiter zou je er meer dan het dubbele wegen.",
     },
     {
         "type": "waarofniet",
@@ -202,18 +202,18 @@ VRAGEN = [
         "type": "waarofniet",
         "vraag": "De Apollo-vluchten brachten samen honderden kilo's maansteen mee terug naar de aarde.",
         "antwoord": True,
-        "uitleg": "Zes landingen leverden samen 382 kilo steen en stof op. Een deel ligt nog altijd ongeopend te wachten op betere meetapparatuur dan die van toen: in 2022 werd een buis uit 1972 voor het eerst opengemaakt. Juist die stenen verraadden dat de maan uit de aarde zelf is ontstaan.",
+        "uitleg": r"Zes landingen leverden samen \(382\) kilo steen en stof op. Een deel ligt nog altijd ongeopend te wachten op betere meetapparatuur dan die van toen: in \(2022\) werd een buis uit \(1972\) voor het eerst opengemaakt. Juist die stenen verraadden dat de maan uit de aarde zelf is ontstaan.",
     },
     {
         "type": "invultekst",
-        "vraag": "Hoe heet de ruimtesonde die in 1977 vertrok en als eerste van alle mensenwerk de ruimte tussen de sterren bereikte? (één woord)",
+        "vraag": r"Hoe heet de ruimtesonde die in \(1977\) vertrok en als eerste van alle mensenwerk de ruimte tussen de sterren bereikte? (één woord)",
         "antwoord": "Voyager",
-        "uitleg": "Voyager 1 passeerde in 2012 de rand van de invloedssfeer van onze zon en vliegt nu door de interstellaire ruimte, meer dan twintig miljard kilometer ver. Aan boord hangt een gouden plaat met muziek, geluiden en groeten in vijfenvijftig talen, voor het geval iemand hem ooit vindt.",
+        "uitleg": r"Voyager \(1\) passeerde in \(2012\) de rand van de invloedssfeer van onze zon en vliegt nu door de interstellaire ruimte, meer dan twintig miljard kilometer ver. Aan boord hangt een gouden plaat met muziek, geluiden en groeten in vijfenvijftig talen, voor het geval iemand hem ooit vindt.",
     },
     {
         "type": "invultekst",
-        "vraag": "De maan staat op ongeveer 384 000 km van ons. Licht legt 300 000 km per seconde af. Hoeveel seconden doet het maanlicht erover om bij ons te komen? Rond af op één cijfer na de komma.",
+        "vraag": r"De maan staat op ongeveer \(384\,000\) km van ons. Licht legt \(300\,000\) km per seconde af. Hoeveel seconden doet het maanlicht erover om bij ons te komen? Rond af op één cijfer na de komma.",
         "antwoord": "1,3",
-        "uitleg": "384 000 gedeeld door 300 000 is 1,28, afgerond 1,3 seconde. Daarom duurde het bij de maanlandingen telkens bijna drie seconden voor er antwoord kwam: heen en terug. Bij Mars loopt dat op tot soms twintig minuten per richting, en daarom kan niemand een marsrobot met een joystick besturen.",
+        "uitleg": r"\(384\,000 : 300\,000\) is \(1{,}28\), afgerond \(1{,}3\) seconde. Daarom duurde het bij de maanlandingen telkens bijna drie seconden voor er antwoord kwam: heen en terug. Bij Mars loopt dat op tot soms twintig minuten per richting, en daarom kan niemand een marsrobot met een joystick besturen.",
     },
 ]

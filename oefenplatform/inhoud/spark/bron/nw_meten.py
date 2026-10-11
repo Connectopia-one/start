@@ -80,7 +80,7 @@ DEEL1 = [
         type="invultekst",
         vraag="Een tijdsduur meet je met een ___.",
         antwoord=["chronometer", "stopwatch", "klok"],
-        uitleg="Een chronometer of een klok meet tijd, in seconden. Het symbool van tijdsduur is Δt.",
+        uitleg=r"Een chronometer of een klok meet tijd, in seconden. Het symbool van tijdsduur is \(\Delta t\).",
     ),
     dict(
         type="meerkeuze",
@@ -200,7 +200,7 @@ DEEL2 = [
         vraag="Welke uitspraken over grootheden en eenheden kloppen?",
         opties=[
             "Kracht heeft het symbool F en de eenheid newton",
-            r"Massadichtheid heeft het symbool ρ en de SI-eenheid kg/\(\text{m}^{3}\)",
+            r"Massadichtheid heeft het symbool \(\rho\) en de SI-eenheid kg/\(\text{m}^{3}\)",
             "Temperatuur heeft de SI-eenheid kelvin",
             "Volume heeft de SI-eenheid liter",
         ],
@@ -211,7 +211,7 @@ DEEL2 = [
         type="invultekst",
         vraag="Het symbool van de grootheid massadichtheid is de Griekse letter ___.",
         antwoord=["rho", "ρ"],
-        uitleg=r"Massadichtheid schrijf je als ρ, uitgesproken als rho. De eenheid is kg/\(\text{m}^{3}\) of g/\(\text{cm}^{3}\).",
+        uitleg=r"Massadichtheid schrijf je als \(\rho\), uitgesproken als rho. De eenheid is kg/\(\text{m}^{3}\) of g/\(\text{cm}^{3}\).",
     ),
     dict(
         type="meerkeuze",

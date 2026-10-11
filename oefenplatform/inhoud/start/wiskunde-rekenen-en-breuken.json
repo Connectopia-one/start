@@ -129,7 +129,7 @@
           "type": "invultekst",
           "vraag": "\\(\\tfrac{3}{8}\\) van \\(64\\) = ___",
           "antwoord": "24",
-          "uitleg": "Eerst \\(64 : 8 = 8\\), dat is één achtste. Drie van die stukken is \\(3\\) x \\(8 = 24\\)."
+          "uitleg": "Eerst \\(64 : 8 = 8\\), dat is één achtste. Drie van die stukken is \\(3 \\times 8 = 24\\)."
         },
         {
           "type": "meerkeuze",
@@ -231,11 +231,11 @@
           "type": "invultekst",
           "vraag": "\\(144 : 12\\) = ___",
           "antwoord": "12",
-          "uitleg": "\\(12\\) x \\(12 = 144\\), dus \\(144 : 12 = 12\\)."
+          "uitleg": "\\(12 \\times 12 = 144\\), dus \\(144 : 12 = 12\\)."
         },
         {
           "type": "meerkeuze",
-          "vraag": "Bereken: \\(25\\) x \\(4\\)",
+          "vraag": "Bereken: \\(25 \\times 4\\)",
           "opties": [
             "\\(100\\)",
             "\\(90\\)",
@@ -243,7 +243,7 @@
             "\\(84\\)"
           ],
           "antwoord": 0,
-          "uitleg": "Vier kwartjes maken een euro: \\(25\\) x \\(4 = 100\\)."
+          "uitleg": "Vier kwartjes maken een euro: \\(25 \\times 4 = 100\\)."
         },
         {
           "type": "invultekst",
@@ -259,7 +259,7 @@
         },
         {
           "type": "meerkeuze",
-          "vraag": "Bereken: \\(12 + 3\\) x \\(4\\)",
+          "vraag": "Bereken: \\(12 + 3 \\times 4\\)",
           "opties": [
             "\\(24\\)",
             "\\(60\\)",
@@ -267,19 +267,19 @@
             "\\(19\\)"
           ],
           "antwoord": 0,
-          "uitleg": "Eerst vermenigvuldigen: \\(3\\) x \\(4 = 12\\), en dan \\(12 + 12 = 24\\)."
+          "uitleg": "Eerst vermenigvuldigen: \\(3 \\times 4 = 12\\), en dan \\(12 + 12 = 24\\)."
         },
         {
           "type": "waarofniet",
-          "vraag": "Bij \\(8 + 2\\) x \\(5\\) reken je eerst \\(8 + 2\\).",
+          "vraag": "Bij \\(8 + 2 \\times 5\\) reken je eerst \\(8 + 2\\).",
           "antwoord": false,
-          "uitleg": "Maal gaat voor plus: eerst \\(2\\) x \\(5 = 10\\), dan \\(8 + 10 = 18\\)."
+          "uitleg": "Maal gaat voor plus: eerst \\(2 \\times 5 = 10\\), dan \\(8 + 10 = 18\\)."
         },
         {
           "type": "invultekst",
-          "vraag": "Bereken: \\((7 + 3)\\) x \\(5\\)",
+          "vraag": "Bereken: \\((7 + 3) \\times 5\\)",
           "antwoord": "50",
-          "uitleg": "Wat tussen haakjes staat gaat eerst: \\(7 + 3 = 10\\), en \\(10\\) x \\(5 = 50\\)."
+          "uitleg": "Wat tussen haakjes staat gaat eerst: \\(7 + 3 = 10\\), en \\(10 \\times 5 = 50\\)."
         },
         {
           "type": "invultekst",
@@ -289,7 +289,7 @@
         },
         {
           "type": "meerkeuze",
-          "vraag": "Bereken: \\(0{,}5\\) x \\(24\\)",
+          "vraag": "Bereken: \\(0{,}5 \\times 24\\)",
           "opties": [
             "\\(12\\)",
             "\\(48\\)",

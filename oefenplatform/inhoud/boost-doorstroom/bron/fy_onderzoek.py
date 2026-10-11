@@ -48,7 +48,7 @@ DEEL1 = [
         vraag="Welke stand van een multimeter gebruik je om een gelijkspanning te meten?",
         opties=["DCV", "DCA", "Ω", "AC"],
         antwoord=0,
-        uitleg="DCV staat voor gelijkspanning, DCA voor gelijkstroom. De Ω-stand meet een weerstand.",
+        uitleg=r"DCV staat voor gelijkspanning, DCA voor gelijkstroom. De \(\Omega\)-stand meet een weerstand.",
     ),
     dict(
         type="meerkeuze",

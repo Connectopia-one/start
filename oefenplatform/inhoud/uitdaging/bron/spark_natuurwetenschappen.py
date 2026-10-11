@@ -25,28 +25,28 @@ VRAGEN = [
     },
     {
         "type": "invultekst",
-        "vraag": "Een steen heeft een massa van 240 g en een volume van 80 cm³. Wat is zijn massadichtheid in g/cm³?",
+        "vraag": r"Een steen heeft een massa van \(240\) g en een volume van \(80\,\text{cm}^{3}\). Wat is zijn massadichtheid in g/\(\text{cm}^{3}\)?",
         "antwoord": "3",
         "reken": "240 / 80",
-        "uitleg": "Massadichtheid is massa gedeeld door volume: 240 : 80 = 3 g/cm³. Die steen is dus drie keer zo dicht als water.",
+        "uitleg": r"Massadichtheid is massa gedeeld door volume: \(240 : 80 = 3\) g/\(\text{cm}^{3}\). Die steen is dus drie keer zo dicht als water.",
     },
     {
         "type": "meerkeuze",
-        "vraag": "Een stuk hout heeft een massa van 60 g en een volume van 100 cm³. Water heeft een massadichtheid van 1 g/cm³. Wat gebeurt er?",
+        "vraag": r"Een stuk hout heeft een massa van \(60\) g en een volume van \(100\,\text{cm}^{3}\). Water heeft een massadichtheid van \(1\) g/\(\text{cm}^{3}\). Wat gebeurt er?",
         "opties": [
-            "Het hout drijft, want 0,6 g/cm³ is minder dicht dan water",
-            "Het hout zinkt, want 60 gram is zwaarder dan honderd gram",
+            r"Het hout drijft, want \(0{,}6\) g/\(\text{cm}^{3}\) is minder dicht dan water",
+            r"Het hout zinkt, want \(60\) gram is zwaarder dan honderd gram",
             "Het hout zweeft halverwege, want het verschil is maar klein",
             "Dat kan je niet weten zonder de vorm van het hout te kennen",
         ],
         "antwoord": 0,
-        "uitleg": "60 : 100 = 0,6 g/cm³. Wat minder dicht is dan de vloeistof, drijft. De massa alleen zegt niets: je moet ze tegenover het volume zetten.",
+        "uitleg": r"\(60 : 100 = 0{,}6\) g/\(\text{cm}^{3}\). Wat minder dicht is dan de vloeistof, drijft. De massa alleen zegt niets: je moet ze tegenover het volume zetten.",
     },
     {
         "type": "waarofniet",
         "vraag": "Of iets drijft of zinkt, hangt niet af van hoe groot het is maar van zijn massadichtheid.",
         "antwoord": True,
-        "uitleg": "Waar. Een schip van duizenden ton drijft en een muntstuk zinkt. Wat telt, is de massa per cm³, vergeleken met die van de vloeistof.",
+        "uitleg": r"Waar. Een schip van duizenden ton drijft en een muntstuk zinkt. Wat telt, is de massa per \(\text{cm}^{3}\), vergeleken met die van de vloeistof.",
     },
     {
         "type": "meerkeuze",
@@ -62,10 +62,10 @@ VRAGEN = [
     },
     {
         "type": "invultekst",
-        "vraag": "Een auto legt 150 km af in 2 uur. Wat is de gemiddelde snelheid in km/h?",
+        "vraag": r"Een auto legt \(150\) km af in \(2\) uur. Wat is de gemiddelde snelheid in km/h?",
         "antwoord": "75",
         "reken": "150 / 2",
-        "uitleg": "Snelheid is afstand gedeeld door tijd: 150 : 2 = 75 km/h. Gemiddeld, want onderweg reed hij nu eens sneller en dan weer trager.",
+        "uitleg": r"Snelheid is afstand gedeeld door tijd: \(150 : 2 = 75\) km/h. Gemiddeld, want onderweg reed hij nu eens sneller en dan weer trager.",
     },
     {
         "type": "meerkeuze",
@@ -99,10 +99,10 @@ VRAGEN = [
     },
     {
         "type": "invultekst",
-        "vraag": "Water heeft een massadichtheid van 1 g/cm³. Hoeveel gram weegt 2,5 liter water?",
+        "vraag": r"Water heeft een massadichtheid van \(1\) g/\(\text{cm}^{3}\). Hoeveel gram weegt \(2{,}5\) liter water?",
         "antwoord": "2500",
         "reken": "2.5 * 1000",
-        "uitleg": "1 liter is 1 000 cm³ en weegt dus 1 000 gram. 2,5 liter is 2 500 gram, of 2,5 kilogram.",
+        "uitleg": r"\(1\) liter is \(1\,000\,\text{cm}^{3}\) en weegt dus \(1\,000\) gram. \(2{,}5\) liter is \(2\,500\) gram, of \(2{,}5\) kilogram.",
     },
     {
         "type": "meerkeuze",
@@ -157,7 +157,7 @@ VRAGEN = [
         "vraag": "Een proef duurt anderhalf uur. Hoeveel minuten is dat?",
         "antwoord": "90",
         "reken": "1.5 * 60",
-        "uitleg": "Anderhalf uur is 1,5 x 60 = 90 minuten. Bij tijd reken je met 60, niet met 100.",
+        "uitleg": r"Anderhalf uur is \(1{,}5 \times 60 = 90\) minuten. Bij tijd reken je met \(60\), niet met \(100\).",
     },
     {
         "type": "meerkeuze",

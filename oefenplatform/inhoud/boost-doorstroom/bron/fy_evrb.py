@@ -46,7 +46,7 @@ DEEL1 = [
             "de snelheid is negatief",
         ],
         antwoord=0,
-        uitleg="De snelheid is positief maar wordt kleiner, dus Δv is negatief. Snelheid en versnelling hebben dan een tegengestelde zin.",
+        uitleg=r"De snelheid is positief maar wordt kleiner, dus \(\Delta v\) is negatief. Snelheid en versnelling hebben dan een tegengestelde zin.",
     ),
     dict(
         type="meerkeuze",
@@ -84,14 +84,14 @@ DEEL1 = [
         vraag=r"Een wagen gaat van \(0\) naar \(20\) m/s in \(5{,}0\) s. Wat is de gemiddelde versnelling?",
         opties=[r"\(4{,}0\ \text{m/s}^{2}\)", r"\(100\ \text{m/s}^{2}\)", r"\(0{,}25\ \text{m/s}^{2}\)", r"\(20\ \text{m/s}^{2}\)"],
         antwoord=0,
-        uitleg=r"ag = Δv / Δt = \(20\) / \(5{,}0 = 4{,}0\ \text{m/s}^{2}\).",
+        uitleg=r"\(a_{g} = \Delta v / \Delta t = 20 / 5{,}0 = 4{,}0\ \text{m/s}^{2}\).",
     ),
     dict(
         type="meerkeuze",
         vraag=r"Een trein remt van \(30\) m/s naar \(10\) m/s in \(8{,}0\) s. Wat is de gemiddelde versnelling?",
         opties=[r"\(-2{,}5\ \text{m/s}^{2}\)", r"\(2{,}5\ \text{m/s}^{2}\)", r"\(-5{,}0\ \text{m/s}^{2}\)", r"\(-20\ \text{m/s}^{2}\)"],
         antwoord=0,
-        uitleg=r"\(\Delta v = 10 - 30 = -20\) m/s en \(\Delta t = 8{,}0\) s, dus ag = \(-20\) / \(8{,}0 = -2{,}5\ \text{m/s}^{2}\). Het minteken hoort bij het vertragen.",
+        uitleg=r"\(\Delta v = 10 - 30 = -20\) m/s en \(\Delta t = 8{,}0\) s, dus \(a_{g} = -20 / 8{,}0 = -2{,}5\ \text{m/s}^{2}\). Het minteken hoort bij het vertragen.",
     ),
     dict(
         type="meerkeuze",
@@ -169,13 +169,13 @@ DEEL1 = [
         type="invultekst",
         vraag=r"Een bromfiets gaat van \(4{,}0\) m/s naar \(14\) m/s in \(5{,}0\) s. Hoe groot is de gemiddelde versnelling in \(\text{m/s}^{2}\)? Schrijf het getal.",
         antwoord=["2", "2,0", "2 m/s²"],
-        uitleg=r"\(\Delta v = 14 - 4{,}0 = 10\) m/s, dus ag = \(10\) / \(5{,}0 = 2{,}0\ \text{m/s}^{2}\).",
+        uitleg=r"\(\Delta v = 14 - 4{,}0 = 10\) m/s, dus \(a_{g} = 10 / 5{,}0 = 2{,}0\ \text{m/s}^{2}\).",
     ),
     dict(
         type="invultekst",
         vraag="Welk symbool gebruikt men voor de gemiddelde versnelling?",
         antwoord=["ag", "a_g", "a g"],
-        uitleg="ag, met een kleine g eronder voor gemiddeld. De ogenblikkelijke versnelling krijgt gewoon a.",
+        uitleg=r"\(a_{g}\), met een kleine g eronder voor gemiddeld. De ogenblikkelijke versnelling krijgt gewoon a.",
     ),
     dict(
         type="invultekst",

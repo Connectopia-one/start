@@ -2783,7 +2783,7 @@
             "\\(36\\,000\\) joule"
           ],
           "antwoord": 0,
-          "uitleg": "Uit P = |ΔE| / Δt volgt \\(\\Delta E = P \\cdot \\Delta t\\). Een half uur is \\(1800\\) seconden, en \\(10\\) watt maal \\(1800\\) seconden is \\(18\\,000\\) joule."
+          "uitleg": "Uit \\(P = |\\Delta E| / \\Delta t\\) volgt \\(\\Delta E = P \\cdot \\Delta t\\). Een half uur is \\(1800\\) seconden, en \\(10\\) watt maal \\(1800\\) seconden is \\(18\\,000\\) joule."
         },
         {
           "type": "waarofniet",
@@ -2801,7 +2801,7 @@
             "de nuttige energie vermenigvuldigen met de tijdsduur"
           ],
           "antwoord": 0,
-          "uitleg": "Dat is de formule η = Enuttig / Etotaal. Je krijgt een getal tussen \\(0\\) en \\(1\\), dat je met honderd vermenigvuldigt om het als een percentage te schrijven."
+          "uitleg": "Dat is de formule \\(\\eta = E_{\\text{nuttig}} / E_{\\text{totaal}}\\). Je krijgt een getal tussen \\(0\\) en \\(1\\), dat je met honderd vermenigvuldigt om het als een percentage te schrijven."
         },
         {
           "type": "invultekst",

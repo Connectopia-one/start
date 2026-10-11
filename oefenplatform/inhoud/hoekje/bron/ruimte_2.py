@@ -41,7 +41,7 @@ VRAGEN = [
             "Een planeet die het licht van zijn ster regelmatig onderbreekt",
         ],
         "antwoord": 0,
-        "uitleg": "Een neutronenster is de ineengestorte kern van een zware ster: zo dicht dat een theelepel ervan miljarden tonnen weegt. Haar stralingsbundel zwiept als een vuurtoren rond. De eerste ontdekking in 1967 kreeg voor de grap de naam LGM-1, van Little Green Men.",
+        "uitleg": r"Een neutronenster is de ineengestorte kern van een zware ster: zo dicht dat een theelepel ervan miljarden tonnen weegt. Haar stralingsbundel zwiept als een vuurtoren rond. De eerste ontdekking in \(1967\) kreeg voor de grap de naam LGM-\(1\), van Little Green Men.",
     },
     {
         "type": "meerkeuze",
@@ -71,7 +71,7 @@ VRAGEN = [
         "type": "waarofniet",
         "vraag": "De klokken in GPS-satellieten moeten bijgesteld worden omdat tijd daarboven anders loopt.",
         "antwoord": True,
-        "uitleg": "Twee effecten van Einstein werken tegen elkaar in: door hun snelheid lopen de klokken trager, door de zwakkere zwaartekracht lopen ze sneller. Samen winnen ze ongeveer 38 microseconden per dag. Zonder correctie zou je plaats elke dag zo'n tien kilometer verkeerd staan.",
+        "uitleg": r"Twee effecten van Einstein werken tegen elkaar in: door hun snelheid lopen de klokken trager, door de zwakkere zwaartekracht lopen ze sneller. Samen winnen ze ongeveer \(38\) microseconden per dag. Zonder correctie zou je plaats elke dag zo'n tien kilometer verkeerd staan.",
     },
     {
         "type": "meerkeuze",
@@ -107,13 +107,13 @@ VRAGEN = [
             "Straling van de zon die tussen de planeten heen en weer kaatst",
         ],
         "antwoord": 0,
-        "uitleg": "Ongeveer 380 000 jaar na de oerknal koelde het heelal genoeg af om licht door te laten. Dat licht is er nog, uitgerekt tot microgolven, overal en in alle richtingen. Penzias en Wilson vonden het in 1964 bij toeval: ze dachten eerst aan duivenpoep in hun antenne.",
+        "uitleg": r"Ongeveer \(380\,000\) jaar na de oerknal koelde het heelal genoeg af om licht door te laten. Dat licht is er nog, uitgerekt tot microgolven, overal en in alle richtingen. Penzias en Wilson vonden het in \(1964\) bij toeval: ze dachten eerst aan duivenpoep in hun antenne.",
     },
     {
         "type": "waarofniet",
         "vraag": "Volgens Einstein is zwaartekracht geen kracht maar een kromming van ruimte en tijd.",
         "antwoord": True,
-        "uitleg": "Massa buigt de ruimtetijd, en andere voorwerpen volgen gewoon de kortste weg in die gebogen ruimte. De aarde wordt dus niet aan een touwtje getrokken, ze rolt door een kuil. In 1919 zag men bij een zonsverduistering dat sterlicht langs de zon inderdaad afboog.",
+        "uitleg": r"Massa buigt de ruimtetijd, en andere voorwerpen volgen gewoon de kortste weg in die gebogen ruimte. De aarde wordt dus niet aan een touwtje getrokken, ze rolt door een kuil. In \(1919\) zag men bij een zonsverduistering dat sterlicht langs de zon inderdaad afboog.",
     },
     {
         "type": "meerkeuze",
@@ -147,9 +147,9 @@ VRAGEN = [
     },
     {
         "type": "invultekst",
-        "vraag": "Hoeveel kilometer per seconde legt licht ongeveer af? Geef het getal in duizendtallen, bijvoorbeeld 300000.",
+        "vraag": r"Hoeveel kilometer per seconde legt licht ongeveer af? Geef het getal in duizendtallen, bijvoorbeeld \(300000\).",
         "antwoord": "300000",
-        "uitleg": "Precies 299 792 458 meter per seconde. Dat is zeven keer rond de aarde in één tel, en toch doet licht van de dichtstbijzijnde ster er ruim vier jaar over om hier te raken.",
+        "uitleg": r"Precies \(299\,792\,458\) meter per seconde. Dat is zeven keer rond de aarde in één tel, en toch doet licht van de dichtstbijzijnde ster er ruim vier jaar over om hier te raken.",
     },
     {
         "type": "meerkeuze",
@@ -161,7 +161,7 @@ VRAGEN = [
             "Ze veranderen samen in een nieuwe, heel zware ster",
         ],
         "antwoord": 0,
-        "uitleg": "Einstein voorspelde die rimpels in 1916. In 2015 werden ze voor het eerst gemeten door LIGO, van een botsing van 1,3 miljard jaar geleden. De meetapparaten merkten een verschuiving veel kleiner dan een atoomkern.",
+        "uitleg": r"Einstein voorspelde die rimpels in \(1916\). In \(2015\) werden ze voor het eerst gemeten door LIGO, van een botsing van \(1{,}3\) miljard jaar geleden. De meetapparaten merkten een verschuiving veel kleiner dan een atoomkern.",
     },
     {
         "type": "meerkeuze",

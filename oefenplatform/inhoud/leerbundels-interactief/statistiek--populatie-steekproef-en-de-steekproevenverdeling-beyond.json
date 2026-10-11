@@ -58,7 +58,7 @@
     },
     {
      "soort": "kader",
-     "html": "<p>Het formularium geeft twee benaderingen, elk met haar voorwaarden.</p><p><strong>Het steekproefgemiddelde</strong> is bij benadering N(\\(\\mu\\); \\(\\sigma : \\sqrt{n}\\)), op voorwaarde dat <strong>\\(n\\) minstens dertig</strong> is.</p><p><strong>De steekproefproportie</strong> is bij benadering normaal verdeeld met standaardafwijking <strong>\\(\\sqrt{p} \\cdot (1 - p) : n\\)</strong>, op <strong>drie</strong> voorwaarden: \\(n \\geq 30\\), <strong>\\(n \\cdot p \\geq 10\\)</strong> én <strong>\\(n \\cdot (1 - p)\\) is minstens tien</strong>.</p>"
+     "html": "<p>Het formularium geeft twee benaderingen, elk met haar voorwaarden.</p><p><strong>Het steekproefgemiddelde</strong> is bij benadering N(\\(\\mu\\); \\(\\sigma : \\sqrt{n}\\)), op voorwaarde dat <strong>\\(n\\) minstens dertig</strong> is.</p><p><strong>De steekproefproportie</strong> is bij benadering normaal verdeeld met standaardafwijking <strong>\\(\\sqrt{\\dfrac{p \\cdot (1 - p)}{n}}\\)</strong>, op <strong>drie</strong> voorwaarden: \\(n \\geq 30\\), <strong>\\(n \\cdot p \\geq 10\\)</strong> én <strong>\\(n \\cdot (1 - p)\\) is minstens tien</strong>.</p>"
     },
     {
      "soort": "tekst",
@@ -66,7 +66,7 @@
     },
     {
      "soort": "tekst",
-     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Gegeven</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">\\(\\sigma : \\sqrt{n}\\)</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Uitkomst</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">\\(\\sigma\\) = \\(10\\) en \\(n = 100\\)</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">\\(10 : 10\\)</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">\\(1\\)</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">\\(\\sigma\\) = \\(15\\) en \\(n = 225\\)</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">\\(15 : 15\\)</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">\\(1\\)</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">\\(p = 0{,}5\\) en \\(n = 100\\)</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">\\(\\sqrt{\\dfrac{0{,}5 \\cdot 0{,}5}{100}}\\)</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">\\(0{,}05\\)</td></tr></table>"
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Gegeven</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">\\(\\sigma : \\sqrt{n}\\)</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Uitkomst</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">\\(\\sigma = 10\\) en \\(n = 100\\)</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">\\(10 : 10\\)</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">\\(1\\)</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">\\(\\sigma = 15\\) en \\(n = 225\\)</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">\\(15 : 15\\)</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">\\(1\\)</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">\\(p = 0{,}5\\) en \\(n = 100\\)</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">\\(\\sqrt{\\dfrac{0{,}5 \\cdot 0{,}5}{100}}\\)</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">\\(0{,}05\\)</td></tr></table>"
     },
     {
      "soort": "weetje",
@@ -100,8 +100,8 @@
   "Populatie = de hele groep, steekproef = het deel dat je onderzoekt. \\(\\mu\\), \\(\\sigma\\) en \\(p\\) horen bij de populatie; \\(\\bar{x}\\), s en \\(p\\) met een dakje bij de steekproef.",
   "Aselect betekent dat iedereen dezelfde kans heeft om gekozen te worden; representatief betekent een goede afspiegeling.",
   "Een kleine aselecte steekproef verslaat een grote die je zelf uitkiest.",
-  "Steekproefgemiddelde: N(\\(\\mu\\); \\(\\sigma\\) / \\(\\sqrt{n}\\)), op voorwaarde dat \\(n\\) minstens dertig is.",
-  "Steekproefproportie: standaardafwijking \\(\\sqrt{p}\\)\\((1 - p)\\)/\\(n\\), op drie voorwaarden: \\(n \\geq 30\\), \\(n \\cdot p \\geq 10\\) en \\(n \\cdot (1 - p) \\geq 10\\).",
+  "Steekproefgemiddelde: N(\\(\\mu\\); \\(\\sigma / \\sqrt{n}\\)), op voorwaarde dat \\(n\\) minstens dertig is.",
+  "Steekproefproportie: standaardafwijking \\(\\sqrt{\\dfrac{p \\cdot (1 - p)}{n}}\\), op drie voorwaarden: \\(n \\geq 30\\), \\(n \\cdot p \\geq 10\\) en \\(n \\cdot (1 - p) \\geq 10\\).",
   "Vier keer meer metingen halveert de spreiding. De grootte van de populatie telt niet mee."
  ]
 }

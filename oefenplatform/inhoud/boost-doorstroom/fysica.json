@@ -97,7 +97,7 @@
           "vraag": "Welke grootheden worden met hun eigen symbool genoteerd? Kruis alles aan wat juist is.",
           "opties": [
             "massa met m",
-            "tijdsduur met Δt",
+            "tijdsduur met \\(\\Delta t\\)",
             "kracht met k",
             "druk met d"
           ],
@@ -105,7 +105,7 @@
             0,
             1
           ],
-          "uitleg": "De massa krijgt m en een tijdsduur krijgt Δt. Kracht krijgt F, en k is het symbool van de veerconstante. Druk krijgt p."
+          "uitleg": "De massa krijgt m en een tijdsduur krijgt \\(\\Delta t\\). Kracht krijgt F, en k is het symbool van de veerconstante. Druk krijgt p."
         },
         {
           "type": "meerkeuze",
@@ -292,7 +292,7 @@
           "opties": [
             "\\(A = F / p\\)",
             "\\(A = p / F\\)",
-            "\\(A = p\\) . F",
+            "\\(A = p \\cdot F\\)",
             "\\(A = F\\) \\(- p\\)"
           ],
           "antwoord": 0,
@@ -387,7 +387,7 @@
         },
         {
           "type": "waarofniet",
-          "vraag": "Bij een kwadratisch verband tussen v en Ek wordt Ek vier keer zo groot als v verdubbelt.",
+          "vraag": "Bij een kwadratisch verband tussen v en \\(E_{k}\\) wordt \\(E_{k}\\) vier keer zo groot als v verdubbelt.",
           "antwoord": true,
           "uitleg": "In \\(E_{k} = m \\cdot v^{2} / 2\\) staat de snelheid in het kwadraat. Twee keer zo snel geeft dus vier keer zoveel kinetische energie."
         },
@@ -419,7 +419,7 @@
             "0,045 m",
             "0.045"
           ],
-          "uitleg": "Milli is een duizendste, dus \\(45\\) mm = \\(45\\) / \\(1000\\) \\(m = 0{,}045\\) m."
+          "uitleg": "Milli is een duizendste, dus \\(45\\) mm = \\(45 / 1000\\) \\(m = 0{,}045\\) m."
         },
         {
           "type": "invultekst",
@@ -448,7 +448,7 @@
             "er is geen verschil, enkel een ander symbool"
           ],
           "antwoord": 0,
-          "uitleg": "De verplaatsing Δx is het verschil tussen de eindpositie en de beginpositie. De afgelegde weg Δs is de hele weg die je echt gelopen hebt."
+          "uitleg": "De verplaatsing \\(\\Delta x\\) is het verschil tussen de eindpositie en de beginpositie. De afgelegde weg \\(\\Delta s\\) is de hele weg die je echt gelopen hebt."
         },
         {
           "type": "meerkeuze",
@@ -502,7 +502,7 @@
             "\\(50\\) km/h"
           ],
           "antwoord": 0,
-          "uitleg": "Met vg = Δx / Δt krijg je \\(150\\) km / \\(2{,}0\\) \\(h = 75\\) km/h. Dat zegt niets over de snelheid op één bepaald ogenblik."
+          "uitleg": "Met \\(v_{g} = \\Delta x / \\Delta t\\) krijg je \\(150\\) km / \\(2{,}0\\) \\(h = 75\\) km/h. Dat zegt niets over de snelheid op één bepaald ogenblik."
         },
         {
           "type": "meerkeuze",
@@ -589,7 +589,7 @@
           "type": "waarofniet",
           "vraag": "Een verplaatsing kan negatief zijn.",
           "antwoord": true,
-          "uitleg": "Beweegt een voorwerp tegen de zin van de x-as in, dan is Δx negatief. Het teken hoort bij de zin van de beweging."
+          "uitleg": "Beweegt een voorwerp tegen de zin van de x-as in, dan is \\(\\Delta x\\) negatief. Het teken hoort bij de zin van de beweging."
         },
         {
           "type": "waarofniet",
@@ -601,7 +601,7 @@
           "type": "waarofniet",
           "vraag": "Een voorwerp in rust heeft een snelheid van nul.",
           "antwoord": true,
-          "uitleg": "In rust verandert de positie niet, dus Δx is nul en daarmee ook de snelheid."
+          "uitleg": "In rust verandert de positie niet, dus \\(\\Delta x\\) is nul en daarmee ook de snelheid."
         },
         {
           "type": "waarofniet",
@@ -617,7 +617,7 @@
             "delta x",
             "dx"
           ],
-          "uitleg": "Δx, met de Griekse letter delta voor een verandering. De afgelegde weg krijgt Δs."
+          "uitleg": "\\(\\Delta x\\), met de Griekse letter delta voor een verandering. De afgelegde weg krijgt \\(\\Delta s\\)."
         },
         {
           "type": "invultekst",
@@ -645,7 +645,7 @@
             "120",
             "120 km/h"
           ],
-          "uitleg": "vg = \\(60\\) km / \\(0{,}5\\) \\(h = 120\\) km/h."
+          "uitleg": "\\(v_{g} = 60\\) km / \\(0{,}5\\) \\(h = 120\\) km/h."
         }
       ]
     },
@@ -704,7 +704,7 @@
         },
         {
           "type": "meerkeuze",
-          "vraag": "De positiefunctie van een beweging is \\(x = 10 + 3\\) . t, met x in meter en t in seconde. Wat is de snelheid?",
+          "vraag": "De positiefunctie van een beweging is \\(x = 10 + 3 \\cdot t\\), met x in meter en t in seconde. Wat is de snelheid?",
           "opties": [
             "\\(3\\) m/s",
             "\\(10\\) m/s",
@@ -716,7 +716,7 @@
         },
         {
           "type": "meerkeuze",
-          "vraag": "De positiefunctie is \\(x = 40 - 5\\) . t, met x in meter en t in seconde. Welke uitspraken zijn juist? Kruis alles aan wat juist is.",
+          "vraag": "De positiefunctie is \\(x = 40 - 5 \\cdot t\\), met x in meter en t in seconde. Welke uitspraken zijn juist? Kruis alles aan wat juist is.",
           "opties": [
             "het voorwerp vertrekt op \\(40\\) m",
             "het voorwerp beweegt tegen de zin van de x-as",
@@ -731,7 +731,7 @@
         },
         {
           "type": "meerkeuze",
-          "vraag": "Een voorwerp heeft een positiefunctie \\(x = 40 - 5\\) . t, met x in meter en t in seconde. Op welk tijdstip is het in de oorsprong?",
+          "vraag": "Een voorwerp heeft een positiefunctie \\(x = 40 - 5 \\cdot t\\), met x in meter en t in seconde. Op welk tijdstip is het in de oorsprong?",
           "opties": [
             "na \\(8{,}0\\) s",
             "na \\(5{,}0\\) s",
@@ -802,7 +802,7 @@
           "type": "waarofniet",
           "vraag": "Een rechte in een x(t)-grafiek die naar beneden loopt, hoort bij een negatieve snelheid.",
           "antwoord": true,
-          "uitleg": "De positie wordt kleiner, dus Δx is negatief en de snelheid ook. Het voorwerp gaat tegen de zin van de x-as in."
+          "uitleg": "De positie wordt kleiner, dus \\(\\Delta x\\) is negatief en de snelheid ook. Het voorwerp gaat tegen de zin van de x-as in."
         },
         {
           "type": "waarofniet",
@@ -843,13 +843,13 @@
         },
         {
           "type": "invultekst",
-          "vraag": "In de positiefunctie \\(x = x_{0} + v \\cdot \\left(t - t_{0}\\right)\\): wat stelt x₀ voor? Schrijf het woord.",
+          "vraag": "In de positiefunctie \\(x = x_{0} + v \\cdot \\left(t - t_{0}\\right)\\): wat stelt \\(x_{0}\\) voor? Schrijf het woord.",
           "antwoord": [
             "beginpositie",
             "de beginpositie",
             "startpositie"
           ],
-          "uitleg": "De beginpositie, dus waar het voorwerp zich bevindt op het tijdstip t₀."
+          "uitleg": "De beginpositie, dus waar het voorwerp zich bevindt op het tijdstip \\(t_{0}\\)."
         },
         {
           "type": "invultekst",
@@ -901,7 +901,7 @@
             "de snelheid is negatief"
           ],
           "antwoord": 0,
-          "uitleg": "De snelheid is positief maar wordt kleiner, dus Δv is negatief. Snelheid en versnelling hebben dan een tegengestelde zin."
+          "uitleg": "De snelheid is positief maar wordt kleiner, dus \\(\\Delta v\\) is negatief. Snelheid en versnelling hebben dan een tegengestelde zin."
         },
         {
           "type": "meerkeuze",
@@ -952,7 +952,7 @@
             "\\(20\\ \\text{m/s}^{2}\\)"
           ],
           "antwoord": 0,
-          "uitleg": "ag = Δv / Δt = \\(20\\) / \\(5{,}0 = 4{,}0\\ \\text{m/s}^{2}\\)."
+          "uitleg": "\\(a_{g} = \\Delta v / \\Delta t = 20 / 5{,}0 = 4{,}0\\ \\text{m/s}^{2}\\)."
         },
         {
           "type": "meerkeuze",
@@ -964,7 +964,7 @@
             "\\(-20\\ \\text{m/s}^{2}\\)"
           ],
           "antwoord": 0,
-          "uitleg": "\\(\\Delta v = 10 - 30 = -20\\) m/s en \\(\\Delta t = 8{,}0\\) s, dus ag = \\(-20\\) / \\(8{,}0 = -2{,}5\\ \\text{m/s}^{2}\\). Het minteken hoort bij het vertragen."
+          "uitleg": "\\(\\Delta v = 10 - 30 = -20\\) m/s en \\(\\Delta t = 8{,}0\\) s, dus \\(a_{g} = -20 / 8{,}0 = -2{,}5\\ \\text{m/s}^{2}\\). Het minteken hoort bij het vertragen."
         },
         {
           "type": "meerkeuze",
@@ -1053,7 +1053,7 @@
             "2,0",
             "2 m/s²"
           ],
-          "uitleg": "\\(\\Delta v = 14 - 4{,}0 = 10\\) m/s, dus ag = \\(10\\) / \\(5{,}0 = 2{,}0\\ \\text{m/s}^{2}\\)."
+          "uitleg": "\\(\\Delta v = 14 - 4{,}0 = 10\\) m/s, dus \\(a_{g} = 10 / 5{,}0 = 2{,}0\\ \\text{m/s}^{2}\\)."
         },
         {
           "type": "invultekst",
@@ -1063,7 +1063,7 @@
             "a_g",
             "a g"
           ],
-          "uitleg": "ag, met een kleine g eronder voor gemiddeld. De ogenblikkelijke versnelling krijgt gewoon a."
+          "uitleg": "\\(a_{g}\\), met een kleine g eronder voor gemiddeld. De ogenblikkelijke versnelling krijgt gewoon a."
         },
         {
           "type": "invultekst",
@@ -1482,7 +1482,7 @@
           "antwoord": [
             "F"
           ],
-          "uitleg": "F, van het Latijnse woord voor kracht. De zwaartekracht krijgt Fz, de veerkracht Fv."
+          "uitleg": "F, van het Latijnse woord voor kracht. De zwaartekracht krijgt \\(F_{z}\\), de veerkracht \\(F_{v}\\)."
         },
         {
           "type": "invultekst",
@@ -1492,7 +1492,7 @@
             "de normaalkracht",
             "normaal"
           ],
-          "uitleg": "De normaalkracht, met symbool Fn. Normaal betekent hier loodrecht."
+          "uitleg": "De normaalkracht, met symbool \\(F_{n}\\). Normaal betekent hier loodrecht."
         },
         {
           "type": "invultekst",
@@ -1601,7 +1601,7 @@
           "type": "meerkeuze",
           "vraag": "Welke formule geeft de statische wrijvingskracht?",
           "opties": [
-            "\\(F_{w} = \\mu\\) . Fn",
+            "\\(F_{w} = \\mu \\cdot F_{n}\\)",
             "\\(F_{w} = \\mu / F_{n}\\)",
             "\\(F_{w} = \\mu \\cdot m\\)",
             "\\(F_{w} = F_{n} / \\mu\\)"
@@ -1623,7 +1623,7 @@
         },
         {
           "type": "meerkeuze",
-          "vraag": "Welke uitspraken over de wrijvingscoëfficiënt μ zijn juist? Kruis alles aan wat juist is.",
+          "vraag": "Welke uitspraken over de wrijvingscoëfficiënt \\(\\mu\\) zijn juist? Kruis alles aan wat juist is.",
           "opties": [
             "ze heeft geen eenheid",
             "ze hangt af van de twee materialen die over elkaar schuiven",
@@ -1634,7 +1634,7 @@
             0,
             1
           ],
-          "uitleg": "μ is een verhouding van twee krachten, dus een getal zonder eenheid. Ze hangt af van het soort oppervlakken, niet van de massa: die zit al in de normaalkracht."
+          "uitleg": "\\(\\mu\\) is een verhouding van twee krachten, dus een getal zonder eenheid. Ze hangt af van het soort oppervlakken, niet van de massa: die zit al in de normaalkracht."
         },
         {
           "type": "meerkeuze",
@@ -1667,7 +1667,7 @@
           "type": "waarofniet",
           "vraag": "Een zwaarder voorwerp op dezelfde vloer ondervindt een grotere wrijvingskracht.",
           "antwoord": true,
-          "uitleg": "De normaalkracht is groter, en \\(F_{w} = \\mu\\) . Fn. De wrijvingscoëfficiënt blijft wel dezelfde, want de materialen veranderen niet."
+          "uitleg": "De normaalkracht is groter, en \\(F_{w} = \\mu \\cdot F_{n}\\). De wrijvingscoëfficiënt blijft wel dezelfde, want de materialen veranderen niet."
         },
         {
           "type": "waarofniet",
@@ -1730,10 +1730,10 @@
           "type": "meerkeuze",
           "vraag": "Welke formule geeft de archimedeskracht op een voorwerp in een vloeistof?",
           "opties": [
-            "FA = \\(\\rho \\cdot g\\) . Vond",
-            "FA = m . g",
-            "FA = \\(\\rho \\cdot g \\cdot h\\)",
-            "FA = ρ . Vond"
+            "\\(F_{A} = \\rho \\cdot g \\cdot V_{\\text{ond}}\\)",
+            "\\(F_{A} = m \\cdot g\\)",
+            "\\(F_{A} = \\rho \\cdot g \\cdot h\\)",
+            "\\(F_{A} = \\rho \\cdot V_{\\text{ond}}\\)"
           ],
           "antwoord": 0,
           "uitleg": "De massadichtheid van de vloeistof maal de zwaarteveldsterkte maal het ondergedompelde volume. \\(\\rho \\cdot g \\cdot h\\) is de formule voor de hydrostatische druk."
@@ -1799,7 +1799,7 @@
             "\\(1962\\) N"
           ],
           "antwoord": 0,
-          "uitleg": "FA = \\(1000 \\times 9{,}81 \\times 0{,}0020 = 19{,}62\\) N, dus \\(19{,}6\\) N."
+          "uitleg": "\\(F_{A} = 1000 \\times 9{,}81 \\times 0{,}0020 = 19{,}62\\) N, dus \\(19{,}6\\) N."
         },
         {
           "type": "meerkeuze",
@@ -1838,7 +1838,7 @@
             0,
             1
           ],
-          "uitleg": "Een grotere ρ geeft bij hetzelfde volume meer archimedeskracht, dus het voorwerp hoeft minder diep te zakken om zijn gewicht te dragen. De zwaartekracht hangt enkel van de massa af en verandert niet."
+          "uitleg": "Een grotere \\(\\rho\\) geeft bij hetzelfde volume meer archimedeskracht, dus het voorwerp hoeft minder diep te zakken om zijn gewicht te dragen. De zwaartekracht hangt enkel van de massa af en verandert niet."
         },
         {
           "type": "meerkeuze",
@@ -1892,7 +1892,7 @@
           "type": "waarofniet",
           "vraag": "Op de maan zou de archimedeskracht in hetzelfde bad water kleiner zijn.",
           "antwoord": true,
-          "uitleg": "In FA = \\(\\rho \\cdot g\\).Vond staat g, en die is op de maan ongeveer zes keer kleiner. De zwaartekracht op het voorwerp wordt wel even veel kleiner, dus het drijft nog altijd even diep."
+          "uitleg": "In \\(F_{A} = \\rho \\cdot g \\cdot V_{\\text{ond}}\\) staat g, en die is op de maan ongeveer zes keer kleiner. De zwaartekracht op het voorwerp wordt wel even veel kleiner, dus het drijft nog altijd even diep."
         },
         {
           "type": "invultekst",
@@ -1912,7 +1912,7 @@
             "rho",
             "p"
           ],
-          "uitleg": "De Griekse letter ρ (rho), met als eenheid kg/\\(\\text{m}^{3}\\)."
+          "uitleg": "De Griekse letter \\(\\rho\\) (rho), met als eenheid kg/\\(\\text{m}^{3}\\)."
         },
         {
           "type": "invultekst",
@@ -1931,7 +1931,7 @@
             "49 N",
             "49,05"
           ],
-          "uitleg": "FA = \\(1000 \\times 9{,}81 \\times 0{,}0050 = 49{,}05\\) N, dus ongeveer \\(49\\) N."
+          "uitleg": "\\(F_{A} = 1000 \\times 9{,}81 \\times 0{,}0050 = 49{,}05\\) N, dus ongeveer \\(49\\) N."
         }
       ]
     },
@@ -1944,13 +1944,13 @@
           "type": "meerkeuze",
           "vraag": "Welke formule geeft het moment van een kracht?",
           "opties": [
-            "M = F . d . sin α",
+            "\\(M = F \\cdot d \\cdot \\sin \\alpha\\)",
             "\\(M = F \\cdot d\\)",
             "\\(M = F / d\\)",
-            "M = F . d . cos α"
+            "\\(M = F \\cdot d \\cdot \\cos \\alpha\\)"
           ],
           "antwoord": 0,
-          "uitleg": "De kracht maal de krachtarm maal de sinus van de hoek. Staat de kracht loodrecht op de arm, dan is sin α gelijk aan \\(1\\) en blijft \\(M = F \\cdot d\\) over."
+          "uitleg": "De kracht maal de krachtarm maal de sinus van de hoek. Staat de kracht loodrecht op de arm, dan is \\(\\sin \\alpha\\) gelijk aan \\(1\\) en blijft \\(M = F \\cdot d\\) over."
         },
         {
           "type": "meerkeuze",
@@ -1986,7 +1986,7 @@
             "\\(0{,}013\\) Nm"
           ],
           "antwoord": 0,
-          "uitleg": "M = \\(40\\) . \\(0{,}50\\) . sin \\(90^{\\circ} = 20\\) Nm, want sin \\(90^{\\circ}\\) is \\(1\\)."
+          "uitleg": "\\(M = 40 \\times 0{,}50 \\times \\sin 90^{\\circ} = 20\\) Nm, want \\(\\sin 90^{\\circ}\\) is \\(1\\)."
         },
         {
           "type": "meerkeuze",
@@ -1998,7 +1998,7 @@
             "het draaipunt verschuift naar de moer toe"
           ],
           "antwoord": 0,
-          "uitleg": "M = F . d . sin α: verdubbel je d, dan verdubbelt het moment bij dezelfde kracht. Daarom verlengt een monteur soms een sleutel met een buis."
+          "uitleg": "\\(M = F \\cdot d \\cdot \\sin \\alpha\\): verdubbel je d, dan verdubbelt het moment bij dezelfde kracht. Daarom verlengt een monteur soms een sleutel met een buis."
         },
         {
           "type": "meerkeuze",
@@ -2025,7 +2025,7 @@
             "\\(1{,}2\\) m"
           ],
           "antwoord": 0,
-          "uitleg": "De momenten moeten gelijk zijn: \\(30\\) . \\(1{,}2 = 36\\) . d, dus \\(d = 36 / 36 = 1{,}0\\) m. Het zwaardere kind zit dichter bij het draaipunt."
+          "uitleg": "De momenten moeten gelijk zijn: \\(30 \\times 1{,}2 = 36 \\cdot d\\), dus \\(d = 36 / 36 = 1{,}0\\) m. Het zwaardere kind zit dichter bij het draaipunt."
         },
         {
           "type": "meerkeuze",
@@ -2037,7 +2037,7 @@
             "\\(48\\) Nm"
           ],
           "antwoord": 0,
-          "uitleg": "M = \\(60\\) . \\(0{,}40\\) . sin \\(30^{\\circ} = 60 \\cdot 0{,}40 \\times 0{,}50 = 12\\) Nm."
+          "uitleg": "\\(M = 60 \\times 0{,}40 \\times \\sin 30^{\\circ} = 60 \\cdot 0{,}40 \\times 0{,}50 = 12\\) Nm."
         },
         {
           "type": "meerkeuze",
@@ -2049,7 +2049,7 @@
             "\\(180^{\\circ}\\)"
           ],
           "antwoord": 0,
-          "uitleg": "Bij \\(90^{\\circ}\\) is sin α gelijk aan \\(1\\), dus is het moment maximaal. Bij \\(0^{\\circ}\\) of \\(180^{\\circ}\\) werkt de kracht langs de arm en is het moment nul."
+          "uitleg": "Bij \\(90^{\\circ}\\) is \\(\\sin \\alpha\\) gelijk aan \\(1\\), dus is het moment maximaal. Bij \\(0^{\\circ}\\) of \\(180^{\\circ}\\) werkt de kracht langs de arm en is het moment nul."
         },
         {
           "type": "meerkeuze",
@@ -2158,7 +2158,7 @@
           "opties": [
             "\\(p = F / A\\)",
             "\\(p = A / F\\)",
-            "\\(p = F\\) . A",
+            "\\(p = F \\cdot A\\)",
             "\\(p = F + A\\)"
           ],
           "antwoord": 0,
@@ -2369,7 +2369,7 @@
           "vraag": "Welke formule geeft de hydrostatische druk in een vloeistof?",
           "opties": [
             "\\(p = \\rho \\cdot g \\cdot h\\)",
-            "\\(p = \\rho \\cdot g\\) . V",
+            "\\(p = \\rho \\cdot g \\cdot V\\)",
             "\\(p = F / A\\)",
             "\\(p = \\rho / h\\)"
           ],
@@ -2389,7 +2389,7 @@
             0,
             1
           ],
-          "uitleg": "Enkel ρ, g en h staan in de formule. Op dezelfde diepte is de druk in een smal buisje even groot als in een breed bad."
+          "uitleg": "Enkel \\(\\rho\\), g en h staan in de formule. Op dezelfde diepte is de druk in een smal buisje even groot als in een breed bad."
         },
         {
           "type": "meerkeuze",
@@ -2449,7 +2449,7 @@
             "de kleine zuiger beweegt veel sneller dan de grote"
           ],
           "antwoord": 0,
-          "uitleg": "Uit \\(p = F / A\\) volgt \\(F = p\\) . A. Bij dezelfde druk levert de tien keer grotere zuiger tien keer meer kracht, maar hij komt ook tien keer minder ver."
+          "uitleg": "Uit \\(p = F / A\\) volgt \\(F = p \\cdot A\\). Bij dezelfde druk levert de tien keer grotere zuiger tien keer meer kracht, maar hij komt ook tien keer minder ver."
         },
         {
           "type": "meerkeuze",
@@ -2476,7 +2476,7 @@
             0,
             1
           ],
-          "uitleg": "Zeewater heeft een grotere ρ, en ρ staat in de formule. De diepte telt nog altijd mee, en de luchtdruk boven de zee is dezelfde."
+          "uitleg": "Zeewater heeft een grotere \\(\\rho\\), en \\(\\rho\\) staat in de formule. De diepte telt nog altijd mee, en de luchtdruk boven de zee is dezelfde."
         },
         {
           "type": "meerkeuze",
@@ -2693,7 +2693,7 @@
             "kracht, oppervlakte, volume en warmte"
           ],
           "antwoord": 0,
-          "uitleg": "p, V, T en n. Samen staan ze in de ideale gaswet p.\\(V = n\\).R.T."
+          "uitleg": "p, V, T en n. Samen staan ze in de ideale gaswet \\(p \\cdot V = n \\cdot R \\cdot T\\)."
         },
         {
           "type": "meerkeuze",
@@ -2741,7 +2741,7 @@
           "type": "waarofniet",
           "vraag": "De druk van een gas hangt niet af van het aantal deeltjes in het vat.",
           "antwoord": false,
-          "uitleg": "In p.\\(V = n\\).R.T staat n. Meer deeltjes in hetzelfde volume bij dezelfde temperatuur geeft een grotere druk, zoals bij het oppompen van een band."
+          "uitleg": "In \\(p \\cdot V = n \\cdot R \\cdot T\\) staat n. Meer deeltjes in hetzelfde volume bij dezelfde temperatuur geeft een grotere druk, zoals bij het oppompen van een band."
         },
         {
           "type": "waarofniet",
@@ -2784,7 +2784,7 @@
           "antwoord": [
             "n"
           ],
-          "uitleg": "n, met als eenheid de mol. Die staat in de ideale gaswet p.\\(V = n\\).R.T."
+          "uitleg": "n, met als eenheid de mol. Die staat in de ideale gaswet \\(p \\cdot V = n \\cdot R \\cdot T\\)."
         }
       ]
     },
@@ -2803,7 +2803,7 @@
             "de energie"
           ],
           "antwoord": 0,
-          "uitleg": "Iso betekent gelijk en therm hoort bij warmte, dus de temperatuur blijft gelijk. Dan geldt p . \\(V = c\\)onstant."
+          "uitleg": "Iso betekent gelijk en therm hoort bij warmte, dus de temperatuur blijft gelijk. Dan geldt \\(p \\cdot V = \\text{constant}\\)."
         },
         {
           "type": "meerkeuze",
@@ -2815,7 +2815,7 @@
             "de massa van het vat"
           ],
           "antwoord": 0,
-          "uitleg": "Baar hoort bij druk, dus de druk blijft gelijk. Dan geldt \\(V / T = c\\)onstant."
+          "uitleg": "Baar hoort bij druk, dus de druk blijft gelijk. Dan geldt \\(V / T = \\text{constant}\\)."
         },
         {
           "type": "meerkeuze",
@@ -2827,7 +2827,7 @@
             "de stofhoeveelheid en de druk"
           ],
           "antwoord": 0,
-          "uitleg": "Choor hoort bij ruimte, dus het volume blijft gelijk. Dan geldt \\(p / T = c\\)onstant."
+          "uitleg": "Choor hoort bij ruimte, dus het volume blijft gelijk. Dan geldt \\(p / T = \\text{constant}\\)."
         },
         {
           "type": "meerkeuze",
@@ -2869,13 +2869,13 @@
           "type": "meerkeuze",
           "vraag": "Welke formule is de ideale gaswet?",
           "opties": [
-            "p . \\(V = n\\) . R . T",
-            "p . \\(V = c\\)onstant",
-            "\\(p / T = c\\)onstant",
+            "\\(p \\cdot V = n \\cdot R \\cdot T\\)",
+            "\\(p \\cdot V = \\text{constant}\\)",
+            "\\(p / T = \\text{constant}\\)",
             "\\(p = \\rho \\cdot g \\cdot h\\)"
           ],
           "antwoord": 0,
-          "uitleg": "p.\\(V = n\\).R.T, met \\(R = 8{,}31\\) J/(mol.K). De andere vormen gelden enkel voor een vaste hoeveelheid gas met één grootheid constant."
+          "uitleg": "\\(p \\cdot V = n \\cdot R \\cdot T\\), met \\(R = 8{,}31\\) J/(mol.K). De andere vormen gelden enkel voor een vaste hoeveelheid gas met één grootheid constant."
         },
         {
           "type": "meerkeuze",
@@ -2903,7 +2903,7 @@
         },
         {
           "type": "meerkeuze",
-          "vraag": "Welke uitspraken over de algemene gaswet p.\\(V / T = c\\)onstant zijn juist? Kruis alles aan wat juist is.",
+          "vraag": "Welke uitspraken over de algemene gaswet \\(p \\cdot V / T = \\text{constant}\\) zijn juist? Kruis alles aan wat juist is.",
           "opties": [
             "ze geldt voor een vaste hoeveelheid gas",
             "de temperatuur moet in kelvin staan",
@@ -2929,7 +2929,7 @@
             0,
             1
           ],
-          "uitleg": "\\(2{,}0 \\times 5{,}0 = 10\\) en \\(4{,}0 \\times 2{,}5 = 10\\), dus p.V blijft gelijk. Volgens p.\\(V / T = c\\)onstant blijft T dan ook gelijk: het is een isotherm proces."
+          "uitleg": "\\(2{,}0 \\times 5{,}0 = 10\\) en \\(4{,}0 \\times 2{,}5 = 10\\), dus p.V blijft gelijk. Volgens \\(p \\cdot V / T = \\text{constant}\\) blijft T dan ook gelijk: het is een isotherm proces."
         },
         {
           "type": "waarofniet",
@@ -2959,7 +2959,7 @@
           "type": "waarofniet",
           "vraag": "Je kan een p(V)-grafiek omzetten naar een p(T)-grafiek als je weet welke grootheid constant gehouden werd.",
           "antwoord": true,
-          "uitleg": "Met p.\\(V / T = c\\)onstant reken je elk punt om. Je moet wel weten of de temperatuur, de druk of het volume vastgehouden werd."
+          "uitleg": "Met \\(p \\cdot V / T = \\text{constant}\\) reken je elk punt om. Je moet wel weten of de temperatuur, de druk of het volume vastgehouden werd."
         },
         {
           "type": "invultekst",
@@ -2969,7 +2969,7 @@
             "een isotherm proces",
             "isothermisch"
           ],
-          "uitleg": "Een isotherm proces. Dan geldt p . \\(V = c\\)onstant."
+          "uitleg": "Een isotherm proces. Dan geldt \\(p \\cdot V = \\text{constant}\\)."
         },
         {
           "type": "invultekst",
@@ -2989,7 +2989,7 @@
             "2,0",
             "2 L"
           ],
-          "uitleg": "p.V blijft gelijk: \\(1{,}0 \\times 4{,}0 = 2{,}0\\) . V, dus \\(V = 2{,}0\\) L."
+          "uitleg": "p.V blijft gelijk: \\(1{,}0 \\times 4{,}0 = 2{,}0 \\cdot V\\), dus \\(V = 2{,}0\\) L."
         },
         {
           "type": "invultekst",
@@ -2999,7 +2999,7 @@
             "een isochoor proces",
             "isochoorisch"
           ],
-          "uitleg": "Een isochoor proces. Dan geldt \\(p / T = c\\)onstant."
+          "uitleg": "Een isochoor proces. Dan geldt \\(p / T = \\text{constant}\\)."
         }
       ]
     },
@@ -3012,13 +3012,13 @@
           "type": "meerkeuze",
           "vraag": "Welke formule geeft de arbeid van een kracht?",
           "opties": [
-            "W = F . Δx . cos α",
-            "W = F . Δx . sin α",
+            "\\(W = F \\cdot \\Delta x \\cdot \\cos \\alpha\\)",
+            "\\(W = F \\cdot \\Delta x \\cdot \\sin \\alpha\\)",
             "\\(W = F / \\Delta x\\)",
             "\\(W = F \\cdot \\Delta x^{2}\\)"
           ],
           "antwoord": 0,
-          "uitleg": "De kracht maal de verplaatsing maal de cosinus van de hoek tussen beide. Werkt de kracht in de zin van de verplaatsing, dan is cos α gelijk aan \\(1\\)."
+          "uitleg": "De kracht maal de verplaatsing maal de cosinus van de hoek tussen beide. Werkt de kracht in de zin van de verplaatsing, dan is \\(\\cos \\alpha\\) gelijk aan \\(1\\)."
         },
         {
           "type": "meerkeuze",
@@ -3042,7 +3042,7 @@
             "\\(40\\) J"
           ],
           "antwoord": 0,
-          "uitleg": "W = \\(50\\) . \\(8{,}0\\) . cos \\(0^{\\circ} = 400\\) J, want cos \\(0^{\\circ}\\) is \\(1\\)."
+          "uitleg": "\\(W = 50 \\times 8{,}0 \\times \\cos 0^{\\circ} = 400\\) J, want \\(\\cos 0^{\\circ}\\) is \\(1\\)."
         },
         {
           "type": "meerkeuze",
@@ -3054,7 +3054,7 @@
             "dat hangt van de massa af"
           ],
           "antwoord": 0,
-          "uitleg": "De hoek tussen de kracht en de verplaatsing is \\(180^{\\circ}\\), en cos \\(180^{\\circ}\\) is \\(-1\\). De wrijving haalt dus energie uit de beweging."
+          "uitleg": "De hoek tussen de kracht en de verplaatsing is \\(180^{\\circ}\\), en \\(\\cos 180^{\\circ}\\) is \\(-1\\). De wrijving haalt dus energie uit de beweging."
         },
         {
           "type": "meerkeuze",
@@ -3066,7 +3066,7 @@
             "evenveel als de zwaartekracht"
           ],
           "antwoord": 0,
-          "uitleg": "De kracht is verticaal en de verplaatsing horizontaal, dus de hoek is \\(90^{\\circ}\\) en cos \\(90^{\\circ}\\) is nul. De arbeid is dan nul, al voelt het zwaar aan."
+          "uitleg": "De kracht is verticaal en de verplaatsing horizontaal, dus de hoek is \\(90^{\\circ}\\) en \\(\\cos 90^{\\circ}\\) is nul. De arbeid is dan nul, al voelt het zwaar aan."
         },
         {
           "type": "meerkeuze",
@@ -3075,7 +3075,7 @@
             "\\(E_{k} = m \\cdot v^{2} / 2\\)",
             "\\(E_{k} = m \\cdot v / 2\\)",
             "\\(E_{k} = m \\cdot g \\cdot h\\)",
-            "\\(E_{k} = k\\) . Δ\\(\\text{l}^{2}\\) / \\(2\\)"
+            "\\(E_{k} = k \\cdot \\Delta l^{2} / 2\\)"
           ],
           "antwoord": 0,
           "uitleg": "De halve massa maal het kwadraat van de snelheid. Twee keer zo snel geeft dus vier keer zoveel kinetische energie."
@@ -3102,16 +3102,16 @@
             "\\(1470\\) J"
           ],
           "antwoord": 0,
-          "uitleg": "Ep,gr = m . g . h = \\(5{,}0\\) . \\(9{,}81\\) . \\(3{,}0 = 147{,}15\\) J, dus ongeveer \\(147\\) J."
+          "uitleg": "\\(E_{p,gr} = m \\cdot g \\cdot h = 5{,}0 \\times 9{,}81 \\times 3{,}0 = 147{,}15\\) J, dus ongeveer \\(147\\) J."
         },
         {
           "type": "meerkeuze",
           "vraag": "Welke formule geeft de potentiële elastische energie van een ingedrukte veer?",
           "opties": [
-            "Ep,el = k . Δ\\(\\text{l}^{2}\\) / \\(2\\)",
-            "Ep,el = k . Δl / \\(2\\)",
-            "Ep,el = k . Δl",
-            "Ep,el = m . g . Δl"
+            "\\(E_{p,el} = k \\cdot \\Delta l^{2} / 2\\)",
+            "\\(E_{p,el} = k \\cdot \\Delta l / 2\\)",
+            "\\(E_{p,el} = k \\cdot \\Delta l\\)",
+            "\\(E_{p,el} = m \\cdot g \\cdot \\Delta l\\)"
           ],
           "antwoord": 0,
           "uitleg": "De veerconstante maal het kwadraat van de lengteverandering, gedeeld door twee."
@@ -3150,13 +3150,13 @@
           "type": "waarofniet",
           "vraag": "Een kracht die loodrecht op de verplaatsing staat, verricht toch arbeid.",
           "antwoord": false,
-          "uitleg": "cos \\(90^{\\circ}\\) is nul, dus W is nul. De normaalkracht op een voorwerp dat over een vlakke vloer schuift, verricht dus geen arbeid."
+          "uitleg": "\\(\\cos 90^{\\circ}\\) is nul, dus W is nul. De normaalkracht op een voorwerp dat over een vlakke vloer schuift, verricht dus geen arbeid."
         },
         {
           "type": "waarofniet",
           "vraag": "Een voorwerp dat stilstaat, kan toch potentiële energie hebben.",
           "antwoord": true,
-          "uitleg": "Een steen bovenop een muur heeft Ep,gr door zijn hoogte, ook al beweegt hij niet. Enkel de kinetische energie is dan nul."
+          "uitleg": "Een steen bovenop een muur heeft \\(E_{p,gr}\\) door zijn hoogte, ook al beweegt hij niet. Enkel de kinetische energie is dan nul."
         },
         {
           "type": "waarofniet",
@@ -3211,7 +3211,7 @@
             "196 J",
             "200"
           ],
-          "uitleg": "Ep,gr = \\(2{,}0\\) . \\(9{,}81\\) . \\(10 = 196{,}2\\) J."
+          "uitleg": "\\(E_{p,gr} = 2{,}0 \\times 9{,}81 \\times 10 = 196{,}2\\) J."
         }
       ]
     },
@@ -3248,9 +3248,9 @@
           "type": "meerkeuze",
           "vraag": "Welke formule geeft het vermogen?",
           "opties": [
-            "P = |ΔE| / Δt",
+            "\\(P = |\\Delta E| / \\Delta t\\)",
             "\\(P = \\Delta E \\cdot \\Delta t\\)",
-            "\\(P = \\Delta t\\) / |ΔE|",
+            "\\(P = \\Delta t / |\\Delta E|\\)",
             "\\(P = F \\cdot \\Delta x\\)"
           ],
           "antwoord": 0,
@@ -3272,10 +3272,10 @@
           "type": "meerkeuze",
           "vraag": "Welke formule geeft het rendement?",
           "opties": [
-            "η = Enuttig / Etotaal",
-            "η = Etotaal / Enuttig",
-            "η = Enuttig . Etotaal",
-            "η = Etotaal − Enuttig"
+            "\\(\\eta = E_{\\text{nuttig}} / E_{\\text{totaal}}\\)",
+            "\\(\\eta = E_{\\text{totaal}} / E_{\\text{nuttig}}\\)",
+            "\\(\\eta = E_{\\text{nuttig}} \\cdot E_{\\text{totaal}}\\)",
+            "\\(\\eta = E_{\\text{totaal}} - E_{\\text{nuttig}}\\)"
           ],
           "antwoord": 0,
           "uitleg": "De nuttige energie gedeeld door de totale energie die je erin stopte. Het resultaat is een getal tussen \\(0\\) en \\(1\\), vaak als percentage geschreven."
@@ -3290,7 +3290,7 @@
             "\\(54\\,\\%\\)"
           ],
           "antwoord": 0,
-          "uitleg": "η = \\(9{,}0 / 60 = 0{,}15\\), dus \\(15\\,\\%\\). De overige \\(51\\) J wordt warmte."
+          "uitleg": "\\(\\eta = 9{,}0 / 60 = 0{,}15\\), dus \\(15\\,\\%\\). De overige \\(51\\) J wordt warmte."
         },
         {
           "type": "meerkeuze",
@@ -3302,7 +3302,7 @@
             "\\(43\\,\\%\\)"
           ],
           "antwoord": 0,
-          "uitleg": "De nuttige energie is \\(2000 - 1400 = 600\\) J, dus η = \\(600 / 2000 = 0{,}30\\)."
+          "uitleg": "De nuttige energie is \\(2000 - 1400 = 600\\) J, dus \\(\\eta = 600 / 2000 = 0{,}30\\)."
         },
         {
           "type": "meerkeuze",
@@ -3350,7 +3350,7 @@
           "type": "meerkeuze",
           "vraag": "Wat zegt het arbeid-energietheorema?",
           "opties": [
-            "de arbeid van de resultante is de verandering van de Ek",
+            "de arbeid van de resultante is de verandering van de \\(E_{k}\\)",
             "de arbeid van een kracht is gelijk aan de potentiële energie",
             "de arbeid van de wrijvingskracht is altijd gelijk aan nul",
             "arbeid en vermogen zijn eigenlijk dezelfde grootheid"
@@ -3396,7 +3396,7 @@
             "eta",
             "n"
           ],
-          "uitleg": "De Griekse letter η (eta). Ze heeft geen eenheid, want het is een verhouding."
+          "uitleg": "De Griekse letter \\(\\eta\\) (eta). Ze heeft geen eenheid, want het is een verhouding."
         },
         {
           "type": "invultekst",
@@ -3426,7 +3426,7 @@
             "25 %",
             "25%"
           ],
-          "uitleg": "η = \\(200 / 800 = 0{,}25\\), dus \\(25\\,\\%\\)."
+          "uitleg": "\\(\\eta = 200 / 800 = 0{,}25\\), dus \\(25\\,\\%\\)."
         }
       ]
     },
@@ -3685,7 +3685,7 @@
             "\\(Q = l \\cdot \\Delta T\\)"
           ],
           "antwoord": 0,
-          "uitleg": "De specifieke faseovergangswarmte maal de massa. Er staat geen ΔT in, want de temperatuur verandert tijdens de overgang niet."
+          "uitleg": "De specifieke faseovergangswarmte maal de massa. Er staat geen \\(\\Delta T\\) in, want de temperatuur verandert tijdens de overgang niet."
         },
         {
           "type": "meerkeuze",
@@ -3871,11 +3871,11 @@
           "opties": [
             "\\(R = U / I\\)",
             "\\(R = I / U\\)",
-            "\\(R = U\\) . I",
+            "\\(R = U \\cdot I\\)",
             "\\(R = U + I\\)"
           ],
           "antwoord": 0,
-          "uitleg": "De weerstand is de spanning gedeeld door de stroomsterkte. Je kan ze ook schrijven als \\(U = R\\) . I."
+          "uitleg": "De weerstand is de spanning gedeeld door de stroomsterkte. Je kan ze ook schrijven als \\(U = R \\cdot I\\)."
         },
         {
           "type": "meerkeuze",
@@ -3887,23 +3887,23 @@
             "de watt"
           ],
           "antwoord": 0,
-          "uitleg": "De ohm, met symbool Ω. De volt hoort bij spanning en de ampère bij stroomsterkte."
+          "uitleg": "De ohm, met symbool \\(\\Omega\\). De volt hoort bij spanning en de ampère bij stroomsterkte."
         },
         {
           "type": "meerkeuze",
           "vraag": "Door een lamp staat \\(230\\) V en er loopt \\(0{,}50\\) A. Hoe groot is haar weerstand?",
           "opties": [
-            "\\(460\\) Ω",
-            "\\(115\\) Ω",
-            "\\(0{,}0022\\) Ω",
-            "\\(230\\) Ω"
+            "\\(460\\) \\(\\Omega\\)",
+            "\\(115\\) \\(\\Omega\\)",
+            "\\(0{,}0022\\) \\(\\Omega\\)",
+            "\\(230\\) \\(\\Omega\\)"
           ],
           "antwoord": 0,
-          "uitleg": "\\(R = U / I = 230 / 0{,}50 = 460\\) Ω."
+          "uitleg": "\\(R = U / I = 230 / 0{,}50 = 460\\) \\(\\Omega\\)."
         },
         {
           "type": "meerkeuze",
-          "vraag": "Over een weerstand van \\(25\\) Ω staat \\(5{,}0\\) V. Hoe groot is de stroomsterkte?",
+          "vraag": "Over een weerstand van \\(25\\) \\(\\Omega\\) staat \\(5{,}0\\) V. Hoe groot is de stroomsterkte?",
           "opties": [
             "\\(0{,}20\\) A",
             "\\(5{,}0\\) A",
@@ -3953,16 +3953,16 @@
           "type": "meerkeuze",
           "vraag": "Welke formules geven het elektrisch vermogen van een toestel? Kruis alles aan wat juist is.",
           "opties": [
-            "\\(P = U\\) . I",
-            "P = |ΔE| / Δt",
+            "\\(P = U \\cdot I\\)",
+            "\\(P = |\\Delta E| / \\Delta t\\)",
             "\\(P = U / I\\)",
-            "\\(P = R\\) . I"
+            "\\(P = R \\cdot I\\)"
           ],
           "antwoord": [
             0,
             1
           ],
-          "uitleg": "Spanning maal stroomsterkte geeft het vermogen, en vermogen is ook altijd energie per tijd. \\(U / I\\) is de weerstand en R.I is de spanning."
+          "uitleg": "Spanning maal stroomsterkte geeft het vermogen, en vermogen is ook altijd energie per tijd. \\(U / I\\) is de weerstand en \\(R \\cdot I\\) is de spanning."
         },
         {
           "type": "meerkeuze",
@@ -4007,7 +4007,7 @@
           "type": "waarofniet",
           "vraag": "Bij een vaste weerstand zijn de spanning en de stroomsterkte recht evenredig.",
           "antwoord": true,
-          "uitleg": "Uit \\(U = R\\) . I volgt dat een dubbele spanning een dubbele stroom geeft, zolang R gelijk blijft. In een grafiek geeft dat een rechte door de oorsprong."
+          "uitleg": "Uit \\(U = R \\cdot I\\) volgt dat een dubbele spanning een dubbele stroom geeft, zolang R gelijk blijft. In een grafiek geeft dat een rechte door de oorsprong."
         },
         {
           "type": "waarofniet",
@@ -4106,43 +4106,43 @@
         },
         {
           "type": "meerkeuze",
-          "vraag": "Twee weerstanden van \\(30\\) Ω en \\(60\\) Ω staan in serie. Hoe groot is de substitutieweerstand?",
+          "vraag": "Twee weerstanden van \\(30\\) \\(\\Omega\\) en \\(60\\) \\(\\Omega\\) staan in serie. Hoe groot is de substitutieweerstand?",
           "opties": [
-            "\\(90\\) Ω",
-            "\\(20\\) Ω",
-            "\\(45\\) Ω",
-            "\\(30\\) Ω"
+            "\\(90\\) \\(\\Omega\\)",
+            "\\(20\\) \\(\\Omega\\)",
+            "\\(45\\) \\(\\Omega\\)",
+            "\\(30\\) \\(\\Omega\\)"
           ],
           "antwoord": 0,
-          "uitleg": "In serie tel je de weerstanden op: \\(30 + 60 = 90\\) Ω."
+          "uitleg": "In serie tel je de weerstanden op: \\(30 + 60 = 90\\) \\(\\Omega\\)."
         },
         {
           "type": "meerkeuze",
-          "vraag": "Twee weerstanden van \\(30\\) Ω en \\(60\\) Ω staan parallel. Hoe groot is de substitutieweerstand?",
+          "vraag": "Twee weerstanden van \\(30\\) \\(\\Omega\\) en \\(60\\) \\(\\Omega\\) staan parallel. Hoe groot is de substitutieweerstand?",
           "opties": [
-            "\\(20\\) Ω",
-            "\\(90\\) Ω",
-            "\\(45\\) Ω",
-            "\\(1{,}5\\) Ω"
+            "\\(20\\) \\(\\Omega\\)",
+            "\\(90\\) \\(\\Omega\\)",
+            "\\(45\\) \\(\\Omega\\)",
+            "\\(1{,}5\\) \\(\\Omega\\)"
           ],
           "antwoord": 0,
-          "uitleg": "\\(R_{s} = (\\tfrac{1}{30} + \\tfrac{1}{60})^{-1} = (\\tfrac{3}{60})^{-1} = 20\\) Ω. Parallel geeft altijd minder dan de kleinste van de twee."
+          "uitleg": "\\(R_{s} = (\\tfrac{1}{30} + \\tfrac{1}{60})^{-1} = (\\tfrac{3}{60})^{-1} = 20\\) \\(\\Omega\\). Parallel geeft altijd minder dan de kleinste van de twee."
         },
         {
           "type": "meerkeuze",
-          "vraag": "Drie weerstanden van elk \\(60\\) Ω staan parallel. Hoe groot is de substitutieweerstand?",
+          "vraag": "Drie weerstanden van elk \\(60\\) \\(\\Omega\\) staan parallel. Hoe groot is de substitutieweerstand?",
           "opties": [
-            "\\(20\\) Ω",
-            "\\(180\\) Ω",
-            "\\(60\\) Ω",
-            "\\(30\\) Ω"
+            "\\(20\\) \\(\\Omega\\)",
+            "\\(180\\) \\(\\Omega\\)",
+            "\\(60\\) \\(\\Omega\\)",
+            "\\(30\\) \\(\\Omega\\)"
           ],
           "antwoord": 0,
-          "uitleg": "Bij gelijke weerstanden parallel deel je door hun aantal: \\(60 / 3 = 20\\) Ω."
+          "uitleg": "Bij gelijke weerstanden parallel deel je door hun aantal: \\(60 / 3 = 20\\) \\(\\Omega\\)."
         },
         {
           "type": "meerkeuze",
-          "vraag": "Over een serieschakeling van \\(20\\) Ω en \\(40\\) Ω staat \\(12\\) V. Hoe groot is de stroomsterkte?",
+          "vraag": "Over een serieschakeling van \\(20\\) \\(\\Omega\\) en \\(40\\) \\(\\Omega\\) staat \\(12\\) V. Hoe groot is de stroomsterkte?",
           "opties": [
             "\\(0{,}20\\) A",
             "\\(0{,}60\\) A",
@@ -4150,11 +4150,11 @@
             "\\(2{,}0\\) A"
           ],
           "antwoord": 0,
-          "uitleg": "\\(R_{s} = 20 + 40 = 60\\) Ω, dus \\(I = 12 / 60 = 0{,}20\\) A. Die stroom loopt door beide weerstanden."
+          "uitleg": "\\(R_{s} = 20 + 40 = 60\\) \\(\\Omega\\), dus \\(I = 12 / 60 = 0{,}20\\) A. Die stroom loopt door beide weerstanden."
         },
         {
           "type": "meerkeuze",
-          "vraag": "In de vorige serieschakeling van \\(20\\) Ω en \\(40\\) Ω met \\(0{,}20\\) A: hoe groot is de spanning over de weerstand van \\(40\\) Ω?",
+          "vraag": "In de vorige serieschakeling van \\(20\\) \\(\\Omega\\) en \\(40\\) \\(\\Omega\\) met \\(0{,}20\\) A: hoe groot is de spanning over de weerstand van \\(40\\) \\(\\Omega\\)?",
           "opties": [
             "\\(8{,}0\\) V",
             "\\(4{,}0\\) V",
@@ -4162,7 +4162,7 @@
             "\\(200\\) V"
           ],
           "antwoord": 0,
-          "uitleg": "\\(U = R \\cdot I = 40 \\times 0{,}20 = 8{,}0\\) V. Over de \\(20\\) Ω staat \\(4{,}0\\) V, en samen is dat weer \\(12\\) V."
+          "uitleg": "\\(U = R \\cdot I = 40 \\times 0{,}20 = 8{,}0\\) V. Over de \\(20\\) \\(\\Omega\\) staat \\(4{,}0\\) V, en samen is dat weer \\(12\\) V."
         },
         {
           "type": "meerkeuze",
@@ -4193,15 +4193,15 @@
         },
         {
           "type": "meerkeuze",
-          "vraag": "In een gemengde schakeling staat R\\(1 = 10\\) Ω in serie met twee parallelle weerstanden van elk \\(20\\) Ω. Hoe groot is de substitutieweerstand?",
+          "vraag": "In een gemengde schakeling staat R\\(1 = 10\\) \\(\\Omega\\) in serie met twee parallelle weerstanden van elk \\(20\\) \\(\\Omega\\). Hoe groot is de substitutieweerstand?",
           "opties": [
-            "\\(20\\) Ω",
-            "\\(50\\) Ω",
-            "\\(30\\) Ω",
-            "\\(10\\) Ω"
+            "\\(20\\) \\(\\Omega\\)",
+            "\\(50\\) \\(\\Omega\\)",
+            "\\(30\\) \\(\\Omega\\)",
+            "\\(10\\) \\(\\Omega\\)"
           ],
           "antwoord": 0,
-          "uitleg": "Eerst de parallelle twee: \\(20 / 2 = 10\\) Ω. Die zet je in serie met \\(R_{1}\\): \\(10 + 10 = 20\\) Ω."
+          "uitleg": "Eerst de parallelle twee: \\(20 / 2 = 10\\) \\(\\Omega\\). Die zet je in serie met \\(R_{1}\\): \\(10 + 10 = 20\\) \\(\\Omega\\)."
         },
         {
           "type": "meerkeuze",
@@ -4260,23 +4260,23 @@
         },
         {
           "type": "invultekst",
-          "vraag": "Twee weerstanden van \\(50\\) Ω staan in serie. Hoe groot is de substitutieweerstand in ohm? Schrijf het getal.",
+          "vraag": "Twee weerstanden van \\(50\\) \\(\\Omega\\) staan in serie. Hoe groot is de substitutieweerstand in ohm? Schrijf het getal.",
           "antwoord": [
             "100",
             "100 Ω",
             "100 ohm"
           ],
-          "uitleg": "In serie tel je op: \\(50 + 50 = 100\\) Ω."
+          "uitleg": "In serie tel je op: \\(50 + 50 = 100\\) \\(\\Omega\\)."
         },
         {
           "type": "invultekst",
-          "vraag": "Twee weerstanden van \\(50\\) Ω staan parallel. Hoe groot is de substitutieweerstand in ohm? Schrijf het getal.",
+          "vraag": "Twee weerstanden van \\(50\\) \\(\\Omega\\) staan parallel. Hoe groot is de substitutieweerstand in ohm? Schrijf het getal.",
           "antwoord": [
             "25",
             "25 Ω",
             "25 ohm"
           ],
-          "uitleg": "Bij twee gelijke weerstanden parallel is Rs de helft: \\(50 / 2 = 25\\) Ω."
+          "uitleg": "Bij twee gelijke weerstanden parallel is Rs de helft: \\(50 / 2 = 25\\) \\(\\Omega\\)."
         },
         {
           "type": "invultekst",
@@ -4755,7 +4755,7 @@
             "AC"
           ],
           "antwoord": 0,
-          "uitleg": "DCV staat voor gelijkspanning, DCA voor gelijkstroom. De Ω-stand meet een weerstand."
+          "uitleg": "DCV staat voor gelijkspanning, DCA voor gelijkstroom. De \\(\\Omega\\)-stand meet een weerstand."
         },
         {
           "type": "meerkeuze",

@@ -803,8 +803,8 @@ OEFENBUNDELS["oefenbundel-duurzame-chemie-beyond-dubbele-finaliteit"] = dict(
                  ("tabel", ["Nummer", "Trede"],
                   [[None, "recycleren"], [None, "storten"], [None, "voorkomen dat er afval ontstaat"],
                    [None, "verbranden met energiewinst"], [None, "hergebruiken"]],
-                  r"\(1 = v\)oorkomen dat er afval ontstaat · \(2 = h\)ergebruiken · \(3 = r\)ecycleren · \(4\) = "
-                  r"verbranden met energiewinst · \(5 = s\)torten", "56px"),
+                  r"\(1\) = voorkomen dat er afval ontstaat · \(2\) = hergebruiken · \(3\) = recycleren · \(4\) = "
+                  r"verbranden met energiewinst · \(5\) = storten", "56px"),
                  ("open", "Waarom staat hergebruiken hoger dan recycleren?",
                   "Bij hergebruik blijft het voorwerp zoals het is, dus er is geen energie nodig om het "
                   "materiaal opnieuw te verwerken.", 3),
@@ -1037,8 +1037,8 @@ OEFENBUNDELS["oefenbundel-golven-geluid-en-het-elektromagnetisch-spectrum-beyond
                   [[None, "zichtbaar licht"], [None, "radiogolven"], [None, "gammastraling"],
                    [None, "infraroodstraling"], [None, "röntgenstraling"], [None, "microgolven"],
                    [None, "ultraviolette straling"]],
-                  r"\(1 = r\)adiogolven · \(2 = m\)icrogolven · \(3 = i\)nfraroodstraling · \(4 = z\)ichtbaar licht · "
-                  r"\(5 = u\)ltraviolette straling · \(6 = r\)öntgenstraling · \(7 = g\)ammastraling", "56px"),
+                  r"\(1\) = radiogolven · \(2\) = microgolven · \(3\) = infraroodstraling · \(4\) = zichtbaar licht · "
+                  r"\(5\) = ultraviolette straling · \(6\) = röntgenstraling · \(7\) = gammastraling", "56px"),
                  ("waar", "Hoe hoger de frequentie, hoe korter de golflengte.", True),
              ]),
         dict(kop="Welke straling zit hierin?",
@@ -1103,7 +1103,7 @@ OEFENBUNDELS["oefenbundel-kernfysica-kernenergie-en-straling-beyond-dubbele-fina
                    [None, "uraniumkernen splijten in de splijtstaven"],
                    [None, "de stoom drijft een turbine aan"],
                    [None, "het water wordt verhit tot stoom"]],
-                  r"\(1 = u\)raniumkernen splijten in de splijtstaven · \(2\) = het water wordt verhit tot stoom · "
+                  r"\(1\) = uraniumkernen splijten in de splijtstaven · \(2\) = het water wordt verhit tot stoom · "
                   r"\(3\) = de stoom drijft een turbine aan · \(4\) = de turbine draait de generator", "56px"),
                  ("rij", [("remmen de kettingreactie af", "de regelstaven"),
                           ("houdt straling binnen bij een ongeval", "de betonnen koepel"),
@@ -1252,8 +1252,8 @@ OEFENBUNDELS["oefenbundel-veilig-werken-meten-en-onderzoeken-beyond-dubbele-fina
                   [[None, "oplossingen bedenken en samenvoegen"], [None, "het probleem definiëren"],
                    [None, "evalueren en bijsturen"], [None, "criteria opstellen"],
                    [None, "het probleem in deelproblemen splitsen"]],
-                  r"\(1\) = het probleem definiëren · \(2 = c\)riteria opstellen · \(3\) = het probleem in "
-                  r"deelproblemen splitsen · \(4\) = oplossingen bedenken en samenvoegen · \(5 = e\)valueren en "
+                  r"\(1\) = het probleem definiëren · \(2\) = criteria opstellen · \(3\) = het probleem in "
+                  r"deelproblemen splitsen · \(4\) = oplossingen bedenken en samenvoegen · \(5\) = evalueren en "
                   "bijsturen", "56px"),
                  ("open", "Een stad wil de luchtkwaliteit verbeteren. Welke STEM-domeinen heb je nodig, "
                           "en waarvoor elk?",

@@ -53,7 +53,7 @@ OEFENBUNDELS["oefenbundel-grootheden-eenheden-en-nauwkeurig-meten-fysica-boost-d
                  ("rij", [("kracht", "newton (N)"),
                           ("druk", "pascal (Pa)"),
                           ("vermogen", "watt (W)")], "SI-eenheid", WW),
-                 ("rij", [("weerstand", "ohm (Ω)"),
+                 ("rij", [("weerstand", r"ohm (\(\Omega\))"),
                           ("warmte", "joule (J)"),
                           ("absolute temperatuur", "kelvin (K)")], "SI-eenheid", WW),
                  ("rij", [("massadichtheid", r"kg/\(\text{m}^{3}\)"),
@@ -108,7 +108,7 @@ OEFENBUNDELS["oefenbundel-grootheden-eenheden-en-nauwkeurig-meten-fysica-boost-d
         dict(kop="Formules omvormen en schatten",
              opdracht="Vorm om of beantwoord in één zin.",
              oefeningen=[
-                 ("kort", r"Maak in \(p = F / A\) de kracht F vrij.", r"\(F = p\) . A", W),
+                 ("kort", r"Maak in \(p = F / A\) de kracht F vrij.", r"\(F = p \cdot A\)", W),
                  ("kort", r"Maak in \(F_{v} = k \cdot \Delta l\) de veerconstante k vrij.", r"\(k = F_{v} / \Delta l\)", W),
                  ("open", r"Een leerling berekent de massa van een fles water van \(1{,}5\) L en komt op \(15\) kg. "
                           "Leg uit hoe een schatting die fout meteen verraadt.",
@@ -136,14 +136,14 @@ OEFENBUNDELS["oefenbundel-eenparig-rechtlijnige-beweging-fysica-boost-doorstroom
                  ("kort", r"Een loper loopt twee ronden van \(400\) m op een piste.",
                   r"\(\Delta s = 800\) m en \(\Delta x = 0\) m", WL),
                  ("kort", r"Iemand wandelt van \(x_{0} = 15\) m naar \(x = 70\) m in de positieve zin.",
-                  r"\(\Delta s = 55\) m en Δx = +\(55\) m", WL),
+                  r"\(\Delta s = 55\) m en \(\Delta x\) = +\(55\) m", WL),
                  ("kort", r"Een fietser rijdt van \(x_{0} = 90\) m naar \(x = 40\) m.",
                   r"\(\Delta s = 50\) m en \(\Delta x = -50\) m", WL),
                  ("kort", r"Iemand loopt \(30\) m vooruit en daarna \(12\) m terug.",
-                  r"\(\Delta s = 42\) m en Δx = +\(18\) m", WL),
+                  r"\(\Delta s = 42\) m en \(\Delta x\) = +\(18\) m", WL),
              ]),
         dict(kop="Reken de snelheid",
-             opdracht="Bereken met vg = Δx / Δt. Zet de eenheid bij je antwoord.",
+             opdracht=r"Bereken met \(v_{g} = \Delta x / \Delta t\). Zet de eenheid bij je antwoord.",
              oefeningen=[
                  ("rij", [(r"\(240\) km in \(3{,}0\) h", r"\(80\) km/h"),
                           (r"\(90\) m in \(6{,}0\) s", r"\(15\) m/s"),
@@ -155,13 +155,13 @@ OEFENBUNDELS["oefenbundel-eenparig-rechtlijnige-beweging-fysica-boost-doorstroom
         dict(kop="De positiefunctie",
              opdracht="Lees uit de positiefunctie af wat gevraagd wordt. x in meter, t in seconde.",
              oefeningen=[
-                 ("rij", [(r"\(x = 15 + 4\).t, de beginpositie", r"\(15\) m"),
-                          (r"\(x = 15 + 4\).t, de snelheid", r"\(4\) m/s"),
-                          (r"\(x = 60 - 6\).t, de snelheid", r"\(-6\) m/s")], "Antwoord", WW),
-                 ("kort", r"Na hoeveel seconden is het voorwerp met \(x = 60 - 6\).t in de oorsprong?",
+                 ("rij", [(r"\(x = 15 + 4 \cdot t\), de beginpositie", r"\(15\) m"),
+                          (r"\(x = 15 + 4 \cdot t\), de snelheid", r"\(4\) m/s"),
+                          (r"\(x = 60 - 6 \cdot t\), de snelheid", r"\(-6\) m/s")], "Antwoord", WW),
+                 ("kort", r"Na hoeveel seconden is het voorwerp met \(x = 60 - 6 \cdot t\) in de oorsprong?",
                   r"na \(10\) s", W),
                  ("kort", r"Schrijf de positiefunctie van een voorwerp dat op \(8\) m vertrekt met \(3\) m/s in de positieve zin.",
-                  r"\(x = 8 + 3\).t", WW),
+                  r"\(x = 8 + 3 \cdot t\)", WW),
              ]),
         dict(kop="Grafieken lezen",
              opdracht="Antwoord in één woord of één getal.",
@@ -170,7 +170,7 @@ OEFENBUNDELS["oefenbundel-eenparig-rechtlijnige-beweging-fysica-boost-doorstroom
                  ("kort", "Wat stelt de oppervlakte onder een v(t)-grafiek voor?", "de verplaatsing", WW),
                  ("kort", "Wat doet een voorwerp waarvan de x(t)-grafiek horizontaal loopt?", "het staat stil", WW),
                  ("kort", "Hoe ziet de v(t)-grafiek van een ERB eruit?", "een horizontale lijn", WW),
-                 ("kort", r"Een v(t)-lijn ligt op \(-5\) m/s gedurende \(4{,}0\) s. Hoe groot is Δx?", r"\(-20\) m", W),
+                 ("kort", r"Een v(t)-lijn ligt op \(-5\) m/s gedurende \(4{,}0\) s. Hoe groot is \(\Delta x\)?", r"\(-20\) m", W),
              ]),
         dict(kop="Waar of niet waar?",
              opdracht="Kruis aan.",
@@ -207,7 +207,7 @@ OEFENBUNDELS["oefenbundel-versnelde-beweging-vrije-val-en-verticale-worp-fysica-
     hoe=REKEN,
     reeksen=[
         dict(kop="Reken de gemiddelde versnelling",
-             opdracht="Bereken met ag = Δv / Δt. Let op het teken.",
+             opdracht=r"Bereken met \(a_{g} = \Delta v / \Delta t\). Let op het teken.",
              oefeningen=[
                  ("rij", [(r"van \(0\) naar \(15\) m/s in \(3{,}0\) s", r"\(5{,}0\ \text{m/s}^{2}\)"),
                           (r"van \(8{,}0\) naar \(20\) m/s in \(4{,}0\) s", r"\(3{,}0\ \text{m/s}^{2}\)"),
@@ -310,12 +310,12 @@ OEFENBUNDELS["oefenbundel-krachten-krachtenbalans-en-zwaartekracht-fysica-boost-
                   "veer B", W),
              ]),
         dict(kop="De wrijvingskracht",
-             opdracht=r"Bereken met \(F_{w} = \mu\) . Fn. Op een horizontale vloer is Fn gelijk aan Fz.",
+             opdracht=r"Bereken met \(F_{w} = \mu \cdot F_{n}\). Op een horizontale vloer is \(F_{n}\) gelijk aan \(F_{z}\).",
              oefeningen=[
                  ("rij", [(r"\(m = 10\) kg, \(\mu = 0{,}40\)", r"\(39{,}2\) N"),
                           (r"\(m = 25\) kg, \(\mu = 0{,}20\)", r"\(49{,}1\) N"),
                           (r"\(F_{n} = 500\) N, \(\mu = 0{,}30\)", r"\(150\) N")], "Fw", WW),
-                 ("kort", r"\(F_{w} = 60\) N en \(F_{n} = 200\) N. Hoe groot is μ?", r"\(0{,}30\)", W),
+                 ("kort", r"\(F_{w} = 60\) N en \(F_{n} = 200\) N. Hoe groot is \(\mu\)?", r"\(0{,}30\)", W),
                  ("kort", "Wat is de eenheid van de wrijvingscoëfficiënt?", "ze heeft er geen", WW),
              ]),
         dict(kop="Waar of niet waar?",
@@ -355,14 +355,14 @@ OEFENBUNDELS["oefenbundel-archimedeskracht-moment-en-evenwicht-fysica-boost-door
     hoe=REKEN + [r"De massadichtheid van water is \(1000\) kg/\(\text{m}^{3}\)."],
     reeksen=[
         dict(kop="De archimedeskracht",
-             opdracht=r"Bereken met FA = \(\rho \cdot g\) . Vond. Het voorwerp zit volledig onder water.",
+             opdracht=r"Bereken met \(F_{A} = \rho \cdot g \cdot V_{\text{ond}}\). Het voorwerp zit volledig onder water.",
              oefeningen=[
                  ("rij", [(r"\(V = 0{,}0010\,\text{m}^{3}\)", r"\(9{,}81\) N"),
                           (r"\(V = 0{,}0040\,\text{m}^{3}\)", r"\(39{,}2\) N"),
                           (r"\(V = 0{,}010\,\text{m}^{3}\)", r"\(98{,}1\) N")], "FA", WW),
-                 ("kort", r"Een blok van \(0{,}0060\,\text{m}^{3}\) drijft met de helft onder water. Hoe groot is FA?",
+                 ("kort", r"Een blok van \(0{,}0060\,\text{m}^{3}\) drijft met de helft onder water. Hoe groot is \(F_{A}\)?",
                   r"\(29{,}4\) N", W),
-                 ("kort", r"Een steen weegt in de lucht \(60\) N en onder water \(44\) N. Hoe groot is FA?",
+                 ("kort", r"Een steen weegt in de lucht \(60\) N en onder water \(44\) N. Hoe groot is \(F_{A}\)?",
                   r"\(16\) N", W),
              ]),
         dict(kop="Zinken, zweven of drijven?",
@@ -376,7 +376,7 @@ OEFENBUNDELS["oefenbundel-archimedeskracht-moment-en-evenwicht-fysica-boost-door
                           (r"ijs, \(\rho = 917\) kg/\(\text{m}^{3}\)", "het drijft")], "Wat gebeurt er?", WW),
              ]),
         dict(kop="Het moment van een kracht",
-             opdracht="Bereken met M = F . d . sin α.",
+             opdracht=r"Bereken met \(M = F \cdot d \cdot \sin \alpha\).",
              oefeningen=[
                  ("rij", [(r"\(50\) N loodrecht op \(0{,}40\) m", r"\(20\) Nm"),
                           (r"\(30\) N loodrecht op \(1{,}2\) m", r"\(36\) Nm"),
@@ -407,7 +407,7 @@ OEFENBUNDELS["oefenbundel-archimedeskracht-moment-en-evenwicht-fysica-boost-door
                  ("open", "Leg uit waarom een stalen schip drijft terwijl een stalen bout zinkt.",
                   "Het schip is hol en zit binnenin vol lucht, dus is zijn gemiddelde massadichtheid kleiner "
                   r"dan \(1000\) kg/\(\text{m}^{3}\). Het duwt zoveel water weg dat de archimedeskracht even groot wordt als zijn "
-                  "zwaartekracht. Bij een bout is er geen lucht, dus is ρ veel groter dan die van water.", 6),
+                  r"zwaartekracht. Bij een bout is er geen lucht, dus is \(\rho\) veel groter dan die van water.", 6),
                  ("open", "Leg uit wat een duikboot doet om te zinken, en waarom dat werkt.",
                   "Ze laat water in haar tanks. Haar massa stijgt dus, en daarmee de zwaartekracht, terwijl "
                   "haar volume gelijk blijft en de archimedeskracht dus niet verandert. Dan haalt de "
@@ -496,7 +496,7 @@ OEFENBUNDELS["oefenbundel-druk-bij-vaste-stoffen-en-in-vloeistoffen-fysica-boost
                  ("open", "Leg met het beginsel van Pascal uit hoe een hydraulische pers met een kleine kracht "
                           "een grote kracht kan leveren, en waarom dat geen energie bijmaakt.",
                   "Een drukverandering plant zich in heel de vloeistof voort, dus is de druk bij beide zuigers "
-                  r"gelijk. Uit \(F = p\) . A volgt dat de grotere zuiger een grotere kracht geeft. Maar die zuiger "
+                  r"gelijk. Uit \(F = p \cdot A\) volgt dat de grotere zuiger een grotere kracht geeft. Maar die zuiger "
                   r"komt even veel minder ver, dus blijft de arbeid \(F \cdot \Delta x\) dezelfde.", 6),
                  ("open", "Leg uit waarom er water uit een gaatje in de zijkant van een volle emmer spuit.",
                   "De druk in een vloeistof werkt in alle richtingen, dus ook op de zijwand. Op de hoogte van "
@@ -524,9 +524,9 @@ OEFENBUNDELS["oefenbundel-gassen-temperatuur-en-de-gaswetten-fysica-boost-doorst
         dict(kop="Welk proces?",
              opdracht="Schrijf isotherm, isobaar of isochoor, en de wet die erbij hoort.",
              oefeningen=[
-                 ("kort", "De temperatuur blijft gelijk.", r"isotherm, p . \(V = c\)onstant", WL),
-                 ("kort", "De druk blijft gelijk.", r"isobaar, \(V / T = c\)onstant", WL),
-                 ("kort", "Het volume blijft gelijk.", r"isochoor, \(p / T = c\)onstant", WL),
+                 ("kort", "De temperatuur blijft gelijk.", r"isotherm, \(p \cdot V = \text{constant}\)", WL),
+                 ("kort", "De druk blijft gelijk.", r"isobaar, \(V / T = \text{constant}\)", WL),
+                 ("kort", "Het volume blijft gelijk.", r"isochoor, \(p / T = \text{constant}\)", WL),
              ]),
         dict(kop="Reken met de gaswetten",
              opdracht="Zoek de ontbrekende waarde. De stofhoeveelheid blijft gelijk.",
@@ -564,9 +564,9 @@ OEFENBUNDELS["oefenbundel-gassen-temperatuur-en-de-gaswetten-fysica-boost-doorst
                  ("open", "Leg met het deeltjesmodel uit waarom de druk in een gesloten vat stijgt als je het gas opwarmt.",
                   "Een hogere temperatuur betekent dat de deeltjes gemiddeld sneller bewegen. Ze botsen dan "
                   "harder en vaker tegen de wand, en elke botsing duwt even tegen de wand. Samen geeft dat een "
-                  r"grotere druk. Het volume blijft gelijk, dus geldt \(p / T = c\)onstant.", 6),
+                  r"grotere druk. Het volume blijft gelijk, dus geldt \(p / T = \text{constant}\).", 6),
                  ("open", "Leg uit waarom een spuitbus niet in de zon mag liggen.",
-                  r"Het volume van de bus staat vast, dus geldt \(p / T = c\)onstant: wordt de bus warmer, dan "
+                  r"Het volume van de bus staat vast, dus geldt \(p / T = \text{constant}\): wordt de bus warmer, dan "
                   "stijgt de druk mee. Boven een bepaalde druk kan de bus barsten. Daarom staat er dat ze niet "
                   r"boven \(50^{\circ}\text{C}\) mag komen.", 5),
                  ("open", "Leg uit wat het absolute nulpunt betekent voor de deeltjes van een ideaal gas, en "
@@ -596,7 +596,7 @@ OEFENBUNDELS["oefenbundel-arbeid-energie-vermogen-en-rendement-fysica-boost-door
                  ("kort", "De zwaartekracht op een voorwerp dat je optilt.", "negatief", WW),
              ]),
         dict(kop="Reken de arbeid",
-             opdracht="Bereken met W = F . Δx . cos α.",
+             opdracht=r"Bereken met \(W = F \cdot \Delta x \cdot \cos \alpha\).",
              oefeningen=[
                  ("rij", [(r"\(60\) N over \(5{,}0\) m, in de zin", r"\(300\) J"),
                           (r"\(40\) N over \(12\) m, in de zin", r"\(480\) J"),
@@ -606,18 +606,18 @@ OEFENBUNDELS["oefenbundel-arbeid-energie-vermogen-en-rendement-fysica-boost-door
                   r"\(0\) J", W),
              ]),
         dict(kop="Kinetische en potentiële energie",
-             opdracht=r"Bereken met \(E_{k} = m \cdot v^{2} / 2\) en Ep,gr = m . g . h.",
+             opdracht=r"Bereken met \(E_{k} = m \cdot v^{2} / 2\) en \(E_{p,gr} = m \cdot g \cdot h\).",
              oefeningen=[
                  ("rij", [(r"\(m = 2{,}0\) kg, \(v = 10\) m/s", r"\(100\) J"),
                           (r"\(m = 1000\) kg, \(v = 30\) m/s", r"\(450\) kJ"),
                           (r"\(m = 0{,}50\) kg, \(v = 4{,}0\) m/s", r"\(4{,}0\) J")], "Ek", WW),
                  ("rij", [(r"\(m = 4{,}0\) kg, \(h = 2{,}5\) m", r"\(98{,}1\) J"),
                           (r"\(m = 70\) kg, \(h = 10\) m", r"\(6{,}87\) kJ"),
-                          (r"\(m = 0{,}20\) kg, \(h = 1{,}5\) m", r"\(2{,}94\) J")], "Ep,gr", WW),
-                 ("kort", r"Een veer met \(k = 400\) N/m is \(0{,}10\) m ingedrukt. Hoe groot is Ep,el?", r"\(2{,}0\) J", W),
+                          (r"\(m = 0{,}20\) kg, \(h = 1{,}5\) m", r"\(2{,}94\) J")], r"\(E_{p,gr}\)", WW),
+                 ("kort", r"Een veer met \(k = 400\) N/m is \(0{,}10\) m ingedrukt. Hoe groot is \(E_{p,el}\)?", r"\(2{,}0\) J", W),
              ]),
         dict(kop="Vermogen en rendement",
-             opdracht="Bereken met P = |ΔE| / Δt en η = Enuttig / Etotaal.",
+             opdracht=r"Bereken met \(P = |\Delta E| / \Delta t\) en \(\eta = E_{\text{nuttig}} / E_{\text{totaal}}\).",
              oefeningen=[
                  ("rij", [(r"\(36\) kJ in \(30\) s", r"\(1{,}2\) kW"),
                           (r"\(600\) J in \(4{,}0\) s", r"\(150\) W"),
@@ -631,12 +631,12 @@ OEFENBUNDELS["oefenbundel-arbeid-energie-vermogen-en-rendement-fysica-boost-door
         dict(kop="Welke omzetting?",
              opdracht="Schrijf van welke energievorm naar welke.",
              oefeningen=[
-                 ("rij", [("een bal valt van een muur", "Ep,gr naar Ek"),
-                          ("een ingedrukte veer schiet los", "Ep,el naar Ek"),
+                 ("rij", [("een bal valt van een muur", r"\(E_{p,gr}\) naar \(E_{k}\)"),
+                          ("een ingedrukte veer schiet los", r"\(E_{p,el}\) naar \(E_{k}\)"),
                           ("een waterkoker warmt water op", "elektrisch naar thermisch")], "Omzetting", WL),
                  ("rij", [("een batterij doet een lampje branden", "chemisch naar elektrisch en licht"),
                           ("een plant doet fotosynthese", "straling naar chemisch"),
-                          ("een bal die je omhoog gooit", "Ek naar Ep,gr")], "Omzetting", WL),
+                          ("een bal die je omhoog gooit", r"\(E_{k}\) naar \(E_{p,gr}\)")], "Omzetting", WL),
              ]),
         dict(kop="Waar of niet waar?",
              opdracht="Kruis aan.",
@@ -652,7 +652,7 @@ OEFENBUNDELS["oefenbundel-arbeid-energie-vermogen-en-rendement-fysica-boost-door
                  ("open", "Leg uit waarom je geen arbeid verricht op een doos die je horizontaal door een "
                           "kamer draagt, al voelt het zwaar aan.",
                   "De kracht waarmee je de doos omhoog houdt is verticaal, en de verplaatsing is horizontaal. "
-                  r"De hoek is dus \(90^{\circ}\) en cos \(90^{\circ}\) is nul, dus is W nul. Je spieren verbruiken wel energie, maar "
+                  r"De hoek is dus \(90^{\circ}\) en \(\cos 90^{\circ}\) is nul, dus is W nul. Je spieren verbruiken wel energie, maar "
                   "dat is geen arbeid op de doos.", 5),
                  ("open", "Leg uit wat energiedissipatie is en waarom de energie daarbij niet verdwijnt.",
                   "Bij een omzetting gaat een deel van de bruikbare energie naar een minder bruikbare vorm, "
@@ -765,30 +765,30 @@ OEFENBUNDELS["oefenbundel-elektrische-stroom-spanning-en-weerstand-fysica-boost-
         dict(kop="De wet van Ohm",
              opdracht=r"Bereken met \(R = U / I\). Zet de eenheid bij je antwoord.",
              oefeningen=[
-                 ("rij", [(r"\(U = 12\) V, \(I = 0{,}40\) A", r"\(R = 30\) Ω"),
-                          (r"\(U = 230\) V, \(I = 2{,}0\) A", r"\(R = 115\) Ω"),
-                          (r"\(U = 9{,}0\) V, \(I = 0{,}30\) A", r"\(R = 30\) Ω")], "Antwoord", WW),
-                 ("rij", [(r"\(U = 6{,}0\) V, \(R = 20\) Ω", r"\(I = 0{,}30\) A"),
-                          (r"\(U = 230\) V, \(R = 460\) Ω", r"\(I = 0{,}50\) A"),
-                          (r"\(I = 0{,}25\) A, \(R = 80\) Ω", r"\(U = 20\) V")], "Antwoord", WW),
+                 ("rij", [(r"\(U = 12\) V, \(I = 0{,}40\) A", r"\(R = 30\) \(\Omega\)"),
+                          (r"\(U = 230\) V, \(I = 2{,}0\) A", r"\(R = 115\) \(\Omega\)"),
+                          (r"\(U = 9{,}0\) V, \(I = 0{,}30\) A", r"\(R = 30\) \(\Omega\)")], "Antwoord", WW),
+                 ("rij", [(r"\(U = 6{,}0\) V, \(R = 20\) \(\Omega\)", r"\(I = 0{,}30\) A"),
+                          (r"\(U = 230\) V, \(R = 460\) \(\Omega\)", r"\(I = 0{,}50\) A"),
+                          (r"\(I = 0{,}25\) A, \(R = 80\) \(\Omega\)", r"\(U = 20\) V")], "Antwoord", WW),
              ]),
         dict(kop="Serie of parallel?",
              opdracht="Bereken de substitutieweerstand.",
              oefeningen=[
-                 ("rij", [(r"\(20\) Ω en \(40\) Ω in serie", r"\(60\) Ω"),
-                          (r"\(20\) Ω en \(40\) Ω parallel", r"\(13{,}3\) Ω"),
-                          (r"\(100\) Ω en \(100\) Ω parallel", r"\(50\) Ω")], "Rs", WW),
-                 ("rij", [(r"drie keer \(90\) Ω parallel", r"\(30\) Ω"),
-                          (r"\(10\) Ω, \(20\) Ω en \(30\) Ω in serie", r"\(60\) Ω"),
-                          (r"\(12\) Ω en \(24\) Ω parallel", r"\(8{,}0\) Ω")], "Rs", WW),
-                 ("kort", r"\(5{,}0\) Ω in serie met twee keer \(10\) Ω parallel. Hoe groot is Rs?", r"\(10\) Ω", W),
+                 ("rij", [(r"\(20\) \(\Omega\) en \(40\) \(\Omega\) in serie", r"\(60\) \(\Omega\)"),
+                          (r"\(20\) \(\Omega\) en \(40\) \(\Omega\) parallel", r"\(13{,}3\) \(\Omega\)"),
+                          (r"\(100\) \(\Omega\) en \(100\) \(\Omega\) parallel", r"\(50\) \(\Omega\)")], "Rs", WW),
+                 ("rij", [(r"drie keer \(90\) \(\Omega\) parallel", r"\(30\) \(\Omega\)"),
+                          (r"\(10\) \(\Omega\), \(20\) \(\Omega\) en \(30\) \(\Omega\) in serie", r"\(60\) \(\Omega\)"),
+                          (r"\(12\) \(\Omega\) en \(24\) \(\Omega\) parallel", r"\(8{,}0\) \(\Omega\)")], "Rs", WW),
+                 ("kort", r"\(5{,}0\) \(\Omega\) in serie met twee keer \(10\) \(\Omega\) parallel. Hoe groot is Rs?", r"\(10\) \(\Omega\)", W),
              ]),
         dict(kop="Door de schakeling rekenen",
              opdracht="Reken stap voor stap uit.",
              oefeningen=[
-                 ("kort", r"Over \(30\) Ω en \(60\) Ω in serie staat \(18\) V. Hoe groot is I?", r"\(0{,}20\) A", W),
-                 ("kort", r"In diezelfde schakeling: hoe groot is de spanning over de \(60\) Ω?", r"\(12\) V", W),
-                 ("kort", r"Twee lampen van elk \(100\) Ω staan parallel op \(230\) V. Hoe groot is de totale stroom?",
+                 ("kort", r"Over \(30\) \(\Omega\) en \(60\) \(\Omega\) in serie staat \(18\) V. Hoe groot is I?", r"\(0{,}20\) A", W),
+                 ("kort", r"In diezelfde schakeling: hoe groot is de spanning over de \(60\) \(\Omega\)?", r"\(12\) V", W),
+                 ("kort", r"Twee lampen van elk \(100\) \(\Omega\) staan parallel op \(230\) V. Hoe groot is de totale stroom?",
                   r"\(4{,}6\) A", W),
                  ("kort", r"Een toestel op \(230\) V trekt \(1{,}5\) A. Hoe groot is zijn vermogen?", r"\(345\) W", W),
              ]),

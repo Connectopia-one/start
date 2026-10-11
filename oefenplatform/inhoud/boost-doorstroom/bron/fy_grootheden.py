@@ -71,12 +71,12 @@ DEEL1 = [
         vraag="Welke grootheden worden met hun eigen symbool genoteerd? Kruis alles aan wat juist is.",
         opties=[
             "massa met m",
-            "tijdsduur met Δt",
+            r"tijdsduur met \(\Delta t\)",
             "kracht met k",
             "druk met d",
         ],
         antwoord=[0, 1],
-        uitleg="De massa krijgt m en een tijdsduur krijgt Δt. Kracht krijgt F, en k is het symbool van de veerconstante. Druk krijgt p.",
+        uitleg=r"De massa krijgt m en een tijdsduur krijgt \(\Delta t\). Kracht krijgt F, en k is het symbool van de veerconstante. Druk krijgt p.",
     ),
     dict(
         type="meerkeuze",
@@ -214,7 +214,7 @@ DEEL2 = [
     dict(
         type="meerkeuze",
         vraag=r"Uit de formule \(p = F / A\) wil je A vrijmaken. Wat krijg je?",
-        opties=[r"\(A = F / p\)", r"\(A = p / F\)", r"\(A = p\) . F", r"\(A = F\) \(- p\)"],
+        opties=[r"\(A = F / p\)", r"\(A = p / F\)", r"\(A = p \cdot F\)", r"\(A = F\) \(- p\)"],
         antwoord=0,
         uitleg=r"Vermenigvuldig beide leden met A en deel daarna door p: \(A = F / p\).",
     ),
@@ -304,7 +304,7 @@ DEEL2 = [
     ),
     dict(
         type="waarofniet",
-        vraag="Bij een kwadratisch verband tussen v en Ek wordt Ek vier keer zo groot als v verdubbelt.",
+        vraag=r"Bij een kwadratisch verband tussen v en \(E_{k}\) wordt \(E_{k}\) vier keer zo groot als v verdubbelt.",
         antwoord=True,
         uitleg=r"In \(E_{k} = m \cdot v^{2} / 2\) staat de snelheid in het kwadraat. Twee keer zo snel geeft dus vier keer zoveel kinetische energie.",
     ),
@@ -324,7 +324,7 @@ DEEL2 = [
         type="invultekst",
         vraag=r"Je rekent \(45\) mm om naar meter. Schrijf het resultaat in meter.",
         antwoord=["0,045", "0,045 m", "0.045"],
-        uitleg=r"Milli is een duizendste, dus \(45\) mm = \(45\) / \(1000\) \(m = 0{,}045\) m.",
+        uitleg=r"Milli is een duizendste, dus \(45\) mm = \(45 / 1000\) \(m = 0{,}045\) m.",
     ),
     dict(
         type="invultekst",

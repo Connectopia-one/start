@@ -707,13 +707,13 @@
           "type": "meerkeuze",
           "vraag": "Waarom zorgt het verbranden van fossiele brandstoffen voor klimaatverandering?",
           "opties": [
-            "Er komt CO2 vrij, en dat is een broeikasgas",
+            "Er komt CO₂ vrij, en dat is een broeikasgas",
             "Er komt zuurstof vrij die de lucht opwarmt",
             "Er komt water vrij dat de zeespiegel doet stijgen",
             "Er komt stof vrij dat het zonlicht tegenhoudt"
           ],
           "antwoord": 0,
-          "uitleg": "Broeikasgassen houden warmte vast in de dampkring. Hoe meer CO2 wij erbij stoken, hoe sterker dat effect wordt."
+          "uitleg": "Broeikasgassen houden warmte vast in de dampkring. Hoe meer CO₂ wij erbij stoken, hoe sterker dat effect wordt."
         },
         {
           "type": "invultekst",
@@ -722,13 +722,13 @@
             "CO2",
             "koolstofdioxide"
           ],
-          "uitleg": "CO2 of koolstofdioxide komt vrij bij elke verbranding van steenkool, aardgas, benzine of stookolie."
+          "uitleg": "CO₂ of koolstofdioxide komt vrij bij elke verbranding van steenkool, aardgas, benzine of stookolie."
         },
         {
           "type": "waarofniet",
-          "vraag": "CO2 is een broeikasgas.",
+          "vraag": "CO₂ is een broeikasgas.",
           "antwoord": true,
-          "uitleg": "CO2 houdt warmte vast in de dampkring. Dat is precies wat een broeikasgas doet."
+          "uitleg": "CO₂ houdt warmte vast in de dampkring. Dat is precies wat een broeikasgas doet."
         },
         {
           "type": "meerkeuze",
@@ -792,9 +792,9 @@
         },
         {
           "type": "waarofniet",
-          "vraag": "Bij het opwekken van stroom met een windmolen komt er geen CO2 vrij.",
+          "vraag": "Bij het opwekken van stroom met een windmolen komt er geen CO₂ vrij.",
           "antwoord": true,
-          "uitleg": "Er wordt niets verbrand, dus er komt bij het draaien geen CO2 vrij. Dat is het grote voordeel van wind en zon."
+          "uitleg": "Er wordt niets verbrand, dus er komt bij het draaien geen CO₂ vrij. Dat is het grote voordeel van wind en zon."
         },
         {
           "type": "meerkeuze",
@@ -1048,7 +1048,7 @@
           "opties": [
             "Een symbool",
             "Een pijl met de naam erbij",
-            "Een cijfer van 1 tot 7 in een kader",
+            "Een cijfer van \\(1\\) tot \\(7\\) in een kader",
             "Een eigen kleur voor elk onderdeel"
           ],
           "antwoord": 0,
@@ -1515,7 +1515,7 @@
           "type": "waarofniet",
           "vraag": "De leeftijdspictogrammen van een spel of een film zeggen vanaf welke leeftijd de inhoud geschikt is.",
           "antwoord": true,
-          "uitleg": "Die pictogrammen lopen van alle leeftijden tot vanaf 18 jaar. Ze zeggen niets over hoe moeilijk of hoe lang een spel is."
+          "uitleg": "Die pictogrammen lopen van alle leeftijden tot vanaf \\(18\\) jaar. Ze zeggen niets over hoe moeilijk of hoe lang een spel is."
         },
         {
           "type": "meerkeuze",
@@ -1540,41 +1540,41 @@
           "type": "meerkeuze",
           "vraag": "Welke uitspraken over de binaire code kloppen?",
           "opties": [
-            "Een 1 betekent aan",
-            "Een 0 betekent uit",
+            "Een \\(1\\) betekent aan",
+            "Een \\(0\\) betekent uit",
             "Er bestaan maar twee waarden",
-            "Een 2 betekent half aan"
+            "Een \\(2\\) betekent half aan"
           ],
           "antwoord": [
             0,
             1,
             2
           ],
-          "uitleg": "Binair wil zeggen: twee mogelijkheden. Aan of uit, 1 of 0, en niets daartussen."
+          "uitleg": "Binair wil zeggen: twee mogelijkheden. Aan of uit, \\(1\\) of \\(0\\), en niets daartussen."
         },
         {
           "type": "meerkeuze",
-          "vraag": "Wanneer geeft een EN-poort een 1 aan de uitgang?",
+          "vraag": "Wanneer geeft een EN-poort een \\(1\\) aan de uitgang?",
           "opties": [
-            "Als beide ingangen 1 zijn",
-            "Als minstens één van de ingangen 1 is",
-            "Als de twee ingangen allebei 0 zijn",
+            "Als beide ingangen \\(1\\) zijn",
+            "Als minstens één van de ingangen \\(1\\) is",
+            "Als de twee ingangen allebei \\(0\\) zijn",
             "Als de twee ingangen van elkaar verschillen"
           ],
           "antwoord": 0,
-          "uitleg": "Bij een EN-poort moet het ene én het andere waar zijn. Is er maar één ingang 1, dan blijft de uitgang 0."
+          "uitleg": "Bij een EN-poort moet het ene én het andere waar zijn. Is er maar één ingang \\(1\\), dan blijft de uitgang \\(0\\)."
         },
         {
           "type": "meerkeuze",
-          "vraag": "Wanneer geeft een OF-poort een 1 aan de uitgang?",
+          "vraag": "Wanneer geeft een OF-poort een \\(1\\) aan de uitgang?",
           "opties": [
-            "Als minstens één ingang 1 is",
-            "Alleen als beide ingangen 1 zijn",
-            "Alleen als beide ingangen 0 zijn",
+            "Als minstens één ingang \\(1\\) is",
+            "Alleen als beide ingangen \\(1\\) zijn",
+            "Alleen als beide ingangen \\(0\\) zijn",
             "Alleen als de twee ingangen gelijk zijn"
           ],
           "antwoord": 0,
-          "uitleg": "Bij een OF-poort volstaat één ingang op 1. Staan ze allebei op 1, dan is de uitgang natuurlijk ook 1."
+          "uitleg": "Bij een OF-poort volstaat één ingang op \\(1\\). Staan ze allebei op \\(1\\), dan is de uitgang natuurlijk ook \\(1\\)."
         },
         {
           "type": "meerkeuze",
@@ -1586,25 +1586,25 @@
             "Hij houdt het signaal een tijdje tegen"
           ],
           "antwoord": 0,
-          "uitleg": "Een NIET-poort maakt van een 1 een 0 en van een 0 een 1. Hij heeft maar één ingang nodig."
+          "uitleg": "Een NIET-poort maakt van een \\(1\\) een \\(0\\) en van een \\(0\\) een \\(1\\). Hij heeft maar één ingang nodig."
         },
         {
           "type": "waarofniet",
-          "vraag": "Een NIET-poort met een 1 aan de ingang geeft een 0 aan de uitgang.",
+          "vraag": "Een NIET-poort met een \\(1\\) aan de ingang geeft een \\(0\\) aan de uitgang.",
           "antwoord": true,
-          "uitleg": "Omkeren is zijn enige taak. Ingang 1 wordt uitgang 0, ingang 0 wordt uitgang 1."
+          "uitleg": "Omkeren is zijn enige taak. Ingang \\(1\\) wordt uitgang \\(0\\), ingang \\(0\\) wordt uitgang \\(1\\)."
         },
         {
           "type": "waarofniet",
-          "vraag": "Een EN-poort met de ingangen 1 en 0 geeft een 1 aan de uitgang.",
+          "vraag": "Een EN-poort met de ingangen \\(1\\) en \\(0\\) geeft een \\(1\\) aan de uitgang.",
           "antwoord": false,
-          "uitleg": "Bij een EN-poort moeten beide ingangen 1 zijn. Met 1 en 0 blijft de uitgang dus 0."
+          "uitleg": "Bij een EN-poort moeten beide ingangen \\(1\\) zijn. Met \\(1\\) en \\(0\\) blijft de uitgang dus \\(0\\)."
         },
         {
           "type": "waarofniet",
-          "vraag": "Een OF-poort met de ingangen 1 en 0 geeft een 1 aan de uitgang.",
+          "vraag": "Een OF-poort met de ingangen \\(1\\) en \\(0\\) geeft een \\(1\\) aan de uitgang.",
           "antwoord": true,
-          "uitleg": "Bij een OF-poort is één ingang op 1 al genoeg."
+          "uitleg": "Bij een OF-poort is één ingang op \\(1\\) al genoeg."
         },
         {
           "type": "invultekst",
@@ -1661,13 +1661,13 @@
             "Acht"
           ],
           "antwoord": 0,
-          "uitleg": "De combinaties zijn 0 en 0, 0 en 1, 1 en 0, en 1 en 1. Dat zijn er vier."
+          "uitleg": "De combinaties zijn \\(0\\) en \\(0\\), \\(0\\) en \\(1\\), \\(1\\) en \\(0\\), en \\(1\\) en \\(1\\). Dat zijn er vier."
         },
         {
           "type": "waarofniet",
           "vraag": "Een logische poort heeft altijd precies één uitgang.",
           "antwoord": true,
-          "uitleg": "Een EN-, OF- of NIET-poort heeft één of twee ingangen en altijd één uitgang. Die uitgang is 0 of 1."
+          "uitleg": "Een EN-, OF- of NIET-poort heeft één of twee ingangen en altijd één uitgang. Die uitgang is \\(0\\) of \\(1\\)."
         },
         {
           "type": "meerkeuze",
@@ -1696,13 +1696,13 @@
             "Twee EN-poorten na elkaar"
           ],
           "antwoord": 0,
-          "uitleg": "De sensor geeft 1 als het licht is. Je wilt dat de lamp dan juist uit is, dus keer je het signaal om met een NIET-poort."
+          "uitleg": "De sensor geeft \\(1\\) als het licht is. Je wilt dat de lamp dan juist uit is, dus keer je het signaal om met een NIET-poort."
         },
         {
           "type": "waarofniet",
-          "vraag": "Een EN-poort met beide ingangen op 0 geeft een 1 aan de uitgang.",
+          "vraag": "Een EN-poort met beide ingangen op \\(0\\) geeft een \\(1\\) aan de uitgang.",
           "antwoord": false,
-          "uitleg": "Met twee nullen blijft de uitgang 0. Een EN-poort geeft alleen een 1 als beide ingangen 1 zijn."
+          "uitleg": "Met twee nullen blijft de uitgang \\(0\\). Een EN-poort geeft alleen een \\(1\\) als beide ingangen \\(1\\) zijn."
         },
         {
           "type": "meerkeuze",
@@ -1723,27 +1723,27 @@
         },
         {
           "type": "meerkeuze",
-          "vraag": "Wat gebeurt er met de uitgang van een OF-poort als beide ingangen 0 zijn?",
+          "vraag": "Wat gebeurt er met de uitgang van een OF-poort als beide ingangen \\(0\\) zijn?",
           "opties": [
-            "Die wordt 0",
-            "Die wordt 1",
+            "Die wordt \\(0\\)",
+            "Die wordt \\(1\\)",
             "Die blijft op de vorige waarde staan",
-            "Die wisselt voortdurend tussen 0 en 1"
+            "Die wisselt voortdurend tussen \\(0\\) en \\(1\\)"
           ],
           "antwoord": 0,
-          "uitleg": "Er is geen enkele ingang op 1, dus is er niets om door te geven. De uitgang blijft 0."
+          "uitleg": "Er is geen enkele ingang op \\(1\\), dus is er niets om door te geven. De uitgang blijft \\(0\\)."
         },
         {
           "type": "waarofniet",
-          "vraag": "Een OF-poort geeft alleen een 1 als beide ingangen 1 zijn.",
+          "vraag": "Een OF-poort geeft alleen een \\(1\\) als beide ingangen \\(1\\) zijn.",
           "antwoord": false,
-          "uitleg": "Dat is de regel van de EN-poort. Bij een OF-poort is één ingang op 1 al voldoende."
+          "uitleg": "Dat is de regel van de EN-poort. Bij een OF-poort is één ingang op \\(1\\) al voldoende."
         },
         {
           "type": "invultekst",
-          "vraag": "Een 0 aan de ingang van een logische poort betekent ___.",
+          "vraag": "Een \\(0\\) aan de ingang van een logische poort betekent ___.",
           "antwoord": "uit",
-          "uitleg": "In de binaire code is 0 uit en 1 aan. Meer waarden bestaan er niet."
+          "uitleg": "In de binaire code is \\(0\\) uit en \\(1\\) aan. Meer waarden bestaan er niet."
         }
       ]
     },
@@ -2246,7 +2246,7 @@
             "Twee stukken metaal die aan elkaar gelast worden"
           ],
           "antwoord": 0,
-          "uitleg": "Bij verstek zaag je allebei de stukken onder dezelfde hoek af, meestal 45 graden. Zo zie je in de hoek van een kader geen kopse kant."
+          "uitleg": "Bij verstek zaag je allebei de stukken onder dezelfde hoek af, meestal \\(45\\) graden. Zo zie je in de hoek van een kader geen kopse kant."
         },
         {
           "type": "meerkeuze",
@@ -2435,7 +2435,7 @@
             "Muziek beluisteren is toegelaten"
           ],
           "antwoord": 0,
-          "uitleg": "De blauwe pictogrammen met een persoon erop zijn geboden: iets is verplicht. Dit is er een van de negen uit bijlage 1."
+          "uitleg": "De blauwe pictogrammen met een persoon erop zijn geboden: iets is verplicht. Dit is er een van de negen uit bijlage \\(1\\)."
         },
         {
           "type": "waarofniet",
@@ -2713,7 +2713,7 @@
             "V"
           ],
           "antwoord": 0,
-          "uitleg": "Oppervlakte krijgt de letter A, omtrek de letter P en volume de letter V. Dat staat zo in bijlage 1."
+          "uitleg": "Oppervlakte krijgt de letter A, omtrek de letter P en volume de letter V. Dat staat zo in bijlage \\(1\\)."
         },
         {
           "type": "meerkeuze",
@@ -2737,10 +2737,10 @@
           "type": "meerkeuze",
           "vraag": "Hoeveel meter is een kilometer?",
           "opties": [
-            "1000 meter",
-            "100 meter",
-            "10 meter",
-            "10 000 meter"
+            "\\(1000\\) meter",
+            "\\(100\\) meter",
+            "\\(10\\) meter",
+            "\\(10\\,000\\) meter"
           ],
           "antwoord": 0,
           "uitleg": "Kilo betekent duizend. Daarom is een kilogram ook duizend gram."
@@ -2749,10 +2749,10 @@
           "type": "meerkeuze",
           "vraag": "Hoeveel millimeter is een centimeter?",
           "opties": [
-            "10 millimeter",
-            "100 millimeter",
-            "1000 millimeter",
-            "5 millimeter"
+            "\\(10\\) millimeter",
+            "\\(100\\) millimeter",
+            "\\(1000\\) millimeter",
+            "\\(5\\) millimeter"
           ],
           "antwoord": 0,
           "uitleg": "Milli is een duizendste en centi een honderdste. Een centimeter is dus tien keer een millimeter."
@@ -2784,10 +2784,10 @@
           "type": "meerkeuze",
           "vraag": "Hoeveel liter is een kubieke decimeter?",
           "opties": [
-            "1 liter",
-            "10 liter",
-            "100 liter",
-            "1000 liter"
+            "\\(1\\) liter",
+            "\\(10\\) liter",
+            "\\(100\\) liter",
+            "\\(1000\\) liter"
           ],
           "antwoord": 0,
           "uitleg": "Een kubieke decimeter is precies een liter. Een kubieke meter is dus duizend liter."
@@ -2803,7 +2803,7 @@
           "vraag": "Met welke formule bereken je de oppervlakte van een rechthoek?",
           "opties": [
             "b maal h",
-            "2 maal (b plus h)",
+            "\\(2\\) maal (b plus h)",
             "b plus h",
             "b maal h maal l"
           ],
@@ -2814,10 +2814,10 @@
           "type": "meerkeuze",
           "vraag": "Met welke formule bereken je de omtrek van een vierkant?",
           "opties": [
-            "4 maal z",
+            "\\(4\\) maal z",
             "z maal z",
             "z maal z maal z",
-            "2 maal z"
+            "\\(2\\) maal z"
           ],
           "antwoord": 0,
           "uitleg": "Vier gelijke zijden, dus vier keer de zijde. z maal z is de oppervlakte en z maal z maal z het volume van een kubus."
@@ -2826,11 +2826,11 @@
           "type": "waarofniet",
           "vraag": "Het volume van een balk bereken je met lengte maal breedte maal hoogte.",
           "antwoord": true,
-          "uitleg": "Die formule staat zo in bijlage 2, de bijlage die je op het examen wél mag gebruiken."
+          "uitleg": "Die formule staat zo in bijlage \\(2\\), de bijlage die je op het examen wél mag gebruiken."
         },
         {
           "type": "meerkeuze",
-          "vraag": "Welke formules staan in bijlage 2 van de vakfiche, die je op het examen mag gebruiken?",
+          "vraag": "Welke formules staan in bijlage \\(2\\) van de vakfiche, die je op het examen mag gebruiken?",
           "opties": [
             "De omtrek van een cirkel",
             "De oppervlakte van een vierkant",
@@ -2843,7 +2843,7 @@
             1,
             2
           ],
-          "uitleg": "Bijlage 2 bevat alleen formules voor omtrek, oppervlakte en volume. De massadichtheid en het vermogen moet je dus zelf kennen."
+          "uitleg": "Bijlage \\(2\\) bevat alleen formules voor omtrek, oppervlakte en volume. De massadichtheid en het vermogen moet je dus zelf kennen."
         }
       ]
     },
@@ -2980,7 +2980,7 @@
         },
         {
           "type": "meerkeuze",
-          "vraag": "Wat betekent de schaal 1:2 op een tekening?",
+          "vraag": "Wat betekent de schaal \\(1\\):\\(2\\) op een tekening?",
           "opties": [
             "De tekening is half zo groot als het voorwerp",
             "De tekening is twee keer zo groot als het voorwerp",
@@ -2988,11 +2988,11 @@
             "Er staan twee voorwerpen naast elkaar op de tekening"
           ],
           "antwoord": 0,
-          "uitleg": "Het eerste getal is de tekening, het tweede het echte voorwerp. Bij 1:2 is één centimeter op papier dus twee centimeter in het echt."
+          "uitleg": "Het eerste getal is de tekening, het tweede het echte voorwerp. Bij \\(1\\):\\(2\\) is één centimeter op papier dus twee centimeter in het echt."
         },
         {
           "type": "meerkeuze",
-          "vraag": "Wat betekent de schaal 2:1 op een tekening?",
+          "vraag": "Wat betekent de schaal \\(2\\):\\(1\\) op een tekening?",
           "opties": [
             "De tekening is twee keer zo groot als het voorwerp",
             "De tekening is half zo groot als het voorwerp",
@@ -3004,7 +3004,7 @@
         },
         {
           "type": "waarofniet",
-          "vraag": "Bij schaal 1:1 is de tekening even groot als het voorwerp.",
+          "vraag": "Bij schaal \\(1\\):\\(1\\) is de tekening even groot als het voorwerp.",
           "antwoord": true,
           "uitleg": "Op ware grootte dus. Je kunt het werkstuk dan gewoon op de tekening leggen om te controleren."
         },
@@ -3390,7 +3390,7 @@
         },
         {
           "type": "meerkeuze",
-          "vraag": "Een tandwiel met 10 tanden drijft er een met 30 aan. Hoe vaak draait het grote wiel rond als het kleine drie keer rondgaat?",
+          "vraag": "Een tandwiel met \\(10\\) tanden drijft er een met \\(30\\) aan. Hoe vaak draait het grote wiel rond als het kleine drie keer rondgaat?",
           "opties": [
             "Eén keer",
             "Drie keer",
@@ -3402,7 +3402,7 @@
         },
         {
           "type": "meerkeuze",
-          "vraag": "Een tandwiel met 40 tanden drijft er een met 10 aan. Hoe vaak draait het kleine wiel als het grote één keer rondgaat?",
+          "vraag": "Een tandwiel met \\(40\\) tanden drijft er een met \\(10\\) aan. Hoe vaak draait het kleine wiel als het grote één keer rondgaat?",
           "opties": [
             "Vier keer",
             "Eén keer",
@@ -3867,7 +3867,7 @@
         },
         {
           "type": "meerkeuze",
-          "vraag": "Wat betekent het pictogram met een cijfer van 1 tot 7 in het midden?",
+          "vraag": "Wat betekent het pictogram met een cijfer van \\(1\\) tot \\(7\\) in het midden?",
           "opties": [
             "Het zegt om welke soort kunststof het gaat",
             "Het zegt hoeveel het product in totaal weegt",
@@ -4024,13 +4024,13 @@
             "Je tekent de allereerste conceptschets"
           ],
           "antwoord": 0,
-          "uitleg": "Je legt het resultaat naast de criteria van fase 1. Klopt er iets niet, dan pas je aan."
+          "uitleg": "Je legt het resultaat naast de criteria van fase \\(1\\). Klopt er iets niet, dan pas je aan."
         },
         {
           "type": "invultekst",
           "vraag": "In de laatste fase ga je na of het systeem voldoet aan de opgestelde ___.",
           "antwoord": "criteria",
-          "uitleg": "Criteria zijn de eisen die je in fase 1 hebt vastgelegd. Zonder criteria kan je achteraf niet beoordelen of het gelukt is."
+          "uitleg": "Criteria zijn de eisen die je in fase \\(1\\) hebt vastgelegd. Zonder criteria kan je achteraf niet beoordelen of het gelukt is."
         },
         {
           "type": "waarofniet",
@@ -4040,9 +4040,9 @@
         },
         {
           "type": "waarofniet",
-          "vraag": "Voldoet je systeem in fase 5 niet, dan begin je altijd helemaal opnieuw bij fase 1.",
+          "vraag": "Voldoet je systeem in fase \\(5\\) niet, dan begin je altijd helemaal opnieuw bij fase \\(1\\).",
           "antwoord": false,
-          "uitleg": "De fiche zegt dat je teruggaat naar fase 2 of 3: je past het ontwerp aan of je maakt iets anders. De behoefte is intussen niet veranderd."
+          "uitleg": "De fiche zegt dat je teruggaat naar fase \\(2\\) of \\(3\\): je past het ontwerp aan of je maakt iets anders. De behoefte is intussen niet veranderd."
         },
         {
           "type": "meerkeuze",
@@ -4116,7 +4116,7 @@
           "type": "meerkeuze",
           "vraag": "Een technisch systeem voldoet niet aan de criteria. Wat doe je volgens de fiche?",
           "opties": [
-            "Je keert terug naar fase 2 of fase 3",
+            "Je keert terug naar fase \\(2\\) of fase \\(3\\)",
             "Je gooit het systeem helemaal weg",
             "Je past de criteria aan het resultaat aan",
             "Je slaat de laatste fase gewoon over"
@@ -4140,7 +4140,7 @@
             "In de evaluatiefase"
           ],
           "antwoord": 0,
-          "uitleg": "Bij fase 3 staat in de fiche dat je toelicht hoe je op een veilige en duurzame manier met gereedschap, machines en hulpmiddelen werkt."
+          "uitleg": "Bij fase \\(3\\) staat in de fiche dat je toelicht hoe je op een veilige en duurzame manier met gereedschap, machines en hulpmiddelen werkt."
         },
         {
           "type": "meerkeuze",
@@ -4156,7 +4156,7 @@
             1,
             2
           ],
-          "uitleg": "Fase 1 heet in de fiche letterlijk probleemstelling of behoefte onderzoeken. Afwerken hoort bij het maken."
+          "uitleg": "Fase \\(1\\) heet in de fiche letterlijk probleemstelling of behoefte onderzoeken. Afwerken hoort bij het maken."
         },
         {
           "type": "waarofniet",

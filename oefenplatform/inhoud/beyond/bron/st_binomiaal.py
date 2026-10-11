@@ -82,7 +82,7 @@ DEEL1 = [
     ),
     dict(
         type="meerkeuze",
-        vraag=r"Een tabel geeft \(P(X = 1)\) = \(0{,}2\), \(P(X = 2)\) = \(0{,}5\) en \(P(X = 3)\) = \(0{,}4\). Wat is er mis?",
+        vraag=r"Een tabel geeft \(P(X = 1) = 0{,}2\), \(P(X = 2) = 0{,}5\) en \(P(X = 3) = 0{,}4\). Wat is er mis?",
         opties=[
             r"de som van de kansen is \(1{,}1\) en dat kan niet",
             "er staan te weinig waarden in de tabel om een verdeling te vormen",
@@ -258,8 +258,8 @@ DEEL2 = [
         type="meerkeuze",
         vraag=r"Welke formule geeft \(P(X = k)\) bij X ~ B(\(n\), \(p\))?",
         opties=[
-            r"C(\(n\), \(k\)) maal \(p\) tot de \(k \cdot (1-p)\) tot de \((n-k)\)",
-            r"C(\(n\), \(k\)) maal \(p \cdot (1-p)\)",
+            r"\(C(n, k)\) maal \(p\) tot de \(k \cdot (1-p)\) tot de \((n-k)\)",
+            r"\(C(n, k)\) maal \(p \cdot (1-p)\)",
             r"\(p\) tot de \(k \cdot (1-p)\) tot de \(n\)",
             r"\(n \cdot p\) tot de \(k : k\)",
         ],
@@ -277,7 +277,7 @@ DEEL2 = [
         vraag="Je gooit drie keer met een munt. Wat is de kans op juist twee keer kop?",
         opties=["drie achtste", "een vierde", "een half", "een achtste"],
         antwoord=0,
-        uitleg=r"C(\(3\), \(2\)) = \(3\) plaatsen, elk met kans een achtste. Drie maal een achtste is drie achtste.",
+        uitleg=r"\(C(3, 2) = 3\) plaatsen, elk met kans een achtste. Drie maal een achtste is drie achtste.",
     ),
     dict(
         type="meerkeuze",

@@ -16,11 +16,11 @@
     },
     {
      "soort": "tekst",
-     "html": "<strong>De verplaatsing kijkt enkel naar begin- en eindpunt</strong>: <strong>\\(\\Delta x = x - x_{0}\\)</strong>. De <strong>afgelegde weg Δs</strong> is de hele weg die het voorwerp echt gelopen heeft. Loopt iemand <strong>één ronde van \\(400\\) m op een piste</strong>, dan is <strong>de afgelegde weg \\(400\\) m en de verplaatsing \\(0\\) m</strong>: hij staat weer op zijn startplaats."
+     "html": "<strong>De verplaatsing kijkt enkel naar begin- en eindpunt</strong>: <strong>\\(\\Delta x = x - x_{0}\\)</strong>. De <strong>afgelegde weg \\(\\Delta s\\)</strong> is de hele weg die het voorwerp echt gelopen heeft. Loopt iemand <strong>één ronde van \\(400\\) m op een piste</strong>, dan is <strong>de afgelegde weg \\(400\\) m en de verplaatsing \\(0\\) m</strong>: hij staat weer op zijn startplaats."
     },
     {
      "soort": "tekst",
-     "html": "<strong>Een verplaatsing kan negatief zijn</strong>, want het <strong>teken hoort bij de zin</strong>: beweegt het voorwerp tegen de zin van de x-as in, dan is Δx negatief. Een <strong>afgelegde weg is nooit negatief</strong>, en <strong>ook de grootte van een snelheid niet</strong>. Vertrekt een wandelaar op \\(x_{0} = 20\\) m en gaat hij in de positieve zin tot \\(x = 95\\) m, dan is \\(\\Delta x = 95 - 20 = 75\\) m."
+     "html": "<strong>Een verplaatsing kan negatief zijn</strong>, want het <strong>teken hoort bij de zin</strong>: beweegt het voorwerp tegen de zin van de x-as in, dan is \\(\\Delta x\\) negatief. Een <strong>afgelegde weg is nooit negatief</strong>, en <strong>ook de grootte van een snelheid niet</strong>. Vertrekt een wandelaar op \\(x_{0} = 20\\) m en gaat hij in de positieve zin tot \\(x = 95\\) m, dan is \\(\\Delta x = 95 - 20 = 75\\) m."
     }
    ]
   },
@@ -29,7 +29,7 @@
    "blokken": [
     {
      "soort": "tekst",
-     "html": "De <strong>gemiddelde snelheid</strong> is <strong>vg = Δx / Δt</strong>, de verplaatsing gedeeld door de tijdsduur. De SI-eenheid is de <strong>meter per seconde</strong>."
+     "html": "De <strong>gemiddelde snelheid</strong> is <strong>\\(v_{g} = \\Delta x / \\Delta t\\)</strong>, de verplaatsing gedeeld door de tijdsduur. De SI-eenheid is de <strong>meter per seconde</strong>."
     },
     {
      "soort": "tekst",
@@ -62,7 +62,7 @@
     },
     {
      "soort": "tekst",
-     "html": "De <strong>positiefunctie</strong> van een ERB is <strong>\\(x = x_{0} + v \\cdot \\left(t - t_{0}\\right)\\)</strong>, met <strong>x₀ de beginpositie</strong> op het tijdstip t₀. In <strong>\\(x = 10 + 3\\).t</strong> is \\(10\\) m de beginpositie en \\(3\\) m/s de snelheid. In <strong>\\(x = 40 - 5\\).t</strong> vertrekt het voorwerp op \\(40\\) m en <strong>beweegt het tegen de zin van de x-as in</strong>, want de snelheid is \\(-5\\) m/s. Het is in de oorsprong als \\(x = 0\\), dus na \\(t = 40 / 5 = 8{,}0\\) s."
+     "html": "De <strong>positiefunctie</strong> van een ERB is <strong>\\(x = x_{0} + v \\cdot \\left(t - t_{0}\\right)\\)</strong>, met <strong>\\(x_{0}\\) de beginpositie</strong> op het tijdstip \\(t_{0}\\). In <strong>\\(x = 10 + 3 \\cdot t\\)</strong> is \\(10\\) m de beginpositie en \\(3\\) m/s de snelheid. In <strong>\\(x = 40 - 5 \\cdot t\\)</strong> vertrekt het voorwerp op \\(40\\) m en <strong>beweegt het tegen de zin van de x-as in</strong>, want de snelheid is \\(-5\\) m/s. Het is in de oorsprong als \\(x = 0\\), dus na \\(t = 40 / 5 = 8{,}0\\) s."
     }
    ]
   },
@@ -114,11 +114,11 @@
   }
  ],
  "onthoud": [
-  "Verplaatsing \\(\\Delta x = x - x_{0}\\) kijkt enkel naar begin en eind; de afgelegde weg Δs is de hele weg.",
+  "Verplaatsing \\(\\Delta x = x - x_{0}\\) kijkt enkel naar begin en eind; de afgelegde weg \\(\\Delta s\\) is de hele weg.",
   "Eén ronde van \\(400\\) m: afgelegde weg \\(400\\) m, verplaatsing \\(0\\) m.",
-  "vg = Δx / Δt; de snelheidsmeter geeft de ogenblikkelijke snelheid.",
+  "\\(v_{g} = \\Delta x / \\Delta t\\); de snelheidsmeter geeft de ogenblikkelijke snelheid.",
   "Bij een ERB blijft de snelheid gelijk en is de versnelling nul.",
-  "Positiefunctie: \\(x = x_{0} + v \\cdot \\left(t - t_{0}\\right)\\), met x₀ de beginpositie.",
+  "Positiefunctie: \\(x = x_{0} + v \\cdot \\left(t - t_{0}\\right)\\), met \\(x_{0}\\) de beginpositie.",
   "De steilheid van een x(t)-grafiek is de snelheid; een horizontaal stuk is een rustpauze.",
   "De oppervlakte onder een v(t)-grafiek is de verplaatsing; de hoogte is de snelheid.",
   "Een snijpunt in een x(t)-grafiek betekent: op dezelfde plaats op hetzelfde tijdstip.",

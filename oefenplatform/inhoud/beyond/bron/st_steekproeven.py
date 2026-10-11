@@ -303,7 +303,7 @@ DEEL2 = [
         type="meerkeuze",
         vraag="Welke formule geeft volgens het formularium de standaardafwijking van de steekproefproportie?",
         opties=[
-            r"\(\sqrt{p} \cdot (1-p) : n\)",
+            r"\(\sqrt{\dfrac{p \cdot (1-p)}{n}}\)",
             r"\(p \cdot (1-p) : n\)",
             r"\(\sqrt{n} \cdot p \cdot (1-p)\)",
             r"\(p : \sqrt{n}\)",

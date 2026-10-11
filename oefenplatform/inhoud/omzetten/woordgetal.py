@@ -6,7 +6,7 @@
 Werkt op tekst waar de cijfers al in \\( \\) staan: wat overblijft zijn de
 getallen die als woord geschreven zijn ("zeven tot de macht nul").
 """
-import re, sys
+import re, sys, os
 
 GETAL = {
     "nul": "0", "een": "1", "één": "1", "twee": "2", "drie": "3", "vier": "4",
@@ -99,7 +99,11 @@ for pad in [a for a in sys.argv[1:] if not a.startswith("--")]:
             alles[k] = alles.get(k, 0) + v
         return s
 
-    if "--strings" in sys.argv:          # bundelbestand: enkel de tekst
+    if "--velden" in sys.argv:
+        sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
+        from op_strings import pas_toe, VELDEN
+        nieuw = pas_toe(tekst, doe, VELDEN)
+    elif "--strings" in sys.argv:          # bundelbestand: enkel de tekst
         import os
         sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
         from op_strings import pas_toe

@@ -51,7 +51,7 @@ OEFENBUNDELS["oefenbundel-problemen-oplossen-en-ict-gebruiken-beyond"] = dict(
              opdracht="Schrijf vraagstuk als de opgave zelf al zegt welke werkwijze je moet "
                       "gebruiken, en probleem als je die zelf moet kiezen.",
              oefeningen=[
-                 ("rij", [(r"Bereken C(\(14\), \(4\)).", "vraagstuk"),
+                 ("rij", [(r"Bereken \(C(14, 4)\).", "vraagstuk"),
                           ("Bereken het gemiddelde van deze twintig getallen.", "vraagstuk")],
                   "Vraagstuk of probleem?", WW),
                  ("kort", r"Hoeveel mensen moet je bevragen om tot op \(3\) procent nauwkeurig "
@@ -175,44 +175,44 @@ OEFENBUNDELS["oefenbundel-faculteit-en-combinaties-beyond"] = dict(
         dict(kop="Faculteit",
              opdracht="Bereken.",
              oefeningen=[
-                 ("rij", [(r"\(4\)!", r"\(24\)"), (r"\(6\)!", r"\(720\)"), (r"\(0\)!", r"\(1\)")], "Bereken.", W),
+                 ("rij", [(r"\(4!\)", r"\(24\)"), (r"\(6!\)", r"\(720\)"), (r"\(0!\)", r"\(1\)")], "Bereken.", W),
                  ("rij", [(r"\(7!\)", r"\(5040\)"), (r"\(8!\)", r"\(40\,320\)"), (r"\(\dfrac{8!}{7!}\)", r"\(8\)")],
                   "Bereken.", W),
-                 ("open", r"Waarom spreken we af dat \(0\)! gelijk is aan één?",
+                 ("open", r"Waarom spreken we af dat \(0!\) gelijk is aan één?",
                   "Anders klopt de formule van de combinaties niet meer in de randgevallen. "
-                  r"C(\(n\), \(0\)) moet één zijn, want er is precies één manier om niets te kiezen, en in "
-                  r"de formule staat dan \(0\)! in de noemer.", 4),
+                  r"\(C(n, 0)\) moet één zijn, want er is precies één manier om niets te kiezen, en in "
+                  r"de formule staat dan \(0!\) in de noemer.", 4),
              ]),
         dict(kop="Combinaties berekenen",
              opdracht="Bereken met de formule uit het formularium. Schrijf je uitwerking erbij.",
              oefeningen=[
-                 ("rij", [(r"C(\(8\), \(2\))", r"\(28\)"), (r"C(\(9\), \(3\))", r"\(84\)"), (r"C(\(6\), \(4\))", r"\(15\)")],
+                 ("rij", [(r"\(C(8, 2)\)", r"\(28\)"), (r"\(C(9, 3)\)", r"\(84\)"), (r"\(C(6, 4)\)", r"\(15\)")],
                   "Bereken.", W),
-                 ("rij", [(r"C(\(15\), \(2\))", r"\(105\)"), (r"C(\(12\), \(4\))", r"\(495\)"), (r"C(\(10\), \(7\))", r"\(120\)")],
+                 ("rij", [(r"\(C(15, 2)\)", r"\(105\)"), (r"\(C(12, 4)\)", r"\(495\)"), (r"\(C(10, 7)\)", r"\(120\)")],
                   "Bereken.", W),
-                 ("kort", r"C(\(11\), \(8\)). Gebruik de eigenschap C(\(n\), \(p\)) = C(\(n\), \(n - p\)).",
-                  r"\(165\), want C(\(11\), \(8\)) = C(\(11\), \(3\))", W),
-                 ("kort", r"C(\(20\), \(3\)).", r"\(1140\)", W),
+                 ("kort", r"\(C(11, 8)\). Gebruik de eigenschap \(C(n, p) = C(n, n - p)\).",
+                  r"\(165\), want \(C(11, 8) = C(11, 3)\)", W),
+                 ("kort", r"\(C(20, 3)\).", r"\(1140\)", W),
              ]),
         dict(kop="Volgorde of niet",
              opdracht="Schrijf combinatie of productregel, en bereken daarna.",
              oefeningen=[
-                 ("kort", "Uit tien leerlingen een jury van drie kiezen.", r"combinatie, C(\(10\), \(3\)) = \(120\)", WW),
+                 ("kort", "Uit tien leerlingen een jury van drie kiezen.", r"combinatie, \(C(10, 3) = 120\)", WW),
                  ("kort", "Uit tien leerlingen een voorzitter, een secretaris en een "
                           "penningmeester kiezen.", r"productregel, \(10 \cdot 9 \cdot 8 = 720\)", WW),
                  ("kort", "Twaalf mensen geven elkaar één keer een hand. Hoeveel handdrukken?",
-                  r"combinatie, C(\(12\), \(2\)) = \(66\)", WW),
+                  r"combinatie, \(C(12, 2) = 66\)", WW),
                  ("kort", r"Zes van de \(49\) getallen van de Lotto aankruisen.",
-                  r"combinatie, C(\(49\), \(6\)) = \(13\,983\,816\)", WW),
+                  r"combinatie, \(C(49, 6) = 13\,983\,816\)", WW),
              ]),
         dict(kop="De klassieke fout",
              opdracht="Zoek de fout en zet ze recht.",
              oefeningen=[
                  ("open", "Iemand moet uit negen spelers er vier kiezen en schrijft op: "
                           r"\(9 \cdot 8 \cdot 7 \cdot 6 = 3024\). Wat ging er mis, en wat is het juiste antwoord?",
-                  r"Hij vergat door \(4\)! te delen, dus hij telde elk viertal \(24\) keer. Het juiste "
-                  r"antwoord is \(3024 : 24\), dus C(\(9\), \(4\)) = \(126\).", 4),
-                 ("waar", r"C(\(n\), \(p\)) is altijd een geheel getal, ook al staat er een breuk in de "
+                  r"Hij vergat door \(4!\) te delen, dus hij telde elk viertal \(24\) keer. Het juiste "
+                  r"antwoord is \(3024 : 24\), dus \(C(9, 4) = 126\).", 4),
+                 ("waar", r"\(C(n, p)\) is altijd een geheel getal, ook al staat er een breuk in de "
                           "formule.", True),
              ]),
     ],
@@ -336,9 +336,9 @@ OEFENBUNDELS["oefenbundel-de-normale-verdeling-en-standaardiseren-beyond"] = dic
         dict(kop="De vuistregel 68 — 95 — 99,7",
              opdracht="Gebruik de vuistregel. Antwoorden in procent.",
              oefeningen=[
-                 ("kort", r"Hoeveel procent ligt tussen \(\mu\) − \(\sigma\) en \(\mu\) + \(\sigma\)?", r"ongeveer \(68\,\%\)", W),
-                 ("kort", r"Hoeveel procent ligt tussen \(\mu\) \(- 2\) \(\sigma\) en \(\mu\) + \(2\) \(\sigma\)?", r"ongeveer \(95\,\%\)", W),
-                 ("kort", r"Hoeveel procent ligt bóven \(\mu\) + \(2\) \(\sigma\)?",
+                 ("kort", r"Hoeveel procent ligt tussen \(\mu - \sigma\) en \(\mu + \sigma\)?", r"ongeveer \(68\,\%\)", W),
+                 ("kort", r"Hoeveel procent ligt tussen \(\mu\) \(- 2\) \(\sigma\) en \(\mu + 2\) \(\sigma\)?", r"ongeveer \(95\,\%\)", W),
+                 ("kort", r"Hoeveel procent ligt bóven \(\mu + 2\) \(\sigma\)?",
                   r"ongeveer \(2{,}5\,\%\), want de \(5\,\%\) die overblijft verdeelt zich over twee staarten", WL),
                  ("kort", r"De lengte van mannen is \(N(178; 7)\). Tussen welke twee lengtes ligt "
                           r"ongeveer \(95\) procent?", r"tussen \(164\) en \(192\) cm", WW),
@@ -431,12 +431,12 @@ OEFENBUNDELS["oefenbundel-hypothesen-opstellen-h0-h1-en-de-richting-beyond"] = d
              oefeningen=[
                  ("open", r"Een fabrikant beweert dat zijn zakken \(500\) gram wegen. Jij vermoedt "
                           "dat ze te licht zijn.",
-                  r"\(H_{0}\): \(\mu\) = \(500\) en \(H_{1}\): \(\mu\) &lt; \(500\). Linkszijdig.", 3),
+                  r"\(H_{0}\): \(\mu = 500\) en \(H_{1}\): \(\mu\) &lt; \(500\). Linkszijdig.", 3),
                  ("open", r"Een school zegt dat \(60\) procent slaagt. Jij vermoedt dat het "
                           "anders ligt, maar je weet niet in welke richting.",
                   r"\(H_{0}\): \(p = 0{,}60\) en \(H_{1}\): \(p\) is verschillend van \(0{,}60\). Tweezijdig.", 3),
                  ("open", r"Een nieuwe methode zou het gemiddelde punt boven \(65\) tillen.",
-                  r"\(H_{0}\): \(\mu\) = \(65\) en \(H_{1}\): \(\mu\) &gt; \(65\). Rechtszijdig.", 3),
+                  r"\(H_{0}\): \(\mu = 65\) en \(H_{1}\): \(\mu\) &gt; \(65\). Rechtszijdig.", 3),
              ]),
         dict(kop="Eenzijdig of tweezijdig",
              opdracht="Schrijf linkszijdig, rechtszijdig of tweezijdig.",
@@ -451,13 +451,13 @@ OEFENBUNDELS["oefenbundel-hypothesen-opstellen-h0-h1-en-de-richting-beyond"] = d
              opdracht="Elk van deze paren is fout. Schrijf op waarom en zet het recht.",
              oefeningen=[
                  ("open", r"\(H_{0}\): \(\mu\) &gt; \(100\) en \(H_{1}\): \(\mu\) &lt; \(100\)",
-                  r"In \(H_{0}\) moet altijd een gelijkheid staan. Juist is \(H_{0}\): \(\mu\) = \(100\) en \(H_{1}\): \(\mu\) &lt; \(100\).", 3),
-                 ("open", r"\(H_{0}\): \(\mu\) = \(50\) en \(H_{1}\): \(\mu\) &gt; \(60\)",
+                  r"In \(H_{0}\) moet altijd een gelijkheid staan. Juist is \(H_{0}\): \(\mu = 100\) en \(H_{1}\): \(\mu\) &lt; \(100\).", 3),
+                 ("open", r"\(H_{0}\): \(\mu = 50\) en \(H_{1}\): \(\mu\) &gt; \(60\)",
                   r"De twee dekken niet alle mogelijkheden en gebruiken een ander getal: wat als \(\mu\) "
-                  r"vijfenvijftig is? Juist is \(H_{0}\): \(\mu\) = \(50\) en \(H_{1}\): \(\mu\) &gt; \(50\).", 3),
-                 ("open", r"\(H_{0}\): \(\bar{x}\) = \(20\) en \(H_{1}\): \(\bar{x}\) &gt; \(20\)",
+                  r"vijfenvijftig is? Juist is \(H_{0}\): \(\mu = 50\) en \(H_{1}\): \(\mu\) &gt; \(50\).", 3),
+                 ("open", r"\(H_{0}\): \(\bar{x} = 20\) en \(H_{1}\): \(\bar{x}\) &gt; \(20\)",
                   "Dat is een hypothese over je eigen steekproef, en die ken je al. Het moet over "
-                  r"de populatie gaan: \(H_{0}\): \(\mu\) = \(20\) en \(H_{1}\): \(\mu\) &gt; \(20\).", 3),
+                  r"de populatie gaan: \(H_{0}\): \(\mu = 20\) en \(H_{1}\): \(\mu\) &gt; \(20\).", 3),
              ]),
         dict(kop="De voorwaarden",
              opdracht="Mag je verder rekenen? Schrijf ja of nee, met het getal erbij.",
@@ -493,8 +493,8 @@ OEFENBUNDELS[r"oefenbundel-de-p-waarde-het-significantieniveau-en-de-twee-fouten
         dict(kop="Een toets helemaal uitrekenen",
              opdracht=r"Schrijf de vier stappen op: hypothesen, voorwaarden, z en \(p\), besluit.",
              oefeningen=[
-                 ("tekst", r"<p>\(H_{0}\) zegt \(\mu\) = \(70\). Je meet \(\bar{x}\) gelijk aan \(68\), bij "
-                           r"\(n = 49\) en \(\sigma\) = \(6\). Je toetst linkszijdig, met \(\alpha\) = \(0{,}05\).</p>"),
+                 ("tekst", r"<p>\(H_{0}\) zegt \(\mu = 70\). Je meet \(\bar{x}\) gelijk aan \(68\), bij "
+                           r"\(n = 49\) en \(\sigma = 6\). Je toetst linkszijdig, met \(\alpha = 0{,}05\).</p>"),
                  ("kort", "Bereken de standaardafwijking van het steekproefgemiddelde.",
                   r"\(6 : 7\), dus \(0{,}857\) (op drie decimalen)", WW),
                  ("kort", "Bereken z op twee decimalen.", r"\(-2{,}33\)", W),
@@ -506,10 +506,10 @@ OEFENBUNDELS[r"oefenbundel-de-p-waarde-het-significantieniveau-en-de-twee-fouten
         dict(kop="Besluiten",
              opdracht="Verwerpen of niet verwerpen? Schrijf het besluit en waarom.",
              oefeningen=[
-                 ("rij", [(r"\(p = 0{,}0548\) bij \(\alpha\) = \(0{,}05\)", "niet verwerpen"),
-                          (r"\(p = 0{,}0098\) bij \(\alpha\) = \(0{,}05\)", "verwerpen")],
+                 ("rij", [(r"\(p = 0{,}0548\) bij \(\alpha = 0{,}05\)", "niet verwerpen"),
+                          (r"\(p = 0{,}0098\) bij \(\alpha = 0{,}05\)", "verwerpen")],
                   "Wat besluit je?", "130px"),
-                 ("kort", r"\(p = 0{,}0359\) bij \(\alpha\) = \(0{,}01\)",
+                 ("kort", r"\(p = 0{,}0359\) bij \(\alpha = 0{,}01\)",
                   r"niet verwerpen: \(0{,}0359\) is groter dan \(0{,}01\)", WL),
                  ("kies", r"Je verwerpt \(H_{0}\) niet. Wat heb je aangetoond?",
                   [r"dat \(H_{0}\) waar is", r"niets over \(H_{0}\), je hebt enkel te weinig bewijs tegen \(H_{0}\)"], 1),
@@ -951,7 +951,7 @@ OEFENBUNDELS["oefenbundel-een-statistisch-onderzoek-met-de-rekenapps-beyond"] = 
                  ("kort", "Is de proportievoorwaarde voldaan?",
                   r"ja: \(n\) is \(100\), \(n \cdot p\) is \(60\) en \(n \cdot (1 - p)\) is \(40\)", WL),
                  ("kort", r"Bereken \(p\) met een dakje.", r"\(0{,}58\)", W),
-                 ("open", r"Je vindt een \(p\)-waarde van \(0{,}3415\) bij \(\alpha\) = \(0{,}05\). Schrijf je besluit "
+                 ("open", r"Je vindt een \(p\)-waarde van \(0{,}3415\) bij \(\alpha = 0{,}05\). Schrijf je besluit "
                           "in een volle zin.",
                   r"Omdat \(0{,}3415\) groter is dan \(0{,}05\), verwerp ik \(H_{0}\) niet. Er is te weinig bewijs om "
                   r"te besluiten dat minder dan \(60\) procent fietst. Dat betekent niet dat de "

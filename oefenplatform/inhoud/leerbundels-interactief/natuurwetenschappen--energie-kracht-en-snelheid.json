@@ -61,7 +61,7 @@
    "blokken": [
     {
      "soort": "kader",
-     "html": "De formule voor een <strong>constante snelheid</strong>:<br><strong>\\(v = \\Delta x / \\Delta t\\)</strong> — de verplaatsing gedeeld door de tijdsduur.<br>Daaruit volgt <strong>\\(\\Delta x = v \\times \\Delta t\\)</strong> en <strong>\\(\\Delta t = \\Delta x / v\\)</strong>.<br>Δx is de verplaatsing in meter (m), Δt de tijdsduur in seconde (s), v de snelheid in meter per seconde (m/s). Kilometer per uur (km/h) mag ook, maar is geen SI-eenheid."
+     "html": "De formule voor een <strong>constante snelheid</strong>:<br><strong>\\(v = \\Delta x / \\Delta t\\)</strong> — de verplaatsing gedeeld door de tijdsduur.<br>Daaruit volgt <strong>\\(\\Delta x = v \\times \\Delta t\\)</strong> en <strong>\\(\\Delta t = \\Delta x / v\\)</strong>.<br>\\(\\Delta x\\) is de verplaatsing in meter (m), \\(\\Delta t\\) de tijdsduur in seconde (s), v de snelheid in meter per seconde (m/s). Kilometer per uur (km/h) mag ook, maar is geen SI-eenheid."
     },
     {
      "soort": "tekst",

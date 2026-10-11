@@ -16,7 +16,7 @@
     },
     {
      "soort": "kader",
-     "html": "<p>Waarden nul, één en twee met kansen \\(0{,}1\\) / \\(0{,}3\\) / \\(0{,}6\\):</p><p style=\"text-align:center;\">E(X) = \\(0 \\cdot 0{,}1 + 1 \\cdot 0{,}3 + 2 \\cdot 0{,}6\\) = <strong>\\(1{,}5\\)</strong></p><p>Merk op: \\(1{,}5\\) is geen waarde die X kan aannemen. Dat hoeft ook niet — <strong>de verwachtingswaarde moet geen waarde zijn die echt voorkomt</strong>. Een winkel die gemiddeld \\(2{,}4\\) fietsen per dag verkoopt, verkoopt er elke dag een geheel aantal; alleen het gemiddelde is een kommagetal.</p>"
+     "html": "<p>Waarden nul, één en twee met kansen \\(0{,}1\\), \\(0{,}3\\) en \\(0{,}6\\):</p><p style=\"text-align:center;\">E(X) = \\(0 \\cdot 0{,}1 + 1 \\cdot 0{,}3 + 2 \\cdot 0{,}6\\) = <strong>\\(1{,}5\\)</strong></p><p>Merk op: \\(1{,}5\\) is geen waarde die X kan aannemen. Dat hoeft ook niet — <strong>de verwachtingswaarde moet geen waarde zijn die echt voorkomt</strong>. Een winkel die gemiddeld \\(2{,}4\\) fietsen per dag verkoopt, verkoopt er elke dag een geheel aantal; alleen het gemiddelde is een kommagetal.</p>"
     },
     {
      "soort": "tekst",

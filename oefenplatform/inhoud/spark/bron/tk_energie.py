@@ -260,25 +260,25 @@ DEEL2 = [
         type="meerkeuze",
         vraag="Waarom zorgt het verbranden van fossiele brandstoffen voor klimaatverandering?",
         opties=[
-            "Er komt CO2 vrij, en dat is een broeikasgas",
+            "Er komt CO₂ vrij, en dat is een broeikasgas",
             "Er komt zuurstof vrij die de lucht opwarmt",
             "Er komt water vrij dat de zeespiegel doet stijgen",
             "Er komt stof vrij dat het zonlicht tegenhoudt",
         ],
         antwoord=0,
-        uitleg="Broeikasgassen houden warmte vast in de dampkring. Hoe meer CO2 wij erbij stoken, hoe sterker dat effect wordt.",
+        uitleg="Broeikasgassen houden warmte vast in de dampkring. Hoe meer CO₂ wij erbij stoken, hoe sterker dat effect wordt.",
     ),
     dict(
         type="invultekst",
         vraag="Het belangrijkste broeikasgas dat vrijkomt bij het verbranden van fossiele brandstoffen is ___.",
         antwoord=["CO2", "koolstofdioxide"],
-        uitleg="CO2 of koolstofdioxide komt vrij bij elke verbranding van steenkool, aardgas, benzine of stookolie.",
+        uitleg="CO₂ of koolstofdioxide komt vrij bij elke verbranding van steenkool, aardgas, benzine of stookolie.",
     ),
     dict(
         type="waarofniet",
-        vraag="CO2 is een broeikasgas.",
+        vraag="CO₂ is een broeikasgas.",
         antwoord=True,
-        uitleg="CO2 houdt warmte vast in de dampkring. Dat is precies wat een broeikasgas doet.",
+        uitleg="CO₂ houdt warmte vast in de dampkring. Dat is precies wat een broeikasgas doet.",
     ),
     dict(
         type="meerkeuze",
@@ -331,9 +331,9 @@ DEEL2 = [
     ),
     dict(
         type="waarofniet",
-        vraag="Bij het opwekken van stroom met een windmolen komt er geen CO2 vrij.",
+        vraag="Bij het opwekken van stroom met een windmolen komt er geen CO₂ vrij.",
         antwoord=True,
-        uitleg="Er wordt niets verbrand, dus er komt bij het draaien geen CO2 vrij. Dat is het grote voordeel van wind en zon.",
+        uitleg="Er wordt niets verbrand, dus er komt bij het draaien geen CO₂ vrij. Dat is het grote voordeel van wind en zon.",
     ),
     dict(
         type="meerkeuze",

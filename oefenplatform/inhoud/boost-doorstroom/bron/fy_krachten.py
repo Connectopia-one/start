@@ -185,13 +185,13 @@ DEEL1 = [
         type="invultekst",
         vraag="Welk symbool gebruikt men voor een kracht?",
         antwoord=["F"],
-        uitleg="F, van het Latijnse woord voor kracht. De zwaartekracht krijgt Fz, de veerkracht Fv.",
+        uitleg=r"F, van het Latijnse woord voor kracht. De zwaartekracht krijgt \(F_{z}\), de veerkracht \(F_{v}\).",
     ),
     dict(
         type="invultekst",
         vraag="Hoe noemt men de kracht waarmee een oppervlak loodrecht terugduwt op een voorwerp dat erop ligt?",
         antwoord=["normaalkracht", "de normaalkracht", "normaal"],
-        uitleg="De normaalkracht, met symbool Fn. Normaal betekent hier loodrecht.",
+        uitleg=r"De normaalkracht, met symbool \(F_{n}\). Normaal betekent hier loodrecht.",
     ),
     dict(
         type="invultekst",
@@ -269,7 +269,7 @@ DEEL2 = [
     dict(
         type="meerkeuze",
         vraag="Welke formule geeft de statische wrijvingskracht?",
-        opties=[r"\(F_{w} = \mu\) . Fn", r"\(F_{w} = \mu / F_{n}\)", r"\(F_{w} = \mu \cdot m\)", r"\(F_{w} = F_{n} / \mu\)"],
+        opties=[r"\(F_{w} = \mu \cdot F_{n}\)", r"\(F_{w} = \mu / F_{n}\)", r"\(F_{w} = \mu \cdot m\)", r"\(F_{w} = F_{n} / \mu\)"],
         antwoord=0,
         uitleg="De wrijvingscoëfficiënt maal de normaalkracht. Die formule staat in de bijlage die je op het examen mag gebruiken.",
     ),
@@ -282,7 +282,7 @@ DEEL2 = [
     ),
     dict(
         type="meerkeuze",
-        vraag="Welke uitspraken over de wrijvingscoëfficiënt μ zijn juist? Kruis alles aan wat juist is.",
+        vraag=r"Welke uitspraken over de wrijvingscoëfficiënt \(\mu\) zijn juist? Kruis alles aan wat juist is.",
         opties=[
             "ze heeft geen eenheid",
             "ze hangt af van de twee materialen die over elkaar schuiven",
@@ -290,7 +290,7 @@ DEEL2 = [
             "ze hangt af van de massa van het voorwerp",
         ],
         antwoord=[0, 1],
-        uitleg="μ is een verhouding van twee krachten, dus een getal zonder eenheid. Ze hangt af van het soort oppervlakken, niet van de massa: die zit al in de normaalkracht.",
+        uitleg=r"\(\mu\) is een verhouding van twee krachten, dus een getal zonder eenheid. Ze hangt af van het soort oppervlakken, niet van de massa: die zit al in de normaalkracht.",
     ),
     dict(
         type="meerkeuze",
@@ -320,7 +320,7 @@ DEEL2 = [
         type="waarofniet",
         vraag="Een zwaarder voorwerp op dezelfde vloer ondervindt een grotere wrijvingskracht.",
         antwoord=True,
-        uitleg=r"De normaalkracht is groter, en \(F_{w} = \mu\) . Fn. De wrijvingscoëfficiënt blijft wel dezelfde, want de materialen veranderen niet.",
+        uitleg=r"De normaalkracht is groter, en \(F_{w} = \mu \cdot F_{n}\). De wrijvingscoëfficiënt blijft wel dezelfde, want de materialen veranderen niet.",
     ),
     dict(
         type="waarofniet",

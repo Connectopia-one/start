@@ -210,7 +210,7 @@ DEEL2 = [
         vraag="Welke formule geeft de latente warmte bij een faseovergang?",
         opties=[r"\(Q = l \cdot m\)", r"\(Q = c \cdot m \cdot \Delta T\)", r"\(Q = C \cdot \Delta T\)", r"\(Q = l \cdot \Delta T\)"],
         antwoord=0,
-        uitleg="De specifieke faseovergangswarmte maal de massa. Er staat geen ΔT in, want de temperatuur verandert tijdens de overgang niet.",
+        uitleg=r"De specifieke faseovergangswarmte maal de massa. Er staat geen \(\Delta T\) in, want de temperatuur verandert tijdens de overgang niet.",
     ),
     dict(
         type="meerkeuze",

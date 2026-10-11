@@ -19,7 +19,7 @@ DEEL1 = [
     dict(
         type="meerkeuze",
         vraag="Welke formule geeft de druk op een oppervlak?",
-        opties=[r"\(p = F / A\)", r"\(p = A / F\)", r"\(p = F\) . A", r"\(p = F + A\)"],
+        opties=[r"\(p = F / A\)", r"\(p = A / F\)", r"\(p = F \cdot A\)", r"\(p = F + A\)"],
         antwoord=0,
         uitleg="De kracht gedeeld door de oppervlakte waarop ze werkt. Dezelfde kracht op een kleiner oppervlak geeft dus een grotere druk.",
     ),
@@ -183,7 +183,7 @@ DEEL2 = [
     dict(
         type="meerkeuze",
         vraag="Welke formule geeft de hydrostatische druk in een vloeistof?",
-        opties=[r"\(p = \rho \cdot g \cdot h\)", r"\(p = \rho \cdot g\) . V", r"\(p = F / A\)", r"\(p = \rho / h\)"],
+        opties=[r"\(p = \rho \cdot g \cdot h\)", r"\(p = \rho \cdot g \cdot V\)", r"\(p = F / A\)", r"\(p = \rho / h\)"],
         antwoord=0,
         uitleg="De massadichtheid van de vloeistof maal de zwaarteveldsterkte maal de diepte. Die formule staat in de bijlage van het examen.",
     ),
@@ -197,7 +197,7 @@ DEEL2 = [
             "de totale hoeveelheid vloeistof in het vat",
         ],
         antwoord=[0, 1],
-        uitleg="Enkel ρ, g en h staan in de formule. Op dezelfde diepte is de druk in een smal buisje even groot als in een breed bad.",
+        uitleg=r"Enkel \(\rho\), g en h staan in de formule. Op dezelfde diepte is de druk in een smal buisje even groot als in een breed bad.",
     ),
     dict(
         type="meerkeuze",
@@ -252,7 +252,7 @@ DEEL2 = [
             "de kleine zuiger beweegt veel sneller dan de grote",
         ],
         antwoord=0,
-        uitleg=r"Uit \(p = F / A\) volgt \(F = p\) . A. Bij dezelfde druk levert de tien keer grotere zuiger tien keer meer kracht, maar hij komt ook tien keer minder ver.",
+        uitleg=r"Uit \(p = F / A\) volgt \(F = p \cdot A\). Bij dezelfde druk levert de tien keer grotere zuiger tien keer meer kracht, maar hij komt ook tien keer minder ver.",
     ),
     dict(
         type="meerkeuze",
@@ -276,7 +276,7 @@ DEEL2 = [
             "de luchtdruk boven het water is groter",
         ],
         antwoord=[0, 1],
-        uitleg="Zeewater heeft een grotere ρ, en ρ staat in de formule. De diepte telt nog altijd mee, en de luchtdruk boven de zee is dezelfde.",
+        uitleg=r"Zeewater heeft een grotere \(\rho\), en \(\rho\) staat in de formule. De diepte telt nog altijd mee, en de luchtdruk boven de zee is dezelfde.",
     ),
     dict(
         type="meerkeuze",

@@ -343,7 +343,7 @@ OEFENBUNDELS["oefenbundel-redeneringen-en-uitspraken-spark"] = dict(
              opdracht="Redeneer met letters, niet met voorbeelden.",
              oefeningen=[
                  ("open", "Toon aan dat de som van twee even getallen altijd even is.",
-                  r"Elk even getal kan je schrijven als 2a en 2b. Hun som is \(2a + 2b = 2\)\((a + b)\), "
+                  r"Elk even getal kan je schrijven als 2a en 2b. Hun som is \(2a + 2b = 2(a + b)\), "
                   r"en dat is een veelvoud van \(2\), dus even.", 4),
                  ("waar", "Het product van twee oneven getallen is altijd even.", False),
                  ("rij", [(r"uit \(a = b\) volgt \(a^{2} = b^{2}\)", "juist"),
@@ -557,11 +557,11 @@ OEFENBUNDELS["oefenbundel-relaties-en-verandering-spark"] = dict(
         dict(kop="Het assenstelsel",
              opdracht="De eerste coördinaat hoort bij de x-as.",
              oefeningen=[
-                 ("kort", "Welke coördinaten heeft de oorsprong?", r"(\(0\), \(0\))", W),
+                 ("kort", "Welke coördinaten heeft de oorsprong?", r"\((0, 0)\)", W),
                  ("kort", "Een punt ligt op de x-as. Wat weet je over zijn y-coördinaat?",
                   r"die is \(0\)", W),
-                 ("teken", r"Teken een assenstelsel en zet deze punten erop: \(A\)(\(2\), \(3\)), \(B\)(\(-1\), \(4\)), "
-                           r"\(C\)(\(0\), \(-2\)) en \(D\)(\(3\), \(0\)).",
+                 ("teken", r"Teken een assenstelsel en zet deze punten erop: \(A(2, 3)\), \(B(-1, 4)\), "
+                           r"\(C(0, -2)\) en \(D(3, 0)\).",
                   r"\(A\) rechtsboven, \(B\) linksboven, \(C\) op de y-as onder de oorsprong, \(D\) op de x-as "
                   "rechts van de oorsprong.", 55),
              ]),
@@ -572,11 +572,11 @@ OEFENBUNDELS["oefenbundel-relaties-en-verandering-spark"] = dict(
                  ("rij", [(r"3x als \(x = 7\)", r"\(21\)"), (r"\(2a + 5\) als \(a = 9\)", r"\(23\)"),
                           (r"\(x^{2} - 3x\) als \(x = 6\)", r"\(18\)"), (r"\(2a - b\) als \(a = 4\) en \(b = -5\)", r"\(13\)")],
                   "Bereken de getalwaarde.", WW),
-                 ("rij", [(r"\(5a + 2a - 3a\)", "4a"), (r"\(4\)\((x + 3)\)", r"\(4x + 12\)"),
-                          (r"\(2\)\((3x - 4) + 5x\)", r"\(11x - 8\)"), (r"\(7b - b\)", "6b")],
+                 ("rij", [(r"\(5a + 2a - 3a\)", "4a"), (r"\(4(x + 3)\)", r"\(4x + 12\)"),
+                          (r"\(2(3x - 4) + 5x\)", r"\(11x - 8\)"), (r"\(7b - b\)", "6b")],
                   "Herleid of werk de haakjes weg.", WW),
                  ("rij", [(r"\((a + b)^{2}\)", r"\(a^{2} + 2ab + b^{2}\)"), (r"\((a - b)^{2}\)", r"\(a^{2} - 2ab + b^{2}\)"),
-                          (r"\((a + b)\)\((a - b)\)", r"\(a^{2} - b^{2}\)"), (r"\((x + 5)^{2}\)", r"\(x^{2} + 10x + 25\)")],
+                          (r"\((a + b)(a - b)\)", r"\(a^{2} - b^{2}\)"), (r"\((x + 5)^{2}\)", r"\(x^{2} + 10x + 25\)")],
                   "Werk uit.", "230px"),
                  ("kort", r"Wat is de graad van de veelterm \(4x^{3} + 2x - 9\)?", r"\(3\)", W),
                  ("kort", "In de eenterm 7x^{4}, welk getal is de coëfficiënt?", r"\(7\)", W),
@@ -588,7 +588,7 @@ OEFENBUNDELS["oefenbundel-relaties-en-verandering-spark"] = dict(
                  ("rij", [(r"\(x + 9 = 15\)", r"\(x = 6\)"), (r"\(4x = 28\)", r"\(x = 7\)"),
                           (r"\(3x + 4 = 19\)", r"\(x = 5\)"), (r"\(x - 6 = -11\)", r"\(x = -5\)")],
                   "Los op.", WW),
-                 ("rij", [(r"\(6x - 5 = 3x + 7\)", r"\(x = 4\)"), (r"\(2\)\((x - 3) = 14\)", r"\(x = 10\)"),
+                 ("rij", [(r"\(6x - 5 = 3x + 7\)", r"\(x = 4\)"), (r"\(2(x - 3) = 14\)", r"\(x = 10\)"),
                           (r"\(x : 5 = 4\)", r"\(x = 20\)"), (r"\(5 - x = 12\)", r"\(x = -7\)")],
                   "Los op.", WW),
                  ("open", r"Bij \(6x = 30\) deelt iemand enkel links door \(6\) en schrijft \(x = 30\). "

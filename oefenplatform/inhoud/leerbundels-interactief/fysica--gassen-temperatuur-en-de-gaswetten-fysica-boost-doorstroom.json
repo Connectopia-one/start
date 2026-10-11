@@ -54,7 +54,7 @@
    "blokken": [
     {
      "soort": "tekst",
-     "html": "De <strong>vier toestandsgrootheden</strong> van een gas zijn <strong>druk p, volume V, absolute temperatuur T en stofhoeveelheid n</strong> (in mol). De <strong>ideale gaswet</strong> bindt ze samen: <strong>p . \\(V = n\\) . R . T</strong>, met <strong>\\(R = 8{,}31\\) J/(mol.K)</strong>."
+     "html": "De <strong>vier toestandsgrootheden</strong> van een gas zijn <strong>druk p, volume V, absolute temperatuur T en stofhoeveelheid n</strong> (in mol). De <strong>ideale gaswet</strong> bindt ze samen: <strong>\\(p \\cdot V = n \\cdot R \\cdot T\\)</strong>, met <strong>\\(R = 8{,}31\\) J/(mol.K)</strong>."
     },
     {
      "soort": "tekst",
@@ -62,11 +62,11 @@
     },
     {
      "soort": "tekst",
-     "html": "Blijft de <strong>stofhoeveelheid gelijk</strong>, dan geldt de <strong>algemene gaswet p.\\(V / T = c\\)onstant</strong>. Daar mogen p, V en T alle drie veranderen. Houd je er één vast, dan krijg je de <strong>afzonderlijke gaswetten</strong>."
+     "html": "Blijft de <strong>stofhoeveelheid gelijk</strong>, dan geldt de <strong>algemene gaswet \\(p \\cdot V / T = \\text{constant}\\)</strong>. Daar mogen p, V en T alle drie veranderen. Houd je er één vast, dan krijg je de <strong>afzonderlijke gaswetten</strong>."
     },
     {
      "soort": "tekst",
-     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Proces</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Wat blijft gelijk</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Wet</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Verband</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">isotherm</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">de temperatuur</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">p . \\(V = c\\)onstant</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">omgekeerd evenredig</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">isobaar</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">de druk</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">\\(V / T = c\\)onstant</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">recht evenredig</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">isochoor</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">het volume</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">\\(p / T = c\\)onstant</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">recht evenredig</td></tr></table>"
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Proces</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Wat blijft gelijk</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Wet</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Verband</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">isotherm</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">de temperatuur</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">\\(p \\cdot V = \\text{constant}\\)</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">omgekeerd evenredig</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">isobaar</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">de druk</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">\\(V / T = \\text{constant}\\)</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">recht evenredig</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">isochoor</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">het volume</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">\\(p / T = \\text{constant}\\)</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">recht evenredig</td></tr></table>"
     },
     {
      "soort": "tekst",
@@ -74,11 +74,11 @@
     },
     {
      "soort": "tekst",
-     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Opgave</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Rekenwerk</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Antwoord</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">\\(3{,}0\\) L bij \\(2{,}0\\) bar naar \\(1{,}0\\) L, isotherm</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">\\(2{,}0 \\times 3{,}0 = p \\cdot 1{,}0\\)</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">\\(6{,}0\\) bar</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">\\(4{,}0\\) L bij \\(1{,}0\\) bar naar \\(2{,}0\\) bar, isotherm</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">\\(1{,}0 \\times 4{,}0 = 2{,}0\\) . V</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">\\(2{,}0\\) L</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">\\(2{,}0\\) L bij \\(300\\) K naar \\(450\\) K, isobaar</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">\\(2{,}0 / 300 = V / 450\\)</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">\\(3{,}0\\) L</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">\\(1{,}0\\) bar bij \\(290\\) K naar \\(580\\) K, isochoor</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">T verdubbelt</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">\\(2{,}0\\) bar</td></tr></table>"
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Opgave</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Rekenwerk</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Antwoord</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">\\(3{,}0\\) L bij \\(2{,}0\\) bar naar \\(1{,}0\\) L, isotherm</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">\\(2{,}0 \\times 3{,}0 = p \\cdot 1{,}0\\)</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">\\(6{,}0\\) bar</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">\\(4{,}0\\) L bij \\(1{,}0\\) bar naar \\(2{,}0\\) bar, isotherm</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">\\(1{,}0 \\times 4{,}0 = 2{,}0 \\cdot V\\)</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">\\(2{,}0\\) L</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">\\(2{,}0\\) L bij \\(300\\) K naar \\(450\\) K, isobaar</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">\\(2{,}0 / 300 = V / 450\\)</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">\\(3{,}0\\) L</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">\\(1{,}0\\) bar bij \\(290\\) K naar \\(580\\) K, isochoor</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">T verdubbelt</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">\\(2{,}0\\) bar</td></tr></table>"
     },
     {
      "soort": "tekst",
-     "html": "Gaat een gas van \\(2{,}0\\) bar in \\(5{,}0\\) L naar \\(4{,}0\\) bar in \\(2{,}5\\) L, dan <strong>blijft het product p.V gelijk</strong> (\\(10\\) in beide gevallen). Volgens p.\\(V / T = c\\)onstant <strong>blijft T dan ook gelijk</strong>: het is een isotherm proces, en er is geen gas weggelopen."
+     "html": "Gaat een gas van \\(2{,}0\\) bar in \\(5{,}0\\) L naar \\(4{,}0\\) bar in \\(2{,}5\\) L, dan <strong>blijft het product p.V gelijk</strong> (\\(10\\) in beide gevallen). Volgens \\(p \\cdot V / T = \\text{constant}\\) <strong>blijft T dan ook gelijk</strong>: het is een isotherm proces, en er is geen gas weggelopen."
     },
     {
      "soort": "kader",
@@ -99,7 +99,7 @@
     },
     {
      "soort": "tekst",
-     "html": "Je kan een <strong>p(V)-grafiek omzetten naar een p(T)-grafiek</strong> met p.\\(V / T = c\\)onstant, punt per punt. Je moet wel weten <strong>welke grootheid vastgehouden werd</strong>, anders kan je niet omrekenen."
+     "html": "Je kan een <strong>p(V)-grafiek omzetten naar een p(T)-grafiek</strong> met \\(p \\cdot V / T = \\text{constant}\\), punt per punt. Je moet wel weten <strong>welke grootheid vastgehouden werd</strong>, anders kan je niet omrekenen."
     },
     {
      "soort": "tekst",
@@ -118,8 +118,8 @@
   "Bij \\(0\\) K zijn de kinetische energie, de druk en het volume van een ideaal gas nul.",
   "Een verschil van \\(20^{\\circ}\\text{C}\\) is hetzelfde als een verschil van \\(20\\) K.",
   "In de gaswetten vul je de temperatuur altijd in kelvin in.",
-  "Isotherm: p . \\(V = c\\)onstant. Isobaar: \\(V / T = c\\)onstant. Isochoor: \\(p / T = c\\)onstant.",
-  "Ideale gaswet: p . \\(V = n\\) . R . T, met \\(R = 8{,}31\\) J/(mol.K) voor elk gas.",
+  "Isotherm: \\(p \\cdot V = \\text{constant}\\). Isobaar: \\(V / T = \\text{constant}\\). Isochoor: \\(p / T = \\text{constant}\\).",
+  "Ideale gaswet: \\(p \\cdot V = n \\cdot R \\cdot T\\), met \\(R = 8{,}31\\) J/(mol.K) voor elk gas.",
   "Een p(V)-grafiek bij vaste T is een dalende kromme; V(T) en p(T) in kelvin zijn rechten door de oorsprong.",
   "Normdruk \\(1013\\) hPa en normtemperatuur \\(273{,}15\\) K zijn de normomstandigheden."
  ]

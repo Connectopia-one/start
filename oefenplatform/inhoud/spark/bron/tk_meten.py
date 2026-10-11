@@ -88,7 +88,7 @@ DEEL1 = [
         vraag="Welk symbool hoort bij de grootheid oppervlakte?",
         opties=["A", "O", "P", "V"],
         antwoord=0,
-        uitleg="Oppervlakte krijgt de letter A, omtrek de letter P en volume de letter V. Dat staat zo in bijlage 1.",
+        uitleg=r"Oppervlakte krijgt de letter A, omtrek de letter P en volume de letter V. Dat staat zo in bijlage \(1\).",
     ),
     dict(
         type="meerkeuze",
@@ -106,14 +106,14 @@ DEEL1 = [
     dict(
         type="meerkeuze",
         vraag="Hoeveel meter is een kilometer?",
-        opties=["1000 meter", "100 meter", "10 meter", "10 000 meter"],
+        opties=[r"\(1000\) meter", r"\(100\) meter", r"\(10\) meter", r"\(10\,000\) meter"],
         antwoord=0,
         uitleg="Kilo betekent duizend. Daarom is een kilogram ook duizend gram.",
     ),
     dict(
         type="meerkeuze",
         vraag="Hoeveel millimeter is een centimeter?",
-        opties=["10 millimeter", "100 millimeter", "1000 millimeter", "5 millimeter"],
+        opties=[r"\(10\) millimeter", r"\(100\) millimeter", r"\(1000\) millimeter", r"\(5\) millimeter"],
         antwoord=0,
         uitleg="Milli is een duizendste en centi een honderdste. Een centimeter is dus tien keer een millimeter.",
     ),
@@ -133,7 +133,7 @@ DEEL1 = [
     dict(
         type="meerkeuze",
         vraag="Hoeveel liter is een kubieke decimeter?",
-        opties=["1 liter", "10 liter", "100 liter", "1000 liter"],
+        opties=[r"\(1\) liter", r"\(10\) liter", r"\(100\) liter", r"\(1000\) liter"],
         antwoord=0,
         uitleg="Een kubieke decimeter is precies een liter. Een kubieke meter is dus duizend liter.",
     ),
@@ -146,14 +146,14 @@ DEEL1 = [
     dict(
         type="meerkeuze",
         vraag="Met welke formule bereken je de oppervlakte van een rechthoek?",
-        opties=["b maal h", "2 maal (b plus h)", "b plus h", "b maal h maal l"],
+        opties=["b maal h", r"\(2\) maal (b plus h)", "b plus h", "b maal h maal l"],
         antwoord=0,
         uitleg="Basis maal hoogte. De tweede formule is de omtrek van een rechthoek, de laatste het volume van een balk.",
     ),
     dict(
         type="meerkeuze",
         vraag="Met welke formule bereken je de omtrek van een vierkant?",
-        opties=["4 maal z", "z maal z", "z maal z maal z", "2 maal z"],
+        opties=[r"\(4\) maal z", "z maal z", "z maal z maal z", r"\(2\) maal z"],
         antwoord=0,
         uitleg="Vier gelijke zijden, dus vier keer de zijde. z maal z is de oppervlakte en z maal z maal z het volume van een kubus.",
     ),
@@ -161,11 +161,11 @@ DEEL1 = [
         type="waarofniet",
         vraag="Het volume van een balk bereken je met lengte maal breedte maal hoogte.",
         antwoord=True,
-        uitleg="Die formule staat zo in bijlage 2, de bijlage die je op het examen wél mag gebruiken.",
+        uitleg=r"Die formule staat zo in bijlage \(2\), de bijlage die je op het examen wél mag gebruiken.",
     ),
     dict(
         type="meerkeuze",
-        vraag="Welke formules staan in bijlage 2 van de vakfiche, die je op het examen mag gebruiken?",
+        vraag=r"Welke formules staan in bijlage \(2\) van de vakfiche, die je op het examen mag gebruiken?",
         opties=[
             "De omtrek van een cirkel",
             "De oppervlakte van een vierkant",
@@ -174,7 +174,7 @@ DEEL1 = [
             "De formule voor het elektrisch vermogen",
         ],
         antwoord=[0, 1, 2],
-        uitleg="Bijlage 2 bevat alleen formules voor omtrek, oppervlakte en volume. De massadichtheid en het vermogen moet je dus zelf kennen.",
+        uitleg=r"Bijlage \(2\) bevat alleen formules voor omtrek, oppervlakte en volume. De massadichtheid en het vermogen moet je dus zelf kennen.",
     ),
 ]
 
@@ -297,7 +297,7 @@ DEEL2 = [
     ),
     dict(
         type="meerkeuze",
-        vraag="Wat betekent de schaal 1:2 op een tekening?",
+        vraag=r"Wat betekent de schaal \(1\):\(2\) op een tekening?",
         opties=[
             "De tekening is half zo groot als het voorwerp",
             "De tekening is twee keer zo groot als het voorwerp",
@@ -305,11 +305,11 @@ DEEL2 = [
             "Er staan twee voorwerpen naast elkaar op de tekening",
         ],
         antwoord=0,
-        uitleg="Het eerste getal is de tekening, het tweede het echte voorwerp. Bij 1:2 is één centimeter op papier dus twee centimeter in het echt.",
+        uitleg=r"Het eerste getal is de tekening, het tweede het echte voorwerp. Bij \(1\):\(2\) is één centimeter op papier dus twee centimeter in het echt.",
     ),
     dict(
         type="meerkeuze",
-        vraag="Wat betekent de schaal 2:1 op een tekening?",
+        vraag=r"Wat betekent de schaal \(2\):\(1\) op een tekening?",
         opties=[
             "De tekening is twee keer zo groot als het voorwerp",
             "De tekening is half zo groot als het voorwerp",
@@ -321,7 +321,7 @@ DEEL2 = [
     ),
     dict(
         type="waarofniet",
-        vraag="Bij schaal 1:1 is de tekening even groot als het voorwerp.",
+        vraag=r"Bij schaal \(1\):\(1\) is de tekening even groot als het voorwerp.",
         antwoord=True,
         uitleg="Op ware grootte dus. Je kunt het werkstuk dan gewoon op de tekening leggen om te controleren.",
     ),

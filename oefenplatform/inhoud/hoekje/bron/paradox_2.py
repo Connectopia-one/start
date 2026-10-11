@@ -107,7 +107,7 @@ VRAGEN = [
         "type": "waarofniet",
         "vraag": "Op een hoge berg kookt water bij een lagere temperatuur dan aan zee.",
         "antwoord": True,
-        "uitleg": "De luchtdruk is er lager, dus moleculen ontsnappen makkelijker. Op de Mont Blanc kookt water rond 85 graden. Handig? Niet echt: je eieren koken er trager gaar, want het water is minder heet.",
+        "uitleg": r"De luchtdruk is er lager, dus moleculen ontsnappen makkelijker. Op de Mont Blanc kookt water rond \(85\) graden. Handig? Niet echt: je eieren koken er trager gaar, want het water is minder heet.",
     },
     {
         "type": "meerkeuze",
@@ -167,7 +167,7 @@ VRAGEN = [
         "type": "waarofniet",
         "vraag": "Bananen zijn licht radioactief, en daarom mag je er maar enkele per dag eten.",
         "antwoord": False,
-        "uitleg": "Licht radioactief zijn ze wel: ze zitten vol kalium, en een klein deel daarvan is kalium-40, dat van nature vervalt. Gevaarlijk is het niet, want je lichaam bevat zelf al kalium en houdt dat gewoon op peil. Er bestaat zelfs een scherts-eenheid, de bananendosis, om kleine stralingshoeveelheden aanschouwelijk te maken.",
+        "uitleg": r"Licht radioactief zijn ze wel: ze zitten vol kalium, en een klein deel daarvan is kalium-\(40\), dat van nature vervalt. Gevaarlijk is het niet, want je lichaam bevat zelf al kalium en houdt dat gewoon op peil. Er bestaat zelfs een scherts-eenheid, de bananendosis, om kleine stralingshoeveelheden aanschouwelijk te maken.",
     },
     {
         "type": "meerkeuze",
@@ -197,7 +197,7 @@ VRAGEN = [
         "type": "waarofniet",
         "vraag": "Twee willekeurige mensen verschillen in ongeveer tien procent van hun DNA.",
         "antwoord": False,
-        "uitleg": "Twee mensen komen voor ongeveer 99,9 procent overeen. Al het verschil tussen mensen op aarde zit in dat laatste tiende van een procent. Binnen één groep chimpansees is de erfelijke verscheidenheid groter dan onder alle mensen samen.",
+        "uitleg": r"Twee mensen komen voor ongeveer \(99{,}9\) procent overeen. Al het verschil tussen mensen op aarde zit in dat laatste tiende van een procent. Binnen één groep chimpansees is de erfelijke verscheidenheid groter dan onder alle mensen samen.",
     },
     {
         "type": "meerkeuze",
@@ -209,6 +209,6 @@ VRAGEN = [
             "Ongeveer tien kilometer",
         ],
         "antwoord": 0,
-        "uitleg": "Geluid legt zo'n 340 meter per seconde af, dus drie seconden is ruim een kilometer. Licht is er praktisch meteen. De donder zelf is de knal van lucht die door de bliksem plots tot tienduizenden graden wordt opgewarmd en uitzet.",
+        "uitleg": r"Geluid legt zo'n \(340\) meter per seconde af, dus drie seconden is ruim een kilometer. Licht is er praktisch meteen. De donder zelf is de knal van lucht die door de bliksem plots tot tienduizenden graden wordt opgewarmd en uitzet.",
     },
 ]

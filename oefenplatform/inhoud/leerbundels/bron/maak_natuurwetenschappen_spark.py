@@ -745,8 +745,8 @@ BUNDELS["massadichtheid"] = dict(
             ("fig", tabel(["grootheid", "symbool", "SI-eenheid", "ook gebruikt"], [
                 ["massa", "m", "kilogram (kg)", "gram (g)"],
                 ["volume", "V", r"kubieke meter (\(\text{m}^{3}\))", r"liter (L), \(\text{cm}^{3}\)"],
-                ["massadichtheid", "ρ (rho)", r"kilogram per kubieke meter (kg/\(\text{m}^{3}\))", r"g/\(\text{cm}^{3}\)"],
-            ]), "ρ is de Griekse letter rho. Let op het verschil tussen de kleine v (snelheid) en de hoofdletter V (volume)."),
+                ["massadichtheid", r"\(\rho\) (rho)", r"kilogram per kubieke meter (kg/\(\text{m}^{3}\))", r"g/\(\text{cm}^{3}\)"],
+            ]), r"\(\rho\) is de Griekse letter rho. Let op het verschil tussen de kleine v (snelheid) en de hoofdletter V (volume)."),
             ("kader", r"<strong>\(\rho = m / V\)</strong> — je deelt de massa door het volume.<br>"
                       r"Daaruit volgt <strong>\(m = \rho \times V\)</strong> en <strong>\(V = m / \rho\)</strong>. "
                       "Met dezelfde formule kan je dus alle drie de grootheden berekenen."),
@@ -766,7 +766,7 @@ BUNDELS["massadichtheid"] = dict(
                   "de vloeistof drijft."),
             ("p", "Van een <strong>regelmatig voorwerp</strong> reken je het volume uit."),
             ("fig", tabel(["figuur", "formule", "voorbeeld"], [
-                ["kubus", r"\(V = z\)³ &nbsp;(z = de ribbe of zijde)", r"ribbe 2 cm → \(V = 2 \cdot 2 \cdot 2 = 8\,\text{cm}^{3}\)"],
+                ["kubus", r"\(V = z^{3}\) &nbsp;(z = de ribbe of zijde)", r"ribbe 2 cm → \(V = 2 \cdot 2 \cdot 2 = 8\,\text{cm}^{3}\)"],
                 ["balk", r"\(V = l \cdot b \cdot h\) &nbsp;(lengte, breedte, hoogte)", r"\(5 \cdot 4 \cdot 2 = 40\,\text{cm}^{3}\)"],
                 ["bol", r"\(V = \tfrac{4}{3} \cdot \pi \cdot r^{3}\) &nbsp;(r = de straal)", r"straal 3 cm → \(\tfrac{4}{3} \cdot 3{,}14 \cdot 27 = 113{,}04\,\text{cm}^{3}\)"],
                 ["cilinder", r"\(V = \pi \cdot r^{2} \cdot h\) &nbsp;(straal en hoogte)", r"straal 2 cm, hoogte 10 cm → \(3{,}14 \cdot 4 \cdot 10 = 125{,}6\,\text{cm}^{3}\)"],
@@ -778,14 +778,14 @@ BUNDELS["massadichtheid"] = dict(
             ("fig", svg.maatladder(["m³", "dm³ = L", "cm³ = mL"], onder="× 1000 naar beneden, : 1000 naar boven"),
              r"\(1\,\text{m}^{3} = 1000\) L, \(1\) L = \(1000\,\text{cm}^{3}\), en \(1\) mL is precies \(1\,\text{cm}^{3}\). Dus \(2\) L = \(0{,}002\,\text{m}^{3}\) en \(0{,}5\,\text{m}^{3} = 500\) L."),
             ("kader", r"Van <strong>g/\(\text{cm}^{3}\) naar kg/\(\text{m}^{3}\)</strong> vermenigvuldig je met \(1000\), en omgekeerd deel "
-                      r"je door \(1000\). Water is \(1\) g/\(\text{cm}^{3}\) = \(1000\) kg/\(\text{m}^{3}\); aluminium is \(2700\) kg/\(\text{m}^{3}\) = \(2{,}7\) g/\(\text{cm}^{3}\). "
+                      r"je door \(1000\). Water is \(1\) g/\(\text{cm}^{3} = 1000\) kg/\(\text{m}^{3}\); aluminium is \(2700\) kg/\(\text{m}^{3} = 2{,}7\) g/\(\text{cm}^{3}\). "
                       r"Eén liter water weegt dus precies \(1\) kg."),
         ]),
         dict(kop=r"Rekenen met \(\rho = m / V\)", blokken=[
             ("fig", tabel(["wat je zoekt", "hoe", "voorbeeld"], [
                 ["massadichtheid", r"\(\rho = m / V\)", r"300 g en \(100\,\text{cm}^{3}\) → 3 g/\(\text{cm}^{3}\)"],
-                ["massa", r"\(m = \rho \times V\)", r"\(19\) g/\(\text{cm}^{3}\) × \(3\,\text{cm}^{3}\) = \(57\) g goud"],
-                ["volume", r"\(V = m / \rho\)", r"\(780\) g ijzer : \(7{,}8\) g/\(\text{cm}^{3}\) = \(100\,\text{cm}^{3}\)"],
+                ["massa", r"\(m = \rho \times V\)", r"\(19\) g/\(\text{cm}^{3} \times 3\,\text{cm}^{3} = 57\) g goud"],
+                ["volume", r"\(V = m / \rho\)", r"\(780\) g ijzer : \(7{,}8\) g/\(\text{cm}^{3} = 100\,\text{cm}^{3}\)"],
             ]), r"Werk altijd eerst het volume uit als je een kubus, balk, bol of cilinder krijgt: \(72\) g in een kubus van \(2\) cm is \(72 : 8 = 9\) g/\(\text{cm}^{3}\)."),
             ("p", r"Een voorbeeld met onderdompeling: het water stijgt van \(40\) mL naar \(55\) mL, dus het volume "
                   r"is \(15\,\text{cm}^{3}\). Weegt het blokje \(40{,}5\) g, dan is \(\rho = 40{,}5 : 15 = 2{,}7\) g/\(\text{cm}^{3}\) — waarschijnlijk "
@@ -808,9 +808,9 @@ BUNDELS["massadichtheid"] = dict(
         ]),
         dict(kop="Zinken, zweven, stijgen of drijven", blokken=[
             ("fig", tabel(["als …", "dan …"], [
-                ["ρ van het voorwerp &lt; ρ van de vloeistof", "het <strong>drijft</strong>"],
-                ["ρ van het voorwerp = ρ van de vloeistof", "het <strong>zweeft</strong>: het blijft hangen waar je het loslaat"],
-                ["ρ van het voorwerp &gt; ρ van de vloeistof", "het <strong>zinkt</strong>"],
+                [r"\(\rho\) van het voorwerp &lt; \(\rho\) van de vloeistof", "het <strong>drijft</strong>"],
+                [r"\(\rho\) van het voorwerp = \(\rho\) van de vloeistof", "het <strong>zweeft</strong>: het blijft hangen waar je het loslaat"],
+                [r"\(\rho\) van het voorwerp &gt; \(\rho\) van de vloeistof", "het <strong>zinkt</strong>"],
             ]), "Laat je een voorwerp dat drijft onder water los, dan stijgt het tot het weer aan de oppervlakte komt."),
             ("p", "Het gaat dus altijd om de <strong>vergelijking van twee massadichtheden</strong>, niet "
                   "om het gewicht op zich: een zware boomstam drijft en een klein muntstuk zinkt. Water is "
@@ -828,7 +828,7 @@ BUNDELS["massadichtheid"] = dict(
         r"\(\rho = m / V\), en dus \(m = \rho \times V\) en \(V = m / \rho\).",
         r"V kubus = \(z^{3}\), V balk = \(l \cdot b \cdot h\), V bol = \(\tfrac{4}{3} \cdot \pi \cdot r^{3}\), V cilinder = \(\pi \cdot r^{2} \cdot h\).",
         r"Onregelmatig voorwerp: volume bepalen door onderdompeling; \(1\) mL = \(1\,\text{cm}^{3}\).",
-        r"\(1\,\text{m}^{3} = 1000\) L; van g/\(\text{cm}^{3}\) naar kg/\(\text{m}^{3} \cdot 1000\). Water is \(1\) g/\(\text{cm}^{3}\) = \(1000\) kg/\(\text{m}^{3}\).",
+        r"\(1\,\text{m}^{3} = 1000\) L; van g/\(\text{cm}^{3}\) naar kg/\(\text{m}^{3} \cdot 1000\). Water is \(1\) g/\(\text{cm}^{3} = 1000\) kg/\(\text{m}^{3}\).",
         "Massa en volume van dezelfde stof zijn recht evenredig: een rechte door de oorsprong.",
         "Kleinere massadichtheid dan de vloeistof = drijven; gelijk = zweven; groter = zinken.",
     ],
@@ -892,7 +892,7 @@ BUNDELS["energie-kracht-en-snelheid"] = dict(
             ("kader", "De formule voor een <strong>constante snelheid</strong>:<br>"
                       r"<strong>\(v = \Delta x / \Delta t\)</strong> — de verplaatsing gedeeld door de tijdsduur.<br>"
                       r"Daaruit volgt <strong>\(\Delta x = v \times \Delta t\)</strong> en <strong>\(\Delta t = \Delta x / v\)</strong>.<br>"
-                      "Δx is de verplaatsing in meter (m), Δt de tijdsduur in seconde (s), v de snelheid in "
+                      r"\(\Delta x\) is de verplaatsing in meter (m), \(\Delta t\) de tijdsduur in seconde (s), v de snelheid in "
                       "meter per seconde (m/s). Kilometer per uur (km/h) mag ook, maar is geen SI-eenheid."),
             ("p", r"Iemand die \(100\) m aflegt in \(20\) s, haalt \(100 : 20 = 5\) m/s. Een auto die \(90\) km rijdt in "
                   r"\(2\) uur, haalt \(90 : 2 = 45\) km/h. Rijdt hij het eerste uur \(60\) km en het tweede uur \(80\) km, "
@@ -995,7 +995,7 @@ BUNDELS["veilig-werken-meten-en-eenheden"] = dict(
                 ["temperatuur", "θ", "kelvin (K)", "°C"],
                 ["snelheid", "v", "meter per seconde (m/s)", "km/h"],
                 ["kracht", "F", "newton (N)", ""],
-                ["massadichtheid", "ρ (de Griekse letter rho)", r"kilogram per kubieke meter (kg/\(\text{m}^{3}\))", r"g/L, g/\(\text{cm}^{3}\)"],
+                ["massadichtheid", r"\(\rho\) (de Griekse letter rho)", r"kilogram per kubieke meter (kg/\(\text{m}^{3}\))", r"g/L, g/\(\text{cm}^{3}\)"],
                 ["verlichtingssterkte", "E", "lux (lx)", ""],
                 ["geluidssterkte", "L", "decibel (dB)", ""],
                 ["relatieve luchtvochtigheid", "φ", "procent (%)", ""],

@@ -129,7 +129,7 @@
     },
     {
      "soort": "tekst",
-     "html": "Voor machten met <strong>hetzelfde grondtal</strong>: bij vermenigvuldigen tel je de exponenten op \\((2^{3} \\cdot 2^{4} = 2^{7})\\), bij delen trek je ze af, en bij een macht van een macht vermenigvuldig je ze \\(((2^{3})^{2} = 2^{6})\\). Een negatieve exponent betekent het omgekeerde: \\(2^{-2} = \\tfrac{1}{2}\\)^{2} \\(= \\tfrac{1}{4}\\)."
+     "html": "Voor machten met <strong>hetzelfde grondtal</strong>: bij vermenigvuldigen tel je de exponenten op \\((2^{3} \\cdot 2^{4} = 2^{7})\\), bij delen trek je ze af, en bij een macht van een macht vermenigvuldig je ze \\(((2^{3})^{2} = 2^{6})\\). Een negatieve exponent betekent het omgekeerde: \\(2^{-2} = \\left(\\tfrac{1}{2}\\right)^{2} = \\tfrac{1}{4}\\)."
     }
    ]
   },

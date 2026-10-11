@@ -54,11 +54,11 @@ BUNDELS["grootheden-eenheden-en-nauwkeurig-meten-fysica-boost-doorstroom"] = dic
                 ["oppervlakte", "A", r"vierkante meter (\(\text{m}^{2}\))", "—"],
                 ["volume", "V", r"kubieke meter (\(\text{m}^{3}\))", "liter (L)"],
                 ["massa", "m", "kilogram (kg)", "ton (t)"],
-                ["tijd, tijdsduur", "t, Δt", "seconde (s)", "minuut, uur"],
+                ["tijd, tijdsduur", r"t, \(\Delta t\)", "seconde (s)", "minuut, uur"],
                 ["temperatuur", "θ", "—", "graad Celsius (°C)"],
                 ["absolute temperatuur", "T", "kelvin (K)", "—"],
-                ["snelheid", "v, vg", "meter per seconde (m/s)", "km/h"],
-                ["versnelling", "a, ag, g", r"\(\text{m/s}^{2}\)", "—"],
+                ["snelheid", r"v, \(v_{g}\)", "meter per seconde (m/s)", "km/h"],
+                ["versnelling", r"a, \(a_{g}\), g", r"\(\text{m/s}^{2}\)", "—"],
                 ["kracht", "F", "newton (N)", "—"],
                 ["druk", "p", "pascal (Pa)", "bar"],
                 ["arbeid, energie, warmte", "W, E, Q", "joule (J)", "kWh, calorie"],
@@ -66,7 +66,7 @@ BUNDELS["grootheden-eenheden-en-nauwkeurig-meten-fysica-boost-doorstroom"] = dic
                 ["moment van een kracht", "M", "newtonmeter (Nm)", "—"],
                 ["stroomsterkte", "I", "ampère (A)", "—"],
                 ["spanning", "U", "volt (V)", "—"],
-                ["weerstand", "R", "ohm (Ω)", "—"],
+                ["weerstand", "R", r"ohm (\(\Omega\))", "—"],
                 ["massadichtheid", "ρ", r"kg/\(\text{m}^{3}\)", "g/L"],
             ])),
             ("p", "Een paar ervan zijn makkelijk te verwisselen. De <strong>newton is de "
@@ -187,7 +187,7 @@ BUNDELS["grootheden-eenheden-en-nauwkeurig-meten-fysica-boost-doorstroom"] = dic
                   "rechte <em>door de oorsprong</em> is dat. Bij een <strong>omgekeerd evenredig "
                   "verband tussen p en V blijft p.V gelijk</strong>: wordt V twee keer zo groot, dan "
                   "wordt p twee keer zo klein. Bij een <strong>kwadratisch verband</strong>, zoals "
-                  r"\(E_{k} = m \cdot v^{2} / 2\), wordt <strong>Ek vier keer zo groot als v verdubbelt</strong>."),
+                  r"\(E_{k} = m \cdot v^{2} / 2\), wordt <strong>\(E_{k}\) vier keer zo groot als v verdubbelt</strong>."),
             ("p", "De <strong>steilheid van een rechte</strong> betekent iets. Zet je de veerkracht uit "
                   "tegen de lengteverandering van een veer, dan is de <strong>steilheid de "
                   r"veerconstante</strong>, want \(k = F_{v} / \Delta l\)."),
@@ -229,18 +229,18 @@ BUNDELS["eenparig-rechtlijnige-beweging-fysica-boost-doorstroom"] = dict(
                   "<strong>ook een groot voorwerp mag je zo bekijken</strong> als je enkel naar zijn "
                   "plaats op het traject kijkt, zoals een trein op een spoorlijn."),
             ("p", "<strong>De verplaatsing kijkt enkel naar begin- en eindpunt</strong>: "
-                  r"<strong>\(\Delta x = x - x_{0}\)</strong>. De <strong>afgelegde weg Δs</strong> is de hele weg "
+                  r"<strong>\(\Delta x = x - x_{0}\)</strong>. De <strong>afgelegde weg \(\Delta s\)</strong> is de hele weg "
                   r"die het voorwerp echt gelopen heeft. Loopt iemand <strong>één ronde van \(400\) m op "
                   r"een piste</strong>, dan is <strong>de afgelegde weg \(400\) m en de verplaatsing "
                   r"\(0\) m</strong>: hij staat weer op zijn startplaats."),
             ("p", "<strong>Een verplaatsing kan negatief zijn</strong>, want het "
                   "<strong>teken hoort bij de zin</strong>: beweegt het voorwerp tegen de zin van de "
-                  "x-as in, dan is Δx negatief. Een <strong>afgelegde weg is nooit negatief</strong>, "
+                  r"x-as in, dan is \(\Delta x\) negatief. Een <strong>afgelegde weg is nooit negatief</strong>, "
                   "en <strong>ook de grootte van een snelheid niet</strong>. Vertrekt een wandelaar op "
                   r"\(x_{0} = 20\) m en gaat hij in de positieve zin tot \(x = 95\) m, dan is \(\Delta x = 95 - 20 = 75\) m."),
         ]),
         dict(kop="De snelheid", blokken=[
-            ("p", "De <strong>gemiddelde snelheid</strong> is <strong>vg = Δx / Δt</strong>, de "
+            ("p", r"De <strong>gemiddelde snelheid</strong> is <strong>\(v_{g} = \Delta x / \Delta t\)</strong>, de "
                   "verplaatsing gedeeld door de tijdsduur. De SI-eenheid is de "
                   "<strong>meter per seconde</strong>."),
             ("p", "De <strong>ogenblikkelijke snelheid</strong> is <strong>de snelheid op één bepaald "
@@ -271,9 +271,9 @@ BUNDELS["eenparig-rechtlijnige-beweging-fysica-boost-doorstroom"] = dict(
                   "zich. Rijdt een fietser <strong>in de zin tegengesteld aan de x-as</strong>, dan is "
                   "<strong>het teken van zijn snelheid negatief</strong>."),
             ("p", "De <strong>positiefunctie</strong> van een ERB is "
-                  r"<strong>\(x = x_{0} + v \cdot \left(t - t_{0}\right)\)</strong>, met <strong>x₀ de beginpositie</strong> op het "
-                  r"tijdstip t₀. In <strong>\(x = 10 + 3\).t</strong> is \(10\) m de beginpositie en \(3\) m/s de "
-                  r"snelheid. In <strong>\(x = 40 - 5\).t</strong> vertrekt het voorwerp op \(40\) m en "
+                  r"<strong>\(x = x_{0} + v \cdot \left(t - t_{0}\right)\)</strong>, met <strong>\(x_{0}\) de beginpositie</strong> op het "
+                  r"tijdstip \(t_{0}\). In <strong>\(x = 10 + 3 \cdot t\)</strong> is \(10\) m de beginpositie en \(3\) m/s de "
+                  r"snelheid. In <strong>\(x = 40 - 5 \cdot t\)</strong> vertrekt het voorwerp op \(40\) m en "
                   "<strong>beweegt het tegen de zin van de x-as in</strong>, want de snelheid is "
                   r"\(-5\) m/s. Het is in de oorsprong als \(x = 0\), dus na \(t = 40 / 5 = 8{,}0\) s."),
         ]),
@@ -322,11 +322,11 @@ BUNDELS["eenparig-rechtlijnige-beweging-fysica-boost-doorstroom"] = dict(
         ]),
     ],
     onthoud=[
-        r"Verplaatsing \(\Delta x = x - x_{0}\) kijkt enkel naar begin en eind; de afgelegde weg Δs is de hele weg.",
+        r"Verplaatsing \(\Delta x = x - x_{0}\) kijkt enkel naar begin en eind; de afgelegde weg \(\Delta s\) is de hele weg.",
         r"Eén ronde van \(400\) m: afgelegde weg \(400\) m, verplaatsing \(0\) m.",
-        "vg = Δx / Δt; de snelheidsmeter geeft de ogenblikkelijke snelheid.",
+        r"\(v_{g} = \Delta x / \Delta t\); de snelheidsmeter geeft de ogenblikkelijke snelheid.",
         "Bij een ERB blijft de snelheid gelijk en is de versnelling nul.",
-        r"Positiefunctie: \(x = x_{0} + v \cdot \left(t - t_{0}\right)\), met x₀ de beginpositie.",
+        r"Positiefunctie: \(x = x_{0} + v \cdot \left(t - t_{0}\right)\), met \(x_{0}\) de beginpositie.",
         "De steilheid van een x(t)-grafiek is de snelheid; een horizontaal stuk is een rustpauze.",
         "De oppervlakte onder een v(t)-grafiek is de verplaatsing; de hoogte is de snelheid.",
         "Een snijpunt in een x(t)-grafiek betekent: op dezelfde plaats op hetzelfde tijdstip.",
@@ -345,8 +345,8 @@ BUNDELS["versnelde-beweging-vrije-val-en-verticale-worp-fysica-boost-doorstroom"
                   "elke seconde met evenveel</strong>. Dat is net wat eenparig veranderlijk betekent."),
             ("p", "De <strong>versnelling</strong> zegt hoeveel de snelheid per seconde verandert. De "
                   r"SI-eenheid is de <strong>meter per seconde kwadraat (\(\text{m/s}^{2}\))</strong>. De "
-                  "<strong>gemiddelde versnelling</strong> krijgt het symbool <strong>ag</strong> en is "
-                  "<strong>ag = Δv / Δt</strong>; de ogenblikkelijke versnelling krijgt gewoon a."),
+                  r"<strong>gemiddelde versnelling</strong> krijgt het symbool <strong>\(a_{g}\)</strong> en is "
+                  r"<strong>\(a_{g} = \Delta v / \Delta t\)</strong>; de ogenblikkelijke versnelling krijgt gewoon a."),
             ("p", tabel(["Beweging", "Rekenwerk", "ag"], [
                 [r"van \(0\) naar \(20\) m/s in \(5{,}0\) s", r"\(20 / 5{,}0\)", r"\(4{,}0\ \text{m/s}^{2}\)"],
                 [r"van \(4{,}0\) naar \(14\) m/s in \(5{,}0\) s", r"\(10 / 5{,}0\)", r"\(2{,}0\ \text{m/s}^{2}\)"],
@@ -439,7 +439,7 @@ BUNDELS["versnelde-beweging-vrije-val-en-verticale-worp-fysica-boost-doorstroom"
         ]),
     ],
     onthoud=[
-        r"Bij een EVRB blijft de versnelling gelijk; ag = Δv / Δt, in \(\text{m/s}^{2}\).",
+        r"Bij een EVRB blijft de versnelling gelijk; \(a_{g} = \Delta v / \Delta t\), in \(\text{m/s}^{2}\).",
         "Een negatieve versnelling betekent enkel vertragen als de snelheid positief is.",
         "De steilheid van een v(t)-grafiek is de versnelling; een a(t)-grafiek van een EVRB is horizontaal.",
         "Een x(t)-grafiek wordt steiler bij versnellen en vlakker bij vertragen.",
@@ -544,7 +544,7 @@ BUNDELS["krachten-krachtenbalans-en-zwaartekracht-fysica-boost-doorstroom"] = di
         ]),
         dict(kop="Veerkracht en wrijvingskracht", blokken=[
             ("p", r"De <strong>veerkracht</strong> is <strong>\(F_{v} = k \cdot \Delta l\)</strong>, met "
-                  "<strong>k de veerconstante</strong> in <strong>newton per meter</strong> en Δl de "
+                  r"<strong>k de veerconstante</strong> in <strong>newton per meter</strong> en \(\Delta l\) de "
                   "lengteverandering. De <strong>veerkracht is recht evenredig met de "
                   "lengteverandering</strong>: twee keer zo ver uitrekken vraagt twee keer zoveel "
                   "kracht, en in een grafiek geeft dat een rechte door de oorsprong."),
@@ -558,11 +558,11 @@ BUNDELS["krachten-krachtenbalans-en-zwaartekracht-fysica-boost-doorstroom"] = di
             ("p", "Hoe <strong>groter k, hoe stijver de veer</strong>. Hang je dezelfde massa aan twee "
                   "veren en <strong>rekt veer A verder uit, dan heeft A de kleinere "
                   "veerconstante</strong>."),
-            ("p", r"De <strong>statische wrijvingskracht</strong> is <strong>\(F_{w} = \mu\) . Fn</strong>. De "
-                  "<strong>wrijvingscoëfficiënt μ heeft geen eenheid</strong>, want het is een "
+            ("p", r"De <strong>statische wrijvingskracht</strong> is <strong>\(F_{w} = \mu \cdot F_{n}\)</strong>. De "
+                  r"<strong>wrijvingscoëfficiënt \(\mu\) heeft geen eenheid</strong>, want het is een "
                   "verhouding van twee krachten, en ze <strong>hangt af van de twee materialen die "
                   "over elkaar schuiven</strong>, niet van de massa: die zit al in de normaalkracht."),
-            ("p", "Op een <strong>horizontale vloer is Fn gelijk aan Fz</strong>. Voor een kist van "
+            ("p", r"Op een <strong>horizontale vloer is \(F_{n}\) gelijk aan \(F_{z}\)</strong>. Voor een kist van "
                   r"\(20\) kg met \(\mu = 0{,}30\) is \(F_{n} = 20 \times 9{,}81 = 196\) N, dus \(F_{w} = 0{,}30 \times 196\) = "
                   r"<strong>\(59\) N</strong>. Een <strong>zwaarder voorwerp op dezelfde vloer ondervindt "
                   "dus een grotere wrijvingskracht</strong>, want de normaalkracht is groter. De "
@@ -579,9 +579,9 @@ BUNDELS["krachten-krachtenbalans-en-zwaartekracht-fysica-boost-doorstroom"] = di
         "De normaalkracht staat loodrecht op het oppervlak, de wrijvingskracht erlangs.",
         r"\(F_{z} = m \cdot g\), met \(g = 9{,}81\) N/kg in België; dezelfde g is \(9{,}81\ \text{m/s}^{2}\) als valversnelling.",
         "De massa verandert nooit van plaats tot plaats, het gewicht wel; een astronaut lijkt enkel gewichtloos.",
-        r"\(F_{v} = k \cdot \Delta l\), met Δl in meter; een kleine k betekent een slappe veer.",
-        r"\(F_{w} = \mu\) . Fn; μ heeft geen eenheid en hangt af van de materialen, niet van de massa.",
-        "Op een horizontale vloer is Fn gelijk aan Fz.",
+        r"\(F_{v} = k \cdot \Delta l\), met \(\Delta l\) in meter; een kleine k betekent een slappe veer.",
+        r"\(F_{w} = \mu \cdot F_{n}\); \(\mu\) heeft geen eenheid en hangt af van de materialen, niet van de massa.",
+        r"Op een horizontale vloer is \(F_{n}\) gelijk aan \(F_{z}\).",
     ],
 )
 
@@ -597,9 +597,9 @@ BUNDELS["archimedeskracht-moment-en-evenwicht-fysica-boost-doorstroom"] = dict(
                   "<strong>archimedeskracht is even groot als de zwaartekracht op de weggeduwde "
                   "vloeistof</strong>. Daarom staat in de formule de massadichtheid van de "
                   "<em>vloeistof</em> en niet die van het voorwerp."),
-            ("p", r"<strong>FA = \(\rho \cdot g\) . Vond</strong>, met <strong>ρ</strong> de "
+            ("p", r"<strong>\(F_{A} = \rho \cdot g \cdot V_{\text{ond}}\)</strong>, met <strong>\(\rho\)</strong> de "
                   r"<strong>massadichtheid</strong> van de vloeistof in <strong>kg/\(\text{m}^{3}\)</strong>, g de "
-                  "zwaarteveldsterkte en <strong>Vond het ondergedompelde volume</strong>. De "
+                  r"zwaarteveldsterkte en <strong>\(V_{\text{ond}}\) het ondergedompelde volume</strong>. De "
                   r"massadichtheid van <strong>water is \(1000\) kg/\(\text{m}^{3}\)</strong>, of één kilogram per liter."),
             ("p", "De archimedeskracht is <strong>verticaal naar boven</strong> gericht. Daarom lijkt "
                   r"een steen onder water lichter: hangt een <strong>steen van \(50\) N aan een dynamometer "
@@ -609,11 +609,11 @@ BUNDELS["archimedeskracht-moment-en-evenwicht-fysica-boost-doorstroom"] = dict(
                 [r"\(0{,}0020\,\text{m}^{3}\) volledig onder water", r"\(1000 \times 9{,}81 \times 0{,}0020\)", r"\(19{,}6\) N"],
                 [r"\(0{,}0050\,\text{m}^{3}\) volledig onder water", r"\(1000 \times 9{,}81 \times 0{,}0050\)", r"\(49\) N"],
             ])),
-            ("p", "<strong>Enkel ρ, g en Vond staan in de formule.</strong> De "
+            ("p", r"<strong>Enkel \(\rho\), g en \(V_{\text{ond}}\) staan in de formule.</strong> De "
                   "<strong>massa en de vorm van het voorwerp tellen niet mee</strong>: twee voorwerpen "
                   "van hetzelfde volume ondervinden dezelfde archimedeskracht, ook als het ene veel "
                   "zwaarder is. <strong>De diepte staat er ook niet in</strong>: zolang het hele "
-                  "voorwerp onder water zit, blijft FA dezelfde, ook tien meter lager. Drijft een blok "
+                  r"voorwerp onder water zit, blijft \(F_{A}\) dezelfde, ook tien meter lager. Drijft een blok "
                   "<strong>met driekwart van zijn volume onder water</strong>, dan gebruik je "
                   "<strong>driekwart van het volume</strong>, want enkel dat deel duwt water weg."),
             ("p", "<strong>Op de maan zou de archimedeskracht in hetzelfde bad water kleiner "
@@ -622,10 +622,10 @@ BUNDELS["archimedeskracht-moment-en-evenwicht-fysica-boost-doorstroom"] = dict(
         ]),
         dict(kop="Zinken, zweven, stijgen en drijven", blokken=[
             ("p", tabel(["Wat gebeurt er", "Krachten", "Massadichtheid"], [
-                ["zinken", "Fz groter dan FA", "ρ voorwerp groter dan ρ vloeistof"],
-                ["zweven", "Fz gelijk aan FA", "ρ voorwerp gelijk aan ρ vloeistof"],
-                ["stijgen", "FA groter dan Fz", "ρ voorwerp kleiner dan ρ vloeistof"],
-                ["drijven", "FA gelijk aan Fz", "ρ voorwerp kleiner dan ρ vloeistof"],
+                ["zinken", r"\(F_{z}\) groter dan \(F_{A}\)", r"\(\rho\) voorwerp groter dan \(\rho\) vloeistof"],
+                ["zweven", r"\(F_{z}\) gelijk aan \(F_{A}\)", r"\(\rho\) voorwerp gelijk aan \(\rho\) vloeistof"],
+                ["stijgen", r"\(F_{A}\) groter dan \(F_{z}\)", r"\(\rho\) voorwerp kleiner dan \(\rho\) vloeistof"],
+                ["drijven", r"\(F_{A}\) gelijk aan \(F_{z}\)", r"\(\rho\) voorwerp kleiner dan \(\rho\) vloeistof"],
             ])),
             ("p", "Een voorwerp dat <strong>zweeft</strong> blijft op dezelfde diepte hangen, dus is "
                   "de resulterende kracht nul en is de <strong>archimedeskracht even groot als de "
@@ -650,19 +650,19 @@ BUNDELS["archimedeskracht-moment-en-evenwicht-fysica-boost-doorstroom"] = dict(
         ]),
         dict(kop="Het moment van een kracht", blokken=[
             ("p", "Een kracht kan een voorwerp doen <strong>draaien</strong>. Hoeveel draaieffect ze "
-                  "heeft, zegt het <strong>moment</strong>: <strong>M = F . d . sin α</strong>, met "
-                  "<strong>d de krachtarm</strong> en α de hoek tussen de kracht en de arm. De eenheid "
+                  r"heeft, zegt het <strong>moment</strong>: <strong>\(M = F \cdot d \cdot \sin \alpha\)</strong>, met "
+                  r"<strong>d de krachtarm</strong> en \(\alpha\) de hoek tussen de kracht en de arm. De eenheid "
                   "is de <strong>newtonmeter (Nm)</strong>, <strong>niet de joule</strong>: die hoort "
                   "bij arbeid en energie, ook al is ze eveneens een newton maal een meter."),
             ("p", "De <strong>krachtarm d</strong> is de <strong>afstand van het draaipunt tot het "
                   "aangrijpingspunt</strong> van de kracht. Een <strong>draaipunt heet ook een "
                   "steunpunt</strong> als het voorwerp erop rust, zoals bij een wip."),
             ("p", tabel(["Gegeven", "Rekenwerk", "M"], [
-                [r"\(40\) N loodrecht op \(0{,}50\) m", r"\(40\) . \(0{,}50\) . sin \(90^{\circ}\)", r"\(20\) Nm"],
+                [r"\(40\) N loodrecht op \(0{,}50\) m", r"\(40 \times 0{,}50 \times \sin 90^{\circ}\)", r"\(20\) Nm"],
                 [r"\(25\) N loodrecht op \(0{,}80\) m", r"\(25 \times 0{,}80 \times 1\)", r"\(20\) Nm"],
                 [r"\(60\) N onder \(30^{\circ}\) op \(0{,}40\) m", r"\(60 \times 0{,}40 \times 0{,}50\)", r"\(12\) Nm"],
             ])),
-            ("p", r"<strong>Bij een hoek van \(90^{\circ}\) is het moment het grootst</strong>, want sin \(90^{\circ}\) is \(1\) "
+            ("p", r"<strong>Bij een hoek van \(90^{\circ}\) is het moment het grootst</strong>, want \(\sin 90^{\circ}\) is \(1\) "
                   r"en blijft \(M = F \cdot d\) over. Bij <strong>\(0^{\circ}\) of \(180^{\circ}\) werkt de kracht langs de arm en is "
                   "het moment nul</strong>. Een <strong>kracht die door het draaipunt gaat, levert "
                   "geen moment</strong>: duwen op het hengsel van een deur doet ze niet draaien."),
@@ -688,7 +688,7 @@ BUNDELS["archimedeskracht-moment-en-evenwicht-fysica-boost-doorstroom"] = dict(
                       "krachtenbalans ook een krachtmomentenbalans."),
             ("p", "Bij een <strong>wip</strong> moeten de momenten links en rechts gelijk zijn. Zit "
                   r"links een kind van \(30\) kg op \(1{,}2\) m, dan geldt voor een kind van \(36\) kg rechts: "
-                  r"\(30\) . \(1{,}2 = 36\) . d, dus <strong>\(d = 1{,}0\) m</strong>. Het "
+                  r"\(30 \times 1{,}2 = 36 \cdot d\), dus <strong>\(d = 1{,}0\) m</strong>. Het "
                   "<strong>zwaardere kind zit dus dichter bij het draaipunt</strong>."),
             ("p", "Het <strong>zwaartepunt bepaalt hoe stabiel</strong> iets staat. Een "
                   "<strong>bus met passagiers op het bovendek</strong> staat minder stabiel omdat zijn "
@@ -701,11 +701,11 @@ BUNDELS["archimedeskracht-moment-en-evenwicht-fysica-boost-doorstroom"] = dict(
         ]),
     ],
     onthoud=[
-        r"FA = \(\rho \cdot g\) . Vond; de massadichtheid van water is \(1000\) kg/\(\text{m}^{3}\).",
+        r"\(F_{A} = \rho \cdot g \cdot V_{\text{ond}}\); de massadichtheid van water is \(1000\) kg/\(\text{m}^{3}\).",
         "De massa, de vorm en de diepte van het voorwerp staan niet in die formule, enkel het ondergedompelde volume.",
-        "Zinken: Fz groter dan FA. Zweven en drijven: even groot. Stijgen: FA groter.",
+        r"Zinken: \(F_{z}\) groter dan \(F_{A}\). Zweven en drijven: even groot. Stijgen: \(F_{A}\) groter.",
         r"Een schip drijft omdat het hol is, dus met een gemiddelde massadichtheid onder \(1000\) kg/\(\text{m}^{3}\).",
-        "M = F . d . sin α, in newtonmeter, niet in joule.",
+        r"\(M = F \cdot d \cdot \sin \alpha\), in newtonmeter, niet in joule.",
         r"Het moment is maximaal bij \(90^{\circ}\) en nul als de kracht door het draaipunt gaat.",
         "Een langere krachtarm geeft bij dezelfde kracht een groter moment.",
         "Statisch evenwicht: de som van de krachten is nul én de som van de momenten is nul.",
@@ -769,7 +769,7 @@ BUNDELS["druk-bij-vaste-stoffen-en-in-vloeistoffen-fysica-boost-doorstroom"] = d
             ("p", "In een vloeistof <strong>draagt elke laag het gewicht van alles erboven</strong>. "
                   "Daarom <strong>ontstaat er hydrostatische druk</strong>, en die groeit gelijkmatig "
                   r"met de diepte: <strong>\(p = \rho \cdot g \cdot h\)</strong>."),
-            ("p", "<strong>Enkel ρ, g en h staan in de formule.</strong> De "
+            ("p", r"<strong>Enkel \(\rho\), g en h staan in de formule.</strong> De "
                   "<strong>vorm van het vat en de totale hoeveelheid vloeistof tellen niet mee</strong>: "
                   "op dezelfde diepte is de druk in een <strong>smal buisje even groot als in een breed "
                   "bad</strong>."),
@@ -806,7 +806,7 @@ BUNDELS["druk-bij-vaste-stoffen-en-in-vloeistoffen-fysica-boost-doorstroom"] = d
                   "<strong>drukverandering zich in heel de vloeistof voortplant</strong>. Duw je ergens "
                   "op een ingesloten vloeistof, dan stijgt de druk overal met hetzelfde bedrag."),
             ("p", "Daar werkt een <strong>hydraulische pers</strong> op, en ook een hydraulische "
-                  r"schijfrem. Uit \(p = F / A\) volgt <strong>\(F = p\) . A</strong>: de "
+                  r"schijfrem. Uit \(p = F / A\) volgt <strong>\(F = p \cdot A\)</strong>: de "
                   "<strong>druk is overal gelijk, dus geeft een grotere oppervlakte een grotere "
                   "kracht</strong>. Bij een tien keer grotere zuiger krijg je tien keer meer kracht."),
             ("kader", "<strong>Een pers maakt geen energie bij.</strong> De kracht wordt groter, maar "
@@ -884,30 +884,30 @@ BUNDELS["gassen-temperatuur-en-de-gaswetten-fysica-boost-doorstroom"] = dict(
             ("p", "De <strong>vier toestandsgrootheden</strong> van een gas zijn "
                   "<strong>druk p, volume V, absolute temperatuur T en stofhoeveelheid n</strong> (in "
                   "mol). De <strong>ideale gaswet</strong> bindt ze samen: "
-                  r"<strong>p . \(V = n\) . R . T</strong>, met <strong>\(R = 8{,}31\) J/(mol.K)</strong>."),
+                  r"<strong>\(p \cdot V = n \cdot R \cdot T\)</strong>, met <strong>\(R = 8{,}31\) J/(mol.K)</strong>."),
             ("p", "De <strong>universele gasconstante R geldt voor elk gas</strong>. Enkel een "
                   "<em>specifieke</em> gasconstante per kilogram verschilt van gas tot gas."),
             ("p", "Blijft de <strong>stofhoeveelheid gelijk</strong>, dan geldt de "
-                  r"<strong>algemene gaswet p.\(V / T = c\)onstant</strong>. Daar mogen p, V en T alle drie "
+                  r"<strong>algemene gaswet \(p \cdot V / T = \text{constant}\)</strong>. Daar mogen p, V en T alle drie "
                   "veranderen. Houd je er één vast, dan krijg je de <strong>afzonderlijke "
                   "gaswetten</strong>."),
             ("p", tabel(["Proces", "Wat blijft gelijk", "Wet", "Verband"], [
-                ["isotherm", "de temperatuur", r"p . \(V = c\)onstant", "omgekeerd evenredig"],
-                ["isobaar", "de druk", r"\(V / T = c\)onstant", "recht evenredig"],
-                ["isochoor", "het volume", r"\(p / T = c\)onstant", "recht evenredig"],
+                ["isotherm", "de temperatuur", r"\(p \cdot V = \text{constant}\)", "omgekeerd evenredig"],
+                ["isobaar", "de druk", r"\(V / T = \text{constant}\)", "recht evenredig"],
+                ["isochoor", "het volume", r"\(p / T = \text{constant}\)", "recht evenredig"],
             ])),
             ("p", "<strong>Iso betekent gelijk.</strong> <strong>Therm</strong> hoort bij warmte, "
                   "<strong>baar</strong> bij druk en <strong>choor</strong> bij ruimte, dus bij het "
                   "volume."),
             ("p", tabel(["Opgave", "Rekenwerk", "Antwoord"], [
                 [r"\(3{,}0\) L bij \(2{,}0\) bar naar \(1{,}0\) L, isotherm", r"\(2{,}0 \times 3{,}0 = p \cdot 1{,}0\)", r"\(6{,}0\) bar"],
-                [r"\(4{,}0\) L bij \(1{,}0\) bar naar \(2{,}0\) bar, isotherm", r"\(1{,}0 \times 4{,}0 = 2{,}0\) . V", r"\(2{,}0\) L"],
+                [r"\(4{,}0\) L bij \(1{,}0\) bar naar \(2{,}0\) bar, isotherm", r"\(1{,}0 \times 4{,}0 = 2{,}0 \cdot V\)", r"\(2{,}0\) L"],
                 [r"\(2{,}0\) L bij \(300\) K naar \(450\) K, isobaar", r"\(2{,}0 / 300 = V / 450\)", r"\(3{,}0\) L"],
                 [r"\(1{,}0\) bar bij \(290\) K naar \(580\) K, isochoor", "T verdubbelt", r"\(2{,}0\) bar"],
             ])),
             ("p", r"Gaat een gas van \(2{,}0\) bar in \(5{,}0\) L naar \(4{,}0\) bar in \(2{,}5\) L, dan "
                   r"<strong>blijft het product p.V gelijk</strong> (\(10\) in beide gevallen). Volgens "
-                  r"p.\(V / T = c\)onstant <strong>blijft T dan ook gelijk</strong>: het is een isotherm "
+                  r"\(p \cdot V / T = \text{constant}\) <strong>blijft T dan ook gelijk</strong>: het is een isotherm "
                   "proces, en er is geen gas weggelopen."),
             ("kader", "<strong>Een spuitbus hoort niet in de zon.</strong> Bij vast volume is "
                       "p/T constant, dus stijgt de druk mee met de temperatuur. Daarom staat er op de "
@@ -925,7 +925,7 @@ BUNDELS["gassen-temperatuur-en-de-gaswetten-fysica-boost-doorstroom"] = dict(
                   r"die rechte <strong>door de oorsprong</strong>, want bij \(0\) K zou het volume nul zijn. "
                   "Hetzelfde geldt voor <strong>p(T) bij vast volume</strong>."),
             ("p", "Je kan een <strong>p(V)-grafiek omzetten naar een p(T)-grafiek</strong> met "
-                  r"p.\(V / T = c\)onstant, punt per punt. Je moet wel weten "
+                  r"\(p \cdot V / T = \text{constant}\), punt per punt. Je moet wel weten "
                   "<strong>welke grootheid vastgehouden werd</strong>, anders kan je niet omrekenen."),
             ("p", r"Bij <strong>normomstandigheden</strong> hoort de <strong>normdruk van \(1013\) hPa</strong> "
                   r"en de <strong>normtemperatuur van \(273{,}15\) K</strong>. Een gasvolume dat men vergelijkt, "
@@ -942,8 +942,8 @@ BUNDELS["gassen-temperatuur-en-de-gaswetten-fysica-boost-doorstroom"] = dict(
         r"Bij \(0\) K zijn de kinetische energie, de druk en het volume van een ideaal gas nul.",
         r"Een verschil van \(20^{\circ}\text{C}\) is hetzelfde als een verschil van \(20\) K.",
         "In de gaswetten vul je de temperatuur altijd in kelvin in.",
-        r"Isotherm: p . \(V = c\)onstant. Isobaar: \(V / T = c\)onstant. Isochoor: \(p / T = c\)onstant.",
-        r"Ideale gaswet: p . \(V = n\) . R . T, met \(R = 8{,}31\) J/(mol.K) voor elk gas.",
+        r"Isotherm: \(p \cdot V = \text{constant}\). Isobaar: \(V / T = \text{constant}\). Isochoor: \(p / T = \text{constant}\).",
+        r"Ideale gaswet: \(p \cdot V = n \cdot R \cdot T\), met \(R = 8{,}31\) J/(mol.K) voor elk gas.",
         "Een p(V)-grafiek bij vaste T is een dalende kromme; V(T) en p(T) in kelvin zijn rechten door de oorsprong.",
         r"Normdruk \(1013\) hPa en normtemperatuur \(273{,}15\) K zijn de normomstandigheden.",
     ],
@@ -952,13 +952,13 @@ BUNDELS["gassen-temperatuur-en-de-gaswetten-fysica-boost-doorstroom"] = dict(
 # ───────────────────── 8. Arbeid, energie, vermogen en rendement
 BUNDELS["arbeid-energie-vermogen-en-rendement-fysica-boost-doorstroom"] = dict(
     vak=VAK, niveau=BOOST, titel="Arbeid, energie, vermogen en rendement",
-    onder="Arbeid met cos α, de energievormen en hun formules, de wet van behoud van energie, de energiedissipatie, het vermogen en het rendement.",
+    onder=r"Arbeid met \(\cos \alpha\), de energievormen en hun formules, de wet van behoud van energie, de energiedissipatie, het vermogen en het rendement.",
     secties=[
         dict(kop="Arbeid", blokken=[
-            ("p", "De <strong>arbeid</strong> van een kracht is <strong>W = F . Δx . cos α</strong>, "
-                  "met α de hoek tussen de kracht en de verplaatsing. Het symbool komt van het Engelse "
+            ("p", r"De <strong>arbeid</strong> van een kracht is <strong>\(W = F \cdot \Delta x \cdot \cos \alpha\)</strong>, "
+                  r"met \(\alpha\) de hoek tussen de kracht en de verplaatsing. Het symbool komt van het Engelse "
                   "<em>work</em>, en de <strong>eenheid is de joule (J)</strong>."),
-            ("p", tabel(["Hoek", "cos α", "Arbeid", "Voorbeeld"], [
+            ("p", tabel(["Hoek", r"\(\cos \alpha\)", "Arbeid", "Voorbeeld"], [
                 [r"\(0^{\circ}\)", r"\(1\)", "positief", "duwen in de zin van de beweging"],
                 [r"\(90^{\circ}\)", r"\(0\)", "geen arbeid", "een doos horizontaal dragen"],
                 [r"\(180^{\circ}\)", r"\(-1\)", "negatief", "wrijving, of de zwaartekracht bij optillen"],
@@ -979,8 +979,8 @@ BUNDELS["arbeid-energie-vermogen-en-rendement-fysica-boost-doorstroom"] = dict(
         dict(kop="De energievormen", blokken=[
             ("p", tabel(["Energievorm", "Formule"], [
                 ["kinetische energie", r"\(E_{k} = m \cdot v^{2} / 2\)"],
-                ["potentiële gravitationele energie", "Ep,gr = m . g . h"],
-                ["potentiële elastische energie", r"Ep,el = k . Δ\(\text{l}^{2}\) / \(2\)"],
+                ["potentiële gravitationele energie", r"\(E_{p,gr} = m \cdot g \cdot h\)"],
+                ["potentiële elastische energie", r"\(E_{p,el} = k \cdot \Delta l^{2} / 2\)"],
             ])),
             ("p", "De andere energievormen die je moet kennen, hebben hier geen formule: "
                   "<strong>chemische energie, thermische energie of warmte, stralingsenergie, "
@@ -991,12 +991,12 @@ BUNDELS["arbeid-energie-vermogen-en-rendement-fysica-boost-doorstroom"] = dict(
                 [r"\(5{,}0\) kg, \(3{,}0\) m omhoog", r"\(5{,}0 \times 9{,}81 \times 3{,}0\)", r"\(147\) J"],
                 [r"\(2{,}0\) kg, \(10\) m hoog", r"\(2{,}0 \times 9{,}81 \times 10\)", r"\(196\) J"],
             ])),
-            ("p", "In Ek staat de <strong>snelheid in het kwadraat</strong>. Een auto die "
+            ("p", r"In \(E_{k}\) staat de <strong>snelheid in het kwadraat</strong>. Een auto die "
                   "<strong>twee keer zo snel rijdt, heeft dus vier keer zoveel kinetische "
                   "energie</strong>, niet twee keer. Daarom is een remweg bij dubbele snelheid vier "
                   "keer zo lang."),
             ("p", "Een <strong>voorwerp dat stilstaat kan toch potentiële energie hebben</strong>: een "
-                  "steen bovenop een muur heeft Ep,gr door zijn hoogte. Enkel zijn kinetische energie "
+                  r"steen bovenop een muur heeft \(E_{p,gr}\) door zijn hoogte. Enkel zijn kinetische energie "
                   "is nul."),
             ("p", "De <strong>eenheid van energie is de joule</strong>, maar je komt ook de "
                   "<strong>kilowattuur</strong> en de <strong>kilocalorie</strong> tegen. Een "
@@ -1016,13 +1016,13 @@ BUNDELS["arbeid-energie-vermogen-en-rendement-fysica-boost-doorstroom"] = dict(
                   "uit</strong>. Binnenin mag de energie wel van vorm veranderen, zolang de som gelijk "
                   "blijft."),
             ("p", tabel(["Wat gebeurt er", "Omzetting"], [
-                ["een bal valt van een muur", "Ep,gr naar Ek"],
-                ["een bal omhoog gooien", "Ek naar Ep,gr"],
+                ["een bal valt van een muur", r"\(E_{p,gr}\) naar \(E_{k}\)"],
+                ["een bal omhoog gooien", r"\(E_{k}\) naar \(E_{p,gr}\)"],
                 ["een elektrische waterkoker", "elektrisch naar thermisch"],
                 ["een plant doet fotosynthese", "straling naar chemisch"],
-                ["een ingedrukte veer schiet los", "Ep,el naar Ek"],
+                ["een ingedrukte veer schiet los", r"\(E_{p,el}\) naar \(E_{k}\)"],
             ])),
-            ("p", "Bij een <strong>vrije val zonder luchtweerstand blijft de som van Ek en Ep,gr "
+            ("p", r"Bij een <strong>vrije val zonder luchtweerstand blijft de som van \(E_{k}\) en \(E_{p,gr}\) "
                   "gelijk</strong>: de ene vorm wordt de andere, zonder verlies. Daarom kan je de "
                   "snelheid onderaan uit de hoogte berekenen."),
             ("p", "Bij elke omzetting in het dagelijkse leven gaat een deel naar een "
@@ -1040,7 +1040,7 @@ BUNDELS["arbeid-energie-vermogen-en-rendement-fysica-boost-doorstroom"] = dict(
                   "sneller; verricht ze negatieve arbeid, dan vertraagt het."),
         ]),
         dict(kop="Vermogen en rendement", blokken=[
-            ("p", "Het <strong>vermogen</strong> is <strong>P = |ΔE| / Δt</strong>: de omgezette "
+            ("p", r"Het <strong>vermogen</strong> is <strong>\(P = |\Delta E| / \Delta t\)</strong>: de omgezette "
                   "energie gedeeld door de tijd die het duurde. De <strong>eenheid is de watt</strong>, "
                   "en <strong>één watt is één joule per seconde</strong>."),
             ("p", tabel(["Opgave", "Rekenwerk", "Antwoord"], [
@@ -1051,7 +1051,7 @@ BUNDELS["arbeid-energie-vermogen-en-rendement-fysica-boost-doorstroom"] = dict(
                       "toestellen hetzelfde werk, dan gebruikt dat met het kleinste vermogen minder "
                       "energie, maar een krachtiger pomp verzet hetzelfde water in minder tijd met "
                       "ongeveer dezelfde energie."),
-            ("p", "Het <strong>rendement</strong> is <strong>η = Enuttig / Etotaal</strong>, met de "
+            ("p", r"Het <strong>rendement</strong> is <strong>\(\eta = E_{\text{nuttig}} / E_{\text{totaal}}\)</strong>, met de "
                   "Griekse letter eta. Het <strong>heeft geen eenheid</strong>, want het is een "
                   "verhouding, en wordt vaak als percentage geschreven."),
             ("p", tabel(["Opgave", "Rekenwerk", "η"], [
@@ -1070,15 +1070,15 @@ BUNDELS["arbeid-energie-vermogen-en-rendement-fysica-boost-doorstroom"] = dict(
         ]),
     ],
     onthoud=[
-        r"W = F . Δx . cos α; bij \(0^{\circ}\) positief, bij \(90^{\circ}\) geen arbeid, bij \(180^{\circ}\) negatief.",
-        r"\(E_{k} = m \cdot v^{2} / 2\), Ep,gr = m . g . h, Ep,el = k . Δ\(\text{l}^{2}\) / \(2\).",
+        r"\(W = F \cdot \Delta x \cdot \cos \alpha\); bij \(0^{\circ}\) positief, bij \(90^{\circ}\) geen arbeid, bij \(180^{\circ}\) negatief.",
+        r"\(E_{k} = m \cdot v^{2} / 2\), \(E_{p,gr} = m \cdot g \cdot h\), \(E_{p,el} = k \cdot \Delta l^{2} / 2\).",
         "Twee keer zo snel geeft vier keer zoveel kinetische energie.",
         "Een kilowattuur is een eenheid van energie, geen vermogen.",
         "Energie verdwijnt niet, ze verandert van vorm; in een geïsoleerd systeem blijft de som gelijk.",
         "Energiedissipatie: bruikbare energie wordt warmte die je niet meer kan gebruiken.",
-        "Arbeid-energietheorema: de arbeid van de resultante is de verandering van de Ek.",
-        "P = |ΔE| / Δt, in watt; één watt is één joule per seconde.",
-        r"η = Enuttig / Etotaal, zonder eenheid en altijd onder \(100\,\%\).",
+        r"Arbeid-energietheorema: de arbeid van de resultante is de verandering van de \(E_{k}\).",
+        r"\(P = |\Delta E| / \Delta t\), in watt; één watt is één joule per seconde.",
+        r"\(\eta = E_{\text{nuttig}} / E_{\text{totaal}}\), zonder eenheid en altijd onder \(100\,\%\).",
     ],
 )
 
@@ -1162,7 +1162,7 @@ BUNDELS["warmte-faseovergangen-en-de-warmtebalans-fysica-boost-doorstroom"] = di
                   "nodig.</strong> <strong>Sublimeren slaat de vloeibare fase over</strong>: droogijs "
                   "doet dat, en <strong>rijp die verdwijnt zonder eerst te smelten</strong> ook."),
             ("p", r"De <strong>latente warmte</strong> is <strong>\(Q = l \cdot m\)</strong>. Er staat "
-                  "<strong>geen ΔT in</strong>, want <strong>tijdens een faseovergang blijft de "
+                  r"<strong>geen \(\Delta T\) in</strong>, want <strong>tijdens een faseovergang blijft de "
                   "temperatuur gelijk</strong>: alle warmte gaat naar het veranderen van de fase, niet "
                   "naar de beweging van de deeltjes. In een opwarmingscurve zie je daarom een "
                   "<strong>horizontaal stuk, een plateau</strong>."),
@@ -1224,15 +1224,15 @@ BUNDELS["elektrische-stroom-spanning-en-weerstand-fysica-boost-doorstroom"] = di
                 ["elektrische lading", "Q", "coulomb (C)", "—"],
                 ["stroomsterkte", "I", "ampère (A)", "ampèremeter"],
                 ["spanning", "U", "volt (V)", "voltmeter"],
-                ["weerstand", "R", "ohm (Ω)", "ohmmeter"],
+                ["weerstand", "R", r"ohm (\(\Omega\))", "ohmmeter"],
                 ["vermogen", "P", "watt (W)", "—"],
             ])),
             ("p", r"De <strong>wet van Ohm</strong> is <strong>\(R = U / I\)</strong>, of in de andere "
-                  r"vormen <strong>\(U = R\) . I</strong> en <strong>\(I = U / R\)</strong>."),
+                  r"vormen <strong>\(U = R \cdot I\)</strong> en <strong>\(I = U / R\)</strong>."),
             ("p", tabel(["Opgave", "Rekenwerk", "Antwoord"], [
-                [r"\(230\) V en \(0{,}50\) A", r"\(230 / 0{,}50\)", r"\(R = 460\) Ω"],
-                [r"\(5{,}0\) V over \(25\) Ω", r"\(5{,}0 / 25\)", r"\(I = 0{,}20\) A"],
-                [r"\(40\) Ω met \(0{,}20\) A", r"\(40 \times 0{,}20\)", r"\(U = 8{,}0\) V"],
+                [r"\(230\) V en \(0{,}50\) A", r"\(230 / 0{,}50\)", r"\(R = 460\) \(\Omega\)"],
+                [r"\(5{,}0\) V over \(25\) \(\Omega\)", r"\(5{,}0 / 25\)", r"\(I = 0{,}20\) A"],
+                [r"\(40\) \(\Omega\) met \(0{,}20\) A", r"\(40 \times 0{,}20\)", r"\(U = 8{,}0\) V"],
             ])),
             ("p", "<strong>Bij een vaste weerstand zijn U en I recht evenredig</strong>: een dubbele "
                   "spanning geeft een dubbele stroom, en in een grafiek krijg je een rechte door de "
@@ -1257,14 +1257,14 @@ BUNDELS["elektrische-stroom-spanning-en-weerstand-fysica-boost-doorstroom"] = di
                       "kortsluiting: de stroom wordt enorm en het toestel gaat stuk."),
             ("p", "Een <strong>multimeter</strong> kan spanning, stroomsterkte en weerstand meten. Je "
                   "kiest met een draaiknop: <strong>DCV voor gelijkspanning</strong>, "
-                  "<strong>DCA voor gelijkstroom</strong> en de <strong>Ω-stand voor een "
+                  r"<strong>DCA voor gelijkstroom</strong> en de <strong>\(\Omega\)-stand voor een "
                   "weerstand</strong>. De afkorting <strong>DC</strong> staat voor gelijkspanning of "
                   "gelijkstroom."),
             ("p", "In een <strong>elektrisch schema</strong> staan de onderdelen met hun eigen symbool: "
                   "een (regelbare) gelijkspanningsbron, een (regelbare) weerstand, een lamp, een "
                   "schakelaar, een ampèremeter en een voltmeter."),
-            ("p", r"Het <strong>elektrisch vermogen</strong> is <strong>\(P = U\) . I</strong>, en net als "
-                  r"elk vermogen ook <strong>P = |ΔE| / Δt</strong>. Een toestel op \(230\) V dat \(2{,}0\) A "
+            ("p", r"Het <strong>elektrisch vermogen</strong> is <strong>\(P = U \cdot I\)</strong>, en net als "
+                  r"elk vermogen ook <strong>\(P = |\Delta E| / \Delta t\)</strong>. Een toestel op \(230\) V dat \(2{,}0\) A "
                   r"trekt, heeft een vermogen van <strong>\(460\) W</strong>. Doen twee toestellen hetzelfde "
                   "werk, dan is <strong>het zuinigste dat met het kleinste vermogen</strong>."),
             ("p", "Het <strong>joule-effect</strong> is het <strong>opwarmen van een weerstand door de "
@@ -1273,9 +1273,12 @@ BUNDELS["elektrische-stroom-spanning-en-weerstand-fysica-boost-doorstroom"] = di
         ]),
         dict(kop="Serie en parallel", blokken=[
             ("p", tabel(["", "Serieschakeling", "Parallelschakeling"], [
-                ["stroomsterkte", r"\(I = I_{1} = I_{2}\) = …", r"\(I = I_{1} + I_{2}\) + …"],
-                ["spanning", r"\(U = U_{1} + U_{2}\) + …", r"\(U = U_{1} = U_{2}\) = …"],
-                ["substitutieweerstand", r"\(R_{s} = R_{1} + R_{2}\) + …", r"Rs = (\(1\)/R₁ + \(1\)/R₂ + …)^{-1}"],
+                ["stroomsterkte", r"\(I = I_{1} = I_{2} = \ldots\)",
+                 r"\(I = I_{1} + I_{2} + \ldots\)"],
+                ["spanning", r"\(U = U_{1} + U_{2} + \ldots\)",
+                 r"\(U = U_{1} = U_{2} = \ldots\)"],
+                ["substitutieweerstand", r"\(R_{s} = R_{1} + R_{2} + \ldots\)",
+                 r"\(R_{p} = \left(1/R_{1} + 1/R_{2} + \ldots\right)^{-1}\)"],
             ])),
             ("p", "In een <strong>serieschakeling is er maar één weg</strong>, dus loopt overal "
                   "<strong>dezelfde stroom</strong> en <strong>verdeelt de spanning zich</strong>. De "
@@ -1285,12 +1288,12 @@ BUNDELS["elektrische-stroom-spanning-en-weerstand-fysica-boost-doorstroom"] = di
                   "dus staat er over elke tak <strong>dezelfde spanning</strong> en "
                   "<strong>verdeelt de stroom zich</strong>."),
             ("p", tabel(["Opgave", "Rekenwerk", "Rs"], [
-                [r"\(30\) Ω en \(60\) Ω in serie", r"\(30 + 60\)", r"\(90\) Ω"],
-                [r"\(50\) Ω en \(50\) Ω in serie", r"\(50 + 50\)", r"\(100\) Ω"],
-                [r"\(30\) Ω en \(60\) Ω parallel", r"\((\tfrac{1}{30} + \tfrac{1}{60})^{-1}\)", r"\(20\) Ω"],
-                [r"\(50\) Ω en \(50\) Ω parallel", r"\(50 / 2\)", r"\(25\) Ω"],
-                [r"drie keer \(60\) Ω parallel", r"\(60 / 3\)", r"\(20\) Ω"],
-                [r"\(10\) Ω in serie met twee keer \(20\) Ω parallel", r"\(10 + 10\)", r"\(20\) Ω"],
+                [r"\(30\) \(\Omega\) en \(60\) \(\Omega\) in serie", r"\(30 + 60\)", r"\(90\) \(\Omega\)"],
+                [r"\(50\) \(\Omega\) en \(50\) \(\Omega\) in serie", r"\(50 + 50\)", r"\(100\) \(\Omega\)"],
+                [r"\(30\) \(\Omega\) en \(60\) \(\Omega\) parallel", r"\((\tfrac{1}{30} + \tfrac{1}{60})^{-1}\)", r"\(20\) \(\Omega\)"],
+                [r"\(50\) \(\Omega\) en \(50\) \(\Omega\) parallel", r"\(50 / 2\)", r"\(25\) \(\Omega\)"],
+                [r"drie keer \(60\) \(\Omega\) parallel", r"\(60 / 3\)", r"\(20\) \(\Omega\)"],
+                [r"\(10\) \(\Omega\) in serie met twee keer \(20\) \(\Omega\) parallel", r"\(10 + 10\)", r"\(20\) \(\Omega\)"],
             ])),
             ("p", "Bij <strong>gelijke weerstanden parallel deel je door hun aantal</strong>. De "
                   "<strong>substitutieweerstand van een parallelschakeling is altijd kleiner dan de "
@@ -1298,9 +1301,9 @@ BUNDELS["elektrische-stroom-spanning-en-weerstand-fysica-boost-doorstroom"] = di
                   "bij. Enkel bij serie wordt de totale weerstand groter."),
             ("p", "Een <strong>gemengde schakeling</strong> werk je <strong>van binnen naar buiten "
                   "uit</strong>: eerst de parallelle groep tot één weerstand, dan die in serie met de "
-                  r"rest. Over een serieschakeling van \(20\) Ω en \(40\) Ω met \(12\) V loopt \(I = 12 / 60\) = "
-                  r"<strong>\(0{,}20\) A</strong>, en over de \(40\) Ω staat dan \(U = 40 \times 0{,}20\) = "
-                  r"<strong>\(8{,}0\) V</strong>; over de \(20\) Ω staat \(4{,}0\) V, samen weer \(12\) V."),
+                  r"rest. Over een serieschakeling van \(20\) \(\Omega\) en \(40\) \(\Omega\) met \(12\) V loopt \(I = 12 / 60\) = "
+                  r"<strong>\(0{,}20\) A</strong>, en over de \(40\) \(\Omega\) staat dan \(U = 40 \times 0{,}20\) = "
+                  r"<strong>\(8{,}0\) V</strong>; over de \(20\) \(\Omega\) staat \(4{,}0\) V, samen weer \(12\) V."),
             ("p", "Een <strong>kerstboomsnoer in serie gaat helemaal uit als één lampje stuk is</strong>: "
                   "de <strong>kring is onderbroken, dus loopt er nergens stroom</strong>. "
                   "<strong>Parallel geschakelde lampjes blijven wel branden</strong>: elke lamp krijgt "
@@ -1345,7 +1348,7 @@ BUNDELS["elektrische-stroom-spanning-en-weerstand-fysica-boost-doorstroom"] = di
         "Een geleider heeft een kleine weerstand, een isolator een grote; geleidbaarheid is omgekeerd aan weerstand.",
         "De conventionele stroomzin gaat van plus naar min; de elektronen bewegen de andere kant op.",
         "Ampèremeter in serie, voltmeter parallel; DCV voor gelijkspanning, DCA voor gelijkstroom.",
-        r"\(P = U\) . I, en het joule-effect warmt een weerstand op: gewenst in een waterkoker, niet in een kabel.",
+        r"\(P = U \cdot I\), en het joule-effect warmt een weerstand op: gewenst in een waterkoker, niet in een kabel.",
         r"Serie: dezelfde I, de spanningen tellen op, \(R_{s} = R_{1} + R_{2}\).",
         "Parallel: dezelfde U, de stromen tellen op, Rs kleiner dan de kleinste weerstand.",
         "Een gemengde schakeling werk je van binnen naar buiten uit.",

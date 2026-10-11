@@ -79,7 +79,7 @@ ECOLOGIE = [
         "type": "invultekst",
         "vraag": "Welk gas nemen planten overdag op uit de lucht om suiker te maken? Antwoord met één woord.",
         "antwoord": "koolstofdioxide",
-        "uitleg": "Koolstofdioxide, ofwel CO2. Met licht en water maakt de plant daar suiker van, en er komt zuurstof bij vrij.",
+        "uitleg": "Koolstofdioxide, ofwel CO₂. Met licht en water maakt de plant daar suiker van, en er komt zuurstof bij vrij.",
     },
     {
         "type": "meerkeuze",
@@ -293,7 +293,7 @@ LICHAAM = [
         "vraag": "Hoeveel botten heeft een volwassen mens ongeveer? Antwoord met een getal.",
         "antwoord": "206",
         "reken": "206",
-        "uitleg": "Ongeveer 206. Een baby heeft er meer, maar sommige groeien later aan elkaar vast.",
+        "uitleg": r"Ongeveer \(206\). Een baby heeft er meer, maar sommige groeien later aan elkaar vast.",
     },
     {
         "type": "meerkeuze",
@@ -360,7 +360,7 @@ STOFFEN = [
     },
     {
         "type": "waarofniet",
-        "vraag": "Als je 100 g water met 10 g suiker mengt, weegt het mengsel 110 g.",
+        "vraag": r"Als je \(100\) g water met \(10\) g suiker mengt, weegt het mengsel \(110\) g.",
         "antwoord": True,
         "uitleg": "Klopt. Bij oplossen gaat er geen materie verloren; ze zit alleen anders verdeeld. Dat heet behoud van massa.",
     },
@@ -387,7 +387,7 @@ STOFFEN = [
         "vraag": "Bij hoeveel graden Celsius kookt water op zeeniveau? Antwoord met een getal.",
         "antwoord": "100",
         "reken": "100",
-        "uitleg": "Bij 100 °C. Hoog in de bergen kookt water al bij een lagere temperatuur, omdat de lucht er minder hard op duwt.",
+        "uitleg": r"Bij \(100^{\circ}\text{C}\). Hoog in de bergen kookt water al bij een lagere temperatuur, omdat de lucht er minder hard op duwt.",
     },
     {
         "type": "meerkeuze",
@@ -477,7 +477,7 @@ STOFFEN = [
         "type": "waarofniet",
         "vraag": "Lucht weegt niets.",
         "antwoord": False,
-        "uitleg": "Niet waar. Eén kubieke meter lucht weegt ongeveer 1,2 kg. Een opgeblazen ballon is echt zwaarder dan een lege.",
+        "uitleg": r"Niet waar. Eén kubieke meter lucht weegt ongeveer \(1{,}2\) kg. Een opgeblazen ballon is echt zwaarder dan een lege.",
     },
     {
         "type": "invultekst",
@@ -576,7 +576,7 @@ KRACHTEN = [
         "type": "invultekst",
         "vraag": "In welke eenheid druk je kracht uit? Antwoord met één woord.",
         "antwoord": "newton",
-        "uitleg": "In newton, naar Isaac Newton. Eén kilogram weegt op aarde ongeveer 10 newton.",
+        "uitleg": r"In newton, naar Isaac Newton. Eén kilogram weegt op aarde ongeveer \(10\) newton.",
     },
     {
         "type": "meerkeuze",
@@ -622,10 +622,10 @@ KRACHTEN = [
     },
     {
         "type": "invultekst",
-        "vraag": "Hoeveel newton weegt een voorwerp van 5 kg op aarde ongeveer? Antwoord met een getal.",
+        "vraag": r"Hoeveel newton weegt een voorwerp van \(5\) kg op aarde ongeveer? Antwoord met een getal.",
         "antwoord": "50",
         "reken": "5 * 10",
-        "uitleg": "Ongeveer 50 newton, want elke kilogram telt voor ongeveer 10 newton.",
+        "uitleg": r"Ongeveer \(50\) newton, want elke kilogram telt voor ongeveer \(10\) newton.",
     },
     {
         "type": "meerkeuze",
@@ -682,14 +682,14 @@ GOLVEN = [
             "je oren reageren trager dan je ogen",
         ],
         "antwoord": 0,
-        "uitleg": "Licht doet er nauwelijks tijd over, geluid legt ongeveer 340 meter per seconde af. Drie seconden verschil is dus ongeveer een kilometer.",
+        "uitleg": r"Licht doet er nauwelijks tijd over, geluid legt ongeveer \(340\) meter per seconde af. Drie seconden verschil is dus ongeveer een kilometer.",
     },
     {
         "type": "invultekst",
         "vraag": "Hoeveel meter per seconde legt geluid in lucht ongeveer af? Antwoord met een getal.",
         "antwoord": "340",
         "reken": "340",
-        "uitleg": "Ongeveer 340 m/s. In water gaat het veel sneller, en in staal nog sneller: geluid heeft stof nodig om door te reizen.",
+        "uitleg": r"Ongeveer \(340\) m/s. In water gaat het veel sneller, en in staal nog sneller: geluid heeft stof nodig om door te reizen.",
     },
     {
         "type": "waarofniet",
@@ -815,7 +815,7 @@ GOLVEN = [
         "type": "invultekst",
         "vraag": "In welke eenheid druk je de spanning van een batterij uit? Antwoord met één woord.",
         "antwoord": "volt",
-        "uitleg": "In volt. Een gewone staafbatterij levert 1,5 volt, een autobatterij 12 volt.",
+        "uitleg": r"In volt. Een gewone staafbatterij levert \(1{,}5\) volt, een autobatterij \(12\) volt.",
     },
     {
         "type": "meerkeuze",
@@ -1020,7 +1020,7 @@ RUIMTE = [
         "vraag": "Hoeveel uur doet de aarde over één draai om haar eigen as? Antwoord met een getal.",
         "antwoord": "24",
         "reken": "24",
-        "uitleg": "Ongeveer 24 uur, en dat geeft dag en nacht. Eén rondje om de zon duurt een jaar.",
+        "uitleg": r"Ongeveer \(24\) uur, en dat geeft dag en nacht. Eén rondje om de zon duurt een jaar.",
     },
     {
         "type": "waarofniet",
@@ -1099,7 +1099,7 @@ RUIMTE = [
         "vraag": "Hoeveel minuten doet het licht van de zon erover om bij ons te raken? Antwoord met een getal.",
         "antwoord": "8",
         "reken": "8",
-        "uitleg": "Ongeveer 8 minuten. Ging de zon nu uit, dan zouden we dat pas 8 minuten later merken.",
+        "uitleg": r"Ongeveer \(8\) minuten. Ging de zon nu uit, dan zouden we dat pas \(8\) minuten later merken.",
     },
     {
         "type": "meerkeuze",

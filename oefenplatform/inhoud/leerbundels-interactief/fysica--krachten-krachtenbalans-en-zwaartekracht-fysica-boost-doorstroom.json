@@ -99,7 +99,7 @@
    "blokken": [
     {
      "soort": "tekst",
-     "html": "De <strong>veerkracht</strong> is <strong>\\(F_{v} = k \\cdot \\Delta l\\)</strong>, met <strong>k de veerconstante</strong> in <strong>newton per meter</strong> en Δl de lengteverandering. De <strong>veerkracht is recht evenredig met de lengteverandering</strong>: twee keer zo ver uitrekken vraagt twee keer zoveel kracht, en in een grafiek geeft dat een rechte door de oorsprong."
+     "html": "De <strong>veerkracht</strong> is <strong>\\(F_{v} = k \\cdot \\Delta l\\)</strong>, met <strong>k de veerconstante</strong> in <strong>newton per meter</strong> en \\(\\Delta l\\) de lengteverandering. De <strong>veerkracht is recht evenredig met de lengteverandering</strong>: twee keer zo ver uitrekken vraagt twee keer zoveel kracht, en in een grafiek geeft dat een rechte door de oorsprong."
     },
     {
      "soort": "tekst",
@@ -115,11 +115,11 @@
     },
     {
      "soort": "tekst",
-     "html": "De <strong>statische wrijvingskracht</strong> is <strong>\\(F_{w} = \\mu\\) . Fn</strong>. De <strong>wrijvingscoëfficiënt μ heeft geen eenheid</strong>, want het is een verhouding van twee krachten, en ze <strong>hangt af van de twee materialen die over elkaar schuiven</strong>, niet van de massa: die zit al in de normaalkracht."
+     "html": "De <strong>statische wrijvingskracht</strong> is <strong>\\(F_{w} = \\mu \\cdot F_{n}\\)</strong>. De <strong>wrijvingscoëfficiënt \\(\\mu\\) heeft geen eenheid</strong>, want het is een verhouding van twee krachten, en ze <strong>hangt af van de twee materialen die over elkaar schuiven</strong>, niet van de massa: die zit al in de normaalkracht."
     },
     {
      "soort": "tekst",
-     "html": "Op een <strong>horizontale vloer is Fn gelijk aan Fz</strong>. Voor een kist van \\(20\\) kg met \\(\\mu = 0{,}30\\) is \\(F_{n} = 20 \\times 9{,}81 = 196\\) N, dus \\(F_{w} = 0{,}30 \\times 196\\) = <strong>\\(59\\) N</strong>. Een <strong>zwaarder voorwerp op dezelfde vloer ondervindt dus een grotere wrijvingskracht</strong>, want de normaalkracht is groter. De wrijvingscoëfficiënt blijft wel dezelfde, want de materialen veranderen niet."
+     "html": "Op een <strong>horizontale vloer is \\(F_{n}\\) gelijk aan \\(F_{z}\\)</strong>. Voor een kist van \\(20\\) kg met \\(\\mu = 0{,}30\\) is \\(F_{n} = 20 \\times 9{,}81 = 196\\) N, dus \\(F_{w} = 0{,}30 \\times 196\\) = <strong>\\(59\\) N</strong>. Een <strong>zwaarder voorwerp op dezelfde vloer ondervindt dus een grotere wrijvingskracht</strong>, want de normaalkracht is groter. De wrijvingscoëfficiënt blijft wel dezelfde, want de materialen veranderen niet."
     },
     {
      "soort": "weetje",
@@ -135,8 +135,8 @@
   "De normaalkracht staat loodrecht op het oppervlak, de wrijvingskracht erlangs.",
   "\\(F_{z} = m \\cdot g\\), met \\(g = 9{,}81\\) N/kg in België; dezelfde g is \\(9{,}81\\ \\text{m/s}^{2}\\) als valversnelling.",
   "De massa verandert nooit van plaats tot plaats, het gewicht wel; een astronaut lijkt enkel gewichtloos.",
-  "\\(F_{v} = k \\cdot \\Delta l\\), met Δl in meter; een kleine k betekent een slappe veer.",
-  "\\(F_{w} = \\mu\\) . Fn; μ heeft geen eenheid en hangt af van de materialen, niet van de massa.",
-  "Op een horizontale vloer is Fn gelijk aan Fz."
+  "\\(F_{v} = k \\cdot \\Delta l\\), met \\(\\Delta l\\) in meter; een kleine k betekent een slappe veer.",
+  "\\(F_{w} = \\mu \\cdot F_{n}\\); \\(\\mu\\) heeft geen eenheid en hangt af van de materialen, niet van de massa.",
+  "Op een horizontale vloer is \\(F_{n}\\) gelijk aan \\(F_{z}\\)."
  ]
 }

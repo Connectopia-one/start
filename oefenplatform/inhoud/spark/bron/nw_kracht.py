@@ -118,7 +118,7 @@ DEEL1 = [
         vraag="Wat is de formule voor een constante snelheid?",
         opties=[r"\(v = \Delta x / \Delta t\)", r"\(v = \Delta x \times \Delta t\)", r"\(v = \Delta t / \Delta x\)"],
         antwoord=0,
-        uitleg="Je deelt de verplaatsing door de tijdsduur. Δx is de verplaatsing in meter en Δt de tijdsduur in seconde.",
+        uitleg=r"Je deelt de verplaatsing door de tijdsduur. \(\Delta x\) is de verplaatsing in meter en \(\Delta t\) de tijdsduur in seconde.",
     ),
     dict(
         type="meerkeuze",

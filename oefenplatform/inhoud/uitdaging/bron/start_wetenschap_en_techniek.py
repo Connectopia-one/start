@@ -27,10 +27,10 @@ VRAGEN = [
     },
     {
         "type": "invultekst",
-        "vraag": "Je lost 25 gram zout op in 200 gram water. Hoeveel gram weegt het mengsel daarna?",
+        "vraag": r"Je lost \(25\) gram zout op in \(200\) gram water. Hoeveel gram weegt het mengsel daarna?",
         "antwoord": "225",
         "reken": "25 + 200",
-        "uitleg": "Oplossen laat niets verdwijnen: het zout zit nog altijd in het water. 25 + 200 = 225 gram.",
+        "uitleg": r"Oplossen laat niets verdwijnen: het zout zit nog altijd in het water. \(25 + 200 = 225\) gram.",
     },
     {
         "type": "meerkeuze",
@@ -66,7 +66,7 @@ VRAGEN = [
         "type": "invultekst",
         "vraag": "Je ziet de bliksem en telt negen seconden tot je de donder hoort. Hoe ver is het onweer ongeveer? Antwoord in kilometer, met een getal.",
         "antwoord": "3",
-        "uitleg": "Geluid legt ongeveer 340 meter per seconde af, dus ongeveer een kilometer per drie seconden. Negen seconden is dan zowat 3 kilometer.",
+        "uitleg": r"Geluid legt ongeveer \(340\) meter per seconde af, dus ongeveer een kilometer per drie seconden. Negen seconden is dan zowat \(3\) kilometer.",
     },
     {
         "type": "meerkeuze",
@@ -78,7 +78,7 @@ VRAGEN = [
             "Geluid moet eerst rond de gebouwen heen draaien",
         ],
         "antwoord": 0,
-        "uitleg": "Licht legt zowat 300 000 kilometer per seconde af, geluid maar 340 meter. Ze vertrekken samen, maar het licht is er meteen.",
+        "uitleg": r"Licht legt zowat \(300\,000\) kilometer per seconde af, geluid maar \(340\) meter. Ze vertrekken samen, maar het licht is er meteen.",
     },
     {
         "type": "waarofniet",
@@ -149,11 +149,11 @@ VRAGEN = [
     },
     {
         "type": "meerkeuze",
-        "vraag": "Op een bouwtekening staat schaal 1:10. Een deur is op de tekening 8 cm hoog. Hoe hoog is ze in het echt?",
-        "opties": ["80 cm", "8 cm", "18 cm", "800 cm"],
+        "vraag": r"Op een bouwtekening staat schaal \(1\):\(10\). Een deur is op de tekening \(8\) cm hoog. Hoe hoog is ze in het echt?",
+        "opties": [r"\(80\) cm", r"\(8\) cm", r"\(18\) cm", r"\(800\) cm"],
         "antwoord": 0,
         "reken": "8 * 10",
-        "uitleg": "Schaal 1:10 betekent dat het echte voorwerp tien keer zo groot is als op de tekening: 8 x 10 = 80 cm.",
+        "uitleg": r"Schaal \(1\):\(10\) betekent dat het echte voorwerp tien keer zo groot is als op de tekening: \(8 \times 10 = 80\) cm.",
     },
     {
         "type": "waarofniet",
@@ -175,10 +175,10 @@ VRAGEN = [
     },
     {
         "type": "meerkeuze",
-        "vraag": "De maan doet ongeveer 28 dagen over een rondje rond de aarde. Hoeveel volle manen zie je dan ongeveer in één jaar?",
-        "opties": ["Ongeveer 13", "Ongeveer 12", "Ongeveer 24", "Ongeveer 6"],
+        "vraag": r"De maan doet ongeveer \(28\) dagen over een rondje rond de aarde. Hoeveel volle manen zie je dan ongeveer in één jaar?",
+        "opties": [r"Ongeveer \(13\)", r"Ongeveer \(12\)", r"Ongeveer \(24\)", r"Ongeveer \(6\)"],
         "antwoord": 0,
-        "uitleg": "365 gedeeld door 28 is ongeveer 13. Er zijn dus iets meer volle manen dan maanden, en daarom valt er soms twee keer één in dezelfde maand.",
+        "uitleg": r"\(365 : 28\) is ongeveer \(13\). Er zijn dus iets meer volle manen dan maanden, en daarom valt er soms twee keer één in dezelfde maand.",
     },
     {
         "type": "waarofniet",

@@ -12,7 +12,7 @@
     },
     {
      "soort": "tekst",
-     "html": "<strong>FA = \\(\\rho \\cdot g\\) . Vond</strong>, met <strong>ρ</strong> de <strong>massadichtheid</strong> van de vloeistof in <strong>kg/\\(\\text{m}^{3}\\)</strong>, g de zwaarteveldsterkte en <strong>Vond het ondergedompelde volume</strong>. De massadichtheid van <strong>water is \\(1000\\) kg/\\(\\text{m}^{3}\\)</strong>, of één kilogram per liter."
+     "html": "<strong>\\(F_{A} = \\rho \\cdot g \\cdot V_{\\text{ond}}\\)</strong>, met <strong>\\(\\rho\\)</strong> de <strong>massadichtheid</strong> van de vloeistof in <strong>kg/\\(\\text{m}^{3}\\)</strong>, g de zwaarteveldsterkte en <strong>\\(V_{\\text{ond}}\\) het ondergedompelde volume</strong>. De massadichtheid van <strong>water is \\(1000\\) kg/\\(\\text{m}^{3}\\)</strong>, of één kilogram per liter."
     },
     {
      "soort": "tekst",
@@ -24,7 +24,7 @@
     },
     {
      "soort": "tekst",
-     "html": "<strong>Enkel ρ, g en Vond staan in de formule.</strong> De <strong>massa en de vorm van het voorwerp tellen niet mee</strong>: twee voorwerpen van hetzelfde volume ondervinden dezelfde archimedeskracht, ook als het ene veel zwaarder is. <strong>De diepte staat er ook niet in</strong>: zolang het hele voorwerp onder water zit, blijft FA dezelfde, ook tien meter lager. Drijft een blok <strong>met driekwart van zijn volume onder water</strong>, dan gebruik je <strong>driekwart van het volume</strong>, want enkel dat deel duwt water weg."
+     "html": "<strong>Enkel \\(\\rho\\), g en \\(V_{\\text{ond}}\\) staan in de formule.</strong> De <strong>massa en de vorm van het voorwerp tellen niet mee</strong>: twee voorwerpen van hetzelfde volume ondervinden dezelfde archimedeskracht, ook als het ene veel zwaarder is. <strong>De diepte staat er ook niet in</strong>: zolang het hele voorwerp onder water zit, blijft \\(F_{A}\\) dezelfde, ook tien meter lager. Drijft een blok <strong>met driekwart van zijn volume onder water</strong>, dan gebruik je <strong>driekwart van het volume</strong>, want enkel dat deel duwt water weg."
     },
     {
      "soort": "tekst",
@@ -37,7 +37,7 @@
    "blokken": [
     {
      "soort": "tekst",
-     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Wat gebeurt er</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Krachten</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Massadichtheid</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">zinken</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Fz groter dan FA</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">ρ voorwerp groter dan ρ vloeistof</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">zweven</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Fz gelijk aan FA</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">ρ voorwerp gelijk aan ρ vloeistof</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">stijgen</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">FA groter dan Fz</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">ρ voorwerp kleiner dan ρ vloeistof</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">drijven</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">FA gelijk aan Fz</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">ρ voorwerp kleiner dan ρ vloeistof</td></tr></table>"
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Wat gebeurt er</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Krachten</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Massadichtheid</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">zinken</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">\\(F_{z}\\) groter dan \\(F_{A}\\)</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">\\(\\rho\\) voorwerp groter dan \\(\\rho\\) vloeistof</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">zweven</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">\\(F_{z}\\) gelijk aan \\(F_{A}\\)</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">\\(\\rho\\) voorwerp gelijk aan \\(\\rho\\) vloeistof</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">stijgen</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">\\(F_{A}\\) groter dan \\(F_{z}\\)</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">\\(\\rho\\) voorwerp kleiner dan \\(\\rho\\) vloeistof</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">drijven</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">\\(F_{A}\\) gelijk aan \\(F_{z}\\)</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">\\(\\rho\\) voorwerp kleiner dan \\(\\rho\\) vloeistof</td></tr></table>"
     },
     {
      "soort": "tekst",
@@ -62,7 +62,7 @@
    "blokken": [
     {
      "soort": "tekst",
-     "html": "Een kracht kan een voorwerp doen <strong>draaien</strong>. Hoeveel draaieffect ze heeft, zegt het <strong>moment</strong>: <strong>M = F . d . sin α</strong>, met <strong>d de krachtarm</strong> en α de hoek tussen de kracht en de arm. De eenheid is de <strong>newtonmeter (Nm)</strong>, <strong>niet de joule</strong>: die hoort bij arbeid en energie, ook al is ze eveneens een newton maal een meter."
+     "html": "Een kracht kan een voorwerp doen <strong>draaien</strong>. Hoeveel draaieffect ze heeft, zegt het <strong>moment</strong>: <strong>\\(M = F \\cdot d \\cdot \\sin \\alpha\\)</strong>, met <strong>d de krachtarm</strong> en \\(\\alpha\\) de hoek tussen de kracht en de arm. De eenheid is de <strong>newtonmeter (Nm)</strong>, <strong>niet de joule</strong>: die hoort bij arbeid en energie, ook al is ze eveneens een newton maal een meter."
     },
     {
      "soort": "tekst",
@@ -70,11 +70,11 @@
     },
     {
      "soort": "tekst",
-     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Gegeven</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Rekenwerk</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">M</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">\\(40\\) N loodrecht op \\(0{,}50\\) m</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">\\(40\\) . \\(0{,}50\\) . sin \\(90^{\\circ}\\)</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">\\(20\\) Nm</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">\\(25\\) N loodrecht op \\(0{,}80\\) m</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">\\(25 \\times 0{,}80 \\times 1\\)</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">\\(20\\) Nm</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">\\(60\\) N onder \\(30^{\\circ}\\) op \\(0{,}40\\) m</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">\\(60 \\times 0{,}40 \\times 0{,}50\\)</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">\\(12\\) Nm</td></tr></table>"
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Gegeven</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Rekenwerk</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">M</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">\\(40\\) N loodrecht op \\(0{,}50\\) m</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">\\(40 \\times 0{,}50 \\times \\sin 90^{\\circ}\\)</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">\\(20\\) Nm</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">\\(25\\) N loodrecht op \\(0{,}80\\) m</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">\\(25 \\times 0{,}80 \\times 1\\)</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">\\(20\\) Nm</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">\\(60\\) N onder \\(30^{\\circ}\\) op \\(0{,}40\\) m</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">\\(60 \\times 0{,}40 \\times 0{,}50\\)</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">\\(12\\) Nm</td></tr></table>"
     },
     {
      "soort": "tekst",
-     "html": "<strong>Bij een hoek van \\(90^{\\circ}\\) is het moment het grootst</strong>, want sin \\(90^{\\circ}\\) is \\(1\\) en blijft \\(M = F \\cdot d\\) over. Bij <strong>\\(0^{\\circ}\\) of \\(180^{\\circ}\\) werkt de kracht langs de arm en is het moment nul</strong>. Een <strong>kracht die door het draaipunt gaat, levert geen moment</strong>: duwen op het hengsel van een deur doet ze niet draaien."
+     "html": "<strong>Bij een hoek van \\(90^{\\circ}\\) is het moment het grootst</strong>, want \\(\\sin 90^{\\circ}\\) is \\(1\\) en blijft \\(M = F \\cdot d\\) over. Bij <strong>\\(0^{\\circ}\\) of \\(180^{\\circ}\\) werkt de kracht langs de arm en is het moment nul</strong>. Een <strong>kracht die door het draaipunt gaat, levert geen moment</strong>: duwen op het hengsel van een deur doet ze niet draaien."
     },
     {
      "soort": "tekst",
@@ -103,7 +103,7 @@
     },
     {
      "soort": "tekst",
-     "html": "Bij een <strong>wip</strong> moeten de momenten links en rechts gelijk zijn. Zit links een kind van \\(30\\) kg op \\(1{,}2\\) m, dan geldt voor een kind van \\(36\\) kg rechts: \\(30\\) . \\(1{,}2 = 36\\) . d, dus <strong>\\(d = 1{,}0\\) m</strong>. Het <strong>zwaardere kind zit dus dichter bij het draaipunt</strong>."
+     "html": "Bij een <strong>wip</strong> moeten de momenten links en rechts gelijk zijn. Zit links een kind van \\(30\\) kg op \\(1{,}2\\) m, dan geldt voor een kind van \\(36\\) kg rechts: \\(30 \\times 1{,}2 = 36 \\cdot d\\), dus <strong>\\(d = 1{,}0\\) m</strong>. Het <strong>zwaardere kind zit dus dichter bij het draaipunt</strong>."
     },
     {
      "soort": "tekst",
@@ -117,11 +117,11 @@
   }
  ],
  "onthoud": [
-  "FA = \\(\\rho \\cdot g\\) . Vond; de massadichtheid van water is \\(1000\\) kg/\\(\\text{m}^{3}\\).",
+  "\\(F_{A} = \\rho \\cdot g \\cdot V_{\\text{ond}}\\); de massadichtheid van water is \\(1000\\) kg/\\(\\text{m}^{3}\\).",
   "De massa, de vorm en de diepte van het voorwerp staan niet in die formule, enkel het ondergedompelde volume.",
-  "Zinken: Fz groter dan FA. Zweven en drijven: even groot. Stijgen: FA groter.",
+  "Zinken: \\(F_{z}\\) groter dan \\(F_{A}\\). Zweven en drijven: even groot. Stijgen: \\(F_{A}\\) groter.",
   "Een schip drijft omdat het hol is, dus met een gemiddelde massadichtheid onder \\(1000\\) kg/\\(\\text{m}^{3}\\).",
-  "M = F . d . sin α, in newtonmeter, niet in joule.",
+  "\\(M = F \\cdot d \\cdot \\sin \\alpha\\), in newtonmeter, niet in joule.",
   "Het moment is maximaal bij \\(90^{\\circ}\\) en nul als de kracht door het draaipunt gaat.",
   "Een langere krachtarm geeft bij dezelfde kracht een groter moment.",
   "Statisch evenwicht: de som van de krachten is nul én de som van de momenten is nul.",

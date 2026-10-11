@@ -1,18 +1,18 @@
 {
  "vak": "Fysica",
  "titel": "Arbeid, energie, vermogen en rendement",
- "onder": "Arbeid met cos α, de energievormen en hun formules, de wet van behoud van energie, de energiedissipatie, het vermogen en het rendement.",
+ "onder": "Arbeid met \\(\\cos \\alpha\\), de energievormen en hun formules, de wet van behoud van energie, de energiedissipatie, het vermogen en het rendement.",
  "secties": [
   {
    "kop": "Arbeid",
    "blokken": [
     {
      "soort": "tekst",
-     "html": "De <strong>arbeid</strong> van een kracht is <strong>W = F . Δx . cos α</strong>, met α de hoek tussen de kracht en de verplaatsing. Het symbool komt van het Engelse <em>work</em>, en de <strong>eenheid is de joule (J)</strong>."
+     "html": "De <strong>arbeid</strong> van een kracht is <strong>\\(W = F \\cdot \\Delta x \\cdot \\cos \\alpha\\)</strong>, met \\(\\alpha\\) de hoek tussen de kracht en de verplaatsing. Het symbool komt van het Engelse <em>work</em>, en de <strong>eenheid is de joule (J)</strong>."
     },
     {
      "soort": "tekst",
-     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Hoek</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">cos α</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Arbeid</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Voorbeeld</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">\\(0^{\\circ}\\)</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">\\(1\\)</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">positief</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">duwen in de zin van de beweging</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">\\(90^{\\circ}\\)</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">\\(0\\)</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">geen arbeid</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een doos horizontaal dragen</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">\\(180^{\\circ}\\)</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">\\(-1\\)</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">negatief</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">wrijving, of de zwaartekracht bij optillen</td></tr></table>"
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Hoek</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">\\(\\cos \\alpha\\)</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Arbeid</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Voorbeeld</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">\\(0^{\\circ}\\)</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">\\(1\\)</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">positief</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">duwen in de zin van de beweging</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">\\(90^{\\circ}\\)</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">\\(0\\)</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">geen arbeid</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een doos horizontaal dragen</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">\\(180^{\\circ}\\)</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">\\(-1\\)</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">negatief</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">wrijving, of de zwaartekracht bij optillen</td></tr></table>"
     },
     {
      "soort": "tekst",
@@ -33,7 +33,7 @@
    "blokken": [
     {
      "soort": "tekst",
-     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Energievorm</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Formule</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">kinetische energie</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">\\(E_{k} = m \\cdot v^{2} / 2\\)</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">potentiële gravitationele energie</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Ep,gr = m . g . h</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">potentiële elastische energie</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Ep,el = k . Δ\\(\\text{l}^{2}\\) / \\(2\\)</td></tr></table>"
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Energievorm</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Formule</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">kinetische energie</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">\\(E_{k} = m \\cdot v^{2} / 2\\)</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">potentiële gravitationele energie</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">\\(E_{p,gr} = m \\cdot g \\cdot h\\)</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">potentiële elastische energie</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">\\(E_{p,el} = k \\cdot \\Delta l^{2} / 2\\)</td></tr></table>"
     },
     {
      "soort": "tekst",
@@ -45,11 +45,11 @@
     },
     {
      "soort": "tekst",
-     "html": "In Ek staat de <strong>snelheid in het kwadraat</strong>. Een auto die <strong>twee keer zo snel rijdt, heeft dus vier keer zoveel kinetische energie</strong>, niet twee keer. Daarom is een remweg bij dubbele snelheid vier keer zo lang."
+     "html": "In \\(E_{k}\\) staat de <strong>snelheid in het kwadraat</strong>. Een auto die <strong>twee keer zo snel rijdt, heeft dus vier keer zoveel kinetische energie</strong>, niet twee keer. Daarom is een remweg bij dubbele snelheid vier keer zo lang."
     },
     {
      "soort": "tekst",
-     "html": "Een <strong>voorwerp dat stilstaat kan toch potentiële energie hebben</strong>: een steen bovenop een muur heeft Ep,gr door zijn hoogte. Enkel zijn kinetische energie is nul."
+     "html": "Een <strong>voorwerp dat stilstaat kan toch potentiële energie hebben</strong>: een steen bovenop een muur heeft \\(E_{p,gr}\\) door zijn hoogte. Enkel zijn kinetische energie is nul."
     },
     {
      "soort": "tekst",
@@ -74,11 +74,11 @@
     },
     {
      "soort": "tekst",
-     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Wat gebeurt er</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Omzetting</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een bal valt van een muur</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Ep,gr naar Ek</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een bal omhoog gooien</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Ek naar Ep,gr</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een elektrische waterkoker</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">elektrisch naar thermisch</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een plant doet fotosynthese</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">straling naar chemisch</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een ingedrukte veer schiet los</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Ep,el naar Ek</td></tr></table>"
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Wat gebeurt er</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Omzetting</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een bal valt van een muur</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">\\(E_{p,gr}\\) naar \\(E_{k}\\)</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een bal omhoog gooien</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">\\(E_{k}\\) naar \\(E_{p,gr}\\)</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een elektrische waterkoker</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">elektrisch naar thermisch</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een plant doet fotosynthese</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">straling naar chemisch</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een ingedrukte veer schiet los</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">\\(E_{p,el}\\) naar \\(E_{k}\\)</td></tr></table>"
     },
     {
      "soort": "tekst",
-     "html": "Bij een <strong>vrije val zonder luchtweerstand blijft de som van Ek en Ep,gr gelijk</strong>: de ene vorm wordt de andere, zonder verlies. Daarom kan je de snelheid onderaan uit de hoogte berekenen."
+     "html": "Bij een <strong>vrije val zonder luchtweerstand blijft de som van \\(E_{k}\\) en \\(E_{p,gr}\\) gelijk</strong>: de ene vorm wordt de andere, zonder verlies. Daarom kan je de snelheid onderaan uit de hoogte berekenen."
     },
     {
      "soort": "tekst",
@@ -99,7 +99,7 @@
    "blokken": [
     {
      "soort": "tekst",
-     "html": "Het <strong>vermogen</strong> is <strong>P = |ΔE| / Δt</strong>: de omgezette energie gedeeld door de tijd die het duurde. De <strong>eenheid is de watt</strong>, en <strong>één watt is één joule per seconde</strong>."
+     "html": "Het <strong>vermogen</strong> is <strong>\\(P = |\\Delta E| / \\Delta t\\)</strong>: de omgezette energie gedeeld door de tijd die het duurde. De <strong>eenheid is de watt</strong>, en <strong>één watt is één joule per seconde</strong>."
     },
     {
      "soort": "tekst",
@@ -111,7 +111,7 @@
     },
     {
      "soort": "tekst",
-     "html": "Het <strong>rendement</strong> is <strong>η = Enuttig / Etotaal</strong>, met de Griekse letter eta. Het <strong>heeft geen eenheid</strong>, want het is een verhouding, en wordt vaak als percentage geschreven."
+     "html": "Het <strong>rendement</strong> is <strong>\\(\\eta = E_{\\text{nuttig}} / E_{\\text{totaal}}\\)</strong>, met de Griekse letter eta. Het <strong>heeft geen eenheid</strong>, want het is een verhouding, en wordt vaak als percentage geschreven."
     },
     {
      "soort": "tekst",
@@ -133,14 +133,14 @@
   }
  ],
  "onthoud": [
-  "W = F . Δx . cos α; bij \\(0^{\\circ}\\) positief, bij \\(90^{\\circ}\\) geen arbeid, bij \\(180^{\\circ}\\) negatief.",
-  "\\(E_{k} = m \\cdot v^{2} / 2\\), Ep,gr = m . g . h, Ep,el = k . Δ\\(\\text{l}^{2}\\) / \\(2\\).",
+  "\\(W = F \\cdot \\Delta x \\cdot \\cos \\alpha\\); bij \\(0^{\\circ}\\) positief, bij \\(90^{\\circ}\\) geen arbeid, bij \\(180^{\\circ}\\) negatief.",
+  "\\(E_{k} = m \\cdot v^{2} / 2\\), \\(E_{p,gr} = m \\cdot g \\cdot h\\), \\(E_{p,el} = k \\cdot \\Delta l^{2} / 2\\).",
   "Twee keer zo snel geeft vier keer zoveel kinetische energie.",
   "Een kilowattuur is een eenheid van energie, geen vermogen.",
   "Energie verdwijnt niet, ze verandert van vorm; in een geïsoleerd systeem blijft de som gelijk.",
   "Energiedissipatie: bruikbare energie wordt warmte die je niet meer kan gebruiken.",
-  "Arbeid-energietheorema: de arbeid van de resultante is de verandering van de Ek.",
-  "P = |ΔE| / Δt, in watt; één watt is één joule per seconde.",
-  "η = Enuttig / Etotaal, zonder eenheid en altijd onder \\(100\\,\\%\\)."
+  "Arbeid-energietheorema: de arbeid van de resultante is de verandering van de \\(E_{k}\\).",
+  "\\(P = |\\Delta E| / \\Delta t\\), in watt; één watt is één joule per seconde.",
+  "\\(\\eta = E_{\\text{nuttig}} / E_{\\text{totaal}}\\), zonder eenheid en altijd onder \\(100\\,\\%\\)."
  ]
 }

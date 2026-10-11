@@ -232,7 +232,7 @@ DEEL2 = [
     ),
     dict(
         type="meerkeuze",
-        vraag=r"Uit de formule \(v = \Delta x / \Delta t\): hoe schrijf je Δt in functie van de andere?",
+        vraag=r"Uit de formule \(v = \Delta x / \Delta t\): hoe schrijf je \(\Delta t\) in functie van de andere?",
         opties=[r"\(\Delta t = \Delta x / v\)", r"\(\Delta t = v \times \Delta x\)", r"\(\Delta t = v / \Delta x\)"],
         antwoord=0,
         uitleg=r"Een formule omvormen is een wiskundige vaardigheid die je hier nodig hebt: uit \(v = \Delta x / \Delta t\) volgt \(\Delta x = v \times \Delta t\) en dus \(\Delta t = \Delta x / v\).",

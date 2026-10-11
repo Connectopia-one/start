@@ -603,13 +603,13 @@
           "type": "meerkeuze",
           "vraag": "Hoeveel botten heeft een volwassen mens ongeveer?",
           "opties": [
-            "ongeveer 206",
-            "ongeveer 50",
-            "ongeveer 1 000",
-            "ongeveer 20"
+            "ongeveer \\(206\\)",
+            "ongeveer \\(50\\)",
+            "ongeveer \\(1\\,000\\)",
+            "ongeveer \\(20\\)"
           ],
           "antwoord": 0,
-          "uitleg": "Een baby heeft er meer, ongeveer 300. Tijdens het opgroeien groeien sommige botten aan elkaar vast."
+          "uitleg": "Een baby heeft er meer, ongeveer \\(300\\). Tijdens het opgroeien groeien sommige botten aan elkaar vast."
         },
         {
           "type": "meerkeuze",
@@ -765,10 +765,10 @@
           "type": "meerkeuze",
           "vraag": "Hoeveel slaap heeft een kind van tien jaar ongeveer nodig?",
           "opties": [
-            "ongeveer 9 tot 11 uur",
-            "ongeveer 4 uur",
-            "ongeveer 6 uur",
-            "ongeveer 14 uur"
+            "ongeveer \\(9\\) tot \\(11\\) uur",
+            "ongeveer \\(4\\) uur",
+            "ongeveer \\(6\\) uur",
+            "ongeveer \\(14\\) uur"
           ],
           "antwoord": 0,
           "uitleg": "Tijdens je slaap groeit je lichaam en ruimen je hersenen op wat je die dag geleerd hebt."
@@ -825,13 +825,13 @@
           "type": "invultekst",
           "vraag": "Bij hoeveel graden Celsius kookt water op zeeniveau?",
           "antwoord": "100",
-          "uitleg": "Bij 100 graden gaat water over in waterdamp."
+          "uitleg": "Bij \\(100\\) graden gaat water over in waterdamp."
         },
         {
           "type": "invultekst",
           "vraag": "Bij hoeveel graden Celsius smelt ijs?",
           "antwoord": "0",
-          "uitleg": "Bij 0 graden gaat ijs over in vloeibaar water."
+          "uitleg": "Bij \\(0\\) graden gaat ijs over in vloeibaar water."
         },
         {
           "type": "meerkeuze",
@@ -937,7 +937,7 @@
         },
         {
           "type": "invultekst",
-          "vraag": "Welk gas hebben planten nodig om aan fotosynthese te doen? (afkorting CO2, voluit één woord)",
+          "vraag": "Welk gas hebben planten nodig om aan fotosynthese te doen? (afkorting CO₂, voluit één woord)",
           "antwoord": [
             "koolstofdioxide",
             "kooldioxide"
@@ -1024,11 +1024,11 @@
         },
         {
           "type": "meerkeuze",
-          "vraag": "Je lost 10 gram suiker op in 100 gram water. Hoeveel weegt het geheel?",
+          "vraag": "Je lost \\(10\\) gram suiker op in \\(100\\) gram water. Hoeveel weegt het geheel?",
           "opties": [
-            "110 gram",
-            "100 gram",
-            "10 gram",
+            "\\(110\\) gram",
+            "\\(100\\) gram",
+            "\\(10\\) gram",
             "dat kan je niet weten"
           ],
           "antwoord": 0,
@@ -1048,7 +1048,7 @@
         },
         {
           "type": "meerkeuze",
-          "vraag": "Wat betekent een pH van 7?",
+          "vraag": "Wat betekent een pH van \\(7\\)?",
           "opties": [
             "de stof is neutraal, dus niet zuur en niet basisch",
             "de stof is heel basisch, zoals zeep of soda in water",
@@ -1056,7 +1056,7 @@
             "de stof is giftig"
           ],
           "antwoord": 0,
-          "uitleg": "Onder 7 is zuur, boven 7 is basisch. Zuiver water zit precies op 7."
+          "uitleg": "Onder \\(7\\) is zuur, boven \\(7\\) is basisch. Zuiver water zit precies op \\(7\\)."
         },
         {
           "type": "meerkeuze",
@@ -1140,7 +1140,7 @@
             "uit waterdamp"
           ],
           "antwoord": 0,
-          "uitleg": "Ongeveer 78 % stikstof en 21 % zuurstof. Koolstofdioxide is er maar een heel klein deel van."
+          "uitleg": "Ongeveer \\(78\\,\\%\\) stikstof en \\(21\\,\\%\\) zuurstof. Koolstofdioxide is er maar een heel klein deel van."
         },
         {
           "type": "meerkeuze",
@@ -1630,15 +1630,15 @@
         },
         {
           "type": "meerkeuze",
-          "vraag": "Je fietst 12 kilometer in 1 uur. Hoe reken je je snelheid uit?",
+          "vraag": "Je fietst \\(12\\) kilometer in \\(1\\) uur. Hoe reken je je snelheid uit?",
           "opties": [
-            "de afstand delen door de tijd, dus 12 km per uur",
-            "de tijd delen door de afstand, dus 1 uur per 12 km",
+            "de afstand delen door de tijd, dus \\(12\\) km per uur",
+            "de tijd delen door de afstand, dus \\(1\\) uur per \\(12\\) km",
             "de afstand maal de tijd",
             "de afstand plus de tijd"
           ],
           "antwoord": 0,
-          "uitleg": "Snelheid is altijd afstand gedeeld door tijd. In 2 uur 12 km fietsen is dus 6 km per uur."
+          "uitleg": "Snelheid is altijd afstand gedeeld door tijd. In \\(2\\) uur \\(12\\) km fietsen is dus \\(6\\) km per uur."
         }
       ]
     },
@@ -1836,13 +1836,13 @@
           "type": "meerkeuze",
           "vraag": "Hoe snel gaat licht ongeveer?",
           "opties": [
-            "300 000 kilometer per seconde",
-            "300 kilometer per uur",
-            "1 000 kilometer per seconde",
+            "\\(300\\,000\\) kilometer per seconde",
+            "\\(300\\) kilometer per uur",
+            "\\(1\\,000\\) kilometer per seconde",
             "even snel als geluid"
           ],
           "antwoord": 0,
-          "uitleg": "Ongeveer 300 000 kilometer per seconde, bijna een miljoen keer sneller dan geluid. En toch doet licht van de zon er nog acht minuten over om bij ons te raken."
+          "uitleg": "Ongeveer \\(300\\,000\\) kilometer per seconde, bijna een miljoen keer sneller dan geluid. En toch doet licht van de zon er nog acht minuten over om bij ons te raken."
         },
         {
           "type": "meerkeuze",
@@ -1881,7 +1881,7 @@
             "decibel",
             "decibels"
           ],
-          "uitleg": "Een gesprek zit rond 60 decibel, een drukke straat rond 80. Vanaf ongeveer 85 decibel wordt langdurig luisteren schadelijk."
+          "uitleg": "Een gesprek zit rond \\(60\\) decibel, een drukke straat rond \\(80\\). Vanaf ongeveer \\(85\\) decibel wordt langdurig luisteren schadelijk."
         },
         {
           "type": "meerkeuze",
@@ -1899,10 +1899,10 @@
           "type": "meerkeuze",
           "vraag": "Je ziet de bliksem en telt zes seconden tot de donder. Hoe ver is het onweer ongeveer?",
           "opties": [
-            "ongeveer 2 kilometer",
-            "ongeveer 6 kilometer",
-            "ongeveer 600 meter",
-            "ongeveer 20 kilometer"
+            "ongeveer \\(2\\) kilometer",
+            "ongeveer \\(6\\) kilometer",
+            "ongeveer \\(600\\) meter",
+            "ongeveer \\(20\\) kilometer"
           ],
           "antwoord": 0,
           "uitleg": "Geluid legt ongeveer een kilometer per drie seconden af. Zes seconden is dus ongeveer twee kilometer."
@@ -1995,13 +1995,13 @@
           "type": "waarofniet",
           "vraag": "Proefjes met elektriciteit doe je uitsluitend met een batterij, nooit met het stopcontact.",
           "antwoord": true,
-          "uitleg": "Klopt. Uit het stopcontact komt 230 volt, en dat is levensgevaarlijk. Een batterij van 1,5 volt voel je niet eens."
+          "uitleg": "Klopt. Uit het stopcontact komt \\(230\\) volt, en dat is levensgevaarlijk. Een batterij van \\(1{,}5\\) volt voel je niet eens."
         },
         {
           "type": "invultekst",
           "vraag": "In welke eenheid druk je elektrische spanning uit?",
           "antwoord": "volt",
-          "uitleg": "Een gewone batterij geeft 1,5 volt, het stopcontact bij ons 230 volt."
+          "uitleg": "Een gewone batterij geeft \\(1{,}5\\) volt, het stopcontact bij ons \\(230\\) volt."
         },
         {
           "type": "meerkeuze",
@@ -2280,7 +2280,7 @@
             "de handleiding achteraf"
           ],
           "antwoord": 0,
-          "uitleg": "Bijvoorbeeld: het moet 20 kg dragen, in een rugzak passen en niet meer dan 10 euro kosten. Achteraf kan je eraan aftoetsen of het gelukt is."
+          "uitleg": "Bijvoorbeeld: het moet \\(20\\) kg dragen, in een rugzak passen en niet meer dan \\(10\\) euro kosten. Achteraf kan je eraan aftoetsen of het gelukt is."
         },
         {
           "type": "meerkeuze",
@@ -2296,7 +2296,7 @@
         },
         {
           "type": "meerkeuze",
-          "vraag": "Op een tekening staat schaal 1:10. Wat betekent dat?",
+          "vraag": "Op een tekening staat schaal \\(1\\):\\(10\\). Wat betekent dat?",
           "opties": [
             "in het echt is alles tien keer groter",
             "in het echt is alles tien keer kleiner",
@@ -2304,13 +2304,13 @@
             "er passen tien tekeningen op één blad"
           ],
           "antwoord": 0,
-          "uitleg": "Een lijn van 3 cm op de tekening is dus 30 cm in het echt. Zo krijg je een heel huis op één blad."
+          "uitleg": "Een lijn van \\(3\\) cm op de tekening is dus \\(30\\) cm in het echt. Zo krijg je een heel huis op één blad."
         },
         {
           "type": "waarofniet",
           "vraag": "Op een technische tekening zet je de maten meestal in meter, met een komma.",
           "antwoord": false,
-          "uitleg": "Niet juist. Meestal staat alles in millimeter, zonder komma's. 1 250 mm leest duidelijker dan 1,25 m, en zo sluipen er minder fouten in."
+          "uitleg": "Niet juist. Meestal staat alles in millimeter, zonder komma's. \\(1\\,250\\) mm leest duidelijker dan \\(1{,}25\\) m, en zo sluipen er minder fouten in."
         },
         {
           "type": "meerkeuze",
@@ -2343,7 +2343,7 @@
             "om hout glad te maken"
           ],
           "antwoord": 0,
-          "uitleg": "Een waterpas zegt of iets horizontaal staat, een winkelhaak of een hoek 90 graden is."
+          "uitleg": "Een waterpas zegt of iets horizontaal staat, een winkelhaak of een hoek \\(90\\) graden is."
         },
         {
           "type": "meerkeuze",
@@ -2499,25 +2499,25 @@
           "type": "meerkeuze",
           "vraag": "Waardoor is het bij ons afwisselend dag en nacht?",
           "opties": [
-            "de aarde draait in 24 uur één keer rond haar as",
-            "de zon draait in 24 uur één keer helemaal rond de aarde",
+            "de aarde draait in \\(24\\) uur één keer rond haar as",
+            "de zon draait in \\(24\\) uur één keer helemaal rond de aarde",
             "de aarde draait rond de zon",
             "de maan schuift voor de zon"
           ],
           "antwoord": 0,
-          "uitleg": "De kant die naar de zon gekeerd staat, heeft dag. Een hele draai duurt 24 uur, en dat is precies onze dag."
+          "uitleg": "De kant die naar de zon gekeerd staat, heeft dag. Een hele draai duurt \\(24\\) uur, en dat is precies onze dag."
         },
         {
           "type": "invultekst",
           "vraag": "Hoeveel dagen duurt één rondje van de aarde om de zon, afgerond? Antwoord met een getal.",
           "antwoord": "365",
-          "uitleg": "Precies is het ongeveer 365 dagen en 6 uur. Die extra uren sparen we vier jaar op."
+          "uitleg": "Precies is het ongeveer \\(365\\) dagen en \\(6\\) uur. Die extra uren sparen we vier jaar op."
         },
         {
           "type": "meerkeuze",
-          "vraag": "Waarom bestaat er om de vier jaar een schrikkeljaar met 29 februari?",
+          "vraag": "Waarom bestaat er om de vier jaar een schrikkeljaar met \\(29\\) februari?",
           "opties": [
-            "omdat een rondje om de zon zes uur langer duurt dan 365 dagen",
+            "omdat een rondje om de zon zes uur langer duurt dan \\(365\\) dagen",
             "omdat de aarde om de vier jaar een beetje trager gaat draaien",
             "omdat februari anders te kort is",
             "omdat de maan om de vier jaar extra draait"
@@ -2607,7 +2607,7 @@
             "ongeveer een jaar"
           ],
           "antwoord": 0,
-          "uitleg": "Daar komt het woord maand vandaan. Van volle maan tot volle maan duurt het ongeveer 29 dagen."
+          "uitleg": "Daar komt het woord maand vandaan. Van volle maan tot volle maan duurt het ongeveer \\(29\\) dagen."
         },
         {
           "type": "waarofniet",
@@ -2685,7 +2685,7 @@
           "type": "invultekst",
           "vraag": "Hoeveel planeten telt ons zonnestelsel? Antwoord met een getal.",
           "antwoord": "8",
-          "uitleg": "Acht. Pluto telde vroeger mee, maar geldt sinds 2006 als dwergplaneet."
+          "uitleg": "Acht. Pluto telde vroeger mee, maar geldt sinds \\(2006\\) als dwergplaneet."
         },
         {
           "type": "meerkeuze",
@@ -2751,7 +2751,7 @@
             "Jupiter"
           ],
           "antwoord": 0,
-          "uitleg": "Venus heeft een dikke deken van wolken die de warmte vasthoudt. Het wordt er meer dan 400 graden."
+          "uitleg": "Venus heeft een dikke deken van wolken die de warmte vasthoudt. Het wordt er meer dan \\(400\\) graden."
         },
         {
           "type": "meerkeuze",
@@ -2781,7 +2781,7 @@
           "type": "waarofniet",
           "vraag": "Een jaar duurt op elke planeet even lang.",
           "antwoord": false,
-          "uitleg": "Niet juist. Een jaar is één rondje om de zon. Op Mercurius duurt dat 88 aardse dagen, op Neptunus ruim 160 aardse jaren."
+          "uitleg": "Niet juist. Een jaar is één rondje om de zon. Op Mercurius duurt dat \\(88\\) aardse dagen, op Neptunus ruim \\(160\\) aardse jaren."
         },
         {
           "type": "meerkeuze",
@@ -2829,7 +2829,7 @@
             "de tijd dat een ster licht geeft"
           ],
           "antwoord": 0,
-          "uitleg": "Het is dus een afstand, geen tijd. Eén lichtjaar is ongeveer 9 500 miljard kilometer."
+          "uitleg": "Het is dus een afstand, geen tijd. Eén lichtjaar is ongeveer \\(9\\,500\\) miljard kilometer."
         },
         {
           "type": "meerkeuze",
@@ -2889,7 +2889,7 @@
             "de naam van een satellietbaan"
           ],
           "antwoord": 0,
-          "uitleg": "Het draait ongeveer 400 kilometer boven ons en doet er anderhalf uur over om één keer rond de aarde te gaan."
+          "uitleg": "Het draait ongeveer \\(400\\) kilometer boven ons en doet er anderhalf uur over om één keer rond de aarde te gaan."
         },
         {
           "type": "meerkeuze",
@@ -2907,7 +2907,7 @@
           "type": "invultekst",
           "vraag": "In welk jaar zette voor het eerst een mens voet op de maan?",
           "antwoord": "1969",
-          "uitleg": "In de nacht van 20 op 21 juli 1969, met de missie Apollo 11. Bij ons was het toen al 21 juli. Sindsdien zijn er in totaal twaalf mensen op de maan geweest."
+          "uitleg": "In de nacht van \\(20\\) op \\(21\\) juli \\(1969\\), met de missie Apollo \\(11\\). Bij ons was het toen al \\(21\\) juli. Sindsdien zijn er in totaal twaalf mensen op de maan geweest."
         }
       ]
     }

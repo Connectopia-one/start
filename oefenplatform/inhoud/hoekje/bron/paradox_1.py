@@ -17,7 +17,7 @@ VRAGEN = [
             "Onze dampkring laat 's nachts maar een deel van het licht door",
         ],
         "antwoord": 0,
-        "uitleg": "In elke richting zou je op een ster moeten uitkomen, dus zou de hele hemel moeten gloeien. De uitweg: het heelal is zo'n 13,8 miljard jaar oud, dus verder licht is nog onderweg, en door de uitdijing is het licht van de verste stelsels bovendien uit het zichtbare gerekt. Stof helpt niet: dat zou zelf gaan gloeien.",
+        "uitleg": r"In elke richting zou je op een ster moeten uitkomen, dus zou de hele hemel moeten gloeien. De uitweg: het heelal is zo'n \(13{,}8\) miljard jaar oud, dus verder licht is nog onderweg, en door de uitdijing is het licht van de verste stelsels bovendien uit het zichtbare gerekt. Stof helpt niet: dat zou zelf gaan gloeien.",
     },
     {
         "type": "meerkeuze",
@@ -47,23 +47,23 @@ VRAGEN = [
         "type": "meerkeuze",
         "vraag": "Hilberts hotel heeft oneindig veel kamers en zit helemaal vol. Er komt nog een gast. Wat nu?",
         "opties": [
-            "Iedereen schuift één kamer op, en kamer 1 komt vrij",
+            r"Iedereen schuift één kamer op, en kamer \(1\) komt vrij",
             "De nieuwe gast moet wachten tot er iemand vertrekt",
             "De gast deelt een kamer met wie er al ligt",
             "Er wordt een extra kamer aan het einde bijgebouwd",
         ],
         "antwoord": 0,
-        "uitleg": "De gast uit kamer 1 gaat naar 2, die uit 2 naar 3, enzovoort. Niemand valt uit de boot, want er is geen laatste kamer. Bij oneindigheid werkt vol niet zoals bij eindige dingen, en daar was het David Hilbert net om te doen.",
+        "uitleg": r"De gast uit kamer \(1\) gaat naar \(2\), die uit \(2\) naar \(3\), enzovoort. Niemand valt uit de boot, want er is geen laatste kamer. Bij oneindigheid werkt vol niet zoals bij eindige dingen, en daar was het David Hilbert net om te doen.",
     },
     {
         "type": "waarofniet",
         "vraag": "Er zijn evenveel even getallen als er natuurlijke getallen zijn.",
         "antwoord": True,
-        "uitleg": "Je kunt ze twee aan twee koppelen: 1 met 2, 2 met 4, 3 met 6, en zo door. Niemand blijft over aan beide kanten, dus zijn de twee verzamelingen even groot. Dat de even getallen er maar de helft van zijn, is bij oneindige verzamelingen geen tegenspraak.",
+        "uitleg": r"Je kunt ze twee aan twee koppelen: \(1\) met \(2\), \(2\) met \(4\), \(3\) met \(6\), en zo door. Niemand blijft over aan beide kanten, dus zijn de twee verzamelingen even groot. Dat de even getallen er maar de helft van zijn, is bij oneindige verzamelingen geen tegenspraak.",
     },
     {
         "type": "meerkeuze",
-        "vraag": "In een groep van 23 mensen: hoe groot is de kans dat er twee op dezelfde dag jarig zijn?",
+        "vraag": r"In een groep van \(23\) mensen: hoe groot is de kans dat er twee op dezelfde dag jarig zijn?",
         "opties": [
             "Ongeveer de helft",
             "Ongeveer één op tien",
@@ -71,7 +71,7 @@ VRAGEN = [
             "Bijna zeker, meer dan negen op tien",
         ],
         "antwoord": 0,
-        "uitleg": "Veel mensen gokken veel lager, en daarom heet het de verjaardagsparadox. Het gaat niet om jouw verjaardag maar om élk paar in de groep, en bij 23 mensen zijn dat er al 253. Vanaf 70 mensen is de kans groter dan 99 procent.",
+        "uitleg": r"Veel mensen gokken veel lager, en daarom heet het de verjaardagsparadox. Het gaat niet om jouw verjaardag maar om élk paar in de groep, en bij \(23\) mensen zijn dat er al \(253\). Vanaf \(70\) mensen is de kans groter dan \(99\) procent.",
     },
     {
         "type": "meerkeuze",
@@ -99,9 +99,9 @@ VRAGEN = [
     },
     {
         "type": "waarofniet",
-        "vraag": "Het getal 0,999... met eindeloos veel negens is precies gelijk aan 1.",
+        "vraag": r"Het getal \(0{,}999\)... met eindeloos veel negens is precies gelijk aan \(1\).",
         "antwoord": True,
-        "uitleg": "Niet bijna, maar exact. Eén derde is 0,333..., en drie keer een derde is één, dus 0,999... is één. Of anders: als ze verschillend waren, moest er een getal tussen passen, en dat bestaat niet.",
+        "uitleg": r"Niet bijna, maar exact. Eén derde is \(0{,}333\)..., en drie keer een derde is één, dus \(0{,}999\)... is één. Of anders: als ze verschillend waren, moest er een getal tussen passen, en dat bestaat niet.",
     },
     {
         "type": "meerkeuze",
@@ -113,7 +113,7 @@ VRAGEN = [
             "Ze is te kort om er iets zinnigs over te kunnen zeggen",
         ],
         "antwoord": 0,
-        "uitleg": "De leugenaarsparadox draait al meer dan tweeduizend jaar rond. Het probleem zit in het spreken over zichzelf. Kurt Gödel gebruikte diezelfde truc in 1931 om iets veel diepers te bewijzen over de grenzen van de wiskunde.",
+        "uitleg": r"De leugenaarsparadox draait al meer dan tweeduizend jaar rond. Het probleem zit in het spreken over zichzelf. Kurt Gödel gebruikte diezelfde truc in \(1931\) om iets veel diepers te bewijzen over de grenzen van de wiskunde.",
     },
     {
         "type": "meerkeuze",
@@ -209,12 +209,12 @@ VRAGEN = [
         "type": "meerkeuze",
         "vraag": "De kosmische kalender perst de hele geschiedenis van het heelal in één jaar. Wanneer verschijnt de mens?",
         "opties": [
-            "Pas in de laatste minuten van 31 december",
+            r"Pas in de laatste minuten van \(31\) december",
             "Ergens rond het midden van de maand november",
             "Kort na de zomer, begin september",
             "Bij het begin van het jaar, in januari",
         ],
         "antwoord": 0,
-        "uitleg": "De oerknal valt op 1 januari, de aarde ontstaat pas eind augustus, de dinosauriërs sterven uit op 30 december. Alles wat ooit is opgeschreven, van de eerste kleitabletten tot vandaag, past in de laatste halve minuut van oudejaarsavond.",
+        "uitleg": r"De oerknal valt op \(1\) januari, de aarde ontstaat pas eind augustus, de dinosauriërs sterven uit op \(30\) december. Alles wat ooit is opgeschreven, van de eerste kleitabletten tot vandaag, past in de laatste halve minuut van oudejaarsavond.",
     },
 ]

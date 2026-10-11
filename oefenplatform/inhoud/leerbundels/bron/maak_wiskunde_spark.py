@@ -101,7 +101,7 @@ BUNDELS["getallenleer"] = dict(
             ("p", "Voor machten met <strong>hetzelfde grondtal</strong>: bij vermenigvuldigen tel je de "
                   r"exponenten op \((2^{3} \cdot 2^{4} = 2^{7})\), bij delen trek je ze af, en bij een macht van een macht "
                   r"vermenigvuldig je ze \(((2^{3})^{2} = 2^{6})\). Een negatieve exponent betekent het omgekeerde: "
-                  r"\(2^{-2} = \tfrac{1}{2}\)^{2} \(= \tfrac{1}{4}\)."),
+                  r"\(2^{-2} = \left(\tfrac{1}{2}\right)^{2} = \tfrac{1}{4}\)."),
         ]),
         dict(kop="Priemgetallen, ggd en kgv", blokken=[
             ("p", r"Een <strong>priemgetal</strong> heeft precies twee delers: \(1\) en zichzelf. \(2\), \(3\), \(5\), \(7\), \(11\), "
@@ -515,7 +515,7 @@ BUNDELS["redeneringen-en-uitspraken-spark"] = dict(
             ("p", r"„De som van twee even getallen is even.” Je kan \(2 + 4\), \(6 + 8\) en \(10 + 12\) uitrekenen, "
                   "maar dan heb je drie gevallen, niet alle."),
             ("p", "Met letters dek je ze in één keer. Elk even getal is 2a, dus neem 2a en 2b. Hun som is "
-                  r"\(2a + 2b\) = <strong>\(2\)\((a + b)\)</strong>, en dat is een veelvoud van \(2\). Klaar voor alle even "
+                  r"\(2a + 2b\) = <strong>\(2(a + b)\)</strong>, en dat is een veelvoud van \(2\). Klaar voor alle even "
                   "getallen tegelijk."),
             ("kader", "Dat is meteen het verschil tussen een voorbeeld en een bewijs: een voorbeeld toont "
                       "één geval, een bewijs dekt ze allemaal."),
@@ -535,7 +535,7 @@ BUNDELS["redeneringen-en-uitspraken-spark"] = dict(
         r"\(\sqrt{9 + 16} = 5\), niet \(3 + 4\). Een wortel splits je niet over een som.",
         r"\(10\,\%\) en nog eens \(10\,\%\) korting is samen \(19\,\%\), geen \(20\,\%\).",
         r"Maal een negatief getal draait de ongelijkheid om: uit \(5 > 3\) volgt \(-5 < -3\).",
-        r"Even + even: schrijf \(2a + 2b = 2\)\((a + b)\). Zo dek je alle gevallen in één keer.",
+        r"Even + even: schrijf \(2a + 2b = 2(a + b)\). Zo dek je alle gevallen in één keer.",
         r"Deelbaar door \(4\) ⇒ deelbaar door \(2\), maar niet omgekeerd \((6)\).",
         "Vier gelijke zijden maakt nog geen vierkant: een scheve ruit is het tegenvoorbeeld.",
         r"\(a \cdot b = 0\) betekent \(a = 0\) óf \(b = 0\). En uit \(a^{2} = b^{2}\) volgt niet \(a = b\) (\(3\) en \(-3\)).",
@@ -833,8 +833,8 @@ BUNDELS["relaties-en-verandering-spark"] = dict(
             ("p", "Optellen mag alleen bij <strong>gelijksoortige</strong> eentermen, dat zijn eentermen met "
                   r"hetzelfde lettergedeelte. \(3x + 7x = 10x\), en \(4a + 3a - a\) = <strong>6a</strong>. Maar "
                   r"\(3x + 3x^{2}\) kan je niet samennemen, en \(3x + 3y\) evenmin."),
-            ("p", r"Haakjes werk je weg met de distributieve eigenschap: \(3\)\((x + 2)\) = <strong>\(3x + 6\)</strong>. "
-                  r"En \(2\)\((3x - 5) + 4x\) wordt \(6x - 10 + 4x\) = <strong>\(10x - 10\)</strong>."),
+            ("p", r"Haakjes werk je weg met de distributieve eigenschap: \(3(x + 2)\) = <strong>\(3x + 6\)</strong>. "
+                  r"En \(2(3x - 5) + 4x\) wordt \(6x - 10 + 4x\) = <strong>\(10x - 10\)</strong>."),
             ("kader", "De <strong>getalwaarde</strong> krijg je door de letters te vervangen door getallen. "
                       r"\(x^{2} - 3x\) bij \(x = 5\) is \(25 - 15\) = <strong>\(10\)</strong>. En \(2a - b\) bij \(a = 3\) en \(b = -4\) is "
                       r"\(6 - (-4)\) = <strong>\(10\)</strong>: let op de twee mintekens."),
@@ -845,7 +845,7 @@ BUNDELS["relaties-en-verandering-spark"] = dict(
             ("p", r"<strong>\((a + b)^{2} = a^{2} + 2ab + b^{2}\)</strong>. De middelste term wordt het vaakst vergeten. "
                   r"Toets het met getallen: \((2 + 3)^{2} = 25\), en \(4 + 12 + 9 = 25\). Klopt. Zo wordt "
                   r"\((x + 4)^{2}\) dus <strong>\(x^{2} + 8x + 16\)</strong>."),
-            ("p", r"<strong>\((a + b)\)\((a - b) = a^{2} - b^{2}\)</strong>. Hier vallen de middelste termen juist weg, "
+            ("p", r"<strong>\((a + b)(a - b) = a^{2} - b^{2}\)</strong>. Hier vallen de middelste termen juist weg, "
                   r"want \(-ab + ab = 0\). Toets: \(5\) en \(2\) geeft \(7 \cdot 3 = 21\), en \(25 - 4 = 21\)."),
             ("kader", "Twijfel je of je een merkwaardig product juist uitwerkte, vul dan twee getallen in "
                       "en reken allebei de kanten uit. Komen ze niet overeen, dan weet je het meteen."),
@@ -891,7 +891,7 @@ BUNDELS["relaties-en-verandering-spark"] = dict(
                   "als optellen en aftrekken."),
             ("p", r"Staan er x'en aan beide kanten, breng ze dan eerst samen. \(5x - 3 = 2x + 9\) wordt "
                   r"\(3x = 12\), dus x = <strong>\(4\)</strong>. Staan er haakjes, dan kan je delen of uitwerken: "
-                  r"\(3\)\((x - 2) = 15\) geeft \(x - 2 = 5\), dus x = <strong>\(7\)</strong>."),
+                  r"\(3(x - 2) = 15\) geeft \(x - 2 = 5\), dus x = <strong>\(7\)</strong>."),
             ("kader", "Wat je links doet, moet je <strong>ook rechts</strong> doen. Een vergelijking is een "
                       "evenwicht; verander je maar één kant, dan klopt de gelijkheid niet meer. En "
                       "controleer je oplossing altijd door ze in te vullen."),
@@ -906,7 +906,7 @@ BUNDELS["relaties-en-verandering-spark"] = dict(
                   r"aantal kilometer x. Dan is de rit \(3 + 2x\), en dat is \(19\). Uit \(2x = 16\) volgt "
                   r"x = <strong>\(8\) kilometer</strong>."),
             ("p", r"„De omtrek van een rechthoek is \(26\) cm en de lengte is \(8\) cm.” De omtrek is "
-                  r"\(2 \cdot (\text{lengte} + \text{breedte})\), dus \(2\)\((8 + b) = 26\). Delen door \(2\) geeft \(8 + b = 13\), dus "
+                  r"\(2 \cdot (\text{lengte} + \text{breedte})\), dus \(2(8 + b) = 26\). Delen door \(2\) geeft \(8 + b = 13\), dus "
                   r"b = <strong>\(5\) cm</strong>."),
             ("kader", "Formuleer op het einde een <strong>antwoord in woorden</strong>, met de eenheid erbij. "
                       r"„\(x = 8\)” is het halve werk; „de rit was \(8\) kilometer lang” is het antwoord op de vraag."),
@@ -918,7 +918,7 @@ BUNDELS["relaties-en-verandering-spark"] = dict(
         r"In 5x^{3} is \(5\) de coëfficiënt, x^{3} het lettergedeelte en \(3\) de graad.",
         r"Optellen mag enkel bij gelijksoortige eentermen: \(3x + 7x = 10x\), maar \(3x + 3x^{2}\) niet.",
         r"\((a + b)^{2} = a^{2} + 2ab + b^{2}\). Vergeet de middelste term niet.",
-        r"\((a + b)\)\((a - b) = a^{2} - b^{2}\). Daar valt de middelste term juist weg.",
+        r"\((a + b)(a - b) = a^{2} - b^{2}\). Daar valt de middelste term juist weg.",
         "Recht evenredig: het quotiënt blijft gelijk, grafiek is een rechte door de oorsprong.",
         r"Omgekeerd evenredig: het product blijft gelijk. \(6\,\text{werklui} \cdot 4\) dagen \(= 12 \cdot 2\).",
         r"Patroon: zoek wat er telkens bij komt, en wat er aan het begin staat. Lucifervierkantjes: \(3n + 1\).",

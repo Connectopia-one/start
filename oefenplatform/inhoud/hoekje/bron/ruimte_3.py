@@ -107,7 +107,7 @@ VRAGEN = [
             "Wolken van roet die op het oppervlak van de zon drijven",
         ],
         "antwoord": 0,
-        "uitleg": "Ze zijn nog altijd zo'n 3500 graden heet, maar tegen de 5500 graden ernaast lijken ze zwart. Zou je er eentje los aan de hemel hangen, dan zou hij feller schijnen dan de volle maan. Het aantal zonnevlekken gaat op en neer in een ritme van ongeveer elf jaar.",
+        "uitleg": r"Ze zijn nog altijd zo'n \(3500\) graden heet, maar tegen de \(5500\) graden ernaast lijken ze zwart. Zou je er eentje los aan de hemel hangen, dan zou hij feller schijnen dan de volle maan. Het aantal zonnevlekken gaat op en neer in een ritme van ongeveer elf jaar.",
     },
     {
         "type": "meerkeuze",
@@ -123,7 +123,7 @@ VRAGEN = [
     },
     {
         "type": "meerkeuze",
-        "vraag": "Op Venus is het aan de oppervlakte ruim 460 graden, heter dan op Mercurius, dat veel dichter bij de zon staat. Hoe komt dat?",
+        "vraag": r"Op Venus is het aan de oppervlakte ruim \(460\) graden, heter dan op Mercurius, dat veel dichter bij de zon staat. Hoe komt dat?",
         "opties": [
             "Haar dikke dampkring van koolstofdioxide houdt de warmte gevangen",
             "Venus staat zo dicht bij ons dat ze ook onze warmte opvangt",
@@ -161,7 +161,7 @@ VRAGEN = [
             "Uit vloeibare zuurstof, die uit de dampkring neerslaat",
         ],
         "antwoord": 0,
-        "uitleg": "Bij min 180 graden is water zo hard als rots, maar methaan blijft vloeibaar. Titan heeft dus een echte kringloop met wolken, regen en rivieren, alleen met een andere vloeistof. Het is de enige maan in ons zonnestelsel met een dikke dampkring.",
+        "uitleg": r"Bij min \(180\) graden is water zo hard als rots, maar methaan blijft vloeibaar. Titan heeft dus een echte kringloop met wolken, regen en rivieren, alleen met een andere vloeistof. Het is de enige maan in ons zonnestelsel met een dikke dampkring.",
     },
     {
         "type": "meerkeuze",
@@ -173,7 +173,7 @@ VRAGEN = [
             "De zon komt er elke dag in een andere richting op",
         ],
         "antwoord": 0,
-        "uitleg": "Uranus doet 84 jaar over één rondje, en ligt daarbij op zijn kant. Waarschijnlijk heeft een enorme botsing hem ooit omvergekegeld. Zijn manen en ringen draaien netjes mee in dat gekantelde vlak.",
+        "uitleg": r"Uranus doet \(84\) jaar over één rondje, en ligt daarbij op zijn kant. Waarschijnlijk heeft een enorme botsing hem ooit omvergekegeld. Zijn manen en ringen draaien netjes mee in dat gekantelde vlak.",
     },
     {
         "type": "meerkeuze",
@@ -191,7 +191,7 @@ VRAGEN = [
         "type": "waarofniet",
         "vraag": "In het midden van de Melkweg zit een zwart gat van miljoenen zonsmassa's.",
         "antwoord": True,
-        "uitleg": "Het heet Sagittarius A*. We weten het doordat sterren er in razendsnelle, strakke ellipsen omheen zwiepen rond iets wat we niet zien. In 2022 verscheen het eerste beeld ervan. Gevaarlijk is het niet: het staat 26 000 lichtjaar ver en zuigt niets naar zich toe dat er niet al naartoe viel.",
+        "uitleg": r"Het heet Sagittarius A*. We weten het doordat sterren er in razendsnelle, strakke ellipsen omheen zwiepen rond iets wat we niet zien. In \(2022\) verscheen het eerste beeld ervan. Gevaarlijk is het niet: het staat \(26\,000\) lichtjaar ver en zuigt niets naar zich toe dat er niet al naartoe viel.",
     },
     {
         "type": "meerkeuze",
@@ -215,6 +215,6 @@ VRAGEN = [
         "type": "waarofniet",
         "vraag": "Op de maan heb je dezelfde snelheid nodig als op aarde om weg te raken.",
         "antwoord": False,
-        "uitleg": "Op aarde is de ontsnappingssnelheid ongeveer 11,2 kilometer per seconde, zo'n 40 000 kilometer per uur. Op de maan is dat maar 2,4, en daarom volstond daar een klein opstijgtrapje in plaats van een reusachtige raket. Bij een zwart gat ligt die snelheid boven de lichtsnelheid, en dus raakt niets er nog weg.",
+        "uitleg": r"Op aarde is de ontsnappingssnelheid ongeveer \(11{,}2\) kilometer per seconde, zo'n \(40\,000\) kilometer per uur. Op de maan is dat maar \(2{,}4\), en daarom volstond daar een klein opstijgtrapje in plaats van een reusachtige raket. Bij een zwart gat ligt die snelheid boven de lichtsnelheid, en dus raakt niets er nog weg.",
     },
 ]

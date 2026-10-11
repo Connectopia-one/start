@@ -9,10 +9,10 @@ VOLGORDE = 3
 VRAGEN = [
     {
         "type": "meerkeuze",
-        "vraag": "Welke logische poort geeft alleen een 1 als de twee ingangen van elkaar verschillen?",
+        "vraag": r"Welke logische poort geeft alleen een \(1\) als de twee ingangen van elkaar verschillen?",
         "opties": ["De XOR-poort", "De AND-poort", "De OR-poort", "De NOT-poort"],
         "antwoord": 0,
-        "uitleg": "XOR staat voor exclusive or: het een of het ander, maar niet allebei. 1 en 0 geeft 1, 1 en 1 geeft 0. Met een handvol van zulke poortjes bouw je een optelmachine, en daarmee uiteindelijk een hele processor.",
+        "uitleg": r"XOR staat voor exclusive or: het een of het ander, maar niet allebei. \(1\) en \(0\) geeft \(1\), \(1\) en \(1\) geeft \(0\). Met een handvol van zulke poortjes bouw je een optelmachine, en daarmee uiteindelijk een hele processor.",
     },
     {
         "type": "meerkeuze",
@@ -180,7 +180,7 @@ VRAGEN = [
             "Door elk teken om te zetten naar het dichtstbijzijnde Latijnse",
         ],
         "antwoord": 0,
-        "uitleg": "De oude ASCII-tabel had maar 128 plaatsen: genoeg voor Engels, niet voor de wereld. Unicode telt er intussen meer dan 150 000, van het Egyptische hiërogliefenschrift tot een avocado. Daarom kun je in één bericht Nederlands, Arabisch en een smiley mengen.",
+        "uitleg": r"De oude ASCII-tabel had maar \(128\) plaatsen: genoeg voor Engels, niet voor de wereld. Unicode telt er intussen meer dan \(150\,000\), van het Egyptische hiërogliefenschrift tot een avocado. Daarom kun je in één bericht Nederlands, Arabisch en een smiley mengen.",
     },
     {
         "type": "meerkeuze",
@@ -198,8 +198,8 @@ VRAGEN = [
         "type": "meerkeuze",
         "vraag": "Wat kan een qubit in een kwantumcomputer dat een gewone bit niet kan?",
         "opties": [
-            "In een mengeling van 0 en 1 tegelijk zitten tot je hem afleest",
-            "Veel meer dan twee vaste waarden bewaren, bijvoorbeeld 0 tot 9",
+            r"In een mengeling van \(0\) en \(1\) tegelijk zitten tot je hem afleest",
+            r"Veel meer dan twee vaste waarden bewaren, bijvoorbeeld \(0\) tot \(9\)",
             "Zijn waarde onthouden ook als de stroom volledig wegvalt",
             "Zichzelf herstellen zodra er een rekenfout in geslopen is",
         ],
@@ -216,6 +216,6 @@ VRAGEN = [
             "Hij volgt altijd de weg met de hoogste toegelaten snelheid",
         ],
         "antwoord": 0,
-        "uitleg": "Dat idee komt van Edsger Dijkstra, een Nederlander, die het in 1956 in twintig minuten bedacht op een terrasje. Alle routes uitproberen zou onbegonnen werk zijn: tussen twee steden liggen er astronomisch veel.",
+        "uitleg": r"Dat idee komt van Edsger Dijkstra, een Nederlander, die het in \(1956\) in twintig minuten bedacht op een terrasje. Alle routes uitproberen zou onbegonnen werk zijn: tussen twee steden liggen er astronomisch veel.",
     },
 ]

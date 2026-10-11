@@ -71,7 +71,7 @@ DEEL1 = [
             "Twee stukken metaal die aan elkaar gelast worden",
         ],
         antwoord=0,
-        uitleg="Bij verstek zaag je allebei de stukken onder dezelfde hoek af, meestal 45 graden. Zo zie je in de hoek van een kader geen kopse kant.",
+        uitleg=r"Bij verstek zaag je allebei de stukken onder dezelfde hoek af, meestal \(45\) graden. Zo zie je in de hoek van een kader geen kopse kant.",
     ),
     dict(
         type="meerkeuze",
@@ -233,7 +233,7 @@ DEEL2 = [
             "Muziek beluisteren is toegelaten",
         ],
         antwoord=0,
-        uitleg="De blauwe pictogrammen met een persoon erop zijn geboden: iets is verplicht. Dit is er een van de negen uit bijlage 1.",
+        uitleg=r"De blauwe pictogrammen met een persoon erop zijn geboden: iets is verplicht. Dit is er een van de negen uit bijlage \(1\).",
     ),
     dict(
         type="waarofniet",

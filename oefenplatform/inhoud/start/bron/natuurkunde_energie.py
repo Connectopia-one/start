@@ -196,8 +196,8 @@ VRAGEN += [
          antwoord=0,
          uitleg="Stilstaande lucht is een prima isolator. Daarom werkt dat ook bij dubbel glas en bij de vacht van een dier."),
     dict(type="meerkeuze",
-         vraag="Je fietst 12 kilometer in 1 uur. Hoe reken je je snelheid uit?",
-         opties=["de afstand delen door de tijd, dus 12 km per uur", "de tijd delen door de afstand, dus 1 uur per 12 km", "de afstand maal de tijd", "de afstand plus de tijd"],
+         vraag=r"Je fietst \(12\) kilometer in \(1\) uur. Hoe reken je je snelheid uit?",
+         opties=[r"de afstand delen door de tijd, dus \(12\) km per uur", r"de tijd delen door de afstand, dus \(1\) uur per \(12\) km", "de afstand maal de tijd", "de afstand plus de tijd"],
          antwoord=0,
-         uitleg="Snelheid is altijd afstand gedeeld door tijd. In 2 uur 12 km fietsen is dus 6 km per uur."),
+         uitleg=r"Snelheid is altijd afstand gedeeld door tijd. In \(2\) uur \(12\) km fietsen is dus \(6\) km per uur."),
 ]

@@ -733,7 +733,7 @@ OEFENBUNDELS["oefenbundel-veilig-werken-meten-en-eenheden-spark"] = dict(
                   r"De eenheid. \(1{,}2\) kan meter zijn of centimeter of voet; zonder eenheid zegt het "
                   "getal niets en kan niemand je meting nakijken.", 4),
                  ("kort", "Welke Griekse letter is het symbool voor massadichtheid?",
-                  "ρ (rho)", W),
+                  r"\(\rho\) (rho)", W),
              ]),
 
         dict(kop="Meten met verstand",
@@ -818,7 +818,7 @@ OEFENBUNDELS["oefenbundel-wetenschappelijk-onderzoek-spark"] = dict(
         dict(kop="Formules en verbanden",
              opdracht="Reken met de formule, of lees het verband uit de tabel.",
              oefeningen=[
-                 ("rij", [(r"uit \(v = \Delta x / \Delta t\): schrijf Δt", r"\(\Delta t = \Delta x / v\)"),
+                 ("rij", [(r"uit \(v = \Delta x / \Delta t\): schrijf \(\Delta t\)", r"\(\Delta t = \Delta x / v\)"),
                           (r"uit \(\rho = m / V\): schrijf m", r"\(m = \rho \times V\)"),
                           (r"uit \(\rho = m / V\): schrijf V", r"\(V = m / \rho\)")],
                   "Vorm de formule om.", "230px"),

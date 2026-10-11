@@ -831,7 +831,7 @@
       "vragen": [
         {
           "type": "meerkeuze",
-          "vraag": "Wat betekent \\(5\\)! ?",
+          "vraag": "Wat betekent \\(5!\\) ?",
           "opties": [
             "vijf maal vier maal drie maal twee maal één",
             "vijf maal vijf maal vijf maal vijf maal vijf",
@@ -839,11 +839,11 @@
             "vijf gedeeld door vier gedeeld door drie"
           ],
           "antwoord": 0,
-          "uitleg": "Een faculteit is het product van alle natuurlijke getallen van één tot en met dat getal. \\(5\\)! = \\(120\\)."
+          "uitleg": "Een faculteit is het product van alle natuurlijke getallen van één tot en met dat getal. \\(5! = 120\\)."
         },
         {
           "type": "meerkeuze",
-          "vraag": "Hoeveel is \\(6\\)! ?",
+          "vraag": "Hoeveel is \\(6!\\) ?",
           "opties": [
             "\\(720\\)",
             "\\(120\\)",
@@ -851,11 +851,11 @@
             "\\(30\\)"
           ],
           "antwoord": 0,
-          "uitleg": "\\(6\\)! = \\(6 \\cdot 5 \\cdot 4 \\cdot 3 \\cdot 2 \\cdot 1 = 720\\). Let op: \\(120\\) is \\(5\\)!, en een faculteit groeit erg snel."
+          "uitleg": "\\(6! = 6 \\cdot 5 \\cdot 4 \\cdot 3 \\cdot 2 \\cdot 1 = 720\\). Let op: \\(120\\) is \\(5!\\), en een faculteit groeit erg snel."
         },
         {
           "type": "meerkeuze",
-          "vraag": "Hoeveel is \\(0\\)! ?",
+          "vraag": "Hoeveel is \\(0!\\) ?",
           "opties": [
             "één",
             "nul",
@@ -863,7 +863,7 @@
             "oneindig"
           ],
           "antwoord": 0,
-          "uitleg": "Per afspraak is \\(0\\)! gelijk aan \\(1\\). Dat is nodig om de formule van de combinaties te laten werken."
+          "uitleg": "Per afspraak is \\(0!\\) gelijk aan \\(1\\). Dat is nodig om de formule van de combinaties te laten werken."
         },
         {
           "type": "waarofniet",
@@ -875,17 +875,17 @@
           "type": "meerkeuze",
           "vraag": "Welke formule staat in het formularium voor het aantal combinaties van \\(p\\) elementen uit \\(n\\) elementen?",
           "opties": [
-            "\\(n\\)! gedeeld door \\(p\\)! maal \\((n-p)\\)!",
-            "\\(n\\)! gedeeld door \\((n-p)\\)!",
-            "\\(n\\)! maal \\(p\\)! gedeeld door \\((n-p)\\)",
+            "\\(n!\\) gedeeld door \\(p!\\) maal \\((n-p)!\\)",
+            "\\(n!\\) gedeeld door \\((n-p)!\\)",
+            "\\(n!\\) maal \\(p!\\) gedeeld door \\((n-p)\\)",
             "\\(n \\cdot p : (n-p)\\)"
           ],
           "antwoord": 0,
-          "uitleg": "C(\\(n\\), \\(p\\)) = \\(n\\)! / (\\(p\\)! · \\((n-p)\\)!). Het \\(p\\)! onderaan haalt er juist de volgordes uit die je niet wil meetellen."
+          "uitleg": "\\(C(n, p) = n!\\) / (\\(p! \\cdot (n-p)!\\)). Het \\(p!\\) onderaan haalt er juist de volgordes uit die je niet wil meetellen."
         },
         {
           "type": "meerkeuze",
-          "vraag": "Hoeveel is C(\\(5\\), \\(2\\)) ?",
+          "vraag": "Hoeveel is \\(C(5, 2)\\) ?",
           "opties": [
             "tien",
             "twintig",
@@ -893,19 +893,19 @@
             "zeven"
           ],
           "antwoord": 0,
-          "uitleg": "\\(5\\)! / (\\(2\\)! · \\(3\\)!) = \\(120\\) / \\(12 = 10\\). Twintig zou het antwoord zijn als de volgorde wél meetelde."
+          "uitleg": "\\(5!\\) / (\\(2! \\cdot 3!\\)) = \\(120 / 12 = 10\\). Twintig zou het antwoord zijn als de volgorde wél meetelde."
         },
         {
           "type": "invultekst",
-          "vraag": "Hoeveel is C(\\(6\\), \\(2\\)) ? Geef het getal in cijfers.",
+          "vraag": "Hoeveel is \\(C(6, 2)\\) ? Geef het getal in cijfers.",
           "antwoord": [
             "15"
           ],
-          "uitleg": "\\(6\\)! / (\\(2\\)! · \\(4\\)!) = \\(720\\) / \\(48 = 15\\)."
+          "uitleg": "\\(6!\\) / (\\(2! \\cdot 4!\\)) = \\(720 / 48 = 15\\)."
         },
         {
           "type": "meerkeuze",
-          "vraag": "Hoeveel is C(\\(10\\), \\(1\\)) ?",
+          "vraag": "Hoeveel is \\(C(10, 1)\\) ?",
           "opties": [
             "tien",
             "één",
@@ -917,13 +917,13 @@
         },
         {
           "type": "waarofniet",
-          "vraag": "C(\\(n\\), \\(0\\)) is voor elke \\(n = 1\\).",
+          "vraag": "\\(C(n, 0)\\) is voor elke \\(n = 1\\).",
           "antwoord": true,
-          "uitleg": "Niets kiezen kan op juist één manier: de lege keuze. In de formule wordt dat \\(n\\)! / (\\(0\\)! · \\(n\\)!) = \\(1\\)."
+          "uitleg": "Niets kiezen kan op juist één manier: de lege keuze. In de formule wordt dat \\(n!\\) / (\\(0! \\cdot n!\\)) = \\(1\\)."
         },
         {
           "type": "meerkeuze",
-          "vraag": "Waarom geldt C(\\(8\\), \\(3\\)) = C(\\(8\\), \\(5\\)) ?",
+          "vraag": "Waarom geldt \\(C(8, 3) = C(8, 5)\\) ?",
           "opties": [
             "wie drie kiest, laat er juist vijf liggen, dus het zijn dezelfde keuzes",
             "omdat drie plus vijf gelijk is aan acht en de formule dan altijd klopt",
@@ -943,7 +943,7 @@
             "\\(40\\)"
           ],
           "antwoord": 0,
-          "uitleg": "C(\\(20\\), \\(2\\)) = \\(20 \\cdot 19\\) / \\(2 = 190\\). Je deelt door twee omdat Ann met Bo hetzelfde paar is als Bo met Ann."
+          "uitleg": "\\(C(20, 2) = 20 \\cdot 19 / 2 = 190\\). Je deelt door twee omdat Ann met Bo hetzelfde paar is als Bo met Ann."
         },
         {
           "type": "waarofniet",
@@ -955,31 +955,31 @@
           "type": "meerkeuze",
           "vraag": "Je kiest drie boeken uit tien om mee te nemen op reis. Welke berekening hoort daarbij?",
           "opties": [
-            "C(\\(10\\), \\(3\\))",
-            "C(\\(3\\), \\(10\\))",
-            "\\(10\\)! gedeeld door \\(3\\)",
+            "\\(C(10, 3)\\)",
+            "\\(C(3, 10)\\)",
+            "\\(10!\\) gedeeld door \\(3\\)",
             "tien maal drie"
           ],
           "antwoord": 0,
-          "uitleg": "Je kiest er drie uit tien en de volgorde in je koffer doet niets, dus C(\\(10\\), \\(3\\)) = \\(120\\)."
+          "uitleg": "Je kiest er drie uit tien en de volgorde in je koffer doet niets, dus \\(C(10, 3) = 120\\)."
         },
         {
           "type": "invultekst",
-          "vraag": "Hoeveel is C(\\(7\\), \\(3\\)) ? Geef het getal in cijfers.",
+          "vraag": "Hoeveel is \\(C(7, 3)\\) ? Geef het getal in cijfers.",
           "antwoord": [
             "35"
           ],
-          "uitleg": "\\(7\\)! / (\\(3\\)! · \\(4\\)!) = \\(5040\\) / \\(144 = 35\\)."
+          "uitleg": "\\(7!\\) / (\\(3! \\cdot 4!\\)) = \\(5040 / 144 = 35\\)."
         },
         {
           "type": "waarofniet",
-          "vraag": "C(\\(n\\), \\(p\\)) kan nooit een breuk zijn, ook al staat er een deling in de formule.",
+          "vraag": "\\(C(n, p)\\) kan nooit een breuk zijn, ook al staat er een deling in de formule.",
           "antwoord": true,
           "uitleg": "Je telt aantallen groepjes, dus de uitkomst is altijd een natuurlijk getal. Krijg je een breuk, dan is er een rekenfout."
         },
         {
           "type": "meerkeuze",
-          "vraag": "Waarom staat er \\(p\\)! in de noemer van de formule van de combinaties?",
+          "vraag": "Waarom staat er \\(p!\\) in de noemer van de formule van de combinaties?",
           "opties": [
             "om de volgordes van de gekozen elementen weer weg te delen",
             "om de elementen die je niet gekozen hebt mee te kunnen tellen",
@@ -987,7 +987,7 @@
             "om het verschil tussen \\(n\\) en \\(p\\) in de teller te compenseren"
           ],
           "antwoord": 0,
-          "uitleg": "Zonder dat \\(p\\)! zou je elke groep \\(p\\)! keer tellen, één keer voor elke manier om ze te ordenen."
+          "uitleg": "Zonder dat \\(p!\\) zou je elke groep \\(p!\\) keer tellen, één keer voor elke manier om ze te ordenen."
         },
         {
           "type": "meerkeuze",
@@ -999,11 +999,11 @@
             "\\(59049\\)"
           ],
           "antwoord": 0,
-          "uitleg": "C(\\(9\\), \\(5\\)) = \\(126\\). Het grote getal \\(15120\\) komt uit de berekening waarbij de volgorde wél meetelt."
+          "uitleg": "\\(C(9, 5) = 126\\). Het grote getal \\(15120\\) komt uit de berekening waarbij de volgorde wél meetelt."
         },
         {
           "type": "waarofniet",
-          "vraag": "Op het examen volstaat het om bij een telprobleem enkel de uitkomst van C(\\(n\\), \\(p\\)) te noteren.",
+          "vraag": "Op het examen volstaat het om bij een telprobleem enkel de uitkomst van \\(C(n, p)\\) te noteren.",
           "antwoord": false,
           "uitleg": "De fiche vraagt dat je je werkwijze en je redenering noteert en alle tussenstappen uitschrijft."
         },
@@ -1014,7 +1014,7 @@
             "faculteit",
             "de faculteit"
           ],
-          "uitleg": "De faculteit van \\(n\\), genoteerd \\(n\\)!."
+          "uitleg": "De faculteit van \\(n\\), genoteerd \\(n!\\)."
         },
         {
           "type": "meerkeuze",
@@ -1026,7 +1026,7 @@
             "je moest optellen in plaats van vermenigvuldigen, dus zeven"
           ],
           "antwoord": 0,
-          "uitleg": "C(\\(4\\), \\(2\\)) = \\(6\\). Twaalf is het aantal geordende paren; deel nog door \\(2\\)! om de volgorde weg te werken."
+          "uitleg": "\\(C(4, 2) = 6\\). Twaalf is het aantal geordende paren; deel nog door \\(2!\\) om de volgorde weg te werken."
         }
       ]
     },
@@ -1045,31 +1045,31 @@
             "\\(248832\\)"
           ],
           "antwoord": 0,
-          "uitleg": "C(\\(12\\), \\(5\\)) = \\(792\\). Het getal \\(95040\\) hoort bij een keuze waarbij de volgorde meetelt."
+          "uitleg": "\\(C(12, 5) = 792\\). Het getal \\(95040\\) hoort bij een keuze waarbij de volgorde meetelt."
         },
         {
           "type": "meerkeuze",
           "vraag": "Bij de Lotto kies je zes getallen uit vijfenveertig. Welke berekening geeft het aantal mogelijke roosters?",
           "opties": [
-            "C(\\(45\\), \\(6\\))",
-            "C(\\(6\\), \\(45\\))",
+            "\\(C(45, 6)\\)",
+            "\\(C(6, 45)\\)",
             "\\(45 \\cdot 6\\)",
-            "\\(45\\)! gedeeld door \\(6\\)"
+            "\\(45!\\) gedeeld door \\(6\\)"
           ],
           "antwoord": 0,
-          "uitleg": "De volgorde waarin je de bolletjes aankruist doet niets, dus C(\\(45\\), \\(6\\))."
+          "uitleg": "De volgorde waarin je de bolletjes aankruist doet niets, dus \\(C(45, 6)\\)."
         },
         {
           "type": "invultekst",
-          "vraag": "Hoeveel is C(\\(10\\), \\(2\\)) ? Geef het getal in cijfers.",
+          "vraag": "Hoeveel is \\(C(10, 2)\\) ? Geef het getal in cijfers.",
           "antwoord": [
             "45"
           ],
-          "uitleg": "\\(10 \\cdot 9\\) / \\(2 = 45\\)."
+          "uitleg": "\\(10 \\cdot 9 / 2 = 45\\)."
         },
         {
           "type": "waarofniet",
-          "vraag": "In een toernooi waar elke ploeg één keer tegen elke andere speelt, is het aantal wedstrijden C(\\(n\\), \\(2\\)).",
+          "vraag": "In een toernooi waar elke ploeg één keer tegen elke andere speelt, is het aantal wedstrijden \\(C(n, 2)\\).",
           "antwoord": true,
           "uitleg": "Elke wedstrijd is een paar ploegen, en wie thuis speelt doet voor het aantal paren niets."
         },
@@ -1083,7 +1083,7 @@
             "twintig"
           ],
           "antwoord": 0,
-          "uitleg": "C(\\(10\\), \\(2\\)) = \\(45\\). Negentig zou je krijgen als elke ploeg ook een terugwedstrijd speelt."
+          "uitleg": "\\(C(10, 2) = 45\\). Negentig zou je krijgen als elke ploeg ook een terugwedstrijd speelt."
         },
         {
           "type": "meerkeuze",
@@ -1095,13 +1095,13 @@
             "vierentwintig"
           ],
           "antwoord": 0,
-          "uitleg": "C(\\(8\\), \\(3\\)) = \\(56\\). Vijfhonderdtwaalf (\\(8^{3}\\)) zou gelden als je dezelfde soort mocht herhalen."
+          "uitleg": "\\(C(8, 3) = 56\\). Vijfhonderdtwaalf (\\(8^{3}\\)) zou gelden als je dezelfde soort mocht herhalen."
         },
         {
           "type": "waarofniet",
           "vraag": "Zodra herhaling toegelaten is, mag je de formule van de combinaties niet meer gebruiken.",
           "antwoord": true,
-          "uitleg": "C(\\(n\\), \\(p\\)) is gemaakt voor keuzes zonder herhaling. De fiche vraagt enkel die gevallen."
+          "uitleg": "\\(C(n, p)\\) is gemaakt voor keuzes zonder herhaling. De fiche vraagt enkel die gevallen."
         },
         {
           "type": "meerkeuze",
@@ -1113,7 +1113,7 @@
             "vierentwintig"
           ],
           "antwoord": 0,
-          "uitleg": "C(\\(9\\), \\(3\\)) = \\(84\\) in het totaal, min de C(\\(4\\), \\(3\\)) = \\(4\\) commissies zonder vrouw: \\(84 - 4 = 80\\). Dat is de complementregel."
+          "uitleg": "\\(C(9, 3) = 84\\) in het totaal, min de \\(C(4, 3) = 4\\) commissies zonder vrouw: \\(84 - 4 = 80\\). Dat is de complementregel."
         },
         {
           "type": "meerkeuze",
@@ -1125,21 +1125,21 @@
             "\\(75\\)"
           ],
           "antwoord": 0,
-          "uitleg": "C(\\(25\\), \\(3\\)) = \\(2300\\). Het getal \\(13800\\) geldt als de drie rollen verschillend zouden zijn."
+          "uitleg": "\\(C(25, 3) = 2300\\). Het getal \\(13800\\) geldt als de drie rollen verschillend zouden zijn."
         },
         {
           "type": "invultekst",
-          "vraag": "Hoeveel is C(\\(6\\), \\(3\\)) ? Geef het getal in cijfers.",
+          "vraag": "Hoeveel is \\(C(6, 3)\\) ? Geef het getal in cijfers.",
           "antwoord": [
             "20"
           ],
-          "uitleg": "\\(720\\) / \\((6 \\cdot 6) = 20\\)."
+          "uitleg": "\\(720 / (6 \\cdot 6) = 20\\)."
         },
         {
           "type": "waarofniet",
           "vraag": "Om twee kinderen uit een groep van dertig te kiezen zijn er \\(870\\) mogelijkheden.",
           "antwoord": false,
-          "uitleg": "\\(870\\) is \\(30 \\cdot 29\\), dus met de volgorde mee. C(\\(30\\), \\(2\\)) = \\(870\\) / \\(2 = 435\\)."
+          "uitleg": "\\(870\\) is \\(30 \\cdot 29\\), dus met de volgorde mee. \\(C(30, 2) = 870 / 2 = 435\\)."
         },
         {
           "type": "meerkeuze",
@@ -1151,7 +1151,7 @@
             "achthonderdveertig"
           ],
           "antwoord": 0,
-          "uitleg": "C(\\(7\\), \\(4\\)) = C(\\(7\\), \\(3\\)) = \\(35\\). Door de symmetrie reken je het liefst met het kleinste van de twee."
+          "uitleg": "\\(C(7, 4) = C(7, 3) = 35\\). Door de symmetrie reken je het liefst met het kleinste van de twee."
         },
         {
           "type": "meerkeuze",
@@ -1163,13 +1163,13 @@
             "zestig"
           ],
           "antwoord": 0,
-          "uitleg": "De blauwe knikkers doen niets mee: C(\\(6\\), \\(3\\)) = \\(20\\)."
+          "uitleg": "De blauwe knikkers doen niets mee: \\(C(6, 3) = 20\\)."
         },
         {
           "type": "waarofniet",
           "vraag": "Een hand van vijf kaarten uit een spel van tweeënvijftig is een combinatie en geen geordende keuze.",
           "antwoord": true,
-          "uitleg": "De kaarten in je hand liggen niet in een vaste volgorde, dus C(\\(52\\), \\(5\\))."
+          "uitleg": "De kaarten in je hand liggen niet in een vaste volgorde, dus \\(C(52, 5)\\)."
         },
         {
           "type": "meerkeuze",
@@ -1181,7 +1181,7 @@
             "vierentwintig"
           ],
           "antwoord": 0,
-          "uitleg": "C(\\(12\\), \\(2\\)) = \\(12 \\cdot 11\\) / \\(2 = 66\\)."
+          "uitleg": "\\(C(12, 2) = 12 \\cdot 11 / 2 = 66\\)."
         },
         {
           "type": "meerkeuze",
@@ -1197,17 +1197,17 @@
         },
         {
           "type": "invultekst",
-          "vraag": "Hoeveel is C(\\(11\\), \\(2\\)) ? Geef het getal in cijfers.",
+          "vraag": "Hoeveel is \\(C(11, 2)\\) ? Geef het getal in cijfers.",
           "antwoord": [
             "55"
           ],
-          "uitleg": "\\(11 \\cdot 10\\) / \\(2 = 55\\)."
+          "uitleg": "\\(11 \\cdot 10 / 2 = 55\\)."
         },
         {
           "type": "waarofniet",
-          "vraag": "Bij C(\\(18\\), \\(3\\)) is het handig om eerst \\(18\\)! volledig uit te rekenen.",
+          "vraag": "Bij \\(C(18, 3)\\) is het handig om eerst \\(18!\\) volledig uit te rekenen.",
           "antwoord": false,
-          "uitleg": "Dat getal is onwerkbaar groot. Reken met \\(18 \\cdot 17 \\cdot 16\\) / \\((3 \\cdot 2 \\cdot 1) = 816\\)."
+          "uitleg": "Dat getal is onwerkbaar groot. Reken met \\(18 \\cdot 17 \\cdot 16 / (3 \\cdot 2 \\cdot 1) = 816\\)."
         },
         {
           "type": "meerkeuze",
@@ -1219,19 +1219,19 @@
             "tweeëndertig"
           ],
           "antwoord": 0,
-          "uitleg": "C(\\(16\\), \\(2\\)) = \\(16 \\cdot 15\\) / \\(2 = 120\\)."
+          "uitleg": "\\(C(16, 2) = 16 \\cdot 15 / 2 = 120\\)."
         },
         {
           "type": "meerkeuze",
-          "vraag": "Een leerling berekent C(\\(9\\), \\(4\\)) en krijgt \\(3024\\). Wat is er gebeurd?",
+          "vraag": "Een leerling berekent \\(C(9, 4)\\) en krijgt \\(3024\\). Wat is er gebeurd?",
           "opties": [
-            "de deling door \\(4\\)! is vergeten, het antwoord is honderdzesentwintig",
-            "er is met \\(9\\)! gerekend in plaats van met \\(9\\), dus het antwoord is negen",
+            "de deling door \\(4!\\) is vergeten, het antwoord is honderdzesentwintig",
+            "er is met \\(9!\\) gerekend in plaats van met \\(9\\), dus het antwoord is negen",
             "de teller en de noemer zijn verwisseld, het antwoord is een breuk",
             "er is opgeteld in plaats van vermenigvuldigd, het antwoord is dertien"
           ],
           "antwoord": 0,
-          "uitleg": "\\(9 \\cdot 8 \\cdot 7 \\cdot 6 = 3024\\), maar dat is de geordende keuze. Delen door \\(4\\)! = \\(24\\) geeft \\(126\\)."
+          "uitleg": "\\(9 \\cdot 8 \\cdot 7 \\cdot 6 = 3024\\), maar dat is de geordende keuze. Delen door \\(4! = 24\\) geeft \\(126\\)."
         }
       ]
     },
@@ -1306,7 +1306,7 @@
         },
         {
           "type": "meerkeuze",
-          "vraag": "Een tabel geeft \\(P(X = 1)\\) = \\(0{,}2\\), \\(P(X = 2)\\) = \\(0{,}5\\) en \\(P(X = 3)\\) = \\(0{,}4\\). Wat is er mis?",
+          "vraag": "Een tabel geeft \\(P(X = 1) = 0{,}2\\), \\(P(X = 2) = 0{,}5\\) en \\(P(X = 3) = 0{,}4\\). Wat is er mis?",
           "opties": [
             "de som van de kansen is \\(1{,}1\\) en dat kan niet",
             "er staan te weinig waarden in de tabel om een verdeling te vormen",
@@ -1506,8 +1506,8 @@
           "type": "meerkeuze",
           "vraag": "Welke formule geeft \\(P(X = k)\\) bij X ~ B(\\(n\\), \\(p\\))?",
           "opties": [
-            "C(\\(n\\), \\(k\\)) maal \\(p\\) tot de \\(k \\cdot (1-p)\\) tot de \\((n-k)\\)",
-            "C(\\(n\\), \\(k\\)) maal \\(p \\cdot (1-p)\\)",
+            "\\(C(n, k)\\) maal \\(p\\) tot de \\(k \\cdot (1-p)\\) tot de \\((n-k)\\)",
+            "\\(C(n, k)\\) maal \\(p \\cdot (1-p)\\)",
             "\\(p\\) tot de \\(k \\cdot (1-p)\\) tot de \\(n\\)",
             "\\(n \\cdot p\\) tot de \\(k : k\\)"
           ],
@@ -1530,7 +1530,7 @@
             "een achtste"
           ],
           "antwoord": 0,
-          "uitleg": "C(\\(3\\), \\(2\\)) = \\(3\\) plaatsen, elk met kans een achtste. Drie maal een achtste is drie achtste."
+          "uitleg": "\\(C(3, 2) = 3\\) plaatsen, elk met kans een achtste. Drie maal een achtste is drie achtste."
         },
         {
           "type": "meerkeuze",
@@ -1713,7 +1713,7 @@
         },
         {
           "type": "meerkeuze",
-          "vraag": "Een kansvariabele heeft de waarden nul, één en twee met kansen \\(0{,}1\\) / \\(0{,}3\\) / \\(0{,}6\\). Hoeveel is E(X)?",
+          "vraag": "Een kansvariabele heeft de waarden nul, één en twee met kansen \\(0{,}1\\), \\(0{,}3\\) en \\(0{,}6\\). Hoeveel is E(X)?",
           "opties": [
             "\\(1{,}5\\)",
             "\\(1\\)",
@@ -1883,7 +1883,7 @@
             "\\(n \\cdot p \\cdot (1-p)\\)",
             "\\(n \\cdot p\\)",
             "\\(\\sqrt{n} \\cdot p\\)",
-            "\\(n\\) kwadraat maal \\(p\\)"
+            "\\(n^{2} \\cdot p\\)"
           ],
           "antwoord": 0,
           "uitleg": "Zo staat ze in het formularium: Var(X) = \\(n \\cdot p \\cdot (1 - p)\\)."
@@ -2812,7 +2812,7 @@
           "type": "meerkeuze",
           "vraag": "Welke formule geeft volgens het formularium de standaardafwijking van de steekproefproportie?",
           "opties": [
-            "\\(\\sqrt{p} \\cdot (1-p) : n\\)",
+            "\\(\\sqrt{\\dfrac{p \\cdot (1-p)}{n}}\\)",
             "\\(p \\cdot (1-p) : n\\)",
             "\\(\\sqrt{n} \\cdot p \\cdot (1-p)\\)",
             "\\(p : \\sqrt{n}\\)"

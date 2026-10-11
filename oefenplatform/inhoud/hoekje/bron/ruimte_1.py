@@ -9,15 +9,15 @@ VOLGORDE = 1
 VRAGEN = [
     {
         "type": "meerkeuze",
-        "vraag": "De ster Proxima Centauri ligt op 4,2 lichtjaar van ons. Wat betekent dat?",
+        "vraag": r"De ster Proxima Centauri ligt op \(4{,}2\) lichtjaar van ons. Wat betekent dat?",
         "opties": [
-            "Het licht van die ster is 4,2 jaar onderweg voor het ons bereikt",
-            "Die ster draait in 4,2 jaar één keer rond onze eigen zon heen",
-            "Een raket van ons zou er ongeveer 4,2 jaar over doen om er te raken",
-            "Die ster is 4,2 keer verder weg dan de rand van ons zonnestelsel",
+            r"Het licht van die ster is \(4{,}2\) jaar onderweg voor het ons bereikt",
+            r"Die ster draait in \(4{,}2\) jaar één keer rond onze eigen zon heen",
+            r"Een raket van ons zou er ongeveer \(4{,}2\) jaar over doen om er te raken",
+            r"Die ster is \(4{,}2\) keer verder weg dan de rand van ons zonnestelsel",
         ],
         "antwoord": 0,
-        "uitleg": "Een lichtjaar is een afstand, geen tijd: de weg die licht in één jaar aflegt, bijna 9500 miljard kilometer. Je kijkt dus 4,2 jaar in het verleden. Een raket zou er tienduizenden jaren over doen.",
+        "uitleg": r"Een lichtjaar is een afstand, geen tijd: de weg die licht in één jaar aflegt, bijna \(9500\) miljard kilometer. Je kijkt dus \(4{,}2\) jaar in het verleden. Een raket zou er tienduizenden jaren over doen.",
     },
     {
         "type": "meerkeuze",
@@ -41,7 +41,7 @@ VRAGEN = [
             "Onze dampkring buigt het licht van de achterkant van de maan weg",
         ],
         "antwoord": 0,
-        "uitleg": "Dat heet gebonden rotatie: één omwenteling om haar as duurt even lang als één rondje om de aarde, ongeveer 27 dagen. De achterkant krijgt evenveel zon als de voorkant; wij zien ze gewoon nooit.",
+        "uitleg": r"Dat heet gebonden rotatie: één omwenteling om haar as duurt even lang als één rondje om de aarde, ongeveer \(27\) dagen. De achterkant krijgt evenveel zon als de voorkant; wij zien ze gewoon nooit.",
     },
     {
         "type": "meerkeuze",
@@ -53,17 +53,17 @@ VRAGEN = [
             "De dampkring wordt in de winter dikker en houdt meer zonlicht tegen",
         ],
         "antwoord": 0,
-        "uitleg": "De as staat 23,5 graden scheef. Daardoor staat de zon in de zomer hoger en schijnt ze langer. De afstand tot de zon klopt zelfs omgekeerd: begin januari staat de aarde het dichtst bij de zon, midden in onze winter.",
+        "uitleg": r"De as staat \(23{,}5\) graden scheef. Daardoor staat de zon in de zomer hoger en schijnt ze langer. De afstand tot de zon klopt zelfs omgekeerd: begin januari staat de aarde het dichtst bij de zon, midden in onze winter.",
     },
     {
         "type": "waarofniet",
         "vraag": "Een astronaut in het ISS zweeft omdat er op die hoogte geen zwaartekracht meer is.",
         "antwoord": False,
-        "uitleg": "Op 400 km hoogte is de zwaartekracht nog ongeveer 90 procent van die op de grond. Het station valt voortdurend naar de aarde toe, maar het gaat zo snel vooruit dat het er altijd naast valt. Dat noemen we vrije val, en in vrije val zweef je.",
+        "uitleg": r"Op \(400\) km hoogte is de zwaartekracht nog ongeveer \(90\) procent van die op de grond. Het station valt voortdurend naar de aarde toe, maar het gaat zo snel vooruit dat het er altijd naast valt. Dat noemen we vrije val, en in vrije val zweef je.",
     },
     {
         "type": "meerkeuze",
-        "vraag": "Waarom is Pluto sinds 2006 geen planeet meer?",
+        "vraag": r"Waarom is Pluto sinds \(2006\) geen planeet meer?",
         "opties": [
             "Hij heeft de buurt van zijn baan niet leeggeruimd",
             "Hij draait niet rond de zon maar rond de planeet Neptunus",
@@ -77,7 +77,7 @@ VRAGEN = [
         "type": "invultekst",
         "vraag": "Hoeveel minuten doet het licht van de zon erover om de aarde te bereiken? Geef een getal.",
         "antwoord": "8",
-        "uitleg": "Ongeveer 8 minuten en 20 seconden. Als de zon nu zou uitgaan, zou je dat hier pas acht minuten later merken.",
+        "uitleg": r"Ongeveer \(8\) minuten en \(20\) seconden. Als de zon nu zou uitgaan, zou je dat hier pas acht minuten later merken.",
     },
     {
         "type": "meerkeuze",
@@ -89,7 +89,7 @@ VRAGEN = [
             "De dikke wolken van Venus maken de dag daar kunstmatig langer",
         ],
         "antwoord": 0,
-        "uitleg": "Venus doet 243 aardse dagen over één omwenteling om haar as, en 225 dagen over één rondje rond de zon. Ze draait bovendien achterstevoren: op Venus komt de zon in het westen op.",
+        "uitleg": r"Venus doet \(243\) aardse dagen over één omwenteling om haar as, en \(225\) dagen over één rondje rond de zon. Ze draait bovendien achterstevoren: op Venus komt de zon in het westen op.",
     },
     {
         "type": "meerkeuze",
@@ -101,7 +101,7 @@ VRAGEN = [
             "De rode is jonger, want jonge sterren beginnen altijd rood",
         ],
         "antwoord": 0,
-        "uitleg": "Hoe heter iets gloeit, hoe blauwer het licht. Blauwe sterren zitten rond 20 000 graden, onze gele zon rond 5500, rode sterren rond 3000. Precies zoals de blauwe punt van een gasvlam heter is dan de gele.",
+        "uitleg": r"Hoe heter iets gloeit, hoe blauwer het licht. Blauwe sterren zitten rond \(20\,000\) graden, onze gele zon rond \(5500\), rode sterren rond \(3000\). Precies zoals de blauwe punt van een gasvlam heter is dan de gele.",
     },
     {
         "type": "waarofniet",
@@ -119,7 +119,7 @@ VRAGEN = [
             "Hij bestaat uit de verkeerde soort waterstof om te kunnen branden",
         ],
         "antwoord": 0,
-        "uitleg": "Om waterstof te laten samensmelten heb je een enorme druk in de kern nodig. Daarvoor moet een bol ongeveer 80 keer zwaarder zijn dan Jupiter. Jupiter is wel de zwaarste planeet: alle andere planeten samen wegen minder.",
+        "uitleg": r"Om waterstof te laten samensmelten heb je een enorme druk in de kern nodig. Daarvoor moet een bol ongeveer \(80\) keer zwaarder zijn dan Jupiter. Jupiter is wel de zwaarste planeet: alle andere planeten samen wegen minder.",
     },
     {
         "type": "meerkeuze",
@@ -137,7 +137,7 @@ VRAGEN = [
         "type": "waarofniet",
         "vraag": "Een zonsverduistering zou elke nieuwe maan plaatsvinden als de maanbaan niet scheef stond.",
         "antwoord": True,
-        "uitleg": "De maanbaan staat ongeveer 5 graden scheef op de baan van de aarde rond de zon. Daardoor schuift de maan meestal net boven of net onder de zon langs. Alleen als ze precies in één lijn staan, krijg je een verduistering.",
+        "uitleg": r"De maanbaan staat ongeveer \(5\) graden scheef op de baan van de aarde rond de zon. Daardoor schuift de maan meestal net boven of net onder de zon langs. Alleen als ze precies in één lijn staan, krijg je een verduistering.",
     },
     {
         "type": "meerkeuze",
@@ -191,7 +191,7 @@ VRAGEN = [
             "Het smelten en weer aangroeien van het ijs op de twee polen",
         ],
         "antwoord": 0,
-        "uitleg": "De maan trekt harder aan de kant van de aarde die naar haar toe ligt dan aan de andere kant. Daardoor rekt de waterlaag uit tot twee bulten, en draait de aarde er in 24 uur onderdoor. De zon trekt ook mee: staan zon en maan op één lijn, dan krijg je springtij.",
+        "uitleg": r"De maan trekt harder aan de kant van de aarde die naar haar toe ligt dan aan de andere kant. Daardoor rekt de waterlaag uit tot twee bulten, en draait de aarde er in \(24\) uur onderdoor. De zon trekt ook mee: staan zon en maan op één lijn, dan krijg je springtij.",
     },
     {
         "type": "invultekst",

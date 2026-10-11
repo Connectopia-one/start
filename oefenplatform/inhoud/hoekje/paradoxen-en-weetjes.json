@@ -15,7 +15,7 @@
             "Onze dampkring laat 's nachts maar een deel van het licht door"
           ],
           "antwoord": 0,
-          "uitleg": "In elke richting zou je op een ster moeten uitkomen, dus zou de hele hemel moeten gloeien. De uitweg: het heelal is zo'n 13,8 miljard jaar oud, dus verder licht is nog onderweg, en door de uitdijing is het licht van de verste stelsels bovendien uit het zichtbare gerekt. Stof helpt niet: dat zou zelf gaan gloeien."
+          "uitleg": "In elke richting zou je op een ster moeten uitkomen, dus zou de hele hemel moeten gloeien. De uitweg: het heelal is zo'n \\(13{,}8\\) miljard jaar oud, dus verder licht is nog onderweg, en door de uitdijing is het licht van de verste stelsels bovendien uit het zichtbare gerekt. Stof helpt niet: dat zou zelf gaan gloeien."
         },
         {
           "type": "meerkeuze",
@@ -45,23 +45,23 @@
           "type": "meerkeuze",
           "vraag": "Hilberts hotel heeft oneindig veel kamers en zit helemaal vol. Er komt nog een gast. Wat nu?",
           "opties": [
-            "Iedereen schuift één kamer op, en kamer 1 komt vrij",
+            "Iedereen schuift één kamer op, en kamer \\(1\\) komt vrij",
             "De nieuwe gast moet wachten tot er iemand vertrekt",
             "De gast deelt een kamer met wie er al ligt",
             "Er wordt een extra kamer aan het einde bijgebouwd"
           ],
           "antwoord": 0,
-          "uitleg": "De gast uit kamer 1 gaat naar 2, die uit 2 naar 3, enzovoort. Niemand valt uit de boot, want er is geen laatste kamer. Bij oneindigheid werkt vol niet zoals bij eindige dingen, en daar was het David Hilbert net om te doen."
+          "uitleg": "De gast uit kamer \\(1\\) gaat naar \\(2\\), die uit \\(2\\) naar \\(3\\), enzovoort. Niemand valt uit de boot, want er is geen laatste kamer. Bij oneindigheid werkt vol niet zoals bij eindige dingen, en daar was het David Hilbert net om te doen."
         },
         {
           "type": "waarofniet",
           "vraag": "Er zijn evenveel even getallen als er natuurlijke getallen zijn.",
           "antwoord": true,
-          "uitleg": "Je kunt ze twee aan twee koppelen: 1 met 2, 2 met 4, 3 met 6, en zo door. Niemand blijft over aan beide kanten, dus zijn de twee verzamelingen even groot. Dat de even getallen er maar de helft van zijn, is bij oneindige verzamelingen geen tegenspraak."
+          "uitleg": "Je kunt ze twee aan twee koppelen: \\(1\\) met \\(2\\), \\(2\\) met \\(4\\), \\(3\\) met \\(6\\), en zo door. Niemand blijft over aan beide kanten, dus zijn de twee verzamelingen even groot. Dat de even getallen er maar de helft van zijn, is bij oneindige verzamelingen geen tegenspraak."
         },
         {
           "type": "meerkeuze",
-          "vraag": "In een groep van 23 mensen: hoe groot is de kans dat er twee op dezelfde dag jarig zijn?",
+          "vraag": "In een groep van \\(23\\) mensen: hoe groot is de kans dat er twee op dezelfde dag jarig zijn?",
           "opties": [
             "Ongeveer de helft",
             "Ongeveer één op tien",
@@ -69,7 +69,7 @@
             "Bijna zeker, meer dan negen op tien"
           ],
           "antwoord": 0,
-          "uitleg": "Veel mensen gokken veel lager, en daarom heet het de verjaardagsparadox. Het gaat niet om jouw verjaardag maar om élk paar in de groep, en bij 23 mensen zijn dat er al 253. Vanaf 70 mensen is de kans groter dan 99 procent."
+          "uitleg": "Veel mensen gokken veel lager, en daarom heet het de verjaardagsparadox. Het gaat niet om jouw verjaardag maar om élk paar in de groep, en bij \\(23\\) mensen zijn dat er al \\(253\\). Vanaf \\(70\\) mensen is de kans groter dan \\(99\\) procent."
         },
         {
           "type": "meerkeuze",
@@ -97,9 +97,9 @@
         },
         {
           "type": "waarofniet",
-          "vraag": "Het getal 0,999... met eindeloos veel negens is precies gelijk aan 1.",
+          "vraag": "Het getal \\(0{,}999\\)... met eindeloos veel negens is precies gelijk aan \\(1\\).",
           "antwoord": true,
-          "uitleg": "Niet bijna, maar exact. Eén derde is 0,333..., en drie keer een derde is één, dus 0,999... is één. Of anders: als ze verschillend waren, moest er een getal tussen passen, en dat bestaat niet."
+          "uitleg": "Niet bijna, maar exact. Eén derde is \\(0{,}333\\)..., en drie keer een derde is één, dus \\(0{,}999\\)... is één. Of anders: als ze verschillend waren, moest er een getal tussen passen, en dat bestaat niet."
         },
         {
           "type": "meerkeuze",
@@ -111,7 +111,7 @@
             "Ze is te kort om er iets zinnigs over te kunnen zeggen"
           ],
           "antwoord": 0,
-          "uitleg": "De leugenaarsparadox draait al meer dan tweeduizend jaar rond. Het probleem zit in het spreken over zichzelf. Kurt Gödel gebruikte diezelfde truc in 1931 om iets veel diepers te bewijzen over de grenzen van de wiskunde."
+          "uitleg": "De leugenaarsparadox draait al meer dan tweeduizend jaar rond. Het probleem zit in het spreken over zichzelf. Kurt Gödel gebruikte diezelfde truc in \\(1931\\) om iets veel diepers te bewijzen over de grenzen van de wiskunde."
         },
         {
           "type": "meerkeuze",
@@ -207,13 +207,13 @@
           "type": "meerkeuze",
           "vraag": "De kosmische kalender perst de hele geschiedenis van het heelal in één jaar. Wanneer verschijnt de mens?",
           "opties": [
-            "Pas in de laatste minuten van 31 december",
+            "Pas in de laatste minuten van \\(31\\) december",
             "Ergens rond het midden van de maand november",
             "Kort na de zomer, begin september",
             "Bij het begin van het jaar, in januari"
           ],
           "antwoord": 0,
-          "uitleg": "De oerknal valt op 1 januari, de aarde ontstaat pas eind augustus, de dinosauriërs sterven uit op 30 december. Alles wat ooit is opgeschreven, van de eerste kleitabletten tot vandaag, past in de laatste halve minuut van oudejaarsavond."
+          "uitleg": "De oerknal valt op \\(1\\) januari, de aarde ontstaat pas eind augustus, de dinosauriërs sterven uit op \\(30\\) december. Alles wat ooit is opgeschreven, van de eerste kleitabletten tot vandaag, past in de laatste halve minuut van oudejaarsavond."
         }
       ]
     },
@@ -322,7 +322,7 @@
           "type": "waarofniet",
           "vraag": "Op een hoge berg kookt water bij een lagere temperatuur dan aan zee.",
           "antwoord": true,
-          "uitleg": "De luchtdruk is er lager, dus moleculen ontsnappen makkelijker. Op de Mont Blanc kookt water rond 85 graden. Handig? Niet echt: je eieren koken er trager gaar, want het water is minder heet."
+          "uitleg": "De luchtdruk is er lager, dus moleculen ontsnappen makkelijker. Op de Mont Blanc kookt water rond \\(85\\) graden. Handig? Niet echt: je eieren koken er trager gaar, want het water is minder heet."
         },
         {
           "type": "meerkeuze",
@@ -382,7 +382,7 @@
           "type": "waarofniet",
           "vraag": "Bananen zijn licht radioactief, en daarom mag je er maar enkele per dag eten.",
           "antwoord": false,
-          "uitleg": "Licht radioactief zijn ze wel: ze zitten vol kalium, en een klein deel daarvan is kalium-40, dat van nature vervalt. Gevaarlijk is het niet, want je lichaam bevat zelf al kalium en houdt dat gewoon op peil. Er bestaat zelfs een scherts-eenheid, de bananendosis, om kleine stralingshoeveelheden aanschouwelijk te maken."
+          "uitleg": "Licht radioactief zijn ze wel: ze zitten vol kalium, en een klein deel daarvan is kalium-\\(40\\), dat van nature vervalt. Gevaarlijk is het niet, want je lichaam bevat zelf al kalium en houdt dat gewoon op peil. Er bestaat zelfs een scherts-eenheid, de bananendosis, om kleine stralingshoeveelheden aanschouwelijk te maken."
         },
         {
           "type": "meerkeuze",
@@ -412,7 +412,7 @@
           "type": "waarofniet",
           "vraag": "Twee willekeurige mensen verschillen in ongeveer tien procent van hun DNA.",
           "antwoord": false,
-          "uitleg": "Twee mensen komen voor ongeveer 99,9 procent overeen. Al het verschil tussen mensen op aarde zit in dat laatste tiende van een procent. Binnen één groep chimpansees is de erfelijke verscheidenheid groter dan onder alle mensen samen."
+          "uitleg": "Twee mensen komen voor ongeveer \\(99{,}9\\) procent overeen. Al het verschil tussen mensen op aarde zit in dat laatste tiende van een procent. Binnen één groep chimpansees is de erfelijke verscheidenheid groter dan onder alle mensen samen."
         },
         {
           "type": "meerkeuze",
@@ -424,7 +424,7 @@
             "Ongeveer tien kilometer"
           ],
           "antwoord": 0,
-          "uitleg": "Geluid legt zo'n 340 meter per seconde af, dus drie seconden is ruim een kilometer. Licht is er praktisch meteen. De donder zelf is de knal van lucht die door de bliksem plots tot tienduizenden graden wordt opgewarmd en uitzet."
+          "uitleg": "Geluid legt zo'n \\(340\\) meter per seconde af, dus drie seconden is ruim een kilometer. Licht is er praktisch meteen. De donder zelf is de knal van lucht die door de bliksem plots tot tienduizenden graden wordt opgewarmd en uitzet."
         }
       ]
     },
@@ -455,7 +455,7 @@
             "Atlantis"
           ],
           "antwoord": 0,
-          "uitleg": "Zo'n 335 miljoen jaar geleden lag alles aan elkaar. Pangea brak daarna eerst in twee stukken: Laurasia in het noorden en Gondwana in het zuiden, en die vielen op hun beurt verder uiteen. Dat Zuid-Amerika en Afrika in elkaar passen als twee puzzelstukken, was de eerste aanwijzing."
+          "uitleg": "Zo'n \\(335\\) miljoen jaar geleden lag alles aan elkaar. Pangea brak daarna eerst in twee stukken: Laurasia in het noorden en Gondwana in het zuiden, en die vielen op hun beurt verder uiteen. Dat Zuid-Amerika en Afrika in elkaar passen als twee puzzelstukken, was de eerste aanwijzing."
         },
         {
           "type": "meerkeuze",
@@ -491,7 +491,7 @@
             "De poolster zelf beweegt snel door de Melkweg heen"
           ],
           "antwoord": 0,
-          "uitleg": "Dat heet precessie en het duurt ongeveer 26 000 jaar per rondje. In de tijd van de Egyptische piramides wees de as naar Thuban, over 12 000 jaar naar Wega. De kompasnaald van de hemel wijst dus niet eeuwig dezelfde kant uit."
+          "uitleg": "Dat heet precessie en het duurt ongeveer \\(26\\,000\\) jaar per rondje. In de tijd van de Egyptische piramides wees de as naar Thuban, over \\(12\\,000\\) jaar naar Wega. De kompasnaald van de hemel wijst dus niet eeuwig dezelfde kant uit."
         },
         {
           "type": "meerkeuze",
@@ -519,7 +519,7 @@
         },
         {
           "type": "meerkeuze",
-          "vraag": "In lange lijsten echte cijfers, van rivierlengtes tot boekhoudingen, begint het eerste cijfer opvallend vaak met een 1. Wat is dat?",
+          "vraag": "In lange lijsten echte cijfers, van rivierlengtes tot boekhoudingen, begint het eerste cijfer opvallend vaak met een \\(1\\). Wat is dat?",
           "opties": [
             "De wet van Benford, die de belastingdienst gebruikt om fraude te vinden",
             "Een gewoon toeval dat alleen bij heel grote lijsten lijkt op te vallen",
@@ -527,13 +527,13 @@
             "Een gevolg van het feit dat de meeste getallen klein zijn"
           ],
           "antwoord": 0,
-          "uitleg": "Ongeveer dertig procent van de getallen begint met een 1, en maar vijf procent met een 9. Het geldt voor getallen die over vele groottes lopen. Verzin je zelf cijfers, dan spreid je ze te gelijkmatig, en precies daaraan zijn vervalste boekhoudingen te herkennen."
+          "uitleg": "Ongeveer dertig procent van de getallen begint met een \\(1\\), en maar vijf procent met een \\(9\\). Het geldt voor getallen die over vele groottes lopen. Verzin je zelf cijfers, dan spreid je ze te gelijkmatig, en precies daaraan zijn vervalste boekhoudingen te herkennen."
         },
         {
           "type": "waarofniet",
-          "vraag": "Het jaar 1900 was geen schrikkeljaar, maar het jaar 2000 wel.",
+          "vraag": "Het jaar \\(1900\\) was geen schrikkeljaar, maar het jaar \\(2000\\) wel.",
           "antwoord": true,
-          "uitleg": "De regel is: elke vier jaar wel, elke honderd jaar niet, maar elke vierhonderd jaar toch weer wel. Zonder dat laatste vinkje zou de kalender langzaam wegschuiven van de seizoenen. Wie in het jaar 2000 dacht dat het een uitzondering was, had het net verkeerd om."
+          "uitleg": "De regel is: elke vier jaar wel, elke honderd jaar niet, maar elke vierhonderd jaar toch weer wel. Zonder dat laatste vinkje zou de kalender langzaam wegschuiven van de seizoenen. Wie in het jaar \\(2000\\) dacht dat het een uitzondering was, had het net verkeerd om."
         },
         {
           "type": "meerkeuze",
@@ -545,19 +545,19 @@
             "Het verschilt van cirkel tot cirkel, afhankelijk van de grootte"
           ],
           "antwoord": 0,
-          "uitleg": "Je kunt het dus niet schrijven als een breuk van twee gehele getallen. 22/7 komt in de buurt, maar klopt niet. Intussen zijn er meer dan honderd biljoen cijfers van berekend, en nog altijd is er geen patroon te zien. Voor bijna alles volstaan er trouwens vijftien."
+          "uitleg": "Je kunt het dus niet schrijven als een breuk van twee gehele getallen. \\(\\tfrac{22}{7}\\) komt in de buurt, maar klopt niet. Intussen zijn er meer dan honderd biljoen cijfers van berekend, en nog altijd is er geen patroon te zien. Voor bijna alles volstaan er trouwens vijftien."
         },
         {
           "type": "meerkeuze",
           "vraag": "De pitten in een zonnebloem liggen in spiralen. Hoeveel zijn dat er meestal?",
           "opties": [
-            "Een getal uit de rij van Fibonacci, zoals 34 of 55",
+            "Een getal uit de rij van Fibonacci, zoals \\(34\\) of \\(55\\)",
             "Altijd precies twaalf, net als de uren op een klok",
             "Een willekeurig aantal, dat per bloem verschilt",
             "Evenveel als het aantal blaadjes rond de bloem"
           ],
           "antwoord": 0,
-          "uitleg": "In die rij is elk getal de som van de twee ervoor: 1, 1, 2, 3, 5, 8, 13, 21, 34, 55. Door elk nieuw zaadje net iets meer dan een derde slag verder te zetten, passen er het meest in dezelfde ruimte. De plant rekent niet; wie het anders deed, verloor gewoon van wie het zo deed."
+          "uitleg": "In die rij is elk getal de som van de twee ervoor: \\(1\\), \\(1\\), \\(2\\), \\(3\\), \\(5\\), \\(8\\), \\(13\\), \\(21\\), \\(34\\), \\(55\\). Door elk nieuw zaadje net iets meer dan een derde slag verder te zetten, passen er het meest in dezelfde ruimte. De plant rekent niet; wie het anders deed, verloor gewoon van wie het zo deed."
         },
         {
           "type": "waarofniet",
@@ -605,7 +605,7 @@
           "type": "waarofniet",
           "vraag": "Er staan bomen op aarde die ouder zijn dan de piramides van Egypte.",
           "antwoord": true,
-          "uitleg": "Een borstelden in Californië, Methusalem genoemd, is ruim 4800 jaar oud. Hij stond er al voor de eerste piramide gebouwd werd. Zulke bomen groeien tergend traag op karige hoogvlakten, en net dat maakt hun hout zo hard dat het nauwelijks rot."
+          "uitleg": "Een borstelden in Californië, Methusalem genoemd, is ruim \\(4800\\) jaar oud. Hij stond er al voor de eerste piramide gebouwd werd. Zulke bomen groeien tergend traag op karige hoogvlakten, en net dat maakt hun hout zo hard dat het nauwelijks rot."
         },
         {
           "type": "meerkeuze",
@@ -745,7 +745,7 @@
           "vraag": "Hoe lang is de kust van Groot-Brittannië?",
           "opties": [
             "Dat hangt af van hoe klein je meetlat is",
-            "Precies 11 073 kilometer, al sinds de eerste meting",
+            "Precies \\(11\\,073\\) kilometer, al sinds de eerste meting",
             "Dat kan niemand meten, want de kust verandert elke dag",
             "Ongeveer even lang als de kust van Frankrijk"
           ],
@@ -810,7 +810,7 @@
             "De vraag heeft twee juiste antwoorden tegelijk"
           ],
           "antwoord": 0,
-          "uitleg": "Scheert hij zichzelf, dan mag hij het volgens de regel niet doen; doet hij het niet, dan moet hij het juist wel. De beschrijving spreekt zichzelf tegen, dus zo'n dorp bestaat niet. Bertrand Russell gebruikte dit in 1901 om een scheur in de wiskunde zelf te tonen: ook met verzamelingen kan je zo'n onmogelijke regel opschrijven."
+          "uitleg": "Scheert hij zichzelf, dan mag hij het volgens de regel niet doen; doet hij het niet, dan moet hij het juist wel. De beschrijving spreekt zichzelf tegen, dus zo'n dorp bestaat niet. Bertrand Russell gebruikte dit in \\(1901\\) om een scheur in de wiskunde zelf te tonen: ook met verzamelingen kan je zo'n onmogelijke regel opschrijven."
         },
         {
           "type": "meerkeuze",
@@ -822,7 +822,7 @@
             "De veer dwarrelde weg, net zoals hier op aarde"
           ],
           "antwoord": 0,
-          "uitleg": "David Scott deed het in 1971 live voor de camera tijdens Apollo 15. Zonder lucht is er geen weerstand, en dan valt alles even snel, hoe zwaar het ook is. Galilei beweerde dat al vierhonderd jaar eerder zonder het ooit zuiver te kunnen tonen, want op aarde zit de lucht altijd in de weg."
+          "uitleg": "David Scott deed het in \\(1971\\) live voor de camera tijdens Apollo \\(15\\). Zonder lucht is er geen weerstand, en dan valt alles even snel, hoe zwaar het ook is. Galilei beweerde dat al vierhonderd jaar eerder zonder het ooit zuiver te kunnen tonen, want op aarde zit de lucht altijd in de weg."
         },
         {
           "type": "waarofniet",
@@ -850,15 +850,15 @@
         },
         {
           "type": "invultekst",
-          "vraag": "Een blad papier is 0,1 mm dik. Hoe dik is de stapel als je het tien keer dubbelvouwt? Geef het antwoord in millimeter.",
+          "vraag": "Een blad papier is \\(0{,}1\\) mm dik. Hoe dik is de stapel als je het tien keer dubbelvouwt? Geef het antwoord in millimeter.",
           "antwoord": "102,4",
-          "uitleg": "Elke vouw verdubbelt: 0,1 maal 2 tot de tiende is 0,1 maal 1024, dus 102,4 mm, ruim tien centimeter. Na 42 vouwen zou je aan de maan komen. In het echt lukt het vouwen maar een keer of zeven, omdat de buitenste laag telkens een bocht moet maken en daar te weinig papier voor is."
+          "uitleg": "Elke vouw verdubbelt: \\(0{,}1 \\cdot 2^{10}\\) is \\(0{,}1 \\cdot 1024\\), dus \\(102{,}4\\) mm, ruim tien centimeter. Na \\(42\\) vouwen zou je aan de maan komen. In het echt lukt het vouwen maar een keer of zeven, omdat de buitenste laag telkens een bocht moet maken en daar te weinig papier voor is."
         },
         {
           "type": "invultekst",
           "vraag": "Op hoeveel verschillende manieren kan je vijf boeken naast elkaar op een plank zetten?",
           "antwoord": "120",
-          "uitleg": "Voor de eerste plaats heb je vijf boeken, dan nog vier, dan drie, twee en één: 5 maal 4 maal 3 maal 2 maal 1, dus 120. Dat heet vijf faculteit. Bij tien boeken zijn het er al meer dan drie miljoen, en bij een kaartspel van 52 kaarten meer volgordes dan er atomen op aarde zijn."
+          "uitleg": "Voor de eerste plaats heb je vijf boeken, dan nog vier, dan drie, twee en één: \\(5 \\cdot 4 \\cdot 3 \\cdot 2 \\cdot 1\\), dus \\(120\\). Dat heet vijf faculteit. Bij tien boeken zijn het er al meer dan drie miljoen, en bij een kaartspel van \\(52\\) kaarten meer volgordes dan er atomen op aarde zijn."
         }
       ]
     }

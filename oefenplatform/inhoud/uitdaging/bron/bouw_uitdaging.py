@@ -20,6 +20,9 @@ import sys
 
 HIER = pathlib.Path(__file__).parent
 UIT = HIER.parent
+sys.path.insert(0, str(UIT.parent))
+
+from notatie import zonder_notatie  # noqa: E402  (pad moet eerst klaarstaan)
 TITEL = "Uitdaging — alles door elkaar"
 
 SPELING = 5
@@ -38,7 +41,9 @@ def getal(waarde):
 
 
 def kaal(tekst):
-    return str(tekst).replace(" ", "").replace(" ", "").replace(".", ",").strip()
+    # de notatie eraf, anders is \(60\,000\) niet hetzelfde getal als 60000
+    tekst = zonder_notatie(str(tekst)).replace("\\,", "").replace("\\%", "%")
+    return tekst.replace(" ", "").replace("\u00a0", "").replace(".", ",").strip()
 
 
 def narekenen(vraag):

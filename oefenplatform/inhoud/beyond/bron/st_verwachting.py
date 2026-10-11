@@ -68,7 +68,7 @@ DEEL1 = [
     ),
     dict(
         type="meerkeuze",
-        vraag=r"Een kansvariabele heeft de waarden nul, één en twee met kansen \(0{,}1\) / \(0{,}3\) / \(0{,}6\). Hoeveel is E(X)?",
+        vraag=r"Een kansvariabele heeft de waarden nul, één en twee met kansen \(0{,}1\), \(0{,}3\) en \(0{,}6\). Hoeveel is E(X)?",
         opties=[r"\(1{,}5\)", r"\(1\)", r"\(1{,}2\)", r"\(0{,}9\)"],
         antwoord=0,
         uitleg=r"Nul maal \(0{,}1\) plus één maal \(0{,}3\) plus twee maal \(0{,}6\) is \(0 + 0{,}3 + 1{,}2 = 1{,}5\).",
@@ -206,7 +206,7 @@ DEEL2 = [
             r"\(n \cdot p \cdot (1-p)\)",
             r"\(n \cdot p\)",
             r"\(\sqrt{n} \cdot p\)",
-            r"\(n\) kwadraat maal \(p\)",
+            r"\(n^{2} \cdot p\)",
         ],
         antwoord=0,
         uitleg=r"Zo staat ze in het formularium: Var(X) = \(n \cdot p \cdot (1 - p)\).",

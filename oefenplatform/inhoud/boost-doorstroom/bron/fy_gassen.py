@@ -102,7 +102,7 @@ DEEL1 = [
             "kracht, oppervlakte, volume en warmte",
         ],
         antwoord=0,
-        uitleg=r"p, V, T en n. Samen staan ze in de ideale gaswet p.\(V = n\).R.T.",
+        uitleg=r"p, V, T en n. Samen staan ze in de ideale gaswet \(p \cdot V = n \cdot R \cdot T\).",
     ),
     dict(
         type="meerkeuze",
@@ -145,7 +145,7 @@ DEEL1 = [
         type="waarofniet",
         vraag="De druk van een gas hangt niet af van het aantal deeltjes in het vat.",
         antwoord=False,
-        uitleg=r"In p.\(V = n\).R.T staat n. Meer deeltjes in hetzelfde volume bij dezelfde temperatuur geeft een grotere druk, zoals bij het oppompen van een band.",
+        uitleg=r"In \(p \cdot V = n \cdot R \cdot T\) staat n. Meer deeltjes in hetzelfde volume bij dezelfde temperatuur geeft een grotere druk, zoals bij het oppompen van een band.",
     ),
     dict(
         type="waarofniet",
@@ -175,7 +175,7 @@ DEEL1 = [
         type="invultekst",
         vraag="Welk symbool gebruikt men voor de stofhoeveelheid van een gas?",
         antwoord=["n"],
-        uitleg=r"n, met als eenheid de mol. Die staat in de ideale gaswet p.\(V = n\).R.T.",
+        uitleg=r"n, met als eenheid de mol. Die staat in de ideale gaswet \(p \cdot V = n \cdot R \cdot T\).",
     ),
 ]
 
@@ -185,21 +185,21 @@ DEEL2 = [
         vraag="Wat blijft gelijk bij een isotherm proces van een vaste hoeveelheid gas?",
         opties=["de temperatuur", "de druk", "het volume", "de energie"],
         antwoord=0,
-        uitleg=r"Iso betekent gelijk en therm hoort bij warmte, dus de temperatuur blijft gelijk. Dan geldt p . \(V = c\)onstant.",
+        uitleg=r"Iso betekent gelijk en therm hoort bij warmte, dus de temperatuur blijft gelijk. Dan geldt \(p \cdot V = \text{constant}\).",
     ),
     dict(
         type="meerkeuze",
         vraag="Wat blijft gelijk bij een isobaar proces?",
         opties=["de druk", "het volume", "de temperatuur", "de massa van het vat"],
         antwoord=0,
-        uitleg=r"Baar hoort bij druk, dus de druk blijft gelijk. Dan geldt \(V / T = c\)onstant.",
+        uitleg=r"Baar hoort bij druk, dus de druk blijft gelijk. Dan geldt \(V / T = \text{constant}\).",
     ),
     dict(
         type="meerkeuze",
         vraag="Wat blijft gelijk bij een isochoor proces?",
         opties=["het volume", "de druk", "de temperatuur", "de stofhoeveelheid en de druk"],
         antwoord=0,
-        uitleg=r"Choor hoort bij ruimte, dus het volume blijft gelijk. Dan geldt \(p / T = c\)onstant.",
+        uitleg=r"Choor hoort bij ruimte, dus het volume blijft gelijk. Dan geldt \(p / T = \text{constant}\).",
     ),
     dict(
         type="meerkeuze",
@@ -225,9 +225,9 @@ DEEL2 = [
     dict(
         type="meerkeuze",
         vraag="Welke formule is de ideale gaswet?",
-        opties=[r"p . \(V = n\) . R . T", r"p . \(V = c\)onstant", r"\(p / T = c\)onstant", r"\(p = \rho \cdot g \cdot h\)"],
+        opties=[r"\(p \cdot V = n \cdot R \cdot T\)", r"\(p \cdot V = \text{constant}\)", r"\(p / T = \text{constant}\)", r"\(p = \rho \cdot g \cdot h\)"],
         antwoord=0,
-        uitleg=r"p.\(V = n\).R.T, met \(R = 8{,}31\) J/(mol.K). De andere vormen gelden enkel voor een vaste hoeveelheid gas met één grootheid constant.",
+        uitleg=r"\(p \cdot V = n \cdot R \cdot T\), met \(R = 8{,}31\) J/(mol.K). De andere vormen gelden enkel voor een vaste hoeveelheid gas met één grootheid constant.",
     ),
     dict(
         type="meerkeuze",
@@ -255,7 +255,7 @@ DEEL2 = [
     ),
     dict(
         type="meerkeuze",
-        vraag=r"Welke uitspraken over de algemene gaswet p.\(V / T = c\)onstant zijn juist? Kruis alles aan wat juist is.",
+        vraag=r"Welke uitspraken over de algemene gaswet \(p \cdot V / T = \text{constant}\) zijn juist? Kruis alles aan wat juist is.",
         opties=[
             "ze geldt voor een vaste hoeveelheid gas",
             "de temperatuur moet in kelvin staan",
@@ -275,7 +275,7 @@ DEEL2 = [
             "het gas heeft deeltjes verloren",
         ],
         antwoord=[0, 1],
-        uitleg=r"\(2{,}0 \times 5{,}0 = 10\) en \(4{,}0 \times 2{,}5 = 10\), dus p.V blijft gelijk. Volgens p.\(V / T = c\)onstant blijft T dan ook gelijk: het is een isotherm proces.",
+        uitleg=r"\(2{,}0 \times 5{,}0 = 10\) en \(4{,}0 \times 2{,}5 = 10\), dus p.V blijft gelijk. Volgens \(p \cdot V / T = \text{constant}\) blijft T dan ook gelijk: het is een isotherm proces.",
     ),
     dict(
         type="waarofniet",
@@ -305,13 +305,13 @@ DEEL2 = [
         type="waarofniet",
         vraag="Je kan een p(V)-grafiek omzetten naar een p(T)-grafiek als je weet welke grootheid constant gehouden werd.",
         antwoord=True,
-        uitleg=r"Met p.\(V / T = c\)onstant reken je elk punt om. Je moet wel weten of de temperatuur, de druk of het volume vastgehouden werd.",
+        uitleg=r"Met \(p \cdot V / T = \text{constant}\) reken je elk punt om. Je moet wel weten of de temperatuur, de druk of het volume vastgehouden werd.",
     ),
     dict(
         type="invultekst",
         vraag="Hoe noemt men een proces van een gas waarbij de temperatuur gelijk blijft?",
         antwoord=["isotherm", "een isotherm proces", "isothermisch"],
-        uitleg=r"Een isotherm proces. Dan geldt p . \(V = c\)onstant.",
+        uitleg=r"Een isotherm proces. Dan geldt \(p \cdot V = \text{constant}\).",
     ),
     dict(
         type="invultekst",
@@ -323,12 +323,12 @@ DEEL2 = [
         type="invultekst",
         vraag=r"Een gas van \(4{,}0\) L bij \(1{,}0\) bar wordt bij gelijke temperatuur samengedrukt tot \(2{,}0\) bar. Hoeveel liter blijft er over? Schrijf het getal.",
         antwoord=["2", "2,0", "2 L"],
-        uitleg=r"p.V blijft gelijk: \(1{,}0 \times 4{,}0 = 2{,}0\) . V, dus \(V = 2{,}0\) L.",
+        uitleg=r"p.V blijft gelijk: \(1{,}0 \times 4{,}0 = 2{,}0 \cdot V\), dus \(V = 2{,}0\) L.",
     ),
     dict(
         type="invultekst",
         vraag="Hoe noemt men een proces waarbij het volume van het gas gelijk blijft?",
         antwoord=["isochoor", "een isochoor proces", "isochoorisch"],
-        uitleg=r"Een isochoor proces. Dan geldt \(p / T = c\)onstant.",
+        uitleg=r"Een isochoor proces. Dan geldt \(p / T = \text{constant}\).",
     ),
 ]

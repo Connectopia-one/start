@@ -1248,7 +1248,7 @@
         },
         {
           "type": "invultekst",
-          "vraag": "\\(0{,}5 = \\ldots\\)/\\(10\\). Welk getal hoort op de puntjes?",
+          "vraag": "\\(0{,}5 = \\ldots / 10\\). Welk getal hoort op de puntjes?",
           "antwoord": "5",
           "uitleg": "Eén cijfer na de komma, dus over \\(10\\): \\(0{,}5 = \\tfrac{5}{10}\\)."
         },
@@ -1423,7 +1423,7 @@
         },
         {
           "type": "invultekst",
-          "vraag": "\\(0{,}75 = \\ldots\\)/\\(100\\). Welk getal hoort op de puntjes?",
+          "vraag": "\\(0{,}75 = \\ldots / 100\\). Welk getal hoort op de puntjes?",
           "antwoord": "75",
           "uitleg": "Twee cijfers na de komma, dus over \\(100\\): \\(\\tfrac{75}{100}\\)."
         },
@@ -1507,7 +1507,7 @@
         },
         {
           "type": "invultekst",
-          "vraag": "\\(1{,}5 = \\ldots\\)/\\(2\\). Welk getal hoort op de puntjes?",
+          "vraag": "\\(1{,}5 = \\ldots / 2\\). Welk getal hoort op de puntjes?",
           "antwoord": "3",
           "uitleg": "\\(1{,}5\\) is anderhalf, en dat zijn drie halven: \\(\\tfrac{3}{2}\\)."
         },

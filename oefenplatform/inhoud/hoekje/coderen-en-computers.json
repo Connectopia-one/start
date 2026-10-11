@@ -7,33 +7,33 @@
       "vragen": [
         {
           "type": "invultekst",
-          "vraag": "Het binaire getal 1011 is in gewone cijfers welk getal?",
+          "vraag": "Het binaire getal \\(1011\\) is in gewone cijfers welk getal?",
           "antwoord": "11",
-          "uitleg": "Van rechts naar links staan de plaatsen voor 1, 2, 4 en 8. Hier staat er een 1 bij 8, bij 2 en bij 1, samen 11. Precies zoals bij ons 253 staat voor 2 honderdtallen, 5 tientallen en 3 eenheden, maar dan met machten van twee."
+          "uitleg": "Van rechts naar links staan de plaatsen voor \\(1\\), \\(2\\), \\(4\\) en \\(8\\). Hier staat er een \\(1\\) bij \\(8\\), bij \\(2\\) en bij \\(1\\), samen \\(11\\). Precies zoals bij ons \\(253\\) staat voor \\(2\\) honderdtallen, \\(5\\) tientallen en \\(3\\) eenheden, maar dan met machten van twee."
         },
         {
           "type": "meerkeuze",
-          "vraag": "Hoeveel verschillende waarden kun je met 8 bits voorstellen?",
+          "vraag": "Hoeveel verschillende waarden kun je met \\(8\\) bits voorstellen?",
           "opties": [
-            "256",
-            "64",
-            "128",
-            "512"
+            "\\(256\\)",
+            "\\(64\\)",
+            "\\(128\\)",
+            "\\(512\\)"
           ],
           "antwoord": 0,
-          "uitleg": "Elke bit verdubbelt het aantal mogelijkheden: 2 tot de achtste is 256. Acht bits samen heten een byte, en daarmee tel je van 0 tot en met 255."
+          "uitleg": "Elke bit verdubbelt het aantal mogelijkheden: \\(2^{8}\\) is \\(256\\). Acht bits samen heten een byte, en daarmee tel je van \\(0\\) tot en met \\(255\\)."
         },
         {
           "type": "meerkeuze",
-          "vraag": "Je rekent bit per bit 1010 EN 1100 uit. Wat komt eruit?",
+          "vraag": "Je rekent bit per bit \\(1010\\) EN \\(1100\\) uit. Wat komt eruit?",
           "opties": [
-            "1000",
-            "1110",
-            "0110",
-            "0100"
+            "\\(1000\\)",
+            "\\(1110\\)",
+            "\\(0110\\)",
+            "\\(0100\\)"
           ],
           "antwoord": 0,
-          "uitleg": "Bij EN is een bit alleen 1 als hij in beide getallen 1 is. Van links naar rechts: 1 en 1 geeft 1, 0 en 1 geeft 0, 1 en 0 geeft 0, 0 en 0 geeft 0. Dat wordt 1000. Bij OF zou je 1110 krijgen."
+          "uitleg": "Bij EN is een bit alleen \\(1\\) als hij in beide getallen \\(1\\) is. Van links naar rechts: \\(1\\) en \\(1\\) geeft \\(1\\), \\(0\\) en \\(1\\) geeft \\(0\\), \\(1\\) en \\(0\\) geeft \\(0\\), \\(0\\) en \\(0\\) geeft \\(0\\). Dat wordt \\(1000\\). Bij OF zou je \\(1110\\) krijgen."
         },
         {
           "type": "meerkeuze",
@@ -67,15 +67,15 @@
         },
         {
           "type": "meerkeuze",
-          "vraag": "Waarom geeft een computer bij 0,1 + 0,2 vaak 0,30000000000000004?",
+          "vraag": "Waarom geeft een computer bij \\(0{,}1 + 0{,}2\\) vaak \\(0{,}30000000000000004\\)?",
           "opties": [
-            "0,1 en 0,2 zijn in het tweetallig stelsel geen exacte getallen",
+            "\\(0{,}1\\) en \\(0{,}2\\) zijn in het tweetallig stelsel geen exacte getallen",
             "De processor maakt bij optellen af en toe een kleine rekenfout",
             "Het scherm kan maar een beperkt aantal cijfers na de komma tonen",
             "De computer rondt elk antwoord altijd naar boven af, voor de zekerheid"
           ],
           "antwoord": 0,
-          "uitleg": "In het tientallig stelsel kun je een derde ook niet exact schrijven: 0,333... loopt eeuwig door. In het tweetallig stelsel overkomt dat net 0,1 en 0,2. De computer bewaart dus een piepklein beetje te veel, en dat zie je bij het optellen."
+          "uitleg": "In het tientallig stelsel kun je een derde ook niet exact schrijven: \\(0{,}333\\)... loopt eeuwig door. In het tweetallig stelsel overkomt dat net \\(0{,}1\\) en \\(0{,}2\\). De computer bewaart dus een piepklein beetje te veel, en dat zie je bij het optellen."
         },
         {
           "type": "meerkeuze",
@@ -129,13 +129,13 @@
             "Als een mengsel van geel, blauw en rood, zoals bij verf"
           ],
           "antwoord": 0,
-          "uitleg": "Elk van de drie krijgt meestal een byte, dus een waarde van 0 tot 255. Dat geeft ruim zestien miljoen kleuren. In een webpagina schrijf je dat hexadecimaal: #FF0000 is volle rood, #000000 zwart en #FFFFFF wit."
+          "uitleg": "Elk van de drie krijgt meestal een byte, dus een waarde van \\(0\\) tot \\(255\\). Dat geeft ruim zestien miljoen kleuren. In een webpagina schrijf je dat hexadecimaal: #FF0000 is volle rood, #\\(000000\\) zwart en #FFFFFF wit."
         },
         {
           "type": "waarofniet",
           "vraag": "Het woord bug komt van een echte insect dat ooit in een computer vastzat.",
           "antwoord": true,
-          "uitleg": "In 1947 haalde het team van Grace Hopper een mot uit de Harvard Mark II. Ze plakten het beestje in het logboek met de notitie dat dit de eerste echte bug was. Het woord bestond in de techniek al langer, maar dit maakte het beroemd."
+          "uitleg": "In \\(1947\\) haalde het team van Grace Hopper een mot uit de Harvard Mark II. Ze plakten het beestje in het logboek met de notitie dat dit de eerste echte bug was. Het woord bestond in de techniek al langer, maar dit maakte het beroemd."
         },
         {
           "type": "meerkeuze",
@@ -171,8 +171,8 @@
           "type": "meerkeuze",
           "vraag": "Ada Lovelace wordt vaak de eerste programmeur genoemd. Waarom?",
           "opties": [
-            "Ze schreef rond 1843 al een reeks instructies voor een rekenmachine",
-            "Ze bouwde in 1843 de eerste machine die zelf kon rekenen",
+            "Ze schreef rond \\(1843\\) al een reeks instructies voor een rekenmachine",
+            "Ze bouwde in \\(1843\\) de eerste machine die zelf kon rekenen",
             "Ze bedacht de eerste programmeertaal met woorden in plaats van cijfers",
             "Ze ontdekte hoe je getallen in nullen en enen kunt schrijven"
           ],
@@ -189,13 +189,13 @@
             "Een test om te zien of een computer menselijk overkomt"
           ],
           "antwoord": 0,
-          "uitleg": "Alan Turing beschreef in 1936 een heel eenvoudig apparaatje met een band en een leeskop. Zijn inzicht: één zo'n machine kan de beschrijving van elke andere inlezen en die uitvoeren. Dat is precies wat jouw computer doet als hij een programma opstart."
+          "uitleg": "Alan Turing beschreef in \\(1936\\) een heel eenvoudig apparaatje met een band en een leeskop. Zijn inzicht: één zo'n machine kan de beschrijving van elke andere inlezen en die uitvoeren. Dat is precies wat jouw computer doet als hij een programma opstart."
         },
         {
           "type": "waarofniet",
           "vraag": "Een computerprogramma kan van elk ander programma vooraf uitrekenen of het ooit zal stoppen.",
           "antwoord": false,
-          "uitleg": "Turing bewees in 1936 dat dat onmogelijk is: het stopprobleem. Stel dat zo'n programma bestond, dan kun je er eentje mee bouwen dat precies het tegenovergestelde doet van wat er voorspeld wordt. Dat kan niet, dus het bestaat niet."
+          "uitleg": "Turing bewees in \\(1936\\) dat dat onmogelijk is: het stopprobleem. Stel dat zo'n programma bestond, dan kun je er eentje mee bouwen dat precies het tegenovergestelde doet van wat er voorspeld wordt. Dat kan niet, dus het bestaat niet."
         },
         {
           "type": "meerkeuze",
@@ -358,11 +358,11 @@
           "type": "waarofniet",
           "vraag": "De wet van Moore is een natuurwet die zegt hoe snel chips moeten worden.",
           "antwoord": false,
-          "uitleg": "Het is geen natuurwet maar een waarneming: Gordon Moore zag in 1965 dat het aantal transistors op een chip ongeveer elke twee jaar verdubbelde. Dat klopte decennialang, maar het is een trend, geen wet, en hij loopt intussen op zijn einde."
+          "uitleg": "Het is geen natuurwet maar een waarneming: Gordon Moore zag in \\(1965\\) dat het aantal transistors op een chip ongeveer elke twee jaar verdubbelde. Dat klopte decennialang, maar het is een trend, geen wet, en hij loopt intussen op zijn einde."
         },
         {
           "type": "meerkeuze",
-          "vraag": "Waarom kan een computer 'A' en '65' op dezelfde manier opslaan?",
+          "vraag": "Waarom kan een computer 'A' en '\\(65\\)' op dezelfde manier opslaan?",
           "opties": [
             "Alles is bits; wat het betekent hangt af van hoe je het leest",
             "Letters worden altijd eerst in getallen omgerekend en dan bewaard",
@@ -370,7 +370,7 @@
             "Letters en getallen staan in twee gescheiden soorten geheugen"
           ],
           "antwoord": 0,
-          "uitleg": "In het geheugen staat alleen 01000001. Lees je dat als een getal, dan is het 65; lees je het als een teken, dan is het de hoofdletter A. Daarom moet een programma altijd weten wat voor soort gegeven het beetpakt."
+          "uitleg": "In het geheugen staat alleen \\(01000001\\). Lees je dat als een getal, dan is het \\(65\\); lees je het als een teken, dan is het de hoofdletter A. Daarom moet een programma altijd weten wat voor soort gegeven het beetpakt."
         },
         {
           "type": "meerkeuze",
@@ -382,7 +382,7 @@
             "Kan een machine zonder fouten een hele dag blijven draaien?"
           ],
           "antwoord": 0,
-          "uitleg": "Turing stelde in 1950 voor om de vraag of een machine kan denken te vervangen door iets meetbaars: typt iemand met een mens of met een machine, en merkt hij het verschil? Of dat echt iets over denken zegt, wordt nog altijd druk besproken."
+          "uitleg": "Turing stelde in \\(1950\\) voor om de vraag of een machine kan denken te vervangen door iets meetbaars: typt iemand met een mens of met een machine, en merkt hij het verschil? Of dat echt iets over denken zegt, wordt nog altijd druk besproken."
         },
         {
           "type": "waarofniet",
@@ -406,7 +406,7 @@
           "type": "invultekst",
           "vraag": "Hoeveel bits zitten er in één byte?",
           "antwoord": "8",
-          "uitleg": "Acht. Daarmee kun je 256 verschillende waarden voorstellen, precies genoeg voor alle letters, cijfers en leestekens van de oude ASCII-tabel. Een kilobyte is er duizend, een megabyte een miljoen."
+          "uitleg": "Acht. Daarmee kun je \\(256\\) verschillende waarden voorstellen, precies genoeg voor alle letters, cijfers en leestekens van de oude ASCII-tabel. Een kilobyte is er duizend, een megabyte een miljoen."
         },
         {
           "type": "meerkeuze",
@@ -429,7 +429,7 @@
       "vragen": [
         {
           "type": "meerkeuze",
-          "vraag": "Welke logische poort geeft alleen een 1 als de twee ingangen van elkaar verschillen?",
+          "vraag": "Welke logische poort geeft alleen een \\(1\\) als de twee ingangen van elkaar verschillen?",
           "opties": [
             "De XOR-poort",
             "De AND-poort",
@@ -437,7 +437,7 @@
             "De NOT-poort"
           ],
           "antwoord": 0,
-          "uitleg": "XOR staat voor exclusive or: het een of het ander, maar niet allebei. 1 en 0 geeft 1, 1 en 1 geeft 0. Met een handvol van zulke poortjes bouw je een optelmachine, en daarmee uiteindelijk een hele processor."
+          "uitleg": "XOR staat voor exclusive or: het een of het ander, maar niet allebei. \\(1\\) en \\(0\\) geeft \\(1\\), \\(1\\) en \\(1\\) geeft \\(0\\). Met een handvol van zulke poortjes bouw je een optelmachine, en daarmee uiteindelijk een hele processor."
         },
         {
           "type": "meerkeuze",
@@ -605,7 +605,7 @@
             "Door elk teken om te zetten naar het dichtstbijzijnde Latijnse"
           ],
           "antwoord": 0,
-          "uitleg": "De oude ASCII-tabel had maar 128 plaatsen: genoeg voor Engels, niet voor de wereld. Unicode telt er intussen meer dan 150 000, van het Egyptische hiërogliefenschrift tot een avocado. Daarom kun je in één bericht Nederlands, Arabisch en een smiley mengen."
+          "uitleg": "De oude ASCII-tabel had maar \\(128\\) plaatsen: genoeg voor Engels, niet voor de wereld. Unicode telt er intussen meer dan \\(150\\,000\\), van het Egyptische hiërogliefenschrift tot een avocado. Daarom kun je in één bericht Nederlands, Arabisch en een smiley mengen."
         },
         {
           "type": "meerkeuze",
@@ -623,8 +623,8 @@
           "type": "meerkeuze",
           "vraag": "Wat kan een qubit in een kwantumcomputer dat een gewone bit niet kan?",
           "opties": [
-            "In een mengeling van 0 en 1 tegelijk zitten tot je hem afleest",
-            "Veel meer dan twee vaste waarden bewaren, bijvoorbeeld 0 tot 9",
+            "In een mengeling van \\(0\\) en \\(1\\) tegelijk zitten tot je hem afleest",
+            "Veel meer dan twee vaste waarden bewaren, bijvoorbeeld \\(0\\) tot \\(9\\)",
             "Zijn waarde onthouden ook als de stroom volledig wegvalt",
             "Zichzelf herstellen zodra er een rekenfout in geslopen is"
           ],
@@ -641,7 +641,7 @@
             "Hij volgt altijd de weg met de hoogste toegelaten snelheid"
           ],
           "antwoord": 0,
-          "uitleg": "Dat idee komt van Edsger Dijkstra, een Nederlander, die het in 1956 in twintig minuten bedacht op een terrasje. Alle routes uitproberen zou onbegonnen werk zijn: tussen twee steden liggen er astronomisch veel."
+          "uitleg": "Dat idee komt van Edsger Dijkstra, een Nederlander, die het in \\(1956\\) in twintig minuten bedacht op een terrasje. Alle routes uitproberen zou onbegonnen werk zijn: tussen twee steden liggen er astronomisch veel."
         }
       ]
     },
@@ -660,7 +660,7 @@
             "Een tweede functie die haar van buitenaf stopzet"
           ],
           "antwoord": 0,
-          "uitleg": "Dat heet het basisgeval. Bij faculteit is dat: 1 maal 1 is 1, klaar. Elke oproep moet een stapje dichter bij dat basisgeval komen, anders stapelt de computer oproepen op tot zijn geheugen vol zit. Veel problemen worden met recursie opeens kort: zoeken in een map met mappen erin, bijvoorbeeld."
+          "uitleg": "Dat heet het basisgeval. Bij faculteit is dat: \\(1 \\cdot 1\\) is \\(1\\), klaar. Elke oproep moet een stapje dichter bij dat basisgeval komen, anders stapelt de computer oproepen op tot zijn geheugen vol zit. Veel problemen worden met recursie opeens kort: zoeken in een map met mappen erin, bijvoorbeeld."
         },
         {
           "type": "meerkeuze",
@@ -792,7 +792,7 @@
             "Er is geen verschil, het zijn twee woorden voor hetzelfde"
           ],
           "antwoord": 0,
-          "uitleg": "Een virus nestelt zich in een bestand of programma en reist mee wanneer iemand dat doorgeeft. Een worm heeft niemand nodig: hij zoekt zelf gaten in het netwerk en springt verder. Daarom gaat een worm zo snel. In 2017 legde WannaCry op één dag ziekenhuizen en fabrieken in honderdvijftig landen stil."
+          "uitleg": "Een virus nestelt zich in een bestand of programma en reist mee wanneer iemand dat doorgeeft. Een worm heeft niemand nodig: hij zoekt zelf gaten in het netwerk en springt verder. Daarom gaat een worm zo snel. In \\(2017\\) legde WannaCry op één dag ziekenhuizen en fabrieken in honderdvijftig landen stil."
         },
         {
           "type": "meerkeuze",
@@ -828,7 +828,7 @@
           "type": "waarofniet",
           "vraag": "In een programma betekent null hetzelfde als het getal nul.",
           "antwoord": false,
-          "uitleg": "Nul is een waarde, null betekent dat er helemaal geen waarde is. Nul euro op je rekening is iets anders dan geen rekening hebben. Tony Hoare, die null in 1965 bedacht, noemde het later zijn vergissing van een miljard dollar, omdat zoveel programma's crashen op iets wat er niet blijkt te zijn."
+          "uitleg": "Nul is een waarde, null betekent dat er helemaal geen waarde is. Nul euro op je rekening is iets anders dan geen rekening hebben. Tony Hoare, die null in \\(1965\\) bedacht, noemde het later zijn vergissing van een miljard dollar, omdat zoveel programma's crashen op iets wat er niet blijkt te zijn."
         },
         {
           "type": "waarofniet",
@@ -844,15 +844,15 @@
         },
         {
           "type": "invultekst",
-          "vraag": "Binair zoeken vindt een naam in een gesorteerde lijst van 1000 namen in ongeveer 10 stappen. Hoeveel stappen heeft het ongeveer nodig bij 2000 namen?",
+          "vraag": "Binair zoeken vindt een naam in een gesorteerde lijst van \\(1000\\) namen in ongeveer \\(10\\) stappen. Hoeveel stappen heeft het ongeveer nodig bij \\(2000\\) namen?",
           "antwoord": "11",
           "uitleg": "Elke stap halveert de lijst, dus een lijst twee keer zo lang kost maar één stap extra. Bij een miljoen namen ben je er in twintig stappen, bij een miljard in dertig. Daarom is dit algoritme zo geliefd: het wordt nauwelijks trager als je gegevens exploderen."
         },
         {
           "type": "invultekst",
-          "vraag": "Hoeveel bits heb je minstens nodig om 1000 verschillende waarden te kunnen voorstellen?",
+          "vraag": "Hoeveel bits heb je minstens nodig om \\(1000\\) verschillende waarden te kunnen voorstellen?",
           "antwoord": "10",
-          "uitleg": "Met n bits maak je 2 tot de n verschillende combinaties. Negen bits geven er 512, te weinig, tien bits geven er 1024, net genoeg. Dat is ook waarom een kilobyte eigenlijk 1024 bytes is en niet 1000: de tweemachten liggen nu eenmaal niet op ronde tientallen."
+          "uitleg": "Met n bits maak je \\(2\\) tot de n verschillende combinaties. Negen bits geven er \\(512\\), te weinig, tien bits geven er \\(1024\\), net genoeg. Dat is ook waarom een kilobyte eigenlijk \\(1024\\) bytes is en niet \\(1000\\): de tweemachten liggen nu eenmaal niet op ronde tientallen."
         }
       ]
     }

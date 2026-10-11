@@ -35,14 +35,14 @@ DEEL1 = [
         vraag="Welke formule hoort bij de massadichtheid?",
         opties=[r"\(\rho = m / V\)", r"\(\rho = m \times V\)", r"\(\rho = V / m\)"],
         antwoord=0,
-        uitleg="Je deelt de massa door het volume. Het symbool ρ (rho) is de Griekse letter voor massadichtheid.",
+        uitleg=r"Je deelt de massa door het volume. Het symbool \(\rho\) (rho) is de Griekse letter voor massadichtheid.",
     ),
     dict(
         type="meerkeuze",
         vraag=r"Een voorwerp heeft een massa van \(300\) g en een volume van \(100\,\text{cm}^{3}\). Wat is de massadichtheid?",
         opties=[r"\(3\) g/\(\text{cm}^{3}\)", r"\(30\) g/\(\text{cm}^{3}\)", r"\(0{,}3\) g/\(\text{cm}^{3}\)"],
         antwoord=0,
-        uitleg=r"\(\rho = m / V = 300\) g / \(100\,\text{cm}^{3}\) = \(3\) g/\(\text{cm}^{3}\).",
+        uitleg=r"\(\rho = m / V = 300\) g / \(100\,\text{cm}^{3} = 3\) g/\(\text{cm}^{3}\).",
     ),
     dict(
         type="meerkeuze",
@@ -98,7 +98,7 @@ DEEL1 = [
         type="invultekst",
         vraag=r"\(1\) liter is evenveel als ___ \(\text{cm}^{3}\).",
         antwoord="1000",
-        uitleg=r"\(1\) L = \(1\,\text{dm}^{3}\) = \(1000\,\text{cm}^{3}\). En \(1\) mL = \(1\,\text{cm}^{3}\).",
+        uitleg=r"\(1\) L = \(1\,\text{dm}^{3} = 1000\,\text{cm}^{3}\). En \(1\) mL = \(1\,\text{cm}^{3}\).",
     ),
     dict(
         type="meerkeuze",
@@ -184,7 +184,7 @@ DEEL2 = [
         vraag=r"Een blok heeft een massa van \(72\) g en is een kubus met een ribbe van \(2\) cm. Wat is de massadichtheid?",
         opties=[r"\(9\) g/\(\text{cm}^{3}\)", r"\(36\) g/\(\text{cm}^{3}\)", r"\(144\) g/\(\text{cm}^{3}\)"],
         antwoord=0,
-        uitleg=r"Eerst het volume: \(z^{3} = 2^{3} = 8\,\text{cm}^{3}\). Dan \(\rho = 72\) g / \(8\,\text{cm}^{3}\) = \(9\) g/\(\text{cm}^{3}\). Dat komt aardig in de buurt van koper.",
+        uitleg=r"Eerst het volume: \(z^{3} = 2^{3} = 8\,\text{cm}^{3}\). Dan \(\rho = 72\) g / \(8\,\text{cm}^{3} = 9\) g/\(\text{cm}^{3}\). Dat komt aardig in de buurt van koper.",
     ),
     dict(
         type="meerkeuze",
@@ -225,7 +225,7 @@ DEEL2 = [
         vraag=r"Een fles bevat \(2\) L olie met een massadichtheid van \(0{,}9\) g/\(\text{cm}^{3}\). Hoeveel weegt die olie?",
         opties=[r"\(1{,}8\) kg", r"\(0{,}45\) kg", r"\(18\) kg"],
         antwoord=0,
-        uitleg=r"\(2\) L = \(2000\,\text{cm}^{3}\). m = \(\rho \cdot V = 0{,}9 \cdot 2000 = 1800\) g, dus \(1{,}8\) kg.",
+        uitleg=r"\(2\) L = \(2000\,\text{cm}^{3}\). \(m = \rho \cdot V = 0{,}9 \cdot 2000 = 1800\) g, dus \(1{,}8\) kg.",
     ),
     dict(
         type="meerkeuze",
@@ -260,7 +260,7 @@ DEEL2 = [
         type="waarofniet",
         vraag="Als je bij dezelfde stof het volume verdubbelt, blijft de massa gelijk.",
         antwoord=False,
-        uitleg=r"Niet juist. De massadichtheid is een stofconstante. Blijft ρ gelijk en wordt V twee keer zo groot, dan wordt \(m = \rho \times V\) ook twee keer zo groot.",
+        uitleg=r"Niet juist. De massadichtheid is een stofconstante. Blijft \(\rho\) gelijk en wordt V twee keer zo groot, dan wordt \(m = \rho \times V\) ook twee keer zo groot.",
     ),
     dict(
         type="meerkeuze",

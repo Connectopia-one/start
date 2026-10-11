@@ -124,7 +124,11 @@ for pad in paden:
             alles[a] = alles.get(a, 0) + b
         return kop + rest
 
-    if "--strings" in sys.argv:
+    if "--velden" in sys.argv:
+        sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
+        from op_strings import pas_toe, VELDEN
+        nieuw = pas_toe(tekst, doe, VELDEN)
+    elif "--strings" in sys.argv:
         sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
         from op_strings import pas_toe
         nieuw = pas_toe(tekst, doe)

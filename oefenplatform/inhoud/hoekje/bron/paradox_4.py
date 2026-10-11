@@ -101,7 +101,7 @@ VRAGEN = [
         "vraag": "Hoe lang is de kust van Groot-Brittannië?",
         "opties": [
             "Dat hangt af van hoe klein je meetlat is",
-            "Precies 11 073 kilometer, al sinds de eerste meting",
+            r"Precies \(11\,073\) kilometer, al sinds de eerste meting",
             "Dat kan niemand meten, want de kust verandert elke dag",
             "Ongeveer even lang als de kust van Frankrijk",
         ],
@@ -166,7 +166,7 @@ VRAGEN = [
             "De vraag heeft twee juiste antwoorden tegelijk",
         ],
         "antwoord": 0,
-        "uitleg": "Scheert hij zichzelf, dan mag hij het volgens de regel niet doen; doet hij het niet, dan moet hij het juist wel. De beschrijving spreekt zichzelf tegen, dus zo'n dorp bestaat niet. Bertrand Russell gebruikte dit in 1901 om een scheur in de wiskunde zelf te tonen: ook met verzamelingen kan je zo'n onmogelijke regel opschrijven.",
+        "uitleg": r"Scheert hij zichzelf, dan mag hij het volgens de regel niet doen; doet hij het niet, dan moet hij het juist wel. De beschrijving spreekt zichzelf tegen, dus zo'n dorp bestaat niet. Bertrand Russell gebruikte dit in \(1901\) om een scheur in de wiskunde zelf te tonen: ook met verzamelingen kan je zo'n onmogelijke regel opschrijven.",
     },
     {
         "type": "meerkeuze",
@@ -178,7 +178,7 @@ VRAGEN = [
             "De veer dwarrelde weg, net zoals hier op aarde",
         ],
         "antwoord": 0,
-        "uitleg": "David Scott deed het in 1971 live voor de camera tijdens Apollo 15. Zonder lucht is er geen weerstand, en dan valt alles even snel, hoe zwaar het ook is. Galilei beweerde dat al vierhonderd jaar eerder zonder het ooit zuiver te kunnen tonen, want op aarde zit de lucht altijd in de weg.",
+        "uitleg": r"David Scott deed het in \(1971\) live voor de camera tijdens Apollo \(15\). Zonder lucht is er geen weerstand, en dan valt alles even snel, hoe zwaar het ook is. Galilei beweerde dat al vierhonderd jaar eerder zonder het ooit zuiver te kunnen tonen, want op aarde zit de lucht altijd in de weg.",
     },
     {
         "type": "waarofniet",
@@ -206,14 +206,14 @@ VRAGEN = [
     },
     {
         "type": "invultekst",
-        "vraag": "Een blad papier is 0,1 mm dik. Hoe dik is de stapel als je het tien keer dubbelvouwt? Geef het antwoord in millimeter.",
+        "vraag": r"Een blad papier is \(0{,}1\) mm dik. Hoe dik is de stapel als je het tien keer dubbelvouwt? Geef het antwoord in millimeter.",
         "antwoord": "102,4",
-        "uitleg": "Elke vouw verdubbelt: 0,1 maal 2 tot de tiende is 0,1 maal 1024, dus 102,4 mm, ruim tien centimeter. Na 42 vouwen zou je aan de maan komen. In het echt lukt het vouwen maar een keer of zeven, omdat de buitenste laag telkens een bocht moet maken en daar te weinig papier voor is.",
+        "uitleg": r"Elke vouw verdubbelt: \(0{,}1 \cdot 2^{10}\) is \(0{,}1 \cdot 1024\), dus \(102{,}4\) mm, ruim tien centimeter. Na \(42\) vouwen zou je aan de maan komen. In het echt lukt het vouwen maar een keer of zeven, omdat de buitenste laag telkens een bocht moet maken en daar te weinig papier voor is.",
     },
     {
         "type": "invultekst",
         "vraag": "Op hoeveel verschillende manieren kan je vijf boeken naast elkaar op een plank zetten?",
         "antwoord": "120",
-        "uitleg": "Voor de eerste plaats heb je vijf boeken, dan nog vier, dan drie, twee en één: 5 maal 4 maal 3 maal 2 maal 1, dus 120. Dat heet vijf faculteit. Bij tien boeken zijn het er al meer dan drie miljoen, en bij een kaartspel van 52 kaarten meer volgordes dan er atomen op aarde zijn.",
+        "uitleg": r"Voor de eerste plaats heb je vijf boeken, dan nog vier, dan drie, twee en één: \(5 \cdot 4 \cdot 3 \cdot 2 \cdot 1\), dus \(120\). Dat heet vijf faculteit. Bij tien boeken zijn het er al meer dan drie miljoen, en bij een kaartspel van \(52\) kaarten meer volgordes dan er atomen op aarde zijn.",
     },
 ]

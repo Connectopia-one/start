@@ -62,7 +62,7 @@
     },
     {
      "soort": "tekst",
-     "html": "<strong>Enkel ρ, g en h staan in de formule.</strong> De <strong>vorm van het vat en de totale hoeveelheid vloeistof tellen niet mee</strong>: op dezelfde diepte is de druk in een <strong>smal buisje even groot als in een breed bad</strong>."
+     "html": "<strong>Enkel \\(\\rho\\), g en h staan in de formule.</strong> De <strong>vorm van het vat en de totale hoeveelheid vloeistof tellen niet mee</strong>: op dezelfde diepte is de druk in een <strong>smal buisje even groot als in een breed bad</strong>."
     },
     {
      "soort": "tekst",
@@ -99,7 +99,7 @@
     },
     {
      "soort": "tekst",
-     "html": "Daar werkt een <strong>hydraulische pers</strong> op, en ook een hydraulische schijfrem. Uit \\(p = F / A\\) volgt <strong>\\(F = p\\) . A</strong>: de <strong>druk is overal gelijk, dus geeft een grotere oppervlakte een grotere kracht</strong>. Bij een tien keer grotere zuiger krijg je tien keer meer kracht."
+     "html": "Daar werkt een <strong>hydraulische pers</strong> op, en ook een hydraulische schijfrem. Uit \\(p = F / A\\) volgt <strong>\\(F = p \\cdot A\\)</strong>: de <strong>druk is overal gelijk, dus geeft een grotere oppervlakte een grotere kracht</strong>. Bij een tien keer grotere zuiger krijg je tien keer meer kracht."
     },
     {
      "soort": "kader",

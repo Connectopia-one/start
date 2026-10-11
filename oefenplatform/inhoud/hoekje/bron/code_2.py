@@ -149,11 +149,11 @@ VRAGEN = [
         "type": "waarofniet",
         "vraag": "De wet van Moore is een natuurwet die zegt hoe snel chips moeten worden.",
         "antwoord": False,
-        "uitleg": "Het is geen natuurwet maar een waarneming: Gordon Moore zag in 1965 dat het aantal transistors op een chip ongeveer elke twee jaar verdubbelde. Dat klopte decennialang, maar het is een trend, geen wet, en hij loopt intussen op zijn einde.",
+        "uitleg": r"Het is geen natuurwet maar een waarneming: Gordon Moore zag in \(1965\) dat het aantal transistors op een chip ongeveer elke twee jaar verdubbelde. Dat klopte decennialang, maar het is een trend, geen wet, en hij loopt intussen op zijn einde.",
     },
     {
         "type": "meerkeuze",
-        "vraag": "Waarom kan een computer 'A' en '65' op dezelfde manier opslaan?",
+        "vraag": r"Waarom kan een computer 'A' en '\(65\)' op dezelfde manier opslaan?",
         "opties": [
             "Alles is bits; wat het betekent hangt af van hoe je het leest",
             "Letters worden altijd eerst in getallen omgerekend en dan bewaard",
@@ -161,7 +161,7 @@ VRAGEN = [
             "Letters en getallen staan in twee gescheiden soorten geheugen",
         ],
         "antwoord": 0,
-        "uitleg": "In het geheugen staat alleen 01000001. Lees je dat als een getal, dan is het 65; lees je het als een teken, dan is het de hoofdletter A. Daarom moet een programma altijd weten wat voor soort gegeven het beetpakt.",
+        "uitleg": r"In het geheugen staat alleen \(01000001\). Lees je dat als een getal, dan is het \(65\); lees je het als een teken, dan is het de hoofdletter A. Daarom moet een programma altijd weten wat voor soort gegeven het beetpakt.",
     },
     {
         "type": "meerkeuze",
@@ -173,7 +173,7 @@ VRAGEN = [
             "Kan een machine zonder fouten een hele dag blijven draaien?",
         ],
         "antwoord": 0,
-        "uitleg": "Turing stelde in 1950 voor om de vraag of een machine kan denken te vervangen door iets meetbaars: typt iemand met een mens of met een machine, en merkt hij het verschil? Of dat echt iets over denken zegt, wordt nog altijd druk besproken.",
+        "uitleg": r"Turing stelde in \(1950\) voor om de vraag of een machine kan denken te vervangen door iets meetbaars: typt iemand met een mens of met een machine, en merkt hij het verschil? Of dat echt iets over denken zegt, wordt nog altijd druk besproken.",
     },
     {
         "type": "waarofniet",
@@ -197,7 +197,7 @@ VRAGEN = [
         "type": "invultekst",
         "vraag": "Hoeveel bits zitten er in één byte?",
         "antwoord": "8",
-        "uitleg": "Acht. Daarmee kun je 256 verschillende waarden voorstellen, precies genoeg voor alle letters, cijfers en leestekens van de oude ASCII-tabel. Een kilobyte is er duizend, een megabyte een miljoen.",
+        "uitleg": r"Acht. Daarmee kun je \(256\) verschillende waarden voorstellen, precies genoeg voor alle letters, cijfers en leestekens van de oude ASCII-tabel. Een kilobyte is er duizend, een megabyte een miljoen.",
     },
     {
         "type": "meerkeuze",

@@ -22,7 +22,7 @@ VRAGEN = [
             "Een tweede functie die haar van buitenaf stopzet",
         ],
         "antwoord": 0,
-        "uitleg": "Dat heet het basisgeval. Bij faculteit is dat: 1 maal 1 is 1, klaar. Elke oproep moet een stapje dichter bij dat basisgeval komen, anders stapelt de computer oproepen op tot zijn geheugen vol zit. Veel problemen worden met recursie opeens kort: zoeken in een map met mappen erin, bijvoorbeeld.",
+        "uitleg": r"Dat heet het basisgeval. Bij faculteit is dat: \(1 \cdot 1\) is \(1\), klaar. Elke oproep moet een stapje dichter bij dat basisgeval komen, anders stapelt de computer oproepen op tot zijn geheugen vol zit. Veel problemen worden met recursie opeens kort: zoeken in een map met mappen erin, bijvoorbeeld.",
     },
     {
         "type": "meerkeuze",
@@ -154,7 +154,7 @@ VRAGEN = [
             "Er is geen verschil, het zijn twee woorden voor hetzelfde",
         ],
         "antwoord": 0,
-        "uitleg": "Een virus nestelt zich in een bestand of programma en reist mee wanneer iemand dat doorgeeft. Een worm heeft niemand nodig: hij zoekt zelf gaten in het netwerk en springt verder. Daarom gaat een worm zo snel. In 2017 legde WannaCry op één dag ziekenhuizen en fabrieken in honderdvijftig landen stil.",
+        "uitleg": r"Een virus nestelt zich in een bestand of programma en reist mee wanneer iemand dat doorgeeft. Een worm heeft niemand nodig: hij zoekt zelf gaten in het netwerk en springt verder. Daarom gaat een worm zo snel. In \(2017\) legde WannaCry op één dag ziekenhuizen en fabrieken in honderdvijftig landen stil.",
     },
     {
         "type": "meerkeuze",
@@ -190,7 +190,7 @@ VRAGEN = [
         "type": "waarofniet",
         "vraag": "In een programma betekent null hetzelfde als het getal nul.",
         "antwoord": False,
-        "uitleg": "Nul is een waarde, null betekent dat er helemaal geen waarde is. Nul euro op je rekening is iets anders dan geen rekening hebben. Tony Hoare, die null in 1965 bedacht, noemde het later zijn vergissing van een miljard dollar, omdat zoveel programma's crashen op iets wat er niet blijkt te zijn.",
+        "uitleg": r"Nul is een waarde, null betekent dat er helemaal geen waarde is. Nul euro op je rekening is iets anders dan geen rekening hebben. Tony Hoare, die null in \(1965\) bedacht, noemde het later zijn vergissing van een miljard dollar, omdat zoveel programma's crashen op iets wat er niet blijkt te zijn.",
     },
     {
         "type": "waarofniet",
@@ -206,14 +206,14 @@ VRAGEN = [
     },
     {
         "type": "invultekst",
-        "vraag": "Binair zoeken vindt een naam in een gesorteerde lijst van 1000 namen in ongeveer 10 stappen. Hoeveel stappen heeft het ongeveer nodig bij 2000 namen?",
+        "vraag": r"Binair zoeken vindt een naam in een gesorteerde lijst van \(1000\) namen in ongeveer \(10\) stappen. Hoeveel stappen heeft het ongeveer nodig bij \(2000\) namen?",
         "antwoord": "11",
         "uitleg": "Elke stap halveert de lijst, dus een lijst twee keer zo lang kost maar één stap extra. Bij een miljoen namen ben je er in twintig stappen, bij een miljard in dertig. Daarom is dit algoritme zo geliefd: het wordt nauwelijks trager als je gegevens exploderen.",
     },
     {
         "type": "invultekst",
-        "vraag": "Hoeveel bits heb je minstens nodig om 1000 verschillende waarden te kunnen voorstellen?",
+        "vraag": r"Hoeveel bits heb je minstens nodig om \(1000\) verschillende waarden te kunnen voorstellen?",
         "antwoord": "10",
-        "uitleg": "Met n bits maak je 2 tot de n verschillende combinaties. Negen bits geven er 512, te weinig, tien bits geven er 1024, net genoeg. Dat is ook waarom een kilobyte eigenlijk 1024 bytes is en niet 1000: de tweemachten liggen nu eenmaal niet op ronde tientallen.",
+        "uitleg": r"Met n bits maak je \(2\) tot de n verschillende combinaties. Negen bits geven er \(512\), te weinig, tien bits geven er \(1024\), net genoeg. Dat is ook waarom een kilobyte eigenlijk \(1024\) bytes is en niet \(1000\): de tweemachten liggen nu eenmaal niet op ronde tientallen.",
     },
 ]

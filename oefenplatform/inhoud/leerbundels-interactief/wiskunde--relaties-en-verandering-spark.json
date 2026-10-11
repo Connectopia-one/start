@@ -34,7 +34,7 @@
     },
     {
      "soort": "tekst",
-     "html": "Haakjes werk je weg met de distributieve eigenschap: \\(3\\)\\((x + 2)\\) = <strong>\\(3x + 6\\)</strong>. En \\(2\\)\\((3x - 5) + 4x\\) wordt \\(6x - 10 + 4x\\) = <strong>\\(10x - 10\\)</strong>."
+     "html": "Haakjes werk je weg met de distributieve eigenschap: \\(3(x + 2)\\) = <strong>\\(3x + 6\\)</strong>. En \\(2(3x - 5) + 4x\\) wordt \\(6x - 10 + 4x\\) = <strong>\\(10x - 10\\)</strong>."
     },
     {
      "soort": "kader",
@@ -55,7 +55,7 @@
     },
     {
      "soort": "tekst",
-     "html": "<strong>\\((a + b)\\)\\((a - b) = a^{2} - b^{2}\\)</strong>. Hier vallen de middelste termen juist weg, want \\(-ab + ab = 0\\). Toets: \\(5\\) en \\(2\\) geeft \\(7 \\cdot 3 = 21\\), en \\(25 - 4 = 21\\)."
+     "html": "<strong>\\((a + b)(a - b) = a^{2} - b^{2}\\)</strong>. Hier vallen de middelste termen juist weg, want \\(-ab + ab = 0\\). Toets: \\(5\\) en \\(2\\) geeft \\(7 \\cdot 3 = 21\\), en \\(25 - 4 = 21\\)."
     },
     {
      "soort": "kader",
@@ -124,7 +124,7 @@
     },
     {
      "soort": "tekst",
-     "html": "Staan er x'en aan beide kanten, breng ze dan eerst samen. \\(5x - 3 = 2x + 9\\) wordt \\(3x = 12\\), dus x = <strong>\\(4\\)</strong>. Staan er haakjes, dan kan je delen of uitwerken: \\(3\\)\\((x - 2) = 15\\) geeft \\(x - 2 = 5\\), dus x = <strong>\\(7\\)</strong>."
+     "html": "Staan er x'en aan beide kanten, breng ze dan eerst samen. \\(5x - 3 = 2x + 9\\) wordt \\(3x = 12\\), dus x = <strong>\\(4\\)</strong>. Staan er haakjes, dan kan je delen of uitwerken: \\(3(x - 2) = 15\\) geeft \\(x - 2 = 5\\), dus x = <strong>\\(7\\)</strong>."
     },
     {
      "soort": "kader",
@@ -149,7 +149,7 @@
     },
     {
      "soort": "tekst",
-     "html": "„De omtrek van een rechthoek is \\(26\\) cm en de lengte is \\(8\\) cm.” De omtrek is \\(2 \\cdot (\\text{lengte} + \\text{breedte})\\), dus \\(2\\)\\((8 + b) = 26\\). Delen door \\(2\\) geeft \\(8 + b = 13\\), dus b = <strong>\\(5\\) cm</strong>."
+     "html": "„De omtrek van een rechthoek is \\(26\\) cm en de lengte is \\(8\\) cm.” De omtrek is \\(2 \\cdot (\\text{lengte} + \\text{breedte})\\), dus \\(2(8 + b) = 26\\). Delen door \\(2\\) geeft \\(8 + b = 13\\), dus b = <strong>\\(5\\) cm</strong>."
     },
     {
      "soort": "kader",
@@ -164,7 +164,7 @@
   "In 5x^{3} is \\(5\\) de coëfficiënt, x^{3} het lettergedeelte en \\(3\\) de graad.",
   "Optellen mag enkel bij gelijksoortige eentermen: \\(3x + 7x = 10x\\), maar \\(3x + 3x^{2}\\) niet.",
   "\\((a + b)^{2} = a^{2} + 2ab + b^{2}\\). Vergeet de middelste term niet.",
-  "\\((a + b)\\)\\((a - b) = a^{2} - b^{2}\\). Daar valt de middelste term juist weg.",
+  "\\((a + b)(a - b) = a^{2} - b^{2}\\). Daar valt de middelste term juist weg.",
   "Recht evenredig: het quotiënt blijft gelijk, grafiek is een rechte door de oorsprong.",
   "Omgekeerd evenredig: het product blijft gelijk. \\(6\\,\\text{werklui} \\cdot 4\\) dagen \\(= 12 \\cdot 2\\).",
   "Patroon: zoek wat er telkens bij komt, en wat er aan het begin staat. Lucifervierkantjes: \\(3n + 1\\).",

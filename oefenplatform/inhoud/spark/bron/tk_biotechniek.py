@@ -328,7 +328,7 @@ DEEL2 = [
     ),
     dict(
         type="meerkeuze",
-        vraag="Wat betekent het pictogram met een cijfer van 1 tot 7 in het midden?",
+        vraag=r"Wat betekent het pictogram met een cijfer van \(1\) tot \(7\) in het midden?",
         opties=[
             "Het zegt om welke soort kunststof het gaat",
             "Het zegt hoeveel het product in totaal weegt",

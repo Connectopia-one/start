@@ -313,14 +313,14 @@ DEEL2 = [
     ),
     dict(
         type="meerkeuze",
-        vraag="Een tandwiel met 10 tanden drijft er een met 30 aan. Hoe vaak draait het grote wiel rond als het kleine drie keer rondgaat?",
+        vraag=r"Een tandwiel met \(10\) tanden drijft er een met \(30\) aan. Hoe vaak draait het grote wiel rond als het kleine drie keer rondgaat?",
         opties=["Eén keer", "Drie keer", "Negen keer", "Dertig keer"],
         antwoord=0,
         uitleg="Het grote wiel heeft drie keer zoveel tanden, dus het draait drie keer trager. Drie toeren van het kleine wiel geven één toer van het grote.",
     ),
     dict(
         type="meerkeuze",
-        vraag="Een tandwiel met 40 tanden drijft er een met 10 aan. Hoe vaak draait het kleine wiel als het grote één keer rondgaat?",
+        vraag=r"Een tandwiel met \(40\) tanden drijft er een met \(10\) aan. Hoe vaak draait het kleine wiel als het grote één keer rondgaat?",
         opties=["Vier keer", "Eén keer", "Tien keer", "Veertig keer"],
         antwoord=0,
         uitleg="Veertig tanden gaan voorbij, en het kleine wiel is na tien tanden al rond. Veertig gedeeld door tien is vier.",

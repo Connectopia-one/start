@@ -255,7 +255,7 @@ VERVANGINGEN.update(
                 r"\(36\,000\) joule",
             ],
             antwoord=0,
-            uitleg=r"Uit P = |ΔE| / Δt volgt \(\Delta E = P \cdot \Delta t\). Een half uur is \(1800\) seconden, en \(10\) watt maal \(1800\) seconden is \(18\,000\) joule.",
+            uitleg=r"Uit \(P = |\Delta E| / \Delta t\) volgt \(\Delta E = P \cdot \Delta t\). Een half uur is \(1800\) seconden, en \(10\) watt maal \(1800\) seconden is \(18\,000\) joule.",
         ),
         "Wie twee keer zo snel rijdt, heeft vier keer zo veel kinetische energie.": dict(
             type="waarofniet",
@@ -273,7 +273,7 @@ VERVANGINGEN.update(
                 "de nuttige energie vermenigvuldigen met de tijdsduur",
             ],
             antwoord=0,
-            uitleg=r"Dat is de formule η = Enuttig / Etotaal. Je krijgt een getal tussen \(0\) en \(1\), dat je met honderd vermenigvuldigt om het als een percentage te schrijven.",
+            uitleg=r"Dat is de formule \(\eta = E_{\text{nuttig}} / E_{\text{totaal}}\). Je krijgt een getal tussen \(0\) en \(1\), dat je met honderd vermenigvuldigt om het als een percentage te schrijven.",
         ),
         r"Een bal van \(1\) kilogram valt van \(5\) meter hoog. Hoeveel kinetische energie heeft hij net voor de bodem, met \(10\) newton per kilogram?": dict(
             type="meerkeuze",

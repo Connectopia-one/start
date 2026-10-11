@@ -24,7 +24,7 @@ VRAGEN = [
         "vraag": "Hoe heette het supercontinent waarin alle huidige continenten ooit aan elkaar vastzaten?",
         "opties": ["Pangea", "Gondwana", "Laurasia", "Atlantis"],
         "antwoord": 0,
-        "uitleg": "Zo'n 335 miljoen jaar geleden lag alles aan elkaar. Pangea brak daarna eerst in twee stukken: Laurasia in het noorden en Gondwana in het zuiden, en die vielen op hun beurt verder uiteen. Dat Zuid-Amerika en Afrika in elkaar passen als twee puzzelstukken, was de eerste aanwijzing.",
+        "uitleg": r"Zo'n \(335\) miljoen jaar geleden lag alles aan elkaar. Pangea brak daarna eerst in twee stukken: Laurasia in het noorden en Gondwana in het zuiden, en die vielen op hun beurt verder uiteen. Dat Zuid-Amerika en Afrika in elkaar passen als twee puzzelstukken, was de eerste aanwijzing.",
     },
     {
         "type": "meerkeuze",
@@ -60,7 +60,7 @@ VRAGEN = [
             "De poolster zelf beweegt snel door de Melkweg heen",
         ],
         "antwoord": 0,
-        "uitleg": "Dat heet precessie en het duurt ongeveer 26 000 jaar per rondje. In de tijd van de Egyptische piramides wees de as naar Thuban, over 12 000 jaar naar Wega. De kompasnaald van de hemel wijst dus niet eeuwig dezelfde kant uit.",
+        "uitleg": r"Dat heet precessie en het duurt ongeveer \(26\,000\) jaar per rondje. In de tijd van de Egyptische piramides wees de as naar Thuban, over \(12\,000\) jaar naar Wega. De kompasnaald van de hemel wijst dus niet eeuwig dezelfde kant uit.",
     },
     {
         "type": "meerkeuze",
@@ -88,7 +88,7 @@ VRAGEN = [
     },
     {
         "type": "meerkeuze",
-        "vraag": "In lange lijsten echte cijfers, van rivierlengtes tot boekhoudingen, begint het eerste cijfer opvallend vaak met een 1. Wat is dat?",
+        "vraag": r"In lange lijsten echte cijfers, van rivierlengtes tot boekhoudingen, begint het eerste cijfer opvallend vaak met een \(1\). Wat is dat?",
         "opties": [
             "De wet van Benford, die de belastingdienst gebruikt om fraude te vinden",
             "Een gewoon toeval dat alleen bij heel grote lijsten lijkt op te vallen",
@@ -96,13 +96,13 @@ VRAGEN = [
             "Een gevolg van het feit dat de meeste getallen klein zijn",
         ],
         "antwoord": 0,
-        "uitleg": "Ongeveer dertig procent van de getallen begint met een 1, en maar vijf procent met een 9. Het geldt voor getallen die over vele groottes lopen. Verzin je zelf cijfers, dan spreid je ze te gelijkmatig, en precies daaraan zijn vervalste boekhoudingen te herkennen.",
+        "uitleg": r"Ongeveer dertig procent van de getallen begint met een \(1\), en maar vijf procent met een \(9\). Het geldt voor getallen die over vele groottes lopen. Verzin je zelf cijfers, dan spreid je ze te gelijkmatig, en precies daaraan zijn vervalste boekhoudingen te herkennen.",
     },
     {
         "type": "waarofniet",
-        "vraag": "Het jaar 1900 was geen schrikkeljaar, maar het jaar 2000 wel.",
+        "vraag": r"Het jaar \(1900\) was geen schrikkeljaar, maar het jaar \(2000\) wel.",
         "antwoord": True,
-        "uitleg": "De regel is: elke vier jaar wel, elke honderd jaar niet, maar elke vierhonderd jaar toch weer wel. Zonder dat laatste vinkje zou de kalender langzaam wegschuiven van de seizoenen. Wie in het jaar 2000 dacht dat het een uitzondering was, had het net verkeerd om.",
+        "uitleg": r"De regel is: elke vier jaar wel, elke honderd jaar niet, maar elke vierhonderd jaar toch weer wel. Zonder dat laatste vinkje zou de kalender langzaam wegschuiven van de seizoenen. Wie in het jaar \(2000\) dacht dat het een uitzondering was, had het net verkeerd om.",
     },
     {
         "type": "meerkeuze",
@@ -114,19 +114,19 @@ VRAGEN = [
             "Het verschilt van cirkel tot cirkel, afhankelijk van de grootte",
         ],
         "antwoord": 0,
-        "uitleg": "Je kunt het dus niet schrijven als een breuk van twee gehele getallen. 22/7 komt in de buurt, maar klopt niet. Intussen zijn er meer dan honderd biljoen cijfers van berekend, en nog altijd is er geen patroon te zien. Voor bijna alles volstaan er trouwens vijftien.",
+        "uitleg": r"Je kunt het dus niet schrijven als een breuk van twee gehele getallen. \(\tfrac{22}{7}\) komt in de buurt, maar klopt niet. Intussen zijn er meer dan honderd biljoen cijfers van berekend, en nog altijd is er geen patroon te zien. Voor bijna alles volstaan er trouwens vijftien.",
     },
     {
         "type": "meerkeuze",
         "vraag": "De pitten in een zonnebloem liggen in spiralen. Hoeveel zijn dat er meestal?",
         "opties": [
-            "Een getal uit de rij van Fibonacci, zoals 34 of 55",
+            r"Een getal uit de rij van Fibonacci, zoals \(34\) of \(55\)",
             "Altijd precies twaalf, net als de uren op een klok",
             "Een willekeurig aantal, dat per bloem verschilt",
             "Evenveel als het aantal blaadjes rond de bloem",
         ],
         "antwoord": 0,
-        "uitleg": "In die rij is elk getal de som van de twee ervoor: 1, 1, 2, 3, 5, 8, 13, 21, 34, 55. Door elk nieuw zaadje net iets meer dan een derde slag verder te zetten, passen er het meest in dezelfde ruimte. De plant rekent niet; wie het anders deed, verloor gewoon van wie het zo deed.",
+        "uitleg": r"In die rij is elk getal de som van de twee ervoor: \(1\), \(1\), \(2\), \(3\), \(5\), \(8\), \(13\), \(21\), \(34\), \(55\). Door elk nieuw zaadje net iets meer dan een derde slag verder te zetten, passen er het meest in dezelfde ruimte. De plant rekent niet; wie het anders deed, verloor gewoon van wie het zo deed.",
     },
     {
         "type": "waarofniet",
@@ -174,7 +174,7 @@ VRAGEN = [
         "type": "waarofniet",
         "vraag": "Er staan bomen op aarde die ouder zijn dan de piramides van Egypte.",
         "antwoord": True,
-        "uitleg": "Een borstelden in Californië, Methusalem genoemd, is ruim 4800 jaar oud. Hij stond er al voor de eerste piramide gebouwd werd. Zulke bomen groeien tergend traag op karige hoogvlakten, en net dat maakt hun hout zo hard dat het nauwelijks rot.",
+        "uitleg": r"Een borstelden in Californië, Methusalem genoemd, is ruim \(4800\) jaar oud. Hij stond er al voor de eerste piramide gebouwd werd. Zulke bomen groeien tergend traag op karige hoogvlakten, en net dat maakt hun hout zo hard dat het nauwelijks rot.",
     },
     {
         "type": "meerkeuze",

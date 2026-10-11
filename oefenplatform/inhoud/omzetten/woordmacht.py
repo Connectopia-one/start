@@ -4,7 +4,7 @@ notatie. Werkt op tekst waar de getallen al in \\( \\) staan.
 
     python3 -I woordmacht.py [--strings] <bestand.py> …
 """
-import re, sys
+import re, sys, os
 
 F = r"\\\((?P<%s>[^()]*?)\\\)"     # een stukje notatie, zonder haakjes erin
 # een stukje notatie dat wél haakjes mag bevatten: alleen \( en \) sluiten af
@@ -69,7 +69,11 @@ for pad in [a for a in sys.argv[1:] if not a.startswith("--")]:
             alles[k] = alles.get(k, 0) + v
         return s
 
-    if "--strings" in sys.argv:          # bundelbestand: enkel de tekst
+    if "--velden" in sys.argv:
+        sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
+        from op_strings import pas_toe, VELDEN
+        nieuw = pas_toe(tekst, doe, VELDEN)
+    elif "--strings" in sys.argv:          # bundelbestand: enkel de tekst
         import os
         sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
         from op_strings import pas_toe

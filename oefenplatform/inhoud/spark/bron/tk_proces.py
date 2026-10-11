@@ -81,13 +81,13 @@ DEEL1 = [
             "Je tekent de allereerste conceptschets",
         ],
         antwoord=0,
-        uitleg="Je legt het resultaat naast de criteria van fase 1. Klopt er iets niet, dan pas je aan.",
+        uitleg=r"Je legt het resultaat naast de criteria van fase \(1\). Klopt er iets niet, dan pas je aan.",
     ),
     dict(
         type="invultekst",
         vraag="In de laatste fase ga je na of het systeem voldoet aan de opgestelde ___.",
         antwoord="criteria",
-        uitleg="Criteria zijn de eisen die je in fase 1 hebt vastgelegd. Zonder criteria kan je achteraf niet beoordelen of het gelukt is.",
+        uitleg=r"Criteria zijn de eisen die je in fase \(1\) hebt vastgelegd. Zonder criteria kan je achteraf niet beoordelen of het gelukt is.",
     ),
     dict(
         type="waarofniet",
@@ -97,9 +97,9 @@ DEEL1 = [
     ),
     dict(
         type="waarofniet",
-        vraag="Voldoet je systeem in fase 5 niet, dan begin je altijd helemaal opnieuw bij fase 1.",
+        vraag=r"Voldoet je systeem in fase \(5\) niet, dan begin je altijd helemaal opnieuw bij fase \(1\).",
         antwoord=False,
-        uitleg="De fiche zegt dat je teruggaat naar fase 2 of 3: je past het ontwerp aan of je maakt iets anders. De behoefte is intussen niet veranderd.",
+        uitleg=r"De fiche zegt dat je teruggaat naar fase \(2\) of \(3\): je past het ontwerp aan of je maakt iets anders. De behoefte is intussen niet veranderd.",
     ),
     dict(
         type="meerkeuze",
@@ -165,7 +165,7 @@ DEEL1 = [
         type="meerkeuze",
         vraag="Een technisch systeem voldoet niet aan de criteria. Wat doe je volgens de fiche?",
         opties=[
-            "Je keert terug naar fase 2 of fase 3",
+            r"Je keert terug naar fase \(2\) of fase \(3\)",
             "Je gooit het systeem helemaal weg",
             "Je past de criteria aan het resultaat aan",
             "Je slaat de laatste fase gewoon over",
@@ -189,7 +189,7 @@ DEEL1 = [
             "In de evaluatiefase",
         ],
         antwoord=0,
-        uitleg="Bij fase 3 staat in de fiche dat je toelicht hoe je op een veilige en duurzame manier met gereedschap, machines en hulpmiddelen werkt.",
+        uitleg=r"Bij fase \(3\) staat in de fiche dat je toelicht hoe je op een veilige en duurzame manier met gereedschap, machines en hulpmiddelen werkt.",
     ),
     dict(
         type="meerkeuze",
@@ -201,7 +201,7 @@ DEEL1 = [
             "Het werkstuk netjes afwerken",
         ],
         antwoord=[0, 1, 2],
-        uitleg="Fase 1 heet in de fiche letterlijk probleemstelling of behoefte onderzoeken. Afwerken hoort bij het maken.",
+        uitleg=r"Fase \(1\) heet in de fiche letterlijk probleemstelling of behoefte onderzoeken. Afwerken hoort bij het maken.",
     ),
     dict(
         type="waarofniet",

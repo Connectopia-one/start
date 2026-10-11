@@ -33,6 +33,9 @@ import sys
 
 HIER = pathlib.Path(__file__).parent
 UIT = HIER.parent
+sys.path.insert(0, str(UIT.parent))
+
+from notatie import zonder_notatie  # noqa: E402  (pad moet eerst klaarstaan)
 INHOUD = UIT.parent
 ACHTERVOEGSEL = " — pittig"
 
@@ -52,7 +55,9 @@ def getal(waarde):
 
 
 def kaal(tekst):
-    return str(tekst).replace(" ", "").replace(" ", "").replace(".", ",").strip()
+    # de notatie eraf, anders is \(60\,000\) niet hetzelfde getal als 60000
+    tekst = zonder_notatie(str(tekst)).replace("\\,", "").replace("\\%", "%")
+    return tekst.replace(" ", "").replace("\u00a0", "").replace(".", ",").strip()
 
 
 def vergelijkbaar(vraag):
@@ -97,7 +102,8 @@ def narekenen(vraag):
     delen += [d.split(None, 1)[0] for d in str(verwacht).split(" of ") if " " in d.strip()]
     # Een teken dat aan het getal vastgeschreven staat (55°, 87,5%) hoort niet
     # bij de berekening; hetzelfde onderscheid maakt components/Quiz.tsx.
-    delen += [d.rstrip("°%€ ") for d in list(delen)]
+    # 55° wordt \(55^{\circ}\): na het weglaten van de notatie blijft er een ^ over
+    delen += [d.rstrip("°%€^ ") for d in list(delen)]
     if kaal(uitkomst) not in [kaal(d) for d in delen]:
         return [f"{vraag['vraag'][:60]}: reken geeft {uitkomst}, er staat {verwacht}"]
     return []
