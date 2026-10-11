@@ -16,7 +16,7 @@
     },
     {
      "soort": "tekst",
-     "html": "De <strong>inwendige energie</strong> van een voorwerp bestaat uit <strong>twee delen</strong>: de <strong>inwendige kinetische energie</strong> van de bewegende deeltjes en de <strong>inwendige potentiële energie</strong> van hun onderlinge aantrekking. Ze <strong>stijgt als de absolute temperatuur stijgt</strong>. Bij <strong>0 °C is ze niet nul</strong>: er is daar nog beweging, pas bij 0 K zou die stoppen."
+     "html": "De <strong>inwendige energie</strong> van een voorwerp bestaat uit <strong>twee delen</strong>: de <strong>inwendige kinetische energie</strong> van de bewegende deeltjes en de <strong>inwendige potentiële energie</strong> van hun onderlinge aantrekking. Ze <strong>stijgt als de absolute temperatuur stijgt</strong>. Bij <strong>\\(0^{\\circ}\\text{C}\\) is ze niet nul</strong>: er is daar nog beweging, pas bij \\(0\\) K zou die stoppen."
     },
     {
      "soort": "tekst",
@@ -50,7 +50,7 @@
    "blokken": [
     {
      "soort": "tekst",
-     "html": "<strong>Merkbare warmte</strong> is de warmte die de <strong>temperatuur van een stof doet veranderen</strong>: <strong>Q = c . m . ΔT</strong> voor een stof, of <strong>Q = C . ΔT</strong> voor een voorwerp."
+     "html": "<strong>Merkbare warmte</strong> is de warmte die de <strong>temperatuur van een stof doet veranderen</strong>: <strong>\\(Q = c \\cdot m \\cdot \\Delta T\\)</strong> voor een stof, of <strong>\\(Q = C \\cdot \\Delta T\\)</strong> voor een voorwerp."
     },
     {
      "soort": "tekst",
@@ -58,11 +58,11 @@
     },
     {
      "soort": "tekst",
-     "html": "<strong>C hoort dus bij een voorwerp en c bij één kilogram van een stof.</strong> De specifieke warmtecapaciteit van <strong>water is 4186 J/(kg.K)</strong>: dat is net de warmte die je nodig hebt om <strong>1,0 kg water 1,0 K op te warmen</strong>."
+     "html": "<strong>C hoort dus bij een voorwerp en c bij één kilogram van een stof.</strong> De specifieke warmtecapaciteit van <strong>water is \\(4186\\) J/(kg.K)</strong>: dat is net de warmte die je nodig hebt om <strong>\\(1{,}0\\) kg water \\(1{,}0\\) K op te warmen</strong>."
     },
     {
      "soort": "tekst",
-     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Opgave</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Rekenwerk</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Antwoord</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">2,0 kg water 10 K opwarmen</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">4186 . 2,0 . 10</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">ongeveer 84 kJ</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">0,50 kg met c = 900, Q = 9,0 kJ</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">9000 / (900 . 0,50)</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">ΔT = 20 K</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">0,10 kg van 80 °C bij 0,10 kg van 20 °C</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">(80 + 20) / 2</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">50 °C</td></tr></table>"
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Opgave</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Rekenwerk</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Antwoord</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">\\(2{,}0\\) kg water \\(10\\) K opwarmen</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">\\(4186 \\times 2{,}0 \\times 10\\)</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">ongeveer \\(84\\) kJ</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">\\(0{,}50\\) kg met \\(c = 900\\), \\(Q = 9{,}0\\) kJ</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">\\(9000 / \\left(900 \\times 0{,}50\\right)\\)</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">\\(\\Delta T = 20\\) K</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">\\(0{,}10\\) kg van \\(80^{\\circ}\\text{C}\\) bij \\(0{,}10\\) kg van \\(20^{\\circ}\\text{C}\\)</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">\\((80 + 20) / 2\\)</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">\\(50^{\\circ}\\text{C}\\)</td></tr></table>"
     },
     {
      "soort": "tekst",
@@ -83,7 +83,7 @@
     },
     {
      "soort": "tekst",
-     "html": "De <strong>latente warmte</strong> is <strong>Q = l . m</strong>. Er staat <strong>geen ΔT in</strong>, want <strong>tijdens een faseovergang blijft de temperatuur gelijk</strong>: alle warmte gaat naar het veranderen van de fase, niet naar de beweging van de deeltjes. In een opwarmingscurve zie je daarom een <strong>horizontaal stuk, een plateau</strong>."
+     "html": "De <strong>latente warmte</strong> is <strong>\\(Q = l \\cdot m\\)</strong>. Er staat <strong>geen ΔT in</strong>, want <strong>tijdens een faseovergang blijft de temperatuur gelijk</strong>: alle warmte gaat naar het veranderen van de fase, niet naar de beweging van de deeltjes. In een opwarmingscurve zie je daarom een <strong>horizontaal stuk, een plateau</strong>."
     },
     {
      "soort": "tekst",
@@ -99,11 +99,11 @@
     },
     {
      "soort": "tekst",
-     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Opgave</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Rekenwerk</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Antwoord</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">0,20 kg ijs smelten, ls = 334 kJ/kg</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">334 000 . 0,20</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">ongeveer 67 kJ</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">0,50 kg smelten, ls = 200 kJ/kg</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">200 000 . 0,50</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">100 kJ</td></tr></table>"
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Opgave</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Rekenwerk</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Antwoord</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">\\(0{,}20\\) kg ijs smelten, \\(l_{s} = 334\\) kJ/kg</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">\\(334\\,000 \\times 0{,}20\\)</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">ongeveer \\(67\\) kJ</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">\\(0{,}50\\) kg smelten, \\(l_{s} = 200\\) kJ/kg</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">\\(200\\,000 \\times 0{,}50\\)</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">\\(100\\) kJ</td></tr></table>"
     },
     {
      "soort": "tekst",
-     "html": "Tijdens het <strong>smelten worden de cohesiekrachten tussen de deeltjes losser</strong> en <strong>stijgt de inwendige potentiële energie</strong>. Hun gemiddelde snelheid, en dus de temperatuur, blijft gelijk: <strong>ijs van 0 °C blijft 0 °C terwijl het smelt</strong>."
+     "html": "Tijdens het <strong>smelten worden de cohesiekrachten tussen de deeltjes losser</strong> en <strong>stijgt de inwendige potentiële energie</strong>. Hun gemiddelde snelheid, en dus de temperatuur, blijft gelijk: <strong>ijs van \\(0^{\\circ}\\text{C}\\) blijft \\(0^{\\circ}\\text{C}\\) terwijl het smelt</strong>."
     },
     {
      "soort": "tekst",
@@ -111,11 +111,11 @@
     },
     {
      "soort": "kader",
-     "html": "<strong>Verdampen kost veel méér dan opwarmen.</strong> 1 kg water van 0 naar 100 °C brengen kost ongeveer 419 kJ; datzelfde water laten verdampen ongeveer 2260 kJ. En <strong>water verdampt niet enkel bij 100 °C</strong>: aan het oppervlak gebeurt dat bij elke temperatuur, zoals natte was die droogt. Bij 100 °C, het <strong>kookpunt</strong>, begint het ook van binnenuit te verdampen."
+     "html": "<strong>Verdampen kost veel méér dan opwarmen.</strong> \\(1\\) kg water van \\(0\\) naar \\(100^{\\circ}\\text{C}\\) brengen kost ongeveer \\(419\\) kJ; datzelfde water laten verdampen ongeveer \\(2260\\) kJ. En <strong>water verdampt niet enkel bij \\(100^{\\circ}\\text{C}\\)</strong>: aan het oppervlak gebeurt dat bij elke temperatuur, zoals natte was die droogt. Bij \\(100^{\\circ}\\text{C}\\), het <strong>kookpunt</strong>, begint het ook van binnenuit te verdampen."
     },
     {
      "soort": "tekst",
-     "html": "Naast het kookpunt zijn er het <strong>smeltpunt</strong> en het <strong>sublimatiepunt</strong>. Bij <strong>normale luchtdruk ligt het kookpunt van water op 100 °C</strong> en zijn smeltpunt op 0 °C."
+     "html": "Naast het kookpunt zijn er het <strong>smeltpunt</strong> en het <strong>sublimatiepunt</strong>. Bij <strong>normale luchtdruk ligt het kookpunt van water op \\(100^{\\circ}\\text{C}\\)</strong> en zijn smeltpunt op \\(0^{\\circ}\\text{C}\\)."
     },
     {
      "soort": "weetje",
@@ -128,11 +128,11 @@
   "Temperatuur hoort bij de gemiddelde kinetische energie van de deeltjes; warmte is overgedragen energie.",
   "Warmte stroomt van warm naar koud en stopt bij het thermisch evenwicht.",
   "Geleiding in vaste stoffen, convectie in vloeistoffen en gassen, straling ook zonder stof.",
-  "Q = c . m . ΔT voor een stof, Q = C . ΔT voor een voorwerp; c van water is 4186 J/(kg.K).",
+  "\\(Q = c \\cdot m \\cdot \\Delta T\\) voor een stof, \\(Q = C \\cdot \\Delta T\\) voor een voorwerp; c van water is \\(4186\\) J/(kg.K).",
   "Een grote c betekent traag opwarmen, een kleine c snel.",
-  "Q = l . m voor een faseovergang; tijdens die overgang blijft de temperatuur gelijk.",
+  "\\(Q = l \\cdot m\\) voor een faseovergang; tijdens die overgang blijft de temperatuur gelijk.",
   "Smelten, verdampen en sublimeren vragen warmte; stollen, condenseren en desublimeren geven ze af.",
   "De specifieke smeltwarmte en stolwarmte van een stof zijn dezelfde waarde.",
-  "Water verdampt bij elke temperatuur aan het oppervlak; bij 100 °C begint het te koken."
+  "Water verdampt bij elke temperatuur aan het oppervlak; bij \\(100^{\\circ}\\text{C}\\) begint het te koken."
  ]
 }

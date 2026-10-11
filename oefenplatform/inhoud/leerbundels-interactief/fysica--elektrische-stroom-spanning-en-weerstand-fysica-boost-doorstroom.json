@@ -12,11 +12,11 @@
     },
     {
      "soort": "tekst",
-     "html": "De <strong>wet van Ohm</strong> is <strong>R = U / I</strong>, of in de andere vormen <strong>U = R . I</strong> en <strong>I = U / R</strong>."
+     "html": "De <strong>wet van Ohm</strong> is <strong>\\(R = U / I\\)</strong>, of in de andere vormen <strong>\\(U = R\\) . I</strong> en <strong>\\(I = U / R\\)</strong>."
     },
     {
      "soort": "tekst",
-     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Opgave</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Rekenwerk</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Antwoord</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">230 V en 0,50 A</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">230 / 0,50</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">R = 460 Ω</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">5,0 V over 25 Ω</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">5,0 / 25</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">I = 0,20 A</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">40 Ω met 0,20 A</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">40 . 0,20</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">U = 8,0 V</td></tr></table>"
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Opgave</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Rekenwerk</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Antwoord</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">\\(230\\) V en \\(0{,}50\\) A</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">\\(230 / 0{,}50\\)</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">\\(R = 460\\) Ω</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">\\(5{,}0\\) V over \\(25\\) Ω</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">\\(5{,}0 / 25\\)</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">\\(I = 0{,}20\\) A</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">\\(40\\) Ω met \\(0{,}20\\) A</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">\\(40 \\times 0{,}20\\)</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">\\(U = 8{,}0\\) V</td></tr></table>"
     },
     {
      "soort": "tekst",
@@ -53,7 +53,7 @@
     },
     {
      "soort": "tekst",
-     "html": "Het <strong>elektrisch vermogen</strong> is <strong>P = U . I</strong>, en net als elk vermogen ook <strong>P = |ΔE| / Δt</strong>. Een toestel op 230 V dat 2,0 A trekt, heeft een vermogen van <strong>460 W</strong>. Doen twee toestellen hetzelfde werk, dan is <strong>het zuinigste dat met het kleinste vermogen</strong>."
+     "html": "Het <strong>elektrisch vermogen</strong> is <strong>\\(P = U\\) . I</strong>, en net als elk vermogen ook <strong>P = |ΔE| / Δt</strong>. Een toestel op \\(230\\) V dat \\(2{,}0\\) A trekt, heeft een vermogen van <strong>\\(460\\) W</strong>. Doen twee toestellen hetzelfde werk, dan is <strong>het zuinigste dat met het kleinste vermogen</strong>."
     },
     {
      "soort": "tekst",
@@ -66,7 +66,7 @@
    "blokken": [
     {
      "soort": "tekst",
-     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\"></th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Serieschakeling</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Parallelschakeling</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">stroomsterkte</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">I = I₁ = I₂ = …</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">I = I₁ + I₂ + …</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">spanning</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">U = U₁ + U₂ + …</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">U = U₁ = U₂ = …</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">substitutieweerstand</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Rs = R₁ + R₂ + …</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Rs = (1/R₁ + 1/R₂ + …)⁻¹</td></tr></table>"
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\"></th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Serieschakeling</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Parallelschakeling</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">stroomsterkte</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">\\(I = I_{1} = I_{2}\\) = …</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">\\(I = I_{1} + I_{2}\\) + …</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">spanning</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">\\(U = U_{1} + U_{2}\\) + …</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">\\(U = U_{1} = U_{2}\\) = …</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">substitutieweerstand</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">\\(R_{s} = R_{1} + R_{2}\\) + …</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Rs = (\\(1\\)/R₁ + \\(1\\)/R₂ + …)^{-1}</td></tr></table>"
     },
     {
      "soort": "tekst",
@@ -78,7 +78,7 @@
     },
     {
      "soort": "tekst",
-     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Opgave</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Rekenwerk</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Rs</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">30 Ω en 60 Ω in serie</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">30 + 60</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">90 Ω</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">50 Ω en 50 Ω in serie</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">50 + 50</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">100 Ω</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">30 Ω en 60 Ω parallel</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">(1/30 + 1/60)⁻¹</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">20 Ω</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">50 Ω en 50 Ω parallel</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">50 / 2</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">25 Ω</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">drie keer 60 Ω parallel</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">60 / 3</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">20 Ω</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">10 Ω in serie met twee keer 20 Ω parallel</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">10 + 10</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">20 Ω</td></tr></table>"
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Opgave</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Rekenwerk</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Rs</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">\\(30\\) Ω en \\(60\\) Ω in serie</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">\\(30 + 60\\)</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">\\(90\\) Ω</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">\\(50\\) Ω en \\(50\\) Ω in serie</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">\\(50 + 50\\)</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">\\(100\\) Ω</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">\\(30\\) Ω en \\(60\\) Ω parallel</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">\\((\\tfrac{1}{30} + \\tfrac{1}{60})^{-1}\\)</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">\\(20\\) Ω</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">\\(50\\) Ω en \\(50\\) Ω parallel</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">\\(50 / 2\\)</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">\\(25\\) Ω</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">drie keer \\(60\\) Ω parallel</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">\\(60 / 3\\)</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">\\(20\\) Ω</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">\\(10\\) Ω in serie met twee keer \\(20\\) Ω parallel</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">\\(10 + 10\\)</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">\\(20\\) Ω</td></tr></table>"
     },
     {
      "soort": "tekst",
@@ -86,11 +86,11 @@
     },
     {
      "soort": "tekst",
-     "html": "Een <strong>gemengde schakeling</strong> werk je <strong>van binnen naar buiten uit</strong>: eerst de parallelle groep tot één weerstand, dan die in serie met de rest. Over een serieschakeling van 20 Ω en 40 Ω met 12 V loopt I = 12 / 60 = <strong>0,20 A</strong>, en over de 40 Ω staat dan U = 40 . 0,20 = <strong>8,0 V</strong>; over de 20 Ω staat 4,0 V, samen weer 12 V."
+     "html": "Een <strong>gemengde schakeling</strong> werk je <strong>van binnen naar buiten uit</strong>: eerst de parallelle groep tot één weerstand, dan die in serie met de rest. Over een serieschakeling van \\(20\\) Ω en \\(40\\) Ω met \\(12\\) V loopt \\(I = 12 / 60\\) = <strong>\\(0{,}20\\) A</strong>, en over de \\(40\\) Ω staat dan \\(U = 40 \\times 0{,}20\\) = <strong>\\(8{,}0\\) V</strong>; over de \\(20\\) Ω staat \\(4{,}0\\) V, samen weer \\(12\\) V."
     },
     {
      "soort": "tekst",
-     "html": "Een <strong>kerstboomsnoer in serie gaat helemaal uit als één lampje stuk is</strong>: de <strong>kring is onderbroken, dus loopt er nergens stroom</strong>. <strong>Parallel geschakelde lampjes blijven wel branden</strong>: elke lamp krijgt de volle spanning van de bron en trekt even veel stroom als alleen. Daarom staan de <strong>stopcontacten in een huis parallel</strong>, zodat op elk ervan 230 V staat."
+     "html": "Een <strong>kerstboomsnoer in serie gaat helemaal uit als één lampje stuk is</strong>: de <strong>kring is onderbroken, dus loopt er nergens stroom</strong>. <strong>Parallel geschakelde lampjes blijven wel branden</strong>: elke lamp krijgt de volle spanning van de bron en trekt even veel stroom als alleen. Daarom staan de <strong>stopcontacten in een huis parallel</strong>, zodat op elk ervan \\(230\\) V staat."
     }
    ]
   },
@@ -103,7 +103,7 @@
     },
     {
      "soort": "tekst",
-     "html": "Bij een <strong>kortsluiting is de weerstand in de kring heel klein geworden</strong>, dus <strong>wordt de stroomsterkte heel groot</strong> volgens I = U / R. De spanning van de bron verandert daar niet door. Door het joule-effect worden de draden dan snel heet, met <strong>brandgevaar</strong>."
+     "html": "Bij een <strong>kortsluiting is de weerstand in de kring heel klein geworden</strong>, dus <strong>wordt de stroomsterkte heel groot</strong> volgens \\(I = U / R\\). De spanning van de bron verandert daar niet door. Door het joule-effect worden de draden dan snel heet, met <strong>brandgevaar</strong>."
     },
     {
      "soort": "tekst",
@@ -115,22 +115,22 @@
     },
     {
      "soort": "kader",
-     "html": "<strong>Nooit een elektrisch toestel met natte handen bedienen.</strong> Water verlaagt de weerstand van je huid sterk, dus loopt er bij dezelfde spanning veel meer stroom door je lichaam. Ook onder 230 V blijft dat gevaarlijk."
+     "html": "<strong>Nooit een elektrisch toestel met natte handen bedienen.</strong> Water verlaagt de weerstand van je huid sterk, dus loopt er bij dezelfde spanning veel meer stroom door je lichaam. Ook onder \\(230\\) V blijft dat gevaarlijk."
     },
     {
      "soort": "weetje",
-     "html": "Een verliesstroomschakelaar in een woning slaat af bij een verschil van ongeveer 30 milliampère tussen de stroom die gaat en de stroom die terugkomt. Dat is minder dan wat een spaarlamp trekt."
+     "html": "Een verliesstroomschakelaar in een woning slaat af bij een verschil van ongeveer \\(30\\) milliampère tussen de stroom die gaat en de stroom die terugkomt. Dat is minder dan wat een spaarlamp trekt."
     }
    ]
   }
  ],
  "onthoud": [
-  "R = U / I; bij vaste R zijn U en I recht evenredig, bij vaste U zijn I en R omgekeerd evenredig.",
+  "\\(R = U / I\\); bij vaste R zijn U en I recht evenredig, bij vaste U zijn I en R omgekeerd evenredig.",
   "Een geleider heeft een kleine weerstand, een isolator een grote; geleidbaarheid is omgekeerd aan weerstand.",
   "De conventionele stroomzin gaat van plus naar min; de elektronen bewegen de andere kant op.",
   "Ampèremeter in serie, voltmeter parallel; DCV voor gelijkspanning, DCA voor gelijkstroom.",
-  "P = U . I, en het joule-effect warmt een weerstand op: gewenst in een waterkoker, niet in een kabel.",
-  "Serie: dezelfde I, de spanningen tellen op, Rs = R₁ + R₂.",
+  "\\(P = U\\) . I, en het joule-effect warmt een weerstand op: gewenst in een waterkoker, niet in een kabel.",
+  "Serie: dezelfde I, de spanningen tellen op, \\(R_{s} = R_{1} + R_{2}\\).",
   "Parallel: dezelfde U, de stromen tellen op, Rs kleiner dan de kleinste weerstand.",
   "Een gemengde schakeling werk je van binnen naar buiten uit.",
   "Zekering tegen te veel stroom, verliesstroomschakelaar tegen stroom die wegloopt, aarddraad naar de aarde."

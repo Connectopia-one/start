@@ -95,7 +95,7 @@ DEEL1 = [
             "dat hangt van de grootte van de spiegel af",
         ],
         antwoord=0,
-        uitleg="De beeldafstand is gelijk aan de voorwerpsafstand. Sta je 1 m voor de spiegel, dan lijkt je beeld 1 m erachter, dus 2 m van jou.",
+        uitleg=r"De beeldafstand is gelijk aan de voorwerpsafstand. Sta je \(1\) m voor de spiegel, dan lijkt je beeld \(1\) m erachter, dus \(2\) m van jou.",
     ),
     dict(
         type="meerkeuze",
@@ -161,7 +161,7 @@ DEEL1 = [
         type="waarofniet",
         vraag="De invalshoek meet je tussen de invallende straal en het spiegeloppervlak.",
         antwoord=False,
-        uitleg="Je meet die hoek tussen de invallende straal en de normaal, dus de loodlijn. Een straal die er schuin op valt onder 20° met de spiegel, heeft dus een invalshoek van 70°.",
+        uitleg=r"Je meet die hoek tussen de invallende straal en de normaal, dus de loodlijn. Een straal die er schuin op valt onder \(20^{\circ}\) met de spiegel, heeft dus een invalshoek van \(70^{\circ}\).",
     ),
     dict(
         type="waarofniet",
@@ -183,9 +183,9 @@ DEEL1 = [
     ),
     dict(
         type="invultekst",
-        vraag="Een lichtstraal valt onder een invalshoek van 35° op een spiegel. Hoe groot is de weerkaatsingshoek? Schrijf het getal in graden.",
+        vraag=r"Een lichtstraal valt onder een invalshoek van \(35^{\circ}\) op een spiegel. Hoe groot is de weerkaatsingshoek? Schrijf het getal in graden.",
         antwoord=["35", "35°", "35 graden"],
-        uitleg="De twee hoeken zijn altijd gelijk, dus 35°.",
+        uitleg=r"De twee hoeken zijn altijd gelijk, dus \(35^{\circ}\).",
     ),
     dict(
         type="invultekst",
@@ -236,7 +236,7 @@ DEEL2 = [
             "hij kaatst helemaal terug",
         ],
         antwoord=0,
-        uitleg="Bij een invalshoek van 0° valt de straal al langs de normaal, dus is er niets om naartoe of weg te buigen.",
+        uitleg=r"Bij een invalshoek van \(0^{\circ}\) valt de straal al langs de normaal, dus is er niets om naartoe of weg te buigen.",
     ),
     dict(
         type="meerkeuze",
@@ -386,6 +386,6 @@ DEEL2 = [
         type="invultekst",
         vraag="Een beeld is drie keer zo groot als het voorwerp. Hoe groot is de vergrotingsfactor? Schrijf het getal.",
         antwoord=["3", "3x", "drie"],
-        uitleg="De vergrotingsfactor is de verhouding van de beeldgrootte tot de voorwerpsgrootte, dus 3.",
+        uitleg=r"De vergrotingsfactor is de verhouding van de beeldgrootte tot de voorwerpsgrootte, dus \(3\).",
     ),
 ]

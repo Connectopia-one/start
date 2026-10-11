@@ -44,22 +44,22 @@ DEEL1 = [
     ),
     dict(
         type="meerkeuze",
-        vraag="Twee mensen duwen een kast in dezelfde zin, met 120 N en 80 N. Hoe groot is de resulterende kracht?",
-        opties=["200 N", "40 N", "100 N", "9600 N"],
+        vraag=r"Twee mensen duwen een kast in dezelfde zin, met \(120\) N en \(80\) N. Hoe groot is de resulterende kracht?",
+        opties=[r"\(200\) N", r"\(40\) N", r"\(100\) N", r"\(9600\) N"],
         antwoord=0,
-        uitleg="Krachten met dezelfde richting en dezelfde zin tel je op: 120 + 80 = 200 N.",
+        uitleg=r"Krachten met dezelfde richting en dezelfde zin tel je op: \(120 + 80 = 200\) N.",
     ),
     dict(
         type="meerkeuze",
-        vraag="Twee mensen trekken aan een kar in tegengestelde zin, met 150 N en 90 N. Hoe groot is de resulterende kracht, en in welke zin?",
+        vraag=r"Twee mensen trekken aan een kar in tegengestelde zin, met \(150\) N en \(90\) N. Hoe groot is de resulterende kracht, en in welke zin?",
         opties=[
-            "60 N, in de zin van de grootste kracht",
-            "240 N, in de zin van de grootste kracht",
-            "60 N, in de zin van de kleinste kracht",
-            "0 N, de kar blijft stil",
+            r"\(60\) N, in de zin van de grootste kracht",
+            r"\(240\) N, in de zin van de grootste kracht",
+            r"\(60\) N, in de zin van de kleinste kracht",
+            r"\(0\) N, de kar blijft stil",
         ],
         antwoord=0,
-        uitleg="Bij een tegengestelde zin trek je de groottes van elkaar af: 150 − 90 = 60 N. De resultante wijst in de zin van de grootste kracht.",
+        uitleg=r"Bij een tegengestelde zin trek je de groottes van elkaar af: \(150 - 90 = 60\) N. De resultante wijst in de zin van de grootste kracht.",
     ),
     dict(
         type="meerkeuze",
@@ -159,7 +159,7 @@ DEEL1 = [
     ),
     dict(
         type="waarofniet",
-        vraag="Twee krachten van elk 50 N op hetzelfde voorwerp geven altijd een resultante van 100 N.",
+        vraag=r"Twee krachten van elk \(50\) N op hetzelfde voorwerp geven altijd een resultante van \(100\) N.",
         antwoord=False,
         uitleg="Enkel als ze dezelfde richting en zin hebben. Zijn ze tegengesteld, dan is de resultante nul, en bij een hoek ertussen iets daartussen.",
     ),
@@ -167,7 +167,7 @@ DEEL1 = [
         type="waarofniet",
         vraag="De lengte van een krachtvector op een tekening zegt niets over de grootte van de kracht.",
         antwoord=False,
-        uitleg="Je tekent een krachtvector op schaal, bijvoorbeeld 1 cm voor 10 N. De lengte geeft dus net de grootte weer.",
+        uitleg=r"Je tekent een krachtvector op schaal, bijvoorbeeld \(1\) cm voor \(10\) N. De lengte geeft dus net de grootte weer.",
     ),
     dict(
         type="waarofniet",
@@ -195,9 +195,9 @@ DEEL1 = [
     ),
     dict(
         type="invultekst",
-        vraag="Twee krachten van 30 N en 45 N werken in tegengestelde zin op hetzelfde voorwerp. Hoe groot is de resultante in newton? Schrijf het getal.",
+        vraag=r"Twee krachten van \(30\) N en \(45\) N werken in tegengestelde zin op hetzelfde voorwerp. Hoe groot is de resultante in newton? Schrijf het getal.",
         antwoord=["15", "15 N"],
-        uitleg="45 − 30 = 15 N, in de zin van de kracht van 45 N.",
+        uitleg=r"\(45 - 30 = 15\) N, in de zin van de kracht van \(45\) N.",
     ),
 ]
 
@@ -205,16 +205,16 @@ DEEL2 = [
     dict(
         type="meerkeuze",
         vraag="Welke formule geeft de zwaartekracht op een voorwerp?",
-        opties=["Fz = m . g", "Fz = m / g", "Fz = g / m", "Fz = m . g²"],
+        opties=[r"\(F_{z} = m \cdot g\)", r"\(F_{z} = m / g\)", r"\(F_{z} = g / m\)", r"\(F_{z} = m \cdot g^{2}\)"],
         antwoord=0,
-        uitleg="De massa maal de zwaarteveldsterkte. In België is g = 9,81 N/kg.",
+        uitleg=r"De massa maal de zwaarteveldsterkte. In België is \(g = 9{,}81\) N/kg.",
     ),
     dict(
         type="meerkeuze",
-        vraag="Hoe groot is de zwaartekracht op een massa van 5,0 kg in België?",
-        opties=["49 N", "5,0 N", "0,51 N", "490 N"],
+        vraag=r"Hoe groot is de zwaartekracht op een massa van \(5{,}0\) kg in België?",
+        opties=[r"\(49\) N", r"\(5{,}0\) N", r"\(0{,}51\) N", r"\(490\) N"],
         antwoord=0,
-        uitleg="Fz = 5,0 . 9,81 = 49,05 N, dus 49 N met twee beduidende cijfers.",
+        uitleg=r"\(F_{z} = 5{,}0 \times 9{,}81 = 49{,}05\) N, dus \(49\) N met twee beduidende cijfers.",
     ),
     dict(
         type="meerkeuze",
@@ -242,17 +242,17 @@ DEEL2 = [
     ),
     dict(
         type="meerkeuze",
-        vraag="Een veer rekt 4,0 cm uit onder een kracht van 12 N. Wat is de veerconstante?",
-        opties=["300 N/m", "3,0 N/m", "48 N/m", "0,33 N/m"],
+        vraag=r"Een veer rekt \(4{,}0\) cm uit onder een kracht van \(12\) N. Wat is de veerconstante?",
+        opties=[r"\(300\) N/m", r"\(3{,}0\) N/m", r"\(48\) N/m", r"\(0{,}33\) N/m"],
         antwoord=0,
-        uitleg="Reken eerst om naar meter: 4,0 cm = 0,040 m. Dan is k = Fv / Δl = 12 / 0,040 = 300 N/m.",
+        uitleg=r"Reken eerst om naar meter: \(4{,}0\) cm = \(0{,}040\) m. Dan is \(k = F_{v} / \Delta l = 12 / 0{,}040 = 300\) N/m.",
     ),
     dict(
         type="meerkeuze",
-        vraag="Een veer heeft een veerconstante van 250 N/m. Hoeveel rekt ze uit onder een kracht van 20 N?",
-        opties=["8,0 cm", "80 cm", "0,80 cm", "12,5 cm"],
+        vraag=r"Een veer heeft een veerconstante van \(250\) N/m. Hoeveel rekt ze uit onder een kracht van \(20\) N?",
+        opties=[r"\(8{,}0\) cm", r"\(80\) cm", r"\(0{,}80\) cm", r"\(12{,}5\) cm"],
         antwoord=0,
-        uitleg="Δl = Fv / k = 20 / 250 = 0,080 m, dus 8,0 cm.",
+        uitleg=r"\(\Delta l = F_{v} / k = 20 / 250 = 0{,}080\) m, dus \(8{,}0\) cm.",
     ),
     dict(
         type="meerkeuze",
@@ -269,16 +269,16 @@ DEEL2 = [
     dict(
         type="meerkeuze",
         vraag="Welke formule geeft de statische wrijvingskracht?",
-        opties=["Fw = μ . Fn", "Fw = μ / Fn", "Fw = μ . m", "Fw = Fn / μ"],
+        opties=[r"\(F_{w} = \mu\) . Fn", r"\(F_{w} = \mu / F_{n}\)", r"\(F_{w} = \mu \cdot m\)", r"\(F_{w} = F_{n} / \mu\)"],
         antwoord=0,
         uitleg="De wrijvingscoëfficiënt maal de normaalkracht. Die formule staat in de bijlage die je op het examen mag gebruiken.",
     ),
     dict(
         type="meerkeuze",
-        vraag="Een kist van 20 kg staat op een horizontale vloer met μ = 0,30. Hoe groot is de wrijvingskracht die je net moet overwinnen om hem te doen schuiven?",
-        opties=["59 N", "6,0 N", "196 N", "654 N"],
+        vraag=r"Een kist van \(20\) kg staat op een horizontale vloer met \(\mu = 0{,}30\). Hoe groot is de wrijvingskracht die je net moet overwinnen om hem te doen schuiven?",
+        opties=[r"\(59\) N", r"\(6{,}0\) N", r"\(196\) N", r"\(654\) N"],
         antwoord=0,
-        uitleg="Op een horizontale vloer is Fn = Fz = 20 . 9,81 = 196 N. Dan is Fw = 0,30 . 196 = 58,9 N, dus 59 N.",
+        uitleg=r"Op een horizontale vloer is \(F_{n} = F_{z} = 20 \times 9{,}81 = 196\) N. Dan is \(F_{w} = 0{,}30 \times 196 = 58{,}9\) N, dus \(59\) N.",
     ),
     dict(
         type="meerkeuze",
@@ -302,25 +302,25 @@ DEEL2 = [
             "de eenheid waarin je de kracht meet",
         ],
         antwoord=[0, 2],
-        uitleg="De zwaarteveldsterkte op de maan is ongeveer 1,62 N/kg in plaats van 9,81 N/kg, dus is de zwaartekracht er ongeveer zes keer kleiner. De massa blijft dezelfde en de newton blijft de newton.",
+        uitleg=r"De zwaarteveldsterkte op de maan is ongeveer \(1{,}62\) N/kg in plaats van \(9{,}81\) N/kg, dus is de zwaartekracht er ongeveer zes keer kleiner. De massa blijft dezelfde en de newton blijft de newton.",
     ),
     dict(
         type="waarofniet",
         vraag="De veerkracht is recht evenredig met de lengteverandering van de veer.",
         antwoord=True,
-        uitleg="In Fv = k . Δl is k een constante, dus twee keer zo ver uitrekken vraagt twee keer zoveel kracht. In een grafiek geeft dat een rechte door de oorsprong.",
+        uitleg=r"In \(F_{v} = k \cdot \Delta l\) is k een constante, dus twee keer zo ver uitrekken vraagt twee keer zoveel kracht. In een grafiek geeft dat een rechte door de oorsprong.",
     ),
     dict(
         type="waarofniet",
         vraag="Een balans die kilogram aangeeft, meet eigenlijk een kracht en rekent die om.",
         antwoord=True,
-        uitleg="Een weegschaal voelt hoe hard je erop duwt, dus een kracht, en deelt die door 9,81 om de massa te tonen. Op de maan zou dezelfde weegschaal daarom te weinig aangeven.",
+        uitleg=r"Een weegschaal voelt hoe hard je erop duwt, dus een kracht, en deelt die door \(9{,}81\) om de massa te tonen. Op de maan zou dezelfde weegschaal daarom te weinig aangeven.",
     ),
     dict(
         type="waarofniet",
         vraag="Een zwaarder voorwerp op dezelfde vloer ondervindt een grotere wrijvingskracht.",
         antwoord=True,
-        uitleg="De normaalkracht is groter, en Fw = μ . Fn. De wrijvingscoëfficiënt blijft wel dezelfde, want de materialen veranderen niet.",
+        uitleg=r"De normaalkracht is groter, en \(F_{w} = \mu\) . Fn. De wrijvingscoëfficiënt blijft wel dezelfde, want de materialen veranderen niet.",
     ),
     dict(
         type="waarofniet",
@@ -332,7 +332,7 @@ DEEL2 = [
         type="waarofniet",
         vraag="De zwaarteveldsterkte en de valversnelling zijn twee verschillende getallen.",
         antwoord=False,
-        uitleg="Het is hetzelfde getal met twee eenheden: in België 9,81 N/kg als zwaarteveldsterkte en 9,81 m/s² als valversnelling. Je bekijkt dezelfde g eens vanuit de kracht en eens vanuit de beweging.",
+        uitleg=r"Het is hetzelfde getal met twee eenheden: in België \(9{,}81\) N/kg als zwaarteveldsterkte en \(9{,}81\ \text{m/s}^{2}\) als valversnelling. Je bekijkt dezelfde g eens vanuit de kracht en eens vanuit de beweging.",
     ),
     dict(
         type="invultekst",
@@ -344,7 +344,7 @@ DEEL2 = [
         type="invultekst",
         vraag="Hoe groot is de zwaarteveldsterkte in België? Schrijf het getal in N/kg.",
         antwoord=["9,81", "9.81", "9,81 N/kg"],
-        uitleg="9,81 N/kg. Die waarde staat bij de constanten die je op het examen krijgt.",
+        uitleg=r"\(9{,}81\) N/kg. Die waarde staat bij de constanten die je op het examen krijgt.",
     ),
     dict(
         type="invultekst",
@@ -354,8 +354,8 @@ DEEL2 = [
     ),
     dict(
         type="invultekst",
-        vraag="Een massa van 2,0 kg hangt aan een veer met k = 100 N/m. Hoeveel centimeter rekt de veer uit? Schrijf het getal in centimeter.",
+        vraag=r"Een massa van \(2{,}0\) kg hangt aan een veer met \(k = 100\) N/m. Hoeveel centimeter rekt de veer uit? Schrijf het getal in centimeter.",
         antwoord=["19,6", "20", "19.6"],
-        uitleg="De veerkracht moet de zwaartekracht dragen: Fz = 2,0 . 9,81 = 19,62 N. Dan is Δl = 19,62 / 100 = 0,196 m, dus 19,6 cm.",
+        uitleg=r"De veerkracht moet de zwaartekracht dragen: \(F_{z} = 2{,}0 \times 9{,}81 = 19{,}62\) N. Dan is \(\Delta l = 19{,}62 / 100 = 0{,}196\) m, dus \(19{,}6\) cm.",
     ),
 ]

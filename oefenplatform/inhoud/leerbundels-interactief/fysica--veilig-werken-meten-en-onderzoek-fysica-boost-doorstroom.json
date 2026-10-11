@@ -45,7 +45,7 @@
     },
     {
      "soort": "tekst",
-     "html": "Meet je een <strong>stroom die mogelijk 2 A groot is met een multimeter</strong>, dan <strong>kies je eerst het grootste meetbereik en verfijn je daarna</strong>. Op een te klein bereik kan het instrument overbelast raken. Voor een <strong>tijdsduur van ongeveer 2 s</strong> neem je een <strong>chronometer tot op een honderdste seconde</strong>: met een klok die enkel seconden toont, zou je meetfout even groot zijn als de helft van je meting."
+     "html": "Meet je een <strong>stroom die mogelijk \\(2\\) A groot is met een multimeter</strong>, dan <strong>kies je eerst het grootste meetbereik en verfijn je daarna</strong>. Op een te klein bereik kan het instrument overbelast raken. Voor een <strong>tijdsduur van ongeveer \\(2\\) s</strong> neem je een <strong>chronometer tot op een honderdste seconde</strong>: met een klok die enkel seconden toont, zou je meetfout even groot zijn als de helft van je meting."
     },
     {
      "soort": "tekst",
@@ -57,7 +57,7 @@
     },
     {
      "soort": "tekst",
-     "html": "Bij een meetresultaat hoort <strong>altijd een eenheid</strong>, want <strong>zonder eenheid weet je niet wat het getal betekent</strong>: een 5 kan 5 m, 5 kg of 5 s zijn. Zonder eenheid kan je twee metingen niet vergelijken en niet verder rekenen."
+     "html": "Bij een meetresultaat hoort <strong>altijd een eenheid</strong>, want <strong>zonder eenheid weet je niet wat het getal betekent</strong>: een \\(5\\) kan \\(5\\) m, \\(5\\) kg of \\(5\\) s zijn. Zonder eenheid kan je twee metingen niet vergelijken en niet verder rekenen."
     },
     {
      "soort": "tekst",
@@ -70,7 +70,7 @@
    "blokken": [
     {
      "soort": "tekst",
-     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Stap</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Wat je doet</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">1</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">de probleemstelling definiëren en afbakenen</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">2</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een onderzoeksvraag opstellen en een hypothese formuleren</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">3</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een onderzoeksplan opstellen</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">4</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">data waarnemen en verzamelen</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">5</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">de data analyseren, ook grafisch</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">6</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">conclusies trekken op basis van die data</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">7</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">de conclusie als antwoord op de onderzoeksvraag formuleren</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">8</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">over de methode en de resultaten reflecteren en communiceren</td></tr></table>"
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Stap</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Wat je doet</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">\\(1\\)</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">de probleemstelling definiëren en afbakenen</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">\\(2\\)</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een onderzoeksvraag opstellen en een hypothese formuleren</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">\\(3\\)</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een onderzoeksplan opstellen</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">\\(4\\)</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">data waarnemen en verzamelen</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">\\(5\\)</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">de data analyseren, ook grafisch</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">\\(6\\)</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">conclusies trekken op basis van die data</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">\\(7\\)</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">de conclusie als antwoord op de onderzoeksvraag formuleren</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">\\(8\\)</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">over de methode en de resultaten reflecteren en communiceren</td></tr></table>"
     },
     {
      "soort": "tekst",
@@ -107,7 +107,7 @@
     },
     {
      "soort": "tekst",
-     "html": "<strong>Enkelvoudig</strong> betekent dat de vraag over <strong>één onderwerp gaat</strong>: zitten er twee in, dan weet je bij het antwoord niet meer waarover het gaat. <strong>Objectief</strong> betekent dat de vraag <strong>geen mening of overtuiging toont</strong>: \"Waarom is zonne-energie de beste keuze?\" zit al vol overtuiging, \"Hoeveel energie levert een zonnepaneel per maand?\" niet."
+     "html": "<strong>Enkelvoudig</strong> betekent dat de vraag over <strong>één onderwerp gaat</strong>: zitten er twee in, dan weet je bij het antwoord niet meer waarover het gaat. <strong>Objectief</strong> betekent dat de vraag <strong>geen mening of overtuiging toont</strong>: \\\"Waarom is zonne-energie de beste keuze?\\\" zit al vol overtuiging, \\\"Hoeveel energie levert een zonnepaneel per maand?\\\" niet."
     },
     {
      "soort": "tekst",
@@ -115,7 +115,7 @@
     },
     {
      "soort": "tekst",
-     "html": "<strong>Hoe spannend of hoe kort een vraag is, telt niet mee.</strong> Een vraag waarop je enkel ja of nee kan antwoorden, heet een <strong>gesloten vraag</strong>, en die voldoet dus niet aan het eerste criterium. Een goede vraag is bijvoorbeeld: \"Hoe hangt de valtijd af van het aantal filters?\""
+     "html": "<strong>Hoe spannend of hoe kort een vraag is, telt niet mee.</strong> Een vraag waarop je enkel ja of nee kan antwoorden, heet een <strong>gesloten vraag</strong>, en die voldoet dus niet aan het eerste criterium. Een goede vraag is bijvoorbeeld: \\\"Hoe hangt de valtijd af van het aantal filters?\\\""
     },
     {
      "soort": "tekst",
@@ -132,7 +132,7 @@
     },
     {
      "soort": "tekst",
-     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Stap bij het ontwerpen</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Wat je doet</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">1</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">het probleem definiëren</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">2</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">criteria geven waaraan de oplossing moet voldoen</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">3</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">het probleem indien nodig in deelproblemen splitsen</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">4</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">oplossingen bedenken en in een totaaloplossing integreren</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">5</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">de oplossing evalueren en indien nodig bijsturen</td></tr></table>"
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Stap bij het ontwerpen</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Wat je doet</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">\\(1\\)</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">het probleem definiëren</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">\\(2\\)</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">criteria geven waaraan de oplossing moet voldoen</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">\\(3\\)</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">het probleem indien nodig in deelproblemen splitsen</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">\\(4\\)</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">oplossingen bedenken en in een totaaloplossing integreren</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">\\(5\\)</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">de oplossing evalueren en indien nodig bijsturen</td></tr></table>"
     },
     {
      "soort": "tekst",

@@ -16,11 +16,11 @@
     },
     {
      "soort": "tekst",
-     "html": "<strong>De verplaatsing kijkt enkel naar begin- en eindpunt</strong>: <strong>Δx = x − x₀</strong>. De <strong>afgelegde weg Δs</strong> is de hele weg die het voorwerp echt gelopen heeft. Loopt iemand <strong>één ronde van 400 m op een piste</strong>, dan is <strong>de afgelegde weg 400 m en de verplaatsing 0 m</strong>: hij staat weer op zijn startplaats."
+     "html": "<strong>De verplaatsing kijkt enkel naar begin- en eindpunt</strong>: <strong>\\(\\Delta x = x - x_{0}\\)</strong>. De <strong>afgelegde weg Δs</strong> is de hele weg die het voorwerp echt gelopen heeft. Loopt iemand <strong>één ronde van \\(400\\) m op een piste</strong>, dan is <strong>de afgelegde weg \\(400\\) m en de verplaatsing \\(0\\) m</strong>: hij staat weer op zijn startplaats."
     },
     {
      "soort": "tekst",
-     "html": "<strong>Een verplaatsing kan negatief zijn</strong>, want het <strong>teken hoort bij de zin</strong>: beweegt het voorwerp tegen de zin van de x-as in, dan is Δx negatief. Een <strong>afgelegde weg is nooit negatief</strong>, en <strong>ook de grootte van een snelheid niet</strong>. Vertrekt een wandelaar op x₀ = 20 m en gaat hij in de positieve zin tot x = 95 m, dan is Δx = 95 − 20 = 75 m."
+     "html": "<strong>Een verplaatsing kan negatief zijn</strong>, want het <strong>teken hoort bij de zin</strong>: beweegt het voorwerp tegen de zin van de x-as in, dan is Δx negatief. Een <strong>afgelegde weg is nooit negatief</strong>, en <strong>ook de grootte van een snelheid niet</strong>. Vertrekt een wandelaar op \\(x_{0} = 20\\) m en gaat hij in de positieve zin tot \\(x = 95\\) m, dan is \\(\\Delta x = 95 - 20 = 75\\) m."
     }
    ]
   },
@@ -37,11 +37,11 @@
     },
     {
      "soort": "tekst",
-     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Vraag</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Rekenwerk</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Antwoord</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">150 km in 2,0 h</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">150 / 2,0</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">75 km/h</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">60 km in een half uur</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">60 / 0,5</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">120 km/h</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">480 m in 16 s</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">480 / 16</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">30 m/s</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">25 m/s gedurende 4,0 s</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">25 . 4,0</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">100 m</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">6,0 m/s gedurende 1,0 min</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">6,0 . 60</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">360 m</td></tr></table>"
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Vraag</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Rekenwerk</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Antwoord</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">\\(150\\) km in \\(2{,}0\\) h</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">\\(150 / 2{,}0\\)</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">\\(75\\) km/h</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">\\(60\\) km in een half uur</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">\\(60 / 0{,}5\\)</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">\\(120\\) km/h</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">\\(480\\) m in \\(16\\) s</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">\\(480 / 16\\)</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">\\(30\\) m/s</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">\\(25\\) m/s gedurende \\(4{,}0\\) s</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">\\(25 \\times 4{,}0\\)</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">\\(100\\) m</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">\\(6{,}0\\) m/s gedurende \\(1{,}0\\) min</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">\\(6{,}0 \\times 60\\)</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">\\(360\\) m</td></tr></table>"
     },
     {
      "soort": "kader",
-     "html": "Reken de tijd altijd eerst om naar dezelfde eenheid als de snelheid. Een minuut is 60 s, een half uur is 0,5 h."
+     "html": "Reken de tijd altijd eerst om naar dezelfde eenheid als de snelheid. Een minuut is \\(60\\) s, een half uur is \\(0{,}5\\) h."
     }
    ]
   },
@@ -62,7 +62,7 @@
     },
     {
      "soort": "tekst",
-     "html": "De <strong>positiefunctie</strong> van een ERB is <strong>x = x₀ + v.(t − t₀)</strong>, met <strong>x₀ de beginpositie</strong> op het tijdstip t₀. In <strong>x = 10 + 3.t</strong> is 10 m de beginpositie en 3 m/s de snelheid. In <strong>x = 40 − 5.t</strong> vertrekt het voorwerp op 40 m en <strong>beweegt het tegen de zin van de x-as in</strong>, want de snelheid is −5 m/s. Het is in de oorsprong als x = 0, dus na t = 40 / 5 = 8,0 s."
+     "html": "De <strong>positiefunctie</strong> van een ERB is <strong>\\(x = x_{0} + v \\cdot \\left(t - t_{0}\\right)\\)</strong>, met <strong>x₀ de beginpositie</strong> op het tijdstip t₀. In <strong>\\(x = 10 + 3\\).t</strong> is \\(10\\) m de beginpositie en \\(3\\) m/s de snelheid. In <strong>\\(x = 40 - 5\\).t</strong> vertrekt het voorwerp op \\(40\\) m en <strong>beweegt het tegen de zin van de x-as in</strong>, want de snelheid is \\(-5\\) m/s. Het is in de oorsprong als \\(x = 0\\), dus na \\(t = 40 / 5 = 8{,}0\\) s."
     }
    ]
   },
@@ -79,7 +79,7 @@
     },
     {
      "soort": "tekst",
-     "html": "In een <strong>v(t)-grafiek</strong> is de <strong>oppervlakte onder de lijn de verplaatsing</strong>, want snelheid maal tijd. De <strong>hoogte van de lijn is de snelheid</strong>, niet de verplaatsing. Ligt het stuk onder de tijdas, dan is de verplaatsing negatief: een lijn op −4 m/s gedurende 3,0 s geeft Δx = −12 m. Bij een ERB is de lijn <strong>horizontaal</strong>, dus is de versnelling nul. Een horizontaal stuk betekent dus een constante snelheid, niet per se stilstand: dat is enkel zo als de lijn op nul ligt. <strong>De beginpositie kan je niet uit een v(t)-grafiek aflezen</strong>; die moet in de opgave staan."
+     "html": "In een <strong>v(t)-grafiek</strong> is de <strong>oppervlakte onder de lijn de verplaatsing</strong>, want snelheid maal tijd. De <strong>hoogte van de lijn is de snelheid</strong>, niet de verplaatsing. Ligt het stuk onder de tijdas, dan is de verplaatsing negatief: een lijn op \\(-4\\) m/s gedurende \\(3{,}0\\) s geeft \\(\\Delta x = -12\\) m. Bij een ERB is de lijn <strong>horizontaal</strong>, dus is de versnelling nul. Een horizontaal stuk betekent dus een constante snelheid, niet per se stilstand: dat is enkel zo als de lijn op nul ligt. <strong>De beginpositie kan je niet uit een v(t)-grafiek aflezen</strong>; die moet in de opgave staan."
     },
     {
      "soort": "tekst",
@@ -96,11 +96,11 @@
     },
     {
      "soort": "tekst",
-     "html": "<strong>Inhalen</strong>: een wandelaar vertrekt om 9 uur met 5,0 km/h, een fietser om 10 uur op dezelfde plaats met 15 km/h. Bij het vertrek van de fietser heeft de wandelaar <strong>5,0 km voorsprong</strong>. De fietser loopt <strong>15 − 5,0 = 10 km/h</strong> in, dus heeft hij 5,0 / 10 = <strong>0,50 h</strong> nodig."
+     "html": "<strong>Inhalen</strong>: een wandelaar vertrekt om \\(9\\) uur met \\(5{,}0\\) km/h, een fietser om \\(10\\) uur op dezelfde plaats met \\(15\\) km/h. Bij het vertrek van de fietser heeft de wandelaar <strong>\\(5{,}0\\) km voorsprong</strong>. De fietser loopt <strong>\\(15 - 5{,}0 = 10\\) km/h</strong> in, dus heeft hij \\(5{,}0 / 10\\) = <strong>\\(0{,}50\\) h</strong> nodig."
     },
     {
      "soort": "tekst",
-     "html": "<strong>Kruisen</strong>: twee auto's rijden naar elkaar toe, 120 km van elkaar, met 70 km/h en 50 km/h. Samen naderen ze met <strong>70 + 50 = 120 km/h</strong>, dus duurt het <strong>1,0 h</strong>."
+     "html": "<strong>Kruisen</strong>: twee auto's rijden naar elkaar toe, \\(120\\) km van elkaar, met \\(70\\) km/h en \\(50\\) km/h. Samen naderen ze met <strong>\\(70 + 50 = 120\\) km/h</strong>, dus duurt het <strong>\\(1{,}0\\) h</strong>."
     },
     {
      "soort": "kader",
@@ -108,17 +108,17 @@
     },
     {
      "soort": "weetje",
-     "html": "Bij de marathon loopt iemand ruim 42 km, maar start en aankomst liggen soms op dezelfde plaats. Zijn afgelegde weg is dan 42 km en zijn verplaatsing nul."
+     "html": "Bij de marathon loopt iemand ruim \\(42\\) km, maar start en aankomst liggen soms op dezelfde plaats. Zijn afgelegde weg is dan \\(42\\) km en zijn verplaatsing nul."
     }
    ]
   }
  ],
  "onthoud": [
-  "Verplaatsing Δx = x − x₀ kijkt enkel naar begin en eind; de afgelegde weg Δs is de hele weg.",
-  "Eén ronde van 400 m: afgelegde weg 400 m, verplaatsing 0 m.",
+  "Verplaatsing \\(\\Delta x = x - x_{0}\\) kijkt enkel naar begin en eind; de afgelegde weg Δs is de hele weg.",
+  "Eén ronde van \\(400\\) m: afgelegde weg \\(400\\) m, verplaatsing \\(0\\) m.",
   "vg = Δx / Δt; de snelheidsmeter geeft de ogenblikkelijke snelheid.",
   "Bij een ERB blijft de snelheid gelijk en is de versnelling nul.",
-  "Positiefunctie: x = x₀ + v.(t − t₀), met x₀ de beginpositie.",
+  "Positiefunctie: \\(x = x_{0} + v \\cdot \\left(t - t_{0}\\right)\\), met x₀ de beginpositie.",
   "De steilheid van een x(t)-grafiek is de snelheid; een horizontaal stuk is een rustpauze.",
   "De oppervlakte onder een v(t)-grafiek is de verplaatsing; de hoogte is de snelheid.",
   "Een snijpunt in een x(t)-grafiek betekent: op dezelfde plaats op hetzelfde tijdstip.",

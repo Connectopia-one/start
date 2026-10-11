@@ -20,13 +20,13 @@ DEEL1 = [
         type="meerkeuze",
         vraag="Welke formule geeft de archimedeskracht op een voorwerp in een vloeistof?",
         opties=[
-            "FA = ρ . g . Vond",
+            r"FA = \(\rho \cdot g\) . Vond",
             "FA = m . g",
-            "FA = ρ . g . h",
+            r"FA = \(\rho \cdot g \cdot h\)",
             "FA = ρ . Vond",
         ],
         antwoord=0,
-        uitleg="De massadichtheid van de vloeistof maal de zwaarteveldsterkte maal het ondergedompelde volume. ρ.g.h is de formule voor de hydrostatische druk.",
+        uitleg=r"De massadichtheid van de vloeistof maal de zwaarteveldsterkte maal het ondergedompelde volume. \(\rho \cdot g \cdot h\) is de formule voor de hydrostatische druk.",
     ),
     dict(
         type="meerkeuze",
@@ -61,17 +61,17 @@ DEEL1 = [
     ),
     dict(
         type="meerkeuze",
-        vraag="Een voorwerp met een massadichtheid van 1200 kg/m³ wordt in water gelegd. Wat gebeurt er?",
+        vraag=r"Een voorwerp met een massadichtheid van \(1200\) kg/\(\text{m}^{3}\) wordt in water gelegd. Wat gebeurt er?",
         opties=["het zinkt", "het drijft", "het zweeft", "het stijgt naar boven"],
         antwoord=0,
-        uitleg="De massadichtheid is groter dan die van water, 1000 kg/m³, dus de zwaartekracht haalt het van de archimedeskracht.",
+        uitleg=r"De massadichtheid is groter dan die van water, \(1000\) kg/\(\text{m}^{3}\), dus de zwaartekracht haalt het van de archimedeskracht.",
     ),
     dict(
         type="meerkeuze",
-        vraag="Hoe groot is de archimedeskracht op een blok dat volledig onder water zit, met een volume van 0,0020 m³?",
-        opties=["19,6 N", "2,0 N", "196 N", "1962 N"],
+        vraag=r"Hoe groot is de archimedeskracht op een blok dat volledig onder water zit, met een volume van \(0{,}0020\,\text{m}^{3}\)?",
+        opties=[r"\(19{,}6\) N", r"\(2{,}0\) N", r"\(196\) N", r"\(1962\) N"],
         antwoord=0,
-        uitleg="FA = 1000 . 9,81 . 0,0020 = 19,62 N, dus 19,6 N.",
+        uitleg=r"FA = \(1000 \times 9{,}81 \times 0{,}0020 = 19{,}62\) N, dus \(19{,}6\) N.",
     ),
     dict(
         type="meerkeuze",
@@ -95,7 +95,7 @@ DEEL1 = [
             "de archimedeskracht hangt af van de massa van het schip",
         ],
         antwoord=0,
-        uitleg="Een schip duwt veel water weg omdat het binnenin vol lucht zit. Zijn gemiddelde massadichtheid komt daardoor onder 1000 kg/m³.",
+        uitleg=r"Een schip duwt veel water weg omdat het binnenin vol lucht zit. Zijn gemiddelde massadichtheid komt daardoor onder \(1000\) kg/\(\text{m}^{3}\).",
     ),
     dict(
         type="meerkeuze",
@@ -123,10 +123,10 @@ DEEL1 = [
     ),
     dict(
         type="meerkeuze",
-        vraag="Een steen van 50 N hangt aan een dynamometer en wordt in water gedompeld. De dynamometer wijst 32 N aan. Hoe groot is de archimedeskracht?",
-        opties=["18 N", "82 N", "32 N", "50 N"],
+        vraag=r"Een steen van \(50\) N hangt aan een dynamometer en wordt in water gedompeld. De dynamometer wijst \(32\) N aan. Hoe groot is de archimedeskracht?",
+        opties=[r"\(18\) N", r"\(82\) N", r"\(32\) N", r"\(50\) N"],
         antwoord=0,
-        uitleg="De dynamometer meet wat er na de archimedeskracht overblijft: 50 − 32 = 18 N.",
+        uitleg=r"De dynamometer meet wat er na de archimedeskracht overblijft: \(50 - 32 = 18\) N.",
     ),
     dict(
         type="waarofniet",
@@ -156,7 +156,7 @@ DEEL1 = [
         type="waarofniet",
         vraag="Op de maan zou de archimedeskracht in hetzelfde bad water kleiner zijn.",
         antwoord=True,
-        uitleg="In FA = ρ.g.Vond staat g, en die is op de maan ongeveer zes keer kleiner. De zwaartekracht op het voorwerp wordt wel even veel kleiner, dus het drijft nog altijd even diep.",
+        uitleg=r"In FA = \(\rho \cdot g\).Vond staat g, en die is op de maan ongeveer zes keer kleiner. De zwaartekracht op het voorwerp wordt wel even veel kleiner, dus het drijft nog altijd even diep.",
     ),
     dict(
         type="invultekst",
@@ -168,19 +168,19 @@ DEEL1 = [
         type="invultekst",
         vraag="Welk symbool gebruikt men voor massadichtheid?",
         antwoord=["ρ", "rho", "p"],
-        uitleg="De Griekse letter ρ (rho), met als eenheid kg/m³.",
+        uitleg=r"De Griekse letter ρ (rho), met als eenheid kg/\(\text{m}^{3}\).",
     ),
     dict(
         type="invultekst",
-        vraag="Hoe groot is de massadichtheid van water? Schrijf het getal in kg/m³.",
+        vraag=r"Hoe groot is de massadichtheid van water? Schrijf het getal in kg/\(\text{m}^{3}\).",
         antwoord=["1000", "1000 kg/m³"],
-        uitleg="1000 kg/m³, of ook 1 kg per liter. Die waarde staat bij de constanten van het examen.",
+        uitleg=r"\(1000\) kg/\(\text{m}^{3}\), of ook \(1\) kg per liter. Die waarde staat bij de constanten van het examen.",
     ),
     dict(
         type="invultekst",
-        vraag="Een blok van 0,0050 m³ zit volledig onder water. Hoe groot is de archimedeskracht in newton? Schrijf het getal, afgerond op een eenheid.",
+        vraag=r"Een blok van \(0{,}0050\,\text{m}^{3}\) zit volledig onder water. Hoe groot is de archimedeskracht in newton? Schrijf het getal, afgerond op een eenheid.",
         antwoord=["49", "49 N", "49,05"],
-        uitleg="FA = 1000 . 9,81 . 0,0050 = 49,05 N, dus ongeveer 49 N.",
+        uitleg=r"FA = \(1000 \times 9{,}81 \times 0{,}0050 = 49{,}05\) N, dus ongeveer \(49\) N.",
     ),
 ]
 
@@ -188,9 +188,9 @@ DEEL2 = [
     dict(
         type="meerkeuze",
         vraag="Welke formule geeft het moment van een kracht?",
-        opties=["M = F . d . sin α", "M = F . d", "M = F / d", "M = F . d . cos α"],
+        opties=["M = F . d . sin α", r"\(M = F \cdot d\)", r"\(M = F / d\)", "M = F . d . cos α"],
         antwoord=0,
-        uitleg="De kracht maal de krachtarm maal de sinus van de hoek. Staat de kracht loodrecht op de arm, dan is sin α gelijk aan 1 en blijft M = F . d over.",
+        uitleg=r"De kracht maal de krachtarm maal de sinus van de hoek. Staat de kracht loodrecht op de arm, dan is sin α gelijk aan \(1\) en blijft \(M = F \cdot d\) over.",
     ),
     dict(
         type="meerkeuze",
@@ -213,10 +213,10 @@ DEEL2 = [
     ),
     dict(
         type="meerkeuze",
-        vraag="Een kracht van 40 N werkt loodrecht op een arm van 0,50 m. Hoe groot is het moment?",
-        opties=["20 Nm", "80 Nm", "40 Nm", "0,013 Nm"],
+        vraag=r"Een kracht van \(40\) N werkt loodrecht op een arm van \(0{,}50\) m. Hoe groot is het moment?",
+        opties=[r"\(20\) Nm", r"\(80\) Nm", r"\(40\) Nm", r"\(0{,}013\) Nm"],
         antwoord=0,
-        uitleg="M = 40 . 0,50 . sin 90° = 20 Nm, want sin 90° is 1.",
+        uitleg=r"M = \(40\) . \(0{,}50\) . sin \(90^{\circ} = 20\) Nm, want sin \(90^{\circ}\) is \(1\).",
     ),
     dict(
         type="meerkeuze",
@@ -244,24 +244,24 @@ DEEL2 = [
     ),
     dict(
         type="meerkeuze",
-        vraag="Op een wip zit links een kind van 30 kg op 1,2 m van het draaipunt. Rechts zit een kind van 36 kg. Op welke afstand moet dat zitten voor evenwicht?",
-        opties=["1,0 m", "1,4 m", "0,83 m", "1,2 m"],
+        vraag=r"Op een wip zit links een kind van \(30\) kg op \(1{,}2\) m van het draaipunt. Rechts zit een kind van \(36\) kg. Op welke afstand moet dat zitten voor evenwicht?",
+        opties=[r"\(1{,}0\) m", r"\(1{,}4\) m", r"\(0{,}83\) m", r"\(1{,}2\) m"],
         antwoord=0,
-        uitleg="De momenten moeten gelijk zijn: 30 . 1,2 = 36 . d, dus d = 36 / 36 = 1,0 m. Het zwaardere kind zit dichter bij het draaipunt.",
+        uitleg=r"De momenten moeten gelijk zijn: \(30\) . \(1{,}2 = 36\) . d, dus \(d = 36 / 36 = 1{,}0\) m. Het zwaardere kind zit dichter bij het draaipunt.",
     ),
     dict(
         type="meerkeuze",
-        vraag="Een kracht grijpt aan onder een hoek van 30° met de arm, met F = 60 N en d = 0,40 m. Hoe groot is het moment?",
-        opties=["12 Nm", "24 Nm", "21 Nm", "48 Nm"],
+        vraag=r"Een kracht grijpt aan onder een hoek van \(30^{\circ}\) met de arm, met \(F = 60\) N en \(d = 0{,}40\) m. Hoe groot is het moment?",
+        opties=[r"\(12\) Nm", r"\(24\) Nm", r"\(21\) Nm", r"\(48\) Nm"],
         antwoord=0,
-        uitleg="M = 60 . 0,40 . sin 30° = 60 . 0,40 . 0,50 = 12 Nm.",
+        uitleg=r"M = \(60\) . \(0{,}40\) . sin \(30^{\circ} = 60 \cdot 0{,}40 \times 0{,}50 = 12\) Nm.",
     ),
     dict(
         type="meerkeuze",
         vraag="Bij welke hoek tussen de kracht en de krachtarm is het moment het grootst?",
-        opties=["90°", "0°", "45°", "180°"],
+        opties=[r"\(90^{\circ}\)", r"\(0^{\circ}\)", r"\(45^{\circ}\)", r"\(180^{\circ}\)"],
         antwoord=0,
-        uitleg="Bij 90° is sin α gelijk aan 1, dus is het moment maximaal. Bij 0° of 180° werkt de kracht langs de arm en is het moment nul.",
+        uitleg=r"Bij \(90^{\circ}\) is sin α gelijk aan \(1\), dus is het moment maximaal. Bij \(0^{\circ}\) of \(180^{\circ}\) werkt de kracht langs de arm en is het moment nul.",
     ),
     dict(
         type="meerkeuze",
@@ -331,9 +331,9 @@ DEEL2 = [
     ),
     dict(
         type="invultekst",
-        vraag="Een kracht van 25 N werkt loodrecht op een arm van 0,80 m. Hoe groot is het moment in Nm? Schrijf het getal.",
+        vraag=r"Een kracht van \(25\) N werkt loodrecht op een arm van \(0{,}80\) m. Hoe groot is het moment in Nm? Schrijf het getal.",
         antwoord=["20", "20 Nm"],
-        uitleg="M = 25 . 0,80 . 1 = 20 Nm.",
+        uitleg=r"\(M = 25 \times 0{,}80 \times 1 = 20\) Nm.",
     ),
     dict(
         type="invultekst",

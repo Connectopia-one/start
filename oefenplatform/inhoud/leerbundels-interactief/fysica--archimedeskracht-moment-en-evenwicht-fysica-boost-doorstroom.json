@@ -12,15 +12,15 @@
     },
     {
      "soort": "tekst",
-     "html": "<strong>FA = ρ . g . Vond</strong>, met <strong>ρ</strong> de <strong>massadichtheid</strong> van de vloeistof in <strong>kg/m³</strong>, g de zwaarteveldsterkte en <strong>Vond het ondergedompelde volume</strong>. De massadichtheid van <strong>water is 1000 kg/m³</strong>, of één kilogram per liter."
+     "html": "<strong>FA = \\(\\rho \\cdot g\\) . Vond</strong>, met <strong>ρ</strong> de <strong>massadichtheid</strong> van de vloeistof in <strong>kg/\\(\\text{m}^{3}\\)</strong>, g de zwaarteveldsterkte en <strong>Vond het ondergedompelde volume</strong>. De massadichtheid van <strong>water is \\(1000\\) kg/\\(\\text{m}^{3}\\)</strong>, of één kilogram per liter."
     },
     {
      "soort": "tekst",
-     "html": "De archimedeskracht is <strong>verticaal naar boven</strong> gericht. Daarom lijkt een steen onder water lichter: hangt een <strong>steen van 50 N aan een dynamometer en wijst die onder water 32 N aan</strong>, dan is de archimedeskracht <strong>50 − 32 = 18 N</strong>."
+     "html": "De archimedeskracht is <strong>verticaal naar boven</strong> gericht. Daarom lijkt een steen onder water lichter: hangt een <strong>steen van \\(50\\) N aan een dynamometer en wijst die onder water \\(32\\) N aan</strong>, dan is de archimedeskracht <strong>\\(50 - 32 = 18\\) N</strong>."
     },
     {
      "soort": "tekst",
-     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Gegeven</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Rekenwerk</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">FA</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">0,0020 m³ volledig onder water</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">1000 . 9,81 . 0,0020</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">19,6 N</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">0,0050 m³ volledig onder water</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">1000 . 9,81 . 0,0050</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">49 N</td></tr></table>"
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Gegeven</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Rekenwerk</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">FA</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">\\(0{,}0020\\,\\text{m}^{3}\\) volledig onder water</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">\\(1000 \\times 9{,}81 \\times 0{,}0020\\)</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">\\(19{,}6\\) N</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">\\(0{,}0050\\,\\text{m}^{3}\\) volledig onder water</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">\\(1000 \\times 9{,}81 \\times 0{,}0050\\)</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">\\(49\\) N</td></tr></table>"
     },
     {
      "soort": "tekst",
@@ -41,7 +41,7 @@
     },
     {
      "soort": "tekst",
-     "html": "Een voorwerp dat <strong>zweeft</strong> blijft op dezelfde diepte hangen, dus is de resulterende kracht nul en is de <strong>archimedeskracht even groot als de zwaartekracht</strong>. Een voorwerp met een massadichtheid van <strong>1200 kg/m³ zinkt in water</strong>, want dat is meer dan 1000 kg/m³. Een <strong>voorwerp dat stijgt heeft juist een kleinere massadichtheid</strong> dan de vloeistof."
+     "html": "Een voorwerp dat <strong>zweeft</strong> blijft op dezelfde diepte hangen, dus is de resulterende kracht nul en is de <strong>archimedeskracht even groot als de zwaartekracht</strong>. Een voorwerp met een massadichtheid van <strong>\\(1200\\) kg/\\(\\text{m}^{3}\\) zinkt in water</strong>, want dat is meer dan \\(1000\\) kg/\\(\\text{m}^{3}\\). Een <strong>voorwerp dat stijgt heeft juist een kleinere massadichtheid</strong> dan de vloeistof."
     },
     {
      "soort": "tekst",
@@ -49,7 +49,7 @@
     },
     {
      "soort": "tekst",
-     "html": "Een <strong>zwaar stalen schip drijft</strong> en een stalen bout zinkt, omdat het <strong>schip hol is</strong>: binnenin zit lucht, dus komt zijn <strong>gemiddelde massadichtheid onder 1000 kg/m³</strong>. Een <strong>duikboot</strong> laat <strong>water in haar tanks om zwaarder te worden</strong>: de massa stijgt terwijl het volume gelijk blijft, dus haalt de zwaartekracht het van de archimedeskracht."
+     "html": "Een <strong>zwaar stalen schip drijft</strong> en een stalen bout zinkt, omdat het <strong>schip hol is</strong>: binnenin zit lucht, dus komt zijn <strong>gemiddelde massadichtheid onder \\(1000\\) kg/\\(\\text{m}^{3}\\)</strong>. Een <strong>duikboot</strong> laat <strong>water in haar tanks om zwaarder te worden</strong>: de massa stijgt terwijl het volume gelijk blijft, dus haalt de zwaartekracht het van de archimedeskracht."
     },
     {
      "soort": "tekst",
@@ -70,11 +70,11 @@
     },
     {
      "soort": "tekst",
-     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Gegeven</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Rekenwerk</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">M</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">40 N loodrecht op 0,50 m</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">40 . 0,50 . sin 90°</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">20 Nm</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">25 N loodrecht op 0,80 m</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">25 . 0,80 . 1</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">20 Nm</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">60 N onder 30° op 0,40 m</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">60 . 0,40 . 0,50</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">12 Nm</td></tr></table>"
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Gegeven</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Rekenwerk</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">M</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">\\(40\\) N loodrecht op \\(0{,}50\\) m</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">\\(40\\) . \\(0{,}50\\) . sin \\(90^{\\circ}\\)</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">\\(20\\) Nm</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">\\(25\\) N loodrecht op \\(0{,}80\\) m</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">\\(25 \\times 0{,}80 \\times 1\\)</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">\\(20\\) Nm</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">\\(60\\) N onder \\(30^{\\circ}\\) op \\(0{,}40\\) m</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">\\(60 \\times 0{,}40 \\times 0{,}50\\)</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">\\(12\\) Nm</td></tr></table>"
     },
     {
      "soort": "tekst",
-     "html": "<strong>Bij een hoek van 90° is het moment het grootst</strong>, want sin 90° is 1 en blijft M = F . d over. Bij <strong>0° of 180° werkt de kracht langs de arm en is het moment nul</strong>. Een <strong>kracht die door het draaipunt gaat, levert geen moment</strong>: duwen op het hengsel van een deur doet ze niet draaien."
+     "html": "<strong>Bij een hoek van \\(90^{\\circ}\\) is het moment het grootst</strong>, want sin \\(90^{\\circ}\\) is \\(1\\) en blijft \\(M = F \\cdot d\\) over. Bij <strong>\\(0^{\\circ}\\) of \\(180^{\\circ}\\) werkt de kracht langs de arm en is het moment nul</strong>. Een <strong>kracht die door het draaipunt gaat, levert geen moment</strong>: duwen op het hengsel van een deur doet ze niet draaien."
     },
     {
      "soort": "tekst",
@@ -103,7 +103,7 @@
     },
     {
      "soort": "tekst",
-     "html": "Bij een <strong>wip</strong> moeten de momenten links en rechts gelijk zijn. Zit links een kind van 30 kg op 1,2 m, dan geldt voor een kind van 36 kg rechts: 30 . 1,2 = 36 . d, dus <strong>d = 1,0 m</strong>. Het <strong>zwaardere kind zit dus dichter bij het draaipunt</strong>."
+     "html": "Bij een <strong>wip</strong> moeten de momenten links en rechts gelijk zijn. Zit links een kind van \\(30\\) kg op \\(1{,}2\\) m, dan geldt voor een kind van \\(36\\) kg rechts: \\(30\\) . \\(1{,}2 = 36\\) . d, dus <strong>\\(d = 1{,}0\\) m</strong>. Het <strong>zwaardere kind zit dus dichter bij het draaipunt</strong>."
     },
     {
      "soort": "tekst",
@@ -117,14 +117,14 @@
   }
  ],
  "onthoud": [
-  "FA = ρ . g . Vond; de massadichtheid van water is 1000 kg/m³.",
+  "FA = \\(\\rho \\cdot g\\) . Vond; de massadichtheid van water is \\(1000\\) kg/\\(\\text{m}^{3}\\).",
   "De massa, de vorm en de diepte van het voorwerp staan niet in die formule, enkel het ondergedompelde volume.",
   "Zinken: Fz groter dan FA. Zweven en drijven: even groot. Stijgen: FA groter.",
-  "Een schip drijft omdat het hol is, dus met een gemiddelde massadichtheid onder 1000 kg/m³.",
+  "Een schip drijft omdat het hol is, dus met een gemiddelde massadichtheid onder \\(1000\\) kg/\\(\\text{m}^{3}\\).",
   "M = F . d . sin α, in newtonmeter, niet in joule.",
-  "Het moment is maximaal bij 90° en nul als de kracht door het draaipunt gaat.",
+  "Het moment is maximaal bij \\(90^{\\circ}\\) en nul als de kracht door het draaipunt gaat.",
   "Een langere krachtarm geeft bij dezelfde kracht een groter moment.",
   "Statisch evenwicht: de som van de krachten is nul én de som van de momenten is nul.",
-  "Op een wip: F₁ . d₁ = F₂ . d₂, dus het zwaardere kind zit dichter bij het draaipunt."
+  "Op een wip: \\(F_{1} \\cdot d_{1} = F_{2} \\cdot d_{2}\\), dus het zwaardere kind zit dichter bij het draaipunt."
  ]
 }

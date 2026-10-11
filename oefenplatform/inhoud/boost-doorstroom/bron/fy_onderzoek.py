@@ -33,7 +33,7 @@ DEEL1 = [
     ),
     dict(
         type="meerkeuze",
-        vraag="Je meet een stroom die mogelijk 2 A groot is met een multimeter. Wat doe je eerst?",
+        vraag=r"Je meet een stroom die mogelijk \(2\) A groot is met een multimeter. Wat doe je eerst?",
         opties=[
             "het grootste meetbereik kiezen en daarna verfijnen",
             "het kleinste meetbereik kiezen voor de grootste nauwkeurigheid",
@@ -88,7 +88,7 @@ DEEL1 = [
     ),
     dict(
         type="meerkeuze",
-        vraag="Je wil een tijdsduur van ongeveer 2 s meten. Wat kies je?",
+        vraag=r"Je wil een tijdsduur van ongeveer \(2\) s meten. Wat kies je?",
         opties=[
             "een chronometer tot op een honderdste seconde",
             "een gewone keukenklok met een secondewijzer",
@@ -144,7 +144,7 @@ DEEL1 = [
             "een eenheid vervangt het aantal beduidende cijfers",
         ],
         antwoord=0,
-        uitleg="Een 5 kan 5 m, 5 kg of 5 s zijn. Zonder eenheid kan je twee metingen niet vergelijken en niet verder rekenen.",
+        uitleg=r"Een \(5\) kan \(5\) m, \(5\) kg of \(5\) s zijn. Zonder eenheid kan je twee metingen niet vergelijken en niet verder rekenen.",
     ),
     dict(
         type="waarofniet",
@@ -261,7 +261,7 @@ DEEL2 = [
             "de vraag gaat over een meetbaar voorwerp",
         ],
         antwoord=0,
-        uitleg="\"Waarom is zonne-energie de beste keuze?\" zit al vol overtuiging. \"Hoeveel energie levert een zonnepaneel per maand?\" is objectief.",
+        uitleg=r"\"Waarom is zonne-energie de beste keuze?\" zit al vol overtuiging. \"Hoeveel energie levert een zonnepaneel per maand?\" is objectief.",
     ),
     dict(
         type="meerkeuze",

@@ -30,55 +30,55 @@
             0,
             1
           ],
-          "uitleg": "De meter en de kilogram zijn SI-eenheden. De liter en de kilometer per uur zijn veelgebruikte eenheden, maar niet de SI-eenheid van volume (m³) of van snelheid (m/s)."
+          "uitleg": "De meter en de kilogram zijn SI-eenheden. De liter en de kilometer per uur zijn veelgebruikte eenheden, maar niet de SI-eenheid van volume (\\(\\text{m}^{3}\\)) of van snelheid (m/s)."
         },
         {
           "type": "meerkeuze",
           "vraag": "Welke waarde hoort bij het voorvoegsel micro?",
           "opties": [
-            "10⁻⁶",
-            "10⁻³",
-            "10⁻⁹",
-            "10⁶"
+            "\\(10^{-6}\\)",
+            "\\(10^{-3}\\)",
+            "\\(10^{-9}\\)",
+            "\\(10^{6}\\)"
           ],
           "antwoord": 0,
-          "uitleg": "Micro staat voor een miljoenste, dus 10⁻⁶. Milli is 10⁻³, nano is 10⁻⁹ en mega is 10⁶."
+          "uitleg": "Micro staat voor een miljoenste, dus \\(10^{-6}\\). Milli is \\(10^{-3}\\), nano is \\(10^{-9}\\) en mega is \\(10^{6}\\)."
         },
         {
           "type": "meerkeuze",
-          "vraag": "Hoeveel meter is 2,5 km?",
+          "vraag": "Hoeveel meter is \\(2{,}5\\) km?",
           "opties": [
-            "2500 m",
-            "250 m",
-            "25 000 m",
-            "0,0025 m"
+            "\\(2500\\) m",
+            "\\(250\\) m",
+            "\\(25\\,000\\) m",
+            "\\(0{,}0025\\) m"
           ],
           "antwoord": 0,
-          "uitleg": "Kilo betekent duizend, dus 2,5 km = 2,5 . 10³ m = 2500 m."
+          "uitleg": "Kilo betekent duizend, dus \\(2{,}5\\) km = \\(2{,}5\\) . \\(10^{3}\\) \\(m = 2500\\) m."
         },
         {
           "type": "meerkeuze",
-          "vraag": "Een snelheid van 72 km/h omgerekend naar de SI-eenheid is:",
+          "vraag": "Een snelheid van \\(72\\) km/h omgerekend naar de SI-eenheid is:",
           "opties": [
-            "20 m/s",
-            "72 m/s",
-            "7,2 m/s",
-            "259 m/s"
+            "\\(20\\) m/s",
+            "\\(72\\) m/s",
+            "\\(7{,}2\\) m/s",
+            "\\(259\\) m/s"
           ],
           "antwoord": 0,
-          "uitleg": "Deel door 3,6 om van km/h naar m/s te gaan: 72 / 3,6 = 20 m/s. In één uur zitten 3600 s en in één kilometer 1000 m."
+          "uitleg": "Deel door \\(3{,}6\\) om van km/h naar m/s te gaan: \\(72 / 3{,}6 = 20\\) m/s. In één uur zitten \\(3600\\) s en in één kilometer \\(1000\\) m."
         },
         {
           "type": "meerkeuze",
-          "vraag": "Hoe schrijf je 0,00045 m in de wetenschappelijke notatie?",
+          "vraag": "Hoe schrijf je \\(0{,}00045\\) m in de wetenschappelijke notatie?",
           "opties": [
-            "4,5 . 10⁻⁴ m",
-            "45 . 10⁻⁵ m",
-            "4,5 . 10⁴ m",
-            "0,45 . 10⁻³ m"
+            "\\(4{,}5 \\times 10^{-4}\\) m",
+            "\\(45 \\times 10^{-5}\\) m",
+            "\\(4{,}5 \\times 10^{4}\\) m",
+            "\\(0{,}45 \\times 10^{-3}\\) m"
           ],
           "antwoord": 0,
-          "uitleg": "In de wetenschappelijke notatie staat er één cijfer voor de komma, van 1 tot 9. De komma schuift vier plaatsen naar rechts, dus de exponent is −4."
+          "uitleg": "In de wetenschappelijke notatie staat er één cijfer voor de komma, van \\(1\\) tot \\(9\\). De komma schuift vier plaatsen naar rechts, dus de exponent is \\(-4\\)."
         },
         {
           "type": "meerkeuze",
@@ -109,15 +109,15 @@
         },
         {
           "type": "meerkeuze",
-          "vraag": "Hoeveel kubieke meter is 500 liter?",
+          "vraag": "Hoeveel kubieke meter is \\(500\\) liter?",
           "opties": [
-            "0,5 m³",
-            "5 m³",
-            "50 m³",
-            "0,05 m³"
+            "\\(0{,}5\\,\\text{m}^{3}\\)",
+            "\\(5\\,\\text{m}^{3}\\)",
+            "\\(50\\,\\text{m}^{3}\\)",
+            "\\(0{,}05\\,\\text{m}^{3}\\)"
           ],
           "antwoord": 0,
-          "uitleg": "Eén kubieke meter is 1000 liter. Dus 500 L = 500 / 1000 = 0,5 m³."
+          "uitleg": "Eén kubieke meter is \\(1000\\) liter. Dus \\(500\\) \\(L = 500 / 1000 = 0{,}5\\,\\text{m}^{3}\\)."
         },
         {
           "type": "meerkeuze",
@@ -132,19 +132,19 @@
             0,
             1
           ],
-          "uitleg": "De ohm hoort bij weerstand en de joule bij warmte. De massadichtheid heeft kg/m³ als eenheid, en een versnelling m/s²."
+          "uitleg": "De ohm hoort bij weerstand en de joule bij warmte. De massadichtheid heeft kg/\\(\\text{m}^{3}\\) als eenheid, en een versnelling \\(\\text{m/s}^{2}\\)."
         },
         {
           "type": "meerkeuze",
-          "vraag": "Een massa van 2,4 ton is in de SI-eenheid:",
+          "vraag": "Een massa van \\(2{,}4\\) ton is in de SI-eenheid:",
           "opties": [
-            "2400 kg",
-            "240 kg",
-            "24 000 kg",
-            "2,4 kg"
+            "\\(2400\\) kg",
+            "\\(240\\) kg",
+            "\\(24\\,000\\) kg",
+            "\\(2{,}4\\) kg"
           ],
           "antwoord": 0,
-          "uitleg": "Eén ton is 1000 kg, dus 2,4 ton = 2400 kg. De ton is geen SI-eenheid, de kilogram wel."
+          "uitleg": "Eén ton is \\(1000\\) kg, dus \\(2{,}4\\) ton = \\(2400\\) kg. De ton is geen SI-eenheid, de kilogram wel."
         },
         {
           "type": "waarofniet",
@@ -156,13 +156,13 @@
           "type": "waarofniet",
           "vraag": "Een graad Celsius en een kelvin zijn even grote stappen op de temperatuurschaal.",
           "antwoord": true,
-          "uitleg": "Een verschil van 1 °C is even groot als een verschil van 1 K. Enkel het nulpunt ligt anders: 0 K is −273,15 °C."
+          "uitleg": "Een verschil van \\(1^{\\circ}\\text{C}\\) is even groot als een verschil van \\(1\\) K. Enkel het nulpunt ligt anders: \\(0\\) K is \\(-273{,}15^{\\circ}\\text{C}\\)."
         },
         {
           "type": "waarofniet",
           "vraag": "Het voorvoegsel deca staat voor honderd.",
           "antwoord": false,
-          "uitleg": "Deca is tien, dus 10¹. Hecto is honderd."
+          "uitleg": "Deca is tien, dus \\(10^{1}\\). Hecto is honderd."
         },
         {
           "type": "waarofniet",
@@ -174,7 +174,7 @@
           "type": "waarofniet",
           "vraag": "De eenheid van vermogen is de watt, en één watt is één joule per seconde.",
           "antwoord": true,
-          "uitleg": "Vermogen is energie per tijd, dus 1 W = 1 J/s."
+          "uitleg": "Vermogen is energie per tijd, dus \\(1\\) \\(W = 1\\) J/s."
         },
         {
           "type": "invultekst",
@@ -188,12 +188,12 @@
         },
         {
           "type": "invultekst",
-          "vraag": "Welk voorvoegsel hoort bij de waarde 10³? Schrijf de naam.",
+          "vraag": "Welk voorvoegsel hoort bij de waarde \\(10^{3}\\)? Schrijf de naam.",
           "antwoord": [
             "kilo",
             "kilo-"
           ],
-          "uitleg": "Kilo staat voor duizend, dus 10³. Het symbool is k, zoals in km en kg."
+          "uitleg": "Kilo staat voor duizend, dus \\(10^{3}\\). Het symbool is k, zoals in km en kg."
         },
         {
           "type": "invultekst",
@@ -202,16 +202,16 @@
             "900",
             "900 s"
           ],
-          "uitleg": "Een kwartier is 15 minuten en elke minuut heeft 60 s: 15 . 60 = 900 s."
+          "uitleg": "Een kwartier is \\(15\\) minuten en elke minuut heeft \\(60\\) s: \\(15 \\times 60 = 900\\) s."
         },
         {
           "type": "invultekst",
-          "vraag": "Hoeveel beduidende cijfers heeft het meetresultaat 0,0250 m? Schrijf het getal.",
+          "vraag": "Hoeveel beduidende cijfers heeft het meetresultaat \\(0{,}0250\\) m? Schrijf het getal.",
           "antwoord": [
             "3",
             "drie"
           ],
-          "uitleg": "De nullen vooraan tellen niet mee, maar de 2, de 5 en de laatste 0 wel. Die laatste nul staat er niet voor niets: ze zegt dat er tot op de tiende millimeter gemeten is."
+          "uitleg": "De nullen vooraan tellen niet mee, maar de \\(2\\), de \\(5\\) en de laatste \\(0\\) wel. Die laatste nul staat er niet voor niets: ze zegt dat er tot op de tiende millimeter gemeten is."
         }
       ]
     },
@@ -288,15 +288,15 @@
         },
         {
           "type": "meerkeuze",
-          "vraag": "Uit de formule p = F / A wil je A vrijmaken. Wat krijg je?",
+          "vraag": "Uit de formule \\(p = F / A\\) wil je A vrijmaken. Wat krijg je?",
           "opties": [
-            "A = F / p",
-            "A = p / F",
-            "A = p . F",
-            "A = F − p"
+            "\\(A = F / p\\)",
+            "\\(A = p / F\\)",
+            "\\(A = p\\) . F",
+            "\\(A = F\\) \\(- p\\)"
           ],
           "antwoord": 0,
-          "uitleg": "Vermenigvuldig beide leden met A en deel daarna door p: A = F / p."
+          "uitleg": "Vermenigvuldig beide leden met A en deel daarna door p: \\(A = F / p\\)."
         },
         {
           "type": "meerkeuze",
@@ -315,7 +315,7 @@
         },
         {
           "type": "meerkeuze",
-          "vraag": "Een leerling meet een tafel met een meetlint en noteert 1,2534 m. Wat is daar vreemd aan?",
+          "vraag": "Een leerling meet een tafel met een meetlint en noteert \\(1{,}2534\\) m. Wat is daar vreemd aan?",
           "opties": [
             "een meetlint kan niet tot op een tiende millimeter meten",
             "het resultaat staat niet in de wetenschappelijke notatie",
@@ -323,31 +323,31 @@
             "de eenheid m is geen SI-eenheid"
           ],
           "antwoord": 0,
-          "uitleg": "Het aantal beduidende cijfers moet passen bij de nauwkeurigheid van het instrument. Een gewoon meetlint leest tot op de millimeter af, dus 1,253 m is het meest dat je mag noteren."
+          "uitleg": "Het aantal beduidende cijfers moet passen bij de nauwkeurigheid van het instrument. Een gewoon meetlint leest tot op de millimeter af, dus \\(1{,}253\\) m is het meest dat je mag noteren."
         },
         {
           "type": "meerkeuze",
-          "vraag": "Je moet 0,8 L water afmeten. Welke maatcilinder is het geschiktst?",
+          "vraag": "Je moet \\(0{,}8\\) L water afmeten. Welke maatcilinder is het geschiktst?",
           "opties": [
-            "een cilinder van 1 L met streepjes per 10 mL",
-            "een cilinder van 5 L met streepjes per 100 mL",
-            "een cilinder van 100 mL met streepjes per 1 mL",
-            "een cilinder van 50 mL met streepjes per 0,5 mL"
+            "een cilinder van \\(1\\) L met streepjes per \\(10\\) mL",
+            "een cilinder van \\(5\\) L met streepjes per \\(100\\) mL",
+            "een cilinder van \\(100\\) mL met streepjes per \\(1\\) mL",
+            "een cilinder van \\(50\\) mL met streepjes per \\(0{,}5\\) mL"
           ],
           "antwoord": 0,
-          "uitleg": "Je hebt een cilinder nodig waar 0,8 L in past en die toch fijn genoeg afleest. De cilinders van 100 mL en 50 mL zijn te klein, en bij de cilinder van 5 L zijn de streepjes te grof."
+          "uitleg": "Je hebt een cilinder nodig waar \\(0{,}8\\) L in past en die toch fijn genoeg afleest. De cilinders van \\(100\\) mL en \\(50\\) mL zijn te klein, en bij de cilinder van \\(5\\) L zijn de streepjes te grof."
         },
         {
           "type": "meerkeuze",
           "vraag": "Welke schatting is realistisch?",
           "opties": [
-            "een fles water van 1,5 L heeft een massa van ongeveer 1,5 kg",
-            "een fles water van 1,5 L heeft een massa van ongeveer 15 kg",
-            "een volwassen mens heeft een massa van ongeveer 700 kg",
-            "een auto rijdt in de stad ongeveer 300 km/h"
+            "een fles water van \\(1{,}5\\) L heeft een massa van ongeveer \\(1{,}5\\) kg",
+            "een fles water van \\(1{,}5\\) L heeft een massa van ongeveer \\(15\\) kg",
+            "een volwassen mens heeft een massa van ongeveer \\(700\\) kg",
+            "een auto rijdt in de stad ongeveer \\(300\\) km/h"
           ],
           "antwoord": 0,
-          "uitleg": "Water heeft een massadichtheid van 1000 kg/m³, dus één liter weegt ongeveer één kilogram. Schatten helpt om een rekenfout op te sporen: 700 kg voor een mens kan niet."
+          "uitleg": "Water heeft een massadichtheid van \\(1000\\) kg/\\(\\text{m}^{3}\\), dus één liter weegt ongeveer één kilogram. Schatten helpt om een rekenfout op te sporen: \\(700\\) kg voor een mens kan niet."
         },
         {
           "type": "meerkeuze",
@@ -359,7 +359,7 @@
             "de lengte van de veer in rust"
           ],
           "antwoord": 0,
-          "uitleg": "Bij Fv = k . Δl is k de verhouding van de kracht tot de lengteverandering, en dat is net de steilheid van de rechte."
+          "uitleg": "Bij \\(F_{v} = k \\cdot \\Delta l\\) is k de verhouding van de kracht tot de lengteverandering, en dat is net de steilheid van de rechte."
         },
         {
           "type": "waarofniet",
@@ -389,7 +389,7 @@
           "type": "waarofniet",
           "vraag": "Bij een kwadratisch verband tussen v en Ek wordt Ek vier keer zo groot als v verdubbelt.",
           "antwoord": true,
-          "uitleg": "In Ek = m . v² / 2 staat de snelheid in het kwadraat. Twee keer zo snel geeft dus vier keer zoveel kinetische energie."
+          "uitleg": "In \\(E_{k} = m \\cdot v^{2} / 2\\) staat de snelheid in het kwadraat. Twee keer zo snel geeft dus vier keer zoveel kinetische energie."
         },
         {
           "type": "invultekst",
@@ -413,13 +413,13 @@
         },
         {
           "type": "invultekst",
-          "vraag": "Je rekent 45 mm om naar meter. Schrijf het resultaat in meter.",
+          "vraag": "Je rekent \\(45\\) mm om naar meter. Schrijf het resultaat in meter.",
           "antwoord": [
             "0,045",
             "0,045 m",
             "0.045"
           ],
-          "uitleg": "Milli is een duizendste, dus 45 mm = 45 / 1000 m = 0,045 m."
+          "uitleg": "Milli is een duizendste, dus \\(45\\) mm = \\(45\\) / \\(1000\\) \\(m = 0{,}045\\) m."
         },
         {
           "type": "invultekst",
@@ -452,15 +452,15 @@
         },
         {
           "type": "meerkeuze",
-          "vraag": "Een loper legt één volledige ronde van 400 m af op een piste. Wat geldt?",
+          "vraag": "Een loper legt één volledige ronde van \\(400\\) m af op een piste. Wat geldt?",
           "opties": [
-            "de afgelegde weg is 400 m en de verplaatsing is 0 m",
-            "de afgelegde weg is 0 m en de verplaatsing is 400 m",
-            "beide zijn 400 m",
-            "beide zijn 0 m"
+            "de afgelegde weg is \\(400\\) m en de verplaatsing is \\(0\\) m",
+            "de afgelegde weg is \\(0\\) m en de verplaatsing is \\(400\\) m",
+            "beide zijn \\(400\\) m",
+            "beide zijn \\(0\\) m"
           ],
           "antwoord": 0,
-          "uitleg": "Na één ronde staat de loper weer op zijn startplaats, dus de verplaatsing is nul. De afgelegde weg is wel de hele 400 m."
+          "uitleg": "Na één ronde staat de loper weer op zijn startplaats, dus de verplaatsing is nul. De afgelegde weg is wel de hele \\(400\\) m."
         },
         {
           "type": "meerkeuze",
@@ -494,15 +494,15 @@
         },
         {
           "type": "meerkeuze",
-          "vraag": "Een auto rijdt 150 km in 2,0 uur. Wat is de gemiddelde snelheid?",
+          "vraag": "Een auto rijdt \\(150\\) km in \\(2{,}0\\) uur. Wat is de gemiddelde snelheid?",
           "opties": [
-            "75 km/h",
-            "300 km/h",
-            "7,5 km/h",
-            "50 km/h"
+            "\\(75\\) km/h",
+            "\\(300\\) km/h",
+            "\\(7{,}5\\) km/h",
+            "\\(50\\) km/h"
           ],
           "antwoord": 0,
-          "uitleg": "Met vg = Δx / Δt krijg je 150 km / 2,0 h = 75 km/h. Dat zegt niets over de snelheid op één bepaald ogenblik."
+          "uitleg": "Met vg = Δx / Δt krijg je \\(150\\) km / \\(2{,}0\\) \\(h = 75\\) km/h. Dat zegt niets over de snelheid op één bepaald ogenblik."
         },
         {
           "type": "meerkeuze",
@@ -534,7 +534,7 @@
           "opties": [
             "m/s",
             "km/h",
-            "m/s²",
+            "\\(\\text{m/s}^{2}\\)",
             "m"
           ],
           "antwoord": 0,
@@ -557,15 +557,15 @@
         },
         {
           "type": "meerkeuze",
-          "vraag": "Een wandelaar vertrekt op positie x₀ = 20 m en wandelt in de positieve zin tot x = 95 m. Hoe groot is de verplaatsing?",
+          "vraag": "Een wandelaar vertrekt op positie \\(x_{0} = 20\\) m en wandelt in de positieve zin tot \\(x = 95\\) m. Hoe groot is de verplaatsing?",
           "opties": [
-            "75 m",
-            "115 m",
-            "−75 m",
-            "95 m"
+            "\\(75\\) m",
+            "\\(115\\) m",
+            "\\(-75\\) m",
+            "\\(95\\) m"
           ],
           "antwoord": 0,
-          "uitleg": "De verplaatsing is Δx = x − x₀ = 95 − 20 = 75 m. Ze is positief, want de wandelaar gaat in de zin van de x-as."
+          "uitleg": "De verplaatsing is \\(\\Delta x = x - x_{0} = 95 - 20 = 75\\) m. Ze is positief, want de wandelaar gaat in de zin van de x-as."
         },
         {
           "type": "meerkeuze",
@@ -607,7 +607,7 @@
           "type": "waarofniet",
           "vraag": "De eenheid km/h is groter dan de eenheid m/s, want er staat kilo in.",
           "antwoord": false,
-          "uitleg": "Omgekeerd: 1 m/s is 3,6 km/h, dus de meter per seconde is de grotere eenheid. De uren in de noemer maken het verschil."
+          "uitleg": "Omgekeerd: \\(1\\) m/s is \\(3{,}6\\) km/h, dus de meter per seconde is de grotere eenheid. De uren in de noemer maken het verschil."
         },
         {
           "type": "invultekst",
@@ -621,12 +621,12 @@
         },
         {
           "type": "invultekst",
-          "vraag": "Een auto rijdt met 25 m/s. Hoeveel meter rijdt hij in 4,0 s? Schrijf het getal in meter.",
+          "vraag": "Een auto rijdt met \\(25\\) m/s. Hoeveel meter rijdt hij in \\(4{,}0\\) s? Schrijf het getal in meter.",
           "antwoord": [
             "100",
             "100 m"
           ],
-          "uitleg": "Bij een ERB is Δx = v . Δt = 25 . 4,0 = 100 m."
+          "uitleg": "Bij een ERB is \\(\\Delta x = v \\cdot \\Delta t = 25 \\times 4{,}0 = 100\\) m."
         },
         {
           "type": "invultekst",
@@ -640,12 +640,12 @@
         },
         {
           "type": "invultekst",
-          "vraag": "Een trein legt 60 km af in een half uur. Wat is zijn gemiddelde snelheid in km/h? Schrijf het getal.",
+          "vraag": "Een trein legt \\(60\\) km af in een half uur. Wat is zijn gemiddelde snelheid in km/h? Schrijf het getal.",
           "antwoord": [
             "120",
             "120 km/h"
           ],
-          "uitleg": "vg = 60 km / 0,5 h = 120 km/h."
+          "uitleg": "vg = \\(60\\) km / \\(0{,}5\\) \\(h = 120\\) km/h."
         }
       ]
     },
@@ -664,7 +664,7 @@
             "de tijdsduur"
           ],
           "antwoord": 0,
-          "uitleg": "De steilheid is Δx / Δt, en dat is net de snelheid. Een steilere rechte betekent dus sneller."
+          "uitleg": "De steilheid is \\(\\Delta x / \\Delta t\\), en dat is net de snelheid. Een steilere rechte betekent dus sneller."
         },
         {
           "type": "meerkeuze",
@@ -704,21 +704,21 @@
         },
         {
           "type": "meerkeuze",
-          "vraag": "De positiefunctie van een beweging is x = 10 + 3 . t, met x in meter en t in seconde. Wat is de snelheid?",
+          "vraag": "De positiefunctie van een beweging is \\(x = 10 + 3\\) . t, met x in meter en t in seconde. Wat is de snelheid?",
           "opties": [
-            "3 m/s",
-            "10 m/s",
-            "13 m/s",
-            "30 m/s"
+            "\\(3\\) m/s",
+            "\\(10\\) m/s",
+            "\\(13\\) m/s",
+            "\\(30\\) m/s"
           ],
           "antwoord": 0,
-          "uitleg": "In x = x₀ + v . t is 10 m de beginpositie en 3 m/s de snelheid."
+          "uitleg": "In \\(x = x_{0} + v \\cdot t\\) is \\(10\\) m de beginpositie en \\(3\\) m/s de snelheid."
         },
         {
           "type": "meerkeuze",
-          "vraag": "De positiefunctie is x = 40 − 5 . t, met x in meter en t in seconde. Welke uitspraken zijn juist? Kruis alles aan wat juist is.",
+          "vraag": "De positiefunctie is \\(x = 40 - 5\\) . t, met x in meter en t in seconde. Welke uitspraken zijn juist? Kruis alles aan wat juist is.",
           "opties": [
-            "het voorwerp vertrekt op 40 m",
+            "het voorwerp vertrekt op \\(40\\) m",
             "het voorwerp beweegt tegen de zin van de x-as",
             "het voorwerp staat stil",
             "het voorwerp vertrekt in de oorsprong"
@@ -727,31 +727,31 @@
             0,
             1
           ],
-          "uitleg": "De beginpositie is 40 m en de snelheid is −5 m/s. Het minteken zegt dat het voorwerp naar kleinere x-waarden toe gaat."
+          "uitleg": "De beginpositie is \\(40\\) m en de snelheid is \\(-5\\) m/s. Het minteken zegt dat het voorwerp naar kleinere x-waarden toe gaat."
         },
         {
           "type": "meerkeuze",
-          "vraag": "Een voorwerp heeft een positiefunctie x = 40 − 5 . t, met x in meter en t in seconde. Op welk tijdstip is het in de oorsprong?",
+          "vraag": "Een voorwerp heeft een positiefunctie \\(x = 40 - 5\\) . t, met x in meter en t in seconde. Op welk tijdstip is het in de oorsprong?",
           "opties": [
-            "na 8,0 s",
-            "na 5,0 s",
-            "na 40 s",
-            "na 200 s"
+            "na \\(8{,}0\\) s",
+            "na \\(5{,}0\\) s",
+            "na \\(40\\) s",
+            "na \\(200\\) s"
           ],
           "antwoord": 0,
-          "uitleg": "Stel x = 0: dan is 5 . t = 40, dus t = 8,0 s."
+          "uitleg": "Stel \\(x = 0\\): dan is \\(5 \\times t = 40\\), dus \\(t = 8{,}0\\) s."
         },
         {
           "type": "meerkeuze",
-          "vraag": "In een v(t)-grafiek staat een horizontale lijn op −4 m/s gedurende 3,0 s. Hoe groot is de verplaatsing?",
+          "vraag": "In een v(t)-grafiek staat een horizontale lijn op \\(-4\\) m/s gedurende \\(3{,}0\\) s. Hoe groot is de verplaatsing?",
           "opties": [
-            "−12 m",
-            "12 m",
-            "−1,3 m",
-            "−7,0 m"
+            "\\(-12\\) m",
+            "\\(12\\) m",
+            "\\(-1{,}3\\) m",
+            "\\(-7{,}0\\) m"
           ],
           "antwoord": 0,
-          "uitleg": "Δx = v . Δt = −4 . 3,0 = −12 m. Het voorwerp gaat 12 m tegen de zin van de x-as in."
+          "uitleg": "\\(\\Delta x = v \\cdot \\Delta t = -4 \\times 3{,}0 = -12\\) m. Het voorwerp gaat \\(12\\) m tegen de zin van de x-as in."
         },
         {
           "type": "meerkeuze",
@@ -770,27 +770,27 @@
         },
         {
           "type": "meerkeuze",
-          "vraag": "Een wandelaar vertrekt om 9 uur en wandelt met 5,0 km/h. Een fietser vertrekt om 10 uur op dezelfde plaats met 15 km/h. Na hoeveel tijd haalt de fietser de wandelaar in?",
+          "vraag": "Een wandelaar vertrekt om \\(9\\) uur en wandelt met \\(5{,}0\\) km/h. Een fietser vertrekt om \\(10\\) uur op dezelfde plaats met \\(15\\) km/h. Na hoeveel tijd haalt de fietser de wandelaar in?",
           "opties": [
-            "na 0,50 h",
-            "na 1,0 h",
-            "na 1,5 h",
-            "na 3,0 h"
+            "na \\(0{,}50\\) h",
+            "na \\(1{,}0\\) h",
+            "na \\(1{,}5\\) h",
+            "na \\(3{,}0\\) h"
           ],
           "antwoord": 0,
-          "uitleg": "Bij het vertrek van de fietser heeft de wandelaar al 5,0 km voorsprong. De fietser loopt 10 km/h in, dus hij heeft 5,0 / 10 = 0,50 h nodig."
+          "uitleg": "Bij het vertrek van de fietser heeft de wandelaar al \\(5{,}0\\) km voorsprong. De fietser loopt \\(10\\) km/h in, dus hij heeft \\(5{,}0 / 10 = 0{,}50\\) h nodig."
         },
         {
           "type": "meerkeuze",
-          "vraag": "Twee auto's rijden naar elkaar toe, 120 km van elkaar, de ene met 70 km/h en de andere met 50 km/h. Wanneer kruisen ze?",
+          "vraag": "Twee auto's rijden naar elkaar toe, \\(120\\) km van elkaar, de ene met \\(70\\) km/h en de andere met \\(50\\) km/h. Wanneer kruisen ze?",
           "opties": [
-            "na 1,0 h",
-            "na 2,0 h",
-            "na 0,50 h",
-            "na 1,7 h"
+            "na \\(1{,}0\\) h",
+            "na \\(2{,}0\\) h",
+            "na \\(0{,}50\\) h",
+            "na \\(1{,}7\\) h"
           ],
           "antwoord": 0,
-          "uitleg": "Samen naderen ze met 70 + 50 = 120 km/h. Over 120 km duurt dat 1,0 h."
+          "uitleg": "Samen naderen ze met \\(70 + 50 = 120\\) km/h. Over \\(120\\) km duurt dat \\(1{,}0\\) h."
         },
         {
           "type": "waarofniet",
@@ -834,16 +834,16 @@
         },
         {
           "type": "invultekst",
-          "vraag": "Een fietser rijdt met 6,0 m/s gedurende 1,0 minuut. Hoeveel meter legt hij af? Schrijf het getal in meter.",
+          "vraag": "Een fietser rijdt met \\(6{,}0\\) m/s gedurende \\(1{,}0\\) minuut. Hoeveel meter legt hij af? Schrijf het getal in meter.",
           "antwoord": [
             "360",
             "360 m"
           ],
-          "uitleg": "Reken de tijd eerst om: 1,0 min = 60 s. Dan is Δx = 6,0 . 60 = 360 m."
+          "uitleg": "Reken de tijd eerst om: \\(1{,}0\\) min = \\(60\\) s. Dan is \\(\\Delta x = 6{,}0 \\times 60 = 360\\) m."
         },
         {
           "type": "invultekst",
-          "vraag": "In de positiefunctie x = x₀ + v.(t − t₀): wat stelt x₀ voor? Schrijf het woord.",
+          "vraag": "In de positiefunctie \\(x = x_{0} + v \\cdot \\left(t - t_{0}\\right)\\): wat stelt x₀ voor? Schrijf het woord.",
           "antwoord": [
             "beginpositie",
             "de beginpositie",
@@ -853,12 +853,12 @@
         },
         {
           "type": "invultekst",
-          "vraag": "Een auto rijdt met een constante snelheid en legt 480 m af in 16 s. Wat is zijn snelheid in m/s? Schrijf het getal.",
+          "vraag": "Een auto rijdt met een constante snelheid en legt \\(480\\) m af in \\(16\\) s. Wat is zijn snelheid in m/s? Schrijf het getal.",
           "antwoord": [
             "30",
             "30 m/s"
           ],
-          "uitleg": "v = 480 / 16 = 30 m/s. Dat is ongeveer 108 km/h."
+          "uitleg": "\\(v = 480 / 16 = 30\\) m/s. Dat is ongeveer \\(108\\) km/h."
         }
       ]
     },
@@ -883,7 +883,7 @@
           "type": "meerkeuze",
           "vraag": "Wat is de SI-eenheid van versnelling?",
           "opties": [
-            "m/s²",
+            "\\(\\text{m/s}^{2}\\)",
             "m/s",
             "m",
             "N"
@@ -925,7 +925,7 @@
             "de positie"
           ],
           "antwoord": 0,
-          "uitleg": "De steilheid is Δv / Δt, en dat is de gemiddelde versnelling."
+          "uitleg": "De steilheid is \\(\\Delta v / \\Delta t\\), en dat is de gemiddelde versnelling."
         },
         {
           "type": "meerkeuze",
@@ -944,27 +944,27 @@
         },
         {
           "type": "meerkeuze",
-          "vraag": "Een wagen gaat van 0 naar 20 m/s in 5,0 s. Wat is de gemiddelde versnelling?",
+          "vraag": "Een wagen gaat van \\(0\\) naar \\(20\\) m/s in \\(5{,}0\\) s. Wat is de gemiddelde versnelling?",
           "opties": [
-            "4,0 m/s²",
-            "100 m/s²",
-            "0,25 m/s²",
-            "20 m/s²"
+            "\\(4{,}0\\ \\text{m/s}^{2}\\)",
+            "\\(100\\ \\text{m/s}^{2}\\)",
+            "\\(0{,}25\\ \\text{m/s}^{2}\\)",
+            "\\(20\\ \\text{m/s}^{2}\\)"
           ],
           "antwoord": 0,
-          "uitleg": "ag = Δv / Δt = 20 / 5,0 = 4,0 m/s²."
+          "uitleg": "ag = Δv / Δt = \\(20\\) / \\(5{,}0 = 4{,}0\\ \\text{m/s}^{2}\\)."
         },
         {
           "type": "meerkeuze",
-          "vraag": "Een trein remt van 30 m/s naar 10 m/s in 8,0 s. Wat is de gemiddelde versnelling?",
+          "vraag": "Een trein remt van \\(30\\) m/s naar \\(10\\) m/s in \\(8{,}0\\) s. Wat is de gemiddelde versnelling?",
           "opties": [
-            "−2,5 m/s²",
-            "2,5 m/s²",
-            "−5,0 m/s²",
-            "−20 m/s²"
+            "\\(-2{,}5\\ \\text{m/s}^{2}\\)",
+            "\\(2{,}5\\ \\text{m/s}^{2}\\)",
+            "\\(-5{,}0\\ \\text{m/s}^{2}\\)",
+            "\\(-20\\ \\text{m/s}^{2}\\)"
           ],
           "antwoord": 0,
-          "uitleg": "Δv = 10 − 30 = −20 m/s en Δt = 8,0 s, dus ag = −20 / 8,0 = −2,5 m/s². Het minteken hoort bij het vertragen."
+          "uitleg": "\\(\\Delta v = 10 - 30 = -20\\) m/s en \\(\\Delta t = 8{,}0\\) s, dus ag = \\(-20\\) / \\(8{,}0 = -2{,}5\\ \\text{m/s}^{2}\\). Het minteken hoort bij het vertragen."
         },
         {
           "type": "meerkeuze",
@@ -1047,13 +1047,13 @@
         },
         {
           "type": "invultekst",
-          "vraag": "Een bromfiets gaat van 4,0 m/s naar 14 m/s in 5,0 s. Hoe groot is de gemiddelde versnelling in m/s²? Schrijf het getal.",
+          "vraag": "Een bromfiets gaat van \\(4{,}0\\) m/s naar \\(14\\) m/s in \\(5{,}0\\) s. Hoe groot is de gemiddelde versnelling in \\(\\text{m/s}^{2}\\)? Schrijf het getal.",
           "antwoord": [
             "2",
             "2,0",
             "2 m/s²"
           ],
-          "uitleg": "Δv = 14 − 4,0 = 10 m/s, dus ag = 10 / 5,0 = 2,0 m/s²."
+          "uitleg": "\\(\\Delta v = 14 - 4{,}0 = 10\\) m/s, dus ag = \\(10\\) / \\(5{,}0 = 2{,}0\\ \\text{m/s}^{2}\\)."
         },
         {
           "type": "invultekst",
@@ -1101,13 +1101,13 @@
           "type": "meerkeuze",
           "vraag": "Hoe groot is de valversnelling in België?",
           "opties": [
-            "9,81 m/s²",
-            "1,62 m/s²",
-            "98,1 m/s²",
-            "0,981 m/s²"
+            "\\(9{,}81\\ \\text{m/s}^{2}\\)",
+            "\\(1{,}62\\ \\text{m/s}^{2}\\)",
+            "\\(98{,}1\\ \\text{m/s}^{2}\\)",
+            "\\(0{,}981\\ \\text{m/s}^{2}\\)"
           ],
           "antwoord": 0,
-          "uitleg": "g = 9,81 m/s², of ook 9,81 N/kg. Op de maan is dat veel kleiner, ongeveer 1,62 m/s²."
+          "uitleg": "\\(g = 9{,}81\\ \\text{m/s}^{2}\\), of ook \\(9{,}81\\) N/kg. Op de maan is dat veel kleiner, ongeveer \\(1{,}62\\ \\text{m/s}^{2}\\)."
         },
         {
           "type": "meerkeuze",
@@ -1119,14 +1119,14 @@
             "ze wordt eerst groter en dan kleiner"
           ],
           "antwoord": 0,
-          "uitleg": "De valversnelling werkt naar beneden en de bal gaat naar boven, dus de snelheid neemt elke seconde met 9,81 m/s af."
+          "uitleg": "De valversnelling werkt naar beneden en de bal gaat naar boven, dus de snelheid neemt elke seconde met \\(9{,}81\\) m/s af."
         },
         {
           "type": "meerkeuze",
           "vraag": "Welke uitspraken over het hoogste punt van een verticale worp naar boven zijn juist? Kruis alles aan wat juist is.",
           "opties": [
             "de snelheid is daar nul",
-            "de versnelling is daar 9,81 m/s² naar beneden",
+            "de versnelling is daar \\(9{,}81\\ \\text{m/s}^{2}\\) naar beneden",
             "de versnelling is daar nul",
             "de zwaartekracht werkt daar niet"
           ],
@@ -1146,13 +1146,13 @@
             "een kromme die steeds vlakker wordt"
           ],
           "antwoord": 0,
-          "uitleg": "De snelheid begint op nul en groeit elke seconde met 9,81 m/s. Dat geeft een rechte door de oorsprong."
+          "uitleg": "De snelheid begint op nul en groeit elke seconde met \\(9{,}81\\) m/s. Dat geeft een rechte door de oorsprong."
         },
         {
           "type": "meerkeuze",
           "vraag": "Een a(t)-grafiek van een vrije val is:",
           "opties": [
-            "een horizontale lijn op 9,81 m/s²",
+            "een horizontale lijn op \\(9{,}81\\ \\text{m/s}^{2}\\)",
             "een rechte die gelijkmatig stijgt",
             "een rechte die gelijkmatig daalt",
             "een horizontale lijn op nul"
@@ -1174,27 +1174,27 @@
         },
         {
           "type": "meerkeuze",
-          "vraag": "Een steen valt vanuit rust. Welke snelheid heeft hij na 2,0 s, zonder luchtweerstand?",
+          "vraag": "Een steen valt vanuit rust. Welke snelheid heeft hij na \\(2{,}0\\) s, zonder luchtweerstand?",
           "opties": [
-            "19,6 m/s",
-            "9,81 m/s",
-            "39,2 m/s",
-            "4,9 m/s"
+            "\\(19{,}6\\) m/s",
+            "\\(9{,}81\\) m/s",
+            "\\(39{,}2\\) m/s",
+            "\\(4{,}9\\) m/s"
           ],
           "antwoord": 0,
-          "uitleg": "Elke seconde komt er 9,81 m/s bij, dus na 2,0 s is dat 2,0 . 9,81 = 19,6 m/s."
+          "uitleg": "Elke seconde komt er \\(9{,}81\\) m/s bij, dus na \\(2{,}0\\) s is dat \\(2{,}0 \\times 9{,}81 = 19{,}6\\) m/s."
         },
         {
           "type": "meerkeuze",
-          "vraag": "Je gooit een bal met 15 m/s recht omhoog. Na hoeveel tijd is hij op zijn hoogste punt, zonder luchtweerstand?",
+          "vraag": "Je gooit een bal met \\(15\\) m/s recht omhoog. Na hoeveel tijd is hij op zijn hoogste punt, zonder luchtweerstand?",
           "opties": [
-            "na 1,5 s",
-            "na 15 s",
-            "na 0,65 s",
-            "na 3,1 s"
+            "na \\(1{,}5\\) s",
+            "na \\(15\\) s",
+            "na \\(0{,}65\\) s",
+            "na \\(3{,}1\\) s"
           ],
           "antwoord": 0,
-          "uitleg": "Elke seconde verdwijnt er 9,81 m/s van de snelheid, dus 15 / 9,81 is ongeveer 1,5 s."
+          "uitleg": "Elke seconde verdwijnt er \\(9{,}81\\) m/s van de snelheid, dus \\(15 / 9{,}81\\) is ongeveer \\(1{,}5\\) s."
         },
         {
           "type": "meerkeuze",
@@ -1203,7 +1203,7 @@
             "de luchtweerstand is dan even groot als de zwaartekracht",
             "de resulterende kracht is dan nul",
             "de zwaartekracht is dan verdwenen",
-            "de versnelling is dan 9,81 m/s²"
+            "de versnelling is dan \\(9{,}81\\ \\text{m/s}^{2}\\)"
           ],
           "antwoord": [
             0,
@@ -1213,7 +1213,7 @@
         },
         {
           "type": "meerkeuze",
-          "vraag": "In dezelfde v(t)-grafiek staan twee vallende voorwerpen zonder luchtweerstand, een van 1 kg en een van 5 kg. Wat zie je?",
+          "vraag": "In dezelfde v(t)-grafiek staan twee vallende voorwerpen zonder luchtweerstand, een van \\(1\\) kg en een van \\(5\\) kg. Wat zie je?",
           "opties": [
             "twee lijnen die precies samenvallen",
             "een steilere lijn voor het zwaardere voorwerp",
@@ -1221,7 +1221,7 @@
             "een horizontale lijn voor het zwaardere voorwerp"
           ],
           "antwoord": 0,
-          "uitleg": "Zonder luchtweerstand valt alles met dezelfde versnelling van 9,81 m/s², hoe zwaar het ook is. De twee lijnen liggen dus op elkaar."
+          "uitleg": "Zonder luchtweerstand valt alles met dezelfde versnelling van \\(9{,}81\\ \\text{m/s}^{2}\\), hoe zwaar het ook is. De twee lijnen liggen dus op elkaar."
         },
         {
           "type": "waarofniet",
@@ -1259,7 +1259,7 @@
           "antwoord": [
             "g"
           ],
-          "uitleg": "g, met de waarde 9,81 m/s² in België. Dezelfde letter staat ook voor de zwaarteveldsterkte in N/kg."
+          "uitleg": "g, met de waarde \\(9{,}81\\ \\text{m/s}^{2}\\) in België. Dezelfde letter staat ook voor de zwaarteveldsterkte in N/kg."
         },
         {
           "type": "invultekst",
@@ -1273,13 +1273,13 @@
         },
         {
           "type": "invultekst",
-          "vraag": "Een steen valt vanuit rust en heeft na 3,0 s een snelheid van bijna 30 m/s. Hoeveel m/s komt er elke seconde bij? Schrijf het getal.",
+          "vraag": "Een steen valt vanuit rust en heeft na \\(3{,}0\\) s een snelheid van bijna \\(30\\) m/s. Hoeveel m/s komt er elke seconde bij? Schrijf het getal.",
           "antwoord": [
             "9,81",
             "9.81",
             "10"
           ],
-          "uitleg": "9,81 m/s per seconde, want dat is de valversnelling. Na 3,0 s is de snelheid 3,0 . 9,81 = 29,4 m/s."
+          "uitleg": "\\(9{,}81\\) m/s per seconde, want dat is de valversnelling. Na \\(3{,}0\\) s is de snelheid \\(3{,}0 \\times 9{,}81 = 29{,}4\\) m/s."
         },
         {
           "type": "invultekst",
@@ -1289,7 +1289,7 @@
             "de zwaartekracht",
             "gewicht"
           ],
-          "uitleg": "De zwaartekracht. Die is naar beneden gericht en zorgt voor een versnelling van 9,81 m/s²."
+          "uitleg": "De zwaartekracht. Die is naar beneden gericht en zorgt voor een versnelling van \\(9{,}81\\ \\text{m/s}^{2}\\)."
         }
       ]
     },
@@ -1324,27 +1324,27 @@
         },
         {
           "type": "meerkeuze",
-          "vraag": "Twee mensen duwen een kast in dezelfde zin, met 120 N en 80 N. Hoe groot is de resulterende kracht?",
+          "vraag": "Twee mensen duwen een kast in dezelfde zin, met \\(120\\) N en \\(80\\) N. Hoe groot is de resulterende kracht?",
           "opties": [
-            "200 N",
-            "40 N",
-            "100 N",
-            "9600 N"
+            "\\(200\\) N",
+            "\\(40\\) N",
+            "\\(100\\) N",
+            "\\(9600\\) N"
           ],
           "antwoord": 0,
-          "uitleg": "Krachten met dezelfde richting en dezelfde zin tel je op: 120 + 80 = 200 N."
+          "uitleg": "Krachten met dezelfde richting en dezelfde zin tel je op: \\(120 + 80 = 200\\) N."
         },
         {
           "type": "meerkeuze",
-          "vraag": "Twee mensen trekken aan een kar in tegengestelde zin, met 150 N en 90 N. Hoe groot is de resulterende kracht, en in welke zin?",
+          "vraag": "Twee mensen trekken aan een kar in tegengestelde zin, met \\(150\\) N en \\(90\\) N. Hoe groot is de resulterende kracht, en in welke zin?",
           "opties": [
-            "60 N, in de zin van de grootste kracht",
-            "240 N, in de zin van de grootste kracht",
-            "60 N, in de zin van de kleinste kracht",
-            "0 N, de kar blijft stil"
+            "\\(60\\) N, in de zin van de grootste kracht",
+            "\\(240\\) N, in de zin van de grootste kracht",
+            "\\(60\\) N, in de zin van de kleinste kracht",
+            "\\(0\\) N, de kar blijft stil"
           ],
           "antwoord": 0,
-          "uitleg": "Bij een tegengestelde zin trek je de groottes van elkaar af: 150 − 90 = 60 N. De resultante wijst in de zin van de grootste kracht."
+          "uitleg": "Bij een tegengestelde zin trek je de groottes van elkaar af: \\(150 - 90 = 60\\) N. De resultante wijst in de zin van de grootste kracht."
         },
         {
           "type": "meerkeuze",
@@ -1450,7 +1450,7 @@
         },
         {
           "type": "waarofniet",
-          "vraag": "Twee krachten van elk 50 N op hetzelfde voorwerp geven altijd een resultante van 100 N.",
+          "vraag": "Twee krachten van elk \\(50\\) N op hetzelfde voorwerp geven altijd een resultante van \\(100\\) N.",
           "antwoord": false,
           "uitleg": "Enkel als ze dezelfde richting en zin hebben. Zijn ze tegengesteld, dan is de resultante nul, en bij een hoek ertussen iets daartussen."
         },
@@ -1458,7 +1458,7 @@
           "type": "waarofniet",
           "vraag": "De lengte van een krachtvector op een tekening zegt niets over de grootte van de kracht.",
           "antwoord": false,
-          "uitleg": "Je tekent een krachtvector op schaal, bijvoorbeeld 1 cm voor 10 N. De lengte geeft dus net de grootte weer."
+          "uitleg": "Je tekent een krachtvector op schaal, bijvoorbeeld \\(1\\) cm voor \\(10\\) N. De lengte geeft dus net de grootte weer."
         },
         {
           "type": "waarofniet",
@@ -1496,12 +1496,12 @@
         },
         {
           "type": "invultekst",
-          "vraag": "Twee krachten van 30 N en 45 N werken in tegengestelde zin op hetzelfde voorwerp. Hoe groot is de resultante in newton? Schrijf het getal.",
+          "vraag": "Twee krachten van \\(30\\) N en \\(45\\) N werken in tegengestelde zin op hetzelfde voorwerp. Hoe groot is de resultante in newton? Schrijf het getal.",
           "antwoord": [
             "15",
             "15 N"
           ],
-          "uitleg": "45 − 30 = 15 N, in de zin van de kracht van 45 N."
+          "uitleg": "\\(45 - 30 = 15\\) N, in de zin van de kracht van \\(45\\) N."
         }
       ]
     },
@@ -1514,25 +1514,25 @@
           "type": "meerkeuze",
           "vraag": "Welke formule geeft de zwaartekracht op een voorwerp?",
           "opties": [
-            "Fz = m . g",
-            "Fz = m / g",
-            "Fz = g / m",
-            "Fz = m . g²"
+            "\\(F_{z} = m \\cdot g\\)",
+            "\\(F_{z} = m / g\\)",
+            "\\(F_{z} = g / m\\)",
+            "\\(F_{z} = m \\cdot g^{2}\\)"
           ],
           "antwoord": 0,
-          "uitleg": "De massa maal de zwaarteveldsterkte. In België is g = 9,81 N/kg."
+          "uitleg": "De massa maal de zwaarteveldsterkte. In België is \\(g = 9{,}81\\) N/kg."
         },
         {
           "type": "meerkeuze",
-          "vraag": "Hoe groot is de zwaartekracht op een massa van 5,0 kg in België?",
+          "vraag": "Hoe groot is de zwaartekracht op een massa van \\(5{,}0\\) kg in België?",
           "opties": [
-            "49 N",
-            "5,0 N",
-            "0,51 N",
-            "490 N"
+            "\\(49\\) N",
+            "\\(5{,}0\\) N",
+            "\\(0{,}51\\) N",
+            "\\(490\\) N"
           ],
           "antwoord": 0,
-          "uitleg": "Fz = 5,0 . 9,81 = 49,05 N, dus 49 N met twee beduidende cijfers."
+          "uitleg": "\\(F_{z} = 5{,}0 \\times 9{,}81 = 49{,}05\\) N, dus \\(49\\) N met twee beduidende cijfers."
         },
         {
           "type": "meerkeuze",
@@ -1563,27 +1563,27 @@
         },
         {
           "type": "meerkeuze",
-          "vraag": "Een veer rekt 4,0 cm uit onder een kracht van 12 N. Wat is de veerconstante?",
+          "vraag": "Een veer rekt \\(4{,}0\\) cm uit onder een kracht van \\(12\\) N. Wat is de veerconstante?",
           "opties": [
-            "300 N/m",
-            "3,0 N/m",
-            "48 N/m",
-            "0,33 N/m"
+            "\\(300\\) N/m",
+            "\\(3{,}0\\) N/m",
+            "\\(48\\) N/m",
+            "\\(0{,}33\\) N/m"
           ],
           "antwoord": 0,
-          "uitleg": "Reken eerst om naar meter: 4,0 cm = 0,040 m. Dan is k = Fv / Δl = 12 / 0,040 = 300 N/m."
+          "uitleg": "Reken eerst om naar meter: \\(4{,}0\\) cm = \\(0{,}040\\) m. Dan is \\(k = F_{v} / \\Delta l = 12 / 0{,}040 = 300\\) N/m."
         },
         {
           "type": "meerkeuze",
-          "vraag": "Een veer heeft een veerconstante van 250 N/m. Hoeveel rekt ze uit onder een kracht van 20 N?",
+          "vraag": "Een veer heeft een veerconstante van \\(250\\) N/m. Hoeveel rekt ze uit onder een kracht van \\(20\\) N?",
           "opties": [
-            "8,0 cm",
-            "80 cm",
-            "0,80 cm",
-            "12,5 cm"
+            "\\(8{,}0\\) cm",
+            "\\(80\\) cm",
+            "\\(0{,}80\\) cm",
+            "\\(12{,}5\\) cm"
           ],
           "antwoord": 0,
-          "uitleg": "Δl = Fv / k = 20 / 250 = 0,080 m, dus 8,0 cm."
+          "uitleg": "\\(\\Delta l = F_{v} / k = 20 / 250 = 0{,}080\\) m, dus \\(8{,}0\\) cm."
         },
         {
           "type": "meerkeuze",
@@ -1601,25 +1601,25 @@
           "type": "meerkeuze",
           "vraag": "Welke formule geeft de statische wrijvingskracht?",
           "opties": [
-            "Fw = μ . Fn",
-            "Fw = μ / Fn",
-            "Fw = μ . m",
-            "Fw = Fn / μ"
+            "\\(F_{w} = \\mu\\) . Fn",
+            "\\(F_{w} = \\mu / F_{n}\\)",
+            "\\(F_{w} = \\mu \\cdot m\\)",
+            "\\(F_{w} = F_{n} / \\mu\\)"
           ],
           "antwoord": 0,
           "uitleg": "De wrijvingscoëfficiënt maal de normaalkracht. Die formule staat in de bijlage die je op het examen mag gebruiken."
         },
         {
           "type": "meerkeuze",
-          "vraag": "Een kist van 20 kg staat op een horizontale vloer met μ = 0,30. Hoe groot is de wrijvingskracht die je net moet overwinnen om hem te doen schuiven?",
+          "vraag": "Een kist van \\(20\\) kg staat op een horizontale vloer met \\(\\mu = 0{,}30\\). Hoe groot is de wrijvingskracht die je net moet overwinnen om hem te doen schuiven?",
           "opties": [
-            "59 N",
-            "6,0 N",
-            "196 N",
-            "654 N"
+            "\\(59\\) N",
+            "\\(6{,}0\\) N",
+            "\\(196\\) N",
+            "\\(654\\) N"
           ],
           "antwoord": 0,
-          "uitleg": "Op een horizontale vloer is Fn = Fz = 20 . 9,81 = 196 N. Dan is Fw = 0,30 . 196 = 58,9 N, dus 59 N."
+          "uitleg": "Op een horizontale vloer is \\(F_{n} = F_{z} = 20 \\times 9{,}81 = 196\\) N. Dan is \\(F_{w} = 0{,}30 \\times 196 = 58{,}9\\) N, dus \\(59\\) N."
         },
         {
           "type": "meerkeuze",
@@ -1649,25 +1649,25 @@
             0,
             2
           ],
-          "uitleg": "De zwaarteveldsterkte op de maan is ongeveer 1,62 N/kg in plaats van 9,81 N/kg, dus is de zwaartekracht er ongeveer zes keer kleiner. De massa blijft dezelfde en de newton blijft de newton."
+          "uitleg": "De zwaarteveldsterkte op de maan is ongeveer \\(1{,}62\\) N/kg in plaats van \\(9{,}81\\) N/kg, dus is de zwaartekracht er ongeveer zes keer kleiner. De massa blijft dezelfde en de newton blijft de newton."
         },
         {
           "type": "waarofniet",
           "vraag": "De veerkracht is recht evenredig met de lengteverandering van de veer.",
           "antwoord": true,
-          "uitleg": "In Fv = k . Δl is k een constante, dus twee keer zo ver uitrekken vraagt twee keer zoveel kracht. In een grafiek geeft dat een rechte door de oorsprong."
+          "uitleg": "In \\(F_{v} = k \\cdot \\Delta l\\) is k een constante, dus twee keer zo ver uitrekken vraagt twee keer zoveel kracht. In een grafiek geeft dat een rechte door de oorsprong."
         },
         {
           "type": "waarofniet",
           "vraag": "Een balans die kilogram aangeeft, meet eigenlijk een kracht en rekent die om.",
           "antwoord": true,
-          "uitleg": "Een weegschaal voelt hoe hard je erop duwt, dus een kracht, en deelt die door 9,81 om de massa te tonen. Op de maan zou dezelfde weegschaal daarom te weinig aangeven."
+          "uitleg": "Een weegschaal voelt hoe hard je erop duwt, dus een kracht, en deelt die door \\(9{,}81\\) om de massa te tonen. Op de maan zou dezelfde weegschaal daarom te weinig aangeven."
         },
         {
           "type": "waarofniet",
           "vraag": "Een zwaarder voorwerp op dezelfde vloer ondervindt een grotere wrijvingskracht.",
           "antwoord": true,
-          "uitleg": "De normaalkracht is groter, en Fw = μ . Fn. De wrijvingscoëfficiënt blijft wel dezelfde, want de materialen veranderen niet."
+          "uitleg": "De normaalkracht is groter, en \\(F_{w} = \\mu\\) . Fn. De wrijvingscoëfficiënt blijft wel dezelfde, want de materialen veranderen niet."
         },
         {
           "type": "waarofniet",
@@ -1679,7 +1679,7 @@
           "type": "waarofniet",
           "vraag": "De zwaarteveldsterkte en de valversnelling zijn twee verschillende getallen.",
           "antwoord": false,
-          "uitleg": "Het is hetzelfde getal met twee eenheden: in België 9,81 N/kg als zwaarteveldsterkte en 9,81 m/s² als valversnelling. Je bekijkt dezelfde g eens vanuit de kracht en eens vanuit de beweging."
+          "uitleg": "Het is hetzelfde getal met twee eenheden: in België \\(9{,}81\\) N/kg als zwaarteveldsterkte en \\(9{,}81\\ \\text{m/s}^{2}\\) als valversnelling. Je bekijkt dezelfde g eens vanuit de kracht en eens vanuit de beweging."
         },
         {
           "type": "invultekst",
@@ -1697,7 +1697,7 @@
             "9.81",
             "9,81 N/kg"
           ],
-          "uitleg": "9,81 N/kg. Die waarde staat bij de constanten die je op het examen krijgt."
+          "uitleg": "\\(9{,}81\\) N/kg. Die waarde staat bij de constanten die je op het examen krijgt."
         },
         {
           "type": "invultekst",
@@ -1711,13 +1711,13 @@
         },
         {
           "type": "invultekst",
-          "vraag": "Een massa van 2,0 kg hangt aan een veer met k = 100 N/m. Hoeveel centimeter rekt de veer uit? Schrijf het getal in centimeter.",
+          "vraag": "Een massa van \\(2{,}0\\) kg hangt aan een veer met \\(k = 100\\) N/m. Hoeveel centimeter rekt de veer uit? Schrijf het getal in centimeter.",
           "antwoord": [
             "19,6",
             "20",
             "19.6"
           ],
-          "uitleg": "De veerkracht moet de zwaartekracht dragen: Fz = 2,0 . 9,81 = 19,62 N. Dan is Δl = 19,62 / 100 = 0,196 m, dus 19,6 cm."
+          "uitleg": "De veerkracht moet de zwaartekracht dragen: \\(F_{z} = 2{,}0 \\times 9{,}81 = 19{,}62\\) N. Dan is \\(\\Delta l = 19{,}62 / 100 = 0{,}196\\) m, dus \\(19{,}6\\) cm."
         }
       ]
     },
@@ -1730,13 +1730,13 @@
           "type": "meerkeuze",
           "vraag": "Welke formule geeft de archimedeskracht op een voorwerp in een vloeistof?",
           "opties": [
-            "FA = ρ . g . Vond",
+            "FA = \\(\\rho \\cdot g\\) . Vond",
             "FA = m . g",
-            "FA = ρ . g . h",
+            "FA = \\(\\rho \\cdot g \\cdot h\\)",
             "FA = ρ . Vond"
           ],
           "antwoord": 0,
-          "uitleg": "De massadichtheid van de vloeistof maal de zwaarteveldsterkte maal het ondergedompelde volume. ρ.g.h is de formule voor de hydrostatische druk."
+          "uitleg": "De massadichtheid van de vloeistof maal de zwaarteveldsterkte maal het ondergedompelde volume. \\(\\rho \\cdot g \\cdot h\\) is de formule voor de hydrostatische druk."
         },
         {
           "type": "meerkeuze",
@@ -1779,7 +1779,7 @@
         },
         {
           "type": "meerkeuze",
-          "vraag": "Een voorwerp met een massadichtheid van 1200 kg/m³ wordt in water gelegd. Wat gebeurt er?",
+          "vraag": "Een voorwerp met een massadichtheid van \\(1200\\) kg/\\(\\text{m}^{3}\\) wordt in water gelegd. Wat gebeurt er?",
           "opties": [
             "het zinkt",
             "het drijft",
@@ -1787,19 +1787,19 @@
             "het stijgt naar boven"
           ],
           "antwoord": 0,
-          "uitleg": "De massadichtheid is groter dan die van water, 1000 kg/m³, dus de zwaartekracht haalt het van de archimedeskracht."
+          "uitleg": "De massadichtheid is groter dan die van water, \\(1000\\) kg/\\(\\text{m}^{3}\\), dus de zwaartekracht haalt het van de archimedeskracht."
         },
         {
           "type": "meerkeuze",
-          "vraag": "Hoe groot is de archimedeskracht op een blok dat volledig onder water zit, met een volume van 0,0020 m³?",
+          "vraag": "Hoe groot is de archimedeskracht op een blok dat volledig onder water zit, met een volume van \\(0{,}0020\\,\\text{m}^{3}\\)?",
           "opties": [
-            "19,6 N",
-            "2,0 N",
-            "196 N",
-            "1962 N"
+            "\\(19{,}6\\) N",
+            "\\(2{,}0\\) N",
+            "\\(196\\) N",
+            "\\(1962\\) N"
           ],
           "antwoord": 0,
-          "uitleg": "FA = 1000 . 9,81 . 0,0020 = 19,62 N, dus 19,6 N."
+          "uitleg": "FA = \\(1000 \\times 9{,}81 \\times 0{,}0020 = 19{,}62\\) N, dus \\(19{,}6\\) N."
         },
         {
           "type": "meerkeuze",
@@ -1823,7 +1823,7 @@
             "de archimedeskracht hangt af van de massa van het schip"
           ],
           "antwoord": 0,
-          "uitleg": "Een schip duwt veel water weg omdat het binnenin vol lucht zit. Zijn gemiddelde massadichtheid komt daardoor onder 1000 kg/m³."
+          "uitleg": "Een schip duwt veel water weg omdat het binnenin vol lucht zit. Zijn gemiddelde massadichtheid komt daardoor onder \\(1000\\) kg/\\(\\text{m}^{3}\\)."
         },
         {
           "type": "meerkeuze",
@@ -1854,15 +1854,15 @@
         },
         {
           "type": "meerkeuze",
-          "vraag": "Een steen van 50 N hangt aan een dynamometer en wordt in water gedompeld. De dynamometer wijst 32 N aan. Hoe groot is de archimedeskracht?",
+          "vraag": "Een steen van \\(50\\) N hangt aan een dynamometer en wordt in water gedompeld. De dynamometer wijst \\(32\\) N aan. Hoe groot is de archimedeskracht?",
           "opties": [
-            "18 N",
-            "82 N",
-            "32 N",
-            "50 N"
+            "\\(18\\) N",
+            "\\(82\\) N",
+            "\\(32\\) N",
+            "\\(50\\) N"
           ],
           "antwoord": 0,
-          "uitleg": "De dynamometer meet wat er na de archimedeskracht overblijft: 50 − 32 = 18 N."
+          "uitleg": "De dynamometer meet wat er na de archimedeskracht overblijft: \\(50 - 32 = 18\\) N."
         },
         {
           "type": "waarofniet",
@@ -1892,7 +1892,7 @@
           "type": "waarofniet",
           "vraag": "Op de maan zou de archimedeskracht in hetzelfde bad water kleiner zijn.",
           "antwoord": true,
-          "uitleg": "In FA = ρ.g.Vond staat g, en die is op de maan ongeveer zes keer kleiner. De zwaartekracht op het voorwerp wordt wel even veel kleiner, dus het drijft nog altijd even diep."
+          "uitleg": "In FA = \\(\\rho \\cdot g\\).Vond staat g, en die is op de maan ongeveer zes keer kleiner. De zwaartekracht op het voorwerp wordt wel even veel kleiner, dus het drijft nog altijd even diep."
         },
         {
           "type": "invultekst",
@@ -1912,26 +1912,26 @@
             "rho",
             "p"
           ],
-          "uitleg": "De Griekse letter ρ (rho), met als eenheid kg/m³."
+          "uitleg": "De Griekse letter ρ (rho), met als eenheid kg/\\(\\text{m}^{3}\\)."
         },
         {
           "type": "invultekst",
-          "vraag": "Hoe groot is de massadichtheid van water? Schrijf het getal in kg/m³.",
+          "vraag": "Hoe groot is de massadichtheid van water? Schrijf het getal in kg/\\(\\text{m}^{3}\\).",
           "antwoord": [
             "1000",
             "1000 kg/m³"
           ],
-          "uitleg": "1000 kg/m³, of ook 1 kg per liter. Die waarde staat bij de constanten van het examen."
+          "uitleg": "\\(1000\\) kg/\\(\\text{m}^{3}\\), of ook \\(1\\) kg per liter. Die waarde staat bij de constanten van het examen."
         },
         {
           "type": "invultekst",
-          "vraag": "Een blok van 0,0050 m³ zit volledig onder water. Hoe groot is de archimedeskracht in newton? Schrijf het getal, afgerond op een eenheid.",
+          "vraag": "Een blok van \\(0{,}0050\\,\\text{m}^{3}\\) zit volledig onder water. Hoe groot is de archimedeskracht in newton? Schrijf het getal, afgerond op een eenheid.",
           "antwoord": [
             "49",
             "49 N",
             "49,05"
           ],
-          "uitleg": "FA = 1000 . 9,81 . 0,0050 = 49,05 N, dus ongeveer 49 N."
+          "uitleg": "FA = \\(1000 \\times 9{,}81 \\times 0{,}0050 = 49{,}05\\) N, dus ongeveer \\(49\\) N."
         }
       ]
     },
@@ -1945,12 +1945,12 @@
           "vraag": "Welke formule geeft het moment van een kracht?",
           "opties": [
             "M = F . d . sin α",
-            "M = F . d",
-            "M = F / d",
+            "\\(M = F \\cdot d\\)",
+            "\\(M = F / d\\)",
             "M = F . d . cos α"
           ],
           "antwoord": 0,
-          "uitleg": "De kracht maal de krachtarm maal de sinus van de hoek. Staat de kracht loodrecht op de arm, dan is sin α gelijk aan 1 en blijft M = F . d over."
+          "uitleg": "De kracht maal de krachtarm maal de sinus van de hoek. Staat de kracht loodrecht op de arm, dan is sin α gelijk aan \\(1\\) en blijft \\(M = F \\cdot d\\) over."
         },
         {
           "type": "meerkeuze",
@@ -1978,15 +1978,15 @@
         },
         {
           "type": "meerkeuze",
-          "vraag": "Een kracht van 40 N werkt loodrecht op een arm van 0,50 m. Hoe groot is het moment?",
+          "vraag": "Een kracht van \\(40\\) N werkt loodrecht op een arm van \\(0{,}50\\) m. Hoe groot is het moment?",
           "opties": [
-            "20 Nm",
-            "80 Nm",
-            "40 Nm",
-            "0,013 Nm"
+            "\\(20\\) Nm",
+            "\\(80\\) Nm",
+            "\\(40\\) Nm",
+            "\\(0{,}013\\) Nm"
           ],
           "antwoord": 0,
-          "uitleg": "M = 40 . 0,50 . sin 90° = 20 Nm, want sin 90° is 1."
+          "uitleg": "M = \\(40\\) . \\(0{,}50\\) . sin \\(90^{\\circ} = 20\\) Nm, want sin \\(90^{\\circ}\\) is \\(1\\)."
         },
         {
           "type": "meerkeuze",
@@ -2017,39 +2017,39 @@
         },
         {
           "type": "meerkeuze",
-          "vraag": "Op een wip zit links een kind van 30 kg op 1,2 m van het draaipunt. Rechts zit een kind van 36 kg. Op welke afstand moet dat zitten voor evenwicht?",
+          "vraag": "Op een wip zit links een kind van \\(30\\) kg op \\(1{,}2\\) m van het draaipunt. Rechts zit een kind van \\(36\\) kg. Op welke afstand moet dat zitten voor evenwicht?",
           "opties": [
-            "1,0 m",
-            "1,4 m",
-            "0,83 m",
-            "1,2 m"
+            "\\(1{,}0\\) m",
+            "\\(1{,}4\\) m",
+            "\\(0{,}83\\) m",
+            "\\(1{,}2\\) m"
           ],
           "antwoord": 0,
-          "uitleg": "De momenten moeten gelijk zijn: 30 . 1,2 = 36 . d, dus d = 36 / 36 = 1,0 m. Het zwaardere kind zit dichter bij het draaipunt."
+          "uitleg": "De momenten moeten gelijk zijn: \\(30\\) . \\(1{,}2 = 36\\) . d, dus \\(d = 36 / 36 = 1{,}0\\) m. Het zwaardere kind zit dichter bij het draaipunt."
         },
         {
           "type": "meerkeuze",
-          "vraag": "Een kracht grijpt aan onder een hoek van 30° met de arm, met F = 60 N en d = 0,40 m. Hoe groot is het moment?",
+          "vraag": "Een kracht grijpt aan onder een hoek van \\(30^{\\circ}\\) met de arm, met \\(F = 60\\) N en \\(d = 0{,}40\\) m. Hoe groot is het moment?",
           "opties": [
-            "12 Nm",
-            "24 Nm",
-            "21 Nm",
-            "48 Nm"
+            "\\(12\\) Nm",
+            "\\(24\\) Nm",
+            "\\(21\\) Nm",
+            "\\(48\\) Nm"
           ],
           "antwoord": 0,
-          "uitleg": "M = 60 . 0,40 . sin 30° = 60 . 0,40 . 0,50 = 12 Nm."
+          "uitleg": "M = \\(60\\) . \\(0{,}40\\) . sin \\(30^{\\circ} = 60 \\cdot 0{,}40 \\times 0{,}50 = 12\\) Nm."
         },
         {
           "type": "meerkeuze",
           "vraag": "Bij welke hoek tussen de kracht en de krachtarm is het moment het grootst?",
           "opties": [
-            "90°",
-            "0°",
-            "45°",
-            "180°"
+            "\\(90^{\\circ}\\)",
+            "\\(0^{\\circ}\\)",
+            "\\(45^{\\circ}\\)",
+            "\\(180^{\\circ}\\)"
           ],
           "antwoord": 0,
-          "uitleg": "Bij 90° is sin α gelijk aan 1, dus is het moment maximaal. Bij 0° of 180° werkt de kracht langs de arm en is het moment nul."
+          "uitleg": "Bij \\(90^{\\circ}\\) is sin α gelijk aan \\(1\\), dus is het moment maximaal. Bij \\(0^{\\circ}\\) of \\(180^{\\circ}\\) werkt de kracht langs de arm en is het moment nul."
         },
         {
           "type": "meerkeuze",
@@ -2128,12 +2128,12 @@
         },
         {
           "type": "invultekst",
-          "vraag": "Een kracht van 25 N werkt loodrecht op een arm van 0,80 m. Hoe groot is het moment in Nm? Schrijf het getal.",
+          "vraag": "Een kracht van \\(25\\) N werkt loodrecht op een arm van \\(0{,}80\\) m. Hoe groot is het moment in Nm? Schrijf het getal.",
           "antwoord": [
             "20",
             "20 Nm"
           ],
-          "uitleg": "M = 25 . 0,80 . 1 = 20 Nm."
+          "uitleg": "\\(M = 25 \\times 0{,}80 \\times 1 = 20\\) Nm."
         },
         {
           "type": "invultekst",
@@ -2156,10 +2156,10 @@
           "type": "meerkeuze",
           "vraag": "Welke formule geeft de druk op een oppervlak?",
           "opties": [
-            "p = F / A",
-            "p = A / F",
-            "p = F . A",
-            "p = F + A"
+            "\\(p = F / A\\)",
+            "\\(p = A / F\\)",
+            "\\(p = F\\) . A",
+            "\\(p = F + A\\)"
           ],
           "antwoord": 0,
           "uitleg": "De kracht gedeeld door de oppervlakte waarop ze werkt. Dezelfde kracht op een kleiner oppervlak geeft dus een grotere druk."
@@ -2181,27 +2181,27 @@
         },
         {
           "type": "meerkeuze",
-          "vraag": "Hoeveel pascal is 1 bar?",
+          "vraag": "Hoeveel pascal is \\(1\\) bar?",
           "opties": [
-            "100 000 Pa",
-            "1000 Pa",
-            "100 Pa",
-            "10 000 000 Pa"
+            "\\(100\\,000\\) Pa",
+            "\\(1000\\) Pa",
+            "\\(100\\) Pa",
+            "\\(10\\,000\\,000\\) Pa"
           ],
           "antwoord": 0,
-          "uitleg": "1 bar = 100 000 Pa = 1000 hPa. Een fietsband staat vaak op 4 bar, dus 400 000 Pa."
+          "uitleg": "\\(1\\) bar = \\(100\\,000\\) Pa = \\(1000\\) hPa. Een fietsband staat vaak op \\(4\\) bar, dus \\(400\\,000\\) Pa."
         },
         {
           "type": "meerkeuze",
-          "vraag": "Een kracht van 600 N werkt op een oppervlak van 0,30 m². Hoe groot is de druk?",
+          "vraag": "Een kracht van \\(600\\) N werkt op een oppervlak van \\(0{,}30\\,\\text{m}^{2}\\). Hoe groot is de druk?",
           "opties": [
-            "2000 Pa",
-            "180 Pa",
-            "200 Pa",
-            "20 000 Pa"
+            "\\(2000\\) Pa",
+            "\\(180\\) Pa",
+            "\\(200\\) Pa",
+            "\\(20\\,000\\) Pa"
           ],
           "antwoord": 0,
-          "uitleg": "p = 600 / 0,30 = 2000 Pa, of 2,0 kPa."
+          "uitleg": "\\(p = 600 / 0{,}30 = 2000\\) Pa, of \\(2{,}0\\) kPa."
         },
         {
           "type": "meerkeuze",
@@ -2244,15 +2244,15 @@
         },
         {
           "type": "meerkeuze",
-          "vraag": "Een blok van 240 N staat op een vierkant grondvlak van 0,20 m bij 0,20 m. Hoe groot is de druk?",
+          "vraag": "Een blok van \\(240\\) N staat op een vierkant grondvlak van \\(0{,}20\\) m bij \\(0{,}20\\) m. Hoe groot is de druk?",
           "opties": [
-            "6000 Pa",
-            "1200 Pa",
-            "600 Pa",
-            "48 Pa"
+            "\\(6000\\) Pa",
+            "\\(1200\\) Pa",
+            "\\(600\\) Pa",
+            "\\(48\\) Pa"
           ],
           "antwoord": 0,
-          "uitleg": "De oppervlakte is 0,20 . 0,20 = 0,040 m². Dan is p = 240 / 0,040 = 6000 Pa."
+          "uitleg": "De oppervlakte is \\(0{,}20 \\times 0{,}20 = 0{,}040\\,\\text{m}^{2}\\). Dan is \\(p = 240 / 0{,}040 = 6000\\) Pa."
         },
         {
           "type": "meerkeuze",
@@ -2291,19 +2291,19 @@
             "de kracht schuin laten aangrijpen"
           ],
           "antwoord": 0,
-          "uitleg": "In p = F / A staat A in de noemer, dus een kleinere oppervlakte geeft een grotere druk. Daarom slijpt men een mes scherp."
+          "uitleg": "In \\(p = F / A\\) staat A in de noemer, dus een kleinere oppervlakte geeft een grotere druk. Daarom slijpt men een mes scherp."
         },
         {
           "type": "waarofniet",
           "vraag": "Dezelfde kracht geeft op een kleiner oppervlak een grotere druk.",
           "antwoord": true,
-          "uitleg": "In p = F / A staat A in de noemer. Daarom prikt een naald wel door je vel en een vingertop niet."
+          "uitleg": "In \\(p = F / A\\) staat A in de noemer. Daarom prikt een naald wel door je vel en een vingertop niet."
         },
         {
           "type": "waarofniet",
-          "vraag": "Een druk van 1 hPa is hetzelfde als een druk van 100 Pa.",
+          "vraag": "Een druk van \\(1\\) hPa is hetzelfde als een druk van \\(100\\) Pa.",
           "antwoord": true,
-          "uitleg": "Hecto betekent honderd, dus 1 hPa = 100 Pa. De luchtdruk van 1013 hPa is dus 101 300 Pa."
+          "uitleg": "Hecto betekent honderd, dus \\(1\\) hPa = \\(100\\) Pa. De luchtdruk van \\(1013\\) hPa is dus \\(101\\,300\\) Pa."
         },
         {
           "type": "waarofniet",
@@ -2315,7 +2315,7 @@
           "type": "waarofniet",
           "vraag": "Een millibar en een hectopascal zijn even grote eenheden.",
           "antwoord": true,
-          "uitleg": "1 mbar = 1 hPa = 100 Pa. Daarom staat op een weerkaart soms mbar en soms hPa voor hetzelfde getal."
+          "uitleg": "\\(1\\) mbar = \\(1\\) hPa = \\(100\\) Pa. Daarom staat op een weerkaart soms mbar en soms hPa voor hetzelfde getal."
         },
         {
           "type": "waarofniet",
@@ -2333,21 +2333,21 @@
         },
         {
           "type": "invultekst",
-          "vraag": "Een kracht van 50 N werkt op 0,010 m². Hoe groot is de druk in pascal? Schrijf het getal.",
+          "vraag": "Een kracht van \\(50\\) N werkt op \\(0{,}010\\,\\text{m}^{2}\\). Hoe groot is de druk in pascal? Schrijf het getal.",
           "antwoord": [
             "5000",
             "5000 Pa"
           ],
-          "uitleg": "p = 50 / 0,010 = 5000 Pa, of 5,0 kPa."
+          "uitleg": "\\(p = 50 / 0{,}010 = 5000\\) Pa, of \\(5{,}0\\) kPa."
         },
         {
           "type": "invultekst",
-          "vraag": "Hoeveel hectopascal is 1 bar? Schrijf het getal.",
+          "vraag": "Hoeveel hectopascal is \\(1\\) bar? Schrijf het getal.",
           "antwoord": [
             "1000",
             "1000 hPa"
           ],
-          "uitleg": "1 bar = 100 000 Pa en 1 hPa = 100 Pa, dus 1000 hPa."
+          "uitleg": "\\(1\\) bar = \\(100\\,000\\) Pa en \\(1\\) hPa = \\(100\\) Pa, dus \\(1000\\) hPa."
         },
         {
           "type": "invultekst",
@@ -2368,10 +2368,10 @@
           "type": "meerkeuze",
           "vraag": "Welke formule geeft de hydrostatische druk in een vloeistof?",
           "opties": [
-            "p = ρ . g . h",
-            "p = ρ . g . V",
-            "p = F / A",
-            "p = ρ / h"
+            "\\(p = \\rho \\cdot g \\cdot h\\)",
+            "\\(p = \\rho \\cdot g\\) . V",
+            "\\(p = F / A\\)",
+            "\\(p = \\rho / h\\)"
           ],
           "antwoord": 0,
           "uitleg": "De massadichtheid van de vloeistof maal de zwaarteveldsterkte maal de diepte. Die formule staat in de bijlage van het examen."
@@ -2393,15 +2393,15 @@
         },
         {
           "type": "meerkeuze",
-          "vraag": "Hoe groot is de hydrostatische druk op 5,0 m diepte in water?",
+          "vraag": "Hoe groot is de hydrostatische druk op \\(5{,}0\\) m diepte in water?",
           "opties": [
-            "49 kPa",
-            "4,9 kPa",
-            "490 kPa",
-            "9,8 kPa"
+            "\\(49\\) kPa",
+            "\\(4{,}9\\) kPa",
+            "\\(490\\) kPa",
+            "\\(9{,}8\\) kPa"
           ],
           "antwoord": 0,
-          "uitleg": "p = 1000 . 9,81 . 5,0 = 49 050 Pa, dus ongeveer 49 kPa."
+          "uitleg": "\\(p = 1000 \\cdot 9{,}81 \\times 5{,}0 = 49\\,050\\) Pa, dus ongeveer \\(49\\) kPa."
         },
         {
           "type": "meerkeuze",
@@ -2417,7 +2417,7 @@
         },
         {
           "type": "meerkeuze",
-          "vraag": "Wat is de totale druk op 10 m diepte in een meer?",
+          "vraag": "Wat is de totale druk op \\(10\\) m diepte in een meer?",
           "opties": [
             "de hydrostatische druk plus de luchtdruk",
             "enkel de hydrostatische druk",
@@ -2425,7 +2425,7 @@
             "de hydrostatische druk min de luchtdruk"
           ],
           "antwoord": 0,
-          "uitleg": "Boven het water duwt de atmosfeer al met 1013 hPa. Die druk komt bij de hydrostatische druk van het water erboven."
+          "uitleg": "Boven het water duwt de atmosfeer al met \\(1013\\) hPa. Die druk komt bij de hydrostatische druk van het water erboven."
         },
         {
           "type": "meerkeuze",
@@ -2449,7 +2449,7 @@
             "de kleine zuiger beweegt veel sneller dan de grote"
           ],
           "antwoord": 0,
-          "uitleg": "Uit p = F / A volgt F = p . A. Bij dezelfde druk levert de tien keer grotere zuiger tien keer meer kracht, maar hij komt ook tien keer minder ver."
+          "uitleg": "Uit \\(p = F / A\\) volgt \\(F = p\\) . A. Bij dezelfde druk levert de tien keer grotere zuiger tien keer meer kracht, maar hij komt ook tien keer minder ver."
         },
         {
           "type": "meerkeuze",
@@ -2492,27 +2492,27 @@
         },
         {
           "type": "meerkeuze",
-          "vraag": "Op welke diepte in water is de hydrostatische druk ongeveer even groot als de luchtdruk van 1013 hPa?",
+          "vraag": "Op welke diepte in water is de hydrostatische druk ongeveer even groot als de luchtdruk van \\(1013\\) hPa?",
           "opties": [
-            "ongeveer 10 m",
-            "ongeveer 1 m",
-            "ongeveer 100 m",
-            "ongeveer 0,1 m"
+            "ongeveer \\(10\\) m",
+            "ongeveer \\(1\\) m",
+            "ongeveer \\(100\\) m",
+            "ongeveer \\(0{,}1\\) m"
           ],
           "antwoord": 0,
-          "uitleg": "Uit h = p / (ρ.g) = 101 300 / (1000 . 9,81) volgt ongeveer 10,3 m. Op 10 m diepte is de totale druk dus al bijna het dubbele van aan het oppervlak."
+          "uitleg": "Uit \\(h = p / \\left(\\rho \\cdot g\\right) = 101\\,300 / \\left(1000 \\times 9{,}81\\right)\\) volgt ongeveer \\(10{,}3\\) m. Op \\(10\\) m diepte is de totale druk dus al bijna het dubbele van aan het oppervlak."
         },
         {
           "type": "waarofniet",
           "vraag": "De hydrostatische druk op dezelfde diepte is in een smalle buis even groot als in een breed vat.",
           "antwoord": true,
-          "uitleg": "In p = ρ.g.h staat de vorm van het vat niet. Enkel de diepte en de vloeistof tellen mee."
+          "uitleg": "In \\(p = \\rho \\cdot g \\cdot h\\) staat de vorm van het vat niet. Enkel de diepte en de vloeistof tellen mee."
         },
         {
           "type": "waarofniet",
-          "vraag": "Een manometer die 2 bar overdruk aangeeft, meet een totale druk van ongeveer 3 bar.",
+          "vraag": "Een manometer die \\(2\\) bar overdruk aangeeft, meet een totale druk van ongeveer \\(3\\) bar.",
           "antwoord": true,
-          "uitleg": "Overdruk is wat er boven de luchtdruk zit. De luchtdruk is ongeveer 1 bar, dus de totale druk is ongeveer 3 bar."
+          "uitleg": "Overdruk is wat er boven de luchtdruk zit. De luchtdruk is ongeveer \\(1\\) bar, dus de totale druk is ongeveer \\(3\\) bar."
         },
         {
           "type": "waarofniet",
@@ -2539,7 +2539,7 @@
             "1013",
             "1013 hPa"
           ],
-          "uitleg": "1013 hPa, dus 101 300 Pa of ongeveer 1 bar. Die waarde staat bij de constanten van het examen."
+          "uitleg": "\\(1013\\) hPa, dus \\(101\\,300\\) Pa of ongeveer \\(1\\) bar. Die waarde staat bij de constanten van het examen."
         },
         {
           "type": "invultekst",
@@ -2553,13 +2553,13 @@
         },
         {
           "type": "invultekst",
-          "vraag": "Hoe groot is de hydrostatische druk op 2,0 m diepte in water? Schrijf het getal in kPa, afgerond op een eenheid.",
+          "vraag": "Hoe groot is de hydrostatische druk op \\(2{,}0\\) m diepte in water? Schrijf het getal in kPa, afgerond op een eenheid.",
           "antwoord": [
             "20",
             "20 kPa",
             "19,6"
           ],
-          "uitleg": "p = 1000 . 9,81 . 2,0 = 19 620 Pa, dus ongeveer 20 kPa."
+          "uitleg": "\\(p = 1000 \\cdot 9{,}81 \\times 2{,}0 = 19\\,620\\) Pa, dus ongeveer \\(20\\) kPa."
         },
         {
           "type": "invultekst",
@@ -2607,27 +2607,27 @@
         },
         {
           "type": "meerkeuze",
-          "vraag": "Hoeveel kelvin is 25 °C?",
+          "vraag": "Hoeveel kelvin is \\(25^{\\circ}\\text{C}\\)?",
           "opties": [
-            "298 K",
-            "248 K",
-            "25 K",
-            "273 K"
+            "\\(298\\) K",
+            "\\(248\\) K",
+            "\\(25\\) K",
+            "\\(273\\) K"
           ],
           "antwoord": 0,
-          "uitleg": "Tel 273,15 op bij de graden Celsius: 25 + 273,15 = 298,15 K, dus ongeveer 298 K."
+          "uitleg": "Tel \\(273{,}15\\) op bij de graden Celsius: \\(25 + 273{,}15 = 298{,}15\\) K, dus ongeveer \\(298\\) K."
         },
         {
           "type": "meerkeuze",
-          "vraag": "Hoeveel graden Celsius is 200 K?",
+          "vraag": "Hoeveel graden Celsius is \\(200\\) K?",
           "opties": [
-            "−73 °C",
-            "73 °C",
-            "473 °C",
-            "−473 °C"
+            "\\(-73^{\\circ}\\text{C}\\)",
+            "\\(73^{\\circ}\\text{C}\\)",
+            "\\(473^{\\circ}\\text{C}\\)",
+            "\\(-473^{\\circ}\\text{C}\\)"
           ],
           "antwoord": 0,
-          "uitleg": "Trek 273,15 af: 200 − 273,15 = −73,15 °C."
+          "uitleg": "Trek \\(273{,}15\\) af: \\(200 - 273{,}15 = -73{,}15^{\\circ}\\text{C}\\)."
         },
         {
           "type": "meerkeuze",
@@ -2642,19 +2642,19 @@
             0,
             1
           ],
-          "uitleg": "Bij 0 K staan de deeltjes stil in het model, dus botsen ze niet meer: geen kinetische energie en geen druk. Ook het volume van een ideaal gas zou nul zijn. Hun massa blijft wel bestaan."
+          "uitleg": "Bij \\(0\\) K staan de deeltjes stil in het model, dus botsen ze niet meer: geen kinetische energie en geen druk. Ook het volume van een ideaal gas zou nul zijn. Hun massa blijft wel bestaan."
         },
         {
           "type": "meerkeuze",
           "vraag": "Hoeveel graden Celsius is het absolute nulpunt?",
           "opties": [
-            "−273,15 °C",
-            "0 °C",
-            "273,15 °C",
-            "−100 °C"
+            "\\(-273{,}15^{\\circ}\\text{C}\\)",
+            "\\(0^{\\circ}\\text{C}\\)",
+            "\\(273{,}15^{\\circ}\\text{C}\\)",
+            "\\(-100^{\\circ}\\text{C}\\)"
           ],
           "antwoord": 0,
-          "uitleg": "0 K is −273,15 °C. Lager dan dat kan niet, want de deeltjes kunnen niet langzamer dan stil."
+          "uitleg": "\\(0\\) K is \\(-273{,}15^{\\circ}\\text{C}\\). Lager dan dat kan niet, want de deeltjes kunnen niet langzamer dan stil."
         },
         {
           "type": "meerkeuze",
@@ -2693,7 +2693,7 @@
             "kracht, oppervlakte, volume en warmte"
           ],
           "antwoord": 0,
-          "uitleg": "p, V, T en n. Samen staan ze in de ideale gaswet p.V = n.R.T."
+          "uitleg": "p, V, T en n. Samen staan ze in de ideale gaswet p.\\(V = n\\).R.T."
         },
         {
           "type": "meerkeuze",
@@ -2709,19 +2709,19 @@
         },
         {
           "type": "meerkeuze",
-          "vraag": "Een gas staat op een overdruk van 1,5 bar. Hoe groot is de totale druk ongeveer?",
+          "vraag": "Een gas staat op een overdruk van \\(1{,}5\\) bar. Hoe groot is de totale druk ongeveer?",
           "opties": [
-            "2,5 bar",
-            "1,5 bar",
-            "0,5 bar",
-            "3,0 bar"
+            "\\(2{,}5\\) bar",
+            "\\(1{,}5\\) bar",
+            "\\(0{,}5\\) bar",
+            "\\(3{,}0\\) bar"
           ],
           "antwoord": 0,
-          "uitleg": "Overdruk is wat er boven de luchtdruk van ongeveer 1 bar zit, dus 1,5 + 1,0 = 2,5 bar."
+          "uitleg": "Overdruk is wat er boven de luchtdruk van ongeveer \\(1\\) bar zit, dus \\(1{,}5 + 1{,}0 = 2{,}5\\) bar."
         },
         {
           "type": "waarofniet",
-          "vraag": "Een temperatuursverschil van 20 °C is hetzelfde als een temperatuursverschil van 20 K.",
+          "vraag": "Een temperatuursverschil van \\(20^{\\circ}\\text{C}\\) is hetzelfde als een temperatuursverschil van \\(20\\) K.",
           "antwoord": true,
           "uitleg": "De stappen van de twee schalen zijn even groot, enkel hun nulpunt ligt anders. Bij een verschil valt dat weg."
         },
@@ -2729,7 +2729,7 @@
           "type": "waarofniet",
           "vraag": "In de gaswetten mag je de temperatuur in graden Celsius invullen.",
           "antwoord": false,
-          "uitleg": "De temperatuur moet in kelvin, want de wetten gaan uit van het absolute nulpunt. Met graden Celsius kom je zelfs op een deling door nul bij 0 °C."
+          "uitleg": "De temperatuur moet in kelvin, want de wetten gaan uit van het absolute nulpunt. Met graden Celsius kom je zelfs op een deling door nul bij \\(0^{\\circ}\\text{C}\\)."
         },
         {
           "type": "waarofniet",
@@ -2741,7 +2741,7 @@
           "type": "waarofniet",
           "vraag": "De druk van een gas hangt niet af van het aantal deeltjes in het vat.",
           "antwoord": false,
-          "uitleg": "In p.V = n.R.T staat n. Meer deeltjes in hetzelfde volume bij dezelfde temperatuur geeft een grotere druk, zoals bij het oppompen van een band."
+          "uitleg": "In p.\\(V = n\\).R.T staat n. Meer deeltjes in hetzelfde volume bij dezelfde temperatuur geeft een grotere druk, zoals bij het oppompen van een band."
         },
         {
           "type": "waarofniet",
@@ -2761,13 +2761,13 @@
         },
         {
           "type": "invultekst",
-          "vraag": "Hoeveel kelvin is 0 °C? Schrijf het getal.",
+          "vraag": "Hoeveel kelvin is \\(0^{\\circ}\\text{C}\\)? Schrijf het getal.",
           "antwoord": [
             "273,15",
             "273",
             "273.15"
           ],
-          "uitleg": "273,15 K. Dat getal heet ook de normtemperatuur."
+          "uitleg": "\\(273{,}15\\) K. Dat getal heet ook de normtemperatuur."
         },
         {
           "type": "invultekst",
@@ -2784,7 +2784,7 @@
           "antwoord": [
             "n"
           ],
-          "uitleg": "n, met als eenheid de mol. Die staat in de ideale gaswet p.V = n.R.T."
+          "uitleg": "n, met als eenheid de mol. Die staat in de ideale gaswet p.\\(V = n\\).R.T."
         }
       ]
     },
@@ -2803,7 +2803,7 @@
             "de energie"
           ],
           "antwoord": 0,
-          "uitleg": "Iso betekent gelijk en therm hoort bij warmte, dus de temperatuur blijft gelijk. Dan geldt p . V = constant."
+          "uitleg": "Iso betekent gelijk en therm hoort bij warmte, dus de temperatuur blijft gelijk. Dan geldt p . \\(V = c\\)onstant."
         },
         {
           "type": "meerkeuze",
@@ -2815,7 +2815,7 @@
             "de massa van het vat"
           ],
           "antwoord": 0,
-          "uitleg": "Baar hoort bij druk, dus de druk blijft gelijk. Dan geldt V / T = constant."
+          "uitleg": "Baar hoort bij druk, dus de druk blijft gelijk. Dan geldt \\(V / T = c\\)onstant."
         },
         {
           "type": "meerkeuze",
@@ -2827,40 +2827,40 @@
             "de stofhoeveelheid en de druk"
           ],
           "antwoord": 0,
-          "uitleg": "Choor hoort bij ruimte, dus het volume blijft gelijk. Dan geldt p / T = constant."
+          "uitleg": "Choor hoort bij ruimte, dus het volume blijft gelijk. Dan geldt \\(p / T = c\\)onstant."
         },
         {
           "type": "meerkeuze",
-          "vraag": "Een gas van 3,0 L bij 2,0 bar wordt bij gelijke temperatuur samengedrukt tot 1,0 L. Wat is de nieuwe druk?",
+          "vraag": "Een gas van \\(3{,}0\\) L bij \\(2{,}0\\) bar wordt bij gelijke temperatuur samengedrukt tot \\(1{,}0\\) L. Wat is de nieuwe druk?",
           "opties": [
-            "6,0 bar",
-            "0,67 bar",
-            "1,5 bar",
-            "3,0 bar"
+            "\\(6{,}0\\) bar",
+            "\\(0{,}67\\) bar",
+            "\\(1{,}5\\) bar",
+            "\\(3{,}0\\) bar"
           ],
           "antwoord": 0,
-          "uitleg": "Bij constante temperatuur is p.V constant: 2,0 . 3,0 = p . 1,0, dus p = 6,0 bar."
+          "uitleg": "Bij constante temperatuur is p.V constant: \\(2{,}0 \\times 3{,}0 = p \\cdot 1{,}0\\), dus \\(p = 6{,}0\\) bar."
         },
         {
           "type": "meerkeuze",
-          "vraag": "Een gas van 2,0 L bij 300 K wordt bij gelijke druk opgewarmd tot 450 K. Wat is het nieuwe volume?",
+          "vraag": "Een gas van \\(2{,}0\\) L bij \\(300\\) K wordt bij gelijke druk opgewarmd tot \\(450\\) K. Wat is het nieuwe volume?",
           "opties": [
-            "3,0 L",
-            "1,3 L",
-            "4,5 L",
-            "2,7 L"
+            "\\(3{,}0\\) L",
+            "\\(1{,}3\\) L",
+            "\\(4{,}5\\) L",
+            "\\(2{,}7\\) L"
           ],
           "antwoord": 0,
-          "uitleg": "Bij constante druk is V/T constant: 2,0 / 300 = V / 450, dus V = 3,0 L."
+          "uitleg": "Bij constante druk is V/T constant: \\(2{,}0 / 300 = V / 450\\), dus \\(V = 3{,}0\\) L."
         },
         {
           "type": "meerkeuze",
-          "vraag": "Een gesloten vat staat op 1,0 bar bij 290 K en wordt opgewarmd tot 580 K. Wat is de nieuwe druk?",
+          "vraag": "Een gesloten vat staat op \\(1{,}0\\) bar bij \\(290\\) K en wordt opgewarmd tot \\(580\\) K. Wat is de nieuwe druk?",
           "opties": [
-            "2,0 bar",
-            "0,50 bar",
-            "1,5 bar",
-            "4,0 bar"
+            "\\(2{,}0\\) bar",
+            "\\(0{,}50\\) bar",
+            "\\(1{,}5\\) bar",
+            "\\(4{,}0\\) bar"
           ],
           "antwoord": 0,
           "uitleg": "Bij vast volume is p/T constant: de temperatuur in kelvin verdubbelt, dus de druk ook."
@@ -2869,13 +2869,13 @@
           "type": "meerkeuze",
           "vraag": "Welke formule is de ideale gaswet?",
           "opties": [
-            "p . V = n . R . T",
-            "p . V = constant",
-            "p / T = constant",
-            "p = ρ . g . h"
+            "p . \\(V = n\\) . R . T",
+            "p . \\(V = c\\)onstant",
+            "\\(p / T = c\\)onstant",
+            "\\(p = \\rho \\cdot g \\cdot h\\)"
           ],
           "antwoord": 0,
-          "uitleg": "p.V = n.R.T, met R = 8,31 J/(mol.K). De andere vormen gelden enkel voor een vaste hoeveelheid gas met één grootheid constant."
+          "uitleg": "p.\\(V = n\\).R.T, met \\(R = 8{,}31\\) J/(mol.K). De andere vormen gelden enkel voor een vaste hoeveelheid gas met één grootheid constant."
         },
         {
           "type": "meerkeuze",
@@ -2899,11 +2899,11 @@
             "een kromme die stijgt"
           ],
           "antwoord": 0,
-          "uitleg": "V/T blijft constant, dus V is recht evenredig met T. In kelvin gaat die rechte door de oorsprong, want bij 0 K zou het volume nul zijn."
+          "uitleg": "V/T blijft constant, dus V is recht evenredig met T. In kelvin gaat die rechte door de oorsprong, want bij \\(0\\) K zou het volume nul zijn."
         },
         {
           "type": "meerkeuze",
-          "vraag": "Welke uitspraken over de algemene gaswet p.V/T = constant zijn juist? Kruis alles aan wat juist is.",
+          "vraag": "Welke uitspraken over de algemene gaswet p.\\(V / T = c\\)onstant zijn juist? Kruis alles aan wat juist is.",
           "opties": [
             "ze geldt voor een vaste hoeveelheid gas",
             "de temperatuur moet in kelvin staan",
@@ -2918,10 +2918,10 @@
         },
         {
           "type": "meerkeuze",
-          "vraag": "Een gas zit op 2,0 bar in 5,0 L bij 300 K en gaat naar 4,0 bar in 2,5 L. Welke uitspraken zijn juist? Kruis alles aan wat juist is.",
+          "vraag": "Een gas zit op \\(2{,}0\\) bar in \\(5{,}0\\) L bij \\(300\\) K en gaat naar \\(4{,}0\\) bar in \\(2{,}5\\) L. Welke uitspraken zijn juist? Kruis alles aan wat juist is.",
           "opties": [
             "het product p.V blijft gelijk",
-            "de temperatuur is nog altijd 300 K",
+            "de temperatuur is nog altijd \\(300\\) K",
             "de temperatuur is verdubbeld",
             "het gas heeft deeltjes verloren"
           ],
@@ -2929,7 +2929,7 @@
             0,
             1
           ],
-          "uitleg": "2,0 . 5,0 = 10 en 4,0 . 2,5 = 10, dus p.V blijft gelijk. Volgens p.V/T = constant blijft T dan ook gelijk: het is een isotherm proces."
+          "uitleg": "\\(2{,}0 \\times 5{,}0 = 10\\) en \\(4{,}0 \\times 2{,}5 = 10\\), dus p.V blijft gelijk. Volgens p.\\(V / T = c\\)onstant blijft T dan ook gelijk: het is een isotherm proces."
         },
         {
           "type": "waarofniet",
@@ -2941,25 +2941,25 @@
           "type": "waarofniet",
           "vraag": "Een p(T)-grafiek bij vast volume, met T in kelvin, is een rechte door de oorsprong.",
           "antwoord": true,
-          "uitleg": "p/T blijft constant, dus p is recht evenredig met T. Bij 0 K zou de druk nul zijn."
+          "uitleg": "p/T blijft constant, dus p is recht evenredig met T. Bij \\(0\\) K zou de druk nul zijn."
         },
         {
           "type": "waarofniet",
           "vraag": "Een spuitbus mag in de zon liggen, want de druk in een gesloten vat verandert niet met de temperatuur.",
           "antwoord": false,
-          "uitleg": "Bij vast volume is p/T constant, dus de druk stijgt mee met de temperatuur. Daarom staat er op een spuitbus dat ze niet boven 50 °C mag komen."
+          "uitleg": "Bij vast volume is p/T constant, dus de druk stijgt mee met de temperatuur. Daarom staat er op een spuitbus dat ze niet boven \\(50^{\\circ}\\text{C}\\) mag komen."
         },
         {
           "type": "waarofniet",
           "vraag": "De gasconstante R is voor elk gas een andere waarde.",
           "antwoord": false,
-          "uitleg": "De universele gasconstante R = 8,31 J/(mol.K) geldt voor elk gas. Een specifieke gasconstante per kilogram verschilt wel van gas tot gas."
+          "uitleg": "De universele gasconstante \\(R = 8{,}31\\) J/(mol.K) geldt voor elk gas. Een specifieke gasconstante per kilogram verschilt wel van gas tot gas."
         },
         {
           "type": "waarofniet",
           "vraag": "Je kan een p(V)-grafiek omzetten naar een p(T)-grafiek als je weet welke grootheid constant gehouden werd.",
           "antwoord": true,
-          "uitleg": "Met p.V/T = constant reken je elk punt om. Je moet wel weten of de temperatuur, de druk of het volume vastgehouden werd."
+          "uitleg": "Met p.\\(V / T = c\\)onstant reken je elk punt om. Je moet wel weten of de temperatuur, de druk of het volume vastgehouden werd."
         },
         {
           "type": "invultekst",
@@ -2969,7 +2969,7 @@
             "een isotherm proces",
             "isothermisch"
           ],
-          "uitleg": "Een isotherm proces. Dan geldt p . V = constant."
+          "uitleg": "Een isotherm proces. Dan geldt p . \\(V = c\\)onstant."
         },
         {
           "type": "invultekst",
@@ -2979,17 +2979,17 @@
             "8.31",
             "8,31 J/mol.K"
           ],
-          "uitleg": "8,31 J/(mol.K). Die waarde staat bij de constanten van het examen."
+          "uitleg": "\\(8{,}31\\) J/(mol.K). Die waarde staat bij de constanten van het examen."
         },
         {
           "type": "invultekst",
-          "vraag": "Een gas van 4,0 L bij 1,0 bar wordt bij gelijke temperatuur samengedrukt tot 2,0 bar. Hoeveel liter blijft er over? Schrijf het getal.",
+          "vraag": "Een gas van \\(4{,}0\\) L bij \\(1{,}0\\) bar wordt bij gelijke temperatuur samengedrukt tot \\(2{,}0\\) bar. Hoeveel liter blijft er over? Schrijf het getal.",
           "antwoord": [
             "2",
             "2,0",
             "2 L"
           ],
-          "uitleg": "p.V blijft gelijk: 1,0 . 4,0 = 2,0 . V, dus V = 2,0 L."
+          "uitleg": "p.V blijft gelijk: \\(1{,}0 \\times 4{,}0 = 2{,}0\\) . V, dus \\(V = 2{,}0\\) L."
         },
         {
           "type": "invultekst",
@@ -2999,7 +2999,7 @@
             "een isochoor proces",
             "isochoorisch"
           ],
-          "uitleg": "Een isochoor proces. Dan geldt p / T = constant."
+          "uitleg": "Een isochoor proces. Dan geldt \\(p / T = c\\)onstant."
         }
       ]
     },
@@ -3014,11 +3014,11 @@
           "opties": [
             "W = F . Δx . cos α",
             "W = F . Δx . sin α",
-            "W = F / Δx",
-            "W = F . Δx²"
+            "\\(W = F / \\Delta x\\)",
+            "\\(W = F \\cdot \\Delta x^{2}\\)"
           ],
           "antwoord": 0,
-          "uitleg": "De kracht maal de verplaatsing maal de cosinus van de hoek tussen beide. Werkt de kracht in de zin van de verplaatsing, dan is cos α gelijk aan 1."
+          "uitleg": "De kracht maal de verplaatsing maal de cosinus van de hoek tussen beide. Werkt de kracht in de zin van de verplaatsing, dan is cos α gelijk aan \\(1\\)."
         },
         {
           "type": "meerkeuze",
@@ -3034,15 +3034,15 @@
         },
         {
           "type": "meerkeuze",
-          "vraag": "Je duwt een kar 8,0 m vooruit met een kracht van 50 N in de zin van de beweging. Hoeveel arbeid verricht je?",
+          "vraag": "Je duwt een kar \\(8{,}0\\) m vooruit met een kracht van \\(50\\) N in de zin van de beweging. Hoeveel arbeid verricht je?",
           "opties": [
-            "400 J",
-            "6,3 J",
-            "58 J",
-            "40 J"
+            "\\(400\\) J",
+            "\\(6{,}3\\) J",
+            "\\(58\\) J",
+            "\\(40\\) J"
           ],
           "antwoord": 0,
-          "uitleg": "W = 50 . 8,0 . cos 0° = 400 J, want cos 0° is 1."
+          "uitleg": "W = \\(50\\) . \\(8{,}0\\) . cos \\(0^{\\circ} = 400\\) J, want cos \\(0^{\\circ}\\) is \\(1\\)."
         },
         {
           "type": "meerkeuze",
@@ -3054,7 +3054,7 @@
             "dat hangt van de massa af"
           ],
           "antwoord": 0,
-          "uitleg": "De hoek tussen de kracht en de verplaatsing is 180°, en cos 180° is −1. De wrijving haalt dus energie uit de beweging."
+          "uitleg": "De hoek tussen de kracht en de verplaatsing is \\(180^{\\circ}\\), en cos \\(180^{\\circ}\\) is \\(-1\\). De wrijving haalt dus energie uit de beweging."
         },
         {
           "type": "meerkeuze",
@@ -3066,50 +3066,50 @@
             "evenveel als de zwaartekracht"
           ],
           "antwoord": 0,
-          "uitleg": "De kracht is verticaal en de verplaatsing horizontaal, dus de hoek is 90° en cos 90° is nul. De arbeid is dan nul, al voelt het zwaar aan."
+          "uitleg": "De kracht is verticaal en de verplaatsing horizontaal, dus de hoek is \\(90^{\\circ}\\) en cos \\(90^{\\circ}\\) is nul. De arbeid is dan nul, al voelt het zwaar aan."
         },
         {
           "type": "meerkeuze",
           "vraag": "Welke formule geeft de kinetische energie?",
           "opties": [
-            "Ek = m . v² / 2",
-            "Ek = m . v / 2",
-            "Ek = m . g . h",
-            "Ek = k . Δl² / 2"
+            "\\(E_{k} = m \\cdot v^{2} / 2\\)",
+            "\\(E_{k} = m \\cdot v / 2\\)",
+            "\\(E_{k} = m \\cdot g \\cdot h\\)",
+            "\\(E_{k} = k\\) . Δ\\(\\text{l}^{2}\\) / \\(2\\)"
           ],
           "antwoord": 0,
           "uitleg": "De halve massa maal het kwadraat van de snelheid. Twee keer zo snel geeft dus vier keer zoveel kinetische energie."
         },
         {
           "type": "meerkeuze",
-          "vraag": "Een auto van 1200 kg rijdt met 20 m/s. Hoeveel kinetische energie heeft hij?",
+          "vraag": "Een auto van \\(1200\\) kg rijdt met \\(20\\) m/s. Hoeveel kinetische energie heeft hij?",
           "opties": [
-            "240 kJ",
-            "24 kJ",
-            "12 kJ",
-            "480 kJ"
+            "\\(240\\) kJ",
+            "\\(24\\) kJ",
+            "\\(12\\) kJ",
+            "\\(480\\) kJ"
           ],
           "antwoord": 0,
-          "uitleg": "Ek = 1200 . 20² / 2 = 1200 . 400 / 2 = 240 000 J, dus 240 kJ."
+          "uitleg": "\\(E_{k} = 1200 \\times 20^{2} / 2 = 1200 \\cdot 400 / 2 = 240\\,000\\) J, dus \\(240\\) kJ."
         },
         {
           "type": "meerkeuze",
-          "vraag": "Een massa van 5,0 kg wordt 3,0 m omhoog getild. Hoeveel potentiële gravitationele energie komt erbij?",
+          "vraag": "Een massa van \\(5{,}0\\) kg wordt \\(3{,}0\\) m omhoog getild. Hoeveel potentiële gravitationele energie komt erbij?",
           "opties": [
-            "147 J",
-            "15 J",
-            "1,5 J",
-            "1470 J"
+            "\\(147\\) J",
+            "\\(15\\) J",
+            "\\(1{,}5\\) J",
+            "\\(1470\\) J"
           ],
           "antwoord": 0,
-          "uitleg": "Ep,gr = m . g . h = 5,0 . 9,81 . 3,0 = 147,15 J, dus ongeveer 147 J."
+          "uitleg": "Ep,gr = m . g . h = \\(5{,}0\\) . \\(9{,}81\\) . \\(3{,}0 = 147{,}15\\) J, dus ongeveer \\(147\\) J."
         },
         {
           "type": "meerkeuze",
           "vraag": "Welke formule geeft de potentiële elastische energie van een ingedrukte veer?",
           "opties": [
-            "Ep,el = k . Δl² / 2",
-            "Ep,el = k . Δl / 2",
+            "Ep,el = k . Δ\\(\\text{l}^{2}\\) / \\(2\\)",
+            "Ep,el = k . Δl / \\(2\\)",
             "Ep,el = k . Δl",
             "Ep,el = m . g . Δl"
           ],
@@ -3150,7 +3150,7 @@
           "type": "waarofniet",
           "vraag": "Een kracht die loodrecht op de verplaatsing staat, verricht toch arbeid.",
           "antwoord": false,
-          "uitleg": "cos 90° is nul, dus W is nul. De normaalkracht op een voorwerp dat over een vlakke vloer schuift, verricht dus geen arbeid."
+          "uitleg": "cos \\(90^{\\circ}\\) is nul, dus W is nul. De normaalkracht op een voorwerp dat over een vlakke vloer schuift, verricht dus geen arbeid."
         },
         {
           "type": "waarofniet",
@@ -3168,13 +3168,13 @@
           "type": "waarofniet",
           "vraag": "Een kilowattuur is een eenheid van vermogen.",
           "antwoord": false,
-          "uitleg": "Een kilowattuur is een eenheid van energie: een vermogen maal een tijd. Eén kWh is 3,6 miljoen joule."
+          "uitleg": "Een kilowattuur is een eenheid van energie: een vermogen maal een tijd. Eén kWh is \\(3{,}6\\) miljoen joule."
         },
         {
           "type": "waarofniet",
           "vraag": "De arbeid van de zwaartekracht op een voorwerp dat je optilt, is negatief.",
           "antwoord": true,
-          "uitleg": "De zwaartekracht wijst naar beneden en de verplaatsing naar boven, dus is de hoek 180°. Jij verricht dan positieve arbeid tegen de zwaartekracht in."
+          "uitleg": "De zwaartekracht wijst naar beneden en de verplaatsing naar boven, dus is de hoek \\(180^{\\circ}\\). Jij verricht dan positieve arbeid tegen de zwaartekracht in."
         },
         {
           "type": "invultekst",
@@ -3186,12 +3186,12 @@
         },
         {
           "type": "invultekst",
-          "vraag": "Een kracht van 25 N werkt over 4,0 m in de zin van de beweging. Hoeveel joule arbeid is dat? Schrijf het getal.",
+          "vraag": "Een kracht van \\(25\\) N werkt over \\(4{,}0\\) m in de zin van de beweging. Hoeveel joule arbeid is dat? Schrijf het getal.",
           "antwoord": [
             "100",
             "100 J"
           ],
-          "uitleg": "W = 25 . 4,0 . 1 = 100 J."
+          "uitleg": "\\(W = 25 \\times 4{,}0 \\times 1 = 100\\) J."
         },
         {
           "type": "invultekst",
@@ -3201,17 +3201,17 @@
             "kinetisch",
             "kinetische energie"
           ],
-          "uitleg": "De kinetische energie, met de formule m.v²/2."
+          "uitleg": "De kinetische energie, met de formule \\(E_{k} = \\dfrac{m \\cdot v^{2}}{2}\\)."
         },
         {
           "type": "invultekst",
-          "vraag": "Een massa van 2,0 kg hangt 10 m hoog. Hoeveel potentiële gravitationele energie heeft ze in joule? Schrijf het getal, afgerond op een eenheid.",
+          "vraag": "Een massa van \\(2{,}0\\) kg hangt \\(10\\) m hoog. Hoeveel potentiële gravitationele energie heeft ze in joule? Schrijf het getal, afgerond op een eenheid.",
           "antwoord": [
             "196",
             "196 J",
             "200"
           ],
-          "uitleg": "Ep,gr = 2,0 . 9,81 . 10 = 196,2 J."
+          "uitleg": "Ep,gr = \\(2{,}0\\) . \\(9{,}81\\) . \\(10 = 196{,}2\\) J."
         }
       ]
     },
@@ -3249,24 +3249,24 @@
           "vraag": "Welke formule geeft het vermogen?",
           "opties": [
             "P = |ΔE| / Δt",
-            "P = ΔE . Δt",
-            "P = Δt / |ΔE|",
-            "P = F . Δx"
+            "\\(P = \\Delta E \\cdot \\Delta t\\)",
+            "\\(P = \\Delta t\\) / |ΔE|",
+            "\\(P = F \\cdot \\Delta x\\)"
           ],
           "antwoord": 0,
           "uitleg": "De omgezette energie gedeeld door de tijd die het duurde. De eenheid is de watt, dus joule per seconde."
         },
         {
           "type": "meerkeuze",
-          "vraag": "Een lift verzet 48 kJ in 20 s. Welk vermogen levert hij?",
+          "vraag": "Een lift verzet \\(48\\) kJ in \\(20\\) s. Welk vermogen levert hij?",
           "opties": [
-            "2,4 kW",
-            "960 kW",
-            "0,42 kW",
-            "24 kW"
+            "\\(2{,}4\\) kW",
+            "\\(960\\) kW",
+            "\\(0{,}42\\) kW",
+            "\\(24\\) kW"
           ],
           "antwoord": 0,
-          "uitleg": "P = 48 000 / 20 = 2400 W, dus 2,4 kW."
+          "uitleg": "\\(P = 48\\,000 / 20 = 2400\\) W, dus \\(2{,}4\\) kW."
         },
         {
           "type": "meerkeuze",
@@ -3278,31 +3278,31 @@
             "η = Etotaal − Enuttig"
           ],
           "antwoord": 0,
-          "uitleg": "De nuttige energie gedeeld door de totale energie die je erin stopte. Het resultaat is een getal tussen 0 en 1, vaak als percentage geschreven."
+          "uitleg": "De nuttige energie gedeeld door de totale energie die je erin stopte. Het resultaat is een getal tussen \\(0\\) en \\(1\\), vaak als percentage geschreven."
         },
         {
           "type": "meerkeuze",
-          "vraag": "Een lamp krijgt 60 J elektrische energie en geeft 9,0 J licht. Wat is het rendement?",
+          "vraag": "Een lamp krijgt \\(60\\) J elektrische energie en geeft \\(9{,}0\\) J licht. Wat is het rendement?",
           "opties": [
-            "15 %",
-            "85 %",
-            "6,7 %",
-            "54 %"
+            "\\(15\\,\\%\\)",
+            "\\(85\\,\\%\\)",
+            "\\(6{,}7\\,\\%\\)",
+            "\\(54\\,\\%\\)"
           ],
           "antwoord": 0,
-          "uitleg": "η = 9,0 / 60 = 0,15, dus 15 %. De overige 51 J wordt warmte."
+          "uitleg": "η = \\(9{,}0 / 60 = 0{,}15\\), dus \\(15\\,\\%\\). De overige \\(51\\) J wordt warmte."
         },
         {
           "type": "meerkeuze",
-          "vraag": "Een motor krijgt 2000 J en verliest 1400 J als warmte. Wat is zijn rendement?",
+          "vraag": "Een motor krijgt \\(2000\\) J en verliest \\(1400\\) J als warmte. Wat is zijn rendement?",
           "opties": [
-            "30 %",
-            "70 %",
-            "140 %",
-            "43 %"
+            "\\(30\\,\\%\\)",
+            "\\(70\\,\\%\\)",
+            "\\(140\\,\\%\\)",
+            "\\(43\\,\\%\\)"
           ],
           "antwoord": 0,
-          "uitleg": "De nuttige energie is 2000 − 1400 = 600 J, dus η = 600 / 2000 = 0,30."
+          "uitleg": "De nuttige energie is \\(2000 - 1400 = 600\\) J, dus η = \\(600 / 2000 = 0{,}30\\)."
         },
         {
           "type": "meerkeuze",
@@ -3360,9 +3360,9 @@
         },
         {
           "type": "waarofniet",
-          "vraag": "Een rendement van meer dan 100 % kan niet bestaan.",
+          "vraag": "Een rendement van meer dan \\(100\\,\\%\\) kan niet bestaan.",
           "antwoord": true,
-          "uitleg": "Je kan er niet meer uithalen dan je erin stopt, want energie ontstaat niet uit het niets. Er gaat altijd een deel naar warmte, dus het blijft onder 100 %."
+          "uitleg": "Je kan er niet meer uithalen dan je erin stopt, want energie ontstaat niet uit het niets. Er gaat altijd een deel naar warmte, dus het blijft onder \\(100\\,\\%\\)."
         },
         {
           "type": "waarofniet",
@@ -3410,23 +3410,23 @@
         },
         {
           "type": "invultekst",
-          "vraag": "Een toestel van 500 W staat 60 s aan. Hoeveel joule energie gebruikt het? Schrijf het getal.",
+          "vraag": "Een toestel van \\(500\\) W staat \\(60\\) s aan. Hoeveel joule energie gebruikt het? Schrijf het getal.",
           "antwoord": [
             "30000",
             "30 000",
             "30000 J"
           ],
-          "uitleg": "ΔE = P . Δt = 500 . 60 = 30 000 J, dus 30 kJ."
+          "uitleg": "\\(\\Delta E = P \\cdot \\Delta t = 500 \\times 60 = 30\\,000\\) J, dus \\(30\\) kJ."
         },
         {
           "type": "invultekst",
-          "vraag": "Een motor krijgt 800 J en levert 200 J nuttig. Hoeveel procent is het rendement? Schrijf het getal.",
+          "vraag": "Een motor krijgt \\(800\\) J en levert \\(200\\) J nuttig. Hoeveel procent is het rendement? Schrijf het getal.",
           "antwoord": [
             "25",
             "25 %",
             "25%"
           ],
-          "uitleg": "η = 200 / 800 = 0,25, dus 25 %."
+          "uitleg": "η = \\(200 / 800 = 0{,}25\\), dus \\(25\\,\\%\\)."
         }
       ]
     },
@@ -3490,25 +3490,25 @@
           "type": "meerkeuze",
           "vraag": "Welke formule geeft de merkbare warmte van een stof?",
           "opties": [
-            "Q = c . m . ΔT",
-            "Q = l . m",
-            "Q = c . m",
-            "Q = m . ΔT"
+            "\\(Q = c \\cdot m \\cdot \\Delta T\\)",
+            "\\(Q = l \\cdot m\\)",
+            "\\(Q = c \\cdot m\\)",
+            "\\(Q = m \\cdot \\Delta T\\)"
           ],
           "antwoord": 0,
-          "uitleg": "De specifieke warmtecapaciteit maal de massa maal het temperatuursverschil. Q = l . m hoort bij een faseovergang."
+          "uitleg": "De specifieke warmtecapaciteit maal de massa maal het temperatuursverschil. \\(Q = l \\cdot m\\) hoort bij een faseovergang."
         },
         {
           "type": "meerkeuze",
-          "vraag": "Hoeveel warmte heb je nodig om 2,0 kg water 10 K op te warmen?",
+          "vraag": "Hoeveel warmte heb je nodig om \\(2{,}0\\) kg water \\(10\\) K op te warmen?",
           "opties": [
-            "84 kJ",
-            "8,4 kJ",
-            "840 kJ",
-            "21 kJ"
+            "\\(84\\) kJ",
+            "\\(8{,}4\\) kJ",
+            "\\(840\\) kJ",
+            "\\(21\\) kJ"
           ],
           "antwoord": 0,
-          "uitleg": "Q = 4186 . 2,0 . 10 = 83 720 J, dus ongeveer 84 kJ."
+          "uitleg": "\\(Q = 4186 \\times 2{,}0 \\times 10 = 83\\,720\\) J, dus ongeveer \\(84\\) kJ."
         },
         {
           "type": "meerkeuze",
@@ -3520,7 +3520,7 @@
             "de stof geleidt de warmte heel goed door"
           ],
           "antwoord": 0,
-          "uitleg": "Water heeft een grote c van 4186 J/(kg.K) en warmt dus traag op. Daarom blijft de zee lang koel in de lente en lang warm in de herfst."
+          "uitleg": "Water heeft een grote c van \\(4186\\) J/(kg.K) en warmt dus traag op. Daarom blijft de zee lang koel in de lente en lang warm in de herfst."
         },
         {
           "type": "meerkeuze",
@@ -3540,14 +3540,14 @@
           "opties": [
             "ze bestaat uit een kinetisch en een potentieel deel",
             "ze stijgt als de absolute temperatuur stijgt",
-            "ze is gelijk aan nul bij een temperatuur van 0 °C",
+            "ze is gelijk aan nul bij een temperatuur van \\(0^{\\circ}\\text{C}\\)",
             "ze hangt enkel van het volume van het voorwerp af"
           ],
           "antwoord": [
             0,
             1
           ],
-          "uitleg": "De deeltjes bewegen en trekken aan elkaar, dus zijn er twee delen. Een hogere absolute temperatuur betekent meer inwendige kinetische energie. Bij 0 °C is er nog altijd beweging, pas bij 0 K zou die stoppen."
+          "uitleg": "De deeltjes bewegen en trekken aan elkaar, dus zijn er twee delen. Een hogere absolute temperatuur betekent meer inwendige kinetische energie. Bij \\(0^{\\circ}\\text{C}\\) is er nog altijd beweging, pas bij \\(0\\) K zou die stoppen."
         },
         {
           "type": "meerkeuze",
@@ -3566,15 +3566,15 @@
         },
         {
           "type": "meerkeuze",
-          "vraag": "Een voorwerp van 0,50 kg met c = 900 J/(kg.K) krijgt 9,0 kJ warmte. Hoeveel stijgt zijn temperatuur?",
+          "vraag": "Een voorwerp van \\(0{,}50\\) kg met \\(c = 900\\) J/(kg.K) krijgt \\(9{,}0\\) kJ warmte. Hoeveel stijgt zijn temperatuur?",
           "opties": [
-            "20 K",
-            "2,0 K",
-            "200 K",
-            "4,5 K"
+            "\\(20\\) K",
+            "\\(2{,}0\\) K",
+            "\\(200\\) K",
+            "\\(4{,}5\\) K"
           ],
           "antwoord": 0,
-          "uitleg": "Uit ΔT = Q / (c . m) volgt 9000 / (900 . 0,50) = 20 K."
+          "uitleg": "Uit \\(\\Delta T = Q / \\left(c \\cdot m\\right)\\) volgt \\(9000 / \\left(900 \\times 0{,}50\\right) = 20\\) K."
         },
         {
           "type": "waarofniet",
@@ -3622,7 +3622,7 @@
             "4186 J/kg.K",
             "4180"
           ],
-          "uitleg": "4186 J/(kg.K). Die waarde staat bij de constanten van het examen."
+          "uitleg": "\\(4186\\) J/(kg.K). Die waarde staat bij de constanten van het examen."
         },
         {
           "type": "invultekst",
@@ -3636,13 +3636,13 @@
         },
         {
           "type": "invultekst",
-          "vraag": "Hoeveel warmte heb je nodig om 1,0 kg water 1,0 K op te warmen? Schrijf het getal in joule.",
+          "vraag": "Hoeveel warmte heb je nodig om \\(1{,}0\\) kg water \\(1{,}0\\) K op te warmen? Schrijf het getal in joule.",
           "antwoord": [
             "4186",
             "4186 J",
             "4180"
           ],
-          "uitleg": "Q = 4186 . 1,0 . 1,0 = 4186 J. Dat is net de betekenis van de specifieke warmtecapaciteit."
+          "uitleg": "\\(Q = 4186 \\times 1{,}0 \\times 1{,}0 = 4186\\) J. Dat is net de betekenis van de specifieke warmtecapaciteit."
         }
       ]
     },
@@ -3679,22 +3679,22 @@
           "type": "meerkeuze",
           "vraag": "Welke formule geeft de latente warmte bij een faseovergang?",
           "opties": [
-            "Q = l . m",
-            "Q = c . m . ΔT",
-            "Q = C . ΔT",
-            "Q = l . ΔT"
+            "\\(Q = l \\cdot m\\)",
+            "\\(Q = c \\cdot m \\cdot \\Delta T\\)",
+            "\\(Q = C \\cdot \\Delta T\\)",
+            "\\(Q = l \\cdot \\Delta T\\)"
           ],
           "antwoord": 0,
           "uitleg": "De specifieke faseovergangswarmte maal de massa. Er staat geen ΔT in, want de temperatuur verandert tijdens de overgang niet."
         },
         {
           "type": "meerkeuze",
-          "vraag": "Wat gebeurt er met de temperatuur van ijs van 0 °C terwijl het smelt?",
+          "vraag": "Wat gebeurt er met de temperatuur van ijs van \\(0^{\\circ}\\text{C}\\) terwijl het smelt?",
           "opties": [
-            "ze blijft 0 °C",
+            "ze blijft \\(0^{\\circ}\\text{C}\\)",
             "ze stijgt gelijkmatig",
             "ze daalt eerst",
-            "ze stijgt tot 100 °C"
+            "ze stijgt tot \\(100^{\\circ}\\text{C}\\)"
           ],
           "antwoord": 0,
           "uitleg": "Alle toegevoerde warmte gaat naar het losmaken van de deeltjes, niet naar hun beweging. In een grafiek geeft dat een plateau."
@@ -3713,15 +3713,15 @@
         },
         {
           "type": "meerkeuze",
-          "vraag": "Hoeveel warmte heb je nodig om 0,20 kg ijs van 0 °C te smelten, met ls = 334 kJ/kg?",
+          "vraag": "Hoeveel warmte heb je nodig om \\(0{,}20\\) kg ijs van \\(0^{\\circ}\\text{C}\\) te smelten, met \\(l_{s} = 334\\) kJ/kg?",
           "opties": [
-            "67 kJ",
-            "6,7 kJ",
-            "670 kJ",
-            "1670 kJ"
+            "\\(67\\) kJ",
+            "\\(6{,}7\\) kJ",
+            "\\(670\\) kJ",
+            "\\(1670\\) kJ"
           ],
           "antwoord": 0,
-          "uitleg": "Q = l . m = 334 000 . 0,20 = 66 800 J, dus ongeveer 67 kJ."
+          "uitleg": "\\(Q = l \\cdot m = 334\\,000 \\times 0{,}20 = 66\\,800\\) J, dus ongeveer \\(67\\) kJ."
         },
         {
           "type": "meerkeuze",
@@ -3767,15 +3767,15 @@
         },
         {
           "type": "meerkeuze",
-          "vraag": "Je giet 0,10 kg water van 80 °C bij 0,10 kg water van 20 °C in een geïsoleerd vat. Welke eindtemperatuur krijg je?",
+          "vraag": "Je giet \\(0{,}10\\) kg water van \\(80^{\\circ}\\text{C}\\) bij \\(0{,}10\\) kg water van \\(20^{\\circ}\\text{C}\\) in een geïsoleerd vat. Welke eindtemperatuur krijg je?",
           "opties": [
-            "50 °C",
-            "60 °C",
-            "40 °C",
-            "100 °C"
+            "\\(50^{\\circ}\\text{C}\\)",
+            "\\(60^{\\circ}\\text{C}\\)",
+            "\\(40^{\\circ}\\text{C}\\)",
+            "\\(100^{\\circ}\\text{C}\\)"
           ],
           "antwoord": 0,
-          "uitleg": "Dezelfde massa van dezelfde stof, dus de eindtemperatuur ligt precies in het midden: (80 + 20) / 2 = 50 °C. De warmte die het warme water afgeeft, neemt het koude op."
+          "uitleg": "Dezelfde massa van dezelfde stof, dus de eindtemperatuur ligt precies in het midden: \\((80 + 20) / 2 = 50^{\\circ}\\text{C}\\). De warmte die het warme water afgeeft, neemt het koude op."
         },
         {
           "type": "meerkeuze",
@@ -3787,7 +3787,7 @@
             "het absolute nulpunt"
           ],
           "antwoord": 0,
-          "uitleg": "Het kookpunt. Voor water is dat 100 °C bij een druk van 1013 hPa."
+          "uitleg": "Het kookpunt. Voor water is dat \\(100^{\\circ}\\text{C}\\) bij een druk van \\(1013\\) hPa."
         },
         {
           "type": "waarofniet",
@@ -3803,15 +3803,15 @@
         },
         {
           "type": "waarofniet",
-          "vraag": "Water kan enkel verdampen bij 100 °C.",
+          "vraag": "Water kan enkel verdampen bij \\(100^{\\circ}\\text{C}\\).",
           "antwoord": false,
-          "uitleg": "Verdampen gebeurt aan het oppervlak bij elke temperatuur, zoals natte was die droogt. Bij 100 °C begint water te koken, dus ook van binnenuit te verdampen."
+          "uitleg": "Verdampen gebeurt aan het oppervlak bij elke temperatuur, zoals natte was die droogt. Bij \\(100^{\\circ}\\text{C}\\) begint water te koken, dus ook van binnenuit te verdampen."
         },
         {
           "type": "waarofniet",
-          "vraag": "Om 1 kg water te laten verdampen heb je minder warmte nodig dan om het van 0 °C tot 100 °C op te warmen.",
+          "vraag": "Om \\(1\\) kg water te laten verdampen heb je minder warmte nodig dan om het van \\(0^{\\circ}\\text{C}\\) tot \\(100^{\\circ}\\text{C}\\) op te warmen.",
           "antwoord": false,
-          "uitleg": "Opwarmen van 0 naar 100 °C kost ongeveer 419 kJ, verdampen ongeveer 2260 kJ. Verdampen kost dus veel méér."
+          "uitleg": "Opwarmen van \\(0\\) naar \\(100^{\\circ}\\text{C}\\) kost ongeveer \\(419\\) kJ, verdampen ongeveer \\(2260\\) kJ. Verdampen kost dus veel méér."
         },
         {
           "type": "waarofniet",
@@ -3841,12 +3841,12 @@
         },
         {
           "type": "invultekst",
-          "vraag": "Hoeveel warmte heb je nodig om 0,50 kg van een stof te smelten, met ls = 200 kJ/kg? Schrijf het getal in kJ.",
+          "vraag": "Hoeveel warmte heb je nodig om \\(0{,}50\\) kg van een stof te smelten, met \\(l_{s} = 200\\) kJ/kg? Schrijf het getal in kJ.",
           "antwoord": [
             "100",
             "100 kJ"
           ],
-          "uitleg": "Q = l . m = 200 . 0,50 = 100 kJ."
+          "uitleg": "\\(Q = l \\cdot m = 200 \\times 0{,}50 = 100\\) kJ."
         },
         {
           "type": "invultekst",
@@ -3869,13 +3869,13 @@
           "type": "meerkeuze",
           "vraag": "Welke formule geeft de wet van Ohm?",
           "opties": [
-            "R = U / I",
-            "R = I / U",
-            "R = U . I",
-            "R = U + I"
+            "\\(R = U / I\\)",
+            "\\(R = I / U\\)",
+            "\\(R = U\\) . I",
+            "\\(R = U + I\\)"
           ],
           "antwoord": 0,
-          "uitleg": "De weerstand is de spanning gedeeld door de stroomsterkte. Je kan ze ook schrijven als U = R . I."
+          "uitleg": "De weerstand is de spanning gedeeld door de stroomsterkte. Je kan ze ook schrijven als \\(U = R\\) . I."
         },
         {
           "type": "meerkeuze",
@@ -3891,27 +3891,27 @@
         },
         {
           "type": "meerkeuze",
-          "vraag": "Door een lamp staat 230 V en er loopt 0,50 A. Hoe groot is haar weerstand?",
+          "vraag": "Door een lamp staat \\(230\\) V en er loopt \\(0{,}50\\) A. Hoe groot is haar weerstand?",
           "opties": [
-            "460 Ω",
-            "115 Ω",
-            "0,0022 Ω",
-            "230 Ω"
+            "\\(460\\) Ω",
+            "\\(115\\) Ω",
+            "\\(0{,}0022\\) Ω",
+            "\\(230\\) Ω"
           ],
           "antwoord": 0,
-          "uitleg": "R = U / I = 230 / 0,50 = 460 Ω."
+          "uitleg": "\\(R = U / I = 230 / 0{,}50 = 460\\) Ω."
         },
         {
           "type": "meerkeuze",
-          "vraag": "Over een weerstand van 25 Ω staat 5,0 V. Hoe groot is de stroomsterkte?",
+          "vraag": "Over een weerstand van \\(25\\) Ω staat \\(5{,}0\\) V. Hoe groot is de stroomsterkte?",
           "opties": [
-            "0,20 A",
-            "5,0 A",
-            "125 A",
-            "20 A"
+            "\\(0{,}20\\) A",
+            "\\(5{,}0\\) A",
+            "\\(125\\) A",
+            "\\(20\\) A"
           ],
           "antwoord": 0,
-          "uitleg": "I = U / R = 5,0 / 25 = 0,20 A."
+          "uitleg": "\\(I = U / R = 5{,}0 / 25 = 0{,}20\\) A."
         },
         {
           "type": "meerkeuze",
@@ -3953,16 +3953,16 @@
           "type": "meerkeuze",
           "vraag": "Welke formules geven het elektrisch vermogen van een toestel? Kruis alles aan wat juist is.",
           "opties": [
-            "P = U . I",
+            "\\(P = U\\) . I",
             "P = |ΔE| / Δt",
-            "P = U / I",
-            "P = R . I"
+            "\\(P = U / I\\)",
+            "\\(P = R\\) . I"
           ],
           "antwoord": [
             0,
             1
           ],
-          "uitleg": "Spanning maal stroomsterkte geeft het vermogen, en vermogen is ook altijd energie per tijd. U/I is de weerstand en R.I is de spanning."
+          "uitleg": "Spanning maal stroomsterkte geeft het vermogen, en vermogen is ook altijd energie per tijd. \\(U / I\\) is de weerstand en R.I is de spanning."
         },
         {
           "type": "meerkeuze",
@@ -3989,7 +3989,7 @@
             0,
             1
           ],
-          "uitleg": "Uit I = U / R volgt dat een heel kleine R een heel grote stroom geeft. Door het joule-effect worden de draden dan snel heet, met brandgevaar."
+          "uitleg": "Uit \\(I = U / R\\) volgt dat een heel kleine R een heel grote stroom geeft. Door het joule-effect worden de draden dan snel heet, met brandgevaar."
         },
         {
           "type": "meerkeuze",
@@ -4007,13 +4007,13 @@
           "type": "waarofniet",
           "vraag": "Bij een vaste weerstand zijn de spanning en de stroomsterkte recht evenredig.",
           "antwoord": true,
-          "uitleg": "Uit U = R . I volgt dat een dubbele spanning een dubbele stroom geeft, zolang R gelijk blijft. In een grafiek geeft dat een rechte door de oorsprong."
+          "uitleg": "Uit \\(U = R\\) . I volgt dat een dubbele spanning een dubbele stroom geeft, zolang R gelijk blijft. In een grafiek geeft dat een rechte door de oorsprong."
         },
         {
           "type": "waarofniet",
           "vraag": "Bij een vaste spanning zijn de stroomsterkte en de weerstand recht evenredig.",
           "antwoord": false,
-          "uitleg": "Ze zijn omgekeerd evenredig: I = U / R. Een dubbele weerstand geeft bij dezelfde spanning de helft van de stroom."
+          "uitleg": "Ze zijn omgekeerd evenredig: \\(I = U / R\\). Een dubbele weerstand geeft bij dezelfde spanning de helft van de stroom."
         },
         {
           "type": "waarofniet",
@@ -4029,7 +4029,7 @@
         },
         {
           "type": "waarofniet",
-          "vraag": "Je mag een elektrisch toestel met natte handen bedienen, zolang de spanning onder 230 V blijft.",
+          "vraag": "Je mag een elektrisch toestel met natte handen bedienen, zolang de spanning onder \\(230\\) V blijft.",
           "antwoord": false,
           "uitleg": "Nat water verlaagt de weerstand van je huid sterk, dus loopt er bij dezelfde spanning veel meer stroom door je lichaam. Dat is net wat elektrocutie gevaarlijk maakt."
         },
@@ -4049,16 +4049,16 @@
             "de volt",
             "V"
           ],
-          "uitleg": "De volt, met symbool V. Een stopcontact in België staat op 230 V."
+          "uitleg": "De volt, met symbool V. Een stopcontact in België staat op \\(230\\) V."
         },
         {
           "type": "invultekst",
-          "vraag": "Een toestel staat op 230 V en trekt 2,0 A. Hoeveel watt vermogen heeft het? Schrijf het getal.",
+          "vraag": "Een toestel staat op \\(230\\) V en trekt \\(2{,}0\\) A. Hoeveel watt vermogen heeft het? Schrijf het getal.",
           "antwoord": [
             "460",
             "460 W"
           ],
-          "uitleg": "P = U . I = 230 . 2,0 = 460 W."
+          "uitleg": "\\(P = U \\cdot I = 230 \\times 2{,}0 = 460\\) W."
         },
         {
           "type": "invultekst",
@@ -4106,63 +4106,63 @@
         },
         {
           "type": "meerkeuze",
-          "vraag": "Twee weerstanden van 30 Ω en 60 Ω staan in serie. Hoe groot is de substitutieweerstand?",
+          "vraag": "Twee weerstanden van \\(30\\) Ω en \\(60\\) Ω staan in serie. Hoe groot is de substitutieweerstand?",
           "opties": [
-            "90 Ω",
-            "20 Ω",
-            "45 Ω",
-            "30 Ω"
+            "\\(90\\) Ω",
+            "\\(20\\) Ω",
+            "\\(45\\) Ω",
+            "\\(30\\) Ω"
           ],
           "antwoord": 0,
-          "uitleg": "In serie tel je de weerstanden op: 30 + 60 = 90 Ω."
+          "uitleg": "In serie tel je de weerstanden op: \\(30 + 60 = 90\\) Ω."
         },
         {
           "type": "meerkeuze",
-          "vraag": "Twee weerstanden van 30 Ω en 60 Ω staan parallel. Hoe groot is de substitutieweerstand?",
+          "vraag": "Twee weerstanden van \\(30\\) Ω en \\(60\\) Ω staan parallel. Hoe groot is de substitutieweerstand?",
           "opties": [
-            "20 Ω",
-            "90 Ω",
-            "45 Ω",
-            "1,5 Ω"
+            "\\(20\\) Ω",
+            "\\(90\\) Ω",
+            "\\(45\\) Ω",
+            "\\(1{,}5\\) Ω"
           ],
           "antwoord": 0,
-          "uitleg": "Rs = (1/30 + 1/60)⁻¹ = (3/60)⁻¹ = 20 Ω. Parallel geeft altijd minder dan de kleinste van de twee."
+          "uitleg": "\\(R_{s} = (\\tfrac{1}{30} + \\tfrac{1}{60})^{-1} = (\\tfrac{3}{60})^{-1} = 20\\) Ω. Parallel geeft altijd minder dan de kleinste van de twee."
         },
         {
           "type": "meerkeuze",
-          "vraag": "Drie weerstanden van elk 60 Ω staan parallel. Hoe groot is de substitutieweerstand?",
+          "vraag": "Drie weerstanden van elk \\(60\\) Ω staan parallel. Hoe groot is de substitutieweerstand?",
           "opties": [
-            "20 Ω",
-            "180 Ω",
-            "60 Ω",
-            "30 Ω"
+            "\\(20\\) Ω",
+            "\\(180\\) Ω",
+            "\\(60\\) Ω",
+            "\\(30\\) Ω"
           ],
           "antwoord": 0,
-          "uitleg": "Bij gelijke weerstanden parallel deel je door hun aantal: 60 / 3 = 20 Ω."
+          "uitleg": "Bij gelijke weerstanden parallel deel je door hun aantal: \\(60 / 3 = 20\\) Ω."
         },
         {
           "type": "meerkeuze",
-          "vraag": "Over een serieschakeling van 20 Ω en 40 Ω staat 12 V. Hoe groot is de stroomsterkte?",
+          "vraag": "Over een serieschakeling van \\(20\\) Ω en \\(40\\) Ω staat \\(12\\) V. Hoe groot is de stroomsterkte?",
           "opties": [
-            "0,20 A",
-            "0,60 A",
-            "0,30 A",
-            "2,0 A"
+            "\\(0{,}20\\) A",
+            "\\(0{,}60\\) A",
+            "\\(0{,}30\\) A",
+            "\\(2{,}0\\) A"
           ],
           "antwoord": 0,
-          "uitleg": "Rs = 20 + 40 = 60 Ω, dus I = 12 / 60 = 0,20 A. Die stroom loopt door beide weerstanden."
+          "uitleg": "\\(R_{s} = 20 + 40 = 60\\) Ω, dus \\(I = 12 / 60 = 0{,}20\\) A. Die stroom loopt door beide weerstanden."
         },
         {
           "type": "meerkeuze",
-          "vraag": "In de vorige serieschakeling van 20 Ω en 40 Ω met 0,20 A: hoe groot is de spanning over de weerstand van 40 Ω?",
+          "vraag": "In de vorige serieschakeling van \\(20\\) Ω en \\(40\\) Ω met \\(0{,}20\\) A: hoe groot is de spanning over de weerstand van \\(40\\) Ω?",
           "opties": [
-            "8,0 V",
-            "4,0 V",
-            "12 V",
-            "200 V"
+            "\\(8{,}0\\) V",
+            "\\(4{,}0\\) V",
+            "\\(12\\) V",
+            "\\(200\\) V"
           ],
           "antwoord": 0,
-          "uitleg": "U = R . I = 40 . 0,20 = 8,0 V. Over de 20 Ω staat 4,0 V, en samen is dat weer 12 V."
+          "uitleg": "\\(U = R \\cdot I = 40 \\times 0{,}20 = 8{,}0\\) V. Over de \\(20\\) Ω staat \\(4{,}0\\) V, en samen is dat weer \\(12\\) V."
         },
         {
           "type": "meerkeuze",
@@ -4193,15 +4193,15 @@
         },
         {
           "type": "meerkeuze",
-          "vraag": "In een gemengde schakeling staat R1 = 10 Ω in serie met twee parallelle weerstanden van elk 20 Ω. Hoe groot is de substitutieweerstand?",
+          "vraag": "In een gemengde schakeling staat R\\(1 = 10\\) Ω in serie met twee parallelle weerstanden van elk \\(20\\) Ω. Hoe groot is de substitutieweerstand?",
           "opties": [
-            "20 Ω",
-            "50 Ω",
-            "30 Ω",
-            "10 Ω"
+            "\\(20\\) Ω",
+            "\\(50\\) Ω",
+            "\\(30\\) Ω",
+            "\\(10\\) Ω"
           ],
           "antwoord": 0,
-          "uitleg": "Eerst de parallelle twee: 20 / 2 = 10 Ω. Die zet je in serie met R1: 10 + 10 = 20 Ω."
+          "uitleg": "Eerst de parallelle twee: \\(20 / 2 = 10\\) Ω. Die zet je in serie met \\(R_{1}\\): \\(10 + 10 = 20\\) Ω."
         },
         {
           "type": "meerkeuze",
@@ -4234,7 +4234,7 @@
           "type": "waarofniet",
           "vraag": "De stopcontacten in een huis staan parallel geschakeld.",
           "antwoord": true,
-          "uitleg": "Zo staat op elk stopcontact 230 V, los van wat er elders aanhangt. In serie zou elk toestel maar een deel van de spanning krijgen."
+          "uitleg": "Zo staat op elk stopcontact \\(230\\) V, los van wat er elders aanhangt. In serie zou elk toestel maar een deel van de spanning krijgen."
         },
         {
           "type": "waarofniet",
@@ -4260,23 +4260,23 @@
         },
         {
           "type": "invultekst",
-          "vraag": "Twee weerstanden van 50 Ω staan in serie. Hoe groot is de substitutieweerstand in ohm? Schrijf het getal.",
+          "vraag": "Twee weerstanden van \\(50\\) Ω staan in serie. Hoe groot is de substitutieweerstand in ohm? Schrijf het getal.",
           "antwoord": [
             "100",
             "100 Ω",
             "100 ohm"
           ],
-          "uitleg": "In serie tel je op: 50 + 50 = 100 Ω."
+          "uitleg": "In serie tel je op: \\(50 + 50 = 100\\) Ω."
         },
         {
           "type": "invultekst",
-          "vraag": "Twee weerstanden van 50 Ω staan parallel. Hoe groot is de substitutieweerstand in ohm? Schrijf het getal.",
+          "vraag": "Twee weerstanden van \\(50\\) Ω staan parallel. Hoe groot is de substitutieweerstand in ohm? Schrijf het getal.",
           "antwoord": [
             "25",
             "25 Ω",
             "25 ohm"
           ],
-          "uitleg": "Bij twee gelijke weerstanden parallel is Rs de helft: 50 / 2 = 25 Ω."
+          "uitleg": "Bij twee gelijke weerstanden parallel is Rs de helft: \\(50 / 2 = 25\\) Ω."
         },
         {
           "type": "invultekst",
@@ -4380,7 +4380,7 @@
             "dat hangt van de grootte van de spiegel af"
           ],
           "antwoord": 0,
-          "uitleg": "De beeldafstand is gelijk aan de voorwerpsafstand. Sta je 1 m voor de spiegel, dan lijkt je beeld 1 m erachter, dus 2 m van jou."
+          "uitleg": "De beeldafstand is gelijk aan de voorwerpsafstand. Sta je \\(1\\) m voor de spiegel, dan lijkt je beeld \\(1\\) m erachter, dus \\(2\\) m van jou."
         },
         {
           "type": "meerkeuze",
@@ -4449,7 +4449,7 @@
           "type": "waarofniet",
           "vraag": "De invalshoek meet je tussen de invallende straal en het spiegeloppervlak.",
           "antwoord": false,
-          "uitleg": "Je meet die hoek tussen de invallende straal en de normaal, dus de loodlijn. Een straal die er schuin op valt onder 20° met de spiegel, heeft dus een invalshoek van 70°."
+          "uitleg": "Je meet die hoek tussen de invallende straal en de normaal, dus de loodlijn. Een straal die er schuin op valt onder \\(20^{\\circ}\\) met de spiegel, heeft dus een invalshoek van \\(70^{\\circ}\\)."
         },
         {
           "type": "waarofniet",
@@ -4474,13 +4474,13 @@
         },
         {
           "type": "invultekst",
-          "vraag": "Een lichtstraal valt onder een invalshoek van 35° op een spiegel. Hoe groot is de weerkaatsingshoek? Schrijf het getal in graden.",
+          "vraag": "Een lichtstraal valt onder een invalshoek van \\(35^{\\circ}\\) op een spiegel. Hoe groot is de weerkaatsingshoek? Schrijf het getal in graden.",
           "antwoord": [
             "35",
             "35°",
             "35 graden"
           ],
-          "uitleg": "De twee hoeken zijn altijd gelijk, dus 35°."
+          "uitleg": "De twee hoeken zijn altijd gelijk, dus \\(35^{\\circ}\\)."
         },
         {
           "type": "invultekst",
@@ -4543,7 +4543,7 @@
             "hij kaatst helemaal terug"
           ],
           "antwoord": 0,
-          "uitleg": "Bij een invalshoek van 0° valt de straal al langs de normaal, dus is er niets om naartoe of weg te buigen."
+          "uitleg": "Bij een invalshoek van \\(0^{\\circ}\\) valt de straal al langs de normaal, dus is er niets om naartoe of weg te buigen."
         },
         {
           "type": "meerkeuze",
@@ -4712,7 +4712,7 @@
             "3x",
             "drie"
           ],
-          "uitleg": "De vergrotingsfactor is de verhouding van de beeldgrootte tot de voorwerpsgrootte, dus 3."
+          "uitleg": "De vergrotingsfactor is de verhouding van de beeldgrootte tot de voorwerpsgrootte, dus \\(3\\)."
         }
       ]
     },
@@ -4735,7 +4735,7 @@
         },
         {
           "type": "meerkeuze",
-          "vraag": "Je meet een stroom die mogelijk 2 A groot is met een multimeter. Wat doe je eerst?",
+          "vraag": "Je meet een stroom die mogelijk \\(2\\) A groot is met een multimeter. Wat doe je eerst?",
           "opties": [
             "het grootste meetbereik kiezen en daarna verfijnen",
             "het kleinste meetbereik kiezen voor de grootste nauwkeurigheid",
@@ -4798,7 +4798,7 @@
         },
         {
           "type": "meerkeuze",
-          "vraag": "Je wil een tijdsduur van ongeveer 2 s meten. Wat kies je?",
+          "vraag": "Je wil een tijdsduur van ongeveer \\(2\\) s meten. Wat kies je?",
           "opties": [
             "een chronometer tot op een honderdste seconde",
             "een gewone keukenklok met een secondewijzer",
@@ -4857,7 +4857,7 @@
             "een eenheid vervangt het aantal beduidende cijfers"
           ],
           "antwoord": 0,
-          "uitleg": "Een 5 kan 5 m, 5 kg of 5 s zijn. Zonder eenheid kan je twee metingen niet vergelijken en niet verder rekenen."
+          "uitleg": "Een \\(5\\) kan \\(5\\) m, \\(5\\) kg of \\(5\\) s zijn. Zonder eenheid kan je twee metingen niet vergelijken en niet verder rekenen."
         },
         {
           "type": "waarofniet",
@@ -4992,7 +4992,7 @@
             "de vraag gaat over een meetbaar voorwerp"
           ],
           "antwoord": 0,
-          "uitleg": "\"Waarom is zonne-energie de beste keuze?\" zit al vol overtuiging. \"Hoeveel energie levert een zonnepaneel per maand?\" is objectief."
+          "uitleg": "\\\"Waarom is zonne-energie de beste keuze?\\\" zit al vol overtuiging. \\\"Hoeveel energie levert een zonnepaneel per maand?\\\" is objectief."
         },
         {
           "type": "meerkeuze",

@@ -32,7 +32,7 @@ DEEL1 = [
     dict(
         type="meerkeuze",
         vraag="Wat is de SI-eenheid van versnelling?",
-        opties=["m/s²", "m/s", "m", "N"],
+        opties=[r"\(\text{m/s}^{2}\)", "m/s", "m", "N"],
         antwoord=0,
         uitleg="De meter per seconde kwadraat: hoeveel meter per seconde de snelheid elke seconde verandert.",
     ),
@@ -65,7 +65,7 @@ DEEL1 = [
         vraag="Wat stelt de steilheid van een v(t)-grafiek voor?",
         opties=["de versnelling", "de verplaatsing", "de snelheid", "de positie"],
         antwoord=0,
-        uitleg="De steilheid is Δv / Δt, en dat is de gemiddelde versnelling.",
+        uitleg=r"De steilheid is \(\Delta v / \Delta t\), en dat is de gemiddelde versnelling.",
     ),
     dict(
         type="meerkeuze",
@@ -81,17 +81,17 @@ DEEL1 = [
     ),
     dict(
         type="meerkeuze",
-        vraag="Een wagen gaat van 0 naar 20 m/s in 5,0 s. Wat is de gemiddelde versnelling?",
-        opties=["4,0 m/s²", "100 m/s²", "0,25 m/s²", "20 m/s²"],
+        vraag=r"Een wagen gaat van \(0\) naar \(20\) m/s in \(5{,}0\) s. Wat is de gemiddelde versnelling?",
+        opties=[r"\(4{,}0\ \text{m/s}^{2}\)", r"\(100\ \text{m/s}^{2}\)", r"\(0{,}25\ \text{m/s}^{2}\)", r"\(20\ \text{m/s}^{2}\)"],
         antwoord=0,
-        uitleg="ag = Δv / Δt = 20 / 5,0 = 4,0 m/s².",
+        uitleg=r"ag = Δv / Δt = \(20\) / \(5{,}0 = 4{,}0\ \text{m/s}^{2}\).",
     ),
     dict(
         type="meerkeuze",
-        vraag="Een trein remt van 30 m/s naar 10 m/s in 8,0 s. Wat is de gemiddelde versnelling?",
-        opties=["−2,5 m/s²", "2,5 m/s²", "−5,0 m/s²", "−20 m/s²"],
+        vraag=r"Een trein remt van \(30\) m/s naar \(10\) m/s in \(8{,}0\) s. Wat is de gemiddelde versnelling?",
+        opties=[r"\(-2{,}5\ \text{m/s}^{2}\)", r"\(2{,}5\ \text{m/s}^{2}\)", r"\(-5{,}0\ \text{m/s}^{2}\)", r"\(-20\ \text{m/s}^{2}\)"],
         antwoord=0,
-        uitleg="Δv = 10 − 30 = −20 m/s en Δt = 8,0 s, dus ag = −20 / 8,0 = −2,5 m/s². Het minteken hoort bij het vertragen.",
+        uitleg=r"\(\Delta v = 10 - 30 = -20\) m/s en \(\Delta t = 8{,}0\) s, dus ag = \(-20\) / \(8{,}0 = -2{,}5\ \text{m/s}^{2}\). Het minteken hoort bij het vertragen.",
     ),
     dict(
         type="meerkeuze",
@@ -167,9 +167,9 @@ DEEL1 = [
     ),
     dict(
         type="invultekst",
-        vraag="Een bromfiets gaat van 4,0 m/s naar 14 m/s in 5,0 s. Hoe groot is de gemiddelde versnelling in m/s²? Schrijf het getal.",
+        vraag=r"Een bromfiets gaat van \(4{,}0\) m/s naar \(14\) m/s in \(5{,}0\) s. Hoe groot is de gemiddelde versnelling in \(\text{m/s}^{2}\)? Schrijf het getal.",
         antwoord=["2", "2,0", "2 m/s²"],
-        uitleg="Δv = 14 − 4,0 = 10 m/s, dus ag = 10 / 5,0 = 2,0 m/s².",
+        uitleg=r"\(\Delta v = 14 - 4{,}0 = 10\) m/s, dus ag = \(10\) / \(5{,}0 = 2{,}0\ \text{m/s}^{2}\).",
     ),
     dict(
         type="invultekst",
@@ -201,9 +201,9 @@ DEEL2 = [
     dict(
         type="meerkeuze",
         vraag="Hoe groot is de valversnelling in België?",
-        opties=["9,81 m/s²", "1,62 m/s²", "98,1 m/s²", "0,981 m/s²"],
+        opties=[r"\(9{,}81\ \text{m/s}^{2}\)", r"\(1{,}62\ \text{m/s}^{2}\)", r"\(98{,}1\ \text{m/s}^{2}\)", r"\(0{,}981\ \text{m/s}^{2}\)"],
         antwoord=0,
-        uitleg="g = 9,81 m/s², of ook 9,81 N/kg. Op de maan is dat veel kleiner, ongeveer 1,62 m/s².",
+        uitleg=r"\(g = 9{,}81\ \text{m/s}^{2}\), of ook \(9{,}81\) N/kg. Op de maan is dat veel kleiner, ongeveer \(1{,}62\ \text{m/s}^{2}\).",
     ),
     dict(
         type="meerkeuze",
@@ -215,14 +215,14 @@ DEEL2 = [
             "ze wordt eerst groter en dan kleiner",
         ],
         antwoord=0,
-        uitleg="De valversnelling werkt naar beneden en de bal gaat naar boven, dus de snelheid neemt elke seconde met 9,81 m/s af.",
+        uitleg=r"De valversnelling werkt naar beneden en de bal gaat naar boven, dus de snelheid neemt elke seconde met \(9{,}81\) m/s af.",
     ),
     dict(
         type="meerkeuze",
         vraag="Welke uitspraken over het hoogste punt van een verticale worp naar boven zijn juist? Kruis alles aan wat juist is.",
         opties=[
             "de snelheid is daar nul",
-            "de versnelling is daar 9,81 m/s² naar beneden",
+            r"de versnelling is daar \(9{,}81\ \text{m/s}^{2}\) naar beneden",
             "de versnelling is daar nul",
             "de zwaartekracht werkt daar niet",
         ],
@@ -239,13 +239,13 @@ DEEL2 = [
             "een kromme die steeds vlakker wordt",
         ],
         antwoord=0,
-        uitleg="De snelheid begint op nul en groeit elke seconde met 9,81 m/s. Dat geeft een rechte door de oorsprong.",
+        uitleg=r"De snelheid begint op nul en groeit elke seconde met \(9{,}81\) m/s. Dat geeft een rechte door de oorsprong.",
     ),
     dict(
         type="meerkeuze",
         vraag="Een a(t)-grafiek van een vrije val is:",
         opties=[
-            "een horizontale lijn op 9,81 m/s²",
+            r"een horizontale lijn op \(9{,}81\ \text{m/s}^{2}\)",
             "een rechte die gelijkmatig stijgt",
             "een rechte die gelijkmatig daalt",
             "een horizontale lijn op nul",
@@ -267,17 +267,17 @@ DEEL2 = [
     ),
     dict(
         type="meerkeuze",
-        vraag="Een steen valt vanuit rust. Welke snelheid heeft hij na 2,0 s, zonder luchtweerstand?",
-        opties=["19,6 m/s", "9,81 m/s", "39,2 m/s", "4,9 m/s"],
+        vraag=r"Een steen valt vanuit rust. Welke snelheid heeft hij na \(2{,}0\) s, zonder luchtweerstand?",
+        opties=[r"\(19{,}6\) m/s", r"\(9{,}81\) m/s", r"\(39{,}2\) m/s", r"\(4{,}9\) m/s"],
         antwoord=0,
-        uitleg="Elke seconde komt er 9,81 m/s bij, dus na 2,0 s is dat 2,0 . 9,81 = 19,6 m/s.",
+        uitleg=r"Elke seconde komt er \(9{,}81\) m/s bij, dus na \(2{,}0\) s is dat \(2{,}0 \times 9{,}81 = 19{,}6\) m/s.",
     ),
     dict(
         type="meerkeuze",
-        vraag="Je gooit een bal met 15 m/s recht omhoog. Na hoeveel tijd is hij op zijn hoogste punt, zonder luchtweerstand?",
-        opties=["na 1,5 s", "na 15 s", "na 0,65 s", "na 3,1 s"],
+        vraag=r"Je gooit een bal met \(15\) m/s recht omhoog. Na hoeveel tijd is hij op zijn hoogste punt, zonder luchtweerstand?",
+        opties=[r"na \(1{,}5\) s", r"na \(15\) s", r"na \(0{,}65\) s", r"na \(3{,}1\) s"],
         antwoord=0,
-        uitleg="Elke seconde verdwijnt er 9,81 m/s van de snelheid, dus 15 / 9,81 is ongeveer 1,5 s.",
+        uitleg=r"Elke seconde verdwijnt er \(9{,}81\) m/s van de snelheid, dus \(15 / 9{,}81\) is ongeveer \(1{,}5\) s.",
     ),
     dict(
         type="meerkeuze",
@@ -286,14 +286,14 @@ DEEL2 = [
             "de luchtweerstand is dan even groot als de zwaartekracht",
             "de resulterende kracht is dan nul",
             "de zwaartekracht is dan verdwenen",
-            "de versnelling is dan 9,81 m/s²",
+            r"de versnelling is dan \(9{,}81\ \text{m/s}^{2}\)",
         ],
         antwoord=[0, 1],
         uitleg="Zodra de luchtweerstand even groot is als de zwaartekracht, heffen de twee krachten elkaar op. De resulterende kracht is dan nul en de snelheid verandert niet meer.",
     ),
     dict(
         type="meerkeuze",
-        vraag="In dezelfde v(t)-grafiek staan twee vallende voorwerpen zonder luchtweerstand, een van 1 kg en een van 5 kg. Wat zie je?",
+        vraag=r"In dezelfde v(t)-grafiek staan twee vallende voorwerpen zonder luchtweerstand, een van \(1\) kg en een van \(5\) kg. Wat zie je?",
         opties=[
             "twee lijnen die precies samenvallen",
             "een steilere lijn voor het zwaardere voorwerp",
@@ -301,7 +301,7 @@ DEEL2 = [
             "een horizontale lijn voor het zwaardere voorwerp",
         ],
         antwoord=0,
-        uitleg="Zonder luchtweerstand valt alles met dezelfde versnelling van 9,81 m/s², hoe zwaar het ook is. De twee lijnen liggen dus op elkaar.",
+        uitleg=r"Zonder luchtweerstand valt alles met dezelfde versnelling van \(9{,}81\ \text{m/s}^{2}\), hoe zwaar het ook is. De twee lijnen liggen dus op elkaar.",
     ),
     dict(
         type="waarofniet",
@@ -337,7 +337,7 @@ DEEL2 = [
         type="invultekst",
         vraag="Welk symbool gebruikt men voor de valversnelling?",
         antwoord=["g"],
-        uitleg="g, met de waarde 9,81 m/s² in België. Dezelfde letter staat ook voor de zwaarteveldsterkte in N/kg.",
+        uitleg=r"g, met de waarde \(9{,}81\ \text{m/s}^{2}\) in België. Dezelfde letter staat ook voor de zwaarteveldsterkte in N/kg.",
     ),
     dict(
         type="invultekst",
@@ -347,14 +347,14 @@ DEEL2 = [
     ),
     dict(
         type="invultekst",
-        vraag="Een steen valt vanuit rust en heeft na 3,0 s een snelheid van bijna 30 m/s. Hoeveel m/s komt er elke seconde bij? Schrijf het getal.",
+        vraag=r"Een steen valt vanuit rust en heeft na \(3{,}0\) s een snelheid van bijna \(30\) m/s. Hoeveel m/s komt er elke seconde bij? Schrijf het getal.",
         antwoord=["9,81", "9.81", "10"],
-        uitleg="9,81 m/s per seconde, want dat is de valversnelling. Na 3,0 s is de snelheid 3,0 . 9,81 = 29,4 m/s.",
+        uitleg=r"\(9{,}81\) m/s per seconde, want dat is de valversnelling. Na \(3{,}0\) s is de snelheid \(3{,}0 \times 9{,}81 = 29{,}4\) m/s.",
     ),
     dict(
         type="invultekst",
         vraag="Welke kracht zorgt voor de versnelling bij een vrije val?",
         antwoord=["zwaartekracht", "de zwaartekracht", "gewicht"],
-        uitleg="De zwaartekracht. Die is naar beneden gericht en zorgt voor een versnelling van 9,81 m/s².",
+        uitleg=r"De zwaartekracht. Die is naar beneden gericht en zorgt voor een versnelling van \(9{,}81\ \text{m/s}^{2}\).",
     ),
 ]

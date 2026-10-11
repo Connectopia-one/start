@@ -19,7 +19,7 @@ DEEL1 = [
     dict(
         type="meerkeuze",
         vraag="Welke formule geeft de druk op een oppervlak?",
-        opties=["p = F / A", "p = A / F", "p = F . A", "p = F + A"],
+        opties=[r"\(p = F / A\)", r"\(p = A / F\)", r"\(p = F\) . A", r"\(p = F + A\)"],
         antwoord=0,
         uitleg="De kracht gedeeld door de oppervlakte waarop ze werkt. Dezelfde kracht op een kleiner oppervlak geeft dus een grotere druk.",
     ),
@@ -32,17 +32,17 @@ DEEL1 = [
     ),
     dict(
         type="meerkeuze",
-        vraag="Hoeveel pascal is 1 bar?",
-        opties=["100 000 Pa", "1000 Pa", "100 Pa", "10 000 000 Pa"],
+        vraag=r"Hoeveel pascal is \(1\) bar?",
+        opties=[r"\(100\,000\) Pa", r"\(1000\) Pa", r"\(100\) Pa", r"\(10\,000\,000\) Pa"],
         antwoord=0,
-        uitleg="1 bar = 100 000 Pa = 1000 hPa. Een fietsband staat vaak op 4 bar, dus 400 000 Pa.",
+        uitleg=r"\(1\) bar = \(100\,000\) Pa = \(1000\) hPa. Een fietsband staat vaak op \(4\) bar, dus \(400\,000\) Pa.",
     ),
     dict(
         type="meerkeuze",
-        vraag="Een kracht van 600 N werkt op een oppervlak van 0,30 m². Hoe groot is de druk?",
-        opties=["2000 Pa", "180 Pa", "200 Pa", "20 000 Pa"],
+        vraag=r"Een kracht van \(600\) N werkt op een oppervlak van \(0{,}30\,\text{m}^{2}\). Hoe groot is de druk?",
+        opties=[r"\(2000\) Pa", r"\(180\) Pa", r"\(200\) Pa", r"\(20\,000\) Pa"],
         antwoord=0,
-        uitleg="p = 600 / 0,30 = 2000 Pa, of 2,0 kPa.",
+        uitleg=r"\(p = 600 / 0{,}30 = 2000\) Pa, of \(2{,}0\) kPa.",
     ),
     dict(
         type="meerkeuze",
@@ -82,10 +82,10 @@ DEEL1 = [
     ),
     dict(
         type="meerkeuze",
-        vraag="Een blok van 240 N staat op een vierkant grondvlak van 0,20 m bij 0,20 m. Hoe groot is de druk?",
-        opties=["6000 Pa", "1200 Pa", "600 Pa", "48 Pa"],
+        vraag=r"Een blok van \(240\) N staat op een vierkant grondvlak van \(0{,}20\) m bij \(0{,}20\) m. Hoe groot is de druk?",
+        opties=[r"\(6000\) Pa", r"\(1200\) Pa", r"\(600\) Pa", r"\(48\) Pa"],
         antwoord=0,
-        uitleg="De oppervlakte is 0,20 . 0,20 = 0,040 m². Dan is p = 240 / 0,040 = 6000 Pa.",
+        uitleg=r"De oppervlakte is \(0{,}20 \times 0{,}20 = 0{,}040\,\text{m}^{2}\). Dan is \(p = 240 / 0{,}040 = 6000\) Pa.",
     ),
     dict(
         type="meerkeuze",
@@ -121,19 +121,19 @@ DEEL1 = [
             "de kracht schuin laten aangrijpen",
         ],
         antwoord=0,
-        uitleg="In p = F / A staat A in de noemer, dus een kleinere oppervlakte geeft een grotere druk. Daarom slijpt men een mes scherp.",
+        uitleg=r"In \(p = F / A\) staat A in de noemer, dus een kleinere oppervlakte geeft een grotere druk. Daarom slijpt men een mes scherp.",
     ),
     dict(
         type="waarofniet",
         vraag="Dezelfde kracht geeft op een kleiner oppervlak een grotere druk.",
         antwoord=True,
-        uitleg="In p = F / A staat A in de noemer. Daarom prikt een naald wel door je vel en een vingertop niet.",
+        uitleg=r"In \(p = F / A\) staat A in de noemer. Daarom prikt een naald wel door je vel en een vingertop niet.",
     ),
     dict(
         type="waarofniet",
-        vraag="Een druk van 1 hPa is hetzelfde als een druk van 100 Pa.",
+        vraag=r"Een druk van \(1\) hPa is hetzelfde als een druk van \(100\) Pa.",
         antwoord=True,
-        uitleg="Hecto betekent honderd, dus 1 hPa = 100 Pa. De luchtdruk van 1013 hPa is dus 101 300 Pa.",
+        uitleg=r"Hecto betekent honderd, dus \(1\) hPa = \(100\) Pa. De luchtdruk van \(1013\) hPa is dus \(101\,300\) Pa.",
     ),
     dict(
         type="waarofniet",
@@ -145,7 +145,7 @@ DEEL1 = [
         type="waarofniet",
         vraag="Een millibar en een hectopascal zijn even grote eenheden.",
         antwoord=True,
-        uitleg="1 mbar = 1 hPa = 100 Pa. Daarom staat op een weerkaart soms mbar en soms hPa voor hetzelfde getal.",
+        uitleg=r"\(1\) mbar = \(1\) hPa = \(100\) Pa. Daarom staat op een weerkaart soms mbar en soms hPa voor hetzelfde getal.",
     ),
     dict(
         type="waarofniet",
@@ -161,15 +161,15 @@ DEEL1 = [
     ),
     dict(
         type="invultekst",
-        vraag="Een kracht van 50 N werkt op 0,010 m². Hoe groot is de druk in pascal? Schrijf het getal.",
+        vraag=r"Een kracht van \(50\) N werkt op \(0{,}010\,\text{m}^{2}\). Hoe groot is de druk in pascal? Schrijf het getal.",
         antwoord=["5000", "5000 Pa"],
-        uitleg="p = 50 / 0,010 = 5000 Pa, of 5,0 kPa.",
+        uitleg=r"\(p = 50 / 0{,}010 = 5000\) Pa, of \(5{,}0\) kPa.",
     ),
     dict(
         type="invultekst",
-        vraag="Hoeveel hectopascal is 1 bar? Schrijf het getal.",
+        vraag=r"Hoeveel hectopascal is \(1\) bar? Schrijf het getal.",
         antwoord=["1000", "1000 hPa"],
-        uitleg="1 bar = 100 000 Pa en 1 hPa = 100 Pa, dus 1000 hPa.",
+        uitleg=r"\(1\) bar = \(100\,000\) Pa en \(1\) hPa = \(100\) Pa, dus \(1000\) hPa.",
     ),
     dict(
         type="invultekst",
@@ -183,7 +183,7 @@ DEEL2 = [
     dict(
         type="meerkeuze",
         vraag="Welke formule geeft de hydrostatische druk in een vloeistof?",
-        opties=["p = ρ . g . h", "p = ρ . g . V", "p = F / A", "p = ρ / h"],
+        opties=[r"\(p = \rho \cdot g \cdot h\)", r"\(p = \rho \cdot g\) . V", r"\(p = F / A\)", r"\(p = \rho / h\)"],
         antwoord=0,
         uitleg="De massadichtheid van de vloeistof maal de zwaarteveldsterkte maal de diepte. Die formule staat in de bijlage van het examen.",
     ),
@@ -201,10 +201,10 @@ DEEL2 = [
     ),
     dict(
         type="meerkeuze",
-        vraag="Hoe groot is de hydrostatische druk op 5,0 m diepte in water?",
-        opties=["49 kPa", "4,9 kPa", "490 kPa", "9,8 kPa"],
+        vraag=r"Hoe groot is de hydrostatische druk op \(5{,}0\) m diepte in water?",
+        opties=[r"\(49\) kPa", r"\(4{,}9\) kPa", r"\(490\) kPa", r"\(9{,}8\) kPa"],
         antwoord=0,
-        uitleg="p = 1000 . 9,81 . 5,0 = 49 050 Pa, dus ongeveer 49 kPa.",
+        uitleg=r"\(p = 1000 \cdot 9{,}81 \times 5{,}0 = 49\,050\) Pa, dus ongeveer \(49\) kPa.",
     ),
     dict(
         type="meerkeuze",
@@ -220,7 +220,7 @@ DEEL2 = [
     ),
     dict(
         type="meerkeuze",
-        vraag="Wat is de totale druk op 10 m diepte in een meer?",
+        vraag=r"Wat is de totale druk op \(10\) m diepte in een meer?",
         opties=[
             "de hydrostatische druk plus de luchtdruk",
             "enkel de hydrostatische druk",
@@ -228,7 +228,7 @@ DEEL2 = [
             "de hydrostatische druk min de luchtdruk",
         ],
         antwoord=0,
-        uitleg="Boven het water duwt de atmosfeer al met 1013 hPa. Die druk komt bij de hydrostatische druk van het water erboven.",
+        uitleg=r"Boven het water duwt de atmosfeer al met \(1013\) hPa. Die druk komt bij de hydrostatische druk van het water erboven.",
     ),
     dict(
         type="meerkeuze",
@@ -252,7 +252,7 @@ DEEL2 = [
             "de kleine zuiger beweegt veel sneller dan de grote",
         ],
         antwoord=0,
-        uitleg="Uit p = F / A volgt F = p . A. Bij dezelfde druk levert de tien keer grotere zuiger tien keer meer kracht, maar hij komt ook tien keer minder ver.",
+        uitleg=r"Uit \(p = F / A\) volgt \(F = p\) . A. Bij dezelfde druk levert de tien keer grotere zuiger tien keer meer kracht, maar hij komt ook tien keer minder ver.",
     ),
     dict(
         type="meerkeuze",
@@ -287,22 +287,22 @@ DEEL2 = [
     ),
     dict(
         type="meerkeuze",
-        vraag="Op welke diepte in water is de hydrostatische druk ongeveer even groot als de luchtdruk van 1013 hPa?",
-        opties=["ongeveer 10 m", "ongeveer 1 m", "ongeveer 100 m", "ongeveer 0,1 m"],
+        vraag=r"Op welke diepte in water is de hydrostatische druk ongeveer even groot als de luchtdruk van \(1013\) hPa?",
+        opties=[r"ongeveer \(10\) m", r"ongeveer \(1\) m", r"ongeveer \(100\) m", r"ongeveer \(0{,}1\) m"],
         antwoord=0,
-        uitleg="Uit h = p / (ρ.g) = 101 300 / (1000 . 9,81) volgt ongeveer 10,3 m. Op 10 m diepte is de totale druk dus al bijna het dubbele van aan het oppervlak.",
+        uitleg=r"Uit \(h = p / \left(\rho \cdot g\right) = 101\,300 / \left(1000 \times 9{,}81\right)\) volgt ongeveer \(10{,}3\) m. Op \(10\) m diepte is de totale druk dus al bijna het dubbele van aan het oppervlak.",
     ),
     dict(
         type="waarofniet",
         vraag="De hydrostatische druk op dezelfde diepte is in een smalle buis even groot als in een breed vat.",
         antwoord=True,
-        uitleg="In p = ρ.g.h staat de vorm van het vat niet. Enkel de diepte en de vloeistof tellen mee.",
+        uitleg=r"In \(p = \rho \cdot g \cdot h\) staat de vorm van het vat niet. Enkel de diepte en de vloeistof tellen mee.",
     ),
     dict(
         type="waarofniet",
-        vraag="Een manometer die 2 bar overdruk aangeeft, meet een totale druk van ongeveer 3 bar.",
+        vraag=r"Een manometer die \(2\) bar overdruk aangeeft, meet een totale druk van ongeveer \(3\) bar.",
         antwoord=True,
-        uitleg="Overdruk is wat er boven de luchtdruk zit. De luchtdruk is ongeveer 1 bar, dus de totale druk is ongeveer 3 bar.",
+        uitleg=r"Overdruk is wat er boven de luchtdruk zit. De luchtdruk is ongeveer \(1\) bar, dus de totale druk is ongeveer \(3\) bar.",
     ),
     dict(
         type="waarofniet",
@@ -326,7 +326,7 @@ DEEL2 = [
         type="invultekst",
         vraag="Hoe groot is de gemiddelde luchtdruk? Schrijf het getal in hPa.",
         antwoord=["1013", "1013 hPa"],
-        uitleg="1013 hPa, dus 101 300 Pa of ongeveer 1 bar. Die waarde staat bij de constanten van het examen.",
+        uitleg=r"\(1013\) hPa, dus \(101\,300\) Pa of ongeveer \(1\) bar. Die waarde staat bij de constanten van het examen.",
     ),
     dict(
         type="invultekst",
@@ -336,9 +336,9 @@ DEEL2 = [
     ),
     dict(
         type="invultekst",
-        vraag="Hoe groot is de hydrostatische druk op 2,0 m diepte in water? Schrijf het getal in kPa, afgerond op een eenheid.",
+        vraag=r"Hoe groot is de hydrostatische druk op \(2{,}0\) m diepte in water? Schrijf het getal in kPa, afgerond op een eenheid.",
         antwoord=["20", "20 kPa", "19,6"],
-        uitleg="p = 1000 . 9,81 . 2,0 = 19 620 Pa, dus ongeveer 20 kPa.",
+        uitleg=r"\(p = 1000 \cdot 9{,}81 \times 2{,}0 = 19\,620\) Pa, dus ongeveer \(20\) kPa.",
     ),
     dict(
         type="invultekst",

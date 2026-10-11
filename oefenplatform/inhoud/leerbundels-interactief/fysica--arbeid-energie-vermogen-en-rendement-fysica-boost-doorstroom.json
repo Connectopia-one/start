@@ -12,11 +12,11 @@
     },
     {
      "soort": "tekst",
-     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Hoek</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">cos α</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Arbeid</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Voorbeeld</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">0°</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">1</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">positief</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">duwen in de zin van de beweging</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">90°</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">0</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">geen arbeid</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een doos horizontaal dragen</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">180°</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">−1</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">negatief</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">wrijving, of de zwaartekracht bij optillen</td></tr></table>"
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Hoek</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">cos α</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Arbeid</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Voorbeeld</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">\\(0^{\\circ}\\)</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">\\(1\\)</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">positief</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">duwen in de zin van de beweging</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">\\(90^{\\circ}\\)</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">\\(0\\)</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">geen arbeid</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een doos horizontaal dragen</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">\\(180^{\\circ}\\)</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">\\(-1\\)</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">negatief</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">wrijving, of de zwaartekracht bij optillen</td></tr></table>"
     },
     {
      "soort": "tekst",
-     "html": "Duw je een kar <strong>8,0 m vooruit met 50 N in de zin van de beweging</strong>, dan is W = 50 . 8,0 . 1 = <strong>400 J</strong>. Een kracht van 25 N over 4,0 m geeft <strong>100 J</strong>."
+     "html": "Duw je een kar <strong>\\(8{,}0\\) m vooruit met \\(50\\) N in de zin van de beweging</strong>, dan is \\(W = 50 \\times 8{,}0 \\times 1\\) = <strong>\\(400\\) J</strong>. Een kracht van \\(25\\) N over \\(4{,}0\\) m geeft <strong>\\(100\\) J</strong>."
     },
     {
      "soort": "tekst",
@@ -33,7 +33,7 @@
    "blokken": [
     {
      "soort": "tekst",
-     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Energievorm</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Formule</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">kinetische energie</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Ek = m . v² / 2</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">potentiële gravitationele energie</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Ep,gr = m . g . h</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">potentiële elastische energie</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Ep,el = k . Δl² / 2</td></tr></table>"
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Energievorm</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Formule</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">kinetische energie</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">\\(E_{k} = m \\cdot v^{2} / 2\\)</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">potentiële gravitationele energie</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Ep,gr = m . g . h</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">potentiële elastische energie</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Ep,el = k . Δ\\(\\text{l}^{2}\\) / \\(2\\)</td></tr></table>"
     },
     {
      "soort": "tekst",
@@ -41,7 +41,7 @@
     },
     {
      "soort": "tekst",
-     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Opgave</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Rekenwerk</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Antwoord</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">1200 kg met 20 m/s</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">1200 . 400 / 2</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">240 kJ</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">5,0 kg, 3,0 m omhoog</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">5,0 . 9,81 . 3,0</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">147 J</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">2,0 kg, 10 m hoog</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">2,0 . 9,81 . 10</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">196 J</td></tr></table>"
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Opgave</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Rekenwerk</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Antwoord</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">\\(1200\\) kg met \\(20\\) m/s</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">\\(1200 \\times 400 / 2\\)</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">\\(240\\) kJ</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">\\(5{,}0\\) kg, \\(3{,}0\\) m omhoog</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">\\(5{,}0 \\times 9{,}81 \\times 3{,}0\\)</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">\\(147\\) J</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">\\(2{,}0\\) kg, \\(10\\) m hoog</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">\\(2{,}0 \\times 9{,}81 \\times 10\\)</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">\\(196\\) J</td></tr></table>"
     },
     {
      "soort": "tekst",
@@ -53,7 +53,7 @@
     },
     {
      "soort": "tekst",
-     "html": "De <strong>eenheid van energie is de joule</strong>, maar je komt ook de <strong>kilowattuur</strong> en de <strong>kilocalorie</strong> tegen. Een <strong>kilowattuur is een eenheid van energie, niet van vermogen</strong>: het is een vermogen maal een tijd, en één kWh is 3,6 miljoen joule."
+     "html": "De <strong>eenheid van energie is de joule</strong>, maar je komt ook de <strong>kilowattuur</strong> en de <strong>kilocalorie</strong> tegen. Een <strong>kilowattuur is een eenheid van energie, niet van vermogen</strong>: het is een vermogen maal een tijd, en één kWh is \\(3{,}6\\) miljoen joule."
     }
    ]
   },
@@ -103,7 +103,7 @@
     },
     {
      "soort": "tekst",
-     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Opgave</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Rekenwerk</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Antwoord</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">48 kJ in 20 s</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">48 000 / 20</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">2,4 kW</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">500 W gedurende 60 s</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">500 . 60</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">30 000 J</td></tr></table>"
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Opgave</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Rekenwerk</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Antwoord</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">\\(48\\) kJ in \\(20\\) s</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">\\(48\\,000 / 20\\)</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">\\(2{,}4\\) kW</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">\\(500\\) W gedurende \\(60\\) s</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">\\(500 \\times 60\\)</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">\\(30\\,000\\) J</td></tr></table>"
     },
     {
      "soort": "kader",
@@ -115,11 +115,11 @@
     },
     {
      "soort": "tekst",
-     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Opgave</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Rekenwerk</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">η</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">lamp: 60 J in, 9,0 J licht</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">9,0 / 60</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">15 %</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">motor: 2000 J in, 1400 J warmte</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">600 / 2000</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">30 %</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">motor: 800 J in, 200 J nuttig</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">200 / 800</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">25 %</td></tr></table>"
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Opgave</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Rekenwerk</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">η</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">lamp: \\(60\\) J in, \\(9{,}0\\) J licht</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">\\(9{,}0 / 60\\)</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">\\(15\\,\\%\\)</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">motor: \\(2000\\) J in, \\(1400\\) J warmte</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">\\(600 / 2000\\)</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">\\(30\\,\\%\\)</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">motor: \\(800\\) J in, \\(200\\) J nuttig</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">\\(200 / 800\\)</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">\\(25\\,\\%\\)</td></tr></table>"
     },
     {
      "soort": "tekst",
-     "html": "<strong>Een rendement van meer dan 100 % kan niet bestaan.</strong> Je kan er niet meer uithalen dan je erin stopt, en er gaat altijd een deel naar warmte."
+     "html": "<strong>Een rendement van meer dan \\(100\\,\\%\\) kan niet bestaan.</strong> Je kan er niet meer uithalen dan je erin stopt, en er gaat altijd een deel naar warmte."
     },
     {
      "soort": "tekst",
@@ -127,20 +127,20 @@
     },
     {
      "soort": "weetje",
-     "html": "Een ledlamp haalt ongeveer 40 % rendement en een oude gloeilamp maar 5 %. De overige 95 % werd bij die gloeilamp warmte, en dat is net waarom de draad licht gaf."
+     "html": "Een ledlamp haalt ongeveer \\(40\\,\\%\\) rendement en een oude gloeilamp maar \\(5\\,\\%\\). De overige \\(95\\,\\%\\) werd bij die gloeilamp warmte, en dat is net waarom de draad licht gaf."
     }
    ]
   }
  ],
  "onthoud": [
-  "W = F . Δx . cos α; bij 0° positief, bij 90° geen arbeid, bij 180° negatief.",
-  "Ek = m . v² / 2, Ep,gr = m . g . h, Ep,el = k . Δl² / 2.",
+  "W = F . Δx . cos α; bij \\(0^{\\circ}\\) positief, bij \\(90^{\\circ}\\) geen arbeid, bij \\(180^{\\circ}\\) negatief.",
+  "\\(E_{k} = m \\cdot v^{2} / 2\\), Ep,gr = m . g . h, Ep,el = k . Δ\\(\\text{l}^{2}\\) / \\(2\\).",
   "Twee keer zo snel geeft vier keer zoveel kinetische energie.",
   "Een kilowattuur is een eenheid van energie, geen vermogen.",
   "Energie verdwijnt niet, ze verandert van vorm; in een geïsoleerd systeem blijft de som gelijk.",
   "Energiedissipatie: bruikbare energie wordt warmte die je niet meer kan gebruiken.",
   "Arbeid-energietheorema: de arbeid van de resultante is de verandering van de Ek.",
   "P = |ΔE| / Δt, in watt; één watt is één joule per seconde.",
-  "η = Enuttig / Etotaal, zonder eenheid en altijd onder 100 %."
+  "η = Enuttig / Etotaal, zonder eenheid en altijd onder \\(100\\,\\%\\)."
  ]
 }

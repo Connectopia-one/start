@@ -68,16 +68,16 @@ DEEL1 = [
     dict(
         type="meerkeuze",
         vraag="Welke formule geeft de merkbare warmte van een stof?",
-        opties=["Q = c . m . ΔT", "Q = l . m", "Q = c . m", "Q = m . ΔT"],
+        opties=[r"\(Q = c \cdot m \cdot \Delta T\)", r"\(Q = l \cdot m\)", r"\(Q = c \cdot m\)", r"\(Q = m \cdot \Delta T\)"],
         antwoord=0,
-        uitleg="De specifieke warmtecapaciteit maal de massa maal het temperatuursverschil. Q = l . m hoort bij een faseovergang.",
+        uitleg=r"De specifieke warmtecapaciteit maal de massa maal het temperatuursverschil. \(Q = l \cdot m\) hoort bij een faseovergang.",
     ),
     dict(
         type="meerkeuze",
-        vraag="Hoeveel warmte heb je nodig om 2,0 kg water 10 K op te warmen?",
-        opties=["84 kJ", "8,4 kJ", "840 kJ", "21 kJ"],
+        vraag=r"Hoeveel warmte heb je nodig om \(2{,}0\) kg water \(10\) K op te warmen?",
+        opties=[r"\(84\) kJ", r"\(8{,}4\) kJ", r"\(840\) kJ", r"\(21\) kJ"],
         antwoord=0,
-        uitleg="Q = 4186 . 2,0 . 10 = 83 720 J, dus ongeveer 84 kJ.",
+        uitleg=r"\(Q = 4186 \times 2{,}0 \times 10 = 83\,720\) J, dus ongeveer \(84\) kJ.",
     ),
     dict(
         type="meerkeuze",
@@ -89,7 +89,7 @@ DEEL1 = [
             "de stof geleidt de warmte heel goed door",
         ],
         antwoord=0,
-        uitleg="Water heeft een grote c van 4186 J/(kg.K) en warmt dus traag op. Daarom blijft de zee lang koel in de lente en lang warm in de herfst.",
+        uitleg=r"Water heeft een grote c van \(4186\) J/(kg.K) en warmt dus traag op. Daarom blijft de zee lang koel in de lente en lang warm in de herfst.",
     ),
     dict(
         type="meerkeuze",
@@ -109,11 +109,11 @@ DEEL1 = [
         opties=[
             "ze bestaat uit een kinetisch en een potentieel deel",
             "ze stijgt als de absolute temperatuur stijgt",
-            "ze is gelijk aan nul bij een temperatuur van 0 °C",
+            r"ze is gelijk aan nul bij een temperatuur van \(0^{\circ}\text{C}\)",
             "ze hangt enkel van het volume van het voorwerp af",
         ],
         antwoord=[0, 1],
-        uitleg="De deeltjes bewegen en trekken aan elkaar, dus zijn er twee delen. Een hogere absolute temperatuur betekent meer inwendige kinetische energie. Bij 0 °C is er nog altijd beweging, pas bij 0 K zou die stoppen.",
+        uitleg=r"De deeltjes bewegen en trekken aan elkaar, dus zijn er twee delen. Een hogere absolute temperatuur betekent meer inwendige kinetische energie. Bij \(0^{\circ}\text{C}\) is er nog altijd beweging, pas bij \(0\) K zou die stoppen.",
     ),
     dict(
         type="meerkeuze",
@@ -129,10 +129,10 @@ DEEL1 = [
     ),
     dict(
         type="meerkeuze",
-        vraag="Een voorwerp van 0,50 kg met c = 900 J/(kg.K) krijgt 9,0 kJ warmte. Hoeveel stijgt zijn temperatuur?",
-        opties=["20 K", "2,0 K", "200 K", "4,5 K"],
+        vraag=r"Een voorwerp van \(0{,}50\) kg met \(c = 900\) J/(kg.K) krijgt \(9{,}0\) kJ warmte. Hoeveel stijgt zijn temperatuur?",
+        opties=[r"\(20\) K", r"\(2{,}0\) K", r"\(200\) K", r"\(4{,}5\) K"],
         antwoord=0,
-        uitleg="Uit ΔT = Q / (c . m) volgt 9000 / (900 . 0,50) = 20 K.",
+        uitleg=r"Uit \(\Delta T = Q / \left(c \cdot m\right)\) volgt \(9000 / \left(900 \times 0{,}50\right) = 20\) K.",
     ),
     dict(
         type="waarofniet",
@@ -174,7 +174,7 @@ DEEL1 = [
         type="invultekst",
         vraag="Hoe groot is de specifieke warmtecapaciteit van water? Schrijf het getal in J/(kg.K).",
         antwoord=["4186", "4186 J/kg.K", "4180"],
-        uitleg="4186 J/(kg.K). Die waarde staat bij de constanten van het examen.",
+        uitleg=r"\(4186\) J/(kg.K). Die waarde staat bij de constanten van het examen.",
     ),
     dict(
         type="invultekst",
@@ -184,9 +184,9 @@ DEEL1 = [
     ),
     dict(
         type="invultekst",
-        vraag="Hoeveel warmte heb je nodig om 1,0 kg water 1,0 K op te warmen? Schrijf het getal in joule.",
+        vraag=r"Hoeveel warmte heb je nodig om \(1{,}0\) kg water \(1{,}0\) K op te warmen? Schrijf het getal in joule.",
         antwoord=["4186", "4186 J", "4180"],
-        uitleg="Q = 4186 . 1,0 . 1,0 = 4186 J. Dat is net de betekenis van de specifieke warmtecapaciteit.",
+        uitleg=r"\(Q = 4186 \times 1{,}0 \times 1{,}0 = 4186\) J. Dat is net de betekenis van de specifieke warmtecapaciteit.",
     ),
 ]
 
@@ -208,18 +208,18 @@ DEEL2 = [
     dict(
         type="meerkeuze",
         vraag="Welke formule geeft de latente warmte bij een faseovergang?",
-        opties=["Q = l . m", "Q = c . m . ΔT", "Q = C . ΔT", "Q = l . ΔT"],
+        opties=[r"\(Q = l \cdot m\)", r"\(Q = c \cdot m \cdot \Delta T\)", r"\(Q = C \cdot \Delta T\)", r"\(Q = l \cdot \Delta T\)"],
         antwoord=0,
         uitleg="De specifieke faseovergangswarmte maal de massa. Er staat geen ΔT in, want de temperatuur verandert tijdens de overgang niet.",
     ),
     dict(
         type="meerkeuze",
-        vraag="Wat gebeurt er met de temperatuur van ijs van 0 °C terwijl het smelt?",
+        vraag=r"Wat gebeurt er met de temperatuur van ijs van \(0^{\circ}\text{C}\) terwijl het smelt?",
         opties=[
-            "ze blijft 0 °C",
+            r"ze blijft \(0^{\circ}\text{C}\)",
             "ze stijgt gelijkmatig",
             "ze daalt eerst",
-            "ze stijgt tot 100 °C",
+            r"ze stijgt tot \(100^{\circ}\text{C}\)",
         ],
         antwoord=0,
         uitleg="Alle toegevoerde warmte gaat naar het losmaken van de deeltjes, niet naar hun beweging. In een grafiek geeft dat een plateau.",
@@ -238,10 +238,10 @@ DEEL2 = [
     ),
     dict(
         type="meerkeuze",
-        vraag="Hoeveel warmte heb je nodig om 0,20 kg ijs van 0 °C te smelten, met ls = 334 kJ/kg?",
-        opties=["67 kJ", "6,7 kJ", "670 kJ", "1670 kJ"],
+        vraag=r"Hoeveel warmte heb je nodig om \(0{,}20\) kg ijs van \(0^{\circ}\text{C}\) te smelten, met \(l_{s} = 334\) kJ/kg?",
+        opties=[r"\(67\) kJ", r"\(6{,}7\) kJ", r"\(670\) kJ", r"\(1670\) kJ"],
         antwoord=0,
-        uitleg="Q = l . m = 334 000 . 0,20 = 66 800 J, dus ongeveer 67 kJ.",
+        uitleg=r"\(Q = l \cdot m = 334\,000 \times 0{,}20 = 66\,800\) J, dus ongeveer \(67\) kJ.",
     ),
     dict(
         type="meerkeuze",
@@ -276,17 +276,17 @@ DEEL2 = [
     ),
     dict(
         type="meerkeuze",
-        vraag="Je giet 0,10 kg water van 80 °C bij 0,10 kg water van 20 °C in een geïsoleerd vat. Welke eindtemperatuur krijg je?",
-        opties=["50 °C", "60 °C", "40 °C", "100 °C"],
+        vraag=r"Je giet \(0{,}10\) kg water van \(80^{\circ}\text{C}\) bij \(0{,}10\) kg water van \(20^{\circ}\text{C}\) in een geïsoleerd vat. Welke eindtemperatuur krijg je?",
+        opties=[r"\(50^{\circ}\text{C}\)", r"\(60^{\circ}\text{C}\)", r"\(40^{\circ}\text{C}\)", r"\(100^{\circ}\text{C}\)"],
         antwoord=0,
-        uitleg="Dezelfde massa van dezelfde stof, dus de eindtemperatuur ligt precies in het midden: (80 + 20) / 2 = 50 °C. De warmte die het warme water afgeeft, neemt het koude op.",
+        uitleg=r"Dezelfde massa van dezelfde stof, dus de eindtemperatuur ligt precies in het midden: \((80 + 20) / 2 = 50^{\circ}\text{C}\). De warmte die het warme water afgeeft, neemt het koude op.",
     ),
     dict(
         type="meerkeuze",
         vraag="Hoe noemt men de temperatuur waarbij een stof van vloeibaar naar gas overgaat bij normale luchtdruk?",
         opties=["het kookpunt", "het smeltpunt", "het sublimatiepunt", "het absolute nulpunt"],
         antwoord=0,
-        uitleg="Het kookpunt. Voor water is dat 100 °C bij een druk van 1013 hPa.",
+        uitleg=r"Het kookpunt. Voor water is dat \(100^{\circ}\text{C}\) bij een druk van \(1013\) hPa.",
     ),
     dict(
         type="waarofniet",
@@ -302,15 +302,15 @@ DEEL2 = [
     ),
     dict(
         type="waarofniet",
-        vraag="Water kan enkel verdampen bij 100 °C.",
+        vraag=r"Water kan enkel verdampen bij \(100^{\circ}\text{C}\).",
         antwoord=False,
-        uitleg="Verdampen gebeurt aan het oppervlak bij elke temperatuur, zoals natte was die droogt. Bij 100 °C begint water te koken, dus ook van binnenuit te verdampen.",
+        uitleg=r"Verdampen gebeurt aan het oppervlak bij elke temperatuur, zoals natte was die droogt. Bij \(100^{\circ}\text{C}\) begint water te koken, dus ook van binnenuit te verdampen.",
     ),
     dict(
         type="waarofniet",
-        vraag="Om 1 kg water te laten verdampen heb je minder warmte nodig dan om het van 0 °C tot 100 °C op te warmen.",
+        vraag=r"Om \(1\) kg water te laten verdampen heb je minder warmte nodig dan om het van \(0^{\circ}\text{C}\) tot \(100^{\circ}\text{C}\) op te warmen.",
         antwoord=False,
-        uitleg="Opwarmen van 0 naar 100 °C kost ongeveer 419 kJ, verdampen ongeveer 2260 kJ. Verdampen kost dus veel méér.",
+        uitleg=r"Opwarmen van \(0\) naar \(100^{\circ}\text{C}\) kost ongeveer \(419\) kJ, verdampen ongeveer \(2260\) kJ. Verdampen kost dus veel méér.",
     ),
     dict(
         type="waarofniet",
@@ -332,9 +332,9 @@ DEEL2 = [
     ),
     dict(
         type="invultekst",
-        vraag="Hoeveel warmte heb je nodig om 0,50 kg van een stof te smelten, met ls = 200 kJ/kg? Schrijf het getal in kJ.",
+        vraag=r"Hoeveel warmte heb je nodig om \(0{,}50\) kg van een stof te smelten, met \(l_{s} = 200\) kJ/kg? Schrijf het getal in kJ.",
         antwoord=["100", "100 kJ"],
-        uitleg="Q = l . m = 200 . 0,50 = 100 kJ.",
+        uitleg=r"\(Q = l \cdot m = 200 \times 0{,}50 = 100\) kJ.",
     ),
     dict(
         type="invultekst",
