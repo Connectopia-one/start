@@ -10082,3 +10082,30 @@ def getallenverzamelingen(breedte=470):
             d.append(_tekst(breedte - pad - 13, y0 + 19, onder, 9, DIM, anker="end"))
         d.append(_tekst(breedte / 2, y1 - 10, voorbeeld, 10.5, kleur))
     return _svg(breedte, h, "".join(d))
+
+
+def intervallen(breedte=470):
+    """De drie soorten intervallen, elk op een eigen stukje getallenas.
+
+    Een vol bolletje betekent dat de grens meedoet, een open bolletje dat ze
+    dat niet doet. Dat is precies het verschil dat de haakjes ook maken.
+    """
+    h = 182
+    x0, x1 = 118, 404
+    xa, xb = 176, 346          # waar 2 en 5 liggen
+    rijen = [("]2, 5[", "open", False, False),
+             ("[2, 5[", "halfopen", True, False),
+             ("[2, 5]", "gesloten", True, True)]
+    d = []
+    for i, (notatie, naam, links_vol, rechts_vol) in enumerate(rijen):
+        y = 38 + i * 52
+        d.append(_tekst(16, y + 4, notatie, 13, DARK, anker="start", vet=True))
+        d.append(_tekst(16, y + 20, naam, 9, DIM, anker="start"))
+        d.append(f'<line x1="{x0}" y1="{y}" x2="{x1}" y2="{y}" stroke="{DIM}" stroke-width="1.2"/>')
+        d.append(f'<line x1="{xa}" y1="{y}" x2="{xb}" y2="{y}" stroke="{FOREST}" stroke-width="4"/>')
+        for x, vol in ((xa, links_vol), (xb, rechts_vol)):
+            vul = FOREST if vol else PAPER
+            d.append(f'<circle cx="{x}" cy="{y}" r="5.6" fill="{vul}" stroke="{FOREST}" stroke-width="2"/>')
+        d.append(_tekst(xa, y + 20, "2", 10, DIM))
+        d.append(_tekst(xb, y + 20, "5", 10, DIM))
+    return _svg(breedte, h, "".join(d))

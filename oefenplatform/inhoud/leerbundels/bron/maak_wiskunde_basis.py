@@ -160,68 +160,85 @@ zet("getallen-ordenen-afronden-en-intervallen",
             ("p", "Over de getallenas klopt: <strong>rechts is groter</strong>, <strong>elk reëel getal "
                   "heeft er een plaats</strong> en <strong>ze loopt in beide richtingen door</strong>. Dat "
                   "eerste punt beslist alles: <strong>hoe verder naar links, hoe kleiner</strong>."),
-            ("p", "Bij negatieve getallen keert je gevoel dus om. <strong>Min 10 is kleiner dan min "
-                  "3</strong>, en <strong>min 0,5 is groter dan min 1,5</strong>. In een rij als min 5, min "
-                  "2, min 0,5 is <strong>min 5 het kleinste</strong>: bij negatieve getallen is het getal "
-                  "met de grootste cijferwaarde net het kleinste. Van klein naar groot staat dus: "
-                  "<strong>min 2, min 0,5, 0, 1,5</strong>."),
+            ("p", "Bij negatieve getallen keert je gevoel dus om. <strong>\\(-10 < -3\\)</strong>, en "
+                  "<strong>\\(-0{,}5 > -1{,}5\\)</strong>. In een rij als \\(-5\\), \\(-2\\), \\(-0{,}5\\) is "
+                  "<strong>\\(-5\\) het kleinste</strong>: bij negatieve getallen is het getal met de "
+                  "grootste cijferwaarde net het kleinste. Van klein naar groot staat dus "
+                  "<strong>\\(-2 < -0{,}5 < 0 < 1{,}5\\)</strong>."),
             ("kader", tabel(["teken", "wat het betekent", "let op"],
-                            [["&lt;", "strikt kleiner dan", "de grens doet niet mee"],
-                             ["<strong>&gt;</strong>", "<strong>strikt groter dan</strong>", "het teken <strong>zonder streepje</strong> eronder"],
-                             ["≤", "<strong>kleiner dan of gelijk aan</strong>", "<strong>het streepje eronder voegt de gelijkheid toe</strong>: 3 ≤ 3 is waar"],
-                             ["≥", "groter dan of gelijk aan", "mét streepje, dus de grens doet mee"]])),
+                            [["\\(<\\)", "strikt kleiner dan", "de grens doet niet mee"],
+                             ["<strong>\\(>\\)</strong>", "<strong>strikt groter dan</strong>", "het teken <strong>zonder streepje</strong> eronder"],
+                             ["\\(\\leq\\)", "<strong>kleiner dan of gelijk aan</strong>", "<strong>het streepje eronder voegt de gelijkheid toe</strong>: \\(3 \\leq 3\\) is waar"],
+                             ["\\(\\geq\\)", "groter dan of gelijk aan", "mét streepje, dus de grens doet mee"],
+                             ["\\(\\neq\\)", "niet gelijk aan", "het isgelijkteken met een schrap erdoor"]])),
             ("p", "<strong>Vergelijk breuken door ze eerst naar de decimale vorm om te zetten, dan zie je de "
-                  "orde meteen</strong>: twee kommagetallen vergelijk je cijfer per cijfer. Van 0,8, 0,75, "
-                  "0,7 en twee derde is <strong>0,8 het grootste</strong>. <strong>Twee derde is "
-                  "0,6666…</strong>, en daarvan is <strong>0,67</strong> de beste benadering. Let wel: "
-                  "afronden maakt het minder exact."),
-            ("p", "Nog twee bakens. <strong>Het getal precies tussen 4 en 7 is 5,5</strong>, het gemiddelde "
-                  "van de twee. En tussen 1 en 2 liggen onder meer <strong>1,5</strong>, <strong>de wortel "
-                  "van 2</strong> (ongeveer 1,41) en <strong>zeven vijfden</strong> (1,4)."),
-            ("p", "Een breuk herken je ook terug in een kommagetal: <strong>0,375 is drie achtsten</strong>, "
-                  "want 375 duizendsten gedeeld door 125 boven en onder geeft 3/8."),
+                  "orde meteen</strong>: twee kommagetallen vergelijk je cijfer per cijfer. Van \\(0{,}8\\), "
+                  "\\(0{,}75\\), \\(0{,}7\\) en \\(\\frac{2}{3}\\) is <strong>\\(0{,}8\\) het grootste</strong>. "
+                  "<strong>\\(\\frac{2}{3} = 0{,}6666\\ldots\\)</strong>, en daarvan is <strong>\\(0{,}67\\)</strong> "
+                  "de beste benadering. Let wel: afronden maakt het minder exact."),
+            ("p", "Nog twee bakens. <strong>Het getal precies tussen \\(4\\) en \\(7\\) is \\(5{,}5\\)</strong>, "
+                  "het gemiddelde van de twee. En tussen \\(1\\) en \\(2\\) liggen onder meer "
+                  "<strong>\\(1{,}5\\)</strong>, <strong>\\(\\sqrt{2} \\approx 1{,}41\\)</strong> en "
+                  "<strong>\\(\\frac{7}{5} = 1{,}4\\)</strong>."),
+            ("p", "Een breuk herken je ook terug in een kommagetal: <strong>\\(0{,}375 = \\frac{3}{8}\\)</strong>, "
+                  "want \\(\\frac{375}{1000}\\) met teller en noemer gedeeld door \\(125\\) geeft \\(\\frac{3}{8}\\). "
+                  "Omzetten van de ene vorm naar de andere <strong>mag met ICT</strong>; de vakfiche vraagt "
+                  "dat zelfs."),
         ]),
         dict(kop="Afronden", blokken=[
             ("p", "De regel is kort: <strong>je kijkt enkel naar het eerste cijfer dat wegvalt</strong>. "
-                  "<strong>Is dat 5 of meer, dan rond je naar boven af</strong>; <strong>is het minder dan "
-                  "5, dan naar beneden</strong>. De cijfers daarachter spelen geen rol."),
+                  "<strong>Is dat \\(5\\) of meer, dan rond je naar boven af</strong>; <strong>is het minder "
+                  "dan \\(5\\), dan naar beneden</strong>. De cijfers daarachter spelen geen rol."),
             ("kader", tabel(["opgave", "antwoord", "waarom"],
-                            [["<strong>3,476 op twee cijfers na de komma</strong>", "<strong>3,48</strong>",
-                              "het derde cijfer is een 6, dus de 7 gaat naar 8"],
-                             ["<strong>12,3449 op één cijfer na de komma</strong>", "<strong>12,3</strong>",
-                              "het tweede cijfer is een 4, dus naar beneden; dat de cijfers erna groter zijn, doet niet mee"],
-                             ["<strong>1 999 op honderdtallen</strong>", "<strong>2 000</strong>",
-                              "het tientalcijfer is 9, dus 19 honderdtallen worden er 20"]])),
+                            [["<strong>\\(3{,}476\\) op twee cijfers na de komma</strong>", "<strong>\\(3{,}48\\)</strong>",
+                              "het derde cijfer is een \\(6\\), dus de \\(7\\) gaat naar \\(8\\)"],
+                             ["<strong>\\(12{,}3449\\) op één cijfer na de komma</strong>", "<strong>\\(12{,}3\\)</strong>",
+                              "het tweede cijfer is een \\(4\\), dus naar beneden; dat de cijfers erna groter zijn, doet niet mee"],
+                             ["<strong>\\(1\\,999\\) op honderdtallen</strong>", "<strong>\\(2\\,000\\)</strong>",
+                              "het tientalcijfer is \\(9\\), dus \\(19\\) honderdtallen worden er \\(20\\)"]])),
             ("p", "<strong>Altijd naar boven afronden zou de resultaten systematisch te groot maken.</strong> "
-                  "Een winkel die elke prijs naar boven afrondt op 5 cent, komt dus telkens iets te hoog uit, "
-                  "en daarom bestaat de regel van 5 of meer."),
+                  "Een winkel die elke prijs naar boven afrondt op \\(5\\) cent, komt dus telkens iets te hoog "
+                  "uit, en daarom bestaat de regel van \\(5\\) of meer."),
         ]),
-        dict(kop="Intervallen", blokken=[
-            ("p", "De vakfiche noemt <strong>drie</strong> soorten. Een <strong>dubbel interval</strong> "
-                  "bestaat niet als begrip, en <strong>één enkel getal is geen interval</strong>: een "
-                  "interval is een aaneengesloten stuk van de getallenas met twee grenzen."),
-            ("kader", tabel(["soort", "de grenzen", "haakjes", "op de getallenas"],
-                            [["<strong>open</strong>", "<strong>horen er niet bij</strong>", "<strong>ronde</strong> haakjes", "open bolletjes"],
+        dict(kop="De drie soorten intervallen", blokken=[
+            ("p", "De vakfiche noemt <strong>drie</strong> soorten. Ze verschillen alleen in wat er met "
+                  "de grenzen gebeurt."),
+            ("fig", svg.intervallen(),
+             "een vol bolletje betekent dat de grens meedoet, een open bolletje dat ze dat niet doet"),
+        ]),
+        dict(kop="De notatie", blokken=[
+            ("kader", tabel(["soort", "de grenzen", "notatie", "op de getallenas"],
+                            [["<strong>open</strong>", "<strong>horen er niet bij</strong>", "\\(\\left]2, 5\\right[\\)", "open bolletjes"],
                              ["<strong>halfopen</strong> (of halfgesloten)", "<strong>één grens hoort erbij, de andere niet</strong>",
-                              "één rond en één vierkant", "één open en één vol bolletje"],
-                             ["<strong>gesloten</strong>", "<strong>horen erbij</strong>", "vierkante haakjes naar binnen",
+                              "\\(\\left[2, 5\\right[\\)", "één open en één vol bolletje"],
+                             ["<strong>gesloten</strong>", "<strong>horen erbij</strong>", "\\(\\left[2, 5\\right]\\)",
                               "<strong>volle bolletjes aan de grenzen</strong>"]])),
-            ("p", "<strong>Aan de kant van oneindig staat een interval altijd open</strong>, want oneindig "
-                  "is geen getal en kan dus nooit tot de verzameling horen."),
+            ("p", "<strong>Het vierkante haakje wijst naar buiten als de grens niet meedoet</strong>, en naar "
+                  "binnen als ze wel meedoet. In de internationale notatie staan er ronde haakjes voor een "
+                  "open grens; allebei bedoelen ze hetzelfde. Een <strong>dubbel interval</strong> bestaat "
+                  "niet als begrip, en <strong>één enkel getal is geen interval</strong>: een interval is "
+                  "een aaneengesloten stuk van de getallenas met twee grenzen."),
+        ]),
+        dict(kop="Aan de kant van oneindig", blokken=[
+            ("p", "<strong>Aan de kant van oneindig staat een interval altijd open</strong>, want "
+                  "\\(\\infty\\) is geen getal en kan dus nooit tot de verzameling horen. Je schrijft "
+                  "\\(\\left[2, +\\infty\\right[\\), nooit \\(\\left[2, +\\infty\\right]\\)."),
             ("kader", tabel(["ongelijkheid of situatie", "het interval", "waarom"],
-                            [["<strong>x &gt; 3</strong>", "<strong>van 3 open tot plus oneindig</strong>", "strikt groter, dus 3 zelf valt erbuiten"],
-                             ["<strong>x ≤ 5</strong>", "<strong>van min oneindig tot 5 gesloten</strong>", "het isgelijkteken zit erin, dus 5 hoort erbij"],
-                             ["<strong>een temperatuur tussen min 2 en 8 graden, grenzen meegerekend</strong>",
-                              "<strong>gesloten van min 2 tot 8</strong>", "grenzen meegerekend is gesloten aan beide zijden"],
-                             ["<strong>een korting vanaf 50 euro</strong>", "<strong>gesloten vanaf 50</strong>",
-                              "vanaf 50 betekent dat 50 meedoet; <em>vanaf meer dan</em> 50 zou open zijn"]])),
-            ("p", "In het gesloten interval van 2 tot 5 horen <strong>2</strong>, <strong>3,5</strong> en "
-                  "<strong>5</strong> thuis, maar 5,5 niet. In het open interval van 0 tot 1 horen "
-                  "<strong>0,01</strong>, <strong>0,5</strong> en <strong>0,99</strong>, maar 0 en 1 zelf "
-                  "niet."),
+                            [["<strong>\\(x > 3\\)</strong>", "<strong>\\(\\left]3, +\\infty\\right[\\)</strong>", "strikt groter, dus \\(3\\) zelf valt erbuiten"],
+                             ["<strong>\\(x \\leq 5\\)</strong>", "<strong>\\(\\left]-\\infty, 5\\right]\\)</strong>", "het isgelijkteken zit erin, dus \\(5\\) hoort erbij"],
+                             ["<strong>een temperatuur tussen \\(-2\\) en \\(8\\) graden, grenzen meegerekend</strong>",
+                              "<strong>\\(\\left[-2, 8\\right]\\)</strong>", "grenzen meegerekend is gesloten aan beide zijden"],
+                             ["<strong>een korting vanaf \\(50\\) euro</strong>", "<strong>\\(\\left[50, +\\infty\\right[\\)</strong>",
+                              "vanaf \\(50\\) betekent dat \\(50\\) meedoet; <em>vanaf meer dan</em> \\(50\\) zou open zijn"]])),
+        ]),
+        dict(kop="Wat het woord strikt verandert", blokken=[
+            ("p", "In \\(\\left[2, 5\\right]\\) horen <strong>\\(2\\)</strong>, <strong>\\(3{,}5\\)</strong> en "
+                  "<strong>\\(5\\)</strong> thuis, maar \\(5{,}5\\) niet. In \\(\\left]0, 1\\right[\\) horen "
+                  "<strong>\\(0{,}01\\)</strong>, <strong>\\(0{,}5\\)</strong> en <strong>\\(0{,}99\\)</strong>, "
+                  "maar \\(0\\) en \\(1\\) zelf niet."),
             ("p", "Daar zit ook het verschil dat het woordje <strong>strikt</strong> maakt: <strong>de grens "
-                  "valt weg</strong>. <strong>Bij x strikt groter dan 0 hoort nul dus niet bij de "
-                  "oplossingen</strong>; bij groter dan of gelijk aan 0 wel."),
+                  "valt weg</strong>. <strong>Bij \\(x > 0\\) hoort nul dus niet bij de oplossingen</strong>; "
+                  "bij \\(x \\geq 0\\) wel."),
             ("p", "<strong>De oplossingenverzameling van een ongelijkheid mag je als interval "
                   "noteren</strong>, en de vakfiche vraagt ook om ze op een getallenas voor te stellen. Dat "
                   "is handig omdat <strong>een interval de oplossing in één blik toont</strong>: je ziet "

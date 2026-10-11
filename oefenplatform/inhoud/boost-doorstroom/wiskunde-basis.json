@@ -465,119 +465,119 @@
           "type": "meerkeuze",
           "vraag": "Welk symbool betekent kleiner dan of gelijk aan?",
           "opties": [
-            "het teken met een streepje eronder",
-            "het teken helemaal zonder streepje",
-            "het isgelijkteken met twee strepen",
-            "het ongelijkteken met een schrap"
+            "\\(\\leq\\)",
+            "\\(<\\)",
+            "\\(=\\)",
+            "\\(\\neq\\)"
           ],
           "antwoord": 0,
-          "uitleg": "Het streepje onder het ongelijkteken voegt de gelijkheid toe. Zonder streepje is het strikt kleiner."
+          "uitleg": "Het streepje onder het ongelijkteken voegt de gelijkheid toe. Zonder streepje, \\(<\\), is het strikt kleiner."
         },
         {
           "type": "meerkeuze",
           "vraag": "Welk getal is het kleinste?",
           "opties": [
-            "min 5",
-            "min 2",
-            "het getal 0",
-            "het getal 3"
+            "\\(-5\\)",
+            "\\(-2\\)",
+            "\\(0\\)",
+            "\\(3\\)"
           ],
           "antwoord": 0,
           "uitleg": "Bij negatieve getallen is het getal met de grootste cijferwaarde het kleinste."
         },
         {
           "type": "invultekst",
-          "vraag": "Rond 3,476 af op twee cijfers na de komma. Een getal.",
+          "vraag": "Rond \\(3{,}476\\) af op twee cijfers na de komma. Een getal.",
           "antwoord": [
             "3,48",
             "3.48"
           ],
-          "uitleg": "Het derde cijfer is een 6, dus het tweede gaat van 7 naar 8."
+          "uitleg": "Het derde cijfer is een \\(6\\), dus het tweede gaat van \\(7\\) naar \\(8\\): \\(3{,}48\\)."
         },
         {
           "type": "meerkeuze",
-          "vraag": "Rond 12,3449 af op één cijfer na de komma.",
+          "vraag": "Rond \\(12{,}3449\\) af op één cijfer na de komma.",
           "opties": [
-            "12,3",
-            "12,4 afgerond",
-            "12,35 afgerond",
-            "12,0 afgerond"
+            "\\(12{,}3\\)",
+            "\\(12{,}4\\)",
+            "\\(12{,}35\\)",
+            "\\(12{,}0\\)"
           ],
           "antwoord": 0,
-          "uitleg": "Het tweede cijfer na de komma is een 4, dus je rondt naar beneden af. Dat de cijfers erna groter zijn, doet niet mee."
+          "uitleg": "Het tweede cijfer na de komma is een \\(4\\), dus je rondt naar beneden af. Dat de cijfers erna groter zijn, doet niet mee."
         },
         {
           "type": "waarofniet",
           "vraag": "Bij afronden kijk je enkel naar het eerste cijfer dat wegvalt.",
           "antwoord": true,
-          "uitleg": "Is dat 5 of meer, dan rond je naar boven af. De cijfers daarachter spelen geen rol."
+          "uitleg": "Is dat \\(5\\) of meer, dan rond je naar boven af. De cijfers daarachter spelen geen rol."
         },
         {
           "type": "meerkeuze",
-          "vraag": "Welke getallen zijn groter dan min 1?",
+          "vraag": "Welke getallen zijn groter dan \\(-1\\)?",
           "opties": [
-            "min 0,5",
-            "het getal 0",
-            "het getal 2",
-            "min 3"
+            "\\(-0{,}5\\)",
+            "\\(0\\)",
+            "\\(2\\)",
+            "\\(-3\\)"
           ],
           "antwoord": [
             0,
             1,
             2
           ],
-          "uitleg": "Drie getallen liggen rechts van min 1 op de getallenas. Min 3 ligt links."
+          "uitleg": "Drie getallen liggen rechts van \\(-1\\) op de getallenas. \\(-3\\) ligt links."
         },
         {
           "type": "meerkeuze",
           "vraag": "Welke rij staat van klein naar groot?",
           "opties": [
-            "min 2, min 0,5, 0, 1,5",
-            "min 0,5, min 2, 0, 1,5",
-            "0, min 0,5, min 2, 1,5",
-            "1,5, 0, min 0,5, min 2"
+            "\\(-2 < -0{,}5 < 0 < 1{,}5\\)",
+            "\\(-0{,}5 < -2 < 0 < 1{,}5\\)",
+            "\\(0 < -0{,}5 < -2 < 1{,}5\\)",
+            "\\(1{,}5 < 0 < -0{,}5 < -2\\)"
           ],
           "antwoord": 0,
           "uitleg": "Van links naar rechts op de getallenas. De laatste rij staat net omgekeerd."
         },
         {
           "type": "invultekst",
-          "vraag": "Welk getal ligt precies tussen 4 en 7? Een getal.",
+          "vraag": "Welk getal ligt precies tussen \\(4\\) en \\(7\\)? Een getal.",
           "antwoord": [
             "5,5",
             "5.5"
           ],
-          "uitleg": "Het gemiddelde van 4 en 7: 11 gedeeld door 2 is 5,5."
+          "uitleg": "Het gemiddelde van \\(4\\) en \\(7\\): \\(\\frac{11}{2} = 5{,}5\\)."
         },
         {
           "type": "waarofniet",
-          "vraag": "Min 10 is groter dan min 3.",
+          "vraag": "\\(-10 > -3\\)",
           "antwoord": false,
-          "uitleg": "Hoe verder naar links op de getallenas, hoe kleiner. Min 10 is dus kleiner."
+          "uitleg": "Hoe verder naar links op de getallenas, hoe kleiner. Dus \\(-10 < -3\\)."
         },
         {
           "type": "meerkeuze",
-          "vraag": "Welk getal ligt het dichtst bij 2 derde?",
+          "vraag": "Welk getal ligt het dichtst bij \\(\\frac{2}{3}\\)?",
           "opties": [
-            "0,67",
-            "het getal 0,6",
-            "het getal 0,7",
-            "het getal 0,75"
+            "\\(0{,}67\\)",
+            "\\(0{,}6\\)",
+            "\\(0{,}7\\)",
+            "\\(0{,}75\\)"
           ],
           "antwoord": 0,
-          "uitleg": "2 gedeeld door 3 is 0,6666… Daarvan is 0,67 de beste benadering van de vier."
+          "uitleg": "\\(\\frac{2}{3} = 0{,}6666\\ldots\\) Daarvan is \\(0{,}67\\) de beste benadering van de vier."
         },
         {
           "type": "meerkeuze",
-          "vraag": "Wat is 0,375 als breuk?",
+          "vraag": "Wat is \\(0{,}375\\) als breuk?",
           "opties": [
-            "3 achtsten",
-            "3 vierden",
-            "1 derde",
-            "3 vijfden"
+            "\\(\\frac{3}{8}\\)",
+            "\\(\\frac{3}{4}\\)",
+            "\\(\\frac{1}{3}\\)",
+            "\\(\\frac{3}{5}\\)"
           ],
           "antwoord": 0,
-          "uitleg": "375 duizendsten vereenvoudigd tot 3 achtsten. Deel teller en noemer door 125."
+          "uitleg": "\\(\\frac{375}{1000}\\) vereenvoudigd: deel teller en noemer door \\(125\\) en je krijgt \\(\\frac{3}{8}\\)."
         },
         {
           "type": "waarofniet",
@@ -589,8 +589,8 @@
           "type": "meerkeuze",
           "vraag": "Welke uitspraken over afronden kloppen?",
           "opties": [
-            "5 of meer rondt naar boven",
-            "minder dan 5 rondt naar beneden",
+            "\\(5\\) of meer rondt naar boven",
+            "minder dan \\(5\\) rondt naar beneden",
             "je kijkt naar het eerste wegvallende cijfer",
             "je rondt altijd naar boven af"
           ],
@@ -603,15 +603,15 @@
         },
         {
           "type": "meerkeuze",
-          "vraag": "Rond 1 999 af op honderdtallen.",
+          "vraag": "Rond \\(1\\,999\\) af op honderdtallen.",
           "opties": [
-            "2 000",
-            "1 900 afgerond",
-            "1 000 afgerond",
-            "2 100 afgerond"
+            "\\(2\\,000\\)",
+            "\\(1\\,900\\)",
+            "\\(1\\,000\\)",
+            "\\(2\\,100\\)"
           ],
           "antwoord": 0,
-          "uitleg": "Het tientalcijfer is 9, dus het honderdtal gaat van 19 naar 20 honderdtallen."
+          "uitleg": "Het tientalcijfer is \\(9\\), dus het honderdtal gaat van \\(19\\) naar \\(20\\) honderdtallen."
         },
         {
           "type": "invultekst",
@@ -620,29 +620,29 @@
             ">",
             "groter dan"
           ],
-          "uitleg": "Het teken zonder streepje eronder. Mét streepje betekent groter dan of gelijk aan."
+          "uitleg": "Het teken \\(>\\), zonder streepje eronder. Mét streepje, \\(\\geq\\), betekent groter dan of gelijk aan."
         },
         {
           "type": "waarofniet",
-          "vraag": "De uitspraak dat 3 kleiner dan of gelijk aan 3 is, is waar.",
+          "vraag": "\\(3 \\leq 3\\)",
           "antwoord": true,
-          "uitleg": "De gelijkheid zit in het symbool, dus de uitspraak klopt. Met strikt kleiner zou ze fout zijn."
+          "uitleg": "De gelijkheid zit in het symbool, dus de uitspraak klopt. Met \\(3 < 3\\) zou ze fout zijn."
         },
         {
           "type": "meerkeuze",
-          "vraag": "Welke getallen liggen tussen 1 en 2?",
+          "vraag": "Welke getallen liggen tussen \\(1\\) en \\(2\\)?",
           "opties": [
-            "1,5",
-            "de wortel van 2",
-            "7 vijfden",
-            "het getal 2,5"
+            "\\(1{,}5\\)",
+            "\\(\\sqrt{2}\\)",
+            "\\(\\frac{7}{5}\\)",
+            "\\(2{,}5\\)"
           ],
           "antwoord": [
             0,
             1,
             2
           ],
-          "uitleg": "De wortel van 2 is ongeveer 1,41 en 7 vijfden is 1,4. Alleen 2,5 valt erbuiten."
+          "uitleg": "\\(\\sqrt{2} \\approx 1{,}41\\) en \\(\\frac{7}{5} = 1{,}4\\). Alleen \\(2{,}5\\) valt erbuiten."
         },
         {
           "type": "meerkeuze",
@@ -660,17 +660,17 @@
           "type": "meerkeuze",
           "vraag": "Welke vergelijking is juist?",
           "opties": [
-            "min 0,5 is groter dan min 1,5",
-            "min 1,5 is groter dan min 0,5",
-            "min 1,5 is gelijk aan min 0,5",
-            "min 1,5 is groter dan nul"
+            "\\(-0{,}5 > -1{,}5\\)",
+            "\\(-1{,}5 > -0{,}5\\)",
+            "\\(-1{,}5 = -0{,}5\\)",
+            "\\(-1{,}5 > 0\\)"
           ],
           "antwoord": 0,
-          "uitleg": "Min 0,5 ligt rechts van min 1,5 op de getallenas en is dus groter."
+          "uitleg": "\\(-0{,}5\\) ligt rechts van \\(-1{,}5\\) op de getallenas en is dus groter."
         },
         {
           "type": "meerkeuze",
-          "vraag": "Een winkel rondt elke prijs naar boven af op 5 cent. Wat gebeurt er met het totaal?",
+          "vraag": "Een winkel rondt elke prijs naar boven af op \\(5\\) cent. Wat gebeurt er met het totaal?",
           "opties": [
             "het wordt systematisch hoger",
             "het blijft gemiddeld gelijk",
@@ -678,7 +678,7 @@
             "het verandert helemaal niet"
           ],
           "antwoord": 0,
-          "uitleg": "Wie altijd naar boven afrondt, telt bij elke prijs iets te veel. Daarom bestaat de regel van 5 of meer."
+          "uitleg": "Wie altijd naar boven afrondt, telt bij elke prijs iets te veel. Daarom bestaat de regel van \\(5\\) of meer."
         }
       ]
     },
@@ -697,7 +697,7 @@
             "er zijn geen grenzen"
           ],
           "antwoord": 0,
-          "uitleg": "Bij een open interval zijn de grenswaarden zelf uitgesloten. Je noteert ze met gewone haakjes."
+          "uitleg": "Bij een open interval zijn de grenswaarden zelf uitgesloten: \\(\\left]2, 5\\right[\\). De haakjes wijzen naar buiten."
         },
         {
           "type": "meerkeuze",
@@ -709,11 +709,11 @@
             "er is geen ondergrens"
           ],
           "antwoord": 0,
-          "uitleg": "Beide grenswaarden zitten in de verzameling. Je noteert ze met vierkante haakjes naar binnen."
+          "uitleg": "Beide grenswaarden zitten in de verzameling: \\(\\left[2, 5\\right]\\). De haakjes wijzen naar binnen."
         },
         {
           "type": "invultekst",
-          "vraag": "Hoe noem je een interval waarvan één grens erbij hoort en één niet? Eén woord.",
+          "vraag": "Hoe noem je een interval als \\(\\left[2, 5\\right[\\), waarvan één grens erbij hoort en één niet? Eén woord.",
           "antwoord": [
             "halfopen",
             "halfgesloten",
@@ -745,27 +745,27 @@
         },
         {
           "type": "meerkeuze",
-          "vraag": "Welk interval hoort bij x groter dan 3?",
+          "vraag": "Welk interval hoort bij \\(x > 3\\)?",
           "opties": [
-            "van 3 open tot plus oneindig",
-            "van 3 gesloten tot plus oneindig",
-            "van min oneindig tot 3",
-            "van 0 tot 3"
+            "\\(\\left]3, +\\infty\\right[\\)",
+            "\\(\\left[3, +\\infty\\right[\\)",
+            "\\(\\left]-\\infty, 3\\right[\\)",
+            "\\(\\left]0, 3\\right[\\)"
           ],
           "antwoord": 0,
-          "uitleg": "Strikt groter, dus 3 zelf valt erbuiten: open aan de kant van 3."
+          "uitleg": "Strikt groter, dus \\(3\\) zelf valt erbuiten: open aan de kant van \\(3\\)."
         },
         {
           "type": "meerkeuze",
-          "vraag": "Welk interval hoort bij x kleiner dan of gelijk aan 5?",
+          "vraag": "Welk interval hoort bij \\(x \\leq 5\\)?",
           "opties": [
-            "van min oneindig tot 5 gesloten",
-            "van min oneindig tot 5 open",
-            "van 5 tot plus oneindig",
-            "van 0 tot 5 gesloten"
+            "\\(\\left]-\\infty, 5\\right]\\)",
+            "\\(\\left]-\\infty, 5\\right[\\)",
+            "\\(\\left]5, +\\infty\\right[\\)",
+            "\\(\\left[0, 5\\right]\\)"
           ],
           "antwoord": 0,
-          "uitleg": "Het isgelijkteken zit erin, dus 5 hoort erbij: gesloten aan de kant van 5."
+          "uitleg": "Het isgelijkteken zit erin, dus \\(5\\) hoort erbij: gesloten aan de kant van \\(5\\)."
         },
         {
           "type": "invultekst",
@@ -779,9 +779,9 @@
         },
         {
           "type": "waarofniet",
-          "vraag": "Aan de kant van oneindig staat een interval altijd open.",
+          "vraag": "Aan de kant van \\(\\infty\\) staat een interval altijd open.",
           "antwoord": true,
-          "uitleg": "Oneindig is geen getal, dus het kan nooit tot de verzameling horen."
+          "uitleg": "Oneindig is geen getal, dus het kan nooit tot de verzameling horen. Daarom schrijf je \\(\\left[2, +\\infty\\right[\\) en nooit \\(\\left[2, +\\infty\\right]\\)."
         },
         {
           "type": "meerkeuze",
@@ -797,35 +797,35 @@
         },
         {
           "type": "meerkeuze",
-          "vraag": "Welke getallen horen bij het gesloten interval van 2 tot 5?",
+          "vraag": "Welke getallen horen bij \\(\\left[2, 5\\right]\\)?",
           "opties": [
-            "het getal 2",
-            "het getal 3,5",
-            "het getal 5",
-            "het getal 5,5"
+            "\\(2\\)",
+            "\\(3{,}5\\)",
+            "\\(5\\)",
+            "\\(5{,}5\\)"
           ],
           "antwoord": [
             0,
             1,
             2
           ],
-          "uitleg": "Beide grenzen horen erbij en alles ertussen. 5,5 ligt erbuiten."
+          "uitleg": "Beide grenzen horen erbij en alles ertussen. \\(5{,}5\\) ligt erbuiten."
         },
         {
           "type": "meerkeuze",
-          "vraag": "Welke getallen horen bij het open interval van 0 tot 1?",
+          "vraag": "Welke getallen horen bij \\(\\left]0, 1\\right[\\)?",
           "opties": [
-            "het getal 0,5",
-            "het getal 0,99",
-            "het getal 0,01",
-            "het getal 1"
+            "\\(0{,}5\\)",
+            "\\(0{,}99\\)",
+            "\\(0{,}01\\)",
+            "\\(1\\)"
           ],
           "antwoord": [
             0,
             1,
             2
           ],
-          "uitleg": "Alles tussen 0 en 1, maar de grenzen zelf niet. Dus 1 valt erbuiten."
+          "uitleg": "Alles tussen \\(0\\) en \\(1\\), maar de grenzen zelf niet. Dus \\(1\\) valt erbuiten."
         },
         {
           "type": "waarofniet",
@@ -835,25 +835,25 @@
         },
         {
           "type": "meerkeuze",
-          "vraag": "Een temperatuur ligt tussen min 2 en 8 graden, grenzen meegerekend. Welk interval?",
+          "vraag": "Een temperatuur ligt tussen \\(-2\\) en \\(8\\) graden, grenzen meegerekend. Welk interval?",
           "opties": [
-            "gesloten van min 2 tot 8",
-            "open van min 2 tot 8",
-            "halfopen van min 2 tot 8",
-            "gesloten van 0 tot 8"
+            "\\(\\left[-2, 8\\right]\\)",
+            "\\(\\left]-2, 8\\right[\\)",
+            "\\(\\left[-2, 8\\right[\\)",
+            "\\(\\left[0, 8\\right]\\)"
           ],
           "antwoord": 0,
           "uitleg": "Grenzen meegerekend betekent gesloten aan beide zijden."
         },
         {
           "type": "invultekst",
-          "vraag": "Welk soort haakjes hoort bij een open grens? Antwoord rond of vierkant.",
+          "vraag": "Wijst het vierkante haakje bij een open grens naar binnen of naar buiten? Eén woord.",
           "antwoord": [
-            "rond",
-            "ronde",
-            "rond haakje"
+            "buiten",
+            "naar buiten",
+            "buitenwaarts"
           ],
-          "uitleg": "Ronde haakjes voor een open grens, vierkante voor een gesloten grens."
+          "uitleg": "Naar buiten: \\(\\left]0, 1\\right[\\) is open, \\(\\left[0, 1\\right]\\) is gesloten. In de internationale notatie staan daar ronde haakjes voor een open grens."
         },
         {
           "type": "meerkeuze",
@@ -869,9 +869,9 @@
         },
         {
           "type": "waarofniet",
-          "vraag": "Bij x strikt groter dan 0 hoort het getal nul tot de oplossingen.",
+          "vraag": "Bij \\(x > 0\\) hoort het getal \\(0\\) tot de oplossingen.",
           "antwoord": false,
-          "uitleg": "Strikt groter sluit de grens uit. Met groter dan of gelijk aan mag nul wel mee."
+          "uitleg": "Strikt groter sluit de grens uit. Met \\(x \\geq 0\\) mag nul wel mee."
         },
         {
           "type": "meerkeuze",
@@ -891,15 +891,15 @@
         },
         {
           "type": "meerkeuze",
-          "vraag": "Een korting geldt vanaf 50 euro. Welk interval hoort bij het bedrag?",
+          "vraag": "Een korting geldt vanaf \\(50\\) euro. Welk interval hoort bij het bedrag?",
           "opties": [
-            "gesloten vanaf 50",
-            "open vanaf 50",
-            "gesloten tot 50",
-            "open tot 50"
+            "\\(\\left[50, +\\infty\\right[\\)",
+            "\\(\\left]50, +\\infty\\right[\\)",
+            "\\(\\left]-\\infty, 50\\right]\\)",
+            "\\(\\left]-\\infty, 50\\right[\\)"
           ],
           "antwoord": 0,
-          "uitleg": "Vanaf 50 betekent dat 50 zelf meedoet. Vanaf meer dan 50 zou open zijn."
+          "uitleg": "Vanaf \\(50\\) betekent dat \\(50\\) zelf meedoet. Vanaf méér dan \\(50\\) zou open zijn."
         },
         {
           "type": "meerkeuze",
@@ -911,7 +911,7 @@
             "er verandert niets"
           ],
           "antwoord": 0,
-          "uitleg": "Strikt groter dan 3 sluit 3 uit. Groter dan of gelijk aan 3 neemt 3 mee."
+          "uitleg": "\\(x > 3\\) sluit \\(3\\) uit. \\(x \\geq 3\\) neemt \\(3\\) mee."
         }
       ]
     },
