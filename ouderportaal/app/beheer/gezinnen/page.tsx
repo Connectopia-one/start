@@ -4,6 +4,7 @@ import { createClient } from "@/lib/supabase/server";
 import { Header } from "@/components/Header";
 import { maakGezin } from "./actions";
 import { startMeekijken } from "@/app/portaal/meekijken-actions";
+import { alleMailadressen } from "@/lib/mailadressen";
 
 export default async function GezinnenPage({
   searchParams,
@@ -15,11 +16,16 @@ export default async function GezinnenPage({
   const naam = session.profile?.full_name ?? session.email ?? "";
 
   const supabase = await createClient();
-  const { data: gezinnen } = await supabase
-    .from("profiles")
-    .select("id, full_name")
-    .eq("role", "ouder")
-    .order("full_name");
+  const [{ data: gezinnen }, mailadressen] = await Promise.all([
+    supabase
+      .from("profiles")
+      .select("id, full_name")
+      .eq("role", "ouder")
+      .order("full_name"),
+    /* Het mailadres hoort bij het account, niet bij het profiel; zie
+       lib/mailadressen.ts. */
+    alleMailadressen(),
+  ]);
 
   return (
     <>
@@ -51,12 +57,19 @@ export default async function GezinnenPage({
               key={g.id}
               className="flex items-center justify-between gap-3 rounded-lg border border-border bg-surface p-3"
             >
-              <Link
-                href={`/beheer/gezinnen/${g.id}`}
-                className="font-medium text-ink hover:underline"
-              >
-                {g.full_name}
-              </Link>
+              <div className="min-w-0">
+                <Link
+                  href={`/beheer/gezinnen/${g.id}`}
+                  className="font-medium text-ink hover:underline"
+                >
+                  {g.full_name}
+                </Link>
+                {/* Het adres waarmee dit gezin inlogt. Zonder dit moest Kim
+                    in Supabase gaan kijken wie welk account was. */}
+                <p className="truncate text-xs text-ink-dim">
+                  {mailadressen.get(g.id) ?? "geen mailadres gevonden"}
+                </p>
+              </div>
               <form action={startMeekijken}>
                 <input type="hidden" name="gezinId" value={g.id} />
                 <button

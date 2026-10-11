@@ -1,22 +1,30 @@
 "use server";
 
 import { revalidatePath } from "next/cache";
-import { requireIngelogd } from "@/lib/auth";
+import { requirePortaalSessie } from "@/lib/auth";
 import { createAdminClient } from "@/lib/supabase/admin";
-import { huidigMeekijken } from "@/lib/meekijken";
 
 /*
-  Kijk je als beheerder mee met een gezin, dan mag je hier niets wijzigen.
-  De gegevens op dit scherm zijn van dat gezin, maar deze acties zouden
-  schrijven op JOUW account — dat is precies de verwarring die we niet willen.
-  Wil je iets aanpassen aan een gezin, doe dat via /beheer/gezinnen.
+  Bij welk gezin horen de gegevens van dit scherm?
+
+  Normaal bij jezelf. Kijk je als beheerder mee met een gezin, dan toont het
+  scherm de gegevens van dat gezin, en dan horen ze daar ook bewaard te worden.
+
+  Hier stond eerst een slot: tijdens het meekijken wierp elke actie een fout.
+  Dat was precies verkeerd om. Kim op 11 oktober 2026: "ik heb al 3 x proberen
+  de inlichtingsfiche in te vullen en dit wordt niet bewaard." Een fout uit een
+  server action komt niet als een zin op het scherm maar verdwijnt, dus het
+  scherm deed gewoon niets, drie keer na elkaar. En er was geen andere weg:
+  een kind toevoegen voor een gezin dat zijn fiche niet zelf invult kon
+  nergens. Nu bewaart dit scherm bij het gezin waar je naar kijkt, en staat er
+  bovenaan dat scherm dat dat zo is.
+
+  De les: een actie die mag mislukken geeft een zin terug; een actie die niets
+  hoort te doen hoort niet te bestaan. Zie ook lib/meekijken.ts.
 */
-async function nietTijdensMeekijken() {
-  if (await huidigMeekijken()) {
-    throw new Error(
-      "Je kijkt mee met een gezin. Stop daar eerst mee, of pas het gezin aan via het beheerscherm.",
-    );
-  }
+async function gezinVanDitScherm() {
+  const sessie = await requirePortaalSessie();
+  return sessie.userId;
 }
 
 /*
@@ -44,8 +52,7 @@ function fichevelden(formData: FormData) {
 }
 
 export async function wijzigContactgegevens(formData: FormData) {
-  await nietTijdensMeekijken();
-  const session = await requireIngelogd();
+  const gezinId = await gezinVanDitScherm();
   const telefoon = String(formData.get("telefoon") || "").trim() || null;
   const adres = String(formData.get("adres") || "").trim() || null;
 
@@ -53,14 +60,13 @@ export async function wijzigContactgegevens(formData: FormData) {
   await admin
     .from("profiles")
     .update({ telefoon, adres })
-    .eq("id", session.userId);
+    .eq("id", gezinId);
 
   revalidatePath("/portaal/gezin");
 }
 
 export async function voegKindToe(formData: FormData) {
-  await nietTijdensMeekijken();
-  const session = await requireIngelogd();
+  const gezinId = await gezinVanDitScherm();
   const naam = String(formData.get("naam") || "").trim();
   if (!naam) return;
 
@@ -83,7 +89,7 @@ export async function voegKindToe(formData: FormData) {
   const { data: bestaande } = await admin
     .from("kinderen")
     .select("naam")
-    .eq("profile_id", session.userId);
+    .eq("profile_id", gezinId);
   const alGekend = (bestaande ?? []).some(
     (k: { naam: string }) => k.naam.trim().toLowerCase() === naam.toLowerCase(),
   );
@@ -93,7 +99,7 @@ export async function voegKindToe(formData: FormData) {
   }
 
   await admin.from("kinderen").insert({
-    profile_id: session.userId,
+    profile_id: gezinId,
     naam,
     geboortedatum,
     allergieen,
@@ -109,8 +115,7 @@ export async function voegKindToe(formData: FormData) {
 }
 
 export async function wijzigKind(formData: FormData) {
-  await nietTijdensMeekijken();
-  const session = await requireIngelogd();
+  const gezinId = await gezinVanDitScherm();
   const kindId = String(formData.get("kind_id") || "");
   const naam = String(formData.get("naam") || "").trim();
   if (!naam) return;
@@ -143,14 +148,13 @@ export async function wijzigKind(formData: FormData) {
       updated_at: new Date().toISOString(),
     })
     .eq("id", kindId)
-    .eq("profile_id", session.userId);
+    .eq("profile_id", gezinId);
 
   revalidatePath("/portaal/gezin");
 }
 
 export async function verwijderKind(formData: FormData) {
-  await nietTijdensMeekijken();
-  const session = await requireIngelogd();
+  const gezinId = await gezinVanDitScherm();
   const kindId = String(formData.get("kind_id") || "");
 
   const admin = createAdminClient();
@@ -158,7 +162,7 @@ export async function verwijderKind(formData: FormData) {
     .from("kinderen")
     .delete()
     .eq("id", kindId)
-    .eq("profile_id", session.userId);
+    .eq("profile_id", gezinId);
 
   revalidatePath("/portaal/gezin");
 }

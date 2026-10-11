@@ -1,3 +1,4 @@
+import Link from "next/link";
 import { requireBeheerder } from "@/lib/auth";
 import { createAdminClient } from "@/lib/supabase/admin";
 import { Header } from "@/components/Header";
@@ -67,12 +68,12 @@ export default async function LijstenBeheer({
           dagen koos, staat op allebei de lijsten. Dit is dus wat ouders
           vroegen; de lijst die je meeneemt, met de gegevens van de fiche,
           staat bij{" "}
-          <a
+          <Link
             href="/beheer/activiteiten"
             className="underline underline-offset-2"
           >
             Kampen en lessen
-          </a>
+          </Link>
           .
         </p>
 

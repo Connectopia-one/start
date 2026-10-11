@@ -45,12 +45,22 @@ export default async function GezinProfielPage() {
       />
       <main className="mx-auto w-full max-w-2xl flex-1 px-6 py-10">
         <h1 className="font-display text-2xl font-semibold text-ink">
-          Mijn gezin
+          {session.meekijken ? `Gezin ${session.meekijken.naam}` : "Mijn gezin"}
         </h1>
         <p className="mt-1 text-sm text-ink-dim">
           Contactgegevens en de inlichtingenfiche van je kind(eren) — enkel
           zichtbaar voor jou en Connectopia.
         </p>
+
+        {/* Je kijkt mee, dus wat je invult hoort bij dat gezin. Dat hoort op
+            het scherm te staan voor je begint te typen, niet achteraf. */}
+        {session.meekijken && (
+          <p className="mt-3 rounded-md bg-amber/15 px-4 py-3 text-sm text-ink">
+            Je kijkt mee met {session.meekijken.naam}. Wat je hier invult of
+            aanpast, bewaren we bij dit gezin en niet bij jezelf. Zo kan je de
+            fiche invullen voor een gezin dat dat zelf niet doet.
+          </p>
+        )}
 
         <section className="mt-8 rounded-xl border border-border bg-surface p-6">
           <h2 className="font-display text-lg font-semibold text-ink">

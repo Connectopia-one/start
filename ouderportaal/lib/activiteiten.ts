@@ -150,6 +150,14 @@ export function korteDatum(datum: string | null) {
   return `${dag} ${MAANDNAMEN[maand - 1]}`;
 }
 
+/* Vandaag als 2026-10-11, of zoveel dagen geleden. Hier, zodat een scherm
+   zelf geen klok hoeft aan te spreken. */
+export function dagTekst(dagenTerug = 0) {
+  const dag = new Date();
+  dag.setDate(dag.getDate() - dagenTerug);
+  return dag.toISOString().slice(0, 10);
+}
+
 /* 7 oktober 2026, voor in een zin. */
 export function langeDatum(datum: string | null) {
   if (!datum) return "";

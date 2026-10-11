@@ -86,9 +86,12 @@ export default async function ActiviteitenBeheer({
           Zet hier elke kampdag, les of werking die doorgaat. Daarna duid je bij
           een kind aan waar het bij hoort, en krijg je per activiteit een lijst
           met de gegevens van de fiche. Wie er was, vink je per dag aan; het{" "}
-          <a href="/beheer/facturatie" className="underline underline-offset-2">
+          <Link
+            href="/beheer/facturatie"
+            className="underline underline-offset-2"
+          >
             maandoverzicht voor de facturen
-          </a>{" "}
+          </Link>{" "}
           telt die aanwezigheden samen.
         </p>
 

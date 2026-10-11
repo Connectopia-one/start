@@ -6,7 +6,14 @@ import { FicheRegels } from "@/components/FicheRegels";
 import { type Kind, KINDVELDEN } from "@/lib/kind";
 import { upsertToegang, verwijderGezin, wijzigWachtwoord } from "../actions";
 import { zetDeelnames } from "../../activiteiten/actions";
-import { sorteer, datumTekst, type Activiteit } from "@/lib/activiteiten";
+import { mailadresVan } from "@/lib/mailadressen";
+import { Kopieer } from "../../aanvragen/Kopieer";
+import {
+  dagTekst,
+  datumTekst,
+  sorteer,
+  type Activiteit,
+} from "@/lib/activiteiten";
 import { startMeekijken } from "@/app/portaal/meekijken-actions";
 
 export default async function GezinDetailPage({
@@ -47,6 +54,10 @@ export default async function GezinDetailPage({
 
   if (!gezin) notFound();
 
+  /* Het mailadres staat niet in profiles maar in auth.users; zie
+     lib/mailadressen.ts. */
+  const mailadres = await mailadresVan(id);
+
   /*
     Bij welke kampen en lessen hoort elk kind van dit gezin? Kim vroeg dat op
     11 oktober 2026: aanduiden bij de fiche zelf, en een kind mag bij
@@ -74,9 +85,7 @@ export default async function GezinDetailPage({
     blijft bereikbaar: op het blad van die activiteit zelf staat een keuzelijst
     om er een kind bij te zetten.
   */
-  const grens = new Date(Date.now() - 7 * 24 * 60 * 60 * 1000)
-    .toISOString()
-    .slice(0, 10);
+  const grens = dagTekst(7);
   const activiteiten = sorteer(
     ((activiteitenData ?? []) as Activiteit[]).filter(
       (a) => !a.datum || a.datum >= grens,
@@ -143,8 +152,21 @@ export default async function GezinDetailPage({
           <h2 className="font-display text-base font-semibold text-ink">
             Contactgegevens
           </h2>
+          <dl className="mt-2 space-y-1 text-sm text-ink-dim">
+            <div>
+              <dt className="inline font-medium text-ink">E-mail: </dt>
+              <dd className="inline">
+                {mailadres ?? "niet gevonden"}
+              </dd>
+              {mailadres && (
+                <span className="ml-2 inline-block align-middle">
+                  <Kopieer waarde={mailadres} wat="het mailadres" />
+                </span>
+              )}
+            </div>
+          </dl>
           {gezin.telefoon || gezin.adres ? (
-            <dl className="mt-2 space-y-1 text-sm text-ink-dim">
+            <dl className="mt-1 space-y-1 text-sm text-ink-dim">
               {gezin.telefoon && (
                 <div>
                   <dt className="inline font-medium text-ink">Telefoon: </dt>
@@ -159,8 +181,8 @@ export default async function GezinDetailPage({
               )}
             </dl>
           ) : (
-            <p className="mt-2 text-sm text-ink-dim">
-              Nog niet ingevuld door dit gezin.
+            <p className="mt-1 text-sm text-ink-dim">
+              Telefoon en adres zijn nog niet ingevuld door dit gezin.
             </p>
           )}
         </section>
