@@ -14,6 +14,17 @@ waarom `$` géén scheidingsteken is.
    - `--sets`: ook `{1, 2, 3}` en een losse hoofdletter, voor een hoofdstuk
      over verzamelingen.
    Een hoofdstuk dat enkel in een json staat: `json_omzet.py <json> "<titel>"`.
+   Dit script zet enkel de getallen in notatie. Wat daarna nog in woorden
+   staat, doen deze drie, in deze volgorde:
+   - `woordmacht.py` — "tot de macht", "wortel uit", "in het kwadraat",
+     "maal" en "gedeeld door" tussen twee stukjes notatie;
+   - `woordgetal.py` — machten waarvan het grondtal of de exponent nog een
+     woord is ("zeven tot de macht nul", "tot de macht een half");
+   - `funcnot.py` — functienotatie: `f(x) is \(3 \cdot 2^{x}\)` wordt
+     `\(f(x) = 3 \cdot 2^{x}\)`, en `x is \(0\)` wordt `\(x = 0\)`.
+   Daarna altijd **`rauw.py`**: dat zet een `r` voor elke gewone string die
+   een backslash gekregen heeft. Het gebruikt de tokenizer van python zelf,
+   want een regex telt de aanhalingstekens van een bestaande r-string fout.
 2. **Narekenen.** Het bouwscript van het niveau opnieuw draaien, zodat elke
    vraag weer wordt nagerekend en de json opnieuw wordt geschreven.
 3. **Nakijken.**
@@ -51,3 +62,12 @@ waarom `$` géén scheidingsteken is.
 - Woorden die enkel een zin aan elkaar praten ("Bij × 1000") horen nooit in een
   formule; zie `STOPWOORDEN`.
 - Lees een bundel altijd gerenderd na, niet in de html.
+- **Twee getallen naast elkaar worden één getal.** `\(2025\) \(46000\)`
+  wordt bij het samenvoegen `\(2025\,46000\)`, en dat leest als één getal.
+  Zoek erop: `grep -o '\\([0-9]\{1,4\}\\,[0-9]\{4,\}'`.
+- **Een getal van vijf cijfers of meer krijgt zijn groepjes**: `20\,000`,
+  niet `20000`. Een jaartal van vier cijfers blijft zoals het is.
+- **Een nummer in een opsomming is geen formule.** "1. Begrijp het probleem"
+  blijft gewone tekst.
+- **De docstring van een bestand blijft gewone tekst**, anders breekt de
+  module: een gewone docstring met `\(` erin is een foute escape.
