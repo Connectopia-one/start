@@ -531,27 +531,31 @@ zet("schaalverandering-en-gelijkvormige-figuren",
                   "andere grootte</strong>: alle hoeken zijn gelijk en alle zijden staan in dezelfde "
                   "verhouding. <strong>De gelijkvormigheidsfactor is de verhouding van de lengtes</strong>: "
                   "je deelt een lengte van de nieuwe figuur door de overeenkomstige lengte van de oude. "
-                  "<strong>Gaat een figuur van 3 cm naar 12 cm, dan is de factor 4</strong>; <strong>bij "
-                  "zijden 2 en 10 is de factor 5</strong>."),
-            ("p", "<strong>Bij een factor kleiner dan 1 wordt de figuur kleiner</strong>: een factor van een "
-                  "half halveert elke lengte, en dan wordt de oppervlakte een vierde."),
+                  "<strong>Gaat een figuur van \\(3\\) cm naar \\(12\\) cm, dan is \\(k = \\frac{12}{3} = 4\\)</strong>; "
+                  "<strong>bij zijden \\(2\\) en \\(10\\) is \\(k = \\frac{10}{2} = 5\\)</strong>."),
+            ("p", "<strong>Bij \\(k < 1\\) wordt de figuur kleiner</strong>: met \\(k = \\frac{1}{2}\\) "
+                  "halveert elke lengte, en dan wordt de oppervlakte \\(\\frac{1}{4}\\)."),
+            ("fig", svg.gelijkvormigedriehoeken(),
+             "de rechtse driehoek is de linkse, maal 1,5"),
         ]),
         dict(kop="Lengte, oppervlakte en volume gaan niet gelijk op", blokken=[
             ("p", "Dit is de kern van het hoofdstuk, en meteen de klassieke misvatting. <strong>Niet alles "
                   "gaat met dezelfde factor.</strong>"),
-            ("kader", tabel(["grootheid", "hoe ze meegaat", "bij factor 2", "bij factor 3"],
-                            [["<strong>de lengte</strong>", "<strong>met de factor</strong>", "<strong>verdubbelt</strong>", "maal 3"],
-                             ["<strong>de oppervlakte</strong>", "<strong>met het kwadraat</strong>", "<strong>vier keer zo groot</strong>", "<strong>negen keer zo groot</strong>"],
-                             ["<strong>het volume</strong>", "<strong>met de derde macht</strong>", "<strong>acht keer zo groot</strong>", "<strong>27 keer zo groot</strong>"],
+            ("kader", tabel(["grootheid", "hoe ze meegaat", "bij \\(k = 2\\)", "bij \\(k = 3\\)"],
+                            [["<strong>de lengte</strong>", "<strong>\\(\\times k\\)</strong>", "<strong>\\(\\times 2\\)</strong>", "\\(\\times 3\\)"],
+                             ["<strong>de oppervlakte</strong>", "<strong>\\(\\times k^{2}\\)</strong>", "<strong>\\(\\times 4\\)</strong>", "<strong>\\(\\times 9\\)</strong>"],
+                             ["<strong>het volume</strong>", "<strong>\\(\\times k^{3}\\)</strong>", "<strong>\\(\\times 8\\)</strong>", "<strong>\\(\\times 27\\)</strong>"],
                              ["<strong>de hoeken</strong>", "<strong>ze blijven gelijk</strong>", "gelijk", "gelijk"]])),
+            ("fig", svg.schaalfactor(),
+             "de zijde verdubbelt; de oppervlakte gaat van 4 naar 16, het volume van 8 naar 64"),
             ("p", "<strong>Bij een dubbele lengte wordt het volume dus niet dubbel zo groot maar acht keer "
                   "zo groot.</strong> Dat is precies het soort uitspraak dat de vakfiche je laat weerleggen. "
                   "<strong>Een blikje dat in alle richtingen dubbel zo groot wordt, heeft acht keer zoveel "
                   "inhoud.</strong> En <strong>een foto op dubbele breedte, met dezelfde vorm, vraagt vier "
                   "keer zoveel inkt</strong>, want de inkt volgt de oppervlakte."),
-            ("p", "Reken het na op een vierkant: <strong>een vierkant van 2 cm zijde, vergroot met factor 4, "
-                  "krijgt een zijde van 8 cm en dus een oppervlakte van 64 cm²</strong>. Of korter: 4 × 4 "
-                  "maal de oude oppervlakte van 4 cm²."),
+            ("p", "Reken het na op een vierkant: <strong>een vierkant met zijde \\(2\\) cm, vergroot met "
+                  "\\(k = 4\\), krijgt een zijde van \\(8\\) cm en dus een oppervlakte van \\(64\\) cm²</strong>. "
+                  "Of korter: \\(4^{2} \\cdot 4 = 64\\)."),
             ("p", "<strong>Gelijkvormige driehoeken hebben dus ook niet dezelfde omtrek</strong>: die gaat "
                   "gewoon met de factor mee. Alleen de hoeken blijven gelijk. En <strong>twee driehoeken met "
                   "gelijke hoeken hebben niet automatisch dezelfde oppervlakte</strong>: ze zijn "
@@ -562,35 +566,38 @@ zet("schaalverandering-en-gelijkvormige-figuren",
         ]),
         dict(kop="Werken met een schaal", blokken=[
             ("p", "<strong>Bij een schaal hoort geen eenheid</strong>: het is een verhouding, en 1 op 50 "
-                  "geldt in welke eenheid je ook meet."),
+                  "geldt in welke eenheid je ook meet. Je schrijft ze als \\(1 : 50\\)."),
             ("kader", tabel(["schaal", "op papier", "in het echt", "rekenwijze"],
-                            [["<strong>1 op 50</strong>", "4 cm", "<strong>2 meter</strong>", "4 × 50 = 200 cm"],
-                             ["<strong>1 op 100</strong>", "3 cm", "<strong>3 meter</strong>", "3 × 100 = 300 cm"],
-                             ["<strong>1 op 25 000</strong>", "4 cm", "<strong>1 kilometer</strong>", "4 × 25 000 = 100 000 cm = 1 000 m"]])),
+                            [["<strong>\\(1 : 50\\)</strong>", "\\(4\\) cm", "<strong>\\(2\\) m</strong>", "\\(4 \\cdot 50 = 200\\) cm"],
+                             ["<strong>\\(1 : 100\\)</strong>", "\\(3\\) cm", "<strong>\\(3\\) m</strong>", "\\(3 \\cdot 100 = 300\\) cm"],
+                             ["<strong>\\(1 : 25\\,000\\)</strong>", "\\(4\\) cm", "<strong>\\(1\\) km</strong>", "\\(4 \\cdot 25\\,000 = 100\\,000\\) cm \\(= 1\\,000\\) m"]])),
         ]),
         dict(kop="De gelijkvormigheidskenmerken van driehoeken", blokken=[
             ("p", "De vakfiche noemt <strong>HH</strong>, <strong>ZHZ</strong>, <strong>ZZZ</strong> en het "
-                  "geval met een rechte hoek van 90 graden. Eén gelijke scherpe hoek volstaat niet."),
+                  "geval met een rechte hoek van \\(90^{\\circ}\\). Eén gelijke scherpe hoek volstaat niet."),
             ("kader", tabel(["kenmerk", "wat je moet weten"],
                             [["<strong>HH</strong>", "<strong>twee hoeken zijn gelijk</strong>"],
-                             ["<strong>ZHZ</strong>", "<strong>twee zijden in verhouding met de hoek ertussen</strong> gelijk; <strong>de hoek moet er echt tussen liggen</strong>"],
+                             ["<strong>ZHZ</strong>", "<strong>twee zijden in verhouding met de ingesloten hoek ertussen</strong> gelijk; <strong>de hoek moet er echt tussen liggen</strong>"],
                              ["<strong>ZZZ</strong>", "<strong>de drie zijden staan in verhouding</strong>"],
-                             ["rechte hoek", "beide driehoeken hebben een hoek van 90 graden, plus nog een gegeven"]])),
+                             ["rechte hoek", "beide driehoeken hebben een hoek van \\(90^{\\circ}\\), plus nog een gegeven"]])),
             ("p", "<strong>Twee gelijke hoeken volstaan omdat de derde hoek eruit volgt</strong>: "
-                  "<strong>de hoekensom van een driehoek is 180 graden</strong>, dus hij ligt vast. Heeft een "
-                  "driehoek hoeken van 40 en 60 graden, dan is de derde <strong>80 graden</strong>."),
+                  "<strong>de hoekensom van een driehoek is \\(180^{\\circ}\\)</strong>, dus hij ligt vast. Heeft "
+                  "een driehoek hoeken van \\(40^{\\circ}\\) en \\(60^{\\circ}\\), dan is de derde "
+                  "<strong>\\(180^{\\circ} - 40^{\\circ} - 60^{\\circ} = 80^{\\circ}\\)</strong>."),
             ("p", "<strong>Bij gelijkvormige driehoeken staan de overeenkomstige zijden in dezelfde "
                   "verhouding</strong>, en daarmee bereken je de onbekende. Drie stappen: <strong>het "
                   "kenmerk aanwijzen</strong>, <strong>de verhouding opstellen</strong> en <strong>de "
                   "onbekende berekenen</strong>. De oppervlakte heb je er niet voor nodig."),
             ("kader", tabel(["opgave", "antwoord", "rekenwijze"],
-                            [["<strong>factor 2, een zijde van 5 cm</strong>", "<strong>10 cm</strong>", "5 × 2"],
-                             ["<strong>zijden 4 en 6, de tweede zijde van de kleine is 3</strong>", "<strong>4,5 cm</strong>",
-                              "de factor is 6 : 4 = 1,5, en 3 × 1,5 = 4,5"],
-                             ["<strong>een stok van 1 m geeft 1,5 m schaduw, een boom 12 m schaduw</strong>", "<strong>de boom is 8 m</strong>",
-                              "12 : 1,5 = 8, en 1 × 8 = 8"],
-                             ["<strong>een stok van 2 m geeft 3 m schaduw, hoeveel geeft een boom van 10 m?</strong>", "<strong>15 m</strong>",
-                              "de verhouding is 3 op 2, dus 10 × 1,5 = 15"]])),
+                            [["<strong>\\(k = 2\\), een zijde van \\(5\\) cm</strong>", "<strong>\\(10\\) cm</strong>", "\\(5 \\cdot 2\\)"],
+                             ["<strong>zijden \\(4\\) en \\(6\\), de tweede zijde van de kleine is \\(3\\)</strong>", "<strong>\\(4{,}5\\) cm</strong>",
+                              "\\(k = \\frac{6}{4} = 1{,}5\\) en \\(3 \\cdot 1{,}5 = 4{,}5\\)"],
+                             ["<strong>een stok van \\(1\\) m geeft \\(1{,}5\\) m schaduw, een boom \\(12\\) m schaduw</strong>", "<strong>de boom is \\(8\\) m</strong>",
+                              "\\(\\frac{12}{1{,}5} = 8\\) en \\(1 \\cdot 8 = 8\\)"],
+                             ["<strong>een stok van \\(2\\) m geeft \\(3\\) m schaduw, hoeveel geeft een boom van \\(10\\) m?</strong>", "<strong>\\(15\\) m</strong>",
+                              "de verhouding is \\(\\frac{3}{2} = 1{,}5\\), dus \\(10 \\cdot 1{,}5 = 15\\)"]])),
+            ("fig", svg.schaduwmeting(),
+             "de zonnestralen vallen evenwijdig in, dus beide driehoeken hebben dezelfde hoeken"),
             ("p", "<strong>De twee driehoeken bij een schaduwmeting zijn gelijkvormig omdat de zonnestralen "
                   "gelijk invallen</strong>: dezelfde hoek met de grond, en beide keren een rechte hoek. Dat "
                   "is het kenmerk HH."),

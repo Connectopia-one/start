@@ -2300,42 +2300,42 @@
         },
         {
           "type": "invultekst",
-          "vraag": "Een figuur van 3 cm wordt 12 cm. Wat is de gelijkvormigheidsfactor? Een getal.",
+          "vraag": "Een figuur van \\(3\\) cm wordt \\(12\\) cm. Wat is de gelijkvormigheidsfactor? Een getal.",
           "antwoord": [
             "4",
             "vier"
           ],
-          "uitleg": "12 gedeeld door 3 is 4. Alle lengtes worden vier keer zo groot."
+          "uitleg": "\\(\\frac{12}{3} = 4\\). Alle lengtes worden vier keer zo groot."
         },
         {
           "type": "meerkeuze",
-          "vraag": "Met welke factor verandert de oppervlakte bij een gelijkvormigheidsfactor 3?",
+          "vraag": "Met welke factor verandert de oppervlakte bij een gelijkvormigheidsfactor \\(k = 3\\)?",
           "opties": [
-            "met 9",
-            "met 3 in totaal",
-            "met 6 in totaal",
-            "met 27 in totaal"
+            "\\(\\times 9\\)",
+            "\\(\\times 3\\)",
+            "\\(\\times 6\\)",
+            "\\(\\times 27\\)"
           ],
           "antwoord": 0,
-          "uitleg": "De oppervlakte gaat met het kwadraat van de factor: 3 maal 3 is 9."
+          "uitleg": "De oppervlakte gaat met \\(k^{2}\\): \\(3^{2} = 9\\)."
         },
         {
           "type": "meerkeuze",
-          "vraag": "Met welke factor verandert het volume bij een gelijkvormigheidsfactor 3?",
+          "vraag": "Met welke factor verandert het volume bij een gelijkvormigheidsfactor \\(k = 3\\)?",
           "opties": [
-            "met 27",
-            "met 9 in totaal",
-            "met 3 in totaal",
-            "met 6 in totaal"
+            "\\(\\times 27\\)",
+            "\\(\\times 9\\)",
+            "\\(\\times 3\\)",
+            "\\(\\times 6\\)"
           ],
           "antwoord": 0,
-          "uitleg": "Het volume gaat met de derde macht: 3 maal 3 maal 3 is 27."
+          "uitleg": "Het volume gaat met \\(k^{3}\\): \\(3^{3} = 27\\)."
         },
         {
           "type": "waarofniet",
           "vraag": "Bij een dubbele lengte wordt de oppervlakte vier keer zo groot.",
           "antwoord": true,
-          "uitleg": "2 in het kwadraat is 4. Het volume wordt dan acht keer zo groot."
+          "uitleg": "\\(2^{2} = 4\\). Het volume wordt dan \\(2^{3} = 8\\) keer zo groot."
         },
         {
           "type": "invultekst",
@@ -2344,16 +2344,16 @@
             "8",
             "acht"
           ],
-          "uitleg": "2 maal 2 maal 2 is 8. De derde macht van de factor."
+          "uitleg": "\\(2^{3} = 8\\): de derde macht van de factor."
         },
         {
           "type": "meerkeuze",
           "vraag": "Welke uitspraken over schaalverandering kloppen?",
           "opties": [
-            "lengte gaat met de factor",
-            "oppervlakte met het kwadraat",
-            "volume met de derde macht",
-            "alles gaat met de factor"
+            "lengte \\(\\times k\\)",
+            "oppervlakte \\(\\times k^{2}\\)",
+            "volume \\(\\times k^{3}\\)",
+            "alles \\(\\times k\\)"
           ],
           "antwoord": [
             0,
@@ -2370,42 +2370,42 @@
         },
         {
           "type": "meerkeuze",
-          "vraag": "Een maquette op schaal 1 op 50. Hoe groot is een gebouw van 4 cm op de maquette?",
+          "vraag": "Een maquette op schaal \\(1 : 50\\). Hoe groot is een gebouw van \\(4\\) cm op de maquette?",
           "opties": [
-            "2 meter",
-            "20 meter",
-            "50 centimeter",
-            "4 meter"
+            "\\(2\\) m",
+            "\\(20\\) m",
+            "\\(50\\) cm",
+            "\\(4\\) m"
           ],
           "antwoord": 0,
-          "uitleg": "4 cm maal 50 is 200 cm, dus 2 meter."
+          "uitleg": "\\(4 \\cdot 50 = 200\\) cm, dus \\(2\\) m."
         },
         {
           "type": "meerkeuze",
-          "vraag": "Een kaart op schaal 1 op 25 000. Hoeveel is 4 cm in het echt?",
+          "vraag": "Een kaart op schaal \\(1 : 25\\,000\\). Hoeveel is \\(4\\) cm in het echt?",
           "opties": [
-            "1 kilometer",
-            "100 meter",
-            "10 kilometer",
-            "25 kilometer"
+            "\\(1\\) km",
+            "\\(100\\) m",
+            "\\(10\\) km",
+            "\\(25\\) km"
           ],
           "antwoord": 0,
-          "uitleg": "4 maal 25 000 is 100 000 cm, en dat is 1 000 meter of 1 kilometer."
+          "uitleg": "\\(4 \\cdot 25\\,000 = 100\\,000\\) cm, en dat is \\(1\\,000\\) m of \\(1\\) km."
         },
         {
           "type": "invultekst",
-          "vraag": "Een plan op schaal 1 op 100. Hoeveel meter is 3 cm in het echt? Een getal.",
+          "vraag": "Een plan op schaal \\(1 : 100\\). Hoeveel meter is \\(3\\) cm in het echt? Een getal.",
           "antwoord": [
             "3",
             "drie"
           ],
-          "uitleg": "3 maal 100 is 300 cm, dus 3 meter."
+          "uitleg": "\\(3 \\cdot 100 = 300\\) cm, dus \\(3\\) m."
         },
         {
           "type": "waarofniet",
           "vraag": "Bij een schaal hoort altijd een eenheid, zoals centimeter.",
           "antwoord": false,
-          "uitleg": "Een schaal is een verhouding: 1 op 50 geldt in welke eenheid je ook meet."
+          "uitleg": "Een schaal is een verhouding: \\(1 : 50\\) geldt in welke eenheid je ook meet."
         },
         {
           "type": "meerkeuze",
@@ -2425,21 +2425,21 @@
         },
         {
           "type": "meerkeuze",
-          "vraag": "Een vierkant van 2 cm zijde wordt vergroot met factor 4. Wat is de nieuwe oppervlakte?",
+          "vraag": "Een vierkant met zijde \\(2\\) cm wordt vergroot met factor \\(4\\). Wat is de nieuwe oppervlakte?",
           "opties": [
-            "64 vierkante centimeter",
-            "16 vierkante centimeter",
-            "32 vierkante centimeter",
-            "8 vierkante centimeter"
+            "\\(64\\) cm²",
+            "\\(16\\) cm²",
+            "\\(32\\) cm²",
+            "\\(8\\) cm²"
           ],
           "antwoord": 0,
-          "uitleg": "De zijde wordt 8 cm, dus de oppervlakte 64. Of: 4 maal 4 maal de oude oppervlakte van 4."
+          "uitleg": "De zijde wordt \\(8\\) cm, dus de oppervlakte \\(64\\) cm². Of: \\(4^{2} \\cdot 4 = 64\\)."
         },
         {
           "type": "waarofniet",
-          "vraag": "Bij een gelijkvormigheidsfactor kleiner dan 1 wordt de figuur kleiner.",
+          "vraag": "Bij een gelijkvormigheidsfactor \\(k < 1\\) wordt de figuur kleiner.",
           "antwoord": true,
-          "uitleg": "Een factor van een half halveert elke lengte. De oppervlakte wordt dan een vierde."
+          "uitleg": "Met \\(k = \\frac{1}{2}\\) halveert elke lengte en wordt de oppervlakte \\(\\frac{1}{4}\\)."
         },
         {
           "type": "meerkeuze",
@@ -2461,25 +2461,25 @@
           "type": "meerkeuze",
           "vraag": "Een blikje wordt in alle richtingen dubbel zo groot. Hoeveel meer inhoud?",
           "opties": [
-            "acht keer",
-            "twee keer zoveel",
-            "vier keer zoveel",
-            "zes keer zoveel"
+            "\\(\\times 8\\)",
+            "\\(\\times 2\\)",
+            "\\(\\times 4\\)",
+            "\\(\\times 6\\)"
           ],
           "antwoord": 0,
-          "uitleg": "Het volume gaat met de derde macht van de factor: 2 maal 2 maal 2 is 8."
+          "uitleg": "Het volume gaat met \\(k^{3}\\): \\(2^{3} = 8\\)."
         },
         {
           "type": "meerkeuze",
           "vraag": "Een foto wordt op dubbele breedte afgedrukt, met dezelfde vorm. Hoeveel inkt is er nodig?",
           "opties": [
-            "vier keer zoveel",
-            "twee keer zoveel",
-            "acht keer zoveel",
-            "evenveel"
+            "\\(\\times 4\\)",
+            "\\(\\times 2\\)",
+            "\\(\\times 8\\)",
+            "\\(\\times 1\\)"
           ],
           "antwoord": 0,
-          "uitleg": "De inkt volgt de oppervlakte, en die gaat met het kwadraat van de factor."
+          "uitleg": "De inkt volgt de oppervlakte, en die gaat met \\(k^{2} = 2^{2} = 4\\)."
         },
         {
           "type": "meerkeuze",
@@ -2510,7 +2510,7 @@
             "één hoek is gelijk"
           ],
           "antwoord": 0,
-          "uitleg": "Twee gelijke hoeken volstaan: de derde volgt dan automatisch, want de som is 180 graden."
+          "uitleg": "Twee gelijke hoeken volstaan: de derde volgt dan automatisch, want de som is \\(180^{\\circ}\\)."
         },
         {
           "type": "meerkeuze",
@@ -2522,7 +2522,7 @@
             "de oppervlakte is dan gelijk"
           ],
           "antwoord": 0,
-          "uitleg": "De hoekensom van een driehoek is altijd 180 graden, dus de derde hoek ligt vast."
+          "uitleg": "De hoekensom van een driehoek is altijd \\(180^{\\circ}\\), dus de derde hoek ligt vast."
         },
         {
           "type": "invultekst",
@@ -2531,7 +2531,7 @@
             "180",
             "honderdtachtig"
           ],
-          "uitleg": "180 graden. Daarom volstaat het kenmerk HH."
+          "uitleg": "\\(180^{\\circ}\\). Daarom volstaat het kenmerk HH."
         },
         {
           "type": "meerkeuze",
@@ -2547,7 +2547,7 @@
             1,
             2
           ],
-          "uitleg": "HH, ZHZ, ZZZ en het geval met een rechte hoek van 90 graden. Een scherpe hoek volstaat niet."
+          "uitleg": "HH, ZHZ, ZZZ en het geval met een rechte hoek van \\(90^{\\circ}\\). Een scherpe hoek volstaat niet."
         },
         {
           "type": "waarofniet",
@@ -2557,36 +2557,36 @@
         },
         {
           "type": "meerkeuze",
-          "vraag": "Twee driehoeken zijn gelijkvormig met factor 2. De eerste heeft een zijde van 5 cm. Wat is de overeenkomstige zijde?",
+          "vraag": "Twee driehoeken zijn gelijkvormig met \\(k = 2\\). De eerste heeft een zijde van \\(5\\) cm. Wat is de overeenkomstige zijde?",
           "opties": [
-            "10 centimeter",
-            "7 centimeter",
-            "2,5 centimeter",
-            "25 centimeter"
+            "\\(10\\) cm",
+            "\\(7\\) cm",
+            "\\(2{,}5\\) cm",
+            "\\(25\\) cm"
           ],
           "antwoord": 0,
-          "uitleg": "5 maal 2 is 10. Alle lengtes gaan met de factor."
+          "uitleg": "\\(5 \\cdot 2 = 10\\). Alle lengtes gaan met de factor."
         },
         {
           "type": "meerkeuze",
-          "vraag": "In twee gelijkvormige driehoeken zijn de zijden 4 en 6. De tweede zijde van de kleine is 3. Hoe lang is de overeenkomstige?",
+          "vraag": "In twee gelijkvormige driehoeken zijn de zijden \\(4\\) en \\(6\\). De tweede zijde van de kleine is \\(3\\). Hoe lang is de overeenkomstige?",
           "opties": [
-            "4,5 centimeter",
-            "5 centimeter",
-            "2 centimeter",
-            "9 centimeter"
+            "\\(4{,}5\\) cm",
+            "\\(5\\) cm",
+            "\\(2\\) cm",
+            "\\(9\\) cm"
           ],
           "antwoord": 0,
-          "uitleg": "De factor is 6 gedeeld door 4, dus 1,5. En 3 maal 1,5 is 4,5."
+          "uitleg": "\\(k = \\frac{6}{4} = 1{,}5\\) en \\(3 \\cdot 1{,}5 = 4{,}5\\)."
         },
         {
           "type": "invultekst",
-          "vraag": "De zijden zijn 2 en 10. Wat is de gelijkvormigheidsfactor? Een getal.",
+          "vraag": "De zijden zijn \\(2\\) en \\(10\\). Wat is de gelijkvormigheidsfactor? Een getal.",
           "antwoord": [
             "5",
             "vijf"
           ],
-          "uitleg": "10 gedeeld door 2 is 5."
+          "uitleg": "\\(\\frac{10}{2} = 5\\)."
         },
         {
           "type": "waarofniet",
@@ -2630,15 +2630,15 @@
         },
         {
           "type": "meerkeuze",
-          "vraag": "Een stok van 1 m geeft een schaduw van 1,5 m, een boom een schaduw van 12 m. Hoe hoog is de boom?",
+          "vraag": "Een stok van \\(1\\) m geeft een schaduw van \\(1{,}5\\) m, een boom een schaduw van \\(12\\) m. Hoe hoog is de boom?",
           "opties": [
-            "8 meter",
-            "18 meter",
-            "12 meter",
-            "6 meter"
+            "\\(8\\) m",
+            "\\(18\\) m",
+            "\\(12\\) m",
+            "\\(6\\) m"
           ],
           "antwoord": 0,
-          "uitleg": "De driehoeken zijn gelijkvormig: 12 gedeeld door 1,5 is 8, en 1 maal 8 is 8 meter."
+          "uitleg": "De driehoeken zijn gelijkvormig: \\(\\frac{12}{1{,}5} = 8\\) en \\(1 \\cdot 8 = 8\\) m."
         },
         {
           "type": "meerkeuze",
@@ -2654,12 +2654,12 @@
         },
         {
           "type": "invultekst",
-          "vraag": "Een stok van 2 m geeft 3 m schaduw. Hoeveel meter schaduw geeft een boom van 10 m? Een getal.",
+          "vraag": "Een stok van \\(2\\) m geeft \\(3\\) m schaduw. Hoeveel meter schaduw geeft een boom van \\(10\\) m? Een getal.",
           "antwoord": [
             "15",
             "vijftien"
           ],
-          "uitleg": "De verhouding is 3 op 2, dus 10 maal 1,5 is 15 meter."
+          "uitleg": "De verhouding is \\(\\frac{3}{2} = 1{,}5\\), dus \\(10 \\cdot 1{,}5 = 15\\) m."
         },
         {
           "type": "waarofniet",
@@ -2685,27 +2685,27 @@
         },
         {
           "type": "meerkeuze",
-          "vraag": "Twee driehoeken zijn gelijkvormig met factor 3. Hoeveel groter is de oppervlakte?",
+          "vraag": "Twee driehoeken zijn gelijkvormig met \\(k = 3\\). Hoeveel groter is de oppervlakte?",
           "opties": [
-            "negen keer",
-            "drie keer zo groot",
-            "zes keer zo groot",
-            "even groot"
+            "\\(\\times 9\\)",
+            "\\(\\times 3\\)",
+            "\\(\\times 6\\)",
+            "\\(\\times 1\\)"
           ],
           "antwoord": 0,
-          "uitleg": "De oppervlakte gaat met het kwadraat van de factor: 3 maal 3 is 9."
+          "uitleg": "De oppervlakte gaat met \\(k^{2}\\): \\(3^{2} = 9\\)."
         },
         {
           "type": "meerkeuze",
-          "vraag": "Een driehoek heeft hoeken van 40 en 60 graden. Welke heeft de derde?",
+          "vraag": "Een driehoek heeft hoeken van \\(40^{\\circ}\\) en \\(60^{\\circ}\\). Hoe groot is de derde?",
           "opties": [
-            "80 graden",
-            "100 graden",
-            "60 graden",
-            "40 graden"
+            "\\(80^{\\circ}\\)",
+            "\\(100^{\\circ}\\)",
+            "\\(60^{\\circ}\\)",
+            "\\(40^{\\circ}\\)"
           ],
           "antwoord": 0,
-          "uitleg": "180 min 40 min 60 is 80 graden."
+          "uitleg": "\\(180^{\\circ} - 40^{\\circ} - 60^{\\circ} = 80^{\\circ}\\)."
         },
         {
           "type": "meerkeuze",

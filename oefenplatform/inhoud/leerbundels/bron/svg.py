@@ -10190,3 +10190,74 @@ def schaalfactor(breedte=470):
     d.append(_tekst(kx + 2 * e, 44, "maal 8", 10, DIM))
 
     return _svg(breedte, h, "".join(d))
+
+
+def gelijkvormigedriehoeken(breedte=470):
+    """Twee gelijkvormige driehoeken met factor 1,5.
+
+    Dezelfde hoeken, alle zijden maal dezelfde factor. De hoekboogjes dragen
+    dezelfde kleur in beide driehoeken, zodat je ziet wat met wat overeenkomt.
+    """
+    import math
+    h = 196
+    grond = 162
+    kleuren = (FOREST, AMBER, "#5b7f9c")
+
+    def driehoek(ox, basis, hoogte, labels, dik):
+        a = (ox, grond)
+        b = (ox + basis, grond)
+        c = (ox + basis * 0.34, grond - hoogte)
+        p = [f'<polygon points="{a[0]:.0f},{a[1]:.0f} {b[0]:.0f},{b[1]:.0f} {c[0]:.0f},{c[1]:.0f}" '
+             f'fill="{FOREST}" fill-opacity="0.07" stroke="{DARK}" stroke-width="{dik}"/>']
+        # hoekboogjes
+        for (hx, hy), (p1, p2), kleur in ((a, (b, c), kleuren[0]),
+                                          (b, (c, a), kleuren[1]),
+                                          (c, (a, b), kleuren[2])):
+            r = 15
+            h1 = math.atan2(p1[1] - hy, p1[0] - hx)
+            h2 = math.atan2(p2[1] - hy, p2[0] - hx)
+            x1, y1 = hx + r * math.cos(h1), hy + r * math.sin(h1)
+            x2, y2 = hx + r * math.cos(h2), hy + r * math.sin(h2)
+            # altijd de kleine boog: die ligt binnen de driehoek
+            delta = (h2 - h1 + math.pi) % (2 * math.pi) - math.pi
+            veeg = 1 if delta > 0 else 0
+            p.append(f'<path d="M{x1:.1f},{y1:.1f} A{r},{r} 0 0 {veeg} {x2:.1f},{y2:.1f}" '
+                     f'fill="none" stroke="{kleur}" stroke-width="2"/>')
+        p.append(_tekst((a[0] + b[0]) / 2, grond + 18, labels[0], 11.5, DARK, vet=True))
+        p.append(_tekst((a[0] + c[0]) / 2 - 14, (a[1] + c[1]) / 2, labels[1], 11.5, DARK, vet=True))
+        return "".join(p)
+
+    d = [driehoek(42, 100, 72, ("4", "3"), 1.8),
+         driehoek(250, 150, 108, ("6", "4,5"), 2.2)]
+    d.append(_tekst(92, 28, "de kleine driehoek", 10.5, DIM))
+    d.append(_tekst(325, 28, "maal 1,5", 10.5, DIM))
+    return _svg(breedte, h, "".join(d))
+
+
+def schaduwmeting(breedte=470):
+    """De stok en de boom met hun schaduw: twee gelijkvormige driehoeken.
+
+    De zon staat ver weg, dus haar stralen vallen evenwijdig in. Daardoor is
+    de hoek met de grond bij allebei dezelfde, en met de rechte hoek van de
+    stok en de boom erbij geldt het kenmerk HH.
+    """
+    e = 21                               # een meter in pixels
+    grond = 208
+    h = 228
+    d = [f'<line x1="14" y1="{grond}" x2="{breedte-14}" y2="{grond}" stroke="{INK}" stroke-width="1.6"/>']
+
+    def paal(x, hoogte_m, schaduw_m, naam, hoogte_label, schaduw_label, kleur):
+        top = grond - hoogte_m * e
+        eind = x + schaduw_m * e
+        p = [f'<line x1="{x}" y1="{grond}" x2="{x}" y2="{top:.0f}" stroke="{kleur}" stroke-width="3"/>',
+             f'<line x1="{x}" y1="{top:.0f}" x2="{eind:.0f}" y2="{grond}" stroke="{AMBER}" '
+             f'stroke-width="1.5" stroke-dasharray="5 4"/>',
+             f'<line x1="{x}" y1="{grond}" x2="{eind:.0f}" y2="{grond}" stroke="{DIM}" stroke-width="4"/>',
+             _tekst(x - 10, (grond + top) / 2, hoogte_label, 11, kleur, anker="end", vet=True),
+             _tekst((x + eind) / 2, grond + 19, schaduw_label, 11, DIM),
+             _tekst(x, top - 10, naam, 10, DIM)]
+        return "".join(p)
+
+    d.append(paal(56, 1, 1.5, "stok", "1 m", "1,5 m", FOREST))
+    d.append(paal(190, 8, 12, "boom", "? m", "12 m", "#5b7f9c"))
+    return _svg(breedte, h, "".join(d))

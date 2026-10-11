@@ -568,52 +568,98 @@ zet("schaalverandering-en-gelijkvormige-figuren",
     titel="Schaalverandering en gelijkvormige figuren",
     reeksen=[
         dict(kop="Schaal lezen",
-             opdracht="Reken uit.",
+             opdracht="Reken uit hoe groot het in het echt is.",
              oefeningen=[
-                 ("rij", [("schaal 1 : 25 000, op de kaart 7 cm", "1,75 km"),
-                          ("schaal 1 : 100, op het plan 4,5 cm", "4,5 m"),
-                          ("schaal 1 : 50 000, in het echt 12 km", "24 cm"),
-                          ("schaal 2 : 1, voorwerp van 3 mm", "6 mm op de tekening"),
-                          ("schaal 1 : 200, op het plan 8 cm", "16 m"),
-                          ("schaal 1 : 20, in het echt 3 m", "15 cm")],
-                  "Wat is het antwoord?", WW),
-                 ("open", "Leg uit waarom een schaal 1 : 25 000 kleiner is dan 1 : 1 000, "
-                          "terwijl 25 000 een groter getal is.",
+                 ("rij", [("schaal \\(1 : 25\\,000\\), op de kaart \\(7\\) cm", "\\(1{,}75\\) km"),
+                          ("schaal \\(1 : 100\\), op het plan \\(4{,}5\\) cm", "\\(4{,}5\\) m"),
+                          ("schaal \\(1 : 200\\), op het plan \\(8\\) cm", "\\(16\\) m")],
+                  "Antwoord", WW),
+                 ("open", "Leg uit waarom een schaal \\(1 : 25\\,000\\) kleiner is dan \\(1 : 1\\,000\\), "
+                          "terwijl \\(25\\,000\\) het grootste getal is.",
                   "Hoe groter het tweede getal, hoe meer de werkelijkheid verkleind is. Bij "
-                  "1 : 25 000 stelt één centimeter 250 meter voor, bij 1 : 1 000 maar tien "
-                  "meter.", 3),
+                  "\\(1 : 25\\,000\\) stelt één centimeter \\(250\\) meter voor, bij \\(1 : 1\\,000\\) maar "
+                  "tien meter.", 3),
+             ]),
+        dict(kop="De andere kant op",
+             opdracht="Reken uit hoe groot het op de tekening is.",
+             oefeningen=[
+                 ("rij", [("schaal \\(1 : 50\\,000\\), in het echt \\(12\\) km", "\\(24\\) cm"),
+                          ("schaal \\(2 : 1\\), voorwerp van \\(3\\) mm", "\\(6\\) mm"),
+                          ("schaal \\(1 : 20\\), in het echt \\(3\\) m", "\\(15\\) cm")],
+                  "Antwoord", WW),
              ]),
         dict(kop="Lengte, oppervlakte en volume",
              opdracht="Vul de tabel aan met de factor.",
              oefeningen=[
-                 ("tabel", ["schaalfactor k", "lengte ×", "oppervlakte ×", "volume ×"],
-                  [["2", None, None, None], ["3", None, None, None],
-                   ["1/2", None, None, None], ["10", None, None, None]],
-                  "k = 2: 2, 4, 8 · k = 3: 3, 9, 27 · k = 1/2: 1/2, 1/4, 1/8 · "
-                  "k = 10: 10, 100, 1000", "70px"),
-                 ("open", "Een maquette is op schaal 1 : 50. Het echte gebouw heeft een "
-                          "gevel van 200 m². Hoeveel is dat op de maquette?",
-                  "De oppervlakte wordt gedeeld door 50² = 2 500. 200 m² : 2 500 = 0,08 m², "
-                  "dus 800 cm².", 3),
-                 ("open", "Een flesje van 0,5 liter wordt in alle richtingen twee keer zo "
-                          "groot gemaakt. Hoeveel liter gaat er dan in?",
-                  "Het volume wordt 2³ = 8 keer zo groot: 4 liter.", 2),
+                 ("tabel", ["\\(k\\)", "lengte \\(\\times\\)", "oppervlakte \\(\\times\\)", "volume \\(\\times\\)"],
+                  [["\\(2\\)", None, None, None], ["\\(3\\)", None, None, None],
+                   ["\\(\\frac{1}{2}\\)", None, None, None], ["\\(10\\)", None, None, None]],
+                  "\\(k = 2\\): \\(2\\), \\(4\\), \\(8\\) · \\(k = 3\\): \\(3\\), \\(9\\), \\(27\\) · "
+                  "\\(k = \\frac{1}{2}\\): \\(\\frac{1}{2}\\), \\(\\frac{1}{4}\\), \\(\\frac{1}{8}\\) · "
+                  "\\(k = 10\\): \\(10\\), \\(100\\), \\(1\\,000\\)", "70px"),
+                 ("waar", "Bij \\(k = 2\\) wordt het volume ook \\(\\times 2\\).", False),
+             ]),
+        dict(kop="Rekenen met de factor",
+             opdracht="Schrijf je berekening uit.",
+             oefeningen=[
+                 ("open", "Een maquette is op schaal \\(1 : 50\\). Het echte gebouw heeft een gevel van "
+                          "\\(200\\) m². Hoeveel is dat op de maquette?",
+                  "De oppervlakte wordt gedeeld door \\(50^{2} = 2\\,500\\). \\(200 : 2\\,500 = 0{,}08\\) m², "
+                  "dus \\(800\\) cm².", 3),
+                 ("open", "Een flesje van \\(0{,}5\\) liter wordt in alle richtingen twee keer zo groot "
+                          "gemaakt. Hoeveel liter gaat er dan in?",
+                  "Het volume wordt \\(2^{3} = 8\\) keer zo groot: \\(4\\) liter.", 2),
+             ]),
+        dict(kop="Waarom die macht?",
+             opdracht="Antwoord in volle zinnen.",
+             oefeningen=[
+                 ("open", "Een foto wordt op dubbele breedte afgedrukt, met dezelfde vorm. Hoeveel keer "
+                          "zoveel inkt is er nodig, en waarom?",
+                  "Vier keer zoveel: de inkt volgt de oppervlakte, en die gaat met \\(k^{2} = 2^{2} = 4\\).", 3),
+                 ("kort", "Met welke factor gaat het volume bij \\(k = 4\\)?", "\\(\\times 64\\)", W),
              ]),
         dict(kop="Gelijkvormige driehoeken",
-             opdracht="Reken de ontbrekende zijde uit.",
+             opdracht="Reken de ontbrekende maten uit.",
              oefeningen=[
                  ("tekst",
-                  "<p><em>Driehoek ABC is gelijkvormig met driehoek DEF. "
-                  "AB = 6, BC = 8, AC = 10 en DE = 9.</em></p>"),
-                 ("kort", "Wat is de schaalfactor van ABC naar DEF?", "1,5", W),
-                 ("kort", "Hoe lang is EF?", "12", W),
-                 ("kort", "Hoe lang is DF?", "15", W),
-                 ("open", "Een boom werpt een schaduw van 12 m. Een stok van 1,5 m werpt op "
-                          "hetzelfde moment een schaduw van 2 m. Hoe hoog is de boom?",
-                  "De driehoeken zijn gelijkvormig: hoogte / 12 = 1,5 / 2, dus hoogte = 9 m.", 3),
+                  "<p><em>Driehoek \\(ABC\\) is gelijkvormig met driehoek \\(DEF\\). "
+                  "\\(\\left|AB\\right| = 6\\), \\(\\left|BC\\right| = 8\\), \\(\\left|AC\\right| = 10\\) "
+                  "en \\(\\left|DE\\right| = 9\\).</em></p>"),
+                 ("kort", "Wat is \\(k\\) van \\(ABC\\) naar \\(DEF\\)?", "\\(1{,}5\\)", W),
+                 ("kort", "Hoe lang is \\(\\left|EF\\right|\\)?", "\\(12\\)", W),
+                 ("kort", "Hoe lang is \\(\\left|DF\\right|\\)?", "\\(15\\)", W),
+                 ("kort", "Hoeveel keer zo groot is de oppervlakte van \\(DEF\\)?", "\\(\\times 2{,}25\\)", WW),
+             ]),
+        dict(kop="Welk kenmerk?",
+             opdracht="Schrijf op welk gelijkvormigheidskenmerk je gebruikt: HH, ZHZ of ZZZ.",
+             oefeningen=[
+                 ("rij", [("twee hoeken van de ene zijn gelijk aan twee hoeken van de andere", "HH"),
+                          ("de drie zijden staan in dezelfde verhouding", "ZZZ"),
+                          ("twee zijden in verhouding en de hoek ertussen gelijk", "ZHZ"),
+                          ("de stok en de boom bij een schaduwmeting", "HH")],
+                  "Kenmerk", WW),
+             ]),
+        dict(kop="De derde hoek",
+             opdracht="Reken uit en leg uit.",
+             oefeningen=[
+                 ("kort", "Een driehoek heeft hoeken van \\(40^{\circ}\\) en \\(60^{\circ}\\). "
+                          "Hoe groot is de derde?", "\\(80^{\circ}\\)", W),
+                 ("open", "Waarom volstaan twee gelijke hoeken, en waarom vraagt de vakfiche dat je het "
+                          "kenmerk erbij noemt?",
+                  "De hoekensom is \\(180^{\circ}\\), dus de derde hoek ligt vast zodra je er twee kent. "
+                  "Het kenmerk is de verantwoording: zonder kenmerk weet je niet waarom je die verhouding "
+                  "mag opstellen.", 4),
+             ]),
+        dict(kop="Schaduwmeting",
+             opdracht="Schrijf je redenering uit.",
+             oefeningen=[
+                 ("open", "Een boom werpt een schaduw van \\(12\\) m. Een stok van \\(1{,}5\\) m werpt op "
+                          "hetzelfde moment een schaduw van \\(2\\) m. Hoe hoog is de boom?",
+                  "De driehoeken zijn gelijkvormig: \\(\\frac{h}{12} = \\frac{1{,}5}{2}\\), dus "
+                  "\\(h = 9\\) m.", 3),
                  ("open", "Noem de twee voorwaarden waaraan gelijkvormige figuren voldoen.",
-                  "Hun overeenkomstige hoeken zijn gelijk, en hun overeenkomstige zijden staan "
-                  "in dezelfde verhouding.", 3),
+                  "Hun overeenkomstige hoeken zijn gelijk, en hun overeenkomstige zijden staan in dezelfde "
+                  "verhouding.", 3),
              ]),
     ])
 
