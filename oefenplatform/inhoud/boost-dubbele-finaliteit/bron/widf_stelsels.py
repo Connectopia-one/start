@@ -10,6 +10,10 @@ Deel 1 gaat over wat een stelsel is, wat een oplossing is en hoe je er een
 oplost met substitutie en gelijkstelling. Deel 2 gaat over de
 combinatiemethode, over de stelsels zonder of met oneindig veel oplossingen,
 over het grafische beeld en over vraagstukken.
+
+De wiskundige notatie staat in de vragen zelf: een koppel als \\((x, y)\\), de
+oplossingenverzameling als \\(V = \\{(2, 3)\\}\\) en de lege verzameling als
+\\(\\emptyset\\).
 """
 
 DEEL1 = [
@@ -23,29 +27,28 @@ DEEL1 = [
             "een vergelijking waarin een onbekende twee keer staat",
         ],
         antwoord=0,
-        uitleg="Je zoekt de waarden van x en y waarvoor de eerste én de tweede vergelijking kloppen.",
+        uitleg=r"Je zoekt de waarden van \(x\) en \(y\) waarvoor de eerste én de tweede "
+               r"vergelijking kloppen.",
     ),
     dict(
         type="meerkeuze",
         vraag="Hoe ziet de oplossing van zo'n stelsel eruit?",
-        opties=[
-            "als een koppel getallen (x, y)",
-            "als één getal",
-            "als twee losse getallen zonder verband",
-            "als een breuk",
-        ],
+        opties=[r"als een koppel getallen \((x, y)\)", "als één getal",
+                "als twee losse getallen zonder verband", "als een breuk"],
         antwoord=0,
-        uitleg="De oplossingenverzameling schrijf je als een koppel, bijvoorbeeld V is de verzameling met (2, 3) erin.",
+        uitleg=r"De oplossingenverzameling schrijf je met een koppel erin, bijvoorbeeld "
+               r"\(V = \{(2, 3)\}\).",
     ),
     dict(
         type="waarofniet",
-        vraag="Het koppel (2, 3) betekent dat x gelijk is aan 2 en y gelijk aan 3.",
+        vraag=r"Het koppel \((2, 3)\) betekent dat \(x = 2\) en \(y = 3\).",
         antwoord=True,
-        uitleg="In een koppel staat de x altijd eerst en de y tweede. De volgorde is afgesproken.",
+        uitleg=r"In een koppel staat de \(x\) altijd eerst en de \(y\) tweede. De volgorde is "
+               r"afgesproken.",
     ),
     dict(
         type="meerkeuze",
-        vraag="Klopt het koppel (4, 1) voor het stelsel x + y = 5 en x − y = 3?",
+        vraag=r"Klopt het koppel \((4, 1)\) voor het stelsel \(x + y = 5\) en \(x - y = 3\)?",
         opties=[
             "ja, want het klopt in allebei de vergelijkingen",
             "nee, want het klopt alleen in de eerste",
@@ -53,7 +56,7 @@ DEEL1 = [
             "nee, want er zijn geen oplossingen",
         ],
         antwoord=0,
-        uitleg="4 plus 1 is 5 en 4 min 1 is 3. Allebei kloppen, dus het koppel is de oplossing.",
+        uitleg=r"\(4 + 1 = 5\) en \(4 - 1 = 3\). Allebei kloppen, dus het koppel is de oplossing.",
     ),
     dict(
         type="meerkeuze",
@@ -65,14 +68,16 @@ DEEL1 = [
             "je stelt de twee rechterleden aan elkaar gelijk",
         ],
         antwoord=0,
-        uitleg="Substitueren is invullen. Uit één vergelijking haal je bijvoorbeeld y, en die uitdrukking zet je in de andere.",
+        uitleg=r"Substitueren is invullen. Uit één vergelijking haal je bijvoorbeeld \(y\), en "
+               r"die uitdrukking zet je in de andere.",
     ),
     dict(
         type="meerkeuze",
-        vraag="Los op met substitutie: y = 2x en x + y = 9. Wat is x?",
-        opties=["3", "2", "9", "6"],
+        vraag=r"Los op met substitutie: \(y = 2x\) en \(x + y = 9\). Wat is \(x\)?",
+        opties=[r"\(3\)", r"\(2\)", r"\(9\)", r"\(6\)"],
         antwoord=0,
-        uitleg="Vul y is 2x in: x plus 2x is 3x, en 3x is 9, dus x is 3. Dan is y gelijk aan 6.",
+        uitleg=r"Vul \(y = 2x\) in: \(x + 2x = 3x\), en \(3x = 9\), dus \(x = 3\). Dan is "
+               r"\(y = 6\).",
     ),
     dict(
         type="meerkeuze",
@@ -84,14 +89,15 @@ DEEL1 = [
             "je vervangt in beide vergelijkingen x door y",
         ],
         antwoord=0,
-        uitleg="Staat er twee keer y is iets, dan moeten die twee uitdrukkingen aan elkaar gelijk zijn.",
+        uitleg=r"Staat er twee keer \(y = \ldots\), dan moeten die twee uitdrukkingen aan elkaar "
+               r"gelijk zijn.",
     ),
     dict(
         type="meerkeuze",
-        vraag="Los op met gelijkstelling: y = x + 1 en y = 3x − 5. Wat is x?",
-        opties=["3", "2", "4", "1"],
+        vraag=r"Los op met gelijkstelling: \(y = x + 1\) en \(y = 3x - 5\). Wat is \(x\)?",
+        opties=[r"\(3\)", r"\(2\)", r"\(4\)", r"\(1\)"],
         antwoord=0,
-        uitleg="x plus 1 is 3x min 5, dus 6 is 2x en x is 3. Dan is y gelijk aan 4.",
+        uitleg=r"\(x + 1 = 3x - 5\), dus \(6 = 2x\) en \(x = 3\). Dan is \(y = 4\).",
     ),
     dict(
         type="waarofniet",
@@ -109,46 +115,52 @@ DEEL1 = [
             "omdat het rekentoestel het anders niet aanvaardt",
         ],
         antwoord=0,
-        uitleg="Een rekenfout onderweg merk je pas als je invult. Invullen kost weinig tijd en vangt veel fouten.",
+        uitleg="Een rekenfout onderweg merk je pas als je invult. Invullen kost weinig tijd en "
+               "vangt veel fouten.",
     ),
     dict(
         type="meerkeuze",
-        vraag="Hoe schrijf je de vergelijking 2x + y = 7 om zodat y alleen staat?",
-        opties=["y = 7 − 2x", "y = 2x − 7", "y = 7 + 2x", "y = 2x + 7"],
+        vraag=r"Hoe schrijf je \(2x + y = 7\) om zodat \(y\) alleen staat?",
+        opties=[r"\(y = 7 - 2x\)", r"\(y = 2x - 7\)", r"\(y = 7 + 2x\)", r"\(y = 2x + 7\)"],
         antwoord=0,
-        uitleg="Breng 2x naar de andere kant. Wat je aftrekt aan de ene kant, trek je ook af aan de andere.",
+        uitleg=r"Breng \(2x\) naar de andere kant. Wat je aftrekt aan de ene kant, trek je ook af "
+               r"aan de andere.",
     ),
     dict(
         type="invultekst",
         vraag="Hoe noem je de methode waarbij je een onbekende uitschrijft en invult in de andere vergelijking?",
         antwoord=["substitutie", "de substitutiemethode", "substitutiemethode"],
-        uitleg="Substitueren betekent letterlijk vervangen: je vervangt y door de uitdrukking die eraan gelijk is.",
+        uitleg=r"Substitueren betekent letterlijk vervangen: je vervangt \(y\) door de "
+               r"uitdrukking die eraan gelijk is.",
     ),
     dict(
         type="waarofniet",
         vraag="Bij een stelsel mag je een vergelijking langs beide kanten met hetzelfde getal vermenigvuldigen.",
         antwoord=True,
-        uitleg="Zolang je links en rechts hetzelfde doet, blijft de vergelijking gelijkwaardig. Dat is de basis van de combinatiemethode.",
+        uitleg="Zolang je links en rechts hetzelfde doet, blijft de vergelijking gelijkwaardig. "
+               "Dat is de basis van de combinatiemethode.",
     ),
     dict(
         type="meerkeuze",
-        vraag="Twee kaarten en drie broodjes kosten 13 euro. Welke vergelijking hoort daarbij, met k de prijs van een kaart en b die van een broodje?",
-        opties=["2k + 3b = 13", "k + b = 13", "2k = 3b", "6kb = 13"],
+        vraag=r"Twee kaarten en drie broodjes kosten \(13\) euro. Welke vergelijking hoort daarbij, "
+              r"met \(k\) de prijs van een kaart en \(b\) die van een broodje?",
+        opties=[r"\(2k + 3b = 13\)", r"\(k + b = 13\)", r"\(2k = 3b\)", r"\(6kb = 13\)"],
         antwoord=0,
         uitleg="Het aantal stuks komt vóór de onbekende, en samen is dat het totaalbedrag.",
     ),
     dict(
         type="meerkeuze",
-        vraag="Los op: x = 5 en 2x + y = 13. Wat is y?",
-        opties=["3", "8", "13", "5"],
+        vraag=r"Los op: \(x = 5\) en \(2x + y = 13\). Wat is \(y\)?",
+        opties=[r"\(3\)", r"\(8\)", r"\(13\)", r"\(5\)"],
         antwoord=0,
-        uitleg="2 maal 5 is 10, en 10 plus y is 13, dus y is 3.",
+        uitleg=r"\(2 \cdot 5 = 10\), en \(10 + y = 13\), dus \(y = 3\).",
     ),
     dict(
         type="waarofniet",
-        vraag="Het koppel (1, 2) en het koppel (2, 1) zijn dezelfde oplossing.",
+        vraag=r"Het koppel \((1, 2)\) en het koppel \((2, 1)\) zijn dezelfde oplossing.",
         antwoord=False,
-        uitleg="De volgorde in een koppel ligt vast: eerst x, dan y. Wissel je ze om, dan bedoel je iets anders.",
+        uitleg=r"De volgorde in een koppel ligt vast: eerst \(x\), dan \(y\). Wissel je ze om, "
+               r"dan bedoel je iets anders.",
     ),
     dict(
         type="meerkeuze",
@@ -160,26 +172,30 @@ DEEL1 = [
             "omdat het antwoord dan altijd nul is",
         ],
         antwoord=0,
-        uitleg="Bij x plus y is 5 hoort elk koppel dat samen 5 geeft. Pas een tweede voorwaarde kiest er één uit.",
+        uitleg=r"Bij \(x + y = 5\) hoort elk koppel dat samen \(5\) geeft. Pas een tweede "
+               r"voorwaarde kiest er één uit.",
     ),
     dict(
         type="invultekst",
-        vraag="Hoe noem je het getal dat vóór een onbekende staat, zoals de 3 in 3x?",
+        vraag=r"Hoe noem je het getal dat vóór een onbekende staat, zoals de \(3\) in \(3x\)?",
         antwoord=["de coëfficiënt", "coëfficiënt", "coefficient"],
         uitleg="De coëfficiënt zegt met hoeveel de onbekende vermenigvuldigd wordt.",
     ),
     dict(
         type="meerkeuze",
         vraag="Welke vorm is de algemene vorm van een eerstegraadsvergelijking met twee onbekenden?",
-        opties=["ax + by = c", "ax² + bx = c", "ax + b = 0", "x = ay + b²"],
+        opties=[r"\(ax + by = c\)", r"\(ax^{2} + bx = c\)", r"\(ax + b = 0\)",
+                r"\(x = ay + b^{2}\)"],
         antwoord=0,
-        uitleg="De onbekenden staan in de eerste graad, elk met hun eigen coëfficiënt, en rechts staat een getal.",
+        uitleg="De onbekenden staan in de eerste graad, elk met hun eigen coëfficiënt, en rechts "
+               "staat een getal.",
     ),
     dict(
         type="waarofniet",
         vraag="Je mag zelf kiezen welke onbekende je eerst uitschrijft bij substitutie.",
         antwoord=True,
-        uitleg="Kies de onbekende die het makkelijkst alleen komt te staan, meestal een met coëfficiënt 1.",
+        uitleg=r"Kies de onbekende die het makkelijkst alleen komt te staan, meestal een met "
+               r"coëfficiënt \(1\).",
     ),
 ]
 
@@ -194,21 +210,23 @@ DEEL2 = [
             "je tekent de twee rechten in hetzelfde assenstelsel",
         ],
         antwoord=0,
-        uitleg="Zorg eerst dat een onbekende in beide vergelijkingen dezelfde coëfficiënt heeft, met een tegengesteld teken.",
+        uitleg="Zorg eerst dat een onbekende in beide vergelijkingen dezelfde coëfficiënt heeft, "
+               "met een tegengesteld teken.",
     ),
     dict(
         type="meerkeuze",
-        vraag="Los op met combinatie: x + y = 10 en x − y = 4. Wat is x?",
-        opties=["7", "3", "6", "14"],
+        vraag=r"Los op met combinatie: \(x + y = 10\) en \(x - y = 4\). Wat is \(x\)?",
+        opties=[r"\(7\)", r"\(3\)", r"\(6\)", r"\(14\)"],
         antwoord=0,
-        uitleg="Tel de twee op: de y valt weg en 2x is 14, dus x is 7. Dan is y gelijk aan 3.",
+        uitleg=r"Tel de twee op: de \(y\) valt weg en \(2x = 14\), dus \(x = 7\). Dan is "
+               r"\(y = 3\).",
     ),
     dict(
         type="meerkeuze",
-        vraag="Los op: 2x + y = 8 en 2x − y = 4. Wat is y?",
-        opties=["2", "3", "6", "12"],
+        vraag=r"Los op: \(2x + y = 8\) en \(2x - y = 4\). Wat is \(y\)?",
+        opties=[r"\(2\)", r"\(3\)", r"\(6\)", r"\(12\)"],
         antwoord=0,
-        uitleg="Trek de tweede van de eerste af: 2y is 4, dus y is 2. Dan is x gelijk aan 3.",
+        uitleg=r"Trek de tweede van de eerste af: \(2y = 4\), dus \(y = 2\). Dan is \(x = 3\).",
     ),
     dict(
         type="meerkeuze",
@@ -220,37 +238,35 @@ DEEL2 = [
             "een stelsel waarin de onbekenden van plaats wisselen",
         ],
         antwoord=0,
-        uitleg="De twee vergelijkingen spreken elkaar tegen. De oplossingenverzameling is dan de lege verzameling.",
+        uitleg=r"De twee vergelijkingen spreken elkaar tegen. De oplossingenverzameling is dan de "
+               r"lege verzameling, \(V = \emptyset\).",
     ),
     dict(
         type="meerkeuze",
-        vraag="Waarom is het stelsel x + y = 5 en x + y = 8 strijdig?",
+        vraag=r"Waarom is het stelsel \(x + y = 5\) en \(x + y = 8\) strijdig?",
         opties=[
-            "omdat dezelfde som niet tegelijk 5 en 8 kan zijn",
-            "omdat er geen coëfficiënten bij x staan",
-            "omdat 5 en 8 geen veelvouden van elkaar zijn",
-            "omdat er te weinig onbekenden zijn",
+            r"omdat dezelfde som niet tegelijk \(5\) en \(8\) kan zijn",
+            r"omdat er geen coëfficiënten bij \(x\) staan",
+            r"omdat \(5\) en \(8\) geen veelvouden van elkaar zijn",
+            r"omdat er te weinig onbekenden zijn",
         ],
         antwoord=0,
-        uitleg="Werk je het uit met combinatie, dan krijg je 0 is 3. Dat klopt nooit, dus er is geen oplossing.",
+        uitleg=r"Werk je het uit met combinatie, dan krijg je \(0 = 3\). Dat klopt nooit, dus er "
+               r"is geen oplossing.",
     ),
     dict(
         type="waarofniet",
-        vraag="Bij een strijdig stelsel schrijf je als oplossingenverzameling de lege verzameling.",
+        vraag=r"Bij een strijdig stelsel schrijf je als oplossingenverzameling \(V = \emptyset\).",
         antwoord=True,
         uitleg="Er is geen enkel koppel dat aan allebei de vergelijkingen voldoet.",
     ),
     dict(
         type="meerkeuze",
-        vraag="Hoeveel oplossingen heeft het stelsel x + y = 5 en 2x + 2y = 10?",
-        opties=[
-            "oneindig veel",
-            "geen enkele",
-            "precies één",
-            "precies twee",
-        ],
+        vraag=r"Hoeveel oplossingen heeft het stelsel \(x + y = 5\) en \(2x + 2y = 10\)?",
+        opties=["oneindig veel", "geen enkele", "precies één", "precies twee"],
         antwoord=0,
-        uitleg="De tweede vergelijking is de eerste maal twee. Ze zeggen hetzelfde, dus elk koppel dat aan de eerste voldoet, voldoet ook aan de tweede.",
+        uitleg="De tweede vergelijking is de eerste maal twee. Ze zeggen hetzelfde, dus elk koppel "
+               "dat aan de eerste voldoet, voldoet ook aan de tweede.",
     ),
     dict(
         type="meerkeuze",
@@ -262,7 +278,8 @@ DEEL2 = [
             "de rechten vallen samen",
         ],
         antwoord=0,
-        uitleg="De coördinaten van het snijpunt zijn precies het koppel dat aan allebei de vergelijkingen voldoet.",
+        uitleg="De coördinaten van het snijpunt zijn precies het koppel dat aan allebei de "
+               "vergelijkingen voldoet.",
     ),
     dict(
         type="meerkeuze",
@@ -274,7 +291,8 @@ DEEL2 = [
             "één rechte door de oorsprong",
         ],
         antwoord=0,
-        uitleg="Evenwijdige rechten hebben dezelfde richtingscoëfficiënt en snijden elkaar nooit, dus er is geen gemeenschappelijk punt.",
+        uitleg="Evenwijdige rechten hebben dezelfde richtingscoëfficiënt en snijden elkaar nooit, "
+               "dus er is geen gemeenschappelijk punt.",
     ),
     dict(
         type="meerkeuze",
@@ -290,7 +308,8 @@ DEEL2 = [
     ),
     dict(
         type="waarofniet",
-        vraag="Twee rechten met dezelfde richtingscoëfficiënt maar een ander snijpunt met de y-as snijden elkaar ergens.",
+        vraag=r"Twee rechten met dezelfde richtingscoëfficiënt maar een ander snijpunt met de "
+              r"\(y\)-as snijden elkaar ergens.",
         antwoord=False,
         uitleg="Ze zijn evenwijdig en blijven even ver van elkaar. Het stelsel is dan strijdig.",
     ),
@@ -302,47 +321,54 @@ DEEL2 = [
     ),
     dict(
         type="meerkeuze",
-        vraag="Twee broodjes en een soep kosten 9 euro; een broodje en een soep kosten 6 euro. Hoeveel kost een broodje?",
-        opties=["3 euro", "4 euro", "2 euro", "6 euro"],
+        vraag=r"Twee broodjes en een soep kosten \(9\) euro; een broodje en een soep kosten \(6\) "
+              r"euro. Hoeveel kost een broodje?",
+        opties=[r"\(3\) euro", r"\(4\) euro", r"\(2\) euro", r"\(6\) euro"],
         antwoord=0,
-        uitleg="Trek de tweede van de eerste af: er blijft één broodje over, en 9 min 6 is 3. Een soep kost dan 3 euro.",
+        uitleg=r"Trek de tweede van de eerste af: er blijft één broodje over, en \(9 - 6 = 3\). "
+               r"Een soep kost dan \(3\) euro.",
     ),
     dict(
         type="meerkeuze",
-        vraag="Een klas van 25 leerlingen telt 7 jongens meer dan meisjes. Hoeveel meisjes zijn er?",
-        opties=["9", "16", "11", "18"],
+        vraag=r"Een klas van \(25\) leerlingen telt \(7\) jongens meer dan meisjes. Hoeveel "
+              r"meisjes zijn er?",
+        opties=[r"\(9\)", r"\(16\)", r"\(11\)", r"\(18\)"],
         antwoord=0,
-        uitleg="Met j plus m is 25 en j min m is 7 krijg je 2j is 32, dus 16 jongens en 9 meisjes.",
+        uitleg=r"Met \(j + m = 25\) en \(j - m = 7\) krijg je \(2j = 32\), dus \(16\) jongens en "
+               r"\(9\) meisjes.",
     ),
     dict(
         type="waarofniet",
-        vraag="Bij een vraagstuk schrijf je eerst op wat x en wat y voorstelt.",
+        vraag=r"Bij een vraagstuk schrijf je eerst op wat \(x\) en wat \(y\) voorstelt.",
         antwoord=True,
-        uitleg="Zonder die afspraak weet je achteraf niet wat je uitkomst betekent, en kan een lezer je oplossing niet volgen.",
+        uitleg="Zonder die afspraak weet je achteraf niet wat je uitkomst betekent, en kan een "
+               "lezer je oplossing niet volgen.",
     ),
     dict(
         type="meerkeuze",
-        vraag="Je werkt een stelsel uit met combinatie en komt uit op 0 = 0. Wat betekent dat?",
+        vraag=r"Je werkt een stelsel uit met combinatie en komt uit op \(0 = 0\). Wat betekent dat?",
         opties=[
             "het stelsel heeft oneindig veel oplossingen",
             "het stelsel is strijdig",
-            "x en y zijn allebei nul",
+            r"\(x\) en \(y\) zijn allebei nul",
             "je hebt een rekenfout gemaakt",
         ],
         antwoord=0,
-        uitleg="Alles is weggevallen en er blijft een ware uitspraak over. De twee vergelijkingen zeggen dus hetzelfde.",
+        uitleg="Alles is weggevallen en er blijft een ware uitspraak over. De twee vergelijkingen "
+               "zeggen dus hetzelfde.",
     ),
     dict(
         type="meerkeuze",
-        vraag="Je werkt een stelsel uit en komt uit op 0 = 7. Wat betekent dat?",
+        vraag=r"Je werkt een stelsel uit en komt uit op \(0 = 7\). Wat betekent dat?",
         opties=[
             "het stelsel heeft geen oplossing",
             "het stelsel heeft oneindig veel oplossingen",
-            "x is gelijk aan 7",
-            "y is gelijk aan 7",
+            r"\(x\) is gelijk aan \(7\)",
+            r"\(y\) is gelijk aan \(7\)",
         ],
         antwoord=0,
-        uitleg="Er blijft een uitspraak over die nooit waar is, dus er bestaat geen koppel dat past. Het stelsel is strijdig.",
+        uitleg="Er blijft een uitspraak over die nooit waar is, dus er bestaat geen koppel dat "
+               "past. Het stelsel is strijdig.",
     ),
     dict(
         type="meerkeuze",
@@ -354,7 +380,8 @@ DEEL2 = [
             "als er maar één onbekende in het stelsel staat",
         ],
         antwoord=0,
-        uitleg="Dan valt die onbekende in één stap weg. Staat er ergens al y is iets, dan is substitutie sneller.",
+        uitleg=r"Dan valt die onbekende in één stap weg. Staat er ergens al \(y = \ldots\), dan is "
+               r"substitutie sneller.",
     ),
     dict(
         type="invultekst",
@@ -366,6 +393,7 @@ DEEL2 = [
         type="waarofniet",
         vraag="Een stelsel grafisch oplossen geeft altijd een exact antwoord.",
         antwoord=False,
-        uitleg="Tekenen geeft een goede schatting van het snijpunt, maar voor een exact koppel reken je het na.",
+        uitleg="Tekenen geeft een goede schatting van het snijpunt, maar voor een exact koppel "
+               "reken je het na.",
     ),
 ]
