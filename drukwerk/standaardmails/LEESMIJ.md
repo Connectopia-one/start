@@ -65,3 +65,13 @@ begint.
 De mails van 11 oktober 2026 zelf staan niet in de repo en niet op een
 kopieerpagina: daar staan mailadressen van ouders en hun tijdelijke wachtwoord
 in. Die blijven in de thread.
+
+## De proefles, als de datum al vastligt
+
+Onderaan `3-proefles-we-bellen-je.txt` staat sinds 11 oktober 2026 een tweede
+versie, voor wanneer de afspraak al gemaakt is en bellen dus niet meer hoeft.
+Daar staat één ding in dat uit de praktijk komt (Kim, 11 oktober 2026): volgt
+er een gesprek op de proefles, vraag dan om **boterhammetjes** mee te geven,
+zodat het kind met de andere kinderen kan eten terwijl de ouder en Kim praten.
+Zet die zin bij het gesprek, met die reden erbij, niet als een regel in een
+lijstje van wat er mee moet.
