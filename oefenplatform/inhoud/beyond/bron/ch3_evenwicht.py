@@ -35,10 +35,10 @@ DEEL1 = [
             "er zijn nog van alle stoffen aanwezig",
             "de reagentia zijn volledig opgebruikt",
             "de snelheid van beide reacties is nul",
+            "de heen- en de terugreactie gaan nog door",
         ],
-        antwoord=[0, 1],
-        uitleg="Bij een aflopende reactie is minstens één beginstof op. Bij een evenwicht "
-        "blijft er van alles iets over.",
+        antwoord=[0, 1, 4],
+        uitleg="Bij een aflopende reactie is minstens één beginstof op. Bij een evenwicht blijft er van alles iets over, en lopen de twee reacties ondertussen gewoon door.",
     ),
     dict(
         type="invultekst",
@@ -101,8 +101,9 @@ DEEL1 = [
             "ze heeft de producten in de teller",
             "ze verandert als je een reagens toevoegt",
             "ze wordt groter als je een katalysator gebruikt",
+            "ze heeft de reagentia in de noemer",
         ],
-        antwoord=[0, 1],
+        antwoord=[0, 1, 4],
         uitleg="Voeg je stof toe, dan verschuift het evenwicht tot K weer uitkomt. De "
         "waarde zelf blijft dus gelijk.",
     ),
@@ -166,10 +167,10 @@ DEEL1 = [
             "de concentraties veranderen vanaf dan niet meer",
             "de snelheid van beide reacties is vanaf dan nul",
             "alle reagentia zijn vanaf dan opgebruikt",
+            "beide reacties blijven vanaf dan doorgaan",
         ],
-        antwoord=[0, 1],
-        uitleg="In het begin is de heenreactie het snelst. Terwijl er product bijkomt, "
-        "wordt de terugreactie sneller, tot de twee gelijk zijn.",
+        antwoord=[0, 1, 4],
+        uitleg="In het begin is de heenreactie het snelst. Terwijl er product bijkomt, wordt de terugreactie sneller, tot de twee gelijk zijn en even snel blijven doorgaan.",
     ),
     dict(
         type="invultekst",
@@ -289,8 +290,9 @@ DEEL2 = [
             "de temperatuur verhogen",
             "een katalysator toevoegen",
             "het vat van vorm veranderen bij gelijk volume",
+            "een van de gassen uit het vat wegnemen",
         ],
-        antwoord=[0, 1],
+        antwoord=[0, 1, 4],
         uitleg="Alleen iets dat de concentraties of de constante verandert, verschuift "
         "het evenwicht. Een katalysator doet dat niet.",
     ),
@@ -315,10 +317,10 @@ DEEL2 = [
             "het evenwicht verschuift naar één kant",
             "de evenwichtsconstante blijft dezelfde",
             "enkel de snelheid verandert, niet de ligging",
+            "de snelheid van beide reacties verandert mee",
         ],
-        antwoord=[0, 1],
-        uitleg="De temperatuur is de enige verstoring die K zelf verandert. Daarom krijg "
-        "je bij elke temperatuur een andere verhouding.",
+        antwoord=[0, 1, 4],
+        uitleg="De temperatuur is de enige verstoring die K zelf verandert. Daarom krijg je bij elke temperatuur een andere verhouding, en lopen beide reacties daarbij ook sneller of trager.",
     ),
     dict(
         type="invultekst",
@@ -381,8 +383,9 @@ DEEL2 = [
             "na een tijd zijn de twee snelheden weer gelijk",
             "de evenwichtsconstante verandert bij elke verstoring",
             "het evenwicht komt nooit meer terug na een verstoring",
+            "de concentraties liggen daarna anders dan ervoor",
         ],
-        antwoord=[0, 1],
+        antwoord=[0, 1, 4],
         uitleg="Dat is net wat verschuiven betekent: de ene reactie loopt even voor, tot "
         "de concentraties weer bij K uitkomen.",
     ),

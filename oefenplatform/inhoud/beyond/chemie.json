@@ -12,11 +12,13 @@
             "ozon",
             "zuurstofgas",
             "water",
-            "keukenzout"
+            "keukenzout",
+            "ijzer"
           ],
           "antwoord": [
             0,
-            1
+            1,
+            4
           ],
           "uitleg": "Ozon is O₃ en zuurstofgas is O₂: in beide zit maar één soort atoom, dus één element. Water en keukenzout zijn samengesteld."
         },
@@ -27,11 +29,13 @@
             "calciumoxide, met de formule CaO",
             "zwaveldioxide, met de formule SO₂",
             "natriumhydroxide, met de formule NaOH",
-            "waterstofchloride, met de formule HCl"
+            "waterstofchloride, met de formule HCl",
+            "ijzer(III)oxide, met de formule Fe₂O₃"
           ],
           "antwoord": [
             0,
-            1
+            1,
+            4
           ],
           "uitleg": "Een oxide is een verbinding van zuurstof met één ander element. In NaOH zit zuurstof wel, maar samen met waterstof als hydroxidegroep."
         },
@@ -158,11 +162,13 @@
             "waterstofsulfaat, H₂SO₄",
             "waterstofnitraat, HNO₃",
             "natriumsulfaat, Na₂SO₄",
-            "magnesiumoxide, MgO"
+            "magnesiumoxide, MgO",
+            "waterstofchloride, HCl"
           ],
           "antwoord": [
             0,
-            1
+            1,
+            4
           ],
           "uitleg": "Een zuur begint in de formule met waterstof dat als H⁺ kan weggaan. In Na₂SO₄ staat natrium op die plaats, dus is het een zout."
         },
@@ -301,11 +307,13 @@
             "bijtende soda voor natriumhydroxide",
             "gebluste kalk voor calciumhydroxide",
             "waterstofsulfaat voor H₂SO₄",
-            "calciumoxide voor CaO"
+            "calciumoxide voor CaO",
+            "ongebluste kalk voor calciumoxide"
           ],
           "antwoord": [
             0,
-            1
+            1,
+            4
           ],
           "uitleg": "Bijtende soda en gebluste kalk zijn gebruiksnamen. De twee andere zijn systematische namen, die de formule juist wel verraden."
         },
@@ -368,11 +376,13 @@
             "Fe",
             "Cu",
             "Si",
-            "Ar"
+            "Ar",
+            "Zn"
           ],
           "antwoord": [
             0,
-            1
+            1,
+            4
           ],
           "uitleg": "IJzer en koper zijn overgangsmetalen. Silicium staat in het p-blok en argon is een edelgas."
         },
@@ -468,11 +478,13 @@
             "de aldehyden",
             "de ketonen",
             "de ethers",
-            "de alkenen"
+            "de alkenen",
+            "de carbonzuren"
           ],
           "antwoord": [
             0,
-            1
+            1,
+            4
           ],
           "uitleg": "Bij een aldehyde staat die groep aan het uiteinde, bij een keton ertussen. Een ether heeft enkel een zuurstofbrug, zonder dubbele binding."
         },
@@ -511,11 +523,13 @@
             "ethylethanoaat",
             "methylpropanoaat",
             "ethaanzuur",
-            "ethaandiol"
+            "ethaandiol",
+            "methylmethanoaat"
           ],
           "antwoord": [
             0,
-            1
+            1,
+            4
           ],
           "uitleg": "De naam van een ester bestaat uit twee delen: de alcoholkant vooraan en de zuurkant met de uitgang -oaat."
         },
@@ -590,11 +604,13 @@
             "chloormethaan",
             "broomethaan",
             "methanol",
-            "ethaanamine"
+            "ethaanamine",
+            "joodmethaan"
           ],
           "antwoord": [
             0,
-            1
+            1,
+            4
           ],
           "uitleg": "Bij een halogeenalkaan is minstens één waterstofatoom vervangen door F, Cl, Br of I."
         },
@@ -690,13 +706,15 @@
             "vertakt",
             "verzadigd",
             "cyclisch",
-            "aromatisch"
+            "aromatisch",
+            "het is een alkaan"
           ],
           "antwoord": [
             0,
-            1
+            1,
+            4
           ],
-          "uitleg": "De methylgroep aan het tweede koolstofatoom maakt de keten vertakt, en er zit geen dubbele binding in, dus is ze ook verzadigd."
+          "uitleg": "De methylgroep aan het tweede koolstofatoom maakt de keten vertakt, en er zit geen dubbele binding in, dus is ze ook verzadigd. Een verzadigde keten zonder ring is een alkaan."
         },
         {
           "type": "invultekst",
@@ -790,13 +808,15 @@
             "glycerol",
             "glycol",
             "aceton",
-            "formol"
+            "formol",
+            "spiritus"
           ],
           "antwoord": [
             0,
-            1
+            1,
+            4
           ],
-          "uitleg": "Glycerol is propaantriol en glycol is ethaandiol, dus allebei alcoholen. Aceton is een keton en formol een oplossing van methanal."
+          "uitleg": "Glycerol is propaantriol, glycol is ethaandiol en spiritus is ethanol met een bijvoegsel, dus alle drie alcoholen. Aceton is een keton en formol een oplossing van methanal."
         },
         {
           "type": "waarofniet",
@@ -823,11 +843,13 @@
             "de ring heeft zes koolstofatomen",
             "de elektronen zijn over de hele ring verdeeld",
             "de ring heeft vijf koolstofatomen",
-            "elk koolstofatoom draagt er twee waterstofatomen"
+            "elk koolstofatoom draagt er twee waterstofatomen",
+            "de ring is vlak"
           ],
           "antwoord": [
             0,
-            1
+            1,
+            4
           ],
           "uitleg": "Benzeen is C₆H₆: zes koolstofatomen in een vlakke ring, elk met één waterstofatoom, en de elektronen van de dubbele bindingen liggen over de hele ring verspreid."
         },
@@ -976,11 +998,13 @@
             "butaan en \\(2\\)-methylpropaan",
             "propaan-\\(1\\)-ol en propaan-\\(2\\)-ol",
             "ethaangas en propaangas",
-            "methanol en ethaanzuur"
+            "methanol en ethaanzuur",
+            "ethaanzuur en methylmethanoaat"
           ],
           "antwoord": [
             0,
-            1
+            1,
+            4
           ],
           "uitleg": "Isomeren moeten dezelfde brutoformule hebben. Ethaan en propaan verschillen in het aantal koolstofatomen, dus zijn ze geen isomeren."
         },
@@ -1031,11 +1055,13 @@
             "ze zijn functie-isomeren van elkaar",
             "ze hebben dezelfde brutoformule",
             "ze hebben dezelfde functionele groep",
-            "ze reageren op dezelfde manier met een base"
+            "ze reageren op dezelfde manier met een base",
+            "ze hebben een verschillende functionele groep"
           ],
           "antwoord": [
             0,
-            1
+            1,
+            4
           ],
           "uitleg": "Ethaanzuur en methylmethanoaat zijn beide C₂H₄O₂, maar het zuur staat een H⁺ af en de ester niet."
         },
@@ -1185,11 +1211,13 @@
             "het smeltpunt",
             "de molaire massa",
             "de draaiingszin van gepolariseerd licht",
-            "de werking in het lichaam"
+            "de werking in het lichaam",
+            "het kookpunt"
           ],
           "antwoord": [
             0,
-            1
+            1,
+            4
           ],
           "uitleg": "In een gewone omgeving gedragen ze zich hetzelfde. In het lichaam niet, want enzymen zijn zelf chiraal en passen maar op één van de twee."
         },
@@ -1252,11 +1280,13 @@
             "de atomen zitten in dezelfde volgorde aan elkaar",
             "het verschil zit in de ruimtelijke plaatsing",
             "de brutoformule van de twee isomeren verschilt",
-            "de stofklasse van de twee isomeren verschilt"
+            "de stofklasse van de twee isomeren verschilt",
+            "de brutoformule van de twee isomeren is dezelfde"
           ],
           "antwoord": [
             0,
-            1
+            1,
+            4
           ],
           "uitleg": "Bij structuurisomerie verandert de volgorde van de atomen, bij stereo-isomerie alleen hun plaats in de ruimte."
         },
@@ -1468,11 +1498,13 @@
             "het heeft tien elektronen",
             "het heeft de configuratie van neon",
             "het heeft elf elektronen",
-            "het is groter dan het natriumatoom"
+            "het is groter dan het natriumatoom",
+            "het is kleiner dan het natriumatoom"
           ],
           "antwoord": [
             0,
-            1
+            1,
+            4
           ],
           "uitleg": "Natrium staat één elektron af. Wat overblijft is 1s² 2s² 2p⁶, en dat is de configuratie van het edelgas neon."
         },
@@ -1505,11 +1537,13 @@
             "het model van Bohr-Sommerfeld, met subniveaus",
             "het model van Schrödinger, met orbitalen",
             "het model van Bohr, met enkel schillen",
-            "het model van Rutherford, met enkel een kern"
+            "het model van Rutherford, met enkel een kern",
+            "het model met magnetische subniveaus"
           ],
           "antwoord": [
             0,
-            1
+            1,
+            4
           ],
           "uitleg": "Bohr had enkel schillen, Bohr-Sommerfeld voegde subniveaus en magnetische subniveaus toe, en Schrödinger kwam met de golfmechanica en de orbitalen."
         },
@@ -1624,11 +1658,13 @@
             "het is kleiner dan het atoom waaruit het ontstond",
             "het heeft minder elektronen dan protonen",
             "het is groter dan het atoom waaruit het ontstond",
-            "het heeft meer elektronen dan protonen in de kern"
+            "het heeft meer elektronen dan protonen in de kern",
+            "de overblijvende elektronen worden sterker aangetrokken"
           ],
           "antwoord": [
             0,
-            1
+            1,
+            4
           ],
           "uitleg": "Bij het afstaan van een elektron verdwijnt vaak een heel hoofdniveau, en de overblijvende elektronen worden sterker aangetrokken."
         },
@@ -1690,11 +1726,13 @@
             "een periode is een rij in het systeem",
             "het nummer geeft het hoogste hoofdniveau",
             "een periode is een kolom in het systeem",
-            "het nummer geeft het aantal valentie-elektronen"
+            "het nummer geeft het aantal valentie-elektronen",
+            "er zijn zeven periodes in het systeem"
           ],
           "antwoord": [
             0,
-            1
+            1,
+            4
           ],
           "uitleg": "Een groep is de kolom, en die geeft het aantal valentie-elektronen. Een periode is de rij, en die geeft het hoofdniveau."
         },
@@ -1745,11 +1783,13 @@
             "een volledige rij heeft tien elementen",
             "het bevat de overgangselementen",
             "een volledige rij heeft veertien elementen",
-            "het bevat de zeldzame aarden"
+            "het bevat de zeldzame aarden",
+            "een d-subniveau heeft vijf orbitalen"
           ],
           "antwoord": [
             0,
-            1
+            1,
+            4
           ],
           "uitleg": "Een d-subniveau heeft vijf orbitalen en dus tien plaatsen, en die rijen bevatten de nevengroepelementen. De zeldzame aarden staan in het f-blok, dat er veertien heeft."
         },
@@ -1847,11 +1887,13 @@
             "de dubbele binding is reactiever dan een enkelvoudige",
             "de twee koolstofatomen kunnen niet vrij draaien",
             "de dubbele binding is langer dan een enkelvoudige",
-            "de dubbele binding bestaat uit twee sigma-bindingen"
+            "de dubbele binding bestaat uit twee sigma-bindingen",
+            "de dubbele binding bestaat uit een sigma- en een pi-binding"
           ],
           "antwoord": [
             0,
-            1
+            1,
+            4
           ],
           "uitleg": "De elektronen van de pi-binding liggen bloot boven en onder het vlak. Daardoor is ze reactief, en daardoor zit de molecule ook vast in haar vorm."
         },
@@ -1926,11 +1968,13 @@
             "ze verhindert het draaien rond de binding",
             "ze is reactiever dan een sigma-binding",
             "ze ligt recht op de as tussen de kernen",
-            "ze is sterker dan een sigma-binding"
+            "ze is sterker dan een sigma-binding",
+            "ze ligt boven en onder het vlak van de kernen"
           ],
           "antwoord": [
             0,
-            1
+            1,
+            4
           ],
           "uitleg": "De pi-binding ligt juist niet op de as, maar erboven en eronder. Dat maakt haar zwakker en reactiever."
         },
@@ -2068,11 +2112,13 @@
             "er worden elektronen volledig overgedragen",
             "de deeltjes trekken elkaar aan door hun lading",
             "de elektronen worden gelijk gedeeld tussen de atomen",
-            "de binding komt alleen voor tussen twee niet-metalen"
+            "de binding komt alleen voor tussen twee niet-metalen",
+            "ze komt voor tussen een metaal en een niet-metaal"
           ],
           "antwoord": [
             0,
-            1
+            1,
+            4
           ],
           "uitleg": "Natrium geeft zijn elektron aan chloor. De coulombkracht tussen Na⁺ en Cl⁻ houdt het rooster daarna samen."
         },
@@ -2135,11 +2181,13 @@
             "het heeft vier bindende elektronenparen",
             "het stikstofatoom heeft formele lading +\\(1\\)",
             "het heeft nog één vrij elektronenpaar over",
-            "het stikstofatoom heeft formele lading \\(-1\\)"
+            "het stikstofatoom heeft formele lading \\(-1\\)",
+            "het ion is tetraëdrisch van vorm"
           ],
           "antwoord": [
             0,
-            1
+            1,
+            4
           ],
           "uitleg": "Het vrije paar van de stikstof is in de vierde binding gaan zitten. Daardoor blijft er geen vrij paar meer over."
         },
@@ -2300,11 +2348,13 @@
             "het sterisch getal van koolstof is twee",
             "de molecule is lineair",
             "de molecule is geknikt",
-            "het koolstofatoom heeft een vrij elektronenpaar"
+            "het koolstofatoom heeft een vrij elektronenpaar",
+            "het koolstofatoom is sp-gehybridiseerd"
           ],
           "antwoord": [
             0,
-            1
+            1,
+            4
           ],
           "uitleg": "Twee dubbele bindingen tellen als twee partners, en er zijn geen vrije paren op koolstof. Dus \\(180^{\\circ}\\) en sp-hybridisatie."
         },
@@ -2367,11 +2417,13 @@
             "ze is kleiner dan de theoretische als er vrije paren zijn",
             "ze is gelijk aan de theoretische zonder vrije paren",
             "ze is altijd groter dan de theoretische hoek",
-            "ze hangt niet af van de vrije elektronenparen"
+            "ze hangt niet af van de vrije elektronenparen",
+            "elk vrij elektronenpaar duwt de hoek een stukje kleiner"
           ],
           "antwoord": [
             0,
-            1
+            1,
+            4
           ],
           "uitleg": "Methaan haalt netjes \\(109{,}5^{\\circ}\\), ammoniak \\(107^{\\circ}\\) en water \\(104{,}5^{\\circ}\\): elk vrij paar duwt de hoek een stukje kleiner."
         },
@@ -2529,11 +2581,13 @@
             "olie",
             "vet",
             "keukenzout",
-            "suiker"
+            "suiker",
+            "paraffine"
           ],
           "antwoord": [
             0,
-            1
+            1,
+            4
           ],
           "uitleg": "Gelijk lost op in gelijk: apolaire stoffen in een apolair oplosmiddel. Zout en suiker zijn polair en blijven liggen."
         },
@@ -2574,11 +2628,13 @@
             "het geleidt stroom als het gesmolten is",
             "het is hard maar breekbaar",
             "het geleidt stroom in vaste toestand",
-            "het is zacht en gemakkelijk vervormbaar"
+            "het is zacht en gemakkelijk vervormbaar",
+            "het geleidt stroom als het opgelost is"
           ],
           "antwoord": [
             0,
-            1
+            1,
+            4
           ],
           "uitleg": "In het vaste rooster zitten de ionen vast en bewegen ze niet. Smelt of los je het zout op, dan kunnen ze wel bewegen en geleidt het."
         },
@@ -2743,11 +2799,13 @@
             "het bevat \\(6{,}022 \\cdot 10^{23}\\) atomen",
             "het weegt \\(56\\) gram als de molaire massa \\(56\\) g/mol is",
             "het bevat \\(56\\) atomen ijzer",
-            "het weegt altijd evenveel als één mol koper"
+            "het weegt altijd evenveel als één mol koper",
+            "het aantal deeltjes staat vast, de massa niet"
           ],
           "antwoord": [
             0,
-            1
+            1,
+            4
           ],
           "uitleg": "Het aantal deeltjes in een mol staat vast, de massa niet: die hangt af van de molaire massa van het element."
         },
@@ -2810,13 +2868,15 @@
             "haar symbool is n",
             "haar eenheid is de mol",
             "haar eenheid is het gram",
-            "haar symbool is M"
+            "haar symbool is M",
+            "je berekent ze als de massa gedeeld door de molaire massa"
           ],
           "antwoord": [
             0,
-            1
+            1,
+            4
           ],
-          "uitleg": "M is de molaire massa, met gram per mol als eenheid. De stofhoeveelheid n wordt in mol uitgedrukt."
+          "uitleg": "M is de molaire massa, met gram per mol als eenheid. De stofhoeveelheid n wordt in mol uitgedrukt en volgt uit de massa gedeeld door die molaire massa."
         },
         {
           "type": "invultekst",
@@ -2967,11 +3027,13 @@
             "de massaconcentratie",
             "het massaprocent",
             "de molaire concentratie",
-            "het volumeprocent"
+            "het volumeprocent",
+            "ppm, in milligram per liter"
           ],
           "antwoord": [
             0,
-            1
+            1,
+            4
           ],
           "uitleg": "De molaire concentratie rekent in mol per liter, het volumeprocent in milliliter per \\(100\\) milliliter."
         },
@@ -3034,11 +3096,13 @@
             "het staat voor één deel op een miljard",
             "het wordt gebruikt voor heel kleine hoeveelheden",
             "het staat voor één deel op een miljoen",
-            "het wordt gebruikt voor concentraties boven één procent"
+            "het wordt gebruikt voor concentraties boven één procent",
+            "het is duizend keer kleiner dan ppm"
           ],
           "antwoord": [
             0,
-            1
+            1,
+            4
           ],
           "uitleg": "Ppb gebruikt men bijvoorbeeld voor een spoor van een zwaar metaal in drinkwater. Daar zou procent een veel te grove eenheid zijn."
         },
@@ -3186,11 +3250,13 @@
             "per \\(2\\) mol magnesium is er \\(1\\) mol zuurstofgas nodig",
             "er ontstaat evenveel mol magnesiumoxide als er magnesium reageert",
             "per mol magnesium is er een mol zuurstofgas nodig",
-            "er ontstaat dubbel zoveel magnesiumoxide als er magnesium reageert"
+            "er ontstaat dubbel zoveel magnesiumoxide als er magnesium reageert",
+            "de verhouding in de vergelijking is twee op één op twee"
           ],
           "antwoord": [
             0,
-            1
+            1,
+            4
           ],
           "uitleg": "De verhouding is \\(2\\) op \\(1\\) op \\(2\\). Magnesium en magnesiumoxide staan dus in verhouding één op één."
         },
@@ -3253,11 +3319,13 @@
             "eerst omrekenen van gram naar mol",
             "daarna de verhouding uit de vergelijking gebruiken",
             "eerst de massa's links en rechts gelijkstellen",
-            "daarna de coëfficiënten bij de massa's optellen"
+            "daarna de coëfficiënten bij de massa's optellen",
+            "op het einde omrekenen van mol naar gram"
           ],
           "antwoord": [
             0,
-            1
+            1,
+            4
           ],
           "uitleg": "Gram, mol, verhouding, mol, gram: dat is de hele weg. De verhouding geldt nooit rechtstreeks tussen massa's."
         },
@@ -3406,11 +3474,13 @@
             "de temperatuur is \\(0^{\\circ}\\text{C}\\) of \\(273\\) K",
             "één mol gas neemt er \\(22{,}4\\) liter in",
             "de temperatuur is \\(25^{\\circ}\\text{C}\\) of \\(298\\) K",
-            "één mol gas neemt er \\(24{,}0\\) liter in"
+            "één mol gas neemt er \\(24{,}0\\) liter in",
+            "de druk is één atmosfeer"
           ],
           "antwoord": [
             0,
-            1
+            1,
+            4
           ],
           "uitleg": "Bij \\(25^{\\circ}\\text{C}\\) hoort een molair volume van ongeveer \\(24{,}5\\) liter. Spreek dus altijd af welke omstandigheden je bedoelt."
         },
@@ -3461,11 +3531,13 @@
             "van de stof in overmaat blijft er na de reactie over",
             "de stof in overmaat bepaalt niet hoeveel product er ontstaat",
             "de stof in overmaat is als eerste opgebruikt",
-            "de stof in overmaat bepaalt de hoeveelheid product"
+            "de stof in overmaat bepaalt de hoeveelheid product",
+            "het beperkend reagens bepaalt de opbrengst"
           ],
           "antwoord": [
             0,
-            1
+            1,
+            4
           ],
           "uitleg": "Het beperkend reagens bepaalt de opbrengst. Daarom werkt men soms met een overmaat, om zeker te zijn dat de andere stof volledig reageert."
         },
@@ -3585,11 +3657,13 @@
             "de tijd op de horizontale as",
             "de concentratie op de verticale as",
             "de snelheid op de verticale as",
-            "de temperatuur op de horizontale as"
+            "de temperatuur op de horizontale as",
+            "de steilheid van de kromme is de snelheid"
           ],
           "antwoord": [
             0,
-            1
+            1,
+            4
           ],
           "uitleg": "Op de horizontale as komt wat je niet zelf verandert maar laat lopen: de tijd. De steilheid van de kromme is dan de snelheid."
         },
@@ -3618,11 +3692,13 @@
             "ze toont hoe de energie over de deeltjes verdeeld is",
             "bij een hogere temperatuur schuift ze naar rechts",
             "ze toont de energie van het geactiveerd complex",
-            "ze geldt enkel voor deeltjes in een vaste stof"
+            "ze geldt enkel voor deeltjes in een vaste stof",
+            "bij een hogere temperatuur komen meer deeltjes boven de activeringsenergie"
           ],
           "antwoord": [
             0,
-            1
+            1,
+            4
           ],
           "uitleg": "Niet alle deeltjes hebben dezelfde energie. Bij een hogere temperatuur komen er meer deeltjes boven de activeringsenergie uit."
         },
@@ -3655,11 +3731,13 @@
             "een hogere concentratie van de reagentia",
             "een fijnere verdeling van een vaste stof",
             "een lagere temperatuur van het mengsel",
-            "een grotere hoeveelheid oplosmiddel erbij"
+            "een grotere hoeveelheid oplosmiddel erbij",
+            "een katalysator toevoegen"
           ],
           "antwoord": [
             0,
-            1
+            1,
+            4
           ],
           "uitleg": "Meer deeltjes per volume of meer contactoppervlak betekent meer botsingen. Verdunnen of afkoelen doet het omgekeerde."
         },
@@ -3700,11 +3778,13 @@
             "hij wordt tijdens de reactie niet verbruikt",
             "hij verlaagt de activeringsenergie",
             "hij verandert de reactie-energie",
-            "hij komt in de reactievergelijking als reagens"
+            "hij komt in de reactievergelijking als reagens",
+            "hij staat boven de pijl van de reactievergelijking"
           ],
           "antwoord": [
             0,
-            1
+            1,
+            4
           ],
           "uitleg": "Hij doet mee en komt er weer uit. Daarom schrijft men hem boven de pijl en niet links in de vergelijking."
         },
@@ -3830,11 +3910,13 @@
             "de producten liggen hoger in energie dan de reagentia",
             "de omgeving koelt tijdens de reactie af",
             "de producten liggen lager in energie dan de reagentia",
-            "de omgeving warmt tijdens de reactie op"
+            "de omgeving warmt tijdens de reactie op",
+            "ze neemt energie op uit de omgeving"
           ],
           "antwoord": [
             0,
-            1
+            1,
+            4
           ],
           "uitleg": "Zo'n reactie haalt haar energie uit de omgeving. Een koudepakje in de sportzaal werkt op dat principe."
         },
@@ -3857,13 +3939,15 @@
             "de top van de berg komt lager te liggen",
             "het begin- en eindpunt blijven op dezelfde hoogte",
             "het eindpunt komt lager te liggen",
-            "de reactie-energie wordt kleiner"
+            "de reactie-energie wordt kleiner",
+            "de terugreactie wordt ook sneller"
           ],
           "antwoord": [
             0,
-            1
+            1,
+            4
           ],
-          "uitleg": "Een katalysator verandert de weg, niet de bestemming. Daarom blijft de reactie-energie precies gelijk."
+          "uitleg": "Een katalysator verandert de weg, niet de bestemming. Daarom blijft de reactie-energie precies gelijk, en wordt ook de terugreactie sneller, want die moet over dezelfde top."
         },
         {
           "type": "invultekst",
@@ -3951,11 +4035,13 @@
             "ze wordt groter bij een hogere temperatuur",
             "haar eenheid hangt af van de orde van de reactie",
             "ze wordt groter bij een hogere concentratie",
-            "haar eenheid is altijd mol per liter per seconde"
+            "haar eenheid is altijd mol per liter per seconde",
+            "ze hangt af van de katalysator"
           ],
           "antwoord": [
             0,
-            1
+            1,
+            4
           ],
           "uitleg": "De concentraties staan al apart in de vergelijking. k zelf hangt af van de temperatuur, de katalysator en de reactie zelf."
         },
@@ -4013,13 +4099,15 @@
             "de concentraties blijven constant",
             "er zijn nog van alle stoffen aanwezig",
             "de reagentia zijn volledig opgebruikt",
-            "de snelheid van beide reacties is nul"
+            "de snelheid van beide reacties is nul",
+            "de heen- en de terugreactie gaan nog door"
           ],
           "antwoord": [
             0,
-            1
+            1,
+            4
           ],
-          "uitleg": "Bij een aflopende reactie is minstens één beginstof op. Bij een evenwicht blijft er van alles iets over."
+          "uitleg": "Bij een aflopende reactie is minstens één beginstof op. Bij een evenwicht blijft er van alles iets over, en lopen de twee reacties ondertussen gewoon door."
         },
         {
           "type": "invultekst",
@@ -4080,11 +4168,13 @@
             "ze verandert enkel met de temperatuur",
             "ze heeft de producten in de teller",
             "ze verandert als je een reagens toevoegt",
-            "ze wordt groter als je een katalysator gebruikt"
+            "ze wordt groter als je een katalysator gebruikt",
+            "ze heeft de reagentia in de noemer"
           ],
           "antwoord": [
             0,
-            1
+            1,
+            4
           ],
           "uitleg": "Voeg je stof toe, dan verschuift het evenwicht tot K weer uitkomt. De waarde zelf blijft dus gelijk."
         },
@@ -4147,13 +4237,15 @@
             "de snelheid van de heenreactie is gelijk aan die van de terugreactie",
             "de concentraties veranderen vanaf dan niet meer",
             "de snelheid van beide reacties is vanaf dan nul",
-            "alle reagentia zijn vanaf dan opgebruikt"
+            "alle reagentia zijn vanaf dan opgebruikt",
+            "beide reacties blijven vanaf dan doorgaan"
           ],
           "antwoord": [
             0,
-            1
+            1,
+            4
           ],
-          "uitleg": "In het begin is de heenreactie het snelst. Terwijl er product bijkomt, wordt de terugreactie sneller, tot de twee gelijk zijn."
+          "uitleg": "In het begin is de heenreactie het snelst. Terwijl er product bijkomt, wordt de terugreactie sneller, tot de twee gelijk zijn en even snel blijven doorgaan."
         },
         {
           "type": "invultekst",
@@ -4277,11 +4369,13 @@
             "het volume van het vat verkleinen",
             "de temperatuur verhogen",
             "een katalysator toevoegen",
-            "het vat van vorm veranderen bij gelijk volume"
+            "het vat van vorm veranderen bij gelijk volume",
+            "een van de gassen uit het vat wegnemen"
           ],
           "antwoord": [
             0,
-            1
+            1,
+            4
           ],
           "uitleg": "Alleen iets dat de concentraties of de constante verandert, verschuift het evenwicht. Een katalysator doet dat niet."
         },
@@ -4304,13 +4398,15 @@
             "de evenwichtsconstante krijgt een andere waarde",
             "het evenwicht verschuift naar één kant",
             "de evenwichtsconstante blijft dezelfde",
-            "enkel de snelheid verandert, niet de ligging"
+            "enkel de snelheid verandert, niet de ligging",
+            "de snelheid van beide reacties verandert mee"
           ],
           "antwoord": [
             0,
-            1
+            1,
+            4
           ],
-          "uitleg": "De temperatuur is de enige verstoring die K zelf verandert. Daarom krijg je bij elke temperatuur een andere verhouding."
+          "uitleg": "De temperatuur is de enige verstoring die K zelf verandert. Daarom krijg je bij elke temperatuur een andere verhouding, en lopen beide reacties daarbij ook sneller of trager."
         },
         {
           "type": "invultekst",
@@ -4371,11 +4467,13 @@
             "de snelheden van heen- en terugreactie zijn even tijdelijk verschillend",
             "na een tijd zijn de twee snelheden weer gelijk",
             "de evenwichtsconstante verandert bij elke verstoring",
-            "het evenwicht komt nooit meer terug na een verstoring"
+            "het evenwicht komt nooit meer terug na een verstoring",
+            "de concentraties liggen daarna anders dan ervoor"
           ],
           "antwoord": [
             0,
-            1
+            1,
+            4
           ],
           "uitleg": "Dat is net wat verschuiven betekent: de ene reactie loopt even voor, tot de concentraties weer bij K uitkomen."
         },
@@ -4513,13 +4611,15 @@
             "water",
             "het waterstofcarbonaation",
             "het chloride-ion",
-            "het ammoniumion"
+            "het ammoniumion",
+            "het diwaterstoffosfaation"
           ],
           "antwoord": [
             0,
-            1
+            1,
+            4
           ],
-          "uitleg": "Een amfolyt kan een proton afstaan én opnemen. HCO₃⁻ kan naar CO₃²⁻ of naar H₂CO₃."
+          "uitleg": "Een amfolyt kan een proton afstaan én opnemen. HCO₃⁻ kan naar CO₃²⁻ of naar H₂CO₃, en H₂PO₄⁻ kan ook beide kanten op."
         },
         {
           "type": "invultekst",
@@ -4568,11 +4668,13 @@
             "H₂CO₃ en HCO₃⁻",
             "NH₄⁺ en NH₃",
             "HCl en HClO",
-            "H₂O en H₃O⁺"
+            "H₂O en H₃O⁺",
+            "HCO₃⁻ en CO₃²⁻"
           ],
           "antwoord": [
             0,
-            1
+            1,
+            4
           ],
           "uitleg": "Een paar verschilt precies één proton, met het zuur als het deeltje dat er één meer heeft. H₂O en H₃O⁺ is dus een paar met water als base."
         },
@@ -4604,11 +4706,13 @@
             "het neemt een proton op en wordt water",
             "het is de geconjugeerde base van water",
             "het staat een proton af en wordt zuurstof",
-            "het is het geconjugeerde zuur van water"
+            "het is het geconjugeerde zuur van water",
+            "het ontstaat als water een proton afstaat"
           ],
           "antwoord": [
             0,
-            1
+            1,
+            4
           ],
           "uitleg": "Water kan een proton afstaan en wordt dan OH⁻. Omgekeerd neemt OH⁻ een proton op en wordt het weer water."
         },
@@ -4736,13 +4840,15 @@
             "zoutzuur",
             "salpeterzuur",
             "azijnzuur",
-            "koolzuur"
+            "koolzuur",
+            "zwavelzuur"
           ],
           "antwoord": [
             0,
-            1
+            1,
+            4
           ],
-          "uitleg": "HCl en HNO₃ ioniseren zo goed als volledig. Azijnzuur en koolzuur zijn zwakke zuren en blijven grotendeels als molecule in de oplossing."
+          "uitleg": "HCl, HNO₃ en H₂SO₄ ioniseren zo goed als volledig. Azijnzuur en koolzuur zijn zwakke zuren en blijven grotendeels als molecule in de oplossing."
         },
         {
           "type": "invultekst",
@@ -4773,11 +4879,13 @@
             "het ligt rond de pKz van de indicator",
             "het beslaat ongeveer twee pH-eenheden",
             "het ligt altijd precies bij pH \\(7\\)",
-            "het is voor elke indicator hetzelfde"
+            "het is voor elke indicator hetzelfde",
+            "je kiest hem passend bij het equivalentiepunt van je titratie"
           ],
           "antwoord": [
             0,
-            1
+            1,
+            4
           ],
           "uitleg": "Fenolftaleïen slaat om rond pH \\(9\\), methyloranje rond pH \\(4\\). Daarom kies je je indicator bij de titratie die je doet."
         },
@@ -4818,11 +4926,13 @@
             "natriumchloride in water",
             "kaliumnitraat in water",
             "natriumcarbonaat in water",
-            "ammoniumchloride in water"
+            "ammoniumchloride in water",
+            "kaliumchloride in water"
           ],
           "antwoord": [
             0,
-            1
+            1,
+            4
           ],
           "uitleg": "Beide ionen komen van een sterk zuur en een sterke base. Soda is basisch en ammoniumchloride zuur."
         },
@@ -4948,11 +5058,13 @@
             "haar pH is groter dan \\(7\\)",
             "haar pOH is kleiner dan \\(7\\)",
             "haar pH is kleiner dan \\(7\\)",
-            "ze bevat geen hydroxoniumionen meer"
+            "ze bevat geen hydroxoniumionen meer",
+            "ze bevat meer hydroxide-ionen dan hydroxoniumionen"
           ],
           "antwoord": [
             0,
-            1
+            1,
+            4
           ],
           "uitleg": "Er blijven altijd hydroxoniumionen in, want het evenwicht van water staat nooit helemaal stil. Ze zijn alleen in de minderheid."
         },
@@ -4997,11 +5109,13 @@
             "ze is logaritmisch opgebouwd",
             "één eenheid verschil is een factor tien",
             "ze loopt altijd van \\(0\\) tot \\(14\\) en nooit erbuiten",
-            "één eenheid verschil is een factor twee"
+            "één eenheid verschil is een factor twee",
+            "twee eenheden verschil is een factor honderd"
           ],
           "antwoord": [
             0,
-            1
+            1,
+            4
           ],
           "uitleg": "Bij heel geconcentreerde oplossingen kan de pH zelfs onder nul of boven veertien liggen. De schaal is dus geen grens, maar een rekenwijze."
         },
@@ -5052,13 +5166,15 @@
             "een oplossing met pH \\(2\\)",
             "een oplossing met pOH \\(12\\)",
             "een oplossing met pH \\(9\\)",
-            "een oplossing met pOH \\(3\\)"
+            "een oplossing met pOH \\(3\\)",
+            "een oplossing met pOH \\(13\\)"
           ],
           "antwoord": [
             0,
-            1
+            1,
+            4
           ],
-          "uitleg": "pOH \\(12\\) hoort bij pH \\(2\\), dus zuur. pOH \\(3\\) hoort bij pH \\(11\\), en dat is basisch."
+          "uitleg": "pOH \\(12\\) hoort bij pH \\(2\\) en pOH \\(13\\) bij pH \\(1\\), dus allebei zuur. pOH \\(3\\) hoort bij pH \\(11\\), en dat is basisch."
         },
         {
           "type": "meerkeuze",
@@ -5251,11 +5367,13 @@
             "de ionisatiegraad wordt groter",
             "de pH wordt hoger",
             "de ionisatiegraad wordt kleiner",
-            "de zuurconstante wordt kleiner"
+            "de zuurconstante wordt kleiner",
+            "er zijn in totaal minder ionen per liter"
           ],
           "antwoord": [
             0,
-            1
+            1,
+            4
           ],
           "uitleg": "Het evenwicht schuift bij verdunnen naar de kant van de ionen, dus ioniseert een groter deel. Toch zijn er in totaal minder ionen per liter."
         },

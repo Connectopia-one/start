@@ -87,10 +87,10 @@ DEEL1 = [
             "het waterstofcarbonaation",
             "het chloride-ion",
             "het ammoniumion",
+            "het diwaterstoffosfaation",
         ],
-        antwoord=[0, 1],
-        uitleg="Een amfolyt kan een proton afstaan én opnemen. HCO₃⁻ kan naar CO₃²⁻ of "
-        "naar H₂CO₃.",
+        antwoord=[0, 1, 4],
+        uitleg="Een amfolyt kan een proton afstaan én opnemen. HCO₃⁻ kan naar CO₃²⁻ of naar H₂CO₃, en H₂PO₄⁻ kan ook beide kanten op.",
     ),
     dict(
         type="invultekst",
@@ -140,8 +140,9 @@ DEEL1 = [
             "NH₄⁺ en NH₃",
             "HCl en HClO",
             "H₂O en H₃O⁺",
+            "HCO₃⁻ en CO₃²⁻",
         ],
-        antwoord=[0, 1],
+        antwoord=[0, 1, 4],
         uitleg="Een paar verschilt precies één proton, met het zuur als het deeltje dat "
         "er één meer heeft. H₂O en H₃O⁺ is dus een paar met water als base.",
     ),
@@ -173,8 +174,9 @@ DEEL1 = [
             "het is de geconjugeerde base van water",
             "het staat een proton af en wordt zuurstof",
             "het is het geconjugeerde zuur van water",
+            "het ontstaat als water een proton afstaat",
         ],
-        antwoord=[0, 1],
+        antwoord=[0, 1, 4],
         uitleg="Water kan een proton afstaan en wordt dan OH⁻. Omgekeerd neemt OH⁻ een "
         "proton op en wordt het weer water.",
     ),
@@ -302,10 +304,10 @@ DEEL2 = [
             "salpeterzuur",
             "azijnzuur",
             "koolzuur",
+            "zwavelzuur",
         ],
-        antwoord=[0, 1],
-        uitleg="HCl en HNO₃ ioniseren zo goed als volledig. Azijnzuur en koolzuur zijn "
-        "zwakke zuren en blijven grotendeels als molecule in de oplossing.",
+        antwoord=[0, 1, 4],
+        uitleg="HCl, HNO₃ en H₂SO₄ ioniseren zo goed als volledig. Azijnzuur en koolzuur zijn zwakke zuren en blijven grotendeels als molecule in de oplossing.",
     ),
     dict(
         type="invultekst",
@@ -335,8 +337,9 @@ DEEL2 = [
             "het beslaat ongeveer twee pH-eenheden",
             r"het ligt altijd precies bij pH \(7\)",
             "het is voor elke indicator hetzelfde",
+            "je kiest hem passend bij het equivalentiepunt van je titratie",
         ],
-        antwoord=[0, 1],
+        antwoord=[0, 1, 4],
         uitleg=r"Fenolftaleïen slaat om rond pH \(9\), methyloranje rond pH \(4\). Daarom kies je "
         "je indicator bij de titratie die je doet.",
     ),
@@ -381,8 +384,9 @@ DEEL2 = [
             "kaliumnitraat in water",
             "natriumcarbonaat in water",
             "ammoniumchloride in water",
+            "kaliumchloride in water",
         ],
-        antwoord=[0, 1],
+        antwoord=[0, 1, 4],
         uitleg="Beide ionen komen van een sterk zuur en een sterke base. Soda is basisch "
         "en ammoniumchloride zuur.",
     ),

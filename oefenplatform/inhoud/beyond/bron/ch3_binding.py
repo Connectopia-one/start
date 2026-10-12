@@ -89,8 +89,9 @@ DEEL1 = [
             "de twee koolstofatomen kunnen niet vrij draaien",
             "de dubbele binding is langer dan een enkelvoudige",
             "de dubbele binding bestaat uit twee sigma-bindingen",
+            "de dubbele binding bestaat uit een sigma- en een pi-binding",
         ],
-        antwoord=[0, 1],
+        antwoord=[0, 1, 4],
         uitleg="De elektronen van de pi-binding liggen bloot boven en onder het vlak. "
         "Daardoor is ze reactief, en daardoor zit de molecule ook vast in haar vorm.",
     ),
@@ -168,8 +169,9 @@ DEEL1 = [
             "ze is reactiever dan een sigma-binding",
             "ze ligt recht op de as tussen de kernen",
             "ze is sterker dan een sigma-binding",
+            "ze ligt boven en onder het vlak van de kernen",
         ],
-        antwoord=[0, 1],
+        antwoord=[0, 1, 4],
         uitleg="De pi-binding ligt juist niet op de as, maar erboven en eronder. Dat "
         "maakt haar zwakker en reactiever.",
     ),
@@ -304,8 +306,9 @@ DEEL2 = [
             "de deeltjes trekken elkaar aan door hun lading",
             "de elektronen worden gelijk gedeeld tussen de atomen",
             "de binding komt alleen voor tussen twee niet-metalen",
+            "ze komt voor tussen een metaal en een niet-metaal",
         ],
-        antwoord=[0, 1],
+        antwoord=[0, 1, 4],
         uitleg="Natrium geeft zijn elektron aan chloor. De coulombkracht tussen Na⁺ en "
         "Cl⁻ houdt het rooster daarna samen.",
     ),
@@ -367,11 +370,12 @@ DEEL2 = [
         vraag="Welke uitspraken over het ammoniumion NH₄⁺ zijn juist? Kruis alles aan wat juist is.",
         opties=[
             "het heeft vier bindende elektronenparen",
-            r"het stikstofatoom heeft formele lading +\(1\)",
+            "het stikstofatoom heeft formele lading +\(1\)",
             "het heeft nog één vrij elektronenpaar over",
-            r"het stikstofatoom heeft formele lading \(-1\)",
+            "het stikstofatoom heeft formele lading \(-1\)",
+            "het ion is tetraëdrisch van vorm",
         ],
-        antwoord=[0, 1],
+        antwoord=[0, 1, 4],
         uitleg="Het vrije paar van de stikstof is in de vierde binding gaan zitten. "
         "Daardoor blijft er geen vrij paar meer over.",
     ),

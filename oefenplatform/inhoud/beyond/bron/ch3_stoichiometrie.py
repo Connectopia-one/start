@@ -100,8 +100,9 @@ DEEL1 = [
             "er ontstaat evenveel mol magnesiumoxide als er magnesium reageert",
             "per mol magnesium is er een mol zuurstofgas nodig",
             "er ontstaat dubbel zoveel magnesiumoxide als er magnesium reageert",
+            "de verhouding in de vergelijking is twee op één op twee",
         ],
-        antwoord=[0, 1],
+        antwoord=[0, 1, 4],
         uitleg=r"De verhouding is \(2\) op \(1\) op \(2\). Magnesium en magnesiumoxide staan dus in "
         "verhouding één op één.",
     ),
@@ -166,8 +167,9 @@ DEEL1 = [
             "daarna de verhouding uit de vergelijking gebruiken",
             "eerst de massa's links en rechts gelijkstellen",
             "daarna de coëfficiënten bij de massa's optellen",
+            "op het einde omrekenen van mol naar gram",
         ],
-        antwoord=[0, 1],
+        antwoord=[0, 1, 4],
         uitleg="Gram, mol, verhouding, mol, gram: dat is de hele weg. De verhouding geldt "
         "nooit rechtstreeks tussen massa's.",
     ),
@@ -314,8 +316,9 @@ DEEL2 = [
             r"één mol gas neemt er \(22{,}4\) liter in",
             r"de temperatuur is \(25^{\circ}\text{C}\) of \(298\) K",
             r"één mol gas neemt er \(24{,}0\) liter in",
+            "de druk is één atmosfeer",
         ],
-        antwoord=[0, 1],
+        antwoord=[0, 1, 4],
         uitleg=r"Bij \(25^{\circ}\text{C}\) hoort een molair volume van ongeveer \(24{,}5\) liter. Spreek dus "
         "altijd af welke omstandigheden je bedoelt.",
     ),
@@ -367,8 +370,9 @@ DEEL2 = [
             "de stof in overmaat bepaalt niet hoeveel product er ontstaat",
             "de stof in overmaat is als eerste opgebruikt",
             "de stof in overmaat bepaalt de hoeveelheid product",
+            "het beperkend reagens bepaalt de opbrengst",
         ],
-        antwoord=[0, 1],
+        antwoord=[0, 1, 4],
         uitleg="Het beperkend reagens bepaalt de opbrengst. Daarom werkt men soms met "
         "een overmaat, om zeker te zijn dat de andere stof volledig reageert.",
     ),

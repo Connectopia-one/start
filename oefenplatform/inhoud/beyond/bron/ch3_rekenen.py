@@ -99,8 +99,9 @@ DEEL1 = [
             r"het weegt \(56\) gram als de molaire massa \(56\) g/mol is",
             r"het bevat \(56\) atomen ijzer",
             "het weegt altijd evenveel als één mol koper",
+            "het aantal deeltjes staat vast, de massa niet",
         ],
-        antwoord=[0, 1],
+        antwoord=[0, 1, 4],
         uitleg="Het aantal deeltjes in een mol staat vast, de massa niet: die hangt af "
         "van de molaire massa van het element.",
     ),
@@ -164,10 +165,10 @@ DEEL1 = [
             "haar eenheid is de mol",
             "haar eenheid is het gram",
             "haar symbool is M",
+            "je berekent ze als de massa gedeeld door de molaire massa",
         ],
-        antwoord=[0, 1],
-        uitleg="M is de molaire massa, met gram per mol als eenheid. De stofhoeveelheid n "
-        "wordt in mol uitgedrukt.",
+        antwoord=[0, 1, 4],
+        uitleg="M is de molaire massa, met gram per mol als eenheid. De stofhoeveelheid n wordt in mol uitgedrukt en volgt uit de massa gedeeld door die molaire massa.",
     ),
     dict(
         type="invultekst",
@@ -311,8 +312,9 @@ DEEL2 = [
             "het massaprocent",
             "de molaire concentratie",
             "het volumeprocent",
+            "ppm, in milligram per liter",
         ],
-        antwoord=[0, 1],
+        antwoord=[0, 1, 4],
         uitleg="De molaire concentratie rekent in mol per liter, het volumeprocent in "
         r"milliliter per \(100\) milliliter.",
     ),
@@ -376,8 +378,9 @@ DEEL2 = [
             "het wordt gebruikt voor heel kleine hoeveelheden",
             "het staat voor één deel op een miljoen",
             "het wordt gebruikt voor concentraties boven één procent",
+            "het is duizend keer kleiner dan ppm",
         ],
-        antwoord=[0, 1],
+        antwoord=[0, 1, 4],
         uitleg="Ppb gebruikt men bijvoorbeeld voor een spoor van een zwaar metaal in "
         "drinkwater. Daar zou procent een veel te grove eenheid zijn.",
     ),

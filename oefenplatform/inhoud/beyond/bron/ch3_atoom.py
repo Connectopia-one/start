@@ -155,8 +155,9 @@ DEEL1 = [
             "het heeft de configuratie van neon",
             "het heeft elf elektronen",
             "het is groter dan het natriumatoom",
+            "het is kleiner dan het natriumatoom",
         ],
-        antwoord=[0, 1],
+        antwoord=[0, 1, 4],
         uitleg="Natrium staat één elektron af. Wat overblijft is 1s² 2s² 2p⁶, en dat is "
         "de configuratie van het edelgas neon.",
     ),
@@ -188,8 +189,9 @@ DEEL1 = [
             "het model van Schrödinger, met orbitalen",
             "het model van Bohr, met enkel schillen",
             "het model van Rutherford, met enkel een kern",
+            "het model met magnetische subniveaus",
         ],
-        antwoord=[0, 1],
+        antwoord=[0, 1, 4],
         uitleg="Bohr had enkel schillen, Bohr-Sommerfeld voegde subniveaus en magnetische "
         "subniveaus toe, en Schrödinger kwam met de golfmechanica en de orbitalen.",
     ),
@@ -305,8 +307,9 @@ DEEL2 = [
             "het heeft minder elektronen dan protonen",
             "het is groter dan het atoom waaruit het ontstond",
             "het heeft meer elektronen dan protonen in de kern",
+            "de overblijvende elektronen worden sterker aangetrokken",
         ],
-        antwoord=[0, 1],
+        antwoord=[0, 1, 4],
         uitleg="Bij het afstaan van een elektron verdwijnt vaak een heel hoofdniveau, en "
         "de overblijvende elektronen worden sterker aangetrokken.",
     ),
@@ -371,8 +374,9 @@ DEEL2 = [
             "het nummer geeft het hoogste hoofdniveau",
             "een periode is een kolom in het systeem",
             "het nummer geeft het aantal valentie-elektronen",
+            "er zijn zeven periodes in het systeem",
         ],
-        antwoord=[0, 1],
+        antwoord=[0, 1, 4],
         uitleg="Een groep is de kolom, en die geeft het aantal valentie-elektronen. Een "
         "periode is de rij, en die geeft het hoofdniveau.",
     ),
@@ -424,8 +428,9 @@ DEEL2 = [
             "het bevat de overgangselementen",
             "een volledige rij heeft veertien elementen",
             "het bevat de zeldzame aarden",
+            "een d-subniveau heeft vijf orbitalen",
         ],
-        antwoord=[0, 1],
+        antwoord=[0, 1, 4],
         uitleg="Een d-subniveau heeft vijf orbitalen en dus tien plaatsen, en die rijen "
         "bevatten de nevengroepelementen. De zeldzame aarden staan in het f-blok, dat er "
         "veertien heeft.",

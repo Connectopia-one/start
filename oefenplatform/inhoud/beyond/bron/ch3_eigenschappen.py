@@ -101,8 +101,9 @@ DEEL1 = [
             "de molecule is lineair",
             "de molecule is geknikt",
             "het koolstofatoom heeft een vrij elektronenpaar",
+            "het koolstofatoom is sp-gehybridiseerd",
         ],
-        antwoord=[0, 1],
+        antwoord=[0, 1, 4],
         uitleg="Twee dubbele bindingen tellen als twee partners, en er zijn geen vrije "
         r"paren op koolstof. Dus \(180^{\circ}\) en sp-hybridisatie.",
     ),
@@ -167,8 +168,9 @@ DEEL1 = [
             "ze is gelijk aan de theoretische zonder vrije paren",
             "ze is altijd groter dan de theoretische hoek",
             "ze hangt niet af van de vrije elektronenparen",
+            "elk vrij elektronenpaar duwt de hoek een stukje kleiner",
         ],
-        antwoord=[0, 1],
+        antwoord=[0, 1, 4],
         uitleg=r"Methaan haalt netjes \(109{,}5^{\circ}\), ammoniak \(107^{\circ}\) en water \(104{,}5^{\circ}\): elk vrij paar "
         "duwt de hoek een stukje kleiner.",
     ),
@@ -323,8 +325,9 @@ DEEL2 = [
             "vet",
             "keukenzout",
             "suiker",
+            "paraffine",
         ],
-        antwoord=[0, 1],
+        antwoord=[0, 1, 4],
         uitleg="Gelijk lost op in gelijk: apolaire stoffen in een apolair oplosmiddel. "
         "Zout en suiker zijn polair en blijven liggen.",
     ),
@@ -369,8 +372,9 @@ DEEL2 = [
             "het is hard maar breekbaar",
             "het geleidt stroom in vaste toestand",
             "het is zacht en gemakkelijk vervormbaar",
+            "het geleidt stroom als het opgelost is",
         ],
-        antwoord=[0, 1],
+        antwoord=[0, 1, 4],
         uitleg="In het vaste rooster zitten de ionen vast en bewegen ze niet. Smelt of "
         "los je het zout op, dan kunnen ze wel bewegen en geleidt het.",
     ),

@@ -34,8 +34,9 @@ DEEL1 = [
             "de ketonen",
             "de ethers",
             "de alkenen",
+            "de carbonzuren",
         ],
-        antwoord=[0, 1],
+        antwoord=[0, 1, 4],
         uitleg="Bij een aldehyde staat die groep aan het uiteinde, bij een keton "
         "ertussen. Een ether heeft enkel een zuurstofbrug, zonder dubbele binding.",
     ),
@@ -74,8 +75,9 @@ DEEL1 = [
             "methylpropanoaat",
             "ethaanzuur",
             "ethaandiol",
+            "methylmethanoaat",
         ],
-        antwoord=[0, 1],
+        antwoord=[0, 1, 4],
         uitleg="De naam van een ester bestaat uit twee delen: de alcoholkant vooraan en "
         "de zuurkant met de uitgang -oaat.",
     ),
@@ -153,8 +155,9 @@ DEEL1 = [
             "broomethaan",
             "methanol",
             "ethaanamine",
+            "joodmethaan",
         ],
-        antwoord=[0, 1],
+        antwoord=[0, 1, 4],
         uitleg="Bij een halogeenalkaan is minstens één waterstofatoom vervangen door F, "
         "Cl, Br of I.",
     ),
@@ -249,10 +252,10 @@ DEEL2 = [
             "verzadigd",
             "cyclisch",
             "aromatisch",
+            "het is een alkaan",
         ],
-        antwoord=[0, 1],
-        uitleg="De methylgroep aan het tweede koolstofatoom maakt de keten vertakt, en "
-        "er zit geen dubbele binding in, dus is ze ook verzadigd.",
+        antwoord=[0, 1, 4],
+        uitleg="De methylgroep aan het tweede koolstofatoom maakt de keten vertakt, en er zit geen dubbele binding in, dus is ze ook verzadigd. Een verzadigde keten zonder ring is een alkaan.",
     ),
     dict(
         type="invultekst",
@@ -347,10 +350,10 @@ DEEL2 = [
             "glycol",
             "aceton",
             "formol",
+            "spiritus",
         ],
-        antwoord=[0, 1],
-        uitleg="Glycerol is propaantriol en glycol is ethaandiol, dus allebei alcoholen. "
-        "Aceton is een keton en formol een oplossing van methanal.",
+        antwoord=[0, 1, 4],
+        uitleg="Glycerol is propaantriol, glycol is ethaandiol en spiritus is ethanol met een bijvoegsel, dus alle drie alcoholen. Aceton is een keton en formol een oplossing van methanal.",
     ),
     dict(
         type="waarofniet",
@@ -380,8 +383,9 @@ DEEL2 = [
             "de elektronen zijn over de hele ring verdeeld",
             "de ring heeft vijf koolstofatomen",
             "elk koolstofatoom draagt er twee waterstofatomen",
+            "de ring is vlak",
         ],
-        antwoord=[0, 1],
+        antwoord=[0, 1, 4],
         uitleg="Benzeen is C₆H₆: zes koolstofatomen in een vlakke ring, elk met één "
         "waterstofatoom, en de elektronen van de dubbele bindingen liggen over de hele "
         "ring verspreid.",

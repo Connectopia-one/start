@@ -75,8 +75,9 @@ DEEL1 = [
             r"haar pOH is kleiner dan \(7\)",
             r"haar pH is kleiner dan \(7\)",
             "ze bevat geen hydroxoniumionen meer",
+            "ze bevat meer hydroxide-ionen dan hydroxoniumionen",
         ],
-        antwoord=[0, 1],
+        antwoord=[0, 1, 4],
         uitleg="Er blijven altijd hydroxoniumionen in, want het evenwicht van water staat "
         "nooit helemaal stil. Ze zijn alleen in de minderheid.",
     ),
@@ -120,8 +121,9 @@ DEEL1 = [
             "één eenheid verschil is een factor tien",
             r"ze loopt altijd van \(0\) tot \(14\) en nooit erbuiten",
             "één eenheid verschil is een factor twee",
+            "twee eenheden verschil is een factor honderd",
         ],
-        antwoord=[0, 1],
+        antwoord=[0, 1, 4],
         uitleg="Bij heel geconcentreerde oplossingen kan de pH zelfs onder nul of boven "
         "veertien liggen. De schaal is dus geen grens, maar een rekenwijze.",
     ),
@@ -172,10 +174,10 @@ DEEL1 = [
             r"een oplossing met pOH \(12\)",
             r"een oplossing met pH \(9\)",
             r"een oplossing met pOH \(3\)",
+            r"een oplossing met pOH \(13\)",
         ],
-        antwoord=[0, 1],
-        uitleg=r"pOH \(12\) hoort bij pH \(2\), dus zuur. pOH \(3\) hoort bij pH \(11\), en dat is "
-        "basisch.",
+        antwoord=[0, 1, 4],
+        uitleg=r"pOH \(12\) hoort bij pH \(2\) en pOH \(13\) bij pH \(1\), dus allebei zuur. pOH \(3\) hoort bij pH \(11\), en dat is basisch.",
     ),
     dict(
         type="meerkeuze",
@@ -363,8 +365,9 @@ DEEL2 = [
             "de pH wordt hoger",
             "de ionisatiegraad wordt kleiner",
             "de zuurconstante wordt kleiner",
+            "er zijn in totaal minder ionen per liter",
         ],
-        antwoord=[0, 1],
+        antwoord=[0, 1, 4],
         uitleg="Het evenwicht schuift bij verdunnen naar de kant van de ionen, dus "
         "ioniseert een groter deel. Toch zijn er in totaal minder ionen per liter.",
     ),
