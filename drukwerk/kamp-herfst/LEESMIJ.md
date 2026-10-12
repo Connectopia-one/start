@@ -15,7 +15,7 @@ nagelezen met een decoder, dus hij scant.
 
 ## Wat erop staat
 
-Elke dag van 9u tot 15u, 40 euro per dag, 6 tot 12 jaar. De thema's staan op de
+Elke dag van 9u tot 15u, 40 euro per dag, 6 tot 13 jaar. De thema's staan op de
 kaartjes: **Young Engineer Held** in Hasselt, **Creatieve duizendpoot, van
 techniek tot design** in Genk.
 
