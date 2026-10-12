@@ -54,9 +54,15 @@ DEEL1 = [
     dict(
         type="meerkeuze",
         vraag="Welke begrippen gebruik je om over een verhaal te praten?",
-        opties=["personages", "verhaallijn", "tijd en ruimte", "voegwoord"],
-        antwoord=[0, 1, 2],
-        uitleg="Die drie horen bij literatuur. Een voegwoord is een woordsoort en hoort bij het taalsysteem.",
+        opties=[
+            "personages",
+            "verhaallijn",
+            "tijd en ruimte",
+            "voegwoord",
+            "perspectief",
+        ],
+        antwoord=[0, 1, 2, 4],
+        uitleg="Die vier horen bij literatuur. Een voegwoord is een woordsoort en hoort bij het taalsysteem.",
     ),
     dict(
         type="invultekst",
@@ -107,11 +113,11 @@ DEEL1 = [
         opties=[
             "Ze zwom als een vis.",
             "Zijn handen waren zo koud als ijs.",
-            "Hij zong zoals een vogel in de lente.",
+            "Het was een koude dag.",
             "De zon ging onder.",
         ],
-        antwoord=[0, 1, 2],
-        uitleg="De drie juiste antwoorden gebruiken 'als' of 'zoals'. Het foute antwoord is gewoon een vaststelling.",
+        antwoord=[0, 1],
+        uitleg="'Als een vis' en 'zo koud als ijs' zetten twee dingen naast elkaar. De twee andere zinnen stellen gewoon iets vast.",
     ),
     dict(
         type="invultekst",
@@ -157,9 +163,10 @@ DEEL1 = [
             "Hoe lang de gebeurtenissen duren",
             "Of er sprongen in de tijd zijn",
             "Hoeveel personages er zijn",
+            "In welke volgorde het verteld wordt",
         ],
-        antwoord=[0, 1, 2],
-        uitleg="Tijd gaat over de periode, de duur en de volgorde. Het aantal personages hoort daar niet bij.",
+        antwoord=[0, 1, 2, 4],
+        uitleg="Tijd gaat over de periode, de duur, de sprongen en de volgorde. Het aantal personages hoort daar niet bij.",
     ),
     dict(
         type="waarofniet",
@@ -258,11 +265,11 @@ DEEL2 = [
         opties=[
             "Ze heeft een hart van goud.",
             "Hij zit in zak en as.",
-            "Dat kost een fortuin.",
+            "De zon schijnt.",
             "De kast staat in de gang.",
         ],
-        antwoord=[0, 1, 2],
-        uitleg="Uitdrukkingen zijn figuurlijk. De laatste zin bedoelt precies wat ze zegt.",
+        antwoord=[0, 1],
+        uitleg="'Een hart van goud' en 'in zak en as' bedoelen iets anders dan ze zeggen. De twee andere zinnen bedoelen precies wat er staat.",
     ),
     dict(
         type="invultekst",
@@ -352,8 +359,14 @@ DEEL2 = [
     dict(
         type="meerkeuze",
         vraag="Welke woorden beschrijven de sfeer van een tekst?",
-        opties=["spannend", "melancholisch", "grappig", "alfabetisch"],
-        antwoord=[0, 1, 2],
+        opties=[
+            "spannend",
+            "melancholisch",
+            "grappig",
+            "alfabetisch",
+            "dreigend",
+        ],
+        antwoord=[0, 1, 2, 4],
         uitleg="Sfeerwoorden zeggen hoe een tekst aanvoelt. 'Alfabetisch' gaat over volgorde, niet over gevoel.",
     ),
     dict(

@@ -73,9 +73,14 @@ DEEL1 = [
     dict(
         type="meerkeuze",
         vraag="Welke voltooide deelwoorden zijn juist?",
-        opties=["gewerkt", "geleerd", "gefietst", "gebeurdt"],
-        antwoord=[0, 1, 2],
-        uitleg="De drie juiste antwoorden volgen 't kofschip. 'Gebeurd' schrijf je met een d en nooit met dt.",
+        opties=[
+    "gewerkt",
+    "geleerd",
+    "geleefdt",
+    "gebeurdt",
+],
+        antwoord=[0, 1],
+        uitleg="Gewerkt en geleerd volgen 't kofschip. 'Gebeurdt' en 'geleefdt' bestaan niet: een voltooid deelwoord eindigt nooit op dt.",
     ),
     dict(
         type="waarofniet",
@@ -106,8 +111,14 @@ DEEL1 = [
     dict(
         type="meerkeuze",
         vraag="Welke woorden schrijf je met een hoofdletter?",
-        opties=["Nederlands", "België", "Antwerpen", "maandag"],
-        antwoord=[0, 1, 2],
+        opties=[
+    "Nederlands",
+    "België",
+    "Antwerpen",
+    "maandag",
+    "Engels",
+],
+        antwoord=[0, 1, 2, 4],
         uitleg="Talen, landen en plaatsen krijgen een hoofdletter. Dagen en maanden in het Nederlands niet.",
     ),
     dict(
@@ -257,9 +268,14 @@ DEEL2 = [
     dict(
         type="meerkeuze",
         vraag="Welke woorden hebben een veranderlijk woordbeeld?",
-        opties=["hond (honden)", "web (webben)", "huis (huizen)", "boek (boeken)"],
-        antwoord=[0, 1, 2],
-        uitleg="Bij hond hoor je een t maar schrijf je een d, bij web een p maar schrijf je een b, bij huis wordt de s een z. Bij boek verandert er niets.",
+        opties=[
+            "hond (honden)",
+            "web (webben)",
+            "raam (ramen)",
+            "boek (boeken)",
+        ],
+        antwoord=[0, 1],
+        uitleg="Bij hond hoor je een t maar schrijf je een d, bij web een p maar schrijf je een b. Bij boek en raam verandert er aan de medeklinkers niets.",
     ),
     dict(
         type="waarofniet",
@@ -341,11 +357,11 @@ DEEL2 = [
         opties=[
             "ik heb gelopen",
             "jij hebt gelopen",
-            "wij hebben gelopen",
+            "wij hadden gelopen",
             "ik had gelopen",
         ],
-        antwoord=[0, 1, 2],
-        uitleg="De vtt gebruikt de tegenwoordige tijd van hebben of zijn. Met 'had' krijg je de voltooid verleden tijd.",
+        antwoord=[0, 1],
+        uitleg="De voltooid tegenwoordige tijd gebruikt de tegenwoordige tijd van hebben of zijn. Met 'had' en 'hadden' krijg je de voltooid verleden tijd.",
     ),
     dict(
         type="meerkeuze",
@@ -536,8 +552,14 @@ VARIANTEN = {
     "Welke voltooide deelwoorden zijn juist?": [
         dict(
             vraag="Welke voltooide deelwoorden zijn juist?",
-            opties=["gestapt", "gehoord", "gelachen", "gebouwdt"],
-            antwoord=[0, 1, 2],
+            opties=[
+    "gestapt",
+    "gehoord",
+    "gelachen",
+    "gebouwdt",
+    "gepraat",
+],
+            antwoord=[0, 1, 2, 4],
             uitleg="Stap zit in 't kofschip, dus gestapt met een t. Hoor niet, dus gehoord met een d. Lachen is sterk: gelachen. Gebouwdt bestaat niet: nooit -dt achter een voltooid deelwoord.",
         ),
         dict(
@@ -548,9 +570,14 @@ VARIANTEN = {
         ),
         dict(
             vraag="Welke voltooide deelwoorden zijn juist?",
-            opties=["geblaft", "gebouwd", "gewerkt", "gehoordt"],
-            antwoord=[0, 1, 2],
-            uitleg="Blaf zit in 't kofschip, dus geblaft. Bouw niet, dus gebouwd. Werk zit er weer wel in, dus gewerkt. Gehoordt bestaat niet.",
+            opties=[
+    "geblaft",
+    "gebouwd",
+    "gespeeldt",
+    "gehoordt",
+],
+            antwoord=[0, 1],
+            uitleg="Geblaft en gebouwd zijn juist. 'Gehoordt' en 'gespeeldt' bestaan niet: een voltooid deelwoord eindigt nooit op dt.",
         ),
     ],
     "Welk woord heeft een lange klank?": [
@@ -618,8 +645,14 @@ VARIANTEN = {
     "Welke woorden schrijf je met een hoofdletter?": [
         dict(
             vraag="Welke woorden schrijf je met een hoofdletter?",
-            opties=["Frans", "Parijs", "Europa", "dinsdag"],
-            antwoord=[0, 1, 2],
+            opties=[
+    "Frans",
+    "Parijs",
+    "Europa",
+    "dinsdag",
+    "Vlaanderen",
+],
+            antwoord=[0, 1, 2, 4],
             uitleg="Talen, steden en werelddelen krijgen een hoofdletter. Dagen van de week niet, in het Nederlands.",
         ),
         dict(
@@ -630,15 +663,26 @@ VARIANTEN = {
         ),
         dict(
             vraag="Welke woorden schrijf je met een hoofdletter?",
-            opties=["Engels", "Limburg", "Azië", "januari"],
-            antwoord=[0, 1, 2],
+            opties=[
+    "Engels",
+    "Limburg",
+    "Azië",
+    "januari",
+    "Maas",
+],
+            antwoord=[0, 1, 2, 4],
             uitleg="Talen, provincies en werelddelen krijgen een hoofdletter. Maanden niet, in het Nederlands.",
         ),
         dict(
             vraag="Welke woorden schrijf je met een hoofdletter?",
-            opties=["Spaans", "Gent", "België", "woensdag"],
-            antwoord=[0, 1, 2],
-            uitleg="Talen, steden en landen krijgen een hoofdletter. Dagen van de week niet.",
+            opties=[
+    "Spaans",
+    "Gent",
+    "lente",
+    "woensdag",
+],
+            antwoord=[0, 1],
+            uitleg="Talen en plaatsen krijgen een hoofdletter. Dagen en seizoenen in het Nederlands niet.",
         ),
     ],
     "De twee puntjes op de e in 'zeeën' heten een ___.": [
@@ -654,8 +698,14 @@ VARIANTEN = {
     "Welke woorden schrijf je met een apostrof in het meervoud?": [
         dict(
             vraag="Welke woorden schrijf je met een apostrof in het meervoud?",
-            opties=["auto's", "menu's", "paraplu's", "tafels"],
-            antwoord=[0, 1, 2],
+            opties=[
+    "auto's",
+    "menu's",
+    "paraplu's",
+    "tafels",
+    "ski's",
+],
+            antwoord=[0, 1, 2, 4],
             uitleg="Eindigt een woord op een losse a, i, o, u of y, dan komt er een apostrof voor de meervouds-s, anders lees je de klank verkeerd. Tafel eindigt daar niet op.",
         ),
         dict(
@@ -666,9 +716,14 @@ VARIANTEN = {
         ),
         dict(
             vraag="Welke woorden schrijf je met een apostrof in het meervoud?",
-            opties=["baby's", "hobby's", "pony's", "stoelen"],
-            antwoord=[0, 1, 2],
-            uitleg="Eindigt een woord op een losse y, dan komt er een apostrof voor de meervouds-s. Stoel eindigt daar niet op.",
+            opties=[
+    "baby's",
+    "hobby's",
+    "ramen",
+    "stoelen",
+],
+            antwoord=[0, 1],
+            uitleg="Eindigt een woord op een losse a, i, o, u of y, dan zet je een apostrof voor de s. Bij stoelen en ramen hoeft dat niet.",
         ),
     ],
     "Waarom schrijf je 'zee-eend' met een koppelteken?": [

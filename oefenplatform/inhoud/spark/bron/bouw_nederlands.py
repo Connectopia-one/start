@@ -22,6 +22,8 @@ sys.path.insert(0, str(HIER.parents[1]))
 
 from notatie import zichtbaar  # noqa: E402  (pad moet eerst klaarstaan)
 DOEL = HIER.parent / "nederlands.json"
+APART = DOEL.parent / "nederlands-spelling-varianten.json"
+SPELLINGKOP = "Spelling, leestekens en werkwoordsvormen"
 
 # De volgorde is de volgorde in het platform. Ze volgt de vakfiche: eerst wat
 # je nodig hebt om te lezen en te luisteren (samen 60 % van het examen), dan
@@ -229,6 +231,17 @@ def main():
     import varianten_spark
 
     varianten_spark.zet_varianten(DOEL.name)
+
+    # De twee spellinghoofdstukken gaan ook apart naar buiten, zodat Kim ze los
+    # kan opladen. Vroeger stond dat bestand er met de hand naast en liep het
+    # stil achter: na een verbetering aan een uitleg klopte de kopie niet meer
+    # met het origineel. Nu wordt het hier mee geschreven.
+    heel = json.loads(DOEL.read_text(encoding="utf-8"))
+    spelling = [h for h in heel["hoofdstukken"] if h["titel"].startswith(SPELLINGKOP)]
+    APART.write_text(json.dumps({"hoofdstukken": spelling}, ensure_ascii=False, indent=2) + "\n",
+                     encoding="utf-8")
+    print(f"{len(spelling)} hoofdstukken, "
+          f"{sum(len(h['vragen']) for h in spelling)} vragen in {APART.name}")
 
 
 if __name__ == "__main__":

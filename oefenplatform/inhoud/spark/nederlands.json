@@ -47,15 +47,14 @@
           "opties": [
             "Huidverzorging bij kinderen",
             "Zwerfvuil in onze straat",
-            "Elektrische steps",
+            "Steps zijn gevaarlijk in het drukke verkeer.",
             "Kinderen smeren te veel crème, en dat is soms ongezond."
           ],
           "antwoord": [
             0,
-            1,
-            2
+            1
           ],
-          "uitleg": "De drie juiste antwoorden zijn korte onderwerpen. Het foute antwoord is een volledige zin met een boodschap erin: dat is een hoofdgedachte."
+          "uitleg": "Huidverzorging bij kinderen en zwerfvuil in onze straat zijn korte onderwerpen. De twee andere zijn volledige zinnen met een boodschap erin: dat is een hoofdgedachte."
         },
         {
           "type": "meerkeuze",
@@ -106,14 +105,16 @@
             "Afkortingen gebruiken",
             "Symbolen en pijlen gebruiken",
             "In telegramstijl schrijven",
-            "Elke zin volledig overschrijven"
+            "Elke zin volledig overschrijven",
+            "Alleen de kernwoorden opschrijven"
           ],
           "antwoord": [
             0,
             1,
-            2
+            2,
+            4
           ],
-          "uitleg": "Notities mogen kort: afkortingen, symbolen en telegramstijl. Alles volledig overschrijven lukt niet en helpt niet."
+          "uitleg": "Notities mogen kort: afkortingen, symbolen, telegramstijl en kernwoorden. Alles volledig overschrijven lukt niet en helpt niet."
         },
         {
           "type": "invultekst",
@@ -252,15 +253,14 @@
           "opties": [
             "Wie fietst, beweegt elke dag een half uur",
             "In de ochtendspits sta je met de auto stil",
-            "Fietsers komen wakkerder toe in de les",
+            "De school telt zeshonderd leerlingen",
             "De fietsenstalling is blauw geschilderd"
           ],
           "antwoord": [
             0,
-            1,
-            2
+            1
           ],
-          "uitleg": "De drie juiste antwoorden ondersteunen 'gezonder' en 'sneller'. De kleur van de stalling doet er niets toe."
+          "uitleg": "De twee juiste antwoorden ondersteunen 'gezonder' en 'sneller'. De kleur van de stalling en het aantal leerlingen doen er niets toe."
         },
         {
           "type": "waarofniet",
@@ -287,14 +287,16 @@
             "Uit de zinnen eromheen",
             "Uit wat je al over het onderwerp weet",
             "Uit de manier waarop het woord gevormd is",
-            "Uit het aantal lettergrepen"
+            "Uit het aantal lettergrepen",
+            "Uit wat je van het Engels of het Frans kent"
           ],
           "antwoord": [
             0,
             1,
-            2
+            2,
+            4
           ],
-          "uitleg": "Context, voorkennis en woordvorming helpen. Soms helpt ook je kennis van het Engels of het Frans. Het aantal lettergrepen zegt niets."
+          "uitleg": "Context, voorkennis, woordvorming en je kennis van andere talen helpen. Het aantal lettergrepen zegt niets."
         },
         {
           "type": "invultekst",
@@ -474,14 +476,16 @@
             "Een krantenartikel",
             "Een stukje uit een leerboek",
             "Een interview",
-            "Een reclamefilmpje"
+            "Een reclamefilmpje",
+            "Een documentaire"
           ],
           "antwoord": [
             0,
             1,
-            2
+            2,
+            4
           ],
-          "uitleg": "De drie juiste antwoorden informeren. Een reclamefilmpje wil je overtuigen of beïnvloeden."
+          "uitleg": "De vier juiste antwoorden informeren. Een reclamefilmpje wil je overtuigen of beïnvloeden."
         },
         {
           "type": "invultekst",
@@ -513,15 +517,14 @@
           "opties": [
             "Een reisverslag",
             "Een videoblog over een weekend in Parijs",
-            "Een podcast waarin iemand vertelt wat hij meemaakte",
+            "Een handleiding bij een wasmachine",
             "Een veiligheidsvoorschrift in een bedrijf"
           ],
           "antwoord": [
             0,
-            1,
-            2
+            1
           ],
-          "uitleg": "De drie juiste antwoorden vertellen wat er gebeurd is. Een veiligheidsvoorschrift geeft instructies."
+          "uitleg": "Een reisverslag en een videoblog vertellen wat er gebeurd is. Een veiligheidsvoorschrift en een handleiding geven instructies."
         },
         {
           "type": "meerkeuze",
@@ -590,12 +593,14 @@
             "Een e-mail",
             "Een blogbericht",
             "Een telefoongesprek",
-            "Een vriendin"
+            "Een vriendin",
+            "Een brief"
           ],
           "antwoord": [
             0,
             1,
-            2
+            2,
+            4
           ],
           "uitleg": "Een kanaal is het middel waarlangs de boodschap reist. Je vriendin is de ontvanger, niet het kanaal."
         },
@@ -690,15 +695,14 @@
           "opties": [
             "Kanaal: het telefoongesprek",
             "Boodschap: dat je tien minuten te laat bent",
-            "Context: je bus is te laat",
+            "Zender: je leerkracht",
             "Doel: je leerkracht overtuigen om de les uit te stellen"
           ],
           "antwoord": [
             0,
-            1,
-            2
+            1
           ],
-          "uitleg": "Je doel is informeren, niet overtuigen. Kanaal, boodschap en context kloppen wel."
+          "uitleg": "Jij bent de zender, niet je leerkracht, en je doel is informeren, niet overtuigen. Kanaal en boodschap kloppen wel."
         },
         {
           "type": "meerkeuze",
@@ -783,12 +787,14 @@
             "Een gedicht",
             "Een kortverhaal",
             "Een strip",
-            "Een bijsluiter"
+            "Een bijsluiter",
+            "Een lied"
           ],
           "antwoord": [
             0,
             1,
-            2
+            2,
+            4
           ],
           "uitleg": "Literaire teksten spelen in op emoties. Een bijsluiter is een instructie: hij moet vooral duidelijk zijn."
         },
@@ -935,15 +941,14 @@
           "opties": [
             "Die film is veel te lang.",
             "Fietsen is leuker dan wandelen.",
-            "Deze gsm is zijn geld niet waard.",
+            "Deze gsm kost 199 euro.",
             "Deze gsm weegt 180 gram."
           ],
           "antwoord": [
             0,
-            1,
-            2
+            1
           ],
-          "uitleg": "De drie juiste antwoorden zijn oordelen. Het gewicht van de gsm kan je nameten: dat is een feit."
+          "uitleg": "'Te lang' en 'leuker' zijn oordelen. Het gewicht en de prijs van de gsm kan je nameten: dat zijn feiten."
         },
         {
           "type": "invultekst",
@@ -964,14 +969,16 @@
             "Wordt de auteur vermeld?",
             "Wie publiceert het artikel?",
             "Welke bronnen gebruikt de tekst?",
-            "Staan er veel afbeeldingen in?"
+            "Staan er veel afbeeldingen in?",
+            "Wanneer is het artikel gepubliceerd?"
           ],
           "antwoord": [
             0,
             1,
-            2
+            2,
+            4
           ],
-          "uitleg": "Auteur, uitgever en bronnen zijn criteria. Mooie afbeeldingen zeggen niets over de juistheid."
+          "uitleg": "Auteur, uitgever, bronnen en datum zijn criteria. Mooie afbeeldingen zeggen niets over de juistheid."
         },
         {
           "type": "meerkeuze",
@@ -1039,15 +1046,14 @@
           "opties": [
             "Een tekst die zijn bronnen noemt, kan je beter controleren",
             "Een link naar een onderzoek is sterker dan 'men zegt'",
-            "Een tekst zonder enkele bron vraagt extra voorzichtigheid",
+            "Een bericht op sociale media weegt even zwaar als een onderzoek",
             "Een tekst met veel bronnen is altijd juist"
           ],
           "antwoord": [
             0,
-            1,
-            2
+            1
           ],
-          "uitleg": "Bronnen maken een tekst controleerbaar, maar veel bronnen zijn geen garantie: je moet ze zelf ook kunnen vertrouwen."
+          "uitleg": "Bronnen maken een tekst controleerbaar, maar veel bronnen zijn geen garantie, en niet elke bron weegt even zwaar."
         },
         {
           "type": "invultekst",
@@ -1141,14 +1147,16 @@
             "Er wordt geen auteur vermeld",
             "Het bericht verschijnt nergens bij betrouwbare nieuwsmedia",
             "De titel is overdreven en wil je vooral doen klikken",
-            "Het bericht bevat een datum"
+            "Het bericht bevat een datum",
+            "Het bericht dringt erop aan dat je het meteen deelt"
           ],
           "antwoord": [
             0,
             1,
-            2
+            2,
+            4
           ],
-          "uitleg": "De drie juiste antwoorden zijn alarmsignalen. Een datum vermelden is net een goed teken."
+          "uitleg": "De vier juiste antwoorden zijn alarmsignalen. Een datum vermelden is net een goed teken."
         },
         {
           "type": "meerkeuze",
@@ -1174,15 +1182,14 @@
           "opties": [
             "De batterij gaat 12 uur mee.",
             "Het toestel weegt 240 gram.",
-            "De levering duurde vier dagen.",
+            "De kleur is prachtig.",
             "Het is het beste toestel van dit jaar."
           ],
           "antwoord": [
             0,
-            1,
-            2
+            1
           ],
-          "uitleg": "De drie juiste antwoorden kan je meten of nagaan. 'Het beste van dit jaar' is een oordeel."
+          "uitleg": "De batterijduur en het gewicht kan je meten of nagaan. 'Het beste van dit jaar' en 'prachtig' zijn oordelen."
         },
         {
           "type": "meerkeuze",
@@ -1232,15 +1239,14 @@
           "opties": [
             "Leerlingen drinken dan meer water en minder frisdrank",
             "We hoeven geen plastic flessen meer mee te brengen",
-            "Water uit de kraan is goedkoper dan flessenwater",
+            "Mijn beste vriendin wil het ook",
             "Ik hou nu eenmaal van water"
           ],
           "antwoord": [
             0,
-            1,
-            2
+            1
           ],
-          "uitleg": "De drie juiste antwoorden geven een reden die ook voor anderen telt. Wat jij lekker vindt, overtuigt niemand."
+          "uitleg": "De twee juiste antwoorden geven een reden die ook voor anderen telt. Wat jij lekker vindt of wat je vriendin wil, overtuigt niemand."
         },
         {
           "type": "waarofniet",
@@ -1398,14 +1404,16 @@
             "maar",
             "dus",
             "hoewel",
-            "de"
+            "de",
+            "omdat"
           ],
           "antwoord": [
             0,
             1,
-            2
+            2,
+            4
           ],
-          "uitleg": "Signaalwoorden geven het verband tussen zinnen aan. 'De' is een lidwoord en zegt niets over het verband."
+          "uitleg": "Signaalwoorden geven het verband tussen zinnen aan: een tegenstelling, een gevolg, een toegeving, een reden. 'De' is een lidwoord en zegt niets over het verband."
         },
         {
           "type": "meerkeuze",
@@ -1444,12 +1452,14 @@
             "ten eerste",
             "ten tweede",
             "tot slot",
-            "omdat"
+            "omdat",
+            "ten derde"
           ],
           "antwoord": [
             0,
             1,
-            2
+            2,
+            4
           ],
           "uitleg": "In een instructie vind je die volgorde vaak terug. 'Omdat' geeft een reden."
         },
@@ -1489,15 +1499,14 @@
           "opties": [
             "Tussentitels",
             "Witruimte tussen de alinea's",
-            "Belangrijke woorden in het vet",
+            "Zo veel mogelijk tekst op één bladzijde",
             "Alles in hoofdletters typen"
           ],
           "antwoord": [
             0,
-            1,
-            2
+            1
           ],
-          "uitleg": "De drie juiste antwoorden zijn tekstopbouwende elementen. Hoofdletters lezen als schreeuwen en maken het net moeilijker."
+          "uitleg": "Tussentitels en witruimte helpen je lezer. Hoofdletters lezen als schreeuwen, en een volgepropte bladzijde maakt het net moeilijker."
         },
         {
           "type": "invultekst",
@@ -1603,14 +1612,16 @@
             "bijvoorbeeld",
             "zoals",
             "denk maar aan",
-            "daarentegen"
+            "daarentegen",
+            "neem nu"
           ],
           "antwoord": [
             0,
             1,
-            2
+            2,
+            4
           ],
-          "uitleg": "De drie juiste antwoorden leiden een voorbeeld in. 'Daarentegen' zet net iets tegenover elkaar."
+          "uitleg": "De vier juiste antwoorden leiden een voorbeeld in. 'Daarentegen' zet net iets tegenover elkaar."
         },
         {
           "type": "meerkeuze",
@@ -1649,14 +1660,16 @@
             "kortom",
             "tot slot",
             "samengevat",
-            "ten eerste"
+            "ten eerste",
+            "kort gezegd"
           ],
           "antwoord": [
             0,
             1,
-            2
+            2,
+            4
           ],
-          "uitleg": "Die drie staan meestal in het slot. 'Ten eerste' hoort juist bij het begin van een opsomming."
+          "uitleg": "Die vier staan meestal in het slot. 'Ten eerste' hoort juist bij het begin van een opsomming."
         },
         {
           "type": "invultekst",
@@ -1837,15 +1850,14 @@
           "opties": [
             "Een productadvertentie opstellen",
             "Met je ouders onderhandelen over een afspraak",
-            "Een vriend warm maken voor de jeugdbeweging",
+            "Een verslag van een uitstap schrijven",
             "Een recept uitschrijven"
           ],
           "antwoord": [
             0,
-            1,
-            2
+            1
           ],
-          "uitleg": "Bij de drie juiste antwoorden wil je dat de ander iets doet of denkt. Een recept legt alleen uit."
+          "uitleg": "Bij de twee juiste antwoorden wil je dat de ander iets doet of denkt. Een recept en een verslag leggen alleen uit."
         },
         {
           "type": "waarofniet",
@@ -1934,16 +1946,15 @@
           "vraag": "Welke onderdelen worden bij een schrijfopdracht beoordeeld?",
           "opties": [
             "Je spelling en je leestekens",
-            "Je tekstopbouw en je lay-out",
+            "Hoe snel je typt",
             "Of je boodschap volledig is",
             "Je handschrift"
           ],
           "antwoord": [
             0,
-            1,
             2
           ],
-          "uitleg": "Op een digitaal examen typ je, dus je handschrift telt niet mee. De rest wel."
+          "uitleg": "Spelling, leestekens en de volledigheid van je boodschap tellen mee. Je handschrift niet, want je typt, en je tempo evenmin."
         },
         {
           "type": "waarofniet",
@@ -1988,12 +1999,14 @@
             "gezondheid",
             "klimaat",
             "sociale media",
-            "sterrenkunde"
+            "sterrenkunde",
+            "mobiliteit"
           ],
           "antwoord": [
             0,
             1,
-            2
+            2,
+            4
           ],
           "uitleg": "Gezondheid, klimaat, sociale media, inspraak en mobiliteit: thema's op jouw niveau waar je zelf mee te maken hebt."
         },
@@ -2064,15 +2077,14 @@
           "opties": [
             "Je stelt vragen aan de ander",
             "Je reageert op wat de ander zegt",
-            "Je toont interesse en laat de ander uitspreken",
+            "Je kijkt naar je telefoon terwijl de ander praat",
             "Je vertelt zonder ophouden je eigen verhaal"
           ],
           "antwoord": [
             0,
-            1,
-            2
+            1
           ],
-          "uitleg": "Inspelen op je gesprekspartner is een strategie. Wie alleen zendt, voert geen gesprek."
+          "uitleg": "Vragen stellen en reageren houdt een gesprek gaande. Wie alleen zendt of naar zijn telefoon kijkt, voert geen gesprek."
         },
         {
           "type": "waarofniet",
@@ -2117,12 +2129,14 @@
             "Geachte mevrouw",
             "Met vriendelijke groeten",
             "Ik zou graag willen weten wanneer de inschrijvingen starten.",
-            "Hey, alles goed?"
+            "Hey, alles goed?",
+            "Alvast bedankt voor uw antwoord."
           ],
           "antwoord": [
             0,
             1,
-            2
+            2,
+            4
           ],
           "uitleg": "Aanhef, slotgroet en beleefde formulering horen bij een formele mail. 'Hey' bewaar je voor vrienden."
         },
@@ -2226,15 +2240,14 @@
           "opties": [
             "Rijm",
             "Ritme",
-            "Een korte, opvallende lay-out",
+            "Zoveel mogelijk informatie",
             "Veel vakjargon"
           ],
           "antwoord": [
             0,
-            1,
-            2
+            1
           ],
-          "uitleg": "Creatief taalgebruik werkt met klank en vorm. Vakjargon maakt een slogan net onbegrijpelijk."
+          "uitleg": "Creatief taalgebruik werkt met klank en vorm: rijm en ritme. Vakjargon en een stortvloed aan informatie maken een slogan net onbegrijpelijk."
         },
         {
           "type": "meerkeuze",
@@ -2321,15 +2334,14 @@
           "opties": [
             "Een sollicitatiemail voor een vakantiejob",
             "Een brief aan de gemeente",
-            "Een gesprek met een arts die je niet kent",
+            "Een babbel met je beste vriendin",
             "Een appje naar je zus"
           ],
           "antwoord": [
             0,
-            1,
-            2
+            1
           ],
-          "uitleg": "Bij onbekenden en in officiële situaties kies je het formele register, met 'u' en verzorgde zinnen."
+          "uitleg": "Bij onbekenden en in officiële situaties kies je het formele register, met 'u' en verzorgde zinnen. Bij je zus en je beste vriendin niet."
         },
         {
           "type": "invultekst",
@@ -2374,12 +2386,14 @@
             "Je lichaamstaal en je houding",
             "Je gezichtsuitdrukking en je oogcontact",
             "Je intonatie, je tempo en je volume",
-            "De lengte van je zinnen"
+            "De lengte van je zinnen",
+            "De afstand die je tot de ander bewaart"
           ],
           "antwoord": [
             0,
             1,
-            2
+            2,
+            4
           ],
           "uitleg": "Alles wat je zegt zonder woorden: gebaren, mimiek, afstand, kledij, maar ook hoe je stem klinkt."
         },
@@ -2530,15 +2544,14 @@
           "opties": [
             "buitenspel (voetbal)",
             "diagnose (geneeskunde)",
-            "debet (boekhouding)",
+            "stoel (dagelijks leven)",
             "tafel (dagelijks leven)"
           ],
           "antwoord": [
             0,
-            1,
-            2
+            1
           ],
-          "uitleg": "Jargon is vaktaal binnen een beroep of hobby. 'Tafel' kent iedereen."
+          "uitleg": "Jargon is vaktaal binnen een beroep of hobby. 'Tafel' en 'stoel' kent iedereen."
         },
         {
           "type": "waarofniet",
@@ -2758,14 +2771,16 @@
             "personages",
             "verhaallijn",
             "tijd en ruimte",
-            "voegwoord"
+            "voegwoord",
+            "perspectief"
           ],
           "antwoord": [
             0,
             1,
-            2
+            2,
+            4
           ],
-          "uitleg": "Die drie horen bij literatuur. Een voegwoord is een woordsoort en hoort bij het taalsysteem."
+          "uitleg": "Die vier horen bij literatuur. Een voegwoord is een woordsoort en hoort bij het taalsysteem."
         },
         {
           "type": "invultekst",
@@ -2821,15 +2836,14 @@
           "opties": [
             "Ze zwom als een vis.",
             "Zijn handen waren zo koud als ijs.",
-            "Hij zong zoals een vogel in de lente.",
+            "Het was een koude dag.",
             "De zon ging onder."
           ],
           "antwoord": [
             0,
-            1,
-            2
+            1
           ],
-          "uitleg": "De drie juiste antwoorden gebruiken 'als' of 'zoals'. Het foute antwoord is gewoon een vaststelling."
+          "uitleg": "'Als een vis' en 'zo koud als ijs' zetten twee dingen naast elkaar. De twee andere zinnen stellen gewoon iets vast."
         },
         {
           "type": "invultekst",
@@ -2874,14 +2888,16 @@
             "In welke periode het speelt",
             "Hoe lang de gebeurtenissen duren",
             "Of er sprongen in de tijd zijn",
-            "Hoeveel personages er zijn"
+            "Hoeveel personages er zijn",
+            "In welke volgorde het verteld wordt"
           ],
           "antwoord": [
             0,
             1,
-            2
+            2,
+            4
           ],
-          "uitleg": "Tijd gaat over de periode, de duur en de volgorde. Het aantal personages hoort daar niet bij."
+          "uitleg": "Tijd gaat over de periode, de duur, de sprongen en de volgorde. Het aantal personages hoort daar niet bij."
         },
         {
           "type": "waarofniet",
@@ -3008,15 +3024,14 @@
           "opties": [
             "Ze heeft een hart van goud.",
             "Hij zit in zak en as.",
-            "Dat kost een fortuin.",
+            "De zon schijnt.",
             "De kast staat in de gang."
           ],
           "antwoord": [
             0,
-            1,
-            2
+            1
           ],
-          "uitleg": "Uitdrukkingen zijn figuurlijk. De laatste zin bedoelt precies wat ze zegt."
+          "uitleg": "'Een hart van goud' en 'in zak en as' bedoelen iets anders dan ze zeggen. De twee andere zinnen bedoelen precies wat er staat."
         },
         {
           "type": "invultekst",
@@ -3119,12 +3134,14 @@
             "spannend",
             "melancholisch",
             "grappig",
-            "alfabetisch"
+            "alfabetisch",
+            "dreigend"
           ],
           "antwoord": [
             0,
             1,
-            2
+            2,
+            4
           ],
           "uitleg": "Sfeerwoorden zeggen hoe een tekst aanvoelt. 'Alfabetisch' gaat over volgorde, niet over gevoel."
         },
@@ -3459,15 +3476,14 @@
           "opties": [
             "gewerkt",
             "geleerd",
-            "gefietst",
+            "geleefdt",
             "gebeurdt"
           ],
           "antwoord": [
             0,
-            1,
-            2
+            1
           ],
-          "uitleg": "De drie juiste antwoorden volgen 't kofschip. 'Gebeurd' schrijf je met een d en nooit met dt.",
+          "uitleg": "Gewerkt en geleerd volgen 't kofschip. 'Gebeurdt' en 'geleefdt' bestaan niet: een voltooid deelwoord eindigt nooit op dt.",
           "varianten": [
             {
               "vraag": "Welke voltooide deelwoorden zijn juist?",
@@ -3475,12 +3491,14 @@
                 "gestapt",
                 "gehoord",
                 "gelachen",
-                "gebouwdt"
+                "gebouwdt",
+                "gepraat"
               ],
               "antwoord": [
                 0,
                 1,
-                2
+                2,
+                4
               ],
               "uitleg": "Stap zit in 't kofschip, dus gestapt met een t. Hoor niet, dus gehoord met een d. Lachen is sterk: gelachen. Gebouwdt bestaat niet: nooit -dt achter een voltooid deelwoord."
             },
@@ -3504,15 +3522,14 @@
               "opties": [
                 "geblaft",
                 "gebouwd",
-                "gewerkt",
+                "gespeeldt",
                 "gehoordt"
               ],
               "antwoord": [
                 0,
-                1,
-                2
+                1
               ],
-              "uitleg": "Blaf zit in 't kofschip, dus geblaft. Bouw niet, dus gebouwd. Werk zit er weer wel in, dus gewerkt. Gehoordt bestaat niet."
+              "uitleg": "Geblaft en gebouwd zijn juist. 'Gehoordt' en 'gespeeldt' bestaan niet: een voltooid deelwoord eindigt nooit op dt."
             }
           ]
         },
@@ -3673,12 +3690,14 @@
             "Nederlands",
             "België",
             "Antwerpen",
-            "maandag"
+            "maandag",
+            "Engels"
           ],
           "antwoord": [
             0,
             1,
-            2
+            2,
+            4
           ],
           "uitleg": "Talen, landen en plaatsen krijgen een hoofdletter. Dagen en maanden in het Nederlands niet.",
           "varianten": [
@@ -3688,12 +3707,14 @@
                 "Frans",
                 "Parijs",
                 "Europa",
-                "dinsdag"
+                "dinsdag",
+                "Vlaanderen"
               ],
               "antwoord": [
                 0,
                 1,
-                2
+                2,
+                4
               ],
               "uitleg": "Talen, steden en werelddelen krijgen een hoofdletter. Dagen van de week niet, in het Nederlands."
             },
@@ -3718,12 +3739,14 @@
                 "Engels",
                 "Limburg",
                 "Azië",
-                "januari"
+                "januari",
+                "Maas"
               ],
               "antwoord": [
                 0,
                 1,
-                2
+                2,
+                4
               ],
               "uitleg": "Talen, provincies en werelddelen krijgen een hoofdletter. Maanden niet, in het Nederlands."
             },
@@ -3732,15 +3755,14 @@
               "opties": [
                 "Spaans",
                 "Gent",
-                "België",
+                "lente",
                 "woensdag"
               ],
               "antwoord": [
                 0,
-                1,
-                2
+                1
               ],
-              "uitleg": "Talen, steden en landen krijgen een hoofdletter. Dagen van de week niet."
+              "uitleg": "Talen en plaatsen krijgen een hoofdletter. Dagen en seizoenen in het Nederlands niet."
             }
           ]
         },
@@ -3818,12 +3840,14 @@
                 "auto's",
                 "menu's",
                 "paraplu's",
-                "tafels"
+                "tafels",
+                "ski's"
               ],
               "antwoord": [
                 0,
                 1,
-                2
+                2,
+                4
               ],
               "uitleg": "Eindigt een woord op een losse a, i, o, u of y, dan komt er een apostrof voor de meervouds-s, anders lees je de klank verkeerd. Tafel eindigt daar niet op."
             },
@@ -3846,15 +3870,14 @@
               "opties": [
                 "baby's",
                 "hobby's",
-                "pony's",
+                "ramen",
                 "stoelen"
               ],
               "antwoord": [
                 0,
-                1,
-                2
+                1
               ],
-              "uitleg": "Eindigt een woord op een losse y, dan komt er een apostrof voor de meervouds-s. Stoel eindigt daar niet op."
+              "uitleg": "Eindigt een woord op een losse a, i, o, u of y, dan zet je een apostrof voor de s. Bij stoelen en ramen hoeft dat niet."
             }
           ]
         },
@@ -4162,15 +4185,14 @@
           "opties": [
             "hond (honden)",
             "web (webben)",
-            "huis (huizen)",
+            "raam (ramen)",
             "boek (boeken)"
           ],
           "antwoord": [
             0,
-            1,
-            2
+            1
           ],
-          "uitleg": "Bij hond hoor je een t maar schrijf je een d, bij web een p maar schrijf je een b, bij huis wordt de s een z. Bij boek verandert er niets."
+          "uitleg": "Bij hond hoor je een t maar schrijf je een d, bij web een p maar schrijf je een b. Bij boek en raam verandert er aan de medeklinkers niets."
         },
         {
           "type": "waarofniet",
@@ -4371,15 +4393,14 @@
           "opties": [
             "ik heb gelopen",
             "jij hebt gelopen",
-            "wij hebben gelopen",
+            "wij hadden gelopen",
             "ik had gelopen"
           ],
           "antwoord": [
             0,
-            1,
-            2
+            1
           ],
-          "uitleg": "De vtt gebruikt de tegenwoordige tijd van hebben of zijn. Met 'had' krijg je de voltooid verleden tijd."
+          "uitleg": "De voltooid tegenwoordige tijd gebruikt de tegenwoordige tijd van hebben of zijn. Met 'had' en 'hadden' krijg je de voltooid verleden tijd."
         },
         {
           "type": "meerkeuze",
@@ -4610,12 +4631,14 @@
                 "naast",
                 "achter",
                 "binnen",
-                "want"
+                "want",
+                "tijdens"
               ],
               "antwoord": [
                 0,
                 1,
-                2
+                2,
+                4
               ],
               "uitleg": "Naast, achter en binnen geven een plaats aan. Want is een voegwoord."
             },
@@ -4623,15 +4646,14 @@
               "opties": [
                 "boven",
                 "voor",
-                "door",
+                "omdat",
                 "maar"
               ],
               "antwoord": [
                 0,
-                1,
-                2
+                1
               ],
-              "uitleg": "Boven, voor en door geven een plaats of een richting aan. Maar is een voegwoord."
+              "uitleg": "Boven en voor geven een plaats of een tijd aan. 'Maar' en 'omdat' verbinden zinnen: dat zijn voegwoorden."
             },
             {
               "opties": [
@@ -4735,12 +4757,14 @@
             "oei",
             "hè",
             "hoera",
-            "hij"
+            "hij",
+            "ai"
           ],
           "antwoord": [
             0,
             1,
-            2
+            2,
+            4
           ],
           "uitleg": "Tussenwerpsels drukken een gevoel of een reactie uit en staan los in de zin. 'Hij' is een persoonlijk voornaamwoord."
         },
@@ -4918,12 +4942,14 @@
                 "zonnebril",
                 "tafelpoot",
                 "schoolbus",
-                "gelukkig"
+                "gelukkig",
+                "voetbalveld"
               ],
               "antwoord": [
                 0,
                 1,
-                2
+                2,
+                4
               ],
               "uitleg": "Bij de drie juiste antwoorden plak je twee bestaande woorden aan elkaar. Gelukkig is een afleiding: geluk plus -ig."
             },
@@ -4931,15 +4957,14 @@
               "opties": [
                 "deurklink",
                 "regenjas",
-                "appelboom",
+                "vriendschap",
                 "duidelijk"
               ],
               "antwoord": [
                 0,
-                1,
-                2
+                1
               ],
-              "uitleg": "Bij de drie juiste antwoorden plak je twee bestaande woorden aan elkaar. Duidelijk is een afleiding."
+              "uitleg": "Deurklink en regenjas bestaan uit twee volwaardige woorden. 'Duidelijk' en 'vriendschap' zijn afleidingen: een grondwoord plus een achtervoegsel."
             },
             {
               "opties": [
@@ -5171,29 +5196,30 @@
           "type": "meerkeuze",
           "vraag": "Welke woorden zijn homoniemen?",
           "opties": [
-            "bank",
+            "boek",
             "slot",
             "kussen",
             "fiets"
           ],
           "antwoord": [
-            0,
             1,
             2
           ],
-          "uitleg": "Een slot op een deur of het einde van een tekst; een kussen op de zetel of iemand kussen. 'Fiets' heeft maar één betekenis.",
+          "uitleg": "Een slot op een deur of het einde van een tekst; een kussen op de zetel of iemand kussen. 'Fiets' en 'boek' hebben maar één betekenis.",
           "varianten": [
             {
               "opties": [
                 "pad",
                 "veer",
                 "arm",
-                "tafel"
+                "tafel",
+                "blik"
               ],
               "antwoord": [
                 0,
                 1,
-                2
+                2,
+                4
               ],
               "uitleg": "Een pad is een weggetje of een dier, een veer zit in een matras of aan een vogel, en arm is een lichaamsdeel of het tegendeel van rijk."
             },
@@ -5201,15 +5227,14 @@
               "opties": [
                 "bot",
                 "stof",
-                "schaal",
+                "stoel",
                 "raam"
               ],
               "antwoord": [
                 0,
-                1,
-                2
+                1
               ],
-              "uitleg": "Bot is een been of het tegendeel van scherp, stof is materiaal of vuil, en een schaal is een kom of de buitenkant van een ei."
+              "uitleg": "Een bot in je lichaam of een bot mes; stof om een kleed van te maken of stof op de kast. 'Raam' en 'stoel' hebben maar één betekenis."
             },
             {
               "opties": [
@@ -5234,12 +5259,14 @@
             "fraai",
             "prachtig",
             "schitterend",
-            "lelijk"
+            "lelijk",
+            "beeldig"
           ],
           "antwoord": [
             0,
             1,
-            2
+            2,
+            4
           ],
           "uitleg": "Synoniemen betekenen ongeveer hetzelfde. 'Lelijk' is net het tegengestelde.",
           "varianten": [
@@ -5249,12 +5276,14 @@
                 "vrolijk",
                 "opgewekt",
                 "gelukkig",
-                "verdrietig"
+                "verdrietig",
+                "blijgezind"
               ],
               "antwoord": [
                 0,
                 1,
-                2
+                2,
+                4
               ],
               "uitleg": "De drie juiste antwoorden betekenen ongeveer hetzelfde als blij. Verdrietig is het tegendeel."
             },
@@ -5263,15 +5292,14 @@
               "opties": [
                 "enorm",
                 "reusachtig",
-                "gigantisch",
+                "smal",
                 "piepklein"
               ],
               "antwoord": [
                 0,
-                1,
-                2
+                1
               ],
-              "uitleg": "De drie juiste antwoorden betekenen ongeveer hetzelfde als groot. Piepklein is het tegendeel."
+              "uitleg": "Enorm en reusachtig betekenen ongeveer hetzelfde als groot. 'Piepklein' en 'smal' net niet."
             },
             {
               "vraag": "Welke woorden zijn synoniemen van 'snel'?",
@@ -5370,12 +5398,14 @@
                 "ongeluk",
                 "blijheid",
                 "schilder",
-                "voetbal"
+                "voetbal",
+                "onvriendelijk"
               ],
               "antwoord": [
                 0,
                 1,
-                2
+                2,
+                4
               ],
               "uitleg": "Bij de drie juiste antwoorden komt er een voor- of achtervoegsel bij een bestaand woord. Voetbal is een samenstelling."
             },
@@ -5383,15 +5413,14 @@
               "opties": [
                 "onmogelijk",
                 "vrijheid",
-                "werker",
+                "tafelpoot",
                 "zonnebril"
               ],
               "antwoord": [
                 0,
-                1,
-                2
+                1
               ],
-              "uitleg": "Bij de drie juiste antwoorden komt er een voor- of achtervoegsel bij. Zonnebril is een samenstelling."
+              "uitleg": "Onmogelijk en vrijheid bestaan uit een grondwoord plus een voor- of achtervoegsel. Zonnebril en tafelpoot zijn samenstellingen van twee volwaardige woorden."
             },
             {
               "opties": [
@@ -5489,12 +5518,14 @@
                 "steden",
                 "schepen",
                 "koeien",
-                "mans"
+                "mans",
+                "eieren"
               ],
               "antwoord": [
                 0,
                 1,
-                2
+                2,
+                4
               ],
               "uitleg": "Het meervoud van man is mannen, niet mans."
             },
@@ -5502,15 +5533,14 @@
               "opties": [
                 "ramen",
                 "gaten",
-                "sleutels",
+                "huizes",
                 "boekes"
               ],
               "antwoord": [
                 0,
-                1,
-                2
+                1
               ],
-              "uitleg": "Het meervoud van boek is boeken, niet boekes."
+              "uitleg": "Ramen en gaten zijn juist. 'Boekes' en 'huizes' bestaan niet: dat worden boeken en huizen."
             },
             {
               "opties": [
@@ -5873,15 +5903,14 @@
               "opties": [
                 "vanmorgen",
                 "traag",
-                "door het park",
+                "de fiets",
                 "ze"
               ],
               "antwoord": [
                 0,
-                1,
-                2
+                1
               ],
-              "uitleg": "Vanmorgen zegt wanneer, traag zegt hoe en door het park zegt waar. Ze is het onderwerp."
+              "uitleg": "Wanneer en hoe: twee bijwoordelijke bepalingen. 'Ze' is het onderwerp en 'de fiets' is een ander zinsdeel."
             },
             {
               "vraag": "Welke zinsdelen zijn bijwoordelijke bepalingen in 'Straks rijdt de bus stipt naar het station'?",
@@ -6077,14 +6106,16 @@
             "niet",
             "geen",
             "nooit",
-            "altijd"
+            "altijd",
+            "niemand"
           ],
           "antwoord": [
             0,
             1,
-            2
+            2,
+            4
           ],
-          "uitleg": "'Altijd' bevestigt net. De drie juiste antwoorden draaien de betekenis om."
+          "uitleg": "'Altijd' bevestigt net. De vier juiste antwoorden draaien de betekenis om."
         },
         {
           "type": "meerkeuze",
@@ -6236,12 +6267,14 @@
             "zijn",
             "worden",
             "blijven",
-            "fietsen"
+            "fietsen",
+            "blijken"
           ],
           "antwoord": [
             0,
             1,
-            2
+            2,
+            4
           ],
           "uitleg": "Zijn, worden, blijven, blijken, lijken, schijnen en heten koppelen het onderwerp aan een eigenschap of een naam."
         },
@@ -6466,12 +6499,14 @@
                 "Een van de spelers is geblesseerd.",
                 "De groep toeristen wacht buiten.",
                 "Mijn broers studeren allebei in Leuven.",
-                "De rij wagens staan stil."
+                "De rij wagens staan stil.",
+                "Het team speelt morgen thuis."
               ],
               "antwoord": [
                 0,
                 1,
-                2
+                2,
+                4
               ],
               "uitleg": "Het onderwerp van de laatste zin is de rij, en die is enkelvoud: de rij wagens staat stil."
             },
@@ -6479,15 +6514,14 @@
               "opties": [
                 "Een van de boeken ontbreekt.",
                 "Het team traint elke dinsdag.",
-                "De buren komen vanavond langs.",
+                "De meeste leerlingen komt te voet.",
                 "De doos met pennen liggen daar."
               ],
               "antwoord": [
                 0,
-                1,
-                2
+                1
               ],
-              "uitleg": "Het onderwerp van de laatste zin is de doos, en die is enkelvoud: de doos met pennen ligt daar."
+              "uitleg": "Het onderwerp is 'een' en 'het team', allebei enkelvoud. In de twee andere zinnen is het onderwerp 'de doos' en 'de meeste leerlingen', dus moet het 'ligt' en 'komen' zijn."
             },
             {
               "opties": [
@@ -6629,15 +6663,14 @@
           "opties": [
             "Ik blijf thuis, want het regent.",
             "Toen hij thuiskwam, was het al donker.",
-            "Ze zei dat ze later zou komen.",
+            "Hij ging na de training meteen slapen.",
             "Na de training ging hij meteen slapen."
           ],
           "antwoord": [
             0,
-            1,
-            2
+            1
           ],
-          "uitleg": "De drie juiste antwoorden hebben twee persoonsvormen. Het foute antwoord heeft er maar één: 'ging'."
+          "uitleg": "De twee juiste antwoorden hebben twee persoonsvormen. De twee andere hebben er maar één."
         },
         {
           "type": "meerkeuze",

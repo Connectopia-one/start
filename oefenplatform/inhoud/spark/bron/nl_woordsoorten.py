@@ -87,8 +87,14 @@ DEEL1 = [
     dict(
         type="meerkeuze",
         vraag="Welke woorden zijn tussenwerpsels?",
-        opties=["oei", "hè", "hoera", "hij"],
-        antwoord=[0, 1, 2],
+        opties=[
+            "oei",
+            "hè",
+            "hoera",
+            "hij",
+            "ai",
+        ],
+        antwoord=[0, 1, 2, 4],
         uitleg="Tussenwerpsels drukken een gevoel of een reactie uit en staan los in de zin. 'Hij' is een persoonlijk voornaamwoord.",
     ),
     dict(
@@ -213,15 +219,26 @@ DEEL2 = [
     dict(
         type="meerkeuze",
         vraag="Welke woorden zijn homoniemen?",
-        opties=["bank", "slot", "kussen", "fiets"],
-        antwoord=[0, 1, 2],
-        uitleg="Een slot op een deur of het einde van een tekst; een kussen op de zetel of iemand kussen. 'Fiets' heeft maar één betekenis.",
+        opties=[
+            "boek",
+            "slot",
+            "kussen",
+            "fiets",
+        ],
+        antwoord=[1, 2],
+        uitleg="Een slot op een deur of het einde van een tekst; een kussen op de zetel of iemand kussen. 'Fiets' en 'boek' hebben maar één betekenis.",
     ),
     dict(
         type="meerkeuze",
         vraag="Welke woorden zijn synoniemen van 'mooi'?",
-        opties=["fraai", "prachtig", "schitterend", "lelijk"],
-        antwoord=[0, 1, 2],
+        opties=[
+            "fraai",
+            "prachtig",
+            "schitterend",
+            "lelijk",
+            "beeldig",
+        ],
+        antwoord=[0, 1, 2, 4],
         uitleg="Synoniemen betekenen ongeveer hetzelfde. 'Lelijk' is net het tegengestelde.",
     ),
     dict(

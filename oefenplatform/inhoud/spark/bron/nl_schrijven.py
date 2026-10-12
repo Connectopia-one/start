@@ -40,11 +40,11 @@ DEEL1 = [
         opties=[
             "Een productadvertentie opstellen",
             "Met je ouders onderhandelen over een afspraak",
-            "Een vriend warm maken voor de jeugdbeweging",
+            "Een verslag van een uitstap schrijven",
             "Een recept uitschrijven",
         ],
-        antwoord=[0, 1, 2],
-        uitleg="Bij de drie juiste antwoorden wil je dat de ander iets doet of denkt. Een recept legt alleen uit.",
+        antwoord=[0, 1],
+        uitleg="Bij de twee juiste antwoorden wil je dat de ander iets doet of denkt. Een recept en een verslag leggen alleen uit.",
     ),
     dict(
         type="waarofniet",
@@ -114,12 +114,12 @@ DEEL1 = [
         vraag="Welke onderdelen worden bij een schrijfopdracht beoordeeld?",
         opties=[
             "Je spelling en je leestekens",
-            "Je tekstopbouw en je lay-out",
+            "Hoe snel je typt",
             "Of je boodschap volledig is",
             "Je handschrift",
         ],
-        antwoord=[0, 1, 2],
-        uitleg="Op een digitaal examen typ je, dus je handschrift telt niet mee. De rest wel.",
+        antwoord=[0, 2],
+        uitleg="Spelling, leestekens en de volledigheid van je boodschap tellen mee. Je handschrift niet, want je typt, en je tempo evenmin.",
     ),
     dict(
         type="waarofniet",
@@ -155,8 +155,14 @@ DEEL1 = [
     dict(
         type="meerkeuze",
         vraag="Welke maatschappelijke thema's noemt de vakfiche als voorbeeld?",
-        opties=["gezondheid", "klimaat", "sociale media", "sterrenkunde"],
-        antwoord=[0, 1, 2],
+        opties=[
+            "gezondheid",
+            "klimaat",
+            "sociale media",
+            "sterrenkunde",
+            "mobiliteit",
+        ],
+        antwoord=[0, 1, 2, 4],
         uitleg="Gezondheid, klimaat, sociale media, inspraak en mobiliteit: thema's op jouw niveau waar je zelf mee te maken hebt.",
     ),
     dict(
@@ -222,11 +228,11 @@ DEEL2 = [
         opties=[
             "Je stelt vragen aan de ander",
             "Je reageert op wat de ander zegt",
-            "Je toont interesse en laat de ander uitspreken",
+            "Je kijkt naar je telefoon terwijl de ander praat",
             "Je vertelt zonder ophouden je eigen verhaal",
         ],
-        antwoord=[0, 1, 2],
-        uitleg="Inspelen op je gesprekspartner is een strategie. Wie alleen zendt, voert geen gesprek.",
+        antwoord=[0, 1],
+        uitleg="Vragen stellen en reageren houdt een gesprek gaande. Wie alleen zendt of naar zijn telefoon kijkt, voert geen gesprek.",
     ),
     dict(
         type="waarofniet",
@@ -262,8 +268,9 @@ DEEL2 = [
             "Met vriendelijke groeten",
             "Ik zou graag willen weten wanneer de inschrijvingen starten.",
             "Hey, alles goed?",
+            "Alvast bedankt voor uw antwoord.",
         ],
-        antwoord=[0, 1, 2],
+        antwoord=[0, 1, 2, 4],
         uitleg="Aanhef, slotgroet en beleefde formulering horen bij een formele mail. 'Hey' bewaar je voor vrienden.",
     ),
     dict(
@@ -349,9 +356,14 @@ DEEL2 = [
     dict(
         type="meerkeuze",
         vraag="Welke technieken maken een slogan sterk?",
-        opties=["Rijm", "Ritme", "Een korte, opvallende lay-out", "Veel vakjargon"],
-        antwoord=[0, 1, 2],
-        uitleg="Creatief taalgebruik werkt met klank en vorm. Vakjargon maakt een slogan net onbegrijpelijk.",
+        opties=[
+            "Rijm",
+            "Ritme",
+            "Zoveel mogelijk informatie",
+            "Veel vakjargon",
+        ],
+        antwoord=[0, 1],
+        uitleg="Creatief taalgebruik werkt met klank en vorm: rijm en ritme. Vakjargon en een stortvloed aan informatie maken een slogan net onbegrijpelijk.",
     ),
     dict(
         type="meerkeuze",

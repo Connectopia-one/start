@@ -289,15 +289,14 @@
           "opties": [
             "gewerkt",
             "geleerd",
-            "gefietst",
+            "geleefdt",
             "gebeurdt"
           ],
           "antwoord": [
             0,
-            1,
-            2
+            1
           ],
-          "uitleg": "De drie juiste antwoorden volgen 't kofschip. 'Gebeurd' schrijf je met een d en nooit met dt.",
+          "uitleg": "Gewerkt en geleerd volgen 't kofschip. 'Gebeurdt' en 'geleefdt' bestaan niet: een voltooid deelwoord eindigt nooit op dt.",
           "varianten": [
             {
               "vraag": "Welke voltooide deelwoorden zijn juist?",
@@ -305,12 +304,14 @@
                 "gestapt",
                 "gehoord",
                 "gelachen",
-                "gebouwdt"
+                "gebouwdt",
+                "gepraat"
               ],
               "antwoord": [
                 0,
                 1,
-                2
+                2,
+                4
               ],
               "uitleg": "Stap zit in 't kofschip, dus gestapt met een t. Hoor niet, dus gehoord met een d. Lachen is sterk: gelachen. Gebouwdt bestaat niet: nooit -dt achter een voltooid deelwoord."
             },
@@ -334,15 +335,14 @@
               "opties": [
                 "geblaft",
                 "gebouwd",
-                "gewerkt",
+                "gespeeldt",
                 "gehoordt"
               ],
               "antwoord": [
                 0,
-                1,
-                2
+                1
               ],
-              "uitleg": "Blaf zit in 't kofschip, dus geblaft. Bouw niet, dus gebouwd. Werk zit er weer wel in, dus gewerkt. Gehoordt bestaat niet."
+              "uitleg": "Geblaft en gebouwd zijn juist. 'Gehoordt' en 'gespeeldt' bestaan niet: een voltooid deelwoord eindigt nooit op dt."
             }
           ]
         },
@@ -503,12 +503,14 @@
             "Nederlands",
             "België",
             "Antwerpen",
-            "maandag"
+            "maandag",
+            "Engels"
           ],
           "antwoord": [
             0,
             1,
-            2
+            2,
+            4
           ],
           "uitleg": "Talen, landen en plaatsen krijgen een hoofdletter. Dagen en maanden in het Nederlands niet.",
           "varianten": [
@@ -518,12 +520,14 @@
                 "Frans",
                 "Parijs",
                 "Europa",
-                "dinsdag"
+                "dinsdag",
+                "Vlaanderen"
               ],
               "antwoord": [
                 0,
                 1,
-                2
+                2,
+                4
               ],
               "uitleg": "Talen, steden en werelddelen krijgen een hoofdletter. Dagen van de week niet, in het Nederlands."
             },
@@ -548,12 +552,14 @@
                 "Engels",
                 "Limburg",
                 "Azië",
-                "januari"
+                "januari",
+                "Maas"
               ],
               "antwoord": [
                 0,
                 1,
-                2
+                2,
+                4
               ],
               "uitleg": "Talen, provincies en werelddelen krijgen een hoofdletter. Maanden niet, in het Nederlands."
             },
@@ -562,15 +568,14 @@
               "opties": [
                 "Spaans",
                 "Gent",
-                "België",
+                "lente",
                 "woensdag"
               ],
               "antwoord": [
                 0,
-                1,
-                2
+                1
               ],
-              "uitleg": "Talen, steden en landen krijgen een hoofdletter. Dagen van de week niet."
+              "uitleg": "Talen en plaatsen krijgen een hoofdletter. Dagen en seizoenen in het Nederlands niet."
             }
           ]
         },
@@ -648,12 +653,14 @@
                 "auto's",
                 "menu's",
                 "paraplu's",
-                "tafels"
+                "tafels",
+                "ski's"
               ],
               "antwoord": [
                 0,
                 1,
-                2
+                2,
+                4
               ],
               "uitleg": "Eindigt een woord op een losse a, i, o, u of y, dan komt er een apostrof voor de meervouds-s, anders lees je de klank verkeerd. Tafel eindigt daar niet op."
             },
@@ -676,15 +683,14 @@
               "opties": [
                 "baby's",
                 "hobby's",
-                "pony's",
+                "ramen",
                 "stoelen"
               ],
               "antwoord": [
                 0,
-                1,
-                2
+                1
               ],
-              "uitleg": "Eindigt een woord op een losse y, dan komt er een apostrof voor de meervouds-s. Stoel eindigt daar niet op."
+              "uitleg": "Eindigt een woord op een losse a, i, o, u of y, dan zet je een apostrof voor de s. Bij stoelen en ramen hoeft dat niet."
             }
           ]
         },
@@ -954,7 +960,7 @@
             1,
             2
           ],
-          "uitleg": "De drie juiste antwoorden staan in de ovt. 'Heeft gefietst' is de voltooid tegenwoordige tijd: hulpwerkwoord plus deelwoord."
+          "uitleg": "De drie juiste antwoorden zijn ovt. 'Heeft gefietst' is de voltooid tegenwoordige tijd: hulpwerkwoord plus deelwoord."
         },
         {
           "type": "meerkeuze",
@@ -992,15 +998,14 @@
           "opties": [
             "hond (honden)",
             "web (webben)",
-            "huis (huizen)",
+            "raam (ramen)",
             "boek (boeken)"
           ],
           "antwoord": [
             0,
-            1,
-            2
+            1
           ],
-          "uitleg": "Bij hond hoor je een t maar schrijf je een d, bij web een p maar schrijf je een b, bij huis wordt de s een z. Bij boek verandert er niets."
+          "uitleg": "Bij hond hoor je een t maar schrijf je een d, bij web een p maar schrijf je een b. Bij boek en raam verandert er aan de medeklinkers niets."
         },
         {
           "type": "waarofniet",
@@ -1201,15 +1206,14 @@
           "opties": [
             "ik heb gelopen",
             "jij hebt gelopen",
-            "wij hebben gelopen",
+            "wij hadden gelopen",
             "ik had gelopen"
           ],
           "antwoord": [
             0,
-            1,
-            2
+            1
           ],
-          "uitleg": "De vtt gebruikt de tegenwoordige tijd van hebben of zijn. Met 'had' krijg je de voltooid verleden tijd."
+          "uitleg": "De voltooid tegenwoordige tijd gebruikt de tegenwoordige tijd van hebben of zijn. Met 'had' en 'hadden' krijg je de voltooid verleden tijd."
         },
         {
           "type": "meerkeuze",

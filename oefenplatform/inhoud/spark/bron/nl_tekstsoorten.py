@@ -32,9 +32,10 @@ DEEL1 = [
             "Een stukje uit een leerboek",
             "Een interview",
             "Een reclamefilmpje",
+            "Een documentaire",
         ],
-        antwoord=[0, 1, 2],
-        uitleg="De drie juiste antwoorden informeren. Een reclamefilmpje wil je overtuigen of beïnvloeden.",
+        antwoord=[0, 1, 2, 4],
+        uitleg="De vier juiste antwoorden informeren. Een reclamefilmpje wil je overtuigen of beïnvloeden.",
     ),
     dict(
         type="invultekst",
@@ -66,11 +67,11 @@ DEEL1 = [
         opties=[
             "Een reisverslag",
             "Een videoblog over een weekend in Parijs",
-            "Een podcast waarin iemand vertelt wat hij meemaakte",
+            "Een handleiding bij een wasmachine",
             "Een veiligheidsvoorschrift in een bedrijf",
         ],
-        antwoord=[0, 1, 2],
-        uitleg="De drie juiste antwoorden vertellen wat er gebeurd is. Een veiligheidsvoorschrift geeft instructies.",
+        antwoord=[0, 1],
+        uitleg="Een reisverslag en een videoblog vertellen wat er gebeurd is. Een veiligheidsvoorschrift en een handleiding geven instructies.",
     ),
     dict(
         type="meerkeuze",
@@ -125,8 +126,14 @@ DEEL1 = [
     dict(
         type="meerkeuze",
         vraag="Welke van deze zijn kanalen?",
-        opties=["Een e-mail", "Een blogbericht", "Een telefoongesprek", "Een vriendin"],
-        antwoord=[0, 1, 2],
+        opties=[
+            "Een e-mail",
+            "Een blogbericht",
+            "Een telefoongesprek",
+            "Een vriendin",
+            "Een brief",
+        ],
+        antwoord=[0, 1, 2, 4],
         uitleg="Een kanaal is het middel waarlangs de boodschap reist. Je vriendin is de ontvanger, niet het kanaal.",
     ),
     dict(
@@ -211,11 +218,11 @@ DEEL2 = [
         opties=[
             "Kanaal: het telefoongesprek",
             "Boodschap: dat je tien minuten te laat bent",
-            "Context: je bus is te laat",
+            "Zender: je leerkracht",
             "Doel: je leerkracht overtuigen om de les uit te stellen",
         ],
-        antwoord=[0, 1, 2],
-        uitleg="Je doel is informeren, niet overtuigen. Kanaal, boodschap en context kloppen wel.",
+        antwoord=[0, 1],
+        uitleg="Jij bent de zender, niet je leerkracht, en je doel is informeren, niet overtuigen. Kanaal en boodschap kloppen wel.",
     ),
     dict(
         type="meerkeuze",
@@ -297,8 +304,9 @@ DEEL2 = [
             "Een kortverhaal",
             "Een strip",
             "Een bijsluiter",
+            "Een lied",
         ],
-        antwoord=[0, 1, 2],
+        antwoord=[0, 1, 2, 4],
         uitleg="Literaire teksten spelen in op emoties. Een bijsluiter is een instructie: hij moet vooral duidelijk zijn.",
     ),
     dict(

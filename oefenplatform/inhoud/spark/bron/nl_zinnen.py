@@ -122,9 +122,15 @@ DEEL1 = [
     dict(
         type="meerkeuze",
         vraag="Welke woorden maken een zin ontkennend?",
-        opties=["niet", "geen", "nooit", "altijd"],
-        antwoord=[0, 1, 2],
-        uitleg="'Altijd' bevestigt net. De drie juiste antwoorden draaien de betekenis om.",
+        opties=[
+            "niet",
+            "geen",
+            "nooit",
+            "altijd",
+            "niemand",
+        ],
+        antwoord=[0, 1, 2, 4],
+        uitleg="'Altijd' bevestigt net. De vier juiste antwoorden draaien de betekenis om.",
     ),
     dict(
         type="meerkeuze",
@@ -204,8 +210,14 @@ DEEL2 = [
     dict(
         type="meerkeuze",
         vraag="Welke werkwoorden horen bij de zijn-relatie?",
-        opties=["zijn", "worden", "blijven", "fietsen"],
-        antwoord=[0, 1, 2],
+        opties=[
+            "zijn",
+            "worden",
+            "blijven",
+            "fietsen",
+            "blijken",
+        ],
+        antwoord=[0, 1, 2, 4],
         uitleg="Zijn, worden, blijven, blijken, lijken, schijnen en heten koppelen het onderwerp aan een eigenschap of een naam.",
     ),
     dict(
@@ -315,11 +327,11 @@ DEEL2 = [
         opties=[
             "Ik blijf thuis, want het regent.",
             "Toen hij thuiskwam, was het al donker.",
-            "Ze zei dat ze later zou komen.",
+            "Hij ging na de training meteen slapen.",
             "Na de training ging hij meteen slapen.",
         ],
-        antwoord=[0, 1, 2],
-        uitleg="De drie juiste antwoorden hebben twee persoonsvormen. Het foute antwoord heeft er maar één: 'ging'.",
+        antwoord=[0, 1],
+        uitleg="De twee juiste antwoorden hebben twee persoonsvormen. De twee andere hebben er maar één.",
     ),
     dict(
         type="meerkeuze",

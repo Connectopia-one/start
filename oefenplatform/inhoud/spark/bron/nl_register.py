@@ -69,11 +69,11 @@ DEEL1 = [
         opties=[
             "Een sollicitatiemail voor een vakantiejob",
             "Een brief aan de gemeente",
-            "Een gesprek met een arts die je niet kent",
+            "Een babbel met je beste vriendin",
             "Een appje naar je zus",
         ],
-        antwoord=[0, 1, 2],
-        uitleg="Bij onbekenden en in officiële situaties kies je het formele register, met 'u' en verzorgde zinnen.",
+        antwoord=[0, 1],
+        uitleg="Bij onbekenden en in officiële situaties kies je het formele register, met 'u' en verzorgde zinnen. Bij je zus en je beste vriendin niet.",
     ),
     dict(
         type="invultekst",
@@ -114,8 +114,9 @@ DEEL1 = [
             "Je gezichtsuitdrukking en je oogcontact",
             "Je intonatie, je tempo en je volume",
             "De lengte van je zinnen",
+            "De afstand die je tot de ander bewaart",
         ],
-        antwoord=[0, 1, 2],
+        antwoord=[0, 1, 2, 4],
         uitleg="Alles wat je zegt zonder woorden: gebaren, mimiek, afstand, kledij, maar ook hoe je stem klinkt.",
     ),
     dict(
@@ -228,11 +229,11 @@ DEEL2 = [
         opties=[
             "buitenspel (voetbal)",
             "diagnose (geneeskunde)",
-            "debet (boekhouding)",
+            "stoel (dagelijks leven)",
             "tafel (dagelijks leven)",
         ],
-        antwoord=[0, 1, 2],
-        uitleg="Jargon is vaktaal binnen een beroep of hobby. 'Tafel' kent iedereen.",
+        antwoord=[0, 1],
+        uitleg="Jargon is vaktaal binnen een beroep of hobby. 'Tafel' en 'stoel' kent iedereen.",
     ),
     dict(
         type="waarofniet",

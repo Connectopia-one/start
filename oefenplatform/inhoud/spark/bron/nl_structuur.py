@@ -52,9 +52,15 @@ DEEL1 = [
     dict(
         type="meerkeuze",
         vraag="Welke van deze zijn signaalwoorden?",
-        opties=["maar", "dus", "hoewel", "de"],
-        antwoord=[0, 1, 2],
-        uitleg="Signaalwoorden geven het verband tussen zinnen aan. 'De' is een lidwoord en zegt niets over het verband.",
+        opties=[
+            "maar",
+            "dus",
+            "hoewel",
+            "de",
+            "omdat",
+        ],
+        antwoord=[0, 1, 2, 4],
+        uitleg="Signaalwoorden geven het verband tussen zinnen aan: een tegenstelling, een gevolg, een toegeving, een reden. 'De' is een lidwoord en zegt niets over het verband.",
     ),
     dict(
         type="meerkeuze",
@@ -79,8 +85,14 @@ DEEL1 = [
     dict(
         type="meerkeuze",
         vraag="Welke woorden kondigen een opsomming aan?",
-        opties=["ten eerste", "ten tweede", "tot slot", "omdat"],
-        antwoord=[0, 1, 2],
+        opties=[
+            "ten eerste",
+            "ten tweede",
+            "tot slot",
+            "omdat",
+            "ten derde",
+        ],
+        antwoord=[0, 1, 2, 4],
         uitleg="In een instructie vind je die volgorde vaak terug. 'Omdat' geeft een reden.",
     ),
     dict(
@@ -114,11 +126,11 @@ DEEL1 = [
         opties=[
             "Tussentitels",
             "Witruimte tussen de alinea's",
-            "Belangrijke woorden in het vet",
+            "Zo veel mogelijk tekst op één bladzijde",
             "Alles in hoofdletters typen",
         ],
-        antwoord=[0, 1, 2],
-        uitleg="De drie juiste antwoorden zijn tekstopbouwende elementen. Hoofdletters lezen als schreeuwen en maken het net moeilijker.",
+        antwoord=[0, 1],
+        uitleg="Tussentitels en witruimte helpen je lezer. Hoofdletters lezen als schreeuwen, en een volgepropte bladzijde maakt het net moeilijker.",
     ),
     dict(
         type="invultekst",
@@ -191,9 +203,15 @@ DEEL2 = [
     dict(
         type="meerkeuze",
         vraag="Welke signaalwoorden kondigen een voorbeeld aan?",
-        opties=["bijvoorbeeld", "zoals", "denk maar aan", "daarentegen"],
-        antwoord=[0, 1, 2],
-        uitleg="De drie juiste antwoorden leiden een voorbeeld in. 'Daarentegen' zet net iets tegenover elkaar.",
+        opties=[
+            "bijvoorbeeld",
+            "zoals",
+            "denk maar aan",
+            "daarentegen",
+            "neem nu",
+        ],
+        antwoord=[0, 1, 2, 4],
+        uitleg="De vier juiste antwoorden leiden een voorbeeld in. 'Daarentegen' zet net iets tegenover elkaar.",
     ),
     dict(
         type="meerkeuze",
@@ -218,9 +236,15 @@ DEEL2 = [
     dict(
         type="meerkeuze",
         vraag="Welke woorden kondigen een samenvatting of een besluit aan?",
-        opties=["kortom", "tot slot", "samengevat", "ten eerste"],
-        antwoord=[0, 1, 2],
-        uitleg="Die drie staan meestal in het slot. 'Ten eerste' hoort juist bij het begin van een opsomming.",
+        opties=[
+            "kortom",
+            "tot slot",
+            "samengevat",
+            "ten eerste",
+            "kort gezegd",
+        ],
+        antwoord=[0, 1, 2, 4],
+        uitleg="Die vier staan meestal in het slot. 'Ten eerste' hoort juist bij het begin van een opsomming.",
     ),
     dict(
         type="invultekst",
