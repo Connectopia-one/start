@@ -88,14 +88,16 @@
             "gendergerelateerde groepen",
             "sociaaleconomische groepen",
             "levensbeschouwelijke groepen",
-            "groepen op basis van je schoolresultaten"
+            "groepen op basis van je schoolresultaten",
+            "subculturen"
           ],
           "antwoord": [
             0,
             1,
-            2
+            2,
+            4
           ],
-          "uitleg": "Die drie staan er met zoveel woorden. Over schoolresultaten zegt de fiche niets."
+          "uitleg": "Die staan er met zoveel woorden. Over schoolresultaten zegt de fiche niets."
         },
         {
           "type": "meerkeuze",
@@ -376,31 +378,29 @@
           "opties": [
             "ze behandelt mensen anders om een kenmerk van hun identiteit",
             "ze kan het wij-zij-denken versterken",
-            "ze is een factor die de identiteit beïnvloedt",
+            "ze is bij wet toegelaten zolang niemand klaagt",
             "ze komt enkel voor tussen mensen van verschillende nationaliteit"
           ],
           "antwoord": [
             0,
-            1,
-            2
+            1
           ],
-          "uitleg": "De laatste is te eng: discriminatie kan ook om gender, geloof, lichaam of afkomst gaan."
+          "uitleg": "Discriminatie is bij wet verboden, en ze kan ook om gender, geloof, lichaam of afkomst gaan, niet enkel om nationaliteit."
         },
         {
           "type": "meerkeuze",
           "vraag": "Welke van deze horen bij de lagen van de persoonlijke identiteit?",
           "opties": [
-            "biologische aspecten",
+            "de nationaliteitsgroep",
             "persoonlijkheidstrekken",
             "familiale achtergrond",
             "subculturen"
           ],
           "antwoord": [
-            0,
             1,
             2
           ],
-          "uitleg": "Subculturen staan bij de groepsidentiteit, niet bij de persoonlijke identiteit."
+          "uitleg": "Subculturen en de nationaliteitsgroep horen bij de groepsidentiteit, niet bij de persoonlijke identiteit."
         },
         {
           "type": "invultekst",
@@ -611,14 +611,16 @@
             "multiculturalisme",
             "integratie",
             "inclusie",
-            "globalisering"
+            "globalisering",
+            "exclusie"
           ],
           "antwoord": [
             0,
             1,
-            2
+            2,
+            4
           ],
-          "uitleg": "Globalisering staat niet in dit rijtje. Monoculturalisme en exclusie wel."
+          "uitleg": "Globalisering staat niet in dit rijtje. Monoculturalisme staat er wel bij."
         },
         {
           "type": "invultekst",
@@ -804,31 +806,29 @@
           "opties": [
             "culturele verrijking",
             "uitwisselen van ideeën",
-            "economische uitwisseling",
+            "minder nood aan afspraken",
             "minder meningsverschillen"
           ],
           "antwoord": [
             0,
-            1,
-            2
+            1
           ],
-          "uitleg": "Meningsverschillen staan bij de uitdagingen, en ze worden niet minder door diversiteit."
+          "uitleg": "Meningsverschillen en de nood aan afspraken staan bij de uitdagingen. Culturele verrijking en het uitwisselen van ideeën staan bij de voordelen."
         },
         {
           "type": "meerkeuze",
           "vraag": "Welke van deze noemt de fiche als uitdaging van samenleven in diversiteit?",
           "opties": [
             "verschillende belangen",
-            "het risico van groepsdenken",
+            "een hogere belastingdruk",
             "het risico van uitsluiting",
             "een hogere kostprijs voor de overheid"
           ],
           "antwoord": [
             0,
-            1,
             2
           ],
-          "uitleg": "Over kosten voor de overheid zegt dit blok van de fiche niets."
+          "uitleg": "Over kosten voor de overheid of belastingen zegt dit blok van de fiche niets. Verschillende belangen en het risico van uitsluiting staan er wel bij."
         },
         {
           "type": "invultekst",
@@ -1037,16 +1037,15 @@
           "vraag": "Welke situaties moet je volgens de fiche kunnen analyseren?",
           "opties": [
             "pestgedrag",
-            "uitsluiting",
+            "spijbelen",
             "discriminatie en racisme",
             "schoolvertraging"
           ],
           "antwoord": [
             0,
-            1,
             2
           ],
-          "uitleg": "Die drie staan letterlijk in de fiche. Over schoolvertraging zegt dit blok niets."
+          "uitleg": "Pestgedrag, discriminatie en racisme staan letterlijk in de fiche. Over schoolvertraging of spijbelen zegt dit blok niets."
         },
         {
           "type": "meerkeuze",
@@ -1055,12 +1054,14 @@
             "rekening houden met de grenzen van de ander",
             "je eigen standpunt rustig kunnen uitleggen",
             "kunnen luisteren zonder meteen te oordelen",
-            "altijd toegeven om ruzie te vermijden"
+            "altijd toegeven om ruzie te vermijden",
+            "de ander laten uitspreken"
           ],
           "antwoord": [
             0,
             1,
-            2
+            2,
+            4
           ],
           "uitleg": "Altijd toegeven is geen respect voor jezelf, en lost het meningsverschil niet op."
         },
@@ -1285,14 +1286,16 @@
             "vrijwillig",
             "geïnformeerd",
             "bekwaam gegeven",
-            "schriftelijk"
+            "schriftelijk",
+            "actueel"
           ],
           "antwoord": [
             0,
             1,
-            2
+            2,
+            4
           ],
-          "uitleg": "Schriftelijk staat er niet. Duidelijk, specifiek en actueel wel."
+          "uitleg": "Schriftelijk staat er niet. Duidelijk en specifiek staan er wel bij."
         },
         {
           "type": "meerkeuze",
@@ -1300,15 +1303,14 @@
           "opties": [
             "duidelijke afspraken over wie wat doet",
             "elkaar op de hoogte houden van de voortgang",
-            "elkaars sterke kanten gebruiken",
+            "alle taken door iedereen laten doen",
             "beslissingen zo lang mogelijk uitstellen"
           ],
           "antwoord": [
             0,
-            1,
-            2
+            1
           ],
-          "uitleg": "Uitstellen helpt een samenwerking niet vooruit."
+          "uitleg": "Uitstellen helpt een samenwerking niet vooruit, en alles door iedereen laten doen maakt de afspraken juist onduidelijk."
         },
         {
           "type": "invultekst",
@@ -1484,15 +1486,14 @@
           "opties": [
             "bloeding",
             "verslikking",
-            "verdrinking",
+            "hoofdpijn",
             "uitdroging"
           ],
           "antwoord": [
             0,
-            1,
-            2
+            1
           ],
-          "uitleg": "Uitdroging staat niet in het rijtje. Bloeding, verslikking en verdrinking wel."
+          "uitleg": "Uitdroging en hoofdpijn staan niet in het rijtje. Een bloeding en een verslikking wel."
         },
         {
           "type": "meerkeuze",
@@ -1501,14 +1502,16 @@
             "101",
             "112",
             "1733",
-            "100"
+            "100",
+            "070 245 245"
           ],
           "antwoord": [
             0,
             1,
-            2
+            2,
+            4
           ],
-          "uitleg": "100 staat niet in de fiche. Het vierde nummer dat er wel staat, is 070 245 245 van het antigifcentrum."
+          "uitleg": "100 staat niet in de fiche. Het nummer van het antigifcentrum staat er wel bij, naast de hulpdiensten en de huisartsenwachtpost."
         },
         {
           "type": "invultekst",
@@ -1705,12 +1708,14 @@
             "vermijd besmetting",
             "handel als eerste hulpverlener",
             "verleen psychosociale hulp",
-            "noteer de gegevens van de getuigen"
+            "noteer de gegevens van de getuigen",
+            "blijf rustig in een noodsituatie"
           ],
           "antwoord": [
             0,
             1,
-            2
+            2,
+            4
           ],
           "uitleg": "Getuigen noteren hoort bij een schadegeval en een verzekering, niet bij de eerste hulp."
         },
@@ -1721,14 +1726,16 @@
             "zorg voor veiligheid",
             "beoordeel de toestand van het slachtoffer",
             "raadpleeg gespecialiseerde hulp",
-            "blijf rustig in een noodsituatie"
+            "blijf rustig in een noodsituatie",
+            "verleen verdere eerste hulp"
           ],
           "antwoord": [
             0,
             1,
-            2
+            2,
+            4
           ],
-          "uitleg": "Rustig blijven is een basisprincipe, geen stap. De vierde stap is verdere eerste hulp verlenen."
+          "uitleg": "Rustig blijven is een basisprincipe, geen stap."
         },
         {
           "type": "invultekst",
@@ -1927,14 +1934,16 @@
             "bepaal of de persoon bewusteloos is",
             "bel 112",
             "kijk of er een AED in de buurt is",
-            "leg de persoon in stabiele zijligging"
+            "leg de persoon in stabiele zijligging",
+            "geef borstcompressies"
           ],
           "antwoord": [
             0,
             1,
-            2
+            2,
+            4
           ],
-          "uitleg": "De stabiele zijligging staat niet in dit rijtje. De andere stappen zijn compressies, beademing en doorgaan."
+          "uitleg": "De stabiele zijligging staat niet in dit rijtje. Beademing en doorgaan tot de hulpdiensten er zijn, horen er ook bij."
         },
         {
           "type": "invultekst",
@@ -2143,15 +2152,14 @@
           "opties": [
             "de handen midden op de borstkas",
             "gestrekte armen met de schouders erboven",
-            "de borstkas volledig laten terugkomen",
+            "de handen op de buik leggen",
             "de ellebogen gebogen houden om kracht te sparen"
           ],
           "antwoord": [
             0,
-            1,
-            2
+            1
           ],
-          "uitleg": "Gebogen ellebogen kosten juist meer kracht en maken de compressies ondiep."
+          "uitleg": "Gebogen ellebogen kosten juist meer kracht en maken de compressies ondiep, en je handen horen midden op de borstkas, niet op de buik."
         },
         {
           "type": "meerkeuze",
@@ -2159,15 +2167,14 @@
           "opties": [
             "het hoofd achterover kantelen",
             "de kin optillen",
-            "de neus dichtknijpen",
+            "het hoofd naar voren buigen",
             "het slachtoffer eerst rechtzetten"
           ],
           "antwoord": [
             0,
-            1,
-            2
+            1
           ],
-          "uitleg": "Rechtzetten hoort er niet bij: je reanimeert iemand liggend op een harde ondergrond."
+          "uitleg": "Rechtzetten of het hoofd naar voren buigen hoort er niet bij: je kantelt het hoofd achterover en tilt de kin op, bij iemand die op een harde ondergrond ligt."
         },
         {
           "type": "invultekst",
@@ -2369,30 +2376,31 @@
             "directe belastingen",
             "indirecte belastingen",
             "inkomsten uit overheidskapitaal",
-            "giften van burgers"
+            "giften van burgers",
+            "diverse inkomsten"
           ],
           "antwoord": [
             0,
             1,
-            2
+            2,
+            4
           ],
-          "uitleg": "Giften staan niet in de fiche. De vierde soort is de diverse inkomsten."
+          "uitleg": "Giften staan niet in de fiche. De diverse inkomsten horen er wel bij."
         },
         {
           "type": "meerkeuze",
           "vraag": "Welke voorbeelden geeft de fiche bij de indirecte belastingen?",
           "opties": [
             "de btw",
-            "de milieubelasting",
+            "de personenbelasting",
             "de accijnzen op brandstof",
             "de onroerende voorheffing"
           ],
           "antwoord": [
             0,
-            1,
             2
           ],
-          "uitleg": "De onroerende voorheffing is direct. Accijnzen zitten net als btw in de prijs."
+          "uitleg": "De onroerende voorheffing en de personenbelasting zijn direct. Accijnzen zitten net als de btw in de prijs."
         },
         {
           "type": "invultekst",
@@ -2591,14 +2599,16 @@
             "voorzien in de collectieve behoeften van de bevolking",
             "investeren in economische groei en ontwikkeling",
             "sociale uitgaven en uitkeringen voor wie het nodig heeft",
-            "het terugbetalen van belastingen aan bedrijven"
+            "het terugbetalen van belastingen aan bedrijven",
+            "bijdragen aan het maatschappelijk leven"
           ],
           "antwoord": [
             0,
             1,
-            2
+            2,
+            4
           ],
-          "uitleg": "De vierde soort is bijdragen aan het maatschappelijk leven. Terugbetalingen aan bedrijven staan er niet."
+          "uitleg": "Terugbetalingen aan bedrijven staan er niet."
         },
         {
           "type": "meerkeuze",
@@ -2606,15 +2616,14 @@
           "opties": [
             "de financiering van de sociale zekerheid",
             "sociale woningen",
-            "projecten tegen armoede",
+            "de aanleg van een autosnelweg",
             "de bouw van een nieuwe rechtbank"
           ],
           "antwoord": [
             0,
-            1,
-            2
+            1
           ],
-          "uitleg": "Een rechtbank hoort eerder bij veiligheid, en dat is een collectieve behoefte."
+          "uitleg": "Een rechtbank en een autosnelweg horen bij de collectieve behoeften, niet bij de sociale uitgaven."
         },
         {
           "type": "invultekst",
@@ -2815,12 +2824,14 @@
             "de werkloosheidsuitkering",
             "de ziekte- en invaliditeitsuitkering",
             "de arbeidsongevallenuitkering",
-            "de studiebeurs"
+            "de studiebeurs",
+            "het pensioen"
           ],
           "antwoord": [
             0,
             1,
-            2
+            2,
+            4
           ],
           "uitleg": "De studiebeurs staat bij de sociale herverdelingsmaatregelen, niet bij de uitkeringen van de sociale zekerheid."
         },
@@ -2830,15 +2841,14 @@
           "opties": [
             "de werkloosheidsuitkering",
             "het rustpensioen",
-            "de ziekte- en invaliditeitsuitkering",
+            "het groeipakket",
             "het jaarlijks vakantiegeld"
           ],
           "antwoord": [
             0,
-            1,
-            2
+            1
           ],
-          "uitleg": "Het vakantiegeld komt bovenop een loon en is dus aanvullend."
+          "uitleg": "Het vakantiegeld komt bovenop een loon en is dus aanvullend, en het groeipakket is een toelage, geen vervanging van een inkomen."
         },
         {
           "type": "invultekst",
@@ -3037,30 +3047,31 @@
             "de progressieve personenbelasting via belastingschijven",
             "belastingvrijstellingen en -verminderingen",
             "belastingheffingen op vermogen",
-            "het groeipakket"
+            "het groeipakket",
+            "verschillende tarieven bij de indirecte belastingen"
           ],
           "antwoord": [
             0,
             1,
-            2
+            2,
+            4
           ],
-          "uitleg": "Het groeipakket is sociaal. De vierde fiscale maatregel is die van de verschillende tarieven bij indirecte belastingen."
+          "uitleg": "Het groeipakket is een sociale maatregel, geen fiscale."
         },
         {
           "type": "meerkeuze",
           "vraag": "Welke van deze noemt de fiche als sociale herverdelingsmaatregel?",
           "opties": [
             "sociale woningen en huurpremies",
-            "energiepremies en renovatiesteun",
+            "de accijnzen op brandstof",
             "de verhoogde tegemoetkoming in de gezondheidszorg",
             "de onroerende voorheffing"
           ],
           "antwoord": [
             0,
-            1,
             2
           ],
-          "uitleg": "De onroerende voorheffing is een belasting, dus een inkomst, geen sociale maatregel."
+          "uitleg": "De onroerende voorheffing en de accijnzen zijn belastingen, dus inkomsten, geen sociale maatregel."
         },
         {
           "type": "invultekst",
@@ -3258,15 +3269,14 @@
           "opties": [
             "vraag en aanbod zijn gelijk",
             "er is geen overschot",
-            "er is geen tekort",
+            "er staat altijd een wachtlijst",
             "de prijs kan niet meer veranderen"
           ],
           "antwoord": [
             0,
-            1,
-            2
+            1
           ],
-          "uitleg": "De prijs kan wel veranderen: als een curve verschuift, komt er een nieuw evenwicht."
+          "uitleg": "Bij de evenwichtsprijs is er geen overschot en geen tekort, dus ook geen wachtlijst. En de prijs kan wel veranderen: als een curve verschuift, komt er een nieuw evenwicht."
         },
         {
           "type": "invultekst",
@@ -3477,12 +3487,14 @@
             "het aanbod is groter dan de vraag",
             "de prijs ligt boven het evenwicht",
             "er blijft onverkochte voorraad over",
-            "de kopers zijn bereid meer te betalen"
+            "de kopers zijn bereid meer te betalen",
+            "de verkopers verlagen hun prijs"
           ],
           "antwoord": [
             0,
             1,
-            2
+            2,
+            4
           ],
           "uitleg": "Meer willen betalen hoort bij een tekort, niet bij een overschot."
         },
@@ -3693,12 +3705,14 @@
             "het inkomen van de kopers verandert",
             "de smaak van de kopers verandert",
             "er komen kopers bij of vallen er weg",
-            "de prijs van het product zelf verandert"
+            "de prijs van het product zelf verandert",
+            "de prijs van een vervangproduct verandert"
           ],
           "antwoord": [
             0,
             1,
-            2
+            2,
+            4
           ],
           "uitleg": "De prijs van het product zelf geeft een beweging óp de curve, geen verschuiving ervan."
         },
@@ -3708,15 +3722,14 @@
           "opties": [
             "de productiekosten veranderen",
             "er komt een betere techniek",
-            "er komen verkopers bij",
+            "de smaak van de kopers verandert",
             "de prijs van het product zelf verandert"
           ],
           "antwoord": [
             0,
-            1,
-            2
+            1
           ],
-          "uitleg": "Ook hier: de prijs van het product zelf laat je langs de curve bewegen."
+          "uitleg": "De prijs van het product zelf laat je langs de curve bewegen, en de smaak van de kopers verschuift de vraagcurve, niet de aanbodcurve."
         },
         {
           "type": "invultekst",
@@ -3915,16 +3928,15 @@
           "vraag": "Welke maatregelen van de overheid noemt de fiche?",
           "opties": [
             "btw en accijnzen heffen",
-            "premies en subsidies uitkeren",
+            "de prijzen van alle producten zelf bepalen",
             "minimum- en maximumprijzen invoeren",
             "de productie zelf overnemen"
           ],
           "antwoord": [
             0,
-            1,
             2
           ],
-          "uitleg": "De productie overnemen staat niet in dit rijtje."
+          "uitleg": "De productie overnemen of alle prijzen zelf bepalen staat niet in dit rijtje."
         },
         {
           "type": "meerkeuze",
@@ -3932,15 +3944,14 @@
           "opties": [
             "ze ligt onder de evenwichtsprijs",
             "ze geeft een tekort",
-            "ze wordt ingevoerd om iets betaalbaar te houden",
+            "ze ligt boven de evenwichtsprijs",
             "ze geeft een overschot"
           ],
           "antwoord": [
             0,
-            1,
-            2
+            1
           ],
-          "uitleg": "Een overschot hoort bij een minimumprijs, niet bij een maximumprijs."
+          "uitleg": "Een maximumprijs ligt onder het evenwicht en geeft een tekort. Boven het evenwicht liggen en een overschot geven, horen bij een minimumprijs."
         },
         {
           "type": "invultekst",
@@ -4140,14 +4151,16 @@
             "de bepaalde duur",
             "de vervangingsduur",
             "het welomschreven werk",
-            "de proefduur"
+            "de proefduur",
+            "de onbepaalde duur"
           ],
           "antwoord": [
             0,
             1,
-            2
+            2,
+            4
           ],
-          "uitleg": "De vierde is de onbepaalde duur. Een proefduur staat niet als eigen soort in het rijtje."
+          "uitleg": "Een proefduur staat niet als eigen soort in het rijtje."
         },
         {
           "type": "invultekst",
@@ -4358,14 +4371,16 @@
             "de beëindiging van de arbeidsovereenkomst",
             "de schorsing van de arbeidsovereenkomst",
             "overwerk en overloon",
-            "de jaarlijkse evaluatie"
+            "de jaarlijkse evaluatie",
+            "het verbod op nachtarbeid"
           ],
           "antwoord": [
             0,
             1,
-            2
+            2,
+            4
           ],
-          "uitleg": "Een evaluatie staat niet in het rijtje. De proefperiode bij studenten, het verbod op nachtarbeid en de loonnormen wel."
+          "uitleg": "Een evaluatie staat niet in het rijtje. De proefperiode bij studenten en de loonnormen horen er ook bij."
         },
         {
           "type": "meerkeuze",
@@ -4373,15 +4388,14 @@
           "opties": [
             "jouw functie",
             "jouw loon",
-            "de duur van jouw contract",
+            "de regels bij ziekte voor alle werknemers",
             "de openingsuren van het bedrijf"
           ],
           "antwoord": [
             0,
-            1,
-            2
+            1
           ],
-          "uitleg": "De openingsuren gelden voor iedereen en staan dus in het reglement."
+          "uitleg": "Wat voor iedereen geldt, zoals de openingsuren en de regels bij ziekte, staat in het reglement. Jouw functie en jouw loon staan in je eigen overeenkomst."
         },
         {
           "type": "invultekst",
@@ -4580,12 +4594,14 @@
             "de sociale zekerheidsbijdrage aftrekken",
             "het belastbaar loon bepalen",
             "de bedrijfsvoorheffing aftrekken",
-            "de btw aftrekken"
+            "de btw aftrekken",
+            "de bijzondere bijdrage voor de sociale zekerheid aftrekken"
           ],
           "antwoord": [
             0,
             1,
-            2
+            2,
+            4
           ],
           "uitleg": "De btw zit in de prijs van wat je koopt en heeft niets met je loon te maken."
         },
@@ -4798,15 +4814,14 @@
           "opties": [
             "er gaat een solidariteitsbijdrage af",
             "er gaat geen bedrijfsvoorheffing af",
-            "zijn netto ligt dicht bij zijn bruto",
+            "hij betaalt bedrijfsvoorheffing zoals een bediende",
             "hij betaalt dezelfde bijdrage als een bediende"
           ],
           "antwoord": [
             0,
-            1,
-            2
+            1
           ],
-          "uitleg": "De laatste is net het verschil: een student betaalt niet de gewone bijdrage."
+          "uitleg": "Een student betaalt niet de gewone bijdrage en ook geen bedrijfsvoorheffing: daar gaat enkel een solidariteitsbijdrage af. Daardoor ligt zijn netto dicht bij zijn bruto."
         },
         {
           "type": "invultekst",
@@ -5016,12 +5031,14 @@
             "persoonlijke beschermingsmiddelen",
             "pictogrammen en duidelijke waarschuwingen",
             "een overleg over preventie in het bedrijf",
-            "een hoger loon voor gevaarlijk werk"
+            "een hoger loon voor gevaarlijk werk",
+            "een risicoanalyse van de werkplek"
           ],
           "antwoord": [
             0,
             1,
-            2
+            2,
+            4
           ],
           "uitleg": "Een toeslag maakt het werk niet veiliger. De fiche gaat over maatregelen, niet over vergoedingen."
         },
@@ -5237,14 +5254,16 @@
             "de RVA",
             "de VDAB",
             "de RSZ",
-            "de FOD Financiën"
+            "de FOD Financiën",
+            "het CPBW"
           ],
           "antwoord": [
             0,
             1,
-            2
+            2,
+            4
           ],
-          "uitleg": "De FOD Financiën staat niet in dit rijtje. Het CPBW, student@work en de vakbonden wel."
+          "uitleg": "De FOD Financiën staat niet in dit rijtje. Student@work en de vakbonden horen er ook bij."
         },
         {
           "type": "meerkeuze",
@@ -5252,15 +5271,14 @@
           "opties": [
             "werk zoeken",
             "een beroepsopleiding volgen",
-            "begeleiding bij je loopbaan",
+            "je belastingaangifte laten invullen",
             "je werkloosheidsuitkering ontvangen"
           ],
           "antwoord": [
             0,
-            1,
-            2
+            1
           ],
-          "uitleg": "De uitkering komt van de RVA, niet van de VDAB."
+          "uitleg": "De uitkering komt van de RVA en je aangifte van de FOD Financiën, niet van de VDAB."
         },
         {
           "type": "invultekst",
@@ -5459,14 +5477,16 @@
             "de commerciële korting",
             "de eenmalige bijkomende kosten",
             "de terugkerende bijkomende kosten",
-            "het loon van de verkoper"
+            "het loon van de verkoper",
+            "de btw"
           ],
           "antwoord": [
             0,
             1,
-            2
+            2,
+            4
           ],
-          "uitleg": "En de btw. Het loon van de verkoper zit al in de prijs verwerkt."
+          "uitleg": "Het loon van de verkoper zit al in de prijs verwerkt."
         },
         {
           "type": "invultekst",
@@ -5674,15 +5694,14 @@
           "opties": [
             "een spaarbuffer aanleggen voor onverwachte kosten",
             "je uitgaven en inkomsten opvolgen in een budgetplan",
-            "kredieten vergelijken op hun JKP voor je tekent",
+            "een lening afsluiten om een andere lening te betalen",
             "zo veel mogelijk kredieten tegelijk afsluiten"
           ],
           "antwoord": [
             0,
-            1,
-            2
+            1
           ],
-          "uitleg": "Kredieten stapelen is net wat je in de problemen brengt."
+          "uitleg": "Kredieten stapelen of een lening met een lening betalen is net wat je in de problemen brengt."
         },
         {
           "type": "meerkeuze",
@@ -5691,12 +5710,14 @@
             "je raakt je maandelijkse aflossingen niet meer betaald",
             "je komt in een schuldenspiraal terecht",
             "je moet beroep doen op schuldbemiddeling",
-            "je rentevoet daalt vanzelf"
+            "je rentevoet daalt vanzelf",
+            "je komt op de lijst van de Nationale Bank terecht"
           ],
           "antwoord": [
             0,
             1,
-            2
+            2,
+            4
           ],
           "uitleg": "Een rentevoet daalt niet omdat je in de problemen zit, eerder omgekeerd."
         },
@@ -5896,14 +5917,16 @@
             "vaste uitgaven",
             "variabele uitgaven",
             "onvoorziene uitgaven",
-            "vrijwillige uitgaven"
+            "vrijwillige uitgaven",
+            "uitzonderlijke uitgaven"
           ],
           "antwoord": [
             0,
             1,
-            2
+            2,
+            4
           ],
-          "uitleg": "De vierde soort is de uitzonderlijke uitgave. Vrijwillig staat er niet."
+          "uitleg": "Vrijwillige uitgaven staan er niet."
         },
         {
           "type": "invultekst",

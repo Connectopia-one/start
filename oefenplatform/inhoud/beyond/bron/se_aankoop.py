@@ -172,9 +172,10 @@ DEEL1 = [
             "de eenmalige bijkomende kosten",
             "de terugkerende bijkomende kosten",
             "het loon van de verkoper",
+            "de btw",
         ],
-        antwoord=[0, 1, 2],
-        uitleg="En de btw. Het loon van de verkoper zit al in de prijs verwerkt.",
+        antwoord=[0, 1, 2, 4],
+        uitleg="Het loon van de verkoper zit al in de prijs verwerkt.",
     ),
     dict(
         type="invultekst",
@@ -356,11 +357,11 @@ DEEL2 = [
         opties=[
             "een spaarbuffer aanleggen voor onverwachte kosten",
             "je uitgaven en inkomsten opvolgen in een budgetplan",
-            "kredieten vergelijken op hun JKP voor je tekent",
+            "een lening afsluiten om een andere lening te betalen",
             "zo veel mogelijk kredieten tegelijk afsluiten",
         ],
-        antwoord=[0, 1, 2],
-        uitleg="Kredieten stapelen is net wat je in de problemen brengt.",
+        antwoord=[0, 1],
+        uitleg="Kredieten stapelen of een lening met een lening betalen is net wat je in de problemen brengt.",
     ),
     dict(
         type="meerkeuze",
@@ -370,8 +371,9 @@ DEEL2 = [
             "je komt in een schuldenspiraal terecht",
             "je moet beroep doen op schuldbemiddeling",
             "je rentevoet daalt vanzelf",
+            "je komt op de lijst van de Nationale Bank terecht",
         ],
-        antwoord=[0, 1, 2],
+        antwoord=[0, 1, 2, 4],
         uitleg="Een rentevoet daalt niet omdat je in de problemen zit, eerder omgekeerd.",
     ),
     dict(

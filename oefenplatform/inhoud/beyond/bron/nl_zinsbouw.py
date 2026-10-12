@@ -30,7 +30,7 @@ DEEL1 = [
             "de beschrijvende zin",
         ],
         antwoord=[0, 1, 2],
-        uitleg="Een beschrijvende zin staat niet in de rij. Naast de drie genoemde is er nog de uitroepende zin.",
+        uitleg="Een beschrijvende zin staat niet in de rij. Naast de genoemde is er nog de uitroepende zin.",
     ),
     dict(
         type="invultekst",
@@ -225,7 +225,7 @@ DEEL2 = [
             "het bijvoeglijk voorwerp",
         ],
         antwoord=[0, 1, 2],
-        uitleg="Een bijvoeglijk voorwerp bestaat niet. Naast de drie genoemde is er nog het handelend voorwerp in een passieve zin.",
+        uitleg="Een bijvoeglijk voorwerp bestaat niet. Naast de genoemde is er nog het handelend voorwerp in een passieve zin.",
     ),
     dict(
         type="invultekst",

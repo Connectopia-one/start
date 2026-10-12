@@ -167,11 +167,11 @@ DEEL1 = [
         opties=[
             "vraag en aanbod zijn gelijk",
             "er is geen overschot",
-            "er is geen tekort",
+            "er staat altijd een wachtlijst",
             "de prijs kan niet meer veranderen",
         ],
-        antwoord=[0, 1, 2],
-        uitleg="De prijs kan wel veranderen: als een curve verschuift, komt er een nieuw evenwicht.",
+        antwoord=[0, 1],
+        uitleg="Bij de evenwichtsprijs is er geen overschot en geen tekort, dus ook geen wachtlijst. En de prijs kan wel veranderen: als een curve verschuift, komt er een nieuw evenwicht.",
     ),
     dict(
         type="invultekst",
@@ -345,8 +345,9 @@ DEEL2 = [
             "de prijs ligt boven het evenwicht",
             "er blijft onverkochte voorraad over",
             "de kopers zijn bereid meer te betalen",
+            "de verkopers verlagen hun prijs",
         ],
-        antwoord=[0, 1, 2],
+        antwoord=[0, 1, 2, 4],
         uitleg="Meer willen betalen hoort bij een tekort, niet bij een overschot.",
     ),
     dict(

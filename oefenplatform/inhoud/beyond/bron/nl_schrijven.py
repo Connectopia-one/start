@@ -18,7 +18,7 @@ DEEL1 = [
             "een tekst zo lang mogelijk maken",
         ],
         antwoord=[0, 1, 2],
-        uitleg="Lengte is geen doel. Naast de drie genoemde kan je ook je mening geven, iets vertellen of creatief zijn met taal.",
+        uitleg="Lengte is geen doel. Naast de genoemde kan je ook je mening geven, iets vertellen of creatief zijn met taal.",
     ),
     dict(
         type="meerkeuze",

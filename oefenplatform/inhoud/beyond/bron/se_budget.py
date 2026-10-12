@@ -182,9 +182,10 @@ DEEL1 = [
             "variabele uitgaven",
             "onvoorziene uitgaven",
             "vrijwillige uitgaven",
+            "uitzonderlijke uitgaven",
         ],
-        antwoord=[0, 1, 2],
-        uitleg="De vierde soort is de uitzonderlijke uitgave. Vrijwillig staat er niet.",
+        antwoord=[0, 1, 2, 4],
+        uitleg="Vrijwillige uitgaven staan er niet.",
     ),
     dict(
         type="invultekst",

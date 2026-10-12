@@ -173,8 +173,9 @@ DEEL1 = [
             "pictogrammen en duidelijke waarschuwingen",
             "een overleg over preventie in het bedrijf",
             "een hoger loon voor gevaarlijk werk",
+            "een risicoanalyse van de werkplek",
         ],
-        antwoord=[0, 1, 2],
+        antwoord=[0, 1, 2, 4],
         uitleg="Een toeslag maakt het werk niet veiliger. De fiche gaat over maatregelen, niet over vergoedingen.",
     ),
     dict(
@@ -350,9 +351,15 @@ DEEL2 = [
     dict(
         type="meerkeuze",
         vraag="Welke instanties noemt de fiche?",
-        opties=["de RVA", "de VDAB", "de RSZ", "de FOD Financiën"],
-        antwoord=[0, 1, 2],
-        uitleg="De FOD Financiën staat niet in dit rijtje. Het CPBW, student@work en de vakbonden wel.",
+        opties=[
+            "de RVA",
+            "de VDAB",
+            "de RSZ",
+            "de FOD Financiën",
+            "het CPBW",
+        ],
+        antwoord=[0, 1, 2, 4],
+        uitleg="De FOD Financiën staat niet in dit rijtje. Student@work en de vakbonden horen er ook bij.",
     ),
     dict(
         type="meerkeuze",
@@ -360,11 +367,11 @@ DEEL2 = [
         opties=[
             "werk zoeken",
             "een beroepsopleiding volgen",
-            "begeleiding bij je loopbaan",
+            "je belastingaangifte laten invullen",
             "je werkloosheidsuitkering ontvangen",
         ],
-        antwoord=[0, 1, 2],
-        uitleg="De uitkering komt van de RVA, niet van de VDAB.",
+        antwoord=[0, 1],
+        uitleg="De uitkering komt van de RVA en je aangifte van de FOD Financiën, niet van de VDAB.",
     ),
     dict(
         type="invultekst",

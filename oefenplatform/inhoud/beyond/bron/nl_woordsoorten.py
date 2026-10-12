@@ -213,7 +213,7 @@ DEEL2 = [
             "het beschrijvend voornaamwoord",
         ],
         antwoord=[0, 1, 2],
-        uitleg="Een beschrijvend voornaamwoord bestaat niet. Naast de drie genoemde zijn er nog het wederkerig, het aanwijzend en het vragend voornaamwoord.",
+        uitleg="Een beschrijvend voornaamwoord bestaat niet. Naast de genoemde zijn er nog het wederkerig, het aanwijzend en het vragend voornaamwoord.",
     ),
     dict(
         type="meerkeuze",

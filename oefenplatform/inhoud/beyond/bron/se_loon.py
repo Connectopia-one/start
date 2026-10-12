@@ -183,8 +183,9 @@ DEEL1 = [
             "het belastbaar loon bepalen",
             "de bedrijfsvoorheffing aftrekken",
             "de btw aftrekken",
+            "de bijzondere bijdrage voor de sociale zekerheid aftrekken",
         ],
-        antwoord=[0, 1, 2],
+        antwoord=[0, 1, 2, 4],
         uitleg="De btw zit in de prijs van wat je koopt en heeft niets met je loon te maken.",
     ),
     dict(
@@ -372,11 +373,11 @@ DEEL2 = [
         opties=[
             "er gaat een solidariteitsbijdrage af",
             "er gaat geen bedrijfsvoorheffing af",
-            "zijn netto ligt dicht bij zijn bruto",
+            "hij betaalt bedrijfsvoorheffing zoals een bediende",
             "hij betaalt dezelfde bijdrage als een bediende",
         ],
-        antwoord=[0, 1, 2],
-        uitleg="De laatste is net het verschil: een student betaalt niet de gewone bijdrage.",
+        antwoord=[0, 1],
+        uitleg="Een student betaalt niet de gewone bijdrage en ook geen bedrijfsvoorheffing: daar gaat enkel een solidariteitsbijdrage af. Daardoor ligt zijn netto dicht bij zijn bruto.",
     ),
     dict(
         type="invultekst",

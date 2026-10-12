@@ -177,9 +177,10 @@ DEEL1 = [
             "bel 112",
             "kijk of er een AED in de buurt is",
             "leg de persoon in stabiele zijligging",
+            "geef borstcompressies",
         ],
-        antwoord=[0, 1, 2],
-        uitleg="De stabiele zijligging staat niet in dit rijtje. De andere stappen zijn compressies, beademing en doorgaan.",
+        antwoord=[0, 1, 2, 4],
+        uitleg="De stabiele zijligging staat niet in dit rijtje. Beademing en doorgaan tot de hulpdiensten er zijn, horen er ook bij.",
     ),
     dict(
         type="invultekst",
@@ -376,11 +377,11 @@ DEEL2 = [
         opties=[
             "de handen midden op de borstkas",
             "gestrekte armen met de schouders erboven",
-            "de borstkas volledig laten terugkomen",
+            "de handen op de buik leggen",
             "de ellebogen gebogen houden om kracht te sparen",
         ],
-        antwoord=[0, 1, 2],
-        uitleg="Gebogen ellebogen kosten juist meer kracht en maken de compressies ondiep.",
+        antwoord=[0, 1],
+        uitleg="Gebogen ellebogen kosten juist meer kracht en maken de compressies ondiep, en je handen horen midden op de borstkas, niet op de buik.",
     ),
     dict(
         type="meerkeuze",
@@ -388,11 +389,11 @@ DEEL2 = [
         opties=[
             "het hoofd achterover kantelen",
             "de kin optillen",
-            "de neus dichtknijpen",
+            "het hoofd naar voren buigen",
             "het slachtoffer eerst rechtzetten",
         ],
-        antwoord=[0, 1, 2],
-        uitleg="Rechtzetten hoort er niet bij: je reanimeert iemand liggend op een harde ondergrond.",
+        antwoord=[0, 1],
+        uitleg="Rechtzetten of het hoofd naar voren buigen hoort er niet bij: je kantelt het hoofd achterover en tilt de kin op, bij iemand die op een harde ondergrond ligt.",
     ),
     dict(
         type="invultekst",

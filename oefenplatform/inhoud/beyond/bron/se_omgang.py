@@ -167,12 +167,12 @@ DEEL1 = [
         vraag="Welke situaties moet je volgens de fiche kunnen analyseren?",
         opties=[
             "pestgedrag",
-            "uitsluiting",
+            "spijbelen",
             "discriminatie en racisme",
             "schoolvertraging",
         ],
-        antwoord=[0, 1, 2],
-        uitleg="Die drie staan letterlijk in de fiche. Over schoolvertraging zegt dit blok niets.",
+        antwoord=[0, 2],
+        uitleg="Pestgedrag, discriminatie en racisme staan letterlijk in de fiche. Over schoolvertraging of spijbelen zegt dit blok niets.",
     ),
     dict(
         type="meerkeuze",
@@ -182,8 +182,9 @@ DEEL1 = [
             "je eigen standpunt rustig kunnen uitleggen",
             "kunnen luisteren zonder meteen te oordelen",
             "altijd toegeven om ruzie te vermijden",
+            "de ander laten uitspreken",
         ],
-        antwoord=[0, 1, 2],
+        antwoord=[0, 1, 2, 4],
         uitleg="Altijd toegeven is geen respect voor jezelf, en lost het meningsverschil niet op.",
     ),
     dict(
@@ -370,9 +371,15 @@ DEEL2 = [
     dict(
         type="meerkeuze",
         vraag="Welke kenmerken van geldige toestemming staan in de fiche?",
-        opties=["vrijwillig", "geïnformeerd", "bekwaam gegeven", "schriftelijk"],
-        antwoord=[0, 1, 2],
-        uitleg="Schriftelijk staat er niet. Duidelijk, specifiek en actueel wel.",
+        opties=[
+            "vrijwillig",
+            "geïnformeerd",
+            "bekwaam gegeven",
+            "schriftelijk",
+            "actueel",
+        ],
+        antwoord=[0, 1, 2, 4],
+        uitleg="Schriftelijk staat er niet. Duidelijk en specifiek staan er wel bij.",
     ),
     dict(
         type="meerkeuze",
@@ -380,11 +387,11 @@ DEEL2 = [
         opties=[
             "duidelijke afspraken over wie wat doet",
             "elkaar op de hoogte houden van de voortgang",
-            "elkaars sterke kanten gebruiken",
+            "alle taken door iedereen laten doen",
             "beslissingen zo lang mogelijk uitstellen",
         ],
-        antwoord=[0, 1, 2],
-        uitleg="Uitstellen helpt een samenwerking niet vooruit.",
+        antwoord=[0, 1],
+        uitleg="Uitstellen helpt een samenwerking niet vooruit, en alles door iedereen laten doen maakt de afspraken juist onduidelijk.",
     ),
     dict(
         type="invultekst",

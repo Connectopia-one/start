@@ -180,8 +180,9 @@ DEEL1 = [
             "de smaak van de kopers verandert",
             "er komen kopers bij of vallen er weg",
             "de prijs van het product zelf verandert",
+            "de prijs van een vervangproduct verandert",
         ],
-        antwoord=[0, 1, 2],
+        antwoord=[0, 1, 2, 4],
         uitleg="De prijs van het product zelf geeft een beweging óp de curve, geen verschuiving ervan.",
     ),
     dict(
@@ -190,11 +191,11 @@ DEEL1 = [
         opties=[
             "de productiekosten veranderen",
             "er komt een betere techniek",
-            "er komen verkopers bij",
+            "de smaak van de kopers verandert",
             "de prijs van het product zelf verandert",
         ],
-        antwoord=[0, 1, 2],
-        uitleg="Ook hier: de prijs van het product zelf laat je langs de curve bewegen.",
+        antwoord=[0, 1],
+        uitleg="De prijs van het product zelf laat je langs de curve bewegen, en de smaak van de kopers verschuift de vraagcurve, niet de aanbodcurve.",
     ),
     dict(
         type="invultekst",
@@ -374,12 +375,12 @@ DEEL2 = [
         vraag="Welke maatregelen van de overheid noemt de fiche?",
         opties=[
             "btw en accijnzen heffen",
-            "premies en subsidies uitkeren",
+            "de prijzen van alle producten zelf bepalen",
             "minimum- en maximumprijzen invoeren",
             "de productie zelf overnemen",
         ],
-        antwoord=[0, 1, 2],
-        uitleg="De productie overnemen staat niet in dit rijtje.",
+        antwoord=[0, 2],
+        uitleg="De productie overnemen of alle prijzen zelf bepalen staat niet in dit rijtje.",
     ),
     dict(
         type="meerkeuze",
@@ -387,11 +388,11 @@ DEEL2 = [
         opties=[
             "ze ligt onder de evenwichtsprijs",
             "ze geeft een tekort",
-            "ze wordt ingevoerd om iets betaalbaar te houden",
+            "ze ligt boven de evenwichtsprijs",
             "ze geeft een overschot",
         ],
-        antwoord=[0, 1, 2],
-        uitleg="Een overschot hoort bij een minimumprijs, niet bij een maximumprijs.",
+        antwoord=[0, 1],
+        uitleg="Een maximumprijs ligt onder het evenwicht en geeft een tekort. Boven het evenwicht liggen en een overschot geven, horen bij een minimumprijs.",
     ),
     dict(
         type="invultekst",
