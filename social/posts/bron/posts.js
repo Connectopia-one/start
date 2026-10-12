@@ -115,7 +115,7 @@ module.exports = [
     ],
     kaartenTwee: true,
     nadruk:
-      "<b>6 tot 12 jaar · €50 per dag</b><br>Drie trajecten van tien dagen. Later instappen kan.",
+      "<b>6 tot 15 jaar · €50 per dag</b><br>Drie trajecten van tien dagen. Later instappen kan.",
     voet: { hand: "Alles over de plusklas op", url: "connectopia.one/aanbod" },
   },
 
@@ -148,7 +148,7 @@ module.exports = [
     voet: {
       hand: "Inschrijven kan het hele jaar op",
       url: "connectopia.one/aanbod",
-      klein: "€20 per les van 1u15 · 6 tot 12 jaar",
+      klein: "€20 per les van 1u15 · 6 tot 15 jaar",
     },
   },
 
@@ -161,7 +161,7 @@ module.exports = [
     hand: "Hasselt, maandag 2 en dinsdag 3 november",
     titel: "Young<br><span>Engineer Held</span>",
     nadruk:
-      "Bij Level X 28, Vilderstraat 28. <b>Van 9u tot 15u, €40 per dag</b>, voor kinderen van 6 tot 12 jaar.",
+      "Bij Level X 28, Vilderstraat 28. <b>Van 9u tot 15u, €40 per dag</b>, voor kinderen van 6 tot 13 jaar.",
     voet: { hand: "Inschrijven op", url: "connectopia.one/aanbod" },
   },
 
@@ -214,7 +214,7 @@ module.exports = [
     hand: "Genk, woensdag 4 en donderdag 5 november",
     titel: "Creatieve<br><span>duizendpoot</span>",
     nadruk:
-      "Van techniek tot design, op T2 Campus. <b>Van 9u tot 15u, €40 per dag</b>, voor kinderen van 6 tot 12 jaar.",
+      "Van techniek tot design, op T2 Campus. <b>Van 9u tot 15u, €40 per dag</b>, voor kinderen van 6 tot 13 jaar.",
     voet: { hand: "Inschrijven op", url: "connectopia.one/aanbod" },
   },
 
@@ -283,7 +283,7 @@ module.exports = [
     hand: "Kinesist, logopedist, coach of arts?",
     titel: "Werk jij met<br><span>deze kinderen?</span>",
     tekst:
-      "Wij brengen kinderen van 6 tot 12 jaar met hoogbegaafdheid, ASS of ADHD samen met gelijkgestemden, in Hasselt en Genk.",
+      "Wij brengen kinderen van 6 tot 15 jaar met hoogbegaafdheid, ASS of ADHD samen met gelijkgestemden, in Hasselt en Genk.",
     nadruk:
       "<b>Wij stellen geen diagnoses en geven geen therapie.</b> We vullen aan wat jij doet: een plek waar een kind peers vindt, en ouders die voorbereid bij je binnenkomen.",
     voet: { hand: "Wat we voor elkaar kunnen doen:", url: "connectopia.one/professionals" },

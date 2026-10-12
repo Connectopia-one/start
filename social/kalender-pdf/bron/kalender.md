@@ -135,7 +135,7 @@ Beeld: de vierkante kamppost met de vier foto's. Tweede post van die dag, een pa
 
 > De herfstvakantie lijkt nog ver weg, maar de plaatsen zijn nu al te boeken.
 >
-> Twee kampen van twee dagen, voor kinderen van 6 tot 12 jaar die in de vakantie meer willen dan opvang.
+> Twee kampen van twee dagen, voor kinderen van 6 tot 13 jaar die in de vakantie meer willen dan opvang.
 >
 > In Hasselt, bij Level X 28 in de Vilderstraat 28: maandag 2 en dinsdag 3 november. Thema: Young Engineer Held.
 >
@@ -179,7 +179,7 @@ Beeld: de post over de externe plusklas, staat klaar. Of een foto uit de pluskla
 >
 > Een hele dag met kinderen die net zo denken als jij. Geen extra werkblaadjes bovenop de gewone leerstof, maar echt de diepte in, in trajecten van tien dagen.
 >
-> Voor kinderen van 6 tot 12 jaar. Kleine groepen, rustige ruimte, en niemand hoeft zich aan te passen om erbij te horen.
+> Voor kinderen van 6 tot 15 jaar. Kleine groepen, rustige ruimte, en niemand hoeft zich aan te passen om erbij te horen.
 >
 > Instappen kan het hele jaar door, ook nu nog. Een gratis proefles mag altijd eerst.
 >
@@ -237,7 +237,7 @@ Beeld: de Young Engineers-poster, of de vierkante post over Young Engineers. All
 >
 > Young Engineers start vanmiddag in Level X 28 in Hasselt. Bouwen, uitproberen, iets laten bewegen dat eerst niet bewoog, en er trots op zijn.
 >
-> Met LEGO® en techniek, in lessen van 1u15, voor kinderen van 6 tot 12 jaar.
+> Met LEGO® en techniek, in lessen van 1u15, voor kinderen van 6 tot 15 jaar.
 >
 > Deze week starten we ook in het Atheneum (dinsdag) en op T2 Campus in Genk (woensdag). Instappen kan het hele jaar door, dus je bent nooit te laat.
 >
@@ -265,7 +265,7 @@ Beeld: de post over het kamp in Hasselt, met de foto van de solar rover. Staat k
 >
 > Wat dat betekent? Bouwen aan iets dat echt werkt. Eerst uitzoeken hoe het in elkaar zit, dan zelf monteren, en dan testen en bijstellen tot het rijdt, draait of beweegt zoals je het wou.
 >
-> Voor kinderen van 6 tot 12 jaar, van 9u tot 15u, 40 euro per dag.
+> Voor kinderen van 6 tot 13 jaar, van 9u tot 15u, 40 euro per dag.
 >
 > www.connectopia.one/aanbod
 
@@ -305,7 +305,7 @@ Beeld: de poster van de pluswerkingen. Staat klaar.
 >
 > Namiddag: Young Engineers, bouwen en uitproberen.
 >
-> Thor Park 8040, in Genk. Voor kinderen van 6 tot 12 jaar, in kleine groepen.
+> Thor Park 8040, in Genk. Voor kinderen van 6 tot 15 jaar, in kleine groepen.
 >
 > Later instappen kan, de hele maand nog. Alles staat op www.connectopia.one/aanbod
 
@@ -367,7 +367,7 @@ Beeld: de post over het kamp in Genk, met de foto van het kartonnen robotmannetj
 >
 > Geen werkblad dat zegt hoe het moet. Wel materiaal, gereedschap en iemand die meedenkt als het niet lukt.
 >
-> Voor kinderen van 6 tot 12 jaar, van 9u tot 15u, 40 euro per dag.
+> Voor kinderen van 6 tot 13 jaar, van 9u tot 15u, 40 euro per dag.
 >
 > www.connectopia.one/aanbod
 
@@ -407,7 +407,7 @@ Beeld: foto van de ruimte in Genk waar de pluswerking doorgaat, zonder kinderen 
 >
 > Dankjewel dat we hier mogen zijn. 💚
 >
-> Woensdagvoormiddag, van negen tot twaalf, voor kinderen van 6 tot 12 jaar.
+> Woensdagvoormiddag, van negen tot twaalf, voor kinderen van 6 tot 15 jaar.
 
 ### Dag 23 — donderdag 15 oktober — herkenning
 
@@ -453,7 +453,7 @@ Beeld: opnieuw de vierkante kamppost. Tweede post van die dag.
 >
 > Hasselt, maandag 2 en dinsdag 3 november: Young Engineer Held. Genk, woensdag 4 en donderdag 5 november: Creatieve duizendpoot, van techniek tot design.
 >
-> Elke dag van 9u tot 15u, 40 euro per dag, voor kinderen van 6 tot 12 jaar. We werken in kleine groepen, dus het aantal plaatsen is beperkt.
+> Elke dag van 9u tot 15u, 40 euro per dag, voor kinderen van 6 tot 13 jaar. We werken in kleine groepen, dus het aantal plaatsen is beperkt.
 >
 > Twijfel je of het iets is voor jouw kind? Stuur ons gerust een bericht, dan denken we mee.
 >
