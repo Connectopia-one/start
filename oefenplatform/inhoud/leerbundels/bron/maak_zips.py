@@ -34,6 +34,7 @@ sys.path.insert(0, str(HIER))
 SOORTEN = [
     ("leerbundels", WORTEL / "leerbundels", "BUNDELS", "alle-leerbundels.zip"),
     ("oefenbundels", WORTEL / "oefenbundels", "OEFENBUNDELS", "alle-oefenbundels.zip"),
+    ("uitlegbladen", WORTEL / "uitlegbladen", "UITLEGBLADEN", "alle-uitlegbladen.zip"),
 ]
 
 # De sleutel `niveau` is een hele zin ("✨ Spark — 1ste en 2de middelbaar").
@@ -76,6 +77,11 @@ def lees_niveaus(sleutel):
             continue
         mod = importlib.import_module(pad.stem)
         for naam, b in getattr(mod, sleutel, {}).items():
+            if sleutel == "UITLEGBLADEN":
+                # Een uitlegblad heeft zelf geen vak en geen categorie: het
+                # erft ze van de oefenbundel waar het bij hoort.
+                naam = naam.replace("oefenbundel-", "uitlegblad-")
+                b = mod.OEFENBUNDELS[naam.replace("uitlegblad-", "oefenbundel-")]
             uit[naam] = niveau_van(b)
     return uit
 

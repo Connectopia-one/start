@@ -18,6 +18,29 @@ def slug(naam):
     return re.sub(r"[^a-z0-9]+", "-", plat.lower()).strip("-")
 
 
+def uitlegbladen(mod, filter_vak=None):
+    """De uitlegbladen van één maak_-bestand renderen.
+
+    Een uitlegblad hoort bij één oefenbundel en haalt zijn nummers daar op, dus
+    het heeft er twee nodig in plaats van één. Daarom staat het niet in de lus
+    van main().
+    """
+    gemaakt = []
+    for naam, blad in getattr(mod, "UITLEGBLADEN", {}).items():
+        b = mod.OEFENBUNDELS[naam]
+        vak = slug(b["vak"])
+        if filter_vak and vak != filter_vak:
+            continue
+        bestand = naam.replace("oefenbundel-", "uitlegblad-")
+        importlib.import_module("uitlegblad").schrijf(blad, b, bestand)
+        subprocess.run(["node", str(HIER / "pdf.js"), bestand], cwd=HIER, check=True)
+        doel = HIER.parent.parent / "uitlegbladen" / vak
+        doel.mkdir(parents=True, exist_ok=True)
+        (doel / f"{bestand}.pdf").write_bytes((HIER / f"{bestand}.pdf").read_bytes())
+        gemaakt.append(f"{doel.relative_to(HIER.parent.parent)}/{bestand}.pdf")
+    return gemaakt
+
+
 def main(filter_vak=None):
     gemaakt = []
     for pad in sorted(HIER.glob("maak_*.py")):
@@ -41,6 +64,7 @@ def main(filter_vak=None):
                 doel.mkdir(parents=True, exist_ok=True)
                 (doel / f"{naam}.pdf").write_bytes((HIER / f"{naam}.pdf").read_bytes())
                 gemaakt.append(f"{doel.relative_to(HIER.parent.parent)}/{naam}.pdf")
+        gemaakt += uitlegbladen(mod, filter_vak)
     for g in gemaakt:
         print("  ", g)
     print(len(gemaakt), "bundels")

@@ -146,23 +146,25 @@ def sqlkaarten(lijst):
 # Vanaf hier staat alles van déze ronde. Enkel dit wijzigt.
 # ════════════════════════════════════════════════════════════
 
-BESTAND = "opladen-notatie.html"
-TITEL = "Plakpagina wiskundige notatie"
-SLEUTEL = "connectopia-plakpagina-notatie-10-oktober"
-VOET = "Bijgewerkt op 11 oktober 2026"
-INTRO = """<p>Na de opmerking van Enya staat <strong>het hele oefenplatform</strong> in
-      <strong>echte wiskundige notatie</strong>: breuken met een streep, wortels, exponenten,
-      graden, en bij de wetenschappen ook de symbolen (<em>Q</em>, &#916;<em>T</em>,
-      <em>E</em><sub>p,gr</sub>) en de tekeningen erbij.</p>
-      <p>De site staat online, maar de vragen in jouw databank zijn nog de oude. Daarvoor zijn de
-      kopieerknoppen hieronder: zonder die stap blijft er bij een kind nog altijd
-      &#8220;wortel uit vijftig&#8221; staan in plaats van de formule.</p>
-      <p>Het zijn veel bestanden, want het ging over alle acht de categorie&#235;n. Je kan rustig
-      per blok werken: de vinkjes blijven staan als je de pagina sluit, ook op je telefoon.
-      De twee bovenaan stonden al op deze pagina; de rest is van vandaag.</p>
-      <p>De <strong>twee laatste blokken</strong> zijn de bundels van 7 en 8 oktober. Die zijn
-      niet veranderd, maar je vroeg ernaar, dus ze staan er apart onderaan bij: sla over wat je
-      al opgeladen hebt.</p>"""
+BESTAND = "opladen-inhoudsronde.html"
+TITEL = "Plakpagina inhoudsronde"
+SLEUTEL = "connectopia-plakpagina-inhoudsronde-13-oktober"
+VOET = "Bijgewerkt op 13 oktober 2026"
+INTRO = """<p>Deze ronde gaat over de <strong>inhoud van de vragen zelf</strong>, niet over het
+      platform. Twee dingen zijn rechtgezet.</p>
+      <p><strong>Eén.</strong> De opties van een meerkeuzevraag worden bij het tonen door elkaar
+      gezet, zodat het juiste antwoord niet altijd bovenaan staat. Maar in de uitleg stond bij
+      166 vragen nog &#8220;De eerste drie zijn juist&#8221; of &#8220;De laatste moet it rains
+      zijn&#8221;. Een kind dat die uitleg las, zag die drie niet bovenaan staan. Dat is nu
+      overal vervangen door iets dat blijft kloppen: <em>de drie juiste antwoorden</em>,
+      <em>de twee andere</em>, <em>het foute antwoord</em>.</p>
+      <p><strong>Twee.</strong> Bij Techniek ✨ Spark stonden 59 van de 66 aankruisvragen op
+      precies drie juiste antwoorden. Drieëntwintig vragen zijn herschreven naar twee of vier,
+      zodat een kind het aantal niet meer kan afleiden. Dat is het eerste vak van die lijst van
+      49; de andere volgen vak per vak, en elk vak komt op deze pagina te staan zodra het
+      helemaal af is.</p>
+      <p>Elke kaart hieronder is één bestand met één klik. De vinkjes blijven staan als je de
+      pagina sluit, ook op je telefoon.</p>"""
 
 BEYOND = "🌍 Beyond doorstroom"
 BEYOND_DF = "🌍 Beyond dubbele finaliteit"
@@ -170,171 +172,63 @@ BOOST = "🚀 Boost doorstroom"
 BOOST_DF = "🚀 Boost dubbele finaliteit"
 SPARK = "✨ Spark"
 START = "🌱 Start"
-# Let op: BASIS is hierboven de raw-link van github, vandaar NIV_BASIS.
 NIV_BASIS = "🧱 Basis"
 HOEK = "🔭 Uitdagingshoek"
 
 AL = ("Alle hoofdstukken van dit vak zitten in dit ene bestand, dus vervangen moet aan. "
       "De voortgang van de kinderen blijft staan.")
-ERBIJ = ("Dit bestand raakt enkel zijn eigen hoofdstukken aan; de andere hoofdstukken van het "
-         "vak blijven ongemoeid.")
+WISSEL = ("De wisselende woorden van de grammaticahoofdstukken zitten er al in, dus je hoeft "
+          "het aparte variantenbestand er niet meer bij te doen. " + AL)
 
 # (afvinksleutel, naam, categorie, map, bestandsnaam, waarom, [etiket])
-# De sleutels wg-beyond en fy-beyond stonden al op de pagina van 10 oktober:
-# laat ze staan zoals ze zijn, anders verliest Kim haar vinkje erop.
 VR_BEYOND = [
-    ("wg-beyond", "Wiskunde gevorderd", BEYOND, "beyond", "wiskunde-gevorderd", AL),
-    ("fy-beyond", "Fysica", BEYOND, "beyond", "fysica", AL),
-    ("st-beyond", "Statistiek", BEYOND, "beyond", "statistiek", AL),
-    ("ch-beyond", "Chemie", BEYOND, "beyond", "chemie",
-     "De scheikunde blijft met kleine cijfertjes geschreven (SO₄²⁻, H₂O); enkel het rekenwerk "
-     "eromheen is formule geworden. " + AL),
-    ("nw-beyond", "Natuurwetenschappen", BEYOND, "beyond", "natuurwetenschappen", AL),
+    ("u-fr-be", "Filosofie en recht", BEYOND, "beyond", "filosofie-en-recht",
+     "Hier zaten de meeste: 69 vragen begonnen met &#8220;De eerste twee.&#8221; " + AL),
+    ("u-fy-be", "Fysica", BEYOND, "beyond", "fysica", AL),
+    ("u-gs-be", "Geschiedenis", BEYOND, "beyond", "geschiedenis", AL),
+    ("u-nw-be", "Natuurwetenschappen", BEYOND, "beyond", "natuurwetenschappen", AL),
+    ("u-en-be", "Engels", BEYOND, "beyond", "engels", AL),
+    ("u-frs-be", "Frans", BEYOND, "beyond", "frans", AL),
 ]
 VR_BEYOND_DF = [
-    ("wi-bdf", "Wiskunde", BEYOND_DF, "beyond-dubbele-finaliteit", "wiskunde", AL),
-    ("nw-bdf", "Natuurwetenschappen", BEYOND_DF, "beyond-dubbele-finaliteit",
-     "natuurwetenschappen", AL),
+    ("u-nl-bdf", "Nederlands", BEYOND_DF, "beyond-dubbele-finaliteit", "nederlands", AL),
+    ("u-en-bdf", "Engels", BEYOND_DF, "beyond-dubbele-finaliteit", "engels", AL),
+    ("u-frs-bdf", "Frans", BEYOND_DF, "beyond-dubbele-finaliteit", "frans", AL),
 ]
 VR_BOOST = [
-    ("wb-boost", "Wiskunde basis", BOOST, "boost-doorstroom", "wiskunde-basis", AL),
-    ("wg-boost", "Wiskunde gevorderd", BOOST, "boost-doorstroom", "wiskunde-gevorderd", AL),
-    ("fy-boost", "Fysica", BOOST, "boost-doorstroom", "fysica", AL),
-    ("ch-boost", "Chemie", BOOST, "boost-doorstroom", "chemie", AL),
-    ("nw-boost", "Natuurwetenschappen", BOOST, "boost-doorstroom", "natuurwetenschappen", AL),
+    ("u-nl-bo", "Nederlands", BOOST, "boost-doorstroom", "nederlands", WISSEL),
+    ("u-en-bo", "Engels", BOOST, "boost-doorstroom", "engels", WISSEL),
+    ("u-frs-bo", "Frans", BOOST, "boost-doorstroom", "frans", AL),
+    ("u-gs-bo", "Geschiedenis", BOOST, "boost-doorstroom", "geschiedenis", AL),
+    ("u-ec-bo", "Economie", BOOST, "boost-doorstroom", "economie", AL),
+    ("u-sgw-bo", "Sociale en gedragswetenschappen", BOOST, "boost-doorstroom",
+     "sociale-en-gedragswetenschappen", AL),
+    ("u-wb-bo", "Wiskunde basis", BOOST, "boost-doorstroom", "wiskunde-basis", AL),
 ]
 VR_BOOST_DF = [
-    ("wi-sdf", "Wiskunde", BOOST_DF, "boost-dubbele-finaliteit", "wiskunde", AL),
-    ("nw-sdf", "Natuurwetenschappen", BOOST_DF, "boost-dubbele-finaliteit",
+    ("u-nl-sdf", "Nederlands", BOOST_DF, "boost-dubbele-finaliteit", "nederlands", WISSEL),
+    ("u-en-sdf", "Engels", BOOST_DF, "boost-dubbele-finaliteit", "engels", WISSEL),
+    ("u-gs-sdf", "Geschiedenis", BOOST_DF, "boost-dubbele-finaliteit", "geschiedenis", AL),
+    ("u-nw-sdf", "Natuurwetenschappen", BOOST_DF, "boost-dubbele-finaliteit",
      "natuurwetenschappen", AL),
+    ("u-gzw-sdf", "Gezondheid, zorg en welzijn", BOOST_DF, "boost-dubbele-finaliteit",
+     "gezondheid-zorg-en-welzijn", AL),
 ]
 VR_SPARK = [
-    ("wi-spark", "Wiskunde", SPARK, "spark", "wiskunde",
-     "Meetkunde en metend rekenen zitten hier in, met hun tekeningen. " + AL),
-    ("wu-spark", "Wiskunde — het uitdagingshoofdstuk", SPARK, "uitdaging",
-     "spark-wiskunde-uitdaging",
-     "Open hetzelfde vak Wiskunde. " + ERBIJ),
-    ("nw-spark", "Natuurwetenschappen", SPARK, "spark", "natuurwetenschappen", AL),
-    ("nu-spark", "Natuurwetenschappen — het uitdagingshoofdstuk", SPARK, "uitdaging",
-     "spark-natuurwetenschappen-uitdaging",
-     "Open hetzelfde vak Natuurwetenschappen. " + ERBIJ),
-    ("te-spark", "Techniek", SPARK, "spark", "techniek", AL),
-]
-VR_START = [
-    ("wi-start", "Wiskunde — de eerste reeks", START, "start", "wiskunde",
-     "Doe deze eerst, met vervangen aan: hij zet de twintig eerste vragen per hoofdstuk."),
-    ("wx-start", "Wiskunde — de tweede reeks", START, "start", "wiskunde-extra",
-     "Doe deze meteen daarna, en zet vervangen nu UIT: hij legt de twintig andere vragen "
-     "erbij, zodat je weer aan veertig per hoofdstuk komt.", "zet vervangen UIT"),
-    ("wr-start", "Wiskunde — Rekenen en breuken", START, "start",
-     "wiskunde-rekenen-en-breuken",
-     "Het gratis proefhoofdstuk, 37 vragen. Open hetzelfde vak Wiskunde. " + ERBIJ),
-    ("wp-start", "Wiskunde — de pittige hoofdstukken", START, "pittig",
-     "start-wiskunde-pittig", "Open hetzelfde vak Wiskunde. " + ERBIJ),
-    ("wu-start", "Wiskunde — het uitdagingshoofdstuk", START, "uitdaging",
-     "start-wiskunde-uitdaging", "Open hetzelfde vak Wiskunde. " + ERBIJ),
-    ("wt-start", "Wetenschap en techniek", START, "start", "wetenschap-en-techniek", AL),
-    ("tp-start", "Wetenschap en techniek — de pittige hoofdstukken", START, "pittig",
-     "start-wetenschap-en-techniek-pittig",
-     "Open hetzelfde vak Wetenschap en techniek. " + ERBIJ),
-    ("tu-start", "Wetenschap en techniek — het uitdagingshoofdstuk", START, "uitdaging",
-     "start-wetenschap-en-techniek-uitdaging",
-     "Open hetzelfde vak Wetenschap en techniek. " + ERBIJ),
-]
-VR_BASIS = [
-    ("wi-basis", "Wiskunde — de tien hoofdstukken", NIV_BASIS, "basis", "wiskunde", AL),
-    ("wx-basis", "Wiskunde — kommagetallen en breuken in beeld", NIV_BASIS, "basis",
-     "wiskunde-extra",
-     "De twee hoofdstukken die er later bij kwamen. Open hetzelfde vak Wiskunde. " + ERBIJ),
-]
-VR_HOEK = [
-    ("hr-hoek", "De ruimte", HOEK, "hoekje", "de-ruimte", AL),
-    ("hc-hoek", "Coderen en computers", HOEK, "hoekje", "coderen-en-computers", AL),
-    ("hp-hoek", "Paradoxen en weetjes", HOEK, "hoekje", "paradoxen-en-weetjes", AL),
-]
-
-# (afvinksleutel, naam, categorie, zipnaam)
-LEER_OM = [
-    ("l-wg", "Wiskunde gevorderd", BEYOND, "wiskunde-gevorderd-beyond"),
-    ("l-fy", "Fysica", BEYOND, "fysica-beyond"),
-    ("l-st", "Statistiek", BEYOND, "statistiek-beyond"),
-    ("l-ch", "Chemie", BEYOND, "chemie-beyond"),
-    ("l-nw", "Natuurwetenschappen", BEYOND, "natuurwetenschappen-beyond"),
-    ("l-wibdf", "Wiskunde", BEYOND_DF, "wiskunde-beyond-dubbele-finaliteit"),
-    ("l-nwbdf", "Natuurwetenschappen", BEYOND_DF, "natuurwetenschappen-beyond-dubbele-finaliteit"),
-    ("l-wbbo", "Wiskunde basis", BOOST, "wiskunde-basis-boost-doorstroom"),
-    ("l-wgbo", "Wiskunde gevorderd", BOOST, "wiskunde-gevorderd-boost-doorstroom"),
-    ("l-fybo", "Fysica", BOOST, "fysica-boost-doorstroom"),
-    ("l-chbo", "Chemie", BOOST, "chemie-boost-doorstroom"),
-    ("l-nwbo", "Natuurwetenschappen", BOOST, "natuurwetenschappen-boost-doorstroom"),
-    ("l-wisdf", "Wiskunde", BOOST_DF, "wiskunde-boost-dubbele-finaliteit"),
-    ("l-nwsdf", "Natuurwetenschappen", BOOST_DF, "natuurwetenschappen-boost-dubbele-finaliteit"),
-    ("l-wisp", "Wiskunde", SPARK, "wiskunde-spark"),
-    ("l-nwsp", "Natuurwetenschappen", SPARK, "natuurwetenschappen-spark"),
-    ("l-wist", "Wiskunde", START, "wiskunde-start"),
-    ("l-wiba", "Wiskunde", NIV_BASIS, "wiskunde-basis"),
-]
-OEF_OM = [
-    ("o-wg", "Wiskunde gevorderd", BEYOND, "wiskunde-gevorderd-beyond"),
-    ("o-fy", "Fysica", BEYOND, "fysica-beyond"),
-    ("o-st", "Statistiek", BEYOND, "statistiek-beyond"),
-    ("o-ch", "Chemie", BEYOND, "chemie-beyond"),
-    ("o-nw", "Natuurwetenschappen", BEYOND, "natuurwetenschappen-beyond"),
-    ("o-wibdf", "Wiskunde", BEYOND_DF, "wiskunde-beyond-dubbele-finaliteit"),
-    ("o-nwbdf", "Natuurwetenschappen", BEYOND_DF, "natuurwetenschappen-beyond-dubbele-finaliteit"),
-    ("o-wbbo", "Wiskunde basis", BOOST, "wiskunde-basis-boost-doorstroom"),
-    ("o-wgbo", "Wiskunde gevorderd", BOOST, "wiskunde-gevorderd-boost-doorstroom"),
-    ("o-fybo", "Fysica", BOOST, "fysica-boost-doorstroom"),
-    ("o-chbo", "Chemie", BOOST, "chemie-boost-doorstroom"),
-    ("o-nwbo", "Natuurwetenschappen", BOOST, "natuurwetenschappen-boost-doorstroom"),
-    ("o-wisdf", "Wiskunde", BOOST_DF, "wiskunde-boost-dubbele-finaliteit"),
-    ("o-nwsdf", "Natuurwetenschappen", BOOST_DF, "natuurwetenschappen-boost-dubbele-finaliteit"),
-    ("o-wisp", "Wiskunde", SPARK, "wiskunde-spark"),
-    ("o-nwsp", "Natuurwetenschappen", SPARK, "natuurwetenschappen-spark"),
-    ("o-wist", "Wiskunde", START, "wiskunde-start"),
-]
-LEER_NIEUW = [
-    ("l-sgw", "Sociale en gedragswetenschappen", BEYOND, "sociale-en-gedragswetenschappen-beyond-doorstroom"),
-    ("l-fr", "Filosofie en recht", BEYOND, "filosofie-en-recht-beyond-doorstroom"),
-]
-OEF_NIEUW = [
-    ("o-sgw", "Sociale en gedragswetenschappen", BEYOND, "sociale-en-gedragswetenschappen-beyond-doorstroom"),
-    ("o-fr", "Filosofie en recht", BEYOND, "filosofie-en-recht-beyond-doorstroom"),
-]
-
-# De vakken van de plakpagina's van 7 oktober (acht Boost-vakken) en 8 oktober
-# (de zes talen- en aardrijkskundevakken van 🌍 Beyond). Hun bundels zijn in de
-# notatieronde niet aangeraakt, dus ze horen er strikt niet bij; Kim vroeg er op
-# 11 oktober 2026 zelf naar, dus ze staan onderaan, apart van het nieuwe werk.
-# Wiskunde basis 🚀 Boost doorstroom ontbreekt hier: die is vandaag herbouwd en
-# staat dus al bij de blokken hierboven.
-VORIG = [
-    ("fr-bo", "Frans", BOOST, "frans-boost-doorstroom"),
-    ("sgw-bo", "Sociale en gedragswetenschappen", BOOST,
-     "sociale-en-gedragswetenschappen-boost-doorstroom"),
-    ("kbf-bo", "Kunstbeschouwing en filosofie", BOOST,
-     "kunstbeschouwing-en-filosofie-boost-doorstroom"),
-    ("tec-sdf", "Toegepaste economie", BOOST_DF,
-     "toegepaste-economie-boost-dubbele-finaliteit"),
-    ("ebw-sdf", "Economie en bedrijfswetenschappen", BOOST_DF,
-     "economie-en-bedrijfswetenschappen-boost-dubbele-finaliteit"),
-    ("gzw-sdf", "Gezondheid, zorg en welzijn", BOOST_DF,
-     "gezondheid-zorg-en-welzijn-boost-dubbele-finaliteit"),
-    ("oph-sdf", "Ontwikkeling en pedagogisch handelen", BOOST_DF,
-     "ontwikkeling-en-pedagogisch-handelen-boost-dubbele-finaliteit"),
-    ("ak-be", "Aardrijkskunde", BEYOND, "aardrijkskunde-beyond"),
-    ("en-be", "Engels", BEYOND, "engels-beyond"),
-    ("fr-be", "Frans", BEYOND, "frans-beyond"),
-    ("ak-bdf", "Aardrijkskunde", BEYOND_DF, "aardrijkskunde-beyond-dubbele-finaliteit"),
-    ("en-bdf", "Engels", BEYOND_DF, "engels-beyond-dubbele-finaliteit"),
-    ("fr-bdf", "Frans", BEYOND_DF, "frans-beyond-dubbele-finaliteit"),
+    ("u-te-sp", "Techniek", SPARK, "spark", "techniek",
+     "Dit is het vak waar ook het aantal juiste antwoorden rechtgetrokken is: 23 vragen "
+     "staan nu op twee of vier in plaats van drie. " + AL),
+    ("u-nl-sp", "Nederlands", SPARK, "spark", "nederlands", WISSEL),
+    ("u-gs-sp", "Geschiedenis", SPARK, "spark", "geschiedenis", AL),
+    ("u-nw-sp", "Natuurwetenschappen", SPARK, "spark", "natuurwetenschappen", AL),
+    ("u-se-sp", "Samenleving en economie", SPARK, "spark", "samenleving-en-economie", AL),
 ]
 
 WEG = ('Open <span class="pad">Beheer</span>, <span class="pad">Vakken</span>, '
        'categorie <span class="pad">%s</span>, dan het vak, dan '
        '<span class="pad">Vragen importeren</span>. Plak met ctrl+V en zet '
-       '<span class="pad">Bestaande vragen vervangen</span> aan, tenzij het bij de kaart '
-       'anders staat. Zonder dat vinkje krijg je de vragen dubbel.')
+       '<span class="pad">Bestaande vragen vervangen</span> aan. Zonder dat vinkje krijg je '
+       'de vragen dubbel.')
 
 SECTIES = [
     dict(kop="🌍 Beyond doorstroom", uitleg=WEG % BEYOND, kaarten=vraagkaarten(VR_BEYOND)),
@@ -344,40 +238,6 @@ SECTIES = [
     dict(kop="🚀 Boost dubbele finaliteit", uitleg=WEG % BOOST_DF,
          kaarten=vraagkaarten(VR_BOOST_DF)),
     dict(kop="✨ Spark", uitleg=WEG % SPARK, kaarten=vraagkaarten(VR_SPARK)),
-    dict(kop="🌱 Start", uitleg=WEG % START + " Bij wiskunde is de volgorde hier wél "
-         "belangrijk: eerst de eerste reeks met vervangen aan, dan de tweede met het "
-         "vinkje uit.", kaarten=vraagkaarten(VR_START)),
-    dict(kop="🧱 Basis", uitleg=WEG % NIV_BASIS, kaarten=vraagkaarten(VR_BASIS)),
-    dict(kop="🔭 De uitdagingshoek", uitleg=WEG % HOEK, kaarten=vraagkaarten(VR_HOEK)),
-    dict(kop="De leerbundels van die vakken vervangen",
-         uitleg="Ga naar <span class=\"pad\">Beheer</span>, <span class=\"pad\">Leerstof</span>. "
-                "Pak de zip uit en sleep alle pdf&#8217;s er in één keer in: het formulier zoekt "
-                "zelf het juiste hoofdstuk en vraagt of het de oude mag vervangen. Zeg ja, want "
-                "in de oude staat de theorie nog in woorden.",
-         kaarten=zipkaarten(LEER_OM, "leerbundels", "leerbundels")),
-    dict(kop="En hun oefenbundels",
-         uitleg="Zelfde plek en zelfde werkwijze. Deze zijn niet alleen in notatie herschreven, "
-                "ze zijn ook zwaarder geworden: meer echt rekenwerk en minder begrippen. "
-                "🧱 Basis staat hier niet bij, want dat niveau heeft nog geen oefenbundels.",
-         kaarten=zipkaarten(OEF_OM, "oefenbundels", "oefenbundels")),
-    dict(kop="Twee vakken die nog geen enkele bundel hebben",
-         uitleg="Sociale en gedragswetenschappen en filosofie en recht staan wel in het "
-                "oefenplatform, maar er hangt nog geen leerstof aan. Hier is er niets te "
-                "vervangen, je laadt ze gewoon op. Twintig leerbundels per vak.",
-         kaarten=zipkaarten(LEER_NIEUW, "leerbundels", "leerbundels")),
-    dict(kop="En hun oefenbundels",
-         uitleg="Zelfde twee vakken, zelfde werkwijze. Twintig oefenbundels per vak, elk met een "
-                "antwoordblad achteraan dat je eraf scheurt voor je ze aan een kind geeft.",
-         kaarten=zipkaarten(OEF_NIEUW, "oefenbundels", "oefenbundels")),
-    dict(kop="Van de vorige rondes: leerbundels",
-         uitleg="Deze zijn níet veranderd door de notatie, dus normaal heb je ze al. Ze staan "
-                "hier alleen omdat je vroeg of de bundels van ervoor er ook bij zaten. Sla over "
-                "wat je al opgeladen hebt — bij twijfel mag je ze gewoon opnieuw opladen, het "
-                "formulier vraagt dan of het de oude mag vervangen.",
-         kaarten=zipkaarten(VORIG, "leerbundels", "leerbundels", voor="oud-l-")),
-    dict(kop="Van de vorige rondes: oefenbundels",
-         uitleg="Dezelfde dertien vakken, dezelfde werkwijze.",
-         kaarten=zipkaarten(VORIG, "oefenbundels", "oefenbundels", voor="oud-o-")),
 ]
 
 
