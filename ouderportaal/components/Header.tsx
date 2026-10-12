@@ -19,7 +19,17 @@ type Rol = "ouder" | "beheerder" | "leerkracht";
 */
 function menuLinks(rol: Rol) {
   const lijst = [{ href: "/portaal/kalender", tekst: "Kalender" }];
-  if (rol !== "leerkracht") {
+  /*
+    "Mijn gezin" is het gezin van wie ingelogd is. Een beheerder heeft dat niet:
+    die beheert gezinnen, hij is er geen. Stond die link er toch, dan kwam Kim
+    op haar eigen beheerdersaccount terecht en vulde ze de fiche van haar zoon
+    daar in, terwijl Beheer het echte gezin toonde. Zie
+    connectopia-kim-twee-accounts in het geheugen.
+
+    Tijdens het meekijken met een gezin is de rol wél "ouder" (zie
+    lib/auth.ts), dus dan staat de link er gewoon en kom je bij dat gezin uit.
+  */
+  if (rol === "ouder") {
     lijst.push({ href: "/portaal/gezin", tekst: "Mijn gezin" });
   }
   if (rol === "leerkracht") {

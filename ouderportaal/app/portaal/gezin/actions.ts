@@ -4,6 +4,7 @@ import { redirect } from "next/navigation";
 import { revalidatePath } from "next/cache";
 import { requirePortaalSessie } from "@/lib/auth";
 import { createAdminClient, kolomOntbreekt } from "@/lib/supabase/admin";
+import { ficheUitFormulier } from "@/lib/fiche";
 
 const PAD = "/portaal/gezin";
 
@@ -61,30 +62,6 @@ async function gezinVanDitScherm() {
   return sessie.userId;
 }
 
-/*
-  De velden van de inlichtingenfiche die bij een kamp horen. Ze staan apart
-  omdat voegKindToe en wijzigKind er allebei exact hetzelfde mee doen; wie er
-  een veld bij zet, zet het hier en nergens anders.
-*/
-function fichevelden(formData: FormData) {
-  const tekst = (naam: string) =>
-    String(formData.get(naam) || "").trim() || null;
-
-  return {
-    medicatie: tekst("medicatie"),
-    huisarts_naam: tekst("huisarts_naam"),
-    huisarts_telefoon: tekst("huisarts_telefoon"),
-    noodcontact2_naam: tekst("noodcontact2_naam"),
-    noodcontact2_telefoon: tekst("noodcontact2_telefoon"),
-    ophalen: tekst("ophalen"),
-    alleen_naar_huis: formData.get("alleen_naar_huis") === "on",
-    eten: tekst("eten"),
-    wat_helpt: tekst("wat_helpt"),
-    school: tekst("school"),
-    leerjaar: tekst("leerjaar"),
-  };
-}
-
 export async function wijzigContactgegevens(formData: FormData) {
   const gezinId = await gezinVanDitScherm();
   const telefoon = String(formData.get("telefoon") || "").trim() || null;
@@ -102,20 +79,10 @@ export async function wijzigContactgegevens(formData: FormData) {
 
 export async function voegKindToe(formData: FormData) {
   const gezinId = await gezinVanDitScherm();
-  const naam = String(formData.get("naam") || "").trim();
-  if (!naam) terug("Vul de naam van je kind in, de rest mag leeg blijven.", true);
-
-  const geboortedatum =
-    String(formData.get("geboortedatum") || "").trim() || null;
-  const allergieen = String(formData.get("allergieen") || "").trim() || null;
-  const diagnoses = String(formData.get("diagnoses") || "").trim() || null;
-  const noodcontactNaam =
-    String(formData.get("noodcontact_naam") || "").trim() || null;
-  const noodcontactTelefoon =
-    String(formData.get("noodcontact_telefoon") || "").trim() || null;
-  const toestemmingFotos = formData.get("toestemming_fotos") === "on";
-  const toestemmingSocialMedia =
-    formData.get("toestemming_social_media") === "on";
+  const fiche = ficheUitFormulier(formData);
+  if (!fiche.naam) {
+    terug("Vul de naam van je kind in, de rest mag leeg blijven.", true);
+  }
 
   const admin = createAdminClient();
 
@@ -126,46 +93,28 @@ export async function voegKindToe(formData: FormData) {
     .select("naam")
     .eq("profile_id", gezinId);
   const alGekend = (bestaande ?? []).some(
-    (k: { naam: string }) => k.naam.trim().toLowerCase() === naam.toLowerCase(),
+    (k: { naam: string }) =>
+      k.naam.trim().toLowerCase() === fiche.naam.toLowerCase(),
   );
   if (alGekend) {
-    terug(`${naam} stond er al. We hebben niets dubbel toegevoegd.`);
+    terug(`${fiche.naam} stond er al. We hebben niets dubbel toegevoegd.`);
   }
 
-  const { error } = await admin.from("kinderen").insert({
-    profile_id: gezinId,
-    naam,
-    geboortedatum,
-    allergieen,
-    diagnoses,
-    noodcontact_naam: noodcontactNaam,
-    noodcontact_telefoon: noodcontactTelefoon,
-    toestemming_fotos: toestemmingFotos,
-    toestemming_social_media: toestemmingSocialMedia,
-    ...fichevelden(formData),
-  });
+  const { error } = await admin
+    .from("kinderen")
+    .insert({ profile_id: gezinId, ...fiche });
 
-  if (error) terug(`${naam} is niet toegevoegd: ${uitleg(error)}`, true);
-  terug(`${naam} is toegevoegd.`);
+  if (error) terug(`${fiche.naam} is niet toegevoegd: ${uitleg(error)}`, true);
+  terug(`${fiche.naam} is toegevoegd.`);
 }
 
 export async function wijzigKind(formData: FormData) {
   const gezinId = await gezinVanDitScherm();
   const kindId = String(formData.get("kind_id") || "");
-  const naam = String(formData.get("naam") || "").trim();
-  if (!naam) terug("De naam mag niet leeg zijn, de rest van de fiche wel.", true);
-
-  const geboortedatum =
-    String(formData.get("geboortedatum") || "").trim() || null;
-  const allergieen = String(formData.get("allergieen") || "").trim() || null;
-  const diagnoses = String(formData.get("diagnoses") || "").trim() || null;
-  const noodcontactNaam =
-    String(formData.get("noodcontact_naam") || "").trim() || null;
-  const noodcontactTelefoon =
-    String(formData.get("noodcontact_telefoon") || "").trim() || null;
-  const toestemmingFotos = formData.get("toestemming_fotos") === "on";
-  const toestemmingSocialMedia =
-    formData.get("toestemming_social_media") === "on";
+  const fiche = ficheUitFormulier(formData);
+  if (!fiche.naam) {
+    terug("De naam mag niet leeg zijn, de rest van de fiche wel.", true);
+  }
 
   const admin = createAdminClient();
   /*
@@ -176,31 +125,22 @@ export async function wijzigKind(formData: FormData) {
   */
   const { data: aangepast, error } = await admin
     .from("kinderen")
-    .update({
-      naam,
-      geboortedatum,
-      allergieen,
-      diagnoses,
-      noodcontact_naam: noodcontactNaam,
-      noodcontact_telefoon: noodcontactTelefoon,
-      toestemming_fotos: toestemmingFotos,
-      toestemming_social_media: toestemmingSocialMedia,
-      ...fichevelden(formData),
-      updated_at: new Date().toISOString(),
-    })
+    .update({ ...fiche, updated_at: new Date().toISOString() })
     .eq("id", kindId)
     .eq("profile_id", gezinId)
     .select("id");
 
-  if (error) terug(`De fiche van ${naam} is niet bewaard: ${uitleg(error)}`, true);
+  if (error) {
+    terug(`De fiche van ${fiche.naam} is niet bewaard: ${uitleg(error)}`, true);
+  }
   if (!aangepast || aangepast.length === 0) {
     terug(
-      `De fiche van ${naam} is niet bewaard: we vonden dit kind niet terug bij dit gezin. ` +
+      `De fiche van ${fiche.naam} is niet bewaard: we vonden dit kind niet terug bij dit gezin. ` +
         `Laad de bladzijde opnieuw en probeer nog eens.`,
       true,
     );
   }
-  terug(`De fiche van ${naam} is bewaard.`);
+  terug(`De fiche van ${fiche.naam} is bewaard.`);
 }
 
 export async function verwijderKind(formData: FormData) {

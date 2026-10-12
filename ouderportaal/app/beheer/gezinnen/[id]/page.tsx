@@ -5,7 +5,14 @@ import { Header } from "@/components/Header";
 import { FicheRegels } from "@/components/FicheRegels";
 import { type Kind, KINDVELDEN, watOntbreekt } from "@/lib/kind";
 import { FicheStand } from "@/components/FicheStand";
-import { upsertToegang, verwijderGezin, wijzigWachtwoord } from "../actions";
+import {
+  upsertToegang,
+  verwijderGezin,
+  wijzigWachtwoord,
+  wijzigKindAlsBeheerder,
+  voegKindToeAlsBeheerder,
+} from "../actions";
+import { KindVelden } from "@/components/KindVelden";
 import { zetDeelnames } from "../../activiteiten/actions";
 import { mailadresVan } from "@/lib/mailadressen";
 import { Kopieer } from "../../aanvragen/Kopieer";
@@ -237,6 +244,22 @@ export default async function GezinDetailPage({
                   </span>
                 </div>
 
+                {/* De fiche hier meteen kunnen aanpassen. Vroeger kon dat enkel
+                    door eerst met dit gezin mee te kijken, en dat is precies
+                    hoe een fiche op het verkeerde profiel belandt. Dichtgeklapt,
+                    want bij vijf kinderen wordt deze bladzijde anders eindeloos. */}
+                <details className="mt-3 border-t border-border pt-3">
+                  <summary className="cursor-pointer text-sm font-medium text-forest-dark">
+                    Fiche aanpassen
+                  </summary>
+                  <KindVelden
+                    action={wijzigKindAlsBeheerder}
+                    kind={kind}
+                    gezinId={gezin.id}
+                    submitLabel="Bewaren"
+                  />
+                </details>
+
                 {/* Waar hoort dit kind bij? Vink aan en bewaar; het kind komt
                     dan op de lijst van elk aangevinkt kamp of elke les. */}
                 {activiteiten.length > 0 && (
@@ -284,6 +307,19 @@ export default async function GezinDetailPage({
               </div>
             ))}
           </div>
+
+          {/* Een gezin dat zijn fiche niet zelf invult, kan Kim er hier zelf
+              bij zetten in plaats van eerst mee te moeten kijken. */}
+          <details className="mt-4 rounded-lg border border-dashed border-border-strong bg-surface p-4">
+            <summary className="cursor-pointer text-sm font-medium text-forest-dark">
+              Kind toevoegen
+            </summary>
+            <KindVelden
+              action={voegKindToeAlsBeheerder}
+              gezinId={gezin.id}
+              submitLabel="Toevoegen"
+            />
+          </details>
         </section>
 
         <div className="mt-6 space-y-3">
