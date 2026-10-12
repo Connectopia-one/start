@@ -100,7 +100,7 @@ DEEL1 = [
                  "beiden vinden dat de mens door natuurwetten volledig vastligt",
                  "beiden ontkennen dat de mens ergens verantwoordelijk voor is"],
          antwoord=[0, 1],
-         uitleg="De eerste twee. Het zijn twee stemmen uit dezelfde hoek, met een ander accent: "
+         uitleg="Het zijn twee stemmen uit dezelfde hoek, met een ander accent: "
                 "geworpenheid tegenover keuze."),
     dict(type="meerkeuze",
          vraag="Waarom hoort het existentialisme niet bij het determinisme?",
@@ -118,7 +118,7 @@ DEEL1 = [
                  "vrijheid betekent bij hem dat je alles kan wat je wil",
                  "vrijheid geldt bij hem enkel voor wie geen zorgen heeft"],
          antwoord=[0, 1],
-         uitleg="De eerste twee. Zijn vrijheid is geen gemak maar een last: er is niemand anders "
+         uitleg="Zijn vrijheid is geen gemak maar een last: er is niemand anders "
                 "aan wie je je keuzes kan toeschrijven."),
     dict(type="meerkeuze",
          vraag="Wat is het verschil tussen de vrijheid bij de Stoïcijnen en die bij Sartre?",
@@ -264,7 +264,7 @@ DEEL2 = [
                  "alle vijf verdedigen dat de mens volledig vrij is",
                  "alle vijf ontkennen dat de mens ergens vrij in is"],
          antwoord=[0, 1],
-         uitleg="De eerste twee. De vijf staan juist op een rij van heel veel naar heel weinig "
+         uitleg="De vijf staan juist op een rij van heel veel naar heel weinig "
                 "vrijheid."),
     dict(type="meerkeuze",
          vraag="Welke uitspraken over dit debat in de 20ste eeuw kloppen?",
@@ -273,7 +273,7 @@ DEEL2 = [
                  "de vraag is er door de wetenschap definitief beslecht",
                  "de natuurwetten zijn er het enige dat nog ter sprake komt"],
          antwoord=[0, 1],
-         uitleg="De eerste twee. Waar de 17de eeuw naar de natuurwetten keek, kijkt de 20ste eeuw "
+         uitleg="Waar de 17de eeuw naar de natuurwetten keek, kijkt de 20ste eeuw "
                 "naar verlangens, gewoonten, macht en hersenen."),
     dict(type="meerkeuze",
          vraag="Een rechter zegt: ik straf niet om te vergelden maar om herhaling te voorkomen. "

@@ -97,7 +97,7 @@ DEEL1 = [
                  "gezagsstructuren die door de kolonisator werden vervangen",
                  "een snelle verspreiding van algemeen stemrecht"],
          antwoord=[0, 1, 2],
-         uitleg="Stemrecht kwam er juist niet: de bevolking had geen politieke rechten. De eerste drie werken tot vandaag door."),
+         uitleg="Stemrecht kwam er juist niet: de bevolking had geen politieke rechten. De drie juiste antwoorden werken tot vandaag door."),
     dict(type="meerkeuze",
          vraag="Wat betekent het dat koloniale grenzen vaak met een lat getrokken lijken?",
          opties=["ze volgden Europese afspraken en geen bestaande samenlevingen",

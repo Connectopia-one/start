@@ -53,7 +53,7 @@ VERVANGINGEN = {
                     "Omdat er buiten Europa geen bronnen bestaan",
                     "Omdat andere werelddelen geen geschiedenis hebben"],
             antwoord=[0, 1],
-            uitleg="De eerste twee: de indeling is plaatsgebonden. De andere twee kloppen niet — overal zijn bronnen en overal is geschiedenis.")),
+            uitleg="De indeling is plaatsgebonden. De twee andere kloppen niet — overal zijn bronnen en overal is geschiedenis.")),
         (11, dict(
             vraag="In welke maatschappelijke domeinen situeer je de verovering van Alexander de Grote?",
             opties=["politiek, want het gaat over macht en gezag",
@@ -69,7 +69,7 @@ VERVANGINGEN = {
             opties=["om warmte en licht te geven", "om roofdieren op afstand te houden",
                     "om voedsel beter verteerbaar te maken", "om metaal te smelten"],
             antwoord=[0, 1, 2],
-            uitleg="De eerste drie. Metaal bewerken komt pas veel later; in de prehistorie werkte men met steen en hout.")),
+            uitleg="Metaal bewerken komt pas veel later; in de prehistorie werkte men met steen en hout.")),
         (11, dict(
             vraag="Wat vind je terug op prehistorische grotschilderingen?",
             opties=["paarden, bizons en herten", "handafdrukken", "jachttaferelen",
@@ -82,7 +82,7 @@ VERVANGINGEN = {
                     "Ze trokken mee met het voedsel", "Er was een taakverdeling in de groep",
                     "Ze woonden in dorpen met voorraadschuren"],
             antwoord=[0, 1, 2],
-            uitleg="De eerste drie. Dorpen en voorraden komen er pas met de landbouw, duizenden jaren later.")),
+            uitleg="Dorpen en voorraden komen er pas met de landbouw, duizenden jaren later.")),
     ],
     "De prehistorie — deel 2": [
         (2, dict(
@@ -103,7 +103,7 @@ VERVANGINGEN = {
             opties=["Ziektes sprongen makkelijker over", "Eén misoogst kon hongersnood betekenen",
                     "Er ontstond ongelijkheid in bezit", "Men kon geen voedsel meer bewaren"],
             antwoord=[0, 1, 2],
-            uitleg="De eerste drie. Bewaren kon juist wél, en net dat bewaarde bezit maakte het verschil tussen arm en rijk.")),
+            uitleg="Bewaren kon juist wél, en net dat bewaarde bezit maakte het verschil tussen arm en rijk.")),
         (14, dict(
             vraag="Welke sporen uit het neolithicum liggen er bij ons nog in het landschap?",
             opties=["hunebedden", "grafheuvels", "piramides", "aquaducten"],
@@ -283,7 +283,7 @@ VERVANGINGEN = {
                     "De winnaar beschrijft een slag anders dan de verliezer",
                     "Omdat een bron zonder naam altijd onbruikbaar is"],
             antwoord=[0, 1, 2],
-            uitleg="Een bron zonder naam kan nog altijd veel vertellen. De eerste drie zijn juist de reden waarom je altijd naar de maker kijkt.")),
+            uitleg="Een bron zonder naam kan nog altijd veel vertellen. De drie juiste antwoorden zijn precies de reden waarom je altijd naar de maker kijkt.")),
         (19, dict(
             vraag="Wat kan een kunst- of cultuuruiting zijn?",
             opties=["een schilderij", "een gebouw", "een film of een game",

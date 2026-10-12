@@ -39,7 +39,7 @@ DEEL1 = [
                  "a terraced house",
                  "a roundabout"],
          antwoord=[0, 1, 2],
-         uitleg="De eerste drie zijn woonvormen: de gelijkvloerse verdieping, een halfopen bebouwing en een rijhuis. A roundabout is een rotonde."),
+         uitleg="De drie juiste antwoorden zijn woonvormen: de gelijkvloerse verdieping, een halfopen bebouwing en een rijhuis. A roundabout is een rotonde."),
     dict(type="waarofniet",
          vraag="In het Brits Engels is the first floor de gelijkvloerse verdieping.",
          antwoord=False,

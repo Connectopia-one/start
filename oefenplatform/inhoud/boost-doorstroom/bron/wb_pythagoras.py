@@ -52,7 +52,7 @@ DEEL1 = [
                  r"\(8\), \(15\) en \(17\)",
                  r"\(2\), \(3\) en \(4\)"],
          antwoord=[0, 1, 2],
-         uitleg=r"Bij de eerste drie klopt de som van de kwadraten. Bij \(2\), \(3\) en \(4\) is \(4 + 9 = 13\) en niet \(16\)."),
+         uitleg=r"Bij de drie juiste antwoorden klopt de som van de kwadraten. Bij \(2\), \(3\) en \(4\) is \(4 + 9 = 13\) en niet \(16\)."),
     dict(type="meerkeuze",
          vraag=r"Hoe bewijs je dat een driehoek met zijden \(9\), \(12\) en \(15\) rechthoekig is?",
          opties=[r"\(9^{2} + 12^{2} = 225\)",

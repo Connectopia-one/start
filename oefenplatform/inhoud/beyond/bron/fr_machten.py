@@ -101,7 +101,7 @@ DEEL1 = [
                  "de regering maakt de wetten en het parlement voert ze uit",
                  "de rechterlijke macht mag nieuwe wetten schrijven"],
          antwoord=[0, 1],
-         uitleg="De eerste twee. Dat is de kern van de verdeling: maken, uitvoeren, toepassen."),
+         uitleg="Dat is de kern van de verdeling: maken, uitvoeren, toepassen."),
     dict(type="meerkeuze",
          vraag="Welke uitspraken over de scheiding der machten kloppen?",
          opties=["ze is een van de principes van een democratische rechtsstaat",
@@ -109,7 +109,7 @@ DEEL1 = [
                  "ze betekent dat de drie machten niets met elkaar te maken hebben",
                  "ze betekent dat elke macht de andere twee kan afzetten"],
          antwoord=[0, 1],
-         uitleg="De eerste twee. De machten raken elkaar wel degelijk: daar gaat de controle en "
+         uitleg="De machten raken elkaar wel degelijk: daar gaat de controle en "
                 "het evenwicht over."),
     dict(type="meerkeuze",
          vraag="Waarom spreekt men van een scheiding en niet van een afzondering?",
@@ -248,7 +248,7 @@ DEEL2 = [
                  "een parlement dat de regering ondervraagt, is er een voorbeeld van",
                  "een rechter die zijn vonnis motiveert, is er een voorbeeld van"],
          antwoord=[0, 1],
-         uitleg="De eerste twee. De twee andere zijn juist voorbeelden van hoe het systeem hoort "
+         uitleg="De twee andere zijn juist voorbeelden van hoe het systeem hoort "
                 "te werken."),
     dict(type="meerkeuze",
          vraag="Welke uitspraken over de rechterlijke macht kloppen?",
@@ -257,7 +257,7 @@ DEEL2 = [
                  "zij staat onder het gezag van de minister van Justitie",
                  "zij kan de regering naar huis sturen na een onwelkom vonnis"],
          antwoord=[0, 1],
-         uitleg="De eerste twee. De minister organiseert justitie als dienst, maar beslist nooit "
+         uitleg="De minister organiseert justitie als dienst, maar beslist nooit "
                 "hoe een rechter moet oordelen."),
     dict(type="meerkeuze",
          vraag="Waarom kan een burger zijn eigen overheid voor de rechter brengen?",

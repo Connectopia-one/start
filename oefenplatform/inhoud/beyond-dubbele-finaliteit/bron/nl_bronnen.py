@@ -121,7 +121,7 @@ DEEL1 = [
             "is de informatie recent of verouderd?",
         ],
         antwoord=[0, 1],
-        uitleg="De laatste twee gaan over de inhoud zelf. De eerste twee over wat de zender met je wil.",
+        uitleg="De twee juiste antwoorden gaan over wat de zender met je wil. De twee andere over de inhoud zelf.",
     ),
     dict(
         type="waarofniet",

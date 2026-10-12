@@ -34,7 +34,7 @@ DEEL1 = [
             "Een reclamefilmpje",
         ],
         antwoord=[0, 1, 2],
-        uitleg="De eerste drie informeren. Een reclamefilmpje wil je overtuigen of beïnvloeden.",
+        uitleg="De drie juiste antwoorden informeren. Een reclamefilmpje wil je overtuigen of beïnvloeden.",
     ),
     dict(
         type="invultekst",
@@ -70,7 +70,7 @@ DEEL1 = [
             "Een veiligheidsvoorschrift in een bedrijf",
         ],
         antwoord=[0, 1, 2],
-        uitleg="De eerste drie vertellen wat er gebeurd is. Een veiligheidsvoorschrift geeft instructies.",
+        uitleg="De drie juiste antwoorden vertellen wat er gebeurd is. Een veiligheidsvoorschrift geeft instructies.",
     ),
     dict(
         type="meerkeuze",

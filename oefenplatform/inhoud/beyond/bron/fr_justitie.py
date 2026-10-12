@@ -111,7 +111,7 @@ DEEL1 = [
                  "conflictbeslechting komt enkel in strafzaken voor",
                  "veiligheid is de enige functie die de fiche noemt"],
          antwoord=[0, 1],
-         uitleg="De eerste twee. Conflictbeslechting is net typisch voor het burgerlijk recht."),
+         uitleg="Conflictbeslechting is net typisch voor het burgerlijk recht."),
     dict(type="meerkeuze",
          vraag="Welke uitspraken over de principes van de rechtspraak kloppen?",
          opties=["openbaarheid is de regel, met uitzonderingen voor bijzondere belangen",
@@ -119,7 +119,7 @@ DEEL1 = [
                  "hoor en wederhoor betekent dat elke zaak twee keer behandeld wordt",
                  "de onpartijdigheid van een rechter hangt af van het soort zaak"],
          antwoord=[0, 1],
-         uitleg="De eerste twee. Hoor en wederhoor gaat over antwoorden kunnen geven, niet over "
+         uitleg="Hoor en wederhoor gaat over antwoorden kunnen geven, niet over "
                 "een tweede behandeling."),
     dict(type="meerkeuze",
          vraag="Hoe draagt justitie bij aan meer rechtvaardigheid en gelijkheid?",
@@ -259,7 +259,7 @@ DEEL2 = [
                  "beide verbieden je om ooit iets aan iemand te melden",
                  "beide staan voor elk beroep in de strafwet opgeschreven"],
          antwoord=[0, 1],
-         uitleg="De eerste twee. Het beroepsgeheim kent uitzonderingen, en net die maken de "
+         uitleg="Het beroepsgeheim kent uitzonderingen, en net die maken de "
                 "casussen zo moeilijk."),
     dict(type="meerkeuze",
          vraag="Welke uitspraken over deontologie en wetgeving kloppen?",
@@ -268,7 +268,7 @@ DEEL2 = [
                  "een code vervangt de wet voor wie dat beroep uitoefent",
                  "wie zich aan de code houdt, staat automatisch buiten de wet"],
          antwoord=[0, 1],
-         uitleg="De eerste twee. Een code komt bovenop de wet en nooit in haar plaats."),
+         uitleg="Een code komt bovenop de wet en nooit in haar plaats."),
     dict(type="meerkeuze",
          vraag="Waarom is een deontologische code nooit een lijst met kant-en-klare antwoorden?",
          opties=["plichten kunnen in één situatie tegen elkaar in gaan",

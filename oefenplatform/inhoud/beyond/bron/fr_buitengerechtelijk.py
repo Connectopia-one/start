@@ -116,7 +116,7 @@ DEEL1 = [
                  "de bemiddelaar legt de oplossing op die hem het beste lijkt",
                  "bemiddeling kan enkel na een vonnis van de rechtbank"],
          antwoord=[0, 1],
-         uitleg="De eerste twee. Door die bekrachtiging krijgt het akkoord dezelfde kracht als "
+         uitleg="Door die bekrachtiging krijgt het akkoord dezelfde kracht als "
                 "een vonnis."),
     dict(type="meerkeuze",
          vraag="Welke uitspraken over buitengerechtelijke procedures kloppen?",
@@ -125,7 +125,7 @@ DEEL1 = [
                  "ze zijn in elk geschil verplicht voor je naar de rechter mag",
                  "ze leiden nooit tot iets dat de partijen bindt"],
          antwoord=[0, 1],
-         uitleg="De eerste twee. In familiezaken wordt wel eerst naar bemiddeling gekeken, maar "
+         uitleg="In familiezaken wordt wel eerst naar bemiddeling gekeken, maar "
                 "een algemene verplichting is er niet."),
     dict(type="waarofniet",
          vraag="Bij bemiddeling beslist de bemiddelaar wat er moet gebeuren.",
@@ -255,7 +255,7 @@ DEEL2 = [
                  "de tweede lijn geeft enkel informatie en geen echte bijstand",
                  "de eerste lijn behandelt je zaak tot bij de rechter"],
          antwoord=[0, 1],
-         uitleg="De eerste twee. De fiche noemt ook gratis consulten bij advocaten als een vorm van "
+         uitleg="De fiche noemt ook gratis consulten bij advocaten als een vorm van "
                 "eerstelijnsbijstand."),
     dict(type="meerkeuze",
          vraag="Welke uitspraken over conflictoplossing kloppen?",
@@ -264,7 +264,7 @@ DEEL2 = [
                  "elk geschil moet eerst bij een arbiter voorgelegd worden",
                  "wie naar een bemiddelaar gaat, geeft zijn rechten op"],
          antwoord=[0, 1],
-         uitleg="De eerste twee. Een bemiddeling die mislukt, sluit de weg naar de rechter niet "
+         uitleg="Een bemiddeling die mislukt, sluit de weg naar de rechter niet "
                 "af."),
     dict(type="waarofniet",
          vraag="Bij juridische eerstelijnsbijstand krijg je kort advies en geen dossierbehandeling.",

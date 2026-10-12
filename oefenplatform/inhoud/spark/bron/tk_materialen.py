@@ -42,9 +42,9 @@ DEEL1 = [
     dict(
         type="meerkeuze",
         vraag="Welke van deze zijn legeringen?",
-        opties=["Brons", "Messing", "Inox", "Koper", "Aluminium"],
-        antwoord=[0, 1, 2],
-        uitleg="Brons, messing en inox zijn mengsels van metalen, dus legeringen. Koper en aluminium zijn enkelvoudige metalen: die bestaan uit één metaal.",
+        opties=["Brons", "Messing", "Inox", "Staal", "Aluminium"],
+        antwoord=[0, 1, 2, 3],
+        uitleg="Brons, messing, inox en staal zijn allemaal mengsels, dus legeringen; staal is ijzer met koolstof erin. Aluminium is een enkelvoudig metaal: dat bestaat uit één metaal.",
     ),
     dict(
         type="meerkeuze",
@@ -97,9 +97,9 @@ DEEL1 = [
     dict(
         type="meerkeuze",
         vraag="Welke van deze metalen zijn non-ferrometalen?",
-        opties=["Aluminium", "Koper", "Lood", "Staal", "Gietijzer"],
-        antwoord=[0, 1, 2],
-        uitleg="Non-ferro betekent zonder ijzer. Aluminium, koper en lood bevatten geen ijzer. Staal en gietijzer wel, dat zijn ferrometalen.",
+        opties=["Aluminium", "Koper", "Lood", "Zink", "Gietijzer"],
+        antwoord=[0, 1, 2, 3],
+        uitleg="Non-ferro betekent zonder ijzer. Aluminium, koper, lood en zink bevatten geen ijzer. Gietijzer wel, dat is een ferrometaal.",
     ),
     dict(
         type="waarofniet",
@@ -214,12 +214,12 @@ DEEL2 = [
         opties=[
             "Hardheid",
             "Treksterkte",
-            "Broosheid",
+            "Warmtegeleiding",
             "Smeltpunt",
             "Elektrische geleiding",
         ],
-        antwoord=[0, 1, 2],
-        uitleg="Hardheid, treksterkte en broosheid zijn mechanisch. Het smeltpunt is een fysische eigenschap, de elektrische geleiding een elektrische.",
+        antwoord=[0, 1],
+        uitleg="Hardheid en treksterkte zijn mechanisch: ze zeggen hoe het materiaal zich houdt onder een kracht. De warmtegeleiding en het smeltpunt zijn fysisch, de elektrische geleiding is elektrisch.",
     ),
     dict(
         type="waarofniet",

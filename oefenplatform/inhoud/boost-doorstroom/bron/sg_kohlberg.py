@@ -236,7 +236,7 @@ DEEL2 = [
                  "regels zijn afspraken die je kan wegen",
                  "ik doe het omdat het nu eenmaal zo hoort"],
          antwoord=[0, 1, 2],
-         uitleg="De eerste drie wegen een beginsel af tegen de regel. De laatste zin is conventioneel."),
+         uitleg="De drie juiste antwoorden wegen een beginsel af tegen de regel. Het foute antwoord is conventioneel."),
     dict(type="meerkeuze",
          vraag="Wat leert de vakfiche over de orde van de stadia?",
          opties=["ze volgen elkaar vast op",

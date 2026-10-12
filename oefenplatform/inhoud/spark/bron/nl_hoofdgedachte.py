@@ -53,7 +53,7 @@ DEEL1 = [
             "Kinderen smeren te veel crème, en dat is soms ongezond.",
         ],
         antwoord=[0, 1, 2],
-        uitleg="De eerste drie zijn korte onderwerpen. De laatste is een volledige zin met een boodschap erin: dat is een hoofdgedachte.",
+        uitleg="De drie juiste antwoorden zijn korte onderwerpen. Het foute antwoord is een volledige zin met een boodschap erin: dat is een hoofdgedachte.",
     ),
     dict(
         type="meerkeuze",
@@ -227,7 +227,7 @@ DEEL2 = [
             "De fietsenstalling is blauw geschilderd",
         ],
         antwoord=[0, 1, 2],
-        uitleg="De eerste drie ondersteunen 'gezonder' en 'sneller'. De kleur van de stalling doet er niets toe.",
+        uitleg="De drie juiste antwoorden ondersteunen 'gezonder' en 'sneller'. De kleur van de stalling doet er niets toe.",
     ),
     dict(
         type="waarofniet",

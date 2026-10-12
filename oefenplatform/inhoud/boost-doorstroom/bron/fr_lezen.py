@@ -252,7 +252,7 @@ DEEL2 = [
                  "Je suis élève en quatrième année.",
                  "Je cherche un stage de deux semaines."],
          antwoord=[0, 1],
-         uitleg="De eerste twee zijn vaste formules die je in elke brief kan gebruiken. De andere twee geven echte informatie."),
+         uitleg="De twee juiste antwoorden zijn vaste formules die je in elke brief kan gebruiken. De andere twee geven echte informatie."),
     dict(type="waarofniet",
          vraag="De schrijver van de stagebrief zegt waarom juist dat labo hem of haar interesseert.",
          antwoord=True,

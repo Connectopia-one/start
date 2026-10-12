@@ -27,7 +27,7 @@ DEEL1 = [
                  "He watches TV.",
                  "It rain a lot here."],
          antwoord=[0, 1, 2],
-         uitleg="De eerste drie hebben de juiste uitgang. De laatste moet it rains zijn."),
+         uitleg="De drie juiste antwoorden hebben de juiste uitgang. Het foute antwoord moet it rains zijn."),
     dict(type="invultekst",
          vraag="Vul in: My brother ... to school by bus. Gebruik to go in de present simple. Eén woord.",
          antwoord=["goes"],

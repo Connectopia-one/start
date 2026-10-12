@@ -111,7 +111,7 @@ DEEL1 = [
                  "in two years",
                  "last night"],
          antwoord=[0, 1, 2],
-         uitleg="De eerste drie liggen vooruit. Last night ligt achter ons en vraagt een past simple."),
+         uitleg="De drie juiste antwoorden liggen vooruit. Last night ligt achter ons en vraagt een past simple."),
     dict(type="waarofniet",
          vraag="Je kan de present continuous gebruiken voor een afspraak in de toekomst.",
          antwoord=True,

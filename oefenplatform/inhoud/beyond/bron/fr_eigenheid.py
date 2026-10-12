@@ -89,7 +89,7 @@ DEEL1 = [
                  "filosofie vervangt de wetenschappen zodra die een vraag niet kunnen oplossen",
                  "filosofie levert zelf meetgegevens aan over de natuur"],
          antwoord=[0, 1],
-         uitleg="De eerste twee: ze onderzoekt de grond onder een wetenschap en ze stelt vragen "
+         uitleg="ze onderzoekt de grond onder een wetenschap en ze stelt vragen "
                 "die buiten het bereik van een meting liggen. Ze vervangt geen wetenschap en ze "
                 "meet zelf niet."),
     dict(type="meerkeuze",
@@ -218,7 +218,7 @@ DEEL2 = [
                  "ze heeft precies één antwoord waar iedereen het over eens is",
                  "ze gaat altijd over een gebeurtenis uit het verleden"],
          antwoord=[0, 1],
-         uitleg="De eerste twee. Een filosofische vraag valt niet met een meting te beslechten en "
+         uitleg="Een filosofische vraag valt niet met een meting te beslechten en "
                 "raakt aan de begrippen zelf. Eén antwoord waar iedereen het over eens is, is er "
                 "net niet."),
     dict(type="meerkeuze",
@@ -228,7 +228,7 @@ DEEL2 = [
                  "hoeveel gevangenen zitten er vandaag in België?",
                  "welke rechtbank behandelt een diefstal van een fiets?"],
          antwoord=[0, 1],
-         uitleg="De eerste twee raken aan een begrip en zijn met geen opzoeking te beslechten. Het "
+         uitleg="De twee juiste antwoorden raken aan een begrip en zijn met geen opzoeking te beslechten. Het "
                 "aantal gevangenen en de bevoegde rechtbank zijn gewoon op te zoeken."),
     dict(type="meerkeuze",
          vraag="Welke van deze vragen is géén filosofische vraag?",

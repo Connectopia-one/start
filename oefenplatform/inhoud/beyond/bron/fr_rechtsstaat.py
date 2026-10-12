@@ -111,7 +111,7 @@ DEEL1 = [
                  "rechtsstaat en democratie betekenen precies hetzelfde",
                  "een rechtsstaat veronderstelt altijd verkiezingen"],
          antwoord=[0, 1],
-         uitleg="De eerste twee. Daarom staan de twee woorden in de fiche naast elkaar en niet "
+         uitleg="Daarom staan de twee woorden in de fiche naast elkaar en niet "
                 "door elkaar."),
     dict(type="meerkeuze",
          vraag="Welke uitspraken over de grondwet kloppen?",
@@ -120,7 +120,7 @@ DEEL1 = [
                  "ze bevat alle wetten van een land bij elkaar",
                  "ze wordt door de regering alleen vastgelegd"],
          antwoord=[0, 1],
-         uitleg="De eerste twee. Haar taak is de macht afbakenen, niet alle regels van het land "
+         uitleg="Haar taak is de macht afbakenen, niet alle regels van het land "
                 "bevatten."),
     dict(type="meerkeuze",
          vraag="Waarom hoort een onafhankelijke rechtspraak bij een rechtsstaat?",
@@ -259,7 +259,7 @@ DEEL2 = [
                  "ze kunnen door een gewone meerderheid afgeschaft worden",
                  "ze gelden enkel tegenover andere burgers en niet tegenover de overheid"],
          antwoord=[0, 1],
-         uitleg="De eerste twee. Juist tegenover de overheid hebben ze hun hele bestaansreden."),
+         uitleg="Juist tegenover de overheid hebben ze hun hele bestaansreden."),
     dict(type="meerkeuze",
          vraag="Welke uitspraken over onafhankelijkheid en onpartijdigheid kloppen?",
          opties=["onafhankelijkheid gaat over de verhouding met de andere machten",
@@ -267,7 +267,7 @@ DEEL2 = [
                  "beide woorden betekenen in het recht precies hetzelfde",
                  "een onafhankelijke rechter mag de wet naast zich leggen"],
          antwoord=[0, 1],
-         uitleg="De eerste twee. Een rechter kan onafhankelijk zijn van de regering en toch "
+         uitleg="Een rechter kan onafhankelijk zijn van de regering en toch "
                 "partijdig in één zaak."),
     dict(type="meerkeuze",
          vraag="Waarom noemt men een rechtsstaat ook een bescherming van de burger?",

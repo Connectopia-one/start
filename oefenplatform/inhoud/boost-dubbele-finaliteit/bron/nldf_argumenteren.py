@@ -42,7 +42,7 @@ DEEL1 = [
             "de gemeente doet veel te weinig voor jongeren",
         ],
         antwoord=[0, 1, 2],
-        uitleg="De eerste drie kan je opzoeken of meten. De laatste is een oordeel: 'veel te weinig' is wat iemand vindt.",
+        uitleg="De drie juiste antwoorden kan je opzoeken of meten. Het foute antwoord is een oordeel: 'veel te weinig' is wat iemand vindt.",
     ),
     dict(
         type="waarofniet",

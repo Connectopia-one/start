@@ -35,10 +35,11 @@ DEEL1 = [
             "Een recept om een cake te bakken",
             "Een stappenplan om een boterham te smeren",
             "De code van een computerspel",
+            "De handleiding om een bouwpakket in elkaar te zetten",
             "Een foto van een afgewerkte taart",
         ],
-        antwoord=[0, 1, 2],
-        uitleg="Het recept en het computerspel staan allebei als voorbeeld in de fiche. Een foto is geen stappenplan.",
+        antwoord=[0, 1, 2, 3],
+        uitleg="Een algoritme is een eindige reeks stappen naar een doel. Het recept en het computerspel staan als voorbeeld in de fiche; een stappenplan en een handleiding zijn precies hetzelfde idee. Een foto toont enkel het resultaat en zegt niet welke stappen je zette.",
     ),
     dict(
         type="waarofniet",
@@ -113,11 +114,12 @@ DEEL1 = [
         opties=[
             "Je formuleert de probleemstelling",
             "Je analyseert het probleem met IPO",
+            "Je deelt een groot probleem op in kleinere deelproblemen",
             "Je test het algoritme uit",
             "Je koopt eerst een nieuwe computer",
         ],
-        antwoord=[0, 1, 2],
-        uitleg="De fiche noemt die drie, plus het probleem eventueel opdelen in kleinere deelproblemen en bijsturen waar nodig.",
+        antwoord=[0, 1, 2, 3],
+        uitleg="De fiche noemt die vier stappen, plus bijsturen waar nodig. Een nieuwe computer kopen hoort er niet bij: een algoritme ontwerp je op papier, los van de machine waarop het straks draait.",
     ),
     dict(
         type="meerkeuze",

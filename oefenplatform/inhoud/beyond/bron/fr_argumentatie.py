@@ -125,7 +125,7 @@ DEEL1 = [
                  "een ware conclusie maakt een redenering altijd geldig",
                  "een ongeldige redenering heeft altijd een onwaar besluit"],
          antwoord=[0, 1],
-         uitleg="De eerste twee. Ook een ongeldige redenering kan per ongeluk bij iets waars "
+         uitleg="Ook een ongeldige redenering kan per ongeluk bij iets waars "
                 "uitkomen; ze bewijst het alleen niet."),
     dict(type="waarofniet",
          vraag="De modus ponens bevestigt het antecedens en is geldig.",
@@ -250,7 +250,7 @@ DEEL2 = [
                  "een drogreden is altijd met opzet gebruikt",
                  "een drogreden heeft altijd een onwaar besluit"],
          antwoord=[0, 1],
-         uitleg="De eerste twee. Wie een drogreden gebruikt, doet dat vaak zonder het te merken, "
+         uitleg="Wie een drogreden gebruikt, doet dat vaak zonder het te merken, "
                 "en het besluit kan om een andere reden best juist zijn."),
     dict(type="meerkeuze",
          vraag="Hoe weerleg je een drogreden het best in een gesprek?",

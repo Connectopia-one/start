@@ -111,7 +111,7 @@ DEEL1 = [
             "De zon ging onder.",
         ],
         antwoord=[0, 1, 2],
-        uitleg="De eerste drie gebruiken 'als' of 'zoals'. De laatste zin is gewoon een vaststelling.",
+        uitleg="De drie juiste antwoorden gebruiken 'als' of 'zoals'. Het foute antwoord is gewoon een vaststelling.",
     ),
     dict(
         type="invultekst",

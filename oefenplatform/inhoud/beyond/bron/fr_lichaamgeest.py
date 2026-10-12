@@ -95,7 +95,7 @@ DEEL1 = [
                  "beiden vinden dat de ziel het lichaam overleeft",
                  "Aristoteles ontkent dat er zoiets als een ziel is"],
          antwoord=[0, 1],
-         uitleg="De eerste twee. Aristoteles ontkent de ziel niet, hij maakt haar onlosmakelijk "
+         uitleg="Aristoteles ontkent de ziel niet, hij maakt haar onlosmakelijk "
                 "met het lichaam verbonden."),
     dict(type="meerkeuze",
          vraag="Een vriend zegt: mijn lichaam is gewoon het voertuig waarin ik rondrijd. Welke "
@@ -226,7 +226,7 @@ DEEL2 = [
                  "beiden nemen twee gescheiden werkelijkheden aan",
                  "Spinoza ontkent dat mensen kunnen denken"],
          antwoord=[0, 1],
-         uitleg="De eerste twee. Ze gebruiken dezelfde twee begrippen en verschillen over de "
+         uitleg="Ze gebruiken dezelfde twee begrippen en verschillen over de "
                 "vraag of die twee werkelijkheden zijn of twee kanten van één."),
     dict(type="meerkeuze",
          vraag="Zet de vier filosofen op de juiste kant. Wie zijn de monisten?",

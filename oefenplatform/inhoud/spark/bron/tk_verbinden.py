@@ -25,11 +25,11 @@ DEEL1 = [
             "Een boutverbinding",
             "Een lasverbinding",
             "Een lijmverbinding",
-            "Een beitsverbinding",
+            "Een soldeerverbinding",
             "Een schuurverbinding",
         ],
-        antwoord=[0, 1, 2],
-        uitleg="Beitsen en schuren zijn afwerkingstechnieken, geen manieren om twee stukken aan elkaar te zetten.",
+        antwoord=[0, 1, 2, 3],
+        uitleg="Bouten, lassen, lijmen en solderen zetten twee stukken aan elkaar. Schuren is een afwerkingstechniek, geen verbinding.",
     ),
     dict(
         type="meerkeuze",
@@ -299,7 +299,7 @@ DEEL2 = [
             "Een elektrisch toestel bedienen met natte handen",
         ],
         antwoord=[0, 1, 2],
-        uitleg="De eerste drie staan als goede werkwijze in de fiche. Natte handen en elektriciteit gaan nooit samen.",
+        uitleg="De drie juiste antwoorden staan als goede werkwijze in de fiche. Natte handen en elektriciteit gaan nooit samen.",
     ),
     dict(
         type="waarofniet",

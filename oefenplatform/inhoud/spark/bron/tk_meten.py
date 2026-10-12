@@ -51,11 +51,12 @@ DEEL1 = [
             "Een weegschaal",
             "Een thermometer",
             "Een multimeter",
+            "Een schuifmaat",
             "Een stappenplan",
             "Een IPO-model",
         ],
-        antwoord=[0, 1, 2],
-        uitleg="Een meetinstrument geeft een waarde met een eenheid. Een stappenplan en een IPO-model zijn hulpmiddelen: die helpen je denken, niet meten.",
+        antwoord=[0, 1, 2, 3],
+        uitleg="Een meetinstrument geeft een waarde met een eenheid: de weegschaal massa, de thermometer temperatuur, de multimeter spanning of stroom, de schuifmaat lengte. Een stappenplan en een IPO-model zijn hulpmiddelen: die helpen je denken, niet meten.",
     ),
     dict(
         type="waarofniet",
@@ -126,9 +127,9 @@ DEEL1 = [
     dict(
         type="meerkeuze",
         vraag="Welke voorvoegsels maken een eenheid kleiner?",
-        opties=["deci", "centi", "milli", "kilo", "hecto"],
-        antwoord=[0, 1, 2],
-        uitleg="Deci is een tiende, centi een honderdste en milli een duizendste. Kilo, hecto en deca maken een eenheid juist groter.",
+        opties=["deci", "centi", "milli", "micro", "kilo", "hecto"],
+        antwoord=[0, 1, 2, 3],
+        uitleg="Deci is een tiende, centi een honderdste, milli een duizendste en micro een miljoenste. Kilo, hecto en deca maken een eenheid juist groter.",
     ),
     dict(
         type="meerkeuze",

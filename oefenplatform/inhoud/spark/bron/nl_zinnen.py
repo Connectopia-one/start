@@ -124,7 +124,7 @@ DEEL1 = [
         vraag="Welke woorden maken een zin ontkennend?",
         opties=["niet", "geen", "nooit", "altijd"],
         antwoord=[0, 1, 2],
-        uitleg="'Altijd' bevestigt net. De eerste drie draaien de betekenis om.",
+        uitleg="'Altijd' bevestigt net. De drie juiste antwoorden draaien de betekenis om.",
     ),
     dict(
         type="meerkeuze",
@@ -319,7 +319,7 @@ DEEL2 = [
             "Na de training ging hij meteen slapen.",
         ],
         antwoord=[0, 1, 2],
-        uitleg="De eerste drie hebben twee persoonsvormen. De laatste zin heeft er maar één: 'ging'.",
+        uitleg="De drie juiste antwoorden hebben twee persoonsvormen. Het foute antwoord heeft er maar één: 'ging'.",
     ),
     dict(
         type="meerkeuze",

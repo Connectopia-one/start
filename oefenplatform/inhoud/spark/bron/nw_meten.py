@@ -36,7 +36,7 @@ DEEL1 = [
             "Elektrische toestellen met natte handen bedienen",
         ],
         antwoord=[0, 1, 2],
-        uitleg="De eerste drie sparen energie, materiaal en milieu. Natte handen en elektriciteit gaan nooit samen: dat is net gevaarlijk.",
+        uitleg="De drie juiste antwoorden sparen energie, materiaal en milieu. Natte handen en elektriciteit gaan nooit samen: dat is net gevaarlijk.",
     ),
     dict(
         type="waarofniet",
@@ -257,7 +257,7 @@ DEEL2 = [
             "Een dynamometer voor de waterdiepte",
         ],
         antwoord=[0, 1, 2],
-        uitleg="De eerste drie passen bij wat je wil weten. Een dynamometer meet kracht en zegt niets over diepte; daarvoor gebruik je een meetlat of een peilstok.",
+        uitleg="De drie juiste antwoorden passen bij wat je wil weten. Een dynamometer meet kracht en zegt niets over diepte; daarvoor gebruik je een meetlat of een peilstok.",
     ),
     dict(
         type="waarofniet",

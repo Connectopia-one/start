@@ -118,7 +118,7 @@ DEEL1 = [
                  "beide standpunten zeggen hetzelfde met andere woorden",
                  "het universalisme ontkent dat er culturele verschillen bestaan"],
          antwoord=[0, 1],
-         uitleg="De eerste twee. Een universalist kan de verschillen gerust vaststellen; hij vindt "
+         uitleg="Een universalist kan de verschillen gerust vaststellen; hij vindt "
                 "alleen dat sommige regels daar niet van afhangen."),
     dict(type="meerkeuze",
          vraag="Welke uitspraken over waarden en normen kloppen?",
@@ -127,7 +127,7 @@ DEEL1 = [
                  "waarden en normen zijn twee woorden voor precies hetzelfde",
                  "een waarde is altijd een regel die ergens opgeschreven staat"],
          antwoord=[0, 1],
-         uitleg="De eerste twee. Respect voor ouderen is overal een waarde; hoe je dat hoort te "
+         uitleg="Respect voor ouderen is overal een waarde; hoe je dat hoort te "
                 "laten zien, verschilt."),
     dict(type="waarofniet",
          vraag="Een norm is concreter dan de waarde waaruit ze volgt.",
@@ -271,7 +271,7 @@ DEEL2 = [
                  "de descriptieve beslist welke morele opvatting de juiste is",
                  "de normatieve beperkt zich tot het meten van wat mensen vinden"],
          antwoord=[0, 1],
-         uitleg="De eerste twee. Het is-ought probleem zegt juist dat je van de eerste niet "
+         uitleg="Het is-ought probleem zegt juist dat je van de eerste niet "
                 "zomaar naar de tweede kan oversteken."),
     dict(type="waarofniet",
          vraag="De descriptieve ethiek beschrijft welke morele opvattingen mensen hebben.",

@@ -148,12 +148,12 @@ DEEL1 = [
         vraag="Welke uitspraken over een elektrische waterkoker kloppen?",
         opties=[
             "Hij zet elektrische energie om in warmte",
-            "Er komt ook wat geluid vrij",
+            "Het water koelt daarbij langzaam af",
             "De warmte is hier de nuttige energie",
             "Het licht van het controlelampje is de nuttige energie",
         ],
-        antwoord=[0, 1, 2],
-        uitleg="Bij een waterkoker is warmte precies wat je wilt, dus is warmte hier de nuttige energie. Bij een lamp is dat net omgekeerd.",
+        antwoord=[0, 2],
+        uitleg="Bij een waterkoker is warmte precies wat je wilt, dus is warmte hier de nuttige energie. Het water warmt op en koelt niet af, en het controlelampje is verlies.",
     ),
     dict(
         type="waarofniet",
@@ -221,9 +221,9 @@ DEEL2 = [
     dict(
         type="meerkeuze",
         vraag="Welke van deze zijn fossiele brandstoffen?",
-        opties=["Steenkool", "Aardgas", "Aardolie", "Wind", "Waterkracht"],
-        antwoord=[0, 1, 2],
-        uitleg="Fossiele brandstoffen zijn miljoenen jaren geleden in de grond ontstaan uit resten van planten en dieren. Wind en waterkracht zijn hernieuwbaar.",
+        opties=["Steenkool", "Aardgas", "Aardolie", "Bruinkool", "Waterkracht"],
+        antwoord=[0, 1, 2, 3],
+        uitleg="Fossiele brandstoffen zijn miljoenen jaren geleden in de grond ontstaan uit resten van planten en dieren. Bruinkool is net als steenkool uit veen ontstaan, alleen minder diep. Waterkracht is hernieuwbaar.",
     ),
     dict(
         type="meerkeuze",

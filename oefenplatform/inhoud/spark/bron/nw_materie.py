@@ -259,7 +259,7 @@ DEEL2 = [
             "Een appel die bruin wordt",
         ],
         antwoord=[0, 1, 2],
-        uitleg="Bij de eerste drie blijft de stof zichzelf. Een appel die bruin wordt, reageert met zuurstof uit de lucht: dat is chemisch.",
+        uitleg="Bij de drie juiste antwoorden blijft de stof zichzelf. Een appel die bruin wordt, reageert met zuurstof uit de lucht: dat is chemisch.",
     ),
     dict(
         type="meerkeuze",

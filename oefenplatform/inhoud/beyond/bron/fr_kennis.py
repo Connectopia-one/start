@@ -65,7 +65,7 @@ DEEL1 = [
                  "een verhaal is altijd minder betrouwbaar dan een zintuiglijke waarneming",
                  "introspectie geeft als enige bron altijd zekerheid"],
          antwoord=[0, 1],
-         uitleg="De eerste twee. Bronnen werken samen, en elk van de vijf kan je bedriegen: ook je "
+         uitleg="Bronnen werken samen, en elk van de vijf kan je bedriegen: ook je "
                 "geheugen, ook je ogen, ook je blik naar binnen."),
     dict(type="meerkeuze",
          vraag="Wat zien de gevangenen in de grotallegorie van Plato?",
@@ -232,7 +232,7 @@ DEEL2 = [
                  "inductie geeft meer zekerheid dan deductie, omdat ze op feiten steunt",
                  "deductie levert als enige nieuwe kennis over de wereld op"],
          antwoord=[0, 1],
-         uitleg="De eerste twee. Deductie is zeker maar leert niets nieuws over de wereld; "
+         uitleg="Deductie is zeker maar leert niets nieuws over de wereld; "
                 "inductie leert wel iets nieuws maar nooit met zekerheid."),
     dict(type="meerkeuze",
          vraag="Een onderzoeker bekijkt duizend gevallen en besluit daaruit een regel. Welke "

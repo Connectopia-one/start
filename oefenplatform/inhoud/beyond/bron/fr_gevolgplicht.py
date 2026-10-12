@@ -110,7 +110,7 @@ DEEL1 = [
                  "Bentham beoordeelt een daad op de regel die erbij hoort",
                  "Singer verlaat de gevolgenethiek en kiest voor de plichtethiek"],
          antwoord=[0, 1],
-         uitleg="De eerste twee. Singer blijft binnen dezelfde benadering en verandert wie er in "
+         uitleg="Singer blijft binnen dezelfde benadering en verandert wie er in "
                 "de rekening meegaat."),
     dict(type="meerkeuze",
          vraag="Welke uitspraken over de gevolgenethiek kloppen?",
@@ -119,7 +119,7 @@ DEEL1 = [
                  "ze verbiedt op voorhand bepaalde daden, hoe de uitkomst ook is",
                  "ze is de oudste benadering binnen de hele ethiek"],
          antwoord=[0, 1],
-         uitleg="De eerste twee. Dat zij geen daad op voorhand uitsluit, is net wat haar van de "
+         uitleg="Dat zij geen daad op voorhand uitsluit, is net wat haar van de "
                 "plichtethiek onderscheidt."),
     dict(type="meerkeuze",
          vraag="Waarom noemt men de gevolgenethiek een onpartijdige benadering?",
@@ -272,7 +272,7 @@ DEEL2 = [
                  "ze komen bij elk geval tot precies hetzelfde besluit",
                  "beide beoordelen een daad uitsluitend op haar uitkomst"],
          antwoord=[0, 1],
-         uitleg="De eerste twee. Juist omdat ze kunnen botsen, zijn morele dilemma's zo lastig."),
+         uitleg="Juist omdat ze kunnen botsen, zijn morele dilemma's zo lastig."),
     dict(type="waarofniet",
          vraag="Categorisch bij Kant betekent: onvoorwaardelijk.",
          antwoord=True,

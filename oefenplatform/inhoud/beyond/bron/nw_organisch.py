@@ -158,7 +158,7 @@ DEEL1 = [
             "de uitgang -on hoort bij de aldehyden",
         ],
         antwoord=[0, 1, 2],
-        uitleg="De eerste drie kloppen. De uitgang -on hoort bij de ketonen, zoals propanon; aldehyden eindigen op -al, zoals methanal.",
+        uitleg="De uitgang -on hoort bij de ketonen, zoals propanon; aldehyden eindigen op -al, zoals methanal.",
     ),
     dict(
         type="meerkeuze",

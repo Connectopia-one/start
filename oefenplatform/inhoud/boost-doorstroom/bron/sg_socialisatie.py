@@ -102,7 +102,7 @@ DEEL1 = [
                  "ze geeft cultuur door",
                  "ze is erfelijk bepaald"],
          antwoord=[0, 1, 2],
-         uitleg="De eerste drie staan in de fiche. Socialisatie is juist het tegengestelde van erfelijk."),
+         uitleg="De drie juiste antwoorden staan in de fiche. Socialisatie is juist het tegengestelde van erfelijk."),
     dict(type="meerkeuze",
          vraag="Iemand verhuist naar een ander land en leert daar hoe het eraan toegaat. Wat gebeurt hier?",
          opties=["socialisatie op latere leeftijd",

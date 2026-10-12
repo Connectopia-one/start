@@ -108,7 +108,7 @@ DEEL1 = [
                  "in het burgerlijk recht kan de rechter een gevangenisstraf opleggen",
                  "in het strafrecht moet het slachtoffer de vervolging opstarten"],
          antwoord=[0, 1],
-         uitleg="De eerste twee. Hetzelfde feit kan wel in beide takken terechtkomen: een straf "
+         uitleg="Hetzelfde feit kan wel in beide takken terechtkomen: een straf "
                 "voor de dader en een schadevergoeding voor het slachtoffer."),
     dict(type="meerkeuze",
          vraag="Een bestuurder rijdt door het rood en veroorzaakt schade. Wat kan er gebeuren?",
@@ -126,7 +126,7 @@ DEEL1 = [
                  "de rechter spreekt zijn vonnis altijd meteen na de pleidooien uit",
                  "een burgerlijke procedure begint met een proces-verbaal"],
          antwoord=[0, 1],
-         uitleg="De eerste twee. Een proces-verbaal hoort bij het strafrecht, niet hier."),
+         uitleg="Een proces-verbaal hoort bij het strafrecht, niet hier."),
     dict(type="waarofniet",
          vraag="In een burgerlijke zaak neemt de eiser het initiatief.",
          antwoord=True,
@@ -252,7 +252,7 @@ DEEL2 = [
                  "een gerechtelijk onderzoek wordt door de politie alleen geleid",
                  "het vooronderzoek gebeurt pas na het proces"],
          antwoord=[0, 1],
-         uitleg="De eerste twee. De zwaarste middelen liggen niet bij wie vervolgt maar bij een "
+         uitleg="De zwaarste middelen liggen niet bij wie vervolgt maar bij een "
                 "rechter."),
     dict(type="meerkeuze",
          vraag="Welke uitspraken over de strafrechtelijke procedure kloppen?",
@@ -261,7 +261,7 @@ DEEL2 = [
                  "de politie beslist zelf of iemand vervolgd wordt",
                  "het slachtoffer bepaalt de straf die wordt opgelegd"],
          antwoord=[0, 1],
-         uitleg="De eerste twee. De politie stelt vast, het parket vervolgt, de rechter oordeelt: "
+         uitleg="De politie stelt vast, het parket vervolgt, de rechter oordeelt: "
                 "drie verschillende rollen."),
     dict(type="meerkeuze",
          vraag="Waarom beslist een onderzoeksrechter over een huiszoeking en niet de procureur?",

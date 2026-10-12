@@ -31,7 +31,7 @@ DEEL1 = [
             "het aantal deeltjes dat in het vat aanwezig is",
         ],
         antwoord=[0, 1, 2],
-        uitleg="De eerste twee zijn de gewone manier, de derde is het botsingsmodel. Het aantal deeltjes alleen is geen snelheid, want er staat geen tijd bij.",
+        uitleg="Een concentratie die per seconde af- of toeneemt, is de gewone manier; de botsingen per seconde horen bij het botsingsmodel. Het aantal deeltjes alleen is geen snelheid, want er staat geen tijd bij.",
     ),
     dict(
         type="invultekst",

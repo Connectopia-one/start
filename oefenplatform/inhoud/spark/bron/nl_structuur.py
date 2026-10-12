@@ -118,7 +118,7 @@ DEEL1 = [
             "Alles in hoofdletters typen",
         ],
         antwoord=[0, 1, 2],
-        uitleg="De eerste drie zijn tekstopbouwende elementen. Hoofdletters lezen als schreeuwen en maken het net moeilijker.",
+        uitleg="De drie juiste antwoorden zijn tekstopbouwende elementen. Hoofdletters lezen als schreeuwen en maken het net moeilijker.",
     ),
     dict(
         type="invultekst",
@@ -193,7 +193,7 @@ DEEL2 = [
         vraag="Welke signaalwoorden kondigen een voorbeeld aan?",
         opties=["bijvoorbeeld", "zoals", "denk maar aan", "daarentegen"],
         antwoord=[0, 1, 2],
-        uitleg="De eerste drie leiden een voorbeeld in. 'Daarentegen' zet net iets tegenover elkaar.",
+        uitleg="De drie juiste antwoorden leiden een voorbeeld in. 'Daarentegen' zet net iets tegenover elkaar.",
     ),
     dict(
         type="meerkeuze",

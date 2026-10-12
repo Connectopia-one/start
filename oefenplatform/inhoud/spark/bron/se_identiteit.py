@@ -199,7 +199,7 @@ DEEL1 = [
             "Ik voel me het meest mezelf als ik gitaar speel",
         ],
         antwoord=[0, 1],
-        uitleg="De eerste twee zijn gewoon feiten over de wereld. Alleen de laatste zegt iets over wie iemand is.",
+        uitleg="De twee juiste antwoorden zijn gewoon feiten over de wereld. Alleen het foute antwoord zegt iets over wie iemand is.",
     ),
     dict(
         type="waarofniet",
@@ -232,7 +232,7 @@ DEEL2 = [
             "De kleur van je ogen en van je haar",
         ],
         antwoord=[0, 1, 2],
-        uitleg="De eerste drie staan zo in de vakfiche. De kleur van je ogen is biologisch en hoort bij je persoonlijke identiteit.",
+        uitleg="De drie juiste antwoorden staan zo in de vakfiche. De kleur van je ogen is biologisch en hoort bij je persoonlijke identiteit.",
     ),
     dict(
         type="meerkeuze",

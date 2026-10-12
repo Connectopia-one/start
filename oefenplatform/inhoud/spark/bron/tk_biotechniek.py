@@ -95,9 +95,9 @@ DEEL1 = [
     dict(
         type="meerkeuze",
         vraag="Welke van deze zijn bewaartechnieken?",
-        opties=["Pekelen", "Roken", "Invriezen", "Schuren", "Lakken"],
-        antwoord=[0, 1, 2],
-        uitleg="Schuren en lakken zijn afwerkingstechnieken voor een werkstuk. Met voedsel hebben ze niets te maken.",
+        opties=["Pekelen", "Roken", "Invriezen", "Drogen", "Lakken"],
+        antwoord=[0, 1, 2, 3],
+        uitleg="Pekelen, roken, invriezen en drogen houden voedsel langer goed: ze halen er vocht uit of leggen de bacteriën stil. Lakken is een afwerkingstechniek voor een werkstuk en heeft met voedsel niets te maken.",
     ),
     dict(
         type="meerkeuze",
@@ -180,9 +180,9 @@ DEEL1 = [
     dict(
         type="meerkeuze",
         vraag="Welke bewaartechnieken werken met warmte?",
-        opties=["Pasteuriseren", "Steriliseren", "UHT", "Invriezen", "Koelen"],
-        antwoord=[0, 1, 2],
-        uitleg="Die drie verhitten het product. Koelen en invriezen doen net het omgekeerde.",
+        opties=["Pasteuriseren", "Steriliseren", "Vriesdrogen", "Invriezen", "Koelen"],
+        antwoord=[0, 1],
+        uitleg="Pasteuriseren en steriliseren verhitten het product. Vriesdrogen, invriezen en koelen doen net het omgekeerde: die werken met koude.",
     ),
     dict(
         type="waarofniet",
@@ -212,11 +212,11 @@ DEEL2 = [
             "De ingrediëntenlijst",
             "De allergenen",
             "De houdbaarheidsdatum",
-            "De naam van de winkel",
+            "De naam van de fabrikant",
             "De naam van wie het koopt",
         ],
-        antwoord=[0, 1, 2],
-        uitleg="De fiche noemt ook de voedingswaarde, het nettogewicht, de bewaarvoorschriften en de naam van de fabrikant.",
+        antwoord=[0, 1, 2, 3],
+        uitleg="De fiche noemt ook de voedingswaarde, het nettogewicht en de bewaarvoorschriften. Wie het koopt staat er natuurlijk niet op: dat weet de fabrikant niet.",
     ),
     dict(
         type="meerkeuze",

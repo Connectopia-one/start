@@ -101,7 +101,7 @@ DEEL1 = [
                  "het groeit in contact met anderen",
                  "het is bij iedereen realistisch"],
          antwoord=[0, 1, 2],
-         uitleg="De eerste drie staan in de fiche. Een vertekend zelfbeeld laat zien dat de vierde niet klopt."),
+         uitleg="De drie juiste antwoorden staan in de fiche. Een vertekend zelfbeeld laat zien dat het foute antwoord niet klopt."),
     dict(type="meerkeuze",
          vraag="In welke fase verandert het zelfbeeld het sterkst?",
          opties=["de adolescentie",

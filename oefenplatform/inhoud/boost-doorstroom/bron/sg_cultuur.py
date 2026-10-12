@@ -102,7 +102,7 @@ DEEL1 = [
                  "ze verandert in de tijd",
                  "ze is overal hetzelfde"],
          antwoord=[0, 1, 2],
-         uitleg="De eerste drie staan in de fiche. Culturen verschillen juist sterk van elkaar."),
+         uitleg="De drie juiste antwoorden staan in de fiche. Culturen verschillen juist sterk van elkaar."),
     dict(type="meerkeuze",
          vraag="Een begrafenis met een vaste volgorde van handelingen. Welke uiting is dat?",
          opties=["een ritueel",

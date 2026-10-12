@@ -117,7 +117,7 @@ DEEL1 = [
                  "alle drie ontkennen dat emoties met het lichaam te maken hebben",
                  "alle drie zeggen dat emoties volledig vastliggen bij de geboorte"],
          antwoord=[0, 1],
-         uitleg="De eerste twee. Dat een emotie lichamelijk begint, dat je leert hoe je ze toont "
+         uitleg="Dat een emotie lichamelijk begint, dat je leert hoe je ze toont "
                 "en dat je oordeel meespeelt, kan alle drie tegelijk waar zijn."),
     dict(type="meerkeuze",
          vraag="Welke uitspraken over de verhouding tussen natuur en cultuur kloppen?",
@@ -126,7 +126,7 @@ DEEL1 = [
                  "cultuur bij mensen staat volledig los van alles wat lichamelijk is",
                  "alles wat mensen doen is natuur, want wij zijn nu eenmaal dieren"],
          antwoord=[0, 1],
-         uitleg="De eerste twee. De scherpe tweedeling natuur tegenover cultuur houdt bij de mens "
+         uitleg="De scherpe tweedeling natuur tegenover cultuur houdt bij de mens "
                 "nergens helemaal stand."),
     dict(type="meerkeuze",
          vraag="Waarom is de vraag naar exclusief menselijke eigenschappen een filosofische vraag?",
@@ -226,7 +226,7 @@ DEEL2 = [
                  "alle drie vinden dat dieren precies hetzelfde zijn als mensen",
                  "alle drie noemen de rede het enige verschil dat echt bestaat"],
          antwoord=[0, 1],
-         uitleg="De eerste twee. Aristoteles staat ertussen: een verschil binnen de natuur, geen "
+         uitleg="Aristoteles staat ertussen: een verschil binnen de natuur, geen "
                 "kloof."),
     dict(type="meerkeuze",
          vraag="Wat is de stelling van Julien Offray de La Mettrie?",
@@ -271,7 +271,7 @@ DEEL2 = [
                  "zodra een machine een gesprek kan voeren, heeft ze bewustzijn",
                  "de vraag is al beslecht sinds er machines bestaan die kunnen praten"],
          antwoord=[0, 1],
-         uitleg="De eerste twee. Dat is precies de reden waarom dit een filosofische vraag blijft "
+         uitleg="Dat is precies de reden waarom dit een filosofische vraag blijft "
                 "en niet alleen een technische."),
     dict(type="meerkeuze",
          vraag="Iemand zegt: mijn keuze voor dit bericht zat al in mijn hersenen voor ik het wist. "

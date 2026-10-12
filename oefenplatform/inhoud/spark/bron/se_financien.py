@@ -50,7 +50,7 @@ DEEL1 = [
             "De nieuwste kleur van een sneaker die je al hebt",
         ],
         antwoord=[0, 1, 2],
-        uitleg="De eerste drie heb je nodig. De vierde is een gecreëerde behoefte: je schoenen doen het nog.",
+        uitleg="De drie juiste antwoorden heb je nodig. Het foute antwoord is een gecreëerde behoefte: je schoenen doen het nog.",
     ),
     dict(
         type="waarofniet",

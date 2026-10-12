@@ -1,0 +1,3341 @@
+{
+  "hoofdstukken": [
+    {
+      "titel": "Nouns, articles, quantifiers en numerals — deel 1",
+      "niveau": "boost-dubbele-finaliteit",
+      "gratis": false,
+      "vragen": [
+        {
+          "type": "meerkeuze",
+          "vraag": "Wat is het meervoud van 'child'?",
+          "opties": [
+            "children",
+            "childs",
+            "childes",
+            "childrens"
+          ],
+          "antwoord": 0,
+          "uitleg": "Children is onregelmatig en heeft zelf al geen s nodig. Childrens bestaat niet.",
+          "varianten": [
+            {
+              "vraag": "Wat is het meervoud van 'man'?",
+              "opties": [
+                "men",
+                "mans",
+                "manes",
+                "mens"
+              ],
+              "uitleg": "Men is onregelmatig en heeft zelf al geen s nodig. Mens bestaat niet als meervoud van man."
+            },
+            {
+              "vraag": "Wat is het meervoud van 'foot'?",
+              "opties": [
+                "feet",
+                "foots",
+                "footes",
+                "feets"
+              ],
+              "uitleg": "Feet is onregelmatig en heeft zelf al geen s nodig. Feets bestaat niet."
+            },
+            {
+              "vraag": "Wat is het meervoud van 'tooth'?",
+              "opties": [
+                "teeth",
+                "tooths",
+                "toothes",
+                "teeths"
+              ],
+              "uitleg": "Teeth is onregelmatig en heeft zelf al geen s nodig. Teeths bestaat niet."
+            }
+          ]
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Welke van deze meervouden zijn onregelmatig?",
+          "opties": [
+            "feet",
+            "teeth",
+            "mice",
+            "books"
+          ],
+          "antwoord": [
+            0,
+            1,
+            2
+          ],
+          "uitleg": "Foot wordt feet, tooth wordt teeth en mouse wordt mice. Book krijgt gewoon een s.",
+          "varianten": [
+            {
+              "opties": [
+                "men",
+                "women",
+                "children",
+                "tables"
+              ],
+              "antwoord": [
+                0,
+                1,
+                2
+              ],
+              "uitleg": "Man wordt men, woman wordt women en child wordt children. Table krijgt gewoon een s."
+            },
+            {
+              "opties": [
+                "geese",
+                "oxen",
+                "people",
+                "chairs"
+              ],
+              "antwoord": [
+                0,
+                1,
+                2
+              ],
+              "uitleg": "Goose wordt geese, ox wordt oxen en person wordt people. Chair krijgt gewoon een s."
+            },
+            {
+              "opties": [
+                "mice",
+                "feet",
+                "men",
+                "phones"
+              ],
+              "antwoord": [
+                0,
+                1,
+                2
+              ],
+              "uitleg": "Mouse wordt mice, foot wordt feet en man wordt men. Phone krijgt gewoon een s."
+            }
+          ]
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Schrijf het Engelse meervoud van 'woman'.",
+          "antwoord": [
+            "women"
+          ],
+          "uitleg": "Je hoort het verschil vooral in de eerste klank. Man wordt men, woman wordt women.",
+          "varianten": [
+            {
+              "vraag": "Schrijf het Engelse meervoud van 'man'.",
+              "antwoord": [
+                "men"
+              ],
+              "uitleg": "Man wordt men. Je hoort het verschil vooral in de eerste klank."
+            },
+            {
+              "vraag": "Schrijf het Engelse meervoud van 'mouse'.",
+              "antwoord": [
+                "mice"
+              ],
+              "uitleg": "Mouse wordt mice. Mouses bestaat niet."
+            },
+            {
+              "vraag": "Schrijf het Engelse meervoud van 'goose'.",
+              "antwoord": [
+                "geese"
+              ],
+              "uitleg": "Goose wordt geese, net zoals foot feet wordt."
+            }
+          ]
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Wat is het meervoud van 'city'?",
+          "opties": [
+            "cities",
+            "citys",
+            "cityes",
+            "city"
+          ],
+          "antwoord": 0,
+          "uitleg": "Een y na een medeklinker wordt ies. Staat er een klinker voor de y, dan blijft ze staan: boy wordt boys.",
+          "varianten": [
+            {
+              "vraag": "Wat is het meervoud van 'baby'?",
+              "opties": [
+                "babies",
+                "babys",
+                "babyes",
+                "baby"
+              ],
+              "uitleg": "Een y na een medeklinker wordt ies. Staat er een klinker voor de y, dan blijft ze staan: boy wordt boys."
+            },
+            {
+              "vraag": "Wat is het meervoud van 'country'?",
+              "opties": [
+                "countries",
+                "countrys",
+                "countryes",
+                "country"
+              ],
+              "uitleg": "Een y na een medeklinker wordt ies. Staat er een klinker voor de y, dan blijft ze staan: day wordt days."
+            },
+            {
+              "vraag": "Wat is het meervoud van 'party'?",
+              "opties": [
+                "parties",
+                "partys",
+                "partyes",
+                "party"
+              ],
+              "uitleg": "Een y na een medeklinker wordt ies. Staat er een klinker voor de y, dan blijft ze staan: key wordt keys."
+            }
+          ]
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "Het meervoud van 'boy' is 'boies'.",
+          "antwoord": false,
+          "uitleg": "Het is boys. De regel met ies geldt alleen als er een medeklinker voor de y staat, zoals in baby en city.",
+          "varianten": [
+            {
+              "vraag": "Het meervoud van 'day' is 'daies'.",
+              "uitleg": "Het is days. De regel met ies geldt alleen als er een medeklinker voor de y staat, zoals in baby en city."
+            },
+            {
+              "vraag": "Het meervoud van 'key' is 'kies'.",
+              "uitleg": "Het is keys. Voor de y staat een klinker, dus blijft ze staan."
+            },
+            {
+              "vraag": "Het meervoud van 'toy' is 'toies'.",
+              "uitleg": "Het is toys. Voor de y staat een klinker, dus blijft ze staan."
+            }
+          ]
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Wat is het meervoud van 'knife'?",
+          "opties": [
+            "knives",
+            "knifes",
+            "knifs",
+            "knive"
+          ],
+          "antwoord": 0,
+          "uitleg": "Woorden op f of fe krijgen vaak ves: life wordt lives, wolf wordt wolves. Een paar houden hun f: roof wordt roofs.",
+          "varianten": [
+            {
+              "vraag": "Wat is het meervoud van 'wolf'?",
+              "opties": [
+                "wolves",
+                "wolfs",
+                "wolfes",
+                "wolve"
+              ],
+              "uitleg": "Woorden op f of fe krijgen vaak ves: life wordt lives, knife wordt knives. Een paar houden hun f: roof wordt roofs."
+            },
+            {
+              "vraag": "Wat is het meervoud van 'leaf'?",
+              "opties": [
+                "leaves",
+                "leafs",
+                "leafes",
+                "leave"
+              ],
+              "uitleg": "Woorden op f of fe krijgen vaak ves: life wordt lives, wolf wordt wolves. Een paar houden hun f: roof wordt roofs."
+            },
+            {
+              "vraag": "Wat is het meervoud van 'shelf'?",
+              "opties": [
+                "shelves",
+                "shelfs",
+                "shelfes",
+                "shelve"
+              ],
+              "uitleg": "Woorden op f of fe krijgen vaak ves: life wordt lives, leaf wordt leaves. Een paar houden hun f: roof wordt roofs."
+            }
+          ]
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Welke woorden blijven in het meervoud precies hetzelfde?",
+          "opties": [
+            "sheep",
+            "fish",
+            "series",
+            "horse"
+          ],
+          "antwoord": [
+            0,
+            1,
+            2
+          ],
+          "uitleg": "One sheep, two sheep. Horse wordt gewoon horses.",
+          "varianten": [
+            {
+              "opties": [
+                "deer",
+                "aircraft",
+                "species",
+                "dog"
+              ],
+              "antwoord": [
+                0,
+                1,
+                2
+              ],
+              "uitleg": "One deer, two deer. Dog wordt gewoon dogs."
+            },
+            {
+              "opties": [
+                "sheep",
+                "salmon",
+                "means",
+                "cat"
+              ],
+              "antwoord": [
+                0,
+                1,
+                2
+              ],
+              "uitleg": "One sheep, two sheep. Cat wordt gewoon cats."
+            },
+            {
+              "opties": [
+                "fish",
+                "offspring",
+                "series",
+                "bird"
+              ],
+              "antwoord": [
+                0,
+                1,
+                2
+              ],
+              "uitleg": "One fish, two fish. Bird wordt gewoon birds."
+            }
+          ]
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Schrijf het Engelse meervoud van 'tomato'.",
+          "antwoord": [
+            "tomatoes"
+          ],
+          "uitleg": "Een paar woorden op o krijgen es: tomatoes, potatoes, heroes. De meeste andere krijgen alleen een s: photos, pianos.",
+          "varianten": [
+            {
+              "vraag": "Schrijf het Engelse meervoud van 'potato'.",
+              "antwoord": [
+                "potatoes"
+              ],
+              "uitleg": "Een paar woorden op o krijgen es: tomatoes, potatoes, heroes. De meeste andere krijgen alleen een s: photos, pianos."
+            },
+            {
+              "vraag": "Schrijf het Engelse meervoud van 'hero'.",
+              "antwoord": [
+                "heroes"
+              ],
+              "uitleg": "Een paar woorden op o krijgen es: tomatoes, potatoes, heroes. De meeste andere krijgen alleen een s: photos, pianos."
+            },
+            {
+              "vraag": "Schrijf het Engelse meervoud van 'photo'.",
+              "antwoord": [
+                "photos"
+              ],
+              "uitleg": "Photo hoort bij de groep die alleen een s krijgt, net als pianos. Tomato en potato krijgen wel es."
+            }
+          ]
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "Een ontelbaar woord zoals 'information' kan je niet in het meervoud zetten.",
+          "antwoord": true,
+          "uitleg": "Je zegt niet twee informations, maar two pieces of information. Zo werkt het ook bij advice, furniture en luggage."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Welke woorden zijn in het Engels ontelbaar?",
+          "opties": [
+            "advice",
+            "furniture",
+            "money",
+            "chair"
+          ],
+          "antwoord": [
+            0,
+            1,
+            2
+          ],
+          "uitleg": "Bij deze drie gebruik je much en little. Chair is telbaar: one chair, two chairs.",
+          "varianten": [
+            {
+              "opties": [
+                "luggage",
+                "information",
+                "bread",
+                "table"
+              ],
+              "antwoord": [
+                0,
+                1,
+                2
+              ],
+              "uitleg": "Bij deze drie gebruik je much en little. Table is telbaar: one table, two tables."
+            },
+            {
+              "opties": [
+                "music",
+                "water",
+                "homework",
+                "book"
+              ],
+              "antwoord": [
+                0,
+                1,
+                2
+              ],
+              "uitleg": "Bij deze drie gebruik je much en little. Book is telbaar: one book, two books."
+            },
+            {
+              "opties": [
+                "weather",
+                "rice",
+                "knowledge",
+                "cup"
+              ],
+              "antwoord": [
+                0,
+                1,
+                2
+              ],
+              "uitleg": "Bij deze drie gebruik je much en little. Cup is telbaar: one cup, two cups."
+            }
+          ]
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "Het woord 'news' staat in het meervoud, dus je zegt the news are good.",
+          "antwoord": false,
+          "uitleg": "News eindigt op een s maar is enkelvoud: the news is good. Zo werkt het ook bij mathematics en physics."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Hoe schrijf je 'de fiets van mijn zus' in het Engels?",
+          "opties": [
+            "my sister's bike",
+            "my sisters bike",
+            "my sisters' bike",
+            "the bike of my sister"
+          ],
+          "antwoord": 0,
+          "uitleg": "Bij een persoon gebruik je de bezitsvorm met apostrof en s. Of my sister klinkt in het Engels vreemd bij mensen."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Hoe schrijf je 'de kamer van de jongens', met meer dan één jongen?",
+          "opties": [
+            "the boys' room",
+            "the boy's room",
+            "the boys's room",
+            "the boys room"
+          ],
+          "antwoord": 0,
+          "uitleg": "Staat er al een meervouds-s, dan komt de apostrof erachter en volgt er geen tweede s."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Vul aan met de bezitsvorm: this is the … room, van de kinderen (children).",
+          "antwoord": [
+            "children's"
+          ],
+          "uitleg": "Children heeft geen meervouds-s, dus krijgt het gewoon apostrof s: children's."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "Bij dingen gebruik je in het Engels liever 'of' dan de apostrof: the roof of the house.",
+          "antwoord": true,
+          "uitleg": "De apostrofvorm houd je voor mensen en dieren, en voor tijd: today's paper, a week's holiday."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Welke zin over een broek is juist?",
+          "opties": [
+            "These trousers are too long.",
+            "This trousers is too long.",
+            "These trouser are too long.",
+            "This trouser is too long."
+          ],
+          "antwoord": 0,
+          "uitleg": "Trousers staat altijd in het meervoud, dus het werkwoord ook. Wil je er één bedoelen, dan zeg je a pair of trousers."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "In welke zin staat een samengesteld naamwoord in de juiste vorm?",
+          "opties": [
+            "I bought two toothbrushes.",
+            "I bought two teethbrush.",
+            "I bought two toothbrush.",
+            "I bought two teethbrushes."
+          ],
+          "antwoord": 0,
+          "uitleg": "Het eerste deel blijft enkelvoud, alleen het laatste deel krijgt de meervouds-s.",
+          "varianten": [
+            {
+              "opties": [
+                "I bought two shoeboxes.",
+                "I bought two shoesbox.",
+                "I bought two shoebox.",
+                "I bought two shoesboxes."
+              ]
+            },
+            {
+              "opties": [
+                "She has three bookshelves.",
+                "She has three booksshelf.",
+                "She has three bookshelf.",
+                "She has three booksshelves."
+              ]
+            },
+            {
+              "opties": [
+                "We need two toothpicks.",
+                "We need two teethpick.",
+                "We need two toothpick.",
+                "We need two teethpicks."
+              ]
+            }
+          ]
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "Het woord 'people' is het meervoud van 'person' en krijgt dus geen extra s.",
+          "antwoord": true,
+          "uitleg": "Three people, niet three peoples. Peoples bestaat wel, maar dan bedoel je volkeren.",
+          "varianten": [
+            {
+              "vraag": "Je zegt three people en niet three peoples.",
+              "uitleg": "Peoples bestaat wel, maar dan bedoel je volkeren."
+            },
+            {
+              "vraag": "'Police' vraagt in het Engels een werkwoord in het meervoud: the police are here.",
+              "uitleg": "Police, people en cattle zijn meervoud zonder s."
+            },
+            {
+              "vraag": "'Children' is al meervoud en krijgt geen extra s.",
+              "uitleg": "Childrens bestaat niet, net zoals peoples niet het meervoud van person is."
+            }
+          ]
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Welke zin over iemands haar is juist?",
+          "opties": [
+            "My hair is very long.",
+            "My hairs are very long.",
+            "My hair are very long.",
+            "My hairs is very long."
+          ],
+          "antwoord": 0,
+          "uitleg": "Hair is ontelbaar als je het haar op iemands hoofd bedoelt. Enkele losse haren zijn wel hairs."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Wat is het meervoud van 'analysis'?",
+          "opties": [
+            "analyses",
+            "analysises",
+            "analysis",
+            "analysis's"
+          ],
+          "antwoord": 0,
+          "uitleg": "Woorden op -is krijgen -es met een lange e: crisis wordt crises, basis wordt bases.",
+          "varianten": [
+            {
+              "vraag": "Wat is het meervoud van 'crisis'?",
+              "opties": [
+                "crises",
+                "crisises",
+                "crisis",
+                "crisis's"
+              ],
+              "uitleg": "Woorden op -is krijgen -es met een lange e: analysis wordt analyses, basis wordt bases."
+            },
+            {
+              "vraag": "Wat is het meervoud van 'basis'?",
+              "opties": [
+                "bases",
+                "basises",
+                "basis",
+                "basis's"
+              ],
+              "uitleg": "Woorden op -is krijgen -es met een lange e: crisis wordt crises, analysis wordt analyses."
+            },
+            {
+              "vraag": "Wat is het meervoud van 'hypothesis'?",
+              "opties": [
+                "hypotheses",
+                "hypothesises",
+                "hypothesis",
+                "hypothesis's"
+              ],
+              "uitleg": "Woorden op -is krijgen -es met een lange e: crisis wordt crises, basis wordt bases."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "titel": "Nouns, articles, quantifiers en numerals — deel 2",
+      "niveau": "boost-dubbele-finaliteit",
+      "gratis": false,
+      "vragen": [
+        {
+          "type": "meerkeuze",
+          "vraag": "Welk lidwoord hoort voor 'hour': … hour?",
+          "opties": [
+            "an",
+            "a",
+            "the",
+            "geen lidwoord"
+          ],
+          "antwoord": 0,
+          "uitleg": "Je kiest a of an op de klank, niet op de letter. De h van hour zwijgt, dus je hoort een klinker.",
+          "varianten": [
+            {
+              "vraag": "Welk lidwoord hoort voor 'honest answer': … honest answer?",
+              "uitleg": "Je kiest a of an op de klank, niet op de letter. De h van honest zwijgt, dus je hoort een klinker."
+            },
+            {
+              "vraag": "Welk lidwoord hoort voor 'umbrella': … umbrella?",
+              "uitleg": "Je kiest a of an op de klank, niet op de letter. Umbrella begint met een klinkerklank."
+            },
+            {
+              "vraag": "Welk lidwoord hoort voor 'orange': … orange?",
+              "uitleg": "Je kiest a of an op de klank, niet op de letter. Orange begint met een klinkerklank."
+            }
+          ]
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Voor welke woorden hoort 'an'?",
+          "opties": [
+            "apple",
+            "umbrella",
+            "honest man",
+            "university"
+          ],
+          "antwoord": [
+            0,
+            1,
+            2
+          ],
+          "uitleg": "University begint met de klank you, dus a university. Honest begint met een klinkerklank, dus an honest man.",
+          "varianten": [
+            {
+              "opties": [
+                "egg",
+                "hour",
+                "old car",
+                "European city"
+              ],
+              "antwoord": [
+                0,
+                1,
+                2
+              ],
+              "uitleg": "European begint met de klank you, dus a European city. Hour begint met een klinkerklank, dus an hour."
+            },
+            {
+              "opties": [
+                "idea",
+                "honest answer",
+                "engineer",
+                "uniform"
+              ],
+              "antwoord": [
+                0,
+                1,
+                2
+              ],
+              "uitleg": "Uniform begint met de klank you, dus a uniform. Honest begint met een klinkerklank, dus an honest answer."
+            },
+            {
+              "opties": [
+                "orange",
+                "island",
+                "hour",
+                "user"
+              ],
+              "antwoord": [
+                0,
+                1,
+                2
+              ],
+              "uitleg": "User begint met de klank you, dus a user. De drie andere beginnen met een klinkerklank."
+            }
+          ]
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Vul het juiste lidwoord in: she is … engineer.",
+          "antwoord": [
+            "an"
+          ],
+          "uitleg": "Engineer begint met een klinkerklank. Bij een beroep hoort in het Engels altijd een lidwoord: she is a nurse.",
+          "varianten": [
+            {
+              "vraag": "Vul het juiste lidwoord in: he is … architect.",
+              "antwoord": [
+                "an"
+              ],
+              "uitleg": "Architect begint met een klinkerklank. Bij een beroep hoort in het Engels altijd een lidwoord."
+            },
+            {
+              "vraag": "Vul het juiste lidwoord in: she is … nurse.",
+              "antwoord": [
+                "a"
+              ],
+              "uitleg": "Nurse begint met een medeklinkerklank, dus a. Bij een beroep hoort in het Engels altijd een lidwoord."
+            },
+            {
+              "vraag": "Vul het juiste lidwoord in: he is … honest man.",
+              "antwoord": [
+                "an"
+              ],
+              "uitleg": "De h van honest zwijgt, dus je hoort een klinker. Bij een beroep of een omschrijving hoort een lidwoord."
+            }
+          ]
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "Bij een beroep laat het Engels het lidwoord weg: he is teacher.",
+          "antwoord": false,
+          "uitleg": "Het moet he is a teacher zijn. Het Nederlands laat het weg, het Engels niet."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "In welke zin staat 'the' terecht?",
+          "opties": [
+            "The book you lent me was great.",
+            "The books are my favourite thing.",
+            "I like the music in general.",
+            "She studies the biology."
+          ],
+          "antwoord": 0,
+          "uitleg": "The gebruik je als je een bepaald exemplaar bedoelt. Spreek je algemeen over boeken, muziek of een vak, dan zet je er niets voor.",
+          "varianten": [
+            {
+              "opties": [
+                "The film we saw last night was great.",
+                "The films are my favourite thing.",
+                "I like the sport in general.",
+                "He studies the physics."
+              ],
+              "uitleg": "The gebruik je als je een bepaald exemplaar bedoelt. Spreek je algemeen over films, sport of een vak, dan zet je er niets voor."
+            },
+            {
+              "opties": [
+                "The song you played was lovely.",
+                "The songs are the best thing there is.",
+                "I like the food in general.",
+                "She teaches the maths."
+              ],
+              "uitleg": "The gebruik je als je een bepaald exemplaar bedoelt. Spreek je algemeen over liedjes, eten of een vak, dan zet je er niets voor."
+            },
+            {
+              "opties": [
+                "The letter she wrote was long.",
+                "The letters are my favourite thing.",
+                "I like the art in general.",
+                "He studies the chemistry."
+              ],
+              "uitleg": "The gebruik je als je een bepaald exemplaar bedoelt. Spreek je algemeen over brieven, kunst of een vak, dan zet je er niets voor."
+            }
+          ]
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "Voor een taal of een schoolvak zet je in het Engels meestal geen lidwoord: I study history.",
+          "antwoord": true,
+          "uitleg": "Zo ook: I speak English, I like maths. Met the erbij bedoel je een bepaald deel: the history of Wales.",
+          "varianten": [
+            {
+              "vraag": "Je zegt 'I speak English' en niet 'I speak the English'.",
+              "uitleg": "Met the erbij bedoel je een bepaald deel: the English of Shakespeare."
+            },
+            {
+              "vraag": "Voor een schoolvak zoals maths zet je meestal geen lidwoord.",
+              "uitleg": "I like maths, I study history. Met the erbij bedoel je een bepaald deel."
+            },
+            {
+              "vraag": "Je zegt 'I study biology' zonder lidwoord.",
+              "uitleg": "Talen en schoolvakken krijgen geen lidwoord, tenzij je een bepaald deel bedoelt."
+            }
+          ]
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Welk woord past: how … water do you need?",
+          "opties": [
+            "much",
+            "many",
+            "few",
+            "several"
+          ],
+          "antwoord": 0,
+          "uitleg": "Much hoort bij ontelbare woorden, many bij telbare. Water is ontelbaar.",
+          "varianten": [
+            {
+              "vraag": "Welk woord past: how … sugar do you need?",
+              "uitleg": "Much hoort bij ontelbare woorden, many bij telbare. Sugar is ontelbaar."
+            },
+            {
+              "vraag": "Welk woord past: how … money do you need?",
+              "uitleg": "Much hoort bij ontelbare woorden, many bij telbare. Money is ontelbaar."
+            },
+            {
+              "vraag": "Welk woord past: how … time do you need?",
+              "uitleg": "Much hoort bij ontelbare woorden, many bij telbare. Time is ontelbaar."
+            }
+          ]
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Welke woorden horen bij een telbaar naamwoord in het meervoud?",
+          "opties": [
+            "many",
+            "a few",
+            "several",
+            "much"
+          ],
+          "antwoord": [
+            0,
+            1,
+            2
+          ],
+          "uitleg": "Much hoort bij ontelbare woorden: much time, much money. A lot of past bij allebei.",
+          "varianten": [
+            {
+              "opties": [
+                "many",
+                "both",
+                "several",
+                "little"
+              ],
+              "antwoord": [
+                0,
+                1,
+                2
+              ],
+              "uitleg": "Little hoort bij ontelbare woorden: little time, little money. A lot of past bij allebei."
+            },
+            {
+              "opties": [
+                "a few",
+                "several",
+                "fewer",
+                "much"
+              ],
+              "antwoord": [
+                0,
+                1,
+                2
+              ],
+              "uitleg": "Much hoort bij ontelbare woorden: much time, much money. A lot of past bij allebei."
+            },
+            {
+              "opties": [
+                "many",
+                "a couple of",
+                "several",
+                "a little"
+              ],
+              "antwoord": [
+                0,
+                1,
+                2
+              ],
+              "uitleg": "A little hoort bij ontelbare woorden: a little sugar. A lot of past bij allebei."
+            }
+          ]
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Vul aan met één woord: I don't have … time left.",
+          "antwoord": [
+            "much"
+          ],
+          "uitleg": "Time is ontelbaar, dus much. In een gewone bevestigende zin zeg je liever a lot of time.",
+          "varianten": [
+            {
+              "vraag": "Vul aan met één woord: I don't have … money left.",
+              "antwoord": [
+                "much"
+              ],
+              "uitleg": "Money is ontelbaar, dus much. In een gewone bevestigende zin zeg je liever a lot of money."
+            },
+            {
+              "vraag": "Vul aan met één woord: there isn't … milk left.",
+              "antwoord": [
+                "much"
+              ],
+              "uitleg": "Milk is ontelbaar, dus much. In een gewone bevestigende zin zeg je liever a lot of milk."
+            },
+            {
+              "vraag": "Vul aan met één woord: I don't have … friends here.",
+              "antwoord": [
+                "many"
+              ],
+              "uitleg": "Friends is telbaar en staat in het meervoud, dus many."
+            }
+          ]
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "'A few' en 'a little' betekenen hetzelfde en je mag ze door elkaar gebruiken.",
+          "antwoord": false,
+          "uitleg": "A few hoort bij telbare woorden (a few friends) en a little bij ontelbare (a little sugar).",
+          "varianten": [
+            {
+              "vraag": "'Many' en 'much' betekenen hetzelfde en je mag ze door elkaar gebruiken.",
+              "uitleg": "Many hoort bij telbare woorden (many friends) en much bij ontelbare (much sugar)."
+            },
+            {
+              "vraag": "Je mag 'a little sugar' en 'a few sugar' allebei zeggen.",
+              "uitleg": "A little hoort bij ontelbare woorden. A few hoort bij telbare: a few friends."
+            },
+            {
+              "vraag": "'Few' en 'little' horen bij hetzelfde soort naamwoord.",
+              "uitleg": "Few hoort bij telbare woorden en little bij ontelbare."
+            }
+          ]
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Wat is het verschil tussen 'a few friends' en 'few friends'?",
+          "opties": [
+            "a few klinkt positief, few klinkt als weinig",
+            "er is geen verschil",
+            "a few is meer dan tien",
+            "few hoort bij ontelbare woorden"
+          ],
+          "antwoord": 0,
+          "uitleg": "She has a few friends betekent dat ze er enkele heeft. She has few friends betekent dat ze er bijna geen heeft."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Welke zin vraagt correct naar een rest melk?",
+          "opties": [
+            "Is there any milk left?",
+            "Is there some milk left?",
+            "Is there many milk left?",
+            "Is there a few milk left?"
+          ],
+          "antwoord": 0,
+          "uitleg": "In vragen en ontkennende zinnen gebruik je any, in bevestigende zinnen some. Bied je iets aan, dan mag some wel: would you like some tea?",
+          "varianten": [
+            {
+              "vraag": "Welke zin vraagt correct naar een rest brood?",
+              "opties": [
+                "Is there any bread left?",
+                "Is there some bread left?",
+                "Is there many bread left?",
+                "Is there a few bread left?"
+              ]
+            },
+            {
+              "vraag": "Welke zin vraagt correct naar een rest suiker?",
+              "opties": [
+                "Is there any sugar left?",
+                "Is there some sugar left?",
+                "Is there many sugar left?",
+                "Is there a few sugar left?"
+              ]
+            },
+            {
+              "vraag": "Welke zin vraagt correct naar een rest soep?",
+              "opties": [
+                "Is there any soup left?",
+                "Is there some soup left?",
+                "Is there many soup left?",
+                "Is there a few soup left?"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "'Very' en 'a lot' betekenen hetzelfde en staan op dezelfde plaats in de zin.",
+          "antwoord": false,
+          "uitleg": "Very hoort voor een bijvoeglijk naamwoord of een bijwoord: very tired. A lot hoort bij een werkwoord: she talks a lot."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Welke zin over het aantal mensen is juist?",
+          "opties": [
+            "There are a lot of people here.",
+            "There is a lot of people here.",
+            "There are much people here.",
+            "There is many people here."
+          ],
+          "antwoord": 0,
+          "uitleg": "People is meervoud, dus there are. Na a lot of kijk je naar het naamwoord erachter om te weten of je is of are neemt."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Hoe schrijf je het rangtelwoord bij 3?",
+          "opties": [
+            "third",
+            "threeth",
+            "thirth",
+            "threerd"
+          ],
+          "antwoord": 0,
+          "uitleg": "First, second en third zijn onregelmatig. Vanaf vier komt er gewoon th bij: fourth, fifth, sixth.",
+          "varianten": [
+            {
+              "vraag": "Hoe schrijf je het rangtelwoord bij 5?",
+              "opties": [
+                "fifth",
+                "fiveth",
+                "fifeth",
+                "fived"
+              ],
+              "uitleg": "First, second en third zijn onregelmatig. Bij five valt de ve weg: fifth."
+            },
+            {
+              "vraag": "Hoe schrijf je het rangtelwoord bij 9?",
+              "opties": [
+                "ninth",
+                "nineth",
+                "ninethe",
+                "nined"
+              ],
+              "uitleg": "Bij nine valt de e weg: ninth. Vanaf vier komt er gewoon th bij: fourth, sixth."
+            },
+            {
+              "vraag": "Hoe schrijf je het rangtelwoord bij 2?",
+              "opties": [
+                "second",
+                "twoth",
+                "twoeth",
+                "twod"
+              ],
+              "uitleg": "First, second en third zijn onregelmatig. Vanaf vier komt er gewoon th bij: fourth, fifth, sixth."
+            }
+          ]
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Schrijf het rangtelwoord bij 12 voluit in het Engels.",
+          "antwoord": [
+            "twelfth"
+          ],
+          "uitleg": "Twelve wordt twelfth: de ve verandert in f. Zo gaat het ook bij five en fifth."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Welke rangtelwoorden zijn juist geschreven?",
+          "opties": [
+            "ninth",
+            "fortieth",
+            "twenty-first",
+            "fiveth"
+          ],
+          "antwoord": [
+            0,
+            1,
+            2
+          ],
+          "uitleg": "Five wordt fifth, niet fiveth. Bij nine valt de e weg: ninth.",
+          "varianten": [
+            {
+              "opties": [
+                "fifth",
+                "twentieth",
+                "thirty-second",
+                "nineth"
+              ],
+              "antwoord": [
+                0,
+                1,
+                2
+              ],
+              "uitleg": "Nine wordt ninth, niet nineth. Bij twenty wordt de y een ie: twentieth."
+            },
+            {
+              "opties": [
+                "twelfth",
+                "thirtieth",
+                "forty-third",
+                "twoth"
+              ],
+              "antwoord": [
+                0,
+                1,
+                2
+              ],
+              "uitleg": "Two wordt second, niet twoth. Twelve wordt twelfth, met een f."
+            },
+            {
+              "opties": [
+                "eighth",
+                "ninetieth",
+                "sixty-fourth",
+                "threeth"
+              ],
+              "antwoord": [
+                0,
+                1,
+                2
+              ],
+              "uitleg": "Three wordt third, niet threeth. Eight wordt eighth, met maar één t."
+            }
+          ]
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "Het getal 1500 lees je in het Engels als 'one thousand five hundred'.",
+          "antwoord": true,
+          "uitleg": "Gaat het over een jaartal, dan zeg je fifteen hundred. Let op: bij hundred en thousand komt er geen meervouds-s als er een getal voor staat."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Hoe lees je 1,250 in het Engels correct voor?",
+          "opties": [
+            "one thousand two hundred and fifty",
+            "one thousand two hundreds fifty",
+            "thousand two hundred fifty",
+            "one thousands two hundred and fifty"
+          ],
+          "antwoord": 0,
+          "uitleg": "De komma is in het Engels het duizendtalteken, en het decimaalteken is de punt. Britten zetten and voor de laatste twee cijfers."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "In het Engels schrijf je 3,5 als 3.5.",
+          "antwoord": true,
+          "uitleg": "De punt is het decimaalteken en je leest hem als point: three point five. De komma scheidt de duizendtallen."
+        }
+      ]
+    },
+    {
+      "titel": "Adjectives, adverbs, comparatives en voorzetsels — deel 1",
+      "niveau": "boost-dubbele-finaliteit",
+      "gratis": false,
+      "vragen": [
+        {
+          "type": "meerkeuze",
+          "vraag": "Waar staat een bijvoeglijk naamwoord in het Engels meestal?",
+          "opties": [
+            "voor het naamwoord",
+            "achter het naamwoord",
+            "achteraan de zin",
+            "voor het werkwoord"
+          ],
+          "antwoord": 0,
+          "uitleg": "A red car, niet a car red. Achter het naamwoord staat het alleen na koppelwerkwoorden: the car is red."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "Een bijvoeglijk naamwoord blijft in het Engels hetzelfde, ook als het naamwoord meervoud is.",
+          "antwoord": true,
+          "uitleg": "Two red cars, niet two reds cars. In het Nederlands verandert het soms wel: een rode auto, twee rode auto's.",
+          "varianten": [
+            {
+              "vraag": "Je zegt 'two red cars' en niet 'two reds cars'.",
+              "uitleg": "Een bijvoeglijk naamwoord verandert in het Engels nooit van vorm."
+            },
+            {
+              "vraag": "'Three big houses' is juist Engels.",
+              "uitleg": "Big blijft big, ook bij een meervoud."
+            },
+            {
+              "vraag": "In het Engels krijgt een bijvoeglijk naamwoord nooit een meervouds-s.",
+              "uitleg": "Two red cars, three big houses. In het Nederlands verandert het soms wel: een rode auto, twee rode auto's."
+            }
+          ]
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Welke volgorde is juist?",
+          "opties": [
+            "a lovely big red balloon",
+            "a red big lovely balloon",
+            "a big lovely red balloon",
+            "a red lovely big balloon"
+          ],
+          "antwoord": 0,
+          "uitleg": "Eerst je mening, dan de grootte, dan de leeftijd en de vorm, en pas daarna de kleur. Meestal stapel je er hoogstens twee of drie op elkaar."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Welke woorden zijn bijwoorden?",
+          "opties": [
+            "quickly",
+            "carefully",
+            "easily",
+            "careful"
+          ],
+          "antwoord": [
+            0,
+            1,
+            2
+          ],
+          "uitleg": "Careful is het bijvoeglijk naamwoord, carefully het bijwoord. Een y na een medeklinker wordt ily: easy wordt easily.",
+          "varianten": [
+            {
+              "opties": [
+                "slowly",
+                "happily",
+                "badly",
+                "slow"
+              ],
+              "antwoord": [
+                0,
+                1,
+                2
+              ],
+              "uitleg": "Slow is het bijvoeglijk naamwoord, slowly het bijwoord. Een y na een medeklinker wordt ily: happy wordt happily."
+            },
+            {
+              "opties": [
+                "loudly",
+                "angrily",
+                "politely",
+                "polite"
+              ],
+              "antwoord": [
+                0,
+                1,
+                2
+              ],
+              "uitleg": "Polite is het bijvoeglijk naamwoord, politely het bijwoord. Een y na een medeklinker wordt ily: angry wordt angrily."
+            },
+            {
+              "opties": [
+                "quietly",
+                "simply",
+                "nicely",
+                "nice"
+              ],
+              "antwoord": [
+                0,
+                1,
+                2
+              ],
+              "uitleg": "Nice is het bijvoeglijk naamwoord, nicely het bijwoord. Bij woorden op -le valt de e weg: simple wordt simply."
+            }
+          ]
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Maak het bijwoord bij 'happy'.",
+          "antwoord": [
+            "happily"
+          ],
+          "uitleg": "De y wordt i en er komt ly bij. Zo ook bij angry en angrily.",
+          "varianten": [
+            {
+              "vraag": "Maak het bijwoord bij 'angry'.",
+              "antwoord": [
+                "angrily"
+              ],
+              "uitleg": "De y wordt i en er komt ly bij. Zo ook bij happy en happily."
+            },
+            {
+              "vraag": "Maak het bijwoord bij 'easy'.",
+              "antwoord": [
+                "easily"
+              ],
+              "uitleg": "De y wordt i en er komt ly bij. Zo ook bij angry en angrily."
+            },
+            {
+              "vraag": "Maak het bijwoord bij 'lucky'.",
+              "antwoord": [
+                "luckily"
+              ],
+              "uitleg": "De y wordt i en er komt ly bij. Zo ook bij happy en happily."
+            }
+          ]
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Maak het bijwoord bij 'terrible'.",
+          "antwoord": [
+            "terribly"
+          ],
+          "uitleg": "Bij woorden op -le valt de e weg: terrible wordt terribly, simple wordt simply.",
+          "varianten": [
+            {
+              "vraag": "Maak het bijwoord bij 'simple'.",
+              "antwoord": [
+                "simply"
+              ],
+              "uitleg": "Bij woorden op -le valt de e weg: simple wordt simply, terrible wordt terribly."
+            },
+            {
+              "vraag": "Maak het bijwoord bij 'gentle'.",
+              "antwoord": [
+                "gently"
+              ],
+              "uitleg": "Bij woorden op -le valt de e weg: gentle wordt gently, simple wordt simply."
+            },
+            {
+              "vraag": "Maak het bijwoord bij 'possible'.",
+              "antwoord": [
+                "possibly"
+              ],
+              "uitleg": "Bij woorden op -le valt de e weg: possible wordt possibly, terrible wordt terribly."
+            }
+          ]
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Welke zin zegt correct dat iemand goed zingt?",
+          "opties": [
+            "She sings well.",
+            "She sings good.",
+            "She sings goodly.",
+            "She sings a good."
+          ],
+          "antwoord": 0,
+          "uitleg": "Well is het bijwoord bij good. Good zegt iets over een naamwoord: she is a good singer.",
+          "varianten": [
+            {
+              "vraag": "Welke zin zegt correct dat iemand goed kookt?",
+              "opties": [
+                "He cooks well.",
+                "He cooks good.",
+                "He cooks goodly.",
+                "He cooks a good."
+              ],
+              "uitleg": "Well is het bijwoord bij good. Good zegt iets over een naamwoord: he is a good cook."
+            },
+            {
+              "vraag": "Welke zin zegt correct dat iemand goed danst?",
+              "opties": [
+                "She dances well.",
+                "She dances good.",
+                "She dances goodly.",
+                "She dances a good."
+              ],
+              "uitleg": "Well is het bijwoord bij good. Good zegt iets over een naamwoord: she is a good dancer."
+            },
+            {
+              "vraag": "Welke zin zegt correct dat zij goed spelen?",
+              "opties": [
+                "They play well.",
+                "They play good.",
+                "They play goodly.",
+                "They play a good."
+              ],
+              "uitleg": "Well is het bijwoord bij good. Good zegt iets over een naamwoord: they are good players."
+            }
+          ]
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "Het bijwoord bij 'fast' is 'fastly'.",
+          "antwoord": false,
+          "uitleg": "Fast blijft fast: he runs fast. Fastly bestaat niet. Hetzelfde geldt voor hard, late en early.",
+          "varianten": [
+            {
+              "vraag": "Het bijwoord bij 'hard' is 'hardly'.",
+              "uitleg": "Hardly betekent nauwelijks. Het bijwoord bij hard is gewoon hard: he works hard."
+            },
+            {
+              "vraag": "Het bijwoord bij 'late' is 'lately'.",
+              "uitleg": "Lately betekent de laatste tijd. Het bijwoord bij late is gewoon late: he arrived late."
+            },
+            {
+              "vraag": "Het bijwoord bij 'early' is 'earlily'.",
+              "uitleg": "Early blijft early: she got up early. Earlily bestaat niet."
+            }
+          ]
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Wat betekent 'he has hardly worked'?",
+          "opties": [
+            "hij heeft nauwelijks gewerkt",
+            "hij heeft hard gewerkt",
+            "hij heeft moeilijk werk",
+            "hij werkt nog altijd"
+          ],
+          "antwoord": 0,
+          "uitleg": "Hard betekent hard, maar hardly betekent nauwelijks. Hij heeft hard gewerkt is he has worked hard.",
+          "varianten": [
+            {
+              "vraag": "Wat betekent 'she has hardly eaten'?",
+              "opties": [
+                "zij heeft nauwelijks gegeten",
+                "zij heeft veel gegeten",
+                "zij heeft moeilijk eten",
+                "zij eet nog altijd"
+              ],
+              "uitleg": "Hard betekent hard, maar hardly betekent nauwelijks."
+            },
+            {
+              "vraag": "Wat betekent 'I hardly know him'?",
+              "opties": [
+                "ik ken hem nauwelijks",
+                "ik ken hem goed",
+                "ik ken hem moeilijk",
+                "ik ken hem al lang"
+              ],
+              "uitleg": "Hard betekent hard, maar hardly betekent nauwelijks."
+            },
+            {
+              "vraag": "Wat betekent 'they have hardly slept'?",
+              "opties": [
+                "zij hebben nauwelijks geslapen",
+                "zij hebben lang geslapen",
+                "zij hebben moeilijk geslapen",
+                "zij slapen nog"
+              ],
+              "uitleg": "Hard betekent hard, maar hardly betekent nauwelijks."
+            }
+          ]
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "In welke zinnen staat 'hard' of 'hardly' juist gebruikt?",
+          "opties": [
+            "This is a lot of hard work.",
+            "She has worked hard.",
+            "He has hardly worked.",
+            "She has worked hardly."
+          ],
+          "antwoord": [
+            0,
+            1,
+            2
+          ],
+          "uitleg": "She has worked hardly zou betekenen dat ze bijna niets deed, en dat is niet wat de zin wil zeggen."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "'Lately' betekent de laatste tijd, en niet laat.",
+          "antwoord": true,
+          "uitleg": "Late is laat, lately is de laatste tijd: I haven't seen her lately. Ook hier draait de -ly de betekenis om."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Welk woord is een bijvoeglijk naamwoord, ook al eindigt het op -ly?",
+          "opties": [
+            "friendly",
+            "quickly",
+            "slowly",
+            "loudly"
+          ],
+          "antwoord": 0,
+          "uitleg": "Friendly, lovely, lonely en silly zijn bijvoeglijke naamwoorden. Wil je er een bijwoord van maken, dan zeg je in a friendly way.",
+          "varianten": [
+            {
+              "opties": [
+                "lovely",
+                "quickly",
+                "slowly",
+                "badly"
+              ],
+              "uitleg": "Friendly, lovely, lonely en silly zijn bijvoeglijke naamwoorden. Wil je er een bijwoord van maken, dan zeg je in a lovely way."
+            },
+            {
+              "opties": [
+                "lonely",
+                "politely",
+                "happily",
+                "loudly"
+              ],
+              "uitleg": "Friendly, lovely, lonely en silly zijn bijvoeglijke naamwoorden. Wil je er een bijwoord van maken, dan zeg je in a lonely way."
+            },
+            {
+              "opties": [
+                "silly",
+                "nicely",
+                "angrily",
+                "quietly"
+              ],
+              "uitleg": "Friendly, lovely, lonely en silly zijn bijvoeglijke naamwoorden. Wil je er een bijwoord van maken, dan zeg je in a silly way."
+            }
+          ]
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Welke zin over een bezoek aan de sportzaal is juist?",
+          "opties": [
+            "She often goes to the gym.",
+            "She goes often to the gym.",
+            "Often she goes the gym.",
+            "She goes to the gym often the week."
+          ],
+          "antwoord": 0,
+          "uitleg": "Bijwoorden van frequentie staan voor het hoofdwerkwoord: always, usually, often, sometimes, never.",
+          "varianten": [
+            {
+              "vraag": "Welke zin over een bezoek aan de bibliotheek is juist?",
+              "opties": [
+                "She often goes to the library.",
+                "She goes often to the library.",
+                "Often she goes the library.",
+                "She goes to the library often the week."
+              ]
+            },
+            {
+              "vraag": "Welke zin over zwemmen na school is juist?",
+              "opties": [
+                "He always swims after school.",
+                "He swims always after school.",
+                "Always he swims the pool.",
+                "He swims after school always the week."
+              ]
+            },
+            {
+              "vraag": "Welke zin over ontbijten is juist?",
+              "opties": [
+                "They usually eat breakfast at seven.",
+                "They eat usually breakfast at seven.",
+                "Usually they eat the breakfast seven.",
+                "They eat breakfast usually the day."
+              ]
+            }
+          ]
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Waar staat 'always' als het werkwoord 'to be' is?",
+          "opties": [
+            "achter to be: he is always late",
+            "voor to be: he always is late",
+            "achteraan: he is late always",
+            "vooraan: always he is late"
+          ],
+          "antwoord": 0,
+          "uitleg": "To be is de uitzondering. Bij alle andere werkwoorden staat het bijwoord ervoor: he always arrives late."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Vul het juiste woord in: drive … , the roads are icy. Kies tussen careful en carefully.",
+          "antwoord": [
+            "carefully"
+          ],
+          "uitleg": "Het zegt iets over hoe je rijdt, dus je hebt een bijwoord nodig."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "Na een koppelwerkwoord zoals 'look' of 'smell' gebruik je een bijvoeglijk naamwoord: it smells good.",
+          "antwoord": true,
+          "uitleg": "Het zegt iets over het onderwerp, niet over de handeling. Vergelijk: she looks happy tegenover she looked at me happily."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Welke zin over de smaak van de soep is juist?",
+          "opties": [
+            "The soup tastes delicious.",
+            "The soup tastes deliciously.",
+            "The soup is tasting deliciously.",
+            "The soup tastes a delicious."
+          ],
+          "antwoord": 0,
+          "uitleg": "Taste is hier een koppelwerkwoord, dus komt er een bijvoeglijk naamwoord achter.",
+          "varianten": [
+            {
+              "vraag": "Welke zin over de smaak van de taart is juist?",
+              "opties": [
+                "The cake tastes delicious.",
+                "The cake tastes deliciously.",
+                "The cake is tasting deliciously.",
+                "The cake tastes a delicious."
+              ],
+              "uitleg": "Taste is hier een koppelwerkwoord, dus komt er een bijvoeglijk naamwoord achter."
+            },
+            {
+              "vraag": "Welke zin over de geur van de bloemen is juist?",
+              "opties": [
+                "The flowers smell lovely.",
+                "The flowers smell lovelily.",
+                "The flowers are smelling lovelily.",
+                "The flowers smell a lovely."
+              ],
+              "uitleg": "Smell is hier een koppelwerkwoord, dus komt er een bijvoeglijk naamwoord achter."
+            },
+            {
+              "vraag": "Welke zin over hoe iemand eruitziet is juist?",
+              "opties": [
+                "She looks happy today.",
+                "She looks happily today.",
+                "She is looking happily today.",
+                "She looks a happy today."
+              ],
+              "uitleg": "Look is hier een koppelwerkwoord, dus komt er een bijvoeglijk naamwoord achter."
+            }
+          ]
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Welke woorden versterken een bijvoeglijk naamwoord?",
+          "opties": [
+            "very",
+            "quite",
+            "extremely",
+            "much"
+          ],
+          "antwoord": [
+            0,
+            1,
+            2
+          ],
+          "uitleg": "Much versterkt geen bijvoeglijk naamwoord in een gewone zin. Bij een vergrotende trap kan het wel: much better.",
+          "varianten": [
+            {
+              "opties": [
+                "really",
+                "rather",
+                "incredibly",
+                "much"
+              ],
+              "antwoord": [
+                0,
+                1,
+                2
+              ],
+              "uitleg": "Much versterkt geen bijvoeglijk naamwoord in een gewone zin. Bij een vergrotende trap kan het wel: much better."
+            },
+            {
+              "opties": [
+                "very",
+                "fairly",
+                "terribly",
+                "much"
+              ],
+              "antwoord": [
+                0,
+                1,
+                2
+              ],
+              "uitleg": "Much versterkt geen bijvoeglijk naamwoord in een gewone zin. Bij een vergrotende trap kan het wel: much better."
+            },
+            {
+              "opties": [
+                "extremely",
+                "quite",
+                "awfully",
+                "much"
+              ],
+              "antwoord": [
+                0,
+                1,
+                2
+              ],
+              "uitleg": "Much versterkt geen bijvoeglijk naamwoord in een gewone zin. Bij een vergrotende trap kan het wel: much better."
+            }
+          ]
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "Je kan 'very' voor een vergrotende trap zetten: very better.",
+          "antwoord": false,
+          "uitleg": "Daar gebruik je much, far of a lot: much better, far better, a lot better."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Welke zin klopt qua betekenis?",
+          "opties": [
+            "He works hard, so he is tired.",
+            "He hardly works, so he is tired from work.",
+            "He works hardly, so he earns a lot.",
+            "He is hard working hardly today."
+          ],
+          "antwoord": 0,
+          "uitleg": "Hardly draait de betekenis om naar bijna niet. Let dus goed op welk van de twee er staat.",
+          "varianten": [
+            {
+              "opties": [
+                "She works hard, so she is tired.",
+                "She hardly works, so she is tired from work.",
+                "She works hardly, so she earns a lot.",
+                "She is hard working hardly today."
+              ]
+            },
+            {
+              "opties": [
+                "They study hard, so they pass.",
+                "They hardly study, so they pass easily.",
+                "They study hardly, so they know a lot.",
+                "They are hard studying hardly now."
+              ]
+            },
+            {
+              "opties": [
+                "He trains hard, so he improves.",
+                "He hardly trains, so he improves fast.",
+                "He trains hardly, so he wins often.",
+                "He is hard training hardly today."
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "titel": "Adjectives, adverbs, comparatives en voorzetsels — deel 2",
+      "niveau": "boost-dubbele-finaliteit",
+      "gratis": false,
+      "vragen": [
+        {
+          "type": "meerkeuze",
+          "vraag": "Wat is de vergrotende trap van 'big'?",
+          "opties": [
+            "bigger",
+            "more big",
+            "biger",
+            "biggest"
+          ],
+          "antwoord": 0,
+          "uitleg": "Een korte klinker met één medeklinker erachter: die medeklinker verdubbelt. Big wordt bigger, hot wordt hotter.",
+          "varianten": [
+            {
+              "vraag": "Wat is de vergrotende trap van 'hot'?",
+              "opties": [
+                "hotter",
+                "more hot",
+                "hoter",
+                "hottest"
+              ],
+              "uitleg": "Een korte klinker met één medeklinker erachter: die medeklinker verdubbelt. Hot wordt hotter, big wordt bigger."
+            },
+            {
+              "vraag": "Wat is de vergrotende trap van 'thin'?",
+              "opties": [
+                "thinner",
+                "more thin",
+                "thiner",
+                "thinnest"
+              ],
+              "uitleg": "Een korte klinker met één medeklinker erachter: die medeklinker verdubbelt. Thin wordt thinner, big wordt bigger."
+            },
+            {
+              "vraag": "Wat is de vergrotende trap van 'sad'?",
+              "opties": [
+                "sadder",
+                "more sad",
+                "sader",
+                "saddest"
+              ],
+              "uitleg": "Een korte klinker met één medeklinker erachter: die medeklinker verdubbelt. Sad wordt sadder, hot wordt hotter."
+            }
+          ]
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Bij welke woorden gebruik je 'more' in plaats van -er?",
+          "opties": [
+            "expensive",
+            "interesting",
+            "beautiful",
+            "small"
+          ],
+          "antwoord": [
+            0,
+            1,
+            2
+          ],
+          "uitleg": "Woorden van twee of meer lettergrepen krijgen more. Korte woorden krijgen -er: smaller.",
+          "varianten": [
+            {
+              "opties": [
+                "difficult",
+                "important",
+                "comfortable",
+                "tall"
+              ],
+              "antwoord": [
+                0,
+                1,
+                2
+              ],
+              "uitleg": "Woorden van twee of meer lettergrepen krijgen more. Korte woorden krijgen -er: taller."
+            },
+            {
+              "opties": [
+                "dangerous",
+                "popular",
+                "surprising",
+                "old"
+              ],
+              "antwoord": [
+                0,
+                1,
+                2
+              ],
+              "uitleg": "Woorden van twee of meer lettergrepen krijgen more. Korte woorden krijgen -er: older."
+            },
+            {
+              "opties": [
+                "careful",
+                "modern",
+                "exciting",
+                "young"
+              ],
+              "antwoord": [
+                0,
+                1,
+                2
+              ],
+              "uitleg": "Woorden van twee of meer lettergrepen krijgen more. Korte woorden krijgen -er: younger."
+            }
+          ]
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Schrijf de vergrotende trap van 'easy'.",
+          "antwoord": [
+            "easier"
+          ],
+          "uitleg": "Twee lettergrepen maar op een y, dus toch -er: easy, easier, easiest. De y wordt i.",
+          "varianten": [
+            {
+              "vraag": "Schrijf de vergrotende trap van 'happy'.",
+              "antwoord": [
+                "happier"
+              ],
+              "uitleg": "Twee lettergrepen maar op een y, dus toch -er: happy, happier, happiest. De y wordt i."
+            },
+            {
+              "vraag": "Schrijf de vergrotende trap van 'busy'.",
+              "antwoord": [
+                "busier"
+              ],
+              "uitleg": "Twee lettergrepen maar op een y, dus toch -er: busy, busier, busiest. De y wordt i."
+            },
+            {
+              "vraag": "Schrijf de vergrotende trap van 'early'.",
+              "antwoord": [
+                "earlier"
+              ],
+              "uitleg": "Twee lettergrepen maar op een y, dus toch -er: early, earlier, earliest. De y wordt i."
+            }
+          ]
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "De overtreffende trap van 'good' is 'goodest'.",
+          "antwoord": false,
+          "uitleg": "Good, better, best zijn onregelmatig. Net als bad, worse, worst en little, less, least.",
+          "varianten": [
+            {
+              "vraag": "De vergrotende trap van 'bad' is 'badder'.",
+              "uitleg": "Bad, worse, worst zijn onregelmatig."
+            },
+            {
+              "vraag": "De overtreffende trap van 'little' is 'littlest'.",
+              "uitleg": "Little, less, least zijn onregelmatig."
+            },
+            {
+              "vraag": "De vergrotende trap van 'good' is 'gooder'.",
+              "uitleg": "Good, better, best zijn onregelmatig."
+            }
+          ]
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Wat is de overtreffende trap van 'bad'?",
+          "opties": [
+            "worst",
+            "baddest",
+            "worse",
+            "most bad"
+          ],
+          "antwoord": 0,
+          "uitleg": "Bad, worse, worst. Worse is de vergrotende trap.",
+          "varianten": [
+            {
+              "vraag": "Wat is de overtreffende trap van 'good'?",
+              "opties": [
+                "best",
+                "goodest",
+                "better",
+                "most good"
+              ],
+              "uitleg": "Good, better, best. Better is de vergrotende trap."
+            },
+            {
+              "vraag": "Wat is de overtreffende trap van 'little'?",
+              "opties": [
+                "least",
+                "littlest",
+                "less",
+                "most little"
+              ],
+              "uitleg": "Little, less, least. Less is de vergrotende trap."
+            },
+            {
+              "vraag": "Wat is de overtreffende trap van 'far'?",
+              "opties": [
+                "furthest",
+                "farrest",
+                "further",
+                "most far"
+              ],
+              "uitleg": "Far, further, furthest. Further is de vergrotende trap."
+            }
+          ]
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Vul aan met één woord: this book is more interesting … the other one.",
+          "antwoord": [
+            "than"
+          ],
+          "uitleg": "Na een vergrotende trap komt than. Verwar het niet met then, dat daarna betekent.",
+          "varianten": [
+            {
+              "vraag": "Vul aan met één woord: this test is easier … the last one.",
+              "antwoord": [
+                "than"
+              ],
+              "uitleg": "Na een vergrotende trap komt than. Verwar het niet met then, dat daarna betekent."
+            },
+            {
+              "vraag": "Vul aan met één woord: she is taller … her brother.",
+              "antwoord": [
+                "than"
+              ],
+              "uitleg": "Na een vergrotende trap komt than. Verwar het niet met then, dat daarna betekent."
+            },
+            {
+              "vraag": "Vul aan met één woord: my bag is heavier … yours.",
+              "antwoord": [
+                "than"
+              ],
+              "uitleg": "Na een vergrotende trap komt than. Verwar het niet met then, dat daarna betekent."
+            }
+          ]
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Welke zin vergelijkt correct twee personen die even groot zijn?",
+          "opties": [
+            "She is as tall as her brother.",
+            "She is as tall than her brother.",
+            "She is so tall as her brother.",
+            "She is as tall like her brother."
+          ],
+          "antwoord": 0,
+          "uitleg": "Zijn twee dingen gelijk, dan zeg je as ... as. Zijn ze niet gelijk, dan zeg je not as ... as.",
+          "varianten": [
+            {
+              "vraag": "Welke zin vergelijkt correct twee personen die even oud zijn?",
+              "opties": [
+                "He is as old as his cousin.",
+                "He is as old than his cousin.",
+                "He is so old as his cousin.",
+                "He is as old like his cousin."
+              ]
+            },
+            {
+              "vraag": "Welke zin vergelijkt correct twee dozen die even zwaar zijn?",
+              "opties": [
+                "This box is as heavy as that one.",
+                "This box is as heavy than that one.",
+                "This box is so heavy as that one.",
+                "This box is as heavy like that one."
+              ]
+            },
+            {
+              "vraag": "Welke zin vergelijkt correct twee mensen die even snel lopen?",
+              "opties": [
+                "She runs as fast as I do.",
+                "She runs as fast than I do.",
+                "She runs so fast as I do.",
+                "She runs as fast like I do."
+              ]
+            }
+          ]
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Wat betekent 'this test is not as hard as the last one'?",
+          "opties": [
+            "deze toets is makkelijker",
+            "deze toets is even moeilijk",
+            "deze toets is moeilijker",
+            "deze toets was de laatste"
+          ],
+          "antwoord": 0,
+          "uitleg": "Not as ... as zegt dat het eerste minder is dan het tweede."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "Voor de overtreffende trap zet je bijna altijd 'the': she is the tallest in the class.",
+          "antwoord": true,
+          "uitleg": "Best, tallest, most expensive: er hoort the voor. Bij de vergrotende trap niet.",
+          "varianten": [
+            {
+              "vraag": "Je zegt 'he is the best player in the team'.",
+              "uitleg": "Bij de overtreffende trap hoort the. Bij de vergrotende trap niet."
+            },
+            {
+              "vraag": "Bij de vergrotende trap zet je geen 'the'.",
+              "uitleg": "She is taller than her brother, zonder the. Bij de overtreffende trap wel: the tallest."
+            },
+            {
+              "vraag": "Voor 'most expensive' hoort 'the'.",
+              "uitleg": "Best, tallest, most expensive: er hoort the voor."
+            }
+          ]
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Welke zin over oefenen en makkelijker worden is juist?",
+          "opties": [
+            "The more you practise, the easier it gets.",
+            "More you practise, easier it gets.",
+            "The more you practise, the more easy it gets.",
+            "More you practise, the easy it gets."
+          ],
+          "antwoord": 0,
+          "uitleg": "Deze vaste vorm neemt twee keer the: the ... , the ... En easy krijgt -ier, niet more."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Welk voorzetsel hoort bij een uur: … seven o'clock?",
+          "opties": [
+            "at",
+            "on",
+            "in",
+            "for"
+          ],
+          "antwoord": 0,
+          "uitleg": "At bij een uur, on bij een dag of een datum, in bij een maand, een seizoen of een jaar.",
+          "varianten": [
+            {
+              "vraag": "Welk voorzetsel hoort bij een dag: … Monday?",
+              "opties": [
+                "on",
+                "at",
+                "in",
+                "for"
+              ],
+              "uitleg": "At bij een uur, on bij een dag of een datum, in bij een maand, een seizoen of een jaar."
+            },
+            {
+              "vraag": "Welk voorzetsel hoort bij een maand: … July?",
+              "opties": [
+                "in",
+                "at",
+                "on",
+                "for"
+              ],
+              "uitleg": "At bij een uur, on bij een dag of een datum, in bij een maand, een seizoen of een jaar."
+            },
+            {
+              "vraag": "Welk voorzetsel hoort bij een jaartal: … 2027?",
+              "opties": [
+                "in",
+                "at",
+                "on",
+                "for"
+              ],
+              "uitleg": "At bij een uur, on bij een dag of een datum, in bij een maand, een seizoen of een jaar."
+            }
+          ]
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Bij welke tijdsaanduidingen hoort 'in'?",
+          "opties": [
+            "July",
+            "2027",
+            "the morning",
+            "Monday"
+          ],
+          "antwoord": [
+            0,
+            1,
+            2
+          ],
+          "uitleg": "Bij een dag hoort on: on Monday. En on Monday morning, want de dag wint.",
+          "varianten": [
+            {
+              "opties": [
+                "March",
+                "the evening",
+                "summer",
+                "Friday"
+              ],
+              "antwoord": [
+                0,
+                1,
+                2
+              ],
+              "uitleg": "Bij een dag hoort on: on Friday. En on Friday evening, want de dag wint."
+            },
+            {
+              "opties": [
+                "2030",
+                "the afternoon",
+                "winter",
+                "Sunday"
+              ],
+              "antwoord": [
+                0,
+                1,
+                2
+              ],
+              "uitleg": "Bij een dag hoort on: on Sunday. En on Sunday afternoon, want de dag wint."
+            },
+            {
+              "opties": [
+                "September",
+                "the morning",
+                "spring",
+                "Tuesday"
+              ],
+              "antwoord": [
+                0,
+                1,
+                2
+              ],
+              "uitleg": "Bij een dag hoort on: on Tuesday. En on Tuesday morning, want de dag wint."
+            }
+          ]
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Vul het juiste voorzetsel in: I was born … 14 March.",
+          "antwoord": [
+            "on"
+          ],
+          "uitleg": "Bij een volledige datum hoort on. Bij enkel de maand hoort in: in March."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "Bij 'night' hoort in het Engels 'at': I don't work at night.",
+          "antwoord": true,
+          "uitleg": "At night, maar in the morning, in the afternoon en in the evening. Night is de uitzondering."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Welke zin zegt correct dat je op de bus wacht?",
+          "opties": [
+            "I am waiting for the bus.",
+            "I am waiting on the bus.",
+            "I am waiting the bus.",
+            "I am waiting to the bus."
+          ],
+          "antwoord": 0,
+          "uitleg": "Wait for is vast. In het Nederlands wacht je op iets, in het Engels wacht je for."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Welke werkwoorden nemen het voorzetsel 'to'?",
+          "opties": [
+            "listen",
+            "belong",
+            "explain",
+            "discuss"
+          ],
+          "antwoord": [
+            0,
+            1,
+            2
+          ],
+          "uitleg": "Listen to music, belong to someone, explain something to someone. Discuss neemt niets: we discussed the problem.",
+          "varianten": [
+            {
+              "opties": [
+                "listen",
+                "reply",
+                "apologise",
+                "enter"
+              ],
+              "antwoord": [
+                0,
+                1,
+                2
+              ],
+              "uitleg": "Enter neemt niets: we entered the room. Listen to music, reply to a letter, apologise to someone."
+            },
+            {
+              "opties": [
+                "belong",
+                "explain",
+                "speak",
+                "marry"
+              ],
+              "antwoord": [
+                0,
+                1,
+                2
+              ],
+              "uitleg": "Marry neemt niets: he married her. Belong to someone, explain something to someone, speak to someone."
+            },
+            {
+              "opties": [
+                "listen",
+                "happen",
+                "refer",
+                "phone"
+              ],
+              "antwoord": [
+                0,
+                1,
+                2
+              ],
+              "uitleg": "Phone neemt niets: she phoned me. Listen to music, happen to someone, refer to a book."
+            }
+          ]
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Vul het juiste voorzetsel in: she is very good … maths.",
+          "antwoord": [
+            "at"
+          ],
+          "uitleg": "Good at, bad at, but interested in en afraid of. Die combinaties leer je als één geheel.",
+          "varianten": [
+            {
+              "vraag": "Vul het juiste voorzetsel in: he is very bad … drawing.",
+              "antwoord": [
+                "at"
+              ],
+              "uitleg": "Good at, bad at, maar interested in en afraid of. Die combinaties leer je als één geheel."
+            },
+            {
+              "vraag": "Vul het juiste voorzetsel in: I am interested … history.",
+              "antwoord": [
+                "in"
+              ],
+              "uitleg": "Interested in, good at, afraid of. Die combinaties leer je als één geheel."
+            },
+            {
+              "vraag": "Vul het juiste voorzetsel in: she is afraid … spiders.",
+              "antwoord": [
+                "of"
+              ],
+              "uitleg": "Afraid of, good at, interested in. Die combinaties leer je als één geheel."
+            }
+          ]
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "Je zegt in het Engels 'I am married with him'.",
+          "antwoord": false,
+          "uitleg": "Het is married to. Het voorzetsel volgt niet altijd het Nederlands, dus leer het woord en het voorzetsel samen."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Welke zin over de aankomst in een station is juist?",
+          "opties": [
+            "We arrived at the station at six.",
+            "We arrived to the station at six.",
+            "We arrived in the station at six.",
+            "We arrived the station at six."
+          ],
+          "antwoord": 0,
+          "uitleg": "Arrive at bij een plaats zoals een station of een gebouw, arrive in bij een stad of een land: we arrived in London."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Welk voorzetsel past? The keys are … the table.",
+          "opties": [
+            "on",
+            "in",
+            "at",
+            "to"
+          ],
+          "antwoord": 0,
+          "uitleg": "On voor een oppervlak, in voor iets wat omsloten is, at voor een punt of een plaats waar je bent: at the bus stop."
+        }
+      ]
+    },
+    {
+      "titel": "De tegenwoordige tijden — deel 1",
+      "niveau": "boost-dubbele-finaliteit",
+      "gratis": false,
+      "vragen": [
+        {
+          "type": "meerkeuze",
+          "vraag": "Welke zin over boeken op tafel is juist?",
+          "opties": [
+            "There are three books on the table.",
+            "There is three books on the table.",
+            "There are a book on the table.",
+            "It are three books on the table."
+          ],
+          "antwoord": 0,
+          "uitleg": "There is bij enkelvoud, there are bij meervoud. Je kijkt naar het woord dat erachter komt.",
+          "varianten": [
+            {
+              "vraag": "Welke zin over appels in de kom is juist?",
+              "opties": [
+                "There are three apples in the bowl.",
+                "There is three apples in the bowl.",
+                "There are an apple in the bowl.",
+                "It are three apples in the bowl."
+              ]
+            },
+            {
+              "vraag": "Welke zin over kinderen in de tuin is juist?",
+              "opties": [
+                "There are two children in the garden.",
+                "There is two children in the garden.",
+                "There are a child in the garden.",
+                "It are two children in the garden."
+              ]
+            },
+            {
+              "vraag": "Welke zin over stoelen in de kamer is juist?",
+              "opties": [
+                "There are four chairs in the room.",
+                "There is four chairs in the room.",
+                "There are a chair in the room.",
+                "It are four chairs in the room."
+              ]
+            }
+          ]
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "In 'there is some milk in the fridge' hoort 'is' omdat milk ontelbaar is.",
+          "antwoord": true,
+          "uitleg": "Ontelbare woorden nemen de enkelvoudsvorm. Bij een opsomming kijk je naar het eerste woord: there is a knife and two forks.",
+          "varianten": [
+            {
+              "vraag": "In 'there is some bread on the table' hoort 'is' omdat bread ontelbaar is.",
+              "uitleg": "Ontelbare woorden nemen de enkelvoudsvorm."
+            },
+            {
+              "vraag": "Bij een opsomming kijk je naar het eerste woord: there is a knife and two forks.",
+              "uitleg": "Het eerste woord is enkelvoud, dus there is."
+            },
+            {
+              "vraag": "'There is some sugar left' is juist omdat sugar ontelbaar is.",
+              "uitleg": "Ontelbare woorden nemen de enkelvoudsvorm."
+            }
+          ]
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Hoe schrijf je de derde persoon enkelvoud van 'to watch'?",
+          "opties": [
+            "watches",
+            "watchs",
+            "watche",
+            "watchies"
+          ],
+          "antwoord": 0,
+          "uitleg": "Na een sisklank komt es: watches, misses, fixes. Zo ook bij go en do: goes, does.",
+          "varianten": [
+            {
+              "vraag": "Hoe schrijf je de derde persoon enkelvoud van 'to miss'?",
+              "opties": [
+                "misses",
+                "miss",
+                "misse",
+                "missies"
+              ],
+              "uitleg": "Na een sisklank komt es: misses, watches, fixes. Zo ook bij go en do: goes, does."
+            },
+            {
+              "vraag": "Hoe schrijf je de derde persoon enkelvoud van 'to fix'?",
+              "opties": [
+                "fixes",
+                "fixs",
+                "fixe",
+                "fixies"
+              ],
+              "uitleg": "Na een sisklank komt es: fixes, watches, misses. Zo ook bij go en do: goes, does."
+            },
+            {
+              "vraag": "Hoe schrijf je de derde persoon enkelvoud van 'to go'?",
+              "opties": [
+                "goes",
+                "gos",
+                "goe",
+                "goies"
+              ],
+              "uitleg": "Go krijgt es, net als do: goes, does. Na een sisklank komt er ook es: watches, misses."
+            }
+          ]
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Schrijf de derde persoon enkelvoud van 'to fly'.",
+          "antwoord": [
+            "flies"
+          ],
+          "uitleg": "Een y na een medeklinker wordt ies. Staat er een klinker voor, dan blijft de y: he plays.",
+          "varianten": [
+            {
+              "vraag": "Schrijf de derde persoon enkelvoud van 'to try'.",
+              "antwoord": [
+                "tries"
+              ],
+              "uitleg": "Een y na een medeklinker wordt ies. Staat er een klinker voor, dan blijft de y: he plays."
+            },
+            {
+              "vraag": "Schrijf de derde persoon enkelvoud van 'to carry'.",
+              "antwoord": [
+                "carries"
+              ],
+              "uitleg": "Een y na een medeklinker wordt ies. Staat er een klinker voor, dan blijft de y: he plays."
+            },
+            {
+              "vraag": "Schrijf de derde persoon enkelvoud van 'to play'.",
+              "antwoord": [
+                "plays"
+              ],
+              "uitleg": "Voor de y staat een klinker, dus blijft ze staan. Bij een medeklinker ervoor wordt het ies: he flies."
+            }
+          ]
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Welke zinnen staan in een correcte present simple?",
+          "opties": [
+            "She studies French.",
+            "He does his homework.",
+            "They live in Ghent.",
+            "He go to school."
+          ],
+          "antwoord": [
+            0,
+            1,
+            2
+          ],
+          "uitleg": "He goes to school. De s van de derde persoon vergeten is de meest gemaakte fout in het Engels.",
+          "varianten": [
+            {
+              "opties": [
+                "She teaches maths.",
+                "He watches the news.",
+                "They work in Brussels.",
+                "He play football."
+              ],
+              "antwoord": [
+                0,
+                1,
+                2
+              ],
+              "uitleg": "He plays football. De s van de derde persoon vergeten is de meest gemaakte fout in het Engels."
+            },
+            {
+              "opties": [
+                "He carries the bags.",
+                "She goes by bus.",
+                "We live in Hasselt.",
+                "She want a dog."
+              ],
+              "antwoord": [
+                0,
+                1,
+                2
+              ],
+              "uitleg": "She wants a dog. De s van de derde persoon vergeten is de meest gemaakte fout in het Engels."
+            },
+            {
+              "opties": [
+                "She tries her best.",
+                "He fixes bikes.",
+                "They study Spanish.",
+                "He do his homework."
+              ],
+              "antwoord": [
+                0,
+                1,
+                2
+              ],
+              "uitleg": "He does his homework. De s van de derde persoon vergeten is de meest gemaakte fout in het Engels."
+            }
+          ]
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Welke vraag is juist?",
+          "opties": [
+            "Does she live here?",
+            "Do she lives here?",
+            "Does she lives here?",
+            "Live she here?"
+          ],
+          "antwoord": 0,
+          "uitleg": "Does neemt de s over, dus het hoofdwerkwoord blijft in de basisvorm.",
+          "varianten": [
+            {
+              "opties": [
+                "Does he work here?",
+                "Do he works here?",
+                "Does he works here?",
+                "Works he here?"
+              ]
+            },
+            {
+              "opties": [
+                "Does she play tennis?",
+                "Do she plays tennis?",
+                "Does she plays tennis?",
+                "Plays she tennis?"
+              ]
+            },
+            {
+              "opties": [
+                "Does it start at six?",
+                "Do it starts at six?",
+                "Does it starts at six?",
+                "Starts it at six?"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "In een ontkennende zin zeg je 'she doesn't lives here'.",
+          "antwoord": false,
+          "uitleg": "Het is she doesn't live here. De s zit al in doesn't.",
+          "varianten": [
+            {
+              "vraag": "In een ontkennende zin zeg je 'he doesn't works here'.",
+              "uitleg": "Het is he doesn't work here. De s zit al in doesn't."
+            },
+            {
+              "vraag": "'She doesn't plays tennis' is juist.",
+              "uitleg": "Het is she doesn't play tennis. De s zit al in doesn't."
+            },
+            {
+              "vraag": "Na 'doesn't' krijgt het werkwoord nog een s.",
+              "uitleg": "De s zit al in doesn't: she doesn't live here."
+            }
+          ]
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Wanneer gebruik je de present simple?",
+          "opties": [
+            "voor gewoontes en feiten",
+            "voor wat nu bezig is",
+            "voor iets dat net gebeurd is",
+            "voor een plan van morgen"
+          ],
+          "antwoord": 0,
+          "uitleg": "I get up at seven every day. The sun rises in the east. Wat nu bezig is, is de present continuous."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Welke zin staat in een correcte present continuous?",
+          "opties": [
+            "She is writing a letter.",
+            "She writing a letter.",
+            "She is write a letter.",
+            "She writes now a letter."
+          ],
+          "antwoord": 0,
+          "uitleg": "De vorm is am, is of are plus het werkwoord op -ing.",
+          "varianten": [
+            {
+              "opties": [
+                "He is reading a book.",
+                "He reading a book.",
+                "He is read a book.",
+                "He reads now a book."
+              ]
+            },
+            {
+              "opties": [
+                "They are playing outside.",
+                "They playing outside.",
+                "They are play outside.",
+                "They play now outside."
+              ]
+            },
+            {
+              "opties": [
+                "I am cooking dinner.",
+                "I cooking dinner.",
+                "I am cook dinner.",
+                "I cook now dinner."
+              ]
+            }
+          ]
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Schrijf de -ing-vorm van 'to sit'.",
+          "antwoord": [
+            "sitting"
+          ],
+          "uitleg": "Eén korte klinker met één medeklinker erachter: die verdubbelt. Sit wordt sitting, run wordt running.",
+          "varianten": [
+            {
+              "vraag": "Schrijf de -ing-vorm van 'to run'.",
+              "antwoord": [
+                "running"
+              ],
+              "uitleg": "Eén korte klinker met één medeklinker erachter: die verdubbelt. Run wordt running, sit wordt sitting."
+            },
+            {
+              "vraag": "Schrijf de -ing-vorm van 'to swim'.",
+              "antwoord": [
+                "swimming"
+              ],
+              "uitleg": "Eén korte klinker met één medeklinker erachter: die verdubbelt. Swim wordt swimming, run wordt running."
+            },
+            {
+              "vraag": "Schrijf de -ing-vorm van 'to write'.",
+              "antwoord": [
+                "writing"
+              ],
+              "uitleg": "Bij write valt de stomme e weg: writing. Verdubbelen doe je alleen na één korte klinker: sitting."
+            }
+          ]
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Welke -ing-vormen zijn juist geschreven?",
+          "opties": [
+            "writing",
+            "lying",
+            "beginning",
+            "writting"
+          ],
+          "antwoord": [
+            0,
+            1,
+            2
+          ],
+          "uitleg": "Bij write valt de stomme e weg: writing. Bij lie wordt ie een y: lying.",
+          "varianten": [
+            {
+              "opties": [
+                "making",
+                "dying",
+                "running",
+                "runing"
+              ],
+              "antwoord": [
+                0,
+                1,
+                2
+              ],
+              "uitleg": "Bij make valt de stomme e weg: making. Bij die wordt ie een y: dying. Bij run verdubbelt de n."
+            },
+            {
+              "opties": [
+                "coming",
+                "tying",
+                "swimming",
+                "comming"
+              ],
+              "antwoord": [
+                0,
+                1,
+                2
+              ],
+              "uitleg": "Bij come valt de stomme e weg: coming. Bij tie wordt ie een y: tying."
+            },
+            {
+              "opties": [
+                "taking",
+                "lying",
+                "sitting",
+                "takeing"
+              ],
+              "antwoord": [
+                0,
+                1,
+                2
+              ],
+              "uitleg": "Bij take valt de stomme e weg: taking. Bij lie wordt ie een y: lying."
+            }
+          ]
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "'Look! It is raining' staat terecht in de present continuous.",
+          "antwoord": true,
+          "uitleg": "Het gebeurt op dit moment. It rains a lot in Belgium zou een gewoonte zijn en staat dus in de present simple."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Welk werkwoord zet je normaal niet in de -ing-vorm?",
+          "opties": [
+            "to know",
+            "to walk",
+            "to read",
+            "to play"
+          ],
+          "antwoord": 0,
+          "uitleg": "Werkwoorden van weten, vinden en voelen blijven simple: I know, I believe, I want. Niet I am knowing."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Welke werkwoorden blijven meestal in de simple vorm staan?",
+          "opties": [
+            "understand",
+            "belong",
+            "like",
+            "listen"
+          ],
+          "antwoord": [
+            0,
+            1,
+            2
+          ],
+          "uitleg": "Listen kan wel: I am listening to music. De andere drie beschrijven een toestand en geen handeling."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Vul de juiste vorm van to be in: they … waiting outside.",
+          "antwoord": [
+            "are"
+          ],
+          "uitleg": "They neemt are. I neemt am, en he, she en it nemen is."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "De present continuous kan ook iets zeggen dat al afgesproken is voor later: we are meeting at six.",
+          "antwoord": true,
+          "uitleg": "Bij een afspraak die vastligt, gebruik je de present continuous: I am seeing the dentist tomorrow."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Welke zin past bij 'Ik werk elke zaterdag in een winkel.'?",
+          "opties": [
+            "I work in a shop every Saturday.",
+            "I am working in a shop every Saturday.",
+            "I have worked in a shop every Saturday.",
+            "I am work in a shop every Saturday."
+          ],
+          "antwoord": 0,
+          "uitleg": "Every Saturday maakt er een gewoonte van, dus present simple.",
+          "varianten": [
+            {
+              "vraag": "Welke zin past bij 'Ik speel elke zondag voetbal.'?",
+              "opties": [
+                "I play football every Sunday.",
+                "I am playing football every Sunday.",
+                "I have played football every Sunday.",
+                "I am play football every Sunday."
+              ],
+              "uitleg": "Every Sunday maakt er een gewoonte van, dus present simple."
+            },
+            {
+              "vraag": "Welke zin past bij 'Zij fietst elke ochtend naar school.'?",
+              "opties": [
+                "She cycles to school every morning.",
+                "She is cycling to school every morning.",
+                "She has cycled to school every morning.",
+                "She is cycle to school every morning."
+              ],
+              "uitleg": "Every morning maakt er een gewoonte van, dus present simple."
+            },
+            {
+              "vraag": "Welke zin past bij 'Wij eten elke vrijdag frietjes.'?",
+              "opties": [
+                "We eat chips every Friday.",
+                "We are eating chips every Friday.",
+                "We have eaten chips every Friday.",
+                "We are eat chips every Friday."
+              ],
+              "uitleg": "Every Friday maakt er een gewoonte van, dus present simple."
+            }
+          ]
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Welke vraag naar wat iemand nu doet is juist?",
+          "opties": [
+            "What are you doing right now?",
+            "What do you doing right now?",
+            "What are you do right now?",
+            "What you are doing right now?"
+          ],
+          "antwoord": 0,
+          "uitleg": "In een vraag wisselen het onderwerp en de vorm van to be van plaats: are you."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "In de vraag 'How often are you going swimming?' staat het werkwoord in de juiste tijd.",
+          "antwoord": false,
+          "uitleg": "How often vraagt naar een gewoonte, en daar hoort de present simple bij: how often do you go swimming?"
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Welke zin klopt?",
+          "opties": [
+            "There aren't any eggs left.",
+            "There isn't any eggs left.",
+            "There aren't an egg left.",
+            "There is not no eggs left."
+          ],
+          "antwoord": 0,
+          "uitleg": "Eggs is meervoud, dus aren't. En in een ontkenning hoort any, niet some.",
+          "varianten": [
+            {
+              "opties": [
+                "There aren't any apples left.",
+                "There isn't any apples left.",
+                "There aren't an apple left.",
+                "There is not no apples left."
+              ],
+              "uitleg": "Apples is meervoud, dus aren't. En in een ontkenning hoort any, niet some."
+            },
+            {
+              "opties": [
+                "There aren't any chairs left.",
+                "There isn't any chairs left.",
+                "There aren't a chair left.",
+                "There is not no chairs left."
+              ],
+              "uitleg": "Chairs is meervoud, dus aren't. En in een ontkenning hoort any, niet some."
+            },
+            {
+              "opties": [
+                "There aren't any tickets left.",
+                "There isn't any tickets left.",
+                "There aren't a ticket left.",
+                "There is not no tickets left."
+              ],
+              "uitleg": "Tickets is meervoud, dus aren't. En in een ontkenning hoort any, niet some."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "titel": "De tegenwoordige tijden — deel 2",
+      "niveau": "boost-dubbele-finaliteit",
+      "gratis": false,
+      "vragen": [
+        {
+          "type": "meerkeuze",
+          "vraag": "Hoe vertaal je 'Ik woon sinds 2020 in Antwerpen.'?",
+          "opties": [
+            "I have lived in Antwerp since 2020.",
+            "I live in Antwerp since 2020.",
+            "I am living in Antwerp since 2020.",
+            "I lived in Antwerp since 2020."
+          ],
+          "antwoord": 0,
+          "uitleg": "Iets dat vroeger begon en nu nog bezig is, staat in het Engels in de present perfect. Het Nederlands gebruikt daar de tegenwoordige tijd, en dat is een klassieke valkuil.",
+          "varianten": [
+            {
+              "vraag": "Hoe vertaal je 'Ik ken hem sinds 2019.'?",
+              "opties": [
+                "I have known him since 2019.",
+                "I know him since 2019.",
+                "I am knowing him since 2019.",
+                "I knew him since 2019."
+              ]
+            },
+            {
+              "vraag": "Hoe vertaal je 'Zij werkt hier sinds september.'?",
+              "opties": [
+                "She has worked here since September.",
+                "She works here since September.",
+                "She is working here since September.",
+                "She worked here since September."
+              ]
+            },
+            {
+              "vraag": "Hoe vertaal je 'Wij leren al drie jaar Engels.'?",
+              "opties": [
+                "We have learned English for three years.",
+                "We learn English for three years.",
+                "We are learning English for three years.",
+                "We learned English for three years."
+              ]
+            }
+          ]
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Waaruit bestaat de present perfect?",
+          "opties": [
+            "have of has plus het voltooid deelwoord",
+            "am, is of are plus -ing",
+            "did plus de basisvorm",
+            "will plus de basisvorm"
+          ],
+          "antwoord": 0,
+          "uitleg": "I have seen, she has gone. Het voltooid deelwoord is de derde vorm van het werkwoord."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Vul in met één woord: she … finished her homework.",
+          "antwoord": [
+            "has"
+          ],
+          "uitleg": "She, he en it nemen has. Alle andere personen nemen have.",
+          "varianten": [
+            {
+              "vraag": "Vul in met één woord: he … finished his homework.",
+              "antwoord": [
+                "has"
+              ],
+              "uitleg": "She, he en it nemen has. Alle andere personen nemen have."
+            },
+            {
+              "vraag": "Vul in met één woord: they … finished their homework.",
+              "antwoord": [
+                "have"
+              ],
+              "uitleg": "She, he en it nemen has. Alle andere personen nemen have."
+            },
+            {
+              "vraag": "Vul in met één woord: it … stopped raining.",
+              "antwoord": [
+                "has"
+              ],
+              "uitleg": "She, he en it nemen has. Alle andere personen nemen have."
+            }
+          ]
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Welk woord hoort bij een moment waarop iets begon?",
+          "opties": [
+            "since",
+            "for",
+            "ago",
+            "during"
+          ],
+          "antwoord": 0,
+          "uitleg": "Since 2020, since Monday, since I was ten. For gaat over de duur: for three years.",
+          "varianten": [
+            {
+              "vraag": "Welk woord hoort bij de duur van iets?",
+              "opties": [
+                "for",
+                "since",
+                "ago",
+                "during"
+              ],
+              "uitleg": "For three years, for a week. Since zegt vanaf wanneer: since 2020."
+            },
+            {
+              "vraag": "Welk woord hoort bij 'Monday' als je het begin bedoelt?",
+              "opties": [
+                "since",
+                "for",
+                "ago",
+                "during"
+              ],
+              "uitleg": "Since Monday zegt vanaf wanneer. For gaat over de duur: for three days."
+            },
+            {
+              "vraag": "Welk woord hoort bij 'two hours' als je de duur bedoelt?",
+              "opties": [
+                "for",
+                "since",
+                "ago",
+                "during"
+              ],
+              "uitleg": "For two hours zegt hoe lang. Since zegt vanaf wanneer: since Monday."
+            }
+          ]
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Bij welke woorden hoort 'for' en niet 'since'?",
+          "opties": [
+            "two hours",
+            "a week",
+            "ages",
+            "last Monday"
+          ],
+          "antwoord": [
+            0,
+            1,
+            2
+          ],
+          "uitleg": "For zegt hoe lang, since zegt vanaf wanneer. Last Monday is een moment, dus since.",
+          "varianten": [
+            {
+              "opties": [
+                "three days",
+                "a month",
+                "a long time",
+                "yesterday"
+              ],
+              "antwoord": [
+                0,
+                1,
+                2
+              ],
+              "uitleg": "For zegt hoe lang, since zegt vanaf wanneer. Yesterday is een moment, dus since."
+            },
+            {
+              "opties": [
+                "ten minutes",
+                "a year",
+                "ages",
+                "2020"
+              ],
+              "antwoord": [
+                0,
+                1,
+                2
+              ],
+              "uitleg": "For zegt hoe lang, since zegt vanaf wanneer. 2020 is een moment, dus since."
+            },
+            {
+              "opties": [
+                "an hour",
+                "two weeks",
+                "a while",
+                "last summer"
+              ],
+              "antwoord": [
+                0,
+                1,
+                2
+              ],
+              "uitleg": "For zegt hoe lang, since zegt vanaf wanneer. Last summer is een moment, dus since."
+            }
+          ]
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "'I have been to London last year' is een juiste zin.",
+          "antwoord": false,
+          "uitleg": "Last year is een afgelopen tijd, dus je neemt de past simple: I went to London last year.",
+          "varianten": [
+            {
+              "vraag": "'I have seen that film yesterday' is een juiste zin.",
+              "uitleg": "Yesterday is een afgelopen tijd, dus je neemt de past simple: I saw that film yesterday."
+            },
+            {
+              "vraag": "'She has moved house in 2019' is een juiste zin.",
+              "uitleg": "In 2019 is een afgelopen tijd, dus je neemt de past simple: she moved house in 2019."
+            },
+            {
+              "vraag": "'We have arrived two hours ago' is een juiste zin.",
+              "uitleg": "Ago hoort bij een afgelopen tijd, dus je neemt de past simple: we arrived two hours ago."
+            }
+          ]
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Welke vraag over ervaring met sushi is juist?",
+          "opties": [
+            "Have you ever eaten sushi?",
+            "Have you ever ate sushi?",
+            "Did you ever eaten sushi?",
+            "Have you never ate sushi?"
+          ],
+          "antwoord": 0,
+          "uitleg": "Na have komt het voltooid deelwoord: eaten. Ate is de verleden tijd.",
+          "varianten": [
+            {
+              "vraag": "Welke vraag over ervaring met paardrijden is juist?",
+              "opties": [
+                "Have you ever ridden a horse?",
+                "Have you ever rode a horse?",
+                "Did you ever ridden a horse?",
+                "Have you never rode a horse?"
+              ],
+              "uitleg": "Na have komt het voltooid deelwoord: ridden. Rode is de verleden tijd."
+            },
+            {
+              "vraag": "Welke vraag over ervaring met vliegen is juist?",
+              "opties": [
+                "Have you ever flown to Spain?",
+                "Have you ever flew to Spain?",
+                "Did you ever flown to Spain?",
+                "Have you never flew to Spain?"
+              ],
+              "uitleg": "Na have komt het voltooid deelwoord: flown. Flew is de verleden tijd."
+            },
+            {
+              "vraag": "Welke vraag over ervaring met dat boek is juist?",
+              "opties": [
+                "Have you ever read that book?",
+                "Have you ever readed that book?",
+                "Did you ever readed that book?",
+                "Have you never readed that book?"
+              ],
+              "uitleg": "Na have komt het voltooid deelwoord. Bij read blijft de schrijfwijze gelijk, readed bestaat niet."
+            }
+          ]
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Waar staat 'yet' meestal in de zin?",
+          "opties": [
+            "achteraan, in een vraag of een ontkenning",
+            "vooraan de zin",
+            "voor het werkwoord",
+            "achteraan, alleen in een bevestiging"
+          ],
+          "antwoord": 0,
+          "uitleg": "Have you finished yet? I haven't finished yet. In een bevestigende zin gebruik je already: I have already finished."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Vul aan met één woord: I have … seen that film, dus ik moet het niet nog eens zien.",
+          "antwoord": [
+            "already"
+          ],
+          "uitleg": "Already staat tussen have en het deelwoord. Yet hoort in een vraag of een ontkenning.",
+          "varianten": [
+            {
+              "vraag": "Vul aan met één woord: she has … finished her work, dus ze kan naar huis.",
+              "antwoord": [
+                "already"
+              ],
+              "uitleg": "Already staat tussen have en het deelwoord. Yet hoort in een vraag of een ontkenning."
+            },
+            {
+              "vraag": "Vul aan met één woord: we have … eaten, dus we hebben geen honger meer.",
+              "antwoord": [
+                "already"
+              ],
+              "uitleg": "Already staat tussen have en het deelwoord. Yet hoort in een vraag of een ontkenning."
+            },
+            {
+              "vraag": "Vul aan met één woord: they have … left, dus bellen heeft geen zin meer.",
+              "antwoord": [
+                "already"
+              ],
+              "uitleg": "Already staat tussen have en het deelwoord. Yet hoort in een vraag of een ontkenning."
+            }
+          ]
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "'Just' betekent in 'I have just arrived' dat je nog maar net aangekomen bent.",
+          "antwoord": true,
+          "uitleg": "Just, already en yet horen alle drie bij de present perfect. Just staat tussen have en het deelwoord.",
+          "varianten": [
+            {
+              "vraag": "In 'she has just left' betekent just dat ze nog maar net weg is.",
+              "uitleg": "Just, already en yet horen alle drie bij de present perfect. Just staat tussen have en het deelwoord."
+            },
+            {
+              "vraag": "'Already' staat tussen have en het voltooid deelwoord.",
+              "uitleg": "I have already finished. Just staat op dezelfde plaats."
+            },
+            {
+              "vraag": "'Yet' hoort in een vraag of een ontkenning.",
+              "uitleg": "Have you finished yet? I haven't finished yet. In een bevestiging gebruik je already."
+            }
+          ]
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Welke zin hoort bij 'Ik ben mijn sleutels kwijt, ik vind ze nu niet.'?",
+          "opties": [
+            "I have lost my keys.",
+            "I lost my keys.",
+            "I am losing my keys.",
+            "I lose my keys."
+          ],
+          "antwoord": 0,
+          "uitleg": "De present perfect legt het verband met nu: het gevolg is er nog. I lost my keys zou enkel zeggen dat het gebeurde.",
+          "varianten": [
+            {
+              "vraag": "Welke zin hoort bij 'Ik ben mijn portefeuille kwijt, ik vind hem nu niet.'?",
+              "opties": [
+                "I have lost my wallet.",
+                "I lost my wallet.",
+                "I am losing my wallet.",
+                "I lose my wallet."
+              ],
+              "uitleg": "De present perfect legt het verband met nu: het gevolg is er nog."
+            },
+            {
+              "vraag": "Welke zin hoort bij 'Hij heeft zijn been gebroken, hij loopt nu met krukken.'?",
+              "opties": [
+                "He has broken his leg.",
+                "He broke his leg.",
+                "He is breaking his leg.",
+                "He breaks his leg."
+              ],
+              "uitleg": "De present perfect legt het verband met nu: het gevolg is er nog."
+            },
+            {
+              "vraag": "Welke zin hoort bij 'Zij heeft haar gsm laten vallen, het scherm is nu stuk.'?",
+              "opties": [
+                "She has dropped her phone.",
+                "She dropped her phone.",
+                "She is dropping her phone.",
+                "She drops her phone."
+              ],
+              "uitleg": "De present perfect legt het verband met nu: het gevolg is er nog."
+            }
+          ]
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Welke zinnen horen in de past simple en niet in de present perfect?",
+          "opties": [
+            "I saw her yesterday.",
+            "We moved house in 2019.",
+            "She called me two hours ago.",
+            "I have known him for years."
+          ],
+          "antwoord": [
+            0,
+            1,
+            2
+          ],
+          "uitleg": "Yesterday, in 2019 en ago noemen een afgesloten moment. For years loopt door tot nu.",
+          "varianten": [
+            {
+              "opties": [
+                "I met him last week.",
+                "They arrived in 2018.",
+                "She left an hour ago.",
+                "I have lived here for years."
+              ],
+              "antwoord": [
+                0,
+                1,
+                2
+              ],
+              "uitleg": "Last week, in 2018 en ago noemen een afgesloten moment. For years loopt door tot nu."
+            },
+            {
+              "opties": [
+                "We visited Rome in 2021.",
+                "He called me yesterday.",
+                "She finished two days ago.",
+                "They have worked here since May."
+              ],
+              "antwoord": [
+                0,
+                1,
+                2
+              ],
+              "uitleg": "In 2021, yesterday en ago noemen een afgesloten moment. Since May loopt door tot nu."
+            },
+            {
+              "opties": [
+                "I read that book last summer.",
+                "She moved to Ghent in 2020.",
+                "He phoned three hours ago.",
+                "We have known them for ages."
+              ],
+              "antwoord": [
+                0,
+                1,
+                2
+              ],
+              "uitleg": "Last summer, in 2020 en ago noemen een afgesloten moment. For ages loopt door tot nu."
+            }
+          ]
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "Bij 'when' als vraagwoord gebruik je de present perfect: when have you arrived?",
+          "antwoord": false,
+          "uitleg": "When vraagt naar een precies moment in het verleden, dus past simple: when did you arrive?"
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Waaruit bestaat de present perfect continuous?",
+          "opties": [
+            "have of has been plus -ing",
+            "have of has plus -ing",
+            "am, is of are been plus -ing",
+            "had been plus -ing"
+          ],
+          "antwoord": 0,
+          "uitleg": "I have been waiting, she has been working. Had been plus -ing is de past perfect continuous."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Wat benadrukt 'I have been waiting for an hour'?",
+          "opties": [
+            "hoelang het al duurt",
+            "dat het klaar is",
+            "dat het morgen gebeurt",
+            "dat het maar één keer gebeurde"
+          ],
+          "antwoord": 0,
+          "uitleg": "De continuous vorm legt de nadruk op de duur. Is het resultaat belangrijker, dan neem je de simple vorm.",
+          "varianten": [
+            {
+              "vraag": "Wat benadrukt 'she has been studying all afternoon'?"
+            },
+            {
+              "vraag": "Wat benadrukt 'they have been driving for six hours'?"
+            },
+            {
+              "vraag": "Wat benadrukt 'he has been reading all evening'?"
+            }
+          ]
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Vul het ontbrekende woord in: they have … working all morning.",
+          "antwoord": [
+            "been"
+          ],
+          "uitleg": "De present perfect continuous is have of has been plus de -ing-vorm."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "'I have been knowing her for years' is een juiste zin.",
+          "antwoord": false,
+          "uitleg": "Know hoort bij de werkwoorden die niet in de -ing-vorm gaan. Het moet I have known her for years zijn."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Welke zin past bij iemand die nu vuile handen heeft?",
+          "opties": [
+            "I have been gardening.",
+            "I have gardened three times.",
+            "I garden every week.",
+            "I will be gardening."
+          ],
+          "antwoord": 0,
+          "uitleg": "De continuous vorm toont een bezigheid waarvan je de sporen nog ziet. De simple vorm telt het resultaat.",
+          "varianten": [
+            {
+              "vraag": "Welke zin past bij iemand die nu bezweet is van het lopen?",
+              "opties": [
+                "I have been running.",
+                "I have run three times.",
+                "I run every week.",
+                "I will be running."
+              ]
+            },
+            {
+              "vraag": "Welke zin past bij iemand die nu verfvlekken op de handen heeft?",
+              "opties": [
+                "I have been painting.",
+                "I have painted three rooms.",
+                "I paint every summer.",
+                "I will be painting."
+              ]
+            },
+            {
+              "vraag": "Welke zin past bij iemand die nu rode ogen heeft van het huilen?",
+              "opties": [
+                "She has been crying.",
+                "She has cried three times.",
+                "She cries every night.",
+                "She will be crying."
+              ]
+            }
+          ]
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Welke vraag naar hoelang iemand al Engels leert is juist?",
+          "opties": [
+            "How long have you been learning English?",
+            "How long are you learning English?",
+            "How long do you learn English?",
+            "How long have you learn English?"
+          ],
+          "antwoord": 0,
+          "uitleg": "How long vraagt naar een duur die tot nu loopt, dus present perfect. Vaak in de continuous vorm."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "'It has been raining' betekent dat het geregend heeft en dat de straat nog nat is.",
+          "antwoord": true,
+          "uitleg": "De present perfect legt altijd een verband met nu. Zonder dat verband gebruik je de past simple."
+        }
+      ]
+    }
+  ]
+}

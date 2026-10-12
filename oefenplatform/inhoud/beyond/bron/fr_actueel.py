@@ -126,7 +126,7 @@ DEEL1 = [
                  "de kloof komt enkel doordat burgers de wet niet willen kennen",
                  "de kloof heeft met de duur van een procedure niets te maken"],
          antwoord=[0, 1],
-         uitleg="De eerste twee. Daarom wordt er ook gewerkt aan begrijpelijke vonnissen en aan "
+         uitleg="Daarom wordt er ook gewerkt aan begrijpelijke vonnissen en aan "
                 "snellere procedures."),
     dict(type="meerkeuze",
          vraag="Welke uitspraken over procedurefouten kloppen?",
@@ -135,7 +135,7 @@ DEEL1 = [
                  "een procedurefout betekent altijd dat de verdachte onschuldig is",
                  "vormregels dienen enkel om processen langer te laten duren"],
          antwoord=[0, 1],
-         uitleg="De eerste twee. Juist omdat beide waar zijn, is dit een echt dilemma en geen "
+         uitleg="Juist omdat beide waar zijn, is dit een echt dilemma en geen "
                 "kwestie van gelijk hebben."),
     dict(type="meerkeuze",
          vraag="Waarom wordt er gewerkt aan een hervorming van de gerechtelijke procedure?",
@@ -276,7 +276,7 @@ DEEL2 = [
                  "beide kampen zijn het erover eens dat straffen niets uithaalt",
                  "strengere straffen hebben met de capaciteit van gevangenissen niets te maken"],
          antwoord=[0, 1],
-         uitleg="De eerste twee. Hier staan twee goede bedoelingen tegenover elkaar en niet een "
+         uitleg="Hier staan twee goede bedoelingen tegenover elkaar en niet een "
                 "goede tegen een slechte."),
     dict(type="meerkeuze",
          vraag="Welke uitspraken over internering en uithandengeving kloppen?",
@@ -285,7 +285,7 @@ DEEL2 = [
                  "beide zijn gewone gevangenisstraffen met een andere naam",
                  "beide gelden enkel voor meerderjarige daders"],
          antwoord=[0, 1],
-         uitleg="De eerste twee. Het ene gaat over schuld kunnen dragen, het andere over leeftijd."),
+         uitleg="Het ene gaat over schuld kunnen dragen, het andere over leeftijd."),
     dict(type="waarofniet",
          vraag="Een werkstraf is onbetaalde arbeid voor de samenleving.",
          antwoord=True,

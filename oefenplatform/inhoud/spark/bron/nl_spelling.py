@@ -75,7 +75,7 @@ DEEL1 = [
         vraag="Welke voltooide deelwoorden zijn juist?",
         opties=["gewerkt", "geleerd", "gefietst", "gebeurdt"],
         antwoord=[0, 1, 2],
-        uitleg="De eerste drie volgen 't kofschip. 'Gebeurd' schrijf je met een d en nooit met dt.",
+        uitleg="De drie juiste antwoorden volgen 't kofschip. 'Gebeurd' schrijf je met een d en nooit met dt.",
     ),
     dict(
         type="waarofniet",
@@ -222,7 +222,7 @@ DEEL2 = [
         vraag="Welke werkwoordsvormen staan in de onvoltooid verleden tijd?",
         opties=["hij fietste", "wij leerden", "zij speelden", "hij heeft gefietst"],
         antwoord=[0, 1, 2],
-        uitleg="De eerste drie zijn ovt. 'Heeft gefietst' is de voltooid tegenwoordige tijd: hulpwerkwoord plus deelwoord.",
+        uitleg="De drie juiste antwoorden zijn ovt. 'Heeft gefietst' is de voltooid tegenwoordige tijd: hulpwerkwoord plus deelwoord.",
     ),
     dict(
         type="meerkeuze",
@@ -289,7 +289,7 @@ DEEL2 = [
             "Ik heb een neiuwe fiets.",
         ],
         antwoord=[0, 1, 2],
-        uitleg="De eerste drie bestaan als woord, dus de controle zwijgt. 'Neiuwe' bestaat niet en wordt wel aangeduid.",
+        uitleg="De drie juiste antwoorden bestaan als woord, dus de controle zwijgt. 'Neiuwe' bestaat niet en wordt wel aangeduid.",
     ),
     dict(
         type="meerkeuze",

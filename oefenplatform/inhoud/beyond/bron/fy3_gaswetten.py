@@ -182,8 +182,8 @@ DEEL1 = [
             r"bij constante druk is de \(V(T)\)-grafiek een dalende kromme",
         ],
         antwoord=[0, 1, 2],
-        uitleg=r"De eerste twee gelden alleen met \(T\) in kelvin. In graden celsius "
-        r"snijden die rechten de as pas bij \(-273\).",
+        uitleg=r"De twee rechten door de oorsprong gelden alleen met \(T\) in kelvin. "
+        r"In graden celsius snijden ze de as pas bij \(-273\).",
     ),
     dict(
         type="waarofniet",

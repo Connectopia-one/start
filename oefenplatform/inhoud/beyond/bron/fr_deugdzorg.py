@@ -125,7 +125,7 @@ DEEL1 = [
                  "beiden beoordelen een daad uitsluitend op haar gevolgen",
                  "Nussbaum verwerpt de deugdethiek en kiest de plichtethiek"],
          antwoord=[0, 1],
-         uitleg="De eerste twee. Haar capaciteiten zijn een moderne uitwerking in dezelfde lijn."),
+         uitleg="Haar capaciteiten zijn een moderne uitwerking in dezelfde lijn."),
     dict(type="meerkeuze",
          vraag="Welke uitspraken over de deugdethiek kloppen?",
          opties=["ze kijkt eerder naar de persoon dan naar de losse daad",
@@ -133,7 +133,7 @@ DEEL1 = [
                  "ze geeft voor elk geval een duidelijke regel om te volgen",
                  "ze beoordeelt een daad door het geluk ervan op te tellen"],
          antwoord=[0, 1],
-         uitleg="De eerste twee. Dat ze geen kant-en-klare regel geeft, is precies het bezwaar dat "
+         uitleg="Dat ze geen kant-en-klare regel geeft, is precies het bezwaar dat "
                 "men haar maakt."),
     dict(type="waarofniet",
          vraag="Volgens Aristoteles ligt een deugd tussen een tekort en een overdaad.",
@@ -259,7 +259,7 @@ DEEL2 = [
                  "ze verwerpt elke vorm van rechtvaardigheid in de samenleving",
                  "ze geldt enkel in de zorgsector en nergens anders"],
          antwoord=[0, 1],
-         uitleg="De eerste twee. Haar inzichten worden ook op onderwijs, beleid en gezinnen "
+         uitleg="Haar inzichten worden ook op onderwijs, beleid en gezinnen "
                 "toegepast."),
     dict(type="meerkeuze",
          vraag="Welke uitspraken over de vier benaderingen samen kloppen?",
@@ -268,7 +268,7 @@ DEEL2 = [
                  "de vier benaderingen spreken elkaar nooit tegen",
                  "de vier benaderingen zijn vier namen voor dezelfde methode"],
          antwoord=[0, 1],
-         uitleg="De eerste twee. Gevolg, plicht, karakter en relatie: vier ingangen op dezelfde "
+         uitleg="Gevolg, plicht, karakter en relatie: vier ingangen op dezelfde "
                 "vraag naar goed handelen."),
     dict(type="waarofniet",
          vraag="De zorgethiek vertrekt van de kwetsbaarheid en de afhankelijkheid van mensen.",

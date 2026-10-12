@@ -119,7 +119,7 @@ DEEL1 = [
                  "beide behandelen de zwaarste misdrijven van het land",
                  "beide zijn afdelingen van de rechtbank van eerste aanleg"],
          antwoord=[0, 1],
-         uitleg="De eerste twee. Zij staan onderaan de piramide, elk met hun eigen terrein."),
+         uitleg="Zij staan onderaan de piramide, elk met hun eigen terrein."),
     dict(type="meerkeuze",
          vraag="Welke uitspraken over de jeugdrechtbank kloppen?",
          opties=["zij kijkt naar wat een jongere nodig heeft en niet enkel naar de feiten",
@@ -127,7 +127,7 @@ DEEL1 = [
                  "zij spreekt dezelfde straffen uit als de correctionele rechtbank",
                  "zij behandelt enkel zaken waarin een jongere dader is"],
          antwoord=[0, 1],
-         uitleg="De eerste twee. Ook een jongere in een zorgwekkende situatie komt bij haar "
+         uitleg="Ook een jongere in een zorgwekkende situatie komt bij haar "
                 "terecht, zonder dat hij iets gedaan heeft."),
     dict(type="waarofniet",
          vraag="De politierechtbank behandelt klachten tegen politieagenten.",
@@ -254,7 +254,7 @@ DEEL2 = [
                  "in cassatie wordt de zaak een derde keer volledig behandeld",
                  "in beroep gaat het enkel over de juiste toepassing van het recht"],
          antwoord=[0, 1],
-         uitleg="De eerste twee. Daarom heet het Hof van Cassatie ook geen derde aanleg."),
+         uitleg="Daarom heet het Hof van Cassatie ook geen derde aanleg."),
     dict(type="meerkeuze",
          vraag="Welke uitspraken over de gerechtelijke piramide kloppen?",
          opties=["onderaan staan veel rechtbanken, bovenaan één Hof van Cassatie",
@@ -262,7 +262,7 @@ DEEL2 = [
                  "elke zaak begint bij het Hof van Cassatie",
                  "het Hof van Assisen staat boven het Hof van Cassatie"],
          antwoord=[0, 1],
-         uitleg="De eerste twee. Je begint altijd onderaan, bij de rechtbank die materieel en "
+         uitleg="Je begint altijd onderaan, bij de rechtbank die materieel en "
                 "territoriaal bevoegd is."),
     dict(type="meerkeuze",
          vraag="Waarom bestaat de mogelijkheid om in beroep te gaan?",

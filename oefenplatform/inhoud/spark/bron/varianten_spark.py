@@ -104,11 +104,11 @@ VARIANTEN[("nederlands.json", "Woordsoorten en woordvorming — deel 1")] = {
     ],
     "Welke woorden zijn samenstellingen?": [
         dict(opties=["zonnebril", "tafelpoot", "schoolbus", "gelukkig"], antwoord=[0, 1, 2],
-             uitleg="Bij de eerste drie plak je twee bestaande woorden aan elkaar. Gelukkig is een afleiding: geluk plus -ig."),
+             uitleg="Bij de drie juiste antwoorden plak je twee bestaande woorden aan elkaar. Gelukkig is een afleiding: geluk plus -ig."),
         dict(opties=["deurklink", "regenjas", "appelboom", "duidelijk"], antwoord=[0, 1, 2],
-             uitleg="Bij de eerste drie plak je twee bestaande woorden aan elkaar. Duidelijk is een afleiding."),
+             uitleg="Bij de drie juiste antwoorden plak je twee bestaande woorden aan elkaar. Duidelijk is een afleiding."),
         dict(opties=["fietspad", "keukenkast", "sneeuwbal", "eerlijk"], antwoord=[0, 1, 2],
-             uitleg="Bij de eerste drie plak je twee bestaande woorden aan elkaar. Eerlijk is een afleiding: eer plus -lijk."),
+             uitleg="Bij de drie juiste antwoorden plak je twee bestaande woorden aan elkaar. Eerlijk is een afleiding: eer plus -lijk."),
     ],
     "Wat is het verkleinwoord van 'boom'?": [
         dict(vraag="Wat is het verkleinwoord van 'raam'?",
@@ -162,13 +162,13 @@ VARIANTEN[("nederlands.json", "Woordsoorten en woordvorming — deel 2")] = {
     "Welke woorden zijn synoniemen van 'mooi'?": [
         dict(vraag="Welke woorden zijn synoniemen van 'blij'?",
              opties=["vrolijk", "opgewekt", "gelukkig", "verdrietig"], antwoord=[0, 1, 2],
-             uitleg="De eerste drie betekenen ongeveer hetzelfde als blij. Verdrietig is het tegendeel."),
+             uitleg="De drie juiste antwoorden betekenen ongeveer hetzelfde als blij. Verdrietig is het tegendeel."),
         dict(vraag="Welke woorden zijn synoniemen van 'groot'?",
              opties=["enorm", "reusachtig", "gigantisch", "piepklein"], antwoord=[0, 1, 2],
-             uitleg="De eerste drie betekenen ongeveer hetzelfde als groot. Piepklein is het tegendeel."),
+             uitleg="De drie juiste antwoorden betekenen ongeveer hetzelfde als groot. Piepklein is het tegendeel."),
         dict(vraag="Welke woorden zijn synoniemen van 'snel'?",
              opties=["vlug", "rap", "haastig", "traag"], antwoord=[0, 1, 2],
-             uitleg="De eerste drie betekenen ongeveer hetzelfde als snel. Traag is het tegendeel."),
+             uitleg="De drie juiste antwoorden betekenen ongeveer hetzelfde als snel. Traag is het tegendeel."),
     ],
     "'Voetbalclub' bestaat uit hoeveel woorden?": [
         dict(vraag="'Boekenkastdeur' bestaat uit hoeveel woorden?",
@@ -183,11 +183,11 @@ VARIANTEN[("nederlands.json", "Woordsoorten en woordvorming — deel 2")] = {
     ],
     "Welke woorden zijn afleidingen?": [
         dict(opties=["ongeluk", "blijheid", "schilder", "voetbal"], antwoord=[0, 1, 2],
-             uitleg="Bij de eerste drie komt er een voor- of achtervoegsel bij een bestaand woord. Voetbal is een samenstelling."),
+             uitleg="Bij de drie juiste antwoorden komt er een voor- of achtervoegsel bij een bestaand woord. Voetbal is een samenstelling."),
         dict(opties=["onmogelijk", "vrijheid", "werker", "zonnebril"], antwoord=[0, 1, 2],
-             uitleg="Bij de eerste drie komt er een voor- of achtervoegsel bij. Zonnebril is een samenstelling."),
+             uitleg="Bij de drie juiste antwoorden komt er een voor- of achtervoegsel bij. Zonnebril is een samenstelling."),
         dict(opties=["oneerlijk", "koningschap", "zwemmer", "tafelpoot"], antwoord=[0, 1, 2],
-             uitleg="Bij de eerste drie komt er een voor- of achtervoegsel bij. Tafelpoot is een samenstelling."),
+             uitleg="Bij de drie juiste antwoorden komt er een voor- of achtervoegsel bij. Tafelpoot is een samenstelling."),
     ],
     "Wat is het meervoud van 'kind'?": [
         dict(vraag="Wat is het meervoud van 'ei'?",

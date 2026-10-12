@@ -84,7 +84,7 @@ DEEL1 = [
                  "de wetenschap heeft de filosofie overbodig gemaakt",
                  "de natuurfilosofie werkte al met gecontroleerde proeven"],
          antwoord=[0, 1],
-         uitleg="De eerste twee. De filosofie is niet overbodig geworden: de vraag wanneer iets "
+         uitleg="De filosofie is niet overbodig geworden: de vraag wanneer iets "
                 "wetenschap is, is zelf een filosofische vraag."),
     dict(type="meerkeuze",
          vraag="Wat is het demarcatievraagstuk?",
@@ -217,7 +217,7 @@ DEEL2 = [
                  "de theorie is in de loop van de jaren bijgesteld na nieuw onderzoek",
                  "de uitspraken zijn met een meting te toetsen"],
          antwoord=[0, 1],
-         uitleg="De eerste twee. Een theorie bijstellen na nieuw onderzoek is net wél "
+         uitleg="Een theorie bijstellen na nieuw onderzoek is net wél "
                 "wetenschappelijk, en toetsbare uitspraken ook."),
     dict(type="meerkeuze",
          vraag="Een voorspelling luidt: er komt binnenkort een belangrijke verandering in je "

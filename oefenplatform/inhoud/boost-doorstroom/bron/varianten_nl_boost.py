@@ -1158,7 +1158,7 @@ HOOFDSTUKKEN = {
                     "De fiets van mijn zus staat buiten.",
                 ],
                 "antwoord": [0, 1, 2],
-                "uitleg": "De eerste drie hebben twee persoonsvormen. De laatste heeft er maar één en is dus enkelvoudig.",
+                "uitleg": "De drie juiste antwoorden hebben twee persoonsvormen. Het foute antwoord heeft er maar één en is dus enkelvoudig.",
             },
             {
                 "opties": [
@@ -1168,7 +1168,7 @@ HOOFDSTUKKEN = {
                     "Het boek van de bibliotheek ligt op tafel.",
                 ],
                 "antwoord": [0, 1, 2],
-                "uitleg": "De eerste drie hebben twee persoonsvormen. De laatste heeft er maar één en is dus enkelvoudig.",
+                "uitleg": "De drie juiste antwoorden hebben twee persoonsvormen. Het foute antwoord heeft er maar één en is dus enkelvoudig.",
             },
             {
                 "opties": [
@@ -1178,7 +1178,7 @@ HOOFDSTUKKEN = {
                     "De buren van hiernaast verhuizen morgen.",
                 ],
                 "antwoord": [0, 1, 2],
-                "uitleg": "De eerste drie hebben twee persoonsvormen. De laatste heeft er maar één en is dus enkelvoudig.",
+                "uitleg": "De drie juiste antwoorden hebben twee persoonsvormen. Het foute antwoord heeft er maar één en is dus enkelvoudig.",
             },
         ],
         "In 'Hoewel hij doodmoe was, ging hij toch trainen', welk deel is de bijzin?": [

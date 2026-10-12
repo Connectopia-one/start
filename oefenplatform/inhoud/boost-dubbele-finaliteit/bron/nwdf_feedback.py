@@ -152,7 +152,7 @@ DEEL1 = [
             "de weeën bij een bevalling worden steeds krachtiger",
         ],
         antwoord=[0, 1, 2],
-        uitleg="De eerste drie duwen de waarde terug naar de normwaarde. De weeën versterken elkaar tot de bevalling voorbij is, en dat is positieve feedback.",
+        uitleg="De drie juiste antwoorden duwen de waarde terug naar de normwaarde. De weeën versterken elkaar tot de bevalling voorbij is, en dat is positieve feedback.",
     ),
     dict(
         type="invultekst",

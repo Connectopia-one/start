@@ -141,7 +141,7 @@ DEEL1 = [
                  "take, took, taken",
                  "swim, swimmed, swum"],
          antwoord=[0, 1, 2],
-         uitleg="De eerste drie zijn gewone onregelmatige rijtjes. Van to swim is het swim, swam, swum."),
+         uitleg="De drie juiste antwoorden zijn gewone onregelmatige rijtjes. Van to swim is het swim, swam, swum."),
 ]
 
 DEEL2 = [

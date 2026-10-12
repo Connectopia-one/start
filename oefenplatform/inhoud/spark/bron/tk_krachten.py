@@ -139,9 +139,9 @@ DEEL1 = [
     dict(
         type="meerkeuze",
         vraag="Welke materialen zijn geschikt voor een zuil die veel gewicht moet dragen?",
-        opties=["Beton", "Staal", "Steen", "Rubber", "Papier"],
-        antwoord=[0, 1, 2],
-        uitleg="Een zuil moet vooral drukkracht aankunnen. Beton, staal en steen kunnen dat. Rubber vervormt en papier plooit dubbel.",
+        opties=["Beton", "Staal", "Steen", "Gietijzer", "Papier"],
+        antwoord=[0, 1, 2, 3],
+        uitleg="Een zuil moet vooral drukkracht aankunnen. Beton, staal, steen en gietijzer kunnen dat; gietijzer is bros bij trek, maar onder druk juist heel sterk. Papier plooit dubbel.",
     ),
     dict(
         type="waarofniet",
@@ -315,11 +315,11 @@ DEEL2 = [
         opties=[
             "Een brede voet",
             "Een laag zwaartepunt",
-            "Schuine balken tussen de hoeken",
+            "Een extra gewicht bovenaan",
             "Een hoog en heel smal bovenstuk",
         ],
-        antwoord=[0, 1, 2],
-        uitleg="Breed onderaan en zwaar onderaan houdt iets recht. Een hoog en smal bovenstuk doet net het omgekeerde.",
+        antwoord=[0, 1],
+        uitleg="Breed onderaan en zwaar onderaan houdt iets recht. Gewicht bovenaan legt het zwaartepunt juist hoger, en een hoog en smal bovenstuk doet hetzelfde: allebei maken ze de constructie wankeler.",
     ),
     dict(
         type="invultekst",

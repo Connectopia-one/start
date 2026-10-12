@@ -123,7 +123,7 @@ DEEL1 = [
                  "lot, toeval en determinisme betekenen in de filosofie precies hetzelfde",
                  "determinisme en toeval komen op hetzelfde neer, want beide gaan over kans"],
          antwoord=[0, 1],
-         uitleg="De eerste twee. Determinisme is strenger dan toeval en kaler dan het lot: "
+         uitleg="Determinisme is strenger dan toeval en kaler dan het lot: "
                 "oorzaken, zonder bestemming."),
     dict(type="meerkeuze",
          vraag="Welke uitspraken over de Griekse mythologie en de Stoïcijnen kloppen?",
@@ -132,7 +132,7 @@ DEEL1 = [
                  "in beide gevallen is de mens volledig vrij om zijn weg te kiezen",
                  "de mythologie verdedigt het determinisme en de Stoïcijnen bestrijden het"],
          antwoord=[0, 1],
-         uitleg="De eerste twee. De Stoïcijnen nemen de vaste orde over en zoeken daarbinnen wat "
+         uitleg="De Stoïcijnen nemen de vaste orde over en zoeken daarbinnen wat "
                 "er toch nog aan jou toekomt."),
     dict(type="waarofniet",
          vraag="Bij toeval hoort geen bedoeling; bij een lot hoort er wel een.",
@@ -251,7 +251,7 @@ DEEL2 = [
                  "in elke periode wordt de vrije wil zonder meer verdedigd",
                  "in elke periode wordt de vrije wil zonder meer ontkend"],
          antwoord=[0, 1],
-         uitleg="De eerste twee. Lot, atomen, voorzienigheid, natuurwetten, de wil: andere "
+         uitleg="Lot, atomen, voorzienigheid, natuurwetten, de wil: andere "
                 "verklaring, dezelfde vraag."),
     dict(type="meerkeuze",
          vraag="Iemand zegt: ik kon niet anders, mijn opvoeding en mijn aard hebben dit gedaan. "
@@ -279,7 +279,7 @@ DEEL2 = [
                  "determinisme en verantwoordelijkheid hebben niets met elkaar te maken",
                  "determinisme maakt elke straf meteen volledig onmogelijk"],
          antwoord=[0, 1],
-         uitleg="De eerste twee. Moeilijk is niet onmogelijk: later proberen filosofen de twee "
+         uitleg="Moeilijk is niet onmogelijk: later proberen filosofen de twee "
                 "juist met elkaar te verzoenen."),
     dict(type="waarofniet",
          vraag="Thomas van Aquino verdedigt dat de mens een vrije wil heeft.",

@@ -30,15 +30,16 @@
             "Brons",
             "Messing",
             "Inox",
-            "Koper",
+            "Staal",
             "Aluminium"
           ],
           "antwoord": [
             0,
             1,
-            2
+            2,
+            3
           ],
-          "uitleg": "Brons, messing en inox zijn mengsels van metalen, dus legeringen. Koper en aluminium zijn enkelvoudige metalen: die bestaan uit één metaal."
+          "uitleg": "Brons, messing, inox en staal zijn allemaal mengsels, dus legeringen; staal is ijzer met koolstof erin. Aluminium is een enkelvoudig metaal: dat bestaat uit één metaal."
         },
         {
           "type": "meerkeuze",
@@ -95,15 +96,16 @@
             "Aluminium",
             "Koper",
             "Lood",
-            "Staal",
+            "Zink",
             "Gietijzer"
           ],
           "antwoord": [
             0,
             1,
-            2
+            2,
+            3
           ],
-          "uitleg": "Non-ferro betekent zonder ijzer. Aluminium, koper en lood bevatten geen ijzer. Staal en gietijzer wel, dat zijn ferrometalen."
+          "uitleg": "Non-ferro betekent zonder ijzer. Aluminium, koper, lood en zink bevatten geen ijzer. Gietijzer wel, dat is een ferrometaal."
         },
         {
           "type": "waarofniet",
@@ -236,16 +238,15 @@
           "opties": [
             "Hardheid",
             "Treksterkte",
-            "Broosheid",
+            "Warmtegeleiding",
             "Smeltpunt",
             "Elektrische geleiding"
           ],
           "antwoord": [
             0,
-            1,
-            2
+            1
           ],
-          "uitleg": "Hardheid, treksterkte en broosheid zijn mechanisch. Het smeltpunt is een fysische eigenschap, de elektrische geleiding een elektrische."
+          "uitleg": "Hardheid en treksterkte zijn mechanisch: ze zeggen hoe het materiaal zich houdt onder een kracht. De warmtegeleiding en het smeltpunt zijn fysisch, de elektrische geleiding is elektrisch."
         },
         {
           "type": "waarofniet",
@@ -572,16 +573,15 @@
           "vraag": "Welke uitspraken over een elektrische waterkoker kloppen?",
           "opties": [
             "Hij zet elektrische energie om in warmte",
-            "Er komt ook wat geluid vrij",
+            "Het water koelt daarbij langzaam af",
             "De warmte is hier de nuttige energie",
             "Het licht van het controlelampje is de nuttige energie"
           ],
           "antwoord": [
             0,
-            1,
             2
           ],
-          "uitleg": "Bij een waterkoker is warmte precies wat je wilt, dus is warmte hier de nuttige energie. Bij een lamp is dat net omgekeerd."
+          "uitleg": "Bij een waterkoker is warmte precies wat je wilt, dus is warmte hier de nuttige energie. Het water warmt op en koelt niet af, en het controlelampje is verlies."
         },
         {
           "type": "waarofniet",
@@ -657,15 +657,16 @@
             "Steenkool",
             "Aardgas",
             "Aardolie",
-            "Wind",
+            "Bruinkool",
             "Waterkracht"
           ],
           "antwoord": [
             0,
             1,
-            2
+            2,
+            3
           ],
-          "uitleg": "Fossiele brandstoffen zijn miljoenen jaren geleden in de grond ontstaan uit resten van planten en dieren. Wind en waterkracht zijn hernieuwbaar."
+          "uitleg": "Fossiele brandstoffen zijn miljoenen jaren geleden in de grond ontstaan uit resten van planten en dieren. Bruinkool is net als steenkool uit veen ontstaan, alleen minder diep. Waterkracht is hernieuwbaar."
         },
         {
           "type": "meerkeuze",
@@ -870,16 +871,15 @@
           "opties": [
             "Een schakelaar",
             "Een weerstand",
-            "Een zoemer",
+            "Een bankschroef",
             "Een schroevendraaier",
             "Een hamer met een houten steel"
           ],
           "antwoord": [
             0,
-            1,
-            2
+            1
           ],
-          "uitleg": "Componenten zijn de onderdelen die in de kring zelf zitten: de spanningsbron, de draad, de schakelaar, het lampje, de weerstand, de LED, de multimeter en de zoemer. Een schroevendraaier en een hamer zijn gereedschap."
+          "uitleg": "Componenten zijn de onderdelen die in de kring zelf zitten: de spanningsbron, de draad, de schakelaar, het lampje, de weerstand, de LED, de multimeter en de zoemer. Een bankschroef, een schroevendraaier en een hamer zijn gereedschap."
         },
         {
           "type": "meerkeuze",
@@ -1290,15 +1290,16 @@
             "Koper",
             "Aluminium",
             "Staal",
-            "Hout",
+            "Zilver",
             "Glas"
           ],
           "antwoord": [
             0,
             1,
-            2
+            2,
+            3
           ],
-          "uitleg": "Metalen geleiden stroom. Hout en glas zijn niet-metalen: die laten bijna niets door en worden juist als isolatie gebruikt."
+          "uitleg": "Metalen geleiden stroom, en zilver zelfs het best van allemaal; het is enkel te duur om er draden van te maken. Glas is een niet-metaal: dat laat bijna niets door en wordt juist als isolatie gebruikt."
         }
       ]
     },
@@ -1338,15 +1339,16 @@
             "Een lichtsensor",
             "Een bewegingssensor",
             "Een microfoon",
-            "Een luidspreker",
+            "Een temperatuursensor",
             "Een lamp aan het plafond"
           ],
           "antwoord": [
             0,
             1,
-            2
+            2,
+            3
           ],
-          "uitleg": "Een microfoon voelt geluid, dus is het een sensor. Een luidspreker maakt geluid en een lamp maakt licht: dat zijn actuatoren."
+          "uitleg": "Een sensor voelt iets en geeft dat door: licht, beweging, geluid of temperatuur. Een microfoon voelt geluid, dus die hoort erbij. Een lamp maakt licht, dat is een actuator."
         },
         {
           "type": "meerkeuze",
@@ -1354,16 +1356,15 @@
           "opties": [
             "Een luidspreker",
             "Een lamp",
-            "Een zoemer",
+            "Een thermometer",
             "Een druksensor",
             "Een microfoon"
           ],
           "antwoord": [
             0,
-            1,
-            2
+            1
           ],
-          "uitleg": "Een actuator voert uit. De druksensor en de microfoon meten juist iets, dus dat zijn sensoren."
+          "uitleg": "Een actuator voert uit: de luidspreker maakt geluid, de lamp maakt licht. De thermometer, de druksensor en de microfoon meten juist iets, dus dat zijn sensoren."
         },
         {
           "type": "waarofniet",
@@ -1885,15 +1886,16 @@
             "Beton",
             "Staal",
             "Steen",
-            "Rubber",
+            "Gietijzer",
             "Papier"
           ],
           "antwoord": [
             0,
             1,
-            2
+            2,
+            3
           ],
-          "uitleg": "Een zuil moet vooral drukkracht aankunnen. Beton, staal en steen kunnen dat. Rubber vervormt en papier plooit dubbel."
+          "uitleg": "Een zuil moet vooral drukkracht aankunnen. Beton, staal, steen en gietijzer kunnen dat; gietijzer is bros bij trek, maar onder druk juist heel sterk. Papier plooit dubbel."
         },
         {
           "type": "waarofniet",
@@ -2080,15 +2082,14 @@
           "opties": [
             "Een brede voet",
             "Een laag zwaartepunt",
-            "Schuine balken tussen de hoeken",
+            "Een extra gewicht bovenaan",
             "Een hoog en heel smal bovenstuk"
           ],
           "antwoord": [
             0,
-            1,
-            2
+            1
           ],
-          "uitleg": "Breed onderaan en zwaar onderaan houdt iets recht. Een hoog en smal bovenstuk doet net het omgekeerde."
+          "uitleg": "Breed onderaan en zwaar onderaan houdt iets recht. Gewicht bovenaan legt het zwaartepunt juist hoger, en een hoog en smal bovenstuk doet hetzelfde: allebei maken ze de constructie wankeler."
         },
         {
           "type": "invultekst",
@@ -2196,15 +2197,16 @@
             "Een boutverbinding",
             "Een lasverbinding",
             "Een lijmverbinding",
-            "Een beitsverbinding",
+            "Een soldeerverbinding",
             "Een schuurverbinding"
           ],
           "antwoord": [
             0,
             1,
-            2
+            2,
+            3
           ],
-          "uitleg": "Beitsen en schuren zijn afwerkingstechnieken, geen manieren om twee stukken aan elkaar te zetten."
+          "uitleg": "Bouten, lassen, lijmen en solderen zetten twee stukken aan elkaar. Schuren is een afwerkingstechniek, geen verbinding."
         },
         {
           "type": "meerkeuze",
@@ -2505,7 +2507,7 @@
             1,
             2
           ],
-          "uitleg": "De eerste drie staan als goede werkwijze in de fiche. Natte handen en elektriciteit gaan nooit samen."
+          "uitleg": "De drie juiste antwoorden staan als goede werkwijze in de fiche. Natte handen en elektriciteit gaan nooit samen."
         },
         {
           "type": "waarofniet",
@@ -2657,15 +2659,17 @@
             "Een weegschaal",
             "Een thermometer",
             "Een multimeter",
+            "Een schuifmaat",
             "Een stappenplan",
             "Een IPO-model"
           ],
           "antwoord": [
             0,
             1,
-            2
+            2,
+            3
           ],
-          "uitleg": "Een meetinstrument geeft een waarde met een eenheid. Een stappenplan en een IPO-model zijn hulpmiddelen: die helpen je denken, niet meten."
+          "uitleg": "Een meetinstrument geeft een waarde met een eenheid: de weegschaal massa, de thermometer temperatuur, de multimeter spanning of stroom, de schuifmaat lengte. Een stappenplan en een IPO-model zijn hulpmiddelen: die helpen je denken, niet meten."
         },
         {
           "type": "waarofniet",
@@ -2770,15 +2774,17 @@
             "deci",
             "centi",
             "milli",
+            "micro",
             "kilo",
             "hecto"
           ],
           "antwoord": [
             0,
             1,
-            2
+            2,
+            3
           ],
-          "uitleg": "Deci is een tiende, centi een honderdste en milli een duizendste. Kilo, hecto en deca maken een eenheid juist groter."
+          "uitleg": "Deci is een tiende, centi een honderdste, milli een duizendste en micro een miljoenste. Kilo, hecto en deca maken een eenheid juist groter."
         },
         {
           "type": "meerkeuze",
@@ -3081,15 +3087,16 @@
             "Tandwielen",
             "Riemen",
             "Katrollen",
-            "Een schroevendraaier",
+            "Kettingen",
             "Een boormachine op het net"
           ],
           "antwoord": [
             0,
             1,
-            2
+            2,
+            3
           ],
-          "uitleg": "Een overbrenging geeft een beweging door van het ene deel naar het andere. Gereedschap doet dat niet."
+          "uitleg": "Een overbrenging geeft een beweging door van het ene deel naar het andere: tandwielen, riemen, katrollen en kettingen doen dat allemaal. Een boormachine is een toestel, geen overbrenging."
         },
         {
           "type": "meerkeuze",
@@ -3354,15 +3361,14 @@
           "opties": [
             "Ze kan de beweging versnellen",
             "Ze kan de beweging vertragen",
-            "Ze kan de richting van de beweging veranderen",
+            "Ze kan de wrijving volledig wegnemen",
             "Ze kan het materiaal van de as veranderen"
           ],
           "antwoord": [
             0,
-            1,
-            2
+            1
           ],
-          "uitleg": "De fiche noemt versnellen, vertragen en het veranderen van richting en zin. Van materiaal verandert er niets."
+          "uitleg": "De fiche noemt versnellen, vertragen en het veranderen van richting en zin. Wrijving blijft er altijd, en van materiaal verandert er niets."
         },
         {
           "type": "invultekst",
@@ -3603,15 +3609,16 @@
             "Pekelen",
             "Roken",
             "Invriezen",
-            "Schuren",
+            "Drogen",
             "Lakken"
           ],
           "antwoord": [
             0,
             1,
-            2
+            2,
+            3
           ],
-          "uitleg": "Schuren en lakken zijn afwerkingstechnieken voor een werkstuk. Met voedsel hebben ze niets te maken."
+          "uitleg": "Pekelen, roken, invriezen en drogen houden voedsel langer goed: ze halen er vocht uit of leggen de bacteriën stil. Lakken is een afwerkingstechniek voor een werkstuk en heeft met voedsel niets te maken."
         },
         {
           "type": "meerkeuze",
@@ -3697,16 +3704,15 @@
           "opties": [
             "Pasteuriseren",
             "Steriliseren",
-            "UHT",
+            "Vriesdrogen",
             "Invriezen",
             "Koelen"
           ],
           "antwoord": [
             0,
-            1,
-            2
+            1
           ],
-          "uitleg": "Die drie verhitten het product. Koelen en invriezen doen net het omgekeerde."
+          "uitleg": "Pasteuriseren en steriliseren verhitten het product. Vriesdrogen, invriezen en koelen doen net het omgekeerde: die werken met koude."
         },
         {
           "type": "waarofniet",
@@ -3740,15 +3746,16 @@
             "De ingrediëntenlijst",
             "De allergenen",
             "De houdbaarheidsdatum",
-            "De naam van de winkel",
+            "De naam van de fabrikant",
             "De naam van wie het koopt"
           ],
           "antwoord": [
             0,
             1,
-            2
+            2,
+            3
           ],
-          "uitleg": "De fiche noemt ook de voedingswaarde, het nettogewicht, de bewaarvoorschriften en de naam van de fabrikant."
+          "uitleg": "De fiche noemt ook de voedingswaarde, het nettogewicht en de bewaarvoorschriften. Wie het koopt staat er natuurlijk niet op: dat weet de fabrikant niet."
         },
         {
           "type": "meerkeuze",
@@ -4050,15 +4057,14 @@
           "opties": [
             "Een schets of een model maken",
             "Het materiaal kiezen",
-            "Het gereedschap kiezen",
+            "De stukken aan elkaar zetten",
             "Het afgewerkte werkstuk verkopen"
           ],
           "antwoord": [
             0,
-            1,
-            2
+            1
           ],
-          "uitleg": "In de ontwerpfase leg je alles vast wat je bij het maken nodig hebt. Verkopen hoort niet bij het technisch proces."
+          "uitleg": "In de ontwerpfase leg je op papier vast wat je gaat maken en waarmee. De stukken aan elkaar zetten gebeurt pas in de maakfase, en verkopen hoort niet bij het technisch proces."
         },
         {
           "type": "meerkeuze",
@@ -4281,15 +4287,16 @@
             "Wetenschappen",
             "Technologie",
             "Wiskunde",
-            "Aardrijkskunde",
+            "Techniek",
             "Geschiedenis"
           ],
           "antwoord": [
             0,
             1,
-            2
+            2,
+            3
           ],
-          "uitleg": "Samen met engineering, de techniek zelf. Aardrijkskunde en geschiedenis zijn belangrijke vakken, maar ze horen niet bij STEM."
+          "uitleg": "STEM staat voor science, technology, engineering en mathematics: wetenschappen, technologie, techniek en wiskunde. Geschiedenis is een belangrijk vak, maar het hoort niet bij STEM."
         },
         {
           "type": "meerkeuze",
@@ -4411,14 +4418,16 @@
             "Een recept om een cake te bakken",
             "Een stappenplan om een boterham te smeren",
             "De code van een computerspel",
+            "De handleiding om een bouwpakket in elkaar te zetten",
             "Een foto van een afgewerkte taart"
           ],
           "antwoord": [
             0,
             1,
-            2
+            2,
+            3
           ],
-          "uitleg": "Het recept en het computerspel staan allebei als voorbeeld in de fiche. Een foto is geen stappenplan."
+          "uitleg": "Een algoritme is een eindige reeks stappen naar een doel. Het recept en het computerspel staan als voorbeeld in de fiche; een stappenplan en een handleiding zijn precies hetzelfde idee. Een foto toont enkel het resultaat en zegt niet welke stappen je zette."
         },
         {
           "type": "waarofniet",
@@ -4501,15 +4510,17 @@
           "opties": [
             "Je formuleert de probleemstelling",
             "Je analyseert het probleem met IPO",
+            "Je deelt een groot probleem op in kleinere deelproblemen",
             "Je test het algoritme uit",
             "Je koopt eerst een nieuwe computer"
           ],
           "antwoord": [
             0,
             1,
-            2
+            2,
+            3
           ],
-          "uitleg": "De fiche noemt die drie, plus het probleem eventueel opdelen in kleinere deelproblemen en bijsturen waar nodig."
+          "uitleg": "De fiche noemt die vier stappen, plus bijsturen waar nodig. Een nieuwe computer kopen hoort er niet bij: een algoritme ontwerp je op papier, los van de machine waarop het straks draait."
         },
         {
           "type": "meerkeuze",

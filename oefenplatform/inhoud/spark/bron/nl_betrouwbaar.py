@@ -41,7 +41,7 @@ DEEL1 = [
             "Deze gsm weegt 180 gram.",
         ],
         antwoord=[0, 1, 2],
-        uitleg="De eerste drie zijn oordelen. Het gewicht van de gsm kan je nameten: dat is een feit.",
+        uitleg="De drie juiste antwoorden zijn oordelen. Het gewicht van de gsm kan je nameten: dat is een feit.",
     ),
     dict(
         type="invultekst",
@@ -210,7 +210,7 @@ DEEL2 = [
             "Het bericht bevat een datum",
         ],
         antwoord=[0, 1, 2],
-        uitleg="De eerste drie zijn alarmsignalen. Een datum vermelden is net een goed teken.",
+        uitleg="De drie juiste antwoorden zijn alarmsignalen. Een datum vermelden is net een goed teken.",
     ),
     dict(
         type="meerkeuze",
@@ -240,7 +240,7 @@ DEEL2 = [
             "Het is het beste toestel van dit jaar.",
         ],
         antwoord=[0, 1, 2],
-        uitleg="De eerste drie kan je meten of nagaan. 'Het beste van dit jaar' is een oordeel.",
+        uitleg="De drie juiste antwoorden kan je meten of nagaan. 'Het beste van dit jaar' is een oordeel.",
     ),
     dict(
         type="meerkeuze",
@@ -284,7 +284,7 @@ DEEL2 = [
             "Ik hou nu eenmaal van water",
         ],
         antwoord=[0, 1, 2],
-        uitleg="De eerste drie geven een reden die ook voor anderen telt. Wat jij lekker vindt, overtuigt niemand.",
+        uitleg="De drie juiste antwoorden geven een reden die ook voor anderen telt. Wat jij lekker vindt, overtuigt niemand.",
     ),
     dict(
         type="waarofniet",

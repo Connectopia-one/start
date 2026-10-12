@@ -38,7 +38,7 @@ DEEL1 = [
                  "Have a good evening, bye.",
                  "What do you do for a living?"],
          antwoord=[0, 1, 2],
-         uitleg="De eerste drie sluiten een gesprek af. De vierde opent er net een: je vraagt "
+         uitleg="De drie juiste antwoorden sluiten een gesprek af. Het foute antwoord opent er net een: je vraagt "
                 "iemand wat voor werk hij of zij doet."),
     dict(type="invultekst",
          vraag="Vul het ontbrekende werkwoord in: 'Nice to … you.' Je zegt dit als je iemand "
@@ -82,7 +82,7 @@ DEEL1 = [
                  "Where can I find the station?",
                  "I think the shop opens at nine."],
          antwoord=[0, 1, 2],
-         uitleg="De eerste drie zijn vragen. De vierde geeft net informatie in plaats van ze te "
+         uitleg="De drie juiste antwoorden zijn vragen. Het foute antwoord geeft net informatie in plaats van ze te "
                 "vragen."),
     dict(type="meerkeuze",
          vraag="Iemand zegt 'I'm sorry I'm late.' Hoe reageer je het best?",
@@ -128,7 +128,7 @@ DEEL1 = [
                  "And what did you think of it?",
                  "Well, that was all I wanted."],
          antwoord=[0, 1, 2],
-         uitleg="De eerste drie geven de ander een reden om verder te vertellen. De vierde sluit "
+         uitleg="De drie juiste antwoorden geven de ander een reden om verder te vertellen. Het foute antwoord sluit "
                 "het gesprek juist af."),
     dict(type="meerkeuze",
          vraag="Hoe beëindig je een gesprek beleefd?",

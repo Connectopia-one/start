@@ -108,7 +108,7 @@ DEEL1 = [
                  "Aristoteles ziet geluk als een stemming van de dag",
                  "Epicurus raadt aan om zoveel genot als mogelijk op te zoeken"],
          antwoord=[0, 1],
-         uitleg="De eerste twee. Aristoteles kijkt naar een heel leven; Epicurus kijkt naar wat je "
+         uitleg="Aristoteles kijkt naar een heel leven; Epicurus kijkt naar wat je "
                 "rust in de weg staat."),
     dict(type="meerkeuze",
          vraag="Je mist een promotie en bent er dagen ondersteboven van. Welke raad komt uit het "
@@ -126,7 +126,7 @@ DEEL1 = [
                  "geluk wordt er gemeten in het bezit dat iemand bijeenbrengt",
                  "geluk wordt er beschouwd als iets dat je volledig overkomt"],
          antwoord=[0, 1],
-         uitleg="De eerste twee. Daarom hoort het geluk bij de ethiek en niet bij de psychologie "
+         uitleg="Daarom hoort het geluk bij de ethiek en niet bij de psychologie "
                 "van de goede dag."),
     dict(type="meerkeuze",
          vraag="Waarom is geluk een ethische vraag en niet alleen een gevoelskwestie?",
@@ -267,7 +267,7 @@ DEEL2 = [
                  "alle genoemde filosofen vinden geluk de maatstaf van de moraal",
                  "alle genoemde filosofen zien geluk als een gevoel van de dag"],
          antwoord=[0, 1],
-         uitleg="De eerste twee. Daarin zit het hele verschil dat de fiche je laat vergelijken."),
+         uitleg="Daarin zit het hele verschil dat de fiche je laat vergelijken."),
     dict(type="meerkeuze",
          vraag="Welke uitspraken over Schopenhauer en De Wachter kloppen?",
          opties=["beiden nemen afstand van de belofte van een leven zonder verdriet",
@@ -275,7 +275,7 @@ DEEL2 = [
                  "beiden vinden dat geluk eenvoudig te bereiken is",
                  "beiden rekenen geluk uit als genot min pijn"],
          antwoord=[0, 1],
-         uitleg="De eerste twee. Dezelfde nuchterheid over het verdriet, een ander antwoord erop."),
+         uitleg="Dezelfde nuchterheid over het verdriet, een ander antwoord erop."),
     dict(type="waarofniet",
          vraag="Volgens Kant is geluk de maatstaf waaraan je moraal moet afmeten.",
          antwoord=False,

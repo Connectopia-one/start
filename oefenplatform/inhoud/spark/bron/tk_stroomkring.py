@@ -24,12 +24,12 @@ DEEL1 = [
         opties=[
             "Een schakelaar",
             "Een weerstand",
-            "Een zoemer",
+            "Een bankschroef",
             "Een schroevendraaier",
             "Een hamer met een houten steel",
         ],
-        antwoord=[0, 1, 2],
-        uitleg="Componenten zijn de onderdelen die in de kring zelf zitten: de spanningsbron, de draad, de schakelaar, het lampje, de weerstand, de LED, de multimeter en de zoemer. Een schroevendraaier en een hamer zijn gereedschap.",
+        antwoord=[0, 1],
+        uitleg="Componenten zijn de onderdelen die in de kring zelf zitten: de spanningsbron, de draad, de schakelaar, het lampje, de weerstand, de LED, de multimeter en de zoemer. Een bankschroef, een schroevendraaier en een hamer zijn gereedschap.",
     ),
     dict(
         type="meerkeuze",
@@ -393,8 +393,8 @@ DEEL2 = [
     dict(
         type="meerkeuze",
         vraag="Welke materialen kan je gebruiken als geleider in een stroomkring?",
-        opties=["Koper", "Aluminium", "Staal", "Hout", "Glas"],
-        antwoord=[0, 1, 2],
-        uitleg="Metalen geleiden stroom. Hout en glas zijn niet-metalen: die laten bijna niets door en worden juist als isolatie gebruikt.",
+        opties=["Koper", "Aluminium", "Staal", "Zilver", "Glas"],
+        antwoord=[0, 1, 2, 3],
+        uitleg="Metalen geleiden stroom, en zilver zelfs het best van allemaal; het is enkel te duur om er draden van te maken. Glas is een niet-metaal: dat laat bijna niets door en wordt juist als isolatie gebruikt.",
     ),
 ]
