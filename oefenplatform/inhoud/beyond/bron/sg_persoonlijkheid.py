@@ -41,16 +41,17 @@ DEEL1 = [
     ),
     dict(
         type="meerkeuze",
-        vraag="Welke vijf elementen van persoonlijkheid noemt de fiche?",
+        vraag="Welke elementen van persoonlijkheid noemt de fiche?",
         opties=[
             "karakter",
             "temperament",
             "zelfbeeld",
             "attributie",
             "conformisme",
+            "motivatie",
         ],
-        antwoord=[0, 1, 2],
-        uitleg="De vijf zijn karakter, motivatie, temperament, trekken of disposities en zelfbeeld. Attributie en conformisme horen bij de sociale psychologie.",
+        antwoord=[0, 1, 2, 5],
+        uitleg="De fiche noemt karakter, motivatie, temperament, trekken of disposities en zelfbeeld. Attributie en conformisme horen bij de sociale psychologie.",
     ),
     dict(
         type="meerkeuze",

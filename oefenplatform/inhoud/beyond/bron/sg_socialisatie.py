@@ -192,7 +192,7 @@ DEEL1 = [
             "de primaire socialisatie",
         ],
         antwoord=[0, 1, 2],
-        uitleg="Twee posities, twee rollen, en in de ene positie meer macht dan in de andere. Dat is precies het nut van de drie begrippen.",
+        uitleg="Twee posities, twee rollen, en in de ene positie meer macht dan in de andere. Dat is precies waarvoor die begrippen dienen.",
     ),
     dict(
         type="meerkeuze",
@@ -391,9 +391,10 @@ DEEL2 = [
             "die van Parsons",
             "die van Mead",
             "die van Dweck",
+            "die van Marx",
         ],
-        antwoord=[0, 1],
-        uitleg="Durkheim en Parsons vertrekken van de samenleving. Mead vertrekt bij de omgang tussen mensen.",
+        antwoord=[0, 1, 4],
+        uitleg="Durkheim, Parsons en Marx vertrekken van de samenleving. Mead vertrekt bij de omgang tussen mensen.",
     ),
     dict(
         type="waarofniet",

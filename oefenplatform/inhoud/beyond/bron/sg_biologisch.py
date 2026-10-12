@@ -39,16 +39,15 @@ DEEL1 = [
     ),
     dict(
         type="meerkeuze",
-        vraag="Welke drie theorieën horen volgens de fiche bij de biologische benadering?",
+        vraag="Welke theorieën horen volgens de fiche bij de biologische benadering?",
         opties=[
             "de evolutionaire psychologie",
             "de rijpingstheorie",
-            "de epigenetica",
             "de psychoanalyse",
             "de sociaal-culturele theorie",
         ],
-        antwoord=[0, 1, 2],
-        uitleg="Die drie, met Darwin, Gesell en Waddington. De psychoanalyse is psychodynamisch, de sociaal-culturele theorie is systemisch.",
+        antwoord=[0, 1],
+        uitleg="De evolutionaire psychologie komt van Darwin en de rijpingstheorie van Gesell. De psychoanalyse is psychodynamisch, de sociaal-culturele theorie is systemisch.",
     ),
     dict(
         type="meerkeuze",

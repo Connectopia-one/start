@@ -43,15 +43,15 @@ DEEL1 = [
     ),
     dict(
         type="meerkeuze",
-        vraag="Welke drie vormen van toegeven aan sociale beïnvloeding noemt de fiche?",
+        vraag="Welke vormen van toegeven aan sociale beïnvloeding noemt de fiche?",
         opties=[
             "conformisme",
             "inwilliging",
-            "gehoorzaamheid",
             "assertiviteit",
+            "onafhankelijkheid",
         ],
-        antwoord=[0, 1, 2],
-        uitleg="Die drie. Assertiviteit hoort bij de andere kant: weerstand bieden.",
+        antwoord=[0, 1],
+        uitleg="Conformisme en inwilliging zijn twee vormen van toegeven, gehoorzaamheid is de derde. Assertiviteit en onafhankelijkheid horen bij de andere kant: weerstand bieden.",
     ),
     dict(
         type="meerkeuze",
@@ -421,12 +421,12 @@ DEEL2 = [
         vraag="Welke factoren verhogen volgens de fiche de bereidheid om een gezagsfiguur te gehoorzamen?",
         opties=[
             "de gezagsfiguur is dichtbij aanwezig",
-            "het slachtoffer is ver weg of niet te zien",
+            "het slachtoffer zit naast je",
             "er is een gerespecteerde instelling achter de opdracht",
             "er is iemand anders die openlijk weigert",
         ],
-        antwoord=[0, 1, 2],
-        uitleg="Nabijheid van het gezag, afstand tot het slachtoffer en een instelling met aanzien verhogen de gehoorzaamheid. Iemand die weigert, verlaagt ze juist.",
+        antwoord=[0, 2],
+        uitleg="Nabijheid van het gezag en een instelling met aanzien verhogen de gehoorzaamheid. Een slachtoffer dat naast je zit en iemand die openlijk weigert, verlagen ze juist.",
     ),
     dict(
         type="waarofniet",

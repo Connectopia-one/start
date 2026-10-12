@@ -356,8 +356,9 @@ DEEL2 = [
             "voorbeeldgedrag of modelleren",
             "responsiviteit",
             "psychologische controle",
+            "straffen",
         ],
-        antwoord=[0, 1, 2],
+        antwoord=[0, 1, 2, 5],
         uitleg="Opvoedingsmiddelen zijn concrete manieren van aanpakken. Responsiviteit en psychologische controle zijn dimensies, geen middelen.",
     ),
     dict(

@@ -282,8 +282,9 @@ DEEL2 = [
             "ze is uitzonderlijk",
             "er is een bekende persoon bij betrokken",
             "ze lijkt op het nieuws van vorige maand",
+            "er zit een conflict in",
         ],
-        antwoord=[0, 1, 2],
+        antwoord=[0, 1, 2, 4],
         uitleg="Nabijheid, uitzonderlijkheid, bekende namen en conflict zijn klassieke selectiecriteria. Iets gewoons haalt het nieuws niet.",
     ),
     dict(
@@ -384,8 +385,9 @@ DEEL2 = [
             "laster en eerroof",
             "het privéleven van iemand schenden",
             "een politicus scherp bekritiseren",
+            "het auteursrecht van iemand anders schenden",
         ],
-        antwoord=[0, 1, 2],
+        antwoord=[0, 1, 2, 4],
         uitleg="Haatspraak, laster en de schending van privacy zijn echte grenzen. Scherpe kritiek op een politicus is juist wat het recht beschermt.",
     ),
     dict(

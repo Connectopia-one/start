@@ -141,8 +141,9 @@ DEEL1 = [
             "echt en open zijn over jezelf",
             "je kunnen inleven in de ander",
             "voor de ander beslissen wat goed is",
+            "de ander laten kiezen wat hij wil bespreken",
         ],
-        antwoord=[0, 1, 2],
+        antwoord=[0, 1, 2, 4],
         uitleg="Rogers noemt aanvaarding, echtheid en inleving. Beslissen voor de ander hoort er juist niet bij.",
     ),
     dict(

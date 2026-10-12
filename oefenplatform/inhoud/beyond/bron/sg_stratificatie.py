@@ -41,16 +41,17 @@ DEEL1 = [
     ),
     dict(
         type="meerkeuze",
-        vraag="Welke vier stratificatiesystemen noemt de fiche?",
+        vraag="Welke stratificatiesystemen noemt de fiche?",
         opties=[
             "de slavenmaatschappij",
             "de kastenmaatschappij",
             "de standenmaatschappij",
             "de kennismaatschappij",
             "de welvaartsmaatschappij",
+            "de klassenmaatschappij",
         ],
-        antwoord=[0, 1, 2],
-        uitleg="De vier zijn slaven-, kasten-, standen- en klassenmaatschappij. De kennis- en welvaartsmaatschappij staan niet in de fiche.",
+        antwoord=[0, 1, 2, 5],
+        uitleg="De slaven-, kasten-, standen- en klassenmaatschappij staan in de fiche. De kennis- en de welvaartsmaatschappij niet.",
     ),
     dict(
         type="meerkeuze",
@@ -273,9 +274,10 @@ DEEL2 = [
             "cultureel kapitaal",
             "sociaal kapitaal",
             "juridisch kapitaal",
+            "symbolisch kapitaal",
         ],
-        antwoord=[0, 1, 2],
-        uitleg="Geld en bezit, kennis en omgangsvormen, en je netwerk. Volgens Bourdieu kan het ene kapitaal in het andere omgezet worden.",
+        antwoord=[0, 1, 2, 4],
+        uitleg="Geld en bezit, kennis en omgangsvormen, je netwerk, en het aanzien dat je daarmee krijgt. Volgens Bourdieu kan het ene kapitaal in het andere omgezet worden.",
     ),
     dict(
         type="meerkeuze",

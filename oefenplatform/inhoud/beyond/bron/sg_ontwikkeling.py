@@ -366,15 +366,15 @@ DEEL2 = [
     ),
     dict(
         type="meerkeuze",
-        vraag="Yara komt uit een muzikaal gezin, zat van haar zesde in de muziekschool en koos op haar vijftiende zelf om drum te spelen in plaats van piano. Welke drie dingen uit de tweede basisvraag zie je?",
+        vraag="Yara komt uit een muzikaal gezin, zat van haar zesde in de muziekschool en koos op haar vijftiende zelf om drum te spelen in plaats van piano. Wat uit de tweede basisvraag zie je?",
         opties=[
             "nature",
             "nurture",
-            "zelfbepaling",
             "discontinuïteit",
+            "continuïteit",
         ],
-        antwoord=[0, 1, 2],
-        uitleg="Het muzikale gezin is nature en nurture samen, de muziekschool is nurture, en haar eigen keuze is zelfbepaling.",
+        antwoord=[0, 1],
+        uitleg="Het muzikale gezin is nature en nurture samen, en de muziekschool is nurture. Haar eigen keuze zou je zelfbepaling noemen, en dat staat hier niet bij.",
     ),
     dict(
         type="invultekst",

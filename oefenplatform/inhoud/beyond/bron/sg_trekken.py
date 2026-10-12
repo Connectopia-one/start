@@ -53,15 +53,16 @@ DEEL1 = [
     ),
     dict(
         type="meerkeuze",
-        vraag="Welke drie soorten trekken onderscheidt Allport?",
+        vraag="Welke soorten trekken onderscheidt Allport?",
         opties=[
             "cardinale trekken",
             "centrale trekken",
-            "secundaire trekken",
             "primaire trekken",
+            "perifere trekken",
+            "secundaire trekken",
         ],
-        antwoord=[0, 1, 2],
-        uitleg="Cardinaal, centraal en secundair. Primaire trekken staan niet in de fiche.",
+        antwoord=[0, 1, 4],
+        uitleg="Cardinale, centrale en secundaire trekken. Primaire en perifere trekken staan niet in de fiche.",
     ),
     dict(
         type="meerkeuze",
@@ -249,8 +250,9 @@ DEEL2 = [
             "vriendelijkheid",
             "integriteit",
             "emotionaliteit",
+            "extraversie",
         ],
-        antwoord=[0, 1, 2],
+        antwoord=[0, 1, 2, 5],
         uitleg="De vijf zijn openheid voor ervaringen, zorgvuldigheid, extraversie, vriendelijkheid en neuroticisme. Integriteit en emotionaliteit komen uit HEXACO.",
     ),
     dict(
@@ -381,8 +383,9 @@ DEEL2 = [
             "vriendelijkheid",
             "zorgvuldigheid",
             "integriteit",
+            "openheid voor ervaringen",
         ],
-        antwoord=[0, 1, 2],
+        antwoord=[0, 1, 2, 4],
         uitleg="Extraversie, vriendelijkheid, zorgvuldigheid en openheid staan in beide. De integriteit staat enkel in HEXACO.",
     ),
     dict(

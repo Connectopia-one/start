@@ -41,16 +41,17 @@ DEEL1 = [
     ),
     dict(
         type="meerkeuze",
-        vraag="Welke vier soorten sociale mobiliteit noemt de fiche?",
+        vraag="Welke soorten sociale mobiliteit noemt de fiche?",
         opties=[
             "horizontale mobiliteit",
             "verticale mobiliteit",
             "intergenerationele mobiliteit",
             "geografische mobiliteit",
             "culturele mobiliteit",
+            "intragenerationele mobiliteit",
         ],
-        antwoord=[0, 1, 2],
-        uitleg="De vier zijn horizontaal, verticaal, intragenerationeel en intergenerationeel. De geografische en de culturele staan niet in de fiche.",
+        antwoord=[0, 1, 2, 5],
+        uitleg="Horizontaal, verticaal, intragenerationeel en intergenerationeel staan in de fiche. De geografische en de culturele niet.",
     ),
     dict(
         type="meerkeuze",
@@ -139,8 +140,9 @@ DEEL1 = [
             "de migratiegeschiedenis",
             "het temperament",
             "de persoonlijkheid",
+            "het geslacht",
         ],
-        antwoord=[0, 1, 2],
+        antwoord=[0, 1, 2, 5],
         uitleg="De fiche noemt negen factoren. Temperament en persoonlijkheid horen bij de gedragswetenschappen, niet bij deze lijst.",
     ),
     dict(

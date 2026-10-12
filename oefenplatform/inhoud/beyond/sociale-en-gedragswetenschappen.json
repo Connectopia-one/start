@@ -368,19 +368,18 @@
         },
         {
           "type": "meerkeuze",
-          "vraag": "Yara komt uit een muzikaal gezin, zat van haar zesde in de muziekschool en koos op haar vijftiende zelf om drum te spelen in plaats van piano. Welke drie dingen uit de tweede basisvraag zie je?",
+          "vraag": "Yara komt uit een muzikaal gezin, zat van haar zesde in de muziekschool en koos op haar vijftiende zelf om drum te spelen in plaats van piano. Wat uit de tweede basisvraag zie je?",
           "opties": [
             "nature",
             "nurture",
-            "zelfbepaling",
-            "discontinuïteit"
+            "discontinuïteit",
+            "continuïteit"
           ],
           "antwoord": [
             0,
-            1,
-            2
+            1
           ],
-          "uitleg": "Het muzikale gezin is nature en nurture samen, de muziekschool is nurture, en haar eigen keuze is zelfbepaling."
+          "uitleg": "Het muzikale gezin is nature en nurture samen, en de muziekschool is nurture. Haar eigen keuze zou je zelfbepaling noemen, en dat staat hier niet bij."
         },
         {
           "type": "invultekst",
@@ -458,20 +457,18 @@
         },
         {
           "type": "meerkeuze",
-          "vraag": "Welke drie theorieën horen volgens de fiche bij de biologische benadering?",
+          "vraag": "Welke theorieën horen volgens de fiche bij de biologische benadering?",
           "opties": [
             "de evolutionaire psychologie",
             "de rijpingstheorie",
-            "de epigenetica",
             "de psychoanalyse",
             "de sociaal-culturele theorie"
           ],
           "antwoord": [
             0,
-            1,
-            2
+            1
           ],
-          "uitleg": "Die drie, met Darwin, Gesell en Waddington. De psychoanalyse is psychodynamisch, de sociaal-culturele theorie is systemisch."
+          "uitleg": "De evolutionaire psychologie komt van Darwin en de rijpingstheorie van Gesell. De psychoanalyse is psychodynamisch, de sociaal-culturele theorie is systemisch."
         },
         {
           "type": "meerkeuze",
@@ -1244,19 +1241,18 @@
         },
         {
           "type": "meerkeuze",
-          "vraag": "Welke drie soorten geheugen noemt de informatieverwerkingstheorie?",
+          "vraag": "Welke soorten geheugen noemt de informatieverwerkingstheorie?",
           "opties": [
-            "het sensorisch geheugen",
             "het kortetermijngeheugen",
             "het langetermijngeheugen",
-            "het operante geheugen"
+            "het operante geheugen",
+            "het reflexgeheugen"
           ],
           "antwoord": [
             0,
-            1,
-            2
+            1
           ],
-          "uitleg": "Informatie komt binnen in het sensorisch geheugen, gaat naar het kortetermijngeheugen en kan dan in het langetermijngeheugen blijven."
+          "uitleg": "Informatie gaat van het kortetermijngeheugen naar het langetermijngeheugen, waar ze kan blijven. Een operant geheugen of een reflexgeheugen bestaat niet in die rij."
         },
         {
           "type": "meerkeuze",
@@ -1436,12 +1432,14 @@
             "de ander aanvaarden zoals hij is",
             "echt en open zijn over jezelf",
             "je kunnen inleven in de ander",
-            "voor de ander beslissen wat goed is"
+            "voor de ander beslissen wat goed is",
+            "de ander laten kiezen wat hij wil bespreken"
           ],
           "antwoord": [
             0,
             1,
-            2
+            2,
+            4
           ],
           "uitleg": "Rogers noemt aanvaarding, echtheid en inleving. Beslissen voor de ander hoort er juist niet bij."
         },
@@ -1796,12 +1794,14 @@
             "troosten",
             "verantwoordelijkheid opnemen",
             "regels overtreden",
-            "vandalisme"
+            "vandalisme",
+            "samenwerken"
           ],
           "antwoord": [
             0,
             1,
-            2
+            2,
+            5
           ],
           "uitleg": "De fiche noemt zes vormen van prosociaal gedrag: delen, helpen en ondersteunen, positief groepsgedrag, samenwerken, troosten en verantwoordelijkheid opnemen."
         },
@@ -1813,12 +1813,14 @@
             "vandalisme",
             "liegen en bedriegen",
             "samenwerken",
-            "troosten"
+            "troosten",
+            "agressie"
           ],
           "antwoord": [
             0,
             1,
-            2
+            2,
+            5
           ],
           "uitleg": "De fiche noemt zes vormen van antisociaal gedrag: agressie, liegen en bedriegen, ongepast groepsgedrag, pesten, regels overtreden en vandalisme."
         },
@@ -1881,19 +1883,20 @@
         },
         {
           "type": "meerkeuze",
-          "vraag": "Welke drie mentale processen horen volgens de fiche bij sociale cognitie?",
+          "vraag": "Welke mentale processen horen volgens de fiche bij sociale cognitie?",
           "opties": [
             "attitude",
             "attributie",
-            "cognitieve dissonantie",
-            "conformisme"
+            "conformisme",
+            "gehoorzaamheid",
+            "cognitieve dissonantie"
           ],
           "antwoord": [
             0,
             1,
-            2
+            4
           ],
-          "uitleg": "Attitude, attributie en cognitieve dissonantie. Conformisme hoort bij sociale beïnvloeding, niet bij sociale cognitie."
+          "uitleg": "Attitude, attributie en cognitieve dissonantie horen bij de sociale cognitie. Conformisme en gehoorzaamheid horen bij sociale beïnvloeding."
         },
         {
           "type": "meerkeuze",
@@ -2110,19 +2113,18 @@
         },
         {
           "type": "meerkeuze",
-          "vraag": "Welke drie dimensies gebruikt Weiner om een attributie te beschrijven?",
+          "vraag": "Welke dimensies gebruikt Weiner om een attributie te beschrijven?",
           "opties": [
             "de locus van controle",
             "de stabiliteit",
-            "de controleerbaarheid",
-            "de attitude"
+            "de attitude",
+            "de motivatie"
           ],
           "antwoord": [
             0,
-            1,
-            2
+            1
           ],
-          "uitleg": "Die drie. De attitude hoort bij de sociale cognitie in het algemeen, niet bij Weiner."
+          "uitleg": "De locus van controle en de stabiliteit zijn er twee van, de controleerbaarheid is de derde. De attitude en de motivatie horen niet bij Weiner."
         },
         {
           "type": "meerkeuze",
@@ -2249,19 +2251,20 @@
         },
         {
           "type": "meerkeuze",
-          "vraag": "Welke drie manieren noemt de fiche om cognitieve dissonantie te verminderen?",
+          "vraag": "Welke manieren noemt de fiche om cognitieve dissonantie te verminderen?",
           "opties": [
             "je attitude veranderen",
             "je gedrag veranderen",
-            "een cognitie toevoegen",
-            "de groep verlaten"
+            "de groep verlaten",
+            "de spanning negeren tot ze weggaat",
+            "een cognitie toevoegen"
           ],
           "antwoord": [
             0,
             1,
-            2
+            4
           ],
-          "uitleg": "Die drie: je houding aanpassen, je gedrag aanpassen, of een nieuwe gedachte toevoegen die de spanning verklaart."
+          "uitleg": "Je houding aanpassen, je gedrag aanpassen, of een nieuwe gedachte toevoegen die de spanning verklaart. Negeren of de groep verlaten staat er niet bij."
         },
         {
           "type": "meerkeuze",
@@ -2321,19 +2324,18 @@
         },
         {
           "type": "meerkeuze",
-          "vraag": "In welke drie situaties uit het dagelijks leven speelt dissonantiereductie volgens de fiche?",
+          "vraag": "In welke situaties uit het dagelijks leven speelt dissonantiereductie volgens de fiche?",
           "opties": [
             "na het maken van een keuze",
             "na het instemmen met een verzoek",
-            "na het leveren van inspanningen",
-            "na het verlaten van een groep"
+            "na het verlaten van een groep",
+            "na het ontvangen van een cadeau"
           ],
           "antwoord": [
             0,
-            1,
-            2
+            1
           ],
-          "uitleg": "Die drie noemt de fiche met naam. Na elke keuze, elk ja en elke inspanning gaan wij praten goedmaken wat we deden."
+          "uitleg": "Na een keuze en na een ja gaan wij praten goedmaken wat we deden, en dat geldt ook na een flinke inspanning. Een cadeau krijgen of een groep verlaten staat niet in dat rijtje."
         },
         {
           "type": "meerkeuze",
@@ -2662,19 +2664,18 @@
         },
         {
           "type": "meerkeuze",
-          "vraag": "Welke drie vormen van toegeven aan sociale beïnvloeding noemt de fiche?",
+          "vraag": "Welke vormen van toegeven aan sociale beïnvloeding noemt de fiche?",
           "opties": [
             "conformisme",
             "inwilliging",
-            "gehoorzaamheid",
-            "assertiviteit"
+            "assertiviteit",
+            "onafhankelijkheid"
           ],
           "antwoord": [
             0,
-            1,
-            2
+            1
           ],
-          "uitleg": "Die drie. Assertiviteit hoort bij de andere kant: weerstand bieden."
+          "uitleg": "Conformisme en inwilliging zijn twee vormen van toegeven, gehoorzaamheid is de derde. Assertiviteit en onafhankelijkheid horen bij de andere kant: weerstand bieden."
         },
         {
           "type": "meerkeuze",
@@ -3061,16 +3062,15 @@
           "vraag": "Welke factoren verhogen volgens de fiche de bereidheid om een gezagsfiguur te gehoorzamen?",
           "opties": [
             "de gezagsfiguur is dichtbij aanwezig",
-            "het slachtoffer is ver weg of niet te zien",
+            "het slachtoffer zit naast je",
             "er is een gerespecteerde instelling achter de opdracht",
             "er is iemand anders die openlijk weigert"
           ],
           "antwoord": [
             0,
-            1,
             2
           ],
-          "uitleg": "Nabijheid van het gezag, afstand tot het slachtoffer en een instelling met aanzien verhogen de gehoorzaamheid. Iemand die weigert, verlaagt ze juist."
+          "uitleg": "Nabijheid van het gezag en een instelling met aanzien verhogen de gehoorzaamheid. Een slachtoffer dat naast je zit en iemand die openlijk weigert, verlagen ze juist."
         },
         {
           "type": "waarofniet",
@@ -3105,20 +3105,22 @@
         },
         {
           "type": "meerkeuze",
-          "vraag": "Welke vijf elementen van persoonlijkheid noemt de fiche?",
+          "vraag": "Welke elementen van persoonlijkheid noemt de fiche?",
           "opties": [
             "karakter",
             "temperament",
             "zelfbeeld",
             "attributie",
-            "conformisme"
+            "conformisme",
+            "motivatie"
           ],
           "antwoord": [
             0,
             1,
-            2
+            2,
+            5
           ],
-          "uitleg": "De vijf zijn karakter, motivatie, temperament, trekken of disposities en zelfbeeld. Attributie en conformisme horen bij de sociale psychologie."
+          "uitleg": "De fiche noemt karakter, motivatie, temperament, trekken of disposities en zelfbeeld. Attributie en conformisme horen bij de sociale psychologie."
         },
         {
           "type": "meerkeuze",
@@ -3759,19 +3761,18 @@
         },
         {
           "type": "meerkeuze",
-          "vraag": "Welke drie zaken staan in het wederzijds determinisme van Bandura?",
+          "vraag": "Welke zaken staan in het wederzijds determinisme van Bandura?",
           "opties": [
             "de cognities en eigenschappen van het individu",
             "de omgeving van het individu",
-            "het gedrag van het individu",
-            "het onbewuste van het individu"
+            "het onbewuste van het individu",
+            "de erfelijke aanleg van het individu"
           ],
           "antwoord": [
             0,
-            1,
-            2
+            1
           ],
-          "uitleg": "Die drie. Het onbewuste is een begrip van Freud, niet van Bandura."
+          "uitleg": "De cognities en eigenschappen van het individu en zijn omgeving zijn er twee van, zijn gedrag is de derde. Het onbewuste is een begrip van Freud, niet van Bandura."
         },
         {
           "type": "meerkeuze",
@@ -3993,19 +3994,20 @@
         },
         {
           "type": "meerkeuze",
-          "vraag": "Welke drie soorten trekken onderscheidt Allport?",
+          "vraag": "Welke soorten trekken onderscheidt Allport?",
           "opties": [
             "cardinale trekken",
             "centrale trekken",
-            "secundaire trekken",
-            "primaire trekken"
+            "primaire trekken",
+            "perifere trekken",
+            "secundaire trekken"
           ],
           "antwoord": [
             0,
             1,
-            2
+            4
           ],
-          "uitleg": "Cardinaal, centraal en secundair. Primaire trekken staan niet in de fiche."
+          "uitleg": "Cardinale, centrale en secundaire trekken. Primaire en perifere trekken staan niet in de fiche."
         },
         {
           "type": "meerkeuze",
@@ -4204,12 +4206,14 @@
             "zorgvuldigheid",
             "vriendelijkheid",
             "integriteit",
-            "emotionaliteit"
+            "emotionaliteit",
+            "extraversie"
           ],
           "antwoord": [
             0,
             1,
-            2
+            2,
+            5
           ],
           "uitleg": "De vijf zijn openheid voor ervaringen, zorgvuldigheid, extraversie, vriendelijkheid en neuroticisme. Integriteit en emotionaliteit komen uit HEXACO."
         },
@@ -4344,12 +4348,14 @@
             "extraversie",
             "vriendelijkheid",
             "zorgvuldigheid",
-            "integriteit"
+            "integriteit",
+            "openheid voor ervaringen"
           ],
           "antwoord": [
             0,
             1,
-            2
+            2,
+            4
           ],
           "uitleg": "Extraversie, vriendelijkheid, zorgvuldigheid en openheid staan in beide. De integriteit staat enkel in HEXACO."
         },
@@ -4754,12 +4760,14 @@
             "negeren en time-out",
             "voorbeeldgedrag of modelleren",
             "responsiviteit",
-            "psychologische controle"
+            "psychologische controle",
+            "straffen"
           ],
           "antwoord": [
             0,
             1,
-            2
+            2,
+            5
           ],
           "uitleg": "Opvoedingsmiddelen zijn concrete manieren van aanpakken. Responsiviteit en psychologische controle zijn dimensies, geen middelen."
         },
@@ -4872,14 +4880,16 @@
             "Plato",
             "Jean-Jacques Rousseau",
             "Urie Bronfenbrenner",
-            "Jacobus E. Rink"
+            "Jacobus E. Rink",
+            "Al-Ghazali"
           ],
           "antwoord": [
             0,
             1,
-            2
+            2,
+            5
           ],
-          "uitleg": "Vier historische visies: Confucius, Plato, Al-Ghazali en Rousseau. Bronfenbrenner en Rink staan bij de modellen."
+          "uitleg": "Bronfenbrenner en Rink staan bij de modellen, niet bij de historische visies."
         },
         {
           "type": "meerkeuze",
@@ -5101,14 +5111,16 @@
             "een fysieke handicap",
             "een zintuiglijke handicap",
             "een verstandelijke handicap",
-            "een tijdelijke handicap"
+            "een tijdelijke handicap",
+            "een meervoudige handicap"
           ],
           "antwoord": [
             0,
             1,
-            2
+            2,
+            4
           ],
-          "uitleg": "De fiche noemt vier soorten: fysiek, zintuiglijk, verstandelijk en meervoudig."
+          "uitleg": "Een tijdelijke handicap staat niet in dat rijtje."
         },
         {
           "type": "meerkeuze",
@@ -5348,12 +5360,14 @@
             "echtheid",
             "emotionele beschikbaarheid",
             "doorvragen met gesloten vragen",
-            "een ik-boodschap formuleren"
+            "een ik-boodschap formuleren",
+            "respect"
           ],
           "antwoord": [
             0,
             1,
-            2
+            2,
+            5
           ],
           "uitleg": "De zes aspecten zijn actief luisteren, inlevingsvermogen, open houding, echtheid, respect en emotionele beschikbaarheid."
         },
@@ -5517,14 +5531,16 @@
             "je behoeften zeggen met een ik-boodschap",
             "met actief luisteren de behoeften van de ander zoeken",
             "samen oplossingen bedenken en afwegen",
-            "de ander laten beslissen en je erbij neerleggen"
+            "de ander laten beslissen en je erbij neerleggen",
+            "samen een keuze maken"
           ],
           "antwoord": [
             0,
             1,
-            2
+            2,
+            4
           ],
-          "uitleg": "Daarna volgen nog: een keuze maken, de oplossing uitproberen en nagaan of het conflict echt opgelost is."
+          "uitleg": "Daarna volgt nog de oplossing uitproberen en nagaan of het conflict echt opgelost is. De ander laten beslissen hoort er niet bij: dan verliest er wel iemand."
         },
         {
           "type": "waarofniet",
@@ -5588,14 +5604,16 @@
             "een actieve lichaamshouding",
             "oogcontact",
             "je gelaatsuitdrukking",
-            "kleine aanmoedigingen"
+            "kleine aanmoedigingen",
+            "naar de spreker toe gedraaid zitten"
           ],
           "antwoord": [
             0,
             1,
-            2
+            2,
+            4
           ],
-          "uitleg": "Die drie zijn non-verbaal. Kleine aanmoedigingen en stiltes staan bij het verbaal actief luisteren."
+          "uitleg": "Die zijn non-verbaal. Kleine aanmoedigingen en stiltes staan bij het verbaal actief luisteren."
         },
         {
           "type": "meerkeuze",
@@ -5672,14 +5690,16 @@
             "het gedrag dat je ziet",
             "het gevolg van dat gedrag",
             "het gevoel dat het bij je oproept",
-            "het oordeel dat je over de ander hebt"
+            "het oordeel dat je over de ander hebt",
+            "een alternatief voor het gewenste gedrag"
           ],
           "antwoord": [
             0,
             1,
-            2
+            2,
+            4
           ],
-          "uitleg": "Die drie, en dan nog een alternatief voor het gewenste gedrag. Een oordeel over de persoon hoort er juist niet in."
+          "uitleg": "Een oordeel over de persoon hoort er juist niet in."
         },
         {
           "type": "meerkeuze",
@@ -5945,7 +5965,7 @@
             1,
             2
           ],
-          "uitleg": "Twee posities, twee rollen, en in de ene positie meer macht dan in de andere. Dat is precies het nut van de drie begrippen."
+          "uitleg": "Twee posities, twee rollen, en in de ene positie meer macht dan in de andere. Dat is precies waarvoor die begrippen dienen."
         },
         {
           "type": "meerkeuze",
@@ -6153,13 +6173,15 @@
             "die van Durkheim",
             "die van Parsons",
             "die van Mead",
-            "die van Dweck"
+            "die van Dweck",
+            "die van Marx"
           ],
           "antwoord": [
             0,
-            1
+            1,
+            4
           ],
-          "uitleg": "Durkheim en Parsons vertrekken van de samenleving. Mead vertrekt bij de omgang tussen mensen."
+          "uitleg": "Durkheim, Parsons en Marx vertrekken van de samenleving. Mead vertrekt bij de omgang tussen mensen."
         },
         {
           "type": "waarofniet",
@@ -6218,20 +6240,22 @@
         },
         {
           "type": "meerkeuze",
-          "vraag": "Welke vier stratificatiesystemen noemt de fiche?",
+          "vraag": "Welke stratificatiesystemen noemt de fiche?",
           "opties": [
             "de slavenmaatschappij",
             "de kastenmaatschappij",
             "de standenmaatschappij",
             "de kennismaatschappij",
-            "de welvaartsmaatschappij"
+            "de welvaartsmaatschappij",
+            "de klassenmaatschappij"
           ],
           "antwoord": [
             0,
             1,
-            2
+            2,
+            5
           ],
-          "uitleg": "De vier zijn slaven-, kasten-, standen- en klassenmaatschappij. De kennis- en welvaartsmaatschappij staan niet in de fiche."
+          "uitleg": "De slaven-, kasten-, standen- en klassenmaatschappij staan in de fiche. De kennis- en de welvaartsmaatschappij niet."
         },
         {
           "type": "meerkeuze",
@@ -6469,14 +6493,16 @@
             "economisch kapitaal",
             "cultureel kapitaal",
             "sociaal kapitaal",
-            "juridisch kapitaal"
+            "juridisch kapitaal",
+            "symbolisch kapitaal"
           ],
           "antwoord": [
             0,
             1,
-            2
+            2,
+            4
           ],
-          "uitleg": "Geld en bezit, kennis en omgangsvormen, en je netwerk. Volgens Bourdieu kan het ene kapitaal in het andere omgezet worden."
+          "uitleg": "Geld en bezit, kennis en omgangsvormen, je netwerk, en het aanzien dat je daarmee krijgt. Volgens Bourdieu kan het ene kapitaal in het andere omgezet worden."
         },
         {
           "type": "meerkeuze",
@@ -6657,20 +6683,22 @@
         },
         {
           "type": "meerkeuze",
-          "vraag": "Welke vier soorten sociale mobiliteit noemt de fiche?",
+          "vraag": "Welke soorten sociale mobiliteit noemt de fiche?",
           "opties": [
             "horizontale mobiliteit",
             "verticale mobiliteit",
             "intergenerationele mobiliteit",
             "geografische mobiliteit",
-            "culturele mobiliteit"
+            "culturele mobiliteit",
+            "intragenerationele mobiliteit"
           ],
           "antwoord": [
             0,
             1,
-            2
+            2,
+            5
           ],
-          "uitleg": "De vier zijn horizontaal, verticaal, intragenerationeel en intergenerationeel. De geografische en de culturele staan niet in de fiche."
+          "uitleg": "Horizontaal, verticaal, intragenerationeel en intergenerationeel staan in de fiche. De geografische en de culturele niet."
         },
         {
           "type": "meerkeuze",
@@ -6764,12 +6792,14 @@
             "de kennis",
             "de migratiegeschiedenis",
             "het temperament",
-            "de persoonlijkheid"
+            "de persoonlijkheid",
+            "het geslacht"
           ],
           "antwoord": [
             0,
             1,
-            2
+            2,
+            5
           ],
           "uitleg": "De fiche noemt negen factoren. Temperament en persoonlijkheid horen bij de gedragswetenschappen, niet bij deze lijst."
         },
@@ -7106,12 +7136,14 @@
             "de ontspannende functie",
             "de commerciële functie",
             "de waakhondfunctie",
-            "de cultuuroverdrachtfunctie"
+            "de cultuuroverdrachtfunctie",
+            "de persuasieve functie"
           ],
           "antwoord": [
             0,
             1,
-            2
+            2,
+            5
           ],
           "uitleg": "Voor het individu noemt de fiche vijf functies plus de mengvormen. De waakhond en de cultuuroverdracht zijn functies voor de samenleving."
         },
@@ -7318,14 +7350,16 @@
             "de cultuuroverdrachtfunctie",
             "de sociale functie",
             "de persuasieve functie",
-            "de commerciële functie"
+            "de commerciële functie",
+            "de vrijetijdsfunctie"
           ],
           "antwoord": [
             0,
             1,
-            2
+            2,
+            5
           ],
-          "uitleg": "Voor de samenleving noemt de fiche vier functies: de politieke, de cultuuroverdracht, de vrijetijd en de sociale functie."
+          "uitleg": "Voor de samenleving noemt de fiche de politieke, de cultuuroverdracht-, de vrijetijd- en de sociale functie. De persuasieve en de commerciële functie werken op het individu."
         },
         {
           "type": "meerkeuze",
@@ -7451,13 +7485,15 @@
             "de onderzoeksfunctie",
             "de controlerende of waakhondfunctie",
             "de cultuuroverdrachtfunctie",
-            "de commerciële functie"
+            "de commerciële functie",
+            "de informatieve functie"
           ],
           "antwoord": [
             0,
-            1
+            1,
+            4
           ],
-          "uitleg": "De krant zocht zelf de feiten op en controleerde daarmee de macht. Onderzoek en waakhond gaan hier samen."
+          "uitleg": "De krant zocht zelf de feiten op, bracht ze naar buiten en controleerde daarmee de macht."
         },
         {
           "type": "meerkeuze",
@@ -7802,12 +7838,14 @@
             "ze is dichtbij gebeurd",
             "ze is uitzonderlijk",
             "er is een bekende persoon bij betrokken",
-            "ze lijkt op het nieuws van vorige maand"
+            "ze lijkt op het nieuws van vorige maand",
+            "er zit een conflict in"
           ],
           "antwoord": [
             0,
             1,
-            2
+            2,
+            4
           ],
           "uitleg": "Nabijheid, uitzonderlijkheid, bekende namen en conflict zijn klassieke selectiecriteria. Iets gewoons haalt het nieuws niet."
         },
@@ -7911,12 +7949,14 @@
             "aanzetten tot haat of geweld",
             "laster en eerroof",
             "het privéleven van iemand schenden",
-            "een politicus scherp bekritiseren"
+            "een politicus scherp bekritiseren",
+            "het auteursrecht van iemand anders schenden"
           ],
           "antwoord": [
             0,
             1,
-            2
+            2,
+            4
           ],
           "uitleg": "Haatspraak, laster en de schending van privacy zijn echte grenzen. Scherpe kritiek op een politicus is juist wat het recht beschermt."
         },

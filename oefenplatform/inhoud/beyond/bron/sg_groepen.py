@@ -67,15 +67,16 @@ DEEL1 = [
     ),
     dict(
         type="meerkeuze",
-        vraag="Welke drie manieren noemt de fiche om cognitieve dissonantie te verminderen?",
+        vraag="Welke manieren noemt de fiche om cognitieve dissonantie te verminderen?",
         opties=[
             "je attitude veranderen",
             "je gedrag veranderen",
-            "een cognitie toevoegen",
             "de groep verlaten",
+            "de spanning negeren tot ze weggaat",
+            "een cognitie toevoegen",
         ],
-        antwoord=[0, 1, 2],
-        uitleg="Die drie: je houding aanpassen, je gedrag aanpassen, of een nieuwe gedachte toevoegen die de spanning verklaart.",
+        antwoord=[0, 1, 4],
+        uitleg="Je houding aanpassen, je gedrag aanpassen, of een nieuwe gedachte toevoegen die de spanning verklaart. Negeren of de groep verlaten staat er niet bij.",
     ),
     dict(
         type="meerkeuze",
@@ -133,15 +134,15 @@ DEEL1 = [
     ),
     dict(
         type="meerkeuze",
-        vraag="In welke drie situaties uit het dagelijks leven speelt dissonantiereductie volgens de fiche?",
+        vraag="In welke situaties uit het dagelijks leven speelt dissonantiereductie volgens de fiche?",
         opties=[
             "na het maken van een keuze",
             "na het instemmen met een verzoek",
-            "na het leveren van inspanningen",
             "na het verlaten van een groep",
+            "na het ontvangen van een cadeau",
         ],
-        antwoord=[0, 1, 2],
-        uitleg="Die drie noemt de fiche met naam. Na elke keuze, elk ja en elke inspanning gaan wij praten goedmaken wat we deden.",
+        antwoord=[0, 1],
+        uitleg="Na een keuze en na een ja gaan wij praten goedmaken wat we deden, en dat geldt ook na een flinke inspanning. Een cadeau krijgen of een groep verlaten staat niet in dat rijtje.",
     ),
     dict(
         type="meerkeuze",

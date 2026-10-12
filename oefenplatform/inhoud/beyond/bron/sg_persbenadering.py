@@ -250,15 +250,15 @@ DEEL2 = [
     ),
     dict(
         type="meerkeuze",
-        vraag="Welke drie zaken staan in het wederzijds determinisme van Bandura?",
+        vraag="Welke zaken staan in het wederzijds determinisme van Bandura?",
         opties=[
             "de cognities en eigenschappen van het individu",
             "de omgeving van het individu",
-            "het gedrag van het individu",
             "het onbewuste van het individu",
+            "de erfelijke aanleg van het individu",
         ],
-        antwoord=[0, 1, 2],
-        uitleg="Die drie. Het onbewuste is een begrip van Freud, niet van Bandura.",
+        antwoord=[0, 1],
+        uitleg="De cognities en eigenschappen van het individu en zijn omgeving zijn er twee van, zijn gedrag is de derde. Het onbewuste is een begrip van Freud, niet van Bandura.",
     ),
     dict(
         type="meerkeuze",

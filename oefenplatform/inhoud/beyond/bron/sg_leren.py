@@ -375,15 +375,15 @@ DEEL2 = [
     ),
     dict(
         type="meerkeuze",
-        vraag="Welke drie soorten geheugen noemt de informatieverwerkingstheorie?",
+        vraag="Welke soorten geheugen noemt de informatieverwerkingstheorie?",
         opties=[
-            "het sensorisch geheugen",
             "het kortetermijngeheugen",
             "het langetermijngeheugen",
             "het operante geheugen",
+            "het reflexgeheugen",
         ],
-        antwoord=[0, 1, 2],
-        uitleg="Informatie komt binnen in het sensorisch geheugen, gaat naar het kortetermijngeheugen en kan dan in het langetermijngeheugen blijven.",
+        antwoord=[0, 1],
+        uitleg="Informatie gaat van het kortetermijngeheugen naar het langetermijngeheugen, waar ze kan blijven. Een operant geheugen of een reflexgeheugen bestaat niet in die rij.",
     ),
     dict(
         type="meerkeuze",

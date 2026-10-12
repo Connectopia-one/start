@@ -63,8 +63,9 @@ DEEL1 = [
             "verantwoordelijkheid opnemen",
             "regels overtreden",
             "vandalisme",
+            "samenwerken",
         ],
-        antwoord=[0, 1, 2],
+        antwoord=[0, 1, 2, 5],
         uitleg="De fiche noemt zes vormen van prosociaal gedrag: delen, helpen en ondersteunen, positief groepsgedrag, samenwerken, troosten en verantwoordelijkheid opnemen.",
     ),
     dict(
@@ -76,8 +77,9 @@ DEEL1 = [
             "liegen en bedriegen",
             "samenwerken",
             "troosten",
+            "agressie",
         ],
-        antwoord=[0, 1, 2],
+        antwoord=[0, 1, 2, 5],
         uitleg="De fiche noemt zes vormen van antisociaal gedrag: agressie, liegen en bedriegen, ongepast groepsgedrag, pesten, regels overtreden en vandalisme.",
     ),
     dict(
@@ -136,15 +138,16 @@ DEEL1 = [
     ),
     dict(
         type="meerkeuze",
-        vraag="Welke drie mentale processen horen volgens de fiche bij sociale cognitie?",
+        vraag="Welke mentale processen horen volgens de fiche bij sociale cognitie?",
         opties=[
             "attitude",
             "attributie",
-            "cognitieve dissonantie",
             "conformisme",
+            "gehoorzaamheid",
+            "cognitieve dissonantie",
         ],
-        antwoord=[0, 1, 2],
-        uitleg="Attitude, attributie en cognitieve dissonantie. Conformisme hoort bij sociale beïnvloeding, niet bij sociale cognitie.",
+        antwoord=[0, 1, 4],
+        uitleg="Attitude, attributie en cognitieve dissonantie horen bij de sociale cognitie. Conformisme en gehoorzaamheid horen bij sociale beïnvloeding.",
     ),
     dict(
         type="meerkeuze",
@@ -349,15 +352,15 @@ DEEL2 = [
     ),
     dict(
         type="meerkeuze",
-        vraag="Welke drie dimensies gebruikt Weiner om een attributie te beschrijven?",
+        vraag="Welke dimensies gebruikt Weiner om een attributie te beschrijven?",
         opties=[
             "de locus van controle",
             "de stabiliteit",
-            "de controleerbaarheid",
             "de attitude",
+            "de motivatie",
         ],
-        antwoord=[0, 1, 2],
-        uitleg="Die drie. De attitude hoort bij de sociale cognitie in het algemeen, niet bij Weiner.",
+        antwoord=[0, 1],
+        uitleg="De locus van controle en de stabiliteit zijn er twee van, de controleerbaarheid is de derde. De attitude en de motivatie horen niet bij Weiner.",
     ),
     dict(
         type="meerkeuze",
