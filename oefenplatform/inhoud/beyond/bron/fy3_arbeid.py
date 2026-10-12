@@ -63,8 +63,9 @@ DEEL1 = [
             "als de kracht loodrecht op de verplaatsing staat",
             "als de kracht zelf nul is",
             "als de verplaatsing tegen de kracht in gaat",
+            "als de zwaartekracht werkt terwijl je horizontaal schuift",
         ],
-        antwoord=[0, 1, 2],
+        antwoord=[0, 1, 2, 4],
         uitleg=r"Gaat de verplaatsing tegen de kracht in, dan is \(\cos 180^\circ = -1\) en is "
         r"\(W\) negatief, dus niet nul. De zwaartekracht verricht geen arbeid als je "
         r"horizontaal schuift, want dan is \(\alpha = 90^\circ\).",
@@ -206,8 +207,9 @@ DEEL1 = [
             "arbeid is negatief als de kracht tegen de verplaatsing in werkt",
             r"bij een veranderlijke \(F\) reken je \(\int F\,\mathrm{d}x\)",
             "arbeid is een vector en heeft dus een richting",
+            "arbeid kan nul zijn terwijl er wel een kracht werkt",
         ],
-        antwoord=[0, 1, 2],
+        antwoord=[0, 1, 2, 4],
         uitleg="Arbeid is een getal met een teken en geen vector. Dat teken zegt of de "
         "kracht energie toevoegt of wegneemt.",
     ),
@@ -275,8 +277,9 @@ DEEL2 = [
             r"\(E_{p} = m\,g\,h\)",
             r"dubbele \(v\) geeft vier keer zoveel \(E_{k}\)",
             r"\(E_{p}\) hangt ook van \(v\) af",
+            "dubbele hoogte geeft dubbel zoveel potentiële energie",
         ],
-        antwoord=[0, 1, 2],
+        antwoord=[0, 1, 2, 4],
         uitleg="Potentiële energie hangt alleen van de hoogte en de massa af. De snelheid "
         "zit volledig in de kinetische energie.",
     ),
@@ -358,11 +361,12 @@ DEEL2 = [
         vraag="Welke uitspraken over vermogen zijn juist? Kruis alles aan wat juist is.",
         opties=[
             r"\(P = \dfrac{W}{t}\)",
-            r"het staat in watt",
+            "het staat in watt",
             r"\(1\ \text{W} = 1\ \text{J/s}\)",
-            r"het staat in joule",
+            "het staat in joule",
+            "twee motoren met dezelfde arbeid kunnen een ander vermogen hebben",
         ],
-        antwoord=[0, 1, 2],
+        antwoord=[0, 1, 2, 4],
         uitleg="Joule is de eenheid van arbeid en energie, niet van vermogen. Twee motoren "
         "kunnen dezelfde arbeid leveren en toch een ander vermogen hebben.",
     ),

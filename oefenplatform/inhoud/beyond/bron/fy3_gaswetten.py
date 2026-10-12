@@ -147,8 +147,9 @@ DEEL1 = [
             r"de \(p(V)\)-grafiek is een hyperbool",
             "de temperatuur verandert tijdens het proces niet",
             "het volume is recht evenredig met de druk",
+            "bij dubbele druk is het volume gehalveerd",
         ],
-        antwoord=[0, 1, 2],
+        antwoord=[0, 1, 2, 4],
         uitleg="Het volume is net omgekeerd evenredig met de druk. Recht evenredig met de "
         "temperatuur is het wel, maar dan bij constante druk.",
     ),
@@ -180,8 +181,9 @@ DEEL1 = [
             r"bij constant volume is de \(p(T)\)-grafiek een rechte door de oorsprong",
             r"bij constante temperatuur daalt de \(p(V)\)-grafiek als een kromme",
             r"bij constante druk is de \(V(T)\)-grafiek een dalende kromme",
+            r"de twee rechten door de oorsprong gelden enkel met \(T\) in kelvin",
         ],
-        antwoord=[0, 1, 2],
+        antwoord=[0, 1, 2, 4],
         uitleg=r"De twee rechten door de oorsprong gelden alleen met \(T\) in kelvin. "
         r"In graden celsius snijden ze de as pas bij \(-273\).",
     ),
@@ -290,8 +292,9 @@ DEEL2 = [
             r"de stofhoeveelheid \(n\) staat erin in mol",
             r"de constante \(R\) is voor elk gas dezelfde",
             "de temperatuur mag je erin in graden celsius invullen",
+            "bij lage druk komen echte gassen er dicht bij",
         ],
-        antwoord=[0, 1, 2],
+        antwoord=[0, 1, 2, 4],
         uitleg="De temperatuur moet in kelvin, want de wet geldt voor de absolute "
         "temperatuur. Een ideaal gas met deeltjes zonder eigen volume bestaat niet echt, maar "
         "bij lage druk komen echte gassen er dicht bij.",
@@ -424,8 +427,9 @@ DEEL2 = [
             "het volume in kubieke meter",
             "de temperatuur in kelvin",
             "de stofhoeveelheid in gram",
+            "de stofhoeveelheid in mol",
         ],
-        antwoord=[0, 1, 2],
+        antwoord=[0, 1, 2, 4],
         uitleg="De stofhoeveelheid staat in mol en niet in gram. Vergeet je een van die "
         "omzettingen, dan zit je er meteen een factor duizend naast.",
     ),

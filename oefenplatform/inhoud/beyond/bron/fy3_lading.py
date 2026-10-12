@@ -160,8 +160,9 @@ DEEL1 = [
             "de aangebrachte lading blijft plaatselijk staan",
             "de elektronen bewegen er vrij door het materiaal",
             "de aangebrachte lading verdwijnt er meteen weer",
+            "je kan er één kant van laden en de andere niet",
         ],
-        antwoord=[0, 1],
+        antwoord=[0, 1, 4],
         uitleg="Zonder vrije elektronen kan de lading niet weglopen of zich verspreiden. "
         "Daarom kan je op een kunststof staaf één kant laden en de andere niet.",
     ),
@@ -199,8 +200,9 @@ DEEL1 = [
             "positief betekent dat er elektronen weggegaan zijn",
             "positief betekent dat er protonen bij gekomen zijn",
             "negatief betekent dat er protonen weggegaan zijn",
+            "alleen elektronen verhuizen, nooit protonen",
         ],
-        antwoord=[0, 1],
+        antwoord=[0, 1, 4],
         uitleg="Alleen elektronen bewegen. Een tekort aan elektronen laat de positieve "
         "lading van de kernen overheersen, en dat noemen we positief geladen.",
     ),
@@ -384,8 +386,9 @@ DEEL2 = [
             "het voorwerp blijft in totaal even geladen als ervoor",
             "in een isolator draaien de moleculen zich een beetje",
             "het voorwerp wordt er netto negatief door geladen",
+            "de ene kant wordt positief en de andere negatief",
         ],
-        antwoord=[0, 1, 2],
+        antwoord=[0, 1, 2, 4],
         uitleg="Er komt geen lading bij of af, ze schuift enkel op. Aard je het voorwerp "
         "wel even, dan houdt het achteraf een echte lading over.",
     ),
@@ -397,8 +400,9 @@ DEEL2 = [
             "poedercoating van metaal",
             "een gloeilamp in de keuken",
             "een gewone veer in een pen",
+            "een stoffilter in een luchtzuiveraar",
         ],
-        antwoord=[0, 1],
+        antwoord=[0, 1, 4],
         uitleg="Ook stoffilters, luchtzuivering en reinigingsdoekjes die stof aantrekken "
         "werken zo: geladen deeltjes worden naar een tegengesteld geladen oppervlak "
         "getrokken.",

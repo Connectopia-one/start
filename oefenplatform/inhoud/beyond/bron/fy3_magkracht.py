@@ -88,8 +88,9 @@ DEEL1 = [
             "de sterkte van het magnetisch veld",
             "de lengte van de draad in het veld",
             "de eigen weerstand van de draad",
+            "de hoek tussen de draad en de veldlijnen",
         ],
-        antwoord=[0, 1, 2],
+        antwoord=[0, 1, 2, 4],
         uitleg="Ook de hoek met de veldlijnen telt mee: evenwijdig is de kracht nul. Keer je "
         "de stroom om, dan keert ook de zin van de kracht om.",
     ),
@@ -306,8 +307,9 @@ DEEL2 = [
             "de snelheid van het deeltje",
             "de sterkte van het magnetisch veld",
             "de temperatuur van de omgeving",
+            "de lading van het deeltje",
         ],
-        antwoord=[0, 1, 2],
+        antwoord=[0, 1, 2, 4],
         uitleg="\\(r = \\dfrac{m\\,v}{q\\,B}\\): ook de lading zelf staat erin. Een "
         "sneller of zwaarder deeltje maakt een ruimere bocht, een sterker veld een "
         "krappere.",

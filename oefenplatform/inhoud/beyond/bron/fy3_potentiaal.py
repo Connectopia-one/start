@@ -95,8 +95,9 @@ DEEL1 = [
             "ze hangt af van de plaats in het elektrisch veld",
             "ze hangt af van de massa van het geladen deeltje",
             "ze hangt af van de snelheid waarmee de lading beweegt",
+            "ze is de lading maal de potentiaal in dat punt",
         ],
-        antwoord=[0, 1],
+        antwoord=[0, 1, 4],
         uitleg=r"Massa en snelheid horen bij \(E_{k}\). Er geldt \(E_{p}=q\cdot V\): de "
         r"lading zelf maal iets wat enkel van de plaats afhangt.",
     ),
@@ -196,8 +197,9 @@ DEEL1 = [
             r"de massa \(m\) van het deeltje",
             r"de afstand \(d\) tussen de platen",
             r"de tijd \(t\) die het onderweg is",
+            r"de lading \(q\) van het deeltje",
         ],
-        antwoord=[0, 1],
+        antwoord=[0, 1, 4],
         uitleg=r"Uit \(q\,U=\tfrac{1}{2}m\,v^{2}\) volgt \(v\). De lading \(q\) heb je ook "
         r"nodig, maar \(d\) en \(t\) niet.",
     ),
@@ -355,8 +357,9 @@ DEEL2 = [
             r"ze staat in \(\text{V}\)",
             r"ze staat in \(\text{N/C}\)",
             r"ze groeit mee met de proeflading \(q\)",
+            "één volt is één joule per coulomb",
         ],
-        antwoord=[0, 1],
+        antwoord=[0, 1, 4],
         uitleg=r"\(\text{N/C}\) is de eenheid van \(E\). Zet je een dubbel zo grote lading in "
         r"hetzelfde punt, dan verdubbelt \(E_{p}=q\,V\) maar niet \(V\) zelf.",
     ),
@@ -444,8 +447,9 @@ DEEL2 = [
             "de equipotentiaallijnen zijn evenwijdige rechten",
             r"\(V\) is overal tussen de platen even groot",
             r"\(E\) neemt af naarmate je verder van de plaat zit",
+            r"\(E\) is overal tussen de platen even groot",
         ],
-        antwoord=[0, 1],
+        antwoord=[0, 1, 4],
         uitleg=r"\(E\) is overal gelijk, maar \(V\) niet: die daalt gelijkmatig van de ene "
         r"plaat naar de andere. Uit \(U=E\cdot d\) volgt ook \(E=\dfrac{U}{d}\), in "
         r"\(\text{V/m}\).",

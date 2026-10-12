@@ -358,8 +358,9 @@ DEEL2 = [
             "bij lagere druk ligt het kookpunt lager",
             r"het is voor elke vloeistof \(100\ ^\circ\text{C}\)",
             "het is altijd hoger dan het smeltpunt van de stof",
+            r"in een snelkookpan kookt water boven \(100\ ^\circ\text{C}\)",
         ],
-        antwoord=[0, 1, 3],
+        antwoord=[0, 1, 3, 4],
         uitleg=r"\(100\ ^\circ\text{C}\) is het kookpunt van water bij normale druk, niet "
         r"van elke vloeistof. Hoog in de bergen kookt water bij een lagere temperatuur.",
     ),

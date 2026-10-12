@@ -117,8 +117,9 @@ DEEL1 = [
             "de pulsatie van de trilling",
             "de beginfase van de trilling",
             "de massa van het trillende lichaam",
+            "de periode, want die volgt uit de pulsatie",
         ],
-        antwoord=[0, 1, 2],
+        antwoord=[0, 1, 2, 4],
         uitleg=r"De massa staat er niet in, al bepaalt ze bij een veer wel \(\omega\). "
         r"Uit \(\omega\) volgen \(T\) en \(f\).",
     ),
@@ -209,8 +210,9 @@ DEEL1 = [
             "de periode of de frequentie",
             "de beginfase",
             "de massa van het lichaam",
+            "of anders de pulsatie zelf",
         ],
-        antwoord=[0, 1, 2],
+        antwoord=[0, 1, 2, 4],
         uitleg="Uit de periode volgt de pulsatie, dus volstaat een van die twee. De massa "
         "hoeft niet in de vergelijking te staan.",
     ),
@@ -424,8 +426,9 @@ DEEL2 = [
             "een glas dat breekt bij een zuivere toon van de juiste hoogte",
             "een brug die door marcherende stappen hevig begint te trillen",
             "een slinger die na een tijd van zelf tot stilstand komt",
+            "een radio die enkel de zender oppikt waarop je hem afstemt",
         ],
-        antwoord=[0, 1, 2],
+        antwoord=[0, 1, 2, 4],
         uitleg="De laatste is demping, het omgekeerde verhaal. Soldaten mogen daarom op een "
         "brug niet in de maat stappen.",
     ),

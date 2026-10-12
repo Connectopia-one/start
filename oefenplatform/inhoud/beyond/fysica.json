@@ -134,11 +134,13 @@
             "de elektronen blijven bij hun eigen atoom zitten",
             "de aangebrachte lading blijft plaatselijk staan",
             "de elektronen bewegen er vrij door het materiaal",
-            "de aangebrachte lading verdwijnt er meteen weer"
+            "de aangebrachte lading verdwijnt er meteen weer",
+            "je kan er één kant van laden en de andere niet"
           ],
           "antwoord": [
             0,
-            1
+            1,
+            4
           ],
           "uitleg": "Zonder vrije elektronen kan de lading niet weglopen of zich verspreiden. Daarom kan je op een kunststof staaf één kant laden en de andere niet."
         },
@@ -173,11 +175,13 @@
             "negatief betekent dat er elektronen bij gekomen zijn",
             "positief betekent dat er elektronen weggegaan zijn",
             "positief betekent dat er protonen bij gekomen zijn",
-            "negatief betekent dat er protonen weggegaan zijn"
+            "negatief betekent dat er protonen weggegaan zijn",
+            "alleen elektronen verhuizen, nooit protonen"
           ],
           "antwoord": [
             0,
-            1
+            1,
+            4
           ],
           "uitleg": "Alleen elektronen bewegen. Een tekort aan elektronen laat de positieve lading van de kernen overheersen, en dat noemen we positief geladen."
         },
@@ -355,12 +359,14 @@
             "de ladingen in een geleider verschuiven naar één kant",
             "het voorwerp blijft in totaal even geladen als ervoor",
             "in een isolator draaien de moleculen zich een beetje",
-            "het voorwerp wordt er netto negatief door geladen"
+            "het voorwerp wordt er netto negatief door geladen",
+            "de ene kant wordt positief en de andere negatief"
           ],
           "antwoord": [
             0,
             1,
-            2
+            2,
+            4
           ],
           "uitleg": "Er komt geen lading bij of af, ze schuift enkel op. Aard je het voorwerp wel even, dan houdt het achteraf een echte lading over."
         },
@@ -371,11 +377,13 @@
             "een fotokopieertoestel",
             "poedercoating van metaal",
             "een gloeilamp in de keuken",
-            "een gewone veer in een pen"
+            "een gewone veer in een pen",
+            "een stoffilter in een luchtzuiveraar"
           ],
           "antwoord": [
             0,
-            1
+            1,
+            4
           ],
           "uitleg": "Ook stoffilters, luchtzuivering en reinigingsdoekjes die stof aantrekken werken zo: geladen deeltjes worden naar een tegengesteld geladen oppervlak getrokken."
         },
@@ -515,11 +523,13 @@
             "gelijksoortige ladingen stoten elkaar af",
             "ongelijksoortige ladingen trekken elkaar aan",
             "gelijksoortige ladingen trekken elkaar aan",
-            "de kracht hangt niet af van de grootte van de ladingen"
+            "de kracht hangt niet af van de grootte van de ladingen",
+            "de kracht wordt kleiner als de afstand groter wordt"
           ],
           "antwoord": [
             0,
-            1
+            1,
+            4
           ],
           "uitleg": "Het teken van de ladingen bepaalt de zin van de kracht, hun grootte bepaalt hoe sterk ze is."
         },
@@ -570,11 +580,13 @@
             "de grootte van \\(q_{1}\\) en \\(q_{2}\\)",
             "de afstand \\(r\\) ertussen",
             "de massa \\(m\\) van de twee voorwerpen",
-            "de temperatuur \\(T\\) van de twee voorwerpen"
+            "de temperatuur \\(T\\) van de twee voorwerpen",
+            "de constante \\(k\\)"
           ],
           "antwoord": [
             0,
-            1
+            1,
+            4
           ],
           "uitleg": "Massa en temperatuur komen in \\(F=k\\,\\dfrac{|q_{1}q_{2}|}{r^{2}}\\) niet voor. Wel staat er een constante \\(k\\) in, en die hangt af van de stof ertussen."
         },
@@ -653,11 +665,13 @@
             "ze hangt af van de stof tussen de twee ladingen",
             "ze staat in de bijlage die je op het examen krijgt",
             "ze is voor elke stof precies even groot",
-            "ze wordt kleiner naarmate de ladingen groter zijn"
+            "ze wordt kleiner naarmate de ladingen groter zijn",
+            "in water ligt ze veel lager dan in lucht"
           ],
           "antwoord": [
             0,
-            1
+            1,
+            4
           ],
           "uitleg": "In lucht is \\(k\\approx 8{,}99\\cdot 10^{9}\\ \\text{N}\\,\\text{m}^{2}\\text{/C}^{2}\\). In water ligt ze tientallen keren lager, en daarom werken ionen in water veel minder hard op elkaar in."
         },
@@ -721,12 +735,14 @@
             "de veldsterkte is er overal dezelfde",
             "de veldlijnen zijn recht en lopen parallel",
             "ze lopen van de positieve naar de negatieve plaat",
-            "het veld is in het midden het sterkst"
+            "het veld is in het midden het sterkst",
+            "aan de randen van de platen wijken de lijnen af"
           ],
           "antwoord": [
             0,
             1,
-            2
+            2,
+            4
           ],
           "uitleg": "Zo'n veld heet homogeen, en dat betekent net overal even sterk. Alleen aan de randen van de platen wijken de lijnen af."
         },
@@ -777,11 +793,13 @@
             "\\(E\\sim\\dfrac{1}{r^{2}}\\)",
             "\\(E\\) hangt niet af van de proeflading die je erin zet",
             "\\(E\\) is overal rond de lading even groot",
-            "\\(\\vec{E}\\) wijst altijd naar de lading toe, wat haar teken ook is"
+            "\\(\\vec{E}\\) wijst altijd naar de lading toe, wat haar teken ook is",
+            "op dubbele afstand is \\(E\\) vier keer kleiner"
           ],
           "antwoord": [
             0,
-            1
+            1,
+            4
           ],
           "uitleg": "De veldsterkte is een eigenschap van het punt zelf. Daarom staat er in haar formule enkel de lading die het veld maakt, en niet de lading die je erin brengt."
         },
@@ -878,12 +896,14 @@
             "ze vertrekken bij een positieve lading en eindigen bij een negatieve",
             "ze snijden elkaar nooit",
             "hoe dichter ze bij elkaar liggen, hoe sterker het veld",
-            "ze lopen binnen een holle geleider van wand tot wand"
+            "ze lopen binnen een holle geleider van wand tot wand",
+            "ze staan loodrecht op het oppervlak van een geleider"
           ],
           "antwoord": [
             0,
             1,
-            2
+            2,
+            4
           ],
           "uitleg": "Binnen een holle geleider is het veld nul, dus lopen er geen lijnen. Dat is het gevolg van de kooi van Faraday."
         },
@@ -981,11 +1001,13 @@
             "ze hangt af van de grootte van de lading zelf",
             "ze hangt af van de plaats in het elektrisch veld",
             "ze hangt af van de massa van het geladen deeltje",
-            "ze hangt af van de snelheid waarmee de lading beweegt"
+            "ze hangt af van de snelheid waarmee de lading beweegt",
+            "ze is de lading maal de potentiaal in dat punt"
           ],
           "antwoord": [
             0,
-            1
+            1,
+            4
           ],
           "uitleg": "Massa en snelheid horen bij \\(E_{k}\\). Er geldt \\(E_{p}=q\\cdot V\\): de lading zelf maal iets wat enkel van de plaats afhangt."
         },
@@ -1078,11 +1100,13 @@
             "de spanning \\(U\\) tussen de platen",
             "de massa \\(m\\) van het deeltje",
             "de afstand \\(d\\) tussen de platen",
-            "de tijd \\(t\\) die het onderweg is"
+            "de tijd \\(t\\) die het onderweg is",
+            "de lading \\(q\\) van het deeltje"
           ],
           "antwoord": [
             0,
-            1
+            1,
+            4
           ],
           "uitleg": "Uit \\(q\\,U=\\tfrac{1}{2}m\\,v^{2}\\) volgt \\(v\\). De lading \\(q\\) heb je ook nodig, maar \\(d\\) en \\(t\\) niet."
         },
@@ -1238,11 +1262,13 @@
             "ze hoort bij het punt, niet bij de lading",
             "ze staat in \\(\\text{V}\\)",
             "ze staat in \\(\\text{N/C}\\)",
-            "ze groeit mee met de proeflading \\(q\\)"
+            "ze groeit mee met de proeflading \\(q\\)",
+            "één volt is één joule per coulomb"
           ],
           "antwoord": [
             0,
-            1
+            1,
+            4
           ],
           "uitleg": "\\(\\text{N/C}\\) is de eenheid van \\(E\\). Zet je een dubbel zo grote lading in hetzelfde punt, dan verdubbelt \\(E_{p}=q\\,V\\) maar niet \\(V\\) zelf."
         },
@@ -1323,11 +1349,13 @@
             "\\(U=E\\cdot d\\)",
             "de equipotentiaallijnen zijn evenwijdige rechten",
             "\\(V\\) is overal tussen de platen even groot",
-            "\\(E\\) neemt af naarmate je verder van de plaat zit"
+            "\\(E\\) neemt af naarmate je verder van de plaat zit",
+            "\\(E\\) is overal tussen de platen even groot"
           ],
           "antwoord": [
             0,
-            1
+            1,
+            4
           ],
           "uitleg": "\\(E\\) is overal gelijk, maar \\(V\\) niet: die daalt gelijkmatig van de ene plaat naar de andere. Uit \\(U=E\\cdot d\\) volgt ook \\(E=\\dfrac{U}{d}\\), in \\(\\text{V/m}\\)."
         },
@@ -1449,11 +1477,13 @@
             "de schakelaar",
             "de voltmeter",
             "de kleur van de draad",
-            "de lengte van de kring"
+            "de lengte van de kring",
+            "de weerstand"
           ],
           "antwoord": [
             0,
-            1
+            1,
+            4
           ],
           "uitleg": "Ook de spanningsbron, de weerstand, de lamp en de ampèremeter hebben hun eigen symbool. Een schema toont de verbindingen, niet de afmetingen."
         },
@@ -1555,12 +1585,14 @@
             "\\(U=R\\,I\\)",
             "bij gelijke \\(U\\) geeft een grotere \\(R\\) een kleinere \\(I\\)",
             "ze geldt voor een \\(R\\) die niet verandert",
-            "\\(R\\) van een draad hangt af van de \\(U\\) die je aanlegt"
+            "\\(R\\) van een draad hangt af van de \\(U\\) die je aanlegt",
+            "een gloeilamp is geen ohmse weerstand"
           ],
           "antwoord": [
             0,
             1,
-            2
+            2,
+            4
           ],
           "uitleg": "\\(R\\) is een eigenschap van de draad zelf, niet van de bron. Een weerstand waarvoor \\(U=R\\,I\\) met een vaste \\(R\\) opgaat, heet een ohmse weerstand; een gloeilamp is dat bijvoorbeeld niet, want warm is haar \\(R\\) groter."
         },
@@ -1600,12 +1632,14 @@
             "over elke tak staat dezelfde spanning",
             "de stromen van de takken tellen samen tot de hoofdstroom",
             "door de kleinste weerstand loopt de grootste stroom",
-            "door elke tak loopt dezelfde stroom"
+            "door elke tak loopt dezelfde stroom",
+            "de vervangingsweerstand is kleiner dan de kleinste tak"
           ],
           "antwoord": [
             0,
             1,
-            2
+            2,
+            4
           ],
           "uitleg": "Dezelfde stroom door alles hoort bij een serieschakeling. Elke tak heeft hier zijn eigen weg naar de bron."
         },
@@ -1777,12 +1811,14 @@
             "door elke weerstand loopt dezelfde \\(I\\)",
             "\\(U=U_{1}+U_{2}+U_{3}\\)",
             "\\(R_{v}=R_{1}+R_{2}+R_{3}\\)",
-            "valt één weerstand weg, dan blijft de rest werken"
+            "valt één weerstand weg, dan blijft de rest werken",
+            "over de grootste weerstand staat de grootste spanning"
           ],
           "antwoord": [
             0,
             1,
-            2
+            2,
+            4
           ],
           "uitleg": "Valt er één weg, dan is de kring open en staat alles stil. Dat blijven werken hoort bij een parallelschakeling."
         },
@@ -2320,12 +2356,14 @@
             "de stroomsterkte door de draad",
             "de sterkte van het magnetisch veld",
             "de lengte van de draad in het veld",
-            "de eigen weerstand van de draad"
+            "de eigen weerstand van de draad",
+            "de hoek tussen de draad en de veldlijnen"
           ],
           "antwoord": [
             0,
             1,
-            2
+            2,
+            4
           ],
           "uitleg": "Ook de hoek met de veldlijnen telt mee: evenwijdig is de kracht nul. Keer je de stroom om, dan keert ook de zin van de kracht om."
         },
@@ -2535,12 +2573,14 @@
             "de massa van het deeltje",
             "de snelheid van het deeltje",
             "de sterkte van het magnetisch veld",
-            "de temperatuur van de omgeving"
+            "de temperatuur van de omgeving",
+            "de lading van het deeltje"
           ],
           "antwoord": [
             0,
             1,
-            2
+            2,
+            4
           ],
           "uitleg": "\\(r = \\dfrac{m\\,v}{q\\,B}\\): ook de lading zelf staat erin. Een sneller of zwaarder deeltje maakt een ruimere bocht, een sterker veld een krappere."
         },
@@ -2956,12 +2996,14 @@
             "een dynamo op een fiets",
             "een transformator in een laadblokje",
             "een inductiekookplaat",
-            "een gewone gloeilamp"
+            "een gewone gloeilamp",
+            "een microfoon met een spoel en een magneet"
           ],
           "antwoord": [
             0,
             1,
-            2
+            2,
+            4
           ],
           "uitleg": "Een gloeilamp werkt gewoon doordat een draad warm wordt. De juiste antwoorden hebben allemaal een veranderend magnetisch veld nodig."
         },
@@ -3103,12 +3145,14 @@
             "ze ontstaan in een massief stuk metaal in een veranderend veld",
             "ze werken de beweging die ze veroorzaakt tegen",
             "gleuven of dunne plaatjes maken ze veel kleiner",
-            "ze ontstaan even goed in een stuk hout of plastic"
+            "ze ontstaan even goed in een stuk hout of plastic",
+            "ze maken het metaal warm"
           ],
           "antwoord": [
             0,
             1,
-            2
+            2,
+            4
           ],
           "uitleg": "Er zijn vrije elektronen voor nodig, dus in een isolator ontstaan ze niet. Daarom valt de slinger van von Waltenhofen met gleuven veel vlotter."
         },
@@ -3420,12 +3464,14 @@
             "het is de kracht maal de krachtarm",
             "het staat in newtonmeter",
             "het is nul als de werklijn van de kracht door het draaipunt gaat",
-            "het is nul als de kracht loodrecht op de stang staat"
+            "het is nul als de kracht loodrecht op de stang staat",
+            "het hangt af van welk draaipunt je kiest"
           ],
           "antwoord": [
             0,
             1,
-            2
+            2,
+            4
           ],
           "uitleg": "Loodrecht is net de stand waarin het moment het grootst is. De krachtarm is de kortste afstand van het draaipunt tot de werklijn van de kracht."
         },
@@ -3593,12 +3639,14 @@
             "de som van alle krachten is nul",
             "de som van alle momenten is nul",
             "het zwaartepunt ligt boven het steunvlak",
-            "de snelheid van het lichaam moet nul zijn"
+            "de snelheid van het lichaam moet nul zijn",
+            "een lichaam met een constante snelheid is ook in evenwicht"
           ],
           "antwoord": [
             0,
             1,
-            2
+            2,
+            4
           ],
           "uitleg": "Een lichaam dat met een constante snelheid beweegt, is ook in evenwicht. Valt het zwaartepunt buiten het steunvlak, dan kantelt het."
         },
@@ -4188,12 +4236,14 @@
             "de helling is de snelheid \\(v\\)",
             "een horizontaal stuk betekent stilstand",
             "een dalend stuk betekent terugkeren",
-            "de oppervlakte eronder is \\(\\Delta x\\)"
+            "de oppervlakte eronder is \\(\\Delta x\\)",
+            "een rechte met een vaste helling betekent een constante snelheid"
           ],
           "antwoord": [
             0,
             1,
-            2
+            2,
+            4
           ],
           "uitleg": "De oppervlakte onder een \\(v(t)\\)-grafiek is de verplaatsing, niet die onder een \\(x(t)\\)-grafiek. Daar lees je \\(x\\) rechtstreeks op de verticale as af."
         },
@@ -4299,12 +4349,14 @@
             "\\(a\\) blijft dezelfde",
             "de \\(v(t)\\)-grafiek is een rechte",
             "de \\(x(t)\\)-grafiek is een parabool",
-            "\\(v\\) blijft dezelfde"
+            "\\(v\\) blijft dezelfde",
+            "de afgelegde weg groeit met het kwadraat van de tijd"
           ],
           "antwoord": [
             0,
             1,
-            2
+            2,
+            4
           ],
           "uitleg": "Een constante \\(v\\) hoort bij een ERB. Hier verandert \\(v\\) elke seconde met dezelfde hoeveelheid: \\(v = v_{0} + a\\,t\\)."
         },
@@ -4490,12 +4542,14 @@
             "\\(a\\) blijft de hele val even groot",
             "\\(v\\) groeit recht evenredig met \\(t\\)",
             "de hoogte groeit met \\(t^{2}\\)",
-            "een zwaarder voorwerp valt sneller"
+            "een zwaarder voorwerp valt sneller",
+            "een steen en een pluim vallen even snel"
           ],
           "antwoord": [
             0,
             1,
-            2
+            2,
+            4
           ],
           "uitleg": "Zonder luchtweerstand vallen een steen en een pluim even snel: in \\(v = g\\,t\\) en \\(h = \\tfrac{1}{2}g\\,t^{2}\\) staat geen massa."
         },
@@ -4945,12 +4999,14 @@
             "de valtijd hangt enkel van \\(h\\) af",
             "de dracht hangt van \\(v_{0}\\) af",
             "de dracht hangt ook van \\(h\\) af",
-            "de valtijd hangt van \\(v_{0}\\) af"
+            "de valtijd hangt van \\(v_{0}\\) af",
+            "bij een grotere \\(h\\) duurt de val langer"
           ],
           "antwoord": [
             0,
             1,
-            2
+            2,
+            4
           ],
           "uitleg": "\\(h\\) bepaalt hoe lang het voorwerp onderweg is, en in die tijd schuift het met \\(v_{0}\\) op: \\(x = v_{0}\\sqrt{\\dfrac{2h}{g}}\\). Daarom reken je altijd eerst de valtijd uit."
         },
@@ -5094,12 +5150,14 @@
             "ze wijst naar het midden van de cirkel",
             "ze is \\(a_{c} = \\dfrac{v^{2}}{r}\\)",
             "ze wordt vier keer zo groot bij dubbele \\(v\\)",
-            "ze is nul zolang \\(\\lvert v \\rvert\\) gelijk blijft"
+            "ze is nul zolang \\(\\lvert v \\rvert\\) gelijk blijft",
+            "ze staat loodrecht op de snelheid"
           ],
           "antwoord": [
             0,
             1,
-            2
+            2,
+            4
           ],
           "uitleg": "De richting van de snelheid verandert voortdurend, en dat is al een versnelling. Daarom is ze nooit nul bij een cirkelbeweging."
         },
@@ -5183,12 +5241,14 @@
             "de wrijving van de wielen van een auto in een bocht",
             "de spanning in een touw waaraan je een steen rondslingert",
             "de gravitatiekracht op een satelliet rond de aarde",
-            "de luchtweerstand op een auto die rechtdoor rijdt"
+            "de luchtweerstand op een auto die rechtdoor rijdt",
+            "de zijwaartse duwkracht van de rails op een trein in een bocht"
           ],
           "antwoord": [
             0,
             1,
-            2
+            2,
+            4
           ],
           "uitleg": "Middelpuntzoekend is geen nieuwe soort kracht maar een rol. De luchtweerstand werkt tegen de beweging in en niet naar een middelpunt."
         }
@@ -5243,12 +5303,14 @@
             "de kracht is recht evenredig met het product van de twee massa's",
             "de kracht is omgekeerd evenredig met het kwadraat van de afstand",
             "de kracht werkt tussen alle massa's, hoe klein ook",
-            "de kracht werkt enkel tussen hemellichamen"
+            "de kracht werkt enkel tussen hemellichamen",
+            "ze werkt ook tussen twee mensen in een kamer"
           ],
           "antwoord": [
             0,
             1,
-            2
+            2,
+            4
           ],
           "uitleg": "Tussen twee mensen in een kamer werkt ze ook, maar ze is daar veel te klein om te voelen. De constante G is namelijk bijzonder klein."
         },
@@ -5404,12 +5466,14 @@
             "de gravitatiekracht speelt de rol van middelpuntzoekende kracht",
             "verder van de aarde hoort bij een kleinere baansnelheid",
             "de massa van de satelliet valt uit de formule van de baansnelheid weg",
-            "de satelliet zweeft omdat er daar geen gravitatie meer werkt"
+            "de satelliet zweeft omdat er daar geen gravitatie meer werkt",
+            "hij zit samen met alles erin in een vrije val"
           ],
           "antwoord": [
             0,
             1,
-            2
+            2,
+            4
           ],
           "uitleg": "De gravitatie is er juist nodig om de satelliet in zijn baan te houden. Hij zweeft omdat hij samen met het station in een vrije val zit."
         },
@@ -5477,12 +5541,14 @@
             "als er geen verplaatsing is",
             "als de kracht loodrecht op de verplaatsing staat",
             "als de kracht zelf nul is",
-            "als de verplaatsing tegen de kracht in gaat"
+            "als de verplaatsing tegen de kracht in gaat",
+            "als de zwaartekracht werkt terwijl je horizontaal schuift"
           ],
           "antwoord": [
             0,
             1,
-            2
+            2,
+            4
           ],
           "uitleg": "Gaat de verplaatsing tegen de kracht in, dan is \\(\\cos 180^\\circ = -1\\) en is \\(W\\) negatief, dus niet nul. De zwaartekracht verricht geen arbeid als je horizontaal schuift, want dan is \\(\\alpha = 90^\\circ\\)."
         },
@@ -5617,12 +5683,14 @@
             "arbeid wordt uitgedrukt in joule",
             "arbeid is negatief als de kracht tegen de verplaatsing in werkt",
             "bij een veranderlijke \\(F\\) reken je \\(\\int F\\,\\mathrm{d}x\\)",
-            "arbeid is een vector en heeft dus een richting"
+            "arbeid is een vector en heeft dus een richting",
+            "arbeid kan nul zijn terwijl er wel een kracht werkt"
           ],
           "antwoord": [
             0,
             1,
-            2
+            2,
+            4
           ],
           "uitleg": "Arbeid is een getal met een teken en geen vector. Dat teken zegt of de kracht energie toevoegt of wegneemt."
         },
@@ -5692,12 +5760,14 @@
             "\\(E_{k} = \\tfrac{1}{2}m\\,v^{2}\\)",
             "\\(E_{p} = m\\,g\\,h\\)",
             "dubbele \\(v\\) geeft vier keer zoveel \\(E_{k}\\)",
-            "\\(E_{p}\\) hangt ook van \\(v\\) af"
+            "\\(E_{p}\\) hangt ook van \\(v\\) af",
+            "dubbele hoogte geeft dubbel zoveel potentiële energie"
           ],
           "antwoord": [
             0,
             1,
-            2
+            2,
+            4
           ],
           "uitleg": "Potentiële energie hangt alleen van de hoogte en de massa af. De snelheid zit volledig in de kinetische energie."
         },
@@ -5778,12 +5848,14 @@
             "\\(P = \\dfrac{W}{t}\\)",
             "het staat in watt",
             "\\(1\\ \\text{W} = 1\\ \\text{J/s}\\)",
-            "het staat in joule"
+            "het staat in joule",
+            "twee motoren met dezelfde arbeid kunnen een ander vermogen hebben"
           ],
           "antwoord": [
             0,
             1,
-            2
+            2,
+            4
           ],
           "uitleg": "Joule is de eenheid van arbeid en energie, niet van vermogen. Twee motoren kunnen dezelfde arbeid leveren en toch een ander vermogen hebben."
         },
@@ -6020,12 +6092,14 @@
             "het product \\(p\\,V\\) blijft gelijk",
             "de \\(p(V)\\)-grafiek is een hyperbool",
             "de temperatuur verandert tijdens het proces niet",
-            "het volume is recht evenredig met de druk"
+            "het volume is recht evenredig met de druk",
+            "bij dubbele druk is het volume gehalveerd"
           ],
           "antwoord": [
             0,
             1,
-            2
+            2,
+            4
           ],
           "uitleg": "Het volume is net omgekeerd evenredig met de druk. Recht evenredig met de temperatuur is het wel, maar dan bij constante druk."
         },
@@ -6057,12 +6131,14 @@
             "bij constante druk is de \\(V(T)\\)-grafiek een rechte door de oorsprong",
             "bij constant volume is de \\(p(T)\\)-grafiek een rechte door de oorsprong",
             "bij constante temperatuur daalt de \\(p(V)\\)-grafiek als een kromme",
-            "bij constante druk is de \\(V(T)\\)-grafiek een dalende kromme"
+            "bij constante druk is de \\(V(T)\\)-grafiek een dalende kromme",
+            "de twee rechten door de oorsprong gelden enkel met \\(T\\) in kelvin"
           ],
           "antwoord": [
             0,
             1,
-            2
+            2,
+            4
           ],
           "uitleg": "De twee rechten door de oorsprong gelden alleen met \\(T\\) in kelvin. In graden celsius snijden ze de as pas bij \\(-273\\)."
         },
@@ -6172,12 +6248,14 @@
             "ze geldt ook voor een mengsel van gassen zoals lucht",
             "de stofhoeveelheid \\(n\\) staat erin in mol",
             "de constante \\(R\\) is voor elk gas dezelfde",
-            "de temperatuur mag je erin in graden celsius invullen"
+            "de temperatuur mag je erin in graden celsius invullen",
+            "bij lage druk komen echte gassen er dicht bij"
           ],
           "antwoord": [
             0,
             1,
-            2
+            2,
+            4
           ],
           "uitleg": "De temperatuur moet in kelvin, want de wet geldt voor de absolute temperatuur. Een ideaal gas met deeltjes zonder eigen volume bestaat niet echt, maar bij lage druk komen echte gassen er dicht bij."
         },
@@ -6303,12 +6381,14 @@
             "de druk in pascal",
             "het volume in kubieke meter",
             "de temperatuur in kelvin",
-            "de stofhoeveelheid in gram"
+            "de stofhoeveelheid in gram",
+            "de stofhoeveelheid in mol"
           ],
           "antwoord": [
             0,
             1,
-            2
+            2,
+            4
           ],
           "uitleg": "De stofhoeveelheid staat in mol en niet in gram. Vergeet je een van die omzettingen, dan zit je er meteen een factor duizend naast."
         },
@@ -6691,12 +6771,14 @@
             "het hangt af van de druk boven de vloeistof",
             "bij lagere druk ligt het kookpunt lager",
             "het is voor elke vloeistof \\(100\\ ^\\circ\\text{C}\\)",
-            "het is altijd hoger dan het smeltpunt van de stof"
+            "het is altijd hoger dan het smeltpunt van de stof",
+            "in een snelkookpan kookt water boven \\(100\\ ^\\circ\\text{C}\\)"
           ],
           "antwoord": [
             0,
             1,
-            3
+            3,
+            4
           ],
           "uitleg": "\\(100\\ ^\\circ\\text{C}\\) is het kookpunt van water bij normale druk, niet van elke vloeistof. Hoog in de bergen kookt water bij een lagere temperatuur."
         },
@@ -6902,12 +6984,14 @@
             "de amplitude van de trilling",
             "de pulsatie van de trilling",
             "de beginfase van de trilling",
-            "de massa van het trillende lichaam"
+            "de massa van het trillende lichaam",
+            "de periode, want die volgt uit de pulsatie"
           ],
           "antwoord": [
             0,
             1,
-            2
+            2,
+            4
           ],
           "uitleg": "De massa staat er niet in, al bepaalt ze bij een veer wel \\(\\omega\\). Uit \\(\\omega\\) volgen \\(T\\) en \\(f\\)."
         },
@@ -6993,12 +7077,14 @@
             "de amplitude",
             "de periode of de frequentie",
             "de beginfase",
-            "de massa van het lichaam"
+            "de massa van het lichaam",
+            "of anders de pulsatie zelf"
           ],
           "antwoord": [
             0,
             1,
-            2
+            2,
+            4
           ],
           "uitleg": "Uit de periode volgt de pulsatie, dus volstaat een van die twee. De massa hoeft niet in de vergelijking te staan."
         },
@@ -7214,12 +7300,14 @@
             "een schommel die je op het juiste ritme steeds hoger duwt",
             "een glas dat breekt bij een zuivere toon van de juiste hoogte",
             "een brug die door marcherende stappen hevig begint te trillen",
-            "een slinger die na een tijd van zelf tot stilstand komt"
+            "een slinger die na een tijd van zelf tot stilstand komt",
+            "een radio die enkel de zender oppikt waarop je hem afstemt"
           ],
           "antwoord": [
             0,
             1,
-            2
+            2,
+            4
           ],
           "uitleg": "De laatste is demping, het omgekeerde verhaal. Soldaten mogen daarom op een brug niet in de maat stappen."
         },

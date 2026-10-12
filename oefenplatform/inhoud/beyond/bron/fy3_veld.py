@@ -88,8 +88,9 @@ DEEL1 = [
             "ongelijksoortige ladingen trekken elkaar aan",
             "gelijksoortige ladingen trekken elkaar aan",
             "de kracht hangt niet af van de grootte van de ladingen",
+            "de kracht wordt kleiner als de afstand groter wordt",
         ],
-        antwoord=[0, 1],
+        antwoord=[0, 1, 4],
         uitleg="Het teken van de ladingen bepaalt de zin van de kracht, hun grootte bepaalt "
         "hoe sterk ze is.",
     ),
@@ -143,8 +144,9 @@ DEEL1 = [
             r"de afstand \(r\) ertussen",
             r"de massa \(m\) van de twee voorwerpen",
             r"de temperatuur \(T\) van de twee voorwerpen",
+            r"de constante \(k\)",
         ],
-        antwoord=[0, 1],
+        antwoord=[0, 1, 4],
         uitleg=r"Massa en temperatuur komen in \(F=k\,\dfrac{|q_{1}q_{2}|}{r^{2}}\) niet voor. "
         r"Wel staat er een constante \(k\) in, en die hangt af van de stof ertussen.",
     ),
@@ -226,8 +228,9 @@ DEEL1 = [
             "ze staat in de bijlage die je op het examen krijgt",
             "ze is voor elke stof precies even groot",
             "ze wordt kleiner naarmate de ladingen groter zijn",
+            "in water ligt ze veel lager dan in lucht",
         ],
-        antwoord=[0, 1],
+        antwoord=[0, 1, 4],
         uitleg=r"In lucht is \(k\approx 8{,}99\cdot 10^{9}\ \text{N}\,\text{m}^{2}\text{/C}^{2}\). "
         r"In water ligt ze tientallen keren lager, en daarom werken ionen in water veel "
         r"minder hard op elkaar in.",
@@ -291,8 +294,9 @@ DEEL2 = [
             "de veldlijnen zijn recht en lopen parallel",
             "ze lopen van de positieve naar de negatieve plaat",
             "het veld is in het midden het sterkst",
+            "aan de randen van de platen wijken de lijnen af",
         ],
-        antwoord=[0, 1, 2],
+        antwoord=[0, 1, 2, 4],
         uitleg="Zo'n veld heet homogeen, en dat betekent net overal even sterk. Alleen aan de "
         "randen van de platen wijken de lijnen af.",
     ),
@@ -345,8 +349,9 @@ DEEL2 = [
             r"\(E\) hangt niet af van de proeflading die je erin zet",
             r"\(E\) is overal rond de lading even groot",
             r"\(\vec{E}\) wijst altijd naar de lading toe, wat haar teken ook is",
+            r"op dubbele afstand is \(E\) vier keer kleiner",
         ],
-        antwoord=[0, 1],
+        antwoord=[0, 1, 4],
         uitleg="De veldsterkte is een eigenschap van het punt zelf. Daarom staat er in haar "
         "formule enkel de lading die het veld maakt, en niet de lading die je erin brengt.",
     ),
@@ -445,8 +450,9 @@ DEEL2 = [
             "ze snijden elkaar nooit",
             "hoe dichter ze bij elkaar liggen, hoe sterker het veld",
             "ze lopen binnen een holle geleider van wand tot wand",
+            "ze staan loodrecht op het oppervlak van een geleider",
         ],
-        antwoord=[0, 1, 2],
+        antwoord=[0, 1, 2, 4],
         uitleg="Binnen een holle geleider is het veld nul, dus lopen er geen lijnen. Dat is "
         "het gevolg van de kooi van Faraday.",
     ),

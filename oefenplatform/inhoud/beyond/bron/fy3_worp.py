@@ -457,8 +457,9 @@ DEEL2 = [
             r"de dracht hangt van \(v_{0}\) af",
             r"de dracht hangt ook van \(h\) af",
             r"de valtijd hangt van \(v_{0}\) af",
+            r"bij een grotere \(h\) duurt de val langer",
         ],
-        antwoord=[0, 1, 2],
+        antwoord=[0, 1, 2, 4],
         uitleg=r"\(h\) bepaalt hoe lang het voorwerp onderweg is, en in die tijd schuift het "
         r"met \(v_{0}\) op: \(x = v_{0}\sqrt{\dfrac{2h}{g}}\). Daarom reken je altijd eerst "
         r"de valtijd uit.",

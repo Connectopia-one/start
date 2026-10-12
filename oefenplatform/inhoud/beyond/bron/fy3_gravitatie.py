@@ -144,8 +144,9 @@ DEEL1 = [
             r"ze is \(a_{c} = \dfrac{v^{2}}{r}\)",
             r"ze wordt vier keer zo groot bij dubbele \(v\)",
             r"ze is nul zolang \(\lvert v \rvert\) gelijk blijft",
+            "ze staat loodrecht op de snelheid",
         ],
-        antwoord=[0, 1, 2],
+        antwoord=[0, 1, 2, 4],
         uitleg="De richting van de snelheid verandert voortdurend, en dat is al een "
         "versnelling. Daarom is ze nooit nul bij een cirkelbeweging.",
     ),
@@ -231,8 +232,9 @@ DEEL1 = [
             "de spanning in een touw waaraan je een steen rondslingert",
             "de gravitatiekracht op een satelliet rond de aarde",
             "de luchtweerstand op een auto die rechtdoor rijdt",
+            "de zijwaartse duwkracht van de rails op een trein in een bocht",
         ],
-        antwoord=[0, 1, 2],
+        antwoord=[0, 1, 2, 4],
         uitleg="Middelpuntzoekend is geen nieuwe soort kracht maar een rol. De luchtweerstand "
         "werkt tegen de beweging in en niet naar een middelpunt.",
     ),
@@ -282,8 +284,9 @@ DEEL2 = [
             "de kracht is omgekeerd evenredig met het kwadraat van de afstand",
             "de kracht werkt tussen alle massa's, hoe klein ook",
             "de kracht werkt enkel tussen hemellichamen",
+            "ze werkt ook tussen twee mensen in een kamer",
         ],
-        antwoord=[0, 1, 2],
+        antwoord=[0, 1, 2, 4],
         uitleg="Tussen twee mensen in een kamer werkt ze ook, maar ze is daar veel te klein "
         "om te voelen. De constante G is namelijk bijzonder klein.",
     ),
@@ -449,8 +452,9 @@ DEEL2 = [
             "verder van de aarde hoort bij een kleinere baansnelheid",
             "de massa van de satelliet valt uit de formule van de baansnelheid weg",
             "de satelliet zweeft omdat er daar geen gravitatie meer werkt",
+            "hij zit samen met alles erin in een vrije val",
         ],
-        antwoord=[0, 1, 2],
+        antwoord=[0, 1, 2, 4],
         uitleg="De gravitatie is er juist nodig om de satelliet in zijn baan te houden. Hij "
         "zweeft omdat hij samen met het station in een vrije val zit.",
     ),

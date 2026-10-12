@@ -265,8 +265,9 @@ DEEL2 = [
             "een transformator in een laadblokje",
             "een inductiekookplaat",
             "een gewone gloeilamp",
+            "een microfoon met een spoel en een magneet",
         ],
-        antwoord=[0, 1, 2],
+        antwoord=[0, 1, 2, 4],
         uitleg="Een gloeilamp werkt gewoon doordat een draad warm wordt. De juiste "
         "antwoorden hebben allemaal een veranderend magnetisch veld nodig.",
     ),
@@ -415,8 +416,9 @@ DEEL2 = [
             "ze werken de beweging die ze veroorzaakt tegen",
             "gleuven of dunne plaatjes maken ze veel kleiner",
             "ze ontstaan even goed in een stuk hout of plastic",
+            "ze maken het metaal warm",
         ],
-        antwoord=[0, 1, 2],
+        antwoord=[0, 1, 2, 4],
         uitleg="Er zijn vrije elektronen voor nodig, dus in een isolator ontstaan ze niet. "
         "Daarom valt de slinger van von Waltenhofen met gleuven veel vlotter.",
     ),

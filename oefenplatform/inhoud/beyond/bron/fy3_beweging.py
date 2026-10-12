@@ -146,8 +146,9 @@ DEEL1 = [
             "een horizontaal stuk betekent stilstand",
             "een dalend stuk betekent terugkeren",
             r"de oppervlakte eronder is \(\Delta x\)",
+            "een rechte met een vaste helling betekent een constante snelheid",
         ],
-        antwoord=[0, 1, 2],
+        antwoord=[0, 1, 2, 4],
         uitleg=r"De oppervlakte onder een \(v(t)\)-grafiek is de verplaatsing, niet die onder "
         r"een \(x(t)\)-grafiek. Daar lees je \(x\) rechtstreeks op de verticale as af.",
     ),
@@ -248,8 +249,9 @@ DEEL2 = [
             r"de \(v(t)\)-grafiek is een rechte",
             r"de \(x(t)\)-grafiek is een parabool",
             r"\(v\) blijft dezelfde",
+            "de afgelegde weg groeit met het kwadraat van de tijd",
         ],
-        antwoord=[0, 1, 2],
+        antwoord=[0, 1, 2, 4],
         uitleg=r"Een constante \(v\) hoort bij een ERB. Hier verandert \(v\) elke seconde "
         r"met dezelfde hoeveelheid: \(v = v_{0} + a\,t\).",
     ),
@@ -446,8 +448,9 @@ DEEL2 = [
             r"\(v\) groeit recht evenredig met \(t\)",
             r"de hoogte groeit met \(t^{2}\)",
             "een zwaarder voorwerp valt sneller",
+            "een steen en een pluim vallen even snel",
         ],
-        antwoord=[0, 1, 2],
+        antwoord=[0, 1, 2, 4],
         uitleg=r"Zonder luchtweerstand vallen een steen en een pluim even snel: in \(v = g\,t\) "
         r"en \(h = \tfrac{1}{2}g\,t^{2}\) staat geen massa.",
     ),

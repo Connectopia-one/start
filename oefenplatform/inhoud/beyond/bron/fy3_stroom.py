@@ -112,8 +112,9 @@ DEEL1 = [
             "de voltmeter",
             "de kleur van de draad",
             "de lengte van de kring",
+            "de weerstand",
         ],
-        antwoord=[0, 1],
+        antwoord=[0, 1, 4],
         uitleg="Ook de spanningsbron, de weerstand, de lamp en de ampèremeter hebben hun "
         "eigen symbool. Een schema toont de verbindingen, niet de afmetingen.",
     ),
@@ -218,8 +219,9 @@ DEEL1 = [
             r"bij gelijke \(U\) geeft een grotere \(R\) een kleinere \(I\)",
             r"ze geldt voor een \(R\) die niet verandert",
             r"\(R\) van een draad hangt af van de \(U\) die je aanlegt",
+            "een gloeilamp is geen ohmse weerstand",
         ],
-        antwoord=[0, 1, 2],
+        antwoord=[0, 1, 2, 4],
         uitleg=r"\(R\) is een eigenschap van de draad zelf, niet van de bron. Een weerstand "
         r"waarvoor \(U=R\,I\) met een vaste \(R\) opgaat, heet een ohmse weerstand; een "
         r"gloeilamp is dat bijvoorbeeld niet, want warm is haar \(R\) groter.",
@@ -255,8 +257,9 @@ DEEL2 = [
             "de stromen van de takken tellen samen tot de hoofdstroom",
             "door de kleinste weerstand loopt de grootste stroom",
             "door elke tak loopt dezelfde stroom",
+            "de vervangingsweerstand is kleiner dan de kleinste tak",
         ],
-        antwoord=[0, 1, 2],
+        antwoord=[0, 1, 2, 4],
         uitleg="Dezelfde stroom door alles hoort bij een serieschakeling. Elke tak heeft hier "
         "zijn eigen weg naar de bron.",
     ),
@@ -442,8 +445,9 @@ DEEL2 = [
             r"\(U=U_{1}+U_{2}+U_{3}\)",
             r"\(R_{v}=R_{1}+R_{2}+R_{3}\)",
             "valt één weerstand weg, dan blijft de rest werken",
+            "over de grootste weerstand staat de grootste spanning",
         ],
-        antwoord=[0, 1, 2],
+        antwoord=[0, 1, 2, 4],
         uitleg="Valt er één weg, dan is de kring open en staat alles stil. Dat blijven "
         "werken hoort bij een parallelschakeling.",
     ),

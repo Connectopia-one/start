@@ -273,8 +273,9 @@ DEEL2 = [
             "het staat in newtonmeter",
             "het is nul als de werklijn van de kracht door het draaipunt gaat",
             "het is nul als de kracht loodrecht op de stang staat",
+            "het hangt af van welk draaipunt je kiest",
         ],
-        antwoord=[0, 1, 2],
+        antwoord=[0, 1, 2, 4],
         uitleg="Loodrecht is net de stand waarin het moment het grootst is. De krachtarm is "
         "de kortste afstand van het draaipunt tot de werklijn van de kracht.",
     ),
@@ -455,8 +456,9 @@ DEEL2 = [
             "de som van alle momenten is nul",
             "het zwaartepunt ligt boven het steunvlak",
             "de snelheid van het lichaam moet nul zijn",
+            "een lichaam met een constante snelheid is ook in evenwicht",
         ],
-        antwoord=[0, 1, 2],
+        antwoord=[0, 1, 2, 4],
         uitleg="Een lichaam dat met een constante snelheid beweegt, is ook in evenwicht. "
         "Valt het zwaartepunt buiten het steunvlak, dan kantelt het.",
     ),
