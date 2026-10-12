@@ -23,7 +23,7 @@ import type { Veld } from "@/content/formulier";
 
 export const meetesten = {
   /* Staat het formulier open? */
-  open: true,
+  open: false,
 
   label: "Meetesten",
   titel: "Test ons oefenplatform mee",

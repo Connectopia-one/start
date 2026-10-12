@@ -146,9 +146,14 @@ export const onderdelen: Onderdeel[] = [
       "Interactieve oefeningen per categorie, met voortgang per kind. Je kiest wat past bij wat je kind al kan.",
     groep: "platform",
     kleur: "orange",
-    label: "Inloggen",
+    label: "Gratis proberen",
     inMenu: false,
-    extern: "https://oefenplatform.connectopia.one",
+    /*
+      Geen extern adres meer sinds 12 oktober 2026. De tegel ging vroeger
+      rechtstreeks naar oefenplatform.connectopia.one, dus wie nog geen lid was
+      kwam meteen op een inlogscherm terecht. Nu gaat ze naar /oefenplatform,
+      waar de uitleg, de prijs en de twee knoppen staan.
+    */
   },
   {
     slug: "/blog",
