@@ -89,15 +89,14 @@
           "opties": [
             "chronologie",
             "gelijktijdigheid",
-            "tijdrekening",
+            "urbaan",
             "ruraal"
           ],
           "antwoord": [
             0,
-            1,
-            2
+            1
           ],
-          "uitleg": "Ruraal hoort bij de ruimte: het betekent op het platteland. De drie andere ordenen gebeurtenissen in de tijd."
+          "uitleg": "Ruraal en urbaan horen bij de ruimte: op het platteland en in de stad. Chronologie en gelijktijdigheid ordenen gebeurtenissen in de tijd."
         },
         {
           "type": "waarofniet",
@@ -174,14 +173,16 @@
             "het politieke domein",
             "het culturele domein",
             "het economische domein",
-            "geen enkel domein"
+            "geen enkel domein",
+            "het sociale domein"
           ],
           "antwoord": [
             0,
             1,
-            2
+            2,
+            4
           ],
-          "uitleg": "Zo'n affiche is politiek (de leider en de partij), cultureel (het is een kunstuiting met een beeldtaal) en vaak economisch (de vijfjarenplannen en de oogst)."
+          "uitleg": "Zo'n affiche is politiek (de leider en de partij), cultureel (het is een kunstuiting met een beeldtaal), economisch (de vijfjarenplannen en de oogst) en sociaal (de arbeider en de boerin die erop staan)."
         },
         {
           "type": "waarofniet",
@@ -241,15 +242,14 @@
           "opties": [
             "de Franse Revolutie",
             "het einde van de Tweede Wereldoorlog",
-            "het Congres van Wenen",
+            "de val van Constantinopel",
             "de val van Rome"
           ],
           "antwoord": [
             0,
-            1,
-            2
+            1
           ],
-          "uitleg": "De val van Rome scharniert tussen de klassieke oudheid en de middeleeuwen, dus veel vroeger."
+          "uitleg": "De val van Rome scharniert tussen de klassieke oudheid en de middeleeuwen, en de val van Constantinopel tussen de middeleeuwen en de nieuwe tijd. Allebei dus veel vroeger."
         },
         {
           "type": "meerkeuze",
@@ -275,15 +275,14 @@
           "opties": [
             "met een selectie van kenmerken en gebeurtenissen",
             "met een symbolische begin- en einddatum",
-            "achteraf, als constructie",
+            "met een beslissing van de overheid",
             "met een stemming onder historici"
           ],
           "antwoord": [
             0,
-            1,
-            2
+            1
           ],
-          "uitleg": "Die drie principes staan samen in de leerstof. Een stemming bestaat niet: een indeling groeit uit gewoonte en discussie."
+          "uitleg": "Een selectie van kenmerken en een symbolische datum, achteraf samengesteld: zo groeit een periodisering. Een stemming of een beslissing van de overheid bestaat niet."
         },
         {
           "type": "waarofniet",
@@ -310,12 +309,14 @@
             "een etnocentrische blik",
             "een ruimtelijk beperkte blik",
             "een gebrek aan meerdere perspectieven",
-            "een foute chronologie"
+            "een foute chronologie",
+            "een morele maatstaf van vandaag"
           ],
           "antwoord": [
             0,
             1,
-            2
+            2,
+            4
           ],
           "uitleg": "De chronologie klopt gewoon; het probleem zit in wat je ermee ziet en niet ziet. Een morele maatstaf is een vierde gevolg."
         },
@@ -423,15 +424,14 @@
           "opties": [
             "het ordent in tijd, ruimte en maatschappelijke domeinen",
             "het gebruikt scharnierpunten tussen de periodes",
-            "het is een hulpmiddel, geen natuurwet",
+            "het staat in elk land in dezelfde vorm in de leerplannen",
             "het geldt wereldwijd op dezelfde manier"
           ],
           "antwoord": [
             0,
-            1,
-            2
+            1
           ],
-          "uitleg": "De laatste klopt net niet: andere samenlevingen hanteren een andere indeling, en dat is de hele reden waarom je de beperkingen moet kennen."
+          "uitleg": "De laatste twee kloppen net niet: andere samenlevingen hanteren een andere indeling, en dat is de hele reden waarom je de beperkingen van het kader moet kennen."
         },
         {
           "type": "waarofniet",
@@ -465,14 +465,16 @@
             "de vorstenhuizen van voor 1789 herstellen",
             "een evenwicht tussen de grote mogendheden scheppen",
             "Frankrijk door bufferstaten laten omringen",
-            "de grondwetten van de republieken bevestigen"
+            "de grondwetten van de republieken bevestigen",
+            "de kaart van Europa hertekenen onder de grote mogendheden"
           ],
           "antwoord": [
             0,
             1,
-            2
+            2,
+            4
           ],
-          "uitleg": "Restauratie, machtsevenwicht en een gordel rond Frankrijk. Grondwetten en republieken waren net wat men kwijt wilde."
+          "uitleg": "Restauratie, machtsevenwicht, een gordel rond Frankrijk en een nieuwe kaart die de grote mogendheden onder elkaar afspraken. Grondwetten en republieken waren net wat men kwijt wilde."
         },
         {
           "type": "invultekst",
@@ -518,15 +520,14 @@
           "opties": [
             "liberale en nationale bewegingen werden onderdrukt",
             "de grote mogendheden vochten decennialang geen grote oorlog meer uit",
-            "er volgden revolutiegolven in 1830 en in 1848",
+            "de nationale staten Duitsland en Italië werden meteen erkend",
             "de koloniën in Afrika werden onder Europa verdeeld"
           ],
           "antwoord": [
             0,
-            1,
-            2
+            1
           ],
-          "uitleg": "De verdeling van Afrika gebeurde pas zeventig jaar later, op de Conferentie van Berlijn. De drie andere volgen rechtstreeks uit Wenen."
+          "uitleg": "De verdeling van Afrika gebeurde pas zeventig jaar later, op de Conferentie van Berlijn, en Duitsland en Italië werden pas na 1860 één staat. De onderdrukking van liberalen en de lange vrede tussen de mogendheden volgen wel rechtstreeks uit Wenen."
         },
         {
           "type": "waarofniet",
@@ -541,12 +542,14 @@
             "een grondwet die de macht van de vorst beperkt",
             "vrijheid van drukpers, vereniging en godsdienst",
             "zo weinig mogelijk staatsbemoeienis met de economie",
-            "stemrecht voor alle volwassen mannen"
+            "stemrecht voor alle volwassen mannen",
+            "een scheiding van kerk en staat"
           ],
           "antwoord": [
             0,
             1,
-            2
+            2,
+            4
           ],
           "uitleg": "Algemeen stemrecht hoorde daar net niet bij: de liberalen van toen wilden cijnskiesrecht, waarbij enkel wie genoeg belasting betaalde mocht stemmen."
         },
@@ -601,15 +604,14 @@
           "opties": [
             "de Belgische afscheiding van Nederland",
             "de Griekse opstand tegen het Ottomaanse Rijk",
-            "de Poolse opstand tegen Rusland",
+            "de eenmaking van Duitsland",
             "de eenmaking van Italië"
           ],
           "antwoord": [
             0,
-            1,
-            2
+            1
           ],
-          "uitleg": "Ontbindend nationalisme breekt een groter geheel open. De eenmaking van Italië doet net het omgekeerde."
+          "uitleg": "Ontbindend nationalisme breekt een groter geheel open. De eenmaking van Italië en die van Duitsland doen net het omgekeerde."
         },
         {
           "type": "waarofniet",
@@ -693,12 +695,14 @@
             "het Nederlands werd opgelegd als bestuurstaal",
             "de koning bemoeide zich met de opleiding van priesters",
             "het Zuiden had te weinig zetels voor zijn inwonertal",
-            "de koning weigerde elke vorm van nijverheid te steunen"
+            "de koning weigerde elke vorm van nijverheid te steunen",
+            "er was geen vrijheid van drukpers"
           ],
           "antwoord": [
             0,
             1,
-            2
+            2,
+            4
           ],
           "uitleg": "Willem I steunde de nijverheid in het Zuiden net wél, met wegen, kanalen en kredieten. De drie andere grieven waren echt."
         },
@@ -740,15 +744,14 @@
           "opties": [
             "een Voorlopig Bewind nam het bestuur over",
             "de onafhankelijkheid werd uitgeroepen op 4 oktober",
-            "een Nationaal Congres schreef een grondwet",
+            "Leopold I werd meteen in september koning",
             "het Zuiden vroeg aan Frankrijk om aansluiting"
           ],
           "antwoord": [
             0,
-            1,
-            2
+            1
           ],
-          "uitleg": "Aansluiting bij Frankrijk kwam er net niet: de grote mogendheden zouden dat nooit aanvaard hebben, en dat wisten de opstandelingen."
+          "uitleg": "Aansluiting bij Frankrijk kwam er net niet, en Leopold I legde pas in juli 1831 de eed af. Het Voorlopig Bewind en de onafhankelijkheid van 4 oktober klopten wel."
         },
         {
           "type": "invultekst",
@@ -795,12 +798,14 @@
             "vrijheid van drukpers",
             "vrijheid van vereniging",
             "vrijheid van onderwijs",
-            "vrijheid van beroep voor kinderen"
+            "vrijheid van beroep voor kinderen",
+            "vrijheid van godsdienst"
           ],
           "antwoord": [
             0,
             1,
-            2
+            2,
+            4
           ],
           "uitleg": "Kinderarbeid werd pas tegen het einde van de eeuw aan banden gelegd. De drie andere vrijheden stonden er van bij het begin in."
         },
@@ -866,15 +871,14 @@
           "opties": [
             "met een reeks oorlogen tegen buurlanden",
             "met een douane-unie die de staten economisch bond",
-            "met handige diplomatie tussen de mogendheden",
+            "met een opstand van de arbeiders",
             "met een volksstemming in alle Duitse staten"
           ],
           "antwoord": [
             0,
-            1,
-            2
+            1
           ],
-          "uitleg": "Denemarken, Oostenrijk en Frankrijk na elkaar, met de Zollverein als onderbouw en veel diplomatiek voorbereidend werk. Een volksstemming kwam er niet aan te pas."
+          "uitleg": "Denemarken, Oostenrijk en Frankrijk na elkaar, met de Zollverein als onderbouw en veel diplomatiek voorbereidend werk. Een volksstemming of een arbeidersopstand kwam er niet aan te pas."
         },
         {
           "type": "meerkeuze",
@@ -920,12 +924,14 @@
             "elektriciteit als nieuwe krachtbron",
             "aardolie en de verbrandingsmotor",
             "staal en de scheikundige nijverheid",
-            "de eerste stoommachines in de mijnen"
+            "de eerste stoommachines in de mijnen",
+            "kunstmest en kleurstoffen uit de chemie"
           ],
           "antwoord": [
             0,
             1,
-            2
+            2,
+            4
           ],
           "uitleg": "De stoommachine hoort bij de eerste golf. De tweede draait rond elektriciteit, olie, staal en chemie, vanaf ongeveer 1870."
         },
@@ -978,16 +984,15 @@
           "vraag": "Welke vernieuwingen in transport en communicatie horen bij de industriële revoluties?",
           "opties": [
             "de spoorweg met stoomlocomotieven",
-            "het stoomschip op de grote vaarroutes",
+            "de radio voor dagelijkse berichten",
             "de telegraaf en later de telefoon",
             "het vliegtuig voor vrachtvervoer"
           ],
           "antwoord": [
             0,
-            1,
             2
           ],
-          "uitleg": "Vrachtvliegtuigen kwamen er pas ver in de 20ste eeuw. Spoor, stoomschip en telegraaf maakten de wereld in de 19de eeuw al veel kleiner."
+          "uitleg": "Vrachtvliegtuigen en radio kwamen er pas ver in de 20ste eeuw. Spoor, stoomschip en telegraaf maakten de wereld in de 19de eeuw al veel kleiner."
         },
         {
           "type": "meerkeuze",
@@ -1034,12 +1039,14 @@
             "steenkool in de bodem van Henegouwen en Luik",
             "kapitaal van banken die durfden investeren",
             "vaklui met ervaring in textiel en metaal",
-            "een groot leger dat de fabrieken bewaakte"
+            "een groot leger dat de fabrieken bewaakte",
+            "havens en kanalen om grondstoffen aan te voeren"
           ],
           "antwoord": [
             0,
             1,
-            2
+            2,
+            4
           ],
           "uitleg": "Aanbodfactoren zijn wat je nodig hebt om te kunnen produceren: grondstoffen, geld en kennis. Een leger hoort daar niet bij."
         },
@@ -1073,15 +1080,14 @@
           "opties": [
             "de steenkoolbekkens van Henegouwen en Luik",
             "de textielstreek rond Gent",
-            "de wolnijverheid rond Verviers",
+            "de landbouwstreek van Haspengouw",
             "de Kempen met zijn mijnen"
           ],
           "antwoord": [
             0,
-            1,
-            2
+            1
           ],
-          "uitleg": "De Kempense mijnen werden pas rond 1900 ontdekt en gingen pas in de jaren twintig open, dus veel later dan de rest."
+          "uitleg": "De Kempense mijnen werden pas rond 1900 ontdekt en gingen pas in de jaren twintig open, en Haspengouw bleef landbouwstreek. Henegouwen, Luik, Gent en Verviers waren de motoren."
         },
         {
           "type": "waarofniet",
@@ -1149,12 +1155,14 @@
             "werkdagen van twaalf uur en meer",
             "woningen zonder stromend water in overvolle beluiken",
             "geen enkele vergoeding bij ziekte of ongeval",
-            "een wettelijk vastgelegd minimumloon"
+            "een wettelijk vastgelegd minimumloon",
+            "kinderen van negen die mee in de fabriek stonden"
           ],
           "antwoord": [
             0,
             1,
-            2
+            2,
+            4
           ],
           "uitleg": "Een minimumloon bestond toen niet. De drie andere waren de dagelijkse werkelijkheid, en ze drukten de levensverwachting fors."
         },
@@ -1216,15 +1224,14 @@
           "opties": [
             "de geschiedenis is een strijd tussen klassen",
             "de arbeiders moeten de productiemiddelen in handen nemen",
-            "er is een revolutie nodig, geen geduldige hervorming",
+            "de staat moet zich niet met de economie bemoeien",
             "de kerk moet de sociale kwestie oplossen"
           ],
           "antwoord": [
             0,
-            1,
-            2
+            1
           ],
-          "uitleg": "Marx en Engels schreven het Communistisch Manifest in 1848. Van de kerk verwachtten zij niets; die rol kwam bij de christendemocratie."
+          "uitleg": "Marx en Engels schreven het Communistisch Manifest in 1848: de klassenstrijd, en de productiemiddelen in handen van de arbeiders. Van de kerk verwachtten zij niets, en een economie zonder staat is net het liberale idee."
         },
         {
           "type": "meerkeuze",
@@ -1325,12 +1332,14 @@
             "armoede en honger in eigen streek",
             "de belofte van goedkope grond en werk",
             "vervolging om geloof of politieke overtuiging",
-            "een verbod om in Europa te blijven wonen"
+            "een verbod om in Europa te blijven wonen",
+            "brieven van familie die er al woonde"
           ],
           "antwoord": [
             0,
             1,
-            2
+            2,
+            4
           ],
           "uitleg": "Duwfactoren en trekfactoren samen. Niemand werd uit Europa gezet, maar voor velen was blijven geen leven meer."
         },
@@ -1365,15 +1374,14 @@
           "opties": [
             "repeteergeweren en mitrailleurs",
             "stoomschepen die rivieren op konden varen",
-            "kinine als bescherming tegen malaria",
+            "tanks om het binnenland te bezetten",
             "vliegtuigen om gebieden in kaart te brengen"
           ],
           "antwoord": [
             0,
-            1,
-            2
+            1
           ],
-          "uitleg": "Vliegtuigen bestonden nog niet. Wapens, stoomkracht en geneesmiddelen samen maakten het binnenland van Afrika plots bereikbaar."
+          "uitleg": "Vliegtuigen en tanks bestonden nog niet. Wapens, stoomkracht en geneesmiddelen zoals kinine maakten het binnenland van Afrika plots bereikbaar."
         },
         {
           "type": "meerkeuze",
@@ -1430,12 +1438,14 @@
             "Groot-Brittannië in Indië",
             "Frankrijk in Indochina",
             "Nederland in de Indische archipel",
-            "Zweden in Japan"
+            "Zweden in Japan",
+            "Portugal in Macau"
           ],
           "antwoord": [
             0,
             1,
-            2
+            2,
+            4
           ],
           "uitleg": "Zweden had geen koloniën in Azië, en Japan is nooit gekoloniseerd. Het werd zelf een koloniale mogendheid."
         },
@@ -1485,15 +1495,14 @@
           "opties": [
             "grenzen die dwars door volkeren liepen",
             "een economie die op uitvoer naar Europa werd afgestemd",
-            "gezagsstructuren die door de kolonisator werden vervangen",
+            "een gelijke behandeling voor de plaatselijke bevolking",
             "een snelle verspreiding van algemeen stemrecht"
           ],
           "antwoord": [
             0,
-            1,
-            2
+            1
           ],
-          "uitleg": "Stemrecht kwam er juist niet: de bevolking had geen politieke rechten. De juiste antwoorden werken tot vandaag door."
+          "uitleg": "Stemrecht en een gelijke behandeling kwamen er juist niet: de bevolking had geen politieke rechten. De grenzen en een economie op maat van Europa werken tot vandaag door."
         },
         {
           "type": "meerkeuze",
@@ -1610,12 +1619,14 @@
             "dorpen moesten een vastgelegde hoeveelheid rubber leveren",
             "wie te weinig leverde, werd zwaar gestraft",
             "vrouwen en kinderen werden gegijzeld als drukmiddel",
-            "de bevolking kreeg een eerlijke prijs voor haar werk"
+            "de bevolking kreeg een eerlijke prijs voor haar werk",
+            "de opbrengst ging naar de koning en zijn vennootschappen"
           ],
           "antwoord": [
             0,
             1,
-            2
+            2,
+            4
           ],
           "uitleg": "Van een prijs was geen sprake: het was een opgelegde levering. Wie het quotum niet haalde, riskeerde verminking of de dood."
         },
@@ -1631,15 +1642,14 @@
           "opties": [
             "Edmund Dene Morel met zijn hervormingsbeweging",
             "Roger Casement met zijn verslag voor de Britse regering",
-            "schrijvers zoals Mark Twain en Arthur Conan Doyle",
+            "koning Leopold II zelf",
             "de Belgische regering vanaf het eerste uur"
           ],
           "antwoord": [
             0,
-            1,
-            2
+            1
           ],
-          "uitleg": "De Belgische regering kwam pas in beweging toen de internationale druk te groot werd, en nam de kolonie in 1908 over."
+          "uitleg": "De Belgische regering kwam pas in beweging toen de internationale druk te groot werd, en nam de kolonie in 1908 over. Leopold II verdedigde zijn bewind tot het einde, terwijl schrijvers zoals Mark Twain hem aanklaagden."
         },
         {
           "type": "invultekst",
@@ -1684,12 +1694,14 @@
             "koper uit Katanga",
             "diamant",
             "uranium",
-            "steenkool voor de Belgische mijnen"
+            "steenkool voor de Belgische mijnen",
+            "palmolie en rubber"
           ],
           "antwoord": [
             0,
             1,
-            2
+            2,
+            4
           ],
           "uitleg": "Steenkool kwam uit België zelf. Het uranium van Shinkolobwe belandde later in de eerste Amerikaanse atoombommen."
         },
@@ -1735,15 +1747,14 @@
           "opties": [
             "een sterk groeiende bevolking op te weinig grond",
             "wijdverspreide corruptie in het bestuur",
-            "grote opstanden zoals die van de Taiping",
+            "een eeuw zonder oorlog met westerse mogendheden",
             "een tekort aan arbeidskrachten in de landbouw"
           ],
           "antwoord": [
             0,
-            1,
-            2
+            1
           ],
-          "uitleg": "Aan mensen was er geen tekort, integendeel. De Taiping-opstand kostte miljoenen levens en verzwakte de staat jarenlang."
+          "uitleg": "Aan mensen was er geen tekort, integendeel, en er waren wel twee opiumoorlogen met het Westen. De Taiping-opstand kostte miljoenen levens en verzwakte de staat jarenlang."
         },
         {
           "type": "meerkeuze",
@@ -1834,12 +1845,14 @@
             "nationalisme en wedijver tussen de grote mogendheden",
             "militarisme met een wedloop in bewapening",
             "een web van bondgenootschappen dat landen meesleepte",
-            "een tekort aan grondstoffen in heel Europa"
+            "een tekort aan grondstoffen in heel Europa",
+            "imperialistische wedijver om koloniën"
           ],
           "antwoord": [
             0,
             1,
-            2
+            2,
+            4
           ],
           "uitleg": "Grondstoffen waren er; de strijd ging over wie ze beheerste. De drie andere zetten heel Europa in enkele dagen in beweging."
         },
@@ -1888,15 +1901,14 @@
           "opties": [
             "de mitrailleur",
             "gifgas",
-            "de tank",
+            "de kruisraket",
             "de atoombom"
           ],
           "antwoord": [
             0,
-            1,
-            2
+            1
           ],
-          "uitleg": "De atoombom kwam pas in 1945. Gifgas werd voor het eerst grootschalig gebruikt bij Ieper in 1915."
+          "uitleg": "De atoombom kwam pas in 1945 en de kruisraket nog later. Gifgas werd voor het eerst grootschalig gebruikt bij Ieper in 1915, en de tank verscheen in 1916."
         },
         {
           "type": "meerkeuze",
@@ -2001,12 +2013,14 @@
             "het politieke domein, met nieuwe staten en regimes",
             "het economische domein, met schulden en verwoesting",
             "het sociale domein, met miljoenen doden en gewonden",
-            "geen enkel domein, want het was enkel een militair gebeuren"
+            "geen enkel domein, want het was enkel een militair gebeuren",
+            "het culturele domein, met kunst die de oorlog verwerkte"
           ],
           "antwoord": [
             0,
             1,
-            2
+            2,
+            4
           ],
           "uitleg": "Een oorlog is nooit enkel militair. Precies die verbanden tussen de domeinen moet je kunnen toelichten."
         },
@@ -2045,17 +2059,16 @@
           "type": "meerkeuze",
           "vraag": "Welke ideeën stonden in het Veertienpuntenplan?",
           "opties": [
-            "open diplomatie in plaats van geheime verdragen",
+            "een verbod op elk leger in Europa",
             "het zelfbeschikkingsrecht van de volkeren",
             "de oprichting van een volkerenbond",
             "zware herstelbetalingen door Duitsland"
           ],
           "antwoord": [
-            0,
             1,
             2
           ],
-          "uitleg": "Herstelbetalingen stonden er net niet in. Die kwamen er in Versailles op aandringen van Frankrijk."
+          "uitleg": "Herstelbetalingen en een algemeen legerverbod stonden er net niet in; open diplomatie wel. De herstelbetalingen kwamen er in Versailles, op aandringen van Frankrijk."
         },
         {
           "type": "meerkeuze",
@@ -2064,12 +2077,14 @@
             "het moest de schuld voor de oorlog erkennen",
             "het moest herstelbetalingen doen",
             "het mocht nog maar een klein leger houden",
-            "het mocht geen eigen regering meer kiezen"
+            "het mocht geen eigen regering meer kiezen",
+            "het verloor gebied, zoals Elzas-Lotharingen"
           ],
           "antwoord": [
             0,
             1,
-            2
+            2,
+            4
           ],
           "uitleg": "Een eigen regering bleef er wel: de Weimarrepubliek. Het beruchte artikel 231 legde de schuld bij Duitsland en zijn bondgenoten."
         },
@@ -2117,15 +2132,14 @@
           "opties": [
             "de Verenigde Staten traden nooit toe",
             "de bond had geen eigen leger",
-            "beslissingen vroegen de instemming van iedereen",
+            "Frankrijk en Groot-Brittannië traden nooit toe",
             "de bond had geen zetel of gebouw"
           ],
           "antwoord": [
             0,
-            1,
-            2
+            1
           ],
-          "uitleg": "De zetel in Genève was er wel degelijk. Dat de bedenker van het idee zelf wegbleef, ondermijnde de bond vanaf dag één."
+          "uitleg": "De zetel in Genève was er wel degelijk, en Frankrijk en Groot-Brittannië waren stichtende leden. Dat de bedenker van het idee, de Verenigde Staten, zelf wegbleef, ondermijnde de bond vanaf dag één."
         },
         {
           "type": "waarofniet",
@@ -2184,12 +2198,14 @@
             "ze zette de oorlog voort",
             "ze stelde de verdeling van de grond uit",
             "de voedseltekorten bleven aanhouden",
-            "ze schafte het parlement af"
+            "ze schafte het parlement af",
+            "de nederlagen aan het front gingen door"
           ],
           "antwoord": [
             0,
             1,
-            2
+            2,
+            4
           ],
           "uitleg": "Precies op die drie punten beloofden de bolsjewieken het tegenovergestelde: vrede, brood en land."
         },
@@ -2230,12 +2246,14 @@
             "de industrie kwam in handen van de staat",
             "graan werd bij de boeren opgeëist",
             "voedsel werd op rantsoen gezet",
-            "de vrije handel werd aangemoedigd"
+            "de vrije handel werd aangemoedigd",
+            "werken werd verplicht"
           ],
           "antwoord": [
             0,
             1,
-            2
+            2,
+            4
           ],
           "uitleg": "Vrije handel werd juist verboden. Het regime moest in volle burgeroorlog leger en steden voeden, en legde daarvoor alles op."
         },
@@ -2282,15 +2300,14 @@
           "opties": [
             "aandelen kopen met geleend geld",
             "overproductie in industrie en landbouw",
-            "een zeer ongelijke verdeling van de welvaart",
+            "te hoge belastingen op aandelen",
             "een tekort aan grondstoffen in de Verenigde Staten"
           ],
           "antwoord": [
             0,
-            1,
-            2
+            1
           ],
-          "uitleg": "Er was net te veel geproduceerd, niet te weinig. Wie met geleend geld speculeerde, moest bij de eerste daling verkopen, en dat versnelde de val."
+          "uitleg": "Er was net te veel geproduceerd, niet te weinig, en de belastingen stonden juist laag. Wie met geleend geld speculeerde, moest bij de eerste daling verkopen, en dat versnelde de val."
         },
         {
           "type": "meerkeuze",
@@ -2325,12 +2342,14 @@
             "grote openbare werken om mensen aan het werk te zetten",
             "toezicht op de banken en de beurs",
             "de eerste federale sociale zekerheid",
-            "het volledig afschaffen van de privé-ondernemingen"
+            "het volledig afschaffen van de privé-ondernemingen",
+            "steun voor boeren die hun oogst niet meer kwijtraakten"
           ],
           "antwoord": [
             0,
             1,
-            2
+            2,
+            4
           ],
           "uitleg": "Het bleef een kapitalistische economie. Nieuw was dat de staat er zelf in tussenkwam, en dat was een breuk met het laisser-faire."
         },
@@ -2377,16 +2396,15 @@
           "vraag": "Welke gevolgen had de collectivisatie van de landbouw?",
           "opties": [
             "verzet van boeren dat met geweld gebroken werd",
-            "deportatie van wie als koelak werd aangeduid",
+            "een vrije markt voor graan",
             "een zware hongersnood, onder meer in Oekraïne",
             "een snelle stijging van de landbouwopbrengst"
           ],
           "antwoord": [
             0,
-            1,
             2
           ],
-          "uitleg": "De opbrengst zakte net, onder meer omdat boeren hun vee slachtten in plaats van het af te geven. De hongersnood van 1932 en 1933 kostte miljoenen levens."
+          "uitleg": "De opbrengst zakte net, onder meer omdat boeren hun vee slachtten in plaats van het af te geven, en van een vrije graanmarkt was geen sprake. De hongersnood van 1932 en 1933 kostte miljoenen levens."
         },
         {
           "type": "meerkeuze",
@@ -2425,12 +2443,14 @@
             "één partij en één leider",
             "controle over pers, onderwijs en kunst",
             "een geheime politie die tegenstanders uitschakelt",
-            "een onafhankelijke rechtspraak"
+            "een onafhankelijke rechtspraak",
+            "één ideologie die het hele leven wil bepalen"
           ],
           "antwoord": [
             0,
             1,
-            2
+            2,
+            4
           ],
           "uitleg": "Onafhankelijke rechters zijn net wat zo'n staat niet duldt. Totalitair betekent dat de staat het hele leven wil bepalen, tot in het gezin."
         },
@@ -2516,15 +2536,14 @@
           "opties": [
             "hij verbood de andere partijen",
             "hij bracht de pers onder controle",
-            "hij richtte een politieke politie op",
+            "hij liet het parlement vrij verkiezen",
             "hij schafte de monarchie af"
           ],
           "antwoord": [
             0,
-            1,
-            2
+            1
           ],
-          "uitleg": "De koning bleef al die tijd op zijn troon, en het was uiteindelijk ook hij die Mussolini in 1943 liet afzetten."
+          "uitleg": "De koning bleef al die tijd op zijn troon, en het was uiteindelijk ook hij die Mussolini in 1943 liet afzetten. Van vrije verkiezingen was na 1925 geen sprake meer."
         },
         {
           "type": "waarofniet",
@@ -2551,12 +2570,14 @@
             "de Machtigingswet gaf hem het recht zonder parlement te regeren",
             "de andere partijen en de vakbonden werden verboden",
             "na de dood van Hindenburg voegde hij het presidentschap bij zijn ambt",
-            "hij liet een nieuwe grondwet goedkeuren bij volksstemming"
+            "hij liet een nieuwe grondwet goedkeuren bij volksstemming",
+            "de deelstaten verloren hun eigen bestuur"
           ],
           "antwoord": [
             0,
             1,
-            2
+            2,
+            4
           ],
           "uitleg": "De grondwet van Weimar werd nooit afgeschaft; ze werd gewoon buitenspel gezet. Dat maakt de Machtigingswet zo beslissend."
         },
@@ -2586,16 +2607,15 @@
           "vraag": "Welke middelen gebruikte het naziregime om de bevolking in de pas te doen lopen?",
           "opties": [
             "propaganda in pers, film en radio",
-            "jeugdbewegingen waar kinderen verplicht in terechtkwamen",
+            "een onafhankelijke rechtspraak",
             "een geheime politie en concentratiekampen",
             "vrije verkiezingen met meerdere partijen"
           ],
           "antwoord": [
             0,
-            1,
             2
           ],
-          "uitleg": "Verkiezingen bleven bestaan in naam, maar met één lijst. Goebbels bouwde ondertussen een propagandamachine die niets aan het toeval overliet."
+          "uitleg": "Verkiezingen bleven in naam bestaan, maar met één lijst, en onafhankelijke rechters duldde het regime niet. Goebbels bouwde ondertussen een propagandamachine die niets aan het toeval overliet, en de Hitlerjugend ving de kinderen op."
         },
         {
           "type": "meerkeuze",
@@ -2622,12 +2642,14 @@
             "hij voerde opnieuw de dienstplicht in en herbewapende",
             "hij liet troepen het Rijnland binnentrekken",
             "hij lijfde Oostenrijk in bij Duitsland",
-            "hij viel onmiddellijk Frankrijk aan"
+            "hij viel onmiddellijk Frankrijk aan",
+            "hij bezette in 1939 het restant van Tsjechoslowakije"
           ],
           "antwoord": [
             0,
             1,
-            2
+            2,
+            4
           ],
           "uitleg": "Frankrijk kwam pas in 1940 aan de beurt. Elke stap daarvoor was een test: wie zou hem tegenhouden? Het antwoord was telkens niemand."
         },
@@ -2737,15 +2759,14 @@
           "opties": [
             "de wrok over het Verdrag van Versailles",
             "de economische crisis van de jaren dertig",
-            "de expansiedrang van de totalitaire regimes",
+            "een verbod op alle bewapening in Europa",
             "een tekort aan soldaten in heel Europa"
           ],
           "antwoord": [
             0,
-            1,
-            2
+            1
           ],
-          "uitleg": "Aan soldaten ontbrak het niet. De drie andere werkten op elkaar in, en de appeasementpolitiek liet ze begaan."
+          "uitleg": "Aan soldaten ontbrak het niet en van een algemeen wapenverbod was geen sprake. De wrok over Versailles, de crisis en de expansiedrang werkten op elkaar in, en de appeasementpolitiek liet ze begaan."
         },
         {
           "type": "invultekst",
@@ -2805,12 +2826,14 @@
             "Stalingrad aan het oostfront",
             "El Alamein in Noord-Afrika",
             "Midway in de Stille Oceaan",
-            "de slag bij Waterloo in 1815"
+            "de slag bij Waterloo in 1815",
+            "de landing van de Amerikanen in Noord-Afrika"
           ],
           "antwoord": [
             0,
             1,
-            2
+            2,
+            4
           ],
           "uitleg": "Waterloo ligt meer dan een eeuw vroeger. De drie andere draaiden in hetzelfde jaar elk een front om."
         },
@@ -2870,15 +2893,14 @@
           "opties": [
             "de oorlog werd op veel meer plaatsen in de wereld uitgevochten",
             "bezetting en uitroeiingspolitiek hoorden tot de oorlogvoering",
-            "de legers bewogen zich snel in plaats van zich in te graven",
+            "er vielen minder burgerslachtoffers dan in de Eerste",
             "er werd veel minder propaganda ingezet dan in de vorige oorlog"
           ],
           "antwoord": [
             0,
-            1,
-            2
+            1
           ],
-          "uitleg": "Propaganda werd juist op nog grotere schaal gebruikt, met film en radio erbij. De drie andere verschillen zijn wezenlijk."
+          "uitleg": "Propaganda werd juist op nog grotere schaal gebruikt, met film en radio erbij, en er vielen veel méér burgerslachtoffers. De wereldwijde omvang en de uitroeiingspolitiek zijn wel wezenlijke verschillen."
         },
         {
           "type": "meerkeuze",
@@ -2905,12 +2927,14 @@
             "de Verenigde Staten en de Sovjet-Unie werden supermachten",
             "de Verenigde Naties werden opgericht",
             "de dekolonisatie kwam op gang",
-            "Europa behield zijn leidende rol in de wereld"
+            "Europa behield zijn leidende rol in de wereld",
+            "Duitsland werd in bezettingszones verdeeld"
           ],
           "antwoord": [
             0,
             1,
-            2
+            2,
+            4
           ],
           "uitleg": "Europa verloor die rol net. Uitgeput en verdeeld keek het toe hoe twee machten buiten zijn grenzen de toon gingen aangeven."
         },
@@ -2987,15 +3011,14 @@
           "opties": [
             "politieke collaboratie door bewegingen als het VNV en Rex",
             "militaire collaboratie door vrijwilligers aan het oostfront",
-            "economische collaboratie door bedrijven die voor de bezetter werkten",
+            "de zwarte markt waarop gezinnen eten kochten",
             "collaboratie door de Belgische regering die naar Londen uitweek"
           ],
           "antwoord": [
             0,
-            1,
-            2
+            1
           ],
-          "uitleg": "De regering in Londen deed het tegenovergestelde: ze zette de strijd aan geallieerde zijde voort."
+          "uitleg": "De regering in Londen deed het tegenovergestelde: ze zette de strijd aan geallieerde zijde voort. De zwarte markt was een overlevingskwestie en geen collaboratie; bedrijven die voor de bezetter produceerden, collaboreerden wel economisch."
         },
         {
           "type": "meerkeuze",
@@ -3004,12 +3027,14 @@
             "sluikbladen drukken en verspreiden",
             "ontsnappingslijnen voor piloten opzetten",
             "onderduikadressen zoeken voor Joodse kinderen",
-            "verkiezingen organiseren tegen de bezetter"
+            "verkiezingen organiseren tegen de bezetter",
+            "berichten en wapens voor de geallieerden doorgeven"
           ],
           "antwoord": [
             0,
             1,
-            2
+            2,
+            4
           ],
           "uitleg": "Van verkiezingen was onder een bezetting geen sprake. Het verzet werkte ondergronds, en wie betrapt werd, riskeerde de doodstraf."
         },
@@ -3074,16 +3099,15 @@
           "vraag": "Hoe verliep de vervolging van de Joden in nazi-Duitsland?",
           "opties": [
             "eerst uitsluiting uit het openbare leven",
-            "daarna gedwongen samenleven in getto's",
+            "een uitgewerkt vernietigingsplan dat al in 1933 klaarlag",
             "ten slotte de systematische vernietiging in kampen",
             "van bij het begin de vernietigingskampen"
           ],
           "antwoord": [
             0,
-            1,
             2
           ],
-          "uitleg": "De stappen volgden op elkaar over bijna tien jaar. Dat die laatste stap niet bij het begin stond, maakt de eerdere stappen niet minder beslissend."
+          "uitleg": "De stappen volgden op elkaar over bijna tien jaar: uitsluiting, getto's en ten slotte de kampen. Een uitgewerkt vernietigingsplan lag in 1933 nog niet klaar, en dat maakt de eerdere stappen niet minder beslissend."
         },
         {
           "type": "meerkeuze",
@@ -3112,12 +3136,14 @@
             "Roma en Sinti",
             "mensen met een beperking",
             "politieke tegenstanders",
-            "leden van de eigen partij"
+            "leden van de eigen partij",
+            "homoseksuelen"
           ],
           "antwoord": [
             0,
             1,
-            2
+            2,
+            4
           ],
           "uitleg": "De Holocaust trof in de eerste plaats de Joden, maar de vervolging reikte verder. De rassenleer en de politieke terreur liepen in elkaar over."
         },
@@ -3207,12 +3233,14 @@
             "de Algemene Vergadering",
             "de Veiligheidsraad",
             "het Internationaal Gerechtshof in Den Haag",
-            "de Europese Commissie"
+            "de Europese Commissie",
+            "het Secretariaat met de secretaris-generaal"
           ],
           "antwoord": [
             0,
             1,
-            2
+            2,
+            4
           ],
           "uitleg": "De Europese Commissie hoort bij de Europese Unie en heeft met de VN niets te maken."
         },
@@ -3248,15 +3276,14 @@
           "opties": [
             "een plek waar alle landen elkaar kunnen spreken",
             "humanitaire hulp bij rampen en hongersnood",
-            "het vastleggen van wereldwijde normen zoals de mensenrechten",
+            "het innen van belastingen in de lidstaten",
             "de macht om een land een regering op te leggen"
           ],
           "antwoord": [
             0,
-            1,
-            2
+            1
           ],
-          "uitleg": "Een regering opleggen kan de VN niet, en dat is ook niet haar opdracht. Haar kracht zit in overleg, hulp en normstelling."
+          "uitleg": "Een regering opleggen of belastingen innen kan de VN niet, en dat is ook niet haar opdracht. Haar kracht zit in overleg, hulp en het vastleggen van normen zoals de mensenrechten."
         },
         {
           "type": "waarofniet",
@@ -3384,12 +3411,14 @@
             "propaganda en spionage",
             "economische hulp aan bondgenoten",
             "een wedloop in de ruimtevaart",
-            "een gezamenlijke munt voor beide blokken"
+            "een gezamenlijke munt voor beide blokken",
+            "sport en cultuur als uitstalraam"
           ],
           "antwoord": [
             0,
             1,
-            2
+            2,
+            4
           ],
           "uitleg": "Een gezamenlijke munt is ondenkbaar tussen twee kampen die elkaar bestrijden. De drie andere waren wapens van een andere orde."
         }
@@ -3500,15 +3529,14 @@
           "opties": [
             "een nieuwe oorlog tussen Frankrijk en Duitsland onmogelijk maken",
             "de economieën met elkaar verweven door handel",
-            "samen sterker staan tegenover de grote mogendheden",
+            "één belastingstelsel voor alle lidstaten",
             "één leger vormen onder één opperbevel"
           ],
           "antwoord": [
             0,
-            1,
-            2
+            1
           ],
-          "uitleg": "Een gezamenlijk leger is er nooit gekomen; een voorstel daarover sneuvelde al in 1954. De drie andere doelen staan er van bij het begin."
+          "uitleg": "Een gezamenlijk leger is er nooit gekomen; een voorstel daarover sneuvelde al in 1954, en één belastingstelsel was nooit het doel. Vrede tussen Frankrijk en Duitsland, verweven economieën en samen sterker staan: dat waren de doelen."
         },
         {
           "type": "invultekst",
@@ -3537,12 +3565,14 @@
             "de Europese Raad kreeg een vaste voorzitter",
             "het Europees Parlement kreeg meer te zeggen",
             "het Handvest van de grondrechten werd bindend",
-            "de euro werd als munt ingevoerd"
+            "de euro werd als munt ingevoerd",
+            "de Unie kreeg een hoge vertegenwoordiger voor buitenlands beleid"
           ],
           "antwoord": [
             0,
             1,
-            2
+            2,
+            4
           ],
           "uitleg": "De euro kwam er al eerder, in 1999 giraal en in 2002 als biljetten. Lissabon trad in werking in 2009."
         },
