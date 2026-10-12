@@ -50,8 +50,9 @@ DEEL1 = [
             "vrijstelling van bepaalde belastingen",
             "het recht om te jagen in de heerlijke bossen",
             "het recht om te stemmen bij verkiezingen",
+            "het recht om wapens te dragen",
         ],
-        antwoord=[0, 1, 2],
+        antwoord=[0, 1, 2, 4],
         uitleg="Verkiezingen bestonden niet. De andere voorrechten hielden de ongelijkheid juist in stand.",
     ),
     dict(
@@ -162,11 +163,11 @@ DEEL1 = [
         opties=[
             "herendiensten op het vroonland",
             "een deel van de oogst afstaan",
-            "tol en heffingen betalen bij molen en oven",
+            "belasting betalen aan de koning in klinkende munt",
             "elk jaar in het leger van de koning dienen",
         ],
-        antwoord=[0, 1, 2],
-        uitleg="Legerdienst hoorde bij de tweede stand. De andere zijn de gewone lasten van een horige, en ze maakten hem afhankelijk.",
+        antwoord=[0, 1],
+        uitleg="Legerdienst hoorde bij de tweede stand, en een horige betaalde niet rechtstreeks aan de koning maar aan zijn heer, onder andere tol bij de molen en de oven. Herendiensten en een deel van de oogst waren zijn gewone lasten.",
     ),
     dict(
         type="meerkeuze",
@@ -176,8 +177,9 @@ DEEL1 = [
             "het politieke domein",
             "het culturele domein",
             "het maritieme domein",
+            "het economische domein",
         ],
-        antwoord=[0, 1, 2],
+        antwoord=[0, 1, 2, 4],
         uitleg="Maritiem is een ruimtebegrip, geen domein. De standen bepalen wie waar staat, wie mag beslissen, en de Kerk geeft er de rechtvaardiging voor.",
     ),
     dict(
@@ -209,8 +211,9 @@ DEEL2 = [
             "meer veiligheid, waardoor handel over langere afstand kon",
             "de ligging aan een rivier, een weg of een kruispunt",
             "de uitvinding van de stoommachine en van de spoorweg",
+            "een overschot aan voedsel om naar de markt te brengen",
         ],
-        antwoord=[0, 1, 2],
+        antwoord=[0, 1, 2, 4],
         uitleg="De stoommachine komt pas in de 18de eeuw. De andere verklaren wel waarom steden opnieuw groeiden.",
     ),
     dict(
@@ -309,11 +312,11 @@ DEEL2 = [
         opties=[
             "het belfort, als toren van de stedelijke vrijheid en bewaarplaats van de privileges",
             "de lakenhalle, om handelswaar te verhandelen en te keuren",
-            "de kathedraal, als centrum van het godsdienstige leven",
+            "de kazerne, als verblijf van het leger van de koning",
             "het kasteel van de koning, als zetel van het rijksbestuur",
         ],
-        antwoord=[0, 1, 2],
-        uitleg="Een koninklijk kasteel hoorde niet bij de stad maar bij de vorst, en stond er vaak juist buiten of tegenover.",
+        antwoord=[0, 1],
+        uitleg="Een koninklijk kasteel en een kazerne hoorden niet bij de stad maar bij de vorst. Het belfort en de lakenhalle zijn wel echte stadsgebouwen, en de kathedraal was het godsdienstige hart.",
     ),
     dict(
         type="waarofniet",
@@ -341,8 +344,9 @@ DEEL2 = [
             "sommige groepen, zoals de joden, kregen de schuld en werden vervolgd",
             "veel grond kwam leeg te liggen",
             "de bevolking groeide sneller dan ooit",
+            "boeren kregen betere voorwaarden van hun heer",
         ],
-        antwoord=[0, 1, 2],
+        antwoord=[0, 1, 2, 4],
         uitleg="De bevolking kromp juist, en het duurde meer dan een eeuw voor ze zich herstelde.",
     ),
     dict(

@@ -36,8 +36,9 @@ DEEL1 = [
             "teruggrijpen naar de Griekse en Romeinse oudheid",
             "kritisch onderzoek van de oorspronkelijke teksten",
             "het verwerpen van elke vorm van godsdienst en geloof",
+            "aandacht voor onderwijs en voor de oude talen",
         ],
-        antwoord=[0, 1, 2],
+        antwoord=[0, 1, 2, 4],
         uitleg="De meeste humanisten bleven gelovig; Erasmus was priester. Ze wilden het geloof zuiveren, niet afschaffen.",
     ),
     dict(
@@ -88,11 +89,11 @@ DEEL1 = [
         opties=[
             "misbruiken in de Kerk, zoals de aflaathandel",
             "de rijkdom en het wereldse leven van hoge geestelijken",
-            "de kritische lezing van de Bijbel door humanisten",
+            "het verbod om de Bijbel in het Latijn te lezen",
             "het verbod van de paus op elk kerkbezoek in Duitsland",
         ],
-        antwoord=[0, 1, 2],
-        uitleg="Kerkbezoek werd nergens verboden. De andere samen verklaren waarom Luthers kritiek zo snel weerklank vond.",
+        antwoord=[0, 1],
+        uitleg="Kerkbezoek werd nergens verboden, en het Latijn was juist de taal waarin de Bijbel wél gelezen werd. De misbruiken en het wereldse leven van hoge geestelijken verklaren, samen met de kritische bijbellezing van de humanisten, waarom Luthers kritiek zo snel weerklank vond.",
     ),
     dict(
         type="invultekst",
@@ -138,8 +139,9 @@ DEEL1 = [
             "een sobere eredienst, in een kerk zonder beelden",
             "een kerk die door gekozen ouderlingen bestuurd wordt",
             "de paus in Rome als hoogste gezag in de geloofsleer",
+            "de Bijbel als enige bron van geloof",
         ],
-        antwoord=[0, 1, 2],
+        antwoord=[0, 1, 2, 4],
         uitleg="De paus erkennen ze juist niet. De andere kenmerken verklaren ook waarom calvinisten later zo op eigen bestuur gesteld waren.",
     ),
     dict(
@@ -229,11 +231,11 @@ DEEL2 = [
         opties=[
             "evenwicht, rust en heldere verhoudingen",
             "perspectief, waardoor diepte ontstaat",
-            "het menselijk lichaam naar de natuur bestudeerd",
+            "het menselijk lichaam bewust vervormd en verlengd",
             "bewust scheve en onrustige lijnen",
         ],
-        antwoord=[0, 1, 2],
-        uitleg="Onrust en beweging horen bij de barok. De renaissance zoekt juist de maat en het evenwicht.",
+        antwoord=[0, 1],
+        uitleg="Onrust en beweging horen bij de barok, bewust vervormde lichamen bij het maniërisme. De renaissance zoekt de maat en het evenwicht, en studeert het lichaam naar de natuur.",
     ),
     dict(
         type="waarofniet",
@@ -297,8 +299,9 @@ DEEL2 = [
             "weelderige versiering en rijke kleuren",
             "grote, meeslepende taferelen die de kijker willen raken",
             "sobere, kale kerkruimtes zonder beelden",
+            "kunst die het katholieke geloof wil versterken",
         ],
-        antwoord=[0, 1, 2],
+        antwoord=[0, 1, 2, 4],
         uitleg="Kale kerken zonder beelden horen bij het calvinisme. De barok wil juist overweldigen.",
     ),
     dict(
@@ -319,11 +322,11 @@ DEEL2 = [
         opties=[
             "om hun macht en hun aanzien te tonen",
             "om hun paleizen en tuinen indruk te laten maken",
-            "om zichzelf in grote portretten te laten vereeuwigen",
+            "om de kosten van het hof te verbergen",
             "om hun onderdanen tot soberheid aan te zetten",
         ],
-        antwoord=[0, 1, 2],
-        uitleg="Soberheid was wel het laatste wat Versailles uitstraalde. Kunst in dienst van geloof én macht, dat is de barok.",
+        antwoord=[0, 1],
+        uitleg="Soberheid en zuinigheid waren wel het laatste wat Versailles uitstraalde. Macht en aanzien tonen, in paleizen, tuinen en grote portretten: dat is de barok in dienst van de vorst.",
     ),
     dict(
         type="waarofniet",

@@ -24,11 +24,11 @@ DEEL1 = [
         opties=[
             "belastingen zonder vertegenwoordiging in het Londense parlement",
             "Londen bepaalde met wie de kolonies mochten handelen",
-            "verlichte ideeën over vrijheid en natuurlijke rechten",
+            "een verbod op het spreken van Engels in de kolonies",
             "een jarenlange hongersnood in de dertien kolonies zelf",
         ],
-        antwoord=[0, 1, 2],
-        uitleg="Van een hongersnood was geen sprake. De andere oorzaken samen verklaren waarom dertien kolonies zich verenigden.",
+        antwoord=[0, 1],
+        uitleg="Van een hongersnood of een taalverbod was geen sprake. De belastingen zonder vertegenwoordiging en de handelsdwang uit Londen, samen met de verlichte ideeën, verklaren waarom dertien kolonies zich verenigden.",
     ),
     dict(
         type="meerkeuze",
@@ -110,8 +110,9 @@ DEEL1 = [
             "de soevereiniteit berust bij de natie",
             "vrijheid van mening en van godsdienst",
             "het behoud van de voorrechten van de adel",
+            "niemand mag willekeurig worden opgesloten",
         ],
-        antwoord=[0, 1, 2],
+        antwoord=[0, 1, 2, 4],
         uitleg="De voorrechten werden in de nacht van 4 augustus juist afgeschaft. De andere punten zijn verlichte ideeën, woord voor woord.",
     ),
     dict(
@@ -156,11 +157,11 @@ DEEL1 = [
         opties=[
             "allebei beroepen ze zich op verlichte ideeën",
             "allebei verwerpen ze een gezag waarin de bevolking niet vertegenwoordigd is",
-            "allebei leggen ze rechten vast in een geschreven tekst",
+            "allebei schaffen ze de slavernij onmiddellijk af",
             "allebei stellen ze op het einde een erfelijke keizer aan",
         ],
-        antwoord=[0, 1, 2],
-        uitleg="Een keizer komt er enkel in Frankrijk, en pas achteraf. De andere punten maken van de twee revoluties familie van elkaar.",
+        antwoord=[0, 1],
+        uitleg="Een keizer komt er enkel in Frankrijk, en pas achteraf, en de slavernij bleef in beide landen nog lang bestaan. Verlichte ideeën, verzet tegen een gezag zonder vertegenwoordiging en rechten op papier maken van de twee revoluties familie van elkaar.",
     ),
     dict(
         type="waarofniet",
@@ -257,8 +258,9 @@ DEEL2 = [
             "arbeiders werken samen in een fabriek in plaats van thuis",
             "er wordt op vaste uren gewerkt, op het ritme van de machine",
             "elke arbeider maakt een product van begin tot eind",
+            "er komt toezicht van een opzichter op de werkvloer",
         ],
-        antwoord=[0, 1, 2],
+        antwoord=[0, 1, 2, 4],
         uitleg="Dat laatste is juist wat verdwijnt. De andere maken van werken iets heel anders dan het was.",
     ),
     dict(
@@ -285,11 +287,11 @@ DEEL2 = [
         opties=[
             "steenkool en ijzererts in eigen bodem",
             "kapitaal uit handel en koloniën",
-            "arbeidskrachten die door landbouwvernieuwing vrijkwamen",
+            "een groeiende vraag naar goedkoop katoen",
             "een verbod op het oprichten van ondernemingen",
         ],
-        antwoord=[0, 1, 2],
-        uitleg="Een verbod was er juist niet; ondernemen was er makkelijker dan elders. De andere factoren lagen er toevallig alle drie samen.",
+        antwoord=[0, 1],
+        uitleg="Een verbod was er juist niet; ondernemen was er makkelijker dan elders. De vraag naar katoen is een vraagfactor, geen aanbodfactor. Steenkool, kapitaal en arbeidskrachten die vrijkwamen uit de landbouw, lagen er wel toevallig samen.",
     ),
     dict(
         type="meerkeuze",
@@ -371,8 +373,9 @@ DEEL2 = [
             "kaarten met kolenvelden, kanalen en spoorlijnen",
             "verslagen van onderzoekscommissies over de arbeidsomstandigheden",
             "een roman uit de 21ste eeuw die in die tijd gesitueerd is",
+            "krantenberichten uit die jaren",
         ],
-        antwoord=[0, 1, 2],
+        antwoord=[0, 1, 2, 4],
         uitleg="Een hedendaagse roman is geen bron over die tijd zelf, hooguit over hoe wij ernaar kijken. De andere zijn wel bronnen uit de periode.",
     ),
     dict(

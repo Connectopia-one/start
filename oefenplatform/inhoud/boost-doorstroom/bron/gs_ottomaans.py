@@ -150,11 +150,11 @@ DEEL1 = [
         opties=[
             "door oorlog, aan de grenzen in de Balkan en op zee",
             "door handel in het Middellandse Zeegebied",
-            "door diplomatie, met vaste gezanten aan het hof",
+            "door een gedeelde munt tussen beide gebieden",
             "door een volledige afsluiting van elke grens",
         ],
-        antwoord=[0, 1, 2],
-        uitleg="Afgesloten was er niets. Oorlog, handel en diplomatie liepen tegelijk, soms tussen dezelfde partijen.",
+        antwoord=[0, 1],
+        uitleg="Afgesloten was er niets, en een gedeelde munt was er evenmin. Oorlog, handel en diplomatie met vaste gezanten liepen tegelijk, soms tussen dezelfde partijen.",
     ),
     dict(
         type="waarofniet",

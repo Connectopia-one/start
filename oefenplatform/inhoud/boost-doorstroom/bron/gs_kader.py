@@ -160,8 +160,9 @@ DEEL1 = [
             "migratie",
             "slavernij",
             "de drukkunst",
+            "de verhouding tussen man en vrouw",
         ],
-        antwoord=[0, 1, 2],
+        antwoord=[0, 1, 2, 4],
         uitleg="De drukkunst is een culturele en technologische zaak. Wie waar staat in de samenleving, wie zich verplaatst en wie onvrij is, hoort bij het sociale domein.",
     ),
     dict(
@@ -194,8 +195,14 @@ DEEL2 = [
     dict(
         type="meerkeuze",
         vraag="Welke structuurbegrippen horen bij ruimte?",
-        opties=["lokaal", "mondiaal", "maritiem", "revolutie"],
-        antwoord=[0, 1, 2],
+        opties=[
+            "lokaal",
+            "mondiaal",
+            "maritiem",
+            "revolutie",
+            "ruraal",
+        ],
+        antwoord=[0, 1, 2, 4],
         uitleg="Revolutie hoort bij tijd. Lokaal, regionaal, West-Europees, mondiaal, westers, niet-westers, stedelijk, ruraal, continentaal en maritiem horen bij ruimte.",
     ),
     dict(
@@ -254,8 +261,9 @@ DEEL2 = [
             "de aankomst van Columbus op de Caraïben",
             "de val van Constantinopel",
             "de kroning van Karel de Grote",
+            "de Franse Revolutie",
         ],
-        antwoord=[0, 1, 2],
+        antwoord=[0, 1, 2, 4],
         uitleg="De kroning van Karel de Grote ligt middenin de middeleeuwen en begint geen nieuwe periode. De andere worden wél als grens gebruikt.",
     ),
     dict(
@@ -300,11 +308,11 @@ DEEL2 = [
         opties=[
             "ze is gebouwd op een selectie, dus wat niet gekozen is, valt weg",
             "ze suggereert een scherpe breuk waar de werkelijkheid geleidelijk is",
-            "ze past niet even goed op niet-westerse samenlevingen",
+            "ze past op elke samenleving in de wereld even goed",
             "ze maakt het onmogelijk om gebeurtenissen te dateren",
         ],
-        antwoord=[0, 1, 2],
-        uitleg="Dateren kan je nog altijd, dat is net wat een tijdrekening doet. De juiste antwoorden zijn de echte beperkingen.",
+        antwoord=[0, 1],
+        uitleg="Dateren kan je nog altijd, dat is net wat een tijdrekening doet. En onze periodisering past juist niet even goed op niet-westerse samenlevingen: ze is op de Europese geschiedenis gebouwd.",
     ),
     dict(
         type="waarofniet",

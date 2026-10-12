@@ -58,8 +58,9 @@ DEEL1 = [
             "ze ontgonnen woeste grond tot landbouwgrond",
             "ze zorgden voor zieken en reizigers",
             "ze sloegen de munten van de koning",
+            "ze gaven onderwijs aan jonge kinderen",
         ],
-        antwoord=[0, 1, 2],
+        antwoord=[0, 1, 2, 4],
         uitleg="Munten slaan was een recht van de vorst. De andere taken maakten van een klooster een centrum van de streek.",
     ),
     dict(
@@ -116,11 +117,11 @@ DEEL1 = [
         opties=[
             "rondbogen",
             "dikke muren met kleine vensters",
-            "een zware, gesloten en donkere indruk",
+            "hoge spitsbogen in het gewelf",
             "luchtbogen aan de buitenkant",
         ],
-        antwoord=[0, 1, 2],
-        uitleg="Luchtbogen horen bij de gotiek. De romaanse kerk moet haar gewicht met dikke muren dragen, en dus blijven de vensters klein.",
+        antwoord=[0, 1],
+        uitleg="Luchtbogen en spitsbogen horen bij de gotiek. De romaanse kerk moet haar gewicht met dikke muren dragen, en dus blijven de vensters klein en is de indruk zwaar en donker.",
     ),
     dict(
         type="meerkeuze",
@@ -182,11 +183,11 @@ DEEL1 = [
         opties=[
             "Griekse teksten kwamen via Arabische vertalingen terug in Europa",
             "de cijfers waarmee wij nog altijd rekenen, kwamen langs die weg",
-            "geneeskunde, sterrenkunde en wiskunde gingen er sterk op vooruit",
+            "de Europese geneeskunde bleef er onaangeroerd door",
             "de boekdrukkunst met losse letters werd er uitgevonden en verspreid",
         ],
-        antwoord=[0, 1, 2],
-        uitleg="De boekdrukkunst met losse letters komt van Gutenberg, in de 15de eeuw. De andere lopen wel via Córdoba, Toledo en Palermo.",
+        antwoord=[0, 1],
+        uitleg="De boekdrukkunst met losse letters komt van Gutenberg, in de 15de eeuw, en de Europese geneeskunde ging er juist sterk op vooruit. De Griekse teksten en de cijfers waarmee wij rekenen, lopen wel via Córdoba, Toledo en Palermo.",
     ),
     dict(
         type="waarofniet",
@@ -265,8 +266,9 @@ DEEL2 = [
             "de ambachten kregen meer invloed in de steden",
             "Vlaanderen moest later toch zware betalingen aan Frankrijk doen",
             "Vlaanderen werd onmiddellijk een onafhankelijk koninkrijk",
+            "het verzet tegen de Franse koning bleef jaren doorgaan",
         ],
-        antwoord=[0, 1, 2],
+        antwoord=[0, 1, 2, 4],
         uitleg="Een koninkrijk werd het niet; de graaf bleef leenman van de Franse koning. De andere gevolgen zijn er wel gekomen.",
     ),
     dict(
@@ -331,8 +333,9 @@ DEEL2 = [
             "economische: handel en buit",
             "sociale: jongere adellijke zonen zochten een eigen gebied",
             "wetenschappelijke: de sterrenkunde bestuderen",
+            "godsdienstige: een aflaat en vergeving verdienen",
         ],
-        antwoord=[0, 1, 2],
+        antwoord=[0, 1, 2, 4],
         uitleg="Wetenschap was geen motief, al kwam er wel kennis mee terug. De andere lopen door elkaar bij bijna elke deelnemer.",
     ),
     dict(
@@ -347,11 +350,11 @@ DEEL2 = [
         opties=[
             "meer handel met het oosten, via Italiaanse steden",
             "nieuwe producten en kennis kwamen mee terug",
-            "de verhouding met moslims en joden verhardde",
+            "de verhouding met moslims en joden werd er juist beter door",
             "de standensamenleving verdween en iedereen werd vrij",
         ],
-        antwoord=[0, 1, 2],
-        uitleg="De standen bleven gewoon bestaan. De andere gevolgen zijn er wel gekomen, en ze spreken elkaar niet tegen.",
+        antwoord=[0, 1],
+        uitleg="De standen bleven gewoon bestaan, en de verhouding met moslims en joden verhardde juist. Meer handel met het oosten en nieuwe producten en kennis zijn er wel gekomen.",
     ),
     dict(
         type="waarofniet",

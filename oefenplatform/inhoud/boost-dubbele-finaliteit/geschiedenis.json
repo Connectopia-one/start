@@ -175,12 +175,14 @@
             "de gelaagde samenleving",
             "migratie",
             "slavernij",
-            "de drukkunst"
+            "de drukkunst",
+            "de verhouding tussen man en vrouw"
           ],
           "antwoord": [
             0,
             1,
-            2
+            2,
+            4
           ],
           "uitleg": "De drukkunst is een culturele en technologische zaak. Wie waar staat in de samenleving, wie zich verplaatst en wie onvrij is, hoort bij het sociale domein."
         },
@@ -222,12 +224,14 @@
             "lokaal",
             "mondiaal",
             "maritiem",
-            "revolutie"
+            "revolutie",
+            "ruraal"
           ],
           "antwoord": [
             0,
             1,
-            2
+            2,
+            4
           ],
           "uitleg": "Revolutie hoort bij tijd. Lokaal, regionaal, West-Europees, mondiaal, westers, niet-westers, stedelijk, ruraal, continentaal en maritiem horen bij ruimte."
         },
@@ -286,12 +290,14 @@
             "het einde van het West-Romeinse Rijk",
             "de aankomst van Columbus op de Caraïben",
             "de val van Constantinopel",
-            "de kroning van Karel de Grote"
+            "de kroning van Karel de Grote",
+            "de Franse Revolutie"
           ],
           "antwoord": [
             0,
             1,
-            2
+            2,
+            4
           ],
           "uitleg": "De kroning van Karel de Grote ligt middenin de middeleeuwen en begint geen nieuwe periode. De andere worden wél als grens gebruikt."
         },
@@ -337,15 +343,14 @@
           "opties": [
             "ze is gebouwd op een selectie, dus wat niet gekozen is, valt weg",
             "ze suggereert een scherpe breuk waar de werkelijkheid geleidelijk is",
-            "ze past niet even goed op niet-westerse samenlevingen",
+            "ze past op elke samenleving in de wereld even goed",
             "ze maakt het onmogelijk om gebeurtenissen te dateren"
           ],
           "antwoord": [
             0,
-            1,
-            2
+            1
           ],
-          "uitleg": "Dateren kan je nog altijd, dat is net wat een tijdrekening doet. De juiste antwoorden zijn de echte beperkingen."
+          "uitleg": "Dateren kan je nog altijd, dat is net wat een tijdrekening doet. En onze periodisering past juist niet even goed op niet-westerse samenlevingen: ze is op de Europese geschiedenis gebouwd."
         },
         {
           "type": "waarofniet",
@@ -432,15 +437,14 @@
           "opties": [
             "de druk van de Hunnen uit het oosten",
             "de rijkdom en het klimaat van het Romeinse rijk als aantrekkingskracht",
-            "de verzwakte grensverdediging van Rome",
+            "de keuze van de Germaanse leiders om te verhuizen",
             "de groei van de Germaanse bevolking"
           ],
           "antwoord": [
             0,
-            1,
-            2
+            1
           ],
-          "uitleg": "De bevolkingsgroei kwam uit de Germaanse samenlevingen zelf en is dus een interne oorzaak. De andere lagen buiten hun invloed."
+          "uitleg": "De bevolkingsgroei en de keuze van de leiders kwamen uit de Germaanse samenlevingen zelf en zijn dus interne oorzaken. De druk van de Hunnen en de rijkdom van Rome lagen buiten hun invloed."
         },
         {
           "type": "meerkeuze",
@@ -497,12 +501,14 @@
             "het Latijn als taal van kerk en bestuur",
             "het wegennet",
             "de indeling in bisdommen naar Romeinse steden",
-            "het gekozen keizerschap door het volk"
+            "het gekozen keizerschap door het volk",
+            "het Romeinse recht in de rechtspraak"
           ],
           "antwoord": [
             0,
             1,
-            2
+            2,
+            4
           ],
           "uitleg": "De Romeinse keizer werd niet door het volk gekozen, dus dat kon ook niet doorleven. De andere zijn wel blijvende sporen."
         },
@@ -676,12 +682,14 @@
             "met graven die een gouw bestuurden",
             "met rondreizende controleurs, de missi dominici",
             "met wetten en richtlijnen die hij liet opschrijven",
-            "met een vast parlement dat de wetten stemde"
+            "met een vast parlement dat de wetten stemde",
+            "met de Kerk, die zijn bevelen tot in de parochies bracht"
           ],
           "antwoord": [
             0,
             1,
-            2
+            2,
+            4
           ],
           "uitleg": "Een gekozen parlement bestond nog niet. De andere zijn wel de middelen waarmee hij bestuurde."
         },
@@ -763,15 +771,14 @@
           "opties": [
             "de invallen van de Noormannen",
             "de invallen van de Hongaren",
-            "de invallen van de Saracenen",
+            "de invallen van de Ottomanen",
             "de invallen van de Mongolen"
           ],
           "antwoord": [
             0,
-            1,
-            2
+            1
           ],
-          "uitleg": "De Mongolen bereiken Europa pas in de 13de eeuw en komen niet tot in het Frankische kerngebied. De andere golven vallen wel in deze eeuwen."
+          "uitleg": "De Mongolen bereiken Europa pas in de 13de eeuw en de Ottomanen nog later. De Noormannen en de Hongaren vallen wel in deze eeuwen, net als de Saracenen in het zuiden."
         },
         {
           "type": "meerkeuze",
@@ -886,12 +893,14 @@
             "eigen rechtspraak over de bewoners van het domein",
             "vrijstelling van bepaalde belastingen",
             "het recht om te jagen in de heerlijke bossen",
-            "het recht om te stemmen bij verkiezingen"
+            "het recht om te stemmen bij verkiezingen",
+            "het recht om wapens te dragen"
           ],
           "antwoord": [
             0,
             1,
-            2
+            2,
+            4
           ],
           "uitleg": "Verkiezingen bestonden niet. De andere voorrechten hielden de ongelijkheid juist in stand."
         },
@@ -1003,15 +1012,14 @@
           "opties": [
             "herendiensten op het vroonland",
             "een deel van de oogst afstaan",
-            "tol en heffingen betalen bij molen en oven",
+            "belasting betalen aan de koning in klinkende munt",
             "elk jaar in het leger van de koning dienen"
           ],
           "antwoord": [
             0,
-            1,
-            2
+            1
           ],
-          "uitleg": "Legerdienst hoorde bij de tweede stand. De andere zijn de gewone lasten van een horige, en ze maakten hem afhankelijk."
+          "uitleg": "Legerdienst hoorde bij de tweede stand, en een horige betaalde niet rechtstreeks aan de koning maar aan zijn heer, onder andere tol bij de molen en de oven. Herendiensten en een deel van de oogst waren zijn gewone lasten."
         },
         {
           "type": "meerkeuze",
@@ -1020,12 +1028,14 @@
             "het sociale domein",
             "het politieke domein",
             "het culturele domein",
-            "het maritieme domein"
+            "het maritieme domein",
+            "het economische domein"
           ],
           "antwoord": [
             0,
             1,
-            2
+            2,
+            4
           ],
           "uitleg": "Maritiem is een ruimtebegrip, geen domein. De standen bepalen wie waar staat, wie mag beslissen, en de Kerk geeft er de rechtvaardiging voor."
         },
@@ -1061,12 +1071,14 @@
             "een groeiende bevolking door betere landbouw",
             "meer veiligheid, waardoor handel over langere afstand kon",
             "de ligging aan een rivier, een weg of een kruispunt",
-            "de uitvinding van de stoommachine en van de spoorweg"
+            "de uitvinding van de stoommachine en van de spoorweg",
+            "een overschot aan voedsel om naar de markt te brengen"
           ],
           "antwoord": [
             0,
             1,
-            2
+            2,
+            4
           ],
           "uitleg": "De stoommachine komt pas in de 18de eeuw. De andere verklaren wel waarom steden opnieuw groeiden."
         },
@@ -1166,15 +1178,14 @@
           "opties": [
             "het belfort, als toren van de stedelijke vrijheid en bewaarplaats van de privileges",
             "de lakenhalle, om handelswaar te verhandelen en te keuren",
-            "de kathedraal, als centrum van het godsdienstige leven",
+            "de kazerne, als verblijf van het leger van de koning",
             "het kasteel van de koning, als zetel van het rijksbestuur"
           ],
           "antwoord": [
             0,
-            1,
-            2
+            1
           ],
-          "uitleg": "Een koninklijk kasteel hoorde niet bij de stad maar bij de vorst, en stond er vaak juist buiten of tegenover."
+          "uitleg": "Een koninklijk kasteel en een kazerne hoorden niet bij de stad maar bij de vorst. Het belfort en de lakenhalle zijn wel echte stadsgebouwen, en de kathedraal was het godsdienstige hart."
         },
         {
           "type": "waarofniet",
@@ -1201,12 +1212,14 @@
             "arbeid werd schaars, dus stegen de lonen",
             "sommige groepen, zoals de joden, kregen de schuld en werden vervolgd",
             "veel grond kwam leeg te liggen",
-            "de bevolking groeide sneller dan ooit"
+            "de bevolking groeide sneller dan ooit",
+            "boeren kregen betere voorwaarden van hun heer"
           ],
           "antwoord": [
             0,
             1,
-            2
+            2,
+            4
           ],
           "uitleg": "De bevolking kromp juist, en het duurde meer dan een eeuw voor ze zich herstelde."
         },
@@ -1308,12 +1321,14 @@
             "ze kopieerden en bewaarden oude teksten",
             "ze ontgonnen woeste grond tot landbouwgrond",
             "ze zorgden voor zieken en reizigers",
-            "ze sloegen de munten van de koning"
+            "ze sloegen de munten van de koning",
+            "ze gaven onderwijs aan jonge kinderen"
           ],
           "antwoord": [
             0,
             1,
-            2
+            2,
+            4
           ],
           "uitleg": "Munten slaan was een recht van de vorst. De andere taken maakten van een klooster een centrum van de streek."
         },
@@ -1371,15 +1386,14 @@
           "opties": [
             "rondbogen",
             "dikke muren met kleine vensters",
-            "een zware, gesloten en donkere indruk",
+            "hoge spitsbogen in het gewelf",
             "luchtbogen aan de buitenkant"
           ],
           "antwoord": [
             0,
-            1,
-            2
+            1
           ],
-          "uitleg": "Luchtbogen horen bij de gotiek. De romaanse kerk moet haar gewicht met dikke muren dragen, en dus blijven de vensters klein."
+          "uitleg": "Luchtbogen en spitsbogen horen bij de gotiek. De romaanse kerk moet haar gewicht met dikke muren dragen, en dus blijven de vensters klein en is de indruk zwaar en donker."
         },
         {
           "type": "meerkeuze",
@@ -1441,15 +1455,14 @@
           "opties": [
             "Griekse teksten kwamen via Arabische vertalingen terug in Europa",
             "de cijfers waarmee wij nog altijd rekenen, kwamen langs die weg",
-            "geneeskunde, sterrenkunde en wiskunde gingen er sterk op vooruit",
+            "de Europese geneeskunde bleef er onaangeroerd door",
             "de boekdrukkunst met losse letters werd er uitgevonden en verspreid"
           ],
           "antwoord": [
             0,
-            1,
-            2
+            1
           ],
-          "uitleg": "De boekdrukkunst met losse letters komt van Gutenberg, in de 15de eeuw. De andere lopen wel via Córdoba, Toledo en Palermo."
+          "uitleg": "De boekdrukkunst met losse letters komt van Gutenberg, in de 15de eeuw, en de Europese geneeskunde ging er juist sterk op vooruit. De Griekse teksten en de cijfers waarmee wij rekenen, lopen wel via Córdoba, Toledo en Palermo."
         },
         {
           "type": "waarofniet",
@@ -1531,12 +1544,14 @@
             "de Franse inlijving werd voorlopig afgewend",
             "de ambachten kregen meer invloed in de steden",
             "Vlaanderen moest later toch zware betalingen aan Frankrijk doen",
-            "Vlaanderen werd onmiddellijk een onafhankelijk koninkrijk"
+            "Vlaanderen werd onmiddellijk een onafhankelijk koninkrijk",
+            "het verzet tegen de Franse koning bleef jaren doorgaan"
           ],
           "antwoord": [
             0,
             1,
-            2
+            2,
+            4
           ],
           "uitleg": "Een koninkrijk werd het niet; de graaf bleef leenman van de Franse koning. De andere gevolgen zijn er wel gekomen."
         },
@@ -1601,12 +1616,14 @@
             "godsdienstige: de heilige plaatsen in bezit krijgen",
             "economische: handel en buit",
             "sociale: jongere adellijke zonen zochten een eigen gebied",
-            "wetenschappelijke: de sterrenkunde bestuderen"
+            "wetenschappelijke: de sterrenkunde bestuderen",
+            "godsdienstige: een aflaat en vergeving verdienen"
           ],
           "antwoord": [
             0,
             1,
-            2
+            2,
+            4
           ],
           "uitleg": "Wetenschap was geen motief, al kwam er wel kennis mee terug. De andere lopen door elkaar bij bijna elke deelnemer."
         },
@@ -1622,15 +1639,14 @@
           "opties": [
             "meer handel met het oosten, via Italiaanse steden",
             "nieuwe producten en kennis kwamen mee terug",
-            "de verhouding met moslims en joden verhardde",
+            "de verhouding met moslims en joden werd er juist beter door",
             "de standensamenleving verdween en iedereen werd vrij"
           ],
           "antwoord": [
             0,
-            1,
-            2
+            1
           ],
-          "uitleg": "De standen bleven gewoon bestaan. De andere gevolgen zijn er wel gekomen, en ze spreken elkaar niet tegen."
+          "uitleg": "De standen bleven gewoon bestaan, en de verhouding met moslims en joden verhardde juist. Meer handel met het oosten en nieuwe producten en kennis zijn er wel gekomen."
         },
         {
           "type": "waarofniet",
@@ -1694,12 +1710,14 @@
             "economisch: een eigen weg naar de specerijen van Azië",
             "godsdienstig: het christendom verspreiden",
             "politiek: aanzien en gebied voor de eigen vorst",
-            "sportief: een wedstrijd tussen zeelui"
+            "sportief: een wedstrijd tussen zeelui",
+            "economisch: goud en edele metalen zoeken"
           ],
           "antwoord": [
             0,
             1,
-            2
+            2,
+            4
           ],
           "uitleg": "Bij bijna elke reis lopen die drie door elkaar. Goud, God en glorie, zegt men wel eens."
         },
@@ -1763,15 +1781,14 @@
           "opties": [
             "het Aztekenrijk in Mexico",
             "het Incarijk in de Andes",
-            "de Mayasteden in Midden-Amerika",
+            "het Ottomaanse rijk",
             "het Chinese keizerrijk"
           ],
           "antwoord": [
             0,
-            1,
-            2
+            1
           ],
-          "uitleg": "China bleef buiten hun bereik. De andere vielen wel, met weinig soldaten maar met bondgenoten, paarden, vuurwapens en vooral ziekten."
+          "uitleg": "China en het Ottomaanse rijk bleven buiten hun bereik. De Azteken, de Inca's en ook de Mayasteden vielen wel, met weinig soldaten maar met bondgenoten, paarden, vuurwapens en vooral ziekten."
         },
         {
           "type": "meerkeuze",
@@ -1855,12 +1872,14 @@
             "zilver uit de Andes",
             "suiker en tabak uit de Caraïben",
             "aardappelen en maïs uit Amerika",
-            "rijst uit Amerika"
+            "rijst uit Amerika",
+            "cacao uit Midden-Amerika"
           ],
           "antwoord": [
             0,
             1,
-            2
+            2,
+            4
           ],
           "uitleg": "Rijst komt uit Azië. De andere veranderen Europa grondig: het zilver de prijzen, de aardappel en de maïs het voedsel."
         },
@@ -1919,15 +1938,14 @@
           "opties": [
             "van Europa naar Afrika: wapens, textiel en alcohol",
             "van Afrika naar Amerika: tot slaaf gemaakte mensen",
-            "van Amerika naar Europa: suiker, katoen en tabak",
+            "van Amerika naar Afrika: wapens en textiel",
             "van Europa naar Amerika: specerijen uit Azië"
           ],
           "antwoord": [
             0,
-            1,
-            2
+            1
           ],
-          "uitleg": "De specerijen kwamen langs een heel andere route. De andere ladingen sluiten de driehoek."
+          "uitleg": "De specerijen kwamen langs een heel andere route, en wapens en textiel gingen van Europa naar Afrika, niet van Amerika. Van Amerika kwamen suiker, katoen en tabak naar Europa."
         },
         {
           "type": "invultekst",
@@ -2059,15 +2077,14 @@
           "opties": [
             "de rijke burgerij wordt machtiger dan haar stand laat vermoeden",
             "sommige adellijke families verarmen",
-            "geld begint titels te kopen, door huwelijk of aankoop van een ambt",
+            "de adel sluit zich volledig af voor nieuwkomers",
             "de boeren worden de grootste grondbezitters"
           ],
           "antwoord": [
             0,
-            1,
-            2
+            1
           ],
-          "uitleg": "De grond bleef grotendeels in handen van adel en Kerk. De andere bewegingen ondergraven de oude ordening wel."
+          "uitleg": "De grond bleef grotendeels in handen van adel en Kerk, maar de adel sloot zich niet af: geld kocht titels, door een huwelijk of door de aankoop van een ambt. Dat ondergroef de oude ordening."
         },
         {
           "type": "waarofniet",
@@ -2131,12 +2148,14 @@
             "belangstelling voor de mens en zijn mogelijkheden",
             "teruggrijpen naar de Griekse en Romeinse oudheid",
             "kritisch onderzoek van de oorspronkelijke teksten",
-            "het verwerpen van elke vorm van godsdienst en geloof"
+            "het verwerpen van elke vorm van godsdienst en geloof",
+            "aandacht voor onderwijs en voor de oude talen"
           ],
           "antwoord": [
             0,
             1,
-            2
+            2,
+            4
           ],
           "uitleg": "De meeste humanisten bleven gelovig; Erasmus was priester. Ze wilden het geloof zuiveren, niet afschaffen."
         },
@@ -2188,15 +2207,14 @@
           "opties": [
             "misbruiken in de Kerk, zoals de aflaathandel",
             "de rijkdom en het wereldse leven van hoge geestelijken",
-            "de kritische lezing van de Bijbel door humanisten",
+            "het verbod om de Bijbel in het Latijn te lezen",
             "het verbod van de paus op elk kerkbezoek in Duitsland"
           ],
           "antwoord": [
             0,
-            1,
-            2
+            1
           ],
-          "uitleg": "Kerkbezoek werd nergens verboden. De andere samen verklaren waarom Luthers kritiek zo snel weerklank vond."
+          "uitleg": "Kerkbezoek werd nergens verboden, en het Latijn was juist de taal waarin de Bijbel wél gelezen werd. De misbruiken en het wereldse leven van hoge geestelijken verklaren, samen met de kritische bijbellezing van de humanisten, waarom Luthers kritiek zo snel weerklank vond."
         },
         {
           "type": "invultekst",
@@ -2241,12 +2259,14 @@
             "de predestinatie: God heeft vooraf bepaald wie gered wordt",
             "een sobere eredienst, in een kerk zonder beelden",
             "een kerk die door gekozen ouderlingen bestuurd wordt",
-            "de paus in Rome als hoogste gezag in de geloofsleer"
+            "de paus in Rome als hoogste gezag in de geloofsleer",
+            "de Bijbel als enige bron van geloof"
           ],
           "antwoord": [
             0,
             1,
-            2
+            2,
+            4
           ],
           "uitleg": "De paus erkennen ze juist niet. De andere kenmerken verklaren ook waarom calvinisten later zo op eigen bestuur gesteld waren."
         },
@@ -2341,15 +2361,14 @@
           "opties": [
             "evenwicht, rust en heldere verhoudingen",
             "perspectief, waardoor diepte ontstaat",
-            "het menselijk lichaam naar de natuur bestudeerd",
+            "het menselijk lichaam bewust vervormd en verlengd",
             "bewust scheve en onrustige lijnen"
           ],
           "antwoord": [
             0,
-            1,
-            2
+            1
           ],
-          "uitleg": "Onrust en beweging horen bij de barok. De renaissance zoekt juist de maat en het evenwicht."
+          "uitleg": "Onrust en beweging horen bij de barok, bewust vervormde lichamen bij het maniërisme. De renaissance zoekt de maat en het evenwicht, en studeert het lichaam naar de natuur."
         },
         {
           "type": "waarofniet",
@@ -2412,12 +2431,14 @@
             "beweging, drama en sterke licht-donkercontrasten",
             "weelderige versiering en rijke kleuren",
             "grote, meeslepende taferelen die de kijker willen raken",
-            "sobere, kale kerkruimtes zonder beelden"
+            "sobere, kale kerkruimtes zonder beelden",
+            "kunst die het katholieke geloof wil versterken"
           ],
           "antwoord": [
             0,
             1,
-            2
+            2,
+            4
           ],
           "uitleg": "Kale kerken zonder beelden horen bij het calvinisme. De barok wil juist overweldigen."
         },
@@ -2439,15 +2460,14 @@
           "opties": [
             "om hun macht en hun aanzien te tonen",
             "om hun paleizen en tuinen indruk te laten maken",
-            "om zichzelf in grote portretten te laten vereeuwigen",
+            "om de kosten van het hof te verbergen",
             "om hun onderdanen tot soberheid aan te zetten"
           ],
           "antwoord": [
             0,
-            1,
-            2
+            1
           ],
-          "uitleg": "Soberheid was wel het laatste wat Versailles uitstraalde. Kunst in dienst van geloof én macht, dat is de barok."
+          "uitleg": "Soberheid en zuinigheid waren wel het laatste wat Versailles uitstraalde. Macht en aanzien tonen, in paleizen, tuinen en grote portretten: dat is de barok in dienst van de vorst."
         },
         {
           "type": "waarofniet",
@@ -2541,12 +2561,14 @@
             "alle macht ligt bij de koning, die aan niemand verantwoording schuldig is",
             "de koning stelt zijn ministers zelf aan en zet ze zelf af",
             "de standenvergadering wordt niet meer bijeengeroepen",
-            "de koning wordt bij elke troonopvolging door het volk verkozen"
+            "de koning wordt bij elke troonopvolging door het volk verkozen",
+            "de koning beroept zich op een macht die van God komt"
           ],
           "antwoord": [
             0,
             1,
-            2
+            2,
+            4
           ],
           "uitleg": "Verkozen worden hoort bij een republiek. De andere kenmerken passen precies op Lodewijk XIV."
         },
@@ -2604,15 +2626,14 @@
           "opties": [
             "de koning wilde zonder het parlement regeren",
             "de koning was katholiek in een overwegend protestants land",
-            "het parlement vreesde voor zijn eigen bestaan",
+            "het parlement wilde zelf een katholieke koning",
             "Engeland verloor een oorlog tegen Frankrijk"
           ],
           "antwoord": [
             0,
-            1,
-            2
+            1
           ],
-          "uitleg": "Een verloren oorlog was er niet. De andere redenen brachten het parlement ertoe Willem III uit de Nederlanden te halen."
+          "uitleg": "Een verloren oorlog was er niet, en het parlement wilde juist geen katholieke koning: het vreesde voor zijn eigen bestaan. Daarom haalde het Willem III uit de Nederlanden."
         },
         {
           "type": "waarofniet",
@@ -2657,12 +2678,14 @@
             "de centralisatie tastte de oude privileges aan",
             "de vervolging van protestanten",
             "zware belastingen, zoals de tiende penning",
-            "de sluiting van alle havens door Engeland"
+            "de sluiting van alle havens door Engeland",
+            "de inquisitie en de nieuwe bisdommen"
           ],
           "antwoord": [
             0,
             1,
-            2
+            2,
+            4
           ],
           "uitleg": "Engeland sloot geen havens. De andere oorzaken brachten adel, steden en gelovigen samen in hetzelfde verzet."
         },
@@ -2794,12 +2817,14 @@
             "de mens heeft natuurlijke rechten op leven, vrijheid en bezit",
             "een bestuur dat die rechten schendt, mag afgezet worden",
             "kennis komt uit de ervaring",
-            "de koning ontleent zijn macht rechtstreeks aan God"
+            "de koning ontleent zijn macht rechtstreeks aan God",
+            "de overheid bestaat op grond van een afspraak met de bevolking"
           ],
           "antwoord": [
             0,
             1,
-            2
+            2,
+            4
           ],
           "uitleg": "Het droit divin verwerpt hij juist. De andere ideeën vind je bijna letterlijk terug in de Amerikaanse Onafhankelijkheidsverklaring."
         },
@@ -2893,15 +2918,14 @@
           "opties": [
             "de scheiding der machten",
             "de gelijkheid van alle Belgen voor de wet",
-            "de vrijheid van godsdienst en van meningsuiting",
+            "het stemrecht voor alle burgers",
             "de erfelijke voorrechten van de adel"
           ],
           "antwoord": [
             0,
-            1,
-            2
+            1
           ],
-          "uitleg": "Adellijke voorrechten zijn juist afgeschaft. De grondwet van 1831 gold in haar tijd als een van de meest verlichte van Europa."
+          "uitleg": "Adellijke voorrechten zijn juist afgeschaft, en algemeen stemrecht kwam er pas veel later: in 1831 mocht enkel wie genoeg belasting betaalde stemmen. De scheiding der machten en de gelijkheid voor de wet stonden er wel al in, net als de vrijheid van godsdienst en van mening."
         },
         {
           "type": "waarofniet",
@@ -2934,12 +2958,14 @@
             "gaan stemmen en je informeren over wat er beslist wordt",
             "een petitie ondertekenen of naar een inspraakmoment gaan",
             "je aansluiten bij een vereniging of een jeugdraad",
-            "alle beslissingen aan de vorst en zijn ministers overlaten"
+            "alle beslissingen aan de vorst en zijn ministers overlaten",
+            "naar de gemeenteraad gaan of je bestuur aanschrijven"
           ],
           "antwoord": [
             0,
             1,
-            2
+            2,
+            4
           ],
           "uitleg": "Een rechtsstaat leeft van wie meedoet. De andere wegen staan voor iedereen open, ook voor wie nog niet mag stemmen."
         },
@@ -2968,15 +2994,14 @@
           "opties": [
             "belastingen zonder vertegenwoordiging in het Londense parlement",
             "Londen bepaalde met wie de kolonies mochten handelen",
-            "verlichte ideeën over vrijheid en natuurlijke rechten",
+            "een verbod op het spreken van Engels in de kolonies",
             "een jarenlange hongersnood in de dertien kolonies zelf"
           ],
           "antwoord": [
             0,
-            1,
-            2
+            1
           ],
-          "uitleg": "Van een hongersnood was geen sprake. De andere oorzaken samen verklaren waarom dertien kolonies zich verenigden."
+          "uitleg": "Van een hongersnood of een taalverbod was geen sprake. De belastingen zonder vertegenwoordiging en de handelsdwang uit Londen, samen met de verlichte ideeën, verklaren waarom dertien kolonies zich verenigden."
         },
         {
           "type": "meerkeuze",
@@ -3057,12 +3082,14 @@
             "mensen worden vrij en gelijk in rechten geboren",
             "de soevereiniteit berust bij de natie",
             "vrijheid van mening en van godsdienst",
-            "het behoud van de voorrechten van de adel"
+            "het behoud van de voorrechten van de adel",
+            "niemand mag willekeurig worden opgesloten"
           ],
           "antwoord": [
             0,
             1,
-            2
+            2,
+            4
           ],
           "uitleg": "De voorrechten werden in de nacht van 4 augustus juist afgeschaft. De andere punten zijn verlichte ideeën, woord voor woord."
         },
@@ -3108,15 +3135,14 @@
           "opties": [
             "allebei beroepen ze zich op verlichte ideeën",
             "allebei verwerpen ze een gezag waarin de bevolking niet vertegenwoordigd is",
-            "allebei leggen ze rechten vast in een geschreven tekst",
+            "allebei schaffen ze de slavernij onmiddellijk af",
             "allebei stellen ze op het einde een erfelijke keizer aan"
           ],
           "antwoord": [
             0,
-            1,
-            2
+            1
           ],
-          "uitleg": "Een keizer komt er enkel in Frankrijk, en pas achteraf. De andere punten maken van de twee revoluties familie van elkaar."
+          "uitleg": "Een keizer komt er enkel in Frankrijk, en pas achteraf, en de slavernij bleef in beide landen nog lang bestaan. Verlichte ideeën, verzet tegen een gezag zonder vertegenwoordiging en rechten op papier maken van de twee revoluties familie van elkaar."
         },
         {
           "type": "waarofniet",
@@ -3216,12 +3242,14 @@
             "het werk wordt opgesplitst in kleine, vaste handelingen",
             "arbeiders werken samen in een fabriek in plaats van thuis",
             "er wordt op vaste uren gewerkt, op het ritme van de machine",
-            "elke arbeider maakt een product van begin tot eind"
+            "elke arbeider maakt een product van begin tot eind",
+            "er komt toezicht van een opzichter op de werkvloer"
           ],
           "antwoord": [
             0,
             1,
-            2
+            2,
+            4
           ],
           "uitleg": "Dat laatste is juist wat verdwijnt. De andere maken van werken iets heel anders dan het was."
         },
@@ -3249,15 +3277,14 @@
           "opties": [
             "steenkool en ijzererts in eigen bodem",
             "kapitaal uit handel en koloniën",
-            "arbeidskrachten die door landbouwvernieuwing vrijkwamen",
+            "een groeiende vraag naar goedkoop katoen",
             "een verbod op het oprichten van ondernemingen"
           ],
           "antwoord": [
             0,
-            1,
-            2
+            1
           ],
-          "uitleg": "Een verbod was er juist niet; ondernemen was er makkelijker dan elders. De andere factoren lagen er toevallig alle drie samen."
+          "uitleg": "Een verbod was er juist niet; ondernemen was er makkelijker dan elders. De vraag naar katoen is een vraagfactor, geen aanbodfactor. Steenkool, kapitaal en arbeidskrachten die vrijkwamen uit de landbouw, lagen er wel toevallig samen."
         },
         {
           "type": "meerkeuze",
@@ -3338,12 +3365,14 @@
             "cijfers over steenkoolproductie en bevolkingsgroei",
             "kaarten met kolenvelden, kanalen en spoorlijnen",
             "verslagen van onderzoekscommissies over de arbeidsomstandigheden",
-            "een roman uit de 21ste eeuw die in die tijd gesitueerd is"
+            "een roman uit de 21ste eeuw die in die tijd gesitueerd is",
+            "krantenberichten uit die jaren"
           ],
           "antwoord": [
             0,
             1,
-            2
+            2,
+            4
           ],
           "uitleg": "Een hedendaagse roman is geen bron over die tijd zelf, hooguit over hoe wij ernaar kijken. De andere zijn wel bronnen uit de periode."
         },
@@ -3522,15 +3551,14 @@
           "opties": [
             "door oorlog, aan de grenzen in de Balkan en op zee",
             "door handel in het Middellandse Zeegebied",
-            "door diplomatie, met vaste gezanten aan het hof",
+            "door een gedeelde munt tussen beide gebieden",
             "door een volledige afsluiting van elke grens"
           ],
           "antwoord": [
             0,
-            1,
-            2
+            1
           ],
-          "uitleg": "Afgesloten was er niets. Oorlog, handel en diplomatie liepen tegelijk, soms tussen dezelfde partijen."
+          "uitleg": "Afgesloten was er niets, en een gedeelde munt was er evenmin. Oorlog, handel en diplomatie met vaste gezanten liepen tegelijk, soms tussen dezelfde partijen."
         },
         {
           "type": "waarofniet",

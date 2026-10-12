@@ -20,11 +20,11 @@ DEEL1 = [
         opties=[
             "de druk van de Hunnen uit het oosten",
             "de rijkdom en het klimaat van het Romeinse rijk als aantrekkingskracht",
-            "de verzwakte grensverdediging van Rome",
+            "de keuze van de Germaanse leiders om te verhuizen",
             "de groei van de Germaanse bevolking",
         ],
-        antwoord=[0, 1, 2],
-        uitleg="De bevolkingsgroei kwam uit de Germaanse samenlevingen zelf en is dus een interne oorzaak. De andere lagen buiten hun invloed.",
+        antwoord=[0, 1],
+        uitleg="De bevolkingsgroei en de keuze van de leiders kwamen uit de Germaanse samenlevingen zelf en zijn dus interne oorzaken. De druk van de Hunnen en de rijkdom van Rome lagen buiten hun invloed.",
     ),
     dict(
         type="meerkeuze",
@@ -82,8 +82,9 @@ DEEL1 = [
             "het wegennet",
             "de indeling in bisdommen naar Romeinse steden",
             "het gekozen keizerschap door het volk",
+            "het Romeinse recht in de rechtspraak",
         ],
-        antwoord=[0, 1, 2],
+        antwoord=[0, 1, 2, 4],
         uitleg="De Romeinse keizer werd niet door het volk gekozen, dus dat kon ook niet doorleven. De andere zijn wel blijvende sporen.",
     ),
     dict(
@@ -253,8 +254,9 @@ DEEL2 = [
             "met rondreizende controleurs, de missi dominici",
             "met wetten en richtlijnen die hij liet opschrijven",
             "met een vast parlement dat de wetten stemde",
+            "met de Kerk, die zijn bevelen tot in de parochies bracht",
         ],
-        antwoord=[0, 1, 2],
+        antwoord=[0, 1, 2, 4],
         uitleg="Een gekozen parlement bestond nog niet. De andere zijn wel de middelen waarmee hij bestuurde.",
     ),
     dict(
@@ -335,11 +337,11 @@ DEEL2 = [
         opties=[
             "de invallen van de Noormannen",
             "de invallen van de Hongaren",
-            "de invallen van de Saracenen",
+            "de invallen van de Ottomanen",
             "de invallen van de Mongolen",
         ],
-        antwoord=[0, 1, 2],
-        uitleg="De Mongolen bereiken Europa pas in de 13de eeuw en komen niet tot in het Frankische kerngebied. De andere golven vallen wel in deze eeuwen.",
+        antwoord=[0, 1],
+        uitleg="De Mongolen bereiken Europa pas in de 13de eeuw en de Ottomanen nog later. De Noormannen en de Hongaren vallen wel in deze eeuwen, net als de Saracenen in het zuiden.",
     ),
     dict(
         type="meerkeuze",

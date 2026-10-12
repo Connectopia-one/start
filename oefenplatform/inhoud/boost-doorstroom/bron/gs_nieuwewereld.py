@@ -23,8 +23,9 @@ DEEL1 = [
             "godsdienstig: het christendom verspreiden",
             "politiek: aanzien en gebied voor de eigen vorst",
             "sportief: een wedstrijd tussen zeelui",
+            "economisch: goud en edele metalen zoeken",
         ],
-        antwoord=[0, 1, 2],
+        antwoord=[0, 1, 2, 4],
         uitleg="Bij bijna elke reis lopen die drie door elkaar. Goud, God en glorie, zegt men wel eens.",
     ),
     dict(
@@ -87,11 +88,11 @@ DEEL1 = [
         opties=[
             "het Aztekenrijk in Mexico",
             "het Incarijk in de Andes",
-            "de Mayasteden in Midden-Amerika",
+            "het Ottomaanse rijk",
             "het Chinese keizerrijk",
         ],
-        antwoord=[0, 1, 2],
-        uitleg="China bleef buiten hun bereik. De andere vielen wel, met weinig soldaten maar met bondgenoten, paarden, vuurwapens en vooral ziekten.",
+        antwoord=[0, 1],
+        uitleg="China en het Ottomaanse rijk bleven buiten hun bereik. De Azteken, de Inca's en ook de Mayasteden vielen wel, met weinig soldaten maar met bondgenoten, paarden, vuurwapens en vooral ziekten.",
     ),
     dict(
         type="meerkeuze",
@@ -173,8 +174,9 @@ DEEL1 = [
             "suiker en tabak uit de Caraïben",
             "aardappelen en maïs uit Amerika",
             "rijst uit Amerika",
+            "cacao uit Midden-Amerika",
         ],
-        antwoord=[0, 1, 2],
+        antwoord=[0, 1, 2, 4],
         uitleg="Rijst komt uit Azië. De andere veranderen Europa grondig: het zilver de prijzen, de aardappel en de maïs het voedsel.",
     ),
     dict(
@@ -228,11 +230,11 @@ DEEL2 = [
         opties=[
             "van Europa naar Afrika: wapens, textiel en alcohol",
             "van Afrika naar Amerika: tot slaaf gemaakte mensen",
-            "van Amerika naar Europa: suiker, katoen en tabak",
+            "van Amerika naar Afrika: wapens en textiel",
             "van Europa naar Amerika: specerijen uit Azië",
         ],
-        antwoord=[0, 1, 2],
-        uitleg="De specerijen kwamen langs een heel andere route. De andere ladingen sluiten de driehoek.",
+        antwoord=[0, 1],
+        uitleg="De specerijen kwamen langs een heel andere route, en wapens en textiel gingen van Europa naar Afrika, niet van Amerika. Van Amerika kwamen suiker, katoen en tabak naar Europa.",
     ),
     dict(
         type="invultekst",
@@ -266,8 +268,9 @@ DEEL2 = [
             "kapitaal wordt door meerdere mensen samengelegd",
             "het risico van een reis wordt gespreid over vele aandeelhouders",
             "de vorst bezit alle handelsschepen en alle handelswaar van het land",
+            "banken en beurzen maken grote leningen mogelijk",
         ],
-        antwoord=[0, 1, 2],
+        antwoord=[0, 1, 2, 4],
         uitleg="De schepen waren meestal van particuliere compagnieën, niet van de vorst. De andere kenmerken maken het verschil met de oudere handel.",
     ),
     dict(
@@ -360,11 +363,11 @@ DEEL2 = [
         opties=[
             "de rijke burgerij wordt machtiger dan haar stand laat vermoeden",
             "sommige adellijke families verarmen",
-            "geld begint titels te kopen, door huwelijk of aankoop van een ambt",
+            "de adel sluit zich volledig af voor nieuwkomers",
             "de boeren worden de grootste grondbezitters",
         ],
-        antwoord=[0, 1, 2],
-        uitleg="De grond bleef grotendeels in handen van adel en Kerk. De andere bewegingen ondergraven de oude ordening wel.",
+        antwoord=[0, 1],
+        uitleg="De grond bleef grotendeels in handen van adel en Kerk, maar de adel sloot zich niet af: geld kocht titels, door een huwelijk of door de aankoop van een ambt. Dat ondergroef de oude ordening.",
     ),
     dict(
         type="waarofniet",

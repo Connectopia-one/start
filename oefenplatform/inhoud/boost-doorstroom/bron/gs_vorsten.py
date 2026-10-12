@@ -25,8 +25,9 @@ DEEL1 = [
             "de koning stelt zijn ministers zelf aan en zet ze zelf af",
             "de standenvergadering wordt niet meer bijeengeroepen",
             "de koning wordt bij elke troonopvolging door het volk verkozen",
+            "de koning beroept zich op een macht die van God komt",
         ],
-        antwoord=[0, 1, 2],
+        antwoord=[0, 1, 2, 4],
         uitleg="Verkozen worden hoort bij een republiek. De andere kenmerken passen precies op Lodewijk XIV.",
     ),
     dict(
@@ -83,11 +84,11 @@ DEEL1 = [
         opties=[
             "de koning wilde zonder het parlement regeren",
             "de koning was katholiek in een overwegend protestants land",
-            "het parlement vreesde voor zijn eigen bestaan",
+            "het parlement wilde zelf een katholieke koning",
             "Engeland verloor een oorlog tegen Frankrijk",
         ],
-        antwoord=[0, 1, 2],
-        uitleg="Een verloren oorlog was er niet. De andere redenen brachten het parlement ertoe Willem III uit de Nederlanden te halen.",
+        antwoord=[0, 1],
+        uitleg="Een verloren oorlog was er niet, en het parlement wilde juist geen katholieke koning: het vreesde voor zijn eigen bestaan. Daarom haalde het Willem III uit de Nederlanden.",
     ),
     dict(
         type="waarofniet",
@@ -133,8 +134,9 @@ DEEL1 = [
             "de vervolging van protestanten",
             "zware belastingen, zoals de tiende penning",
             "de sluiting van alle havens door Engeland",
+            "de inquisitie en de nieuwe bisdommen",
         ],
-        antwoord=[0, 1, 2],
+        antwoord=[0, 1, 2, 4],
         uitleg="Engeland sloot geen havens. De andere oorzaken brachten adel, steden en gelovigen samen in hetzelfde verzet.",
     ),
     dict(
@@ -257,8 +259,9 @@ DEEL2 = [
             "een bestuur dat die rechten schendt, mag afgezet worden",
             "kennis komt uit de ervaring",
             "de koning ontleent zijn macht rechtstreeks aan God",
+            "de overheid bestaat op grond van een afspraak met de bevolking",
         ],
-        antwoord=[0, 1, 2],
+        antwoord=[0, 1, 2, 4],
         uitleg="Het droit divin verwerpt hij juist. De andere ideeën vind je bijna letterlijk terug in de Amerikaanse Onafhankelijkheidsverklaring.",
     ),
     dict(
@@ -351,11 +354,11 @@ DEEL2 = [
         opties=[
             "de scheiding der machten",
             "de gelijkheid van alle Belgen voor de wet",
-            "de vrijheid van godsdienst en van meningsuiting",
+            "het stemrecht voor alle burgers",
             "de erfelijke voorrechten van de adel",
         ],
-        antwoord=[0, 1, 2],
-        uitleg="Adellijke voorrechten zijn juist afgeschaft. De grondwet van 1831 gold in haar tijd als een van de meest verlichte van Europa.",
+        antwoord=[0, 1],
+        uitleg="Adellijke voorrechten zijn juist afgeschaft, en algemeen stemrecht kwam er pas veel later: in 1831 mocht enkel wie genoeg belasting betaalde stemmen. De scheiding der machten en de gelijkheid voor de wet stonden er wel al in, net als de vrijheid van godsdienst en van mening.",
     ),
     dict(
         type="waarofniet",
@@ -389,8 +392,9 @@ DEEL2 = [
             "een petitie ondertekenen of naar een inspraakmoment gaan",
             "je aansluiten bij een vereniging of een jeugdraad",
             "alle beslissingen aan de vorst en zijn ministers overlaten",
+            "naar de gemeenteraad gaan of je bestuur aanschrijven",
         ],
-        antwoord=[0, 1, 2],
+        antwoord=[0, 1, 2, 4],
         uitleg="Een rechtsstaat leeft van wie meedoet. De andere wegen staan voor iedereen open, ook voor wie nog niet mag stemmen.",
     ),
     dict(
