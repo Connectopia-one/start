@@ -761,12 +761,14 @@
             "Het land",
             "Het werelddeel",
             "De oceaan",
-            "Het gebergte"
+            "Het gebergte",
+            "De streek"
           ],
           "antwoord": [
             0,
             1,
-            2
+            2,
+            5
           ],
           "uitleg": "Staatkundige referentiepunten zijn door mensen getrokken: een gemeente of stad, een streek, een land, een werelddeel. Een oceaan of een gebergte is topografisch."
         },
@@ -840,16 +842,15 @@
           "opties": [
             "Een kompas gebruiken",
             "De stand van de zon bekijken",
-            "De noordpijl op je kaart volgen",
+            "De legende van je kaart bekijken",
             "De schaal van je kaart aflezen",
             "De titel van je kaart lezen"
           ],
           "antwoord": [
             0,
-            1,
-            2
+            1
           ],
-          "uitleg": "Oriënteren is bepalen welke kant je uit kijkt. Dat doe je met een kompas, met de zon of met de noordpijl. De schaal en de titel zeggen daar niets over."
+          "uitleg": "Oriënteren is bepalen welke kant je uit kijkt. Dat doe je met een kompas, met de zon of met de noordpijl op je kaart. De schaal, de titel en de legende zeggen daar niets over."
         },
         {
           "type": "invultekst",
@@ -1002,16 +1003,15 @@
           "opties": [
             "Naaldbomen",
             "Loofbomen",
-            "Grassen en mossen",
+            "Een bloemenweide die elk jaar ingezaaid wordt",
             "Fruitbomen in een boomgaard",
             "Maïs op een akker"
           ],
           "antwoord": [
             0,
-            1,
-            2
+            1
           ],
-          "uitleg": "Natuurlijke vegetatie groeit vanzelf: naaldbomen, loofbomen, grassen en mossen. Een boomgaard en een maïsakker zijn door de mens aangeplant en horen bij de landbouw."
+          "uitleg": "Natuurlijke vegetatie groeit vanzelf: naaldbomen, loofbomen, grassen en mossen. Een boomgaard, een maïsakker en een ingezaaide weide zijn door de mens aangeplant en horen bij de landbouw."
         },
         {
           "type": "waarofniet",
@@ -1287,12 +1287,14 @@
             "Een skipiste",
             "Een provinciaal domein met wandelpaden",
             "Een containerterminal in de haven",
-            "Een rioolwaterzuivering"
+            "Een rioolwaterzuivering",
+            "Een pretpark"
           ],
           "antwoord": [
             0,
             1,
-            2
+            2,
+            5
           ],
           "uitleg": "Recreatie en toerisme is grondgebruik voor vrije tijd: campings, domeinen, pretparken, pistes, jachthavens. Een terminal en een zuivering dienen daar niet voor."
         },
@@ -1375,16 +1377,15 @@
           "opties": [
             "De Kempense Laagvlakte",
             "De Laagvlakte van de Kust",
-            "De Vlaamse Laagvlakte",
+            "De Condroz",
             "Het Plateau van Herve",
             "Het Lotharings Plateau"
           ],
           "antwoord": [
             0,
-            1,
-            2
+            1
           ],
-          "uitleg": "De fiche noemt drie laagvlaktes: de Kempense, die van de Kust en de Vlaamse. Herve en Lotharingen zijn plateaus en liggen veel hoger."
+          "uitleg": "De fiche noemt drie laagvlaktes: de Kempense, die van de Kust en de Vlaamse. Herve, Lotharingen en de Condroz liggen veel hoger."
         },
         {
           "type": "meerkeuze",
@@ -1394,12 +1395,14 @@
             "Het Henegouws Laagplateau",
             "Het Brabants Laagplateau",
             "De Fagne-Famennedepressie",
-            "Het Plateau van de Ardennen"
+            "Het Plateau van de Ardennen",
+            "Het Kempens Laagplateau"
           ],
           "antwoord": [
             0,
             1,
-            2
+            2,
+            5
           ],
           "uitleg": "De fiche noemt vier laagplateaus: het Haspengouwse, het Henegouwse, het Brabantse en het Kempense. De Fagne-Famennedepressie en de Ardennen horen bij de zuidelijke eenheden."
         },
@@ -1441,12 +1444,14 @@
             "Gematigd",
             "Koud",
             "Bergachtig",
-            "Winderig"
+            "Winderig",
+            "Droog"
           ],
           "antwoord": [
             0,
             1,
-            2
+            2,
+            5
           ],
           "uitleg": "De fiche werkt met vijf woorden voor klimaatzones: warm, gematigd, koud, droog en nat. Bergachtig gaat over reliëf, winderig over het weer."
         },
@@ -1547,16 +1552,15 @@
           "opties": [
             "Woestijnen",
             "Hooggebergten",
-            "Poolgebieden",
+            "Delta's waar een rivier in de zee uitmondt",
             "Rivierdalen met vruchtbare grond",
             "Kustvlaktes met een gematigd klimaat"
           ],
           "antwoord": [
             0,
-            1,
-            2
+            1
           ],
-          "uitleg": "Waar het te droog, te hoog of te koud is, wonen weinig mensen. Vruchtbare rivierdalen en gematigde kustvlaktes trekken er juist veel aan."
+          "uitleg": "Waar het te droog, te hoog of te koud is, wonen weinig mensen. Vruchtbare rivierdalen, gematigde kustvlaktes en delta's trekken er juist veel aan."
         },
         {
           "type": "waarofniet",
@@ -1898,16 +1902,15 @@
           "opties": [
             "Huizen en akkers verdwijnen onder lava en as",
             "Mensen moeten hun dorp in allerijl verlaten",
-            "De lucht raakt gevuld met as en met gassen",
+            "De zeespiegel stijgt wereldwijd een meter",
             "De bodem wordt er stilaan een stuk vruchtbaarder",
             "Er groeit na verloop van tijd een nieuw bos op"
           ],
           "antwoord": [
             0,
-            1,
-            2
+            1
           ],
-          "uitleg": "Op korte termijn is een uitbarsting vernietigend: bedelven, vluchten, een lucht vol as. Een vruchtbare bodem en nieuw bos komen pas jaren later."
+          "uitleg": "Op korte termijn is een uitbarsting vernietigend: bedelven, vluchten, een lucht vol as en gassen. Een vruchtbare bodem en nieuw bos komen pas jaren later, en de zeespiegel komt er niet aan te pas."
         },
         {
           "type": "meerkeuze",
@@ -2070,16 +2073,15 @@
           "opties": [
             "Stromend water",
             "Wind",
-            "Bewegend ijs",
+            "De magneetkracht van de aardkern",
             "De zwaartekracht van de maan",
             "De warmte van de zon"
           ],
           "antwoord": [
             0,
-            1,
-            2
+            1
           ],
-          "uitleg": "De fiche noemt wind, water en ijs als de drie krachten die het reliëf veranderen. Zon en maan spelen een rol in het weer en de getijden, maar voeren zelf niets weg."
+          "uitleg": "De fiche noemt wind, water en ijs als de drie krachten die het reliëf veranderen. De zon, de maan en de magneetkracht van de kern voeren zelf niets weg."
         },
         {
           "type": "meerkeuze",
@@ -2135,16 +2137,15 @@
           "opties": [
             "Er groeien nauwelijks planten die het zand vasthouden",
             "De wind heeft er daardoor vrij spel",
-            "Duinen verplaatsen zich er over de jaren heen",
+            "De korrels kleven aan elkaar door het zout",
             "Het zand is er lichter dan zand aan onze kust",
             "Er valt er nooit een druppel regen op de bodem"
           ],
           "antwoord": [
             0,
-            1,
-            2
+            1
           ],
-          "uitleg": "Plantenwortels houden losse korrels vast. Waar niets groeit, kan de wind het zand oppakken en verplaatsen de duinen zich. Het zand zelf weegt evenveel als elders, en ook in een woestijn regent het soms."
+          "uitleg": "Plantenwortels houden losse korrels vast. Waar niets groeit, kan de wind het zand oppakken en verplaatsen de duinen zich over de jaren heen. Het zand zelf weegt evenveel als elders, het kleeft niet aan elkaar, en ook in een woestijn regent het soms."
         },
         {
           "type": "meerkeuze",

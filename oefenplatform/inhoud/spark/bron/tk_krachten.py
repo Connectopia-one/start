@@ -332,12 +332,12 @@ DEEL2 = [
         vraag="Welke uitspraken over een boog in een constructie kloppen?",
         opties=[
             "Ze leidt het gewicht naar de zijkanten weg",
-            "Ze zit in oude bruggen en in poorten",
+            "Ze is altijd van beton gemaakt",
             "Ze kan een grote opening overspannen",
             "Ze houdt de regen volledig tegen",
         ],
-        antwoord=[0, 1, 2],
-        uitleg="Een boog verandert het gewicht van bovenaf in drukkracht die schuin naar de steunpunten loopt. Steen kan die druk aan, en zo kan een boog ver overspannen.",
+        antwoord=[0, 2],
+        uitleg="Een boog verandert het gewicht van bovenaf in drukkracht die schuin naar de steunpunten loopt. Steen kan die druk aan, dus hoeft een boog zeker niet van beton te zijn, en zo overspannen oude bruggen en poorten een grote opening.",
     ),
     dict(
         type="waarofniet",
@@ -381,11 +381,11 @@ DEEL2 = [
         opties=[
             "Hij vervormt niet als de verbindingen vastzitten",
             "Hij komt voor in de gebinten van een dak",
-            "Hij komt voor in de armen van een kraan",
+            "Hij kan enkel in hout gemaakt worden",
             "Hij is altijd zwaarder dan een rechthoek",
         ],
-        antwoord=[0, 1, 2],
-        uitleg="Over het gewicht zegt de vorm niets: dat hangt af van het materiaal en de afmetingen.",
+        antwoord=[0, 1],
+        uitleg="Een driehoek met vaste verbindingen kan niet vervormen, en daarom zit hij in dakgebinten en in kraanarmen. Over het gewicht of het materiaal zegt de vorm niets.",
     ),
     dict(
         type="waarofniet",

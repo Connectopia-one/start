@@ -133,12 +133,12 @@ DEEL1 = [
         opties=[
             "Verbruikers",
             "Schakelaars",
-            "Spanningsbronnen",
+            "Het meetsnoer van de multimeter",
             "De deur van de kamer",
             "De werktafel in het lokaal",
         ],
-        antwoord=[0, 1, 2],
-        uitleg="De fiche noemt uitdrukkelijk verbruikers, schakelaars en spanningsbronnen. Van batterijen achter elkaar krijg je bijvoorbeeld meer spanning.",
+        antwoord=[0, 1],
+        uitleg="De fiche noemt verbruikers, schakelaars en spanningsbronnen; van batterijen achter elkaar krijg je bijvoorbeeld meer spanning. Een deur, een werktafel of een meetsnoer schakel je niet in serie of parallel.",
     ),
     dict(
         type="meerkeuze",
@@ -273,12 +273,12 @@ DEEL2 = [
         opties=[
             "Kortsluiting",
             "Overbelasting",
-            "Elektrocutie",
+            "Waterschade aan het plafond",
             "Verroesting van de muur",
             "Uitdroging van de lucht",
         ],
-        antwoord=[0, 1, 2],
-        uitleg="De fiche noemt kortsluiting, overbelasting, brandgevaar en elektrocutie. Roest en droge lucht hebben er niets mee te maken.",
+        antwoord=[0, 1],
+        uitleg="De fiche noemt kortsluiting, overbelasting, brandgevaar en elektrocutie. Roest, droge lucht of een lek in het plafond hebben er niets mee te maken.",
     ),
     dict(
         type="waarofniet",
@@ -316,12 +316,12 @@ DEEL2 = [
         opties=[
             "De aarding",
             "De automatische zekering",
-            "De verliesstroomschakelaar",
+            "De dimmer van de lamp",
             "De rookmelder in de gang",
             "Het brandblusapparaat aan de deur",
         ],
-        antwoord=[0, 1, 2],
-        uitleg="De fiche noemt de aarding, de automatische zekering, de elektrische isolatie, de dubbele isolatie en de verliesstroomschakelaar. Een rookmelder en een blusapparaat zijn nuttig, maar geen onderdeel van de installatie.",
+        antwoord=[0, 1],
+        uitleg="De fiche noemt de aarding, de automatische zekering, de elektrische isolatie, de dubbele isolatie en de verliesstroomschakelaar. Een rookmelder, een blusapparaat of een dimmer beveiligen de installatie niet.",
     ),
     dict(
         type="waarofniet",

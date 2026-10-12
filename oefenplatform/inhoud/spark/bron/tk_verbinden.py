@@ -115,11 +115,11 @@ DEEL1 = [
         opties=[
             "Welke materialen je aan elkaar lijmt",
             "Of de verbinding nat kan worden",
-            "Hoeveel tijd je hebt om nog te schikken",
+            "Hoeveel de lijm weegt in de tube",
             "Welke kleur de verpakking van de lijm heeft",
         ],
-        antwoord=[0, 1, 2],
-        uitleg="Op de verpakking van een lijm staat voor welke materialen ze dient, of ze watervast is en hoe lang de verwerkingstijd is. Dat is de productinformatie waar de fiche naar vraagt.",
+        antwoord=[0, 1],
+        uitleg="Op de verpakking van een lijm staat voor welke materialen ze dient, of ze watervast is en hoe lang de verwerkingstijd is. De kleur van de verpakking en het gewicht van de tube staan daar niet voor.",
     ),
     dict(
         type="waarofniet",

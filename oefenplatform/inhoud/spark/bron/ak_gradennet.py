@@ -322,8 +322,9 @@ DEEL2 = [
             "Het werelddeel",
             "De oceaan",
             "Het gebergte",
+            "De streek",
         ],
-        antwoord=[0, 1, 2],
+        antwoord=[0, 1, 2, 5],
         uitleg="Staatkundige referentiepunten zijn door mensen getrokken: een gemeente of stad, een streek, een land, een werelddeel. Een oceaan of een gebergte is topografisch.",
     ),
     dict(
@@ -393,12 +394,12 @@ DEEL2 = [
         opties=[
             "Een kompas gebruiken",
             "De stand van de zon bekijken",
-            "De noordpijl op je kaart volgen",
+            "De legende van je kaart bekijken",
             "De schaal van je kaart aflezen",
             "De titel van je kaart lezen",
         ],
-        antwoord=[0, 1, 2],
-        uitleg="Oriënteren is bepalen welke kant je uit kijkt. Dat doe je met een kompas, met de zon of met de noordpijl. De schaal en de titel zeggen daar niets over.",
+        antwoord=[0, 1],
+        uitleg="Oriënteren is bepalen welke kant je uit kijkt. Dat doe je met een kompas, met de zon of met de noordpijl op je kaart. De schaal, de titel en de legende zeggen daar niets over.",
     ),
     dict(
         type="invultekst",

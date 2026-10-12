@@ -29,9 +29,14 @@ VERVANGINGEN = {
             uitleg="Macht, bestuur, wetten en oorlog horen bij het politieke domein. De tempel is cultureel, de handel economisch.")),
         (10, dict(
             vraag="Welke van deze horen bij het culturele domein?",
-            opties=["Een beeld maken van een god", "Een nieuwe sterrenkundige berekening",
-                    "Belastingen innen", "Een kanaal graven naar de akkers"],
-            antwoord=[0, 1],
+            opties=[
+                "Een beeld maken van een god",
+                "Een nieuwe sterrenkundige berekening",
+                "Belastingen innen",
+                "Een kanaal graven naar de akkers",
+                "Een verhaal opschrijven in een nieuwe taal",
+            ],
+            antwoord=[0, 1, 4],
             uitleg="Religie, kunst, wetenschap en taal zijn cultureel. Belastingen innen is politiek, en het kanaal is economisch.")),
         (13, dict(
             vraag="Welke structuurbegrippen passen bij Athene?",
@@ -108,8 +113,9 @@ VERVANGINGEN = {
                 "dieren houden",
                 "van de jacht op groot wild leven",
                 "in de winter naar warmere streken trekken",
+                "op één plaats blijven wonen",
             ],
-            antwoord=[0, 1],
+            antwoord=[0, 1, 4],
             uitleg="Landbouw en veeteelt horen bij de agrarische revolutie, en daardoor ook een vaste woonplaats. Rondtrekken en jagen is net wat men daarvóór deed.")),
         (6, dict(
             vraag="Welke gevolgen had het voedseloverschot?",
@@ -206,8 +212,9 @@ VERVANGINGEN = {
                 "Er was nauwelijks steen",
                 "Er was nauwelijks klei",
                 "Er was nauwelijks graan",
+                "Er was nauwelijks erts",
             ],
-            antwoord=[0, 1],
+            antwoord=[0, 1, 4],
             uitleg="Graan en klei waren er juist in overvloed. Bouwhout, steen en erts moesten van ver komen.")),
         (14, dict(
             vraag="Welke taken had een farao?",
@@ -216,8 +223,9 @@ VERVANGINGEN = {
                 "zelf de akkers bewerken",
                 "de goden gunstig stemmen",
                 "zelf bij elke boer de belasting ophalen",
+                "het leger leiden",
             ],
-            antwoord=[0, 2],
+            antwoord=[0, 2, 4],
             uitleg="Zijn taak was politiek én religieus: besturen, rechtspreken, het leger leiden en de goden gunstig stemmen. Belastingen ophalen en akkers bewerken deden anderen voor hem.")),
     ],
     "Het oude Griekenland — deel 1": [
@@ -283,8 +291,9 @@ VERVANGINGEN = {
                 "zich vrij bewegen",
                 "in de volksvergadering spreken",
                 "meestemmen over de wetten",
+                "bezit hebben",
             ],
-            antwoord=[0, 1],
+            antwoord=[0, 1, 4],
             uitleg="Sporten, zich vrij bewegen en bezit hebben mocht een Spartaanse wel en een Atheense niet. Meebeslissen of spreken in de vergadering deed een vrouw op geen van beide plaatsen.")),
         (16, dict(
             vraag="Welke zuilstijlen kenden de Grieken?",

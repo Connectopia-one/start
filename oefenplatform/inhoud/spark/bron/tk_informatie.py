@@ -203,12 +203,12 @@ DEEL1 = [
         opties=[
             "Wifi",
             "Bluetooth",
-            "USB",
+            "Het volume",
             "De batterijstatus",
             "De instellingen",
         ],
-        antwoord=[0, 1, 2],
-        uitleg="Wifi, bluetooth en USB zijn alle drie manieren om je toestel met iets anders te verbinden. De batterijstatus en de instellingen zeggen iets over het toestel zelf.",
+        antwoord=[0, 1],
+        uitleg="Wifi, bluetooth en USB zijn alle drie manieren om je toestel met iets anders te verbinden. De batterijstatus, de instellingen en het volume zeggen iets over het toestel zelf.",
     ),
     dict(
         type="waarofniet",
@@ -358,12 +358,12 @@ DEEL2 = [
         opties=[
             "De EN-poort",
             "De OF-poort",
-            "De NIET-poort",
+            "De ALS-poort",
             "De PLUS-poort",
             "De MAAL-poort",
         ],
-        antwoord=[0, 1, 2],
-        uitleg="Alleen die drie, en combinaties ervan. Een PLUS- of MAAL-poort bestaat niet.",
+        antwoord=[0, 1],
+        uitleg="De fiche noemt de EN-poort, de OF-poort en de NIET-poort, en combinaties daarvan. Een PLUS-, MAAL- of ALS-poort bestaat niet.",
     ),
     dict(
         type="meerkeuze",
@@ -388,13 +388,13 @@ DEEL2 = [
         vraag="Wat kan je met een waarheidstabel doen?",
         opties=[
             "De uitgang bepalen bij gegeven ingangen",
-            "Zien welke poort er gebruikt is",
+            "De snelheid van het signaal meten",
             "Alle mogelijke gevallen op een rij zetten",
             "De prijs van het hele systeem berekenen",
             "De kleur van de draden in de kring kiezen",
         ],
-        antwoord=[0, 1, 2],
-        uitleg="Een waarheidstabel gaat alleen over wat er in en uit gaat. Over prijzen en kleuren zegt ze niets.",
+        antwoord=[0, 2],
+        uitleg="Een waarheidstabel zet alle mogelijke ingangen op een rij en zegt wat er dan uit komt. Over prijzen, kleuren of snelheid zegt ze niets.",
     ),
     dict(
         type="meerkeuze",

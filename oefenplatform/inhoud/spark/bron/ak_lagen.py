@@ -118,12 +118,12 @@ DEEL1 = [
         opties=[
             "Naaldbomen",
             "Loofbomen",
-            "Grassen en mossen",
+            "Een bloemenweide die elk jaar ingezaaid wordt",
             "Fruitbomen in een boomgaard",
             "Maïs op een akker",
         ],
-        antwoord=[0, 1, 2],
-        uitleg="Natuurlijke vegetatie groeit vanzelf: naaldbomen, loofbomen, grassen en mossen. Een boomgaard en een maïsakker zijn door de mens aangeplant en horen bij de landbouw.",
+        antwoord=[0, 1],
+        uitleg="Natuurlijke vegetatie groeit vanzelf: naaldbomen, loofbomen, grassen en mossen. Een boomgaard, een maïsakker en een ingezaaide weide zijn door de mens aangeplant en horen bij de landbouw.",
     ),
     dict(
         type="waarofniet",
@@ -386,8 +386,9 @@ DEEL2 = [
             "Een provinciaal domein met wandelpaden",
             "Een containerterminal in de haven",
             "Een rioolwaterzuivering",
+            "Een pretpark",
         ],
-        antwoord=[0, 1, 2],
+        antwoord=[0, 1, 2, 5],
         uitleg="Recreatie en toerisme is grondgebruik voor vrije tijd: campings, domeinen, pretparken, pistes, jachthavens. Een terminal en een zuivering dienen daar niet voor.",
     ),
     dict(

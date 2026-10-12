@@ -118,12 +118,12 @@ DEEL1 = [
         opties=[
             "Huizen en akkers verdwijnen onder lava en as",
             "Mensen moeten hun dorp in allerijl verlaten",
-            "De lucht raakt gevuld met as en met gassen",
+            "De zeespiegel stijgt wereldwijd een meter",
             "De bodem wordt er stilaan een stuk vruchtbaarder",
             "Er groeit na verloop van tijd een nieuw bos op",
         ],
-        antwoord=[0, 1, 2],
-        uitleg="Op korte termijn is een uitbarsting vernietigend: bedelven, vluchten, een lucht vol as. Een vruchtbare bodem en nieuw bos komen pas jaren later.",
+        antwoord=[0, 1],
+        uitleg="Op korte termijn is een uitbarsting vernietigend: bedelven, vluchten, een lucht vol as en gassen. Een vruchtbare bodem en nieuw bos komen pas jaren later, en de zeespiegel komt er niet aan te pas.",
     ),
     dict(
         type="meerkeuze",
@@ -279,12 +279,12 @@ DEEL2 = [
         opties=[
             "Stromend water",
             "Wind",
-            "Bewegend ijs",
+            "De magneetkracht van de aardkern",
             "De zwaartekracht van de maan",
             "De warmte van de zon",
         ],
-        antwoord=[0, 1, 2],
-        uitleg="De fiche noemt wind, water en ijs als de drie krachten die het reliëf veranderen. Zon en maan spelen een rol in het weer en de getijden, maar voeren zelf niets weg.",
+        antwoord=[0, 1],
+        uitleg="De fiche noemt wind, water en ijs als de drie krachten die het reliëf veranderen. De zon, de maan en de magneetkracht van de kern voeren zelf niets weg.",
     ),
     dict(
         type="meerkeuze",
@@ -340,12 +340,12 @@ DEEL2 = [
         opties=[
             "Er groeien nauwelijks planten die het zand vasthouden",
             "De wind heeft er daardoor vrij spel",
-            "Duinen verplaatsen zich er over de jaren heen",
+            "De korrels kleven aan elkaar door het zout",
             "Het zand is er lichter dan zand aan onze kust",
             "Er valt er nooit een druppel regen op de bodem",
         ],
-        antwoord=[0, 1, 2],
-        uitleg="Plantenwortels houden losse korrels vast. Waar niets groeit, kan de wind het zand oppakken en verplaatsen de duinen zich. Het zand zelf weegt evenveel als elders, en ook in een woestijn regent het soms.",
+        antwoord=[0, 1],
+        uitleg="Plantenwortels houden losse korrels vast. Waar niets groeit, kan de wind het zand oppakken en verplaatsen de duinen zich over de jaren heen. Het zand zelf weegt evenveel als elders, het kleeft niet aan elkaar, en ook in een woestijn regent het soms.",
     ),
     dict(
         type="meerkeuze",

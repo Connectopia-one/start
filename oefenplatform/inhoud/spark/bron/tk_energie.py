@@ -73,8 +73,9 @@ DEEL1 = [
             "Stralingsenergie",
             "Digitale energie",
             "Statische energie",
+            "Warmte",
         ],
-        antwoord=[0, 1, 2],
+        antwoord=[0, 1, 2, 5],
         uitleg="De fiche noemt bewegings- of kinetische energie, chemische energie, elektrische energie, potentiële energie, stralingsenergie zoals licht, en warmte of thermische energie. Digitale en statische energie bestaan niet als energievorm.",
     ),
     dict(
@@ -119,11 +120,11 @@ DEEL1 = [
         opties=[
             "Het zet stralingsenergie om in elektrische energie",
             "Het werkt op het licht van de zon",
-            "Het levert minder als het bewolkt is",
+            "Het werkt ook 's nachts verder",
             "Het maakt zelf de energie die het levert",
         ],
-        antwoord=[0, 1, 2],
-        uitleg="Een zonnepaneel maakt geen energie bij: het zet de energie van het zonlicht om in stroom. Minder licht betekent dus minder stroom.",
+        antwoord=[0, 1],
+        uitleg="Een zonnepaneel maakt geen energie bij: het zet de energie van het zonlicht om in stroom. Minder licht betekent dus minder stroom, en zonder licht levert het niets.",
     ),
     dict(
         type="waarofniet",
@@ -371,11 +372,11 @@ DEEL2 = [
         opties=[
             "Met de fiets gaan in plaats van met de auto",
             "De verwarming een graad lager zetten",
-            "Het licht uitdoen als je een kamer verlaat",
+            "De verwarming aanzetten met het raam open",
             "Elke dag een halfvolle wasmachine op negentig graden draaien",
         ],
-        antwoord=[0, 1, 2],
-        uitleg="Alles wat minder brandstof of minder stroom vraagt, helpt. Een halfvolle was op negentig graden doet net het omgekeerde.",
+        antwoord=[0, 1],
+        uitleg="Alles wat minder brandstof of minder stroom vraagt, helpt. Een halfvolle was op negentig graden en stoken met het raam open doen net het omgekeerde.",
     ),
     dict(
         type="waarofniet",

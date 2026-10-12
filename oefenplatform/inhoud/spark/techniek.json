@@ -338,16 +338,15 @@
           "opties": [
             "Ontvlambaar",
             "Bijtend",
-            "Giftig",
+            "Recycleerbaar",
             "Duur",
             "Zwaar"
           ],
           "antwoord": [
             0,
-            1,
-            2
+            1
           ],
-          "uitleg": "Ontvlambaar, bijtend en giftig staan met een eigen pictogram op de verpakking, net als explosief, oxiderend, irriterend, gassen onder druk en gevaarlijk voor het milieu. Hoe duur of hoe zwaar iets is, is geen gevaar."
+          "uitleg": "Ontvlambaar en bijtend staan met een eigen pictogram op de verpakking, net als giftig, explosief, oxiderend, irriterend, gassen onder druk en gevaarlijk voor het milieu. Hoe duur of hoe zwaar iets is, is geen gevaar, en het recyclagelogo waarschuwt niet voor iets."
         },
         {
           "type": "meerkeuze",
@@ -418,16 +417,15 @@
           "opties": [
             "Vervormbaarheid",
             "Watervastheid",
-            "Bewerkbaarheid",
+            "Elektrische geleiding",
             "Treksterkte",
             "Smeltpunt"
           ],
           "antwoord": [
             0,
-            1,
-            2
+            1
           ],
-          "uitleg": "Technologische eigenschappen gaan over wat je met het materiaal kunt doen: het buigen, het nat laten worden, het zagen of schuren. Treksterkte is mechanisch en het smeltpunt fysisch."
+          "uitleg": "Technologische eigenschappen gaan over wat je met het materiaal kunt doen: het buigen, het nat laten worden, het zagen of schuren. Treksterkte is mechanisch, het smeltpunt fysisch en de elektrische geleiding elektrisch."
         }
       ]
     },
@@ -486,12 +484,14 @@
             "Potentiële energie",
             "Stralingsenergie",
             "Digitale energie",
-            "Statische energie"
+            "Statische energie",
+            "Warmte"
           ],
           "antwoord": [
             0,
             1,
-            2
+            2,
+            5
           ],
           "uitleg": "De fiche noemt bewegings- of kinetische energie, chemische energie, elektrische energie, potentiële energie, stralingsenergie zoals licht, en warmte of thermische energie. Digitale en statische energie bestaan niet als energievorm."
         },
@@ -540,15 +540,14 @@
           "opties": [
             "Het zet stralingsenergie om in elektrische energie",
             "Het werkt op het licht van de zon",
-            "Het levert minder als het bewolkt is",
+            "Het werkt ook 's nachts verder",
             "Het maakt zelf de energie die het levert"
           ],
           "antwoord": [
             0,
-            1,
-            2
+            1
           ],
-          "uitleg": "Een zonnepaneel maakt geen energie bij: het zet de energie van het zonlicht om in stroom. Minder licht betekent dus minder stroom."
+          "uitleg": "Een zonnepaneel maakt geen energie bij: het zet de energie van het zonlicht om in stroom. Minder licht betekent dus minder stroom, en zonder licht levert het niets."
         },
         {
           "type": "waarofniet",
@@ -833,15 +832,14 @@
           "opties": [
             "Met de fiets gaan in plaats van met de auto",
             "De verwarming een graad lager zetten",
-            "Het licht uitdoen als je een kamer verlaat",
+            "De verwarming aanzetten met het raam open",
             "Elke dag een halfvolle wasmachine op negentig graden draaien"
           ],
           "antwoord": [
             0,
-            1,
-            2
+            1
           ],
-          "uitleg": "Alles wat minder brandstof of minder stroom vraagt, helpt. Een halfvolle was op negentig graden doet net het omgekeerde."
+          "uitleg": "Alles wat minder brandstof of minder stroom vraagt, helpt. Een halfvolle was op negentig graden en stoken met het raam open doen net het omgekeerde."
         },
         {
           "type": "waarofniet",
@@ -983,16 +981,15 @@
           "opties": [
             "Verbruikers",
             "Schakelaars",
-            "Spanningsbronnen",
+            "Het meetsnoer van de multimeter",
             "De deur van de kamer",
             "De werktafel in het lokaal"
           ],
           "antwoord": [
             0,
-            1,
-            2
+            1
           ],
-          "uitleg": "De fiche noemt uitdrukkelijk verbruikers, schakelaars en spanningsbronnen. Van batterijen achter elkaar krijg je bijvoorbeeld meer spanning."
+          "uitleg": "De fiche noemt verbruikers, schakelaars en spanningsbronnen; van batterijen achter elkaar krijg je bijvoorbeeld meer spanning. Een deur, een werktafel of een meetsnoer schakel je niet in serie of parallel."
         },
         {
           "type": "meerkeuze",
@@ -1153,16 +1150,15 @@
           "opties": [
             "Kortsluiting",
             "Overbelasting",
-            "Elektrocutie",
+            "Waterschade aan het plafond",
             "Verroesting van de muur",
             "Uitdroging van de lucht"
           ],
           "antwoord": [
             0,
-            1,
-            2
+            1
           ],
-          "uitleg": "De fiche noemt kortsluiting, overbelasting, brandgevaar en elektrocutie. Roest en droge lucht hebben er niets mee te maken."
+          "uitleg": "De fiche noemt kortsluiting, overbelasting, brandgevaar en elektrocutie. Roest, droge lucht of een lek in het plafond hebben er niets mee te maken."
         },
         {
           "type": "waarofniet",
@@ -1200,16 +1196,15 @@
           "opties": [
             "De aarding",
             "De automatische zekering",
-            "De verliesstroomschakelaar",
+            "De dimmer van de lamp",
             "De rookmelder in de gang",
             "Het brandblusapparaat aan de deur"
           ],
           "antwoord": [
             0,
-            1,
-            2
+            1
           ],
-          "uitleg": "De fiche noemt de aarding, de automatische zekering, de elektrische isolatie, de dubbele isolatie en de verliesstroomschakelaar. Een rookmelder en een blusapparaat zijn nuttig, maar geen onderdeel van de installatie."
+          "uitleg": "De fiche noemt de aarding, de automatische zekering, de elektrische isolatie, de dubbele isolatie en de verliesstroomschakelaar. Een rookmelder, een blusapparaat of een dimmer beveiligen de installatie niet."
         },
         {
           "type": "waarofniet",
@@ -1501,16 +1496,15 @@
           "opties": [
             "Wifi",
             "Bluetooth",
-            "USB",
+            "Het volume",
             "De batterijstatus",
             "De instellingen"
           ],
           "antwoord": [
             0,
-            1,
-            2
+            1
           ],
-          "uitleg": "Wifi, bluetooth en USB zijn alle drie manieren om je toestel met iets anders te verbinden. De batterijstatus en de instellingen zeggen iets over het toestel zelf."
+          "uitleg": "Wifi, bluetooth en USB zijn alle drie manieren om je toestel met iets anders te verbinden. De batterijstatus, de instellingen en het volume zeggen iets over het toestel zelf."
         },
         {
           "type": "waarofniet",
@@ -1676,16 +1670,15 @@
           "opties": [
             "De EN-poort",
             "De OF-poort",
-            "De NIET-poort",
+            "De ALS-poort",
             "De PLUS-poort",
             "De MAAL-poort"
           ],
           "antwoord": [
             0,
-            1,
-            2
+            1
           ],
-          "uitleg": "Alleen die drie, en combinaties ervan. Een PLUS- of MAAL-poort bestaat niet."
+          "uitleg": "De fiche noemt de EN-poort, de OF-poort en de NIET-poort, en combinaties daarvan. Een PLUS-, MAAL- of ALS-poort bestaat niet."
         },
         {
           "type": "meerkeuze",
@@ -1710,17 +1703,16 @@
           "vraag": "Wat kan je met een waarheidstabel doen?",
           "opties": [
             "De uitgang bepalen bij gegeven ingangen",
-            "Zien welke poort er gebruikt is",
+            "De snelheid van het signaal meten",
             "Alle mogelijke gevallen op een rij zetten",
             "De prijs van het hele systeem berekenen",
             "De kleur van de draden in de kring kiezen"
           ],
           "antwoord": [
             0,
-            1,
             2
           ],
-          "uitleg": "Een waarheidstabel gaat alleen over wat er in en uit gaat. Over prijzen en kleuren zegt ze niets."
+          "uitleg": "Een waarheidstabel zet alle mogelijke ingangen op een rij en zegt wat er dan uit komt. Over prijzen, kleuren of snelheid zegt ze niets."
         },
         {
           "type": "meerkeuze",
@@ -2102,16 +2094,15 @@
           "vraag": "Welke uitspraken over een boog in een constructie kloppen?",
           "opties": [
             "Ze leidt het gewicht naar de zijkanten weg",
-            "Ze zit in oude bruggen en in poorten",
+            "Ze is altijd van beton gemaakt",
             "Ze kan een grote opening overspannen",
             "Ze houdt de regen volledig tegen"
           ],
           "antwoord": [
             0,
-            1,
             2
           ],
-          "uitleg": "Een boog verandert het gewicht van bovenaf in drukkracht die schuin naar de steunpunten loopt. Steen kan die druk aan, en zo kan een boog ver overspannen."
+          "uitleg": "Een boog verandert het gewicht van bovenaf in drukkracht die schuin naar de steunpunten loopt. Steen kan die druk aan, dus hoeft een boog zeker niet van beton te zijn, en zo overspannen oude bruggen en poorten een grote opening."
         },
         {
           "type": "waarofniet",
@@ -2155,15 +2146,14 @@
           "opties": [
             "Hij vervormt niet als de verbindingen vastzitten",
             "Hij komt voor in de gebinten van een dak",
-            "Hij komt voor in de armen van een kraan",
+            "Hij kan enkel in hout gemaakt worden",
             "Hij is altijd zwaarder dan een rechthoek"
           ],
           "antwoord": [
             0,
-            1,
-            2
+            1
           ],
-          "uitleg": "Over het gewicht zegt de vorm niets: dat hangt af van het materiaal en de afmetingen."
+          "uitleg": "Een driehoek met vaste verbindingen kan niet vervormen, en daarom zit hij in dakgebinten en in kraanarmen. Over het gewicht of het materiaal zegt de vorm niets."
         },
         {
           "type": "waarofniet",
@@ -2292,15 +2282,14 @@
           "opties": [
             "Welke materialen je aan elkaar lijmt",
             "Of de verbinding nat kan worden",
-            "Hoeveel tijd je hebt om nog te schikken",
+            "Hoeveel de lijm weegt in de tube",
             "Welke kleur de verpakking van de lijm heeft"
           ],
           "antwoord": [
             0,
-            1,
-            2
+            1
           ],
-          "uitleg": "Op de verpakking van een lijm staat voor welke materialen ze dient, of ze watervast is en hoe lang de verwerkingstijd is. Dat is de productinformatie waar de fiche naar vraagt."
+          "uitleg": "Op de verpakking van een lijm staat voor welke materialen ze dient, of ze watervast is en hoe lang de verwerkingstijd is. De kleur van de verpakking en het gewicht van de tube staan daar niet voor."
         },
         {
           "type": "waarofniet",

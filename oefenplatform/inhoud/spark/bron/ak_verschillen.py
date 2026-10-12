@@ -54,12 +54,12 @@ DEEL1 = [
         opties=[
             "De Kempense Laagvlakte",
             "De Laagvlakte van de Kust",
-            "De Vlaamse Laagvlakte",
+            "De Condroz",
             "Het Plateau van Herve",
             "Het Lotharings Plateau",
         ],
-        antwoord=[0, 1, 2],
-        uitleg="De fiche noemt drie laagvlaktes: de Kempense, die van de Kust en de Vlaamse. Herve en Lotharingen zijn plateaus en liggen veel hoger.",
+        antwoord=[0, 1],
+        uitleg="De fiche noemt drie laagvlaktes: de Kempense, die van de Kust en de Vlaamse. Herve, Lotharingen en de Condroz liggen veel hoger.",
     ),
     dict(
         type="meerkeuze",
@@ -70,8 +70,9 @@ DEEL1 = [
             "Het Brabants Laagplateau",
             "De Fagne-Famennedepressie",
             "Het Plateau van de Ardennen",
+            "Het Kempens Laagplateau",
         ],
-        antwoord=[0, 1, 2],
+        antwoord=[0, 1, 2, 5],
         uitleg="De fiche noemt vier laagplateaus: het Haspengouwse, het Henegouwse, het Brabantse en het Kempense. De Fagne-Famennedepressie en de Ardennen horen bij de zuidelijke eenheden.",
     ),
     dict(
@@ -113,8 +114,9 @@ DEEL1 = [
             "Koud",
             "Bergachtig",
             "Winderig",
+            "Droog",
         ],
-        antwoord=[0, 1, 2],
+        antwoord=[0, 1, 2, 5],
         uitleg="De fiche werkt met vijf woorden voor klimaatzones: warm, gematigd, koud, droog en nat. Bergachtig gaat over reliëf, winderig over het weer.",
     ),
     dict(
@@ -209,12 +211,12 @@ DEEL1 = [
         opties=[
             "Woestijnen",
             "Hooggebergten",
-            "Poolgebieden",
+            "Delta's waar een rivier in de zee uitmondt",
             "Rivierdalen met vruchtbare grond",
             "Kustvlaktes met een gematigd klimaat",
         ],
-        antwoord=[0, 1, 2],
-        uitleg="Waar het te droog, te hoog of te koud is, wonen weinig mensen. Vruchtbare rivierdalen en gematigde kustvlaktes trekken er juist veel aan.",
+        antwoord=[0, 1],
+        uitleg="Waar het te droog, te hoog of te koud is, wonen weinig mensen. Vruchtbare rivierdalen, gematigde kustvlaktes en delta's trekken er juist veel aan.",
     ),
     dict(
         type="waarofniet",

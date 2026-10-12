@@ -298,9 +298,15 @@ DEEL2 = [
     dict(
         type="meerkeuze",
         vraag="Welke van deze gevaren hebben een eigen veiligheidspictogram?",
-        opties=["Ontvlambaar", "Bijtend", "Giftig", "Duur", "Zwaar"],
-        antwoord=[0, 1, 2],
-        uitleg="Ontvlambaar, bijtend en giftig staan met een eigen pictogram op de verpakking, net als explosief, oxiderend, irriterend, gassen onder druk en gevaarlijk voor het milieu. Hoe duur of hoe zwaar iets is, is geen gevaar.",
+        opties=[
+            "Ontvlambaar",
+            "Bijtend",
+            "Recycleerbaar",
+            "Duur",
+            "Zwaar",
+        ],
+        antwoord=[0, 1],
+        uitleg="Ontvlambaar en bijtend staan met een eigen pictogram op de verpakking, net als giftig, explosief, oxiderend, irriterend, gassen onder druk en gevaarlijk voor het milieu. Hoe duur of hoe zwaar iets is, is geen gevaar, en het recyclagelogo waarschuwt niet voor iets.",
     ),
     dict(
         type="meerkeuze",
@@ -368,11 +374,11 @@ DEEL2 = [
         opties=[
             "Vervormbaarheid",
             "Watervastheid",
-            "Bewerkbaarheid",
+            "Elektrische geleiding",
             "Treksterkte",
             "Smeltpunt",
         ],
-        antwoord=[0, 1, 2],
-        uitleg="Technologische eigenschappen gaan over wat je met het materiaal kunt doen: het buigen, het nat laten worden, het zagen of schuren. Treksterkte is mechanisch en het smeltpunt fysisch.",
+        antwoord=[0, 1],
+        uitleg="Technologische eigenschappen gaan over wat je met het materiaal kunt doen: het buigen, het nat laten worden, het zagen of schuren. Treksterkte is mechanisch, het smeltpunt fysisch en de elektrische geleiding elektrisch.",
     ),
 ]

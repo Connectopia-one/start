@@ -115,11 +115,13 @@
             "Een beeld maken van een god",
             "Een nieuwe sterrenkundige berekening",
             "Belastingen innen",
-            "Een kanaal graven naar de akkers"
+            "Een kanaal graven naar de akkers",
+            "Een verhaal opschrijven in een nieuwe taal"
           ],
           "antwoord": [
             0,
-            1
+            1,
+            4
           ],
           "uitleg": "Religie, kunst, wetenschap en taal zijn cultureel. Belastingen innen is politiek, en het kanaal is economisch."
         },
@@ -644,11 +646,13 @@
             "zelf gewassen telen",
             "dieren houden",
             "van de jacht op groot wild leven",
-            "in de winter naar warmere streken trekken"
+            "in de winter naar warmere streken trekken",
+            "op één plaats blijven wonen"
           ],
           "antwoord": [
             0,
-            1
+            1,
+            4
           ],
           "uitleg": "Landbouw en veeteelt horen bij de agrarische revolutie, en daardoor ook een vaste woonplaats. Rondtrekken en jagen is net wat men daarvóór deed."
         },
@@ -1181,11 +1185,13 @@
             "Er was nauwelijks hout",
             "Er was nauwelijks steen",
             "Er was nauwelijks klei",
-            "Er was nauwelijks graan"
+            "Er was nauwelijks graan",
+            "Er was nauwelijks erts"
           ],
           "antwoord": [
             0,
-            1
+            1,
+            4
           ],
           "uitleg": "Graan en klei waren er juist in overvloed. Bouwhout, steen en erts moesten van ver komen."
         },
@@ -1229,11 +1235,13 @@
             "besturen en rechtspreken",
             "zelf de akkers bewerken",
             "de goden gunstig stemmen",
-            "zelf bij elke boer de belasting ophalen"
+            "zelf bij elke boer de belasting ophalen",
+            "het leger leiden"
           ],
           "antwoord": [
             0,
-            2
+            2,
+            4
           ],
           "uitleg": "Zijn taak was politiek én religieus: besturen, rechtspreken, het leger leiden en de goden gunstig stemmen. Belastingen ophalen en akkers bewerken deden anderen voor hem."
         },
@@ -1635,11 +1643,13 @@
             "sporten",
             "zich vrij bewegen",
             "in de volksvergadering spreken",
-            "meestemmen over de wetten"
+            "meestemmen over de wetten",
+            "bezit hebben"
           ],
           "antwoord": [
             0,
-            1
+            1,
+            4
           ],
           "uitleg": "Sporten, zich vrij bewegen en bezit hebben mocht een Spartaanse wel en een Atheense niet. Meebeslissen of spreken in de vergadering deed een vrouw op geen van beide plaatsen."
         },
