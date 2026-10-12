@@ -205,8 +205,9 @@ DEEL1 = [
             "Ze lopen evenwijdig met de evenaar rond de aardbol",
             "Ze komen samen in de noordpool en de zuidpool",
             "Ze geven de geografische lengte van een plaats aan",
+            "Ze worden aangeduid met een getal van 0 tot 90 graden",
         ],
-        antwoord=[0, 1, 2],
+        antwoord=[0, 1, 2, 5],
         uitleg="Breedtecirkels lopen evenwijdig, worden naar de polen toe steeds kleiner en de evenaar is de langste. Samenkomen in de polen doen de meridianen, en die geven ook de lengte aan.",
     ),
     dict(
@@ -296,12 +297,12 @@ DEEL2 = [
         opties=[
             "Ze verschillen van persoon tot persoon",
             "Het kaartbeeld dat je vaak ziet, stuurt ze mee",
-            "Ze zijn meestal onvolledig en vertekend",
+            "Ze zijn altijd op schaal getekend",
             "Ze zijn bij iedereen uit hetzelfde land gelijk",
             "Ze worden opgemeten met satellietbeelden",
         ],
-        antwoord=[0, 1, 2],
-        uitleg="Een mentale kaart groeit uit wat je zelf meemaakt en uit de kaarten die je vaak ziet. Daarom verschilt ze per persoon en zit ze vol gaten, ook bij mensen uit hetzelfde land.",
+        antwoord=[0, 1],
+        uitleg="Een mentale kaart groeit uit wat je zelf meemaakt en uit de kaarten die je vaak ziet. Daarom verschilt ze per persoon, ook bij mensen uit hetzelfde land, en is ze nooit op schaal.",
     ),
     dict(
         type="waarofniet",
@@ -396,8 +397,9 @@ DEEL2 = [
             "Een tabel met de maandtemperaturen en neerslag",
             "Een leeftijdshistogram van de bevolking daar",
             "Een plattegrond van het centrum van de stad",
+            "Een satellietbeeld van de plantengroei door het jaar",
         ],
-        antwoord=[0, 1, 2],
+        antwoord=[0, 1, 2, 5],
         uitleg="Een klimatogram, een klimaatkaart en een tabel met temperatuur en neerslag gaan alle drie over het weer op lange termijn. Een leeftijdshistogram gaat over de bevolking en een plattegrond over de straten.",
     ),
     dict(

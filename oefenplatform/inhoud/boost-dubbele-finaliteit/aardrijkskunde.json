@@ -188,12 +188,14 @@
             "De evenaar is de langste breedtecirkel van allemaal",
             "Ze lopen evenwijdig met de evenaar rond de aardbol",
             "Ze komen samen in de noordpool en de zuidpool",
-            "Ze geven de geografische lengte van een plaats aan"
+            "Ze geven de geografische lengte van een plaats aan",
+            "Ze worden aangeduid met een getal van 0 tot 90 graden"
           ],
           "antwoord": [
             0,
             1,
-            2
+            2,
+            5
           ],
           "uitleg": "Breedtecirkels lopen evenwijdig, worden naar de polen toe steeds kleiner en de evenaar is de langste. Samenkomen in de polen doen de meridianen, en die geven ook de lengte aan."
         },
@@ -291,16 +293,15 @@
           "opties": [
             "Ze verschillen van persoon tot persoon",
             "Het kaartbeeld dat je vaak ziet, stuurt ze mee",
-            "Ze zijn meestal onvolledig en vertekend",
+            "Ze zijn altijd op schaal getekend",
             "Ze zijn bij iedereen uit hetzelfde land gelijk",
             "Ze worden opgemeten met satellietbeelden"
           ],
           "antwoord": [
             0,
-            1,
-            2
+            1
           ],
-          "uitleg": "Een mentale kaart groeit uit wat je zelf meemaakt en uit de kaarten die je vaak ziet. Daarom verschilt ze per persoon en zit ze vol gaten, ook bij mensen uit hetzelfde land."
+          "uitleg": "Een mentale kaart groeit uit wat je zelf meemaakt en uit de kaarten die je vaak ziet. Daarom verschilt ze per persoon, ook bij mensen uit hetzelfde land, en is ze nooit op schaal."
         },
         {
           "type": "waarofniet",
@@ -397,12 +398,14 @@
             "Een thematische kaart van de klimaatzones",
             "Een tabel met de maandtemperaturen en neerslag",
             "Een leeftijdshistogram van de bevolking daar",
-            "Een plattegrond van het centrum van de stad"
+            "Een plattegrond van het centrum van de stad",
+            "Een satellietbeeld van de plantengroei door het jaar"
           ],
           "antwoord": [
             0,
             1,
-            2
+            2,
+            5
           ],
           "uitleg": "Een klimatogram, een klimaatkaart en een tabel met temperatuur en neerslag gaan alle drie over het weer op lange termijn. Een leeftijdshistogram gaat over de bevolking en een plattegrond over de straten."
         },
@@ -494,16 +497,15 @@
           "opties": [
             "Een klimaat dat het grootste deel van het jaar te droog is",
             "Een bodem waarin bijna niets wil groeien",
-            "Een reliëf met steile hellingen en grote hoogte",
+            "Een ligging aan een natuurlijke haven",
             "Een ligging vlak bij een grote bevaarbare rivier",
             "Een vlakke kuststrook met een gematigd klimaat"
           ],
           "antwoord": [
             0,
-            1,
-            2
+            1
           ],
-          "uitleg": "Droogte, een arme bodem en ruw reliëf maken landbouw en bouwen moeilijk, dus blijven er weinig mensen wonen. Een rivier en een vlakke kust trekken mensen juist aan."
+          "uitleg": "Droogte en een arme bodem maken landbouw en bouwen moeilijk, dus blijven er weinig mensen wonen. Een rivier, een haven en een vlakke kust trekken mensen juist aan."
         },
         {
           "type": "waarofniet",
@@ -531,12 +533,14 @@
             "Een gematigd klimaat zonder extreme droogte of kou",
             "Een vruchtbare bodem en goede verbindingen over water",
             "Een ligging ver van elke haven of bevaarbare rivier",
-            "Een bodem die grotendeels uit kaal rotsgesteente bestaat"
+            "Een bodem die grotendeels uit kaal rotsgesteente bestaat",
+            "Een dicht net van wegen en spoorlijnen"
           ],
           "antwoord": [
             0,
             1,
-            2
+            2,
+            5
           ],
           "uitleg": "Vlak land, een zacht klimaat, goede grond en water om over te varen: dat zijn samen sterke redenen om er te gaan wonen. De laatste opties beschrijven juist het omgekeerde."
         },
@@ -687,12 +691,14 @@
             "een tabel met inwoners en oppervlakte",
             "een satellietbeeld van de aarde bij nacht",
             "een klimatogram van het weerstation",
-            "een determineertabel van gesteenten"
+            "een determineertabel van gesteenten",
+            "een luchtfoto van de bebouwing"
           ],
           "antwoord": [
             0,
             1,
-            2
+            2,
+            5
           ],
           "uitleg": "Een kaart geeft ze rechtstreeks, een tabel laat ze berekenen, en lichtvlekken op een nachtbeeld verraden waar veel mensen wonen. Een klimatogram en een determineertabel gaan over heel andere dingen."
         },
@@ -750,16 +756,15 @@
           "opties": [
             "een oorlog die jaren aansleept",
             "droogte waardoor de oogst mislukt",
-            "armoede zonder uitzicht op werk",
+            "een nieuwe school in de streek",
             "de ligging dicht bij de nulmeridiaan",
             "de tijdzone waarin de streek valt"
           ],
           "antwoord": [
             0,
-            1,
-            2
+            1
           ],
-          "uitleg": "Oorlog, droogte en armoede zijn pushfactoren: ze duwen mensen weg. Waar een streek op het gradennet ligt, verandert niets aan hoe het er leeft."
+          "uitleg": "Oorlog en droogte zijn pushfactoren: ze duwen mensen weg. Een nieuwe school houdt mensen juist, en waar een streek op het gradennet ligt, verandert niets aan hoe het er leeft."
         },
         {
           "type": "invultekst",
@@ -1085,12 +1090,14 @@
             "Een geboortebeleid dat grote gezinnen ontmoedigt",
             "Hoge kosten voor huisvesting en kinderopvang",
             "Een hoge kindersterfte in dat land",
-            "Een groot aandeel landbouw in de economie"
+            "Een groot aandeel landbouw in de economie",
+            "Brede toegang tot voorbehoedsmiddelen"
           ],
           "antwoord": [
             0,
             1,
-            2
+            2,
+            5
           ],
           "uitleg": "Onderwijs, beleid en kosten drukken het geboortecijfer. Hoge kindersterfte en een landbouweconomie duwen het juist omhoog, want dan zijn kinderen handen op het veld en een zekerheid voor later."
         },
@@ -1181,12 +1188,14 @@
             "Meer vraag naar zorg voor ouderen",
             "Minder mensen op de arbeidsmarkt",
             "Een sterk stijgend geboortecijfer",
-            "Een groeiend tekort aan scholen"
+            "Een groeiend tekort aan scholen",
+            "Een zwaardere last per werkende om de pensioenen te betalen"
           ],
           "antwoord": [
             0,
             1,
-            2
+            2,
+            5
           ],
           "uitleg": "Meer ouderen en minder werkenden zetten pensioenen, zorg en arbeidsmarkt onder druk. Scholen komen juist leeg te staan, en het geboortecijfer stijgt er niet vanzelf van."
         },
@@ -1223,16 +1232,15 @@
           "opties": [
             "Kans op werk in het land van aankomst",
             "Familie die daar al enkele jaren woont",
-            "Goed onderwijs voor de kinderen daar",
+            "Hoge huurprijzen in het land van aankomst",
             "Aanhoudende droogte in het eigen gebied",
             "Een gewapend conflict in de eigen streek"
           ],
           "antwoord": [
             0,
-            1,
-            2
+            1
           ],
-          "uitleg": "Werk, familie en onderwijs trekken mensen naar een plaats toe. Droogte en oorlog duwen mensen weg en zijn dus pushfactoren."
+          "uitleg": "Werk en familie trekken mensen naar een plaats toe. Droogte en oorlog duwen mensen weg en zijn dus pushfactoren, en hoge huurprijzen houden mensen juist tegen."
         },
         {
           "type": "waarofniet",
@@ -1248,12 +1256,14 @@
             "De politieke en de oorlogssituatie",
             "Het geboortebeleid van de overheid",
             "De geografische lengte van het land",
-            "De kleur op de kaart in de atlas"
+            "De kleur op de kaart in de atlas",
+            "De armoede in het land"
           ],
           "antwoord": [
             0,
             1,
-            2
+            2,
+            5
           ],
           "uitleg": "Welvaart, politiek en beleid grijpen rechtstreeks in op geboorten, sterfte en migratie. Daarnaast spelen ook klimaat, reliëf, bodemkwaliteit en armoede mee."
         },
@@ -1351,16 +1361,15 @@
           "opties": [
             "Meer ruimte voor hetzelfde geld",
             "Meer rust en minder lawaai",
-            "Meer groen in de directe omgeving",
+            "Meer openbaar vervoer in de buurt",
             "Meer universiteiten in de buurt",
             "Meer hoofdkantoren van bedrijven"
           ],
           "antwoord": [
             0,
-            1,
-            2
+            1
           ],
-          "uitleg": "Ruimte, rust en groen zijn de klassieke pullfactoren van het platteland. Universiteiten en hoofdkantoren liggen juist in de stad, dat is een reden om er net wel te wonen."
+          "uitleg": "Ruimte en rust zijn klassieke pullfactoren van het platteland. Universiteiten, hoofdkantoren en veel openbaar vervoer horen juist bij de stad."
         },
         {
           "type": "waarofniet",
@@ -1388,12 +1397,14 @@
             "de politieke en de oorlogssituatie",
             "de welvaart, het welzijn en armoede",
             "het aantal meridianen over het land",
-            "de kleurkeuze van de kaartmaker"
+            "de kleurkeuze van de kaartmaker",
+            "het reliëf en de bodemkwaliteit"
           ],
           "antwoord": [
             0,
             1,
-            2
+            2,
+            5
           ],
           "uitleg": "Klimaat en klimaatverandering, reliëf, bodemkwaliteit, de politieke situatie, de oorlogssituatie, welvaart en welzijn, en armoede: dat is de hele rij. Meridianen en kleuren horen bij het lezen van een kaart."
         },
@@ -1423,12 +1434,14 @@
             "Internationale banken in de stad",
             "Belangrijke handelszaken en beurzen",
             "Grote musea en onderzoeksinstellingen",
-            "De zetel van de regering van het land"
+            "De zetel van de regering van het land",
+            "Een grote zeehaven of luchthaven"
           ],
           "antwoord": [
             0,
             1,
-            2
+            2,
+            5
           ],
           "uitleg": "Bedrijven, banken en handel zijn economische criteria. Musea en onderzoek horen bij het culturele belang, een regeringszetel bij het politieke."
         },
@@ -1447,16 +1460,15 @@
           "opties": [
             "Universiteiten en hogescholen",
             "Grote musea en theaters",
-            "Ruime recreatiemogelijkheden",
+            "Grote industriezones",
             "Internationale banken en beurzen",
             "Hoofdkwartieren van de regering"
           ],
           "antwoord": [
             0,
-            1,
-            2
+            1
           ],
-          "uitleg": "Onderwijs, musea en ontspanning zijn culturele criteria. Banken zijn economisch, regeringszetels politiek."
+          "uitleg": "Onderwijs en musea zijn culturele criteria. Banken en industrie zijn economisch, regeringszetels politiek."
         },
         {
           "type": "waarofniet",
@@ -1530,12 +1542,14 @@
             "Cijfers over het aantal inwoners per jaar",
             "Kaarten van het bodemgebruik door de jaren heen",
             "Een klimatogram van het dichtstbijzijnde weerstation",
-            "Een leeftijdshistogram van een buurland"
+            "Een leeftijdshistogram van een buurland",
+            "Cijfers over het aantal woningen en bedrijven"
           ],
           "antwoord": [
             0,
             1,
-            2
+            2,
+            5
           ],
           "uitleg": "Verstedelijking zie je aan bebouwing, inwoners en bodemgebruik over de tijd. Een klimatogram gaat over het weer, een histogram van een buurland over iets heel anders."
         },
@@ -1614,12 +1628,14 @@
             "Winkelcentra en bedrijven langs de invalswegen",
             "Meer bebouwing op wat vroeger akkerland was",
             "Meer weilanden en hagen dan dertig jaar geleden",
-            "Minder autoverkeer dan dertig jaar geleden"
+            "Minder autoverkeer dan dertig jaar geleden",
+            "Meer pendelverkeer naar de stad"
           ],
           "antwoord": [
             0,
             1,
-            2
+            2,
+            5
           ],
           "uitleg": "Verstedelijking van het platteland is stedelijke bebouwing en stedelijke functies die opschuiven naar het dorp. Meer open ruimte en minder verkeer zijn precies het omgekeerde."
         },
@@ -1680,16 +1696,15 @@
           "opties": [
             "nieuwe wijken aan de rand van de stad",
             "meer verharding en minder open ruimte",
-            "meer verkeer op de wegen naar het centrum",
+            "minder woningen in de stadsrand",
             "een dalende bevolkingsdichtheid in de stad",
             "een kleiner wordend bebouwd oppervlak"
           ],
           "antwoord": [
             0,
-            1,
-            2
+            1
           ],
-          "uitleg": "Een groeiende stad zet zich uit, verhardt meer grond en genereert meer verplaatsingen. De dichtheid en het bebouwde oppervlak dalen daarbij juist niet."
+          "uitleg": "Een groeiende stad zet zich uit en verhardt meer grond. De dichtheid, het bebouwde oppervlak en het aantal woningen dalen daarbij juist niet."
         },
         {
           "type": "waarofniet",
@@ -1705,12 +1720,14 @@
             "Meer mensen kopen online in plaats van in de winkel",
             "De straat is moeilijk bereikbaar geworden met de auto",
             "De bevolking van het land is gehalveerd",
-            "De winkelstraat ligt op een te hoge breedtegraad"
+            "De winkelstraat ligt op een te hoge breedtegraad",
+            "De huurprijzen voor de panden bleven te hoog"
           ],
           "antwoord": [
             0,
             1,
-            2
+            2,
+            5
           ],
           "uitleg": "Concurrentie aan de rand, online kopen en bereikbaarheid zijn de klassieke oorzaken van leegstand. De laatste opties slaan nergens op."
         },
@@ -1835,12 +1852,14 @@
             "Steenkool",
             "Uranium voor kernenergie",
             "Wind op de Noordzee",
-            "Zonlicht op een dak"
+            "Zonlicht op een dak",
+            "Aardgas"
           ],
           "antwoord": [
             0,
             1,
-            2
+            2,
+            5
           ],
           "uitleg": "Olie, steenkool en uranium zitten in eindige voorraden in de bodem. Wind en zon komen elke dag terug, en die noemen we daarom hernieuwbaar."
         },
@@ -1896,16 +1915,15 @@
           "opties": [
             "Er is veel minder energie voor nodig dan voor nieuw erts",
             "Er hoeft geen nieuwe mijn of groeve voor open",
-            "Het maakt een land minder afhankelijk van invoer",
+            "Het levert meer metaal op dan er wordt ingezameld",
             "Het gerecycleerde metaal is altijd zuiverder dan nieuw",
             "Er komen geen transportkosten meer bij kijken"
           ],
           "antwoord": [
             0,
-            1,
-            2
+            1
           ],
-          "uitleg": "Energie, landschap en onafhankelijkheid zijn de echte winsten. Gerecycleerd metaal is meestal net minder zuiver, en vervoerd moet het nog altijd worden."
+          "uitleg": "Energie en landschap zijn de echte winsten. Gerecycleerd metaal is meestal net minder zuiver, vervoerd moet het nog altijd worden, en je krijgt er nooit meer uit dan er in gaat."
         },
         {
           "type": "meerkeuze",
@@ -1945,12 +1963,14 @@
             "het reliëf van het gebied",
             "de grondstoffen in de bodem",
             "de staatsvorm van het land",
-            "het loon van de werknemers"
+            "het loon van de werknemers",
+            "de beschikbaarheid van stromend water"
           ],
           "antwoord": [
             0,
             1,
-            2
+            2,
+            5
           ],
           "uitleg": "Klimaat, reliëf en grondstoffen zijn fysische factoren. De staatsvorm is geopolitiek en de verloning sociaaleconomisch; die drie groepen staan bewust naast elkaar."
         },
@@ -2057,12 +2077,14 @@
             "De politieke stabiliteit van het land",
             "De samenwerkingsverbanden met andere landen",
             "Het reliëf van de streek",
-            "De klimaatzone van de streek"
+            "De klimaatzone van de streek",
+            "De veiligheidssituatie aan de grenzen"
           ],
           "antwoord": [
             0,
             1,
-            2
+            2,
+            5
           ],
           "uitleg": "Staatsvorm, stabiliteit en verdragen bepalen of een bedrijf er durft te investeren en of het vlot kan uitvoeren. Reliëf en klimaat zijn fysische factoren."
         },
@@ -2100,16 +2122,15 @@
           "opties": [
             "Werkloosheid stijgt in de omliggende gemeenten",
             "Jongeren trekken weg op zoek naar werk",
-            "Er komt een groot terrein leeg te staan",
+            "De woningprijzen in de streek stijgen sterk",
             "De bevolkingsdichtheid stijgt er meteen",
             "Het klimaat van de streek verandert erdoor"
           ],
           "antwoord": [
             0,
-            1,
-            2
+            1
           ],
-          "uitleg": "Werk, bevolking en ruimte veranderen alle drie. De dichtheid daalt juist als jongeren wegtrekken, en op het klimaat van de streek heeft een fabriek geen meetbare invloed."
+          "uitleg": "Werk en bevolking veranderen allebei. De dichtheid daalt juist als jongeren wegtrekken, woningen worden er niet duurder van, en op het klimaat van de streek heeft een fabriek geen meetbare invloed."
         },
         {
           "type": "waarofniet",
@@ -2123,16 +2144,15 @@
           "opties": [
             "de opleiding van de werknemers",
             "de verloning van de werknemers",
-            "vraag en aanbod en de afzetmarkt",
+            "de ligging aan een bergketen",
             "de klimaatzone van het gebied",
             "de reliëfeenheid van het gebied"
           ],
           "antwoord": [
             0,
-            1,
-            2
+            1
           ],
-          "uitleg": "Hoe geschoold de mensen zijn, wat ze verdienen, en of er vraag is naar het product: dat zijn sociaaleconomische factoren. Klimaatzone en reliëfeenheid horen bij de fysische."
+          "uitleg": "Hoe geschoold de mensen zijn en wat ze verdienen, zijn sociaaleconomische factoren. Een bergketen, de klimaatzone en de reliëfeenheid horen bij de fysische."
         },
         {
           "type": "meerkeuze",
@@ -2197,16 +2217,15 @@
           "opties": [
             "Het landschap verandert blijvend van vorm",
             "Er komen wegen en spoorlijnen naartoe",
-            "Er ontstaan nederzettingen voor de werkers",
+            "De bodem wordt er vruchtbaarder van",
             "De klimaatzone van het gebied verschuift",
             "De geografische coördinaten verschuiven"
           ],
           "antwoord": [
             0,
-            1,
-            2
+            1
           ],
-          "uitleg": "Een mijn of groeve trekt infrastructuur en mensen aan en laat een put of een terril na. Coördinaten en klimaatzones veranderen daar natuurlijk niet van."
+          "uitleg": "Een mijn of een groeve verandert het landschap blijvend en trekt wegen en spoorlijnen aan. Vruchtbaarder wordt de bodem er niet van, en coördinaten en klimaatzones veranderen er natuurlijk niet van."
         },
         {
           "type": "waarofniet",
@@ -2283,12 +2302,14 @@
             "Wijndruiven",
             "Citrusvruchten",
             "Rijst op ondergelopen velden",
-            "Cacao in het regenwoud"
+            "Cacao in het regenwoud",
+            "Amandelen"
           ],
           "antwoord": [
             0,
             1,
-            2
+            2,
+            5
           ],
           "uitleg": "Olijven, wijnstokken en citrus verdragen de droge, warme zomer en de zachte, natte winter rond de Middellandse Zee. Rijst en cacao vragen een heel ander klimaat."
         },
@@ -2327,12 +2348,14 @@
             "het reliëf van het gebied",
             "de bodemkwaliteit en de ondergrond",
             "de staatsvorm van het land",
-            "de afzetmarkt van het product"
+            "de afzetmarkt van het product",
+            "de beschikbaarheid van water"
           ],
           "antwoord": [
             0,
             1,
-            2
+            2,
+            5
           ],
           "uitleg": "Bij de landbouw komen bodemkwaliteit en ondergrond er uitdrukkelijk bij, naast klimaat en reliëf. De staatsvorm is geopolitiek, de afzetmarkt sociaaleconomisch."
         },
@@ -2360,16 +2383,15 @@
           "opties": [
             "Percelen worden groter en rechter",
             "Hagen en houtkanten verdwijnen",
-            "Wegen en sloten worden rechtgetrokken",
+            "De percelen raken verspreid over meer dorpen",
             "Er komen meer kleine boerderijen bij",
             "De bodem wordt vanzelf vruchtbaarder"
           ],
           "antwoord": [
             0,
-            1,
-            2
+            1
           ],
-          "uitleg": "Voor grote machines moet het perceel groot en recht zijn. Dat kost landschapselementen, en zonder hagen en houtkanten krijgt de wind meer vat op de grond."
+          "uitleg": "Voor grote machines moet een perceel groot en recht zijn. Dat kost hagen en houtkanten, en zonder die elementen krijgt de wind meer vat op de grond. Kleinere boerderijen of meer verspreide percelen zijn net het omgekeerde."
         },
         {
           "type": "waarofniet",
@@ -2436,12 +2458,14 @@
             "Het wisselt zijn gewassen af over de jaren",
             "Het beperkt de mest tot wat de grond opneemt",
             "Het ploegt elke helling recht van boven naar beneden",
-            "Het teelt jaar na jaar hetzelfde gewas op hetzelfde perceel"
+            "Het teelt jaar na jaar hetzelfde gewas op hetzelfde perceel",
+            "Het legt grasstroken langs de waterlopen"
           ],
           "antwoord": [
             0,
             1,
-            2
+            2,
+            5
           ],
           "uitleg": "Landschapselementen, vruchtwisseling en doordacht bemesten houden de bodem gezond. Recht van de helling ploegen en steeds hetzelfde telen putten hem juist uit."
         },
@@ -2494,16 +2518,15 @@
           "opties": [
             "een klimaat met veel zonuren",
             "een kust met stranden",
-            "een reliëf met bergen voor wintersport",
+            "een dicht net van luchthavens",
             "een hoge bevolkingsdichtheid",
             "het lidmaatschap van een handelsblok"
           ],
           "antwoord": [
             0,
-            1,
-            2
+            1
           ],
-          "uitleg": "Klimaat, kust en reliëf zijn fysische troeven. Dichtheid is sociaaleconomisch en een handelsblok geopolitiek; die spelen ook mee, maar via een andere weg."
+          "uitleg": "Een klimaat met veel zon en een kust met stranden zijn fysische troeven. Luchthavens zijn mensenwerk, de dichtheid is sociaaleconomisch en een handelsblok geopolitiek; die spelen ook mee, maar via een andere weg."
         },
         {
           "type": "meerkeuze",
@@ -2529,16 +2552,15 @@
           "opties": [
             "Bebouwing die de duinen en de open ruimte opslorpt",
             "Druk op het drinkwater in het hoogseizoen",
-            "Woningen die voor de eigen bewoners onbetaalbaar worden",
+            "Een daling van de huurprijzen in het hoogseizoen",
             "Een daling van de bevolkingsdichtheid in de zomer",
             "Een verschuiving van de klimaatzone van de streek"
           ],
           "antwoord": [
             0,
-            1,
-            2
+            1
           ],
-          "uitleg": "Appartementen, waterverbruik en woningprijzen zijn de klassieke ruimtelijke gevolgen. De dichtheid stijgt in de zomer juist sterk, en de klimaatzone verschuift er niet van."
+          "uitleg": "Bebouwing en waterverbruik zijn de klassieke ruimtelijke gevolgen. De dichtheid stijgt in de zomer juist sterk, de prijzen dalen er niet van, en de klimaatzone verschuift er niet van."
         },
         {
           "type": "invultekst",
@@ -2604,16 +2626,15 @@
           "opties": [
             "De stabiliteit van het land",
             "De staatsvorm van het land",
-            "De samenwerkingsverbanden met andere landen",
+            "De hoogte van de hotelprijzen",
             "De hoogte van de bergen in het land",
             "Het aantal zonuren per jaar"
           ],
           "antwoord": [
             0,
-            1,
-            2
+            1
           ],
-          "uitleg": "Stabiliteit, staatsvorm en verdragen bepalen of mensen er veilig en zonder visum geraken. Bergen en zonuren zijn fysische troeven."
+          "uitleg": "Stabiliteit en staatsvorm bepalen of mensen er veilig en zonder visum geraken. Bergen en zonuren zijn fysische troeven, en de prijzen zijn sociaaleconomisch."
         },
         {
           "type": "invultekst",
@@ -2700,12 +2721,14 @@
             "Het internet en goedkope wereldwijde communicatie",
             "Handelsakkoorden die invoerrechten verlagen",
             "Strengere grenscontroles tussen alle landen",
-            "Hogere invoerrechten op alle buitenlandse producten"
+            "Hogere invoerrechten op alle buitenlandse producten",
+            "Bedrijven die hun productie over meer landen spreiden"
           ],
           "antwoord": [
             0,
             1,
-            2
+            2,
+            5
           ],
           "uitleg": "Containers, vliegtuigen, datakabels en handelsverdragen brachten de wereld dichter bij elkaar. Strengere grenzen en hogere invoerrechten werken juist de andere kant op."
         },
@@ -2803,16 +2826,15 @@
           "opties": [
             "Ze is kwetsbaar als er ergens een schakel wegvalt",
             "Ze veroorzaakt veel transport en dus uitstoot",
-            "Ze maakt het moeilijk te controleren hoe er gewerkt wordt",
+            "Ze maakt elk land zelfvoorzienend",
             "Ze maakt producten in de winkel altijd duurder",
             "Ze zorgt ervoor dat er minder soorten producten zijn"
           ],
           "antwoord": [
             0,
-            1,
-            2
+            1
           ],
-          "uitleg": "Kwetsbaarheid, transport en gebrek aan zicht op de arbeidsomstandigheden zijn de echte nadelen. Goedkoper en gevarieerder worden de producten er juist van."
+          "uitleg": "Kwetsbaarheid en veel transport zijn de echte nadelen. Goedkoper en gevarieerder worden de producten er juist van, en zelfvoorzienend wordt een land er zeker niet van."
         },
         {
           "type": "waarofniet",
@@ -2946,12 +2968,14 @@
             "Een grotere afzetmarkt voor de eigen bedrijven",
             "Meer gewicht in onderhandelingen met andere blokken",
             "Volledige vrijheid om eigen invoerrechten te heffen",
-            "Een eigen munt die enkel binnen dat land geldt"
+            "Een eigen munt die enkel binnen dat land geldt",
+            "Gemeenschappelijke regels waar bedrijven op kunnen rekenen"
           ],
           "antwoord": [
             0,
             1,
-            2
+            2,
+            5
           ],
           "uitleg": "Toegang, schaal en onderhandelingsmacht zijn de winst. De prijs is dat een land een stuk van zijn eigen handelsbeleid uit handen geeft, en dat is meteen de kern van de discussie erover."
         },
@@ -3020,12 +3044,14 @@
             "landgrabbing in arme landen",
             "braindrain en braingain",
             "verzilting van de landbouwgrond",
-            "verschuiving van de klimaatzones"
+            "verschuiving van de klimaatzones",
+            "spanningen tussen landen"
           ],
           "antwoord": [
             0,
             1,
-            2
+            2,
+            5
           ],
           "uitleg": "Samenwerkingsverbanden, spanningen tussen landen, migratie en ontvolking, braindrain en braingain, en landgrabbing: dat is de rij. Verzilting en klimaatzones horen bij andere rubrieken."
         },
@@ -3357,12 +3383,14 @@
             "Het hitte-eilandeffect in de stad",
             "Luchtvervuiling en verkeersdrukte",
             "Schaalvergroting in de landbouw",
-            "Het afsmelten van de gletsjers"
+            "Het afsmelten van de gletsjers",
+            "Minder plaats voor water om in de bodem te dringen"
           ],
           "antwoord": [
             0,
             1,
-            2
+            2,
+            5
           ],
           "uitleg": "Versnippering, verharding, het hitte-eilandeffect, luchtvervuiling en verkeersdrukte horen bij de stad. Schaalvergroting hoort bij de landbouw, de gletsjers bij het broeikaseffect."
         },
@@ -3479,12 +3507,14 @@
             "Verkeersdrukte in de straten",
             "Verharding door parkeerplaatsen",
             "Schaalvergroting op de akkers errond",
-            "Versnippering door de ringweg"
+            "Versnippering door de ringweg",
+            "Lawaai van het verkeer in de straten"
           ],
           "antwoord": [
             0,
             1,
-            2
+            2,
+            5
           ],
           "uitleg": "Minder auto's betekent minder uitstoot, minder drukte en minder asfalt. Aan de landbouw errond of aan een bestaande ringweg verandert een fietspad niets."
         },
@@ -3632,12 +3662,14 @@
             "Methaan",
             "Lachgas",
             "Zuurstof",
-            "Stikstofgas"
+            "Stikstofgas",
+            "Waterdamp"
           ],
           "antwoord": [
             0,
             1,
-            2
+            2,
+            5
           ],
           "uitleg": "Waterdamp, koolstofdioxide, methaan en lachgas houden warmte vast. Zuurstof en stikstofgas vormen samen het grootste deel van de lucht maar werken niet als broeikasgas."
         },
@@ -3909,14 +3941,16 @@
             "Verschuiving van leefgebieden van planten en dieren",
             "Meer en zwaardere extreme weerfenomenen",
             "Versnippering van de open ruimte door wegen",
-            "Braindrain uit landen met weinig middelen"
+            "Braindrain uit landen met weinig middelen",
+            "Het afsmelten van de gletsjers en de poolkappen"
           ],
           "antwoord": [
             0,
             1,
-            2
+            2,
+            5
           ],
-          "uitleg": "Die vier horen bij het broeikaseffect. Versnippering hoort bij de rubriek duurzaamheid en braindrain bij mondialisering."
+          "uitleg": "Die horen bij het broeikaseffect. Versnippering hoort bij de rubriek duurzaamheid en braindrain bij mondialisering."
         },
         {
           "type": "waarofniet",

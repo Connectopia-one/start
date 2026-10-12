@@ -40,8 +40,9 @@ DEEL1 = [
             "Handelsakkoorden die invoerrechten verlagen",
             "Strengere grenscontroles tussen alle landen",
             "Hogere invoerrechten op alle buitenlandse producten",
+            "Bedrijven die hun productie over meer landen spreiden",
         ],
-        antwoord=[0, 1, 2],
+        antwoord=[0, 1, 2, 5],
         uitleg="Containers, vliegtuigen, datakabels en handelsverdragen brachten de wereld dichter bij elkaar. Strengere grenzen en hogere invoerrechten werken juist de andere kant op.",
     ),
     dict(
@@ -134,12 +135,12 @@ DEEL1 = [
         opties=[
             "Ze is kwetsbaar als er ergens een schakel wegvalt",
             "Ze veroorzaakt veel transport en dus uitstoot",
-            "Ze maakt het moeilijk te controleren hoe er gewerkt wordt",
+            "Ze maakt elk land zelfvoorzienend",
             "Ze maakt producten in de winkel altijd duurder",
             "Ze zorgt ervoor dat er minder soorten producten zijn",
         ],
-        antwoord=[0, 1, 2],
-        uitleg="Kwetsbaarheid, transport en gebrek aan zicht op de arbeidsomstandigheden zijn de echte nadelen. Goedkoper en gevarieerder worden de producten er juist van.",
+        antwoord=[0, 1],
+        uitleg="Kwetsbaarheid en veel transport zijn de echte nadelen. Goedkoper en gevarieerder worden de producten er juist van, en zelfvoorzienend wordt een land er zeker niet van.",
     ),
     dict(
         type="waarofniet",
@@ -267,8 +268,9 @@ DEEL2 = [
             "Meer gewicht in onderhandelingen met andere blokken",
             "Volledige vrijheid om eigen invoerrechten te heffen",
             "Een eigen munt die enkel binnen dat land geldt",
+            "Gemeenschappelijke regels waar bedrijven op kunnen rekenen",
         ],
-        antwoord=[0, 1, 2],
+        antwoord=[0, 1, 2, 5],
         uitleg="Toegang, schaal en onderhandelingsmacht zijn de winst. De prijs is dat een land een stuk van zijn eigen handelsbeleid uit handen geeft, en dat is meteen de kern van de discussie erover.",
     ),
     dict(
@@ -334,8 +336,9 @@ DEEL2 = [
             "Braindrain, braingain en outsourcing",
             "Bodemerosie en verzilting van de grond",
             "Verschuiving van de klimaatzones",
+            "Samenwerkingsverbanden en spanningen tussen landen",
         ],
-        antwoord=[0, 1, 2],
+        antwoord=[0, 1, 2, 5],
         uitleg="De fiche noemt samenwerkingsverbanden, spanningen, migratie en ontvolking, braindrain en braingain, landgrabbing, protectionisme en outsourcing. Erosie en klimaatzones horen bij andere rubrieken.",
     ),
     dict(

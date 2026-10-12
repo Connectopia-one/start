@@ -207,8 +207,9 @@ DEEL1 = [
             "Hoge kosten voor huisvesting en kinderopvang",
             "Een hoge kindersterfte in dat land",
             "Een groot aandeel landbouw in de economie",
+            "Brede toegang tot voorbehoedsmiddelen",
         ],
-        antwoord=[0, 1, 2],
+        antwoord=[0, 1, 2, 5],
         uitleg="Onderwijs, beleid en kosten drukken het geboortecijfer. Hoge kindersterfte en een landbouweconomie duwen het juist omhoog, want dan zijn kinderen handen op het veld en een zekerheid voor later.",
     ),
     dict(
@@ -295,8 +296,9 @@ DEEL2 = [
             "Minder mensen op de arbeidsmarkt",
             "Een sterk stijgend geboortecijfer",
             "Een groeiend tekort aan scholen",
+            "Een zwaardere last per werkende om de pensioenen te betalen",
         ],
-        antwoord=[0, 1, 2],
+        antwoord=[0, 1, 2, 5],
         uitleg="Meer ouderen en minder werkenden zetten pensioenen, zorg en arbeidsmarkt onder druk. Scholen komen juist leeg te staan, en het geboortecijfer stijgt er niet vanzelf van.",
     ),
     dict(
@@ -329,12 +331,12 @@ DEEL2 = [
         opties=[
             "Kans op werk in het land van aankomst",
             "Familie die daar al enkele jaren woont",
-            "Goed onderwijs voor de kinderen daar",
+            "Hoge huurprijzen in het land van aankomst",
             "Aanhoudende droogte in het eigen gebied",
             "Een gewapend conflict in de eigen streek",
         ],
-        antwoord=[0, 1, 2],
-        uitleg="Werk, familie en onderwijs trekken mensen naar een plaats toe. Droogte en oorlog duwen mensen weg en zijn dus pushfactoren.",
+        antwoord=[0, 1],
+        uitleg="Werk en familie trekken mensen naar een plaats toe. Droogte en oorlog duwen mensen weg en zijn dus pushfactoren, en hoge huurprijzen houden mensen juist tegen.",
     ),
     dict(
         type="waarofniet",
@@ -351,8 +353,9 @@ DEEL2 = [
             "Het geboortebeleid van de overheid",
             "De geografische lengte van het land",
             "De kleur op de kaart in de atlas",
+            "De armoede in het land",
         ],
-        antwoord=[0, 1, 2],
+        antwoord=[0, 1, 2, 5],
         uitleg="Welvaart, politiek en beleid grijpen rechtstreeks in op geboorten, sterfte en migratie. Daarnaast spelen ook klimaat, reliëf, bodemkwaliteit en armoede mee.",
     ),
     dict(
