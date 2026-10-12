@@ -84,13 +84,15 @@
             "filosofie onderzoekt ook de veronderstellingen waarop een wetenschap rust",
             "filosofie kan vragen stellen die met geen enkele meting te beslechten zijn",
             "filosofie vervangt de wetenschappen zodra die een vraag niet kunnen oplossen",
-            "filosofie levert zelf meetgegevens aan over de natuur"
+            "filosofie levert zelf meetgegevens aan over de natuur",
+            "filosofie kan de vraag stellen wanneer iets wetenschap mag heten"
           ],
           "antwoord": [
             0,
-            1
+            1,
+            4
           ],
-          "uitleg": "ze onderzoekt de grond onder een wetenschap en ze stelt vragen die buiten het bereik van een meting liggen. Ze vervangt geen wetenschap en ze meet zelf niet."
+          "uitleg": "Ze onderzoekt de grond onder een wetenschap, ze stelt vragen die buiten het bereik van een meting liggen, en de vraag wanneer iets wetenschap mag heten is zelf zo een vraag. Ze vervangt geen wetenschap en ze meet zelf niet."
         },
         {
           "type": "meerkeuze",
@@ -259,13 +261,15 @@
             "ze is niet met een meting of een opzoeking te beslechten",
             "ze raakt aan de begrippen en de veronderstellingen zelf",
             "ze heeft precies één antwoord waar iedereen het over eens is",
-            "ze gaat altijd over een gebeurtenis uit het verleden"
+            "ze gaat altijd over een gebeurtenis uit het verleden",
+            "ze vraagt ook naar wat zou moeten gelden, niet enkel naar wat het geval is"
           ],
           "antwoord": [
             0,
-            1
+            1,
+            4
           ],
-          "uitleg": "Een filosofische vraag valt niet met een meting te beslechten en raakt aan de begrippen zelf. Eén antwoord waar iedereen het over eens is, is er net niet."
+          "uitleg": "Een filosofische vraag valt niet met een meting te beslechten, raakt aan de begrippen zelf en kan ook naar wat zou moeten gelden vragen. Eén antwoord waar iedereen het over eens is, is er net niet."
         },
         {
           "type": "meerkeuze",
@@ -274,13 +278,15 @@
             "wat maakt een straf rechtvaardig?",
             "mag een samenleving iemand straffen om anderen af te schrikken?",
             "hoeveel gevangenen zitten er vandaag in België?",
-            "welke rechtbank behandelt een diefstal van een fiets?"
+            "welke rechtbank behandelt een diefstal van een fiets?",
+            "wanneer is een straf te zwaar?"
           ],
           "antwoord": [
             0,
-            1
+            1,
+            4
           ],
-          "uitleg": "De twee juiste antwoorden raken aan een begrip en zijn met geen opzoeking te beslechten. Het aantal gevangenen en de bevoegde rechtbank zijn gewoon op te zoeken."
+          "uitleg": "Die vragen raken aan een begrip en zijn met geen enkele opzoeking te beslechten. Het aantal gevangenen en de bevoegde rechtbank zijn gewoon op te zoeken."
         },
         {
           "type": "meerkeuze",
@@ -499,11 +505,13 @@
             "één overtuiging kan op verschillende bronnen tegelijk steunen",
             "geen enkele bron geeft op zich een waarborg dat je het juist hebt",
             "een verhaal is altijd minder betrouwbaar dan een zintuiglijke waarneming",
-            "introspectie geeft als enige bron altijd zekerheid"
+            "introspectie geeft als enige bron altijd zekerheid",
+            "ook je geheugen kan je bedriegen"
           ],
           "antwoord": [
             0,
-            1
+            1,
+            4
           ],
           "uitleg": "Bronnen werken samen, en elk van de vijf kan je bedriegen: ook je geheugen, ook je ogen, ook je blik naar binnen."
         },
@@ -751,11 +759,13 @@
             "een geldige deductie met ware premissen geeft een zeker besluit",
             "een inductie blijft altijd een besluit dat door nieuwe waarnemingen kan sneuvelen",
             "inductie geeft meer zekerheid dan deductie, omdat ze op feiten steunt",
-            "deductie levert als enige nieuwe kennis over de wereld op"
+            "deductie levert als enige nieuwe kennis over de wereld op",
+            "een deductie leert niets nieuws over de wereld"
           ],
           "antwoord": [
             0,
-            1
+            1,
+            4
           ],
           "uitleg": "Deductie is zeker maar leert niets nieuws over de wereld; inductie leert wel iets nieuws maar nooit met zekerheid."
         },
@@ -880,13 +890,15 @@
             "een vaste methode, met systematische waarneming",
             "de proef, waarmee je een verklaring kan toetsen",
             "de overtuiging dat alleen het denken tot kennis kan leiden",
-            "de gewoonte om elke verklaring in een verhaal te gieten"
+            "de gewoonte om elke verklaring in een verhaal te gieten",
+            "de eis dat anderen je uitspraak kunnen nagaan"
           ],
           "antwoord": [
             0,
-            1
+            1,
+            4
           ],
-          "uitleg": "Natuurfilosofie redeneerde over de natuur; wetenschap voegt daar een methode en een proef aan toe waarmee anderen je uitspraak kunnen nagaan."
+          "uitleg": "Natuurfilosofie redeneerde over de natuur; wetenschap voegt daar een methode, een proef en de eis toe dat anderen je uitspraak kunnen nagaan."
         },
         {
           "type": "meerkeuze",
@@ -931,13 +943,15 @@
             "wetenschap werkt met een methode die anderen kunnen nagaan",
             "de natuurfilosofie zocht de oorzaak al binnen de natuur zelf",
             "de wetenschap heeft de filosofie overbodig gemaakt",
-            "de natuurfilosofie werkte al met gecontroleerde proeven"
+            "de natuurfilosofie werkte al met gecontroleerde proeven",
+            "de vraag wanneer iets wetenschap is, is zelf een filosofische vraag"
           ],
           "antwoord": [
             0,
-            1
+            1,
+            4
           ],
-          "uitleg": "De filosofie is niet overbodig geworden: de vraag wanneer iets wetenschap is, is zelf een filosofische vraag."
+          "uitleg": "Wetenschap werkt met een methode die anderen kunnen nagaan, en de natuurfilosofie zocht de oorzaak al binnen de natuur zelf. De filosofie is daarmee niet overbodig geworden: de vraag wanneer iets wetenschap is, is zelf een filosofische vraag."
         },
         {
           "type": "meerkeuze",
@@ -1379,13 +1393,15 @@
             "Plato houdt de ziel los van het lichaam, Aristoteles niet",
             "beiden spreken over een ziel, maar met een ander verband met het lichaam",
             "beiden vinden dat de ziel het lichaam overleeft",
-            "Aristoteles ontkent dat er zoiets als een ziel is"
+            "Aristoteles ontkent dat er zoiets als een ziel is",
+            "bij Aristoteles is de ziel onlosmakelijk met het lichaam verbonden"
           ],
           "antwoord": [
             0,
-            1
+            1,
+            4
           ],
-          "uitleg": "Aristoteles ontkent de ziel niet, hij maakt haar onlosmakelijk met het lichaam verbonden."
+          "uitleg": "Aristoteles ontkent de ziel niet, hij maakt haar onlosmakelijk met het lichaam verbonden. Plato houdt de twee juist los van elkaar."
         },
         {
           "type": "meerkeuze",
@@ -1567,11 +1583,13 @@
             "Descartes is een dualist en Spinoza een monist",
             "beiden spreken over denken en over uitgebreidheid",
             "beiden nemen twee gescheiden werkelijkheden aan",
-            "Spinoza ontkent dat mensen kunnen denken"
+            "Spinoza ontkent dat mensen kunnen denken",
+            "voor Spinoza zijn denken en uitgebreidheid twee kanten van één werkelijkheid"
           ],
           "antwoord": [
             0,
-            1
+            1,
+            4
           ],
           "uitleg": "Ze gebruiken dezelfde twee begrippen en verschillen over de vraag of die twee werkelijkheden zijn of twee kanten van één."
         },
@@ -1828,11 +1846,13 @@
             "ze kunnen elkaar aanvullen in plaats van elkaar uit te sluiten",
             "de naturalistische benadering legt het meeste gewicht bij het lichaam",
             "alle drie ontkennen dat emoties met het lichaam te maken hebben",
-            "alle drie zeggen dat emoties volledig vastliggen bij de geboorte"
+            "alle drie zeggen dat emoties volledig vastliggen bij de geboorte",
+            "een emotie kan lichamelijk beginnen en toch door je oordeel gekleurd worden"
           ],
           "antwoord": [
             0,
-            1
+            1,
+            4
           ],
           "uitleg": "Dat een emotie lichamelijk begint, dat je leert hoe je ze toont en dat je oordeel meespeelt, kan alle drie tegelijk waar zijn."
         },
@@ -1843,11 +1863,13 @@
             "ons lichaam legt grenzen vast waarbinnen cultuur van alles mogelijk maakt",
             "wat natuur is en wat cultuur, valt bij mensen moeilijk uit elkaar te halen",
             "cultuur bij mensen staat volledig los van alles wat lichamelijk is",
-            "alles wat mensen doen is natuur, want wij zijn nu eenmaal dieren"
+            "alles wat mensen doen is natuur, want wij zijn nu eenmaal dieren",
+            "de scherpe tweedeling natuur tegenover cultuur houdt bij de mens nergens stand"
           ],
           "antwoord": [
             0,
-            1
+            1,
+            4
           ],
           "uitleg": "De scherpe tweedeling natuur tegenover cultuur houdt bij de mens nergens helemaal stand."
         },
@@ -1998,11 +2020,13 @@
             "Descartes zet de scherpste grens tussen mens en dier",
             "Nietzsche zet de mens het dichtst bij de rest van de natuur",
             "alle drie vinden dat dieren precies hetzelfde zijn als mensen",
-            "alle drie noemen de rede het enige verschil dat echt bestaat"
+            "alle drie noemen de rede het enige verschil dat echt bestaat",
+            "Aristoteles ziet een verschil binnen de natuur, geen kloof"
           ],
           "antwoord": [
             0,
-            1
+            1,
+            4
           ],
           "uitleg": "Aristoteles staat ertussen: een verschil binnen de natuur, geen kloof."
         },
@@ -2061,11 +2085,13 @@
             "gedrag dat op bewustzijn lijkt, bewijst nog niet dat er bewustzijn is",
             "de vraag of een machine iets ervaart is van buitenaf moeilijk te beslechten",
             "zodra een machine een gesprek kan voeren, heeft ze bewustzijn",
-            "de vraag is al beslecht sinds er machines bestaan die kunnen praten"
+            "de vraag is al beslecht sinds er machines bestaan die kunnen praten",
+            "de vraag blijft filosofisch en is niet alleen technisch"
           ],
           "antwoord": [
             0,
-            1
+            1,
+            4
           ],
           "uitleg": "Dat is precies de reden waarom dit een filosofische vraag blijft en niet alleen een technische."
         },
@@ -2274,11 +2300,13 @@
             "bij een lot zit er een bedoeling achter, bij determinisme niet noodzakelijk",
             "bij toeval ontbreekt zowel de bedoeling als de noodzaak",
             "lot, toeval en determinisme betekenen in de filosofie precies hetzelfde",
-            "determinisme en toeval komen op hetzelfde neer, want beide gaan over kans"
+            "determinisme en toeval komen op hetzelfde neer, want beide gaan over kans",
+            "determinisme spreekt over oorzaken, zonder bestemming"
           ],
           "antwoord": [
             0,
-            1
+            1,
+            4
           ],
           "uitleg": "Determinisme is strenger dan toeval en kaler dan het lot: oorzaken, zonder bestemming."
         },
@@ -2289,11 +2317,13 @@
             "in beide gevallen ligt de loop van de dingen niet in de hand van de mens",
             "de Stoïcijnen leggen de vrijheid binnen de mens, de mythologie doet dat niet",
             "in beide gevallen is de mens volledig vrij om zijn weg te kiezen",
-            "de mythologie verdedigt het determinisme en de Stoïcijnen bestrijden het"
+            "de mythologie verdedigt het determinisme en de Stoïcijnen bestrijden het",
+            "de Stoïcijnen zoeken binnen de vaste orde wat er toch nog aan jou toekomt"
           ],
           "antwoord": [
             0,
-            1
+            1,
+            4
           ],
           "uitleg": "De Stoïcijnen nemen de vaste orde over en zoeken daarbinnen wat er toch nog aan jou toekomt."
         },
@@ -2467,11 +2497,13 @@
             "de vraag blijft dezelfde, maar de reden voor onvrijheid verandert per periode",
             "in de mythologie is het het lot, in de 17de eeuw zijn het de natuurwetten",
             "in elke periode wordt de vrije wil zonder meer verdedigd",
-            "in elke periode wordt de vrije wil zonder meer ontkend"
+            "in elke periode wordt de vrije wil zonder meer ontkend",
+            "de verklaring gaat van het lot over de atomen en de voorzienigheid naar de natuurwetten"
           ],
           "antwoord": [
             0,
-            1
+            1,
+            4
           ],
           "uitleg": "Lot, atomen, voorzienigheid, natuurwetten, de wil: andere verklaring, dezelfde vraag."
         },
@@ -2506,11 +2538,13 @@
             "een streng determinisme maakt het begrip schuld moeilijk te verdedigen",
             "ons recht gaat ervan uit dat iemand anders had kunnen handelen",
             "determinisme en verantwoordelijkheid hebben niets met elkaar te maken",
-            "determinisme maakt elke straf meteen volledig onmogelijk"
+            "determinisme maakt elke straf meteen volledig onmogelijk",
+            "moeilijk is niet onmogelijk: latere filosofen verzoenen de twee met elkaar"
           ],
           "antwoord": [
             0,
-            1
+            1,
+            4
           ],
           "uitleg": "Moeilijk is niet onmogelijk: later proberen filosofen de twee juist met elkaar te verzoenen."
         },
@@ -2674,11 +2708,13 @@
             "beiden vertrekken van een mens die zijn situatie niet gekozen heeft",
             "Sartre legt meer gewicht bij de keuze dan Heidegger doet",
             "beiden vinden dat de mens door natuurwetten volledig vastligt",
-            "beiden ontkennen dat de mens ergens verantwoordelijk voor is"
+            "beiden ontkennen dat de mens ergens verantwoordelijk voor is",
+            "Heidegger legt meer gewicht bij de geworpenheid dan Sartre doet"
           ],
           "antwoord": [
             0,
-            1
+            1,
+            4
           ],
           "uitleg": "Het zijn twee stemmen uit dezelfde hoek, met een ander accent: geworpenheid tegenover keuze."
         },
@@ -2701,11 +2737,13 @@
             "niet kiezen is bij hem ook een keuze",
             "vrijheid gaat bij hem samen met verantwoordelijkheid, en dat weegt",
             "vrijheid betekent bij hem dat je alles kan wat je wil",
-            "vrijheid geldt bij hem enkel voor wie geen zorgen heeft"
+            "vrijheid geldt bij hem enkel voor wie geen zorgen heeft",
+            "zijn vrijheid is geen gemak maar een last"
           ],
           "antwoord": [
             0,
-            1
+            1,
+            4
           ],
           "uitleg": "Zijn vrijheid is geen gemak maar een last: er is niemand anders aan wie je je keuzes kan toeschrijven."
         },
@@ -2913,11 +2951,13 @@
             "Sartre legt het meeste gewicht bij de keuze, Verplaetse het minste",
             "Frankfurt zoekt een vrijheid die met oorzaken verenigbaar is",
             "alle vijf verdedigen dat de mens volledig vrij is",
-            "alle vijf ontkennen dat de mens ergens vrij in is"
+            "alle vijf ontkennen dat de mens ergens vrij in is",
+            "de vijf vormen een rij van heel veel naar heel weinig vrijheid"
           ],
           "antwoord": [
             0,
-            1
+            1,
+            4
           ],
           "uitleg": "De vijf staan juist op een rij van heel veel naar heel weinig vrijheid."
         },
@@ -2928,11 +2968,13 @@
             "de beperking van de vrijheid wordt er vaak binnen de mens zelf gezocht",
             "de vraag wordt er ook een vraag over straf en verantwoordelijkheid",
             "de vraag is er door de wetenschap definitief beslecht",
-            "de natuurwetten zijn er het enige dat nog ter sprake komt"
+            "de natuurwetten zijn er het enige dat nog ter sprake komt",
+            "waar de 17de eeuw naar de natuurwetten keek, kijkt de 20ste eeuw naar verlangens, gewoonten, macht en hersenen"
           ],
           "antwoord": [
             0,
-            1
+            1,
+            4
           ],
           "uitleg": "Waar de 17de eeuw naar de natuurwetten keek, kijkt de 20ste eeuw naar verlangens, gewoonten, macht en hersenen."
         },
@@ -3141,11 +3183,13 @@
             "het universalisme neemt regels aan die overal gelden",
             "het relativisme maakt kritiek op een andere cultuur lastig",
             "beide standpunten zeggen hetzelfde met andere woorden",
-            "het universalisme ontkent dat er culturele verschillen bestaan"
+            "het universalisme ontkent dat er culturele verschillen bestaan",
+            "een universalist kan de culturele verschillen gerust vaststellen"
           ],
           "antwoord": [
             0,
-            1
+            1,
+            4
           ],
           "uitleg": "Een universalist kan de verschillen gerust vaststellen; hij vindt alleen dat sommige regels daar niet van afhangen."
         },
@@ -3156,11 +3200,13 @@
             "dezelfde waarde kan in twee landen andere normen opleveren",
             "een norm is concreter dan de waarde waaruit ze volgt",
             "waarden en normen zijn twee woorden voor precies hetzelfde",
-            "een waarde is altijd een regel die ergens opgeschreven staat"
+            "een waarde is altijd een regel die ergens opgeschreven staat",
+            "respect voor ouderen is een waarde, hoe je dat hoort te laten zien is een norm"
           ],
           "antwoord": [
             0,
-            1
+            1,
+            4
           ],
           "uitleg": "Respect voor ouderen is overal een waarde; hoe je dat hoort te laten zien, verschilt."
         },
@@ -3370,11 +3416,13 @@
             "de descriptieve beschrijft, de normatieve schrijft voor",
             "de descriptieve kan onderzoek gebruiken, bijvoorbeeld een bevraging",
             "de descriptieve beslist welke morele opvatting de juiste is",
-            "de normatieve beperkt zich tot het meten van wat mensen vinden"
+            "de normatieve beperkt zich tot het meten van wat mensen vinden",
+            "van een beschrijving kan je niet zomaar naar een voorschrift oversteken"
           ],
           "antwoord": [
             0,
-            1
+            1,
+            4
           ],
           "uitleg": "Het is-ought probleem zegt juist dat je van de eerste niet zomaar naar de tweede kan oversteken."
         },
@@ -3558,11 +3606,13 @@
             "beiden beoordelen een daad op haar gevolgen",
             "Singer trekt de kring van wie meetelt breder dan de mens",
             "Bentham beoordeelt een daad op de regel die erbij hoort",
-            "Singer verlaat de gevolgenethiek en kiest voor de plichtethiek"
+            "Singer verlaat de gevolgenethiek en kiest voor de plichtethiek",
+            "Singer blijft binnen de gevolgenethiek en verandert wie er meetelt"
           ],
           "antwoord": [
             0,
-            1
+            1,
+            4
           ],
           "uitleg": "Singer blijft binnen dezelfde benadering en verandert wie er in de rekening meegaat."
         },
@@ -3573,11 +3623,13 @@
             "ze maakt de uitkomst beslissend en niet de bedoeling",
             "ze laat zich moeilijk toepassen zonder de toekomst in te schatten",
             "ze verbiedt op voorhand bepaalde daden, hoe de uitkomst ook is",
-            "ze is de oudste benadering binnen de hele ethiek"
+            "ze is de oudste benadering binnen de hele ethiek",
+            "ze sluit geen enkele daad op voorhand uit"
           ],
           "antwoord": [
             0,
-            1
+            1,
+            4
           ],
           "uitleg": "Dat zij geen daad op voorhand uitsluit, is net wat haar van de plichtethiek onderscheidt."
         },
@@ -3798,11 +3850,13 @@
             "ze kunnen bij hetzelfde geval tot een tegengesteld besluit komen",
             "de gevolgenethiek kijkt vooruit, de plichtethiek kijkt naar de regel",
             "ze komen bij elk geval tot precies hetzelfde besluit",
-            "beide beoordelen een daad uitsluitend op haar uitkomst"
+            "beide beoordelen een daad uitsluitend op haar uitkomst",
+            "juist omdat ze kunnen botsen, zijn morele dilemma's zo lastig"
           ],
           "antwoord": [
             0,
-            1
+            1,
+            4
           ],
           "uitleg": "Juist omdat ze kunnen botsen, zijn morele dilemma's zo lastig."
         },
@@ -3998,11 +4052,13 @@
             "beiden vertrekken van wat een mens nodig heeft om goed te leven",
             "Nussbaum werkt dat uit als een lijst van wat elke mens moet kunnen",
             "beiden beoordelen een daad uitsluitend op haar gevolgen",
-            "Nussbaum verwerpt de deugdethiek en kiest de plichtethiek"
+            "Nussbaum verwerpt de deugdethiek en kiest de plichtethiek",
+            "de capaciteiten van Nussbaum zijn een moderne uitwerking in dezelfde lijn"
           ],
           "antwoord": [
             0,
-            1
+            1,
+            4
           ],
           "uitleg": "Haar capaciteiten zijn een moderne uitwerking in dezelfde lijn."
         },
@@ -4013,11 +4069,13 @@
             "ze kijkt eerder naar de persoon dan naar de losse daad",
             "ze vraagt oefening en gewoonte en niet alleen een beslissing",
             "ze geeft voor elk geval een duidelijke regel om te volgen",
-            "ze beoordeelt een daad door het geluk ervan op te tellen"
+            "ze beoordeelt een daad door het geluk ervan op te tellen",
+            "ze geeft geen kant-en-klare regel, en dat is het bezwaar dat men haar maakt"
           ],
           "antwoord": [
             0,
-            1
+            1,
+            4
           ],
           "uitleg": "Dat ze geen kant-en-klare regel geeft, is precies het bezwaar dat men haar maakt."
         },
@@ -4214,11 +4272,13 @@
             "ze maakt afhankelijkheid tot een normaal deel van het menselijk leven",
             "ze vertrekt van de concrete relatie en niet van een algemene regel",
             "ze verwerpt elke vorm van rechtvaardigheid in de samenleving",
-            "ze geldt enkel in de zorgsector en nergens anders"
+            "ze geldt enkel in de zorgsector en nergens anders",
+            "haar inzichten worden ook op onderwijs, beleid en gezinnen toegepast"
           ],
           "antwoord": [
             0,
-            1
+            1,
+            4
           ],
           "uitleg": "Haar inzichten worden ook op onderwijs, beleid en gezinnen toegepast."
         },
@@ -4229,11 +4289,13 @@
             "ze stellen bij hetzelfde geval elk een andere vraag",
             "de deugdethiek en de zorgethiek kijken minder naar de losse daad",
             "de vier benaderingen spreken elkaar nooit tegen",
-            "de vier benaderingen zijn vier namen voor dezelfde methode"
+            "de vier benaderingen zijn vier namen voor dezelfde methode",
+            "gevolg, plicht, karakter en relatie zijn vier ingangen op dezelfde vraag"
           ],
           "antwoord": [
             0,
-            1
+            1,
+            4
           ],
           "uitleg": "Gevolg, plicht, karakter en relatie: vier ingangen op dezelfde vraag naar goed handelen."
         },
@@ -4406,11 +4468,13 @@
             "beiden verbinden goed leven met een geslaagd leven voor jezelf",
             "Epicurus legt meer gewicht bij het ontbreken van pijn en onrust",
             "Aristoteles ziet geluk als een stemming van de dag",
-            "Epicurus raadt aan om zoveel genot als mogelijk op te zoeken"
+            "Epicurus raadt aan om zoveel genot als mogelijk op te zoeken",
+            "Aristoteles kijkt naar een heel leven, Epicurus naar wat je rust in de weg staat"
           ],
           "antwoord": [
             0,
-            1
+            1,
+            4
           ],
           "uitleg": "Aristoteles kijkt naar een heel leven; Epicurus kijkt naar wat je rust in de weg staat."
         },
@@ -4433,11 +4497,13 @@
             "geluk wordt er eerder als een manier van leven dan als een gevoel bekeken",
             "goed handelen en gelukkig zijn worden er met elkaar verbonden",
             "geluk wordt er gemeten in het bezit dat iemand bijeenbrengt",
-            "geluk wordt er beschouwd als iets dat je volledig overkomt"
+            "geluk wordt er beschouwd als iets dat je volledig overkomt",
+            "geluk hoort er bij de ethiek en niet bij de psychologie van de goede dag"
           ],
           "antwoord": [
             0,
-            1
+            1,
+            4
           ],
           "uitleg": "Daarom hoort het geluk bij de ethiek en niet bij de psychologie van de goede dag."
         },
@@ -4663,11 +4729,13 @@
             "beiden nemen afstand van de belofte van een leven zonder verdriet",
             "De Wachter zoekt een uitweg in verbondenheid, Schopenhauer niet daar",
             "beiden vinden dat geluk eenvoudig te bereiken is",
-            "beiden rekenen geluk uit als genot min pijn"
+            "beiden rekenen geluk uit als genot min pijn",
+            "beiden zijn nuchter over het verdriet, maar geven er een ander antwoord op"
           ],
           "antwoord": [
             0,
-            1
+            1,
+            4
           ],
           "uitleg": "Dezelfde nuchterheid over het verdriet, een ander antwoord erop."
         },
@@ -4877,11 +4945,13 @@
             "geldigheid gaat over de vorm van de redenering",
             "een redenering kan geldig zijn en toch van iets onwaars vertrekken",
             "een ware conclusie maakt een redenering altijd geldig",
-            "een ongeldige redenering heeft altijd een onwaar besluit"
+            "een ongeldige redenering heeft altijd een onwaar besluit",
+            "ook een ongeldige redenering kan per ongeluk bij iets waars uitkomen"
           ],
           "antwoord": [
             0,
-            1
+            1,
+            4
           ],
           "uitleg": "Ook een ongeldige redenering kan per ongeluk bij iets waars uitkomen; ze bewijst het alleen niet."
         },
@@ -5075,11 +5145,13 @@
             "een drogreden kan een besluit hebben dat toevallig waar is",
             "een drogreden overtuigt juist omdat ze op een goed argument lijkt",
             "een drogreden is altijd met opzet gebruikt",
-            "een drogreden heeft altijd een onwaar besluit"
+            "een drogreden heeft altijd een onwaar besluit",
+            "wie een drogreden gebruikt, doet dat vaak zonder het te merken"
           ],
           "antwoord": [
             0,
-            1
+            1,
+            4
           ],
           "uitleg": "Wie een drogreden gebruikt, doet dat vaak zonder het te merken, en het besluit kan om een andere reden best juist zijn."
         },

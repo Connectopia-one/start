@@ -151,18 +151,24 @@ TITEL = "Plakpagina inhoudsronde"
 SLEUTEL = "connectopia-plakpagina-inhoudsronde-13-oktober"
 VOET = "Bijgewerkt op 13 oktober 2026"
 INTRO = """<p>Deze ronde gaat over de <strong>inhoud van de vragen zelf</strong>, niet over het
-      platform. Twee dingen zijn rechtgezet.</p>
+      platform. Drie dingen zijn rechtgezet.</p>
       <p><strong>Eén.</strong> De opties van een meerkeuzevraag worden bij het tonen door elkaar
       gezet, zodat het juiste antwoord niet altijd bovenaan staat. Maar in de uitleg stond bij
       166 vragen nog &#8220;De eerste drie zijn juist&#8221; of &#8220;De laatste moet it rains
       zijn&#8221;. Een kind dat die uitleg las, zag die drie niet bovenaan staan. Dat is nu
       overal vervangen door iets dat blijft kloppen: <em>de drie juiste antwoorden</em>,
       <em>de twee andere</em>, <em>het foute antwoord</em>.</p>
-      <p><strong>Twee.</strong> Bij Techniek ✨ Spark stonden 59 van de 66 aankruisvragen op
-      precies drie juiste antwoorden. Drieëntwintig vragen zijn herschreven naar twee of vier,
-      zodat een kind het aantal niet meer kan afleiden. Dat is het eerste vak van die lijst van
-      49; de andere volgen vak per vak, en elk vak komt op deze pagina te staan zodra het
-      helemaal af is.</p>
+      <p><strong>Twee.</strong> Het aantal juiste antwoorden bij een aankruisvraag. Bij de meeste
+      vakken stond bijna alles op precies drie, dus kon een kind er drie aanvinken zonder de
+      leerstof te kennen. <strong>Heel ✨ Spark is nu gespreid</strong>: in elk vak zit het
+      grootste groepje onder de vier op de tien, dus valt er niets meer af te leiden. 🚀 Boost en
+      🌍 Beyond volgen vak per vak, en elk vak komt hier te staan zodra het helemaal af is. Die
+      bestanden staan er nu al bij voor punt één.</p>
+      <p><strong>Drie.</strong> Het idee van Febe: vragen waarbij <strong>geen enkel</strong>
+      antwoord juist is, of net <strong>alle</strong>. In negen vakken van ✨ Spark staat nu bij
+      tien vragen de optie &#8220;Geen van deze antwoorden&#8221;, en bij vier van die tien is ze
+      ook het juiste antwoord. Dat ze er staat, verklapt dus niets. Die optie blijft bij het
+      schudden altijd onderaan, want in het midden van een lijst leest ze als onzin.</p>
       <p>Elke kaart hieronder is één bestand met één klik. De vinkjes blijven staan als je de
       pagina sluit, ook op je telefoon.</p>"""
 
@@ -214,14 +220,29 @@ VR_BOOST_DF = [
     ("u-gzw-sdf", "Gezondheid, zorg en welzijn", BOOST_DF, "boost-dubbele-finaliteit",
      "gezondheid-zorg-en-welzijn", AL),
 ]
+GESPREID = ("Het aantal juiste antwoorden is gespreid: %s. En er staan vragen bij waarbij "
+            "geen enkel antwoord juist is, of net alle. ")
 VR_SPARK = [
     ("u-te-sp", "Techniek", SPARK, "spark", "techniek",
-     "Dit is het vak waar ook het aantal juiste antwoorden rechtgetrokken is: 23 vragen "
-     "staan nu op twee of vier in plaats van drie. " + AL),
-    ("u-nl-sp", "Nederlands", SPARK, "spark", "nederlands", WISSEL),
-    ("u-gs-sp", "Geschiedenis", SPARK, "spark", "geschiedenis", AL),
-    ("u-nw-sp", "Natuurwetenschappen", SPARK, "spark", "natuurwetenschappen", AL),
-    ("u-se-sp", "Samenleving en economie", SPARK, "spark", "samenleving-en-economie", AL),
+     GESPREID % "21 vragen op twee, 22 op drie, 22 op vier en 1 op vijf" + AL),
+    ("u-ak-sp", "Aardrijkskunde", SPARK, "spark", "aardrijkskunde",
+     GESPREID % "26 op twee, 18 op drie, 21 op vier en 1 op vijf" + AL),
+    ("u-nl-sp", "Nederlands", SPARK, "spark", "nederlands",
+     GESPREID % "38 op twee, 39 op drie, 32 op vier en 1 op vijf" + WISSEL),
+    ("u-en-sp", "Engels", SPARK, "spark", "engels",
+     GESPREID % "30 op twee, 32 op drie, 25 op vier en 1 op vijf" + WISSEL),
+    ("u-frs-sp", "Frans", SPARK, "spark", "frans",
+     GESPREID % "30 op twee, 37 op drie, 28 op vier en 1 op vijf" + AL),
+    ("u-gs-sp", "Geschiedenis", SPARK, "spark", "geschiedenis",
+     GESPREID % "16 op twee, 12 op drie en 16 op vier" + AL),
+    ("u-nw-sp", "Natuurwetenschappen", SPARK, "spark", "natuurwetenschappen",
+     GESPREID % "22 op twee, 23 op drie en 20 op vier" + AL),
+    ("u-se-sp", "Samenleving en economie", SPARK, "spark", "samenleving-en-economie",
+     GESPREID % "27 op twee, 18 op drie, 25 op vier en 1 op vijf" + AL),
+    ("u-wi-sp", "Wiskunde", SPARK, "spark", "wiskunde",
+     "Wiskunde heeft geen aankruisvragen, dus daar was niets te spreiden. Wel staan er nu "
+     "vier rekenvragen bij waar geen van de getallen juist is, met zes andere waar die optie "
+     "er enkel als afleider bij staat. " + AL),
 ]
 
 WEG = ('Open <span class="pad">Beheer</span>, <span class="pad">Vakken</span>, '
