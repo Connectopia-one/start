@@ -107,7 +107,7 @@ DEEL1 = [
          opties=["ze is een van de principes van een democratische rechtsstaat",
                  "ze bestaat om macht te begrenzen en niet om bestuur te versnellen",
                  "ze betekent dat de drie machten niets met elkaar te maken hebben",
-                 "ze betekent dat elke macht de andere twee kan afzetten"],
+                 "ze betekent dat elke macht de andere kan afzetten"],
          antwoord=[0, 1],
          uitleg="De machten raken elkaar wel degelijk: daar gaat de controle en "
                 "het evenwicht over."),
@@ -248,7 +248,7 @@ DEEL2 = [
                  "een parlement dat de regering ondervraagt, is er een voorbeeld van",
                  "een rechter die zijn vonnis motiveert, is er een voorbeeld van"],
          antwoord=[0, 1],
-         uitleg="De twee andere zijn juist voorbeelden van hoe het systeem hoort "
+         uitleg="De andere zijn juist voorbeelden van hoe het systeem hoort "
                 "te werken."),
     dict(type="meerkeuze",
          vraag="Welke uitspraken over de rechterlijke macht kloppen?",

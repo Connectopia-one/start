@@ -393,7 +393,7 @@ DEEL2 = [
             "heb ik meer woorden gebruikt dan gevraagd?",
         ],
         antwoord=[0, 1, 2],
-        uitleg="Lengte is geen kwaliteit. De drie eerste vragen gaan over of je tekst doet wat hij moet doen.",
+        uitleg="Lengte is geen kwaliteit. De eerste vragen gaan over of je tekst doet wat hij moet doen.",
     ),
     dict(
         type="waarofniet",

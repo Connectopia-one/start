@@ -117,7 +117,7 @@ DEEL1 = [
             "De zon ging onder.",
         ],
         antwoord=[0, 1],
-        uitleg="'Als een vis' en 'zo koud als ijs' zetten twee dingen naast elkaar. De twee andere zinnen stellen gewoon iets vast.",
+        uitleg="'Als een vis' en 'zo koud als ijs' zetten twee dingen naast elkaar. De andere zinnen stellen gewoon iets vast.",
     ),
     dict(
         type="invultekst",
@@ -269,7 +269,7 @@ DEEL2 = [
             "De kast staat in de gang.",
         ],
         antwoord=[0, 1],
-        uitleg="'Een hart van goud' en 'in zak en as' bedoelen iets anders dan ze zeggen. De twee andere zinnen bedoelen precies wat er staat.",
+        uitleg="'Een hart van goud' en 'in zak en as' bedoelen iets anders dan ze zeggen. De andere zinnen bedoelen precies wat er staat.",
     ),
     dict(
         type="invultekst",

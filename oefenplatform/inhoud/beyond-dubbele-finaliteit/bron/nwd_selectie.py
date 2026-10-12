@@ -140,7 +140,7 @@ DEEL1 = [
             "een ongebruikt lichaamsdeel verdwijnt in één generatie",
         ],
         antwoord=[0, 1],
-        uitleg="Variatie en overproductie van jongen zijn twee hoofdgedachten van Darwin. De twee andere uitspraken zijn juist de kern van Lamarcks verklaring.",
+        uitleg="Variatie en overproductie van jongen zijn twee hoofdgedachten van Darwin. De andere uitspraken zijn juist de kern van Lamarcks verklaring.",
     ),
     dict(
         type="meerkeuze",

@@ -242,7 +242,7 @@ DEEL2 = [
                  "Il vient de téléphoner.",
                  "Je vais partir."],
          antwoord=[0, 1, 2],
-         uitleg="Je vais partir is de futur proche: ik ga vertrekken. De drie andere zeggen dat iets net gebeurd is."),
+         uitleg="Je vais partir is de futur proche: ik ga vertrekken. De andere zeggen dat iets net gebeurd is."),
     dict(type="waarofniet",
          vraag="Venir de + infinitief kan ook in de imparfait: je venais de rentrer quand il a sonné.",
          antwoord=True,

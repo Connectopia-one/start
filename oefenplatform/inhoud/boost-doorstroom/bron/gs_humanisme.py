@@ -92,7 +92,7 @@ DEEL1 = [
             "het verbod van de paus op elk kerkbezoek in Duitsland",
         ],
         antwoord=[0, 1, 2],
-        uitleg="Kerkbezoek werd nergens verboden. De drie andere samen verklaren waarom Luthers kritiek zo snel weerklank vond.",
+        uitleg="Kerkbezoek werd nergens verboden. De andere samen verklaren waarom Luthers kritiek zo snel weerklank vond.",
     ),
     dict(
         type="invultekst",
@@ -140,7 +140,7 @@ DEEL1 = [
             "de paus in Rome als hoogste gezag in de geloofsleer",
         ],
         antwoord=[0, 1, 2],
-        uitleg="De paus erkennen ze juist niet. De drie andere kenmerken verklaren ook waarom calvinisten later zo op eigen bestuur gesteld waren.",
+        uitleg="De paus erkennen ze juist niet. De andere kenmerken verklaren ook waarom calvinisten later zo op eigen bestuur gesteld waren.",
     ),
     dict(
         type="meerkeuze",

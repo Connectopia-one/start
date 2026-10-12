@@ -120,7 +120,7 @@ DEEL1 = [
              "Quel temps fait-il ?",
          ],
          antwoord=[0, 1],
-         uitleg="Naam en leeftijd zijn persoonlijke gegevens. De twee andere vragen gaan over het weer en over het uur."),
+         uitleg="Naam en leeftijd zijn persoonlijke gegevens. De andere vragen gaan over het weer en over het uur."),
 ]
 
 DEEL2 = [

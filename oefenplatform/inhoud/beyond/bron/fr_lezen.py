@@ -44,7 +44,7 @@ DEEL1 = [
                  "de bus vertrekt voor het station",
                  "de trein heeft een half uur vertraging"],
          antwoord=[0, 1, 2],
-         uitleg="Supprimé betekent afgeschaft, niet vertraagd. De drie eerste gegevens staan er wel, over een vertraging staat er niets."),
+         uitleg="Supprimé betekent afgeschaft, niet vertraagd. De eerste gegevens staan er wel, over een vertraging staat er niets."),
     dict(type="waarofniet",
          vraag="De hoofdgedachte van een tekst is hetzelfde als het onderwerp van die tekst.",
          antwoord=False,

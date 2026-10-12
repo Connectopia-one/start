@@ -419,7 +419,7 @@ DEEL2 = [
             "de breking van licht in water",
         ],
         antwoord=[0, 1],
-        uitleg="De laatste twee horen bij het golfmodel. Het deeltjesmodel is nodig zodra "
+        uitleg="De laatste horen bij het golfmodel. Het deeltjesmodel is nodig zodra "
         "licht zijn energie in pakketjes afgeeft.",
     ),
     dict(

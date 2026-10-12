@@ -331,7 +331,7 @@ DEEL2 = [
             "Na de training ging hij meteen slapen.",
         ],
         antwoord=[0, 1],
-        uitleg="De juiste antwoorden hebben twee persoonsvormen. De twee andere hebben er maar één.",
+        uitleg="De juiste antwoorden hebben twee persoonsvormen. De andere hebben er maar één.",
     ),
     dict(
         type="meerkeuze",

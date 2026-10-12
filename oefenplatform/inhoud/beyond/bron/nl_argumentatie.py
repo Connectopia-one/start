@@ -30,7 +30,7 @@ DEEL1 = [
             "de school begint om kwart over acht",
         ],
         antwoord=[0, 1, 2],
-        uitleg="De laatste zin kan je nakijken op het uurrooster en is dus een feit. De drie andere bevatten een oordeel.",
+        uitleg="De laatste zin kan je nakijken op het uurrooster en is dus een feit. De andere bevatten een oordeel.",
     ),
     dict(
         type="invultekst",
@@ -96,7 +96,7 @@ DEEL1 = [
             "zoveel mogelijk uitroeptekens",
         ],
         antwoord=[0, 1, 2],
-        uitleg="Uitroeptekens maken een betoog luider, niet sterker. De drie andere zijn het geraamte.",
+        uitleg="Uitroeptekens maken een betoog luider, niet sterker. De andere zijn het geraamte.",
     ),
     dict(
         type="invultekst",
@@ -291,7 +291,7 @@ DEEL2 = [
             "uit drie onderzoeken blijkt hetzelfde beeld",
         ],
         antwoord=[0, 1, 2],
-        uitleg="De laatste is een gewoon argument op basis van onderzoek. De drie andere zijn respectievelijk een persoonlijke aanval, een beroep op traditie en een vals dilemma.",
+        uitleg="De laatste is een gewoon argument op basis van onderzoek. De andere zijn respectievelijk een persoonlijke aanval, een beroep op traditie en een vals dilemma.",
     ),
     dict(
         type="invultekst",

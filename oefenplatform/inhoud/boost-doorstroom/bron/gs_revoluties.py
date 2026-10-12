@@ -28,7 +28,7 @@ DEEL1 = [
             "een jarenlange hongersnood in de dertien kolonies zelf",
         ],
         antwoord=[0, 1, 2],
-        uitleg="Van een hongersnood was geen sprake. De drie andere oorzaken samen verklaren waarom dertien kolonies zich verenigden.",
+        uitleg="Van een hongersnood was geen sprake. De andere oorzaken samen verklaren waarom dertien kolonies zich verenigden.",
     ),
     dict(
         type="meerkeuze",
@@ -112,7 +112,7 @@ DEEL1 = [
             "het behoud van de voorrechten van de adel",
         ],
         antwoord=[0, 1, 2],
-        uitleg="De voorrechten werden in de nacht van 4 augustus juist afgeschaft. De drie andere punten zijn verlichte ideeën, woord voor woord.",
+        uitleg="De voorrechten werden in de nacht van 4 augustus juist afgeschaft. De andere punten zijn verlichte ideeën, woord voor woord.",
     ),
     dict(
         type="waarofniet",
@@ -160,7 +160,7 @@ DEEL1 = [
             "allebei stellen ze op het einde een erfelijke keizer aan",
         ],
         antwoord=[0, 1, 2],
-        uitleg="Een keizer komt er enkel in Frankrijk, en pas achteraf. De drie andere punten maken van de twee revoluties familie van elkaar.",
+        uitleg="Een keizer komt er enkel in Frankrijk, en pas achteraf. De andere punten maken van de twee revoluties familie van elkaar.",
     ),
     dict(
         type="waarofniet",
@@ -259,7 +259,7 @@ DEEL2 = [
             "elke arbeider maakt een product van begin tot eind",
         ],
         antwoord=[0, 1, 2],
-        uitleg="Dat laatste is juist wat verdwijnt. De drie andere maken van werken iets heel anders dan het was.",
+        uitleg="Dat laatste is juist wat verdwijnt. De andere maken van werken iets heel anders dan het was.",
     ),
     dict(
         type="meerkeuze",
@@ -289,7 +289,7 @@ DEEL2 = [
             "een verbod op het oprichten van ondernemingen",
         ],
         antwoord=[0, 1, 2],
-        uitleg="Een verbod was er juist niet; ondernemen was er makkelijker dan elders. De drie andere factoren lagen er toevallig alle drie samen.",
+        uitleg="Een verbod was er juist niet; ondernemen was er makkelijker dan elders. De andere factoren lagen er toevallig alle drie samen.",
     ),
     dict(
         type="meerkeuze",
@@ -373,7 +373,7 @@ DEEL2 = [
             "een roman uit de 21ste eeuw die in die tijd gesitueerd is",
         ],
         antwoord=[0, 1, 2],
-        uitleg="Een hedendaagse roman is geen bron over die tijd zelf, hooguit over hoe wij ernaar kijken. De drie andere zijn wel bronnen uit de periode.",
+        uitleg="Een hedendaagse roman is geen bron over die tijd zelf, hooguit over hoe wij ernaar kijken. De andere zijn wel bronnen uit de periode.",
     ),
     dict(
         type="meerkeuze",

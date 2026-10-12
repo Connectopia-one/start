@@ -191,7 +191,7 @@ DEEL1 = [
             "De computer laten voelen wat jij denkt",
         ],
         antwoord=[0, 1, 2],
-        uitleg="Die eerste drie staan als voorbeeld in de fiche. Voor het laatste bestaat er geen stappenplan.",
+        uitleg="Die eerste staan als voorbeeld in de fiche. Voor het laatste bestaat er geen stappenplan.",
     ),
     dict(
         type="waarofniet",

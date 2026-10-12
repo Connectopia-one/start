@@ -430,7 +430,7 @@ DEEL2 = [
             "de motorkracht van een auto en zijn luchtweerstand",
         ],
         antwoord=[0, 1],
-        uitleg="De twee laatste paren werken op hetzelfde lichaam, en dat kan niet bij actie "
+        uitleg="De laatste paren werken op hetzelfde lichaam, en dat kan niet bij actie "
         "en reactie. Ze heffen elkaar wel op als het lichaam in evenwicht is.",
     ),
     dict(

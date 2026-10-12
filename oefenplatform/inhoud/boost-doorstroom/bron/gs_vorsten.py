@@ -27,7 +27,7 @@ DEEL1 = [
             "de koning wordt bij elke troonopvolging door het volk verkozen",
         ],
         antwoord=[0, 1, 2],
-        uitleg="Verkozen worden hoort bij een republiek. De drie andere kenmerken passen precies op Lodewijk XIV.",
+        uitleg="Verkozen worden hoort bij een republiek. De andere kenmerken passen precies op Lodewijk XIV.",
     ),
     dict(
         type="meerkeuze",
@@ -87,7 +87,7 @@ DEEL1 = [
             "Engeland verloor een oorlog tegen Frankrijk",
         ],
         antwoord=[0, 1, 2],
-        uitleg="Een verloren oorlog was er niet. De drie andere redenen brachten het parlement ertoe Willem III uit de Nederlanden te halen.",
+        uitleg="Een verloren oorlog was er niet. De andere redenen brachten het parlement ertoe Willem III uit de Nederlanden te halen.",
     ),
     dict(
         type="waarofniet",
@@ -135,7 +135,7 @@ DEEL1 = [
             "de sluiting van alle havens door Engeland",
         ],
         antwoord=[0, 1, 2],
-        uitleg="Engeland sloot geen havens. De drie andere oorzaken brachten adel, steden en gelovigen samen in hetzelfde verzet.",
+        uitleg="Engeland sloot geen havens. De andere oorzaken brachten adel, steden en gelovigen samen in hetzelfde verzet.",
     ),
     dict(
         type="invultekst",
@@ -259,7 +259,7 @@ DEEL2 = [
             "de koning ontleent zijn macht rechtstreeks aan God",
         ],
         antwoord=[0, 1, 2],
-        uitleg="Het droit divin verwerpt hij juist. De drie andere ideeën vind je bijna letterlijk terug in de Amerikaanse Onafhankelijkheidsverklaring.",
+        uitleg="Het droit divin verwerpt hij juist. De andere ideeën vind je bijna letterlijk terug in de Amerikaanse Onafhankelijkheidsverklaring.",
     ),
     dict(
         type="invultekst",
@@ -391,7 +391,7 @@ DEEL2 = [
             "alle beslissingen aan de vorst en zijn ministers overlaten",
         ],
         antwoord=[0, 1, 2],
-        uitleg="Een rechtsstaat leeft van wie meedoet. De drie andere wegen staan voor iedereen open, ook voor wie nog niet mag stemmen.",
+        uitleg="Een rechtsstaat leeft van wie meedoet. De andere wegen staan voor iedereen open, ook voor wie nog niet mag stemmen.",
     ),
     dict(
         type="meerkeuze",

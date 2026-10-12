@@ -59,7 +59,7 @@ DEEL1 = [
             "Kinderen smeren te veel crème, en dat is soms ongezond.",
         ],
         antwoord=[0, 1],
-        uitleg="Huidverzorging bij kinderen en zwerfvuil in onze straat zijn korte onderwerpen. De twee andere zijn volledige zinnen met een boodschap erin: dat is een hoofdgedachte.",
+        uitleg="Huidverzorging bij kinderen en zwerfvuil in onze straat zijn korte onderwerpen. De andere zijn volledige zinnen met een boodschap erin: dat is een hoofdgedachte.",
     ),
     dict(
         type="meerkeuze",

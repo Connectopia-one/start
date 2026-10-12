@@ -238,7 +238,7 @@ DEEL2 = [
         vraag="Welke woorden kondigen een tegenstelling aan?",
         opties=["maar", "daarentegen", "echter", "bovendien"],
         antwoord=[0, 1, 2],
-        uitleg="'Bovendien' voegt iets toe in dezelfde richting. De drie andere draaien de richting om.",
+        uitleg="'Bovendien' voegt iets toe in dezelfde richting. De andere draaien de richting om.",
     ),
     dict(
         type="meerkeuze",
@@ -278,7 +278,7 @@ DEEL2 = [
         vraag="Welke woorden kondigen een samenvatting of een besluit aan?",
         opties=["kortom", "samengevat", "al met al", "bovendien"],
         antwoord=[0, 1, 2],
-        uitleg="'Bovendien' voegt nog een argument toe. De drie andere sluiten de reeks af.",
+        uitleg="'Bovendien' voegt nog een argument toe. De andere sluiten de reeks af.",
     ),
     dict(
         type="waarofniet",
@@ -334,7 +334,7 @@ DEEL2 = [
         vraag="Welke van deze woorden zijn verwijswoorden?",
         opties=["deze", "hun", "die", "hoewel"],
         antwoord=[0, 1, 2],
-        uitleg="'Hoewel' is een signaalwoord: het legt een verband. De andere drie wijzen naar iets in de tekst.",
+        uitleg="'Hoewel' is een signaalwoord: het legt een verband. De andere wijzen naar iets in de tekst.",
     ),
     dict(
         type="meerkeuze",

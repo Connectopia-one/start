@@ -90,7 +90,7 @@ DEEL1 = [
             "een veiligheidsvoorschrift in een bedrijf",
         ],
         antwoord=[0, 1, 2],
-        uitleg="Een veiligheidsvoorschrift geeft je instructies en is dus prescriptief. De drie andere geven elk iemands mening weer.",
+        uitleg="Een veiligheidsvoorschrift geeft je instructies en is dus prescriptief. De andere geven elk iemands mening weer.",
     ),
     dict(
         type="waarofniet",

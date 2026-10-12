@@ -54,7 +54,7 @@ DEEL1 = [
             "uitspraak en intonatie",
         ],
         antwoord=[0, 1, 2],
-        uitleg="Uitspraak en intonatie horen bij spreken. De drie andere gaan over de geschreven vorm.",
+        uitleg="Uitspraak en intonatie horen bij spreken. De andere gaan over de geschreven vorm.",
     ),
     dict(
         type="meerkeuze",
@@ -132,7 +132,7 @@ DEEL1 = [
             "elke zin even lang maken",
         ],
         antwoord=[0, 1, 2],
-        uitleg="Even lange zinnen maken een tekst juist eentonig. De drie andere maken de verbanden zichtbaar.",
+        uitleg="Even lange zinnen maken een tekst juist eentonig. De andere maken de verbanden zichtbaar.",
     ),
     dict(
         type="waarofniet",
@@ -225,7 +225,7 @@ DEEL2 = [
             "beginnen zonder enig plan vooraf",
         ],
         antwoord=[0, 1, 2],
-        uitleg="Zomaar beginnen leidt meestal tot een tekst zonder lijn. De drie andere geven je vooraf richting.",
+        uitleg="Zomaar beginnen leidt meestal tot een tekst zonder lijn. De andere geven je vooraf richting.",
     ),
     dict(
         type="invultekst",
@@ -291,7 +291,7 @@ DEEL2 = [
             "een reeks emoji's ter verduidelijking",
         ],
         antwoord=[0, 1, 2],
-        uitleg="Emoji's horen bij informele communicatie. De drie andere maken de mail herkenbaar formeel.",
+        uitleg="Emoji's horen bij informele communicatie. De andere maken de mail herkenbaar formeel.",
     ),
     dict(
         type="invultekst",

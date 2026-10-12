@@ -33,7 +33,7 @@ DEEL1 = [
             "de romantiek",
         ],
         antwoord=[0, 1, 2],
-        uitleg="De romantiek hoort bij de moderne tijd, rond 1800. De drie andere zijn middeleeuws.",
+        uitleg="De romantiek hoort bij de moderne tijd, rond 1800. De andere zijn middeleeuws.",
     ),
     dict(
         type="invultekst",
@@ -57,7 +57,7 @@ DEEL1 = [
             "het naturalisme",
         ],
         antwoord=[0, 1, 2],
-        uitleg="Het naturalisme is negentiende-eeuws. De drie andere horen bij de vroegmoderne tijd.",
+        uitleg="Het naturalisme is negentiende-eeuws. De andere horen bij de vroegmoderne tijd.",
     ),
     dict(
         type="meerkeuze",
@@ -252,7 +252,7 @@ DEEL2 = [
             "het postmodernisme",
         ],
         antwoord=[0, 1, 2],
-        uitleg="Het postmodernisme hoort bij de hedendaagse tijd. De drie andere staan bij de moderne tijd.",
+        uitleg="Het postmodernisme hoort bij de hedendaagse tijd. De andere staan bij de moderne tijd.",
     ),
     dict(
         type="meerkeuze",

@@ -49,7 +49,7 @@ DEEL1 = [
             "het pictogram voor gevaar voor het aquatische milieu",
         ],
         antwoord=[0, 1],
-        uitleg="Giftig werkt meteen, het langetermijnpictogram wijst op kanker, erfelijke schade of orgaanschade. De twee andere gaan over de fles zelf en over het milieu.",
+        uitleg="Giftig werkt meteen, het langetermijnpictogram wijst op kanker, erfelijke schade of orgaanschade. De andere gaan over de fles zelf en over het milieu.",
     ),
     dict(
         type="meerkeuze",
@@ -85,7 +85,7 @@ DEEL1 = [
             "glasscherven met de hand bij elkaar vegen",
         ],
         antwoord=[0, 1],
-        uitleg="Zuinig werken spaart grondstoffen en afval, en een toestel uitzetten spaart energie. De twee andere zijn net onveilig.",
+        uitleg="Zuinig werken spaart grondstoffen en afval, en een toestel uitzetten spaart energie. De andere zijn net onveilig.",
     ),
     dict(
         type="meerkeuze",

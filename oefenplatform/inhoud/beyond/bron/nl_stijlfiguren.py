@@ -31,7 +31,7 @@ DEEL1 = [
             "de ellips",
         ],
         antwoord=[0, 1, 2],
-        uitleg="Een ellips is het weglaten van een woord, geen beeld. De drie andere zetten wel een beeld in.",
+        uitleg="Een ellips is het weglaten van een woord, geen beeld. De andere zetten wel een beeld in.",
     ),
     dict(
         type="invultekst",
@@ -97,7 +97,7 @@ DEEL1 = [
             "zo zwart als roet",
         ],
         antwoord=[0, 1, 2],
-        uitleg="De laatste bevat het woordje als en is dus een vergelijking. De drie andere zetten het beeld rechtstreeks neer.",
+        uitleg="De laatste bevat het woordje als en is dus een vergelijking. De andere zetten het beeld rechtstreeks neer.",
     ),
     dict(
         type="invultekst",
@@ -262,7 +262,7 @@ DEEL2 = [
             "de hyperbool",
         ],
         antwoord=[0, 1, 2],
-        uitleg="Een hyperbool overdrijft maar herhaalt niets. De drie andere spelen met de bouw of de herhaling.",
+        uitleg="Een hyperbool overdrijft maar herhaalt niets. De andere spelen met de bouw of de herhaling.",
     ),
     dict(
         type="waarofniet",
@@ -328,7 +328,7 @@ DEEL2 = [
             "de hyperbool",
         ],
         antwoord=[0, 1, 2],
-        uitleg="Een hyperbool doet net het omgekeerde: die vergroot. De drie andere maken iets kleiner of zachter.",
+        uitleg="Een hyperbool doet net het omgekeerde: die vergroot. De andere maken iets kleiner of zachter.",
     ),
     dict(
         type="waarofniet",

@@ -24,7 +24,7 @@ DEEL1 = [
             "de groei van de Germaanse bevolking",
         ],
         antwoord=[0, 1, 2],
-        uitleg="De bevolkingsgroei kwam uit de Germaanse samenlevingen zelf en is dus een interne oorzaak. De drie andere lagen buiten hun invloed.",
+        uitleg="De bevolkingsgroei kwam uit de Germaanse samenlevingen zelf en is dus een interne oorzaak. De andere lagen buiten hun invloed.",
     ),
     dict(
         type="meerkeuze",
@@ -84,7 +84,7 @@ DEEL1 = [
             "het gekozen keizerschap door het volk",
         ],
         antwoord=[0, 1, 2],
-        uitleg="De Romeinse keizer werd niet door het volk gekozen, dus dat kon ook niet doorleven. De drie andere zijn wel blijvende sporen.",
+        uitleg="De Romeinse keizer werd niet door het volk gekozen, dus dat kon ook niet doorleven. De andere zijn wel blijvende sporen.",
     ),
     dict(
         type="waarofniet",
@@ -255,7 +255,7 @@ DEEL2 = [
             "met een vast parlement dat de wetten stemde",
         ],
         antwoord=[0, 1, 2],
-        uitleg="Een gekozen parlement bestond nog niet. De drie andere zijn wel de middelen waarmee hij bestuurde.",
+        uitleg="Een gekozen parlement bestond nog niet. De andere zijn wel de middelen waarmee hij bestuurde.",
     ),
     dict(
         type="meerkeuze",
@@ -339,7 +339,7 @@ DEEL2 = [
             "de invallen van de Mongolen",
         ],
         antwoord=[0, 1, 2],
-        uitleg="De Mongolen bereiken Europa pas in de 13de eeuw en komen niet tot in het Frankische kerngebied. De drie andere golven vallen wel in deze eeuwen.",
+        uitleg="De Mongolen bereiken Europa pas in de 13de eeuw en komen niet tot in het Frankische kerngebied. De andere golven vallen wel in deze eeuwen.",
     ),
     dict(
         type="meerkeuze",

@@ -70,7 +70,7 @@ DEEL1 = [
              "de landing van de Amerikanen in Noord-Afrika",
          ],
          antwoord=[0, 1, 2, 4],
-         uitleg="Waterloo ligt meer dan een eeuw vroeger. De drie andere draaiden in hetzelfde jaar elk een front om."),
+         uitleg="Waterloo ligt meer dan een eeuw vroeger. De andere draaiden in hetzelfde jaar elk een front om."),
     dict(type="invultekst",
          vraag="Op welke datum landden de geallieerden in Normandië? Schrijf dag en maand in cijfers, bijvoorbeeld 3 maart als 3/3.",
          antwoord=["6/6"],

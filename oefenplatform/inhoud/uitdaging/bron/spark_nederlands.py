@@ -19,7 +19,7 @@ VRAGEN = [
             "Wij hebben het hele verhaal al verteld.",
         ],
         "antwoord": [0, 1],
-        "uitleg": "Bij 'ik' komt er nooit een -t bij: ik word. Bij 'zij' komt er net wél een -t bij: zij antwoordt. De twee andere zinnen kloppen.",
+        "uitleg": "Bij 'ik' komt er nooit een -t bij: ik word. Bij 'zij' komt er net wél een -t bij: zij antwoordt. De andere zinnen kloppen.",
     },
     {
         "type": "meerkeuze",

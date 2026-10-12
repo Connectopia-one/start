@@ -96,7 +96,7 @@ DEEL1 = [
             "en",
         ],
         antwoord=[0, 1, 2],
-        uitleg="En is nevenschikkend en verbindt twee gelijkwaardige delen. De drie andere maken van wat volgt een bijzin.",
+        uitleg="En is nevenschikkend en verbindt twee gelijkwaardige delen. De andere maken van wat volgt een bijzin.",
     ),
     dict(
         type="invultekst",
@@ -162,7 +162,7 @@ DEEL1 = [
             "De oude man loopt traag.",
         ],
         antwoord=[0, 1, 2],
-        uitleg="De laatste heeft maar één persoonsvorm. De drie andere hebben er twee en bestaan dus uit twee zinnen.",
+        uitleg="De laatste heeft maar één persoonsvorm. De andere hebben er twee en bestaan dus uit twee zinnen.",
     ),
     dict(
         type="invultekst",
@@ -327,7 +327,7 @@ DEEL2 = [
             "wie of wat",
         ],
         antwoord=[0, 1, 2],
-        uitleg="Wie of wat leidt naar het onderwerp of het lijdend voorwerp. De drie andere leiden naar de omstandigheden.",
+        uitleg="Wie of wat leidt naar het onderwerp of het lijdend voorwerp. De andere leiden naar de omstandigheden.",
     ),
     dict(
         type="waarofniet",

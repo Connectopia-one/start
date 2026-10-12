@@ -272,7 +272,7 @@ DEEL2 = [
                  "trage procedures laten problemen soms lang aanslepen",
                  "burgers mogen de regering niet bekritiseren"],
          antwoord=[0, 1, 2],
-         uitleg="Kritiek op de regering mag net wel; waar dat niet mag, is er geen rechtsstaat meer. De drie andere zijn echte groeipijnen van het stelsel."),
+         uitleg="Kritiek op de regering mag net wel; waar dat niet mag, is er geen rechtsstaat meer. De andere zijn echte groeipijnen van het stelsel."),
     dict(type="waarofniet",
          vraag="Een democratie kan ook van binnenuit onder druk komen te staan, zonder staatsgreep of oorlog.",
          antwoord=True,

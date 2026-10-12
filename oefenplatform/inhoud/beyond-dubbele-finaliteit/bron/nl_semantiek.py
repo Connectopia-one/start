@@ -225,7 +225,7 @@ DEEL2 = [
             "bank en zetel",
         ],
         antwoord=[0, 1],
-        uitleg="De twee laatste paren zijn synoniemen, geen tegenstellingen.",
+        uitleg="De laatste paren zijn synoniemen, geen tegenstellingen.",
     ),
     dict(
         type="invultekst",

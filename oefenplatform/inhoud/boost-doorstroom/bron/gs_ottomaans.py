@@ -172,7 +172,7 @@ DEEL1 = [
             "de bevolking van het rijk verdween door ziekte en hongersnood",
         ],
         antwoord=[0, 1, 2],
-        uitleg="De bevolking verdween niet. De drie andere oorzaken samen verklaren waarom het rijk stilaan terrein verloor.",
+        uitleg="De bevolking verdween niet. De andere oorzaken samen verklaren waarom het rijk stilaan terrein verloor.",
     ),
     dict(
         type="meerkeuze",
@@ -184,7 +184,7 @@ DEEL1 = [
             "beelden van heiligen boven de ingang",
         ],
         antwoord=[0, 1, 2],
-        uitleg="Mensen afbeelden in een gebedshuis doet men er juist niet. De Süleymaniye in Istanbul toont de drie andere kenmerken samen.",
+        uitleg="Mensen afbeelden in een gebedshuis doet men er juist niet. De Süleymaniye in Istanbul toont de andere kenmerken samen.",
     ),
     dict(
         type="waarofniet",
@@ -259,7 +259,7 @@ DEEL2 = [
             "iedereen kan door hard werken bovenaan geraken",
         ],
         antwoord=[0, 1, 2],
-        uitleg="Opklimmen kon in beide nauwelijks. De drie andere punten maken de vergelijking juist zinvol.",
+        uitleg="Opklimmen kon in beide nauwelijks. De andere punten maken de vergelijking juist zinvol.",
     ),
     dict(
         type="waarofniet",
@@ -313,7 +313,7 @@ DEEL2 = [
             "de landbouw op de maan en op de andere planeten",
         ],
         antwoord=[0, 1, 2],
-        uitleg="Het laatste bestaat niet. De drie andere tonen hoe verschillend het antwoord op dezelfde vraag kan zijn: wie maakt wat, en voor wie?",
+        uitleg="Het laatste bestaat niet. De andere tonen hoe verschillend het antwoord op dezelfde vraag kan zijn: wie maakt wat, en voor wie?",
     ),
     dict(
         type="meerkeuze",

@@ -132,7 +132,7 @@ DEEL1 = [
             "pit",
         ],
         antwoord=[0, 1, 2],
-        uitleg="In pit klinkt de i kort. De drie andere hebben een lang klinkend geluid.",
+        uitleg="In pit klinkt de i kort. De andere hebben een lang klinkend geluid.",
     ),
     dict(
         type="waarofniet",
@@ -213,7 +213,7 @@ DEEL2 = [
             "de dubbele punt",
         ],
         antwoord=[0, 1, 2],
-        uitleg="De dubbele punt is een leesteken, geen diakritisch teken. De drie andere veranderen de lezing van een woord.",
+        uitleg="De dubbele punt is een leesteken, geen diakritisch teken. De andere veranderen de lezing van een woord.",
     ),
     dict(
         type="meerkeuze",
@@ -357,7 +357,7 @@ DEEL2 = [
             "tussen een lidwoord en zijn zelfstandig naamwoord",
         ],
         antwoord=[0, 1, 2],
-        uitleg="Tussen lidwoord en zelfstandig naamwoord staat gewoon een spatie. De drie andere zijn echte gevallen.",
+        uitleg="Tussen lidwoord en zelfstandig naamwoord staat gewoon een spatie. De andere zijn echte gevallen.",
     ),
     dict(
         type="invultekst",

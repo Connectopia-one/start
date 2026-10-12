@@ -30,7 +30,7 @@ DEEL1 = [
             "alinea",
         ],
         antwoord=[0, 1, 2],
-        uitleg="Een alinea is een stukje tekstopbouw, geen onderdeel van het model. De drie andere wel.",
+        uitleg="Een alinea is een stukje tekstopbouw, geen onderdeel van het model. De andere wel.",
     ),
     dict(
         type="invultekst",
@@ -132,7 +132,7 @@ DEEL1 = [
             "een uitnodiging die wordt aangenomen",
         ],
         antwoord=[0, 1, 2],
-        uitleg="Bij de laatste valt het effect net samen met het doel. Bij de drie andere komt er iets anders uit dan bedoeld.",
+        uitleg="Bij de laatste valt het effect net samen met het doel. Bij de andere komt er iets anders uit dan bedoeld.",
     ),
     dict(
         type="waarofniet",
@@ -261,7 +261,7 @@ DEEL2 = [
             "een ontvanger die aan iets anders denkt",
         ],
         antwoord=[0, 1, 2],
-        uitleg="De laatste zit in het hoofd van de ontvanger en is dus intern. De drie andere zitten in de omgeving of in het kanaal.",
+        uitleg="De laatste zit in het hoofd van de ontvanger en is dus intern. De andere zitten in de omgeving of in het kanaal.",
     ),
     dict(
         type="waarofniet",

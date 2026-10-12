@@ -96,7 +96,7 @@ DEEL1 = [
             "de breedte van de kantlijn",
         ],
         antwoord=[0, 1, 2],
-        uitleg="De kantlijn zegt niets over de inhoud. De drie andere wijzen je wel op de opbouw of de kern.",
+        uitleg="De kantlijn zegt niets over de inhoud. De andere wijzen je wel op de opbouw of de kern.",
     ),
     dict(
         type="invultekst",
@@ -309,7 +309,7 @@ DEEL2 = [
             "elk onbekend woord meteen opzoeken",
         ],
         antwoord=[0, 1, 2],
-        uitleg="Opzoeken tijdens het luisteren kost je de draad. De drie andere helpen je net om die vast te houden.",
+        uitleg="Opzoeken tijdens het luisteren kost je de draad. De andere helpen je net om die vast te houden.",
     ),
     dict(
         type="invultekst",

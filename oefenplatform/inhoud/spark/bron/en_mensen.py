@@ -173,7 +173,7 @@ DEEL2 = [
              "I slept very well.",
          ],
          antwoord=[0, 1],
-         uitleg="To feel sick = zich misselijk of ziek voelen, I am not well = ik voel me niet goed. De drie andere zinnen zeggen net dat het wél goed gaat."),
+         uitleg="To feel sick = zich misselijk of ziek voelen, I am not well = ik voel me niet goed. De andere zinnen zeggen net dat het wél goed gaat."),
     dict(type="invultekst",
          vraag="Hoe zeg je 'koorts' in het Engels? Eén woord van vijf letters.",
          antwoord="fever",

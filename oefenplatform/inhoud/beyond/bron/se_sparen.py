@@ -386,7 +386,7 @@ DEEL2 = [
             "de leeftijd van je bankkantoor",
         ],
         antwoord=[0, 1, 2],
-        uitleg="De twee overige zijn je financieel doel en je kennis over de financiële markt.",
+        uitleg="De overige zijn je financieel doel en je kennis over de financiële markt.",
     ),
     dict(
         type="invultekst",

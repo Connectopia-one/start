@@ -91,7 +91,7 @@ DEEL1 = [
             "het Chinese keizerrijk",
         ],
         antwoord=[0, 1, 2],
-        uitleg="China bleef buiten hun bereik. De drie andere vielen wel, met weinig soldaten maar met bondgenoten, paarden, vuurwapens en vooral ziekten.",
+        uitleg="China bleef buiten hun bereik. De andere vielen wel, met weinig soldaten maar met bondgenoten, paarden, vuurwapens en vooral ziekten.",
     ),
     dict(
         type="meerkeuze",
@@ -175,7 +175,7 @@ DEEL1 = [
             "rijst uit Amerika",
         ],
         antwoord=[0, 1, 2],
-        uitleg="Rijst komt uit Azië. De drie andere veranderen Europa grondig: het zilver de prijzen, de aardappel en de maïs het voedsel.",
+        uitleg="Rijst komt uit Azië. De andere veranderen Europa grondig: het zilver de prijzen, de aardappel en de maïs het voedsel.",
     ),
     dict(
         type="meerkeuze",
@@ -232,7 +232,7 @@ DEEL2 = [
             "van Europa naar Amerika: specerijen uit Azië",
         ],
         antwoord=[0, 1, 2],
-        uitleg="De specerijen kwamen langs een heel andere route. De drie andere ladingen sluiten de driehoek.",
+        uitleg="De specerijen kwamen langs een heel andere route. De andere ladingen sluiten de driehoek.",
     ),
     dict(
         type="invultekst",
@@ -268,7 +268,7 @@ DEEL2 = [
             "de vorst bezit alle handelsschepen en alle handelswaar van het land",
         ],
         antwoord=[0, 1, 2],
-        uitleg="De schepen waren meestal van particuliere compagnieën, niet van de vorst. De drie andere kenmerken maken het verschil met de oudere handel.",
+        uitleg="De schepen waren meestal van particuliere compagnieën, niet van de vorst. De andere kenmerken maken het verschil met de oudere handel.",
     ),
     dict(
         type="meerkeuze",
@@ -364,7 +364,7 @@ DEEL2 = [
             "de boeren worden de grootste grondbezitters",
         ],
         antwoord=[0, 1, 2],
-        uitleg="De grond bleef grotendeels in handen van adel en Kerk. De drie andere bewegingen ondergraven de oude ordening wel.",
+        uitleg="De grond bleef grotendeels in handen van adel en Kerk. De andere bewegingen ondergraven de oude ordening wel.",
     ),
     dict(
         type="waarofniet",

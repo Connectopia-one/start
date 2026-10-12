@@ -62,7 +62,7 @@ DEEL1 = [
             "het massagetal telt ook de elektronen mee",
         ],
         antwoord=[0, 1, 2],
-        uitleg="Elektronen zitten rond de kern en niet erin, dus tellen ze niet mee in A. Die drie eerste zijn de basisrelaties van de kernfysica.",
+        uitleg="Elektronen zitten rond de kern en niet erin, dus tellen ze niet mee in A. Die eerste zijn de basisrelaties van de kernfysica.",
     ),
     dict(
         type="meerkeuze",

@@ -236,7 +236,7 @@ DEEL2 = [
                  "Pourrais-tu m'aider?",
                  "Je veux réserver."],
          antwoord=[0, 1, 2],
-         uitleg="Je veux staat in de présent en klinkt kort. De drie andere zijn vriendelijker."),
+         uitleg="Je veux staat in de présent en klinkt kort. De andere zijn vriendelijker."),
     dict(type="meerkeuze",
          vraag="Wat is het verschil tussen je parlerai en je parlerais?",
          opties=["de s maakt het conditionnel",

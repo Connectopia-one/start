@@ -78,7 +78,7 @@ DEEL1 = [
             "ten eerste en tot slot",
         ],
         antwoord=[0, 1],
-        uitleg="De twee laatste rijen zijn signaalwoorden: ze verwijzen niet, ze kondigen aan.",
+        uitleg="De laatste rijen zijn signaalwoorden: ze verwijzen niet, ze kondigen aan.",
     ),
     dict(
         type="meerkeuze",

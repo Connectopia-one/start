@@ -36,7 +36,7 @@ DEEL1 = [
              "imperialistische wedijver om koloniën",
          ],
          antwoord=[0, 1, 2, 4],
-         uitleg="Grondstoffen waren er; de strijd ging over wie ze beheerste. De drie andere zetten heel Europa in enkele dagen in beweging."),
+         uitleg="Grondstoffen waren er; de strijd ging over wie ze beheerste. De andere zetten heel Europa in enkele dagen in beweging."),
     dict(type="meerkeuze",
          vraag="Welke landen vormden samen de Triple Entente?",
          opties=["Frankrijk, Rusland en Groot-Brittannië",

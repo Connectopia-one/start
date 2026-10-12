@@ -161,7 +161,7 @@ DEEL1 = [
         vraag="Welke vormen zijn voltooide deelwoorden?",
         opties=["gewerkt", "gelopen", "gezien", "werken"],
         antwoord=[0, 1, 2],
-        uitleg="'Werken' is de infinitief. De drie andere beginnen met ge- en horen bij een voltooide tijd.",
+        uitleg="'Werken' is de infinitief. De andere beginnen met ge- en horen bij een voltooide tijd.",
     ),
     dict(
         type="meerkeuze",
@@ -327,7 +327,7 @@ DEEL2 = [
         vraag="Welke woorden zijn afleidingen?",
         opties=["schoonheid", "leesbaar", "ontdekken", "deurklink"],
         antwoord=[0, 1, 2],
-        uitleg="Deurklink is een samenstelling van twee echte woorden. De drie andere gebruiken een voor- of achtervoegsel.",
+        uitleg="Deurklink is een samenstelling van twee echte woorden. De andere gebruiken een voor- of achtervoegsel.",
     ),
     dict(
         type="meerkeuze",

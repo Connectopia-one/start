@@ -108,7 +108,7 @@ DEEL1 = [
         ],
         antwoord=[0, 1],
         uitleg="Beide bewegen naar ijzer toe, het diepste punt van de energievallei. De "
-        "andere twee zouden er net energie voor nodig hebben.",
+        "andere zouden er net energie voor nodig hebben.",
     ),
     dict(
         type="meerkeuze",

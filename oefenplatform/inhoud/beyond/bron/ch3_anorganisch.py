@@ -308,7 +308,7 @@ DEEL2 = [
             "ongebluste kalk voor calciumoxide",
         ],
         antwoord=[0, 1, 4],
-        uitleg="Bijtende soda en gebluste kalk zijn gebruiksnamen. De twee andere zijn "
+        uitleg="Bijtende soda en gebluste kalk zijn gebruiksnamen. De andere zijn "
         "systematische namen, die de formule juist wel verraden.",
     ),
     dict(

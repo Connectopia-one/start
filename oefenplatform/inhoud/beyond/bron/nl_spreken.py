@@ -17,7 +17,7 @@ DEEL1 = [
             "spelling en leestekengebruik",
         ],
         antwoord=[0, 1, 2],
-        uitleg="Spelling hoort bij geschreven taal. De drie andere kan een luisteraar enkel bij een spreker beoordelen.",
+        uitleg="Spelling hoort bij geschreven taal. De andere kan een luisteraar enkel bij een spreker beoordelen.",
     ),
     dict(
         type="meerkeuze",
@@ -224,7 +224,7 @@ DEEL2 = [
             "doen alsof je het begrepen hebt",
         ],
         antwoord=[0, 1, 2],
-        uitleg="Doen alsof loopt verderop in het gesprek altijd vast. De drie andere brengen het gesprek vooruit.",
+        uitleg="Doen alsof loopt verderop in het gesprek altijd vast. De andere brengen het gesprek vooruit.",
     ),
     dict(
         type="invultekst",
@@ -260,7 +260,7 @@ DEEL2 = [
             "je luistert zonder ooit iets te zeggen",
         ],
         antwoord=[0, 1, 2],
-        uitleg="Wie enkel luistert, voert geen gesprek. De drie andere houden het gesprek gaande.",
+        uitleg="Wie enkel luistert, voert geen gesprek. De andere houden het gesprek gaande.",
     ),
     dict(
         type="waarofniet",

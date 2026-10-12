@@ -101,7 +101,7 @@ DEEL1 = [
                  "ze hebben drie componenten",
                  "ze zijn altijd te sturen"],
          antwoord=[0, 1, 2],
-         uitleg="De drie eerste staan in de fiche. Dat je elke emotie zomaar kan sturen, klopt niet."),
+         uitleg="De eerste staan in de fiche. Dat je elke emotie zomaar kan sturen, klopt niet."),
     dict(type="meerkeuze",
          vraag="Iemand lacht maar voelt zich verdrietig. Welke componenten botsen hier?",
          opties=["gedrag en mentaal",

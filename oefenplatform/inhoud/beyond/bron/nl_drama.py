@@ -29,7 +29,7 @@ DEEL1 = [
             "het episch theater",
         ],
         antwoord=[0, 1, 2],
-        uitleg="Episch theater is twintigste-eeuws. De drie andere zijn middeleeuws, met respectievelijk een ernstig verhaal, een wonder en een les.",
+        uitleg="Episch theater is twintigste-eeuws. De andere zijn middeleeuws, met respectievelijk een ernstig verhaal, een wonder en een les.",
     ),
     dict(
         type="invultekst",
@@ -107,7 +107,7 @@ DEEL1 = [
             "het abel spel",
         ],
         antwoord=[0, 1, 2],
-        uitleg="Het abel spel is middeleeuws. De drie andere horen bij de twintigste en de eenentwintigste eeuw.",
+        uitleg="Het abel spel is middeleeuws. De andere horen bij de twintigste en de eenentwintigste eeuw.",
     ),
     dict(
         type="meerkeuze",
@@ -314,7 +314,7 @@ DEEL2 = [
             "de fysionomie",
         ],
         antwoord=[0, 1, 2],
-        uitleg="Fysionomie gaat over het lichaam van de speler zelf. De drie andere vormen samen de scenische ruimte.",
+        uitleg="Fysionomie gaat over het lichaam van de speler zelf. De andere vormen samen de scenische ruimte.",
     ),
     dict(
         type="waarofniet",

@@ -256,7 +256,7 @@ DEEL2 = [
             "de kroning van Karel de Grote",
         ],
         antwoord=[0, 1, 2],
-        uitleg="De kroning van Karel de Grote ligt middenin de middeleeuwen en begint geen nieuwe periode. De drie andere worden wél als grens gebruikt.",
+        uitleg="De kroning van Karel de Grote ligt middenin de middeleeuwen en begint geen nieuwe periode. De andere worden wél als grens gebruikt.",
     ),
     dict(
         type="waarofniet",

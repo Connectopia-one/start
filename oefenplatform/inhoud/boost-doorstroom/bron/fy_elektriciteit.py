@@ -282,7 +282,7 @@ DEEL2 = [
             "de aarddraad doorknippen",
         ],
         antwoord=[0, 1],
-        uitleg="Een zekering legt de kring af bij een te grote stroom, een verliesstroomschakelaar bij een stroom die via een mens of een vochtige wand wegloopt. De twee andere maken een installatie juist gevaarlijk.",
+        uitleg="Een zekering legt de kring af bij een te grote stroom, een verliesstroomschakelaar bij een stroom die via een mens of een vochtige wand wegloopt. De andere maken een installatie juist gevaarlijk.",
     ),
     dict(
         type="waarofniet",

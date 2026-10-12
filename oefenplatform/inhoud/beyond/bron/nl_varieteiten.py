@@ -95,7 +95,7 @@ DEEL1 = [
             "een dialect is een slordige vorm van standaardtaal",
         ],
         antwoord=[0, 1, 2],
-        uitleg="Een dialect is geen slordige standaardtaal maar een eigen systeem met eigen regels. De drie andere kloppen wel.",
+        uitleg="Een dialect is geen slordige standaardtaal maar een eigen systeem met eigen regels. De andere kloppen wel.",
     ),
     dict(
         type="invultekst",
@@ -161,7 +161,7 @@ DEEL1 = [
             "een sollicitatiebrief",
         ],
         antwoord=[0, 1, 2],
-        uitleg="In een sollicitatiebrief verwacht men standaardtaal. De drie andere zijn informele situaties.",
+        uitleg="In een sollicitatiebrief verwacht men standaardtaal. De andere zijn informele situaties.",
     ),
     dict(
         type="invultekst",
@@ -224,7 +224,7 @@ DEEL2 = [
             "een appje aan je beste vriend",
         ],
         antwoord=[0, 1, 2],
-        uitleg="Het laatste vraagt net een informeel register. Bij de drie andere hoort afstand en beleefdheid.",
+        uitleg="Het laatste vraagt net een informeel register. Bij de andere hoort afstand en beleefdheid.",
     ),
     dict(
         type="invultekst",
@@ -290,7 +290,7 @@ DEEL2 = [
             "emoji's toevoegen",
         ],
         antwoord=[0, 1, 2],
-        uitleg="Emoji's maken een tekst juist informeler. De drie andere verhogen de afstand.",
+        uitleg="Emoji's maken een tekst juist informeler. De andere verhogen de afstand.",
     ),
     dict(
         type="invultekst",
@@ -356,7 +356,7 @@ DEEL2 = [
             "een formele slotgroet",
         ],
         antwoord=[0, 1, 2],
-        uitleg="Een formele slotgroet hoort bij het andere register. De drie andere maken een tekst los en nabij.",
+        uitleg="Een formele slotgroet hoort bij het andere register. De andere maken een tekst los en nabij.",
     ),
     dict(
         type="invultekst",

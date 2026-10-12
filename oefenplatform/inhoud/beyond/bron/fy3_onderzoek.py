@@ -159,7 +159,7 @@ DEEL1 = [
             "welk cijfer je op de proef hoopt te halen",
         ],
         antwoord=[0, 1, 2],
-        uitleg="Met die eerste drie kan iemand anders je proef overdoen. Dat overdoen is net "
+        uitleg="Met die eerste kan iemand anders je proef overdoen. Dat overdoen is net "
         "wat een resultaat betrouwbaar maakt.",
     ),
     dict(
@@ -359,7 +359,7 @@ DEEL2 = [
             "de werking van het virus op een cel uitleggen",
         ],
         antwoord=[0, 1, 2],
-        uitleg="Dat laatste was wetenschappelijke kennis. De drie andere vroegen toestellen "
+        uitleg="Dat laatste was wetenschappelijke kennis. De andere vroegen toestellen "
         "en processen, dus technologie.",
     ),
     dict(

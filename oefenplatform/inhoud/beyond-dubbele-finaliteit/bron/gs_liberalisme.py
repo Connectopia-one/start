@@ -216,7 +216,7 @@ DEEL2 = [
             "de kerk beslist wie er mag kiezen en wie niet",
         ],
         antwoord=[0, 1],
-        uitleg="Juist het omgekeerde van de laatste twee: rechters en pers moesten vrij zijn van de koning en van de kerk.",
+        uitleg="Juist het omgekeerde van de laatste: rechters en pers moesten vrij zijn van de koning en van de kerk.",
     ),
     dict(
         type="meerkeuze",

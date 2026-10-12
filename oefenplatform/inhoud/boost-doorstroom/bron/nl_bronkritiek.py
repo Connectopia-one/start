@@ -94,7 +94,7 @@ DEEL1 = [
             "voetnoten met bronvermeldingen",
         ],
         antwoord=[0, 1, 2],
-        uitleg="Bronvermeldingen wijzen net op een poging tot onderbouwing. De drie andere verraden het oordeel van de schrijver.",
+        uitleg="Bronvermeldingen wijzen net op een poging tot onderbouwing. De andere verraden het oordeel van de schrijver.",
     ),
     dict(
         type="meerkeuze",
@@ -253,7 +253,7 @@ DEEL2 = [
             "de bladspiegel",
         ],
         antwoord=[0, 1, 2],
-        uitleg="De bladspiegel is vormgeving. De drie andere sturen hoe de lezer het bericht voelt.",
+        uitleg="De bladspiegel is vormgeving. De andere sturen hoe de lezer het bericht voelt.",
     ),
     dict(
         type="meerkeuze",
@@ -362,7 +362,7 @@ DEEL2 = [
         vraag="Welke woorden in een krantenkop kleuren het bericht?",
         opties=["schandalig", "eindelijk", "zogenaamd", "dinsdag"],
         antwoord=[0, 1, 2],
-        uitleg="'Dinsdag' is een gegeven. De drie andere leggen er een oordeel bovenop.",
+        uitleg="'Dinsdag' is een gegeven. De andere leggen er een oordeel bovenop.",
     ),
     dict(
         type="meerkeuze",

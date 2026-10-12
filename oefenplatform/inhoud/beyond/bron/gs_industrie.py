@@ -164,7 +164,7 @@ DEEL2 = [
              "kinderen van negen die mee in de fabriek stonden",
          ],
          antwoord=[0, 1, 2, 4],
-         uitleg="Een minimumloon bestond toen niet. De drie andere waren de dagelijkse werkelijkheid, en ze drukten de levensverwachting fors."),
+         uitleg="Een minimumloon bestond toen niet. De andere waren de dagelijkse werkelijkheid, en ze drukten de levensverwachting fors."),
     dict(type="waarofniet",
          vraag="De Belgische grondwet van 1831 verbood kinderarbeid meteen.",
          antwoord=False,

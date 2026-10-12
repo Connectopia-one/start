@@ -30,7 +30,7 @@ DEEL1 = [
             "in een woordenlijst",
         ],
         antwoord=[0, 1, 2],
-        uitleg="Een woordenlijst noteert alleen. De drie andere leggen graag een verband tussen iemands accent en zijn karakter.",
+        uitleg="Een woordenlijst noteert alleen. De andere leggen graag een verband tussen iemands accent en zijn karakter.",
     ),
     dict(
         type="invultekst",
@@ -66,7 +66,7 @@ DEEL1 = [
             "een tekst met korte, heldere zinnen",
         ],
         antwoord=[0, 1, 2],
-        uitleg="Korte, heldere zinnen sluiten net niemand uit. De drie andere zetten een drempel op.",
+        uitleg="Korte, heldere zinnen sluiten net niemand uit. De andere zetten een drempel op.",
     ),
     dict(
         type="waarofniet",
@@ -132,7 +132,7 @@ DEEL1 = [
             "je taalgebruik ligt van bij je geboorte vast",
         ],
         antwoord=[0, 1, 2],
-        uitleg="Taalgebruik verandert je hele leven lang, met je omgeving en je rollen mee. De drie andere kloppen wel.",
+        uitleg="Taalgebruik verandert je hele leven lang, met je omgeving en je rollen mee. De andere kloppen wel.",
     ),
     dict(
         type="waarofniet",
@@ -291,7 +291,7 @@ DEEL2 = [
             "een ander lettertype kiezen",
         ],
         antwoord=[0, 1, 2],
-        uitleg="Een lettertype hoort bij geschreven taal. De drie andere zitten in de stem.",
+        uitleg="Een lettertype hoort bij geschreven taal. De andere zitten in de stem.",
     ),
     dict(
         type="invultekst",
@@ -357,7 +357,7 @@ DEEL2 = [
             "op je telefoon kijken",
         ],
         antwoord=[0, 1, 2],
-        uitleg="Op je telefoon kijken doet net het omgekeerde. De drie andere laten zien dat je er bent voor de ander.",
+        uitleg="Op je telefoon kijken doet net het omgekeerde. De andere laten zien dat je er bent voor de ander.",
     ),
     dict(
         type="invultekst",

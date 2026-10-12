@@ -375,7 +375,7 @@ DEEL2 = [
             "de mening van je vrienden",
         ],
         antwoord=[0, 1, 2],
-        uitleg="De andere vier zijn de aankoopkost, de duurzaamheid, de financieringskost en de inflatie.",
+        uitleg="De andere zijn de aankoopkost, de duurzaamheid, de financieringskost en de inflatie.",
     ),
     dict(
         type="meerkeuze",

@@ -27,7 +27,7 @@ DEEL1 = [
             "ze heeft maar één mogelijk antwoord",
         ],
         antwoord=[0, 1, 2],
-        uitleg="Een vraag met maar één mogelijk antwoord is meestal geen onderzoeksvraag maar een weetje. De drie andere criteria komen uit de fiche zelf.",
+        uitleg="Een vraag met maar één mogelijk antwoord is meestal geen onderzoeksvraag maar een weetje. De andere criteria komen uit de fiche zelf.",
     ),
     dict(
         type="meerkeuze",
@@ -93,7 +93,7 @@ DEEL1 = [
             "hoeveel hij ervoor betaald kreeg",
         ],
         antwoord=[0, 1, 2],
-        uitleg="Het bedrag ken je zelden en het helpt zelden. De drie andere brengen je wel bij zijn perspectief.",
+        uitleg="Het bedrag ken je zelden en het helpt zelden. De andere brengen je wel bij zijn perspectief.",
     ),
     dict(
         type="meerkeuze",
@@ -195,7 +195,7 @@ DEEL1 = [
             "hun lettertype",
         ],
         antwoord=[0, 1, 2],
-        uitleg="Het lettertype helpt hooguit bij het dateren. De drie andere punten bepalen wat je uit de bronnen samen mag afleiden.",
+        uitleg="Het lettertype helpt hooguit bij het dateren. De andere punten bepalen wat je uit de bronnen samen mag afleiden.",
     ),
     dict(
         type="meerkeuze",
@@ -234,7 +234,7 @@ DEEL2 = [
             "is de bron in haar eigen tijd duur geweest om te maken?",
         ],
         antwoord=[0, 1, 2],
-        uitleg="De prijs staat er los van. De drie andere vragen komen letterlijk uit het stappenplan van de fiche.",
+        uitleg="De prijs staat er los van. De andere vragen komen letterlijk uit het stappenplan van de fiche.",
     ),
     dict(
         type="waarofniet",
@@ -288,7 +288,7 @@ DEEL2 = [
             "de bron is bewaard in een archief",
         ],
         antwoord=[0, 1, 2],
-        uitleg="Bewaard worden in een archief zegt niets over de inhoud. De drie andere geven je wel reden tot voorzichtigheid.",
+        uitleg="Bewaard worden in een archief zegt niets over de inhoud. De andere geven je wel reden tot voorzichtigheid.",
     ),
     dict(
         type="waarofniet",
@@ -318,7 +318,7 @@ DEEL2 = [
             "het jaartal van een bron gokken en het achteraf in een boek nakijken",
         ],
         antwoord=[0, 1, 2],
-        uitleg="Gokken is geen redeneerwijze. De drie andere antwoorden bevatten samen bijna de hele lijst uit de fiche.",
+        uitleg="Gokken is geen redeneerwijze. De andere antwoorden bevatten samen bijna de hele lijst uit de fiche.",
     ),
     dict(
         type="meerkeuze",

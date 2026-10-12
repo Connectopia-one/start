@@ -257,7 +257,7 @@ DEEL2 = [
                  "Nous nous sommes levés tôt.",
                  "Elles ont parties ensemble."],
          antwoord=[0, 1, 2],
-         uitleg="Partir gaat met être, dus elles sont parties en niet elles ont parties. De drie andere zijn juist."),
+         uitleg="Partir gaat met être, dus elles sont parties en niet elles ont parties. De andere zijn juist."),
     dict(type="waarofniet",
          vraag="Met avoir past het voltooid deelwoord zich aan het onderwerp aan.",
          antwoord=False,

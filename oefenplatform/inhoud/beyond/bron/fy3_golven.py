@@ -53,7 +53,7 @@ DEEL1 = [
         ],
         antwoord=[0, 1, 2],
         uitleg="Geluid is een mechanische golf en heeft lucht, water of een vaste stof "
-        "nodig. De drie andere gaan ook door het vacuüm.",
+        "nodig. De andere gaan ook door het vacuüm.",
     ),
     dict(
         type="meerkeuze",

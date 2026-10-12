@@ -354,7 +354,7 @@ DEEL2 = [
             "De winkelstraat ligt op een te hoge breedtegraad",
         ],
         antwoord=[0, 1, 2],
-        uitleg="Concurrentie aan de rand, online kopen en bereikbaarheid zijn de klassieke oorzaken van leegstand. De twee laatste opties slaan nergens op.",
+        uitleg="Concurrentie aan de rand, online kopen en bereikbaarheid zijn de klassieke oorzaken van leegstand. De laatste opties slaan nergens op.",
     ),
     dict(
         type="waarofniet",

@@ -134,7 +134,7 @@ DEEL1 = [
             "de data kiezen die bij je verwachting passen",
         ],
         antwoord=[0, 1, 2],
-        uitleg="Die eerste drie staan in de rij stappen van probleemstelling tot communicatie. Selectief met je data omgaan hoort daar nooit bij.",
+        uitleg="Die eerste staan in de rij stappen van probleemstelling tot communicatie. Selectief met je data omgaan hoort daar nooit bij.",
     ),
     dict(
         type="meerkeuze",

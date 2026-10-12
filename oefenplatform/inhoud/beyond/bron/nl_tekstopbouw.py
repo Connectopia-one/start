@@ -65,7 +65,7 @@ DEEL1 = [
             "alfabetisch",
         ],
         antwoord=[0, 1, 2],
-        uitleg="Alfabetisch is een ordening van een lijst, geen verband tussen gedachten. De drie andere staan wel in de rij.",
+        uitleg="Alfabetisch is een ordening van een lijst, geen verband tussen gedachten. De andere staan wel in de rij.",
     ),
     dict(
         type="waarofniet",
@@ -161,7 +161,7 @@ DEEL1 = [
             "de kleur van het papier",
         ],
         antwoord=[0, 1, 2],
-        uitleg="De kleur van het papier zegt niets over de opbouw. De drie andere laten zien hoe de tekst in stukken valt.",
+        uitleg="De kleur van het papier zegt niets over de opbouw. De andere laten zien hoe de tekst in stukken valt.",
     ),
     dict(
         type="invultekst",
@@ -326,7 +326,7 @@ DEEL2 = [
             "een smiley in elke alinea",
         ],
         antwoord=[0, 1, 2],
-        uitleg="Een smiley hoort bij informele communicatie. De drie andere maken een formele mail juist formeel.",
+        uitleg="Een smiley hoort bij informele communicatie. De andere maken een formele mail juist formeel.",
     ),
     dict(
         type="waarofniet",

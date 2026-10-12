@@ -313,7 +313,7 @@ DEEL2 = [
             "het boek telt achtentwintig hoofdstukken",
         ],
         antwoord=[0, 1, 2],
-        uitleg="Het aantal hoofdstukken kan je tellen. De drie andere moet je uit de tekst afleiden en verdedigen.",
+        uitleg="Het aantal hoofdstukken kan je tellen. De andere moet je uit de tekst afleiden en verdedigen.",
     ),
     dict(
         type="waarofniet",

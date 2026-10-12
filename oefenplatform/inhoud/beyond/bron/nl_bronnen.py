@@ -150,7 +150,7 @@ DEEL1 = [
             "het bericht is langer dan duizend woorden",
         ],
         antwoord=[0, 1, 2],
-        uitleg="De lengte zegt niets. De drie andere samen zijn een klassiek patroon: geen zender, geen tegenstem, maximaal lokken.",
+        uitleg="De lengte zegt niets. De andere samen zijn een klassiek patroon: geen zender, geen tegenstem, maximaal lokken.",
     ),
     dict(
         type="meerkeuze",
@@ -243,7 +243,7 @@ DEEL2 = [
             "spreken over een auto of over een wagen in dezelfde zin",
         ],
         antwoord=[0, 1, 2],
-        uitleg="Auto en wagen zijn gewoon synoniemen. De drie andere paren zetten dezelfde zaak in een ander licht.",
+        uitleg="Auto en wagen zijn gewoon synoniemen. De andere paren zetten dezelfde zaak in een ander licht.",
     ),
     dict(
         type="invultekst",
@@ -309,7 +309,7 @@ DEEL2 = [
             "een inhoudstafel bovenaan het artikel",
         ],
         antwoord=[0, 1, 2],
-        uitleg="Een inhoudstafel ordent alleen. De drie andere sturen hoe je de inhoud voelt en dus hoe je hem leest.",
+        uitleg="Een inhoudstafel ordent alleen. De andere sturen hoe je de inhoud voelt en dus hoe je hem leest.",
     ),
     dict(
         type="invultekst",

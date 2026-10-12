@@ -179,7 +179,7 @@ DEEL1 = [
             "leg de persoon in stabiele zijligging",
         ],
         antwoord=[0, 1, 2],
-        uitleg="De stabiele zijligging staat niet in dit rijtje. De andere drie stappen zijn compressies, beademing en doorgaan.",
+        uitleg="De stabiele zijligging staat niet in dit rijtje. De andere stappen zijn compressies, beademing en doorgaan.",
     ),
     dict(
         type="invultekst",

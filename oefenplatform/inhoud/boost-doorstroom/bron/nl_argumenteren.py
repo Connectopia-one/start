@@ -57,7 +57,7 @@ DEEL1 = [
             "De brug is honderd meter lang.",
         ],
         antwoord=[0, 1, 2],
-        uitleg="De laatste zin geeft een meetbaar gegeven. De drie andere bevatten een oordeel of een waardewoord.",
+        uitleg="De laatste zin geeft een meetbaar gegeven. De andere bevatten een oordeel of een waardewoord.",
     ),
     dict(
         type="meerkeuze",
@@ -123,7 +123,7 @@ DEEL1 = [
             "een regelmatig rijmschema",
         ],
         antwoord=[0, 1, 2],
-        uitleg="Een rijmschema hoort bij poëzie. De drie andere elementen maken samen een betoog.",
+        uitleg="Een rijmschema hoort bij poëzie. De andere elementen maken samen een betoog.",
     ),
     dict(
         type="invultekst",
@@ -178,7 +178,7 @@ DEEL1 = [
         vraag="Welke woorden verraden meestal dat er een mening volgt?",
         opties=["volgens mij", "prachtig", "zou moeten", "in 2024"],
         antwoord=[0, 1, 2],
-        uitleg="Een jaartal is een gegeven. De drie andere kondigen een oordeel of een wens aan.",
+        uitleg="Een jaartal is een gegeven. De andere kondigen een oordeel of een wens aan.",
     ),
     dict(
         type="meerkeuze",
@@ -373,7 +373,7 @@ DEEL2 = [
             "je zet je tekst in een groter lettertype",
         ],
         antwoord=[0, 1, 2],
-        uitleg="Het lettertype verandert niets aan de redenering. De drie andere maken je argument navolgbaar.",
+        uitleg="Het lettertype verandert niets aan de redenering. De andere maken je argument navolgbaar.",
     ),
     dict(
         type="meerkeuze",

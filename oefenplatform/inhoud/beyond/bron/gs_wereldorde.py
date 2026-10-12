@@ -150,7 +150,7 @@ DEEL1 = [
              "sport en cultuur als uitstalraam",
          ],
          antwoord=[0, 1, 2, 4],
-         uitleg="Een gezamenlijke munt is ondenkbaar tussen twee kampen die elkaar bestrijden. De drie andere waren wapens van een andere orde."),
+         uitleg="Een gezamenlijke munt is ondenkbaar tussen twee kampen die elkaar bestrijden. De andere waren wapens van een andere orde."),
 ]
 
 DEEL2 = [
@@ -276,7 +276,7 @@ DEEL2 = [
                  "euroscepsis, waarvan de brexit het verste voorbeeld is",
                  "de invoering van een eigen munt"],
          antwoord=[0, 1, 2],
-         uitleg="De euro bestaat al meer dan twintig jaar. De drie andere zijn wel degelijk de dossiers waarop de Unie vandaag beoordeeld wordt."),
+         uitleg="De euro bestaat al meer dan twintig jaar. De andere zijn wel degelijk de dossiers waarop de Unie vandaag beoordeeld wordt."),
     dict(type="waarofniet",
          vraag="Het Verenigd Koninkrijk verliet de Europese Unie na een volksraadpleging.",
          antwoord=True,

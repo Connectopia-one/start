@@ -54,7 +54,7 @@ DEEL1 = [
                  "Au milieu, il y a une table.",
                  "Je voudrais un café, s'il vous plaît."],
          antwoord=[0, 1, 2],
-         uitleg="'Je voudrais un café' bestel je in een café; dat zegt niets over een foto. De drie andere zinnen beschrijven wel wat er te zien is."),
+         uitleg="'Je voudrais un café' bestel je in een café; dat zegt niets over een foto. De andere zinnen beschrijven wel wat er te zien is."),
     dict(type="meerkeuze",
          vraag="Wat staat er in 'Sur la photo, il y a deux enfants'?",
          opties=["Op de foto staan twee kinderen.",

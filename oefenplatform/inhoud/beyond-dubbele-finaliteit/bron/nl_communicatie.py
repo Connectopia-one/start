@@ -102,7 +102,7 @@ DEEL1 = [
             "onderwerp, hoofdgedachte en hoofdpunten",
         ],
         antwoord=[0, 1],
-        uitleg="De twee laatste bestaan ook, maar ze horen bij de opbouw en bij de inhoud van een tekst.",
+        uitleg="De laatste bestaan ook, maar ze horen bij de opbouw en bij de inhoud van een tekst.",
     ),
     dict(
         type="meerkeuze",
@@ -150,7 +150,7 @@ DEEL1 = [
             "in welke bibliotheek staat de tekst?",
         ],
         antwoord=[0, 1],
-        uitleg="Daarbij hoort ook: wat is het doel van de boodschap? De twee andere vragen leveren niets op.",
+        uitleg="Daarbij hoort ook: wat is het doel van de boodschap? De andere vragen leveren niets op.",
     ),
     dict(
         type="waarofniet",

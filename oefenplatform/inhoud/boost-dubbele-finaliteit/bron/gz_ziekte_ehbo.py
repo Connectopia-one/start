@@ -19,7 +19,7 @@ DEEL1 = [
                  "geen zin om te spelen",
                  "een nieuwe jas"],
          antwoord=[0, 1, 2],
-         uitleg="Een nieuwe jas zegt niets over gezondheid. De andere drie zijn symptomen van ziek zijn."),
+         uitleg="Een nieuwe jas zegt niets over gezondheid. De andere zijn symptomen van ziek zijn."),
     dict(type="meerkeuze",
          vraag="Wat is koorts?",
          opties=["een hoge temperatuur",

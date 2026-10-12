@@ -259,7 +259,7 @@ DEEL2 = [
              "het geldt wereldwijd op dezelfde manier",
          ],
          antwoord=[0, 1],
-         uitleg="De laatste twee kloppen net niet: andere samenlevingen hanteren een andere indeling, en dat is de hele reden waarom je de beperkingen van het kader moet kennen."),
+         uitleg="De laatste kloppen net niet: andere samenlevingen hanteren een andere indeling, en dat is de hele reden waarom je de beperkingen van het kader moet kennen."),
     dict(type="waarofniet",
          vraag="Scharnierpunten liggen altijd op het politieke domein.",
          antwoord=False,

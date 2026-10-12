@@ -30,7 +30,7 @@ DEEL1 = [
             "fiets en rijwiel",
         ],
         antwoord=[0, 1, 2],
-        uitleg="Fiets en rijwiel zijn synoniemen. De drie andere paren zijn elkaars tegengestelde.",
+        uitleg="Fiets en rijwiel zijn synoniemen. De andere paren zijn elkaars tegengestelde.",
     ),
     dict(
         type="invultekst",
@@ -66,7 +66,7 @@ DEEL1 = [
             "huisraad",
         ],
         antwoord=[0, 1, 2],
-        uitleg="Huisraad is net ruimer dan meubel. De drie andere vallen eronder.",
+        uitleg="Huisraad is net ruimer dan meubel. De andere vallen eronder.",
     ),
     dict(
         type="waarofniet",
@@ -120,7 +120,7 @@ DEEL1 = [
             "opbellen",
         ],
         antwoord=[0, 1, 2],
-        uitleg="Opbellen is gewoon correct. De drie andere zijn kruisingen van twee uitdrukkingen die elk apart wel kloppen.",
+        uitleg="Opbellen is gewoon correct. De andere zijn kruisingen van twee uitdrukkingen die elk apart wel kloppen.",
     ),
     dict(
         type="waarofniet",
@@ -150,7 +150,7 @@ DEEL1 = [
             "poes",
         ],
         antwoord=[0, 1, 2],
-        uitleg="Poes is juist een hyponiem van kat. De drie andere zijn ruimere begrippen waar alle drie onder vallen.",
+        uitleg="Poes is juist een hyponiem van kat. De andere zijn ruimere begrippen waar alle drie onder vallen.",
     ),
     dict(
         type="invultekst",
@@ -225,7 +225,7 @@ DEEL2 = [
             "woning",
         ],
         antwoord=[0, 1, 2],
-        uitleg="Woning is neutraal. De drie andere dragen een afkeurende bijklank mee.",
+        uitleg="Woning is neutraal. De andere dragen een afkeurende bijklank mee.",
     ),
     dict(
         type="invultekst",
@@ -291,7 +291,7 @@ DEEL2 = [
             "schrijven",
         ],
         antwoord=[0, 1, 2],
-        uitleg="Schrijven is eeuwenoud. De drie andere ontstonden met de technologie waarnaar ze verwijzen.",
+        uitleg="Schrijven is eeuwenoud. De andere ontstonden met de technologie waarnaar ze verwijzen.",
     ),
     dict(
         type="invultekst",
@@ -327,7 +327,7 @@ DEEL2 = [
             "het hyperoniem",
         ],
         antwoord=[0, 1, 2],
-        uitleg="Een hyperoniem gaat over betekenis, niet over afkomst. De drie andere zeggen waar een woord vandaan komt.",
+        uitleg="Een hyperoniem gaat over betekenis, niet over afkomst. De andere zeggen waar een woord vandaan komt.",
     ),
     dict(
         type="waarofniet",
@@ -357,7 +357,7 @@ DEEL2 = [
             "creperen",
         ],
         antwoord=[0, 1, 2],
-        uitleg="Creperen is net een dysfemisme. De drie andere verzachten.",
+        uitleg="Creperen is net een dysfemisme. De andere verzachten.",
     ),
     dict(
         type="invultekst",

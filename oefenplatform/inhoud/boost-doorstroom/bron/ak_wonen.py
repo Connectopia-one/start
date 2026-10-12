@@ -102,7 +102,7 @@ DEEL1 = [
             "Een bodem die grotendeels uit kaal rotsgesteente bestaat",
         ],
         antwoord=[0, 1, 2],
-        uitleg="Vlak land, een zacht klimaat, goede grond en water om over te varen: dat zijn samen sterke redenen om er te gaan wonen. De twee laatste opties beschrijven juist het omgekeerde.",
+        uitleg="Vlak land, een zacht klimaat, goede grond en water om over te varen: dat zijn samen sterke redenen om er te gaan wonen. De laatste opties beschrijven juist het omgekeerde.",
     ),
     dict(
         type="invultekst",

@@ -242,7 +242,7 @@ DEEL2 = [
         vraag="Welke uitspraken over het verband tussen snelheid, verplaatsing en tijdsduur kloppen?",
         opties=["Bij een vaste snelheid is de verplaatsing recht evenredig met de tijdsduur", "Bij een vaste afstand is de snelheid omgekeerd evenredig met de tijdsduur", "Bij een vaste tijdsduur is de verplaatsing recht evenredig met de snelheid", "Bij een vaste verplaatsing zijn snelheid en tijdsduur recht evenredig"],
         antwoord=[0, 1, 2],
-        uitleg=r"Uit \(v = \Delta x / \Delta t\) volgen de drie eerste. De laatste klopt niet: langer onderweg zijn maakt je niet sneller.",
+        uitleg=r"Uit \(v = \Delta x / \Delta t\) volgen de eerste. De laatste klopt niet: langer onderweg zijn maakt je niet sneller.",
     ),
     dict(
         type="meerkeuze",

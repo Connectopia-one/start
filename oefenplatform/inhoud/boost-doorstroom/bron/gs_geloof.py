@@ -60,7 +60,7 @@ DEEL1 = [
             "ze sloegen de munten van de koning",
         ],
         antwoord=[0, 1, 2],
-        uitleg="Munten slaan was een recht van de vorst. De drie andere taken maakten van een klooster een centrum van de streek.",
+        uitleg="Munten slaan was een recht van de vorst. De andere taken maakten van een klooster een centrum van de streek.",
     ),
     dict(
         type="waarofniet",
@@ -186,7 +186,7 @@ DEEL1 = [
             "de boekdrukkunst met losse letters werd er uitgevonden en verspreid",
         ],
         antwoord=[0, 1, 2],
-        uitleg="De boekdrukkunst met losse letters komt van Gutenberg, in de 15de eeuw. De drie andere lopen wel via Córdoba, Toledo en Palermo.",
+        uitleg="De boekdrukkunst met losse letters komt van Gutenberg, in de 15de eeuw. De andere lopen wel via Córdoba, Toledo en Palermo.",
     ),
     dict(
         type="waarofniet",
@@ -267,7 +267,7 @@ DEEL2 = [
             "Vlaanderen werd onmiddellijk een onafhankelijk koninkrijk",
         ],
         antwoord=[0, 1, 2],
-        uitleg="Een koninkrijk werd het niet; de graaf bleef leenman van de Franse koning. De drie andere gevolgen zijn er wel gekomen.",
+        uitleg="Een koninkrijk werd het niet; de graaf bleef leenman van de Franse koning. De andere gevolgen zijn er wel gekomen.",
     ),
     dict(
         type="waarofniet",
@@ -333,7 +333,7 @@ DEEL2 = [
             "wetenschappelijke: de sterrenkunde bestuderen",
         ],
         antwoord=[0, 1, 2],
-        uitleg="Wetenschap was geen motief, al kwam er wel kennis mee terug. De drie andere lopen door elkaar bij bijna elke deelnemer.",
+        uitleg="Wetenschap was geen motief, al kwam er wel kennis mee terug. De andere lopen door elkaar bij bijna elke deelnemer.",
     ),
     dict(
         type="waarofniet",
@@ -351,7 +351,7 @@ DEEL2 = [
             "de standensamenleving verdween en iedereen werd vrij",
         ],
         antwoord=[0, 1, 2],
-        uitleg="De standen bleven gewoon bestaan. De drie andere gevolgen zijn er wel gekomen, en ze spreken elkaar niet tegen.",
+        uitleg="De standen bleven gewoon bestaan. De andere gevolgen zijn er wel gekomen, en ze spreken elkaar niet tegen.",
     ),
     dict(
         type="waarofniet",

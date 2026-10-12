@@ -41,7 +41,7 @@ DEEL1 = [
                  "rurbanisatie",
                  "glaciatie"],
          antwoord=[0, 1, 2],
-         uitleg="Glaciatie is het werk van gletsjers en hoort bij het landschap. De drie andere gaan over waar mensen wonen."),
+         uitleg="Glaciatie is het werk van gletsjers en hoort bij het landschap. De andere gaan over waar mensen wonen."),
     dict(type="waarofniet",
          vraag="Bij desurbanisatie verliest de stad bewoners aan verder gelegen gebieden.",
          antwoord=True,

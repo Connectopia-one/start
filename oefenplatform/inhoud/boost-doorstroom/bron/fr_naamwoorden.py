@@ -53,7 +53,7 @@ DEEL1 = [
          opties=["Je bois de l'eau.", "Il prend de la soupe.",
                  "Elle achète du fromage.", "Nous mangeons le riz chaque soir."],
          antwoord=[0, 1, 2],
-         uitleg="De laatste zin is wel juist Frans, maar le riz is daar bepaald: dé rijst. De drie andere drukken een onbepaalde hoeveelheid uit."),
+         uitleg="De laatste zin is wel juist Frans, maar le riz is daar bepaald: dé rijst. De andere drukken een onbepaalde hoeveelheid uit."),
     dict(type="meerkeuze",
          vraag="Wat gebeurt er met het lidwoord na een ontkenning: je mange du pain wordt …?",
          opties=["Je ne mange pas de pain.", "Je ne mange pas du pain.",

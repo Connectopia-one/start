@@ -74,7 +74,7 @@ DEEL1 = [
                  "à la maison",
                  "à le parc"],
          antwoord=[0, 1, 2],
-         uitleg="À le bestaat niet: dat wordt au parc. De drie andere zijn juist."),
+         uitleg="À le bestaat niet: dat wordt au parc. De andere zijn juist."),
     # --- Het deelaanduidend lidwoord --------------------------------------------
     dict(type="meerkeuze",
          vraag="Vul in: « Tu veux ... café ? » Je biedt een onbepaalde hoeveelheid koffie aan.",

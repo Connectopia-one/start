@@ -243,7 +243,7 @@ DEEL2 = [
             "een bijzin die met een voegwoord begint",
         ],
         antwoord=[0, 1],
-        uitleg="De juiste antwoorden zijn geen correct Nederlands. De twee andere wel.",
+        uitleg="De juiste antwoorden zijn geen correct Nederlands. De andere wel.",
     ),
     dict(
         type="meerkeuze",

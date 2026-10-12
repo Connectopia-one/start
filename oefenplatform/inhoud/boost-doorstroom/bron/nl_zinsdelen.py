@@ -157,7 +157,7 @@ DEEL1 = [
         vraag="Welke woordgroepen zijn bijwoordelijke bepalingen in 'Morgen ga ik met de fiets naar de markt'?",
         opties=["morgen", "met de fiets", "naar de markt", "ik"],
         antwoord=[0, 1, 2],
-        uitleg="'Ik' is het onderwerp. De drie andere zeggen wanneer, hoe en waarheen.",
+        uitleg="'Ik' is het onderwerp. De andere zeggen wanneer, hoe en waarheen.",
     ),
     dict(
         type="meerkeuze",

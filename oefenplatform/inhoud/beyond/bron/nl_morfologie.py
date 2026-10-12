@@ -30,7 +30,7 @@ DEEL1 = [
             "huisdeur",
         ],
         antwoord=[0, 1, 2],
-        uitleg="Huisdeur is een samenstelling van twee woorden. De drie andere zijn gevormd met een voor- of achtervoegsel.",
+        uitleg="Huisdeur is een samenstelling van twee woorden. De andere zijn gevormd met een voor- of achtervoegsel.",
     ),
     dict(
         type="invultekst",
@@ -66,7 +66,7 @@ DEEL1 = [
             "huizen",
         ],
         antwoord=[0, 1, 2],
-        uitleg="Huizen is een meervoud. De drie andere hebben het verkleinende achtervoegsel.",
+        uitleg="Huizen is een meervoud. De andere hebben het verkleinende achtervoegsel.",
     ),
     dict(
         type="waarofniet",
@@ -132,7 +132,7 @@ DEEL1 = [
             "tafelpoot",
         ],
         antwoord=[0, 1, 2],
-        uitleg="Tafelpoot heeft geen verbindingsletter tussen de delen. De drie andere wel.",
+        uitleg="Tafelpoot heeft geen verbindingsletter tussen de delen. De andere wel.",
     ),
     dict(
         type="waarofniet",
@@ -279,7 +279,7 @@ DEEL2 = [
             "hij heeft gelopen",
         ],
         antwoord=[0, 1, 2],
-        uitleg="De laatste is voltooid tegenwoordige tijd. De drie andere zijn onvoltooide verleden vormen.",
+        uitleg="De laatste is voltooid tegenwoordige tijd. De andere zijn onvoltooide verleden vormen.",
     ),
     dict(
         type="meerkeuze",

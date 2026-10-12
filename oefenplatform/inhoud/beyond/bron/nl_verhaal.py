@@ -131,7 +131,7 @@ DEEL1 = [
             "sfeerscheppende ruimte",
         ],
         antwoord=[0, 1, 2],
-        uitleg="De sfeerscheppende ruimte hoort bij de ruimte. De drie andere ordenen het verhaal in de tijd.",
+        uitleg="De sfeerscheppende ruimte hoort bij de ruimte. De andere ordenen het verhaal in de tijd.",
     ),
     dict(
         type="waarofniet",

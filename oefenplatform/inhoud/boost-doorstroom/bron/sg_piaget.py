@@ -56,7 +56,7 @@ DEEL1 = [
                  "intentioneel handelen",
                  "hypothetisch denken"],
          antwoord=[0, 1, 2],
-         uitleg="Drie kenmerken van de eerste twee jaar. Hypothetisch denken komt pas in het laatste stadium."),
+         uitleg="Drie kenmerken van de eerste jaar. Hypothetisch denken komt pas in het laatste stadium."),
     dict(type="invultekst",
          vraag="Welk stadium van Piaget hoort bij de kleutertijd? Vul in: het ... stadium",
          antwoord=["pre-operationeel", "pre-operationele", "preoperationeel"],

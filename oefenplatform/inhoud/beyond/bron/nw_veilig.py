@@ -56,7 +56,7 @@ DEEL1 = [
             "elektrische toestellen met natte handen bedienen",
         ],
         antwoord=[0, 1, 2],
-        uitleg="Die eerste drie sparen materiaal, energie en moeite uit. Natte handen bij een elektrisch toestel is juist een van de gevaarlijkste fouten.",
+        uitleg="Die eerste sparen materiaal, energie en moeite uit. Natte handen bij een elektrisch toestel is juist een van de gevaarlijkste fouten.",
     ),
     dict(
         type="meerkeuze",

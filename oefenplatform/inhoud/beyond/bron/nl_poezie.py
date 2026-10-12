@@ -31,7 +31,7 @@ DEEL1 = [
             "de alinea",
         ],
         antwoord=[0, 1, 2],
-        uitleg="Een alinea hoort bij proza. De drie andere zijn vaste dichtvormen.",
+        uitleg="Een alinea hoort bij proza. De andere zijn vaste dichtvormen.",
     ),
     dict(
         type="invultekst",
@@ -97,7 +97,7 @@ DEEL1 = [
             "typografische poëzie",
         ],
         antwoord=[0, 1, 2],
-        uitleg="Typografische poëzie moet je net zien staan. De drie andere leven van de stem en het publiek.",
+        uitleg="Typografische poëzie moet je net zien staan. De andere leven van de stem en het publiek.",
     ),
     dict(
         type="invultekst",
@@ -358,7 +358,7 @@ DEEL2 = [
             "enjambement",
         ],
         antwoord=[0, 1, 2],
-        uitleg="Enjambement gaat over de bouw van de zin tegenover het vers, niet over klank. De drie andere zijn klankverschijnselen.",
+        uitleg="Enjambement gaat over de bouw van de zin tegenover het vers, niet over klank. De andere zijn klankverschijnselen.",
     ),
     dict(
         type="invultekst",

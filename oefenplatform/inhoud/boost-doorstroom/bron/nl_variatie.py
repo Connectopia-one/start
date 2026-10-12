@@ -28,7 +28,7 @@ DEEL1 = [
             "een rij smileys onder je naam",
         ],
         antwoord=[0, 1, 2],
-        uitleg="Smileys horen bij informele communicatie. De drie andere horen bij het formele register.",
+        uitleg="Smileys horen bij informele communicatie. De andere horen bij het formele register.",
     ),
     dict(
         type="invultekst",
@@ -166,7 +166,7 @@ DEEL1 = [
             "weten hoeveel alinea's je zal nodig hebben",
         ],
         antwoord=[0, 1, 2],
-        uitleg="Het aantal alinea's volgt uit je inhoud. De drie andere bepalen je toon.",
+        uitleg="Het aantal alinea's volgt uit je inhoud. De andere bepalen je toon.",
     ),
     dict(
         type="meerkeuze",
@@ -286,7 +286,7 @@ DEEL2 = [
         vraag="Wat hoort bij de non-verbale communicatie?",
         opties=["lichaamstaal", "oogcontact", "intonatie en tempo", "spelling"],
         antwoord=[0, 1, 2],
-        uitleg="Spelling is verbaal, en dan nog schriftelijk. De drie andere zijn alles wat je overbrengt zonder woorden.",
+        uitleg="Spelling is verbaal, en dan nog schriftelijk. De andere zijn alles wat je overbrengt zonder woorden.",
     ),
     dict(
         type="waarofniet",

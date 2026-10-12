@@ -209,7 +209,7 @@ DEEL2 = [
                  "de school",
                  "het karakter"],
          antwoord=[0, 1, 2],
-         uitleg="Het karakter is een persoonlijke factor; de andere drie liggen buiten de persoon."),
+         uitleg="Het karakter is een persoonlijke factor; de andere liggen buiten de persoon."),
     dict(type="meerkeuze",
          vraag="Waarom kijkt het ICF ook naar de omgeving?",
          opties=["ze helpt of hindert",

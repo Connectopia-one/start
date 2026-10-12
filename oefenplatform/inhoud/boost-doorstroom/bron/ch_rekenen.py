@@ -37,7 +37,7 @@ DEEL1 = [
             "n = M / m",
         ],
         antwoord=[0, 1],
-        uitleg="Uit de massa deel je door de molaire massa, uit het aantal deeltjes door het getal van Avogadro. De twee andere staan verkeerd om.",
+        uitleg="Uit de massa deel je door de molaire massa, uit het aantal deeltjes door het getal van Avogadro. De andere staan verkeerd om.",
     ),
     dict(
         type="meerkeuze",

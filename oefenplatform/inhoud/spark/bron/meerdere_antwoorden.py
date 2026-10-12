@@ -58,7 +58,7 @@ VERVANGINGEN = {
                     "Omdat er buiten Europa geen bronnen bestaan",
                     "Omdat andere werelddelen geen geschiedenis hebben"],
             antwoord=[0, 1],
-            uitleg="De indeling is plaatsgebonden. De twee andere kloppen niet — overal zijn bronnen en overal is geschiedenis.")),
+            uitleg="De indeling is plaatsgebonden. De andere kloppen niet — overal zijn bronnen en overal is geschiedenis.")),
         (11, dict(
             vraag="In welke maatschappelijke domeinen situeer je de verovering van Alexander de Grote?",
             opties=[

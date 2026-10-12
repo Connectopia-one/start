@@ -59,7 +59,7 @@ DEEL1 = [
             "wat er destijds gebeurd is",
         ],
         antwoord=[0, 1, 2],
-        uitleg="Wat er gebeurd is, ligt vast; alleen is het niet volledig kenbaar. De drie andere zijn wel keuzes van de historicus zelf.",
+        uitleg="Wat er gebeurd is, ligt vast; alleen is het niet volledig kenbaar. De andere zijn wel keuzes van de historicus zelf.",
     ),
     dict(
         type="waarofniet",
@@ -125,7 +125,7 @@ DEEL1 = [
             "de maatschappelijke context speelt bij beeldvorming geen enkele rol van betekenis",
         ],
         antwoord=[0, 1, 2],
-        uitleg="Beeldvorming gebeurt niet in het luchtledige. De drie andere voorbeelden tonen hoe de tijd van de verteller meekomt.",
+        uitleg="Beeldvorming gebeurt niet in het luchtledige. De andere voorbeelden tonen hoe de tijd van de verteller meekomt.",
     ),
     dict(
         type="waarofniet",
@@ -173,7 +173,7 @@ DEEL1 = [
             "hoeveel bladzijden telt het?",
         ],
         antwoord=[0, 1, 2],
-        uitleg="De omvang zegt niets. De drie andere vragen brengen je bij de keuzes achter het beeld.",
+        uitleg="De omvang zegt niets. De andere vragen brengen je bij de keuzes achter het beeld.",
     ),
     dict(
         type="waarofniet",
@@ -254,7 +254,7 @@ DEEL2 = [
             "de laag van je lievelingssport",
         ],
         antwoord=[0, 1, 2],
-        uitleg="Een sport hoort daar niet bij. De drie andere antwoorden geven samen de vijf lagen uit de fiche.",
+        uitleg="Een sport hoort daar niet bij. De andere antwoorden geven samen de vijf lagen uit de fiche.",
     ),
     dict(
         type="waarofniet",
@@ -308,7 +308,7 @@ DEEL2 = [
             "de huidige verkoopprijs",
         ],
         antwoord=[0, 1, 2],
-        uitleg="De prijs van vandaag hoort er niet bij. De drie andere punten zijn de context waarin je alles wat volgt leest.",
+        uitleg="De prijs van vandaag hoort er niet bij. De andere punten zijn de context waarin je alles wat volgt leest.",
     ),
     dict(
         type="meerkeuze",
@@ -350,7 +350,7 @@ DEEL2 = [
             "het gewicht en de afmetingen van het werk",
         ],
         antwoord=[0, 1, 2],
-        uitleg="Het gewicht zegt niets. De drie andere brengen je bij de betekenis die vorm en inhoud samen dragen.",
+        uitleg="Het gewicht zegt niets. De andere brengen je bij de betekenis die vorm en inhoud samen dragen.",
     ),
     dict(
         type="waarofniet",

@@ -116,7 +116,7 @@ DEEL1 = [
         ],
         antwoord=[0, 1],
         uitleg="De gravitatie is op die schaal volkomen verwaarloosbaar, en wrijving bestaat "
-        "er niet. Het is de strijd tussen die eerste twee die over stabiliteit beslist.",
+        "er niet. Het is de strijd tussen die eerste die over stabiliteit beslist.",
     ),
     dict(
         type="meerkeuze",

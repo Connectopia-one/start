@@ -120,7 +120,7 @@ DEEL1 = [
             "de column",
         ],
         antwoord=[0, 1, 2],
-        uitleg="Een column is een modern krantengenre met een herkenbare auteur. De drie andere komen uit de mondelinge traditie.",
+        uitleg="Een column is een modern krantengenre met een herkenbare auteur. De andere komen uit de mondelinge traditie.",
     ),
     dict(
         type="meerkeuze",
@@ -225,7 +225,7 @@ DEEL2 = [
             "de voetnootroman",
         ],
         antwoord=[0, 1, 2],
-        uitleg="Een voetnootroman staat niet in de rij. De drie andere wel, naast nog een hele reeks andere genres.",
+        uitleg="Een voetnootroman staat niet in de rij. De andere wel, naast nog een hele reeks andere genres.",
     ),
     dict(
         type="invultekst",
@@ -291,7 +291,7 @@ DEEL2 = [
             "de sciencefictionroman",
         ],
         antwoord=[0, 1, 2],
-        uitleg="Sciencefiction is modern. De drie andere zijn middeleeuwse verhaalstromen, rond Karel de Grote, rond koning Arthur en rond sprekende dieren.",
+        uitleg="Sciencefiction is modern. De andere zijn middeleeuwse verhaalstromen, rond Karel de Grote, rond koning Arthur en rond sprekende dieren.",
     ),
     dict(
         type="invultekst",

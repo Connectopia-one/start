@@ -52,7 +52,7 @@ DEEL1 = [
             "het recht om te stemmen bij verkiezingen",
         ],
         antwoord=[0, 1, 2],
-        uitleg="Verkiezingen bestonden niet. De drie andere voorrechten hielden de ongelijkheid juist in stand.",
+        uitleg="Verkiezingen bestonden niet. De andere voorrechten hielden de ongelijkheid juist in stand.",
     ),
     dict(
         type="meerkeuze",
@@ -166,7 +166,7 @@ DEEL1 = [
             "elk jaar in het leger van de koning dienen",
         ],
         antwoord=[0, 1, 2],
-        uitleg="Legerdienst hoorde bij de tweede stand. De drie andere zijn de gewone lasten van een horige, en ze maakten hem afhankelijk.",
+        uitleg="Legerdienst hoorde bij de tweede stand. De andere zijn de gewone lasten van een horige, en ze maakten hem afhankelijk.",
     ),
     dict(
         type="meerkeuze",
@@ -211,7 +211,7 @@ DEEL2 = [
             "de uitvinding van de stoommachine en van de spoorweg",
         ],
         antwoord=[0, 1, 2],
-        uitleg="De stoommachine komt pas in de 18de eeuw. De drie andere verklaren wel waarom steden opnieuw groeiden.",
+        uitleg="De stoommachine komt pas in de 18de eeuw. De andere verklaren wel waarom steden opnieuw groeiden.",
     ),
     dict(
         type="meerkeuze",

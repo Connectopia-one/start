@@ -30,7 +30,7 @@ DEEL1 = [
             "die",
         ],
         antwoord=[0, 1, 2],
-        uitleg="Die is een aanwijzend of betrekkelijk voornaamwoord. De drie andere zijn de lidwoorden.",
+        uitleg="Die is een aanwijzend of betrekkelijk voornaamwoord. De andere zijn de lidwoorden.",
     ),
     dict(
         type="invultekst",
@@ -66,7 +66,7 @@ DEEL1 = [
             "zeer",
         ],
         antwoord=[0, 1, 2],
-        uitleg="Zeer is een bijwoord dat de graad aangeeft. De drie andere verbinden zinnen of zinsdelen.",
+        uitleg="Zeer is een bijwoord dat de graad aangeeft. De andere verbinden zinnen of zinsdelen.",
     ),
     dict(
         type="waarofniet",
@@ -132,7 +132,7 @@ DEEL1 = [
             "echter",
         ],
         antwoord=[0, 1, 2],
-        uitleg="Echter is een bijwoord dat een tegenstelling aangeeft. De drie andere leiden een voorzetselgroep in.",
+        uitleg="Echter is een bijwoord dat een tegenstelling aangeeft. De andere leiden een voorzetselgroep in.",
     ),
     dict(
         type="waarofniet",
@@ -261,7 +261,7 @@ DEEL2 = [
             "omdat",
         ],
         antwoord=[0, 1, 2],
-        uitleg="Omdat is een voegwoord. De drie andere leiden een vraag in.",
+        uitleg="Omdat is een voegwoord. De andere leiden een vraag in.",
     ),
     dict(
         type="waarofniet",
@@ -315,7 +315,7 @@ DEEL2 = [
             "lopen",
         ],
         antwoord=[0, 1, 2],
-        uitleg="Lopen is een zelfstandig werkwoord met een eigen betekenis. De drie andere koppelen een eigenschap aan het onderwerp.",
+        uitleg="Lopen is een zelfstandig werkwoord met een eigen betekenis. De andere koppelen een eigenschap aan het onderwerp.",
     ),
     dict(
         type="waarofniet",

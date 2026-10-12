@@ -48,7 +48,7 @@ DEEL1 = [
             "De hond blafte luid naar de postbode.",
         ],
         antwoord=[0, 1, 2],
-        uitleg="De laatste zin bedoelt precies wat er staat. De drie andere gebruiken een beeld.",
+        uitleg="De laatste zin bedoelt precies wat er staat. De andere gebruiken een beeld.",
     ),
     dict(
         type="meerkeuze",
@@ -323,7 +323,7 @@ DEEL2 = [
             "vriendelijk, naast beleefd",
         ],
         antwoord=[0, 1, 2],
-        uitleg="Vriendelijk en beleefd zijn allebei positief. De drie andere paren beschrijven hetzelfde gedrag met een ander oordeel.",
+        uitleg="Vriendelijk en beleefd zijn allebei positief. De andere paren beschrijven hetzelfde gedrag met een ander oordeel.",
     ),
     dict(
         type="meerkeuze",

@@ -219,7 +219,7 @@ DEEL2 = [
         vraag="Welke woorden zijn persoonlijke voornaamwoorden?",
         opties=["ik", "hem", "wij", "mijn"],
         antwoord=[0, 1, 2],
-        uitleg="'Mijn' zegt van wie iets is en is dus bezittelijk. De drie andere vervangen een persoon.",
+        uitleg="'Mijn' zegt van wie iets is en is dus bezittelijk. De andere vervangen een persoon.",
     ),
     dict(
         type="meerkeuze",
