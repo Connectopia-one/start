@@ -288,11 +288,11 @@ DEEL2 = [
         opties=[
             "Bloed dat blijft doorstromen ondanks druk",
             "Een bleke, klamme huid",
-            "Een slachtoffer dat duizelig wordt",
+            "Een slachtoffer met jeuk aan de handen",
             "Een slachtoffer dat plots erge honger krijgt",
         ],
-        antwoord=[0, 1, 2],
-        uitleg="Doorbloeden, bleek en klam zijn en duizeligheid wijzen op fors bloedverlies. Honger hoort daar niet bij.",
+        antwoord=[0, 1],
+        uitleg="Bloed dat blijft doorstromen en een bleke, klamme huid wijzen op fors bloedverlies. Honger en jeuk horen daar niet bij.",
     ),
     dict(
         type="meerkeuze",
@@ -330,11 +330,11 @@ DEEL2 = [
         opties=[
             "Pijn bij het bewegen van het gewricht",
             "Een zwelling rond het gewricht",
-            "Een blauwe verkleuring rond het gewricht",
+            "Uitslag over het hele lichaam",
             "Koorts die in korte tijd snel oploopt",
         ],
-        antwoord=[0, 1, 2],
-        uitleg="Pijn, zwelling en een blauwe plek zijn de klassieke tekenen van een verstuiking. Koorts hoort er niet bij.",
+        antwoord=[0, 1],
+        uitleg="Pijn bij het bewegen en zwelling zijn de eerste tekenen van een verstuiking. Koorts en uitslag horen er niet bij.",
     ),
     dict(
         type="meerkeuze",
@@ -410,8 +410,9 @@ DEEL2 = [
             "Verslikking",
             "Verstuiking",
             "Griep",
+            "Wonden",
         ],
-        antwoord=[0, 1, 2],
+        antwoord=[0, 1, 2, 4],
         uitleg="De fiche noemt bloeding, verslikking, verstuiking en wonden, zowel huidwonden als brandwonden. Griep is een ziekte, geen ongeval.",
     ),
     dict(

@@ -37,8 +37,9 @@ DEEL1 = [
             "Scheiding van de machten",
             "Vrije meningsuiting en persvrijheid",
             "Eén partij die alle zetels krijgt",
+            "Gelijkheid voor de wet",
         ],
-        antwoord=[0, 1, 2],
+        antwoord=[0, 1, 2, 4],
         uitleg="De fiche noemt stemrecht, vrije verkiezingen, scheiding van de machten, individuele vrijheid, een grondwet, vrije meningsuiting en persvrijheid, en gelijkheid voor de wet.",
     ),
     dict(
@@ -179,11 +180,11 @@ DEEL1 = [
         opties=[
             "De vrije verkiezingen",
             "Het stemrecht wordt zinloos gemaakt",
-            "De individuele vrijheid om te kiezen",
+            "De scheiding tussen kerk en staat",
             "De gelijkheid voor de wet in strafzaken",
         ],
-        antwoord=[0, 1, 2],
-        uitleg="Als er maar één keuze is, zijn de verkiezingen niet vrij, betekent je stem niets meer en heb je geen keuzevrijheid. Met strafrecht heeft dit niets te maken.",
+        antwoord=[0, 1],
+        uitleg="Als er maar één keuze is, zijn de verkiezingen niet vrij en betekent je stem niets meer. Met strafrecht of met kerk en staat heeft dit niets te maken.",
     ),
     dict(
         type="waarofniet",
@@ -248,11 +249,11 @@ DEEL2 = [
         opties=[
             "Verkiezingen waarvan de uitslag op voorhand vastligt",
             "Journalisten die opgepakt worden om wat ze schrijven",
-            "Rechters die doen wat de leider hun opdraagt",
+            "Een leger dat de grenzen bewaakt",
             "Een parlement dat over nieuwe wetten stemt",
         ],
-        antwoord=[0, 1, 2],
-        uitleg="Schijnverkiezingen, opgepakte journalisten en rechters zonder eigen oordeel zijn kenmerken van een dictatuur. Een parlement dat stemt hoort bij een democratie.",
+        antwoord=[0, 1],
+        uitleg="Schijnverkiezingen en opgepakte journalisten zijn kenmerken van een dictatuur. Een parlement dat over wetten stemt en een leger aan de grens vind je ook in een democratie.",
     ),
     dict(
         type="waarofniet",
@@ -290,11 +291,11 @@ DEEL2 = [
         opties=[
             "De leerlingenraad vraagt wat er op de speelplaats moet komen",
             "Je gezin bespreekt samen waar jullie op vakantie gaan",
-            "Je sportclub laat de leden stemmen over nieuwe trainingsuren",
+            "De school legt de lesuren vast in het schoolreglement",
             "De bus rijdt volgens een uurrooster dat al jaren vastligt",
         ],
-        antwoord=[0, 1, 2],
-        uitleg="In de drie juiste antwoorden wordt je mening gevraagd voor er beslist wordt. Bij het busuurrooster gebeurt dat niet.",
+        antwoord=[0, 1],
+        uitleg="In de twee juiste antwoorden wordt je mening gevraagd voor er beslist wordt. Bij het busuurrooster en het schoolreglement gebeurt dat niet.",
     ),
     dict(
         type="waarofniet",
@@ -310,9 +311,10 @@ DEEL2 = [
             "Het recht om je mening te uiten",
             "Het recht op een eerlijk proces",
             "Het recht om nooit belastingen te betalen",
+            "Het recht op privacy",
         ],
-        antwoord=[0, 1, 2],
-        uitleg="Onderwijs, meningsuiting en een eerlijk proces zijn rechten. Belastingen betalen is net een plicht, en daarmee wordt onder meer dat onderwijs betaald.",
+        antwoord=[0, 1, 2, 4],
+        uitleg="Onderwijs, meningsuiting, een eerlijk proces en privacy zijn rechten. Belastingen betalen is net een plicht, en daarmee wordt onder meer dat onderwijs betaald.",
     ),
     dict(
         type="meerkeuze",

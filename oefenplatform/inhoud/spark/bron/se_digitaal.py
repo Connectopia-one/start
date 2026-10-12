@@ -26,8 +26,9 @@ DEEL1 = [
             "Een online meeting",
             "Een forum",
             "Een brief met de post",
+            "Chatten",
         ],
-        antwoord=[0, 1, 2],
+        antwoord=[0, 1, 2, 4],
         uitleg="De fiche noemt zes vormen: e-mail, sociale media, fora, blogwebsites, een online meeting en chatten. Een papieren brief is niet digitaal.",
     ),
     dict(
@@ -80,8 +81,9 @@ DEEL1 = [
             "De aanhef",
             "De slotgroet en de ondertekening",
             "Het paginanummer",
+            "De bijlage",
         ],
-        antwoord=[0, 1, 2],
+        antwoord=[0, 1, 2, 4],
         uitleg="De fiche noemt: aan, CC, BCC, de onderwerpregel, de aanhef, de inhoud, de slotgroet, de ondertekening en de bijlage. Een paginanummer hoort in een document.",
     ),
     dict(
@@ -150,11 +152,11 @@ DEEL1 = [
         opties=[
             "Je bericht nalezen voor je het verstuurt",
             "Niet reageren in het heetst van je kwaadheid",
-            "Geen kwetsende taal of scheldwoorden gebruiken",
+            "Alles in hoofdletters typen zodat het opvalt",
             "Zo veel mogelijk afkortingen gebruiken in elke mail",
         ],
-        antwoord=[0, 1, 2],
-        uitleg="Nalezen, afkoelen en respectvol blijven zijn de basisregels. Afkortingen mogen in een chat met vrienden, maar niet in een e-mail aan een school.",
+        antwoord=[0, 1],
+        uitleg="Je bericht nalezen en niet reageren in het heetst van je kwaadheid zijn basisregels. Afkortingen mogen in een chat met vrienden maar niet in een mail aan een school, en hoofdletters lezen als schreeuwen.",
     ),
     dict(
         type="waarofniet",

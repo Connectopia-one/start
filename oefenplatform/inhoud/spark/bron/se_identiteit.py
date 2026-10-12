@@ -52,10 +52,10 @@ DEEL1 = [
             "Iemand vertelt uit welk land zijn grootouders komen",
             "Iemand legt uit waarom muziek zo belangrijk voor hem is",
             "Iemand zegt dat het buiten hard aan het regenen is",
-            "Iemand vertelt bij welke jeugdbeweging hij zit",
+            "Iemand zegt hoeveel een buskaartje kost",
         ],
-        antwoord=[0, 1, 3],
-        uitleg="Afkomst, wat je belangrijk vindt en de groepen waar je bij hoort, zeggen iets over wie iemand is. Het weer zegt daar niets over.",
+        antwoord=[0, 1],
+        uitleg="Afkomst en wat je belangrijk vindt, zeggen iets over wie iemand is. Het weer en de prijs van een buskaartje zeggen daar niets over.",
     ),
     dict(
         type="meerkeuze",
@@ -87,11 +87,11 @@ DEEL1 = [
         opties=[
             "Of je broers of zussen hebt",
             "Het beroep dat je ouders doen",
-            "De taal die er bij jou thuis gesproken wordt",
+            "Het merk van de tv in de living",
             "De kleur van je fiets en van je jas",
         ],
-        antwoord=[0, 1, 2],
-        uitleg="Je familiale achtergrond is het gezin waarin je opgroeit: wie erbij hoort, wat ze doen, hoe er thuis gepraat wordt. Je fiets hoort daar niet bij.",
+        antwoord=[0, 1],
+        uitleg="Je familiale achtergrond is het gezin waarin je opgroeit: wie erbij hoort en wat ze doen. Je fiets en de tv in de living horen daar niet bij.",
     ),
     dict(
         type="invultekst",
@@ -228,11 +228,11 @@ DEEL2 = [
         opties=[
             "De regio, het land of het gebied waar je vandaan komt",
             "De groepen waar je deel van uitmaakt",
-            "De subculturen waar je bij hoort",
+            "De schoenmaat die je hebt",
             "De kleur van je ogen en van je haar",
         ],
-        antwoord=[0, 1, 2],
-        uitleg="De drie juiste antwoorden staan zo in de vakfiche. De kleur van je ogen is biologisch en hoort bij je persoonlijke identiteit.",
+        antwoord=[0, 1],
+        uitleg="De regio waar je vandaan komt en de groepen waar je deel van uitmaakt horen bij je groepsidentiteit. De kleur van je ogen en je schoenmaat zijn biologisch en horen bij je persoonlijke identiteit.",
     ),
     dict(
         type="meerkeuze",
@@ -324,11 +324,11 @@ DEEL2 = [
         opties=[
             "Mensen buiten de eigen groep worden sneller uitgesloten",
             "Vooroordelen over de andere groep worden sterker",
-            "De eigen groep voelt zich hechter",
+            "Vooroordelen verdwijnen vanzelf",
             "Iedereen krijgt automatisch dezelfde kansen",
         ],
-        antwoord=[0, 1, 2],
-        uitleg="Wij-zij-denken maakt de eigen groep vaak hechter, maar duwt de anderen naar buiten en versterkt vooroordelen. Gelijke kansen komen er niet van.",
+        antwoord=[0, 1],
+        uitleg="Wij-zij-denken duwt de anderen naar buiten en versterkt vooroordelen. Die verdwijnen er niet door, en gelijke kansen komen er al evenmin van.",
     ),
     dict(
         type="waarofniet",

@@ -42,14 +42,13 @@
             "Iemand vertelt uit welk land zijn grootouders komen",
             "Iemand legt uit waarom muziek zo belangrijk voor hem is",
             "Iemand zegt dat het buiten hard aan het regenen is",
-            "Iemand vertelt bij welke jeugdbeweging hij zit"
+            "Iemand zegt hoeveel een buskaartje kost"
           ],
           "antwoord": [
             0,
-            1,
-            3
+            1
           ],
-          "uitleg": "Afkomst, wat je belangrijk vindt en de groepen waar je bij hoort, zeggen iets over wie iemand is. Het weer zegt daar niets over."
+          "uitleg": "Afkomst en wat je belangrijk vindt, zeggen iets over wie iemand is. Het weer en de prijs van een buskaartje zeggen daar niets over."
         },
         {
           "type": "meerkeuze",
@@ -81,15 +80,14 @@
           "opties": [
             "Of je broers of zussen hebt",
             "Het beroep dat je ouders doen",
-            "De taal die er bij jou thuis gesproken wordt",
+            "Het merk van de tv in de living",
             "De kleur van je fiets en van je jas"
           ],
           "antwoord": [
             0,
-            1,
-            2
+            1
           ],
-          "uitleg": "Je familiale achtergrond is het gezin waarin je opgroeit: wie erbij hoort, wat ze doen, hoe er thuis gepraat wordt. Je fiets hoort daar niet bij."
+          "uitleg": "Je familiale achtergrond is het gezin waarin je opgroeit: wie erbij hoort en wat ze doen. Je fiets en de tv in de living horen daar niet bij."
         },
         {
           "type": "invultekst",
@@ -241,15 +239,14 @@
           "opties": [
             "De regio, het land of het gebied waar je vandaan komt",
             "De groepen waar je deel van uitmaakt",
-            "De subculturen waar je bij hoort",
+            "De schoenmaat die je hebt",
             "De kleur van je ogen en van je haar"
           ],
           "antwoord": [
             0,
-            1,
-            2
+            1
           ],
-          "uitleg": "De drie juiste antwoorden staan zo in de vakfiche. De kleur van je ogen is biologisch en hoort bij je persoonlijke identiteit."
+          "uitleg": "De regio waar je vandaan komt en de groepen waar je deel van uitmaakt horen bij je groepsidentiteit. De kleur van je ogen en je schoenmaat zijn biologisch en horen bij je persoonlijke identiteit."
         },
         {
           "type": "meerkeuze",
@@ -341,15 +338,14 @@
           "opties": [
             "Mensen buiten de eigen groep worden sneller uitgesloten",
             "Vooroordelen over de andere groep worden sterker",
-            "De eigen groep voelt zich hechter",
+            "Vooroordelen verdwijnen vanzelf",
             "Iedereen krijgt automatisch dezelfde kansen"
           ],
           "antwoord": [
             0,
-            1,
-            2
+            1
           ],
-          "uitleg": "Wij-zij-denken maakt de eigen groep vaak hechter, maar duwt de anderen naar buiten en versterkt vooroordelen. Gelijke kansen komen er niet van."
+          "uitleg": "Wij-zij-denken duwt de anderen naar buiten en versterkt vooroordelen. Die verdwijnen er niet door, en gelijke kansen komen er al evenmin van."
         },
         {
           "type": "waarofniet",
@@ -508,15 +504,14 @@
           "opties": [
             "Zeggen dat ze het niet oké vindt",
             "Er een volwassene bij halen",
-            "Achteraf naar de jongen toe gaan en vragen hoe het gaat",
+            "Doen alsof ze niets gezien heeft",
             "Er een filmpje van maken en doorsturen"
           ],
           "antwoord": [
             0,
-            1,
-            2
+            1
           ],
-          "uitleg": "Iets zeggen, hulp halen en achteraf steun geven zijn alle drie gepast. Een filmpje doorsturen maakt het net erger en verspreidt het verder."
+          "uitleg": "Iets zeggen en er een volwassene bij halen zijn allebei gepast. Een filmpje doorsturen maakt het net erger, en wegkijken helpt niemand."
         },
         {
           "type": "waarofniet",
@@ -554,15 +549,14 @@
           "opties": [
             "Ze luisteren naar elkaar",
             "Ze spreken om de beurt",
-            "Ze gebruiken gepaste lichaamstaal",
+            "Ze kijken allemaal op hun telefoon",
             "Ze houden hun rug naar elkaar toe"
           ],
           "antwoord": [
             0,
-            1,
-            2
+            1
           ],
-          "uitleg": "Ze zijn naar elkaar toegedraaid, kijken elkaar aan en praten om de beurt. Dat zijn drie kenmerken uit de vakfiche. Hun rug naar elkaar keren doen ze net niet."
+          "uitleg": "Ze luisteren naar elkaar en spreken om de beurt. Hun rug naar elkaar keren of op hun telefoon kijken doen ze net niet."
         },
         {
           "type": "waarofniet",
@@ -804,15 +798,14 @@
           "opties": [
             "Er een volwassene bij halen die kan helpen",
             "Aan de gepeste laten weten dat je achter hem staat",
-            "Duidelijk zeggen dat je het niet oké vindt",
+            "Doen alsof je het niet ziet",
             "Terugpesten zodat de pester het ook eens voelt"
           ],
           "antwoord": [
             0,
-            1,
-            2
+            1
           ],
-          "uitleg": "Hulp halen, steunen en iets zeggen werken. Terugpesten maakt er twee slachtoffers van en lost niets op."
+          "uitleg": "Hulp halen en de gepeste laten weten dat je achter hem staat, werken. Terugpesten maakt er twee slachtoffers van, en wegkijken lost niets op."
         },
         {
           "type": "meerkeuze",
@@ -851,12 +844,14 @@
             "Toestemming: allebei akkoord en allebei goed erbij",
             "Vrijwillig: niemand zet de ander onder druk",
             "Gelijkwaardigheid: er is geen machtsverschil",
-            "Snelheid: hoe sneller het gaat, hoe beter"
+            "Snelheid: hoe sneller het gaat, hoe beter",
+            "Passend bij de leeftijd van allebei"
           ],
           "antwoord": [
             0,
             1,
-            2
+            2,
+            4
           ],
           "uitleg": "De fiche noemt toestemming, vrijwilligheid, gelijkwaardigheid, passend bij de leeftijd, passend in de situatie en zelfrespect. Snelheid staat er niet bij."
         },
@@ -885,12 +880,14 @@
             "Afspraken nakomen",
             "Hulp vragen wanneer iets niet duidelijk is",
             "Rekening houden met de inbreng van anderen",
-            "Zo snel mogelijk zelf alles beslissen"
+            "Zo snel mogelijk zelf alles beslissen",
+            "Meningen van anderen respecteren"
           ],
           "antwoord": [
             0,
             1,
-            2
+            2,
+            4
           ],
           "uitleg": "De fiche noemt onder meer luisteren, om de beurt spreken, meningen respecteren, afspraken nakomen, hulp vragen en rekening houden met anderen. Alles zelf beslissen hoort daar niet bij."
         },
@@ -1192,15 +1189,14 @@
           "opties": [
             "Bloed dat blijft doorstromen ondanks druk",
             "Een bleke, klamme huid",
-            "Een slachtoffer dat duizelig wordt",
+            "Een slachtoffer met jeuk aan de handen",
             "Een slachtoffer dat plots erge honger krijgt"
           ],
           "antwoord": [
             0,
-            1,
-            2
+            1
           ],
-          "uitleg": "Doorbloeden, bleek en klam zijn en duizeligheid wijzen op fors bloedverlies. Honger hoort daar niet bij."
+          "uitleg": "Bloed dat blijft doorstromen en een bleke, klamme huid wijzen op fors bloedverlies. Honger en jeuk horen daar niet bij."
         },
         {
           "type": "meerkeuze",
@@ -1238,15 +1234,14 @@
           "opties": [
             "Pijn bij het bewegen van het gewricht",
             "Een zwelling rond het gewricht",
-            "Een blauwe verkleuring rond het gewricht",
+            "Uitslag over het hele lichaam",
             "Koorts die in korte tijd snel oploopt"
           ],
           "antwoord": [
             0,
-            1,
-            2
+            1
           ],
-          "uitleg": "Pijn, zwelling en een blauwe plek zijn de klassieke tekenen van een verstuiking. Koorts hoort er niet bij."
+          "uitleg": "Pijn bij het bewegen en zwelling zijn de eerste tekenen van een verstuiking. Koorts en uitslag horen er niet bij."
         },
         {
           "type": "meerkeuze",
@@ -1321,12 +1316,14 @@
             "Bloeding",
             "Verslikking",
             "Verstuiking",
-            "Griep"
+            "Griep",
+            "Wonden"
           ],
           "antwoord": [
             0,
             1,
-            2
+            2,
+            4
           ],
           "uitleg": "De fiche noemt bloeding, verslikking, verstuiking en wonden, zowel huidwonden als brandwonden. Griep is een ziekte, geen ongeval."
         },
@@ -1362,12 +1359,14 @@
             "Stemrecht en vrije verkiezingen",
             "Scheiding van de machten",
             "Vrije meningsuiting en persvrijheid",
-            "Eén partij die alle zetels krijgt"
+            "Eén partij die alle zetels krijgt",
+            "Gelijkheid voor de wet"
           ],
           "antwoord": [
             0,
             1,
-            2
+            2,
+            4
           ],
           "uitleg": "De fiche noemt stemrecht, vrije verkiezingen, scheiding van de machten, individuele vrijheid, een grondwet, vrije meningsuiting en persvrijheid, en gelijkheid voor de wet."
         },
@@ -1509,15 +1508,14 @@
           "opties": [
             "De vrije verkiezingen",
             "Het stemrecht wordt zinloos gemaakt",
-            "De individuele vrijheid om te kiezen",
+            "De scheiding tussen kerk en staat",
             "De gelijkheid voor de wet in strafzaken"
           ],
           "antwoord": [
             0,
-            1,
-            2
+            1
           ],
-          "uitleg": "Als er maar één keuze is, zijn de verkiezingen niet vrij, betekent je stem niets meer en heb je geen keuzevrijheid. Met strafrecht heeft dit niets te maken."
+          "uitleg": "Als er maar één keuze is, zijn de verkiezingen niet vrij en betekent je stem niets meer. Met strafrecht of met kerk en staat heeft dit niets te maken."
         },
         {
           "type": "waarofniet",
@@ -1589,15 +1587,14 @@
           "opties": [
             "Verkiezingen waarvan de uitslag op voorhand vastligt",
             "Journalisten die opgepakt worden om wat ze schrijven",
-            "Rechters die doen wat de leider hun opdraagt",
+            "Een leger dat de grenzen bewaakt",
             "Een parlement dat over nieuwe wetten stemt"
           ],
           "antwoord": [
             0,
-            1,
-            2
+            1
           ],
-          "uitleg": "Schijnverkiezingen, opgepakte journalisten en rechters zonder eigen oordeel zijn kenmerken van een dictatuur. Een parlement dat stemt hoort bij een democratie."
+          "uitleg": "Schijnverkiezingen en opgepakte journalisten zijn kenmerken van een dictatuur. Een parlement dat over wetten stemt en een leger aan de grens vind je ook in een democratie."
         },
         {
           "type": "waarofniet",
@@ -1635,15 +1632,14 @@
           "opties": [
             "De leerlingenraad vraagt wat er op de speelplaats moet komen",
             "Je gezin bespreekt samen waar jullie op vakantie gaan",
-            "Je sportclub laat de leden stemmen over nieuwe trainingsuren",
+            "De school legt de lesuren vast in het schoolreglement",
             "De bus rijdt volgens een uurrooster dat al jaren vastligt"
           ],
           "antwoord": [
             0,
-            1,
-            2
+            1
           ],
-          "uitleg": "In de drie juiste antwoorden wordt je mening gevraagd voor er beslist wordt. Bij het busuurrooster gebeurt dat niet."
+          "uitleg": "In de twee juiste antwoorden wordt je mening gevraagd voor er beslist wordt. Bij het busuurrooster en het schoolreglement gebeurt dat niet."
         },
         {
           "type": "waarofniet",
@@ -1658,14 +1654,16 @@
             "Het recht op onderwijs",
             "Het recht om je mening te uiten",
             "Het recht op een eerlijk proces",
-            "Het recht om nooit belastingen te betalen"
+            "Het recht om nooit belastingen te betalen",
+            "Het recht op privacy"
           ],
           "antwoord": [
             0,
             1,
-            2
+            2,
+            4
           ],
-          "uitleg": "Onderwijs, meningsuiting en een eerlijk proces zijn rechten. Belastingen betalen is net een plicht, en daarmee wordt onder meer dat onderwijs betaald."
+          "uitleg": "Onderwijs, meningsuiting, een eerlijk proces en privacy zijn rechten. Belastingen betalen is net een plicht, en daarmee wordt onder meer dat onderwijs betaald."
         },
         {
           "type": "meerkeuze",
@@ -1860,15 +1858,14 @@
           "opties": [
             "Voor een nieuwe identiteitskaart",
             "Voor een bouwvergunning",
-            "Om je te laten inschrijven als je verhuist",
+            "Om je belastingaangifte te laten nakijken",
             "Om je paspoort te laten controleren aan de grens"
           ],
           "antwoord": [
             0,
-            1,
-            2
+            1
           ],
-          "uitleg": "Identiteitskaarten, bouwvergunningen en het bevolkingsregister zijn zaken van de gemeente. Grenscontrole is dat niet."
+          "uitleg": "Identiteitskaarten en bouwvergunningen zijn zaken van de gemeente. Grenscontrole en je belastingaangifte zijn dat niet."
         },
         {
           "type": "meerkeuze",
@@ -1876,15 +1873,14 @@
           "opties": [
             "Het ophalen van het huisvuil",
             "Het onderhoud van de straten in de gemeente",
-            "De gemeentelijke basisschool",
+            "De wetten over diefstal",
             "De pensioenen van alle Belgen samen"
           ],
           "antwoord": [
             0,
-            1,
-            2
+            1
           ],
-          "uitleg": "Huisvuil, lokale wegen en de eigen scholen zijn gemeentelijke taken. Pensioenen worden federaal geregeld."
+          "uitleg": "Het huisvuil en de lokale wegen zijn gemeentelijke taken. Pensioenen en strafwetten worden federaal geregeld."
         },
         {
           "type": "waarofniet",
@@ -1911,12 +1907,14 @@
             "Limburg",
             "Antwerpen",
             "Vlaams-Brabant",
-            "Henegouwen"
+            "Henegouwen",
+            "Oost-Vlaanderen"
           ],
           "antwoord": [
             0,
             1,
-            2
+            2,
+            4
           ],
           "uitleg": "De vijf Vlaamse provincies zijn Antwerpen, Limburg, Oost-Vlaanderen, West-Vlaanderen en Vlaams-Brabant. Henegouwen ligt in Wallonië."
         },
@@ -1962,15 +1960,14 @@
           "opties": [
             "Provinciale wegen en fietspaden",
             "Provinciale domeinen en natuurgebieden",
-            "Provinciale scholen",
+            "De federale politie",
             "Het uitreiken van je identiteitskaart"
           ],
           "antwoord": [
             0,
-            1,
-            2
+            1
           ],
-          "uitleg": "Wegen, domeinen en eigen scholen op provinciaal niveau zijn provinciale taken. Je identiteitskaart krijg je bij de gemeente."
+          "uitleg": "Provinciale wegen, fietspaden en domeinen zijn provinciale taken. Je identiteitskaart krijg je bij de gemeente, en de federale politie is federaal."
         },
         {
           "type": "meerkeuze",
@@ -2057,12 +2054,14 @@
             "Onderwijs",
             "Cultuur",
             "Welzijn en gezondheidszorg",
-            "De aanleg van autosnelwegen"
+            "De aanleg van autosnelwegen",
+            "Media"
           ],
           "antwoord": [
             0,
             1,
-            2
+            2,
+            4
           ],
           "uitleg": "Onderwijs, cultuur, media en welzijn zijn persoonsgebonden en dus gemeenschapsmaterie. Wegen horen bij het gewest."
         },
@@ -2073,12 +2072,14 @@
             "Milieu en natuur",
             "Ruimtelijke ordening en wonen",
             "Openbaar vervoer binnen het gewest",
-            "De rechtbanken en de gevangenissen"
+            "De rechtbanken en de gevangenissen",
+            "Economie"
           ],
           "antwoord": [
             0,
             1,
-            2
+            2,
+            4
           ],
           "uitleg": "Milieu, ruimtelijke ordening, wonen, economie en mobiliteit zijn grondgebonden en dus gewestmaterie. Justitie is federaal."
         },
@@ -2137,12 +2138,14 @@
             "Justitie en de rechtbanken",
             "Defensie en het leger",
             "Asiel en migratie",
-            "Het onderhoud van de gemeentelijke fietspaden"
+            "Het onderhoud van de gemeentelijke fietspaden",
+            "De pensioenen"
           ],
           "antwoord": [
             0,
             1,
-            2
+            2,
+            4
           ],
           "uitleg": "Justitie, defensie, asiel en migratie, pensioenen en buitenlandse handel zijn federaal. Lokale fietspaden zijn dat niet."
         },
@@ -2344,12 +2347,14 @@
             "De aankoop",
             "De boekhouding",
             "De marketing",
-            "Het bezoek van de inspectie"
+            "Het bezoek van de inspectie",
+            "De productie"
           ],
           "antwoord": [
             0,
             1,
-            2
+            2,
+            4
           ],
           "uitleg": "De fiche noemt de aankoop, de algemene directie, de boekhouding, het magazijn, de marketing, het onthaal, de productie en de verkoop."
         },
@@ -2516,15 +2521,14 @@
           "opties": [
             "Een kapsalon",
             "Een supermarkt",
-            "Een transportbedrijf",
+            "Een ziekenhuis van de overheid",
             "Een openbare school"
           ],
           "antwoord": [
             0,
-            1,
-            2
+            1
           ],
-          "uitleg": "De tertiaire sector levert diensten waarvoor betaald wordt. Een openbare school hoort bij de quartaire sector."
+          "uitleg": "Een kapsalon en een supermarkt leveren diensten waarvoor betaald wordt. Een openbare school en een overheidsziekenhuis horen bij de quartaire sector."
         },
         {
           "type": "meerkeuze",
@@ -2632,15 +2636,14 @@
           "opties": [
             "Een erfenis",
             "De opbrengst van iets dat je tweedehands verkoopt",
-            "Een prijs die je wint",
+            "Het groeipakket dat elke maand komt",
             "Het maandloon van je moeder"
           ],
           "antwoord": [
             0,
-            1,
-            2
+            1
           ],
-          "uitleg": "Toevallige inkomsten komen onverwacht en niet elke maand terug. Een maandloon is een terugkerend inkomen."
+          "uitleg": "Een erfenis en de opbrengst van iets dat je tweedehands verkoopt, komen onverwacht. Een maandloon en het groeipakket keren elke maand terug."
         },
         {
           "type": "meerkeuze",
@@ -2722,12 +2725,14 @@
             "De belasting op het gezinsinkomen",
             "De belasting op de bedrijfswinst",
             "De btw op een aankoop",
-            "De huur die een gezin aan zijn eigenaar betaalt"
+            "De huur die een gezin aan zijn eigenaar betaalt",
+            "De wegenbelasting"
           ],
           "antwoord": [
             0,
             1,
-            2
+            2,
+            4
           ],
           "uitleg": "De fiche noemt zes inkomsten: belasting op gezinsinkomen, op bedrijfswinst, btw, milieubelasting, belasting op een huis of gebouw, en wegenbelasting. Huur gaat naar een particuliere eigenaar."
         },
@@ -2786,12 +2791,14 @@
             "Onderwijs",
             "Veiligheid",
             "Milieubescherming",
-            "De aankopen van een bedrijf"
+            "De aankopen van een bedrijf",
+            "Sociale bescherming"
           ],
           "antwoord": [
             0,
             1,
-            2
+            2,
+            4
           ],
           "uitleg": "De fiche noemt zes uitgaven: huisvesting en infrastructuur, milieubescherming, onderwijs, recreatie, sport en cultuur, sociale bescherming, en veiligheid."
         },
@@ -2891,15 +2898,14 @@
           "opties": [
             "Aan hoeveel je moet betalen voor school en openbaar vervoer",
             "Aan hoeveel fietspaden en groen er in je gemeente zijn",
-            "Aan hoe lang je moet wachten op een sociale woning",
+            "Aan welke films er in de bioscoop draaien",
             "Aan welk merk gsm de winkels in je gemeente verkopen"
           ],
           "antwoord": [
             0,
-            1,
-            2
+            1
           ],
-          "uitleg": "Schoolkosten, fietspaden en sociale woningen hangen af van wat de overheid beslist. Welke merken een winkel verkoopt, kiest de winkel zelf."
+          "uitleg": "Schoolkosten en fietspaden hangen af van wat de overheid beslist. Welke merken een winkel verkoopt en welke films een bioscoop draait, kiezen die zelf."
         },
         {
           "type": "waarofniet",
@@ -2942,12 +2948,14 @@
             "Discriminatie",
             "Inkomen en rijkdom",
             "Onderwijs en de kansen om te leren",
-            "Het weer in een bepaald jaar"
+            "Het weer in een bepaald jaar",
+            "Gezondheid"
           ],
           "antwoord": [
             0,
             1,
-            2
+            2,
+            4
           ],
           "uitleg": "De fiche noemt zes oorzaken: discriminatie, gewoontes in een cultuur, gezondheid, inkomen en rijkdom, onderwijs en kansen om te leren, en wetten en regels van de overheid."
         },
@@ -3024,12 +3032,14 @@
             "De werkloosheidsuitkering",
             "Het rust- en overlevingspensioen",
             "De ziekte- en invaliditeitsuitkering",
-            "Het groeipakket voor kinderen"
+            "Het groeipakket voor kinderen",
+            "De uitkering na een arbeidsongeval"
           ],
           "antwoord": [
             0,
             1,
-            2
+            2,
+            4
           ],
           "uitleg": "Werkloosheid, pensioen, ziekte en invaliditeit, en een arbeidsongeval vervangen een weggevallen inkomen. Het groeipakket is aanvullend."
         },
@@ -3052,12 +3062,14 @@
             "Het groeipakket",
             "De ondersteuning voor mensen met een beperking",
             "De tegemoetkoming voor medische kosten",
-            "Het leefloon"
+            "Het leefloon",
+            "Een sociaal tarief voor wie weinig verdient"
           ],
           "antwoord": [
             0,
             1,
-            2
+            2,
+            4
           ],
           "uitleg": "Het groeipakket, ondersteuning bij een beperking, een sociaal tarief en een tegemoetkoming voor medische kosten komen bovenop een inkomen. Het leefloon vervangt er een."
         },
@@ -3177,15 +3189,14 @@
           "opties": [
             "Eten en drinken",
             "Een warme jas in de winter",
-            "Een plek om te wonen",
+            "De duurste gsm van het moment",
             "De nieuwste kleur van een sneaker die je al hebt"
           ],
           "antwoord": [
             0,
-            1,
-            2
+            1
           ],
-          "uitleg": "De drie juiste antwoorden heb je nodig. Het foute antwoord is een gecreëerde behoefte: je schoenen doen het nog."
+          "uitleg": "Eten, drinken en een warme jas in de winter heb je nodig. De nieuwste kleur van een sneaker die je al hebt en de duurste gsm zijn gecreëerde behoeften."
         },
         {
           "type": "waarofniet",
@@ -3300,12 +3311,14 @@
             "De looptijd",
             "De rentevoet",
             "Het maandelijks afbetalingsbedrag",
-            "De naam van je bankkantoor"
+            "De naam van je bankkantoor",
+            "Het geleende bedrag"
           ],
           "antwoord": [
             0,
             1,
-            2
+            2,
+            4
           ],
           "uitleg": "De fiche noemt zeven onderdelen: het geleende bedrag, de looptijd, de rentevoet, de totale rente, de totale terugbetaling, het maandelijks afbetalingsbedrag en de nog openstaande schuld."
         },
@@ -3345,15 +3358,14 @@
           "opties": [
             "Je kan je afbetalingen niet meer volgen",
             "Je moet steeds meer rente betalen",
-            "Je kan in een schuldenspiraal terechtkomen",
+            "Je mag geen bankrekening meer hebben",
             "Je spaargeld brengt minder rente op"
           ],
           "antwoord": [
             0,
-            1,
-            2
+            1
           ],
-          "uitleg": "Wie te veel leent, betaalt meer rente, raakt achterop en leent soms bij om af te betalen. Dat is een schuldenspiraal."
+          "uitleg": "Wie te veel leent, kan de afbetalingen niet meer volgen en betaalt steeds meer rente, tot hij bijleent om af te betalen. Je spaarrente verandert er niet door, en je rekening raak je niet kwijt."
         },
         {
           "type": "waarofniet",
@@ -3384,12 +3396,14 @@
             "Een fysieke winkel",
             "Een webshop",
             "Sociale media",
-            "Een spaarrekening"
+            "Een spaarrekening",
+            "De markt"
           ],
           "antwoord": [
             0,
             1,
-            2
+            2,
+            4
           ],
           "uitleg": "De fiche noemt zes verkoopkanalen: evenementen, de fysieke winkel, de webshop, de markt, sociale media en teleshopping."
         },
@@ -3440,12 +3454,14 @@
             "Cash geld",
             "De debetkaart",
             "De kredietkaart",
-            "Het kasticket van de winkel"
+            "Het kasticket van de winkel",
+            "De overschrijving"
           ],
           "antwoord": [
             0,
             1,
-            2
+            2,
+            4
           ],
           "uitleg": "De zeven betaalmiddelen zijn cash geld, contactloos betalen, de debetkaart, de kredietkaart, de overschrijving, een mobiele betaalapp en de prepaidkaart. Een kasticket is een bewijs, geen betaalmiddel."
         },
@@ -3606,12 +3622,14 @@
             "E-mail",
             "Een online meeting",
             "Een forum",
-            "Een brief met de post"
+            "Een brief met de post",
+            "Chatten"
           ],
           "antwoord": [
             0,
             1,
-            2
+            2,
+            4
           ],
           "uitleg": "De fiche noemt zes vormen: e-mail, sociale media, fora, blogwebsites, een online meeting en chatten. Een papieren brief is niet digitaal."
         },
@@ -3664,12 +3682,14 @@
             "De onderwerpregel",
             "De aanhef",
             "De slotgroet en de ondertekening",
-            "Het paginanummer"
+            "Het paginanummer",
+            "De bijlage"
           ],
           "antwoord": [
             0,
             1,
-            2
+            2,
+            4
           ],
           "uitleg": "De fiche noemt: aan, CC, BCC, de onderwerpregel, de aanhef, de inhoud, de slotgroet, de ondertekening en de bijlage. Een paginanummer hoort in een document."
         },
@@ -3739,15 +3759,14 @@
           "opties": [
             "Je bericht nalezen voor je het verstuurt",
             "Niet reageren in het heetst van je kwaadheid",
-            "Geen kwetsende taal of scheldwoorden gebruiken",
+            "Alles in hoofdletters typen zodat het opvalt",
             "Zo veel mogelijk afkortingen gebruiken in elke mail"
           ],
           "antwoord": [
             0,
-            1,
-            2
+            1
           ],
-          "uitleg": "Nalezen, afkoelen en respectvol blijven zijn de basisregels. Afkortingen mogen in een chat met vrienden, maar niet in een e-mail aan een school."
+          "uitleg": "Je bericht nalezen en niet reageren in het heetst van je kwaadheid zijn basisregels. Afkortingen mogen in een chat met vrienden maar niet in een mail aan een school, en hoofdletters lezen als schreeuwen."
         },
         {
           "type": "waarofniet",
@@ -4046,12 +4065,14 @@
             "Een woord",
             "Een zin",
             "Een alinea",
-            "Een cel"
+            "Een cel",
+            "Een pagina"
           ],
           "antwoord": [
             0,
             1,
-            2
+            2,
+            4
           ],
           "uitleg": "De structuurelementen van een tekst zijn het teken, het woord, de regel, de zin, de alinea en de pagina. Een cel hoort bij Excel."
         },
@@ -4074,12 +4095,14 @@
             "Vet en cursief",
             "Het lettertype en de tekengrootte",
             "De tekstkleur en markeren",
-            "De regelafstand van je tekst"
+            "De regelafstand van je tekst",
+            "Onderstrepen"
           ],
           "antwoord": [
             0,
             1,
-            2
+            2,
+            4
           ],
           "uitleg": "Tekenopmaak werkt op letters: lettertype, grootte, vet, cursief, onderstrepen, kleur, markeren, super- en subscript, en doorhalen. Regelafstand is alineaopmaak."
         },
@@ -4166,12 +4189,14 @@
             "De cel en het celadres",
             "De rij en de kolom",
             "Het werkblad en de werkmap",
-            "De alinea en de pagina"
+            "De alinea en de pagina",
+            "Het bereik"
           ],
           "antwoord": [
             0,
             1,
-            2
+            2,
+            4
           ],
           "uitleg": "Een rekenblad bestaat uit cellen, celadressen, bereiken, rijen, kolommen, werkbladen en een werkmap. Alinea's horen bij Word."
         },
@@ -4382,12 +4407,14 @@
             "Smishing",
             "Quishing",
             "Vishing",
-            "Shaming"
+            "Shaming",
+            "Phishing"
           ],
           "antwoord": [
             0,
             1,
-            2
+            2,
+            4
           ],
           "uitleg": "De vier vormen van internetfraude zijn phishing, smishing, quishing en vishing. Shaming is ongepast gedrag, geen fraude."
         },
@@ -4467,15 +4494,14 @@
           "opties": [
             "Minstens 8 en maximaal 24 karakters lang",
             "Minstens één hoofdletter en één kleine letter",
-            "Minstens één cijfer en één teken",
+            "Hetzelfde wachtwoord als op je andere sites",
             "Je voornaam en je geboortejaar erin"
           ],
           "antwoord": [
             0,
-            1,
-            2
+            1
           ],
-          "uitleg": "De fiche vraagt 8 tot 24 karakters, met een hoofdletter, een kleine letter, een cijfer en een teken. Je naam of je geboortejaar is net wat een bedrieger eerst probeert."
+          "uitleg": "De fiche vraagt 8 tot 24 karakters, met een hoofdletter, een kleine letter, een cijfer en een teken. Je naam, je geboortejaar of een hergebruikt wachtwoord is net wat een bedrieger als eerste probeert."
         },
         {
           "type": "waarofniet",

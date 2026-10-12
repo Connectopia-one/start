@@ -46,11 +46,11 @@ DEEL1 = [
         opties=[
             "Eten en drinken",
             "Een warme jas in de winter",
-            "Een plek om te wonen",
+            "De duurste gsm van het moment",
             "De nieuwste kleur van een sneaker die je al hebt",
         ],
-        antwoord=[0, 1, 2],
-        uitleg="De drie juiste antwoorden heb je nodig. Het foute antwoord is een gecreëerde behoefte: je schoenen doen het nog.",
+        antwoord=[0, 1],
+        uitleg="Eten, drinken en een warme jas in de winter heb je nodig. De nieuwste kleur van een sneaker die je al hebt en de duurste gsm zijn gecreëerde behoeften.",
     ),
     dict(
         type="waarofniet",
@@ -162,8 +162,9 @@ DEEL1 = [
             "De rentevoet",
             "Het maandelijks afbetalingsbedrag",
             "De naam van je bankkantoor",
+            "Het geleende bedrag",
         ],
-        antwoord=[0, 1, 2],
+        antwoord=[0, 1, 2, 4],
         uitleg="De fiche noemt zeven onderdelen: het geleende bedrag, de looptijd, de rentevoet, de totale rente, de totale terugbetaling, het maandelijks afbetalingsbedrag en de nog openstaande schuld.",
     ),
     dict(
@@ -202,11 +203,11 @@ DEEL1 = [
         opties=[
             "Je kan je afbetalingen niet meer volgen",
             "Je moet steeds meer rente betalen",
-            "Je kan in een schuldenspiraal terechtkomen",
+            "Je mag geen bankrekening meer hebben",
             "Je spaargeld brengt minder rente op",
         ],
-        antwoord=[0, 1, 2],
-        uitleg="Wie te veel leent, betaalt meer rente, raakt achterop en leent soms bij om af te betalen. Dat is een schuldenspiraal.",
+        antwoord=[0, 1],
+        uitleg="Wie te veel leent, kan de afbetalingen niet meer volgen en betaalt steeds meer rente, tot hij bijleent om af te betalen. Je spaarrente verandert er niet door, en je rekening raak je niet kwijt.",
     ),
     dict(
         type="waarofniet",
@@ -231,8 +232,9 @@ DEEL2 = [
             "Een webshop",
             "Sociale media",
             "Een spaarrekening",
+            "De markt",
         ],
-        antwoord=[0, 1, 2],
+        antwoord=[0, 1, 2, 4],
         uitleg="De fiche noemt zes verkoopkanalen: evenementen, de fysieke winkel, de webshop, de markt, sociale media en teleshopping.",
     ),
     dict(
@@ -279,8 +281,9 @@ DEEL2 = [
             "De debetkaart",
             "De kredietkaart",
             "Het kasticket van de winkel",
+            "De overschrijving",
         ],
-        antwoord=[0, 1, 2],
+        antwoord=[0, 1, 2, 4],
         uitleg="De zeven betaalmiddelen zijn cash geld, contactloos betalen, de debetkaart, de kredietkaart, de overschrijving, een mobiele betaalapp en de prepaidkaart. Een kasticket is een bewijs, geen betaalmiddel.",
     ),
     dict(

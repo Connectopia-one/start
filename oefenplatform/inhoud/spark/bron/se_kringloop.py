@@ -108,8 +108,9 @@ DEEL1 = [
             "De boekhouding",
             "De marketing",
             "Het bezoek van de inspectie",
+            "De productie",
         ],
-        antwoord=[0, 1, 2],
+        antwoord=[0, 1, 2, 4],
         uitleg="De fiche noemt de aankoop, de algemene directie, de boekhouding, het magazijn, de marketing, het onthaal, de productie en de verkoop.",
     ),
     dict(
@@ -259,11 +260,11 @@ DEEL2 = [
         opties=[
             "Een kapsalon",
             "Een supermarkt",
-            "Een transportbedrijf",
+            "Een ziekenhuis van de overheid",
             "Een openbare school",
         ],
-        antwoord=[0, 1, 2],
-        uitleg="De tertiaire sector levert diensten waarvoor betaald wordt. Een openbare school hoort bij de quartaire sector.",
+        antwoord=[0, 1],
+        uitleg="Een kapsalon en een supermarkt leveren diensten waarvoor betaald wordt. Een openbare school en een overheidsziekenhuis horen bij de quartaire sector.",
     ),
     dict(
         type="meerkeuze",
@@ -367,11 +368,11 @@ DEEL2 = [
         opties=[
             "Een erfenis",
             "De opbrengst van iets dat je tweedehands verkoopt",
-            "Een prijs die je wint",
+            "Het groeipakket dat elke maand komt",
             "Het maandloon van je moeder",
         ],
-        antwoord=[0, 1, 2],
-        uitleg="Toevallige inkomsten komen onverwacht en niet elke maand terug. Een maandloon is een terugkerend inkomen.",
+        antwoord=[0, 1],
+        uitleg="Een erfenis en de opbrengst van iets dat je tweedehands verkoopt, komen onverwacht. Een maandloon en het groeipakket keren elke maand terug.",
     ),
     dict(
         type="meerkeuze",

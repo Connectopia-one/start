@@ -38,8 +38,9 @@ DEEL1 = [
             "Een zin",
             "Een alinea",
             "Een cel",
+            "Een pagina",
         ],
-        antwoord=[0, 1, 2],
+        antwoord=[0, 1, 2, 4],
         uitleg="De structuurelementen van een tekst zijn het teken, het woord, de regel, de zin, de alinea en de pagina. Een cel hoort bij Excel.",
     ),
     dict(
@@ -62,8 +63,9 @@ DEEL1 = [
             "Het lettertype en de tekengrootte",
             "De tekstkleur en markeren",
             "De regelafstand van je tekst",
+            "Onderstrepen",
         ],
-        antwoord=[0, 1, 2],
+        antwoord=[0, 1, 2, 4],
         uitleg="Tekenopmaak werkt op letters: lettertype, grootte, vet, cursief, onderstrepen, kleur, markeren, super- en subscript, en doorhalen. Regelafstand is alineaopmaak.",
     ),
     dict(
@@ -146,8 +148,9 @@ DEEL1 = [
             "De rij en de kolom",
             "Het werkblad en de werkmap",
             "De alinea en de pagina",
+            "Het bereik",
         ],
-        antwoord=[0, 1, 2],
+        antwoord=[0, 1, 2, 4],
         uitleg="Een rekenblad bestaat uit cellen, celadressen, bereiken, rijen, kolommen, werkbladen en een werkmap. Alinea's horen bij Word.",
     ),
     dict(
@@ -347,8 +350,9 @@ DEEL2 = [
             "Quishing",
             "Vishing",
             "Shaming",
+            "Phishing",
         ],
-        antwoord=[0, 1, 2],
+        antwoord=[0, 1, 2, 4],
         uitleg="De vier vormen van internetfraude zijn phishing, smishing, quishing en vishing. Shaming is ongepast gedrag, geen fraude.",
     ),
     dict(
@@ -423,11 +427,11 @@ DEEL2 = [
         opties=[
             "Minstens 8 en maximaal 24 karakters lang",
             "Minstens één hoofdletter en één kleine letter",
-            "Minstens één cijfer en één teken",
+            "Hetzelfde wachtwoord als op je andere sites",
             "Je voornaam en je geboortejaar erin",
         ],
-        antwoord=[0, 1, 2],
-        uitleg="De fiche vraagt 8 tot 24 karakters, met een hoofdletter, een kleine letter, een cijfer en een teken. Je naam of je geboortejaar is net wat een bedrieger eerst probeert.",
+        antwoord=[0, 1],
+        uitleg="De fiche vraagt 8 tot 24 karakters, met een hoofdletter, een kleine letter, een cijfer en een teken. Je naam, je geboortejaar of een hergebruikt wachtwoord is net wat een bedrieger als eerste probeert.",
     ),
     dict(
         type="waarofniet",

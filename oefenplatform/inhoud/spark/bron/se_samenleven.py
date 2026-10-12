@@ -107,11 +107,11 @@ DEEL1 = [
         opties=[
             "Zeggen dat ze het niet oké vindt",
             "Er een volwassene bij halen",
-            "Achteraf naar de jongen toe gaan en vragen hoe het gaat",
+            "Doen alsof ze niets gezien heeft",
             "Er een filmpje van maken en doorsturen",
         ],
-        antwoord=[0, 1, 2],
-        uitleg="Iets zeggen, hulp halen en achteraf steun geven zijn alle drie gepast. Een filmpje doorsturen maakt het net erger en verspreidt het verder.",
+        antwoord=[0, 1],
+        uitleg="Iets zeggen en er een volwassene bij halen zijn allebei gepast. Een filmpje doorsturen maakt het net erger, en wegkijken helpt niemand.",
     ),
     dict(
         type="waarofniet",
@@ -144,11 +144,11 @@ DEEL1 = [
         opties=[
             "Ze luisteren naar elkaar",
             "Ze spreken om de beurt",
-            "Ze gebruiken gepaste lichaamstaal",
+            "Ze kijken allemaal op hun telefoon",
             "Ze houden hun rug naar elkaar toe",
         ],
-        antwoord=[0, 1, 2],
-        uitleg="Ze zijn naar elkaar toegedraaid, kijken elkaar aan en praten om de beurt. Dat zijn drie kenmerken uit de vakfiche. Hun rug naar elkaar keren doen ze net niet.",
+        antwoord=[0, 1],
+        uitleg="Ze luisteren naar elkaar en spreken om de beurt. Hun rug naar elkaar keren of op hun telefoon kijken doen ze net niet.",
     ),
     dict(
         type="waarofniet",
@@ -375,11 +375,11 @@ DEEL2 = [
         opties=[
             "Er een volwassene bij halen die kan helpen",
             "Aan de gepeste laten weten dat je achter hem staat",
-            "Duidelijk zeggen dat je het niet oké vindt",
+            "Doen alsof je het niet ziet",
             "Terugpesten zodat de pester het ook eens voelt",
         ],
-        antwoord=[0, 1, 2],
-        uitleg="Hulp halen, steunen en iets zeggen werken. Terugpesten maakt er twee slachtoffers van en lost niets op.",
+        antwoord=[0, 1],
+        uitleg="Hulp halen en de gepeste laten weten dat je achter hem staat, werken. Terugpesten maakt er twee slachtoffers van, en wegkijken lost niets op.",
     ),
     dict(
         type="meerkeuze",
@@ -419,8 +419,9 @@ DEEL2 = [
             "Vrijwillig: niemand zet de ander onder druk",
             "Gelijkwaardigheid: er is geen machtsverschil",
             "Snelheid: hoe sneller het gaat, hoe beter",
+            "Passend bij de leeftijd van allebei",
         ],
-        antwoord=[0, 1, 2],
+        antwoord=[0, 1, 2, 4],
         uitleg="De fiche noemt toestemming, vrijwilligheid, gelijkwaardigheid, passend bij de leeftijd, passend in de situatie en zelfrespect. Snelheid staat er niet bij.",
     ),
     dict(
@@ -449,8 +450,9 @@ DEEL2 = [
             "Hulp vragen wanneer iets niet duidelijk is",
             "Rekening houden met de inbreng van anderen",
             "Zo snel mogelijk zelf alles beslissen",
+            "Meningen van anderen respecteren",
         ],
-        antwoord=[0, 1, 2],
+        antwoord=[0, 1, 2, 4],
         uitleg="De fiche noemt onder meer luisteren, om de beurt spreken, meningen respecteren, afspraken nakomen, hulp vragen en rekening houden met anderen. Alles zelf beslissen hoort daar niet bij.",
     ),
     dict(

@@ -78,11 +78,11 @@ DEEL1 = [
         opties=[
             "Voor een nieuwe identiteitskaart",
             "Voor een bouwvergunning",
-            "Om je te laten inschrijven als je verhuist",
+            "Om je belastingaangifte te laten nakijken",
             "Om je paspoort te laten controleren aan de grens",
         ],
-        antwoord=[0, 1, 2],
-        uitleg="Identiteitskaarten, bouwvergunningen en het bevolkingsregister zijn zaken van de gemeente. Grenscontrole is dat niet.",
+        antwoord=[0, 1],
+        uitleg="Identiteitskaarten en bouwvergunningen zijn zaken van de gemeente. Grenscontrole en je belastingaangifte zijn dat niet.",
     ),
     dict(
         type="meerkeuze",
@@ -90,11 +90,11 @@ DEEL1 = [
         opties=[
             "Het ophalen van het huisvuil",
             "Het onderhoud van de straten in de gemeente",
-            "De gemeentelijke basisschool",
+            "De wetten over diefstal",
             "De pensioenen van alle Belgen samen",
         ],
-        antwoord=[0, 1, 2],
-        uitleg="Huisvuil, lokale wegen en de eigen scholen zijn gemeentelijke taken. Pensioenen worden federaal geregeld.",
+        antwoord=[0, 1],
+        uitleg="Het huisvuil en de lokale wegen zijn gemeentelijke taken. Pensioenen en strafwetten worden federaal geregeld.",
     ),
     dict(
         type="waarofniet",
@@ -122,8 +122,9 @@ DEEL1 = [
             "Antwerpen",
             "Vlaams-Brabant",
             "Henegouwen",
+            "Oost-Vlaanderen",
         ],
-        antwoord=[0, 1, 2],
+        antwoord=[0, 1, 2, 4],
         uitleg="De vijf Vlaamse provincies zijn Antwerpen, Limburg, Oost-Vlaanderen, West-Vlaanderen en Vlaams-Brabant. Henegouwen ligt in Wallonië.",
     ),
     dict(
@@ -168,11 +169,11 @@ DEEL1 = [
         opties=[
             "Provinciale wegen en fietspaden",
             "Provinciale domeinen en natuurgebieden",
-            "Provinciale scholen",
+            "De federale politie",
             "Het uitreiken van je identiteitskaart",
         ],
-        antwoord=[0, 1, 2],
-        uitleg="Wegen, domeinen en eigen scholen op provinciaal niveau zijn provinciale taken. Je identiteitskaart krijg je bij de gemeente.",
+        antwoord=[0, 1],
+        uitleg="Provinciale wegen, fietspaden en domeinen zijn provinciale taken. Je identiteitskaart krijg je bij de gemeente, en de federale politie is federaal.",
     ),
     dict(
         type="meerkeuze",
@@ -251,8 +252,9 @@ DEEL2 = [
             "Cultuur",
             "Welzijn en gezondheidszorg",
             "De aanleg van autosnelwegen",
+            "Media",
         ],
-        antwoord=[0, 1, 2],
+        antwoord=[0, 1, 2, 4],
         uitleg="Onderwijs, cultuur, media en welzijn zijn persoonsgebonden en dus gemeenschapsmaterie. Wegen horen bij het gewest.",
     ),
     dict(
@@ -263,8 +265,9 @@ DEEL2 = [
             "Ruimtelijke ordening en wonen",
             "Openbaar vervoer binnen het gewest",
             "De rechtbanken en de gevangenissen",
+            "Economie",
         ],
-        antwoord=[0, 1, 2],
+        antwoord=[0, 1, 2, 4],
         uitleg="Milieu, ruimtelijke ordening, wonen, economie en mobiliteit zijn grondgebonden en dus gewestmaterie. Justitie is federaal.",
     ),
     dict(
@@ -323,8 +326,9 @@ DEEL2 = [
             "Defensie en het leger",
             "Asiel en migratie",
             "Het onderhoud van de gemeentelijke fietspaden",
+            "De pensioenen",
         ],
-        antwoord=[0, 1, 2],
+        antwoord=[0, 1, 2, 4],
         uitleg="Justitie, defensie, asiel en migratie, pensioenen en buitenlandse handel zijn federaal. Lokale fietspaden zijn dat niet.",
     ),
     dict(
