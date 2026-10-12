@@ -5,6 +5,13 @@ import { Header } from "@/components/Header";
 import { maakGezin } from "./actions";
 import { startMeekijken } from "@/app/portaal/meekijken-actions";
 import { alleMailadressen } from "@/lib/mailadressen";
+import {
+  KINDVELDEN,
+  watOntbreekt,
+  watOntbreektGezin,
+  lijstZin,
+  type Kind,
+} from "@/lib/kind";
 
 export default async function GezinnenPage({
   searchParams,
@@ -16,16 +23,51 @@ export default async function GezinnenPage({
   const naam = session.profile?.full_name ?? session.email ?? "";
 
   const supabase = await createClient();
-  const [{ data: gezinnen }, mailadressen] = await Promise.all([
-    supabase
-      .from("profiles")
-      .select("id, full_name")
-      .eq("role", "ouder")
-      .order("full_name"),
-    /* Het mailadres hoort bij het account, niet bij het profiel; zie
-       lib/mailadressen.ts. */
-    alleMailadressen(),
-  ]);
+  const [{ data: gezinnen }, { data: kinderen }, mailadressen] =
+    await Promise.all([
+      supabase
+        .from("profiles")
+        .select("id, full_name, telefoon, adres")
+        .eq("role", "ouder")
+        .order("full_name"),
+      supabase.from("kinderen").select(`profile_id, ${KINDVELDEN}`),
+      /* Het mailadres hoort bij het account, niet bij het profiel; zie
+         lib/mailadressen.ts. */
+      alleMailadressen(),
+    ]);
+
+  /*
+    Per gezin: wat er aan de fiches ontbreekt. Kim moet voor een kamp weten wie
+    ze nog moet achternabellen, en dat stond tot nu enkel achter een klik per
+    kind. Een gezin zonder kinderen telt als onvolledig: er staat dan nog geen
+    enkele fiche klaar.
+  */
+  const kinderenVan = new Map<string, Kind[]>();
+  for (const rij of (kinderen ?? []) as unknown as (Kind & {
+    profile_id: string;
+  })[]) {
+    const lijst = kinderenVan.get(rij.profile_id) ?? [];
+    lijst.push(rij);
+    kinderenVan.set(rij.profile_id, lijst);
+  }
+
+  const rijen = (gezinnen ?? []).map((g) => {
+    const eigen = kinderenVan.get(g.id) ?? [];
+    const onvolledig = eigen.filter((k) => watOntbreekt(k).length > 0);
+    const gezinsgegevens = watOntbreektGezin(g);
+    return {
+      ...g,
+      kinderen: eigen,
+      onvolledig,
+      gezinsgegevens,
+      klaar:
+        eigen.length > 0 &&
+        onvolledig.length === 0 &&
+        gezinsgegevens.length === 0,
+    };
+  });
+
+  const nogTeDoen = rijen.filter((r) => !r.klaar).length;
 
   return (
     <>
@@ -36,9 +78,25 @@ export default async function GezinnenPage({
         terugLabel="Beheer"
       />
       <main className="mx-auto w-full max-w-3xl flex-1 px-6 py-10">
-        <h1 className="font-display text-2xl font-semibold text-ink">
-          Gezinnen
-        </h1>
+        <div className="flex flex-wrap items-center justify-between gap-3">
+          <h1 className="font-display text-2xl font-semibold text-ink">
+            Gezinnen
+          </h1>
+          <Link
+            href="/beheer/gezinnen/afdrukken"
+            className="rounded-md border border-border px-3 py-1.5 text-sm font-medium text-forest-dark hover:border-forest"
+          >
+            Alle fiches afdrukken
+          </Link>
+        </div>
+
+        {rijen.length > 0 && (
+          <p className="mt-1 text-sm text-ink-dim">
+            {nogTeDoen === 0
+              ? `Alle ${rijen.length} fiches zijn in orde.`
+              : `${nogTeDoen} van de ${rijen.length} gezinnen moeten hun fiche nog aanvullen.`}
+          </p>
+        )}
 
         {fout && (
           <p className="mt-4 rounded-md bg-danger/10 px-3 py-2 text-sm text-danger">
@@ -52,10 +110,14 @@ export default async function GezinnenPage({
         )}
 
         <ul className="mt-6 space-y-2">
-          {(gezinnen ?? []).map((g) => (
+          {rijen.map((g) => (
             <li
               key={g.id}
-              className="flex items-center justify-between gap-3 rounded-lg border border-border bg-surface p-3"
+              /* Het gekleurde randje links is wat Kim vroeg: groen als het in
+                 orde is, rood als er nog iets moet gebeuren. */
+              className={`flex items-center justify-between gap-3 rounded-lg border border-l-4 border-border bg-surface p-3 ${
+                g.klaar ? "border-l-forest" : "border-l-danger"
+              }`}
             >
               <div className="min-w-0">
                 <Link
@@ -69,6 +131,27 @@ export default async function GezinnenPage({
                 <p className="truncate text-xs text-ink-dim">
                   {mailadressen.get(g.id) ?? "geen mailadres gevonden"}
                 </p>
+                <p className="mt-1 text-xs">
+                  {g.kinderen.length === 0 ? (
+                    <span className="text-danger">
+                      Nog geen kind toegevoegd
+                    </span>
+                  ) : g.klaar ? (
+                    <span className="text-forest-dark">
+                      Fiche in orde ({g.kinderen.length}{" "}
+                      {g.kinderen.length === 1 ? "kind" : "kinderen"})
+                    </span>
+                  ) : (
+                    <span className="text-danger">
+                      {g.gezinsgegevens.length > 0 &&
+                        `Van het gezin ontbreekt ${lijstZin(g.gezinsgegevens)}. `}
+                      {g.onvolledig.length > 0 &&
+                        `Onvolledig: ${g.onvolledig
+                          .map((k) => `${k.naam} (${lijstZin(watOntbreekt(k))})`)
+                          .join(", ")}`}
+                    </span>
+                  )}
+                </p>
               </div>
               <form action={startMeekijken}>
                 <input type="hidden" name="gezinId" value={g.id} />
@@ -81,7 +164,7 @@ export default async function GezinnenPage({
               </form>
             </li>
           ))}
-          {(gezinnen ?? []).length === 0 && (
+          {rijen.length === 0 && (
             <li className="text-sm text-ink-dim">
               Nog geen gezinnen toegevoegd.
             </li>

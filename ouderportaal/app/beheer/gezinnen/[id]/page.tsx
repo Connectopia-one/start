@@ -3,7 +3,8 @@ import { requireBeheerder } from "@/lib/auth";
 import { createClient } from "@/lib/supabase/server";
 import { Header } from "@/components/Header";
 import { FicheRegels } from "@/components/FicheRegels";
-import { type Kind, KINDVELDEN } from "@/lib/kind";
+import { type Kind, KINDVELDEN, watOntbreekt } from "@/lib/kind";
+import { FicheStand } from "@/components/FicheStand";
 import { upsertToegang, verwijderGezin, wijzigWachtwoord } from "../actions";
 import { zetDeelnames } from "../../activiteiten/actions";
 import { mailadresVan } from "@/lib/mailadressen";
@@ -210,6 +211,11 @@ export default async function GezinDetailPage({
                       {new Date(kind.geboortedatum).toLocaleDateString("nl-BE")}
                     </span>
                   )}
+                </p>
+                {/* Groen of rood, net als op de lijst van de gezinnen: zo
+                    zie je ook hier meteen of er nog iets moet gebeuren. */}
+                <p className="mt-1.5">
+                  <FicheStand ontbreekt={watOntbreekt(kind)} klein />
                 </p>
                 <div className="mt-2">
                   <FicheRegels kind={kind} />

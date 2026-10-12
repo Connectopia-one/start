@@ -38,3 +38,27 @@ h3,
 .font-display {
   font-family: var(--font-display), Georgia, serif;
 }
+
+/*
+  Afdrukken.
+
+  Kim op 12 oktober 2026: "kan ik ook de inlichtingsfiches afdrukken zodat we
+  die op papier hebben in geval van stroompanne of als het internet plat ligt."
+  Op papier hoort de menubalk niet thuis, en een gekleurde achtergrond kost
+  inkt op elk blad. Alles met de klasse print:hidden verdwijnt al vanzelf; dit
+  regelt de rest.
+*/
+@media print {
+  header {
+    display: none !important;
+  }
+
+  body {
+    background: #fff;
+  }
+
+  main {
+    max-width: none;
+    padding: 0;
+  }
+}
