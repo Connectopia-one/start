@@ -10,7 +10,13 @@ Twee patronen sluipen er vanzelf in wanneer je vragen in bulk schrijft:
   * het juiste antwoord is de langste optie, omdat het volledige antwoord nu
     eenmaal meer uitleg nodig heeft dan een korte afleider;
   * bijna elke waar-of-niet-vraag staat op waar, omdat het vlotter schrijft om
-    een juiste zin neer te zetten dan een foute.
+    een juiste zin neer te zetten dan een foute;
+  * bij een vraag met aankruisvakjes zijn er bijna altijd evenveel antwoorden
+    juist. Een tester merkte dat op 12 oktober 2026 zelf op: "Ik krijg meestal
+    / alleen maar vragen met 1 of 3 juiste antwoorden, niet met 2 of 4. Het is
+    wel makkelijk om te bedenken dat het dus maar 1 of 3 juiste antwoorden
+    zijn." Natellen gaf haar gelijk: van alle vragen met meer dan één juist
+    antwoord had 80 procent er precies drie.
 
 Een kind dat niets kent, klikt dan gewoon de langste aan en antwoordt altijd
 waar. Dat kan je niet zien door een paar vragen na te lezen; je moet tellen.
@@ -36,6 +42,11 @@ HIER = pathlib.Path(__file__).parent
 SPELING = 5          # letters verschil die niet meetellen
 GRENS_LANGSTE = 0.4
 WAAR_ONDER, WAAR_BOVEN = 0.35, 0.65
+# Bij hoeveel aankruisvragen mag hetzelfde aantal juiste antwoorden hoogstens
+# voorkomen? Met twee mogelijke aantallen (2 en 3) is 50 procent het evenwicht;
+# 60 laat ademruimte zonder dat je erop kan gokken.
+GRENS_AANTAL = 0.6
+MINIMUM_AANKRUIS = 8   # minder dan dit zegt een percentage niets
 
 
 def beurten(hoofdstuk):
@@ -65,16 +76,26 @@ def tel(hoofdstuk):
         if anders and min(lengtes[i] for i in antw) > max(anders) + SPELING:
             langst += 1
     wn = [v["antwoord"] for v in vragen if v["type"] == "waarofniet"]
-    return langst, len(mk), sum(1 for a in wn if a), len(wn)
+    # Hoeveel antwoorden zijn er juist bij de vragen met aankruisvakjes? Een
+    # vraag met één juist antwoord heeft rondjes en hoort hier niet bij.
+    aantallen = {}
+    for v in mk:
+        antw = v["antwoord"]
+        if isinstance(antw, list) and len(antw) > 1:
+            aantallen[len(antw)] = aantallen.get(len(antw), 0) + 1
+    return langst, len(mk), sum(1 for a in wn if a), len(wn), aantallen
 
 
 def controleer(pad):
     data = json.loads(pathlib.Path(pad).read_text(encoding="utf-8"))
     meldingen = []
     tl = tm = tw = tt = 0
+    totaal_aantallen = {}
     for h in data.get("hoofdstukken", []):
-        langst, mk, waar, wn = tel(h)
+        langst, mk, waar, wn, aantallen = tel(h)
         tl, tm, tw, tt = tl + langst, tm + mk, tw + waar, tt + wn
+        for k, n in aantallen.items():
+            totaal_aantallen[k] = totaal_aantallen.get(k, 0) + n
         if mk and langst > GRENS_LANGSTE * mk:
             meldingen.append(
                 f"{h['titel']}: bij {langst} van de {mk} meerkeuzevragen is het juiste "
@@ -89,7 +110,16 @@ def controleer(pad):
         meldingen.append(
             f"over het hele vak: {tw} van de {tt} waar/niet-waar-vragen is waar."
         )
-    return (tl, tm, tw, tt), meldingen
+    aankruis = sum(totaal_aantallen.values())
+    if aankruis >= MINIMUM_AANKRUIS:
+        for k, n in sorted(totaal_aantallen.items()):
+            if n > GRENS_AANTAL * aankruis:
+                meldingen.append(
+                    f"over het hele vak: bij {n} van de {aankruis} aankruisvragen "
+                    f"zijn er precies {k} antwoorden juist. Dan weet een kind na "
+                    f"een paar vragen hoeveel het er moet aanduiden."
+                )
+    return (tl, tm, tw, tt, totaal_aantallen), meldingen
 
 
 def main():
@@ -114,13 +144,22 @@ def main():
         )
     mis = 0
     for pad in paden:
-        (tl, tm, tw, tt), meldingen = controleer(pad)
+        (tl, tm, tw, tt, aantallen), meldingen = controleer(pad)
         if not tm and not tt:
             continue
         naam = pathlib.Path(pad).name
         langste = f"{tl / tm:.0%}" if tm else "-"
         waar = f"{tw / tt:.0%}" if tt else "-"
-        print(f"{naam:38} langste antwoord {langste:>4}   waar {waar:>4}")
+        aankruis = sum(aantallen.values())
+        verdeling = (
+            " ".join(f"{k}x:{n}" for k, n in sorted(aantallen.items()))
+            if aankruis
+            else "-"
+        )
+        print(
+            f"{naam:38} langste antwoord {langste:>4}   waar {waar:>4}"
+            f"   aankruis {verdeling}"
+        )
         for m in meldingen:
             print("   -", m)
         mis += len(meldingen)
