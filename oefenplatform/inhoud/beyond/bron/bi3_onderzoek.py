@@ -36,8 +36,9 @@ DEEL1 = [
             "ze is nauwkeurig afgebakend",
             "ze is zo ruim mogelijk gesteld",
             "ze bevat het antwoord al",
+            "ze gaat over één factor in één omstandigheid",
         ],
-        antwoord=[0, 1],
+        antwoord=[0, 1, 4],
         uitleg="Een vraag als waarom groeien planten is te ruim om te meten. Een vraag "
         "over één factor, één soort en één omstandigheid is wel te onderzoeken.",
     ),
@@ -133,8 +134,9 @@ DEEL1 = [
             "hoe je gaat meten en hoe vaak",
             "welke conclusie je zult trekken",
             "welke cijfers je wilt uitkomen",
+            "de werkwijze, zo beschreven dat iemand anders ze kan overdoen",
         ],
-        antwoord=[0, 1],
+        antwoord=[0, 1, 4],
         uitleg="Een plan beschrijft de werkwijze zo dat iemand anders ze kan overdoen. De "
         "conclusie schrijf je pas als de gegevens er zijn.",
     ),
@@ -255,8 +257,9 @@ DEEL2 = [
             "de eenheid waarin gemeten is",
             "de hypothese van het onderzoek",
             "het aantal herhalingen van de proef",
+            "een schaalverdeling met getallen erbij",
         ],
-        antwoord=[0, 1],
+        antwoord=[0, 1, 4],
         uitleg="Zonder grootheid en eenheid is een as onleesbaar. Wat je ermee besluit, "
         "hoort in de tekst en niet op de as.",
     ),

@@ -35,8 +35,9 @@ DEEL1 = [
             "de ovulatiemethode",
             "de combinatiepil",
             "het koperspiraal",
+            "de kalendermethode",
         ],
-        antwoord=[0, 1],
+        antwoord=[0, 1, 4],
         uitleg="De temperatuurmethode volgt de lichte stijging van de "
         "lichaamstemperatuur na de ovulatie, de ovulatiemethode volgt het slijm van de "
         "baarmoederhals. De kalendermethode rekent met de lengte van de vorige cycli.",
@@ -103,8 +104,9 @@ DEEL1 = [
             "de prikpil",
             "het koperspiraal",
             "het pessarium",
+            "de vaginale ring",
         ],
-        antwoord=[0, 1],
+        antwoord=[0, 1, 4],
         uitleg="Pleister, vaginale ring, prikpil, implantaat, minipil en hormoonspiraal "
         "geven alle een hormoon af. Het koperspiraal en het pessarium doen dat niet.",
     ),
@@ -330,8 +332,9 @@ DEEL2 = [
             "veel alcohol drinken",
             "regelmatig matig bewegen",
             "voldoende slapen",
+            "drugs gebruiken",
         ],
-        antwoord=[0, 1],
+        antwoord=[0, 1, 4],
         uitleg="Roken, alcohol en drugs verminderen het aantal en de kwaliteit van de "
         "zaadcellen. Bewegen en slapen werken juist de goede kant op.",
     ),
@@ -384,8 +387,9 @@ DEEL2 = [
             "bepaalde medicijnen",
             "water uit de kraan",
             "zuurstof in de lucht",
+            "pesticiden",
         ],
-        antwoord=[0, 1],
+        antwoord=[0, 1, 4],
         uitleg="Zware metalen, sommige medicijnen, pesticiden en hormoonverstoorders "
         "grijpen in op de hormonen of op de gameten zelf. Water en zuurstof doen dat niet.",
     ),

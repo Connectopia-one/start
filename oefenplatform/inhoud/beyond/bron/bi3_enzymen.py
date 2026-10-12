@@ -105,8 +105,9 @@ DEEL1 = [
             "de reactiesnelheid valt sterk terug",
             "de reactiesnelheid blijft stijgen",
             "het enzym wordt substraatspecifieker",
+            "de curve bereikt eerst een top en valt daarna steil terug",
         ],
-        antwoord=[0, 1],
+        antwoord=[0, 1, 4],
         uitleg="Boven het temperatuursoptimum verliest het eiwit zijn vorm. De curve "
         "stijgt dus eerst, bereikt een top en valt daarna steil terug.",
     ),
@@ -228,8 +229,9 @@ DEEL2 = [
             "het volgt de concentratiegradiënt",
             "het gaat tegen de gradiënt in",
             "het gebeurt enkel bij plantencellen",
+            "het verloopt van zichzelf, van veel naar weinig",
         ],
-        antwoord=[0, 1],
+        antwoord=[0, 1, 4],
         uitleg="Passief transport volgt de concentratiegradiënt, dus van veel naar "
         "weinig. Dat verloopt van zichzelf en kost geen ATP.",
     ),
@@ -302,8 +304,9 @@ DEEL2 = [
             "de cel kan barsten",
             "de cel verschrompelt",
             "er stroomt water de cel uit",
+            "zuiver water is hypotoon voor de cel",
         ],
-        antwoord=[0, 1],
+        antwoord=[0, 1, 4],
         uitleg="Zuiver water is hypotoon. Het water stroomt naar binnen en zonder "
         "celwand om de druk op te vangen, treedt cellyse op.",
     ),
@@ -423,8 +426,9 @@ DEEL2 = [
             "de spijsvertering",
             "de fotosynthese",
             "de eiwitsynthese",
+            "de alcoholische gisting",
         ],
-        antwoord=[0, 1],
+        antwoord=[0, 1, 4],
         uitleg="Celademhaling en spijsvertering breken moleculen af en leveren energie. "
         "Fotosynthese en eiwitsynthese bouwen op en kosten energie.",
     ),

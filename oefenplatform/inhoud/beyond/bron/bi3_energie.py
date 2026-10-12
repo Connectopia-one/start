@@ -87,8 +87,9 @@ DEEL1 = [
             "elektronen voor fotosysteem II",
             "glucose",
             "koolstofdioxide",
+            "waterstofionen",
         ],
-        antwoord=[0, 1],
+        antwoord=[0, 1, 4],
         uitleg="Water wordt gesplitst in zuurstof, waterstofionen en elektronen. Die "
         "elektronen vullen het gat in fotosysteem II; de zuurstof is afvalgas voor de plant.",
     ),
@@ -252,8 +253,9 @@ DEEL2 = [
             "er ontstaat acetyl-coA",
             "er ontstaat glucose",
             "er komt zuurstofgas vrij",
+            "het acetyl-coA gaat de Krebscyclus in",
         ],
-        antwoord=[0, 1],
+        antwoord=[0, 1, 4],
         uitleg="Pyruvaat verliest een koolstofatoom als CO₂ en wordt aan co-enzym A "
         "gekoppeld. Dat acetyl-coA gaat de Krebscyclus in.",
     ),
@@ -385,8 +387,9 @@ DEEL2 = [
             "de eindoxidaties",
             "de glycolyse",
             "de alcoholische gisting",
+            "de decarboxylatie van pyruvaat",
         ],
-        antwoord=[0, 1],
+        antwoord=[0, 1, 4],
         uitleg="De decarboxylatie, de Krebscyclus en de eindoxidaties spelen in het "
         "mitochondrion. De glycolyse en de gistingen blijven in het cytoplasma.",
     ),
@@ -398,8 +401,9 @@ DEEL2 = [
             "de ene bouwt op, de andere breekt af",
             "ze gebeuren in hetzelfde organel",
             "ze hebben beide licht nodig",
+            "de ene gebeurt in de chloroplast, de andere in het mitochondrion",
         ],
-        antwoord=[0, 1],
+        antwoord=[0, 1, 4],
         uitleg="De fotosynthese is anabool en gebeurt in de chloroplast, de celademhaling "
         "katabool en in het mitochondrion. Alleen de celademhaling heeft geen licht nodig.",
     ),

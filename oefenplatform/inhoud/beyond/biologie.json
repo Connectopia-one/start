@@ -24,11 +24,13 @@
             "een kern met een kernmembraan",
             "mitochondria",
             "ribosomen",
-            "een celmembraan"
+            "een celmembraan",
+            "membraanorganellen"
           ],
           "antwoord": [
             0,
-            1
+            1,
+            4
           ],
           "uitleg": "Een prokaryote cel heeft geen kernmembraan en geen membraanorganellen, dus ook geen mitochondria. Ribosomen en een celmembraan heeft ze wel."
         },
@@ -274,11 +276,13 @@
             "een celwand",
             "chloroplasten",
             "mitochondria",
-            "een celmembraan"
+            "een celmembraan",
+            "een grote centrale vacuole"
           ],
           "antwoord": [
             0,
-            1
+            1,
+            4
           ],
           "uitleg": "Een celwand en chloroplasten horen bij een plantencel. Mitochondria en een celmembraan heeft een dierlijke cel evengoed."
         },
@@ -295,11 +299,13 @@
             "een mitochondrion heeft zijn eigen DNA",
             "een mitochondrion heeft een dubbel membraan",
             "een mitochondrion wordt door het Golgi-apparaat gemaakt",
-            "een mitochondrion ontstaat uit het kernmembraan"
+            "een mitochondrion ontstaat uit het kernmembraan",
+            "een mitochondrion heeft zijn eigen ribosomen"
           ],
           "antwoord": [
             0,
-            1
+            1,
+            4
           ],
           "uitleg": "Eigen DNA, eigen ribosomen, een dubbel membraan en deling door tweedeling wijzen erop dat mitochondria en chloroplasten ooit vrij levende bacteriën waren die door een grotere cel opgenomen werden."
         },
@@ -418,11 +424,13 @@
             "het omgeeft ook organellen binnen de cel",
             "het is opgebouwd uit twee lagen lipiden",
             "het bestaat uit één laag eiwitten",
-            "het komt enkel bij plantencellen voor"
+            "het komt enkel bij plantencellen voor",
+            "ook het kernmembraan is zo een dubbellaag"
           ],
           "antwoord": [
             0,
-            1
+            1,
+            4
           ],
           "uitleg": "Niet alleen het celmembraan maar ook het kernmembraan en de membranen van de organellen zijn zulke dubbellagen. Ze komen bij elke cel voor."
         }
@@ -473,11 +481,13 @@
             "ze kan zich blijven delen",
             "ze kan nog verschillende celtypes worden",
             "ze heeft geen kern",
-            "ze is altijd een spiercel"
+            "ze is altijd een spiercel",
+            "ze is nog niet gedifferentieerd"
           ],
           "antwoord": [
             0,
-            1
+            1,
+            4
           ],
           "uitleg": "Een stamcel is nog niet gedifferentieerd en blijft deelbaar. Daarom kan ze een voorraad vormen waaruit nieuwe gespecialiseerde cellen ontstaan."
         },
@@ -494,11 +504,13 @@
             "beschadigd weefsel vervangen",
             "nieuwe bloedcellen laten aanmaken",
             "de bloedgroep van iemand veranderen",
-            "een virus sneller doen groeien"
+            "een virus sneller doen groeien",
+            "beschadigde huid of een beschadigd hoornvlies herstellen"
           ],
           "antwoord": [
             0,
-            1
+            1,
+            4
           ],
           "uitleg": "Bij een beenmergtransplantatie krijgt iemand bloedstamcellen die weer nieuwe bloedcellen aanmaken. Hetzelfde idee loopt bij onderzoek naar huid, hoornvlies en hartspier."
         },
@@ -587,11 +599,13 @@
             "parenchymcellen",
             "sclerenchymcellen",
             "zeefvaten",
-            "wortelharen"
+            "wortelharen",
+            "collenchymcellen"
           ],
           "antwoord": [
             0,
-            1
+            1,
+            4
           ],
           "uitleg": "Het grondweefsel bestaat uit parenchym, collenchym en sclerenchym. Zeefvaten horen bij het transportweefsel en wortelharen bij het huidweefsel."
         },
@@ -696,11 +710,13 @@
             "epitheelweefsel",
             "zenuwweefsel",
             "grondweefsel",
-            "huidmondjesweefsel"
+            "huidmondjesweefsel",
+            "bindweefsel"
           ],
           "antwoord": [
             0,
-            1
+            1,
+            4
           ],
           "uitleg": "Een dier heeft epitheel-, bind-, spier-, zenuw- en transportweefsel. Grondweefsel en huidmondjes horen bij een plant."
         },
@@ -820,11 +836,13 @@
             "het bestaat uit cellen met een gelijkaardige taak",
             "verschillende weefsels samen vormen een orgaan",
             "een weefsel bestaat altijd uit één enkele cel",
-            "een weefsel komt alleen bij dieren voor"
+            "een weefsel komt alleen bij dieren voor",
+            "ook een plant heeft weefsels"
           ],
           "antwoord": [
             0,
-            1
+            1,
+            4
           ],
           "uitleg": "Een weefsel is een groep cellen met dezelfde opdracht. Een orgaan zoals de maag bestaat uit epitheel-, spier-, bind- en zenuwweefsel samen."
         },
@@ -953,11 +971,13 @@
             "het enzym denatureert",
             "de reactiesnelheid valt sterk terug",
             "de reactiesnelheid blijft stijgen",
-            "het enzym wordt substraatspecifieker"
+            "het enzym wordt substraatspecifieker",
+            "de curve bereikt eerst een top en valt daarna steil terug"
           ],
           "antwoord": [
             0,
-            1
+            1,
+            4
           ],
           "uitleg": "Boven het temperatuursoptimum verliest het eiwit zijn vorm. De curve stijgt dus eerst, bereikt een top en valt daarna steil terug."
         },
@@ -1083,11 +1103,13 @@
             "het kost de cel geen energie",
             "het volgt de concentratiegradiënt",
             "het gaat tegen de gradiënt in",
-            "het gebeurt enkel bij plantencellen"
+            "het gebeurt enkel bij plantencellen",
+            "het verloopt van zichzelf, van veel naar weinig"
           ],
           "antwoord": [
             0,
-            1
+            1,
+            4
           ],
           "uitleg": "Passief transport volgt de concentratiegradiënt, dus van veel naar weinig. Dat verloopt van zichzelf en kost geen ATP."
         },
@@ -1162,11 +1184,13 @@
             "er stroomt water de cel in",
             "de cel kan barsten",
             "de cel verschrompelt",
-            "er stroomt water de cel uit"
+            "er stroomt water de cel uit",
+            "zuiver water is hypotoon voor de cel"
           ],
           "antwoord": [
             0,
-            1
+            1,
+            4
           ],
           "uitleg": "Zuiver water is hypotoon. Het water stroomt naar binnen en zonder celwand om de druk op te vangen, treedt cellyse op."
         },
@@ -1285,11 +1309,13 @@
             "de celademhaling",
             "de spijsvertering",
             "de fotosynthese",
-            "de eiwitsynthese"
+            "de eiwitsynthese",
+            "de alcoholische gisting"
           ],
           "antwoord": [
             0,
-            1
+            1,
+            4
           ],
           "uitleg": "Celademhaling en spijsvertering breken moleculen af en leveren energie. Fotosynthese en eiwitsynthese bouwen op en kosten energie."
         }
@@ -1379,11 +1405,13 @@
             "zuurstofgas",
             "elektronen voor fotosysteem II",
             "glucose",
-            "koolstofdioxide"
+            "koolstofdioxide",
+            "waterstofionen"
           ],
           "antwoord": [
             0,
-            1
+            1,
+            4
           ],
           "uitleg": "Water wordt gesplitst in zuurstof, waterstofionen en elektronen. Die elektronen vullen het gat in fotosysteem II; de zuurstof is afvalgas voor de plant."
         },
@@ -1560,11 +1588,13 @@
             "er komt koolstofdioxide vrij",
             "er ontstaat acetyl-coA",
             "er ontstaat glucose",
-            "er komt zuurstofgas vrij"
+            "er komt zuurstofgas vrij",
+            "het acetyl-coA gaat de Krebscyclus in"
           ],
           "antwoord": [
             0,
-            1
+            1,
+            4
           ],
           "uitleg": "Pyruvaat verliest een koolstofatoom als CO₂ en wordt aan co-enzym A gekoppeld. Dat acetyl-coA gaat de Krebscyclus in."
         },
@@ -1691,11 +1721,13 @@
             "de Krebscyclus",
             "de eindoxidaties",
             "de glycolyse",
-            "de alcoholische gisting"
+            "de alcoholische gisting",
+            "de decarboxylatie van pyruvaat"
           ],
           "antwoord": [
             0,
-            1
+            1,
+            4
           ],
           "uitleg": "De decarboxylatie, de Krebscyclus en de eindoxidaties spelen in het mitochondrion. De glycolyse en de gistingen blijven in het cytoplasma."
         },
@@ -1706,11 +1738,13 @@
             "wat de ene opneemt, geeft de andere af",
             "de ene bouwt op, de andere breekt af",
             "ze gebeuren in hetzelfde organel",
-            "ze hebben beide licht nodig"
+            "ze hebben beide licht nodig",
+            "de ene gebeurt in de chloroplast, de andere in het mitochondrion"
           ],
           "antwoord": [
             0,
-            1
+            1,
+            4
           ],
           "uitleg": "De fotosynthese is anabool en gebeurt in de chloroplast, de celademhaling katabool en in het mitochondrion. Alleen de celademhaling heeft geen licht nodig."
         },
@@ -1746,11 +1780,13 @@
             "bacteriën en virussen",
             "eigen cellen die ontspoord zijn",
             "een tekort aan vitaminen",
-            "een breuk in een bot"
+            "een breuk in een bot",
+            "schimmels en parasieten"
           ],
           "antwoord": [
             0,
-            1
+            1,
+            4
           ],
           "uitleg": "Het immuunsysteem keert zich tegen ziekteverwekkers en ruimt ook eigen cellen op die beschadigd of kankerachtig zijn. Een vitaminetekort of een breuk valt daarbuiten."
         },
@@ -1853,11 +1889,13 @@
             "ze is op één antigeen gericht",
             "ze bouwt een geheugen op",
             "ze komt meteen volledig op gang",
-            "ze werkt zonder lymfocyten"
+            "ze werkt zonder lymfocyten",
+            "ze heeft dagen nodig om op gang te komen"
           ],
           "antwoord": [
             0,
-            1
+            1,
+            4
           ],
           "uitleg": "De specifieke afweer heeft dagen nodig om op gang te komen, maar is precies gericht en onthoudt de indringer. Daarom heet ze verworven immuniteit."
         },
@@ -1908,11 +1946,13 @@
             "roodheid en warmte",
             "zwelling en pijn",
             "een lagere lichaamstemperatuur",
-            "een trager hartritme"
+            "een trager hartritme",
+            "meer bloed en vocht ter plaatse"
           ],
           "antwoord": [
             0,
-            1
+            1,
+            4
           ],
           "uitleg": "De bloedvaten ter plaatse worden wijder en doorlaatbaarder, dus komt er meer bloed en vocht bij. Dat geeft rood, warm, gezwollen en pijnlijk."
         },
@@ -2066,11 +2106,13 @@
             "het klit eraan vast en maakt het onschadelijk",
             "het maakt de indringer herkenbaar voor fagocyten",
             "het breekt het antigeen af met zijn eigen enzymen",
-            "het verandert het DNA van de indringer blijvend"
+            "het verandert het DNA van de indringer blijvend",
+            "het klontert indringers samen"
           ],
           "antwoord": [
             0,
-            1
+            1,
+            4
           ],
           "uitleg": "Antilichamen neutraliseren en klonteren indringers samen. Afbreken doen de fagocyten en het complementsysteem."
         },
@@ -2132,11 +2174,13 @@
             "er zijn al geheugencellen aanwezig",
             "die geheugencellen reageren meteen",
             "het antigeen is dan onschadelijk geworden",
-            "de huid laat het antigeen dan niet door"
+            "de huid laat het antigeen dan niet door",
+            "ze slaan toe voor je er iets van voelt"
           ],
           "antwoord": [
             0,
-            1
+            1,
+            4
           ],
           "uitleg": "De B- en T-geheugencellen van de eerste keer staan klaar. Ze slaan toe voor je iets voelt, en daarom word je een tweede keer vaak niet ziek."
         },
@@ -2196,11 +2240,13 @@
             "je maakt zelf antilichamen aan",
             "je bouwt geheugencellen op",
             "de bescherming is onmiddellijk volledig",
-            "je krijgt kant-en-klare antilichamen"
+            "je krijgt kant-en-klare antilichamen",
+            "de bescherming houdt lang aan"
           ],
           "antwoord": [
             0,
-            1
+            1,
+            4
           ],
           "uitleg": "Bij actieve immunisatie doet je eigen afweer het werk. Dat duurt langer, maar levert geheugencellen en dus langdurige bescherming op."
         },
@@ -2211,11 +2257,13 @@
             "je krijgt antilichamen van buitenaf",
             "de bescherming werkt onmiddellijk",
             "je maakt zelf geheugencellen aan",
-            "je afweer leert het antigeen zelf kennen"
+            "je afweer leert het antigeen zelf kennen",
+            "de antilichamen verdwijnen na enkele weken"
           ],
           "antwoord": [
             0,
-            1
+            1,
+            4
           ],
           "uitleg": "Bij passieve immunisatie krijg je kant-en-klare antilichamen. Die werken meteen, maar verdwijnen na weken en laten geen geheugen achter."
         },
@@ -2352,11 +2400,13 @@
             "de rode bloedcellen klitten samen",
             "de rode bloedcellen gaan kapot",
             "het plasma verandert van bloedgroep",
-            "de ontvanger krijgt een nieuwe bloedgroep"
+            "de ontvanger krijgt een nieuwe bloedgroep",
+            "de klompjes kunnen bloedvaten verstoppen"
           ],
           "antwoord": [
             0,
-            1
+            1,
+            4
           ],
           "uitleg": "De antilichamen van de ontvanger laten de gegeven cellen agglutineren en daarna hemolyseren. De klompjes verstoppen bloedvaten; dat is levensgevaarlijk."
         },
@@ -2496,11 +2546,13 @@
             "een loopneus en tranende ogen",
             "zwelling en jeuk van de huid",
             "een blijvend lagere bloeddruk na jaren",
-            "een tekort aan witte bloedcellen"
+            "een tekort aan witte bloedcellen",
+            "wijdere en doorlaatbaarder bloedvaten"
           ],
           "antwoord": [
             0,
-            1
+            1,
+            4
           ],
           "uitleg": "Histamine maakt de bloedvaten wijder en doorlaatbaarder en zet klieren aan het werk. Vandaar het vocht, de zwelling en de jeuk."
         },
@@ -2529,11 +2581,13 @@
             "multiple sclerose",
             "de ziekte van Crohn",
             "een allergie voor pinda's",
-            "een infectie met het griepvirus"
+            "een infectie met het griepvirus",
+            "psoriasis"
           ],
           "antwoord": [
             0,
-            1
+            1,
+            4
           ],
           "uitleg": "Bij multiple sclerose valt de afweer de isolatielaag van de zenuwen aan, bij Crohn de darmwand. Psoriasis hoort er ook bij."
         },
@@ -2583,11 +2637,13 @@
             "er zijn jarenlang weinig of geen klachten",
             "het aantal T-helpercellen daalt traag",
             "er is meteen een zware longontsteking",
-            "het virus verdwijnt helemaal uit het lichaam"
+            "het virus verdwijnt helemaal uit het lichaam",
+            "het virus blijft zich vermenigvuldigen"
           ],
           "antwoord": [
             0,
-            1
+            1,
+            4
           ],
           "uitleg": "Na een korte acute fase volgt een lange stille periode. Het virus blijft zich vermenigvuldigen en het aantal T-helpercellen daalt traag."
         },
@@ -2779,11 +2835,13 @@
             "de follikels laten rijpen",
             "de follikels oestrogeen laten maken",
             "de ovulatie meteen uitlokken",
-            "het baarmoederslijmvlies afbreken"
+            "het baarmoederslijmvlies afbreken",
+            "één van die follikels de Graafse follikel laten worden"
           ],
           "antwoord": [
             0,
-            1
+            1,
+            4
           ],
           "uitleg": "FSH staat voor follikelstimulerend hormoon. Het laat een groep follikels groeien, waarvan er één de Graafse follikel wordt."
         },
@@ -2957,11 +3015,13 @@
             "de zaadblaasjes",
             "de prostaatklier",
             "de bijnieren",
-            "de schildklier"
+            "de schildklier",
+            "de klieren van Cowper"
           ],
           "antwoord": [
             0,
-            1
+            1,
+            4
           ],
           "uitleg": "De zaadblaasjes, de prostaat en de klieren van Cowper leveren het vocht. Dat voedt de zaadcellen en maakt het zure milieu in de vagina minder zuur."
         },
@@ -3031,11 +3091,13 @@
             "een eicel krijgt veel cytoplasma, een zaadcel bijna niets",
             "uit één voorlopercel komt één eicel maar vier zaadcellen",
             "enkel de spermatogenese gebruikt meiose",
-            "enkel de oögenese geeft haploïde cellen"
+            "enkel de oögenese geeft haploïde cellen",
+            "een eicel rijpt per cyclus, zaadcellen worden voortdurend aangemaakt"
           ],
           "antwoord": [
             0,
-            1
+            1,
+            4
           ],
           "uitleg": "Beide gebruiken meiose en geven haploïde cellen. Het verschil zit in de ongelijke verdeling van het cytoplasma en in het aantal bruikbare cellen."
         },
@@ -3095,11 +3157,13 @@
             "het zure milieu van de vagina",
             "de slijmprop van de baarmoederhals",
             "het baarmoederslijmvlies van de vorige cyclus",
-            "de celwand van de eicel"
+            "de celwand van de eicel",
+            "de afweercellen onderweg"
           ],
           "antwoord": [
             0,
-            1
+            1,
+            4
           ],
           "uitleg": "De zuurtegraad, de slijmprop, de lengte van de weg en de afweercellen onderweg laten maar enkele honderden zaadcellen over. Een eicel heeft geen celwand."
         },
@@ -3158,11 +3222,13 @@
             "de cellen delen zonder te groeien",
             "het geheel wordt niet groter",
             "elke cel wordt groter na elke deling",
-            "er komt bij elke deling DNA bij"
+            "er komt bij elke deling DNA bij",
+            "de cellen worden bij elke deling kleiner"
           ],
           "antwoord": [
             0,
-            1
+            1,
+            4
           ],
           "uitleg": "Het klompje blijft even groot en de cellen worden dus kleiner. Ze leven van de voorraad uit de eicel."
         },
@@ -3300,11 +3366,13 @@
             "voedingsstoffen en zuurstof doorgeven",
             "afvalstoffen van het kind afvoeren",
             "het bloed van moeder en kind mengen",
-            "het kind van vruchtwater voorzien"
+            "het kind van vruchtwater voorzien",
+            "hormonen maken, onder meer progesteron"
           ],
           "antwoord": [
             0,
-            1
+            1,
+            4
           ],
           "uitleg": "Stoffen gaan door de placentabarrière heen, maar de twee bloedsomlopen blijven gescheiden. De placenta maakt ook hormonen, onder meer progesteron."
         },
@@ -3503,11 +3571,13 @@
             "zware metalen zoals lood",
             "hormoonverstorende stoffen",
             "vezels uit volkoren brood",
-            "zuurstof uit de ingeademde lucht"
+            "zuurstof uit de ingeademde lucht",
+            "pesticiden"
           ],
           "antwoord": [
             0,
-            1
+            1,
+            4
           ],
           "uitleg": "Zware metalen, hormoonverstoorders, pesticiden en microplastics halen de placenta en kunnen de ontwikkeling raken. Vezels en zuurstof zijn gewone voeding en gewone ademhaling."
         }
@@ -3537,11 +3607,13 @@
             "de temperatuurmethode",
             "de ovulatiemethode",
             "de combinatiepil",
-            "het koperspiraal"
+            "het koperspiraal",
+            "de kalendermethode"
           ],
           "antwoord": [
             0,
-            1
+            1,
+            4
           ],
           "uitleg": "De temperatuurmethode volgt de lichte stijging van de lichaamstemperatuur na de ovulatie, de ovulatiemethode volgt het slijm van de baarmoederhals. De kalendermethode rekent met de lengte van de vorige cycli."
         },
@@ -3607,11 +3679,13 @@
             "de hormoonpleister",
             "de prikpil",
             "het koperspiraal",
-            "het pessarium"
+            "het pessarium",
+            "de vaginale ring"
           ],
           "antwoord": [
             0,
-            1
+            1,
+            4
           ],
           "uitleg": "Pleister, vaginale ring, prikpil, implantaat, minipil en hormoonspiraal geven alle een hormoon af. Het koperspiraal en het pessarium doen dat niet."
         },
@@ -3835,11 +3909,13 @@
             "roken",
             "veel alcohol drinken",
             "regelmatig matig bewegen",
-            "voldoende slapen"
+            "voldoende slapen",
+            "drugs gebruiken"
           ],
           "antwoord": [
             0,
-            1
+            1,
+            4
           ],
           "uitleg": "Roken, alcohol en drugs verminderen het aantal en de kwaliteit van de zaadcellen. Bewegen en slapen werken juist de goede kant op."
         },
@@ -3886,11 +3962,13 @@
             "zware metalen",
             "bepaalde medicijnen",
             "water uit de kraan",
-            "zuurstof in de lucht"
+            "zuurstof in de lucht",
+            "pesticiden"
           ],
           "antwoord": [
             0,
-            1
+            1,
+            4
           ],
           "uitleg": "Zware metalen, sommige medicijnen, pesticiden en hormoonverstoorders grijpen in op de hormonen of op de gameten zelf. Water en zuurstof doen dat niet."
         },
@@ -4019,11 +4097,13 @@
             "RNA heeft ribose, DNA desoxyribose",
             "RNA heeft uracil waar DNA thymine heeft",
             "RNA bestaat altijd uit twee strengen",
-            "RNA bevat geen fosfaatgroepen"
+            "RNA bevat geen fosfaatgroepen",
+            "RNA is meestal enkelstrengig"
           ],
           "antwoord": [
             0,
-            1
+            1,
+            4
           ],
           "uitleg": "Ribose heeft één OH-groep meer dan desoxyribose, en uracil neemt de plaats in van thymine. RNA is bovendien meestal enkelstrengig."
         },
@@ -4078,11 +4158,13 @@
             "ze zijn positief geladen eiwitten",
             "het DNA windt zich rond een groepje van acht",
             "ze knippen het DNA in losse stukken",
-            "ze komen alleen bij prokaryoten voor"
+            "ze komen alleen bij prokaryoten voor",
+            "het negatief geladen DNA hecht er vlot aan"
           ],
           "antwoord": [
             0,
-            1
+            1,
+            4
           ],
           "uitleg": "Histonen zijn kleine, positief geladen eiwitten, en het negatief geladen DNA hecht daar vlot aan. Acht van die eiwitten vormen de octameer van een nucleosoom."
         },
@@ -4145,11 +4227,13 @@
             "ze dragen dezelfde genen op dezelfde plaats",
             "de ene komt van de moeder, de andere van de vader",
             "ze hebben altijd exact dezelfde allelen",
-            "ze zitten enkel in haploïde cellen"
+            "ze zitten enkel in haploïde cellen",
+            "ze hebben niet noodzakelijk dezelfde allelen"
           ],
           "antwoord": [
             0,
-            1
+            1,
+            4
           ],
           "uitleg": "Homologe chromosomen hebben dezelfde genloci, maar niet noodzakelijk dezelfde allelen. Een haploïde cel heeft juist geen paren."
         },
@@ -4343,11 +4427,13 @@
             "hij wordt in één stuk doorgebouwd",
             "hij loopt mee met de replicatievork",
             "hij wordt in losse Okazaki-fragmenten gebouwd",
-            "hij heeft geen enkele primer nodig"
+            "hij heeft geen enkele primer nodig",
+            "één primer vooraan volstaat"
           ],
           "antwoord": [
             0,
-            1
+            1,
+            4
           ],
           "uitleg": "De leading strand loopt mee met de vork, dus kan polymerase blijven doorbouwen. Eén primer vooraan volstaat, maar helemaal zonder primer gaat het niet."
         },
@@ -4460,11 +4546,13 @@
             "nakijken of het DNA onbeschadigd is",
             "nakijken of de cel groot genoeg is",
             "het DNA sneller kopiëren",
-            "de chromosomen zichtbaar maken"
+            "de chromosomen zichtbaar maken",
+            "de cyclus stilleggen tot alles in orde is"
           ],
           "antwoord": [
             0,
-            1
+            1,
+            4
           ],
           "uitleg": "Op een controlepunt wordt de cyclus stilgelegd tot alles in orde is. Werken die punten niet meer, dan kan een cel ongeremd blijven delen."
         },
@@ -4560,11 +4648,13 @@
             "groeien",
             "beschadigd weefsel herstellen",
             "geslachtscellen maken",
-            "het aantal chromosomen halveren"
+            "het aantal chromosomen halveren",
+            "versleten cellen vervangen"
           ],
           "antwoord": [
             0,
-            1
+            1,
+            4
           ],
           "uitleg": "De mitose levert twee identieke cellen en zorgt dus voor groei, herstel en vervanging. Gameten maken en halveren is het werk van de meiose."
         },
@@ -4701,11 +4791,13 @@
             "broers en zussen verschillen daardoor van elkaar",
             "een soort kan zich beter aanpassen",
             "de gameten worden daardoor diploïd",
-            "de celcyclus verloopt daardoor sneller"
+            "de celcyclus verloopt daardoor sneller",
+            "selectie krijgt daardoor materiaal om op te werken"
           ],
           "antwoord": [
             0,
-            1
+            1,
+            4
           ],
           "uitleg": "Mixing en crossing-over maken elke gameet anders. Die variatie is het materiaal waarop selectie later kan werken."
         },
@@ -4823,11 +4915,13 @@
             "er gaat een S-fase aan vooraf",
             "er wordt een spoelfiguur gebruikt",
             "ze leveren allebei vier cellen op",
-            "ze gebeuren allebei alleen in de geslachtsklieren"
+            "ze gebeuren allebei alleen in de geslachtsklieren",
+            "de chromosomen worden met microtubuli uiteengetrokken"
           ],
           "antwoord": [
             0,
-            1
+            1,
+            4
           ],
           "uitleg": "Beide delingen kopiëren eerst het DNA en trekken de chromosomen daarna met microtubuli uiteen. Het aantal cellen en de plaats in het lichaam verschillen."
         },
@@ -4857,11 +4951,13 @@
             "haar kenmerken zijn duidelijk te onderscheiden",
             "ze kan zichzelf bestuiven",
             "ze heeft maar één chromosoom",
-            "ze plant zich niet geslachtelijk voort"
+            "ze plant zich niet geslachtelijk voort",
+            "ze geeft veel nakomelingen"
           ],
           "antwoord": [
             0,
-            1
+            1,
+            4
           ],
           "uitleg": "Kenmerken als geel of groen en rond of gerimpeld zijn goed te onderscheiden. Door zelfbestuiving kon hij bovendien raszuivere lijnen krijgen."
         },
@@ -5022,11 +5118,13 @@
             "ze dragen hetzelfde gen op dezelfde locus",
             "de allelen op die locus kunnen verschillen",
             "ze komen allebei van dezelfde ouder",
-            "ze gaan samen naar één gameet"
+            "ze gaan samen naar één gameet",
+            "bij de meiose gaan ze naar verschillende gameten"
           ],
           "antwoord": [
             0,
-            1
+            1,
+            4
           ],
           "uitleg": "Op dezelfde locus zit hetzelfde gen, maar niet noodzakelijk hetzelfde allel. Bij de meiose gaan de twee homologen naar verschillende gameten."
         },
@@ -5061,11 +5159,13 @@
             "een verhouding klopt alleen bij veel nakomelingen",
             "het toeval van één kruising zegt te weinig",
             "zo kreeg hij meer dominante allelen",
-            "zo verdween de invloed van de recessieve allelen"
+            "zo verdween de invloed van de recessieve allelen",
+            "pas bij honderden planten komt de verwachte verhouding duidelijk uit"
           ],
           "antwoord": [
             0,
-            1
+            1,
+            4
           ],
           "uitleg": "Bij vier nakomelingen krijg je zelden exact 3 op 1. Pas bij honderden planten komt de verwachte verhouding er duidelijk uit."
         }
@@ -5107,11 +5207,13 @@
             "je ziet de twee kenmerken naast elkaar",
             "geen van de twee allelen wordt verborgen",
             "er ontstaat één egale tussenkleur",
-            "één van de twee allelen is volledig dominant"
+            "één van de twee allelen is volledig dominant",
+            "een rund kan rode én witte haren door elkaar hebben"
           ],
           "antwoord": [
             0,
-            1
+            1,
+            4
           ],
           "uitleg": "Codominant geeft bijvoorbeeld een rund met rode én witte haren door elkaar. Een egale tussenkleur zou juist op een intermediair kenmerk wijzen."
         },
@@ -5214,11 +5316,13 @@
             "homozygoot is het dodelijk",
             "je vindt het nooit homozygoot bij een levend dier",
             "het komt nooit tot expressie",
-            "het ligt altijd op het X-chromosoom"
+            "het ligt altijd op het X-chromosoom",
+            "in de nakomelingschap zie je 2 op 1 in plaats van 3 op 1"
           ],
           "antwoord": [
             0,
-            1
+            1,
+            4
           ],
           "uitleg": "Omdat de homozygote nakomelingen niet geboren worden, zie je in de nakomelingschap een verhouding 2 op 1 in plaats van 3 op 1."
         },
@@ -8348,11 +8452,13 @@
             "reacties versnellen als enzym",
             "ziekteverwekkers herkennen als antilichaam",
             "het membraan als dubbellaag vormen",
-            "op lange termijn energie opslaan"
+            "op lange termijn energie opslaan",
+            "stoffen door het membraan vervoeren"
           ],
           "antwoord": [
             0,
-            1
+            1,
+            4
           ],
           "uitleg": "Enzymen, antilichamen, transporteiwitten, transcriptiefactoren en steunweefsel zijn alle proteïnen. Het membraan en de energiereserve zijn werk van lipiden."
         },
@@ -8523,11 +8629,13 @@
             "lang haar en losse kledij vastmaken",
             "geen brandbare producten in de buurt zetten",
             "de vlam blauw houden omdat die niet heet is",
-            "de brander onbewaakt laten branden tussen twee proeven"
+            "de brander onbewaakt laten branden tussen twee proeven",
+            "de brander uitzetten zodra je hem niet gebruikt"
           ],
           "antwoord": [
             0,
-            1
+            1,
+            4
           ],
           "uitleg": "De blauwe vlam is net de heetste en bovendien slecht zichtbaar. Een brander laat je nooit zonder toezicht branden."
         },
@@ -8600,11 +8708,13 @@
             "het instrument kiezen dat bij de grootte van de meting past",
             "noteren met evenveel cijfers als het toestel aangeeft",
             "een meting naar boven afronden tot een mooi getal",
-            "het toestel ijken met een willekeurig voorwerp"
+            "het toestel ijken met een willekeurig voorwerp",
+            "de meting een paar keer herhalen"
           ],
           "antwoord": [
             0,
-            1
+            1,
+            4
           ],
           "uitleg": "Een passend bereik en een eerlijke notatie houden het resultaat bruikbaar. Afronden tot een mooi getal verzint nauwkeurigheid die er niet is."
         },
@@ -8714,11 +8824,13 @@
             "de schaal gesloten houden",
             "de handen nadien grondig wassen",
             "de schaal openen om eraan te ruiken",
-            "de schaal bij het papierafval gooien"
+            "de schaal bij het papierafval gooien",
+            "de schaal ontsmetten of steriliseren voor ze weggaat"
           ],
           "antwoord": [
             0,
-            1
+            1,
+            4
           ],
           "uitleg": "Ook een onschuldige kweek kan ongewenste kiemen bevatten. Ze gaat gesloten weer weg en wordt eerst ontsmet of gesteriliseerd."
         },
@@ -8790,11 +8902,13 @@
             "afmeten wat je nodig hebt en niet meer",
             "glaswerk hergebruiken na schoonmaken",
             "elke proef met de dubbele hoeveelheid doen",
-            "wegwerpmateriaal kiezen waar glas volstaat"
+            "wegwerpmateriaal kiezen waar glas volstaat",
+            "wegwerpmateriaal enkel gebruiken waar steriliteit het vraagt"
           ],
           "antwoord": [
             0,
-            1
+            1,
+            4
           ],
           "uitleg": "Minder product betekent minder afval en minder risico. Wegwerpmateriaal houd je voor de gevallen waar steriliteit het vraagt."
         },
@@ -8900,11 +9014,13 @@
             "ze is met een meting te beantwoorden",
             "ze is nauwkeurig afgebakend",
             "ze is zo ruim mogelijk gesteld",
-            "ze bevat het antwoord al"
+            "ze bevat het antwoord al",
+            "ze gaat over één factor in één omstandigheid"
           ],
           "antwoord": [
             0,
-            1
+            1,
+            4
           ],
           "uitleg": "Een vraag als waarom groeien planten is te ruim om te meten. Een vraag over één factor, één soort en één omstandigheid is wel te onderzoeken."
         },
@@ -8999,11 +9115,13 @@
             "welk materiaal je nodig hebt",
             "hoe je gaat meten en hoe vaak",
             "welke conclusie je zult trekken",
-            "welke cijfers je wilt uitkomen"
+            "welke cijfers je wilt uitkomen",
+            "de werkwijze, zo beschreven dat iemand anders ze kan overdoen"
           ],
           "antwoord": [
             0,
-            1
+            1,
+            4
           ],
           "uitleg": "Een plan beschrijft de werkwijze zo dat iemand anders ze kan overdoen. De conclusie schrijf je pas als de gegevens er zijn."
         },
@@ -9124,11 +9242,13 @@
             "de naam van de grootheid",
             "de eenheid waarin gemeten is",
             "de hypothese van het onderzoek",
-            "het aantal herhalingen van de proef"
+            "het aantal herhalingen van de proef",
+            "een schaalverdeling met getallen erbij"
           ],
           "antwoord": [
             0,
-            1
+            1,
+            4
           ],
           "uitleg": "Zonder grootheid en eenheid is een as onleesbaar. Wat je ermee besluit, hoort in de tekst en niet op de as."
         },

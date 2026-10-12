@@ -34,8 +34,9 @@ DEEL1 = [
             "mitochondria",
             "ribosomen",
             "een celmembraan",
+            "membraanorganellen",
         ],
-        antwoord=[0, 1],
+        antwoord=[0, 1, 4],
         uitleg="Een prokaryote cel heeft geen kernmembraan en geen membraanorganellen, "
         "dus ook geen mitochondria. Ribosomen en een celmembraan heeft ze wel.",
     ),
@@ -285,8 +286,9 @@ DEEL2 = [
             "chloroplasten",
             "mitochondria",
             "een celmembraan",
+            "een grote centrale vacuole",
         ],
-        antwoord=[0, 1],
+        antwoord=[0, 1, 4],
         uitleg="Een celwand en chloroplasten horen bij een plantencel. Mitochondria en "
         "een celmembraan heeft een dierlijke cel evengoed.",
     ),
@@ -305,8 +307,9 @@ DEEL2 = [
             "een mitochondrion heeft een dubbel membraan",
             "een mitochondrion wordt door het Golgi-apparaat gemaakt",
             "een mitochondrion ontstaat uit het kernmembraan",
+            "een mitochondrion heeft zijn eigen ribosomen",
         ],
-        antwoord=[0, 1],
+        antwoord=[0, 1, 4],
         uitleg="Eigen DNA, eigen ribosomen, een dubbel membraan en deling door "
         "tweedeling wijzen erop dat mitochondria en chloroplasten ooit vrij levende "
         "bacteriën waren die door een grotere cel opgenomen werden.",
@@ -428,8 +431,9 @@ DEEL2 = [
             "het is opgebouwd uit twee lagen lipiden",
             "het bestaat uit één laag eiwitten",
             "het komt enkel bij plantencellen voor",
+            "ook het kernmembraan is zo een dubbellaag",
         ],
-        antwoord=[0, 1],
+        antwoord=[0, 1, 4],
         uitleg="Niet alleen het celmembraan maar ook het kernmembraan en de membranen "
         "van de organellen zijn zulke dubbellagen. Ze komen bij elke cel voor.",
     ),

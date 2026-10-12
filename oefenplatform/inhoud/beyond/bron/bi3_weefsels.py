@@ -52,8 +52,9 @@ DEEL1 = [
             "ze kan nog verschillende celtypes worden",
             "ze heeft geen kern",
             "ze is altijd een spiercel",
+            "ze is nog niet gedifferentieerd",
         ],
-        antwoord=[0, 1],
+        antwoord=[0, 1, 4],
         uitleg="Een stamcel is nog niet gedifferentieerd en blijft deelbaar. Daarom kan "
         "ze een voorraad vormen waaruit nieuwe gespecialiseerde cellen ontstaan.",
     ),
@@ -72,8 +73,9 @@ DEEL1 = [
             "nieuwe bloedcellen laten aanmaken",
             "de bloedgroep van iemand veranderen",
             "een virus sneller doen groeien",
+            "beschadigde huid of een beschadigd hoornvlies herstellen",
         ],
-        antwoord=[0, 1],
+        antwoord=[0, 1, 4],
         uitleg="Bij een beenmergtransplantatie krijgt iemand bloedstamcellen die weer "
         "nieuwe bloedcellen aanmaken. Hetzelfde idee loopt bij onderzoek naar huid, "
         "hoornvlies en hartspier.",
@@ -167,8 +169,9 @@ DEEL1 = [
             "sclerenchymcellen",
             "zeefvaten",
             "wortelharen",
+            "collenchymcellen",
         ],
-        antwoord=[0, 1],
+        antwoord=[0, 1, 4],
         uitleg="Het grondweefsel bestaat uit parenchym, collenchym en sclerenchym. "
         "Zeefvaten horen bij het transportweefsel en wortelharen bij het huidweefsel.",
     ),
@@ -276,8 +279,9 @@ DEEL2 = [
             "zenuwweefsel",
             "grondweefsel",
             "huidmondjesweefsel",
+            "bindweefsel",
         ],
-        antwoord=[0, 1],
+        antwoord=[0, 1, 4],
         uitleg="Een dier heeft epitheel-, bind-, spier-, zenuw- en transportweefsel. "
         "Grondweefsel en huidmondjes horen bij een plant.",
     ),
@@ -402,8 +406,9 @@ DEEL2 = [
             "verschillende weefsels samen vormen een orgaan",
             "een weefsel bestaat altijd uit één enkele cel",
             "een weefsel komt alleen bij dieren voor",
+            "ook een plant heeft weefsels",
         ],
-        antwoord=[0, 1],
+        antwoord=[0, 1, 4],
         uitleg="Een weefsel is een groep cellen met dezelfde opdracht. Een orgaan zoals "
         "de maag bestaat uit epitheel-, spier-, bind- en zenuwweefsel samen.",
     ),

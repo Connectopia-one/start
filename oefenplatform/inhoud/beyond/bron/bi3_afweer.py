@@ -17,8 +17,9 @@ DEEL1 = [
             "eigen cellen die ontspoord zijn",
             "een tekort aan vitaminen",
             "een breuk in een bot",
+            "schimmels en parasieten",
         ],
-        antwoord=[0, 1],
+        antwoord=[0, 1, 4],
         uitleg="Het immuunsysteem keert zich tegen ziekteverwekkers en ruimt ook eigen "
         "cellen op die beschadigd of kankerachtig zijn. Een vitaminetekort of een breuk "
         "valt daarbuiten.",
@@ -124,8 +125,9 @@ DEEL1 = [
             "ze bouwt een geheugen op",
             "ze komt meteen volledig op gang",
             "ze werkt zonder lymfocyten",
+            "ze heeft dagen nodig om op gang te komen",
         ],
-        antwoord=[0, 1],
+        antwoord=[0, 1, 4],
         uitleg="De specifieke afweer heeft dagen nodig om op gang te komen, maar is "
         "precies gericht en onthoudt de indringer. Daarom heet ze verworven immuniteit.",
     ),
@@ -172,8 +174,9 @@ DEEL1 = [
             "zwelling en pijn",
             "een lagere lichaamstemperatuur",
             "een trager hartritme",
+            "meer bloed en vocht ter plaatse",
         ],
-        antwoord=[0, 1],
+        antwoord=[0, 1, 4],
         uitleg="De bloedvaten ter plaatse worden wijder en doorlaatbaarder, dus komt er "
         "meer bloed en vocht bij. Dat geeft rood, warm, gezwollen en pijnlijk.",
     ),
@@ -328,8 +331,9 @@ DEEL2 = [
             "het maakt de indringer herkenbaar voor fagocyten",
             "het breekt het antigeen af met zijn eigen enzymen",
             "het verandert het DNA van de indringer blijvend",
+            "het klontert indringers samen",
         ],
-        antwoord=[0, 1],
+        antwoord=[0, 1, 4],
         uitleg="Antilichamen neutraliseren en klonteren indringers samen. Afbreken doen "
         "de fagocyten en het complementsysteem.",
     ),
@@ -395,8 +399,9 @@ DEEL2 = [
             "die geheugencellen reageren meteen",
             "het antigeen is dan onschadelijk geworden",
             "de huid laat het antigeen dan niet door",
+            "ze slaan toe voor je er iets van voelt",
         ],
-        antwoord=[0, 1],
+        antwoord=[0, 1, 4],
         uitleg="De B- en T-geheugencellen van de eerste keer staan klaar. Ze slaan toe "
         "voor je iets voelt, en daarom word je een tweede keer vaak niet ziek.",
     ),

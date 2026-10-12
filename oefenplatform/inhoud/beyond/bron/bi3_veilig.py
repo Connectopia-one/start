@@ -103,8 +103,9 @@ DEEL1 = [
             "geen brandbare producten in de buurt zetten",
             "de vlam blauw houden omdat die niet heet is",
             "de brander onbewaakt laten branden tussen twee proeven",
+            "de brander uitzetten zodra je hem niet gebruikt",
         ],
-        antwoord=[0, 1],
+        antwoord=[0, 1, 4],
         uitleg="De blauwe vlam is net de heetste en bovendien slecht zichtbaar. Een brander "
         "laat je nooit zonder toezicht branden.",
     ),
@@ -176,8 +177,9 @@ DEEL1 = [
             "noteren met evenveel cijfers als het toestel aangeeft",
             "een meting naar boven afronden tot een mooi getal",
             "het toestel ijken met een willekeurig voorwerp",
+            "de meting een paar keer herhalen",
         ],
-        antwoord=[0, 1],
+        antwoord=[0, 1, 4],
         uitleg="Een passend bereik en een eerlijke notatie houden het resultaat bruikbaar. "
         "Afronden tot een mooi getal verzint nauwkeurigheid die er niet is.",
     ),
@@ -285,8 +287,9 @@ DEEL2 = [
             "de handen nadien grondig wassen",
             "de schaal openen om eraan te ruiken",
             "de schaal bij het papierafval gooien",
+            "de schaal ontsmetten of steriliseren voor ze weggaat",
         ],
-        antwoord=[0, 1],
+        antwoord=[0, 1, 4],
         uitleg="Ook een onschuldige kweek kan ongewenste kiemen bevatten. Ze gaat gesloten "
         "weer weg en wordt eerst ontsmet of gesteriliseerd.",
     ),
@@ -358,8 +361,9 @@ DEEL2 = [
             "glaswerk hergebruiken na schoonmaken",
             "elke proef met de dubbele hoeveelheid doen",
             "wegwerpmateriaal kiezen waar glas volstaat",
+            "wegwerpmateriaal enkel gebruiken waar steriliteit het vraagt",
         ],
-        antwoord=[0, 1],
+        antwoord=[0, 1, 4],
         uitleg="Minder product betekent minder afval en minder risico. Wegwerpmateriaal "
         "houd je voor de gevallen waar steriliteit het vraagt.",
     ),

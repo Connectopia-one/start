@@ -375,8 +375,9 @@ DEEL2 = [
             "ziekteverwekkers herkennen als antilichaam",
             "het membraan als dubbellaag vormen",
             "op lange termijn energie opslaan",
+            "stoffen door het membraan vervoeren",
         ],
-        antwoord=[0, 1],
+        antwoord=[0, 1, 4],
         uitleg="Enzymen, antilichamen, transporteiwitten, transcriptiefactoren en "
         "steunweefsel zijn alle proteïnen. Het membraan en de energiereserve zijn werk van "
         "lipiden.",

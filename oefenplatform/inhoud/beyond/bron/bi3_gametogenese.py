@@ -145,8 +145,9 @@ DEEL1 = [
             "de follikels oestrogeen laten maken",
             "de ovulatie meteen uitlokken",
             "het baarmoederslijmvlies afbreken",
+            "één van die follikels de Graafse follikel laten worden",
         ],
-        antwoord=[0, 1],
+        antwoord=[0, 1, 4],
         uitleg="FSH staat voor follikelstimulerend hormoon. Het laat een groep follikels "
         "groeien, waarvan er één de Graafse follikel wordt.",
     ),
@@ -315,8 +316,9 @@ DEEL2 = [
             "de prostaatklier",
             "de bijnieren",
             "de schildklier",
+            "de klieren van Cowper",
         ],
-        antwoord=[0, 1],
+        antwoord=[0, 1, 4],
         uitleg="De zaadblaasjes, de prostaat en de klieren van Cowper leveren het vocht. "
         "Dat voedt de zaadcellen en maakt het zure milieu in de vagina minder zuur.",
     ),
@@ -383,8 +385,9 @@ DEEL2 = [
             "uit één voorlopercel komt één eicel maar vier zaadcellen",
             "enkel de spermatogenese gebruikt meiose",
             "enkel de oögenese geeft haploïde cellen",
+            "een eicel rijpt per cyclus, zaadcellen worden voortdurend aangemaakt",
         ],
-        antwoord=[0, 1],
+        antwoord=[0, 1, 4],
         uitleg="Beide gebruiken meiose en geven haploïde cellen. Het verschil zit in de "
         "ongelijke verdeling van het cytoplasma en in het aantal bruikbare cellen.",
     ),

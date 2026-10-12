@@ -74,8 +74,9 @@ DEEL1 = [
             "RNA heeft uracil waar DNA thymine heeft",
             "RNA bestaat altijd uit twee strengen",
             "RNA bevat geen fosfaatgroepen",
+            "RNA is meestal enkelstrengig",
         ],
-        antwoord=[0, 1],
+        antwoord=[0, 1, 4],
         uitleg="Ribose heeft één OH-groep meer dan desoxyribose, en uracil neemt de plaats "
         "in van thymine. RNA is bovendien meestal enkelstrengig.",
     ),
@@ -127,8 +128,9 @@ DEEL1 = [
             "het DNA windt zich rond een groepje van acht",
             "ze knippen het DNA in losse stukken",
             "ze komen alleen bij prokaryoten voor",
+            "het negatief geladen DNA hecht er vlot aan",
         ],
-        antwoord=[0, 1],
+        antwoord=[0, 1, 4],
         uitleg="Histonen zijn kleine, positief geladen eiwitten, en het negatief geladen "
         "DNA hecht daar vlot aan. Acht van die eiwitten vormen de octameer van een "
         "nucleosoom.",
@@ -194,8 +196,9 @@ DEEL1 = [
             "de ene komt van de moeder, de andere van de vader",
             "ze hebben altijd exact dezelfde allelen",
             "ze zitten enkel in haploïde cellen",
+            "ze hebben niet noodzakelijk dezelfde allelen",
         ],
-        antwoord=[0, 1],
+        antwoord=[0, 1, 4],
         uitleg="Homologe chromosomen hebben dezelfde genloci, maar niet noodzakelijk "
         "dezelfde allelen. Een haploïde cel heeft juist geen paren.",
     ),
@@ -390,8 +393,9 @@ DEEL2 = [
             "hij loopt mee met de replicatievork",
             "hij wordt in losse Okazaki-fragmenten gebouwd",
             "hij heeft geen enkele primer nodig",
+            "één primer vooraan volstaat",
         ],
-        antwoord=[0, 1],
+        antwoord=[0, 1, 4],
         uitleg="De leading strand loopt mee met de vork, dus kan polymerase blijven "
         "doorbouwen. Eén primer vooraan volstaat, maar helemaal zonder primer gaat het "
         "niet.",

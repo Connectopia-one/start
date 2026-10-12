@@ -30,8 +30,9 @@ DEEL1 = [
             "de slijmprop van de baarmoederhals",
             "het baarmoederslijmvlies van de vorige cyclus",
             "de celwand van de eicel",
+            "de afweercellen onderweg",
         ],
-        antwoord=[0, 1],
+        antwoord=[0, 1, 4],
         uitleg="De zuurtegraad, de slijmprop, de lengte van de weg en de afweercellen "
         "onderweg laten maar enkele honderden zaadcellen over. Een eicel heeft geen celwand.",
     ),
@@ -90,8 +91,9 @@ DEEL1 = [
             "het geheel wordt niet groter",
             "elke cel wordt groter na elke deling",
             "er komt bij elke deling DNA bij",
+            "de cellen worden bij elke deling kleiner",
         ],
-        antwoord=[0, 1],
+        antwoord=[0, 1, 4],
         uitleg="Het klompje blijft even groot en de cellen worden dus kleiner. Ze leven "
         "van de voorraad uit de eicel.",
     ),
@@ -232,8 +234,9 @@ DEEL2 = [
             "afvalstoffen van het kind afvoeren",
             "het bloed van moeder en kind mengen",
             "het kind van vruchtwater voorzien",
+            "hormonen maken, onder meer progesteron",
         ],
-        antwoord=[0, 1],
+        antwoord=[0, 1, 4],
         uitleg="Stoffen gaan door de placentabarrière heen, maar de twee bloedsomlopen "
         "blijven gescheiden. De placenta maakt ook hormonen, onder meer progesteron.",
     ),
@@ -432,8 +435,9 @@ DEEL2 = [
             "hormoonverstorende stoffen",
             "vezels uit volkoren brood",
             "zuurstof uit de ingeademde lucht",
+            "pesticiden",
         ],
-        antwoord=[0, 1],
+        antwoord=[0, 1, 4],
         uitleg="Zware metalen, hormoonverstoorders, pesticiden en microplastics halen de "
         "placenta en kunnen de ontwikkeling raken. Vezels en zuurstof zijn gewone voeding "
         "en gewone ademhaling.",

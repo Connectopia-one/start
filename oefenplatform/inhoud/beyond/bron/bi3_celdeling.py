@@ -67,8 +67,9 @@ DEEL1 = [
             "nakijken of de cel groot genoeg is",
             "het DNA sneller kopiëren",
             "de chromosomen zichtbaar maken",
+            "de cyclus stilleggen tot alles in orde is",
         ],
-        antwoord=[0, 1],
+        antwoord=[0, 1, 4],
         uitleg="Op een controlepunt wordt de cyclus stilgelegd tot alles in orde is. "
         "Werken die punten niet meer, dan kan een cel ongeremd blijven delen.",
     ),
@@ -166,8 +167,9 @@ DEEL1 = [
             "beschadigd weefsel herstellen",
             "geslachtscellen maken",
             "het aantal chromosomen halveren",
+            "versleten cellen vervangen",
         ],
-        antwoord=[0, 1],
+        antwoord=[0, 1, 4],
         uitleg="De mitose levert twee identieke cellen en zorgt dus voor groei, herstel en "
         "vervanging. Gameten maken en halveren is het werk van de meiose.",
     ),
@@ -303,8 +305,9 @@ DEEL2 = [
             "een soort kan zich beter aanpassen",
             "de gameten worden daardoor diploïd",
             "de celcyclus verloopt daardoor sneller",
+            "selectie krijgt daardoor materiaal om op te werken",
         ],
-        antwoord=[0, 1],
+        antwoord=[0, 1, 4],
         uitleg="Mixing en crossing-over maken elke gameet anders. Die variatie is het "
         "materiaal waarop selectie later kan werken.",
     ),
@@ -424,8 +427,9 @@ DEEL2 = [
             "er wordt een spoelfiguur gebruikt",
             "ze leveren allebei vier cellen op",
             "ze gebeuren allebei alleen in de geslachtsklieren",
+            "de chromosomen worden met microtubuli uiteengetrokken",
         ],
-        antwoord=[0, 1],
+        antwoord=[0, 1, 4],
         uitleg="Beide delingen kopiëren eerst het DNA en trekken de chromosomen daarna "
         "met microtubuli uiteen. Het aantal cellen en de plaats in het lichaam verschillen.",
     ),
