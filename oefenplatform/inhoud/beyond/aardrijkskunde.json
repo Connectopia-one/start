@@ -129,15 +129,14 @@
           "opties": [
             "aan de westkant van de Alpen",
             "stroomafwaarts van Luik aan de Maas",
-            "in de gematigde klimaatzone",
+            "op \\(300\\) meter boven de zeespiegel",
             "op 51° 13' NB en 4° 24' OL"
           ],
           "antwoord": [
             0,
-            1,
-            2
+            1
           ],
-          "uitleg": "Relatief situeren is situeren ten opzichte van iets anders. De coördinaten zijn absoluut situeren."
+          "uitleg": "Relatief situeren is situeren ten opzichte van iets anders. Coördinaten en een hoogte boven de zeespiegel zijn absoluut situeren."
         },
         {
           "type": "waarofniet",
@@ -203,12 +202,14 @@
             "satellietbeelden",
             "klimatogrammen",
             "leeftijdshistogrammen",
-            "seismogrammen van bevingen"
+            "seismogrammen van bevingen",
+            "determineertabellen"
           ],
           "antwoord": [
             0,
             1,
-            2
+            2,
+            4
           ],
           "uitleg": "De fiche somt onder meer atlas, kaarten, satellietbeelden, foto's, determineertabellen, klimatogrammen en leeftijdshistogrammen op. Een seismogram hoort bij het meten van aardbevingen."
         },
@@ -307,15 +308,14 @@
           "opties": [
             "weersvoorspellingen maken",
             "communicatie over lange afstand",
-            "bosbranden opvolgen",
+            "de dikte van de aardkorst meten",
             "aardbevingen in de korst meten"
           ],
           "antwoord": [
             0,
-            1,
-            2
+            1
           ],
-          "uitleg": "De fiche noemt weersvoorspelling, communicatie, opvolging van bosbranden en observatie van planeten. Aardbevingen meet je met seismografen op de grond."
+          "uitleg": "De fiche noemt weersvoorspelling, communicatie, opvolging van bosbranden en observatie van planeten. Aardbevingen en de dikte van de korst meet je met toestellen op en in de grond."
         },
         {
           "type": "waarofniet",
@@ -351,12 +351,14 @@
             "de geosfeer",
             "de atmosfeer",
             "de hydrosfeer",
-            "de stratosfeer"
+            "de stratosfeer",
+            "de biosfeer"
           ],
           "antwoord": [
             0,
             1,
-            2
+            2,
+            4
           ],
           "uitleg": "De vier sferen zijn geosfeer, atmosfeer, hydrosfeer en biosfeer. De stratosfeer is een laag ván de atmosfeer, geen aparte sfeer."
         },
@@ -405,15 +407,14 @@
           "opties": [
             "het beeld trilt niet door luchtbeweging",
             "ook ultraviolet en infrarood komen binnen",
-            "er is geen lichtvervuiling van steden",
+            "er is geen spiegel of lens meer nodig",
             "de sterren staan er een stuk dichterbij"
           ],
           "antwoord": [
             0,
-            1,
-            2
+            1
           ],
-          "uitleg": "De atmosfeer doet het beeld trillen en slikt ultraviolet en infrarood op, en steden verlichten de hemel. De afstand tot de sterren verandert natuurlijk niet."
+          "uitleg": "De atmosfeer doet het beeld trillen, slikt ultraviolet en infrarood op, en steden verlichten de hemel. Een spiegel of lens heeft elke telescoop nodig, en de afstand tot de sterren verandert natuurlijk niet."
         },
         {
           "type": "invultekst",
@@ -478,14 +479,16 @@
             "het licht van verre sterrenstelsels is naar het rood verschoven",
             "hoe verder een stelsel staat, hoe sneller het van ons weg beweegt",
             "overal in de hemel meten we een zwakke achtergrondstraling",
-            "alle sterrenstelsels bewegen naar één punt in de hemel toe"
+            "alle sterrenstelsels bewegen naar één punt in de hemel toe",
+            "de hoeveelheid helium in het heelal past bij een hete begintoestand"
           ],
           "antwoord": [
             0,
             1,
-            2
+            2,
+            4
           ],
-          "uitleg": "Roodverschuiving, het verband tussen afstand en snelheid, en de kosmische achtergrondstraling zijn de drie klassieke aanwijzingen. Van een beweging naar één punt is geen spoor."
+          "uitleg": "Roodverschuiving, het verband tussen afstand en snelheid, de kosmische achtergrondstraling en de hoeveelheid helium passen allemaal bij een heelal dat uitdijt sinds een hete start. Van een beweging naar één punt is geen spoor."
         },
         {
           "type": "meerkeuze",
@@ -591,15 +594,14 @@
           "opties": [
             "het is sinds zijn ontstaan afgekoeld",
             "zware elementen zijn in sterren gemaakt",
-            "de eerste sterren bestonden vooral uit waterstof en helium",
+            "zware elementen bestonden al voor de eerste sterren",
             "de aarde ontstond in de eerste miljoen jaar van het heelal"
           ],
           "antwoord": [
             0,
-            1,
-            2
+            1
           ],
-          "uitleg": "Het heelal koelde af, de eerste sterren bestonden uit waterstof en helium, en zwaardere elementen zoals ijzer werden pas in sterren gevormd. De aarde kwam er miljarden jaren later."
+          "uitleg": "Het heelal koelde af, en zwaardere elementen zoals ijzer werden pas in sterren gevormd, dus bestonden die daarvoor nog niet. De aarde kwam er miljarden jaren later."
         },
         {
           "type": "meerkeuze",
@@ -637,15 +639,14 @@
           "opties": [
             "de big crunch",
             "de big rip",
-            "de big chill",
+            "de big flash",
             "de big bounce"
           ],
           "antwoord": [
             0,
-            1,
-            2
+            1
           ],
-          "uitleg": "De fiche noemt big crunch, big rip en big chill. Een big bounce staat er niet bij."
+          "uitleg": "De fiche noemt big crunch, big rip en big chill. Een big bounce en een big flash staan er niet bij."
         },
         {
           "type": "invultekst",
@@ -749,12 +750,14 @@
             "de astronomische eenheid",
             "de lichtminuut",
             "de lichtseconde",
-            "de supercluster"
+            "de supercluster",
+            "de kilometer"
           ],
           "antwoord": [
             0,
             1,
-            2
+            2,
+            4
           ],
           "uitleg": "Binnen het zonnestelsel werk je met kilometer, lichtseconden, lichtminuten en AE. Een supercluster is geen afstandsmaat maar een groep sterrenstelsels."
         },
@@ -798,15 +801,14 @@
           "opties": [
             "de Orionarm",
             "het Melkwegstelsel",
-            "de Lokale Groep",
+            "de Oortwolk",
             "de Kuipergordel"
           ],
           "antwoord": [
             0,
-            1,
-            2
+            1
           ],
-          "uitleg": "Van klein naar groot: Orionarm, Melkwegstelsel, Lokale Groep, Lokale Supercluster. De Kuipergordel ligt binnen ons eigen zonnestelsel."
+          "uitleg": "Van klein naar groot: Orionarm, Melkwegstelsel, Lokale Groep, Lokale Supercluster. De Kuipergordel en de Oortwolk liggen binnen ons eigen zonnestelsel."
         },
         {
           "type": "waarofniet",
@@ -821,12 +823,14 @@
             "je ziet het zoals het 2,5 miljoen jaar geleden was",
             "het licht ervan was 2,5 miljoen jaar onderweg",
             "het staat verder weg dan elke ster van de Melkweg",
-            "het stelsel zelf is 2,5 miljoen jaar oud"
+            "het stelsel zelf is 2,5 miljoen jaar oud",
+            "je kijkt met dat beeld terug in de tijd"
           ],
           "antwoord": [
             0,
             1,
-            2
+            2,
+            4
           ],
           "uitleg": "Dat is ongeveer de afstand van Andromeda. De Melkweg is maar 100 000 lichtjaar breed, dus elk van haar sterren staat veel dichterbij. Over de ouderdom van het stelsel zegt de afstand niets."
         },
@@ -1003,14 +1007,16 @@
             "storingen in satellieten en radioverkeer",
             "poollicht dat ook in onze streken te zien is",
             "spanningspieken in hoogspanningsnetten",
-            "een meetbaar warmere zomer op het noordelijk halfrond"
+            "een meetbaar warmere zomer op het noordelijk halfrond",
+            "een hogere stralingsdosis voor piloten en astronauten"
           ],
           "antwoord": [
             0,
             1,
-            2
+            2,
+            4
           ],
-          "uitleg": "Een zonnestorm verstoort satellieten, radioverkeer en stroomnetten, en levert poollicht tot op lagere breedten. Op het weer of de seizoenen heeft ze geen merkbaar effect."
+          "uitleg": "Een zonnestorm verstoort satellieten, radioverkeer en stroomnetten, levert poollicht tot op lagere breedten en doet de stralingsdosis op grote hoogte oplopen. Op het weer of de seizoenen heeft ze geen merkbaar effect."
         },
         {
           "type": "meerkeuze",
@@ -1070,15 +1076,14 @@
           "opties": [
             "de chromosfeer",
             "de corona",
-            "de fotosfeer",
+            "de stralingszone",
             "de convectiezone"
           ],
           "antwoord": [
             0,
-            1,
-            2
+            1
           ],
-          "uitleg": "De fotosfeer, de chromosfeer en de corona vormen samen de buitenkant van de zon. De convectiezone ligt daaronder."
+          "uitleg": "De fotosfeer, de chromosfeer en de corona vormen samen de buitenkant van de zon. De convectiezone en de stralingszone liggen daaronder."
         },
         {
           "type": "waarofniet",
@@ -1105,14 +1110,16 @@
             "waterdamp",
             "koolstofdioxide",
             "stikstof",
-            "veel vrije zuurstof"
+            "veel vrije zuurstof",
+            "zwaveldioxide"
           ],
           "antwoord": [
             0,
             1,
-            2
+            2,
+            4
           ],
-          "uitleg": "Vulkanisme blies vooral waterdamp, koolstofdioxide en stikstof naar buiten. Vrije zuurstof kwam er pas veel later bij, door de fotosynthese."
+          "uitleg": "Vulkanisme blies vooral waterdamp, koolstofdioxide, stikstof en zwavelgassen naar buiten. Vrije zuurstof kwam er pas veel later bij, door de fotosynthese."
         }
       ]
     },
@@ -1127,15 +1134,14 @@
           "opties": [
             "Mercurius",
             "Venus",
-            "Mars",
+            "Jupiter",
             "Saturnus"
           ],
           "antwoord": [
             0,
-            1,
-            2
+            1
           ],
-          "uitleg": "De terrestrische of aardse planeten zijn Mercurius, Venus, de aarde en Mars: klein, rotsachtig en dicht bij de zon. Saturnus is een gasreus."
+          "uitleg": "De terrestrische of aardse planeten zijn Mercurius, Venus, de aarde en Mars: klein, rotsachtig en dicht bij de zon. Saturnus en Jupiter zijn gasreuzen."
         },
         {
           "type": "meerkeuze",
@@ -1269,14 +1275,16 @@
             "een kern",
             "een coma",
             "een staart",
-            "een korst van basalt"
+            "een korst van basalt",
+            "een rechte staart van ionen"
           ],
           "antwoord": [
             0,
             1,
-            2
+            2,
+            4
           ],
-          "uitleg": "De kern van ijs en stof, de coma eromheen en één of meer staarten. Basalt is een vulkanisch gesteente op aarde."
+          "uitleg": "De kern van ijs en stof, de coma eromheen en één of meer staarten: een gebogen stofstaart en een rechte ionenstaart. Basalt is een vulkanisch gesteente op aarde."
         },
         {
           "type": "waarofniet",
@@ -1302,15 +1310,14 @@
           "opties": [
             "een maan draait rond een planeet",
             "de gasreuzen hebben er elk meerdere",
-            "Mercurius en Venus hebben er geen",
+            "de aarde heeft er meerdere",
             "elke maan heeft zelf ook een maan"
           ],
           "antwoord": [
             0,
-            1,
-            2
+            1
           ],
-          "uitleg": "Manen draaien rond planeten, de gasreuzen hebben er tientallen, en Mercurius en Venus hebben er geen enkele. Manen van manen kennen we niet."
+          "uitleg": "Manen draaien rond planeten, de gasreuzen hebben er tientallen, en Mercurius en Venus hebben er geen enkele. De aarde heeft er precies één, en manen van manen kennen we niet."
         },
         {
           "type": "invultekst",
@@ -1508,30 +1515,31 @@
             "de afwisseling van dag en nacht",
             "het afbuigen van winden en zeestromen",
             "de afplatting van de aarde aan de polen",
-            "de afwisseling van de vier seizoenen"
+            "de afwisseling van de vier seizoenen",
+            "het verschil in uur tussen oost en west"
           ],
           "antwoord": [
             0,
             1,
-            2
+            2,
+            4
           ],
-          "uitleg": "Dag en nacht, het corioliseffect en de afplatting komen van de rotatie. De seizoenen komen van de revolutie met een schuine aardas."
+          "uitleg": "Dag en nacht, het corioliseffect, de afplatting en het tijdsverschil tussen oost en west komen van de rotatie. De seizoenen komen van de revolutie met een schuine aardas."
         },
         {
           "type": "meerkeuze",
           "vraag": "Twee plaatsen liggen op dezelfde parallel, op dezelfde breedte dus. Wat hebben ze gemeen?",
           "opties": [
             "dezelfde daglengte",
-            "dezelfde culminatiehoogte van de zon",
+            "hetzelfde weer op dezelfde dag",
             "dezelfde klimaatgordel",
             "hetzelfde moment van ware middag"
           ],
           "antwoord": [
             0,
-            1,
             2
           ],
-          "uitleg": "Daglengte, zonnehoogte en klimaatgordel hangen van de breedte af. Het moment van ware middag hangt van de lengte af, en die kan heel anders zijn."
+          "uitleg": "Daglengte, zonnehoogte en klimaatgordel hangen van de breedte af. Het moment van ware middag hangt van de lengte af, en het weer kan op dezelfde breedte heel verschillend zijn."
         },
         {
           "type": "invultekst",
@@ -1556,14 +1564,16 @@
             "ze lopen ruwweg van noord naar zuid",
             "ze volgen vaak de landsgrenzen in plaats van de meridiaan",
             "sommige landen gebruiken meer dan één uurgordel",
-            "elke uurgordel beslaat precies 24 graden lengte"
+            "elke uurgordel beslaat precies 24 graden lengte",
+            "sommige gordels liggen een halfuur naast hun buur"
           ],
           "antwoord": [
             0,
             1,
-            2
+            2,
+            4
           ],
-          "uitleg": "Uurgordels lopen noord-zuid, wijken af voor landsgrenzen, en grote landen zoals Rusland hebben er meerdere. Eén gordel is 15 graden, geen 24."
+          "uitleg": "Uurgordels lopen noord-zuid, wijken af voor landsgrenzen, grote landen zoals Rusland hebben er meerdere, en sommige, zoals India, liggen een halfuur naast hun buur. Eén gordel is 15 graden, geen 24."
         }
       ]
     },
@@ -1722,15 +1732,14 @@
           "opties": [
             "de pooldag",
             "de poolnacht",
-            "de middernachtzon",
+            "een zon die er in het westen opkomt",
             "de zenitale zon"
           ],
           "antwoord": [
             0,
-            1,
-            2
+            1
           ],
-          "uitleg": "Binnen de poolcirkels blijft de zon een deel van het jaar boven de horizon (pooldag, middernachtzon) en een deel eronder (poolnacht). Zenitaal staat de zon er nooit."
+          "uitleg": "Binnen de poolcirkels blijft de zon een deel van het jaar boven de horizon (pooldag, middernachtzon) en een deel eronder (poolnacht). Zenitaal staat de zon er nooit, en ze komt er net als overal in het oosten op."
         },
         {
           "type": "waarofniet",
@@ -1745,30 +1754,31 @@
             "de wisseling van de seizoenen",
             "een daglengte die door het jaar verandert",
             "een culminatiehoogte die door het jaar verandert",
-            "de afwisseling van dag en nacht"
+            "de afwisseling van dag en nacht",
+            "een zomer op het ene halfrond terwijl het op het andere winter is"
           ],
           "antwoord": [
             0,
             1,
-            2
+            2,
+            4
           ],
-          "uitleg": "Seizoenen, veranderende daglengte en veranderende zonnehoogte komen van de revolutie met een schuine as. Dag en nacht komen van de rotatie."
+          "uitleg": "Seizoenen, veranderende daglengte, veranderende zonnehoogte en halfronden die elkaars seizoen hebben, komen van de revolutie met een schuine as. Dag en nacht komen van de rotatie."
         },
         {
           "type": "meerkeuze",
           "vraag": "Waarom is het in de tropen het hele jaar warm?",
           "opties": [
             "de zon staat er altijd hoog boven de horizon",
-            "de culminatiehoogte blijft er het hele jaar groot",
+            "de dampkring is er dikker en houdt de warmte vast",
             "de daglengte verandert er bijna niet door het jaar",
             "de aarde staat er altijd een stuk dichter bij de zon"
           ],
           "antwoord": [
             0,
-            1,
             2
           ],
-          "uitleg": "Een hoge zon betekent dat dezelfde straling op een klein oppervlak valt, en in de tropen blijft die hoogte en de daglengte het hele jaar ongeveer gelijk. De afstand tot de zon verschilt niet van plaats tot plaats."
+          "uitleg": "Een hoge zon betekent dat dezelfde straling op een klein oppervlak valt, en in de tropen blijven die hoogte en de daglengte het hele jaar ongeveer gelijk. De afstand tot de zon verschilt niet van plaats tot plaats, en de dampkring is er niet dikker."
         },
         {
           "type": "meerkeuze",
@@ -1911,15 +1921,14 @@
           "opties": [
             "ze heeft geen eigen licht",
             "ze heeft geen noemenswaardige atmosfeer",
-            "ze draait in gebonden rotatie rond de aarde",
+            "ze draait niet om haar eigen as",
             "ze is groter dan de planeet Mercurius"
           ],
           "antwoord": [
             0,
-            1,
-            2
+            1
           ],
-          "uitleg": "De maan weerkaatst alleen zonlicht, heeft bijna geen atmosfeer, en kijkt ons door gebonden rotatie altijd met dezelfde kant aan. Mercurius is wel een stuk groter dan de maan."
+          "uitleg": "De maan weerkaatst alleen zonlicht en heeft bijna geen atmosfeer. Ze draait wel om haar as, net even snel als rond de aarde, en daarom kijkt ze ons altijd met dezelfde kant aan. Mercurius is een stuk groter dan de maan."
         },
         {
           "type": "meerkeuze",
@@ -1928,12 +1937,14 @@
             "er waait geen wind op de maan",
             "er valt geen neerslag op de maan",
             "er is bijna geen verwering of erosie",
-            "het maanstof is in de zon vastgebakken"
+            "het maanstof is in de zon vastgebakken",
+            "er is bijna geen atmosfeer"
           ],
           "antwoord": [
             0,
             1,
-            2
+            2,
+            4
           ],
           "uitleg": "Zonder atmosfeer is er geen wind en geen neerslag, dus ook bijna geen verwering of erosie. Alleen kleine inslagen wissen er traag iets uit."
         },
@@ -1960,15 +1971,14 @@
           "opties": [
             "ze is elliptisch, geen volmaakte cirkel",
             "ze staat een kleine hoek scheef op de aardbaan",
-            "ze wordt in dezelfde zin afgelegd als de aardrotatie",
+            "ze wordt in één etmaal doorlopen",
             "ze loopt precies over de polen van de aarde"
           ],
           "antwoord": [
             0,
-            1,
-            2
+            1
           ],
-          "uitleg": "De maanbaan is een ellips, helt ongeveer 5° op het eclipticavlak en wordt in dezelfde zin doorlopen. Over de polen gaat ze niet."
+          "uitleg": "De maanbaan is een ellips, helt ongeveer 5° op het eclipticavlak en wordt in ongeveer 27 dagen doorlopen, niet in één etmaal. Over de polen gaat ze niet."
         },
         {
           "type": "meerkeuze",
@@ -2129,12 +2139,14 @@
             "vloed",
             "springtij",
             "doodtij",
-            "equinox"
+            "equinox",
+            "eb"
           ],
           "antwoord": [
             0,
             1,
-            2
+            2,
+            4
           ],
           "uitleg": "Eb, vloed, hoogtij, laagtij, springtij en doodtij horen bij de getijden. Een equinox hoort bij de aardrevolutie."
         },
@@ -2207,15 +2219,14 @@
           "opties": [
             "het is nieuwe maan",
             "de maan staat dicht bij een knoop van haar baan",
-            "je staat binnen de kernschaduw van de maan",
+            "de maan staat in haar verste punt van de aarde",
             "het is springtij aan de kust"
           ],
           "antwoord": [
             0,
-            1,
-            2
+            1
           ],
-          "uitleg": "Nieuwe maan, een stand dicht bij de knoop waar de banen snijden, en een plaats in de kernschaduw. Met het getij heeft het niets te maken."
+          "uitleg": "Nieuwe maan, een stand dicht bij de knoop waar de banen snijden, en een plaats in de kernschaduw. Staat de maan in haar verste punt, dan is de verduistering ringvormig, en met het getij heeft het niets te maken."
         },
         {
           "type": "waarofniet",
@@ -2242,12 +2253,14 @@
             "in de kernschaduw is de zon volledig bedekt",
             "in de bijschaduw zie je een gedeeltelijke verduistering",
             "de kernschaduw is maar een paar honderd km breed",
-            "de kernschaduw bedekt een heel werelddeel tegelijk"
+            "de kernschaduw bedekt een heel werelddeel tegelijk",
+            "de bijschaduw is enkele duizenden kilometers breed"
           ],
           "antwoord": [
             0,
             1,
-            2
+            2,
+            4
           ],
           "uitleg": "De kernschaduw of umbra geeft de totale verduistering en is smal. De bijschaduw of penumbra is veel breder en geeft een gedeeltelijke verduistering."
         }
@@ -2387,16 +2400,15 @@
           "vraag": "Welke uitspraken over de lagen van de atmosfeer zijn juist?",
           "opties": [
             "in de troposfeer daalt de temperatuur met de hoogte",
-            "in de stratosfeer stijgt de temperatuur met de hoogte",
+            "in de mesosfeer stijgt de temperatuur met de hoogte",
             "de exosfeer is de buitenste laag",
             "de mesosfeer is de laag waar het weer zich afspeelt"
           ],
           "antwoord": [
             0,
-            1,
             2
           ],
-          "uitleg": "De troposfeer koelt naar boven af, de stratosfeer warmt op door de ozonlaag, en de exosfeer gaat over in de ruimte. Het weer zit in de troposfeer, niet in de mesosfeer."
+          "uitleg": "De troposfeer koelt naar boven af, de stratosfeer warmt op door de ozonlaag, de mesosfeer koelt weer af, en de exosfeer gaat over in de ruimte. Het weer zit in de troposfeer, niet in de mesosfeer."
         },
         {
           "type": "meerkeuze",
@@ -2405,12 +2417,14 @@
             "bijna alle waterdamp zit erin",
             "de temperatuur daalt er met de hoogte",
             "ze is boven de evenaar dikker dan boven de polen",
-            "de ozonlaag die ons beschermt zit erin"
+            "de ozonlaag die ons beschermt zit erin",
+            "bijna alle wolken zitten erin"
           ],
           "antwoord": [
             0,
             1,
-            2
+            2,
+            4
           ],
           "uitleg": "De troposfeer bevat bijna alle waterdamp en alle wolken, koelt naar boven af, en is boven de evenaar ongeveer 18 km dik tegen 8 km boven de polen. De beschermende ozonlaag zit in de stratosfeer."
         },
@@ -2438,13 +2452,12 @@
           "opties": [
             "waterdamp",
             "koolstofdioxide",
-            "methaan",
+            "stikstof",
             "argon"
           ],
           "antwoord": [
             0,
-            1,
-            2
+            1
           ],
           "uitleg": "Waterdamp, koolstofdioxide, methaan, lachgas en ozon houden warmtestraling tegen. Argon en stikstof doen dat niet."
         },
@@ -2544,14 +2557,16 @@
             "de breedteligging",
             "de invalshoek van de zonnestralen",
             "het tijdstip van de dag en het seizoen",
-            "de hoogte boven de zee"
+            "de hoogte boven de zee",
+            "de daglengte"
           ],
           "antwoord": [
             0,
             1,
-            2
+            2,
+            4
           ],
-          "uitleg": "Breedte, invalshoek en het tijdstip volgen uit rotatie en revolutie. De hoogteligging is volgens de fiche een geografische factor."
+          "uitleg": "Breedte, invalshoek, daglengte en het tijdstip volgen uit rotatie en revolutie. De hoogteligging is volgens de fiche een geografische factor."
         },
         {
           "type": "meerkeuze",
@@ -2559,15 +2574,14 @@
           "opties": [
             "de hoogteligging",
             "de zeestromen",
-            "de ligging ten opzichte van de zee",
+            "de windrichting van die dag",
             "de bewolking van die dag"
           ],
           "antwoord": [
             0,
-            1,
-            2
+            1
           ],
-          "uitleg": "Hoogte, zeestromen en afstand tot de zee zijn de drie geografische factoren. Bewolking staat bij de lokale factoren."
+          "uitleg": "Hoogte, zeestromen en afstand tot de zee zijn de drie geografische factoren. Bewolking en windrichting staan bij de lokale factoren."
         },
         {
           "type": "meerkeuze",
@@ -2575,15 +2589,14 @@
           "opties": [
             "de helling en de vegetatie",
             "de bodem en de bewolking",
-            "de windrichting",
+            "de zeestromen",
             "de breedteligging"
           ],
           "antwoord": [
             0,
-            1,
-            2
+            1
           ],
-          "uitleg": "Helling, vegetatie, bodem, bewolking en windrichting zijn lokale factoren. De breedteligging volgt uit de stand van de aarde."
+          "uitleg": "Helling, vegetatie, bodem, bewolking en windrichting zijn lokale factoren. De breedteligging volgt uit de stand van de aarde, en de zeestromen zijn een geografische factor."
         },
         {
           "type": "meerkeuze",
@@ -2853,12 +2866,14 @@
             "hij komt uit het noorden",
             "hij blaast naar het zuiden",
             "hij brengt bij ons koude lucht mee",
-            "hij heet zo omdat hij naar het noorden waait"
+            "hij heet zo omdat hij naar het noorden waait",
+            "hij heet naar de kant waar hij vandaan komt"
           ],
           "antwoord": [
             0,
             1,
-            2
+            2,
+            4
           ],
           "uitleg": "Een wind wordt genoemd naar de kant waar hij vándaan komt. Een noordenwind komt dus uit het noorden, blaast naar het zuiden en voert bij ons poollucht aan."
         },
@@ -2874,15 +2889,14 @@
           "opties": [
             "in een maximum daalt de lucht",
             "in een minimum stijgt de lucht",
-            "lucht stroomt van hoge naar lage druk",
+            "in een maximum stroomt de lucht aan de grond naar het centrum toe",
             "in een maximum regent het bijna altijd"
           ],
           "antwoord": [
             0,
-            1,
-            2
+            1
           ],
-          "uitleg": "Dalende lucht in een maximum, stijgende lucht in een minimum, en wind van hoog naar laag. Regen hoort juist bij de lage druk."
+          "uitleg": "Dalende lucht in een maximum, stijgende lucht in een minimum. Aan de grond waait de wind van hoog naar laag, dus uit een maximum weg. Regen hoort juist bij de lage druk."
         },
         {
           "type": "invultekst",
@@ -3000,12 +3014,14 @@
             "equatoriaal minimum",
             "subtropisch maximum",
             "subpolair minimum",
-            "tropisch maximum op 10°"
+            "tropisch maximum op 10°",
+            "polair maximum"
           ],
           "antwoord": [
             0,
             1,
-            2
+            2,
+            4
           ],
           "uitleg": "Van de evenaar naar de pool: equatoriaal minimum, subtropisch maximum, subpolair minimum en polair maximum."
         },
@@ -3107,15 +3123,14 @@
           "opties": [
             "ze schuift mee met de zenitale zon",
             "er valt veel convectieve regen",
-            "de passaten van beide halfronden komen er samen",
+            "ze valt samen met de subtropische hogedrukgordel",
             "ze ligt het hele jaar precies op de evenaar"
           ],
           "antwoord": [
             0,
-            1,
-            2
+            1
           ],
-          "uitleg": "De ITCZ schuift met de zenitale zon naar het noorden en zuiden, is de plaats waar de passaten samenkomen, en kent zware buien door opstijgende lucht."
+          "uitleg": "De ITCZ schuift met de zenitale zon naar het noorden en zuiden, is de plaats waar de passaten samenkomen, en kent zware buien door opstijgende lucht. De subtropische maxima liggen er een flink stuk van af."
         },
         {
           "type": "meerkeuze",
@@ -3135,15 +3150,14 @@
           "opties": [
             "de algemene luchtcirculatie",
             "de ITCZ en de straalstroom",
-            "het corioliseffect en de land- en zeewinden",
+            "de aantrekkingskracht van de zon op de lucht",
             "de getijden van de maan"
           ],
           "antwoord": [
             0,
-            1,
-            2
+            1
           ],
-          "uitleg": "De fiche somt de algemene luchtcirculatie, de ITCZ, de straalstroom, het corioliseffect en de land- en zeewinden op. De getijden spelen geen rol in de lucht."
+          "uitleg": "De fiche somt de algemene luchtcirculatie, de ITCZ, de straalstroom, het corioliseffect en de land- en zeewinden op. De getijden en de aantrekkingskracht van de zon spelen geen rol in de lucht."
         },
         {
           "type": "waarofniet",
@@ -3177,12 +3191,14 @@
             "verdamping",
             "condensatie",
             "neerslag",
-            "de vorming van nieuw grondwater uit magma"
+            "de vorming van nieuw grondwater uit magma",
+            "de afvloei via rivieren"
           ],
           "antwoord": [
             0,
             1,
-            2
+            2,
+            4
           ],
           "uitleg": "Water verdampt, condenseert tot wolken, valt als neerslag en stroomt via rivieren en grondwater terug. Uit magma komt er geen nieuw water bij."
         },
@@ -3295,15 +3311,14 @@
           "opties": [
             "regen",
             "sneeuw",
-            "hagel",
+            "mist",
             "steenlawine"
           ],
           "antwoord": [
             0,
-            1,
-            2
+            1
           ],
-          "uitleg": "Regen, sneeuw, hagel, ijzel en natte sneeuw zijn neerslag. Een steenlawine is massatransport van gesteente, geen neerslag."
+          "uitleg": "Regen, sneeuw, hagel, ijzel en natte sneeuw zijn neerslag. Mist is een wolk aan de grond en een steenlawine is massatransport van gesteente: geen van beide is neerslag."
         },
         {
           "type": "invultekst",
@@ -3340,14 +3355,16 @@
             "ze geven water af via hun bladeren",
             "ze houden regenwater tegen voor het de grond raakt",
             "ze helpen het water in de bodem dringen",
-            "ze maken zelf nieuw water aan uit de bodem"
+            "ze maken zelf nieuw water aan uit de bodem",
+            "ze houden met hun schaduw de verdamping uit de bodem laag"
           ],
           "antwoord": [
             0,
             1,
-            2
+            2,
+            4
           ],
-          "uitleg": "Bomen transpireren, vangen neerslag op in hun kruin en maken de bodem met hun wortels doorlatender. Nieuw water maken ze niet."
+          "uitleg": "Bomen transpireren, vangen neerslag op in hun kruin, maken de bodem met hun wortels doorlatender en houden met hun schaduw de verdamping uit de bodem laag. Nieuw water maken ze niet."
         },
         {
           "type": "meerkeuze",
@@ -3452,16 +3469,15 @@
           "vraag": "Welke factoren bepalen volgens de vakfiche de neerslagverdeling op aarde?",
           "opties": [
             "hoge of lage luchtdruk",
-            "de zeestromen langs de kust",
+            "de stand van de maan",
             "het reliëf en de ligging ten opzichte van de zee",
             "de hoeveelheid ozon in de stratosfeer"
           ],
           "antwoord": [
             0,
-            1,
             2
           ],
-          "uitleg": "De fiche noemt drukgebieden, zeestromen, positie ten opzichte van de zee, reliëf, de ligging nabij de ITCZ en de fronten. Ozon staat er niet bij."
+          "uitleg": "De fiche noemt drukgebieden, zeestromen, positie ten opzichte van de zee, reliëf, de ligging nabij de ITCZ en de fronten. Ozon en de stand van de maan staan er niet bij."
         },
         {
           "type": "meerkeuze",
@@ -3533,15 +3549,14 @@
           "opties": [
             "convectieregens",
             "stijgingsregens",
-            "frontale regens",
+            "poolregens",
             "zeestroomregens"
           ],
           "antwoord": [
             0,
-            1,
-            2
+            1
           ],
-          "uitleg": "Convectieregens door opwarming, stijgingsregens door reliëf en frontale regens door de ontmoeting van luchtsoorten. Zeestroomregens bestaan niet als begrip."
+          "uitleg": "Convectieregens door opwarming, stijgingsregens door reliëf en frontale regens door de ontmoeting van luchtsoorten. Zeestroomregens en poolregens bestaan niet als begrip."
         },
         {
           "type": "waarofniet",
@@ -3568,14 +3583,16 @@
             "de loefzijde krijgt de stijgingsregens",
             "aan de lijzijde ligt de regenschaduw",
             "dalende lucht aan de lijzijde droogt uit",
-            "de neerslag is aan beide kanten gelijk"
+            "de neerslag is aan beide kanten gelijk",
+            "stijgende lucht koelt af en kan minder water vasthouden"
           ],
           "antwoord": [
             0,
             1,
-            2
+            2,
+            4
           ],
-          "uitleg": "Aan de windzijde stijgt de lucht en regent ze uit, aan de andere kant daalt ze, warmt op en droogt uit. Vandaar het grote verschil tussen beide flanken."
+          "uitleg": "Aan de windzijde stijgt de lucht, koelt af, kan minder water vasthouden en regent ze uit. Aan de andere kant daalt ze, warmt op en droogt uit. Vandaar het grote verschil tussen beide flanken."
         },
         {
           "type": "invultekst",
@@ -3734,12 +3751,14 @@
             "de taiga",
             "de poolwoestijn",
             "de savanne",
-            "de mangrove van de Noordzee"
+            "de mangrove van de Noordzee",
+            "het tropisch regenwoud"
           ],
           "antwoord": [
             0,
             1,
-            2
+            2,
+            4
           ],
           "uitleg": "De fiche noemt taiga, poolwoestijn, savanne en tropisch regenwoud. Mangrove groeit in de tropen, niet aan de Noordzee."
         },
@@ -3749,15 +3768,14 @@
           "opties": [
             "zachte winters voor onze breedte",
             "koele zomers zonder lange hitte",
-            "neerslag in alle maanden van het jaar",
+            "een natte zomer en een droge winter",
             "een droge tijd van drie maanden"
           ],
           "antwoord": [
             0,
-            1,
-            2
+            1
           ],
-          "uitleg": "België heeft een gematigd zeeklimaat: de oceaan en de westenwinden dempen de uitersten en brengen het hele jaar neerslag. Een droge tijd hebben we niet."
+          "uitleg": "België heeft een gematigd zeeklimaat: de oceaan en de westenwinden dempen de uitersten en brengen het hele jaar neerslag. Een droge tijd of een echt nat seizoen hebben we niet."
         },
         {
           "type": "meerkeuze",
@@ -3804,15 +3822,14 @@
           "opties": [
             "de polaire klimaten",
             "de gematigde klimaten",
-            "de tropische klimaten",
+            "de hooggebergteklimaten",
             "de continentale klimaten"
           ],
           "antwoord": [
             0,
-            1,
-            2
+            1
           ],
-          "uitleg": "De fiche legt het verband tussen culminatiehoogte, daglengte, breedte en temperatuur voor de polaire, de gematigde en de tropische klimaten."
+          "uitleg": "De fiche legt het verband tussen culminatiehoogte, daglengte, breedte en temperatuur voor de polaire, de gematigde en de tropische klimaten. Continentale en hooggebergteklimaten staan er niet bij."
         },
         {
           "type": "meerkeuze",
@@ -3906,14 +3923,16 @@
             "de Labradorstroom",
             "de Humboldtstroom",
             "de Benguelastroom",
-            "de Golfstroom"
+            "de Golfstroom",
+            "de Canarische stroom"
           ],
           "antwoord": [
             0,
             1,
-            2
+            2,
+            4
           ],
-          "uitleg": "Labrador, Humboldt en Benguela brengen koud water naar lagere breedten. De Golfstroom is net de bekendste warme stroom."
+          "uitleg": "Labrador, Humboldt, Benguela en de Canarische stroom brengen koud water naar lagere breedten. De Golfstroom is net de bekendste warme stroom."
         },
         {
           "type": "meerkeuze",
@@ -3972,15 +3991,14 @@
           "opties": [
             "koudere winters in West-Europa",
             "een verschuiving van de regengordels",
-            "minder zuurstof in het diepe water",
+            "een sterkere Golfstroom langs onze kust",
             "het verdwijnen van eb en vloed"
           ],
           "antwoord": [
             0,
-            1,
-            2
+            1
           ],
-          "uitleg": "De fiche vraagt naar de mogelijke gevolgen: afkoeling bij ons, verschoven regenpatronen en minder diepwaterzuurstof. De getijden hangen van de maan af, niet van de stromen."
+          "uitleg": "De fiche vraagt naar de mogelijke gevolgen: afkoeling bij ons, verschoven regenpatronen en minder diepwaterzuurstof. De Golfstroom wordt juist zwakker, en de getijden hangen van de maan af, niet van de stromen."
         },
         {
           "type": "waarofniet",
@@ -4059,14 +4077,16 @@
             "ze vervoeren warmte van de evenaar naar de polen",
             "ze beïnvloeden het klimaat van de kusten",
             "ze worden afgebogen door het corioliseffect",
-            "ze veroorzaken het getij aan de kust"
+            "ze veroorzaken het getij aan de kust",
+            "ze brengen langs sommige westkusten koud water naar boven"
           ],
           "antwoord": [
             0,
             1,
-            2
+            2,
+            4
           ],
-          "uitleg": "Zeestromen verplaatsen warmte, bepalen mee het kustklimaat en buigen af door de aardrotatie. Het getij komt van de maan en de zon."
+          "uitleg": "Zeestromen verplaatsen warmte, bepalen mee het kustklimaat, buigen af door de aardrotatie en brengen langs westkusten zoals die van Peru koud water naar boven. Het getij komt van de maan en de zon."
         }
       ]
     },
@@ -4152,17 +4172,16 @@
           "type": "meerkeuze",
           "vraag": "Welke luchtsoorten noemt de vakfiche?",
           "opties": [
-            "arctisch",
+            "antarctisch",
             "polair",
             "tropisch",
             "equatoriaal"
           ],
           "antwoord": [
-            0,
             1,
             2
           ],
-          "uitleg": "De fiche noemt arctisch, polair en tropisch, elk in een maritieme en een continentale vorm. Equatoriale lucht komt tot bij ons niet."
+          "uitleg": "De fiche noemt arctisch, polair en tropisch, elk in een maritieme en een continentale vorm. Equatoriale en antarctische lucht komt tot bij ons niet."
         },
         {
           "type": "meerkeuze",
@@ -4271,14 +4290,16 @@
             "een flauwe helling van het frontvlak",
             "langdurige, gelijkmatige neerslag",
             "hoge sluierwolken vooraf",
-            "korte, zware onweersbuien erbij"
+            "korte, zware onweersbuien erbij",
+            "een temperatuur die na de doortocht geleidelijk stijgt"
           ],
           "antwoord": [
             0,
             1,
-            2
+            2,
+            4
           ],
-          "uitleg": "Een warmtefront glijdt flauw op en geeft brede, trage regen, aangekondigd door hoge cirrus. De zware buien horen bij een koufront."
+          "uitleg": "Een warmtefront glijdt flauw op en geeft brede, trage regen, aangekondigd door hoge cirrus. Daarna stijgt de temperatuur geleidelijk. De zware buien horen bij een koufront."
         },
         {
           "type": "meerkeuze",
@@ -4286,15 +4307,14 @@
           "opties": [
             "het koufront heeft het warmtefront ingehaald",
             "de warme lucht is van de grond getild",
-            "de depressie is aan haar einde toe",
+            "de depressie wordt juist nog dieper",
             "er volgt altijd een lange droge periode"
           ],
           "antwoord": [
             0,
-            1,
-            2
+            1
           ],
-          "uitleg": "Bij een occlusie zijn beide fronten samengevallen en is de warme lucht volledig opgetild. De depressie vult zich en sterft af. Wat erna komt, hangt van de volgende storing af."
+          "uitleg": "Bij een occlusie zijn beide fronten samengevallen en is de warme lucht volledig opgetild. De depressie vult zich en sterft af, ze wordt niet dieper. Wat erna komt, hangt van de volgende storing af."
         }
       ]
     },
@@ -4362,12 +4382,14 @@
             "koufront en warmtefront",
             "occlusiefront en neerslagzones",
             "drukkernen en isobaren",
-            "de hoogtelijnen van het reliëf"
+            "de hoogtelijnen van het reliëf",
+            "windrichtingen en isothermen"
           ],
           "antwoord": [
             0,
             1,
-            2
+            2,
+            4
           ],
           "uitleg": "De fiche vraagt koufront, warmtefront, occlusiefront, neerslagzones, windrichtingen, drukgebieden, drukkernen, isobaren en isothermen. Hoogtelijnen horen op een topografische kaart."
         },
@@ -4447,15 +4469,14 @@
           "opties": [
             "de ligging van de drukgebieden",
             "de stand en de zin van de fronten",
-            "de richting waarin alles verschuift",
+            "de neerslag van de afgelopen week",
             "de hoogtelijnen van het landschap"
           ],
           "antwoord": [
             0,
-            1,
-            2
+            1
           ],
-          "uitleg": "Je kijkt waar de kernen en de fronten liggen en waarheen ze trekken. Daaruit volgt welke luchtsoort en welke neerslag er aankomt."
+          "uitleg": "Je kijkt waar de kernen en de fronten liggen en waarheen ze trekken. Daaruit volgt welke luchtsoort en welke neerslag er aankomt; wat vorige week viel, zegt daarover niets."
         },
         {
           "type": "meerkeuze",
@@ -4503,15 +4524,14 @@
           "opties": [
             "de luchtdruk",
             "de temperatuur",
-            "de drukkernen",
+            "de hoeveelheid neerslag die eraan komt",
             "de neerslag van vorige week"
           ],
           "antwoord": [
             0,
-            1,
-            2
+            1
           ],
-          "uitleg": "Isobaren geven de druk, isothermen de temperatuur, en de letters geven de kernen. Wat er al gevallen is, hoort op een neerslagkaart van achteraf."
+          "uitleg": "Isobaren geven de druk en isothermen de temperatuur. Hoeveel neerslag er valt, lees je op zo'n kaart niet af, en wat er al gevallen is hoort op een neerslagkaart van achteraf."
         },
         {
           "type": "meerkeuze",
@@ -4624,12 +4644,14 @@
             "lithosfeer en asthenosfeer",
             "korst, mantel en kern",
             "binnenkern en buitenkern",
-            "troposfeer en stratosfeer"
+            "troposfeer en stratosfeer",
+            "de mesosfeer of ondermantel"
           ],
           "antwoord": [
             0,
             1,
-            2
+            2,
+            4
           ],
           "uitleg": "De fiche somt lithosfeer, asthenosfeer, mesosfeer of ondermantel, binnen- en buitenkern, korst, mantel en kern op. Tropo- en stratosfeer horen bij de atmosfeer."
         },
@@ -4698,15 +4720,14 @@
           "opties": [
             "ze bestaat vooral uit ijzer",
             "de buitenkern is vloeibaar",
-            "de binnenkern is vast door de hoge druk",
+            "de binnenkern is vloeibaar door de hitte",
             "ze is de koudste laag van de aarde"
           ],
           "antwoord": [
             0,
-            1,
-            2
+            1
           ],
-          "uitleg": "Ijzer met nikkel, een vloeibare buitenkern en een vaste binnenkern door de enorme druk. De kern is net de héétste laag, tot wel 5 000 °C."
+          "uitleg": "Ijzer met nikkel, een vloeibare buitenkern en een vaste binnenkern: de druk daar is zo groot dat het ijzer niet vloeibaar kan zijn. De kern is net de héétste laag, tot wel 5 000 °C."
         },
         {
           "type": "meerkeuze",
@@ -4742,13 +4763,12 @@
           "opties": [
             "de lithosfeer",
             "de asthenosfeer",
-            "de mesosfeer of ondermantel",
+            "de aardmantel",
             "de aardkorst"
           ],
           "antwoord": [
             0,
-            1,
-            2
+            1
           ],
           "uitleg": "Lithosfeer, asthenosfeer en mesosfeer gaan over het mechanische gedrag van het gesteente. Korst, mantel en kern gaan over de samenstelling."
         }
@@ -4868,15 +4888,14 @@
           "opties": [
             "de dichtheid",
             "de dikte",
-            "de opbouw en de samenstelling",
+            "de hoogte van de bergen erop",
             "de ouderdom van de fossielen"
           ],
           "antwoord": [
             0,
-            1,
-            2
+            1
           ],
-          "uitleg": "De fiche vraagt dichtheid, dikte, opbouw en samenstelling te vergelijken. Fossielen horen bij de datering van aardlagen."
+          "uitleg": "De fiche vraagt dichtheid, dikte, opbouw en samenstelling te vergelijken. Fossielen horen bij de datering van aardlagen, en bergtoppen zijn geen vergelijkingspunt."
         },
         {
           "type": "meerkeuze",
@@ -4915,12 +4934,14 @@
             "ze ligt boven op de basaltkorst",
             "ze bestaat uit slib, zand en resten van zeeleven",
             "ze is dikker naarmate je verder van de rug komt",
-            "ze is overal precies even dik"
+            "ze is overal precies even dik",
+            "bij de rug zelf is ze het dunst"
           ],
           "antwoord": [
             0,
             1,
-            2
+            2,
+            4
           ],
           "uitleg": "Op het basalt zakt materiaal van de continenten en uit het zeewater neer. Hoe ouder de bodem, en dus hoe verder van de rug, hoe meer er ligt."
         },
@@ -4930,15 +4951,14 @@
           "opties": [
             "ze bestaat vooral uit basalt",
             "ze is dunner dan de continentale korst",
-            "ze heeft een hogere dichtheid",
+            "ze is lichter dan de continentale korst",
             "ze is overal ouder dan de continenten"
           ],
           "antwoord": [
             0,
-            1,
-            2
+            1
           ],
-          "uitleg": "Basalt, dun en dicht: daarom duikt oceanische korst onder continentale. Ze is net veel jonger, want ze wordt voortdurend vernieuwd."
+          "uitleg": "Basalt, dun en dicht: daarom duikt oceanische korst onder continentale, want lichter is ze juist niet. Ze is wel veel jonger, want ze wordt voortdurend vernieuwd."
         },
         {
           "type": "invultekst",
@@ -5003,14 +5023,16 @@
             "Zuid-Amerika en Afrika",
             "Australië en Antarctica",
             "India en Arabië",
-            "Europa en Noord-Amerika"
+            "Europa en Noord-Amerika",
+            "Madagaskar"
           ],
           "antwoord": [
             0,
             1,
-            2
+            2,
+            4
           ],
-          "uitleg": "Gondwana was het zuidelijke deel van Pangea: Zuid-Amerika, Afrika, Australië, Antarctica, India en Arabië. Europa en Noord-Amerika vormden Laurazië."
+          "uitleg": "Gondwana was het zuidelijke deel van Pangea: Zuid-Amerika, Afrika, Australië, Antarctica, India, Arabië en Madagaskar. Europa en Noord-Amerika vormden Laurazië."
         },
         {
           "type": "meerkeuze",
@@ -5134,12 +5156,14 @@
             "divergentie",
             "convergentie",
             "de transforme beweging",
-            "de rotatiebeweging"
+            "de rotatiebeweging",
+            "de isostasie als verticale beweging"
           ],
           "antwoord": [
             0,
             1,
-            2
+            2,
+            4
           ],
           "uitleg": "De fiche noemt divergentie, convergentie, de transforme beweging en, als verticale beweging, de isostasie."
         },
@@ -5173,15 +5197,14 @@
           "opties": [
             "Pangea en Gondwana",
             "mantelpluim en hotspot",
-            "riftster en subductie",
+            "isotherm en isohypse",
             "isohyeet en isobaar"
           ],
           "antwoord": [
             0,
-            1,
-            2
+            1
           ],
-          "uitleg": "De fiche somt Gondwana, Pangea, mantelpluim, hotspot, riftster en subductie op. Isohyeten en isobaren horen bij het weer."
+          "uitleg": "De fiche somt Gondwana, Pangea, mantelpluim, hotspot, riftster en subductie op. Isohyeten, isobaren, isothermen en isohypsen horen bij kaarten van het weer en het reliëf."
         },
         {
           "type": "meerkeuze",
@@ -5325,12 +5348,14 @@
             "diepzeetrog en oceanische rug",
             "continentaal plat en continentale helling",
             "plooiingsgebergte en slenk",
-            "doline en verdwijngat"
+            "doline en verdwijngat",
+            "abyssale vlakte en rift"
           ],
           "antwoord": [
             0,
             1,
-            2
+            2,
+            4
           ],
           "uitleg": "De fiche noemt onder meer diepzeetrog, oceanische rug, continentaal plat en helling, abyssale vlakte, plooiings-, kust- en continentaal gebergte, slenk en rift. Dolines horen bij karst."
         },
@@ -5379,16 +5404,15 @@
           "vraag": "Welke uitspraken over de ligging van aardbevingen en vulkanen zijn juist?",
           "opties": [
             "ze liggen vooral aan de plaatranden",
-            "samen tekenen ze de plaatgrenzen uit",
+            "ze liggen willekeurig over de aarde verspreid",
             "de Ring of Fire is de bekendste gordel",
             "ze liggen vooral rond de evenaar"
           ],
           "antwoord": [
             0,
-            1,
             2
           ],
-          "uitleg": "Zet je alle bevingen op een wereldkaart, dan verschijnen de plaatgrenzen. De Ring of Fire rond de Stille Oceaan is de bekendste. Met de breedtegraad heeft het niets te maken."
+          "uitleg": "Zet je alle bevingen op een wereldkaart, dan verschijnen de plaatgrenzen, dus van willekeur is geen sprake. De Ring of Fire rond de Stille Oceaan is de bekendste gordel. Met de breedtegraad heeft het niets te maken."
         },
         {
           "type": "meerkeuze",
@@ -5421,12 +5445,14 @@
             "het toont de hoogte langs een gekozen lijn",
             "je kan er reliëfvormen op benoemen",
             "de ligging ervan lees je van een kaart af",
-            "het toont de bevolkingsdichtheid per gemeente"
+            "het toont de bevolkingsdichtheid per gemeente",
+            "je kiest zelf waar de lijn op de kaart loopt"
           ],
           "antwoord": [
             0,
             1,
-            2
+            2,
+            4
           ],
           "uitleg": "Een dwarsprofiel is een zijaanzicht langs een lijn op de kaart. Je leest er de hoogteverschillen op en benoemt de vormen. Over bevolking zegt het niets."
         },
@@ -5562,12 +5588,14 @@
             "instortende gebouwen",
             "een tsunami aan de kust",
             "aardverschuivingen op hellingen",
-            "een ozongat boven de pool"
+            "een ozongat boven de pool",
+            "branden door gebroken leidingen"
           ],
           "antwoord": [
             0,
             1,
-            2
+            2,
+            4
           ],
           "uitleg": "Instorting, tsunami's, aardverschuivingen, branden en breuken in leidingen. Met de ozonlaag heeft een beving niets te maken."
         },
@@ -5577,15 +5605,14 @@
           "opties": [
             "de gebouwen zijn er minder bevingsveilig",
             "er is minder geld voor een waarschuwingssysteem",
-            "de hulpdiensten kunnen er minder snel ter plaatse zijn",
+            "de bodem is er altijd losser",
             "de bevingen zijn er altijd zwaarder van magnitude"
           ],
           "antwoord": [
             0,
-            1,
-            2
+            1
           ],
-          "uitleg": "Bevingsveilig bouwen, waarschuwen en hulp organiseren kost allemaal geld. De magnitude zelf heeft niets met rijkdom te maken."
+          "uitleg": "Bevingsveilig bouwen, waarschuwen en hulp organiseren kost allemaal geld. De magnitude en de bodem zelf hebben niets met rijkdom te maken."
         },
         {
           "type": "waarofniet",
@@ -5640,12 +5667,14 @@
             "seismologie en seismogram",
             "seismograaf",
             "hypocentrum en epicentrum",
-            "doline en resurgentie"
+            "doline en resurgentie",
+            "de schaal van Richter en de MMS"
           ],
           "antwoord": [
             0,
             1,
-            2
+            2,
+            4
           ],
           "uitleg": "De fiche noemt seismologie, seismogram, seismograaf, hypocentrum, epicentrum, Richter en de MMS. Dolines en resurgenties horen bij karst."
         },
@@ -5696,12 +5725,14 @@
             "de magmakamer",
             "de schoorsteen of pijp",
             "de krater",
-            "het epicentrum"
+            "het epicentrum",
+            "de zijschoorstenen"
           ],
           "antwoord": [
             0,
             1,
-            2
+            2,
+            4
           ],
           "uitleg": "Een vulkaan heeft een magmakamer, een schoorsteen, een krater en vaak zijschoorstenen. Een epicentrum hoort bij een aardbeving."
         },
@@ -5802,15 +5833,14 @@
           "opties": [
             "de bodem is er heel vruchtbaar",
             "er is aardwarmte te winnen",
-            "er komen veel toeristen op af",
+            "de lucht is er zuiverder dan elders",
             "er gebeuren daar nooit aardbevingen"
           ],
           "antwoord": [
             0,
-            1,
-            2
+            1
           ],
-          "uitleg": "Verweerde vulkanische as geeft een rijke bodem, en daar komen aardwarmte en toerisme bij. Juist bij een vulkaan beeft de grond wel vaak."
+          "uitleg": "Verweerde vulkanische as geeft een rijke bodem, en daar komen aardwarmte en toerisme bij. Juist bij een vulkaan beeft de grond wel vaak, en door de gassen is de lucht er niet zuiverder."
         },
         {
           "type": "waarofniet",
@@ -5836,15 +5866,14 @@
           "opties": [
             "lapilli",
             "vulkanische bommen",
-            "vulkanische as",
+            "zandduinen",
             "druipstenen"
           ],
           "antwoord": [
             0,
-            1,
-            2
+            1
           ],
-          "uitleg": "De fiche noemt lapilli, vulkanische bommen, vulkanische as, en daarnaast magma en lava. Druipstenen horen bij karst."
+          "uitleg": "De fiche noemt lapilli, vulkanische bommen, vulkanische as, en daarnaast magma en lava. Druipstenen horen bij karst en duinen bij de wind."
         },
         {
           "type": "waarofniet",
@@ -5926,14 +5955,16 @@
             "basalt",
             "puimsteen",
             "obsidiaan",
-            "graniet"
+            "graniet",
+            "andesiet"
           ],
           "antwoord": [
             0,
             1,
-            2
+            2,
+            4
           ],
-          "uitleg": "Basalt, puimsteen en obsidiaan zijn aan het oppervlak uitgevloeid en snel afgekoeld, dus fijnkorrelig of glasachtig. Graniet is een dieptegesteente."
+          "uitleg": "Basalt, puimsteen, obsidiaan en andesiet zijn aan het oppervlak uitgevloeid en snel afgekoeld, dus fijnkorrelig of glasachtig. Graniet is een dieptegesteente."
         },
         {
           "type": "invultekst",
@@ -6002,15 +6033,14 @@
           "opties": [
             "krijt",
             "steenkool",
-            "kalksteen uit schelpen",
+            "gips uit een verdampte zee",
             "steenzout uit een opgedroogde zee"
           ],
           "antwoord": [
             0,
-            1,
-            2
+            1
           ],
-          "uitleg": "Krijt komt van kalkskeletjes van plankton, steenkool van plantenresten en veel kalksteen van schelpen en koraal. Steenzout is een chemisch gesteente."
+          "uitleg": "Krijt komt van kalkskeletjes van plankton en steenkool van plantenresten. Steenzout en gips blijven achter als zeewater verdampt: dat zijn chemische gesteenten."
         },
         {
           "type": "meerkeuze",
@@ -6076,12 +6106,14 @@
             "pyriet en grafiet",
             "diamant en kwarts",
             "veldspaat en biotiet",
-            "marmer en gneiss"
+            "marmer en gneiss",
+            "zout"
           ],
           "antwoord": [
             0,
             1,
-            2
+            2,
+            4
           ],
           "uitleg": "De fiche vraagt pyriet, grafiet, diamant, kwarts, veldspaat, biotiet en zout als mineralen. Marmer en gneiss zijn gesteenten, geen mineralen."
         },
@@ -6205,15 +6237,14 @@
           "opties": [
             "de soort leefde maar kort op aarde",
             "de soort kwam over een groot gebied voor",
-            "de soort is makkelijk te herkennen",
+            "de soort komt in alle aardlagen voor",
             "de soort was het grootste dier van haar tijd"
           ],
           "antwoord": [
             0,
-            1,
-            2
+            1
           ],
-          "uitleg": "Kort geleefd, wijd verspreid en herkenbaar: vind je zo'n fossiel in een laag, dan weet je meteen hoe oud die laag ongeveer is. Grootte speelt geen rol."
+          "uitleg": "Kort geleefd, wijd verspreid en herkenbaar: vind je zo'n fossiel in een laag, dan weet je meteen hoe oud die laag ongeveer is. Een soort die in alle lagen zit, zegt net niets, en grootte speelt geen rol."
         },
         {
           "type": "meerkeuze",
@@ -6307,15 +6338,14 @@
           "opties": [
             "de Caledonische",
             "de Hercynische",
-            "de Alpiene",
+            "de Laurazische",
             "de Pangeïsche"
           ],
           "antwoord": [
             0,
-            1,
-            2
+            1
           ],
-          "uitleg": "De fiche vraagt de Caledonische, de Hercynische en de Alpiene plooiing op de tijdschaal te situeren en aan de platentektoniek te koppelen."
+          "uitleg": "De fiche vraagt de Caledonische, de Hercynische en de Alpiene plooiing op de tijdschaal te situeren. Een Pangeïsche of Laurazische plooiing bestaat niet: dat zijn namen van oercontinenten."
         },
         {
           "type": "meerkeuze",
@@ -6324,12 +6354,14 @@
             "de erosie heeft er veel langer op gewerkt",
             "de opstuwing is er al lang gestopt",
             "verwering heeft de toppen afgerond",
-            "ze zijn nooit even hoog opgestuwd geweest"
+            "ze zijn nooit even hoog opgestuwd geweest",
+            "het puin is naar de omliggende laagten gevoerd"
           ],
           "antwoord": [
             0,
             1,
-            2
+            2,
+            4
           ],
           "uitleg": "Zodra de opstuwing stopt, breken verwering en erosie het gebergte af. De Caledonische en Hercynische gebergten waren ooit even hoog als de Alpen nu."
         }
@@ -6370,15 +6402,14 @@
           "opties": [
             "fysische verwering",
             "chemische verwering",
-            "biologische verwering",
+            "vulkanische verwering",
             "tektonische verwering"
           ],
           "antwoord": [
             0,
-            1,
-            2
+            1
           ],
-          "uitleg": "De fiche vraagt de fysische, chemische en biologische verwering in het landschap te herkennen. Tektoniek is geen verwering maar een beweging van de korst."
+          "uitleg": "De fiche vraagt de fysische, chemische en biologische verwering in het landschap te herkennen. Tektoniek en vulkanisme zijn geen verwering maar bewegingen van de korst."
         },
         {
           "type": "meerkeuze",
