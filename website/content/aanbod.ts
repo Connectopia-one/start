@@ -85,7 +85,7 @@ export const trajecten: Traject[] = [
     ondertitel: "De hele dag ontdekken in Hasselt",
     kleur: "green",
     icoon: "🚀",
-    leeftijd: "6 tot 12 jaar",
+    leeftijd: "6 tot 15 jaar",
     prijs: "€50 per dag",
     prijsWas: "€60",
     regels: [
@@ -122,7 +122,7 @@ export const trajecten: Traject[] = [
     ondertitel: "Voorbereiding op de examencommissie",
     kleur: "purple",
     icoon: "🎓",
-    leeftijd: "6 tot 12 jaar",
+    leeftijd: "6 tot 15 jaar",
     prijs: "€25 per 3 uur",
     prijsWas: "€30",
     regels: [
@@ -153,7 +153,7 @@ export const trajecten: Traject[] = [
     ondertitel: "Creativiteit en techniek laten samenkomen",
     kleur: "orange",
     icoon: "🎨",
-    leeftijd: "6 tot 12 jaar",
+    leeftijd: "6 tot 15 jaar",
     prijs: "€25 per 3 uur",
     prijsWas: "€30",
     regels: [
@@ -183,7 +183,7 @@ export const trajecten: Traject[] = [
     ondertitel: "Naschoolse activiteiten rond STEM en techniek",
     kleur: "blue",
     icoon: "⚙️",
-    leeftijd: "6 tot 12 jaar",
+    leeftijd: "6 tot 15 jaar",
     prijs: "€20 per les",
     prijsWas: "€25",
     regels: [
@@ -215,7 +215,7 @@ export const trajecten: Traject[] = [
     ondertitel: "Tijdens elke schoolvakantie",
     kleur: "green",
     icoon: "🏕️",
-    leeftijd: "6 tot 12 jaar",
+    leeftijd: "6 tot 13 jaar",
     prijs: "€40 per dag",
     regels: [
       { label: "Uren", waarde: "Elke dag van 9u tot 15u" },

@@ -18,7 +18,7 @@ export const professionals = {
   titel: "Werk jij met deze kinderen?",
   handgeschreven: "Jij ziet ze in je praktijk, wij zien ze in de groep.",
   tekst:
-    "Connectopia vzw brengt kinderen van 6 tot 12 jaar met hoogbegaafdheid, ASS of ADHD samen met gelijkgestemden, in Hasselt en Genk. Daarnaast helpen we hun ouders hun weg te vinden. Hieronder lees je wat je eraan hebt, en laat je achter wat we voor je mogen doen.",
+    "Connectopia vzw brengt kinderen van 6 tot 15 jaar met hoogbegaafdheid, ASS of ADHD samen met gelijkgestemden, in Hasselt en Genk. Daarnaast helpen we hun ouders hun weg te vinden. Hieronder lees je wat je eraan hebt, en laat je achter wat we voor je mogen doen.",
 
   /* Het kader dat meteen duidelijk maakt wat we níet zijn. */
   nuance: {
@@ -43,7 +43,7 @@ export const professionals = {
     {
       titel: "Een plek om naar door te verwijzen",
       tekst:
-        "Kleine groepjes met gelijkgestemde kinderen van 6 tot 12 jaar, in Hasselt en Genk. Voor het kind dat op school alleen staat met zijn interesses, of dat vastloopt op verveling. Een gratis proefles kan altijd.",
+        "Kleine groepjes met gelijkgestemde kinderen van 6 tot 15 jaar, in Hasselt en Genk. Voor het kind dat op school alleen staat met zijn interesses, of dat vastloopt op verveling. Een gratis proefles kan altijd.",
       icoon: "🚀",
       kleur: "green" as const,
       link: { tekst: "Bekijk ons aanbod", href: "/aanbod" },

@@ -1250,7 +1250,7 @@ export const berichten: Bericht[] = [
       {
         soort: "tekst",
         tekst:
-          "Onze plusklas en pluswerkingen zijn er voor kinderen van 6 tot 12 jaar die net dat beetje extra uitdaging, begrip of ruimte nodig hebben. We werken in kleine groepjes, met aandacht voor het proces, de samenwerking en het plezier in leren.",
+          "Onze plusklas en pluswerkingen zijn er voor kinderen van 6 tot 15 jaar die net dat beetje extra uitdaging, begrip of ruimte nodig hebben. We werken in kleine groepjes, met aandacht voor het proces, de samenwerking en het plezier in leren.",
       },
       {
         soort: "lijst",
