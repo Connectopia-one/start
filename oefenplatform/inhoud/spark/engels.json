@@ -456,14 +456,16 @@
             "a recipe",
             "a school rule",
             "an instruction video",
-            "a poem"
+            "a poem",
+            "a user manual"
           ],
           "antwoord": [
             0,
             1,
-            2
+            2,
+            4
           ],
-          "uitleg": "A recipe = een recept, a school rule = een schoolregel. Een gedicht (a poem) hoort bij de literaire teksten."
+          "uitleg": "A recipe = een recept, a school rule = een schoolregel, a user manual = een handleiding. Een gedicht (a poem) hoort bij de literaire teksten."
         },
         {
           "type": "meerkeuze",
@@ -712,14 +714,16 @@
             "first of all",
             "secondly",
             "in addition",
-            "however"
+            "however",
+            "furthermore"
           ],
           "antwoord": [
             0,
             1,
-            2
+            2,
+            4
           ],
-          "uitleg": "In addition = bovendien. However = echter en kondigt net een tegenstelling aan, geen opsomming."
+          "uitleg": "In addition en furthermore betekenen allebei bovendien. However = echter en kondigt net een tegenstelling aan, geen opsomming."
         },
         {
           "type": "meerkeuze",
@@ -782,14 +786,16 @@
             "unfair",
             "impossible",
             "dislike",
-            "hopeful"
+            "hopeful",
+            "illegal"
           ],
           "antwoord": [
             0,
             1,
-            2
+            2,
+            4
           ],
-          "uitleg": "Un-, im- en dis- draaien de betekenis om: unfair (oneerlijk), impossible (onmogelijk), dislike (niet graag hebben). Hopeful is net positief."
+          "uitleg": "Un-, im-, dis- en il- draaien de betekenis om: unfair (oneerlijk), impossible (onmogelijk), dislike (niet graag hebben), illegal (onwettig). Hopeful is net positief."
         },
         {
           "type": "waarofniet",
@@ -883,12 +889,14 @@
             "Hi Tom,",
             "See you soon!",
             "Thanks a lot!",
-            "Yours faithfully,"
+            "Yours faithfully,",
+            "Cheers!"
           ],
           "antwoord": [
             0,
             1,
-            2
+            2,
+            4
           ],
           "uitleg": "Yours faithfully is heel formeel en hoort in een brief aan iemand van wie je de naam niet kent. De rest is gewone vriendentaal."
         },
@@ -1027,14 +1035,16 @@
             "first",
             "after that",
             "in the end",
-            "because of that"
+            "because of that",
+            "then"
           ],
           "antwoord": [
             0,
             1,
-            2
+            2,
+            4
           ],
-          "uitleg": "First, after that en in the end ordenen je tekst in de tijd. 'Because of that' geeft wel een gevolg, maar zegt niets over de volgorde."
+          "uitleg": "First, then, after that en in the end ordenen je tekst in de tijd. 'Because of that' geeft wel een gevolg, maar zegt niets over de volgorde."
         },
         {
           "type": "waarofniet",
@@ -1321,14 +1331,16 @@
             "Halloween op 31 oktober",
             "Saint Patrick's Day op 17 maart",
             "Bonfire Night op 5 november",
-            "Sinterklaas op 6 december"
+            "Sinterklaas op 6 december",
+            "Thanksgiving in november"
           ],
           "antwoord": [
             0,
             1,
-            2
+            2,
+            4
           ],
-          "uitleg": "Saint Patrick's Day is de Ierse feestdag, Bonfire Night is Brits. Sinterklaas is een gewoonte van bij ons en van Nederland."
+          "uitleg": "Saint Patrick's Day is de Ierse feestdag, Bonfire Night is Brits en Thanksgiving wordt in de Verenigde Staten en in Canada gevierd. Sinterklaas is een gewoonte van bij ons en van Nederland."
         },
         {
           "type": "meerkeuze",
@@ -1367,14 +1379,16 @@
             "lift",
             "biscuit",
             "autumn",
-            "elevator"
+            "elevator",
+            "lorry"
           ],
           "antwoord": [
             0,
             1,
-            2
+            2,
+            4
           ],
-          "uitleg": "Brits tegenover Amerikaans: lift/elevator, biscuit/cookie, autumn/fall. Allebei zijn juist, maar niet in dezelfde tekst door elkaar."
+          "uitleg": "Brits tegenover Amerikaans: lift/elevator, biscuit/cookie, autumn/fall, lorry/truck. Allebei zijn juist, maar niet in dezelfde tekst door elkaar."
         },
         {
           "type": "invultekst",
@@ -1419,12 +1433,14 @@
             "Ierland",
             "Canada",
             "Nieuw-Zeeland",
-            "Portugal"
+            "Portugal",
+            "Australië"
           ],
           "antwoord": [
             0,
             1,
-            2
+            2,
+            4
           ],
           "uitleg": "Canada heeft Engels en Frans als officiële talen, Nieuw-Zeeland heeft er ook Maori naast. In Portugal spreekt men Portugees."
         },
@@ -1548,14 +1564,16 @@
             "a song",
             "a comic",
             "a short story",
-            "a school report"
+            "a school report",
+            "a novel"
           ],
           "antwoord": [
             0,
             1,
-            2
+            2,
+            4
           ],
-          "uitleg": "A song = een lied, a comic = een strip, a short story = een kortverhaal. Een schoolrapport is informatief, geen literatuur."
+          "uitleg": "A song = een lied, a comic = een strip, a short story = een kortverhaal, a novel = een roman. Een schoolrapport is informatief, geen literatuur."
         },
         {
           "type": "invultekst",
@@ -1630,12 +1648,14 @@
             "gewoontes",
             "waarden en normen",
             "sociale verhoudingen",
-            "de oppervlakte van het land"
+            "de oppervlakte van het land",
+            "lichaamstaal"
           ],
           "antwoord": [
             0,
             1,
-            2
+            2,
+            4
           ],
           "uitleg": "De fiche somt op: het dagelijkse leven, de leefomstandigheden, gewoontes, sociale verhoudingen, waarden en normen, lichaamstaal en sociale conventies."
         },
@@ -1718,15 +1738,15 @@
           "opties": [
             "grandfather",
             "nephew",
-            "daughter",
-            "neighbour"
+            "colleague",
+            "neighbour",
+            "stranger"
           ],
           "antwoord": [
             0,
-            1,
-            2
+            1
           ],
-          "uitleg": "A grandfather = een grootvader, a nephew = een neefje (zoon van je broer of zus), a daughter = een dochter. A neighbour is een buur, geen familie."
+          "uitleg": "A grandfather = een grootvader en a nephew = een neefje, de zoon van je broer of zus. A neighbour, a colleague en a stranger zijn geen familie."
         },
         {
           "type": "invultekst",
@@ -1771,14 +1791,16 @@
             "angry",
             "proud",
             "worried",
-            "tall"
+            "tall",
+            "nervous"
           ],
           "antwoord": [
             0,
             1,
-            2
+            2,
+            4
           ],
-          "uitleg": "Angry = boos, proud = trots, worried = bezorgd. Tall = groot van gestalte en zegt niets over wat je voelt."
+          "uitleg": "Angry = boos, proud = trots, worried = bezorgd, nervous = zenuwachtig. Tall = groot van gestalte en zegt niets over wat je voelt."
         },
         {
           "type": "invultekst",
@@ -1810,15 +1832,15 @@
           "opties": [
             "shoulder",
             "knee",
-            "elbow",
-            "spoon"
+            "saucer",
+            "spoon",
+            "blanket"
           ],
           "antwoord": [
             0,
-            1,
-            2
+            1
           ],
-          "uitleg": "A shoulder = een schouder, a knee = een knie, an elbow = een elleboog. A spoon is een lepel."
+          "uitleg": "A shoulder = een schouder en a knee = een knie. A spoon is een lepel, a saucer een schoteltje en a blanket een deken."
         },
         {
           "type": "invultekst",
@@ -1851,12 +1873,14 @@
             "first name",
             "date of birth",
             "address",
-            "favourite colour"
+            "favourite colour",
+            "nationality"
           ],
           "antwoord": [
             0,
             1,
-            2
+            2,
+            4
           ],
           "uitleg": "First name = voornaam, date of birth = geboortedatum, address = adres. Je lievelingskleur is geen persoonlijk gegeven op een formulier."
         },
@@ -1884,15 +1908,15 @@
           "opties": [
             "He has short brown hair.",
             "He is quite tall.",
-            "He wears glasses.",
-            "He lives in a house."
+            "He likes football.",
+            "He lives in a house.",
+            "He has two sisters."
           ],
           "antwoord": [
             0,
-            1,
-            2
+            1
           ],
-          "uitleg": "Haar, lengte en een bril beschrijven hoe iemand eruitziet. Waar hij woont, zegt daar niets over. De fiche gebruikt net dat voorbeeld: je beschrijft hoe je beste vriend eruitziet."
+          "uitleg": "Haar en lengte beschrijven hoe iemand eruitziet. Waar hij woont, wat hij graag doet en hoeveel zussen hij heeft, zeggen daar niets over."
         },
         {
           "type": "waarofniet",
@@ -1977,15 +2001,15 @@
           "opties": [
             "I feel sick.",
             "I am not well.",
-            "I have a temperature.",
-            "I feel great."
+            "I feel better now.",
+            "I feel great.",
+            "I slept very well."
           ],
           "antwoord": [
             0,
-            1,
-            2
+            1
           ],
-          "uitleg": "To feel sick = zich misselijk of ziek voelen, to have a temperature = koorts hebben. 'I feel great' is net het omgekeerde."
+          "uitleg": "To feel sick = zich misselijk of ziek voelen, I am not well = ik voel me niet goed. De drie andere zinnen zeggen net dat het wél goed gaat."
         },
         {
           "type": "invultekst",
@@ -2017,15 +2041,15 @@
           "opties": [
             "chin",
             "cheek",
-            "forehead",
-            "ankle"
+            "heel",
+            "ankle",
+            "wrist"
           ],
           "antwoord": [
             0,
-            1,
-            2
+            1
           ],
-          "uitleg": "A chin = een kin, a cheek = een wang, a forehead = een voorhoofd. An ankle is een enkel."
+          "uitleg": "A chin = een kin en a cheek = een wang. An ankle is een enkel, a heel een hiel en a wrist een pols."
         },
         {
           "type": "invultekst",
@@ -2087,15 +2111,15 @@
           "opties": [
             "twins",
             "stepmother",
-            "grandchild",
-            "classmate"
+            "landlord",
+            "classmate",
+            "customer"
           ],
           "antwoord": [
             0,
-            1,
-            2
+            1
           ],
-          "uitleg": "Twins = een tweeling, a stepmother = een stiefmoeder, a grandchild = een kleinkind. A classmate is een klasgenoot."
+          "uitleg": "Twins = een tweeling en a stepmother = een stiefmoeder. A classmate is een klasgenoot, a landlord een huisbaas en a customer een klant."
         },
         {
           "type": "invultekst",
@@ -2158,15 +2182,15 @@
           "opties": [
             "tea",
             "orange juice",
-            "milk",
-            "cheese"
+            "bread",
+            "cheese",
+            "butter"
           ],
           "antwoord": [
             0,
-            1,
-            2
+            1
           ],
-          "uitleg": "Tea = thee, orange juice = sinaasappelsap, milk = melk. Cheese = kaas, en dat drink je niet."
+          "uitleg": "Tea = thee en orange juice = sinaasappelsap. Cheese, bread en butter eet je."
         },
         {
           "type": "invultekst",
@@ -2193,14 +2217,16 @@
             "carrot",
             "onion",
             "pea",
-            "pear"
+            "pear",
+            "leek"
           ],
           "antwoord": [
             0,
             1,
-            2
+            2,
+            4
           ],
-          "uitleg": "A carrot = een wortel, an onion = een ui, a pea = een erwt. A pear is een peer en dus fruit."
+          "uitleg": "A carrot = een wortel, an onion = een ui, a pea = een erwt, a leek = een prei. A pear is een peer en dus fruit."
         },
         {
           "type": "waarofniet",
@@ -2226,15 +2252,15 @@
           "opties": [
             "wardrobe",
             "armchair",
-            "bookcase",
-            "curtain"
+            "carpet",
+            "curtain",
+            "mirror"
           ],
           "antwoord": [
             0,
-            1,
-            2
+            1
           ],
-          "uitleg": "A wardrobe = een kleerkast, an armchair = een zetel, a bookcase = een boekenkast. A curtain is een gordijn en dus geen meubel."
+          "uitleg": "A wardrobe = een kleerkast en an armchair = een zetel. Een gordijn, een tapijt en een spiegel horen bij de inrichting, maar zijn geen meubel."
         },
         {
           "type": "invultekst",
@@ -2525,15 +2551,15 @@
           "opties": [
             "round",
             "square",
-            "triangular",
-            "heavy"
+            "noisy",
+            "heavy",
+            "warm"
           ],
           "antwoord": [
             0,
-            1,
-            2
+            1
           ],
-          "uitleg": "Round = rond, square = vierkant, triangular = driehoekig. Heavy = zwaar, en dat is een gewicht, geen vorm."
+          "uitleg": "Round = rond en square = vierkant. Heavy = zwaar, noisy = lawaaierig en warm = warm: dat zijn geen vormen."
         },
         {
           "type": "waarofniet",
@@ -2678,15 +2704,15 @@
           "opties": [
             "engineer",
             "plumber",
-            "lawyer",
-            "hobby"
+            "holiday",
+            "hobby",
+            "weekend"
           ],
           "antwoord": [
             0,
-            1,
-            2
+            1
           ],
-          "uitleg": "An engineer = een ingenieur, a plumber = een loodgieter, a lawyer = een advocaat. A hobby is geen beroep."
+          "uitleg": "An engineer = een ingenieur en a plumber = een loodgieter. A hobby, a holiday en a weekend zijn geen beroepen."
         },
         {
           "type": "invultekst",
@@ -2891,15 +2917,15 @@
           "opties": [
             "reading",
             "drawing",
-            "gardening",
-            "homework"
+            "studying",
+            "homework",
+            "cleaning"
           ],
           "antwoord": [
             0,
-            1,
-            2
+            1
           ],
-          "uitleg": "Reading = lezen, drawing = tekenen, gardening = tuinieren. Huiswerk is geen vrije tijd."
+          "uitleg": "Reading = lezen en drawing = tekenen. Homework, studying en cleaning doe je omdat het moet."
         },
         {
           "type": "invultekst",
@@ -3010,15 +3036,15 @@
           "opties": [
             "August",
             "January",
-            "October",
-            "Sunday"
+            "Monday",
+            "Sunday",
+            "Friday"
           ],
           "antwoord": [
             0,
-            1,
-            2
+            1
           ],
-          "uitleg": "August = augustus, January = januari, October = oktober. Sunday is een dag. Let op: maanden en dagen krijgen in het Engels een hoofdletter."
+          "uitleg": "August = augustus en January = januari. Sunday, Monday en Friday zijn dagen. Let op: maanden en dagen krijgen in het Engels een hoofdletter."
         },
         {
           "type": "invultekst",
@@ -3063,14 +3089,16 @@
             "windy",
             "foggy",
             "freezing",
-            "crowded"
+            "crowded",
+            "stormy"
           ],
           "antwoord": [
             0,
             1,
-            2
+            2,
+            4
           ],
-          "uitleg": "Windy = winderig, foggy = mistig, freezing = ijskoud. Crowded = druk met mensen, en dat zegt niets over het weer."
+          "uitleg": "Windy = winderig, foggy = mistig, freezing = ijskoud, stormy = stormachtig. Crowded = druk met mensen, en dat zegt niets over het weer."
         },
         {
           "type": "invultekst",
@@ -3227,15 +3255,15 @@
           "opties": [
             "a little",
             "much",
-            "a lot of",
-            "many"
+            "a few",
+            "many",
+            "several"
           ],
           "antwoord": [
             0,
-            1,
-            2
+            1
           ],
-          "uitleg": "A little, much en a lot of passen bij ontelbare woorden zoals water en time. Many hoort bij telbare: many books."
+          "uitleg": "A little en much passen bij ontelbare woorden zoals water en time. Many, a few en several horen bij telbare woorden: many books, a few books."
         },
         {
           "type": "meerkeuze",
@@ -3274,14 +3302,16 @@
             "spring",
             "summer",
             "winter",
-            "weekend"
+            "weekend",
+            "autumn"
           ],
           "antwoord": [
             0,
             1,
-            2
+            2,
+            4
           ],
-          "uitleg": "Spring = lente, summer = zomer, winter = winter. Het vierde seizoen is autumn (Brits) of fall (Amerikaans)."
+          "uitleg": "Spring = lente, summer = zomer, autumn = herfst en winter = winter. In het Amerikaans heet de herfst fall. Een weekend is geen seizoen."
         },
         {
           "type": "invultekst",
@@ -3490,29 +3520,31 @@
           "opties": [
             "children",
             "teeth",
-            "mice",
-            "tables"
+            "books",
+            "tables",
+            "houses"
           ],
           "antwoord": [
             0,
-            1,
-            2
+            1
           ],
-          "uitleg": "Child wordt children, tooth wordt teeth, mouse wordt mice. Table wordt gewoon tables.",
+          "uitleg": "Child wordt children en tooth wordt teeth. Table, book en house krijgen gewoon een -s erbij.",
           "varianten": [
             {
               "opties": [
                 "men",
                 "women",
                 "feet",
-                "books"
+                "books",
+                "children"
               ],
               "antwoord": [
                 0,
                 1,
-                2
+                2,
+                4
               ],
-              "uitleg": "Books krijgt gewoon een -s. De andere drie veranderen van vorm."
+              "uitleg": "Books krijgt gewoon een -s. De andere vier veranderen van vorm."
             },
             {
               "opties": [
@@ -3532,15 +3564,14 @@
               "opties": [
                 "feet",
                 "teeth",
-                "geese",
+                "tables",
                 "windows"
               ],
               "antwoord": [
                 0,
-                1,
-                2
+                1
               ],
-              "uitleg": "Windows krijgt gewoon een -s. Bij de andere drie verandert de klinker."
+              "uitleg": "Windows en tables krijgen gewoon een -s. Bij feet en teeth verandert de klinker."
             }
           ]
         },
@@ -3762,12 +3793,14 @@
             "my",
             "her",
             "their",
-            "mine"
+            "mine",
+            "our"
           ],
           "antwoord": [
             0,
             1,
-            2
+            2,
+            4
           ],
           "uitleg": "My, your, his, her, its, our en their staan vóór een naamwoord: my book. Mine staat alleen: that book is mine.",
           "varianten": [
@@ -3776,14 +3809,16 @@
                 "your",
                 "our",
                 "his",
-                "yours"
+                "yours",
+                "my"
               ],
               "antwoord": [
                 0,
                 1,
-                2
+                2,
+                4
               ],
-              "uitleg": "Yours staat alleen; de andere drie staan altijd vóór een naamwoord."
+              "uitleg": "Yours staat alleen; de andere vier staan altijd vóór een naamwoord."
             },
             {
               "opties": [
@@ -3803,15 +3838,14 @@
               "opties": [
                 "her",
                 "their",
-                "your",
+                "hers",
                 "theirs"
               ],
               "antwoord": [
                 0,
-                1,
-                2
+                1
               ],
-              "uitleg": "Theirs staat alleen; de andere drie staan altijd vóór een naamwoord."
+              "uitleg": "Theirs en hers staan alleen; her en their staan altijd vóór een naamwoord."
             }
           ]
         },
@@ -4128,29 +4162,31 @@
           "opties": [
             "good – better – best",
             "bad – worse – worst",
-            "far – further – furthest",
-            "small – smaller – smallest"
+            "long – longer – longest",
+            "small – smaller – smallest",
+            "quick – quicker – quickest"
           ],
           "antwoord": [
             0,
-            1,
-            2
+            1
           ],
-          "uitleg": "Small volgt gewoon de regel met -er en -est. De drie andere moet je uit het hoofd kennen.",
+          "uitleg": "Small, long en quick volgen gewoon de regel met -er en -est. Good en bad moet je uit het hoofd kennen.",
           "varianten": [
             {
               "opties": [
                 "little – less – least",
                 "many – more – most",
                 "bad – worse – worst",
-                "big – bigger – biggest"
+                "big – bigger – biggest",
+                "good – better – best"
               ],
               "antwoord": [
                 0,
                 1,
-                2
+                2,
+                4
               ],
-              "uitleg": "Big volgt gewoon de regel: -er en -est."
+              "uitleg": "Big volgt gewoon de regel: -er en -est. De vier andere moet je kennen."
             },
             {
               "opties": [
@@ -4170,15 +4206,14 @@
               "opties": [
                 "bad – worse – worst",
                 "little – less – least",
-                "good – better – best",
+                "small – smaller – smallest",
                 "tall – taller – tallest"
               ],
               "antwoord": [
                 0,
-                1,
-                2
+                1
               ],
-              "uitleg": "Tall volgt gewoon de regel: -er en -est."
+              "uitleg": "Tall en small volgen gewoon de regel: -er en -est."
             }
           ]
         },
@@ -4341,29 +4376,31 @@
           "opties": [
             "first",
             "third",
-            "twentieth",
-            "fifteen"
+            "twenty",
+            "fifteen",
+            "thirty"
           ],
           "antwoord": [
             0,
-            1,
-            2
+            1
           ],
-          "uitleg": "Fifteen is een hoofdtelwoord; het rangtelwoord daarvan is fifteenth.",
+          "uitleg": "First en third zijn rangtelwoorden. Fifteen, twenty en thirty zijn hoofdtelwoorden; de rangtelwoorden daarvan zijn fifteenth, twentieth en thirtieth.",
           "varianten": [
             {
               "opties": [
                 "second",
                 "fourth",
                 "tenth",
-                "seven"
+                "seven",
+                "first"
               ],
               "antwoord": [
                 0,
                 1,
-                2
+                2,
+                4
               ],
-              "uitleg": "Seven is een gewoon telwoord; de andere drie zeggen de hoeveelste."
+              "uitleg": "Seven is een gewoon telwoord; de andere vier zeggen de hoeveelste."
             },
             {
               "opties": [
@@ -4382,16 +4419,15 @@
             {
               "opties": [
                 "eighth",
-                "thirtieth",
+                "fifty",
                 "sixth",
                 "forty"
               ],
               "antwoord": [
                 0,
-                1,
                 2
               ],
-              "uitleg": "Forty is een gewoon telwoord; de andere drie zeggen de hoeveelste."
+              "uitleg": "Forty en fifty zijn gewone telwoorden; eighth en sixth zeggen de hoeveelste."
             }
           ]
         },
@@ -4723,12 +4759,14 @@
                 "last night",
                 "in 2019",
                 "a month ago",
-                "always"
+                "always",
+                "when I was six"
               ],
               "antwoord": [
                 0,
                 1,
-                2
+                2,
+                4
               ],
               "uitleg": "Always wijst op een gewoonte, en die hoort bij de present simple."
             },
@@ -4750,15 +4788,14 @@
               "opties": [
                 "yesterday morning",
                 "last Friday",
-                "in the Middle Ages",
+                "every Friday",
                 "often"
               ],
               "antwoord": [
                 0,
-                1,
-                2
+                1
               ],
-              "uitleg": "Often wijst op een gewoonte, en die hoort bij de present simple."
+              "uitleg": "Often en every Friday wijzen op een gewoonte, en die hoort bij de present simple."
             }
           ]
         },
@@ -4839,28 +4876,32 @@
             "to see",
             "to take",
             "to buy",
-            "to open"
+            "to open",
+            "to bring"
           ],
           "antwoord": [
             0,
             1,
-            2
+            2,
+            4
           ],
-          "uitleg": "See wordt saw, take wordt took, buy wordt bought. Open volgt gewoon de regel: opened.",
+          "uitleg": "See wordt saw, take wordt took, buy wordt bought en bring wordt brought. Open volgt gewoon de regel: opened.",
           "varianten": [
             {
               "opties": [
                 "to go",
                 "to eat",
                 "to write",
-                "to play"
+                "to play",
+                "to buy"
               ],
               "antwoord": [
                 0,
                 1,
-                2
+                2,
+                4
               ],
-              "uitleg": "To play krijgt gewoon -ed: played."
+              "uitleg": "To play krijgt gewoon -ed: played. De vier andere veranderen van vorm."
             },
             {
               "opties": [
@@ -4880,15 +4921,14 @@
               "opties": [
                 "to find",
                 "to leave",
-                "to speak",
+                "to watch",
                 "to listen"
               ],
               "antwoord": [
                 0,
-                1,
-                2
+                1
               ],
-              "uitleg": "To listen krijgt gewoon -ed: listened."
+              "uitleg": "To listen en to watch krijgen gewoon -ed: listened, watched."
             }
           ]
         },
@@ -5013,14 +5053,16 @@
                 "He doesn't play tennis.",
                 "We have not eaten.",
                 "She never calls.",
-                "I am tired."
+                "I am tired.",
+                "She has no money."
               ],
               "antwoord": [
                 0,
                 1,
-                2
+                2,
+                4
               ],
-              "uitleg": "De laatste zin ontkent niets."
+              "uitleg": "'I am tired' ontkent niets; de vier andere zinnen wel."
             },
             {
               "opties": [
@@ -5040,15 +5082,14 @@
               "opties": [
                 "She doesn't drive.",
                 "We were not there.",
-                "I never forget.",
+                "She drives to work.",
                 "He is kind."
               ],
               "antwoord": [
                 0,
-                1,
-                2
+                1
               ],
-              "uitleg": "De laatste zin ontkent niets."
+              "uitleg": "'He is kind' en 'she drives to work' ontkennen niets."
             }
           ]
         },
@@ -5432,14 +5473,16 @@
                 "I will write tomorrow.",
                 "We will try again.",
                 "He will be ten next month.",
-                "She danced all night."
+                "She danced all night.",
+                "They will come later."
               ],
               "antwoord": [
                 0,
                 1,
-                2
+                2,
+                4
               ],
-              "uitleg": "De laatste zin staat in de verleden tijd."
+              "uitleg": "'She danced all night' staat in de verleden tijd; de vier andere in de toekomende."
             },
             {
               "opties": [
@@ -5458,16 +5501,15 @@
             {
               "opties": [
                 "She will help you.",
-                "We will know tomorrow.",
+                "We knew it already.",
                 "He will turn twelve in May.",
                 "They played outside."
               ],
               "antwoord": [
                 0,
-                1,
                 2
               ],
-              "uitleg": "De laatste zin staat in de verleden tijd."
+              "uitleg": "'They played outside' en 'we knew it already' staan in de verleden tijd."
             }
           ]
         },
@@ -5541,27 +5583,29 @@
           "opties": [
             "and",
             "but",
-            "because",
-            "very"
+            "quickly",
+            "very",
+            "really"
           ],
           "antwoord": [
             0,
-            1,
-            2
+            1
           ],
-          "uitleg": "De fiche noemt but, and, so, when en because als frequente voegwoorden. 'Very' versterkt alleen een bijvoeglijk naamwoord.",
+          "uitleg": "And en but verbinden twee delen van een zin, net als so, when en because. Very, quickly en really versterken of beschrijven alleen.",
           "varianten": [
             {
               "opties": [
                 "or",
                 "so",
                 "although",
-                "quickly"
+                "quickly",
+                "because"
               ],
               "antwoord": [
                 0,
                 1,
-                2
+                2,
+                4
               ],
               "uitleg": "Quickly is een bijwoord; het verbindt niets."
             },
@@ -5583,15 +5627,14 @@
               "opties": [
                 "if",
                 "but",
-                "since",
+                "very",
                 "almost"
               ],
               "antwoord": [
                 0,
-                1,
-                2
+                1
               ],
-              "uitleg": "Almost is een bijwoord; het verbindt niets."
+              "uitleg": "Almost en very zijn bijwoorden; ze verbinden niets."
             }
           ]
         },
@@ -5624,15 +5667,14 @@
           "opties": [
             "ze is bevelend",
             "ze is ontkennend",
-            "ze heeft een uitroepteken",
+            "ze staat in de verleden tijd",
             "ze heeft een onderwerp"
           ],
           "antwoord": [
             0,
-            1,
-            2
+            1
           ],
-          "uitleg": "Een bevelende zin met 'don't' is ontkennend én bevelend. Een onderwerp staat er niet bij; dat is juist het kenmerk van de imperative."
+          "uitleg": "Een bevelende zin met 'don't' is ontkennend én bevelend. Een onderwerp staat er niet bij, en dat is juist het kenmerk van de imperative. Van een verleden tijd is er geen sprake."
         },
         {
           "type": "meerkeuze",
