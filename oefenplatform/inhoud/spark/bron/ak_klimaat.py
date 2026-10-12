@@ -48,8 +48,9 @@ DEEL1 = [
             "Waterdamp",
             "Zuurstof",
             "Stikstofgas",
+            "Lachgas",
         ],
-        antwoord=[0, 1, 2],
+        antwoord=[0, 1, 2, 5],
         uitleg="Koolstofdioxide, methaan, waterdamp en lachgas houden warmte vast. Zuurstof en stikstof vormen samen bijna de hele dampkring, maar werken niet als broeikasgas.",
     ),
     dict(
@@ -158,8 +159,9 @@ DEEL1 = [
             "Waterkracht",
             "Aardolie",
             "Steenkool",
+            "Aardwarmte",
         ],
-        antwoord=[0, 1, 2],
+        antwoord=[0, 1, 2, 5],
         uitleg="Wind, zon, water, aardwarmte en biomassa raken niet op. Aardolie en steenkool wel, en bij de verbranding ervan komt bovendien koolstofdioxide vrij.",
     ),
     dict(
@@ -280,12 +282,12 @@ DEEL2 = [
         opties=[
             "Drogere zomers met lage waterstanden",
             "Hevigere buien die wateroverlast geven",
-            "Meer hittegolven dan vroeger",
+            "Meer sneeuwdagen dan vroeger",
             "Strengere winters dan ooit tevoren",
             "Meer orkanen boven de Noordzee",
         ],
-        antwoord=[0, 1, 2],
-        uitleg="Bij ons uit de opwarming zich in drogere zomers, hevigere buien en meer hitte. Orkanen ontstaan boven veel warmer zeewater dan de Noordzee.",
+        antwoord=[0, 1],
+        uitleg="Bij ons uit de opwarming zich vooral in drogere zomers en in hevigere buien. Winters worden net zachter met minder sneeuw, en orkanen ontstaan boven veel warmer zeewater dan de Noordzee.",
     ),
     dict(
         type="meerkeuze",

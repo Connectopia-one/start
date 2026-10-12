@@ -150,8 +150,9 @@ DEEL1 = [
             "De savanne",
             "Het hoogveen",
             "De polder",
+            "Het regenwoud",
         ],
-        antwoord=[0, 1, 2],
+        antwoord=[0, 1, 2, 5],
         uitleg="De fiche noemt zeven vegetatiezones: toendra, taiga, loofwoud, steppe, savanne, regenwoud en (ijs)woestijn. Hoogveen en polder zijn Belgische landschappen, geen wereldwijde zones.",
     ),
     dict(
@@ -278,12 +279,12 @@ DEEL2 = [
         opties=[
             "Een leembodem is vruchtbaar en goed voor akkerbouw",
             "Een natte bodem leent zich eerder voor weiland",
-            "Een schrale zandbodem levert minder op per hectare",
+            "Op een stenige berghelling lukt akkerbouw het best",
             "Op elke bodem groeit precies hetzelfde even goed",
             "De bodem heeft niets met de landbouw te maken",
         ],
-        antwoord=[0, 1, 2],
-        uitleg="De bodem bepaalt in hoge mate wat rendeert. Op leem staat graan en fruit, op natte grond staat gras met koeien erop, en op arm zand moest er vroeger heide blijven liggen.",
+        antwoord=[0, 1],
+        uitleg="De bodem bepaalt in hoge mate wat rendeert: op leem staat graan en fruit, op natte grond staat gras met koeien erop. Op elke bodem groeit dus niet hetzelfde, en een stenige helling is zowat de slechtste akker die er is.",
     ),
     dict(
         type="invultekst",
@@ -330,8 +331,9 @@ DEEL2 = [
             "Prosperity",
             "Production",
             "Protection",
+            "Peace",
         ],
-        antwoord=[0, 1, 2],
+        antwoord=[0, 1, 2, 5],
         uitleg="De vijf P's zijn Planet, People, Prosperity, Peace en Partnership. Production en Protection horen er niet bij.",
     ),
     dict(

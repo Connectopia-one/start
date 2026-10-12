@@ -74,12 +74,12 @@ DEEL1 = [
         opties=[
             "Een kerktoren",
             "Een watertoren",
-            "Een lange bomenrij",
+            "Een fietser op het pad",
             "Een wolk aan de hemel",
             "Een auto die voorbijrijdt",
         ],
-        antwoord=[0, 1, 2],
-        uitleg="Een herkenningspunt moet blijven staan. Een toren of een bomenrij staat er morgen nog; een wolk en een auto zijn binnen een minuut weg.",
+        antwoord=[0, 1],
+        uitleg="Een herkenningspunt moet blijven staan: een kerktoren en een watertoren staan er morgen nog. Een wolk, een auto en een fietser zijn binnen een minuut weg.",
     ),
     dict(
         type="invultekst",
@@ -175,8 +175,9 @@ DEEL1 = [
             "Een schepje om de bodem te bekijken",
             "Een barometer voor de luchtdruk",
             "Een globe van de wereld",
+            "Schrijfgerei om alles te noteren",
         ],
-        antwoord=[0, 1, 2],
+        antwoord=[0, 1, 2, 5],
         uitleg="Op het terrein heb je nodig wat je ter plaatse gebruikt: kompas, kaart, schrijfgerei en iets om de bodem mee te bekijken. Een globe hoort in de klas.",
     ),
     dict(
@@ -248,12 +249,12 @@ DEEL2 = [
         opties=[
             "Of er bomen, struiken of gras staan",
             "Of het loofbomen of naaldbomen zijn",
-            "Hoe dicht de begroeiing staat",
+            "Hoeveel het hout waard is",
             "Wie de eigenaar van het perceel is",
             "Wanneer de bomen geplant werden",
         ],
-        antwoord=[0, 1, 2],
-        uitleg="Bij de vegetatie beschrijf je wat er groeit en hoe dicht. De eigenaar en het plantjaar zie je op het terrein niet, en die horen bij andere bronnen.",
+        antwoord=[0, 1],
+        uitleg="Bij de vegetatie beschrijf je wát er groeit: bomen, struiken of gras, en of het loofbomen of naaldbomen zijn. De eigenaar, het plantjaar en de prijs van het hout zie je op het terrein niet.",
     ),
     dict(
         type="meerkeuze",
@@ -301,8 +302,9 @@ DEEL2 = [
             "Hoe vochtig de bodem is",
             "Hoeveel het perceel waard is",
             "Wie het perceel bewerkt",
+            "Hoe de lagen onder elkaar liggen",
         ],
-        antwoord=[0, 1, 2],
+        antwoord=[0, 1, 2, 5],
         uitleg="Je kijkt naar textuur, kleur, vochtigheid en de lagen onder elkaar. Wat het kost en wie het bewerkt, is geen aardrijkskundige waarneming.",
     ),
     dict(

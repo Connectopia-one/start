@@ -135,8 +135,9 @@ DEEL1 = [
             "De Indische Oceaan",
             "De Middellandse Zee",
             "De Noordzee",
+            "De Noordelijke IJszee",
         ],
-        antwoord=[0, 1, 2],
+        antwoord=[0, 1, 2, 5],
         uitleg="De Grote, de Atlantische en de Indische Oceaan zijn oceanen, net als de Noordelijke IJszee en de Zuidelijke Oceaan. De Middellandse Zee en de Noordzee zijn zeeën: kleiner, en grotendeels omsloten door land.",
     ),
     dict(
@@ -307,8 +308,9 @@ DEEL2 = [
             "De polen",
             "De provincie waarin je woont",
             "De rivier die door je stad loopt",
+            "De nulmeridiaan",
         ],
-        antwoord=[0, 1, 2],
+        antwoord=[0, 1, 2, 5],
         uitleg="Sterrenkundige referentiepunten zijn de lijnen en punten van het gradennet: de evenaar, de nulmeridiaan, de polen, de halfronden, de keerkringen en de poolcirkels.",
     ),
     dict(
@@ -330,12 +332,12 @@ DEEL2 = [
         opties=[
             "De oceanen",
             "De rivieren",
-            "De reliëfeenheden",
+            "De tijdzone waarin een land ligt",
             "De landsgrenzen",
             "De poolcirkels",
         ],
-        antwoord=[0, 1, 2],
-        uitleg="Topografische referentiepunten zijn dingen die in het landschap zelf liggen: oceanen, zeeën, rivieren en reliëfeenheden. Grenzen zijn staatkundig, poolcirkels sterrenkundig.",
+        antwoord=[0, 1],
+        uitleg="Oceanen en rivieren liggen in het landschap zelf en zijn dus topografisch. Een landsgrens is staatkundig, en een poolcirkel en een tijdzone horen bij het gradennet.",
     ),
     dict(
         type="waarofniet",

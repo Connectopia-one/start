@@ -52,8 +52,9 @@ DEEL1 = [
             "Een noordpijl",
             "Het aantal inwoners van het gebied dat afgebeeld wordt",
             "De datum waarop jij het gebied bezocht hebt",
+            "Een titel",
         ],
-        antwoord=[0, 1, 2],
+        antwoord=[0, 1, 2, 5],
         uitleg="Een kaart hoort een titel, een legende, een schaal en een noordpijl te dragen. Het inwonertal en jouw bezoek horen daar niet bij.",
     ),
     dict(
@@ -116,12 +117,12 @@ DEEL1 = [
         opties=[
             "Een kaart",
             "Een luchtfoto",
-            "Een satellietbeeld",
+            "Een doorsnedetekening van een heuvel",
             "Een foto die je op straat van een huis neemt",
             "Een tekst waarin de streek beschreven wordt",
         ],
-        antwoord=[0, 1, 2],
-        uitleg="Een kaart, een luchtfoto en een satellietbeeld kijken alle drie van boven naar beneden. Een gewone foto op straat kijkt er van opzij naar.",
+        antwoord=[0, 1],
+        uitleg="Een kaart en een luchtfoto kijken allebei recht van boven naar beneden. Een foto op straat, een doorsnede en een tekst tonen het gebied van opzij of helemaal niet.",
     ),
     dict(
         type="meerkeuze",
@@ -389,8 +390,9 @@ DEEL2 = [
             "De heuvel",
             "De rivier",
             "Het bos",
+            "De berg",
         ],
-        antwoord=[0, 1, 2],
+        antwoord=[0, 1, 2, 5],
         uitleg="De reliëfvormen zijn de vlakte, het plateau, de heuvel of het heuvelland, en de berg of het gebergte. Een rivier en een bos horen bij andere lagen van het landschap.",
     ),
     dict(

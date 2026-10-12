@@ -45,8 +45,9 @@ DEEL1 = [
             "Een elektriciteitscentrale",
             "Een treinstation in de stad",
             "Een grote woonwijk aan de rand",
+            "Een zonnepark op een oud fabrieksterrein",
         ],
-        antwoord=[0, 1, 2],
+        antwoord=[0, 1, 2, 5],
         uitleg="Energie-infrastructuur wekt energie op of vervoert ze: centrales, windparken, zonneparken, leidingen en hoogspanningslijnen. Een station hoort bij het transport.",
     ),
     dict(
@@ -76,8 +77,9 @@ DEEL1 = [
             "Een spoorlijn verdubbelen",
             "Een zonnepark bouwen",
             "Een camping aanleggen",
+            "Een haven uitbreiden",
         ],
-        antwoord=[0, 1, 2],
+        antwoord=[0, 1, 2, 5],
         uitleg="Transportinfrastructuur verplaatst mensen en goederen: wegen, spoorwegen, kanalen, havens en luchthavens. Een zonnepark levert energie en een camping dient voor recreatie.",
     ),
     dict(
@@ -152,12 +154,12 @@ DEEL1 = [
         opties=[
             "Appartementsgebouwen op de zeedijk",
             "Skiliften op een berghelling",
-            "Een pretpark met parkings errond",
+            "Een infobord aan de ingang van het bos",
             "Een wandelpad door een bestaand bos",
             "Een bank om uit te rusten langs de weg",
         ],
-        antwoord=[0, 1, 2],
-        uitleg="Grote voorzieningen nemen ruimte in en zijn van ver zichtbaar. Een wandelpad of een bank verandert het landschap nauwelijks.",
+        antwoord=[0, 1],
+        uitleg="Appartementen op de zeedijk en skiliften op een berghelling nemen ruimte in en zijn van ver zichtbaar. Een wandelpad, een bank en een infobord veranderen het landschap nauwelijks.",
     ),
     dict(
         type="waarofniet",

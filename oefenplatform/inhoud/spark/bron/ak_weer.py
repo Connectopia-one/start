@@ -45,8 +45,9 @@ DEEL1 = [
             "De neerslag",
             "De hoogteligging",
             "De bodemsoort",
+            "De windsnelheid",
         ],
-        antwoord=[0, 1, 2],
+        antwoord=[0, 1, 2, 5],
         uitleg="De fiche noemt vijf weerelementen: temperatuur, luchtdruk, windsnelheid, windrichting en neerslag. Hoogteligging en bodem horen bij het landschap, niet bij het weer.",
     ),
     dict(
@@ -197,8 +198,9 @@ DEEL1 = [
             "Hagel",
             "Wind",
             "Mist die blijft hangen",
+            "IJzel",
         ],
-        antwoord=[0, 1, 2],
+        antwoord=[0, 1, 2, 5],
         uitleg="Neerslag is water dat uit de lucht naar beneden valt: regen, motregen, sneeuw, hagel, ijzel. Wind is luchtbeweging en mist is een wolk op de grond.",
     ),
     dict(
@@ -264,12 +266,12 @@ DEEL2 = [
         opties=[
             "Een laag slib op de velden",
             "Weggespoelde wegen en bruggen",
-            "Uitgesleten geulen in de akkers",
+            "Een akker die achteraf hoger ligt dan voordien",
             "Een blijvend hoger reliëf in de streek",
             "Een andere bodemsoort in de hele vallei",
         ],
-        antwoord=[0, 1, 2],
-        uitleg="Water laat slib achter, sleept wegen mee en snijdt geulen uit. Het reliëf van een hele streek verandert er niet blijvend door, en de bodemsoort ook niet.",
+        antwoord=[0, 1],
+        uitleg="Water laat slib achter op de velden en sleept wegen en bruggen mee. Het reliëf van een streek verandert er niet blijvend door, en de bodemsoort evenmin.",
     ),
     dict(
         type="meerkeuze",
@@ -374,12 +376,12 @@ DEEL2 = [
         opties=[
             "Een overstromingsgebied naast de rivier aanleggen",
             "Regenwater laten insijpelen in plaats van het af te voeren",
-            "Beken meer ruimte geven om te kronkelen",
+            "Elke gracht langs de weg dempen",
             "Elke beek in een rechte betonnen goot leggen",
             "Nog meer oppervlakte verharden rond de stad",
         ],
-        antwoord=[0, 1, 2],
-        uitleg="Water moet plaats en tijd krijgen. Gebieden die mogen onderlopen, bodems die water opnemen en beken die mogen kronkelen, remmen de piek af. Beton doet juist het omgekeerde.",
+        antwoord=[0, 1],
+        uitleg="Water moet plaats en tijd krijgen: een gebied dat mag onderlopen en een bodem die water opneemt, remmen de piek af. Beton, rechte goten en gedempte grachten doen precies het omgekeerde.",
     ),
     dict(
         type="meerkeuze",

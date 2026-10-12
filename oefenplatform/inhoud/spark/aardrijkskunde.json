@@ -37,12 +37,14 @@
             "Een schaal",
             "Een noordpijl",
             "Het aantal inwoners van het gebied dat afgebeeld wordt",
-            "De datum waarop jij het gebied bezocht hebt"
+            "De datum waarop jij het gebied bezocht hebt",
+            "Een titel"
           ],
           "antwoord": [
             0,
             1,
-            2
+            2,
+            5
           ],
           "uitleg": "Een kaart hoort een titel, een legende, een schaal en een noordpijl te dragen. Het inwonertal en jouw bezoek horen daar niet bij."
         },
@@ -106,16 +108,15 @@
           "opties": [
             "Een kaart",
             "Een luchtfoto",
-            "Een satellietbeeld",
+            "Een doorsnedetekening van een heuvel",
             "Een foto die je op straat van een huis neemt",
             "Een tekst waarin de streek beschreven wordt"
           ],
           "antwoord": [
             0,
-            1,
-            2
+            1
           ],
-          "uitleg": "Een kaart, een luchtfoto en een satellietbeeld kijken alle drie van boven naar beneden. Een gewone foto op straat kijkt er van opzij naar."
+          "uitleg": "Een kaart en een luchtfoto kijken allebei recht van boven naar beneden. Een foto op straat, een doorsnede en een tekst tonen het gebied van opzij of helemaal niet."
         },
         {
           "type": "meerkeuze",
@@ -396,12 +397,14 @@
             "Het plateau",
             "De heuvel",
             "De rivier",
-            "Het bos"
+            "Het bos",
+            "De berg"
           ],
           "antwoord": [
             0,
             1,
-            2
+            2,
+            5
           ],
           "uitleg": "De reliëfvormen zijn de vlakte, het plateau, de heuvel of het heuvelland, en de berg of het gebergte. Een rivier en een bos horen bij andere lagen van het landschap."
         },
@@ -557,12 +560,14 @@
             "De Atlantische Oceaan",
             "De Indische Oceaan",
             "De Middellandse Zee",
-            "De Noordzee"
+            "De Noordzee",
+            "De Noordelijke IJszee"
           ],
           "antwoord": [
             0,
             1,
-            2
+            2,
+            5
           ],
           "uitleg": "De Grote, de Atlantische en de Indische Oceaan zijn oceanen, net als de Noordelijke IJszee en de Zuidelijke Oceaan. De Middellandse Zee en de Noordzee zijn zeeën: kleiner, en grotendeels omsloten door land."
         },
@@ -737,12 +742,14 @@
             "De keerkringen",
             "De polen",
             "De provincie waarin je woont",
-            "De rivier die door je stad loopt"
+            "De rivier die door je stad loopt",
+            "De nulmeridiaan"
           ],
           "antwoord": [
             0,
             1,
-            2
+            2,
+            5
           ],
           "uitleg": "Sterrenkundige referentiepunten zijn de lijnen en punten van het gradennet: de evenaar, de nulmeridiaan, de polen, de halfronden, de keerkringen en de poolcirkels."
         },
@@ -769,16 +776,15 @@
           "opties": [
             "De oceanen",
             "De rivieren",
-            "De reliëfeenheden",
+            "De tijdzone waarin een land ligt",
             "De landsgrenzen",
             "De poolcirkels"
           ],
           "antwoord": [
             0,
-            1,
-            2
+            1
           ],
-          "uitleg": "Topografische referentiepunten zijn dingen die in het landschap zelf liggen: oceanen, zeeën, rivieren en reliëfeenheden. Grenzen zijn staatkundig, poolcirkels sterrenkundig."
+          "uitleg": "Oceanen en rivieren liggen in het landschap zelf en zijn dus topografisch. Een landsgrens is staatkundig, en een poolcirkel en een tijdzone horen bij het gradennet."
         },
         {
           "type": "waarofniet",
@@ -906,16 +912,15 @@
           "opties": [
             "Het reliëf",
             "Het klimaat",
-            "De ondergrond",
+            "De verkaveling",
             "De industrie",
             "Het woongebied"
           ],
           "antwoord": [
             0,
-            1,
-            2
+            1
           ],
-          "uitleg": "Reliëf, klimaat, natuurlijke vegetatie, bodem, ondergrond en water zijn de natuurlijke lagen. Industrie en woongebied heeft de mens gemaakt."
+          "uitleg": "Reliëf en klimaat zijn er zonder dat iemand ze gemaakt heeft. Industrie, woongebied en een verkaveling komen alle drie van de mens."
         },
         {
           "type": "meerkeuze",
@@ -937,12 +942,14 @@
             "De horizonlijn",
             "Het hoogteverschil",
             "De temperatuur",
-            "De regenval"
+            "De regenval",
+            "De hoogteligging"
           ],
           "antwoord": [
             0,
             1,
-            2
+            2,
+            5
           ],
           "uitleg": "De reliëfelementen zijn de helling, de horizonlijn, het hoogteverschil en de hoogteligging. Temperatuur en regenval horen bij het klimaat."
         },
@@ -966,12 +973,14 @@
             "Gematigd",
             "Koud",
             "Winderig",
-            "Bewolkt"
+            "Bewolkt",
+            "Droog"
           ],
           "antwoord": [
             0,
             1,
-            2
+            2,
+            5
           ],
           "uitleg": "De fiche werkt met warm, gematigd, koud, droog en nat. Winderig en bewolkt zijn beschrijvingen van het weer van vandaag, niet van het klimaat."
         },
@@ -1131,16 +1140,15 @@
           "opties": [
             "De bebouwing",
             "De transportwegen",
-            "De ontginning",
+            "De natuurlijke vegetatie",
             "De ondergrond",
             "Het reliëf"
           ],
           "antwoord": [
             0,
-            1,
-            2
+            1
           ],
-          "uitleg": "Bebouwing, infrastructuur en ontginning zijn menselijke lagen. De ondergrond en het reliëf lagen er al lang voor er iemand woonde."
+          "uitleg": "Bebouwing en transportwegen zijn door de mens aangelegd. De ondergrond, het reliëf en de vegetatie die er vanzelf groeit, lagen er al lang voordien."
         },
         {
           "type": "meerkeuze",
@@ -1201,16 +1209,15 @@
           "opties": [
             "Een autosnelweg",
             "Een spoorlijn",
-            "Een hoogspanningsleiding",
+            "Een bedrijventerrein",
             "Een voetbalstadion",
             "Een woonwijk"
           ],
           "antwoord": [
             0,
-            1,
-            2
+            1
           ],
-          "uitleg": "Lijninfrastructuur bestaat uit transportwegen en nutsvoorzieningen: wegen, spoorwegen, kanalen, leidingen en kabels. Een stadion en een wijk zijn geen lijnen in het landschap."
+          "uitleg": "Lijninfrastructuur loopt als een lijn door het landschap: een autosnelweg en een spoorlijn dus. Een stadion, een woonwijk en een bedrijventerrein beslaan een vlak."
         },
         {
           "type": "meerkeuze",
@@ -1475,12 +1482,14 @@
             "De taiga",
             "De savanne",
             "Het hoogveen",
-            "De polder"
+            "De polder",
+            "Het regenwoud"
           ],
           "antwoord": [
             0,
             1,
-            2
+            2,
+            5
           ],
           "uitleg": "De fiche noemt zeven vegetatiezones: toendra, taiga, loofwoud, steppe, savanne, regenwoud en (ijs)woestijn. Hoogveen en polder zijn Belgische landschappen, geen wereldwijde zones."
         },
@@ -1616,16 +1625,15 @@
           "opties": [
             "Een leembodem is vruchtbaar en goed voor akkerbouw",
             "Een natte bodem leent zich eerder voor weiland",
-            "Een schrale zandbodem levert minder op per hectare",
+            "Op een stenige berghelling lukt akkerbouw het best",
             "Op elke bodem groeit precies hetzelfde even goed",
             "De bodem heeft niets met de landbouw te maken"
           ],
           "antwoord": [
             0,
-            1,
-            2
+            1
           ],
-          "uitleg": "De bodem bepaalt in hoge mate wat rendeert. Op leem staat graan en fruit, op natte grond staat gras met koeien erop, en op arm zand moest er vroeger heide blijven liggen."
+          "uitleg": "De bodem bepaalt in hoge mate wat rendeert: op leem staat graan en fruit, op natte grond staat gras met koeien erop. Op elke bodem groeit dus niet hetzelfde, en een stenige helling is zowat de slechtste akker die er is."
         },
         {
           "type": "invultekst",
@@ -1671,12 +1679,14 @@
             "People",
             "Prosperity",
             "Production",
-            "Protection"
+            "Protection",
+            "Peace"
           ],
           "antwoord": [
             0,
             1,
-            2
+            2,
+            5
           ],
           "uitleg": "De vijf P's zijn Planet, People, Prosperity, Peace en Partnership. Production en Protection horen er niet bij."
         },
@@ -1866,16 +1876,15 @@
           "opties": [
             "Lava",
             "As",
-            "Gassen",
+            "Regenwater dat op de helling gevallen is",
             "Grondwater uit de diepte",
             "Zeewater uit de oceaan"
           ],
           "antwoord": [
             0,
-            1,
-            2
+            1
           ],
-          "uitleg": "Een uitbarsting spuwt gesmolten gesteente, as en gassen uit. Grond- en zeewater komen er niet uit; wel kan water dat in aanraking komt met magma explosief verdampen."
+          "uitleg": "Lava is gesmolten gesteente en as is fijngemalen gesteente: allebei komen ze uit de pijp. Water niet, of het nu uit de grond, uit de zee of uit de lucht komt."
         },
         {
           "type": "invultekst",
@@ -1946,18 +1955,17 @@
           "type": "meerkeuze",
           "vraag": "Welke uitspraken over aardbevingen kloppen? Er zijn er meerdere juist.",
           "opties": [
-            "Ze duren meestal maar enkele seconden",
+            "Ze worden zeldzamer naarmate de jaren vorderen",
             "Ze komen vaker voor langs de randen van platen",
             "Ze kunnen gebouwen doen instorten",
             "Ze worden aangekondigd enkele dagen vooraf",
             "Ze komen alleen op het land voor, nooit op zee"
           ],
           "antwoord": [
-            0,
             1,
             2
           ],
-          "uitleg": "Een beving duurt kort, treft vooral plaatsgrenzen en kan zware schade aanrichten. Voorspellen op dagen vooraf lukt niet, en op zee gebeuren ze evengoed."
+          "uitleg": "Een beving treft vooral de randen van platen en kan gebouwen doen instorten. Ze aankondigen lukt niet, op zee gebeuren ze evengoed, en zeldzamer worden ze niet."
         },
         {
           "type": "waarofniet",
@@ -2162,16 +2170,15 @@
           "opties": [
             "Een delta",
             "Een zandbank",
-            "Een duinengordel",
+            "Een vulkaankegel",
             "Een kloof in een plateau",
             "Een krater van een vulkaan"
           ],
           "antwoord": [
             0,
-            1,
-            2
+            1
           ],
-          "uitleg": "Delta's, zandbanken en duinen bestaan uit materiaal dat ergens anders is weggehaald en hier is neergelegd. Een kloof is juist uitgeschuurd, en een krater komt van een uitbarsting."
+          "uitleg": "Een delta en een zandbank bestaan uit materiaal dat ergens anders is weggehaald en hier is neergelegd. Een kloof is juist uitgeschuurd, en een krater en een kegel komen van een uitbarsting."
         },
         {
           "type": "meerkeuze",
@@ -2248,12 +2255,14 @@
             "De luchtdruk",
             "De neerslag",
             "De hoogteligging",
-            "De bodemsoort"
+            "De bodemsoort",
+            "De windsnelheid"
           ],
           "antwoord": [
             0,
             1,
-            2
+            2,
+            5
           ],
           "uitleg": "De fiche noemt vijf weerelementen: temperatuur, luchtdruk, windsnelheid, windrichting en neerslag. Hoogteligging en bodem horen bij het landschap, niet bij het weer."
         },
@@ -2408,12 +2417,14 @@
             "Sneeuw",
             "Hagel",
             "Wind",
-            "Mist die blijft hangen"
+            "Mist die blijft hangen",
+            "IJzel"
           ],
           "antwoord": [
             0,
             1,
-            2
+            2,
+            5
           ],
           "uitleg": "Neerslag is water dat uit de lucht naar beneden valt: regen, motregen, sneeuw, hagel, ijzel. Wind is luchtbeweging en mist is een wolk op de grond."
         },
@@ -2484,16 +2495,15 @@
           "opties": [
             "Een laag slib op de velden",
             "Weggespoelde wegen en bruggen",
-            "Uitgesleten geulen in de akkers",
+            "Een akker die achteraf hoger ligt dan voordien",
             "Een blijvend hoger reliëf in de streek",
             "Een andere bodemsoort in de hele vallei"
           ],
           "antwoord": [
             0,
-            1,
-            2
+            1
           ],
-          "uitleg": "Water laat slib achter, sleept wegen mee en snijdt geulen uit. Het reliëf van een hele streek verandert er niet blijvend door, en de bodemsoort ook niet."
+          "uitleg": "Water laat slib achter op de velden en sleept wegen en bruggen mee. Het reliëf van een streek verandert er niet blijvend door, en de bodemsoort evenmin."
         },
         {
           "type": "meerkeuze",
@@ -2602,16 +2612,15 @@
           "opties": [
             "Een overstromingsgebied naast de rivier aanleggen",
             "Regenwater laten insijpelen in plaats van het af te voeren",
-            "Beken meer ruimte geven om te kronkelen",
+            "Elke gracht langs de weg dempen",
             "Elke beek in een rechte betonnen goot leggen",
             "Nog meer oppervlakte verharden rond de stad"
           ],
           "antwoord": [
             0,
-            1,
-            2
+            1
           ],
-          "uitleg": "Water moet plaats en tijd krijgen. Gebieden die mogen onderlopen, bodems die water opnemen en beken die mogen kronkelen, remmen de piek af. Beton doet juist het omgekeerde."
+          "uitleg": "Water moet plaats en tijd krijgen: een gebied dat mag onderlopen en een bodem die water opneemt, remmen de piek af. Beton, rechte goten en gedempte grachten doen precies het omgekeerde."
         },
         {
           "type": "meerkeuze",
@@ -2694,12 +2703,14 @@
             "Methaan",
             "Waterdamp",
             "Zuurstof",
-            "Stikstofgas"
+            "Stikstofgas",
+            "Lachgas"
           ],
           "antwoord": [
             0,
             1,
-            2
+            2,
+            5
           ],
           "uitleg": "Koolstofdioxide, methaan, waterdamp en lachgas houden warmte vast. Zuurstof en stikstof vormen samen bijna de hele dampkring, maar werken niet als broeikasgas."
         },
@@ -2812,12 +2823,14 @@
             "Zon",
             "Waterkracht",
             "Aardolie",
-            "Steenkool"
+            "Steenkool",
+            "Aardwarmte"
           ],
           "antwoord": [
             0,
             1,
-            2
+            2,
+            5
           ],
           "uitleg": "Wind, zon, water, aardwarmte en biomassa raken niet op. Aardolie en steenkool wel, en bij de verbranding ervan komt bovendien koolstofdioxide vrij."
         },
@@ -2947,16 +2960,15 @@
           "opties": [
             "Drogere zomers met lage waterstanden",
             "Hevigere buien die wateroverlast geven",
-            "Meer hittegolven dan vroeger",
+            "Meer sneeuwdagen dan vroeger",
             "Strengere winters dan ooit tevoren",
             "Meer orkanen boven de Noordzee"
           ],
           "antwoord": [
             0,
-            1,
-            2
+            1
           ],
-          "uitleg": "Bij ons uit de opwarming zich in drogere zomers, hevigere buien en meer hitte. Orkanen ontstaan boven veel warmer zeewater dan de Noordzee."
+          "uitleg": "Bij ons uit de opwarming zich vooral in drogere zomers en in hevigere buien. Winters worden net zachter met minder sneeuw, en orkanen ontstaan boven veel warmer zeewater dan de Noordzee."
         },
         {
           "type": "meerkeuze",
@@ -3128,12 +3140,14 @@
             "Een hoogspanningslijn",
             "Een elektriciteitscentrale",
             "Een treinstation in de stad",
-            "Een grote woonwijk aan de rand"
+            "Een grote woonwijk aan de rand",
+            "Een zonnepark op een oud fabrieksterrein"
           ],
           "antwoord": [
             0,
             1,
-            2
+            2,
+            5
           ],
           "uitleg": "Energie-infrastructuur wekt energie op of vervoert ze: centrales, windparken, zonneparken, leidingen en hoogspanningslijnen. Een station hoort bij het transport."
         },
@@ -3163,12 +3177,14 @@
             "Een kanaal graven",
             "Een spoorlijn verdubbelen",
             "Een zonnepark bouwen",
-            "Een camping aanleggen"
+            "Een camping aanleggen",
+            "Een haven uitbreiden"
           ],
           "antwoord": [
             0,
             1,
-            2
+            2,
+            5
           ],
           "uitleg": "Transportinfrastructuur verplaatst mensen en goederen: wegen, spoorwegen, kanalen, havens en luchthavens. Een zonnepark levert energie en een camping dient voor recreatie."
         },
@@ -3244,16 +3260,15 @@
           "opties": [
             "Appartementsgebouwen op de zeedijk",
             "Skiliften op een berghelling",
-            "Een pretpark met parkings errond",
+            "Een infobord aan de ingang van het bos",
             "Een wandelpad door een bestaand bos",
             "Een bank om uit te rusten langs de weg"
           ],
           "antwoord": [
             0,
-            1,
-            2
+            1
           ],
-          "uitleg": "Grote voorzieningen nemen ruimte in en zijn van ver zichtbaar. Een wandelpad of een bank verandert het landschap nauwelijks."
+          "uitleg": "Appartementen op de zeedijk en skiliften op een berghelling nemen ruimte in en zijn van ver zichtbaar. Een wandelpad, een bank en een infobord veranderen het landschap nauwelijks."
         },
         {
           "type": "waarofniet",
@@ -3578,16 +3593,15 @@
           "opties": [
             "Om een adres te vinden",
             "Om coördinaten in te geven",
-            "Om naar een gemeente te springen",
+            "Om een kaartlaag aan of uit te zetten",
             "Om de kleuren van de kaart te wijzigen",
             "Om de kaart af te drukken op papier"
           ],
           "antwoord": [
             0,
-            1,
-            2
+            1
           ],
-          "uitleg": "Met de zoekbalk bepaal je wélk gebied je bekijkt: een adres, een plaatsnaam of een paar coördinaten. Wat je daarna te zien krijgt, regel je met de lagen."
+          "uitleg": "Met de zoekbalk bepaal je wélk gebied je bekijkt: een adres of een paar coördinaten. Wat je daarna te zien krijgt, regel je met de lagen, en afdrukken staat weer ergens anders."
         },
         {
           "type": "invultekst",
@@ -3674,14 +3688,16 @@
             "Luchtfoto's",
             "Satellietbeelden",
             "Krantenartikels over de streek",
-            "Foto's die bewoners zelf namen"
+            "Foto's die bewoners zelf namen",
+            "Kaarten van honderd jaar geleden"
           ],
           "antwoord": [
             0,
             1,
-            2
+            2,
+            5
           ],
-          "uitleg": "Een kaartportaal verzamelt kaarten, luchtfoto's en satellietbeelden van een gebied. Artikels en privéfoto's horen daar niet in."
+          "uitleg": "Een kaartportaal verzamelt kaarten van nu én van vroeger, luchtfoto's en satellietbeelden van een gebied. Krantenartikels en privéfoto's horen daar niet in."
         },
         {
           "type": "waarofniet",
@@ -3870,16 +3886,15 @@
           "opties": [
             "Een antwoord op de onderzoeksvraag",
             "Waarop je dat antwoord baseert",
-            "Of je hypothese klopte of niet",
+            "Hoeveel kaartlagen je opengezet hebt",
             "Hoeveel tijd je eraan besteed hebt",
             "Welke kleur de kaartlagen hadden"
           ],
           "antwoord": [
             0,
-            1,
-            2
+            1
           ],
-          "uitleg": "Een besluit geeft het antwoord, zegt waaruit het blijkt, en komt terug op de hypothese. Hoelang je gewerkt hebt, doet niet ter zake."
+          "uitleg": "Een besluit geeft het antwoord op je onderzoeksvraag en zegt waaruit dat antwoord blijkt. Hoelang je gewerkt hebt, hoeveel lagen je openzette en welke kleur die hadden, doet niet ter zake."
         },
         {
           "type": "meerkeuze",
@@ -4042,16 +4057,15 @@
           "opties": [
             "Een kerktoren",
             "Een watertoren",
-            "Een lange bomenrij",
+            "Een fietser op het pad",
             "Een wolk aan de hemel",
             "Een auto die voorbijrijdt"
           ],
           "antwoord": [
             0,
-            1,
-            2
+            1
           ],
-          "uitleg": "Een herkenningspunt moet blijven staan. Een toren of een bomenrij staat er morgen nog; een wolk en een auto zijn binnen een minuut weg."
+          "uitleg": "Een herkenningspunt moet blijven staan: een kerktoren en een watertoren staan er morgen nog. Een wolk, een auto en een fietser zijn binnen een minuut weg."
         },
         {
           "type": "invultekst",
@@ -4150,12 +4164,14 @@
             "Een kaart van het gebied",
             "Een schepje om de bodem te bekijken",
             "Een barometer voor de luchtdruk",
-            "Een globe van de wereld"
+            "Een globe van de wereld",
+            "Schrijfgerei om alles te noteren"
           ],
           "antwoord": [
             0,
             1,
-            2
+            2,
+            5
           ],
           "uitleg": "Op het terrein heb je nodig wat je ter plaatse gebruikt: kompas, kaart, schrijfgerei en iets om de bodem mee te bekijken. Een globe hoort in de klas."
         },
@@ -4232,16 +4248,15 @@
           "opties": [
             "Of er bomen, struiken of gras staan",
             "Of het loofbomen of naaldbomen zijn",
-            "Hoe dicht de begroeiing staat",
+            "Hoeveel het hout waard is",
             "Wie de eigenaar van het perceel is",
             "Wanneer de bomen geplant werden"
           ],
           "antwoord": [
             0,
-            1,
-            2
+            1
           ],
-          "uitleg": "Bij de vegetatie beschrijf je wat er groeit en hoe dicht. De eigenaar en het plantjaar zie je op het terrein niet, en die horen bij andere bronnen."
+          "uitleg": "Bij de vegetatie beschrijf je wát er groeit: bomen, struiken of gras, en of het loofbomen of naaldbomen zijn. De eigenaar, het plantjaar en de prijs van het hout zie je op het terrein niet."
         },
         {
           "type": "meerkeuze",
@@ -4292,12 +4307,14 @@
             "De kleur van de lagen",
             "Hoe vochtig de bodem is",
             "Hoeveel het perceel waard is",
-            "Wie het perceel bewerkt"
+            "Wie het perceel bewerkt",
+            "Hoe de lagen onder elkaar liggen"
           ],
           "antwoord": [
             0,
             1,
-            2
+            2,
+            5
           ],
           "uitleg": "Je kijkt naar textuur, kleur, vochtigheid en de lagen onder elkaar. Wat het kost en wie het bewerkt, is geen aardrijkskundige waarneming."
         },
