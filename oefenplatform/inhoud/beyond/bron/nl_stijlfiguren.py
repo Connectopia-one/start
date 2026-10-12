@@ -29,8 +29,9 @@ DEEL1 = [
             "de personificatie",
             "de synesthesie",
             "de ellips",
+            "de metonymie",
         ],
-        antwoord=[0, 1, 2],
+        antwoord=[0, 1, 2, 4],
         uitleg="Een ellips is het weglaten van een woord, geen beeld. De andere zetten wel een beeld in.",
     ),
     dict(
@@ -93,11 +94,11 @@ DEEL1 = [
         opties=[
             "de voet van de berg",
             "het hart van de stad",
-            "de arm van de wet",
+            "zo sterk als een beer",
             "zo zwart als roet",
         ],
-        antwoord=[0, 1, 2],
-        uitleg="De laatste bevat het woordje als en is dus een vergelijking. De andere zetten het beeld rechtstreeks neer.",
+        antwoord=[0, 1],
+        uitleg="Wat het woordje als bevat, is een vergelijking. De voet van de berg en het hart van de stad zetten het beeld rechtstreeks neer.",
     ),
     dict(
         type="invultekst",
@@ -260,8 +261,9 @@ DEEL2 = [
             "het parallellisme",
             "het chiasme",
             "de hyperbool",
+            "de inversie",
         ],
-        antwoord=[0, 1, 2],
+        antwoord=[0, 1, 2, 4],
         uitleg="Een hyperbool overdrijft maar herhaalt niets. De andere spelen met de bouw of de herhaling.",
     ),
     dict(
@@ -323,12 +325,12 @@ DEEL2 = [
         vraag="Welke stijlfiguren verzwakken of verzachten wat er bedoeld wordt?",
         opties=[
             "de litotes",
-            "het understatement",
+            "de superlatief",
             "het eufemisme",
             "de hyperbool",
         ],
-        antwoord=[0, 1, 2],
-        uitleg="Een hyperbool doet net het omgekeerde: die vergroot. De andere maken iets kleiner of zachter.",
+        antwoord=[0, 2],
+        uitleg="Een hyperbool en een superlatief doen net het omgekeerde: die vergroten. Een litotes en een eufemisme maken iets kleiner of zachter.",
     ),
     dict(
         type="waarofniet",

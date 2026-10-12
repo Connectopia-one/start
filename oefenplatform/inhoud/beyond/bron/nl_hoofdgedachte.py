@@ -62,11 +62,11 @@ DEEL1 = [
         opties=[
             "ze sluiten aan bij de inhoud van de tekst",
             "ze zijn duidelijk genoeg om er daarna mee te werken",
-            "ze mogen afkortingen, symbolen en telegramstijl bevatten",
+            "ze nemen alle voorbeelden uit de tekst over",
             "ze moeten in volledige zinnen geschreven zijn",
         ],
-        antwoord=[0, 1, 2],
-        uitleg="Volledige zinnen zijn niet nodig; afkortingen en telegramstijl mogen net wel. Wat telt is dat je er later nog iets mee kan.",
+        antwoord=[0, 1],
+        uitleg="Alle voorbeelden overnemen is geen notitie meer, en volledige zinnen zijn niet nodig: afkortingen en telegramstijl mogen net wel. Wat telt is dat je er later nog iets mee kan.",
     ),
     dict(
         type="waarofniet",
@@ -94,8 +94,9 @@ DEEL1 = [
             "benadrukte woorden",
             "een grafiek of een foto bij de tekst",
             "de breedte van de kantlijn",
+            "een kader met de kernboodschap",
         ],
-        antwoord=[0, 1, 2],
+        antwoord=[0, 1, 2, 4],
         uitleg="De kantlijn zegt niets over de inhoud. De andere wijzen je wel op de opbouw of de kern.",
     ),
     dict(
@@ -194,11 +195,11 @@ DEEL1 = [
         opties=[
             "van wie is de tekst",
             "waarom heeft de schrijver de tekst gemaakt",
-            "voor wie is de tekst bedoeld",
+            "hoe lang doe ik erover om te lezen",
             "hoeveel woorden telt de tekst",
         ],
-        antwoord=[0, 1, 2],
-        uitleg="Zender, doel en ontvanger sturen je lezing. Het aantal woorden zegt daar niets over.",
+        antwoord=[0, 1],
+        uitleg="Zender en doel sturen je lezing. Hoe lang je erover doet en hoeveel woorden er staan, zeggen daar niets over.",
     ),
 ]
 
@@ -211,8 +212,9 @@ DEEL2 = [
             "ze heeft een duidelijke opbouw en structuur",
             "ze geeft de hoofdgedachte en de hoofdpunten weer",
             "ze neemt de mooiste zinnen letterlijk over",
+            "ze staat in je eigen woorden",
         ],
-        antwoord=[0, 1, 2],
+        antwoord=[0, 1, 2, 4],
         uitleg="Letterlijk overnemen is net wat niet mag: je herformuleert in je eigen woorden.",
     ),
     dict(
@@ -304,12 +306,12 @@ DEEL2 = [
         vraag="Welke strategieën helpen je bij het luisteren naar een lange reportage?",
         opties=[
             "korte notities nemen",
-            "op de beelden letten die bij de uitleg horen",
+            "de reportage op dubbele snelheid beluisteren",
             "op signaalwoorden letten",
             "elk onbekend woord meteen opzoeken",
         ],
-        antwoord=[0, 1, 2],
-        uitleg="Opzoeken tijdens het luisteren kost je de draad. De andere helpen je net om die vast te houden.",
+        antwoord=[0, 2],
+        uitleg="Opzoeken tijdens het luisteren kost je de draad, en op dubbele snelheid mis je nog meer. Notities en signaalwoorden helpen je net om die draad vast te houden.",
     ),
     dict(
         type="invultekst",
@@ -373,8 +375,9 @@ DEEL2 = [
             "welke zin vat de hele tekst samen",
             "waar wijzen alle hoofdpunten naartoe",
             "welk woord komt het vaakst voor",
+            "wat beweert de schrijver over zijn onderwerp",
         ],
-        antwoord=[0, 1, 2],
+        antwoord=[0, 1, 2, 4],
         uitleg="Het meest voorkomende woord geeft hoogstens het onderwerp aan, niet wat de schrijver erover beweert.",
     ),
     dict(

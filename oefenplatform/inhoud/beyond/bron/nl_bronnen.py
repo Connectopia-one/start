@@ -14,11 +14,11 @@ DEEL1 = [
         opties=[
             "wordt de auteur vermeld",
             "wie publiceert het artikel",
-            "is de informatie ook elders terug te vinden",
+            "staat er een foto bij het artikel",
             "hoeveel woorden telt het artikel",
         ],
-        antwoord=[0, 1, 2],
-        uitleg="De lengte zegt niets. Auteur, uitgever en bevestiging in andere bronnen zijn wel drie van de criteria.",
+        antwoord=[0, 1],
+        uitleg="De lengte en een foto zeggen niets. Wie het schrijft en wie het publiceert, horen wel bij de criteria.",
     ),
     dict(
         type="meerkeuze",
@@ -148,9 +148,10 @@ DEEL1 = [
             "het bericht circuleert enkel op sociale media",
             "de titel is sterk lokkend opgesteld",
             "het bericht is langer dan duizend woorden",
+            "er staat geen bron bij de cijfers",
         ],
-        antwoord=[0, 1, 2],
-        uitleg="De lengte zegt niets. De andere samen zijn een klassiek patroon: geen zender, geen tegenstem, maximaal lokken.",
+        antwoord=[0, 1, 2, 4],
+        uitleg="De lengte zegt niets. De andere samen zijn een klassiek patroon: geen auteur, geen bron, geen tegenstem en maximaal lokken.",
     ),
     dict(
         type="meerkeuze",
@@ -241,8 +242,9 @@ DEEL2 = [
             "spreken over klimaatverandering of over klimaatontwrichting",
             "spreken over een vluchteling of over een gelukzoeker",
             "spreken over een auto of over een wagen in dezelfde zin",
+            "spreken over snijden in de uitgaven of over de uitgaven onder controle houden",
         ],
-        antwoord=[0, 1, 2],
+        antwoord=[0, 1, 2, 4],
         uitleg="Auto en wagen zijn gewoon synoniemen. De andere paren zetten dezelfde zaak in een ander licht.",
     ),
     dict(
@@ -305,11 +307,11 @@ DEEL2 = [
         opties=[
             "een grafiek met een afgesneden as",
             "een foto die een extreem geval toont",
-            "muziek die een dreigende sfeer schept",
+            "een voetnoot met de bron van het cijfer",
             "een inhoudstafel bovenaan het artikel",
         ],
-        antwoord=[0, 1, 2],
-        uitleg="Een inhoudstafel ordent alleen. De andere sturen hoe je de inhoud voelt en dus hoe je hem leest.",
+        antwoord=[0, 1],
+        uitleg="Een inhoudstafel en een voetnoot ordenen of verantwoorden alleen. Een afgesneden as en een extreem voorbeeld sturen hoe je de inhoud voelt en dus hoe je hem leest.",
     ),
     dict(
         type="invultekst",
@@ -371,11 +373,11 @@ DEEL2 = [
         opties=[
             "ze gelden ook voor beeld en geluid",
             "geen enkel criterium beslist op zichzelf",
-            "je weegt ze samen af",
+            "ze staan in een vaste volgorde van belang",
             "ze moeten alle dertien positief uitvallen",
         ],
-        antwoord=[0, 1, 2],
-        uitleg="Zelden valt alles positief uit. Je maakt een afweging, en hoe meer rode vlaggen, hoe voorzichtiger je bent.",
+        antwoord=[0, 1],
+        uitleg="Er is geen vaste rangorde, en zelden valt alles positief uit. Je maakt een afweging, en hoe meer rode vlaggen, hoe voorzichtiger je bent.",
     ),
     dict(
         type="invultekst",

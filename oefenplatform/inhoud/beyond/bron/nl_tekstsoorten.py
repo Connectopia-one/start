@@ -157,12 +157,12 @@ DEEL1 = [
         vraag="Welke uitspraken over tekstsoorten kloppen?",
         opties=[
             "één tekst kan meer dan één doel tegelijk hebben",
-            "de voorbeelden kunnen zowel geschreven als gesproken zijn",
+            "bovenaan een tekst staat altijd vermeld welke soort het is",
             "de soort hangt af van het doel van de zender",
-            "elke tekst hoort altijd bij precies één van de zeven soorten"
+            "elke tekst hoort altijd bij precies één van de zeven soorten",
         ],
-        antwoord=[0, 1, 2],
-        uitleg="De laatste klopt net niet: een recensie, een documentaire of een column zit vaak op twee soorten tegelijk.",
+        antwoord=[0, 2],
+        uitleg="Nergens staat bovenaan welke soort je leest. En eenzelfde tekst hoort niet altijd bij precies één soort: een recensie, een documentaire of een column zit vaak op twee soorten tegelijk.",
     ),
     dict(
         type="invultekst",
@@ -221,11 +221,11 @@ DEEL2 = [
         opties=[
             "argumentatief",
             "opiniërend",
-            "informatief",
+            "narratief",
             "prescriptief",
         ],
-        antwoord=[0, 1, 2],
-        uitleg="De schrijver geeft zijn mening, onderbouwt die met argumenten en brengt onderweg ook feiten aan. Hij schrijft je geen handeling voor.",
+        antwoord=[0, 1],
+        uitleg="De schrijver geeft zijn mening en onderbouwt die met argumenten. Hij vertelt geen verhaal en schrijft je geen handeling voor.",
     ),
     dict(
         type="waarofniet",
@@ -307,8 +307,9 @@ DEEL2 = [
             "een gedicht",
             "een reclameboodschap",
             "geen enkele, een luistertekst is altijd anders",
+            "een nieuwsbericht",
         ],
-        antwoord=[0, 1, 2],
+        antwoord=[0, 1, 2, 4],
         uitleg="Dezelfde soort kan in beide vormen voorkomen. Een reportage beluister je, een krantenartikel lees je, en een interview kan allebei.",
     ),
     dict(
@@ -353,11 +354,11 @@ DEEL2 = [
         opties=[
             "argumentatief",
             "literair",
-            "opiniërend",
+            "narratief",
             "prescriptief",
         ],
-        antwoord=[0, 1, 2],
-        uitleg="Een essay denkt hardop, onderbouwt, geeft een persoonlijke kijk en is vaak ook mooi geschreven. Het schrijft je geen handelingen voor.",
+        antwoord=[0, 1],
+        uitleg="Een essay denkt hardop, onderbouwt en is vaak ook mooi geschreven. Het vertelt geen verhaal en schrijft je geen handelingen voor.",
     ),
     dict(
         type="waarofniet",

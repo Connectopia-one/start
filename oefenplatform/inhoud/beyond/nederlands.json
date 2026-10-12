@@ -164,16 +164,15 @@
           "vraag": "Welke uitspraken over tekstsoorten kloppen?",
           "opties": [
             "één tekst kan meer dan één doel tegelijk hebben",
-            "de voorbeelden kunnen zowel geschreven als gesproken zijn",
+            "bovenaan een tekst staat altijd vermeld welke soort het is",
             "de soort hangt af van het doel van de zender",
             "elke tekst hoort altijd bij precies één van de zeven soorten"
           ],
           "antwoord": [
             0,
-            1,
             2
           ],
-          "uitleg": "De laatste klopt net niet: een recensie, een documentaire of een column zit vaak op twee soorten tegelijk."
+          "uitleg": "Nergens staat bovenaan welke soort je leest. En eenzelfde tekst hoort niet altijd bij precies één soort: een recensie, een documentaire of een column zit vaak op twee soorten tegelijk."
         },
         {
           "type": "invultekst",
@@ -242,15 +241,14 @@
           "opties": [
             "argumentatief",
             "opiniërend",
-            "informatief",
+            "narratief",
             "prescriptief"
           ],
           "antwoord": [
             0,
-            1,
-            2
+            1
           ],
-          "uitleg": "De schrijver geeft zijn mening, onderbouwt die met argumenten en brengt onderweg ook feiten aan. Hij schrijft je geen handeling voor."
+          "uitleg": "De schrijver geeft zijn mening en onderbouwt die met argumenten. Hij vertelt geen verhaal en schrijft je geen handeling voor."
         },
         {
           "type": "waarofniet",
@@ -334,12 +332,14 @@
             "een interview",
             "een gedicht",
             "een reclameboodschap",
-            "geen enkele, een luistertekst is altijd anders"
+            "geen enkele, een luistertekst is altijd anders",
+            "een nieuwsbericht"
           ],
           "antwoord": [
             0,
             1,
-            2
+            2,
+            4
           ],
           "uitleg": "Dezelfde soort kan in beide vormen voorkomen. Een reportage beluister je, een krantenartikel lees je, en een interview kan allebei."
         },
@@ -388,15 +388,14 @@
           "opties": [
             "argumentatief",
             "literair",
-            "opiniërend",
+            "narratief",
             "prescriptief"
           ],
           "antwoord": [
             0,
-            1,
-            2
+            1
           ],
-          "uitleg": "Een essay denkt hardop, onderbouwt, geeft een persoonlijke kijk en is vaak ook mooi geschreven. Het schrijft je geen handelingen voor."
+          "uitleg": "Een essay denkt hardop, onderbouwt en is vaak ook mooi geschreven. Het vertelt geen verhaal en schrijft je geen handelingen voor."
         },
         {
           "type": "waarofniet",
@@ -500,15 +499,14 @@
           "opties": [
             "ze sluiten aan bij de inhoud van de tekst",
             "ze zijn duidelijk genoeg om er daarna mee te werken",
-            "ze mogen afkortingen, symbolen en telegramstijl bevatten",
+            "ze nemen alle voorbeelden uit de tekst over",
             "ze moeten in volledige zinnen geschreven zijn"
           ],
           "antwoord": [
             0,
-            1,
-            2
+            1
           ],
-          "uitleg": "Volledige zinnen zijn niet nodig; afkortingen en telegramstijl mogen net wel. Wat telt is dat je er later nog iets mee kan."
+          "uitleg": "Alle voorbeelden overnemen is geen notitie meer, en volledige zinnen zijn niet nodig: afkortingen en telegramstijl mogen net wel. Wat telt is dat je er later nog iets mee kan."
         },
         {
           "type": "waarofniet",
@@ -535,12 +533,14 @@
             "de titel en de tussentitels",
             "benadrukte woorden",
             "een grafiek of een foto bij de tekst",
-            "de breedte van de kantlijn"
+            "de breedte van de kantlijn",
+            "een kader met de kernboodschap"
           ],
           "antwoord": [
             0,
             1,
-            2
+            2,
+            4
           ],
           "uitleg": "De kantlijn zegt niets over de inhoud. De andere wijzen je wel op de opbouw of de kern."
         },
@@ -644,15 +644,14 @@
           "opties": [
             "van wie is de tekst",
             "waarom heeft de schrijver de tekst gemaakt",
-            "voor wie is de tekst bedoeld",
+            "hoe lang doe ik erover om te lezen",
             "hoeveel woorden telt de tekst"
           ],
           "antwoord": [
             0,
-            1,
-            2
+            1
           ],
-          "uitleg": "Zender, doel en ontvanger sturen je lezing. Het aantal woorden zegt daar niets over."
+          "uitleg": "Zender en doel sturen je lezing. Hoe lang je erover doet en hoeveel woorden er staan, zeggen daar niets over."
         }
       ]
     },
@@ -668,12 +667,14 @@
             "ze is korter dan de oorspronkelijke tekst",
             "ze heeft een duidelijke opbouw en structuur",
             "ze geeft de hoofdgedachte en de hoofdpunten weer",
-            "ze neemt de mooiste zinnen letterlijk over"
+            "ze neemt de mooiste zinnen letterlijk over",
+            "ze staat in je eigen woorden"
           ],
           "antwoord": [
             0,
             1,
-            2
+            2,
+            4
           ],
           "uitleg": "Letterlijk overnemen is net wat niet mag: je herformuleert in je eigen woorden."
         },
@@ -769,16 +770,15 @@
           "vraag": "Welke strategieën helpen je bij het luisteren naar een lange reportage?",
           "opties": [
             "korte notities nemen",
-            "op de beelden letten die bij de uitleg horen",
+            "de reportage op dubbele snelheid beluisteren",
             "op signaalwoorden letten",
             "elk onbekend woord meteen opzoeken"
           ],
           "antwoord": [
             0,
-            1,
             2
           ],
-          "uitleg": "Opzoeken tijdens het luisteren kost je de draad. De andere helpen je net om die vast te houden."
+          "uitleg": "Opzoeken tijdens het luisteren kost je de draad, en op dubbele snelheid mis je nog meer. Notities en signaalwoorden helpen je net om die draad vast te houden."
         },
         {
           "type": "invultekst",
@@ -843,12 +843,14 @@
             "wat wil de schrijver dat ik onthoud",
             "welke zin vat de hele tekst samen",
             "waar wijzen alle hoofdpunten naartoe",
-            "welk woord komt het vaakst voor"
+            "welk woord komt het vaakst voor",
+            "wat beweert de schrijver over zijn onderwerp"
           ],
           "antwoord": [
             0,
             1,
-            2
+            2,
+            4
           ],
           "uitleg": "Het meest voorkomende woord geeft hoogstens het onderwerp aan, niet wat de schrijver erover beweert."
         },
@@ -885,15 +887,14 @@
           "opties": [
             "wordt de auteur vermeld",
             "wie publiceert het artikel",
-            "is de informatie ook elders terug te vinden",
+            "staat er een foto bij het artikel",
             "hoeveel woorden telt het artikel"
           ],
           "antwoord": [
             0,
-            1,
-            2
+            1
           ],
-          "uitleg": "De lengte zegt niets. Auteur, uitgever en bevestiging in andere bronnen zijn wel drie van de criteria."
+          "uitleg": "De lengte en een foto zeggen niets. Wie het schrijft en wie het publiceert, horen wel bij de criteria."
         },
         {
           "type": "meerkeuze",
@@ -1026,14 +1027,16 @@
             "er wordt geen auteur vermeld",
             "het bericht circuleert enkel op sociale media",
             "de titel is sterk lokkend opgesteld",
-            "het bericht is langer dan duizend woorden"
+            "het bericht is langer dan duizend woorden",
+            "er staat geen bron bij de cijfers"
           ],
           "antwoord": [
             0,
             1,
-            2
+            2,
+            4
           ],
-          "uitleg": "De lengte zegt niets. De andere samen zijn een klassiek patroon: geen zender, geen tegenstem, maximaal lokken."
+          "uitleg": "De lengte zegt niets. De andere samen zijn een klassiek patroon: geen auteur, geen bron, geen tegenstem en maximaal lokken."
         },
         {
           "type": "meerkeuze",
@@ -1129,12 +1132,14 @@
             "spreken over een belastingverlaging of over een besparing",
             "spreken over klimaatverandering of over klimaatontwrichting",
             "spreken over een vluchteling of over een gelukzoeker",
-            "spreken over een auto of over een wagen in dezelfde zin"
+            "spreken over een auto of over een wagen in dezelfde zin",
+            "spreken over snijden in de uitgaven of over de uitgaven onder controle houden"
           ],
           "antwoord": [
             0,
             1,
-            2
+            2,
+            4
           ],
           "uitleg": "Auto en wagen zijn gewoon synoniemen. De andere paren zetten dezelfde zaak in een ander licht."
         },
@@ -1201,15 +1206,14 @@
           "opties": [
             "een grafiek met een afgesneden as",
             "een foto die een extreem geval toont",
-            "muziek die een dreigende sfeer schept",
+            "een voetnoot met de bron van het cijfer",
             "een inhoudstafel bovenaan het artikel"
           ],
           "antwoord": [
             0,
-            1,
-            2
+            1
           ],
-          "uitleg": "Een inhoudstafel ordent alleen. De andere sturen hoe je de inhoud voelt en dus hoe je hem leest."
+          "uitleg": "Een inhoudstafel en een voetnoot ordenen of verantwoorden alleen. Een afgesneden as en een extreem voorbeeld sturen hoe je de inhoud voelt en dus hoe je hem leest."
         },
         {
           "type": "invultekst",
@@ -1273,15 +1277,14 @@
           "opties": [
             "ze gelden ook voor beeld en geluid",
             "geen enkel criterium beslist op zichzelf",
-            "je weegt ze samen af",
+            "ze staan in een vaste volgorde van belang",
             "ze moeten alle dertien positief uitvallen"
           ],
           "antwoord": [
             0,
-            1,
-            2
+            1
           ],
-          "uitleg": "Zelden valt alles positief uit. Je maakt een afweging, en hoe meer rode vlaggen, hoe voorzichtiger je bent."
+          "uitleg": "Er is geen vaste rangorde, en zelden valt alles positief uit. Je maakt een afweging, en hoe meer rode vlaggen, hoe voorzichtiger je bent."
         },
         {
           "type": "invultekst",
@@ -1329,12 +1332,14 @@
             "kanaal",
             "context",
             "effect",
-            "alinea"
+            "alinea",
+            "ruis"
           ],
           "antwoord": [
             0,
             1,
-            2
+            2,
+            4
           ],
           "uitleg": "Een alinea is een stukje tekstopbouw, geen onderdeel van het model. De andere wel."
         },
@@ -1439,14 +1444,16 @@
             "een waarschuwing die mensen doet lachen",
             "een grap die iemand kwetst",
             "een uitleg die de ontvanger niet begrijpt",
-            "een uitnodiging die wordt aangenomen"
+            "een uitnodiging die wordt aangenomen",
+            "een oproep die niemand leest"
           ],
           "antwoord": [
             0,
             1,
-            2
+            2,
+            4
           ],
-          "uitleg": "Bij de laatste valt het effect net samen met het doel. Bij de andere komt er iets anders uit dan bedoeld."
+          "uitleg": "Bij de uitnodiging die wordt aangenomen valt het effect net samen met het doel. Bij de andere komt er iets anders uit dan bedoeld."
         },
         {
           "type": "waarofniet",
@@ -1582,15 +1589,14 @@
           "opties": [
             "een haperende videoverbinding",
             "een drilboor voor het raam van het lokaal",
-            "een slecht leesbaar lettertype op een affiche",
+            "een ontvanger die het onderwerp niet interessant vindt",
             "een ontvanger die aan iets anders denkt"
           ],
           "antwoord": [
             0,
-            1,
-            2
+            1
           ],
-          "uitleg": "De laatste zit in het hoofd van de ontvanger en is dus intern. De andere zitten in de omgeving of in het kanaal."
+          "uitleg": "Wat in het hoofd van de ontvanger zit, is interne ruis. Een haperende verbinding en een drilboor voor het raam zitten in de omgeving of in het kanaal."
         },
         {
           "type": "waarofniet",
@@ -1617,14 +1623,16 @@
             "de zender",
             "het kanaal",
             "het doel",
-            "de interne ruis"
+            "de interne ruis",
+            "de boodschap zelf"
           ],
           "antwoord": [
             0,
             1,
-            2
+            2,
+            4
           ],
-          "uitleg": "Je kijkt wie het stuurt, waarlangs, en waarom. Ruis speelt hier geen rol."
+          "uitleg": "Je kijkt wie het stuurt, waarlangs, waarom, en wat er staat. Ruis speelt hier geen rol."
         },
         {
           "type": "invultekst",
@@ -1798,12 +1806,14 @@
             "oorzakelijk",
             "voorwaardelijk",
             "concluderend",
-            "alfabetisch"
+            "alfabetisch",
+            "tegenstellend"
           ],
           "antwoord": [
             0,
             1,
-            2
+            2,
+            4
           ],
           "uitleg": "Alfabetisch is een ordening van een lijst, geen verband tussen gedachten. De andere staan wel in de rij."
         },
@@ -1899,15 +1909,14 @@
           "opties": [
             "tussentitels",
             "paragrafen",
-            "witregels tussen de delen",
+            "de kleur van de letters",
             "de kleur van het papier"
           ],
           "antwoord": [
             0,
-            1,
-            2
+            1
           ],
-          "uitleg": "De kleur van het papier zegt niets over de opbouw. De andere laten zien hoe de tekst in stukken valt."
+          "uitleg": "De kleur van het papier en van de letters zegt niets over de opbouw. Tussentitels en paragrafen laten zien hoe de tekst in stukken valt."
         },
         {
           "type": "invultekst",
@@ -1973,12 +1982,14 @@
             "de argumentatiestructuur",
             "de vergelijkingsstructuur",
             "de verklaringsstructuur",
-            "de alfabetstructuur"
+            "de alfabetstructuur",
+            "de probleemstructuur"
           ],
           "antwoord": [
             0,
             1,
-            2
+            2,
+            4
           ],
           "uitleg": "Een alfabetstructuur bestaat niet in deze rij. De negen vaste structuren zijn argumentatie, evaluatie, handeling, maatregel, onderzoek, ontwikkeling, probleem, vergelijking en verklaring."
         },
@@ -2084,12 +2095,14 @@
             "een gepaste aanspreking",
             "een verzorgde slotgroet",
             "correcte spelling en interpunctie",
-            "een smiley in elke alinea"
+            "een smiley in elke alinea",
+            "een duidelijke onderwerpregel"
           ],
           "antwoord": [
             0,
             1,
-            2
+            2,
+            4
           ],
           "uitleg": "Een smiley hoort bij informele communicatie. De andere maken een formele mail juist formeel."
         },
@@ -2144,14 +2157,16 @@
             "de titel",
             "de tussentitels",
             "het slot",
-            "de middelste alinea van de tekst"
+            "de middelste alinea van de tekst",
+            "de eerste alinea"
           ],
           "antwoord": [
             0,
             1,
-            2
+            2,
+            4
           ],
-          "uitleg": "Titel en tussentitels geven de opbouw, het slot geeft het besluit. Samen weet je in een halve minuut waar het over gaat."
+          "uitleg": "Titel en tussentitels geven de opbouw, de inleiding en het slot geven de kern en het besluit. Samen weet je in een halve minuut waar het over gaat."
         },
         {
           "type": "meerkeuze",
@@ -2190,15 +2205,14 @@
           "opties": [
             "de schooldag zou later moeten beginnen",
             "dit boek is veel te langdradig",
-            "jongeren slapen te weinig voor hun eigen bestwil",
+            "dit boek telt 320 bladzijden",
             "de school begint om kwart over acht"
           ],
           "antwoord": [
             0,
-            1,
-            2
+            1
           ],
-          "uitleg": "De laatste zin kan je nakijken op het uurrooster en is dus een feit. De andere bevatten een oordeel."
+          "uitleg": "Wat je kan nakijken op het uurrooster of op de achterflap is een feit. De andere zinnen bevatten een oordeel."
         },
         {
           "type": "invultekst",
@@ -2263,12 +2277,14 @@
             "een duidelijke stelling",
             "argumenten die de stelling dragen",
             "een conclusie die eruit volgt",
-            "zoveel mogelijk uitroeptekens"
+            "zoveel mogelijk uitroeptekens",
+            "een inleiding die de stelling aankondigt"
           ],
           "antwoord": [
             0,
             1,
-            2
+            2,
+            4
           ],
           "uitleg": "Uitroeptekens maken een betoog luider, niet sterker. De andere zijn het geraamte."
         },
@@ -2404,14 +2420,16 @@
             "op basis van wetenschappelijk onderzoek",
             "op basis van cijfers en statistieken",
             "op basis van een autoriteit",
-            "op basis van het aantal woorden"
+            "op basis van het aantal woorden",
+            "op basis van een vergelijking"
           ],
           "antwoord": [
             0,
             1,
-            2
+            2,
+            4
           ],
-          "uitleg": "Het aantal woorden is geen argument. Vergelijking en oorzaak-gevolg horen ook in de rij thuis."
+          "uitleg": "Het aantal woorden is geen argument. Oorzaak-gevolg hoort ook in de rij thuis."
         },
         {
           "type": "invultekst",
@@ -2475,15 +2493,14 @@
           "opties": [
             "dat zegt iemand die zelf nooit op tijd komt",
             "dit is altijd zo geweest, dus het moet zo blijven",
-            "ofwel ben je voor, ofwel ben je tegen ons",
+            "deze maatregel kost de stad twee miljoen euro",
             "uit drie onderzoeken blijkt hetzelfde beeld"
           ],
           "antwoord": [
             0,
-            1,
-            2
+            1
           ],
-          "uitleg": "De laatste is een gewoon argument op basis van onderzoek. De andere zijn respectievelijk een persoonlijke aanval, een beroep op traditie en een vals dilemma."
+          "uitleg": "Een bedrag en een verwijzing naar onderzoek zijn gewone argumenten. De andere zijn een persoonlijke aanval en een beroep op traditie."
         },
         {
           "type": "invultekst",
@@ -2548,14 +2565,16 @@
             "wie voerde het onderzoek uit",
             "hoeveel mensen namen eraan deel",
             "wie heeft het onderzoek betaald",
-            "hoe lang was het verslag"
+            "hoe lang was het verslag",
+            "wanneer werd het onderzoek uitgevoerd"
           ],
           "antwoord": [
             0,
             1,
-            2
+            2,
+            4
           ],
-          "uitleg": "De lengte van het verslag zegt niets. Uitvoerder, omvang en financiering zeggen alles over het gewicht van het argument."
+          "uitleg": "De lengte van het verslag zegt niets. Uitvoerder, omvang, financiering en ouderdom zeggen alles over het gewicht van het argument."
         },
         {
           "type": "invultekst",
@@ -2719,12 +2738,14 @@
             "de mythe",
             "de sage",
             "het volkssprookje",
-            "de column"
+            "de column",
+            "de legende"
           ],
           "antwoord": [
             0,
             1,
-            2
+            2,
+            4
           ],
           "uitleg": "Een column is een modern krantengenre met een herkenbare auteur. De andere komen uit de mondelinge traditie."
         },
@@ -2765,14 +2786,16 @@
             "situatiehumor",
             "taalhumor",
             "zwarte humor",
-            "beeldhumor in grafieken"
+            "beeldhumor in grafieken",
+            "ironie"
           ],
           "antwoord": [
             0,
             1,
-            2
+            2,
+            4
           ],
-          "uitleg": "De laatste bestaat niet als term in de rij. Absurde humor, ironie, sarcasme, cynisme, parodie, satire, woordspeling en overdrijving horen er wel bij."
+          "uitleg": "Beeldhumor in grafieken bestaat niet als term in de rij. Absurde humor, sarcasme, cynisme, parodie, satire, woordspeling en overdrijving horen er wel bij."
         },
         {
           "type": "invultekst",
@@ -2838,12 +2861,14 @@
             "de briefroman",
             "de sleutelroman",
             "de tendensroman",
-            "de voetnootroman"
+            "de voetnootroman",
+            "de schelmenroman"
           ],
           "antwoord": [
             0,
             1,
-            2
+            2,
+            4
           ],
           "uitleg": "Een voetnootroman staat niet in de rij. De andere wel, naast nog een hele reeks andere genres."
         },
@@ -2909,15 +2934,14 @@
           "opties": [
             "de Karelepiek",
             "de Arthurroman",
-            "de dierenepiek",
+            "de detectiveroman",
             "de sciencefictionroman"
           ],
           "antwoord": [
             0,
-            1,
-            2
+            1
           ],
-          "uitleg": "Sciencefiction is modern. De andere zijn middeleeuwse verhaalstromen, rond Karel de Grote, rond koning Arthur en rond sprekende dieren."
+          "uitleg": "Sciencefiction en detectiveverhalen zijn modern. De Karelepiek draait rond Karel de Grote, de Arthurroman rond koning Arthur."
         },
         {
           "type": "invultekst",
@@ -3092,14 +3116,16 @@
             "geografische ruimte",
             "symbolische ruimte",
             "sociale ruimte",
-            "grammaticale ruimte"
+            "grammaticale ruimte",
+            "sfeerscheppende ruimte"
           ],
           "antwoord": [
             0,
             1,
-            2
+            2,
+            4
           ],
-          "uitleg": "Grammaticale ruimte bestaat niet. Naast de drie genoemde is er ook nog de sfeerscheppende ruimte."
+          "uitleg": "Grammaticale ruimte bestaat niet. De andere soorten ruimte komen in een verhaal naast elkaar voor."
         },
         {
           "type": "waarofniet",
@@ -3164,12 +3190,14 @@
             "chronologische volgorde",
             "verteltempo",
             "gelijktijdigheid",
-            "sfeerscheppende ruimte"
+            "sfeerscheppende ruimte",
+            "de flashback"
           ],
           "antwoord": [
             0,
             1,
-            2
+            2,
+            4
           ],
           "uitleg": "De sfeerscheppende ruimte hoort bij de ruimte. De andere ordenen het verhaal in de tijd."
         },
@@ -3267,12 +3295,14 @@
             "expositie",
             "stijgende actie",
             "ontknoping",
-            "epiloog"
+            "epiloog",
+            "climax"
           ],
           "antwoord": [
             0,
             1,
-            2
+            2,
+            4
           ],
           "uitleg": "De volledige boog is expositie, stijgende actie, climax, dalende actie en ontknoping. Een epiloog is een toevoeging, geen onderdeel van de boog."
         },
@@ -3377,12 +3407,14 @@
             "de personale verteller",
             "de onbetrouwbare verteller",
             "het meervoudig perspectief",
-            "de lyrische verteller"
+            "de lyrische verteller",
+            "de alwetende verteller"
           ],
           "antwoord": [
             0,
             1,
-            2
+            2,
+            4
           ],
           "uitleg": "Een lyrische verteller bestaat niet als term; in de poëzie spreekt men van het lyrisch subject."
         },
@@ -3480,12 +3512,14 @@
             "het rondeel",
             "de ode",
             "de elegie",
-            "de alinea"
+            "de alinea",
+            "het sonnet"
           ],
           "antwoord": [
             0,
             1,
-            2
+            2,
+            4
           ],
           "uitleg": "Een alinea hoort bij proza. De andere zijn vaste dichtvormen."
         },
@@ -3551,15 +3585,14 @@
           "opties": [
             "slampoetry",
             "het minnelied",
-            "de ballade",
+            "de kalligram",
             "typografische poëzie"
           ],
           "antwoord": [
             0,
-            1,
-            2
+            1
           ],
-          "uitleg": "Typografische poëzie moet je net zien staan. De andere leven van de stem en het publiek."
+          "uitleg": "Typografische poëzie en een kalligram moet je net zien staan. Slampoetry en het minnelied leven van de stem en het publiek."
         },
         {
           "type": "invultekst",
@@ -3593,15 +3626,14 @@
           "opties": [
             "kwintet is vijf",
             "sextet is zes",
-            "septet is zeven",
+            "octaaf is zes",
             "terzine is vier"
           ],
           "antwoord": [
             0,
-            1,
-            2
+            1
           ],
-          "uitleg": "Een terzine telt drie verzen, niet vier. Vier verzen is een kwatrijn."
+          "uitleg": "Een terzine telt drie verzen, niet vier, en een octaaf telt er acht, niet zes. Vier verzen is een kwatrijn."
         },
         {
           "type": "waarofniet",
@@ -3735,15 +3767,14 @@
           "opties": [
             "aabb is gepaard rijm",
             "abba is omarmend rijm",
-            "abab is gekruist rijm",
+            "abab is slagrijm",
             "aaaa is omarmend rijm"
           ],
           "antwoord": [
             0,
-            1,
-            2
+            1
           ],
-          "uitleg": "Bij abba omarmt het eerste rijm het tweede. Vier dezelfde klanken na elkaar is geen omarmend rijm."
+          "uitleg": "Bij abba omarmt het eerste rijm het tweede, en abab heet gekruist rijm, geen slagrijm. Vier dezelfde klanken na elkaar is geen omarmend rijm."
         },
         {
           "type": "waarofniet",
@@ -3839,12 +3870,14 @@
             "assonantie",
             "alliteratie",
             "volrijm",
-            "enjambement"
+            "enjambement",
+            "binnenrijm"
           ],
           "antwoord": [
             0,
             1,
-            2
+            2,
+            4
           ],
           "uitleg": "Enjambement gaat over de bouw van de zin tegenover het vers, niet over klank. De andere zijn klankverschijnselen."
         },
@@ -3912,12 +3945,14 @@
             "het abel spel",
             "het mirakelspel",
             "de moraliteit",
-            "het episch theater"
+            "het episch theater",
+            "de sotternie"
           ],
           "antwoord": [
             0,
             1,
-            2
+            2,
+            4
           ],
           "uitleg": "Episch theater is twintigste-eeuws. De andere zijn middeleeuws, met respectievelijk een ernstig verhaal, een wonder en een les."
         },
@@ -3998,12 +4033,14 @@
             "de musical",
             "spoken word",
             "het absurd theater",
-            "het abel spel"
+            "het abel spel",
+            "het documentair theater"
           ],
           "antwoord": [
             0,
             1,
-            2
+            2,
+            4
           ],
           "uitleg": "Het abel spel is middeleeuws. De andere horen bij de twintigste en de eenentwintigste eeuw."
         },
@@ -4125,12 +4162,14 @@
             "mimiek",
             "gestiek",
             "fysionomie",
-            "belichting"
+            "belichting",
+            "de stem"
           ],
           "antwoord": [
             0,
             1,
-            2
+            2,
+            4
           ],
           "uitleg": "Belichting komt van buitenaf. Gezichtsuitdrukking, gebaren en lichaamsbouw horen bij de speler."
         },
@@ -4222,15 +4261,14 @@
           "opties": [
             "het decor",
             "de belichting",
-            "de ruimtegestiek",
+            "de mimiek van de speler",
             "de fysionomie"
           ],
           "antwoord": [
             0,
-            1,
-            2
+            1
           ],
-          "uitleg": "Fysionomie gaat over het lichaam van de speler zelf. De andere vormen samen de scenische ruimte."
+          "uitleg": "Fysionomie en mimiek gaan over het lichaam van de speler zelf. Het decor en de belichting vormen samen de scenische ruimte."
         },
         {
           "type": "waarofniet",
@@ -4338,12 +4376,14 @@
             "de metafoor",
             "de personificatie",
             "de synesthesie",
-            "de ellips"
+            "de ellips",
+            "de metonymie"
           ],
           "antwoord": [
             0,
             1,
-            2
+            2,
+            4
           ],
           "uitleg": "Een ellips is het weglaten van een woord, geen beeld. De andere zetten wel een beeld in."
         },
@@ -4409,15 +4449,14 @@
           "opties": [
             "de voet van de berg",
             "het hart van de stad",
-            "de arm van de wet",
+            "zo sterk als een beer",
             "zo zwart als roet"
           ],
           "antwoord": [
             0,
-            1,
-            2
+            1
           ],
-          "uitleg": "De laatste bevat het woordje als en is dus een vergelijking. De andere zetten het beeld rechtstreeks neer."
+          "uitleg": "Wat het woordje als bevat, is een vergelijking. De voet van de berg en het hart van de stad zetten het beeld rechtstreeks neer."
         },
         {
           "type": "invultekst",
@@ -4593,12 +4632,14 @@
             "de anafoor",
             "het parallellisme",
             "het chiasme",
-            "de hyperbool"
+            "de hyperbool",
+            "de inversie"
           ],
           "antwoord": [
             0,
             1,
-            2
+            2,
+            4
           ],
           "uitleg": "Een hyperbool overdrijft maar herhaalt niets. De andere spelen met de bouw of de herhaling."
         },
@@ -4663,16 +4704,15 @@
           "vraag": "Welke stijlfiguren verzwakken of verzachten wat er bedoeld wordt?",
           "opties": [
             "de litotes",
-            "het understatement",
+            "de superlatief",
             "het eufemisme",
             "de hyperbool"
           ],
           "antwoord": [
             0,
-            1,
             2
           ],
-          "uitleg": "Een hyperbool doet net het omgekeerde: die vergroot. De andere maken iets kleiner of zachter."
+          "uitleg": "Een hyperbool en een superlatief doen net het omgekeerde: die vergroten. Een litotes en een eufemisme maken iets kleiner of zachter."
         },
         {
           "type": "waarofniet",
@@ -4768,12 +4808,14 @@
             "de voorhoofse literatuur",
             "de hoofse literatuur",
             "de rederijkers",
-            "de romantiek"
+            "de romantiek",
+            "de geestelijke literatuur"
           ],
           "antwoord": [
             0,
             1,
-            2
+            2,
+            4
           ],
           "uitleg": "De romantiek hoort bij de moderne tijd, rond 1800. De andere zijn middeleeuws."
         },
@@ -4798,12 +4840,14 @@
             "de renaissance",
             "de barok",
             "de verlichting",
-            "het naturalisme"
+            "het naturalisme",
+            "het classicisme"
           ],
           "antwoord": [
             0,
             1,
-            2
+            2,
+            4
           ],
           "uitleg": "Het naturalisme is negentiende-eeuws. De andere horen bij de vroegmoderne tijd."
         },
@@ -4868,16 +4912,15 @@
           "vraag": "Welke kenmerken horen bij het naturalisme?",
           "opties": [
             "de hoofdfiguur is vaak nerveus of zwak",
-            "taboeonderwerpen worden niet vermeden",
+            "het verhaal eindigt altijd goed",
             "erfelijkheid en milieu sturen het verhaal",
             "de werkelijkheid wordt verheerlijkt"
           ],
           "antwoord": [
             0,
-            1,
             2
           ],
-          "uitleg": "Verheerlijken is net wat het naturalisme niet doet. Het kijkt koel en soms genadeloos."
+          "uitleg": "Verheerlijken en een goed einde zijn net wat het naturalisme niet doet. Het kijkt koel en soms genadeloos naar een figuur die haar leven niet in de hand heeft."
         },
         {
           "type": "waarofniet",
@@ -5010,15 +5053,14 @@
           "opties": [
             "het expressionisme",
             "het existentialisme",
-            "de nieuwe zakelijkheid",
+            "de romantiek",
             "het postmodernisme"
           ],
           "antwoord": [
             0,
-            1,
-            2
+            1
           ],
-          "uitleg": "Het postmodernisme hoort bij de hedendaagse tijd. De andere staan bij de moderne tijd."
+          "uitleg": "Het postmodernisme hoort bij de hedendaagse tijd en de romantiek bij de negentiende eeuw. Het expressionisme en het existentialisme staan wel bij de moderne tijd."
         },
         {
           "type": "meerkeuze",
@@ -5095,12 +5137,14 @@
             "twijfel aan één grote waarheid",
             "spel met verwijzingen naar andere teksten",
             "het doorbreken van de illusie van het verhaal",
-            "het geloof in de vooruitgang van de wetenschap"
+            "het geloof in de vooruitgang van de wetenschap",
+            "de grens tussen hoge en lage cultuur vervaagt"
           ],
           "antwoord": [
             0,
             1,
-            2
+            2,
+            4
           ],
           "uitleg": "Het geloof in de grote vooruitgang is net wat het postmodernisme in twijfel trekt."
         },
@@ -5198,14 +5242,16 @@
             "regionale variëteiten",
             "sociale variëteiten",
             "situationele variëteiten",
-            "alfabetische variëteiten"
+            "alfabetische variëteiten",
+            "nationale variëteiten"
           ],
           "antwoord": [
             0,
             1,
-            2
+            2,
+            4
           ],
-          "uitleg": "Alfabetische variëteiten bestaan niet. Naast de drie genoemde zijn er ook nationale variëteiten."
+          "uitleg": "Alfabetische variëteiten bestaan niet. De andere soorten komen wel in de rij voor."
         },
         {
           "type": "invultekst",
@@ -5270,12 +5316,14 @@
             "een variëteit kan de communicatie vlotter maken",
             "een variëteit kan ook miscommunicatie veroorzaken",
             "sprekers wisselen tussen variëteiten naargelang de situatie",
-            "een dialect is een slordige vorm van standaardtaal"
+            "een dialect is een slordige vorm van standaardtaal",
+            "standaardtaal is zelf ook een variëteit"
           ],
           "antwoord": [
             0,
             1,
-            2
+            2,
+            4
           ],
           "uitleg": "Een dialect is geen slordige standaardtaal maar een eigen systeem met eigen regels. De andere kloppen wel."
         },
@@ -5343,15 +5391,14 @@
           "opties": [
             "een gesprek met vrienden",
             "een praatje op een feestje",
-            "een telefoontje met een kennis",
+            "een verslag voor de directie",
             "een sollicitatiebrief"
           ],
           "antwoord": [
             0,
-            1,
-            2
+            1
           ],
-          "uitleg": "In een sollicitatiebrief verwacht men standaardtaal. De andere zijn informele situaties."
+          "uitleg": "In een sollicitatiebrief en in een verslag voor de directie verwacht men standaardtaal. Met vrienden of op een feestje kan tussentaal wel."
         },
         {
           "type": "invultekst",
@@ -5417,12 +5464,14 @@
             "een sollicitatiebrief",
             "een mail aan een schooldirectie",
             "een klacht bij een officiële instantie",
-            "een appje aan je beste vriend"
+            "een appje aan je beste vriend",
+            "een brief aan je verhuurder"
           ],
           "antwoord": [
             0,
             1,
-            2
+            2,
+            4
           ],
           "uitleg": "Het laatste vraagt net een informeel register. Bij de andere hoort afstand en beleefdheid."
         },
@@ -5488,15 +5537,14 @@
           "opties": [
             "u gebruiken in plaats van je",
             "volledige zinnen schrijven",
-            "afkortingen vermijden",
+            "afkortingen gebruiken",
             "emoji's toevoegen"
           ],
           "antwoord": [
             0,
-            1,
-            2
+            1
           ],
-          "uitleg": "Emoji's maken een tekst juist informeler. De andere verhogen de afstand."
+          "uitleg": "Emoji's en afkortingen maken een tekst juist informeler. U gebruiken en volledige zinnen schrijven verhogen de afstand."
         },
         {
           "type": "invultekst",
@@ -5562,12 +5610,14 @@
             "afkortingen",
             "korte, losse zinnen",
             "aanspreking met je of jij",
-            "een formele slotgroet"
+            "een formele slotgroet",
+            "emoji's"
           ],
           "antwoord": [
             0,
             1,
-            2
+            2,
+            4
           ],
           "uitleg": "Een formele slotgroet hoort bij het andere register. De andere maken een tekst los en nabij."
         },
@@ -5634,16 +5684,15 @@
           "vraag": "Waar kom je stereotypering op basis van taal tegen?",
           "opties": [
             "in stripverhalen",
-            "in reclame",
+            "in een spellingchecker",
             "in humoristische tv-programma's",
             "in een woordenlijst"
           ],
           "antwoord": [
             0,
-            1,
             2
           ],
-          "uitleg": "Een woordenlijst noteert alleen. De andere leggen graag een verband tussen iemands accent en zijn karakter."
+          "uitleg": "Een woordenlijst en een spellingchecker noteren of controleren alleen. Strips en humoristische programma's leggen graag een verband tussen iemands accent en zijn karakter."
         },
         {
           "type": "invultekst",
@@ -5679,12 +5728,14 @@
             "jargon dat buitenstaanders niet begrijpen",
             "elitair taalgebruik in een openbaar gesprek",
             "een variëteit die anderen niet beheersen",
-            "een tekst met korte, heldere zinnen"
+            "een tekst met korte, heldere zinnen",
+            "een formulier vol ambtelijke taal"
           ],
           "antwoord": [
             0,
             1,
-            2
+            2,
+            4
           ],
           "uitleg": "Korte, heldere zinnen sluiten net niemand uit. De andere zetten een drempel op."
         },
@@ -5750,15 +5801,14 @@
           "opties": [
             "je taalgebruik is een deel van wie je bent",
             "je oordeelt ook zelf over anderen op hun taal",
-            "inzicht hierin leidt tot meer begrip",
+            "een accent zegt iets over iemands verstand",
             "je taalgebruik ligt van bij je geboorte vast"
           ],
           "antwoord": [
             0,
-            1,
-            2
+            1
           ],
-          "uitleg": "Taalgebruik verandert je hele leven lang, met je omgeving en je rollen mee. De andere kloppen wel."
+          "uitleg": "Een accent zegt niets over iemands verstand, en je taalgebruik ligt niet van bij je geboorte vast: het verandert je hele leven lang, met je omgeving en je rollen mee."
         },
         {
           "type": "waarofniet",
@@ -5842,12 +5892,14 @@
             "lichaamstaal",
             "oogcontact",
             "kleding en uiterlijk",
-            "de woorden die je kiest"
+            "de woorden die je kiest",
+            "gezichtsuitdrukking"
           ],
           "antwoord": [
             0,
             1,
-            2
+            2,
+            4
           ],
           "uitleg": "De woorden zelf zijn verbaal. Alles wat daarnaast meespeelt, is non-verbaal."
         },
@@ -5925,15 +5977,14 @@
           "opties": [
             "een pauze laten vallen",
             "het volume verhogen",
-            "trager gaan spreken",
+            "een woord in het vet zetten",
             "een ander lettertype kiezen"
           ],
           "antwoord": [
             0,
-            1,
-            2
+            1
           ],
-          "uitleg": "Een lettertype hoort bij geschreven taal. De andere zitten in de stem."
+          "uitleg": "Een lettertype en vette letters horen bij geschreven taal. Een pauze en meer volume zitten in de stem."
         },
         {
           "type": "invultekst",
@@ -5998,12 +6049,14 @@
             "oogcontact maken",
             "de armen niet gekruist houden",
             "je naar de spreker toe draaien",
-            "op je telefoon kijken"
+            "op je telefoon kijken",
+            "knikken terwijl de ander spreekt"
           ],
           "antwoord": [
             0,
             1,
-            2
+            2,
+            4
           ],
           "uitleg": "Op je telefoon kijken doet net het omgekeerde. De andere laten zien dat je er bent voor de ander."
         },
@@ -6070,15 +6123,14 @@
           "opties": [
             "lange klanken",
             "korte klanken",
-            "doffe klanken",
+            "holle klanken",
             "ronde klanken"
           ],
           "antwoord": [
             0,
-            1,
-            2
+            1
           ],
-          "uitleg": "Ronde klanken staan niet in de rij. De doffe klank is de onbeklemtoonde e, zoals in 'de' of in de laatste lettergreep van 'lopen'."
+          "uitleg": "Ronde en holle klanken staan niet in de rij. Naast lang en kort is er ook de doffe klank: de onbeklemtoonde e, zoals in 'de' of in de laatste lettergreep van 'lopen'."
         },
         {
           "type": "invultekst",
@@ -6131,12 +6183,14 @@
             "namen van personen",
             "namen van landen",
             "namen van talen",
-            "namen van weekdagen"
+            "namen van weekdagen",
+            "namen van steden"
           ],
           "antwoord": [
             0,
             1,
-            2
+            2,
+            4
           ],
           "uitleg": "Weekdagen en maanden schrijf je in het Nederlands klein, anders dan in het Engels."
         },
@@ -6185,12 +6239,14 @@
             "maan",
             "boom",
             "deur",
-            "pit"
+            "pit",
+            "zeep"
           ],
           "antwoord": [
             0,
             1,
-            2
+            2,
+            4
           ],
           "uitleg": "In pit klinkt de i kort. De andere hebben een lang klinkend geluid."
         },

@@ -26,11 +26,11 @@ DEEL1 = [
         opties=[
             "lange klanken",
             "korte klanken",
-            "doffe klanken",
+            "holle klanken",
             "ronde klanken",
         ],
-        antwoord=[0, 1, 2],
-        uitleg="Ronde klanken staan niet in de rij. De doffe klank is de onbeklemtoonde e, zoals in 'de' of in de laatste lettergreep van 'lopen'.",
+        antwoord=[0, 1],
+        uitleg="Ronde en holle klanken staan niet in de rij. Naast lang en kort is er ook de doffe klank: de onbeklemtoonde e, zoals in 'de' of in de laatste lettergreep van 'lopen'.",
     ),
     dict(
         type="invultekst",
@@ -82,8 +82,9 @@ DEEL1 = [
             "namen van landen",
             "namen van talen",
             "namen van weekdagen",
+            "namen van steden",
         ],
-        antwoord=[0, 1, 2],
+        antwoord=[0, 1, 2, 4],
         uitleg="Weekdagen en maanden schrijf je in het Nederlands klein, anders dan in het Engels.",
     ),
     dict(
@@ -130,8 +131,9 @@ DEEL1 = [
             "boom",
             "deur",
             "pit",
+            "zeep",
         ],
-        antwoord=[0, 1, 2],
+        antwoord=[0, 1, 2, 4],
         uitleg="In pit klinkt de i kort. De andere hebben een lang klinkend geluid.",
     ),
     dict(

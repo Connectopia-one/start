@@ -31,8 +31,9 @@ DEEL1 = [
             "de hoofse literatuur",
             "de rederijkers",
             "de romantiek",
+            "de geestelijke literatuur",
         ],
-        antwoord=[0, 1, 2],
+        antwoord=[0, 1, 2, 4],
         uitleg="De romantiek hoort bij de moderne tijd, rond 1800. De andere zijn middeleeuws.",
     ),
     dict(
@@ -55,8 +56,9 @@ DEEL1 = [
             "de barok",
             "de verlichting",
             "het naturalisme",
+            "het classicisme",
         ],
-        antwoord=[0, 1, 2],
+        antwoord=[0, 1, 2, 4],
         uitleg="Het naturalisme is negentiende-eeuws. De andere horen bij de vroegmoderne tijd.",
     ),
     dict(
@@ -118,12 +120,12 @@ DEEL1 = [
         vraag="Welke kenmerken horen bij het naturalisme?",
         opties=[
             "de hoofdfiguur is vaak nerveus of zwak",
-            "taboeonderwerpen worden niet vermeden",
+            "het verhaal eindigt altijd goed",
             "erfelijkheid en milieu sturen het verhaal",
             "de werkelijkheid wordt verheerlijkt",
         ],
-        antwoord=[0, 1, 2],
-        uitleg="Verheerlijken is net wat het naturalisme niet doet. Het kijkt koel en soms genadeloos.",
+        antwoord=[0, 2],
+        uitleg="Verheerlijken en een goed einde zijn net wat het naturalisme niet doet. Het kijkt koel en soms genadeloos naar een figuur die haar leven niet in de hand heeft.",
     ),
     dict(
         type="waarofniet",
@@ -248,11 +250,11 @@ DEEL2 = [
         opties=[
             "het expressionisme",
             "het existentialisme",
-            "de nieuwe zakelijkheid",
+            "de romantiek",
             "het postmodernisme",
         ],
-        antwoord=[0, 1, 2],
-        uitleg="Het postmodernisme hoort bij de hedendaagse tijd. De andere staan bij de moderne tijd.",
+        antwoord=[0, 1],
+        uitleg="Het postmodernisme hoort bij de hedendaagse tijd en de romantiek bij de negentiende eeuw. Het expressionisme en het existentialisme staan wel bij de moderne tijd.",
     ),
     dict(
         type="meerkeuze",
@@ -328,8 +330,9 @@ DEEL2 = [
             "spel met verwijzingen naar andere teksten",
             "het doorbreken van de illusie van het verhaal",
             "het geloof in de vooruitgang van de wetenschap",
+            "de grens tussen hoge en lage cultuur vervaagt",
         ],
-        antwoord=[0, 1, 2],
+        antwoord=[0, 1, 2, 4],
         uitleg="Het geloof in de grote vooruitgang is net wat het postmodernisme in twijfel trekt.",
     ),
     dict(

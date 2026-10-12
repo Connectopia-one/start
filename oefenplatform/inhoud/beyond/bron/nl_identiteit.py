@@ -25,12 +25,12 @@ DEEL1 = [
         vraag="Waar kom je stereotypering op basis van taal tegen?",
         opties=[
             "in stripverhalen",
-            "in reclame",
+            "in een spellingchecker",
             "in humoristische tv-programma's",
             "in een woordenlijst",
         ],
-        antwoord=[0, 1, 2],
-        uitleg="Een woordenlijst noteert alleen. De andere leggen graag een verband tussen iemands accent en zijn karakter.",
+        antwoord=[0, 2],
+        uitleg="Een woordenlijst en een spellingchecker noteren of controleren alleen. Strips en humoristische programma's leggen graag een verband tussen iemands accent en zijn karakter.",
     ),
     dict(
         type="invultekst",
@@ -64,8 +64,9 @@ DEEL1 = [
             "elitair taalgebruik in een openbaar gesprek",
             "een variëteit die anderen niet beheersen",
             "een tekst met korte, heldere zinnen",
+            "een formulier vol ambtelijke taal",
         ],
-        antwoord=[0, 1, 2],
+        antwoord=[0, 1, 2, 4],
         uitleg="Korte, heldere zinnen sluiten net niemand uit. De andere zetten een drempel op.",
     ),
     dict(
@@ -128,11 +129,11 @@ DEEL1 = [
         opties=[
             "je taalgebruik is een deel van wie je bent",
             "je oordeelt ook zelf over anderen op hun taal",
-            "inzicht hierin leidt tot meer begrip",
+            "een accent zegt iets over iemands verstand",
             "je taalgebruik ligt van bij je geboorte vast",
         ],
-        antwoord=[0, 1, 2],
-        uitleg="Taalgebruik verandert je hele leven lang, met je omgeving en je rollen mee. De andere kloppen wel.",
+        antwoord=[0, 1],
+        uitleg="Een accent zegt niets over iemands verstand, en je taalgebruik ligt niet van bij je geboorte vast: het verandert je hele leven lang, met je omgeving en je rollen mee.",
     ),
     dict(
         type="waarofniet",
@@ -211,8 +212,9 @@ DEEL2 = [
             "oogcontact",
             "kleding en uiterlijk",
             "de woorden die je kiest",
+            "gezichtsuitdrukking",
         ],
-        antwoord=[0, 1, 2],
+        antwoord=[0, 1, 2, 4],
         uitleg="De woorden zelf zijn verbaal. Alles wat daarnaast meespeelt, is non-verbaal.",
     ),
     dict(
@@ -287,11 +289,11 @@ DEEL2 = [
         opties=[
             "een pauze laten vallen",
             "het volume verhogen",
-            "trager gaan spreken",
+            "een woord in het vet zetten",
             "een ander lettertype kiezen",
         ],
-        antwoord=[0, 1, 2],
-        uitleg="Een lettertype hoort bij geschreven taal. De andere zitten in de stem.",
+        antwoord=[0, 1],
+        uitleg="Een lettertype en vette letters horen bij geschreven taal. Een pauze en meer volume zitten in de stem.",
     ),
     dict(
         type="invultekst",
@@ -355,8 +357,9 @@ DEEL2 = [
             "de armen niet gekruist houden",
             "je naar de spreker toe draaien",
             "op je telefoon kijken",
+            "knikken terwijl de ander spreekt",
         ],
-        antwoord=[0, 1, 2],
+        antwoord=[0, 1, 2, 4],
         uitleg="Op je telefoon kijken doet net het omgekeerde. De andere laten zien dat je er bent voor de ander.",
     ),
     dict(

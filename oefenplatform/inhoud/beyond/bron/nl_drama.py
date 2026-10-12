@@ -27,8 +27,9 @@ DEEL1 = [
             "het mirakelspel",
             "de moraliteit",
             "het episch theater",
+            "de sotternie",
         ],
-        antwoord=[0, 1, 2],
+        antwoord=[0, 1, 2, 4],
         uitleg="Episch theater is twintigste-eeuws. De andere zijn middeleeuws, met respectievelijk een ernstig verhaal, een wonder en een les.",
     ),
     dict(
@@ -105,8 +106,9 @@ DEEL1 = [
             "spoken word",
             "het absurd theater",
             "het abel spel",
+            "het documentair theater",
         ],
-        antwoord=[0, 1, 2],
+        antwoord=[0, 1, 2, 4],
         uitleg="Het abel spel is middeleeuws. De andere horen bij de twintigste en de eenentwintigste eeuw.",
     ),
     dict(
@@ -222,8 +224,9 @@ DEEL2 = [
             "gestiek",
             "fysionomie",
             "belichting",
+            "de stem",
         ],
-        antwoord=[0, 1, 2],
+        antwoord=[0, 1, 2, 4],
         uitleg="Belichting komt van buitenaf. Gezichtsuitdrukking, gebaren en lichaamsbouw horen bij de speler.",
     ),
     dict(
@@ -310,11 +313,11 @@ DEEL2 = [
         opties=[
             "het decor",
             "de belichting",
-            "de ruimtegestiek",
+            "de mimiek van de speler",
             "de fysionomie",
         ],
-        antwoord=[0, 1, 2],
-        uitleg="Fysionomie gaat over het lichaam van de speler zelf. De andere vormen samen de scenische ruimte.",
+        antwoord=[0, 1],
+        uitleg="Fysionomie en mimiek gaan over het lichaam van de speler zelf. Het decor en de belichting vormen samen de scenische ruimte.",
     ),
     dict(
         type="waarofniet",

@@ -29,8 +29,9 @@ DEEL1 = [
             "de ode",
             "de elegie",
             "de alinea",
+            "het sonnet",
         ],
-        antwoord=[0, 1, 2],
+        antwoord=[0, 1, 2, 4],
         uitleg="Een alinea hoort bij proza. De andere zijn vaste dichtvormen.",
     ),
     dict(
@@ -93,11 +94,11 @@ DEEL1 = [
         opties=[
             "slampoetry",
             "het minnelied",
-            "de ballade",
+            "de kalligram",
             "typografische poëzie",
         ],
-        antwoord=[0, 1, 2],
-        uitleg="Typografische poëzie moet je net zien staan. De andere leven van de stem en het publiek.",
+        antwoord=[0, 1],
+        uitleg="Typografische poëzie en een kalligram moet je net zien staan. Slampoetry en het minnelied leven van de stem en het publiek.",
     ),
     dict(
         type="invultekst",
@@ -129,11 +130,11 @@ DEEL1 = [
         opties=[
             "kwintet is vijf",
             "sextet is zes",
-            "septet is zeven",
+            "octaaf is zes",
             "terzine is vier",
         ],
-        antwoord=[0, 1, 2],
-        uitleg="Een terzine telt drie verzen, niet vier. Vier verzen is een kwatrijn.",
+        antwoord=[0, 1],
+        uitleg="Een terzine telt drie verzen, niet vier, en een octaaf telt er acht, niet zes. Vier verzen is een kwatrijn.",
     ),
     dict(
         type="waarofniet",
@@ -258,11 +259,11 @@ DEEL2 = [
         opties=[
             "aabb is gepaard rijm",
             "abba is omarmend rijm",
-            "abab is gekruist rijm",
+            "abab is slagrijm",
             "aaaa is omarmend rijm",
         ],
-        antwoord=[0, 1, 2],
-        uitleg="Bij abba omarmt het eerste rijm het tweede. Vier dezelfde klanken na elkaar is geen omarmend rijm.",
+        antwoord=[0, 1],
+        uitleg="Bij abba omarmt het eerste rijm het tweede, en abab heet gekruist rijm, geen slagrijm. Vier dezelfde klanken na elkaar is geen omarmend rijm.",
     ),
     dict(
         type="waarofniet",
@@ -356,8 +357,9 @@ DEEL2 = [
             "alliteratie",
             "volrijm",
             "enjambement",
+            "binnenrijm",
         ],
-        antwoord=[0, 1, 2],
+        antwoord=[0, 1, 2, 4],
         uitleg="Enjambement gaat over de bouw van de zin tegenover het vers, niet over klank. De andere zijn klankverschijnselen.",
     ),
     dict(
