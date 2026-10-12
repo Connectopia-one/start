@@ -212,8 +212,14 @@ DEEL2 = [
     dict(
         type="meerkeuze",
         vraag="Welke celonderdelen hebben een plantaardige én een dierlijke cel allebei?",
-        opties=["Celkern", "Cytoplasma", "Mitochondriën", "Celwand"],
-        antwoord=[0, 1, 2],
+        opties=[
+            "Celkern",
+            "Cytoplasma",
+            "Mitochondriën",
+            "Celwand",
+            "Celmembraan",
+        ],
+        antwoord=[0, 1, 2, 4],
         uitleg="Celkern, celmembraan, cytoplasma en mitochondriën vind je in allebei. Alleen de celwand, de bladgroenkorrels en de grote vacuole zijn typisch plantaardig.",
     ),
     dict(

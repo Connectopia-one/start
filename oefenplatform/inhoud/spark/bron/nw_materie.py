@@ -257,9 +257,10 @@ DEEL2 = [
             "Zout dat oplost in water",
             "Boter die smelt",
             "Een appel die bruin wordt",
+            "Water dat bevriest",
         ],
-        antwoord=[0, 1, 2],
-        uitleg="Bij de drie juiste antwoorden blijft de stof zichzelf. Een appel die bruin wordt, reageert met zuurstof uit de lucht: dat is chemisch.",
+        antwoord=[0, 1, 2, 4],
+        uitleg="Bij de vier juiste antwoorden blijft de stof zichzelf. Een appel die bruin wordt, reageert met zuurstof uit de lucht: dat is chemisch.",
     ),
     dict(
         type="meerkeuze",

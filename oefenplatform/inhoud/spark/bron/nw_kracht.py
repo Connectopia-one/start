@@ -57,8 +57,14 @@ DEEL1 = [
     dict(
         type="meerkeuze",
         vraag="Welke van deze zijn energievormen?",
-        opties=["Thermische energie", "Kernenergie", "Stralingsenergie", "Massadichtheid"],
-        antwoord=[0, 1, 2],
+        opties=[
+            "Thermische energie",
+            "Kernenergie",
+            "Stralingsenergie",
+            "Massadichtheid",
+            "Chemische energie",
+        ],
+        antwoord=[0, 1, 2, 4],
         uitleg="Thermische, elektrische, potentiële, kinetische, chemische, kern- en stralingsenergie zijn energievormen. Massadichtheid is een stofeigenschap.",
     ),
     dict(
@@ -85,8 +91,14 @@ DEEL1 = [
     dict(
         type="meerkeuze",
         vraag="Welke van deze zijn krachten?",
-        opties=["Wrijvingskracht", "Spierkracht", "Veerkracht", "Kinetische energie"],
-        antwoord=[0, 1, 2],
+        opties=[
+            "Wrijvingskracht",
+            "Spierkracht",
+            "Veerkracht",
+            "Kinetische energie",
+            "Zwaartekracht",
+        ],
+        antwoord=[0, 1, 2, 4],
         uitleg="Zwaartekracht, wrijvingskracht, trekkracht, duwkracht, spierkracht, motorkracht en veerkracht zijn krachten. Energie is iets anders: die heeft geen richting.",
     ),
     dict(

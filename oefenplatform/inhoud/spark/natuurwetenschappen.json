@@ -260,12 +260,14 @@
             "Celkern",
             "Cytoplasma",
             "Mitochondriën",
-            "Celwand"
+            "Celwand",
+            "Celmembraan"
           ],
           "antwoord": [
             0,
             1,
-            2
+            2,
+            4
           ],
           "uitleg": "Celkern, celmembraan, cytoplasma en mitochondriën vind je in allebei. Alleen de celwand, de bladgroenkorrels en de grote vacuole zijn typisch plantaardig."
         },
@@ -604,14 +606,16 @@
             "Het blad",
             "De bladgroenkorrels",
             "De huidmondjes",
-            "De bloem"
+            "De bloem",
+            "De nerven, die het water aanvoeren"
           ],
           "antwoord": [
             0,
             1,
-            2
+            2,
+            4
           ],
-          "uitleg": "Het blad vangt licht op, de bladgroenkorrels doen de omzetting en de huidmondjes laten de gassen door. De bloem dient voor de voortplanting."
+          "uitleg": "Het blad vangt licht op, de nerven voeren het water aan, de bladgroenkorrels doen de omzetting en de huidmondjes laten de gassen door. De bloem dient voor de voortplanting."
         },
         {
           "type": "meerkeuze",
@@ -1010,12 +1014,14 @@
             "De nieren",
             "De zweetklieren",
             "De longen",
-            "De maag"
+            "De maag",
+            "De urineleiders"
           ],
           "antwoord": [
             0,
             1,
-            2
+            2,
+            4
           ],
           "uitleg": "Afvalstoffen verlaten je lichaam langs de nieren (urine), de zweetklieren (zweet) en de longen (koolstofdioxide en waterdamp). De maag verteert, maar scheidt niet uit."
         },
@@ -1129,12 +1135,14 @@
             "Maagsap",
             "Alvleessap",
             "Darmsap",
-            "Zweet"
+            "Zweet",
+            "Speeksel"
           ],
           "antwoord": [
             0,
             1,
-            2
+            2,
+            4
           ],
           "uitleg": "Speeksel, maagsap, gal, alvleessap en darmsap horen bij de vertering. Zweet is een uitscheidingsproduct en heeft er niets mee te maken."
         },
@@ -1201,12 +1209,14 @@
             "De schors",
             "Het merg",
             "Het nierbekken",
-            "De boezem"
+            "De boezem",
+            "Het kapsel"
           ],
           "antwoord": [
             0,
             1,
-            2
+            2,
+            4
           ],
           "uitleg": "Een nier bestaat van buiten naar binnen uit het kapsel, de schors, het merg met zijn piramides, en het bekken waar de urine samenkomt. Een boezem is een deel van het hart."
         },
@@ -1364,12 +1374,14 @@
             "De stempel",
             "De stijl",
             "Het vruchtbeginsel",
-            "De helmknop"
+            "De helmknop",
+            "De zaadbeginsels"
           ],
           "antwoord": [
             0,
             1,
-            2
+            2,
+            4
           ],
           "uitleg": "De stamper heeft bovenaan een kleverige stempel, daaronder de stijl en onderaan het vruchtbeginsel met de zaadbeginsels. De helmknop hoort bij de meeldraad."
         },
@@ -1414,12 +1426,14 @@
             "De eierstokken",
             "De eileiders",
             "De baarmoeder",
-            "De zaadleiders"
+            "De zaadleiders",
+            "De vagina"
           ],
           "antwoord": [
             0,
             1,
-            2
+            2,
+            4
           ],
           "uitleg": "Eierstokken, eileiders met hun eitrechters, baarmoeder, baarmoederhals, vagina, clitoris en schaamlippen. De zaadleiders horen bij het mannelijke stelsel."
         },
@@ -1559,12 +1573,14 @@
             "De eicelrijping",
             "De verdikking van het baarmoederslijmvlies",
             "De eisprong",
-            "De geboorte"
+            "De geboorte",
+            "De menstruatie"
           ],
           "antwoord": [
             0,
             1,
-            2
+            2,
+            4
           ],
           "uitleg": "Rijpen van een eicel, verdikken van het slijmvlies, eisprong en, als er geen bevruchting is, de menstruatie. De geboorte hoort bij een zwangerschap, niet bij de cyclus."
         },
@@ -1640,12 +1656,14 @@
             "De anticonceptiepil",
             "De vaginale ring",
             "Het hormonenstaafje",
-            "Het condoom"
+            "Het condoom",
+            "De pleister"
           ],
           "antwoord": [
             0,
             1,
-            2
+            2,
+            4
           ],
           "uitleg": "De pil, de pleister, de ring, de prikpil, het staafje en het hormonenspiraaltje werken met hormonen. Het condoom en het koperspiraaltje niet."
         },
@@ -1940,14 +1958,16 @@
             "Voedsel",
             "Bescherming",
             "Voortplanting",
-            "Luchtdruk"
+            "Luchtdruk",
+            "Concurrentie om ruimte"
           ],
           "antwoord": [
             0,
             1,
-            2
+            2,
+            4
           ],
-          "uitleg": "Organismen hebben elkaar nodig om te eten, om te schuilen en om zich voort te planten, bijvoorbeeld een bij die een bloem bestuift. Luchtdruk is geen relatie maar een abiotische factor."
+          "uitleg": "Organismen hebben elkaar nodig om te eten, om te schuilen en om zich voort te planten, en ze beconcurreren elkaar om ruimte. Luchtdruk is geen relatie maar een abiotische factor."
         },
         {
           "type": "waarofniet",
@@ -2018,12 +2038,14 @@
             "Ontbossing",
             "Overbevissing",
             "Monocultuur",
-            "Ecoducten"
+            "Ecoducten",
+            "Verharding"
           ],
           "antwoord": [
             0,
             1,
-            2
+            2,
+            4
           ],
           "uitleg": "Ontbossing, overbevissing, vervuiling, verharding en monocultuur maken een gebied armer aan soorten. Een ecoduct doet net het omgekeerde: het verbindt gebieden weer."
         },
@@ -2540,14 +2562,16 @@
             "Een glas dat breekt",
             "Zout dat oplost in water",
             "Boter die smelt",
-            "Een appel die bruin wordt"
+            "Een appel die bruin wordt",
+            "Water dat bevriest"
           ],
           "antwoord": [
             0,
             1,
-            2
+            2,
+            4
           ],
-          "uitleg": "Bij de drie juiste antwoorden blijft de stof zichzelf. Een appel die bruin wordt, reageert met zuurstof uit de lucht: dat is chemisch."
+          "uitleg": "Bij de vier juiste antwoorden blijft de stof zichzelf. Een appel die bruin wordt, reageert met zuurstof uit de lucht: dat is chemisch."
         },
         {
           "type": "meerkeuze",
@@ -3110,12 +3134,14 @@
             "Thermische energie",
             "Kernenergie",
             "Stralingsenergie",
-            "Massadichtheid"
+            "Massadichtheid",
+            "Chemische energie"
           ],
           "antwoord": [
             0,
             1,
-            2
+            2,
+            4
           ],
           "uitleg": "Thermische, elektrische, potentiële, kinetische, chemische, kern- en stralingsenergie zijn energievormen. Massadichtheid is een stofeigenschap."
         },
@@ -3159,12 +3185,14 @@
             "Wrijvingskracht",
             "Spierkracht",
             "Veerkracht",
-            "Kinetische energie"
+            "Kinetische energie",
+            "Zwaartekracht"
           ],
           "antwoord": [
             0,
             1,
-            2
+            2,
+            4
           ],
           "uitleg": "Zwaartekracht, wrijvingskracht, trekkracht, duwkracht, spierkracht, motorkracht en veerkracht zijn krachten. Energie is iets anders: die heeft geen richting."
         },
@@ -3508,14 +3536,16 @@
             "Meetinstrumenten uitschakelen als je niet meet",
             "Zuinig omspringen met chemische stoffen",
             "Biologisch afval correct sorteren",
-            "Elektrische toestellen met natte handen bedienen"
+            "Elektrische toestellen met natte handen bedienen",
+            "Een veiligheidsbril dragen waar dat nodig is"
           ],
           "antwoord": [
             0,
             1,
-            2
+            2,
+            4
           ],
-          "uitleg": "De drie juiste antwoorden sparen energie, materiaal en milieu. Natte handen en elektriciteit gaan nooit samen: dat is net gevaarlijk."
+          "uitleg": "De vier juiste antwoorden sparen energie, materiaal en milieu, of je eigen ogen. Natte handen en elektriciteit gaan nooit samen: dat is net gevaarlijk."
         },
         {
           "type": "waarofniet",
@@ -3563,12 +3593,14 @@
             "Een meetlat",
             "Een rolmeter",
             "Een schuifmaat",
-            "Een chronometer"
+            "Een chronometer",
+            "Een vouwmeter"
           ],
           "antwoord": [
             0,
             1,
-            2
+            2,
+            4
           ],
           "uitleg": "Meetlat, rolmeter, vouwmeter, schuifmaat en micrometer meten lengte. Een chronometer meet tijdsduur."
         },
@@ -3980,12 +4012,14 @@
             "Open",
             "Enkelvoudig",
             "Onderzoekbaar",
-            "Grappig"
+            "Grappig",
+            "Haalbaar"
           ],
           "antwoord": [
             0,
             1,
-            2
+            2,
+            4
           ],
           "uitleg": "De zes criteria uit de vakfiche zijn: open, enkelvoudig, objectief, haalbaar, onderzoekbaar en relevant. Die lijst krijg je ook op het examen."
         },
@@ -4068,12 +4102,14 @@
             "Een tabel",
             "Een grafiek",
             "Een schets",
-            "Een gevoel"
+            "Een gevoel",
+            "Een formule"
           ],
           "antwoord": [
             0,
             1,
-            2
+            2,
+            4
           ],
           "uitleg": "Een schets, een tabel, een grafiek, een formule of een vergelijking zijn manieren om je gegevens overzichtelijk voor te stellen."
         },
@@ -4303,14 +4339,16 @@
             "Je onderzoeksvraag en hypothese",
             "Je werkwijze en je resultaten",
             "Je conclusie en je reflectie",
-            "Enkel de resultaten die je hypothese bevestigen"
+            "Enkel de resultaten die je hypothese bevestigen",
+            "De bronnen die je gebruikt hebt"
           ],
           "antwoord": [
             0,
             1,
-            2
+            2,
+            4
           ],
-          "uitleg": "Communiceren betekent eerlijk en volledig rapporteren. Resultaten weglaten omdat ze niet passen, mag nooit."
+          "uitleg": "Communiceren betekent eerlijk en volledig rapporteren, bronnen inbegrepen. Resultaten weglaten omdat ze niet passen, mag nooit."
         },
         {
           "type": "meerkeuze",

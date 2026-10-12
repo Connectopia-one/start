@@ -59,8 +59,14 @@ DEEL1 = [
     dict(
         type="meerkeuze",
         vraag="Uit welke onderdelen bestaat de stamper?",
-        opties=["De stempel", "De stijl", "Het vruchtbeginsel", "De helmknop"],
-        antwoord=[0, 1, 2],
+        opties=[
+            "De stempel",
+            "De stijl",
+            "Het vruchtbeginsel",
+            "De helmknop",
+            "De zaadbeginsels",
+        ],
+        antwoord=[0, 1, 2, 4],
         uitleg="De stamper heeft bovenaan een kleverige stempel, daaronder de stijl en onderaan het vruchtbeginsel met de zaadbeginsels. De helmknop hoort bij de meeldraad.",
     ),
     dict(
@@ -96,8 +102,14 @@ DEEL1 = [
     dict(
         type="meerkeuze",
         vraag="Welke onderdelen horen bij het vrouwelijke voortplantingsstelsel?",
-        opties=["De eierstokken", "De eileiders", "De baarmoeder", "De zaadleiders"],
-        antwoord=[0, 1, 2],
+        opties=[
+            "De eierstokken",
+            "De eileiders",
+            "De baarmoeder",
+            "De zaadleiders",
+            "De vagina",
+        ],
+        antwoord=[0, 1, 2, 4],
         uitleg="Eierstokken, eileiders met hun eitrechters, baarmoeder, baarmoederhals, vagina, clitoris en schaamlippen. De zaadleiders horen bij het mannelijke stelsel.",
     ),
     dict(
@@ -207,8 +219,9 @@ DEEL2 = [
             "De verdikking van het baarmoederslijmvlies",
             "De eisprong",
             "De geboorte",
+            "De menstruatie",
         ],
-        antwoord=[0, 1, 2],
+        antwoord=[0, 1, 2, 4],
         uitleg="Rijpen van een eicel, verdikken van het slijmvlies, eisprong en, als er geen bevruchting is, de menstruatie. De geboorte hoort bij een zwangerschap, niet bij de cyclus.",
     ),
     dict(
@@ -267,8 +280,9 @@ DEEL2 = [
             "De vaginale ring",
             "Het hormonenstaafje",
             "Het condoom",
+            "De pleister",
         ],
-        antwoord=[0, 1, 2],
+        antwoord=[0, 1, 2, 4],
         uitleg="De pil, de pleister, de ring, de prikpil, het staafje en het hormonenspiraaltje werken met hormonen. Het condoom en het koperspiraaltje niet.",
     ),
     dict(

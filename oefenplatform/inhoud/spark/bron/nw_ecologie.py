@@ -151,9 +151,15 @@ DEEL1 = [
     dict(
         type="meerkeuze",
         vraag="Welke onderlinge relaties kunnen er tussen organismen zijn?",
-        opties=["Voedsel", "Bescherming", "Voortplanting", "Luchtdruk"],
-        antwoord=[0, 1, 2],
-        uitleg="Organismen hebben elkaar nodig om te eten, om te schuilen en om zich voort te planten, bijvoorbeeld een bij die een bloem bestuift. Luchtdruk is geen relatie maar een abiotische factor.",
+        opties=[
+            "Voedsel",
+            "Bescherming",
+            "Voortplanting",
+            "Luchtdruk",
+            "Concurrentie om ruimte",
+        ],
+        antwoord=[0, 1, 2, 4],
+        uitleg="Organismen hebben elkaar nodig om te eten, om te schuilen en om zich voort te planten, en ze beconcurreren elkaar om ruimte. Luchtdruk is geen relatie maar een abiotische factor.",
     ),
     dict(
         type="waarofniet",
@@ -200,8 +206,14 @@ DEEL2 = [
     dict(
         type="meerkeuze",
         vraag="Welke van deze hebben een negatieve invloed op de biodiversiteit?",
-        opties=["Ontbossing", "Overbevissing", "Monocultuur", "Ecoducten"],
-        antwoord=[0, 1, 2],
+        opties=[
+            "Ontbossing",
+            "Overbevissing",
+            "Monocultuur",
+            "Ecoducten",
+            "Verharding",
+        ],
+        antwoord=[0, 1, 2, 4],
         uitleg="Ontbossing, overbevissing, vervuiling, verharding en monocultuur maken een gebied armer aan soorten. Een ecoduct doet net het omgekeerde: het verbindt gebieden weer.",
     ),
     dict(

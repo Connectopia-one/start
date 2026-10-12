@@ -135,9 +135,15 @@ DEEL1 = [
     dict(
         type="meerkeuze",
         vraag="Welke plantendelen spelen een rol bij de fotosynthese?",
-        opties=["Het blad", "De bladgroenkorrels", "De huidmondjes", "De bloem"],
-        antwoord=[0, 1, 2],
-        uitleg="Het blad vangt licht op, de bladgroenkorrels doen de omzetting en de huidmondjes laten de gassen door. De bloem dient voor de voortplanting.",
+        opties=[
+            "Het blad",
+            "De bladgroenkorrels",
+            "De huidmondjes",
+            "De bloem",
+            "De nerven, die het water aanvoeren",
+        ],
+        antwoord=[0, 1, 2, 4],
+        uitleg="Het blad vangt licht op, de nerven voeren het water aan, de bladgroenkorrels doen de omzetting en de huidmondjes laten de gassen door. De bloem dient voor de voortplanting.",
     ),
     dict(
         type="meerkeuze",

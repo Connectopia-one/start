@@ -49,8 +49,14 @@ DEEL1 = [
     dict(
         type="meerkeuze",
         vraag="Welke criteria moet een goede onderzoeksvraag halen?",
-        opties=["Open", "Enkelvoudig", "Onderzoekbaar", "Grappig"],
-        antwoord=[0, 1, 2],
+        opties=[
+            "Open",
+            "Enkelvoudig",
+            "Onderzoekbaar",
+            "Grappig",
+            "Haalbaar",
+        ],
+        antwoord=[0, 1, 2, 4],
         uitleg="De zes criteria uit de vakfiche zijn: open, enkelvoudig, objectief, haalbaar, onderzoekbaar en relevant. Die lijst krijg je ook op het examen.",
     ),
     dict(
@@ -104,8 +110,14 @@ DEEL1 = [
     dict(
         type="meerkeuze",
         vraag="Welke van deze zijn modellen die je in een onderzoek kan gebruiken?",
-        opties=["Een tabel", "Een grafiek", "Een schets", "Een gevoel"],
-        antwoord=[0, 1, 2],
+        opties=[
+            "Een tabel",
+            "Een grafiek",
+            "Een schets",
+            "Een gevoel",
+            "Een formule",
+        ],
+        antwoord=[0, 1, 2, 4],
         uitleg="Een schets, een tabel, een grafiek, een formule of een vergelijking zijn manieren om je gegevens overzichtelijk voor te stellen.",
     ),
     dict(
@@ -281,9 +293,10 @@ DEEL2 = [
             "Je werkwijze en je resultaten",
             "Je conclusie en je reflectie",
             "Enkel de resultaten die je hypothese bevestigen",
+            "De bronnen die je gebruikt hebt",
         ],
-        antwoord=[0, 1, 2],
-        uitleg="Communiceren betekent eerlijk en volledig rapporteren. Resultaten weglaten omdat ze niet passen, mag nooit.",
+        antwoord=[0, 1, 2, 4],
+        uitleg="Communiceren betekent eerlijk en volledig rapporteren, bronnen inbegrepen. Resultaten weglaten omdat ze niet passen, mag nooit.",
     ),
     dict(
         type="meerkeuze",

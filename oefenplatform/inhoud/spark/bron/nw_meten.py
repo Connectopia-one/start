@@ -34,9 +34,10 @@ DEEL1 = [
             "Zuinig omspringen met chemische stoffen",
             "Biologisch afval correct sorteren",
             "Elektrische toestellen met natte handen bedienen",
+            "Een veiligheidsbril dragen waar dat nodig is",
         ],
-        antwoord=[0, 1, 2],
-        uitleg="De drie juiste antwoorden sparen energie, materiaal en milieu. Natte handen en elektriciteit gaan nooit samen: dat is net gevaarlijk.",
+        antwoord=[0, 1, 2, 4],
+        uitleg="De vier juiste antwoorden sparen energie, materiaal en milieu, of je eigen ogen. Natte handen en elektriciteit gaan nooit samen: dat is net gevaarlijk.",
     ),
     dict(
         type="waarofniet",
@@ -72,8 +73,14 @@ DEEL1 = [
     dict(
         type="meerkeuze",
         vraag="Welke instrumenten meten een lengte of een afstand?",
-        opties=["Een meetlat", "Een rolmeter", "Een schuifmaat", "Een chronometer"],
-        antwoord=[0, 1, 2],
+        opties=[
+            "Een meetlat",
+            "Een rolmeter",
+            "Een schuifmaat",
+            "Een chronometer",
+            "Een vouwmeter",
+        ],
+        antwoord=[0, 1, 2, 4],
         uitleg="Meetlat, rolmeter, vouwmeter, schuifmaat en micrometer meten lengte. Een chronometer meet tijdsduur.",
     ),
     dict(

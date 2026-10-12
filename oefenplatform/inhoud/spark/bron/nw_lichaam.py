@@ -114,8 +114,14 @@ DEEL1 = [
     dict(
         type="meerkeuze",
         vraag="Welke van deze horen bij het uitscheidingsstelsel?",
-        opties=["De nieren", "De zweetklieren", "De longen", "De maag"],
-        antwoord=[0, 1, 2],
+        opties=[
+            "De nieren",
+            "De zweetklieren",
+            "De longen",
+            "De maag",
+            "De urineleiders",
+        ],
+        antwoord=[0, 1, 2, 4],
         uitleg="Afvalstoffen verlaten je lichaam langs de nieren (urine), de zweetklieren (zweet) en de longen (koolstofdioxide en waterdamp). De maag verteert, maar scheidt niet uit.",
     ),
     dict(
@@ -194,8 +200,14 @@ DEEL2 = [
     dict(
         type="meerkeuze",
         vraag="Welke sappen helpen bij de vertering?",
-        opties=["Maagsap", "Alvleessap", "Darmsap", "Zweet"],
-        antwoord=[0, 1, 2],
+        opties=[
+            "Maagsap",
+            "Alvleessap",
+            "Darmsap",
+            "Zweet",
+            "Speeksel",
+        ],
+        antwoord=[0, 1, 2, 4],
         uitleg="Speeksel, maagsap, gal, alvleessap en darmsap horen bij de vertering. Zweet is een uitscheidingsproduct en heeft er niets mee te maken.",
     ),
     dict(
@@ -249,8 +261,14 @@ DEEL2 = [
     dict(
         type="meerkeuze",
         vraag="Welke onderdelen vind je in een nier?",
-        opties=["De schors", "Het merg", "Het nierbekken", "De boezem"],
-        antwoord=[0, 1, 2],
+        opties=[
+            "De schors",
+            "Het merg",
+            "Het nierbekken",
+            "De boezem",
+            "Het kapsel",
+        ],
+        antwoord=[0, 1, 2, 4],
         uitleg="Een nier bestaat van buiten naar binnen uit het kapsel, de schors, het merg met zijn piramides, en het bekken waar de urine samenkomt. Een boezem is een deel van het hart.",
     ),
     dict(
